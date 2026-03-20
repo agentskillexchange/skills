@@ -1,7 +1,7 @@
 # Agent Skill Exchange — Skills Repository
 
-[![Skills](https://img.shields.io/badge/skills-610+-6366f1)](https://agentskillexchange.com/browse-skills/)
-[![Verified](https://img.shields.io/badge/verified-610+-10b981)](https://agentskillexchange.com/verified-skills/)
+[![Skills](https://img.shields.io/badge/skills-626+-6366f1)](https://agentskillexchange.com/browse-skills/)
+[![Verified](https://img.shields.io/badge/verified-626+-10b981)](https://agentskillexchange.com/verified-skills/)
 [![npx skills](https://img.shields.io/badge/npx-skills-green)](https://www.npmjs.com/package/skills)
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
