@@ -1,11 +1,14 @@
 ---
-name: GitHub Issues → Fixes / PR Workflow
-description: Turn GitHub issues into implementation and pull request workflows.
-category: Developer Tools
-framework: Any Agent
+name: "GitHub Issues → Fixes / PR Workflow"
+description: "Turn GitHub issues into implementation and pull request workflows."
+category: "Developer Tools"
+framework: "OpenClaw"
 verification: security_reviewed
 rating: 4.6
 reviews: 20
+creator: Alex Thompson
+creator_handle: alexthompson
+creator_verified: true
 source: https://agentskillexchange.com/skill/github-issues-%e2%86%92-fixes-pr-workflow/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/github-issues-%e2%86%92-fixes-pr-wo
 
 Turn GitHub issues into implementation and pull request workflows.
 
-## Overview
-
-Turn GitHub issues into implementation and pull request workflows.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill github-issues-%e2%86%92-fixes-pr-workflow
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill github-issues-%e2%86%92-fixes-pr-workflow -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill github-issues-%e2%86%92-fixes-pr-workflow -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill github-issues-%e2%86%92-fixes-p
 clawhub install github-issues-%e2%86%92-fixes-pr-workflow
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add github-issues-%e2%86%92-fixes-pr-workflow
+npx skills add agentskillexchange/skills --skill github-issues-%e2%86%92-fixes-pr-workflow -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/github-issues-%e2%86%92-fixes-pr-workflow/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Developer Tools |
+| Framework | OpenClaw |
+| Verification | Security Reviewed |
+| Rating | 4.6/5 (20 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Developer Tools
-- **Framework**: Any Agent
-- **Rating**: 4.6/5 (20 reviews)
+**Alex Thompson** (Verified Creator ✓)
+- Profile: [@alexthompson](https://agentskillexchange.com/browse-skills/?creator=alexthompson)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/github-issues-%e2%86%92-fixes-pr-workflow/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/github-issues-%e2%86%92-fixes-pr-workflow/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

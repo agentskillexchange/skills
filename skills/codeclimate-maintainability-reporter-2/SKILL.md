@@ -1,11 +1,14 @@
 ---
-name: CodeClimate Maintainability Reporter
-description: Queries the CodeClimate API to fetch maintainability ratings, technical debt estimates, and code smell trends. Surfaces files with the worst churn-to-complexity ratio and outputs a prioritized refactor target list.
-category: Code Quality &amp; Review
-framework: Any Agent
+name: "CodeClimate Maintainability Reporter"
+description: "Queries the CodeClimate API to fetch maintainability ratings, technical debt estimates, and code smell trends. Surfaces files with the worst churn-to-complexity ratio and outputs a prioritized refactor target list."
+category: "Code Quality & Review"
+framework: "MCP-compatible"
 verification: verified_metadata
 rating: 4.4
 reviews: 38
+creator: James Whitfield
+creator_handle: jwhitfield
+creator_verified: true
 source: https://agentskillexchange.com/skill/codeclimate-maintainability-reporter-2/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/codeclimate-maintainability-reporte
 
 Queries the CodeClimate API to fetch maintainability ratings, technical debt estimates, and code smell trends. Surfaces files with the worst churn-to-complexity ratio and outputs a prioritized refactor target list.
 
-## Overview
-
-Queries the CodeClimate API to fetch maintainability ratings, technical debt estimates, and code smell trends. Surfaces files with the worst churn-to-complexity ratio and outputs a prioritized refactor target list.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill codeclimate-maintainability-reporter-2
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill codeclimate-maintainability-reporter-2 -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill codeclimate-maintainability-reporter-2 -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill codeclimate-maintainability-rep
 clawhub install codeclimate-maintainability-reporter-2
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add codeclimate-maintainability-reporter-2
+npx skills add agentskillexchange/skills --skill codeclimate-maintainability-reporter-2 -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/codeclimate-maintainability-reporter-2/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Code Quality & Review |
+| Framework | MCP-compatible |
+| Verification | Verified Metadata |
+| Rating | 4.4/5 (38 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: verified_metadata
-- **Category**: Code Quality &amp; Review
-- **Framework**: Any Agent
-- **Rating**: 4.4/5 (38 reviews)
+**James Whitfield** (Verified Creator ✓)
+- Profile: [@jwhitfield](https://agentskillexchange.com/browse-skills/?creator=jwhitfield)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/codeclimate-maintainability-reporter-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/codeclimate-maintainability-reporter-2/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

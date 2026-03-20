@@ -1,28 +1,39 @@
 ---
-name: Bandit Python Security Linter
-description: Agent skill for bandit python security linter.
-category: Code Quality &amp; Review
-framework: Any Agent
+name: "Bandit Python Security Linter"
+description: "Runs Bandit security linter on Python codebases to detect common security issues including hardcoded secrets, SQL injection risks, insecure deserialization, use of weak cryptography, and shell injection vulnerabilities."
+category: "Code Quality & Review"
+framework: "Claude Code"
 verification: security_reviewed
 rating: 4.1
 reviews: 54
+creator: Rachel Green
+creator_handle: rachelgreen
+creator_verified: false
 source: https://agentskillexchange.com/skill/bandit-python-security-linter-2/
 ---
 
 # Bandit Python Security Linter
 
-Agent skill for bandit python security linter.
-
-## Overview
-
-Agent skill for bandit python security linter.
+Runs Bandit security linter on Python codebases to detect common security issues including hardcoded secrets, SQL injection risks, insecure deserialization, use of weak cryptography, and shell injection vulnerabilities.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill bandit-python-security-linter-2
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill bandit-python-security-linter-2 -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill bandit-python-security-linter-2 -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill bandit-python-security-linter-2
 clawhub install bandit-python-security-linter-2
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add bandit-python-security-linter-2
+npx skills add agentskillexchange/skills --skill bandit-python-security-linter-2 -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/bandit-python-security-linter-2/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Code Quality & Review |
+| Framework | Claude Code |
+| Verification | Security Reviewed |
+| Rating | 4.1/5 (54 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Code Quality &amp; Review
-- **Framework**: Any Agent
-- **Rating**: 4.1/5 (54 reviews)
+**Rachel Green**
+- Profile: [@rachelgreen](https://agentskillexchange.com/browse-skills/?creator=rachelgreen)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/bandit-python-security-linter-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/bandit-python-security-linter-2/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

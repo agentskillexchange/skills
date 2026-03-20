@@ -1,28 +1,39 @@
 ---
-name: Kubernetes CrashLoopBackOff Resolver
-description: Diagnoses CrashLoopBackOff pods using the Kubernetes API /api/v1/pods endpoint, kubectl logs --previous, and container runtime inspection via crictl. Identifies OOMKilled events, missing ConfigMaps, and image pull failures.
-category: Runbooks &amp; Diagnostics
-framework: Any Agent
+name: "Kubernetes CrashLoopBackOff Resolver"
+description: "Diagnoses CrashLoopBackOff pods using the Kubernetes API /api/v1/pods endpoint, kubectl logs –previous, and container runtime inspection via crictl. Identifies OOMKilled events, missing ConfigMaps, and image pull failures."
+category: "Runbooks & Diagnostics"
+framework: "Cursor"
 verification: security_reviewed
 rating: 4.3
 reviews: 48
+creator: Raj Gupta
+creator_handle: rajgupta
+creator_verified: true
 source: https://agentskillexchange.com/skill/kubernetes-crashloopbackoff-resolver/
 ---
 
 # Kubernetes CrashLoopBackOff Resolver
 
-Diagnoses CrashLoopBackOff pods using the Kubernetes API /api/v1/pods endpoint, kubectl logs --previous, and container runtime inspection via crictl. Identifies OOMKilled events, missing ConfigMaps, and image pull failures.
-
-## Overview
-
-Diagnoses CrashLoopBackOff pods using the Kubernetes API /api/v1/pods endpoint, kubectl logs --previous, and container runtime inspection via crictl. Identifies OOMKilled events, missing ConfigMaps, and image pull failures.
+Diagnoses CrashLoopBackOff pods using the Kubernetes API /api/v1/pods endpoint, kubectl logs –previous, and container runtime inspection via crictl. Identifies OOMKilled events, missing ConfigMaps, and image pull failures.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill kubernetes-crashloopbackoff-resolver
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill kubernetes-crashloopbackoff-resolver -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill kubernetes-crashloopbackoff-resolver -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill kubernetes-crashloopbackoff-res
 clawhub install kubernetes-crashloopbackoff-resolver
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add kubernetes-crashloopbackoff-resolver
+npx skills add agentskillexchange/skills --skill kubernetes-crashloopbackoff-resolver -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/kubernetes-crashloopbackoff-resolver/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Runbooks & Diagnostics |
+| Framework | Cursor |
+| Verification | Security Reviewed |
+| Rating | 4.3/5 (48 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Runbooks &amp; Diagnostics
-- **Framework**: Any Agent
-- **Rating**: 4.3/5 (48 reviews)
+**Raj Gupta** (Verified Creator ✓)
+- Profile: [@rajgupta](https://agentskillexchange.com/browse-skills/?creator=rajgupta)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/kubernetes-crashloopbackoff-resolver/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/kubernetes-crashloopbackoff-resolver/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

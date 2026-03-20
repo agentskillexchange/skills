@@ -1,11 +1,14 @@
 ---
-name: Google Drive MCP Server
-description: Connect agent workflows to Google Drive documents and files.
-category: Integrations &amp; Connectors
-framework: Any Agent
+name: "Google Drive MCP Server"
+description: "Connect agent workflows to Google Drive documents and files."
+category: "Integrations & Connectors"
+framework: "Claude Code"
 verification: verified_metadata
 rating: 4.6
 reviews: 10
+creator: Ava Wilson
+creator_handle: avawilson
+creator_verified: true
 source: https://agentskillexchange.com/skill/google-drive-mcp-server/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/google-drive-mcp-server/
 
 Connect agent workflows to Google Drive documents and files.
 
-## Overview
-
-Connect agent workflows to Google Drive documents and files.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill google-drive-mcp-server
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill google-drive-mcp-server -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill google-drive-mcp-server -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill google-drive-mcp-server
 clawhub install google-drive-mcp-server
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add google-drive-mcp-server
+npx skills add agentskillexchange/skills --skill google-drive-mcp-server -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/google-drive-mcp-server/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Integrations & Connectors |
+| Framework | Claude Code |
+| Verification | Verified Metadata |
+| Rating | 4.6/5 (10 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: verified_metadata
-- **Category**: Integrations &amp; Connectors
-- **Framework**: Any Agent
-- **Rating**: 4.6/5 (10 reviews)
+**Ava Wilson** (Verified Creator ✓)
+- Profile: [@avawilson](https://agentskillexchange.com/browse-skills/?creator=avawilson)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/google-drive-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/google-drive-mcp-server/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

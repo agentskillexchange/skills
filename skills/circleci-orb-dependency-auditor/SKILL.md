@@ -1,11 +1,14 @@
 ---
-name: CircleCI Orb Dependency Auditor
-description: Audits CircleCI orb dependencies using the CircleCI v2 API /orb endpoint and orb registry. Detects outdated orbs, deprecated commands, and security advisories in circleci/config.yml pipeline configurations.
-category: CI/CD Integrations
-framework: Any Agent
+name: "CircleCI Orb Dependency Auditor"
+description: "Audits CircleCI orb dependencies using the CircleCI v2 API /orb endpoint and orb registry. Detects outdated orbs, deprecated commands, and security advisories in circleci/config.yml pipeline configurations."
+category: "CI/CD Integrations"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.9
 reviews: 58
+creator: Liam OBrien
+creator_handle: liamobrien
+creator_verified: true
 source: https://agentskillexchange.com/skill/circleci-orb-dependency-auditor/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/circleci-orb-dependency-auditor/
 
 Audits CircleCI orb dependencies using the CircleCI v2 API /orb endpoint and orb registry. Detects outdated orbs, deprecated commands, and security advisories in circleci/config.yml pipeline configurations.
 
-## Overview
-
-Audits CircleCI orb dependencies using the CircleCI v2 API /orb endpoint and orb registry. Detects outdated orbs, deprecated commands, and security advisories in circleci/config.yml pipeline configurations.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill circleci-orb-dependency-auditor
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill circleci-orb-dependency-auditor -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill circleci-orb-dependency-auditor -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill circleci-orb-dependency-auditor
 clawhub install circleci-orb-dependency-auditor
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add circleci-orb-dependency-auditor
+npx skills add agentskillexchange/skills --skill circleci-orb-dependency-auditor -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/circleci-orb-dependency-auditor/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | CI/CD Integrations |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.9/5 (58 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: CI/CD Integrations
-- **Framework**: Any Agent
-- **Rating**: 4.9/5 (58 reviews)
+**Liam OBrien** (Verified Creator ✓)
+- Profile: [@liamobrien](https://agentskillexchange.com/browse-skills/?creator=liamobrien)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/circleci-orb-dependency-auditor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/circleci-orb-dependency-auditor/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

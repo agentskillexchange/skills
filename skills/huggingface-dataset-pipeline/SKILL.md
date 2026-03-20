@@ -1,11 +1,14 @@
 ---
-name: Hugging Face Dataset Pipeline
-description: Fetches and preprocesses datasets from Hugging Face Hub via the datasets library and Hub REST API. Applies tokenization using AutoTokenizer and pushes processed splits back to a private Hub repo with push_to_hub(). Tracks dataset versions using the Hub dataset viewer API.
-category: Data Extraction &amp; Transformation
-framework: Any Agent
+name: "Hugging Face Dataset Pipeline"
+description: "Fetches and preprocesses datasets from Hugging Face Hub via the datasets library and Hub REST API. Applies tokenization using AutoTokenizer and pushes processed splits back to a private Hub repo with push_to_hub(). Tracks dataset versions using the Hub dataset viewer API."
+category: "Data Extraction & Transformation"
+framework: "ChatGPT Agents"
 verification: security_reviewed
 rating: 4.7
 reviews: 69
+creator: Nathan Brooks
+creator_handle: nbrooks
+creator_verified: false
 source: https://agentskillexchange.com/skill/huggingface-dataset-pipeline/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/huggingface-dataset-pipeline/
 
 Fetches and preprocesses datasets from Hugging Face Hub via the datasets library and Hub REST API. Applies tokenization using AutoTokenizer and pushes processed splits back to a private Hub repo with push_to_hub(). Tracks dataset versions using the Hub dataset viewer API.
 
-## Overview
-
-Fetches and preprocesses datasets from Hugging Face Hub via the datasets library and Hub REST API. Applies tokenization using AutoTokenizer and pushes processed splits back to a private Hub repo with push_to_hub(). Tracks dataset versions using the Hub dataset viewer API.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill huggingface-dataset-pipeline
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill huggingface-dataset-pipeline -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill huggingface-dataset-pipeline -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill huggingface-dataset-pipeline
 clawhub install huggingface-dataset-pipeline
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add huggingface-dataset-pipeline
+npx skills add agentskillexchange/skills --skill huggingface-dataset-pipeline -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/huggingface-dataset-pipeline/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Data Extraction & Transformation |
+| Framework | ChatGPT Agents |
+| Verification | Security Reviewed |
+| Rating | 4.7/5 (69 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Data Extraction &amp; Transformation
-- **Framework**: Any Agent
-- **Rating**: 4.7/5 (69 reviews)
+**Nathan Brooks**
+- Profile: [@nbrooks](https://agentskillexchange.com/browse-skills/?creator=nbrooks)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/huggingface-dataset-pipeline/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/huggingface-dataset-pipeline/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

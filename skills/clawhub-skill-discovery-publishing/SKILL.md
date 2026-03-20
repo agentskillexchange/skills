@@ -1,11 +1,14 @@
 ---
-name: ClawHub Skill Discovery & Publishing
-description: Search, install, update, and publish OpenClaw skills from the command line. The package manager for the OpenClaw skill ecosystem.
-category: Integrations & Connectors
-framework: OpenClaw
+name: "ClawHub Skill Discovery & Publishing"
+description: "Search, install, update, and publish OpenClaw skills from the command line. The package manager for the OpenClaw skill ecosystem."
+category: "Integrations & Connectors"
+framework: "OpenClaw"
 verification: security_reviewed
 rating: 4.8
 reviews: 52
+creator: Luna Martinez
+creator_handle: lunamartinez
+creator_verified: false
 source: https://agentskillexchange.com/skill/clawhub-skill-discovery-publishing/
 ---
 
@@ -13,47 +16,53 @@ source: https://agentskillexchange.com/skill/clawhub-skill-discovery-publishing/
 
 Search, install, update, and publish OpenClaw skills from the command line. The package manager for the OpenClaw skill ecosystem.
 
-## Overview
-
-The ClawHub CLI connects to the skill registry and provides five core operations: search by keyword, install skills by slug with optional version pinning, update one or all installed skills, list local skills and versions, and publish skill folders with version and changelog.
-Best for
-
-Discovering new skills from the registry
-Keeping installed skills current with hash-based version matching
-Publishing custom skills to the community or your team
-Managing skill versions across workspaces
-
-Install notes
-Install globally via npm i -g clawhub. For publishing, authenticate with clawhub login. Default registry: clawhub.com. Override with CLAWHUB_REGISTRY env var.
-Source: OpenClaw skills/clawhub
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill clawhub-skill-discovery-publishing
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill clawhub-skill-discovery-publishing -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill clawhub-skill-discovery-publishing -a cursor
+```
+
 ### OpenClaw
 
 ```bash
-openclaw install clawhub-skill-discovery-publishing
+clawhub install clawhub-skill-discovery-publishing
 ```
 
-### Manual
+### Codex
 
-Download this `SKILL.md` file and place it in your agent's skills directory.
+```bash
+npx skills add agentskillexchange/skills --skill clawhub-skill-discovery-publishing -a codex
+```
 
-## Metadata
+## Details
 
 | Field | Value |
 |-------|-------|
 | Category | Integrations & Connectors |
 | Framework | OpenClaw |
 | Verification | Security Reviewed |
-| Rating | ⭐⭐⭐⭐ 4.8/5.0 (52 reviews) |
+| Rating | 4.8/5 (52 reviews) |
 
----
+## Creator
 
-*Published on [Agent Skill Exchange](https://agentskillexchange.com/skill/clawhub-skill-discovery-publishing/)*
+**Luna Martinez**
+- Profile: [@lunamartinez](https://agentskillexchange.com/browse-skills/?creator=lunamartinez)
+
+## Links
+
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/clawhub-skill-discovery-publishing/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

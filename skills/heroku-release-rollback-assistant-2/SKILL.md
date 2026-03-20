@@ -1,11 +1,14 @@
 ---
-name: Heroku Release Rollback Assistant
-description: Uses the Heroku Platform API to identify the last stable release before a regression and execute a rollback. Compares config vars between releases to flag changes that may have caused the issue.
-category: CI/CD Integrations
-framework: Any Agent
+name: "Heroku Release Rollback Assistant"
+description: "Uses the Heroku Platform API to identify the last stable release before a regression and execute a rollback. Compares config vars between releases to flag changes that may have caused the issue."
+category: "CI/CD Integrations"
+framework: "ChatGPT Agents"
 verification: verified_metadata
 rating: 4.5
 reviews: 65
+creator: Raj Gupta
+creator_handle: rajgupta
+creator_verified: true
 source: https://agentskillexchange.com/skill/heroku-release-rollback-assistant-2/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/heroku-release-rollback-assistant-2
 
 Uses the Heroku Platform API to identify the last stable release before a regression and execute a rollback. Compares config vars between releases to flag changes that may have caused the issue.
 
-## Overview
-
-Uses the Heroku Platform API to identify the last stable release before a regression and execute a rollback. Compares config vars between releases to flag changes that may have caused the issue.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill heroku-release-rollback-assistant-2
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill heroku-release-rollback-assistant-2 -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill heroku-release-rollback-assistant-2 -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill heroku-release-rollback-assista
 clawhub install heroku-release-rollback-assistant-2
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add heroku-release-rollback-assistant-2
+npx skills add agentskillexchange/skills --skill heroku-release-rollback-assistant-2 -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/heroku-release-rollback-assistant-2/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | CI/CD Integrations |
+| Framework | ChatGPT Agents |
+| Verification | Verified Metadata |
+| Rating | 4.5/5 (65 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: verified_metadata
-- **Category**: CI/CD Integrations
-- **Framework**: Any Agent
-- **Rating**: 4.5/5 (65 reviews)
+**Raj Gupta** (Verified Creator ✓)
+- Profile: [@rajgupta](https://agentskillexchange.com/browse-skills/?creator=rajgupta)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/heroku-release-rollback-assistant-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/heroku-release-rollback-assistant-2/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

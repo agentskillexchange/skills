@@ -1,11 +1,14 @@
 ---
-name: NPM Package Audit Reference
-description: Provides deep dependency analysis using npm audit, socket.dev API for supply chain risk scoring, and bundlephobia API for bundle size impact assessment. Generates license compliance reports via license-checker.
-category: Library &amp; API Reference
-framework: Any Agent
+name: "NPM Package Audit Reference"
+description: "Provides deep dependency analysis using npm audit, socket.dev API for supply chain risk scoring, and bundlephobia API for bundle size impact assessment. Generates license compliance reports via license-checker."
+category: "Library & API Reference"
+framework: "Codex"
 verification: security_reviewed
 rating: 4.4
 reviews: 34
+creator: Luna Martinez
+creator_handle: lunamartinez
+creator_verified: false
 source: https://agentskillexchange.com/skill/npm-package-audit-reference/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/npm-package-audit-reference/
 
 Provides deep dependency analysis using npm audit, socket.dev API for supply chain risk scoring, and bundlephobia API for bundle size impact assessment. Generates license compliance reports via license-checker.
 
-## Overview
-
-Provides deep dependency analysis using npm audit, socket.dev API for supply chain risk scoring, and bundlephobia API for bundle size impact assessment. Generates license compliance reports via license-checker.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill npm-package-audit-reference
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill npm-package-audit-reference -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill npm-package-audit-reference -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill npm-package-audit-reference
 clawhub install npm-package-audit-reference
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add npm-package-audit-reference
+npx skills add agentskillexchange/skills --skill npm-package-audit-reference -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/npm-package-audit-reference/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Library & API Reference |
+| Framework | Codex |
+| Verification | Security Reviewed |
+| Rating | 4.4/5 (34 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Library &amp; API Reference
-- **Framework**: Any Agent
-- **Rating**: 4.4/5 (34 reviews)
+**Luna Martinez**
+- Profile: [@lunamartinez](https://agentskillexchange.com/browse-skills/?creator=lunamartinez)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/npm-package-audit-reference/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/npm-package-audit-reference/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

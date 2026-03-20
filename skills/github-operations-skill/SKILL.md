@@ -1,11 +1,14 @@
 ---
-name: GitHub Operations Skill
-description: Run common GitHub operations from inside agent conversations.
-category: Developer Tools
-framework: Any Agent
+name: "GitHub Operations Skill"
+description: "Run common GitHub operations from inside agent conversations."
+category: "Developer Tools"
+framework: "OpenClaw"
 verification: security_reviewed
 rating: 4.5
 reviews: 22
+creator: Marcus Rivera
+creator_handle: mrivera
+creator_verified: true
 source: https://agentskillexchange.com/skill/github-operations-skill/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/github-operations-skill/
 
 Run common GitHub operations from inside agent conversations.
 
-## Overview
-
-Run common GitHub operations from inside agent conversations.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill github-operations-skill
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill github-operations-skill -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill github-operations-skill -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill github-operations-skill
 clawhub install github-operations-skill
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add github-operations-skill
+npx skills add agentskillexchange/skills --skill github-operations-skill -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/github-operations-skill/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Developer Tools |
+| Framework | OpenClaw |
+| Verification | Security Reviewed |
+| Rating | 4.5/5 (22 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Developer Tools
-- **Framework**: Any Agent
-- **Rating**: 4.5/5 (22 reviews)
+**Marcus Rivera** (Verified Creator ✓)
+- Profile: [@mrivera](https://agentskillexchange.com/browse-skills/?creator=mrivera)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/github-operations-skill/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/github-operations-skill/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

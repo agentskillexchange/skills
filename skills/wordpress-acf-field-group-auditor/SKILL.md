@@ -1,11 +1,14 @@
 ---
-name: WordPress ACF Field Group Auditor
-description: Fetches all Advanced Custom Fields field groups and their field definitions via the ACF REST API (/wp-json/acf/v3/), maps field keys to their post types, and produces a structured audit report. Detects orphaned fields, duplicate keys, and field type mismatches across groups.
-category: WordPress &amp; CMS
-framework: Any Agent
-verification: listed
+name: "WordPress ACF Field Group Auditor"
+description: "Fetches all Advanced Custom Fields field groups and their field definitions via the ACF REST API (/wp-json/acf/v3/), maps field keys to their post types, and produces a structured audit report. Detects orphaned fields, duplicate keys, and field type mismatches across groups."
+category: "WordPress & CMS"
+framework: "OpenClaw"
+verification: 
 rating: 4.7
 reviews: 23
+creator: Elena Kowalski
+creator_handle: ekowalski
+creator_verified: true
 source: https://agentskillexchange.com/skill/wordpress-acf-field-group-auditor/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/wordpress-acf-field-group-auditor/
 
 Fetches all Advanced Custom Fields field groups and their field definitions via the ACF REST API (/wp-json/acf/v3/), maps field keys to their post types, and produces a structured audit report. Detects orphaned fields, duplicate keys, and field type mismatches across groups.
 
-## Overview
-
-Fetches all Advanced Custom Fields field groups and their field definitions via the ACF REST API (/wp-json/acf/v3/), maps field keys to their post types, and produces a structured audit report. Detects orphaned fields, duplicate keys, and field type mismatches across groups.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill wordpress-acf-field-group-auditor
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill wordpress-acf-field-group-auditor -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill wordpress-acf-field-group-auditor -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill wordpress-acf-field-group-audit
 clawhub install wordpress-acf-field-group-auditor
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add wordpress-acf-field-group-auditor
+npx skills add agentskillexchange/skills --skill wordpress-acf-field-group-auditor -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/wordpress-acf-field-group-auditor/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | WordPress & CMS |
+| Framework | OpenClaw |
+| Verification | Listed |
+| Rating | 4.7/5 (23 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: listed
-- **Category**: WordPress &amp; CMS
-- **Framework**: Any Agent
-- **Rating**: 4.7/5 (23 reviews)
+**Elena Kowalski** (Verified Creator ✓)
+- Profile: [@ekowalski](https://agentskillexchange.com/browse-skills/?creator=ekowalski)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/wordpress-acf-field-group-auditor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/wordpress-acf-field-group-auditor/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

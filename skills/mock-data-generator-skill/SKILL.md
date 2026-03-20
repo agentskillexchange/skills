@@ -1,28 +1,39 @@
 ---
-name: Mock Data Generator Skill
-description: Agent skill for mock data generator skill.
-category: Developer Tools
-framework: Any Agent
+name: "Mock Data Generator Skill"
+description: "Use this skill to create realistic fake data sets for testing, development, and demos based on schema definitions or TypeScript/Python type definitions. It generates JSON, CSV, or SQL INSERT data with realistic values (names, emails, addresses, dates, IDs). Trigger when you need test fixtures, want to seed a development database, or need demo data for […]"
+category: "Developer Tools"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.8
 reviews: 19
+creator: Marcus Rivera
+creator_handle: mrivera
+creator_verified: true
 source: https://agentskillexchange.com/skill/mock-data-generator-skill/
 ---
 
 # Mock Data Generator Skill
 
-Agent skill for mock data generator skill.
-
-## Overview
-
-Agent skill for mock data generator skill.
+Use this skill to create realistic fake data sets for testing, development, and demos based on schema definitions or TypeScript/Python type definitions. It generates JSON, CSV, or SQL INSERT data with realistic values (names, emails, addresses, dates, IDs). Trigger when you need test fixtures, want to seed a development database, or need demo data for […]
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill mock-data-generator-skill
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill mock-data-generator-skill -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill mock-data-generator-skill -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill mock-data-generator-skill
 clawhub install mock-data-generator-skill
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add mock-data-generator-skill
+npx skills add agentskillexchange/skills --skill mock-data-generator-skill -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/mock-data-generator-skill/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Developer Tools |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.8/5 (19 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Developer Tools
-- **Framework**: Any Agent
-- **Rating**: 4.8/5 (19 reviews)
+**Marcus Rivera** (Verified Creator ✓)
+- Profile: [@mrivera](https://agentskillexchange.com/browse-skills/?creator=mrivera)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/mock-data-generator-skill/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/mock-data-generator-skill/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

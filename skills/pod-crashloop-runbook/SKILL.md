@@ -1,28 +1,39 @@
 ---
-name: Pod CrashLoop Runbook
-description: Agent skill for pod crashloop runbook.
-category: Runbooks &amp; Diagnostics
-framework: Any Agent
+name: "Pod CrashLoop Runbook"
+description: "Kubernetes-specific runbook for diagnosing and resolving CrashLoopBackOff pod states. Systematic approach to identify root cause across configuration, resource limits, health checks, and application errors."
+category: "Runbooks & Diagnostics"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.4
 reviews: 70
+creator: Maya Johnson
+creator_handle: mayaj
+creator_verified: false
 source: https://agentskillexchange.com/skill/pod-crashloop-runbook/
 ---
 
 # Pod CrashLoop Runbook
 
-Agent skill for pod crashloop runbook.
-
-## Overview
-
-Agent skill for pod crashloop runbook.
+Kubernetes-specific runbook for diagnosing and resolving CrashLoopBackOff pod states. Systematic approach to identify root cause across configuration, resource limits, health checks, and application errors.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill pod-crashloop-runbook
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill pod-crashloop-runbook -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill pod-crashloop-runbook -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill pod-crashloop-runbook
 clawhub install pod-crashloop-runbook
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add pod-crashloop-runbook
+npx skills add agentskillexchange/skills --skill pod-crashloop-runbook -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/pod-crashloop-runbook/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Runbooks & Diagnostics |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.4/5 (70 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Runbooks &amp; Diagnostics
-- **Framework**: Any Agent
-- **Rating**: 4.4/5 (70 reviews)
+**Maya Johnson**
+- Profile: [@mayaj](https://agentskillexchange.com/browse-skills/?creator=mayaj)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/pod-crashloop-runbook/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/pod-crashloop-runbook/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

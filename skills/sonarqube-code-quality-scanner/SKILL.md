@@ -1,11 +1,14 @@
 ---
-name: SonarQube Code Quality Scanner
-description: Runs SonarQube static analysis via the SonarQube Web API and sonar-scanner CLI. Detects code smells, bugs, and security vulnerabilities across 30+ languages with quality gate enforcement.
-category: Code Quality &amp; Review
-framework: Any Agent
+name: "SonarQube Code Quality Scanner"
+description: "Runs SonarQube static analysis via the SonarQube Web API and sonar-scanner CLI. Detects code smells, bugs, and security vulnerabilities across 30+ languages with quality gate enforcement."
+category: "Code Quality & Review"
+framework: "OpenClaw"
 verification: security_reviewed
 rating: 4.7
 reviews: 41
+creator: Maya Johnson
+creator_handle: mayaj
+creator_verified: false
 source: https://agentskillexchange.com/skill/sonarqube-code-quality-scanner/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/sonarqube-code-quality-scanner/
 
 Runs SonarQube static analysis via the SonarQube Web API and sonar-scanner CLI. Detects code smells, bugs, and security vulnerabilities across 30+ languages with quality gate enforcement.
 
-## Overview
-
-Runs SonarQube static analysis via the SonarQube Web API and sonar-scanner CLI. Detects code smells, bugs, and security vulnerabilities across 30+ languages with quality gate enforcement.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill sonarqube-code-quality-scanner
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill sonarqube-code-quality-scanner -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill sonarqube-code-quality-scanner -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill sonarqube-code-quality-scanner
 clawhub install sonarqube-code-quality-scanner
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add sonarqube-code-quality-scanner
+npx skills add agentskillexchange/skills --skill sonarqube-code-quality-scanner -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/sonarqube-code-quality-scanner/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Code Quality & Review |
+| Framework | OpenClaw |
+| Verification | Security Reviewed |
+| Rating | 4.7/5 (41 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Code Quality &amp; Review
-- **Framework**: Any Agent
-- **Rating**: 4.7/5 (41 reviews)
+**Maya Johnson**
+- Profile: [@mayaj](https://agentskillexchange.com/browse-skills/?creator=mayaj)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/sonarqube-code-quality-scanner/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/sonarqube-code-quality-scanner/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

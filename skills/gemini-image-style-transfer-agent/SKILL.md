@@ -1,11 +1,14 @@
 ---
-name: Gemini Image Style Transfer Agent
-description: Uses the Gemini Imagen 3 API (imagegeneration endpoint) to apply stylistic transformations to uploaded images, converting photos to watercolor, line art, or oil painting styles. Accepts base64-encoded input images and returns styled outputs with configurable style prompts.
-category: Image &amp; Creative Automation
-framework: Any Agent
-verification: listed
+name: "Gemini Image Style Transfer Agent"
+description: "Uses the Gemini Imagen 3 API (imagegeneration endpoint) to apply stylistic transformations to uploaded images, converting photos to watercolor, line art, or oil painting styles. Accepts base64-encoded input images and returns styled outputs with configurable style prompts."
+category: "Image & Creative Automation"
+framework: "Gemini"
+verification: 
 rating: 4.2
 reviews: 32
+creator: David Kim
+creator_handle: dkim
+creator_verified: false
 source: https://agentskillexchange.com/skill/gemini-image-style-transfer-agent/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/gemini-image-style-transfer-agent/
 
 Uses the Gemini Imagen 3 API (imagegeneration endpoint) to apply stylistic transformations to uploaded images, converting photos to watercolor, line art, or oil painting styles. Accepts base64-encoded input images and returns styled outputs with configurable style prompts.
 
-## Overview
-
-Uses the Gemini Imagen 3 API (imagegeneration endpoint) to apply stylistic transformations to uploaded images, converting photos to watercolor, line art, or oil painting styles. Accepts base64-encoded input images and returns styled outputs with configurable style prompts.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill gemini-image-style-transfer-agent
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill gemini-image-style-transfer-agent -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill gemini-image-style-transfer-agent -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill gemini-image-style-transfer-age
 clawhub install gemini-image-style-transfer-agent
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add gemini-image-style-transfer-agent
+npx skills add agentskillexchange/skills --skill gemini-image-style-transfer-agent -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/gemini-image-style-transfer-agent/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Image & Creative Automation |
+| Framework | Gemini |
+| Verification | Listed |
+| Rating | 4.2/5 (32 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: listed
-- **Category**: Image &amp; Creative Automation
-- **Framework**: Any Agent
-- **Rating**: 4.2/5 (32 reviews)
+**David Kim**
+- Profile: [@dkim](https://agentskillexchange.com/browse-skills/?creator=dkim)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/gemini-image-style-transfer-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/gemini-image-style-transfer-agent/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

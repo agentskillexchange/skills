@@ -1,28 +1,39 @@
 ---
-name: Contract Testing Agent
-description: Agent skill for contract testing agent.
-category: Library &amp; API Reference
-framework: Any Agent
+name: "Contract Testing Agent"
+description: "Implements consumer-driven contract testing using Pact. Generates pacts from consumer code, verifies providers against contracts, and integrates with Pact Broker for team-wide contract management."
+category: "Library & API Reference"
+framework: "Claude Code"
 verification: security_reviewed
 rating: 4.3
 reviews: 76
+creator: Raj Gupta
+creator_handle: rajgupta
+creator_verified: true
 source: https://agentskillexchange.com/skill/contract-testing-agent/
 ---
 
 # Contract Testing Agent
 
-Agent skill for contract testing agent.
-
-## Overview
-
-Agent skill for contract testing agent.
+Implements consumer-driven contract testing using Pact. Generates pacts from consumer code, verifies providers against contracts, and integrates with Pact Broker for team-wide contract management.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill contract-testing-agent
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill contract-testing-agent -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill contract-testing-agent -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill contract-testing-agent
 clawhub install contract-testing-agent
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add contract-testing-agent
+npx skills add agentskillexchange/skills --skill contract-testing-agent -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/contract-testing-agent/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Library & API Reference |
+| Framework | Claude Code |
+| Verification | Security Reviewed |
+| Rating | 4.3/5 (76 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Library &amp; API Reference
-- **Framework**: Any Agent
-- **Rating**: 4.3/5 (76 reviews)
+**Raj Gupta** (Verified Creator ✓)
+- Profile: [@rajgupta](https://agentskillexchange.com/browse-skills/?creator=rajgupta)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/contract-testing-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/contract-testing-agent/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -1,11 +1,14 @@
 ---
-name: JSON-to-Avro Schema Transformer
-description: Transforms JSON Schema definitions into Apache Avro schema format using the jsonschema and fastavro Python libraries. Handles nested objects, arrays, optional fields, and $ref resolution. Registers the resulting Avro schema to Confluent Schema Registry via the Schema Registry REST API.
-category: Data Extraction &amp; Transformation
-framework: Any Agent
+name: "JSON-to-Avro Schema Transformer"
+description: "Transforms JSON Schema definitions into Apache Avro schema format using the jsonschema and fastavro Python libraries. Handles nested objects, arrays, optional fields, and $ref resolution. Registers the resulting Avro schema to Confluent Schema Registry via the Schema Registry REST API."
+category: "Data Extraction & Transformation"
+framework: "OpenClaw"
 verification: verified_metadata
 rating: 4.1
 reviews: 22
+creator: Mia Zhang
+creator_handle: miazhang
+creator_verified: true
 source: https://agentskillexchange.com/skill/json-to-avro-schema-transformer/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/json-to-avro-schema-transformer/
 
 Transforms JSON Schema definitions into Apache Avro schema format using the jsonschema and fastavro Python libraries. Handles nested objects, arrays, optional fields, and $ref resolution. Registers the resulting Avro schema to Confluent Schema Registry via the Schema Registry REST API.
 
-## Overview
-
-Transforms JSON Schema definitions into Apache Avro schema format using the jsonschema and fastavro Python libraries. Handles nested objects, arrays, optional fields, and $ref resolution. Registers the resulting Avro schema to Confluent Schema Registry via the Schema Registry REST API.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill json-to-avro-schema-transformer
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill json-to-avro-schema-transformer -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill json-to-avro-schema-transformer -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill json-to-avro-schema-transformer
 clawhub install json-to-avro-schema-transformer
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add json-to-avro-schema-transformer
+npx skills add agentskillexchange/skills --skill json-to-avro-schema-transformer -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/json-to-avro-schema-transformer/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Data Extraction & Transformation |
+| Framework | OpenClaw |
+| Verification | Verified Metadata |
+| Rating | 4.1/5 (22 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: verified_metadata
-- **Category**: Data Extraction &amp; Transformation
-- **Framework**: Any Agent
-- **Rating**: 4.1/5 (22 reviews)
+**Mia Zhang** (Verified Creator ✓)
+- Profile: [@miazhang](https://agentskillexchange.com/browse-skills/?creator=miazhang)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/json-to-avro-schema-transformer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/json-to-avro-schema-transformer/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

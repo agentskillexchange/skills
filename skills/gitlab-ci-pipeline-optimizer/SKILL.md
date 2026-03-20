@@ -1,11 +1,14 @@
 ---
-name: GitLab CI Pipeline Optimizer
-description: Analyzes and optimizes .gitlab-ci.yml pipelines using the GitLab CI Lint API and Pipeline Analytics endpoints. Identifies bottleneck stages, suggests DAG dependencies, and configures rules-based workflow triggers.
-category: CI/CD Integrations
-framework: Any Agent
+name: "GitLab CI Pipeline Optimizer"
+description: "Analyzes and optimizes .gitlab-ci.yml pipelines using the GitLab CI Lint API and Pipeline Analytics endpoints. Identifies bottleneck stages, suggests DAG dependencies, and configures rules-based workflow triggers."
+category: "CI/CD Integrations"
+framework: "Cursor"
 verification: verified_metadata
 rating: 4.8
 reviews: 8
+creator: Tom Anderson
+creator_handle: tanderson
+creator_verified: false
 source: https://agentskillexchange.com/skill/gitlab-ci-pipeline-optimizer/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/gitlab-ci-pipeline-optimizer/
 
 Analyzes and optimizes .gitlab-ci.yml pipelines using the GitLab CI Lint API and Pipeline Analytics endpoints. Identifies bottleneck stages, suggests DAG dependencies, and configures rules-based workflow triggers.
 
-## Overview
-
-Analyzes and optimizes .gitlab-ci.yml pipelines using the GitLab CI Lint API and Pipeline Analytics endpoints. Identifies bottleneck stages, suggests DAG dependencies, and configures rules-based workflow triggers.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill gitlab-ci-pipeline-optimizer
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill gitlab-ci-pipeline-optimizer -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill gitlab-ci-pipeline-optimizer -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill gitlab-ci-pipeline-optimizer
 clawhub install gitlab-ci-pipeline-optimizer
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add gitlab-ci-pipeline-optimizer
+npx skills add agentskillexchange/skills --skill gitlab-ci-pipeline-optimizer -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/gitlab-ci-pipeline-optimizer/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | CI/CD Integrations |
+| Framework | Cursor |
+| Verification | Verified Metadata |
+| Rating | 4.8/5 (8 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: verified_metadata
-- **Category**: CI/CD Integrations
-- **Framework**: Any Agent
-- **Rating**: 4.8/5 (8 reviews)
+**Tom Anderson**
+- Profile: [@tanderson](https://agentskillexchange.com/browse-skills/?creator=tanderson)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/gitlab-ci-pipeline-optimizer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/gitlab-ci-pipeline-optimizer/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

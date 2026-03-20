@@ -1,11 +1,14 @@
 ---
-name: Slack MCP Server
-description: Agent access to Slack conversations and workspace workflows.
-category: Calendar, Email &amp; Productivity
-framework: Any Agent
+name: "Slack MCP Server"
+description: "Agent access to Slack conversations and workspace workflows."
+category: "Calendar, Email & Productivity"
+framework: "Claude Code"
 verification: verified_metadata
 rating: 4.2
 reviews: 73
+creator: Maya Johnson
+creator_handle: mayaj
+creator_verified: false
 source: https://agentskillexchange.com/skill/slack-mcp-server/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/slack-mcp-server/
 
 Agent access to Slack conversations and workspace workflows.
 
-## Overview
-
-Agent access to Slack conversations and workspace workflows.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill slack-mcp-server
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill slack-mcp-server -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill slack-mcp-server -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill slack-mcp-server
 clawhub install slack-mcp-server
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add slack-mcp-server
+npx skills add agentskillexchange/skills --skill slack-mcp-server -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/slack-mcp-server/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Calendar, Email & Productivity |
+| Framework | Claude Code |
+| Verification | Verified Metadata |
+| Rating | 4.2/5 (73 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: verified_metadata
-- **Category**: Calendar, Email &amp; Productivity
-- **Framework**: Any Agent
-- **Rating**: 4.2/5 (73 reviews)
+**Maya Johnson**
+- Profile: [@mayaj](https://agentskillexchange.com/browse-skills/?creator=mayaj)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/slack-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/slack-mcp-server/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

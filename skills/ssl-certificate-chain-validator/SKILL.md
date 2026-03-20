@@ -1,28 +1,39 @@
 ---
-name: SSL Certificate Chain Validator
-description: Validates SSL/TLS certificate chains using OpenSSL s_client and the crt.sh Certificate Transparency API. Checks OCSP stapling status, CAA DNS records via DNS-over-HTTPS, and monitors certificate expiration against Let's Encrypt ACME endpoints.
-category: Security &amp; Verification
-framework: Any Agent
+name: "SSL Certificate Chain Validator"
+description: "Validates SSL/TLS certificate chains using OpenSSL s_client and the crt.sh Certificate Transparency API. Checks OCSP stapling status, CAA DNS records via DNS-over-HTTPS, and monitors certificate expiration against Let’s Encrypt ACME endpoints."
+category: "Security & Verification"
+framework: "OpenClaw"
 verification: security_reviewed
 rating: 4.3
 reviews: 24
+creator: James Whitfield
+creator_handle: jwhitfield
+creator_verified: true
 source: https://agentskillexchange.com/skill/ssl-certificate-chain-validator/
 ---
 
 # SSL Certificate Chain Validator
 
-Validates SSL/TLS certificate chains using OpenSSL s_client and the crt.sh Certificate Transparency API. Checks OCSP stapling status, CAA DNS records via DNS-over-HTTPS, and monitors certificate expiration against Let's Encrypt ACME endpoints.
-
-## Overview
-
-Validates SSL/TLS certificate chains using OpenSSL s_client and the crt.sh Certificate Transparency API. Checks OCSP stapling status, CAA DNS records via DNS-over-HTTPS, and monitors certificate expiration against Let's Encrypt ACME endpoints.
+Validates SSL/TLS certificate chains using OpenSSL s_client and the crt.sh Certificate Transparency API. Checks OCSP stapling status, CAA DNS records via DNS-over-HTTPS, and monitors certificate expiration against Let’s Encrypt ACME endpoints.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill ssl-certificate-chain-validator
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill ssl-certificate-chain-validator -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill ssl-certificate-chain-validator -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill ssl-certificate-chain-validator
 clawhub install ssl-certificate-chain-validator
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add ssl-certificate-chain-validator
+npx skills add agentskillexchange/skills --skill ssl-certificate-chain-validator -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/ssl-certificate-chain-validator/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Security & Verification |
+| Framework | OpenClaw |
+| Verification | Security Reviewed |
+| Rating | 4.3/5 (24 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Security &amp; Verification
-- **Framework**: Any Agent
-- **Rating**: 4.3/5 (24 reviews)
+**James Whitfield** (Verified Creator ✓)
+- Profile: [@jwhitfield](https://agentskillexchange.com/browse-skills/?creator=jwhitfield)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/ssl-certificate-chain-validator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/ssl-certificate-chain-validator/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

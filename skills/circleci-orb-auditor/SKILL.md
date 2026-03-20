@@ -1,11 +1,14 @@
 ---
-name: CircleCI Orb Auditor
-description: Audits CircleCI orb versions and configurations using the CircleCI v2 API. Flags deprecated orbs, provides pinning recommendations, and checks security advisories from the orb registry.
-category: CI/CD Integrations
-framework: Any Agent
+name: "CircleCI Orb Auditor"
+description: "Audits CircleCI orb versions and configurations using the CircleCI v2 API. Flags deprecated orbs, provides pinning recommendations, and checks security advisories from the orb registry."
+category: "CI/CD Integrations"
+framework: "Cursor"
 verification: verified_metadata
 rating: 4.0
 reviews: 71
+creator: James Whitfield
+creator_handle: jwhitfield
+creator_verified: true
 source: https://agentskillexchange.com/skill/circleci-orb-auditor/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/circleci-orb-auditor/
 
 Audits CircleCI orb versions and configurations using the CircleCI v2 API. Flags deprecated orbs, provides pinning recommendations, and checks security advisories from the orb registry.
 
-## Overview
-
-Audits CircleCI orb versions and configurations using the CircleCI v2 API. Flags deprecated orbs, provides pinning recommendations, and checks security advisories from the orb registry.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill circleci-orb-auditor
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill circleci-orb-auditor -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill circleci-orb-auditor -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill circleci-orb-auditor
 clawhub install circleci-orb-auditor
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add circleci-orb-auditor
+npx skills add agentskillexchange/skills --skill circleci-orb-auditor -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/circleci-orb-auditor/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | CI/CD Integrations |
+| Framework | Cursor |
+| Verification | Verified Metadata |
+| Rating | 4.0/5 (71 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: verified_metadata
-- **Category**: CI/CD Integrations
-- **Framework**: Any Agent
-- **Rating**: 4.0/5 (71 reviews)
+**James Whitfield** (Verified Creator ✓)
+- Profile: [@jwhitfield](https://agentskillexchange.com/browse-skills/?creator=jwhitfield)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/circleci-orb-auditor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/circleci-orb-auditor/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

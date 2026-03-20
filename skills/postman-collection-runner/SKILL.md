@@ -1,28 +1,39 @@
 ---
-name: Postman Collection Runner
-description: Agent skill for postman collection runner.
-category: Library &amp; API Reference
-framework: Any Agent
+name: "Postman Collection Runner"
+description: "Executes Postman collections programmatically via Newman CLI or the Postman API. Supports environment variables, data-driven testing, and CI integration. Useful for API smoke tests and regression suites."
+category: "Library & API Reference"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.1
 reviews: 24
+creator: Leo Park
+creator_handle: leopark
+creator_verified: true
 source: https://agentskillexchange.com/skill/postman-collection-runner/
 ---
 
 # Postman Collection Runner
 
-Agent skill for postman collection runner.
-
-## Overview
-
-Agent skill for postman collection runner.
+Executes Postman collections programmatically via Newman CLI or the Postman API. Supports environment variables, data-driven testing, and CI integration. Useful for API smoke tests and regression suites.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill postman-collection-runner
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill postman-collection-runner -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill postman-collection-runner -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill postman-collection-runner
 clawhub install postman-collection-runner
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add postman-collection-runner
+npx skills add agentskillexchange/skills --skill postman-collection-runner -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/postman-collection-runner/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Library & API Reference |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.1/5 (24 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Library &amp; API Reference
-- **Framework**: Any Agent
-- **Rating**: 4.1/5 (24 reviews)
+**Leo Park** (Verified Creator ✓)
+- Profile: [@leopark](https://agentskillexchange.com/browse-skills/?creator=leopark)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/postman-collection-runner/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/postman-collection-runner/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

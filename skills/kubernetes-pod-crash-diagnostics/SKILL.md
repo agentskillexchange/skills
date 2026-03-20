@@ -1,11 +1,14 @@
 ---
-name: Kubernetes Pod Crash Diagnostics
-description: Diagnoses CrashLoopBackOff and OOMKilled pods using kubectl and the Kubernetes API /api/v1/pods endpoint. Correlates container logs, resource limits, and node conditions for root cause analysis.
-category: Runbooks &amp; Diagnostics
-framework: Any Agent
+name: "Kubernetes Pod Crash Diagnostics"
+description: "Diagnoses CrashLoopBackOff and OOMKilled pods using kubectl and the Kubernetes API /api/v1/pods endpoint. Correlates container logs, resource limits, and node conditions for root cause analysis."
+category: "Runbooks & Diagnostics"
+framework: "Codex"
 verification: security_reviewed
 rating: 4.9
 reviews: 43
+creator: Maya Johnson
+creator_handle: mayaj
+creator_verified: false
 source: https://agentskillexchange.com/skill/kubernetes-pod-crash-diagnostics/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/kubernetes-pod-crash-diagnostics/
 
 Diagnoses CrashLoopBackOff and OOMKilled pods using kubectl and the Kubernetes API /api/v1/pods endpoint. Correlates container logs, resource limits, and node conditions for root cause analysis.
 
-## Overview
-
-Diagnoses CrashLoopBackOff and OOMKilled pods using kubectl and the Kubernetes API /api/v1/pods endpoint. Correlates container logs, resource limits, and node conditions for root cause analysis.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill kubernetes-pod-crash-diagnostics
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill kubernetes-pod-crash-diagnostics -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill kubernetes-pod-crash-diagnostics -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill kubernetes-pod-crash-diagnostic
 clawhub install kubernetes-pod-crash-diagnostics
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add kubernetes-pod-crash-diagnostics
+npx skills add agentskillexchange/skills --skill kubernetes-pod-crash-diagnostics -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/kubernetes-pod-crash-diagnostics/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Runbooks & Diagnostics |
+| Framework | Codex |
+| Verification | Security Reviewed |
+| Rating | 4.9/5 (43 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Runbooks &amp; Diagnostics
-- **Framework**: Any Agent
-- **Rating**: 4.9/5 (43 reviews)
+**Maya Johnson**
+- Profile: [@mayaj](https://agentskillexchange.com/browse-skills/?creator=mayaj)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/kubernetes-pod-crash-diagnostics/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/kubernetes-pod-crash-diagnostics/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

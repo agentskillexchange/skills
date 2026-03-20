@@ -1,11 +1,14 @@
 ---
-name: WordPress REST API Builder
-description: Build and debug WordPress REST endpoints with a specialized skill.
-category: WordPress &amp; CMS
-framework: Any Agent
+name: "WordPress REST API Builder"
+description: "Build and debug WordPress REST endpoints with a specialized skill."
+category: "WordPress & CMS"
+framework: "OpenClaw"
 verification: security_reviewed
 rating: 4.3
 reviews: 46
+creator: Ava Wilson
+creator_handle: avawilson
+creator_verified: true
 source: https://agentskillexchange.com/skill/wordpress-rest-api-builder/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/wordpress-rest-api-builder/
 
 Build and debug WordPress REST endpoints with a specialized skill.
 
-## Overview
-
-Build and debug WordPress REST endpoints with a specialized skill.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill wordpress-rest-api-builder
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill wordpress-rest-api-builder -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill wordpress-rest-api-builder -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill wordpress-rest-api-builder
 clawhub install wordpress-rest-api-builder
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add wordpress-rest-api-builder
+npx skills add agentskillexchange/skills --skill wordpress-rest-api-builder -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/wordpress-rest-api-builder/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | WordPress & CMS |
+| Framework | OpenClaw |
+| Verification | Security Reviewed |
+| Rating | 4.3/5 (46 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: WordPress &amp; CMS
-- **Framework**: Any Agent
-- **Rating**: 4.3/5 (46 reviews)
+**Ava Wilson** (Verified Creator ✓)
+- Profile: [@avawilson](https://agentskillexchange.com/browse-skills/?creator=avawilson)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/wordpress-rest-api-builder/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/wordpress-rest-api-builder/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

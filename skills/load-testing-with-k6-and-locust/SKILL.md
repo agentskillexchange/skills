@@ -1,28 +1,39 @@
 ---
-name: Load Testing with k6 and Locust
-description: Agent skill for load testing with k6 and locust.
-category: Developer Tools
-framework: Any Agent
+name: "Load Testing with k6 and Locust"
+description: "Use this skill when you need to generate and run load test scripts for APIs or web applications using k6 or Locust. It writes test scenarios based on endpoint descriptions, executes the load test, and analyzes results for throughput, error rates, and latency percentiles."
+category: "Developer Tools"
+framework: "Claude Code"
 verification: security_reviewed
 rating: 4.2
 reviews: 63
+creator: Chris Lee
+creator_handle: chrislee
+creator_verified: false
 source: https://agentskillexchange.com/skill/load-testing-with-k6-and-locust/
 ---
 
 # Load Testing with k6 and Locust
 
-Agent skill for load testing with k6 and locust.
-
-## Overview
-
-Agent skill for load testing with k6 and locust.
+Use this skill when you need to generate and run load test scripts for APIs or web applications using k6 or Locust. It writes test scenarios based on endpoint descriptions, executes the load test, and analyzes results for throughput, error rates, and latency percentiles.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill load-testing-with-k6-and-locust
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill load-testing-with-k6-and-locust -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill load-testing-with-k6-and-locust -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill load-testing-with-k6-and-locust
 clawhub install load-testing-with-k6-and-locust
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add load-testing-with-k6-and-locust
+npx skills add agentskillexchange/skills --skill load-testing-with-k6-and-locust -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/load-testing-with-k6-and-locust/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Developer Tools |
+| Framework | Claude Code |
+| Verification | Security Reviewed |
+| Rating | 4.2/5 (63 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Developer Tools
-- **Framework**: Any Agent
-- **Rating**: 4.2/5 (63 reviews)
+**Chris Lee**
+- Profile: [@chrislee](https://agentskillexchange.com/browse-skills/?creator=chrislee)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/load-testing-with-k6-and-locust/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/load-testing-with-k6-and-locust/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

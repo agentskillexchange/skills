@@ -1,28 +1,39 @@
 ---
-name: Qdrant MCP Server
-description: Agent skill for qdrant mcp server.
-category: Data Extraction &amp; Transformation
-framework: Any Agent
+name: "Qdrant MCP Server"
+description: "Use this skill to manage vector collections, apply payload filters, and perform high-performance vector searches in Qdrant through MCP. It provides agents with Qdrant’s efficient vector operations and rich filtering capabilities. Trigger when you need vector search with complex metadata filtering, want to manage collections programmatically, or need an open-source vector database."
+category: "Data Extraction & Transformation"
+framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.2
 reviews: 35
+creator: Elena Kowalski
+creator_handle: ekowalski
+creator_verified: true
 source: https://agentskillexchange.com/skill/qdrant-mcp-server/
 ---
 
 # Qdrant MCP Server
 
-Agent skill for qdrant mcp server.
-
-## Overview
-
-Agent skill for qdrant mcp server.
+Use this skill to manage vector collections, apply payload filters, and perform high-performance vector searches in Qdrant through MCP. It provides agents with Qdrant’s efficient vector operations and rich filtering capabilities. Trigger when you need vector search with complex metadata filtering, want to manage collections programmatically, or need an open-source vector database.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill qdrant-mcp-server
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill qdrant-mcp-server -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill qdrant-mcp-server -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill qdrant-mcp-server
 clawhub install qdrant-mcp-server
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add qdrant-mcp-server
+npx skills add agentskillexchange/skills --skill qdrant-mcp-server -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/qdrant-mcp-server/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Data Extraction & Transformation |
+| Framework | MCP-compatible |
+| Verification | Security Reviewed |
+| Rating | 4.2/5 (35 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Data Extraction &amp; Transformation
-- **Framework**: Any Agent
-- **Rating**: 4.2/5 (35 reviews)
+**Elena Kowalski** (Verified Creator ✓)
+- Profile: [@ekowalski](https://agentskillexchange.com/browse-skills/?creator=ekowalski)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/qdrant-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/qdrant-mcp-server/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -1,28 +1,39 @@
 ---
-name: Snowflake MCP
-description: Agent skill for snowflake mcp.
-category: Data Extraction &amp; Transformation
-framework: Any Agent
+name: "Snowflake MCP"
+description: "Expose Snowflake databases, schemas, and query execution to AI agents via the Model Context Protocol, enabling natural-language SQL generation, query history inspection, and warehouse cost analysis. Supports role-based access control passthrough."
+category: "Data Extraction & Transformation"
+framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.7
 reviews: 77
+creator: Priya Sharma
+creator_handle: priyasharma
+creator_verified: true
 source: https://agentskillexchange.com/skill/snowflake-mcp/
 ---
 
 # Snowflake MCP
 
-Agent skill for snowflake mcp.
-
-## Overview
-
-Agent skill for snowflake mcp.
+Expose Snowflake databases, schemas, and query execution to AI agents via the Model Context Protocol, enabling natural-language SQL generation, query history inspection, and warehouse cost analysis. Supports role-based access control passthrough.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill snowflake-mcp
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill snowflake-mcp -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill snowflake-mcp -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill snowflake-mcp
 clawhub install snowflake-mcp
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add snowflake-mcp
+npx skills add agentskillexchange/skills --skill snowflake-mcp -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/snowflake-mcp/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Data Extraction & Transformation |
+| Framework | MCP-compatible |
+| Verification | Security Reviewed |
+| Rating | 4.7/5 (77 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Data Extraction &amp; Transformation
-- **Framework**: Any Agent
-- **Rating**: 4.7/5 (77 reviews)
+**Priya Sharma** (Verified Creator ✓)
+- Profile: [@priyasharma](https://agentskillexchange.com/browse-skills/?creator=priyasharma)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/snowflake-mcp/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/snowflake-mcp/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

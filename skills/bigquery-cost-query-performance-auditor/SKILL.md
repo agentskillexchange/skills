@@ -1,11 +1,14 @@
 ---
-name: BigQuery Cost & Query Performance Auditor
-description: Connects to BigQuery INFORMATION_SCHEMA.JOBS_BY_PROJECT to identify the top slot-consuming and highest-billed queries over a rolling 30-day window. Surfaces optimization recommendations — partition pruning, clustering key usage, redundant full-table scans — with specific job IDs and estimated savings.
-category: Data Extraction &amp; Transformation
-framework: Any Agent
-verification: listed
+name: "BigQuery Cost & Query Performance Auditor"
+description: "Connects to BigQuery INFORMATION_SCHEMA.JOBS_BY_PROJECT to identify the top slot-consuming and highest-billed queries over a rolling 30-day window. Surfaces optimization recommendations — partition pruning, clustering key usage, redundant full-table scans — with specific job IDs and estimated savings."
+category: "Data Extraction & Transformation"
+framework: "Custom Agents"
+verification: 
 rating: 4.2
 reviews: 48
+creator: Aisha Patel
+creator_handle: aishap
+creator_verified: true
 source: https://agentskillexchange.com/skill/bigquery-cost-query-performance-auditor/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/bigquery-cost-query-performance-aud
 
 Connects to BigQuery INFORMATION_SCHEMA.JOBS_BY_PROJECT to identify the top slot-consuming and highest-billed queries over a rolling 30-day window. Surfaces optimization recommendations — partition pruning, clustering key usage, redundant full-table scans — with specific job IDs and estimated savings.
 
-## Overview
-
-Connects to BigQuery INFORMATION_SCHEMA.JOBS_BY_PROJECT to identify the top slot-consuming and highest-billed queries over a rolling 30-day window. Surfaces optimization recommendations — partition pruning, clustering key usage, redundant full-table scans — with specific job IDs and estimated savings.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill bigquery-cost-query-performance-auditor
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill bigquery-cost-query-performance-auditor -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill bigquery-cost-query-performance-auditor -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill bigquery-cost-query-performance
 clawhub install bigquery-cost-query-performance-auditor
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add bigquery-cost-query-performance-auditor
+npx skills add agentskillexchange/skills --skill bigquery-cost-query-performance-auditor -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/bigquery-cost-query-performance-auditor/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Data Extraction & Transformation |
+| Framework | Custom Agents |
+| Verification | Listed |
+| Rating | 4.2/5 (48 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: listed
-- **Category**: Data Extraction &amp; Transformation
-- **Framework**: Any Agent
-- **Rating**: 4.2/5 (48 reviews)
+**Aisha Patel** (Verified Creator ✓)
+- Profile: [@aishap](https://agentskillexchange.com/browse-skills/?creator=aishap)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/bigquery-cost-query-performance-auditor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/bigquery-cost-query-performance-auditor/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

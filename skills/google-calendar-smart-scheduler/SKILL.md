@@ -1,11 +1,14 @@
 ---
-name: Google Calendar Smart Scheduler
-description: Finds optimal meeting slots across multiple Google Calendar accounts using the Freebusy API (POST /calendar/v3/freeBusy), respects working hours and focus time blocks, and creates calendar events via the Events API. Supports timezone-aware scheduling across distributed teams.
-category: Calendar, Email &amp; Productivity
-framework: Any Agent
-verification: listed
+name: "Google Calendar Smart Scheduler"
+description: "Finds optimal meeting slots across multiple Google Calendar accounts using the Freebusy API (POST /calendar/v3/freeBusy), respects working hours and focus time blocks, and creates calendar events via the Events API. Supports timezone-aware scheduling across distributed teams."
+category: "Calendar, Email & Productivity"
+framework: "OpenClaw"
+verification: 
 rating: 4.2
 reviews: 26
+creator: Raj Gupta
+creator_handle: rajgupta
+creator_verified: true
 source: https://agentskillexchange.com/skill/google-calendar-smart-scheduler/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/google-calendar-smart-scheduler/
 
 Finds optimal meeting slots across multiple Google Calendar accounts using the Freebusy API (POST /calendar/v3/freeBusy), respects working hours and focus time blocks, and creates calendar events via the Events API. Supports timezone-aware scheduling across distributed teams.
 
-## Overview
-
-Finds optimal meeting slots across multiple Google Calendar accounts using the Freebusy API (POST /calendar/v3/freeBusy), respects working hours and focus time blocks, and creates calendar events via the Events API. Supports timezone-aware scheduling across distributed teams.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill google-calendar-smart-scheduler
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill google-calendar-smart-scheduler -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill google-calendar-smart-scheduler -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill google-calendar-smart-scheduler
 clawhub install google-calendar-smart-scheduler
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add google-calendar-smart-scheduler
+npx skills add agentskillexchange/skills --skill google-calendar-smart-scheduler -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/google-calendar-smart-scheduler/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Calendar, Email & Productivity |
+| Framework | OpenClaw |
+| Verification | Listed |
+| Rating | 4.2/5 (26 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: listed
-- **Category**: Calendar, Email &amp; Productivity
-- **Framework**: Any Agent
-- **Rating**: 4.2/5 (26 reviews)
+**Raj Gupta** (Verified Creator ✓)
+- Profile: [@rajgupta](https://agentskillexchange.com/browse-skills/?creator=rajgupta)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/google-calendar-smart-scheduler/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/google-calendar-smart-scheduler/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

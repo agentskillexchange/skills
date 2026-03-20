@@ -1,11 +1,14 @@
 ---
-name: Terraform Plan Diff Reviewer
-description: Parses terraform plan JSON output to identify destructive changes, security group modifications, and IAM policy drift. Uses the Terraform Cloud API for workspace state comparison.
-category: Runbooks &amp; Diagnostics
-framework: Any Agent
+name: "Terraform Plan Diff Reviewer"
+description: "Parses terraform plan JSON output to identify destructive changes, security group modifications, and IAM policy drift. Uses the Terraform Cloud API for workspace state comparison."
+category: "Runbooks & Diagnostics"
+framework: "ChatGPT Agents"
 verification: security_reviewed
 rating: 4.0
 reviews: 85
+creator: Luna Martinez
+creator_handle: lunamartinez
+creator_verified: false
 source: https://agentskillexchange.com/skill/terraform-plan-diff-reviewer/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/terraform-plan-diff-reviewer/
 
 Parses terraform plan JSON output to identify destructive changes, security group modifications, and IAM policy drift. Uses the Terraform Cloud API for workspace state comparison.
 
-## Overview
-
-Parses terraform plan JSON output to identify destructive changes, security group modifications, and IAM policy drift. Uses the Terraform Cloud API for workspace state comparison.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill terraform-plan-diff-reviewer
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill terraform-plan-diff-reviewer -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill terraform-plan-diff-reviewer -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill terraform-plan-diff-reviewer
 clawhub install terraform-plan-diff-reviewer
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add terraform-plan-diff-reviewer
+npx skills add agentskillexchange/skills --skill terraform-plan-diff-reviewer -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/terraform-plan-diff-reviewer/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Runbooks & Diagnostics |
+| Framework | ChatGPT Agents |
+| Verification | Security Reviewed |
+| Rating | 4.0/5 (85 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Runbooks &amp; Diagnostics
-- **Framework**: Any Agent
-- **Rating**: 4.0/5 (85 reviews)
+**Luna Martinez**
+- Profile: [@lunamartinez](https://agentskillexchange.com/browse-skills/?creator=lunamartinez)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/terraform-plan-diff-reviewer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/terraform-plan-diff-reviewer/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

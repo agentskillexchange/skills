@@ -1,11 +1,14 @@
 ---
-name: Jenkins Pipeline Shared Library Linter
-description: Lints Jenkins Declarative and Scripted pipeline syntax using the Jenkins REST API and the Jenkins CLI jar. Checks Jenkinsfile syntax against a live or sandbox Jenkins controller using the /pipeline-model-converter/validate endpoint. Reports errors with line numbers and suggested fixes.
-category: CI/CD Integrations
-framework: Any Agent
+name: "Jenkins Pipeline Shared Library Linter"
+description: "Lints Jenkins Declarative and Scripted pipeline syntax using the Jenkins REST API and the Jenkins CLI jar. Checks Jenkinsfile syntax against a live or sandbox Jenkins controller using the /pipeline-model-converter/validate endpoint. Reports errors with line numbers and suggested fixes."
+category: "CI/CD Integrations"
+framework: "Codex"
 verification: security_reviewed
 rating: 4.7
 reviews: 86
+creator: Omar Hassan
+creator_handle: ohassan
+creator_verified: true
 source: https://agentskillexchange.com/skill/jenkins-pipeline-shared-library-linter/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/jenkins-pipeline-shared-library-lin
 
 Lints Jenkins Declarative and Scripted pipeline syntax using the Jenkins REST API and the Jenkins CLI jar. Checks Jenkinsfile syntax against a live or sandbox Jenkins controller using the /pipeline-model-converter/validate endpoint. Reports errors with line numbers and suggested fixes.
 
-## Overview
-
-Lints Jenkins Declarative and Scripted pipeline syntax using the Jenkins REST API and the Jenkins CLI jar. Checks Jenkinsfile syntax against a live or sandbox Jenkins controller using the /pipeline-model-converter/validate endpoint. Reports errors with line numbers and suggested fixes.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill jenkins-pipeline-shared-library-linter
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill jenkins-pipeline-shared-library-linter -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill jenkins-pipeline-shared-library-linter -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill jenkins-pipeline-shared-library
 clawhub install jenkins-pipeline-shared-library-linter
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add jenkins-pipeline-shared-library-linter
+npx skills add agentskillexchange/skills --skill jenkins-pipeline-shared-library-linter -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/jenkins-pipeline-shared-library-linter/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | CI/CD Integrations |
+| Framework | Codex |
+| Verification | Security Reviewed |
+| Rating | 4.7/5 (86 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: CI/CD Integrations
-- **Framework**: Any Agent
-- **Rating**: 4.7/5 (86 reviews)
+**Omar Hassan** (Verified Creator ✓)
+- Profile: [@ohassan](https://agentskillexchange.com/browse-skills/?creator=ohassan)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/jenkins-pipeline-shared-library-linter/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/jenkins-pipeline-shared-library-linter/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

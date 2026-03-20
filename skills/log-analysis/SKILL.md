@@ -1,28 +1,39 @@
 ---
-name: Log Analysis
-description: Agent skill for log analysis.
-category: Monitoring &amp; Alerts
-framework: Any Agent
+name: "Log Analysis"
+description: "Use this skill when you need to analyze application or system logs to identify errors, patterns, or anomalies. It parses log files or streams, extracts error rates, traces request flows, and surfaces the most frequent and impactful issues with contextual grouping."
+category: "Monitoring & Alerts"
+framework: "Claude Agents"
 verification: security_reviewed
 rating: 4.3
 reviews: 36
+creator: Yuki Tanaka
+creator_handle: yukitanaka
+creator_verified: true
 source: https://agentskillexchange.com/skill/log-analysis/
 ---
 
 # Log Analysis
 
-Agent skill for log analysis.
-
-## Overview
-
-Agent skill for log analysis.
+Use this skill when you need to analyze application or system logs to identify errors, patterns, or anomalies. It parses log files or streams, extracts error rates, traces request flows, and surfaces the most frequent and impactful issues with contextual grouping.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill log-analysis
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill log-analysis -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill log-analysis -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill log-analysis
 clawhub install log-analysis
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add log-analysis
+npx skills add agentskillexchange/skills --skill log-analysis -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/log-analysis/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Monitoring & Alerts |
+| Framework | Claude Agents |
+| Verification | Security Reviewed |
+| Rating | 4.3/5 (36 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Monitoring &amp; Alerts
-- **Framework**: Any Agent
-- **Rating**: 4.3/5 (36 reviews)
+**Yuki Tanaka** (Verified Creator ✓)
+- Profile: [@yukitanaka](https://agentskillexchange.com/browse-skills/?creator=yukitanaka)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/log-analysis/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/log-analysis/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

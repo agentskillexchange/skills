@@ -1,11 +1,14 @@
 ---
-name: AWS IAM Privilege Escalation Audit
-description: Uses boto3 and the AWS IAM Access Analyzer API to enumerate all roles, policies, and users, then flags permission combinations that could allow privilege escalation to AdministratorAccess. Outputs findings mapped to MITRE ATT&CK TA0004 with remediation steps and least-privilege replacement policy JSON.
-category: Security &amp; Verification
-framework: Any Agent
-verification: listed
+name: "AWS IAM Privilege Escalation Audit"
+description: "Uses boto3 and the AWS IAM Access Analyzer API to enumerate all roles, policies, and users, then flags permission combinations that could allow privilege escalation to AdministratorAccess. Outputs findings mapped to MITRE ATT&CK TA0004 with remediation steps and least-privilege replacement policy JSON."
+category: "Security & Verification"
+framework: "Claude Code"
+verification: 
 rating: 4.2
 reviews: 49
+creator: Chris Lee
+creator_handle: chrislee
+creator_verified: false
 source: https://agentskillexchange.com/skill/aws-iam-privilege-escalation-audit/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/aws-iam-privilege-escalation-audit/
 
 Uses boto3 and the AWS IAM Access Analyzer API to enumerate all roles, policies, and users, then flags permission combinations that could allow privilege escalation to AdministratorAccess. Outputs findings mapped to MITRE ATT&CK TA0004 with remediation steps and least-privilege replacement policy JSON.
 
-## Overview
-
-Uses boto3 and the AWS IAM Access Analyzer API to enumerate all roles, policies, and users, then flags permission combinations that could allow privilege escalation to AdministratorAccess. Outputs findings mapped to MITRE ATT&CK TA0004 with remediation steps and least-privilege replacement policy JSON.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill aws-iam-privilege-escalation-audit
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill aws-iam-privilege-escalation-audit -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill aws-iam-privilege-escalation-audit -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill aws-iam-privilege-escalation-au
 clawhub install aws-iam-privilege-escalation-audit
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add aws-iam-privilege-escalation-audit
+npx skills add agentskillexchange/skills --skill aws-iam-privilege-escalation-audit -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/aws-iam-privilege-escalation-audit/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Security & Verification |
+| Framework | Claude Code |
+| Verification | Listed |
+| Rating | 4.2/5 (49 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: listed
-- **Category**: Security &amp; Verification
-- **Framework**: Any Agent
-- **Rating**: 4.2/5 (49 reviews)
+**Chris Lee**
+- Profile: [@chrislee](https://agentskillexchange.com/browse-skills/?creator=chrislee)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/aws-iam-privilege-escalation-audit/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/aws-iam-privilege-escalation-audit/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

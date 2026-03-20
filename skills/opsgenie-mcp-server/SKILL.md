@@ -1,28 +1,39 @@
 ---
-name: OpsGenie MCP Server
-description: Agent skill for opsgenie mcp server.
-category: Monitoring &amp; Alerts
-framework: Any Agent
+name: "OpsGenie MCP Server"
+description: "Use this skill when you need to list, acknowledge, or close OpsGenie alerts, check on-call rotations, or create incidents from your AI agent. It integrates OpsGenie’s alert management into agent workflows for faster incident response."
+category: "Monitoring & Alerts"
+framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.2
 reviews: 76
+creator: Chris Lee
+creator_handle: chrislee
+creator_verified: false
 source: https://agentskillexchange.com/skill/opsgenie-mcp-server/
 ---
 
 # OpsGenie MCP Server
 
-Agent skill for opsgenie mcp server.
-
-## Overview
-
-Agent skill for opsgenie mcp server.
+Use this skill when you need to list, acknowledge, or close OpsGenie alerts, check on-call rotations, or create incidents from your AI agent. It integrates OpsGenie’s alert management into agent workflows for faster incident response.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill opsgenie-mcp-server
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill opsgenie-mcp-server -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill opsgenie-mcp-server -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill opsgenie-mcp-server
 clawhub install opsgenie-mcp-server
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add opsgenie-mcp-server
+npx skills add agentskillexchange/skills --skill opsgenie-mcp-server -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/opsgenie-mcp-server/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Monitoring & Alerts |
+| Framework | MCP-compatible |
+| Verification | Security Reviewed |
+| Rating | 4.2/5 (76 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Monitoring &amp; Alerts
-- **Framework**: Any Agent
-- **Rating**: 4.2/5 (76 reviews)
+**Chris Lee**
+- Profile: [@chrislee](https://agentskillexchange.com/browse-skills/?creator=chrislee)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/opsgenie-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/opsgenie-mcp-server/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

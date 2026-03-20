@@ -1,28 +1,39 @@
 ---
-name: Prefect Workflow Agent
-description: Agent skill for prefect workflow agent.
-category: Templates &amp; Workflows
-framework: Any Agent
+name: "Prefect Workflow Agent"
+description: "Integrate Prefect Cloud or Prefect Server with AI agents to manage flow runs, deployments, and work queues programmatically. Agents can create deployments, monitor flow run states, and retrieve logs for failed runs."
+category: "Templates & Workflows"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.5
 reviews: 75
+creator: Alex Thompson
+creator_handle: alexthompson
+creator_verified: true
 source: https://agentskillexchange.com/skill/prefect-workflow-agent/
 ---
 
 # Prefect Workflow Agent
 
-Agent skill for prefect workflow agent.
-
-## Overview
-
-Agent skill for prefect workflow agent.
+Integrate Prefect Cloud or Prefect Server with AI agents to manage flow runs, deployments, and work queues programmatically. Agents can create deployments, monitor flow run states, and retrieve logs for failed runs.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill prefect-workflow-agent
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill prefect-workflow-agent -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill prefect-workflow-agent -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill prefect-workflow-agent
 clawhub install prefect-workflow-agent
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add prefect-workflow-agent
+npx skills add agentskillexchange/skills --skill prefect-workflow-agent -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/prefect-workflow-agent/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Templates & Workflows |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.5/5 (75 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Templates &amp; Workflows
-- **Framework**: Any Agent
-- **Rating**: 4.5/5 (75 reviews)
+**Alex Thompson** (Verified Creator ✓)
+- Profile: [@alexthompson](https://agentskillexchange.com/browse-skills/?creator=alexthompson)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/prefect-workflow-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/prefect-workflow-agent/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

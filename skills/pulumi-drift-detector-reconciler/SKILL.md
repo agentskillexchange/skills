@@ -1,28 +1,39 @@
 ---
-name: Pulumi Drift Detector & Reconciler
-description: Runs pulumi refresh on schedule to detect drift between live cloud resources and Pulumi state. Classifies drift by severity and opens a Jira ticket for destructive changes. Non-destructive drift is auto-reconciled via pulumi up --target for specific resources.
-category: Runbooks &amp; Diagnostics
-framework: Any Agent
+name: "Pulumi Drift Detector & Reconciler"
+description: "Runs pulumi refresh on schedule to detect drift between live cloud resources and Pulumi state. Classifies drift by severity and opens a Jira ticket for destructive changes. Non-destructive drift is auto-reconciled via pulumi up –target for specific resources."
+category: "Runbooks & Diagnostics"
+framework: "Codex"
 verification: verified_metadata
 rating: 4.5
 reviews: 49
+creator: Elena Kowalski
+creator_handle: ekowalski
+creator_verified: true
 source: https://agentskillexchange.com/skill/pulumi-drift-detector-reconciler/
 ---
 
 # Pulumi Drift Detector & Reconciler
 
-Runs pulumi refresh on schedule to detect drift between live cloud resources and Pulumi state. Classifies drift by severity and opens a Jira ticket for destructive changes. Non-destructive drift is auto-reconciled via pulumi up --target for specific resources.
-
-## Overview
-
-Runs pulumi refresh on schedule to detect drift between live cloud resources and Pulumi state. Classifies drift by severity and opens a Jira ticket for destructive changes. Non-destructive drift is auto-reconciled via pulumi up --target for specific resources.
+Runs pulumi refresh on schedule to detect drift between live cloud resources and Pulumi state. Classifies drift by severity and opens a Jira ticket for destructive changes. Non-destructive drift is auto-reconciled via pulumi up –target for specific resources.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill pulumi-drift-detector-reconciler
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill pulumi-drift-detector-reconciler -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill pulumi-drift-detector-reconciler -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill pulumi-drift-detector-reconcile
 clawhub install pulumi-drift-detector-reconciler
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add pulumi-drift-detector-reconciler
+npx skills add agentskillexchange/skills --skill pulumi-drift-detector-reconciler -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/pulumi-drift-detector-reconciler/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Runbooks & Diagnostics |
+| Framework | Codex |
+| Verification | Verified Metadata |
+| Rating | 4.5/5 (49 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: verified_metadata
-- **Category**: Runbooks &amp; Diagnostics
-- **Framework**: Any Agent
-- **Rating**: 4.5/5 (49 reviews)
+**Elena Kowalski** (Verified Creator ✓)
+- Profile: [@ekowalski](https://agentskillexchange.com/browse-skills/?creator=ekowalski)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/pulumi-drift-detector-reconciler/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/pulumi-drift-detector-reconciler/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

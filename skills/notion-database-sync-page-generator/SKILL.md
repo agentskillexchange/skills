@@ -1,11 +1,14 @@
 ---
-name: Notion Database Sync & Page Generator
-description: Reads from and writes to Notion databases using the official Notion API v1, supporting filtered queries, property mapping, and bulk page creation from structured CSV or JSON input. Automatically resolves relation and rollup properties when generating linked records.
-category: Integrations &amp; Connectors
-framework: Any Agent
-verification: listed
+name: "Notion Database Sync & Page Generator"
+description: "Reads from and writes to Notion databases using the official Notion API v1, supporting filtered queries, property mapping, and bulk page creation from structured CSV or JSON input. Automatically resolves relation and rollup properties when generating linked records."
+category: "Integrations & Connectors"
+framework: "MCP-compatible"
+verification: 
 rating: 4.6
 reviews: 5
+creator: Sofia Petrov
+creator_handle: sofiapetrov
+creator_verified: true
 source: https://agentskillexchange.com/skill/notion-database-sync-page-generator/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/notion-database-sync-page-generator
 
 Reads from and writes to Notion databases using the official Notion API v1, supporting filtered queries, property mapping, and bulk page creation from structured CSV or JSON input. Automatically resolves relation and rollup properties when generating linked records.
 
-## Overview
-
-Reads from and writes to Notion databases using the official Notion API v1, supporting filtered queries, property mapping, and bulk page creation from structured CSV or JSON input. Automatically resolves relation and rollup properties when generating linked records.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill notion-database-sync-page-generator
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill notion-database-sync-page-generator -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill notion-database-sync-page-generator -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill notion-database-sync-page-gener
 clawhub install notion-database-sync-page-generator
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add notion-database-sync-page-generator
+npx skills add agentskillexchange/skills --skill notion-database-sync-page-generator -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/notion-database-sync-page-generator/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Integrations & Connectors |
+| Framework | MCP-compatible |
+| Verification | Listed |
+| Rating | 4.6/5 (5 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: listed
-- **Category**: Integrations &amp; Connectors
-- **Framework**: Any Agent
-- **Rating**: 4.6/5 (5 reviews)
+**Sofia Petrov** (Verified Creator ✓)
+- Profile: [@sofiapetrov](https://agentskillexchange.com/browse-skills/?creator=sofiapetrov)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/notion-database-sync-page-generator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/notion-database-sync-page-generator/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

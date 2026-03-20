@@ -1,28 +1,39 @@
 ---
-name: Azure DevOps MCP Server
-description: Agent skill for azure devops mcp server.
-category: Developer Tools
-framework: Any Agent
+name: "Azure DevOps MCP Server"
+description: "Use this skill when you need to manage Azure DevOps pipelines, work items, repos, or boards from your AI agent. It connects agents to Azure DevOps for CI/CD pipeline management, sprint board updates, and repository operations across Azure-hosted projects."
+category: "Developer Tools"
+framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.7
 reviews: 68
+creator: Chris Lee
+creator_handle: chrislee
+creator_verified: false
 source: https://agentskillexchange.com/skill/azure-devops-mcp-server/
 ---
 
 # Azure DevOps MCP Server
 
-Agent skill for azure devops mcp server.
-
-## Overview
-
-Agent skill for azure devops mcp server.
+Use this skill when you need to manage Azure DevOps pipelines, work items, repos, or boards from your AI agent. It connects agents to Azure DevOps for CI/CD pipeline management, sprint board updates, and repository operations across Azure-hosted projects.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill azure-devops-mcp-server
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill azure-devops-mcp-server -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill azure-devops-mcp-server -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill azure-devops-mcp-server
 clawhub install azure-devops-mcp-server
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add azure-devops-mcp-server
+npx skills add agentskillexchange/skills --skill azure-devops-mcp-server -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/azure-devops-mcp-server/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Developer Tools |
+| Framework | MCP-compatible |
+| Verification | Security Reviewed |
+| Rating | 4.7/5 (68 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Developer Tools
-- **Framework**: Any Agent
-- **Rating**: 4.7/5 (68 reviews)
+**Chris Lee**
+- Profile: [@chrislee](https://agentskillexchange.com/browse-skills/?creator=chrislee)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/azure-devops-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/azure-devops-mcp-server/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

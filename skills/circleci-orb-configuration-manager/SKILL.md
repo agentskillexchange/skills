@@ -1,11 +1,14 @@
 ---
-name: CircleCI Orb Configuration Manager
-description: Manages CircleCI pipeline configurations using orbs like circleci/node, circleci/docker, and circleci/aws-s3. Handles workflow orchestration, parallelism, and resource class selection via .circleci/config.yml.
-category: CI/CD Integrations
-framework: Any Agent
+name: "CircleCI Orb Configuration Manager"
+description: "Manages CircleCI pipeline configurations using orbs like circleci/node, circleci/docker, and circleci/aws-s3. Handles workflow orchestration, parallelism, and resource class selection via .circleci/config.yml."
+category: "CI/CD Integrations"
+framework: "ChatGPT Agents"
 verification: verified_metadata
 rating: 4.2
 reviews: 68
+creator: Liam OBrien
+creator_handle: liamobrien
+creator_verified: true
 source: https://agentskillexchange.com/skill/circleci-orb-configuration-manager/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/circleci-orb-configuration-manager/
 
 Manages CircleCI pipeline configurations using orbs like circleci/node, circleci/docker, and circleci/aws-s3. Handles workflow orchestration, parallelism, and resource class selection via .circleci/config.yml.
 
-## Overview
-
-Manages CircleCI pipeline configurations using orbs like circleci/node, circleci/docker, and circleci/aws-s3. Handles workflow orchestration, parallelism, and resource class selection via .circleci/config.yml.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill circleci-orb-configuration-manager
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill circleci-orb-configuration-manager -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill circleci-orb-configuration-manager -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill circleci-orb-configuration-mana
 clawhub install circleci-orb-configuration-manager
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add circleci-orb-configuration-manager
+npx skills add agentskillexchange/skills --skill circleci-orb-configuration-manager -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/circleci-orb-configuration-manager/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | CI/CD Integrations |
+| Framework | ChatGPT Agents |
+| Verification | Verified Metadata |
+| Rating | 4.2/5 (68 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: verified_metadata
-- **Category**: CI/CD Integrations
-- **Framework**: Any Agent
-- **Rating**: 4.2/5 (68 reviews)
+**Liam OBrien** (Verified Creator ✓)
+- Profile: [@liamobrien](https://agentskillexchange.com/browse-skills/?creator=liamobrien)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/circleci-orb-configuration-manager/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/circleci-orb-configuration-manager/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

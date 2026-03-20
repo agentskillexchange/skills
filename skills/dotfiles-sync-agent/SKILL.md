@@ -1,28 +1,39 @@
 ---
-name: Dotfiles Sync Agent
-description: Agent skill for dotfiles sync agent.
-category: Developer Tools
-framework: Any Agent
+name: "Dotfiles Sync Agent"
+description: "Synchronize dotfiles across machines using GNU Stow, chezmoi, or a bare git repository, managed through an AI agent. Handles per-machine templating, secret redaction, and automated symlink creation for consistent development environments."
+category: "Developer Tools"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.5
 reviews: 9
+creator: David Kim
+creator_handle: dkim
+creator_verified: false
 source: https://agentskillexchange.com/skill/dotfiles-sync-agent/
 ---
 
 # Dotfiles Sync Agent
 
-Agent skill for dotfiles sync agent.
-
-## Overview
-
-Agent skill for dotfiles sync agent.
+Synchronize dotfiles across machines using GNU Stow, chezmoi, or a bare git repository, managed through an AI agent. Handles per-machine templating, secret redaction, and automated symlink creation for consistent development environments.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill dotfiles-sync-agent
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill dotfiles-sync-agent -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill dotfiles-sync-agent -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill dotfiles-sync-agent
 clawhub install dotfiles-sync-agent
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add dotfiles-sync-agent
+npx skills add agentskillexchange/skills --skill dotfiles-sync-agent -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/dotfiles-sync-agent/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Developer Tools |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.5/5 (9 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Developer Tools
-- **Framework**: Any Agent
-- **Rating**: 4.5/5 (9 reviews)
+**David Kim**
+- Profile: [@dkim](https://agentskillexchange.com/browse-skills/?creator=dkim)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/dotfiles-sync-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/dotfiles-sync-agent/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

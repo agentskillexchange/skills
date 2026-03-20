@@ -1,28 +1,39 @@
 ---
-name: Semantic Kernel Agent
-description: Agent skill for semantic kernel agent.
-category: Developer Tools
-framework: Any Agent
+name: "Semantic Kernel Agent"
+description: "Microsoft Semantic Kernel integration for building AI agents with memory, planning, and plugin orchestration. Connects LLMs to your existing .NET, Python, or Java codebase with a structured skill/plugin model."
+category: "Developer Tools"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.5
 reviews: 45
+creator: Ava Wilson
+creator_handle: avawilson
+creator_verified: true
 source: https://agentskillexchange.com/skill/semantic-kernel-agent/
 ---
 
 # Semantic Kernel Agent
 
-Agent skill for semantic kernel agent.
-
-## Overview
-
-Agent skill for semantic kernel agent.
+Microsoft Semantic Kernel integration for building AI agents with memory, planning, and plugin orchestration. Connects LLMs to your existing .NET, Python, or Java codebase with a structured skill/plugin model.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill semantic-kernel-agent
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill semantic-kernel-agent -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill semantic-kernel-agent -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill semantic-kernel-agent
 clawhub install semantic-kernel-agent
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add semantic-kernel-agent
+npx skills add agentskillexchange/skills --skill semantic-kernel-agent -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/semantic-kernel-agent/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Developer Tools |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.5/5 (45 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Developer Tools
-- **Framework**: Any Agent
-- **Rating**: 4.5/5 (45 reviews)
+**Ava Wilson** (Verified Creator ✓)
+- Profile: [@avawilson](https://agentskillexchange.com/browse-skills/?creator=avawilson)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/semantic-kernel-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/semantic-kernel-agent/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

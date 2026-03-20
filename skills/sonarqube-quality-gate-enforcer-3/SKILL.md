@@ -1,11 +1,14 @@
 ---
-name: SonarQube Quality Gate Enforcer
-description: Enforces SonarQube quality gate policies using the SonarQube Web API /api/qualitygates/project_status endpoint and /api/issues/search for vulnerability detection. Blocks merges when code coverage drops or security hotspots are unresolved.
-category: Code Quality &amp; Review
-framework: Any Agent
+name: "SonarQube Quality Gate Enforcer"
+description: "Enforces SonarQube quality gate policies using the SonarQube Web API /api/qualitygates/project_status endpoint and /api/issues/search for vulnerability detection. Blocks merges when code coverage drops or security hotspots are unresolved."
+category: "Code Quality & Review"
+framework: "Codex"
 verification: verified_metadata
 rating: 4.4
 reviews: 14
+creator: Priya Sharma
+creator_handle: priyasharma
+creator_verified: true
 source: https://agentskillexchange.com/skill/sonarqube-quality-gate-enforcer-3/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/sonarqube-quality-gate-enforcer-3/
 
 Enforces SonarQube quality gate policies using the SonarQube Web API /api/qualitygates/project_status endpoint and /api/issues/search for vulnerability detection. Blocks merges when code coverage drops or security hotspots are unresolved.
 
-## Overview
-
-Enforces SonarQube quality gate policies using the SonarQube Web API /api/qualitygates/project_status endpoint and /api/issues/search for vulnerability detection. Blocks merges when code coverage drops or security hotspots are unresolved.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-enforcer-3
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-enforcer-3 -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-enforcer-3 -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-enforcer
 clawhub install sonarqube-quality-gate-enforcer-3
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add sonarqube-quality-gate-enforcer-3
+npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-enforcer-3 -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/sonarqube-quality-gate-enforcer-3/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Code Quality & Review |
+| Framework | Codex |
+| Verification | Verified Metadata |
+| Rating | 4.4/5 (14 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: verified_metadata
-- **Category**: Code Quality &amp; Review
-- **Framework**: Any Agent
-- **Rating**: 4.4/5 (14 reviews)
+**Priya Sharma** (Verified Creator ✓)
+- Profile: [@priyasharma](https://agentskillexchange.com/browse-skills/?creator=priyasharma)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/sonarqube-quality-gate-enforcer-3/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/sonarqube-quality-gate-enforcer-3/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

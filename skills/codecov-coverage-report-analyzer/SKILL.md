@@ -1,11 +1,14 @@
 ---
-name: Codecov Coverage Report Analyzer
-description: Integrates with the Codecov API v2 and codecov-cli to upload coverage reports, analyze coverage deltas, and enforce minimum thresholds. Supports lcov, cobertura, and jacoco report formats.
-category: Code Quality &amp; Review
-framework: Any Agent
+name: "Codecov Coverage Report Analyzer"
+description: "Integrates with the Codecov API v2 and codecov-cli to upload coverage reports, analyze coverage deltas, and enforce minimum thresholds. Supports lcov, cobertura, and jacoco report formats."
+category: "Code Quality & Review"
+framework: "Cursor"
 verification: security_reviewed
 rating: 4.4
 reviews: 84
+creator: Zara Ahmed
+creator_handle: zaraahmed
+creator_verified: true
 source: https://agentskillexchange.com/skill/codecov-coverage-report-analyzer/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/codecov-coverage-report-analyzer/
 
 Integrates with the Codecov API v2 and codecov-cli to upload coverage reports, analyze coverage deltas, and enforce minimum thresholds. Supports lcov, cobertura, and jacoco report formats.
 
-## Overview
-
-Integrates with the Codecov API v2 and codecov-cli to upload coverage reports, analyze coverage deltas, and enforce minimum thresholds. Supports lcov, cobertura, and jacoco report formats.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill codecov-coverage-report-analyzer
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill codecov-coverage-report-analyzer -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill codecov-coverage-report-analyzer -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill codecov-coverage-report-analyze
 clawhub install codecov-coverage-report-analyzer
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add codecov-coverage-report-analyzer
+npx skills add agentskillexchange/skills --skill codecov-coverage-report-analyzer -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/codecov-coverage-report-analyzer/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Code Quality & Review |
+| Framework | Cursor |
+| Verification | Security Reviewed |
+| Rating | 4.4/5 (84 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Code Quality &amp; Review
-- **Framework**: Any Agent
-- **Rating**: 4.4/5 (84 reviews)
+**Zara Ahmed** (Verified Creator ✓)
+- Profile: [@zaraahmed](https://agentskillexchange.com/browse-skills/?creator=zaraahmed)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/codecov-coverage-report-analyzer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/codecov-coverage-report-analyzer/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

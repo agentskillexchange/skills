@@ -1,11 +1,14 @@
 ---
-name: AWS CloudWatch Log Anomaly Scanner
-description: Scans AWS CloudWatch Logs using the CloudWatch Logs Insights API and CloudWatch Anomaly Detection API. Identifies unusual error patterns, latency spikes, and log volume anomalies across log groups.
-category: Runbooks &amp; Diagnostics
-framework: Any Agent
+name: "AWS CloudWatch Log Anomaly Scanner"
+description: "Scans AWS CloudWatch Logs using the CloudWatch Logs Insights API and CloudWatch Anomaly Detection API. Identifies unusual error patterns, latency spikes, and log volume anomalies across log groups."
+category: "Runbooks & Diagnostics"
+framework: "Codex"
 verification: verified_metadata
 rating: 4.8
 reviews: 49
+creator: Sarah Chen
+creator_handle: sarahchen
+creator_verified: true
 source: https://agentskillexchange.com/skill/aws-cloudwatch-log-anomaly-scanner/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/aws-cloudwatch-log-anomaly-scanner/
 
 Scans AWS CloudWatch Logs using the CloudWatch Logs Insights API and CloudWatch Anomaly Detection API. Identifies unusual error patterns, latency spikes, and log volume anomalies across log groups.
 
-## Overview
-
-Scans AWS CloudWatch Logs using the CloudWatch Logs Insights API and CloudWatch Anomaly Detection API. Identifies unusual error patterns, latency spikes, and log volume anomalies across log groups.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill aws-cloudwatch-log-anomaly-scanner
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill aws-cloudwatch-log-anomaly-scanner -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill aws-cloudwatch-log-anomaly-scanner -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill aws-cloudwatch-log-anomaly-scan
 clawhub install aws-cloudwatch-log-anomaly-scanner
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add aws-cloudwatch-log-anomaly-scanner
+npx skills add agentskillexchange/skills --skill aws-cloudwatch-log-anomaly-scanner -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/aws-cloudwatch-log-anomaly-scanner/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Runbooks & Diagnostics |
+| Framework | Codex |
+| Verification | Verified Metadata |
+| Rating | 4.8/5 (49 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: verified_metadata
-- **Category**: Runbooks &amp; Diagnostics
-- **Framework**: Any Agent
-- **Rating**: 4.8/5 (49 reviews)
+**Sarah Chen** (Verified Creator ✓)
+- Profile: [@sarahchen](https://agentskillexchange.com/browse-skills/?creator=sarahchen)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/aws-cloudwatch-log-anomaly-scanner/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/aws-cloudwatch-log-anomaly-scanner/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

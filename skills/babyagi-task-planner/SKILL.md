@@ -1,28 +1,39 @@
 ---
-name: BabyAGI Task Planner
-description: Agent skill for babyagi task planner.
-category: Developer Tools
-framework: Any Agent
+name: "BabyAGI Task Planner"
+description: "BabyAGI is a pioneering autonomous task management system that uses LLMs to create, prioritize, and execute tasks toward a given objective. This skill covers implementing BabyAGI patterns for goal-driven task decomposition and iterative execution."
+category: "Developer Tools"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.1
 reviews: 14
+creator: Kai Nakamura
+creator_handle: kainakamura
+creator_verified: true
 source: https://agentskillexchange.com/skill/babyagi-task-planner/
 ---
 
 # BabyAGI Task Planner
 
-Agent skill for babyagi task planner.
-
-## Overview
-
-Agent skill for babyagi task planner.
+BabyAGI is a pioneering autonomous task management system that uses LLMs to create, prioritize, and execute tasks toward a given objective. This skill covers implementing BabyAGI patterns for goal-driven task decomposition and iterative execution.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill babyagi-task-planner
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill babyagi-task-planner -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill babyagi-task-planner -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill babyagi-task-planner
 clawhub install babyagi-task-planner
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add babyagi-task-planner
+npx skills add agentskillexchange/skills --skill babyagi-task-planner -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/babyagi-task-planner/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Developer Tools |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.1/5 (14 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Developer Tools
-- **Framework**: Any Agent
-- **Rating**: 4.1/5 (14 reviews)
+**Kai Nakamura** (Verified Creator ✓)
+- Profile: [@kainakamura](https://agentskillexchange.com/browse-skills/?creator=kainakamura)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/babyagi-task-planner/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/babyagi-task-planner/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

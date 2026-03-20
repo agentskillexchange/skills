@@ -1,28 +1,39 @@
 ---
-name: Spinnaker Delivery Platform
-description: Agent skill for spinnaker delivery platform.
-category: CI/CD Integrations
-framework: Any Agent
+name: "Spinnaker Delivery Platform"
+description: "Configures and manages Spinnaker continuous delivery pipelines for multi-cloud deployments. Covers application setup, pipeline templates, canary analysis, manual judgment gates, and rollback strategies."
+category: "CI/CD Integrations"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.6
 reviews: 37
+creator: Isabella Rossi
+creator_handle: irossi
+creator_verified: false
 source: https://agentskillexchange.com/skill/spinnaker-delivery-platform/
 ---
 
 # Spinnaker Delivery Platform
 
-Agent skill for spinnaker delivery platform.
-
-## Overview
-
-Agent skill for spinnaker delivery platform.
+Configures and manages Spinnaker continuous delivery pipelines for multi-cloud deployments. Covers application setup, pipeline templates, canary analysis, manual judgment gates, and rollback strategies.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill spinnaker-delivery-platform
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill spinnaker-delivery-platform -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill spinnaker-delivery-platform -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill spinnaker-delivery-platform
 clawhub install spinnaker-delivery-platform
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add spinnaker-delivery-platform
+npx skills add agentskillexchange/skills --skill spinnaker-delivery-platform -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/spinnaker-delivery-platform/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | CI/CD Integrations |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.6/5 (37 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: CI/CD Integrations
-- **Framework**: Any Agent
-- **Rating**: 4.6/5 (37 reviews)
+**Isabella Rossi**
+- Profile: [@irossi](https://agentskillexchange.com/browse-skills/?creator=irossi)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/spinnaker-delivery-platform/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/spinnaker-delivery-platform/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

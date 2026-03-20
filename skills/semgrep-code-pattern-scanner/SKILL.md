@@ -1,11 +1,14 @@
 ---
-name: Semgrep Code Pattern Scanner
-description: Runs Semgrep against a codebase using the official or custom rule registry and outputs a grouped report of security anti-patterns, deprecated API usage, and policy violations. Supports 30+ languages and produces SARIF output for GitHub Advanced Security.
-category: Code Quality &amp; Review
-framework: Any Agent
-verification: listed
+name: "Semgrep Code Pattern Scanner"
+description: "Runs Semgrep against a codebase using the official or custom rule registry and outputs a grouped report of security anti-patterns, deprecated API usage, and policy violations. Supports 30+ languages and produces SARIF output for GitHub Advanced Security."
+category: "Code Quality & Review"
+framework: "Codex"
+verification: 
 rating: 4.2
 reviews: 57
+creator: Isabella Rossi
+creator_handle: irossi
+creator_verified: false
 source: https://agentskillexchange.com/skill/semgrep-code-pattern-scanner/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/semgrep-code-pattern-scanner/
 
 Runs Semgrep against a codebase using the official or custom rule registry and outputs a grouped report of security anti-patterns, deprecated API usage, and policy violations. Supports 30+ languages and produces SARIF output for GitHub Advanced Security.
 
-## Overview
-
-Runs Semgrep against a codebase using the official or custom rule registry and outputs a grouped report of security anti-patterns, deprecated API usage, and policy violations. Supports 30+ languages and produces SARIF output for GitHub Advanced Security.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill semgrep-code-pattern-scanner
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill semgrep-code-pattern-scanner -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill semgrep-code-pattern-scanner -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill semgrep-code-pattern-scanner
 clawhub install semgrep-code-pattern-scanner
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add semgrep-code-pattern-scanner
+npx skills add agentskillexchange/skills --skill semgrep-code-pattern-scanner -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/semgrep-code-pattern-scanner/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Code Quality & Review |
+| Framework | Codex |
+| Verification | Listed |
+| Rating | 4.2/5 (57 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: listed
-- **Category**: Code Quality &amp; Review
-- **Framework**: Any Agent
-- **Rating**: 4.2/5 (57 reviews)
+**Isabella Rossi**
+- Profile: [@irossi](https://agentskillexchange.com/browse-skills/?creator=irossi)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/semgrep-code-pattern-scanner/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/semgrep-code-pattern-scanner/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

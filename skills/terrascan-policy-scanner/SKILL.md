@@ -1,11 +1,14 @@
 ---
-name: Terrascan Policy Scanner
-description: Tenable Terrascan scans Terraform, Kubernetes, Helm, and CloudFormation for security vulnerabilities and compliance violations. Maps findings to NIST, CIS, and GDPR controls with fix guidance.
-category: Security & Verification
-framework: Custom Agents
+name: "Terrascan Policy Scanner"
+description: "Tenable Terrascan scans Terraform, Kubernetes, Helm, and CloudFormation for security vulnerabilities and compliance violations. Maps findings to NIST, CIS, and GDPR controls with fix guidance."
+category: "Security & Verification"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.8
 reviews: 52
+creator: Maya Johnson
+creator_handle: mayaj
+creator_verified: false
 source: https://agentskillexchange.com/skill/terrascan-policy-scanner/
 ---
 
@@ -13,37 +16,53 @@ source: https://agentskillexchange.com/skill/terrascan-policy-scanner/
 
 Tenable Terrascan scans Terraform, Kubernetes, Helm, and CloudFormation for security vulnerabilities and compliance violations. Maps findings to NIST, CIS, and GDPR controls with fix guidance.
 
-## Overview
-
-Tenable Terrascan scans Terraform, Kubernetes, Helm, and CloudFormation for security vulnerabilities and compliance violations. Maps findings to NIST, CIS, and GDPR controls with fix guidance.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill terrascan-policy-scanner
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill terrascan-policy-scanner -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill terrascan-policy-scanner -a cursor
+```
+
 ### OpenClaw
 
 ```bash
-openclaw install terrascan-policy-scanner
+clawhub install terrascan-policy-scanner
 ```
 
-### Manual
+### Codex
 
-Download this `SKILL.md` file and place it in your agent's skills directory.
+```bash
+npx skills add agentskillexchange/skills --skill terrascan-policy-scanner -a codex
+```
 
-## Metadata
+## Details
 
 | Field | Value |
 |-------|-------|
 | Category | Security & Verification |
 | Framework | Custom Agents |
 | Verification | Security Reviewed |
-| Rating | ⭐⭐⭐⭐ 4.8/5.0 (52 reviews) |
+| Rating | 4.8/5 (52 reviews) |
 
----
+## Creator
 
-*Published on [Agent Skill Exchange](https://agentskillexchange.com/skill/terrascan-policy-scanner/)*
+**Maya Johnson**
+- Profile: [@mayaj](https://agentskillexchange.com/browse-skills/?creator=mayaj)
+
+## Links
+
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/terrascan-policy-scanner/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

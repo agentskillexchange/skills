@@ -1,11 +1,14 @@
 ---
-name: Self-Improvement / Learnings Capture
-description: Capture failures, corrections, and repeatable lessons so important operational knowledge persists across sessions.
-category: Templates &amp; Workflows
-framework: Any Agent
+name: "Self-Improvement / Learnings Capture"
+description: "Capture failures, corrections, and repeatable lessons so important operational knowledge persists across sessions."
+category: "Templates & Workflows"
+framework: "OpenClaw"
 verification: security_reviewed
 rating: 4.6
 reviews: 33
+creator: Elena Kowalski
+creator_handle: ekowalski
+creator_verified: true
 source: https://agentskillexchange.com/skill/self-improvement-learnings-capture/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/self-improvement-learnings-capture/
 
 Capture failures, corrections, and repeatable lessons so important operational knowledge persists across sessions.
 
-## Overview
-
-Capture failures, corrections, and repeatable lessons so important operational knowledge persists across sessions.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill self-improvement-learnings-capture
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill self-improvement-learnings-capture -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill self-improvement-learnings-capture -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill self-improvement-learnings-capt
 clawhub install self-improvement-learnings-capture
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add self-improvement-learnings-capture
+npx skills add agentskillexchange/skills --skill self-improvement-learnings-capture -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/self-improvement-learnings-capture/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Templates & Workflows |
+| Framework | OpenClaw |
+| Verification | Security Reviewed |
+| Rating | 4.6/5 (33 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Templates &amp; Workflows
-- **Framework**: Any Agent
-- **Rating**: 4.6/5 (33 reviews)
+**Elena Kowalski** (Verified Creator ✓)
+- Profile: [@ekowalski](https://agentskillexchange.com/browse-skills/?creator=ekowalski)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/self-improvement-learnings-capture/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/self-improvement-learnings-capture/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

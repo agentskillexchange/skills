@@ -1,28 +1,39 @@
 ---
-name: Cloud Cost Analysis
-description: Agent skill for cloud cost analysis.
-category: Developer Tools
-framework: Any Agent
+name: "Cloud Cost Analysis"
+description: "Use this skill when you need to analyze cloud spending across AWS, GCP, or Azure accounts and identify optimization opportunities. It queries cost and usage data, surfaces top spending services, highlights anomalies, and recommends rightsizing or reserved instance strategies."
+category: "Developer Tools"
+framework: "Claude Agents"
 verification: security_reviewed
 rating: 4.2
 reviews: 76
+creator: Alex Thompson
+creator_handle: alexthompson
+creator_verified: true
 source: https://agentskillexchange.com/skill/cloud-cost-analysis/
 ---
 
 # Cloud Cost Analysis
 
-Agent skill for cloud cost analysis.
-
-## Overview
-
-Agent skill for cloud cost analysis.
+Use this skill when you need to analyze cloud spending across AWS, GCP, or Azure accounts and identify optimization opportunities. It queries cost and usage data, surfaces top spending services, highlights anomalies, and recommends rightsizing or reserved instance strategies.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill cloud-cost-analysis
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill cloud-cost-analysis -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill cloud-cost-analysis -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill cloud-cost-analysis
 clawhub install cloud-cost-analysis
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add cloud-cost-analysis
+npx skills add agentskillexchange/skills --skill cloud-cost-analysis -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/cloud-cost-analysis/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Developer Tools |
+| Framework | Claude Agents |
+| Verification | Security Reviewed |
+| Rating | 4.2/5 (76 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Developer Tools
-- **Framework**: Any Agent
-- **Rating**: 4.2/5 (76 reviews)
+**Alex Thompson** (Verified Creator ✓)
+- Profile: [@alexthompson](https://agentskillexchange.com/browse-skills/?creator=alexthompson)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/cloud-cost-analysis/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/cloud-cost-analysis/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

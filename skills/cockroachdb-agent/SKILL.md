@@ -1,28 +1,39 @@
 ---
-name: CockroachDB Agent
-description: Agent skill for cockroachdb agent.
-category: Developer Tools
-framework: Any Agent
+name: "CockroachDB Agent"
+description: "AI agent skill for CockroachDB — generate distributed SQL queries, analyze query plans, manage schema migrations, inspect cluster health, and optimize multi-region data distribution."
+category: "Developer Tools"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.3
 reviews: 81
+creator: Maya Johnson
+creator_handle: mayaj
+creator_verified: false
 source: https://agentskillexchange.com/skill/cockroachdb-agent/
 ---
 
 # CockroachDB Agent
 
-Agent skill for cockroachdb agent.
-
-## Overview
-
-Agent skill for cockroachdb agent.
+AI agent skill for CockroachDB — generate distributed SQL queries, analyze query plans, manage schema migrations, inspect cluster health, and optimize multi-region data distribution.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill cockroachdb-agent
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill cockroachdb-agent -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill cockroachdb-agent -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill cockroachdb-agent
 clawhub install cockroachdb-agent
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add cockroachdb-agent
+npx skills add agentskillexchange/skills --skill cockroachdb-agent -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/cockroachdb-agent/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Developer Tools |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.3/5 (81 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Developer Tools
-- **Framework**: Any Agent
-- **Rating**: 4.3/5 (81 reviews)
+**Maya Johnson**
+- Profile: [@mayaj](https://agentskillexchange.com/browse-skills/?creator=mayaj)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/cockroachdb-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/cockroachdb-agent/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

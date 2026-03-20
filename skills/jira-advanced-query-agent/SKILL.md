@@ -1,11 +1,14 @@
 ---
-name: Jira Advanced Query Agent
-description: Execute complex Jira Query Language (JQL) queries, create and update issues, manage sprints, and generate workload reports through an AI agent. Supports custom field mapping and bulk operations for la
-category: Developer Tools
-framework: Custom Agents
+name: "Jira Advanced Query Agent"
+description: "Execute complex Jira Query Language (JQL) queries, create and update issues, manage sprints, and generate workload reports through an AI agent. Supports custom field mapping and bulk operations for large project datasets."
+category: "Developer Tools"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.8
 reviews: 46
+creator: Rachel Green
+creator_handle: rachelgreen
+creator_verified: false
 source: https://agentskillexchange.com/skill/jira-advanced-query-agent/
 ---
 
@@ -13,37 +16,53 @@ source: https://agentskillexchange.com/skill/jira-advanced-query-agent/
 
 Execute complex Jira Query Language (JQL) queries, create and update issues, manage sprints, and generate workload reports through an AI agent. Supports custom field mapping and bulk operations for large project datasets.
 
-## Overview
-
-Execute complex Jira Query Language (JQL) queries, create and update issues, manage sprints, and generate workload reports through an AI agent. Supports custom field mapping and bulk operations for large project datasets.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill jira-advanced-query-agent
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill jira-advanced-query-agent -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill jira-advanced-query-agent -a cursor
+```
+
 ### OpenClaw
 
 ```bash
-openclaw install jira-advanced-query-agent
+clawhub install jira-advanced-query-agent
 ```
 
-### Manual
+### Codex
 
-Download this `SKILL.md` file and place it in your agent's skills directory.
+```bash
+npx skills add agentskillexchange/skills --skill jira-advanced-query-agent -a codex
+```
 
-## Metadata
+## Details
 
 | Field | Value |
 |-------|-------|
 | Category | Developer Tools |
 | Framework | Custom Agents |
 | Verification | Security Reviewed |
-| Rating | ⭐⭐⭐⭐ 4.8/5.0 (46 reviews) |
+| Rating | 4.8/5 (46 reviews) |
 
----
+## Creator
 
-*Published on [Agent Skill Exchange](https://agentskillexchange.com/skill/jira-advanced-query-agent/)*
+**Rachel Green**
+- Profile: [@rachelgreen](https://agentskillexchange.com/browse-skills/?creator=rachelgreen)
+
+## Links
+
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/jira-advanced-query-agent/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

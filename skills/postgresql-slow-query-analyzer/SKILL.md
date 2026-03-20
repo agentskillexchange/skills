@@ -1,11 +1,14 @@
 ---
-name: PostgreSQL Slow Query Analyzer
-description: Queries pg_stat_statements and pg_stat_activity to surface the top slow queries by total execution time, mean latency, and call frequency. Runs EXPLAIN ANALYZE on worst offenders and suggests index additions, rewrite candidates, or vacuum triggers. Works on RDS and Supabase.
-category: Runbooks &amp; Diagnostics
-framework: Any Agent
-verification: listed
+name: "PostgreSQL Slow Query Analyzer"
+description: "Queries pg_stat_statements and pg_stat_activity to surface the top slow queries by total execution time, mean latency, and call frequency. Runs EXPLAIN ANALYZE on worst offenders and suggests index additions, rewrite candidates, or vacuum triggers. Works on RDS and Supabase."
+category: "Runbooks & Diagnostics"
+framework: "MCP-compatible"
+verification: 
 rating: 4.8
 reviews: 80
+creator: Tom Anderson
+creator_handle: tanderson
+creator_verified: false
 source: https://agentskillexchange.com/skill/postgresql-slow-query-analyzer/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/postgresql-slow-query-analyzer/
 
 Queries pg_stat_statements and pg_stat_activity to surface the top slow queries by total execution time, mean latency, and call frequency. Runs EXPLAIN ANALYZE on worst offenders and suggests index additions, rewrite candidates, or vacuum triggers. Works on RDS and Supabase.
 
-## Overview
-
-Queries pg_stat_statements and pg_stat_activity to surface the top slow queries by total execution time, mean latency, and call frequency. Runs EXPLAIN ANALYZE on worst offenders and suggests index additions, rewrite candidates, or vacuum triggers. Works on RDS and Supabase.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill postgresql-slow-query-analyzer
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill postgresql-slow-query-analyzer -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill postgresql-slow-query-analyzer -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill postgresql-slow-query-analyzer
 clawhub install postgresql-slow-query-analyzer
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add postgresql-slow-query-analyzer
+npx skills add agentskillexchange/skills --skill postgresql-slow-query-analyzer -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/postgresql-slow-query-analyzer/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Runbooks & Diagnostics |
+| Framework | MCP-compatible |
+| Verification | Listed |
+| Rating | 4.8/5 (80 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: listed
-- **Category**: Runbooks &amp; Diagnostics
-- **Framework**: Any Agent
-- **Rating**: 4.8/5 (80 reviews)
+**Tom Anderson**
+- Profile: [@tanderson](https://agentskillexchange.com/browse-skills/?creator=tanderson)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/postgresql-slow-query-analyzer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/postgresql-slow-query-analyzer/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -1,28 +1,39 @@
 ---
-name: API Diff Tool
-description: Agent skill for api diff tool.
-category: Library &amp; API Reference
-framework: Any Agent
+name: "API Diff Tool"
+description: "Compares two API responses (by endpoint or spec) and highlights structural differences, missing fields, type changes, and behavioral divergence. Useful for debugging API changes and validating migrations."
+category: "Library & API Reference"
+framework: "Claude Code"
 verification: security_reviewed
 rating: 4.1
 reviews: 42
+creator: Sarah Chen
+creator_handle: sarahchen
+creator_verified: true
 source: https://agentskillexchange.com/skill/api-diff-tool/
 ---
 
 # API Diff Tool
 
-Agent skill for api diff tool.
-
-## Overview
-
-Agent skill for api diff tool.
+Compares two API responses (by endpoint or spec) and highlights structural differences, missing fields, type changes, and behavioral divergence. Useful for debugging API changes and validating migrations.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill api-diff-tool
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill api-diff-tool -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill api-diff-tool -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill api-diff-tool
 clawhub install api-diff-tool
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add api-diff-tool
+npx skills add agentskillexchange/skills --skill api-diff-tool -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/api-diff-tool/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Library & API Reference |
+| Framework | Claude Code |
+| Verification | Security Reviewed |
+| Rating | 4.1/5 (42 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Library &amp; API Reference
-- **Framework**: Any Agent
-- **Rating**: 4.1/5 (42 reviews)
+**Sarah Chen** (Verified Creator ✓)
+- Profile: [@sarahchen](https://agentskillexchange.com/browse-skills/?creator=sarahchen)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/api-diff-tool/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/api-diff-tool/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

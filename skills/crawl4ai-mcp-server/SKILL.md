@@ -1,11 +1,14 @@
 ---
-name: Crawl4AI MCP Server
-description: Self-hosted web crawling and content extraction exposed as MCP tools. Scrape pages, crawl sites with depth control, and extract clean markdown — all self-hosted and free.
-category: Data Extraction & Transformation
-framework: MCP
+name: "Crawl4AI MCP Server"
+description: "Self-hosted web crawling and content extraction exposed as MCP tools. Scrape pages, crawl sites with depth control, and extract clean markdown — all self-hosted and free."
+category: "Data Extraction & Transformation"
+framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.9
 reviews: 71
+creator: Isabella Rossi
+creator_handle: irossi
+creator_verified: false
 source: https://agentskillexchange.com/skill/crawl4ai-mcp-server/
 ---
 
@@ -13,48 +16,53 @@ source: https://agentskillexchange.com/skill/crawl4ai-mcp-server/
 
 Self-hosted web crawling and content extraction exposed as MCP tools. Scrape pages, crawl sites with depth control, and extract clean markdown — all self-hosted and free.
 
-## Overview
-
-Crawl4AI MCP Server wraps the Crawl4AI open-source web crawling library behind a Model Context Protocol interface. It exposes tools for single-page scraping, multi-page crawling with configurable depth, and sitemap-based crawling. Results come back as clean, LLM-ready markdown.
-Best for
-
-Research pipelines and RAG ingestion
-Documentation extraction and competitive monitoring
-Any workflow needing structured web content without a paid crawling service
-
-How it differs from Firecrawl
-Entirely self-hosted and free. No API keys for the crawling layer, no rate limits from a third party, no usage-based charges. Runs locally or in Docker.
-Install notes
-Clone the repository and install with pip, or pull the Docker image (docker pull uysalsadi/crawl4ai-mcp-server:latest). Configure the server in your MCP client config. Requires Python 3.10+ or Docker. No API key needed.
-Source: github.com/sadiuysal/crawl4ai-mcp-server
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill crawl4ai-mcp-server
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill crawl4ai-mcp-server -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill crawl4ai-mcp-server -a cursor
+```
+
 ### OpenClaw
 
 ```bash
-openclaw install crawl4ai-mcp-server
+clawhub install crawl4ai-mcp-server
 ```
 
-### Manual
+### Codex
 
-Download this `SKILL.md` file and place it in your agent's skills directory.
+```bash
+npx skills add agentskillexchange/skills --skill crawl4ai-mcp-server -a codex
+```
 
-## Metadata
+## Details
 
 | Field | Value |
 |-------|-------|
 | Category | Data Extraction & Transformation |
-| Framework | MCP |
+| Framework | MCP-compatible |
 | Verification | Security Reviewed |
-| Rating | ⭐⭐⭐⭐ 4.9/5.0 (71 reviews) |
+| Rating | 4.9/5 (71 reviews) |
 
----
+## Creator
 
-*Published on [Agent Skill Exchange](https://agentskillexchange.com/skill/crawl4ai-mcp-server/)*
+**Isabella Rossi**
+- Profile: [@irossi](https://agentskillexchange.com/browse-skills/?creator=irossi)
+
+## Links
+
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/crawl4ai-mcp-server/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -1,28 +1,39 @@
 ---
-name: Ansible Playbook Runner with Vault Secrets
-description: Executes Ansible playbooks against dynamic inventories from AWS EC2 or Azure, decrypting Ansible Vault secrets via HashiCorp Vault KV v2 API. Streams task output in real time and posts a per-host pass/fail summary to Slack. Supports --check mode for dry-run validation before live runs.
-category: Runbooks &amp; Diagnostics
-framework: Any Agent
+name: "Ansible Playbook Runner with Vault Secrets"
+description: "Executes Ansible playbooks against dynamic inventories from AWS EC2 or Azure, decrypting Ansible Vault secrets via HashiCorp Vault KV v2 API. Streams task output in real time and posts a per-host pass/fail summary to Slack. Supports –check mode for dry-run validation before live runs."
+category: "Runbooks & Diagnostics"
+framework: "Claude Code"
 verification: verified_metadata
 rating: 4.6
 reviews: 52
+creator: Isabella Rossi
+creator_handle: irossi
+creator_verified: false
 source: https://agentskillexchange.com/skill/ansible-playbook-vault-runner/
 ---
 
 # Ansible Playbook Runner with Vault Secrets
 
-Executes Ansible playbooks against dynamic inventories from AWS EC2 or Azure, decrypting Ansible Vault secrets via HashiCorp Vault KV v2 API. Streams task output in real time and posts a per-host pass/fail summary to Slack. Supports --check mode for dry-run validation before live runs.
-
-## Overview
-
-Executes Ansible playbooks against dynamic inventories from AWS EC2 or Azure, decrypting Ansible Vault secrets via HashiCorp Vault KV v2 API. Streams task output in real time and posts a per-host pass/fail summary to Slack. Supports --check mode for dry-run validation before live runs.
+Executes Ansible playbooks against dynamic inventories from AWS EC2 or Azure, decrypting Ansible Vault secrets via HashiCorp Vault KV v2 API. Streams task output in real time and posts a per-host pass/fail summary to Slack. Supports –check mode for dry-run validation before live runs.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill ansible-playbook-vault-runner
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill ansible-playbook-vault-runner -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill ansible-playbook-vault-runner -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill ansible-playbook-vault-runner
 clawhub install ansible-playbook-vault-runner
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add ansible-playbook-vault-runner
+npx skills add agentskillexchange/skills --skill ansible-playbook-vault-runner -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/ansible-playbook-vault-runner/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Runbooks & Diagnostics |
+| Framework | Claude Code |
+| Verification | Verified Metadata |
+| Rating | 4.6/5 (52 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: verified_metadata
-- **Category**: Runbooks &amp; Diagnostics
-- **Framework**: Any Agent
-- **Rating**: 4.6/5 (52 reviews)
+**Isabella Rossi**
+- Profile: [@irossi](https://agentskillexchange.com/browse-skills/?creator=irossi)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/ansible-playbook-vault-runner/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/ansible-playbook-vault-runner/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

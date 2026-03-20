@@ -1,28 +1,39 @@
 ---
-name: Cron Job Manager
-description: Agent skill for cron job manager.
-category: Templates &amp; Workflows
-framework: Any Agent
+name: "Cron Job Manager"
+description: "Use this skill when you need to list, create, modify, or debug cron jobs on a system or in a cloud scheduler (AWS EventBridge, GCP Cloud Scheduler). It validates cron expressions, explains schedules in plain language, and checks job execution history for failures."
+category: "Templates & Workflows"
+framework: "Claude Code"
 verification: security_reviewed
 rating: 4.8
 reviews: 10
+creator: Tom Anderson
+creator_handle: tanderson
+creator_verified: false
 source: https://agentskillexchange.com/skill/cron-job-manager/
 ---
 
 # Cron Job Manager
 
-Agent skill for cron job manager.
-
-## Overview
-
-Agent skill for cron job manager.
+Use this skill when you need to list, create, modify, or debug cron jobs on a system or in a cloud scheduler (AWS EventBridge, GCP Cloud Scheduler). It validates cron expressions, explains schedules in plain language, and checks job execution history for failures.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill cron-job-manager
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill cron-job-manager -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill cron-job-manager -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill cron-job-manager
 clawhub install cron-job-manager
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add cron-job-manager
+npx skills add agentskillexchange/skills --skill cron-job-manager -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/cron-job-manager/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Templates & Workflows |
+| Framework | Claude Code |
+| Verification | Security Reviewed |
+| Rating | 4.8/5 (10 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Templates &amp; Workflows
-- **Framework**: Any Agent
-- **Rating**: 4.8/5 (10 reviews)
+**Tom Anderson**
+- Profile: [@tanderson](https://agentskillexchange.com/browse-skills/?creator=tanderson)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/cron-job-manager/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/cron-job-manager/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

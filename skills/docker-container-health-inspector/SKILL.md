@@ -1,11 +1,14 @@
 ---
-name: Docker Container Health Inspector
-description: Inspects Docker container health using the Docker Engine API v1.45 /containers/{id}/json and /containers/{id}/stats endpoints. Diagnoses OOM kills, restart loops, and network connectivity issues with automated log analysis via /containers/{id}/logs streaming.
-category: Runbooks &amp; Diagnostics
-framework: Any Agent
+name: "Docker Container Health Inspector"
+description: "Inspects Docker container health using the Docker Engine API v1.45 /containers/{id}/json and /containers/{id}/stats endpoints. Diagnoses OOM kills, restart loops, and network connectivity issues with automated log analysis via /containers/{id}/logs streaming."
+category: "Runbooks & Diagnostics"
+framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.5
 reviews: 79
+creator: Tom Anderson
+creator_handle: tanderson
+creator_verified: false
 source: https://agentskillexchange.com/skill/docker-container-health-inspector/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/docker-container-health-inspector/
 
 Inspects Docker container health using the Docker Engine API v1.45 /containers/{id}/json and /containers/{id}/stats endpoints. Diagnoses OOM kills, restart loops, and network connectivity issues with automated log analysis via /containers/{id}/logs streaming.
 
-## Overview
-
-Inspects Docker container health using the Docker Engine API v1.45 /containers/{id}/json and /containers/{id}/stats endpoints. Diagnoses OOM kills, restart loops, and network connectivity issues with automated log analysis via /containers/{id}/logs streaming.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill docker-container-health-inspector
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill docker-container-health-inspector -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill docker-container-health-inspector -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill docker-container-health-inspect
 clawhub install docker-container-health-inspector
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add docker-container-health-inspector
+npx skills add agentskillexchange/skills --skill docker-container-health-inspector -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/docker-container-health-inspector/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Runbooks & Diagnostics |
+| Framework | MCP-compatible |
+| Verification | Security Reviewed |
+| Rating | 4.5/5 (79 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Runbooks &amp; Diagnostics
-- **Framework**: Any Agent
-- **Rating**: 4.5/5 (79 reviews)
+**Tom Anderson**
+- Profile: [@tanderson](https://agentskillexchange.com/browse-skills/?creator=tanderson)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/docker-container-health-inspector/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/docker-container-health-inspector/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

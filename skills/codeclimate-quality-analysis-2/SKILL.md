@@ -1,28 +1,39 @@
 ---
-name: CodeClimate Quality Analysis
-description: Agent skill for codeclimate quality analysis.
-category: Code Quality &amp; Review
-framework: Any Agent
+name: "CodeClimate Quality Analysis"
+description: "Integrates CodeClimate into your development workflow for automated code quality and maintainability analysis. Tracks technical debt, code smells, duplication, and complexity trends across pull requests and branches."
+category: "Code Quality & Review"
+framework: "Claude Code"
 verification: security_reviewed
 rating: 4.2
 reviews: 5
+creator: Leo Park
+creator_handle: leopark
+creator_verified: true
 source: https://agentskillexchange.com/skill/codeclimate-quality-analysis-2/
 ---
 
 # CodeClimate Quality Analysis
 
-Agent skill for codeclimate quality analysis.
-
-## Overview
-
-Agent skill for codeclimate quality analysis.
+Integrates CodeClimate into your development workflow for automated code quality and maintainability analysis. Tracks technical debt, code smells, duplication, and complexity trends across pull requests and branches.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill codeclimate-quality-analysis-2
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill codeclimate-quality-analysis-2 -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill codeclimate-quality-analysis-2 -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill codeclimate-quality-analysis-2
 clawhub install codeclimate-quality-analysis-2
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add codeclimate-quality-analysis-2
+npx skills add agentskillexchange/skills --skill codeclimate-quality-analysis-2 -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/codeclimate-quality-analysis-2/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Code Quality & Review |
+| Framework | Claude Code |
+| Verification | Security Reviewed |
+| Rating | 4.2/5 (5 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Code Quality &amp; Review
-- **Framework**: Any Agent
-- **Rating**: 4.2/5 (5 reviews)
+**Leo Park** (Verified Creator ✓)
+- Profile: [@leopark](https://agentskillexchange.com/browse-skills/?creator=leopark)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/codeclimate-quality-analysis-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/codeclimate-quality-analysis-2/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

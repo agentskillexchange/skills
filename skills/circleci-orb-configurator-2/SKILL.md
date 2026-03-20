@@ -1,11 +1,14 @@
 ---
-name: CircleCI Orb Configurator
-description: Builds and validates CircleCI orb configurations using the CircleCI CLI and Orb Development Kit. Supports orb packing, linting with yamllint, and publishing to the CircleCI Orb Registry via circleci orb publish.
-category: CI/CD Integrations
-framework: Any Agent
+name: "CircleCI Orb Configurator"
+description: "Builds and validates CircleCI orb configurations using the CircleCI CLI and Orb Development Kit. Supports orb packing, linting with yamllint, and publishing to the CircleCI Orb Registry via circleci orb publish."
+category: "CI/CD Integrations"
+framework: "Claude Agents"
 verification: verified_metadata
 rating: 4.6
 reviews: 70
+creator: James Whitfield
+creator_handle: jwhitfield
+creator_verified: true
 source: https://agentskillexchange.com/skill/circleci-orb-configurator-2/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/circleci-orb-configurator-2/
 
 Builds and validates CircleCI orb configurations using the CircleCI CLI and Orb Development Kit. Supports orb packing, linting with yamllint, and publishing to the CircleCI Orb Registry via circleci orb publish.
 
-## Overview
-
-Builds and validates CircleCI orb configurations using the CircleCI CLI and Orb Development Kit. Supports orb packing, linting with yamllint, and publishing to the CircleCI Orb Registry via circleci orb publish.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill circleci-orb-configurator-2
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill circleci-orb-configurator-2 -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill circleci-orb-configurator-2 -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill circleci-orb-configurator-2
 clawhub install circleci-orb-configurator-2
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add circleci-orb-configurator-2
+npx skills add agentskillexchange/skills --skill circleci-orb-configurator-2 -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/circleci-orb-configurator-2/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | CI/CD Integrations |
+| Framework | Claude Agents |
+| Verification | Verified Metadata |
+| Rating | 4.6/5 (70 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: verified_metadata
-- **Category**: CI/CD Integrations
-- **Framework**: Any Agent
-- **Rating**: 4.6/5 (70 reviews)
+**James Whitfield** (Verified Creator ✓)
+- Profile: [@jwhitfield](https://agentskillexchange.com/browse-skills/?creator=jwhitfield)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/circleci-orb-configurator-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/circleci-orb-configurator-2/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

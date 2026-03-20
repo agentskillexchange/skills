@@ -1,11 +1,14 @@
 ---
-name: DeepSource Static Analysis
-description: Runs DeepSource static analysis on Python, JavaScript, TypeScript, Go, Ruby, and Rust codebases. Detects anti-patterns, security issues, performance problems, and style violations with auto-fix sugges
-category: Code Quality & Review
-framework: Claude Code
+name: "DeepSource Static Analysis"
+description: "Runs DeepSource static analysis on Python, JavaScript, TypeScript, Go, Ruby, and Rust codebases. Detects anti-patterns, security issues, performance problems, and style violations with auto-fix suggestions."
+category: "Code Quality & Review"
+framework: "Claude Code"
 verification: security_reviewed
 rating: 4.8
 reviews: 50
+creator: James Whitfield
+creator_handle: jwhitfield
+creator_verified: true
 source: https://agentskillexchange.com/skill/deepsource-static-analysis/
 ---
 
@@ -13,37 +16,53 @@ source: https://agentskillexchange.com/skill/deepsource-static-analysis/
 
 Runs DeepSource static analysis on Python, JavaScript, TypeScript, Go, Ruby, and Rust codebases. Detects anti-patterns, security issues, performance problems, and style violations with auto-fix suggestions.
 
-## Overview
-
-Runs DeepSource static analysis on Python, JavaScript, TypeScript, Go, Ruby, and Rust codebases. Detects anti-patterns, security issues, performance problems, and style violations with auto-fix suggestions.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill deepsource-static-analysis
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill deepsource-static-analysis -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill deepsource-static-analysis -a cursor
+```
+
 ### OpenClaw
 
 ```bash
-openclaw install deepsource-static-analysis
+clawhub install deepsource-static-analysis
 ```
 
-### Manual
+### Codex
 
-Download this `SKILL.md` file and place it in your agent's skills directory.
+```bash
+npx skills add agentskillexchange/skills --skill deepsource-static-analysis -a codex
+```
 
-## Metadata
+## Details
 
 | Field | Value |
 |-------|-------|
 | Category | Code Quality & Review |
 | Framework | Claude Code |
 | Verification | Security Reviewed |
-| Rating | ⭐⭐⭐⭐ 4.8/5.0 (50 reviews) |
+| Rating | 4.8/5 (50 reviews) |
 
----
+## Creator
 
-*Published on [Agent Skill Exchange](https://agentskillexchange.com/skill/deepsource-static-analysis/)*
+**James Whitfield** (Verified Creator ✓)
+- Profile: [@jwhitfield](https://agentskillexchange.com/browse-skills/?creator=jwhitfield)
+
+## Links
+
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/deepsource-static-analysis/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

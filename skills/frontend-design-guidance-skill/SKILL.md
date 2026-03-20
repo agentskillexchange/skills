@@ -1,11 +1,14 @@
 ---
-name: Frontend Design Guidance Skill
-description: Practical frontend design guidance for landing pages, dashboards, and UI implementation work.
-category: Developer Tools
-framework: Any Agent
+name: "Frontend Design Guidance Skill"
+description: "Practical frontend design guidance for landing pages, dashboards, and UI implementation work."
+category: "Developer Tools"
+framework: "OpenClaw"
 verification: security_reviewed
 rating: 4.7
 reviews: 31
+creator: Tom Anderson
+creator_handle: tanderson
+creator_verified: false
 source: https://agentskillexchange.com/skill/frontend-design-guidance-skill/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/frontend-design-guidance-skill/
 
 Practical frontend design guidance for landing pages, dashboards, and UI implementation work.
 
-## Overview
-
-Practical frontend design guidance for landing pages, dashboards, and UI implementation work.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill frontend-design-guidance-skill
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill frontend-design-guidance-skill -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill frontend-design-guidance-skill -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill frontend-design-guidance-skill
 clawhub install frontend-design-guidance-skill
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add frontend-design-guidance-skill
+npx skills add agentskillexchange/skills --skill frontend-design-guidance-skill -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/frontend-design-guidance-skill/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Developer Tools |
+| Framework | OpenClaw |
+| Verification | Security Reviewed |
+| Rating | 4.7/5 (31 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Developer Tools
-- **Framework**: Any Agent
-- **Rating**: 4.7/5 (31 reviews)
+**Tom Anderson**
+- Profile: [@tanderson](https://agentskillexchange.com/browse-skills/?creator=tanderson)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/frontend-design-guidance-skill/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/frontend-design-guidance-skill/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

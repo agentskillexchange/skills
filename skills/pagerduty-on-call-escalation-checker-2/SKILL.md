@@ -1,11 +1,14 @@
 ---
-name: PagerDuty On-Call Escalation Checker
-description: Queries PagerDuty to show who is currently on-call for each escalation policy, surfaces unacknowledged incidents, and identifies schedule coverage gaps for the next 7 days. Useful for handoff checks and pre-weekend coverage audits. Read-only skill.
-category: Runbooks &amp; Diagnostics
-framework: Any Agent
+name: "PagerDuty On-Call Escalation Checker"
+description: "Queries PagerDuty to show who is currently on-call for each escalation policy, surfaces unacknowledged incidents, and identifies schedule coverage gaps for the next 7 days. Useful for handoff checks and pre-weekend coverage audits. Read-only skill."
+category: "Runbooks & Diagnostics"
+framework: "Claude Code"
 verification: security_reviewed
 rating: 4.2
 reviews: 66
+creator: James Whitfield
+creator_handle: jwhitfield
+creator_verified: true
 source: https://agentskillexchange.com/skill/pagerduty-on-call-escalation-checker-2/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/pagerduty-on-call-escalation-checke
 
 Queries PagerDuty to show who is currently on-call for each escalation policy, surfaces unacknowledged incidents, and identifies schedule coverage gaps for the next 7 days. Useful for handoff checks and pre-weekend coverage audits. Read-only skill.
 
-## Overview
-
-Queries PagerDuty to show who is currently on-call for each escalation policy, surfaces unacknowledged incidents, and identifies schedule coverage gaps for the next 7 days. Useful for handoff checks and pre-weekend coverage audits. Read-only skill.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill pagerduty-on-call-escalation-checker-2
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill pagerduty-on-call-escalation-checker-2 -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill pagerduty-on-call-escalation-checker-2 -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill pagerduty-on-call-escalation-ch
 clawhub install pagerduty-on-call-escalation-checker-2
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add pagerduty-on-call-escalation-checker-2
+npx skills add agentskillexchange/skills --skill pagerduty-on-call-escalation-checker-2 -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/pagerduty-on-call-escalation-checker-2/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Runbooks & Diagnostics |
+| Framework | Claude Code |
+| Verification | Security Reviewed |
+| Rating | 4.2/5 (66 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Runbooks &amp; Diagnostics
-- **Framework**: Any Agent
-- **Rating**: 4.2/5 (66 reviews)
+**James Whitfield** (Verified Creator ✓)
+- Profile: [@jwhitfield](https://agentskillexchange.com/browse-skills/?creator=jwhitfield)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/pagerduty-on-call-escalation-checker-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/pagerduty-on-call-escalation-checker-2/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

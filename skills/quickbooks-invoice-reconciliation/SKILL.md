@@ -1,11 +1,14 @@
 ---
-name: QuickBooks Online Invoice Reconciliation Agent
-description: Connects to the QuickBooks Online Accounting API using OAuth 2.0 via the intuit-oauth Node.js SDK to fetch unpaid invoices and match them against bank transaction records. Discrepancies are flagged and a reconciliation report is generated as a PDF using PDFKit, then emailed via SendGrid.
-category: Data Extraction &amp; Transformation
-framework: Any Agent
+name: "QuickBooks Online Invoice Reconciliation Agent"
+description: "Connects to the QuickBooks Online Accounting API using OAuth 2.0 via the intuit-oauth Node.js SDK to fetch unpaid invoices and match them against bank transaction records. Discrepancies are flagged and a reconciliation report is generated as a PDF using PDFKit, then emailed via SendGrid."
+category: "Data Extraction & Transformation"
+framework: "Claude Code"
 verification: verified_metadata
 rating: 4.5
 reviews: 8
+creator: Nathan Brooks
+creator_handle: nbrooks
+creator_verified: false
 source: https://agentskillexchange.com/skill/quickbooks-invoice-reconciliation/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/quickbooks-invoice-reconciliation/
 
 Connects to the QuickBooks Online Accounting API using OAuth 2.0 via the intuit-oauth Node.js SDK to fetch unpaid invoices and match them against bank transaction records. Discrepancies are flagged and a reconciliation report is generated as a PDF using PDFKit, then emailed via SendGrid.
 
-## Overview
-
-Connects to the QuickBooks Online Accounting API using OAuth 2.0 via the intuit-oauth Node.js SDK to fetch unpaid invoices and match them against bank transaction records. Discrepancies are flagged and a reconciliation report is generated as a PDF using PDFKit, then emailed via SendGrid.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill quickbooks-invoice-reconciliation
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill quickbooks-invoice-reconciliation -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill quickbooks-invoice-reconciliation -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill quickbooks-invoice-reconciliati
 clawhub install quickbooks-invoice-reconciliation
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add quickbooks-invoice-reconciliation
+npx skills add agentskillexchange/skills --skill quickbooks-invoice-reconciliation -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/quickbooks-invoice-reconciliation/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Data Extraction & Transformation |
+| Framework | Claude Code |
+| Verification | Verified Metadata |
+| Rating | 4.5/5 (8 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: verified_metadata
-- **Category**: Data Extraction &amp; Transformation
-- **Framework**: Any Agent
-- **Rating**: 4.5/5 (8 reviews)
+**Nathan Brooks**
+- Profile: [@nbrooks](https://agentskillexchange.com/browse-skills/?creator=nbrooks)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/quickbooks-invoice-reconciliation/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/quickbooks-invoice-reconciliation/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

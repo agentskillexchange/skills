@@ -1,28 +1,39 @@
 ---
-name: Vim Neovim Config Assistant
-description: Agent skill for vim neovim config assistant.
-category: Developer Tools
-framework: Any Agent
+name: "Vim Neovim Config Assistant"
+description: "Generate, validate, and optimize Vim and Neovim configurations including init.lua, plugin manager setup, and LSP configuration through an AI agent. Supports lazy.nvim and packer.nvim plugin management with automated treesitter and mason tool installation."
+category: "Developer Tools"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.4
 reviews: 37
+creator: James Whitfield
+creator_handle: jwhitfield
+creator_verified: true
 source: https://agentskillexchange.com/skill/vim-neovim-config-assistant/
 ---
 
 # Vim Neovim Config Assistant
 
-Agent skill for vim neovim config assistant.
-
-## Overview
-
-Agent skill for vim neovim config assistant.
+Generate, validate, and optimize Vim and Neovim configurations including init.lua, plugin manager setup, and LSP configuration through an AI agent. Supports lazy.nvim and packer.nvim plugin management with automated treesitter and mason tool installation.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill vim-neovim-config-assistant
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill vim-neovim-config-assistant -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill vim-neovim-config-assistant -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill vim-neovim-config-assistant
 clawhub install vim-neovim-config-assistant
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add vim-neovim-config-assistant
+npx skills add agentskillexchange/skills --skill vim-neovim-config-assistant -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/vim-neovim-config-assistant/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Developer Tools |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.4/5 (37 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Developer Tools
-- **Framework**: Any Agent
-- **Rating**: 4.4/5 (37 reviews)
+**James Whitfield** (Verified Creator ✓)
+- Profile: [@jwhitfield](https://agentskillexchange.com/browse-skills/?creator=jwhitfield)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/vim-neovim-config-assistant/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/vim-neovim-config-assistant/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -1,11 +1,14 @@
 ---
-name: Datadog Incident Runbook Runner
-description: Fetches an active Datadog incident, retrieves associated monitors and dashboards, pulls the last 30 minutes of metric data, and walks through a runbook checklist with automated triage steps. Reduces mean time to diagnosis by surfacing signal without dashboard navigation.
-category: Runbooks &amp; Diagnostics
-framework: Any Agent
+name: "Datadog Incident Runbook Runner"
+description: "Fetches an active Datadog incident, retrieves associated monitors and dashboards, pulls the last 30 minutes of metric data, and walks through a runbook checklist with automated triage steps. Reduces mean time to diagnosis by surfacing signal without dashboard navigation."
+category: "Runbooks & Diagnostics"
+framework: "OpenClaw"
 verification: verified_metadata
 rating: 4.5
 reviews: 54
+creator: Nathan Brooks
+creator_handle: nbrooks
+creator_verified: false
 source: https://agentskillexchange.com/skill/datadog-incident-runbook-runner-2/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/datadog-incident-runbook-runner-2/
 
 Fetches an active Datadog incident, retrieves associated monitors and dashboards, pulls the last 30 minutes of metric data, and walks through a runbook checklist with automated triage steps. Reduces mean time to diagnosis by surfacing signal without dashboard navigation.
 
-## Overview
-
-Fetches an active Datadog incident, retrieves associated monitors and dashboards, pulls the last 30 minutes of metric data, and walks through a runbook checklist with automated triage steps. Reduces mean time to diagnosis by surfacing signal without dashboard navigation.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill datadog-incident-runbook-runner-2
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill datadog-incident-runbook-runner-2 -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill datadog-incident-runbook-runner-2 -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill datadog-incident-runbook-runner
 clawhub install datadog-incident-runbook-runner-2
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add datadog-incident-runbook-runner-2
+npx skills add agentskillexchange/skills --skill datadog-incident-runbook-runner-2 -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/datadog-incident-runbook-runner-2/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Runbooks & Diagnostics |
+| Framework | OpenClaw |
+| Verification | Verified Metadata |
+| Rating | 4.5/5 (54 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: verified_metadata
-- **Category**: Runbooks &amp; Diagnostics
-- **Framework**: Any Agent
-- **Rating**: 4.5/5 (54 reviews)
+**Nathan Brooks**
+- Profile: [@nbrooks](https://agentskillexchange.com/browse-skills/?creator=nbrooks)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/datadog-incident-runbook-runner-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/datadog-incident-runbook-runner-2/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

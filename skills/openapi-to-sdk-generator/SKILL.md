@@ -1,28 +1,39 @@
 ---
-name: OpenAPI to SDK Generator
-description: Agent skill for openapi to sdk generator.
-category: Library &amp; API Reference
-framework: Any Agent
+name: "OpenAPI to SDK Generator"
+description: "Generates type-safe SDK clients from OpenAPI 3.x specifications. Supports TypeScript, Python, Go, and Java output. Handles authentication schemes, pagination patterns, and error types automatically."
+category: "Library & API Reference"
+framework: "Claude Code"
 verification: security_reviewed
 rating: 4.6
 reviews: 30
+creator: Mia Zhang
+creator_handle: miazhang
+creator_verified: true
 source: https://agentskillexchange.com/skill/openapi-to-sdk-generator/
 ---
 
 # OpenAPI to SDK Generator
 
-Agent skill for openapi to sdk generator.
-
-## Overview
-
-Agent skill for openapi to sdk generator.
+Generates type-safe SDK clients from OpenAPI 3.x specifications. Supports TypeScript, Python, Go, and Java output. Handles authentication schemes, pagination patterns, and error types automatically.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill openapi-to-sdk-generator
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill openapi-to-sdk-generator -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill openapi-to-sdk-generator -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill openapi-to-sdk-generator
 clawhub install openapi-to-sdk-generator
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add openapi-to-sdk-generator
+npx skills add agentskillexchange/skills --skill openapi-to-sdk-generator -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/openapi-to-sdk-generator/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Library & API Reference |
+| Framework | Claude Code |
+| Verification | Security Reviewed |
+| Rating | 4.6/5 (30 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Library &amp; API Reference
-- **Framework**: Any Agent
-- **Rating**: 4.6/5 (30 reviews)
+**Mia Zhang** (Verified Creator ✓)
+- Profile: [@miazhang](https://agentskillexchange.com/browse-skills/?creator=miazhang)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/openapi-to-sdk-generator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/openapi-to-sdk-generator/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

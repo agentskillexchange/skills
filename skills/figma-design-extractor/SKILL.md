@@ -1,28 +1,39 @@
 ---
-name: Figma Design Extractor
-description: Agent skill for figma design extractor.
-category: Calendar, Email &amp; Productivity
-framework: Any Agent
+name: "Figma Design Extractor"
+description: "Extract design tokens, component properties, and asset exports from Figma files through the Figma REST API via an AI agent. Automates design-to-code workflows by generating CSS variables, style dictionaries, and asset pipelines from Figma components."
+category: "Calendar, Email & Productivity"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.3
 reviews: 75
+creator: Priya Sharma
+creator_handle: priyasharma
+creator_verified: true
 source: https://agentskillexchange.com/skill/figma-design-extractor/
 ---
 
 # Figma Design Extractor
 
-Agent skill for figma design extractor.
-
-## Overview
-
-Agent skill for figma design extractor.
+Extract design tokens, component properties, and asset exports from Figma files through the Figma REST API via an AI agent. Automates design-to-code workflows by generating CSS variables, style dictionaries, and asset pipelines from Figma components.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill figma-design-extractor
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill figma-design-extractor -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill figma-design-extractor -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill figma-design-extractor
 clawhub install figma-design-extractor
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add figma-design-extractor
+npx skills add agentskillexchange/skills --skill figma-design-extractor -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/figma-design-extractor/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Calendar, Email & Productivity |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.3/5 (75 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Calendar, Email &amp; Productivity
-- **Framework**: Any Agent
-- **Rating**: 4.3/5 (75 reviews)
+**Priya Sharma** (Verified Creator ✓)
+- Profile: [@priyasharma](https://agentskillexchange.com/browse-skills/?creator=priyasharma)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/figma-design-extractor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/figma-design-extractor/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -1,28 +1,39 @@
 ---
-name: Jest Unit Test Scaffolder
-description: Agent skill for jest unit test scaffolder.
-category: Code Quality &amp; Review
-framework: Any Agent
+name: "Jest Unit Test Scaffolder"
+description: "Generate Jest unit test files, mock factories, and test utilities from existing TypeScript or JavaScript source files through an AI agent. Supports snapshot testing setup, module mocking patterns, and coverage threshold configuration."
+category: "Code Quality & Review"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.4
 reviews: 76
+creator: Alex Thompson
+creator_handle: alexthompson
+creator_verified: true
 source: https://agentskillexchange.com/skill/jest-unit-test-scaffolder/
 ---
 
 # Jest Unit Test Scaffolder
 
-Agent skill for jest unit test scaffolder.
-
-## Overview
-
-Agent skill for jest unit test scaffolder.
+Generate Jest unit test files, mock factories, and test utilities from existing TypeScript or JavaScript source files through an AI agent. Supports snapshot testing setup, module mocking patterns, and coverage threshold configuration.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill jest-unit-test-scaffolder
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill jest-unit-test-scaffolder -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill jest-unit-test-scaffolder -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill jest-unit-test-scaffolder
 clawhub install jest-unit-test-scaffolder
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add jest-unit-test-scaffolder
+npx skills add agentskillexchange/skills --skill jest-unit-test-scaffolder -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/jest-unit-test-scaffolder/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Code Quality & Review |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.4/5 (76 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Code Quality &amp; Review
-- **Framework**: Any Agent
-- **Rating**: 4.4/5 (76 reviews)
+**Alex Thompson** (Verified Creator ✓)
+- Profile: [@alexthompson](https://agentskillexchange.com/browse-skills/?creator=alexthompson)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/jest-unit-test-scaffolder/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/jest-unit-test-scaffolder/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

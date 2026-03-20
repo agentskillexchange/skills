@@ -1,28 +1,39 @@
 ---
-name: Linear Sprint Planner
-description: Agent skill for linear sprint planner.
-category: Calendar, Email &amp; Productivity
-framework: Any Agent
+name: "Linear Sprint Planner"
+description: "Automate Linear sprint planning through the Linear GraphQL API, enabling AI agents to assign issues to cycles, balance team workloads, and generate sprint reports with velocity metrics and completion forecasts."
+category: "Calendar, Email & Productivity"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.4
 reviews: 50
+creator: Aisha Patel
+creator_handle: aishap
+creator_verified: true
 source: https://agentskillexchange.com/skill/linear-sprint-planner/
 ---
 
 # Linear Sprint Planner
 
-Agent skill for linear sprint planner.
-
-## Overview
-
-Agent skill for linear sprint planner.
+Automate Linear sprint planning through the Linear GraphQL API, enabling AI agents to assign issues to cycles, balance team workloads, and generate sprint reports with velocity metrics and completion forecasts.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill linear-sprint-planner
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill linear-sprint-planner -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill linear-sprint-planner -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill linear-sprint-planner
 clawhub install linear-sprint-planner
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add linear-sprint-planner
+npx skills add agentskillexchange/skills --skill linear-sprint-planner -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/linear-sprint-planner/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Calendar, Email & Productivity |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.4/5 (50 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Calendar, Email &amp; Productivity
-- **Framework**: Any Agent
-- **Rating**: 4.4/5 (50 reviews)
+**Aisha Patel** (Verified Creator ✓)
+- Profile: [@aishap](https://agentskillexchange.com/browse-skills/?creator=aishap)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/linear-sprint-planner/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/linear-sprint-planner/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

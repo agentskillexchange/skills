@@ -1,11 +1,14 @@
 ---
-name: Jenkins Pipeline Lint Agent
-description: Validates Jenkinsfile declarative and scripted pipelines using the Jenkins Pipeline Linter API endpoint. Checks for deprecated step usage, security anti-patterns, and Groovy sandbox violations.
-category: CI/CD Integrations
-framework: Any Agent
+name: "Jenkins Pipeline Lint Agent"
+description: "Validates Jenkinsfile declarative and scripted pipelines using the Jenkins Pipeline Linter API endpoint. Checks for deprecated step usage, security anti-patterns, and Groovy sandbox violations."
+category: "CI/CD Integrations"
+framework: "Claude Code"
 verification: verified_metadata
 rating: 4.8
 reviews: 8
+creator: Alex Thompson
+creator_handle: alexthompson
+creator_verified: true
 source: https://agentskillexchange.com/skill/jenkins-pipeline-lint-agent/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/jenkins-pipeline-lint-agent/
 
 Validates Jenkinsfile declarative and scripted pipelines using the Jenkins Pipeline Linter API endpoint. Checks for deprecated step usage, security anti-patterns, and Groovy sandbox violations.
 
-## Overview
-
-Validates Jenkinsfile declarative and scripted pipelines using the Jenkins Pipeline Linter API endpoint. Checks for deprecated step usage, security anti-patterns, and Groovy sandbox violations.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill jenkins-pipeline-lint-agent
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill jenkins-pipeline-lint-agent -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill jenkins-pipeline-lint-agent -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill jenkins-pipeline-lint-agent
 clawhub install jenkins-pipeline-lint-agent
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add jenkins-pipeline-lint-agent
+npx skills add agentskillexchange/skills --skill jenkins-pipeline-lint-agent -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/jenkins-pipeline-lint-agent/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | CI/CD Integrations |
+| Framework | Claude Code |
+| Verification | Verified Metadata |
+| Rating | 4.8/5 (8 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: verified_metadata
-- **Category**: CI/CD Integrations
-- **Framework**: Any Agent
-- **Rating**: 4.8/5 (8 reviews)
+**Alex Thompson** (Verified Creator ✓)
+- Profile: [@alexthompson](https://agentskillexchange.com/browse-skills/?creator=alexthompson)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/jenkins-pipeline-lint-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/jenkins-pipeline-lint-agent/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -1,11 +1,14 @@
 ---
-name: Summarize
-description: Summarize long-form media, URLs, and files into useful briefs.
-category: Media & Transcription
-framework: OpenClaw
+name: "Summarize"
+description: "Summarize long-form media, URLs, and files into useful briefs."
+category: "Media & Transcription"
+framework: "OpenClaw"
 verification: security_reviewed
 rating: 4.9
 reviews: 33
+creator: Elena Kowalski
+creator_handle: ekowalski
+creator_verified: true
 source: https://agentskillexchange.com/skill/summarize/
 ---
 
@@ -13,37 +16,53 @@ source: https://agentskillexchange.com/skill/summarize/
 
 Summarize long-form media, URLs, and files into useful briefs.
 
-## Overview
-
-A general-purpose summarization skill for pulling out key points from links, transcripts, podcasts, videos, and local files.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill summarize
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill summarize -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill summarize -a cursor
+```
+
 ### OpenClaw
 
 ```bash
-openclaw install summarize
+clawhub install summarize
 ```
 
-### Manual
+### Codex
 
-Download this `SKILL.md` file and place it in your agent's skills directory.
+```bash
+npx skills add agentskillexchange/skills --skill summarize -a codex
+```
 
-## Metadata
+## Details
 
 | Field | Value |
 |-------|-------|
 | Category | Media & Transcription |
 | Framework | OpenClaw |
 | Verification | Security Reviewed |
-| Rating | ⭐⭐⭐⭐ 4.9/5.0 (33 reviews) |
+| Rating | 4.9/5 (33 reviews) |
 
----
+## Creator
 
-*Published on [Agent Skill Exchange](https://agentskillexchange.com/skill/summarize/)*
+**Elena Kowalski** (Verified Creator ✓)
+- Profile: [@ekowalski](https://agentskillexchange.com/browse-skills/?creator=ekowalski)
+
+## Links
+
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/summarize/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

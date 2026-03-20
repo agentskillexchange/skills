@@ -1,11 +1,14 @@
 ---
-name: PostgreSQL MCP Server
-description: Agent access to PostgreSQL data and queries through MCP.
-category: Data Extraction &amp; Transformation
-framework: Any Agent
+name: "PostgreSQL MCP Server"
+description: "Agent access to PostgreSQL data and queries through MCP."
+category: "Data Extraction & Transformation"
+framework: "Claude Code"
 verification: verified_metadata
 rating: 4.3
 reviews: 62
+creator: David Kim
+creator_handle: dkim
+creator_verified: false
 source: https://agentskillexchange.com/skill/postgresql-mcp-server/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/postgresql-mcp-server/
 
 Agent access to PostgreSQL data and queries through MCP.
 
-## Overview
-
-Agent access to PostgreSQL data and queries through MCP.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill postgresql-mcp-server
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill postgresql-mcp-server -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill postgresql-mcp-server -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill postgresql-mcp-server
 clawhub install postgresql-mcp-server
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add postgresql-mcp-server
+npx skills add agentskillexchange/skills --skill postgresql-mcp-server -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/postgresql-mcp-server/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Data Extraction & Transformation |
+| Framework | Claude Code |
+| Verification | Verified Metadata |
+| Rating | 4.3/5 (62 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: verified_metadata
-- **Category**: Data Extraction &amp; Transformation
-- **Framework**: Any Agent
-- **Rating**: 4.3/5 (62 reviews)
+**David Kim**
+- Profile: [@dkim](https://agentskillexchange.com/browse-skills/?creator=dkim)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/postgresql-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/postgresql-mcp-server/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

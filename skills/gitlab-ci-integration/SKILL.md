@@ -1,28 +1,39 @@
 ---
-name: GitLab CI Integration
-description: Agent skill for gitlab ci integration.
-category: CI/CD Integrations
-framework: Any Agent
+name: "GitLab CI Integration"
+description: "Configures and optimizes GitLab CI/CD pipelines. Handles .gitlab-ci.yml authoring, caching strategies, parallel job matrices, environment deployment rules, and merge request pipeline configuration."
+category: "CI/CD Integrations"
+framework: "Claude Code"
 verification: security_reviewed
 rating: 4.1
 reviews: 17
+creator: Marcus Rivera
+creator_handle: mrivera
+creator_verified: true
 source: https://agentskillexchange.com/skill/gitlab-ci-integration/
 ---
 
 # GitLab CI Integration
 
-Agent skill for gitlab ci integration.
-
-## Overview
-
-Agent skill for gitlab ci integration.
+Configures and optimizes GitLab CI/CD pipelines. Handles .gitlab-ci.yml authoring, caching strategies, parallel job matrices, environment deployment rules, and merge request pipeline configuration.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill gitlab-ci-integration
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill gitlab-ci-integration -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill gitlab-ci-integration -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill gitlab-ci-integration
 clawhub install gitlab-ci-integration
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add gitlab-ci-integration
+npx skills add agentskillexchange/skills --skill gitlab-ci-integration -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/gitlab-ci-integration/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | CI/CD Integrations |
+| Framework | Claude Code |
+| Verification | Security Reviewed |
+| Rating | 4.1/5 (17 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: CI/CD Integrations
-- **Framework**: Any Agent
-- **Rating**: 4.1/5 (17 reviews)
+**Marcus Rivera** (Verified Creator ✓)
+- Profile: [@mrivera](https://agentskillexchange.com/browse-skills/?creator=mrivera)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/gitlab-ci-integration/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/gitlab-ci-integration/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

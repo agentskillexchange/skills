@@ -1,11 +1,14 @@
 ---
-name: ArgoCD MCP Server
-description: Use this skill when you need to deploy applications via ArgoCD, check sync status, roll back deployments, or view application health from your AI agent. It connects to ArgoCD’s API to give agents full
-category: Developer Tools
-framework: MCP
+name: "ArgoCD MCP Server"
+description: "Use this skill when you need to deploy applications via ArgoCD, check sync status, roll back deployments, or view application health from your AI agent. It connects to ArgoCD’s API to give agents full GitOps deployment control without requiring kubectl access."
+category: "Developer Tools"
+framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.8
 reviews: 84
+creator: Marcus Rivera
+creator_handle: mrivera
+creator_verified: true
 source: https://agentskillexchange.com/skill/argocd-mcp-server/
 ---
 
@@ -13,37 +16,53 @@ source: https://agentskillexchange.com/skill/argocd-mcp-server/
 
 Use this skill when you need to deploy applications via ArgoCD, check sync status, roll back deployments, or view application health from your AI agent. It connects to ArgoCD’s API to give agents full GitOps deployment control without requiring kubectl access.
 
-## Overview
-
-Use this skill when you need to deploy applications via ArgoCD, check sync status, roll back deployments, or view application health from your AI agent. It connects to ArgoCD’s API to give agents full GitOps deployment control without requiring kubectl access.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill argocd-mcp-server
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill argocd-mcp-server -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill argocd-mcp-server -a cursor
+```
+
 ### OpenClaw
 
 ```bash
-openclaw install argocd-mcp-server
+clawhub install argocd-mcp-server
 ```
 
-### Manual
+### Codex
 
-Download this `SKILL.md` file and place it in your agent's skills directory.
+```bash
+npx skills add agentskillexchange/skills --skill argocd-mcp-server -a codex
+```
 
-## Metadata
+## Details
 
 | Field | Value |
 |-------|-------|
 | Category | Developer Tools |
-| Framework | MCP |
+| Framework | MCP-compatible |
 | Verification | Security Reviewed |
-| Rating | ⭐⭐⭐⭐ 4.8/5.0 (84 reviews) |
+| Rating | 4.8/5 (84 reviews) |
 
----
+## Creator
 
-*Published on [Agent Skill Exchange](https://agentskillexchange.com/skill/argocd-mcp-server/)*
+**Marcus Rivera** (Verified Creator ✓)
+- Profile: [@mrivera](https://agentskillexchange.com/browse-skills/?creator=mrivera)
+
+## Links
+
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/argocd-mcp-server/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

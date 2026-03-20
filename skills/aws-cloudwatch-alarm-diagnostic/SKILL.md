@@ -1,11 +1,14 @@
 ---
-name: AWS CloudWatch Alarm Diagnostic
-description: Diagnoses firing AWS CloudWatch alarms by querying CloudWatch Metrics, alarm history, and related AWS Config resource snapshots via the AWS SDK. Correlates metric anomalies with recent infrastructure changes to suggest root cause hypotheses. Outputs a structured incident summary with remediation options.
-category: Runbooks &amp; Diagnostics
-framework: Any Agent
+name: "AWS CloudWatch Alarm Diagnostic"
+description: "Diagnoses firing AWS CloudWatch alarms by querying CloudWatch Metrics, alarm history, and related AWS Config resource snapshots via the AWS SDK. Correlates metric anomalies with recent infrastructure changes to suggest root cause hypotheses. Outputs a structured incident summary with remediation options."
+category: "Runbooks & Diagnostics"
+framework: "Gemini"
 verification: security_reviewed
 rating: 4.3
 reviews: 81
+creator: Nathan Brooks
+creator_handle: nbrooks
+creator_verified: false
 source: https://agentskillexchange.com/skill/aws-cloudwatch-alarm-diagnostic/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/aws-cloudwatch-alarm-diagnostic/
 
 Diagnoses firing AWS CloudWatch alarms by querying CloudWatch Metrics, alarm history, and related AWS Config resource snapshots via the AWS SDK. Correlates metric anomalies with recent infrastructure changes to suggest root cause hypotheses. Outputs a structured incident summary with remediation options.
 
-## Overview
-
-Diagnoses firing AWS CloudWatch alarms by querying CloudWatch Metrics, alarm history, and related AWS Config resource snapshots via the AWS SDK. Correlates metric anomalies with recent infrastructure changes to suggest root cause hypotheses. Outputs a structured incident summary with remediation options.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill aws-cloudwatch-alarm-diagnostic
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill aws-cloudwatch-alarm-diagnostic -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill aws-cloudwatch-alarm-diagnostic -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill aws-cloudwatch-alarm-diagnostic
 clawhub install aws-cloudwatch-alarm-diagnostic
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add aws-cloudwatch-alarm-diagnostic
+npx skills add agentskillexchange/skills --skill aws-cloudwatch-alarm-diagnostic -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/aws-cloudwatch-alarm-diagnostic/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Runbooks & Diagnostics |
+| Framework | Gemini |
+| Verification | Security Reviewed |
+| Rating | 4.3/5 (81 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Runbooks &amp; Diagnostics
-- **Framework**: Any Agent
-- **Rating**: 4.3/5 (81 reviews)
+**Nathan Brooks**
+- Profile: [@nbrooks](https://agentskillexchange.com/browse-skills/?creator=nbrooks)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/aws-cloudwatch-alarm-diagnostic/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/aws-cloudwatch-alarm-diagnostic/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

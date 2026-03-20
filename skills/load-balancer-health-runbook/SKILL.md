@@ -1,28 +1,39 @@
 ---
-name: Load Balancer Health Runbook
-description: Agent skill for load balancer health runbook.
-category: Runbooks &amp; Diagnostics
-framework: Any Agent
+name: "Load Balancer Health Runbook"
+description: "Runbook for diagnosing load balancer health check failures and traffic routing issues. Covers backend target health, listener configuration, sticky session problems, and SSL termination issues."
+category: "Runbooks & Diagnostics"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.2
 reviews: 29
+creator: Rachel Green
+creator_handle: rachelgreen
+creator_verified: false
 source: https://agentskillexchange.com/skill/load-balancer-health-runbook/
 ---
 
 # Load Balancer Health Runbook
 
-Agent skill for load balancer health runbook.
-
-## Overview
-
-Agent skill for load balancer health runbook.
+Runbook for diagnosing load balancer health check failures and traffic routing issues. Covers backend target health, listener configuration, sticky session problems, and SSL termination issues.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill load-balancer-health-runbook
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill load-balancer-health-runbook -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill load-balancer-health-runbook -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill load-balancer-health-runbook
 clawhub install load-balancer-health-runbook
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add load-balancer-health-runbook
+npx skills add agentskillexchange/skills --skill load-balancer-health-runbook -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/load-balancer-health-runbook/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Runbooks & Diagnostics |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.2/5 (29 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Runbooks &amp; Diagnostics
-- **Framework**: Any Agent
-- **Rating**: 4.2/5 (29 reviews)
+**Rachel Green**
+- Profile: [@rachelgreen](https://agentskillexchange.com/browse-skills/?creator=rachelgreen)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/load-balancer-health-runbook/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/load-balancer-health-runbook/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

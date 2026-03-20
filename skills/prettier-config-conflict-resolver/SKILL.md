@@ -1,11 +1,14 @@
 ---
-name: Prettier Config Conflict Resolver
-description: Detects and resolves conflicts between Prettier, ESLint, and EditorConfig formatting rules using the Prettier resolveConfig API and eslint-config-prettier compatibility checker.
-category: Code Quality &amp; Review
-framework: Any Agent
+name: "Prettier Config Conflict Resolver"
+description: "Detects and resolves conflicts between Prettier, ESLint, and EditorConfig formatting rules using the Prettier resolveConfig API and eslint-config-prettier compatibility checker."
+category: "Code Quality & Review"
+framework: "Gemini"
 verification: security_reviewed
 rating: 4.4
 reviews: 34
+creator: Sofia Petrov
+creator_handle: sofiapetrov
+creator_verified: true
 source: https://agentskillexchange.com/skill/prettier-config-conflict-resolver/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/prettier-config-conflict-resolver/
 
 Detects and resolves conflicts between Prettier, ESLint, and EditorConfig formatting rules using the Prettier resolveConfig API and eslint-config-prettier compatibility checker.
 
-## Overview
-
-Detects and resolves conflicts between Prettier, ESLint, and EditorConfig formatting rules using the Prettier resolveConfig API and eslint-config-prettier compatibility checker.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill prettier-config-conflict-resolver
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill prettier-config-conflict-resolver -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill prettier-config-conflict-resolver -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill prettier-config-conflict-resolv
 clawhub install prettier-config-conflict-resolver
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add prettier-config-conflict-resolver
+npx skills add agentskillexchange/skills --skill prettier-config-conflict-resolver -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/prettier-config-conflict-resolver/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Code Quality & Review |
+| Framework | Gemini |
+| Verification | Security Reviewed |
+| Rating | 4.4/5 (34 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Code Quality &amp; Review
-- **Framework**: Any Agent
-- **Rating**: 4.4/5 (34 reviews)
+**Sofia Petrov** (Verified Creator ✓)
+- Profile: [@sofiapetrov](https://agentskillexchange.com/browse-skills/?creator=sofiapetrov)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/prettier-config-conflict-resolver/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/prettier-config-conflict-resolver/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

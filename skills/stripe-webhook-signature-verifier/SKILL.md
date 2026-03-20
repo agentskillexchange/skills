@@ -1,11 +1,14 @@
 ---
-name: Stripe Webhook Signature Verifier
-description: Verifies Stripe webhook payload signatures using the Stripe.js SDK and the stripe.webhooks.constructEvent method. Validates the Stripe-Signature header against the raw request body and a configured endpoint secret. Handles tolerance windows for replay attack prevention and logs verification failures to Datadog via the Datadog Logs API.
-category: Security &amp; Verification
-framework: Any Agent
+name: "Stripe Webhook Signature Verifier"
+description: "Verifies Stripe webhook payload signatures using the Stripe.js SDK and the stripe.webhooks.constructEvent method. Validates the Stripe-Signature header against the raw request body and a configured endpoint secret. Handles tolerance windows for replay attack prevention and logs verification failures to Datadog via the Datadog Logs API."
+category: "Security & Verification"
+framework: "ChatGPT Agents"
 verification: verified_metadata
 rating: 4.0
 reviews: 36
+creator: Tom Anderson
+creator_handle: tanderson
+creator_verified: false
 source: https://agentskillexchange.com/skill/stripe-webhook-signature-verifier/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/stripe-webhook-signature-verifier/
 
 Verifies Stripe webhook payload signatures using the Stripe.js SDK and the stripe.webhooks.constructEvent method. Validates the Stripe-Signature header against the raw request body and a configured endpoint secret. Handles tolerance windows for replay attack prevention and logs verification failures to Datadog via the Datadog Logs API.
 
-## Overview
-
-Verifies Stripe webhook payload signatures using the Stripe.js SDK and the stripe.webhooks.constructEvent method. Validates the Stripe-Signature header against the raw request body and a configured endpoint secret. Handles tolerance windows for replay attack prevention and logs verification failures to Datadog via the Datadog Logs API.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill stripe-webhook-signature-verifier
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill stripe-webhook-signature-verifier -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill stripe-webhook-signature-verifier -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill stripe-webhook-signature-verifi
 clawhub install stripe-webhook-signature-verifier
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add stripe-webhook-signature-verifier
+npx skills add agentskillexchange/skills --skill stripe-webhook-signature-verifier -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/stripe-webhook-signature-verifier/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Security & Verification |
+| Framework | ChatGPT Agents |
+| Verification | Verified Metadata |
+| Rating | 4.0/5 (36 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: verified_metadata
-- **Category**: Security &amp; Verification
-- **Framework**: Any Agent
-- **Rating**: 4.0/5 (36 reviews)
+**Tom Anderson**
+- Profile: [@tanderson](https://agentskillexchange.com/browse-skills/?creator=tanderson)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/stripe-webhook-signature-verifier/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/stripe-webhook-signature-verifier/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

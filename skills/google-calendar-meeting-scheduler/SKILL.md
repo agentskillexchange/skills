@@ -1,11 +1,14 @@
 ---
-name: Google Calendar Meeting Scheduler
-description: Queries Google Calendar API to find free/busy windows across multiple attendees using FreeBusy queries. Creates events with Meet links via events.insert with conferenceData and sends invites via the attendees field. Handles timezone normalization using pytz.
-category: Calendar, Email &amp; Productivity
-framework: Any Agent
+name: "Google Calendar Meeting Scheduler"
+description: "Queries Google Calendar API to find free/busy windows across multiple attendees using FreeBusy queries. Creates events with Meet links via events.insert with conferenceData and sends invites via the attendees field. Handles timezone normalization using pytz."
+category: "Calendar, Email & Productivity"
+framework: "MCP-compatible"
 verification: verified_metadata
 rating: 4.3
 reviews: 74
+creator: Yuki Tanaka
+creator_handle: yukitanaka
+creator_verified: true
 source: https://agentskillexchange.com/skill/google-calendar-meeting-scheduler/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/google-calendar-meeting-scheduler/
 
 Queries Google Calendar API to find free/busy windows across multiple attendees using FreeBusy queries. Creates events with Meet links via events.insert with conferenceData and sends invites via the attendees field. Handles timezone normalization using pytz.
 
-## Overview
-
-Queries Google Calendar API to find free/busy windows across multiple attendees using FreeBusy queries. Creates events with Meet links via events.insert with conferenceData and sends invites via the attendees field. Handles timezone normalization using pytz.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill google-calendar-meeting-scheduler
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill google-calendar-meeting-scheduler -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill google-calendar-meeting-scheduler -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill google-calendar-meeting-schedul
 clawhub install google-calendar-meeting-scheduler
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add google-calendar-meeting-scheduler
+npx skills add agentskillexchange/skills --skill google-calendar-meeting-scheduler -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/google-calendar-meeting-scheduler/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Calendar, Email & Productivity |
+| Framework | MCP-compatible |
+| Verification | Verified Metadata |
+| Rating | 4.3/5 (74 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: verified_metadata
-- **Category**: Calendar, Email &amp; Productivity
-- **Framework**: Any Agent
-- **Rating**: 4.3/5 (74 reviews)
+**Yuki Tanaka** (Verified Creator ✓)
+- Profile: [@yukitanaka](https://agentskillexchange.com/browse-skills/?creator=yukitanaka)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/google-calendar-meeting-scheduler/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/google-calendar-meeting-scheduler/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

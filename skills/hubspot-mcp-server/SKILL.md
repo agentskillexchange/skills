@@ -1,28 +1,39 @@
 ---
-name: HubSpot MCP Server
-description: Agent skill for hubspot mcp server.
-category: Integrations &amp; Connectors
-framework: Any Agent
+name: "HubSpot MCP Server"
+description: "Use this skill when you need to query or update HubSpot contacts, deals, companies, or tasks from your AI agent. It enables agents to power CRM workflows — looking up leads, updating pipeline stages, logging notes, and creating follow-up tasks without manual CRM navigation."
+category: "Integrations & Connectors"
+framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.4
 reviews: 67
+creator: Alex Thompson
+creator_handle: alexthompson
+creator_verified: true
 source: https://agentskillexchange.com/skill/hubspot-mcp-server/
 ---
 
 # HubSpot MCP Server
 
-Agent skill for hubspot mcp server.
-
-## Overview
-
-Agent skill for hubspot mcp server.
+Use this skill when you need to query or update HubSpot contacts, deals, companies, or tasks from your AI agent. It enables agents to power CRM workflows — looking up leads, updating pipeline stages, logging notes, and creating follow-up tasks without manual CRM navigation.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill hubspot-mcp-server
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill hubspot-mcp-server -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill hubspot-mcp-server -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill hubspot-mcp-server
 clawhub install hubspot-mcp-server
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add hubspot-mcp-server
+npx skills add agentskillexchange/skills --skill hubspot-mcp-server -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/hubspot-mcp-server/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Integrations & Connectors |
+| Framework | MCP-compatible |
+| Verification | Security Reviewed |
+| Rating | 4.4/5 (67 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Integrations &amp; Connectors
-- **Framework**: Any Agent
-- **Rating**: 4.4/5 (67 reviews)
+**Alex Thompson** (Verified Creator ✓)
+- Profile: [@alexthompson](https://agentskillexchange.com/browse-skills/?creator=alexthompson)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/hubspot-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/hubspot-mcp-server/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

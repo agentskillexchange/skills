@@ -1,28 +1,39 @@
 ---
-name: SuperAGI Agent Runner
-description: Agent skill for superagi agent runner.
-category: Developer Tools
-framework: Any Agent
+name: "SuperAGI Agent Runner"
+description: "SuperAGI is an open-source autonomous AI agent framework that supports concurrent agent execution, multiple LLM providers, and a rich toolset. This skill covers deploying SuperAGI agents with custom tools, memory, and performance monitoring."
+category: "Developer Tools"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.7
 reviews: 46
+creator: Sarah Chen
+creator_handle: sarahchen
+creator_verified: true
 source: https://agentskillexchange.com/skill/superagi-agent-runner/
 ---
 
 # SuperAGI Agent Runner
 
-Agent skill for superagi agent runner.
-
-## Overview
-
-Agent skill for superagi agent runner.
+SuperAGI is an open-source autonomous AI agent framework that supports concurrent agent execution, multiple LLM providers, and a rich toolset. This skill covers deploying SuperAGI agents with custom tools, memory, and performance monitoring.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill superagi-agent-runner
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill superagi-agent-runner -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill superagi-agent-runner -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill superagi-agent-runner
 clawhub install superagi-agent-runner
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add superagi-agent-runner
+npx skills add agentskillexchange/skills --skill superagi-agent-runner -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/superagi-agent-runner/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Developer Tools |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.7/5 (46 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Developer Tools
-- **Framework**: Any Agent
-- **Rating**: 4.7/5 (46 reviews)
+**Sarah Chen** (Verified Creator ✓)
+- Profile: [@sarahchen](https://agentskillexchange.com/browse-skills/?creator=sarahchen)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/superagi-agent-runner/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/superagi-agent-runner/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

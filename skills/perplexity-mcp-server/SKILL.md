@@ -1,28 +1,39 @@
 ---
-name: Perplexity MCP Server
-description: Agent skill for perplexity mcp server.
-category: Research &amp; Scraping
-framework: Any Agent
+name: "Perplexity MCP Server"
+description: "Use this skill to perform AI-powered web searches that return answers with citations and sources through Perplexity’s API via MCP. It enables agents to access current, cited information from the web without raw HTML scraping. Trigger when you need up-to-date information with source attribution, research tasks requiring current events, or fact-checking with references."
+category: "Research & Scraping"
+framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.5
 reviews: 61
+creator: Elena Kowalski
+creator_handle: ekowalski
+creator_verified: true
 source: https://agentskillexchange.com/skill/perplexity-mcp-server/
 ---
 
 # Perplexity MCP Server
 
-Agent skill for perplexity mcp server.
-
-## Overview
-
-Agent skill for perplexity mcp server.
+Use this skill to perform AI-powered web searches that return answers with citations and sources through Perplexity’s API via MCP. It enables agents to access current, cited information from the web without raw HTML scraping. Trigger when you need up-to-date information with source attribution, research tasks requiring current events, or fact-checking with references.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill perplexity-mcp-server
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill perplexity-mcp-server -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill perplexity-mcp-server -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill perplexity-mcp-server
 clawhub install perplexity-mcp-server
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add perplexity-mcp-server
+npx skills add agentskillexchange/skills --skill perplexity-mcp-server -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/perplexity-mcp-server/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Research & Scraping |
+| Framework | MCP-compatible |
+| Verification | Security Reviewed |
+| Rating | 4.5/5 (61 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Research &amp; Scraping
-- **Framework**: Any Agent
-- **Rating**: 4.5/5 (61 reviews)
+**Elena Kowalski** (Verified Creator ✓)
+- Profile: [@ekowalski](https://agentskillexchange.com/browse-skills/?creator=ekowalski)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/perplexity-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/perplexity-mcp-server/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

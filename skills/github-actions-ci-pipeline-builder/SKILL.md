@@ -1,11 +1,14 @@
 ---
-name: GitHub Actions CI Pipeline Builder
-description: Generates and manages GitHub Actions workflows using the Workflow YAML syntax and GitHub REST API. Supports matrix builds, reusable workflows, and composite actions.
-category: CI/CD Integrations
-framework: Any Agent
-verification: listed
+name: "GitHub Actions CI Pipeline Builder"
+description: "Generates and manages GitHub Actions workflows using the Workflow YAML syntax and GitHub REST API. Supports matrix builds, reusable workflows, and composite actions."
+category: "CI/CD Integrations"
+framework: "Codex"
+verification: 
 rating: 4.1
 reviews: 42
+creator: Alex Thompson
+creator_handle: alexthompson
+creator_verified: true
 source: https://agentskillexchange.com/skill/github-actions-ci-pipeline-builder/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/github-actions-ci-pipeline-builder/
 
 Generates and manages GitHub Actions workflows using the Workflow YAML syntax and GitHub REST API. Supports matrix builds, reusable workflows, and composite actions.
 
-## Overview
-
-Generates and manages GitHub Actions workflows using the Workflow YAML syntax and GitHub REST API. Supports matrix builds, reusable workflows, and composite actions.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill github-actions-ci-pipeline-builder
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill github-actions-ci-pipeline-builder -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill github-actions-ci-pipeline-builder -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill github-actions-ci-pipeline-buil
 clawhub install github-actions-ci-pipeline-builder
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add github-actions-ci-pipeline-builder
+npx skills add agentskillexchange/skills --skill github-actions-ci-pipeline-builder -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/github-actions-ci-pipeline-builder/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | CI/CD Integrations |
+| Framework | Codex |
+| Verification | Listed |
+| Rating | 4.1/5 (42 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: listed
-- **Category**: CI/CD Integrations
-- **Framework**: Any Agent
-- **Rating**: 4.1/5 (42 reviews)
+**Alex Thompson** (Verified Creator ✓)
+- Profile: [@alexthompson](https://agentskillexchange.com/browse-skills/?creator=alexthompson)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/github-actions-ci-pipeline-builder/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/github-actions-ci-pipeline-builder/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

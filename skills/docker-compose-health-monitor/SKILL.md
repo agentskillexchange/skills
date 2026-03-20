@@ -1,11 +1,14 @@
 ---
-name: Docker Compose Health Monitor
-description: Monitors Docker Compose service health using the Docker Engine API (/containers/{id}/json) and docker-compose ps parsing. Tracks container restart counts via the RestartCount field and logs analysis through the /containers/{id}/logs endpoint.
-category: Runbooks &amp; Diagnostics
-framework: Any Agent
+name: "Docker Compose Health Monitor"
+description: "Monitors Docker Compose service health using the Docker Engine API (/containers/{id}/json) and docker-compose ps parsing. Tracks container restart counts via the RestartCount field and logs analysis through the /containers/{id}/logs endpoint."
+category: "Runbooks & Diagnostics"
+framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.3
 reviews: 48
+creator: Priya Sharma
+creator_handle: priyasharma
+creator_verified: true
 source: https://agentskillexchange.com/skill/docker-compose-health-monitor/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/docker-compose-health-monitor/
 
 Monitors Docker Compose service health using the Docker Engine API (/containers/{id}/json) and docker-compose ps parsing. Tracks container restart counts via the RestartCount field and logs analysis through the /containers/{id}/logs endpoint.
 
-## Overview
-
-Monitors Docker Compose service health using the Docker Engine API (/containers/{id}/json) and docker-compose ps parsing. Tracks container restart counts via the RestartCount field and logs analysis through the /containers/{id}/logs endpoint.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill docker-compose-health-monitor
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill docker-compose-health-monitor -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill docker-compose-health-monitor -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill docker-compose-health-monitor
 clawhub install docker-compose-health-monitor
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add docker-compose-health-monitor
+npx skills add agentskillexchange/skills --skill docker-compose-health-monitor -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/docker-compose-health-monitor/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Runbooks & Diagnostics |
+| Framework | MCP-compatible |
+| Verification | Security Reviewed |
+| Rating | 4.3/5 (48 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Runbooks &amp; Diagnostics
-- **Framework**: Any Agent
-- **Rating**: 4.3/5 (48 reviews)
+**Priya Sharma** (Verified Creator ✓)
+- Profile: [@priyasharma](https://agentskillexchange.com/browse-skills/?creator=priyasharma)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/docker-compose-health-monitor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/docker-compose-health-monitor/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

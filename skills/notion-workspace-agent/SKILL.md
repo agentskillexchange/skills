@@ -1,28 +1,39 @@
 ---
-name: Notion Workspace Agent
-description: Agent skill for notion workspace agent.
-category: Developer Tools
-framework: Any Agent
+name: "Notion Workspace Agent"
+description: "Read and write Notion pages, databases, and blocks through an AI agent using the Notion API. Enables automated content creation, database record management, and cross-page data aggregation for knowledge management workflows."
+category: "Developer Tools"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.6
 reviews: 15
+creator: Nathan Brooks
+creator_handle: nbrooks
+creator_verified: false
 source: https://agentskillexchange.com/skill/notion-workspace-agent/
 ---
 
 # Notion Workspace Agent
 
-Agent skill for notion workspace agent.
-
-## Overview
-
-Agent skill for notion workspace agent.
+Read and write Notion pages, databases, and blocks through an AI agent using the Notion API. Enables automated content creation, database record management, and cross-page data aggregation for knowledge management workflows.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill notion-workspace-agent
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill notion-workspace-agent -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill notion-workspace-agent -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill notion-workspace-agent
 clawhub install notion-workspace-agent
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add notion-workspace-agent
+npx skills add agentskillexchange/skills --skill notion-workspace-agent -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/notion-workspace-agent/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Developer Tools |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.6/5 (15 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Developer Tools
-- **Framework**: Any Agent
-- **Rating**: 4.6/5 (15 reviews)
+**Nathan Brooks**
+- Profile: [@nbrooks](https://agentskillexchange.com/browse-skills/?creator=nbrooks)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/notion-workspace-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/notion-workspace-agent/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

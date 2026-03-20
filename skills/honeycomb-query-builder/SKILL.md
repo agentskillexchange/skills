@@ -1,28 +1,39 @@
 ---
-name: Honeycomb Query Builder
-description: Agent skill for honeycomb query builder.
-category: Monitoring &amp; Alerts
-framework: Any Agent
+name: "Honeycomb Query Builder"
+description: "Builds and executes Honeycomb queries for high-cardinality observability data. Generates BubbleUp queries, heatmaps, and SLO analysis from event data to find root cause in complex distributed systems."
+category: "Monitoring & Alerts"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.7
 reviews: 85
+creator: Mia Zhang
+creator_handle: miazhang
+creator_verified: true
 source: https://agentskillexchange.com/skill/honeycomb-query-builder/
 ---
 
 # Honeycomb Query Builder
 
-Agent skill for honeycomb query builder.
-
-## Overview
-
-Agent skill for honeycomb query builder.
+Builds and executes Honeycomb queries for high-cardinality observability data. Generates BubbleUp queries, heatmaps, and SLO analysis from event data to find root cause in complex distributed systems.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill honeycomb-query-builder
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill honeycomb-query-builder -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill honeycomb-query-builder -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill honeycomb-query-builder
 clawhub install honeycomb-query-builder
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add honeycomb-query-builder
+npx skills add agentskillexchange/skills --skill honeycomb-query-builder -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/honeycomb-query-builder/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Monitoring & Alerts |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.7/5 (85 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Monitoring &amp; Alerts
-- **Framework**: Any Agent
-- **Rating**: 4.7/5 (85 reviews)
+**Mia Zhang** (Verified Creator ✓)
+- Profile: [@miazhang](https://agentskillexchange.com/browse-skills/?creator=miazhang)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/honeycomb-query-builder/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/honeycomb-query-builder/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

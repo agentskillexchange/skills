@@ -1,28 +1,39 @@
 ---
-name: Docker MCP Server
-description: Agent skill for docker mcp server.
-category: Developer Tools
-framework: Any Agent
+name: "Docker MCP Server"
+description: "Use this skill when you need to list running containers, inspect images, view container logs, or manage Docker volumes and networks from your AI agent. It enables agents to perform container management tasks and debug Docker-based applications without direct terminal access."
+category: "Developer Tools"
+framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.5
 reviews: 3
+creator: Yuki Tanaka
+creator_handle: yukitanaka
+creator_verified: true
 source: https://agentskillexchange.com/skill/docker-mcp-server/
 ---
 
 # Docker MCP Server
 
-Agent skill for docker mcp server.
-
-## Overview
-
-Agent skill for docker mcp server.
+Use this skill when you need to list running containers, inspect images, view container logs, or manage Docker volumes and networks from your AI agent. It enables agents to perform container management tasks and debug Docker-based applications without direct terminal access.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill docker-mcp-server
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill docker-mcp-server -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill docker-mcp-server -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill docker-mcp-server
 clawhub install docker-mcp-server
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add docker-mcp-server
+npx skills add agentskillexchange/skills --skill docker-mcp-server -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/docker-mcp-server/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Developer Tools |
+| Framework | MCP-compatible |
+| Verification | Security Reviewed |
+| Rating | 4.5/5 (3 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Developer Tools
-- **Framework**: Any Agent
-- **Rating**: 4.5/5 (3 reviews)
+**Yuki Tanaka** (Verified Creator ✓)
+- Profile: [@yukitanaka](https://agentskillexchange.com/browse-skills/?creator=yukitanaka)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/docker-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/docker-mcp-server/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

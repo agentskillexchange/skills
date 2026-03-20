@@ -1,28 +1,39 @@
 ---
-name: Dead Code Detector
-description: Agent skill for dead code detector.
-category: Code Quality &amp; Review
-framework: Any Agent
+name: "Dead Code Detector"
+description: "Identifies unused code, unreachable functions, dead exports, and zombie feature flags across JavaScript, TypeScript, and Python projects. Generates a prioritized removal plan with impact assessment."
+category: "Code Quality & Review"
+framework: "Claude Code"
 verification: security_reviewed
 rating: 4.1
 reviews: 17
+creator: Yuki Tanaka
+creator_handle: yukitanaka
+creator_verified: true
 source: https://agentskillexchange.com/skill/dead-code-detector-2/
 ---
 
 # Dead Code Detector
 
-Agent skill for dead code detector.
-
-## Overview
-
-Agent skill for dead code detector.
+Identifies unused code, unreachable functions, dead exports, and zombie feature flags across JavaScript, TypeScript, and Python projects. Generates a prioritized removal plan with impact assessment.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill dead-code-detector-2
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill dead-code-detector-2 -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill dead-code-detector-2 -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill dead-code-detector-2
 clawhub install dead-code-detector-2
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add dead-code-detector-2
+npx skills add agentskillexchange/skills --skill dead-code-detector-2 -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/dead-code-detector-2/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Code Quality & Review |
+| Framework | Claude Code |
+| Verification | Security Reviewed |
+| Rating | 4.1/5 (17 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Code Quality &amp; Review
-- **Framework**: Any Agent
-- **Rating**: 4.1/5 (17 reviews)
+**Yuki Tanaka** (Verified Creator ✓)
+- Profile: [@yukitanaka](https://agentskillexchange.com/browse-skills/?creator=yukitanaka)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/dead-code-detector-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/dead-code-detector-2/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

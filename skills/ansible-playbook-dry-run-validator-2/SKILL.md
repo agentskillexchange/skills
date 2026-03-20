@@ -1,28 +1,39 @@
 ---
-name: Ansible Playbook Dry-Run Validator
-description: Validates Ansible playbooks in check mode using ansible-playbook --check --diff and the Ansible Python API. Detects undefined variables, missing roles from Ansible Galaxy, and handler ordering issues.
-category: Runbooks &amp; Diagnostics
-framework: Any Agent
+name: "Ansible Playbook Dry-Run Validator"
+description: "Validates Ansible playbooks in check mode using ansible-playbook –check –diff and the Ansible Python API. Detects undefined variables, missing roles from Ansible Galaxy, and handler ordering issues."
+category: "Runbooks & Diagnostics"
+framework: "MCP-compatible"
 verification: verified_metadata
 rating: 4.2
 reviews: 6
+creator: Chris Lee
+creator_handle: chrislee
+creator_verified: false
 source: https://agentskillexchange.com/skill/ansible-playbook-dry-run-validator-2/
 ---
 
 # Ansible Playbook Dry-Run Validator
 
-Validates Ansible playbooks in check mode using ansible-playbook --check --diff and the Ansible Python API. Detects undefined variables, missing roles from Ansible Galaxy, and handler ordering issues.
-
-## Overview
-
-Validates Ansible playbooks in check mode using ansible-playbook --check --diff and the Ansible Python API. Detects undefined variables, missing roles from Ansible Galaxy, and handler ordering issues.
+Validates Ansible playbooks in check mode using ansible-playbook –check –diff and the Ansible Python API. Detects undefined variables, missing roles from Ansible Galaxy, and handler ordering issues.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill ansible-playbook-dry-run-validator-2
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill ansible-playbook-dry-run-validator-2 -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill ansible-playbook-dry-run-validator-2 -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill ansible-playbook-dry-run-valida
 clawhub install ansible-playbook-dry-run-validator-2
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add ansible-playbook-dry-run-validator-2
+npx skills add agentskillexchange/skills --skill ansible-playbook-dry-run-validator-2 -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/ansible-playbook-dry-run-validator-2/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Runbooks & Diagnostics |
+| Framework | MCP-compatible |
+| Verification | Verified Metadata |
+| Rating | 4.2/5 (6 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: verified_metadata
-- **Category**: Runbooks &amp; Diagnostics
-- **Framework**: Any Agent
-- **Rating**: 4.2/5 (6 reviews)
+**Chris Lee**
+- Profile: [@chrislee](https://agentskillexchange.com/browse-skills/?creator=chrislee)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/ansible-playbook-dry-run-validator-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/ansible-playbook-dry-run-validator-2/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

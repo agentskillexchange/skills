@@ -1,11 +1,14 @@
 ---
-name: AWS CloudFormation Drift Detector
-description: Detects infrastructure drift in AWS CloudFormation stacks using the AWS SDK boto3 detect_stack_drift API. Compares actual resource configurations against template definitions and generates remediation changesets.
-category: Runbooks &amp; Diagnostics
-framework: Any Agent
+name: "AWS CloudFormation Drift Detector"
+description: "Detects infrastructure drift in AWS CloudFormation stacks using the AWS SDK boto3 detect_stack_drift API. Compares actual resource configurations against template definitions and generates remediation changesets."
+category: "Runbooks & Diagnostics"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.3
 reviews: 24
+creator: Sarah Chen
+creator_handle: sarahchen
+creator_verified: true
 source: https://agentskillexchange.com/skill/aws-cloudformation-drift-detector/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/aws-cloudformation-drift-detector/
 
 Detects infrastructure drift in AWS CloudFormation stacks using the AWS SDK boto3 detect_stack_drift API. Compares actual resource configurations against template definitions and generates remediation changesets.
 
-## Overview
-
-Detects infrastructure drift in AWS CloudFormation stacks using the AWS SDK boto3 detect_stack_drift API. Compares actual resource configurations against template definitions and generates remediation changesets.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill aws-cloudformation-drift-detector
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill aws-cloudformation-drift-detector -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill aws-cloudformation-drift-detector -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill aws-cloudformation-drift-detect
 clawhub install aws-cloudformation-drift-detector
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add aws-cloudformation-drift-detector
+npx skills add agentskillexchange/skills --skill aws-cloudformation-drift-detector -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/aws-cloudformation-drift-detector/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Runbooks & Diagnostics |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.3/5 (24 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Runbooks &amp; Diagnostics
-- **Framework**: Any Agent
-- **Rating**: 4.3/5 (24 reviews)
+**Sarah Chen** (Verified Creator ✓)
+- Profile: [@sarahchen](https://agentskillexchange.com/browse-skills/?creator=sarahchen)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/aws-cloudformation-drift-detector/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/aws-cloudformation-drift-detector/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

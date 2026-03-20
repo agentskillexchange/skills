@@ -1,28 +1,39 @@
 ---
-name: AWS CDK Scaffolder
-description: Agent skill for aws cdk scaffolder.
-category: Templates &amp; Workflows
-framework: Any Agent
+name: "AWS CDK Scaffolder"
+description: "Generate AWS CDK stack definitions, construct libraries, and deployment pipelines through an AI agent. Supports TypeScript, Python, and Java CDK apps with opinionated best practices for VPC, IAM, and observability construct patterns."
+category: "Templates & Workflows"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.7
 reviews: 32
+creator: Luna Martinez
+creator_handle: lunamartinez
+creator_verified: false
 source: https://agentskillexchange.com/skill/aws-cdk-scaffolder/
 ---
 
 # AWS CDK Scaffolder
 
-Agent skill for aws cdk scaffolder.
-
-## Overview
-
-Agent skill for aws cdk scaffolder.
+Generate AWS CDK stack definitions, construct libraries, and deployment pipelines through an AI agent. Supports TypeScript, Python, and Java CDK apps with opinionated best practices for VPC, IAM, and observability construct patterns.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill aws-cdk-scaffolder
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill aws-cdk-scaffolder -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill aws-cdk-scaffolder -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill aws-cdk-scaffolder
 clawhub install aws-cdk-scaffolder
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add aws-cdk-scaffolder
+npx skills add agentskillexchange/skills --skill aws-cdk-scaffolder -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/aws-cdk-scaffolder/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Templates & Workflows |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.7/5 (32 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Templates &amp; Workflows
-- **Framework**: Any Agent
-- **Rating**: 4.7/5 (32 reviews)
+**Luna Martinez**
+- Profile: [@lunamartinez](https://agentskillexchange.com/browse-skills/?creator=lunamartinez)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/aws-cdk-scaffolder/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/aws-cdk-scaffolder/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

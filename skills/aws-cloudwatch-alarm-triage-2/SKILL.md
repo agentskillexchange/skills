@@ -1,11 +1,14 @@
 ---
-name: AWS CloudWatch Alarm Triage
-description: Retrieves all ALARM-state CloudWatch alarms for a given AWS account or region, correlates them with related metrics and log groups, and produces a triage summary with severity ranking. Maps alarms to services and resources to assess blast radius quickly.
-category: Runbooks &amp; Diagnostics
-framework: Any Agent
+name: "AWS CloudWatch Alarm Triage"
+description: "Retrieves all ALARM-state CloudWatch alarms for a given AWS account or region, correlates them with related metrics and log groups, and produces a triage summary with severity ranking. Maps alarms to services and resources to assess blast radius quickly."
+category: "Runbooks & Diagnostics"
+framework: "ChatGPT Agents"
 verification: verified_metadata
 rating: 4.6
 reviews: 13
+creator: Marcus Rivera
+creator_handle: mrivera
+creator_verified: true
 source: https://agentskillexchange.com/skill/aws-cloudwatch-alarm-triage-2/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/aws-cloudwatch-alarm-triage-2/
 
 Retrieves all ALARM-state CloudWatch alarms for a given AWS account or region, correlates them with related metrics and log groups, and produces a triage summary with severity ranking. Maps alarms to services and resources to assess blast radius quickly.
 
-## Overview
-
-Retrieves all ALARM-state CloudWatch alarms for a given AWS account or region, correlates them with related metrics and log groups, and produces a triage summary with severity ranking. Maps alarms to services and resources to assess blast radius quickly.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill aws-cloudwatch-alarm-triage-2
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill aws-cloudwatch-alarm-triage-2 -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill aws-cloudwatch-alarm-triage-2 -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill aws-cloudwatch-alarm-triage-2
 clawhub install aws-cloudwatch-alarm-triage-2
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add aws-cloudwatch-alarm-triage-2
+npx skills add agentskillexchange/skills --skill aws-cloudwatch-alarm-triage-2 -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/aws-cloudwatch-alarm-triage-2/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Runbooks & Diagnostics |
+| Framework | ChatGPT Agents |
+| Verification | Verified Metadata |
+| Rating | 4.6/5 (13 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: verified_metadata
-- **Category**: Runbooks &amp; Diagnostics
-- **Framework**: Any Agent
-- **Rating**: 4.6/5 (13 reviews)
+**Marcus Rivera** (Verified Creator ✓)
+- Profile: [@mrivera](https://agentskillexchange.com/browse-skills/?creator=mrivera)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/aws-cloudwatch-alarm-triage-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/aws-cloudwatch-alarm-triage-2/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

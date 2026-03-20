@@ -1,28 +1,39 @@
 ---
-name: Zendesk MCP Server
-description: Agent skill for zendesk mcp server.
-category: Templates &amp; Workflows
-framework: Any Agent
+name: "Zendesk MCP Server"
+description: "Use this skill to manage Zendesk support tickets, apply macros, manage user segments, and integrate customer support operations through MCP. It enables agents to automate support workflows, escalate issues, and sync ticket data with other systems. Trigger when you need to create or update tickets programmatically, apply automated responses, or integrate support data with other […]"
+category: "Templates & Workflows"
+framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.6
 reviews: 81
+creator: Liam OBrien
+creator_handle: liamobrien
+creator_verified: true
 source: https://agentskillexchange.com/skill/zendesk-mcp-server/
 ---
 
 # Zendesk MCP Server
 
-Agent skill for zendesk mcp server.
-
-## Overview
-
-Agent skill for zendesk mcp server.
+Use this skill to manage Zendesk support tickets, apply macros, manage user segments, and integrate customer support operations through MCP. It enables agents to automate support workflows, escalate issues, and sync ticket data with other systems. Trigger when you need to create or update tickets programmatically, apply automated responses, or integrate support data with other […]
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill zendesk-mcp-server
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill zendesk-mcp-server -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill zendesk-mcp-server -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill zendesk-mcp-server
 clawhub install zendesk-mcp-server
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add zendesk-mcp-server
+npx skills add agentskillexchange/skills --skill zendesk-mcp-server -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/zendesk-mcp-server/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Templates & Workflows |
+| Framework | MCP-compatible |
+| Verification | Security Reviewed |
+| Rating | 4.6/5 (81 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Templates &amp; Workflows
-- **Framework**: Any Agent
-- **Rating**: 4.6/5 (81 reviews)
+**Liam OBrien** (Verified Creator ✓)
+- Profile: [@liamobrien](https://agentskillexchange.com/browse-skills/?creator=liamobrien)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/zendesk-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/zendesk-mcp-server/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

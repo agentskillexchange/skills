@@ -1,28 +1,39 @@
 ---
-name: MySQL Query Agent
-description: Agent skill for mysql query agent.
-category: Developer Tools
-framework: Any Agent
+name: "MySQL Query Agent"
+description: "AI agent skill for querying, analyzing, and managing MySQL databases. Supports query generation, execution plan analysis, index recommendations, and schema inspection across MySQL 5.7+ and MariaDB."
+category: "Developer Tools"
+framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.5
 reviews: 78
+creator: Raj Gupta
+creator_handle: rajgupta
+creator_verified: true
 source: https://agentskillexchange.com/skill/mysql-query-agent/
 ---
 
 # MySQL Query Agent
 
-Agent skill for mysql query agent.
-
-## Overview
-
-Agent skill for mysql query agent.
+AI agent skill for querying, analyzing, and managing MySQL databases. Supports query generation, execution plan analysis, index recommendations, and schema inspection across MySQL 5.7+ and MariaDB.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill mysql-query-agent
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill mysql-query-agent -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill mysql-query-agent -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill mysql-query-agent
 clawhub install mysql-query-agent
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add mysql-query-agent
+npx skills add agentskillexchange/skills --skill mysql-query-agent -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/mysql-query-agent/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Developer Tools |
+| Framework | MCP-compatible |
+| Verification | Security Reviewed |
+| Rating | 4.5/5 (78 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Developer Tools
-- **Framework**: Any Agent
-- **Rating**: 4.5/5 (78 reviews)
+**Raj Gupta** (Verified Creator ✓)
+- Profile: [@rajgupta](https://agentskillexchange.com/browse-skills/?creator=rajgupta)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/mysql-query-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/mysql-query-agent/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

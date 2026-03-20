@@ -1,11 +1,14 @@
 ---
-name: PostgreSQL Query Diagnostics
-description: Diagnoses slow PostgreSQL queries using pg_stat_statements, pg_stat_activity, and EXPLAIN ANALYZE output parsing. Integrates with the pgBadger log analyzer and pg_stat_user_tables for index recommendation.
-category: Runbooks &amp; Diagnostics
-framework: Any Agent
+name: "PostgreSQL Query Diagnostics"
+description: "Diagnoses slow PostgreSQL queries using pg_stat_statements, pg_stat_activity, and EXPLAIN ANALYZE output parsing. Integrates with the pgBadger log analyzer and pg_stat_user_tables for index recommendation."
+category: "Runbooks & Diagnostics"
+framework: "Claude Agents"
 verification: security_reviewed
 rating: 4.1
 reviews: 86
+creator: Omar Hassan
+creator_handle: ohassan
+creator_verified: true
 source: https://agentskillexchange.com/skill/postgresql-query-diagnostics/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/postgresql-query-diagnostics/
 
 Diagnoses slow PostgreSQL queries using pg_stat_statements, pg_stat_activity, and EXPLAIN ANALYZE output parsing. Integrates with the pgBadger log analyzer and pg_stat_user_tables for index recommendation.
 
-## Overview
-
-Diagnoses slow PostgreSQL queries using pg_stat_statements, pg_stat_activity, and EXPLAIN ANALYZE output parsing. Integrates with the pgBadger log analyzer and pg_stat_user_tables for index recommendation.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill postgresql-query-diagnostics
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill postgresql-query-diagnostics -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill postgresql-query-diagnostics -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill postgresql-query-diagnostics
 clawhub install postgresql-query-diagnostics
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add postgresql-query-diagnostics
+npx skills add agentskillexchange/skills --skill postgresql-query-diagnostics -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/postgresql-query-diagnostics/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Runbooks & Diagnostics |
+| Framework | Claude Agents |
+| Verification | Security Reviewed |
+| Rating | 4.1/5 (86 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Runbooks &amp; Diagnostics
-- **Framework**: Any Agent
-- **Rating**: 4.1/5 (86 reviews)
+**Omar Hassan** (Verified Creator ✓)
+- Profile: [@ohassan](https://agentskillexchange.com/browse-skills/?creator=ohassan)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/postgresql-query-diagnostics/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/postgresql-query-diagnostics/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

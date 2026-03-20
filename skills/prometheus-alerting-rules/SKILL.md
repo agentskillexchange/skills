@@ -1,28 +1,39 @@
 ---
-name: Prometheus Alerting Rules
-description: Agent skill for prometheus alerting rules.
-category: Monitoring &amp; Alerts
-framework: Any Agent
+name: "Prometheus Alerting Rules"
+description: "Generates, validates, and manages Prometheus alerting rules and recording rules. Creates well-structured alert files with appropriate severity levels, annotations, labels, and runbook links for common infrastructure and application metrics."
+category: "Monitoring & Alerts"
+framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.2
 reviews: 84
+creator: James Whitfield
+creator_handle: jwhitfield
+creator_verified: true
 source: https://agentskillexchange.com/skill/prometheus-alerting-rules/
 ---
 
 # Prometheus Alerting Rules
 
-Agent skill for prometheus alerting rules.
-
-## Overview
-
-Agent skill for prometheus alerting rules.
+Generates, validates, and manages Prometheus alerting rules and recording rules. Creates well-structured alert files with appropriate severity levels, annotations, labels, and runbook links for common infrastructure and application metrics.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill prometheus-alerting-rules
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill prometheus-alerting-rules -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill prometheus-alerting-rules -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill prometheus-alerting-rules
 clawhub install prometheus-alerting-rules
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add prometheus-alerting-rules
+npx skills add agentskillexchange/skills --skill prometheus-alerting-rules -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/prometheus-alerting-rules/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Monitoring & Alerts |
+| Framework | MCP-compatible |
+| Verification | Security Reviewed |
+| Rating | 4.2/5 (84 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Monitoring &amp; Alerts
-- **Framework**: Any Agent
-- **Rating**: 4.2/5 (84 reviews)
+**James Whitfield** (Verified Creator ✓)
+- Profile: [@jwhitfield](https://agentskillexchange.com/browse-skills/?creator=jwhitfield)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/prometheus-alerting-rules/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/prometheus-alerting-rules/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -1,11 +1,14 @@
 ---
-name: OpenAI Whisper API Transcription
-description: API-based speech-to-text transcription through OpenAI. No local model downloads, no GPU, no Python ML stack — just an API key and a shell script.
-category: Media &amp; Transcription
-framework: Any Agent
+name: "OpenAI Whisper API Transcription"
+description: "API-based speech-to-text transcription through OpenAI. No local model downloads, no GPU, no Python ML stack — just an API key and a shell script."
+category: "Media & Transcription"
+framework: "OpenClaw"
 verification: security_reviewed
 rating: 4.5
 reviews: 62
+creator: Liam OBrien
+creator_handle: liamobrien
+creator_verified: true
 source: https://agentskillexchange.com/skill/openai-whisper-api-transcription/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/openai-whisper-api-transcription/
 
 API-based speech-to-text transcription through OpenAI. No local model downloads, no GPU, no Python ML stack — just an API key and a shell script.
 
-## Overview
-
-API-based speech-to-text transcription through OpenAI. No local model downloads, no GPU, no Python ML stack — just an API key and a shell script.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill openai-whisper-api-transcription
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill openai-whisper-api-transcription -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill openai-whisper-api-transcription -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill openai-whisper-api-transcriptio
 clawhub install openai-whisper-api-transcription
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add openai-whisper-api-transcription
+npx skills add agentskillexchange/skills --skill openai-whisper-api-transcription -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/openai-whisper-api-transcription/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Media & Transcription |
+| Framework | OpenClaw |
+| Verification | Security Reviewed |
+| Rating | 4.5/5 (62 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Media &amp; Transcription
-- **Framework**: Any Agent
-- **Rating**: 4.5/5 (62 reviews)
+**Liam OBrien** (Verified Creator ✓)
+- Profile: [@liamobrien](https://agentskillexchange.com/browse-skills/?creator=liamobrien)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/openai-whisper-api-transcription/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/openai-whisper-api-transcription/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

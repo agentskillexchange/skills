@@ -1,11 +1,14 @@
 ---
-name: CodeClimate Maintainability Tracker
-description: Tracks code maintainability metrics via the Code Climate API v1 and codeclimate CLI analyze command. Monitors GPA scores, technical debt ratios, and file-level complexity using the Cognitive Complexity engine.
-category: Code Quality &amp; Review
-framework: Any Agent
+name: "CodeClimate Maintainability Tracker"
+description: "Tracks code maintainability metrics via the Code Climate API v1 and codeclimate CLI analyze command. Monitors GPA scores, technical debt ratios, and file-level complexity using the Cognitive Complexity engine."
+category: "Code Quality & Review"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.7
 reviews: 16
+creator: Leo Park
+creator_handle: leopark
+creator_verified: true
 source: https://agentskillexchange.com/skill/codeclimate-maintainability-tracker-2/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/codeclimate-maintainability-tracker
 
 Tracks code maintainability metrics via the Code Climate API v1 and codeclimate CLI analyze command. Monitors GPA scores, technical debt ratios, and file-level complexity using the Cognitive Complexity engine.
 
-## Overview
-
-Tracks code maintainability metrics via the Code Climate API v1 and codeclimate CLI analyze command. Monitors GPA scores, technical debt ratios, and file-level complexity using the Cognitive Complexity engine.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill codeclimate-maintainability-tracker-2
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill codeclimate-maintainability-tracker-2 -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill codeclimate-maintainability-tracker-2 -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill codeclimate-maintainability-tra
 clawhub install codeclimate-maintainability-tracker-2
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add codeclimate-maintainability-tracker-2
+npx skills add agentskillexchange/skills --skill codeclimate-maintainability-tracker-2 -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/codeclimate-maintainability-tracker-2/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Code Quality & Review |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.7/5 (16 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Code Quality &amp; Review
-- **Framework**: Any Agent
-- **Rating**: 4.7/5 (16 reviews)
+**Leo Park** (Verified Creator ✓)
+- Profile: [@leopark](https://agentskillexchange.com/browse-skills/?creator=leopark)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/codeclimate-maintainability-tracker-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/codeclimate-maintainability-tracker-2/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

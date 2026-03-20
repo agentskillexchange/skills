@@ -1,11 +1,14 @@
 ---
-name: Jenkins Pipeline Health Monitor
-description: Monitors Jenkins pipelines using the Jenkins REST API and Blue Ocean API, detecting flaky tests, build queue bottlenecks, and credential expiration warnings for proactive CI maintenance.
-category: CI/CD Integrations
-framework: Any Agent
+name: "Jenkins Pipeline Health Monitor"
+description: "Monitors Jenkins pipelines using the Jenkins REST API and Blue Ocean API, detecting flaky tests, build queue bottlenecks, and credential expiration warnings for proactive CI maintenance."
+category: "CI/CD Integrations"
+framework: "Codex"
 verification: security_reviewed
 rating: 4.7
 reviews: 68
+creator: Leo Park
+creator_handle: leopark
+creator_verified: true
 source: https://agentskillexchange.com/skill/jenkins-pipeline-health-monitor/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/jenkins-pipeline-health-monitor/
 
 Monitors Jenkins pipelines using the Jenkins REST API and Blue Ocean API, detecting flaky tests, build queue bottlenecks, and credential expiration warnings for proactive CI maintenance.
 
-## Overview
-
-Monitors Jenkins pipelines using the Jenkins REST API and Blue Ocean API, detecting flaky tests, build queue bottlenecks, and credential expiration warnings for proactive CI maintenance.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill jenkins-pipeline-health-monitor
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill jenkins-pipeline-health-monitor -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill jenkins-pipeline-health-monitor -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill jenkins-pipeline-health-monitor
 clawhub install jenkins-pipeline-health-monitor
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add jenkins-pipeline-health-monitor
+npx skills add agentskillexchange/skills --skill jenkins-pipeline-health-monitor -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/jenkins-pipeline-health-monitor/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | CI/CD Integrations |
+| Framework | Codex |
+| Verification | Security Reviewed |
+| Rating | 4.7/5 (68 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: CI/CD Integrations
-- **Framework**: Any Agent
-- **Rating**: 4.7/5 (68 reviews)
+**Leo Park** (Verified Creator ✓)
+- Profile: [@leopark](https://agentskillexchange.com/browse-skills/?creator=leopark)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/jenkins-pipeline-health-monitor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/jenkins-pipeline-health-monitor/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

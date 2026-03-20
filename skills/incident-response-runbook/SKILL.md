@@ -1,28 +1,39 @@
 ---
-name: Incident Response Runbook
-description: Agent skill for incident response runbook.
-category: Templates &amp; Workflows
-framework: Any Agent
+name: "Incident Response Runbook"
+description: "Use this skill when an incident is declared and you need a structured, step-by-step response guide tailored to the incident type. It generates or retrieves runbooks for common incident categories (database outage, service degradation, security breach) and guides the responder through triage, mitigation, and communication steps."
+category: "Templates & Workflows"
+framework: "Claude Agents"
 verification: security_reviewed
 rating: 4.7
 reviews: 44
+creator: Ava Wilson
+creator_handle: avawilson
+creator_verified: true
 source: https://agentskillexchange.com/skill/incident-response-runbook/
 ---
 
 # Incident Response Runbook
 
-Agent skill for incident response runbook.
-
-## Overview
-
-Agent skill for incident response runbook.
+Use this skill when an incident is declared and you need a structured, step-by-step response guide tailored to the incident type. It generates or retrieves runbooks for common incident categories (database outage, service degradation, security breach) and guides the responder through triage, mitigation, and communication steps.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill incident-response-runbook
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill incident-response-runbook -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill incident-response-runbook -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill incident-response-runbook
 clawhub install incident-response-runbook
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add incident-response-runbook
+npx skills add agentskillexchange/skills --skill incident-response-runbook -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/incident-response-runbook/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Templates & Workflows |
+| Framework | Claude Agents |
+| Verification | Security Reviewed |
+| Rating | 4.7/5 (44 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Templates &amp; Workflows
-- **Framework**: Any Agent
-- **Rating**: 4.7/5 (44 reviews)
+**Ava Wilson** (Verified Creator ✓)
+- Profile: [@avawilson](https://agentskillexchange.com/browse-skills/?creator=avawilson)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/incident-response-runbook/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/incident-response-runbook/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

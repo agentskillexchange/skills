@@ -1,11 +1,14 @@
 ---
-name: Xero Accounting Agent
-description: AI agent skill for Xero — query invoices, bills, bank transactions, contacts, and financial reports. Supports multi-currency, multi-entity, and Xero Payroll data extraction for financial analysis and 
-category: Integrations & Connectors
-framework: Custom Agents
+name: "Xero Accounting Agent"
+description: "AI agent skill for Xero — query invoices, bills, bank transactions, contacts, and financial reports. Supports multi-currency, multi-entity, and Xero Payroll data extraction for financial analysis and reconciliation."
+category: "Integrations & Connectors"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.8
 reviews: 46
+creator: Alex Thompson
+creator_handle: alexthompson
+creator_verified: true
 source: https://agentskillexchange.com/skill/xero-accounting-agent/
 ---
 
@@ -13,37 +16,53 @@ source: https://agentskillexchange.com/skill/xero-accounting-agent/
 
 AI agent skill for Xero — query invoices, bills, bank transactions, contacts, and financial reports. Supports multi-currency, multi-entity, and Xero Payroll data extraction for financial analysis and reconciliation.
 
-## Overview
-
-AI agent skill for Xero — query invoices, bills, bank transactions, contacts, and financial reports. Supports multi-currency, multi-entity, and Xero Payroll data extraction for financial analysis and reconciliation.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill xero-accounting-agent
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill xero-accounting-agent -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill xero-accounting-agent -a cursor
+```
+
 ### OpenClaw
 
 ```bash
-openclaw install xero-accounting-agent
+clawhub install xero-accounting-agent
 ```
 
-### Manual
+### Codex
 
-Download this `SKILL.md` file and place it in your agent's skills directory.
+```bash
+npx skills add agentskillexchange/skills --skill xero-accounting-agent -a codex
+```
 
-## Metadata
+## Details
 
 | Field | Value |
 |-------|-------|
 | Category | Integrations & Connectors |
 | Framework | Custom Agents |
 | Verification | Security Reviewed |
-| Rating | ⭐⭐⭐⭐ 4.8/5.0 (46 reviews) |
+| Rating | 4.8/5 (46 reviews) |
 
----
+## Creator
 
-*Published on [Agent Skill Exchange](https://agentskillexchange.com/skill/xero-accounting-agent/)*
+**Alex Thompson** (Verified Creator ✓)
+- Profile: [@alexthompson](https://agentskillexchange.com/browse-skills/?creator=alexthompson)
+
+## Links
+
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/xero-accounting-agent/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -1,11 +1,14 @@
 ---
-name: Kubernetes Pod Diagnostic Agent
-description: Diagnoses Kubernetes pod failures using kubectl and the Kubernetes API server endpoints. Analyzes CrashLoopBackOff, OOMKilled, and ImagePullBackOff states by querying /api/v1/namespaces/{ns}/pods/{pod}/log and /api/v1/events resources.
-category: Runbooks &amp; Diagnostics
-framework: Any Agent
+name: "Kubernetes Pod Diagnostic Agent"
+description: "Diagnoses Kubernetes pod failures using kubectl and the Kubernetes API server endpoints. Analyzes CrashLoopBackOff, OOMKilled, and ImagePullBackOff states by querying /api/v1/namespaces/{ns}/pods/{pod}/log and /api/v1/events resources."
+category: "Runbooks & Diagnostics"
+framework: "Codex"
 verification: security_reviewed
 rating: 4.9
 reviews: 15
+creator: Sofia Petrov
+creator_handle: sofiapetrov
+creator_verified: true
 source: https://agentskillexchange.com/skill/kubernetes-pod-diagnostic-agent/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/kubernetes-pod-diagnostic-agent/
 
 Diagnoses Kubernetes pod failures using kubectl and the Kubernetes API server endpoints. Analyzes CrashLoopBackOff, OOMKilled, and ImagePullBackOff states by querying /api/v1/namespaces/{ns}/pods/{pod}/log and /api/v1/events resources.
 
-## Overview
-
-Diagnoses Kubernetes pod failures using kubectl and the Kubernetes API server endpoints. Analyzes CrashLoopBackOff, OOMKilled, and ImagePullBackOff states by querying /api/v1/namespaces/{ns}/pods/{pod}/log and /api/v1/events resources.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill kubernetes-pod-diagnostic-agent
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill kubernetes-pod-diagnostic-agent -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill kubernetes-pod-diagnostic-agent -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill kubernetes-pod-diagnostic-agent
 clawhub install kubernetes-pod-diagnostic-agent
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add kubernetes-pod-diagnostic-agent
+npx skills add agentskillexchange/skills --skill kubernetes-pod-diagnostic-agent -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/kubernetes-pod-diagnostic-agent/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Runbooks & Diagnostics |
+| Framework | Codex |
+| Verification | Security Reviewed |
+| Rating | 4.9/5 (15 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Runbooks &amp; Diagnostics
-- **Framework**: Any Agent
-- **Rating**: 4.9/5 (15 reviews)
+**Sofia Petrov** (Verified Creator ✓)
+- Profile: [@sofiapetrov](https://agentskillexchange.com/browse-skills/?creator=sofiapetrov)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/kubernetes-pod-diagnostic-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/kubernetes-pod-diagnostic-agent/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -1,28 +1,39 @@
 ---
-name: Import Cycle Analyzer
-description: Agent skill for import cycle analyzer.
-category: Code Quality &amp; Review
-framework: Any Agent
+name: "Import Cycle Analyzer"
+description: "Detects circular import dependencies that cause initialization failures, memory leaks, and obscure bugs. Generates dependency graphs and suggests refactoring strategies to break cycles."
+category: "Code Quality & Review"
+framework: "Claude Code"
 verification: security_reviewed
 rating: 4.4
 reviews: 10
+creator: Tom Anderson
+creator_handle: tanderson
+creator_verified: false
 source: https://agentskillexchange.com/skill/import-cycle-analyzer/
 ---
 
 # Import Cycle Analyzer
 
-Agent skill for import cycle analyzer.
-
-## Overview
-
-Agent skill for import cycle analyzer.
+Detects circular import dependencies that cause initialization failures, memory leaks, and obscure bugs. Generates dependency graphs and suggests refactoring strategies to break cycles.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill import-cycle-analyzer
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill import-cycle-analyzer -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill import-cycle-analyzer -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill import-cycle-analyzer
 clawhub install import-cycle-analyzer
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add import-cycle-analyzer
+npx skills add agentskillexchange/skills --skill import-cycle-analyzer -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/import-cycle-analyzer/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Code Quality & Review |
+| Framework | Claude Code |
+| Verification | Security Reviewed |
+| Rating | 4.4/5 (10 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Code Quality &amp; Review
-- **Framework**: Any Agent
-- **Rating**: 4.4/5 (10 reviews)
+**Tom Anderson**
+- Profile: [@tanderson](https://agentskillexchange.com/browse-skills/?creator=tanderson)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/import-cycle-analyzer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/import-cycle-analyzer/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

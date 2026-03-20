@@ -1,11 +1,14 @@
 ---
-name: Changelog Generator Skill
-description: Use this skill to parse git commit history and automatically generate a structured CHANGELOG.md following the Keep a Changelog convention. It categorizes commits into Added, Changed, Fixed, Deprecated
-category: Developer Tools
-framework: Custom Agents
+name: "Changelog Generator Skill"
+description: "Use this skill to parse git commit history and automatically generate a structured CHANGELOG.md following the Keep a Changelog convention. It categorizes commits into Added, Changed, Fixed, Deprecated, Removed, and Security sections. Trigger when preparing a release and needing to document changes since the last version."
+category: "Developer Tools"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.8
 reviews: 85
+creator: Marcus Rivera
+creator_handle: mrivera
+creator_verified: true
 source: https://agentskillexchange.com/skill/changelog-generator-skill/
 ---
 
@@ -13,37 +16,53 @@ source: https://agentskillexchange.com/skill/changelog-generator-skill/
 
 Use this skill to parse git commit history and automatically generate a structured CHANGELOG.md following the Keep a Changelog convention. It categorizes commits into Added, Changed, Fixed, Deprecated, Removed, and Security sections. Trigger when preparing a release and needing to document changes since the last version.
 
-## Overview
-
-Use this skill to parse git commit history and automatically generate a structured CHANGELOG.md following the Keep a Changelog convention. It categorizes commits into Added, Changed, Fixed, Deprecated, Removed, and Security sections. Trigger when preparing a release and needing to document changes since the last version.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill changelog-generator-skill
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill changelog-generator-skill -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill changelog-generator-skill -a cursor
+```
+
 ### OpenClaw
 
 ```bash
-openclaw install changelog-generator-skill
+clawhub install changelog-generator-skill
 ```
 
-### Manual
+### Codex
 
-Download this `SKILL.md` file and place it in your agent's skills directory.
+```bash
+npx skills add agentskillexchange/skills --skill changelog-generator-skill -a codex
+```
 
-## Metadata
+## Details
 
 | Field | Value |
 |-------|-------|
 | Category | Developer Tools |
 | Framework | Custom Agents |
 | Verification | Security Reviewed |
-| Rating | ⭐⭐⭐⭐ 4.8/5.0 (85 reviews) |
+| Rating | 4.8/5 (85 reviews) |
 
----
+## Creator
 
-*Published on [Agent Skill Exchange](https://agentskillexchange.com/skill/changelog-generator-skill/)*
+**Marcus Rivera** (Verified Creator ✓)
+- Profile: [@mrivera](https://agentskillexchange.com/browse-skills/?creator=mrivera)
+
+## Links
+
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/changelog-generator-skill/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

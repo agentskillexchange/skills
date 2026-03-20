@@ -1,11 +1,14 @@
 ---
-name: API Versioning Manager
-description: Manages API version lifecycle: detects breaking changes between OpenAPI specs, generates deprecation notices, maintains version compatibility matrices, and generates migration guides for consumers.
-category: Library & API Reference
-framework: Claude Code
+name: "API Versioning Manager"
+description: "Manages API version lifecycle: detects breaking changes between OpenAPI specs, generates deprecation notices, maintains version compatibility matrices, and generates migration guides for consumers."
+category: "Library & API Reference"
+framework: "Claude Code"
 verification: security_reviewed
 rating: 4.8
 reviews: 68
+creator: David Kim
+creator_handle: dkim
+creator_verified: false
 source: https://agentskillexchange.com/skill/api-versioning-manager/
 ---
 
@@ -13,37 +16,53 @@ source: https://agentskillexchange.com/skill/api-versioning-manager/
 
 Manages API version lifecycle: detects breaking changes between OpenAPI specs, generates deprecation notices, maintains version compatibility matrices, and generates migration guides for consumers.
 
-## Overview
-
-Manages API version lifecycle: detects breaking changes between OpenAPI specs, generates deprecation notices, maintains version compatibility matrices, and generates migration guides for consumers.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill api-versioning-manager
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill api-versioning-manager -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill api-versioning-manager -a cursor
+```
+
 ### OpenClaw
 
 ```bash
-openclaw install api-versioning-manager
+clawhub install api-versioning-manager
 ```
 
-### Manual
+### Codex
 
-Download this `SKILL.md` file and place it in your agent's skills directory.
+```bash
+npx skills add agentskillexchange/skills --skill api-versioning-manager -a codex
+```
 
-## Metadata
+## Details
 
 | Field | Value |
 |-------|-------|
 | Category | Library & API Reference |
 | Framework | Claude Code |
 | Verification | Security Reviewed |
-| Rating | ⭐⭐⭐⭐ 4.8/5.0 (68 reviews) |
+| Rating | 4.8/5 (68 reviews) |
 
----
+## Creator
 
-*Published on [Agent Skill Exchange](https://agentskillexchange.com/skill/api-versioning-manager/)*
+**David Kim**
+- Profile: [@dkim](https://agentskillexchange.com/browse-skills/?creator=dkim)
+
+## Links
+
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/api-versioning-manager/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

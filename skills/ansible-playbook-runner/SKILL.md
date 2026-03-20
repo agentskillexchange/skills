@@ -1,11 +1,14 @@
 ---
-name: Ansible Playbook Runner
-description: Execute and manage Ansible playbooks, inventories, and roles through an AI agent interface. Supports dynamic inventory generation, vault secret decryption, and playbook dry-run mode for safe infrastru
-category: Templates & Workflows
-framework: Custom Agents
+name: "Ansible Playbook Runner"
+description: "Execute and manage Ansible playbooks, inventories, and roles through an AI agent interface. Supports dynamic inventory generation, vault secret decryption, and playbook dry-run mode for safe infrastructure automation across SSH-accessible hosts."
+category: "Templates & Workflows"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.8
 reviews: 77
+creator: Alex Thompson
+creator_handle: alexthompson
+creator_verified: true
 source: https://agentskillexchange.com/skill/ansible-playbook-runner/
 ---
 
@@ -13,37 +16,53 @@ source: https://agentskillexchange.com/skill/ansible-playbook-runner/
 
 Execute and manage Ansible playbooks, inventories, and roles through an AI agent interface. Supports dynamic inventory generation, vault secret decryption, and playbook dry-run mode for safe infrastructure automation across SSH-accessible hosts.
 
-## Overview
-
-Execute and manage Ansible playbooks, inventories, and roles through an AI agent interface. Supports dynamic inventory generation, vault secret decryption, and playbook dry-run mode for safe infrastructure automation across SSH-accessible hosts.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill ansible-playbook-runner
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill ansible-playbook-runner -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill ansible-playbook-runner -a cursor
+```
+
 ### OpenClaw
 
 ```bash
-openclaw install ansible-playbook-runner
+clawhub install ansible-playbook-runner
 ```
 
-### Manual
+### Codex
 
-Download this `SKILL.md` file and place it in your agent's skills directory.
+```bash
+npx skills add agentskillexchange/skills --skill ansible-playbook-runner -a codex
+```
 
-## Metadata
+## Details
 
 | Field | Value |
 |-------|-------|
 | Category | Templates & Workflows |
 | Framework | Custom Agents |
 | Verification | Security Reviewed |
-| Rating | ⭐⭐⭐⭐ 4.8/5.0 (77 reviews) |
+| Rating | 4.8/5 (77 reviews) |
 
----
+## Creator
 
-*Published on [Agent Skill Exchange](https://agentskillexchange.com/skill/ansible-playbook-runner/)*
+**Alex Thompson** (Verified Creator ✓)
+- Profile: [@alexthompson](https://agentskillexchange.com/browse-skills/?creator=alexthompson)
+
+## Links
+
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/ansible-playbook-runner/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

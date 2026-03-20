@@ -1,28 +1,39 @@
 ---
-name: Secret Scanner
-description: Agent skill for secret scanner.
-category: Security &amp; Verification
-framework: Any Agent
+name: "Secret Scanner"
+description: "Use this skill when you need to scan code, commits, or configuration files for accidentally committed secrets like API keys, passwords, and tokens. It runs tools like truffleHog or gitleaks and returns findings with file paths, line numbers, and severity levels."
+category: "Security & Verification"
+framework: "Claude Code"
 verification: security_reviewed
 rating: 4.1
 reviews: 57
+creator: Sofia Petrov
+creator_handle: sofiapetrov
+creator_verified: true
 source: https://agentskillexchange.com/skill/secret-scanner/
 ---
 
 # Secret Scanner
 
-Agent skill for secret scanner.
-
-## Overview
-
-Agent skill for secret scanner.
+Use this skill when you need to scan code, commits, or configuration files for accidentally committed secrets like API keys, passwords, and tokens. It runs tools like truffleHog or gitleaks and returns findings with file paths, line numbers, and severity levels.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill secret-scanner
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill secret-scanner -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill secret-scanner -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill secret-scanner
 clawhub install secret-scanner
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add secret-scanner
+npx skills add agentskillexchange/skills --skill secret-scanner -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/secret-scanner/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Security & Verification |
+| Framework | Claude Code |
+| Verification | Security Reviewed |
+| Rating | 4.1/5 (57 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Security &amp; Verification
-- **Framework**: Any Agent
-- **Rating**: 4.1/5 (57 reviews)
+**Sofia Petrov** (Verified Creator ✓)
+- Profile: [@sofiapetrov](https://agentskillexchange.com/browse-skills/?creator=sofiapetrov)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/secret-scanner/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/secret-scanner/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

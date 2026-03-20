@@ -1,28 +1,39 @@
 ---
-name: Pinecone MCP Server
-description: Agent skill for pinecone mcp server.
-category: Data Extraction &amp; Transformation
-framework: Any Agent
+name: "Pinecone MCP Server"
+description: "Use this skill to upsert and query vectors in Pinecone, manage indexes, and perform similarity searches at scale through MCP. It gives agents direct access to Pinecone’s vector database for building semantic search and recommendation systems. Trigger when you need high-performance vector similarity search, want to store embeddings persistently, or need to manage vector indexes […]"
+category: "Data Extraction & Transformation"
+framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.2
 reviews: 22
+creator: Sofia Petrov
+creator_handle: sofiapetrov
+creator_verified: true
 source: https://agentskillexchange.com/skill/pinecone-mcp-server/
 ---
 
 # Pinecone MCP Server
 
-Agent skill for pinecone mcp server.
-
-## Overview
-
-Agent skill for pinecone mcp server.
+Use this skill to upsert and query vectors in Pinecone, manage indexes, and perform similarity searches at scale through MCP. It gives agents direct access to Pinecone’s vector database for building semantic search and recommendation systems. Trigger when you need high-performance vector similarity search, want to store embeddings persistently, or need to manage vector indexes […]
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill pinecone-mcp-server
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill pinecone-mcp-server -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill pinecone-mcp-server -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill pinecone-mcp-server
 clawhub install pinecone-mcp-server
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add pinecone-mcp-server
+npx skills add agentskillexchange/skills --skill pinecone-mcp-server -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/pinecone-mcp-server/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Data Extraction & Transformation |
+| Framework | MCP-compatible |
+| Verification | Security Reviewed |
+| Rating | 4.2/5 (22 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Data Extraction &amp; Transformation
-- **Framework**: Any Agent
-- **Rating**: 4.2/5 (22 reviews)
+**Sofia Petrov** (Verified Creator ✓)
+- Profile: [@sofiapetrov](https://agentskillexchange.com/browse-skills/?creator=sofiapetrov)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/pinecone-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/pinecone-mcp-server/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

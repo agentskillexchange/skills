@@ -1,11 +1,14 @@
 ---
-name: Video Frames Extractor
-description: Extract frames and short clips from videos.
-category: Media &amp; Transcription
-framework: Any Agent
+name: "Video Frames Extractor"
+description: "Extract frames and short clips from videos."
+category: "Media & Transcription"
+framework: "OpenClaw"
 verification: verified_metadata
 rating: 4.7
 reviews: 58
+creator: Zara Ahmed
+creator_handle: zaraahmed
+creator_verified: true
 source: https://agentskillexchange.com/skill/video-frames-extractor/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/video-frames-extractor/
 
 Extract frames and short clips from videos.
 
-## Overview
-
-Extract frames and short clips from videos.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill video-frames-extractor
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill video-frames-extractor -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill video-frames-extractor -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill video-frames-extractor
 clawhub install video-frames-extractor
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add video-frames-extractor
+npx skills add agentskillexchange/skills --skill video-frames-extractor -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/video-frames-extractor/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Media & Transcription |
+| Framework | OpenClaw |
+| Verification | Verified Metadata |
+| Rating | 4.7/5 (58 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: verified_metadata
-- **Category**: Media &amp; Transcription
-- **Framework**: Any Agent
-- **Rating**: 4.7/5 (58 reviews)
+**Zara Ahmed** (Verified Creator ✓)
+- Profile: [@zaraahmed](https://agentskillexchange.com/browse-skills/?creator=zaraahmed)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/video-frames-extractor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/video-frames-extractor/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

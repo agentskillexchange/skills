@@ -1,28 +1,39 @@
 ---
-name: Discord Bot Manager
-description: Agent skill for discord bot manager.
-category: Calendar, Email &amp; Productivity
-framework: Any Agent
+name: "Discord Bot Manager"
+description: "Create, deploy, and manage Discord bots including slash command registration, event handler setup, and webhook configuration through an AI agent. Supports discord.py and discord.js frameworks with automated permission scoping and OAuth2 bot invite link generation."
+category: "Calendar, Email & Productivity"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.1
 reviews: 16
+creator: Mia Zhang
+creator_handle: miazhang
+creator_verified: true
 source: https://agentskillexchange.com/skill/discord-bot-manager/
 ---
 
 # Discord Bot Manager
 
-Agent skill for discord bot manager.
-
-## Overview
-
-Agent skill for discord bot manager.
+Create, deploy, and manage Discord bots including slash command registration, event handler setup, and webhook configuration through an AI agent. Supports discord.py and discord.js frameworks with automated permission scoping and OAuth2 bot invite link generation.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill discord-bot-manager
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill discord-bot-manager -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill discord-bot-manager -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill discord-bot-manager
 clawhub install discord-bot-manager
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add discord-bot-manager
+npx skills add agentskillexchange/skills --skill discord-bot-manager -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/discord-bot-manager/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Calendar, Email & Productivity |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.1/5 (16 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Calendar, Email &amp; Productivity
-- **Framework**: Any Agent
-- **Rating**: 4.1/5 (16 reviews)
+**Mia Zhang** (Verified Creator ✓)
+- Profile: [@miazhang](https://agentskillexchange.com/browse-skills/?creator=miazhang)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/discord-bot-manager/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/discord-bot-manager/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

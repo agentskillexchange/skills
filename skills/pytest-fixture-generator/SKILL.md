@@ -1,28 +1,39 @@
 ---
-name: Pytest Fixture Generator
-description: Agent skill for pytest fixture generator.
-category: Code Quality &amp; Review
-framework: Any Agent
+name: "Pytest Fixture Generator"
+description: "Generate Pytest fixtures, conftest.py files, and parametrized test cases from Python source modules through an AI agent. Supports factory_boy integration for model factories, mock patching patterns, and pytest-asyncio for async test generation."
+category: "Code Quality & Review"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.5
 reviews: 35
+creator: Alex Thompson
+creator_handle: alexthompson
+creator_verified: true
 source: https://agentskillexchange.com/skill/pytest-fixture-generator/
 ---
 
 # Pytest Fixture Generator
 
-Agent skill for pytest fixture generator.
-
-## Overview
-
-Agent skill for pytest fixture generator.
+Generate Pytest fixtures, conftest.py files, and parametrized test cases from Python source modules through an AI agent. Supports factory_boy integration for model factories, mock patching patterns, and pytest-asyncio for async test generation.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill pytest-fixture-generator
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill pytest-fixture-generator -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill pytest-fixture-generator -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill pytest-fixture-generator
 clawhub install pytest-fixture-generator
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add pytest-fixture-generator
+npx skills add agentskillexchange/skills --skill pytest-fixture-generator -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/pytest-fixture-generator/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Code Quality & Review |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.5/5 (35 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Code Quality &amp; Review
-- **Framework**: Any Agent
-- **Rating**: 4.5/5 (35 reviews)
+**Alex Thompson** (Verified Creator ✓)
+- Profile: [@alexthompson](https://agentskillexchange.com/browse-skills/?creator=alexthompson)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/pytest-fixture-generator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/pytest-fixture-generator/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

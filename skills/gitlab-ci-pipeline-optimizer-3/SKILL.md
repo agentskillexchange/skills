@@ -1,11 +1,14 @@
 ---
-name: GitLab CI Pipeline Optimizer
-description: Optimizes GitLab CI/CD pipelines using the GitLab REST API v4 and Pipeline Analytics API. Reduces build times by analyzing job dependencies, cache efficiency, and runner utilization patterns.
-category: CI/CD Integrations
-framework: Any Agent
+name: "GitLab CI Pipeline Optimizer"
+description: "Optimizes GitLab CI/CD pipelines using the GitLab REST API v4 and Pipeline Analytics API. Reduces build times by analyzing job dependencies, cache efficiency, and runner utilization patterns."
+category: "CI/CD Integrations"
+framework: "Gemini"
 verification: security_reviewed
 rating: 4.1
 reviews: 79
+creator: Isabella Rossi
+creator_handle: irossi
+creator_verified: false
 source: https://agentskillexchange.com/skill/gitlab-ci-pipeline-optimizer-3/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/gitlab-ci-pipeline-optimizer-3/
 
 Optimizes GitLab CI/CD pipelines using the GitLab REST API v4 and Pipeline Analytics API. Reduces build times by analyzing job dependencies, cache efficiency, and runner utilization patterns.
 
-## Overview
-
-Optimizes GitLab CI/CD pipelines using the GitLab REST API v4 and Pipeline Analytics API. Reduces build times by analyzing job dependencies, cache efficiency, and runner utilization patterns.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill gitlab-ci-pipeline-optimizer-3
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill gitlab-ci-pipeline-optimizer-3 -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill gitlab-ci-pipeline-optimizer-3 -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill gitlab-ci-pipeline-optimizer-3
 clawhub install gitlab-ci-pipeline-optimizer-3
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add gitlab-ci-pipeline-optimizer-3
+npx skills add agentskillexchange/skills --skill gitlab-ci-pipeline-optimizer-3 -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/gitlab-ci-pipeline-optimizer-3/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | CI/CD Integrations |
+| Framework | Gemini |
+| Verification | Security Reviewed |
+| Rating | 4.1/5 (79 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: CI/CD Integrations
-- **Framework**: Any Agent
-- **Rating**: 4.1/5 (79 reviews)
+**Isabella Rossi**
+- Profile: [@irossi](https://agentskillexchange.com/browse-skills/?creator=irossi)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/gitlab-ci-pipeline-optimizer-3/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/gitlab-ci-pipeline-optimizer-3/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -1,28 +1,39 @@
 ---
-name: Make.com Airtable-to-Shopify Inventory Sync
-description: Configures a Make scenario using the Make REST API that watches for record changes in an Airtable base via Airtable Webhooks and maps inventory fields to Shopify product variants using the Shopify Admin REST API. Handles bulk updates with Make's iterator and aggregator modules for up to 500 SKUs per run.
-category: Integrations &amp; Connectors
-framework: Any Agent
+name: "Make.com Airtable-to-Shopify Inventory Sync"
+description: "Configures a Make scenario using the Make REST API that watches for record changes in an Airtable base via Airtable Webhooks and maps inventory fields to Shopify product variants using the Shopify Admin REST API. Handles bulk updates with Make’s iterator and aggregator modules for up to 500 SKUs per run."
+category: "Integrations & Connectors"
+framework: "Custom Agents"
 verification: verified_metadata
 rating: 4.7
 reviews: 13
+creator: Yuki Tanaka
+creator_handle: yukitanaka
+creator_verified: true
 source: https://agentskillexchange.com/skill/make-airtable-shopify-inventory-sync/
 ---
 
 # Make.com Airtable-to-Shopify Inventory Sync
 
-Configures a Make scenario using the Make REST API that watches for record changes in an Airtable base via Airtable Webhooks and maps inventory fields to Shopify product variants using the Shopify Admin REST API. Handles bulk updates with Make's iterator and aggregator modules for up to 500 SKUs per run.
-
-## Overview
-
-Configures a Make scenario using the Make REST API that watches for record changes in an Airtable base via Airtable Webhooks and maps inventory fields to Shopify product variants using the Shopify Admin REST API. Handles bulk updates with Make's iterator and aggregator modules for up to 500 SKUs per run.
+Configures a Make scenario using the Make REST API that watches for record changes in an Airtable base via Airtable Webhooks and maps inventory fields to Shopify product variants using the Shopify Admin REST API. Handles bulk updates with Make’s iterator and aggregator modules for up to 500 SKUs per run.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill make-airtable-shopify-inventory-sync
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill make-airtable-shopify-inventory-sync -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill make-airtable-shopify-inventory-sync -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill make-airtable-shopify-inventory
 clawhub install make-airtable-shopify-inventory-sync
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add make-airtable-shopify-inventory-sync
+npx skills add agentskillexchange/skills --skill make-airtable-shopify-inventory-sync -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/make-airtable-shopify-inventory-sync/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Integrations & Connectors |
+| Framework | Custom Agents |
+| Verification | Verified Metadata |
+| Rating | 4.7/5 (13 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: verified_metadata
-- **Category**: Integrations &amp; Connectors
-- **Framework**: Any Agent
-- **Rating**: 4.7/5 (13 reviews)
+**Yuki Tanaka** (Verified Creator ✓)
+- Profile: [@yukitanaka](https://agentskillexchange.com/browse-skills/?creator=yukitanaka)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/make-airtable-shopify-inventory-sync/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/make-airtable-shopify-inventory-sync/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

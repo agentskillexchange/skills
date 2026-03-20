@@ -1,11 +1,14 @@
 ---
-name: TMUX Remote Control Skill
-description: Control terminal-first tools through tmux sessions.
-category: Developer Tools
-framework: Any Agent
+name: "TMUX Remote Control Skill"
+description: "Control terminal-first tools through tmux sessions."
+category: "Developer Tools"
+framework: "OpenClaw"
 verification: verified_metadata
 rating: 4.6
 reviews: 49
+creator: Zara Ahmed
+creator_handle: zaraahmed
+creator_verified: true
 source: https://agentskillexchange.com/skill/tmux-remote-control-skill/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/tmux-remote-control-skill/
 
 Control terminal-first tools through tmux sessions.
 
-## Overview
-
-Control terminal-first tools through tmux sessions.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill tmux-remote-control-skill
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill tmux-remote-control-skill -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill tmux-remote-control-skill -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill tmux-remote-control-skill
 clawhub install tmux-remote-control-skill
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add tmux-remote-control-skill
+npx skills add agentskillexchange/skills --skill tmux-remote-control-skill -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/tmux-remote-control-skill/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Developer Tools |
+| Framework | OpenClaw |
+| Verification | Verified Metadata |
+| Rating | 4.6/5 (49 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: verified_metadata
-- **Category**: Developer Tools
-- **Framework**: Any Agent
-- **Rating**: 4.6/5 (49 reviews)
+**Zara Ahmed** (Verified Creator ✓)
+- Profile: [@zaraahmed](https://agentskillexchange.com/browse-skills/?creator=zaraahmed)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/tmux-remote-control-skill/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/tmux-remote-control-skill/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

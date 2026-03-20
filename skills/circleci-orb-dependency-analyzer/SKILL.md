@@ -1,11 +1,14 @@
 ---
-name: CircleCI Orb Dependency Analyzer
-description: Analyzes CircleCI orb dependencies using the CircleCI v2 API and Orb Registry API. Maps orb version trees, detects breaking changes, and generates upgrade paths for pinned orb references.
-category: CI/CD Integrations
-framework: Any Agent
+name: "CircleCI Orb Dependency Analyzer"
+description: "Analyzes CircleCI orb dependencies using the CircleCI v2 API and Orb Registry API. Maps orb version trees, detects breaking changes, and generates upgrade paths for pinned orb references."
+category: "CI/CD Integrations"
+framework: "Gemini"
 verification: security_reviewed
 rating: 4.8
 reviews: 57
+creator: Marcus Rivera
+creator_handle: mrivera
+creator_verified: true
 source: https://agentskillexchange.com/skill/circleci-orb-dependency-analyzer/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/circleci-orb-dependency-analyzer/
 
 Analyzes CircleCI orb dependencies using the CircleCI v2 API and Orb Registry API. Maps orb version trees, detects breaking changes, and generates upgrade paths for pinned orb references.
 
-## Overview
-
-Analyzes CircleCI orb dependencies using the CircleCI v2 API and Orb Registry API. Maps orb version trees, detects breaking changes, and generates upgrade paths for pinned orb references.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill circleci-orb-dependency-analyzer
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill circleci-orb-dependency-analyzer -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill circleci-orb-dependency-analyzer -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill circleci-orb-dependency-analyze
 clawhub install circleci-orb-dependency-analyzer
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add circleci-orb-dependency-analyzer
+npx skills add agentskillexchange/skills --skill circleci-orb-dependency-analyzer -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/circleci-orb-dependency-analyzer/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | CI/CD Integrations |
+| Framework | Gemini |
+| Verification | Security Reviewed |
+| Rating | 4.8/5 (57 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: CI/CD Integrations
-- **Framework**: Any Agent
-- **Rating**: 4.8/5 (57 reviews)
+**Marcus Rivera** (Verified Creator ✓)
+- Profile: [@mrivera](https://agentskillexchange.com/browse-skills/?creator=mrivera)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/circleci-orb-dependency-analyzer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/circleci-orb-dependency-analyzer/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

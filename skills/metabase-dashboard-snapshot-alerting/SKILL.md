@@ -1,11 +1,14 @@
 ---
-name: Metabase Dashboard Snapshot & Alerting
-description: Uses the Metabase REST API to export question results as CSV and render dashboard PNGs on a cron schedule. Compares key metric values against user-defined thresholds and fires alerts to PagerDuty or Slack when anomalies are detected. Supports multi-instance deployments.
-category: Data Extraction &amp; Transformation
-framework: Any Agent
-verification: listed
+name: "Metabase Dashboard Snapshot & Alerting"
+description: "Uses the Metabase REST API to export question results as CSV and render dashboard PNGs on a cron schedule. Compares key metric values against user-defined thresholds and fires alerts to PagerDuty or Slack when anomalies are detected. Supports multi-instance deployments."
+category: "Data Extraction & Transformation"
+framework: "OpenClaw"
+verification: 
 rating: 4.4
 reviews: 47
+creator: Priya Sharma
+creator_handle: priyasharma
+creator_verified: true
 source: https://agentskillexchange.com/skill/metabase-dashboard-snapshot-alerting/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/metabase-dashboard-snapshot-alertin
 
 Uses the Metabase REST API to export question results as CSV and render dashboard PNGs on a cron schedule. Compares key metric values against user-defined thresholds and fires alerts to PagerDuty or Slack when anomalies are detected. Supports multi-instance deployments.
 
-## Overview
-
-Uses the Metabase REST API to export question results as CSV and render dashboard PNGs on a cron schedule. Compares key metric values against user-defined thresholds and fires alerts to PagerDuty or Slack when anomalies are detected. Supports multi-instance deployments.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill metabase-dashboard-snapshot-alerting
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill metabase-dashboard-snapshot-alerting -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill metabase-dashboard-snapshot-alerting -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill metabase-dashboard-snapshot-ale
 clawhub install metabase-dashboard-snapshot-alerting
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add metabase-dashboard-snapshot-alerting
+npx skills add agentskillexchange/skills --skill metabase-dashboard-snapshot-alerting -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/metabase-dashboard-snapshot-alerting/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Data Extraction & Transformation |
+| Framework | OpenClaw |
+| Verification | Listed |
+| Rating | 4.4/5 (47 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: listed
-- **Category**: Data Extraction &amp; Transformation
-- **Framework**: Any Agent
-- **Rating**: 4.4/5 (47 reviews)
+**Priya Sharma** (Verified Creator ✓)
+- Profile: [@priyasharma](https://agentskillexchange.com/browse-skills/?creator=priyasharma)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/metabase-dashboard-snapshot-alerting/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/metabase-dashboard-snapshot-alerting/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -1,28 +1,39 @@
 ---
-name: OpenTelemetry Instrumentation
-description: Agent skill for opentelemetry instrumentation.
-category: Monitoring &amp; Alerts
-framework: Any Agent
+name: "OpenTelemetry Instrumentation"
+description: "Instruments applications with OpenTelemetry SDK for distributed tracing, metrics, and logs. Supports auto-instrumentation for popular frameworks and manual span creation for custom business logic observability."
+category: "Monitoring & Alerts"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.3
 reviews: 45
+creator: Liam OBrien
+creator_handle: liamobrien
+creator_verified: true
 source: https://agentskillexchange.com/skill/opentelemetry-instrumentation/
 ---
 
 # OpenTelemetry Instrumentation
 
-Agent skill for opentelemetry instrumentation.
-
-## Overview
-
-Agent skill for opentelemetry instrumentation.
+Instruments applications with OpenTelemetry SDK for distributed tracing, metrics, and logs. Supports auto-instrumentation for popular frameworks and manual span creation for custom business logic observability.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill opentelemetry-instrumentation
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill opentelemetry-instrumentation -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill opentelemetry-instrumentation -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill opentelemetry-instrumentation
 clawhub install opentelemetry-instrumentation
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add opentelemetry-instrumentation
+npx skills add agentskillexchange/skills --skill opentelemetry-instrumentation -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/opentelemetry-instrumentation/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Monitoring & Alerts |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.3/5 (45 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Monitoring &amp; Alerts
-- **Framework**: Any Agent
-- **Rating**: 4.3/5 (45 reviews)
+**Liam OBrien** (Verified Creator ✓)
+- Profile: [@liamobrien](https://agentskillexchange.com/browse-skills/?creator=liamobrien)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/opentelemetry-instrumentation/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/opentelemetry-instrumentation/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

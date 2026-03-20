@@ -1,11 +1,14 @@
 ---
-name: Plaid Financial Data Aggregator & Budget Classifier
-description: Integrates with the Plaid Transactions API using the plaid Python SDK to pull 90 days of transaction history across linked bank accounts. Transactions are classified into budget categories using a fine-tuned classifier via the OpenAI Chat Completions API and stored in PostgreSQL using SQLAlchemy.
-category: Library &amp; API Reference
-framework: Any Agent
+name: "Plaid Financial Data Aggregator & Budget Classifier"
+description: "Integrates with the Plaid Transactions API using the plaid Python SDK to pull 90 days of transaction history across linked bank accounts. Transactions are classified into budget categories using a fine-tuned classifier via the OpenAI Chat Completions API and stored in PostgreSQL using SQLAlchemy."
+category: "Library & API Reference"
+framework: "Cursor"
 verification: security_reviewed
 rating: 4.2
 reviews: 39
+creator: Sarah Chen
+creator_handle: sarahchen
+creator_verified: true
 source: https://agentskillexchange.com/skill/plaid-financial-data-aggregator/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/plaid-financial-data-aggregator/
 
 Integrates with the Plaid Transactions API using the plaid Python SDK to pull 90 days of transaction history across linked bank accounts. Transactions are classified into budget categories using a fine-tuned classifier via the OpenAI Chat Completions API and stored in PostgreSQL using SQLAlchemy.
 
-## Overview
-
-Integrates with the Plaid Transactions API using the plaid Python SDK to pull 90 days of transaction history across linked bank accounts. Transactions are classified into budget categories using a fine-tuned classifier via the OpenAI Chat Completions API and stored in PostgreSQL using SQLAlchemy.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill plaid-financial-data-aggregator
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill plaid-financial-data-aggregator -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill plaid-financial-data-aggregator -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill plaid-financial-data-aggregator
 clawhub install plaid-financial-data-aggregator
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add plaid-financial-data-aggregator
+npx skills add agentskillexchange/skills --skill plaid-financial-data-aggregator -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/plaid-financial-data-aggregator/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Library & API Reference |
+| Framework | Cursor |
+| Verification | Security Reviewed |
+| Rating | 4.2/5 (39 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Library &amp; API Reference
-- **Framework**: Any Agent
-- **Rating**: 4.2/5 (39 reviews)
+**Sarah Chen** (Verified Creator ✓)
+- Profile: [@sarahchen](https://agentskillexchange.com/browse-skills/?creator=sarahchen)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/plaid-financial-data-aggregator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/plaid-financial-data-aggregator/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

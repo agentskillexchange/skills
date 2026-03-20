@@ -1,28 +1,39 @@
 ---
-name: Stripe Reporting Agent
-description: Agent skill for stripe reporting agent.
-category: Integrations &amp; Connectors
-framework: Any Agent
+name: "Stripe Reporting Agent"
+description: "AI agent skill for Stripe — query charges, subscriptions, invoices, refunds, and payment intents. Generates revenue reports, churn analysis, MRR calculations, and dispute summaries without leaving your workflow."
+category: "Integrations & Connectors"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.7
 reviews: 85
+creator: Ava Wilson
+creator_handle: avawilson
+creator_verified: true
 source: https://agentskillexchange.com/skill/stripe-reporting-agent/
 ---
 
 # Stripe Reporting Agent
 
-Agent skill for stripe reporting agent.
-
-## Overview
-
-Agent skill for stripe reporting agent.
+AI agent skill for Stripe — query charges, subscriptions, invoices, refunds, and payment intents. Generates revenue reports, churn analysis, MRR calculations, and dispute summaries without leaving your workflow.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill stripe-reporting-agent
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill stripe-reporting-agent -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill stripe-reporting-agent -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill stripe-reporting-agent
 clawhub install stripe-reporting-agent
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add stripe-reporting-agent
+npx skills add agentskillexchange/skills --skill stripe-reporting-agent -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/stripe-reporting-agent/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Integrations & Connectors |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.7/5 (85 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Integrations &amp; Connectors
-- **Framework**: Any Agent
-- **Rating**: 4.7/5 (85 reviews)
+**Ava Wilson** (Verified Creator ✓)
+- Profile: [@avawilson](https://agentskillexchange.com/browse-skills/?creator=avawilson)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/stripe-reporting-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/stripe-reporting-agent/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

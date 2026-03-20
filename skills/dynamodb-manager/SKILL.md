@@ -1,28 +1,39 @@
 ---
-name: DynamoDB Manager
-description: Agent skill for dynamodb manager.
-category: Developer Tools
-framework: Any Agent
+name: "DynamoDB Manager"
+description: "AI agent skill for AWS DynamoDB — query and scan tables, inspect item schemas, manage secondary indexes, analyze capacity usage, and generate PartiQL queries. Supports on-demand and provisioned capacity modes."
+category: "Developer Tools"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.4
 reviews: 45
+creator: Alex Thompson
+creator_handle: alexthompson
+creator_verified: true
 source: https://agentskillexchange.com/skill/dynamodb-manager/
 ---
 
 # DynamoDB Manager
 
-Agent skill for dynamodb manager.
-
-## Overview
-
-Agent skill for dynamodb manager.
+AI agent skill for AWS DynamoDB — query and scan tables, inspect item schemas, manage secondary indexes, analyze capacity usage, and generate PartiQL queries. Supports on-demand and provisioned capacity modes.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill dynamodb-manager
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill dynamodb-manager -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill dynamodb-manager -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill dynamodb-manager
 clawhub install dynamodb-manager
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add dynamodb-manager
+npx skills add agentskillexchange/skills --skill dynamodb-manager -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/dynamodb-manager/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Developer Tools |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.4/5 (45 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Developer Tools
-- **Framework**: Any Agent
-- **Rating**: 4.4/5 (45 reviews)
+**Alex Thompson** (Verified Creator ✓)
+- Profile: [@alexthompson](https://agentskillexchange.com/browse-skills/?creator=alexthompson)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/dynamodb-manager/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/dynamodb-manager/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

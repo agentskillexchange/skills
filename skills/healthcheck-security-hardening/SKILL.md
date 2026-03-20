@@ -1,11 +1,14 @@
 ---
-name: Healthcheck Security Hardening
-description: Audit and harden OpenClaw host environments with a security-focused review skill.
-category: Security &amp; Verification
-framework: Any Agent
+name: "Healthcheck Security Hardening"
+description: "Audit and harden OpenClaw host environments with a security-focused review skill."
+category: "Security & Verification"
+framework: "OpenClaw"
 verification: security_reviewed
 rating: 4.6
 reviews: 60
+creator: Mia Zhang
+creator_handle: miazhang
+creator_verified: true
 source: https://agentskillexchange.com/skill/healthcheck-security-hardening/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/healthcheck-security-hardening/
 
 Audit and harden OpenClaw host environments with a security-focused review skill.
 
-## Overview
-
-Audit and harden OpenClaw host environments with a security-focused review skill.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill healthcheck-security-hardening
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill healthcheck-security-hardening -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill healthcheck-security-hardening -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill healthcheck-security-hardening
 clawhub install healthcheck-security-hardening
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add healthcheck-security-hardening
+npx skills add agentskillexchange/skills --skill healthcheck-security-hardening -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/healthcheck-security-hardening/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Security & Verification |
+| Framework | OpenClaw |
+| Verification | Security Reviewed |
+| Rating | 4.6/5 (60 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Security &amp; Verification
-- **Framework**: Any Agent
-- **Rating**: 4.6/5 (60 reviews)
+**Mia Zhang** (Verified Creator ✓)
+- Profile: [@miazhang](https://agentskillexchange.com/browse-skills/?creator=miazhang)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/healthcheck-security-hardening/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/healthcheck-security-hardening/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

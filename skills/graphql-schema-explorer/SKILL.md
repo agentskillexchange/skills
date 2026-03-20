@@ -1,28 +1,39 @@
 ---
-name: GraphQL Schema Explorer
-description: Agent skill for graphql schema explorer.
-category: Library &amp; API Reference
-framework: Any Agent
+name: "GraphQL Schema Explorer"
+description: "Introspects GraphQL endpoints to explore types, queries, mutations, and subscriptions. Generates documentation, type definitions, and sample queries. Helps understand unfamiliar GraphQL APIs quickly."
+category: "Library & API Reference"
+framework: "Claude Code"
 verification: security_reviewed
 rating: 4.1
 reviews: 82
+creator: Aisha Patel
+creator_handle: aishap
+creator_verified: true
 source: https://agentskillexchange.com/skill/graphql-schema-explorer/
 ---
 
 # GraphQL Schema Explorer
 
-Agent skill for graphql schema explorer.
-
-## Overview
-
-Agent skill for graphql schema explorer.
+Introspects GraphQL endpoints to explore types, queries, mutations, and subscriptions. Generates documentation, type definitions, and sample queries. Helps understand unfamiliar GraphQL APIs quickly.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill graphql-schema-explorer
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill graphql-schema-explorer -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill graphql-schema-explorer -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill graphql-schema-explorer
 clawhub install graphql-schema-explorer
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add graphql-schema-explorer
+npx skills add agentskillexchange/skills --skill graphql-schema-explorer -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/graphql-schema-explorer/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Library & API Reference |
+| Framework | Claude Code |
+| Verification | Security Reviewed |
+| Rating | 4.1/5 (82 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Library &amp; API Reference
-- **Framework**: Any Agent
-- **Rating**: 4.1/5 (82 reviews)
+**Aisha Patel** (Verified Creator ✓)
+- Profile: [@aishap](https://agentskillexchange.com/browse-skills/?creator=aishap)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/graphql-schema-explorer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/graphql-schema-explorer/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

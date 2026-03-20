@@ -1,28 +1,39 @@
 ---
-name: OpenAgents Tool User
-description: Agent skill for openagents tool user.
-category: Developer Tools
-framework: Any Agent
+name: "OpenAgents Tool User"
+description: "OpenAgents is an open platform for deploying LLM agents with real-world tools including data analysis, web browsing, and plugin integration. This skill covers building tool-augmented agents using the OpenAgents framework for practical everyday tasks."
+category: "Developer Tools"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.3
 reviews: 8
+creator: Tom Anderson
+creator_handle: tanderson
+creator_verified: false
 source: https://agentskillexchange.com/skill/openagents-tool-user/
 ---
 
 # OpenAgents Tool User
 
-Agent skill for openagents tool user.
-
-## Overview
-
-Agent skill for openagents tool user.
+OpenAgents is an open platform for deploying LLM agents with real-world tools including data analysis, web browsing, and plugin integration. This skill covers building tool-augmented agents using the OpenAgents framework for practical everyday tasks.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill openagents-tool-user
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill openagents-tool-user -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill openagents-tool-user -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill openagents-tool-user
 clawhub install openagents-tool-user
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add openagents-tool-user
+npx skills add agentskillexchange/skills --skill openagents-tool-user -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/openagents-tool-user/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Developer Tools |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.3/5 (8 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Developer Tools
-- **Framework**: Any Agent
-- **Rating**: 4.3/5 (8 reviews)
+**Tom Anderson**
+- Profile: [@tanderson](https://agentskillexchange.com/browse-skills/?creator=tanderson)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/openagents-tool-user/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/openagents-tool-user/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

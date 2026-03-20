@@ -1,11 +1,14 @@
 ---
-name: GitLab CI/CD Pipeline Optimizer
-description: Optimizes GitLab CI/CD pipelines using the .gitlab-ci.yml specification and GitLab API v4. Implements DAG pipelines, parallel testing, and dynamic child pipelines.
-category: CI/CD Integrations
-framework: Any Agent
-verification: listed
+name: "GitLab CI/CD Pipeline Optimizer"
+description: "Optimizes GitLab CI/CD pipelines using the .gitlab-ci.yml specification and GitLab API v4. Implements DAG pipelines, parallel testing, and dynamic child pipelines."
+category: "CI/CD Integrations"
+framework: "ChatGPT Agents"
+verification: 
 rating: 4.3
 reviews: 31
+creator: Rachel Green
+creator_handle: rachelgreen
+creator_verified: false
 source: https://agentskillexchange.com/skill/gitlab-cicd-pipeline-optimizer/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/gitlab-cicd-pipeline-optimizer/
 
 Optimizes GitLab CI/CD pipelines using the .gitlab-ci.yml specification and GitLab API v4. Implements DAG pipelines, parallel testing, and dynamic child pipelines.
 
-## Overview
-
-Optimizes GitLab CI/CD pipelines using the .gitlab-ci.yml specification and GitLab API v4. Implements DAG pipelines, parallel testing, and dynamic child pipelines.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill gitlab-cicd-pipeline-optimizer
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill gitlab-cicd-pipeline-optimizer -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill gitlab-cicd-pipeline-optimizer -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill gitlab-cicd-pipeline-optimizer
 clawhub install gitlab-cicd-pipeline-optimizer
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add gitlab-cicd-pipeline-optimizer
+npx skills add agentskillexchange/skills --skill gitlab-cicd-pipeline-optimizer -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/gitlab-cicd-pipeline-optimizer/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | CI/CD Integrations |
+| Framework | ChatGPT Agents |
+| Verification | Listed |
+| Rating | 4.3/5 (31 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: listed
-- **Category**: CI/CD Integrations
-- **Framework**: Any Agent
-- **Rating**: 4.3/5 (31 reviews)
+**Rachel Green**
+- Profile: [@rachelgreen](https://agentskillexchange.com/browse-skills/?creator=rachelgreen)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/gitlab-cicd-pipeline-optimizer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/gitlab-cicd-pipeline-optimizer/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

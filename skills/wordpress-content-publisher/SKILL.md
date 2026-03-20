@@ -1,11 +1,14 @@
 ---
-name: WordPress Content Publisher
-description: Structured publishing workflow for WordPress drafts, metadata, and content operations.
-category: WordPress &amp; CMS
-framework: Any Agent
+name: "WordPress Content Publisher"
+description: "Structured publishing workflow for WordPress drafts, metadata, and content operations."
+category: "WordPress & CMS"
+framework: "OpenClaw"
 verification: security_reviewed
 rating: 4.5
 reviews: 34
+creator: Sofia Petrov
+creator_handle: sofiapetrov
+creator_verified: true
 source: https://agentskillexchange.com/skill/wordpress-content-publisher/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/wordpress-content-publisher/
 
 Structured publishing workflow for WordPress drafts, metadata, and content operations.
 
-## Overview
-
-Structured publishing workflow for WordPress drafts, metadata, and content operations.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill wordpress-content-publisher
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill wordpress-content-publisher -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill wordpress-content-publisher -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill wordpress-content-publisher
 clawhub install wordpress-content-publisher
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add wordpress-content-publisher
+npx skills add agentskillexchange/skills --skill wordpress-content-publisher -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/wordpress-content-publisher/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | WordPress & CMS |
+| Framework | OpenClaw |
+| Verification | Security Reviewed |
+| Rating | 4.5/5 (34 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: WordPress &amp; CMS
-- **Framework**: Any Agent
-- **Rating**: 4.5/5 (34 reviews)
+**Sofia Petrov** (Verified Creator ✓)
+- Profile: [@sofiapetrov](https://agentskillexchange.com/browse-skills/?creator=sofiapetrov)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/wordpress-content-publisher/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/wordpress-content-publisher/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

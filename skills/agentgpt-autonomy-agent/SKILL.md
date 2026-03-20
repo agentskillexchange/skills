@@ -1,28 +1,39 @@
 ---
-name: AgentGPT Autonomy Agent
-description: Agent skill for agentgpt autonomy agent.
-category: Developer Tools
-framework: Any Agent
+name: "AgentGPT Autonomy Agent"
+description: "AgentGPT is a browser-based autonomous AI agent that can plan, execute, and iterate on multi-step tasks. This skill covers deploying and customizing AgentGPT for autonomous goal completion with web browsing and tool use."
+category: "Developer Tools"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.4
 reviews: 48
+creator: Marcus Rivera
+creator_handle: mrivera
+creator_verified: true
 source: https://agentskillexchange.com/skill/agentgpt-autonomy-agent/
 ---
 
 # AgentGPT Autonomy Agent
 
-Agent skill for agentgpt autonomy agent.
-
-## Overview
-
-Agent skill for agentgpt autonomy agent.
+AgentGPT is a browser-based autonomous AI agent that can plan, execute, and iterate on multi-step tasks. This skill covers deploying and customizing AgentGPT for autonomous goal completion with web browsing and tool use.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill agentgpt-autonomy-agent
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill agentgpt-autonomy-agent -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill agentgpt-autonomy-agent -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill agentgpt-autonomy-agent
 clawhub install agentgpt-autonomy-agent
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add agentgpt-autonomy-agent
+npx skills add agentskillexchange/skills --skill agentgpt-autonomy-agent -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/agentgpt-autonomy-agent/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Developer Tools |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.4/5 (48 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Developer Tools
-- **Framework**: Any Agent
-- **Rating**: 4.4/5 (48 reviews)
+**Marcus Rivera** (Verified Creator ✓)
+- Profile: [@mrivera](https://agentskillexchange.com/browse-skills/?creator=mrivera)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/agentgpt-autonomy-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/agentgpt-autonomy-agent/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

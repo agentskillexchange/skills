@@ -1,28 +1,39 @@
 ---
-name: Buildkite Pipeline Agent
-description: Agent skill for buildkite pipeline agent.
-category: CI/CD Integrations
-framework: Any Agent
+name: "Buildkite Pipeline Agent"
+description: "Configures and manages Buildkite CI/CD pipelines. Covers pipeline.yml authoring, dynamic pipeline generation, artifact management, parallelization, and Buildkite agent configuration for self-hosted runners."
+category: "CI/CD Integrations"
+framework: "Claude Code"
 verification: security_reviewed
 rating: 4.1
 reviews: 34
+creator: Nathan Brooks
+creator_handle: nbrooks
+creator_verified: false
 source: https://agentskillexchange.com/skill/buildkite-pipeline-agent/
 ---
 
 # Buildkite Pipeline Agent
 
-Agent skill for buildkite pipeline agent.
-
-## Overview
-
-Agent skill for buildkite pipeline agent.
+Configures and manages Buildkite CI/CD pipelines. Covers pipeline.yml authoring, dynamic pipeline generation, artifact management, parallelization, and Buildkite agent configuration for self-hosted runners.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill buildkite-pipeline-agent
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill buildkite-pipeline-agent -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill buildkite-pipeline-agent -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill buildkite-pipeline-agent
 clawhub install buildkite-pipeline-agent
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add buildkite-pipeline-agent
+npx skills add agentskillexchange/skills --skill buildkite-pipeline-agent -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/buildkite-pipeline-agent/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | CI/CD Integrations |
+| Framework | Claude Code |
+| Verification | Security Reviewed |
+| Rating | 4.1/5 (34 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: CI/CD Integrations
-- **Framework**: Any Agent
-- **Rating**: 4.1/5 (34 reviews)
+**Nathan Brooks**
+- Profile: [@nbrooks](https://agentskillexchange.com/browse-skills/?creator=nbrooks)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/buildkite-pipeline-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/buildkite-pipeline-agent/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

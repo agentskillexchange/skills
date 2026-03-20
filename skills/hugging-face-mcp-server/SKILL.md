@@ -1,11 +1,14 @@
 ---
-name: Hugging Face MCP Server
-description: Use this skill to search Hugging Face Hub for models and datasets, run inference via the Inference API, and access tens of thousands of open-source ML models through MCP. It bridges agent workflows wi
-category: Developer Tools
-framework: MCP
+name: "Hugging Face MCP Server"
+description: "Use this skill to search Hugging Face Hub for models and datasets, run inference via the Inference API, and access tens of thousands of open-source ML models through MCP. It bridges agent workflows with the world’s largest open model repository. Trigger when you need specialized ML models, want to run inference on open-source models, or […]"
+category: "Developer Tools"
+framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.8
 reviews: 66
+creator: Leo Park
+creator_handle: leopark
+creator_verified: true
 source: https://agentskillexchange.com/skill/hugging-face-mcp-server/
 ---
 
@@ -13,37 +16,53 @@ source: https://agentskillexchange.com/skill/hugging-face-mcp-server/
 
 Use this skill to search Hugging Face Hub for models and datasets, run inference via the Inference API, and access tens of thousands of open-source ML models through MCP. It bridges agent workflows with the world’s largest open model repository. Trigger when you need specialized ML models, want to run inference on open-source models, or […]
 
-## Overview
-
-Use this skill to search Hugging Face Hub for models and datasets, run inference via the Inference API, and access tens of thousands of open-source ML models through MCP. It bridges agent workflows with the world’s largest open model repository. Trigger when you need specialized ML models, want to run inference on open-source models, or need to access datasets for processing.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill hugging-face-mcp-server
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill hugging-face-mcp-server -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill hugging-face-mcp-server -a cursor
+```
+
 ### OpenClaw
 
 ```bash
-openclaw install hugging-face-mcp-server
+clawhub install hugging-face-mcp-server
 ```
 
-### Manual
+### Codex
 
-Download this `SKILL.md` file and place it in your agent's skills directory.
+```bash
+npx skills add agentskillexchange/skills --skill hugging-face-mcp-server -a codex
+```
 
-## Metadata
+## Details
 
 | Field | Value |
 |-------|-------|
 | Category | Developer Tools |
-| Framework | MCP |
+| Framework | MCP-compatible |
 | Verification | Security Reviewed |
-| Rating | ⭐⭐⭐⭐ 4.8/5.0 (66 reviews) |
+| Rating | 4.8/5 (66 reviews) |
 
----
+## Creator
 
-*Published on [Agent Skill Exchange](https://agentskillexchange.com/skill/hugging-face-mcp-server/)*
+**Leo Park** (Verified Creator ✓)
+- Profile: [@leopark](https://agentskillexchange.com/browse-skills/?creator=leopark)
+
+## Links
+
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/hugging-face-mcp-server/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -1,11 +1,14 @@
 ---
-name: Browserbase MCP for Cloud Browser Control
-description: Cloud browser sessions for scalable agent automation.
-category: Browser Automation
-framework: Any Agent
+name: "Browserbase MCP for Cloud Browser Control"
+description: "Cloud browser sessions for scalable agent automation."
+category: "Browser Automation"
+framework: "Claude Code"
 verification: verified_metadata
 rating: 4.7
 reviews: 61
+creator: Raj Gupta
+creator_handle: rajgupta
+creator_verified: true
 source: https://agentskillexchange.com/skill/browserbase-mcp-cloud-browser-control/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/browserbase-mcp-cloud-browser-contr
 
 Cloud browser sessions for scalable agent automation.
 
-## Overview
-
-Cloud browser sessions for scalable agent automation.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill browserbase-mcp-cloud-browser-control
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill browserbase-mcp-cloud-browser-control -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill browserbase-mcp-cloud-browser-control -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill browserbase-mcp-cloud-browser-c
 clawhub install browserbase-mcp-cloud-browser-control
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add browserbase-mcp-cloud-browser-control
+npx skills add agentskillexchange/skills --skill browserbase-mcp-cloud-browser-control -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/browserbase-mcp-cloud-browser-control/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Browser Automation |
+| Framework | Claude Code |
+| Verification | Verified Metadata |
+| Rating | 4.7/5 (61 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: verified_metadata
-- **Category**: Browser Automation
-- **Framework**: Any Agent
-- **Rating**: 4.7/5 (61 reviews)
+**Raj Gupta** (Verified Creator ✓)
+- Profile: [@rajgupta](https://agentskillexchange.com/browse-skills/?creator=rajgupta)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/browserbase-mcp-cloud-browser-control/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/browserbase-mcp-cloud-browser-control/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

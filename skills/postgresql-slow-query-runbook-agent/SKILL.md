@@ -1,11 +1,14 @@
 ---
-name: PostgreSQL Slow Query Runbook
-description: Diagnoses PostgreSQL slow queries using pg_stat_statements extension, EXPLAIN ANALYZE output parsing, and pg_stat_user_indexes for index usage analysis. Identifies missing indexes, sequential scan bottlenecks, and lock contention issues.
-category: Runbooks &amp; Diagnostics
-framework: Any Agent
+name: "PostgreSQL Slow Query Runbook"
+description: "Diagnoses PostgreSQL slow queries using pg_stat_statements extension, EXPLAIN ANALYZE output parsing, and pg_stat_user_indexes for index usage analysis. Identifies missing indexes, sequential scan bottlenecks, and lock contention issues."
+category: "Runbooks & Diagnostics"
+framework: "OpenClaw"
 verification: security_reviewed
 rating: 4.1
 reviews: 86
+creator: Yuki Tanaka
+creator_handle: yukitanaka
+creator_verified: true
 source: https://agentskillexchange.com/skill/postgresql-slow-query-runbook-agent/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/postgresql-slow-query-runbook-agent
 
 Diagnoses PostgreSQL slow queries using pg_stat_statements extension, EXPLAIN ANALYZE output parsing, and pg_stat_user_indexes for index usage analysis. Identifies missing indexes, sequential scan bottlenecks, and lock contention issues.
 
-## Overview
-
-Diagnoses PostgreSQL slow queries using pg_stat_statements extension, EXPLAIN ANALYZE output parsing, and pg_stat_user_indexes for index usage analysis. Identifies missing indexes, sequential scan bottlenecks, and lock contention issues.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill postgresql-slow-query-runbook-agent
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill postgresql-slow-query-runbook-agent -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill postgresql-slow-query-runbook-agent -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill postgresql-slow-query-runbook-a
 clawhub install postgresql-slow-query-runbook-agent
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add postgresql-slow-query-runbook-agent
+npx skills add agentskillexchange/skills --skill postgresql-slow-query-runbook-agent -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/postgresql-slow-query-runbook-agent/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Runbooks & Diagnostics |
+| Framework | OpenClaw |
+| Verification | Security Reviewed |
+| Rating | 4.1/5 (86 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Runbooks &amp; Diagnostics
-- **Framework**: Any Agent
-- **Rating**: 4.1/5 (86 reviews)
+**Yuki Tanaka** (Verified Creator ✓)
+- Profile: [@yukitanaka](https://agentskillexchange.com/browse-skills/?creator=yukitanaka)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/postgresql-slow-query-runbook-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/postgresql-slow-query-runbook-agent/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -1,11 +1,14 @@
 ---
-name: Substack Formatter
-description: Convert plain text into Substack-ready HTML that preserves headings, emphasis, and lists on paste.
-category: Content Writing &amp; SEO
-framework: Any Agent
+name: "Substack Formatter"
+description: "Convert plain text into Substack-ready HTML that preserves headings, emphasis, and lists on paste."
+category: "Content Writing & SEO"
+framework: "OpenClaw"
 verification: verified_metadata
 rating: 4.3
 reviews: 44
+creator: Isabella Rossi
+creator_handle: irossi
+creator_verified: false
 source: https://agentskillexchange.com/skill/substack-formatter/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/substack-formatter/
 
 Convert plain text into Substack-ready HTML that preserves headings, emphasis, and lists on paste.
 
-## Overview
-
-Convert plain text into Substack-ready HTML that preserves headings, emphasis, and lists on paste.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill substack-formatter
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill substack-formatter -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill substack-formatter -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill substack-formatter
 clawhub install substack-formatter
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add substack-formatter
+npx skills add agentskillexchange/skills --skill substack-formatter -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/substack-formatter/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Content Writing & SEO |
+| Framework | OpenClaw |
+| Verification | Verified Metadata |
+| Rating | 4.3/5 (44 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: verified_metadata
-- **Category**: Content Writing &amp; SEO
-- **Framework**: Any Agent
-- **Rating**: 4.3/5 (44 reviews)
+**Isabella Rossi**
+- Profile: [@irossi](https://agentskillexchange.com/browse-skills/?creator=irossi)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/substack-formatter/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/substack-formatter/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

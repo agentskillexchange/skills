@@ -1,28 +1,39 @@
 ---
-name: SQLite Analyst
-description: Agent skill for sqlite analyst.
-category: Developer Tools
-framework: Any Agent
+name: "SQLite Analyst"
+description: "AI agent skill for exploring, querying, and analyzing SQLite databases. Supports schema discovery, complex SQL generation, data profiling, and export to CSV or JSON. Ideal for local data analysis workflows."
+category: "Developer Tools"
+framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.4
 reviews: 20
+creator: Luna Martinez
+creator_handle: lunamartinez
+creator_verified: false
 source: https://agentskillexchange.com/skill/sqlite-analyst/
 ---
 
 # SQLite Analyst
 
-Agent skill for sqlite analyst.
-
-## Overview
-
-Agent skill for sqlite analyst.
+AI agent skill for exploring, querying, and analyzing SQLite databases. Supports schema discovery, complex SQL generation, data profiling, and export to CSV or JSON. Ideal for local data analysis workflows.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill sqlite-analyst
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill sqlite-analyst -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill sqlite-analyst -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill sqlite-analyst
 clawhub install sqlite-analyst
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add sqlite-analyst
+npx skills add agentskillexchange/skills --skill sqlite-analyst -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/sqlite-analyst/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Developer Tools |
+| Framework | MCP-compatible |
+| Verification | Security Reviewed |
+| Rating | 4.4/5 (20 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Developer Tools
-- **Framework**: Any Agent
-- **Rating**: 4.4/5 (20 reviews)
+**Luna Martinez**
+- Profile: [@lunamartinez](https://agentskillexchange.com/browse-skills/?creator=lunamartinez)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/sqlite-analyst/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/sqlite-analyst/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

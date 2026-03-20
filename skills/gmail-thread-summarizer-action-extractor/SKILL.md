@@ -1,11 +1,14 @@
 ---
-name: Gmail Thread Summarizer and Action Extractor
-description: Fetches Gmail threads via the Gmail API (users.threads.get), extracts full message content, and produces a structured summary with action items, decisions, and follow-ups. Uses MIME part decoding for multi-part HTML/plain text emails and handles forwarded thread chains.
-category: Calendar, Email &amp; Productivity
-framework: Any Agent
-verification: listed
+name: "Gmail Thread Summarizer and Action Extractor"
+description: "Fetches Gmail threads via the Gmail API (users.threads.get), extracts full message content, and produces a structured summary with action items, decisions, and follow-ups. Uses MIME part decoding for multi-part HTML/plain text emails and handles forwarded thread chains."
+category: "Calendar, Email & Productivity"
+framework: "OpenClaw"
+verification: 
 rating: 4.5
 reviews: 9
+creator: Alex Thompson
+creator_handle: alexthompson
+creator_verified: true
 source: https://agentskillexchange.com/skill/gmail-thread-summarizer-action-extractor/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/gmail-thread-summarizer-action-extr
 
 Fetches Gmail threads via the Gmail API (users.threads.get), extracts full message content, and produces a structured summary with action items, decisions, and follow-ups. Uses MIME part decoding for multi-part HTML/plain text emails and handles forwarded thread chains.
 
-## Overview
-
-Fetches Gmail threads via the Gmail API (users.threads.get), extracts full message content, and produces a structured summary with action items, decisions, and follow-ups. Uses MIME part decoding for multi-part HTML/plain text emails and handles forwarded thread chains.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill gmail-thread-summarizer-action-extractor
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill gmail-thread-summarizer-action-extractor -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill gmail-thread-summarizer-action-extractor -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill gmail-thread-summarizer-action-
 clawhub install gmail-thread-summarizer-action-extractor
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add gmail-thread-summarizer-action-extractor
+npx skills add agentskillexchange/skills --skill gmail-thread-summarizer-action-extractor -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/gmail-thread-summarizer-action-extractor/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Calendar, Email & Productivity |
+| Framework | OpenClaw |
+| Verification | Listed |
+| Rating | 4.5/5 (9 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: listed
-- **Category**: Calendar, Email &amp; Productivity
-- **Framework**: Any Agent
-- **Rating**: 4.5/5 (9 reviews)
+**Alex Thompson** (Verified Creator ✓)
+- Profile: [@alexthompson](https://agentskillexchange.com/browse-skills/?creator=alexthompson)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/gmail-thread-summarizer-action-extractor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/gmail-thread-summarizer-action-extractor/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

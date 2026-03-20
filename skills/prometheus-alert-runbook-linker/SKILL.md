@@ -1,11 +1,14 @@
 ---
-name: Prometheus Alert Runbook Linker
-description: Links Prometheus alerting rules to operational runbooks by parsing AlertManager configurations and PrometheusRule CRDs. Validates runbook_url annotations exist and are reachable, and generates stub runbooks for undocumented alerts.
-category: Runbooks &amp; Diagnostics
-framework: Any Agent
+name: "Prometheus Alert Runbook Linker"
+description: "Links Prometheus alerting rules to operational runbooks by parsing AlertManager configurations and PrometheusRule CRDs. Validates runbook_url annotations exist and are reachable, and generates stub runbooks for undocumented alerts."
+category: "Runbooks & Diagnostics"
+framework: "Gemini"
 verification: security_reviewed
 rating: 4.0
 reviews: 82
+creator: Sofia Petrov
+creator_handle: sofiapetrov
+creator_verified: true
 source: https://agentskillexchange.com/skill/prometheus-alert-runbook-linker/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/prometheus-alert-runbook-linker/
 
 Links Prometheus alerting rules to operational runbooks by parsing AlertManager configurations and PrometheusRule CRDs. Validates runbook_url annotations exist and are reachable, and generates stub runbooks for undocumented alerts.
 
-## Overview
-
-Links Prometheus alerting rules to operational runbooks by parsing AlertManager configurations and PrometheusRule CRDs. Validates runbook_url annotations exist and are reachable, and generates stub runbooks for undocumented alerts.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill prometheus-alert-runbook-linker
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill prometheus-alert-runbook-linker -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill prometheus-alert-runbook-linker -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill prometheus-alert-runbook-linker
 clawhub install prometheus-alert-runbook-linker
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add prometheus-alert-runbook-linker
+npx skills add agentskillexchange/skills --skill prometheus-alert-runbook-linker -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/prometheus-alert-runbook-linker/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Runbooks & Diagnostics |
+| Framework | Gemini |
+| Verification | Security Reviewed |
+| Rating | 4.0/5 (82 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Runbooks &amp; Diagnostics
-- **Framework**: Any Agent
-- **Rating**: 4.0/5 (82 reviews)
+**Sofia Petrov** (Verified Creator ✓)
+- Profile: [@sofiapetrov](https://agentskillexchange.com/browse-skills/?creator=sofiapetrov)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/prometheus-alert-runbook-linker/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/prometheus-alert-runbook-linker/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -1,11 +1,14 @@
 ---
-name: Playwright Test Report to Slack
-description: Parses Playwright HTML and JSON test reports and posts structured summaries to Slack using the Slack Web API. Reads test results from the playwright-report directory, extracts pass/fail/flaky counts using the @playwright/test reporter API, and posts rich Block Kit messages with test suite breakdowns via chat.postMessage.
-category: CI/CD Integrations
-framework: Any Agent
+name: "Playwright Test Report to Slack"
+description: "Parses Playwright HTML and JSON test reports and posts structured summaries to Slack using the Slack Web API. Reads test results from the playwright-report directory, extracts pass/fail/flaky counts using the @playwright/test reporter API, and posts rich Block Kit messages with test suite breakdowns via chat.postMessage."
+category: "CI/CD Integrations"
+framework: "ChatGPT Agents"
 verification: verified_metadata
 rating: 4.6
 reviews: 66
+creator: Priya Sharma
+creator_handle: priyasharma
+creator_verified: true
 source: https://agentskillexchange.com/skill/playwright-test-report-to-slack/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/playwright-test-report-to-slack/
 
 Parses Playwright HTML and JSON test reports and posts structured summaries to Slack using the Slack Web API. Reads test results from the playwright-report directory, extracts pass/fail/flaky counts using the @playwright/test reporter API, and posts rich Block Kit messages with test suite breakdowns via chat.postMessage.
 
-## Overview
-
-Parses Playwright HTML and JSON test reports and posts structured summaries to Slack using the Slack Web API. Reads test results from the playwright-report directory, extracts pass/fail/flaky counts using the @playwright/test reporter API, and posts rich Block Kit messages with test suite breakdowns via chat.postMessage.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill playwright-test-report-to-slack
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill playwright-test-report-to-slack -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill playwright-test-report-to-slack -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill playwright-test-report-to-slack
 clawhub install playwright-test-report-to-slack
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add playwright-test-report-to-slack
+npx skills add agentskillexchange/skills --skill playwright-test-report-to-slack -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/playwright-test-report-to-slack/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | CI/CD Integrations |
+| Framework | ChatGPT Agents |
+| Verification | Verified Metadata |
+| Rating | 4.6/5 (66 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: verified_metadata
-- **Category**: CI/CD Integrations
-- **Framework**: Any Agent
-- **Rating**: 4.6/5 (66 reviews)
+**Priya Sharma** (Verified Creator ✓)
+- Profile: [@priyasharma](https://agentskillexchange.com/browse-skills/?creator=priyasharma)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/playwright-test-report-to-slack/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/playwright-test-report-to-slack/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

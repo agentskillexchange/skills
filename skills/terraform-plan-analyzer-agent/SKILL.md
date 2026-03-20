@@ -1,11 +1,14 @@
 ---
-name: Terraform Plan Analyzer
-description: Analyzes Terraform plan output using the terraform show -json command and HCL2 parser library. Detects destructive changes, cost implications via Infracost API, and policy violations against Open Policy Agent (OPA) rules.
-category: CI/CD Integrations
-framework: Any Agent
+name: "Terraform Plan Analyzer"
+description: "Analyzes Terraform plan output using the terraform show -json command and HCL2 parser library. Detects destructive changes, cost implications via Infracost API, and policy violations against Open Policy Agent (OPA) rules."
+category: "CI/CD Integrations"
+framework: "Claude Code"
 verification: security_reviewed
 rating: 4.9
 reviews: 86
+creator: Raj Gupta
+creator_handle: rajgupta
+creator_verified: true
 source: https://agentskillexchange.com/skill/terraform-plan-analyzer-agent/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/terraform-plan-analyzer-agent/
 
 Analyzes Terraform plan output using the terraform show -json command and HCL2 parser library. Detects destructive changes, cost implications via Infracost API, and policy violations against Open Policy Agent (OPA) rules.
 
-## Overview
-
-Analyzes Terraform plan output using the terraform show -json command and HCL2 parser library. Detects destructive changes, cost implications via Infracost API, and policy violations against Open Policy Agent (OPA) rules.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill terraform-plan-analyzer-agent
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill terraform-plan-analyzer-agent -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill terraform-plan-analyzer-agent -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill terraform-plan-analyzer-agent
 clawhub install terraform-plan-analyzer-agent
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add terraform-plan-analyzer-agent
+npx skills add agentskillexchange/skills --skill terraform-plan-analyzer-agent -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/terraform-plan-analyzer-agent/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | CI/CD Integrations |
+| Framework | Claude Code |
+| Verification | Security Reviewed |
+| Rating | 4.9/5 (86 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: CI/CD Integrations
-- **Framework**: Any Agent
-- **Rating**: 4.9/5 (86 reviews)
+**Raj Gupta** (Verified Creator ✓)
+- Profile: [@rajgupta](https://agentskillexchange.com/browse-skills/?creator=rajgupta)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/terraform-plan-analyzer-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/terraform-plan-analyzer-agent/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

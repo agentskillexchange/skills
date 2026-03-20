@@ -1,28 +1,39 @@
 ---
-name: Webhook Debugger
-description: Agent skill for webhook debugger.
-category: Developer Tools
-framework: Any Agent
+name: "Webhook Debugger"
+description: "Use this skill when you need to inspect, replay, or debug webhook payloads from services like Stripe, GitHub, or Twilio. It captures webhook events, validates signatures, shows payload structure, and helps trace why a webhook handler failed to process correctly."
+category: "Developer Tools"
+framework: "Claude Agents"
 verification: security_reviewed
 rating: 4.5
 reviews: 12
+creator: Raj Gupta
+creator_handle: rajgupta
+creator_verified: true
 source: https://agentskillexchange.com/skill/webhook-debugger/
 ---
 
 # Webhook Debugger
 
-Agent skill for webhook debugger.
-
-## Overview
-
-Agent skill for webhook debugger.
+Use this skill when you need to inspect, replay, or debug webhook payloads from services like Stripe, GitHub, or Twilio. It captures webhook events, validates signatures, shows payload structure, and helps trace why a webhook handler failed to process correctly.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill webhook-debugger
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill webhook-debugger -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill webhook-debugger -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill webhook-debugger
 clawhub install webhook-debugger
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add webhook-debugger
+npx skills add agentskillexchange/skills --skill webhook-debugger -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/webhook-debugger/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Developer Tools |
+| Framework | Claude Agents |
+| Verification | Security Reviewed |
+| Rating | 4.5/5 (12 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Developer Tools
-- **Framework**: Any Agent
-- **Rating**: 4.5/5 (12 reviews)
+**Raj Gupta** (Verified Creator ✓)
+- Profile: [@rajgupta](https://agentskillexchange.com/browse-skills/?creator=rajgupta)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/webhook-debugger/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/webhook-debugger/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

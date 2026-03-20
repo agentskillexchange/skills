@@ -1,11 +1,14 @@
 ---
-name: CircleCI Orb Composer
-description: Creates and publishes reusable CircleCI orbs using the CircleCI CLI and Orb Registry API. Generates parameterized jobs, commands, and executors with inline orb definitions and validates configurations against the CircleCI config schema v2.1.
-category: CI/CD Integrations
-framework: Any Agent
+name: "CircleCI Orb Composer"
+description: "Creates and publishes reusable CircleCI orbs using the CircleCI CLI and Orb Registry API. Generates parameterized jobs, commands, and executors with inline orb definitions and validates configurations against the CircleCI config schema v2.1."
+category: "CI/CD Integrations"
+framework: "Cursor"
 verification: verified_metadata
 rating: 4.7
 reviews: 49
+creator: Ava Wilson
+creator_handle: avawilson
+creator_verified: true
 source: https://agentskillexchange.com/skill/circleci-orb-composer-2/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/circleci-orb-composer-2/
 
 Creates and publishes reusable CircleCI orbs using the CircleCI CLI and Orb Registry API. Generates parameterized jobs, commands, and executors with inline orb definitions and validates configurations against the CircleCI config schema v2.1.
 
-## Overview
-
-Creates and publishes reusable CircleCI orbs using the CircleCI CLI and Orb Registry API. Generates parameterized jobs, commands, and executors with inline orb definitions and validates configurations against the CircleCI config schema v2.1.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill circleci-orb-composer-2
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill circleci-orb-composer-2 -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill circleci-orb-composer-2 -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill circleci-orb-composer-2
 clawhub install circleci-orb-composer-2
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add circleci-orb-composer-2
+npx skills add agentskillexchange/skills --skill circleci-orb-composer-2 -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/circleci-orb-composer-2/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | CI/CD Integrations |
+| Framework | Cursor |
+| Verification | Verified Metadata |
+| Rating | 4.7/5 (49 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: verified_metadata
-- **Category**: CI/CD Integrations
-- **Framework**: Any Agent
-- **Rating**: 4.7/5 (49 reviews)
+**Ava Wilson** (Verified Creator ✓)
+- Profile: [@avawilson](https://agentskillexchange.com/browse-skills/?creator=avawilson)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/circleci-orb-composer-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/circleci-orb-composer-2/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

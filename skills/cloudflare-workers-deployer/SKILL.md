@@ -1,28 +1,39 @@
 ---
-name: Cloudflare Workers Deployer
-description: Agent skill for cloudflare workers deployer.
-category: Templates &amp; Workflows
-framework: Any Agent
+name: "Cloudflare Workers Deployer"
+description: "Deploy and manage Cloudflare Workers scripts, KV namespaces, R2 buckets, and Durable Objects through an AI agent using the Wrangler CLI and Cloudflare API. Automates environment-specific deployments and secret management."
+category: "Templates & Workflows"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.5
 reviews: 79
+creator: Elena Kowalski
+creator_handle: ekowalski
+creator_verified: true
 source: https://agentskillexchange.com/skill/cloudflare-workers-deployer/
 ---
 
 # Cloudflare Workers Deployer
 
-Agent skill for cloudflare workers deployer.
-
-## Overview
-
-Agent skill for cloudflare workers deployer.
+Deploy and manage Cloudflare Workers scripts, KV namespaces, R2 buckets, and Durable Objects through an AI agent using the Wrangler CLI and Cloudflare API. Automates environment-specific deployments and secret management.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill cloudflare-workers-deployer
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill cloudflare-workers-deployer -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill cloudflare-workers-deployer -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill cloudflare-workers-deployer
 clawhub install cloudflare-workers-deployer
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add cloudflare-workers-deployer
+npx skills add agentskillexchange/skills --skill cloudflare-workers-deployer -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/cloudflare-workers-deployer/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Templates & Workflows |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.5/5 (79 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Templates &amp; Workflows
-- **Framework**: Any Agent
-- **Rating**: 4.5/5 (79 reviews)
+**Elena Kowalski** (Verified Creator ✓)
+- Profile: [@ekowalski](https://agentskillexchange.com/browse-skills/?creator=ekowalski)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/cloudflare-workers-deployer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/cloudflare-workers-deployer/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

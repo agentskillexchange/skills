@@ -1,11 +1,14 @@
 ---
-name: Kubernetes Incident Runbook
-description: Executes structured incident response procedures for Kubernetes clusters using kubectl, kube-state-metrics, and the Kubernetes Events API. Automates pod crash diagnosis, OOMKill analysis, and node pressure triage.
-category: Runbooks &amp; Diagnostics
-framework: Any Agent
+name: "Kubernetes Incident Runbook"
+description: "Executes structured incident response procedures for Kubernetes clusters using kubectl, kube-state-metrics, and the Kubernetes Events API. Automates pod crash diagnosis, OOMKill analysis, and node pressure triage."
+category: "Runbooks & Diagnostics"
+framework: "Claude Code"
 verification: security_reviewed
 rating: 4.2
 reviews: 9
+creator: James Whitfield
+creator_handle: jwhitfield
+creator_verified: true
 source: https://agentskillexchange.com/skill/kubernetes-incident-runbook/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/kubernetes-incident-runbook/
 
 Executes structured incident response procedures for Kubernetes clusters using kubectl, kube-state-metrics, and the Kubernetes Events API. Automates pod crash diagnosis, OOMKill analysis, and node pressure triage.
 
-## Overview
-
-Executes structured incident response procedures for Kubernetes clusters using kubectl, kube-state-metrics, and the Kubernetes Events API. Automates pod crash diagnosis, OOMKill analysis, and node pressure triage.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill kubernetes-incident-runbook
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill kubernetes-incident-runbook -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill kubernetes-incident-runbook -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill kubernetes-incident-runbook
 clawhub install kubernetes-incident-runbook
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add kubernetes-incident-runbook
+npx skills add agentskillexchange/skills --skill kubernetes-incident-runbook -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/kubernetes-incident-runbook/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Runbooks & Diagnostics |
+| Framework | Claude Code |
+| Verification | Security Reviewed |
+| Rating | 4.2/5 (9 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Runbooks &amp; Diagnostics
-- **Framework**: Any Agent
-- **Rating**: 4.2/5 (9 reviews)
+**James Whitfield** (Verified Creator ✓)
+- Profile: [@jwhitfield](https://agentskillexchange.com/browse-skills/?creator=jwhitfield)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/kubernetes-incident-runbook/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/kubernetes-incident-runbook/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

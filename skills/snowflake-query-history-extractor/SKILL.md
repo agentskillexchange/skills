@@ -1,11 +1,14 @@
 ---
-name: Snowflake Query History Extractor
-description: Extracts query history and performance metadata from Snowflake using the Snowflake Python Connector and INFORMATION_SCHEMA.QUERY_HISTORY view. Identifies expensive queries by credits consumed, data scanned, and spillage to remote storage. Exports results to a Pandas DataFrame for downstream analysis or Slack reporting.
-category: Data Extraction &amp; Transformation
-framework: Any Agent
+name: "Snowflake Query History Extractor"
+description: "Extracts query history and performance metadata from Snowflake using the Snowflake Python Connector and INFORMATION_SCHEMA.QUERY_HISTORY view. Identifies expensive queries by credits consumed, data scanned, and spillage to remote storage. Exports results to a Pandas DataFrame for downstream analysis or Slack reporting."
+category: "Data Extraction & Transformation"
+framework: "ChatGPT Agents"
 verification: verified_metadata
 rating: 4.5
 reviews: 19
+creator: Leo Park
+creator_handle: leopark
+creator_verified: true
 source: https://agentskillexchange.com/skill/snowflake-query-history-extractor/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/snowflake-query-history-extractor/
 
 Extracts query history and performance metadata from Snowflake using the Snowflake Python Connector and INFORMATION_SCHEMA.QUERY_HISTORY view. Identifies expensive queries by credits consumed, data scanned, and spillage to remote storage. Exports results to a Pandas DataFrame for downstream analysis or Slack reporting.
 
-## Overview
-
-Extracts query history and performance metadata from Snowflake using the Snowflake Python Connector and INFORMATION_SCHEMA.QUERY_HISTORY view. Identifies expensive queries by credits consumed, data scanned, and spillage to remote storage. Exports results to a Pandas DataFrame for downstream analysis or Slack reporting.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill snowflake-query-history-extractor
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill snowflake-query-history-extractor -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill snowflake-query-history-extractor -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill snowflake-query-history-extract
 clawhub install snowflake-query-history-extractor
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add snowflake-query-history-extractor
+npx skills add agentskillexchange/skills --skill snowflake-query-history-extractor -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/snowflake-query-history-extractor/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Data Extraction & Transformation |
+| Framework | ChatGPT Agents |
+| Verification | Verified Metadata |
+| Rating | 4.5/5 (19 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: verified_metadata
-- **Category**: Data Extraction &amp; Transformation
-- **Framework**: Any Agent
-- **Rating**: 4.5/5 (19 reviews)
+**Leo Park** (Verified Creator ✓)
+- Profile: [@leopark](https://agentskillexchange.com/browse-skills/?creator=leopark)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/snowflake-query-history-extractor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/snowflake-query-history-extractor/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

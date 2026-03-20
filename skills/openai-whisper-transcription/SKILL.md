@@ -1,11 +1,14 @@
 ---
-name: OpenAI Whisper Transcription
-description: Local speech-to-text transcription without relying on an API.
-category: Media &amp; Transcription
-framework: Any Agent
+name: "OpenAI Whisper Transcription"
+description: "Local speech-to-text transcription without relying on an API."
+category: "Media & Transcription"
+framework: "OpenClaw"
 verification: verified_metadata
 rating: 4.1
 reviews: 78
+creator: Alex Thompson
+creator_handle: alexthompson
+creator_verified: true
 source: https://agentskillexchange.com/skill/openai-whisper-transcription/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/openai-whisper-transcription/
 
 Local speech-to-text transcription without relying on an API.
 
-## Overview
-
-Local speech-to-text transcription without relying on an API.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill openai-whisper-transcription
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill openai-whisper-transcription -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill openai-whisper-transcription -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill openai-whisper-transcription
 clawhub install openai-whisper-transcription
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add openai-whisper-transcription
+npx skills add agentskillexchange/skills --skill openai-whisper-transcription -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/openai-whisper-transcription/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Media & Transcription |
+| Framework | OpenClaw |
+| Verification | Verified Metadata |
+| Rating | 4.1/5 (78 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: verified_metadata
-- **Category**: Media &amp; Transcription
-- **Framework**: Any Agent
-- **Rating**: 4.1/5 (78 reviews)
+**Alex Thompson** (Verified Creator ✓)
+- Profile: [@alexthompson](https://agentskillexchange.com/browse-skills/?creator=alexthompson)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/openai-whisper-transcription/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/openai-whisper-transcription/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

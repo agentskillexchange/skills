@@ -1,11 +1,14 @@
 ---
-name: Jenkins Shared Library Builder
-description: Scaffolds and tests Jenkins Shared Libraries using the jenkins-pipeline-unit framework (JenkinsPipelineUnit). Validates Groovy DSL syntax via CodeNarc static analysis and tests pipeline steps with JenkinsRule from jenkins-test-harness.
-category: CI/CD Integrations
-framework: Any Agent
+name: "Jenkins Shared Library Builder"
+description: "Scaffolds and tests Jenkins Shared Libraries using the jenkins-pipeline-unit framework (JenkinsPipelineUnit). Validates Groovy DSL syntax via CodeNarc static analysis and tests pipeline steps with JenkinsRule from jenkins-test-harness."
+category: "CI/CD Integrations"
+framework: "Gemini"
 verification: security_reviewed
 rating: 4.6
 reviews: 84
+creator: Maya Johnson
+creator_handle: mayaj
+creator_verified: false
 source: https://agentskillexchange.com/skill/jenkins-shared-library-builder/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/jenkins-shared-library-builder/
 
 Scaffolds and tests Jenkins Shared Libraries using the jenkins-pipeline-unit framework (JenkinsPipelineUnit). Validates Groovy DSL syntax via CodeNarc static analysis and tests pipeline steps with JenkinsRule from jenkins-test-harness.
 
-## Overview
-
-Scaffolds and tests Jenkins Shared Libraries using the jenkins-pipeline-unit framework (JenkinsPipelineUnit). Validates Groovy DSL syntax via CodeNarc static analysis and tests pipeline steps with JenkinsRule from jenkins-test-harness.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill jenkins-shared-library-builder
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill jenkins-shared-library-builder -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill jenkins-shared-library-builder -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill jenkins-shared-library-builder
 clawhub install jenkins-shared-library-builder
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add jenkins-shared-library-builder
+npx skills add agentskillexchange/skills --skill jenkins-shared-library-builder -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/jenkins-shared-library-builder/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | CI/CD Integrations |
+| Framework | Gemini |
+| Verification | Security Reviewed |
+| Rating | 4.6/5 (84 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: CI/CD Integrations
-- **Framework**: Any Agent
-- **Rating**: 4.6/5 (84 reviews)
+**Maya Johnson**
+- Profile: [@mayaj](https://agentskillexchange.com/browse-skills/?creator=mayaj)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/jenkins-shared-library-builder/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/jenkins-shared-library-builder/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

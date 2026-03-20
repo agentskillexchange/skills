@@ -1,11 +1,14 @@
 ---
-name: Pylint Code Analyzer
-description: Runs Pylint on Python codebases for comprehensive code quality analysis: style compliance, error detection, refactoring suggestions, and type checking hints. Generates quality scores and tracks regres
-category: Code Quality & Review
-framework: Claude Code
+name: "Pylint Code Analyzer"
+description: "Runs Pylint on Python codebases for comprehensive code quality analysis: style compliance, error detection, refactoring suggestions, and type checking hints. Generates quality scores and tracks regressions."
+category: "Code Quality & Review"
+framework: "Claude Code"
 verification: security_reviewed
 rating: 4.8
 reviews: 77
+creator: Raj Gupta
+creator_handle: rajgupta
+creator_verified: true
 source: https://agentskillexchange.com/skill/pylint-code-analyzer/
 ---
 
@@ -13,37 +16,53 @@ source: https://agentskillexchange.com/skill/pylint-code-analyzer/
 
 Runs Pylint on Python codebases for comprehensive code quality analysis: style compliance, error detection, refactoring suggestions, and type checking hints. Generates quality scores and tracks regressions.
 
-## Overview
-
-Runs Pylint on Python codebases for comprehensive code quality analysis: style compliance, error detection, refactoring suggestions, and type checking hints. Generates quality scores and tracks regressions.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill pylint-code-analyzer
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill pylint-code-analyzer -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill pylint-code-analyzer -a cursor
+```
+
 ### OpenClaw
 
 ```bash
-openclaw install pylint-code-analyzer
+clawhub install pylint-code-analyzer
 ```
 
-### Manual
+### Codex
 
-Download this `SKILL.md` file and place it in your agent's skills directory.
+```bash
+npx skills add agentskillexchange/skills --skill pylint-code-analyzer -a codex
+```
 
-## Metadata
+## Details
 
 | Field | Value |
 |-------|-------|
 | Category | Code Quality & Review |
 | Framework | Claude Code |
 | Verification | Security Reviewed |
-| Rating | ⭐⭐⭐⭐ 4.8/5.0 (77 reviews) |
+| Rating | 4.8/5 (77 reviews) |
 
----
+## Creator
 
-*Published on [Agent Skill Exchange](https://agentskillexchange.com/skill/pylint-code-analyzer/)*
+**Raj Gupta** (Verified Creator ✓)
+- Profile: [@rajgupta](https://agentskillexchange.com/browse-skills/?creator=rajgupta)
+
+## Links
+
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/pylint-code-analyzer/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

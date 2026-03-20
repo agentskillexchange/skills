@@ -1,11 +1,14 @@
 ---
-name: Browser MCP
-description: Browser control for agent workflows through an MCP-friendly setup.
-category: Browser Automation
-framework: Any Agent
+name: "Browser MCP"
+description: "Browser control for agent workflows through an MCP-friendly setup."
+category: "Browser Automation"
+framework: "Claude Code"
 verification: verified_metadata
 rating: 4.7
 reviews: 4
+creator: Tom Anderson
+creator_handle: tanderson
+creator_verified: false
 source: https://agentskillexchange.com/skill/browser-mcp/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/browser-mcp/
 
 Browser control for agent workflows through an MCP-friendly setup.
 
-## Overview
-
-Browser control for agent workflows through an MCP-friendly setup.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill browser-mcp
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill browser-mcp -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill browser-mcp -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill browser-mcp
 clawhub install browser-mcp
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add browser-mcp
+npx skills add agentskillexchange/skills --skill browser-mcp -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/browser-mcp/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Browser Automation |
+| Framework | Claude Code |
+| Verification | Verified Metadata |
+| Rating | 4.7/5 (4 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: verified_metadata
-- **Category**: Browser Automation
-- **Framework**: Any Agent
-- **Rating**: 4.7/5 (4 reviews)
+**Tom Anderson**
+- Profile: [@tanderson](https://agentskillexchange.com/browse-skills/?creator=tanderson)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/browser-mcp/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/browser-mcp/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

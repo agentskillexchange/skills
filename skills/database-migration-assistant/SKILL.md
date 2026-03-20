@@ -1,11 +1,14 @@
 ---
-name: Database Migration Assistant
-description: Use this skill when you need help planning, generating, or reviewing database schema migrations. It creates migration scripts (Alembic, Flyway, Liquibase, or raw SQL), checks for destructive operation
-category: Developer Tools
-framework: Claude Code
+name: "Database Migration Assistant"
+description: "Use this skill when you need help planning, generating, or reviewing database schema migrations. It creates migration scripts (Alembic, Flyway, Liquibase, or raw SQL), checks for destructive operations, and validates backward compatibility before execution."
+category: "Developer Tools"
+framework: "Claude Code"
 verification: security_reviewed
 rating: 4.9
 reviews: 20
+creator: Chris Lee
+creator_handle: chrislee
+creator_verified: false
 source: https://agentskillexchange.com/skill/database-migration-assistant/
 ---
 
@@ -13,37 +16,53 @@ source: https://agentskillexchange.com/skill/database-migration-assistant/
 
 Use this skill when you need help planning, generating, or reviewing database schema migrations. It creates migration scripts (Alembic, Flyway, Liquibase, or raw SQL), checks for destructive operations, and validates backward compatibility before execution.
 
-## Overview
-
-Use this skill when you need help planning, generating, or reviewing database schema migrations. It creates migration scripts (Alembic, Flyway, Liquibase, or raw SQL), checks for destructive operations, and validates backward compatibility before execution.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill database-migration-assistant
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill database-migration-assistant -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill database-migration-assistant -a cursor
+```
+
 ### OpenClaw
 
 ```bash
-openclaw install database-migration-assistant
+clawhub install database-migration-assistant
 ```
 
-### Manual
+### Codex
 
-Download this `SKILL.md` file and place it in your agent's skills directory.
+```bash
+npx skills add agentskillexchange/skills --skill database-migration-assistant -a codex
+```
 
-## Metadata
+## Details
 
 | Field | Value |
 |-------|-------|
 | Category | Developer Tools |
 | Framework | Claude Code |
 | Verification | Security Reviewed |
-| Rating | ⭐⭐⭐⭐ 4.9/5.0 (20 reviews) |
+| Rating | 4.9/5 (20 reviews) |
 
----
+## Creator
 
-*Published on [Agent Skill Exchange](https://agentskillexchange.com/skill/database-migration-assistant/)*
+**Chris Lee**
+- Profile: [@chrislee](https://agentskillexchange.com/browse-skills/?creator=chrislee)
+
+## Links
+
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/database-migration-assistant/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

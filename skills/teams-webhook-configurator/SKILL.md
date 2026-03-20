@@ -1,28 +1,39 @@
 ---
-name: Teams Webhook Configurator
-description: Agent skill for teams webhook configurator.
-category: Calendar, Email &amp; Productivity
-framework: Any Agent
+name: "Teams Webhook Configurator"
+description: "Configure and manage Microsoft Teams incoming webhooks, Adaptive Card posting, and Power Automate connector flows through an AI agent. Enables structured notification delivery to Teams channels from external systems and CI/CD pipelines."
+category: "Calendar, Email & Productivity"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.2
 reviews: 40
+creator: Sarah Chen
+creator_handle: sarahchen
+creator_verified: true
 source: https://agentskillexchange.com/skill/teams-webhook-configurator/
 ---
 
 # Teams Webhook Configurator
 
-Agent skill for teams webhook configurator.
-
-## Overview
-
-Agent skill for teams webhook configurator.
+Configure and manage Microsoft Teams incoming webhooks, Adaptive Card posting, and Power Automate connector flows through an AI agent. Enables structured notification delivery to Teams channels from external systems and CI/CD pipelines.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill teams-webhook-configurator
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill teams-webhook-configurator -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill teams-webhook-configurator -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill teams-webhook-configurator
 clawhub install teams-webhook-configurator
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add teams-webhook-configurator
+npx skills add agentskillexchange/skills --skill teams-webhook-configurator -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/teams-webhook-configurator/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Calendar, Email & Productivity |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.2/5 (40 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Calendar, Email &amp; Productivity
-- **Framework**: Any Agent
-- **Rating**: 4.2/5 (40 reviews)
+**Sarah Chen** (Verified Creator ✓)
+- Profile: [@sarahchen](https://agentskillexchange.com/browse-skills/?creator=sarahchen)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/teams-webhook-configurator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/teams-webhook-configurator/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

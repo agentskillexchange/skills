@@ -1,11 +1,14 @@
 ---
-name: Nano Banana Pro Image Editing
-description: Generate and edit images through a premium model workflow.
-category: Image &amp; Creative Automation
-framework: Any Agent
+name: "Nano Banana Pro Image Editing"
+description: "Generate and edit images through a premium model workflow."
+category: "Image & Creative Automation"
+framework: "OpenClaw"
 verification: security_reviewed
 rating: 4.1
 reviews: 23
+creator: Chris Lee
+creator_handle: chrislee
+creator_verified: false
 source: https://agentskillexchange.com/skill/nano-banana-pro-image-editing/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/nano-banana-pro-image-editing/
 
 Generate and edit images through a premium model workflow.
 
-## Overview
-
-Generate and edit images through a premium model workflow.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill nano-banana-pro-image-editing
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill nano-banana-pro-image-editing -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill nano-banana-pro-image-editing -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill nano-banana-pro-image-editing
 clawhub install nano-banana-pro-image-editing
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add nano-banana-pro-image-editing
+npx skills add agentskillexchange/skills --skill nano-banana-pro-image-editing -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/nano-banana-pro-image-editing/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Image & Creative Automation |
+| Framework | OpenClaw |
+| Verification | Security Reviewed |
+| Rating | 4.1/5 (23 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Image &amp; Creative Automation
-- **Framework**: Any Agent
-- **Rating**: 4.1/5 (23 reviews)
+**Chris Lee**
+- Profile: [@chrislee](https://agentskillexchange.com/browse-skills/?creator=chrislee)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/nano-banana-pro-image-editing/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/nano-banana-pro-image-editing/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -1,28 +1,39 @@
 ---
-name: Looker Tableau Data Extractor
-description: Agent skill for looker tableau data extractor.
-category: Data Extraction &amp; Transformation
-framework: Any Agent
+name: "Looker Tableau Data Extractor"
+description: "Extract Looker Explores and Tableau workbook data through AI agent APIs, enabling agents to retrieve pre-built metrics, dimensions, and dashboard data without requiring BI tool licenses for each consumer. Supports LookML field discovery and Tableau REST API data downloads."
+category: "Data Extraction & Transformation"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.4
 reviews: 32
+creator: Mia Zhang
+creator_handle: miazhang
+creator_verified: true
 source: https://agentskillexchange.com/skill/looker-tableau-data-extractor/
 ---
 
 # Looker Tableau Data Extractor
 
-Agent skill for looker tableau data extractor.
-
-## Overview
-
-Agent skill for looker tableau data extractor.
+Extract Looker Explores and Tableau workbook data through AI agent APIs, enabling agents to retrieve pre-built metrics, dimensions, and dashboard data without requiring BI tool licenses for each consumer. Supports LookML field discovery and Tableau REST API data downloads.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill looker-tableau-data-extractor
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill looker-tableau-data-extractor -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill looker-tableau-data-extractor -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill looker-tableau-data-extractor
 clawhub install looker-tableau-data-extractor
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add looker-tableau-data-extractor
+npx skills add agentskillexchange/skills --skill looker-tableau-data-extractor -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/looker-tableau-data-extractor/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Data Extraction & Transformation |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.4/5 (32 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Data Extraction &amp; Transformation
-- **Framework**: Any Agent
-- **Rating**: 4.4/5 (32 reviews)
+**Mia Zhang** (Verified Creator ✓)
+- Profile: [@miazhang](https://agentskillexchange.com/browse-skills/?creator=miazhang)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/looker-tableau-data-extractor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/looker-tableau-data-extractor/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

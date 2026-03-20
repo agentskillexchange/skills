@@ -1,28 +1,39 @@
 ---
-name: Databricks MCP
-description: Agent skill for databricks mcp.
-category: Data Extraction &amp; Transformation
-framework: Any Agent
+name: "Databricks MCP"
+description: "Connect AI agents to Databricks workspaces via MCP, enabling notebook execution, cluster management, Delta Lake table queries, and MLflow experiment tracking from conversational interfaces. Supports Unity Catalog for governed data access."
+category: "Data Extraction & Transformation"
+framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.4
 reviews: 7
+creator: Sofia Petrov
+creator_handle: sofiapetrov
+creator_verified: true
 source: https://agentskillexchange.com/skill/databricks-mcp/
 ---
 
 # Databricks MCP
 
-Agent skill for databricks mcp.
-
-## Overview
-
-Agent skill for databricks mcp.
+Connect AI agents to Databricks workspaces via MCP, enabling notebook execution, cluster management, Delta Lake table queries, and MLflow experiment tracking from conversational interfaces. Supports Unity Catalog for governed data access.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill databricks-mcp
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill databricks-mcp -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill databricks-mcp -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill databricks-mcp
 clawhub install databricks-mcp
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add databricks-mcp
+npx skills add agentskillexchange/skills --skill databricks-mcp -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/databricks-mcp/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Data Extraction & Transformation |
+| Framework | MCP-compatible |
+| Verification | Security Reviewed |
+| Rating | 4.4/5 (7 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Data Extraction &amp; Transformation
-- **Framework**: Any Agent
-- **Rating**: 4.4/5 (7 reviews)
+**Sofia Petrov** (Verified Creator ✓)
+- Profile: [@sofiapetrov](https://agentskillexchange.com/browse-skills/?creator=sofiapetrov)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/databricks-mcp/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/databricks-mcp/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -1,11 +1,14 @@
 ---
-name: Jenkins Pipeline Log Parser
-description: Extracts and analyzes Jenkins Pipeline build logs using the Jenkins REST API and Blue Ocean API. Identifies stage failures, flaky test patterns via JUnit XML parsing, and generates failure trend reports with node allocation insights.
-category: CI/CD Integrations
-framework: Any Agent
+name: "Jenkins Pipeline Log Parser"
+description: "Extracts and analyzes Jenkins Pipeline build logs using the Jenkins REST API and Blue Ocean API. Identifies stage failures, flaky test patterns via JUnit XML parsing, and generates failure trend reports with node allocation insights."
+category: "CI/CD Integrations"
+framework: "Claude Agents"
 verification: verified_metadata
 rating: 4.1
 reviews: 58
+creator: Sarah Chen
+creator_handle: sarahchen
+creator_verified: true
 source: https://agentskillexchange.com/skill/jenkins-pipeline-log-parser/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/jenkins-pipeline-log-parser/
 
 Extracts and analyzes Jenkins Pipeline build logs using the Jenkins REST API and Blue Ocean API. Identifies stage failures, flaky test patterns via JUnit XML parsing, and generates failure trend reports with node allocation insights.
 
-## Overview
-
-Extracts and analyzes Jenkins Pipeline build logs using the Jenkins REST API and Blue Ocean API. Identifies stage failures, flaky test patterns via JUnit XML parsing, and generates failure trend reports with node allocation insights.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill jenkins-pipeline-log-parser
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill jenkins-pipeline-log-parser -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill jenkins-pipeline-log-parser -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill jenkins-pipeline-log-parser
 clawhub install jenkins-pipeline-log-parser
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add jenkins-pipeline-log-parser
+npx skills add agentskillexchange/skills --skill jenkins-pipeline-log-parser -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/jenkins-pipeline-log-parser/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | CI/CD Integrations |
+| Framework | Claude Agents |
+| Verification | Verified Metadata |
+| Rating | 4.1/5 (58 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: verified_metadata
-- **Category**: CI/CD Integrations
-- **Framework**: Any Agent
-- **Rating**: 4.1/5 (58 reviews)
+**Sarah Chen** (Verified Creator ✓)
+- Profile: [@sarahchen](https://agentskillexchange.com/browse-skills/?creator=sarahchen)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/jenkins-pipeline-log-parser/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/jenkins-pipeline-log-parser/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

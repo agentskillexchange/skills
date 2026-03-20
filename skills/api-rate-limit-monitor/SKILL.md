@@ -1,28 +1,39 @@
 ---
-name: API Rate Limit Monitor
-description: Agent skill for api rate limit monitor.
-category: Monitoring &amp; Alerts
-framework: Any Agent
+name: "API Rate Limit Monitor"
+description: "Use this skill when you need to track API rate limit consumption across third-party services and alert when approaching limits. It monitors rate limit response headers, tracks usage over time, and recommends throttling strategies or quota increase requests."
+category: "Monitoring & Alerts"
+framework: "Claude Agents"
 verification: security_reviewed
 rating: 4.3
 reviews: 6
+creator: Mia Zhang
+creator_handle: miazhang
+creator_verified: true
 source: https://agentskillexchange.com/skill/api-rate-limit-monitor/
 ---
 
 # API Rate Limit Monitor
 
-Agent skill for api rate limit monitor.
-
-## Overview
-
-Agent skill for api rate limit monitor.
+Use this skill when you need to track API rate limit consumption across third-party services and alert when approaching limits. It monitors rate limit response headers, tracks usage over time, and recommends throttling strategies or quota increase requests.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill api-rate-limit-monitor
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill api-rate-limit-monitor -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill api-rate-limit-monitor -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill api-rate-limit-monitor
 clawhub install api-rate-limit-monitor
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add api-rate-limit-monitor
+npx skills add agentskillexchange/skills --skill api-rate-limit-monitor -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/api-rate-limit-monitor/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Monitoring & Alerts |
+| Framework | Claude Agents |
+| Verification | Security Reviewed |
+| Rating | 4.3/5 (6 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Monitoring &amp; Alerts
-- **Framework**: Any Agent
-- **Rating**: 4.3/5 (6 reviews)
+**Mia Zhang** (Verified Creator ✓)
+- Profile: [@miazhang](https://agentskillexchange.com/browse-skills/?creator=miazhang)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/api-rate-limit-monitor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/api-rate-limit-monitor/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

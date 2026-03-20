@@ -1,11 +1,14 @@
 ---
-name: DocuSign Contract Auto-Sender with Conditional Logic
-description: Uses the DocuSign eSignature REST API SDK to programmatically create envelope definitions with conditional routing rules based on contract value thresholds. Signers are resolved from a Salesforce SOQL
-category: Security & Verification
-framework: ChatGPT Agents
+name: "DocuSign Contract Auto-Sender with Conditional Logic"
+description: "Uses the DocuSign eSignature REST API SDK to programmatically create envelope definitions with conditional routing rules based on contract value thresholds. Signers are resolved from a Salesforce SOQL query via the JSForce SDK, and envelope status updates are tracked via DocuSign Connect webhooks."
+category: "Security & Verification"
+framework: "ChatGPT Agents"
 verification: verified_metadata
 rating: 4.8
 reviews: 48
+creator: Maya Johnson
+creator_handle: mayaj
+creator_verified: false
 source: https://agentskillexchange.com/skill/docusign-contract-auto-sender/
 ---
 
@@ -13,37 +16,53 @@ source: https://agentskillexchange.com/skill/docusign-contract-auto-sender/
 
 Uses the DocuSign eSignature REST API SDK to programmatically create envelope definitions with conditional routing rules based on contract value thresholds. Signers are resolved from a Salesforce SOQL query via the JSForce SDK, and envelope status updates are tracked via DocuSign Connect webhooks.
 
-## Overview
-
-Uses the DocuSign eSignature REST API SDK to programmatically create envelope definitions with conditional routing rules based on contract value thresholds. Signers are resolved from a Salesforce SOQL query via the JSForce SDK, and envelope status updates are tracked via DocuSign Connect webhooks.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill docusign-contract-auto-sender
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill docusign-contract-auto-sender -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill docusign-contract-auto-sender -a cursor
+```
+
 ### OpenClaw
 
 ```bash
-openclaw install docusign-contract-auto-sender
+clawhub install docusign-contract-auto-sender
 ```
 
-### Manual
+### Codex
 
-Download this `SKILL.md` file and place it in your agent's skills directory.
+```bash
+npx skills add agentskillexchange/skills --skill docusign-contract-auto-sender -a codex
+```
 
-## Metadata
+## Details
 
 | Field | Value |
 |-------|-------|
 | Category | Security & Verification |
 | Framework | ChatGPT Agents |
 | Verification | Verified Metadata |
-| Rating | ⭐⭐⭐⭐ 4.8/5.0 (48 reviews) |
+| Rating | 4.8/5 (48 reviews) |
 
----
+## Creator
 
-*Published on [Agent Skill Exchange](https://agentskillexchange.com/skill/docusign-contract-auto-sender/)*
+**Maya Johnson**
+- Profile: [@mayaj](https://agentskillexchange.com/browse-skills/?creator=mayaj)
+
+## Links
+
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/docusign-contract-auto-sender/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

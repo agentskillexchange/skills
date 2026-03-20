@@ -1,28 +1,39 @@
 ---
-name: ClickHouse Query Agent
-description: Agent skill for clickhouse query agent.
-category: Data Extraction &amp; Transformation
-framework: Any Agent
+name: "ClickHouse Query Agent"
+description: "Execute analytical SQL queries against ClickHouse clusters, inspect table schemas, and monitor query performance through an AI agent interface. Supports materialized view management and partition-level operations for high-volume time-series data."
+category: "Data Extraction & Transformation"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.7
 reviews: 7
+creator: Marcus Rivera
+creator_handle: mrivera
+creator_verified: true
 source: https://agentskillexchange.com/skill/clickhouse-query-agent/
 ---
 
 # ClickHouse Query Agent
 
-Agent skill for clickhouse query agent.
-
-## Overview
-
-Agent skill for clickhouse query agent.
+Execute analytical SQL queries against ClickHouse clusters, inspect table schemas, and monitor query performance through an AI agent interface. Supports materialized view management and partition-level operations for high-volume time-series data.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill clickhouse-query-agent
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill clickhouse-query-agent -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill clickhouse-query-agent -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill clickhouse-query-agent
 clawhub install clickhouse-query-agent
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add clickhouse-query-agent
+npx skills add agentskillexchange/skills --skill clickhouse-query-agent -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/clickhouse-query-agent/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Data Extraction & Transformation |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.7/5 (7 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Data Extraction &amp; Transformation
-- **Framework**: Any Agent
-- **Rating**: 4.7/5 (7 reviews)
+**Marcus Rivera** (Verified Creator ✓)
+- Profile: [@mrivera](https://agentskillexchange.com/browse-skills/?creator=mrivera)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/clickhouse-query-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/clickhouse-query-agent/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

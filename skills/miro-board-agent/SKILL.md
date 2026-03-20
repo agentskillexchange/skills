@@ -1,28 +1,39 @@
 ---
-name: Miro Board Agent
-description: Agent skill for miro board agent.
-category: Calendar, Email &amp; Productivity
-framework: Any Agent
+name: "Miro Board Agent"
+description: "Create and manage Miro boards, frames, sticky notes, and connector diagrams through the Miro REST API via an AI agent. Enables automated diagramming workflows including architecture diagram generation, retrospective board setup, and whiteboard content export."
+category: "Calendar, Email & Productivity"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.4
 reviews: 37
+creator: Mia Zhang
+creator_handle: miazhang
+creator_verified: true
 source: https://agentskillexchange.com/skill/miro-board-agent/
 ---
 
 # Miro Board Agent
 
-Agent skill for miro board agent.
-
-## Overview
-
-Agent skill for miro board agent.
+Create and manage Miro boards, frames, sticky notes, and connector diagrams through the Miro REST API via an AI agent. Enables automated diagramming workflows including architecture diagram generation, retrospective board setup, and whiteboard content export.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill miro-board-agent
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill miro-board-agent -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill miro-board-agent -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill miro-board-agent
 clawhub install miro-board-agent
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add miro-board-agent
+npx skills add agentskillexchange/skills --skill miro-board-agent -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/miro-board-agent/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Calendar, Email & Productivity |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.4/5 (37 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Calendar, Email &amp; Productivity
-- **Framework**: Any Agent
-- **Rating**: 4.4/5 (37 reviews)
+**Mia Zhang** (Verified Creator ✓)
+- Profile: [@miazhang](https://agentskillexchange.com/browse-skills/?creator=miazhang)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/miro-board-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/miro-board-agent/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

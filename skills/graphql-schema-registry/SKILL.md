@@ -1,11 +1,14 @@
 ---
-name: GraphQL Schema Registry
-description: Manages GraphQL schema evolution using graphql-inspector for breaking change detection and Apollo Rover CLI for schema composition. Validates schemas against custom ESLint rules via @graphql-eslint/eslint-plugin.
-category: Library &amp; API Reference
-framework: Any Agent
+name: "GraphQL Schema Registry"
+description: "Manages GraphQL schema evolution using graphql-inspector for breaking change detection and Apollo Rover CLI for schema composition. Validates schemas against custom ESLint rules via @graphql-eslint/eslint-plugin."
+category: "Library & API Reference"
+framework: "Claude Agents"
 verification: security_reviewed
 rating: 4.7
 reviews: 41
+creator: Sarah Chen
+creator_handle: sarahchen
+creator_verified: true
 source: https://agentskillexchange.com/skill/graphql-schema-registry/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/graphql-schema-registry/
 
 Manages GraphQL schema evolution using graphql-inspector for breaking change detection and Apollo Rover CLI for schema composition. Validates schemas against custom ESLint rules via @graphql-eslint/eslint-plugin.
 
-## Overview
-
-Manages GraphQL schema evolution using graphql-inspector for breaking change detection and Apollo Rover CLI for schema composition. Validates schemas against custom ESLint rules via @graphql-eslint/eslint-plugin.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill graphql-schema-registry
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill graphql-schema-registry -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill graphql-schema-registry -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill graphql-schema-registry
 clawhub install graphql-schema-registry
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add graphql-schema-registry
+npx skills add agentskillexchange/skills --skill graphql-schema-registry -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/graphql-schema-registry/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Library & API Reference |
+| Framework | Claude Agents |
+| Verification | Security Reviewed |
+| Rating | 4.7/5 (41 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Library &amp; API Reference
-- **Framework**: Any Agent
-- **Rating**: 4.7/5 (41 reviews)
+**Sarah Chen** (Verified Creator ✓)
+- Profile: [@sarahchen](https://agentskillexchange.com/browse-skills/?creator=sarahchen)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/graphql-schema-registry/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/graphql-schema-registry/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

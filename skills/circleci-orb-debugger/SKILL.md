@@ -1,11 +1,14 @@
 ---
-name: CircleCI Orb Debugger
-description: Diagnoses and fixes CircleCI orb configuration errors using the CircleCI v2 API and circleci config validate CLI. Parses orb source YAML against the orb development kit schema for type mismatches and parameter validation failures.
-category: CI/CD Integrations
-framework: Any Agent
+name: "CircleCI Orb Debugger"
+description: "Diagnoses and fixes CircleCI orb configuration errors using the CircleCI v2 API and circleci config validate CLI. Parses orb source YAML against the orb development kit schema for type mismatches and parameter validation failures."
+category: "CI/CD Integrations"
+framework: "Claude Agents"
 verification: verified_metadata
 rating: 4.9
 reviews: 62
+creator: Rachel Green
+creator_handle: rachelgreen
+creator_verified: false
 source: https://agentskillexchange.com/skill/circleci-orb-debugger/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/circleci-orb-debugger/
 
 Diagnoses and fixes CircleCI orb configuration errors using the CircleCI v2 API and circleci config validate CLI. Parses orb source YAML against the orb development kit schema for type mismatches and parameter validation failures.
 
-## Overview
-
-Diagnoses and fixes CircleCI orb configuration errors using the CircleCI v2 API and circleci config validate CLI. Parses orb source YAML against the orb development kit schema for type mismatches and parameter validation failures.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill circleci-orb-debugger
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill circleci-orb-debugger -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill circleci-orb-debugger -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill circleci-orb-debugger
 clawhub install circleci-orb-debugger
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add circleci-orb-debugger
+npx skills add agentskillexchange/skills --skill circleci-orb-debugger -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/circleci-orb-debugger/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | CI/CD Integrations |
+| Framework | Claude Agents |
+| Verification | Verified Metadata |
+| Rating | 4.9/5 (62 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: verified_metadata
-- **Category**: CI/CD Integrations
-- **Framework**: Any Agent
-- **Rating**: 4.9/5 (62 reviews)
+**Rachel Green**
+- Profile: [@rachelgreen](https://agentskillexchange.com/browse-skills/?creator=rachelgreen)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/circleci-orb-debugger/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/circleci-orb-debugger/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

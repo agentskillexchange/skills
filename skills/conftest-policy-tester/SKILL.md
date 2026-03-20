@@ -1,28 +1,39 @@
 ---
-name: Conftest Policy Tester
-description: Agent skill for conftest policy tester.
-category: Security &amp; Verification
-framework: Any Agent
+name: "Conftest Policy Tester"
+description: "Tests configuration files (Kubernetes manifests, Terraform, Dockerfiles, Helm charts) against OPA Rego policies using Conftest. Integrates into CI/CD to prevent policy violations from reaching production."
+category: "Security & Verification"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.4
 reviews: 68
+creator: Ava Wilson
+creator_handle: avawilson
+creator_verified: true
 source: https://agentskillexchange.com/skill/conftest-policy-tester/
 ---
 
 # Conftest Policy Tester
 
-Agent skill for conftest policy tester.
-
-## Overview
-
-Agent skill for conftest policy tester.
+Tests configuration files (Kubernetes manifests, Terraform, Dockerfiles, Helm charts) against OPA Rego policies using Conftest. Integrates into CI/CD to prevent policy violations from reaching production.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill conftest-policy-tester
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill conftest-policy-tester -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill conftest-policy-tester -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill conftest-policy-tester
 clawhub install conftest-policy-tester
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add conftest-policy-tester
+npx skills add agentskillexchange/skills --skill conftest-policy-tester -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/conftest-policy-tester/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Security & Verification |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.4/5 (68 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Security &amp; Verification
-- **Framework**: Any Agent
-- **Rating**: 4.4/5 (68 reviews)
+**Ava Wilson** (Verified Creator ✓)
+- Profile: [@avawilson](https://agentskillexchange.com/browse-skills/?creator=avawilson)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/conftest-policy-tester/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/conftest-policy-tester/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

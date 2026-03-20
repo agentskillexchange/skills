@@ -1,11 +1,14 @@
 ---
-name: Tekton Pipeline Composer
-description: Builds Tekton CI/CD pipelines on Kubernetes using the Tekton Pipelines API and tkn CLI. Composes Tasks, PipelineRuns, and TriggerBindings with proper workspace and result propagation between steps.
-category: CI/CD Integrations
-framework: Any Agent
+name: "Tekton Pipeline Composer"
+description: "Builds Tekton CI/CD pipelines on Kubernetes using the Tekton Pipelines API and tkn CLI. Composes Tasks, PipelineRuns, and TriggerBindings with proper workspace and result propagation between steps."
+category: "CI/CD Integrations"
+framework: "Gemini"
 verification: verified_metadata
 rating: 4.1
 reviews: 86
+creator: Raj Gupta
+creator_handle: rajgupta
+creator_verified: true
 source: https://agentskillexchange.com/skill/tekton-pipeline-composer/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/tekton-pipeline-composer/
 
 Builds Tekton CI/CD pipelines on Kubernetes using the Tekton Pipelines API and tkn CLI. Composes Tasks, PipelineRuns, and TriggerBindings with proper workspace and result propagation between steps.
 
-## Overview
-
-Builds Tekton CI/CD pipelines on Kubernetes using the Tekton Pipelines API and tkn CLI. Composes Tasks, PipelineRuns, and TriggerBindings with proper workspace and result propagation between steps.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill tekton-pipeline-composer
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill tekton-pipeline-composer -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill tekton-pipeline-composer -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill tekton-pipeline-composer
 clawhub install tekton-pipeline-composer
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add tekton-pipeline-composer
+npx skills add agentskillexchange/skills --skill tekton-pipeline-composer -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/tekton-pipeline-composer/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | CI/CD Integrations |
+| Framework | Gemini |
+| Verification | Verified Metadata |
+| Rating | 4.1/5 (86 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: verified_metadata
-- **Category**: CI/CD Integrations
-- **Framework**: Any Agent
-- **Rating**: 4.1/5 (86 reviews)
+**Raj Gupta** (Verified Creator ✓)
+- Profile: [@rajgupta](https://agentskillexchange.com/browse-skills/?creator=rajgupta)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/tekton-pipeline-composer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/tekton-pipeline-composer/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

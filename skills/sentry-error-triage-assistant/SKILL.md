@@ -1,11 +1,14 @@
 ---
-name: Sentry Error Triage Assistant
-description: Triages application errors using the Sentry Web API (/api/0/issues/) and Sentry SDK breadcrumb data. Groups issues by stack trace similarity using Sentry fingerprinting rules and queries release health via the /api/0/organizations/{org}/releases/ endpoint.
-category: Runbooks &amp; Diagnostics
-framework: Any Agent
+name: "Sentry Error Triage Assistant"
+description: "Triages application errors using the Sentry Web API (/api/0/issues/) and Sentry SDK breadcrumb data. Groups issues by stack trace similarity using Sentry fingerprinting rules and queries release health via the /api/0/organizations/{org}/releases/ endpoint."
+category: "Runbooks & Diagnostics"
+framework: "Claude Agents"
 verification: security_reviewed
 rating: 4.4
 reviews: 14
+creator: Omar Hassan
+creator_handle: ohassan
+creator_verified: true
 source: https://agentskillexchange.com/skill/sentry-error-triage-assistant/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/sentry-error-triage-assistant/
 
 Triages application errors using the Sentry Web API (/api/0/issues/) and Sentry SDK breadcrumb data. Groups issues by stack trace similarity using Sentry fingerprinting rules and queries release health via the /api/0/organizations/{org}/releases/ endpoint.
 
-## Overview
-
-Triages application errors using the Sentry Web API (/api/0/issues/) and Sentry SDK breadcrumb data. Groups issues by stack trace similarity using Sentry fingerprinting rules and queries release health via the /api/0/organizations/{org}/releases/ endpoint.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill sentry-error-triage-assistant
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill sentry-error-triage-assistant -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill sentry-error-triage-assistant -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill sentry-error-triage-assistant
 clawhub install sentry-error-triage-assistant
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add sentry-error-triage-assistant
+npx skills add agentskillexchange/skills --skill sentry-error-triage-assistant -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/sentry-error-triage-assistant/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Runbooks & Diagnostics |
+| Framework | Claude Agents |
+| Verification | Security Reviewed |
+| Rating | 4.4/5 (14 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Runbooks &amp; Diagnostics
-- **Framework**: Any Agent
-- **Rating**: 4.4/5 (14 reviews)
+**Omar Hassan** (Verified Creator ✓)
+- Profile: [@ohassan](https://agentskillexchange.com/browse-skills/?creator=ohassan)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/sentry-error-triage-assistant/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/sentry-error-triage-assistant/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

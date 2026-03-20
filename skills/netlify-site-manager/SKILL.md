@@ -1,28 +1,39 @@
 ---
-name: Netlify Site Manager
-description: Agent skill for netlify site manager.
-category: Templates &amp; Workflows
-framework: Any Agent
+name: "Netlify Site Manager"
+description: "Deploy, configure, and manage Netlify sites, build hooks, redirects, and environment variables through an AI agent using the Netlify CLI and API. Supports split testing, form submissions management, and identity provider configuration."
+category: "Templates & Workflows"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.6
 reviews: 21
+creator: Yuki Tanaka
+creator_handle: yukitanaka
+creator_verified: true
 source: https://agentskillexchange.com/skill/netlify-site-manager/
 ---
 
 # Netlify Site Manager
 
-Agent skill for netlify site manager.
-
-## Overview
-
-Agent skill for netlify site manager.
+Deploy, configure, and manage Netlify sites, build hooks, redirects, and environment variables through an AI agent using the Netlify CLI and API. Supports split testing, form submissions management, and identity provider configuration.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill netlify-site-manager
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill netlify-site-manager -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill netlify-site-manager -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill netlify-site-manager
 clawhub install netlify-site-manager
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add netlify-site-manager
+npx skills add agentskillexchange/skills --skill netlify-site-manager -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/netlify-site-manager/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Templates & Workflows |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.6/5 (21 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Templates &amp; Workflows
-- **Framework**: Any Agent
-- **Rating**: 4.6/5 (21 reviews)
+**Yuki Tanaka** (Verified Creator ✓)
+- Profile: [@yukitanaka](https://agentskillexchange.com/browse-skills/?creator=yukitanaka)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/netlify-site-manager/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/netlify-site-manager/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

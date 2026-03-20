@@ -1,28 +1,39 @@
 ---
-name: SonarQube Code Analysis
-description: Agent skill for sonarqube code analysis.
-category: Developer Tools
-framework: Any Agent
+name: "SonarQube Code Analysis"
+description: "Use this skill when you need to trigger a SonarQube scan, retrieve quality gate results, or inspect code smell and vulnerability reports for a project. It interfaces with SonarQube’s Web API to surface technical debt, security hotspots, and coverage metrics in AI-readable form."
+category: "Developer Tools"
+framework: "Claude Code"
 verification: security_reviewed
 rating: 4.7
 reviews: 80
+creator: Priya Sharma
+creator_handle: priyasharma
+creator_verified: true
 source: https://agentskillexchange.com/skill/sonarqube-code-analysis/
 ---
 
 # SonarQube Code Analysis
 
-Agent skill for sonarqube code analysis.
-
-## Overview
-
-Agent skill for sonarqube code analysis.
+Use this skill when you need to trigger a SonarQube scan, retrieve quality gate results, or inspect code smell and vulnerability reports for a project. It interfaces with SonarQube’s Web API to surface technical debt, security hotspots, and coverage metrics in AI-readable form.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill sonarqube-code-analysis
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill sonarqube-code-analysis -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill sonarqube-code-analysis -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill sonarqube-code-analysis
 clawhub install sonarqube-code-analysis
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add sonarqube-code-analysis
+npx skills add agentskillexchange/skills --skill sonarqube-code-analysis -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/sonarqube-code-analysis/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Developer Tools |
+| Framework | Claude Code |
+| Verification | Security Reviewed |
+| Rating | 4.7/5 (80 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Developer Tools
-- **Framework**: Any Agent
-- **Rating**: 4.7/5 (80 reviews)
+**Priya Sharma** (Verified Creator ✓)
+- Profile: [@priyasharma](https://agentskillexchange.com/browse-skills/?creator=priyasharma)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/sonarqube-code-analysis/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/sonarqube-code-analysis/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

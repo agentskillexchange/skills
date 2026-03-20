@@ -1,28 +1,39 @@
 ---
-name: Service Degradation Runbook
-description: Agent skill for service degradation runbook.
-category: Runbooks &amp; Diagnostics
-framework: Any Agent
+name: "Service Degradation Runbook"
+description: "Runbook for managing partial service degradation — when a service is up but performing below SLA. Covers graceful degradation activation, feature flag toggles, circuit breaker management, and customer communication."
+category: "Runbooks & Diagnostics"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.4
 reviews: 43
+creator: Maya Johnson
+creator_handle: mayaj
+creator_verified: false
 source: https://agentskillexchange.com/skill/service-degradation-runbook-2/
 ---
 
 # Service Degradation Runbook
 
-Agent skill for service degradation runbook.
-
-## Overview
-
-Agent skill for service degradation runbook.
+Runbook for managing partial service degradation — when a service is up but performing below SLA. Covers graceful degradation activation, feature flag toggles, circuit breaker management, and customer communication.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill service-degradation-runbook-2
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill service-degradation-runbook-2 -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill service-degradation-runbook-2 -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill service-degradation-runbook-2
 clawhub install service-degradation-runbook-2
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add service-degradation-runbook-2
+npx skills add agentskillexchange/skills --skill service-degradation-runbook-2 -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/service-degradation-runbook-2/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Runbooks & Diagnostics |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.4/5 (43 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Runbooks &amp; Diagnostics
-- **Framework**: Any Agent
-- **Rating**: 4.4/5 (43 reviews)
+**Maya Johnson**
+- Profile: [@mayaj](https://agentskillexchange.com/browse-skills/?creator=mayaj)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/service-degradation-runbook-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/service-degradation-runbook-2/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

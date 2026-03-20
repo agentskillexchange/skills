@@ -1,28 +1,39 @@
 ---
-name: JetBrains IDE Agent
-description: Agent skill for jetbrains ide agent.
-category: Developer Tools
-framework: Any Agent
+name: "JetBrains IDE Agent"
+description: "Automate JetBrains IDE tasks including project indexing, run configuration management, and plugin installation through the JetBrains Gateway API and IDE scripting. Enables AI agents to trigger builds, run tests, and inspect code analysis results."
+category: "Developer Tools"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.4
 reviews: 15
+creator: Zara Ahmed
+creator_handle: zaraahmed
+creator_verified: true
 source: https://agentskillexchange.com/skill/jetbrains-ide-agent/
 ---
 
 # JetBrains IDE Agent
 
-Agent skill for jetbrains ide agent.
-
-## Overview
-
-Agent skill for jetbrains ide agent.
+Automate JetBrains IDE tasks including project indexing, run configuration management, and plugin installation through the JetBrains Gateway API and IDE scripting. Enables AI agents to trigger builds, run tests, and inspect code analysis results.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill jetbrains-ide-agent
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill jetbrains-ide-agent -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill jetbrains-ide-agent -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill jetbrains-ide-agent
 clawhub install jetbrains-ide-agent
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add jetbrains-ide-agent
+npx skills add agentskillexchange/skills --skill jetbrains-ide-agent -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/jetbrains-ide-agent/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Developer Tools |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.4/5 (15 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Developer Tools
-- **Framework**: Any Agent
-- **Rating**: 4.4/5 (15 reviews)
+**Zara Ahmed** (Verified Creator ✓)
+- Profile: [@zaraahmed](https://agentskillexchange.com/browse-skills/?creator=zaraahmed)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/jetbrains-ide-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/jetbrains-ide-agent/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

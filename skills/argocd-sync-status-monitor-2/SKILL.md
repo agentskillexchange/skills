@@ -1,11 +1,14 @@
 ---
-name: ArgoCD Sync Status Monitor
-description: Polls ArgoCD application sync status, detects OutOfSync and Degraded states, and reports which Kubernetes resources drifted and why. Compares live cluster state against Git source-of-truth.
-category: CI/CD Integrations
-framework: OpenClaw
+name: "ArgoCD Sync Status Monitor"
+description: "Polls ArgoCD application sync status, detects OutOfSync and Degraded states, and reports which Kubernetes resources drifted and why. Compares live cluster state against Git source-of-truth."
+category: "CI/CD Integrations"
+framework: "OpenClaw"
 verification: security_reviewed
 rating: 4.8
 reviews: 86
+creator: Elena Kowalski
+creator_handle: ekowalski
+creator_verified: true
 source: https://agentskillexchange.com/skill/argocd-sync-status-monitor-2/
 ---
 
@@ -13,37 +16,53 @@ source: https://agentskillexchange.com/skill/argocd-sync-status-monitor-2/
 
 Polls ArgoCD application sync status, detects OutOfSync and Degraded states, and reports which Kubernetes resources drifted and why. Compares live cluster state against Git source-of-truth.
 
-## Overview
-
-Polls ArgoCD application sync status, detects OutOfSync and Degraded states, and reports which Kubernetes resources drifted and why. Compares live cluster state against Git source-of-truth.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill argocd-sync-status-monitor-2
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill argocd-sync-status-monitor-2 -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill argocd-sync-status-monitor-2 -a cursor
+```
+
 ### OpenClaw
 
 ```bash
-openclaw install argocd-sync-status-monitor-2
+clawhub install argocd-sync-status-monitor-2
 ```
 
-### Manual
+### Codex
 
-Download this `SKILL.md` file and place it in your agent's skills directory.
+```bash
+npx skills add agentskillexchange/skills --skill argocd-sync-status-monitor-2 -a codex
+```
 
-## Metadata
+## Details
 
 | Field | Value |
 |-------|-------|
 | Category | CI/CD Integrations |
 | Framework | OpenClaw |
 | Verification | Security Reviewed |
-| Rating | ⭐⭐⭐⭐ 4.8/5.0 (86 reviews) |
+| Rating | 4.8/5 (86 reviews) |
 
----
+## Creator
 
-*Published on [Agent Skill Exchange](https://agentskillexchange.com/skill/argocd-sync-status-monitor-2/)*
+**Elena Kowalski** (Verified Creator ✓)
+- Profile: [@ekowalski](https://agentskillexchange.com/browse-skills/?creator=ekowalski)
+
+## Links
+
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/argocd-sync-status-monitor-2/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

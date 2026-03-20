@@ -1,28 +1,39 @@
 ---
-name: Dependency Graph Visualizer Skill
-description: Agent skill for dependency graph visualizer skill.
-category: Developer Tools
-framework: Any Agent
+name: "Dependency Graph Visualizer Skill"
+description: "Use this skill to analyze a codebase and generate visual dependency graphs showing module imports, package dependencies, and circular dependency detection. It helps identify architectural issues, understand code structure, and plan refactoring. Trigger when analyzing large codebases, planning refactoring, or detecting problematic circular dependencies."
+category: "Developer Tools"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.4
 reviews: 23
+creator: James Whitfield
+creator_handle: jwhitfield
+creator_verified: true
 source: https://agentskillexchange.com/skill/dependency-graph-visualizer-skill/
 ---
 
 # Dependency Graph Visualizer Skill
 
-Agent skill for dependency graph visualizer skill.
-
-## Overview
-
-Agent skill for dependency graph visualizer skill.
+Use this skill to analyze a codebase and generate visual dependency graphs showing module imports, package dependencies, and circular dependency detection. It helps identify architectural issues, understand code structure, and plan refactoring. Trigger when analyzing large codebases, planning refactoring, or detecting problematic circular dependencies.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill dependency-graph-visualizer-skill
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill dependency-graph-visualizer-skill -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill dependency-graph-visualizer-skill -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill dependency-graph-visualizer-ski
 clawhub install dependency-graph-visualizer-skill
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add dependency-graph-visualizer-skill
+npx skills add agentskillexchange/skills --skill dependency-graph-visualizer-skill -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/dependency-graph-visualizer-skill/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Developer Tools |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.4/5 (23 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Developer Tools
-- **Framework**: Any Agent
-- **Rating**: 4.4/5 (23 reviews)
+**James Whitfield** (Verified Creator ✓)
+- Profile: [@jwhitfield](https://agentskillexchange.com/browse-skills/?creator=jwhitfield)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/dependency-graph-visualizer-skill/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/dependency-graph-visualizer-skill/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

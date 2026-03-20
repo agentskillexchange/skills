@@ -1,11 +1,14 @@
 ---
-name: GitHub MCP Server
-description: Official GitHub access for agent-driven repo and PR workflows.
-category: Developer Tools
-framework: Any Agent
+name: "GitHub MCP Server"
+description: "Official GitHub access for agent-driven repo and PR workflows."
+category: "Developer Tools"
+framework: "Claude Code"
 verification: security_reviewed
 rating: 4.6
 reviews: 74
+creator: Ava Wilson
+creator_handle: avawilson
+creator_verified: true
 source: https://agentskillexchange.com/skill/github-mcp-server/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/github-mcp-server/
 
 Official GitHub access for agent-driven repo and PR workflows.
 
-## Overview
-
-Official GitHub access for agent-driven repo and PR workflows.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill github-mcp-server
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill github-mcp-server -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill github-mcp-server -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill github-mcp-server
 clawhub install github-mcp-server
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add github-mcp-server
+npx skills add agentskillexchange/skills --skill github-mcp-server -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/github-mcp-server/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Developer Tools |
+| Framework | Claude Code |
+| Verification | Security Reviewed |
+| Rating | 4.6/5 (74 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Developer Tools
-- **Framework**: Any Agent
-- **Rating**: 4.6/5 (74 reviews)
+**Ava Wilson** (Verified Creator ✓)
+- Profile: [@avawilson](https://agentskillexchange.com/browse-skills/?creator=avawilson)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/github-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/github-mcp-server/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

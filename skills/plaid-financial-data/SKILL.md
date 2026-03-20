@@ -1,28 +1,39 @@
 ---
-name: Plaid Financial Data
-description: Agent skill for plaid financial data.
-category: Integrations &amp; Connectors
-framework: Any Agent
+name: "Plaid Financial Data"
+description: "Integrates Plaid to retrieve bank account balances, transactions, income data, and identity information from connected financial institutions. Useful for personal finance apps, lending platforms, and financial analytics."
+category: "Integrations & Connectors"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.5
 reviews: 33
+creator: Raj Gupta
+creator_handle: rajgupta
+creator_verified: true
 source: https://agentskillexchange.com/skill/plaid-financial-data/
 ---
 
 # Plaid Financial Data
 
-Agent skill for plaid financial data.
-
-## Overview
-
-Agent skill for plaid financial data.
+Integrates Plaid to retrieve bank account balances, transactions, income data, and identity information from connected financial institutions. Useful for personal finance apps, lending platforms, and financial analytics.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill plaid-financial-data
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill plaid-financial-data -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill plaid-financial-data -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill plaid-financial-data
 clawhub install plaid-financial-data
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add plaid-financial-data
+npx skills add agentskillexchange/skills --skill plaid-financial-data -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/plaid-financial-data/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Integrations & Connectors |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.5/5 (33 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Integrations &amp; Connectors
-- **Framework**: Any Agent
-- **Rating**: 4.5/5 (33 reviews)
+**Raj Gupta** (Verified Creator ✓)
+- Profile: [@rajgupta](https://agentskillexchange.com/browse-skills/?creator=rajgupta)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/plaid-financial-data/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/plaid-financial-data/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

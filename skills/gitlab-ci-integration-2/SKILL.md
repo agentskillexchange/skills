@@ -1,28 +1,39 @@
 ---
-name: GitLab CI Integration
-description: Agent skill for gitlab ci integration.
-category: CI/CD Integrations
-framework: Any Agent
+name: "GitLab CI Integration"
+description: "Comprehensive skill for building, optimizing, and debugging GitLab CI/CD pipelines. Covers .gitlab-ci.yml authoring, caching strategies, parallel jobs, artifacts, environments, and GitLab-specific runner configuration."
+category: "CI/CD Integrations"
+framework: "Claude Code"
 verification: security_reviewed
 rating: 4.4
 reviews: 69
+creator: Ava Wilson
+creator_handle: avawilson
+creator_verified: true
 source: https://agentskillexchange.com/skill/gitlab-ci-integration-2/
 ---
 
 # GitLab CI Integration
 
-Agent skill for gitlab ci integration.
-
-## Overview
-
-Agent skill for gitlab ci integration.
+Comprehensive skill for building, optimizing, and debugging GitLab CI/CD pipelines. Covers .gitlab-ci.yml authoring, caching strategies, parallel jobs, artifacts, environments, and GitLab-specific runner configuration.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill gitlab-ci-integration-2
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill gitlab-ci-integration-2 -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill gitlab-ci-integration-2 -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill gitlab-ci-integration-2
 clawhub install gitlab-ci-integration-2
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add gitlab-ci-integration-2
+npx skills add agentskillexchange/skills --skill gitlab-ci-integration-2 -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/gitlab-ci-integration-2/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | CI/CD Integrations |
+| Framework | Claude Code |
+| Verification | Security Reviewed |
+| Rating | 4.4/5 (69 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: CI/CD Integrations
-- **Framework**: Any Agent
-- **Rating**: 4.4/5 (69 reviews)
+**Ava Wilson** (Verified Creator ✓)
+- Profile: [@avawilson](https://agentskillexchange.com/browse-skills/?creator=avawilson)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/gitlab-ci-integration-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/gitlab-ci-integration-2/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

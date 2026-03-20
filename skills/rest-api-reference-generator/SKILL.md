@@ -1,11 +1,14 @@
 ---
-name: REST API Reference Generator
-description: Generates interactive API reference documentation from OpenAPI 3.x specs using Swagger Parser and Redoc. Validates schemas, produces code samples in multiple languages via OpenAPI Generator CLI.
-category: Library &amp; API Reference
-framework: Any Agent
+name: "REST API Reference Generator"
+description: "Generates interactive API reference documentation from OpenAPI 3.x specs using Swagger Parser and Redoc. Validates schemas, produces code samples in multiple languages via OpenAPI Generator CLI."
+category: "Library & API Reference"
+framework: "Claude Code"
 verification: verified_metadata
 rating: 4.7
 reviews: 17
+creator: Elena Kowalski
+creator_handle: ekowalski
+creator_verified: true
 source: https://agentskillexchange.com/skill/rest-api-reference-generator/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/rest-api-reference-generator/
 
 Generates interactive API reference documentation from OpenAPI 3.x specs using Swagger Parser and Redoc. Validates schemas, produces code samples in multiple languages via OpenAPI Generator CLI.
 
-## Overview
-
-Generates interactive API reference documentation from OpenAPI 3.x specs using Swagger Parser and Redoc. Validates schemas, produces code samples in multiple languages via OpenAPI Generator CLI.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill rest-api-reference-generator
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill rest-api-reference-generator -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill rest-api-reference-generator -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill rest-api-reference-generator
 clawhub install rest-api-reference-generator
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add rest-api-reference-generator
+npx skills add agentskillexchange/skills --skill rest-api-reference-generator -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/rest-api-reference-generator/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Library & API Reference |
+| Framework | Claude Code |
+| Verification | Verified Metadata |
+| Rating | 4.7/5 (17 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: verified_metadata
-- **Category**: Library &amp; API Reference
-- **Framework**: Any Agent
-- **Rating**: 4.7/5 (17 reviews)
+**Elena Kowalski** (Verified Creator ✓)
+- Profile: [@ekowalski](https://agentskillexchange.com/browse-skills/?creator=ekowalski)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/rest-api-reference-generator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/rest-api-reference-generator/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -1,11 +1,14 @@
 ---
-name: OpenAPI Spec Compliance Checker
-description: Validates REST APIs against their OpenAPI 3.x specifications using swagger-parser and Spectral linter rules. Checks response schemas, parameter types, authentication requirements, and generates compliance reports.
-category: Library &amp; API Reference
-framework: Any Agent
+name: "OpenAPI Spec Compliance Checker"
+description: "Validates REST APIs against their OpenAPI 3.x specifications using swagger-parser and Spectral linter rules. Checks response schemas, parameter types, authentication requirements, and generates compliance reports."
+category: "Library & API Reference"
+framework: "Cursor"
 verification: security_reviewed
 rating: 4.2
 reviews: 42
+creator: Maya Johnson
+creator_handle: mayaj
+creator_verified: false
 source: https://agentskillexchange.com/skill/openapi-spec-compliance-checker/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/openapi-spec-compliance-checker/
 
 Validates REST APIs against their OpenAPI 3.x specifications using swagger-parser and Spectral linter rules. Checks response schemas, parameter types, authentication requirements, and generates compliance reports.
 
-## Overview
-
-Validates REST APIs against their OpenAPI 3.x specifications using swagger-parser and Spectral linter rules. Checks response schemas, parameter types, authentication requirements, and generates compliance reports.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill openapi-spec-compliance-checker
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill openapi-spec-compliance-checker -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill openapi-spec-compliance-checker -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill openapi-spec-compliance-checker
 clawhub install openapi-spec-compliance-checker
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add openapi-spec-compliance-checker
+npx skills add agentskillexchange/skills --skill openapi-spec-compliance-checker -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/openapi-spec-compliance-checker/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Library & API Reference |
+| Framework | Cursor |
+| Verification | Security Reviewed |
+| Rating | 4.2/5 (42 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Library &amp; API Reference
-- **Framework**: Any Agent
-- **Rating**: 4.2/5 (42 reviews)
+**Maya Johnson**
+- Profile: [@mayaj](https://agentskillexchange.com/browse-skills/?creator=mayaj)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/openapi-spec-compliance-checker/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/openapi-spec-compliance-checker/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

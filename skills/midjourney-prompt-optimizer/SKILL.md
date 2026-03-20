@@ -1,28 +1,39 @@
 ---
-name: Midjourney Prompt Optimizer
-description: Analyzes a creative brief and generates optimized Midjourney prompts with style weights, aspect ratios, and --stylize parameters tuned for the desired output. Uses Midjourney's parameter syntax for version selection (v6.1), quality flags, and negative prompt construction.
-category: Image &amp; Creative Automation
-framework: Any Agent
-verification: listed
+name: "Midjourney Prompt Optimizer"
+description: "Analyzes a creative brief and generates optimized Midjourney prompts with style weights, aspect ratios, and –stylize parameters tuned for the desired output. Uses Midjourney’s parameter syntax for version selection (v6.1), quality flags, and negative prompt construction."
+category: "Image & Creative Automation"
+framework: "OpenClaw"
+verification: 
 rating: 4.7
 reviews: 26
+creator: Marcus Rivera
+creator_handle: mrivera
+creator_verified: true
 source: https://agentskillexchange.com/skill/midjourney-prompt-optimizer/
 ---
 
 # Midjourney Prompt Optimizer
 
-Analyzes a creative brief and generates optimized Midjourney prompts with style weights, aspect ratios, and --stylize parameters tuned for the desired output. Uses Midjourney's parameter syntax for version selection (v6.1), quality flags, and negative prompt construction.
-
-## Overview
-
-Analyzes a creative brief and generates optimized Midjourney prompts with style weights, aspect ratios, and --stylize parameters tuned for the desired output. Uses Midjourney's parameter syntax for version selection (v6.1), quality flags, and negative prompt construction.
+Analyzes a creative brief and generates optimized Midjourney prompts with style weights, aspect ratios, and –stylize parameters tuned for the desired output. Uses Midjourney’s parameter syntax for version selection (v6.1), quality flags, and negative prompt construction.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill midjourney-prompt-optimizer
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill midjourney-prompt-optimizer -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill midjourney-prompt-optimizer -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill midjourney-prompt-optimizer
 clawhub install midjourney-prompt-optimizer
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add midjourney-prompt-optimizer
+npx skills add agentskillexchange/skills --skill midjourney-prompt-optimizer -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/midjourney-prompt-optimizer/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Image & Creative Automation |
+| Framework | OpenClaw |
+| Verification | Listed |
+| Rating | 4.7/5 (26 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: listed
-- **Category**: Image &amp; Creative Automation
-- **Framework**: Any Agent
-- **Rating**: 4.7/5 (26 reviews)
+**Marcus Rivera** (Verified Creator ✓)
+- Profile: [@mrivera](https://agentskillexchange.com/browse-skills/?creator=mrivera)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/midjourney-prompt-optimizer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/midjourney-prompt-optimizer/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

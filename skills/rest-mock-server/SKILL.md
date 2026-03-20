@@ -1,28 +1,39 @@
 ---
-name: REST Mock Server
-description: Agent skill for rest mock server.
-category: Library &amp; API Reference
-framework: Any Agent
+name: "REST Mock Server"
+description: "Spins up a local mock REST API server from an OpenAPI spec or a custom route definition file. Useful for frontend development, integration testing, and service virtualization when the real API is unavailable."
+category: "Library & API Reference"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.1
 reviews: 20
+creator: Alex Thompson
+creator_handle: alexthompson
+creator_verified: true
 source: https://agentskillexchange.com/skill/rest-mock-server/
 ---
 
 # REST Mock Server
 
-Agent skill for rest mock server.
-
-## Overview
-
-Agent skill for rest mock server.
+Spins up a local mock REST API server from an OpenAPI spec or a custom route definition file. Useful for frontend development, integration testing, and service virtualization when the real API is unavailable.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill rest-mock-server
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill rest-mock-server -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill rest-mock-server -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill rest-mock-server
 clawhub install rest-mock-server
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add rest-mock-server
+npx skills add agentskillexchange/skills --skill rest-mock-server -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/rest-mock-server/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Library & API Reference |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.1/5 (20 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Library &amp; API Reference
-- **Framework**: Any Agent
-- **Rating**: 4.1/5 (20 reviews)
+**Alex Thompson** (Verified Creator ✓)
+- Profile: [@alexthompson](https://agentskillexchange.com/browse-skills/?creator=alexthompson)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/rest-mock-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/rest-mock-server/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

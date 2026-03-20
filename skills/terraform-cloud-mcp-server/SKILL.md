@@ -1,11 +1,14 @@
 ---
-name: Terraform Cloud MCP Server
-description: Use this skill when you need to trigger Terraform Cloud runs, check plan output, apply infrastructure changes, or inspect workspace state via AI. It allows agents to manage cloud infrastructure throug
-category: Developer Tools
-framework: MCP
+name: "Terraform Cloud MCP Server"
+description: "Use this skill when you need to trigger Terraform Cloud runs, check plan output, apply infrastructure changes, or inspect workspace state via AI. It allows agents to manage cloud infrastructure through Terraform Cloud’s API without direct CLI access."
+category: "Developer Tools"
+framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.9
 reviews: 50
+creator: Yuki Tanaka
+creator_handle: yukitanaka
+creator_verified: true
 source: https://agentskillexchange.com/skill/terraform-cloud-mcp-server/
 ---
 
@@ -13,37 +16,53 @@ source: https://agentskillexchange.com/skill/terraform-cloud-mcp-server/
 
 Use this skill when you need to trigger Terraform Cloud runs, check plan output, apply infrastructure changes, or inspect workspace state via AI. It allows agents to manage cloud infrastructure through Terraform Cloud’s API without direct CLI access.
 
-## Overview
-
-Use this skill when you need to trigger Terraform Cloud runs, check plan output, apply infrastructure changes, or inspect workspace state via AI. It allows agents to manage cloud infrastructure through Terraform Cloud’s API without direct CLI access.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill terraform-cloud-mcp-server
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill terraform-cloud-mcp-server -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill terraform-cloud-mcp-server -a cursor
+```
+
 ### OpenClaw
 
 ```bash
-openclaw install terraform-cloud-mcp-server
+clawhub install terraform-cloud-mcp-server
 ```
 
-### Manual
+### Codex
 
-Download this `SKILL.md` file and place it in your agent's skills directory.
+```bash
+npx skills add agentskillexchange/skills --skill terraform-cloud-mcp-server -a codex
+```
 
-## Metadata
+## Details
 
 | Field | Value |
 |-------|-------|
 | Category | Developer Tools |
-| Framework | MCP |
+| Framework | MCP-compatible |
 | Verification | Security Reviewed |
-| Rating | ⭐⭐⭐⭐ 4.9/5.0 (50 reviews) |
+| Rating | 4.9/5 (50 reviews) |
 
----
+## Creator
 
-*Published on [Agent Skill Exchange](https://agentskillexchange.com/skill/terraform-cloud-mcp-server/)*
+**Yuki Tanaka** (Verified Creator ✓)
+- Profile: [@yukitanaka](https://agentskillexchange.com/browse-skills/?creator=yukitanaka)
+
+## Links
+
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/terraform-cloud-mcp-server/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

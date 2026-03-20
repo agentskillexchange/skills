@@ -1,11 +1,14 @@
 ---
-name: E2B Code Execution MCP
-description: Add sandboxed code execution to any MCP-compatible AI client. E2B gives agents access to secure, internet-connected Linux environments for running Python, JavaScript, and shell commands without touching your local machine.
-category: Developer Tools
-framework: Any Agent
+name: "E2B Code Execution MCP"
+description: "Add sandboxed code execution to any MCP-compatible AI client. E2B gives agents access to secure, internet-connected Linux environments for running Python, JavaScript, and shell commands without touching your local machine."
+category: "Developer Tools"
+framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.2
 reviews: 42
+creator: Nathan Brooks
+creator_handle: nbrooks
+creator_verified: false
 source: https://agentskillexchange.com/skill/e2b-code-execution-mcp/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/e2b-code-execution-mcp/
 
 Add sandboxed code execution to any MCP-compatible AI client. E2B gives agents access to secure, internet-connected Linux environments for running Python, JavaScript, and shell commands without touching your local machine.
 
-## Overview
-
-Add sandboxed code execution to any MCP-compatible AI client. E2B gives agents access to secure, internet-connected Linux environments for running Python, JavaScript, and shell commands without touching your local machine.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill e2b-code-execution-mcp
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill e2b-code-execution-mcp -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill e2b-code-execution-mcp -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill e2b-code-execution-mcp
 clawhub install e2b-code-execution-mcp
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add e2b-code-execution-mcp
+npx skills add agentskillexchange/skills --skill e2b-code-execution-mcp -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/e2b-code-execution-mcp/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Developer Tools |
+| Framework | MCP-compatible |
+| Verification | Security Reviewed |
+| Rating | 4.2/5 (42 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Developer Tools
-- **Framework**: Any Agent
-- **Rating**: 4.2/5 (42 reviews)
+**Nathan Brooks**
+- Profile: [@nbrooks](https://agentskillexchange.com/browse-skills/?creator=nbrooks)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/e2b-code-execution-mcp/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/e2b-code-execution-mcp/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

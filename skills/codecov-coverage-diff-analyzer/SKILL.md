@@ -1,11 +1,14 @@
 ---
-name: Codecov Coverage Diff Analyzer
-description: Analyzes code coverage changes on pull requests using the Codecov API v2 /repos/{owner}/{repo}/pulls endpoint. Highlights uncovered lines in changed files and generates patch coverage reports with Codecov flags breakdown.
-category: Code Quality &amp; Review
-framework: Any Agent
+name: "Codecov Coverage Diff Analyzer"
+description: "Analyzes code coverage changes on pull requests using the Codecov API v2 /repos/{owner}/{repo}/pulls endpoint. Highlights uncovered lines in changed files and generates patch coverage reports with Codecov flags breakdown."
+category: "Code Quality & Review"
+framework: "Codex"
 verification: security_reviewed
 rating: 4.7
 reviews: 57
+creator: James Whitfield
+creator_handle: jwhitfield
+creator_verified: true
 source: https://agentskillexchange.com/skill/codecov-coverage-diff-analyzer/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/codecov-coverage-diff-analyzer/
 
 Analyzes code coverage changes on pull requests using the Codecov API v2 /repos/{owner}/{repo}/pulls endpoint. Highlights uncovered lines in changed files and generates patch coverage reports with Codecov flags breakdown.
 
-## Overview
-
-Analyzes code coverage changes on pull requests using the Codecov API v2 /repos/{owner}/{repo}/pulls endpoint. Highlights uncovered lines in changed files and generates patch coverage reports with Codecov flags breakdown.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill codecov-coverage-diff-analyzer
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill codecov-coverage-diff-analyzer -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill codecov-coverage-diff-analyzer -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill codecov-coverage-diff-analyzer
 clawhub install codecov-coverage-diff-analyzer
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add codecov-coverage-diff-analyzer
+npx skills add agentskillexchange/skills --skill codecov-coverage-diff-analyzer -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/codecov-coverage-diff-analyzer/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Code Quality & Review |
+| Framework | Codex |
+| Verification | Security Reviewed |
+| Rating | 4.7/5 (57 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Code Quality &amp; Review
-- **Framework**: Any Agent
-- **Rating**: 4.7/5 (57 reviews)
+**James Whitfield** (Verified Creator ✓)
+- Profile: [@jwhitfield](https://agentskillexchange.com/browse-skills/?creator=jwhitfield)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/codecov-coverage-diff-analyzer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/codecov-coverage-diff-analyzer/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -1,28 +1,39 @@
 ---
-name: On-Call Handoff Runbook
-description: Agent skill for on-call handoff runbook.
-category: Runbooks &amp; Diagnostics
-framework: Any Agent
+name: "On-Call Handoff Runbook"
+description: "Runbook for structured on-call handoffs between engineers. Ensures continuity of incident awareness, open issues, system health context, and known fragile areas."
+category: "Runbooks & Diagnostics"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.3
 reviews: 35
+creator: Isabella Rossi
+creator_handle: irossi
+creator_verified: false
 source: https://agentskillexchange.com/skill/on-call-handoff-runbook/
 ---
 
 # On-Call Handoff Runbook
 
-Agent skill for on-call handoff runbook.
-
-## Overview
-
-Agent skill for on-call handoff runbook.
+Runbook for structured on-call handoffs between engineers. Ensures continuity of incident awareness, open issues, system health context, and known fragile areas.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill on-call-handoff-runbook
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill on-call-handoff-runbook -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill on-call-handoff-runbook -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill on-call-handoff-runbook
 clawhub install on-call-handoff-runbook
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add on-call-handoff-runbook
+npx skills add agentskillexchange/skills --skill on-call-handoff-runbook -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/on-call-handoff-runbook/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Runbooks & Diagnostics |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.3/5 (35 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Runbooks &amp; Diagnostics
-- **Framework**: Any Agent
-- **Rating**: 4.3/5 (35 reviews)
+**Isabella Rossi**
+- Profile: [@irossi](https://agentskillexchange.com/browse-skills/?creator=irossi)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/on-call-handoff-runbook/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/on-call-handoff-runbook/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

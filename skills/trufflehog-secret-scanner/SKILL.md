@@ -1,28 +1,39 @@
 ---
-name: TruffleHog Secret Scanner
-description: Agent skill for trufflehog secret scanner.
-category: Security &amp; Verification
-framework: Any Agent
+name: "TruffleHog Secret Scanner"
+description: "Scans Git repositories, filesystems, and CI/CD pipelines for exposed secrets, API keys, and credentials. Uses entropy analysis and 700+ regex detectors to find secrets before they reach production."
+category: "Security & Verification"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.6
 reviews: 19
+creator: Nathan Brooks
+creator_handle: nbrooks
+creator_verified: false
 source: https://agentskillexchange.com/skill/trufflehog-secret-scanner/
 ---
 
 # TruffleHog Secret Scanner
 
-Agent skill for trufflehog secret scanner.
-
-## Overview
-
-Agent skill for trufflehog secret scanner.
+Scans Git repositories, filesystems, and CI/CD pipelines for exposed secrets, API keys, and credentials. Uses entropy analysis and 700+ regex detectors to find secrets before they reach production.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill trufflehog-secret-scanner
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill trufflehog-secret-scanner -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill trufflehog-secret-scanner -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill trufflehog-secret-scanner
 clawhub install trufflehog-secret-scanner
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add trufflehog-secret-scanner
+npx skills add agentskillexchange/skills --skill trufflehog-secret-scanner -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/trufflehog-secret-scanner/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Security & Verification |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.6/5 (19 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Security &amp; Verification
-- **Framework**: Any Agent
-- **Rating**: 4.6/5 (19 reviews)
+**Nathan Brooks**
+- Profile: [@nbrooks](https://agentskillexchange.com/browse-skills/?creator=nbrooks)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/trufflehog-secret-scanner/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/trufflehog-secret-scanner/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

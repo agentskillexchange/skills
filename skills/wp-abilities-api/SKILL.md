@@ -1,11 +1,14 @@
 ---
-name: WP Abilities API
-description: Specialized support for defining, exposing, and debugging WordPress abilities through the Abilities API.
-category: WordPress &amp; CMS
-framework: Any Agent
+name: "WP Abilities API"
+description: "Specialized support for defining, exposing, and debugging WordPress abilities through the Abilities API."
+category: "WordPress & CMS"
+framework: "OpenClaw"
 verification: security_reviewed
 rating: 4.3
 reviews: 38
+creator: David Kim
+creator_handle: dkim
+creator_verified: false
 source: https://agentskillexchange.com/skill/wp-abilities-api/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/wp-abilities-api/
 
 Specialized support for defining, exposing, and debugging WordPress abilities through the Abilities API.
 
-## Overview
-
-Specialized support for defining, exposing, and debugging WordPress abilities through the Abilities API.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill wp-abilities-api
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill wp-abilities-api -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill wp-abilities-api -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill wp-abilities-api
 clawhub install wp-abilities-api
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add wp-abilities-api
+npx skills add agentskillexchange/skills --skill wp-abilities-api -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/wp-abilities-api/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | WordPress & CMS |
+| Framework | OpenClaw |
+| Verification | Security Reviewed |
+| Rating | 4.3/5 (38 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: WordPress &amp; CMS
-- **Framework**: Any Agent
-- **Rating**: 4.3/5 (38 reviews)
+**David Kim**
+- Profile: [@dkim](https://agentskillexchange.com/browse-skills/?creator=dkim)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/wp-abilities-api/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/wp-abilities-api/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

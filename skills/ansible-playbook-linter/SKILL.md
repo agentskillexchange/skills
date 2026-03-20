@@ -1,11 +1,14 @@
 ---
-name: Ansible Playbook Linter
-description: Lints Ansible playbooks using ansible-lint rules and yamllint, detecting deprecated modules, missing become directives, and insecure variable handling patterns.
-category: Runbooks &amp; Diagnostics
-framework: Any Agent
+name: "Ansible Playbook Linter"
+description: "Lints Ansible playbooks using ansible-lint rules and yamllint, detecting deprecated modules, missing become directives, and insecure variable handling patterns."
+category: "Runbooks & Diagnostics"
+framework: "Gemini"
 verification: security_reviewed
 rating: 4.6
 reviews: 44
+creator: Sofia Petrov
+creator_handle: sofiapetrov
+creator_verified: true
 source: https://agentskillexchange.com/skill/ansible-playbook-linter/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/ansible-playbook-linter/
 
 Lints Ansible playbooks using ansible-lint rules and yamllint, detecting deprecated modules, missing become directives, and insecure variable handling patterns.
 
-## Overview
-
-Lints Ansible playbooks using ansible-lint rules and yamllint, detecting deprecated modules, missing become directives, and insecure variable handling patterns.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill ansible-playbook-linter
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill ansible-playbook-linter -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill ansible-playbook-linter -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill ansible-playbook-linter
 clawhub install ansible-playbook-linter
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add ansible-playbook-linter
+npx skills add agentskillexchange/skills --skill ansible-playbook-linter -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/ansible-playbook-linter/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Runbooks & Diagnostics |
+| Framework | Gemini |
+| Verification | Security Reviewed |
+| Rating | 4.6/5 (44 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Runbooks &amp; Diagnostics
-- **Framework**: Any Agent
-- **Rating**: 4.6/5 (44 reviews)
+**Sofia Petrov** (Verified Creator ✓)
+- Profile: [@sofiapetrov](https://agentskillexchange.com/browse-skills/?creator=sofiapetrov)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/ansible-playbook-linter/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/ansible-playbook-linter/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

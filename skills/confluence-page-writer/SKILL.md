@@ -1,28 +1,39 @@
 ---
-name: Confluence Page Writer
-description: Agent skill for confluence page writer.
-category: Developer Tools
-framework: Any Agent
+name: "Confluence Page Writer"
+description: "Create and update Confluence pages, spaces, and macros through an AI agent using the Confluence REST API. Automates documentation workflows by generating structured pages from templates, code comments, or meeting notes with proper page hierarchy."
+category: "Developer Tools"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.4
 reviews: 31
+creator: Omar Hassan
+creator_handle: ohassan
+creator_verified: true
 source: https://agentskillexchange.com/skill/confluence-page-writer/
 ---
 
 # Confluence Page Writer
 
-Agent skill for confluence page writer.
-
-## Overview
-
-Agent skill for confluence page writer.
+Create and update Confluence pages, spaces, and macros through an AI agent using the Confluence REST API. Automates documentation workflows by generating structured pages from templates, code comments, or meeting notes with proper page hierarchy.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill confluence-page-writer
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill confluence-page-writer -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill confluence-page-writer -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill confluence-page-writer
 clawhub install confluence-page-writer
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add confluence-page-writer
+npx skills add agentskillexchange/skills --skill confluence-page-writer -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/confluence-page-writer/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Developer Tools |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.4/5 (31 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Developer Tools
-- **Framework**: Any Agent
-- **Rating**: 4.4/5 (31 reviews)
+**Omar Hassan** (Verified Creator ✓)
+- Profile: [@ohassan](https://agentskillexchange.com/browse-skills/?creator=ohassan)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/confluence-page-writer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/confluence-page-writer/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

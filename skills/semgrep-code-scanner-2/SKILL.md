@@ -1,28 +1,39 @@
 ---
-name: Semgrep Code Scanner
-description: Agent skill for semgrep code scanner.
-category: Code Quality &amp; Review
-framework: Any Agent
+name: "Semgrep Code Scanner"
+description: "Runs Semgrep static analysis rules against your codebase to find security vulnerabilities, bug patterns, and code quality issues. Supports custom rule authoring for organization-specific patterns."
+category: "Code Quality & Review"
+framework: "Claude Code"
 verification: security_reviewed
 rating: 4.4
 reviews: 45
+creator: Aisha Patel
+creator_handle: aishap
+creator_verified: true
 source: https://agentskillexchange.com/skill/semgrep-code-scanner-2/
 ---
 
 # Semgrep Code Scanner
 
-Agent skill for semgrep code scanner.
-
-## Overview
-
-Agent skill for semgrep code scanner.
+Runs Semgrep static analysis rules against your codebase to find security vulnerabilities, bug patterns, and code quality issues. Supports custom rule authoring for organization-specific patterns.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill semgrep-code-scanner-2
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill semgrep-code-scanner-2 -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill semgrep-code-scanner-2 -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill semgrep-code-scanner-2
 clawhub install semgrep-code-scanner-2
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add semgrep-code-scanner-2
+npx skills add agentskillexchange/skills --skill semgrep-code-scanner-2 -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/semgrep-code-scanner-2/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Code Quality & Review |
+| Framework | Claude Code |
+| Verification | Security Reviewed |
+| Rating | 4.4/5 (45 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Code Quality &amp; Review
-- **Framework**: Any Agent
-- **Rating**: 4.4/5 (45 reviews)
+**Aisha Patel** (Verified Creator ✓)
+- Profile: [@aishap](https://agentskillexchange.com/browse-skills/?creator=aishap)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/semgrep-code-scanner-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/semgrep-code-scanner-2/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

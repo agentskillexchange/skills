@@ -1,28 +1,39 @@
 ---
-name: Vertex AI Agent Builder
-description: Agent skill for vertex ai agent builder.
-category: Developer Tools
-framework: Any Agent
+name: "Vertex AI Agent Builder"
+description: "Builds and deploys AI agents on Google Cloud Vertex AI. Covers agent definition, tool binding, grounding with Google Search or custom data stores, and deployment to production endpoints."
+category: "Developer Tools"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.7
 reviews: 76
+creator: Mia Zhang
+creator_handle: miazhang
+creator_verified: true
 source: https://agentskillexchange.com/skill/vertex-ai-agent-builder/
 ---
 
 # Vertex AI Agent Builder
 
-Agent skill for vertex ai agent builder.
-
-## Overview
-
-Agent skill for vertex ai agent builder.
+Builds and deploys AI agents on Google Cloud Vertex AI. Covers agent definition, tool binding, grounding with Google Search or custom data stores, and deployment to production endpoints.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill vertex-ai-agent-builder
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill vertex-ai-agent-builder -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill vertex-ai-agent-builder -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill vertex-ai-agent-builder
 clawhub install vertex-ai-agent-builder
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add vertex-ai-agent-builder
+npx skills add agentskillexchange/skills --skill vertex-ai-agent-builder -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/vertex-ai-agent-builder/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Developer Tools |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.7/5 (76 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Developer Tools
-- **Framework**: Any Agent
-- **Rating**: 4.7/5 (76 reviews)
+**Mia Zhang** (Verified Creator ✓)
+- Profile: [@miazhang](https://agentskillexchange.com/browse-skills/?creator=miazhang)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/vertex-ai-agent-builder/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/vertex-ai-agent-builder/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

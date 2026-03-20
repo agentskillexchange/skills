@@ -1,11 +1,14 @@
 ---
-name: Grammarly Business Tone Consistency Auditor
-description: Integrates with the Grammarly Text Editor SDK to batch-audit marketing copy for tone deviations using the /analyze endpoint with the tone_detector feature flag. Outputs a structured JSON report of flagged sentences with suggested rewrites, logged to Google Sheets via the Sheets API v4.
-category: Content Writing &amp; SEO
-framework: Any Agent
+name: "Grammarly Business Tone Consistency Auditor"
+description: "Integrates with the Grammarly Text Editor SDK to batch-audit marketing copy for tone deviations using the /analyze endpoint with the tone_detector feature flag. Outputs a structured JSON report of flagged sentences with suggested rewrites, logged to Google Sheets via the Sheets API v4."
+category: "Content Writing & SEO"
+framework: "Cursor"
 verification: security_reviewed
 rating: 4.8
 reviews: 4
+creator: Elena Kowalski
+creator_handle: ekowalski
+creator_verified: true
 source: https://agentskillexchange.com/skill/grammarly-tone-auditor/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/grammarly-tone-auditor/
 
 Integrates with the Grammarly Text Editor SDK to batch-audit marketing copy for tone deviations using the /analyze endpoint with the tone_detector feature flag. Outputs a structured JSON report of flagged sentences with suggested rewrites, logged to Google Sheets via the Sheets API v4.
 
-## Overview
-
-Integrates with the Grammarly Text Editor SDK to batch-audit marketing copy for tone deviations using the /analyze endpoint with the tone_detector feature flag. Outputs a structured JSON report of flagged sentences with suggested rewrites, logged to Google Sheets via the Sheets API v4.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill grammarly-tone-auditor
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill grammarly-tone-auditor -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill grammarly-tone-auditor -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill grammarly-tone-auditor
 clawhub install grammarly-tone-auditor
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add grammarly-tone-auditor
+npx skills add agentskillexchange/skills --skill grammarly-tone-auditor -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/grammarly-tone-auditor/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Content Writing & SEO |
+| Framework | Cursor |
+| Verification | Security Reviewed |
+| Rating | 4.8/5 (4 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Content Writing &amp; SEO
-- **Framework**: Any Agent
-- **Rating**: 4.8/5 (4 reviews)
+**Elena Kowalski** (Verified Creator ✓)
+- Profile: [@ekowalski](https://agentskillexchange.com/browse-skills/?creator=ekowalski)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/grammarly-tone-auditor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/grammarly-tone-auditor/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

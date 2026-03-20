@@ -1,28 +1,39 @@
 ---
-name: Rate Limit Tracker
-description: Agent skill for rate limit tracker.
-category: Library &amp; API Reference
-framework: Any Agent
+name: "Rate Limit Tracker"
+description: "Monitors and tracks API rate limit consumption across multiple API providers. Parses rate limit headers, tracks usage trends, alerts before hitting limits, and suggests request batching or backoff strategies."
+category: "Library & API Reference"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.7
 reviews: 13
+creator: Nathan Brooks
+creator_handle: nbrooks
+creator_verified: false
 source: https://agentskillexchange.com/skill/rate-limit-tracker/
 ---
 
 # Rate Limit Tracker
 
-Agent skill for rate limit tracker.
-
-## Overview
-
-Agent skill for rate limit tracker.
+Monitors and tracks API rate limit consumption across multiple API providers. Parses rate limit headers, tracks usage trends, alerts before hitting limits, and suggests request batching or backoff strategies.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill rate-limit-tracker
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill rate-limit-tracker -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill rate-limit-tracker -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill rate-limit-tracker
 clawhub install rate-limit-tracker
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add rate-limit-tracker
+npx skills add agentskillexchange/skills --skill rate-limit-tracker -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/rate-limit-tracker/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Library & API Reference |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.7/5 (13 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Library &amp; API Reference
-- **Framework**: Any Agent
-- **Rating**: 4.7/5 (13 reviews)
+**Nathan Brooks**
+- Profile: [@nbrooks](https://agentskillexchange.com/browse-skills/?creator=nbrooks)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/rate-limit-tracker/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/rate-limit-tracker/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

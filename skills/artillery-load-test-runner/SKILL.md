@@ -1,28 +1,39 @@
 ---
-name: Artillery Load Test Runner
-description: Agent skill for artillery load test runner.
-category: Code Quality &amp; Review
-framework: Any Agent
+name: "Artillery Load Test Runner"
+description: "Generate Artillery YAML test scripts, run load tests against HTTP or WebSocket endpoints, and analyze performance reports through an AI agent. Supports scenario definition, virtual user ramp-up configuration, and threshold-based pass/fail for CI integration."
+category: "Code Quality & Review"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.5
 reviews: 64
+creator: Elena Kowalski
+creator_handle: ekowalski
+creator_verified: true
 source: https://agentskillexchange.com/skill/artillery-load-test-runner/
 ---
 
 # Artillery Load Test Runner
 
-Agent skill for artillery load test runner.
-
-## Overview
-
-Agent skill for artillery load test runner.
+Generate Artillery YAML test scripts, run load tests against HTTP or WebSocket endpoints, and analyze performance reports through an AI agent. Supports scenario definition, virtual user ramp-up configuration, and threshold-based pass/fail for CI integration.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill artillery-load-test-runner
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill artillery-load-test-runner -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill artillery-load-test-runner -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill artillery-load-test-runner
 clawhub install artillery-load-test-runner
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add artillery-load-test-runner
+npx skills add agentskillexchange/skills --skill artillery-load-test-runner -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/artillery-load-test-runner/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Code Quality & Review |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.5/5 (64 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Code Quality &amp; Review
-- **Framework**: Any Agent
-- **Rating**: 4.5/5 (64 reviews)
+**Elena Kowalski** (Verified Creator ✓)
+- Profile: [@ekowalski](https://agentskillexchange.com/browse-skills/?creator=ekowalski)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/artillery-load-test-runner/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/artillery-load-test-runner/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

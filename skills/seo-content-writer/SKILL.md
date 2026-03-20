@@ -1,11 +1,14 @@
 ---
-name: SEO Content Writer
-description: Draft SEO-focused articles and landing-page content with stronger structure, keyword targeting, and on-page guidance.
-category: Content Writing &amp; SEO
-framework: Any Agent
+name: "SEO Content Writer"
+description: "Draft SEO-focused articles and landing-page content with stronger structure, keyword targeting, and on-page guidance."
+category: "Content Writing & SEO"
+framework: "OpenClaw"
 verification: security_reviewed
 rating: 4.4
 reviews: 85
+creator: James Whitfield
+creator_handle: jwhitfield
+creator_verified: true
 source: https://agentskillexchange.com/skill/seo-content-writer/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/seo-content-writer/
 
 Draft SEO-focused articles and landing-page content with stronger structure, keyword targeting, and on-page guidance.
 
-## Overview
-
-Draft SEO-focused articles and landing-page content with stronger structure, keyword targeting, and on-page guidance.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill seo-content-writer
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill seo-content-writer -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill seo-content-writer -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill seo-content-writer
 clawhub install seo-content-writer
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add seo-content-writer
+npx skills add agentskillexchange/skills --skill seo-content-writer -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/seo-content-writer/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Content Writing & SEO |
+| Framework | OpenClaw |
+| Verification | Security Reviewed |
+| Rating | 4.4/5 (85 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Content Writing &amp; SEO
-- **Framework**: Any Agent
-- **Rating**: 4.4/5 (85 reviews)
+**James Whitfield** (Verified Creator ✓)
+- Profile: [@jwhitfield](https://agentskillexchange.com/browse-skills/?creator=jwhitfield)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/seo-content-writer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/seo-content-writer/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

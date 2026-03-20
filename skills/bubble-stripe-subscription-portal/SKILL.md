@@ -1,28 +1,39 @@
 ---
-name: Bubble.io Stripe Subscription Portal Builder
-description: Uses Bubble's Plugin API and the Stripe.js SDK to embed a self-service subscription management portal inside a Bubble application. Configures Bubble's API Connector to call Stripe's Billing Portal Sessions endpoint and handles webhook events for real-time plan change updates.
-category: Templates &amp; Workflows
-framework: Any Agent
+name: "Bubble.io Stripe Subscription Portal Builder"
+description: "Uses Bubble’s Plugin API and the Stripe.js SDK to embed a self-service subscription management portal inside a Bubble application. Configures Bubble’s API Connector to call Stripe’s Billing Portal Sessions endpoint and handles webhook events for real-time plan change updates."
+category: "Templates & Workflows"
+framework: "OpenClaw"
 verification: verified_metadata
 rating: 4.1
 reviews: 49
+creator: Nathan Brooks
+creator_handle: nbrooks
+creator_verified: false
 source: https://agentskillexchange.com/skill/bubble-stripe-subscription-portal/
 ---
 
 # Bubble.io Stripe Subscription Portal Builder
 
-Uses Bubble's Plugin API and the Stripe.js SDK to embed a self-service subscription management portal inside a Bubble application. Configures Bubble's API Connector to call Stripe's Billing Portal Sessions endpoint and handles webhook events for real-time plan change updates.
-
-## Overview
-
-Uses Bubble's Plugin API and the Stripe.js SDK to embed a self-service subscription management portal inside a Bubble application. Configures Bubble's API Connector to call Stripe's Billing Portal Sessions endpoint and handles webhook events for real-time plan change updates.
+Uses Bubble’s Plugin API and the Stripe.js SDK to embed a self-service subscription management portal inside a Bubble application. Configures Bubble’s API Connector to call Stripe’s Billing Portal Sessions endpoint and handles webhook events for real-time plan change updates.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill bubble-stripe-subscription-portal
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill bubble-stripe-subscription-portal -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill bubble-stripe-subscription-portal -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill bubble-stripe-subscription-port
 clawhub install bubble-stripe-subscription-portal
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add bubble-stripe-subscription-portal
+npx skills add agentskillexchange/skills --skill bubble-stripe-subscription-portal -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/bubble-stripe-subscription-portal/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Templates & Workflows |
+| Framework | OpenClaw |
+| Verification | Verified Metadata |
+| Rating | 4.1/5 (49 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: verified_metadata
-- **Category**: Templates &amp; Workflows
-- **Framework**: Any Agent
-- **Rating**: 4.1/5 (49 reviews)
+**Nathan Brooks**
+- Profile: [@nbrooks](https://agentskillexchange.com/browse-skills/?creator=nbrooks)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/bubble-stripe-subscription-portal/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/bubble-stripe-subscription-portal/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

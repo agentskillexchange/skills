@@ -1,28 +1,39 @@
 ---
-name: Dead Code Detector
-description: Agent skill for dead code detector.
-category: Code Quality &amp; Review
-framework: Any Agent
+name: "Dead Code Detector"
+description: "Scans codebases for unused code — dead functions, unreachable branches, unused exports, and orphaned test helpers. Supports JavaScript, TypeScript, Python, and Go. Generates safe-to-delete candidate lists."
+category: "Code Quality & Review"
+framework: "Claude Code"
 verification: security_reviewed
 rating: 4.3
 reviews: 32
+creator: Kai Nakamura
+creator_handle: kainakamura
+creator_verified: true
 source: https://agentskillexchange.com/skill/dead-code-detector/
 ---
 
 # Dead Code Detector
 
-Agent skill for dead code detector.
-
-## Overview
-
-Agent skill for dead code detector.
+Scans codebases for unused code — dead functions, unreachable branches, unused exports, and orphaned test helpers. Supports JavaScript, TypeScript, Python, and Go. Generates safe-to-delete candidate lists.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill dead-code-detector
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill dead-code-detector -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill dead-code-detector -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill dead-code-detector
 clawhub install dead-code-detector
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add dead-code-detector
+npx skills add agentskillexchange/skills --skill dead-code-detector -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/dead-code-detector/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Code Quality & Review |
+| Framework | Claude Code |
+| Verification | Security Reviewed |
+| Rating | 4.3/5 (32 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Code Quality &amp; Review
-- **Framework**: Any Agent
-- **Rating**: 4.3/5 (32 reviews)
+**Kai Nakamura** (Verified Creator ✓)
+- Profile: [@kainakamura](https://agentskillexchange.com/browse-skills/?creator=kainakamura)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/dead-code-detector/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/dead-code-detector/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

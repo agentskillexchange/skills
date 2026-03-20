@@ -1,11 +1,14 @@
 ---
-name: SQLite MCP Server
-description: Lightweight local database access for agent tasks.
-category: Data Extraction &amp; Transformation
-framework: Any Agent
+name: "SQLite MCP Server"
+description: "Lightweight local database access for agent tasks."
+category: "Data Extraction & Transformation"
+framework: "Claude Code"
 verification: verified_metadata
 rating: 4.4
 reviews: 76
+creator: Alex Thompson
+creator_handle: alexthompson
+creator_verified: true
 source: https://agentskillexchange.com/skill/sqlite-mcp-server/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/sqlite-mcp-server/
 
 Lightweight local database access for agent tasks.
 
-## Overview
-
-Lightweight local database access for agent tasks.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill sqlite-mcp-server
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill sqlite-mcp-server -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill sqlite-mcp-server -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill sqlite-mcp-server
 clawhub install sqlite-mcp-server
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add sqlite-mcp-server
+npx skills add agentskillexchange/skills --skill sqlite-mcp-server -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/sqlite-mcp-server/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Data Extraction & Transformation |
+| Framework | Claude Code |
+| Verification | Verified Metadata |
+| Rating | 4.4/5 (76 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: verified_metadata
-- **Category**: Data Extraction &amp; Transformation
-- **Framework**: Any Agent
-- **Rating**: 4.4/5 (76 reviews)
+**Alex Thompson** (Verified Creator ✓)
+- Profile: [@alexthompson](https://agentskillexchange.com/browse-skills/?creator=alexthompson)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/sqlite-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/sqlite-mcp-server/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

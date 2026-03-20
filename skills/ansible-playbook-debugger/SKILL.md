@@ -1,28 +1,39 @@
 ---
-name: Ansible Playbook Debugger
-description: Diagnoses Ansible playbook failures using ansible-playbook --check --diff mode, ansible-lint, and the Ansible callback plugin API. Parses task execution results and suggests fixes for common module errors in ansible.builtin and community collections.
-category: Runbooks &amp; Diagnostics
-framework: Any Agent
+name: "Ansible Playbook Debugger"
+description: "Diagnoses Ansible playbook failures using ansible-playbook –check –diff mode, ansible-lint, and the Ansible callback plugin API. Parses task execution results and suggests fixes for common module errors in ansible.builtin and community collections."
+category: "Runbooks & Diagnostics"
+framework: "OpenClaw"
 verification: verified_metadata
 rating: 4.5
 reviews: 75
+creator: Luna Martinez
+creator_handle: lunamartinez
+creator_verified: false
 source: https://agentskillexchange.com/skill/ansible-playbook-debugger/
 ---
 
 # Ansible Playbook Debugger
 
-Diagnoses Ansible playbook failures using ansible-playbook --check --diff mode, ansible-lint, and the Ansible callback plugin API. Parses task execution results and suggests fixes for common module errors in ansible.builtin and community collections.
-
-## Overview
-
-Diagnoses Ansible playbook failures using ansible-playbook --check --diff mode, ansible-lint, and the Ansible callback plugin API. Parses task execution results and suggests fixes for common module errors in ansible.builtin and community collections.
+Diagnoses Ansible playbook failures using ansible-playbook –check –diff mode, ansible-lint, and the Ansible callback plugin API. Parses task execution results and suggests fixes for common module errors in ansible.builtin and community collections.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill ansible-playbook-debugger
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill ansible-playbook-debugger -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill ansible-playbook-debugger -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill ansible-playbook-debugger
 clawhub install ansible-playbook-debugger
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add ansible-playbook-debugger
+npx skills add agentskillexchange/skills --skill ansible-playbook-debugger -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/ansible-playbook-debugger/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Runbooks & Diagnostics |
+| Framework | OpenClaw |
+| Verification | Verified Metadata |
+| Rating | 4.5/5 (75 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: verified_metadata
-- **Category**: Runbooks &amp; Diagnostics
-- **Framework**: Any Agent
-- **Rating**: 4.5/5 (75 reviews)
+**Luna Martinez**
+- Profile: [@lunamartinez](https://agentskillexchange.com/browse-skills/?creator=lunamartinez)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/ansible-playbook-debugger/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/ansible-playbook-debugger/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

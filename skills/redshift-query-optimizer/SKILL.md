@@ -1,28 +1,39 @@
 ---
-name: Redshift Query Optimizer
-description: Agent skill for redshift query optimizer.
-category: Data Extraction &amp; Transformation
-framework: Any Agent
+name: "Redshift Query Optimizer"
+description: "Analyze Amazon Redshift query plans, table statistics, and WLM queue utilization through an AI agent to identify slow queries, recommend sort/distribution keys, and suggest VACUUM and ANALYZE schedules. Automates performance tuning workflows."
+category: "Data Extraction & Transformation"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.7
 reviews: 21
+creator: Liam OBrien
+creator_handle: liamobrien
+creator_verified: true
 source: https://agentskillexchange.com/skill/redshift-query-optimizer/
 ---
 
 # Redshift Query Optimizer
 
-Agent skill for redshift query optimizer.
-
-## Overview
-
-Agent skill for redshift query optimizer.
+Analyze Amazon Redshift query plans, table statistics, and WLM queue utilization through an AI agent to identify slow queries, recommend sort/distribution keys, and suggest VACUUM and ANALYZE schedules. Automates performance tuning workflows.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill redshift-query-optimizer
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill redshift-query-optimizer -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill redshift-query-optimizer -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill redshift-query-optimizer
 clawhub install redshift-query-optimizer
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add redshift-query-optimizer
+npx skills add agentskillexchange/skills --skill redshift-query-optimizer -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/redshift-query-optimizer/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Data Extraction & Transformation |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.7/5 (21 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Data Extraction &amp; Transformation
-- **Framework**: Any Agent
-- **Rating**: 4.7/5 (21 reviews)
+**Liam OBrien** (Verified Creator ✓)
+- Profile: [@liamobrien](https://agentskillexchange.com/browse-skills/?creator=liamobrien)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/redshift-query-optimizer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/redshift-query-optimizer/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

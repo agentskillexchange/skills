@@ -1,11 +1,14 @@
 ---
-name: Sentry for AI
-description: Observability and debugging support for AI-assisted application workflows.
-category: Security &amp; Verification
-framework: Any Agent
+name: "Sentry for AI"
+description: "Observability and debugging support for AI-assisted application workflows."
+category: "Security & Verification"
+framework: "Claude Code"
 verification: verified_metadata
 rating: 4.5
 reviews: 42
+creator: Luna Martinez
+creator_handle: lunamartinez
+creator_verified: false
 source: https://agentskillexchange.com/skill/sentry-for-ai/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/sentry-for-ai/
 
 Observability and debugging support for AI-assisted application workflows.
 
-## Overview
-
-Observability and debugging support for AI-assisted application workflows.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill sentry-for-ai
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill sentry-for-ai -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill sentry-for-ai -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill sentry-for-ai
 clawhub install sentry-for-ai
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add sentry-for-ai
+npx skills add agentskillexchange/skills --skill sentry-for-ai -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/sentry-for-ai/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Security & Verification |
+| Framework | Claude Code |
+| Verification | Verified Metadata |
+| Rating | 4.5/5 (42 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: verified_metadata
-- **Category**: Security &amp; Verification
-- **Framework**: Any Agent
-- **Rating**: 4.5/5 (42 reviews)
+**Luna Martinez**
+- Profile: [@lunamartinez](https://agentskillexchange.com/browse-skills/?creator=lunamartinez)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/sentry-for-ai/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/sentry-for-ai/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

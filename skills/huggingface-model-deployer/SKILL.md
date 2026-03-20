@@ -1,11 +1,14 @@
 ---
-name: Hugging Face Model Deployer
-description: Deploys models from Hugging Face Hub to Inference Endpoints using the huggingface_hub client and REST API. Monitors endpoint health and autoscaling status and streams logs to the terminal. Supports private repos with HF_TOKEN and custom Docker containers.
-category: CI/CD Integrations
-framework: Any Agent
+name: "Hugging Face Model Deployer"
+description: "Deploys models from Hugging Face Hub to Inference Endpoints using the huggingface_hub client and REST API. Monitors endpoint health and autoscaling status and streams logs to the terminal. Supports private repos with HF_TOKEN and custom Docker containers."
+category: "CI/CD Integrations"
+framework: "Codex"
 verification: verified_metadata
 rating: 4.2
 reviews: 42
+creator: Liam OBrien
+creator_handle: liamobrien
+creator_verified: true
 source: https://agentskillexchange.com/skill/huggingface-model-deployer/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/huggingface-model-deployer/
 
 Deploys models from Hugging Face Hub to Inference Endpoints using the huggingface_hub client and REST API. Monitors endpoint health and autoscaling status and streams logs to the terminal. Supports private repos with HF_TOKEN and custom Docker containers.
 
-## Overview
-
-Deploys models from Hugging Face Hub to Inference Endpoints using the huggingface_hub client and REST API. Monitors endpoint health and autoscaling status and streams logs to the terminal. Supports private repos with HF_TOKEN and custom Docker containers.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill huggingface-model-deployer
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill huggingface-model-deployer -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill huggingface-model-deployer -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill huggingface-model-deployer
 clawhub install huggingface-model-deployer
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add huggingface-model-deployer
+npx skills add agentskillexchange/skills --skill huggingface-model-deployer -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/huggingface-model-deployer/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | CI/CD Integrations |
+| Framework | Codex |
+| Verification | Verified Metadata |
+| Rating | 4.2/5 (42 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: verified_metadata
-- **Category**: CI/CD Integrations
-- **Framework**: Any Agent
-- **Rating**: 4.2/5 (42 reviews)
+**Liam OBrien** (Verified Creator ✓)
+- Profile: [@liamobrien](https://agentskillexchange.com/browse-skills/?creator=liamobrien)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/huggingface-model-deployer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/huggingface-model-deployer/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

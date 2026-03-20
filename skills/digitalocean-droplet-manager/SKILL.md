@@ -1,11 +1,14 @@
 ---
-name: DigitalOcean Droplet Manager
-description: Create, configure, and manage DigitalOcean Droplets, Kubernetes clusters, and managed databases through the doctl CLI and DigitalOcean API. Supports automated Droplet provisioning with cloud-init scri
-category: Templates & Workflows
-framework: Custom Agents
+name: "DigitalOcean Droplet Manager"
+description: "Create, configure, and manage DigitalOcean Droplets, Kubernetes clusters, and managed databases through the doctl CLI and DigitalOcean API. Supports automated Droplet provisioning with cloud-init scripts and firewall rule management."
+category: "Templates & Workflows"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.9
 reviews: 56
+creator: Tom Anderson
+creator_handle: tanderson
+creator_verified: false
 source: https://agentskillexchange.com/skill/digitalocean-droplet-manager/
 ---
 
@@ -13,37 +16,53 @@ source: https://agentskillexchange.com/skill/digitalocean-droplet-manager/
 
 Create, configure, and manage DigitalOcean Droplets, Kubernetes clusters, and managed databases through the doctl CLI and DigitalOcean API. Supports automated Droplet provisioning with cloud-init scripts and firewall rule management.
 
-## Overview
-
-Create, configure, and manage DigitalOcean Droplets, Kubernetes clusters, and managed databases through the doctl CLI and DigitalOcean API. Supports automated Droplet provisioning with cloud-init scripts and firewall rule management.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill digitalocean-droplet-manager
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill digitalocean-droplet-manager -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill digitalocean-droplet-manager -a cursor
+```
+
 ### OpenClaw
 
 ```bash
-openclaw install digitalocean-droplet-manager
+clawhub install digitalocean-droplet-manager
 ```
 
-### Manual
+### Codex
 
-Download this `SKILL.md` file and place it in your agent's skills directory.
+```bash
+npx skills add agentskillexchange/skills --skill digitalocean-droplet-manager -a codex
+```
 
-## Metadata
+## Details
 
 | Field | Value |
 |-------|-------|
 | Category | Templates & Workflows |
 | Framework | Custom Agents |
 | Verification | Security Reviewed |
-| Rating | ⭐⭐⭐⭐ 4.9/5.0 (56 reviews) |
+| Rating | 4.9/5 (56 reviews) |
 
----
+## Creator
 
-*Published on [Agent Skill Exchange](https://agentskillexchange.com/skill/digitalocean-droplet-manager/)*
+**Tom Anderson**
+- Profile: [@tanderson](https://agentskillexchange.com/browse-skills/?creator=tanderson)
+
+## Links
+
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/digitalocean-droplet-manager/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

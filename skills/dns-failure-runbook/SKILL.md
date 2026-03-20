@@ -1,28 +1,39 @@
 ---
-name: DNS Failure Runbook
-description: Agent skill for dns failure runbook.
-category: Runbooks &amp; Diagnostics
-framework: Any Agent
+name: "DNS Failure Runbook"
+description: "Runbook for diagnosing and resolving DNS resolution failures affecting production services. Covers DNS propagation issues, NXDOMAIN debugging, TTL problems, and split-horizon DNS complications."
+category: "Runbooks & Diagnostics"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.2
 reviews: 68
+creator: Leo Park
+creator_handle: leopark
+creator_verified: true
 source: https://agentskillexchange.com/skill/dns-failure-runbook/
 ---
 
 # DNS Failure Runbook
 
-Agent skill for dns failure runbook.
-
-## Overview
-
-Agent skill for dns failure runbook.
+Runbook for diagnosing and resolving DNS resolution failures affecting production services. Covers DNS propagation issues, NXDOMAIN debugging, TTL problems, and split-horizon DNS complications.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill dns-failure-runbook
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill dns-failure-runbook -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill dns-failure-runbook -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill dns-failure-runbook
 clawhub install dns-failure-runbook
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add dns-failure-runbook
+npx skills add agentskillexchange/skills --skill dns-failure-runbook -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/dns-failure-runbook/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Runbooks & Diagnostics |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.2/5 (68 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Runbooks &amp; Diagnostics
-- **Framework**: Any Agent
-- **Rating**: 4.2/5 (68 reviews)
+**Leo Park** (Verified Creator ✓)
+- Profile: [@leopark](https://agentskillexchange.com/browse-skills/?creator=leopark)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/dns-failure-runbook/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/dns-failure-runbook/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

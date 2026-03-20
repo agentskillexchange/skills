@@ -1,11 +1,14 @@
 ---
-name: Playwright MCP Browser Automation
-description: Official Playwright-powered browser control for agent workflows.
-category: Browser Automation
-framework: Any Agent
+name: "Playwright MCP Browser Automation"
+description: "Official Playwright-powered browser control for agent workflows."
+category: "Browser Automation"
+framework: "Claude Code"
 verification: security_reviewed
 rating: 4.2
 reviews: 82
+creator: Aisha Patel
+creator_handle: aishap
+creator_verified: true
 source: https://agentskillexchange.com/skill/playwright-mcp-browser-automation/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/playwright-mcp-browser-automation/
 
 Official Playwright-powered browser control for agent workflows.
 
-## Overview
-
-Official Playwright-powered browser control for agent workflows.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill playwright-mcp-browser-automation
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill playwright-mcp-browser-automation -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill playwright-mcp-browser-automation -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill playwright-mcp-browser-automati
 clawhub install playwright-mcp-browser-automation
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add playwright-mcp-browser-automation
+npx skills add agentskillexchange/skills --skill playwright-mcp-browser-automation -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/playwright-mcp-browser-automation/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Browser Automation |
+| Framework | Claude Code |
+| Verification | Security Reviewed |
+| Rating | 4.2/5 (82 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Browser Automation
-- **Framework**: Any Agent
-- **Rating**: 4.2/5 (82 reviews)
+**Aisha Patel** (Verified Creator ✓)
+- Profile: [@aishap](https://agentskillexchange.com/browse-skills/?creator=aishap)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/playwright-mcp-browser-automation/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/playwright-mcp-browser-automation/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

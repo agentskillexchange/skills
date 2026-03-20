@@ -1,28 +1,39 @@
 ---
-name: LangGraph Workflow Builder
-description: Agent skill for langgraph workflow builder.
-category: Developer Tools
-framework: Any Agent
+name: "LangGraph Workflow Builder"
+description: "LangGraph is a library for building stateful, multi-actor applications with LLMs. Use this skill to design complex agent workflows with branching, loops, and conditional logic as a directed graph structure."
+category: "Developer Tools"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.8
 reviews: 26
+creator: Liam OBrien
+creator_handle: liamobrien
+creator_verified: true
 source: https://agentskillexchange.com/skill/langgraph-workflow-builder/
 ---
 
 # LangGraph Workflow Builder
 
-Agent skill for langgraph workflow builder.
-
-## Overview
-
-Agent skill for langgraph workflow builder.
+LangGraph is a library for building stateful, multi-actor applications with LLMs. Use this skill to design complex agent workflows with branching, loops, and conditional logic as a directed graph structure.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill langgraph-workflow-builder
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill langgraph-workflow-builder -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill langgraph-workflow-builder -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill langgraph-workflow-builder
 clawhub install langgraph-workflow-builder
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add langgraph-workflow-builder
+npx skills add agentskillexchange/skills --skill langgraph-workflow-builder -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/langgraph-workflow-builder/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Developer Tools |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.8/5 (26 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Developer Tools
-- **Framework**: Any Agent
-- **Rating**: 4.8/5 (26 reviews)
+**Liam OBrien** (Verified Creator ✓)
+- Profile: [@liamobrien](https://agentskillexchange.com/browse-skills/?creator=liamobrien)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/langgraph-workflow-builder/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/langgraph-workflow-builder/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

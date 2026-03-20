@@ -1,11 +1,14 @@
 ---
-name: SonarQube Quality Gate Monitor
-description: Monitors SonarQube quality gate status across projects using the Web API /api/qualitygates/project_status endpoint. Sends alerts when coverage drops below thresholds or new code smells exceed limits via SonarQube webhooks.
-category: Code Quality &amp; Review
-framework: Any Agent
+name: "SonarQube Quality Gate Monitor"
+description: "Monitors SonarQube quality gate status across projects using the Web API /api/qualitygates/project_status endpoint. Sends alerts when coverage drops below thresholds or new code smells exceed limits via SonarQube webhooks."
+category: "Code Quality & Review"
+framework: "ChatGPT Agents"
 verification: security_reviewed
 rating: 4.1
 reviews: 79
+creator: Alex Thompson
+creator_handle: alexthompson
+creator_verified: true
 source: https://agentskillexchange.com/skill/sonarqube-quality-gate-monitor/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/sonarqube-quality-gate-monitor/
 
 Monitors SonarQube quality gate status across projects using the Web API /api/qualitygates/project_status endpoint. Sends alerts when coverage drops below thresholds or new code smells exceed limits via SonarQube webhooks.
 
-## Overview
-
-Monitors SonarQube quality gate status across projects using the Web API /api/qualitygates/project_status endpoint. Sends alerts when coverage drops below thresholds or new code smells exceed limits via SonarQube webhooks.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-monitor
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-monitor -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-monitor -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-monitor
 clawhub install sonarqube-quality-gate-monitor
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add sonarqube-quality-gate-monitor
+npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-monitor -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/sonarqube-quality-gate-monitor/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Code Quality & Review |
+| Framework | ChatGPT Agents |
+| Verification | Security Reviewed |
+| Rating | 4.1/5 (79 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Code Quality &amp; Review
-- **Framework**: Any Agent
-- **Rating**: 4.1/5 (79 reviews)
+**Alex Thompson** (Verified Creator ✓)
+- Profile: [@alexthompson](https://agentskillexchange.com/browse-skills/?creator=alexthompson)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/sonarqube-quality-gate-monitor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/sonarqube-quality-gate-monitor/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

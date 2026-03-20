@@ -1,11 +1,14 @@
 ---
-name: Docker Compose Health Checker
-description: Validates docker-compose.yml files against the Compose Specification, checks image vulnerability status via Docker Scout API, and verifies healthcheck configurations.
-category: Runbooks &amp; Diagnostics
-framework: Any Agent
+name: "Docker Compose Health Checker"
+description: "Validates docker-compose.yml files against the Compose Specification, checks image vulnerability status via Docker Scout API, and verifies healthcheck configurations."
+category: "Runbooks & Diagnostics"
+framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.4
 reviews: 81
+creator: Alex Thompson
+creator_handle: alexthompson
+creator_verified: true
 source: https://agentskillexchange.com/skill/docker-compose-health-checker/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/docker-compose-health-checker/
 
 Validates docker-compose.yml files against the Compose Specification, checks image vulnerability status via Docker Scout API, and verifies healthcheck configurations.
 
-## Overview
-
-Validates docker-compose.yml files against the Compose Specification, checks image vulnerability status via Docker Scout API, and verifies healthcheck configurations.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill docker-compose-health-checker
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill docker-compose-health-checker -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill docker-compose-health-checker -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill docker-compose-health-checker
 clawhub install docker-compose-health-checker
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add docker-compose-health-checker
+npx skills add agentskillexchange/skills --skill docker-compose-health-checker -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/docker-compose-health-checker/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Runbooks & Diagnostics |
+| Framework | MCP-compatible |
+| Verification | Security Reviewed |
+| Rating | 4.4/5 (81 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Runbooks &amp; Diagnostics
-- **Framework**: Any Agent
-- **Rating**: 4.4/5 (81 reviews)
+**Alex Thompson** (Verified Creator ✓)
+- Profile: [@alexthompson](https://agentskillexchange.com/browse-skills/?creator=alexthompson)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/docker-compose-health-checker/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/docker-compose-health-checker/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -1,28 +1,39 @@
 ---
-name: Zsh Bash Profile Manager
-description: Agent skill for zsh bash profile manager.
-category: Developer Tools
-framework: Any Agent
+name: "Zsh Bash Profile Manager"
+description: "Manage and optimize Zsh and Bash shell profiles, aliases, functions, and environment variables through an AI agent. Automates plugin framework configuration (Oh My Zsh, Zinit), prompt theme setup, and cross-machine profile synchronization."
+category: "Developer Tools"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.1
 reviews: 69
+creator: James Whitfield
+creator_handle: jwhitfield
+creator_verified: true
 source: https://agentskillexchange.com/skill/zsh-bash-profile-manager/
 ---
 
 # Zsh Bash Profile Manager
 
-Agent skill for zsh bash profile manager.
-
-## Overview
-
-Agent skill for zsh bash profile manager.
+Manage and optimize Zsh and Bash shell profiles, aliases, functions, and environment variables through an AI agent. Automates plugin framework configuration (Oh My Zsh, Zinit), prompt theme setup, and cross-machine profile synchronization.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill zsh-bash-profile-manager
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill zsh-bash-profile-manager -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill zsh-bash-profile-manager -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill zsh-bash-profile-manager
 clawhub install zsh-bash-profile-manager
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add zsh-bash-profile-manager
+npx skills add agentskillexchange/skills --skill zsh-bash-profile-manager -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/zsh-bash-profile-manager/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Developer Tools |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.1/5 (69 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Developer Tools
-- **Framework**: Any Agent
-- **Rating**: 4.1/5 (69 reviews)
+**James Whitfield** (Verified Creator ✓)
+- Profile: [@jwhitfield](https://agentskillexchange.com/browse-skills/?creator=jwhitfield)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/zsh-bash-profile-manager/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/zsh-bash-profile-manager/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

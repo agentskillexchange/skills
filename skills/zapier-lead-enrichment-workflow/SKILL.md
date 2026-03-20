@@ -1,11 +1,14 @@
 ---
-name: Zapier Multi-Step Lead Enrichment Workflow
-description: Builds a Zapier automation using the Zapier NLA API to trigger on new HubSpot form submissions and enrich contact records via the Clearbit Enrichment API. Enriched data is written back to HubSpot and 
-category: Integrations & Connectors
-framework: MCP
+name: "Zapier Multi-Step Lead Enrichment Workflow"
+description: "Builds a Zapier automation using the Zapier NLA API to trigger on new HubSpot form submissions and enrich contact records via the Clearbit Enrichment API. Enriched data is written back to HubSpot and simultaneously posted to Slack via the Web API chat.postMessage endpoint."
+category: "Integrations & Connectors"
+framework: "MCP-compatible"
 verification: verified_metadata
 rating: 4.8
 reviews: 48
+creator: Maya Johnson
+creator_handle: mayaj
+creator_verified: false
 source: https://agentskillexchange.com/skill/zapier-lead-enrichment-workflow/
 ---
 
@@ -13,37 +16,53 @@ source: https://agentskillexchange.com/skill/zapier-lead-enrichment-workflow/
 
 Builds a Zapier automation using the Zapier NLA API to trigger on new HubSpot form submissions and enrich contact records via the Clearbit Enrichment API. Enriched data is written back to HubSpot and simultaneously posted to Slack via the Web API chat.postMessage endpoint.
 
-## Overview
-
-Builds a Zapier automation using the Zapier NLA API to trigger on new HubSpot form submissions and enrich contact records via the Clearbit Enrichment API. Enriched data is written back to HubSpot and simultaneously posted to Slack via the Web API chat.postMessage endpoint.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill zapier-lead-enrichment-workflow
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill zapier-lead-enrichment-workflow -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill zapier-lead-enrichment-workflow -a cursor
+```
+
 ### OpenClaw
 
 ```bash
-openclaw install zapier-lead-enrichment-workflow
+clawhub install zapier-lead-enrichment-workflow
 ```
 
-### Manual
+### Codex
 
-Download this `SKILL.md` file and place it in your agent's skills directory.
+```bash
+npx skills add agentskillexchange/skills --skill zapier-lead-enrichment-workflow -a codex
+```
 
-## Metadata
+## Details
 
 | Field | Value |
 |-------|-------|
 | Category | Integrations & Connectors |
-| Framework | MCP |
+| Framework | MCP-compatible |
 | Verification | Verified Metadata |
-| Rating | ⭐⭐⭐⭐ 4.8/5.0 (48 reviews) |
+| Rating | 4.8/5 (48 reviews) |
 
----
+## Creator
 
-*Published on [Agent Skill Exchange](https://agentskillexchange.com/skill/zapier-lead-enrichment-workflow/)*
+**Maya Johnson**
+- Profile: [@mayaj](https://agentskillexchange.com/browse-skills/?creator=mayaj)
+
+## Links
+
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/zapier-lead-enrichment-workflow/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

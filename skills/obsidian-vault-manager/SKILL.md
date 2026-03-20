@@ -1,28 +1,39 @@
 ---
-name: Obsidian Vault Manager
-description: Agent skill for obsidian vault manager.
-category: Developer Tools
-framework: Any Agent
+name: "Obsidian Vault Manager"
+description: "Manage Obsidian markdown vaults through the Obsidian Local REST API plugin, enabling AI agents to read, create, and update notes, search by content, and traverse backlinks programmatically. Supports daily note generation and template application."
+category: "Developer Tools"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.4
 reviews: 54
+creator: Maya Johnson
+creator_handle: mayaj
+creator_verified: false
 source: https://agentskillexchange.com/skill/obsidian-vault-manager/
 ---
 
 # Obsidian Vault Manager
 
-Agent skill for obsidian vault manager.
-
-## Overview
-
-Agent skill for obsidian vault manager.
+Manage Obsidian markdown vaults through the Obsidian Local REST API plugin, enabling AI agents to read, create, and update notes, search by content, and traverse backlinks programmatically. Supports daily note generation and template application.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill obsidian-vault-manager
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill obsidian-vault-manager -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill obsidian-vault-manager -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill obsidian-vault-manager
 clawhub install obsidian-vault-manager
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add obsidian-vault-manager
+npx skills add agentskillexchange/skills --skill obsidian-vault-manager -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/obsidian-vault-manager/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Developer Tools |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.4/5 (54 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Developer Tools
-- **Framework**: Any Agent
-- **Rating**: 4.4/5 (54 reviews)
+**Maya Johnson**
+- Profile: [@mayaj](https://agentskillexchange.com/browse-skills/?creator=mayaj)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/obsidian-vault-manager/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/obsidian-vault-manager/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

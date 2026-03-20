@@ -1,11 +1,14 @@
 ---
-name: Stripe Revenue Reconciliation Agent
-description: Uses the Stripe API to pull charge, refund, dispute, and payout records and reconciles them against expected revenue figures. Flags mismatches and duplicate charges, outputting a CSV report with Strip
-category: Integrations & Connectors
-framework: Codex
+name: "Stripe Revenue Reconciliation Agent"
+description: "Uses the Stripe API to pull charge, refund, dispute, and payout records and reconciles them against expected revenue figures. Flags mismatches and duplicate charges, outputting a CSV report with Stripe object IDs for audit trails. Supports live and test mode keys."
+category: "Integrations & Connectors"
+framework: "Codex"
 verification: verified_metadata
 rating: 4.9
 reviews: 11
+creator: Isabella Rossi
+creator_handle: irossi
+creator_verified: false
 source: https://agentskillexchange.com/skill/stripe-revenue-reconciliation-agent-2/
 ---
 
@@ -13,37 +16,53 @@ source: https://agentskillexchange.com/skill/stripe-revenue-reconciliation-agent
 
 Uses the Stripe API to pull charge, refund, dispute, and payout records and reconciles them against expected revenue figures. Flags mismatches and duplicate charges, outputting a CSV report with Stripe object IDs for audit trails. Supports live and test mode keys.
 
-## Overview
-
-Uses the Stripe API to pull charge, refund, dispute, and payout records and reconciles them against expected revenue figures. Flags mismatches and duplicate charges, outputting a CSV report with Stripe object IDs for audit trails. Supports live and test mode keys.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill stripe-revenue-reconciliation-agent-2
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill stripe-revenue-reconciliation-agent-2 -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill stripe-revenue-reconciliation-agent-2 -a cursor
+```
+
 ### OpenClaw
 
 ```bash
-openclaw install stripe-revenue-reconciliation-agent-2
+clawhub install stripe-revenue-reconciliation-agent-2
 ```
 
-### Manual
+### Codex
 
-Download this `SKILL.md` file and place it in your agent's skills directory.
+```bash
+npx skills add agentskillexchange/skills --skill stripe-revenue-reconciliation-agent-2 -a codex
+```
 
-## Metadata
+## Details
 
 | Field | Value |
 |-------|-------|
 | Category | Integrations & Connectors |
 | Framework | Codex |
 | Verification | Verified Metadata |
-| Rating | ⭐⭐⭐⭐ 4.9/5.0 (11 reviews) |
+| Rating | 4.9/5 (11 reviews) |
 
----
+## Creator
 
-*Published on [Agent Skill Exchange](https://agentskillexchange.com/skill/stripe-revenue-reconciliation-agent-2/)*
+**Isabella Rossi**
+- Profile: [@irossi](https://agentskillexchange.com/browse-skills/?creator=irossi)
+
+## Links
+
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/stripe-revenue-reconciliation-agent-2/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -1,11 +1,14 @@
 ---
-name: CodeClimate Maintainability Tracker
-description: Tracks code maintainability trends using the Code Climate API v1 /repos endpoint. Monitors technical debt ratio, cognitive complexity scores, and file churn correlation across sprints.
-category: Code Quality &amp; Review
-framework: Any Agent
+name: "CodeClimate Maintainability Tracker"
+description: "Tracks code maintainability trends using the Code Climate API v1 /repos endpoint. Monitors technical debt ratio, cognitive complexity scores, and file churn correlation across sprints."
+category: "Code Quality & Review"
+framework: "OpenClaw"
 verification: security_reviewed
 rating: 4.8
 reviews: 64
+creator: David Kim
+creator_handle: dkim
+creator_verified: false
 source: https://agentskillexchange.com/skill/codeclimate-maintainability-tracker-3/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/codeclimate-maintainability-tracker
 
 Tracks code maintainability trends using the Code Climate API v1 /repos endpoint. Monitors technical debt ratio, cognitive complexity scores, and file churn correlation across sprints.
 
-## Overview
-
-Tracks code maintainability trends using the Code Climate API v1 /repos endpoint. Monitors technical debt ratio, cognitive complexity scores, and file churn correlation across sprints.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill codeclimate-maintainability-tracker-3
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill codeclimate-maintainability-tracker-3 -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill codeclimate-maintainability-tracker-3 -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill codeclimate-maintainability-tra
 clawhub install codeclimate-maintainability-tracker-3
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add codeclimate-maintainability-tracker-3
+npx skills add agentskillexchange/skills --skill codeclimate-maintainability-tracker-3 -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/codeclimate-maintainability-tracker-3/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Code Quality & Review |
+| Framework | OpenClaw |
+| Verification | Security Reviewed |
+| Rating | 4.8/5 (64 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Code Quality &amp; Review
-- **Framework**: Any Agent
-- **Rating**: 4.8/5 (64 reviews)
+**David Kim**
+- Profile: [@dkim](https://agentskillexchange.com/browse-skills/?creator=dkim)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/codeclimate-maintainability-tracker-3/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/codeclimate-maintainability-tracker-3/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

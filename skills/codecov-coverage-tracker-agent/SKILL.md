@@ -1,11 +1,14 @@
 ---
-name: Codecov Coverage Tracker Agent
-description: Tracks and enforces code coverage using Codecov API, lcov, and Istanbul/nyc. Generates coverage reports, detects regressions, and blocks PRs below threshold.
-category: Code Quality &amp; Review
-framework: Any Agent
-verification: listed
+name: "Codecov Coverage Tracker Agent"
+description: "Tracks and enforces code coverage using Codecov API, lcov, and Istanbul/nyc. Generates coverage reports, detects regressions, and blocks PRs below threshold."
+category: "Code Quality & Review"
+framework: "MCP-compatible"
+verification: 
 rating: 4.3
 reviews: 19
+creator: Leo Park
+creator_handle: leopark
+creator_verified: true
 source: https://agentskillexchange.com/skill/codecov-coverage-tracker-agent/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/codecov-coverage-tracker-agent/
 
 Tracks and enforces code coverage using Codecov API, lcov, and Istanbul/nyc. Generates coverage reports, detects regressions, and blocks PRs below threshold.
 
-## Overview
-
-Tracks and enforces code coverage using Codecov API, lcov, and Istanbul/nyc. Generates coverage reports, detects regressions, and blocks PRs below threshold.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill codecov-coverage-tracker-agent
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill codecov-coverage-tracker-agent -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill codecov-coverage-tracker-agent -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill codecov-coverage-tracker-agent
 clawhub install codecov-coverage-tracker-agent
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add codecov-coverage-tracker-agent
+npx skills add agentskillexchange/skills --skill codecov-coverage-tracker-agent -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/codecov-coverage-tracker-agent/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Code Quality & Review |
+| Framework | MCP-compatible |
+| Verification | Listed |
+| Rating | 4.3/5 (19 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: listed
-- **Category**: Code Quality &amp; Review
-- **Framework**: Any Agent
-- **Rating**: 4.3/5 (19 reviews)
+**Leo Park** (Verified Creator ✓)
+- Profile: [@leopark](https://agentskillexchange.com/browse-skills/?creator=leopark)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/codecov-coverage-tracker-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/codecov-coverage-tracker-agent/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

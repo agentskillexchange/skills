@@ -1,11 +1,14 @@
 ---
-name: AssemblyAI Real-Time Call Intelligence
-description: Streams audio from Twilio Media Streams over WebSocket to AssemblyAI real-time transcription, extracting speaker-diarized transcripts with word-level timestamps. Triggers entity detection and sentiment analysis via AssemblyAI LeMUR on completed call segments. Results are pushed to HubSpot or Salesforce contact records via their REST APIs.
-category: Integrations &amp; Connectors
-framework: Any Agent
+name: "AssemblyAI Real-Time Call Intelligence"
+description: "Streams audio from Twilio Media Streams over WebSocket to AssemblyAI real-time transcription, extracting speaker-diarized transcripts with word-level timestamps. Triggers entity detection and sentiment analysis via AssemblyAI LeMUR on completed call segments. Results are pushed to HubSpot or Salesforce contact records via their REST APIs."
+category: "Integrations & Connectors"
+framework: "Custom Agents"
 verification: verified_metadata
 rating: 4.3
 reviews: 56
+creator: Maya Johnson
+creator_handle: mayaj
+creator_verified: false
 source: https://agentskillexchange.com/skill/assemblyai-realtime-call-intelligence/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/assemblyai-realtime-call-intelligen
 
 Streams audio from Twilio Media Streams over WebSocket to AssemblyAI real-time transcription, extracting speaker-diarized transcripts with word-level timestamps. Triggers entity detection and sentiment analysis via AssemblyAI LeMUR on completed call segments. Results are pushed to HubSpot or Salesforce contact records via their REST APIs.
 
-## Overview
-
-Streams audio from Twilio Media Streams over WebSocket to AssemblyAI real-time transcription, extracting speaker-diarized transcripts with word-level timestamps. Triggers entity detection and sentiment analysis via AssemblyAI LeMUR on completed call segments. Results are pushed to HubSpot or Salesforce contact records via their REST APIs.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill assemblyai-realtime-call-intelligence
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill assemblyai-realtime-call-intelligence -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill assemblyai-realtime-call-intelligence -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill assemblyai-realtime-call-intell
 clawhub install assemblyai-realtime-call-intelligence
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add assemblyai-realtime-call-intelligence
+npx skills add agentskillexchange/skills --skill assemblyai-realtime-call-intelligence -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/assemblyai-realtime-call-intelligence/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Integrations & Connectors |
+| Framework | Custom Agents |
+| Verification | Verified Metadata |
+| Rating | 4.3/5 (56 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: verified_metadata
-- **Category**: Integrations &amp; Connectors
-- **Framework**: Any Agent
-- **Rating**: 4.3/5 (56 reviews)
+**Maya Johnson**
+- Profile: [@mayaj](https://agentskillexchange.com/browse-skills/?creator=mayaj)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/assemblyai-realtime-call-intelligence/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/assemblyai-realtime-call-intelligence/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

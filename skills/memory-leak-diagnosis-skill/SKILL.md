@@ -1,28 +1,39 @@
 ---
-name: Memory Leak Diagnosis Skill
-description: Agent skill for memory leak diagnosis skill.
-category: Monitoring &amp; Alerts
-framework: Any Agent
+name: "Memory Leak Diagnosis Skill"
+description: "Use this skill to systematically identify memory leaks in Node.js and Python applications through heap profiling, garbage collection analysis, and memory growth tracking. It guides through capturing heap snapshots, comparing memory over time, and identifying leak sources. Trigger when application memory grows unboundedly, OOM errors occur, or process memory exceeds expected levels."
+category: "Monitoring & Alerts"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.1
 reviews: 6
+creator: Omar Hassan
+creator_handle: ohassan
+creator_verified: true
 source: https://agentskillexchange.com/skill/memory-leak-diagnosis-skill/
 ---
 
 # Memory Leak Diagnosis Skill
 
-Agent skill for memory leak diagnosis skill.
-
-## Overview
-
-Agent skill for memory leak diagnosis skill.
+Use this skill to systematically identify memory leaks in Node.js and Python applications through heap profiling, garbage collection analysis, and memory growth tracking. It guides through capturing heap snapshots, comparing memory over time, and identifying leak sources. Trigger when application memory grows unboundedly, OOM errors occur, or process memory exceeds expected levels.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill memory-leak-diagnosis-skill
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill memory-leak-diagnosis-skill -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill memory-leak-diagnosis-skill -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill memory-leak-diagnosis-skill
 clawhub install memory-leak-diagnosis-skill
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add memory-leak-diagnosis-skill
+npx skills add agentskillexchange/skills --skill memory-leak-diagnosis-skill -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/memory-leak-diagnosis-skill/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Monitoring & Alerts |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.1/5 (6 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Monitoring &amp; Alerts
-- **Framework**: Any Agent
-- **Rating**: 4.1/5 (6 reviews)
+**Omar Hassan** (Verified Creator ✓)
+- Profile: [@ohassan](https://agentskillexchange.com/browse-skills/?creator=ohassan)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/memory-leak-diagnosis-skill/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/memory-leak-diagnosis-skill/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -1,11 +1,14 @@
 ---
-name: Docker Build Cache Optimizer
-description: Optimizes Docker build performance using BuildKit cache mount analysis, docker history layer inspection, and Dockerfile linting via hadolint. Reduces build times by restructuring layer ordering and implementing multi-stage build patterns.
-category: Code Quality &amp; Review
-framework: Any Agent
+name: "Docker Build Cache Optimizer"
+description: "Optimizes Docker build performance using BuildKit cache mount analysis, docker history layer inspection, and Dockerfile linting via hadolint. Reduces build times by restructuring layer ordering and implementing multi-stage build patterns."
+category: "Code Quality & Review"
+framework: "Claude Code"
 verification: security_reviewed
 rating: 4.5
 reviews: 80
+creator: James Whitfield
+creator_handle: jwhitfield
+creator_verified: true
 source: https://agentskillexchange.com/skill/docker-build-cache-optimizer/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/docker-build-cache-optimizer/
 
 Optimizes Docker build performance using BuildKit cache mount analysis, docker history layer inspection, and Dockerfile linting via hadolint. Reduces build times by restructuring layer ordering and implementing multi-stage build patterns.
 
-## Overview
-
-Optimizes Docker build performance using BuildKit cache mount analysis, docker history layer inspection, and Dockerfile linting via hadolint. Reduces build times by restructuring layer ordering and implementing multi-stage build patterns.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill docker-build-cache-optimizer
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill docker-build-cache-optimizer -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill docker-build-cache-optimizer -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill docker-build-cache-optimizer
 clawhub install docker-build-cache-optimizer
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add docker-build-cache-optimizer
+npx skills add agentskillexchange/skills --skill docker-build-cache-optimizer -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/docker-build-cache-optimizer/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Code Quality & Review |
+| Framework | Claude Code |
+| Verification | Security Reviewed |
+| Rating | 4.5/5 (80 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Code Quality &amp; Review
-- **Framework**: Any Agent
-- **Rating**: 4.5/5 (80 reviews)
+**James Whitfield** (Verified Creator ✓)
+- Profile: [@jwhitfield](https://agentskillexchange.com/browse-skills/?creator=jwhitfield)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/docker-build-cache-optimizer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/docker-build-cache-optimizer/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

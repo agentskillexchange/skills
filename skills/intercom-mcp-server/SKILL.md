@@ -1,28 +1,39 @@
 ---
-name: Intercom MCP Server
-description: Agent skill for intercom mcp server.
-category: Templates &amp; Workflows
-framework: Any Agent
+name: "Intercom MCP Server"
+description: "Use this skill to manage Intercom customer conversations, create user segments, run campaigns, and access customer data through MCP. It enables agents to automate customer communication workflows and sync user data. Trigger when you need to send targeted messages, update user attributes, create segments, or integrate Intercom with data pipelines."
+category: "Templates & Workflows"
+framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.4
 reviews: 18
+creator: Elena Kowalski
+creator_handle: ekowalski
+creator_verified: true
 source: https://agentskillexchange.com/skill/intercom-mcp-server/
 ---
 
 # Intercom MCP Server
 
-Agent skill for intercom mcp server.
-
-## Overview
-
-Agent skill for intercom mcp server.
+Use this skill to manage Intercom customer conversations, create user segments, run campaigns, and access customer data through MCP. It enables agents to automate customer communication workflows and sync user data. Trigger when you need to send targeted messages, update user attributes, create segments, or integrate Intercom with data pipelines.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill intercom-mcp-server
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill intercom-mcp-server -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill intercom-mcp-server -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill intercom-mcp-server
 clawhub install intercom-mcp-server
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add intercom-mcp-server
+npx skills add agentskillexchange/skills --skill intercom-mcp-server -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/intercom-mcp-server/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Templates & Workflows |
+| Framework | MCP-compatible |
+| Verification | Security Reviewed |
+| Rating | 4.4/5 (18 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Templates &amp; Workflows
-- **Framework**: Any Agent
-- **Rating**: 4.4/5 (18 reviews)
+**Elena Kowalski** (Verified Creator ✓)
+- Profile: [@ekowalski](https://agentskillexchange.com/browse-skills/?creator=ekowalski)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/intercom-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/intercom-mcp-server/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

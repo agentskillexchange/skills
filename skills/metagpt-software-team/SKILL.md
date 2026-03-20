@@ -1,28 +1,39 @@
 ---
-name: MetaGPT Software Team
-description: Agent skill for metagpt software team.
-category: Developer Tools
-framework: Any Agent
+name: "MetaGPT Software Team"
+description: "MetaGPT assigns specialized software engineering roles (Product Manager, Architect, Engineer, QA) to LLM agents to collaboratively develop software from a single requirement input. This skill covers using MetaGPT to generate full software projects with structured outputs."
+category: "Developer Tools"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.3
 reviews: 13
+creator: Mia Zhang
+creator_handle: miazhang
+creator_verified: true
 source: https://agentskillexchange.com/skill/metagpt-software-team/
 ---
 
 # MetaGPT Software Team
 
-Agent skill for metagpt software team.
-
-## Overview
-
-Agent skill for metagpt software team.
+MetaGPT assigns specialized software engineering roles (Product Manager, Architect, Engineer, QA) to LLM agents to collaboratively develop software from a single requirement input. This skill covers using MetaGPT to generate full software projects with structured outputs.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill metagpt-software-team
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill metagpt-software-team -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill metagpt-software-team -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill metagpt-software-team
 clawhub install metagpt-software-team
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add metagpt-software-team
+npx skills add agentskillexchange/skills --skill metagpt-software-team -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/metagpt-software-team/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Developer Tools |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.3/5 (13 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Developer Tools
-- **Framework**: Any Agent
-- **Rating**: 4.3/5 (13 reviews)
+**Mia Zhang** (Verified Creator ✓)
+- Profile: [@miazhang](https://agentskillexchange.com/browse-skills/?creator=miazhang)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/metagpt-software-team/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/metagpt-software-team/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

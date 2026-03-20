@@ -1,28 +1,39 @@
 ---
-name: Auth Token Rotator
-description: Agent skill for auth token rotator.
-category: Library &amp; API Reference
-framework: Any Agent
+name: "Auth Token Rotator"
+description: "Automates API authentication token rotation — OAuth2 token refresh, API key cycling, and JWT renewal. Handles secret storage, rotation scheduling, and notifies dependent services of new credentials."
+category: "Library & API Reference"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.1
 reviews: 81
+creator: Omar Hassan
+creator_handle: ohassan
+creator_verified: true
 source: https://agentskillexchange.com/skill/auth-token-rotator/
 ---
 
 # Auth Token Rotator
 
-Agent skill for auth token rotator.
-
-## Overview
-
-Agent skill for auth token rotator.
+Automates API authentication token rotation — OAuth2 token refresh, API key cycling, and JWT renewal. Handles secret storage, rotation scheduling, and notifies dependent services of new credentials.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill auth-token-rotator
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill auth-token-rotator -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill auth-token-rotator -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill auth-token-rotator
 clawhub install auth-token-rotator
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add auth-token-rotator
+npx skills add agentskillexchange/skills --skill auth-token-rotator -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/auth-token-rotator/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Library & API Reference |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.1/5 (81 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Library &amp; API Reference
-- **Framework**: Any Agent
-- **Rating**: 4.1/5 (81 reviews)
+**Omar Hassan** (Verified Creator ✓)
+- Profile: [@ohassan](https://agentskillexchange.com/browse-skills/?creator=ohassan)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/auth-token-rotator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/auth-token-rotator/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

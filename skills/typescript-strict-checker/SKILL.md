@@ -1,28 +1,39 @@
 ---
-name: TypeScript Strict Checker
-description: Agent skill for typescript strict checker.
-category: Code Quality &amp; Review
-framework: Any Agent
+name: "TypeScript Strict Checker"
+description: "Enables and enforces TypeScript strict mode settings across a project. Identifies type safety gaps, implicit any usages, unchecked nullable access, and missing return types. Generates a migration plan for enabling strict mode incrementally."
+category: "Code Quality & Review"
+framework: "Claude Code"
 verification: security_reviewed
 rating: 4.3
 reviews: 83
+creator: Mia Zhang
+creator_handle: miazhang
+creator_verified: true
 source: https://agentskillexchange.com/skill/typescript-strict-checker/
 ---
 
 # TypeScript Strict Checker
 
-Agent skill for typescript strict checker.
-
-## Overview
-
-Agent skill for typescript strict checker.
+Enables and enforces TypeScript strict mode settings across a project. Identifies type safety gaps, implicit any usages, unchecked nullable access, and missing return types. Generates a migration plan for enabling strict mode incrementally.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill typescript-strict-checker
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill typescript-strict-checker -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill typescript-strict-checker -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill typescript-strict-checker
 clawhub install typescript-strict-checker
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add typescript-strict-checker
+npx skills add agentskillexchange/skills --skill typescript-strict-checker -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/typescript-strict-checker/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Code Quality & Review |
+| Framework | Claude Code |
+| Verification | Security Reviewed |
+| Rating | 4.3/5 (83 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Code Quality &amp; Review
-- **Framework**: Any Agent
-- **Rating**: 4.3/5 (83 reviews)
+**Mia Zhang** (Verified Creator ✓)
+- Profile: [@miazhang](https://agentskillexchange.com/browse-skills/?creator=miazhang)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/typescript-strict-checker/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/typescript-strict-checker/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

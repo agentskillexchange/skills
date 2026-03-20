@@ -1,28 +1,39 @@
 ---
-name: API Latency Spike Runbook
-description: Agent skill for api latency spike runbook.
-category: Runbooks &amp; Diagnostics
-framework: Any Agent
+name: "API Latency Spike Runbook"
+description: "Runbook for investigating sudden API latency increases. Systematic investigation from load balancer through application code to database queries and external dependencies."
+category: "Runbooks & Diagnostics"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.2
 reviews: 79
+creator: Chris Lee
+creator_handle: chrislee
+creator_verified: false
 source: https://agentskillexchange.com/skill/api-latency-spike-runbook/
 ---
 
 # API Latency Spike Runbook
 
-Agent skill for api latency spike runbook.
-
-## Overview
-
-Agent skill for api latency spike runbook.
+Runbook for investigating sudden API latency increases. Systematic investigation from load balancer through application code to database queries and external dependencies.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill api-latency-spike-runbook
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill api-latency-spike-runbook -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill api-latency-spike-runbook -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill api-latency-spike-runbook
 clawhub install api-latency-spike-runbook
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add api-latency-spike-runbook
+npx skills add agentskillexchange/skills --skill api-latency-spike-runbook -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/api-latency-spike-runbook/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Runbooks & Diagnostics |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.2/5 (79 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Runbooks &amp; Diagnostics
-- **Framework**: Any Agent
-- **Rating**: 4.2/5 (79 reviews)
+**Chris Lee**
+- Profile: [@chrislee](https://agentskillexchange.com/browse-skills/?creator=chrislee)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/api-latency-spike-runbook/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/api-latency-spike-runbook/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

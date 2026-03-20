@@ -1,28 +1,39 @@
 ---
-name: Incident Postmortem Automation Skill
-description: Agent skill for incident postmortem automation skill.
-category: Monitoring &amp; Alerts
-framework: Any Agent
+name: "Incident Postmortem Automation Skill"
+description: "Use this skill to automatically generate postmortem documents from incident timelines, alert histories, and remediation notes. It produces structured postmortems following blameless practices with timeline, impact analysis, root cause, and action items. Trigger when an incident is resolved and postmortem documentation needs to be created efficiently."
+category: "Monitoring & Alerts"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.1
 reviews: 27
+creator: Ava Wilson
+creator_handle: avawilson
+creator_verified: true
 source: https://agentskillexchange.com/skill/incident-postmortem-automation-skill/
 ---
 
 # Incident Postmortem Automation Skill
 
-Agent skill for incident postmortem automation skill.
-
-## Overview
-
-Agent skill for incident postmortem automation skill.
+Use this skill to automatically generate postmortem documents from incident timelines, alert histories, and remediation notes. It produces structured postmortems following blameless practices with timeline, impact analysis, root cause, and action items. Trigger when an incident is resolved and postmortem documentation needs to be created efficiently.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill incident-postmortem-automation-skill
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill incident-postmortem-automation-skill -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill incident-postmortem-automation-skill -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill incident-postmortem-automation-
 clawhub install incident-postmortem-automation-skill
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add incident-postmortem-automation-skill
+npx skills add agentskillexchange/skills --skill incident-postmortem-automation-skill -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/incident-postmortem-automation-skill/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Monitoring & Alerts |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.1/5 (27 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Monitoring &amp; Alerts
-- **Framework**: Any Agent
-- **Rating**: 4.1/5 (27 reviews)
+**Ava Wilson** (Verified Creator ✓)
+- Profile: [@avawilson](https://agentskillexchange.com/browse-skills/?creator=avawilson)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/incident-postmortem-automation-skill/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/incident-postmortem-automation-skill/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

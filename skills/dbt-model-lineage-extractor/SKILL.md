@@ -1,11 +1,14 @@
 ---
-name: dbt Model Lineage Extractor
-description: Parses dbt project manifests and extracts full model lineage graphs using the dbt Core Python API and manifest.json. Identifies orphaned models, circular dependencies, and models missing tests using the dbt Graph API. Outputs a lineage report and optionally pushes graph data to Atlan or DataHub via their REST APIs.
-category: Data Extraction &amp; Transformation
-framework: Any Agent
+name: "dbt Model Lineage Extractor"
+description: "Parses dbt project manifests and extracts full model lineage graphs using the dbt Core Python API and manifest.json. Identifies orphaned models, circular dependencies, and models missing tests using the dbt Graph API. Outputs a lineage report and optionally pushes graph data to Atlan or DataHub via their REST APIs."
+category: "Data Extraction & Transformation"
+framework: "Claude Code"
 verification: verified_metadata
 rating: 4.7
 reviews: 54
+creator: David Kim
+creator_handle: dkim
+creator_verified: false
 source: https://agentskillexchange.com/skill/dbt-model-lineage-extractor/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/dbt-model-lineage-extractor/
 
 Parses dbt project manifests and extracts full model lineage graphs using the dbt Core Python API and manifest.json. Identifies orphaned models, circular dependencies, and models missing tests using the dbt Graph API. Outputs a lineage report and optionally pushes graph data to Atlan or DataHub via their REST APIs.
 
-## Overview
-
-Parses dbt project manifests and extracts full model lineage graphs using the dbt Core Python API and manifest.json. Identifies orphaned models, circular dependencies, and models missing tests using the dbt Graph API. Outputs a lineage report and optionally pushes graph data to Atlan or DataHub via their REST APIs.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill dbt-model-lineage-extractor
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill dbt-model-lineage-extractor -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill dbt-model-lineage-extractor -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill dbt-model-lineage-extractor
 clawhub install dbt-model-lineage-extractor
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add dbt-model-lineage-extractor
+npx skills add agentskillexchange/skills --skill dbt-model-lineage-extractor -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/dbt-model-lineage-extractor/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Data Extraction & Transformation |
+| Framework | Claude Code |
+| Verification | Verified Metadata |
+| Rating | 4.7/5 (54 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: verified_metadata
-- **Category**: Data Extraction &amp; Transformation
-- **Framework**: Any Agent
-- **Rating**: 4.7/5 (54 reviews)
+**David Kim**
+- Profile: [@dkim](https://agentskillexchange.com/browse-skills/?creator=dkim)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/dbt-model-lineage-extractor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/dbt-model-lineage-extractor/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

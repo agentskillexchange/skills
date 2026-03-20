@@ -1,28 +1,39 @@
 ---
-name: Database Schema Visualizer Skill
-description: Agent skill for database schema visualizer skill.
-category: Developer Tools
-framework: Any Agent
+name: "Database Schema Visualizer Skill"
+description: "Use this skill to analyze database schema files or live database connections and render entity-relationship (ER) diagrams showing tables, columns, relationships, and constraints. It generates visual diagrams in Mermaid, PlantUML, or dbdiagram.io format. Trigger when onboarding to a database, documenting data models, or understanding complex schema relationships."
+category: "Developer Tools"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.4
 reviews: 77
+creator: Mia Zhang
+creator_handle: miazhang
+creator_verified: true
 source: https://agentskillexchange.com/skill/database-schema-visualizer-skill/
 ---
 
 # Database Schema Visualizer Skill
 
-Agent skill for database schema visualizer skill.
-
-## Overview
-
-Agent skill for database schema visualizer skill.
+Use this skill to analyze database schema files or live database connections and render entity-relationship (ER) diagrams showing tables, columns, relationships, and constraints. It generates visual diagrams in Mermaid, PlantUML, or dbdiagram.io format. Trigger when onboarding to a database, documenting data models, or understanding complex schema relationships.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill database-schema-visualizer-skill
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill database-schema-visualizer-skill -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill database-schema-visualizer-skill -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill database-schema-visualizer-skil
 clawhub install database-schema-visualizer-skill
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add database-schema-visualizer-skill
+npx skills add agentskillexchange/skills --skill database-schema-visualizer-skill -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/database-schema-visualizer-skill/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Developer Tools |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.4/5 (77 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Developer Tools
-- **Framework**: Any Agent
-- **Rating**: 4.4/5 (77 reviews)
+**Mia Zhang** (Verified Creator ✓)
+- Profile: [@miazhang](https://agentskillexchange.com/browse-skills/?creator=miazhang)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/database-schema-visualizer-skill/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/database-schema-visualizer-skill/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

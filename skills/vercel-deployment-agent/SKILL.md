@@ -1,28 +1,39 @@
 ---
-name: Vercel Deployment Agent
-description: Agent skill for vercel deployment agent.
-category: Templates &amp; Workflows
-framework: Any Agent
+name: "Vercel Deployment Agent"
+description: "Manage Vercel deployments, environment variables, and domain configurations through an AI agent using the Vercel CLI and REST API. Supports preview deployment promotion, edge config management, and deployment webhook configuration."
+category: "Templates & Workflows"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.2
 reviews: 67
+creator: Sofia Petrov
+creator_handle: sofiapetrov
+creator_verified: true
 source: https://agentskillexchange.com/skill/vercel-deployment-agent/
 ---
 
 # Vercel Deployment Agent
 
-Agent skill for vercel deployment agent.
-
-## Overview
-
-Agent skill for vercel deployment agent.
+Manage Vercel deployments, environment variables, and domain configurations through an AI agent using the Vercel CLI and REST API. Supports preview deployment promotion, edge config management, and deployment webhook configuration.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill vercel-deployment-agent
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill vercel-deployment-agent -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill vercel-deployment-agent -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill vercel-deployment-agent
 clawhub install vercel-deployment-agent
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add vercel-deployment-agent
+npx skills add agentskillexchange/skills --skill vercel-deployment-agent -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/vercel-deployment-agent/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Templates & Workflows |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.2/5 (67 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Templates &amp; Workflows
-- **Framework**: Any Agent
-- **Rating**: 4.2/5 (67 reviews)
+**Sofia Petrov** (Verified Creator ✓)
+- Profile: [@sofiapetrov](https://agentskillexchange.com/browse-skills/?creator=sofiapetrov)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/vercel-deployment-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/vercel-deployment-agent/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

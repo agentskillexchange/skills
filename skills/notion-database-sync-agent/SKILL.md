@@ -1,11 +1,14 @@
 ---
-name: Notion Database Sync Agent
-description: Syncs records between Notion databases and external sources using the Notion API (POST /v1/databases/{id}/query), applying field mapping, deduplication by title or unique property, and incremental updates via last_edited_time filtering.
-category: Calendar, Email &amp; Productivity
-framework: Any Agent
-verification: listed
+name: "Notion Database Sync Agent"
+description: "Syncs records between Notion databases and external sources using the Notion API (POST /v1/databases/{id}/query), applying field mapping, deduplication by title or unique property, and incremental updates via last_edited_time filtering."
+category: "Calendar, Email & Productivity"
+framework: "Claude Agents"
+verification: 
 rating: 4.8
 reviews: 51
+creator: Zara Ahmed
+creator_handle: zaraahmed
+creator_verified: true
 source: https://agentskillexchange.com/skill/notion-database-sync-agent/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/notion-database-sync-agent/
 
 Syncs records between Notion databases and external sources using the Notion API (POST /v1/databases/{id}/query), applying field mapping, deduplication by title or unique property, and incremental updates via last_edited_time filtering.
 
-## Overview
-
-Syncs records between Notion databases and external sources using the Notion API (POST /v1/databases/{id}/query), applying field mapping, deduplication by title or unique property, and incremental updates via last_edited_time filtering.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill notion-database-sync-agent
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill notion-database-sync-agent -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill notion-database-sync-agent -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill notion-database-sync-agent
 clawhub install notion-database-sync-agent
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add notion-database-sync-agent
+npx skills add agentskillexchange/skills --skill notion-database-sync-agent -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/notion-database-sync-agent/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Calendar, Email & Productivity |
+| Framework | Claude Agents |
+| Verification | Listed |
+| Rating | 4.8/5 (51 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: listed
-- **Category**: Calendar, Email &amp; Productivity
-- **Framework**: Any Agent
-- **Rating**: 4.8/5 (51 reviews)
+**Zara Ahmed** (Verified Creator ✓)
+- Profile: [@zaraahmed](https://agentskillexchange.com/browse-skills/?creator=zaraahmed)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/notion-database-sync-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/notion-database-sync-agent/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

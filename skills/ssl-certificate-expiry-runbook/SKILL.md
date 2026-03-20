@@ -1,11 +1,14 @@
 ---
-name: SSL Certificate Expiry Runbook
-description: Runbook for handling SSL/TLS certificate expiry incidents. Covers detection, emergency renewal, deployment, and post-incident certificate lifecycle improvements.
-category: Runbooks & Diagnostics
-framework: Custom Agents
+name: "SSL Certificate Expiry Runbook"
+description: "Runbook for handling SSL/TLS certificate expiry incidents. Covers detection, emergency renewal, deployment, and post-incident certificate lifecycle improvements."
+category: "Runbooks & Diagnostics"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.8
 reviews: 64
+creator: Alex Thompson
+creator_handle: alexthompson
+creator_verified: true
 source: https://agentskillexchange.com/skill/ssl-certificate-expiry-runbook/
 ---
 
@@ -13,37 +16,53 @@ source: https://agentskillexchange.com/skill/ssl-certificate-expiry-runbook/
 
 Runbook for handling SSL/TLS certificate expiry incidents. Covers detection, emergency renewal, deployment, and post-incident certificate lifecycle improvements.
 
-## Overview
-
-Runbook for handling SSL/TLS certificate expiry incidents. Covers detection, emergency renewal, deployment, and post-incident certificate lifecycle improvements.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill ssl-certificate-expiry-runbook
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill ssl-certificate-expiry-runbook -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill ssl-certificate-expiry-runbook -a cursor
+```
+
 ### OpenClaw
 
 ```bash
-openclaw install ssl-certificate-expiry-runbook
+clawhub install ssl-certificate-expiry-runbook
 ```
 
-### Manual
+### Codex
 
-Download this `SKILL.md` file and place it in your agent's skills directory.
+```bash
+npx skills add agentskillexchange/skills --skill ssl-certificate-expiry-runbook -a codex
+```
 
-## Metadata
+## Details
 
 | Field | Value |
 |-------|-------|
 | Category | Runbooks & Diagnostics |
 | Framework | Custom Agents |
 | Verification | Security Reviewed |
-| Rating | ⭐⭐⭐⭐ 4.8/5.0 (64 reviews) |
+| Rating | 4.8/5 (64 reviews) |
 
----
+## Creator
 
-*Published on [Agent Skill Exchange](https://agentskillexchange.com/skill/ssl-certificate-expiry-runbook/)*
+**Alex Thompson** (Verified Creator ✓)
+- Profile: [@alexthompson](https://agentskillexchange.com/browse-skills/?creator=alexthompson)
+
+## Links
+
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/ssl-certificate-expiry-runbook/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

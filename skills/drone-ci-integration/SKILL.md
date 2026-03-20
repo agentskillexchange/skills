@@ -1,28 +1,39 @@
 ---
-name: Drone CI Integration
-description: Agent skill for drone ci integration.
-category: CI/CD Integrations
-framework: Any Agent
+name: "Drone CI Integration"
+description: "Builds and manages Drone CI pipelines for containerized build workflows. Covers .drone.yml authoring, pipeline stages, multi-platform builds (ARM + x86), secret management, and Drone plugin ecosystem."
+category: "CI/CD Integrations"
+framework: "Claude Code"
 verification: security_reviewed
 rating: 4.4
 reviews: 39
+creator: Priya Sharma
+creator_handle: priyasharma
+creator_verified: true
 source: https://agentskillexchange.com/skill/drone-ci-integration/
 ---
 
 # Drone CI Integration
 
-Agent skill for drone ci integration.
-
-## Overview
-
-Agent skill for drone ci integration.
+Builds and manages Drone CI pipelines for containerized build workflows. Covers .drone.yml authoring, pipeline stages, multi-platform builds (ARM + x86), secret management, and Drone plugin ecosystem.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill drone-ci-integration
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill drone-ci-integration -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill drone-ci-integration -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill drone-ci-integration
 clawhub install drone-ci-integration
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add drone-ci-integration
+npx skills add agentskillexchange/skills --skill drone-ci-integration -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/drone-ci-integration/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | CI/CD Integrations |
+| Framework | Claude Code |
+| Verification | Security Reviewed |
+| Rating | 4.4/5 (39 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: CI/CD Integrations
-- **Framework**: Any Agent
-- **Rating**: 4.4/5 (39 reviews)
+**Priya Sharma** (Verified Creator ✓)
+- Profile: [@priyasharma](https://agentskillexchange.com/browse-skills/?creator=priyasharma)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/drone-ci-integration/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/drone-ci-integration/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

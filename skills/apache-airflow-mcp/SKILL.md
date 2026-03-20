@@ -1,28 +1,39 @@
 ---
-name: Apache Airflow MCP
-description: Agent skill for apache airflow mcp.
-category: Data Extraction &amp; Transformation
-framework: Any Agent
+name: "Apache Airflow MCP"
+description: "Expose Apache Airflow DAGs, task logs, and run history to AI agents via MCP, enabling conversational DAG management and troubleshooting. Agents can trigger DAG runs, inspect task states, and retrieve XCom values without direct Airflow UI access."
+category: "Data Extraction & Transformation"
+framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.1
 reviews: 7
+creator: Alex Thompson
+creator_handle: alexthompson
+creator_verified: true
 source: https://agentskillexchange.com/skill/apache-airflow-mcp/
 ---
 
 # Apache Airflow MCP
 
-Agent skill for apache airflow mcp.
-
-## Overview
-
-Agent skill for apache airflow mcp.
+Expose Apache Airflow DAGs, task logs, and run history to AI agents via MCP, enabling conversational DAG management and troubleshooting. Agents can trigger DAG runs, inspect task states, and retrieve XCom values without direct Airflow UI access.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill apache-airflow-mcp
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill apache-airflow-mcp -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill apache-airflow-mcp -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill apache-airflow-mcp
 clawhub install apache-airflow-mcp
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add apache-airflow-mcp
+npx skills add agentskillexchange/skills --skill apache-airflow-mcp -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/apache-airflow-mcp/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Data Extraction & Transformation |
+| Framework | MCP-compatible |
+| Verification | Security Reviewed |
+| Rating | 4.1/5 (7 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Data Extraction &amp; Transformation
-- **Framework**: Any Agent
-- **Rating**: 4.1/5 (7 reviews)
+**Alex Thompson** (Verified Creator ✓)
+- Profile: [@alexthompson](https://agentskillexchange.com/browse-skills/?creator=alexthompson)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/apache-airflow-mcp/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/apache-airflow-mcp/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

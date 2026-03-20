@@ -1,11 +1,14 @@
 ---
-name: Agent Browser Operator
-description: Interactive browser skill for logged-in flows, dynamic pages, and session-aware site operations.
-category: Browser Automation
-framework: Any Agent
+name: "Agent Browser Operator"
+description: "Interactive browser skill for logged-in flows, dynamic pages, and session-aware site operations."
+category: "Browser Automation"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.2
 reviews: 52
+creator: Raj Gupta
+creator_handle: rajgupta
+creator_verified: true
 source: https://agentskillexchange.com/skill/agent-browser-operator/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/agent-browser-operator/
 
 Interactive browser skill for logged-in flows, dynamic pages, and session-aware site operations.
 
-## Overview
-
-Interactive browser skill for logged-in flows, dynamic pages, and session-aware site operations.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill agent-browser-operator
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill agent-browser-operator -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill agent-browser-operator -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill agent-browser-operator
 clawhub install agent-browser-operator
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add agent-browser-operator
+npx skills add agentskillexchange/skills --skill agent-browser-operator -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/agent-browser-operator/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Browser Automation |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.2/5 (52 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Browser Automation
-- **Framework**: Any Agent
-- **Rating**: 4.2/5 (52 reviews)
+**Raj Gupta** (Verified Creator ✓)
+- Profile: [@rajgupta](https://agentskillexchange.com/browse-skills/?creator=rajgupta)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/agent-browser-operator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/agent-browser-operator/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

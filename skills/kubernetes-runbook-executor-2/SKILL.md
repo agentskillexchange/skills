@@ -1,11 +1,14 @@
 ---
-name: Kubernetes Runbook Executor
-description: Executes diagnostic runbooks against Kubernetes clusters using the official kubernetes/client-go SDK and kubectl commands. Checks pod health via the /healthz and /readyz endpoints and analyzes events with the CoreV1 Events API.
-category: Runbooks &amp; Diagnostics
-framework: Any Agent
+name: "Kubernetes Runbook Executor"
+description: "Executes diagnostic runbooks against Kubernetes clusters using the official kubernetes/client-go SDK and kubectl commands. Checks pod health via the /healthz and /readyz endpoints and analyzes events with the CoreV1 Events API."
+category: "Runbooks & Diagnostics"
+framework: "OpenClaw"
 verification: security_reviewed
 rating: 4.7
 reviews: 78
+creator: Ava Wilson
+creator_handle: avawilson
+creator_verified: true
 source: https://agentskillexchange.com/skill/kubernetes-runbook-executor-2/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/kubernetes-runbook-executor-2/
 
 Executes diagnostic runbooks against Kubernetes clusters using the official kubernetes/client-go SDK and kubectl commands. Checks pod health via the /healthz and /readyz endpoints and analyzes events with the CoreV1 Events API.
 
-## Overview
-
-Executes diagnostic runbooks against Kubernetes clusters using the official kubernetes/client-go SDK and kubectl commands. Checks pod health via the /healthz and /readyz endpoints and analyzes events with the CoreV1 Events API.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill kubernetes-runbook-executor-2
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill kubernetes-runbook-executor-2 -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill kubernetes-runbook-executor-2 -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill kubernetes-runbook-executor-2
 clawhub install kubernetes-runbook-executor-2
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add kubernetes-runbook-executor-2
+npx skills add agentskillexchange/skills --skill kubernetes-runbook-executor-2 -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/kubernetes-runbook-executor-2/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Runbooks & Diagnostics |
+| Framework | OpenClaw |
+| Verification | Security Reviewed |
+| Rating | 4.7/5 (78 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Runbooks &amp; Diagnostics
-- **Framework**: Any Agent
-- **Rating**: 4.7/5 (78 reviews)
+**Ava Wilson** (Verified Creator ✓)
+- Profile: [@avawilson](https://agentskillexchange.com/browse-skills/?creator=avawilson)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/kubernetes-runbook-executor-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/kubernetes-runbook-executor-2/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

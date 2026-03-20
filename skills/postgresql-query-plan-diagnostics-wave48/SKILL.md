@@ -1,11 +1,14 @@
 ---
-name: PostgreSQL Query Plan Diagnostics
-description: Analyzes PostgreSQL query execution plans using EXPLAIN (ANALYZE, BUFFERS, FORMAT JSON) and the pg_stat_statements extension. Identifies sequential scans, nested loop inefficiencies, and index recommendations for slow queries.
-category: Runbooks &amp; Diagnostics
-framework: Any Agent
+name: "PostgreSQL Query Plan Diagnostics"
+description: "Analyzes PostgreSQL query execution plans using EXPLAIN (ANALYZE, BUFFERS, FORMAT JSON) and the pg_stat_statements extension. Identifies sequential scans, nested loop inefficiencies, and index recommendations for slow queries."
+category: "Runbooks & Diagnostics"
+framework: "Claude Code"
 verification: security_reviewed
 rating: 4.9
 reviews: 5
+creator: Sarah Chen
+creator_handle: sarahchen
+creator_verified: true
 source: https://agentskillexchange.com/skill/postgresql-query-plan-diagnostics-wave48/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/postgresql-query-plan-diagnostics-w
 
 Analyzes PostgreSQL query execution plans using EXPLAIN (ANALYZE, BUFFERS, FORMAT JSON) and the pg_stat_statements extension. Identifies sequential scans, nested loop inefficiencies, and index recommendations for slow queries.
 
-## Overview
-
-Analyzes PostgreSQL query execution plans using EXPLAIN (ANALYZE, BUFFERS, FORMAT JSON) and the pg_stat_statements extension. Identifies sequential scans, nested loop inefficiencies, and index recommendations for slow queries.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill postgresql-query-plan-diagnostics-wave48
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill postgresql-query-plan-diagnostics-wave48 -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill postgresql-query-plan-diagnostics-wave48 -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill postgresql-query-plan-diagnosti
 clawhub install postgresql-query-plan-diagnostics-wave48
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add postgresql-query-plan-diagnostics-wave48
+npx skills add agentskillexchange/skills --skill postgresql-query-plan-diagnostics-wave48 -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/postgresql-query-plan-diagnostics-wave48/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Runbooks & Diagnostics |
+| Framework | Claude Code |
+| Verification | Security Reviewed |
+| Rating | 4.9/5 (5 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Runbooks &amp; Diagnostics
-- **Framework**: Any Agent
-- **Rating**: 4.9/5 (5 reviews)
+**Sarah Chen** (Verified Creator ✓)
+- Profile: [@sarahchen](https://agentskillexchange.com/browse-skills/?creator=sarahchen)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/postgresql-query-plan-diagnostics-wave48/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/postgresql-query-plan-diagnostics-wave48/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

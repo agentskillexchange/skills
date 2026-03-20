@@ -1,11 +1,14 @@
 ---
-name: OpenAPI Spec Validator & Linter
-description: Validates and lints OpenAPI 3.x specifications using the @readme/openapi-parser and Spectral (@stoplight/spectral-core) rulesets. Detects schema inconsistencies, missing examples, and generates SDK co
-category: Library & API Reference
-framework: Gemini
+name: "OpenAPI Spec Validator & Linter"
+description: "Validates and lints OpenAPI 3.x specifications using the @readme/openapi-parser and Spectral (@stoplight/spectral-core) rulesets. Detects schema inconsistencies, missing examples, and generates SDK compatibility reports."
+category: "Library & API Reference"
+framework: "Gemini"
 verification: security_reviewed
 rating: 4.9
 reviews: 58
+creator: Luna Martinez
+creator_handle: lunamartinez
+creator_verified: false
 source: https://agentskillexchange.com/skill/openapi-spec-validator-linter/
 ---
 
@@ -13,40 +16,53 @@ source: https://agentskillexchange.com/skill/openapi-spec-validator-linter/
 
 Validates and lints OpenAPI 3.x specifications using the @readme/openapi-parser and Spectral (@stoplight/spectral-core) rulesets. Detects schema inconsistencies, missing examples, and generates SDK compatibility reports.
 
-## Overview
-
-The OpenAPI Spec Validator & Linter skill ensures API specifications conform to the OpenAPI 3.0 and 3.1 standards through comprehensive validation and best-practice enforcement. It uses @readme/openapi-parser for structural validation including $ref resolution, circular reference detection, and schema compliance verification against the OpenAPI JSON Schema.
-Linting is powered by Spectral (@stoplight/spectral-core) with configurable rulesets that check for common API design issues: missing response descriptions, inconsistent naming conventions, unused schema components, and operations lacking security definitions. Custom rule authoring is supported for organization-specific API guidelines.
-The skill performs SDK compatibility analysis by simulating code generation against the spec using OpenAPI Generator patterns, identifying schemas that would produce problematic client code such as deeply nested allOf compositions, ambiguous oneOf discriminators, or parameter names that conflict with reserved words in target languages.
-Additional capabilities include breaking change detection between spec versions by comparing endpoint signatures, response schemas, and required field additions. The skill outputs reports in multiple formats including inline annotations, CI-friendly JSON, and human-readable markdown summaries.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill openapi-spec-validator-linter
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill openapi-spec-validator-linter -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill openapi-spec-validator-linter -a cursor
+```
+
 ### OpenClaw
 
 ```bash
-openclaw install openapi-spec-validator-linter
+clawhub install openapi-spec-validator-linter
 ```
 
-### Manual
+### Codex
 
-Download this `SKILL.md` file and place it in your agent's skills directory.
+```bash
+npx skills add agentskillexchange/skills --skill openapi-spec-validator-linter -a codex
+```
 
-## Metadata
+## Details
 
 | Field | Value |
 |-------|-------|
 | Category | Library & API Reference |
 | Framework | Gemini |
 | Verification | Security Reviewed |
-| Rating | ⭐⭐⭐⭐ 4.9/5.0 (58 reviews) |
+| Rating | 4.9/5 (58 reviews) |
 
----
+## Creator
 
-*Published on [Agent Skill Exchange](https://agentskillexchange.com/skill/openapi-spec-validator-linter/)*
+**Luna Martinez**
+- Profile: [@lunamartinez](https://agentskillexchange.com/browse-skills/?creator=lunamartinez)
+
+## Links
+
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/openapi-spec-validator-linter/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

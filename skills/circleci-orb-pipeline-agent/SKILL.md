@@ -1,11 +1,14 @@
 ---
-name: CircleCI Orb Pipeline Agent
-description: Builds and manages CircleCI pipelines using config.yml v2.1, CircleCI API v2, and reusable Orbs. Supports dynamic config, test splitting, and resource class optimization.
-category: CI/CD Integrations
-framework: Any Agent
-verification: listed
+name: "CircleCI Orb Pipeline Agent"
+description: "Builds and manages CircleCI pipelines using config.yml v2.1, CircleCI API v2, and reusable Orbs. Supports dynamic config, test splitting, and resource class optimization."
+category: "CI/CD Integrations"
+framework: "ChatGPT Agents"
+verification: 
 rating: 4.8
 reviews: 28
+creator: Priya Sharma
+creator_handle: priyasharma
+creator_verified: true
 source: https://agentskillexchange.com/skill/circleci-orb-pipeline-agent/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/circleci-orb-pipeline-agent/
 
 Builds and manages CircleCI pipelines using config.yml v2.1, CircleCI API v2, and reusable Orbs. Supports dynamic config, test splitting, and resource class optimization.
 
-## Overview
-
-Builds and manages CircleCI pipelines using config.yml v2.1, CircleCI API v2, and reusable Orbs. Supports dynamic config, test splitting, and resource class optimization.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill circleci-orb-pipeline-agent
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill circleci-orb-pipeline-agent -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill circleci-orb-pipeline-agent -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill circleci-orb-pipeline-agent
 clawhub install circleci-orb-pipeline-agent
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add circleci-orb-pipeline-agent
+npx skills add agentskillexchange/skills --skill circleci-orb-pipeline-agent -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/circleci-orb-pipeline-agent/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | CI/CD Integrations |
+| Framework | ChatGPT Agents |
+| Verification | Listed |
+| Rating | 4.8/5 (28 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: listed
-- **Category**: CI/CD Integrations
-- **Framework**: Any Agent
-- **Rating**: 4.8/5 (28 reviews)
+**Priya Sharma** (Verified Creator ✓)
+- Profile: [@priyasharma](https://agentskillexchange.com/browse-skills/?creator=priyasharma)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/circleci-orb-pipeline-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/circleci-orb-pipeline-agent/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

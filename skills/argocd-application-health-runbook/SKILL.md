@@ -1,11 +1,14 @@
 ---
-name: ArgoCD Application Health Runbook
-description: Diagnoses ArgoCD application sync failures and degraded states using the ArgoCD REST API and argocd CLI. Queries /api/v1/applications/{name} for sync status, resource health, and operation state. Provides automated remediation steps for OutOfSync, Degraded, and Missing resource conditions.
-category: Runbooks &amp; Diagnostics
-framework: Any Agent
+name: "ArgoCD Application Health Runbook"
+description: "Diagnoses ArgoCD application sync failures and degraded states using the ArgoCD REST API and argocd CLI. Queries /api/v1/applications/{name} for sync status, resource health, and operation state. Provides automated remediation steps for OutOfSync, Degraded, and Missing resource conditions."
+category: "Runbooks & Diagnostics"
+framework: "OpenClaw"
 verification: security_reviewed
 rating: 4.8
 reviews: 13
+creator: Ava Wilson
+creator_handle: avawilson
+creator_verified: true
 source: https://agentskillexchange.com/skill/argocd-application-health-runbook/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/argocd-application-health-runbook/
 
 Diagnoses ArgoCD application sync failures and degraded states using the ArgoCD REST API and argocd CLI. Queries /api/v1/applications/{name} for sync status, resource health, and operation state. Provides automated remediation steps for OutOfSync, Degraded, and Missing resource conditions.
 
-## Overview
-
-Diagnoses ArgoCD application sync failures and degraded states using the ArgoCD REST API and argocd CLI. Queries /api/v1/applications/{name} for sync status, resource health, and operation state. Provides automated remediation steps for OutOfSync, Degraded, and Missing resource conditions.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill argocd-application-health-runbook
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill argocd-application-health-runbook -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill argocd-application-health-runbook -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill argocd-application-health-runbo
 clawhub install argocd-application-health-runbook
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add argocd-application-health-runbook
+npx skills add agentskillexchange/skills --skill argocd-application-health-runbook -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/argocd-application-health-runbook/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Runbooks & Diagnostics |
+| Framework | OpenClaw |
+| Verification | Security Reviewed |
+| Rating | 4.8/5 (13 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Runbooks &amp; Diagnostics
-- **Framework**: Any Agent
-- **Rating**: 4.8/5 (13 reviews)
+**Ava Wilson** (Verified Creator ✓)
+- Profile: [@avawilson](https://agentskillexchange.com/browse-skills/?creator=avawilson)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/argocd-application-health-runbook/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/argocd-application-health-runbook/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -1,11 +1,14 @@
 ---
-name: PostgreSQL Slow Query Runbook
-description: Identifies slow queries in PostgreSQL by querying pg_stat_statements and pg_stat_activity via the PostgreSQL information schema and psycopg2. Correlates query plans from EXPLAIN ANALYZE with table blo
-category: Runbooks & Diagnostics
-framework: Claude Agents
+name: "PostgreSQL Slow Query Runbook"
+description: "Identifies slow queries in PostgreSQL by querying pg_stat_statements and pg_stat_activity via the PostgreSQL information schema and psycopg2. Correlates query plans from EXPLAIN ANALYZE with table bloat metrics from pgstattuple. Outputs an actionable runbook with index recommendations and vacuum scheduling."
+category: "Runbooks & Diagnostics"
+framework: "Claude Agents"
 verification: security_reviewed
 rating: 4.8
 reviews: 76
+creator: James Whitfield
+creator_handle: jwhitfield
+creator_verified: true
 source: https://agentskillexchange.com/skill/postgresql-slow-query-runbook/
 ---
 
@@ -13,37 +16,53 @@ source: https://agentskillexchange.com/skill/postgresql-slow-query-runbook/
 
 Identifies slow queries in PostgreSQL by querying pg_stat_statements and pg_stat_activity via the PostgreSQL information schema and psycopg2. Correlates query plans from EXPLAIN ANALYZE with table bloat metrics from pgstattuple. Outputs an actionable runbook with index recommendations and vacuum scheduling.
 
-## Overview
-
-This skill connects to a PostgreSQL database using psycopg2 and queries the pg_stat_statements extension to identify queries with the highest mean execution time and total I/O blocks. It fetches active long-running queries from pg_stat_activity filtered by state and wait_event_type. For the top 5 offending queries, the skill runs EXPLAIN (ANALYZE, BUFFERS, FORMAT JSON) to capture execution plans and identifies sequential scans on large tables. Table and index bloat is measured via the pgstattuple extension. The skill generates CREATE INDEX CONCURRENTLY statements for missing indexes, autovacuum threshold adjustment recommendations based on n_dead_tup from pg_stat_user_tables, and a maintenance window schedule for VACUUM ANALYZE. Output is a structured Markdown runbook with copy-paste SQL commands.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill postgresql-slow-query-runbook
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill postgresql-slow-query-runbook -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill postgresql-slow-query-runbook -a cursor
+```
+
 ### OpenClaw
 
 ```bash
-openclaw install postgresql-slow-query-runbook
+clawhub install postgresql-slow-query-runbook
 ```
 
-### Manual
+### Codex
 
-Download this `SKILL.md` file and place it in your agent's skills directory.
+```bash
+npx skills add agentskillexchange/skills --skill postgresql-slow-query-runbook -a codex
+```
 
-## Metadata
+## Details
 
 | Field | Value |
 |-------|-------|
 | Category | Runbooks & Diagnostics |
 | Framework | Claude Agents |
 | Verification | Security Reviewed |
-| Rating | ⭐⭐⭐⭐ 4.8/5.0 (76 reviews) |
+| Rating | 4.8/5 (76 reviews) |
 
----
+## Creator
 
-*Published on [Agent Skill Exchange](https://agentskillexchange.com/skill/postgresql-slow-query-runbook/)*
+**James Whitfield** (Verified Creator ✓)
+- Profile: [@jwhitfield](https://agentskillexchange.com/browse-skills/?creator=jwhitfield)
+
+## Links
+
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/postgresql-slow-query-runbook/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

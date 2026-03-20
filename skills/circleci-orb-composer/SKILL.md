@@ -1,11 +1,14 @@
 ---
-name: CircleCI Orb Composer
-description: Creates and validates CircleCI orbs using the circleci CLI orb pack and orb validate commands. Integrates with the CircleCI v2 API (/api/v2/pipeline) for pipeline triggering and uses shellcheck for embedded script validation.
-category: CI/CD Integrations
-framework: Any Agent
+name: "CircleCI Orb Composer"
+description: "Creates and validates CircleCI orbs using the circleci CLI orb pack and orb validate commands. Integrates with the CircleCI v2 API (/api/v2/pipeline) for pipeline triggering and uses shellcheck for embedded script validation."
+category: "CI/CD Integrations"
+framework: "Custom Agents"
 verification: verified_metadata
 rating: 4.2
 reviews: 6
+creator: Kai Nakamura
+creator_handle: kainakamura
+creator_verified: true
 source: https://agentskillexchange.com/skill/circleci-orb-composer/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/circleci-orb-composer/
 
 Creates and validates CircleCI orbs using the circleci CLI orb pack and orb validate commands. Integrates with the CircleCI v2 API (/api/v2/pipeline) for pipeline triggering and uses shellcheck for embedded script validation.
 
-## Overview
-
-Creates and validates CircleCI orbs using the circleci CLI orb pack and orb validate commands. Integrates with the CircleCI v2 API (/api/v2/pipeline) for pipeline triggering and uses shellcheck for embedded script validation.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill circleci-orb-composer
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill circleci-orb-composer -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill circleci-orb-composer -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill circleci-orb-composer
 clawhub install circleci-orb-composer
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add circleci-orb-composer
+npx skills add agentskillexchange/skills --skill circleci-orb-composer -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/circleci-orb-composer/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | CI/CD Integrations |
+| Framework | Custom Agents |
+| Verification | Verified Metadata |
+| Rating | 4.2/5 (6 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: verified_metadata
-- **Category**: CI/CD Integrations
-- **Framework**: Any Agent
-- **Rating**: 4.2/5 (6 reviews)
+**Kai Nakamura** (Verified Creator ✓)
+- Profile: [@kainakamura](https://agentskillexchange.com/browse-skills/?creator=kainakamura)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/circleci-orb-composer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/circleci-orb-composer/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

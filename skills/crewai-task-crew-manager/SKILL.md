@@ -1,28 +1,39 @@
 ---
-name: CrewAI Task Crew Manager
-description: Agent skill for crewai task crew manager.
-category: Developer Tools
-framework: Any Agent
+name: "CrewAI Task Crew Manager"
+description: "CrewAI provides a framework for orchestrating role-playing AI agents that work together as a crew. This skill helps you define agent roles, assign tasks, and coordinate multi-agent workflows with sequential or parallel execution."
+category: "Developer Tools"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.1
 reviews: 77
+creator: Kai Nakamura
+creator_handle: kainakamura
+creator_verified: true
 source: https://agentskillexchange.com/skill/crewai-task-crew-manager/
 ---
 
 # CrewAI Task Crew Manager
 
-Agent skill for crewai task crew manager.
-
-## Overview
-
-Agent skill for crewai task crew manager.
+CrewAI provides a framework for orchestrating role-playing AI agents that work together as a crew. This skill helps you define agent roles, assign tasks, and coordinate multi-agent workflows with sequential or parallel execution.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill crewai-task-crew-manager
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill crewai-task-crew-manager -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill crewai-task-crew-manager -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill crewai-task-crew-manager
 clawhub install crewai-task-crew-manager
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add crewai-task-crew-manager
+npx skills add agentskillexchange/skills --skill crewai-task-crew-manager -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/crewai-task-crew-manager/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Developer Tools |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.1/5 (77 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Developer Tools
-- **Framework**: Any Agent
-- **Rating**: 4.1/5 (77 reviews)
+**Kai Nakamura** (Verified Creator ✓)
+- Profile: [@kainakamura](https://agentskillexchange.com/browse-skills/?creator=kainakamura)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/crewai-task-crew-manager/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/crewai-task-crew-manager/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -1,28 +1,39 @@
 ---
-name: Dependency Audit
-description: Agent skill for dependency audit.
-category: Security &amp; Verification
-framework: Any Agent
+name: "Dependency Audit"
+description: "Use this skill when you need to audit npm, pip, cargo, or Maven dependencies for known vulnerabilities and outdated packages. It runs the appropriate package manager audit command, parses the output, and presents a prioritized list of security issues with remediation steps."
+category: "Security & Verification"
+framework: "Claude Code"
 verification: security_reviewed
 rating: 4.8
 reviews: 4
+creator: Luna Martinez
+creator_handle: lunamartinez
+creator_verified: false
 source: https://agentskillexchange.com/skill/dependency-audit/
 ---
 
 # Dependency Audit
 
-Agent skill for dependency audit.
-
-## Overview
-
-Agent skill for dependency audit.
+Use this skill when you need to audit npm, pip, cargo, or Maven dependencies for known vulnerabilities and outdated packages. It runs the appropriate package manager audit command, parses the output, and presents a prioritized list of security issues with remediation steps.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill dependency-audit
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill dependency-audit -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill dependency-audit -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill dependency-audit
 clawhub install dependency-audit
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add dependency-audit
+npx skills add agentskillexchange/skills --skill dependency-audit -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/dependency-audit/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Security & Verification |
+| Framework | Claude Code |
+| Verification | Security Reviewed |
+| Rating | 4.8/5 (4 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Security &amp; Verification
-- **Framework**: Any Agent
-- **Rating**: 4.8/5 (4 reviews)
+**Luna Martinez**
+- Profile: [@lunamartinez](https://agentskillexchange.com/browse-skills/?creator=lunamartinez)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/dependency-audit/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/dependency-audit/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

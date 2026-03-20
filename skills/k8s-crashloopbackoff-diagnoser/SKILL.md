@@ -1,11 +1,14 @@
 ---
-name: Kubernetes CrashLoopBackOff Diagnoser
-description: Diagnoses CrashLoopBackOff pods using kubectl and the Kubernetes API. Inspects container logs, exit codes, OOMKilled events, and liveness probe configurations to generate actionable remediation steps.
-category: Runbooks & Diagnostics
-framework: Codex
+name: "Kubernetes CrashLoopBackOff Diagnoser"
+description: "Diagnoses CrashLoopBackOff pods using kubectl and the Kubernetes API. Inspects container logs, exit codes, OOMKilled events, and liveness probe configurations to generate actionable remediation steps."
+category: "Runbooks & Diagnostics"
+framework: "Codex"
 verification: security_reviewed
 rating: 4.8
 reviews: 85
+creator: David Kim
+creator_handle: dkim
+creator_verified: false
 source: https://agentskillexchange.com/skill/k8s-crashloopbackoff-diagnoser/
 ---
 
@@ -13,39 +16,53 @@ source: https://agentskillexchange.com/skill/k8s-crashloopbackoff-diagnoser/
 
 Diagnoses CrashLoopBackOff pods using kubectl and the Kubernetes API. Inspects container logs, exit codes, OOMKilled events, and liveness probe configurations to generate actionable remediation steps.
 
-## Overview
-
-The Kubernetes CrashLoopBackOff Diagnoser skill automates root cause analysis for pods stuck in CrashLoopBackOff state. Using kubectl and direct Kubernetes API calls to the /api/v1/namespaces/{ns}/pods/{pod}/log endpoint, it systematically inspects container logs, exit codes, and pod events to identify the underlying failure.
-The diagnosis workflow begins by listing all pods with status.containerStatuses[].state.waiting.reason=CrashLoopBackOff using the Kubernetes List API with field selectors. For each affected pod, it retrieves the last N log lines from each container, checks for OOMKilled termination reasons via the container lastState.terminated.reason field, and inspects liveness and readiness probe configurations.
-The skill correlates exit codes with known failure patterns: exit code 137 maps to OOMKilled or SIGKILL, exit code 1 to application errors, and exit code 127 to missing binaries. It also checks resource requests and limits against node allocatable resources, validates environment variable references to ConfigMaps and Secrets, and verifies volume mount paths exist. Output includes a structured diagnosis with confidence levels and specific remediation steps.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill k8s-crashloopbackoff-diagnoser
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill k8s-crashloopbackoff-diagnoser -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill k8s-crashloopbackoff-diagnoser -a cursor
+```
+
 ### OpenClaw
 
 ```bash
-openclaw install k8s-crashloopbackoff-diagnoser
+clawhub install k8s-crashloopbackoff-diagnoser
 ```
 
-### Manual
+### Codex
 
-Download this `SKILL.md` file and place it in your agent's skills directory.
+```bash
+npx skills add agentskillexchange/skills --skill k8s-crashloopbackoff-diagnoser -a codex
+```
 
-## Metadata
+## Details
 
 | Field | Value |
 |-------|-------|
 | Category | Runbooks & Diagnostics |
 | Framework | Codex |
 | Verification | Security Reviewed |
-| Rating | ⭐⭐⭐⭐ 4.8/5.0 (85 reviews) |
+| Rating | 4.8/5 (85 reviews) |
 
----
+## Creator
 
-*Published on [Agent Skill Exchange](https://agentskillexchange.com/skill/k8s-crashloopbackoff-diagnoser/)*
+**David Kim**
+- Profile: [@dkim](https://agentskillexchange.com/browse-skills/?creator=dkim)
+
+## Links
+
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/k8s-crashloopbackoff-diagnoser/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

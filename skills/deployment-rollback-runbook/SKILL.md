@@ -1,28 +1,39 @@
 ---
-name: Deployment Rollback Runbook
-description: Agent skill for deployment rollback runbook.
-category: Monitoring &amp; Alerts
-framework: Any Agent
+name: "Deployment Rollback Runbook"
+description: "Use this skill to execute rollback procedures for Kubernetes, ECS, and Lambda deployments when new releases cause issues. It provides step-by-step rollback commands with verification steps and communication templates. Trigger when a deployment causes errors, performance regressions, or needs to be reverted quickly to restore service."
+category: "Monitoring & Alerts"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.3
 reviews: 55
+creator: Kai Nakamura
+creator_handle: kainakamura
+creator_verified: true
 source: https://agentskillexchange.com/skill/deployment-rollback-runbook/
 ---
 
 # Deployment Rollback Runbook
 
-Agent skill for deployment rollback runbook.
-
-## Overview
-
-Agent skill for deployment rollback runbook.
+Use this skill to execute rollback procedures for Kubernetes, ECS, and Lambda deployments when new releases cause issues. It provides step-by-step rollback commands with verification steps and communication templates. Trigger when a deployment causes errors, performance regressions, or needs to be reverted quickly to restore service.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill deployment-rollback-runbook
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill deployment-rollback-runbook -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill deployment-rollback-runbook -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill deployment-rollback-runbook
 clawhub install deployment-rollback-runbook
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add deployment-rollback-runbook
+npx skills add agentskillexchange/skills --skill deployment-rollback-runbook -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/deployment-rollback-runbook/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Monitoring & Alerts |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.3/5 (55 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Monitoring &amp; Alerts
-- **Framework**: Any Agent
-- **Rating**: 4.3/5 (55 reviews)
+**Kai Nakamura** (Verified Creator ✓)
+- Profile: [@kainakamura](https://agentskillexchange.com/browse-skills/?creator=kainakamura)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/deployment-rollback-runbook/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/deployment-rollback-runbook/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

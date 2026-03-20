@@ -1,28 +1,39 @@
 ---
-name: GitHub Copilot Context Enhancer
-description: Agent skill for github copilot context enhancer.
-category: Developer Tools
-framework: Any Agent
+name: "GitHub Copilot Context Enhancer"
+description: "Enrich GitHub Copilot suggestions by injecting structured context from repository READMEs, architecture docs, and coding conventions into the agent context window. Automates context file generation and .github/copilot-instructions.md maintenance."
+category: "Developer Tools"
+framework: "Claude Code"
 verification: security_reviewed
 rating: 4.1
 reviews: 28
+creator: Tom Anderson
+creator_handle: tanderson
+creator_verified: false
 source: https://agentskillexchange.com/skill/github-copilot-context-enhancer/
 ---
 
 # GitHub Copilot Context Enhancer
 
-Agent skill for github copilot context enhancer.
-
-## Overview
-
-Agent skill for github copilot context enhancer.
+Enrich GitHub Copilot suggestions by injecting structured context from repository READMEs, architecture docs, and coding conventions into the agent context window. Automates context file generation and .github/copilot-instructions.md maintenance.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill github-copilot-context-enhancer
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill github-copilot-context-enhancer -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill github-copilot-context-enhancer -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill github-copilot-context-enhancer
 clawhub install github-copilot-context-enhancer
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add github-copilot-context-enhancer
+npx skills add agentskillexchange/skills --skill github-copilot-context-enhancer -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/github-copilot-context-enhancer/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Developer Tools |
+| Framework | Claude Code |
+| Verification | Security Reviewed |
+| Rating | 4.1/5 (28 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Developer Tools
-- **Framework**: Any Agent
-- **Rating**: 4.1/5 (28 reviews)
+**Tom Anderson**
+- Profile: [@tanderson](https://agentskillexchange.com/browse-skills/?creator=tanderson)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/github-copilot-context-enhancer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/github-copilot-context-enhancer/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

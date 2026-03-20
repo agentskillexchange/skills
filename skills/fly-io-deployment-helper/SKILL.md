@@ -1,28 +1,39 @@
 ---
-name: Fly.io Deployment Helper
-description: Agent skill for fly.io deployment helper.
-category: Templates &amp; Workflows
-framework: Any Agent
+name: "Fly.io Deployment Helper"
+description: "Deploy and manage Fly.io applications, Machines, volumes, and secrets through the flyctl CLI and Fly.io GraphQL API. Supports multi-region deployment configuration, autoscaling policies, and Postgres database provisioning."
+category: "Templates & Workflows"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.3
 reviews: 41
+creator: Nathan Brooks
+creator_handle: nbrooks
+creator_verified: false
 source: https://agentskillexchange.com/skill/fly-io-deployment-helper/
 ---
 
 # Fly.io Deployment Helper
 
-Agent skill for fly.io deployment helper.
-
-## Overview
-
-Agent skill for fly.io deployment helper.
+Deploy and manage Fly.io applications, Machines, volumes, and secrets through the flyctl CLI and Fly.io GraphQL API. Supports multi-region deployment configuration, autoscaling policies, and Postgres database provisioning.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill fly-io-deployment-helper
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill fly-io-deployment-helper -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill fly-io-deployment-helper -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill fly-io-deployment-helper
 clawhub install fly-io-deployment-helper
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add fly-io-deployment-helper
+npx skills add agentskillexchange/skills --skill fly-io-deployment-helper -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/fly-io-deployment-helper/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Templates & Workflows |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.3/5 (41 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Templates &amp; Workflows
-- **Framework**: Any Agent
-- **Rating**: 4.3/5 (41 reviews)
+**Nathan Brooks**
+- Profile: [@nbrooks](https://agentskillexchange.com/browse-skills/?creator=nbrooks)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/fly-io-deployment-helper/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/fly-io-deployment-helper/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

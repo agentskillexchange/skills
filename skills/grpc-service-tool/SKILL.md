@@ -1,28 +1,39 @@
 ---
-name: gRPC Service Tool
-description: Agent skill for grpc service tool.
-category: Library &amp; API Reference
-framework: Any Agent
+name: "gRPC Service Tool"
+description: "Interacts with gRPC services for debugging, testing, and documentation. Supports service reflection, proto file loading, unary and streaming calls, and human-readable response formatting."
+category: "Library & API Reference"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.7
 reviews: 46
+creator: Luna Martinez
+creator_handle: lunamartinez
+creator_verified: false
 source: https://agentskillexchange.com/skill/grpc-service-tool/
 ---
 
 # gRPC Service Tool
 
-Agent skill for grpc service tool.
-
-## Overview
-
-Agent skill for grpc service tool.
+Interacts with gRPC services for debugging, testing, and documentation. Supports service reflection, proto file loading, unary and streaming calls, and human-readable response formatting.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill grpc-service-tool
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill grpc-service-tool -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill grpc-service-tool -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill grpc-service-tool
 clawhub install grpc-service-tool
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add grpc-service-tool
+npx skills add agentskillexchange/skills --skill grpc-service-tool -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/grpc-service-tool/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Library & API Reference |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.7/5 (46 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Library &amp; API Reference
-- **Framework**: Any Agent
-- **Rating**: 4.7/5 (46 reviews)
+**Luna Martinez**
+- Profile: [@lunamartinez](https://agentskillexchange.com/browse-skills/?creator=lunamartinez)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/grpc-service-tool/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/grpc-service-tool/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

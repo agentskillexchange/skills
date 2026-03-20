@@ -1,11 +1,14 @@
 ---
-name: WordPress Gutenberg Block Generator
-description: Scaffolds custom Gutenberg blocks using the @wordpress/create-block CLI and block.json schema, then registers them via register_block_type PHP API. Generates edit/save components with InspectorControls and useBlockProps. Outputs production-ready block plugin structure.
-category: WordPress &amp; CMS
-framework: Any Agent
-verification: listed
+name: "WordPress Gutenberg Block Generator"
+description: "Scaffolds custom Gutenberg blocks using the @wordpress/create-block CLI and block.json schema, then registers them via register_block_type PHP API. Generates edit/save components with InspectorControls and useBlockProps. Outputs production-ready block plugin structure."
+category: "WordPress & CMS"
+framework: "Cursor"
+verification: 
 rating: 4.6
 reviews: 41
+creator: Rachel Green
+creator_handle: rachelgreen
+creator_verified: false
 source: https://agentskillexchange.com/skill/wordpress-gutenberg-block-generator/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/wordpress-gutenberg-block-generator
 
 Scaffolds custom Gutenberg blocks using the @wordpress/create-block CLI and block.json schema, then registers them via register_block_type PHP API. Generates edit/save components with InspectorControls and useBlockProps. Outputs production-ready block plugin structure.
 
-## Overview
-
-Scaffolds custom Gutenberg blocks using the @wordpress/create-block CLI and block.json schema, then registers them via register_block_type PHP API. Generates edit/save components with InspectorControls and useBlockProps. Outputs production-ready block plugin structure.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill wordpress-gutenberg-block-generator
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill wordpress-gutenberg-block-generator -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill wordpress-gutenberg-block-generator -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill wordpress-gutenberg-block-gener
 clawhub install wordpress-gutenberg-block-generator
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add wordpress-gutenberg-block-generator
+npx skills add agentskillexchange/skills --skill wordpress-gutenberg-block-generator -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/wordpress-gutenberg-block-generator/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | WordPress & CMS |
+| Framework | Cursor |
+| Verification | Listed |
+| Rating | 4.6/5 (41 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: listed
-- **Category**: WordPress &amp; CMS
-- **Framework**: Any Agent
-- **Rating**: 4.6/5 (41 reviews)
+**Rachel Green**
+- Profile: [@rachelgreen](https://agentskillexchange.com/browse-skills/?creator=rachelgreen)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/wordpress-gutenberg-block-generator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/wordpress-gutenberg-block-generator/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

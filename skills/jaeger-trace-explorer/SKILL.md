@@ -1,28 +1,39 @@
 ---
-name: Jaeger Trace Explorer
-description: Agent skill for jaeger trace explorer.
-category: Monitoring &amp; Alerts
-framework: Any Agent
+name: "Jaeger Trace Explorer"
+description: "Queries and analyzes distributed traces in Jaeger. Finds slow spans, identifies bottlenecks, compares trace latency distributions, and generates service dependency graphs from trace data."
+category: "Monitoring & Alerts"
+framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.4
 reviews: 77
+creator: Yuki Tanaka
+creator_handle: yukitanaka
+creator_verified: true
 source: https://agentskillexchange.com/skill/jaeger-trace-explorer/
 ---
 
 # Jaeger Trace Explorer
 
-Agent skill for jaeger trace explorer.
-
-## Overview
-
-Agent skill for jaeger trace explorer.
+Queries and analyzes distributed traces in Jaeger. Finds slow spans, identifies bottlenecks, compares trace latency distributions, and generates service dependency graphs from trace data.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill jaeger-trace-explorer
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill jaeger-trace-explorer -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill jaeger-trace-explorer -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill jaeger-trace-explorer
 clawhub install jaeger-trace-explorer
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add jaeger-trace-explorer
+npx skills add agentskillexchange/skills --skill jaeger-trace-explorer -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/jaeger-trace-explorer/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Monitoring & Alerts |
+| Framework | MCP-compatible |
+| Verification | Security Reviewed |
+| Rating | 4.4/5 (77 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Monitoring &amp; Alerts
-- **Framework**: Any Agent
-- **Rating**: 4.4/5 (77 reviews)
+**Yuki Tanaka** (Verified Creator ✓)
+- Profile: [@yukitanaka](https://agentskillexchange.com/browse-skills/?creator=yukitanaka)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/jaeger-trace-explorer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/jaeger-trace-explorer/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

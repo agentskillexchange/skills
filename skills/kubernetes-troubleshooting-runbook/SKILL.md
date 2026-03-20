@@ -1,28 +1,39 @@
 ---
-name: Kubernetes Troubleshooting Runbook
-description: Agent skill for kubernetes troubleshooting runbook.
-category: Monitoring &amp; Alerts
-framework: Any Agent
+name: "Kubernetes Troubleshooting Runbook"
+description: "Use this skill to systematically diagnose and resolve Kubernetes issues including pod failures, CrashLoopBackOff errors, OOMKills, and resource constraints. It guides agents through kubectl commands and diagnostic steps to identify root causes. Trigger when Kubernetes workloads are failing, pods are restarting, or cluster resources are being exhausted."
+category: "Monitoring & Alerts"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.6
 reviews: 34
+creator: Zara Ahmed
+creator_handle: zaraahmed
+creator_verified: true
 source: https://agentskillexchange.com/skill/kubernetes-troubleshooting-runbook/
 ---
 
 # Kubernetes Troubleshooting Runbook
 
-Agent skill for kubernetes troubleshooting runbook.
-
-## Overview
-
-Agent skill for kubernetes troubleshooting runbook.
+Use this skill to systematically diagnose and resolve Kubernetes issues including pod failures, CrashLoopBackOff errors, OOMKills, and resource constraints. It guides agents through kubectl commands and diagnostic steps to identify root causes. Trigger when Kubernetes workloads are failing, pods are restarting, or cluster resources are being exhausted.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill kubernetes-troubleshooting-runbook
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill kubernetes-troubleshooting-runbook -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill kubernetes-troubleshooting-runbook -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill kubernetes-troubleshooting-runb
 clawhub install kubernetes-troubleshooting-runbook
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add kubernetes-troubleshooting-runbook
+npx skills add agentskillexchange/skills --skill kubernetes-troubleshooting-runbook -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/kubernetes-troubleshooting-runbook/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Monitoring & Alerts |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.6/5 (34 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Monitoring &amp; Alerts
-- **Framework**: Any Agent
-- **Rating**: 4.6/5 (34 reviews)
+**Zara Ahmed** (Verified Creator ✓)
+- Profile: [@zaraahmed](https://agentskillexchange.com/browse-skills/?creator=zaraahmed)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/kubernetes-troubleshooting-runbook/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/kubernetes-troubleshooting-runbook/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

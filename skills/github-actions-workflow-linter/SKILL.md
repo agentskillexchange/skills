@@ -1,11 +1,14 @@
 ---
-name: GitHub Actions Workflow Linter
-description: Validates GitHub Actions workflow YAML files using actionlint and checks for security anti-patterns like script injection via ${{ github.event }}. Suggests pinned action versions using SHA hashes from the GitHub API.
-category: CI/CD Integrations
-framework: Any Agent
+name: "GitHub Actions Workflow Linter"
+description: "Validates GitHub Actions workflow YAML files using actionlint and checks for security anti-patterns like script injection via ${{ github.event }}. Suggests pinned action versions using SHA hashes from the GitHub API."
+category: "CI/CD Integrations"
+framework: "Cursor"
 verification: security_reviewed
 rating: 4.3
 reviews: 25
+creator: Tom Anderson
+creator_handle: tanderson
+creator_verified: false
 source: https://agentskillexchange.com/skill/github-actions-workflow-linter/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/github-actions-workflow-linter/
 
 Validates GitHub Actions workflow YAML files using actionlint and checks for security anti-patterns like script injection via ${{ github.event }}. Suggests pinned action versions using SHA hashes from the GitHub API.
 
-## Overview
-
-Validates GitHub Actions workflow YAML files using actionlint and checks for security anti-patterns like script injection via ${{ github.event }}. Suggests pinned action versions using SHA hashes from the GitHub API.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill github-actions-workflow-linter
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill github-actions-workflow-linter -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill github-actions-workflow-linter -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill github-actions-workflow-linter
 clawhub install github-actions-workflow-linter
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add github-actions-workflow-linter
+npx skills add agentskillexchange/skills --skill github-actions-workflow-linter -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/github-actions-workflow-linter/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | CI/CD Integrations |
+| Framework | Cursor |
+| Verification | Security Reviewed |
+| Rating | 4.3/5 (25 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: CI/CD Integrations
-- **Framework**: Any Agent
-- **Rating**: 4.3/5 (25 reviews)
+**Tom Anderson**
+- Profile: [@tanderson](https://agentskillexchange.com/browse-skills/?creator=tanderson)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/github-actions-workflow-linter/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/github-actions-workflow-linter/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

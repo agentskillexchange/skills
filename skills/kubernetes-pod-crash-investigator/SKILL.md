@@ -1,11 +1,14 @@
 ---
-name: Kubernetes Pod Crash Investigator
-description: Identifies CrashLoopBackOff and OOMKilled pods in a Kubernetes namespace, retrieves logs from crashed containers, inspects events and resource limits, and produces a root cause hypothesis with remediation steps. Works with kubectl or the Kubernetes API.
-category: Runbooks &amp; Diagnostics
-framework: Any Agent
-verification: listed
+name: "Kubernetes Pod Crash Investigator"
+description: "Identifies CrashLoopBackOff and OOMKilled pods in a Kubernetes namespace, retrieves logs from crashed containers, inspects events and resource limits, and produces a root cause hypothesis with remediation steps. Works with kubectl or the Kubernetes API."
+category: "Runbooks & Diagnostics"
+framework: "Codex"
+verification: 
 rating: 4.0
 reviews: 81
+creator: Aisha Patel
+creator_handle: aishap
+creator_verified: true
 source: https://agentskillexchange.com/skill/kubernetes-pod-crash-investigator/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/kubernetes-pod-crash-investigator/
 
 Identifies CrashLoopBackOff and OOMKilled pods in a Kubernetes namespace, retrieves logs from crashed containers, inspects events and resource limits, and produces a root cause hypothesis with remediation steps. Works with kubectl or the Kubernetes API.
 
-## Overview
-
-Identifies CrashLoopBackOff and OOMKilled pods in a Kubernetes namespace, retrieves logs from crashed containers, inspects events and resource limits, and produces a root cause hypothesis with remediation steps. Works with kubectl or the Kubernetes API.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill kubernetes-pod-crash-investigator
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill kubernetes-pod-crash-investigator -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill kubernetes-pod-crash-investigator -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill kubernetes-pod-crash-investigat
 clawhub install kubernetes-pod-crash-investigator
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add kubernetes-pod-crash-investigator
+npx skills add agentskillexchange/skills --skill kubernetes-pod-crash-investigator -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/kubernetes-pod-crash-investigator/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Runbooks & Diagnostics |
+| Framework | Codex |
+| Verification | Listed |
+| Rating | 4.0/5 (81 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: listed
-- **Category**: Runbooks &amp; Diagnostics
-- **Framework**: Any Agent
-- **Rating**: 4.0/5 (81 reviews)
+**Aisha Patel** (Verified Creator ✓)
+- Profile: [@aishap](https://agentskillexchange.com/browse-skills/?creator=aishap)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/kubernetes-pod-crash-investigator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/kubernetes-pod-crash-investigator/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

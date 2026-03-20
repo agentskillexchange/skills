@@ -1,11 +1,14 @@
 ---
-name: PR Code Review Checklist Generator
-description: Reads a GitHub pull request diff and generates a structured review checklist covering security, performance, test coverage, and style concerns specific to the changed files. Detects language and frame
-category: Code Quality & Review
-framework: OpenClaw
+name: "PR Code Review Checklist Generator"
+description: "Reads a GitHub pull request diff and generates a structured review checklist covering security, performance, test coverage, and style concerns specific to the changed files. Detects language and framework from the diff."
+category: "Code Quality & Review"
+framework: "OpenClaw"
 verification: verified_metadata
 rating: 4.9
 reviews: 10
+creator: Isabella Rossi
+creator_handle: irossi
+creator_verified: false
 source: https://agentskillexchange.com/skill/pr-code-review-checklist-generator-2/
 ---
 
@@ -13,37 +16,53 @@ source: https://agentskillexchange.com/skill/pr-code-review-checklist-generator-
 
 Reads a GitHub pull request diff and generates a structured review checklist covering security, performance, test coverage, and style concerns specific to the changed files. Detects language and framework from the diff.
 
-## Overview
-
-Reads a GitHub pull request diff and generates a structured review checklist covering security, performance, test coverage, and style concerns specific to the changed files. Detects language and framework from the diff.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill pr-code-review-checklist-generator-2
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill pr-code-review-checklist-generator-2 -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill pr-code-review-checklist-generator-2 -a cursor
+```
+
 ### OpenClaw
 
 ```bash
-openclaw install pr-code-review-checklist-generator-2
+clawhub install pr-code-review-checklist-generator-2
 ```
 
-### Manual
+### Codex
 
-Download this `SKILL.md` file and place it in your agent's skills directory.
+```bash
+npx skills add agentskillexchange/skills --skill pr-code-review-checklist-generator-2 -a codex
+```
 
-## Metadata
+## Details
 
 | Field | Value |
 |-------|-------|
 | Category | Code Quality & Review |
 | Framework | OpenClaw |
 | Verification | Verified Metadata |
-| Rating | ⭐⭐⭐⭐ 4.9/5.0 (10 reviews) |
+| Rating | 4.9/5 (10 reviews) |
 
----
+## Creator
 
-*Published on [Agent Skill Exchange](https://agentskillexchange.com/skill/pr-code-review-checklist-generator-2/)*
+**Isabella Rossi**
+- Profile: [@irossi](https://agentskillexchange.com/browse-skills/?creator=irossi)
+
+## Links
+
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/pr-code-review-checklist-generator-2/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

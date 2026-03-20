@@ -1,11 +1,14 @@
 ---
-name: Terraform Plan Validator Agent
-description: Validates Terraform plans using terraform CLI, tfsec, and Checkov. Detects infrastructure misconfigurations, cost anomalies, and compliance violations before apply.
-category: CI/CD Integrations
-framework: Any Agent
-verification: listed
+name: "Terraform Plan Validator Agent"
+description: "Validates Terraform plans using terraform CLI, tfsec, and Checkov. Detects infrastructure misconfigurations, cost anomalies, and compliance violations before apply."
+category: "CI/CD Integrations"
+framework: "Cursor"
+verification: 
 rating: 4.3
 reviews: 39
+creator: Sofia Petrov
+creator_handle: sofiapetrov
+creator_verified: true
 source: https://agentskillexchange.com/skill/terraform-plan-validator-agent/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/terraform-plan-validator-agent/
 
 Validates Terraform plans using terraform CLI, tfsec, and Checkov. Detects infrastructure misconfigurations, cost anomalies, and compliance violations before apply.
 
-## Overview
-
-Validates Terraform plans using terraform CLI, tfsec, and Checkov. Detects infrastructure misconfigurations, cost anomalies, and compliance violations before apply.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill terraform-plan-validator-agent
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill terraform-plan-validator-agent -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill terraform-plan-validator-agent -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill terraform-plan-validator-agent
 clawhub install terraform-plan-validator-agent
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add terraform-plan-validator-agent
+npx skills add agentskillexchange/skills --skill terraform-plan-validator-agent -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/terraform-plan-validator-agent/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | CI/CD Integrations |
+| Framework | Cursor |
+| Verification | Listed |
+| Rating | 4.3/5 (39 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: listed
-- **Category**: CI/CD Integrations
-- **Framework**: Any Agent
-- **Rating**: 4.3/5 (39 reviews)
+**Sofia Petrov** (Verified Creator ✓)
+- Profile: [@sofiapetrov](https://agentskillexchange.com/browse-skills/?creator=sofiapetrov)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/terraform-plan-validator-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/terraform-plan-validator-agent/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -1,11 +1,14 @@
 ---
-name: PagerDuty Incident Runbook Automator
-description: Automates incident response runbooks using the PagerDuty Events API v2 and REST API. Manages incident creation, escalation policies, and automated diagnostics triggered by alert severity.
-category: Runbooks &amp; Diagnostics
-framework: Any Agent
+name: "PagerDuty Incident Runbook Automator"
+description: "Automates incident response runbooks using the PagerDuty Events API v2 and REST API. Manages incident creation, escalation policies, and automated diagnostics triggered by alert severity."
+category: "Runbooks & Diagnostics"
+framework: "Gemini"
 verification: verified_metadata
 rating: 4.2
 reviews: 8
+creator: Sofia Petrov
+creator_handle: sofiapetrov
+creator_verified: true
 source: https://agentskillexchange.com/skill/pagerduty-incident-runbook-automator/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/pagerduty-incident-runbook-automato
 
 Automates incident response runbooks using the PagerDuty Events API v2 and REST API. Manages incident creation, escalation policies, and automated diagnostics triggered by alert severity.
 
-## Overview
-
-Automates incident response runbooks using the PagerDuty Events API v2 and REST API. Manages incident creation, escalation policies, and automated diagnostics triggered by alert severity.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill pagerduty-incident-runbook-automator
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill pagerduty-incident-runbook-automator -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill pagerduty-incident-runbook-automator -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill pagerduty-incident-runbook-auto
 clawhub install pagerduty-incident-runbook-automator
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add pagerduty-incident-runbook-automator
+npx skills add agentskillexchange/skills --skill pagerduty-incident-runbook-automator -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/pagerduty-incident-runbook-automator/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Runbooks & Diagnostics |
+| Framework | Gemini |
+| Verification | Verified Metadata |
+| Rating | 4.2/5 (8 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: verified_metadata
-- **Category**: Runbooks &amp; Diagnostics
-- **Framework**: Any Agent
-- **Rating**: 4.2/5 (8 reviews)
+**Sofia Petrov** (Verified Creator ✓)
+- Profile: [@sofiapetrov](https://agentskillexchange.com/browse-skills/?creator=sofiapetrov)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/pagerduty-incident-runbook-automator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/pagerduty-incident-runbook-automator/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -1,11 +1,14 @@
 ---
-name: GraphQL Schema Introspector
-description: Performs GraphQL schema introspection using the graphql-js reference implementation and Apollo Client devtools protocol. Generates type documentation, query complexity analysis, and schema diff reports between API versions.
-category: Library &amp; API Reference
-framework: Any Agent
+name: "GraphQL Schema Introspector"
+description: "Performs GraphQL schema introspection using the graphql-js reference implementation and Apollo Client devtools protocol. Generates type documentation, query complexity analysis, and schema diff reports between API versions."
+category: "Library & API Reference"
+framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.3
 reviews: 56
+creator: Chris Lee
+creator_handle: chrislee
+creator_verified: false
 source: https://agentskillexchange.com/skill/graphql-schema-introspector/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/graphql-schema-introspector/
 
 Performs GraphQL schema introspection using the graphql-js reference implementation and Apollo Client devtools protocol. Generates type documentation, query complexity analysis, and schema diff reports between API versions.
 
-## Overview
-
-Performs GraphQL schema introspection using the graphql-js reference implementation and Apollo Client devtools protocol. Generates type documentation, query complexity analysis, and schema diff reports between API versions.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill graphql-schema-introspector
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill graphql-schema-introspector -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill graphql-schema-introspector -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill graphql-schema-introspector
 clawhub install graphql-schema-introspector
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add graphql-schema-introspector
+npx skills add agentskillexchange/skills --skill graphql-schema-introspector -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/graphql-schema-introspector/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Library & API Reference |
+| Framework | MCP-compatible |
+| Verification | Security Reviewed |
+| Rating | 4.3/5 (56 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Library &amp; API Reference
-- **Framework**: Any Agent
-- **Rating**: 4.3/5 (56 reviews)
+**Chris Lee**
+- Profile: [@chrislee](https://agentskillexchange.com/browse-skills/?creator=chrislee)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/graphql-schema-introspector/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/graphql-schema-introspector/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

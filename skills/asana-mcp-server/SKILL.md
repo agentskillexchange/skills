@@ -1,28 +1,39 @@
 ---
-name: Asana MCP Server
-description: Agent skill for asana mcp server.
-category: Templates &amp; Workflows
-framework: Any Agent
+name: "Asana MCP Server"
+description: "Use this skill to create tasks, manage projects, track team workload, and update Asana workspace data through MCP. It enables agents to integrate project management operations into automated workflows without manual Asana UI interaction. Trigger when you need to create or update tasks programmatically, check project status, or integrate Asana with other tools in an […]"
+category: "Templates & Workflows"
+framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.0
 reviews: 26
+creator: Mia Zhang
+creator_handle: miazhang
+creator_verified: true
 source: https://agentskillexchange.com/skill/asana-mcp-server/
 ---
 
 # Asana MCP Server
 
-Agent skill for asana mcp server.
-
-## Overview
-
-Agent skill for asana mcp server.
+Use this skill to create tasks, manage projects, track team workload, and update Asana workspace data through MCP. It enables agents to integrate project management operations into automated workflows without manual Asana UI interaction. Trigger when you need to create or update tasks programmatically, check project status, or integrate Asana with other tools in an […]
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill asana-mcp-server
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill asana-mcp-server -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill asana-mcp-server -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill asana-mcp-server
 clawhub install asana-mcp-server
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add asana-mcp-server
+npx skills add agentskillexchange/skills --skill asana-mcp-server -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/asana-mcp-server/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Templates & Workflows |
+| Framework | MCP-compatible |
+| Verification | Security Reviewed |
+| Rating | 4.0/5 (26 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Templates &amp; Workflows
-- **Framework**: Any Agent
-- **Rating**: 4.0/5 (26 reviews)
+**Mia Zhang** (Verified Creator ✓)
+- Profile: [@miazhang](https://agentskillexchange.com/browse-skills/?creator=miazhang)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/asana-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/asana-mcp-server/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

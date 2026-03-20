@@ -1,28 +1,39 @@
 ---
-name: Notion MCP Server
-description: Agent skill for notion mcp server.
-category: Calendar, Email &amp; Productivity
-framework: Any Agent
+name: "Notion MCP Server"
+description: "Use this skill when you need to read or write Notion pages, create database entries, search across a workspace, or update properties from your AI agent. It connects agents to Notion as a knowledge base and project management system for seamless information retrieval and creation."
+category: "Calendar, Email & Productivity"
+framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.7
 reviews: 75
+creator: Priya Sharma
+creator_handle: priyasharma
+creator_verified: true
 source: https://agentskillexchange.com/skill/notion-mcp-server/
 ---
 
 # Notion MCP Server
 
-Agent skill for notion mcp server.
-
-## Overview
-
-Agent skill for notion mcp server.
+Use this skill when you need to read or write Notion pages, create database entries, search across a workspace, or update properties from your AI agent. It connects agents to Notion as a knowledge base and project management system for seamless information retrieval and creation.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill notion-mcp-server
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill notion-mcp-server -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill notion-mcp-server -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill notion-mcp-server
 clawhub install notion-mcp-server
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add notion-mcp-server
+npx skills add agentskillexchange/skills --skill notion-mcp-server -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/notion-mcp-server/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Calendar, Email & Productivity |
+| Framework | MCP-compatible |
+| Verification | Security Reviewed |
+| Rating | 4.7/5 (75 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Calendar, Email &amp; Productivity
-- **Framework**: Any Agent
-- **Rating**: 4.7/5 (75 reviews)
+**Priya Sharma** (Verified Creator ✓)
+- Profile: [@priyasharma](https://agentskillexchange.com/browse-skills/?creator=priyasharma)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/notion-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/notion-mcp-server/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

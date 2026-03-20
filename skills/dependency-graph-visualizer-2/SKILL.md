@@ -1,28 +1,39 @@
 ---
-name: Dependency Graph Visualizer
-description: Agent skill for dependency graph visualizer.
-category: Code Quality &amp; Review
-framework: Any Agent
+name: "Dependency Graph Visualizer"
+description: "Generates interactive dependency graphs for codebases, showing module relationships, coupling metrics, and change impact analysis. Helps architects understand system structure and identify refactoring opportunities."
+category: "Code Quality & Review"
+framework: "Claude Code"
 verification: security_reviewed
 rating: 4.4
 reviews: 33
+creator: Ava Wilson
+creator_handle: avawilson
+creator_verified: true
 source: https://agentskillexchange.com/skill/dependency-graph-visualizer-2/
 ---
 
 # Dependency Graph Visualizer
 
-Agent skill for dependency graph visualizer.
-
-## Overview
-
-Agent skill for dependency graph visualizer.
+Generates interactive dependency graphs for codebases, showing module relationships, coupling metrics, and change impact analysis. Helps architects understand system structure and identify refactoring opportunities.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill dependency-graph-visualizer-2
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill dependency-graph-visualizer-2 -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill dependency-graph-visualizer-2 -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill dependency-graph-visualizer-2
 clawhub install dependency-graph-visualizer-2
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add dependency-graph-visualizer-2
+npx skills add agentskillexchange/skills --skill dependency-graph-visualizer-2 -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/dependency-graph-visualizer-2/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Code Quality & Review |
+| Framework | Claude Code |
+| Verification | Security Reviewed |
+| Rating | 4.4/5 (33 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Code Quality &amp; Review
-- **Framework**: Any Agent
-- **Rating**: 4.4/5 (33 reviews)
+**Ava Wilson** (Verified Creator ✓)
+- Profile: [@avawilson](https://agentskillexchange.com/browse-skills/?creator=avawilson)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/dependency-graph-visualizer-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/dependency-graph-visualizer-2/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

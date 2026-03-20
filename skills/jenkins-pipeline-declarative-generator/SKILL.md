@@ -1,11 +1,14 @@
 ---
-name: Jenkins Pipeline Declarative Generator
-description: Creates Jenkins Declarative Pipeline Jenkinsfiles using jenkins-pipeline-syntax and jenkins-shared-libraries. Configures stages, parallel execution, and post-build actions with Blue Ocean compatibility.
-category: CI/CD Integrations
-framework: Any Agent
+name: "Jenkins Pipeline Declarative Generator"
+description: "Creates Jenkins Declarative Pipeline Jenkinsfiles using jenkins-pipeline-syntax and jenkins-shared-libraries. Configures stages, parallel execution, and post-build actions with Blue Ocean compatibility."
+category: "CI/CD Integrations"
+framework: "Custom Agents"
 verification: verified_metadata
 rating: 4.7
 reviews: 32
+creator: Isabella Rossi
+creator_handle: irossi
+creator_verified: false
 source: https://agentskillexchange.com/skill/jenkins-pipeline-declarative-generator/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/jenkins-pipeline-declarative-genera
 
 Creates Jenkins Declarative Pipeline Jenkinsfiles using jenkins-pipeline-syntax and jenkins-shared-libraries. Configures stages, parallel execution, and post-build actions with Blue Ocean compatibility.
 
-## Overview
-
-Creates Jenkins Declarative Pipeline Jenkinsfiles using jenkins-pipeline-syntax and jenkins-shared-libraries. Configures stages, parallel execution, and post-build actions with Blue Ocean compatibility.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill jenkins-pipeline-declarative-generator
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill jenkins-pipeline-declarative-generator -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill jenkins-pipeline-declarative-generator -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill jenkins-pipeline-declarative-ge
 clawhub install jenkins-pipeline-declarative-generator
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add jenkins-pipeline-declarative-generator
+npx skills add agentskillexchange/skills --skill jenkins-pipeline-declarative-generator -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/jenkins-pipeline-declarative-generator/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | CI/CD Integrations |
+| Framework | Custom Agents |
+| Verification | Verified Metadata |
+| Rating | 4.7/5 (32 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: verified_metadata
-- **Category**: CI/CD Integrations
-- **Framework**: Any Agent
-- **Rating**: 4.7/5 (32 reviews)
+**Isabella Rossi**
+- Profile: [@irossi](https://agentskillexchange.com/browse-skills/?creator=irossi)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/jenkins-pipeline-declarative-generator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/jenkins-pipeline-declarative-generator/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

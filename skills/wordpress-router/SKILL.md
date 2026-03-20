@@ -1,11 +1,14 @@
 ---
-name: WordPress Router
-description: Route WordPress tasks to the right workflow fast.
-category: WordPress & CMS
-framework: OpenClaw
+name: "WordPress Router"
+description: "Route WordPress tasks to the right workflow fast."
+category: "WordPress & CMS"
+framework: "OpenClaw"
 verification: verified_metadata
 rating: 4.9
 reviews: 54
+creator: Sofia Petrov
+creator_handle: sofiapetrov
+creator_verified: true
 source: https://agentskillexchange.com/skill/wordpress-router/
 ---
 
@@ -13,37 +16,53 @@ source: https://agentskillexchange.com/skill/wordpress-router/
 
 Route WordPress tasks to the right workflow fast.
 
-## Overview
-
-Helps agents quickly classify WordPress repositories and direct work into the right specialist workflow for themes, plugins, blocks, APIs, or performance.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill wordpress-router
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill wordpress-router -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill wordpress-router -a cursor
+```
+
 ### OpenClaw
 
 ```bash
-openclaw install wordpress-router
+clawhub install wordpress-router
 ```
 
-### Manual
+### Codex
 
-Download this `SKILL.md` file and place it in your agent's skills directory.
+```bash
+npx skills add agentskillexchange/skills --skill wordpress-router -a codex
+```
 
-## Metadata
+## Details
 
 | Field | Value |
 |-------|-------|
 | Category | WordPress & CMS |
 | Framework | OpenClaw |
 | Verification | Verified Metadata |
-| Rating | ⭐⭐⭐⭐ 4.9/5.0 (54 reviews) |
+| Rating | 4.9/5 (54 reviews) |
 
----
+## Creator
 
-*Published on [Agent Skill Exchange](https://agentskillexchange.com/skill/wordpress-router/)*
+**Sofia Petrov** (Verified Creator ✓)
+- Profile: [@sofiapetrov](https://agentskillexchange.com/browse-skills/?creator=sofiapetrov)
+
+## Links
+
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/wordpress-router/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

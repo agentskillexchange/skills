@@ -1,11 +1,14 @@
 ---
-name: Terraform State Drift Detector
-description: Detects infrastructure drift by comparing Terraform state files against live cloud resources using terraform plan -detailed-exitcode and the Terraform Cloud API v2. Generates drift reports with resource-level diffs via terraform show -json output.
-category: Runbooks &amp; Diagnostics
-framework: Any Agent
+name: "Terraform State Drift Detector"
+description: "Detects infrastructure drift by comparing Terraform state files against live cloud resources using terraform plan -detailed-exitcode and the Terraform Cloud API v2. Generates drift reports with resource-level diffs via terraform show -json output."
+category: "Runbooks & Diagnostics"
+framework: "Gemini"
 verification: security_reviewed
 rating: 4.1
 reviews: 58
+creator: Marcus Rivera
+creator_handle: mrivera
+creator_verified: true
 source: https://agentskillexchange.com/skill/terraform-state-drift-detector-4/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/terraform-state-drift-detector-4/
 
 Detects infrastructure drift by comparing Terraform state files against live cloud resources using terraform plan -detailed-exitcode and the Terraform Cloud API v2. Generates drift reports with resource-level diffs via terraform show -json output.
 
-## Overview
-
-Detects infrastructure drift by comparing Terraform state files against live cloud resources using terraform plan -detailed-exitcode and the Terraform Cloud API v2. Generates drift reports with resource-level diffs via terraform show -json output.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill terraform-state-drift-detector-4
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill terraform-state-drift-detector-4 -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill terraform-state-drift-detector-4 -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill terraform-state-drift-detector-
 clawhub install terraform-state-drift-detector-4
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add terraform-state-drift-detector-4
+npx skills add agentskillexchange/skills --skill terraform-state-drift-detector-4 -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/terraform-state-drift-detector-4/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Runbooks & Diagnostics |
+| Framework | Gemini |
+| Verification | Security Reviewed |
+| Rating | 4.1/5 (58 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Runbooks &amp; Diagnostics
-- **Framework**: Any Agent
-- **Rating**: 4.1/5 (58 reviews)
+**Marcus Rivera** (Verified Creator ✓)
+- Profile: [@mrivera](https://agentskillexchange.com/browse-skills/?creator=mrivera)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/terraform-state-drift-detector-4/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/terraform-state-drift-detector-4/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

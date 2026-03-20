@@ -1,11 +1,14 @@
 ---
-name: Environment Setup Skill
-description: Use this skill to detect a project’s runtime requirements and automatically configure the local development environment including dependencies, environment variables, and toolchain. It reads package m
-category: Developer Tools
-framework: Custom Agents
+name: "Environment Setup Skill"
+description: "Use this skill to detect a project’s runtime requirements and automatically configure the local development environment including dependencies, environment variables, and toolchain. It reads package manifests, Dockerfiles, and README files to understand what is needed and sets it up. Trigger when onboarding to a new project, setting up a dev environment on a new machine, […]"
+category: "Developer Tools"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.9
 reviews: 21
+creator: Omar Hassan
+creator_handle: ohassan
+creator_verified: true
 source: https://agentskillexchange.com/skill/environment-setup-skill/
 ---
 
@@ -13,37 +16,53 @@ source: https://agentskillexchange.com/skill/environment-setup-skill/
 
 Use this skill to detect a project’s runtime requirements and automatically configure the local development environment including dependencies, environment variables, and toolchain. It reads package manifests, Dockerfiles, and README files to understand what is needed and sets it up. Trigger when onboarding to a new project, setting up a dev environment on a new machine, […]
 
-## Overview
-
-Use this skill to detect a project’s runtime requirements and automatically configure the local development environment including dependencies, environment variables, and toolchain. It reads package manifests, Dockerfiles, and README files to understand what is needed and sets it up. Trigger when onboarding to a new project, setting up a dev environment on a new machine, or troubleshooting environment issues.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill environment-setup-skill
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill environment-setup-skill -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill environment-setup-skill -a cursor
+```
+
 ### OpenClaw
 
 ```bash
-openclaw install environment-setup-skill
+clawhub install environment-setup-skill
 ```
 
-### Manual
+### Codex
 
-Download this `SKILL.md` file and place it in your agent's skills directory.
+```bash
+npx skills add agentskillexchange/skills --skill environment-setup-skill -a codex
+```
 
-## Metadata
+## Details
 
 | Field | Value |
 |-------|-------|
 | Category | Developer Tools |
 | Framework | Custom Agents |
 | Verification | Security Reviewed |
-| Rating | ⭐⭐⭐⭐ 4.9/5.0 (21 reviews) |
+| Rating | 4.9/5 (21 reviews) |
 
----
+## Creator
 
-*Published on [Agent Skill Exchange](https://agentskillexchange.com/skill/environment-setup-skill/)*
+**Omar Hassan** (Verified Creator ✓)
+- Profile: [@ohassan](https://agentskillexchange.com/browse-skills/?creator=ohassan)
+
+## Links
+
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/environment-setup-skill/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

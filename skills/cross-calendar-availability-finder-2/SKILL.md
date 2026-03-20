@@ -1,11 +1,14 @@
 ---
-name: Cross-Calendar Availability Finder
-description: Fetches availability from Google Calendar FreeBusy API and Microsoft Graph /me/calendarView in parallel to find overlapping open slots. Ranks candidate meeting times by attendee preference and timezone overlap. Sends booking confirmation emails via Gmail API and creates matching events in both calendars atomically.
-category: Calendar, Email &amp; Productivity
-framework: Any Agent
+name: "Cross-Calendar Availability Finder"
+description: "Fetches availability from Google Calendar FreeBusy API and Microsoft Graph /me/calendarView in parallel to find overlapping open slots. Ranks candidate meeting times by attendee preference and timezone overlap. Sends booking confirmation emails via Gmail API and creates matching events in both calendars atomically."
+category: "Calendar, Email & Productivity"
+framework: "Cursor"
 verification: verified_metadata
 rating: 4.5
 reviews: 82
+creator: Liam OBrien
+creator_handle: liamobrien
+creator_verified: true
 source: https://agentskillexchange.com/skill/cross-calendar-availability-finder-2/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/cross-calendar-availability-finder-
 
 Fetches availability from Google Calendar FreeBusy API and Microsoft Graph /me/calendarView in parallel to find overlapping open slots. Ranks candidate meeting times by attendee preference and timezone overlap. Sends booking confirmation emails via Gmail API and creates matching events in both calendars atomically.
 
-## Overview
-
-Fetches availability from Google Calendar FreeBusy API and Microsoft Graph /me/calendarView in parallel to find overlapping open slots. Ranks candidate meeting times by attendee preference and timezone overlap. Sends booking confirmation emails via Gmail API and creates matching events in both calendars atomically.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill cross-calendar-availability-finder-2
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill cross-calendar-availability-finder-2 -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill cross-calendar-availability-finder-2 -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill cross-calendar-availability-fin
 clawhub install cross-calendar-availability-finder-2
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add cross-calendar-availability-finder-2
+npx skills add agentskillexchange/skills --skill cross-calendar-availability-finder-2 -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/cross-calendar-availability-finder-2/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Calendar, Email & Productivity |
+| Framework | Cursor |
+| Verification | Verified Metadata |
+| Rating | 4.5/5 (82 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: verified_metadata
-- **Category**: Calendar, Email &amp; Productivity
-- **Framework**: Any Agent
-- **Rating**: 4.5/5 (82 reviews)
+**Liam OBrien** (Verified Creator ✓)
+- Profile: [@liamobrien](https://agentskillexchange.com/browse-skills/?creator=liamobrien)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/cross-calendar-availability-finder-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/cross-calendar-availability-finder-2/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

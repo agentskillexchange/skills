@@ -1,11 +1,14 @@
 ---
-name: Humanizer Writing Editor
-description: Make text sound more natural and less machine-written.
-category: Content Writing &amp; SEO
-framework: Any Agent
+name: "Humanizer Writing Editor"
+description: "Make text sound more natural and less machine-written."
+category: "Content Writing & SEO"
+framework: "OpenClaw"
 verification: verified_metadata
 rating: 4.6
 reviews: 25
+creator: Yuki Tanaka
+creator_handle: yukitanaka
+creator_verified: true
 source: https://agentskillexchange.com/skill/humanizer-writing-editor/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/humanizer-writing-editor/
 
 Make text sound more natural and less machine-written.
 
-## Overview
-
-Make text sound more natural and less machine-written.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill humanizer-writing-editor
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill humanizer-writing-editor -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill humanizer-writing-editor -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill humanizer-writing-editor
 clawhub install humanizer-writing-editor
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add humanizer-writing-editor
+npx skills add agentskillexchange/skills --skill humanizer-writing-editor -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/humanizer-writing-editor/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Content Writing & SEO |
+| Framework | OpenClaw |
+| Verification | Verified Metadata |
+| Rating | 4.6/5 (25 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: verified_metadata
-- **Category**: Content Writing &amp; SEO
-- **Framework**: Any Agent
-- **Rating**: 4.6/5 (25 reviews)
+**Yuki Tanaka** (Verified Creator ✓)
+- Profile: [@yukitanaka](https://agentskillexchange.com/browse-skills/?creator=yukitanaka)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/humanizer-writing-editor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/humanizer-writing-editor/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

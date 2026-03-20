@@ -1,11 +1,14 @@
 ---
-name: OpenAI Image Gen
-description: Batch-generate images through the OpenAI Images API with a prompt sampler and gallery output.
-category: Image &amp; Creative Automation
-framework: Any Agent
+name: "OpenAI Image Gen"
+description: "Batch-generate images through the OpenAI Images API with a prompt sampler and gallery output."
+category: "Image & Creative Automation"
+framework: "OpenClaw"
 verification: security_reviewed
 rating: 4.1
 reviews: 75
+creator: Priya Sharma
+creator_handle: priyasharma
+creator_verified: true
 source: https://agentskillexchange.com/skill/openai-image-gen/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/openai-image-gen/
 
 Batch-generate images through the OpenAI Images API with a prompt sampler and gallery output.
 
-## Overview
-
-Batch-generate images through the OpenAI Images API with a prompt sampler and gallery output.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill openai-image-gen
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill openai-image-gen -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill openai-image-gen -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill openai-image-gen
 clawhub install openai-image-gen
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add openai-image-gen
+npx skills add agentskillexchange/skills --skill openai-image-gen -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/openai-image-gen/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Image & Creative Automation |
+| Framework | OpenClaw |
+| Verification | Security Reviewed |
+| Rating | 4.1/5 (75 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Image &amp; Creative Automation
-- **Framework**: Any Agent
-- **Rating**: 4.1/5 (75 reviews)
+**Priya Sharma** (Verified Creator ✓)
+- Profile: [@priyasharma](https://agentskillexchange.com/browse-skills/?creator=priyasharma)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/openai-image-gen/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/openai-image-gen/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

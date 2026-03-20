@@ -1,11 +1,14 @@
 ---
-name: SonarQube Quality Gate Enforcer
-description: Enforces SonarQube quality gates by querying the SonarQube Web API for code smells, coverage metrics, and security hotspots. Blocks merges that fail defined quality thresholds.
-category: Code Quality &amp; Review
-framework: Any Agent
+name: "SonarQube Quality Gate Enforcer"
+description: "Enforces SonarQube quality gates by querying the SonarQube Web API for code smells, coverage metrics, and security hotspots. Blocks merges that fail defined quality thresholds."
+category: "Code Quality & Review"
+framework: "ChatGPT Agents"
 verification: verified_metadata
 rating: 4.3
 reviews: 62
+creator: Tom Anderson
+creator_handle: tanderson
+creator_verified: false
 source: https://agentskillexchange.com/skill/sonarqube-quality-gate-enforcer/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/sonarqube-quality-gate-enforcer/
 
 Enforces SonarQube quality gates by querying the SonarQube Web API for code smells, coverage metrics, and security hotspots. Blocks merges that fail defined quality thresholds.
 
-## Overview
-
-Enforces SonarQube quality gates by querying the SonarQube Web API for code smells, coverage metrics, and security hotspots. Blocks merges that fail defined quality thresholds.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-enforcer
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-enforcer -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-enforcer -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-enforcer
 clawhub install sonarqube-quality-gate-enforcer
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add sonarqube-quality-gate-enforcer
+npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-enforcer -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/sonarqube-quality-gate-enforcer/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Code Quality & Review |
+| Framework | ChatGPT Agents |
+| Verification | Verified Metadata |
+| Rating | 4.3/5 (62 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: verified_metadata
-- **Category**: Code Quality &amp; Review
-- **Framework**: Any Agent
-- **Rating**: 4.3/5 (62 reviews)
+**Tom Anderson**
+- Profile: [@tanderson](https://agentskillexchange.com/browse-skills/?creator=tanderson)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/sonarqube-quality-gate-enforcer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/sonarqube-quality-gate-enforcer/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -1,28 +1,39 @@
 ---
-name: Weaviate MCP Server
-description: Agent skill for weaviate mcp server.
-category: Data Extraction &amp; Transformation
-framework: Any Agent
+name: "Weaviate MCP Server"
+description: "Use this skill to perform vector database operations in Weaviate, manage schemas, and run semantic and hybrid searches through MCP. It enables agents to leverage Weaviate’s multi-modal vector capabilities and GraphQL interface. Trigger when you need semantic search with structured filtering, multi-modal search, or open-source vector database operations."
+category: "Data Extraction & Transformation"
+framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.0
 reviews: 85
+creator: Mia Zhang
+creator_handle: miazhang
+creator_verified: true
 source: https://agentskillexchange.com/skill/weaviate-mcp-server/
 ---
 
 # Weaviate MCP Server
 
-Agent skill for weaviate mcp server.
-
-## Overview
-
-Agent skill for weaviate mcp server.
+Use this skill to perform vector database operations in Weaviate, manage schemas, and run semantic and hybrid searches through MCP. It enables agents to leverage Weaviate’s multi-modal vector capabilities and GraphQL interface. Trigger when you need semantic search with structured filtering, multi-modal search, or open-source vector database operations.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill weaviate-mcp-server
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill weaviate-mcp-server -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill weaviate-mcp-server -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill weaviate-mcp-server
 clawhub install weaviate-mcp-server
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add weaviate-mcp-server
+npx skills add agentskillexchange/skills --skill weaviate-mcp-server -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/weaviate-mcp-server/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Data Extraction & Transformation |
+| Framework | MCP-compatible |
+| Verification | Security Reviewed |
+| Rating | 4.0/5 (85 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Data Extraction &amp; Transformation
-- **Framework**: Any Agent
-- **Rating**: 4.0/5 (85 reviews)
+**Mia Zhang** (Verified Creator ✓)
+- Profile: [@miazhang](https://agentskillexchange.com/browse-skills/?creator=miazhang)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/weaviate-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/weaviate-mcp-server/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

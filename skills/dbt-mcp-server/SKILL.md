@@ -1,28 +1,39 @@
 ---
-name: dbt MCP Server
-description: Agent skill for dbt mcp server.
-category: Data Extraction &amp; Transformation
-framework: Any Agent
+name: "dbt MCP Server"
+description: "Use this skill to trigger dbt model runs, execute dbt tests, explore lineage graphs, and manage dbt project operations through MCP. It integrates dbt’s transformation layer into agent workflows for automated data pipeline management. Trigger when you need to run data transformations, validate data quality with dbt tests, or explore model lineage programmatically."
+category: "Data Extraction & Transformation"
+framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.0
 reviews: 20
+creator: Priya Sharma
+creator_handle: priyasharma
+creator_verified: true
 source: https://agentskillexchange.com/skill/dbt-mcp-server/
 ---
 
 # dbt MCP Server
 
-Agent skill for dbt mcp server.
-
-## Overview
-
-Agent skill for dbt mcp server.
+Use this skill to trigger dbt model runs, execute dbt tests, explore lineage graphs, and manage dbt project operations through MCP. It integrates dbt’s transformation layer into agent workflows for automated data pipeline management. Trigger when you need to run data transformations, validate data quality with dbt tests, or explore model lineage programmatically.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill dbt-mcp-server
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill dbt-mcp-server -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill dbt-mcp-server -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill dbt-mcp-server
 clawhub install dbt-mcp-server
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add dbt-mcp-server
+npx skills add agentskillexchange/skills --skill dbt-mcp-server -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/dbt-mcp-server/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Data Extraction & Transformation |
+| Framework | MCP-compatible |
+| Verification | Security Reviewed |
+| Rating | 4.0/5 (20 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Data Extraction &amp; Transformation
-- **Framework**: Any Agent
-- **Rating**: 4.0/5 (20 reviews)
+**Priya Sharma** (Verified Creator ✓)
+- Profile: [@priyasharma](https://agentskillexchange.com/browse-skills/?creator=priyasharma)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/dbt-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/dbt-mcp-server/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

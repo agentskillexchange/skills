@@ -1,11 +1,14 @@
 ---
-name: Nano PDF Editor
-description: Edit PDFs with natural-language instructions.
-category: Data Extraction &amp; Transformation
-framework: Any Agent
+name: "Nano PDF Editor"
+description: "Edit PDFs with natural-language instructions."
+category: "Data Extraction & Transformation"
+framework: "OpenClaw"
 verification: verified_metadata
 rating: 4.0
 reviews: 26
+creator: Omar Hassan
+creator_handle: ohassan
+creator_verified: true
 source: https://agentskillexchange.com/skill/nano-pdf-editor/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/nano-pdf-editor/
 
 Edit PDFs with natural-language instructions.
 
-## Overview
-
-Edit PDFs with natural-language instructions.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill nano-pdf-editor
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill nano-pdf-editor -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill nano-pdf-editor -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill nano-pdf-editor
 clawhub install nano-pdf-editor
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add nano-pdf-editor
+npx skills add agentskillexchange/skills --skill nano-pdf-editor -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/nano-pdf-editor/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Data Extraction & Transformation |
+| Framework | OpenClaw |
+| Verification | Verified Metadata |
+| Rating | 4.0/5 (26 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: verified_metadata
-- **Category**: Data Extraction &amp; Transformation
-- **Framework**: Any Agent
-- **Rating**: 4.0/5 (26 reviews)
+**Omar Hassan** (Verified Creator ✓)
+- Profile: [@ohassan](https://agentskillexchange.com/browse-skills/?creator=ohassan)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/nano-pdf-editor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/nano-pdf-editor/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

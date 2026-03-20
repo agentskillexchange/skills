@@ -1,11 +1,14 @@
 ---
-name: AWS CloudWatch Alarm Runbook Generator
-description: Generates structured incident runbooks from AWS CloudWatch alarm configurations using the CloudWatch DescribeAlarms API and AWS Systems Manager documents. Links alarms to remediation procedures automatically.
-category: Runbooks &amp; Diagnostics
-framework: Any Agent
+name: "AWS CloudWatch Alarm Runbook Generator"
+description: "Generates structured incident runbooks from AWS CloudWatch alarm configurations using the CloudWatch DescribeAlarms API and AWS Systems Manager documents. Links alarms to remediation procedures automatically."
+category: "Runbooks & Diagnostics"
+framework: "Claude Agents"
 verification: verified_metadata
 rating: 4.9
 reviews: 69
+creator: David Kim
+creator_handle: dkim
+creator_verified: false
 source: https://agentskillexchange.com/skill/aws-cloudwatch-alarm-runbook-generator/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/aws-cloudwatch-alarm-runbook-genera
 
 Generates structured incident runbooks from AWS CloudWatch alarm configurations using the CloudWatch DescribeAlarms API and AWS Systems Manager documents. Links alarms to remediation procedures automatically.
 
-## Overview
-
-Generates structured incident runbooks from AWS CloudWatch alarm configurations using the CloudWatch DescribeAlarms API and AWS Systems Manager documents. Links alarms to remediation procedures automatically.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill aws-cloudwatch-alarm-runbook-generator
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill aws-cloudwatch-alarm-runbook-generator -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill aws-cloudwatch-alarm-runbook-generator -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill aws-cloudwatch-alarm-runbook-ge
 clawhub install aws-cloudwatch-alarm-runbook-generator
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add aws-cloudwatch-alarm-runbook-generator
+npx skills add agentskillexchange/skills --skill aws-cloudwatch-alarm-runbook-generator -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/aws-cloudwatch-alarm-runbook-generator/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Runbooks & Diagnostics |
+| Framework | Claude Agents |
+| Verification | Verified Metadata |
+| Rating | 4.9/5 (69 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: verified_metadata
-- **Category**: Runbooks &amp; Diagnostics
-- **Framework**: Any Agent
-- **Rating**: 4.9/5 (69 reviews)
+**David Kim**
+- Profile: [@dkim](https://agentskillexchange.com/browse-skills/?creator=dkim)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/aws-cloudwatch-alarm-runbook-generator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/aws-cloudwatch-alarm-runbook-generator/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

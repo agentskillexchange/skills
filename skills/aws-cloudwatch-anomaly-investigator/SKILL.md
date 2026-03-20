@@ -1,11 +1,14 @@
 ---
-name: AWS CloudWatch Anomaly Investigator
-description: Investigates CloudWatch metric anomalies using the AWS SDK CloudWatch.getMetricData and Logs.filterLogEvents APIs. Correlates metric spikes with log patterns and deployment events from CodeDeploy.
-category: Runbooks &amp; Diagnostics
-framework: Any Agent
+name: "AWS CloudWatch Anomaly Investigator"
+description: "Investigates CloudWatch metric anomalies using the AWS SDK CloudWatch.getMetricData and Logs.filterLogEvents APIs. Correlates metric spikes with log patterns and deployment events from CodeDeploy."
+category: "Runbooks & Diagnostics"
+framework: "ChatGPT Agents"
 verification: verified_metadata
 rating: 4.2
 reviews: 42
+creator: Yuki Tanaka
+creator_handle: yukitanaka
+creator_verified: true
 source: https://agentskillexchange.com/skill/aws-cloudwatch-anomaly-investigator/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/aws-cloudwatch-anomaly-investigator
 
 Investigates CloudWatch metric anomalies using the AWS SDK CloudWatch.getMetricData and Logs.filterLogEvents APIs. Correlates metric spikes with log patterns and deployment events from CodeDeploy.
 
-## Overview
-
-Investigates CloudWatch metric anomalies using the AWS SDK CloudWatch.getMetricData and Logs.filterLogEvents APIs. Correlates metric spikes with log patterns and deployment events from CodeDeploy.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill aws-cloudwatch-anomaly-investigator
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill aws-cloudwatch-anomaly-investigator -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill aws-cloudwatch-anomaly-investigator -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill aws-cloudwatch-anomaly-investig
 clawhub install aws-cloudwatch-anomaly-investigator
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add aws-cloudwatch-anomaly-investigator
+npx skills add agentskillexchange/skills --skill aws-cloudwatch-anomaly-investigator -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/aws-cloudwatch-anomaly-investigator/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Runbooks & Diagnostics |
+| Framework | ChatGPT Agents |
+| Verification | Verified Metadata |
+| Rating | 4.2/5 (42 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: verified_metadata
-- **Category**: Runbooks &amp; Diagnostics
-- **Framework**: Any Agent
-- **Rating**: 4.2/5 (42 reviews)
+**Yuki Tanaka** (Verified Creator ✓)
+- Profile: [@yukitanaka](https://agentskillexchange.com/browse-skills/?creator=yukitanaka)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/aws-cloudwatch-anomaly-investigator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/aws-cloudwatch-anomaly-investigator/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

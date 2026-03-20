@@ -1,28 +1,39 @@
 ---
-name: Open Policy Agent (OPA)
-description: Agent skill for open policy agent (opa).
-category: Security &amp; Verification
-framework: Any Agent
+name: "Open Policy Agent (OPA)"
+description: "Implements policy-as-code using Open Policy Agent and Rego language. Enforces admission control in Kubernetes, API authorization policies, and infrastructure compliance checks across cloud resources."
+category: "Security & Verification"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.8
 reviews: 19
+creator: Liam OBrien
+creator_handle: liamobrien
+creator_verified: true
 source: https://agentskillexchange.com/skill/open-policy-agent-opa/
 ---
 
 # Open Policy Agent (OPA)
 
-Agent skill for open policy agent (opa).
-
-## Overview
-
-Agent skill for open policy agent (opa).
+Implements policy-as-code using Open Policy Agent and Rego language. Enforces admission control in Kubernetes, API authorization policies, and infrastructure compliance checks across cloud resources.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill open-policy-agent-opa
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill open-policy-agent-opa -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill open-policy-agent-opa -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill open-policy-agent-opa
 clawhub install open-policy-agent-opa
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add open-policy-agent-opa
+npx skills add agentskillexchange/skills --skill open-policy-agent-opa -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/open-policy-agent-opa/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Security & Verification |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.8/5 (19 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Security &amp; Verification
-- **Framework**: Any Agent
-- **Rating**: 4.8/5 (19 reviews)
+**Liam OBrien** (Verified Creator ✓)
+- Profile: [@liamobrien](https://agentskillexchange.com/browse-skills/?creator=liamobrien)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/open-policy-agent-opa/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/open-policy-agent-opa/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

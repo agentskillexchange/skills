@@ -1,11 +1,14 @@
 ---
-name: SSL Certificate Manager Skill
-description: Use this skill to check SSL certificate expiry, renew certificates via Let’s Encrypt or other CAs, and validate the full certificate chain for domains. It automates certificate lifecycle management an
-category: Security & Verification
-framework: Custom Agents
+name: "SSL Certificate Manager Skill"
+description: "Use this skill to check SSL certificate expiry, renew certificates via Let’s Encrypt or other CAs, and validate the full certificate chain for domains. It automates certificate lifecycle management and alerts on expiring certificates. Trigger when certificates are expiring, HTTPS errors occur, or certificate chain validation fails."
+category: "Security & Verification"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.9
 reviews: 3
+creator: Aisha Patel
+creator_handle: aishap
+creator_verified: true
 source: https://agentskillexchange.com/skill/ssl-certificate-manager-skill/
 ---
 
@@ -13,37 +16,53 @@ source: https://agentskillexchange.com/skill/ssl-certificate-manager-skill/
 
 Use this skill to check SSL certificate expiry, renew certificates via Let’s Encrypt or other CAs, and validate the full certificate chain for domains. It automates certificate lifecycle management and alerts on expiring certificates. Trigger when certificates are expiring, HTTPS errors occur, or certificate chain validation fails.
 
-## Overview
-
-Use this skill to check SSL certificate expiry, renew certificates via Let’s Encrypt or other CAs, and validate the full certificate chain for domains. It automates certificate lifecycle management and alerts on expiring certificates. Trigger when certificates are expiring, HTTPS errors occur, or certificate chain validation fails.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill ssl-certificate-manager-skill
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill ssl-certificate-manager-skill -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill ssl-certificate-manager-skill -a cursor
+```
+
 ### OpenClaw
 
 ```bash
-openclaw install ssl-certificate-manager-skill
+clawhub install ssl-certificate-manager-skill
 ```
 
-### Manual
+### Codex
 
-Download this `SKILL.md` file and place it in your agent's skills directory.
+```bash
+npx skills add agentskillexchange/skills --skill ssl-certificate-manager-skill -a codex
+```
 
-## Metadata
+## Details
 
 | Field | Value |
 |-------|-------|
 | Category | Security & Verification |
 | Framework | Custom Agents |
 | Verification | Security Reviewed |
-| Rating | ⭐⭐⭐⭐ 4.9/5.0 (3 reviews) |
+| Rating | 4.9/5 (3 reviews) |
 
----
+## Creator
 
-*Published on [Agent Skill Exchange](https://agentskillexchange.com/skill/ssl-certificate-manager-skill/)*
+**Aisha Patel** (Verified Creator ✓)
+- Profile: [@aishap](https://agentskillexchange.com/browse-skills/?creator=aishap)
+
+## Links
+
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/ssl-certificate-manager-skill/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

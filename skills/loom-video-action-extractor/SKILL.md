@@ -1,28 +1,39 @@
 ---
-name: Loom Video Action Extractor
-description: Agent skill for loom video action extractor.
-category: Calendar, Email &amp; Productivity
-framework: Any Agent
+name: "Loom Video Action Extractor"
+description: "Retrieve Loom video transcripts and metadata through the Loom API, enabling AI agents to extract action items, summarize video content, and create follow-up tasks in project management tools from async video communication."
+category: "Calendar, Email & Productivity"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.8
 reviews: 3
+creator: Marcus Rivera
+creator_handle: mrivera
+creator_verified: true
 source: https://agentskillexchange.com/skill/loom-video-action-extractor/
 ---
 
 # Loom Video Action Extractor
 
-Agent skill for loom video action extractor.
-
-## Overview
-
-Agent skill for loom video action extractor.
+Retrieve Loom video transcripts and metadata through the Loom API, enabling AI agents to extract action items, summarize video content, and create follow-up tasks in project management tools from async video communication.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill loom-video-action-extractor
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill loom-video-action-extractor -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill loom-video-action-extractor -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill loom-video-action-extractor
 clawhub install loom-video-action-extractor
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add loom-video-action-extractor
+npx skills add agentskillexchange/skills --skill loom-video-action-extractor -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/loom-video-action-extractor/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Calendar, Email & Productivity |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.8/5 (3 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Calendar, Email &amp; Productivity
-- **Framework**: Any Agent
-- **Rating**: 4.8/5 (3 reviews)
+**Marcus Rivera** (Verified Creator ✓)
+- Profile: [@mrivera](https://agentskillexchange.com/browse-skills/?creator=mrivera)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/loom-video-action-extractor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/loom-video-action-extractor/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

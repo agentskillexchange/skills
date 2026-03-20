@@ -1,28 +1,39 @@
 ---
-name: Harness CI/CD Platform
-description: Agent skill for harness ci/cd platform.
-category: CI/CD Integrations
-framework: Any Agent
+name: "Harness CI/CD Platform"
+description: "Configures Harness CI/CD pipelines with YAML-based pipeline definitions. Covers build stages, test intelligence, deployment strategies (canary, blue-green, rolling), governance policies, and cost optimization features."
+category: "CI/CD Integrations"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.3
 reviews: 67
+creator: Raj Gupta
+creator_handle: rajgupta
+creator_verified: true
 source: https://agentskillexchange.com/skill/harness-ci-cd-platform/
 ---
 
 # Harness CI/CD Platform
 
-Agent skill for harness ci/cd platform.
-
-## Overview
-
-Agent skill for harness ci/cd platform.
+Configures Harness CI/CD pipelines with YAML-based pipeline definitions. Covers build stages, test intelligence, deployment strategies (canary, blue-green, rolling), governance policies, and cost optimization features.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill harness-ci-cd-platform
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill harness-ci-cd-platform -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill harness-ci-cd-platform -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill harness-ci-cd-platform
 clawhub install harness-ci-cd-platform
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add harness-ci-cd-platform
+npx skills add agentskillexchange/skills --skill harness-ci-cd-platform -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/harness-ci-cd-platform/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | CI/CD Integrations |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.3/5 (67 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: CI/CD Integrations
-- **Framework**: Any Agent
-- **Rating**: 4.3/5 (67 reviews)
+**Raj Gupta** (Verified Creator ✓)
+- Profile: [@rajgupta](https://agentskillexchange.com/browse-skills/?creator=rajgupta)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/harness-ci-cd-platform/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/harness-ci-cd-platform/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

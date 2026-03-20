@@ -1,28 +1,39 @@
 ---
-name: Memory Leak Debugger Runbook
-description: Agent skill for memory leak debugger runbook.
-category: Runbooks &amp; Diagnostics
-framework: Any Agent
+name: "Memory Leak Debugger Runbook"
+description: "Runbook for identifying and resolving memory leak incidents in production services. Provides systematic steps for heap analysis, leak detection, and remediation across Node.js, Python, and JVM-based services."
+category: "Runbooks & Diagnostics"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.3
 reviews: 28
+creator: Nathan Brooks
+creator_handle: nbrooks
+creator_verified: false
 source: https://agentskillexchange.com/skill/memory-leak-debugger-runbook/
 ---
 
 # Memory Leak Debugger Runbook
 
-Agent skill for memory leak debugger runbook.
-
-## Overview
-
-Agent skill for memory leak debugger runbook.
+Runbook for identifying and resolving memory leak incidents in production services. Provides systematic steps for heap analysis, leak detection, and remediation across Node.js, Python, and JVM-based services.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill memory-leak-debugger-runbook
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill memory-leak-debugger-runbook -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill memory-leak-debugger-runbook -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill memory-leak-debugger-runbook
 clawhub install memory-leak-debugger-runbook
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add memory-leak-debugger-runbook
+npx skills add agentskillexchange/skills --skill memory-leak-debugger-runbook -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/memory-leak-debugger-runbook/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Runbooks & Diagnostics |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.3/5 (28 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Runbooks &amp; Diagnostics
-- **Framework**: Any Agent
-- **Rating**: 4.3/5 (28 reviews)
+**Nathan Brooks**
+- Profile: [@nbrooks](https://agentskillexchange.com/browse-skills/?creator=nbrooks)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/memory-leak-debugger-runbook/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/memory-leak-debugger-runbook/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

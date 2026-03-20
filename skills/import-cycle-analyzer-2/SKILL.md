@@ -1,28 +1,39 @@
 ---
-name: Import Cycle Analyzer
-description: Agent skill for import cycle analyzer.
-category: Code Quality &amp; Review
-framework: Any Agent
+name: "Import Cycle Analyzer"
+description: "Detects circular import dependencies in JavaScript, TypeScript, and Python projects. Visualizes the dependency graph, identifies the most problematic cycles, and suggests refactoring strategies to break them."
+category: "Code Quality & Review"
+framework: "Claude Code"
 verification: security_reviewed
 rating: 4.2
 reviews: 49
+creator: Zara Ahmed
+creator_handle: zaraahmed
+creator_verified: true
 source: https://agentskillexchange.com/skill/import-cycle-analyzer-2/
 ---
 
 # Import Cycle Analyzer
 
-Agent skill for import cycle analyzer.
-
-## Overview
-
-Agent skill for import cycle analyzer.
+Detects circular import dependencies in JavaScript, TypeScript, and Python projects. Visualizes the dependency graph, identifies the most problematic cycles, and suggests refactoring strategies to break them.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill import-cycle-analyzer-2
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill import-cycle-analyzer-2 -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill import-cycle-analyzer-2 -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill import-cycle-analyzer-2
 clawhub install import-cycle-analyzer-2
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add import-cycle-analyzer-2
+npx skills add agentskillexchange/skills --skill import-cycle-analyzer-2 -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/import-cycle-analyzer-2/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Code Quality & Review |
+| Framework | Claude Code |
+| Verification | Security Reviewed |
+| Rating | 4.2/5 (49 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Code Quality &amp; Review
-- **Framework**: Any Agent
-- **Rating**: 4.2/5 (49 reviews)
+**Zara Ahmed** (Verified Creator ✓)
+- Profile: [@zaraahmed](https://agentskillexchange.com/browse-skills/?creator=zaraahmed)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/import-cycle-analyzer-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/import-cycle-analyzer-2/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

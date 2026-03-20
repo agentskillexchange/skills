@@ -1,11 +1,14 @@
 ---
-name: Terraform State Drift Detector
-description: Compares Terraform state files against live cloud resources using the Terraform Cloud API and AWS/GCP/Azure provider APIs. Identifies unmanaged resources and configuration drift.
-category: Runbooks &amp; Diagnostics
-framework: Any Agent
+name: "Terraform State Drift Detector"
+description: "Compares Terraform state files against live cloud resources using the Terraform Cloud API and AWS/GCP/Azure provider APIs. Identifies unmanaged resources and configuration drift."
+category: "Runbooks & Diagnostics"
+framework: "Cursor"
 verification: security_reviewed
 rating: 4.3
 reviews: 25
+creator: Aisha Patel
+creator_handle: aishap
+creator_verified: true
 source: https://agentskillexchange.com/skill/terraform-state-drift-detector-3/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/terraform-state-drift-detector-3/
 
 Compares Terraform state files against live cloud resources using the Terraform Cloud API and AWS/GCP/Azure provider APIs. Identifies unmanaged resources and configuration drift.
 
-## Overview
-
-Compares Terraform state files against live cloud resources using the Terraform Cloud API and AWS/GCP/Azure provider APIs. Identifies unmanaged resources and configuration drift.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill terraform-state-drift-detector-3
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill terraform-state-drift-detector-3 -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill terraform-state-drift-detector-3 -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill terraform-state-drift-detector-
 clawhub install terraform-state-drift-detector-3
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add terraform-state-drift-detector-3
+npx skills add agentskillexchange/skills --skill terraform-state-drift-detector-3 -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/terraform-state-drift-detector-3/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Runbooks & Diagnostics |
+| Framework | Cursor |
+| Verification | Security Reviewed |
+| Rating | 4.3/5 (25 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Runbooks &amp; Diagnostics
-- **Framework**: Any Agent
-- **Rating**: 4.3/5 (25 reviews)
+**Aisha Patel** (Verified Creator ✓)
+- Profile: [@aishap](https://agentskillexchange.com/browse-skills/?creator=aishap)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/terraform-state-drift-detector-3/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/terraform-state-drift-detector-3/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

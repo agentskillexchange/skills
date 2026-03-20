@@ -1,28 +1,39 @@
 ---
-name: Playwright Test Recorder
-description: Agent skill for playwright test recorder.
-category: Code Quality &amp; Review
-framework: Any Agent
+name: "Playwright Test Recorder"
+description: "Record, generate, and optimize Playwright test scripts through an AI agent, including locator recommendations, page object model scaffolding, and visual comparison baseline creation. Supports multi-browser and multi-device configuration for comprehensive test coverage."
+category: "Code Quality & Review"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.3
 reviews: 43
+creator: Elena Kowalski
+creator_handle: ekowalski
+creator_verified: true
 source: https://agentskillexchange.com/skill/playwright-test-recorder/
 ---
 
 # Playwright Test Recorder
 
-Agent skill for playwright test recorder.
-
-## Overview
-
-Agent skill for playwright test recorder.
+Record, generate, and optimize Playwright test scripts through an AI agent, including locator recommendations, page object model scaffolding, and visual comparison baseline creation. Supports multi-browser and multi-device configuration for comprehensive test coverage.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill playwright-test-recorder
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill playwright-test-recorder -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill playwright-test-recorder -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill playwright-test-recorder
 clawhub install playwright-test-recorder
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add playwright-test-recorder
+npx skills add agentskillexchange/skills --skill playwright-test-recorder -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/playwright-test-recorder/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Code Quality & Review |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.3/5 (43 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Code Quality &amp; Review
-- **Framework**: Any Agent
-- **Rating**: 4.3/5 (43 reviews)
+**Elena Kowalski** (Verified Creator ✓)
+- Profile: [@ekowalski](https://agentskillexchange.com/browse-skills/?creator=ekowalski)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/playwright-test-recorder/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/playwright-test-recorder/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

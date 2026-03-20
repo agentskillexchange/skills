@@ -1,11 +1,14 @@
 ---
-name: OpenClaw Research Scout
-description: Cross-source research skill for discovering and summarizing signals from Reddit, X, and the web.
-category: Research &amp; Scraping
-framework: Any Agent
+name: "OpenClaw Research Scout"
+description: "Cross-source research skill for discovering and summarizing signals from Reddit, X, and the web."
+category: "Research & Scraping"
+framework: "OpenClaw"
 verification: verified_metadata
 rating: 4.2
 reviews: 44
+creator: James Whitfield
+creator_handle: jwhitfield
+creator_verified: true
 source: https://agentskillexchange.com/skill/openclaw-research-scout/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/openclaw-research-scout/
 
 Cross-source research skill for discovering and summarizing signals from Reddit, X, and the web.
 
-## Overview
-
-Cross-source research skill for discovering and summarizing signals from Reddit, X, and the web.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill openclaw-research-scout
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill openclaw-research-scout -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill openclaw-research-scout -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill openclaw-research-scout
 clawhub install openclaw-research-scout
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add openclaw-research-scout
+npx skills add agentskillexchange/skills --skill openclaw-research-scout -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/openclaw-research-scout/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Research & Scraping |
+| Framework | OpenClaw |
+| Verification | Verified Metadata |
+| Rating | 4.2/5 (44 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: verified_metadata
-- **Category**: Research &amp; Scraping
-- **Framework**: Any Agent
-- **Rating**: 4.2/5 (44 reviews)
+**James Whitfield** (Verified Creator ✓)
+- Profile: [@jwhitfield](https://agentskillexchange.com/browse-skills/?creator=jwhitfield)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/openclaw-research-scout/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/openclaw-research-scout/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

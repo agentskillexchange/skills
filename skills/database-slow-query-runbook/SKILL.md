@@ -1,28 +1,39 @@
 ---
-name: Database Slow Query Runbook
-description: Agent skill for database slow query runbook.
-category: Monitoring &amp; Alerts
-framework: Any Agent
+name: "Database Slow Query Runbook"
+description: "Use this skill to identify and fix slow database queries through systematic analysis of query execution plans, indexes, and database performance metrics. It walks through EXPLAIN/EXPLAIN ANALYZE output and recommends optimizations. Trigger when database queries are slow, timeouts are occurring, or database CPU/IO is spiking."
+category: "Monitoring & Alerts"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.3
 reviews: 67
+creator: Raj Gupta
+creator_handle: rajgupta
+creator_verified: true
 source: https://agentskillexchange.com/skill/database-slow-query-runbook/
 ---
 
 # Database Slow Query Runbook
 
-Agent skill for database slow query runbook.
-
-## Overview
-
-Agent skill for database slow query runbook.
+Use this skill to identify and fix slow database queries through systematic analysis of query execution plans, indexes, and database performance metrics. It walks through EXPLAIN/EXPLAIN ANALYZE output and recommends optimizations. Trigger when database queries are slow, timeouts are occurring, or database CPU/IO is spiking.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill database-slow-query-runbook
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill database-slow-query-runbook -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill database-slow-query-runbook -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill database-slow-query-runbook
 clawhub install database-slow-query-runbook
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add database-slow-query-runbook
+npx skills add agentskillexchange/skills --skill database-slow-query-runbook -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/database-slow-query-runbook/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Monitoring & Alerts |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.3/5 (67 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Monitoring &amp; Alerts
-- **Framework**: Any Agent
-- **Rating**: 4.3/5 (67 reviews)
+**Raj Gupta** (Verified Creator ✓)
+- Profile: [@rajgupta](https://agentskillexchange.com/browse-skills/?creator=rajgupta)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/database-slow-query-runbook/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/database-slow-query-runbook/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

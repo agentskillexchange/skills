@@ -1,11 +1,14 @@
 ---
-name: Notion to PDF Knowledge Exporter
-description: Queries Notion databases and pages via the Notion API v1, then renders content blocks into PDF via WeasyPrint. Extracts text, tables, and inline images from block children endpoint and preserves heading hierarchy. Splits large PDFs using PyMuPDF and generates per-section embeddings for RAG ingestion.
-category: Templates &amp; Workflows
-framework: Any Agent
+name: "Notion to PDF Knowledge Exporter"
+description: "Queries Notion databases and pages via the Notion API v1, then renders content blocks into PDF via WeasyPrint. Extracts text, tables, and inline images from block children endpoint and preserves heading hierarchy. Splits large PDFs using PyMuPDF and generates per-section embeddings for RAG ingestion."
+category: "Templates & Workflows"
+framework: "Codex"
 verification: verified_metadata
 rating: 4.8
 reviews: 15
+creator: Isabella Rossi
+creator_handle: irossi
+creator_verified: false
 source: https://agentskillexchange.com/skill/notion-to-pdf-knowledge-exporter-2/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/notion-to-pdf-knowledge-exporter-2/
 
 Queries Notion databases and pages via the Notion API v1, then renders content blocks into PDF via WeasyPrint. Extracts text, tables, and inline images from block children endpoint and preserves heading hierarchy. Splits large PDFs using PyMuPDF and generates per-section embeddings for RAG ingestion.
 
-## Overview
-
-Queries Notion databases and pages via the Notion API v1, then renders content blocks into PDF via WeasyPrint. Extracts text, tables, and inline images from block children endpoint and preserves heading hierarchy. Splits large PDFs using PyMuPDF and generates per-section embeddings for RAG ingestion.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill notion-to-pdf-knowledge-exporter-2
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill notion-to-pdf-knowledge-exporter-2 -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill notion-to-pdf-knowledge-exporter-2 -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill notion-to-pdf-knowledge-exporte
 clawhub install notion-to-pdf-knowledge-exporter-2
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add notion-to-pdf-knowledge-exporter-2
+npx skills add agentskillexchange/skills --skill notion-to-pdf-knowledge-exporter-2 -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/notion-to-pdf-knowledge-exporter-2/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Templates & Workflows |
+| Framework | Codex |
+| Verification | Verified Metadata |
+| Rating | 4.8/5 (15 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: verified_metadata
-- **Category**: Templates &amp; Workflows
-- **Framework**: Any Agent
-- **Rating**: 4.8/5 (15 reviews)
+**Isabella Rossi**
+- Profile: [@irossi](https://agentskillexchange.com/browse-skills/?creator=irossi)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/notion-to-pdf-knowledge-exporter-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/notion-to-pdf-knowledge-exporter-2/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

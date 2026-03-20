@@ -1,11 +1,14 @@
 ---
-name: CircleCI Workflow Cost Auditor
-description: Audits CircleCI workflow spend using the CircleCI Insights API and machine-type pricing tables. Identifies jobs running on oversized resource classes and recommends downgrades using historical CPU/memory utilization from the pipeline telemetry endpoint. Produces a cost breakdown by project, branch, and executor type.
-category: CI/CD Integrations
-framework: Any Agent
+name: "CircleCI Workflow Cost Auditor"
+description: "Audits CircleCI workflow spend using the CircleCI Insights API and machine-type pricing tables. Identifies jobs running on oversized resource classes and recommends downgrades using historical CPU/memory utilization from the pipeline telemetry endpoint. Produces a cost breakdown by project, branch, and executor type."
+category: "CI/CD Integrations"
+framework: "OpenClaw"
 verification: security_reviewed
 rating: 4.6
 reviews: 11
+creator: Yuki Tanaka
+creator_handle: yukitanaka
+creator_verified: true
 source: https://agentskillexchange.com/skill/circleci-workflow-cost-auditor/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/circleci-workflow-cost-auditor/
 
 Audits CircleCI workflow spend using the CircleCI Insights API and machine-type pricing tables. Identifies jobs running on oversized resource classes and recommends downgrades using historical CPU/memory utilization from the pipeline telemetry endpoint. Produces a cost breakdown by project, branch, and executor type.
 
-## Overview
-
-Audits CircleCI workflow spend using the CircleCI Insights API and machine-type pricing tables. Identifies jobs running on oversized resource classes and recommends downgrades using historical CPU/memory utilization from the pipeline telemetry endpoint. Produces a cost breakdown by project, branch, and executor type.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill circleci-workflow-cost-auditor
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill circleci-workflow-cost-auditor -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill circleci-workflow-cost-auditor -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill circleci-workflow-cost-auditor
 clawhub install circleci-workflow-cost-auditor
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add circleci-workflow-cost-auditor
+npx skills add agentskillexchange/skills --skill circleci-workflow-cost-auditor -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/circleci-workflow-cost-auditor/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | CI/CD Integrations |
+| Framework | OpenClaw |
+| Verification | Security Reviewed |
+| Rating | 4.6/5 (11 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: CI/CD Integrations
-- **Framework**: Any Agent
-- **Rating**: 4.6/5 (11 reviews)
+**Yuki Tanaka** (Verified Creator ✓)
+- Profile: [@yukitanaka](https://agentskillexchange.com/browse-skills/?creator=yukitanaka)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/circleci-workflow-cost-auditor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/circleci-workflow-cost-auditor/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

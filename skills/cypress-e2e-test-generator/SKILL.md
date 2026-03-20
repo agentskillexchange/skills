@@ -1,28 +1,39 @@
 ---
-name: Cypress E2E Test Generator
-description: Agent skill for cypress e2e test generator.
-category: Code Quality &amp; Review
-framework: Any Agent
+name: "Cypress E2E Test Generator"
+description: "Generate Cypress end-to-end test suites from application specifications, user stories, or existing page structures through an AI agent. Automates test file scaffolding, custom command creation, and CI configuration for Cypress Cloud integration."
+category: "Code Quality & Review"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.8
 reviews: 27
+creator: James Whitfield
+creator_handle: jwhitfield
+creator_verified: true
 source: https://agentskillexchange.com/skill/cypress-e2e-test-generator/
 ---
 
 # Cypress E2E Test Generator
 
-Agent skill for cypress e2e test generator.
-
-## Overview
-
-Agent skill for cypress e2e test generator.
+Generate Cypress end-to-end test suites from application specifications, user stories, or existing page structures through an AI agent. Automates test file scaffolding, custom command creation, and CI configuration for Cypress Cloud integration.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill cypress-e2e-test-generator
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill cypress-e2e-test-generator -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill cypress-e2e-test-generator -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill cypress-e2e-test-generator
 clawhub install cypress-e2e-test-generator
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add cypress-e2e-test-generator
+npx skills add agentskillexchange/skills --skill cypress-e2e-test-generator -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/cypress-e2e-test-generator/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Code Quality & Review |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.8/5 (27 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Code Quality &amp; Review
-- **Framework**: Any Agent
-- **Rating**: 4.8/5 (27 reviews)
+**James Whitfield** (Verified Creator ✓)
+- Profile: [@jwhitfield](https://agentskillexchange.com/browse-skills/?creator=jwhitfield)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/cypress-e2e-test-generator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/cypress-e2e-test-generator/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

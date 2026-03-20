@@ -1,28 +1,39 @@
 ---
-name: Queue Backup Runbook
-description: Agent skill for queue backup runbook.
-category: Runbooks &amp; Diagnostics
-framework: Any Agent
+name: "Queue Backup Runbook"
+description: "Runbook for resolving message queue backup incidents. Covers consumer lag diagnosis, poison pill message handling, dead letter queue analysis, and throughput restoration for SQS, Kafka, RabbitMQ, and similar systems."
+category: "Runbooks & Diagnostics"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.1
 reviews: 72
+creator: Luna Martinez
+creator_handle: lunamartinez
+creator_verified: false
 source: https://agentskillexchange.com/skill/queue-backup-runbook/
 ---
 
 # Queue Backup Runbook
 
-Agent skill for queue backup runbook.
-
-## Overview
-
-Agent skill for queue backup runbook.
+Runbook for resolving message queue backup incidents. Covers consumer lag diagnosis, poison pill message handling, dead letter queue analysis, and throughput restoration for SQS, Kafka, RabbitMQ, and similar systems.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill queue-backup-runbook
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill queue-backup-runbook -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill queue-backup-runbook -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill queue-backup-runbook
 clawhub install queue-backup-runbook
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add queue-backup-runbook
+npx skills add agentskillexchange/skills --skill queue-backup-runbook -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/queue-backup-runbook/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Runbooks & Diagnostics |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.1/5 (72 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Runbooks &amp; Diagnostics
-- **Framework**: Any Agent
-- **Rating**: 4.1/5 (72 reviews)
+**Luna Martinez**
+- Profile: [@lunamartinez](https://agentskillexchange.com/browse-skills/?creator=lunamartinez)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/queue-backup-runbook/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/queue-backup-runbook/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

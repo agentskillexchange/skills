@@ -1,28 +1,39 @@
 ---
-name: DB Connection Runbook
-description: Agent skill for db connection runbook.
-category: Runbooks &amp; Diagnostics
-framework: Any Agent
+name: "DB Connection Runbook"
+description: "Operational runbook for diagnosing and resolving database connection failures in production environments. Covers connection pool exhaustion, credential rotation, network partitions, and replica lag issues."
+category: "Runbooks & Diagnostics"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.3
 reviews: 29
+creator: Marcus Rivera
+creator_handle: mrivera
+creator_verified: true
 source: https://agentskillexchange.com/skill/db-connection-runbook/
 ---
 
 # DB Connection Runbook
 
-Agent skill for db connection runbook.
-
-## Overview
-
-Agent skill for db connection runbook.
+Operational runbook for diagnosing and resolving database connection failures in production environments. Covers connection pool exhaustion, credential rotation, network partitions, and replica lag issues.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill db-connection-runbook
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill db-connection-runbook -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill db-connection-runbook -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill db-connection-runbook
 clawhub install db-connection-runbook
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add db-connection-runbook
+npx skills add agentskillexchange/skills --skill db-connection-runbook -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/db-connection-runbook/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Runbooks & Diagnostics |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.3/5 (29 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Runbooks &amp; Diagnostics
-- **Framework**: Any Agent
-- **Rating**: 4.3/5 (29 reviews)
+**Marcus Rivera** (Verified Creator ✓)
+- Profile: [@mrivera](https://agentskillexchange.com/browse-skills/?creator=mrivera)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/db-connection-runbook/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/db-connection-runbook/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

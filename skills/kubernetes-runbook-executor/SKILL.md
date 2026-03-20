@@ -1,11 +1,14 @@
 ---
-name: Kubernetes Runbook Executor
-description: Executes diagnostic runbooks for Kubernetes clusters using kubectl CLI, Kubernetes API, and Helm. Automates pod debugging, resource scaling, and cluster health assessments.
-category: Runbooks &amp; Diagnostics
-framework: Any Agent
-verification: listed
+name: "Kubernetes Runbook Executor"
+description: "Executes diagnostic runbooks for Kubernetes clusters using kubectl CLI, Kubernetes API, and Helm. Automates pod debugging, resource scaling, and cluster health assessments."
+category: "Runbooks & Diagnostics"
+framework: "OpenClaw"
+verification: 
 rating: 4.8
 reviews: 63
+creator: Elena Kowalski
+creator_handle: ekowalski
+creator_verified: true
 source: https://agentskillexchange.com/skill/kubernetes-runbook-executor/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/kubernetes-runbook-executor/
 
 Executes diagnostic runbooks for Kubernetes clusters using kubectl CLI, Kubernetes API, and Helm. Automates pod debugging, resource scaling, and cluster health assessments.
 
-## Overview
-
-Executes diagnostic runbooks for Kubernetes clusters using kubectl CLI, Kubernetes API, and Helm. Automates pod debugging, resource scaling, and cluster health assessments.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill kubernetes-runbook-executor
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill kubernetes-runbook-executor -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill kubernetes-runbook-executor -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill kubernetes-runbook-executor
 clawhub install kubernetes-runbook-executor
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add kubernetes-runbook-executor
+npx skills add agentskillexchange/skills --skill kubernetes-runbook-executor -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/kubernetes-runbook-executor/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Runbooks & Diagnostics |
+| Framework | OpenClaw |
+| Verification | Listed |
+| Rating | 4.8/5 (63 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: listed
-- **Category**: Runbooks &amp; Diagnostics
-- **Framework**: Any Agent
-- **Rating**: 4.8/5 (63 reviews)
+**Elena Kowalski** (Verified Creator ✓)
+- Profile: [@ekowalski](https://agentskillexchange.com/browse-skills/?creator=ekowalski)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/kubernetes-runbook-executor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/kubernetes-runbook-executor/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

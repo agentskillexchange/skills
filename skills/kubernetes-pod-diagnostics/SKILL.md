@@ -1,11 +1,14 @@
 ---
-name: Kubernetes Pod Diagnostics
-description: Diagnoses CrashLoopBackOff, OOMKilled, and pending pod issues by querying Kubernetes API server endpoints. Parses kubectl describe output with structured remediation runbooks.
-category: Runbooks &amp; Diagnostics
-framework: Any Agent
+name: "Kubernetes Pod Diagnostics"
+description: "Diagnoses CrashLoopBackOff, OOMKilled, and pending pod issues by querying Kubernetes API server endpoints. Parses kubectl describe output with structured remediation runbooks."
+category: "Runbooks & Diagnostics"
+framework: "OpenClaw"
 verification: security_reviewed
 rating: 4.2
 reviews: 40
+creator: Priya Sharma
+creator_handle: priyasharma
+creator_verified: true
 source: https://agentskillexchange.com/skill/kubernetes-pod-diagnostics/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/kubernetes-pod-diagnostics/
 
 Diagnoses CrashLoopBackOff, OOMKilled, and pending pod issues by querying Kubernetes API server endpoints. Parses kubectl describe output with structured remediation runbooks.
 
-## Overview
-
-Diagnoses CrashLoopBackOff, OOMKilled, and pending pod issues by querying Kubernetes API server endpoints. Parses kubectl describe output with structured remediation runbooks.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill kubernetes-pod-diagnostics
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill kubernetes-pod-diagnostics -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill kubernetes-pod-diagnostics -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill kubernetes-pod-diagnostics
 clawhub install kubernetes-pod-diagnostics
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add kubernetes-pod-diagnostics
+npx skills add agentskillexchange/skills --skill kubernetes-pod-diagnostics -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/kubernetes-pod-diagnostics/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Runbooks & Diagnostics |
+| Framework | OpenClaw |
+| Verification | Security Reviewed |
+| Rating | 4.2/5 (40 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Runbooks &amp; Diagnostics
-- **Framework**: Any Agent
-- **Rating**: 4.2/5 (40 reviews)
+**Priya Sharma** (Verified Creator ✓)
+- Profile: [@priyasharma](https://agentskillexchange.com/browse-skills/?creator=priyasharma)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/kubernetes-pod-diagnostics/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/kubernetes-pod-diagnostics/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

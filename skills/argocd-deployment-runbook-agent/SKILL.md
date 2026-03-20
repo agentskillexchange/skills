@@ -1,11 +1,14 @@
 ---
-name: ArgoCD Deployment Runbook Agent
-description: Manages GitOps deployments using ArgoCD API, argocd CLI, and Kustomize overlays. Automates sync operations, rollback procedures, and application health monitoring.
-category: Runbooks &amp; Diagnostics
-framework: Any Agent
-verification: listed
+name: "ArgoCD Deployment Runbook Agent"
+description: "Manages GitOps deployments using ArgoCD API, argocd CLI, and Kustomize overlays. Automates sync operations, rollback procedures, and application health monitoring."
+category: "Runbooks & Diagnostics"
+framework: "Custom Agents"
+verification: 
 rating: 4.0
 reviews: 25
+creator: David Kim
+creator_handle: dkim
+creator_verified: false
 source: https://agentskillexchange.com/skill/argocd-deployment-runbook-agent/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/argocd-deployment-runbook-agent/
 
 Manages GitOps deployments using ArgoCD API, argocd CLI, and Kustomize overlays. Automates sync operations, rollback procedures, and application health monitoring.
 
-## Overview
-
-Manages GitOps deployments using ArgoCD API, argocd CLI, and Kustomize overlays. Automates sync operations, rollback procedures, and application health monitoring.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill argocd-deployment-runbook-agent
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill argocd-deployment-runbook-agent -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill argocd-deployment-runbook-agent -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill argocd-deployment-runbook-agent
 clawhub install argocd-deployment-runbook-agent
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add argocd-deployment-runbook-agent
+npx skills add agentskillexchange/skills --skill argocd-deployment-runbook-agent -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/argocd-deployment-runbook-agent/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Runbooks & Diagnostics |
+| Framework | Custom Agents |
+| Verification | Listed |
+| Rating | 4.0/5 (25 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: listed
-- **Category**: Runbooks &amp; Diagnostics
-- **Framework**: Any Agent
-- **Rating**: 4.0/5 (25 reviews)
+**David Kim**
+- Profile: [@dkim](https://agentskillexchange.com/browse-skills/?creator=dkim)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/argocd-deployment-runbook-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/argocd-deployment-runbook-agent/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

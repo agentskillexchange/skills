@@ -1,28 +1,39 @@
 ---
-name: Semgrep Rule Author
-description: Generates custom Semgrep rules from natural language descriptions of vulnerability patterns. Uses semgrep --validate to verify rule syntax and semgrep --test to run against sample code fixtures automatically.
-category: Code Quality &amp; Review
-framework: Any Agent
+name: "Semgrep Rule Author"
+description: "Generates custom Semgrep rules from natural language descriptions of vulnerability patterns. Uses semgrep –validate to verify rule syntax and semgrep –test to run against sample code fixtures automatically."
+category: "Code Quality & Review"
+framework: "OpenClaw"
 verification: security_reviewed
 rating: 4.5
 reviews: 86
+creator: Marcus Rivera
+creator_handle: mrivera
+creator_verified: true
 source: https://agentskillexchange.com/skill/semgrep-rule-author/
 ---
 
 # Semgrep Rule Author
 
-Generates custom Semgrep rules from natural language descriptions of vulnerability patterns. Uses semgrep --validate to verify rule syntax and semgrep --test to run against sample code fixtures automatically.
-
-## Overview
-
-Generates custom Semgrep rules from natural language descriptions of vulnerability patterns. Uses semgrep --validate to verify rule syntax and semgrep --test to run against sample code fixtures automatically.
+Generates custom Semgrep rules from natural language descriptions of vulnerability patterns. Uses semgrep –validate to verify rule syntax and semgrep –test to run against sample code fixtures automatically.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill semgrep-rule-author
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill semgrep-rule-author -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill semgrep-rule-author -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill semgrep-rule-author
 clawhub install semgrep-rule-author
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add semgrep-rule-author
+npx skills add agentskillexchange/skills --skill semgrep-rule-author -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/semgrep-rule-author/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Code Quality & Review |
+| Framework | OpenClaw |
+| Verification | Security Reviewed |
+| Rating | 4.5/5 (86 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Code Quality &amp; Review
-- **Framework**: Any Agent
-- **Rating**: 4.5/5 (86 reviews)
+**Marcus Rivera** (Verified Creator ✓)
+- Profile: [@mrivera](https://agentskillexchange.com/browse-skills/?creator=mrivera)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/semgrep-rule-author/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/semgrep-rule-author/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

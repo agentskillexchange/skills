@@ -1,28 +1,39 @@
 ---
-name: Network Latency Diagnosis Skill
-description: Agent skill for network latency diagnosis skill.
-category: Monitoring &amp; Alerts
-framework: Any Agent
+name: "Network Latency Diagnosis Skill"
+description: "Use this skill to trace packet loss, diagnose routing issues, identify MTU problems, and measure network latency between services. It guides through traceroute, ping, mtr, and tcpdump analysis to pinpoint network bottlenecks. Trigger when services are slow due to network issues, packet loss is suspected, or inter-service latency is higher than expected."
+category: "Monitoring & Alerts"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.1
 reviews: 31
+creator: Luna Martinez
+creator_handle: lunamartinez
+creator_verified: false
 source: https://agentskillexchange.com/skill/network-latency-diagnosis-skill/
 ---
 
 # Network Latency Diagnosis Skill
 
-Agent skill for network latency diagnosis skill.
-
-## Overview
-
-Agent skill for network latency diagnosis skill.
+Use this skill to trace packet loss, diagnose routing issues, identify MTU problems, and measure network latency between services. It guides through traceroute, ping, mtr, and tcpdump analysis to pinpoint network bottlenecks. Trigger when services are slow due to network issues, packet loss is suspected, or inter-service latency is higher than expected.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill network-latency-diagnosis-skill
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill network-latency-diagnosis-skill -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill network-latency-diagnosis-skill -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill network-latency-diagnosis-skill
 clawhub install network-latency-diagnosis-skill
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add network-latency-diagnosis-skill
+npx skills add agentskillexchange/skills --skill network-latency-diagnosis-skill -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/network-latency-diagnosis-skill/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Monitoring & Alerts |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.1/5 (31 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Monitoring &amp; Alerts
-- **Framework**: Any Agent
-- **Rating**: 4.1/5 (31 reviews)
+**Luna Martinez**
+- Profile: [@lunamartinez](https://agentskillexchange.com/browse-skills/?creator=lunamartinez)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/network-latency-diagnosis-skill/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/network-latency-diagnosis-skill/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

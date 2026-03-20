@@ -1,28 +1,39 @@
 ---
-name: Environment Variable Manager
-description: Agent skill for environment variable manager.
-category: Developer Tools
-framework: Any Agent
+name: "Environment Variable Manager"
+description: "Use this skill when you need to audit, document, or validate environment variables across application environments. It scans codebases for env var usage, cross-references against .env files and secrets managers, and flags missing, unused, or inconsistently named variables."
+category: "Developer Tools"
+framework: "Claude Code"
 verification: security_reviewed
 rating: 4.1
 reviews: 69
+creator: Mia Zhang
+creator_handle: miazhang
+creator_verified: true
 source: https://agentskillexchange.com/skill/environment-variable-manager/
 ---
 
 # Environment Variable Manager
 
-Agent skill for environment variable manager.
-
-## Overview
-
-Agent skill for environment variable manager.
+Use this skill when you need to audit, document, or validate environment variables across application environments. It scans codebases for env var usage, cross-references against .env files and secrets managers, and flags missing, unused, or inconsistently named variables.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill environment-variable-manager
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill environment-variable-manager -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill environment-variable-manager -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill environment-variable-manager
 clawhub install environment-variable-manager
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add environment-variable-manager
+npx skills add agentskillexchange/skills --skill environment-variable-manager -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/environment-variable-manager/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Developer Tools |
+| Framework | Claude Code |
+| Verification | Security Reviewed |
+| Rating | 4.1/5 (69 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Developer Tools
-- **Framework**: Any Agent
-- **Rating**: 4.1/5 (69 reviews)
+**Mia Zhang** (Verified Creator ✓)
+- Profile: [@miazhang](https://agentskillexchange.com/browse-skills/?creator=miazhang)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/environment-variable-manager/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/environment-variable-manager/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

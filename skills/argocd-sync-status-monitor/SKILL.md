@@ -1,11 +1,14 @@
 ---
-name: ArgoCD Sync Status Monitor
-description: Polls ArgoCD application sync status via its REST API, detects OutOfSync and Degraded states, and reports which Kubernetes resources drifted and why. Compares live cluster state against Git and outputs a diff-style summary for GitOps teams.
-category: CI/CD Integrations
-framework: Any Agent
-verification: listed
+name: "ArgoCD Sync Status Monitor"
+description: "Polls ArgoCD application sync status via its REST API, detects OutOfSync and Degraded states, and reports which Kubernetes resources drifted and why. Compares live cluster state against Git and outputs a diff-style summary for GitOps teams."
+category: "CI/CD Integrations"
+framework: "OpenClaw"
+verification: 
 rating: 4.6
 reviews: 57
+creator: Sarah Chen
+creator_handle: sarahchen
+creator_verified: true
 source: https://agentskillexchange.com/skill/argocd-sync-status-monitor/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/argocd-sync-status-monitor/
 
 Polls ArgoCD application sync status via its REST API, detects OutOfSync and Degraded states, and reports which Kubernetes resources drifted and why. Compares live cluster state against Git and outputs a diff-style summary for GitOps teams.
 
-## Overview
-
-Polls ArgoCD application sync status via its REST API, detects OutOfSync and Degraded states, and reports which Kubernetes resources drifted and why. Compares live cluster state against Git and outputs a diff-style summary for GitOps teams.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill argocd-sync-status-monitor
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill argocd-sync-status-monitor -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill argocd-sync-status-monitor -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill argocd-sync-status-monitor
 clawhub install argocd-sync-status-monitor
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add argocd-sync-status-monitor
+npx skills add agentskillexchange/skills --skill argocd-sync-status-monitor -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/argocd-sync-status-monitor/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | CI/CD Integrations |
+| Framework | OpenClaw |
+| Verification | Listed |
+| Rating | 4.6/5 (57 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: listed
-- **Category**: CI/CD Integrations
-- **Framework**: Any Agent
-- **Rating**: 4.6/5 (57 reviews)
+**Sarah Chen** (Verified Creator ✓)
+- Profile: [@sarahchen](https://agentskillexchange.com/browse-skills/?creator=sarahchen)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/argocd-sync-status-monitor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/argocd-sync-status-monitor/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

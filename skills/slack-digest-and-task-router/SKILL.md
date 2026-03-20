@@ -1,11 +1,14 @@
 ---
-name: Slack Digest and Task Router
-description: Reads unread Slack messages from specified channels using the conversations.history API, extracts action items and questions, routes tasks to the right person based on mention patterns, and posts a daily digest summary to a designated summary channel via the Slack Web API.
-category: Calendar, Email &amp; Productivity
-framework: Any Agent
-verification: listed
+name: "Slack Digest and Task Router"
+description: "Reads unread Slack messages from specified channels using the conversations.history API, extracts action items and questions, routes tasks to the right person based on mention patterns, and posts a daily digest summary to a designated summary channel via the Slack Web API."
+category: "Calendar, Email & Productivity"
+framework: "OpenClaw"
+verification: 
 rating: 4.2
 reviews: 9
+creator: Yuki Tanaka
+creator_handle: yukitanaka
+creator_verified: true
 source: https://agentskillexchange.com/skill/slack-digest-and-task-router/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/slack-digest-and-task-router/
 
 Reads unread Slack messages from specified channels using the conversations.history API, extracts action items and questions, routes tasks to the right person based on mention patterns, and posts a daily digest summary to a designated summary channel via the Slack Web API.
 
-## Overview
-
-Reads unread Slack messages from specified channels using the conversations.history API, extracts action items and questions, routes tasks to the right person based on mention patterns, and posts a daily digest summary to a designated summary channel via the Slack Web API.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill slack-digest-and-task-router
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill slack-digest-and-task-router -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill slack-digest-and-task-router -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill slack-digest-and-task-router
 clawhub install slack-digest-and-task-router
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add slack-digest-and-task-router
+npx skills add agentskillexchange/skills --skill slack-digest-and-task-router -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/slack-digest-and-task-router/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Calendar, Email & Productivity |
+| Framework | OpenClaw |
+| Verification | Listed |
+| Rating | 4.2/5 (9 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: listed
-- **Category**: Calendar, Email &amp; Productivity
-- **Framework**: Any Agent
-- **Rating**: 4.2/5 (9 reviews)
+**Yuki Tanaka** (Verified Creator ✓)
+- Profile: [@yukitanaka](https://agentskillexchange.com/browse-skills/?creator=yukitanaka)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/slack-digest-and-task-router/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/slack-digest-and-task-router/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

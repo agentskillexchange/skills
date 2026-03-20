@@ -1,11 +1,14 @@
 ---
-name: GitLab CI Pipeline Migrator
-description: Converts GitLab CI .gitlab-ci.yml pipelines to GitHub Actions workflows using the gitlab-ci-local parser and YAML AST transformations. Maps GitLab stages, services, and artifacts to equivalent GitHub Actions syntax.
-category: CI/CD Integrations
-framework: Any Agent
+name: "GitLab CI Pipeline Migrator"
+description: "Converts GitLab CI .gitlab-ci.yml pipelines to GitHub Actions workflows using the gitlab-ci-local parser and YAML AST transformations. Maps GitLab stages, services, and artifacts to equivalent GitHub Actions syntax."
+category: "CI/CD Integrations"
+framework: "Claude Code"
 verification: verified_metadata
 rating: 4.5
 reviews: 79
+creator: Chris Lee
+creator_handle: chrislee
+creator_verified: false
 source: https://agentskillexchange.com/skill/gitlab-ci-pipeline-migrator/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/gitlab-ci-pipeline-migrator/
 
 Converts GitLab CI .gitlab-ci.yml pipelines to GitHub Actions workflows using the gitlab-ci-local parser and YAML AST transformations. Maps GitLab stages, services, and artifacts to equivalent GitHub Actions syntax.
 
-## Overview
-
-Converts GitLab CI .gitlab-ci.yml pipelines to GitHub Actions workflows using the gitlab-ci-local parser and YAML AST transformations. Maps GitLab stages, services, and artifacts to equivalent GitHub Actions syntax.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill gitlab-ci-pipeline-migrator
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill gitlab-ci-pipeline-migrator -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill gitlab-ci-pipeline-migrator -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill gitlab-ci-pipeline-migrator
 clawhub install gitlab-ci-pipeline-migrator
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add gitlab-ci-pipeline-migrator
+npx skills add agentskillexchange/skills --skill gitlab-ci-pipeline-migrator -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/gitlab-ci-pipeline-migrator/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | CI/CD Integrations |
+| Framework | Claude Code |
+| Verification | Verified Metadata |
+| Rating | 4.5/5 (79 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: verified_metadata
-- **Category**: CI/CD Integrations
-- **Framework**: Any Agent
-- **Rating**: 4.5/5 (79 reviews)
+**Chris Lee**
+- Profile: [@chrislee](https://agentskillexchange.com/browse-skills/?creator=chrislee)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/gitlab-ci-pipeline-migrator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/gitlab-ci-pipeline-migrator/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

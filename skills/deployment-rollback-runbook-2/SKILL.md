@@ -1,11 +1,14 @@
 ---
-name: Deployment Rollback Runbook
-description: Runbook for executing safe production deployment rollbacks. Covers decision criteria, rollback execution across different deployment systems, database migration reversions, and post-rollback verificat
-category: Runbooks & Diagnostics
-framework: Custom Agents
+name: "Deployment Rollback Runbook"
+description: "Runbook for executing safe production deployment rollbacks. Covers decision criteria, rollback execution across different deployment systems, database migration reversions, and post-rollback verification."
+category: "Runbooks & Diagnostics"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.8
 reviews: 59
+creator: Mia Zhang
+creator_handle: miazhang
+creator_verified: true
 source: https://agentskillexchange.com/skill/deployment-rollback-runbook-2/
 ---
 
@@ -13,37 +16,53 @@ source: https://agentskillexchange.com/skill/deployment-rollback-runbook-2/
 
 Runbook for executing safe production deployment rollbacks. Covers decision criteria, rollback execution across different deployment systems, database migration reversions, and post-rollback verification.
 
-## Overview
-
-Runbook for executing safe production deployment rollbacks. Covers decision criteria, rollback execution across different deployment systems, database migration reversions, and post-rollback verification.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill deployment-rollback-runbook-2
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill deployment-rollback-runbook-2 -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill deployment-rollback-runbook-2 -a cursor
+```
+
 ### OpenClaw
 
 ```bash
-openclaw install deployment-rollback-runbook-2
+clawhub install deployment-rollback-runbook-2
 ```
 
-### Manual
+### Codex
 
-Download this `SKILL.md` file and place it in your agent's skills directory.
+```bash
+npx skills add agentskillexchange/skills --skill deployment-rollback-runbook-2 -a codex
+```
 
-## Metadata
+## Details
 
 | Field | Value |
 |-------|-------|
 | Category | Runbooks & Diagnostics |
 | Framework | Custom Agents |
 | Verification | Security Reviewed |
-| Rating | ⭐⭐⭐⭐ 4.8/5.0 (59 reviews) |
+| Rating | 4.8/5 (59 reviews) |
 
----
+## Creator
 
-*Published on [Agent Skill Exchange](https://agentskillexchange.com/skill/deployment-rollback-runbook-2/)*
+**Mia Zhang** (Verified Creator ✓)
+- Profile: [@miazhang](https://agentskillexchange.com/browse-skills/?creator=miazhang)
+
+## Links
+
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/deployment-rollback-runbook-2/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

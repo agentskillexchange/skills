@@ -1,11 +1,14 @@
 ---
-name: dbt Model Lineage & Test Coverage Checker
-description: Parses dbt project artifacts (manifest.json and catalog.json) to build a lineage graph and identify models with no tests, stale documentation, or missing uniqueness assertions. Integrates with dbt Cloud API to fetch the latest run results and annotates each model with its last pass/fail status.
-category: Data Extraction &amp; Transformation
-framework: Any Agent
-verification: listed
+name: "dbt Model Lineage & Test Coverage Checker"
+description: "Parses dbt project artifacts (manifest.json and catalog.json) to build a lineage graph and identify models with no tests, stale documentation, or missing uniqueness assertions. Integrates with dbt Cloud API to fetch the latest run results and annotates each model with its last pass/fail status."
+category: "Data Extraction & Transformation"
+framework: "Cursor"
+verification: 
 rating: 4.3
 reviews: 13
+creator: Yuki Tanaka
+creator_handle: yukitanaka
+creator_verified: true
 source: https://agentskillexchange.com/skill/dbt-model-lineage-test-coverage/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/dbt-model-lineage-test-coverage/
 
 Parses dbt project artifacts (manifest.json and catalog.json) to build a lineage graph and identify models with no tests, stale documentation, or missing uniqueness assertions. Integrates with dbt Cloud API to fetch the latest run results and annotates each model with its last pass/fail status.
 
-## Overview
-
-Parses dbt project artifacts (manifest.json and catalog.json) to build a lineage graph and identify models with no tests, stale documentation, or missing uniqueness assertions. Integrates with dbt Cloud API to fetch the latest run results and annotates each model with its last pass/fail status.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill dbt-model-lineage-test-coverage
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill dbt-model-lineage-test-coverage -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill dbt-model-lineage-test-coverage -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill dbt-model-lineage-test-coverage
 clawhub install dbt-model-lineage-test-coverage
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add dbt-model-lineage-test-coverage
+npx skills add agentskillexchange/skills --skill dbt-model-lineage-test-coverage -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/dbt-model-lineage-test-coverage/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Data Extraction & Transformation |
+| Framework | Cursor |
+| Verification | Listed |
+| Rating | 4.3/5 (13 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: listed
-- **Category**: Data Extraction &amp; Transformation
-- **Framework**: Any Agent
-- **Rating**: 4.3/5 (13 reviews)
+**Yuki Tanaka** (Verified Creator ✓)
+- Profile: [@yukitanaka](https://agentskillexchange.com/browse-skills/?creator=yukitanaka)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/dbt-model-lineage-test-coverage/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/dbt-model-lineage-test-coverage/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

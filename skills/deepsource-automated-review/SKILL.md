@@ -1,28 +1,39 @@
 ---
-name: DeepSource Automated Review
-description: Agent skill for deepsource automated review.
-category: Code Quality &amp; Review
-framework: Any Agent
+name: "DeepSource Automated Review"
+description: "Integrates DeepSource static analysis into development workflows. Detects bugs, anti-patterns, security issues, and style violations across Python, JavaScript, TypeScript, Go, Ruby, and more."
+category: "Code Quality & Review"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.2
 reviews: 25
+creator: Omar Hassan
+creator_handle: ohassan
+creator_verified: true
 source: https://agentskillexchange.com/skill/deepsource-automated-review/
 ---
 
 # DeepSource Automated Review
 
-Agent skill for deepsource automated review.
-
-## Overview
-
-Agent skill for deepsource automated review.
+Integrates DeepSource static analysis into development workflows. Detects bugs, anti-patterns, security issues, and style violations across Python, JavaScript, TypeScript, Go, Ruby, and more.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill deepsource-automated-review
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill deepsource-automated-review -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill deepsource-automated-review -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill deepsource-automated-review
 clawhub install deepsource-automated-review
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add deepsource-automated-review
+npx skills add agentskillexchange/skills --skill deepsource-automated-review -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/deepsource-automated-review/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Code Quality & Review |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.2/5 (25 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Code Quality &amp; Review
-- **Framework**: Any Agent
-- **Rating**: 4.2/5 (25 reviews)
+**Omar Hassan** (Verified Creator ✓)
+- Profile: [@ohassan](https://agentskillexchange.com/browse-skills/?creator=ohassan)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/deepsource-automated-review/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/deepsource-automated-review/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

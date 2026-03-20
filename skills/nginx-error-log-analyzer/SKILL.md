@@ -1,11 +1,14 @@
 ---
-name: Nginx Error Log Analyzer
-description: Parses and diagnoses Nginx error logs and access logs using pattern matching against known error signatures. Integrates with the Nginx Plus REST API /api/8/ endpoints for real-time upstream health, connection metrics, and SSL certificate expiration monitoring.
-category: Runbooks &amp; Diagnostics
-framework: Any Agent
+name: "Nginx Error Log Analyzer"
+description: "Parses and diagnoses Nginx error logs and access logs using pattern matching against known error signatures. Integrates with the Nginx Plus REST API /api/8/ endpoints for real-time upstream health, connection metrics, and SSL certificate expiration monitoring."
+category: "Runbooks & Diagnostics"
+framework: "ChatGPT Agents"
 verification: security_reviewed
 rating: 4.9
 reviews: 86
+creator: Raj Gupta
+creator_handle: rajgupta
+creator_verified: true
 source: https://agentskillexchange.com/skill/nginx-error-log-analyzer/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/nginx-error-log-analyzer/
 
 Parses and diagnoses Nginx error logs and access logs using pattern matching against known error signatures. Integrates with the Nginx Plus REST API /api/8/ endpoints for real-time upstream health, connection metrics, and SSL certificate expiration monitoring.
 
-## Overview
-
-Parses and diagnoses Nginx error logs and access logs using pattern matching against known error signatures. Integrates with the Nginx Plus REST API /api/8/ endpoints for real-time upstream health, connection metrics, and SSL certificate expiration monitoring.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill nginx-error-log-analyzer
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill nginx-error-log-analyzer -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill nginx-error-log-analyzer -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill nginx-error-log-analyzer
 clawhub install nginx-error-log-analyzer
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add nginx-error-log-analyzer
+npx skills add agentskillexchange/skills --skill nginx-error-log-analyzer -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/nginx-error-log-analyzer/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Runbooks & Diagnostics |
+| Framework | ChatGPT Agents |
+| Verification | Security Reviewed |
+| Rating | 4.9/5 (86 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Runbooks &amp; Diagnostics
-- **Framework**: Any Agent
-- **Rating**: 4.9/5 (86 reviews)
+**Raj Gupta** (Verified Creator ✓)
+- Profile: [@rajgupta](https://agentskillexchange.com/browse-skills/?creator=rajgupta)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/nginx-error-log-analyzer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/nginx-error-log-analyzer/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

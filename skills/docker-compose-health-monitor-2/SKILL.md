@@ -1,11 +1,14 @@
 ---
-name: Docker Compose Health Monitor
-description: Monitors multi-container Docker Compose stacks using the Docker Engine API via docker-py SDK. Tracks container health checks, restart counts, and resource usage with prometheus_client metric export for Grafana dashboards.
-category: Runbooks &amp; Diagnostics
-framework: Any Agent
+name: "Docker Compose Health Monitor"
+description: "Monitors multi-container Docker Compose stacks using the Docker Engine API via docker-py SDK. Tracks container health checks, restart counts, and resource usage with prometheus_client metric export for Grafana dashboards."
+category: "Runbooks & Diagnostics"
+framework: "Gemini"
 verification: security_reviewed
 rating: 4.8
 reviews: 17
+creator: Luna Martinez
+creator_handle: lunamartinez
+creator_verified: false
 source: https://agentskillexchange.com/skill/docker-compose-health-monitor-2/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/docker-compose-health-monitor-2/
 
 Monitors multi-container Docker Compose stacks using the Docker Engine API via docker-py SDK. Tracks container health checks, restart counts, and resource usage with prometheus_client metric export for Grafana dashboards.
 
-## Overview
-
-Monitors multi-container Docker Compose stacks using the Docker Engine API via docker-py SDK. Tracks container health checks, restart counts, and resource usage with prometheus_client metric export for Grafana dashboards.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill docker-compose-health-monitor-2
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill docker-compose-health-monitor-2 -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill docker-compose-health-monitor-2 -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill docker-compose-health-monitor-2
 clawhub install docker-compose-health-monitor-2
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add docker-compose-health-monitor-2
+npx skills add agentskillexchange/skills --skill docker-compose-health-monitor-2 -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/docker-compose-health-monitor-2/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Runbooks & Diagnostics |
+| Framework | Gemini |
+| Verification | Security Reviewed |
+| Rating | 4.8/5 (17 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Runbooks &amp; Diagnostics
-- **Framework**: Any Agent
-- **Rating**: 4.8/5 (17 reviews)
+**Luna Martinez**
+- Profile: [@lunamartinez](https://agentskillexchange.com/browse-skills/?creator=lunamartinez)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/docker-compose-health-monitor-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/docker-compose-health-monitor-2/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

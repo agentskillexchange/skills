@@ -1,11 +1,14 @@
 ---
-name: A/B Test Analyzer
-description: Use this skill when you need to analyze A/B test results and determine statistical significance, winner variant, and effect size. It takes experiment data (control vs. treatment metrics), calculates p
-category: Data Extraction & Transformation
-framework: Claude Agents
+name: "A/B Test Analyzer"
+description: "Use this skill when you need to analyze A/B test results and determine statistical significance, winner variant, and effect size. It takes experiment data (control vs. treatment metrics), calculates p-values, confidence intervals, and power, and delivers a plain-language recommendation."
+category: "Data Extraction & Transformation"
+framework: "Claude Agents"
 verification: security_reviewed
 rating: 4.9
 reviews: 25
+creator: Nathan Brooks
+creator_handle: nbrooks
+creator_verified: false
 source: https://agentskillexchange.com/skill/a-b-test-analyzer/
 ---
 
@@ -13,37 +16,53 @@ source: https://agentskillexchange.com/skill/a-b-test-analyzer/
 
 Use this skill when you need to analyze A/B test results and determine statistical significance, winner variant, and effect size. It takes experiment data (control vs. treatment metrics), calculates p-values, confidence intervals, and power, and delivers a plain-language recommendation.
 
-## Overview
-
-Use this skill when you need to analyze A/B test results and determine statistical significance, winner variant, and effect size. It takes experiment data (control vs. treatment metrics), calculates p-values, confidence intervals, and power, and delivers a plain-language recommendation.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill a-b-test-analyzer
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill a-b-test-analyzer -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill a-b-test-analyzer -a cursor
+```
+
 ### OpenClaw
 
 ```bash
-openclaw install a-b-test-analyzer
+clawhub install a-b-test-analyzer
 ```
 
-### Manual
+### Codex
 
-Download this `SKILL.md` file and place it in your agent's skills directory.
+```bash
+npx skills add agentskillexchange/skills --skill a-b-test-analyzer -a codex
+```
 
-## Metadata
+## Details
 
 | Field | Value |
 |-------|-------|
 | Category | Data Extraction & Transformation |
 | Framework | Claude Agents |
 | Verification | Security Reviewed |
-| Rating | ⭐⭐⭐⭐ 4.9/5.0 (25 reviews) |
+| Rating | 4.9/5 (25 reviews) |
 
----
+## Creator
 
-*Published on [Agent Skill Exchange](https://agentskillexchange.com/skill/a-b-test-analyzer/)*
+**Nathan Brooks**
+- Profile: [@nbrooks](https://agentskillexchange.com/browse-skills/?creator=nbrooks)
+
+## Links
+
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/a-b-test-analyzer/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

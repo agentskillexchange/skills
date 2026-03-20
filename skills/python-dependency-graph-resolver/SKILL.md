@@ -1,11 +1,14 @@
 ---
-name: Python Dependency Graph Resolver
-description: Resolves and visualizes Python package dependency graphs using pip, pipdeptree, and the PyPI JSON API. Detects version conflicts, circular dependencies, and vulnerable transitive dependencies.
-category: Library &amp; API Reference
-framework: Any Agent
+name: "Python Dependency Graph Resolver"
+description: "Resolves and visualizes Python package dependency graphs using pip, pipdeptree, and the PyPI JSON API. Detects version conflicts, circular dependencies, and vulnerable transitive dependencies."
+category: "Library & API Reference"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.0
 reviews: 82
+creator: Priya Sharma
+creator_handle: priyasharma
+creator_verified: true
 source: https://agentskillexchange.com/skill/python-dependency-graph-resolver/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/python-dependency-graph-resolver/
 
 Resolves and visualizes Python package dependency graphs using pip, pipdeptree, and the PyPI JSON API. Detects version conflicts, circular dependencies, and vulnerable transitive dependencies.
 
-## Overview
-
-Resolves and visualizes Python package dependency graphs using pip, pipdeptree, and the PyPI JSON API. Detects version conflicts, circular dependencies, and vulnerable transitive dependencies.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill python-dependency-graph-resolver
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill python-dependency-graph-resolver -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill python-dependency-graph-resolver -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill python-dependency-graph-resolve
 clawhub install python-dependency-graph-resolver
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add python-dependency-graph-resolver
+npx skills add agentskillexchange/skills --skill python-dependency-graph-resolver -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/python-dependency-graph-resolver/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Library & API Reference |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.0/5 (82 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Library &amp; API Reference
-- **Framework**: Any Agent
-- **Rating**: 4.0/5 (82 reviews)
+**Priya Sharma** (Verified Creator ✓)
+- Profile: [@priyasharma](https://agentskillexchange.com/browse-skills/?creator=priyasharma)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/python-dependency-graph-resolver/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/python-dependency-graph-resolver/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -1,28 +1,39 @@
 ---
-name: DNS Troubleshooting Runbook
-description: Agent skill for dns troubleshooting runbook.
-category: Monitoring &amp; Alerts
-framework: Any Agent
+name: "DNS Troubleshooting Runbook"
+description: "Use this skill to systematically diagnose DNS resolution failures, propagation delays, misconfigured records, and DNS-related connectivity issues. It guides through dig/nslookup commands and DNS record validation steps. Trigger when domains are not resolving, DNS propagation issues occur after changes, or specific DNS record types are failing."
+category: "Monitoring & Alerts"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.3
 reviews: 61
+creator: Omar Hassan
+creator_handle: ohassan
+creator_verified: true
 source: https://agentskillexchange.com/skill/dns-troubleshooting-runbook/
 ---
 
 # DNS Troubleshooting Runbook
 
-Agent skill for dns troubleshooting runbook.
-
-## Overview
-
-Agent skill for dns troubleshooting runbook.
+Use this skill to systematically diagnose DNS resolution failures, propagation delays, misconfigured records, and DNS-related connectivity issues. It guides through dig/nslookup commands and DNS record validation steps. Trigger when domains are not resolving, DNS propagation issues occur after changes, or specific DNS record types are failing.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill dns-troubleshooting-runbook
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill dns-troubleshooting-runbook -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill dns-troubleshooting-runbook -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill dns-troubleshooting-runbook
 clawhub install dns-troubleshooting-runbook
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add dns-troubleshooting-runbook
+npx skills add agentskillexchange/skills --skill dns-troubleshooting-runbook -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/dns-troubleshooting-runbook/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Monitoring & Alerts |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.3/5 (61 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Monitoring &amp; Alerts
-- **Framework**: Any Agent
-- **Rating**: 4.3/5 (61 reviews)
+**Omar Hassan** (Verified Creator ✓)
+- Profile: [@ohassan](https://agentskillexchange.com/browse-skills/?creator=ohassan)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/dns-troubleshooting-runbook/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/dns-troubleshooting-runbook/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

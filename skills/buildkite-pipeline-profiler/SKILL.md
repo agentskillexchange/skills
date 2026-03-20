@@ -1,11 +1,14 @@
 ---
-name: Buildkite Pipeline Profiler
-description: Profiles Buildkite pipeline performance using the Buildkite REST API and GraphQL API. Analyzes step durations, agent queue wait times, and artifact upload bottlenecks. Generates optimization reports with buildkite-agent meta-data analysis.
-category: CI/CD Integrations
-framework: Any Agent
+name: "Buildkite Pipeline Profiler"
+description: "Profiles Buildkite pipeline performance using the Buildkite REST API and GraphQL API. Analyzes step durations, agent queue wait times, and artifact upload bottlenecks. Generates optimization reports with buildkite-agent meta-data analysis."
+category: "CI/CD Integrations"
+framework: "MCP-compatible"
 verification: verified_metadata
 rating: 4.1
 reviews: 50
+creator: Yuki Tanaka
+creator_handle: yukitanaka
+creator_verified: true
 source: https://agentskillexchange.com/skill/buildkite-pipeline-profiler/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/buildkite-pipeline-profiler/
 
 Profiles Buildkite pipeline performance using the Buildkite REST API and GraphQL API. Analyzes step durations, agent queue wait times, and artifact upload bottlenecks. Generates optimization reports with buildkite-agent meta-data analysis.
 
-## Overview
-
-Profiles Buildkite pipeline performance using the Buildkite REST API and GraphQL API. Analyzes step durations, agent queue wait times, and artifact upload bottlenecks. Generates optimization reports with buildkite-agent meta-data analysis.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill buildkite-pipeline-profiler
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill buildkite-pipeline-profiler -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill buildkite-pipeline-profiler -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill buildkite-pipeline-profiler
 clawhub install buildkite-pipeline-profiler
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add buildkite-pipeline-profiler
+npx skills add agentskillexchange/skills --skill buildkite-pipeline-profiler -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/buildkite-pipeline-profiler/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | CI/CD Integrations |
+| Framework | MCP-compatible |
+| Verification | Verified Metadata |
+| Rating | 4.1/5 (50 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: verified_metadata
-- **Category**: CI/CD Integrations
-- **Framework**: Any Agent
-- **Rating**: 4.1/5 (50 reviews)
+**Yuki Tanaka** (Verified Creator ✓)
+- Profile: [@yukitanaka](https://agentskillexchange.com/browse-skills/?creator=yukitanaka)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/buildkite-pipeline-profiler/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/buildkite-pipeline-profiler/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

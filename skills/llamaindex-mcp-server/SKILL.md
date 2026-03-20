@@ -1,28 +1,39 @@
 ---
-name: LlamaIndex MCP Server
-description: Agent skill for llamaindex mcp server.
-category: Developer Tools
-framework: Any Agent
+name: "LlamaIndex MCP Server"
+description: "Use this skill to index documents, build RAG (Retrieval-Augmented Generation) pipelines, and run semantic queries over large document corpora through MCP. It provides agents with powerful document understanding and retrieval capabilities. Trigger when you need to search over private documents, build knowledge bases, or answer questions from specific document sets."
+category: "Developer Tools"
+framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.6
 reviews: 25
+creator: Omar Hassan
+creator_handle: ohassan
+creator_verified: true
 source: https://agentskillexchange.com/skill/llamaindex-mcp-server/
 ---
 
 # LlamaIndex MCP Server
 
-Agent skill for llamaindex mcp server.
-
-## Overview
-
-Agent skill for llamaindex mcp server.
+Use this skill to index documents, build RAG (Retrieval-Augmented Generation) pipelines, and run semantic queries over large document corpora through MCP. It provides agents with powerful document understanding and retrieval capabilities. Trigger when you need to search over private documents, build knowledge bases, or answer questions from specific document sets.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill llamaindex-mcp-server
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill llamaindex-mcp-server -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill llamaindex-mcp-server -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill llamaindex-mcp-server
 clawhub install llamaindex-mcp-server
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add llamaindex-mcp-server
+npx skills add agentskillexchange/skills --skill llamaindex-mcp-server -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/llamaindex-mcp-server/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Developer Tools |
+| Framework | MCP-compatible |
+| Verification | Security Reviewed |
+| Rating | 4.6/5 (25 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Developer Tools
-- **Framework**: Any Agent
-- **Rating**: 4.6/5 (25 reviews)
+**Omar Hassan** (Verified Creator ✓)
+- Profile: [@ohassan](https://agentskillexchange.com/browse-skills/?creator=ohassan)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/llamaindex-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/llamaindex-mcp-server/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

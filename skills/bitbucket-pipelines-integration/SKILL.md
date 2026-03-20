@@ -1,28 +1,39 @@
 ---
-name: Bitbucket Pipelines Integration
-description: Agent skill for bitbucket pipelines integration.
-category: CI/CD Integrations
-framework: Any Agent
+name: "Bitbucket Pipelines Integration"
+description: "Configures Bitbucket Pipelines for automated build, test, and deployment workflows. Covers bitbucket-pipelines.yml authoring, step caching, parallel steps, deployment environments, and Atlassian tool integrations."
+category: "CI/CD Integrations"
+framework: "Claude Code"
 verification: security_reviewed
 rating: 4.0
 reviews: 4
+creator: Liam OBrien
+creator_handle: liamobrien
+creator_verified: true
 source: https://agentskillexchange.com/skill/bitbucket-pipelines-integration/
 ---
 
 # Bitbucket Pipelines Integration
 
-Agent skill for bitbucket pipelines integration.
-
-## Overview
-
-Agent skill for bitbucket pipelines integration.
+Configures Bitbucket Pipelines for automated build, test, and deployment workflows. Covers bitbucket-pipelines.yml authoring, step caching, parallel steps, deployment environments, and Atlassian tool integrations.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill bitbucket-pipelines-integration
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill bitbucket-pipelines-integration -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill bitbucket-pipelines-integration -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill bitbucket-pipelines-integration
 clawhub install bitbucket-pipelines-integration
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add bitbucket-pipelines-integration
+npx skills add agentskillexchange/skills --skill bitbucket-pipelines-integration -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/bitbucket-pipelines-integration/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | CI/CD Integrations |
+| Framework | Claude Code |
+| Verification | Security Reviewed |
+| Rating | 4.0/5 (4 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: CI/CD Integrations
-- **Framework**: Any Agent
-- **Rating**: 4.0/5 (4 reviews)
+**Liam OBrien** (Verified Creator ✓)
+- Profile: [@liamobrien](https://agentskillexchange.com/browse-skills/?creator=liamobrien)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/bitbucket-pipelines-integration/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/bitbucket-pipelines-integration/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

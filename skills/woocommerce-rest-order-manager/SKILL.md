@@ -1,11 +1,14 @@
 ---
-name: WooCommerce REST Order Manager
-description: Queries and updates WooCommerce orders via the WooCommerce REST API v3 (/wp-json/wc/v3/orders), filters by status, date range, and customer, and bulk-updates fulfillment status. Generates order export CSVs with custom field mapping for 3PL handoff.
-category: WordPress &amp; CMS
-framework: Any Agent
-verification: listed
+name: "WooCommerce REST Order Manager"
+description: "Queries and updates WooCommerce orders via the WooCommerce REST API v3 (/wp-json/wc/v3/orders), filters by status, date range, and customer, and bulk-updates fulfillment status. Generates order export CSVs with custom field mapping for 3PL handoff."
+category: "WordPress & CMS"
+framework: "Claude Code"
+verification: 
 rating: 4.2
 reviews: 23
+creator: Nathan Brooks
+creator_handle: nbrooks
+creator_verified: false
 source: https://agentskillexchange.com/skill/woocommerce-rest-order-manager/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/woocommerce-rest-order-manager/
 
 Queries and updates WooCommerce orders via the WooCommerce REST API v3 (/wp-json/wc/v3/orders), filters by status, date range, and customer, and bulk-updates fulfillment status. Generates order export CSVs with custom field mapping for 3PL handoff.
 
-## Overview
-
-Queries and updates WooCommerce orders via the WooCommerce REST API v3 (/wp-json/wc/v3/orders), filters by status, date range, and customer, and bulk-updates fulfillment status. Generates order export CSVs with custom field mapping for 3PL handoff.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill woocommerce-rest-order-manager
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill woocommerce-rest-order-manager -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill woocommerce-rest-order-manager -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill woocommerce-rest-order-manager
 clawhub install woocommerce-rest-order-manager
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add woocommerce-rest-order-manager
+npx skills add agentskillexchange/skills --skill woocommerce-rest-order-manager -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/woocommerce-rest-order-manager/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | WordPress & CMS |
+| Framework | Claude Code |
+| Verification | Listed |
+| Rating | 4.2/5 (23 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: listed
-- **Category**: WordPress &amp; CMS
-- **Framework**: Any Agent
-- **Rating**: 4.2/5 (23 reviews)
+**Nathan Brooks**
+- Profile: [@nbrooks](https://agentskillexchange.com/browse-skills/?creator=nbrooks)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/woocommerce-rest-order-manager/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/woocommerce-rest-order-manager/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

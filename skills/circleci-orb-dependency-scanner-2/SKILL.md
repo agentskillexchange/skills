@@ -1,11 +1,14 @@
 ---
-name: CircleCI Orb Dependency Scanner
-description: Scans CircleCI config.yml for outdated orb versions using the CircleCI Orb Registry API. Checks orb changelogs for breaking changes and generates automated version bump PRs with circleci config validate verification.
-category: CI/CD Integrations
-framework: Any Agent
+name: "CircleCI Orb Dependency Scanner"
+description: "Scans CircleCI config.yml for outdated orb versions using the CircleCI Orb Registry API. Checks orb changelogs for breaking changes and generates automated version bump PRs with circleci config validate verification."
+category: "CI/CD Integrations"
+framework: "Claude Agents"
 verification: verified_metadata
 rating: 4.3
 reviews: 16
+creator: David Kim
+creator_handle: dkim
+creator_verified: false
 source: https://agentskillexchange.com/skill/circleci-orb-dependency-scanner-2/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/circleci-orb-dependency-scanner-2/
 
 Scans CircleCI config.yml for outdated orb versions using the CircleCI Orb Registry API. Checks orb changelogs for breaking changes and generates automated version bump PRs with circleci config validate verification.
 
-## Overview
-
-Scans CircleCI config.yml for outdated orb versions using the CircleCI Orb Registry API. Checks orb changelogs for breaking changes and generates automated version bump PRs with circleci config validate verification.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill circleci-orb-dependency-scanner-2
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill circleci-orb-dependency-scanner-2 -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill circleci-orb-dependency-scanner-2 -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill circleci-orb-dependency-scanner
 clawhub install circleci-orb-dependency-scanner-2
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add circleci-orb-dependency-scanner-2
+npx skills add agentskillexchange/skills --skill circleci-orb-dependency-scanner-2 -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/circleci-orb-dependency-scanner-2/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | CI/CD Integrations |
+| Framework | Claude Agents |
+| Verification | Verified Metadata |
+| Rating | 4.3/5 (16 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: verified_metadata
-- **Category**: CI/CD Integrations
-- **Framework**: Any Agent
-- **Rating**: 4.3/5 (16 reviews)
+**David Kim**
+- Profile: [@dkim](https://agentskillexchange.com/browse-skills/?creator=dkim)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/circleci-orb-dependency-scanner-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/circleci-orb-dependency-scanner-2/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

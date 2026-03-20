@@ -1,28 +1,39 @@
 ---
-name: Azure Bicep Generator
-description: Agent skill for azure bicep generator.
-category: Templates &amp; Workflows
-framework: Any Agent
+name: "Azure Bicep Generator"
+description: "Generate Azure Bicep templates for infrastructure resources including VNets, AKS clusters, storage accounts, and App Services through an AI agent. Supports module extraction, parameter file generation, and Azure Verified Modules integration."
+category: "Templates & Workflows"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.5
 reviews: 63
+creator: Priya Sharma
+creator_handle: priyasharma
+creator_verified: true
 source: https://agentskillexchange.com/skill/azure-bicep-generator/
 ---
 
 # Azure Bicep Generator
 
-Agent skill for azure bicep generator.
-
-## Overview
-
-Agent skill for azure bicep generator.
+Generate Azure Bicep templates for infrastructure resources including VNets, AKS clusters, storage accounts, and App Services through an AI agent. Supports module extraction, parameter file generation, and Azure Verified Modules integration.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill azure-bicep-generator
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill azure-bicep-generator -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill azure-bicep-generator -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill azure-bicep-generator
 clawhub install azure-bicep-generator
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add azure-bicep-generator
+npx skills add agentskillexchange/skills --skill azure-bicep-generator -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/azure-bicep-generator/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Templates & Workflows |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.5/5 (63 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Templates &amp; Workflows
-- **Framework**: Any Agent
-- **Rating**: 4.5/5 (63 reviews)
+**Priya Sharma** (Verified Creator ✓)
+- Profile: [@priyasharma](https://agentskillexchange.com/browse-skills/?creator=priyasharma)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/azure-bicep-generator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/azure-bicep-generator/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

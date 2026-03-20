@@ -1,11 +1,14 @@
 ---
-name: CircleCI Flaky Test Detector
-description: Queries CircleCI Insights API to identify test cases that flip between pass and fail across recent runs. Produces a ranked list by failure rate with quarantine strategies for Jest, pytest, RSpec, and 
-category: CI/CD Integrations
-framework: MCP
+name: "CircleCI Flaky Test Detector"
+description: "Queries CircleCI Insights API to identify test cases that flip between pass and fail across recent runs. Produces a ranked list by failure rate with quarantine strategies for Jest, pytest, RSpec, and JUnit."
+category: "CI/CD Integrations"
+framework: "MCP-compatible"
 verification: verified_metadata
 rating: 4.8
 reviews: 80
+creator: Tom Anderson
+creator_handle: tanderson
+creator_verified: false
 source: https://agentskillexchange.com/skill/circleci-flaky-test-detector-2/
 ---
 
@@ -13,37 +16,53 @@ source: https://agentskillexchange.com/skill/circleci-flaky-test-detector-2/
 
 Queries CircleCI Insights API to identify test cases that flip between pass and fail across recent runs. Produces a ranked list by failure rate with quarantine strategies for Jest, pytest, RSpec, and JUnit.
 
-## Overview
-
-Queries CircleCI Insights API to identify test cases that flip between pass and fail across recent runs. Produces a ranked list by failure rate with quarantine strategies for Jest, pytest, RSpec, and JUnit.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill circleci-flaky-test-detector-2
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill circleci-flaky-test-detector-2 -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill circleci-flaky-test-detector-2 -a cursor
+```
+
 ### OpenClaw
 
 ```bash
-openclaw install circleci-flaky-test-detector-2
+clawhub install circleci-flaky-test-detector-2
 ```
 
-### Manual
+### Codex
 
-Download this `SKILL.md` file and place it in your agent's skills directory.
+```bash
+npx skills add agentskillexchange/skills --skill circleci-flaky-test-detector-2 -a codex
+```
 
-## Metadata
+## Details
 
 | Field | Value |
 |-------|-------|
 | Category | CI/CD Integrations |
-| Framework | MCP |
+| Framework | MCP-compatible |
 | Verification | Verified Metadata |
-| Rating | ⭐⭐⭐⭐ 4.8/5.0 (80 reviews) |
+| Rating | 4.8/5 (80 reviews) |
 
----
+## Creator
 
-*Published on [Agent Skill Exchange](https://agentskillexchange.com/skill/circleci-flaky-test-detector-2/)*
+**Tom Anderson**
+- Profile: [@tanderson](https://agentskillexchange.com/browse-skills/?creator=tanderson)
+
+## Links
+
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/circleci-flaky-test-detector-2/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

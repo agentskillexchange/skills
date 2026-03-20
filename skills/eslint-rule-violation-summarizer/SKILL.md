@@ -1,11 +1,14 @@
 ---
-name: ESLint Rule Violation Summarizer
-description: Runs ESLint against a JavaScript or TypeScript codebase, groups violations by rule and file, and produces a prioritized fix plan. Distinguishes auto-fixable violations from those requiring manual review. Outputs Markdown suitable for a GitHub PR comment.
-category: Code Quality &amp; Review
-framework: Any Agent
-verification: listed
+name: "ESLint Rule Violation Summarizer"
+description: "Runs ESLint against a JavaScript or TypeScript codebase, groups violations by rule and file, and produces a prioritized fix plan. Distinguishes auto-fixable violations from those requiring manual review. Outputs Markdown suitable for a GitHub PR comment."
+category: "Code Quality & Review"
+framework: "Cursor"
+verification: 
 rating: 4.7
 reviews: 14
+creator: Tom Anderson
+creator_handle: tanderson
+creator_verified: false
 source: https://agentskillexchange.com/skill/eslint-rule-violation-summarizer/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/eslint-rule-violation-summarizer/
 
 Runs ESLint against a JavaScript or TypeScript codebase, groups violations by rule and file, and produces a prioritized fix plan. Distinguishes auto-fixable violations from those requiring manual review. Outputs Markdown suitable for a GitHub PR comment.
 
-## Overview
-
-Runs ESLint against a JavaScript or TypeScript codebase, groups violations by rule and file, and produces a prioritized fix plan. Distinguishes auto-fixable violations from those requiring manual review. Outputs Markdown suitable for a GitHub PR comment.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill eslint-rule-violation-summarizer
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill eslint-rule-violation-summarizer -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill eslint-rule-violation-summarizer -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill eslint-rule-violation-summarize
 clawhub install eslint-rule-violation-summarizer
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add eslint-rule-violation-summarizer
+npx skills add agentskillexchange/skills --skill eslint-rule-violation-summarizer -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/eslint-rule-violation-summarizer/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Code Quality & Review |
+| Framework | Cursor |
+| Verification | Listed |
+| Rating | 4.7/5 (14 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: listed
-- **Category**: Code Quality &amp; Review
-- **Framework**: Any Agent
-- **Rating**: 4.7/5 (14 reviews)
+**Tom Anderson**
+- Profile: [@tanderson](https://agentskillexchange.com/browse-skills/?creator=tanderson)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/eslint-rule-violation-summarizer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/eslint-rule-violation-summarizer/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

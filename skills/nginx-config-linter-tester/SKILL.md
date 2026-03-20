@@ -1,11 +1,14 @@
 ---
-name: Nginx Config Linter and Tester
-description: Validates nginx.conf files using the gixy static analyzer and crossplane parser library. Tests configuration for security misconfigs, HTTP header issues, and performs dry-run validation via nginx -t subprocess invocation.
-category: Runbooks &amp; Diagnostics
-framework: Any Agent
+name: "Nginx Config Linter and Tester"
+description: "Validates nginx.conf files using the gixy static analyzer and crossplane parser library. Tests configuration for security misconfigs, HTTP header issues, and performs dry-run validation via nginx -t subprocess invocation."
+category: "Runbooks & Diagnostics"
+framework: "ChatGPT Agents"
 verification: security_reviewed
 rating: 4.5
 reviews: 75
+creator: Leo Park
+creator_handle: leopark
+creator_verified: true
 source: https://agentskillexchange.com/skill/nginx-config-linter-tester/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/nginx-config-linter-tester/
 
 Validates nginx.conf files using the gixy static analyzer and crossplane parser library. Tests configuration for security misconfigs, HTTP header issues, and performs dry-run validation via nginx -t subprocess invocation.
 
-## Overview
-
-Validates nginx.conf files using the gixy static analyzer and crossplane parser library. Tests configuration for security misconfigs, HTTP header issues, and performs dry-run validation via nginx -t subprocess invocation.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill nginx-config-linter-tester
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill nginx-config-linter-tester -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill nginx-config-linter-tester -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill nginx-config-linter-tester
 clawhub install nginx-config-linter-tester
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add nginx-config-linter-tester
+npx skills add agentskillexchange/skills --skill nginx-config-linter-tester -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/nginx-config-linter-tester/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Runbooks & Diagnostics |
+| Framework | ChatGPT Agents |
+| Verification | Security Reviewed |
+| Rating | 4.5/5 (75 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Runbooks &amp; Diagnostics
-- **Framework**: Any Agent
-- **Rating**: 4.5/5 (75 reviews)
+**Leo Park** (Verified Creator ✓)
+- Profile: [@leopark](https://agentskillexchange.com/browse-skills/?creator=leopark)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/nginx-config-linter-tester/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/nginx-config-linter-tester/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

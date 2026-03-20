@@ -1,11 +1,14 @@
 ---
-name: ESLint Rule Enforcement Agent
-description: Automates ESLint configuration and rule enforcement using the ESLint Node.js API and @typescript-eslint/parser. Generates fix suggestions and auto-corrects violations across JavaScript and TypeScript codebases.
-category: Code Quality &amp; Review
-framework: Any Agent
+name: "ESLint Rule Enforcement Agent"
+description: "Automates ESLint configuration and rule enforcement using the ESLint Node.js API and @typescript-eslint/parser. Generates fix suggestions and auto-corrects violations across JavaScript and TypeScript codebases."
+category: "Code Quality & Review"
+framework: "Claude Code"
 verification: security_reviewed
 rating: 4.6
 reviews: 83
+creator: Yuki Tanaka
+creator_handle: yukitanaka
+creator_verified: true
 source: https://agentskillexchange.com/skill/eslint-rule-enforcement-agent/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/eslint-rule-enforcement-agent/
 
 Automates ESLint configuration and rule enforcement using the ESLint Node.js API and @typescript-eslint/parser. Generates fix suggestions and auto-corrects violations across JavaScript and TypeScript codebases.
 
-## Overview
-
-Automates ESLint configuration and rule enforcement using the ESLint Node.js API and @typescript-eslint/parser. Generates fix suggestions and auto-corrects violations across JavaScript and TypeScript codebases.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill eslint-rule-enforcement-agent
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill eslint-rule-enforcement-agent -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill eslint-rule-enforcement-agent -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill eslint-rule-enforcement-agent
 clawhub install eslint-rule-enforcement-agent
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add eslint-rule-enforcement-agent
+npx skills add agentskillexchange/skills --skill eslint-rule-enforcement-agent -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/eslint-rule-enforcement-agent/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Code Quality & Review |
+| Framework | Claude Code |
+| Verification | Security Reviewed |
+| Rating | 4.6/5 (83 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Code Quality &amp; Review
-- **Framework**: Any Agent
-- **Rating**: 4.6/5 (83 reviews)
+**Yuki Tanaka** (Verified Creator ✓)
+- Profile: [@yukitanaka](https://agentskillexchange.com/browse-skills/?creator=yukitanaka)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/eslint-rule-enforcement-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/eslint-rule-enforcement-agent/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

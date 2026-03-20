@@ -1,28 +1,39 @@
 ---
-name: On-Call Alert Triage
-description: Agent skill for on-call alert triage.
-category: Monitoring &amp; Alerts
-framework: Any Agent
+name: "On-Call Alert Triage"
+description: "Use this skill when you receive an on-call alert and need help quickly triaging its severity, identifying the likely cause, and determining next steps. It analyzes alert metadata, error messages, and recent deployment history to suggest whether to escalate, wait-and-watch, or immediately intervene."
+category: "Monitoring & Alerts"
+framework: "Claude Agents"
 verification: security_reviewed
 rating: 4.8
 reviews: 22
+creator: Zara Ahmed
+creator_handle: zaraahmed
+creator_verified: true
 source: https://agentskillexchange.com/skill/on-call-alert-triage/
 ---
 
 # On-Call Alert Triage
 
-Agent skill for on-call alert triage.
-
-## Overview
-
-Agent skill for on-call alert triage.
+Use this skill when you receive an on-call alert and need help quickly triaging its severity, identifying the likely cause, and determining next steps. It analyzes alert metadata, error messages, and recent deployment history to suggest whether to escalate, wait-and-watch, or immediately intervene.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill on-call-alert-triage
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill on-call-alert-triage -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill on-call-alert-triage -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill on-call-alert-triage
 clawhub install on-call-alert-triage
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add on-call-alert-triage
+npx skills add agentskillexchange/skills --skill on-call-alert-triage -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/on-call-alert-triage/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Monitoring & Alerts |
+| Framework | Claude Agents |
+| Verification | Security Reviewed |
+| Rating | 4.8/5 (22 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Monitoring &amp; Alerts
-- **Framework**: Any Agent
-- **Rating**: 4.8/5 (22 reviews)
+**Zara Ahmed** (Verified Creator ✓)
+- Profile: [@zaraahmed](https://agentskillexchange.com/browse-skills/?creator=zaraahmed)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/on-call-alert-triage/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/on-call-alert-triage/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

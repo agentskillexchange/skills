@@ -1,28 +1,39 @@
 ---
-name: Datadog MCP Server
-description: Agent skill for datadog mcp server.
-category: Monitoring &amp; Alerts
-framework: Any Agent
+name: "Datadog MCP Server"
+description: "Use this skill when you need to query Datadog metrics, search logs, inspect dashboards, or manage monitors and alerts via AI. It enables agents to perform observability tasks like investigating incidents, pulling metric data, and checking service health without leaving the AI interface."
+category: "Monitoring & Alerts"
+framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.6
 reviews: 63
+creator: Nathan Brooks
+creator_handle: nbrooks
+creator_verified: false
 source: https://agentskillexchange.com/skill/datadog-mcp-server/
 ---
 
 # Datadog MCP Server
 
-Agent skill for datadog mcp server.
-
-## Overview
-
-Agent skill for datadog mcp server.
+Use this skill when you need to query Datadog metrics, search logs, inspect dashboards, or manage monitors and alerts via AI. It enables agents to perform observability tasks like investigating incidents, pulling metric data, and checking service health without leaving the AI interface.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill datadog-mcp-server
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill datadog-mcp-server -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill datadog-mcp-server -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill datadog-mcp-server
 clawhub install datadog-mcp-server
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add datadog-mcp-server
+npx skills add agentskillexchange/skills --skill datadog-mcp-server -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/datadog-mcp-server/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Monitoring & Alerts |
+| Framework | MCP-compatible |
+| Verification | Security Reviewed |
+| Rating | 4.6/5 (63 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Monitoring &amp; Alerts
-- **Framework**: Any Agent
-- **Rating**: 4.6/5 (63 reviews)
+**Nathan Brooks**
+- Profile: [@nbrooks](https://agentskillexchange.com/browse-skills/?creator=nbrooks)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/datadog-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/datadog-mcp-server/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -1,11 +1,14 @@
 ---
-name: PR Description Writer Skill
-description: Use this skill to automatically generate clear, structured pull request descriptions from git diffs, commit messages, and related issue context. It creates PR descriptions with summary, changes made, 
-category: Developer Tools
-framework: Custom Agents
+name: "PR Description Writer Skill"
+description: "Use this skill to automatically generate clear, structured pull request descriptions from git diffs, commit messages, and related issue context. It creates PR descriptions with summary, changes made, testing notes, and screenshots placeholder. Trigger when creating a PR and needing a professional description without manually writing it."
+category: "Developer Tools"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.9
 reviews: 66
+creator: Elena Kowalski
+creator_handle: ekowalski
+creator_verified: true
 source: https://agentskillexchange.com/skill/pr-description-writer-skill/
 ---
 
@@ -13,37 +16,53 @@ source: https://agentskillexchange.com/skill/pr-description-writer-skill/
 
 Use this skill to automatically generate clear, structured pull request descriptions from git diffs, commit messages, and related issue context. It creates PR descriptions with summary, changes made, testing notes, and screenshots placeholder. Trigger when creating a PR and needing a professional description without manually writing it.
 
-## Overview
-
-Use this skill to automatically generate clear, structured pull request descriptions from git diffs, commit messages, and related issue context. It creates PR descriptions with summary, changes made, testing notes, and screenshots placeholder. Trigger when creating a PR and needing a professional description without manually writing it.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill pr-description-writer-skill
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill pr-description-writer-skill -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill pr-description-writer-skill -a cursor
+```
+
 ### OpenClaw
 
 ```bash
-openclaw install pr-description-writer-skill
+clawhub install pr-description-writer-skill
 ```
 
-### Manual
+### Codex
 
-Download this `SKILL.md` file and place it in your agent's skills directory.
+```bash
+npx skills add agentskillexchange/skills --skill pr-description-writer-skill -a codex
+```
 
-## Metadata
+## Details
 
 | Field | Value |
 |-------|-------|
 | Category | Developer Tools |
 | Framework | Custom Agents |
 | Verification | Security Reviewed |
-| Rating | ⭐⭐⭐⭐ 4.9/5.0 (66 reviews) |
+| Rating | 4.9/5 (66 reviews) |
 
----
+## Creator
 
-*Published on [Agent Skill Exchange](https://agentskillexchange.com/skill/pr-description-writer-skill/)*
+**Elena Kowalski** (Verified Creator ✓)
+- Profile: [@ekowalski](https://agentskillexchange.com/browse-skills/?creator=ekowalski)
+
+## Links
+
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/pr-description-writer-skill/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

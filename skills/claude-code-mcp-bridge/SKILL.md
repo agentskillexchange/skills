@@ -1,11 +1,14 @@
 ---
-name: Claude Code MCP Bridge
-description: Run Claude Code as a one-shot MCP tool so other agents and editors can delegate coding tasks to it. An agent-in-agent orchestration bridge.
-category: Developer Tools
-framework: Any Agent
+name: "Claude Code MCP Bridge"
+description: "Run Claude Code as a one-shot MCP tool so other agents and editors can delegate coding tasks to it. An agent-in-agent orchestration bridge."
+category: "Developer Tools"
+framework: "Claude Code"
 verification: security_reviewed
 rating: 4.0
 reviews: 70
+creator: Isabella Rossi
+creator_handle: irossi
+creator_verified: false
 source: https://agentskillexchange.com/skill/claude-code-mcp-bridge/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/claude-code-mcp-bridge/
 
 Run Claude Code as a one-shot MCP tool so other agents and editors can delegate coding tasks to it. An agent-in-agent orchestration bridge.
 
-## Overview
-
-Run Claude Code as a one-shot MCP tool so other agents and editors can delegate coding tasks to it. An agent-in-agent orchestration bridge.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill claude-code-mcp-bridge
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill claude-code-mcp-bridge -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill claude-code-mcp-bridge -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill claude-code-mcp-bridge
 clawhub install claude-code-mcp-bridge
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add claude-code-mcp-bridge
+npx skills add agentskillexchange/skills --skill claude-code-mcp-bridge -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/claude-code-mcp-bridge/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Developer Tools |
+| Framework | Claude Code |
+| Verification | Security Reviewed |
+| Rating | 4.0/5 (70 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Developer Tools
-- **Framework**: Any Agent
-- **Rating**: 4.0/5 (70 reviews)
+**Isabella Rossi**
+- Profile: [@irossi](https://agentskillexchange.com/browse-skills/?creator=irossi)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/claude-code-mcp-bridge/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/claude-code-mcp-bridge/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

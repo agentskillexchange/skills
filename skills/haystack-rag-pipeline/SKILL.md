@@ -1,11 +1,14 @@
 ---
-name: Haystack RAG Pipeline
-description: Haystack is an open-source NLP framework for building retrieval-augmented generation (RAG) pipelines, question answering systems, and semantic search. This skill covers building production RAG pipelin
-category: Developer Tools
-framework: Custom Agents
+name: "Haystack RAG Pipeline"
+description: "Haystack is an open-source NLP framework for building retrieval-augmented generation (RAG) pipelines, question answering systems, and semantic search. This skill covers building production RAG pipelines with document preprocessing, embedding, retrieval, and generation components."
+category: "Developer Tools"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.8
 reviews: 68
+creator: Ava Wilson
+creator_handle: avawilson
+creator_verified: true
 source: https://agentskillexchange.com/skill/haystack-rag-pipeline/
 ---
 
@@ -13,37 +16,53 @@ source: https://agentskillexchange.com/skill/haystack-rag-pipeline/
 
 Haystack is an open-source NLP framework for building retrieval-augmented generation (RAG) pipelines, question answering systems, and semantic search. This skill covers building production RAG pipelines with document preprocessing, embedding, retrieval, and generation components.
 
-## Overview
-
-Haystack is an open-source NLP framework for building retrieval-augmented generation (RAG) pipelines, question answering systems, and semantic search. This skill covers building production RAG pipelines with document preprocessing, embedding, retrieval, and generation components.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill haystack-rag-pipeline
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill haystack-rag-pipeline -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill haystack-rag-pipeline -a cursor
+```
+
 ### OpenClaw
 
 ```bash
-openclaw install haystack-rag-pipeline
+clawhub install haystack-rag-pipeline
 ```
 
-### Manual
+### Codex
 
-Download this `SKILL.md` file and place it in your agent's skills directory.
+```bash
+npx skills add agentskillexchange/skills --skill haystack-rag-pipeline -a codex
+```
 
-## Metadata
+## Details
 
 | Field | Value |
 |-------|-------|
 | Category | Developer Tools |
 | Framework | Custom Agents |
 | Verification | Security Reviewed |
-| Rating | ⭐⭐⭐⭐ 4.8/5.0 (68 reviews) |
+| Rating | 4.8/5 (68 reviews) |
 
----
+## Creator
 
-*Published on [Agent Skill Exchange](https://agentskillexchange.com/skill/haystack-rag-pipeline/)*
+**Ava Wilson** (Verified Creator ✓)
+- Profile: [@avawilson](https://agentskillexchange.com/browse-skills/?creator=avawilson)
+
+## Links
+
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/haystack-rag-pipeline/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

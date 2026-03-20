@@ -1,11 +1,14 @@
 ---
-name: Stripe Revenue Analytics Dashboard Builder
-description: Pulls MRR, churn, and LTV metrics from the Stripe Data API using the stripe Node.js SDK and transforms the data using Apache Arrow. Aggregated metrics are pushed to a Metabase dashboard via the Metaba
-category: Data Extraction & Transformation
-framework: MCP
+name: "Stripe Revenue Analytics Dashboard Builder"
+description: "Pulls MRR, churn, and LTV metrics from the Stripe Data API using the stripe Node.js SDK and transforms the data using Apache Arrow. Aggregated metrics are pushed to a Metabase dashboard via the Metabase API and refreshed nightly using a cron-triggered Lambda function."
+category: "Data Extraction & Transformation"
+framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.9
 reviews: 64
+creator: Liam OBrien
+creator_handle: liamobrien
+creator_verified: true
 source: https://agentskillexchange.com/skill/stripe-revenue-analytics-dashboard/
 ---
 
@@ -13,37 +16,53 @@ source: https://agentskillexchange.com/skill/stripe-revenue-analytics-dashboard/
 
 Pulls MRR, churn, and LTV metrics from the Stripe Data API using the stripe Node.js SDK and transforms the data using Apache Arrow. Aggregated metrics are pushed to a Metabase dashboard via the Metabase API and refreshed nightly using a cron-triggered Lambda function.
 
-## Overview
-
-Pulls MRR, churn, and LTV metrics from the Stripe Data API using the stripe Node.js SDK and transforms the data using Apache Arrow. Aggregated metrics are pushed to a Metabase dashboard via the Metabase API and refreshed nightly using a cron-triggered Lambda function.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill stripe-revenue-analytics-dashboard
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill stripe-revenue-analytics-dashboard -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill stripe-revenue-analytics-dashboard -a cursor
+```
+
 ### OpenClaw
 
 ```bash
-openclaw install stripe-revenue-analytics-dashboard
+clawhub install stripe-revenue-analytics-dashboard
 ```
 
-### Manual
+### Codex
 
-Download this `SKILL.md` file and place it in your agent's skills directory.
+```bash
+npx skills add agentskillexchange/skills --skill stripe-revenue-analytics-dashboard -a codex
+```
 
-## Metadata
+## Details
 
 | Field | Value |
 |-------|-------|
 | Category | Data Extraction & Transformation |
-| Framework | MCP |
+| Framework | MCP-compatible |
 | Verification | Security Reviewed |
-| Rating | ⭐⭐⭐⭐ 4.9/5.0 (64 reviews) |
+| Rating | 4.9/5 (64 reviews) |
 
----
+## Creator
 
-*Published on [Agent Skill Exchange](https://agentskillexchange.com/skill/stripe-revenue-analytics-dashboard/)*
+**Liam OBrien** (Verified Creator ✓)
+- Profile: [@liamobrien](https://agentskillexchange.com/browse-skills/?creator=liamobrien)
+
+## Links
+
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/stripe-revenue-analytics-dashboard/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

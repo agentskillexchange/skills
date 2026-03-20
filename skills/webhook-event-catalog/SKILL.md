@@ -1,28 +1,39 @@
 ---
-name: Webhook Event Catalog
-description: Agent skill for webhook event catalog.
-category: Library &amp; API Reference
-framework: Any Agent
+name: "Webhook Event Catalog"
+description: "Documents and manages webhook event schemas from third-party services. Generates type definitions from event payloads, validates incoming webhooks, and maintains a catalog of event types and their payloads."
+category: "Library & API Reference"
+framework: "Claude Code"
 verification: security_reviewed
 rating: 4.8
 reviews: 14
+creator: Tom Anderson
+creator_handle: tanderson
+creator_verified: false
 source: https://agentskillexchange.com/skill/webhook-event-catalog/
 ---
 
 # Webhook Event Catalog
 
-Agent skill for webhook event catalog.
-
-## Overview
-
-Agent skill for webhook event catalog.
+Documents and manages webhook event schemas from third-party services. Generates type definitions from event payloads, validates incoming webhooks, and maintains a catalog of event types and their payloads.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill webhook-event-catalog
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill webhook-event-catalog -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill webhook-event-catalog -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill webhook-event-catalog
 clawhub install webhook-event-catalog
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add webhook-event-catalog
+npx skills add agentskillexchange/skills --skill webhook-event-catalog -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/webhook-event-catalog/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Library & API Reference |
+| Framework | Claude Code |
+| Verification | Security Reviewed |
+| Rating | 4.8/5 (14 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Library &amp; API Reference
-- **Framework**: Any Agent
-- **Rating**: 4.8/5 (14 reviews)
+**Tom Anderson**
+- Profile: [@tanderson](https://agentskillexchange.com/browse-skills/?creator=tanderson)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/webhook-event-catalog/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/webhook-event-catalog/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

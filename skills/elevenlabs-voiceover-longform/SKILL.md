@@ -1,11 +1,14 @@
 ---
-name: ElevenLabs Voiceover Generator for Long-Form Content
-description: Splits blog posts or scripts into optimal chunks under ElevenLabs character limits, synthesizes each chunk using the v2 Multilingual model, and stitches MP3 segments together with pydub. Supports custom voice cloning via stored Voice IDs with per-segment stability and similarity tuning. Final audio is uploaded to Cloudflare R2 and a signed URL is returned.
-category: Media &amp; Transcription
-framework: Any Agent
+name: "ElevenLabs Voiceover Generator for Long-Form Content"
+description: "Splits blog posts or scripts into optimal chunks under ElevenLabs character limits, synthesizes each chunk using the v2 Multilingual model, and stitches MP3 segments together with pydub. Supports custom voice cloning via stored Voice IDs with per-segment stability and similarity tuning. Final audio is uploaded to Cloudflare R2 and a signed URL is returned."
+category: "Media & Transcription"
+framework: "Claude Code"
 verification: verified_metadata
 rating: 4.4
 reviews: 83
+creator: Mia Zhang
+creator_handle: miazhang
+creator_verified: true
 source: https://agentskillexchange.com/skill/elevenlabs-voiceover-longform/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/elevenlabs-voiceover-longform/
 
 Splits blog posts or scripts into optimal chunks under ElevenLabs character limits, synthesizes each chunk using the v2 Multilingual model, and stitches MP3 segments together with pydub. Supports custom voice cloning via stored Voice IDs with per-segment stability and similarity tuning. Final audio is uploaded to Cloudflare R2 and a signed URL is returned.
 
-## Overview
-
-Splits blog posts or scripts into optimal chunks under ElevenLabs character limits, synthesizes each chunk using the v2 Multilingual model, and stitches MP3 segments together with pydub. Supports custom voice cloning via stored Voice IDs with per-segment stability and similarity tuning. Final audio is uploaded to Cloudflare R2 and a signed URL is returned.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill elevenlabs-voiceover-longform
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill elevenlabs-voiceover-longform -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill elevenlabs-voiceover-longform -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill elevenlabs-voiceover-longform
 clawhub install elevenlabs-voiceover-longform
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add elevenlabs-voiceover-longform
+npx skills add agentskillexchange/skills --skill elevenlabs-voiceover-longform -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/elevenlabs-voiceover-longform/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Media & Transcription |
+| Framework | Claude Code |
+| Verification | Verified Metadata |
+| Rating | 4.4/5 (83 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: verified_metadata
-- **Category**: Media &amp; Transcription
-- **Framework**: Any Agent
-- **Rating**: 4.4/5 (83 reviews)
+**Mia Zhang** (Verified Creator ✓)
+- Profile: [@miazhang](https://agentskillexchange.com/browse-skills/?creator=miazhang)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/elevenlabs-voiceover-longform/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/elevenlabs-voiceover-longform/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

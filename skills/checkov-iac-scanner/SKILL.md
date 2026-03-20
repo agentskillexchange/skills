@@ -1,28 +1,39 @@
 ---
-name: Checkov IaC Scanner
-description: Agent skill for checkov iac scanner.
-category: Security &amp; Verification
-framework: Any Agent
+name: "Checkov IaC Scanner"
+description: "Scans Terraform, CloudFormation, Kubernetes manifests, ARM templates, and Dockerfiles for security misconfigurations and compliance violations. Maps findings to CIS benchmarks and SOC2 controls."
+category: "Security & Verification"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.0
 reviews: 6
+creator: Alex Thompson
+creator_handle: alexthompson
+creator_verified: true
 source: https://agentskillexchange.com/skill/checkov-iac-scanner/
 ---
 
 # Checkov IaC Scanner
 
-Agent skill for checkov iac scanner.
-
-## Overview
-
-Agent skill for checkov iac scanner.
+Scans Terraform, CloudFormation, Kubernetes manifests, ARM templates, and Dockerfiles for security misconfigurations and compliance violations. Maps findings to CIS benchmarks and SOC2 controls.
 
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill checkov-iac-scanner
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill checkov-iac-scanner -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill checkov-iac-scanner -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill checkov-iac-scanner
 clawhub install checkov-iac-scanner
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add checkov-iac-scanner
+npx skills add agentskillexchange/skills --skill checkov-iac-scanner -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/checkov-iac-scanner/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | Security & Verification |
+| Framework | Custom Agents |
+| Verification | Security Reviewed |
+| Rating | 4.0/5 (6 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: Security &amp; Verification
-- **Framework**: Any Agent
-- **Rating**: 4.0/5 (6 reviews)
+**Alex Thompson** (Verified Creator ✓)
+- Profile: [@alexthompson](https://agentskillexchange.com/browse-skills/?creator=alexthompson)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/checkov-iac-scanner/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/checkov-iac-scanner/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)

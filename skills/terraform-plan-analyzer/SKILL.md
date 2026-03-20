@@ -1,11 +1,14 @@
 ---
-name: Terraform Plan Analyzer
-description: Parses terraform plan JSON output using the HashiCorp terraform-json Go module and generates human-readable change summaries. Integrates with the Terraform Cloud API for remote plan retrieval and cost estimation via Infracost.
-category: CI/CD Integrations
-framework: Any Agent
+name: "Terraform Plan Analyzer"
+description: "Parses terraform plan JSON output using the HashiCorp terraform-json Go module and generates human-readable change summaries. Integrates with the Terraform Cloud API for remote plan retrieval and cost estimation via Infracost."
+category: "CI/CD Integrations"
+framework: "Codex"
 verification: security_reviewed
 rating: 4.7
 reviews: 23
+creator: Ava Wilson
+creator_handle: avawilson
+creator_verified: true
 source: https://agentskillexchange.com/skill/terraform-plan-analyzer/
 ---
 
@@ -13,16 +16,24 @@ source: https://agentskillexchange.com/skill/terraform-plan-analyzer/
 
 Parses terraform plan JSON output using the HashiCorp terraform-json Go module and generates human-readable change summaries. Integrates with the Terraform Cloud API for remote plan retrieval and cost estimation via Infracost.
 
-## Overview
-
-Parses terraform plan JSON output using the HashiCorp terraform-json Go module and generates human-readable change summaries. Integrates with the Terraform Cloud API for remote plan retrieval and cost estimation via Infracost.
-
 ## Installation
 
-### Using npx skills (any agent)
+### Any agent (npx skills)
 
 ```bash
 npx skills add agentskillexchange/skills --skill terraform-plan-analyzer
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill terraform-plan-analyzer -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill terraform-plan-analyzer -a cursor
 ```
 
 ### OpenClaw
@@ -31,23 +42,27 @@ npx skills add agentskillexchange/skills --skill terraform-plan-analyzer
 clawhub install terraform-plan-analyzer
 ```
 
-### Claude Code
+### Codex
 
 ```bash
-claude mcp add terraform-plan-analyzer
+npx skills add agentskillexchange/skills --skill terraform-plan-analyzer -a codex
 ```
 
-### Manual
+## Details
 
-Visit the [skill page](https://agentskillexchange.com/skill/terraform-plan-analyzer/) for detailed installation instructions.
+| Field | Value |
+|-------|-------|
+| Category | CI/CD Integrations |
+| Framework | Codex |
+| Verification | Security Reviewed |
+| Rating | 4.7/5 (23 reviews) |
 
-## Verification
+## Creator
 
-- **Status**: security_reviewed
-- **Category**: CI/CD Integrations
-- **Framework**: Any Agent
-- **Rating**: 4.7/5 (23 reviews)
+**Ava Wilson** (Verified Creator ✓)
+- Profile: [@avawilson](https://agentskillexchange.com/browse-skills/?creator=avawilson)
 
-## Source
+## Links
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/terraform-plan-analyzer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/terraform-plan-analyzer/)
+- [Browse all skills](https://agentskillexchange.com/browse-skills/)
