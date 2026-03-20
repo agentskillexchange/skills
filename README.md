@@ -1,10 +1,11 @@
 # Agent Skill Exchange — Skills Repository
 
-[![Skills](https://img.shields.io/badge/skills-100+-6366f1)](https://agentskillexchange.com)
+[![Skills](https://img.shields.io/badge/skills-590+-6366f1)](https://agentskillexchange.com/browse-skills/)
+[![Verified](https://img.shields.io/badge/verified-590+-10b981)](https://agentskillexchange.com/verified-skills/)
 [![npx skills](https://img.shields.io/badge/npx-skills-green)](https://www.npmjs.com/package/skills)
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
-**Curated, verified agent skills for every coding agent.**
+**Curated, verified agent skills for every coding agent.** Updated hourly.
 
 Browse the full marketplace at **[agentskillexchange.com](https://agentskillexchange.com)**
 
@@ -26,7 +27,7 @@ npx skills add agentskillexchange/skills --all
 
 ## Supported Agents
 
-This repo works with **40+ agents** via `npx skills`:
+This repo works with **40+ agents** via [`npx skills`](https://github.com/vercel-labs/skills):
 
 | Agent | Command |
 |-------|---------|
@@ -37,38 +38,39 @@ This repo works with **40+ agents** via `npx skills`:
 | Gemini CLI | `npx skills add agentskillexchange/skills -a gemini-cli` |
 | Windsurf | `npx skills add agentskillexchange/skills -a windsurf` |
 | Roo Code | `npx skills add agentskillexchange/skills -a roo` |
+| ChatGPT | `npx skills add agentskillexchange/skills -a chatgpt` |
 | [See all 40+](https://github.com/vercel-labs/skills#available-agents) | `npx skills add agentskillexchange/skills` |
 
 ### OpenClaw Native
 
 ```bash
-# Via ClawHub
 clawhub install <slug>
-
-# Or directly
-openclaw install <slug>
 ```
 
 ## What's Inside
 
-Each skill is a directory with a `SKILL.md` file containing:
+Each skill directory contains a `SKILL.md` with:
 
-- **Frontmatter** — name, description, category, framework compatibility, verification status
-- **Instructions** — what the skill does, how to use it, gotchas
-- **Installation commands** — copy-paste ready for any agent
+- **Frontmatter** — name, description, category, framework, creator, verification status, rating
+- **Overview** — what it does, key APIs/tools used
+- **Installation** — copy-paste commands for every agent
+- **Creator** — who built it, with verified badge where applicable
 
 ## Verification
 
-Every skill in this repo has been through our verification pipeline:
+Every skill goes through our review process:
 
-| Status | Meaning |
-|--------|---------|
-| 🔒 **Security Reviewed** | Read-only/diagnostic skills — safe to run without supervision |
-| ✅ **Verified Metadata** | Skills that write/create/send — metadata and behavior verified |
+| Tier | Meaning |
+|------|---------|
+| 🟢 **Security Reviewed** | Read-only skills — code inspected, no write/send/exec risk |
+| 🔵 **Verified Metadata** | Write/create skills — metadata, source, and install instructions verified |
+| ⚪ **Listed** | Published with baseline marketplace structure |
 
 Learn more: [How We Verify Skills](https://agentskillexchange.com/how-we-verify-skills/)
 
 ## Categories
+
+Skills span 15+ categories:
 
 - Browser Automation
 - CI/CD Integrations
@@ -87,11 +89,32 @@ Learn more: [How We Verify Skills](https://agentskillexchange.com/how-we-verify-
 - Templates & Workflows
 - WordPress & CMS
 
+## Top Creators
+
+| Creator | Skills | Verified |
+|---------|--------|----------|
+| Priya Sharma | 33 | ✓ |
+| Alex Thompson | 27 | ✓ |
+| Yuki Tanaka | 27 | ✓ |
+| Elena Kowalski | 27 | ✓ |
+| Raj Gupta | 27 | ✓ |
+| Mia Zhang | 28 | ✓ |
+| Ava Wilson | 28 | ✓ |
+
+[See all creators →](https://agentskillexchange.com/browse-skills/)
+
 ## Contributing
 
 1. Create a skill using the [Skill Creation Wizard](https://agentskillexchange.com/create-skill/)
 2. Submit a PR to this repo with your `skills/<your-skill>/SKILL.md`
 3. Skills go through verification before merge
+
+## Repo Stats
+
+- **590+ skills** across 15+ categories
+- **25 creators** contributing skills
+- **Updated hourly** via automated sync from [agentskillexchange.com](https://agentskillexchange.com)
+- **Compatible with 40+ agents** via npx skills
 
 ## License
 
@@ -99,4 +122,4 @@ MIT — see [LICENSE](LICENSE) for details.
 
 ---
 
-**[Browse All Skills →](https://agentskillexchange.com/browse-skills/)**
+**[Browse All Skills →](https://agentskillexchange.com/browse-skills/)** · **[Verified Skills →](https://agentskillexchange.com/verified-skills/)** · **[Create a Skill →](https://agentskillexchange.com/create-skill/)**
