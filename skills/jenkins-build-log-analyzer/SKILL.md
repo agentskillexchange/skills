@@ -1,0 +1,49 @@
+---
+name: Jenkins Build Log Analyzer
+description: Parses Jenkins build console logs via the Jenkins Remote Access API to extract failure patterns, stack traces, and flaky test signatures. Uses regex heuristics and the Jenkins Test Results API to corr
+category: Runbooks & Diagnostics
+framework: ChatGPT Agents
+verification: security_reviewed
+rating: 4.9
+reviews: 30
+source: https://agentskillexchange.com/skill/jenkins-build-log-analyzer/
+---
+
+# Jenkins Build Log Analyzer
+
+Parses Jenkins build console logs via the Jenkins Remote Access API to extract failure patterns, stack traces, and flaky test signatures. Uses regex heuristics and the Jenkins Test Results API to correlate failures with specific changes. Outputs a triage report ranked by recurrence frequency.
+
+## Overview
+
+This skill connects to a Jenkins instance using its Remote Access API (/api/json endpoints) with username/API-token authentication. It fetches the last N build console logs for a given job using the /logText/progressiveText endpoint and applies regex pattern matching to extract Java stack traces, Maven Surefire test failures, and Docker build errors. The Jenkins Test Report API (/testReport/api/json) is queried to identify test methods with high flakiness scores. Results are grouped by failure category (environment, test, build tool) and ranked by occurrence count across the time window. The skill also integrates with the Jenkins Change Sets API to correlate failures with specific committer emails, enabling targeted developer notifications. Output is a structured Markdown triage report with suggested next steps.
+
+## Installation
+
+### Using npx skills (any agent)
+
+```bash
+npx skills add agentskillexchange/skills --skill jenkins-build-log-analyzer
+```
+
+### OpenClaw
+
+```bash
+openclaw install jenkins-build-log-analyzer
+```
+
+### Manual
+
+Download this `SKILL.md` file and place it in your agent's skills directory.
+
+## Metadata
+
+| Field | Value |
+|-------|-------|
+| Category | Runbooks & Diagnostics |
+| Framework | ChatGPT Agents |
+| Verification | Security Reviewed |
+| Rating | ⭐⭐⭐⭐ 4.9/5.0 (30 reviews) |
+
+---
+
+*Published on [Agent Skill Exchange](https://agentskillexchange.com/skill/jenkins-build-log-analyzer/)*

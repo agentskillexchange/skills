@@ -1,0 +1,51 @@
+---
+name: ESLint Rule Configurator
+description: Generates optimized ESLint flat config files using @eslint/js, typescript-eslint, and eslint-plugin-import. Provides project-specific rule recommendations based on codebase analysis.
+category: Code Quality & Review
+framework: Custom Agents
+verification: verified_metadata
+rating: 4.8
+reviews: 86
+source: https://agentskillexchange.com/skill/eslint-rule-configurator/
+---
+
+# ESLint Rule Configurator
+
+Generates optimized ESLint flat config files using @eslint/js, typescript-eslint, and eslint-plugin-import. Provides project-specific rule recommendations based on codebase analysis.
+
+## Overview
+
+The ESLint Rule Configurator agent generates optimized ESLint configurations tailored to your specific project structure and coding patterns. It analyzes your codebase to recommend appropriate rules from @eslint/js, typescript-eslint, eslint-plugin-import, and other popular plugins.
+The agent creates ESLint flat config files (eslint.config.js) following the modern configuration format, properly organizing rule sets by file patterns and project areas. It detects your project type (React, Node.js, library, monorepo) and selects appropriate presets, then fine-tunes individual rules based on static analysis of your existing code patterns to minimize initial violations while enforcing meaningful standards.
+For TypeScript projects, it configures typescript-eslint with appropriate parser options, type-aware rules, and proper tsconfig references. The configurator handles eslint-plugin-import settings for path resolution including aliases, module boundaries in monorepos, and import ordering preferences. It can generate migration scripts for projects moving from .eslintrc to flat config format, mapping legacy extends and plugins to their flat config equivalents.
+
+## Installation
+
+### Using npx skills (any agent)
+
+```bash
+npx skills add agentskillexchange/skills --skill eslint-rule-configurator
+```
+
+### OpenClaw
+
+```bash
+openclaw install eslint-rule-configurator
+```
+
+### Manual
+
+Download this `SKILL.md` file and place it in your agent's skills directory.
+
+## Metadata
+
+| Field | Value |
+|-------|-------|
+| Category | Code Quality & Review |
+| Framework | Custom Agents |
+| Verification | Verified Metadata |
+| Rating | ⭐⭐⭐⭐ 4.8/5.0 (86 reviews) |
+
+---
+
+*Published on [Agent Skill Exchange](https://agentskillexchange.com/skill/eslint-rule-configurator/)*
