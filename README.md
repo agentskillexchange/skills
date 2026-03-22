@@ -42,39 +42,101 @@ clawhub install <slug>
 
 ## Why This Repo?
 
-|  | Agent Skill Exchange | anthropics/skills | sickn33/antigravity | obra/superpowers |
-|---|:---:|:---:|:---:|:---:|
-| **Total Skills** | **1,000+** | 17 | 1,306 | ~20 |
-| **Community Ratings** | ✅ | ❌ | ❌ | ❌ |
-| **Verification Tiers** | ✅ 3-tier | ❌ | ❌ | ❌ |
-| **Multi-Framework** | ✅ 11 | Claude only | Claude only | Claude + Cursor |
-| **Live Marketplace** | ✅ | ❌ | ❌ | ❌ |
-| **Auto-Updated** | ✅ Hourly | Manual | Manual | Manual |
-| **Creator Profiles** | ✅ | ❌ | ❌ | ❌ |
+- **1,000+ skills and growing** — new skills added every hour, automatically synced from the live marketplace
+- **Community-rated** — every skill has real ratings and reviews from users, not just a listing
+- **3-tier verification** — skills go through Listed → Verified Metadata → Security Reviewed before reaching production-ready status
+- **11 frameworks** — Claude Code, Cursor, Codex, Gemini, OpenClaw, and more — install with one command for any agent
+- **Creator profiles** — every skill has an attributed creator with verification badges
+- **Live marketplace** — browse, search, filter, and install at [agentskillexchange.com](https://agentskillexchange.com)
 
 ---
 
 ## Categories
 
-| Category | Skills | Browse |
-|----------|-------:|--------|
-| 🔧 CI/CD Integrations | 193 | [Browse →](https://agentskillexchange.com/categories/?cat=ci-cd-integrations) |
-| 📋 Runbooks & Diagnostics | 157 | [Browse →](https://agentskillexchange.com/categories/?cat=runbooks-diagnostics) |
-| ✅ Code Quality & Review | 111 | [Browse →](https://agentskillexchange.com/categories/?cat=code-quality-review) |
-| 🛠️ Developer Tools | 102 | [Browse →](https://agentskillexchange.com/categories/?cat=developer-tools) |
-| 📚 Library & API Reference | 74 | [Browse →](https://agentskillexchange.com/categories/?cat=library-api-reference) |
-| 📄 Templates & Workflows | 56 | [Browse →](https://agentskillexchange.com/categories/?cat=templates-workflows) |
-| 🔄 Data Extraction & Transformation | 48 | [Browse →](https://agentskillexchange.com/categories/?cat=data-extraction-transformation) |
-| 🔒 Security & Verification | 45 | [Browse →](https://agentskillexchange.com/categories/?cat=security-verification) |
-| 📊 Monitoring & Alerts | 43 | [Browse →](https://agentskillexchange.com/categories/?cat=monitoring-alerts) |
-| 📅 Calendar, Email & Productivity | 41 | [Browse →](https://agentskillexchange.com/categories/?cat=calendar-email-productivity) |
-| 🔗 Integrations & Connectors | 41 | [Browse →](https://agentskillexchange.com/categories/?cat=integrations-connectors) |
-| ✍️ Content Writing & SEO | 19 | [Browse →](https://agentskillexchange.com/categories/?cat=content-writing-seo) |
-| 🎙️ Media & Transcription | 19 | [Browse →](https://agentskillexchange.com/categories/?cat=media-transcription) |
-| 🎨 Image & Creative Automation | 18 | [Browse →](https://agentskillexchange.com/categories/?cat=image-creative-automation) |
-| 🔍 Research & Scraping | 17 | [Browse →](https://agentskillexchange.com/categories/?cat=research-scraping) |
-| 🌐 Browser Automation | 16 | [Browse →](https://agentskillexchange.com/categories/?cat=browser-automation) |
-| 📰 WordPress & CMS | 16 | [Browse →](https://agentskillexchange.com/categories/?cat=wordpress-cms) |
+<details>
+<summary><strong>🔧 CI/CD Integrations</strong> — <a href="https://agentskillexchange.com/browse-skills/?category=ci-cd-integrations">201 skills</a></summary>
+Pipeline generators, orb composers, workflow linters, deployment monitors, and CI template builders for GitHub Actions, CircleCI, Jenkins, GitLab CI, ArgoCD, and more.
+</details>
+
+<details>
+<summary><strong>📋 Runbooks & Diagnostics</strong> — <a href="https://agentskillexchange.com/browse-skills/?category=runbooks-diagnostics">161 skills</a></summary>
+Incident response playbooks, crash diagnostics, log analyzers, health check routines, and troubleshooting workflows.
+</details>
+
+<details>
+<summary><strong>✅ Code Quality & Review</strong> — <a href="https://agentskillexchange.com/browse-skills/?category=code-quality-review">119 skills</a></summary>
+Linters, code reviewers, test generators, coverage analyzers, dependency checkers, and refactoring tools.
+</details>
+
+<details>
+<summary><strong>🛠️ Developer Tools</strong> — <a href="https://agentskillexchange.com/browse-skills/?category=developer-tools">106 skills</a></summary>
+Coding agents, repo workflows, scaffolders, terminal control, and implementation assistants.
+</details>
+
+<details>
+<summary><strong>📚 Library & API Reference</strong> — <a href="https://agentskillexchange.com/browse-skills/?category=library-api-reference">78 skills</a></summary>
+SDK documentation indexers, API spec parsers, symbol resolvers, and reference lookup tools.
+</details>
+
+<details>
+<summary><strong>📄 Templates & Workflows</strong> — <a href="https://agentskillexchange.com/browse-skills/?category=templates-workflows">56 skills</a></summary>
+Project scaffolders, boilerplate generators, workflow automation, and template libraries.
+</details>
+
+<details>
+<summary><strong>🔄 Data Extraction & Transformation</strong> — <a href="https://agentskillexchange.com/browse-skills/?category=data-extraction-transformation">56 skills</a></summary>
+Schema validators, data mappers, ETL builders, format converters, and pipeline agents.
+</details>
+
+<details>
+<summary><strong>📊 Monitoring & Alerts</strong> — <a href="https://agentskillexchange.com/browse-skills/?category=monitoring-alerts">56 skills</a></summary>
+Error tracking, uptime monitoring, alerting integrations, and observability tools.
+</details>
+
+<details>
+<summary><strong>🔒 Security & Verification</strong> — <a href="https://agentskillexchange.com/browse-skills/?category=security-verification">49 skills</a></summary>
+Vulnerability scanners, signature verifiers, supply-chain auditors, and security policy enforcers.
+</details>
+
+<details>
+<summary><strong>📅 Calendar, Email & Productivity</strong> — <a href="https://agentskillexchange.com/browse-skills/?category=calendar-email-productivity">45 skills</a></summary>
+Calendar integrations, email automation, scheduling tools, and productivity workflows.
+</details>
+
+<details>
+<summary><strong>🔗 Integrations & Connectors</strong> — <a href="https://agentskillexchange.com/browse-skills/?category=integrations-connectors">41 skills</a></summary>
+Third-party service connectors, webhook handlers, API bridges, and platform integrations.
+</details>
+
+<details>
+<summary><strong>🔍 Research & Scraping</strong> — <a href="https://agentskillexchange.com/browse-skills/?category=research-scraping">25 skills</a></summary>
+Web research, content discovery, signal detection, and data collection agents.
+</details>
+
+<details>
+<summary><strong>🌐 Browser Automation</strong> — <a href="https://agentskillexchange.com/browse-skills/?category=browser-automation">23 skills</a></summary>
+Navigation, login flows, form handling, screenshots, and dynamic-site interaction.
+</details>
+
+<details>
+<summary><strong>✍️ Content Writing & SEO</strong> — <a href="https://agentskillexchange.com/browse-skills/?category=content-writing-seo">23 skills</a></summary>
+SEO optimization, content generation, editorial workflows, and publishing tools.
+</details>
+
+<details>
+<summary><strong>🎨 Image & Creative Automation</strong> — <a href="https://agentskillexchange.com/browse-skills/?category=image-creative-automation">22 skills</a></summary>
+Image generation, creative editing, visual asset workflows, and design automation.
+</details>
+
+<details>
+<summary><strong>📰 WordPress & CMS</strong> — <a href="https://agentskillexchange.com/browse-skills/?category=wordpress-cms">20 skills</a></summary>
+WordPress publishing, theme/plugin development, REST API builders, and CMS automation.
+</details>
+
+<details>
+<summary><strong>🎙️ Media & Transcription</strong> — <a href="https://agentskillexchange.com/browse-skills/?category=media-transcription">19 skills</a></summary>
+Audio transcription, video processing, media conversion, and podcast tools.
+</details>
 
 ---
 
@@ -107,7 +169,7 @@ Every skill goes through a transparent verification pipeline:
                            and malicious patterns. Safe for production use.
 ```
 
-All 1,000+ skills in this repo have reached **Verified Metadata** or higher. See [how we verify](https://agentskillexchange.com/how-we-verify/) for the full criteria.
+All 1,000+ skills in this repo have reached **Verified Metadata** or higher. See the [verification criteria](https://agentskillexchange.com/verified-skills/) for details.
 
 ---
 
