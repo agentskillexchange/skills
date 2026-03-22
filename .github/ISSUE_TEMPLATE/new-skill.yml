@@ -1,0 +1,66 @@
+name: Submit a New Skill
+description: Suggest a skill to add to the exchange
+title: "[New Skill] "
+labels: ["new-skill"]
+body:
+  - type: input
+    id: skill-name
+    attributes:
+      label: Skill Name
+      placeholder: e.g., Datadog APM Monitor
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Browser Automation
+        - Calendar, Email & Productivity
+        - CI/CD Integrations
+        - Code Quality & Review
+        - Content Writing & SEO
+        - Data Extraction & Transformation
+        - Developer Tools
+        - Image & Creative Automation
+        - Integrations & Connectors
+        - Library & API Reference
+        - Media & Transcription
+        - Monitoring & Alerts
+        - Research & Scraping
+        - Runbooks & Diagnostics
+        - Security & Verification
+        - Templates & Workflows
+        - WordPress & CMS
+    validations:
+      required: true
+  - type: dropdown
+    id: framework
+    attributes:
+      label: Primary Framework
+      options:
+        - Claude Code
+        - Cursor
+        - Codex
+        - OpenClaw
+        - Gemini
+        - Claude Agents
+        - ChatGPT Agents
+        - Custom Agents
+        - MCP-compatible
+        - WordPress
+        - Google Workspace
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What does this skill do? What APIs or tools does it use?
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source URL (optional)
+      description: Link to documentation, GitHub repo, or existing tool

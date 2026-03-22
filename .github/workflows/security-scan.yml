@@ -1,0 +1,90 @@
+name: Security Scan
+
+on:
+  pull_request:
+    paths:
+      - 'skills/**'
+
+jobs:
+  security-scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Scan skills for security concerns
+        run: |
+          warnings=0
+          errors=0
+
+          changed_skills=$(git diff --name-only ${{ github.event.pull_request.base.sha }} HEAD -- 'skills/*/SKILL.md' || echo "")
+
+          if [ -z "$changed_skills" ]; then
+            echo "No SKILL.md files to scan"
+            exit 0
+          fi
+
+          for file in $changed_skills; do
+            if [ ! -f "$file" ]; then
+              continue
+            fi
+
+            echo "Scanning $file..."
+            content=$(cat "$file")
+
+            # Check for data exfiltration patterns
+            if echo "$content" | grep -qiE 'curl.*\|(base64|env|password|secret|token|key)'; then
+              echo "  🚨 Potential data exfiltration: piping sensitive data to curl"
+              errors=$((errors + 1))
+            fi
+
+            # Check for credential harvesting
+            if echo "$content" | grep -qiE 'enter your (password|api.key|secret|token)'; then
+              echo "  ⚠️ Asks user for credentials directly"
+              warnings=$((warnings + 1))
+            fi
+
+            # Check for prompt injection patterns
+            if echo "$content" | grep -qiE 'ignore (previous|all|prior) instructions'; then
+              echo "  🚨 Potential prompt injection: instruction override attempt"
+              errors=$((errors + 1))
+            fi
+
+            if echo "$content" | grep -qiE 'you are now|new persona|forget (everything|your|all)'; then
+              echo "  🚨 Potential prompt injection: persona override attempt"
+              errors=$((errors + 1))
+            fi
+
+            # Check for suspicious URLs
+            if echo "$content" | grep -qiE 'http://(pastebin|paste\.ee|hastebin|ghostbin)'; then
+              echo "  ⚠️ References paste service URL"
+              warnings=$((warnings + 1))
+            fi
+
+            # Check for destructive commands without safeguards
+            if echo "$content" | grep -qE 'rm -rf /|DROP TABLE|FORMAT C:'; then
+              echo "  🚨 Contains destructive command without safeguard"
+              errors=$((errors + 1))
+            fi
+
+            # Check for base64 encoded content (potential obfuscation)
+            if echo "$content" | grep -qE '[A-Za-z0-9+/]{100,}={0,2}'; then
+              echo "  ⚠️ Contains long base64-like string (review manually)"
+              warnings=$((warnings + 1))
+            fi
+
+            if [ $errors -eq 0 ] && [ $warnings -eq 0 ]; then
+              echo "  ✅ Clean"
+            fi
+          done
+
+          echo ""
+          echo "Security scan complete. Errors: $errors, Warnings: $warnings"
+
+          if [ $errors -gt 0 ]; then
+            echo "❌ Blocking issues found. See above."
+            exit 1
+          fi
+
+          if [ $warnings -gt 0 ]; then
+            echo "⚠️ Warnings found. Manual review recommended."
+          fi

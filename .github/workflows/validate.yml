@@ -1,0 +1,86 @@
+name: Validate Skills
+
+on:
+  pull_request:
+    paths:
+      - 'skills/**'
+  push:
+    branches: [main]
+    paths:
+      - 'skills/**'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate SKILL.md files
+        run: |
+          errors=0
+          changed_skills=""
+
+          # On PRs, only check changed files; on push, check all
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            changed_skills=$(git diff --name-only ${{ github.event.pull_request.base.sha }} HEAD -- 'skills/*/SKILL.md' || echo "")
+          else
+            changed_skills=$(find skills -name 'SKILL.md' -type f)
+          fi
+
+          if [ -z "$changed_skills" ]; then
+            echo "No SKILL.md files to validate"
+            exit 0
+          fi
+
+          for file in $changed_skills; do
+            echo "Checking $file..."
+
+            # Check file exists
+            if [ ! -f "$file" ]; then
+              echo "  ⚠️ File not found (may have been deleted)"
+              continue
+            fi
+
+            # Check frontmatter exists
+            if ! head -1 "$file" | grep -q '^---$'; then
+              echo "  ❌ Missing YAML frontmatter delimiter"
+              errors=$((errors + 1))
+              continue
+            fi
+
+            # Extract frontmatter
+            frontmatter=$(sed -n '/^---$/,/^---$/p' "$file" | sed '1d;$d')
+
+            # Check required fields
+            for field in name description category framework verification creator; do
+              if ! echo "$frontmatter" | grep -q "^${field}:"; then
+                echo "  ❌ Missing required field: $field"
+                errors=$((errors + 1))
+              fi
+            done
+
+            # Check rating range if present
+            rating=$(echo "$frontmatter" | grep '^rating:' | sed 's/rating: *//')
+            if [ -n "$rating" ]; then
+              if ! echo "$rating" | grep -qE '^[0-9]+\.?[0-9]*$'; then
+                echo "  ❌ Invalid rating format: $rating"
+                errors=$((errors + 1))
+              fi
+            fi
+
+            # Check markdown body has a heading
+            body=$(sed -n '/^---$/,/^---$/!p' "$file" | sed '1{/^$/d}')
+            if ! echo "$body" | grep -q '^# '; then
+              echo "  ❌ Missing H1 heading in body"
+              errors=$((errors + 1))
+            fi
+
+            echo "  ✅ Valid"
+          done
+
+          echo ""
+          echo "Validation complete. Errors: $errors"
+
+          if [ $errors -gt 0 ]; then
+            exit 1
+          fi

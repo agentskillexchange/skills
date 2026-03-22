@@ -1,0 +1,33 @@
+name: Report a Skill Issue
+description: Report a problem with a skill (incorrect content, broken install, security concern)
+title: "[Skill Report] "
+labels: ["skill-report"]
+body:
+  - type: input
+    id: skill-name
+    attributes:
+      label: Skill Name
+      description: Name or slug of the skill
+      placeholder: e.g., stripe-webhook-verifier
+    validations:
+      required: true
+  - type: dropdown
+    id: issue-type
+    attributes:
+      label: Issue Type
+      options:
+        - Incorrect or outdated content
+        - Broken install command
+        - Wrong category or framework
+        - Missing information
+        - Security concern (use SECURITY.md for urgent issues)
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What's wrong and how should it be fixed?
+    validations:
+      required: true
