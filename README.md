@@ -44,7 +44,7 @@ clawhub install <slug>
 
 |  | Agent Skill Exchange | anthropics/skills | sickn33/antigravity | obra/superpowers |
 |---|:---:|:---:|:---:|:---:|
-| **Total Skills** | **1,000+** | 17 | 1,306 | ~20 |
+| **Total Skills** | **1,100+** | 17 | 1,306 | ~20 |
 | **Community Ratings** | ✅ | ❌ | ❌ | ❌ |
 | **Verification Tiers** | ✅ 3-tier | ❌ | ❌ | ❌ |
 | **Multi-Framework** | ✅ 11 | Claude only | Claude only | Claude + Cursor |
@@ -107,7 +107,7 @@ Every skill goes through a transparent verification pipeline:
                            and malicious patterns. Safe for production use.
 ```
 
-All 1,000+ skills in this repo have reached **Verified Metadata** or higher. See [how we verify](https://agentskillexchange.com/how-we-verify/) for the full criteria.
+All 1,100+ skills in this repo have reached **Verified Metadata** or higher. See [how we verify](https://agentskillexchange.com/how-we-verify/) for the full criteria.
 
 ---
 
@@ -126,7 +126,7 @@ skills/
     SKILL.md
   api-rate-limiter/
     SKILL.md
-  ... 1,000+ skills
+  ... 1,100+ skills
 ```
 
 ---
