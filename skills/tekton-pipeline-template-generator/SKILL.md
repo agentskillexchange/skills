@@ -1,0 +1,66 @@
+---
+name: "Tekton Pipeline Template Generator"
+description: "Scaffolds Tekton Pipeline and Task CRDs using the Tekton Hub API for reusable task resolution. Leverages tkn CLI for local testing and integrates with Sigstore cosign for supply chain artifact signing and SLSA provenance attestation."
+category: "CI/CD Integrations"
+framework: "MCP-compatible"
+verification: "✅ Verified"
+rating: "4.7"
+reviews: "78"
+creator: "Sam Lee"
+creator_handle: "@samlee_dev"
+creator_verified: "true"
+source: "https://agentskillexchange.com/skill/tekton-pipeline-template-generator/"
+---
+
+# Tekton Pipeline Template Generator
+
+Scaffolds Tekton Pipeline and Task CRDs using the Tekton Hub API for reusable task resolution. Leverages tkn CLI for local testing and integrates with Sigstore cosign for supply chain artifact signing and SLSA provenance attestation.
+
+## Installation
+
+### Any Agent (npx)
+```bash
+npx @anthropic/agent-skills install tekton-pipeline-template-generator
+```
+
+### Claude Code
+```bash
+claude mcp add tekton-pipeline-template-generator
+```
+
+### Cursor
+Add to `.cursor/skills.json`:
+```json
+{
+  "skills": ["tekton-pipeline-template-generator"]
+}
+```
+
+### OpenClaw
+```bash
+clawhub install tekton-pipeline-template-generator
+```
+
+### Codex
+```bash
+codex install tekton-pipeline-template-generator
+```
+
+## Details
+
+| Field | Value |
+|-------|-------|
+| **Category** | CI/CD Integrations |
+| **Framework** | MCP-compatible |
+| **Verification** | ✅ Verified 🔒 Reviewed |
+| **Rating** | ⭐⭐⭐⭐ 4.7/5 (78 reviews) |
+
+## Creator
+
+**Sam Lee** ✅
+Handle: `@samlee_dev`
+[View Profile on ASE](https://agentskillexchange.com/skill/tekton-pipeline-template-generator/)
+
+---
+
+[View on Agent Skill Exchange](https://agentskillexchange.com/skill/tekton-pipeline-template-generator/) · [Browse All Skills](https://agentskillexchange.com/skills/)
