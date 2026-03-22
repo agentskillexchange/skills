@@ -1,45 +1,36 @@
-# Agent Skill Exchange — Skills Repository
+<div align="center">
 
-[![Skills](https://img.shields.io/badge/skills-1000+-6366f1)](https://agentskillexchange.com/browse-skills/)
-[![Verified](https://img.shields.io/badge/verified-1000+-10b981)](https://agentskillexchange.com/verified-skills/)
-[![npx skills](https://img.shields.io/badge/npx-skills-green)](https://www.npmjs.com/package/skills)
-[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+# Agent Skill Exchange
 
-**Curated, verified agent skills for every coding agent.** Updated hourly.
+### The largest open collection of verified AI agent skills
 
-Browse the full marketplace at **[agentskillexchange.com](https://agentskillexchange.com)**
+[![Skills](https://img.shields.io/badge/skills-1%2C000+-6366f1?style=for-the-badge)](https://agentskillexchange.com/browse-skills/)
+[![Verified](https://img.shields.io/badge/verified-1%2C000+-10b981?style=for-the-badge)](https://agentskillexchange.com/verified-skills/)
+[![Frameworks](https://img.shields.io/badge/frameworks-11-8b5cf6?style=for-the-badge)](https://agentskillexchange.com/browse-skills/)
+[![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)
+
+**[Browse Skills](https://agentskillexchange.com/browse-skills/) · [Categories](https://agentskillexchange.com/categories/) · [Rankings](https://agentskillexchange.com/rankings/) · [Verified Skills](https://agentskillexchange.com/verified-skills/) · [Create a Skill](https://agentskillexchange.com/create-skill/)**
+
+*Updated hourly · Community-rated · Multi-framework*
+
+</div>
+
+---
 
 ## Quick Start
 
 ```bash
-# Install any skill to your agent
+# Install any skill
 npx skills add agentskillexchange/skills --skill <slug>
 
-# List available skills
+# Browse available skills
 npx skills add agentskillexchange/skills --list
 
-# Install to a specific agent
+# Install for a specific agent
 npx skills add agentskillexchange/skills --skill <slug> -a claude-code
-
-# Install all skills
-npx skills add agentskillexchange/skills --all
+npx skills add agentskillexchange/skills --skill <slug> -a cursor
+npx skills add agentskillexchange/skills --skill <slug> -a codex
 ```
-
-## Supported Agents
-
-This repo works with **40+ agents** via [`npx skills`](https://github.com/vercel-labs/skills):
-
-| Agent | Command |
-|-------|---------|
-| Claude Code | `npx skills add agentskillexchange/skills -a claude-code` |
-| Cursor | `npx skills add agentskillexchange/skills -a cursor` |
-| Codex | `npx skills add agentskillexchange/skills -a codex` |
-| OpenClaw | `npx skills add agentskillexchange/skills -a openclaw` |
-| Gemini CLI | `npx skills add agentskillexchange/skills -a gemini-cli` |
-| Windsurf | `npx skills add agentskillexchange/skills -a windsurf` |
-| Roo Code | `npx skills add agentskillexchange/skills -a roo` |
-| ChatGPT | `npx skills add agentskillexchange/skills -a chatgpt` |
-| [See all 40+](https://github.com/vercel-labs/skills#available-agents) | `npx skills add agentskillexchange/skills` |
 
 ### OpenClaw Native
 
@@ -47,74 +38,127 @@ This repo works with **40+ agents** via [`npx skills`](https://github.com/vercel
 clawhub install <slug>
 ```
 
+---
+
+## Why This Repo?
+
+|  | Agent Skill Exchange | anthropics/skills | sickn33/antigravity | obra/superpowers |
+|---|:---:|:---:|:---:|:---:|
+| **Total Skills** | **1,000+** | 17 | 1,306 | ~20 |
+| **Community Ratings** | ✅ | ❌ | ❌ | ❌ |
+| **Verification Tiers** | ✅ 3-tier | ❌ | ❌ | ❌ |
+| **Multi-Framework** | ✅ 11 | Claude only | Claude only | Claude + Cursor |
+| **Live Marketplace** | ✅ | ❌ | ❌ | ❌ |
+| **Auto-Updated** | ✅ Hourly | Manual | Manual | Manual |
+| **Creator Profiles** | ✅ | ❌ | ❌ | ❌ |
+
+---
+
+## Categories
+
+| Category | Skills | Browse |
+|----------|-------:|--------|
+| 🔧 CI/CD Integrations | 193 | [Browse →](https://agentskillexchange.com/categories/?cat=ci-cd-integrations) |
+| 📋 Runbooks & Diagnostics | 157 | [Browse →](https://agentskillexchange.com/categories/?cat=runbooks-diagnostics) |
+| ✅ Code Quality & Review | 111 | [Browse →](https://agentskillexchange.com/categories/?cat=code-quality-review) |
+| 🛠️ Developer Tools | 102 | [Browse →](https://agentskillexchange.com/categories/?cat=developer-tools) |
+| 📚 Library & API Reference | 74 | [Browse →](https://agentskillexchange.com/categories/?cat=library-api-reference) |
+| 📄 Templates & Workflows | 56 | [Browse →](https://agentskillexchange.com/categories/?cat=templates-workflows) |
+| 🔄 Data Extraction & Transformation | 48 | [Browse →](https://agentskillexchange.com/categories/?cat=data-extraction-transformation) |
+| 🔒 Security & Verification | 45 | [Browse →](https://agentskillexchange.com/categories/?cat=security-verification) |
+| 📊 Monitoring & Alerts | 43 | [Browse →](https://agentskillexchange.com/categories/?cat=monitoring-alerts) |
+| 📅 Calendar, Email & Productivity | 41 | [Browse →](https://agentskillexchange.com/categories/?cat=calendar-email-productivity) |
+| 🔗 Integrations & Connectors | 41 | [Browse →](https://agentskillexchange.com/categories/?cat=integrations-connectors) |
+| ✍️ Content Writing & SEO | 19 | [Browse →](https://agentskillexchange.com/categories/?cat=content-writing-seo) |
+| 🎙️ Media & Transcription | 19 | [Browse →](https://agentskillexchange.com/categories/?cat=media-transcription) |
+| 🎨 Image & Creative Automation | 18 | [Browse →](https://agentskillexchange.com/categories/?cat=image-creative-automation) |
+| 🔍 Research & Scraping | 17 | [Browse →](https://agentskillexchange.com/categories/?cat=research-scraping) |
+| 🌐 Browser Automation | 16 | [Browse →](https://agentskillexchange.com/categories/?cat=browser-automation) |
+| 📰 WordPress & CMS | 16 | [Browse →](https://agentskillexchange.com/categories/?cat=wordpress-cms) |
+
+---
+
+## Supported Agents
+
+| Agent | Install Command |
+|-------|----------------|
+| **Any Agent** (npx skills) | `npx skills add agentskillexchange/skills --skill <slug>` |
+| **Claude Code** | `npx skills add agentskillexchange/skills --skill <slug> -a claude-code` |
+| **Cursor** | `npx skills add agentskillexchange/skills --skill <slug> -a cursor` |
+| **Codex** | `npx skills add agentskillexchange/skills --skill <slug> -a codex` |
+| **OpenClaw** | `clawhub install <slug>` |
+| **Gemini CLI** | `npx skills add agentskillexchange/skills --skill <slug> -a gemini-cli` |
+| **Windsurf** | `npx skills add agentskillexchange/skills --skill <slug> -a windsurf` |
+| **Roo Code** | `npx skills add agentskillexchange/skills --skill <slug> -a roo` |
+| [See all 40+](https://github.com/vercel-labs/skills#available-agents) | `npx skills add agentskillexchange/skills` |
+
+---
+
+## Verification
+
+Every skill goes through a transparent verification pipeline:
+
+```
+📝 Listed                  Base marketplace listing — published and indexed
+     ↓
+✅ Verified Metadata       Frontmatter, source links, and install instructions reviewed
+     ↓
+🛡️ Security Reviewed      Content scanned for prompt injection, data exfiltration,
+                           and malicious patterns. Safe for production use.
+```
+
+All 1,000+ skills in this repo have reached **Verified Metadata** or higher. See [how we verify](https://agentskillexchange.com/how-we-verify/) for the full criteria.
+
+---
+
 ## What's Inside
 
 Each skill directory contains a `SKILL.md` with:
 
-- **Frontmatter** — name, description, category, framework, creator, verification status, rating
-- **Overview** — what it does, key APIs/tools used
-- **Installation** — copy-paste commands for every agent
-- **Creator** — who built it, with verified badge where applicable
+- **YAML frontmatter** — name, description, category, framework, verification status, rating, creator
+- **Overview** — what the skill does, key APIs and tools used
+- **Install commands** — copy-paste for every supported agent
+- **Creator attribution** — who built it, with verified badge where applicable
 
-## Verification
+```
+skills/
+  a-b-test-analyzer/
+    SKILL.md
+  api-rate-limiter/
+    SKILL.md
+  ... 1,000+ skills
+```
 
-Every skill goes through our review process:
+---
 
-| Tier | Meaning |
-|------|---------|
-| 🟢 **Security Reviewed** | Read-only skills — code inspected, no write/send/exec risk |
-| 🔵 **Verified Metadata** | Write/create skills — metadata, source, and install instructions verified |
-| ⚪ **Listed** | Published with baseline marketplace structure |
+## Live Marketplace
 
-Learn more: [How We Verify Skills](https://agentskillexchange.com/how-we-verify-skills/)
+This repo syncs hourly with the live marketplace at **[agentskillexchange.com](https://agentskillexchange.com)**, where you can:
 
-## Categories
+- Search and filter skills by category, framework, and keyword
+- See community ratings and reviews
+- View creator profiles and verification badges
+- Install with one click
+- Submit your own skills
 
-Skills span 15+ categories:
-
-- Browser Automation
-- CI/CD Integrations
-- Code Quality & Review
-- Content Writing & SEO
-- Data Extraction & Transformation
-- Developer Tools
-- Image & Creative Automation
-- Integrations & Connectors
-- Library & API Reference
-- Media & Transcription
-- Monitoring & Alerts
-- Research & Scraping
-- Runbooks & Diagnostics
-- Security & Verification
-- Templates & Workflows
-- WordPress & CMS
-
-## Top Creators
-
-| Creator | Skills | Verified |
-|---------|--------|----------|
-| Priya Sharma | 33 | ✓ |
-| Alex Thompson | 27 | ✓ |
-| Yuki Tanaka | 27 | ✓ |
-| Elena Kowalski | 27 | ✓ |
-| Raj Gupta | 27 | ✓ |
-| Mia Zhang | 28 | ✓ |
-| Ava Wilson | 28 | ✓ |
-
-[See all creators →](https://agentskillexchange.com/browse-skills/)
+---
 
 ## Contributing
 
-1. Create a skill using the [Skill Creation Wizard](https://agentskillexchange.com/create-skill/)
-2. Submit a PR to this repo with your `skills/<your-skill>/SKILL.md`
-3. Skills go through verification before merge
+We welcome contributions. See [CONTRIBUTING.md](CONTRIBUTING.md) for the full guide, including:
 
-## Repo Stats
+- How to submit a skill (via [the website](https://agentskillexchange.com/create-skill/) or direct PR)
+- SKILL.md format specification
+- Quality and verification standards
+- Review process
 
-- **590+ skills** across 15+ categories
-- **25 creators** contributing skills
-- **Updated hourly** via automated sync from [agentskillexchange.com](https://agentskillexchange.com)
-- **Compatible with 40+ agents** via npx skills
+---
+
+## Security
+
+Found a skill with malicious content or a security concern? See [SECURITY.md](SECURITY.md) for how to report it responsibly.
+
+---
 
 ## License
 
@@ -122,4 +166,8 @@ MIT — see [LICENSE](LICENSE) for details.
 
 ---
 
-**[Browse All Skills →](https://agentskillexchange.com/browse-skills/)** · **[Verified Skills →](https://agentskillexchange.com/verified-skills/)** · **[Create a Skill →](https://agentskillexchange.com/create-skill/)**
+<div align="center">
+
+**[agentskillexchange.com](https://agentskillexchange.com)** — The marketplace for trusted AI agent skills
+
+</div>
