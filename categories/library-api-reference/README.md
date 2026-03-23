@@ -1,6 +1,6 @@
 # 📚 Library & API Reference
 
-> **102 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=library-api-reference)
+> **103 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=library-api-reference)
 
 SDK documentation, API guides, framework reference material, and library usage patterns.
 
@@ -111,6 +111,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [REST Mock Server](../../skills/rest-mock-server/) | ⭐ 4.1 | 0 | `clawhub install rest-mock-server` |
 | [Rust Crate Documentation Indexer](../../skills/rust-crate-documentation-indexer/) | ⭐ 4.1 | 0 | `clawhub install rust-crate-documentation-indexer` |
 | [OpenAPI Spec Navigator](../../skills/openapi-spec-navigator/) | ⭐ 4.0 | 0 | `clawhub install openapi-spec-navigator` |
+| [OpenTelemetry Trace Analyzer](../../skills/opentelemetry-trace-analyzer/) | ⭐ 4.0 | 0 | `clawhub install opentelemetry-trace-analyzer` |
 | [Python Dependency Graph Resolver](../../skills/python-dependency-graph-resolver/) | ⭐ 4.0 | 0 | `clawhub install python-dependency-graph-resolver` |
 
 ---

@@ -1,6 +1,6 @@
 # 📊 Monitoring & Alerts
 
-> **83 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=monitoring-alerts)
+> **88 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=monitoring-alerts)
 
 Metrics collection, alerting rules, observability setup, and system monitoring.
 
@@ -10,6 +10,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 
 | Skill | Rating | Reviews | Install |
 |-------|:------:|:-------:|---------|
+| [CloudWatch Intelligent Alarms](../../skills/cloudwatch-intelligent-alarms/) | ⭐ 4.9 | 0 | `clawhub install cloudwatch-intelligent-alarms` |
 | [CloudWatch Log Anomaly Detector](../../skills/cloudwatch-log-anomaly-detector/) | ⭐ 4.9 | 0 | `clawhub install cloudwatch-log-anomaly-detector` |
 | [Datadog Anomaly Detection Agent](../../skills/datadog-anomaly-detection-agent-2/) | ⭐ 4.9 | 0 | `clawhub install datadog-anomaly-detection-agent-2` |
 | [Grafana Alert Router](../../skills/grafana-alert-router/) | ⭐ 4.9 | 0 | `clawhub install grafana-alert-router` |
@@ -36,6 +37,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Prometheus AlertManager Router](../../skills/prometheus-alertmanager-router/) | ⭐ 4.8 | 0 | `clawhub install prometheus-alertmanager-router` |
 | [Prometheus AlertManager Rules Engine](../../skills/prometheus-alertmanager-rules-engine/) | ⭐ 4.8 | 0 | `clawhub install prometheus-alertmanager-rules-engine` |
 | [Prometheus Rule Evaluator](../../skills/prometheus-rule-evaluator/) | ⭐ 4.8 | 0 | `clawhub install prometheus-rule-evaluator` |
+| [Uptime Kuma Status Sync](../../skills/uptime-kuma-status-sync/) | ⭐ 4.8 | 0 | `clawhub install uptime-kuma-status-sync` |
 | [Datadog APM Trace Query Agent](../../skills/datadog-apm-trace-query-agent/) | ⭐ 4.7 | 0 | `clawhub install datadog-apm-trace-query-agent` |
 | [Datadog SLO Monitor](../../skills/datadog-slo-monitor/) | ⭐ 4.7 | 0 | `clawhub install datadog-slo-monitor` |
 | [Disk Space Emergency Runbook](../../skills/disk-space-emergency-runbook/) | ⭐ 4.7 | 0 | `clawhub install disk-space-emergency-runbook` |
@@ -52,14 +54,17 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Kubernetes Troubleshooting Runbook](../../skills/kubernetes-troubleshooting-runbook/) | ⭐ 4.6 | 0 | `clawhub install kubernetes-troubleshooting-runbook` |
 | [Prometheus Alert Router](../../skills/prometheus-alert-router/) | ⭐ 4.6 | 0 | `clawhub install prometheus-alert-router` |
 | [Prometheus AlertManager Rule Optimizer](../../skills/prometheus-alertmanager-rule-optimizer/) | ⭐ 4.6 | 0 | `clawhub install prometheus-alertmanager-rule-optimizer` |
+| [Sentry Error Intelligence](../../skills/sentry-error-intelligence/) | ⭐ 4.6 | 0 | `clawhub install sentry-error-intelligence` |
 | [Datadog Monitor Configuration Engine](../../skills/datadog-monitor-configuration-engine/) | ⭐ 4.5 | 0 | `clawhub install datadog-monitor-configuration-engine` |
 | [New Relic SLO Compliance Monitor](../../skills/new-relic-slo-compliance-monitor/) | ⭐ 4.5 | 0 | `clawhub install new-relic-slo-compliance-monitor` |
 | [AWS CloudWatch Composite Alarm Builder](../../skills/aws-cloudwatch-composite-alarm-builder/) | ⭐ 4.4 | 0 | `clawhub install aws-cloudwatch-composite-alarm-builder` |
+| [Datadog Anomaly Detector](../../skills/datadog-anomaly-detector/) | ⭐ 4.4 | 0 | `clawhub install datadog-anomaly-detector` |
 | [Datadog Monitor Blueprint Generator](../../skills/datadog-monitor-blueprint-generator/) | ⭐ 4.4 | 0 | `clawhub install datadog-monitor-blueprint-generator` |
 | [Grafana Dashboard Scaffolder](../../skills/grafana-dashboard-scaffolder/) | ⭐ 4.4 | 0 | `clawhub install grafana-dashboard-scaffolder` |
 | [Jaeger Trace Explorer](../../skills/jaeger-trace-explorer/) | ⭐ 4.4 | 0 | `clawhub install jaeger-trace-explorer` |
 | [PagerDuty MCP Server](../../skills/pagerduty-mcp-server/) | ⭐ 4.4 | 0 | `clawhub install pagerduty-mcp-server` |
 | [Prometheus / Grafana MCP Server](../../skills/prometheus-grafana-mcp-server/) | ⭐ 4.4 | 0 | `clawhub install prometheus-grafana-mcp-server` |
+| [Prometheus Alert Router](../../skills/prometheus-alert-router-2/) | ⭐ 4.4 | 0 | `clawhub install prometheus-alert-router-2` |
 | [Prometheus Alert Rule Builder](../../skills/prometheus-alert-rule-builder/) | ⭐ 4.4 | 0 | `clawhub install prometheus-alert-rule-builder` |
 | [Prometheus Alert Rule Synthesizer](../../skills/prometheus-alert-rule-synthesizer/) | ⭐ 4.4 | 0 | `clawhub install prometheus-alert-rule-synthesizer` |
 | [API Rate Limit Monitor](../../skills/api-rate-limit-monitor/) | ⭐ 4.3 | 0 | `clawhub install api-rate-limit-monitor` |

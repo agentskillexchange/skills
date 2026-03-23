@@ -1,6 +1,6 @@
 # 🔒 Security & Verification
 
-> **78 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=security-verification)
+> **84 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=security-verification)
 
 Auth setup, vulnerability scanning, compliance checks, and security automation.
 
@@ -31,18 +31,22 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [OAuth2 Flow Debugger](../../skills/oauth2-flow-debugger/) | ⭐ 4.8 | 0 | `clawhub install oauth2-flow-debugger` |
 | [Open Policy Agent (OPA)](../../skills/open-policy-agent-opa/) | ⭐ 4.8 | 0 | `clawhub install open-policy-agent-opa` |
 | [OpenClaw Security Suite (ClawSec)](../../skills/openclaw-security-suite-clawsec/) | ⭐ 4.8 | 0 | `clawhub install openclaw-security-suite-clawsec` |
+| [OWASP ZAP Scanner Agent](../../skills/owasp-zap-scanner-agent/) | ⭐ 4.8 | 0 | `clawhub install owasp-zap-scanner-agent` |
 | [Snyk Container Vulnerability Agent](../../skills/snyk-container-vulnerability-agent/) | ⭐ 4.8 | 0 | `clawhub install snyk-container-vulnerability-agent` |
 | [Terrascan Policy Scanner](../../skills/terrascan-policy-scanner/) | ⭐ 4.8 | 0 | `clawhub install terrascan-policy-scanner` |
 | [KICS IaC Linter](../../skills/kics-iac-linter/) | ⭐ 4.7 | 0 | `clawhub install kics-iac-linter` |
 | [OWASP ZAP API Fuzzer](../../skills/owasp-zap-api-fuzzer/) | ⭐ 4.7 | 0 | `clawhub install owasp-zap-api-fuzzer` |
+| [Sigstore Cosign Verifier](../../skills/sigstore-cosign-verifier-2/) | ⭐ 4.7 | 0 | `clawhub install sigstore-cosign-verifier-2` |
 | [Snyk Container Image Analyzer](../../skills/snyk-container-image-analyzer/) | ⭐ 4.7 | 0 | `clawhub install snyk-container-image-analyzer` |
 | [Snyk Open Source Dependency Auditor](../../skills/snyk-open-source-dependency-auditor/) | ⭐ 4.7 | 0 | `clawhub install snyk-open-source-dependency-auditor` |
 | [SSL/TLS Certificate Validator and Monitor](../../skills/ssl-tls-certificate-validator-monitor/) | ⭐ 4.7 | 0 | `clawhub install ssl-tls-certificate-validator-monitor` |
+| [Trivy Container Scanner](../../skills/trivy-container-scanner-2/) | ⭐ 4.7 | 0 | `clawhub install trivy-container-scanner-2` |
 | [Vault Secrets Rotation Orchestrator](../../skills/vault-secrets-rotation-orchestrator/) | ⭐ 4.7 | 0 | `clawhub install vault-secrets-rotation-orchestrator` |
 | [Falco Runtime Security](../../skills/falco-runtime-security/) | ⭐ 4.6 | 0 | `clawhub install falco-runtime-security` |
 | [GPG Encryption and Key Management Agent](../../skills/gpg-encryption-key-management-agent/) | ⭐ 4.6 | 0 | `clawhub install gpg-encryption-key-management-agent` |
 | [Grype Vulnerability Scanner](../../skills/grype-vulnerability-scanner/) | ⭐ 4.6 | 0 | `clawhub install grype-vulnerability-scanner` |
 | [Healthcheck Security Hardening](../../skills/healthcheck-security-hardening/) | ⭐ 4.6 | 0 | `clawhub install healthcheck-security-hardening` |
+| [NPM Audit Deep Scanner](../../skills/npm-audit-deep-scanner/) | ⭐ 4.6 | 0 | `clawhub install npm-audit-deep-scanner` |
 | [Trivy Container Image Vulnerability Scanner](../../skills/trivy-container-image-vulnerability-scanner/) | ⭐ 4.6 | 0 | `clawhub install trivy-container-image-vulnerability-scanner` |
 | [Trivy Container Scanner](../../skills/trivy-container-scanner/) | ⭐ 4.6 | 0 | `clawhub install trivy-container-scanner` |
 | [TruffleHog Secret Scanner](../../skills/trufflehog-secret-scanner/) | ⭐ 4.6 | 0 | `clawhub install trufflehog-secret-scanner` |
@@ -76,7 +80,9 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [OAuth2 Token Introspection Agent](../../skills/oauth2-token-introspection-agent/) | ⭐ 4.2 | 0 | `clawhub install oauth2-token-introspection-agent` |
 | [OWASP ZAP Automated Scan Orchestrator](../../skills/owasp-zap-automated-scan-orchestrator/) | ⭐ 4.2 | 0 | `clawhub install owasp-zap-automated-scan-orchestrator` |
 | [SBOM Generator and CVE Matcher](../../skills/sbom-generator-cve-matcher/) | ⭐ 4.2 | 0 | `clawhub install sbom-generator-cve-matcher` |
+| [Snyk Dependency Audit Skill](../../skills/snyk-dependency-audit-skill/) | ⭐ 4.2 | 0 | `clawhub install snyk-dependency-audit-skill` |
 | [Trivy Container Security Scanner](../../skills/trivy-container-security-scanner/) | ⭐ 4.2 | 0 | `clawhub install trivy-container-security-scanner` |
+| [Vault Secrets Rotator](../../skills/vault-secrets-rotator/) | ⭐ 4.2 | 0 | `clawhub install vault-secrets-rotator` |
 | [Checkov Infrastructure Policy Scanner](../../skills/checkov-infrastructure-policy-scanner/) | ⭐ 4.1 | 0 | `clawhub install checkov-infrastructure-policy-scanner` |
 | [Dependency Vulnerability &#038; License Auditor](../../skills/dependency-vulnerability-license-auditor/) | ⭐ 4.1 | 0 | `clawhub install dependency-vulnerability-license-auditor` |
 | [HashiCorp Vault Secrets Rotation Agent](../../skills/hashicorp-vault-secrets-rotation-agent/) | ⭐ 4.1 | 0 | `clawhub install hashicorp-vault-secrets-rotation-agent` |
