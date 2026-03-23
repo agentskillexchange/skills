@@ -1,6 +1,6 @@
 # 🔄 Data Extraction & Transformation
 
-> **75 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=data-extraction-transformation)
+> **79 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=data-extraction-transformation)
 
 Parsing, ETL pipelines, format conversion, data wrangling, and transformation utilities.
 
@@ -27,9 +27,11 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Apache Tika Content Extraction Hub](../../skills/apache-tika-content-extraction-hub/) | ⭐ 4.8 | 0 | `clawhub install apache-tika-content-extraction-hub` |
 | [BigQuery Cost &#038; Query Performance Auditor](../../skills/bigquery-cost-query-performance-auditor-2/) | ⭐ 4.8 | 0 | `clawhub install bigquery-cost-query-performance-auditor-2` |
 | [dbt Cloud MCP](../../skills/dbt-cloud-mcp/) | ⭐ 4.8 | 0 | `clawhub install dbt-cloud-mcp` |
+| [dbt Model Dependency Analyzer](../../skills/dbt-model-dependency-analyzer/) | ⭐ 4.8 | 0 | `clawhub install dbt-model-dependency-analyzer` |
 | [dbt Model Lineage &#038; Test Coverage Checker](../../skills/dbt-model-lineage-test-coverage-2/) | ⭐ 4.8 | 0 | `clawhub install dbt-model-lineage-test-coverage-2` |
 | [GCP BigQuery MCP Server](../../skills/gcp-bigquery-mcp-server/) | ⭐ 4.8 | 0 | `clawhub install gcp-bigquery-mcp-server` |
 | [Mixpanel MCP Server](../../skills/mixpanel-mcp-server/) | ⭐ 4.8 | 0 | `clawhub install mixpanel-mcp-server` |
+| [Pandas DataFrame Pipeline Builder](../../skills/pandas-dataframe-pipeline-builder/) | ⭐ 4.8 | 0 | `clawhub install pandas-dataframe-pipeline-builder` |
 | [Pandas DataFrame Schema Validator](../../skills/pandas-dataframe-schema-validator/) | ⭐ 4.8 | 0 | `clawhub install pandas-dataframe-schema-validator` |
 | [Pandas Profiling Report Generator](../../skills/pandas-profiling-report-generator/) | ⭐ 4.8 | 0 | `clawhub install pandas-profiling-report-generator` |
 | [Snowflake Query Profiler](../../skills/snowflake-query-profiler/) | ⭐ 4.8 | 0 | `clawhub install snowflake-query-profiler` |
@@ -56,6 +58,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Weights &#038; Biases Run Monitor](../../skills/wandb-run-monitor/) | ⭐ 4.5 | 0 | `clawhub install wandb-run-monitor` |
 | [Airbyte Connector Config Generator](../../skills/airbyte-connector-config-generator/) | ⭐ 4.4 | 0 | `clawhub install airbyte-connector-config-generator` |
 | [Amplitude MCP Server](../../skills/amplitude-mcp-server/) | ⭐ 4.4 | 0 | `clawhub install amplitude-mcp-server` |
+| [Apache Kafka Stream Transformer](../../skills/apache-kafka-stream-transformer/) | ⭐ 4.4 | 0 | `clawhub install apache-kafka-stream-transformer` |
 | [Databricks MCP](../../skills/databricks-mcp/) | ⭐ 4.4 | 0 | `clawhub install databricks-mcp` |
 | [Looker Tableau Data Extractor](../../skills/looker-tableau-data-extractor/) | ⭐ 4.4 | 0 | `clawhub install looker-tableau-data-extractor` |
 | [Metabase Dashboard Snapshot &#038; Alerting](../../skills/metabase-dashboard-snapshot-alerting/) | ⭐ 4.4 | 0 | `clawhub install metabase-dashboard-snapshot-alerting` |
@@ -70,6 +73,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Apache Spark Job Manager](../../skills/apache-spark-job-manager/) | ⭐ 4.2 | 0 | `clawhub install apache-spark-job-manager` |
 | [BigQuery Cost &#038; Query Performance Auditor](../../skills/bigquery-cost-query-performance-auditor/) | ⭐ 4.2 | 0 | `clawhub install bigquery-cost-query-performance-auditor` |
 | [Camelot PDF Stream Parser](../../skills/camelot-pdf-stream-parser/) | ⭐ 4.2 | 0 | `clawhub install camelot-pdf-stream-parser` |
+| [GraphQL Data Federation Agent](../../skills/graphql-data-federation-agent/) | ⭐ 4.2 | 0 | `clawhub install graphql-data-federation-agent` |
 | [MLflow Experiment Tracker](../../skills/mlflow-experiment-tracker/) | ⭐ 4.2 | 0 | `clawhub install mlflow-experiment-tracker` |
 | [PDF Table Extraction with Camelot](../../skills/pdf-table-extraction-camelot/) | ⭐ 4.2 | 0 | `clawhub install pdf-table-extraction-camelot` |
 | [Pinecone MCP Server](../../skills/pinecone-mcp-server/) | ⭐ 4.2 | 0 | `clawhub install pinecone-mcp-server` |

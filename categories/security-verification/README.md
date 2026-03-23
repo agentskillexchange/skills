@@ -1,6 +1,6 @@
 # 🔒 Security & Verification
 
-> **71 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=security-verification)
+> **75 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=security-verification)
 
 Auth setup, vulnerability scanning, compliance checks, and security automation.
 
@@ -18,6 +18,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [OWASP ZAP API Security Tester](../../skills/owasp-zap-api-security-tester/) | ⭐ 4.9 | 0 | `clawhub install owasp-zap-api-security-tester` |
 | [OWASP ZAP Automated Pen Testing Agent](../../skills/owasp-zap-automated-pen-testing-agent/) | ⭐ 4.9 | 0 | `clawhub install owasp-zap-automated-pen-testing-agent` |
 | [SAST Pipeline Scanner](../../skills/sast-pipeline-scanner/) | ⭐ 4.9 | 0 | `clawhub install sast-pipeline-scanner` |
+| [SSL Certificate Chain Validator](../../skills/ssl-certificate-chain-validator-2/) | ⭐ 4.9 | 0 | `clawhub install ssl-certificate-chain-validator-2` |
 | [SSL Certificate Manager Skill](../../skills/ssl-certificate-manager-skill/) | ⭐ 4.9 | 0 | `clawhub install ssl-certificate-manager-skill` |
 | [ZAP Automated Security Scan Orchestrator](../../skills/zap-automated-security-scan-orchestrator/) | ⭐ 4.9 | 0 | `clawhub install zap-automated-security-scan-orchestrator` |
 | [Container Image Vulnerability Scanner](../../skills/container-image-vulnerability-scanner/) | ⭐ 4.8 | 0 | `clawhub install container-image-vulnerability-scanner` |
@@ -55,6 +56,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [OWASP ZAP API Security Scanner](../../skills/owasp-zap-api-security-scanner/) | ⭐ 4.4 | 0 | `clawhub install owasp-zap-api-security-scanner` |
 | [OWASP ZAP Scan Orchestrator](../../skills/owasp-zap-scan-orchestrator/) | ⭐ 4.4 | 0 | `clawhub install owasp-zap-scan-orchestrator` |
 | [OWASP ZAP Security Audit Skill](../../skills/owasp-zap-security-audit-skill/) | ⭐ 4.4 | 0 | `clawhub install owasp-zap-security-audit-skill` |
+| [SBOM Vulnerability Scanner](../../skills/sbom-vulnerability-scanner/) | ⭐ 4.4 | 0 | `clawhub install sbom-vulnerability-scanner` |
 | [Secrets Scanner for Git Repositories](../../skills/secrets-scanner-git-repositories-2/) | ⭐ 4.4 | 0 | `clawhub install secrets-scanner-git-repositories-2` |
 | [TLS Certificate Chain Validator](../../skills/tls-certificate-chain-validator/) | ⭐ 4.4 | 0 | `clawhub install tls-certificate-chain-validator` |
 | [Trivy Vulnerability Scanner Pipeline](../../skills/trivy-vulnerability-scanner-pipeline/) | ⭐ 4.4 | 0 | `clawhub install trivy-vulnerability-scanner-pipeline` |
@@ -68,6 +70,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Git Secret Scanner with Gitleaks](../../skills/git-secret-scanner-gitleaks/) | ⭐ 4.2 | 0 | `clawhub install git-secret-scanner-gitleaks` |
 | [HashiCorp Vault MCP Server](../../skills/hashicorp-vault-mcp-server/) | ⭐ 4.2 | 0 | `clawhub install hashicorp-vault-mcp-server` |
 | [HashiCorp Vault Secrets Rotation Agent](../../skills/hashicorp-vault-secrets-rotation-agent-2/) | ⭐ 4.2 | 0 | `clawhub install hashicorp-vault-secrets-rotation-agent-2` |
+| [OAuth2 Token Introspection Agent](../../skills/oauth2-token-introspection-agent/) | ⭐ 4.2 | 0 | `clawhub install oauth2-token-introspection-agent` |
 | [OWASP ZAP Automated Scan Orchestrator](../../skills/owasp-zap-automated-scan-orchestrator/) | ⭐ 4.2 | 0 | `clawhub install owasp-zap-automated-scan-orchestrator` |
 | [SBOM Generator and CVE Matcher](../../skills/sbom-generator-cve-matcher/) | ⭐ 4.2 | 0 | `clawhub install sbom-generator-cve-matcher` |
 | [Trivy Container Security Scanner](../../skills/trivy-container-security-scanner/) | ⭐ 4.2 | 0 | `clawhub install trivy-container-security-scanner` |
@@ -80,6 +83,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Snyk Dependency Vulnerability Auditor](../../skills/snyk-dependency-vulnerability-auditor/) | ⭐ 4.1 | 0 | `clawhub install snyk-dependency-vulnerability-auditor` |
 | [AWS IAM Privilege Escalation Audit](../../skills/aws-iam-privilege-escalation-audit-2/) | ⭐ 4.0 | 0 | `clawhub install aws-iam-privilege-escalation-audit-2` |
 | [Checkov IaC Scanner](../../skills/checkov-iac-scanner/) | ⭐ 4.0 | 0 | `clawhub install checkov-iac-scanner` |
+| [Container Runtime Security Monitor](../../skills/container-runtime-security-monitor/) | ⭐ 4.0 | 0 | `clawhub install container-runtime-security-monitor` |
 | [Stripe Webhook Signature Verifier](../../skills/stripe-webhook-signature-verifier/) | ⭐ 4.0 | 0 | `clawhub install stripe-webhook-signature-verifier` |
 
 ---

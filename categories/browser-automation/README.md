@@ -1,6 +1,6 @@
 # 🌐 Browser Automation
 
-> **39 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=browser-automation)
+> **43 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=browser-automation)
 
 Web scraping, UI testing, headless browser control, and browser-based automation.
 
@@ -20,6 +20,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Puppeteer Cookie Consent Handler](../../skills/puppeteer-cookie-consent-handler-2/) | ⭐ 4.9 | 0 | `clawhub install puppeteer-cookie-consent-handler-2` |
 | [Puppeteer Visual Regression Tester](../../skills/puppeteer-visual-regression-tester/) | ⭐ 4.9 | 0 | `clawhub install puppeteer-visual-regression-tester` |
 | [Puppeteer Web Scraping Pipeline](../../skills/puppeteer-web-scraping-pipeline/) | ⭐ 4.9 | 0 | `clawhub install puppeteer-web-scraping-pipeline` |
+| [Puppeteer Web Scraping Pipeline](../../skills/puppeteer-web-scraping-pipeline-3/) | ⭐ 4.9 | 0 | `clawhub install puppeteer-web-scraping-pipeline-3` |
 | [Selenium Grid Multi-Browser Test Runner](../../skills/selenium-grid-multi-browser-test-runner/) | ⭐ 4.9 | 0 | `clawhub install selenium-grid-multi-browser-test-runner` |
 | [Selenium Grid Session Manager](../../skills/selenium-grid-session-manager/) | ⭐ 4.9 | 0 | `clawhub install selenium-grid-session-manager` |
 | [Selenium Grid Parallel Execution Manager](../../skills/selenium-grid-parallel-execution-manager/) | ⭐ 4.8 | 0 | `clawhub install selenium-grid-parallel-execution-manager` |
@@ -27,10 +28,13 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Browser MCP](../../skills/browser-mcp/) | ⭐ 4.7 | 0 | `clawhub install browser-mcp` |
 | [Browserbase MCP for Cloud Browser Control](../../skills/browserbase-mcp-cloud-browser-control/) | ⭐ 4.7 | 0 | `clawhub install browserbase-mcp-cloud-browser-control` |
 | [Cypress E2E API Intercept Skill](../../skills/cypress-e2e-api-intercept-skill/) | ⭐ 4.7 | 0 | `clawhub install cypress-e2e-api-intercept-skill` |
+| [Cypress E2E Test Generator](../../skills/cypress-e2e-test-generator-3/) | ⭐ 4.7 | 0 | `clawhub install cypress-e2e-test-generator-3` |
 | [Playwright Session Recorder](../../skills/playwright-session-recorder/) | ⭐ 4.7 | 0 | `clawhub install playwright-session-recorder` |
 | [Playwright Session Recorder](../../skills/playwright-session-recorder-2/) | ⭐ 4.7 | 0 | `clawhub install playwright-session-recorder-2` |
 | [Playwright Visual Regression Suite](../../skills/playwright-visual-regression-suite/) | ⭐ 4.7 | 0 | `clawhub install playwright-visual-regression-suite` |
+| [Selenium Grid Test Orchestrator](../../skills/selenium-grid-test-orchestrator-2/) | ⭐ 4.7 | 0 | `clawhub install selenium-grid-test-orchestrator-2` |
 | [Playwright Multi-Browser Test Generator](../../skills/playwright-multi-browser-test-generator/) | ⭐ 4.6 | 0 | `clawhub install playwright-multi-browser-test-generator` |
+| [Playwright Visual Regression Tester](../../skills/playwright-visual-regression-tester-2/) | ⭐ 4.6 | 0 | `clawhub install playwright-visual-regression-tester-2` |
 | [Selenium Grid Cloud Executor](../../skills/selenium-grid-cloud-executor/) | ⭐ 4.6 | 0 | `clawhub install selenium-grid-cloud-executor` |
 | [Selenium Grid Parallel Executor](../../skills/selenium-grid-parallel-executor/) | ⭐ 4.6 | 0 | `clawhub install selenium-grid-parallel-executor` |
 | [Playwright PDF Export Automation](../../skills/playwright-pdf-export-automation/) | ⭐ 4.5 | 0 | `clawhub install playwright-pdf-export-automation` |

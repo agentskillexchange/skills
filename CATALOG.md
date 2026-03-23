@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1352 skills** across **17 categories** · Updated 2026-03-23 11:01 UTC
+> **1364 skills** across **17 categories** · Updated 2026-03-23 12:03 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -10,7 +10,7 @@
 
 | Metric | Value |
 |--------|-------|
-| Total Skills | **1352** |
+| Total Skills | **1364** |
 | Categories | **17** |
 | Frameworks | **11** |
 | Verification | All skills **Verified Metadata** or higher |
@@ -879,7 +879,7 @@
 | [Metrics Dashboard Builder](skills/metrics-dashboard-builder/) | ⭐ 4.0 | 0 | `clawhub install metrics-dashboard-builder` |
 | [Service Degradation Runbook](skills/service-degradation-runbook/) | ⭐ 4.0 | 0 | `clawhub install service-degradation-runbook` |
 
-### 🔄 Data Extraction & Transformation (75 skills)
+### 🔄 Data Extraction & Transformation (79 skills)
 
 | Skill | Rating | Reviews | Install |
 |-------|:------:|:-------:|---------|
@@ -900,9 +900,11 @@
 | [Apache Tika Content Extraction Hub](skills/apache-tika-content-extraction-hub/) | ⭐ 4.8 | 0 | `clawhub install apache-tika-content-extraction-hub` |
 | [BigQuery Cost &#038; Query Performance Auditor](skills/bigquery-cost-query-performance-auditor-2/) | ⭐ 4.8 | 0 | `clawhub install bigquery-cost-query-performance-auditor-2` |
 | [dbt Cloud MCP](skills/dbt-cloud-mcp/) | ⭐ 4.8 | 0 | `clawhub install dbt-cloud-mcp` |
+| [dbt Model Dependency Analyzer](skills/dbt-model-dependency-analyzer/) | ⭐ 4.8 | 0 | `clawhub install dbt-model-dependency-analyzer` |
 | [dbt Model Lineage &#038; Test Coverage Checker](skills/dbt-model-lineage-test-coverage-2/) | ⭐ 4.8 | 0 | `clawhub install dbt-model-lineage-test-coverage-2` |
 | [GCP BigQuery MCP Server](skills/gcp-bigquery-mcp-server/) | ⭐ 4.8 | 0 | `clawhub install gcp-bigquery-mcp-server` |
 | [Mixpanel MCP Server](skills/mixpanel-mcp-server/) | ⭐ 4.8 | 0 | `clawhub install mixpanel-mcp-server` |
+| [Pandas DataFrame Pipeline Builder](skills/pandas-dataframe-pipeline-builder/) | ⭐ 4.8 | 0 | `clawhub install pandas-dataframe-pipeline-builder` |
 | [Pandas DataFrame Schema Validator](skills/pandas-dataframe-schema-validator/) | ⭐ 4.8 | 0 | `clawhub install pandas-dataframe-schema-validator` |
 | [Pandas Profiling Report Generator](skills/pandas-profiling-report-generator/) | ⭐ 4.8 | 0 | `clawhub install pandas-profiling-report-generator` |
 | [Snowflake Query Profiler](skills/snowflake-query-profiler/) | ⭐ 4.8 | 0 | `clawhub install snowflake-query-profiler` |
@@ -929,6 +931,7 @@
 | [Weights &#038; Biases Run Monitor](skills/wandb-run-monitor/) | ⭐ 4.5 | 0 | `clawhub install wandb-run-monitor` |
 | [Airbyte Connector Config Generator](skills/airbyte-connector-config-generator/) | ⭐ 4.4 | 0 | `clawhub install airbyte-connector-config-generator` |
 | [Amplitude MCP Server](skills/amplitude-mcp-server/) | ⭐ 4.4 | 0 | `clawhub install amplitude-mcp-server` |
+| [Apache Kafka Stream Transformer](skills/apache-kafka-stream-transformer/) | ⭐ 4.4 | 0 | `clawhub install apache-kafka-stream-transformer` |
 | [Databricks MCP](skills/databricks-mcp/) | ⭐ 4.4 | 0 | `clawhub install databricks-mcp` |
 | [Looker Tableau Data Extractor](skills/looker-tableau-data-extractor/) | ⭐ 4.4 | 0 | `clawhub install looker-tableau-data-extractor` |
 | [Metabase Dashboard Snapshot &#038; Alerting](skills/metabase-dashboard-snapshot-alerting/) | ⭐ 4.4 | 0 | `clawhub install metabase-dashboard-snapshot-alerting` |
@@ -943,6 +946,7 @@
 | [Apache Spark Job Manager](skills/apache-spark-job-manager/) | ⭐ 4.2 | 0 | `clawhub install apache-spark-job-manager` |
 | [BigQuery Cost &#038; Query Performance Auditor](skills/bigquery-cost-query-performance-auditor/) | ⭐ 4.2 | 0 | `clawhub install bigquery-cost-query-performance-auditor` |
 | [Camelot PDF Stream Parser](skills/camelot-pdf-stream-parser/) | ⭐ 4.2 | 0 | `clawhub install camelot-pdf-stream-parser` |
+| [GraphQL Data Federation Agent](skills/graphql-data-federation-agent/) | ⭐ 4.2 | 0 | `clawhub install graphql-data-federation-agent` |
 | [MLflow Experiment Tracker](skills/mlflow-experiment-tracker/) | ⭐ 4.2 | 0 | `clawhub install mlflow-experiment-tracker` |
 | [PDF Table Extraction with Camelot](skills/pdf-table-extraction-camelot/) | ⭐ 4.2 | 0 | `clawhub install pdf-table-extraction-camelot` |
 | [Pinecone MCP Server](skills/pinecone-mcp-server/) | ⭐ 4.2 | 0 | `clawhub install pinecone-mcp-server` |
@@ -959,7 +963,7 @@
 | [Nano PDF Editor](skills/nano-pdf-editor/) | ⭐ 4.0 | 0 | `clawhub install nano-pdf-editor` |
 | [Weaviate MCP Server](skills/weaviate-mcp-server/) | ⭐ 4.0 | 0 | `clawhub install weaviate-mcp-server` |
 
-### 🔒 Security & Verification (71 skills)
+### 🔒 Security & Verification (75 skills)
 
 | Skill | Rating | Reviews | Install |
 |-------|:------:|:-------:|---------|
@@ -971,6 +975,7 @@
 | [OWASP ZAP API Security Tester](skills/owasp-zap-api-security-tester/) | ⭐ 4.9 | 0 | `clawhub install owasp-zap-api-security-tester` |
 | [OWASP ZAP Automated Pen Testing Agent](skills/owasp-zap-automated-pen-testing-agent/) | ⭐ 4.9 | 0 | `clawhub install owasp-zap-automated-pen-testing-agent` |
 | [SAST Pipeline Scanner](skills/sast-pipeline-scanner/) | ⭐ 4.9 | 0 | `clawhub install sast-pipeline-scanner` |
+| [SSL Certificate Chain Validator](skills/ssl-certificate-chain-validator-2/) | ⭐ 4.9 | 0 | `clawhub install ssl-certificate-chain-validator-2` |
 | [SSL Certificate Manager Skill](skills/ssl-certificate-manager-skill/) | ⭐ 4.9 | 0 | `clawhub install ssl-certificate-manager-skill` |
 | [ZAP Automated Security Scan Orchestrator](skills/zap-automated-security-scan-orchestrator/) | ⭐ 4.9 | 0 | `clawhub install zap-automated-security-scan-orchestrator` |
 | [Container Image Vulnerability Scanner](skills/container-image-vulnerability-scanner/) | ⭐ 4.8 | 0 | `clawhub install container-image-vulnerability-scanner` |
@@ -1008,6 +1013,7 @@
 | [OWASP ZAP API Security Scanner](skills/owasp-zap-api-security-scanner/) | ⭐ 4.4 | 0 | `clawhub install owasp-zap-api-security-scanner` |
 | [OWASP ZAP Scan Orchestrator](skills/owasp-zap-scan-orchestrator/) | ⭐ 4.4 | 0 | `clawhub install owasp-zap-scan-orchestrator` |
 | [OWASP ZAP Security Audit Skill](skills/owasp-zap-security-audit-skill/) | ⭐ 4.4 | 0 | `clawhub install owasp-zap-security-audit-skill` |
+| [SBOM Vulnerability Scanner](skills/sbom-vulnerability-scanner/) | ⭐ 4.4 | 0 | `clawhub install sbom-vulnerability-scanner` |
 | [Secrets Scanner for Git Repositories](skills/secrets-scanner-git-repositories-2/) | ⭐ 4.4 | 0 | `clawhub install secrets-scanner-git-repositories-2` |
 | [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | ⭐ 4.4 | 0 | `clawhub install tls-certificate-chain-validator` |
 | [Trivy Vulnerability Scanner Pipeline](skills/trivy-vulnerability-scanner-pipeline/) | ⭐ 4.4 | 0 | `clawhub install trivy-vulnerability-scanner-pipeline` |
@@ -1021,6 +1027,7 @@
 | [Git Secret Scanner with Gitleaks](skills/git-secret-scanner-gitleaks/) | ⭐ 4.2 | 0 | `clawhub install git-secret-scanner-gitleaks` |
 | [HashiCorp Vault MCP Server](skills/hashicorp-vault-mcp-server/) | ⭐ 4.2 | 0 | `clawhub install hashicorp-vault-mcp-server` |
 | [HashiCorp Vault Secrets Rotation Agent](skills/hashicorp-vault-secrets-rotation-agent-2/) | ⭐ 4.2 | 0 | `clawhub install hashicorp-vault-secrets-rotation-agent-2` |
+| [OAuth2 Token Introspection Agent](skills/oauth2-token-introspection-agent/) | ⭐ 4.2 | 0 | `clawhub install oauth2-token-introspection-agent` |
 | [OWASP ZAP Automated Scan Orchestrator](skills/owasp-zap-automated-scan-orchestrator/) | ⭐ 4.2 | 0 | `clawhub install owasp-zap-automated-scan-orchestrator` |
 | [SBOM Generator and CVE Matcher](skills/sbom-generator-cve-matcher/) | ⭐ 4.2 | 0 | `clawhub install sbom-generator-cve-matcher` |
 | [Trivy Container Security Scanner](skills/trivy-container-security-scanner/) | ⭐ 4.2 | 0 | `clawhub install trivy-container-security-scanner` |
@@ -1033,6 +1040,7 @@
 | [Snyk Dependency Vulnerability Auditor](skills/snyk-dependency-vulnerability-auditor/) | ⭐ 4.1 | 0 | `clawhub install snyk-dependency-vulnerability-auditor` |
 | [AWS IAM Privilege Escalation Audit](skills/aws-iam-privilege-escalation-audit-2/) | ⭐ 4.0 | 0 | `clawhub install aws-iam-privilege-escalation-audit-2` |
 | [Checkov IaC Scanner](skills/checkov-iac-scanner/) | ⭐ 4.0 | 0 | `clawhub install checkov-iac-scanner` |
+| [Container Runtime Security Monitor](skills/container-runtime-security-monitor/) | ⭐ 4.0 | 0 | `clawhub install container-runtime-security-monitor` |
 | [Stripe Webhook Signature Verifier](skills/stripe-webhook-signature-verifier/) | ⭐ 4.0 | 0 | `clawhub install stripe-webhook-signature-verifier` |
 
 ### 📄 Templates & Workflows (69 skills)
@@ -1225,6 +1233,54 @@
 | [Salesforce MCP Server](skills/salesforce-mcp-server/) | ⭐ 4.1 | 0 | `clawhub install salesforce-mcp-server` |
 | [Linear Issue Triage &#038; Sprint Planner](skills/linear-issue-triage-sprint-planner/) | ⭐ 4.0 | 0 | `clawhub install linear-issue-triage-sprint-planner` |
 
+### 🌐 Browser Automation (43 skills)
+
+| Skill | Rating | Reviews | Install |
+|-------|:------:|:-------:|---------|
+| [Cypress Component Test Generator](skills/cypress-component-test-generator/) | ⭐ 4.9 | 0 | `clawhub install cypress-component-test-generator` |
+| [Cypress Visual Regression Runner](skills/cypress-visual-regression-runner/) | ⭐ 4.9 | 0 | `clawhub install cypress-visual-regression-runner` |
+| [Playwright Multi-Browser Test Suite](skills/playwright-multi-browser-test-suite/) | ⭐ 4.9 | 0 | `clawhub install playwright-multi-browser-test-suite` |
+| [Playwright Multi-Tab Session Manager](skills/playwright-multi-tab-session-manager/) | ⭐ 4.9 | 0 | `clawhub install playwright-multi-tab-session-manager` |
+| [Playwright Visual Regression Tester](skills/playwright-visual-regression-tester/) | ⭐ 4.9 | 0 | `clawhub install playwright-visual-regression-tester` |
+| [Puppeteer Cookie Consent Automator](skills/puppeteer-cookie-consent-automator/) | ⭐ 4.9 | 0 | `clawhub install puppeteer-cookie-consent-automator` |
+| [Puppeteer Cookie Consent Handler](skills/puppeteer-cookie-consent-handler/) | ⭐ 4.9 | 0 | `clawhub install puppeteer-cookie-consent-handler` |
+| [Puppeteer Cookie Consent Handler](skills/puppeteer-cookie-consent-handler-2/) | ⭐ 4.9 | 0 | `clawhub install puppeteer-cookie-consent-handler-2` |
+| [Puppeteer Visual Regression Tester](skills/puppeteer-visual-regression-tester/) | ⭐ 4.9 | 0 | `clawhub install puppeteer-visual-regression-tester` |
+| [Puppeteer Web Scraping Pipeline](skills/puppeteer-web-scraping-pipeline/) | ⭐ 4.9 | 0 | `clawhub install puppeteer-web-scraping-pipeline` |
+| [Puppeteer Web Scraping Pipeline](skills/puppeteer-web-scraping-pipeline-3/) | ⭐ 4.9 | 0 | `clawhub install puppeteer-web-scraping-pipeline-3` |
+| [Selenium Grid Multi-Browser Test Runner](skills/selenium-grid-multi-browser-test-runner/) | ⭐ 4.9 | 0 | `clawhub install selenium-grid-multi-browser-test-runner` |
+| [Selenium Grid Session Manager](skills/selenium-grid-session-manager/) | ⭐ 4.9 | 0 | `clawhub install selenium-grid-session-manager` |
+| [Selenium Grid Parallel Execution Manager](skills/selenium-grid-parallel-execution-manager/) | ⭐ 4.8 | 0 | `clawhub install selenium-grid-parallel-execution-manager` |
+| [Selenium Grid Test Orchestrator](skills/selenium-grid-test-orchestrator/) | ⭐ 4.8 | 0 | `clawhub install selenium-grid-test-orchestrator` |
+| [Browser MCP](skills/browser-mcp/) | ⭐ 4.7 | 0 | `clawhub install browser-mcp` |
+| [Browserbase MCP for Cloud Browser Control](skills/browserbase-mcp-cloud-browser-control/) | ⭐ 4.7 | 0 | `clawhub install browserbase-mcp-cloud-browser-control` |
+| [Cypress E2E API Intercept Skill](skills/cypress-e2e-api-intercept-skill/) | ⭐ 4.7 | 0 | `clawhub install cypress-e2e-api-intercept-skill` |
+| [Cypress E2E Test Generator](skills/cypress-e2e-test-generator-3/) | ⭐ 4.7 | 0 | `clawhub install cypress-e2e-test-generator-3` |
+| [Playwright Session Recorder](skills/playwright-session-recorder/) | ⭐ 4.7 | 0 | `clawhub install playwright-session-recorder` |
+| [Playwright Session Recorder](skills/playwright-session-recorder-2/) | ⭐ 4.7 | 0 | `clawhub install playwright-session-recorder-2` |
+| [Playwright Visual Regression Suite](skills/playwright-visual-regression-suite/) | ⭐ 4.7 | 0 | `clawhub install playwright-visual-regression-suite` |
+| [Selenium Grid Test Orchestrator](skills/selenium-grid-test-orchestrator-2/) | ⭐ 4.7 | 0 | `clawhub install selenium-grid-test-orchestrator-2` |
+| [Playwright Multi-Browser Test Generator](skills/playwright-multi-browser-test-generator/) | ⭐ 4.6 | 0 | `clawhub install playwright-multi-browser-test-generator` |
+| [Playwright Visual Regression Tester](skills/playwright-visual-regression-tester-2/) | ⭐ 4.6 | 0 | `clawhub install playwright-visual-regression-tester-2` |
+| [Selenium Grid Cloud Executor](skills/selenium-grid-cloud-executor/) | ⭐ 4.6 | 0 | `clawhub install selenium-grid-cloud-executor` |
+| [Selenium Grid Parallel Executor](skills/selenium-grid-parallel-executor/) | ⭐ 4.6 | 0 | `clawhub install selenium-grid-parallel-executor` |
+| [Playwright PDF Export Automation](skills/playwright-pdf-export-automation/) | ⭐ 4.5 | 0 | `clawhub install playwright-pdf-export-automation` |
+| [Selenium Grid Load Balancer](skills/selenium-grid-load-balancer/) | ⭐ 4.5 | 0 | `clawhub install selenium-grid-load-balancer` |
+| [Selenium Grid Orchestrator](skills/selenium-grid-orchestrator/) | ⭐ 4.5 | 0 | `clawhub install selenium-grid-orchestrator` |
+| [Cypress Component Testing Framework](skills/cypress-component-testing-framework-2/) | ⭐ 4.4 | 0 | `clawhub install cypress-component-testing-framework-2` |
+| [Cypress Component Testing Toolkit](skills/cypress-component-testing-toolkit/) | ⭐ 4.4 | 0 | `clawhub install cypress-component-testing-toolkit` |
+| [Playwright Cross-Browser Test Runner](skills/playwright-cross-browser-test-runner/) | ⭐ 4.4 | 0 | `clawhub install playwright-cross-browser-test-runner` |
+| [Selenium Grid Cloud Executor](skills/selenium-grid-cloud-executor-2/) | ⭐ 4.3 | 0 | `clawhub install selenium-grid-cloud-executor-2` |
+| [Agent Browser Operator](skills/agent-browser-operator/) | ⭐ 4.2 | 0 | `clawhub install agent-browser-operator` |
+| [Cypress Component Testing Framework](skills/cypress-component-testing-framework/) | ⭐ 4.2 | 0 | `clawhub install cypress-component-testing-framework` |
+| [Playwright MCP Browser Automation](skills/playwright-mcp-browser-automation/) | ⭐ 4.2 | 0 | `clawhub install playwright-mcp-browser-automation` |
+| [Puppeteer PDF Renderer](skills/puppeteer-pdf-renderer/) | ⭐ 4.1 | 0 | `clawhub install puppeteer-pdf-renderer` |
+| [Puppeteer Visual Regression Testing](skills/puppeteer-visual-regression-testing/) | ⭐ 4.1 | 0 | `clawhub install puppeteer-visual-regression-testing` |
+| [Cypress Component Testing Suite](skills/cypress-component-testing-suite/) | ⭐ 4.0 | 0 | `clawhub install cypress-component-testing-suite` |
+| [Cypress E2E Test Generator](skills/cypress-e2e-test-generator-2/) | ⭐ 4.0 | 0 | `clawhub install cypress-e2e-test-generator-2` |
+| [Puppeteer Scraping Framework](skills/puppeteer-scraping-framework/) | ⭐ 4.0 | 0 | `clawhub install puppeteer-scraping-framework` |
+| [Puppeteer Web Scraping Pipeline](skills/puppeteer-web-scraping-pipeline-2/) | ⭐ 4.0 | 0 | `clawhub install puppeteer-web-scraping-pipeline-2` |
+
 ### 🎨 Image & Creative Automation (39 skills)
 
 | Skill | Rating | Reviews | Install |
@@ -1268,50 +1324,6 @@
 | [Nano Banana Pro Image Editing](skills/nano-banana-pro-image-editing/) | ⭐ 4.1 | 0 | `clawhub install nano-banana-pro-image-editing` |
 | [OpenAI Image Gen](skills/openai-image-gen/) | ⭐ 4.1 | 0 | `clawhub install openai-image-gen` |
 | [SVG Animation Builder](skills/svg-animation-builder/) | ⭐ 4.0 | 0 | `clawhub install svg-animation-builder` |
-
-### 🌐 Browser Automation (39 skills)
-
-| Skill | Rating | Reviews | Install |
-|-------|:------:|:-------:|---------|
-| [Cypress Component Test Generator](skills/cypress-component-test-generator/) | ⭐ 4.9 | 0 | `clawhub install cypress-component-test-generator` |
-| [Cypress Visual Regression Runner](skills/cypress-visual-regression-runner/) | ⭐ 4.9 | 0 | `clawhub install cypress-visual-regression-runner` |
-| [Playwright Multi-Browser Test Suite](skills/playwright-multi-browser-test-suite/) | ⭐ 4.9 | 0 | `clawhub install playwright-multi-browser-test-suite` |
-| [Playwright Multi-Tab Session Manager](skills/playwright-multi-tab-session-manager/) | ⭐ 4.9 | 0 | `clawhub install playwright-multi-tab-session-manager` |
-| [Playwright Visual Regression Tester](skills/playwright-visual-regression-tester/) | ⭐ 4.9 | 0 | `clawhub install playwright-visual-regression-tester` |
-| [Puppeteer Cookie Consent Automator](skills/puppeteer-cookie-consent-automator/) | ⭐ 4.9 | 0 | `clawhub install puppeteer-cookie-consent-automator` |
-| [Puppeteer Cookie Consent Handler](skills/puppeteer-cookie-consent-handler/) | ⭐ 4.9 | 0 | `clawhub install puppeteer-cookie-consent-handler` |
-| [Puppeteer Cookie Consent Handler](skills/puppeteer-cookie-consent-handler-2/) | ⭐ 4.9 | 0 | `clawhub install puppeteer-cookie-consent-handler-2` |
-| [Puppeteer Visual Regression Tester](skills/puppeteer-visual-regression-tester/) | ⭐ 4.9 | 0 | `clawhub install puppeteer-visual-regression-tester` |
-| [Puppeteer Web Scraping Pipeline](skills/puppeteer-web-scraping-pipeline/) | ⭐ 4.9 | 0 | `clawhub install puppeteer-web-scraping-pipeline` |
-| [Selenium Grid Multi-Browser Test Runner](skills/selenium-grid-multi-browser-test-runner/) | ⭐ 4.9 | 0 | `clawhub install selenium-grid-multi-browser-test-runner` |
-| [Selenium Grid Session Manager](skills/selenium-grid-session-manager/) | ⭐ 4.9 | 0 | `clawhub install selenium-grid-session-manager` |
-| [Selenium Grid Parallel Execution Manager](skills/selenium-grid-parallel-execution-manager/) | ⭐ 4.8 | 0 | `clawhub install selenium-grid-parallel-execution-manager` |
-| [Selenium Grid Test Orchestrator](skills/selenium-grid-test-orchestrator/) | ⭐ 4.8 | 0 | `clawhub install selenium-grid-test-orchestrator` |
-| [Browser MCP](skills/browser-mcp/) | ⭐ 4.7 | 0 | `clawhub install browser-mcp` |
-| [Browserbase MCP for Cloud Browser Control](skills/browserbase-mcp-cloud-browser-control/) | ⭐ 4.7 | 0 | `clawhub install browserbase-mcp-cloud-browser-control` |
-| [Cypress E2E API Intercept Skill](skills/cypress-e2e-api-intercept-skill/) | ⭐ 4.7 | 0 | `clawhub install cypress-e2e-api-intercept-skill` |
-| [Playwright Session Recorder](skills/playwright-session-recorder/) | ⭐ 4.7 | 0 | `clawhub install playwright-session-recorder` |
-| [Playwright Session Recorder](skills/playwright-session-recorder-2/) | ⭐ 4.7 | 0 | `clawhub install playwright-session-recorder-2` |
-| [Playwright Visual Regression Suite](skills/playwright-visual-regression-suite/) | ⭐ 4.7 | 0 | `clawhub install playwright-visual-regression-suite` |
-| [Playwright Multi-Browser Test Generator](skills/playwright-multi-browser-test-generator/) | ⭐ 4.6 | 0 | `clawhub install playwright-multi-browser-test-generator` |
-| [Selenium Grid Cloud Executor](skills/selenium-grid-cloud-executor/) | ⭐ 4.6 | 0 | `clawhub install selenium-grid-cloud-executor` |
-| [Selenium Grid Parallel Executor](skills/selenium-grid-parallel-executor/) | ⭐ 4.6 | 0 | `clawhub install selenium-grid-parallel-executor` |
-| [Playwright PDF Export Automation](skills/playwright-pdf-export-automation/) | ⭐ 4.5 | 0 | `clawhub install playwright-pdf-export-automation` |
-| [Selenium Grid Load Balancer](skills/selenium-grid-load-balancer/) | ⭐ 4.5 | 0 | `clawhub install selenium-grid-load-balancer` |
-| [Selenium Grid Orchestrator](skills/selenium-grid-orchestrator/) | ⭐ 4.5 | 0 | `clawhub install selenium-grid-orchestrator` |
-| [Cypress Component Testing Framework](skills/cypress-component-testing-framework-2/) | ⭐ 4.4 | 0 | `clawhub install cypress-component-testing-framework-2` |
-| [Cypress Component Testing Toolkit](skills/cypress-component-testing-toolkit/) | ⭐ 4.4 | 0 | `clawhub install cypress-component-testing-toolkit` |
-| [Playwright Cross-Browser Test Runner](skills/playwright-cross-browser-test-runner/) | ⭐ 4.4 | 0 | `clawhub install playwright-cross-browser-test-runner` |
-| [Selenium Grid Cloud Executor](skills/selenium-grid-cloud-executor-2/) | ⭐ 4.3 | 0 | `clawhub install selenium-grid-cloud-executor-2` |
-| [Agent Browser Operator](skills/agent-browser-operator/) | ⭐ 4.2 | 0 | `clawhub install agent-browser-operator` |
-| [Cypress Component Testing Framework](skills/cypress-component-testing-framework/) | ⭐ 4.2 | 0 | `clawhub install cypress-component-testing-framework` |
-| [Playwright MCP Browser Automation](skills/playwright-mcp-browser-automation/) | ⭐ 4.2 | 0 | `clawhub install playwright-mcp-browser-automation` |
-| [Puppeteer PDF Renderer](skills/puppeteer-pdf-renderer/) | ⭐ 4.1 | 0 | `clawhub install puppeteer-pdf-renderer` |
-| [Puppeteer Visual Regression Testing](skills/puppeteer-visual-regression-testing/) | ⭐ 4.1 | 0 | `clawhub install puppeteer-visual-regression-testing` |
-| [Cypress Component Testing Suite](skills/cypress-component-testing-suite/) | ⭐ 4.0 | 0 | `clawhub install cypress-component-testing-suite` |
-| [Cypress E2E Test Generator](skills/cypress-e2e-test-generator-2/) | ⭐ 4.0 | 0 | `clawhub install cypress-e2e-test-generator-2` |
-| [Puppeteer Scraping Framework](skills/puppeteer-scraping-framework/) | ⭐ 4.0 | 0 | `clawhub install puppeteer-scraping-framework` |
-| [Puppeteer Web Scraping Pipeline](skills/puppeteer-web-scraping-pipeline-2/) | ⭐ 4.0 | 0 | `clawhub install puppeteer-web-scraping-pipeline-2` |
 
 ### 🔍 Research & Scraping (37 skills)
 
