@@ -1,6 +1,6 @@
 # ✍️ Content Writing & SEO
 
-> **31 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=content-writing-seo)
+> **35 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=content-writing-seo)
 
 Blog posts, SEO optimization, content strategy, and writing assistance.
 
@@ -14,13 +14,16 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [Copy.ai Sales Email Sequence Builder](../../skills/copyai-sales-email-sequence/) | ⭐ 4.9 | 0 | `clawhub install copyai-sales-email-sequence` |
 | [Hemingway Readability Analyzer API](../../skills/hemingway-readability-analyzer-api/) | ⭐ 4.9 | 0 | `clawhub install hemingway-readability-analyzer-api` |
 | [Markdown-to-AMP Article Converter](../../skills/markdown-to-amp-article-converter/) | ⭐ 4.9 | 0 | `clawhub install markdown-to-amp-article-converter` |
+| [Schema.org Markup Generator](../../skills/schema-org-markup-generator-agent/) | ⭐ 4.9 | 0 | `clawhub install schema-org-markup-generator-agent` |
 | [Schema.org Structured Data Generator](../../skills/schema-org-structured-data-generator-2/) | ⭐ 4.9 | 0 | `clawhub install schema-org-structured-data-generator-2` |
 | [SEMrush Content Optimizer Agent](../../skills/semrush-content-optimizer-agent/) | ⭐ 4.9 | 0 | `clawhub install semrush-content-optimizer-agent` |
 | [SEO Keyword Research Automator](../../skills/seo-keyword-research-automator/) | ⭐ 4.9 | 0 | `clawhub install seo-keyword-research-automator` |
 | [AI Content Readability Optimizer](../../skills/ai-content-readability-optimizer/) | ⭐ 4.8 | 0 | `clawhub install ai-content-readability-optimizer` |
+| [Google Search Console Insights Agent](../../skills/gsc-insights-agent/) | ⭐ 4.8 | 0 | `clawhub install gsc-insights-agent` |
 | [Google Search Console Performance Analyzer](../../skills/gsc-performance-analyzer-skill/) | ⭐ 4.8 | 0 | `clawhub install gsc-performance-analyzer-skill` |
 | [Grammarly Business Tone Consistency Auditor](../../skills/grammarly-tone-auditor/) | ⭐ 4.8 | 0 | `clawhub install grammarly-tone-auditor` |
 | [Surfer SEO Content Optimizer](../../skills/surfer-seo-content-optimizer/) | ⭐ 4.8 | 0 | `clawhub install surfer-seo-content-optimizer` |
+| [Surfer SEO Content Optimizer](../../skills/surfer-seo-content-optimizer-agent/) | ⭐ 4.8 | 0 | `clawhub install surfer-seo-content-optimizer-agent` |
 | [Technical SEO Audit Crawler](../../skills/technical-seo-audit-crawler/) | ⭐ 4.8 | 0 | `clawhub install technical-seo-audit-crawler` |
 | [Content Brief Architect](../../skills/content-brief-architect-agent/) | ⭐ 4.7 | 0 | `clawhub install content-brief-architect-agent` |
 | [Jasper AI Long-Form Blog Post Generator](../../skills/jasper-longform-blog-generator/) | ⭐ 4.7 | 0 | `clawhub install jasper-longform-blog-generator` |
@@ -33,6 +36,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [Content Readability Optimizer](../../skills/content-readability-optimizer/) | ⭐ 4.4 | 0 | `clawhub install content-readability-optimizer` |
 | [SEO Content Writer](../../skills/seo-content-writer/) | ⭐ 4.4 | 0 | `clawhub install seo-content-writer` |
 | [SEO Schema Markup Generator](../../skills/seo-schema-markup-generator-agent/) | ⭐ 4.4 | 0 | `clawhub install seo-schema-markup-generator-agent` |
+| [Ahrefs Content Gap Finder](../../skills/ahrefs-content-gap-finder-agent/) | ⭐ 4.3 | 0 | `clawhub install ahrefs-content-gap-finder-agent` |
 | [AI-Powered Meta Description Writer](../../skills/ai-powered-meta-description-writer/) | ⭐ 4.3 | 0 | `clawhub install ai-powered-meta-description-writer` |
 | [SEO Content Cluster Generator](../../skills/seo-content-cluster-generator/) | ⭐ 4.3 | 0 | `clawhub install seo-content-cluster-generator` |
 | [Substack Formatter](../../skills/substack-formatter/) | ⭐ 4.3 | 0 | `clawhub install substack-formatter` |

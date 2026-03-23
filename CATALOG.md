@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1340 skills** across **17 categories** · Updated 2026-03-23 10:03 UTC
+> **1352 skills** across **17 categories** · Updated 2026-03-23 11:01 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -10,7 +10,7 @@
 
 | Metric | Value |
 |--------|-------|
-| Total Skills | **1340** |
+| Total Skills | **1352** |
 | Categories | **17** |
 | Frameworks | **11** |
 | Verification | All skills **Verified Metadata** or higher |
@@ -1355,7 +1355,7 @@
 | [Crawlee Smart Crawler Agent](skills/crawlee-smart-crawler-agent/) | ⭐ 4.1 | 0 | `clawhub install crawlee-smart-crawler-agent` |
 | [ScrapingBee API Data Harvester](skills/scrapingbee-api-data-harvester/) | ⭐ 4.0 | 0 | `clawhub install scrapingbee-api-data-harvester` |
 
-### ✍️ Content Writing & SEO (31 skills)
+### ✍️ Content Writing & SEO (35 skills)
 
 | Skill | Rating | Reviews | Install |
 |-------|:------:|:-------:|---------|
@@ -1363,13 +1363,16 @@
 | [Copy.ai Sales Email Sequence Builder](skills/copyai-sales-email-sequence/) | ⭐ 4.9 | 0 | `clawhub install copyai-sales-email-sequence` |
 | [Hemingway Readability Analyzer API](skills/hemingway-readability-analyzer-api/) | ⭐ 4.9 | 0 | `clawhub install hemingway-readability-analyzer-api` |
 | [Markdown-to-AMP Article Converter](skills/markdown-to-amp-article-converter/) | ⭐ 4.9 | 0 | `clawhub install markdown-to-amp-article-converter` |
+| [Schema.org Markup Generator](skills/schema-org-markup-generator-agent/) | ⭐ 4.9 | 0 | `clawhub install schema-org-markup-generator-agent` |
 | [Schema.org Structured Data Generator](skills/schema-org-structured-data-generator-2/) | ⭐ 4.9 | 0 | `clawhub install schema-org-structured-data-generator-2` |
 | [SEMrush Content Optimizer Agent](skills/semrush-content-optimizer-agent/) | ⭐ 4.9 | 0 | `clawhub install semrush-content-optimizer-agent` |
 | [SEO Keyword Research Automator](skills/seo-keyword-research-automator/) | ⭐ 4.9 | 0 | `clawhub install seo-keyword-research-automator` |
 | [AI Content Readability Optimizer](skills/ai-content-readability-optimizer/) | ⭐ 4.8 | 0 | `clawhub install ai-content-readability-optimizer` |
+| [Google Search Console Insights Agent](skills/gsc-insights-agent/) | ⭐ 4.8 | 0 | `clawhub install gsc-insights-agent` |
 | [Google Search Console Performance Analyzer](skills/gsc-performance-analyzer-skill/) | ⭐ 4.8 | 0 | `clawhub install gsc-performance-analyzer-skill` |
 | [Grammarly Business Tone Consistency Auditor](skills/grammarly-tone-auditor/) | ⭐ 4.8 | 0 | `clawhub install grammarly-tone-auditor` |
 | [Surfer SEO Content Optimizer](skills/surfer-seo-content-optimizer/) | ⭐ 4.8 | 0 | `clawhub install surfer-seo-content-optimizer` |
+| [Surfer SEO Content Optimizer](skills/surfer-seo-content-optimizer-agent/) | ⭐ 4.8 | 0 | `clawhub install surfer-seo-content-optimizer-agent` |
 | [Technical SEO Audit Crawler](skills/technical-seo-audit-crawler/) | ⭐ 4.8 | 0 | `clawhub install technical-seo-audit-crawler` |
 | [Content Brief Architect](skills/content-brief-architect-agent/) | ⭐ 4.7 | 0 | `clawhub install content-brief-architect-agent` |
 | [Jasper AI Long-Form Blog Post Generator](skills/jasper-longform-blog-generator/) | ⭐ 4.7 | 0 | `clawhub install jasper-longform-blog-generator` |
@@ -1382,6 +1385,7 @@
 | [Content Readability Optimizer](skills/content-readability-optimizer/) | ⭐ 4.4 | 0 | `clawhub install content-readability-optimizer` |
 | [SEO Content Writer](skills/seo-content-writer/) | ⭐ 4.4 | 0 | `clawhub install seo-content-writer` |
 | [SEO Schema Markup Generator](skills/seo-schema-markup-generator-agent/) | ⭐ 4.4 | 0 | `clawhub install seo-schema-markup-generator-agent` |
+| [Ahrefs Content Gap Finder](skills/ahrefs-content-gap-finder-agent/) | ⭐ 4.3 | 0 | `clawhub install ahrefs-content-gap-finder-agent` |
 | [AI-Powered Meta Description Writer](skills/ai-powered-meta-description-writer/) | ⭐ 4.3 | 0 | `clawhub install ai-powered-meta-description-writer` |
 | [SEO Content Cluster Generator](skills/seo-content-cluster-generator/) | ⭐ 4.3 | 0 | `clawhub install seo-content-cluster-generator` |
 | [Substack Formatter](skills/substack-formatter/) | ⭐ 4.3 | 0 | `clawhub install substack-formatter` |
@@ -1391,7 +1395,7 @@
 | [Schema Markup Generator for SEO](skills/schema-markup-generator-seo/) | ⭐ 4.0 | 0 | `clawhub install schema-markup-generator-seo` |
 | [WordPress Content Optimizer](skills/wordpress-content-optimizer-yoast-rest/) | ⭐ 4.0 | 0 | `clawhub install wordpress-content-optimizer-yoast-rest` |
 
-### 🎙️ Media & Transcription (23 skills)
+### 🎙️ Media & Transcription (27 skills)
 
 | Skill | Rating | Reviews | Install |
 |-------|:------:|:-------:|---------|
@@ -1403,39 +1407,47 @@
 | [Deepgram Podcast Chapter Generator](skills/deepgram-podcast-chapter-generator/) | ⭐ 4.8 | 0 | `clawhub install deepgram-podcast-chapter-generator` |
 | [Whisper Diarization Post-Processor](skills/whisper-diarization-post-processor/) | ⭐ 4.8 | 0 | `clawhub install whisper-diarization-post-processor` |
 | [FFmpeg Audio Normalization Pipeline](skills/ffmpeg-audio-normalization-pipeline/) | ⭐ 4.7 | 0 | `clawhub install ffmpeg-audio-normalization-pipeline` |
+| [FFmpeg Clip Extractor](skills/ffmpeg-clip-extractor-agent/) | ⭐ 4.7 | 0 | `clawhub install ffmpeg-clip-extractor-agent` |
 | [Live Stream Clip Extractor](skills/live-stream-clip-extractor-agent/) | ⭐ 4.7 | 0 | `clawhub install live-stream-clip-extractor-agent` |
 | [Video Frames Extractor](skills/video-frames-extractor/) | ⭐ 4.7 | 0 | `clawhub install video-frames-extractor` |
+| [Dolby.io Media Enhancer](skills/dolby-io-media-enhancer-agent/) | ⭐ 4.6 | 0 | `clawhub install dolby-io-media-enhancer-agent` |
 | [OpenAI Whisper API Transcription](skills/openai-whisper-api-transcription/) | ⭐ 4.5 | 0 | `clawhub install openai-whisper-api-transcription` |
 | [Podcast Transcription Pipeline](skills/podcast-transcription-pipeline-agent/) | ⭐ 4.5 | 0 | `clawhub install podcast-transcription-pipeline-agent` |
 | [YouTube Chapters Generator with Whisper](skills/youtube-chapters-generator-whisper/) | ⭐ 4.5 | 0 | `clawhub install youtube-chapters-generator-whisper` |
 | [ElevenLabs Voiceover Generator for Long-Form Content](skills/elevenlabs-voiceover-longform/) | ⭐ 4.4 | 0 | `clawhub install elevenlabs-voiceover-longform` |
 | [FFmpeg Batch Transcode Pipeline](skills/ffmpeg-batch-transcode-pipeline/) | ⭐ 4.4 | 0 | `clawhub install ffmpeg-batch-transcode-pipeline` |
 | [Whisper.cpp Local Transcription Engine](skills/whisper-cpp-local-transcription-engine/) | ⭐ 4.4 | 0 | `clawhub install whisper-cpp-local-transcription-engine` |
+| [AssemblyAI LeMUR Summarizer](skills/assemblyai-lemur-summarizer-agent/) | ⭐ 4.3 | 0 | `clawhub install assemblyai-lemur-summarizer-agent` |
 | [Podcast RSS Feed Audio Normalizer](skills/podcast-rss-feed-audio-normalizer/) | ⭐ 4.3 | 0 | `clawhub install podcast-rss-feed-audio-normalizer` |
 | [SoX Audio Processing Toolkit](skills/sox-audio-processing-toolkit/) | ⭐ 4.3 | 0 | `clawhub install sox-audio-processing-toolkit` |
+| [Deepgram Nova Transcriber](skills/deepgram-nova-transcriber-agent/) | ⭐ 4.1 | 0 | `clawhub install deepgram-nova-transcriber-agent` |
 | [Deepgram Real-Time Transcription Connector](skills/deepgram-realtime-transcription-connector/) | ⭐ 4.1 | 0 | `clawhub install deepgram-realtime-transcription-connector` |
 | [GStreamer Live Stream Transcoder](skills/gstreamer-live-stream-transcoder/) | ⭐ 4.1 | 0 | `clawhub install gstreamer-live-stream-transcoder` |
 | [OpenAI Whisper Batch Transcription Pipeline](skills/whisper-batch-transcription-pipeline/) | ⭐ 4.1 | 0 | `clawhub install whisper-batch-transcription-pipeline` |
 | [OpenAI Whisper Transcription](skills/openai-whisper-transcription/) | ⭐ 4.1 | 0 | `clawhub install openai-whisper-transcription` |
 | [Video Subtitle Auto-Translator](skills/video-subtitle-auto-translator-agent/) | ⭐ 4.1 | 0 | `clawhub install video-subtitle-auto-translator-agent` |
 
-### 📰 WordPress & CMS (20 skills)
+### 📰 WordPress & CMS (24 skills)
 
 | Skill | Rating | Reviews | Install |
 |-------|:------:|:-------:|---------|
+| [WordPress Multisite Provisioner](skills/wp-multisite-provisioner-agent/) | ⭐ 4.9 | 0 | `clawhub install wp-multisite-provisioner-agent` |
 | [WordPress Router](skills/wordpress-router/) | ⭐ 4.9 | 0 | `clawhub install wordpress-router` |
 | [WordPress Theme.json Design Token Manager](skills/wp-theme-json-design-token-manager/) | ⭐ 4.9 | 0 | `clawhub install wp-theme-json-design-token-manager` |
+| [WP Cron Health Monitor](skills/wp-cron-health-monitor/) | ⭐ 4.9 | 0 | `clawhub install wp-cron-health-monitor` |
 | [WP Multisite Network Sync Agent](skills/wp-multisite-network-sync-agent/) | ⭐ 4.9 | 0 | `clawhub install wp-multisite-network-sync-agent` |
 | [Gutenberg Block Pattern Generator](skills/gutenberg-block-pattern-generator/) | ⭐ 4.8 | 0 | `clawhub install gutenberg-block-pattern-generator` |
 | [Headless CMS GraphQL Connector](skills/headless-cms-graphql-connector/) | ⭐ 4.8 | 0 | `clawhub install headless-cms-graphql-connector` |
 | [WooCommerce Order Sync Agent](skills/woocommerce-order-sync-agent/) | ⭐ 4.8 | 0 | `clawhub install woocommerce-order-sync-agent` |
 | [WordPress Multisite Network Sync](skills/wordpress-multisite-network-sync/) | ⭐ 4.8 | 0 | `clawhub install wordpress-multisite-network-sync` |
+| [Gutenberg Block Scaffolder](skills/gutenberg-block-scaffolder-agent/) | ⭐ 4.7 | 0 | `clawhub install gutenberg-block-scaffolder-agent` |
 | [WordPress ACF Field Group Auditor](skills/wordpress-acf-field-group-auditor/) | ⭐ 4.7 | 0 | `clawhub install wordpress-acf-field-group-auditor` |
 | [WP-CLI Bulk Content Migrator](skills/wp-cli-bulk-content-migrator/) | ⭐ 4.7 | 0 | `clawhub install wp-cli-bulk-content-migrator` |
 | [WP-CLI Site Migration Automator](skills/wp-cli-site-migration-automator/) | ⭐ 4.7 | 0 | `clawhub install wp-cli-site-migration-automator` |
 | [ACF Custom Fields REST Exposer](skills/acf-custom-fields-rest-exposer/) | ⭐ 4.6 | 0 | `clawhub install acf-custom-fields-rest-exposer` |
 | [Gutenberg Custom Block Builder](skills/gutenberg-custom-block-builder/) | ⭐ 4.6 | 0 | `clawhub install gutenberg-custom-block-builder` |
 | [WordPress Gutenberg Block Generator](skills/wordpress-gutenberg-block-generator/) | ⭐ 4.6 | 0 | `clawhub install wordpress-gutenberg-block-generator` |
+| [WooCommerce REST Sync Agent](skills/woocommerce-rest-sync-agent/) | ⭐ 4.5 | 0 | `clawhub install woocommerce-rest-sync-agent` |
 | [WordPress Content Publisher](skills/wordpress-content-publisher/) | ⭐ 4.5 | 0 | `clawhub install wordpress-content-publisher` |
 | [WordPress REST API Content Sync](skills/wordpress-rest-api-content-sync/) | ⭐ 4.4 | 0 | `clawhub install wordpress-rest-api-content-sync` |
 | [WooCommerce Webhook Orchestrator](skills/woocommerce-webhook-orchestrator/) | ⭐ 4.3 | 0 | `clawhub install woocommerce-webhook-orchestrator` |
