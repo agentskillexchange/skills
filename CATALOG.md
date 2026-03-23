@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1484 skills** across **17 categories** · Updated 2026-03-23 22:02 UTC
+> **1496 skills** across **17 categories** · Updated 2026-03-23 23:02 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -10,7 +10,7 @@
 
 | Metric | Value |
 |--------|-------|
-| Total Skills | **1484** |
+| Total Skills | **1496** |
 | Categories | **17** |
 | Frameworks | **11** |
 | Verification | All skills **Verified Metadata** or higher |
@@ -1212,12 +1212,13 @@
 | [ESLint Rule Auditor](skills/eslint-rule-auditor-2/) | ⭐ 4.0 | 0 | `clawhub install eslint-rule-auditor-2` |
 | [GitHub Actions Workflow Generator](skills/github-actions-workflow-generator-v2/) | ⭐ 4.0 | 0 | `clawhub install github-actions-workflow-generator-v2` |
 
-### 📅 Calendar, Email & Productivity (64 skills)
+### 📅 Calendar, Email & Productivity (68 skills)
 
 | Skill | Rating | Reviews | Install |
 |-------|:------:|:-------:|---------|
 | [Microsoft Graph Email Digest Builder](skills/microsoft-graph-email-digest-builder/) | ⭐ 4.9 | 0 | `clawhub install microsoft-graph-email-digest-builder` |
 | [Microsoft Graph Email Triage Agent](skills/microsoft-graph-email-triage-agent/) | ⭐ 4.9 | 0 | `clawhub install microsoft-graph-email-triage-agent` |
+| [Microsoft Graph Mail Triage Agent](skills/microsoft-graph-mail-triage-agent/) | ⭐ 4.9 | 0 | `clawhub install microsoft-graph-mail-triage-agent` |
 | [Notion AI Workspace](skills/notion-ai-workspace/) | ⭐ 4.9 | 0 | `clawhub install notion-ai-workspace` |
 | [Outlook Mail Triage Skill](skills/outlook-mail-triage-microsoft-graph/) | ⭐ 4.9 | 0 | `clawhub install outlook-mail-triage-microsoft-graph` |
 | [Slack Workflow Bot](skills/slack-workflow-bot-bolt-sdk/) | ⭐ 4.9 | 0 | `clawhub install slack-workflow-bot-bolt-sdk` |
@@ -1237,6 +1238,7 @@
 | [Zoom Meeting Summarizer](skills/zoom-meeting-summarizer/) | ⭐ 4.8 | 0 | `clawhub install zoom-meeting-summarizer` |
 | [Airtable MCP Server](skills/airtable-mcp-server/) | ⭐ 4.7 | 0 | `clawhub install airtable-mcp-server` |
 | [IMAP Email Classifier](skills/imap-email-classifier-ml/) | ⭐ 4.7 | 0 | `clawhub install imap-email-classifier-ml` |
+| [Notion Database Sync Bridge](skills/notion-database-sync-bridge/) | ⭐ 4.7 | 0 | `clawhub install notion-database-sync-bridge` |
 | [Notion MCP Server](skills/notion-mcp-server/) | ⭐ 4.7 | 0 | `clawhub install notion-mcp-server` |
 | [Notion Workspace Sync Engine](skills/notion-workspace-sync-engine-2/) | ⭐ 4.7 | 0 | `clawhub install notion-workspace-sync-engine-2` |
 | [Outlook Email Automation](skills/outlook-email-automation/) | ⭐ 4.7 | 0 | `clawhub install outlook-email-automation` |
@@ -1251,6 +1253,7 @@
 | [Google Calendar Sync Agent](skills/google-calendar-sync-agent/) | ⭐ 4.5 | 0 | `clawhub install google-calendar-sync-agent` |
 | [Google Workspace CLI Skill](skills/google-workspace-cli-skill/) | ⭐ 4.5 | 0 | `clawhub install google-workspace-cli-skill` |
 | [Microsoft Graph Email Triage Agent](skills/microsoft-graph-email-triage-agent-2/) | ⭐ 4.5 | 0 | `clawhub install microsoft-graph-email-triage-agent-2` |
+| [Todoist Natural Language Task Parser](skills/todoist-natural-language-task-parser/) | ⭐ 4.5 | 0 | `clawhub install todoist-natural-language-task-parser` |
 | [Linear Sprint Planner](skills/linear-sprint-planner/) | ⭐ 4.4 | 0 | `clawhub install linear-sprint-planner` |
 | [Miro Board Agent](skills/miro-board-agent/) | ⭐ 4.4 | 0 | `clawhub install miro-board-agent` |
 | [Notion Task Sync Bridge](skills/notion-task-sync-bridge/) | ⭐ 4.4 | 0 | `clawhub install notion-task-sync-bridge` |
@@ -1276,12 +1279,13 @@
 | [Teams Webhook Configurator](skills/teams-webhook-configurator/) | ⭐ 4.2 | 0 | `clawhub install teams-webhook-configurator` |
 | [Discord Bot Manager](skills/discord-bot-manager/) | ⭐ 4.1 | 0 | `clawhub install discord-bot-manager` |
 | [Gmail Smart Triage Agent](skills/gmail-smart-triage-2/) | ⭐ 4.1 | 0 | `clawhub install gmail-smart-triage-2` |
+| [Google Calendar Conflict Resolver](skills/google-calendar-conflict-resolver-5/) | ⭐ 4.1 | 0 | `clawhub install google-calendar-conflict-resolver-5` |
 | [Google Calendar Sync Agent](skills/google-calendar-sync-agent-2/) | ⭐ 4.1 | 0 | `clawhub install google-calendar-sync-agent-2` |
 | [Notion Workspace Sync Engine](skills/notion-workspace-sync-engine/) | ⭐ 4.1 | 0 | `clawhub install notion-workspace-sync-engine` |
 | [Outlook Email Automation](skills/outlook-email-automation-2/) | ⭐ 4.1 | 0 | `clawhub install outlook-email-automation-2` |
 | [Outlook Mail Triage Assistant](skills/outlook-mail-triage-assistant/) | ⭐ 4.1 | 0 | `clawhub install outlook-mail-triage-assistant` |
 
-### 🌐 Browser Automation (48 skills)
+### 🌐 Browser Automation (52 skills)
 
 | Skill | Rating | Reviews | Install |
 |-------|:------:|:-------:|---------|
@@ -1299,10 +1303,12 @@
 | [Puppeteer Web Scraping Pipeline](skills/puppeteer-web-scraping-pipeline-3/) | ⭐ 4.9 | 0 | `clawhub install puppeteer-web-scraping-pipeline-3` |
 | [Selenium Grid Multi-Browser Test Runner](skills/selenium-grid-multi-browser-test-runner/) | ⭐ 4.9 | 0 | `clawhub install selenium-grid-multi-browser-test-runner` |
 | [Selenium Grid Session Manager](skills/selenium-grid-session-manager/) | ⭐ 4.9 | 0 | `clawhub install selenium-grid-session-manager` |
+| [Puppeteer Cookie Consent Handler](skills/puppeteer-cookie-consent-handler-3/) | ⭐ 4.8 | 0 | `clawhub install puppeteer-cookie-consent-handler-3` |
 | [Selenium Grid Parallel Execution Manager](skills/selenium-grid-parallel-execution-manager/) | ⭐ 4.8 | 0 | `clawhub install selenium-grid-parallel-execution-manager` |
 | [Selenium Grid Test Orchestrator](skills/selenium-grid-test-orchestrator/) | ⭐ 4.8 | 0 | `clawhub install selenium-grid-test-orchestrator` |
 | [Browser MCP](skills/browser-mcp/) | ⭐ 4.7 | 0 | `clawhub install browser-mcp` |
 | [Browserbase MCP for Cloud Browser Control](skills/browserbase-mcp-cloud-browser-control/) | ⭐ 4.7 | 0 | `clawhub install browserbase-mcp-cloud-browser-control` |
+| [CDP Network Interception Logger](skills/cdp-network-interception-logger/) | ⭐ 4.7 | 0 | `clawhub install cdp-network-interception-logger` |
 | [Cypress E2E API Intercept Skill](skills/cypress-e2e-api-intercept-skill/) | ⭐ 4.7 | 0 | `clawhub install cypress-e2e-api-intercept-skill` |
 | [Cypress E2E Test Generator](skills/cypress-e2e-test-generator-3/) | ⭐ 4.7 | 0 | `clawhub install cypress-e2e-test-generator-3` |
 | [Playwright Session Recorder](skills/playwright-session-recorder/) | ⭐ 4.7 | 0 | `clawhub install playwright-session-recorder` |
@@ -1317,9 +1323,11 @@
 | [Selenium Grid Auto-Scaling Orchestrator](skills/selenium-grid-auto-scaling-orchestrator/) | ⭐ 4.5 | 0 | `clawhub install selenium-grid-auto-scaling-orchestrator` |
 | [Selenium Grid Load Balancer](skills/selenium-grid-load-balancer/) | ⭐ 4.5 | 0 | `clawhub install selenium-grid-load-balancer` |
 | [Selenium Grid Orchestrator](skills/selenium-grid-orchestrator/) | ⭐ 4.5 | 0 | `clawhub install selenium-grid-orchestrator` |
+| [Selenium Grid Session Distributor](skills/selenium-grid-session-distributor/) | ⭐ 4.5 | 0 | `clawhub install selenium-grid-session-distributor` |
 | [Cypress Component Testing Framework](skills/cypress-component-testing-framework-2/) | ⭐ 4.4 | 0 | `clawhub install cypress-component-testing-framework-2` |
 | [Cypress Component Testing Toolkit](skills/cypress-component-testing-toolkit/) | ⭐ 4.4 | 0 | `clawhub install cypress-component-testing-toolkit` |
 | [Playwright Cross-Browser Test Runner](skills/playwright-cross-browser-test-runner/) | ⭐ 4.4 | 0 | `clawhub install playwright-cross-browser-test-runner` |
+| [Playwright Visual Regression Tester](skills/playwright-visual-regression-tester-3/) | ⭐ 4.4 | 0 | `clawhub install playwright-visual-regression-tester-3` |
 | [Puppeteer Multi-Tab Session Manager](skills/puppeteer-multi-tab-session-manager/) | ⭐ 4.3 | 0 | `clawhub install puppeteer-multi-tab-session-manager` |
 | [Selenium Grid Cloud Executor](skills/selenium-grid-cloud-executor-2/) | ⭐ 4.3 | 0 | `clawhub install selenium-grid-cloud-executor-2` |
 | [Agent Browser Operator](skills/agent-browser-operator/) | ⭐ 4.2 | 0 | `clawhub install agent-browser-operator` |
@@ -1333,6 +1341,58 @@
 | [Cypress E2E Test Generator](skills/cypress-e2e-test-generator-2/) | ⭐ 4.0 | 0 | `clawhub install cypress-e2e-test-generator-2` |
 | [Puppeteer Scraping Framework](skills/puppeteer-scraping-framework/) | ⭐ 4.0 | 0 | `clawhub install puppeteer-scraping-framework` |
 | [Puppeteer Web Scraping Pipeline](skills/puppeteer-web-scraping-pipeline-2/) | ⭐ 4.0 | 0 | `clawhub install puppeteer-web-scraping-pipeline-2` |
+
+### 🎨 Image & Creative Automation (47 skills)
+
+| Skill | Rating | Reviews | Install |
+|-------|:------:|:-------:|---------|
+| [Cloudinary Media Transform Skill](skills/cloudinary-media-transform-skill/) | ⭐ 4.9 | 0 | `clawhub install cloudinary-media-transform-skill` |
+| [ComfyUI Workflow Executor](skills/comfyui-workflow-executor/) | ⭐ 4.9 | 0 | `clawhub install comfyui-workflow-executor` |
+| [DALL-E Image Variation Generator](skills/dalle-image-variation-generator/) | ⭐ 4.9 | 0 | `clawhub install dalle-image-variation-generator` |
+| [Figma Design Token Extractor](skills/figma-design-token-extractor-3/) | ⭐ 4.9 | 0 | `clawhub install figma-design-token-extractor-3` |
+| [ImageMagick Batch Processor](skills/imagemagick-batch-processor/) | ⭐ 4.9 | 0 | `clawhub install imagemagick-batch-processor` |
+| [Midjourney Prompt Engineering Suite](skills/midjourney-prompt-engineering-suite/) | ⭐ 4.9 | 0 | `clawhub install midjourney-prompt-engineering-suite` |
+| [Stable Diffusion ControlNet Compositor](skills/stable-diffusion-controlnet-compositor/) | ⭐ 4.9 | 0 | `clawhub install stable-diffusion-controlnet-compositor` |
+| [Stable Diffusion Prompt Optimizer](skills/stable-diffusion-prompt-optimizer/) | ⭐ 4.9 | 0 | `clawhub install stable-diffusion-prompt-optimizer` |
+| [Bannerbear Dynamic Image API](skills/bannerbear-dynamic-image-api/) | ⭐ 4.8 | 0 | `clawhub install bannerbear-dynamic-image-api` |
+| [Sharp Image Transform Pipeline](skills/sharp-image-transform-pipeline/) | ⭐ 4.8 | 0 | `clawhub install sharp-image-transform-pipeline` |
+| [Stable Diffusion XL Pipeline](skills/stable-diffusion-xl-pipeline/) | ⭐ 4.8 | 0 | `clawhub install stable-diffusion-xl-pipeline` |
+| [Stable Diffusion XL Pipeline Builder](skills/stable-diffusion-xl-pipeline-builder/) | ⭐ 4.8 | 0 | `clawhub install stable-diffusion-xl-pipeline-builder` |
+| [Adobe Firefly API Batch Image Generator](skills/adobe-firefly-api-batch-image-generator/) | ⭐ 4.7 | 0 | `clawhub install adobe-firefly-api-batch-image-generator` |
+| [Cloudinary Asset Optimization Agent](skills/cloudinary-asset-optimization-agent/) | ⭐ 4.7 | 0 | `clawhub install cloudinary-asset-optimization-agent` |
+| [FFmpeg Thumbnail Grid Generator](skills/ffmpeg-thumbnail-grid-generator/) | ⭐ 4.7 | 0 | `clawhub install ffmpeg-thumbnail-grid-generator` |
+| [Figma Design Token Extractor](skills/figma-design-token-extractor/) | ⭐ 4.7 | 0 | `clawhub install figma-design-token-extractor` |
+| [Midjourney Prompt Optimizer](skills/midjourney-prompt-optimizer/) | ⭐ 4.7 | 0 | `clawhub install midjourney-prompt-optimizer` |
+| [Photoshop Batch Action Automator](skills/photoshop-batch-action-automator/) | ⭐ 4.7 | 0 | `clawhub install photoshop-batch-action-automator` |
+| [Sharp Image Pipeline Skill](skills/sharp-image-pipeline-skill/) | ⭐ 4.7 | 0 | `clawhub install sharp-image-pipeline-skill` |
+| [ImageMagick Batch Processor](skills/imagemagick-batch-processor-2/) | ⭐ 4.6 | 0 | `clawhub install imagemagick-batch-processor-2` |
+| [Stable Diffusion ControlNet Pipeline](skills/stable-diffusion-controlnet-pipeline/) | ⭐ 4.6 | 0 | `clawhub install stable-diffusion-controlnet-pipeline` |
+| [Adobe Photoshop API Batch Processor](skills/adobe-photoshop-api-batch-processor/) | ⭐ 4.5 | 0 | `clawhub install adobe-photoshop-api-batch-processor` |
+| [DALL-E Image Variation Pipeline](skills/dalle-image-variation-pipeline/) | ⭐ 4.5 | 0 | `clawhub install dalle-image-variation-pipeline` |
+| [Sharp Image Pipeline Processor](skills/sharp-image-pipeline-processor/) | ⭐ 4.5 | 0 | `clawhub install sharp-image-pipeline-processor` |
+| [Stable Diffusion ComfyUI Workflow Runner](skills/stable-diffusion-comfyui-workflow-runner-2/) | ⭐ 4.5 | 0 | `clawhub install stable-diffusion-comfyui-workflow-runner-2` |
+| [DALL-E Variation Generator](skills/dalle-variation-generator/) | ⭐ 4.4 | 0 | `clawhub install dalle-variation-generator` |
+| [DALL-E Variations Pipeline](skills/dalle-variations-pipeline/) | ⭐ 4.4 | 0 | `clawhub install dalle-variations-pipeline` |
+| [FFmpeg Intelligent Media Processor](skills/ffmpeg-intelligent-media-processor/) | ⭐ 4.4 | 0 | `clawhub install ffmpeg-intelligent-media-processor` |
+| [Figma Design Token Extractor](skills/figma-design-token-extractor-2/) | ⭐ 4.4 | 0 | `clawhub install figma-design-token-extractor-2` |
+| [Sharp Image CDN Optimizer](skills/sharp-image-cdn-optimizer/) | ⭐ 4.4 | 0 | `clawhub install sharp-image-cdn-optimizer` |
+| [Cloudinary Media Optimization Agent](skills/cloudinary-media-optimization-agent/) | ⭐ 4.3 | 0 | `clawhub install cloudinary-media-optimization-agent` |
+| [DALL-E 3 Batch Asset Generator](skills/dalle-3-batch-asset-generator/) | ⭐ 4.3 | 0 | `clawhub install dalle-3-batch-asset-generator` |
+| [DALL-E Batch Image Generator](skills/dalle-batch-image-generator/) | ⭐ 4.3 | 0 | `clawhub install dalle-batch-image-generator` |
+| [FFmpeg Video Processing Pipeline](skills/ffmpeg-video-processing-pipeline/) | ⭐ 4.3 | 0 | `clawhub install ffmpeg-video-processing-pipeline` |
+| [Figma Design Token Exporter](skills/figma-design-token-exporter/) | ⭐ 4.3 | 0 | `clawhub install figma-design-token-exporter` |
+| [Pexels API Stock Photo Curator](skills/pexels-api-stock-photo-curator/) | ⭐ 4.3 | 0 | `clawhub install pexels-api-stock-photo-curator` |
+| [Stable Diffusion ComfyUI Workflow Runner](skills/stable-diffusion-comfyui-workflow-runner/) | ⭐ 4.3 | 0 | `clawhub install stable-diffusion-comfyui-workflow-runner` |
+| [DALL-E Prompt Engineering Kit](skills/dall-e-prompt-engineering-kit/) | ⭐ 4.2 | 0 | `clawhub install dall-e-prompt-engineering-kit` |
+| [FFmpeg Media Transcoder](skills/ffmpeg-media-transcoder/) | ⭐ 4.2 | 0 | `clawhub install ffmpeg-media-transcoder` |
+| [Figma Export Automator](skills/figma-export-automator/) | ⭐ 4.2 | 0 | `clawhub install figma-export-automator` |
+| [Gemini Image Style Transfer Agent](skills/gemini-image-style-transfer-agent/) | ⭐ 4.2 | 0 | `clawhub install gemini-image-style-transfer-agent` |
+| [FFmpeg Thumbnail Mosaic Generator](skills/ffmpeg-thumbnail-mosaic-generator/) | ⭐ 4.1 | 0 | `clawhub install ffmpeg-thumbnail-mosaic-generator` |
+| [ImageMagick Batch Transform Agent](skills/imagemagick-batch-transform-agent/) | ⭐ 4.1 | 0 | `clawhub install imagemagick-batch-transform-agent` |
+| [Nano Banana Pro Image Editing](skills/nano-banana-pro-image-editing/) | ⭐ 4.1 | 0 | `clawhub install nano-banana-pro-image-editing` |
+| [OpenAI Image Gen](skills/openai-image-gen/) | ⭐ 4.1 | 0 | `clawhub install openai-image-gen` |
+| [Stable Diffusion LoRA Training Pipeline](skills/stable-diffusion-lora-training-pipeline/) | ⭐ 4.1 | 0 | `clawhub install stable-diffusion-lora-training-pipeline` |
+| [SVG Animation Builder](skills/svg-animation-builder/) | ⭐ 4.0 | 0 | `clawhub install svg-animation-builder` |
 
 ### 🔍 Research & Scraping (46 skills)
 
@@ -1434,54 +1494,6 @@
 | [QuickBooks Data Extractor](skills/quickbooks-data-extractor/) | ⭐ 4.1 | 0 | `clawhub install quickbooks-data-extractor` |
 | [Salesforce MCP Server](skills/salesforce-mcp-server/) | ⭐ 4.1 | 0 | `clawhub install salesforce-mcp-server` |
 | [Linear Issue Triage &#038; Sprint Planner](skills/linear-issue-triage-sprint-planner/) | ⭐ 4.0 | 0 | `clawhub install linear-issue-triage-sprint-planner` |
-
-### 🎨 Image & Creative Automation (43 skills)
-
-| Skill | Rating | Reviews | Install |
-|-------|:------:|:-------:|---------|
-| [Cloudinary Media Transform Skill](skills/cloudinary-media-transform-skill/) | ⭐ 4.9 | 0 | `clawhub install cloudinary-media-transform-skill` |
-| [Figma Design Token Extractor](skills/figma-design-token-extractor-3/) | ⭐ 4.9 | 0 | `clawhub install figma-design-token-extractor-3` |
-| [ImageMagick Batch Processor](skills/imagemagick-batch-processor/) | ⭐ 4.9 | 0 | `clawhub install imagemagick-batch-processor` |
-| [Midjourney Prompt Engineering Suite](skills/midjourney-prompt-engineering-suite/) | ⭐ 4.9 | 0 | `clawhub install midjourney-prompt-engineering-suite` |
-| [Stable Diffusion ControlNet Compositor](skills/stable-diffusion-controlnet-compositor/) | ⭐ 4.9 | 0 | `clawhub install stable-diffusion-controlnet-compositor` |
-| [Stable Diffusion Prompt Optimizer](skills/stable-diffusion-prompt-optimizer/) | ⭐ 4.9 | 0 | `clawhub install stable-diffusion-prompt-optimizer` |
-| [Bannerbear Dynamic Image API](skills/bannerbear-dynamic-image-api/) | ⭐ 4.8 | 0 | `clawhub install bannerbear-dynamic-image-api` |
-| [Stable Diffusion XL Pipeline](skills/stable-diffusion-xl-pipeline/) | ⭐ 4.8 | 0 | `clawhub install stable-diffusion-xl-pipeline` |
-| [Stable Diffusion XL Pipeline Builder](skills/stable-diffusion-xl-pipeline-builder/) | ⭐ 4.8 | 0 | `clawhub install stable-diffusion-xl-pipeline-builder` |
-| [Adobe Firefly API Batch Image Generator](skills/adobe-firefly-api-batch-image-generator/) | ⭐ 4.7 | 0 | `clawhub install adobe-firefly-api-batch-image-generator` |
-| [Cloudinary Asset Optimization Agent](skills/cloudinary-asset-optimization-agent/) | ⭐ 4.7 | 0 | `clawhub install cloudinary-asset-optimization-agent` |
-| [FFmpeg Thumbnail Grid Generator](skills/ffmpeg-thumbnail-grid-generator/) | ⭐ 4.7 | 0 | `clawhub install ffmpeg-thumbnail-grid-generator` |
-| [Figma Design Token Extractor](skills/figma-design-token-extractor/) | ⭐ 4.7 | 0 | `clawhub install figma-design-token-extractor` |
-| [Midjourney Prompt Optimizer](skills/midjourney-prompt-optimizer/) | ⭐ 4.7 | 0 | `clawhub install midjourney-prompt-optimizer` |
-| [Photoshop Batch Action Automator](skills/photoshop-batch-action-automator/) | ⭐ 4.7 | 0 | `clawhub install photoshop-batch-action-automator` |
-| [Sharp Image Pipeline Skill](skills/sharp-image-pipeline-skill/) | ⭐ 4.7 | 0 | `clawhub install sharp-image-pipeline-skill` |
-| [ImageMagick Batch Processor](skills/imagemagick-batch-processor-2/) | ⭐ 4.6 | 0 | `clawhub install imagemagick-batch-processor-2` |
-| [Stable Diffusion ControlNet Pipeline](skills/stable-diffusion-controlnet-pipeline/) | ⭐ 4.6 | 0 | `clawhub install stable-diffusion-controlnet-pipeline` |
-| [Adobe Photoshop API Batch Processor](skills/adobe-photoshop-api-batch-processor/) | ⭐ 4.5 | 0 | `clawhub install adobe-photoshop-api-batch-processor` |
-| [DALL-E Image Variation Pipeline](skills/dalle-image-variation-pipeline/) | ⭐ 4.5 | 0 | `clawhub install dalle-image-variation-pipeline` |
-| [Sharp Image Pipeline Processor](skills/sharp-image-pipeline-processor/) | ⭐ 4.5 | 0 | `clawhub install sharp-image-pipeline-processor` |
-| [Stable Diffusion ComfyUI Workflow Runner](skills/stable-diffusion-comfyui-workflow-runner-2/) | ⭐ 4.5 | 0 | `clawhub install stable-diffusion-comfyui-workflow-runner-2` |
-| [DALL-E Variation Generator](skills/dalle-variation-generator/) | ⭐ 4.4 | 0 | `clawhub install dalle-variation-generator` |
-| [DALL-E Variations Pipeline](skills/dalle-variations-pipeline/) | ⭐ 4.4 | 0 | `clawhub install dalle-variations-pipeline` |
-| [FFmpeg Intelligent Media Processor](skills/ffmpeg-intelligent-media-processor/) | ⭐ 4.4 | 0 | `clawhub install ffmpeg-intelligent-media-processor` |
-| [Figma Design Token Extractor](skills/figma-design-token-extractor-2/) | ⭐ 4.4 | 0 | `clawhub install figma-design-token-extractor-2` |
-| [Sharp Image CDN Optimizer](skills/sharp-image-cdn-optimizer/) | ⭐ 4.4 | 0 | `clawhub install sharp-image-cdn-optimizer` |
-| [Cloudinary Media Optimization Agent](skills/cloudinary-media-optimization-agent/) | ⭐ 4.3 | 0 | `clawhub install cloudinary-media-optimization-agent` |
-| [DALL-E 3 Batch Asset Generator](skills/dalle-3-batch-asset-generator/) | ⭐ 4.3 | 0 | `clawhub install dalle-3-batch-asset-generator` |
-| [DALL-E Batch Image Generator](skills/dalle-batch-image-generator/) | ⭐ 4.3 | 0 | `clawhub install dalle-batch-image-generator` |
-| [FFmpeg Video Processing Pipeline](skills/ffmpeg-video-processing-pipeline/) | ⭐ 4.3 | 0 | `clawhub install ffmpeg-video-processing-pipeline` |
-| [Figma Design Token Exporter](skills/figma-design-token-exporter/) | ⭐ 4.3 | 0 | `clawhub install figma-design-token-exporter` |
-| [Pexels API Stock Photo Curator](skills/pexels-api-stock-photo-curator/) | ⭐ 4.3 | 0 | `clawhub install pexels-api-stock-photo-curator` |
-| [Stable Diffusion ComfyUI Workflow Runner](skills/stable-diffusion-comfyui-workflow-runner/) | ⭐ 4.3 | 0 | `clawhub install stable-diffusion-comfyui-workflow-runner` |
-| [DALL-E Prompt Engineering Kit](skills/dall-e-prompt-engineering-kit/) | ⭐ 4.2 | 0 | `clawhub install dall-e-prompt-engineering-kit` |
-| [FFmpeg Media Transcoder](skills/ffmpeg-media-transcoder/) | ⭐ 4.2 | 0 | `clawhub install ffmpeg-media-transcoder` |
-| [Figma Export Automator](skills/figma-export-automator/) | ⭐ 4.2 | 0 | `clawhub install figma-export-automator` |
-| [Gemini Image Style Transfer Agent](skills/gemini-image-style-transfer-agent/) | ⭐ 4.2 | 0 | `clawhub install gemini-image-style-transfer-agent` |
-| [FFmpeg Thumbnail Mosaic Generator](skills/ffmpeg-thumbnail-mosaic-generator/) | ⭐ 4.1 | 0 | `clawhub install ffmpeg-thumbnail-mosaic-generator` |
-| [ImageMagick Batch Transform Agent](skills/imagemagick-batch-transform-agent/) | ⭐ 4.1 | 0 | `clawhub install imagemagick-batch-transform-agent` |
-| [Nano Banana Pro Image Editing](skills/nano-banana-pro-image-editing/) | ⭐ 4.1 | 0 | `clawhub install nano-banana-pro-image-editing` |
-| [OpenAI Image Gen](skills/openai-image-gen/) | ⭐ 4.1 | 0 | `clawhub install openai-image-gen` |
-| [SVG Animation Builder](skills/svg-animation-builder/) | ⭐ 4.0 | 0 | `clawhub install svg-animation-builder` |
 
 ### ✍️ Content Writing & SEO (35 skills)
 

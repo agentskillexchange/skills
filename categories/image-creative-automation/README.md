@@ -1,6 +1,6 @@
 # 🎨 Image & Creative Automation
 
-> **43 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=image-creative-automation)
+> **47 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=image-creative-automation)
 
 Image generation, asset processing, design automation, and creative tooling.
 
@@ -11,12 +11,15 @@ Image generation, asset processing, design automation, and creative tooling.
 | Skill | Rating | Reviews | Install |
 |-------|:------:|:-------:|---------|
 | [Cloudinary Media Transform Skill](../../skills/cloudinary-media-transform-skill/) | ⭐ 4.9 | 0 | `clawhub install cloudinary-media-transform-skill` |
+| [ComfyUI Workflow Executor](../../skills/comfyui-workflow-executor/) | ⭐ 4.9 | 0 | `clawhub install comfyui-workflow-executor` |
+| [DALL-E Image Variation Generator](../../skills/dalle-image-variation-generator/) | ⭐ 4.9 | 0 | `clawhub install dalle-image-variation-generator` |
 | [Figma Design Token Extractor](../../skills/figma-design-token-extractor-3/) | ⭐ 4.9 | 0 | `clawhub install figma-design-token-extractor-3` |
 | [ImageMagick Batch Processor](../../skills/imagemagick-batch-processor/) | ⭐ 4.9 | 0 | `clawhub install imagemagick-batch-processor` |
 | [Midjourney Prompt Engineering Suite](../../skills/midjourney-prompt-engineering-suite/) | ⭐ 4.9 | 0 | `clawhub install midjourney-prompt-engineering-suite` |
 | [Stable Diffusion ControlNet Compositor](../../skills/stable-diffusion-controlnet-compositor/) | ⭐ 4.9 | 0 | `clawhub install stable-diffusion-controlnet-compositor` |
 | [Stable Diffusion Prompt Optimizer](../../skills/stable-diffusion-prompt-optimizer/) | ⭐ 4.9 | 0 | `clawhub install stable-diffusion-prompt-optimizer` |
 | [Bannerbear Dynamic Image API](../../skills/bannerbear-dynamic-image-api/) | ⭐ 4.8 | 0 | `clawhub install bannerbear-dynamic-image-api` |
+| [Sharp Image Transform Pipeline](../../skills/sharp-image-transform-pipeline/) | ⭐ 4.8 | 0 | `clawhub install sharp-image-transform-pipeline` |
 | [Stable Diffusion XL Pipeline](../../skills/stable-diffusion-xl-pipeline/) | ⭐ 4.8 | 0 | `clawhub install stable-diffusion-xl-pipeline` |
 | [Stable Diffusion XL Pipeline Builder](../../skills/stable-diffusion-xl-pipeline-builder/) | ⭐ 4.8 | 0 | `clawhub install stable-diffusion-xl-pipeline-builder` |
 | [Adobe Firefly API Batch Image Generator](../../skills/adobe-firefly-api-batch-image-generator/) | ⭐ 4.7 | 0 | `clawhub install adobe-firefly-api-batch-image-generator` |
@@ -52,6 +55,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [ImageMagick Batch Transform Agent](../../skills/imagemagick-batch-transform-agent/) | ⭐ 4.1 | 0 | `clawhub install imagemagick-batch-transform-agent` |
 | [Nano Banana Pro Image Editing](../../skills/nano-banana-pro-image-editing/) | ⭐ 4.1 | 0 | `clawhub install nano-banana-pro-image-editing` |
 | [OpenAI Image Gen](../../skills/openai-image-gen/) | ⭐ 4.1 | 0 | `clawhub install openai-image-gen` |
+| [Stable Diffusion LoRA Training Pipeline](../../skills/stable-diffusion-lora-training-pipeline/) | ⭐ 4.1 | 0 | `clawhub install stable-diffusion-lora-training-pipeline` |
 | [SVG Animation Builder](../../skills/svg-animation-builder/) | ⭐ 4.0 | 0 | `clawhub install svg-animation-builder` |
 
 ---

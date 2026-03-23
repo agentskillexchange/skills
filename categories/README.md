@@ -2,7 +2,7 @@
 
 Browse skills by category. Each category contains a curated list of verified skills.
 
-> **1484 skills** across **17 categories**
+> **1496 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
@@ -15,11 +15,11 @@ Browse skills by category. Each category contains a curated list of verified ski
 | 🔒 | [**Security & Verification**](security-verification/) | **92** | Auth setup, vulnerability scanning, compliance checks, and s... |
 | 🔄 | [**Data Extraction & Transformation**](data-extraction-transformation/) | **90** | Parsing, ETL pipelines, format conversion, data wrangling, a... |
 | 📄 | [**Templates & Workflows**](templates-workflows/) | **84** | Project scaffolding, boilerplate generators, workflow templa... |
-| 📅 | [**Calendar, Email & Productivity**](calendar-email-productivity/) | **64** | Email automation, calendar management, task coordination, an... |
-| 🌐 | [**Browser Automation**](browser-automation/) | **48** | Web scraping, UI testing, headless browser control, and brow... |
+| 📅 | [**Calendar, Email & Productivity**](calendar-email-productivity/) | **68** | Email automation, calendar management, task coordination, an... |
+| 🌐 | [**Browser Automation**](browser-automation/) | **52** | Web scraping, UI testing, headless browser control, and brow... |
+| 🎨 | [**Image & Creative Automation**](image-creative-automation/) | **47** | Image generation, asset processing, design automation, and c... |
 | 🔍 | [**Research & Scraping**](research-scraping/) | **46** | Web research, data collection, content aggregation, and info... |
 | 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **45** | Third-party API bridges, webhook handlers, service connector... |
-| 🎨 | [**Image & Creative Automation**](image-creative-automation/) | **43** | Image generation, asset processing, design automation, and c... |
 | ✍️ | [**Content Writing & SEO**](content-writing-seo/) | **35** | Blog posts, SEO optimization, content strategy, and writing ... |
 | 🎙️ | [**Media & Transcription**](media-transcription/) | **31** | Audio/video processing, speech-to-text, media conversion, an... |
 | 📰 | [**WordPress & CMS**](wordpress-cms/) | **24** | Theme/plugin development, WP-CLI automation, CMS management,... |
