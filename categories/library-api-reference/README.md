@@ -1,6 +1,6 @@
 # 📚 Library & API Reference
 
-> **103 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=library-api-reference)
+> **107 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=library-api-reference)
 
 SDK documentation, API guides, framework reference material, and library usage patterns.
 
@@ -40,6 +40,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Protocol Buffers Documentation Compiler](../../skills/protobuf-documentation-compiler/) | ⭐ 4.8 | 0 | `clawhub install protobuf-documentation-compiler` |
 | [Python Docstring Linter](../../skills/python-docstring-linter-ast-pydocstyle/) | ⭐ 4.8 | 0 | `clawhub install python-docstring-linter-ast-pydocstyle` |
 | [Python Package Docs Fetcher](../../skills/python-package-docs-fetcher/) | ⭐ 4.8 | 0 | `clawhub install python-package-docs-fetcher` |
+| [Swagger OpenAPI Schema Validator](../../skills/swagger-openapi-schema-validator/) | ⭐ 4.8 | 0 | `clawhub install swagger-openapi-schema-validator` |
 | [Webhook Event Catalog](../../skills/webhook-event-catalog/) | ⭐ 4.8 | 0 | `clawhub install webhook-event-catalog` |
 | [Confluence Knowledge Base Builder](../../skills/confluence-knowledge-base-builder/) | ⭐ 4.7 | 0 | `clawhub install confluence-knowledge-base-builder` |
 | [Endpoint Health Monitor](../../skills/endpoint-health-monitor/) | ⭐ 4.7 | 0 | `clawhub install endpoint-health-monitor` |
@@ -59,6 +60,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [REST API Reference Generator](../../skills/rest-api-reference-generator/) | ⭐ 4.7 | 0 | `clawhub install rest-api-reference-generator` |
 | [Rust Crate Docs Scanner](../../skills/rust-crate-docs-scanner/) | ⭐ 4.7 | 0 | `clawhub install rust-crate-docs-scanner` |
 | [Swagger Codegen Template Customizer](../../skills/swagger-codegen-template-customizer/) | ⭐ 4.7 | 0 | `clawhub install swagger-codegen-template-customizer` |
+| [Buf Protobuf Linter](../../skills/buf-protobuf-linter/) | ⭐ 4.6 | 0 | `clawhub install buf-protobuf-linter` |
 | [Docker Image Layer Analyzer](../../skills/docker-image-layer-analyzer/) | ⭐ 4.6 | 0 | `clawhub install docker-image-layer-analyzer` |
 | [OpenAPI Spec Validator &#038; Docs Generator](../../skills/openapi-spec-validator-docs-generator/) | ⭐ 4.6 | 0 | `clawhub install openapi-spec-validator-docs-generator` |
 | [OpenAPI to SDK Generator](../../skills/openapi-to-sdk-generator/) | ⭐ 4.6 | 0 | `clawhub install openapi-to-sdk-generator` |
@@ -68,6 +70,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [REST API Response Schema Validator](../../skills/rest-api-response-schema-validator/) | ⭐ 4.6 | 0 | `clawhub install rest-api-response-schema-validator` |
 | [REST API Test Suite Generator](../../skills/rest-api-test-suite-generator/) | ⭐ 4.6 | 0 | `clawhub install rest-api-test-suite-generator` |
 | [TypeDoc Symbol Resolver](../../skills/typedoc-symbol-resolver/) | ⭐ 4.6 | 0 | `clawhub install typedoc-symbol-resolver` |
+| [GraphQL Introspection Documenter](../../skills/graphql-introspection-documenter/) | ⭐ 4.5 | 0 | `clawhub install graphql-introspection-documenter` |
 | [GraphQL Schema Introspection Analyzer](../../skills/graphql-schema-introspection-analyzer-2/) | ⭐ 4.5 | 0 | `clawhub install graphql-schema-introspection-analyzer-2` |
 | [NPM Package API Surface Extractor](../../skills/npm-package-api-surface-extractor/) | ⭐ 4.5 | 0 | `clawhub install npm-package-api-surface-extractor` |
 | [NPM Package Dependency Analyzer](../../skills/npm-package-dependency-analyzer/) | ⭐ 4.5 | 0 | `clawhub install npm-package-dependency-analyzer` |
@@ -110,6 +113,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Python Type Stub Generator](../../skills/python-type-stub-generator/) | ⭐ 4.1 | 0 | `clawhub install python-type-stub-generator` |
 | [REST Mock Server](../../skills/rest-mock-server/) | ⭐ 4.1 | 0 | `clawhub install rest-mock-server` |
 | [Rust Crate Documentation Indexer](../../skills/rust-crate-documentation-indexer/) | ⭐ 4.1 | 0 | `clawhub install rust-crate-documentation-indexer` |
+| [AsyncAPI Event Catalog Builder](../../skills/asyncapi-event-catalog-builder/) | ⭐ 4.0 | 0 | `clawhub install asyncapi-event-catalog-builder` |
 | [OpenAPI Spec Navigator](../../skills/openapi-spec-navigator/) | ⭐ 4.0 | 0 | `clawhub install openapi-spec-navigator` |
 | [OpenTelemetry Trace Analyzer](../../skills/opentelemetry-trace-analyzer/) | ⭐ 4.0 | 0 | `clawhub install opentelemetry-trace-analyzer` |
 | [Python Dependency Graph Resolver](../../skills/python-dependency-graph-resolver/) | ⭐ 4.0 | 0 | `clawhub install python-dependency-graph-resolver` |

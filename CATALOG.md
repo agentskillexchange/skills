@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1436 skills** across **17 categories** · Updated 2026-03-23 18:02 UTC
+> **1448 skills** across **17 categories** · Updated 2026-03-23 19:03 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -10,7 +10,7 @@
 
 | Metric | Value |
 |--------|-------|
-| Total Skills | **1436** |
+| Total Skills | **1448** |
 | Categories | **17** |
 | Frameworks | **11** |
 | Verification | All skills **Verified Metadata** or higher |
@@ -708,7 +708,7 @@
 | [MinIO Object Storage](skills/minio-object-storage/) | ⭐ 4.0 | 0 | `clawhub install minio-object-storage` |
 | [Together AI MCP Server](skills/together-ai-mcp-server/) | ⭐ 4.0 | 0 | `clawhub install together-ai-mcp-server` |
 
-### 📚 Library & API Reference (103 skills)
+### 📚 Library & API Reference (107 skills)
 
 | Skill | Rating | Reviews | Install |
 |-------|:------:|:-------:|---------|
@@ -742,6 +742,7 @@
 | [Protocol Buffers Documentation Compiler](skills/protobuf-documentation-compiler/) | ⭐ 4.8 | 0 | `clawhub install protobuf-documentation-compiler` |
 | [Python Docstring Linter](skills/python-docstring-linter-ast-pydocstyle/) | ⭐ 4.8 | 0 | `clawhub install python-docstring-linter-ast-pydocstyle` |
 | [Python Package Docs Fetcher](skills/python-package-docs-fetcher/) | ⭐ 4.8 | 0 | `clawhub install python-package-docs-fetcher` |
+| [Swagger OpenAPI Schema Validator](skills/swagger-openapi-schema-validator/) | ⭐ 4.8 | 0 | `clawhub install swagger-openapi-schema-validator` |
 | [Webhook Event Catalog](skills/webhook-event-catalog/) | ⭐ 4.8 | 0 | `clawhub install webhook-event-catalog` |
 | [Confluence Knowledge Base Builder](skills/confluence-knowledge-base-builder/) | ⭐ 4.7 | 0 | `clawhub install confluence-knowledge-base-builder` |
 | [Endpoint Health Monitor](skills/endpoint-health-monitor/) | ⭐ 4.7 | 0 | `clawhub install endpoint-health-monitor` |
@@ -761,6 +762,7 @@
 | [REST API Reference Generator](skills/rest-api-reference-generator/) | ⭐ 4.7 | 0 | `clawhub install rest-api-reference-generator` |
 | [Rust Crate Docs Scanner](skills/rust-crate-docs-scanner/) | ⭐ 4.7 | 0 | `clawhub install rust-crate-docs-scanner` |
 | [Swagger Codegen Template Customizer](skills/swagger-codegen-template-customizer/) | ⭐ 4.7 | 0 | `clawhub install swagger-codegen-template-customizer` |
+| [Buf Protobuf Linter](skills/buf-protobuf-linter/) | ⭐ 4.6 | 0 | `clawhub install buf-protobuf-linter` |
 | [Docker Image Layer Analyzer](skills/docker-image-layer-analyzer/) | ⭐ 4.6 | 0 | `clawhub install docker-image-layer-analyzer` |
 | [OpenAPI Spec Validator &#038; Docs Generator](skills/openapi-spec-validator-docs-generator/) | ⭐ 4.6 | 0 | `clawhub install openapi-spec-validator-docs-generator` |
 | [OpenAPI to SDK Generator](skills/openapi-to-sdk-generator/) | ⭐ 4.6 | 0 | `clawhub install openapi-to-sdk-generator` |
@@ -770,6 +772,7 @@
 | [REST API Response Schema Validator](skills/rest-api-response-schema-validator/) | ⭐ 4.6 | 0 | `clawhub install rest-api-response-schema-validator` |
 | [REST API Test Suite Generator](skills/rest-api-test-suite-generator/) | ⭐ 4.6 | 0 | `clawhub install rest-api-test-suite-generator` |
 | [TypeDoc Symbol Resolver](skills/typedoc-symbol-resolver/) | ⭐ 4.6 | 0 | `clawhub install typedoc-symbol-resolver` |
+| [GraphQL Introspection Documenter](skills/graphql-introspection-documenter/) | ⭐ 4.5 | 0 | `clawhub install graphql-introspection-documenter` |
 | [GraphQL Schema Introspection Analyzer](skills/graphql-schema-introspection-analyzer-2/) | ⭐ 4.5 | 0 | `clawhub install graphql-schema-introspection-analyzer-2` |
 | [NPM Package API Surface Extractor](skills/npm-package-api-surface-extractor/) | ⭐ 4.5 | 0 | `clawhub install npm-package-api-surface-extractor` |
 | [NPM Package Dependency Analyzer](skills/npm-package-dependency-analyzer/) | ⭐ 4.5 | 0 | `clawhub install npm-package-dependency-analyzer` |
@@ -812,11 +815,12 @@
 | [Python Type Stub Generator](skills/python-type-stub-generator/) | ⭐ 4.1 | 0 | `clawhub install python-type-stub-generator` |
 | [REST Mock Server](skills/rest-mock-server/) | ⭐ 4.1 | 0 | `clawhub install rest-mock-server` |
 | [Rust Crate Documentation Indexer](skills/rust-crate-documentation-indexer/) | ⭐ 4.1 | 0 | `clawhub install rust-crate-documentation-indexer` |
+| [AsyncAPI Event Catalog Builder](skills/asyncapi-event-catalog-builder/) | ⭐ 4.0 | 0 | `clawhub install asyncapi-event-catalog-builder` |
 | [OpenAPI Spec Navigator](skills/openapi-spec-navigator/) | ⭐ 4.0 | 0 | `clawhub install openapi-spec-navigator` |
 | [OpenTelemetry Trace Analyzer](skills/opentelemetry-trace-analyzer/) | ⭐ 4.0 | 0 | `clawhub install opentelemetry-trace-analyzer` |
 | [Python Dependency Graph Resolver](skills/python-dependency-graph-resolver/) | ⭐ 4.0 | 0 | `clawhub install python-dependency-graph-resolver` |
 
-### 📊 Monitoring & Alerts (88 skills)
+### 📊 Monitoring & Alerts (93 skills)
 
 | Skill | Rating | Reviews | Install |
 |-------|:------:|:-------:|---------|
@@ -830,6 +834,7 @@
 | [PagerDuty Incident Escalator](skills/pagerduty-incident-escalator/) | ⭐ 4.9 | 0 | `clawhub install pagerduty-incident-escalator` |
 | [PagerDuty Incident Orchestrator](skills/pagerduty-incident-orchestrator/) | ⭐ 4.9 | 0 | `clawhub install pagerduty-incident-orchestrator` |
 | [PagerDuty Incident Orchestrator](skills/pagerduty-incident-orchestrator-2/) | ⭐ 4.9 | 0 | `clawhub install pagerduty-incident-orchestrator-2` |
+| [PagerDuty Incident Runbook Linker](skills/pagerduty-incident-runbook-linker/) | ⭐ 4.9 | 0 | `clawhub install pagerduty-incident-runbook-linker` |
 | [Prometheus Alert Rule Generator](skills/prometheus-alert-rule-generator-2/) | ⭐ 4.9 | 0 | `clawhub install prometheus-alert-rule-generator-2` |
 | [Prometheus Alertmanager Bridge](skills/prometheus-alertmanager-bridge-2/) | ⭐ 4.9 | 0 | `clawhub install prometheus-alertmanager-bridge-2` |
 | [Prometheus AlertManager Rule Builder](skills/prometheus-alertmanager-rule-builder/) | ⭐ 4.9 | 0 | `clawhub install prometheus-alertmanager-rule-builder` |
@@ -851,11 +856,13 @@
 | [Datadog APM Trace Query Agent](skills/datadog-apm-trace-query-agent/) | ⭐ 4.7 | 0 | `clawhub install datadog-apm-trace-query-agent` |
 | [Datadog SLO Monitor](skills/datadog-slo-monitor/) | ⭐ 4.7 | 0 | `clawhub install datadog-slo-monitor` |
 | [Disk Space Emergency Runbook](skills/disk-space-emergency-runbook/) | ⭐ 4.7 | 0 | `clawhub install disk-space-emergency-runbook` |
+| [Grafana Dashboard JSON Migrator](skills/grafana-dashboard-json-migrator/) | ⭐ 4.7 | 0 | `clawhub install grafana-dashboard-json-migrator` |
 | [Honeycomb Query Builder](skills/honeycomb-query-builder/) | ⭐ 4.7 | 0 | `clawhub install honeycomb-query-builder` |
 | [Prometheus AlertManager Configurator](skills/prometheus-alertmanager-configurator/) | ⭐ 4.7 | 0 | `clawhub install prometheus-alertmanager-configurator` |
 | [Prometheus Custom Exporter Builder](skills/prometheus-custom-exporter-builder/) | ⭐ 4.7 | 0 | `clawhub install prometheus-custom-exporter-builder` |
 | [Uptime Robot Multi-Check Coordinator](skills/uptime-robot-multi-check-coordinator/) | ⭐ 4.7 | 0 | `clawhub install uptime-robot-multi-check-coordinator` |
 | [AWS CloudWatch Anomaly Detector](skills/aws-cloudwatch-anomaly-detector/) | ⭐ 4.6 | 0 | `clawhub install aws-cloudwatch-anomaly-detector` |
+| [Datadog APM Anomaly Detector](skills/datadog-apm-anomaly-detector/) | ⭐ 4.6 | 0 | `clawhub install datadog-apm-anomaly-detector` |
 | [Datadog APM Trace Analyzer](skills/datadog-apm-trace-analyzer-2/) | ⭐ 4.6 | 0 | `clawhub install datadog-apm-trace-analyzer-2` |
 | [Datadog MCP Server](skills/datadog-mcp-server/) | ⭐ 4.6 | 0 | `clawhub install datadog-mcp-server` |
 | [Datadog Monitor Configurator](skills/datadog-monitor-configurator/) | ⭐ 4.6 | 0 | `clawhub install datadog-monitor-configurator` |
@@ -872,6 +879,7 @@
 | [Datadog Monitor Blueprint Generator](skills/datadog-monitor-blueprint-generator/) | ⭐ 4.4 | 0 | `clawhub install datadog-monitor-blueprint-generator` |
 | [Grafana Dashboard Scaffolder](skills/grafana-dashboard-scaffolder/) | ⭐ 4.4 | 0 | `clawhub install grafana-dashboard-scaffolder` |
 | [Jaeger Trace Explorer](skills/jaeger-trace-explorer/) | ⭐ 4.4 | 0 | `clawhub install jaeger-trace-explorer` |
+| [OpenTelemetry Trace Aggregator](skills/opentelemetry-trace-aggregator/) | ⭐ 4.4 | 0 | `clawhub install opentelemetry-trace-aggregator` |
 | [PagerDuty MCP Server](skills/pagerduty-mcp-server/) | ⭐ 4.4 | 0 | `clawhub install pagerduty-mcp-server` |
 | [Prometheus / Grafana MCP Server](skills/prometheus-grafana-mcp-server/) | ⭐ 4.4 | 0 | `clawhub install prometheus-grafana-mcp-server` |
 | [Prometheus Alert Router](skills/prometheus-alert-router-2/) | ⭐ 4.4 | 0 | `clawhub install prometheus-alert-router-2` |
@@ -889,6 +897,7 @@
 | [Log Analysis](skills/log-analysis/) | ⭐ 4.3 | 0 | `clawhub install log-analysis` |
 | [OpenTelemetry Instrumentation](skills/opentelemetry-instrumentation/) | ⭐ 4.3 | 0 | `clawhub install opentelemetry-instrumentation` |
 | [Prometheus AlertManager Bridge](skills/prometheus-alertmanager-bridge/) | ⭐ 4.3 | 0 | `clawhub install prometheus-alertmanager-bridge` |
+| [Prometheus AlertManager Rule Generator](skills/prometheus-alertmanager-rule-generator/) | ⭐ 4.3 | 0 | `clawhub install prometheus-alertmanager-rule-generator` |
 | [Datadog APM Trace Analyzer](skills/datadog-apm-trace-analyzer/) | ⭐ 4.2 | 0 | `clawhub install datadog-apm-trace-analyzer` |
 | [Datadog Monitor Configurator](skills/datadog-monitor-configurator-2/) | ⭐ 4.2 | 0 | `clawhub install datadog-monitor-configurator-2` |
 | [OpsGenie MCP Server](skills/opsgenie-mcp-server/) | ⭐ 4.2 | 0 | `clawhub install opsgenie-mcp-server` |
@@ -1086,14 +1095,16 @@
 | [Nano PDF Editor](skills/nano-pdf-editor/) | ⭐ 4.0 | 0 | `clawhub install nano-pdf-editor` |
 | [Weaviate MCP Server](skills/weaviate-mcp-server/) | ⭐ 4.0 | 0 | `clawhub install weaviate-mcp-server` |
 
-### 📄 Templates & Workflows (77 skills)
+### 📄 Templates & Workflows (80 skills)
 
 | Skill | Rating | Reviews | Install |
 |-------|:------:|:-------:|---------|
+| [Argo Workflows DAG Optimizer](skills/argo-workflows-dag-optimizer/) | ⭐ 4.9 | 0 | `clawhub install argo-workflows-dag-optimizer` |
 | [Codecov Diff Analyzer](skills/codecov-diff-analyzer-2/) | ⭐ 4.9 | 0 | `clawhub install codecov-diff-analyzer-2` |
 | [Cookiecutter Project Builder](skills/cookiecutter-project-builder/) | ⭐ 4.9 | 0 | `clawhub install cookiecutter-project-builder` |
 | [DigitalOcean Droplet Manager](skills/digitalocean-droplet-manager/) | ⭐ 4.9 | 0 | `clawhub install digitalocean-droplet-manager` |
 | [Helm Chart Boilerplate Builder](skills/helm-chart-boilerplate-builder/) | ⭐ 4.9 | 0 | `clawhub install helm-chart-boilerplate-builder` |
+| [Helm Chart Template Scaffolder](skills/helm-chart-template-scaffolder/) | ⭐ 4.9 | 0 | `clawhub install helm-chart-template-scaffolder` |
 | [Incident Response Template Generator](skills/incident-response-template-generator/) | ⭐ 4.9 | 0 | `clawhub install incident-response-template-generator` |
 | [Jinja2 Template Engine](skills/jinja2-template-engine-agent/) | ⭐ 4.9 | 0 | `clawhub install jinja2-template-engine-agent` |
 | [n8n MCP](skills/n8n-mcp/) | ⭐ 4.9 | 0 | `clawhub install n8n-mcp` |
@@ -1115,6 +1126,7 @@
 | [Notion to PDF Knowledge Exporter](skills/notion-to-pdf-knowledge-exporter-2/) | ⭐ 4.8 | 0 | `clawhub install notion-to-pdf-knowledge-exporter-2` |
 | [Nx Workspace Generator Toolkit](skills/nx-workspace-generator-toolkit/) | ⭐ 4.8 | 0 | `clawhub install nx-workspace-generator-toolkit` |
 | [Swagger Codegen Orchestrator](skills/swagger-codegen-orchestrator/) | ⭐ 4.8 | 0 | `clawhub install swagger-codegen-orchestrator` |
+| [Terraform Module Registry Browser](skills/terraform-module-registry-browser/) | ⭐ 4.8 | 0 | `clawhub install terraform-module-registry-browser` |
 | [Terraform Module Scaffolder](skills/terraform-module-scaffolder/) | ⭐ 4.8 | 0 | `clawhub install terraform-module-scaffolder` |
 | [Yeoman Scaffold Runner](skills/yeoman-scaffold-runner/) | ⭐ 4.8 | 0 | `clawhub install yeoman-scaffold-runner` |
 | [Ansible Playbook Linter](skills/ansible-playbook-linter-2/) | ⭐ 4.7 | 0 | `clawhub install ansible-playbook-linter-2` |

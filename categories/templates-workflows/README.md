@@ -1,6 +1,6 @@
 # 📄 Templates & Workflows
 
-> **77 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=templates-workflows)
+> **80 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=templates-workflows)
 
 Project scaffolding, boilerplate generators, workflow templates, and starter kits.
 
@@ -10,10 +10,12 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 
 | Skill | Rating | Reviews | Install |
 |-------|:------:|:-------:|---------|
+| [Argo Workflows DAG Optimizer](../../skills/argo-workflows-dag-optimizer/) | ⭐ 4.9 | 0 | `clawhub install argo-workflows-dag-optimizer` |
 | [Codecov Diff Analyzer](../../skills/codecov-diff-analyzer-2/) | ⭐ 4.9 | 0 | `clawhub install codecov-diff-analyzer-2` |
 | [Cookiecutter Project Builder](../../skills/cookiecutter-project-builder/) | ⭐ 4.9 | 0 | `clawhub install cookiecutter-project-builder` |
 | [DigitalOcean Droplet Manager](../../skills/digitalocean-droplet-manager/) | ⭐ 4.9 | 0 | `clawhub install digitalocean-droplet-manager` |
 | [Helm Chart Boilerplate Builder](../../skills/helm-chart-boilerplate-builder/) | ⭐ 4.9 | 0 | `clawhub install helm-chart-boilerplate-builder` |
+| [Helm Chart Template Scaffolder](../../skills/helm-chart-template-scaffolder/) | ⭐ 4.9 | 0 | `clawhub install helm-chart-template-scaffolder` |
 | [Incident Response Template Generator](../../skills/incident-response-template-generator/) | ⭐ 4.9 | 0 | `clawhub install incident-response-template-generator` |
 | [Jinja2 Template Engine](../../skills/jinja2-template-engine-agent/) | ⭐ 4.9 | 0 | `clawhub install jinja2-template-engine-agent` |
 | [n8n MCP](../../skills/n8n-mcp/) | ⭐ 4.9 | 0 | `clawhub install n8n-mcp` |
@@ -35,6 +37,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Notion to PDF Knowledge Exporter](../../skills/notion-to-pdf-knowledge-exporter-2/) | ⭐ 4.8 | 0 | `clawhub install notion-to-pdf-knowledge-exporter-2` |
 | [Nx Workspace Generator Toolkit](../../skills/nx-workspace-generator-toolkit/) | ⭐ 4.8 | 0 | `clawhub install nx-workspace-generator-toolkit` |
 | [Swagger Codegen Orchestrator](../../skills/swagger-codegen-orchestrator/) | ⭐ 4.8 | 0 | `clawhub install swagger-codegen-orchestrator` |
+| [Terraform Module Registry Browser](../../skills/terraform-module-registry-browser/) | ⭐ 4.8 | 0 | `clawhub install terraform-module-registry-browser` |
 | [Terraform Module Scaffolder](../../skills/terraform-module-scaffolder/) | ⭐ 4.8 | 0 | `clawhub install terraform-module-scaffolder` |
 | [Yeoman Scaffold Runner](../../skills/yeoman-scaffold-runner/) | ⭐ 4.8 | 0 | `clawhub install yeoman-scaffold-runner` |
 | [Ansible Playbook Linter](../../skills/ansible-playbook-linter-2/) | ⭐ 4.7 | 0 | `clawhub install ansible-playbook-linter-2` |
