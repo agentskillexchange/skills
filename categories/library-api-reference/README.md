@@ -1,6 +1,6 @@
 # 📚 Library & API Reference
 
-> **86 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=library-api-reference)
+> **90 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=library-api-reference)
 
 SDK documentation, API guides, framework reference material, and library usage patterns.
 
@@ -33,6 +33,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [OpenAPI Spec Linter &#038; Docs Generator](../../skills/openapi-spec-linter-docs-generator/) | ⭐ 4.8 | 0 | `clawhub install openapi-spec-linter-docs-generator` |
 | [OpenAPI Spec Reference Generator](../../skills/openapi-spec-reference-generator-2/) | ⭐ 4.8 | 0 | `clawhub install openapi-spec-reference-generator-2` |
 | [OpenAPI Specification Validator](../../skills/openapi-specification-validator-agent/) | ⭐ 4.8 | 0 | `clawhub install openapi-specification-validator-agent` |
+| [Python Docstring Linter](../../skills/python-docstring-linter-ast-pydocstyle/) | ⭐ 4.8 | 0 | `clawhub install python-docstring-linter-ast-pydocstyle` |
 | [Python Package Docs Fetcher](../../skills/python-package-docs-fetcher/) | ⭐ 4.8 | 0 | `clawhub install python-package-docs-fetcher` |
 | [Webhook Event Catalog](../../skills/webhook-event-catalog/) | ⭐ 4.8 | 0 | `clawhub install webhook-event-catalog` |
 | [Confluence Knowledge Base Builder](../../skills/confluence-knowledge-base-builder/) | ⭐ 4.7 | 0 | `clawhub install confluence-knowledge-base-builder` |
@@ -62,6 +63,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [TypeDoc Symbol Resolver](../../skills/typedoc-symbol-resolver/) | ⭐ 4.6 | 0 | `clawhub install typedoc-symbol-resolver` |
 | [NPM Package API Surface Extractor](../../skills/npm-package-api-surface-extractor/) | ⭐ 4.5 | 0 | `clawhub install npm-package-api-surface-extractor` |
 | [NPM Package Dependency Analyzer](../../skills/npm-package-dependency-analyzer/) | ⭐ 4.5 | 0 | `clawhub install npm-package-dependency-analyzer` |
+| [NPM Package Explorer](../../skills/npm-package-explorer-registry-api/) | ⭐ 4.5 | 0 | `clawhub install npm-package-explorer-registry-api` |
 | [OpenAPI Spec Reference Indexer](../../skills/openapi-spec-reference-indexer-2/) | ⭐ 4.5 | 0 | `clawhub install openapi-spec-reference-indexer-2` |
 | [OpenAPI Spec Validator &#038; Mock Server](../../skills/openapi-spec-validator-mock-server/) | ⭐ 4.5 | 0 | `clawhub install openapi-spec-validator-mock-server` |
 | [Python PyPI Package Reference Indexer](../../skills/python-pypi-package-reference-indexer/) | ⭐ 4.5 | 0 | `clawhub install python-pypi-package-reference-indexer` |
@@ -73,6 +75,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [OpenAPI Spec Reference Indexer](../../skills/openapi-spec-reference-indexer-3/) | ⭐ 4.4 | 0 | `clawhub install openapi-spec-reference-indexer-3` |
 | [Protobuf Schema Registry Manager](../../skills/protobuf-schema-registry-manager/) | ⭐ 4.4 | 0 | `clawhub install protobuf-schema-registry-manager` |
 | [Python Docstring Extractor](../../skills/python-docstring-extractor-2/) | ⭐ 4.4 | 0 | `clawhub install python-docstring-extractor-2` |
+| [REST API Documentation Generator](../../skills/rest-api-doc-generator-openapi/) | ⭐ 4.4 | 0 | `clawhub install rest-api-doc-generator-openapi` |
 | [SDK Version Checker](../../skills/sdk-version-checker/) | ⭐ 4.4 | 0 | `clawhub install sdk-version-checker` |
 | [Swagger Codegen API Client Builder](../../skills/swagger-codegen-api-client-builder/) | ⭐ 4.4 | 0 | `clawhub install swagger-codegen-api-client-builder` |
 | [API Changelog Watcher](../../skills/api-changelog-watcher/) | ⭐ 4.3 | 0 | `clawhub install api-changelog-watcher` |
@@ -90,6 +93,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Auth Token Rotator](../../skills/auth-token-rotator/) | ⭐ 4.1 | 0 | `clawhub install auth-token-rotator` |
 | [GraphQL Schema Explorer](../../skills/graphql-schema-explorer/) | ⭐ 4.1 | 0 | `clawhub install graphql-schema-explorer` |
 | [GraphQL Schema Introspection Analyzer](../../skills/graphql-schema-introspection-analyzer/) | ⭐ 4.1 | 0 | `clawhub install graphql-schema-introspection-analyzer` |
+| [GraphQL Schema Stitcher](../../skills/graphql-schema-stitcher-federation/) | ⭐ 4.1 | 0 | `clawhub install graphql-schema-stitcher-federation` |
 | [Postman Collection Runner](../../skills/postman-collection-runner/) | ⭐ 4.1 | 0 | `clawhub install postman-collection-runner` |
 | [Python Type Stub Generator](../../skills/python-type-stub-generator/) | ⭐ 4.1 | 0 | `clawhub install python-type-stub-generator` |
 | [REST Mock Server](../../skills/rest-mock-server/) | ⭐ 4.1 | 0 | `clawhub install rest-mock-server` |
@@ -121,7 +125,7 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (217 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (174 skills)
 - ✅ [Code Quality & Review](../code-quality-review/) (131 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (118 skills)
+- 🛠️ [Developer Tools](../developer-tools/) (122 skills)
 
 ---
 

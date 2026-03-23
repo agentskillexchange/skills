@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1280 skills** across **17 categories** · Updated 2026-03-23 05:03 UTC
+> **1292 skills** across **17 categories** · Updated 2026-03-23 06:03 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -10,7 +10,7 @@
 
 | Metric | Value |
 |--------|-------|
-| Total Skills | **1280** |
+| Total Skills | **1292** |
 | Categories | **17** |
 | Frameworks | **11** |
 | Verification | All skills **Verified Metadata** or higher |
@@ -556,11 +556,12 @@
 | [SonarQube PR Gate](skills/sonarqube-pr-gate-skill/) | ⭐ 4.0 | 0 | `clawhub install sonarqube-pr-gate-skill` |
 | [SonarQube Quality Gate Monitor](skills/sonarqube-quality-gate-monitor-2/) | ⭐ 4.0 | 0 | `clawhub install sonarqube-quality-gate-monitor-2` |
 
-### 🛠️ Developer Tools (118 skills)
+### 🛠️ Developer Tools (122 skills)
 
 | Skill | Rating | Reviews | Install |
 |-------|:------:|:-------:|---------|
 | [Database Migration Assistant](skills/database-migration-assistant/) | ⭐ 4.9 | 0 | `clawhub install database-migration-assistant` |
+| [Docker Compose Orchestrator](skills/docker-compose-orchestrator-v2/) | ⭐ 4.9 | 0 | `clawhub install docker-compose-orchestrator-v2` |
 | [Environment Setup Skill](skills/environment-setup-skill/) | ⭐ 4.9 | 0 | `clawhub install environment-setup-skill` |
 | [ESLint Code Review](skills/eslint-code-review/) | ⭐ 4.9 | 0 | `clawhub install eslint-code-review` |
 | [Git Bisect Automator](skills/git-bisect-automator/) | ⭐ 4.9 | 0 | `clawhub install git-bisect-automator` |
@@ -568,6 +569,7 @@
 | [LlamaIndex Agent](skills/llamaindex-agent/) | ⭐ 4.9 | 0 | `clawhub install llamaindex-agent` |
 | [Makefile Generator Skill](skills/makefile-generator-skill/) | ⭐ 4.9 | 0 | `clawhub install makefile-generator-skill` |
 | [Nginx Error Log Parser](skills/nginx-error-log-parser/) | ⭐ 4.9 | 0 | `clawhub install nginx-error-log-parser` |
+| [Package Vulnerability Scanner](skills/package-vuln-scanner-osv-api/) | ⭐ 4.9 | 0 | `clawhub install package-vuln-scanner-osv-api` |
 | [PostgreSQL Query Optimizer Agent](skills/postgresql-query-optimizer-explain-api/) | ⭐ 4.9 | 0 | `clawhub install postgresql-query-optimizer-explain-api` |
 | [PR Description Writer Skill](skills/pr-description-writer-skill/) | ⭐ 4.9 | 0 | `clawhub install pr-description-writer-skill` |
 | [Terraform Cloud MCP Server](skills/terraform-cloud-mcp-server/) | ⭐ 4.9 | 0 | `clawhub install terraform-cloud-mcp-server` |
@@ -587,6 +589,7 @@
 | [Nix Flake Configuration Builder](skills/nix-flake-configuration-builder/) | ⭐ 4.8 | 0 | `clawhub install nix-flake-configuration-builder` |
 | [OpenAPI Spec Validator](skills/openapi-spec-validator-agent/) | ⭐ 4.8 | 0 | `clawhub install openapi-spec-validator-agent` |
 | [Regex Pattern Test Suite Generator](skills/regex-pattern-test-suite-generator/) | ⭐ 4.8 | 0 | `clawhub install regex-pattern-test-suite-generator` |
+| [TypeScript AST Refactor](skills/typescript-ast-refactor-ts-morph/) | ⭐ 4.8 | 0 | `clawhub install typescript-ast-refactor-ts-morph` |
 | [AWS CloudWatch Alarm Triage](skills/aws-cloudwatch-alarm-triage-4/) | ⭐ 4.7 | 0 | `clawhub install aws-cloudwatch-alarm-triage-4` |
 | [Azure DevOps MCP Server](skills/azure-devops-mcp-server/) | ⭐ 4.7 | 0 | `clawhub install azure-devops-mcp-server` |
 | [Bazel Build Graph Analyzer](skills/bazel-build-graph-analyzer/) | ⭐ 4.7 | 0 | `clawhub install bazel-build-graph-analyzer` |
@@ -617,6 +620,7 @@
 | [Docker Compose Service Graph Visualizer](skills/docker-compose-service-graph-visualizer/) | ⭐ 4.5 | 0 | `clawhub install docker-compose-service-graph-visualizer` |
 | [Docker MCP Server](skills/docker-mcp-server/) | ⭐ 4.5 | 0 | `clawhub install docker-mcp-server` |
 | [Dotfiles Sync Agent](skills/dotfiles-sync-agent/) | ⭐ 4.5 | 0 | `clawhub install dotfiles-sync-agent` |
+| [Git Branch Analyzer](skills/git-branch-analyzer-libgit2/) | ⭐ 4.5 | 0 | `clawhub install git-branch-analyzer-libgit2` |
 | [GitHub Operations Skill](skills/github-operations-skill/) | ⭐ 4.5 | 0 | `clawhub install github-operations-skill` |
 | [MySQL Query Agent](skills/mysql-query-agent/) | ⭐ 4.5 | 0 | `clawhub install mysql-query-agent` |
 | [n8n GitHub Issue-to-Jira Ticket Automator](skills/n8n-github-jira-ticket-automator/) | ⭐ 4.5 | 0 | `clawhub install n8n-github-jira-ticket-automator` |
@@ -679,7 +683,7 @@
 | [MinIO Object Storage](skills/minio-object-storage/) | ⭐ 4.0 | 0 | `clawhub install minio-object-storage` |
 | [Together AI MCP Server](skills/together-ai-mcp-server/) | ⭐ 4.0 | 0 | `clawhub install together-ai-mcp-server` |
 
-### 📚 Library & API Reference (86 skills)
+### 📚 Library & API Reference (90 skills)
 
 | Skill | Rating | Reviews | Install |
 |-------|:------:|:-------:|---------|
@@ -706,6 +710,7 @@
 | [OpenAPI Spec Linter &#038; Docs Generator](skills/openapi-spec-linter-docs-generator/) | ⭐ 4.8 | 0 | `clawhub install openapi-spec-linter-docs-generator` |
 | [OpenAPI Spec Reference Generator](skills/openapi-spec-reference-generator-2/) | ⭐ 4.8 | 0 | `clawhub install openapi-spec-reference-generator-2` |
 | [OpenAPI Specification Validator](skills/openapi-specification-validator-agent/) | ⭐ 4.8 | 0 | `clawhub install openapi-specification-validator-agent` |
+| [Python Docstring Linter](skills/python-docstring-linter-ast-pydocstyle/) | ⭐ 4.8 | 0 | `clawhub install python-docstring-linter-ast-pydocstyle` |
 | [Python Package Docs Fetcher](skills/python-package-docs-fetcher/) | ⭐ 4.8 | 0 | `clawhub install python-package-docs-fetcher` |
 | [Webhook Event Catalog](skills/webhook-event-catalog/) | ⭐ 4.8 | 0 | `clawhub install webhook-event-catalog` |
 | [Confluence Knowledge Base Builder](skills/confluence-knowledge-base-builder/) | ⭐ 4.7 | 0 | `clawhub install confluence-knowledge-base-builder` |
@@ -735,6 +740,7 @@
 | [TypeDoc Symbol Resolver](skills/typedoc-symbol-resolver/) | ⭐ 4.6 | 0 | `clawhub install typedoc-symbol-resolver` |
 | [NPM Package API Surface Extractor](skills/npm-package-api-surface-extractor/) | ⭐ 4.5 | 0 | `clawhub install npm-package-api-surface-extractor` |
 | [NPM Package Dependency Analyzer](skills/npm-package-dependency-analyzer/) | ⭐ 4.5 | 0 | `clawhub install npm-package-dependency-analyzer` |
+| [NPM Package Explorer](skills/npm-package-explorer-registry-api/) | ⭐ 4.5 | 0 | `clawhub install npm-package-explorer-registry-api` |
 | [OpenAPI Spec Reference Indexer](skills/openapi-spec-reference-indexer-2/) | ⭐ 4.5 | 0 | `clawhub install openapi-spec-reference-indexer-2` |
 | [OpenAPI Spec Validator &#038; Mock Server](skills/openapi-spec-validator-mock-server/) | ⭐ 4.5 | 0 | `clawhub install openapi-spec-validator-mock-server` |
 | [Python PyPI Package Reference Indexer](skills/python-pypi-package-reference-indexer/) | ⭐ 4.5 | 0 | `clawhub install python-pypi-package-reference-indexer` |
@@ -746,6 +752,7 @@
 | [OpenAPI Spec Reference Indexer](skills/openapi-spec-reference-indexer-3/) | ⭐ 4.4 | 0 | `clawhub install openapi-spec-reference-indexer-3` |
 | [Protobuf Schema Registry Manager](skills/protobuf-schema-registry-manager/) | ⭐ 4.4 | 0 | `clawhub install protobuf-schema-registry-manager` |
 | [Python Docstring Extractor](skills/python-docstring-extractor-2/) | ⭐ 4.4 | 0 | `clawhub install python-docstring-extractor-2` |
+| [REST API Documentation Generator](skills/rest-api-doc-generator-openapi/) | ⭐ 4.4 | 0 | `clawhub install rest-api-doc-generator-openapi` |
 | [SDK Version Checker](skills/sdk-version-checker/) | ⭐ 4.4 | 0 | `clawhub install sdk-version-checker` |
 | [Swagger Codegen API Client Builder](skills/swagger-codegen-api-client-builder/) | ⭐ 4.4 | 0 | `clawhub install swagger-codegen-api-client-builder` |
 | [API Changelog Watcher](skills/api-changelog-watcher/) | ⭐ 4.3 | 0 | `clawhub install api-changelog-watcher` |
@@ -763,6 +770,7 @@
 | [Auth Token Rotator](skills/auth-token-rotator/) | ⭐ 4.1 | 0 | `clawhub install auth-token-rotator` |
 | [GraphQL Schema Explorer](skills/graphql-schema-explorer/) | ⭐ 4.1 | 0 | `clawhub install graphql-schema-explorer` |
 | [GraphQL Schema Introspection Analyzer](skills/graphql-schema-introspection-analyzer/) | ⭐ 4.1 | 0 | `clawhub install graphql-schema-introspection-analyzer` |
+| [GraphQL Schema Stitcher](skills/graphql-schema-stitcher-federation/) | ⭐ 4.1 | 0 | `clawhub install graphql-schema-stitcher-federation` |
 | [Postman Collection Runner](skills/postman-collection-runner/) | ⭐ 4.1 | 0 | `clawhub install postman-collection-runner` |
 | [Python Type Stub Generator](skills/python-type-stub-generator/) | ⭐ 4.1 | 0 | `clawhub install python-type-stub-generator` |
 | [REST Mock Server](skills/rest-mock-server/) | ⭐ 4.1 | 0 | `clawhub install rest-mock-server` |
@@ -1065,7 +1073,7 @@
 | [ESLint Rule Auditor](skills/eslint-rule-auditor-2/) | ⭐ 4.0 | 0 | `clawhub install eslint-rule-auditor-2` |
 | [GitHub Actions Workflow Generator](skills/github-actions-workflow-generator-v2/) | ⭐ 4.0 | 0 | `clawhub install github-actions-workflow-generator-v2` |
 
-### 📅 Calendar, Email & Productivity (57 skills)
+### 📅 Calendar, Email & Productivity (61 skills)
 
 | Skill | Rating | Reviews | Install |
 |-------|:------:|:-------:|---------|
@@ -1073,6 +1081,7 @@
 | [Microsoft Graph Email Triage Agent](skills/microsoft-graph-email-triage-agent/) | ⭐ 4.9 | 0 | `clawhub install microsoft-graph-email-triage-agent` |
 | [Notion AI Workspace](skills/notion-ai-workspace/) | ⭐ 4.9 | 0 | `clawhub install notion-ai-workspace` |
 | [Outlook Mail Triage Skill](skills/outlook-mail-triage-microsoft-graph/) | ⭐ 4.9 | 0 | `clawhub install outlook-mail-triage-microsoft-graph` |
+| [Slack Workflow Bot](skills/slack-workflow-bot-bolt-sdk/) | ⭐ 4.9 | 0 | `clawhub install slack-workflow-bot-bolt-sdk` |
 | [Google Calendar Conflict Detector](skills/google-calendar-conflict-detector/) | ⭐ 4.8 | 0 | `clawhub install google-calendar-conflict-detector` |
 | [Google Calendar Conflict Resolver](skills/google-calendar-conflict-resolver-2/) | ⭐ 4.8 | 0 | `clawhub install google-calendar-conflict-resolver-2` |
 | [Google Calendar Conflict Resolver](skills/google-calendar-conflict-resolver-4/) | ⭐ 4.8 | 0 | `clawhub install google-calendar-conflict-resolver-4` |
@@ -1087,9 +1096,11 @@
 | [Weather Forecast Skill](skills/weather-forecast-skill/) | ⭐ 4.8 | 0 | `clawhub install weather-forecast-skill` |
 | [Zoom Meeting Summarizer](skills/zoom-meeting-summarizer/) | ⭐ 4.8 | 0 | `clawhub install zoom-meeting-summarizer` |
 | [Airtable MCP Server](skills/airtable-mcp-server/) | ⭐ 4.7 | 0 | `clawhub install airtable-mcp-server` |
+| [IMAP Email Classifier](skills/imap-email-classifier-ml/) | ⭐ 4.7 | 0 | `clawhub install imap-email-classifier-ml` |
 | [Notion MCP Server](skills/notion-mcp-server/) | ⭐ 4.7 | 0 | `clawhub install notion-mcp-server` |
 | [Notion Workspace Sync Engine](skills/notion-workspace-sync-engine-2/) | ⭐ 4.7 | 0 | `clawhub install notion-workspace-sync-engine-2` |
 | [Outlook Email Automation](skills/outlook-email-automation/) | ⭐ 4.7 | 0 | `clawhub install outlook-email-automation` |
+| [Todoist Project Automator](skills/todoist-project-automator-api-v2/) | ⭐ 4.7 | 0 | `clawhub install todoist-project-automator-api-v2` |
 | [Microsoft Outlook Mail Sorter](skills/ms-outlook-mail-sorter/) | ⭐ 4.6 | 0 | `clawhub install ms-outlook-mail-sorter` |
 | [Notion AI Document Summarizer &#038; Action Item Extractor](skills/notion-ai-doc-summarizer/) | ⭐ 4.6 | 0 | `clawhub install notion-ai-doc-summarizer` |
 | [Outlook Rule Automation Manager](skills/outlook-rule-automation-manager/) | ⭐ 4.6 | 0 | `clawhub install outlook-rule-automation-manager` |
@@ -1123,6 +1134,7 @@
 | [Teams Webhook Configurator](skills/teams-webhook-configurator/) | ⭐ 4.2 | 0 | `clawhub install teams-webhook-configurator` |
 | [Discord Bot Manager](skills/discord-bot-manager/) | ⭐ 4.1 | 0 | `clawhub install discord-bot-manager` |
 | [Gmail Smart Triage Agent](skills/gmail-smart-triage-2/) | ⭐ 4.1 | 0 | `clawhub install gmail-smart-triage-2` |
+| [Google Calendar Sync Agent](skills/google-calendar-sync-agent-2/) | ⭐ 4.1 | 0 | `clawhub install google-calendar-sync-agent-2` |
 | [Notion Workspace Sync Engine](skills/notion-workspace-sync-engine/) | ⭐ 4.1 | 0 | `clawhub install notion-workspace-sync-engine` |
 | [Outlook Email Automation](skills/outlook-email-automation-2/) | ⭐ 4.1 | 0 | `clawhub install outlook-email-automation-2` |
 | [Outlook Mail Triage Assistant](skills/outlook-mail-triage-assistant/) | ⭐ 4.1 | 0 | `clawhub install outlook-mail-triage-assistant` |

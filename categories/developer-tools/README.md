@@ -1,6 +1,6 @@
 # 🛠️ Developer Tools
 
-> **118 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=developer-tools)
+> **122 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=developer-tools)
 
 CLI helpers, dev environment setup, productivity utilities, and developer workflows.
 
@@ -11,6 +11,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | Skill | Rating | Reviews | Install |
 |-------|:------:|:-------:|---------|
 | [Database Migration Assistant](../../skills/database-migration-assistant/) | ⭐ 4.9 | 0 | `clawhub install database-migration-assistant` |
+| [Docker Compose Orchestrator](../../skills/docker-compose-orchestrator-v2/) | ⭐ 4.9 | 0 | `clawhub install docker-compose-orchestrator-v2` |
 | [Environment Setup Skill](../../skills/environment-setup-skill/) | ⭐ 4.9 | 0 | `clawhub install environment-setup-skill` |
 | [ESLint Code Review](../../skills/eslint-code-review/) | ⭐ 4.9 | 0 | `clawhub install eslint-code-review` |
 | [Git Bisect Automator](../../skills/git-bisect-automator/) | ⭐ 4.9 | 0 | `clawhub install git-bisect-automator` |
@@ -18,6 +19,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [LlamaIndex Agent](../../skills/llamaindex-agent/) | ⭐ 4.9 | 0 | `clawhub install llamaindex-agent` |
 | [Makefile Generator Skill](../../skills/makefile-generator-skill/) | ⭐ 4.9 | 0 | `clawhub install makefile-generator-skill` |
 | [Nginx Error Log Parser](../../skills/nginx-error-log-parser/) | ⭐ 4.9 | 0 | `clawhub install nginx-error-log-parser` |
+| [Package Vulnerability Scanner](../../skills/package-vuln-scanner-osv-api/) | ⭐ 4.9 | 0 | `clawhub install package-vuln-scanner-osv-api` |
 | [PostgreSQL Query Optimizer Agent](../../skills/postgresql-query-optimizer-explain-api/) | ⭐ 4.9 | 0 | `clawhub install postgresql-query-optimizer-explain-api` |
 | [PR Description Writer Skill](../../skills/pr-description-writer-skill/) | ⭐ 4.9 | 0 | `clawhub install pr-description-writer-skill` |
 | [Terraform Cloud MCP Server](../../skills/terraform-cloud-mcp-server/) | ⭐ 4.9 | 0 | `clawhub install terraform-cloud-mcp-server` |
@@ -37,6 +39,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Nix Flake Configuration Builder](../../skills/nix-flake-configuration-builder/) | ⭐ 4.8 | 0 | `clawhub install nix-flake-configuration-builder` |
 | [OpenAPI Spec Validator](../../skills/openapi-spec-validator-agent/) | ⭐ 4.8 | 0 | `clawhub install openapi-spec-validator-agent` |
 | [Regex Pattern Test Suite Generator](../../skills/regex-pattern-test-suite-generator/) | ⭐ 4.8 | 0 | `clawhub install regex-pattern-test-suite-generator` |
+| [TypeScript AST Refactor](../../skills/typescript-ast-refactor-ts-morph/) | ⭐ 4.8 | 0 | `clawhub install typescript-ast-refactor-ts-morph` |
 | [AWS CloudWatch Alarm Triage](../../skills/aws-cloudwatch-alarm-triage-4/) | ⭐ 4.7 | 0 | `clawhub install aws-cloudwatch-alarm-triage-4` |
 | [Azure DevOps MCP Server](../../skills/azure-devops-mcp-server/) | ⭐ 4.7 | 0 | `clawhub install azure-devops-mcp-server` |
 | [Bazel Build Graph Analyzer](../../skills/bazel-build-graph-analyzer/) | ⭐ 4.7 | 0 | `clawhub install bazel-build-graph-analyzer` |
@@ -67,6 +70,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Docker Compose Service Graph Visualizer](../../skills/docker-compose-service-graph-visualizer/) | ⭐ 4.5 | 0 | `clawhub install docker-compose-service-graph-visualizer` |
 | [Docker MCP Server](../../skills/docker-mcp-server/) | ⭐ 4.5 | 0 | `clawhub install docker-mcp-server` |
 | [Dotfiles Sync Agent](../../skills/dotfiles-sync-agent/) | ⭐ 4.5 | 0 | `clawhub install dotfiles-sync-agent` |
+| [Git Branch Analyzer](../../skills/git-branch-analyzer-libgit2/) | ⭐ 4.5 | 0 | `clawhub install git-branch-analyzer-libgit2` |
 | [GitHub Operations Skill](../../skills/github-operations-skill/) | ⭐ 4.5 | 0 | `clawhub install github-operations-skill` |
 | [MySQL Query Agent](../../skills/mysql-query-agent/) | ⭐ 4.5 | 0 | `clawhub install mysql-query-agent` |
 | [n8n GitHub Issue-to-Jira Ticket Automator](../../skills/n8n-github-jira-ticket-automator/) | ⭐ 4.5 | 0 | `clawhub install n8n-github-jira-ticket-automator` |
@@ -153,7 +157,7 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (217 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (174 skills)
 - ✅ [Code Quality & Review](../code-quality-review/) (131 skills)
-- 📚 [Library & API Reference](../library-api-reference/) (86 skills)
+- 📚 [Library & API Reference](../library-api-reference/) (90 skills)
 
 ---
 

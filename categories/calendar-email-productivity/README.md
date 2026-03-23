@@ -1,6 +1,6 @@
 # 📅 Calendar, Email & Productivity
 
-> **57 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=calendar-email-productivity)
+> **61 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=calendar-email-productivity)
 
 Email automation, calendar management, task coordination, and productivity tools.
 
@@ -14,6 +14,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Microsoft Graph Email Triage Agent](../../skills/microsoft-graph-email-triage-agent/) | ⭐ 4.9 | 0 | `clawhub install microsoft-graph-email-triage-agent` |
 | [Notion AI Workspace](../../skills/notion-ai-workspace/) | ⭐ 4.9 | 0 | `clawhub install notion-ai-workspace` |
 | [Outlook Mail Triage Skill](../../skills/outlook-mail-triage-microsoft-graph/) | ⭐ 4.9 | 0 | `clawhub install outlook-mail-triage-microsoft-graph` |
+| [Slack Workflow Bot](../../skills/slack-workflow-bot-bolt-sdk/) | ⭐ 4.9 | 0 | `clawhub install slack-workflow-bot-bolt-sdk` |
 | [Google Calendar Conflict Detector](../../skills/google-calendar-conflict-detector/) | ⭐ 4.8 | 0 | `clawhub install google-calendar-conflict-detector` |
 | [Google Calendar Conflict Resolver](../../skills/google-calendar-conflict-resolver-2/) | ⭐ 4.8 | 0 | `clawhub install google-calendar-conflict-resolver-2` |
 | [Google Calendar Conflict Resolver](../../skills/google-calendar-conflict-resolver-4/) | ⭐ 4.8 | 0 | `clawhub install google-calendar-conflict-resolver-4` |
@@ -28,9 +29,11 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Weather Forecast Skill](../../skills/weather-forecast-skill/) | ⭐ 4.8 | 0 | `clawhub install weather-forecast-skill` |
 | [Zoom Meeting Summarizer](../../skills/zoom-meeting-summarizer/) | ⭐ 4.8 | 0 | `clawhub install zoom-meeting-summarizer` |
 | [Airtable MCP Server](../../skills/airtable-mcp-server/) | ⭐ 4.7 | 0 | `clawhub install airtable-mcp-server` |
+| [IMAP Email Classifier](../../skills/imap-email-classifier-ml/) | ⭐ 4.7 | 0 | `clawhub install imap-email-classifier-ml` |
 | [Notion MCP Server](../../skills/notion-mcp-server/) | ⭐ 4.7 | 0 | `clawhub install notion-mcp-server` |
 | [Notion Workspace Sync Engine](../../skills/notion-workspace-sync-engine-2/) | ⭐ 4.7 | 0 | `clawhub install notion-workspace-sync-engine-2` |
 | [Outlook Email Automation](../../skills/outlook-email-automation/) | ⭐ 4.7 | 0 | `clawhub install outlook-email-automation` |
+| [Todoist Project Automator](../../skills/todoist-project-automator-api-v2/) | ⭐ 4.7 | 0 | `clawhub install todoist-project-automator-api-v2` |
 | [Microsoft Outlook Mail Sorter](../../skills/ms-outlook-mail-sorter/) | ⭐ 4.6 | 0 | `clawhub install ms-outlook-mail-sorter` |
 | [Notion AI Document Summarizer &#038; Action Item Extractor](../../skills/notion-ai-doc-summarizer/) | ⭐ 4.6 | 0 | `clawhub install notion-ai-doc-summarizer` |
 | [Outlook Rule Automation Manager](../../skills/outlook-rule-automation-manager/) | ⭐ 4.6 | 0 | `clawhub install outlook-rule-automation-manager` |
@@ -64,6 +67,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Teams Webhook Configurator](../../skills/teams-webhook-configurator/) | ⭐ 4.2 | 0 | `clawhub install teams-webhook-configurator` |
 | [Discord Bot Manager](../../skills/discord-bot-manager/) | ⭐ 4.1 | 0 | `clawhub install discord-bot-manager` |
 | [Gmail Smart Triage Agent](../../skills/gmail-smart-triage-2/) | ⭐ 4.1 | 0 | `clawhub install gmail-smart-triage-2` |
+| [Google Calendar Sync Agent](../../skills/google-calendar-sync-agent-2/) | ⭐ 4.1 | 0 | `clawhub install google-calendar-sync-agent-2` |
 | [Notion Workspace Sync Engine](../../skills/notion-workspace-sync-engine/) | ⭐ 4.1 | 0 | `clawhub install notion-workspace-sync-engine` |
 | [Outlook Email Automation](../../skills/outlook-email-automation-2/) | ⭐ 4.1 | 0 | `clawhub install outlook-email-automation-2` |
 | [Outlook Mail Triage Assistant](../../skills/outlook-mail-triage-assistant/) | ⭐ 4.1 | 0 | `clawhub install outlook-mail-triage-assistant` |
@@ -92,7 +96,7 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (217 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (174 skills)
 - ✅ [Code Quality & Review](../code-quality-review/) (131 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (118 skills)
+- 🛠️ [Developer Tools](../developer-tools/) (122 skills)
 
 ---
 
