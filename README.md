@@ -4,8 +4,8 @@
 
 ### The largest open collection of verified AI agent skills
 
-[![Skills](https://img.shields.io/badge/skills-1%2C200+-6366f1?style=for-the-badge)](https://agentskillexchange.com/browse-skills/)
-[![Verified](https://img.shields.io/badge/verified-1%2C200+-10b981?style=for-the-badge)](https://agentskillexchange.com/verified-skills/)
+[![Skills](https://img.shields.io/badge/skills-1%2C268+-6366f1?style=for-the-badge)](https://agentskillexchange.com/browse-skills/)
+[![Verified](https://img.shields.io/badge/verified-1%2C268+-10b981?style=for-the-badge)](https://agentskillexchange.com/verified-skills/)
 [![Frameworks](https://img.shields.io/badge/frameworks-11-8b5cf6?style=for-the-badge)](https://agentskillexchange.com/browse-skills/)
 [![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)
 
@@ -42,7 +42,7 @@ clawhub install <slug>
 
 ## Why This Repo?
 
-- **1,200+ skills and growing** — new skills added every hour, automatically synced from the [live marketplace](https://agentskillexchange.com)
+- **1,268+ skills and growing** — new skills added every hour, automatically synced from the [live marketplace](https://agentskillexchange.com)
 - **Community-rated** — every skill has real ratings and reviews from users
 - **3-tier verification** — Listed → Verified Metadata → Security Reviewed — every skill is vetted before reaching production-ready status
 - **11 frameworks** — Claude Code, Cursor, Codex, Gemini, OpenClaw, and more — install for any agent with one command
@@ -53,25 +53,42 @@ clawhub install <slug>
 
 ## Categories
 
-| | Category | |
-|---|---|---|
-| 🔧 | CI/CD Integrations | [**213 skills →**](https://agentskillexchange.com/browse-skills/?category=ci-cd-integrations) |
-| 📋 | Runbooks & Diagnostics | [**170 skills →**](https://agentskillexchange.com/browse-skills/?category=runbooks-diagnostics) |
-| ✅ | Code Quality & Review | [**127 skills →**](https://agentskillexchange.com/browse-skills/?category=code-quality-review) |
-| 🛠️ | Developer Tools | [**118 skills →**](https://agentskillexchange.com/browse-skills/?category=developer-tools) |
-| 📚 | Library & API Reference | [**86 skills →**](https://agentskillexchange.com/browse-skills/?category=library-api-reference) |
-| 📊 | Monitoring & Alerts | [**72 skills →**](https://agentskillexchange.com/browse-skills/?category=monitoring-alerts) |
-| 🔄 | Data Extraction & Transformation | [**67 skills →**](https://agentskillexchange.com/browse-skills/?category=data-extraction-transformation) |
-| 🔒 | Security & Verification | [**67 skills →**](https://agentskillexchange.com/browse-skills/?category=security-verification) |
-| 📄 | Templates & Workflows | [**65 skills →**](https://agentskillexchange.com/browse-skills/?category=templates-workflows) |
-| 📅 | Calendar, Email & Productivity | [**57 skills →**](https://agentskillexchange.com/browse-skills/?category=calendar-email-productivity) |
-| 🔗 | Integrations & Connectors | [**45 skills →**](https://agentskillexchange.com/browse-skills/?category=integrations-connectors) |
-| 🌐 | Browser Automation | [**35 skills →**](https://agentskillexchange.com/browse-skills/?category=browser-automation) |
-| 🔍 | Research & Scraping | [**33 skills →**](https://agentskillexchange.com/browse-skills/?category=research-scraping) |
-| 🎨 | Image & Creative Automation | [**31 skills →**](https://agentskillexchange.com/browse-skills/?category=image-creative-automation) |
-| ✍️ | Content Writing & SEO | [**27 skills →**](https://agentskillexchange.com/browse-skills/?category=content-writing-seo) |
-| 🎙️ | Media & Transcription | [**23 skills →**](https://agentskillexchange.com/browse-skills/?category=media-transcription) |
-| 📰 | WordPress & CMS | [**20 skills →**](https://agentskillexchange.com/browse-skills/?category=wordpress-cms) |
+### 🏆 Top Categories
+
+| | Category | Skills | Popularity |
+|---|---|:---:|---|
+| 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | **213** | `████████████████████` |
+| 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | **170** | `████████████████` |
+| ✅ | [**Code Quality & Review**](categories/code-quality-review/) | **131** | `████████████` |
+| 🛠️ | [**Developer Tools**](categories/developer-tools/) | **118** | `███████████` |
+| 📚 | [**Library & API Reference**](categories/library-api-reference/) | **86** | `████████` |
+
+<details>
+<summary><b>📂 All 17 Categories</b></summary>
+
+<br>
+
+| | Category | Skills | Description |
+|---|---|:---:|---|
+| 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | **213** | Pipeline configs, deployment automation, build tooling |
+| 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | **170** | Incident response, troubleshooting guides, system diagnostics |
+| ✅ | [**Code Quality & Review**](categories/code-quality-review/) | **131** | Linting rules, review checklists, code standards enforcement |
+| 🛠️ | [**Developer Tools**](categories/developer-tools/) | **118** | CLI helpers, dev environment setup, productivity utilities |
+| 📚 | [**Library & API Reference**](categories/library-api-reference/) | **86** | SDK docs, API guides, framework reference material |
+| 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | **72** | Metrics collection, alerting rules, observability setup |
+| 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | **71** | Parsing, ETL pipelines, format conversion, data wrangling |
+| 🔒 | [**Security & Verification**](categories/security-verification/) | **67** | Auth setup, vulnerability scanning, compliance checks |
+| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | **65** | Project scaffolding, boilerplate generators, workflow templates |
+| 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | **57** | Email automation, calendar management, task coordination |
+| 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | **45** | Third-party API bridges, webhook handlers, service connectors |
+| 🌐 | [**Browser Automation**](categories/browser-automation/) | **35** | Web scraping, UI testing, headless browser control |
+| 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | **35** | Image generation, asset processing, design automation |
+| 🔍 | [**Research & Scraping**](categories/research-scraping/) | **33** | Web research, data collection, content aggregation |
+| ✍️ | [**Content Writing & SEO**](categories/content-writing-seo/) | **27** | Blog posts, SEO optimization, content strategy |
+| 🎙️ | [**Media & Transcription**](categories/media-transcription/) | **23** | Audio/video processing, speech-to-text, media conversion |
+| 📰 | [**WordPress & CMS**](categories/wordpress-cms/) | **20** | Theme/plugin dev, WP-CLI automation, CMS management |
+
+</details>
 
 See the full [CATALOG.md](CATALOG.md) for a detailed listing of every skill, or browse by category in the [categories/](categories/) directory.
 
@@ -106,7 +123,7 @@ Every skill goes through a transparent verification pipeline:
                            and malicious patterns. Safe for production use.
 ```
 
-All 1,200+ skills in this repo have reached **Verified Metadata** or higher. See the [verification criteria](https://agentskillexchange.com/verified-skills/) for details.
+All 1,268+ skills in this repo have reached **Verified Metadata** or higher. See the [verification criteria](verification/) for details.
 
 ---
 
@@ -125,10 +142,20 @@ skills/
     SKILL.md
   api-rate-limiter/
     SKILL.md
-  ... 1,200+ skills
+  ... 1,268+ skills
 ```
 
 See [spec/SKILL_SPEC.md](spec/SKILL_SPEC.md) for the full format specification, or use the [template/SKILL.md](template/SKILL.md) to create your own.
+
+---
+
+## Repository Tooling
+
+This repo includes automation scripts in [`scripts/`](scripts/):
+
+- **`validate-skill.sh`** — Validates SKILL.md files against the format specification
+- **`generate-catalog.sh`** — Regenerates CATALOG.md from the live marketplace API
+- **`generate-categories.sh`** — Regenerates category READMEs in `categories/`
 
 ---
 
