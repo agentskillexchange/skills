@@ -1,6 +1,6 @@
 # 🔒 Security & Verification
 
-> **67 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=security-verification)
+> **71 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=security-verification)
 
 Auth setup, vulnerability scanning, compliance checks, and security automation.
 
@@ -24,6 +24,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Dependency Audit](../../skills/dependency-audit/) | ⭐ 4.8 | 0 | `clawhub install dependency-audit` |
 | [DocuSign Contract Auto-Sender with Conditional Logic](../../skills/docusign-contract-auto-sender/) | ⭐ 4.8 | 0 | `clawhub install docusign-contract-auto-sender` |
 | [Git Secrets Pre-Commit Scanner](../../skills/git-secrets-precommit-scanner/) | ⭐ 4.8 | 0 | `clawhub install git-secrets-precommit-scanner` |
+| [HashiCorp Vault Secret Rotation Agent](../../skills/hashicorp-vault-secret-rotation-agent-2/) | ⭐ 4.8 | 0 | `clawhub install hashicorp-vault-secret-rotation-agent-2` |
 | [npm Dependency Audit Scanner](../../skills/npm-dependency-audit-scanner/) | ⭐ 4.8 | 0 | `clawhub install npm-dependency-audit-scanner` |
 | [Open Policy Agent (OPA)](../../skills/open-policy-agent-opa/) | ⭐ 4.8 | 0 | `clawhub install open-policy-agent-opa` |
 | [OpenClaw Security Suite (ClawSec)](../../skills/openclaw-security-suite-clawsec/) | ⭐ 4.8 | 0 | `clawhub install openclaw-security-suite-clawsec` |
@@ -47,11 +48,13 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Secrets Scanner for Git Repositories](../../skills/secrets-scanner-git-repositories/) | ⭐ 4.5 | 0 | `clawhub install secrets-scanner-git-repositories` |
 | [Sentry for AI](../../skills/sentry-for-ai/) | ⭐ 4.5 | 0 | `clawhub install sentry-for-ai` |
 | [Sigstore Cosign Verifier](../../skills/sigstore-cosign-verifier/) | ⭐ 4.5 | 0 | `clawhub install sigstore-cosign-verifier` |
+| [Snyk Vulnerability Scanner Agent](../../skills/snyk-vulnerability-scanner-agent/) | ⭐ 4.5 | 0 | `clawhub install snyk-vulnerability-scanner-agent` |
 | [CloudTrail Anomaly Detection Agent](../../skills/cloudtrail-anomaly-detection-agent/) | ⭐ 4.4 | 0 | `clawhub install cloudtrail-anomaly-detection-agent` |
 | [Conftest Policy Tester](../../skills/conftest-policy-tester/) | ⭐ 4.4 | 0 | `clawhub install conftest-policy-tester` |
 | [Discord Moderation Bot with AI Classification](../../skills/discord-moderation-ai-classification/) | ⭐ 4.4 | 0 | `clawhub install discord-moderation-ai-classification` |
 | [OWASP ZAP API Security Scanner](../../skills/owasp-zap-api-security-scanner/) | ⭐ 4.4 | 0 | `clawhub install owasp-zap-api-security-scanner` |
 | [OWASP ZAP Scan Orchestrator](../../skills/owasp-zap-scan-orchestrator/) | ⭐ 4.4 | 0 | `clawhub install owasp-zap-scan-orchestrator` |
+| [OWASP ZAP Security Audit Skill](../../skills/owasp-zap-security-audit-skill/) | ⭐ 4.4 | 0 | `clawhub install owasp-zap-security-audit-skill` |
 | [Secrets Scanner for Git Repositories](../../skills/secrets-scanner-git-repositories-2/) | ⭐ 4.4 | 0 | `clawhub install secrets-scanner-git-repositories-2` |
 | [TLS Certificate Chain Validator](../../skills/tls-certificate-chain-validator/) | ⭐ 4.4 | 0 | `clawhub install tls-certificate-chain-validator` |
 | [Trivy Vulnerability Scanner Pipeline](../../skills/trivy-vulnerability-scanner-pipeline/) | ⭐ 4.4 | 0 | `clawhub install trivy-vulnerability-scanner-pipeline` |
@@ -67,6 +70,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [HashiCorp Vault Secrets Rotation Agent](../../skills/hashicorp-vault-secrets-rotation-agent-2/) | ⭐ 4.2 | 0 | `clawhub install hashicorp-vault-secrets-rotation-agent-2` |
 | [OWASP ZAP Automated Scan Orchestrator](../../skills/owasp-zap-automated-scan-orchestrator/) | ⭐ 4.2 | 0 | `clawhub install owasp-zap-automated-scan-orchestrator` |
 | [SBOM Generator and CVE Matcher](../../skills/sbom-generator-cve-matcher/) | ⭐ 4.2 | 0 | `clawhub install sbom-generator-cve-matcher` |
+| [Trivy Container Security Scanner](../../skills/trivy-container-security-scanner/) | ⭐ 4.2 | 0 | `clawhub install trivy-container-security-scanner` |
 | [Checkov Infrastructure Policy Scanner](../../skills/checkov-infrastructure-policy-scanner/) | ⭐ 4.1 | 0 | `clawhub install checkov-infrastructure-policy-scanner` |
 | [Dependency Vulnerability &#038; License Auditor](../../skills/dependency-vulnerability-license-auditor/) | ⭐ 4.1 | 0 | `clawhub install dependency-vulnerability-license-auditor` |
 | [HashiCorp Vault Secrets Rotation Agent](../../skills/hashicorp-vault-secrets-rotation-agent/) | ⭐ 4.1 | 0 | `clawhub install hashicorp-vault-secrets-rotation-agent` |

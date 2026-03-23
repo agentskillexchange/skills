@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1316 skills** across **17 categories** · Updated 2026-03-23 08:02 UTC
+> **1328 skills** across **17 categories** · Updated 2026-03-23 09:02 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -10,7 +10,7 @@
 
 | Metric | Value |
 |--------|-------|
-| Total Skills | **1316** |
+| Total Skills | **1328** |
 | Categories | **17** |
 | Frameworks | **11** |
 | Verification | All skills **Verified Metadata** or higher |
@@ -867,7 +867,7 @@
 | [Metrics Dashboard Builder](skills/metrics-dashboard-builder/) | ⭐ 4.0 | 0 | `clawhub install metrics-dashboard-builder` |
 | [Service Degradation Runbook](skills/service-degradation-runbook/) | ⭐ 4.0 | 0 | `clawhub install service-degradation-runbook` |
 
-### 🔄 Data Extraction & Transformation (71 skills)
+### 🔄 Data Extraction & Transformation (75 skills)
 
 | Skill | Rating | Reviews | Install |
 |-------|:------:|:-------:|---------|
@@ -875,12 +875,14 @@
 | [Apache Kafka Schema Extractor](skills/apache-kafka-schema-extractor/) | ⭐ 4.9 | 0 | `clawhub install apache-kafka-schema-extractor` |
 | [Apache Spark DataFrame ETL Pipeline](skills/spark-dataframe-etl-pipeline/) | ⭐ 4.9 | 0 | `clawhub install spark-dataframe-etl-pipeline` |
 | [Crawl4AI MCP Server](skills/crawl4ai-mcp-server/) | ⭐ 4.9 | 0 | `clawhub install crawl4ai-mcp-server` |
+| [dbt Data Transform Orchestrator](skills/dbt-data-transform-orchestrator/) | ⭐ 4.9 | 0 | `clawhub install dbt-data-transform-orchestrator` |
 | [jq Pipeline Builder Agent](skills/jq-pipeline-builder-agent/) | ⭐ 4.9 | 0 | `clawhub install jq-pipeline-builder-agent` |
 | [Parquet Schema Extractor for S3](skills/parquet-schema-extractor-for-s3/) | ⭐ 4.9 | 0 | `clawhub install parquet-schema-extractor-for-s3` |
 | [Parquet to PostgreSQL Loader](skills/parquet-to-postgresql-loader/) | ⭐ 4.9 | 0 | `clawhub install parquet-to-postgresql-loader` |
 | [Protocol Buffer Schema Generator](skills/protobuf-schema-generator-from-json/) | ⭐ 4.9 | 0 | `clawhub install protobuf-schema-generator-from-json` |
 | [Scrapy Spider Data Pipeline](skills/scrapy-spider-data-pipeline/) | ⭐ 4.9 | 0 | `clawhub install scrapy-spider-data-pipeline` |
 | [Stripe Revenue Analytics Dashboard Builder](skills/stripe-revenue-analytics-dashboard/) | ⭐ 4.9 | 0 | `clawhub install stripe-revenue-analytics-dashboard` |
+| [Tabula PDF Table Extraction Agent](skills/tabula-pdf-table-extraction-agent/) | ⭐ 4.9 | 0 | `clawhub install tabula-pdf-table-extraction-agent` |
 | [Tesseract OCR Data Extractor](skills/tesseract-ocr-data-extractor/) | ⭐ 4.9 | 0 | `clawhub install tesseract-ocr-data-extractor` |
 | [Apache Avro Schema Evolution Agent](skills/apache-avro-schema-evolution-agent/) | ⭐ 4.8 | 0 | `clawhub install apache-avro-schema-evolution-agent` |
 | [Apache Tika Content Extraction Hub](skills/apache-tika-content-extraction-hub/) | ⭐ 4.8 | 0 | `clawhub install apache-tika-content-extraction-hub` |
@@ -904,6 +906,7 @@
 | [Snowflake MCP](skills/snowflake-mcp/) | ⭐ 4.7 | 0 | `clawhub install snowflake-mcp` |
 | [XML XSLT Transform Pipeline](skills/xml-xslt-transform-pipeline/) | ⭐ 4.7 | 0 | `clawhub install xml-xslt-transform-pipeline` |
 | [Apache Kafka Schema Registry Validator](skills/kafka-schema-registry-validator/) | ⭐ 4.6 | 0 | `clawhub install kafka-schema-registry-validator` |
+| [Apache Tika Document Extractor](skills/apache-tika-document-extractor/) | ⭐ 4.6 | 0 | `clawhub install apache-tika-document-extractor` |
 | [Cohere MCP Server](skills/cohere-mcp-server/) | ⭐ 4.6 | 0 | `clawhub install cohere-mcp-server` |
 | [dbt Model Lineage Analyzer](skills/dbt-model-lineage-analyzer/) | ⭐ 4.6 | 0 | `clawhub install dbt-model-lineage-analyzer` |
 | [Great Expectations Data Quality](skills/great-expectations-data-quality/) | ⭐ 4.6 | 0 | `clawhub install great-expectations-data-quality` |
@@ -927,6 +930,7 @@
 | [Snowflake MCP Server](skills/snowflake-mcp-server/) | ⭐ 4.3 | 0 | `clawhub install snowflake-mcp-server` |
 | [Apache Spark Job Manager](skills/apache-spark-job-manager/) | ⭐ 4.2 | 0 | `clawhub install apache-spark-job-manager` |
 | [BigQuery Cost &#038; Query Performance Auditor](skills/bigquery-cost-query-performance-auditor/) | ⭐ 4.2 | 0 | `clawhub install bigquery-cost-query-performance-auditor` |
+| [Camelot PDF Stream Parser](skills/camelot-pdf-stream-parser/) | ⭐ 4.2 | 0 | `clawhub install camelot-pdf-stream-parser` |
 | [MLflow Experiment Tracker](skills/mlflow-experiment-tracker/) | ⭐ 4.2 | 0 | `clawhub install mlflow-experiment-tracker` |
 | [PDF Table Extraction with Camelot](skills/pdf-table-extraction-camelot/) | ⭐ 4.2 | 0 | `clawhub install pdf-table-extraction-camelot` |
 | [Pinecone MCP Server](skills/pinecone-mcp-server/) | ⭐ 4.2 | 0 | `clawhub install pinecone-mcp-server` |
@@ -942,6 +946,82 @@
 | [GraphQL Schema Introspection Mapper](skills/graphql-schema-introspection-mapper/) | ⭐ 4.0 | 0 | `clawhub install graphql-schema-introspection-mapper` |
 | [Nano PDF Editor](skills/nano-pdf-editor/) | ⭐ 4.0 | 0 | `clawhub install nano-pdf-editor` |
 | [Weaviate MCP Server](skills/weaviate-mcp-server/) | ⭐ 4.0 | 0 | `clawhub install weaviate-mcp-server` |
+
+### 🔒 Security & Verification (71 skills)
+
+| Skill | Rating | Reviews | Install |
+|-------|:------:|:-------:|---------|
+| [HashiCorp Vault Secret Rotation Agent](skills/hashicorp-vault-secret-rotation-agent/) | ⭐ 4.9 | 0 | `clawhub install hashicorp-vault-secret-rotation-agent` |
+| [HashiCorp Vault Secret Scanner](skills/hashicorp-vault-secret-scanner-2/) | ⭐ 4.9 | 0 | `clawhub install hashicorp-vault-secret-scanner-2` |
+| [npm Dependency Audit Resolver](skills/npm-dependency-audit-resolver/) | ⭐ 4.9 | 0 | `clawhub install npm-dependency-audit-resolver` |
+| [NPM Package Supply Chain Auditor](skills/npm-package-supply-chain-auditor/) | ⭐ 4.9 | 0 | `clawhub install npm-package-supply-chain-auditor` |
+| [Nuclei Vulnerability Template Runner](skills/nuclei-vulnerability-template-runner/) | ⭐ 4.9 | 0 | `clawhub install nuclei-vulnerability-template-runner` |
+| [OWASP ZAP API Security Tester](skills/owasp-zap-api-security-tester/) | ⭐ 4.9 | 0 | `clawhub install owasp-zap-api-security-tester` |
+| [OWASP ZAP Automated Pen Testing Agent](skills/owasp-zap-automated-pen-testing-agent/) | ⭐ 4.9 | 0 | `clawhub install owasp-zap-automated-pen-testing-agent` |
+| [SAST Pipeline Scanner](skills/sast-pipeline-scanner/) | ⭐ 4.9 | 0 | `clawhub install sast-pipeline-scanner` |
+| [SSL Certificate Manager Skill](skills/ssl-certificate-manager-skill/) | ⭐ 4.9 | 0 | `clawhub install ssl-certificate-manager-skill` |
+| [ZAP Automated Security Scan Orchestrator](skills/zap-automated-security-scan-orchestrator/) | ⭐ 4.9 | 0 | `clawhub install zap-automated-security-scan-orchestrator` |
+| [Container Image Vulnerability Scanner](skills/container-image-vulnerability-scanner/) | ⭐ 4.8 | 0 | `clawhub install container-image-vulnerability-scanner` |
+| [Dependency Audit](skills/dependency-audit/) | ⭐ 4.8 | 0 | `clawhub install dependency-audit` |
+| [DocuSign Contract Auto-Sender with Conditional Logic](skills/docusign-contract-auto-sender/) | ⭐ 4.8 | 0 | `clawhub install docusign-contract-auto-sender` |
+| [Git Secrets Pre-Commit Scanner](skills/git-secrets-precommit-scanner/) | ⭐ 4.8 | 0 | `clawhub install git-secrets-precommit-scanner` |
+| [HashiCorp Vault Secret Rotation Agent](skills/hashicorp-vault-secret-rotation-agent-2/) | ⭐ 4.8 | 0 | `clawhub install hashicorp-vault-secret-rotation-agent-2` |
+| [npm Dependency Audit Scanner](skills/npm-dependency-audit-scanner/) | ⭐ 4.8 | 0 | `clawhub install npm-dependency-audit-scanner` |
+| [Open Policy Agent (OPA)](skills/open-policy-agent-opa/) | ⭐ 4.8 | 0 | `clawhub install open-policy-agent-opa` |
+| [OpenClaw Security Suite (ClawSec)](skills/openclaw-security-suite-clawsec/) | ⭐ 4.8 | 0 | `clawhub install openclaw-security-suite-clawsec` |
+| [Snyk Container Vulnerability Agent](skills/snyk-container-vulnerability-agent/) | ⭐ 4.8 | 0 | `clawhub install snyk-container-vulnerability-agent` |
+| [Terrascan Policy Scanner](skills/terrascan-policy-scanner/) | ⭐ 4.8 | 0 | `clawhub install terrascan-policy-scanner` |
+| [KICS IaC Linter](skills/kics-iac-linter/) | ⭐ 4.7 | 0 | `clawhub install kics-iac-linter` |
+| [OWASP ZAP API Fuzzer](skills/owasp-zap-api-fuzzer/) | ⭐ 4.7 | 0 | `clawhub install owasp-zap-api-fuzzer` |
+| [Snyk Container Image Analyzer](skills/snyk-container-image-analyzer/) | ⭐ 4.7 | 0 | `clawhub install snyk-container-image-analyzer` |
+| [Snyk Open Source Dependency Auditor](skills/snyk-open-source-dependency-auditor/) | ⭐ 4.7 | 0 | `clawhub install snyk-open-source-dependency-auditor` |
+| [SSL/TLS Certificate Validator and Monitor](skills/ssl-tls-certificate-validator-monitor/) | ⭐ 4.7 | 0 | `clawhub install ssl-tls-certificate-validator-monitor` |
+| [Vault Secrets Rotation Orchestrator](skills/vault-secrets-rotation-orchestrator/) | ⭐ 4.7 | 0 | `clawhub install vault-secrets-rotation-orchestrator` |
+| [Falco Runtime Security](skills/falco-runtime-security/) | ⭐ 4.6 | 0 | `clawhub install falco-runtime-security` |
+| [GPG Encryption and Key Management Agent](skills/gpg-encryption-key-management-agent/) | ⭐ 4.6 | 0 | `clawhub install gpg-encryption-key-management-agent` |
+| [Grype Vulnerability Scanner](skills/grype-vulnerability-scanner/) | ⭐ 4.6 | 0 | `clawhub install grype-vulnerability-scanner` |
+| [Healthcheck Security Hardening](skills/healthcheck-security-hardening/) | ⭐ 4.6 | 0 | `clawhub install healthcheck-security-hardening` |
+| [Trivy Container Image Vulnerability Scanner](skills/trivy-container-image-vulnerability-scanner/) | ⭐ 4.6 | 0 | `clawhub install trivy-container-image-vulnerability-scanner` |
+| [Trivy Container Scanner](skills/trivy-container-scanner/) | ⭐ 4.6 | 0 | `clawhub install trivy-container-scanner` |
+| [TruffleHog Secret Scanner](skills/trufflehog-secret-scanner/) | ⭐ 4.6 | 0 | `clawhub install trufflehog-secret-scanner` |
+| [Falco Runtime Security Monitor](skills/falco-runtime-security-monitor/) | ⭐ 4.5 | 0 | `clawhub install falco-runtime-security-monitor` |
+| [HashiCorp Vault Secret Scanner](skills/hashicorp-vault-secret-scanner/) | ⭐ 4.5 | 0 | `clawhub install hashicorp-vault-secret-scanner` |
+| [Secrets Scanner for Git Repositories](skills/secrets-scanner-git-repositories/) | ⭐ 4.5 | 0 | `clawhub install secrets-scanner-git-repositories` |
+| [Sentry for AI](skills/sentry-for-ai/) | ⭐ 4.5 | 0 | `clawhub install sentry-for-ai` |
+| [Sigstore Cosign Verifier](skills/sigstore-cosign-verifier/) | ⭐ 4.5 | 0 | `clawhub install sigstore-cosign-verifier` |
+| [Snyk Vulnerability Scanner Agent](skills/snyk-vulnerability-scanner-agent/) | ⭐ 4.5 | 0 | `clawhub install snyk-vulnerability-scanner-agent` |
+| [CloudTrail Anomaly Detection Agent](skills/cloudtrail-anomaly-detection-agent/) | ⭐ 4.4 | 0 | `clawhub install cloudtrail-anomaly-detection-agent` |
+| [Conftest Policy Tester](skills/conftest-policy-tester/) | ⭐ 4.4 | 0 | `clawhub install conftest-policy-tester` |
+| [Discord Moderation Bot with AI Classification](skills/discord-moderation-ai-classification/) | ⭐ 4.4 | 0 | `clawhub install discord-moderation-ai-classification` |
+| [OWASP ZAP API Security Scanner](skills/owasp-zap-api-security-scanner/) | ⭐ 4.4 | 0 | `clawhub install owasp-zap-api-security-scanner` |
+| [OWASP ZAP Scan Orchestrator](skills/owasp-zap-scan-orchestrator/) | ⭐ 4.4 | 0 | `clawhub install owasp-zap-scan-orchestrator` |
+| [OWASP ZAP Security Audit Skill](skills/owasp-zap-security-audit-skill/) | ⭐ 4.4 | 0 | `clawhub install owasp-zap-security-audit-skill` |
+| [Secrets Scanner for Git Repositories](skills/secrets-scanner-git-repositories-2/) | ⭐ 4.4 | 0 | `clawhub install secrets-scanner-git-repositories-2` |
+| [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | ⭐ 4.4 | 0 | `clawhub install tls-certificate-chain-validator` |
+| [Trivy Vulnerability Scanner Pipeline](skills/trivy-vulnerability-scanner-pipeline/) | ⭐ 4.4 | 0 | `clawhub install trivy-vulnerability-scanner-pipeline` |
+| [Git Secret Scanner](skills/git-secret-scanner/) | ⭐ 4.3 | 0 | `clawhub install git-secret-scanner` |
+| [Sigstore Cosign Container Verifier](skills/sigstore-cosign-container-verifier/) | ⭐ 4.3 | 0 | `clawhub install sigstore-cosign-container-verifier` |
+| [Snyk Agent Scan](skills/snyk-agent-scan/) | ⭐ 4.3 | 0 | `clawhub install snyk-agent-scan` |
+| [SSL Certificate Chain Validator](skills/ssl-certificate-chain-validator/) | ⭐ 4.3 | 0 | `clawhub install ssl-certificate-chain-validator` |
+| [AWS IAM Privilege Escalation Audit](skills/aws-iam-privilege-escalation-audit/) | ⭐ 4.2 | 0 | `clawhub install aws-iam-privilege-escalation-audit` |
+| [CycloneDX SBOM Generator](skills/cyclonedx-sbom-generator/) | ⭐ 4.2 | 0 | `clawhub install cyclonedx-sbom-generator` |
+| [Dependency Vulnerability &#038; License Auditor](skills/dependency-vulnerability-license-auditor-2/) | ⭐ 4.2 | 0 | `clawhub install dependency-vulnerability-license-auditor-2` |
+| [Git Secret Scanner with Gitleaks](skills/git-secret-scanner-gitleaks/) | ⭐ 4.2 | 0 | `clawhub install git-secret-scanner-gitleaks` |
+| [HashiCorp Vault MCP Server](skills/hashicorp-vault-mcp-server/) | ⭐ 4.2 | 0 | `clawhub install hashicorp-vault-mcp-server` |
+| [HashiCorp Vault Secrets Rotation Agent](skills/hashicorp-vault-secrets-rotation-agent-2/) | ⭐ 4.2 | 0 | `clawhub install hashicorp-vault-secrets-rotation-agent-2` |
+| [OWASP ZAP Automated Scan Orchestrator](skills/owasp-zap-automated-scan-orchestrator/) | ⭐ 4.2 | 0 | `clawhub install owasp-zap-automated-scan-orchestrator` |
+| [SBOM Generator and CVE Matcher](skills/sbom-generator-cve-matcher/) | ⭐ 4.2 | 0 | `clawhub install sbom-generator-cve-matcher` |
+| [Trivy Container Security Scanner](skills/trivy-container-security-scanner/) | ⭐ 4.2 | 0 | `clawhub install trivy-container-security-scanner` |
+| [Checkov Infrastructure Policy Scanner](skills/checkov-infrastructure-policy-scanner/) | ⭐ 4.1 | 0 | `clawhub install checkov-infrastructure-policy-scanner` |
+| [Dependency Vulnerability &#038; License Auditor](skills/dependency-vulnerability-license-auditor/) | ⭐ 4.1 | 0 | `clawhub install dependency-vulnerability-license-auditor` |
+| [HashiCorp Vault Secrets Rotation Agent](skills/hashicorp-vault-secrets-rotation-agent/) | ⭐ 4.1 | 0 | `clawhub install hashicorp-vault-secrets-rotation-agent` |
+| [OWASP ZAP Scanner](skills/owasp-zap-scanner/) | ⭐ 4.1 | 0 | `clawhub install owasp-zap-scanner` |
+| [Secret Scanner](skills/secret-scanner/) | ⭐ 4.1 | 0 | `clawhub install secret-scanner` |
+| [Security Audit Skill](skills/security-audit-skill/) | ⭐ 4.1 | 0 | `clawhub install security-audit-skill` |
+| [Snyk Dependency Vulnerability Auditor](skills/snyk-dependency-vulnerability-auditor/) | ⭐ 4.1 | 0 | `clawhub install snyk-dependency-vulnerability-auditor` |
+| [AWS IAM Privilege Escalation Audit](skills/aws-iam-privilege-escalation-audit-2/) | ⭐ 4.0 | 0 | `clawhub install aws-iam-privilege-escalation-audit-2` |
+| [Checkov IaC Scanner](skills/checkov-iac-scanner/) | ⭐ 4.0 | 0 | `clawhub install checkov-iac-scanner` |
+| [Stripe Webhook Signature Verifier](skills/stripe-webhook-signature-verifier/) | ⭐ 4.0 | 0 | `clawhub install stripe-webhook-signature-verifier` |
 
 ### 📄 Templates & Workflows (69 skills)
 
@@ -1016,78 +1096,6 @@
 | [Asana MCP Server](skills/asana-mcp-server/) | ⭐ 4.0 | 0 | `clawhub install asana-mcp-server` |
 | [ESLint Rule Auditor](skills/eslint-rule-auditor-2/) | ⭐ 4.0 | 0 | `clawhub install eslint-rule-auditor-2` |
 | [GitHub Actions Workflow Generator](skills/github-actions-workflow-generator-v2/) | ⭐ 4.0 | 0 | `clawhub install github-actions-workflow-generator-v2` |
-
-### 🔒 Security & Verification (67 skills)
-
-| Skill | Rating | Reviews | Install |
-|-------|:------:|:-------:|---------|
-| [HashiCorp Vault Secret Rotation Agent](skills/hashicorp-vault-secret-rotation-agent/) | ⭐ 4.9 | 0 | `clawhub install hashicorp-vault-secret-rotation-agent` |
-| [HashiCorp Vault Secret Scanner](skills/hashicorp-vault-secret-scanner-2/) | ⭐ 4.9 | 0 | `clawhub install hashicorp-vault-secret-scanner-2` |
-| [npm Dependency Audit Resolver](skills/npm-dependency-audit-resolver/) | ⭐ 4.9 | 0 | `clawhub install npm-dependency-audit-resolver` |
-| [NPM Package Supply Chain Auditor](skills/npm-package-supply-chain-auditor/) | ⭐ 4.9 | 0 | `clawhub install npm-package-supply-chain-auditor` |
-| [Nuclei Vulnerability Template Runner](skills/nuclei-vulnerability-template-runner/) | ⭐ 4.9 | 0 | `clawhub install nuclei-vulnerability-template-runner` |
-| [OWASP ZAP API Security Tester](skills/owasp-zap-api-security-tester/) | ⭐ 4.9 | 0 | `clawhub install owasp-zap-api-security-tester` |
-| [OWASP ZAP Automated Pen Testing Agent](skills/owasp-zap-automated-pen-testing-agent/) | ⭐ 4.9 | 0 | `clawhub install owasp-zap-automated-pen-testing-agent` |
-| [SAST Pipeline Scanner](skills/sast-pipeline-scanner/) | ⭐ 4.9 | 0 | `clawhub install sast-pipeline-scanner` |
-| [SSL Certificate Manager Skill](skills/ssl-certificate-manager-skill/) | ⭐ 4.9 | 0 | `clawhub install ssl-certificate-manager-skill` |
-| [ZAP Automated Security Scan Orchestrator](skills/zap-automated-security-scan-orchestrator/) | ⭐ 4.9 | 0 | `clawhub install zap-automated-security-scan-orchestrator` |
-| [Container Image Vulnerability Scanner](skills/container-image-vulnerability-scanner/) | ⭐ 4.8 | 0 | `clawhub install container-image-vulnerability-scanner` |
-| [Dependency Audit](skills/dependency-audit/) | ⭐ 4.8 | 0 | `clawhub install dependency-audit` |
-| [DocuSign Contract Auto-Sender with Conditional Logic](skills/docusign-contract-auto-sender/) | ⭐ 4.8 | 0 | `clawhub install docusign-contract-auto-sender` |
-| [Git Secrets Pre-Commit Scanner](skills/git-secrets-precommit-scanner/) | ⭐ 4.8 | 0 | `clawhub install git-secrets-precommit-scanner` |
-| [npm Dependency Audit Scanner](skills/npm-dependency-audit-scanner/) | ⭐ 4.8 | 0 | `clawhub install npm-dependency-audit-scanner` |
-| [Open Policy Agent (OPA)](skills/open-policy-agent-opa/) | ⭐ 4.8 | 0 | `clawhub install open-policy-agent-opa` |
-| [OpenClaw Security Suite (ClawSec)](skills/openclaw-security-suite-clawsec/) | ⭐ 4.8 | 0 | `clawhub install openclaw-security-suite-clawsec` |
-| [Snyk Container Vulnerability Agent](skills/snyk-container-vulnerability-agent/) | ⭐ 4.8 | 0 | `clawhub install snyk-container-vulnerability-agent` |
-| [Terrascan Policy Scanner](skills/terrascan-policy-scanner/) | ⭐ 4.8 | 0 | `clawhub install terrascan-policy-scanner` |
-| [KICS IaC Linter](skills/kics-iac-linter/) | ⭐ 4.7 | 0 | `clawhub install kics-iac-linter` |
-| [OWASP ZAP API Fuzzer](skills/owasp-zap-api-fuzzer/) | ⭐ 4.7 | 0 | `clawhub install owasp-zap-api-fuzzer` |
-| [Snyk Container Image Analyzer](skills/snyk-container-image-analyzer/) | ⭐ 4.7 | 0 | `clawhub install snyk-container-image-analyzer` |
-| [Snyk Open Source Dependency Auditor](skills/snyk-open-source-dependency-auditor/) | ⭐ 4.7 | 0 | `clawhub install snyk-open-source-dependency-auditor` |
-| [SSL/TLS Certificate Validator and Monitor](skills/ssl-tls-certificate-validator-monitor/) | ⭐ 4.7 | 0 | `clawhub install ssl-tls-certificate-validator-monitor` |
-| [Vault Secrets Rotation Orchestrator](skills/vault-secrets-rotation-orchestrator/) | ⭐ 4.7 | 0 | `clawhub install vault-secrets-rotation-orchestrator` |
-| [Falco Runtime Security](skills/falco-runtime-security/) | ⭐ 4.6 | 0 | `clawhub install falco-runtime-security` |
-| [GPG Encryption and Key Management Agent](skills/gpg-encryption-key-management-agent/) | ⭐ 4.6 | 0 | `clawhub install gpg-encryption-key-management-agent` |
-| [Grype Vulnerability Scanner](skills/grype-vulnerability-scanner/) | ⭐ 4.6 | 0 | `clawhub install grype-vulnerability-scanner` |
-| [Healthcheck Security Hardening](skills/healthcheck-security-hardening/) | ⭐ 4.6 | 0 | `clawhub install healthcheck-security-hardening` |
-| [Trivy Container Image Vulnerability Scanner](skills/trivy-container-image-vulnerability-scanner/) | ⭐ 4.6 | 0 | `clawhub install trivy-container-image-vulnerability-scanner` |
-| [Trivy Container Scanner](skills/trivy-container-scanner/) | ⭐ 4.6 | 0 | `clawhub install trivy-container-scanner` |
-| [TruffleHog Secret Scanner](skills/trufflehog-secret-scanner/) | ⭐ 4.6 | 0 | `clawhub install trufflehog-secret-scanner` |
-| [Falco Runtime Security Monitor](skills/falco-runtime-security-monitor/) | ⭐ 4.5 | 0 | `clawhub install falco-runtime-security-monitor` |
-| [HashiCorp Vault Secret Scanner](skills/hashicorp-vault-secret-scanner/) | ⭐ 4.5 | 0 | `clawhub install hashicorp-vault-secret-scanner` |
-| [Secrets Scanner for Git Repositories](skills/secrets-scanner-git-repositories/) | ⭐ 4.5 | 0 | `clawhub install secrets-scanner-git-repositories` |
-| [Sentry for AI](skills/sentry-for-ai/) | ⭐ 4.5 | 0 | `clawhub install sentry-for-ai` |
-| [Sigstore Cosign Verifier](skills/sigstore-cosign-verifier/) | ⭐ 4.5 | 0 | `clawhub install sigstore-cosign-verifier` |
-| [CloudTrail Anomaly Detection Agent](skills/cloudtrail-anomaly-detection-agent/) | ⭐ 4.4 | 0 | `clawhub install cloudtrail-anomaly-detection-agent` |
-| [Conftest Policy Tester](skills/conftest-policy-tester/) | ⭐ 4.4 | 0 | `clawhub install conftest-policy-tester` |
-| [Discord Moderation Bot with AI Classification](skills/discord-moderation-ai-classification/) | ⭐ 4.4 | 0 | `clawhub install discord-moderation-ai-classification` |
-| [OWASP ZAP API Security Scanner](skills/owasp-zap-api-security-scanner/) | ⭐ 4.4 | 0 | `clawhub install owasp-zap-api-security-scanner` |
-| [OWASP ZAP Scan Orchestrator](skills/owasp-zap-scan-orchestrator/) | ⭐ 4.4 | 0 | `clawhub install owasp-zap-scan-orchestrator` |
-| [Secrets Scanner for Git Repositories](skills/secrets-scanner-git-repositories-2/) | ⭐ 4.4 | 0 | `clawhub install secrets-scanner-git-repositories-2` |
-| [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | ⭐ 4.4 | 0 | `clawhub install tls-certificate-chain-validator` |
-| [Trivy Vulnerability Scanner Pipeline](skills/trivy-vulnerability-scanner-pipeline/) | ⭐ 4.4 | 0 | `clawhub install trivy-vulnerability-scanner-pipeline` |
-| [Git Secret Scanner](skills/git-secret-scanner/) | ⭐ 4.3 | 0 | `clawhub install git-secret-scanner` |
-| [Sigstore Cosign Container Verifier](skills/sigstore-cosign-container-verifier/) | ⭐ 4.3 | 0 | `clawhub install sigstore-cosign-container-verifier` |
-| [Snyk Agent Scan](skills/snyk-agent-scan/) | ⭐ 4.3 | 0 | `clawhub install snyk-agent-scan` |
-| [SSL Certificate Chain Validator](skills/ssl-certificate-chain-validator/) | ⭐ 4.3 | 0 | `clawhub install ssl-certificate-chain-validator` |
-| [AWS IAM Privilege Escalation Audit](skills/aws-iam-privilege-escalation-audit/) | ⭐ 4.2 | 0 | `clawhub install aws-iam-privilege-escalation-audit` |
-| [CycloneDX SBOM Generator](skills/cyclonedx-sbom-generator/) | ⭐ 4.2 | 0 | `clawhub install cyclonedx-sbom-generator` |
-| [Dependency Vulnerability &#038; License Auditor](skills/dependency-vulnerability-license-auditor-2/) | ⭐ 4.2 | 0 | `clawhub install dependency-vulnerability-license-auditor-2` |
-| [Git Secret Scanner with Gitleaks](skills/git-secret-scanner-gitleaks/) | ⭐ 4.2 | 0 | `clawhub install git-secret-scanner-gitleaks` |
-| [HashiCorp Vault MCP Server](skills/hashicorp-vault-mcp-server/) | ⭐ 4.2 | 0 | `clawhub install hashicorp-vault-mcp-server` |
-| [HashiCorp Vault Secrets Rotation Agent](skills/hashicorp-vault-secrets-rotation-agent-2/) | ⭐ 4.2 | 0 | `clawhub install hashicorp-vault-secrets-rotation-agent-2` |
-| [OWASP ZAP Automated Scan Orchestrator](skills/owasp-zap-automated-scan-orchestrator/) | ⭐ 4.2 | 0 | `clawhub install owasp-zap-automated-scan-orchestrator` |
-| [SBOM Generator and CVE Matcher](skills/sbom-generator-cve-matcher/) | ⭐ 4.2 | 0 | `clawhub install sbom-generator-cve-matcher` |
-| [Checkov Infrastructure Policy Scanner](skills/checkov-infrastructure-policy-scanner/) | ⭐ 4.1 | 0 | `clawhub install checkov-infrastructure-policy-scanner` |
-| [Dependency Vulnerability &#038; License Auditor](skills/dependency-vulnerability-license-auditor/) | ⭐ 4.1 | 0 | `clawhub install dependency-vulnerability-license-auditor` |
-| [HashiCorp Vault Secrets Rotation Agent](skills/hashicorp-vault-secrets-rotation-agent/) | ⭐ 4.1 | 0 | `clawhub install hashicorp-vault-secrets-rotation-agent` |
-| [OWASP ZAP Scanner](skills/owasp-zap-scanner/) | ⭐ 4.1 | 0 | `clawhub install owasp-zap-scanner` |
-| [Secret Scanner](skills/secret-scanner/) | ⭐ 4.1 | 0 | `clawhub install secret-scanner` |
-| [Security Audit Skill](skills/security-audit-skill/) | ⭐ 4.1 | 0 | `clawhub install security-audit-skill` |
-| [Snyk Dependency Vulnerability Auditor](skills/snyk-dependency-vulnerability-auditor/) | ⭐ 4.1 | 0 | `clawhub install snyk-dependency-vulnerability-auditor` |
-| [AWS IAM Privilege Escalation Audit](skills/aws-iam-privilege-escalation-audit-2/) | ⭐ 4.0 | 0 | `clawhub install aws-iam-privilege-escalation-audit-2` |
-| [Checkov IaC Scanner](skills/checkov-iac-scanner/) | ⭐ 4.0 | 0 | `clawhub install checkov-iac-scanner` |
-| [Stripe Webhook Signature Verifier](skills/stripe-webhook-signature-verifier/) | ⭐ 4.0 | 0 | `clawhub install stripe-webhook-signature-verifier` |
 
 ### 📅 Calendar, Email & Productivity (61 skills)
 
@@ -1335,7 +1343,7 @@
 | [Crawlee Smart Crawler Agent](skills/crawlee-smart-crawler-agent/) | ⭐ 4.1 | 0 | `clawhub install crawlee-smart-crawler-agent` |
 | [ScrapingBee API Data Harvester](skills/scrapingbee-api-data-harvester/) | ⭐ 4.0 | 0 | `clawhub install scrapingbee-api-data-harvester` |
 
-### ✍️ Content Writing & SEO (27 skills)
+### ✍️ Content Writing & SEO (31 skills)
 
 | Skill | Rating | Reviews | Install |
 |-------|:------:|:-------:|---------|
@@ -1344,6 +1352,7 @@
 | [Hemingway Readability Analyzer API](skills/hemingway-readability-analyzer-api/) | ⭐ 4.9 | 0 | `clawhub install hemingway-readability-analyzer-api` |
 | [Markdown-to-AMP Article Converter](skills/markdown-to-amp-article-converter/) | ⭐ 4.9 | 0 | `clawhub install markdown-to-amp-article-converter` |
 | [Schema.org Structured Data Generator](skills/schema-org-structured-data-generator-2/) | ⭐ 4.9 | 0 | `clawhub install schema-org-structured-data-generator-2` |
+| [SEMrush Content Optimizer Agent](skills/semrush-content-optimizer-agent/) | ⭐ 4.9 | 0 | `clawhub install semrush-content-optimizer-agent` |
 | [SEO Keyword Research Automator](skills/seo-keyword-research-automator/) | ⭐ 4.9 | 0 | `clawhub install seo-keyword-research-automator` |
 | [AI Content Readability Optimizer](skills/ai-content-readability-optimizer/) | ⭐ 4.8 | 0 | `clawhub install ai-content-readability-optimizer` |
 | [Google Search Console Performance Analyzer](skills/gsc-performance-analyzer-skill/) | ⭐ 4.8 | 0 | `clawhub install gsc-performance-analyzer-skill` |
@@ -1353,8 +1362,10 @@
 | [Content Brief Architect](skills/content-brief-architect-agent/) | ⭐ 4.7 | 0 | `clawhub install content-brief-architect-agent` |
 | [Jasper AI Long-Form Blog Post Generator](skills/jasper-longform-blog-generator/) | ⭐ 4.7 | 0 | `clawhub install jasper-longform-blog-generator` |
 | [SEMrush Keyword Research Agent](skills/semrush-keyword-research-agent-api-v3/) | ⭐ 4.7 | 0 | `clawhub install semrush-keyword-research-agent-api-v3` |
+| [Surfer SEO SERP Analyzer](skills/surfer-seo-serp-analyzer/) | ⭐ 4.7 | 0 | `clawhub install surfer-seo-serp-analyzer` |
 | [Humanizer Writing Editor](skills/humanizer-writing-editor/) | ⭐ 4.6 | 0 | `clawhub install humanizer-writing-editor` |
 | [Internal Link Optimizer](skills/internal-link-optimizer-seo/) | ⭐ 4.6 | 0 | `clawhub install internal-link-optimizer-seo` |
+| [Clearscope NLP Grading Pipeline](skills/clearscope-nlp-grading-pipeline/) | ⭐ 4.5 | 0 | `clawhub install clearscope-nlp-grading-pipeline` |
 | [Schema.org Structured Data Generator](skills/schema-org-structured-data-generator/) | ⭐ 4.5 | 0 | `clawhub install schema-org-structured-data-generator` |
 | [Content Readability Optimizer](skills/content-readability-optimizer/) | ⭐ 4.4 | 0 | `clawhub install content-readability-optimizer` |
 | [SEO Content Writer](skills/seo-content-writer/) | ⭐ 4.4 | 0 | `clawhub install seo-content-writer` |
@@ -1363,6 +1374,7 @@
 | [SEO Content Cluster Generator](skills/seo-content-cluster-generator/) | ⭐ 4.3 | 0 | `clawhub install seo-content-cluster-generator` |
 | [Substack Formatter](skills/substack-formatter/) | ⭐ 4.3 | 0 | `clawhub install substack-formatter` |
 | [Surfer SEO Content Optimizer Integration](skills/surfer-seo-content-optimizer-integration/) | ⭐ 4.3 | 0 | `clawhub install surfer-seo-content-optimizer-integration` |
+| [Ahrefs Backlink Content Planner](skills/ahrefs-backlink-content-planner/) | ⭐ 4.1 | 0 | `clawhub install ahrefs-backlink-content-planner` |
 | [Keyword Cannibalization Detector](skills/keyword-cannibalization-detector/) | ⭐ 4.1 | 0 | `clawhub install keyword-cannibalization-detector` |
 | [Schema Markup Generator for SEO](skills/schema-markup-generator-seo/) | ⭐ 4.0 | 0 | `clawhub install schema-markup-generator-seo` |
 | [WordPress Content Optimizer](skills/wordpress-content-optimizer-yoast-rest/) | ⭐ 4.0 | 0 | `clawhub install wordpress-content-optimizer-yoast-rest` |
