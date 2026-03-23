@@ -1,6 +1,6 @@
 # 📊 Monitoring & Alerts
 
-> **72 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=monitoring-alerts)
+> **76 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=monitoring-alerts)
 
 Metrics collection, alerting rules, observability setup, and system monitoring.
 
@@ -12,11 +12,14 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 |-------|:------:|:-------:|---------|
 | [CloudWatch Log Anomaly Detector](../../skills/cloudwatch-log-anomaly-detector/) | ⭐ 4.9 | 0 | `clawhub install cloudwatch-log-anomaly-detector` |
 | [Datadog Anomaly Detection Agent](../../skills/datadog-anomaly-detection-agent-2/) | ⭐ 4.9 | 0 | `clawhub install datadog-anomaly-detection-agent-2` |
+| [Grafana Alert Router](../../skills/grafana-alert-router/) | ⭐ 4.9 | 0 | `clawhub install grafana-alert-router` |
 | [Grafana Loki Log Correlation Agent](../../skills/grafana-loki-log-correlation-agent/) | ⭐ 4.9 | 0 | `clawhub install grafana-loki-log-correlation-agent` |
 | [Last30Days Research Briefing](../../skills/last30days-research-briefing/) | ⭐ 4.9 | 0 | `clawhub install last30days-research-briefing` |
+| [New Relic NRQL Query Agent](../../skills/new-relic-nrql-query-agent/) | ⭐ 4.9 | 0 | `clawhub install new-relic-nrql-query-agent` |
 | [PagerDuty Incident Escalator](../../skills/pagerduty-incident-escalator/) | ⭐ 4.9 | 0 | `clawhub install pagerduty-incident-escalator` |
 | [PagerDuty Incident Orchestrator](../../skills/pagerduty-incident-orchestrator/) | ⭐ 4.9 | 0 | `clawhub install pagerduty-incident-orchestrator` |
 | [Prometheus Alert Rule Generator](../../skills/prometheus-alert-rule-generator-2/) | ⭐ 4.9 | 0 | `clawhub install prometheus-alert-rule-generator-2` |
+| [Prometheus Alertmanager Bridge](../../skills/prometheus-alertmanager-bridge-2/) | ⭐ 4.9 | 0 | `clawhub install prometheus-alertmanager-bridge-2` |
 | [Prometheus AlertManager Rule Builder](../../skills/prometheus-alertmanager-rule-builder/) | ⭐ 4.9 | 0 | `clawhub install prometheus-alertmanager-rule-builder` |
 | [StatsD Metrics Aggregation Pipeline](../../skills/statsd-metrics-aggregation-pipeline/) | ⭐ 4.9 | 0 | `clawhub install statsd-metrics-aggregation-pipeline` |
 | [AWS CloudWatch Insights Agent](../../skills/aws-cloudwatch-insights-agent/) | ⭐ 4.8 | 0 | `clawhub install aws-cloudwatch-insights-agent` |
@@ -78,6 +81,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Network Latency Diagnosis Skill](../../skills/network-latency-diagnosis-skill/) | ⭐ 4.1 | 0 | `clawhub install network-latency-diagnosis-skill` |
 | [Task Queue Monitor](../../skills/task-queue-monitor/) | ⭐ 4.1 | 0 | `clawhub install task-queue-monitor` |
 | [AWS CloudWatch Composite Alarm Builder](../../skills/aws-cloudwatch-composite-alarm-builder-2/) | ⭐ 4.0 | 0 | `clawhub install aws-cloudwatch-composite-alarm-builder-2` |
+| [Datadog Metric Exporter](../../skills/datadog-metric-exporter/) | ⭐ 4.0 | 0 | `clawhub install datadog-metric-exporter` |
 | [Grafana Dashboard Snapshot Exporter](../../skills/grafana-dashboard-snapshot-exporter/) | ⭐ 4.0 | 0 | `clawhub install grafana-dashboard-snapshot-exporter` |
 | [Grafana Unified Alerting Manager](../../skills/grafana-unified-alerting-manager/) | ⭐ 4.0 | 0 | `clawhub install grafana-unified-alerting-manager` |
 | [Metrics Dashboard Builder](../../skills/metrics-dashboard-builder/) | ⭐ 4.0 | 0 | `clawhub install metrics-dashboard-builder` |

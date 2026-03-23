@@ -42,7 +42,7 @@ clawhub install <slug>
 
 ## Why This Repo?
 
-- **1292+ skills and growing** — new skills added every hour, automatically synced from the [live marketplace](https://agentskillexchange.com)
+- **1304+ skills and growing** — new skills added every hour, automatically synced from the [live marketplace](https://agentskillexchange.com)
 - **Community-rated** — every skill has real ratings and reviews from users
 - **3-tier verification** — Listed → Verified Metadata → Security Reviewed — every skill is vetted before reaching production-ready status
 - **11 frameworks** — Claude Code, Cursor, Codex, Gemini, OpenClaw, and more — install for any agent with one command
@@ -123,7 +123,7 @@ Every skill goes through a transparent verification pipeline:
                            and malicious patterns. Safe for production use.
 ```
 
-All 1292+ skills in this repo have reached **Verified Metadata** or higher. See the [verification criteria](verification/) for details.
+All 1304+ skills in this repo have reached **Verified Metadata** or higher. See the [verification criteria](verification/) for details.
 
 ---
 
@@ -142,7 +142,7 @@ skills/
     SKILL.md
   api-rate-limiter/
     SKILL.md
-  ... 1292+ skills
+  ... 1304+ skills
 ```
 
 See [spec/SKILL_SPEC.md](spec/SKILL_SPEC.md) for the full format specification, or use the [template/SKILL.md](template/SKILL.md) to create your own.
