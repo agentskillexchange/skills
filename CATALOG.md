@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1376 skills** across **17 categories** · Updated 2026-03-23 13:04 UTC
+> **1388 skills** across **17 categories** · Updated 2026-03-23 14:02 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -10,7 +10,7 @@
 
 | Metric | Value |
 |--------|-------|
-| Total Skills | **1376** |
+| Total Skills | **1388** |
 | Categories | **17** |
 | Frameworks | **11** |
 | Verification | All skills **Verified Metadata** or higher |
@@ -19,10 +19,11 @@
 
 ## Skills by Category
 
-### 🔧 CI/CD Integrations (225 skills)
+### 🔧 CI/CD Integrations (230 skills)
 
 | Skill | Rating | Reviews | Install |
 |-------|:------:|:-------:|---------|
+| [ArgoCD Application Deployer](skills/argocd-application-deployer/) | ⭐ 4.9 | 0 | `clawhub install argocd-application-deployer` |
 | [ArgoCD Sync Manager](skills/argocd-sync-manager-skill/) | ⭐ 4.9 | 0 | `clawhub install argocd-sync-manager-skill` |
 | [ArgoCD Sync Status Monitor](skills/argocd-sync-status-monitor-6/) | ⭐ 4.9 | 0 | `clawhub install argocd-sync-status-monitor-6` |
 | [ArgoCD Sync Status Monitor](skills/argocd-sync-status-monitor-7/) | ⭐ 4.9 | 0 | `clawhub install argocd-sync-status-monitor-7` |
@@ -45,6 +46,7 @@
 | [GitHub Actions Workflow Generator](skills/github-actions-workflow-generator-2/) | ⭐ 4.9 | 0 | `clawhub install github-actions-workflow-generator-2` |
 | [GitHub Actions Workflow Generator](skills/github-actions-workflow-generator-3/) | ⭐ 4.9 | 0 | `clawhub install github-actions-workflow-generator-3` |
 | [GitHub Actions Workflow Linter](skills/github-actions-workflow-linter-2/) | ⭐ 4.9 | 0 | `clawhub install github-actions-workflow-linter-2` |
+| [GitLab CI Pipeline Generator](skills/gitlab-ci-pipeline-generator/) | ⭐ 4.9 | 0 | `clawhub install gitlab-ci-pipeline-generator` |
 | [GitLab CI Pipeline Linter](skills/gitlab-ci-pipeline-linter/) | ⭐ 4.9 | 0 | `clawhub install gitlab-ci-pipeline-linter` |
 | [GitLab CI Template Generator](skills/gitlab-ci-template-generator/) | ⭐ 4.9 | 0 | `clawhub install gitlab-ci-template-generator` |
 | [GitLab Pipeline Bottleneck Profiler](skills/gitlab-pipeline-bottleneck-profiler/) | ⭐ 4.9 | 0 | `clawhub install gitlab-pipeline-bottleneck-profiler` |
@@ -52,6 +54,7 @@
 | [Jenkins Pipeline Linter](skills/jenkins-pipeline-linter-4/) | ⭐ 4.9 | 0 | `clawhub install jenkins-pipeline-linter-4` |
 | [Jenkins Pipeline Linter](skills/jenkins-pipeline-linter-6/) | ⭐ 4.9 | 0 | `clawhub install jenkins-pipeline-linter-6` |
 | [Jenkins Pipeline Orchestrator](skills/jenkins-pipeline-orchestrator/) | ⭐ 4.9 | 0 | `clawhub install jenkins-pipeline-orchestrator` |
+| [Jenkins Pipeline Orchestrator](skills/jenkins-pipeline-orchestrator-3/) | ⭐ 4.9 | 0 | `clawhub install jenkins-pipeline-orchestrator-3` |
 | [npm Audit Dependency Report Generator](skills/npm-audit-dependency-report-generator/) | ⭐ 4.9 | 0 | `clawhub install npm-audit-dependency-report-generator` |
 | [Tekton Pipeline Composer](skills/tekton-pipeline-composer-2/) | ⭐ 4.9 | 0 | `clawhub install tekton-pipeline-composer-2` |
 | [Tekton Pipeline Debugger](skills/tekton-pipeline-debugger/) | ⭐ 4.9 | 0 | `clawhub install tekton-pipeline-debugger` |
@@ -102,6 +105,7 @@
 | [CircleCI Orb Composer](skills/circleci-orb-composer-5/) | ⭐ 4.7 | 0 | `clawhub install circleci-orb-composer-5` |
 | [CircleCI Orb Composer](skills/circleci-orb-composer-2/) | ⭐ 4.7 | 0 | `clawhub install circleci-orb-composer-2` |
 | [CircleCI Orb Pipeline Composer](skills/circleci-orb-pipeline-composer-2/) | ⭐ 4.7 | 0 | `clawhub install circleci-orb-pipeline-composer-2` |
+| [CircleCI Workflow Analyzer](skills/circleci-workflow-analyzer/) | ⭐ 4.7 | 0 | `clawhub install circleci-workflow-analyzer` |
 | [CircleCI Workflow Builder](skills/circleci-workflow-builder/) | ⭐ 4.7 | 0 | `clawhub install circleci-workflow-builder` |
 | [Docker Build Cache Optimizer](skills/docker-build-cache-optimizer-3/) | ⭐ 4.7 | 0 | `clawhub install docker-build-cache-optimizer-3` |
 | [Docker Build Cache Optimizer](skills/docker-build-cache-optimizer-2/) | ⭐ 4.7 | 0 | `clawhub install docker-build-cache-optimizer-2` |
@@ -229,6 +233,7 @@
 | [Docker Image Layer Size Analyzer](skills/docker-image-layer-size-analyzer/) | ⭐ 4.1 | 0 | `clawhub install docker-image-layer-size-analyzer` |
 | [GitHub Actions CI Pipeline Builder](skills/github-actions-ci-pipeline-builder/) | ⭐ 4.1 | 0 | `clawhub install github-actions-ci-pipeline-builder` |
 | [GitHub Actions Matrix Builder](skills/github-actions-matrix-builder-9/) | ⭐ 4.1 | 0 | `clawhub install github-actions-matrix-builder-9` |
+| [GitHub Actions Matrix Builder](skills/github-actions-matrix-builder-21/) | ⭐ 4.1 | 0 | `clawhub install github-actions-matrix-builder-21` |
 | [GitHub Actions Matrix Orchestrator](skills/github-actions-matrix-orchestrator/) | ⭐ 4.1 | 0 | `clawhub install github-actions-matrix-orchestrator` |
 | [GitHub Actions Pipeline Debugger](skills/github-actions-pipeline-debugger-2/) | ⭐ 4.1 | 0 | `clawhub install github-actions-pipeline-debugger-2` |
 | [GitLab CI Integration](skills/gitlab-ci-integration/) | ⭐ 4.1 | 0 | `clawhub install gitlab-ci-integration` |
@@ -798,7 +803,7 @@
 | [OpenAPI Spec Navigator](skills/openapi-spec-navigator/) | ⭐ 4.0 | 0 | `clawhub install openapi-spec-navigator` |
 | [Python Dependency Graph Resolver](skills/python-dependency-graph-resolver/) | ⭐ 4.0 | 0 | `clawhub install python-dependency-graph-resolver` |
 
-### 📊 Monitoring & Alerts (80 skills)
+### 📊 Monitoring & Alerts (83 skills)
 
 | Skill | Rating | Reviews | Install |
 |-------|:------:|:-------:|---------|
@@ -852,6 +857,7 @@
 | [Jaeger Trace Explorer](skills/jaeger-trace-explorer/) | ⭐ 4.4 | 0 | `clawhub install jaeger-trace-explorer` |
 | [PagerDuty MCP Server](skills/pagerduty-mcp-server/) | ⭐ 4.4 | 0 | `clawhub install pagerduty-mcp-server` |
 | [Prometheus / Grafana MCP Server](skills/prometheus-grafana-mcp-server/) | ⭐ 4.4 | 0 | `clawhub install prometheus-grafana-mcp-server` |
+| [Prometheus Alert Rule Builder](skills/prometheus-alert-rule-builder/) | ⭐ 4.4 | 0 | `clawhub install prometheus-alert-rule-builder` |
 | [Prometheus Alert Rule Synthesizer](skills/prometheus-alert-rule-synthesizer/) | ⭐ 4.4 | 0 | `clawhub install prometheus-alert-rule-synthesizer` |
 | [API Rate Limit Monitor](skills/api-rate-limit-monitor/) | ⭐ 4.3 | 0 | `clawhub install api-rate-limit-monitor` |
 | [Database Slow Query Runbook](skills/database-slow-query-runbook/) | ⭐ 4.3 | 0 | `clawhub install database-slow-query-runbook` |
@@ -866,6 +872,7 @@
 | [OpenTelemetry Instrumentation](skills/opentelemetry-instrumentation/) | ⭐ 4.3 | 0 | `clawhub install opentelemetry-instrumentation` |
 | [Prometheus AlertManager Bridge](skills/prometheus-alertmanager-bridge/) | ⭐ 4.3 | 0 | `clawhub install prometheus-alertmanager-bridge` |
 | [Datadog APM Trace Analyzer](skills/datadog-apm-trace-analyzer/) | ⭐ 4.2 | 0 | `clawhub install datadog-apm-trace-analyzer` |
+| [Datadog Monitor Configurator](skills/datadog-monitor-configurator-2/) | ⭐ 4.2 | 0 | `clawhub install datadog-monitor-configurator-2` |
 | [OpsGenie MCP Server](skills/opsgenie-mcp-server/) | ⭐ 4.2 | 0 | `clawhub install opsgenie-mcp-server` |
 | [Prometheus Alerting Rules](skills/prometheus-alerting-rules/) | ⭐ 4.2 | 0 | `clawhub install prometheus-alerting-rules` |
 | [Sentry MCP Server](skills/sentry-mcp-server/) | ⭐ 4.2 | 0 | `clawhub install sentry-mcp-server` |
@@ -878,6 +885,7 @@
 | [Task Queue Monitor](skills/task-queue-monitor/) | ⭐ 4.1 | 0 | `clawhub install task-queue-monitor` |
 | [AWS CloudWatch Composite Alarm Builder](skills/aws-cloudwatch-composite-alarm-builder-2/) | ⭐ 4.0 | 0 | `clawhub install aws-cloudwatch-composite-alarm-builder-2` |
 | [Datadog Metric Exporter](skills/datadog-metric-exporter/) | ⭐ 4.0 | 0 | `clawhub install datadog-metric-exporter` |
+| [Grafana Dashboard Generator](skills/grafana-dashboard-generator-2/) | ⭐ 4.0 | 0 | `clawhub install grafana-dashboard-generator-2` |
 | [Grafana Dashboard Snapshot Exporter](skills/grafana-dashboard-snapshot-exporter/) | ⭐ 4.0 | 0 | `clawhub install grafana-dashboard-snapshot-exporter` |
 | [Grafana Unified Alerting Manager](skills/grafana-unified-alerting-manager/) | ⭐ 4.0 | 0 | `clawhub install grafana-unified-alerting-manager` |
 | [Metrics Dashboard Builder](skills/metrics-dashboard-builder/) | ⭐ 4.0 | 0 | `clawhub install metrics-dashboard-builder` |
@@ -1419,7 +1427,7 @@
 | [Schema Markup Generator for SEO](skills/schema-markup-generator-seo/) | ⭐ 4.0 | 0 | `clawhub install schema-markup-generator-seo` |
 | [WordPress Content Optimizer](skills/wordpress-content-optimizer-yoast-rest/) | ⭐ 4.0 | 0 | `clawhub install wordpress-content-optimizer-yoast-rest` |
 
-### 🎙️ Media & Transcription (27 skills)
+### 🎙️ Media & Transcription (31 skills)
 
 | Skill | Rating | Reviews | Install |
 |-------|:------:|:-------:|---------|
@@ -1429,14 +1437,18 @@
 | [YouTube Chapter Generator from Transcripts](skills/youtube-chapter-generator-transcripts/) | ⭐ 4.9 | 0 | `clawhub install youtube-chapter-generator-transcripts` |
 | [AssemblyAI Summarization &#038; Chapters Skill](skills/assemblyai-summarization-chapters-skill/) | ⭐ 4.8 | 0 | `clawhub install assemblyai-summarization-chapters-skill` |
 | [Deepgram Podcast Chapter Generator](skills/deepgram-podcast-chapter-generator/) | ⭐ 4.8 | 0 | `clawhub install deepgram-podcast-chapter-generator` |
+| [FFmpeg Audio Transcoder](skills/ffmpeg-audio-transcoder/) | ⭐ 4.8 | 0 | `clawhub install ffmpeg-audio-transcoder` |
+| [Podcast RSS Feed Builder](skills/podcast-rss-feed-builder/) | ⭐ 4.8 | 0 | `clawhub install podcast-rss-feed-builder` |
 | [Whisper Diarization Post-Processor](skills/whisper-diarization-post-processor/) | ⭐ 4.8 | 0 | `clawhub install whisper-diarization-post-processor` |
 | [FFmpeg Audio Normalization Pipeline](skills/ffmpeg-audio-normalization-pipeline/) | ⭐ 4.7 | 0 | `clawhub install ffmpeg-audio-normalization-pipeline` |
 | [FFmpeg Clip Extractor](skills/ffmpeg-clip-extractor-agent/) | ⭐ 4.7 | 0 | `clawhub install ffmpeg-clip-extractor-agent` |
 | [Live Stream Clip Extractor](skills/live-stream-clip-extractor-agent/) | ⭐ 4.7 | 0 | `clawhub install live-stream-clip-extractor-agent` |
 | [Video Frames Extractor](skills/video-frames-extractor/) | ⭐ 4.7 | 0 | `clawhub install video-frames-extractor` |
 | [Dolby.io Media Enhancer](skills/dolby-io-media-enhancer-agent/) | ⭐ 4.6 | 0 | `clawhub install dolby-io-media-enhancer-agent` |
+| [MediaInfo Metadata Extractor](skills/mediainfo-metadata-extractor/) | ⭐ 4.6 | 0 | `clawhub install mediainfo-metadata-extractor` |
 | [OpenAI Whisper API Transcription](skills/openai-whisper-api-transcription/) | ⭐ 4.5 | 0 | `clawhub install openai-whisper-api-transcription` |
 | [Podcast Transcription Pipeline](skills/podcast-transcription-pipeline-agent/) | ⭐ 4.5 | 0 | `clawhub install podcast-transcription-pipeline-agent` |
+| [Whisper Subtitle Generator](skills/whisper-subtitle-generator/) | ⭐ 4.5 | 0 | `clawhub install whisper-subtitle-generator` |
 | [YouTube Chapters Generator with Whisper](skills/youtube-chapters-generator-whisper/) | ⭐ 4.5 | 0 | `clawhub install youtube-chapters-generator-whisper` |
 | [ElevenLabs Voiceover Generator for Long-Form Content](skills/elevenlabs-voiceover-longform/) | ⭐ 4.4 | 0 | `clawhub install elevenlabs-voiceover-longform` |
 | [FFmpeg Batch Transcode Pipeline](skills/ffmpeg-batch-transcode-pipeline/) | ⭐ 4.4 | 0 | `clawhub install ffmpeg-batch-transcode-pipeline` |

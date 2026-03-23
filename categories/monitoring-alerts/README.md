@@ -1,6 +1,6 @@
 # 📊 Monitoring & Alerts
 
-> **80 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=monitoring-alerts)
+> **83 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=monitoring-alerts)
 
 Metrics collection, alerting rules, observability setup, and system monitoring.
 
@@ -60,6 +60,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Jaeger Trace Explorer](../../skills/jaeger-trace-explorer/) | ⭐ 4.4 | 0 | `clawhub install jaeger-trace-explorer` |
 | [PagerDuty MCP Server](../../skills/pagerduty-mcp-server/) | ⭐ 4.4 | 0 | `clawhub install pagerduty-mcp-server` |
 | [Prometheus / Grafana MCP Server](../../skills/prometheus-grafana-mcp-server/) | ⭐ 4.4 | 0 | `clawhub install prometheus-grafana-mcp-server` |
+| [Prometheus Alert Rule Builder](../../skills/prometheus-alert-rule-builder/) | ⭐ 4.4 | 0 | `clawhub install prometheus-alert-rule-builder` |
 | [Prometheus Alert Rule Synthesizer](../../skills/prometheus-alert-rule-synthesizer/) | ⭐ 4.4 | 0 | `clawhub install prometheus-alert-rule-synthesizer` |
 | [API Rate Limit Monitor](../../skills/api-rate-limit-monitor/) | ⭐ 4.3 | 0 | `clawhub install api-rate-limit-monitor` |
 | [Database Slow Query Runbook](../../skills/database-slow-query-runbook/) | ⭐ 4.3 | 0 | `clawhub install database-slow-query-runbook` |
@@ -74,6 +75,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [OpenTelemetry Instrumentation](../../skills/opentelemetry-instrumentation/) | ⭐ 4.3 | 0 | `clawhub install opentelemetry-instrumentation` |
 | [Prometheus AlertManager Bridge](../../skills/prometheus-alertmanager-bridge/) | ⭐ 4.3 | 0 | `clawhub install prometheus-alertmanager-bridge` |
 | [Datadog APM Trace Analyzer](../../skills/datadog-apm-trace-analyzer/) | ⭐ 4.2 | 0 | `clawhub install datadog-apm-trace-analyzer` |
+| [Datadog Monitor Configurator](../../skills/datadog-monitor-configurator-2/) | ⭐ 4.2 | 0 | `clawhub install datadog-monitor-configurator-2` |
 | [OpsGenie MCP Server](../../skills/opsgenie-mcp-server/) | ⭐ 4.2 | 0 | `clawhub install opsgenie-mcp-server` |
 | [Prometheus Alerting Rules](../../skills/prometheus-alerting-rules/) | ⭐ 4.2 | 0 | `clawhub install prometheus-alerting-rules` |
 | [Sentry MCP Server](../../skills/sentry-mcp-server/) | ⭐ 4.2 | 0 | `clawhub install sentry-mcp-server` |
@@ -86,6 +88,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Task Queue Monitor](../../skills/task-queue-monitor/) | ⭐ 4.1 | 0 | `clawhub install task-queue-monitor` |
 | [AWS CloudWatch Composite Alarm Builder](../../skills/aws-cloudwatch-composite-alarm-builder-2/) | ⭐ 4.0 | 0 | `clawhub install aws-cloudwatch-composite-alarm-builder-2` |
 | [Datadog Metric Exporter](../../skills/datadog-metric-exporter/) | ⭐ 4.0 | 0 | `clawhub install datadog-metric-exporter` |
+| [Grafana Dashboard Generator](../../skills/grafana-dashboard-generator-2/) | ⭐ 4.0 | 0 | `clawhub install grafana-dashboard-generator-2` |
 | [Grafana Dashboard Snapshot Exporter](../../skills/grafana-dashboard-snapshot-exporter/) | ⭐ 4.0 | 0 | `clawhub install grafana-dashboard-snapshot-exporter` |
 | [Grafana Unified Alerting Manager](../../skills/grafana-unified-alerting-manager/) | ⭐ 4.0 | 0 | `clawhub install grafana-unified-alerting-manager` |
 | [Metrics Dashboard Builder](../../skills/metrics-dashboard-builder/) | ⭐ 4.0 | 0 | `clawhub install metrics-dashboard-builder` |
@@ -112,7 +115,7 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 ## Related Categories
 
-- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (225 skills)
+- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (230 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (174 skills)
 - ✅ [Code Quality & Review](../code-quality-review/) (131 skills)
 - 🛠️ [Developer Tools](../developer-tools/) (126 skills)

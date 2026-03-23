@@ -1,6 +1,6 @@
 # 🎙️ Media & Transcription
 
-> **27 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=media-transcription)
+> **31 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=media-transcription)
 
 Audio/video processing, speech-to-text, media conversion, and transcription.
 
@@ -16,14 +16,18 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [YouTube Chapter Generator from Transcripts](../../skills/youtube-chapter-generator-transcripts/) | ⭐ 4.9 | 0 | `clawhub install youtube-chapter-generator-transcripts` |
 | [AssemblyAI Summarization &#038; Chapters Skill](../../skills/assemblyai-summarization-chapters-skill/) | ⭐ 4.8 | 0 | `clawhub install assemblyai-summarization-chapters-skill` |
 | [Deepgram Podcast Chapter Generator](../../skills/deepgram-podcast-chapter-generator/) | ⭐ 4.8 | 0 | `clawhub install deepgram-podcast-chapter-generator` |
+| [FFmpeg Audio Transcoder](../../skills/ffmpeg-audio-transcoder/) | ⭐ 4.8 | 0 | `clawhub install ffmpeg-audio-transcoder` |
+| [Podcast RSS Feed Builder](../../skills/podcast-rss-feed-builder/) | ⭐ 4.8 | 0 | `clawhub install podcast-rss-feed-builder` |
 | [Whisper Diarization Post-Processor](../../skills/whisper-diarization-post-processor/) | ⭐ 4.8 | 0 | `clawhub install whisper-diarization-post-processor` |
 | [FFmpeg Audio Normalization Pipeline](../../skills/ffmpeg-audio-normalization-pipeline/) | ⭐ 4.7 | 0 | `clawhub install ffmpeg-audio-normalization-pipeline` |
 | [FFmpeg Clip Extractor](../../skills/ffmpeg-clip-extractor-agent/) | ⭐ 4.7 | 0 | `clawhub install ffmpeg-clip-extractor-agent` |
 | [Live Stream Clip Extractor](../../skills/live-stream-clip-extractor-agent/) | ⭐ 4.7 | 0 | `clawhub install live-stream-clip-extractor-agent` |
 | [Video Frames Extractor](../../skills/video-frames-extractor/) | ⭐ 4.7 | 0 | `clawhub install video-frames-extractor` |
 | [Dolby.io Media Enhancer](../../skills/dolby-io-media-enhancer-agent/) | ⭐ 4.6 | 0 | `clawhub install dolby-io-media-enhancer-agent` |
+| [MediaInfo Metadata Extractor](../../skills/mediainfo-metadata-extractor/) | ⭐ 4.6 | 0 | `clawhub install mediainfo-metadata-extractor` |
 | [OpenAI Whisper API Transcription](../../skills/openai-whisper-api-transcription/) | ⭐ 4.5 | 0 | `clawhub install openai-whisper-api-transcription` |
 | [Podcast Transcription Pipeline](../../skills/podcast-transcription-pipeline-agent/) | ⭐ 4.5 | 0 | `clawhub install podcast-transcription-pipeline-agent` |
+| [Whisper Subtitle Generator](../../skills/whisper-subtitle-generator/) | ⭐ 4.5 | 0 | `clawhub install whisper-subtitle-generator` |
 | [YouTube Chapters Generator with Whisper](../../skills/youtube-chapters-generator-whisper/) | ⭐ 4.5 | 0 | `clawhub install youtube-chapters-generator-whisper` |
 | [ElevenLabs Voiceover Generator for Long-Form Content](../../skills/elevenlabs-voiceover-longform/) | ⭐ 4.4 | 0 | `clawhub install elevenlabs-voiceover-longform` |
 | [FFmpeg Batch Transcode Pipeline](../../skills/ffmpeg-batch-transcode-pipeline/) | ⭐ 4.4 | 0 | `clawhub install ffmpeg-batch-transcode-pipeline` |
@@ -59,7 +63,7 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 ## Related Categories
 
-- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (225 skills)
+- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (230 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (174 skills)
 - ✅ [Code Quality & Review](../code-quality-review/) (131 skills)
 - 🛠️ [Developer Tools](../developer-tools/) (126 skills)
