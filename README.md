@@ -4,8 +4,8 @@
 
 ### The largest open collection of verified AI agent skills
 
-[![Skills](https://img.shields.io/badge/skills-1%2C100+-6366f1?style=for-the-badge)](https://agentskillexchange.com/browse-skills/)
-[![Verified](https://img.shields.io/badge/verified-1%2C100+-10b981?style=for-the-badge)](https://agentskillexchange.com/verified-skills/)
+[![Skills](https://img.shields.io/badge/skills-1%2C200+-6366f1?style=for-the-badge)](https://agentskillexchange.com/browse-skills/)
+[![Verified](https://img.shields.io/badge/verified-1%2C200+-10b981?style=for-the-badge)](https://agentskillexchange.com/verified-skills/)
 [![Frameworks](https://img.shields.io/badge/frameworks-11-8b5cf6?style=for-the-badge)](https://agentskillexchange.com/browse-skills/)
 [![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)
 
