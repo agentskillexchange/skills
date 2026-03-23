@@ -1,6 +1,6 @@
 # 📄 Templates & Workflows
 
-> **65 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=templates-workflows)
+> **69 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=templates-workflows)
 
 Project scaffolding, boilerplate generators, workflow templates, and starter kits.
 
@@ -24,6 +24,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Yeoman Generator Builder](../../skills/yeoman-generator-builder/) | ⭐ 4.9 | 0 | `clawhub install yeoman-generator-builder` |
 | [Ansible Playbook Runner](../../skills/ansible-playbook-runner/) | ⭐ 4.8 | 0 | `clawhub install ansible-playbook-runner` |
 | [ClickUp MCP Server](../../skills/clickup-mcp-server/) | ⭐ 4.8 | 0 | `clawhub install clickup-mcp-server` |
+| [Cookiecutter Template Generator](../../skills/cookiecutter-template-generator/) | ⭐ 4.8 | 0 | `clawhub install cookiecutter-template-generator` |
 | [Cron Job Manager](../../skills/cron-job-manager/) | ⭐ 4.8 | 0 | `clawhub install cron-job-manager` |
 | [GCP Deployment Manager](../../skills/gcp-deployment-manager/) | ⭐ 4.8 | 0 | `clawhub install gcp-deployment-manager` |
 | [Jinja2 Infrastructure Template Engine](../../skills/jinja2-infrastructure-template-engine/) | ⭐ 4.8 | 0 | `clawhub install jinja2-infrastructure-template-engine` |
@@ -31,6 +32,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Notion to PDF Knowledge Exporter](../../skills/notion-to-pdf-knowledge-exporter-2/) | ⭐ 4.8 | 0 | `clawhub install notion-to-pdf-knowledge-exporter-2` |
 | [Nx Workspace Generator Toolkit](../../skills/nx-workspace-generator-toolkit/) | ⭐ 4.8 | 0 | `clawhub install nx-workspace-generator-toolkit` |
 | [Terraform Module Scaffolder](../../skills/terraform-module-scaffolder/) | ⭐ 4.8 | 0 | `clawhub install terraform-module-scaffolder` |
+| [Yeoman Scaffold Runner](../../skills/yeoman-scaffold-runner/) | ⭐ 4.8 | 0 | `clawhub install yeoman-scaffold-runner` |
 | [AWS CDK Scaffolder](../../skills/aws-cdk-scaffolder/) | ⭐ 4.7 | 0 | `clawhub install aws-cdk-scaffolder` |
 | [Backstage Software Catalog Sync](../../skills/backstage-software-catalog-sync/) | ⭐ 4.7 | 0 | `clawhub install backstage-software-catalog-sync` |
 | [Cookiecutter Project Scaffold Generator](../../skills/cookiecutter-project-scaffold-generator/) | ⭐ 4.7 | 0 | `clawhub install cookiecutter-project-scaffold-generator` |
@@ -53,6 +55,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Cloudflare Workers Deployer](../../skills/cloudflare-workers-deployer/) | ⭐ 4.5 | 0 | `clawhub install cloudflare-workers-deployer` |
 | [Cookiecutter Project Scaffolder](../../skills/cookiecutter-project-scaffolder/) | ⭐ 4.5 | 0 | `clawhub install cookiecutter-project-scaffolder` |
 | [GitHub Actions Workflow Generator](../../skills/github-actions-workflow-generator-4/) | ⭐ 4.5 | 0 | `clawhub install github-actions-workflow-generator-4` |
+| [Nx Workspace Generator](../../skills/nx-workspace-generator/) | ⭐ 4.5 | 0 | `clawhub install nx-workspace-generator` |
 | [Postmortem Template Generator](../../skills/postmortem-template-generator/) | ⭐ 4.5 | 0 | `clawhub install postmortem-template-generator` |
 | [Prefect Workflow Agent](../../skills/prefect-workflow-agent/) | ⭐ 4.5 | 0 | `clawhub install prefect-workflow-agent` |
 | [Terraform Module Testing Framework](../../skills/terraform-module-testing-framework/) | ⭐ 4.5 | 0 | `clawhub install terraform-module-testing-framework` |
@@ -61,6 +64,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Intercom MCP Server](../../skills/intercom-mcp-server/) | ⭐ 4.4 | 0 | `clawhub install intercom-mcp-server` |
 | [Makefile Workflow Generator](../../skills/makefile-workflow-generator/) | ⭐ 4.4 | 0 | `clawhub install makefile-workflow-generator` |
 | [Fly.io Deployment Helper](../../skills/fly-io-deployment-helper/) | ⭐ 4.3 | 0 | `clawhub install fly-io-deployment-helper` |
+| [Plop.js Micro-Generator](../../skills/plopjs-micro-generator-2/) | ⭐ 4.3 | 0 | `clawhub install plopjs-micro-generator-2` |
 | [Ansible Playbook Template Library](../../skills/ansible-playbook-template-library/) | ⭐ 4.2 | 0 | `clawhub install ansible-playbook-template-library` |
 | [Cookiecutter Project Scaffolder](../../skills/cookiecutter-project-scaffolder-3/) | ⭐ 4.2 | 0 | `clawhub install cookiecutter-project-scaffolder-3` |
 | [Docker Compose Test Harness](../../skills/docker-compose-test-harness/) | ⭐ 4.2 | 0 | `clawhub install docker-compose-test-harness` |
@@ -97,7 +101,7 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 ## Related Categories
 
-- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (217 skills)
+- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (221 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (174 skills)
 - ✅ [Code Quality & Review](../code-quality-review/) (131 skills)
 - 🛠️ [Developer Tools](../developer-tools/) (122 skills)

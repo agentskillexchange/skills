@@ -1,6 +1,6 @@
 # 🔧 CI/CD Integrations
 
-> **217 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=ci-cd-integrations)
+> **221 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=ci-cd-integrations)
 
 Pipeline configs, deployment automation, build tooling, and continuous integration/delivery skills.
 
@@ -110,6 +110,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Terraform Plan Reviewer](../../skills/terraform-plan-reviewer-2/) | ⭐ 4.7 | 0 | `clawhub install terraform-plan-reviewer-2` |
 | [ArgoCD Deployment Monitor](../../skills/argocd-deployment-monitor/) | ⭐ 4.6 | 0 | `clawhub install argocd-deployment-monitor` |
 | [ArgoCD Sync Status Monitor](../../skills/argocd-sync-status-monitor/) | ⭐ 4.6 | 0 | `clawhub install argocd-sync-status-monitor` |
+| [CircleCI Orb Composer](../../skills/circleci-orb-composer-11/) | ⭐ 4.6 | 0 | `clawhub install circleci-orb-composer-11` |
 | [CircleCI Orb Configurator](../../skills/circleci-orb-configurator-2/) | ⭐ 4.6 | 0 | `clawhub install circleci-orb-configurator-2` |
 | [CircleCI Orb Dependency Scanner](../../skills/circleci-orb-dependency-scanner/) | ⭐ 4.6 | 0 | `clawhub install circleci-orb-dependency-scanner` |
 | [CircleCI Workflow Cost Auditor](../../skills/circleci-workflow-cost-auditor/) | ⭐ 4.6 | 0 | `clawhub install circleci-workflow-cost-auditor` |
@@ -161,6 +162,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Docker Image Vulnerability Triage](../../skills/docker-image-vulnerability-triage/) | ⭐ 4.4 | 0 | `clawhub install docker-image-vulnerability-triage` |
 | [Drone CI Integration](../../skills/drone-ci-integration/) | ⭐ 4.4 | 0 | `clawhub install drone-ci-integration` |
 | [GitHub Actions CI Builder](../../skills/github-actions-ci-builder/) | ⭐ 4.4 | 0 | `clawhub install github-actions-ci-builder` |
+| [GitHub Actions Matrix Builder](../../skills/github-actions-matrix-builder-20/) | ⭐ 4.4 | 0 | `clawhub install github-actions-matrix-builder-20` |
 | [GitHub Actions Workflow Optimizer](../../skills/github-actions-workflow-optimizer/) | ⭐ 4.4 | 0 | `clawhub install github-actions-workflow-optimizer` |
 | [GitLab CI Integration](../../skills/gitlab-ci-integration-2/) | ⭐ 4.4 | 0 | `clawhub install gitlab-ci-integration-2` |
 | [Jenkins Pipeline Failure Analyzer](../../skills/jenkins-pipeline-failure-analyzer/) | ⭐ 4.4 | 0 | `clawhub install jenkins-pipeline-failure-analyzer` |
@@ -198,9 +200,11 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Jenkins Pipeline Linter](../../skills/jenkins-pipeline-linter-2/) | ⭐ 4.2 | 0 | `clawhub install jenkins-pipeline-linter-2` |
 | [Jenkins Shared Library Linter](../../skills/jenkins-shared-library-linter/) | ⭐ 4.2 | 0 | `clawhub install jenkins-shared-library-linter` |
 | [Tekton Pipeline Scaffolder](../../skills/tekton-pipeline-scaffolder-3/) | ⭐ 4.2 | 0 | `clawhub install tekton-pipeline-scaffolder-3` |
+| [Terraform Plan Analyzer](../../skills/terraform-plan-analyzer-3/) | ⭐ 4.2 | 0 | `clawhub install terraform-plan-analyzer-3` |
 | [ArgoCD Application Sync Monitor](../../skills/argocd-application-sync-monitor/) | ⭐ 4.1 | 0 | `clawhub install argocd-application-sync-monitor` |
 | [ArgoCD GitOps Sync Automator](../../skills/argocd-gitops-sync-automator/) | ⭐ 4.1 | 0 | `clawhub install argocd-gitops-sync-automator` |
 | [ArgoCD GitOps Sync Monitor](../../skills/argocd-gitops-sync-monitor/) | ⭐ 4.1 | 0 | `clawhub install argocd-gitops-sync-monitor` |
+| [ArgoCD Sync Orchestrator](../../skills/argocd-sync-orchestrator/) | ⭐ 4.1 | 0 | `clawhub install argocd-sync-orchestrator` |
 | [ArgoCD Sync Troubleshooter](../../skills/argocd-sync-troubleshooter/) | ⭐ 4.1 | 0 | `clawhub install argocd-sync-troubleshooter` |
 | [Buildkite Pipeline Agent](../../skills/buildkite-pipeline-agent/) | ⭐ 4.1 | 0 | `clawhub install buildkite-pipeline-agent` |
 | [Buildkite Pipeline Profiler](../../skills/buildkite-pipeline-profiler/) | ⭐ 4.1 | 0 | `clawhub install buildkite-pipeline-profiler` |
@@ -252,7 +256,7 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (174 skills)
 - ✅ [Code Quality & Review](../code-quality-review/) (131 skills)
 - 🛠️ [Developer Tools](../developer-tools/) (122 skills)
-- 📚 [Library & API Reference](../library-api-reference/) (90 skills)
+- 📚 [Library & API Reference](../library-api-reference/) (94 skills)
 
 ---
 

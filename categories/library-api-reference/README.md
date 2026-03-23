@@ -1,6 +1,6 @@
 # 📚 Library & API Reference
 
-> **90 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=library-api-reference)
+> **94 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=library-api-reference)
 
 SDK documentation, API guides, framework reference material, and library usage patterns.
 
@@ -16,6 +16,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [GraphQL Schema Analyzer](../../skills/graphql-schema-analyzer/) | ⭐ 4.9 | 0 | `clawhub install graphql-schema-analyzer` |
 | [GraphQL Schema Documentation Builder](../../skills/graphql-schema-documentation-builder/) | ⭐ 4.9 | 0 | `clawhub install graphql-schema-documentation-builder` |
 | [GraphQL Schema Registry Agent](../../skills/graphql-schema-registry-agent/) | ⭐ 4.9 | 0 | `clawhub install graphql-schema-registry-agent` |
+| [MDN Web Docs Fetcher](../../skills/mdn-web-docs-fetcher/) | ⭐ 4.9 | 0 | `clawhub install mdn-web-docs-fetcher` |
 | [NPM Package Vulnerability Runbook](../../skills/npm-package-vulnerability-runbook/) | ⭐ 4.9 | 0 | `clawhub install npm-package-vulnerability-runbook` |
 | [NPM Package Vulnerability Scanner](../../skills/npm-package-vulnerability-scanner-2/) | ⭐ 4.9 | 0 | `clawhub install npm-package-vulnerability-scanner-2` |
 | [OpenAPI Spec Reference Generator](../../skills/openapi-spec-reference-generator/) | ⭐ 4.9 | 0 | `clawhub install openapi-spec-reference-generator` |
@@ -25,6 +26,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [REST API Documentation Generator](../../skills/rest-api-documentation-generator/) | ⭐ 4.9 | 0 | `clawhub install rest-api-documentation-generator` |
 | [REST API Documentation Generator](../../skills/rest-api-documentation-generator-2/) | ⭐ 4.9 | 0 | `clawhub install rest-api-documentation-generator-2` |
 | [REST API Testing Reference Kit](../../skills/rest-api-testing-reference-kit/) | ⭐ 4.9 | 0 | `clawhub install rest-api-testing-reference-kit` |
+| [Rust Crates.io Explorer](../../skills/rust-crates-io-explorer/) | ⭐ 4.9 | 0 | `clawhub install rust-crates-io-explorer` |
 | [API Versioning Manager](../../skills/api-versioning-manager/) | ⭐ 4.8 | 0 | `clawhub install api-versioning-manager` |
 | [Confluence Knowledge Base Builder](../../skills/confluence-knowledge-base-builder-2/) | ⭐ 4.8 | 0 | `clawhub install confluence-knowledge-base-builder-2` |
 | [NPM Package Analyzer](../../skills/npm-package-analyzer/) | ⭐ 4.8 | 0 | `clawhub install npm-package-analyzer` |
@@ -47,6 +49,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [NPM Package Audit &#038; License Checker](../../skills/npm-package-audit-license-checker/) | ⭐ 4.7 | 0 | `clawhub install npm-package-audit-license-checker` |
 | [NPM Package Changelog Analyzer](../../skills/npm-package-changelog-analyzer/) | ⭐ 4.7 | 0 | `clawhub install npm-package-changelog-analyzer` |
 | [OpenAPI Spec Validator &#038; Linter](../../skills/openapi-spec-validator-linter-2/) | ⭐ 4.7 | 0 | `clawhub install openapi-spec-validator-linter-2` |
+| [PyPI Package Inspector](../../skills/pypi-package-inspector/) | ⭐ 4.7 | 0 | `clawhub install pypi-package-inspector` |
 | [Python PyPI Dependency Resolver](../../skills/python-pypi-dependency-resolver/) | ⭐ 4.7 | 0 | `clawhub install python-pypi-dependency-resolver` |
 | [Rate Limit Tracker](../../skills/rate-limit-tracker/) | ⭐ 4.7 | 0 | `clawhub install rate-limit-tracker` |
 | [REST API Reference Generator](../../skills/rest-api-reference-generator/) | ⭐ 4.7 | 0 | `clawhub install rest-api-reference-generator` |
@@ -82,6 +85,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Contract Testing Agent](../../skills/contract-testing-agent/) | ⭐ 4.3 | 0 | `clawhub install contract-testing-agent` |
 | [GraphQL Schema Introspector](../../skills/graphql-schema-introspector/) | ⭐ 4.3 | 0 | `clawhub install graphql-schema-introspector` |
 | [NPM Package Dependency Auditor](../../skills/npm-package-dependency-auditor/) | ⭐ 4.3 | 0 | `clawhub install npm-package-dependency-auditor` |
+| [npm Registry Analyzer](../../skills/npm-registry-analyzer/) | ⭐ 4.3 | 0 | `clawhub install npm-registry-analyzer` |
 | [OpenAPI Spec Reference Indexer](../../skills/openapi-spec-reference-indexer/) | ⭐ 4.3 | 0 | `clawhub install openapi-spec-reference-indexer` |
 | [OpenTelemetry Trace Context Propagator](../../skills/opentelemetry-trace-context-propagator/) | ⭐ 4.3 | 0 | `clawhub install opentelemetry-trace-context-propagator` |
 | [Python Type Stub Generator](../../skills/python-type-stub-generator-3/) | ⭐ 4.3 | 0 | `clawhub install python-type-stub-generator-3` |
@@ -122,7 +126,7 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 ## Related Categories
 
-- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (217 skills)
+- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (221 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (174 skills)
 - ✅ [Code Quality & Review](../code-quality-review/) (131 skills)
 - 🛠️ [Developer Tools](../developer-tools/) (122 skills)
