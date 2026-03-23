@@ -1,6 +1,6 @@
 # 🔒 Security & Verification
 
-> **88 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=security-verification)
+> **92 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=security-verification)
 
 Auth setup, vulnerability scanning, compliance checks, and security automation.
 
@@ -10,6 +10,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 
 | Skill | Rating | Reviews | Install |
 |-------|:------:|:-------:|---------|
+| [AWS CloudTrail Log Normalizer](../../skills/aws-cloudtrail-log-normalizer/) | ⭐ 4.9 | 0 | `clawhub install aws-cloudtrail-log-normalizer` |
 | [CSP Policy Analyzer](../../skills/csp-policy-analyzer/) | ⭐ 4.9 | 0 | `clawhub install csp-policy-analyzer` |
 | [HashiCorp Vault Secret Rotation Agent](../../skills/hashicorp-vault-secret-rotation-agent/) | ⭐ 4.9 | 0 | `clawhub install hashicorp-vault-secret-rotation-agent` |
 | [HashiCorp Vault Secret Scanner](../../skills/hashicorp-vault-secret-scanner-2/) | ⭐ 4.9 | 0 | `clawhub install hashicorp-vault-secret-scanner-2` |
@@ -20,6 +21,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [OWASP ZAP API Security Tester](../../skills/owasp-zap-api-security-tester/) | ⭐ 4.9 | 0 | `clawhub install owasp-zap-api-security-tester` |
 | [OWASP ZAP Automated Pen Testing Agent](../../skills/owasp-zap-automated-pen-testing-agent/) | ⭐ 4.9 | 0 | `clawhub install owasp-zap-automated-pen-testing-agent` |
 | [SAST Pipeline Scanner](../../skills/sast-pipeline-scanner/) | ⭐ 4.9 | 0 | `clawhub install sast-pipeline-scanner` |
+| [SBOM Generator with CycloneDX](../../skills/sbom-generator-cyclonedx/) | ⭐ 4.9 | 0 | `clawhub install sbom-generator-cyclonedx` |
 | [SSL Certificate Chain Validator](../../skills/ssl-certificate-chain-validator-2/) | ⭐ 4.9 | 0 | `clawhub install ssl-certificate-chain-validator-2` |
 | [SSL Certificate Manager Skill](../../skills/ssl-certificate-manager-skill/) | ⭐ 4.9 | 0 | `clawhub install ssl-certificate-manager-skill` |
 | [ZAP Automated Security Scan Orchestrator](../../skills/zap-automated-security-scan-orchestrator/) | ⭐ 4.9 | 0 | `clawhub install zap-automated-security-scan-orchestrator` |
@@ -38,6 +40,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Terrascan Policy Scanner](../../skills/terrascan-policy-scanner/) | ⭐ 4.8 | 0 | `clawhub install terrascan-policy-scanner` |
 | [KICS IaC Linter](../../skills/kics-iac-linter/) | ⭐ 4.7 | 0 | `clawhub install kics-iac-linter` |
 | [OWASP ZAP API Fuzzer](../../skills/owasp-zap-api-fuzzer/) | ⭐ 4.7 | 0 | `clawhub install owasp-zap-api-fuzzer` |
+| [SAST Rule Compiler for Semgrep](../../skills/sast-rule-compiler-semgrep/) | ⭐ 4.7 | 0 | `clawhub install sast-rule-compiler-semgrep` |
 | [Sigstore Cosign Verifier](../../skills/sigstore-cosign-verifier-2/) | ⭐ 4.7 | 0 | `clawhub install sigstore-cosign-verifier-2` |
 | [Snyk Container Image Analyzer](../../skills/snyk-container-image-analyzer/) | ⭐ 4.7 | 0 | `clawhub install snyk-container-image-analyzer` |
 | [Snyk Open Source Dependency Auditor](../../skills/snyk-open-source-dependency-auditor/) | ⭐ 4.7 | 0 | `clawhub install snyk-open-source-dependency-auditor` |
@@ -67,6 +70,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [OWASP ZAP Security Audit Skill](../../skills/owasp-zap-security-audit-skill/) | ⭐ 4.4 | 0 | `clawhub install owasp-zap-security-audit-skill` |
 | [SBOM Vulnerability Scanner](../../skills/sbom-vulnerability-scanner/) | ⭐ 4.4 | 0 | `clawhub install sbom-vulnerability-scanner` |
 | [Secrets Scanner for Git Repositories](../../skills/secrets-scanner-git-repositories-2/) | ⭐ 4.4 | 0 | `clawhub install secrets-scanner-git-repositories-2` |
+| [TLS Certificate Chain Analyzer](../../skills/tls-certificate-chain-analyzer/) | ⭐ 4.4 | 0 | `clawhub install tls-certificate-chain-analyzer` |
 | [TLS Certificate Chain Validator](../../skills/tls-certificate-chain-validator/) | ⭐ 4.4 | 0 | `clawhub install tls-certificate-chain-validator` |
 | [Trivy Vulnerability Scanner Pipeline](../../skills/trivy-vulnerability-scanner-pipeline/) | ⭐ 4.4 | 0 | `clawhub install trivy-vulnerability-scanner-pipeline` |
 | [Git Secret Scanner](../../skills/git-secret-scanner/) | ⭐ 4.3 | 0 | `clawhub install git-secret-scanner` |
@@ -120,7 +124,7 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 ## Related Categories
 
-- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (234 skills)
+- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (239 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (174 skills)
 - ✅ [Code Quality & Review](../code-quality-review/) (135 skills)
 - 🛠️ [Developer Tools](../developer-tools/) (126 skills)

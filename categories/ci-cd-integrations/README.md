@@ -1,6 +1,6 @@
 # 🔧 CI/CD Integrations
 
-> **234 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=ci-cd-integrations)
+> **239 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=ci-cd-integrations)
 
 Pipeline configs, deployment automation, build tooling, and continuous integration/delivery skills.
 
@@ -38,6 +38,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [GitLab CI Template Generator](../../skills/gitlab-ci-template-generator/) | ⭐ 4.9 | 0 | `clawhub install gitlab-ci-template-generator` |
 | [GitLab Pipeline Bottleneck Profiler](../../skills/gitlab-pipeline-bottleneck-profiler/) | ⭐ 4.9 | 0 | `clawhub install gitlab-pipeline-bottleneck-profiler` |
 | [GitLab Pipeline Optimizer](../../skills/gitlab-pipeline-optimizer-2/) | ⭐ 4.9 | 0 | `clawhub install gitlab-pipeline-optimizer-2` |
+| [Jenkins Groovy Shared Library Auditor](../../skills/jenkins-groovy-shared-library-auditor/) | ⭐ 4.9 | 0 | `clawhub install jenkins-groovy-shared-library-auditor` |
 | [Jenkins Pipeline Linter](../../skills/jenkins-pipeline-linter-4/) | ⭐ 4.9 | 0 | `clawhub install jenkins-pipeline-linter-4` |
 | [Jenkins Pipeline Linter](../../skills/jenkins-pipeline-linter-6/) | ⭐ 4.9 | 0 | `clawhub install jenkins-pipeline-linter-6` |
 | [Jenkins Pipeline Orchestrator](../../skills/jenkins-pipeline-orchestrator/) | ⭐ 4.9 | 0 | `clawhub install jenkins-pipeline-orchestrator` |
@@ -75,6 +76,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [GitLab CI Auto DevOps Configurator](../../skills/gitlab-ci-auto-devops-configurator/) | ⭐ 4.8 | 0 | `clawhub install gitlab-ci-auto-devops-configurator` |
 | [GitLab CI Pipeline Optimizer](../../skills/gitlab-ci-pipeline-optimizer/) | ⭐ 4.8 | 0 | `clawhub install gitlab-ci-pipeline-optimizer` |
 | [GitLab CI Pipeline Optimizer](../../skills/gitlab-ci-pipeline-optimizer-2/) | ⭐ 4.8 | 0 | `clawhub install gitlab-ci-pipeline-optimizer-2` |
+| [GitLab CI Pipeline Validator](../../skills/gitlab-ci-pipeline-validator/) | ⭐ 4.8 | 0 | `clawhub install gitlab-ci-pipeline-validator` |
 | [GitLab Pipeline Orchestrator](../../skills/gitlab-pipeline-orchestrator/) | ⭐ 4.8 | 0 | `clawhub install gitlab-pipeline-orchestrator` |
 | [Jenkins Declarative Pipeline Generator](../../skills/jenkins-declarative-pipeline-generator/) | ⭐ 4.8 | 0 | `clawhub install jenkins-declarative-pipeline-generator` |
 | [Jenkins Pipeline Debugger](../../skills/jenkins-pipeline-debugger-skill/) | ⭐ 4.8 | 0 | `clawhub install jenkins-pipeline-debugger-skill` |
@@ -86,6 +88,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Jenkins Pipeline Linter](../../skills/jenkins-pipeline-linter-5/) | ⭐ 4.8 | 0 | `clawhub install jenkins-pipeline-linter-5` |
 | [Jenkins Pipeline Linter Pro](../../skills/jenkins-pipeline-linter-pro/) | ⭐ 4.8 | 0 | `clawhub install jenkins-pipeline-linter-pro` |
 | [Jenkins Pipeline Orchestrator](../../skills/jenkins-pipeline-orchestrator-2/) | ⭐ 4.8 | 0 | `clawhub install jenkins-pipeline-orchestrator-2` |
+| [Tekton Pipeline Resource Optimizer](../../skills/tekton-pipeline-resource-optimizer/) | ⭐ 4.8 | 0 | `clawhub install tekton-pipeline-resource-optimizer` |
 | [Tekton Pipeline Scaffolder](../../skills/tekton-pipeline-scaffolder/) | ⭐ 4.8 | 0 | `clawhub install tekton-pipeline-scaffolder` |
 | [Terraform Plan &#038; Apply Automation](../../skills/terraform-plan-apply-automation/) | ⭐ 4.8 | 0 | `clawhub install terraform-plan-apply-automation` |
 | [Terraform Plan Analyzer](../../skills/terraform-plan-analyzer-2/) | ⭐ 4.8 | 0 | `clawhub install terraform-plan-analyzer-2` |
@@ -187,6 +190,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [GitHub Actions Matrix Builder](../../skills/github-actions-matrix-builder-14/) | ⭐ 4.3 | 0 | `clawhub install github-actions-matrix-builder-14` |
 | [GitHub Actions Matrix Optimizer](../../skills/github-actions-matrix-optimizer-6/) | ⭐ 4.3 | 0 | `clawhub install github-actions-matrix-optimizer-6` |
 | [GitHub Actions Matrix Optimizer](../../skills/github-actions-matrix-optimizer/) | ⭐ 4.3 | 0 | `clawhub install github-actions-matrix-optimizer` |
+| [GitHub Actions OIDC Token Verifier](../../skills/github-actions-oidc-token-verifier/) | ⭐ 4.3 | 0 | `clawhub install github-actions-oidc-token-verifier` |
 | [GitHub Actions Pipeline Debugger](../../skills/github-actions-pipeline-debugger/) | ⭐ 4.3 | 0 | `clawhub install github-actions-pipeline-debugger` |
 | [GitHub Actions Workflow Builder](../../skills/github-actions-workflow-builder-skill/) | ⭐ 4.3 | 0 | `clawhub install github-actions-workflow-builder-skill` |
 | [GitHub Actions Workflow Linter](../../skills/github-actions-workflow-linter/) | ⭐ 4.3 | 0 | `clawhub install github-actions-workflow-linter` |
@@ -202,6 +206,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [CircleCI Orb Configuration Manager](../../skills/circleci-orb-configuration-manager/) | ⭐ 4.2 | 0 | `clawhub install circleci-orb-configuration-manager` |
 | [CircleCI Orb Debugger](../../skills/circleci-orb-debugger-2/) | ⭐ 4.2 | 0 | `clawhub install circleci-orb-debugger-2` |
 | [CircleCI Orb Dependency Auditor](../../skills/circleci-orb-dependency-auditor-3/) | ⭐ 4.2 | 0 | `clawhub install circleci-orb-dependency-auditor-3` |
+| [CircleCI Orb Dependency Scanner](../../skills/circleci-orb-dependency-scanner-5/) | ⭐ 4.2 | 0 | `clawhub install circleci-orb-dependency-scanner-5` |
 | [GitHub Actions Matrix Builder](../../skills/github-actions-matrix-builder-17/) | ⭐ 4.2 | 0 | `clawhub install github-actions-matrix-builder-17` |
 | [GitHub Actions Matrix Builder](../../skills/github-actions-matrix-builder-12/) | ⭐ 4.2 | 0 | `clawhub install github-actions-matrix-builder-12` |
 | [GitHub Actions Matrix Builder](../../skills/github-actions-matrix-builder-5/) | ⭐ 4.2 | 0 | `clawhub install github-actions-matrix-builder-5` |

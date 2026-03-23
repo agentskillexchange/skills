@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1472 skills** across **17 categories** · Updated 2026-03-23 21:02 UTC
+> **1484 skills** across **17 categories** · Updated 2026-03-23 22:02 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -10,7 +10,7 @@
 
 | Metric | Value |
 |--------|-------|
-| Total Skills | **1472** |
+| Total Skills | **1484** |
 | Categories | **17** |
 | Frameworks | **11** |
 | Verification | All skills **Verified Metadata** or higher |
@@ -19,7 +19,7 @@
 
 ## Skills by Category
 
-### 🔧 CI/CD Integrations (234 skills)
+### 🔧 CI/CD Integrations (239 skills)
 
 | Skill | Rating | Reviews | Install |
 |-------|:------:|:-------:|---------|
@@ -51,6 +51,7 @@
 | [GitLab CI Template Generator](skills/gitlab-ci-template-generator/) | ⭐ 4.9 | 0 | `clawhub install gitlab-ci-template-generator` |
 | [GitLab Pipeline Bottleneck Profiler](skills/gitlab-pipeline-bottleneck-profiler/) | ⭐ 4.9 | 0 | `clawhub install gitlab-pipeline-bottleneck-profiler` |
 | [GitLab Pipeline Optimizer](skills/gitlab-pipeline-optimizer-2/) | ⭐ 4.9 | 0 | `clawhub install gitlab-pipeline-optimizer-2` |
+| [Jenkins Groovy Shared Library Auditor](skills/jenkins-groovy-shared-library-auditor/) | ⭐ 4.9 | 0 | `clawhub install jenkins-groovy-shared-library-auditor` |
 | [Jenkins Pipeline Linter](skills/jenkins-pipeline-linter-4/) | ⭐ 4.9 | 0 | `clawhub install jenkins-pipeline-linter-4` |
 | [Jenkins Pipeline Linter](skills/jenkins-pipeline-linter-6/) | ⭐ 4.9 | 0 | `clawhub install jenkins-pipeline-linter-6` |
 | [Jenkins Pipeline Orchestrator](skills/jenkins-pipeline-orchestrator/) | ⭐ 4.9 | 0 | `clawhub install jenkins-pipeline-orchestrator` |
@@ -88,6 +89,7 @@
 | [GitLab CI Auto DevOps Configurator](skills/gitlab-ci-auto-devops-configurator/) | ⭐ 4.8 | 0 | `clawhub install gitlab-ci-auto-devops-configurator` |
 | [GitLab CI Pipeline Optimizer](skills/gitlab-ci-pipeline-optimizer/) | ⭐ 4.8 | 0 | `clawhub install gitlab-ci-pipeline-optimizer` |
 | [GitLab CI Pipeline Optimizer](skills/gitlab-ci-pipeline-optimizer-2/) | ⭐ 4.8 | 0 | `clawhub install gitlab-ci-pipeline-optimizer-2` |
+| [GitLab CI Pipeline Validator](skills/gitlab-ci-pipeline-validator/) | ⭐ 4.8 | 0 | `clawhub install gitlab-ci-pipeline-validator` |
 | [GitLab Pipeline Orchestrator](skills/gitlab-pipeline-orchestrator/) | ⭐ 4.8 | 0 | `clawhub install gitlab-pipeline-orchestrator` |
 | [Jenkins Declarative Pipeline Generator](skills/jenkins-declarative-pipeline-generator/) | ⭐ 4.8 | 0 | `clawhub install jenkins-declarative-pipeline-generator` |
 | [Jenkins Pipeline Debugger](skills/jenkins-pipeline-debugger-skill/) | ⭐ 4.8 | 0 | `clawhub install jenkins-pipeline-debugger-skill` |
@@ -99,6 +101,7 @@
 | [Jenkins Pipeline Linter](skills/jenkins-pipeline-linter-5/) | ⭐ 4.8 | 0 | `clawhub install jenkins-pipeline-linter-5` |
 | [Jenkins Pipeline Linter Pro](skills/jenkins-pipeline-linter-pro/) | ⭐ 4.8 | 0 | `clawhub install jenkins-pipeline-linter-pro` |
 | [Jenkins Pipeline Orchestrator](skills/jenkins-pipeline-orchestrator-2/) | ⭐ 4.8 | 0 | `clawhub install jenkins-pipeline-orchestrator-2` |
+| [Tekton Pipeline Resource Optimizer](skills/tekton-pipeline-resource-optimizer/) | ⭐ 4.8 | 0 | `clawhub install tekton-pipeline-resource-optimizer` |
 | [Tekton Pipeline Scaffolder](skills/tekton-pipeline-scaffolder/) | ⭐ 4.8 | 0 | `clawhub install tekton-pipeline-scaffolder` |
 | [Terraform Plan &#038; Apply Automation](skills/terraform-plan-apply-automation/) | ⭐ 4.8 | 0 | `clawhub install terraform-plan-apply-automation` |
 | [Terraform Plan Analyzer](skills/terraform-plan-analyzer-2/) | ⭐ 4.8 | 0 | `clawhub install terraform-plan-analyzer-2` |
@@ -200,6 +203,7 @@
 | [GitHub Actions Matrix Builder](skills/github-actions-matrix-builder-14/) | ⭐ 4.3 | 0 | `clawhub install github-actions-matrix-builder-14` |
 | [GitHub Actions Matrix Optimizer](skills/github-actions-matrix-optimizer-6/) | ⭐ 4.3 | 0 | `clawhub install github-actions-matrix-optimizer-6` |
 | [GitHub Actions Matrix Optimizer](skills/github-actions-matrix-optimizer/) | ⭐ 4.3 | 0 | `clawhub install github-actions-matrix-optimizer` |
+| [GitHub Actions OIDC Token Verifier](skills/github-actions-oidc-token-verifier/) | ⭐ 4.3 | 0 | `clawhub install github-actions-oidc-token-verifier` |
 | [GitHub Actions Pipeline Debugger](skills/github-actions-pipeline-debugger/) | ⭐ 4.3 | 0 | `clawhub install github-actions-pipeline-debugger` |
 | [GitHub Actions Workflow Builder](skills/github-actions-workflow-builder-skill/) | ⭐ 4.3 | 0 | `clawhub install github-actions-workflow-builder-skill` |
 | [GitHub Actions Workflow Linter](skills/github-actions-workflow-linter/) | ⭐ 4.3 | 0 | `clawhub install github-actions-workflow-linter` |
@@ -215,6 +219,7 @@
 | [CircleCI Orb Configuration Manager](skills/circleci-orb-configuration-manager/) | ⭐ 4.2 | 0 | `clawhub install circleci-orb-configuration-manager` |
 | [CircleCI Orb Debugger](skills/circleci-orb-debugger-2/) | ⭐ 4.2 | 0 | `clawhub install circleci-orb-debugger-2` |
 | [CircleCI Orb Dependency Auditor](skills/circleci-orb-dependency-auditor-3/) | ⭐ 4.2 | 0 | `clawhub install circleci-orb-dependency-auditor-3` |
+| [CircleCI Orb Dependency Scanner](skills/circleci-orb-dependency-scanner-5/) | ⭐ 4.2 | 0 | `clawhub install circleci-orb-dependency-scanner-5` |
 | [GitHub Actions Matrix Builder](skills/github-actions-matrix-builder-17/) | ⭐ 4.2 | 0 | `clawhub install github-actions-matrix-builder-17` |
 | [GitHub Actions Matrix Builder](skills/github-actions-matrix-builder-12/) | ⭐ 4.2 | 0 | `clawhub install github-actions-matrix-builder-12` |
 | [GitHub Actions Matrix Builder](skills/github-actions-matrix-builder-5/) | ⭐ 4.2 | 0 | `clawhub install github-actions-matrix-builder-5` |
@@ -926,10 +931,11 @@
 | [Metrics Dashboard Builder](skills/metrics-dashboard-builder/) | ⭐ 4.0 | 0 | `clawhub install metrics-dashboard-builder` |
 | [Service Degradation Runbook](skills/service-degradation-runbook/) | ⭐ 4.0 | 0 | `clawhub install service-degradation-runbook` |
 
-### 🔒 Security & Verification (88 skills)
+### 🔒 Security & Verification (92 skills)
 
 | Skill | Rating | Reviews | Install |
 |-------|:------:|:-------:|---------|
+| [AWS CloudTrail Log Normalizer](skills/aws-cloudtrail-log-normalizer/) | ⭐ 4.9 | 0 | `clawhub install aws-cloudtrail-log-normalizer` |
 | [CSP Policy Analyzer](skills/csp-policy-analyzer/) | ⭐ 4.9 | 0 | `clawhub install csp-policy-analyzer` |
 | [HashiCorp Vault Secret Rotation Agent](skills/hashicorp-vault-secret-rotation-agent/) | ⭐ 4.9 | 0 | `clawhub install hashicorp-vault-secret-rotation-agent` |
 | [HashiCorp Vault Secret Scanner](skills/hashicorp-vault-secret-scanner-2/) | ⭐ 4.9 | 0 | `clawhub install hashicorp-vault-secret-scanner-2` |
@@ -940,6 +946,7 @@
 | [OWASP ZAP API Security Tester](skills/owasp-zap-api-security-tester/) | ⭐ 4.9 | 0 | `clawhub install owasp-zap-api-security-tester` |
 | [OWASP ZAP Automated Pen Testing Agent](skills/owasp-zap-automated-pen-testing-agent/) | ⭐ 4.9 | 0 | `clawhub install owasp-zap-automated-pen-testing-agent` |
 | [SAST Pipeline Scanner](skills/sast-pipeline-scanner/) | ⭐ 4.9 | 0 | `clawhub install sast-pipeline-scanner` |
+| [SBOM Generator with CycloneDX](skills/sbom-generator-cyclonedx/) | ⭐ 4.9 | 0 | `clawhub install sbom-generator-cyclonedx` |
 | [SSL Certificate Chain Validator](skills/ssl-certificate-chain-validator-2/) | ⭐ 4.9 | 0 | `clawhub install ssl-certificate-chain-validator-2` |
 | [SSL Certificate Manager Skill](skills/ssl-certificate-manager-skill/) | ⭐ 4.9 | 0 | `clawhub install ssl-certificate-manager-skill` |
 | [ZAP Automated Security Scan Orchestrator](skills/zap-automated-security-scan-orchestrator/) | ⭐ 4.9 | 0 | `clawhub install zap-automated-security-scan-orchestrator` |
@@ -958,6 +965,7 @@
 | [Terrascan Policy Scanner](skills/terrascan-policy-scanner/) | ⭐ 4.8 | 0 | `clawhub install terrascan-policy-scanner` |
 | [KICS IaC Linter](skills/kics-iac-linter/) | ⭐ 4.7 | 0 | `clawhub install kics-iac-linter` |
 | [OWASP ZAP API Fuzzer](skills/owasp-zap-api-fuzzer/) | ⭐ 4.7 | 0 | `clawhub install owasp-zap-api-fuzzer` |
+| [SAST Rule Compiler for Semgrep](skills/sast-rule-compiler-semgrep/) | ⭐ 4.7 | 0 | `clawhub install sast-rule-compiler-semgrep` |
 | [Sigstore Cosign Verifier](skills/sigstore-cosign-verifier-2/) | ⭐ 4.7 | 0 | `clawhub install sigstore-cosign-verifier-2` |
 | [Snyk Container Image Analyzer](skills/snyk-container-image-analyzer/) | ⭐ 4.7 | 0 | `clawhub install snyk-container-image-analyzer` |
 | [Snyk Open Source Dependency Auditor](skills/snyk-open-source-dependency-auditor/) | ⭐ 4.7 | 0 | `clawhub install snyk-open-source-dependency-auditor` |
@@ -987,6 +995,7 @@
 | [OWASP ZAP Security Audit Skill](skills/owasp-zap-security-audit-skill/) | ⭐ 4.4 | 0 | `clawhub install owasp-zap-security-audit-skill` |
 | [SBOM Vulnerability Scanner](skills/sbom-vulnerability-scanner/) | ⭐ 4.4 | 0 | `clawhub install sbom-vulnerability-scanner` |
 | [Secrets Scanner for Git Repositories](skills/secrets-scanner-git-repositories-2/) | ⭐ 4.4 | 0 | `clawhub install secrets-scanner-git-repositories-2` |
+| [TLS Certificate Chain Analyzer](skills/tls-certificate-chain-analyzer/) | ⭐ 4.4 | 0 | `clawhub install tls-certificate-chain-analyzer` |
 | [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | ⭐ 4.4 | 0 | `clawhub install tls-certificate-chain-validator` |
 | [Trivy Vulnerability Scanner Pipeline](skills/trivy-vulnerability-scanner-pipeline/) | ⭐ 4.4 | 0 | `clawhub install trivy-vulnerability-scanner-pipeline` |
 | [Git Secret Scanner](skills/git-secret-scanner/) | ⭐ 4.3 | 0 | `clawhub install git-secret-scanner` |
@@ -1019,7 +1028,7 @@
 | [Container Runtime Security Monitor](skills/container-runtime-security-monitor/) | ⭐ 4.0 | 0 | `clawhub install container-runtime-security-monitor` |
 | [Stripe Webhook Signature Verifier](skills/stripe-webhook-signature-verifier/) | ⭐ 4.0 | 0 | `clawhub install stripe-webhook-signature-verifier` |
 
-### 🔄 Data Extraction & Transformation (87 skills)
+### 🔄 Data Extraction & Transformation (90 skills)
 
 | Skill | Rating | Reviews | Install |
 |-------|:------:|:-------:|---------|
@@ -1062,10 +1071,12 @@
 | [Redshift Query Optimizer](skills/redshift-query-optimizer/) | ⭐ 4.7 | 0 | `clawhub install redshift-query-optimizer` |
 | [Snowflake MCP](skills/snowflake-mcp/) | ⭐ 4.7 | 0 | `clawhub install snowflake-mcp` |
 | [XML XSLT Transform Pipeline](skills/xml-xslt-transform-pipeline/) | ⭐ 4.7 | 0 | `clawhub install xml-xslt-transform-pipeline` |
+| [Apache Kafka Schema Registry Extractor](skills/kafka-schema-registry-extractor/) | ⭐ 4.6 | 0 | `clawhub install kafka-schema-registry-extractor` |
 | [Apache Kafka Schema Registry Validator](skills/kafka-schema-registry-validator/) | ⭐ 4.6 | 0 | `clawhub install kafka-schema-registry-validator` |
 | [Apache Tika Document Extractor](skills/apache-tika-document-extractor/) | ⭐ 4.6 | 0 | `clawhub install apache-tika-document-extractor` |
 | [Cohere MCP Server](skills/cohere-mcp-server/) | ⭐ 4.6 | 0 | `clawhub install cohere-mcp-server` |
 | [dbt Model Lineage Analyzer](skills/dbt-model-lineage-analyzer/) | ⭐ 4.6 | 0 | `clawhub install dbt-model-lineage-analyzer` |
+| [dbt Model Lineage Mapper](skills/dbt-model-lineage-mapper/) | ⭐ 4.6 | 0 | `clawhub install dbt-model-lineage-mapper` |
 | [Great Expectations Data Quality](skills/great-expectations-data-quality/) | ⭐ 4.6 | 0 | `clawhub install great-expectations-data-quality` |
 | [jq JSON Stream Transformer](skills/jq-json-stream-transformer/) | ⭐ 4.6 | 0 | `clawhub install jq-json-stream-transformer` |
 | [Parquet Column Pruning Optimizer](skills/parquet-column-pruning-optimizer/) | ⭐ 4.6 | 0 | `clawhub install parquet-column-pruning-optimizer` |
@@ -1109,6 +1120,7 @@
 | [dbt Model Dependency Resolver](skills/dbt-model-dependency-resolver/) | ⭐ 4.0 | 0 | `clawhub install dbt-model-dependency-resolver` |
 | [GraphQL Schema Introspection Mapper](skills/graphql-schema-introspection-mapper/) | ⭐ 4.0 | 0 | `clawhub install graphql-schema-introspection-mapper` |
 | [Nano PDF Editor](skills/nano-pdf-editor/) | ⭐ 4.0 | 0 | `clawhub install nano-pdf-editor` |
+| [Parquet Column Statistics Profiler](skills/parquet-column-statistics-profiler/) | ⭐ 4.0 | 0 | `clawhub install parquet-column-statistics-profiler` |
 | [Weaviate MCP Server](skills/weaviate-mcp-server/) | ⭐ 4.0 | 0 | `clawhub install weaviate-mcp-server` |
 
 ### 📄 Templates & Workflows (84 skills)

@@ -1,6 +1,6 @@
 # 🔄 Data Extraction & Transformation
 
-> **87 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=data-extraction-transformation)
+> **90 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=data-extraction-transformation)
 
 Parsing, ETL pipelines, format conversion, data wrangling, and transformation utilities.
 
@@ -49,10 +49,12 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Redshift Query Optimizer](../../skills/redshift-query-optimizer/) | ⭐ 4.7 | 0 | `clawhub install redshift-query-optimizer` |
 | [Snowflake MCP](../../skills/snowflake-mcp/) | ⭐ 4.7 | 0 | `clawhub install snowflake-mcp` |
 | [XML XSLT Transform Pipeline](../../skills/xml-xslt-transform-pipeline/) | ⭐ 4.7 | 0 | `clawhub install xml-xslt-transform-pipeline` |
+| [Apache Kafka Schema Registry Extractor](../../skills/kafka-schema-registry-extractor/) | ⭐ 4.6 | 0 | `clawhub install kafka-schema-registry-extractor` |
 | [Apache Kafka Schema Registry Validator](../../skills/kafka-schema-registry-validator/) | ⭐ 4.6 | 0 | `clawhub install kafka-schema-registry-validator` |
 | [Apache Tika Document Extractor](../../skills/apache-tika-document-extractor/) | ⭐ 4.6 | 0 | `clawhub install apache-tika-document-extractor` |
 | [Cohere MCP Server](../../skills/cohere-mcp-server/) | ⭐ 4.6 | 0 | `clawhub install cohere-mcp-server` |
 | [dbt Model Lineage Analyzer](../../skills/dbt-model-lineage-analyzer/) | ⭐ 4.6 | 0 | `clawhub install dbt-model-lineage-analyzer` |
+| [dbt Model Lineage Mapper](../../skills/dbt-model-lineage-mapper/) | ⭐ 4.6 | 0 | `clawhub install dbt-model-lineage-mapper` |
 | [Great Expectations Data Quality](../../skills/great-expectations-data-quality/) | ⭐ 4.6 | 0 | `clawhub install great-expectations-data-quality` |
 | [jq JSON Stream Transformer](../../skills/jq-json-stream-transformer/) | ⭐ 4.6 | 0 | `clawhub install jq-json-stream-transformer` |
 | [Parquet Column Pruning Optimizer](../../skills/parquet-column-pruning-optimizer/) | ⭐ 4.6 | 0 | `clawhub install parquet-column-pruning-optimizer` |
@@ -96,6 +98,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [dbt Model Dependency Resolver](../../skills/dbt-model-dependency-resolver/) | ⭐ 4.0 | 0 | `clawhub install dbt-model-dependency-resolver` |
 | [GraphQL Schema Introspection Mapper](../../skills/graphql-schema-introspection-mapper/) | ⭐ 4.0 | 0 | `clawhub install graphql-schema-introspection-mapper` |
 | [Nano PDF Editor](../../skills/nano-pdf-editor/) | ⭐ 4.0 | 0 | `clawhub install nano-pdf-editor` |
+| [Parquet Column Statistics Profiler](../../skills/parquet-column-statistics-profiler/) | ⭐ 4.0 | 0 | `clawhub install parquet-column-statistics-profiler` |
 | [Weaviate MCP Server](../../skills/weaviate-mcp-server/) | ⭐ 4.0 | 0 | `clawhub install weaviate-mcp-server` |
 
 ---
@@ -119,7 +122,7 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 ## Related Categories
 
-- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (234 skills)
+- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (239 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (174 skills)
 - ✅ [Code Quality & Review](../code-quality-review/) (135 skills)
 - 🛠️ [Developer Tools](../developer-tools/) (126 skills)
