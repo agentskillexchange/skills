@@ -1,6 +1,6 @@
 # 🛠️ Developer Tools
 
-> **122 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=developer-tools)
+> **126 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=developer-tools)
 
 CLI helpers, dev environment setup, productivity utilities, and developer workflows.
 
@@ -14,6 +14,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Docker Compose Orchestrator](../../skills/docker-compose-orchestrator-v2/) | ⭐ 4.9 | 0 | `clawhub install docker-compose-orchestrator-v2` |
 | [Environment Setup Skill](../../skills/environment-setup-skill/) | ⭐ 4.9 | 0 | `clawhub install environment-setup-skill` |
 | [ESLint Code Review](../../skills/eslint-code-review/) | ⭐ 4.9 | 0 | `clawhub install eslint-code-review` |
+| [ESLint Rule Configurator](../../skills/eslint-rule-configurator-2/) | ⭐ 4.9 | 0 | `clawhub install eslint-rule-configurator-2` |
 | [Git Bisect Automator](../../skills/git-bisect-automator/) | ⭐ 4.9 | 0 | `clawhub install git-bisect-automator` |
 | [Linear Issue Manager](../../skills/linear-issue-manager/) | ⭐ 4.9 | 0 | `clawhub install linear-issue-manager` |
 | [LlamaIndex Agent](../../skills/llamaindex-agent/) | ⭐ 4.9 | 0 | `clawhub install llamaindex-agent` |
@@ -39,6 +40,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Nix Flake Configuration Builder](../../skills/nix-flake-configuration-builder/) | ⭐ 4.8 | 0 | `clawhub install nix-flake-configuration-builder` |
 | [OpenAPI Spec Validator](../../skills/openapi-spec-validator-agent/) | ⭐ 4.8 | 0 | `clawhub install openapi-spec-validator-agent` |
 | [Regex Pattern Test Suite Generator](../../skills/regex-pattern-test-suite-generator/) | ⭐ 4.8 | 0 | `clawhub install regex-pattern-test-suite-generator` |
+| [Terraform Module Scaffolder](../../skills/terraform-module-scaffolder-2/) | ⭐ 4.8 | 0 | `clawhub install terraform-module-scaffolder-2` |
 | [TypeScript AST Refactor](../../skills/typescript-ast-refactor-ts-morph/) | ⭐ 4.8 | 0 | `clawhub install typescript-ast-refactor-ts-morph` |
 | [AWS CloudWatch Alarm Triage](../../skills/aws-cloudwatch-alarm-triage-4/) | ⭐ 4.7 | 0 | `clawhub install aws-cloudwatch-alarm-triage-4` |
 | [Azure DevOps MCP Server](../../skills/azure-devops-mcp-server/) | ⭐ 4.7 | 0 | `clawhub install azure-devops-mcp-server` |
@@ -71,6 +73,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Docker MCP Server](../../skills/docker-mcp-server/) | ⭐ 4.5 | 0 | `clawhub install docker-mcp-server` |
 | [Dotfiles Sync Agent](../../skills/dotfiles-sync-agent/) | ⭐ 4.5 | 0 | `clawhub install dotfiles-sync-agent` |
 | [Git Branch Analyzer](../../skills/git-branch-analyzer-libgit2/) | ⭐ 4.5 | 0 | `clawhub install git-branch-analyzer-libgit2` |
+| [GitHub Actions Workflow Builder](../../skills/github-actions-workflow-builder-2/) | ⭐ 4.5 | 0 | `clawhub install github-actions-workflow-builder-2` |
 | [GitHub Operations Skill](../../skills/github-operations-skill/) | ⭐ 4.5 | 0 | `clawhub install github-operations-skill` |
 | [MySQL Query Agent](../../skills/mysql-query-agent/) | ⭐ 4.5 | 0 | `clawhub install mysql-query-agent` |
 | [n8n GitHub Issue-to-Jira Ticket Automator](../../skills/n8n-github-jira-ticket-automator/) | ⭐ 4.5 | 0 | `clawhub install n8n-github-jira-ticket-automator` |
@@ -125,6 +128,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Devcontainer Specification Builder](../../skills/devcontainer-specification-builder/) | ⭐ 4.1 | 0 | `clawhub install devcontainer-specification-builder` |
 | [Environment Variable Manager](../../skills/environment-variable-manager/) | ⭐ 4.1 | 0 | `clawhub install environment-variable-manager` |
 | [GitHub Copilot Context Enhancer](../../skills/github-copilot-context-enhancer/) | ⭐ 4.1 | 0 | `clawhub install github-copilot-context-enhancer` |
+| [Playwright E2E Test Generator](../../skills/playwright-e2e-test-generator/) | ⭐ 4.1 | 0 | `clawhub install playwright-e2e-test-generator` |
 | [Pre-commit Hook Runner](../../skills/pre-commit-hook-runner/) | ⭐ 4.1 | 0 | `clawhub install pre-commit-hook-runner` |
 | [Supabase MCP Server](../../skills/supabase-mcp-server/) | ⭐ 4.1 | 0 | `clawhub install supabase-mcp-server` |
 | [Zsh Bash Profile Manager](../../skills/zsh-bash-profile-manager/) | ⭐ 4.1 | 0 | `clawhub install zsh-bash-profile-manager` |

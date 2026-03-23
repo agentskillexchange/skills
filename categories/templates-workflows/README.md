@@ -1,6 +1,6 @@
 # 📄 Templates & Workflows
 
-> **69 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=templates-workflows)
+> **72 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=templates-workflows)
 
 Project scaffolding, boilerplate generators, workflow templates, and starter kits.
 
@@ -14,6 +14,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [DigitalOcean Droplet Manager](../../skills/digitalocean-droplet-manager/) | ⭐ 4.9 | 0 | `clawhub install digitalocean-droplet-manager` |
 | [Helm Chart Boilerplate Builder](../../skills/helm-chart-boilerplate-builder/) | ⭐ 4.9 | 0 | `clawhub install helm-chart-boilerplate-builder` |
 | [Incident Response Template Generator](../../skills/incident-response-template-generator/) | ⭐ 4.9 | 0 | `clawhub install incident-response-template-generator` |
+| [Jinja2 Template Engine](../../skills/jinja2-template-engine-agent/) | ⭐ 4.9 | 0 | `clawhub install jinja2-template-engine-agent` |
 | [n8n MCP](../../skills/n8n-mcp/) | ⭐ 4.9 | 0 | `clawhub install n8n-mcp` |
 | [Railway App Deployer](../../skills/railway-app-deployer/) | ⭐ 4.9 | 0 | `clawhub install railway-app-deployer` |
 | [Release Notes Generator](../../skills/release-notes-generator/) | ⭐ 4.9 | 0 | `clawhub install release-notes-generator` |
@@ -24,6 +25,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Yeoman Generator Builder](../../skills/yeoman-generator-builder/) | ⭐ 4.9 | 0 | `clawhub install yeoman-generator-builder` |
 | [Ansible Playbook Runner](../../skills/ansible-playbook-runner/) | ⭐ 4.8 | 0 | `clawhub install ansible-playbook-runner` |
 | [ClickUp MCP Server](../../skills/clickup-mcp-server/) | ⭐ 4.8 | 0 | `clawhub install clickup-mcp-server` |
+| [Cookiecutter Project Bootstrap](../../skills/cookiecutter-project-bootstrap/) | ⭐ 4.8 | 0 | `clawhub install cookiecutter-project-bootstrap` |
 | [Cookiecutter Template Generator](../../skills/cookiecutter-template-generator/) | ⭐ 4.8 | 0 | `clawhub install cookiecutter-template-generator` |
 | [Cron Job Manager](../../skills/cron-job-manager/) | ⭐ 4.8 | 0 | `clawhub install cron-job-manager` |
 | [GCP Deployment Manager](../../skills/gcp-deployment-manager/) | ⭐ 4.8 | 0 | `clawhub install gcp-deployment-manager` |
@@ -73,6 +75,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Yeoman Workflow Orchestrator](../../skills/yeoman-workflow-orchestrator/) | ⭐ 4.2 | 0 | `clawhub install yeoman-workflow-orchestrator` |
 | [Bubble.io Stripe Subscription Portal Builder](../../skills/bubble-stripe-subscription-portal/) | ⭐ 4.1 | 0 | `clawhub install bubble-stripe-subscription-portal` |
 | [Cookiecutter Project Scaffolding Agent](../../skills/cookiecutter-project-scaffolding-agent/) | ⭐ 4.1 | 0 | `clawhub install cookiecutter-project-scaffolding-agent` |
+| [Mustache Template Renderer](../../skills/mustache-template-renderer-agent/) | ⭐ 4.1 | 0 | `clawhub install mustache-template-renderer-agent` |
 | [Plop.js Code Generator](../../skills/plopjs-code-generator/) | ⭐ 4.1 | 0 | `clawhub install plopjs-code-generator` |
 | [Terraform Module Template Engine](../../skills/terraform-module-template-engine/) | ⭐ 4.1 | 0 | `clawhub install terraform-module-template-engine` |
 | [Twitter/X Trend Monitor &#038; Thread Publisher](../../skills/twitter-x-trend-monitor-thread-publisher/) | ⭐ 4.1 | 0 | `clawhub install twitter-x-trend-monitor-thread-publisher` |
@@ -104,7 +107,7 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (225 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (174 skills)
 - ✅ [Code Quality & Review](../code-quality-review/) (131 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (122 skills)
+- 🛠️ [Developer Tools](../developer-tools/) (126 skills)
 
 ---
 

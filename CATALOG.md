@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1364 skills** across **17 categories** · Updated 2026-03-23 12:03 UTC
+> **1376 skills** across **17 categories** · Updated 2026-03-23 13:04 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -10,7 +10,7 @@
 
 | Metric | Value |
 |--------|-------|
-| Total Skills | **1364** |
+| Total Skills | **1376** |
 | Categories | **17** |
 | Frameworks | **11** |
 | Verification | All skills **Verified Metadata** or higher |
@@ -564,7 +564,7 @@
 | [SonarQube PR Gate](skills/sonarqube-pr-gate-skill/) | ⭐ 4.0 | 0 | `clawhub install sonarqube-pr-gate-skill` |
 | [SonarQube Quality Gate Monitor](skills/sonarqube-quality-gate-monitor-2/) | ⭐ 4.0 | 0 | `clawhub install sonarqube-quality-gate-monitor-2` |
 
-### 🛠️ Developer Tools (122 skills)
+### 🛠️ Developer Tools (126 skills)
 
 | Skill | Rating | Reviews | Install |
 |-------|:------:|:-------:|---------|
@@ -572,6 +572,7 @@
 | [Docker Compose Orchestrator](skills/docker-compose-orchestrator-v2/) | ⭐ 4.9 | 0 | `clawhub install docker-compose-orchestrator-v2` |
 | [Environment Setup Skill](skills/environment-setup-skill/) | ⭐ 4.9 | 0 | `clawhub install environment-setup-skill` |
 | [ESLint Code Review](skills/eslint-code-review/) | ⭐ 4.9 | 0 | `clawhub install eslint-code-review` |
+| [ESLint Rule Configurator](skills/eslint-rule-configurator-2/) | ⭐ 4.9 | 0 | `clawhub install eslint-rule-configurator-2` |
 | [Git Bisect Automator](skills/git-bisect-automator/) | ⭐ 4.9 | 0 | `clawhub install git-bisect-automator` |
 | [Linear Issue Manager](skills/linear-issue-manager/) | ⭐ 4.9 | 0 | `clawhub install linear-issue-manager` |
 | [LlamaIndex Agent](skills/llamaindex-agent/) | ⭐ 4.9 | 0 | `clawhub install llamaindex-agent` |
@@ -597,6 +598,7 @@
 | [Nix Flake Configuration Builder](skills/nix-flake-configuration-builder/) | ⭐ 4.8 | 0 | `clawhub install nix-flake-configuration-builder` |
 | [OpenAPI Spec Validator](skills/openapi-spec-validator-agent/) | ⭐ 4.8 | 0 | `clawhub install openapi-spec-validator-agent` |
 | [Regex Pattern Test Suite Generator](skills/regex-pattern-test-suite-generator/) | ⭐ 4.8 | 0 | `clawhub install regex-pattern-test-suite-generator` |
+| [Terraform Module Scaffolder](skills/terraform-module-scaffolder-2/) | ⭐ 4.8 | 0 | `clawhub install terraform-module-scaffolder-2` |
 | [TypeScript AST Refactor](skills/typescript-ast-refactor-ts-morph/) | ⭐ 4.8 | 0 | `clawhub install typescript-ast-refactor-ts-morph` |
 | [AWS CloudWatch Alarm Triage](skills/aws-cloudwatch-alarm-triage-4/) | ⭐ 4.7 | 0 | `clawhub install aws-cloudwatch-alarm-triage-4` |
 | [Azure DevOps MCP Server](skills/azure-devops-mcp-server/) | ⭐ 4.7 | 0 | `clawhub install azure-devops-mcp-server` |
@@ -629,6 +631,7 @@
 | [Docker MCP Server](skills/docker-mcp-server/) | ⭐ 4.5 | 0 | `clawhub install docker-mcp-server` |
 | [Dotfiles Sync Agent](skills/dotfiles-sync-agent/) | ⭐ 4.5 | 0 | `clawhub install dotfiles-sync-agent` |
 | [Git Branch Analyzer](skills/git-branch-analyzer-libgit2/) | ⭐ 4.5 | 0 | `clawhub install git-branch-analyzer-libgit2` |
+| [GitHub Actions Workflow Builder](skills/github-actions-workflow-builder-2/) | ⭐ 4.5 | 0 | `clawhub install github-actions-workflow-builder-2` |
 | [GitHub Operations Skill](skills/github-operations-skill/) | ⭐ 4.5 | 0 | `clawhub install github-operations-skill` |
 | [MySQL Query Agent](skills/mysql-query-agent/) | ⭐ 4.5 | 0 | `clawhub install mysql-query-agent` |
 | [n8n GitHub Issue-to-Jira Ticket Automator](skills/n8n-github-jira-ticket-automator/) | ⭐ 4.5 | 0 | `clawhub install n8n-github-jira-ticket-automator` |
@@ -683,6 +686,7 @@
 | [Devcontainer Specification Builder](skills/devcontainer-specification-builder/) | ⭐ 4.1 | 0 | `clawhub install devcontainer-specification-builder` |
 | [Environment Variable Manager](skills/environment-variable-manager/) | ⭐ 4.1 | 0 | `clawhub install environment-variable-manager` |
 | [GitHub Copilot Context Enhancer](skills/github-copilot-context-enhancer/) | ⭐ 4.1 | 0 | `clawhub install github-copilot-context-enhancer` |
+| [Playwright E2E Test Generator](skills/playwright-e2e-test-generator/) | ⭐ 4.1 | 0 | `clawhub install playwright-e2e-test-generator` |
 | [Pre-commit Hook Runner](skills/pre-commit-hook-runner/) | ⭐ 4.1 | 0 | `clawhub install pre-commit-hook-runner` |
 | [Supabase MCP Server](skills/supabase-mcp-server/) | ⭐ 4.1 | 0 | `clawhub install supabase-mcp-server` |
 | [Zsh Bash Profile Manager](skills/zsh-bash-profile-manager/) | ⭐ 4.1 | 0 | `clawhub install zsh-bash-profile-manager` |
@@ -1043,7 +1047,7 @@
 | [Container Runtime Security Monitor](skills/container-runtime-security-monitor/) | ⭐ 4.0 | 0 | `clawhub install container-runtime-security-monitor` |
 | [Stripe Webhook Signature Verifier](skills/stripe-webhook-signature-verifier/) | ⭐ 4.0 | 0 | `clawhub install stripe-webhook-signature-verifier` |
 
-### 📄 Templates & Workflows (69 skills)
+### 📄 Templates & Workflows (72 skills)
 
 | Skill | Rating | Reviews | Install |
 |-------|:------:|:-------:|---------|
@@ -1051,6 +1055,7 @@
 | [DigitalOcean Droplet Manager](skills/digitalocean-droplet-manager/) | ⭐ 4.9 | 0 | `clawhub install digitalocean-droplet-manager` |
 | [Helm Chart Boilerplate Builder](skills/helm-chart-boilerplate-builder/) | ⭐ 4.9 | 0 | `clawhub install helm-chart-boilerplate-builder` |
 | [Incident Response Template Generator](skills/incident-response-template-generator/) | ⭐ 4.9 | 0 | `clawhub install incident-response-template-generator` |
+| [Jinja2 Template Engine](skills/jinja2-template-engine-agent/) | ⭐ 4.9 | 0 | `clawhub install jinja2-template-engine-agent` |
 | [n8n MCP](skills/n8n-mcp/) | ⭐ 4.9 | 0 | `clawhub install n8n-mcp` |
 | [Railway App Deployer](skills/railway-app-deployer/) | ⭐ 4.9 | 0 | `clawhub install railway-app-deployer` |
 | [Release Notes Generator](skills/release-notes-generator/) | ⭐ 4.9 | 0 | `clawhub install release-notes-generator` |
@@ -1061,6 +1066,7 @@
 | [Yeoman Generator Builder](skills/yeoman-generator-builder/) | ⭐ 4.9 | 0 | `clawhub install yeoman-generator-builder` |
 | [Ansible Playbook Runner](skills/ansible-playbook-runner/) | ⭐ 4.8 | 0 | `clawhub install ansible-playbook-runner` |
 | [ClickUp MCP Server](skills/clickup-mcp-server/) | ⭐ 4.8 | 0 | `clawhub install clickup-mcp-server` |
+| [Cookiecutter Project Bootstrap](skills/cookiecutter-project-bootstrap/) | ⭐ 4.8 | 0 | `clawhub install cookiecutter-project-bootstrap` |
 | [Cookiecutter Template Generator](skills/cookiecutter-template-generator/) | ⭐ 4.8 | 0 | `clawhub install cookiecutter-template-generator` |
 | [Cron Job Manager](skills/cron-job-manager/) | ⭐ 4.8 | 0 | `clawhub install cron-job-manager` |
 | [GCP Deployment Manager](skills/gcp-deployment-manager/) | ⭐ 4.8 | 0 | `clawhub install gcp-deployment-manager` |
@@ -1110,6 +1116,7 @@
 | [Yeoman Workflow Orchestrator](skills/yeoman-workflow-orchestrator/) | ⭐ 4.2 | 0 | `clawhub install yeoman-workflow-orchestrator` |
 | [Bubble.io Stripe Subscription Portal Builder](skills/bubble-stripe-subscription-portal/) | ⭐ 4.1 | 0 | `clawhub install bubble-stripe-subscription-portal` |
 | [Cookiecutter Project Scaffolding Agent](skills/cookiecutter-project-scaffolding-agent/) | ⭐ 4.1 | 0 | `clawhub install cookiecutter-project-scaffolding-agent` |
+| [Mustache Template Renderer](skills/mustache-template-renderer-agent/) | ⭐ 4.1 | 0 | `clawhub install mustache-template-renderer-agent` |
 | [Plop.js Code Generator](skills/plopjs-code-generator/) | ⭐ 4.1 | 0 | `clawhub install plopjs-code-generator` |
 | [Terraform Module Template Engine](skills/terraform-module-template-engine/) | ⭐ 4.1 | 0 | `clawhub install terraform-module-template-engine` |
 | [Twitter/X Trend Monitor &#038; Thread Publisher](skills/twitter-x-trend-monitor-thread-publisher/) | ⭐ 4.1 | 0 | `clawhub install twitter-x-trend-monitor-thread-publisher` |
@@ -1281,6 +1288,53 @@
 | [Puppeteer Scraping Framework](skills/puppeteer-scraping-framework/) | ⭐ 4.0 | 0 | `clawhub install puppeteer-scraping-framework` |
 | [Puppeteer Web Scraping Pipeline](skills/puppeteer-web-scraping-pipeline-2/) | ⭐ 4.0 | 0 | `clawhub install puppeteer-web-scraping-pipeline-2` |
 
+### 🔍 Research & Scraping (42 skills)
+
+| Skill | Rating | Reviews | Install |
+|-------|:------:|:-------:|---------|
+| [Apify Web Scraper Orchestrator](skills/apify-web-scraper-orchestrator-2/) | ⭐ 4.9 | 0 | `clawhub install apify-web-scraper-orchestrator-2` |
+| [Cheerio Product Price Tracker](skills/cheerio-product-price-tracker/) | ⭐ 4.9 | 0 | `clawhub install cheerio-product-price-tracker` |
+| [Common Crawl Index Query Agent](skills/common-crawl-index-query-agent/) | ⭐ 4.9 | 0 | `clawhub install common-crawl-index-query-agent` |
+| [Playwright Network Interceptor](skills/playwright-network-interceptor/) | ⭐ 4.9 | 0 | `clawhub install playwright-network-interceptor` |
+| [Scrapy Distributed Crawler Framework](skills/scrapy-distributed-crawler-framework/) | ⭐ 4.9 | 0 | `clawhub install scrapy-distributed-crawler-framework` |
+| [SEC EDGAR Filing Scraper &#038; Analyzer](skills/sec-edgar-filing-scraper-analyzer/) | ⭐ 4.9 | 0 | `clawhub install sec-edgar-filing-scraper-analyzer` |
+| [Censys Attack Surface Monitor](skills/censys-attack-surface-monitor/) | ⭐ 4.8 | 0 | `clawhub install censys-attack-surface-monitor` |
+| [Scrapy Pipeline Manager](skills/scrapy-pipeline-manager/) | ⭐ 4.8 | 0 | `clawhub install scrapy-pipeline-manager` |
+| [SerpAPI Scholar Agent](skills/serpapi-scholar-agent/) | ⭐ 4.8 | 0 | `clawhub install serpapi-scholar-agent` |
+| [Tavily MCP Server](skills/tavily-mcp-server/) | ⭐ 4.8 | 0 | `clawhub install tavily-mcp-server` |
+| [Apify Actor Development Kit](skills/apify-actor-development-kit/) | ⭐ 4.7 | 0 | `clawhub install apify-actor-development-kit` |
+| [Apify Actor Runner](skills/apify-actor-runner/) | ⭐ 4.7 | 0 | `clawhub install apify-actor-runner` |
+| [Hacker News Deep Thread Analyzer](skills/hacker-news-deep-thread-analyzer/) | ⭐ 4.7 | 0 | `clawhub install hacker-news-deep-thread-analyzer` |
+| [Puppeteer Scraping Framework](skills/puppeteer-scraping-framework-2/) | ⭐ 4.7 | 0 | `clawhub install puppeteer-scraping-framework-2` |
+| [PuppeteerSharp Web Scraping Pipeline](skills/puppeteersharp-web-scraping-pipeline/) | ⭐ 4.7 | 0 | `clawhub install puppeteersharp-web-scraping-pipeline` |
+| [SerpAPI Search Intelligence Aggregator](skills/serpapi-search-intelligence-aggregator/) | ⭐ 4.7 | 0 | `clawhub install serpapi-search-intelligence-aggregator` |
+| [Shodan Network Reconnaissance Agent](skills/shodan-network-reconnaissance-agent/) | ⭐ 4.7 | 0 | `clawhub install shodan-network-reconnaissance-agent` |
+| [Product Review Sentiment Aggregator](skills/product-review-sentiment-aggregator/) | ⭐ 4.6 | 0 | `clawhub install product-review-sentiment-aggregator` |
+| [Puppeteer Stealth Web Scraper](skills/puppeteer-stealth-web-scraper/) | ⭐ 4.6 | 0 | `clawhub install puppeteer-stealth-web-scraper` |
+| [Puppeteer Web Scraper](skills/puppeteer-web-scraper/) | ⭐ 4.6 | 0 | `clawhub install puppeteer-web-scraper` |
+| [SerpAPI Search Pipeline](skills/serpapi-search-pipeline/) | ⭐ 4.6 | 0 | `clawhub install serpapi-search-pipeline` |
+| [Apify Actor Web Intelligence Agent](skills/apify-actor-web-intelligence-agent/) | ⭐ 4.5 | 0 | `clawhub install apify-actor-web-intelligence-agent` |
+| [Browserless Scraping Agent](skills/browserless-scraping-agent/) | ⭐ 4.5 | 0 | `clawhub install browserless-scraping-agent` |
+| [OSINT Domain Intelligence Scanner](skills/osint-domain-intelligence-scanner/) | ⭐ 4.5 | 0 | `clawhub install osint-domain-intelligence-scanner` |
+| [Perplexity MCP Server](skills/perplexity-mcp-server/) | ⭐ 4.5 | 0 | `clawhub install perplexity-mcp-server` |
+| [Scrapy Spider Generator](skills/scrapy-spider-generator/) | ⭐ 4.5 | 0 | `clawhub install scrapy-spider-generator` |
+| [ScrapyCloud Job Manager](skills/scrapycloud-job-manager/) | ⭐ 4.5 | 0 | `clawhub install scrapycloud-job-manager` |
+| [Apify Web Scraper Orchestrator](skills/apify-web-scraper-orchestrator-3/) | ⭐ 4.3 | 0 | `clawhub install apify-web-scraper-orchestrator-3` |
+| [Diffbot Knowledge Graph Extractor](skills/diffbot-knowledge-graph-extractor/) | ⭐ 4.3 | 0 | `clawhub install diffbot-knowledge-graph-extractor` |
+| [Jina Reader API Skill](skills/jina-reader-api-skill/) | ⭐ 4.3 | 0 | `clawhub install jina-reader-api-skill` |
+| [Playwright Test Generator with Codegen](skills/playwright-test-generator-codegen/) | ⭐ 4.3 | 0 | `clawhub install playwright-test-generator-codegen` |
+| [SerpAPI Research Pipeline](skills/serpapi-research-pipeline/) | ⭐ 4.3 | 0 | `clawhub install serpapi-research-pipeline` |
+| [SerpAPI Search Aggregator](skills/serpapi-search-aggregator/) | ⭐ 4.3 | 0 | `clawhub install serpapi-search-aggregator` |
+| [Academic Paper Citation Network Mapper](skills/academic-paper-citation-network-mapper/) | ⭐ 4.2 | 0 | `clawhub install academic-paper-citation-network-mapper` |
+| [Apify Actor Web Crawler](skills/apify-actor-web-crawler/) | ⭐ 4.2 | 0 | `clawhub install apify-actor-web-crawler` |
+| [Beautiful Soup Academic Paper Parser](skills/beautifulsoup-academic-paper-parser/) | ⭐ 4.2 | 0 | `clawhub install beautifulsoup-academic-paper-parser` |
+| [Firecrawl MCP Server](skills/firecrawl-mcp-server/) | ⭐ 4.2 | 0 | `clawhub install firecrawl-mcp-server` |
+| [OpenClaw Research Scout](skills/openclaw-research-scout/) | ⭐ 4.2 | 0 | `clawhub install openclaw-research-scout` |
+| [Scrapy Pipeline Data Extractor](skills/scrapy-pipeline-data-extractor/) | ⭐ 4.2 | 0 | `clawhub install scrapy-pipeline-data-extractor` |
+| [Apify Web Scraper Orchestrator](skills/apify-web-scraper-orchestrator/) | ⭐ 4.1 | 0 | `clawhub install apify-web-scraper-orchestrator` |
+| [Crawlee Smart Crawler Agent](skills/crawlee-smart-crawler-agent/) | ⭐ 4.1 | 0 | `clawhub install crawlee-smart-crawler-agent` |
+| [ScrapingBee API Data Harvester](skills/scrapingbee-api-data-harvester/) | ⭐ 4.0 | 0 | `clawhub install scrapingbee-api-data-harvester` |
+
 ### 🎨 Image & Creative Automation (39 skills)
 
 | Skill | Rating | Reviews | Install |
@@ -1324,48 +1378,6 @@
 | [Nano Banana Pro Image Editing](skills/nano-banana-pro-image-editing/) | ⭐ 4.1 | 0 | `clawhub install nano-banana-pro-image-editing` |
 | [OpenAI Image Gen](skills/openai-image-gen/) | ⭐ 4.1 | 0 | `clawhub install openai-image-gen` |
 | [SVG Animation Builder](skills/svg-animation-builder/) | ⭐ 4.0 | 0 | `clawhub install svg-animation-builder` |
-
-### 🔍 Research & Scraping (37 skills)
-
-| Skill | Rating | Reviews | Install |
-|-------|:------:|:-------:|---------|
-| [Apify Web Scraper Orchestrator](skills/apify-web-scraper-orchestrator-2/) | ⭐ 4.9 | 0 | `clawhub install apify-web-scraper-orchestrator-2` |
-| [Cheerio Product Price Tracker](skills/cheerio-product-price-tracker/) | ⭐ 4.9 | 0 | `clawhub install cheerio-product-price-tracker` |
-| [Common Crawl Index Query Agent](skills/common-crawl-index-query-agent/) | ⭐ 4.9 | 0 | `clawhub install common-crawl-index-query-agent` |
-| [Playwright Network Interceptor](skills/playwright-network-interceptor/) | ⭐ 4.9 | 0 | `clawhub install playwright-network-interceptor` |
-| [Scrapy Distributed Crawler Framework](skills/scrapy-distributed-crawler-framework/) | ⭐ 4.9 | 0 | `clawhub install scrapy-distributed-crawler-framework` |
-| [SEC EDGAR Filing Scraper &#038; Analyzer](skills/sec-edgar-filing-scraper-analyzer/) | ⭐ 4.9 | 0 | `clawhub install sec-edgar-filing-scraper-analyzer` |
-| [Censys Attack Surface Monitor](skills/censys-attack-surface-monitor/) | ⭐ 4.8 | 0 | `clawhub install censys-attack-surface-monitor` |
-| [Scrapy Pipeline Manager](skills/scrapy-pipeline-manager/) | ⭐ 4.8 | 0 | `clawhub install scrapy-pipeline-manager` |
-| [SerpAPI Scholar Agent](skills/serpapi-scholar-agent/) | ⭐ 4.8 | 0 | `clawhub install serpapi-scholar-agent` |
-| [Tavily MCP Server](skills/tavily-mcp-server/) | ⭐ 4.8 | 0 | `clawhub install tavily-mcp-server` |
-| [Apify Actor Development Kit](skills/apify-actor-development-kit/) | ⭐ 4.7 | 0 | `clawhub install apify-actor-development-kit` |
-| [Apify Actor Runner](skills/apify-actor-runner/) | ⭐ 4.7 | 0 | `clawhub install apify-actor-runner` |
-| [Hacker News Deep Thread Analyzer](skills/hacker-news-deep-thread-analyzer/) | ⭐ 4.7 | 0 | `clawhub install hacker-news-deep-thread-analyzer` |
-| [PuppeteerSharp Web Scraping Pipeline](skills/puppeteersharp-web-scraping-pipeline/) | ⭐ 4.7 | 0 | `clawhub install puppeteersharp-web-scraping-pipeline` |
-| [SerpAPI Search Intelligence Aggregator](skills/serpapi-search-intelligence-aggregator/) | ⭐ 4.7 | 0 | `clawhub install serpapi-search-intelligence-aggregator` |
-| [Shodan Network Reconnaissance Agent](skills/shodan-network-reconnaissance-agent/) | ⭐ 4.7 | 0 | `clawhub install shodan-network-reconnaissance-agent` |
-| [Product Review Sentiment Aggregator](skills/product-review-sentiment-aggregator/) | ⭐ 4.6 | 0 | `clawhub install product-review-sentiment-aggregator` |
-| [Puppeteer Stealth Web Scraper](skills/puppeteer-stealth-web-scraper/) | ⭐ 4.6 | 0 | `clawhub install puppeteer-stealth-web-scraper` |
-| [Puppeteer Web Scraper](skills/puppeteer-web-scraper/) | ⭐ 4.6 | 0 | `clawhub install puppeteer-web-scraper` |
-| [Apify Actor Web Intelligence Agent](skills/apify-actor-web-intelligence-agent/) | ⭐ 4.5 | 0 | `clawhub install apify-actor-web-intelligence-agent` |
-| [Browserless Scraping Agent](skills/browserless-scraping-agent/) | ⭐ 4.5 | 0 | `clawhub install browserless-scraping-agent` |
-| [OSINT Domain Intelligence Scanner](skills/osint-domain-intelligence-scanner/) | ⭐ 4.5 | 0 | `clawhub install osint-domain-intelligence-scanner` |
-| [Perplexity MCP Server](skills/perplexity-mcp-server/) | ⭐ 4.5 | 0 | `clawhub install perplexity-mcp-server` |
-| [Scrapy Spider Generator](skills/scrapy-spider-generator/) | ⭐ 4.5 | 0 | `clawhub install scrapy-spider-generator` |
-| [Jina Reader API Skill](skills/jina-reader-api-skill/) | ⭐ 4.3 | 0 | `clawhub install jina-reader-api-skill` |
-| [Playwright Test Generator with Codegen](skills/playwright-test-generator-codegen/) | ⭐ 4.3 | 0 | `clawhub install playwright-test-generator-codegen` |
-| [SerpAPI Research Pipeline](skills/serpapi-research-pipeline/) | ⭐ 4.3 | 0 | `clawhub install serpapi-research-pipeline` |
-| [SerpAPI Search Aggregator](skills/serpapi-search-aggregator/) | ⭐ 4.3 | 0 | `clawhub install serpapi-search-aggregator` |
-| [Academic Paper Citation Network Mapper](skills/academic-paper-citation-network-mapper/) | ⭐ 4.2 | 0 | `clawhub install academic-paper-citation-network-mapper` |
-| [Apify Actor Web Crawler](skills/apify-actor-web-crawler/) | ⭐ 4.2 | 0 | `clawhub install apify-actor-web-crawler` |
-| [Beautiful Soup Academic Paper Parser](skills/beautifulsoup-academic-paper-parser/) | ⭐ 4.2 | 0 | `clawhub install beautifulsoup-academic-paper-parser` |
-| [Firecrawl MCP Server](skills/firecrawl-mcp-server/) | ⭐ 4.2 | 0 | `clawhub install firecrawl-mcp-server` |
-| [OpenClaw Research Scout](skills/openclaw-research-scout/) | ⭐ 4.2 | 0 | `clawhub install openclaw-research-scout` |
-| [Scrapy Pipeline Data Extractor](skills/scrapy-pipeline-data-extractor/) | ⭐ 4.2 | 0 | `clawhub install scrapy-pipeline-data-extractor` |
-| [Apify Web Scraper Orchestrator](skills/apify-web-scraper-orchestrator/) | ⭐ 4.1 | 0 | `clawhub install apify-web-scraper-orchestrator` |
-| [Crawlee Smart Crawler Agent](skills/crawlee-smart-crawler-agent/) | ⭐ 4.1 | 0 | `clawhub install crawlee-smart-crawler-agent` |
-| [ScrapingBee API Data Harvester](skills/scrapingbee-api-data-harvester/) | ⭐ 4.0 | 0 | `clawhub install scrapingbee-api-data-harvester` |
 
 ### ✍️ Content Writing & SEO (35 skills)
 
