@@ -1,6 +1,6 @@
 # 🔒 Security & Verification
 
-> **84 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=security-verification)
+> **88 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=security-verification)
 
 Auth setup, vulnerability scanning, compliance checks, and security automation.
 
@@ -16,6 +16,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [npm Dependency Audit Resolver](../../skills/npm-dependency-audit-resolver/) | ⭐ 4.9 | 0 | `clawhub install npm-dependency-audit-resolver` |
 | [NPM Package Supply Chain Auditor](../../skills/npm-package-supply-chain-auditor/) | ⭐ 4.9 | 0 | `clawhub install npm-package-supply-chain-auditor` |
 | [Nuclei Vulnerability Template Runner](../../skills/nuclei-vulnerability-template-runner/) | ⭐ 4.9 | 0 | `clawhub install nuclei-vulnerability-template-runner` |
+| [OWASP ZAP API Security Auditor](../../skills/owasp-zap-api-security-auditor/) | ⭐ 4.9 | 0 | `clawhub install owasp-zap-api-security-auditor` |
 | [OWASP ZAP API Security Tester](../../skills/owasp-zap-api-security-tester/) | ⭐ 4.9 | 0 | `clawhub install owasp-zap-api-security-tester` |
 | [OWASP ZAP Automated Pen Testing Agent](../../skills/owasp-zap-automated-pen-testing-agent/) | ⭐ 4.9 | 0 | `clawhub install owasp-zap-automated-pen-testing-agent` |
 | [SAST Pipeline Scanner](../../skills/sast-pipeline-scanner/) | ⭐ 4.9 | 0 | `clawhub install sast-pipeline-scanner` |
@@ -23,6 +24,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [SSL Certificate Manager Skill](../../skills/ssl-certificate-manager-skill/) | ⭐ 4.9 | 0 | `clawhub install ssl-certificate-manager-skill` |
 | [ZAP Automated Security Scan Orchestrator](../../skills/zap-automated-security-scan-orchestrator/) | ⭐ 4.9 | 0 | `clawhub install zap-automated-security-scan-orchestrator` |
 | [Container Image Vulnerability Scanner](../../skills/container-image-vulnerability-scanner/) | ⭐ 4.8 | 0 | `clawhub install container-image-vulnerability-scanner` |
+| [Cosign Artifact Signature Verifier](../../skills/cosign-artifact-signature-verifier/) | ⭐ 4.8 | 0 | `clawhub install cosign-artifact-signature-verifier` |
 | [Dependency Audit](../../skills/dependency-audit/) | ⭐ 4.8 | 0 | `clawhub install dependency-audit` |
 | [DocuSign Contract Auto-Sender with Conditional Logic](../../skills/docusign-contract-auto-sender/) | ⭐ 4.8 | 0 | `clawhub install docusign-contract-auto-sender` |
 | [Git Secrets Pre-Commit Scanner](../../skills/git-secrets-precommit-scanner/) | ⭐ 4.8 | 0 | `clawhub install git-secrets-precommit-scanner` |
@@ -81,7 +83,9 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [OWASP ZAP Automated Scan Orchestrator](../../skills/owasp-zap-automated-scan-orchestrator/) | ⭐ 4.2 | 0 | `clawhub install owasp-zap-automated-scan-orchestrator` |
 | [SBOM Generator and CVE Matcher](../../skills/sbom-generator-cve-matcher/) | ⭐ 4.2 | 0 | `clawhub install sbom-generator-cve-matcher` |
 | [Snyk Dependency Audit Skill](../../skills/snyk-dependency-audit-skill/) | ⭐ 4.2 | 0 | `clawhub install snyk-dependency-audit-skill` |
+| [Snyk License Compliance Checker](../../skills/snyk-license-compliance-checker/) | ⭐ 4.2 | 0 | `clawhub install snyk-license-compliance-checker` |
 | [Trivy Container Security Scanner](../../skills/trivy-container-security-scanner/) | ⭐ 4.2 | 0 | `clawhub install trivy-container-security-scanner` |
+| [Trivy Container Vulnerability Scanner](../../skills/trivy-container-vulnerability-scanner/) | ⭐ 4.2 | 0 | `clawhub install trivy-container-vulnerability-scanner` |
 | [Vault Secrets Rotator](../../skills/vault-secrets-rotator/) | ⭐ 4.2 | 0 | `clawhub install vault-secrets-rotator` |
 | [Checkov Infrastructure Policy Scanner](../../skills/checkov-infrastructure-policy-scanner/) | ⭐ 4.1 | 0 | `clawhub install checkov-infrastructure-policy-scanner` |
 | [Dependency Vulnerability &#038; License Auditor](../../skills/dependency-vulnerability-license-auditor/) | ⭐ 4.1 | 0 | `clawhub install dependency-vulnerability-license-auditor` |

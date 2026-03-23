@@ -1,6 +1,6 @@
 # 🔄 Data Extraction & Transformation
 
-> **83 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=data-extraction-transformation)
+> **87 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=data-extraction-transformation)
 
 Parsing, ETL pipelines, format conversion, data wrangling, and transformation utilities.
 
@@ -54,7 +54,9 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Cohere MCP Server](../../skills/cohere-mcp-server/) | ⭐ 4.6 | 0 | `clawhub install cohere-mcp-server` |
 | [dbt Model Lineage Analyzer](../../skills/dbt-model-lineage-analyzer/) | ⭐ 4.6 | 0 | `clawhub install dbt-model-lineage-analyzer` |
 | [Great Expectations Data Quality](../../skills/great-expectations-data-quality/) | ⭐ 4.6 | 0 | `clawhub install great-expectations-data-quality` |
+| [jq JSON Stream Transformer](../../skills/jq-json-stream-transformer/) | ⭐ 4.6 | 0 | `clawhub install jq-json-stream-transformer` |
 | [Parquet Column Pruning Optimizer](../../skills/parquet-column-pruning-optimizer/) | ⭐ 4.6 | 0 | `clawhub install parquet-column-pruning-optimizer` |
+| [Apache Tika Document Parser](../../skills/apache-tika-document-parser/) | ⭐ 4.5 | 0 | `clawhub install apache-tika-document-parser` |
 | [dbt Model Lineage Extractor](../../skills/dbt-model-lineage-extractor-2/) | ⭐ 4.5 | 0 | `clawhub install dbt-model-lineage-extractor-2` |
 | [QuickBooks Online Invoice Reconciliation Agent](../../skills/quickbooks-invoice-reconciliation/) | ⭐ 4.5 | 0 | `clawhub install quickbooks-invoice-reconciliation` |
 | [Snowflake Query History Extractor](../../skills/snowflake-query-history-extractor/) | ⭐ 4.5 | 0 | `clawhub install snowflake-query-history-extractor` |
@@ -63,6 +65,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Amplitude MCP Server](../../skills/amplitude-mcp-server/) | ⭐ 4.4 | 0 | `clawhub install amplitude-mcp-server` |
 | [Apache Kafka Stream Transformer](../../skills/apache-kafka-stream-transformer/) | ⭐ 4.4 | 0 | `clawhub install apache-kafka-stream-transformer` |
 | [Databricks MCP](../../skills/databricks-mcp/) | ⭐ 4.4 | 0 | `clawhub install databricks-mcp` |
+| [dbt Model Transformation Architect](../../skills/dbt-model-transformation-architect/) | ⭐ 4.4 | 0 | `clawhub install dbt-model-transformation-architect` |
 | [Looker Tableau Data Extractor](../../skills/looker-tableau-data-extractor/) | ⭐ 4.4 | 0 | `clawhub install looker-tableau-data-extractor` |
 | [Metabase Dashboard Snapshot &#038; Alerting](../../skills/metabase-dashboard-snapshot-alerting/) | ⭐ 4.4 | 0 | `clawhub install metabase-dashboard-snapshot-alerting` |
 | [SQLite MCP Server](../../skills/sqlite-mcp-server/) | ⭐ 4.4 | 0 | `clawhub install sqlite-mcp-server` |
@@ -86,6 +89,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Apache Airflow MCP](../../skills/apache-airflow-mcp/) | ⭐ 4.1 | 0 | `clawhub install apache-airflow-mcp` |
 | [dbt Data Transformation Orchestrator](../../skills/dbt-data-transformation-orchestrator/) | ⭐ 4.1 | 0 | `clawhub install dbt-data-transformation-orchestrator` |
 | [JSON-to-Avro Schema Transformer](../../skills/json-to-avro-schema-transformer/) | ⭐ 4.1 | 0 | `clawhub install json-to-avro-schema-transformer` |
+| [Pandas DataFrame Schema Enforcer](../../skills/pandas-dataframe-schema-enforcer/) | ⭐ 4.1 | 0 | `clawhub install pandas-dataframe-schema-enforcer` |
 | [Postgres MCP Pro](../../skills/postgres-mcp-pro/) | ⭐ 4.1 | 0 | `clawhub install postgres-mcp-pro` |
 | [Reddit Subreddit Sentiment Tracker](../../skills/reddit-subreddit-sentiment-tracker/) | ⭐ 4.1 | 0 | `clawhub install reddit-subreddit-sentiment-tracker` |
 | [dbt MCP Server](../../skills/dbt-mcp-server/) | ⭐ 4.0 | 0 | `clawhub install dbt-mcp-server` |

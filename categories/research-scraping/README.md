@@ -1,6 +1,6 @@
 # 🔍 Research & Scraping
 
-> **42 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=research-scraping)
+> **46 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=research-scraping)
 
 Web research, data collection, content aggregation, and information gathering.
 
@@ -11,11 +11,13 @@ Web research, data collection, content aggregation, and information gathering.
 | Skill | Rating | Reviews | Install |
 |-------|:------:|:-------:|---------|
 | [Apify Web Scraper Orchestrator](../../skills/apify-web-scraper-orchestrator-2/) | ⭐ 4.9 | 0 | `clawhub install apify-web-scraper-orchestrator-2` |
+| [Cheerio DOM Scraping Toolkit](../../skills/cheerio-dom-scraping-toolkit/) | ⭐ 4.9 | 0 | `clawhub install cheerio-dom-scraping-toolkit` |
 | [Cheerio Product Price Tracker](../../skills/cheerio-product-price-tracker/) | ⭐ 4.9 | 0 | `clawhub install cheerio-product-price-tracker` |
 | [Common Crawl Index Query Agent](../../skills/common-crawl-index-query-agent/) | ⭐ 4.9 | 0 | `clawhub install common-crawl-index-query-agent` |
 | [Playwright Network Interceptor](../../skills/playwright-network-interceptor/) | ⭐ 4.9 | 0 | `clawhub install playwright-network-interceptor` |
 | [Scrapy Distributed Crawler Framework](../../skills/scrapy-distributed-crawler-framework/) | ⭐ 4.9 | 0 | `clawhub install scrapy-distributed-crawler-framework` |
 | [SEC EDGAR Filing Scraper &#038; Analyzer](../../skills/sec-edgar-filing-scraper-analyzer/) | ⭐ 4.9 | 0 | `clawhub install sec-edgar-filing-scraper-analyzer` |
+| [SerpAPI Search Results Aggregator](../../skills/serpapi-search-results-aggregator/) | ⭐ 4.9 | 0 | `clawhub install serpapi-search-results-aggregator` |
 | [Censys Attack Surface Monitor](../../skills/censys-attack-surface-monitor/) | ⭐ 4.8 | 0 | `clawhub install censys-attack-surface-monitor` |
 | [Scrapy Pipeline Manager](../../skills/scrapy-pipeline-manager/) | ⭐ 4.8 | 0 | `clawhub install scrapy-pipeline-manager` |
 | [SerpAPI Scholar Agent](../../skills/serpapi-scholar-agent/) | ⭐ 4.8 | 0 | `clawhub install serpapi-scholar-agent` |
@@ -25,6 +27,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Hacker News Deep Thread Analyzer](../../skills/hacker-news-deep-thread-analyzer/) | ⭐ 4.7 | 0 | `clawhub install hacker-news-deep-thread-analyzer` |
 | [Puppeteer Scraping Framework](../../skills/puppeteer-scraping-framework-2/) | ⭐ 4.7 | 0 | `clawhub install puppeteer-scraping-framework-2` |
 | [PuppeteerSharp Web Scraping Pipeline](../../skills/puppeteersharp-web-scraping-pipeline/) | ⭐ 4.7 | 0 | `clawhub install puppeteersharp-web-scraping-pipeline` |
+| [Scrapy Spider Architect](../../skills/scrapy-spider-architect/) | ⭐ 4.7 | 0 | `clawhub install scrapy-spider-architect` |
 | [SerpAPI Search Intelligence Aggregator](../../skills/serpapi-search-intelligence-aggregator/) | ⭐ 4.7 | 0 | `clawhub install serpapi-search-intelligence-aggregator` |
 | [Shodan Network Reconnaissance Agent](../../skills/shodan-network-reconnaissance-agent/) | ⭐ 4.7 | 0 | `clawhub install shodan-network-reconnaissance-agent` |
 | [Product Review Sentiment Aggregator](../../skills/product-review-sentiment-aggregator/) | ⭐ 4.6 | 0 | `clawhub install product-review-sentiment-aggregator` |
@@ -35,6 +38,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Browserless Scraping Agent](../../skills/browserless-scraping-agent/) | ⭐ 4.5 | 0 | `clawhub install browserless-scraping-agent` |
 | [OSINT Domain Intelligence Scanner](../../skills/osint-domain-intelligence-scanner/) | ⭐ 4.5 | 0 | `clawhub install osint-domain-intelligence-scanner` |
 | [Perplexity MCP Server](../../skills/perplexity-mcp-server/) | ⭐ 4.5 | 0 | `clawhub install perplexity-mcp-server` |
+| [Playwright Page Data Extractor](../../skills/playwright-page-data-extractor/) | ⭐ 4.5 | 0 | `clawhub install playwright-page-data-extractor` |
 | [Scrapy Spider Generator](../../skills/scrapy-spider-generator/) | ⭐ 4.5 | 0 | `clawhub install scrapy-spider-generator` |
 | [ScrapyCloud Job Manager](../../skills/scrapycloud-job-manager/) | ⭐ 4.5 | 0 | `clawhub install scrapycloud-job-manager` |
 | [Apify Web Scraper Orchestrator](../../skills/apify-web-scraper-orchestrator-3/) | ⭐ 4.3 | 0 | `clawhub install apify-web-scraper-orchestrator-3` |
