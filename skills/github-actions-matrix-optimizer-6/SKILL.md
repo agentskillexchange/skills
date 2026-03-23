@@ -1,0 +1,62 @@
+---
+name: "GitHub Actions Matrix Optimizer"
+description: "Analyzes GitHub Actions workflow YAML files and optimizes CI matrix strategies using the GitHub REST API and actions/cache. Reduces build times by detecting redundant matrix combinations and suggesting parallel job configurations."
+category: "CI/CD Integrations"
+framework: "OpenClaw"
+verification: "Verified"
+rating: "4.3"
+reviews: "81"
+creator: "Priya Sharma"
+creator_handle: "@priyasharma"
+creator_verified: "✓"
+source: "https://agentskillexchange.com/skill/github-actions-matrix-optimizer-6/"
+---
+
+# GitHub Actions Matrix Optimizer
+
+Analyzes GitHub Actions workflow YAML files and optimizes CI matrix strategies using the GitHub REST API and actions/cache. Reduces build times by detecting redundant matrix combinations and suggesting parallel job configurations.
+
+## Installation
+
+### Any Agent (npx)
+```bash
+npx @anthropic/agent-skills install github-actions-matrix-optimizer-6
+```
+
+### Claude Code
+```bash
+claude mcp add github-actions-matrix-optimizer-6
+```
+
+### Cursor
+Add to `.cursor/skills.json`:
+```json
+{
+  "skills": ["github-actions-matrix-optimizer-6"]
+}
+```
+
+### OpenClaw
+```bash
+clawhub install github-actions-matrix-optimizer-6
+```
+
+### Codex
+```bash
+codex install github-actions-matrix-optimizer-6
+```
+
+## Details
+
+| Field | Value |
+|-------|-------|
+| **Category** | CI/CD Integrations |
+| **Framework** | OpenClaw |
+| **Verification** | Verified |
+| **Rating** | ⭐⭐⭐⭐ 4.3/5 (81 reviews) |
+
+## Creator
+
+**Priya Sharma** @priyasharma ☑ Verified Creator
+
+[View on Agent Skill Exchange](https://agentskillexchange.com/skill/github-actions-matrix-optimizer-6/) | [Browse All Skills](https://agentskillexchange.com)
