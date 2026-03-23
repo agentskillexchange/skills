@@ -1,53 +1,82 @@
-# Browser Automation
+# 🌐 Browser Automation
 
-> Navigation, login flows, form handling, and screenshots for automating any web interaction.
+> **39 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=browser-automation)
 
-**[Browse on the web →](https://agentskillexchange.com/browse-skills/?category=browser-automation)**
-
-**23 skills** · Part of [Agent Skill Exchange](https://github.com/agentskillexchange/skills)
+Web scraping, UI testing, headless browser control, and browser-based automation.
 
 ---
 
 ## Skills
 
-| Skill | Rating | Reviews | Framework | Verified |
-|-------|--------|---------|-----------|----------|
-| [Puppeteer Web Scraping Pipeline](../../skills/puppeteer-web-scraping-pipeline/SKILL.md) | ⭐ 4.9 | 85 | MCP | 🛡️ |
-| [Puppeteer Cookie Consent Automator](../../skills/puppeteer-cookie-consent-automator/SKILL.md) | ⭐ 4.9 | 86 | Codex | 🛡️ |
-| [Playwright Visual Regression Tester](../../skills/playwright-visual-regression-tester/SKILL.md) | ⭐ 4.9 | 21 | Multi-Framework | 🛡️ |
-| [Cypress Visual Regression Runner](../../skills/cypress-visual-regression-runner/SKILL.md) | ⭐ 4.9 | 9 | Codex | 🛡️ |
-| [Puppeteer Cookie Consent Handler](../../skills/puppeteer-cookie-consent-handler/SKILL.md) | ⭐ 4.9 | 55 | OpenClaw | 🛡️ |
-| [Puppeteer Visual Regression Tester](../../skills/puppeteer-visual-regression-tester/SKILL.md) | ⭐ 4.9 | 69 | MCP | 🛡️ |
-| [Playwright Multi-Tab Session Manager](../../skills/playwright-multi-tab-session-manager/SKILL.md) | ⭐ 4.9 | 43 | OpenClaw | 🛡️ |
-| [Selenium Grid Multi-Browser Test Runner](../../skills/selenium-grid-multi-browser-test-runner/SKILL.md) | ⭐ 4.9 | 24 | Cursor | 🛡️ |
-| [Selenium Grid Test Orchestrator](../../skills/selenium-grid-test-orchestrator/SKILL.md) | ⭐ 4.8 | 54 | MCP | 🛡️ |
-| [Playwright Session Recorder](../../skills/playwright-session-recorder/SKILL.md) | ⭐ 4.7 | 23 | Claude Code | 🛡️ |
-| [Cypress E2E API Intercept Skill](../../skills/cypress-e2e-api-intercept-skill/SKILL.md) | ⭐ 4.7 | 17 | Codex | 🛡️ |
-| [Browserbase MCP for Cloud Browser Control](../../skills/browserbase-mcp-cloud-browser-control/SKILL.md) | ⭐ 4.7 | 61 | Claude Code | 🛡️ |
-| [Browser MCP](../../skills/browser-mcp/SKILL.md) | ⭐ 4.7 | 4 | OpenClaw | 🛡️ |
-| [Selenium Grid Parallel Executor](../../skills/selenium-grid-parallel-executor/SKILL.md) | ⭐ 4.6 | 11 | Claude Code | 🛡️ |
-| [Selenium Grid Cloud Executor](../../skills/selenium-grid-cloud-executor/SKILL.md) | ⭐ 4.6 | 84 | Codex | 🛡️ |
-| [Selenium Grid Load Balancer](../../skills/selenium-grid-load-balancer/SKILL.md) | ⭐ 4.5 | 51 | Codex | 🛡️ |
-| [Playwright PDF Export Automation](../../skills/playwright-pdf-export-automation/SKILL.md) | ⭐ 4.5 | 86 | OpenClaw | 🛡️ |
-| [Playwright Cross-Browser Test Runner](../../skills/playwright-cross-browser-test-runner/SKILL.md) | ⭐ 4.4 | 39 | Claude Code | 🛡️ |
-| [Playwright MCP Browser Automation](../../skills/playwright-mcp-browser-automation/SKILL.md) | ⭐ 4.2 | 82 | Codex | 🛡️ |
-| [Agent Browser Operator](../../skills/agent-browser-operator/SKILL.md) | ⭐ 4.2 | 52 | OpenClaw | 🛡️ |
-| [Puppeteer Visual Regression Testing](../../skills/puppeteer-visual-regression-testing/SKILL.md) | ⭐ 4.1 | 79 | Claude Code | 🛡️ |
-| [Cypress Component Testing Suite](../../skills/cypress-component-testing-suite/SKILL.md) | ⭐ 4.0 | 45 | OpenClaw | 🛡️ |
-| [Cypress E2E Test Generator](../../skills/cypress-e2e-test-generator-2/SKILL.md) | ⭐ 4.0 | 85 | Cursor | 🛡️ |
+| Skill | Rating | Reviews | Install |
+|-------|:------:|:-------:|---------|
+| [Cypress Component Test Generator](../../skills/cypress-component-test-generator/) | ⭐ 4.9 | 0 | `clawhub install cypress-component-test-generator` |
+| [Cypress Visual Regression Runner](../../skills/cypress-visual-regression-runner/) | ⭐ 4.9 | 0 | `clawhub install cypress-visual-regression-runner` |
+| [Playwright Multi-Browser Test Suite](../../skills/playwright-multi-browser-test-suite/) | ⭐ 4.9 | 0 | `clawhub install playwright-multi-browser-test-suite` |
+| [Playwright Multi-Tab Session Manager](../../skills/playwright-multi-tab-session-manager/) | ⭐ 4.9 | 0 | `clawhub install playwright-multi-tab-session-manager` |
+| [Playwright Visual Regression Tester](../../skills/playwright-visual-regression-tester/) | ⭐ 4.9 | 0 | `clawhub install playwright-visual-regression-tester` |
+| [Puppeteer Cookie Consent Automator](../../skills/puppeteer-cookie-consent-automator/) | ⭐ 4.9 | 0 | `clawhub install puppeteer-cookie-consent-automator` |
+| [Puppeteer Cookie Consent Handler](../../skills/puppeteer-cookie-consent-handler/) | ⭐ 4.9 | 0 | `clawhub install puppeteer-cookie-consent-handler` |
+| [Puppeteer Cookie Consent Handler](../../skills/puppeteer-cookie-consent-handler-2/) | ⭐ 4.9 | 0 | `clawhub install puppeteer-cookie-consent-handler-2` |
+| [Puppeteer Visual Regression Tester](../../skills/puppeteer-visual-regression-tester/) | ⭐ 4.9 | 0 | `clawhub install puppeteer-visual-regression-tester` |
+| [Puppeteer Web Scraping Pipeline](../../skills/puppeteer-web-scraping-pipeline/) | ⭐ 4.9 | 0 | `clawhub install puppeteer-web-scraping-pipeline` |
+| [Selenium Grid Multi-Browser Test Runner](../../skills/selenium-grid-multi-browser-test-runner/) | ⭐ 4.9 | 0 | `clawhub install selenium-grid-multi-browser-test-runner` |
+| [Selenium Grid Session Manager](../../skills/selenium-grid-session-manager/) | ⭐ 4.9 | 0 | `clawhub install selenium-grid-session-manager` |
+| [Selenium Grid Parallel Execution Manager](../../skills/selenium-grid-parallel-execution-manager/) | ⭐ 4.8 | 0 | `clawhub install selenium-grid-parallel-execution-manager` |
+| [Selenium Grid Test Orchestrator](../../skills/selenium-grid-test-orchestrator/) | ⭐ 4.8 | 0 | `clawhub install selenium-grid-test-orchestrator` |
+| [Browser MCP](../../skills/browser-mcp/) | ⭐ 4.7 | 0 | `clawhub install browser-mcp` |
+| [Browserbase MCP for Cloud Browser Control](../../skills/browserbase-mcp-cloud-browser-control/) | ⭐ 4.7 | 0 | `clawhub install browserbase-mcp-cloud-browser-control` |
+| [Cypress E2E API Intercept Skill](../../skills/cypress-e2e-api-intercept-skill/) | ⭐ 4.7 | 0 | `clawhub install cypress-e2e-api-intercept-skill` |
+| [Playwright Session Recorder](../../skills/playwright-session-recorder/) | ⭐ 4.7 | 0 | `clawhub install playwright-session-recorder` |
+| [Playwright Session Recorder](../../skills/playwright-session-recorder-2/) | ⭐ 4.7 | 0 | `clawhub install playwright-session-recorder-2` |
+| [Playwright Visual Regression Suite](../../skills/playwright-visual-regression-suite/) | ⭐ 4.7 | 0 | `clawhub install playwright-visual-regression-suite` |
+| [Playwright Multi-Browser Test Generator](../../skills/playwright-multi-browser-test-generator/) | ⭐ 4.6 | 0 | `clawhub install playwright-multi-browser-test-generator` |
+| [Selenium Grid Cloud Executor](../../skills/selenium-grid-cloud-executor/) | ⭐ 4.6 | 0 | `clawhub install selenium-grid-cloud-executor` |
+| [Selenium Grid Parallel Executor](../../skills/selenium-grid-parallel-executor/) | ⭐ 4.6 | 0 | `clawhub install selenium-grid-parallel-executor` |
+| [Playwright PDF Export Automation](../../skills/playwright-pdf-export-automation/) | ⭐ 4.5 | 0 | `clawhub install playwright-pdf-export-automation` |
+| [Selenium Grid Load Balancer](../../skills/selenium-grid-load-balancer/) | ⭐ 4.5 | 0 | `clawhub install selenium-grid-load-balancer` |
+| [Selenium Grid Orchestrator](../../skills/selenium-grid-orchestrator/) | ⭐ 4.5 | 0 | `clawhub install selenium-grid-orchestrator` |
+| [Cypress Component Testing Framework](../../skills/cypress-component-testing-framework-2/) | ⭐ 4.4 | 0 | `clawhub install cypress-component-testing-framework-2` |
+| [Cypress Component Testing Toolkit](../../skills/cypress-component-testing-toolkit/) | ⭐ 4.4 | 0 | `clawhub install cypress-component-testing-toolkit` |
+| [Playwright Cross-Browser Test Runner](../../skills/playwright-cross-browser-test-runner/) | ⭐ 4.4 | 0 | `clawhub install playwright-cross-browser-test-runner` |
+| [Selenium Grid Cloud Executor](../../skills/selenium-grid-cloud-executor-2/) | ⭐ 4.3 | 0 | `clawhub install selenium-grid-cloud-executor-2` |
+| [Agent Browser Operator](../../skills/agent-browser-operator/) | ⭐ 4.2 | 0 | `clawhub install agent-browser-operator` |
+| [Cypress Component Testing Framework](../../skills/cypress-component-testing-framework/) | ⭐ 4.2 | 0 | `clawhub install cypress-component-testing-framework` |
+| [Playwright MCP Browser Automation](../../skills/playwright-mcp-browser-automation/) | ⭐ 4.2 | 0 | `clawhub install playwright-mcp-browser-automation` |
+| [Puppeteer PDF Renderer](../../skills/puppeteer-pdf-renderer/) | ⭐ 4.1 | 0 | `clawhub install puppeteer-pdf-renderer` |
+| [Puppeteer Visual Regression Testing](../../skills/puppeteer-visual-regression-testing/) | ⭐ 4.1 | 0 | `clawhub install puppeteer-visual-regression-testing` |
+| [Cypress Component Testing Suite](../../skills/cypress-component-testing-suite/) | ⭐ 4.0 | 0 | `clawhub install cypress-component-testing-suite` |
+| [Cypress E2E Test Generator](../../skills/cypress-e2e-test-generator-2/) | ⭐ 4.0 | 0 | `clawhub install cypress-e2e-test-generator-2` |
+| [Puppeteer Scraping Framework](../../skills/puppeteer-scraping-framework/) | ⭐ 4.0 | 0 | `clawhub install puppeteer-scraping-framework` |
+| [Puppeteer Web Scraping Pipeline](../../skills/puppeteer-web-scraping-pipeline-2/) | ⭐ 4.0 | 0 | `clawhub install puppeteer-web-scraping-pipeline-2` |
 
 ---
 
-## Install
+## Quick Install
 
 ```bash
 # Install any skill from this category
+clawhub install <slug>
+
+# Or using npx
 npx skills add agentskillexchange/skills --skill <slug>
+
+# For a specific agent
+npx skills add agentskillexchange/skills --skill <slug> -a claude-code
+npx skills add agentskillexchange/skills --skill <slug> -a cursor
+npx skills add agentskillexchange/skills --skill <slug> -a codex
 ```
+
+---
 
 ## Related Categories
 
-- [Research & Scraping](../research-scraping/)
-- [Integrations & Connectors](../integrations-connectors/)
-- [Calendar, Email & Productivity](../calendar-email-productivity/)
-- [Developer Tools](../developer-tools/)
+- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (217 skills)
+- 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (174 skills)
+- ✅ [Code Quality & Review](../code-quality-review/) (131 skills)
+- 🛠️ [Developer Tools](../developer-tools/) (118 skills)
+
+---
+
+[← Back to all categories](../)
+

@@ -1,55 +1,76 @@
-# Research & Scraping
+# 🔍 Research & Scraping
 
-> Web research, content discovery, and data collection agents for information gathering at scale.
+> **33 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=research-scraping)
 
-**[Browse on the web →](https://agentskillexchange.com/browse-skills/?category=research-scraping)**
-
-**25 skills** · Part of [Agent Skill Exchange](https://github.com/agentskillexchange/skills)
+Web research, data collection, content aggregation, and information gathering.
 
 ---
 
 ## Skills
 
-| Skill | Rating | Reviews | Framework | Verified |
-|-------|--------|---------|-----------|----------|
-| [Apify Web Scraper Orchestrator](../../skills/apify-web-scraper-orchestrator-2/SKILL.md) | ⭐ 4.9 | 60 | OpenClaw | 🛡️ |
-| [Cheerio Product Price Tracker](../../skills/cheerio-product-price-tracker/SKILL.md) | ⭐ 4.9 | 82 | Codex | 🛡️ |
-| [Scrapy Distributed Crawler Framework](../../skills/scrapy-distributed-crawler-framework/SKILL.md) | ⭐ 4.9 | 86 | Claude Code | 🛡️ |
-| [SerpAPI Scholar Agent](../../skills/serpapi-scholar-agent/SKILL.md) | ⭐ 4.8 | 80 | Gemini | 🛡️ |
-| [Censys Attack Surface Monitor](../../skills/censys-attack-surface-monitor/SKILL.md) | ⭐ 4.8 | 57 | MCP | 🛡️ |
-| [Tavily MCP Server](../../skills/tavily-mcp-server/SKILL.md) | ⭐ 4.8 | 8 | Multi-Framework | 🛡️ |
-| [Shodan Network Reconnaissance Agent](../../skills/shodan-network-reconnaissance-agent/SKILL.md) | ⭐ 4.7 | 77 | Cursor | 🛡️ |
-| [SerpAPI Search Intelligence Aggregator](../../skills/serpapi-search-intelligence-aggregator/SKILL.md) | ⭐ 4.7 | 67 | Multi-Framework | 🛡️ |
-| [PuppeteerSharp Web Scraping Pipeline](../../skills/puppeteersharp-web-scraping-pipeline/SKILL.md) | ⭐ 4.7 | 16 | MCP | 🛡️ |
-| [Puppeteer Stealth Web Scraper](../../skills/puppeteer-stealth-web-scraper/SKILL.md) | ⭐ 4.6 | 4 | Cursor | 🛡️ |
-| [Browserless Scraping Agent](../../skills/browserless-scraping-agent/SKILL.md) | ⭐ 4.5 | 29 | Cursor | 🛡️ |
-| [Apify Actor Web Intelligence Agent](../../skills/apify-actor-web-intelligence-agent/SKILL.md) | ⭐ 4.5 | 86 | MCP | 🛡️ |
-| [OSINT Domain Intelligence Scanner](../../skills/osint-domain-intelligence-scanner/SKILL.md) | ⭐ 4.5 | 75 | Cursor | 🛡️ |
-| [Perplexity MCP Server](../../skills/perplexity-mcp-server/SKILL.md) | ⭐ 4.5 | 61 | OpenClaw | 🛡️ |
-| [Jina Reader API Skill](../../skills/jina-reader-api-skill/SKILL.md) | ⭐ 4.3 | 77 | Claude Code | 🛡️ |
-| [SerpAPI Research Pipeline](../../skills/serpapi-research-pipeline/SKILL.md) | ⭐ 4.3 | 86 | Cursor | 🛡️ |
-| [Playwright Test Generator with Codegen](../../skills/playwright-test-generator-codegen/SKILL.md) | ⭐ 4.3 | 25 | Multi-Framework | 🛡️ |
-| [Apify Actor Web Crawler](../../skills/apify-actor-web-crawler/SKILL.md) | ⭐ 4.2 | 84 | Codex | 🛡️ |
-| [Beautiful Soup Academic Paper Parser](../../skills/beautifulsoup-academic-paper-parser/SKILL.md) | ⭐ 4.2 | 74 | Multi-Framework | 🛡️ |
-| [Scrapy Pipeline Data Extractor](../../skills/scrapy-pipeline-data-extractor/SKILL.md) | ⭐ 4.2 | 6 | OpenClaw | 🛡️ |
-| [Firecrawl MCP Server](../../skills/firecrawl-mcp-server/SKILL.md) | ⭐ 4.2 | 78 | MCP | 🛡️ |
-| [OpenClaw Research Scout](../../skills/openclaw-research-scout/SKILL.md) | ⭐ 4.2 | 44 | Cursor | 🛡️ |
-| [Crawlee Smart Crawler Agent](../../skills/crawlee-smart-crawler-agent/SKILL.md) | ⭐ 4.1 | 60 | Multi-Framework | 🛡️ |
-| [Apify Web Scraper Orchestrator](../../skills/apify-web-scraper-orchestrator/SKILL.md) | ⭐ 4.1 | 53 | Claude Code | 🛡️ |
-| [ScrapingBee API Data Harvester](../../skills/scrapingbee-api-data-harvester/SKILL.md) | ⭐ 4.0 | 37 | MCP | 🛡️ |
+| Skill | Rating | Reviews | Install |
+|-------|:------:|:-------:|---------|
+| [Apify Web Scraper Orchestrator](../../skills/apify-web-scraper-orchestrator-2/) | ⭐ 4.9 | 0 | `clawhub install apify-web-scraper-orchestrator-2` |
+| [Cheerio Product Price Tracker](../../skills/cheerio-product-price-tracker/) | ⭐ 4.9 | 0 | `clawhub install cheerio-product-price-tracker` |
+| [Common Crawl Index Query Agent](../../skills/common-crawl-index-query-agent/) | ⭐ 4.9 | 0 | `clawhub install common-crawl-index-query-agent` |
+| [Playwright Network Interceptor](../../skills/playwright-network-interceptor/) | ⭐ 4.9 | 0 | `clawhub install playwright-network-interceptor` |
+| [Scrapy Distributed Crawler Framework](../../skills/scrapy-distributed-crawler-framework/) | ⭐ 4.9 | 0 | `clawhub install scrapy-distributed-crawler-framework` |
+| [SEC EDGAR Filing Scraper &#038; Analyzer](../../skills/sec-edgar-filing-scraper-analyzer/) | ⭐ 4.9 | 0 | `clawhub install sec-edgar-filing-scraper-analyzer` |
+| [Censys Attack Surface Monitor](../../skills/censys-attack-surface-monitor/) | ⭐ 4.8 | 0 | `clawhub install censys-attack-surface-monitor` |
+| [SerpAPI Scholar Agent](../../skills/serpapi-scholar-agent/) | ⭐ 4.8 | 0 | `clawhub install serpapi-scholar-agent` |
+| [Tavily MCP Server](../../skills/tavily-mcp-server/) | ⭐ 4.8 | 0 | `clawhub install tavily-mcp-server` |
+| [Apify Actor Development Kit](../../skills/apify-actor-development-kit/) | ⭐ 4.7 | 0 | `clawhub install apify-actor-development-kit` |
+| [Hacker News Deep Thread Analyzer](../../skills/hacker-news-deep-thread-analyzer/) | ⭐ 4.7 | 0 | `clawhub install hacker-news-deep-thread-analyzer` |
+| [PuppeteerSharp Web Scraping Pipeline](../../skills/puppeteersharp-web-scraping-pipeline/) | ⭐ 4.7 | 0 | `clawhub install puppeteersharp-web-scraping-pipeline` |
+| [SerpAPI Search Intelligence Aggregator](../../skills/serpapi-search-intelligence-aggregator/) | ⭐ 4.7 | 0 | `clawhub install serpapi-search-intelligence-aggregator` |
+| [Shodan Network Reconnaissance Agent](../../skills/shodan-network-reconnaissance-agent/) | ⭐ 4.7 | 0 | `clawhub install shodan-network-reconnaissance-agent` |
+| [Product Review Sentiment Aggregator](../../skills/product-review-sentiment-aggregator/) | ⭐ 4.6 | 0 | `clawhub install product-review-sentiment-aggregator` |
+| [Puppeteer Stealth Web Scraper](../../skills/puppeteer-stealth-web-scraper/) | ⭐ 4.6 | 0 | `clawhub install puppeteer-stealth-web-scraper` |
+| [Apify Actor Web Intelligence Agent](../../skills/apify-actor-web-intelligence-agent/) | ⭐ 4.5 | 0 | `clawhub install apify-actor-web-intelligence-agent` |
+| [Browserless Scraping Agent](../../skills/browserless-scraping-agent/) | ⭐ 4.5 | 0 | `clawhub install browserless-scraping-agent` |
+| [OSINT Domain Intelligence Scanner](../../skills/osint-domain-intelligence-scanner/) | ⭐ 4.5 | 0 | `clawhub install osint-domain-intelligence-scanner` |
+| [Perplexity MCP Server](../../skills/perplexity-mcp-server/) | ⭐ 4.5 | 0 | `clawhub install perplexity-mcp-server` |
+| [Scrapy Spider Generator](../../skills/scrapy-spider-generator/) | ⭐ 4.5 | 0 | `clawhub install scrapy-spider-generator` |
+| [Jina Reader API Skill](../../skills/jina-reader-api-skill/) | ⭐ 4.3 | 0 | `clawhub install jina-reader-api-skill` |
+| [Playwright Test Generator with Codegen](../../skills/playwright-test-generator-codegen/) | ⭐ 4.3 | 0 | `clawhub install playwright-test-generator-codegen` |
+| [SerpAPI Research Pipeline](../../skills/serpapi-research-pipeline/) | ⭐ 4.3 | 0 | `clawhub install serpapi-research-pipeline` |
+| [Academic Paper Citation Network Mapper](../../skills/academic-paper-citation-network-mapper/) | ⭐ 4.2 | 0 | `clawhub install academic-paper-citation-network-mapper` |
+| [Apify Actor Web Crawler](../../skills/apify-actor-web-crawler/) | ⭐ 4.2 | 0 | `clawhub install apify-actor-web-crawler` |
+| [Beautiful Soup Academic Paper Parser](../../skills/beautifulsoup-academic-paper-parser/) | ⭐ 4.2 | 0 | `clawhub install beautifulsoup-academic-paper-parser` |
+| [Firecrawl MCP Server](../../skills/firecrawl-mcp-server/) | ⭐ 4.2 | 0 | `clawhub install firecrawl-mcp-server` |
+| [OpenClaw Research Scout](../../skills/openclaw-research-scout/) | ⭐ 4.2 | 0 | `clawhub install openclaw-research-scout` |
+| [Scrapy Pipeline Data Extractor](../../skills/scrapy-pipeline-data-extractor/) | ⭐ 4.2 | 0 | `clawhub install scrapy-pipeline-data-extractor` |
+| [Apify Web Scraper Orchestrator](../../skills/apify-web-scraper-orchestrator/) | ⭐ 4.1 | 0 | `clawhub install apify-web-scraper-orchestrator` |
+| [Crawlee Smart Crawler Agent](../../skills/crawlee-smart-crawler-agent/) | ⭐ 4.1 | 0 | `clawhub install crawlee-smart-crawler-agent` |
+| [ScrapingBee API Data Harvester](../../skills/scrapingbee-api-data-harvester/) | ⭐ 4.0 | 0 | `clawhub install scrapingbee-api-data-harvester` |
 
 ---
 
-## Install
+## Quick Install
 
 ```bash
 # Install any skill from this category
+clawhub install <slug>
+
+# Or using npx
 npx skills add agentskillexchange/skills --skill <slug>
+
+# For a specific agent
+npx skills add agentskillexchange/skills --skill <slug> -a claude-code
+npx skills add agentskillexchange/skills --skill <slug> -a cursor
+npx skills add agentskillexchange/skills --skill <slug> -a codex
 ```
+
+---
 
 ## Related Categories
 
-- [Browser Automation](../browser-automation/)
-- [Data Extraction & Transformation](../data-extraction-transformation/)
-- [Content Writing & SEO](../content-writing-seo/)
-- [Integrations & Connectors](../integrations-connectors/)
+- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (217 skills)
+- 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (174 skills)
+- ✅ [Code Quality & Review](../code-quality-review/) (131 skills)
+- 🛠️ [Developer Tools](../developer-tools/) (118 skills)
+
+---
+
+[← Back to all categories](../)
+

@@ -1,86 +1,108 @@
-# Templates & Workflows
+# 📄 Templates & Workflows
 
-> Project scaffolders, boilerplate generators, and automation templates to accelerate new work.
+> **65 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=templates-workflows)
 
-**[Browse on the web →](https://agentskillexchange.com/browse-skills/?category=templates-workflows)**
-
-**56 skills** · Part of [Agent Skill Exchange](https://github.com/agentskillexchange/skills)
+Project scaffolding, boilerplate generators, workflow templates, and starter kits.
 
 ---
 
 ## Skills
 
-| Skill | Rating | Reviews | Framework | Verified |
-|-------|--------|---------|-----------|----------|
-| [Yeoman Generator Builder](../../skills/yeoman-generator-builder-2/SKILL.md) | ⭐ 4.9 | 72 | Cursor | 🛡️ |
-| [Terraform Module Scaffold Generator](../../skills/terraform-module-scaffold-generator/SKILL.md) | ⭐ 4.9 | 84 | Claude Code | 🛡️ |
-| [Terraform Module Template Generator](../../skills/terraform-module-template-generator/SKILL.md) | ⭐ 4.9 | 62 | Cursor | 🛡️ |
-| [Yeoman Generator Builder](../../skills/yeoman-generator-builder/SKILL.md) | ⭐ 4.9 | 80 | Cursor | 🛡️ |
-| [Incident Response Template Generator](../../skills/incident-response-template-generator/SKILL.md) | ⭐ 4.9 | 12 | Cursor | 🛡️ |
-| [Codecov Diff Analyzer](../../skills/codecov-diff-analyzer-2/SKILL.md) | ⭐ 4.9 | 84 | Codex | 🛡️ |
-| [Railway App Deployer](../../skills/railway-app-deployer/SKILL.md) | ⭐ 4.9 | 44 | Cursor | 🛡️ |
-| [Terraform Module Registry](../../skills/terraform-module-registry/SKILL.md) | ⭐ 4.9 | 46 | Claude Code | 🛡️ |
-| [DigitalOcean Droplet Manager](../../skills/digitalocean-droplet-manager/SKILL.md) | ⭐ 4.9 | 56 | Cursor | 🛡️ |
-| [Release Notes Generator](../../skills/release-notes-generator/SKILL.md) | ⭐ 4.9 | 31 | MCP | 🛡️ |
-| [n8n MCP](../../skills/n8n-mcp/SKILL.md) | ⭐ 4.9 | 33 | OpenClaw | 🛡️ |
-| [Nx Workspace Generator Toolkit](../../skills/nx-workspace-generator-toolkit/SKILL.md) | ⭐ 4.8 | 36 | Multi-Framework | 🛡️ |
-| [Jinja2 Infrastructure Template Engine](../../skills/jinja2-infrastructure-template-engine/SKILL.md) | ⭐ 4.8 | 82 | OpenClaw | 🛡️ |
-| [Notion to PDF Knowledge Exporter](../../skills/notion-to-pdf-knowledge-exporter-2/SKILL.md) | ⭐ 4.8 | 15 | Claude Code | 🛡️ |
-| [Ansible Playbook Runner](../../skills/ansible-playbook-runner/SKILL.md) | ⭐ 4.8 | 77 | OpenClaw | 🛡️ |
-| [GCP Deployment Manager](../../skills/gcp-deployment-manager/SKILL.md) | ⭐ 4.8 | 60 | Cursor | 🛡️ |
-| [ClickUp MCP Server](../../skills/clickup-mcp-server/SKILL.md) | ⭐ 4.8 | 22 | MCP | 🛡️ |
-| [Monday.com MCP Server](../../skills/monday-com-mcp-server/SKILL.md) | ⭐ 4.8 | 22 | OpenClaw | 🛡️ |
-| [Cron Job Manager](../../skills/cron-job-manager/SKILL.md) | ⭐ 4.8 | 10 | Claude Code | 🛡️ |
-| [GitHub Actions Workflow Builder](../../skills/github-actions-workflow-builder-v2/SKILL.md) | ⭐ 4.7 | 32 | Codex | 🛡️ |
-| [Plop.js Micro-Generator](../../skills/plopjs-micro-generator/SKILL.md) | ⭐ 4.7 | 73 | OpenClaw | 🛡️ |
-| [Semgrep Custom Rule Runner](../../skills/semgrep-custom-rule-runner-2/SKILL.md) | ⭐ 4.7 | 68 | Cursor | 🛡️ |
-| [ESLint Rule Auditor](../../skills/eslint-rule-auditor/SKILL.md) | ⭐ 4.7 | 8 | OpenClaw | 🛡️ |
-| [AWS CDK Scaffolder](../../skills/aws-cdk-scaffolder/SKILL.md) | ⭐ 4.7 | 32 | OpenClaw | 🛡️ |
-| [Incident Response Runbook](../../skills/incident-response-runbook/SKILL.md) | ⭐ 4.7 | 44 | Claude Code | 🛡️ |
-| [Cookiecutter Project Template Engine](../../skills/cookiecutter-project-template-engine/SKILL.md) | ⭐ 4.6 | 85 | OpenClaw | 🛡️ |
-| [SonarQube Gate Checker](../../skills/sonarqube-gate-checker-2/SKILL.md) | ⭐ 4.6 | 85 | Codex | 🛡️ |
-| [Codecov Diff Analyzer](../../skills/codecov-diff-analyzer/SKILL.md) | ⭐ 4.6 | 22 | Codex | 🛡️ |
-| [SonarQube Gate Checker](../../skills/sonarqube-gate-checker/SKILL.md) | ⭐ 4.6 | 42 | OpenClaw | 🛡️ |
-| [Notion to PDF Knowledge Exporter](../../skills/notion-to-pdf-knowledge-exporter/SKILL.md) | ⭐ 4.6 | 26 | OpenClaw | 🛡️ |
-| [Packer Image Builder](../../skills/packer-image-builder/SKILL.md) | ⭐ 4.6 | 42 | OpenClaw | 🛡️ |
-| [Netlify Site Manager](../../skills/netlify-site-manager/SKILL.md) | ⭐ 4.6 | 21 | Cursor | 🛡️ |
-| [Zendesk MCP Server](../../skills/zendesk-mcp-server/SKILL.md) | ⭐ 4.6 | 81 | Multi-Framework | 🛡️ |
-| [Self-Improvement / Learnings Capture](../../skills/self-improvement-learnings-capture/SKILL.md) | ⭐ 4.6 | 33 | Cursor | 🛡️ |
-| [Yeoman Enterprise Generator Suite](../../skills/yeoman-enterprise-generator-suite/SKILL.md) | ⭐ 4.5 | 86 | Cursor | 🛡️ |
-| [Cookiecutter Project Scaffolder](../../skills/cookiecutter-project-scaffolder/SKILL.md) | ⭐ 4.5 | 59 | OpenClaw | 🛡️ |
-| [Azure Bicep Generator](../../skills/azure-bicep-generator/SKILL.md) | ⭐ 4.5 | 63 | OpenClaw | 🛡️ |
-| [Cloudflare Workers Deployer](../../skills/cloudflare-workers-deployer/SKILL.md) | ⭐ 4.5 | 79 | Multi-Framework | 🛡️ |
-| [Prefect Workflow Agent](../../skills/prefect-workflow-agent/SKILL.md) | ⭐ 4.5 | 75 | Cursor | 🛡️ |
-| [Postmortem Template Generator](../../skills/postmortem-template-generator/SKILL.md) | ⭐ 4.5 | 86 | MCP | 🛡️ |
-| [Cookiecutter Project Scaffolder](../../skills/cookiecutter-project-scaffolder-2/SKILL.md) | ⭐ 4.4 | 43 | Multi-Framework | 🛡️ |
-| [Makefile Workflow Generator](../../skills/makefile-workflow-generator/SKILL.md) | ⭐ 4.4 | 72 | OpenClaw | 🛡️ |
-| [Intercom MCP Server](../../skills/intercom-mcp-server/SKILL.md) | ⭐ 4.4 | 18 | OpenClaw | 🛡️ |
-| [Fly.io Deployment Helper](../../skills/fly-io-deployment-helper/SKILL.md) | ⭐ 4.3 | 41 | MCP | 🛡️ |
-| [Cookiecutter Project Scaffolder](../../skills/cookiecutter-project-scaffolder-3/SKILL.md) | ⭐ 4.2 | 83 | OpenClaw | 🛡️ |
-| [Yeoman Workflow Orchestrator](../../skills/yeoman-workflow-orchestrator/SKILL.md) | ⭐ 4.2 | 40 | Codex | 🛡️ |
-| [Ansible Playbook Template Library](../../skills/ansible-playbook-template-library/SKILL.md) | ⭐ 4.2 | 9 | MCP | 🛡️ |
-| [Docker Compose Test Harness](../../skills/docker-compose-test-harness/SKILL.md) | ⭐ 4.2 | 85 | Codex | 🛡️ |
-| [Semgrep Custom Rule Runner](../../skills/semgrep-custom-rule-runner/SKILL.md) | ⭐ 4.2 | 31 | Claude Code | 🛡️ |
-| [Vercel Deployment Agent](../../skills/vercel-deployment-agent/SKILL.md) | ⭐ 4.2 | 67 | MCP | 🛡️ |
-| [Plop.js Code Generator](../../skills/plopjs-code-generator/SKILL.md) | ⭐ 4.1 | 12 | MCP | 🛡️ |
-| [Cookiecutter Project Scaffolding Agent](../../skills/cookiecutter-project-scaffolding-agent/SKILL.md) | ⭐ 4.1 | 79 | Claude Code | 🛡️ |
-| [Bubble.io Stripe Subscription Portal Builder](../../skills/bubble-stripe-subscription-portal/SKILL.md) | ⭐ 4.1 | 49 | Claude Code | 🛡️ |
-| [Twitter/X Trend Monitor & Thread Publisher](../../skills/twitter-x-trend-monitor-thread-publisher/SKILL.md) | ⭐ 4.1 | 46 | OpenClaw | 🛡️ |
-| [ESLint Rule Auditor](../../skills/eslint-rule-auditor-2/SKILL.md) | ⭐ 4.0 | 71 | Cursor | 🛡️ |
-| [Asana MCP Server](../../skills/asana-mcp-server/SKILL.md) | ⭐ 4.0 | 26 | Claude Code | 🛡️ |
+| Skill | Rating | Reviews | Install |
+|-------|:------:|:-------:|---------|
+| [Codecov Diff Analyzer](../../skills/codecov-diff-analyzer-2/) | ⭐ 4.9 | 0 | `clawhub install codecov-diff-analyzer-2` |
+| [DigitalOcean Droplet Manager](../../skills/digitalocean-droplet-manager/) | ⭐ 4.9 | 0 | `clawhub install digitalocean-droplet-manager` |
+| [Helm Chart Boilerplate Builder](../../skills/helm-chart-boilerplate-builder/) | ⭐ 4.9 | 0 | `clawhub install helm-chart-boilerplate-builder` |
+| [Incident Response Template Generator](../../skills/incident-response-template-generator/) | ⭐ 4.9 | 0 | `clawhub install incident-response-template-generator` |
+| [n8n MCP](../../skills/n8n-mcp/) | ⭐ 4.9 | 0 | `clawhub install n8n-mcp` |
+| [Railway App Deployer](../../skills/railway-app-deployer/) | ⭐ 4.9 | 0 | `clawhub install railway-app-deployer` |
+| [Release Notes Generator](../../skills/release-notes-generator/) | ⭐ 4.9 | 0 | `clawhub install release-notes-generator` |
+| [Terraform Module Registry](../../skills/terraform-module-registry/) | ⭐ 4.9 | 0 | `clawhub install terraform-module-registry` |
+| [Terraform Module Scaffold Generator](../../skills/terraform-module-scaffold-generator/) | ⭐ 4.9 | 0 | `clawhub install terraform-module-scaffold-generator` |
+| [Terraform Module Template Generator](../../skills/terraform-module-template-generator/) | ⭐ 4.9 | 0 | `clawhub install terraform-module-template-generator` |
+| [Yeoman Generator Builder](../../skills/yeoman-generator-builder-2/) | ⭐ 4.9 | 0 | `clawhub install yeoman-generator-builder-2` |
+| [Yeoman Generator Builder](../../skills/yeoman-generator-builder/) | ⭐ 4.9 | 0 | `clawhub install yeoman-generator-builder` |
+| [Ansible Playbook Runner](../../skills/ansible-playbook-runner/) | ⭐ 4.8 | 0 | `clawhub install ansible-playbook-runner` |
+| [ClickUp MCP Server](../../skills/clickup-mcp-server/) | ⭐ 4.8 | 0 | `clawhub install clickup-mcp-server` |
+| [Cron Job Manager](../../skills/cron-job-manager/) | ⭐ 4.8 | 0 | `clawhub install cron-job-manager` |
+| [GCP Deployment Manager](../../skills/gcp-deployment-manager/) | ⭐ 4.8 | 0 | `clawhub install gcp-deployment-manager` |
+| [Jinja2 Infrastructure Template Engine](../../skills/jinja2-infrastructure-template-engine/) | ⭐ 4.8 | 0 | `clawhub install jinja2-infrastructure-template-engine` |
+| [Monday.com MCP Server](../../skills/monday-com-mcp-server/) | ⭐ 4.8 | 0 | `clawhub install monday-com-mcp-server` |
+| [Notion to PDF Knowledge Exporter](../../skills/notion-to-pdf-knowledge-exporter-2/) | ⭐ 4.8 | 0 | `clawhub install notion-to-pdf-knowledge-exporter-2` |
+| [Nx Workspace Generator Toolkit](../../skills/nx-workspace-generator-toolkit/) | ⭐ 4.8 | 0 | `clawhub install nx-workspace-generator-toolkit` |
+| [Terraform Module Scaffolder](../../skills/terraform-module-scaffolder/) | ⭐ 4.8 | 0 | `clawhub install terraform-module-scaffolder` |
+| [AWS CDK Scaffolder](../../skills/aws-cdk-scaffolder/) | ⭐ 4.7 | 0 | `clawhub install aws-cdk-scaffolder` |
+| [Backstage Software Catalog Sync](../../skills/backstage-software-catalog-sync/) | ⭐ 4.7 | 0 | `clawhub install backstage-software-catalog-sync` |
+| [Cookiecutter Project Scaffold Generator](../../skills/cookiecutter-project-scaffold-generator/) | ⭐ 4.7 | 0 | `clawhub install cookiecutter-project-scaffold-generator` |
+| [ESLint Rule Auditor](../../skills/eslint-rule-auditor/) | ⭐ 4.7 | 0 | `clawhub install eslint-rule-auditor` |
+| [GitHub Actions Workflow Builder](../../skills/github-actions-workflow-builder-v2/) | ⭐ 4.7 | 0 | `clawhub install github-actions-workflow-builder-v2` |
+| [Incident Response Runbook](../../skills/incident-response-runbook/) | ⭐ 4.7 | 0 | `clawhub install incident-response-runbook` |
+| [Plop.js Micro-Generator](../../skills/plopjs-micro-generator/) | ⭐ 4.7 | 0 | `clawhub install plopjs-micro-generator` |
+| [Semgrep Custom Rule Runner](../../skills/semgrep-custom-rule-runner-2/) | ⭐ 4.7 | 0 | `clawhub install semgrep-custom-rule-runner-2` |
+| [Codecov Diff Analyzer](../../skills/codecov-diff-analyzer/) | ⭐ 4.6 | 0 | `clawhub install codecov-diff-analyzer` |
+| [Cookiecutter Project Scaffold](../../skills/cookiecutter-project-scaffold/) | ⭐ 4.6 | 0 | `clawhub install cookiecutter-project-scaffold` |
+| [Cookiecutter Project Template Engine](../../skills/cookiecutter-project-template-engine/) | ⭐ 4.6 | 0 | `clawhub install cookiecutter-project-template-engine` |
+| [Netlify Site Manager](../../skills/netlify-site-manager/) | ⭐ 4.6 | 0 | `clawhub install netlify-site-manager` |
+| [Notion to PDF Knowledge Exporter](../../skills/notion-to-pdf-knowledge-exporter/) | ⭐ 4.6 | 0 | `clawhub install notion-to-pdf-knowledge-exporter` |
+| [Packer Image Builder](../../skills/packer-image-builder/) | ⭐ 4.6 | 0 | `clawhub install packer-image-builder` |
+| [Self-Improvement / Learnings Capture](../../skills/self-improvement-learnings-capture/) | ⭐ 4.6 | 0 | `clawhub install self-improvement-learnings-capture` |
+| [SonarQube Gate Checker](../../skills/sonarqube-gate-checker/) | ⭐ 4.6 | 0 | `clawhub install sonarqube-gate-checker` |
+| [SonarQube Gate Checker](../../skills/sonarqube-gate-checker-2/) | ⭐ 4.6 | 0 | `clawhub install sonarqube-gate-checker-2` |
+| [Zendesk MCP Server](../../skills/zendesk-mcp-server/) | ⭐ 4.6 | 0 | `clawhub install zendesk-mcp-server` |
+| [Azure Bicep Generator](../../skills/azure-bicep-generator/) | ⭐ 4.5 | 0 | `clawhub install azure-bicep-generator` |
+| [Cloudflare Workers Deployer](../../skills/cloudflare-workers-deployer/) | ⭐ 4.5 | 0 | `clawhub install cloudflare-workers-deployer` |
+| [Cookiecutter Project Scaffolder](../../skills/cookiecutter-project-scaffolder/) | ⭐ 4.5 | 0 | `clawhub install cookiecutter-project-scaffolder` |
+| [GitHub Actions Workflow Generator](../../skills/github-actions-workflow-generator-4/) | ⭐ 4.5 | 0 | `clawhub install github-actions-workflow-generator-4` |
+| [Postmortem Template Generator](../../skills/postmortem-template-generator/) | ⭐ 4.5 | 0 | `clawhub install postmortem-template-generator` |
+| [Prefect Workflow Agent](../../skills/prefect-workflow-agent/) | ⭐ 4.5 | 0 | `clawhub install prefect-workflow-agent` |
+| [Terraform Module Testing Framework](../../skills/terraform-module-testing-framework/) | ⭐ 4.5 | 0 | `clawhub install terraform-module-testing-framework` |
+| [Yeoman Enterprise Generator Suite](../../skills/yeoman-enterprise-generator-suite/) | ⭐ 4.5 | 0 | `clawhub install yeoman-enterprise-generator-suite` |
+| [Cookiecutter Project Scaffolder](../../skills/cookiecutter-project-scaffolder-2/) | ⭐ 4.4 | 0 | `clawhub install cookiecutter-project-scaffolder-2` |
+| [Intercom MCP Server](../../skills/intercom-mcp-server/) | ⭐ 4.4 | 0 | `clawhub install intercom-mcp-server` |
+| [Makefile Workflow Generator](../../skills/makefile-workflow-generator/) | ⭐ 4.4 | 0 | `clawhub install makefile-workflow-generator` |
+| [Fly.io Deployment Helper](../../skills/fly-io-deployment-helper/) | ⭐ 4.3 | 0 | `clawhub install fly-io-deployment-helper` |
+| [Ansible Playbook Template Library](../../skills/ansible-playbook-template-library/) | ⭐ 4.2 | 0 | `clawhub install ansible-playbook-template-library` |
+| [Cookiecutter Project Scaffolder](../../skills/cookiecutter-project-scaffolder-3/) | ⭐ 4.2 | 0 | `clawhub install cookiecutter-project-scaffolder-3` |
+| [Docker Compose Test Harness](../../skills/docker-compose-test-harness/) | ⭐ 4.2 | 0 | `clawhub install docker-compose-test-harness` |
+| [Semgrep Custom Rule Runner](../../skills/semgrep-custom-rule-runner/) | ⭐ 4.2 | 0 | `clawhub install semgrep-custom-rule-runner` |
+| [Vercel Deployment Agent](../../skills/vercel-deployment-agent/) | ⭐ 4.2 | 0 | `clawhub install vercel-deployment-agent` |
+| [Yeoman Workflow Orchestrator](../../skills/yeoman-workflow-orchestrator/) | ⭐ 4.2 | 0 | `clawhub install yeoman-workflow-orchestrator` |
+| [Bubble.io Stripe Subscription Portal Builder](../../skills/bubble-stripe-subscription-portal/) | ⭐ 4.1 | 0 | `clawhub install bubble-stripe-subscription-portal` |
+| [Cookiecutter Project Scaffolding Agent](../../skills/cookiecutter-project-scaffolding-agent/) | ⭐ 4.1 | 0 | `clawhub install cookiecutter-project-scaffolding-agent` |
+| [Plop.js Code Generator](../../skills/plopjs-code-generator/) | ⭐ 4.1 | 0 | `clawhub install plopjs-code-generator` |
+| [Terraform Module Template Engine](../../skills/terraform-module-template-engine/) | ⭐ 4.1 | 0 | `clawhub install terraform-module-template-engine` |
+| [Twitter/X Trend Monitor &#038; Thread Publisher](../../skills/twitter-x-trend-monitor-thread-publisher/) | ⭐ 4.1 | 0 | `clawhub install twitter-x-trend-monitor-thread-publisher` |
+| [Asana MCP Server](../../skills/asana-mcp-server/) | ⭐ 4.0 | 0 | `clawhub install asana-mcp-server` |
+| [ESLint Rule Auditor](../../skills/eslint-rule-auditor-2/) | ⭐ 4.0 | 0 | `clawhub install eslint-rule-auditor-2` |
+| [GitHub Actions Workflow Generator](../../skills/github-actions-workflow-generator-v2/) | ⭐ 4.0 | 0 | `clawhub install github-actions-workflow-generator-v2` |
 
 ---
 
-## Install
+## Quick Install
 
 ```bash
 # Install any skill from this category
+clawhub install <slug>
+
+# Or using npx
 npx skills add agentskillexchange/skills --skill <slug>
+
+# For a specific agent
+npx skills add agentskillexchange/skills --skill <slug> -a claude-code
+npx skills add agentskillexchange/skills --skill <slug> -a cursor
+npx skills add agentskillexchange/skills --skill <slug> -a codex
 ```
+
+---
 
 ## Related Categories
 
-- [Developer Tools](../developer-tools/)
-- [CI/CD Integrations](../ci-cd-integrations/)
-- [Integrations & Connectors](../integrations-connectors/)
-- [Code Quality & Review](../code-quality-review/)
+- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (217 skills)
+- 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (174 skills)
+- ✅ [Code Quality & Review](../code-quality-review/) (131 skills)
+- 🛠️ [Developer Tools](../developer-tools/) (118 skills)
+
+---
+
+[← Back to all categories](../)
+

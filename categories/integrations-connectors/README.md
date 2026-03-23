@@ -1,71 +1,88 @@
-# Integrations & Connectors
+# 🔗 Integrations & Connectors
 
-> Third-party connectors, webhook handlers, and API bridges to link your tools together.
+> **45 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=integrations-connectors)
 
-**[Browse on the web →](https://agentskillexchange.com/browse-skills/?category=integrations-connectors)**
-
-**41 skills** · Part of [Agent Skill Exchange](https://github.com/agentskillexchange/skills)
+Third-party API bridges, webhook handlers, service connectors, and platform integrations.
 
 ---
 
 ## Skills
 
-| Skill | Rating | Reviews | Framework | Verified |
-|-------|--------|---------|-----------|----------|
-| [Zapier Webhook Integration Builder](../../skills/zapier-webhook-integration-builder/SKILL.md) | ⭐ 4.9 | 58 | Cursor | 🛡️ |
-| [Terraform Cloud Run Inspector](../../skills/terraform-cloud-run-inspector-2/SKILL.md) | ⭐ 4.9 | 65 | OpenClaw | 🛡️ |
-| [SageMaker Pipeline Orchestrator](../../skills/sagemaker-pipeline-orchestrator/SKILL.md) | ⭐ 4.9 | 44 | Codex | 🛡️ |
-| [Stripe Revenue Reconciliation Agent](../../skills/stripe-revenue-reconciliation-agent-2/SKILL.md) | ⭐ 4.9 | 11 | Cursor | 🛡️ |
-| [Linear Issue Triage & Sprint Planner](../../skills/linear-issue-triage-sprint-planner-2/SKILL.md) | ⭐ 4.9 | 47 | MCP | 🛡️ |
-| [Stripe Connect Integration](../../skills/stripe-connect-integration/SKILL.md) | ⭐ 4.8 | 25 | Multi-Framework | 🛡️ |
-| [ArgoCD Sync Status Monitor](../../skills/argocd-sync-status-monitor-5/SKILL.md) | ⭐ 4.8 | 36 | OpenClaw | 🛡️ |
-| [Zapier Multi-Step Lead Enrichment Workflow](../../skills/zapier-lead-enrichment-workflow/SKILL.md) | ⭐ 4.8 | 48 | MCP | 🛡️ |
-| [GitHub Discussions Community Digest](../../skills/github-discussions-community-digest/SKILL.md) | ⭐ 4.8 | 31 | OpenClaw | 🛡️ |
-| [Xero Accounting Agent](../../skills/xero-accounting-agent/SKILL.md) | ⭐ 4.8 | 46 | MCP | 🛡️ |
-| [ClawHub Skill Discovery & Publishing](../../skills/clawhub-skill-discovery-publishing/SKILL.md) | ⭐ 4.8 | 52 | Claude Code | 🛡️ |
-| [Twilio SMS & Voice Bridge](../../skills/twilio-sms-voice-bridge/SKILL.md) | ⭐ 4.7 | 86 | Claude Code | 🛡️ |
-| [GitHub Actions Workflow Debugger](../../skills/github-actions-workflow-debugger-2/SKILL.md) | ⭐ 4.7 | 22 | MCP | 🛡️ |
-| [Make.com Airtable-to-Shopify Inventory Sync](../../skills/make-airtable-shopify-inventory-sync/SKILL.md) | ⭐ 4.7 | 13 | Codex | 🛡️ |
-| [Stripe Revenue Reconciliation Agent](../../skills/stripe-revenue-reconciliation-agent/SKILL.md) | ⭐ 4.7 | 14 | MCP | 🛡️ |
-| [Stripe Reporting Agent](../../skills/stripe-reporting-agent/SKILL.md) | ⭐ 4.7 | 85 | Multi-Framework | 🛡️ |
-| [Neon Serverless Postgres MCP](../../skills/neon-serverless-postgres-mcp/SKILL.md) | ⭐ 4.7 | 49 | Cursor | 🛡️ |
-| [Notion Database Sync & Page Generator](../../skills/notion-database-sync-page-generator/SKILL.md) | ⭐ 4.6 | 5 | Claude Code | 🛡️ |
-| [Twilio MCP Server](../../skills/twilio-mcp-server/SKILL.md) | ⭐ 4.6 | 79 | OpenClaw | 🛡️ |
-| [Google Drive MCP Server](../../skills/google-drive-mcp-server/SKILL.md) | ⭐ 4.6 | 10 | MCP | 🛡️ |
-| [Stripe Payment Flow Connector](../../skills/stripe-payment-flow-connector/SKILL.md) | ⭐ 4.5 | 80 | Codex | 🛡️ |
-| [Plaid Financial Data](../../skills/plaid-financial-data/SKILL.md) | ⭐ 4.5 | 33 | Claude Code | 🛡️ |
-| [AWS S3 & SQS Pipeline Connector](../../skills/aws-s3-sqs-pipeline-connector/SKILL.md) | ⭐ 4.4 | 39 | Cursor | 🛡️ |
-| [Stripe Payments Connector](../../skills/stripe-payments-connector/SKILL.md) | ⭐ 4.4 | 66 | OpenClaw | 🛡️ |
-| [GitLab CI Pipeline Optimizer](../../skills/gitlab-ci-pipeline-optimizer-5/SKILL.md) | ⭐ 4.4 | 5 | Codex | 🛡️ |
-| [SendGrid MCP Server](../../skills/sendgrid-mcp-server/SKILL.md) | ⭐ 4.4 | 79 | Claude Code | 🛡️ |
-| [HubSpot MCP Server](../../skills/hubspot-mcp-server/SKILL.md) | ⭐ 4.4 | 67 | MCP | 🛡️ |
-| [Terraform Cloud Run Inspector](../../skills/terraform-cloud-run-inspector/SKILL.md) | ⭐ 4.3 | 45 | OpenClaw | 🛡️ |
-| [ArgoCD Sync Status Monitor](../../skills/argocd-sync-status-monitor-4/SKILL.md) | ⭐ 4.3 | 41 | Claude Code | 🛡️ |
-| [AssemblyAI Real-Time Call Intelligence](../../skills/assemblyai-realtime-call-intelligence/SKILL.md) | ⭐ 4.3 | 56 | Cursor | 🛡️ |
-| [Notion Database Sync & Page Generator](../../skills/notion-database-sync-page-generator-2/SKILL.md) | ⭐ 4.3 | 80 | OpenClaw | 🛡️ |
-| [Slack Channel Summarizer & Triage Bot](../../skills/slack-channel-summarizer-triage-2/SKILL.md) | ⭐ 4.3 | 9 | MCP | 🛡️ |
-| [Stripe MCP Server](../../skills/stripe-mcp-server/SKILL.md) | ⭐ 4.3 | 44 | OpenClaw | 🛡️ |
-| [Salesforce CRM Sync Agent](../../skills/salesforce-crm-sync-agent/SKILL.md) | ⭐ 4.2 | 67 | Multi-Framework | 🛡️ |
-| [GitHub Actions Workflow Debugger](../../skills/github-actions-workflow-debugger-3/SKILL.md) | ⭐ 4.2 | 40 | Cursor | 🛡️ |
-| [GitLab CI Pipeline Optimizer](../../skills/gitlab-ci-pipeline-optimizer-4/SKILL.md) | ⭐ 4.2 | 14 | Codex | 🛡️ |
-| [Slack Channel Summarizer & Triage Bot](../../skills/slack-channel-summarizer-triage/SKILL.md) | ⭐ 4.2 | 50 | Codex | 🛡️ |
-| [Datadog Integration Connector](../../skills/datadog-integration-connector-agent/SKILL.md) | ⭐ 4.1 | 86 | MCP | 🛡️ |
-| [QuickBooks Data Extractor](../../skills/quickbooks-data-extractor/SKILL.md) | ⭐ 4.1 | 67 | OpenClaw | 🛡️ |
-| [Salesforce MCP Server](../../skills/salesforce-mcp-server/SKILL.md) | ⭐ 4.1 | 15 | Codex | 🛡️ |
-| [Linear Issue Triage & Sprint Planner](../../skills/linear-issue-triage-sprint-planner/SKILL.md) | ⭐ 4.0 | 4 | Multi-Framework | 🛡️ |
+| Skill | Rating | Reviews | Install |
+|-------|:------:|:-------:|---------|
+| [Linear Issue Triage &#038; Sprint Planner](../../skills/linear-issue-triage-sprint-planner-2/) | ⭐ 4.9 | 0 | `clawhub install linear-issue-triage-sprint-planner-2` |
+| [SageMaker Pipeline Orchestrator](../../skills/sagemaker-pipeline-orchestrator/) | ⭐ 4.9 | 0 | `clawhub install sagemaker-pipeline-orchestrator` |
+| [Stripe Revenue Reconciliation Agent](../../skills/stripe-revenue-reconciliation-agent-2/) | ⭐ 4.9 | 0 | `clawhub install stripe-revenue-reconciliation-agent-2` |
+| [Terraform Cloud Run Inspector](../../skills/terraform-cloud-run-inspector-2/) | ⭐ 4.9 | 0 | `clawhub install terraform-cloud-run-inspector-2` |
+| [Zapier Webhook Integration Builder](../../skills/zapier-webhook-integration-builder/) | ⭐ 4.9 | 0 | `clawhub install zapier-webhook-integration-builder` |
+| [ArgoCD Sync Status Monitor](../../skills/argocd-sync-status-monitor-5/) | ⭐ 4.8 | 0 | `clawhub install argocd-sync-status-monitor-5` |
+| [ClawHub Skill Discovery &#038; Publishing](../../skills/clawhub-skill-discovery-publishing/) | ⭐ 4.8 | 0 | `clawhub install clawhub-skill-discovery-publishing` |
+| [GitHub Discussions Community Digest](../../skills/github-discussions-community-digest/) | ⭐ 4.8 | 0 | `clawhub install github-discussions-community-digest` |
+| [SendGrid Transactional Email Router](../../skills/sendgrid-transactional-email-router/) | ⭐ 4.8 | 0 | `clawhub install sendgrid-transactional-email-router` |
+| [Stripe Connect Integration](../../skills/stripe-connect-integration/) | ⭐ 4.8 | 0 | `clawhub install stripe-connect-integration` |
+| [Twilio Programmable SMS Gateway](../../skills/twilio-programmable-sms-gateway/) | ⭐ 4.8 | 0 | `clawhub install twilio-programmable-sms-gateway` |
+| [Xero Accounting Agent](../../skills/xero-accounting-agent/) | ⭐ 4.8 | 0 | `clawhub install xero-accounting-agent` |
+| [Zapier Multi-Step Lead Enrichment Workflow](../../skills/zapier-lead-enrichment-workflow/) | ⭐ 4.8 | 0 | `clawhub install zapier-lead-enrichment-workflow` |
+| [GitHub Actions Workflow Debugger](../../skills/github-actions-workflow-debugger-2/) | ⭐ 4.7 | 0 | `clawhub install github-actions-workflow-debugger-2` |
+| [Make.com Airtable-to-Shopify Inventory Sync](../../skills/make-airtable-shopify-inventory-sync/) | ⭐ 4.7 | 0 | `clawhub install make-airtable-shopify-inventory-sync` |
+| [Neon Serverless Postgres MCP](../../skills/neon-serverless-postgres-mcp/) | ⭐ 4.7 | 0 | `clawhub install neon-serverless-postgres-mcp` |
+| [Stripe Reporting Agent](../../skills/stripe-reporting-agent/) | ⭐ 4.7 | 0 | `clawhub install stripe-reporting-agent` |
+| [Stripe Revenue Reconciliation Agent](../../skills/stripe-revenue-reconciliation-agent/) | ⭐ 4.7 | 0 | `clawhub install stripe-revenue-reconciliation-agent` |
+| [Twilio SMS &#038; Voice Bridge](../../skills/twilio-sms-voice-bridge/) | ⭐ 4.7 | 0 | `clawhub install twilio-sms-voice-bridge` |
+| [Google Drive MCP Server](../../skills/google-drive-mcp-server/) | ⭐ 4.6 | 0 | `clawhub install google-drive-mcp-server` |
+| [Notion Database Sync &#038; Page Generator](../../skills/notion-database-sync-page-generator/) | ⭐ 4.6 | 0 | `clawhub install notion-database-sync-page-generator` |
+| [Twilio MCP Server](../../skills/twilio-mcp-server/) | ⭐ 4.6 | 0 | `clawhub install twilio-mcp-server` |
+| [Plaid Financial Data](../../skills/plaid-financial-data/) | ⭐ 4.5 | 0 | `clawhub install plaid-financial-data` |
+| [Stripe Payment Flow Connector](../../skills/stripe-payment-flow-connector/) | ⭐ 4.5 | 0 | `clawhub install stripe-payment-flow-connector` |
+| [AWS S3 &#038; SQS Pipeline Connector](../../skills/aws-s3-sqs-pipeline-connector/) | ⭐ 4.4 | 0 | `clawhub install aws-s3-sqs-pipeline-connector` |
+| [GitLab CI Pipeline Optimizer](../../skills/gitlab-ci-pipeline-optimizer-5/) | ⭐ 4.4 | 0 | `clawhub install gitlab-ci-pipeline-optimizer-5` |
+| [HubSpot MCP Server](../../skills/hubspot-mcp-server/) | ⭐ 4.4 | 0 | `clawhub install hubspot-mcp-server` |
+| [SendGrid MCP Server](../../skills/sendgrid-mcp-server/) | ⭐ 4.4 | 0 | `clawhub install sendgrid-mcp-server` |
+| [Stripe Payments Connector](../../skills/stripe-payments-connector/) | ⭐ 4.4 | 0 | `clawhub install stripe-payments-connector` |
+| [ArgoCD Sync Status Monitor](../../skills/argocd-sync-status-monitor-4/) | ⭐ 4.3 | 0 | `clawhub install argocd-sync-status-monitor-4` |
+| [AssemblyAI Real-Time Call Intelligence](../../skills/assemblyai-realtime-call-intelligence/) | ⭐ 4.3 | 0 | `clawhub install assemblyai-realtime-call-intelligence` |
+| [Notion Database Sync &#038; Page Generator](../../skills/notion-database-sync-page-generator-2/) | ⭐ 4.3 | 0 | `clawhub install notion-database-sync-page-generator-2` |
+| [Plaid Financial Data Connector](../../skills/plaid-financial-data-connector/) | ⭐ 4.3 | 0 | `clawhub install plaid-financial-data-connector` |
+| [Slack Channel Summarizer &#038; Triage Bot](../../skills/slack-channel-summarizer-triage-2/) | ⭐ 4.3 | 0 | `clawhub install slack-channel-summarizer-triage-2` |
+| [Stripe Connect Platform Bridge](../../skills/stripe-connect-platform-bridge/) | ⭐ 4.3 | 0 | `clawhub install stripe-connect-platform-bridge` |
+| [Stripe MCP Server](../../skills/stripe-mcp-server/) | ⭐ 4.3 | 0 | `clawhub install stripe-mcp-server` |
+| [Terraform Cloud Run Inspector](../../skills/terraform-cloud-run-inspector/) | ⭐ 4.3 | 0 | `clawhub install terraform-cloud-run-inspector` |
+| [GitHub Actions Workflow Debugger](../../skills/github-actions-workflow-debugger-3/) | ⭐ 4.2 | 0 | `clawhub install github-actions-workflow-debugger-3` |
+| [GitLab CI Pipeline Optimizer](../../skills/gitlab-ci-pipeline-optimizer-4/) | ⭐ 4.2 | 0 | `clawhub install gitlab-ci-pipeline-optimizer-4` |
+| [Salesforce CRM Sync Agent](../../skills/salesforce-crm-sync-agent/) | ⭐ 4.2 | 0 | `clawhub install salesforce-crm-sync-agent` |
+| [Slack Channel Summarizer &#038; Triage Bot](../../skills/slack-channel-summarizer-triage/) | ⭐ 4.2 | 0 | `clawhub install slack-channel-summarizer-triage` |
+| [Datadog Integration Connector](../../skills/datadog-integration-connector-agent/) | ⭐ 4.1 | 0 | `clawhub install datadog-integration-connector-agent` |
+| [QuickBooks Data Extractor](../../skills/quickbooks-data-extractor/) | ⭐ 4.1 | 0 | `clawhub install quickbooks-data-extractor` |
+| [Salesforce MCP Server](../../skills/salesforce-mcp-server/) | ⭐ 4.1 | 0 | `clawhub install salesforce-mcp-server` |
+| [Linear Issue Triage &#038; Sprint Planner](../../skills/linear-issue-triage-sprint-planner/) | ⭐ 4.0 | 0 | `clawhub install linear-issue-triage-sprint-planner` |
 
 ---
 
-## Install
+## Quick Install
 
 ```bash
 # Install any skill from this category
+clawhub install <slug>
+
+# Or using npx
 npx skills add agentskillexchange/skills --skill <slug>
+
+# For a specific agent
+npx skills add agentskillexchange/skills --skill <slug> -a claude-code
+npx skills add agentskillexchange/skills --skill <slug> -a cursor
+npx skills add agentskillexchange/skills --skill <slug> -a codex
 ```
+
+---
 
 ## Related Categories
 
-- [Developer Tools](../developer-tools/)
-- [Data Extraction & Transformation](../data-extraction-transformation/)
-- [Templates & Workflows](../templates-workflows/)
-- [Monitoring & Alerts](../monitoring-alerts/)
+- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (217 skills)
+- 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (174 skills)
+- ✅ [Code Quality & Review](../code-quality-review/) (131 skills)
+- 🛠️ [Developer Tools](../developer-tools/) (118 skills)
+
+---
+
+[← Back to all categories](../)
+

@@ -1,49 +1,66 @@
-# Media & Transcription
+# 🎙️ Media & Transcription
 
-> Audio transcription, video processing, and media conversion tools for multimedia workflows.
+> **23 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=media-transcription)
 
-**[Browse on the web →](https://agentskillexchange.com/browse-skills/?category=media-transcription)**
-
-**19 skills** · Part of [Agent Skill Exchange](https://github.com/agentskillexchange/skills)
+Audio/video processing, speech-to-text, media conversion, and transcription.
 
 ---
 
 ## Skills
 
-| Skill | Rating | Reviews | Framework | Verified |
-|-------|--------|---------|-----------|----------|
-| [Audio Fingerprint Identifier](../../skills/audio-fingerprint-identifier-agent/SKILL.md) | ⭐ 4.9 | 77 | OpenClaw | 🛡️ |
-| [Whisper.cpp Real-Time Transcription Pipeline](../../skills/whisper-cpp-realtime-transcription-pipeline/SKILL.md) | ⭐ 4.9 | 15 | Claude Code | 🛡️ |
-| [Summarize](../../skills/summarize/SKILL.md) | ⭐ 4.9 | 33 | OpenClaw | 🛡️ |
-| [AssemblyAI Summarization & Chapters Skill](../../skills/assemblyai-summarization-chapters-skill/SKILL.md) | ⭐ 4.8 | 82 | Claude Code | 🛡️ |
-| [Deepgram Podcast Chapter Generator](../../skills/deepgram-podcast-chapter-generator/SKILL.md) | ⭐ 4.8 | 21 | Multi-Framework | 🛡️ |
-| [Live Stream Clip Extractor](../../skills/live-stream-clip-extractor-agent/SKILL.md) | ⭐ 4.7 | 54 | ChatGPT Agents | 🛡️ |
-| [FFmpeg Audio Normalization Pipeline](../../skills/ffmpeg-audio-normalization-pipeline/SKILL.md) | ⭐ 4.7 | 56 | MCP | 🛡️ |
-| [Video Frames Extractor](../../skills/video-frames-extractor/SKILL.md) | ⭐ 4.7 | 58 | MCP | 🛡️ |
-| [Podcast Transcription Pipeline](../../skills/podcast-transcription-pipeline-agent/SKILL.md) | ⭐ 4.5 | 59 | Codex | 🛡️ |
-| [YouTube Chapters Generator with Whisper](../../skills/youtube-chapters-generator-whisper/SKILL.md) | ⭐ 4.5 | 75 | Multi-Framework | 🛡️ |
-| [OpenAI Whisper API Transcription](../../skills/openai-whisper-api-transcription/SKILL.md) | ⭐ 4.5 | 62 | OpenClaw | 🛡️ |
-| [Whisper.cpp Local Transcription Engine](../../skills/whisper-cpp-local-transcription-engine/SKILL.md) | ⭐ 4.4 | 63 | OpenClaw | 🛡️ |
-| [ElevenLabs Voiceover Generator for Long-Form Content](../../skills/elevenlabs-voiceover-longform/SKILL.md) | ⭐ 4.4 | 83 | Multi-Framework | 🛡️ |
-| [SoX Audio Processing Toolkit](../../skills/sox-audio-processing-toolkit/SKILL.md) | ⭐ 4.3 | 56 | Claude Code | 🛡️ |
-| [Video Subtitle Auto-Translator](../../skills/video-subtitle-auto-translator-agent/SKILL.md) | ⭐ 4.1 | 22 | Cursor | 🛡️ |
-| [GStreamer Live Stream Transcoder](../../skills/gstreamer-live-stream-transcoder/SKILL.md) | ⭐ 4.1 | 58 | Codex | 🛡️ |
-| [Deepgram Real-Time Transcription Connector](../../skills/deepgram-realtime-transcription-connector/SKILL.md) | ⭐ 4.1 | 50 | Multi-Framework | 🛡️ |
-| [OpenAI Whisper Batch Transcription Pipeline](../../skills/whisper-batch-transcription-pipeline/SKILL.md) | ⭐ 4.1 | 3 | Claude Code | 🛡️ |
-| [OpenAI Whisper Transcription](../../skills/openai-whisper-transcription/SKILL.md) | ⭐ 4.1 | 78 | Codex | 🛡️ |
+| Skill | Rating | Reviews | Install |
+|-------|:------:|:-------:|---------|
+| [Audio Fingerprint Identifier](../../skills/audio-fingerprint-identifier-agent/) | ⭐ 4.9 | 0 | `clawhub install audio-fingerprint-identifier-agent` |
+| [Summarize](../../skills/summarize/) | ⭐ 4.9 | 0 | `clawhub install summarize` |
+| [Whisper.cpp Real-Time Transcription Pipeline](../../skills/whisper-cpp-realtime-transcription-pipeline/) | ⭐ 4.9 | 0 | `clawhub install whisper-cpp-realtime-transcription-pipeline` |
+| [YouTube Chapter Generator from Transcripts](../../skills/youtube-chapter-generator-transcripts/) | ⭐ 4.9 | 0 | `clawhub install youtube-chapter-generator-transcripts` |
+| [AssemblyAI Summarization &#038; Chapters Skill](../../skills/assemblyai-summarization-chapters-skill/) | ⭐ 4.8 | 0 | `clawhub install assemblyai-summarization-chapters-skill` |
+| [Deepgram Podcast Chapter Generator](../../skills/deepgram-podcast-chapter-generator/) | ⭐ 4.8 | 0 | `clawhub install deepgram-podcast-chapter-generator` |
+| [Whisper Diarization Post-Processor](../../skills/whisper-diarization-post-processor/) | ⭐ 4.8 | 0 | `clawhub install whisper-diarization-post-processor` |
+| [FFmpeg Audio Normalization Pipeline](../../skills/ffmpeg-audio-normalization-pipeline/) | ⭐ 4.7 | 0 | `clawhub install ffmpeg-audio-normalization-pipeline` |
+| [Live Stream Clip Extractor](../../skills/live-stream-clip-extractor-agent/) | ⭐ 4.7 | 0 | `clawhub install live-stream-clip-extractor-agent` |
+| [Video Frames Extractor](../../skills/video-frames-extractor/) | ⭐ 4.7 | 0 | `clawhub install video-frames-extractor` |
+| [OpenAI Whisper API Transcription](../../skills/openai-whisper-api-transcription/) | ⭐ 4.5 | 0 | `clawhub install openai-whisper-api-transcription` |
+| [Podcast Transcription Pipeline](../../skills/podcast-transcription-pipeline-agent/) | ⭐ 4.5 | 0 | `clawhub install podcast-transcription-pipeline-agent` |
+| [YouTube Chapters Generator with Whisper](../../skills/youtube-chapters-generator-whisper/) | ⭐ 4.5 | 0 | `clawhub install youtube-chapters-generator-whisper` |
+| [ElevenLabs Voiceover Generator for Long-Form Content](../../skills/elevenlabs-voiceover-longform/) | ⭐ 4.4 | 0 | `clawhub install elevenlabs-voiceover-longform` |
+| [FFmpeg Batch Transcode Pipeline](../../skills/ffmpeg-batch-transcode-pipeline/) | ⭐ 4.4 | 0 | `clawhub install ffmpeg-batch-transcode-pipeline` |
+| [Whisper.cpp Local Transcription Engine](../../skills/whisper-cpp-local-transcription-engine/) | ⭐ 4.4 | 0 | `clawhub install whisper-cpp-local-transcription-engine` |
+| [Podcast RSS Feed Audio Normalizer](../../skills/podcast-rss-feed-audio-normalizer/) | ⭐ 4.3 | 0 | `clawhub install podcast-rss-feed-audio-normalizer` |
+| [SoX Audio Processing Toolkit](../../skills/sox-audio-processing-toolkit/) | ⭐ 4.3 | 0 | `clawhub install sox-audio-processing-toolkit` |
+| [Deepgram Real-Time Transcription Connector](../../skills/deepgram-realtime-transcription-connector/) | ⭐ 4.1 | 0 | `clawhub install deepgram-realtime-transcription-connector` |
+| [GStreamer Live Stream Transcoder](../../skills/gstreamer-live-stream-transcoder/) | ⭐ 4.1 | 0 | `clawhub install gstreamer-live-stream-transcoder` |
+| [OpenAI Whisper Batch Transcription Pipeline](../../skills/whisper-batch-transcription-pipeline/) | ⭐ 4.1 | 0 | `clawhub install whisper-batch-transcription-pipeline` |
+| [OpenAI Whisper Transcription](../../skills/openai-whisper-transcription/) | ⭐ 4.1 | 0 | `clawhub install openai-whisper-transcription` |
+| [Video Subtitle Auto-Translator](../../skills/video-subtitle-auto-translator-agent/) | ⭐ 4.1 | 0 | `clawhub install video-subtitle-auto-translator-agent` |
 
 ---
 
-## Install
+## Quick Install
 
 ```bash
 # Install any skill from this category
+clawhub install <slug>
+
+# Or using npx
 npx skills add agentskillexchange/skills --skill <slug>
+
+# For a specific agent
+npx skills add agentskillexchange/skills --skill <slug> -a claude-code
+npx skills add agentskillexchange/skills --skill <slug> -a cursor
+npx skills add agentskillexchange/skills --skill <slug> -a codex
 ```
+
+---
 
 ## Related Categories
 
-- [Content Writing & SEO](../content-writing-seo/)
-- [Image & Creative Automation](../image-creative-automation/)
-- [Research & Scraping](../research-scraping/)
-- [Data Extraction & Transformation](../data-extraction-transformation/)
+- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (217 skills)
+- 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (174 skills)
+- ✅ [Code Quality & Review](../code-quality-review/) (131 skills)
+- 🛠️ [Developer Tools](../developer-tools/) (118 skills)
+
+---
+
+[← Back to all categories](../)
+
