@@ -1,6 +1,6 @@
 # 📊 Monitoring & Alerts
 
-> **76 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=monitoring-alerts)
+> **80 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=monitoring-alerts)
 
 Metrics collection, alerting rules, observability setup, and system monitoring.
 
@@ -18,6 +18,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [New Relic NRQL Query Agent](../../skills/new-relic-nrql-query-agent/) | ⭐ 4.9 | 0 | `clawhub install new-relic-nrql-query-agent` |
 | [PagerDuty Incident Escalator](../../skills/pagerduty-incident-escalator/) | ⭐ 4.9 | 0 | `clawhub install pagerduty-incident-escalator` |
 | [PagerDuty Incident Orchestrator](../../skills/pagerduty-incident-orchestrator/) | ⭐ 4.9 | 0 | `clawhub install pagerduty-incident-orchestrator` |
+| [PagerDuty Incident Orchestrator](../../skills/pagerduty-incident-orchestrator-2/) | ⭐ 4.9 | 0 | `clawhub install pagerduty-incident-orchestrator-2` |
 | [Prometheus Alert Rule Generator](../../skills/prometheus-alert-rule-generator-2/) | ⭐ 4.9 | 0 | `clawhub install prometheus-alert-rule-generator-2` |
 | [Prometheus Alertmanager Bridge](../../skills/prometheus-alertmanager-bridge-2/) | ⭐ 4.9 | 0 | `clawhub install prometheus-alertmanager-bridge-2` |
 | [Prometheus AlertManager Rule Builder](../../skills/prometheus-alertmanager-rule-builder/) | ⭐ 4.9 | 0 | `clawhub install prometheus-alertmanager-rule-builder` |
@@ -33,6 +34,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [OpenTelemetry Collector Pipeline Designer](../../skills/otel-collector-pipeline-designer/) | ⭐ 4.8 | 0 | `clawhub install otel-collector-pipeline-designer` |
 | [Prometheus Alert Rule Generator](../../skills/prometheus-alert-rule-generator/) | ⭐ 4.8 | 0 | `clawhub install prometheus-alert-rule-generator` |
 | [Prometheus AlertManager Router](../../skills/prometheus-alertmanager-router/) | ⭐ 4.8 | 0 | `clawhub install prometheus-alertmanager-router` |
+| [Prometheus AlertManager Rules Engine](../../skills/prometheus-alertmanager-rules-engine/) | ⭐ 4.8 | 0 | `clawhub install prometheus-alertmanager-rules-engine` |
 | [Prometheus Rule Evaluator](../../skills/prometheus-rule-evaluator/) | ⭐ 4.8 | 0 | `clawhub install prometheus-rule-evaluator` |
 | [Datadog APM Trace Query Agent](../../skills/datadog-apm-trace-query-agent/) | ⭐ 4.7 | 0 | `clawhub install datadog-apm-trace-query-agent` |
 | [Datadog SLO Monitor](../../skills/datadog-slo-monitor/) | ⭐ 4.7 | 0 | `clawhub install datadog-slo-monitor` |
@@ -42,6 +44,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Prometheus Custom Exporter Builder](../../skills/prometheus-custom-exporter-builder/) | ⭐ 4.7 | 0 | `clawhub install prometheus-custom-exporter-builder` |
 | [Uptime Robot Multi-Check Coordinator](../../skills/uptime-robot-multi-check-coordinator/) | ⭐ 4.7 | 0 | `clawhub install uptime-robot-multi-check-coordinator` |
 | [AWS CloudWatch Anomaly Detector](../../skills/aws-cloudwatch-anomaly-detector/) | ⭐ 4.6 | 0 | `clawhub install aws-cloudwatch-anomaly-detector` |
+| [Datadog APM Trace Analyzer](../../skills/datadog-apm-trace-analyzer-2/) | ⭐ 4.6 | 0 | `clawhub install datadog-apm-trace-analyzer-2` |
 | [Datadog MCP Server](../../skills/datadog-mcp-server/) | ⭐ 4.6 | 0 | `clawhub install datadog-mcp-server` |
 | [Datadog Monitor Configurator](../../skills/datadog-monitor-configurator/) | ⭐ 4.6 | 0 | `clawhub install datadog-monitor-configurator` |
 | [Grafana Dashboard Template Generator](../../skills/grafana-dashboard-template-generator/) | ⭐ 4.6 | 0 | `clawhub install grafana-dashboard-template-generator` |
@@ -66,6 +69,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Grafana Dashboard as Code Generator](../../skills/grafana-dashboard-as-code-generator/) | ⭐ 4.3 | 0 | `clawhub install grafana-dashboard-as-code-generator` |
 | [Grafana Dashboard Generator](../../skills/grafana-dashboard-generator/) | ⭐ 4.3 | 0 | `clawhub install grafana-dashboard-generator` |
 | [Grafana Dashboard Sync Agent](../../skills/grafana-dashboard-sync-agent/) | ⭐ 4.3 | 0 | `clawhub install grafana-dashboard-sync-agent` |
+| [Grafana Loki Log Correlation Agent](../../skills/grafana-loki-log-correlation-agent-2/) | ⭐ 4.3 | 0 | `clawhub install grafana-loki-log-correlation-agent-2` |
 | [Log Analysis](../../skills/log-analysis/) | ⭐ 4.3 | 0 | `clawhub install log-analysis` |
 | [OpenTelemetry Instrumentation](../../skills/opentelemetry-instrumentation/) | ⭐ 4.3 | 0 | `clawhub install opentelemetry-instrumentation` |
 | [Prometheus AlertManager Bridge](../../skills/prometheus-alertmanager-bridge/) | ⭐ 4.3 | 0 | `clawhub install prometheus-alertmanager-bridge` |
@@ -108,7 +112,7 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 ## Related Categories
 
-- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (221 skills)
+- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (225 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (174 skills)
 - ✅ [Code Quality & Review](../code-quality-review/) (131 skills)
 - 🛠️ [Developer Tools](../developer-tools/) (122 skills)

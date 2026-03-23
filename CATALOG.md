@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1328 skills** across **17 categories** · Updated 2026-03-23 09:02 UTC
+> **1340 skills** across **17 categories** · Updated 2026-03-23 10:03 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -10,7 +10,7 @@
 
 | Metric | Value |
 |--------|-------|
-| Total Skills | **1328** |
+| Total Skills | **1340** |
 | Categories | **17** |
 | Frameworks | **11** |
 | Verification | All skills **Verified Metadata** or higher |
@@ -19,7 +19,7 @@
 
 ## Skills by Category
 
-### 🔧 CI/CD Integrations (221 skills)
+### 🔧 CI/CD Integrations (225 skills)
 
 | Skill | Rating | Reviews | Install |
 |-------|:------:|:-------:|---------|
@@ -39,6 +39,7 @@
 | [GitHub Actions Matrix Builder](skills/github-actions-matrix-builder/) | ⭐ 4.9 | 0 | `clawhub install github-actions-matrix-builder` |
 | [GitHub Actions Matrix Builder](skills/github-actions-matrix-builder-2/) | ⭐ 4.9 | 0 | `clawhub install github-actions-matrix-builder-2` |
 | [GitHub Actions Matrix Builder](skills/github-actions-matrix-builder-7/) | ⭐ 4.9 | 0 | `clawhub install github-actions-matrix-builder-7` |
+| [GitHub Actions Matrix Optimizer](skills/github-actions-matrix-optimizer-5/) | ⭐ 4.9 | 0 | `clawhub install github-actions-matrix-optimizer-5` |
 | [GitHub Actions Matrix Strategy Builder](skills/github-actions-matrix-strategy-builder/) | ⭐ 4.9 | 0 | `clawhub install github-actions-matrix-strategy-builder` |
 | [GitHub Actions OIDC Token Validator](skills/github-actions-oidc-token-validator/) | ⭐ 4.9 | 0 | `clawhub install github-actions-oidc-token-validator` |
 | [GitHub Actions Workflow Generator](skills/github-actions-workflow-generator-2/) | ⭐ 4.9 | 0 | `clawhub install github-actions-workflow-generator-2` |
@@ -100,6 +101,7 @@
 | [ArgoCD Deployment Sync Skill](skills/argocd-deployment-sync-skill/) | ⭐ 4.7 | 0 | `clawhub install argocd-deployment-sync-skill` |
 | [CircleCI Orb Composer](skills/circleci-orb-composer-5/) | ⭐ 4.7 | 0 | `clawhub install circleci-orb-composer-5` |
 | [CircleCI Orb Composer](skills/circleci-orb-composer-2/) | ⭐ 4.7 | 0 | `clawhub install circleci-orb-composer-2` |
+| [CircleCI Orb Pipeline Composer](skills/circleci-orb-pipeline-composer-2/) | ⭐ 4.7 | 0 | `clawhub install circleci-orb-pipeline-composer-2` |
 | [CircleCI Workflow Builder](skills/circleci-workflow-builder/) | ⭐ 4.7 | 0 | `clawhub install circleci-workflow-builder` |
 | [Docker Build Cache Optimizer](skills/docker-build-cache-optimizer-3/) | ⭐ 4.7 | 0 | `clawhub install docker-build-cache-optimizer-3` |
 | [Docker Build Cache Optimizer](skills/docker-build-cache-optimizer-2/) | ⭐ 4.7 | 0 | `clawhub install docker-build-cache-optimizer-2` |
@@ -123,6 +125,7 @@
 | [Terraform Plan Reviewer](skills/terraform-plan-reviewer-2/) | ⭐ 4.7 | 0 | `clawhub install terraform-plan-reviewer-2` |
 | [ArgoCD Deployment Monitor](skills/argocd-deployment-monitor/) | ⭐ 4.6 | 0 | `clawhub install argocd-deployment-monitor` |
 | [ArgoCD Sync Status Monitor](skills/argocd-sync-status-monitor/) | ⭐ 4.6 | 0 | `clawhub install argocd-sync-status-monitor` |
+| [Buildkite Dynamic Pipeline Agent](skills/buildkite-dynamic-pipeline-agent/) | ⭐ 4.6 | 0 | `clawhub install buildkite-dynamic-pipeline-agent` |
 | [CircleCI Orb Composer](skills/circleci-orb-composer-11/) | ⭐ 4.6 | 0 | `clawhub install circleci-orb-composer-11` |
 | [CircleCI Orb Configurator](skills/circleci-orb-configurator-2/) | ⭐ 4.6 | 0 | `clawhub install circleci-orb-configurator-2` |
 | [CircleCI Orb Dependency Scanner](skills/circleci-orb-dependency-scanner/) | ⭐ 4.6 | 0 | `clawhub install circleci-orb-dependency-scanner` |
@@ -243,6 +246,7 @@
 | [GitHub Actions Matrix Builder](skills/github-actions-matrix-builder-4/) | ⭐ 4.0 | 0 | `clawhub install github-actions-matrix-builder-4` |
 | [GitLab CI Pipeline Dependency Tracer](skills/gitlab-ci-pipeline-dependency-tracer/) | ⭐ 4.0 | 0 | `clawhub install gitlab-ci-pipeline-dependency-tracer` |
 | [GitLab CI Pipeline Optimizer](skills/gitlab-ci-pipeline-optimizer-6/) | ⭐ 4.0 | 0 | `clawhub install gitlab-ci-pipeline-optimizer-6` |
+| [Tekton Pipeline Task Generator](skills/tekton-pipeline-task-generator/) | ⭐ 4.0 | 0 | `clawhub install tekton-pipeline-task-generator` |
 | [Terraform Plan Validator](skills/terraform-plan-validator/) | ⭐ 4.0 | 0 | `clawhub install terraform-plan-validator` |
 
 ### 📋 Runbooks & Diagnostics (174 skills)
@@ -687,12 +691,13 @@
 | [MinIO Object Storage](skills/minio-object-storage/) | ⭐ 4.0 | 0 | `clawhub install minio-object-storage` |
 | [Together AI MCP Server](skills/together-ai-mcp-server/) | ⭐ 4.0 | 0 | `clawhub install together-ai-mcp-server` |
 
-### 📚 Library & API Reference (94 skills)
+### 📚 Library & API Reference (98 skills)
 
 | Skill | Rating | Reviews | Install |
 |-------|:------:|:-------:|---------|
 | [Anthropic SDK Token Usage Logger](skills/anthropic-sdk-token-usage-logger/) | ⭐ 4.9 | 0 | `clawhub install anthropic-sdk-token-usage-logger` |
 | [API Documentation Indexer](skills/api-documentation-indexer/) | ⭐ 4.9 | 0 | `clawhub install api-documentation-indexer` |
+| [AsyncAPI Event Catalog Generator](skills/asyncapi-event-catalog-generator/) | ⭐ 4.9 | 0 | `clawhub install asyncapi-event-catalog-generator` |
 | [Doxygen Cross-Reference Indexer](skills/doxygen-cross-reference-indexer/) | ⭐ 4.9 | 0 | `clawhub install doxygen-cross-reference-indexer` |
 | [GraphQL Schema Analyzer](skills/graphql-schema-analyzer/) | ⭐ 4.9 | 0 | `clawhub install graphql-schema-analyzer` |
 | [GraphQL Schema Documentation Builder](skills/graphql-schema-documentation-builder/) | ⭐ 4.9 | 0 | `clawhub install graphql-schema-documentation-builder` |
@@ -716,6 +721,7 @@
 | [OpenAPI Spec Linter &#038; Docs Generator](skills/openapi-spec-linter-docs-generator/) | ⭐ 4.8 | 0 | `clawhub install openapi-spec-linter-docs-generator` |
 | [OpenAPI Spec Reference Generator](skills/openapi-spec-reference-generator-2/) | ⭐ 4.8 | 0 | `clawhub install openapi-spec-reference-generator-2` |
 | [OpenAPI Specification Validator](skills/openapi-specification-validator-agent/) | ⭐ 4.8 | 0 | `clawhub install openapi-specification-validator-agent` |
+| [Protocol Buffers Documentation Compiler](skills/protobuf-documentation-compiler/) | ⭐ 4.8 | 0 | `clawhub install protobuf-documentation-compiler` |
 | [Python Docstring Linter](skills/python-docstring-linter-ast-pydocstyle/) | ⭐ 4.8 | 0 | `clawhub install python-docstring-linter-ast-pydocstyle` |
 | [Python Package Docs Fetcher](skills/python-package-docs-fetcher/) | ⭐ 4.8 | 0 | `clawhub install python-package-docs-fetcher` |
 | [Webhook Event Catalog](skills/webhook-event-catalog/) | ⭐ 4.8 | 0 | `clawhub install webhook-event-catalog` |
@@ -745,6 +751,7 @@
 | [REST API Response Schema Validator](skills/rest-api-response-schema-validator/) | ⭐ 4.6 | 0 | `clawhub install rest-api-response-schema-validator` |
 | [REST API Test Suite Generator](skills/rest-api-test-suite-generator/) | ⭐ 4.6 | 0 | `clawhub install rest-api-test-suite-generator` |
 | [TypeDoc Symbol Resolver](skills/typedoc-symbol-resolver/) | ⭐ 4.6 | 0 | `clawhub install typedoc-symbol-resolver` |
+| [GraphQL Schema Introspection Analyzer](skills/graphql-schema-introspection-analyzer-2/) | ⭐ 4.5 | 0 | `clawhub install graphql-schema-introspection-analyzer-2` |
 | [NPM Package API Surface Extractor](skills/npm-package-api-surface-extractor/) | ⭐ 4.5 | 0 | `clawhub install npm-package-api-surface-extractor` |
 | [NPM Package Dependency Analyzer](skills/npm-package-dependency-analyzer/) | ⭐ 4.5 | 0 | `clawhub install npm-package-dependency-analyzer` |
 | [NPM Package Explorer](skills/npm-package-explorer-registry-api/) | ⭐ 4.5 | 0 | `clawhub install npm-package-explorer-registry-api` |
@@ -757,6 +764,7 @@
 | [NPM Package Audit Analyzer](skills/npm-package-audit-analyzer/) | ⭐ 4.4 | 0 | `clawhub install npm-package-audit-analyzer` |
 | [NPM Package Audit Reference](skills/npm-package-audit-reference/) | ⭐ 4.4 | 0 | `clawhub install npm-package-audit-reference` |
 | [OpenAPI Spec Reference Indexer](skills/openapi-spec-reference-indexer-3/) | ⭐ 4.4 | 0 | `clawhub install openapi-spec-reference-indexer-3` |
+| [OpenAPI Spec Validator &#038; Mock Server](skills/openapi-spec-validator-mock-server-2/) | ⭐ 4.4 | 0 | `clawhub install openapi-spec-validator-mock-server-2` |
 | [Protobuf Schema Registry Manager](skills/protobuf-schema-registry-manager/) | ⭐ 4.4 | 0 | `clawhub install protobuf-schema-registry-manager` |
 | [Python Docstring Extractor](skills/python-docstring-extractor-2/) | ⭐ 4.4 | 0 | `clawhub install python-docstring-extractor-2` |
 | [REST API Documentation Generator](skills/rest-api-doc-generator-openapi/) | ⭐ 4.4 | 0 | `clawhub install rest-api-doc-generator-openapi` |
@@ -786,7 +794,7 @@
 | [OpenAPI Spec Navigator](skills/openapi-spec-navigator/) | ⭐ 4.0 | 0 | `clawhub install openapi-spec-navigator` |
 | [Python Dependency Graph Resolver](skills/python-dependency-graph-resolver/) | ⭐ 4.0 | 0 | `clawhub install python-dependency-graph-resolver` |
 
-### 📊 Monitoring & Alerts (76 skills)
+### 📊 Monitoring & Alerts (80 skills)
 
 | Skill | Rating | Reviews | Install |
 |-------|:------:|:-------:|---------|
@@ -798,6 +806,7 @@
 | [New Relic NRQL Query Agent](skills/new-relic-nrql-query-agent/) | ⭐ 4.9 | 0 | `clawhub install new-relic-nrql-query-agent` |
 | [PagerDuty Incident Escalator](skills/pagerduty-incident-escalator/) | ⭐ 4.9 | 0 | `clawhub install pagerduty-incident-escalator` |
 | [PagerDuty Incident Orchestrator](skills/pagerduty-incident-orchestrator/) | ⭐ 4.9 | 0 | `clawhub install pagerduty-incident-orchestrator` |
+| [PagerDuty Incident Orchestrator](skills/pagerduty-incident-orchestrator-2/) | ⭐ 4.9 | 0 | `clawhub install pagerduty-incident-orchestrator-2` |
 | [Prometheus Alert Rule Generator](skills/prometheus-alert-rule-generator-2/) | ⭐ 4.9 | 0 | `clawhub install prometheus-alert-rule-generator-2` |
 | [Prometheus Alertmanager Bridge](skills/prometheus-alertmanager-bridge-2/) | ⭐ 4.9 | 0 | `clawhub install prometheus-alertmanager-bridge-2` |
 | [Prometheus AlertManager Rule Builder](skills/prometheus-alertmanager-rule-builder/) | ⭐ 4.9 | 0 | `clawhub install prometheus-alertmanager-rule-builder` |
@@ -813,6 +822,7 @@
 | [OpenTelemetry Collector Pipeline Designer](skills/otel-collector-pipeline-designer/) | ⭐ 4.8 | 0 | `clawhub install otel-collector-pipeline-designer` |
 | [Prometheus Alert Rule Generator](skills/prometheus-alert-rule-generator/) | ⭐ 4.8 | 0 | `clawhub install prometheus-alert-rule-generator` |
 | [Prometheus AlertManager Router](skills/prometheus-alertmanager-router/) | ⭐ 4.8 | 0 | `clawhub install prometheus-alertmanager-router` |
+| [Prometheus AlertManager Rules Engine](skills/prometheus-alertmanager-rules-engine/) | ⭐ 4.8 | 0 | `clawhub install prometheus-alertmanager-rules-engine` |
 | [Prometheus Rule Evaluator](skills/prometheus-rule-evaluator/) | ⭐ 4.8 | 0 | `clawhub install prometheus-rule-evaluator` |
 | [Datadog APM Trace Query Agent](skills/datadog-apm-trace-query-agent/) | ⭐ 4.7 | 0 | `clawhub install datadog-apm-trace-query-agent` |
 | [Datadog SLO Monitor](skills/datadog-slo-monitor/) | ⭐ 4.7 | 0 | `clawhub install datadog-slo-monitor` |
@@ -822,6 +832,7 @@
 | [Prometheus Custom Exporter Builder](skills/prometheus-custom-exporter-builder/) | ⭐ 4.7 | 0 | `clawhub install prometheus-custom-exporter-builder` |
 | [Uptime Robot Multi-Check Coordinator](skills/uptime-robot-multi-check-coordinator/) | ⭐ 4.7 | 0 | `clawhub install uptime-robot-multi-check-coordinator` |
 | [AWS CloudWatch Anomaly Detector](skills/aws-cloudwatch-anomaly-detector/) | ⭐ 4.6 | 0 | `clawhub install aws-cloudwatch-anomaly-detector` |
+| [Datadog APM Trace Analyzer](skills/datadog-apm-trace-analyzer-2/) | ⭐ 4.6 | 0 | `clawhub install datadog-apm-trace-analyzer-2` |
 | [Datadog MCP Server](skills/datadog-mcp-server/) | ⭐ 4.6 | 0 | `clawhub install datadog-mcp-server` |
 | [Datadog Monitor Configurator](skills/datadog-monitor-configurator/) | ⭐ 4.6 | 0 | `clawhub install datadog-monitor-configurator` |
 | [Grafana Dashboard Template Generator](skills/grafana-dashboard-template-generator/) | ⭐ 4.6 | 0 | `clawhub install grafana-dashboard-template-generator` |
@@ -846,6 +857,7 @@
 | [Grafana Dashboard as Code Generator](skills/grafana-dashboard-as-code-generator/) | ⭐ 4.3 | 0 | `clawhub install grafana-dashboard-as-code-generator` |
 | [Grafana Dashboard Generator](skills/grafana-dashboard-generator/) | ⭐ 4.3 | 0 | `clawhub install grafana-dashboard-generator` |
 | [Grafana Dashboard Sync Agent](skills/grafana-dashboard-sync-agent/) | ⭐ 4.3 | 0 | `clawhub install grafana-dashboard-sync-agent` |
+| [Grafana Loki Log Correlation Agent](skills/grafana-loki-log-correlation-agent-2/) | ⭐ 4.3 | 0 | `clawhub install grafana-loki-log-correlation-agent-2` |
 | [Log Analysis](skills/log-analysis/) | ⭐ 4.3 | 0 | `clawhub install log-analysis` |
 | [OpenTelemetry Instrumentation](skills/opentelemetry-instrumentation/) | ⭐ 4.3 | 0 | `clawhub install opentelemetry-instrumentation` |
 | [Prometheus AlertManager Bridge](skills/prometheus-alertmanager-bridge/) | ⭐ 4.3 | 0 | `clawhub install prometheus-alertmanager-bridge` |
