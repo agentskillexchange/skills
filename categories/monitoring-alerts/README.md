@@ -1,6 +1,6 @@
 # 📊 Monitoring & Alerts
 
-> **93 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=monitoring-alerts)
+> **97 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=monitoring-alerts)
 
 Metrics collection, alerting rules, observability setup, and system monitoring.
 
@@ -13,6 +13,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [CloudWatch Intelligent Alarms](../../skills/cloudwatch-intelligent-alarms/) | ⭐ 4.9 | 0 | `clawhub install cloudwatch-intelligent-alarms` |
 | [CloudWatch Log Anomaly Detector](../../skills/cloudwatch-log-anomaly-detector/) | ⭐ 4.9 | 0 | `clawhub install cloudwatch-log-anomaly-detector` |
 | [Datadog Anomaly Detection Agent](../../skills/datadog-anomaly-detection-agent-2/) | ⭐ 4.9 | 0 | `clawhub install datadog-anomaly-detection-agent-2` |
+| [Datadog Monitor Configuration Agent](../../skills/datadog-monitor-configuration-agent-2/) | ⭐ 4.9 | 0 | `clawhub install datadog-monitor-configuration-agent-2` |
 | [Grafana Alert Router](../../skills/grafana-alert-router/) | ⭐ 4.9 | 0 | `clawhub install grafana-alert-router` |
 | [Grafana Loki Log Correlation Agent](../../skills/grafana-loki-log-correlation-agent/) | ⭐ 4.9 | 0 | `clawhub install grafana-loki-log-correlation-agent` |
 | [Last30Days Research Briefing](../../skills/last30days-research-briefing/) | ⭐ 4.9 | 0 | `clawhub install last30days-research-briefing` |
@@ -66,6 +67,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Grafana Dashboard Scaffolder](../../skills/grafana-dashboard-scaffolder/) | ⭐ 4.4 | 0 | `clawhub install grafana-dashboard-scaffolder` |
 | [Jaeger Trace Explorer](../../skills/jaeger-trace-explorer/) | ⭐ 4.4 | 0 | `clawhub install jaeger-trace-explorer` |
 | [OpenTelemetry Trace Aggregator](../../skills/opentelemetry-trace-aggregator/) | ⭐ 4.4 | 0 | `clawhub install opentelemetry-trace-aggregator` |
+| [PagerDuty Incident Orchestrator](../../skills/pagerduty-incident-orchestrator-3/) | ⭐ 4.4 | 0 | `clawhub install pagerduty-incident-orchestrator-3` |
 | [PagerDuty MCP Server](../../skills/pagerduty-mcp-server/) | ⭐ 4.4 | 0 | `clawhub install pagerduty-mcp-server` |
 | [Prometheus / Grafana MCP Server](../../skills/prometheus-grafana-mcp-server/) | ⭐ 4.4 | 0 | `clawhub install prometheus-grafana-mcp-server` |
 | [Prometheus Alert Router](../../skills/prometheus-alert-router-2/) | ⭐ 4.4 | 0 | `clawhub install prometheus-alert-router-2` |
@@ -84,8 +86,10 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [OpenTelemetry Instrumentation](../../skills/opentelemetry-instrumentation/) | ⭐ 4.3 | 0 | `clawhub install opentelemetry-instrumentation` |
 | [Prometheus AlertManager Bridge](../../skills/prometheus-alertmanager-bridge/) | ⭐ 4.3 | 0 | `clawhub install prometheus-alertmanager-bridge` |
 | [Prometheus AlertManager Rule Generator](../../skills/prometheus-alertmanager-rule-generator/) | ⭐ 4.3 | 0 | `clawhub install prometheus-alertmanager-rule-generator` |
+| [Prometheus PromQL Alert Builder](../../skills/prometheus-promql-alert-builder/) | ⭐ 4.3 | 0 | `clawhub install prometheus-promql-alert-builder` |
 | [Datadog APM Trace Analyzer](../../skills/datadog-apm-trace-analyzer/) | ⭐ 4.2 | 0 | `clawhub install datadog-apm-trace-analyzer` |
 | [Datadog Monitor Configurator](../../skills/datadog-monitor-configurator-2/) | ⭐ 4.2 | 0 | `clawhub install datadog-monitor-configurator-2` |
+| [Grafana Dashboard JSON Assembler](../../skills/grafana-dashboard-json-assembler/) | ⭐ 4.2 | 0 | `clawhub install grafana-dashboard-json-assembler` |
 | [OpsGenie MCP Server](../../skills/opsgenie-mcp-server/) | ⭐ 4.2 | 0 | `clawhub install opsgenie-mcp-server` |
 | [Prometheus Alerting Rules](../../skills/prometheus-alerting-rules/) | ⭐ 4.2 | 0 | `clawhub install prometheus-alerting-rules` |
 | [Sentry MCP Server](../../skills/sentry-mcp-server/) | ⭐ 4.2 | 0 | `clawhub install sentry-mcp-server` |

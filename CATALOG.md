@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1460 skills** across **17 categories** · Updated 2026-03-23 20:02 UTC
+> **1472 skills** across **17 categories** · Updated 2026-03-23 21:02 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -10,7 +10,7 @@
 
 | Metric | Value |
 |--------|-------|
-| Total Skills | **1460** |
+| Total Skills | **1472** |
 | Categories | **17** |
 | Frameworks | **11** |
 | Verification | All skills **Verified Metadata** or higher |
@@ -708,7 +708,7 @@
 | [MinIO Object Storage](skills/minio-object-storage/) | ⭐ 4.0 | 0 | `clawhub install minio-object-storage` |
 | [Together AI MCP Server](skills/together-ai-mcp-server/) | ⭐ 4.0 | 0 | `clawhub install together-ai-mcp-server` |
 
-### 📚 Library & API Reference (107 skills)
+### 📚 Library & API Reference (111 skills)
 
 | Skill | Rating | Reviews | Install |
 |-------|:------:|:-------:|---------|
@@ -732,6 +732,7 @@
 | [REST API Testing Reference Kit](skills/rest-api-testing-reference-kit/) | ⭐ 4.9 | 0 | `clawhub install rest-api-testing-reference-kit` |
 | [Rust Crates.io Explorer](skills/rust-crates-io-explorer/) | ⭐ 4.9 | 0 | `clawhub install rust-crates-io-explorer` |
 | [API Versioning Manager](skills/api-versioning-manager/) | ⭐ 4.8 | 0 | `clawhub install api-versioning-manager` |
+| [AWS SDK Method Resolver](skills/aws-sdk-method-resolver/) | ⭐ 4.8 | 0 | `clawhub install aws-sdk-method-resolver` |
 | [Confluence Knowledge Base Builder](skills/confluence-knowledge-base-builder-2/) | ⭐ 4.8 | 0 | `clawhub install confluence-knowledge-base-builder-2` |
 | [NPM Package Analyzer](skills/npm-package-analyzer/) | ⭐ 4.8 | 0 | `clawhub install npm-package-analyzer` |
 | [NPM Package Vulnerability Scanner](skills/npm-package-vulnerability-scanner/) | ⭐ 4.8 | 0 | `clawhub install npm-package-vulnerability-scanner` |
@@ -742,6 +743,7 @@
 | [Protocol Buffers Documentation Compiler](skills/protobuf-documentation-compiler/) | ⭐ 4.8 | 0 | `clawhub install protobuf-documentation-compiler` |
 | [Python Docstring Linter](skills/python-docstring-linter-ast-pydocstyle/) | ⭐ 4.8 | 0 | `clawhub install python-docstring-linter-ast-pydocstyle` |
 | [Python Package Docs Fetcher](skills/python-package-docs-fetcher/) | ⭐ 4.8 | 0 | `clawhub install python-package-docs-fetcher` |
+| [Stripe API Reference Navigator](skills/stripe-api-reference-navigator/) | ⭐ 4.8 | 0 | `clawhub install stripe-api-reference-navigator` |
 | [Swagger OpenAPI Schema Validator](skills/swagger-openapi-schema-validator/) | ⭐ 4.8 | 0 | `clawhub install swagger-openapi-schema-validator` |
 | [Webhook Event Catalog](skills/webhook-event-catalog/) | ⭐ 4.8 | 0 | `clawhub install webhook-event-catalog` |
 | [Confluence Knowledge Base Builder](skills/confluence-knowledge-base-builder/) | ⭐ 4.7 | 0 | `clawhub install confluence-knowledge-base-builder` |
@@ -782,6 +784,7 @@
 | [Python PyPI Package Reference Indexer](skills/python-pypi-package-reference-indexer/) | ⭐ 4.5 | 0 | `clawhub install python-pypi-package-reference-indexer` |
 | [Rust Crate Documentation Extractor](skills/rust-crate-documentation-extractor/) | ⭐ 4.5 | 0 | `clawhub install rust-crate-documentation-extractor` |
 | [Swagger / OpenAPI Validator](skills/swagger-openapi-validator/) | ⭐ 4.5 | 0 | `clawhub install swagger-openapi-validator` |
+| [Terraform Provider Schema Explorer](skills/terraform-provider-schema-explorer/) | ⭐ 4.5 | 0 | `clawhub install terraform-provider-schema-explorer` |
 | [GitHub REST API Paginator Library](skills/github-rest-api-paginator-library/) | ⭐ 4.4 | 0 | `clawhub install github-rest-api-paginator-library` |
 | [NPM Package Audit Analyzer](skills/npm-package-audit-analyzer/) | ⭐ 4.4 | 0 | `clawhub install npm-package-audit-analyzer` |
 | [NPM Package Audit Reference](skills/npm-package-audit-reference/) | ⭐ 4.4 | 0 | `clawhub install npm-package-audit-reference` |
@@ -794,6 +797,7 @@
 | [Swagger Codegen API Client Builder](skills/swagger-codegen-api-client-builder/) | ⭐ 4.4 | 0 | `clawhub install swagger-codegen-api-client-builder` |
 | [API Changelog Watcher](skills/api-changelog-watcher/) | ⭐ 4.3 | 0 | `clawhub install api-changelog-watcher` |
 | [Contract Testing Agent](skills/contract-testing-agent/) | ⭐ 4.3 | 0 | `clawhub install contract-testing-agent` |
+| [GraphQL Schema Introspection Mapper](skills/graphql-schema-introspection-mapper-2/) | ⭐ 4.3 | 0 | `clawhub install graphql-schema-introspection-mapper-2` |
 | [GraphQL Schema Introspector](skills/graphql-schema-introspector/) | ⭐ 4.3 | 0 | `clawhub install graphql-schema-introspector` |
 | [NPM Package Dependency Auditor](skills/npm-package-dependency-auditor/) | ⭐ 4.3 | 0 | `clawhub install npm-package-dependency-auditor` |
 | [npm Registry Analyzer](skills/npm-registry-analyzer/) | ⭐ 4.3 | 0 | `clawhub install npm-registry-analyzer` |
@@ -820,13 +824,14 @@
 | [OpenTelemetry Trace Analyzer](skills/opentelemetry-trace-analyzer/) | ⭐ 4.0 | 0 | `clawhub install opentelemetry-trace-analyzer` |
 | [Python Dependency Graph Resolver](skills/python-dependency-graph-resolver/) | ⭐ 4.0 | 0 | `clawhub install python-dependency-graph-resolver` |
 
-### 📊 Monitoring & Alerts (93 skills)
+### 📊 Monitoring & Alerts (97 skills)
 
 | Skill | Rating | Reviews | Install |
 |-------|:------:|:-------:|---------|
 | [CloudWatch Intelligent Alarms](skills/cloudwatch-intelligent-alarms/) | ⭐ 4.9 | 0 | `clawhub install cloudwatch-intelligent-alarms` |
 | [CloudWatch Log Anomaly Detector](skills/cloudwatch-log-anomaly-detector/) | ⭐ 4.9 | 0 | `clawhub install cloudwatch-log-anomaly-detector` |
 | [Datadog Anomaly Detection Agent](skills/datadog-anomaly-detection-agent-2/) | ⭐ 4.9 | 0 | `clawhub install datadog-anomaly-detection-agent-2` |
+| [Datadog Monitor Configuration Agent](skills/datadog-monitor-configuration-agent-2/) | ⭐ 4.9 | 0 | `clawhub install datadog-monitor-configuration-agent-2` |
 | [Grafana Alert Router](skills/grafana-alert-router/) | ⭐ 4.9 | 0 | `clawhub install grafana-alert-router` |
 | [Grafana Loki Log Correlation Agent](skills/grafana-loki-log-correlation-agent/) | ⭐ 4.9 | 0 | `clawhub install grafana-loki-log-correlation-agent` |
 | [Last30Days Research Briefing](skills/last30days-research-briefing/) | ⭐ 4.9 | 0 | `clawhub install last30days-research-briefing` |
@@ -880,6 +885,7 @@
 | [Grafana Dashboard Scaffolder](skills/grafana-dashboard-scaffolder/) | ⭐ 4.4 | 0 | `clawhub install grafana-dashboard-scaffolder` |
 | [Jaeger Trace Explorer](skills/jaeger-trace-explorer/) | ⭐ 4.4 | 0 | `clawhub install jaeger-trace-explorer` |
 | [OpenTelemetry Trace Aggregator](skills/opentelemetry-trace-aggregator/) | ⭐ 4.4 | 0 | `clawhub install opentelemetry-trace-aggregator` |
+| [PagerDuty Incident Orchestrator](skills/pagerduty-incident-orchestrator-3/) | ⭐ 4.4 | 0 | `clawhub install pagerduty-incident-orchestrator-3` |
 | [PagerDuty MCP Server](skills/pagerduty-mcp-server/) | ⭐ 4.4 | 0 | `clawhub install pagerduty-mcp-server` |
 | [Prometheus / Grafana MCP Server](skills/prometheus-grafana-mcp-server/) | ⭐ 4.4 | 0 | `clawhub install prometheus-grafana-mcp-server` |
 | [Prometheus Alert Router](skills/prometheus-alert-router-2/) | ⭐ 4.4 | 0 | `clawhub install prometheus-alert-router-2` |
@@ -898,8 +904,10 @@
 | [OpenTelemetry Instrumentation](skills/opentelemetry-instrumentation/) | ⭐ 4.3 | 0 | `clawhub install opentelemetry-instrumentation` |
 | [Prometheus AlertManager Bridge](skills/prometheus-alertmanager-bridge/) | ⭐ 4.3 | 0 | `clawhub install prometheus-alertmanager-bridge` |
 | [Prometheus AlertManager Rule Generator](skills/prometheus-alertmanager-rule-generator/) | ⭐ 4.3 | 0 | `clawhub install prometheus-alertmanager-rule-generator` |
+| [Prometheus PromQL Alert Builder](skills/prometheus-promql-alert-builder/) | ⭐ 4.3 | 0 | `clawhub install prometheus-promql-alert-builder` |
 | [Datadog APM Trace Analyzer](skills/datadog-apm-trace-analyzer/) | ⭐ 4.2 | 0 | `clawhub install datadog-apm-trace-analyzer` |
 | [Datadog Monitor Configurator](skills/datadog-monitor-configurator-2/) | ⭐ 4.2 | 0 | `clawhub install datadog-monitor-configurator-2` |
+| [Grafana Dashboard JSON Assembler](skills/grafana-dashboard-json-assembler/) | ⭐ 4.2 | 0 | `clawhub install grafana-dashboard-json-assembler` |
 | [OpsGenie MCP Server](skills/opsgenie-mcp-server/) | ⭐ 4.2 | 0 | `clawhub install opsgenie-mcp-server` |
 | [Prometheus Alerting Rules](skills/prometheus-alerting-rules/) | ⭐ 4.2 | 0 | `clawhub install prometheus-alerting-rules` |
 | [Sentry MCP Server](skills/sentry-mcp-server/) | ⭐ 4.2 | 0 | `clawhub install sentry-mcp-server` |
@@ -1103,7 +1111,7 @@
 | [Nano PDF Editor](skills/nano-pdf-editor/) | ⭐ 4.0 | 0 | `clawhub install nano-pdf-editor` |
 | [Weaviate MCP Server](skills/weaviate-mcp-server/) | ⭐ 4.0 | 0 | `clawhub install weaviate-mcp-server` |
 
-### 📄 Templates & Workflows (80 skills)
+### 📄 Templates & Workflows (84 skills)
 
 | Skill | Rating | Reviews | Install |
 |-------|:------:|:-------:|---------|
@@ -1111,6 +1119,7 @@
 | [Codecov Diff Analyzer](skills/codecov-diff-analyzer-2/) | ⭐ 4.9 | 0 | `clawhub install codecov-diff-analyzer-2` |
 | [Cookiecutter Project Builder](skills/cookiecutter-project-builder/) | ⭐ 4.9 | 0 | `clawhub install cookiecutter-project-builder` |
 | [DigitalOcean Droplet Manager](skills/digitalocean-droplet-manager/) | ⭐ 4.9 | 0 | `clawhub install digitalocean-droplet-manager` |
+| [Docker Compose Service Blueprint Creator](skills/docker-compose-service-blueprint-creator/) | ⭐ 4.9 | 0 | `clawhub install docker-compose-service-blueprint-creator` |
 | [Helm Chart Boilerplate Builder](skills/helm-chart-boilerplate-builder/) | ⭐ 4.9 | 0 | `clawhub install helm-chart-boilerplate-builder` |
 | [Helm Chart Template Scaffolder](skills/helm-chart-template-scaffolder/) | ⭐ 4.9 | 0 | `clawhub install helm-chart-template-scaffolder` |
 | [Incident Response Template Generator](skills/incident-response-template-generator/) | ⭐ 4.9 | 0 | `clawhub install incident-response-template-generator` |
@@ -1138,6 +1147,7 @@
 | [Terraform Module Scaffolder](skills/terraform-module-scaffolder/) | ⭐ 4.8 | 0 | `clawhub install terraform-module-scaffolder` |
 | [Yeoman Scaffold Runner](skills/yeoman-scaffold-runner/) | ⭐ 4.8 | 0 | `clawhub install yeoman-scaffold-runner` |
 | [Ansible Playbook Linter](skills/ansible-playbook-linter-2/) | ⭐ 4.7 | 0 | `clawhub install ansible-playbook-linter-2` |
+| [Ansible Playbook Template Generator](skills/ansible-playbook-template-generator/) | ⭐ 4.7 | 0 | `clawhub install ansible-playbook-template-generator` |
 | [AWS CDK Scaffolder](skills/aws-cdk-scaffolder/) | ⭐ 4.7 | 0 | `clawhub install aws-cdk-scaffolder` |
 | [Backstage Software Catalog Sync](skills/backstage-software-catalog-sync/) | ⭐ 4.7 | 0 | `clawhub install backstage-software-catalog-sync` |
 | [Cookiecutter Project Scaffold Generator](skills/cookiecutter-project-scaffold-generator/) | ⭐ 4.7 | 0 | `clawhub install cookiecutter-project-scaffold-generator` |
@@ -1150,6 +1160,7 @@
 | [Cookiecutter Project Scaffold](skills/cookiecutter-project-scaffold/) | ⭐ 4.6 | 0 | `clawhub install cookiecutter-project-scaffold` |
 | [Cookiecutter Project Template Engine](skills/cookiecutter-project-template-engine/) | ⭐ 4.6 | 0 | `clawhub install cookiecutter-project-template-engine` |
 | [Helm Chart Templater](skills/helm-chart-templater/) | ⭐ 4.6 | 0 | `clawhub install helm-chart-templater` |
+| [Makefile Task Orchestration Builder](skills/makefile-task-orchestration-builder/) | ⭐ 4.6 | 0 | `clawhub install makefile-task-orchestration-builder` |
 | [Netlify Site Manager](skills/netlify-site-manager/) | ⭐ 4.6 | 0 | `clawhub install netlify-site-manager` |
 | [Notion to PDF Knowledge Exporter](skills/notion-to-pdf-knowledge-exporter/) | ⭐ 4.6 | 0 | `clawhub install notion-to-pdf-knowledge-exporter` |
 | [Packer Image Builder](skills/packer-image-builder/) | ⭐ 4.6 | 0 | `clawhub install packer-image-builder` |
@@ -1180,6 +1191,7 @@
 | [Yeoman Workflow Orchestrator](skills/yeoman-workflow-orchestrator/) | ⭐ 4.2 | 0 | `clawhub install yeoman-workflow-orchestrator` |
 | [Bubble.io Stripe Subscription Portal Builder](skills/bubble-stripe-subscription-portal/) | ⭐ 4.1 | 0 | `clawhub install bubble-stripe-subscription-portal` |
 | [Cookiecutter Project Scaffolding Agent](skills/cookiecutter-project-scaffolding-agent/) | ⭐ 4.1 | 0 | `clawhub install cookiecutter-project-scaffolding-agent` |
+| [GitHub Actions Workflow Composer](skills/github-actions-workflow-composer/) | ⭐ 4.1 | 0 | `clawhub install github-actions-workflow-composer` |
 | [Mustache Template Renderer](skills/mustache-template-renderer-agent/) | ⭐ 4.1 | 0 | `clawhub install mustache-template-renderer-agent` |
 | [Plop.js Code Generator](skills/plopjs-code-generator/) | ⭐ 4.1 | 0 | `clawhub install plopjs-code-generator` |
 | [Terraform Module Template Engine](skills/terraform-module-template-engine/) | ⭐ 4.1 | 0 | `clawhub install terraform-module-template-engine` |

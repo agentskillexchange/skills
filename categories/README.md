@@ -2,7 +2,7 @@
 
 Browse skills by category. Each category contains a curated list of verified skills.
 
-> **1460 skills** across **17 categories**
+> **1472 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
@@ -10,11 +10,11 @@ Browse skills by category. Each category contains a curated list of verified ski
 | 📋 | [**Runbooks & Diagnostics**](runbooks-diagnostics/) | **174** | Incident response, troubleshooting guides, system diagnostic... |
 | ✅ | [**Code Quality & Review**](code-quality-review/) | **135** | Linting rules, review checklists, code standards enforcement... |
 | 🛠️ | [**Developer Tools**](developer-tools/) | **126** | CLI helpers, dev environment setup, productivity utilities, ... |
-| 📚 | [**Library & API Reference**](library-api-reference/) | **107** | SDK documentation, API guides, framework reference material,... |
-| 📊 | [**Monitoring & Alerts**](monitoring-alerts/) | **93** | Metrics collection, alerting rules, observability setup, and... |
+| 📚 | [**Library & API Reference**](library-api-reference/) | **111** | SDK documentation, API guides, framework reference material,... |
+| 📊 | [**Monitoring & Alerts**](monitoring-alerts/) | **97** | Metrics collection, alerting rules, observability setup, and... |
 | 🔒 | [**Security & Verification**](security-verification/) | **88** | Auth setup, vulnerability scanning, compliance checks, and s... |
 | 🔄 | [**Data Extraction & Transformation**](data-extraction-transformation/) | **87** | Parsing, ETL pipelines, format conversion, data wrangling, a... |
-| 📄 | [**Templates & Workflows**](templates-workflows/) | **80** | Project scaffolding, boilerplate generators, workflow templa... |
+| 📄 | [**Templates & Workflows**](templates-workflows/) | **84** | Project scaffolding, boilerplate generators, workflow templa... |
 | 📅 | [**Calendar, Email & Productivity**](calendar-email-productivity/) | **64** | Email automation, calendar management, task coordination, an... |
 | 🌐 | [**Browser Automation**](browser-automation/) | **48** | Web scraping, UI testing, headless browser control, and brow... |
 | 🔍 | [**Research & Scraping**](research-scraping/) | **46** | Web research, data collection, content aggregation, and info... |

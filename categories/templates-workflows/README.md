@@ -1,6 +1,6 @@
 # 📄 Templates & Workflows
 
-> **80 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=templates-workflows)
+> **84 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=templates-workflows)
 
 Project scaffolding, boilerplate generators, workflow templates, and starter kits.
 
@@ -14,6 +14,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Codecov Diff Analyzer](../../skills/codecov-diff-analyzer-2/) | ⭐ 4.9 | 0 | `clawhub install codecov-diff-analyzer-2` |
 | [Cookiecutter Project Builder](../../skills/cookiecutter-project-builder/) | ⭐ 4.9 | 0 | `clawhub install cookiecutter-project-builder` |
 | [DigitalOcean Droplet Manager](../../skills/digitalocean-droplet-manager/) | ⭐ 4.9 | 0 | `clawhub install digitalocean-droplet-manager` |
+| [Docker Compose Service Blueprint Creator](../../skills/docker-compose-service-blueprint-creator/) | ⭐ 4.9 | 0 | `clawhub install docker-compose-service-blueprint-creator` |
 | [Helm Chart Boilerplate Builder](../../skills/helm-chart-boilerplate-builder/) | ⭐ 4.9 | 0 | `clawhub install helm-chart-boilerplate-builder` |
 | [Helm Chart Template Scaffolder](../../skills/helm-chart-template-scaffolder/) | ⭐ 4.9 | 0 | `clawhub install helm-chart-template-scaffolder` |
 | [Incident Response Template Generator](../../skills/incident-response-template-generator/) | ⭐ 4.9 | 0 | `clawhub install incident-response-template-generator` |
@@ -41,6 +42,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Terraform Module Scaffolder](../../skills/terraform-module-scaffolder/) | ⭐ 4.8 | 0 | `clawhub install terraform-module-scaffolder` |
 | [Yeoman Scaffold Runner](../../skills/yeoman-scaffold-runner/) | ⭐ 4.8 | 0 | `clawhub install yeoman-scaffold-runner` |
 | [Ansible Playbook Linter](../../skills/ansible-playbook-linter-2/) | ⭐ 4.7 | 0 | `clawhub install ansible-playbook-linter-2` |
+| [Ansible Playbook Template Generator](../../skills/ansible-playbook-template-generator/) | ⭐ 4.7 | 0 | `clawhub install ansible-playbook-template-generator` |
 | [AWS CDK Scaffolder](../../skills/aws-cdk-scaffolder/) | ⭐ 4.7 | 0 | `clawhub install aws-cdk-scaffolder` |
 | [Backstage Software Catalog Sync](../../skills/backstage-software-catalog-sync/) | ⭐ 4.7 | 0 | `clawhub install backstage-software-catalog-sync` |
 | [Cookiecutter Project Scaffold Generator](../../skills/cookiecutter-project-scaffold-generator/) | ⭐ 4.7 | 0 | `clawhub install cookiecutter-project-scaffold-generator` |
@@ -53,6 +55,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Cookiecutter Project Scaffold](../../skills/cookiecutter-project-scaffold/) | ⭐ 4.6 | 0 | `clawhub install cookiecutter-project-scaffold` |
 | [Cookiecutter Project Template Engine](../../skills/cookiecutter-project-template-engine/) | ⭐ 4.6 | 0 | `clawhub install cookiecutter-project-template-engine` |
 | [Helm Chart Templater](../../skills/helm-chart-templater/) | ⭐ 4.6 | 0 | `clawhub install helm-chart-templater` |
+| [Makefile Task Orchestration Builder](../../skills/makefile-task-orchestration-builder/) | ⭐ 4.6 | 0 | `clawhub install makefile-task-orchestration-builder` |
 | [Netlify Site Manager](../../skills/netlify-site-manager/) | ⭐ 4.6 | 0 | `clawhub install netlify-site-manager` |
 | [Notion to PDF Knowledge Exporter](../../skills/notion-to-pdf-knowledge-exporter/) | ⭐ 4.6 | 0 | `clawhub install notion-to-pdf-knowledge-exporter` |
 | [Packer Image Builder](../../skills/packer-image-builder/) | ⭐ 4.6 | 0 | `clawhub install packer-image-builder` |
@@ -83,6 +86,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Yeoman Workflow Orchestrator](../../skills/yeoman-workflow-orchestrator/) | ⭐ 4.2 | 0 | `clawhub install yeoman-workflow-orchestrator` |
 | [Bubble.io Stripe Subscription Portal Builder](../../skills/bubble-stripe-subscription-portal/) | ⭐ 4.1 | 0 | `clawhub install bubble-stripe-subscription-portal` |
 | [Cookiecutter Project Scaffolding Agent](../../skills/cookiecutter-project-scaffolding-agent/) | ⭐ 4.1 | 0 | `clawhub install cookiecutter-project-scaffolding-agent` |
+| [GitHub Actions Workflow Composer](../../skills/github-actions-workflow-composer/) | ⭐ 4.1 | 0 | `clawhub install github-actions-workflow-composer` |
 | [Mustache Template Renderer](../../skills/mustache-template-renderer-agent/) | ⭐ 4.1 | 0 | `clawhub install mustache-template-renderer-agent` |
 | [Plop.js Code Generator](../../skills/plopjs-code-generator/) | ⭐ 4.1 | 0 | `clawhub install plopjs-code-generator` |
 | [Terraform Module Template Engine](../../skills/terraform-module-template-engine/) | ⭐ 4.1 | 0 | `clawhub install terraform-module-template-engine` |
