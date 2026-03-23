@@ -42,39 +42,38 @@ clawhub install <slug>
 
 ## Why This Repo?
 
-|  | Agent Skill Exchange | anthropics/skills | sickn33/antigravity | obra/superpowers |
-|---|:---:|:---:|:---:|:---:|
-| **Total Skills** | **1,100+** | 17 | 1,306 | ~20 |
-| **Community Ratings** | ✅ | ❌ | ❌ | ❌ |
-| **Verification Tiers** | ✅ 3-tier | ❌ | ❌ | ❌ |
-| **Multi-Framework** | ✅ 11 | Claude only | Claude only | Claude + Cursor |
-| **Live Marketplace** | ✅ | ❌ | ❌ | ❌ |
-| **Auto-Updated** | ✅ Hourly | Manual | Manual | Manual |
-| **Creator Profiles** | ✅ | ❌ | ❌ | ❌ |
+- **1,200+ skills and growing** — new skills added every hour, automatically synced from the [live marketplace](https://agentskillexchange.com)
+- **Community-rated** — every skill has real ratings and reviews from users
+- **3-tier verification** — Listed → Verified Metadata → Security Reviewed — every skill is vetted before reaching production-ready status
+- **11 frameworks** — Claude Code, Cursor, Codex, Gemini, OpenClaw, and more — install for any agent with one command
+- **Creator profiles** — every skill has an attributed creator with verification badges
+- **Full catalog** — browse by [category](#categories), search the [CATALOG](CATALOG.md), or explore the [live marketplace](https://agentskillexchange.com/browse-skills/)
 
 ---
 
 ## Categories
 
-| Category | Skills | Browse |
-|----------|-------:|--------|
-| 🔧 CI/CD Integrations | 193 | [Browse →](https://agentskillexchange.com/categories/?cat=ci-cd-integrations) |
-| 📋 Runbooks & Diagnostics | 157 | [Browse →](https://agentskillexchange.com/categories/?cat=runbooks-diagnostics) |
-| ✅ Code Quality & Review | 111 | [Browse →](https://agentskillexchange.com/categories/?cat=code-quality-review) |
-| 🛠️ Developer Tools | 102 | [Browse →](https://agentskillexchange.com/categories/?cat=developer-tools) |
-| 📚 Library & API Reference | 74 | [Browse →](https://agentskillexchange.com/categories/?cat=library-api-reference) |
-| 📄 Templates & Workflows | 56 | [Browse →](https://agentskillexchange.com/categories/?cat=templates-workflows) |
-| 🔄 Data Extraction & Transformation | 48 | [Browse →](https://agentskillexchange.com/categories/?cat=data-extraction-transformation) |
-| 🔒 Security & Verification | 45 | [Browse →](https://agentskillexchange.com/categories/?cat=security-verification) |
-| 📊 Monitoring & Alerts | 43 | [Browse →](https://agentskillexchange.com/categories/?cat=monitoring-alerts) |
-| 📅 Calendar, Email & Productivity | 41 | [Browse →](https://agentskillexchange.com/categories/?cat=calendar-email-productivity) |
-| 🔗 Integrations & Connectors | 41 | [Browse →](https://agentskillexchange.com/categories/?cat=integrations-connectors) |
-| ✍️ Content Writing & SEO | 19 | [Browse →](https://agentskillexchange.com/categories/?cat=content-writing-seo) |
-| 🎙️ Media & Transcription | 19 | [Browse →](https://agentskillexchange.com/categories/?cat=media-transcription) |
-| 🎨 Image & Creative Automation | 18 | [Browse →](https://agentskillexchange.com/categories/?cat=image-creative-automation) |
-| 🔍 Research & Scraping | 17 | [Browse →](https://agentskillexchange.com/categories/?cat=research-scraping) |
-| 🌐 Browser Automation | 16 | [Browse →](https://agentskillexchange.com/categories/?cat=browser-automation) |
-| 📰 WordPress & CMS | 16 | [Browse →](https://agentskillexchange.com/categories/?cat=wordpress-cms) |
+| | Category | |
+|---|---|---|
+| 🔧 | CI/CD Integrations | [**213 skills →**](https://agentskillexchange.com/browse-skills/?category=ci-cd-integrations) |
+| 📋 | Runbooks & Diagnostics | [**170 skills →**](https://agentskillexchange.com/browse-skills/?category=runbooks-diagnostics) |
+| ✅ | Code Quality & Review | [**127 skills →**](https://agentskillexchange.com/browse-skills/?category=code-quality-review) |
+| 🛠️ | Developer Tools | [**118 skills →**](https://agentskillexchange.com/browse-skills/?category=developer-tools) |
+| 📚 | Library & API Reference | [**86 skills →**](https://agentskillexchange.com/browse-skills/?category=library-api-reference) |
+| 📊 | Monitoring & Alerts | [**72 skills →**](https://agentskillexchange.com/browse-skills/?category=monitoring-alerts) |
+| 🔄 | Data Extraction & Transformation | [**67 skills →**](https://agentskillexchange.com/browse-skills/?category=data-extraction-transformation) |
+| 🔒 | Security & Verification | [**67 skills →**](https://agentskillexchange.com/browse-skills/?category=security-verification) |
+| 📄 | Templates & Workflows | [**65 skills →**](https://agentskillexchange.com/browse-skills/?category=templates-workflows) |
+| 📅 | Calendar, Email & Productivity | [**57 skills →**](https://agentskillexchange.com/browse-skills/?category=calendar-email-productivity) |
+| 🔗 | Integrations & Connectors | [**45 skills →**](https://agentskillexchange.com/browse-skills/?category=integrations-connectors) |
+| 🌐 | Browser Automation | [**35 skills →**](https://agentskillexchange.com/browse-skills/?category=browser-automation) |
+| 🔍 | Research & Scraping | [**33 skills →**](https://agentskillexchange.com/browse-skills/?category=research-scraping) |
+| 🎨 | Image & Creative Automation | [**31 skills →**](https://agentskillexchange.com/browse-skills/?category=image-creative-automation) |
+| ✍️ | Content Writing & SEO | [**27 skills →**](https://agentskillexchange.com/browse-skills/?category=content-writing-seo) |
+| 🎙️ | Media & Transcription | [**23 skills →**](https://agentskillexchange.com/browse-skills/?category=media-transcription) |
+| 📰 | WordPress & CMS | [**20 skills →**](https://agentskillexchange.com/browse-skills/?category=wordpress-cms) |
+
+See the full [CATALOG.md](CATALOG.md) for a detailed listing of every skill, or browse by category in the [categories/](categories/) directory.
 
 ---
 
@@ -107,7 +106,7 @@ Every skill goes through a transparent verification pipeline:
                            and malicious patterns. Safe for production use.
 ```
 
-All 1,100+ skills in this repo have reached **Verified Metadata** or higher. See [how we verify](https://agentskillexchange.com/how-we-verify/) for the full criteria.
+All 1,200+ skills in this repo have reached **Verified Metadata** or higher. See the [verification criteria](https://agentskillexchange.com/verified-skills/) for details.
 
 ---
 
@@ -126,8 +125,10 @@ skills/
     SKILL.md
   api-rate-limiter/
     SKILL.md
-  ... 1,100+ skills
+  ... 1,200+ skills
 ```
+
+See [spec/SKILL_SPEC.md](spec/SKILL_SPEC.md) for the full format specification, or use the [template/SKILL.md](template/SKILL.md) to create your own.
 
 ---
 
