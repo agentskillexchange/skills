@@ -1,6 +1,6 @@
 # 📅 Calendar, Email & Productivity
 
-> **61 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=calendar-email-productivity)
+> **64 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=calendar-email-productivity)
 
 Email automation, calendar management, task coordination, and productivity tools.
 
@@ -23,6 +23,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Loom Video Action Extractor](../../skills/loom-video-action-extractor/) | ⭐ 4.8 | 0 | `clawhub install loom-video-action-extractor` |
 | [Microsoft Graph Email Triage Assistant](../../skills/microsoft-graph-email-triage-assistant/) | ⭐ 4.8 | 0 | `clawhub install microsoft-graph-email-triage-assistant` |
 | [Notion Database Sync Agent](../../skills/notion-database-sync-agent/) | ⭐ 4.8 | 0 | `clawhub install notion-database-sync-agent` |
+| [Notion Workspace Automation Hub](../../skills/notion-workspace-automation-hub/) | ⭐ 4.8 | 0 | `clawhub install notion-workspace-automation-hub` |
 | [Slack Standup Automator](../../skills/slack-standup-automator/) | ⭐ 4.8 | 0 | `clawhub install slack-standup-automator` |
 | [Slack Workflow Builder Agent](../../skills/slack-workflow-builder-agent/) | ⭐ 4.8 | 0 | `clawhub install slack-workflow-builder-agent` |
 | [Todoist GTD Workflow Engine](../../skills/todoist-gtd-workflow-engine/) | ⭐ 4.8 | 0 | `clawhub install todoist-gtd-workflow-engine` |
@@ -34,6 +35,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Notion Workspace Sync Engine](../../skills/notion-workspace-sync-engine-2/) | ⭐ 4.7 | 0 | `clawhub install notion-workspace-sync-engine-2` |
 | [Outlook Email Automation](../../skills/outlook-email-automation/) | ⭐ 4.7 | 0 | `clawhub install outlook-email-automation` |
 | [Todoist Project Automator](../../skills/todoist-project-automator-api-v2/) | ⭐ 4.7 | 0 | `clawhub install todoist-project-automator-api-v2` |
+| [Google Calendar Sync &#038; Conflict Resolver](../../skills/google-calendar-sync-conflict-resolver/) | ⭐ 4.6 | 0 | `clawhub install google-calendar-sync-conflict-resolver` |
 | [Microsoft Outlook Mail Sorter](../../skills/ms-outlook-mail-sorter/) | ⭐ 4.6 | 0 | `clawhub install ms-outlook-mail-sorter` |
 | [Notion AI Document Summarizer &#038; Action Item Extractor](../../skills/notion-ai-doc-summarizer/) | ⭐ 4.6 | 0 | `clawhub install notion-ai-doc-summarizer` |
 | [Outlook Rule Automation Manager](../../skills/outlook-rule-automation-manager/) | ⭐ 4.6 | 0 | `clawhub install outlook-rule-automation-manager` |
@@ -42,6 +44,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Gmail Thread Summarizer and Action Extractor](../../skills/gmail-thread-summarizer-action-extractor/) | ⭐ 4.5 | 0 | `clawhub install gmail-thread-summarizer-action-extractor` |
 | [Google Calendar Sync Agent](../../skills/google-calendar-sync-agent/) | ⭐ 4.5 | 0 | `clawhub install google-calendar-sync-agent` |
 | [Google Workspace CLI Skill](../../skills/google-workspace-cli-skill/) | ⭐ 4.5 | 0 | `clawhub install google-workspace-cli-skill` |
+| [Microsoft Graph Email Triage Agent](../../skills/microsoft-graph-email-triage-agent-2/) | ⭐ 4.5 | 0 | `clawhub install microsoft-graph-email-triage-agent-2` |
 | [Linear Sprint Planner](../../skills/linear-sprint-planner/) | ⭐ 4.4 | 0 | `clawhub install linear-sprint-planner` |
 | [Miro Board Agent](../../skills/miro-board-agent/) | ⭐ 4.4 | 0 | `clawhub install miro-board-agent` |
 | [Notion Task Sync Bridge](../../skills/notion-task-sync-bridge/) | ⭐ 4.4 | 0 | `clawhub install notion-task-sync-bridge` |

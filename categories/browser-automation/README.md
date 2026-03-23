@@ -1,6 +1,6 @@
 # 🌐 Browser Automation
 
-> **43 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=browser-automation)
+> **48 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=browser-automation)
 
 Web scraping, UI testing, headless browser control, and browser-based automation.
 
@@ -14,6 +14,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Cypress Visual Regression Runner](../../skills/cypress-visual-regression-runner/) | ⭐ 4.9 | 0 | `clawhub install cypress-visual-regression-runner` |
 | [Playwright Multi-Browser Test Suite](../../skills/playwright-multi-browser-test-suite/) | ⭐ 4.9 | 0 | `clawhub install playwright-multi-browser-test-suite` |
 | [Playwright Multi-Tab Session Manager](../../skills/playwright-multi-tab-session-manager/) | ⭐ 4.9 | 0 | `clawhub install playwright-multi-tab-session-manager` |
+| [Playwright Network HAR Recorder](../../skills/playwright-network-har-recorder/) | ⭐ 4.9 | 0 | `clawhub install playwright-network-har-recorder` |
 | [Playwright Visual Regression Tester](../../skills/playwright-visual-regression-tester/) | ⭐ 4.9 | 0 | `clawhub install playwright-visual-regression-tester` |
 | [Puppeteer Cookie Consent Automator](../../skills/puppeteer-cookie-consent-automator/) | ⭐ 4.9 | 0 | `clawhub install puppeteer-cookie-consent-automator` |
 | [Puppeteer Cookie Consent Handler](../../skills/puppeteer-cookie-consent-handler/) | ⭐ 4.9 | 0 | `clawhub install puppeteer-cookie-consent-handler` |
@@ -38,15 +39,19 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Selenium Grid Cloud Executor](../../skills/selenium-grid-cloud-executor/) | ⭐ 4.6 | 0 | `clawhub install selenium-grid-cloud-executor` |
 | [Selenium Grid Parallel Executor](../../skills/selenium-grid-parallel-executor/) | ⭐ 4.6 | 0 | `clawhub install selenium-grid-parallel-executor` |
 | [Playwright PDF Export Automation](../../skills/playwright-pdf-export-automation/) | ⭐ 4.5 | 0 | `clawhub install playwright-pdf-export-automation` |
+| [Selenium Grid Auto-Scaling Orchestrator](../../skills/selenium-grid-auto-scaling-orchestrator/) | ⭐ 4.5 | 0 | `clawhub install selenium-grid-auto-scaling-orchestrator` |
 | [Selenium Grid Load Balancer](../../skills/selenium-grid-load-balancer/) | ⭐ 4.5 | 0 | `clawhub install selenium-grid-load-balancer` |
 | [Selenium Grid Orchestrator](../../skills/selenium-grid-orchestrator/) | ⭐ 4.5 | 0 | `clawhub install selenium-grid-orchestrator` |
 | [Cypress Component Testing Framework](../../skills/cypress-component-testing-framework-2/) | ⭐ 4.4 | 0 | `clawhub install cypress-component-testing-framework-2` |
 | [Cypress Component Testing Toolkit](../../skills/cypress-component-testing-toolkit/) | ⭐ 4.4 | 0 | `clawhub install cypress-component-testing-toolkit` |
 | [Playwright Cross-Browser Test Runner](../../skills/playwright-cross-browser-test-runner/) | ⭐ 4.4 | 0 | `clawhub install playwright-cross-browser-test-runner` |
+| [Puppeteer Multi-Tab Session Manager](../../skills/puppeteer-multi-tab-session-manager/) | ⭐ 4.3 | 0 | `clawhub install puppeteer-multi-tab-session-manager` |
 | [Selenium Grid Cloud Executor](../../skills/selenium-grid-cloud-executor-2/) | ⭐ 4.3 | 0 | `clawhub install selenium-grid-cloud-executor-2` |
 | [Agent Browser Operator](../../skills/agent-browser-operator/) | ⭐ 4.2 | 0 | `clawhub install agent-browser-operator` |
 | [Cypress Component Testing Framework](../../skills/cypress-component-testing-framework/) | ⭐ 4.2 | 0 | `clawhub install cypress-component-testing-framework` |
 | [Playwright MCP Browser Automation](../../skills/playwright-mcp-browser-automation/) | ⭐ 4.2 | 0 | `clawhub install playwright-mcp-browser-automation` |
+| [Cypress Visual Regression Testing Suite](../../skills/cypress-visual-regression-testing-suite/) | ⭐ 4.1 | 0 | `clawhub install cypress-visual-regression-testing-suite` |
+| [Playwright Accessibility Audit Runner](../../skills/playwright-accessibility-audit-runner/) | ⭐ 4.1 | 0 | `clawhub install playwright-accessibility-audit-runner` |
 | [Puppeteer PDF Renderer](../../skills/puppeteer-pdf-renderer/) | ⭐ 4.1 | 0 | `clawhub install puppeteer-pdf-renderer` |
 | [Puppeteer Visual Regression Testing](../../skills/puppeteer-visual-regression-testing/) | ⭐ 4.1 | 0 | `clawhub install puppeteer-visual-regression-testing` |
 | [Cypress Component Testing Suite](../../skills/cypress-component-testing-suite/) | ⭐ 4.0 | 0 | `clawhub install cypress-component-testing-suite` |

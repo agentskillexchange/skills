@@ -1,6 +1,6 @@
 # 🔄 Data Extraction & Transformation
 
-> **79 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=data-extraction-transformation)
+> **83 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=data-extraction-transformation)
 
 Parsing, ETL pipelines, format conversion, data wrangling, and transformation utilities.
 
@@ -13,6 +13,8 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [A/B Test Analyzer](../../skills/a-b-test-analyzer/) | ⭐ 4.9 | 0 | `clawhub install a-b-test-analyzer` |
 | [Apache Kafka Schema Extractor](../../skills/apache-kafka-schema-extractor/) | ⭐ 4.9 | 0 | `clawhub install apache-kafka-schema-extractor` |
 | [Apache Spark DataFrame ETL Pipeline](../../skills/spark-dataframe-etl-pipeline/) | ⭐ 4.9 | 0 | `clawhub install spark-dataframe-etl-pipeline` |
+| [Camelot Advanced PDF Table Intelligence](../../skills/camelot-advanced-pdf-table-intelligence/) | ⭐ 4.9 | 0 | `clawhub install camelot-advanced-pdf-table-intelligence` |
+| [Cheerio DOM Extraction Pipeline](../../skills/cheerio-dom-extraction-pipeline/) | ⭐ 4.9 | 0 | `clawhub install cheerio-dom-extraction-pipeline` |
 | [Crawl4AI MCP Server](../../skills/crawl4ai-mcp-server/) | ⭐ 4.9 | 0 | `clawhub install crawl4ai-mcp-server` |
 | [dbt Data Transform Orchestrator](../../skills/dbt-data-transform-orchestrator/) | ⭐ 4.9 | 0 | `clawhub install dbt-data-transform-orchestrator` |
 | [jq Pipeline Builder Agent](../../skills/jq-pipeline-builder-agent/) | ⭐ 4.9 | 0 | `clawhub install jq-pipeline-builder-agent` |
@@ -25,6 +27,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Tesseract OCR Data Extractor](../../skills/tesseract-ocr-data-extractor/) | ⭐ 4.9 | 0 | `clawhub install tesseract-ocr-data-extractor` |
 | [Apache Avro Schema Evolution Agent](../../skills/apache-avro-schema-evolution-agent/) | ⭐ 4.8 | 0 | `clawhub install apache-avro-schema-evolution-agent` |
 | [Apache Tika Content Extraction Hub](../../skills/apache-tika-content-extraction-hub/) | ⭐ 4.8 | 0 | `clawhub install apache-tika-content-extraction-hub` |
+| [Apache Tika Document Parser Agent](../../skills/apache-tika-document-parser-agent/) | ⭐ 4.8 | 0 | `clawhub install apache-tika-document-parser-agent` |
 | [BigQuery Cost &#038; Query Performance Auditor](../../skills/bigquery-cost-query-performance-auditor-2/) | ⭐ 4.8 | 0 | `clawhub install bigquery-cost-query-performance-auditor-2` |
 | [dbt Cloud MCP](../../skills/dbt-cloud-mcp/) | ⭐ 4.8 | 0 | `clawhub install dbt-cloud-mcp` |
 | [dbt Model Dependency Analyzer](../../skills/dbt-model-dependency-analyzer/) | ⭐ 4.8 | 0 | `clawhub install dbt-model-dependency-analyzer` |
@@ -70,6 +73,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Parquet Column Mapper](../../skills/parquet-column-mapper/) | ⭐ 4.3 | 0 | `clawhub install parquet-column-mapper` |
 | [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | ⭐ 4.3 | 0 | `clawhub install postgresql-mcp-server` |
 | [Snowflake MCP Server](../../skills/snowflake-mcp-server/) | ⭐ 4.3 | 0 | `clawhub install snowflake-mcp-server` |
+| [Tabula PDF Table Extractor](../../skills/tabula-pdf-table-extractor/) | ⭐ 4.3 | 0 | `clawhub install tabula-pdf-table-extractor` |
 | [Apache Spark Job Manager](../../skills/apache-spark-job-manager/) | ⭐ 4.2 | 0 | `clawhub install apache-spark-job-manager` |
 | [BigQuery Cost &#038; Query Performance Auditor](../../skills/bigquery-cost-query-performance-auditor/) | ⭐ 4.2 | 0 | `clawhub install bigquery-cost-query-performance-auditor` |
 | [Camelot PDF Stream Parser](../../skills/camelot-pdf-stream-parser/) | ⭐ 4.2 | 0 | `clawhub install camelot-pdf-stream-parser` |
