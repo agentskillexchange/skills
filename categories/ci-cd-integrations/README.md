@@ -1,6 +1,6 @@
 # 🔧 CI/CD Integrations
 
-> **230 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=ci-cd-integrations)
+> **234 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=ci-cd-integrations)
 
 Pipeline configs, deployment automation, build tooling, and continuous integration/delivery skills.
 
@@ -45,6 +45,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [npm Audit Dependency Report Generator](../../skills/npm-audit-dependency-report-generator/) | ⭐ 4.9 | 0 | `clawhub install npm-audit-dependency-report-generator` |
 | [Tekton Pipeline Composer](../../skills/tekton-pipeline-composer-2/) | ⭐ 4.9 | 0 | `clawhub install tekton-pipeline-composer-2` |
 | [Tekton Pipeline Debugger](../../skills/tekton-pipeline-debugger/) | ⭐ 4.9 | 0 | `clawhub install tekton-pipeline-debugger` |
+| [Tekton Pipeline Generator](../../skills/tekton-pipeline-generator-2/) | ⭐ 4.9 | 0 | `clawhub install tekton-pipeline-generator-2` |
 | [Tekton Pipeline Task Assembler](../../skills/tekton-pipeline-task-assembler/) | ⭐ 4.9 | 0 | `clawhub install tekton-pipeline-task-assembler` |
 | [Tekton Pipeline Validator](../../skills/tekton-pipeline-validator/) | ⭐ 4.9 | 0 | `clawhub install tekton-pipeline-validator` |
 | [Terraform Cloud Orchestrator](../../skills/terraform-cloud-orchestrator-skill/) | ⭐ 4.9 | 0 | `clawhub install terraform-cloud-orchestrator-skill` |
@@ -55,9 +56,11 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Terraform Plan Reviewer](../../skills/terraform-plan-reviewer-5/) | ⭐ 4.9 | 0 | `clawhub install terraform-plan-reviewer-5` |
 | [ArgoCD Sync Status Monitor](../../skills/argocd-sync-status-monitor-2/) | ⭐ 4.8 | 0 | `clawhub install argocd-sync-status-monitor-2` |
 | [AWS CodePipeline Orchestrator](../../skills/aws-codepipeline-orchestrator/) | ⭐ 4.8 | 0 | `clawhub install aws-codepipeline-orchestrator` |
+| [Buildkite Dynamic Pipeline Architect](../../skills/buildkite-dynamic-pipeline-architect/) | ⭐ 4.8 | 0 | `clawhub install buildkite-dynamic-pipeline-architect` |
 | [CircleCI Flaky Test Detector](../../skills/circleci-flaky-test-detector-2/) | ⭐ 4.8 | 0 | `clawhub install circleci-flaky-test-detector-2` |
 | [CircleCI Orb Composer](../../skills/circleci-orb-composer-8/) | ⭐ 4.8 | 0 | `clawhub install circleci-orb-composer-8` |
 | [CircleCI Orb Composer](../../skills/circleci-orb-composer-6/) | ⭐ 4.8 | 0 | `clawhub install circleci-orb-composer-6` |
+| [CircleCI Orb Composition Engine](../../skills/circleci-orb-composition-engine-3/) | ⭐ 4.8 | 0 | `clawhub install circleci-orb-composition-engine-3` |
 | [CircleCI Orb Dependency Analyzer](../../skills/circleci-orb-dependency-analyzer/) | ⭐ 4.8 | 0 | `clawhub install circleci-orb-dependency-analyzer` |
 | [CircleCI Orb Dependency Auditor](../../skills/circleci-orb-dependency-auditor-4/) | ⭐ 4.8 | 0 | `clawhub install circleci-orb-dependency-auditor-4` |
 | [CircleCI Orb Pipeline Agent](../../skills/circleci-orb-pipeline-agent/) | ⭐ 4.8 | 0 | `clawhub install circleci-orb-pipeline-agent` |
@@ -182,6 +185,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [CircleCI Orb Linter](../../skills/circleci-orb-linter/) | ⭐ 4.3 | 0 | `clawhub install circleci-orb-linter` |
 | [CircleCI Orb Pipeline Composer](../../skills/circleci-orb-pipeline-composer/) | ⭐ 4.3 | 0 | `clawhub install circleci-orb-pipeline-composer` |
 | [GitHub Actions Matrix Builder](../../skills/github-actions-matrix-builder-14/) | ⭐ 4.3 | 0 | `clawhub install github-actions-matrix-builder-14` |
+| [GitHub Actions Matrix Optimizer](../../skills/github-actions-matrix-optimizer-6/) | ⭐ 4.3 | 0 | `clawhub install github-actions-matrix-optimizer-6` |
 | [GitHub Actions Matrix Optimizer](../../skills/github-actions-matrix-optimizer/) | ⭐ 4.3 | 0 | `clawhub install github-actions-matrix-optimizer` |
 | [GitHub Actions Pipeline Debugger](../../skills/github-actions-pipeline-debugger/) | ⭐ 4.3 | 0 | `clawhub install github-actions-pipeline-debugger` |
 | [GitHub Actions Workflow Builder](../../skills/github-actions-workflow-builder-skill/) | ⭐ 4.3 | 0 | `clawhub install github-actions-workflow-builder-skill` |
@@ -263,7 +267,7 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 ## Related Categories
 
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (174 skills)
-- ✅ [Code Quality & Review](../code-quality-review/) (131 skills)
+- ✅ [Code Quality & Review](../code-quality-review/) (135 skills)
 - 🛠️ [Developer Tools](../developer-tools/) (126 skills)
 - 📚 [Library & API Reference](../library-api-reference/) (103 skills)
 

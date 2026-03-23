@@ -1,6 +1,6 @@
 # 🎨 Image & Creative Automation
 
-> **39 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=image-creative-automation)
+> **43 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=image-creative-automation)
 
 Image generation, asset processing, design automation, and creative tooling.
 
@@ -11,6 +11,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | Skill | Rating | Reviews | Install |
 |-------|:------:|:-------:|---------|
 | [Cloudinary Media Transform Skill](../../skills/cloudinary-media-transform-skill/) | ⭐ 4.9 | 0 | `clawhub install cloudinary-media-transform-skill` |
+| [Figma Design Token Extractor](../../skills/figma-design-token-extractor-3/) | ⭐ 4.9 | 0 | `clawhub install figma-design-token-extractor-3` |
 | [ImageMagick Batch Processor](../../skills/imagemagick-batch-processor/) | ⭐ 4.9 | 0 | `clawhub install imagemagick-batch-processor` |
 | [Midjourney Prompt Engineering Suite](../../skills/midjourney-prompt-engineering-suite/) | ⭐ 4.9 | 0 | `clawhub install midjourney-prompt-engineering-suite` |
 | [Stable Diffusion ControlNet Compositor](../../skills/stable-diffusion-controlnet-compositor/) | ⭐ 4.9 | 0 | `clawhub install stable-diffusion-controlnet-compositor` |
@@ -19,6 +20,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Stable Diffusion XL Pipeline](../../skills/stable-diffusion-xl-pipeline/) | ⭐ 4.8 | 0 | `clawhub install stable-diffusion-xl-pipeline` |
 | [Stable Diffusion XL Pipeline Builder](../../skills/stable-diffusion-xl-pipeline-builder/) | ⭐ 4.8 | 0 | `clawhub install stable-diffusion-xl-pipeline-builder` |
 | [Adobe Firefly API Batch Image Generator](../../skills/adobe-firefly-api-batch-image-generator/) | ⭐ 4.7 | 0 | `clawhub install adobe-firefly-api-batch-image-generator` |
+| [Cloudinary Asset Optimization Agent](../../skills/cloudinary-asset-optimization-agent/) | ⭐ 4.7 | 0 | `clawhub install cloudinary-asset-optimization-agent` |
 | [FFmpeg Thumbnail Grid Generator](../../skills/ffmpeg-thumbnail-grid-generator/) | ⭐ 4.7 | 0 | `clawhub install ffmpeg-thumbnail-grid-generator` |
 | [Figma Design Token Extractor](../../skills/figma-design-token-extractor/) | ⭐ 4.7 | 0 | `clawhub install figma-design-token-extractor` |
 | [Midjourney Prompt Optimizer](../../skills/midjourney-prompt-optimizer/) | ⭐ 4.7 | 0 | `clawhub install midjourney-prompt-optimizer` |
@@ -28,6 +30,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Stable Diffusion ControlNet Pipeline](../../skills/stable-diffusion-controlnet-pipeline/) | ⭐ 4.6 | 0 | `clawhub install stable-diffusion-controlnet-pipeline` |
 | [Adobe Photoshop API Batch Processor](../../skills/adobe-photoshop-api-batch-processor/) | ⭐ 4.5 | 0 | `clawhub install adobe-photoshop-api-batch-processor` |
 | [DALL-E Image Variation Pipeline](../../skills/dalle-image-variation-pipeline/) | ⭐ 4.5 | 0 | `clawhub install dalle-image-variation-pipeline` |
+| [Sharp Image Pipeline Processor](../../skills/sharp-image-pipeline-processor/) | ⭐ 4.5 | 0 | `clawhub install sharp-image-pipeline-processor` |
 | [Stable Diffusion ComfyUI Workflow Runner](../../skills/stable-diffusion-comfyui-workflow-runner-2/) | ⭐ 4.5 | 0 | `clawhub install stable-diffusion-comfyui-workflow-runner-2` |
 | [DALL-E Variation Generator](../../skills/dalle-variation-generator/) | ⭐ 4.4 | 0 | `clawhub install dalle-variation-generator` |
 | [DALL-E Variations Pipeline](../../skills/dalle-variations-pipeline/) | ⭐ 4.4 | 0 | `clawhub install dalle-variations-pipeline` |
@@ -45,6 +48,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [FFmpeg Media Transcoder](../../skills/ffmpeg-media-transcoder/) | ⭐ 4.2 | 0 | `clawhub install ffmpeg-media-transcoder` |
 | [Figma Export Automator](../../skills/figma-export-automator/) | ⭐ 4.2 | 0 | `clawhub install figma-export-automator` |
 | [Gemini Image Style Transfer Agent](../../skills/gemini-image-style-transfer-agent/) | ⭐ 4.2 | 0 | `clawhub install gemini-image-style-transfer-agent` |
+| [FFmpeg Thumbnail Mosaic Generator](../../skills/ffmpeg-thumbnail-mosaic-generator/) | ⭐ 4.1 | 0 | `clawhub install ffmpeg-thumbnail-mosaic-generator` |
 | [ImageMagick Batch Transform Agent](../../skills/imagemagick-batch-transform-agent/) | ⭐ 4.1 | 0 | `clawhub install imagemagick-batch-transform-agent` |
 | [Nano Banana Pro Image Editing](../../skills/nano-banana-pro-image-editing/) | ⭐ 4.1 | 0 | `clawhub install nano-banana-pro-image-editing` |
 | [OpenAI Image Gen](../../skills/openai-image-gen/) | ⭐ 4.1 | 0 | `clawhub install openai-image-gen` |
@@ -71,9 +75,9 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 ## Related Categories
 
-- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (230 skills)
+- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (234 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (174 skills)
-- ✅ [Code Quality & Review](../code-quality-review/) (131 skills)
+- ✅ [Code Quality & Review](../code-quality-review/) (135 skills)
 - 🛠️ [Developer Tools](../developer-tools/) (126 skills)
 
 ---

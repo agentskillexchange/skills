@@ -2,13 +2,13 @@
 
 Browse skills by category. Each category contains a curated list of verified skills.
 
-> **1424 skills** across **17 categories**
+> **1436 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
-| 🔧 | [**CI/CD Integrations**](ci-cd-integrations/) | **230** | Pipeline configs, deployment automation, build tooling, and ... |
+| 🔧 | [**CI/CD Integrations**](ci-cd-integrations/) | **234** | Pipeline configs, deployment automation, build tooling, and ... |
 | 📋 | [**Runbooks & Diagnostics**](runbooks-diagnostics/) | **174** | Incident response, troubleshooting guides, system diagnostic... |
-| ✅ | [**Code Quality & Review**](code-quality-review/) | **131** | Linting rules, review checklists, code standards enforcement... |
+| ✅ | [**Code Quality & Review**](code-quality-review/) | **135** | Linting rules, review checklists, code standards enforcement... |
 | 🛠️ | [**Developer Tools**](developer-tools/) | **126** | CLI helpers, dev environment setup, productivity utilities, ... |
 | 📚 | [**Library & API Reference**](library-api-reference/) | **103** | SDK documentation, API guides, framework reference material,... |
 | 📊 | [**Monitoring & Alerts**](monitoring-alerts/) | **88** | Metrics collection, alerting rules, observability setup, and... |
@@ -18,8 +18,8 @@ Browse skills by category. Each category contains a curated list of verified ski
 | 📅 | [**Calendar, Email & Productivity**](calendar-email-productivity/) | **64** | Email automation, calendar management, task coordination, an... |
 | 🌐 | [**Browser Automation**](browser-automation/) | **48** | Web scraping, UI testing, headless browser control, and brow... |
 | 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **45** | Third-party API bridges, webhook handlers, service connector... |
+| 🎨 | [**Image & Creative Automation**](image-creative-automation/) | **43** | Image generation, asset processing, design automation, and c... |
 | 🔍 | [**Research & Scraping**](research-scraping/) | **42** | Web research, data collection, content aggregation, and info... |
-| 🎨 | [**Image & Creative Automation**](image-creative-automation/) | **39** | Image generation, asset processing, design automation, and c... |
 | ✍️ | [**Content Writing & SEO**](content-writing-seo/) | **35** | Blog posts, SEO optimization, content strategy, and writing ... |
 | 🎙️ | [**Media & Transcription**](media-transcription/) | **31** | Audio/video processing, speech-to-text, media conversion, an... |
 | 📰 | [**WordPress & CMS**](wordpress-cms/) | **24** | Theme/plugin development, WP-CLI automation, CMS management,... |
