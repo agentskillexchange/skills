@@ -1,6 +1,6 @@
 # 📄 Templates & Workflows
 
-> **72 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=templates-workflows)
+> **77 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=templates-workflows)
 
 Project scaffolding, boilerplate generators, workflow templates, and starter kits.
 
@@ -11,6 +11,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | Skill | Rating | Reviews | Install |
 |-------|:------:|:-------:|---------|
 | [Codecov Diff Analyzer](../../skills/codecov-diff-analyzer-2/) | ⭐ 4.9 | 0 | `clawhub install codecov-diff-analyzer-2` |
+| [Cookiecutter Project Builder](../../skills/cookiecutter-project-builder/) | ⭐ 4.9 | 0 | `clawhub install cookiecutter-project-builder` |
 | [DigitalOcean Droplet Manager](../../skills/digitalocean-droplet-manager/) | ⭐ 4.9 | 0 | `clawhub install digitalocean-droplet-manager` |
 | [Helm Chart Boilerplate Builder](../../skills/helm-chart-boilerplate-builder/) | ⭐ 4.9 | 0 | `clawhub install helm-chart-boilerplate-builder` |
 | [Incident Response Template Generator](../../skills/incident-response-template-generator/) | ⭐ 4.9 | 0 | `clawhub install incident-response-template-generator` |
@@ -33,8 +34,10 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Monday.com MCP Server](../../skills/monday-com-mcp-server/) | ⭐ 4.8 | 0 | `clawhub install monday-com-mcp-server` |
 | [Notion to PDF Knowledge Exporter](../../skills/notion-to-pdf-knowledge-exporter-2/) | ⭐ 4.8 | 0 | `clawhub install notion-to-pdf-knowledge-exporter-2` |
 | [Nx Workspace Generator Toolkit](../../skills/nx-workspace-generator-toolkit/) | ⭐ 4.8 | 0 | `clawhub install nx-workspace-generator-toolkit` |
+| [Swagger Codegen Orchestrator](../../skills/swagger-codegen-orchestrator/) | ⭐ 4.8 | 0 | `clawhub install swagger-codegen-orchestrator` |
 | [Terraform Module Scaffolder](../../skills/terraform-module-scaffolder/) | ⭐ 4.8 | 0 | `clawhub install terraform-module-scaffolder` |
 | [Yeoman Scaffold Runner](../../skills/yeoman-scaffold-runner/) | ⭐ 4.8 | 0 | `clawhub install yeoman-scaffold-runner` |
+| [Ansible Playbook Linter](../../skills/ansible-playbook-linter-2/) | ⭐ 4.7 | 0 | `clawhub install ansible-playbook-linter-2` |
 | [AWS CDK Scaffolder](../../skills/aws-cdk-scaffolder/) | ⭐ 4.7 | 0 | `clawhub install aws-cdk-scaffolder` |
 | [Backstage Software Catalog Sync](../../skills/backstage-software-catalog-sync/) | ⭐ 4.7 | 0 | `clawhub install backstage-software-catalog-sync` |
 | [Cookiecutter Project Scaffold Generator](../../skills/cookiecutter-project-scaffold-generator/) | ⭐ 4.7 | 0 | `clawhub install cookiecutter-project-scaffold-generator` |
@@ -46,6 +49,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Codecov Diff Analyzer](../../skills/codecov-diff-analyzer/) | ⭐ 4.6 | 0 | `clawhub install codecov-diff-analyzer` |
 | [Cookiecutter Project Scaffold](../../skills/cookiecutter-project-scaffold/) | ⭐ 4.6 | 0 | `clawhub install cookiecutter-project-scaffold` |
 | [Cookiecutter Project Template Engine](../../skills/cookiecutter-project-template-engine/) | ⭐ 4.6 | 0 | `clawhub install cookiecutter-project-template-engine` |
+| [Helm Chart Templater](../../skills/helm-chart-templater/) | ⭐ 4.6 | 0 | `clawhub install helm-chart-templater` |
 | [Netlify Site Manager](../../skills/netlify-site-manager/) | ⭐ 4.6 | 0 | `clawhub install netlify-site-manager` |
 | [Notion to PDF Knowledge Exporter](../../skills/notion-to-pdf-knowledge-exporter/) | ⭐ 4.6 | 0 | `clawhub install notion-to-pdf-knowledge-exporter` |
 | [Packer Image Builder](../../skills/packer-image-builder/) | ⭐ 4.6 | 0 | `clawhub install packer-image-builder` |
@@ -65,6 +69,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Cookiecutter Project Scaffolder](../../skills/cookiecutter-project-scaffolder-2/) | ⭐ 4.4 | 0 | `clawhub install cookiecutter-project-scaffolder-2` |
 | [Intercom MCP Server](../../skills/intercom-mcp-server/) | ⭐ 4.4 | 0 | `clawhub install intercom-mcp-server` |
 | [Makefile Workflow Generator](../../skills/makefile-workflow-generator/) | ⭐ 4.4 | 0 | `clawhub install makefile-workflow-generator` |
+| [Terraform Module Scaffolder](../../skills/terraform-module-scaffolder-3/) | ⭐ 4.4 | 0 | `clawhub install terraform-module-scaffolder-3` |
 | [Fly.io Deployment Helper](../../skills/fly-io-deployment-helper/) | ⭐ 4.3 | 0 | `clawhub install fly-io-deployment-helper` |
 | [Plop.js Micro-Generator](../../skills/plopjs-micro-generator-2/) | ⭐ 4.3 | 0 | `clawhub install plopjs-micro-generator-2` |
 | [Ansible Playbook Template Library](../../skills/ansible-playbook-template-library/) | ⭐ 4.2 | 0 | `clawhub install ansible-playbook-template-library` |

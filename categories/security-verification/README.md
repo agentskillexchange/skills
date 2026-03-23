@@ -1,6 +1,6 @@
 # 🔒 Security & Verification
 
-> **75 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=security-verification)
+> **78 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=security-verification)
 
 Auth setup, vulnerability scanning, compliance checks, and security automation.
 
@@ -10,6 +10,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 
 | Skill | Rating | Reviews | Install |
 |-------|:------:|:-------:|---------|
+| [CSP Policy Analyzer](../../skills/csp-policy-analyzer/) | ⭐ 4.9 | 0 | `clawhub install csp-policy-analyzer` |
 | [HashiCorp Vault Secret Rotation Agent](../../skills/hashicorp-vault-secret-rotation-agent/) | ⭐ 4.9 | 0 | `clawhub install hashicorp-vault-secret-rotation-agent` |
 | [HashiCorp Vault Secret Scanner](../../skills/hashicorp-vault-secret-scanner-2/) | ⭐ 4.9 | 0 | `clawhub install hashicorp-vault-secret-scanner-2` |
 | [npm Dependency Audit Resolver](../../skills/npm-dependency-audit-resolver/) | ⭐ 4.9 | 0 | `clawhub install npm-dependency-audit-resolver` |
@@ -27,6 +28,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Git Secrets Pre-Commit Scanner](../../skills/git-secrets-precommit-scanner/) | ⭐ 4.8 | 0 | `clawhub install git-secrets-precommit-scanner` |
 | [HashiCorp Vault Secret Rotation Agent](../../skills/hashicorp-vault-secret-rotation-agent-2/) | ⭐ 4.8 | 0 | `clawhub install hashicorp-vault-secret-rotation-agent-2` |
 | [npm Dependency Audit Scanner](../../skills/npm-dependency-audit-scanner/) | ⭐ 4.8 | 0 | `clawhub install npm-dependency-audit-scanner` |
+| [OAuth2 Flow Debugger](../../skills/oauth2-flow-debugger/) | ⭐ 4.8 | 0 | `clawhub install oauth2-flow-debugger` |
 | [Open Policy Agent (OPA)](../../skills/open-policy-agent-opa/) | ⭐ 4.8 | 0 | `clawhub install open-policy-agent-opa` |
 | [OpenClaw Security Suite (ClawSec)](../../skills/openclaw-security-suite-clawsec/) | ⭐ 4.8 | 0 | `clawhub install openclaw-security-suite-clawsec` |
 | [Snyk Container Vulnerability Agent](../../skills/snyk-container-vulnerability-agent/) | ⭐ 4.8 | 0 | `clawhub install snyk-container-vulnerability-agent` |
@@ -46,6 +48,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [TruffleHog Secret Scanner](../../skills/trufflehog-secret-scanner/) | ⭐ 4.6 | 0 | `clawhub install trufflehog-secret-scanner` |
 | [Falco Runtime Security Monitor](../../skills/falco-runtime-security-monitor/) | ⭐ 4.5 | 0 | `clawhub install falco-runtime-security-monitor` |
 | [HashiCorp Vault Secret Scanner](../../skills/hashicorp-vault-secret-scanner/) | ⭐ 4.5 | 0 | `clawhub install hashicorp-vault-secret-scanner` |
+| [SBOM Vulnerability Scanner](../../skills/sbom-vulnerability-scanner-2/) | ⭐ 4.5 | 0 | `clawhub install sbom-vulnerability-scanner-2` |
 | [Secrets Scanner for Git Repositories](../../skills/secrets-scanner-git-repositories/) | ⭐ 4.5 | 0 | `clawhub install secrets-scanner-git-repositories` |
 | [Sentry for AI](../../skills/sentry-for-ai/) | ⭐ 4.5 | 0 | `clawhub install sentry-for-ai` |
 | [Sigstore Cosign Verifier](../../skills/sigstore-cosign-verifier/) | ⭐ 4.5 | 0 | `clawhub install sigstore-cosign-verifier` |

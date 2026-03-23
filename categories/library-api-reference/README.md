@@ -1,6 +1,6 @@
 # 📚 Library & API Reference
 
-> **98 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=library-api-reference)
+> **102 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=library-api-reference)
 
 SDK documentation, API guides, framework reference material, and library usage patterns.
 
@@ -17,6 +17,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [GraphQL Schema Analyzer](../../skills/graphql-schema-analyzer/) | ⭐ 4.9 | 0 | `clawhub install graphql-schema-analyzer` |
 | [GraphQL Schema Documentation Builder](../../skills/graphql-schema-documentation-builder/) | ⭐ 4.9 | 0 | `clawhub install graphql-schema-documentation-builder` |
 | [GraphQL Schema Registry Agent](../../skills/graphql-schema-registry-agent/) | ⭐ 4.9 | 0 | `clawhub install graphql-schema-registry-agent` |
+| [GraphQL Schema Stitcher](../../skills/graphql-schema-stitcher/) | ⭐ 4.9 | 0 | `clawhub install graphql-schema-stitcher` |
 | [MDN Web Docs Fetcher](../../skills/mdn-web-docs-fetcher/) | ⭐ 4.9 | 0 | `clawhub install mdn-web-docs-fetcher` |
 | [NPM Package Vulnerability Runbook](../../skills/npm-package-vulnerability-runbook/) | ⭐ 4.9 | 0 | `clawhub install npm-package-vulnerability-runbook` |
 | [NPM Package Vulnerability Scanner](../../skills/npm-package-vulnerability-scanner-2/) | ⭐ 4.9 | 0 | `clawhub install npm-package-vulnerability-scanner-2` |
@@ -51,6 +52,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [NPM Package Audit &#038; License Checker](../../skills/npm-package-audit-license-checker/) | ⭐ 4.7 | 0 | `clawhub install npm-package-audit-license-checker` |
 | [NPM Package Changelog Analyzer](../../skills/npm-package-changelog-analyzer/) | ⭐ 4.7 | 0 | `clawhub install npm-package-changelog-analyzer` |
 | [OpenAPI Spec Validator &#038; Linter](../../skills/openapi-spec-validator-linter-2/) | ⭐ 4.7 | 0 | `clawhub install openapi-spec-validator-linter-2` |
+| [Protobuf Documentation Generator](../../skills/protobuf-documentation-generator/) | ⭐ 4.7 | 0 | `clawhub install protobuf-documentation-generator` |
 | [PyPI Package Inspector](../../skills/pypi-package-inspector/) | ⭐ 4.7 | 0 | `clawhub install pypi-package-inspector` |
 | [Python PyPI Dependency Resolver](../../skills/python-pypi-dependency-resolver/) | ⭐ 4.7 | 0 | `clawhub install python-pypi-dependency-resolver` |
 | [Rate Limit Tracker](../../skills/rate-limit-tracker/) | ⭐ 4.7 | 0 | `clawhub install rate-limit-tracker` |
@@ -96,7 +98,9 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Python Type Stub Generator](../../skills/python-type-stub-generator-2/) | ⭐ 4.3 | 0 | `clawhub install python-type-stub-generator-2` |
 | [OpenAPI Spec Compliance Checker](../../skills/openapi-spec-compliance-checker/) | ⭐ 4.2 | 0 | `clawhub install openapi-spec-compliance-checker` |
 | [Plaid Financial Data Aggregator &#038; Budget Classifier](../../skills/plaid-financial-data-aggregator/) | ⭐ 4.2 | 0 | `clawhub install plaid-financial-data-aggregator` |
+| [Prisma Schema Migrator](../../skills/prisma-schema-migrator/) | ⭐ 4.2 | 0 | `clawhub install prisma-schema-migrator` |
 | [Rust Crate Documentation Indexer](../../skills/rust-crate-documentation-indexer-2/) | ⭐ 4.2 | 0 | `clawhub install rust-crate-documentation-indexer-2` |
+| [Zod Schema Generator](../../skills/zod-schema-generator/) | ⭐ 4.2 | 0 | `clawhub install zod-schema-generator` |
 | [API Diff Tool](../../skills/api-diff-tool/) | ⭐ 4.1 | 0 | `clawhub install api-diff-tool` |
 | [Auth Token Rotator](../../skills/auth-token-rotator/) | ⭐ 4.1 | 0 | `clawhub install auth-token-rotator` |
 | [GraphQL Schema Explorer](../../skills/graphql-schema-explorer/) | ⭐ 4.1 | 0 | `clawhub install graphql-schema-explorer` |
