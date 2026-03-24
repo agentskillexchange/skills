@@ -10,7 +10,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 
 - **Top Starred:** 6 visible with GitHub signal data
 - **Top Downloaded:** 6 visible with npm signal data
-- **Security Reviewed:** 128 skills
+- **Security Reviewed:** 130 skills
 
 ---
 
@@ -100,7 +100,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Jenkins Shared Library Builder](../../skills/jenkins-shared-library-builder/) | Security Reviewed | 25.1k | — | `clawhub install jenkins-shared-library-builder` |
 | [Jenkins Shared Library Linter](../../skills/jenkins-shared-library-linter/) | Security Reviewed | 25.1k | — | `clawhub install jenkins-shared-library-linter` |
 | [Jenkins Shared Library Manager](../../skills/jenkins-shared-library-manager/) | Security Reviewed | 25.1k | — | `clawhub install jenkins-shared-library-manager` |
-| [GitLab CI Auto DevOps Configurator](../../skills/gitlab-ci-auto-devops-configurator/) | Listed | 24.3k | — | `clawhub install gitlab-ci-auto-devops-configurator` |
+| [GitLab CI Auto DevOps Configurator](../../skills/gitlab-ci-auto-devops-configurator/) | Security Reviewed | 24.3k | — | `clawhub install gitlab-ci-auto-devops-configurator` |
 | [GitLab CI Cache Optimizer](../../skills/gitlab-ci-cache-optimizer-agent/) | Security Reviewed | 24.3k | — | `clawhub install gitlab-ci-cache-optimizer-agent` |
 | [GitLab CI Integration](../../skills/gitlab-ci-integration-2/) | Listed | 24.3k | — | `clawhub install gitlab-ci-integration-2` |
 | [GitLab CI Merge Train Optimizer](../../skills/gitlab-ci-merge-train-optimizer/) | Security Reviewed | 24.3k | — | `clawhub install gitlab-ci-merge-train-optimizer` |
@@ -157,7 +157,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [AWS CodePipeline Orchestrator](../../skills/aws-codepipeline-orchestrator/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-codepipeline-orchestrator` |
 | [GitHub Actions Matrix Orchestrator](../../skills/github-actions-matrix-orchestrator/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install github-actions-matrix-orchestrator` |
 | [GitHub Actions OIDC Token Validator](../../skills/github-actions-oidc-token-validator/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install github-actions-oidc-token-validator` |
-| [GitHub Actions OIDC Token Verifier](../../skills/github-actions-oidc-token-verifier/) | Listed | 3.6k | 9.2M/wk | `clawhub install github-actions-oidc-token-verifier` |
+| [GitHub Actions OIDC Token Verifier](../../skills/github-actions-oidc-token-verifier/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install github-actions-oidc-token-verifier` |
 | [CircleCI Config Validator](../../skills/circleci-config-validator/) | Security Reviewed | 842 | — | `clawhub install circleci-config-validator` |
 | [CircleCI Flaky Test Detector](../../skills/circleci-flaky-test-detector-2/) | Listed | 842 | — | `clawhub install circleci-flaky-test-detector-2` |
 | [CircleCI Orb Auditor](../../skills/circleci-orb-auditor/) | Security Reviewed | 842 | — | `clawhub install circleci-orb-auditor` |

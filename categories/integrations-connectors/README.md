@@ -10,7 +10,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 
 - **Top Starred:** 6 visible with GitHub signal data
 - **Top Downloaded:** 6 visible with npm signal data
-- **Security Reviewed:** 19 skills
+- **Security Reviewed:** 23 skills
 
 ---
 
@@ -20,10 +20,10 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 |---|---|---:|---|
 | [Terraform Cloud Run Inspector](../../skills/terraform-cloud-run-inspector-2/) | Listed | ⭐ 48k | `clawhub install terraform-cloud-run-inspector-2` |
 | [Linear Issue Triage &#038; Sprint Planner](../../skills/linear-issue-triage-sprint-planner-2/) | Listed | ⭐ 20.3k | `clawhub install linear-issue-triage-sprint-planner-2` |
+| [Shopify Admin GraphQL Sync Agent](../../skills/shopify-admin-graphql-sync-agent/) | Security Reviewed | ⭐ 20.3k | `clawhub install shopify-admin-graphql-sync-agent` |
 | [Notion Database Sync &#038; Page Generator](../../skills/notion-database-sync-page-generator-2/) | Listed | ⭐ 5.6k | `clawhub install notion-database-sync-page-generator-2` |
 | [Stripe Connect Account Provisioner](../../skills/stripe-connect-account-provisioner/) | Security Reviewed | ⭐ 4.4k | `clawhub install stripe-connect-account-provisioner` |
 | [Stripe Connect Integration](../../skills/stripe-connect-integration/) | Security Reviewed | ⭐ 4.4k | `clawhub install stripe-connect-integration` |
-| [Stripe Connect Marketplace Sync](../../skills/stripe-connect-marketplace-sync/) | Security Reviewed | ⭐ 4.4k | `clawhub install stripe-connect-marketplace-sync` |
 
 ---
 
@@ -32,11 +32,11 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | Skill | Tier | Signal | Install |
 |---|---|---:|---|
 | [Linear Issue Triage &#038; Sprint Planner](../../skills/linear-issue-triage-sprint-planner-2/) | Listed | ⬇ 32M/wk | `clawhub install linear-issue-triage-sprint-planner-2` |
+| [Shopify Admin GraphQL Sync Agent](../../skills/shopify-admin-graphql-sync-agent/) | Security Reviewed | ⬇ 32M/wk | `clawhub install shopify-admin-graphql-sync-agent` |
 | [Notion Database Sync &#038; Page Generator](../../skills/notion-database-sync-page-generator-2/) | Listed | ⬇ 1.1M/wk | `clawhub install notion-database-sync-page-generator-2` |
 | [Stripe Connect Account Provisioner](../../skills/stripe-connect-account-provisioner/) | Security Reviewed | ⬇ 8.4M/wk | `clawhub install stripe-connect-account-provisioner` |
 | [Stripe Connect Integration](../../skills/stripe-connect-integration/) | Security Reviewed | ⬇ 8.4M/wk | `clawhub install stripe-connect-integration` |
 | [Stripe Connect Marketplace Sync](../../skills/stripe-connect-marketplace-sync/) | Security Reviewed | ⬇ 8.4M/wk | `clawhub install stripe-connect-marketplace-sync` |
-| [Stripe Connect Platform Bridge](../../skills/stripe-connect-platform-bridge/) | Security Reviewed | ⬇ 8.4M/wk | `clawhub install stripe-connect-platform-bridge` |
 
 ---
 
@@ -44,12 +44,12 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 
 | Skill | Tier | Signal | Install |
 |---|---|---:|---|
+| [Shopify Admin GraphQL Sync Agent](../../skills/shopify-admin-graphql-sync-agent/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install shopify-admin-graphql-sync-agent` |
 | [Stripe Connect Account Provisioner](../../skills/stripe-connect-account-provisioner/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install stripe-connect-account-provisioner` |
 | [Stripe Connect Integration](../../skills/stripe-connect-integration/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install stripe-connect-integration` |
 | [Stripe Connect Marketplace Sync](../../skills/stripe-connect-marketplace-sync/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install stripe-connect-marketplace-sync` |
 | [Stripe Connect Platform Bridge](../../skills/stripe-connect-platform-bridge/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install stripe-connect-platform-bridge` |
 | [Stripe Payment Flow Connector](../../skills/stripe-payment-flow-connector/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install stripe-payment-flow-connector` |
-| [Stripe Payments Connector](../../skills/stripe-payments-connector/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install stripe-payments-connector` |
 
 ---
 
@@ -59,6 +59,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 |---|---|---:|---:|---|
 | [Terraform Cloud Run Inspector](../../skills/terraform-cloud-run-inspector-2/) | Listed | 48k | — | `clawhub install terraform-cloud-run-inspector-2` |
 | [Linear Issue Triage &#038; Sprint Planner](../../skills/linear-issue-triage-sprint-planner-2/) | Listed | 20.3k | 32M/wk | `clawhub install linear-issue-triage-sprint-planner-2` |
+| [Shopify Admin GraphQL Sync Agent](../../skills/shopify-admin-graphql-sync-agent/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install shopify-admin-graphql-sync-agent` |
 | [Notion Database Sync &#038; Page Generator](../../skills/notion-database-sync-page-generator-2/) | Listed | 5.6k | 1.1M/wk | `clawhub install notion-database-sync-page-generator-2` |
 | [Stripe Connect Account Provisioner](../../skills/stripe-connect-account-provisioner/) | Security Reviewed | 4.4k | 8.4M/wk | `clawhub install stripe-connect-account-provisioner` |
 | [Stripe Connect Integration](../../skills/stripe-connect-integration/) | Security Reviewed | 4.4k | 8.4M/wk | `clawhub install stripe-connect-integration` |
@@ -74,7 +75,9 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [SendGrid MCP Server](../../skills/sendgrid-mcp-server/) | Listed | 3.1k | 3.3M/wk | `clawhub install sendgrid-mcp-server` |
 | [SendGrid Transactional Email Builder](../../skills/sendgrid-transactional-email-builder/) | Security Reviewed | 3.1k | 3.3M/wk | `clawhub install sendgrid-transactional-email-builder` |
 | [SendGrid Transactional Email Router](../../skills/sendgrid-transactional-email-router/) | Security Reviewed | 3.1k | 3.3M/wk | `clawhub install sendgrid-transactional-email-router` |
+| [Slack Bolt Event Subscription Debugger](../../skills/slack-bolt-event-subscription-debugger/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install slack-bolt-event-subscription-debugger` |
 | [Slack Channel Summarizer &#038; Triage Bot](../../skills/slack-channel-summarizer-triage/) | Listed | 2.9k | 2.4M/wk | `clawhub install slack-channel-summarizer-triage` |
+| [Zapier Webhooks by Zapier Router](../../skills/zapier-webhooks-by-zapier-router/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install zapier-webhooks-by-zapier-router` |
 | [AssemblyAI Real-Time Call Intelligence](../../skills/assemblyai-realtime-call-intelligence/) | Listed | 1.5k | 3.8M/wk | `clawhub install assemblyai-realtime-call-intelligence` |
 | [Twilio MCP Server](../../skills/twilio-mcp-server/) | Listed | 1.5k | 3.8M/wk | `clawhub install twilio-mcp-server` |
 | [Twilio Programmable SMS Gateway](../../skills/twilio-programmable-sms-gateway/) | Security Reviewed | 1.5k | 3.8M/wk | `clawhub install twilio-programmable-sms-gateway` |
@@ -91,16 +94,13 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [ClawHub Skill Discovery &#038; Publishing](../../skills/clawhub-skill-discovery-publishing/) | Listed | — | — | `clawhub install clawhub-skill-discovery-publishing` |
 | [Google Drive MCP Server](../../skills/google-drive-mcp-server/) | Listed | — | — | `clawhub install google-drive-mcp-server` |
 | [Make.com Airtable-to-Shopify Inventory Sync](../../skills/make-airtable-shopify-inventory-sync/) | Listed | — | — | `clawhub install make-airtable-shopify-inventory-sync` |
-| [n8n Workflow Webhook Bridge](../../skills/n8n-workflow-webhook-bridge/) | Listed | — | — | `clawhub install n8n-workflow-webhook-bridge` |
+| [n8n Workflow Webhook Bridge](../../skills/n8n-workflow-webhook-bridge/) | Security Reviewed | — | — | `clawhub install n8n-workflow-webhook-bridge` |
 | [Plaid Financial Data](../../skills/plaid-financial-data/) | Listed | — | — | `clawhub install plaid-financial-data` |
 | [Plaid Financial Data Connector](../../skills/plaid-financial-data-connector/) | Security Reviewed | — | — | `clawhub install plaid-financial-data-connector` |
 | [QuickBooks Data Extractor](../../skills/quickbooks-data-extractor/) | Listed | — | — | `clawhub install quickbooks-data-extractor` |
 | [SageMaker Pipeline Orchestrator](../../skills/sagemaker-pipeline-orchestrator/) | Listed | — | — | `clawhub install sagemaker-pipeline-orchestrator` |
-| [Shopify Admin GraphQL Sync Agent](../../skills/shopify-admin-graphql-sync-agent/) | Listed | — | — | `clawhub install shopify-admin-graphql-sync-agent` |
-| [Slack Bolt Event Subscription Debugger](../../skills/slack-bolt-event-subscription-debugger/) | Listed | — | — | `clawhub install slack-bolt-event-subscription-debugger` |
 | [Xero Accounting Agent](../../skills/xero-accounting-agent/) | Listed | — | — | `clawhub install xero-accounting-agent` |
 | [Zapier Webhook Integration Builder](../../skills/zapier-webhook-integration-builder/) | Security Reviewed | — | — | `clawhub install zapier-webhook-integration-builder` |
-| [Zapier Webhooks by Zapier Router](../../skills/zapier-webhooks-by-zapier-router/) | Listed | — | — | `clawhub install zapier-webhooks-by-zapier-router` |
 
 ---
 

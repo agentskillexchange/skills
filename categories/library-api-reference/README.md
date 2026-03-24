@@ -10,7 +10,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 
 - **Top Starred:** 6 visible with GitHub signal data
 - **Top Downloaded:** 6 visible with npm signal data
-- **Security Reviewed:** 76 skills
+- **Security Reviewed:** 82 skills
 
 ---
 
@@ -22,7 +22,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [OpenTelemetry Trace Analyzer](../../skills/opentelemetry-trace-analyzer/) | Security Reviewed | ⭐ 72.8k | `clawhub install opentelemetry-trace-analyzer` |
 | [Docker Image Layer Analyzer](../../skills/docker-image-layer-analyzer/) | Security Reviewed | ⭐ 71.6k | `clawhub install docker-image-layer-analyzer` |
 | [REST API Documentation Generator](../../skills/rest-api-documentation-generator/) | Security Reviewed | ⭐ 68.9k | `clawhub install rest-api-documentation-generator` |
-| [Terraform Provider Schema Explorer](../../skills/terraform-provider-schema-explorer/) | Listed | ⭐ 48k | `clawhub install terraform-provider-schema-explorer` |
+| [Terraform Provider Schema Explorer](../../skills/terraform-provider-schema-explorer/) | Security Reviewed | ⭐ 48k | `clawhub install terraform-provider-schema-explorer` |
 | [Prisma Schema Migrator](../../skills/prisma-schema-migrator/) | Security Reviewed | ⭐ 45.6k | `clawhub install prisma-schema-migrator` |
 
 ---
@@ -48,8 +48,8 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [OpenTelemetry Trace Analyzer](../../skills/opentelemetry-trace-analyzer/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install opentelemetry-trace-analyzer` |
 | [Docker Image Layer Analyzer](../../skills/docker-image-layer-analyzer/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install docker-image-layer-analyzer` |
 | [REST API Documentation Generator](../../skills/rest-api-documentation-generator/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install rest-api-documentation-generator` |
+| [Terraform Provider Schema Explorer](../../skills/terraform-provider-schema-explorer/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install terraform-provider-schema-explorer` |
 | [Prisma Schema Migrator](../../skills/prisma-schema-migrator/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install prisma-schema-migrator` |
-| [API Documentation Indexer](../../skills/api-documentation-indexer/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install api-documentation-indexer` |
 
 ---
 
@@ -61,7 +61,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [OpenTelemetry Trace Analyzer](../../skills/opentelemetry-trace-analyzer/) | Security Reviewed | 72.8k | — | `clawhub install opentelemetry-trace-analyzer` |
 | [Docker Image Layer Analyzer](../../skills/docker-image-layer-analyzer/) | Security Reviewed | 71.6k | — | `clawhub install docker-image-layer-analyzer` |
 | [REST API Documentation Generator](../../skills/rest-api-documentation-generator/) | Security Reviewed | 68.9k | 91.7M/wk | `clawhub install rest-api-documentation-generator` |
-| [Terraform Provider Schema Explorer](../../skills/terraform-provider-schema-explorer/) | Listed | 48k | — | `clawhub install terraform-provider-schema-explorer` |
+| [Terraform Provider Schema Explorer](../../skills/terraform-provider-schema-explorer/) | Security Reviewed | 48k | — | `clawhub install terraform-provider-schema-explorer` |
 | [Prisma Schema Migrator](../../skills/prisma-schema-migrator/) | Security Reviewed | 45.6k | 9.4M/wk | `clawhub install prisma-schema-migrator` |
 | [API Documentation Indexer](../../skills/api-documentation-indexer/) | Security Reviewed | 28.7k | 3.2M/wk | `clawhub install api-documentation-indexer` |
 | [OpenAPI Spec Changelog Generator](../../skills/openapi-spec-changelog-generator/) | Security Reviewed | 28.7k | 3.2M/wk | `clawhub install openapi-spec-changelog-generator` |
@@ -91,16 +91,20 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [GraphQL Schema Stitcher](../../skills/graphql-schema-stitcher/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install graphql-schema-stitcher` |
 | [GraphQL Schema Stitching &#038; Federation Agent](../../skills/graphql-schema-stitching-federation-agent/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install graphql-schema-stitching-federation-agent` |
 | [NPM Package Audit Analyzer](../../skills/npm-package-audit-analyzer/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install npm-package-audit-analyzer` |
+| [OpenAPI Spec Reference Generator](../../skills/openapi-spec-reference-generator/) | Security Reviewed | 6k | — | `clawhub install openapi-spec-reference-generator` |
+| [OpenAPI Spec Validator &#038; Mock Server](../../skills/openapi-spec-validator-mock-server-2/) | Security Reviewed | 6k | — | `clawhub install openapi-spec-validator-mock-server-2` |
+| [Postman Collection Runner](../../skills/postman-collection-runner/) | Listed | 6k | — | `clawhub install postman-collection-runner` |
+| [REST API Test Suite Generator](../../skills/rest-api-test-suite-generator/) | Security Reviewed | 6k | — | `clawhub install rest-api-test-suite-generator` |
 | [NPM Package Explorer](../../skills/npm-package-explorer-registry-api/) | Security Reviewed | 5.5k | 601.7k/wk | `clawhub install npm-package-explorer-registry-api` |
 | [Buf Protobuf Linter](../../skills/buf-protobuf-linter/) | Security Reviewed | 4.8k | 30.9M/wk | `clawhub install buf-protobuf-linter` |
 | [gRPC Service Tool](../../skills/grpc-service-tool/) | Listed | 4.8k | 30.9M/wk | `clawhub install grpc-service-tool` |
 | [Protobuf &#038; gRPC Stub Generator](../../skills/protobuf-grpc-stub-generator/) | Security Reviewed | 4.8k | 30.9M/wk | `clawhub install protobuf-grpc-stub-generator` |
 | [Protobuf Documentation Generator](../../skills/protobuf-documentation-generator/) | Security Reviewed | 4.8k | 30.9M/wk | `clawhub install protobuf-documentation-generator` |
 | [Protobuf Schema Registry Manager](../../skills/protobuf-schema-registry-manager/) | Security Reviewed | 4.8k | 30.9M/wk | `clawhub install protobuf-schema-registry-manager` |
-| [Protocol Buffers Documentation Compiler](../../skills/protobuf-documentation-compiler/) | Listed | 4.8k | 30.9M/wk | `clawhub install protobuf-documentation-compiler` |
+| [Protocol Buffers Documentation Compiler](../../skills/protobuf-documentation-compiler/) | Security Reviewed | 4.8k | 30.9M/wk | `clawhub install protobuf-documentation-compiler` |
 | [Stripe API Reference Navigator](../../skills/stripe-api-reference-navigator/) | Security Reviewed | 4.4k | 8.4M/wk | `clawhub install stripe-api-reference-navigator` |
-| [AsyncAPI Event Catalog Builder](../../skills/asyncapi-event-catalog-builder/) | Listed | 4k | 2.4M/wk | `clawhub install asyncapi-event-catalog-builder` |
-| [AsyncAPI Event Catalog Generator](../../skills/asyncapi-event-catalog-generator/) | Listed | 4k | 2.4M/wk | `clawhub install asyncapi-event-catalog-generator` |
+| [AsyncAPI Event Catalog Builder](../../skills/asyncapi-event-catalog-builder/) | Security Reviewed | 4k | 2.4M/wk | `clawhub install asyncapi-event-catalog-builder` |
+| [AsyncAPI Event Catalog Generator](../../skills/asyncapi-event-catalog-generator/) | Security Reviewed | 4k | 2.4M/wk | `clawhub install asyncapi-event-catalog-generator` |
 | [Anthropic SDK Token Usage Logger](../../skills/anthropic-sdk-token-usage-logger/) | Verified Metadata | 3.6k | 9.2M/wk | `clawhub install anthropic-sdk-token-usage-logger` |
 | [AWS SDK Method Resolver](../../skills/aws-sdk-method-resolver/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-sdk-method-resolver` |
 | [OpenTelemetry Trace Context Propagator](../../skills/opentelemetry-trace-context-propagator/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install opentelemetry-trace-context-propagator` |
@@ -112,7 +116,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Auth Token Rotator](../../skills/auth-token-rotator/) | Listed | — | — | `clawhub install auth-token-rotator` |
 | [Confluence Knowledge Base Builder](../../skills/confluence-knowledge-base-builder/) | Listed | — | — | `clawhub install confluence-knowledge-base-builder` |
 | [Contract Testing Agent](../../skills/contract-testing-agent/) | Listed | — | — | `clawhub install contract-testing-agent` |
-| [Doxygen Cross-Reference Indexer](../../skills/doxygen-cross-reference-indexer/) | Listed | — | — | `clawhub install doxygen-cross-reference-indexer` |
+| [Doxygen Cross-Reference Indexer](../../skills/doxygen-cross-reference-indexer/) | Security Reviewed | — | — | `clawhub install doxygen-cross-reference-indexer` |
 | [Endpoint Health Monitor](../../skills/endpoint-health-monitor/) | Listed | — | — | `clawhub install endpoint-health-monitor` |
 | [GitHub REST API Paginator Library](../../skills/github-rest-api-paginator-library/) | Security Reviewed | — | — | `clawhub install github-rest-api-paginator-library` |
 | [JSDoc Type Definition Extractor](../../skills/jsdoc-type-definition-extractor/) | Security Reviewed | — | — | `clawhub install jsdoc-type-definition-extractor` |
@@ -130,15 +134,12 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [npm Registry Analyzer](../../skills/npm-registry-analyzer/) | Security Reviewed | — | — | `clawhub install npm-registry-analyzer` |
 | [npm Registry Explorer](../../skills/npm-registry-explorer/) | Security Reviewed | — | — | `clawhub install npm-registry-explorer` |
 | [OpenAPI SDK Generator Pipeline](../../skills/openapi-sdk-generator-pipeline/) | Verified Metadata | — | — | `clawhub install openapi-sdk-generator-pipeline` |
-| [OpenAPI Spec Reference Generator](../../skills/openapi-spec-reference-generator/) | Security Reviewed | — | — | `clawhub install openapi-spec-reference-generator` |
 | [OpenAPI Spec Validator &#038; Linter](../../skills/openapi-spec-validator-linter-2/) | Security Reviewed | — | — | `clawhub install openapi-spec-validator-linter-2` |
-| [OpenAPI Spec Validator &#038; Mock Server](../../skills/openapi-spec-validator-mock-server-2/) | Security Reviewed | — | — | `clawhub install openapi-spec-validator-mock-server-2` |
 | [OpenAPI to SDK Generator](../../skills/openapi-to-sdk-generator/) | Listed | — | — | `clawhub install openapi-to-sdk-generator` |
-| [Postman Collection Runner](../../skills/postman-collection-runner/) | Listed | — | — | `clawhub install postman-collection-runner` |
 | [PyPI Package Inspector](../../skills/pypi-package-inspector/) | Security Reviewed | — | — | `clawhub install pypi-package-inspector` |
 | [Python Dependency Graph Resolver](../../skills/python-dependency-graph-resolver/) | Security Reviewed | — | — | `clawhub install python-dependency-graph-resolver` |
 | [Python Docstring Extractor](../../skills/python-docstring-extractor/) | Security Reviewed | — | — | `clawhub install python-docstring-extractor` |
-| [Python Docstring Linter](../../skills/python-docstring-linter-ast-pydocstyle/) | Listed | — | — | `clawhub install python-docstring-linter-ast-pydocstyle` |
+| [Python Docstring Linter](../../skills/python-docstring-linter-ast-pydocstyle/) | Security Reviewed | — | — | `clawhub install python-docstring-linter-ast-pydocstyle` |
 | [Python Library Reference Builder](../../skills/python-library-reference-builder/) | Security Reviewed | — | — | `clawhub install python-library-reference-builder` |
 | [Python Package API Surface Mapper](../../skills/python-package-api-surface-mapper/) | Security Reviewed | — | — | `clawhub install python-package-api-surface-mapper` |
 | [Python Package Dependency Graph Mapper](../../skills/python-package-dependency-graph-mapper/) | Security Reviewed | — | — | `clawhub install python-package-dependency-graph-mapper` |
@@ -148,7 +149,6 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Python Type Stub Generator](../../skills/python-type-stub-generator-2/) | Listed | — | — | `clawhub install python-type-stub-generator-2` |
 | [Rate Limit Tracker](../../skills/rate-limit-tracker/) | Listed | — | — | `clawhub install rate-limit-tracker` |
 | [REST API Response Schema Validator](../../skills/rest-api-response-schema-validator/) | Security Reviewed | — | — | `clawhub install rest-api-response-schema-validator` |
-| [REST API Test Suite Generator](../../skills/rest-api-test-suite-generator/) | Security Reviewed | — | — | `clawhub install rest-api-test-suite-generator` |
 | [REST Mock Server](../../skills/rest-mock-server/) | Listed | — | — | `clawhub install rest-mock-server` |
 | [Rust Crate Analyzer](../../skills/rust-crate-analyzer/) | Security Reviewed | — | — | `clawhub install rust-crate-analyzer` |
 | [Rust Crate Docs Scanner](../../skills/rust-crate-docs-scanner/) | Security Reviewed | — | — | `clawhub install rust-crate-docs-scanner` |

@@ -10,7 +10,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 
 - **Top Starred:** 6 visible with GitHub signal data
 - **Top Downloaded:** 6 visible with npm signal data
-- **Security Reviewed:** 29 skills
+- **Security Reviewed:** 37 skills
 
 ---
 
@@ -21,7 +21,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Browser Session Replay Analyzer](../../skills/browser-session-replay-analyzer/) | Security Reviewed | ⭐ 93.9k | `clawhub install browser-session-replay-analyzer` |
 | [Puppeteer Cookie Consent Automator](../../skills/puppeteer-cookie-consent-automator/) | Security Reviewed | ⭐ 93.9k | `clawhub install puppeteer-cookie-consent-automator` |
 | [Puppeteer Cookie Consent Handler](../../skills/puppeteer-cookie-consent-handler-3/) | Security Reviewed | ⭐ 93.9k | `clawhub install puppeteer-cookie-consent-handler-3` |
-| [Puppeteer Multi-Tab Session Manager](../../skills/puppeteer-multi-tab-session-manager/) | Listed | ⭐ 93.9k | `clawhub install puppeteer-multi-tab-session-manager` |
+| [Puppeteer Multi-Tab Session Manager](../../skills/puppeteer-multi-tab-session-manager/) | Security Reviewed | ⭐ 93.9k | `clawhub install puppeteer-multi-tab-session-manager` |
 | [Puppeteer PDF Renderer](../../skills/puppeteer-pdf-renderer/) | Security Reviewed | ⭐ 93.9k | `clawhub install puppeteer-pdf-renderer` |
 | [Puppeteer Screenshot Diff Engine](../../skills/puppeteer-screenshot-diff-engine/) | Security Reviewed | ⭐ 93.9k | `clawhub install puppeteer-screenshot-diff-engine` |
 
@@ -34,7 +34,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Browser Session Replay Analyzer](../../skills/browser-session-replay-analyzer/) | Security Reviewed | ⬇ 8.7M/wk | `clawhub install browser-session-replay-analyzer` |
 | [Puppeteer Cookie Consent Automator](../../skills/puppeteer-cookie-consent-automator/) | Security Reviewed | ⬇ 8.7M/wk | `clawhub install puppeteer-cookie-consent-automator` |
 | [Puppeteer Cookie Consent Handler](../../skills/puppeteer-cookie-consent-handler-3/) | Security Reviewed | ⬇ 8.7M/wk | `clawhub install puppeteer-cookie-consent-handler-3` |
-| [Puppeteer Multi-Tab Session Manager](../../skills/puppeteer-multi-tab-session-manager/) | Listed | ⬇ 8.7M/wk | `clawhub install puppeteer-multi-tab-session-manager` |
+| [Puppeteer Multi-Tab Session Manager](../../skills/puppeteer-multi-tab-session-manager/) | Security Reviewed | ⬇ 8.7M/wk | `clawhub install puppeteer-multi-tab-session-manager` |
 | [Puppeteer PDF Renderer](../../skills/puppeteer-pdf-renderer/) | Security Reviewed | ⬇ 8.7M/wk | `clawhub install puppeteer-pdf-renderer` |
 | [Puppeteer Screenshot Diff Engine](../../skills/puppeteer-screenshot-diff-engine/) | Security Reviewed | ⬇ 8.7M/wk | `clawhub install puppeteer-screenshot-diff-engine` |
 
@@ -47,9 +47,9 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Browser Session Replay Analyzer](../../skills/browser-session-replay-analyzer/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install browser-session-replay-analyzer` |
 | [Puppeteer Cookie Consent Automator](../../skills/puppeteer-cookie-consent-automator/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install puppeteer-cookie-consent-automator` |
 | [Puppeteer Cookie Consent Handler](../../skills/puppeteer-cookie-consent-handler-3/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install puppeteer-cookie-consent-handler-3` |
+| [Puppeteer Multi-Tab Session Manager](../../skills/puppeteer-multi-tab-session-manager/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install puppeteer-multi-tab-session-manager` |
 | [Puppeteer PDF Renderer](../../skills/puppeteer-pdf-renderer/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install puppeteer-pdf-renderer` |
 | [Puppeteer Screenshot Diff Engine](../../skills/puppeteer-screenshot-diff-engine/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install puppeteer-screenshot-diff-engine` |
-| [Puppeteer Web Scraping Pipeline](../../skills/puppeteer-web-scraping-pipeline/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install puppeteer-web-scraping-pipeline` |
 
 ---
 
@@ -60,15 +60,15 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Browser Session Replay Analyzer](../../skills/browser-session-replay-analyzer/) | Security Reviewed | 93.9k | 8.7M/wk | `clawhub install browser-session-replay-analyzer` |
 | [Puppeteer Cookie Consent Automator](../../skills/puppeteer-cookie-consent-automator/) | Security Reviewed | 93.9k | 8.7M/wk | `clawhub install puppeteer-cookie-consent-automator` |
 | [Puppeteer Cookie Consent Handler](../../skills/puppeteer-cookie-consent-handler-3/) | Security Reviewed | 93.9k | 8.7M/wk | `clawhub install puppeteer-cookie-consent-handler-3` |
-| [Puppeteer Multi-Tab Session Manager](../../skills/puppeteer-multi-tab-session-manager/) | Listed | 93.9k | 8.7M/wk | `clawhub install puppeteer-multi-tab-session-manager` |
+| [Puppeteer Multi-Tab Session Manager](../../skills/puppeteer-multi-tab-session-manager/) | Security Reviewed | 93.9k | 8.7M/wk | `clawhub install puppeteer-multi-tab-session-manager` |
 | [Puppeteer PDF Renderer](../../skills/puppeteer-pdf-renderer/) | Security Reviewed | 93.9k | 8.7M/wk | `clawhub install puppeteer-pdf-renderer` |
 | [Puppeteer Screenshot Diff Engine](../../skills/puppeteer-screenshot-diff-engine/) | Security Reviewed | 93.9k | 8.7M/wk | `clawhub install puppeteer-screenshot-diff-engine` |
 | [Puppeteer Stealth Scraper](../../skills/puppeteer-stealth-scraper-agent/) | Verified Metadata | 93.9k | 8.7M/wk | `clawhub install puppeteer-stealth-scraper-agent` |
 | [Puppeteer Visual Regression Tester](../../skills/puppeteer-visual-regression-tester/) | Listed | 93.9k | 8.7M/wk | `clawhub install puppeteer-visual-regression-tester` |
-| [Puppeteer Visual Regression Testing](../../skills/puppeteer-visual-regression-testing/) | Listed | 93.9k | 8.7M/wk | `clawhub install puppeteer-visual-regression-testing` |
+| [Puppeteer Visual Regression Testing](../../skills/puppeteer-visual-regression-testing/) | Security Reviewed | 93.9k | 8.7M/wk | `clawhub install puppeteer-visual-regression-testing` |
 | [Puppeteer Web Scraping Pipeline](../../skills/puppeteer-web-scraping-pipeline/) | Security Reviewed | 93.9k | 8.7M/wk | `clawhub install puppeteer-web-scraping-pipeline` |
-| [Agent Browser Operator](../../skills/agent-browser-operator/) | Listed | 84.9k | 39.8M/wk | `clawhub install agent-browser-operator` |
-| [Playwright Accessibility Audit Runner](../../skills/playwright-accessibility-audit-runner/) | Listed | 84.9k | 39.8M/wk | `clawhub install playwright-accessibility-audit-runner` |
+| [Agent Browser Operator](../../skills/agent-browser-operator/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install agent-browser-operator` |
+| [Playwright Accessibility Audit Runner](../../skills/playwright-accessibility-audit-runner/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-accessibility-audit-runner` |
 | [Playwright Cross-Browser Test Runner](../../skills/playwright-cross-browser-test-runner/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-cross-browser-test-runner` |
 | [Playwright MCP Browser Automation](../../skills/playwright-mcp-browser-automation/) | Listed | 84.9k | 39.8M/wk | `clawhub install playwright-mcp-browser-automation` |
 | [Playwright Multi-Browser Test Generator](../../skills/playwright-multi-browser-test-generator/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-multi-browser-test-generator` |
@@ -77,10 +77,10 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Playwright Network HAR Recorder](../../skills/playwright-network-har-recorder/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-network-har-recorder` |
 | [Playwright Parallel Tab Manager](../../skills/playwright-parallel-tab-manager/) | Listed | 84.9k | 39.8M/wk | `clawhub install playwright-parallel-tab-manager` |
 | [Playwright PDF Export Automation](../../skills/playwright-pdf-export-automation/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-pdf-export-automation` |
-| [Playwright Session Recorder](../../skills/playwright-session-recorder-2/) | Listed | 84.9k | 39.8M/wk | `clawhub install playwright-session-recorder-2` |
-| [Playwright Visual Regression Suite](../../skills/playwright-visual-regression-suite/) | Listed | 84.9k | 39.8M/wk | `clawhub install playwright-visual-regression-suite` |
+| [Playwright Session Recorder](../../skills/playwright-session-recorder-2/) | Verified Metadata | 84.9k | 39.8M/wk | `clawhub install playwright-session-recorder-2` |
+| [Playwright Visual Regression Suite](../../skills/playwright-visual-regression-suite/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-visual-regression-suite` |
 | [Playwright Visual Regression Tester](../../skills/playwright-visual-regression-tester-3/) | Verified Metadata | 84.9k | 39.8M/wk | `clawhub install playwright-visual-regression-tester-3` |
-| [Cypress Component Test Generator](../../skills/cypress-component-test-generator/) | Listed | 49.6k | 7.4M/wk | `clawhub install cypress-component-test-generator` |
+| [Cypress Component Test Generator](../../skills/cypress-component-test-generator/) | Security Reviewed | 49.6k | 7.4M/wk | `clawhub install cypress-component-test-generator` |
 | [Cypress Component Testing Framework](../../skills/cypress-component-testing-framework-2/) | Security Reviewed | 49.6k | 7.4M/wk | `clawhub install cypress-component-testing-framework-2` |
 | [Cypress Component Testing Suite](../../skills/cypress-component-testing-suite/) | Security Reviewed | 49.6k | 7.4M/wk | `clawhub install cypress-component-testing-suite` |
 | [Cypress Component Testing Toolkit](../../skills/cypress-component-testing-toolkit/) | Security Reviewed | 49.6k | 7.4M/wk | `clawhub install cypress-component-testing-toolkit` |
@@ -93,9 +93,9 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Selenium Grid Cloud Executor](../../skills/selenium-grid-cloud-executor/) | Security Reviewed | 34.2k | 2M/wk | `clawhub install selenium-grid-cloud-executor` |
 | [Selenium Grid Load Balancer](../../skills/selenium-grid-load-balancer/) | Security Reviewed | 34.2k | 2M/wk | `clawhub install selenium-grid-load-balancer` |
 | [Selenium Grid Multi-Browser Test Runner](../../skills/selenium-grid-multi-browser-test-runner/) | Security Reviewed | 34.2k | 2M/wk | `clawhub install selenium-grid-multi-browser-test-runner` |
-| [Selenium Grid Orchestrator](../../skills/selenium-grid-orchestrator/) | Listed | 34.2k | 2M/wk | `clawhub install selenium-grid-orchestrator` |
+| [Selenium Grid Orchestrator](../../skills/selenium-grid-orchestrator/) | Security Reviewed | 34.2k | 2M/wk | `clawhub install selenium-grid-orchestrator` |
 | [Selenium Grid Parallel Execution Manager](../../skills/selenium-grid-parallel-execution-manager/) | Security Reviewed | 34.2k | 2M/wk | `clawhub install selenium-grid-parallel-execution-manager` |
-| [Selenium Grid Parallel Executor](../../skills/selenium-grid-parallel-executor/) | Listed | 34.2k | 2M/wk | `clawhub install selenium-grid-parallel-executor` |
+| [Selenium Grid Parallel Executor](../../skills/selenium-grid-parallel-executor/) | Security Reviewed | 34.2k | 2M/wk | `clawhub install selenium-grid-parallel-executor` |
 | [Selenium Grid Parallel Test Runner](../../skills/selenium-grid-parallel-test-runner/) | Security Reviewed | 34.2k | 2M/wk | `clawhub install selenium-grid-parallel-test-runner` |
 | [Selenium Grid Session Distributor](../../skills/selenium-grid-session-distributor/) | Security Reviewed | 34.2k | 2M/wk | `clawhub install selenium-grid-session-distributor` |
 | [Selenium Grid Session Manager](../../skills/selenium-grid-session-manager/) | Security Reviewed | 34.2k | 2M/wk | `clawhub install selenium-grid-session-manager` |

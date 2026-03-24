@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1312 skills** across **20 categories** · Updated 2026-03-24 15:10 UTC
+> **1324 skills** across **20 categories** · Updated 2026-03-24 16:08 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -10,13 +10,13 @@
 
 | Metric | Value |
 |--------|-------|
-| Total Skills | **1312** |
+| Total Skills | **1324** |
 | Categories | **20** |
 | Frameworks | **20** |
-| Skills with live signal data | **842** |
-| Security Reviewed | **760** |
-| Verified Metadata | **7** |
-| Listed | **545** |
+| Skills with live signal data | **890** |
+| Security Reviewed | **950** |
+| Verified Metadata | **10** |
+| Listed | **364** |
 
 > These verification counts are **final-state buckets**, not cumulative stages.
 
@@ -73,7 +73,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Jenkins Shared Library Builder](skills/jenkins-shared-library-builder/) | Security Reviewed | 25.1k | — | `clawhub install jenkins-shared-library-builder` |
 | [Jenkins Shared Library Linter](skills/jenkins-shared-library-linter/) | Security Reviewed | 25.1k | — | `clawhub install jenkins-shared-library-linter` |
 | [Jenkins Shared Library Manager](skills/jenkins-shared-library-manager/) | Security Reviewed | 25.1k | — | `clawhub install jenkins-shared-library-manager` |
-| [GitLab CI Auto DevOps Configurator](skills/gitlab-ci-auto-devops-configurator/) | Listed | 24.3k | — | `clawhub install gitlab-ci-auto-devops-configurator` |
+| [GitLab CI Auto DevOps Configurator](skills/gitlab-ci-auto-devops-configurator/) | Security Reviewed | 24.3k | — | `clawhub install gitlab-ci-auto-devops-configurator` |
 | [GitLab CI Cache Optimizer](skills/gitlab-ci-cache-optimizer-agent/) | Security Reviewed | 24.3k | — | `clawhub install gitlab-ci-cache-optimizer-agent` |
 | [GitLab CI Integration](skills/gitlab-ci-integration-2/) | Listed | 24.3k | — | `clawhub install gitlab-ci-integration-2` |
 | [GitLab CI Merge Train Optimizer](skills/gitlab-ci-merge-train-optimizer/) | Security Reviewed | 24.3k | — | `clawhub install gitlab-ci-merge-train-optimizer` |
@@ -130,7 +130,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [AWS CodePipeline Orchestrator](skills/aws-codepipeline-orchestrator/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-codepipeline-orchestrator` |
 | [GitHub Actions Matrix Orchestrator](skills/github-actions-matrix-orchestrator/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install github-actions-matrix-orchestrator` |
 | [GitHub Actions OIDC Token Validator](skills/github-actions-oidc-token-validator/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install github-actions-oidc-token-validator` |
-| [GitHub Actions OIDC Token Verifier](skills/github-actions-oidc-token-verifier/) | Listed | 3.6k | 9.2M/wk | `clawhub install github-actions-oidc-token-verifier` |
+| [GitHub Actions OIDC Token Verifier](skills/github-actions-oidc-token-verifier/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install github-actions-oidc-token-verifier` |
 | [CircleCI Config Validator](skills/circleci-config-validator/) | Security Reviewed | 842 | — | `clawhub install circleci-config-validator` |
 | [CircleCI Flaky Test Detector](skills/circleci-flaky-test-detector-2/) | Listed | 842 | — | `clawhub install circleci-flaky-test-detector-2` |
 | [CircleCI Orb Auditor](skills/circleci-orb-auditor/) | Security Reviewed | 842 | — | `clawhub install circleci-orb-auditor` |
@@ -189,6 +189,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Kubernetes CrashLoopBackOff Resolver](skills/kubernetes-crashloopbackoff-resolver/) | Security Reviewed | 121.3k | — | `clawhub install kubernetes-crashloopbackoff-resolver` |
 | [Kubernetes Diagnostic Runbook](skills/kubernetes-diagnostic-runbook/) | Security Reviewed | 121.3k | — | `clawhub install kubernetes-diagnostic-runbook` |
 | [Kubernetes Diagnostics Agent](skills/kubernetes-diagnostics-agent/) | Security Reviewed | 121.3k | — | `clawhub install kubernetes-diagnostics-agent` |
+| [Kubernetes Events API CrashLoop Investigator](skills/kubernetes-events-api-crashloop-investigator/) | Security Reviewed | 121.3k | — | `clawhub install kubernetes-events-api-crashloop-investigator` |
 | [Kubernetes Incident Runbook](skills/kubernetes-incident-runbook/) | Security Reviewed | 121.3k | — | `clawhub install kubernetes-incident-runbook` |
 | [Kubernetes Pod Crash Analyzer](skills/kubernetes-pod-crash-analyzer-3/) | Security Reviewed | 121.3k | — | `clawhub install kubernetes-pod-crash-analyzer-3` |
 | [Kubernetes Pod Crash Diagnostician](skills/kubernetes-pod-crash-diagnostician/) | Security Reviewed | 121.3k | — | `clawhub install kubernetes-pod-crash-diagnostician` |
@@ -203,7 +204,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Kubernetes Rollback Runbook](skills/kubernetes-rollback-runbook-3/) | Security Reviewed | 121.3k | — | `clawhub install kubernetes-rollback-runbook-3` |
 | [Kubernetes Runbook Executor](skills/kubernetes-runbook-executor-2/) | Security Reviewed | 121.3k | — | `clawhub install kubernetes-runbook-executor-2` |
 | [Kubernetes Runbook Generator](skills/kubernetes-runbook-generator/) | Security Reviewed | 121.3k | — | `clawhub install kubernetes-runbook-generator` |
-| [Kubernetes Troubleshoot Analyzer](skills/kubernetes-troubleshoot-analyzer/) | Listed | 121.3k | — | `clawhub install kubernetes-troubleshoot-analyzer` |
+| [Kubernetes Troubleshoot Analyzer](skills/kubernetes-troubleshoot-analyzer/) | Security Reviewed | 121.3k | — | `clawhub install kubernetes-troubleshoot-analyzer` |
 | [Pod CrashLoop Runbook](skills/pod-crashloop-runbook/) | Listed | 121.3k | — | `clawhub install pod-crashloop-runbook` |
 | [Docker Compose Health Checker](skills/docker-compose-health-checker/) | Security Reviewed | 71.6k | — | `clawhub install docker-compose-health-checker` |
 | [Docker Compose Health Monitor](skills/docker-compose-health-monitor/) | Security Reviewed | 71.6k | — | `clawhub install docker-compose-health-monitor` |
@@ -212,8 +213,8 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Dockerfile Security Hardening Advisor](skills/dockerfile-security-hardening-advisor/) | Security Reviewed | 71.6k | — | `clawhub install dockerfile-security-hardening-advisor` |
 | [Ansible Playbook Dry-Run Validator](skills/ansible-playbook-dryrun-validator-agent/) | Security Reviewed | 68.4k | 9.2M/wk | `clawhub install ansible-playbook-dryrun-validator-agent` |
 | [Ansible Playbook Runner with Vault Secrets](skills/ansible-playbook-vault-runner/) | Listed | 68.4k | 9.2M/wk | `clawhub install ansible-playbook-vault-runner` |
-| [Ansible Playbook Debugger](skills/ansible-playbook-debugger/) | Listed | 68.4k | — | `clawhub install ansible-playbook-debugger` |
-| [Ansible Playbook Diagnostics Runner](skills/ansible-playbook-diagnostics-runner/) | Listed | 68.4k | — | `clawhub install ansible-playbook-diagnostics-runner` |
+| [Ansible Playbook Debugger](skills/ansible-playbook-debugger/) | Security Reviewed | 68.4k | — | `clawhub install ansible-playbook-debugger` |
+| [Ansible Playbook Diagnostics Runner](skills/ansible-playbook-diagnostics-runner/) | Security Reviewed | 68.4k | — | `clawhub install ansible-playbook-diagnostics-runner` |
 | [Ansible Playbook Dry Run Validator](skills/ansible-playbook-dry-run-validator/) | Security Reviewed | 68.4k | — | `clawhub install ansible-playbook-dry-run-validator` |
 | [Ansible Playbook Dry-Run Analyzer](skills/ansible-playbook-dry-run-analyzer/) | Security Reviewed | 68.4k | — | `clawhub install ansible-playbook-dry-run-analyzer` |
 | [Ansible Playbook Linter Pro](skills/ansible-playbook-linter-pro/) | Security Reviewed | 68.4k | — | `clawhub install ansible-playbook-linter-pro` |
@@ -222,33 +223,33 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Prometheus Alert Rule Tester](skills/prometheus-alert-rule-tester/) | Security Reviewed | 63.3k | 5.3M/wk | `clawhub install prometheus-alert-rule-tester` |
 | [Prometheus Alert Runbook](skills/prometheus-alert-runbook/) | Security Reviewed | 63.3k | 5.3M/wk | `clawhub install prometheus-alert-runbook` |
 | [Prometheus Alert Runbook Agent](skills/prometheus-alert-runbook-agent/) | Security Reviewed | 63.3k | 5.3M/wk | `clawhub install prometheus-alert-runbook-agent` |
-| [Prometheus Alert Runbook Linker](skills/prometheus-alert-runbook-linker/) | Listed | 63.3k | 5.3M/wk | `clawhub install prometheus-alert-runbook-linker` |
+| [Prometheus Alert Runbook Linker](skills/prometheus-alert-runbook-linker/) | Security Reviewed | 63.3k | 5.3M/wk | `clawhub install prometheus-alert-runbook-linker` |
 | [Prometheus Alert Tuner](skills/prometheus-alert-tuner/) | Security Reviewed | 63.3k | 5.3M/wk | `clawhub install prometheus-alert-tuner` |
 | [Terraform Drift Detection Runbook](skills/terraform-drift-detection-runbook/) | Security Reviewed | 48k | — | `clawhub install terraform-drift-detection-runbook` |
 | [Terraform Plan Diff Reviewer](skills/terraform-plan-diff-reviewer/) | Security Reviewed | 48k | — | `clawhub install terraform-plan-diff-reviewer` |
 | [Terraform State Diagnostics](skills/terraform-state-diagnostics/) | Security Reviewed | 48k | — | `clawhub install terraform-state-diagnostics` |
-| [Terraform State Drift Detector](skills/terraform-state-drift-detector/) | Listed | 48k | — | `clawhub install terraform-state-drift-detector` |
+| [Terraform State Drift Detector](skills/terraform-state-drift-detector/) | Security Reviewed | 48k | — | `clawhub install terraform-state-drift-detector` |
 | [Terraform State Forensics Tool](skills/terraform-state-forensics-tool/) | Security Reviewed | 48k | — | `clawhub install terraform-state-forensics-tool` |
 | [Terraform State Inspector](skills/terraform-state-inspector/) | Security Reviewed | 48k | — | `clawhub install terraform-state-inspector` |
 | [Terraform State Surgery Kit](skills/terraform-state-surgery-kit/) | Security Reviewed | 48k | — | `clawhub install terraform-state-surgery-kit` |
 | [Sentry Error Triage Assistant](skills/sentry-error-triage-assistant/) | Security Reviewed | 43.4k | 16.4M/wk | `clawhub install sentry-error-triage-assistant` |
-| [Nginx Config Linter and Tester](skills/nginx-config-linter-tester/) | Listed | 29.8k | — | `clawhub install nginx-config-linter-tester` |
-| [Nginx Config Validator and Optimizer](skills/nginx-config-validator-optimizer/) | Listed | 29.8k | — | `clawhub install nginx-config-validator-optimizer` |
-| [Nginx Config Validator Runbook](skills/nginx-config-validator-runbook/) | Listed | 29.8k | — | `clawhub install nginx-config-validator-runbook` |
+| [Nginx Config Linter and Tester](skills/nginx-config-linter-tester/) | Security Reviewed | 29.8k | — | `clawhub install nginx-config-linter-tester` |
+| [Nginx Config Validator and Optimizer](skills/nginx-config-validator-optimizer/) | Security Reviewed | 29.8k | — | `clawhub install nginx-config-validator-optimizer` |
+| [Nginx Config Validator Runbook](skills/nginx-config-validator-runbook/) | Security Reviewed | 29.8k | — | `clawhub install nginx-config-validator-runbook` |
 | [Nginx Error Log Analyzer](skills/nginx-error-log-analyzer/) | Security Reviewed | 29.8k | — | `clawhub install nginx-error-log-analyzer` |
-| [Nginx Error Log Analyzer and Fixer](skills/nginx-error-log-analyzer-fixer/) | Listed | 29.8k | — | `clawhub install nginx-error-log-analyzer-fixer` |
-| [Nginx Error Log Classifier](skills/nginx-error-log-classifier/) | Listed | 29.8k | — | `clawhub install nginx-error-log-classifier` |
+| [Nginx Error Log Analyzer and Fixer](skills/nginx-error-log-analyzer-fixer/) | Security Reviewed | 29.8k | — | `clawhub install nginx-error-log-analyzer-fixer` |
+| [Nginx Error Log Classifier](skills/nginx-error-log-classifier/) | Security Reviewed | 29.8k | — | `clawhub install nginx-error-log-classifier` |
 | [Nginx Error Log Pattern Analyzer](skills/nginx-error-log-pattern-analyzer/) | Security Reviewed | 29.8k | — | `clawhub install nginx-error-log-pattern-analyzer` |
 | [Nginx Error Log Runbook Agent](skills/nginx-error-log-runbook-agent/) | Security Reviewed | 29.8k | — | `clawhub install nginx-error-log-runbook-agent` |
 | [Nginx Error Pattern Analyzer](skills/nginx-error-pattern-analyzer-agent/) | Security Reviewed | 29.8k | — | `clawhub install nginx-error-pattern-analyzer-agent` |
 | [Jenkins Build Log Analyzer](skills/jenkins-build-log-analyzer/) | Security Reviewed | 25.1k | — | `clawhub install jenkins-build-log-analyzer` |
+| [Pulumi Drift Detector &#038; Reconciler](skills/pulumi-drift-detector-reconciler/) | Listed | 24.9k | 1.5M/wk | `clawhub install pulumi-drift-detector-reconciler` |
 | [ArgoCD Application Health Runbook](skills/argocd-application-health-runbook/) | Security Reviewed | 22.4k | — | `clawhub install argocd-application-health-runbook` |
 | [ArgoCD Deployment Runbook Agent](skills/argocd-deployment-runbook-agent/) | Security Reviewed | 22.4k | — | `clawhub install argocd-deployment-runbook-agent` |
 | [Incident Timeline Builder](skills/incident-timeline-builder/) | Security Reviewed | 5.6k | 1.1M/wk | `clawhub install incident-timeline-builder` |
 | [Apache Kafka Consumer Lag Runbook](skills/apache-kafka-consumer-lag-runbook/) | Security Reviewed | 4k | 2.4M/wk | `clawhub install apache-kafka-consumer-lag-runbook` |
 | [Queue Backup Runbook](skills/queue-backup-runbook/) | Listed | 4k | 2.4M/wk | `clawhub install queue-backup-runbook` |
 | [AWS CloudFormation Drift Detector](skills/aws-cloudformation-drift-detector-4/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-cloudformation-drift-detector-4` |
-| [AWS CloudFormation Stack Diagnostics](skills/aws-cloudformation-stack-diagnostics/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-cloudformation-stack-diagnostics` |
 | [AWS CloudWatch Alarm Diagnostic](skills/aws-cloudwatch-alarm-diagnostic/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-cloudwatch-alarm-diagnostic` |
 | [AWS CloudWatch Alarm Runbook](skills/aws-cloudwatch-alarm-runbook-wave48/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-cloudwatch-alarm-runbook-wave48` |
 | [AWS CloudWatch Alarm Runbook Generator](skills/aws-cloudwatch-alarm-runbook-generator/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-cloudwatch-alarm-runbook-generator` |
@@ -261,36 +262,37 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [AWS CloudWatch Log Anomaly Investigator](skills/aws-cloudwatch-log-anomaly-investigator/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-cloudwatch-log-anomaly-investigator` |
 | [AWS CloudWatch Log Anomaly Scanner](skills/aws-cloudwatch-log-anomaly-scanner/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-cloudwatch-log-anomaly-scanner` |
 | [AWS CloudWatch Runbook Agent](skills/aws-cloudwatch-runbook-agent/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-cloudwatch-runbook-agent` |
-| [AWS Systems Manager Runbook](skills/aws-ssm-runbook-executor/) | Listed | 3.6k | 9.2M/wk | `clawhub install aws-ssm-runbook-executor` |
+| [AWS Systems Manager Automation Incident Guide](skills/aws-systems-manager-automation-incident-guide/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-systems-manager-automation-incident-guide` |
+| [AWS Systems Manager Runbook](skills/aws-ssm-runbook-executor/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-ssm-runbook-executor` |
 | [AWS Systems Manager Runbook Engine](skills/aws-ssm-runbook-engine/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-ssm-runbook-engine` |
+| [AWS CloudFormation Stack Diagnostics](skills/aws-cloudformation-stack-diagnostics/) | Security Reviewed | 2.6k | 9.2M/wk | `clawhub install aws-cloudformation-stack-diagnostics` |
 | [Datadog Incident Runbook Runner](skills/datadog-incident-runbook-runner-2/) | Listed | 787 | 6M/wk | `clawhub install datadog-incident-runbook-runner-2` |
+| [Datadog Synthetics Failure Triage Skill](skills/datadog-synthetics-failure-triage-skill/) | Security Reviewed | 787 | 6M/wk | `clawhub install datadog-synthetics-failure-triage-skill` |
 | [Datadog Triage Playbook](skills/datadog-triage-playbook/) | Security Reviewed | 787 | 6M/wk | `clawhub install datadog-triage-playbook` |
 | [Incident Postmortem Generator](skills/incident-postmortem-generator/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install incident-postmortem-generator` |
 | [Incident Response Checklist Engine](skills/incident-response-checklist-engine/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install incident-response-checklist-engine` |
+| [PagerDuty Event Orchestration Runbook](skills/pagerduty-event-orchestration-runbook/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install pagerduty-event-orchestration-runbook` |
 | [PagerDuty Incident Runbook](skills/pagerduty-incident-runbook/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install pagerduty-incident-runbook` |
 | [PagerDuty Incident Runbook Automator](skills/pagerduty-incident-runbook-automator/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install pagerduty-incident-runbook-automator` |
 | [PagerDuty Incident Runbook Engine](skills/pagerduty-incident-runbook-engine/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install pagerduty-incident-runbook-engine` |
 | [PagerDuty Incident Runbook Executor](skills/pagerduty-incident-runbook-executor/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install pagerduty-incident-runbook-executor` |
 | [PagerDuty On-Call Escalation Checker](skills/pagerduty-on-call-escalation-checker-2/) | Listed | 69 | 210.8k/wk | `clawhub install pagerduty-on-call-escalation-checker-2` |
-| [Database Migration Validator](skills/database-migration-validator/) | Listed | — | 21.4M/wk | `clawhub install database-migration-validator` |
+| [Database Migration Validator](skills/database-migration-validator/) | Security Reviewed | — | 21.4M/wk | `clawhub install database-migration-validator` |
 | [PostgreSQL Diagnostic Analyzer](skills/postgresql-diagnostic-analyzer/) | Listed | — | 21.4M/wk | `clawhub install postgresql-diagnostic-analyzer` |
-| [PostgreSQL Diagnostic Runbook](skills/postgresql-diagnostic-runbook/) | Listed | — | 21.4M/wk | `clawhub install postgresql-diagnostic-runbook` |
-| [PostgreSQL Health Diagnostics Agent](skills/postgresql-health-diagnostics-agent/) | Listed | — | 21.4M/wk | `clawhub install postgresql-health-diagnostics-agent` |
-| [PostgreSQL Performance Diagnostic Suite](skills/postgresql-performance-diagnostic-suite/) | Listed | — | 21.4M/wk | `clawhub install postgresql-performance-diagnostic-suite` |
-| [PostgreSQL Performance Diagnostics](skills/postgresql-performance-diagnostics/) | Listed | — | 21.4M/wk | `clawhub install postgresql-performance-diagnostics` |
-| [PostgreSQL Performance Runbook](skills/postgresql-performance-runbook/) | Listed | — | 21.4M/wk | `clawhub install postgresql-performance-runbook` |
-| [PostgreSQL Query Analyzer](skills/postgresql-query-analyzer/) | Listed | — | 21.4M/wk | `clawhub install postgresql-query-analyzer` |
-| [PostgreSQL Query Diagnostics](skills/postgresql-query-diagnostics/) | Listed | — | 21.4M/wk | `clawhub install postgresql-query-diagnostics` |
-| [PostgreSQL Query Plan Diagnostics](skills/postgresql-query-plan-diagnostics-wave48/) | Listed | — | 21.4M/wk | `clawhub install postgresql-query-plan-diagnostics-wave48` |
+| [PostgreSQL Diagnostic Runbook](skills/postgresql-diagnostic-runbook/) | Security Reviewed | — | 21.4M/wk | `clawhub install postgresql-diagnostic-runbook` |
+| [PostgreSQL Health Diagnostics Agent](skills/postgresql-health-diagnostics-agent/) | Security Reviewed | — | 21.4M/wk | `clawhub install postgresql-health-diagnostics-agent` |
+| [PostgreSQL Performance Diagnostic Suite](skills/postgresql-performance-diagnostic-suite/) | Security Reviewed | — | 21.4M/wk | `clawhub install postgresql-performance-diagnostic-suite` |
+| [PostgreSQL Performance Diagnostics](skills/postgresql-performance-diagnostics/) | Security Reviewed | — | 21.4M/wk | `clawhub install postgresql-performance-diagnostics` |
+| [PostgreSQL Performance Runbook](skills/postgresql-performance-runbook/) | Security Reviewed | — | 21.4M/wk | `clawhub install postgresql-performance-runbook` |
+| [PostgreSQL Query Analyzer](skills/postgresql-query-analyzer/) | Security Reviewed | — | 21.4M/wk | `clawhub install postgresql-query-analyzer` |
+| [PostgreSQL Query Diagnostics](skills/postgresql-query-diagnostics/) | Security Reviewed | — | 21.4M/wk | `clawhub install postgresql-query-diagnostics` |
+| [PostgreSQL Query Plan Diagnostics](skills/postgresql-query-plan-diagnostics-wave48/) | Verified Metadata | — | 21.4M/wk | `clawhub install postgresql-query-plan-diagnostics-wave48` |
 | [PostgreSQL Query Plan Explainer](skills/postgresql-query-plan-explainer/) | Listed | — | 21.4M/wk | `clawhub install postgresql-query-plan-explainer` |
 | [PostgreSQL Slow Query Analyzer](skills/postgresql-slow-query-analyzer/) | Listed | — | 21.4M/wk | `clawhub install postgresql-slow-query-analyzer` |
-| [PostgreSQL Slow Query Runbook](skills/postgresql-slow-query-runbook-agent/) | Listed | — | 21.4M/wk | `clawhub install postgresql-slow-query-runbook-agent` |
+| [PostgreSQL Slow Query Runbook](skills/postgresql-slow-query-runbook-agent/) | Security Reviewed | — | 21.4M/wk | `clawhub install postgresql-slow-query-runbook-agent` |
 | [PostgreSQL Vacuum Deadlock Runbook](skills/postgresql-vacuum-deadlock-runbook/) | Security Reviewed | — | 21.4M/wk | `clawhub install postgresql-vacuum-deadlock-runbook` |
-| [Pulumi Drift Detector &#038; Reconciler](skills/pulumi-drift-detector-reconciler/) | Listed | — | 1.5M/wk | `clawhub install pulumi-drift-detector-reconciler` |
 | [API Latency Spike Runbook](skills/api-latency-spike-runbook/) | Listed | — | — | `clawhub install api-latency-spike-runbook` |
-| [AWS Systems Manager Automation Incident Guide](skills/aws-systems-manager-automation-incident-guide/) | Listed | — | — | `clawhub install aws-systems-manager-automation-incident-guide` |
 | [Cache Miss Storm Runbook](skills/cache-miss-storm-runbook/) | Listed | — | — | `clawhub install cache-miss-storm-runbook` |
-| [Datadog Synthetics Failure Triage Skill](skills/datadog-synthetics-failure-triage-skill/) | Listed | — | — | `clawhub install datadog-synthetics-failure-triage-skill` |
 | [DB Connection Runbook](skills/db-connection-runbook/) | Listed | — | — | `clawhub install db-connection-runbook` |
 | [Deployment Rollback Runbook](skills/deployment-rollback-runbook-2/) | Listed | — | — | `clawhub install deployment-rollback-runbook-2` |
 | [Disk Space Alert Runbook](skills/disk-space-alert-runbook/) | Listed | — | — | `clawhub install disk-space-alert-runbook` |
@@ -298,15 +300,13 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [High CPU Alert Runbook](skills/high-cpu-alert-runbook/) | Listed | — | — | `clawhub install high-cpu-alert-runbook` |
 | [Incident Escalation Runbook](skills/incident-escalation-runbook/) | Listed | — | — | `clawhub install incident-escalation-runbook` |
 | [Incident Response Playbook Runner](skills/incident-response-playbook-runner/) | Security Reviewed | — | — | `clawhub install incident-response-playbook-runner` |
-| [Kubernetes Events API CrashLoop Investigator](skills/kubernetes-events-api-crashloop-investigator/) | Listed | — | — | `clawhub install kubernetes-events-api-crashloop-investigator` |
 | [Load Balancer Health Runbook](skills/load-balancer-health-runbook/) | Listed | — | — | `clawhub install load-balancer-health-runbook` |
 | [Memory Leak Debugger Runbook](skills/memory-leak-debugger-runbook/) | Listed | — | — | `clawhub install memory-leak-debugger-runbook` |
 | [MLflow to W&#038;B Migration Assistant](skills/mlflow-to-wandb-migration/) | Listed | — | — | `clawhub install mlflow-to-wandb-migration` |
 | [On-Call Handoff Runbook](skills/on-call-handoff-runbook/) | Listed | — | — | `clawhub install on-call-handoff-runbook` |
-| [PagerDuty Event Orchestration Runbook](skills/pagerduty-event-orchestration-runbook/) | Listed | — | — | `clawhub install pagerduty-event-orchestration-runbook` |
 | [SSL Certificate Expiry Runbook](skills/ssl-certificate-expiry-runbook/) | Listed | — | — | `clawhub install ssl-certificate-expiry-runbook` |
 | [Systemd Service Debugger](skills/systemd-service-debugger/) | Security Reviewed | — | — | `clawhub install systemd-service-debugger` |
-| [Systemd Service Diagnostics](skills/systemd-service-diagnostics/) | Listed | — | — | `clawhub install systemd-service-diagnostics` |
+| [Systemd Service Diagnostics](skills/systemd-service-diagnostics/) | Security Reviewed | — | — | `clawhub install systemd-service-diagnostics` |
 | [Systemd Service Recovery Playbook](skills/systemd-service-recovery-playbook-2/) | Security Reviewed | — | — | `clawhub install systemd-service-recovery-playbook-2` |
 
 
@@ -318,9 +318,10 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 |---|---|---:|---:|---|
 | [Kubernetes MCP Server](skills/kubernetes-mcp-server/) | Listed | 121.3k | — | `clawhub install kubernetes-mcp-server` |
 | [Kubernetes Pod Crash Diagnostics](skills/kubernetes-pod-crash-diagnostics-3/) | Listed | 121.3k | — | `clawhub install kubernetes-pod-crash-diagnostics-3` |
-| [Puppeteer DevTools Protocol Recorder](skills/puppeteer-devtools-protocol-recorder/) | Listed | 93.9k | 8.7M/wk | `clawhub install puppeteer-devtools-protocol-recorder` |
+| [Supabase MCP Server](skills/supabase-mcp-server/) | Listed | 99.5k | 14.6M/wk | `clawhub install supabase-mcp-server` |
+| [Puppeteer DevTools Protocol Recorder](skills/puppeteer-devtools-protocol-recorder/) | Security Reviewed | 93.9k | 8.7M/wk | `clawhub install puppeteer-devtools-protocol-recorder` |
 | [Playwright E2E Test Generator](skills/playwright-e2e-test-generator/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-e2e-test-generator` |
-| [Vite Plugin Hot Module Analyzer](skills/vite-plugin-hmr-analyzer/) | Listed | 79.3k | 76.3M/wk | `clawhub install vite-plugin-hmr-analyzer` |
+| [Vite Plugin Hot Module Analyzer](skills/vite-plugin-hmr-analyzer/) | Security Reviewed | 79.3k | 76.3M/wk | `clawhub install vite-plugin-hmr-analyzer` |
 | [Redis MCP Server](skills/redis-mcp-server/) | Listed | 73.5k | 8.2M/wk | `clawhub install redis-mcp-server` |
 | [Devcontainer Setup Agent](skills/devcontainer-setup-agent/) | Listed | 71.6k | — | `clawhub install devcontainer-setup-agent` |
 | [Devcontainer Specification Builder](skills/devcontainer-specification-builder/) | Security Reviewed | 71.6k | — | `clawhub install devcontainer-specification-builder` |
@@ -330,28 +331,35 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Docker Compose Stack Analyzer](skills/docker-compose-stack-analyzer/) | Security Reviewed | 71.6k | — | `clawhub install docker-compose-stack-analyzer` |
 | [Docker Compose Stack Builder](skills/docker-compose-stack-builder-sdk/) | Security Reviewed | 71.6k | — | `clawhub install docker-compose-stack-builder-sdk` |
 | [Docker MCP Server](skills/docker-mcp-server/) | Listed | 71.6k | — | `clawhub install docker-mcp-server` |
-| [VS Code Extension Scaffolder](skills/vscode-extension-scaffolder-agent/) | Listed | 66k | 44.8M/wk | `clawhub install vscode-extension-scaffolder-agent` |
+| [VS Code Extension Scaffolder](skills/vscode-extension-scaffolder-agent/) | Security Reviewed | 66k | 44.8M/wk | `clawhub install vscode-extension-scaffolder-agent` |
 | [Webpack Bundle Analyzer Agent](skills/webpack-bundle-analyzer-agent/) | Listed | 66k | 44.8M/wk | `clawhub install webpack-bundle-analyzer-agent` |
 | [Terraform Cloud MCP Server](skills/terraform-cloud-mcp-server/) | Listed | 48k | — | `clawhub install terraform-cloud-mcp-server` |
 | [Terraform Module Scaffolder](skills/terraform-module-scaffolder-hcl-sdk/) | Security Reviewed | 48k | — | `clawhub install terraform-module-scaffolder-hcl-sdk` |
+| [LlamaIndex Agent](skills/llamaindex-agent/) | Listed | 47.9k | 125.7k/wk | `clawhub install llamaindex-agent` |
+| [LlamaIndex MCP Server](skills/llamaindex-mcp-server/) | Listed | 47.9k | 125.7k/wk | `clawhub install llamaindex-mcp-server` |
 | [Obsidian Vault Manager](skills/obsidian-vault-manager/) | Listed | 35.3k | — | `clawhub install obsidian-vault-manager` |
 | [Nginx Error Log Parser](skills/nginx-error-log-parser/) | Listed | 29.8k | — | `clawhub install nginx-error-log-parser` |
 | [API Client Generator Skill](skills/api-client-generator-skill/) | Listed | 28.7k | 3.2M/wk | `clawhub install api-client-generator-skill` |
-| [Biome Lint Migration Toolkit](skills/biome-lint-migration-toolkit/) | Listed | 27.2k | 109M/wk | `clawhub install biome-lint-migration-toolkit` |
+| [Biome Lint Migration Toolkit](skills/biome-lint-migration-toolkit/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install biome-lint-migration-toolkit` |
 | [ESLint Code Review](skills/eslint-code-review/) | Listed | 27.2k | 109M/wk | `clawhub install eslint-code-review` |
 | [ESLint Rule Generator Agent](skills/eslint-rule-generator-agent/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-rule-generator-agent` |
 | [TypeScript AST Refactor](skills/typescript-ast-refactor-ts-morph/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install typescript-ast-refactor-ts-morph` |
 | [Jenkins MCP Server](skills/jenkins-mcp-server/) | Listed | 25.1k | — | `clawhub install jenkins-mcp-server` |
+| [Pulumi MCP Server](skills/pulumi-mcp-server/) | Listed | 24.9k | 1.5M/wk | `clawhub install pulumi-mcp-server` |
 | [CI Pipeline Generator Skill](skills/ci-pipeline-generator-skill/) | Listed | 24.3k | — | `clawhub install ci-pipeline-generator-skill` |
 | [ArgoCD MCP Server](skills/argocd-mcp-server/) | Listed | 22.4k | — | `clawhub install argocd-mcp-server` |
 | [Git Branch Analyzer](skills/git-branch-analyzer-libgit2/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install git-branch-analyzer-libgit2` |
 | [Linear Issue Manager](skills/linear-issue-manager/) | Listed | 20.3k | 32M/wk | `clawhub install linear-issue-manager` |
+| [LangChain MCP Server](skills/langchain-mcp-server/) | Listed | 17.3k | 2.1M/wk | `clawhub install langchain-mcp-server` |
 | [OpenAPI Spec Validator](skills/openapi-spec-validator-agent/) | Security Reviewed | 14.9k | — | `clawhub install openapi-spec-validator-agent` |
+| [Regex Pattern Test Suite Generator](skills/regex-pattern-test-suite-generator/) | Security Reviewed | 13.7k | — | `clawhub install regex-pattern-test-suite-generator` |
 | [OpenAI MCP Server](skills/openai-mcp-server/) | Listed | 10.8k | 16.3M/wk | `clawhub install openai-mcp-server` |
 | [SonarQube Code Analysis](skills/sonarqube-code-analysis/) | Listed | 10.4k | — | `clawhub install sonarqube-code-analysis` |
 | [MongoDB MCP Server](skills/mongodb-mcp-server/) | Listed | 10.2k | 10.9M/wk | `clawhub install mongodb-mcp-server` |
+| [SQLite Analyst](skills/sqlite-analyst/) | Listed | 7k | 5M/wk | `clawhub install sqlite-analyst` |
 | [Notion Workspace Agent](skills/notion-workspace-agent/) | Listed | 5.6k | 1.1M/wk | `clawhub install notion-workspace-agent` |
 | [Webhook Debugger](skills/webhook-debugger/) | Listed | 4.4k | 8.4M/wk | `clawhub install webhook-debugger` |
+| [MySQL Query Agent](skills/mysql-query-agent/) | Listed | 4.3k | 8.7M/wk | `clawhub install mysql-query-agent` |
 | [AWS Lambda MCP Server](skills/aws-lambda-mcp-server/) | Listed | 3.6k | 9.2M/wk | `clawhub install aws-lambda-mcp-server` |
 | [AWS S3 MCP Server](skills/aws-s3-mcp-server/) | Listed | 3.6k | 9.2M/wk | `clawhub install aws-s3-mcp-server` |
 | [Cloud Cost Analysis](skills/cloud-cost-analysis/) | Listed | 3.6k | 9.2M/wk | `clawhub install cloud-cost-analysis` |
@@ -359,13 +367,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [CircleCI MCP Server](skills/circleci-mcp-server/) | Listed | 842 | — | `clawhub install circleci-mcp-server` |
 | [PostgreSQL Query Optimizer Agent](skills/postgresql-query-optimizer-explain-api/) | Security Reviewed | — | 21.4M/wk | `clawhub install postgresql-query-optimizer-explain-api` |
 | [PostgreSQL Query Plan Analyzer](skills/postgresql-query-plan-analyzer-2/) | Listed | — | 21.4M/wk | `clawhub install postgresql-query-plan-analyzer-2` |
-| [Supabase MCP Server](skills/supabase-mcp-server/) | Listed | — | 14.6M/wk | `clawhub install supabase-mcp-server` |
-| [MySQL Query Agent](skills/mysql-query-agent/) | Listed | — | 8.7M/wk | `clawhub install mysql-query-agent` |
-| [SQLite Analyst](skills/sqlite-analyst/) | Listed | — | 5M/wk | `clawhub install sqlite-analyst` |
-| [LangChain MCP Server](skills/langchain-mcp-server/) | Listed | — | 2.1M/wk | `clawhub install langchain-mcp-server` |
-| [Pulumi MCP Server](skills/pulumi-mcp-server/) | Listed | — | 1.5M/wk | `clawhub install pulumi-mcp-server` |
-| [LlamaIndex Agent](skills/llamaindex-agent/) | Listed | — | 125.7k/wk | `clawhub install llamaindex-agent` |
-| [LlamaIndex MCP Server](skills/llamaindex-mcp-server/) | Listed | — | 125.7k/wk | `clawhub install llamaindex-mcp-server` |
 | [AgentGPT Autonomy Agent](skills/agentgpt-autonomy-agent/) | Listed | — | — | `clawhub install agentgpt-autonomy-agent` |
 | [Anthropic Claude MCP Server](skills/anthropic-claude-mcp-server/) | Listed | — | — | `clawhub install anthropic-claude-mcp-server` |
 | [API Documentation Generator](skills/api-documentation-generator/) | Listed | — | — | `clawhub install api-documentation-generator` |
@@ -373,7 +374,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Azure DevOps MCP Server](skills/azure-devops-mcp-server/) | Listed | — | — | `clawhub install azure-devops-mcp-server` |
 | [BabyAGI Task Planner](skills/babyagi-task-planner/) | Listed | — | — | `clawhub install babyagi-task-planner` |
 | [Bazel Build Graph Analyzer](skills/bazel-build-graph-analyzer/) | Security Reviewed | — | — | `clawhub install bazel-build-graph-analyzer` |
-| [Bun Shell Script Executor](skills/bun-shell-script-executor/) | Listed | — | — | `clawhub install bun-shell-script-executor` |
+| [Bun Shell Script Executor](skills/bun-shell-script-executor/) | Security Reviewed | — | — | `clawhub install bun-shell-script-executor` |
 | [Changelog Generator Skill](skills/changelog-generator-skill/) | Listed | — | — | `clawhub install changelog-generator-skill` |
 | [Claude Code MCP Bridge](skills/claude-code-mcp-bridge/) | Security Reviewed | — | — | `clawhub install claude-code-mcp-bridge` |
 | [CockroachDB Agent](skills/cockroachdb-agent/) | Listed | — | — | `clawhub install cockroachdb-agent` |
@@ -391,9 +392,9 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Environment Variable Manager](skills/environment-variable-manager/) | Listed | — | — | `clawhub install environment-variable-manager` |
 | [Feature Flag Manager](skills/feature-flag-manager/) | Listed | — | — | `clawhub install feature-flag-manager` |
 | [Filesystem MCP Server](skills/filesystem-mcp-server/) | Listed | — | — | `clawhub install filesystem-mcp-server` |
-| [Frontend Design Guidance Skill](skills/frontend-design-guidance-skill/) | Listed | — | — | `clawhub install frontend-design-guidance-skill` |
+| [Frontend Design Guidance Skill](skills/frontend-design-guidance-skill/) | Security Reviewed | — | — | `clawhub install frontend-design-guidance-skill` |
 | [Git Bisect Automator](skills/git-bisect-automator/) | Security Reviewed | — | — | `clawhub install git-bisect-automator` |
-| [Git Diff Complexity Analyzer](skills/git-diff-complexity-analyzer/) | Listed | — | — | `clawhub install git-diff-complexity-analyzer` |
+| [Git Diff Complexity Analyzer](skills/git-diff-complexity-analyzer/) | Security Reviewed | — | — | `clawhub install git-diff-complexity-analyzer` |
 | [Git Repository MCP Server](skills/git-repository-mcp-server/) | Listed | — | — | `clawhub install git-repository-mcp-server` |
 | [GitHub Actions MCP Server](skills/github-actions-mcp-server/) | Listed | — | — | `clawhub install github-actions-mcp-server` |
 | [GitHub Copilot Context Enhancer](skills/github-copilot-context-enhancer/) | Listed | — | — | `clawhub install github-copilot-context-enhancer` |
@@ -408,14 +409,14 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [LangGraph Workflow Builder](skills/langgraph-workflow-builder/) | Listed | — | — | `clawhub install langgraph-workflow-builder` |
 | [LLDB Debug Session Automator](skills/lldb-debug-session-automator/) | Security Reviewed | — | — | `clawhub install lldb-debug-session-automator` |
 | [Load Testing with k6 and Locust](skills/load-testing-with-k6-and-locust/) | Listed | — | — | `clawhub install load-testing-with-k6-and-locust` |
-| [Makefile Dependency Auditor](skills/makefile-dependency-auditor/) | Listed | — | — | `clawhub install makefile-dependency-auditor` |
+| [Makefile Dependency Auditor](skills/makefile-dependency-auditor/) | Security Reviewed | — | — | `clawhub install makefile-dependency-auditor` |
 | [Makefile Generator Skill](skills/makefile-generator-skill/) | Listed | — | — | `clawhub install makefile-generator-skill` |
 | [MetaGPT Software Team](skills/metagpt-software-team/) | Listed | — | — | `clawhub install metagpt-software-team` |
 | [MinIO Object Storage](skills/minio-object-storage/) | Listed | — | — | `clawhub install minio-object-storage` |
 | [Mistral AI MCP Server](skills/mistral-ai-mcp-server/) | Listed | — | — | `clawhub install mistral-ai-mcp-server` |
 | [Mock Data Generator Skill](skills/mock-data-generator-skill/) | Listed | — | — | `clawhub install mock-data-generator-skill` |
 | [n8n GitHub Issue-to-Jira Ticket Automator](skills/n8n-github-jira-ticket-automator/) | Listed | — | — | `clawhub install n8n-github-jira-ticket-automator` |
-| [Nix Flake Configuration Builder](skills/nix-flake-configuration-builder/) | Listed | — | — | `clawhub install nix-flake-configuration-builder` |
+| [Nix Flake Configuration Builder](skills/nix-flake-configuration-builder/) | Security Reviewed | — | — | `clawhub install nix-flake-configuration-builder` |
 | [NPM Package Auditor](skills/npm-package-auditor-registry-api/) | Security Reviewed | — | — | `clawhub install npm-package-auditor-registry-api` |
 | [OpenAgents Tool User](skills/openagents-tool-user/) | Listed | — | — | `clawhub install openagents-tool-user` |
 | [Package Vulnerability Scanner](skills/package-vuln-scanner-osv-api/) | Security Reviewed | — | — | `clawhub install package-vuln-scanner-osv-api` |
@@ -423,7 +424,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [PR Description Writer Skill](skills/pr-description-writer-skill/) | Listed | — | — | `clawhub install pr-description-writer-skill` |
 | [Pre-commit Hook Runner](skills/pre-commit-hook-runner/) | Listed | — | — | `clawhub install pre-commit-hook-runner` |
 | [README Generator Skill](skills/readme-generator-skill/) | Listed | — | — | `clawhub install readme-generator-skill` |
-| [Regex Pattern Test Suite Generator](skills/regex-pattern-test-suite-generator/) | Listed | — | — | `clawhub install regex-pattern-test-suite-generator` |
 | [Replicate MCP Server](skills/replicate-mcp-server/) | Listed | — | — | `clawhub install replicate-mcp-server` |
 | [Semantic Kernel Agent](skills/semantic-kernel-agent/) | Listed | — | — | `clawhub install semantic-kernel-agent` |
 | [SuperAGI Agent Runner](skills/superagi-agent-runner/) | Listed | — | — | `clawhub install superagi-agent-runner` |
@@ -434,7 +434,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Vim Neovim Config Assistant](skills/vim-neovim-config-assistant/) | Listed | — | — | `clawhub install vim-neovim-config-assistant` |
 | [VS Code Extension Debugger](skills/vscode-extension-debugger-dap-protocol/) | Security Reviewed | — | — | `clawhub install vscode-extension-debugger-dap-protocol` |
 | [VS Code Extension Helper](skills/vs-code-extension-helper/) | Listed | — | — | `clawhub install vs-code-extension-helper` |
-| [WASM Component Model Linker](skills/wasm-component-model-linker/) | Listed | — | — | `clawhub install wasm-component-model-linker` |
+| [WASM Component Model Linker](skills/wasm-component-model-linker/) | Security Reviewed | — | — | `clawhub install wasm-component-model-linker` |
 | [Zsh Bash Profile Manager](skills/zsh-bash-profile-manager/) | Listed | — | — | `clawhub install zsh-bash-profile-manager` |
 
 
@@ -448,7 +448,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [OpenTelemetry Trace Analyzer](skills/opentelemetry-trace-analyzer/) | Security Reviewed | 72.8k | — | `clawhub install opentelemetry-trace-analyzer` |
 | [Docker Image Layer Analyzer](skills/docker-image-layer-analyzer/) | Security Reviewed | 71.6k | — | `clawhub install docker-image-layer-analyzer` |
 | [REST API Documentation Generator](skills/rest-api-documentation-generator/) | Security Reviewed | 68.9k | 91.7M/wk | `clawhub install rest-api-documentation-generator` |
-| [Terraform Provider Schema Explorer](skills/terraform-provider-schema-explorer/) | Listed | 48k | — | `clawhub install terraform-provider-schema-explorer` |
+| [Terraform Provider Schema Explorer](skills/terraform-provider-schema-explorer/) | Security Reviewed | 48k | — | `clawhub install terraform-provider-schema-explorer` |
 | [Prisma Schema Migrator](skills/prisma-schema-migrator/) | Security Reviewed | 45.6k | 9.4M/wk | `clawhub install prisma-schema-migrator` |
 | [API Documentation Indexer](skills/api-documentation-indexer/) | Security Reviewed | 28.7k | 3.2M/wk | `clawhub install api-documentation-indexer` |
 | [OpenAPI Spec Changelog Generator](skills/openapi-spec-changelog-generator/) | Security Reviewed | 28.7k | 3.2M/wk | `clawhub install openapi-spec-changelog-generator` |
@@ -478,16 +478,20 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [GraphQL Schema Stitcher](skills/graphql-schema-stitcher/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install graphql-schema-stitcher` |
 | [GraphQL Schema Stitching &#038; Federation Agent](skills/graphql-schema-stitching-federation-agent/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install graphql-schema-stitching-federation-agent` |
 | [NPM Package Audit Analyzer](skills/npm-package-audit-analyzer/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install npm-package-audit-analyzer` |
+| [OpenAPI Spec Reference Generator](skills/openapi-spec-reference-generator/) | Security Reviewed | 6k | — | `clawhub install openapi-spec-reference-generator` |
+| [OpenAPI Spec Validator &#038; Mock Server](skills/openapi-spec-validator-mock-server-2/) | Security Reviewed | 6k | — | `clawhub install openapi-spec-validator-mock-server-2` |
+| [Postman Collection Runner](skills/postman-collection-runner/) | Listed | 6k | — | `clawhub install postman-collection-runner` |
+| [REST API Test Suite Generator](skills/rest-api-test-suite-generator/) | Security Reviewed | 6k | — | `clawhub install rest-api-test-suite-generator` |
 | [NPM Package Explorer](skills/npm-package-explorer-registry-api/) | Security Reviewed | 5.5k | 601.7k/wk | `clawhub install npm-package-explorer-registry-api` |
 | [Buf Protobuf Linter](skills/buf-protobuf-linter/) | Security Reviewed | 4.8k | 30.9M/wk | `clawhub install buf-protobuf-linter` |
 | [gRPC Service Tool](skills/grpc-service-tool/) | Listed | 4.8k | 30.9M/wk | `clawhub install grpc-service-tool` |
 | [Protobuf &#038; gRPC Stub Generator](skills/protobuf-grpc-stub-generator/) | Security Reviewed | 4.8k | 30.9M/wk | `clawhub install protobuf-grpc-stub-generator` |
 | [Protobuf Documentation Generator](skills/protobuf-documentation-generator/) | Security Reviewed | 4.8k | 30.9M/wk | `clawhub install protobuf-documentation-generator` |
 | [Protobuf Schema Registry Manager](skills/protobuf-schema-registry-manager/) | Security Reviewed | 4.8k | 30.9M/wk | `clawhub install protobuf-schema-registry-manager` |
-| [Protocol Buffers Documentation Compiler](skills/protobuf-documentation-compiler/) | Listed | 4.8k | 30.9M/wk | `clawhub install protobuf-documentation-compiler` |
+| [Protocol Buffers Documentation Compiler](skills/protobuf-documentation-compiler/) | Security Reviewed | 4.8k | 30.9M/wk | `clawhub install protobuf-documentation-compiler` |
 | [Stripe API Reference Navigator](skills/stripe-api-reference-navigator/) | Security Reviewed | 4.4k | 8.4M/wk | `clawhub install stripe-api-reference-navigator` |
-| [AsyncAPI Event Catalog Builder](skills/asyncapi-event-catalog-builder/) | Listed | 4k | 2.4M/wk | `clawhub install asyncapi-event-catalog-builder` |
-| [AsyncAPI Event Catalog Generator](skills/asyncapi-event-catalog-generator/) | Listed | 4k | 2.4M/wk | `clawhub install asyncapi-event-catalog-generator` |
+| [AsyncAPI Event Catalog Builder](skills/asyncapi-event-catalog-builder/) | Security Reviewed | 4k | 2.4M/wk | `clawhub install asyncapi-event-catalog-builder` |
+| [AsyncAPI Event Catalog Generator](skills/asyncapi-event-catalog-generator/) | Security Reviewed | 4k | 2.4M/wk | `clawhub install asyncapi-event-catalog-generator` |
 | [Anthropic SDK Token Usage Logger](skills/anthropic-sdk-token-usage-logger/) | Verified Metadata | 3.6k | 9.2M/wk | `clawhub install anthropic-sdk-token-usage-logger` |
 | [AWS SDK Method Resolver](skills/aws-sdk-method-resolver/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-sdk-method-resolver` |
 | [OpenTelemetry Trace Context Propagator](skills/opentelemetry-trace-context-propagator/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install opentelemetry-trace-context-propagator` |
@@ -499,7 +503,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Auth Token Rotator](skills/auth-token-rotator/) | Listed | — | — | `clawhub install auth-token-rotator` |
 | [Confluence Knowledge Base Builder](skills/confluence-knowledge-base-builder/) | Listed | — | — | `clawhub install confluence-knowledge-base-builder` |
 | [Contract Testing Agent](skills/contract-testing-agent/) | Listed | — | — | `clawhub install contract-testing-agent` |
-| [Doxygen Cross-Reference Indexer](skills/doxygen-cross-reference-indexer/) | Listed | — | — | `clawhub install doxygen-cross-reference-indexer` |
+| [Doxygen Cross-Reference Indexer](skills/doxygen-cross-reference-indexer/) | Security Reviewed | — | — | `clawhub install doxygen-cross-reference-indexer` |
 | [Endpoint Health Monitor](skills/endpoint-health-monitor/) | Listed | — | — | `clawhub install endpoint-health-monitor` |
 | [GitHub REST API Paginator Library](skills/github-rest-api-paginator-library/) | Security Reviewed | — | — | `clawhub install github-rest-api-paginator-library` |
 | [JSDoc Type Definition Extractor](skills/jsdoc-type-definition-extractor/) | Security Reviewed | — | — | `clawhub install jsdoc-type-definition-extractor` |
@@ -517,15 +521,12 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [npm Registry Analyzer](skills/npm-registry-analyzer/) | Security Reviewed | — | — | `clawhub install npm-registry-analyzer` |
 | [npm Registry Explorer](skills/npm-registry-explorer/) | Security Reviewed | — | — | `clawhub install npm-registry-explorer` |
 | [OpenAPI SDK Generator Pipeline](skills/openapi-sdk-generator-pipeline/) | Verified Metadata | — | — | `clawhub install openapi-sdk-generator-pipeline` |
-| [OpenAPI Spec Reference Generator](skills/openapi-spec-reference-generator/) | Security Reviewed | — | — | `clawhub install openapi-spec-reference-generator` |
 | [OpenAPI Spec Validator &#038; Linter](skills/openapi-spec-validator-linter-2/) | Security Reviewed | — | — | `clawhub install openapi-spec-validator-linter-2` |
-| [OpenAPI Spec Validator &#038; Mock Server](skills/openapi-spec-validator-mock-server-2/) | Security Reviewed | — | — | `clawhub install openapi-spec-validator-mock-server-2` |
 | [OpenAPI to SDK Generator](skills/openapi-to-sdk-generator/) | Listed | — | — | `clawhub install openapi-to-sdk-generator` |
-| [Postman Collection Runner](skills/postman-collection-runner/) | Listed | — | — | `clawhub install postman-collection-runner` |
 | [PyPI Package Inspector](skills/pypi-package-inspector/) | Security Reviewed | — | — | `clawhub install pypi-package-inspector` |
 | [Python Dependency Graph Resolver](skills/python-dependency-graph-resolver/) | Security Reviewed | — | — | `clawhub install python-dependency-graph-resolver` |
 | [Python Docstring Extractor](skills/python-docstring-extractor/) | Security Reviewed | — | — | `clawhub install python-docstring-extractor` |
-| [Python Docstring Linter](skills/python-docstring-linter-ast-pydocstyle/) | Listed | — | — | `clawhub install python-docstring-linter-ast-pydocstyle` |
+| [Python Docstring Linter](skills/python-docstring-linter-ast-pydocstyle/) | Security Reviewed | — | — | `clawhub install python-docstring-linter-ast-pydocstyle` |
 | [Python Library Reference Builder](skills/python-library-reference-builder/) | Security Reviewed | — | — | `clawhub install python-library-reference-builder` |
 | [Python Package API Surface Mapper](skills/python-package-api-surface-mapper/) | Security Reviewed | — | — | `clawhub install python-package-api-surface-mapper` |
 | [Python Package Dependency Graph Mapper](skills/python-package-dependency-graph-mapper/) | Security Reviewed | — | — | `clawhub install python-package-dependency-graph-mapper` |
@@ -535,7 +536,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Python Type Stub Generator](skills/python-type-stub-generator-2/) | Listed | — | — | `clawhub install python-type-stub-generator-2` |
 | [Rate Limit Tracker](skills/rate-limit-tracker/) | Listed | — | — | `clawhub install rate-limit-tracker` |
 | [REST API Response Schema Validator](skills/rest-api-response-schema-validator/) | Security Reviewed | — | — | `clawhub install rest-api-response-schema-validator` |
-| [REST API Test Suite Generator](skills/rest-api-test-suite-generator/) | Security Reviewed | — | — | `clawhub install rest-api-test-suite-generator` |
 | [REST Mock Server](skills/rest-mock-server/) | Listed | — | — | `clawhub install rest-mock-server` |
 | [Rust Crate Analyzer](skills/rust-crate-analyzer/) | Security Reviewed | — | — | `clawhub install rust-crate-analyzer` |
 | [Rust Crate Docs Scanner](skills/rust-crate-docs-scanner/) | Security Reviewed | — | — | `clawhub install rust-crate-docs-scanner` |
@@ -556,12 +556,12 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 |---|---|---:|---:|---|
 | [Checkov IaC Scanner](skills/checkov-iac-scanner/) | Listed | 121.3k | — | `clawhub install checkov-iac-scanner` |
 | [Conftest Policy Tester](skills/conftest-policy-tester/) | Listed | 121.3k | — | `clawhub install conftest-policy-tester` |
-| [Cosign Artifact Signature Verifier](skills/cosign-artifact-signature-verifier/) | Listed | 121.3k | — | `clawhub install cosign-artifact-signature-verifier` |
+| [Cosign Artifact Signature Verifier](skills/cosign-artifact-signature-verifier/) | Security Reviewed | 121.3k | — | `clawhub install cosign-artifact-signature-verifier` |
 | [Falco Runtime Security](skills/falco-runtime-security/) | Listed | 121.3k | — | `clawhub install falco-runtime-security` |
 | [Falco Runtime Security Monitor](skills/falco-runtime-security-monitor/) | Security Reviewed | 121.3k | — | `clawhub install falco-runtime-security-monitor` |
 | [KICS IaC Linter](skills/kics-iac-linter/) | Listed | 121.3k | — | `clawhub install kics-iac-linter` |
 | [Open Policy Agent (OPA)](skills/open-policy-agent-opa/) | Listed | 121.3k | — | `clawhub install open-policy-agent-opa` |
-| [Sigstore Cosign Container Verifier](skills/sigstore-cosign-container-verifier/) | Listed | 121.3k | — | `clawhub install sigstore-cosign-container-verifier` |
+| [Sigstore Cosign Container Verifier](skills/sigstore-cosign-container-verifier/) | Security Reviewed | 121.3k | — | `clawhub install sigstore-cosign-container-verifier` |
 | [Sigstore Cosign Verification Pipeline](skills/sigstore-cosign-verification-pipeline/) | Security Reviewed | 121.3k | — | `clawhub install sigstore-cosign-verification-pipeline` |
 | [Terrascan Policy Scanner](skills/terrascan-policy-scanner/) | Listed | 121.3k | — | `clawhub install terrascan-policy-scanner` |
 | [Container Image Vulnerability Scanner](skills/container-image-vulnerability-scanner/) | Security Reviewed | 71.6k | — | `clawhub install container-image-vulnerability-scanner` |
@@ -574,12 +574,14 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [HashiCorp Vault Secret Scanner](skills/hashicorp-vault-secret-scanner-2/) | Security Reviewed | 35.3k | — | `clawhub install hashicorp-vault-secret-scanner-2` |
 | [HashiCorp Vault Secrets Rotation Agent](skills/hashicorp-vault-secrets-rotation-agent-2/) | Security Reviewed | 35.3k | — | `clawhub install hashicorp-vault-secrets-rotation-agent-2` |
 | [Vault Secrets Rotator](skills/vault-secrets-rotator/) | Security Reviewed | 35.3k | — | `clawhub install vault-secrets-rotator` |
+| [Vault Transit Secrets Envelope Verifier](skills/vault-transit-secrets-envelope-verifier/) | Security Reviewed | 35.3k | — | `clawhub install vault-transit-secrets-envelope-verifier` |
 | [Trivy Container &#038; IaC Vulnerability Scanner](skills/trivy-container-iac-vulnerability-scanner/) | Security Reviewed | 33.9k | — | `clawhub install trivy-container-iac-vulnerability-scanner` |
 | [Trivy Container Image Vulnerability Scanner](skills/trivy-container-image-vulnerability-scanner/) | Security Reviewed | 33.9k | — | `clawhub install trivy-container-image-vulnerability-scanner` |
 | [Trivy Container Scanner](skills/trivy-container-scanner-2/) | Security Reviewed | 33.9k | — | `clawhub install trivy-container-scanner-2` |
 | [Trivy Container Security Scanner](skills/trivy-container-security-scanner/) | Security Reviewed | 33.9k | — | `clawhub install trivy-container-security-scanner` |
 | [Trivy Container Vulnerability Scanner](skills/trivy-container-vulnerability-scanner/) | Security Reviewed | 33.9k | — | `clawhub install trivy-container-vulnerability-scanner` |
 | [Trivy Vulnerability Scanner Pipeline](skills/trivy-vulnerability-scanner-pipeline/) | Security Reviewed | 33.9k | — | `clawhub install trivy-vulnerability-scanner-pipeline` |
+| [Discord Moderation Bot with AI Classification](skills/discord-moderation-ai-classification/) | Listed | 26.6k | 508.8k/wk | `clawhub install discord-moderation-ai-classification` |
 | [npm Dependency Audit Scanner](skills/npm-dependency-audit-scanner/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install npm-dependency-audit-scanner` |
 | [OWASP ZAP Active Scanner Agent](skills/owasp-zap-active-scanner-agent/) | Security Reviewed | 14.9k | — | `clawhub install owasp-zap-active-scanner-agent` |
 | [OWASP ZAP API Fuzzer](skills/owasp-zap-api-fuzzer/) | Security Reviewed | 14.9k | — | `clawhub install owasp-zap-api-fuzzer` |
@@ -595,9 +597,9 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [OWASP ZAP Security Scanner Agent](skills/owasp-zap-security-scanner-agent/) | Security Reviewed | 14.9k | — | `clawhub install owasp-zap-security-scanner-agent` |
 | [Security Audit Skill](skills/security-audit-skill/) | Listed | 14.9k | — | `clawhub install security-audit-skill` |
 | [ZAP Automated Security Scan Orchestrator](skills/zap-automated-security-scan-orchestrator/) | Security Reviewed | 14.9k | — | `clawhub install zap-automated-security-scan-orchestrator` |
-| [SAST Pipeline Scanner](skills/sast-pipeline-scanner/) | Listed | 14.5k | — | `clawhub install sast-pipeline-scanner` |
-| [SAST Rule Compiler for Semgrep](skills/sast-rule-compiler-semgrep/) | Listed | 14.5k | — | `clawhub install sast-rule-compiler-semgrep` |
-| [Discord Moderation Bot with AI Classification](skills/discord-moderation-ai-classification/) | Listed | 10.8k | 508.8k/wk | `clawhub install discord-moderation-ai-classification` |
+| [SAST Pipeline Scanner](skills/sast-pipeline-scanner/) | Security Reviewed | 14.5k | — | `clawhub install sast-pipeline-scanner` |
+| [SAST Rule Compiler for Semgrep](skills/sast-rule-compiler-semgrep/) | Security Reviewed | 14.5k | — | `clawhub install sast-rule-compiler-semgrep` |
+| [Semgrep Supply Chain Rule Pack Runner](skills/semgrep-supply-chain-rule-pack-runner/) | Security Reviewed | 14.5k | — | `clawhub install semgrep-supply-chain-rule-pack-runner` |
 | [Dependency Vulnerability Scanner](skills/dependency-vulnerability-scanner-agent/) | Security Reviewed | 5.5k | 601.7k/wk | `clawhub install dependency-vulnerability-scanner-agent` |
 | [NPM Package Supply Chain Auditor](skills/npm-package-supply-chain-auditor/) | Security Reviewed | 5.5k | 601.7k/wk | `clawhub install npm-package-supply-chain-auditor` |
 | [Snyk Agent Scan](skills/snyk-agent-scan/) | Listed | 5.5k | 601.7k/wk | `clawhub install snyk-agent-scan` |
@@ -614,13 +616,13 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Stripe Webhook Signature Verifier](skills/stripe-webhook-signature-verifier/) | Security Reviewed | 4.4k | 8.4M/wk | `clawhub install stripe-webhook-signature-verifier` |
 | [AWS CloudTrail Log Normalizer](skills/aws-cloudtrail-log-normalizer/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-cloudtrail-log-normalizer` |
 | [AWS IAM Privilege Escalation Audit](skills/aws-iam-privilege-escalation-audit/) | Listed | 3.6k | 9.2M/wk | `clawhub install aws-iam-privilege-escalation-audit` |
-| [Checkov Infrastructure Policy Scanner](skills/checkov-infrastructure-policy-scanner/) | Listed | 3.6k | 9.2M/wk | `clawhub install checkov-infrastructure-policy-scanner` |
+| [Checkov Infrastructure Policy Scanner](skills/checkov-infrastructure-policy-scanner/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install checkov-infrastructure-policy-scanner` |
 | [CloudTrail Anomaly Detection Agent](skills/cloudtrail-anomaly-detection-agent/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install cloudtrail-anomaly-detection-agent` |
 | [SSL Certificate Auditor](skills/ssl-certificate-auditor-agent/) | Security Reviewed | 3.1k | 3.3M/wk | `clawhub install ssl-certificate-auditor-agent` |
 | [TLS Certificate Chain Analyzer](skills/tls-certificate-chain-analyzer/) | Security Reviewed | 1.9k | 1M/wk | `clawhub install tls-certificate-chain-analyzer` |
 | [DocuSign Contract Auto-Sender with Conditional Logic](skills/docusign-contract-auto-sender/) | Listed | 1.5k | 804.8k/wk | `clawhub install docusign-contract-auto-sender` |
-| [OAuth2 Token Introspection Agent](skills/oauth2-token-introspection-agent/) | Listed | — | 1.2M/wk | `clawhub install oauth2-token-introspection-agent` |
-| [CSP Policy Analyzer](skills/csp-policy-analyzer/) | Listed | — | — | `clawhub install csp-policy-analyzer` |
+| [OAuth2 Token Introspection Agent](skills/oauth2-token-introspection-agent/) | Listed | 676 | 1.2M/wk | `clawhub install oauth2-token-introspection-agent` |
+| [CSP Policy Analyzer](skills/csp-policy-analyzer/) | Security Reviewed | — | — | `clawhub install csp-policy-analyzer` |
 | [CycloneDX SBOM Generator](skills/cyclonedx-sbom-generator/) | Security Reviewed | — | — | `clawhub install cyclonedx-sbom-generator` |
 | [Dependency Audit](skills/dependency-audit/) | Listed | — | — | `clawhub install dependency-audit` |
 | [Dependency Vulnerability &#038; License Auditor](skills/dependency-vulnerability-license-auditor-2/) | Listed | — | — | `clawhub install dependency-vulnerability-license-auditor-2` |
@@ -629,23 +631,21 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Healthcheck Security Hardening](skills/healthcheck-security-hardening/) | Listed | — | — | `clawhub install healthcheck-security-hardening` |
 | [NPM Audit Deep Scanner](skills/npm-audit-deep-scanner/) | Security Reviewed | — | — | `clawhub install npm-audit-deep-scanner` |
 | [npm Dependency Audit Resolver](skills/npm-dependency-audit-resolver/) | Security Reviewed | — | — | `clawhub install npm-dependency-audit-resolver` |
-| [Nuclei Vulnerability Template Runner](skills/nuclei-vulnerability-template-runner/) | Listed | — | — | `clawhub install nuclei-vulnerability-template-runner` |
+| [Nuclei Vulnerability Template Runner](skills/nuclei-vulnerability-template-runner/) | Security Reviewed | — | — | `clawhub install nuclei-vulnerability-template-runner` |
 | [OAuth2 Flow Debugger](skills/oauth2-flow-debugger/) | Security Reviewed | — | — | `clawhub install oauth2-flow-debugger` |
-| [OPA Rego Policy Bundle Tester](skills/opa-rego-policy-bundle-tester/) | Listed | — | — | `clawhub install opa-rego-policy-bundle-tester` |
+| [OPA Rego Policy Bundle Tester](skills/opa-rego-policy-bundle-tester/) | Security Reviewed | — | — | `clawhub install opa-rego-policy-bundle-tester` |
 | [OpenClaw Security Suite (ClawSec)](skills/openclaw-security-suite-clawsec/) | Security Reviewed | — | — | `clawhub install openclaw-security-suite-clawsec` |
 | [SBOM Generator and CVE Matcher](skills/sbom-generator-cve-matcher/) | Security Reviewed | — | — | `clawhub install sbom-generator-cve-matcher` |
 | [SBOM Generator with CycloneDX](skills/sbom-generator-cyclonedx/) | Security Reviewed | — | — | `clawhub install sbom-generator-cyclonedx` |
 | [Secret Scanner](skills/secret-scanner/) | Listed | — | — | `clawhub install secret-scanner` |
 | [Secrets Scanner for Git Repositories](skills/secrets-scanner-git-repositories-2/) | Listed | — | — | `clawhub install secrets-scanner-git-repositories-2` |
-| [Semgrep Supply Chain Rule Pack Runner](skills/semgrep-supply-chain-rule-pack-runner/) | Listed | — | — | `clawhub install semgrep-supply-chain-rule-pack-runner` |
-| [Sigstore Cosign Container Signature Checker](skills/sigstore-cosign-container-signature-checker/) | Listed | — | — | `clawhub install sigstore-cosign-container-signature-checker` |
+| [Sigstore Cosign Container Signature Checker](skills/sigstore-cosign-container-signature-checker/) | Security Reviewed | — | — | `clawhub install sigstore-cosign-container-signature-checker` |
 | [Sigstore Cosign Verifier](skills/sigstore-cosign-verifier-2/) | Security Reviewed | — | — | `clawhub install sigstore-cosign-verifier-2` |
 | [SSL Certificate Chain Validator](skills/ssl-certificate-chain-validator-2/) | Security Reviewed | — | — | `clawhub install ssl-certificate-chain-validator-2` |
 | [SSL Certificate Manager Skill](skills/ssl-certificate-manager-skill/) | Listed | — | — | `clawhub install ssl-certificate-manager-skill` |
 | [SSL/TLS Certificate Validator and Monitor](skills/ssl-tls-certificate-validator-monitor/) | Security Reviewed | — | — | `clawhub install ssl-tls-certificate-validator-monitor` |
 | [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | Security Reviewed | — | — | `clawhub install tls-certificate-chain-validator` |
 | [TruffleHog Secret Scanner](skills/trufflehog-secret-scanner/) | Listed | — | — | `clawhub install trufflehog-secret-scanner` |
-| [Vault Transit Secrets Envelope Verifier](skills/vault-transit-secrets-envelope-verifier/) | Listed | — | — | `clawhub install vault-transit-secrets-envelope-verifier` |
 
 
 ### 📊 Monitoring & Alerts (91 skills)
@@ -656,24 +656,24 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 |---|---|---:|---:|---|
 | [Kubernetes Event Stream Analyzer](skills/kubernetes-event-stream-analyzer/) | Security Reviewed | 121.3k | — | `clawhub install kubernetes-event-stream-analyzer` |
 | [Kubernetes Troubleshooting Runbook](skills/kubernetes-troubleshooting-runbook/) | Listed | 121.3k | — | `clawhub install kubernetes-troubleshooting-runbook` |
-| [OpenTelemetry Collector Pipeline Designer](skills/otel-collector-pipeline-designer/) | Listed | 121.3k | — | `clawhub install otel-collector-pipeline-designer` |
+| [OpenTelemetry Collector Pipeline Designer](skills/otel-collector-pipeline-designer/) | Security Reviewed | 121.3k | — | `clawhub install otel-collector-pipeline-designer` |
 | [OpenTelemetry Trace Aggregator](skills/opentelemetry-trace-aggregator/) | Security Reviewed | 121.3k | — | `clawhub install opentelemetry-trace-aggregator` |
 | [Elastic / Kibana MCP Server](skills/elastic-kibana-mcp-server/) | Listed | 76.4k | 1.9M/wk | `clawhub install elastic-kibana-mcp-server` |
+| [ElasticSearch Cluster Vitals Agent](skills/elasticsearch-cluster-vitals-agent/) | Security Reviewed | 76.4k | 1.9M/wk | `clawhub install elasticsearch-cluster-vitals-agent` |
 | [Grafana Alert Router](skills/grafana-alert-router/) | Security Reviewed | 72.8k | — | `clawhub install grafana-alert-router` |
 | [Grafana Dashboard as Code Builder](skills/grafana-dashboard-as-code-builder/) | Security Reviewed | 72.8k | — | `clawhub install grafana-dashboard-as-code-builder` |
 | [Grafana Dashboard as Code Generator](skills/grafana-dashboard-as-code-generator/) | Security Reviewed | 72.8k | — | `clawhub install grafana-dashboard-as-code-generator` |
 | [Grafana Dashboard Generator](skills/grafana-dashboard-generator-3/) | Security Reviewed | 72.8k | — | `clawhub install grafana-dashboard-generator-3` |
-| [Grafana Dashboard JSON Assembler](skills/grafana-dashboard-json-assembler/) | Listed | 72.8k | — | `clawhub install grafana-dashboard-json-assembler` |
+| [Grafana Dashboard JSON Assembler](skills/grafana-dashboard-json-assembler/) | Security Reviewed | 72.8k | — | `clawhub install grafana-dashboard-json-assembler` |
 | [Grafana Dashboard JSON Migrator](skills/grafana-dashboard-json-migrator/) | Security Reviewed | 72.8k | — | `clawhub install grafana-dashboard-json-migrator` |
 | [Grafana Dashboard Scaffolder](skills/grafana-dashboard-scaffolder/) | Security Reviewed | 72.8k | — | `clawhub install grafana-dashboard-scaffolder` |
 | [Grafana Dashboard Snapshot Exporter](skills/grafana-dashboard-snapshot-exporter/) | Verified Metadata | 72.8k | — | `clawhub install grafana-dashboard-snapshot-exporter` |
 | [Grafana Dashboard Sync Agent](skills/grafana-dashboard-sync-agent/) | Security Reviewed | 72.8k | — | `clawhub install grafana-dashboard-sync-agent` |
 | [Grafana Dashboard Template Generator](skills/grafana-dashboard-template-generator/) | Security Reviewed | 72.8k | — | `clawhub install grafana-dashboard-template-generator` |
-| [Grafana Loki Log Aggregation Agent](skills/grafana-loki-log-aggregation-agent/) | Listed | 72.8k | — | `clawhub install grafana-loki-log-aggregation-agent` |
-| [Grafana Loki Log Correlation Agent](skills/grafana-loki-log-correlation-agent-2/) | Security Reviewed | 72.8k | — | `clawhub install grafana-loki-log-correlation-agent-2` |
+| [Grafana Loki Log Aggregation Agent](skills/grafana-loki-log-aggregation-agent/) | Security Reviewed | 72.8k | — | `clawhub install grafana-loki-log-aggregation-agent` |
 | [Grafana Loki Log Query Agent](skills/grafana-loki-log-query-agent/) | Security Reviewed | 72.8k | — | `clawhub install grafana-loki-log-query-agent` |
+| [Grafana OnCall Escalation Chain Manager](skills/grafana-oncall-escalation-chain-manager/) | Security Reviewed | 72.8k | — | `clawhub install grafana-oncall-escalation-chain-manager` |
 | [Grafana Unified Alerting Manager](skills/grafana-unified-alerting-manager/) | Security Reviewed | 72.8k | — | `clawhub install grafana-unified-alerting-manager` |
-| [Loki Log Query Agent](skills/loki-log-query-agent/) | Listed | 72.8k | — | `clawhub install loki-log-query-agent` |
 | [Prometheus / Grafana MCP Server](skills/prometheus-grafana-mcp-server/) | Listed | 72.8k | — | `clawhub install prometheus-grafana-mcp-server` |
 | [Prometheus Alert Router](skills/prometheus-alert-router/) | Security Reviewed | 63.3k | 5.3M/wk | `clawhub install prometheus-alert-router` |
 | [Prometheus Alert Rule Builder](skills/prometheus-alert-rule-builder/) | Security Reviewed | 63.3k | 5.3M/wk | `clawhub install prometheus-alert-rule-builder` |
@@ -684,15 +684,19 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Prometheus AlertManager Bridge](skills/prometheus-alertmanager-bridge/) | Security Reviewed | 63.3k | 5.3M/wk | `clawhub install prometheus-alertmanager-bridge` |
 | [Prometheus AlertManager Configurator](skills/prometheus-alertmanager-configurator/) | Security Reviewed | 63.3k | 5.3M/wk | `clawhub install prometheus-alertmanager-configurator` |
 | [Prometheus AlertManager Router](skills/prometheus-alertmanager-router/) | Security Reviewed | 63.3k | 5.3M/wk | `clawhub install prometheus-alertmanager-router` |
+| [Prometheus Alertmanager Rule Auditor](skills/prometheus-alertmanager-rule-auditor/) | Security Reviewed | 63.3k | 5.3M/wk | `clawhub install prometheus-alertmanager-rule-auditor` |
 | [Prometheus AlertManager Rule Builder](skills/prometheus-alertmanager-rule-builder/) | Security Reviewed | 63.3k | 5.3M/wk | `clawhub install prometheus-alertmanager-rule-builder` |
 | [Prometheus AlertManager Rule Generator](skills/prometheus-alertmanager-rule-generator/) | Security Reviewed | 63.3k | 5.3M/wk | `clawhub install prometheus-alertmanager-rule-generator` |
 | [Prometheus AlertManager Rule Optimizer](skills/prometheus-alertmanager-rule-optimizer/) | Security Reviewed | 63.3k | 5.3M/wk | `clawhub install prometheus-alertmanager-rule-optimizer` |
 | [Prometheus AlertManager Rules Engine](skills/prometheus-alertmanager-rules-engine/) | Security Reviewed | 63.3k | 5.3M/wk | `clawhub install prometheus-alertmanager-rules-engine` |
 | [Prometheus Custom Exporter Builder](skills/prometheus-custom-exporter-builder/) | Security Reviewed | 63.3k | 5.3M/wk | `clawhub install prometheus-custom-exporter-builder` |
-| [Prometheus PromQL Alert Builder](skills/prometheus-promql-alert-builder/) | Listed | 63.3k | 5.3M/wk | `clawhub install prometheus-promql-alert-builder` |
+| [Prometheus PromQL Alert Builder](skills/prometheus-promql-alert-builder/) | Security Reviewed | 63.3k | 5.3M/wk | `clawhub install prometheus-promql-alert-builder` |
 | [Prometheus Rule Evaluator](skills/prometheus-rule-evaluator/) | Security Reviewed | 63.3k | 5.3M/wk | `clawhub install prometheus-rule-evaluator` |
 | [Sentry Error Intelligence](skills/sentry-error-intelligence/) | Security Reviewed | 43.4k | 16.4M/wk | `clawhub install sentry-error-intelligence` |
 | [Sentry MCP Server](skills/sentry-mcp-server/) | Security Reviewed | 43.4k | 16.4M/wk | `clawhub install sentry-mcp-server` |
+| [Grafana Loki Log Correlation Agent](skills/grafana-loki-log-correlation-agent-2/) | Security Reviewed | 27.9k | — | `clawhub install grafana-loki-log-correlation-agent-2` |
+| [Loki Log Query Agent](skills/loki-log-query-agent/) | Listed | 27.9k | — | `clawhub install loki-log-query-agent` |
+| [Jaeger Trace Explorer](skills/jaeger-trace-explorer/) | Listed | 22.6k | — | `clawhub install jaeger-trace-explorer` |
 | [AWS CloudWatch Anomaly Detector](skills/aws-cloudwatch-anomaly-detector/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-cloudwatch-anomaly-detector` |
 | [AWS CloudWatch Composite Alarm Builder](skills/aws-cloudwatch-composite-alarm-builder/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-cloudwatch-composite-alarm-builder` |
 | [AWS CloudWatch Insights Agent](skills/aws-cloudwatch-insights-agent/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-cloudwatch-insights-agent` |
@@ -703,6 +707,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Uptime Kuma Status Sync](skills/uptime-kuma-status-sync/) | Security Reviewed | 3.1k | 3.3M/wk | `clawhub install uptime-kuma-status-sync` |
 | [New Relic NRQL Query Agent](skills/new-relic-nrql-query-agent/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install new-relic-nrql-query-agent` |
 | [New Relic SLO Compliance Monitor](skills/new-relic-slo-compliance-monitor/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install new-relic-slo-compliance-monitor` |
+| [Cloudflare Analytics Health Monitor](skills/cloudflare-analytics-health-monitor/) | Security Reviewed | 1.9k | 1M/wk | `clawhub install cloudflare-analytics-health-monitor` |
 | [Datadog Anomaly Alert Router](skills/datadog-anomaly-alert-router/) | Security Reviewed | 787 | 6M/wk | `clawhub install datadog-anomaly-alert-router` |
 | [Datadog Anomaly Detection Agent](skills/datadog-anomaly-detection-agent-2/) | Security Reviewed | 787 | 6M/wk | `clawhub install datadog-anomaly-detection-agent-2` |
 | [Datadog Anomaly Detector](skills/datadog-anomaly-detector/) | Security Reviewed | 787 | 6M/wk | `clawhub install datadog-anomaly-detector` |
@@ -719,30 +724,25 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Datadog Monitors Skill](skills/datadog-monitors-skill/) | Security Reviewed | 787 | 6M/wk | `clawhub install datadog-monitors-skill` |
 | [Datadog SLO Monitor](skills/datadog-slo-monitor/) | Security Reviewed | 787 | 6M/wk | `clawhub install datadog-slo-monitor` |
 | [Metrics Dashboard Builder](skills/metrics-dashboard-builder/) | Listed | 787 | 6M/wk | `clawhub install metrics-dashboard-builder` |
-| [StatsD Metrics Aggregation Pipeline](skills/statsd-metrics-aggregation-pipeline/) | Listed | 787 | 6M/wk | `clawhub install statsd-metrics-aggregation-pipeline` |
+| [StatsD Metrics Aggregation Pipeline](skills/statsd-metrics-aggregation-pipeline/) | Security Reviewed | 787 | 6M/wk | `clawhub install statsd-metrics-aggregation-pipeline` |
 | [PagerDuty Incident Escalator](skills/pagerduty-incident-escalator/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install pagerduty-incident-escalator` |
 | [PagerDuty Incident Orchestrator](skills/pagerduty-incident-orchestrator-2/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install pagerduty-incident-orchestrator-2` |
 | [PagerDuty Incident Runbook Linker](skills/pagerduty-incident-runbook-linker/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install pagerduty-incident-runbook-linker` |
 | [PagerDuty MCP Server](skills/pagerduty-mcp-server/) | Listed | 69 | 210.8k/wk | `clawhub install pagerduty-mcp-server` |
 | [Uptime Robot Multi-Check Coordinator](skills/uptime-robot-multi-check-coordinator/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install uptime-robot-multi-check-coordinator` |
-| [OpsGenie MCP Server](skills/opsgenie-mcp-server/) | Listed | — | 9.1k/wk | `clawhub install opsgenie-mcp-server` |
+| [OpsGenie MCP Server](skills/opsgenie-mcp-server/) | Listed | 24 | 9.1k/wk | `clawhub install opsgenie-mcp-server` |
 | [API Rate Limit Monitor](skills/api-rate-limit-monitor/) | Listed | — | — | `clawhub install api-rate-limit-monitor` |
-| [Cloudflare Analytics Health Monitor](skills/cloudflare-analytics-health-monitor/) | Listed | — | — | `clawhub install cloudflare-analytics-health-monitor` |
 | [Database Slow Query Runbook](skills/database-slow-query-runbook/) | Listed | — | — | `clawhub install database-slow-query-runbook` |
 | [Disk Space Emergency Runbook](skills/disk-space-emergency-runbook/) | Listed | — | — | `clawhub install disk-space-emergency-runbook` |
 | [DNS Troubleshooting Runbook](skills/dns-troubleshooting-runbook/) | Listed | — | — | `clawhub install dns-troubleshooting-runbook` |
-| [ElasticSearch Cluster Vitals Agent](skills/elasticsearch-cluster-vitals-agent/) | Listed | — | — | `clawhub install elasticsearch-cluster-vitals-agent` |
-| [Grafana OnCall Escalation Chain Manager](skills/grafana-oncall-escalation-chain-manager/) | Listed | — | — | `clawhub install grafana-oncall-escalation-chain-manager` |
 | [Honeycomb Query Builder](skills/honeycomb-query-builder/) | Listed | — | — | `clawhub install honeycomb-query-builder` |
 | [Incident Postmortem Automation Skill](skills/incident-postmortem-automation-skill/) | Listed | — | — | `clawhub install incident-postmortem-automation-skill` |
-| [Jaeger Trace Explorer](skills/jaeger-trace-explorer/) | Listed | — | — | `clawhub install jaeger-trace-explorer` |
 | [Last30Days Research Briefing](skills/last30days-research-briefing/) | Listed | — | — | `clawhub install last30days-research-briefing` |
 | [Log Analysis](skills/log-analysis/) | Listed | — | — | `clawhub install log-analysis` |
 | [Memory Leak Diagnosis Skill](skills/memory-leak-diagnosis-skill/) | Listed | — | — | `clawhub install memory-leak-diagnosis-skill` |
 | [Network Latency Diagnosis Skill](skills/network-latency-diagnosis-skill/) | Listed | — | — | `clawhub install network-latency-diagnosis-skill` |
 | [On-Call Alert Triage](skills/on-call-alert-triage/) | Listed | — | — | `clawhub install on-call-alert-triage` |
 | [OpenTelemetry Instrumentation](skills/opentelemetry-instrumentation/) | Listed | — | — | `clawhub install opentelemetry-instrumentation` |
-| [Prometheus Alertmanager Rule Auditor](skills/prometheus-alertmanager-rule-auditor/) | Listed | — | — | `clawhub install prometheus-alertmanager-rule-auditor` |
 | [Service Degradation Runbook](skills/service-degradation-runbook/) | Listed | — | — | `clawhub install service-degradation-runbook` |
 | [Task Queue Monitor](skills/task-queue-monitor/) | Listed | — | — | `clawhub install task-queue-monitor` |
 
@@ -753,23 +753,26 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 
 | Skill | Tier | GitHub Stars | npm Downloads | Install |
 |---|---|---:|---:|---|
-| [Apache Spark Job Manager](skills/apache-spark-job-manager/) | Listed | 121.3k | — | `clawhub install apache-spark-job-manager` |
 | [Elasticsearch MCP](skills/elasticsearch-mcp/) | Listed | 76.4k | 1.9M/wk | `clawhub install elasticsearch-mcp` |
 | [Crawl4AI MCP Server](skills/crawl4ai-mcp-server/) | Security Reviewed | 71.6k | — | `clawhub install crawl4ai-mcp-server` |
 | [Postgres MCP Pro](skills/postgres-mcp-pro/) | Security Reviewed | 71.6k | — | `clawhub install postgres-mcp-pro` |
 | [Scrapy Spider Data Pipeline](skills/scrapy-spider-data-pipeline/) | Security Reviewed | 60.9k | 39.8M/wk | `clawhub install scrapy-spider-data-pipeline` |
-| [Camelot Advanced PDF Table Intelligence](skills/camelot-advanced-pdf-table-intelligence/) | Listed | 48.2k | — | `clawhub install camelot-advanced-pdf-table-intelligence` |
-| [Pandas DataFrame Pipeline Builder](skills/pandas-dataframe-pipeline-builder/) | Listed | 48.2k | — | `clawhub install pandas-dataframe-pipeline-builder` |
+| [Camelot Advanced PDF Table Intelligence](skills/camelot-advanced-pdf-table-intelligence/) | Security Reviewed | 48.2k | — | `clawhub install camelot-advanced-pdf-table-intelligence` |
+| [Pandas DataFrame Pipeline Builder](skills/pandas-dataframe-pipeline-builder/) | Security Reviewed | 48.2k | — | `clawhub install pandas-dataframe-pipeline-builder` |
 | [Pandas DataFrame Pipeline Orchestrator](skills/pandas-dataframe-pipeline-orchestrator/) | Security Reviewed | 48.2k | — | `clawhub install pandas-dataframe-pipeline-orchestrator` |
 | [Pandas DataFrame Schema Enforcer](skills/pandas-dataframe-schema-enforcer/) | Listed | 48.2k | — | `clawhub install pandas-dataframe-schema-enforcer` |
 | [Pandas DataFrame Schema Validator](skills/pandas-dataframe-schema-validator/) | Security Reviewed | 48.2k | — | `clawhub install pandas-dataframe-schema-validator` |
 | [Pandas Profiling Report Generator](skills/pandas-profiling-report-generator/) | Security Reviewed | 48.2k | — | `clawhub install pandas-profiling-report-generator` |
-| [PDF Table Extraction with Camelot](skills/pdf-table-extraction-camelot/) | Listed | 48.2k | — | `clawhub install pdf-table-extraction-camelot` |
+| [PDF Table Extraction with Camelot](skills/pdf-table-extraction-camelot/) | Security Reviewed | 48.2k | — | `clawhub install pdf-table-extraction-camelot` |
 | [Tabula PDF Table Extraction Agent](skills/tabula-pdf-table-extraction-agent/) | Security Reviewed | 48.2k | — | `clawhub install tabula-pdf-table-extraction-agent` |
-| [Tabula PDF Table Extractor](skills/tabula-pdf-table-extractor/) | Listed | 48.2k | — | `clawhub install tabula-pdf-table-extractor` |
-| [Tesseract OCR Data Extractor](skills/tesseract-ocr-data-extractor/) | Listed | 48.2k | — | `clawhub install tesseract-ocr-data-extractor` |
-| [Tesseract OCR Document Extractor](skills/tesseract-ocr-document-extractor/) | Listed | 48.2k | — | `clawhub install tesseract-ocr-document-extractor` |
+| [Tabula PDF Table Extractor](skills/tabula-pdf-table-extractor/) | Security Reviewed | 48.2k | — | `clawhub install tabula-pdf-table-extractor` |
+| [Tesseract OCR Data Extractor](skills/tesseract-ocr-data-extractor/) | Security Reviewed | 48.2k | — | `clawhub install tesseract-ocr-data-extractor` |
+| [Tesseract OCR Document Extractor](skills/tesseract-ocr-document-extractor/) | Security Reviewed | 48.2k | — | `clawhub install tesseract-ocr-document-extractor` |
 | [Airbyte Connector Config Generator](skills/airbyte-connector-config-generator/) | Security Reviewed | 48k | — | `clawhub install airbyte-connector-config-generator` |
+| [ClickHouse Query Agent](skills/clickhouse-query-agent/) | Listed | 46.5k | 1.5M/wk | `clawhub install clickhouse-query-agent` |
+| [Apache Airflow MCP](skills/apache-airflow-mcp/) | Listed | 44.8k | — | `clawhub install apache-airflow-mcp` |
+| [Apache Spark DataFrame ETL Pipeline](skills/spark-dataframe-etl-pipeline/) | Security Reviewed | 43k | 9.2M/wk | `clawhub install spark-dataframe-etl-pipeline` |
+| [Apache Spark Job Manager](skills/apache-spark-job-manager/) | Listed | 43k | — | `clawhub install apache-spark-job-manager` |
 | [Cheerio DOM Extraction Pipeline](skills/cheerio-dom-extraction-pipeline/) | Security Reviewed | 30.2k | 18.5M/wk | `clawhub install cheerio-dom-extraction-pipeline` |
 | [GraphQL Data Federation Agent](skills/graphql-data-federation-agent/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install graphql-data-federation-agent` |
 | [GraphQL Schema Introspection Mapper](skills/graphql-schema-introspection-mapper/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install graphql-schema-introspection-mapper` |
@@ -779,13 +782,14 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [dbt Data Transformation Orchestrator](skills/dbt-data-transformation-orchestrator/) | Security Reviewed | 12.5k | — | `clawhub install dbt-data-transformation-orchestrator` |
 | [dbt MCP Server](skills/dbt-mcp-server/) | Listed | 12.5k | — | `clawhub install dbt-mcp-server` |
 | [dbt Model Dependency Analyzer](skills/dbt-model-dependency-analyzer/) | Security Reviewed | 12.5k | — | `clawhub install dbt-model-dependency-analyzer` |
-| [dbt Model Dependency Resolver](skills/dbt-model-dependency-resolver-2/) | Listed | 12.5k | — | `clawhub install dbt-model-dependency-resolver-2` |
+| [dbt Model Dependency Resolver](skills/dbt-model-dependency-resolver-2/) | Security Reviewed | 12.5k | — | `clawhub install dbt-model-dependency-resolver-2` |
 | [dbt Model Lineage &#038; Test Coverage Checker](skills/dbt-model-lineage-test-coverage-2/) | Listed | 12.5k | — | `clawhub install dbt-model-lineage-test-coverage-2` |
 | [dbt Model Lineage Analyzer](skills/dbt-model-lineage-analyzer/) | Security Reviewed | 12.5k | — | `clawhub install dbt-model-lineage-analyzer` |
 | [dbt Model Lineage Extractor](skills/dbt-model-lineage-extractor-2/) | Security Reviewed | 12.5k | — | `clawhub install dbt-model-lineage-extractor-2` |
-| [dbt Model Lineage Mapper](skills/dbt-model-lineage-mapper/) | Listed | 12.5k | — | `clawhub install dbt-model-lineage-mapper` |
-| [dbt Model Transformation Architect](skills/dbt-model-transformation-architect/) | Listed | 12.5k | — | `clawhub install dbt-model-transformation-architect` |
-| [Protocol Buffer Schema Generator](skills/protobuf-schema-generator-from-json/) | Listed | 4.8k | 30.9M/wk | `clawhub install protobuf-schema-generator-from-json` |
+| [dbt Model Lineage Mapper](skills/dbt-model-lineage-mapper/) | Security Reviewed | 12.5k | — | `clawhub install dbt-model-lineage-mapper` |
+| [dbt Model Transformation Architect](skills/dbt-model-transformation-architect/) | Security Reviewed | 12.5k | — | `clawhub install dbt-model-transformation-architect` |
+| [SQLite MCP Server](skills/sqlite-mcp-server/) | Listed | 7k | 5M/wk | `clawhub install sqlite-mcp-server` |
+| [Protocol Buffer Schema Generator](skills/protobuf-schema-generator-from-json/) | Security Reviewed | 4.8k | 30.9M/wk | `clawhub install protobuf-schema-generator-from-json` |
 | [Stripe Revenue Analytics Dashboard Builder](skills/stripe-revenue-analytics-dashboard/) | Listed | 4.4k | 8.4M/wk | `clawhub install stripe-revenue-analytics-dashboard` |
 | [Apache Avro Schema Evolution Agent](skills/apache-avro-schema-evolution-agent/) | Security Reviewed | 4k | 2.4M/wk | `clawhub install apache-avro-schema-evolution-agent` |
 | [Apache Camel Route Data Mapper](skills/apache-camel-route-data-mapper/) | Security Reviewed | 4k | 2.4M/wk | `clawhub install apache-camel-route-data-mapper` |
@@ -795,24 +799,20 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Apache Kafka Stream Processor](skills/apache-kafka-stream-processor/) | Listed | 4k | 2.4M/wk | `clawhub install apache-kafka-stream-processor` |
 | [Apache Kafka Stream Transformer](skills/apache-kafka-stream-transformer-2/) | Security Reviewed | 4k | 2.4M/wk | `clawhub install apache-kafka-stream-transformer-2` |
 | [JSON-to-Avro Schema Transformer](skills/json-to-avro-schema-transformer/) | Security Reviewed | 4k | 2.4M/wk | `clawhub install json-to-avro-schema-transformer` |
-| [Apache Spark DataFrame ETL Pipeline](skills/spark-dataframe-etl-pipeline/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install spark-dataframe-etl-pipeline` |
 | [jq JSON Stream Transformer](skills/jq-json-stream-transformer/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install jq-json-stream-transformer` |
 | [QuickBooks Online Invoice Reconciliation Agent](skills/quickbooks-invoice-reconciliation/) | Listed | 3.1k | 3.3M/wk | `clawhub install quickbooks-invoice-reconciliation` |
 | [Reddit Subreddit Sentiment Tracker](skills/reddit-subreddit-sentiment-tracker/) | Listed | 2.9k | 2.4M/wk | `clawhub install reddit-subreddit-sentiment-tracker` |
 | [Weights &#038; Biases Run Monitor](skills/wandb-run-monitor/) | Listed | 2.9k | 2.4M/wk | `clawhub install wandb-run-monitor` |
 | [Salesforce Bulk API Data Loader](skills/salesforce-bulk-api-data-loader/) | Security Reviewed | 1.5k | 804.8k/wk | `clawhub install salesforce-bulk-api-data-loader` |
-| [Parquet Column Mapper](skills/parquet-column-mapper/) | Listed | 387 | 146.9k/wk | `clawhub install parquet-column-mapper` |
-| [Parquet Column Pruning Optimizer](skills/parquet-column-pruning-optimizer/) | Listed | 387 | 146.9k/wk | `clawhub install parquet-column-pruning-optimizer` |
+| [Parquet Column Mapper](skills/parquet-column-mapper/) | Security Reviewed | 387 | 146.9k/wk | `clawhub install parquet-column-mapper` |
+| [Parquet Column Pruning Optimizer](skills/parquet-column-pruning-optimizer/) | Security Reviewed | 387 | 146.9k/wk | `clawhub install parquet-column-pruning-optimizer` |
 | [Parquet Column Statistics Profiler](skills/parquet-column-statistics-profiler/) | Security Reviewed | 387 | 146.9k/wk | `clawhub install parquet-column-statistics-profiler` |
-| [Parquet Schema Extractor for S3](skills/parquet-schema-extractor-for-s3/) | Listed | 387 | 146.9k/wk | `clawhub install parquet-schema-extractor-for-s3` |
-| [Parquet to PostgreSQL Loader](skills/parquet-to-postgresql-loader/) | Listed | 387 | 146.9k/wk | `clawhub install parquet-to-postgresql-loader` |
+| [Parquet Schema Extractor for S3](skills/parquet-schema-extractor-for-s3/) | Security Reviewed | 387 | 146.9k/wk | `clawhub install parquet-schema-extractor-for-s3` |
+| [Parquet to PostgreSQL Loader](skills/parquet-to-postgresql-loader/) | Security Reviewed | 387 | 146.9k/wk | `clawhub install parquet-to-postgresql-loader` |
 | [Metabase Dashboard Snapshot &#038; Alerting](skills/metabase-dashboard-snapshot-alerting-2/) | Listed | 69 | 210.8k/wk | `clawhub install metabase-dashboard-snapshot-alerting-2` |
 | [PostgreSQL MCP Server](skills/postgresql-mcp-server/) | Listed | — | 21.4M/wk | `clawhub install postgresql-mcp-server` |
-| [SQLite MCP Server](skills/sqlite-mcp-server/) | Listed | — | 5M/wk | `clawhub install sqlite-mcp-server` |
-| [ClickHouse Query Agent](skills/clickhouse-query-agent/) | Listed | — | 1.5M/wk | `clawhub install clickhouse-query-agent` |
 | [A/B Test Analyzer](skills/a-b-test-analyzer/) | Listed | — | — | `clawhub install a-b-test-analyzer` |
 | [Amplitude MCP Server](skills/amplitude-mcp-server/) | Listed | — | — | `clawhub install amplitude-mcp-server` |
-| [Apache Airflow MCP](skills/apache-airflow-mcp/) | Listed | — | — | `clawhub install apache-airflow-mcp` |
 | [Apache Tika Content Extraction Hub](skills/apache-tika-content-extraction-hub/) | Security Reviewed | — | — | `clawhub install apache-tika-content-extraction-hub` |
 | [Apache Tika Document Extractor](skills/apache-tika-document-extractor/) | Security Reviewed | — | — | `clawhub install apache-tika-document-extractor` |
 | [Apache Tika Document Parser](skills/apache-tika-document-parser/) | Security Reviewed | — | — | `clawhub install apache-tika-document-parser` |
@@ -820,12 +820,12 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [BigQuery Cost &#038; Query Performance Auditor](skills/bigquery-cost-query-performance-auditor-2/) | Listed | — | — | `clawhub install bigquery-cost-query-performance-auditor-2` |
 | [Camelot PDF Stream Parser](skills/camelot-pdf-stream-parser/) | Security Reviewed | — | — | `clawhub install camelot-pdf-stream-parser` |
 | [Cohere MCP Server](skills/cohere-mcp-server/) | Listed | — | — | `clawhub install cohere-mcp-server` |
-| [CSV Schema Validator &#038; Auto-Fixer](skills/csv-schema-validator-auto-fixer/) | Listed | — | — | `clawhub install csv-schema-validator-auto-fixer` |
+| [CSV Schema Validator &#038; Auto-Fixer](skills/csv-schema-validator-auto-fixer/) | Security Reviewed | — | — | `clawhub install csv-schema-validator-auto-fixer` |
 | [Databricks MCP](skills/databricks-mcp/) | Listed | — | — | `clawhub install databricks-mcp` |
 | [GCP BigQuery MCP Server](skills/gcp-bigquery-mcp-server/) | Listed | — | — | `clawhub install gcp-bigquery-mcp-server` |
 | [Great Expectations Data Quality](skills/great-expectations-data-quality/) | Listed | — | — | `clawhub install great-expectations-data-quality` |
 | [Hugging Face Dataset Pipeline](skills/huggingface-dataset-pipeline/) | Listed | — | — | `clawhub install huggingface-dataset-pipeline` |
-| [jq Pipeline Builder Agent](skills/jq-pipeline-builder-agent/) | Listed | — | — | `clawhub install jq-pipeline-builder-agent` |
+| [jq Pipeline Builder Agent](skills/jq-pipeline-builder-agent/) | Security Reviewed | — | — | `clawhub install jq-pipeline-builder-agent` |
 | [Looker Tableau Data Extractor](skills/looker-tableau-data-extractor/) | Listed | — | — | `clawhub install looker-tableau-data-extractor` |
 | [Mixpanel MCP Server](skills/mixpanel-mcp-server/) | Listed | — | — | `clawhub install mixpanel-mcp-server` |
 | [MLflow Experiment Tracker](skills/mlflow-experiment-tracker/) | Listed | — | — | `clawhub install mlflow-experiment-tracker` |
@@ -840,7 +840,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Snowflake Query Optimizer Agent](skills/snowflake-query-optimizer-agent/) | Security Reviewed | — | — | `clawhub install snowflake-query-optimizer-agent` |
 | [Snowflake Query Profiler](skills/snowflake-query-profiler/) | Security Reviewed | — | — | `clawhub install snowflake-query-profiler` |
 | [SQL Query Optimizer](skills/sql-query-optimizer/) | Listed | — | — | `clawhub install sql-query-optimizer` |
-| [XML XSLT Transform Pipeline](skills/xml-xslt-transform-pipeline/) | Listed | — | — | `clawhub install xml-xslt-transform-pipeline` |
+| [XML XSLT Transform Pipeline](skills/xml-xslt-transform-pipeline/) | Security Reviewed | — | — | `clawhub install xml-xslt-transform-pipeline` |
 
 
 ### ✅ Code Quality & Review (88 skills)
@@ -852,7 +852,9 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Storybook Component Tester](skills/storybook-component-tester/) | Listed | 89.5k | 13M/wk | `clawhub install storybook-component-tester` |
 | [Playwright Test Recorder](skills/playwright-test-recorder/) | Listed | 84.9k | 39.8M/wk | `clawhub install playwright-test-recorder` |
 | [Docker Build Cache Optimizer](skills/docker-build-cache-optimizer/) | Security Reviewed | 71.6k | — | `clawhub install docker-build-cache-optimizer` |
-| [Git Bisect Automation Agent](skills/git-bisect-automation-agent/) | Listed | 71.6k | — | `clawhub install git-bisect-automation-agent` |
+| [Git Bisect Automation Agent](skills/git-bisect-automation-agent/) | Security Reviewed | 71.6k | — | `clawhub install git-bisect-automation-agent` |
+| [Codecov Coverage Analyzer](skills/codecov-coverage-analyzer/) | Security Reviewed | 45.3k | 45.5M/wk | `clawhub install codecov-coverage-analyzer` |
+| [Jest Unit Test Scaffolder](skills/jest-unit-test-scaffolder/) | Listed | 45.3k | 45.5M/wk | `clawhub install jest-unit-test-scaffolder` |
 | [ESLint Auto-Fix Agent](skills/eslint-auto-fix-agent/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-auto-fix-agent` |
 | [ESLint Auto-Fix Orchestrator](skills/eslint-autofix-orchestrator/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-autofix-orchestrator` |
 | [ESLint Auto-Fix Pipeline](skills/eslint-autofix-pipeline/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-autofix-pipeline` |
@@ -863,9 +865,9 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [ESLint Rule Analyzer](skills/eslint-rule-analyzer/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-rule-analyzer` |
 | [ESLint Rule Analyzer and Fixer](skills/eslint-rule-analyzer-fixer/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-rule-analyzer-fixer` |
 | [ESLint Rule Architect](skills/eslint-rule-architect-2/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-rule-architect-2` |
-| [ESLint Rule Auditor](skills/eslint-rule-auditor-3/) | Listed | 27.2k | 109M/wk | `clawhub install eslint-rule-auditor-3` |
+| [ESLint Rule Auditor](skills/eslint-rule-auditor-3/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-rule-auditor-3` |
 | [ESLint Rule Composer](skills/eslint-rule-composer/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-rule-composer` |
-| [ESLint Rule Configurator](skills/eslint-rule-configurator/) | Listed | 27.2k | 109M/wk | `clawhub install eslint-rule-configurator` |
+| [ESLint Rule Configurator](skills/eslint-rule-configurator/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-rule-configurator` |
 | [ESLint Rule Conflict Detector](skills/eslint-rule-conflict-detector-2/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-rule-conflict-detector-2` |
 | [ESLint Rule Conflict Resolver](skills/eslint-rule-conflict-resolver/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-rule-conflict-resolver` |
 | [ESLint Rule Enforcement Agent](skills/eslint-rule-enforcement-agent/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-rule-enforcement-agent` |
@@ -882,18 +884,19 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Semgrep Code Pattern Scanner](skills/semgrep-code-pattern-scanner-2/) | Listed | 14.5k | — | `clawhub install semgrep-code-pattern-scanner-2` |
 | [Semgrep Code Scanner](skills/semgrep-code-scanner/) | Listed | 14.5k | — | `clawhub install semgrep-code-scanner` |
 | [Semgrep Custom Pattern Builder](skills/semgrep-custom-pattern-builder/) | Security Reviewed | 14.5k | — | `clawhub install semgrep-custom-pattern-builder` |
-| [Semgrep Custom Pattern Generator](skills/semgrep-custom-pattern-generator/) | Listed | 14.5k | — | `clawhub install semgrep-custom-pattern-generator` |
-| [Semgrep Custom Pattern Library](skills/semgrep-custom-pattern-library/) | Listed | 14.5k | — | `clawhub install semgrep-custom-pattern-library` |
-| [Semgrep Custom Rule Builder](skills/semgrep-custom-rule-builder-3/) | Listed | 14.5k | — | `clawhub install semgrep-custom-rule-builder-3` |
-| [Semgrep Pattern Matching Analyzer](skills/semgrep-pattern-matching-analyzer/) | Listed | 14.5k | — | `clawhub install semgrep-pattern-matching-analyzer` |
+| [Semgrep Custom Pattern Generator](skills/semgrep-custom-pattern-generator/) | Security Reviewed | 14.5k | — | `clawhub install semgrep-custom-pattern-generator` |
+| [Semgrep Custom Pattern Library](skills/semgrep-custom-pattern-library/) | Security Reviewed | 14.5k | — | `clawhub install semgrep-custom-pattern-library` |
+| [Semgrep Custom Rule Builder](skills/semgrep-custom-rule-builder-3/) | Security Reviewed | 14.5k | — | `clawhub install semgrep-custom-rule-builder-3` |
+| [Semgrep Pattern Matching Analyzer](skills/semgrep-pattern-matching-analyzer/) | Security Reviewed | 14.5k | — | `clawhub install semgrep-pattern-matching-analyzer` |
 | [Semgrep Pattern Matching Auditor](skills/semgrep-pattern-matching-auditor/) | Security Reviewed | 14.5k | — | `clawhub install semgrep-pattern-matching-auditor` |
 | [Semgrep Pattern Scanner](skills/semgrep-pattern-scanner/) | Security Reviewed | 14.5k | — | `clawhub install semgrep-pattern-scanner` |
-| [Semgrep Rule Author](skills/semgrep-rule-author/) | Listed | 14.5k | — | `clawhub install semgrep-rule-author` |
+| [Semgrep Rule Author](skills/semgrep-rule-author/) | Security Reviewed | 14.5k | — | `clawhub install semgrep-rule-author` |
 | [Semgrep Rule Engine](skills/semgrep-rule-engine/) | Security Reviewed | 14.5k | — | `clawhub install semgrep-rule-engine` |
 | [Semgrep Rule Runner](skills/semgrep-rule-runner/) | Security Reviewed | 14.5k | — | `clawhub install semgrep-rule-runner` |
 | [Semgrep SAST Scanner](skills/semgrep-sast-scanner-skill/) | Security Reviewed | 14.5k | — | `clawhub install semgrep-sast-scanner-skill` |
 | [Semgrep Security Review Agent](skills/semgrep-security-review-agent/) | Security Reviewed | 14.5k | — | `clawhub install semgrep-security-review-agent` |
 | [Semgrep Security Scanner](skills/semgrep-security-scanner-2/) | Security Reviewed | 14.5k | — | `clawhub install semgrep-security-scanner-2` |
+| [Pytest Fixture Generator](skills/pytest-fixture-generator/) | Listed | 13.7k | — | `clawhub install pytest-fixture-generator` |
 | [SonarQube Analysis Agent](skills/sonarqube-analysis-agent/) | Security Reviewed | 10.4k | — | `clawhub install sonarqube-analysis-agent` |
 | [SonarQube Analysis Runner](skills/sonarqube-analysis-runner/) | Security Reviewed | 10.4k | — | `clawhub install sonarqube-analysis-runner` |
 | [SonarQube Code Quality Scanner](skills/sonarqube-code-quality-scanner/) | Security Reviewed | 10.4k | — | `clawhub install sonarqube-code-quality-scanner` |
@@ -909,8 +912,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [SonarQube Scanner Skill](skills/sonarqube-scanner-skill/) | Security Reviewed | 10.4k | — | `clawhub install sonarqube-scanner-skill` |
 | [CodeClimate Maintainability Tracker](skills/codeclimate-maintainability-tracker-7/) | Security Reviewed | 3.1k | 3.3M/wk | `clawhub install codeclimate-maintainability-tracker-7` |
 | [Codecov Coverage Report Analyzer](skills/codecov-coverage-report-analyzer/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install codecov-coverage-report-analyzer` |
-| [Codecov Coverage Analyzer](skills/codecov-coverage-analyzer/) | Security Reviewed | — | 45.5M/wk | `clawhub install codecov-coverage-analyzer` |
-| [Jest Unit Test Scaffolder](skills/jest-unit-test-scaffolder/) | Listed | — | 45.5M/wk | `clawhub install jest-unit-test-scaffolder` |
 | [Artillery Load Test Runner](skills/artillery-load-test-runner/) | Listed | — | — | `clawhub install artillery-load-test-runner` |
 | [Bandit Python Security Linter](skills/bandit-python-security-linter-2/) | Listed | — | — | `clawhub install bandit-python-security-linter-2` |
 | [CodeClimate Maintainability Reporter](skills/codeclimate-maintainability-reporter/) | Listed | — | — | `clawhub install codeclimate-maintainability-reporter` |
@@ -918,7 +919,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Codecov Coverage Diff Analyzer](skills/codecov-coverage-diff-analyzer-2/) | Security Reviewed | — | — | `clawhub install codecov-coverage-diff-analyzer-2` |
 | [Codecov Coverage Tracker](skills/codecov-coverage-tracker-skill/) | Security Reviewed | — | — | `clawhub install codecov-coverage-tracker-skill` |
 | [Codecov Coverage Tracker Agent](skills/codecov-coverage-tracker-agent/) | Security Reviewed | — | — | `clawhub install codecov-coverage-tracker-agent` |
-| [Complexity Trend Tracker](skills/complexity-trend-tracker-agent/) | Listed | — | — | `clawhub install complexity-trend-tracker-agent` |
+| [Complexity Trend Tracker](skills/complexity-trend-tracker-agent/) | Security Reviewed | — | — | `clawhub install complexity-trend-tracker-agent` |
 | [Dead Code Detector](skills/dead-code-detector/) | Listed | — | — | `clawhub install dead-code-detector` |
 | [DeepSource Automated Review](skills/deepsource-automated-review/) | Listed | — | — | `clawhub install deepsource-automated-review` |
 | [DeepSource Static Analysis](skills/deepsource-static-analysis/) | Listed | — | — | `clawhub install deepsource-static-analysis` |
@@ -929,54 +930,56 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Pylint Baseline Manager](skills/pylint-baseline-manager-wave48/) | Security Reviewed | — | — | `clawhub install pylint-baseline-manager-wave48` |
 | [Pylint Code Analyzer](skills/pylint-code-analyzer/) | Listed | — | — | `clawhub install pylint-code-analyzer` |
 | [Pylint Code Review Assistant](skills/pylint-code-review-assistant/) | Security Reviewed | — | — | `clawhub install pylint-code-review-assistant` |
-| [Pytest Fixture Generator](skills/pytest-fixture-generator/) | Listed | — | — | `clawhub install pytest-fixture-generator` |
-| [Python Type Coverage Analyzer](skills/python-type-coverage-analyzer/) | Listed | — | — | `clawhub install python-type-coverage-analyzer` |
+| [Python Type Coverage Analyzer](skills/python-type-coverage-analyzer/) | Security Reviewed | — | — | `clawhub install python-type-coverage-analyzer` |
 | [Python Type Coverage Checker](skills/python-type-coverage-checker/) | Listed | — | — | `clawhub install python-type-coverage-checker` |
-| [Ruff Linter and Formatter](skills/ruff-linter-formatter-agent/) | Listed | — | — | `clawhub install ruff-linter-formatter-agent` |
+| [Ruff Linter and Formatter](skills/ruff-linter-formatter-agent/) | Security Reviewed | — | — | `clawhub install ruff-linter-formatter-agent` |
 | [Ruff Linter Configuration Architect](skills/ruff-linter-configuration-architect/) | Security Reviewed | — | — | `clawhub install ruff-linter-configuration-architect` |
-| [Ruff Python Linter Configurator](skills/ruff-python-linter-configurator/) | Listed | — | — | `clawhub install ruff-python-linter-configurator` |
+| [Ruff Python Linter Configurator](skills/ruff-python-linter-configurator/) | Security Reviewed | — | — | `clawhub install ruff-python-linter-configurator` |
 | [TypeScript Strict Checker](skills/typescript-strict-checker/) | Listed | — | — | `clawhub install typescript-strict-checker` |
 | [TypeScript Strict Mode Checker](skills/typescript-strict-mode-checker/) | Listed | — | — | `clawhub install typescript-strict-mode-checker` |
 
 
-### 📄 Templates & Workflows (76 skills)
+### 📄 Templates & Workflows (80 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
 | Skill | Tier | GitHub Stars | npm Downloads | Install |
 |---|---|---:|---:|---|
 | [Plop.js Code Generator](skills/plopjs-code-generator/) | Security Reviewed | 244.1k | 104.8M/wk | `clawhub install plopjs-code-generator` |
+| [Argo Workflows DAG Pipeline Builder](skills/argo-workflows-dag-pipeline-builder/) | Security Reviewed | 121.3k | — | `clawhub install argo-workflows-dag-pipeline-builder` |
 | [DigitalOcean Droplet Manager](skills/digitalocean-droplet-manager/) | Listed | 121.3k | — | `clawhub install digitalocean-droplet-manager` |
-| [Jinja2 Infrastructure Template Engine](skills/jinja2-infrastructure-template-engine/) | Listed | 121.3k | — | `clawhub install jinja2-infrastructure-template-engine` |
+| [Jinja2 Infrastructure Template Engine](skills/jinja2-infrastructure-template-engine/) | Security Reviewed | 121.3k | — | `clawhub install jinja2-infrastructure-template-engine` |
 | [Nx Workspace Generator Toolkit](skills/nx-workspace-generator-toolkit/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install nx-workspace-generator-toolkit` |
 | [Twitter/X Trend Monitor &#038; Thread Publisher](skills/twitter-x-trend-monitor-thread-publisher/) | Listed | 73.5k | 8.2M/wk | `clawhub install twitter-x-trend-monitor-thread-publisher` |
 | [Cookiecutter Project Scaffold Generator](skills/cookiecutter-project-scaffold-generator/) | Security Reviewed | 71.6k | — | `clawhub install cookiecutter-project-scaffold-generator` |
 | [Cookiecutter Project Scaffolding Agent](skills/cookiecutter-project-scaffolding-agent/) | Security Reviewed | 71.6k | — | `clawhub install cookiecutter-project-scaffolding-agent` |
-| [Docker Compose Service Blueprint Creator](skills/docker-compose-service-blueprint-creator/) | Listed | 71.6k | — | `clawhub install docker-compose-service-blueprint-creator` |
+| [Docker Compose Service Blueprint Creator](skills/docker-compose-service-blueprint-creator/) | Security Reviewed | 71.6k | — | `clawhub install docker-compose-service-blueprint-creator` |
 | [Docker Compose Test Harness](skills/docker-compose-test-harness/) | Security Reviewed | 71.6k | — | `clawhub install docker-compose-test-harness` |
 | [Makefile Workflow Generator](skills/makefile-workflow-generator/) | Security Reviewed | 71.6k | — | `clawhub install makefile-workflow-generator` |
 | [Packer Image Builder](skills/packer-image-builder/) | Listed | 71.6k | — | `clawhub install packer-image-builder` |
 | [Ansible Playbook Template Library](skills/ansible-playbook-template-library/) | Security Reviewed | 68.4k | 9.2M/wk | `clawhub install ansible-playbook-template-library` |
-| [Ansible Playbook Linter](skills/ansible-playbook-linter-2/) | Listed | 68.4k | — | `clawhub install ansible-playbook-linter-2` |
+| [Ansible Playbook Linter](skills/ansible-playbook-linter-2/) | Security Reviewed | 68.4k | — | `clawhub install ansible-playbook-linter-2` |
 | [Ansible Playbook Runner](skills/ansible-playbook-runner/) | Listed | 68.4k | — | `clawhub install ansible-playbook-runner` |
-| [Ansible Playbook Template Generator](skills/ansible-playbook-template-generator/) | Listed | 68.4k | — | `clawhub install ansible-playbook-template-generator` |
+| [Ansible Playbook Template Generator](skills/ansible-playbook-template-generator/) | Security Reviewed | 68.4k | — | `clawhub install ansible-playbook-template-generator` |
 | [Terraform Module Registry](skills/terraform-module-registry/) | Listed | 48k | — | `clawhub install terraform-module-registry` |
 | [Terraform Module Registry Browser](skills/terraform-module-registry-browser/) | Security Reviewed | 48k | — | `clawhub install terraform-module-registry-browser` |
 | [Terraform Module Scaffold Generator](skills/terraform-module-scaffold-generator/) | Security Reviewed | 48k | — | `clawhub install terraform-module-scaffold-generator` |
 | [Terraform Module Template Engine](skills/terraform-module-template-engine/) | Security Reviewed | 48k | — | `clawhub install terraform-module-template-engine` |
 | [Terraform Module Template Generator](skills/terraform-module-template-generator/) | Security Reviewed | 48k | — | `clawhub install terraform-module-template-generator` |
-| [Terraform Module Testing Framework](skills/terraform-module-testing-framework/) | Listed | 48k | — | `clawhub install terraform-module-testing-framework` |
+| [Terraform Module Testing Framework](skills/terraform-module-testing-framework/) | Security Reviewed | 48k | — | `clawhub install terraform-module-testing-framework` |
 | [Helm Chart Boilerplate Builder](skills/helm-chart-boilerplate-builder/) | Security Reviewed | 29.6k | — | `clawhub install helm-chart-boilerplate-builder` |
-| [Helm Chart Template Scaffolder](skills/helm-chart-template-scaffolder/) | Listed | 29.6k | — | `clawhub install helm-chart-template-scaffolder` |
+| [Helm Chart Template Scaffolder](skills/helm-chart-template-scaffolder/) | Security Reviewed | 29.6k | — | `clawhub install helm-chart-template-scaffolder` |
 | [Helm Chart Templater](skills/helm-chart-templater/) | Security Reviewed | 29.6k | — | `clawhub install helm-chart-templater` |
 | [Kubernetes Helm Chart Scaffold Builder](skills/kubernetes-helm-chart-scaffold-builder/) | Security Reviewed | 29.6k | — | `clawhub install kubernetes-helm-chart-scaffold-builder` |
 | [Swagger Codegen Orchestrator](skills/swagger-codegen-orchestrator/) | Security Reviewed | 28.7k | 3.2M/wk | `clawhub install swagger-codegen-orchestrator` |
 | [Yeoman Enterprise Generator Suite](skills/yeoman-enterprise-generator-suite/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install yeoman-enterprise-generator-suite` |
+| [Pulumi Infrastructure Stack Templater](skills/pulumi-infrastructure-stack-templater/) | Security Reviewed | 24.9k | 1.5M/wk | `clawhub install pulumi-infrastructure-stack-templater` |
 | [Backstage Software Catalog Sync](skills/backstage-software-catalog-sync/) | Security Reviewed | 24.3k | — | `clawhub install backstage-software-catalog-sync` |
 | [Cookiecutter Project Bootstrap](skills/cookiecutter-project-bootstrap/) | Security Reviewed | 24.3k | — | `clawhub install cookiecutter-project-bootstrap` |
 | [Cookiecutter Project Builder](skills/cookiecutter-project-builder/) | Security Reviewed | 24.3k | — | `clawhub install cookiecutter-project-builder` |
 | [Fly.io Deployment Helper](skills/fly-io-deployment-helper/) | Listed | 20.3k | 32M/wk | `clawhub install fly-io-deployment-helper` |
 | [Railway App Deployer](skills/railway-app-deployer/) | Listed | 20.3k | 32M/wk | `clawhub install railway-app-deployer` |
+| [Vercel Deployment Agent](skills/vercel-deployment-agent/) | Listed | 15.1k | 2.1M/wk | `clawhub install vercel-deployment-agent` |
 | [Semgrep Custom Rule Runner](skills/semgrep-custom-rule-runner-2/) | Listed | 14.5k | — | `clawhub install semgrep-custom-rule-runner-2` |
 | [SonarQube Gate Checker](skills/sonarqube-gate-checker-2/) | Listed | 10.4k | — | `clawhub install sonarqube-gate-checker-2` |
 | [Incident Response Template Generator](skills/incident-response-template-generator/) | Security Reviewed | 5.6k | 1.1M/wk | `clawhub install incident-response-template-generator` |
@@ -985,38 +988,39 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [AWS CDK Scaffolder](skills/aws-cdk-scaffolder/) | Listed | 3.6k | 9.2M/wk | `clawhub install aws-cdk-scaffolder` |
 | [Cron Job Manager](skills/cron-job-manager/) | Listed | 3.6k | 9.2M/wk | `clawhub install cron-job-manager` |
 | [Cloudflare Workers Deployer](skills/cloudflare-workers-deployer/) | Listed | 1.9k | 1M/wk | `clawhub install cloudflare-workers-deployer` |
-| [Vercel Deployment Agent](skills/vercel-deployment-agent/) | Listed | — | 2.1M/wk | `clawhub install vercel-deployment-agent` |
-| [Netlify Site Manager](skills/netlify-site-manager/) | Listed | — | 383.7k/wk | `clawhub install netlify-site-manager` |
+| [Netlify Site Manager](skills/netlify-site-manager/) | Listed | 1.8k | 383.7k/wk | `clawhub install netlify-site-manager` |
+| [Backstage Software Template Composer](skills/backstage-software-template-composer/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install backstage-software-template-composer` |
 | [Argo Workflows DAG Optimizer](skills/argo-workflows-dag-optimizer/) | Security Reviewed | — | — | `clawhub install argo-workflows-dag-optimizer` |
-| [Argo Workflows DAG Pipeline Builder](skills/argo-workflows-dag-pipeline-builder/) | Listed | — | — | `clawhub install argo-workflows-dag-pipeline-builder` |
 | [Asana MCP Server](skills/asana-mcp-server/) | Listed | — | — | `clawhub install asana-mcp-server` |
 | [Azure Bicep Generator](skills/azure-bicep-generator/) | Listed | — | — | `clawhub install azure-bicep-generator` |
-| [Backstage Software Template Composer](skills/backstage-software-template-composer/) | Listed | — | — | `clawhub install backstage-software-template-composer` |
+| [Backstage Entity Catalog Populator](skills/backstage-entity-catalog-populator/) | Listed | — | — | `clawhub install backstage-entity-catalog-populator` |
 | [ClickUp MCP Server](skills/clickup-mcp-server/) | Listed | — | — | `clawhub install clickup-mcp-server` |
 | [Codecov Diff Analyzer](skills/codecov-diff-analyzer-2/) | Listed | — | — | `clawhub install codecov-diff-analyzer-2` |
 | [Cookiecutter Project Bootstrapper](skills/cookiecutter-project-bootstrapper/) | Security Reviewed | — | — | `clawhub install cookiecutter-project-bootstrapper` |
 | [Cookiecutter Project Scaffold](skills/cookiecutter-project-scaffold/) | Security Reviewed | — | — | `clawhub install cookiecutter-project-scaffold` |
 | [Cookiecutter Project Scaffolder](skills/cookiecutter-project-scaffolder-3/) | Security Reviewed | — | — | `clawhub install cookiecutter-project-scaffolder-3` |
-| [Cookiecutter Project Template Engine](skills/cookiecutter-project-template-engine/) | Listed | — | — | `clawhub install cookiecutter-project-template-engine` |
+| [Cookiecutter Project Template Engine](skills/cookiecutter-project-template-engine/) | Security Reviewed | — | — | `clawhub install cookiecutter-project-template-engine` |
 | [Cookiecutter Template Generator](skills/cookiecutter-template-generator/) | Security Reviewed | — | — | `clawhub install cookiecutter-template-generator` |
 | [GCP Deployment Manager](skills/gcp-deployment-manager/) | Listed | — | — | `clawhub install gcp-deployment-manager` |
+| [GitHub Actions Reusable Workflow Library](skills/github-actions-reusable-workflow-library/) | Listed | — | — | `clawhub install github-actions-reusable-workflow-library` |
 | [GitHub Actions Workflow Composer](skills/github-actions-workflow-composer-2/) | Security Reviewed | — | — | `clawhub install github-actions-workflow-composer-2` |
 | [Incident Response Runbook](skills/incident-response-runbook/) | Listed | — | — | `clawhub install incident-response-runbook` |
 | [Intercom MCP Server](skills/intercom-mcp-server/) | Listed | — | — | `clawhub install intercom-mcp-server` |
 | [Jinja2 Template Engine](skills/jinja2-template-engine-agent/) | Security Reviewed | — | — | `clawhub install jinja2-template-engine-agent` |
-| [Makedown Task Runner](skills/makedown-task-runner/) | Listed | — | — | `clawhub install makedown-task-runner` |
+| [Makedown Task Runner](skills/makedown-task-runner/) | Security Reviewed | — | — | `clawhub install makedown-task-runner` |
 | [Makefile Task Orchestration Builder](skills/makefile-task-orchestration-builder/) | Listed | — | — | `clawhub install makefile-task-orchestration-builder` |
 | [Monday.com MCP Server](skills/monday-com-mcp-server/) | Listed | — | — | `clawhub install monday-com-mcp-server` |
 | [Mustache Template Renderer](skills/mustache-template-renderer-agent/) | Security Reviewed | — | — | `clawhub install mustache-template-renderer-agent` |
 | [n8n MCP](skills/n8n-mcp/) | Listed | — | — | `clawhub install n8n-mcp` |
-| [Nx Monorepo Workflow Orchestrator](skills/nx-monorepo-workflow-orchestrator/) | Listed | — | — | `clawhub install nx-monorepo-workflow-orchestrator` |
+| [Nx Monorepo Workflow Orchestrator](skills/nx-monorepo-workflow-orchestrator/) | Security Reviewed | — | — | `clawhub install nx-monorepo-workflow-orchestrator` |
 | [Nx Workspace Generator](skills/nx-workspace-generator/) | Security Reviewed | — | — | `clawhub install nx-workspace-generator` |
+| [Nx Workspace Generator Plugin](skills/nx-workspace-generator-plugin-builder/) | Listed | — | — | `clawhub install nx-workspace-generator-plugin-builder` |
 | [Plop.js Micro-Generator](skills/plopjs-micro-generator-2/) | Listed | — | — | `clawhub install plopjs-micro-generator-2` |
 | [Postmortem Template Generator](skills/postmortem-template-generator/) | Listed | — | — | `clawhub install postmortem-template-generator` |
 | [Prefect Workflow Agent](skills/prefect-workflow-agent/) | Listed | — | — | `clawhub install prefect-workflow-agent` |
-| [Pulumi Infrastructure Stack Templater](skills/pulumi-infrastructure-stack-templater/) | Listed | — | — | `clawhub install pulumi-infrastructure-stack-templater` |
+| [Pulumi Component Resource Scaffolder](skills/pulumi-component-resource-scaffolder/) | Listed | — | — | `clawhub install pulumi-component-resource-scaffolder` |
 | [Release Notes Generator](skills/release-notes-generator/) | Listed | — | — | `clawhub install release-notes-generator` |
-| [Self-Improvement / Learnings Capture](skills/self-improvement-learnings-capture/) | Listed | — | — | `clawhub install self-improvement-learnings-capture` |
+| [Self-Improvement / Learnings Capture](skills/self-improvement-learnings-capture/) | Security Reviewed | — | — | `clawhub install self-improvement-learnings-capture` |
 | [Yeoman Generator Builder](skills/yeoman-generator-builder/) | Security Reviewed | — | — | `clawhub install yeoman-generator-builder` |
 | [Yeoman Scaffold Runner](skills/yeoman-scaffold-runner/) | Security Reviewed | — | — | `clawhub install yeoman-scaffold-runner` |
 | [Yeoman Workflow Orchestrator](skills/yeoman-workflow-orchestrator/) | Security Reviewed | — | — | `clawhub install yeoman-workflow-orchestrator` |
@@ -1030,7 +1034,10 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | Skill | Tier | GitHub Stars | npm Downloads | Install |
 |---|---|---:|---:|---|
 | [Todoist Natural Language Task Parser](skills/todoist-natural-language-task-parser/) | Security Reviewed | 35.3k | — | `clawhub install todoist-natural-language-task-parser` |
+| [Discord Bot Manager](skills/discord-bot-manager/) | Listed | 26.6k | 508.8k/wk | `clawhub install discord-bot-manager` |
 | [Linear Sprint Planner](skills/linear-sprint-planner/) | Listed | 20.3k | 32M/wk | `clawhub install linear-sprint-planner` |
+| [Microsoft Graph Email Triage Assistant](skills/microsoft-graph-email-triage-assistant/) | Security Reviewed | 7k | 5M/wk | `clawhub install microsoft-graph-email-triage-assistant` |
+| [Outlook Email Automation](skills/outlook-email-automation/) | Listed | 7k | 5M/wk | `clawhub install outlook-email-automation` |
 | [Notion AI Document Summarizer &#038; Action Item Extractor](skills/notion-ai-doc-summarizer/) | Listed | 5.6k | 1.1M/wk | `clawhub install notion-ai-doc-summarizer` |
 | [Notion AI Workspace](skills/notion-ai-workspace/) | Listed | 5.6k | 1.1M/wk | `clawhub install notion-ai-workspace` |
 | [Notion Database Sync Agent](skills/notion-database-sync-agent/) | Security Reviewed | 5.6k | 1.1M/wk | `clawhub install notion-database-sync-agent` |
@@ -1048,34 +1055,32 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Slack MCP Server](skills/slack-mcp-server/) | Listed | 2.9k | 2.4M/wk | `clawhub install slack-mcp-server` |
 | [Slack Standup Automator](skills/slack-standup-automator/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install slack-standup-automator` |
 | [Slack Standup Summarizer](skills/slack-standup-summarizer/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install slack-standup-summarizer` |
+| [Slack Status API PTO Sync Assistant](skills/slack-status-api-pto-sync-assistant/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install slack-status-api-pto-sync-assistant` |
 | [Slack Workflow Automation Builder](skills/slack-workflow-automation-builder/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install slack-workflow-automation-builder` |
 | [Slack Workflow Bot](skills/slack-workflow-bot-bolt-sdk/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install slack-workflow-bot-bolt-sdk` |
-| [Slack Workflow Bot Builder](skills/slack-workflow-bot-builder/) | Listed | 2.9k | 2.4M/wk | `clawhub install slack-workflow-bot-builder` |
+| [Slack Workflow Bot Builder](skills/slack-workflow-bot-builder/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install slack-workflow-bot-builder` |
 | [Slack Workflow Builder Agent](skills/slack-workflow-builder-agent/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install slack-workflow-builder-agent` |
 | [Microsoft Graph Mail Triage Agent](skills/microsoft-graph-mail-triage-agent/) | Security Reviewed | 787 | 6M/wk | `clawhub install microsoft-graph-mail-triage-agent` |
-| [Microsoft Graph Email Triage Assistant](skills/microsoft-graph-email-triage-assistant/) | Security Reviewed | — | 5M/wk | `clawhub install microsoft-graph-email-triage-assistant` |
-| [Outlook Email Automation](skills/outlook-email-automation/) | Listed | — | 5M/wk | `clawhub install outlook-email-automation` |
-| [Discord Bot Manager](skills/discord-bot-manager/) | Listed | — | 508.8k/wk | `clawhub install discord-bot-manager` |
 | [Airtable MCP Server](skills/airtable-mcp-server/) | Listed | — | — | `clawhub install airtable-mcp-server` |
 | [Atlassian Rovo MCP Server](skills/atlassian-rovo-mcp-server/) | Listed | — | — | `clawhub install atlassian-rovo-mcp-server` |
 | [Cross-Calendar Availability Finder](skills/cross-calendar-availability-finder-2/) | Listed | — | — | `clawhub install cross-calendar-availability-finder-2` |
 | [Figma Design Extractor](skills/figma-design-extractor/) | Listed | — | — | `clawhub install figma-design-extractor` |
-| [Gmail API Thread Label Triage](skills/gmail-api-thread-label-triage/) | Listed | — | — | `clawhub install gmail-api-thread-label-triage` |
+| [Gmail API Thread Label Triage](skills/gmail-api-thread-label-triage/) | Security Reviewed | — | — | `clawhub install gmail-api-thread-label-triage` |
 | [Gmail Smart Triage Agent](skills/gmail-smart-triage-2/) | Listed | — | — | `clawhub install gmail-smart-triage-2` |
 | [Gmail Thread Summarizer and Action Extractor](skills/gmail-thread-summarizer-action-extractor/) | Security Reviewed | — | — | `clawhub install gmail-thread-summarizer-action-extractor` |
 | [Google Calendar Conflict Detector](skills/google-calendar-conflict-detector/) | Security Reviewed | — | — | `clawhub install google-calendar-conflict-detector` |
 | [Google Calendar Conflict Resolver](skills/google-calendar-conflict-resolver-2/) | Security Reviewed | — | — | `clawhub install google-calendar-conflict-resolver-2` |
-| [Google Calendar FreeBusy Scheduler Bridge](skills/google-calendar-freebusy-scheduler-bridge/) | Listed | — | — | `clawhub install google-calendar-freebusy-scheduler-bridge` |
+| [Google Calendar FreeBusy Scheduler Bridge](skills/google-calendar-freebusy-scheduler-bridge/) | Security Reviewed | — | — | `clawhub install google-calendar-freebusy-scheduler-bridge` |
 | [Google Calendar Meeting Scheduler](skills/google-calendar-meeting-scheduler/) | Listed | — | — | `clawhub install google-calendar-meeting-scheduler` |
 | [Google Calendar Smart Scheduler](skills/google-calendar-smart-scheduler-2/) | Security Reviewed | — | — | `clawhub install google-calendar-smart-scheduler-2` |
 | [Google Calendar Sync &#038; Conflict Resolver](skills/google-calendar-sync-conflict-resolver/) | Security Reviewed | — | — | `clawhub install google-calendar-sync-conflict-resolver` |
 | [Google Calendar Sync Agent](skills/google-calendar-sync-agent-2/) | Security Reviewed | — | — | `clawhub install google-calendar-sync-agent-2` |
 | [Google Workspace CLI Skill](skills/google-workspace-cli-skill/) | Listed | — | — | `clawhub install google-workspace-cli-skill` |
 | [IMAP Email Classifier](skills/imap-email-classifier-ml/) | Security Reviewed | — | — | `clawhub install imap-email-classifier-ml` |
-| [IMAP Inbox Triage Agent](skills/imap-inbox-triage-agent/) | Listed | — | — | `clawhub install imap-inbox-triage-agent` |
+| [IMAP Inbox Triage Agent](skills/imap-inbox-triage-agent/) | Security Reviewed | — | — | `clawhub install imap-inbox-triage-agent` |
 | [Linear MCP Server](skills/linear-mcp-server/) | Listed | — | — | `clawhub install linear-mcp-server` |
 | [Loom Video Action Extractor](skills/loom-video-action-extractor/) | Listed | — | — | `clawhub install loom-video-action-extractor` |
-| [Microsoft Graph Calendar Conflict Resolver](skills/microsoft-graph-calendar-conflict-resolver/) | Listed | — | — | `clawhub install microsoft-graph-calendar-conflict-resolver` |
+| [Microsoft Graph Calendar Conflict Resolver](skills/microsoft-graph-calendar-conflict-resolver/) | Security Reviewed | — | — | `clawhub install microsoft-graph-calendar-conflict-resolver` |
 | [Microsoft Graph Email Digest Builder](skills/microsoft-graph-email-digest-builder/) | Security Reviewed | — | — | `clawhub install microsoft-graph-email-digest-builder` |
 | [Microsoft Graph Email Triage Agent](skills/microsoft-graph-email-triage-agent/) | Security Reviewed | — | — | `clawhub install microsoft-graph-email-triage-agent` |
 | [Microsoft Outlook Calendar Sync Agent](skills/ms-outlook-calendar-sync-agent/) | Security Reviewed | — | — | `clawhub install ms-outlook-calendar-sync-agent` |
@@ -1084,7 +1089,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Outlook Mail Triage Assistant](skills/outlook-mail-triage-assistant/) | Security Reviewed | — | — | `clawhub install outlook-mail-triage-assistant` |
 | [Outlook Mail Triage Skill](skills/outlook-mail-triage-microsoft-graph/) | Security Reviewed | — | — | `clawhub install outlook-mail-triage-microsoft-graph` |
 | [Outlook Rule Automation Manager](skills/outlook-rule-automation-manager/) | Security Reviewed | — | — | `clawhub install outlook-rule-automation-manager` |
-| [Slack Status API PTO Sync Assistant](skills/slack-status-api-pto-sync-assistant/) | Listed | — | — | `clawhub install slack-status-api-pto-sync-assistant` |
 | [Teams Webhook Configurator](skills/teams-webhook-configurator/) | Listed | — | — | `clawhub install teams-webhook-configurator` |
 | [Todoist GTD Workflow Engine](skills/todoist-gtd-workflow-engine/) | Security Reviewed | — | — | `clawhub install todoist-gtd-workflow-engine` |
 | [Todoist Project Automator](skills/todoist-project-automator-api-v2/) | Security Reviewed | — | — | `clawhub install todoist-project-automator-api-v2` |
@@ -1093,21 +1097,85 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Zoom Meeting Summarizer](skills/zoom-meeting-summarizer/) | Listed | — | — | `clawhub install zoom-meeting-summarizer` |
 
 
+### 🔍 Research & Scraping (56 skills)
+
+Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=downloads)
+
+| Skill | Tier | GitHub Stars | npm Downloads | Install |
+|---|---|---:|---:|---|
+| [Puppeteer Scraping Framework](skills/puppeteer-scraping-framework-2/) | Security Reviewed | 93.9k | 8.7M/wk | `clawhub install puppeteer-scraping-framework-2` |
+| [Puppeteer Stealth Web Scraper](skills/puppeteer-stealth-web-scraper/) | Security Reviewed | 93.9k | 8.7M/wk | `clawhub install puppeteer-stealth-web-scraper` |
+| [Puppeteer Web Scraper](skills/puppeteer-web-scraper/) | Security Reviewed | 93.9k | 8.7M/wk | `clawhub install puppeteer-web-scraper` |
+| [PuppeteerSharp Web Scraping Pipeline](skills/puppeteersharp-web-scraping-pipeline/) | Security Reviewed | 93.9k | 8.7M/wk | `clawhub install puppeteersharp-web-scraping-pipeline` |
+| [Playwright Network Interceptor](skills/playwright-network-interceptor/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-network-interceptor` |
+| [Playwright Page Data Extractor](skills/playwright-page-data-extractor/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-page-data-extractor` |
+| [Playwright Test Generator with Codegen](skills/playwright-test-generator-codegen/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-test-generator-codegen` |
+| [SerpAPI Search Aggregator](skills/serpapi-search-aggregator/) | Security Reviewed | 73.5k | 8.2M/wk | `clawhub install serpapi-search-aggregator` |
+| [Scrapy Pipeline Data Extractor](skills/scrapy-pipeline-data-extractor/) | Security Reviewed | 60.9k | 39.8M/wk | `clawhub install scrapy-pipeline-data-extractor` |
+| [Scrapy Spider Architect](skills/scrapy-spider-architect/) | Security Reviewed | 60.9k | 39.8M/wk | `clawhub install scrapy-spider-architect` |
+| [Scrapy Pipeline Manager](skills/scrapy-pipeline-manager/) | Security Reviewed | 60.9k | 10.9M/wk | `clawhub install scrapy-pipeline-manager` |
+| [Scrapy Spider Generator](skills/scrapy-spider-generator/) | Security Reviewed | 60.9k | 10.9M/wk | `clawhub install scrapy-spider-generator` |
+| [Scrapy Distributed Crawler Framework](skills/scrapy-distributed-crawler-framework/) | Security Reviewed | 60.9k | 8.2M/wk | `clawhub install scrapy-distributed-crawler-framework` |
+| [ScrapyCloud Job Manager](skills/scrapycloud-job-manager/) | Security Reviewed | 60.9k | — | `clawhub install scrapycloud-job-manager` |
+| [SEC EDGAR Filing Scraper &#038; Analyzer](skills/sec-edgar-filing-scraper-analyzer/) | Security Reviewed | 48.2k | — | `clawhub install sec-edgar-filing-scraper-analyzer` |
+| [PubMed Literature Mining Agent](skills/pubmed-literature-mining-agent/) | Security Reviewed | 45.6k | 9.4M/wk | `clawhub install pubmed-literature-mining-agent` |
+| [Cheerio DOM Scraping Toolkit](skills/cheerio-dom-scraping-toolkit/) | Security Reviewed | 30.2k | 18.5M/wk | `clawhub install cheerio-dom-scraping-toolkit` |
+| [Cheerio Product Price Tracker](skills/cheerio-product-price-tracker/) | Security Reviewed | 30.2k | 18.5M/wk | `clawhub install cheerio-product-price-tracker` |
+| [SerpAPI Research Pipeline](skills/serpapi-research-pipeline/) | Security Reviewed | 7k | 5M/wk | `clawhub install serpapi-research-pipeline` |
+| [SerpAPI Search Pipeline](skills/serpapi-search-pipeline/) | Security Reviewed | 7k | 5M/wk | `clawhub install serpapi-search-pipeline` |
+| [Hacker News Deep Thread Analyzer](skills/hacker-news-deep-thread-analyzer/) | Security Reviewed | 1.7k | 4.8M/wk | `clawhub install hacker-news-deep-thread-analyzer` |
+| [Crunchbase Company Intelligence Scraper](skills/crunchbase-company-intelligence-scraper/) | Security Reviewed | 391 | 905.6k/wk | `clawhub install crunchbase-company-intelligence-scraper` |
+| [Apify Actor Development Kit](skills/apify-actor-development-kit/) | Security Reviewed | 172 | 44.9k/wk | `clawhub install apify-actor-development-kit` |
+| [Apify Actor Runner](skills/apify-actor-runner/) | Security Reviewed | 172 | 44.9k/wk | `clawhub install apify-actor-runner` |
+| [Apify Actor Web Crawler](skills/apify-actor-web-crawler/) | Security Reviewed | 172 | 44.9k/wk | `clawhub install apify-actor-web-crawler` |
+| [Apify Actor Web Intelligence Agent](skills/apify-actor-web-intelligence-agent/) | Security Reviewed | 172 | 44.9k/wk | `clawhub install apify-actor-web-intelligence-agent` |
+| [Apify Web Scraper Orchestrator](skills/apify-web-scraper-orchestrator-3/) | Security Reviewed | 172 | 44.9k/wk | `clawhub install apify-web-scraper-orchestrator-3` |
+| [Censys Attack Surface Monitor](skills/censys-attack-surface-monitor/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install censys-attack-surface-monitor` |
+| [Academic Paper Citation Network Mapper](skills/academic-paper-citation-network-mapper/) | Security Reviewed | — | — | `clawhub install academic-paper-citation-network-mapper` |
+| [Arxiv Paper Discovery Agent](skills/arxiv-paper-discovery-agent/) | Listed | — | — | `clawhub install arxiv-paper-discovery-agent` |
+| [Beautiful Soup Academic Paper Parser](skills/beautifulsoup-academic-paper-parser/) | Security Reviewed | — | — | `clawhub install beautifulsoup-academic-paper-parser` |
+| [Browserless Scraping Agent](skills/browserless-scraping-agent/) | Security Reviewed | — | — | `clawhub install browserless-scraping-agent` |
+| [Common Crawl Index Query Agent](skills/common-crawl-index-query-agent/) | Security Reviewed | — | — | `clawhub install common-crawl-index-query-agent` |
+| [Common Crawl URL Index Miner](skills/common-crawl-url-index-miner/) | Security Reviewed | — | — | `clawhub install common-crawl-url-index-miner` |
+| [Crawlee Smart Crawler Agent](skills/crawlee-smart-crawler-agent/) | Security Reviewed | — | — | `clawhub install crawlee-smart-crawler-agent` |
+| [Diffbot Article Extraction Verifier](skills/diffbot-article-extraction-verifier/) | Security Reviewed | — | — | `clawhub install diffbot-article-extraction-verifier` |
+| [Diffbot Knowledge Graph Extractor](skills/diffbot-knowledge-graph-extractor/) | Security Reviewed | — | — | `clawhub install diffbot-knowledge-graph-extractor` |
+| [Firecrawl Markdown Capture Pipeline](skills/firecrawl-markdown-capture-pipeline/) | Security Reviewed | — | — | `clawhub install firecrawl-markdown-capture-pipeline` |
+| [Firecrawl MCP Server](skills/firecrawl-mcp-server/) | Listed | — | — | `clawhub install firecrawl-mcp-server` |
+| [Hacker News Frontpage Tracker](skills/hacker-news-frontpage-tracker/) | Listed | — | — | `clawhub install hacker-news-frontpage-tracker` |
+| [Jina Reader API Skill](skills/jina-reader-api-skill/) | Security Reviewed | — | — | `clawhub install jina-reader-api-skill` |
+| [OpenClaw Research Scout](skills/openclaw-research-scout/) | Listed | — | — | `clawhub install openclaw-research-scout` |
+| [OSINT Domain Intelligence Scanner](skills/osint-domain-intelligence-scanner/) | Security Reviewed | — | — | `clawhub install osint-domain-intelligence-scanner` |
+| [Patent Landscape Analyzer](skills/patent-landscape-analyzer/) | Security Reviewed | — | — | `clawhub install patent-landscape-analyzer` |
+| [Patent Landscape Crawler](skills/patent-landscape-crawler-v2/) | Listed | — | — | `clawhub install patent-landscape-crawler-v2` |
+| [Perplexity MCP Server](skills/perplexity-mcp-server/) | Listed | — | — | `clawhub install perplexity-mcp-server` |
+| [Product Review Sentiment Aggregator](skills/product-review-sentiment-aggregator/) | Security Reviewed | — | — | `clawhub install product-review-sentiment-aggregator` |
+| [ProductHunt Launch Tracker](skills/producthunt-launch-tracker/) | Listed | — | — | `clawhub install producthunt-launch-tracker` |
+| [ScrapingBee API Data Harvester](skills/scrapingbee-api-data-harvester/) | Security Reviewed | — | — | `clawhub install scrapingbee-api-data-harvester` |
+| [SEC EDGAR Financial Filing Parser](skills/sec-edgar-financial-filing-parser/) | Security Reviewed | — | — | `clawhub install sec-edgar-financial-filing-parser` |
+| [SerpAPI Answer Box Extractor](skills/serpapi-answer-box-extractor/) | Security Reviewed | — | — | `clawhub install serpapi-answer-box-extractor` |
+| [SerpAPI Scholar Agent](skills/serpapi-scholar-agent/) | Security Reviewed | — | — | `clawhub install serpapi-scholar-agent` |
+| [SerpAPI Search Intelligence Aggregator](skills/serpapi-search-intelligence-aggregator/) | Security Reviewed | — | — | `clawhub install serpapi-search-intelligence-aggregator` |
+| [SerpAPI Search Results Aggregator](skills/serpapi-search-results-aggregator/) | Security Reviewed | — | — | `clawhub install serpapi-search-results-aggregator` |
+| [Shodan Network Reconnaissance Agent](skills/shodan-network-reconnaissance-agent/) | Security Reviewed | — | — | `clawhub install shodan-network-reconnaissance-agent` |
+| [Tavily MCP Server](skills/tavily-mcp-server/) | Listed | — | — | `clawhub install tavily-mcp-server` |
+
+
 ### 🎨 Image & Creative Automation (53 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=downloads)
 
 | Skill | Tier | GitHub Stars | npm Downloads | Install |
 |---|---|---:|---:|---|
-| [Rive Runtime Animation Controller](skills/rive-runtime-animation-controller/) | Listed | 244.1k | 104.8M/wk | `clawhub install rive-runtime-animation-controller` |
+| [Rive Runtime Animation Controller](skills/rive-runtime-animation-controller/) | Security Reviewed | 244.1k | 104.8M/wk | `clawhub install rive-runtime-animation-controller` |
 | [SVG Animation Builder](skills/svg-animation-builder/) | Security Reviewed | 93.9k | 8.7M/wk | `clawhub install svg-animation-builder` |
 | [Figma Design Token Extractor](skills/figma-design-token-extractor-3/) | Security Reviewed | 89.5k | 13M/wk | `clawhub install figma-design-token-extractor-3` |
 | [RunPod Serverless GPU Inference](skills/runpod-serverless-gpu-inference/) | Security Reviewed | 71.6k | — | `clawhub install runpod-serverless-gpu-inference` |
 | [FFmpeg Thumbnail Grid Generator](skills/ffmpeg-thumbnail-grid-generator/) | Security Reviewed | 58.3k | 9.2M/wk | `clawhub install ffmpeg-thumbnail-grid-generator` |
 | [FFmpeg Intelligent Media Processor](skills/ffmpeg-intelligent-media-processor/) | Listed | 58.3k | — | `clawhub install ffmpeg-intelligent-media-processor` |
 | [FFmpeg Media Transcoder](skills/ffmpeg-media-transcoder/) | Security Reviewed | 58.3k | — | `clawhub install ffmpeg-media-transcoder` |
-| [FFmpeg Thumbnail Mosaic Generator](skills/ffmpeg-thumbnail-mosaic-generator/) | Listed | 58.3k | — | `clawhub install ffmpeg-thumbnail-mosaic-generator` |
-| [FFmpeg Video Processing Pipeline](skills/ffmpeg-video-processing-pipeline/) | Listed | 58.3k | — | `clawhub install ffmpeg-video-processing-pipeline` |
+| [FFmpeg Thumbnail Mosaic Generator](skills/ffmpeg-thumbnail-mosaic-generator/) | Security Reviewed | 58.3k | — | `clawhub install ffmpeg-thumbnail-mosaic-generator` |
+| [FFmpeg Video Processing Pipeline](skills/ffmpeg-video-processing-pipeline/) | Security Reviewed | 58.3k | — | `clawhub install ffmpeg-video-processing-pipeline` |
 | [ComfyUI Workflow Executor](skills/comfyui-workflow-executor/) | Security Reviewed | 35.3k | — | `clawhub install comfyui-workflow-executor` |
 | [Sharp Image CDN Optimizer](skills/sharp-image-cdn-optimizer/) | Listed | 32.1k | 54.5M/wk | `clawhub install sharp-image-cdn-optimizer` |
 | [Sharp Image Pipeline Processor](skills/sharp-image-pipeline-processor-2/) | Security Reviewed | 32.1k | 54.5M/wk | `clawhub install sharp-image-pipeline-processor-2` |
@@ -1115,7 +1183,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [Sharp Image Transform Pipeline](skills/sharp-image-transform-pipeline/) | Security Reviewed | 32.1k | 54.5M/wk | `clawhub install sharp-image-transform-pipeline` |
 | [ImageMagick Batch Converter CLI](skills/imagemagick-batch-converter-cli/) | Security Reviewed | 16k | — | `clawhub install imagemagick-batch-converter-cli` |
 | [ImageMagick Batch Processor](skills/imagemagick-batch-processor/) | Security Reviewed | 16k | — | `clawhub install imagemagick-batch-processor` |
-| [ImageMagick Batch Transform Agent](skills/imagemagick-batch-transform-agent/) | Listed | 16k | — | `clawhub install imagemagick-batch-transform-agent` |
+| [ImageMagick Batch Transform Agent](skills/imagemagick-batch-transform-agent/) | Security Reviewed | 16k | — | `clawhub install imagemagick-batch-transform-agent` |
 | [DALL-E 3 Batch Asset Generator](skills/dalle-3-batch-asset-generator/) | Security Reviewed | 10.8k | 16.3M/wk | `clawhub install dalle-3-batch-asset-generator` |
 | [DALL-E Batch Image Generator](skills/dalle-batch-image-generator/) | Security Reviewed | 10.8k | 16.3M/wk | `clawhub install dalle-batch-image-generator` |
 | [DALL-E Image Variation Generator](skills/dalle-image-variation-generator/) | Security Reviewed | 10.8k | 16.3M/wk | `clawhub install dalle-image-variation-generator` |
@@ -1125,11 +1193,11 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [DALL-E Variation Generator](skills/dalle-variation-generator/) | Security Reviewed | 10.8k | 16.3M/wk | `clawhub install dalle-variation-generator` |
 | [DALL-E Variations Pipeline](skills/dalle-variations-pipeline/) | Security Reviewed | 10.8k | 16.3M/wk | `clawhub install dalle-variations-pipeline` |
 | [OpenAI Image Gen](skills/openai-image-gen/) | Listed | 10.8k | 16.3M/wk | `clawhub install openai-image-gen` |
-| [Pexels API Stock Photo Curator](skills/pexels-api-stock-photo-curator/) | Security Reviewed | — | 5M/wk | `clawhub install pexels-api-stock-photo-curator` |
+| [Pexels API Stock Photo Curator](skills/pexels-api-stock-photo-curator/) | Security Reviewed | 7k | 5M/wk | `clawhub install pexels-api-stock-photo-curator` |
 | [Adobe Firefly API Batch Image Generator](skills/adobe-firefly-api-batch-image-generator/) | Security Reviewed | — | — | `clawhub install adobe-firefly-api-batch-image-generator` |
 | [Adobe Photoshop API Batch Processor](skills/adobe-photoshop-api-batch-processor/) | Security Reviewed | — | — | `clawhub install adobe-photoshop-api-batch-processor` |
 | [Bannerbear Dynamic Image API](skills/bannerbear-dynamic-image-api/) | Security Reviewed | — | — | `clawhub install bannerbear-dynamic-image-api` |
-| [Blender Geometry Nodes Script Generator](skills/blender-geometry-nodes-script-generator/) | Listed | — | — | `clawhub install blender-geometry-nodes-script-generator` |
+| [Blender Geometry Nodes Script Generator](skills/blender-geometry-nodes-script-generator/) | Verified Metadata | — | — | `clawhub install blender-geometry-nodes-script-generator` |
 | [Cloudinary Asset Optimization Agent](skills/cloudinary-asset-optimization-agent/) | Security Reviewed | — | — | `clawhub install cloudinary-asset-optimization-agent` |
 | [Cloudinary DAM Pipeline](skills/cloudinary-dam-pipeline-skill/) | Security Reviewed | — | — | `clawhub install cloudinary-dam-pipeline-skill` |
 | [Cloudinary Media Optimization Agent](skills/cloudinary-media-optimization-agent/) | Security Reviewed | — | — | `clawhub install cloudinary-media-optimization-agent` |
@@ -1138,11 +1206,11 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [Figma Export Automator](skills/figma-export-automator/) | Security Reviewed | — | — | `clawhub install figma-export-automator` |
 | [Figma REST API Asset Exporter](skills/figma-rest-api-asset-exporter/) | Security Reviewed | — | — | `clawhub install figma-rest-api-asset-exporter` |
 | [Gemini Image Style Transfer Agent](skills/gemini-image-style-transfer-agent/) | Security Reviewed | — | — | `clawhub install gemini-image-style-transfer-agent` |
-| [Lottie Animation Optimizer](skills/lottie-animation-optimizer/) | Listed | — | — | `clawhub install lottie-animation-optimizer` |
+| [Lottie Animation Optimizer](skills/lottie-animation-optimizer/) | Security Reviewed | — | — | `clawhub install lottie-animation-optimizer` |
 | [Midjourney Prompt Engineering Suite](skills/midjourney-prompt-engineering-suite/) | Security Reviewed | — | — | `clawhub install midjourney-prompt-engineering-suite` |
 | [Midjourney Prompt Optimizer](skills/midjourney-prompt-optimizer-skill/) | Listed | — | — | `clawhub install midjourney-prompt-optimizer-skill` |
 | [Nano Banana Pro Image Editing](skills/nano-banana-pro-image-editing/) | Listed | — | — | `clawhub install nano-banana-pro-image-editing` |
-| [OpenEXR HDR Compositing Pipeline](skills/openexr-hdr-compositing-pipeline/) | Listed | — | — | `clawhub install openexr-hdr-compositing-pipeline` |
+| [OpenEXR HDR Compositing Pipeline](skills/openexr-hdr-compositing-pipeline/) | Security Reviewed | — | — | `clawhub install openexr-hdr-compositing-pipeline` |
 | [Photoshop Batch Action Automator](skills/photoshop-batch-action-automator/) | Security Reviewed | — | — | `clawhub install photoshop-batch-action-automator` |
 | [Stable Diffusion ComfyUI Workflow Runner](skills/stable-diffusion-comfyui-workflow-runner-2/) | Security Reviewed | — | — | `clawhub install stable-diffusion-comfyui-workflow-runner-2` |
 | [Stable Diffusion ControlNet Compositor](skills/stable-diffusion-controlnet-compositor/) | Security Reviewed | — | — | `clawhub install stable-diffusion-controlnet-compositor` |
@@ -1154,66 +1222,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [Stable Diffusion XL Pipeline Builder](skills/stable-diffusion-xl-pipeline-builder/) | Security Reviewed | — | — | `clawhub install stable-diffusion-xl-pipeline-builder` |
 
 
-### 🔍 Research & Scraping (52 skills)
-
-Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=downloads)
-
-| Skill | Tier | GitHub Stars | npm Downloads | Install |
-|---|---|---:|---:|---|
-| [Puppeteer Scraping Framework](skills/puppeteer-scraping-framework-2/) | Listed | 93.9k | 8.7M/wk | `clawhub install puppeteer-scraping-framework-2` |
-| [Puppeteer Stealth Web Scraper](skills/puppeteer-stealth-web-scraper/) | Security Reviewed | 93.9k | 8.7M/wk | `clawhub install puppeteer-stealth-web-scraper` |
-| [Puppeteer Web Scraper](skills/puppeteer-web-scraper/) | Listed | 93.9k | 8.7M/wk | `clawhub install puppeteer-web-scraper` |
-| [PuppeteerSharp Web Scraping Pipeline](skills/puppeteersharp-web-scraping-pipeline/) | Listed | 93.9k | 8.7M/wk | `clawhub install puppeteersharp-web-scraping-pipeline` |
-| [Playwright Network Interceptor](skills/playwright-network-interceptor/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-network-interceptor` |
-| [Playwright Page Data Extractor](skills/playwright-page-data-extractor/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-page-data-extractor` |
-| [Playwright Test Generator with Codegen](skills/playwright-test-generator-codegen/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-test-generator-codegen` |
-| [SerpAPI Search Aggregator](skills/serpapi-search-aggregator/) | Listed | 73.5k | 8.2M/wk | `clawhub install serpapi-search-aggregator` |
-| [Scrapy Pipeline Data Extractor](skills/scrapy-pipeline-data-extractor/) | Listed | 60.9k | 39.8M/wk | `clawhub install scrapy-pipeline-data-extractor` |
-| [Scrapy Spider Architect](skills/scrapy-spider-architect/) | Listed | 60.9k | 39.8M/wk | `clawhub install scrapy-spider-architect` |
-| [Scrapy Pipeline Manager](skills/scrapy-pipeline-manager/) | Security Reviewed | 60.9k | 10.9M/wk | `clawhub install scrapy-pipeline-manager` |
-| [Scrapy Spider Generator](skills/scrapy-spider-generator/) | Listed | 60.9k | 10.9M/wk | `clawhub install scrapy-spider-generator` |
-| [Scrapy Distributed Crawler Framework](skills/scrapy-distributed-crawler-framework/) | Listed | 60.9k | 8.2M/wk | `clawhub install scrapy-distributed-crawler-framework` |
-| [ScrapyCloud Job Manager](skills/scrapycloud-job-manager/) | Security Reviewed | 60.9k | — | `clawhub install scrapycloud-job-manager` |
-| [SEC EDGAR Filing Scraper &#038; Analyzer](skills/sec-edgar-filing-scraper-analyzer/) | Security Reviewed | 48.2k | — | `clawhub install sec-edgar-filing-scraper-analyzer` |
-| [Cheerio DOM Scraping Toolkit](skills/cheerio-dom-scraping-toolkit/) | Listed | 30.2k | 18.5M/wk | `clawhub install cheerio-dom-scraping-toolkit` |
-| [Cheerio Product Price Tracker](skills/cheerio-product-price-tracker/) | Security Reviewed | 30.2k | 18.5M/wk | `clawhub install cheerio-product-price-tracker` |
-| [Apify Actor Runner](skills/apify-actor-runner/) | Security Reviewed | 3.6k | 44.9k/wk | `clawhub install apify-actor-runner` |
-| [Hacker News Deep Thread Analyzer](skills/hacker-news-deep-thread-analyzer/) | Security Reviewed | 1.7k | 4.8M/wk | `clawhub install hacker-news-deep-thread-analyzer` |
-| [Censys Attack Surface Monitor](skills/censys-attack-surface-monitor/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install censys-attack-surface-monitor` |
-| [SerpAPI Research Pipeline](skills/serpapi-research-pipeline/) | Listed | — | 5M/wk | `clawhub install serpapi-research-pipeline` |
-| [SerpAPI Search Pipeline](skills/serpapi-search-pipeline/) | Security Reviewed | — | 5M/wk | `clawhub install serpapi-search-pipeline` |
-| [Apify Actor Development Kit](skills/apify-actor-development-kit/) | Security Reviewed | — | 44.9k/wk | `clawhub install apify-actor-development-kit` |
-| [Apify Actor Web Crawler](skills/apify-actor-web-crawler/) | Security Reviewed | — | 44.9k/wk | `clawhub install apify-actor-web-crawler` |
-| [Apify Actor Web Intelligence Agent](skills/apify-actor-web-intelligence-agent/) | Security Reviewed | — | 44.9k/wk | `clawhub install apify-actor-web-intelligence-agent` |
-| [Apify Web Scraper Orchestrator](skills/apify-web-scraper-orchestrator-3/) | Security Reviewed | — | 44.9k/wk | `clawhub install apify-web-scraper-orchestrator-3` |
-| [Academic Paper Citation Network Mapper](skills/academic-paper-citation-network-mapper/) | Security Reviewed | — | — | `clawhub install academic-paper-citation-network-mapper` |
-| [Beautiful Soup Academic Paper Parser](skills/beautifulsoup-academic-paper-parser/) | Security Reviewed | — | — | `clawhub install beautifulsoup-academic-paper-parser` |
-| [Browserless Scraping Agent](skills/browserless-scraping-agent/) | Security Reviewed | — | — | `clawhub install browserless-scraping-agent` |
-| [Common Crawl Index Query Agent](skills/common-crawl-index-query-agent/) | Security Reviewed | — | — | `clawhub install common-crawl-index-query-agent` |
-| [Common Crawl URL Index Miner](skills/common-crawl-url-index-miner/) | Listed | — | — | `clawhub install common-crawl-url-index-miner` |
-| [Crawlee Smart Crawler Agent](skills/crawlee-smart-crawler-agent/) | Security Reviewed | — | — | `clawhub install crawlee-smart-crawler-agent` |
-| [Crunchbase Company Intelligence Scraper](skills/crunchbase-company-intelligence-scraper/) | Listed | — | — | `clawhub install crunchbase-company-intelligence-scraper` |
-| [Diffbot Article Extraction Verifier](skills/diffbot-article-extraction-verifier/) | Listed | — | — | `clawhub install diffbot-article-extraction-verifier` |
-| [Diffbot Knowledge Graph Extractor](skills/diffbot-knowledge-graph-extractor/) | Security Reviewed | — | — | `clawhub install diffbot-knowledge-graph-extractor` |
-| [Firecrawl Markdown Capture Pipeline](skills/firecrawl-markdown-capture-pipeline/) | Listed | — | — | `clawhub install firecrawl-markdown-capture-pipeline` |
-| [Firecrawl MCP Server](skills/firecrawl-mcp-server/) | Listed | — | — | `clawhub install firecrawl-mcp-server` |
-| [Jina Reader API Skill](skills/jina-reader-api-skill/) | Security Reviewed | — | — | `clawhub install jina-reader-api-skill` |
-| [OpenClaw Research Scout](skills/openclaw-research-scout/) | Listed | — | — | `clawhub install openclaw-research-scout` |
-| [OSINT Domain Intelligence Scanner](skills/osint-domain-intelligence-scanner/) | Security Reviewed | — | — | `clawhub install osint-domain-intelligence-scanner` |
-| [Patent Landscape Analyzer](skills/patent-landscape-analyzer/) | Listed | — | — | `clawhub install patent-landscape-analyzer` |
-| [Perplexity MCP Server](skills/perplexity-mcp-server/) | Listed | — | — | `clawhub install perplexity-mcp-server` |
-| [Product Review Sentiment Aggregator](skills/product-review-sentiment-aggregator/) | Security Reviewed | — | — | `clawhub install product-review-sentiment-aggregator` |
-| [PubMed Literature Mining Agent](skills/pubmed-literature-mining-agent/) | Listed | — | — | `clawhub install pubmed-literature-mining-agent` |
-| [ScrapingBee API Data Harvester](skills/scrapingbee-api-data-harvester/) | Security Reviewed | — | — | `clawhub install scrapingbee-api-data-harvester` |
-| [SEC EDGAR Financial Filing Parser](skills/sec-edgar-financial-filing-parser/) | Listed | — | — | `clawhub install sec-edgar-financial-filing-parser` |
-| [SerpAPI Answer Box Extractor](skills/serpapi-answer-box-extractor/) | Listed | — | — | `clawhub install serpapi-answer-box-extractor` |
-| [SerpAPI Scholar Agent](skills/serpapi-scholar-agent/) | Security Reviewed | — | — | `clawhub install serpapi-scholar-agent` |
-| [SerpAPI Search Intelligence Aggregator](skills/serpapi-search-intelligence-aggregator/) | Security Reviewed | — | — | `clawhub install serpapi-search-intelligence-aggregator` |
-| [SerpAPI Search Results Aggregator](skills/serpapi-search-results-aggregator/) | Listed | — | — | `clawhub install serpapi-search-results-aggregator` |
-| [Shodan Network Reconnaissance Agent](skills/shodan-network-reconnaissance-agent/) | Security Reviewed | — | — | `clawhub install shodan-network-reconnaissance-agent` |
-| [Tavily MCP Server](skills/tavily-mcp-server/) | Listed | — | — | `clawhub install tavily-mcp-server` |
-
-
 ### 🌐 Browser Automation (47 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=downloads)
@@ -1223,15 +1231,15 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Browser Session Replay Analyzer](skills/browser-session-replay-analyzer/) | Security Reviewed | 93.9k | 8.7M/wk | `clawhub install browser-session-replay-analyzer` |
 | [Puppeteer Cookie Consent Automator](skills/puppeteer-cookie-consent-automator/) | Security Reviewed | 93.9k | 8.7M/wk | `clawhub install puppeteer-cookie-consent-automator` |
 | [Puppeteer Cookie Consent Handler](skills/puppeteer-cookie-consent-handler-3/) | Security Reviewed | 93.9k | 8.7M/wk | `clawhub install puppeteer-cookie-consent-handler-3` |
-| [Puppeteer Multi-Tab Session Manager](skills/puppeteer-multi-tab-session-manager/) | Listed | 93.9k | 8.7M/wk | `clawhub install puppeteer-multi-tab-session-manager` |
+| [Puppeteer Multi-Tab Session Manager](skills/puppeteer-multi-tab-session-manager/) | Security Reviewed | 93.9k | 8.7M/wk | `clawhub install puppeteer-multi-tab-session-manager` |
 | [Puppeteer PDF Renderer](skills/puppeteer-pdf-renderer/) | Security Reviewed | 93.9k | 8.7M/wk | `clawhub install puppeteer-pdf-renderer` |
 | [Puppeteer Screenshot Diff Engine](skills/puppeteer-screenshot-diff-engine/) | Security Reviewed | 93.9k | 8.7M/wk | `clawhub install puppeteer-screenshot-diff-engine` |
 | [Puppeteer Stealth Scraper](skills/puppeteer-stealth-scraper-agent/) | Verified Metadata | 93.9k | 8.7M/wk | `clawhub install puppeteer-stealth-scraper-agent` |
 | [Puppeteer Visual Regression Tester](skills/puppeteer-visual-regression-tester/) | Listed | 93.9k | 8.7M/wk | `clawhub install puppeteer-visual-regression-tester` |
-| [Puppeteer Visual Regression Testing](skills/puppeteer-visual-regression-testing/) | Listed | 93.9k | 8.7M/wk | `clawhub install puppeteer-visual-regression-testing` |
+| [Puppeteer Visual Regression Testing](skills/puppeteer-visual-regression-testing/) | Security Reviewed | 93.9k | 8.7M/wk | `clawhub install puppeteer-visual-regression-testing` |
 | [Puppeteer Web Scraping Pipeline](skills/puppeteer-web-scraping-pipeline/) | Security Reviewed | 93.9k | 8.7M/wk | `clawhub install puppeteer-web-scraping-pipeline` |
-| [Agent Browser Operator](skills/agent-browser-operator/) | Listed | 84.9k | 39.8M/wk | `clawhub install agent-browser-operator` |
-| [Playwright Accessibility Audit Runner](skills/playwright-accessibility-audit-runner/) | Listed | 84.9k | 39.8M/wk | `clawhub install playwright-accessibility-audit-runner` |
+| [Agent Browser Operator](skills/agent-browser-operator/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install agent-browser-operator` |
+| [Playwright Accessibility Audit Runner](skills/playwright-accessibility-audit-runner/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-accessibility-audit-runner` |
 | [Playwright Cross-Browser Test Runner](skills/playwright-cross-browser-test-runner/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-cross-browser-test-runner` |
 | [Playwright MCP Browser Automation](skills/playwright-mcp-browser-automation/) | Listed | 84.9k | 39.8M/wk | `clawhub install playwright-mcp-browser-automation` |
 | [Playwright Multi-Browser Test Generator](skills/playwright-multi-browser-test-generator/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-multi-browser-test-generator` |
@@ -1240,10 +1248,10 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Playwright Network HAR Recorder](skills/playwright-network-har-recorder/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-network-har-recorder` |
 | [Playwright Parallel Tab Manager](skills/playwright-parallel-tab-manager/) | Listed | 84.9k | 39.8M/wk | `clawhub install playwright-parallel-tab-manager` |
 | [Playwright PDF Export Automation](skills/playwright-pdf-export-automation/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-pdf-export-automation` |
-| [Playwright Session Recorder](skills/playwright-session-recorder-2/) | Listed | 84.9k | 39.8M/wk | `clawhub install playwright-session-recorder-2` |
-| [Playwright Visual Regression Suite](skills/playwright-visual-regression-suite/) | Listed | 84.9k | 39.8M/wk | `clawhub install playwright-visual-regression-suite` |
+| [Playwright Session Recorder](skills/playwright-session-recorder-2/) | Verified Metadata | 84.9k | 39.8M/wk | `clawhub install playwright-session-recorder-2` |
+| [Playwright Visual Regression Suite](skills/playwright-visual-regression-suite/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-visual-regression-suite` |
 | [Playwright Visual Regression Tester](skills/playwright-visual-regression-tester-3/) | Verified Metadata | 84.9k | 39.8M/wk | `clawhub install playwright-visual-regression-tester-3` |
-| [Cypress Component Test Generator](skills/cypress-component-test-generator/) | Listed | 49.6k | 7.4M/wk | `clawhub install cypress-component-test-generator` |
+| [Cypress Component Test Generator](skills/cypress-component-test-generator/) | Security Reviewed | 49.6k | 7.4M/wk | `clawhub install cypress-component-test-generator` |
 | [Cypress Component Testing Framework](skills/cypress-component-testing-framework-2/) | Security Reviewed | 49.6k | 7.4M/wk | `clawhub install cypress-component-testing-framework-2` |
 | [Cypress Component Testing Suite](skills/cypress-component-testing-suite/) | Security Reviewed | 49.6k | 7.4M/wk | `clawhub install cypress-component-testing-suite` |
 | [Cypress Component Testing Toolkit](skills/cypress-component-testing-toolkit/) | Security Reviewed | 49.6k | 7.4M/wk | `clawhub install cypress-component-testing-toolkit` |
@@ -1256,9 +1264,9 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Selenium Grid Cloud Executor](skills/selenium-grid-cloud-executor/) | Security Reviewed | 34.2k | 2M/wk | `clawhub install selenium-grid-cloud-executor` |
 | [Selenium Grid Load Balancer](skills/selenium-grid-load-balancer/) | Security Reviewed | 34.2k | 2M/wk | `clawhub install selenium-grid-load-balancer` |
 | [Selenium Grid Multi-Browser Test Runner](skills/selenium-grid-multi-browser-test-runner/) | Security Reviewed | 34.2k | 2M/wk | `clawhub install selenium-grid-multi-browser-test-runner` |
-| [Selenium Grid Orchestrator](skills/selenium-grid-orchestrator/) | Listed | 34.2k | 2M/wk | `clawhub install selenium-grid-orchestrator` |
+| [Selenium Grid Orchestrator](skills/selenium-grid-orchestrator/) | Security Reviewed | 34.2k | 2M/wk | `clawhub install selenium-grid-orchestrator` |
 | [Selenium Grid Parallel Execution Manager](skills/selenium-grid-parallel-execution-manager/) | Security Reviewed | 34.2k | 2M/wk | `clawhub install selenium-grid-parallel-execution-manager` |
-| [Selenium Grid Parallel Executor](skills/selenium-grid-parallel-executor/) | Listed | 34.2k | 2M/wk | `clawhub install selenium-grid-parallel-executor` |
+| [Selenium Grid Parallel Executor](skills/selenium-grid-parallel-executor/) | Security Reviewed | 34.2k | 2M/wk | `clawhub install selenium-grid-parallel-executor` |
 | [Selenium Grid Parallel Test Runner](skills/selenium-grid-parallel-test-runner/) | Security Reviewed | 34.2k | 2M/wk | `clawhub install selenium-grid-parallel-test-runner` |
 | [Selenium Grid Session Distributor](skills/selenium-grid-session-distributor/) | Security Reviewed | 34.2k | 2M/wk | `clawhub install selenium-grid-session-distributor` |
 | [Selenium Grid Session Manager](skills/selenium-grid-session-manager/) | Security Reviewed | 34.2k | 2M/wk | `clawhub install selenium-grid-session-manager` |
@@ -1277,6 +1285,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 |---|---|---:|---:|---|
 | [Terraform Cloud Run Inspector](skills/terraform-cloud-run-inspector-2/) | Listed | 48k | — | `clawhub install terraform-cloud-run-inspector-2` |
 | [Linear Issue Triage &#038; Sprint Planner](skills/linear-issue-triage-sprint-planner-2/) | Listed | 20.3k | 32M/wk | `clawhub install linear-issue-triage-sprint-planner-2` |
+| [Shopify Admin GraphQL Sync Agent](skills/shopify-admin-graphql-sync-agent/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install shopify-admin-graphql-sync-agent` |
 | [Notion Database Sync &#038; Page Generator](skills/notion-database-sync-page-generator-2/) | Listed | 5.6k | 1.1M/wk | `clawhub install notion-database-sync-page-generator-2` |
 | [Stripe Connect Account Provisioner](skills/stripe-connect-account-provisioner/) | Security Reviewed | 4.4k | 8.4M/wk | `clawhub install stripe-connect-account-provisioner` |
 | [Stripe Connect Integration](skills/stripe-connect-integration/) | Security Reviewed | 4.4k | 8.4M/wk | `clawhub install stripe-connect-integration` |
@@ -1292,7 +1301,9 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [SendGrid MCP Server](skills/sendgrid-mcp-server/) | Listed | 3.1k | 3.3M/wk | `clawhub install sendgrid-mcp-server` |
 | [SendGrid Transactional Email Builder](skills/sendgrid-transactional-email-builder/) | Security Reviewed | 3.1k | 3.3M/wk | `clawhub install sendgrid-transactional-email-builder` |
 | [SendGrid Transactional Email Router](skills/sendgrid-transactional-email-router/) | Security Reviewed | 3.1k | 3.3M/wk | `clawhub install sendgrid-transactional-email-router` |
+| [Slack Bolt Event Subscription Debugger](skills/slack-bolt-event-subscription-debugger/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install slack-bolt-event-subscription-debugger` |
 | [Slack Channel Summarizer &#038; Triage Bot](skills/slack-channel-summarizer-triage/) | Listed | 2.9k | 2.4M/wk | `clawhub install slack-channel-summarizer-triage` |
+| [Zapier Webhooks by Zapier Router](skills/zapier-webhooks-by-zapier-router/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install zapier-webhooks-by-zapier-router` |
 | [AssemblyAI Real-Time Call Intelligence](skills/assemblyai-realtime-call-intelligence/) | Listed | 1.5k | 3.8M/wk | `clawhub install assemblyai-realtime-call-intelligence` |
 | [Twilio MCP Server](skills/twilio-mcp-server/) | Listed | 1.5k | 3.8M/wk | `clawhub install twilio-mcp-server` |
 | [Twilio Programmable SMS Gateway](skills/twilio-programmable-sms-gateway/) | Security Reviewed | 1.5k | 3.8M/wk | `clawhub install twilio-programmable-sms-gateway` |
@@ -1309,16 +1320,13 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [ClawHub Skill Discovery &#038; Publishing](skills/clawhub-skill-discovery-publishing/) | Listed | — | — | `clawhub install clawhub-skill-discovery-publishing` |
 | [Google Drive MCP Server](skills/google-drive-mcp-server/) | Listed | — | — | `clawhub install google-drive-mcp-server` |
 | [Make.com Airtable-to-Shopify Inventory Sync](skills/make-airtable-shopify-inventory-sync/) | Listed | — | — | `clawhub install make-airtable-shopify-inventory-sync` |
-| [n8n Workflow Webhook Bridge](skills/n8n-workflow-webhook-bridge/) | Listed | — | — | `clawhub install n8n-workflow-webhook-bridge` |
+| [n8n Workflow Webhook Bridge](skills/n8n-workflow-webhook-bridge/) | Security Reviewed | — | — | `clawhub install n8n-workflow-webhook-bridge` |
 | [Plaid Financial Data](skills/plaid-financial-data/) | Listed | — | — | `clawhub install plaid-financial-data` |
 | [Plaid Financial Data Connector](skills/plaid-financial-data-connector/) | Security Reviewed | — | — | `clawhub install plaid-financial-data-connector` |
 | [QuickBooks Data Extractor](skills/quickbooks-data-extractor/) | Listed | — | — | `clawhub install quickbooks-data-extractor` |
 | [SageMaker Pipeline Orchestrator](skills/sagemaker-pipeline-orchestrator/) | Listed | — | — | `clawhub install sagemaker-pipeline-orchestrator` |
-| [Shopify Admin GraphQL Sync Agent](skills/shopify-admin-graphql-sync-agent/) | Listed | — | — | `clawhub install shopify-admin-graphql-sync-agent` |
-| [Slack Bolt Event Subscription Debugger](skills/slack-bolt-event-subscription-debugger/) | Listed | — | — | `clawhub install slack-bolt-event-subscription-debugger` |
 | [Xero Accounting Agent](skills/xero-accounting-agent/) | Listed | — | — | `clawhub install xero-accounting-agent` |
 | [Zapier Webhook Integration Builder](skills/zapier-webhook-integration-builder/) | Security Reviewed | — | — | `clawhub install zapier-webhook-integration-builder` |
-| [Zapier Webhooks by Zapier Router](skills/zapier-webhooks-by-zapier-router/) | Listed | — | — | `clawhub install zapier-webhooks-by-zapier-router` |
 
 
 ### 🎙️ Media & Transcription (42 skills)
@@ -1327,47 +1335,47 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Medi
 
 | Skill | Tier | GitHub Stars | npm Downloads | Install |
 |---|---|---:|---:|---|
+| [OpenAI Whisper API Transcription](skills/openai-whisper-api-transcription/) | Security Reviewed | 96.5k | 16.3M/wk | `clawhub install openai-whisper-api-transcription` |
+| [OpenAI Whisper Batch Transcription Pipeline](skills/whisper-batch-transcription-pipeline/) | Listed | 96.5k | 16.3M/wk | `clawhub install whisper-batch-transcription-pipeline` |
+| [OpenAI Whisper Transcription](skills/openai-whisper-transcription/) | Listed | 96.5k | 16.3M/wk | `clawhub install openai-whisper-transcription` |
+| [Podcast Transcription Pipeline](skills/podcast-transcription-pipeline-agent/) | Security Reviewed | 96.5k | 16.3M/wk | `clawhub install podcast-transcription-pipeline-agent` |
+| [Whisper Diarization Post-Processor](skills/whisper-diarization-post-processor/) | Security Reviewed | 96.5k | 16.3M/wk | `clawhub install whisper-diarization-post-processor` |
+| [Whisper Subtitle Generator](skills/whisper-subtitle-generator/) | Security Reviewed | 96.5k | 16.3M/wk | `clawhub install whisper-subtitle-generator` |
+| [Whisper.cpp Local Transcription Engine](skills/whisper-cpp-local-transcription-engine/) | Security Reviewed | 96.5k | 16.3M/wk | `clawhub install whisper-cpp-local-transcription-engine` |
+| [YouTube Chapters Generator with Whisper](skills/youtube-chapters-generator-whisper/) | Security Reviewed | 96.5k | 16.3M/wk | `clawhub install youtube-chapters-generator-whisper` |
+| [Podcast RSS Feed Transcriber](skills/podcast-rss-feed-transcriber/) | Security Reviewed | 96.5k | — | `clawhub install podcast-rss-feed-transcriber` |
+| [Whisper.cpp Real-Time Transcription Pipeline](skills/whisper-cpp-realtime-transcription-pipeline/) | Security Reviewed | 96.5k | — | `clawhub install whisper-cpp-realtime-transcription-pipeline` |
 | [GStreamer Live Stream Transcoder](skills/gstreamer-live-stream-transcoder/) | Security Reviewed | 63.3k | 5.3M/wk | `clawhub install gstreamer-live-stream-transcoder` |
+| [Audio Stem Separator with Demucs](skills/audio-stem-separator-demucs/) | Security Reviewed | 58.3k | — | `clawhub install audio-stem-separator-demucs` |
 | [Deepgram Nova STT Pipeline](skills/deepgram-nova-stt-pipeline/) | Security Reviewed | 58.3k | — | `clawhub install deepgram-nova-stt-pipeline` |
-| [FFmpeg Audio Normalization Pipeline](skills/ffmpeg-audio-normalization-pipeline/) | Listed | 58.3k | — | `clawhub install ffmpeg-audio-normalization-pipeline` |
+| [FFmpeg Audio Normalization Pipeline](skills/ffmpeg-audio-normalization-pipeline/) | Security Reviewed | 58.3k | — | `clawhub install ffmpeg-audio-normalization-pipeline` |
 | [FFmpeg Audio Transcoder](skills/ffmpeg-audio-transcoder/) | Listed | 58.3k | — | `clawhub install ffmpeg-audio-transcoder` |
 | [FFmpeg Batch Transcode Pipeline](skills/ffmpeg-batch-transcode-pipeline/) | Security Reviewed | 58.3k | — | `clawhub install ffmpeg-batch-transcode-pipeline` |
-| [FFmpeg Batch Transcoder](skills/ffmpeg-batch-transcoder-skill/) | Listed | 58.3k | — | `clawhub install ffmpeg-batch-transcoder-skill` |
+| [FFmpeg Batch Transcoder](skills/ffmpeg-batch-transcoder-skill/) | Security Reviewed | 58.3k | — | `clawhub install ffmpeg-batch-transcoder-skill` |
 | [FFmpeg Clip Extractor](skills/ffmpeg-clip-extractor-agent/) | Security Reviewed | 58.3k | — | `clawhub install ffmpeg-clip-extractor-agent` |
+| [Live Stream Audio Monitor](skills/live-stream-audio-monitor/) | Security Reviewed | 58.3k | — | `clawhub install live-stream-audio-monitor` |
 | [Live Stream Clip Extractor](skills/live-stream-clip-extractor-agent/) | Security Reviewed | 58.3k | — | `clawhub install live-stream-clip-extractor-agent` |
 | [Podcast RSS Feed Audio Normalizer](skills/podcast-rss-feed-audio-normalizer/) | Security Reviewed | 58.3k | — | `clawhub install podcast-rss-feed-audio-normalizer` |
 | [Video Frames Extractor](skills/video-frames-extractor/) | Listed | 58.3k | — | `clawhub install video-frames-extractor` |
 | [Video Subtitle Auto-Translator](skills/video-subtitle-auto-translator-agent/) | Security Reviewed | 58.3k | — | `clawhub install video-subtitle-auto-translator-agent` |
-| [OpenAI Whisper API Transcription](skills/openai-whisper-api-transcription/) | Security Reviewed | 10.8k | 16.3M/wk | `clawhub install openai-whisper-api-transcription` |
-| [OpenAI Whisper Batch Transcription Pipeline](skills/whisper-batch-transcription-pipeline/) | Listed | 10.8k | 16.3M/wk | `clawhub install whisper-batch-transcription-pipeline` |
-| [OpenAI Whisper Transcription](skills/openai-whisper-transcription/) | Listed | 10.8k | 16.3M/wk | `clawhub install openai-whisper-transcription` |
-| [Podcast Transcription Pipeline](skills/podcast-transcription-pipeline-agent/) | Security Reviewed | 10.8k | 16.3M/wk | `clawhub install podcast-transcription-pipeline-agent` |
-| [Whisper Diarization Post-Processor](skills/whisper-diarization-post-processor/) | Security Reviewed | 10.8k | 16.3M/wk | `clawhub install whisper-diarization-post-processor` |
-| [Whisper Subtitle Generator](skills/whisper-subtitle-generator/) | Security Reviewed | 10.8k | 16.3M/wk | `clawhub install whisper-subtitle-generator` |
-| [Whisper.cpp Local Transcription Engine](skills/whisper-cpp-local-transcription-engine/) | Listed | 10.8k | 16.3M/wk | `clawhub install whisper-cpp-local-transcription-engine` |
-| [YouTube Chapters Generator with Whisper](skills/youtube-chapters-generator-whisper/) | Security Reviewed | 10.8k | 16.3M/wk | `clawhub install youtube-chapters-generator-whisper` |
+| [Video Subtitle Translator Agent](skills/video-subtitle-translator-agent/) | Security Reviewed | 58.3k | — | `clawhub install video-subtitle-translator-agent` |
+| [MediaInfo Metadata Extractor](skills/mediainfo-metadata-extractor/) | Security Reviewed | 7k | 5M/wk | `clawhub install mediainfo-metadata-extractor` |
 | [Deepgram Podcast Chapter Generator](skills/deepgram-podcast-chapter-generator/) | Listed | 5.6k | 1.1M/wk | `clawhub install deepgram-podcast-chapter-generator` |
 | [ElevenLabs Voiceover Generator for Long-Form Content](skills/elevenlabs-voiceover-longform/) | Listed | 1.9k | 1M/wk | `clawhub install elevenlabs-voiceover-longform` |
 | [Audio Fingerprint Identifier](skills/audio-fingerprint-identifier-agent/) | Security Reviewed | — | 21.4M/wk | `clawhub install audio-fingerprint-identifier-agent` |
-| [MediaInfo Metadata Extractor](skills/mediainfo-metadata-extractor/) | Security Reviewed | — | 5M/wk | `clawhub install mediainfo-metadata-extractor` |
 | [AssemblyAI Audio Intelligence Agent](skills/assemblyai-audio-intelligence-agent/) | Security Reviewed | — | — | `clawhub install assemblyai-audio-intelligence-agent` |
 | [AssemblyAI LeMUR Summarizer](skills/assemblyai-lemur-summarizer-agent/) | Security Reviewed | — | — | `clawhub install assemblyai-lemur-summarizer-agent` |
 | [AssemblyAI Summarization &#038; Chapters Skill](skills/assemblyai-summarization-chapters-skill/) | Security Reviewed | — | — | `clawhub install assemblyai-summarization-chapters-skill` |
-| [Audio Stem Separator with Demucs](skills/audio-stem-separator-demucs/) | Listed | — | — | `clawhub install audio-stem-separator-demucs` |
-| [Core Audio Unit v3 Debugger](skills/core-audio-unit-v3-debugger/) | Listed | — | — | `clawhub install core-audio-unit-v3-debugger` |
+| [Core Audio Unit v3 Debugger](skills/core-audio-unit-v3-debugger/) | Security Reviewed | — | — | `clawhub install core-audio-unit-v3-debugger` |
 | [Deepgram Nova Transcriber](skills/deepgram-nova-transcriber-agent/) | Security Reviewed | — | — | `clawhub install deepgram-nova-transcriber-agent` |
 | [Deepgram Real-Time Transcription Connector](skills/deepgram-realtime-transcription-connector/) | Security Reviewed | — | — | `clawhub install deepgram-realtime-transcription-connector` |
-| [Dolby Atmos ADM-BWF Metadata Extractor](skills/dolby-atmos-adm-bwf-metadata-extractor/) | Listed | — | — | `clawhub install dolby-atmos-adm-bwf-metadata-extractor` |
+| [Dolby Atmos ADM-BWF Metadata Extractor](skills/dolby-atmos-adm-bwf-metadata-extractor/) | Security Reviewed | — | — | `clawhub install dolby-atmos-adm-bwf-metadata-extractor` |
 | [Dolby.io Media Enhancer](skills/dolby-io-media-enhancer-agent/) | Security Reviewed | — | — | `clawhub install dolby-io-media-enhancer-agent` |
 | [ElevenLabs Voice Cloning Agent](skills/elevenlabs-voice-cloning-agent/) | Security Reviewed | — | — | `clawhub install elevenlabs-voice-cloning-agent` |
-| [GStreamer Pipeline Graph Optimizer](skills/gstreamer-pipeline-graph-optimizer/) | Listed | — | — | `clawhub install gstreamer-pipeline-graph-optimizer` |
-| [Live Stream Audio Monitor](skills/live-stream-audio-monitor/) | Listed | — | — | `clawhub install live-stream-audio-monitor` |
+| [GStreamer Pipeline Graph Optimizer](skills/gstreamer-pipeline-graph-optimizer/) | Security Reviewed | — | — | `clawhub install gstreamer-pipeline-graph-optimizer` |
 | [Podcast RSS Feed Builder](skills/podcast-rss-feed-builder/) | Security Reviewed | — | — | `clawhub install podcast-rss-feed-builder` |
-| [Podcast RSS Feed Transcriber](skills/podcast-rss-feed-transcriber/) | Listed | — | — | `clawhub install podcast-rss-feed-transcriber` |
 | [SoX Audio Processing Toolkit](skills/sox-audio-processing-toolkit/) | Listed | — | — | `clawhub install sox-audio-processing-toolkit` |
 | [Summarize](skills/summarize/) | Listed | — | — | `clawhub install summarize` |
-| [Video Subtitle Translator Agent](skills/video-subtitle-translator-agent/) | Listed | — | — | `clawhub install video-subtitle-translator-agent` |
-| [Whisper.cpp Real-Time Transcription Pipeline](skills/whisper-cpp-realtime-transcription-pipeline/) | Listed | — | — | `clawhub install whisper-cpp-realtime-transcription-pipeline` |
 | [YouTube Chapter Generator from Transcripts](skills/youtube-chapter-generator-transcripts/) | Security Reviewed | — | — | `clawhub install youtube-chapter-generator-transcripts` |
 
 
@@ -1380,11 +1388,14 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cont
 | [Surfer SEO Content Optimizer](skills/surfer-seo-content-optimizer/) | Security Reviewed | 30.2k | 18.5M/wk | `clawhub install surfer-seo-content-optimizer` |
 | [AI Content Readability Optimizer](skills/ai-content-readability-optimizer/) | Security Reviewed | 21k | — | `clawhub install ai-content-readability-optimizer` |
 | [Internal Link Builder](skills/internal-link-builder-seo-agent/) | Security Reviewed | 21k | — | `clawhub install internal-link-builder-seo-agent` |
+| [Internal Link Graph Optimizer](skills/internal-link-graph-optimizer/) | Security Reviewed | 21k | — | `clawhub install internal-link-graph-optimizer` |
 | [Jasper AI Long-Form Blog Post Generator](skills/jasper-longform-blog-generator/) | Listed | 21k | — | `clawhub install jasper-longform-blog-generator` |
 | [Keyword Cannibalization Detector](skills/keyword-cannibalization-detector/) | Security Reviewed | 21k | — | `clawhub install keyword-cannibalization-detector` |
+| [Schema.org Structured Data Injector](skills/schema-org-structured-data-injector/) | Security Reviewed | 21k | — | `clawhub install schema-org-structured-data-injector` |
 | [SEO Meta Tag Optimizer](skills/seo-meta-tag-optimizer-agent/) | Security Reviewed | 21k | — | `clawhub install seo-meta-tag-optimizer-agent` |
 | [SEO Schema Markup Generator](skills/seo-schema-markup-generator-agent/) | Security Reviewed | 21k | — | `clawhub install seo-schema-markup-generator-agent` |
 | [WordPress Content Optimizer](skills/wordpress-content-optimizer-yoast-rest/) | Security Reviewed | 21k | — | `clawhub install wordpress-content-optimizer-yoast-rest` |
+| [AI Meta Description Generator](skills/ai-meta-description-generator/) | Security Reviewed | 10.8k | 16.3M/wk | `clawhub install ai-meta-description-generator` |
 | [AI-Powered Meta Description Writer](skills/ai-powered-meta-description-writer/) | Security Reviewed | 10.8k | 16.3M/wk | `clawhub install ai-powered-meta-description-writer` |
 | [Content Readability Analyzer](skills/content-readability-analyzer-agent/) | Security Reviewed | 10.8k | 16.3M/wk | `clawhub install content-readability-analyzer-agent` |
 | [Content Brief Architect](skills/content-brief-architect-agent/) | Security Reviewed | 5.6k | 1.1M/wk | `clawhub install content-brief-architect-agent` |
@@ -1393,22 +1404,19 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cont
 | [Ahrefs Backlink Content Planner](skills/ahrefs-backlink-content-planner/) | Security Reviewed | — | — | `clawhub install ahrefs-backlink-content-planner` |
 | [Ahrefs Content Gap Finder](skills/ahrefs-content-gap-finder-agent/) | Security Reviewed | — | — | `clawhub install ahrefs-content-gap-finder-agent` |
 | [Ahrefs Keyword Gap Analysis Skill](skills/ahrefs-keyword-gap-analysis-skill/) | Security Reviewed | — | — | `clawhub install ahrefs-keyword-gap-analysis-skill` |
-| [AI Meta Description Generator](skills/ai-meta-description-generator/) | Listed | — | — | `clawhub install ai-meta-description-generator` |
 | [Clearscope NLP Grading Pipeline](skills/clearscope-nlp-grading-pipeline/) | Security Reviewed | — | — | `clawhub install clearscope-nlp-grading-pipeline` |
-| [Content Cannibalization Detector](skills/content-cannibalization-detector/) | Listed | — | — | `clawhub install content-cannibalization-detector` |
-| [Content Readability Optimizer](skills/content-readability-optimizer/) | Listed | — | — | `clawhub install content-readability-optimizer` |
+| [Content Cannibalization Detector](skills/content-cannibalization-detector/) | Security Reviewed | — | — | `clawhub install content-cannibalization-detector` |
+| [Content Readability Optimizer](skills/content-readability-optimizer/) | Security Reviewed | — | — | `clawhub install content-readability-optimizer` |
 | [Google Search Console Insights Agent](skills/gsc-insights-agent/) | Security Reviewed | — | — | `clawhub install gsc-insights-agent` |
 | [Google Search Console Performance Analyzer](skills/gsc-performance-analyzer-skill/) | Security Reviewed | — | — | `clawhub install gsc-performance-analyzer-skill` |
 | [Grammarly Business Tone Consistency Auditor](skills/grammarly-tone-auditor/) | Listed | — | — | `clawhub install grammarly-tone-auditor` |
-| [Hemingway Readability Analyzer API](skills/hemingway-readability-analyzer-api/) | Listed | — | — | `clawhub install hemingway-readability-analyzer-api` |
+| [Hemingway Readability Analyzer API](skills/hemingway-readability-analyzer-api/) | Security Reviewed | — | — | `clawhub install hemingway-readability-analyzer-api` |
 | [Humanizer Writing Editor](skills/humanizer-writing-editor/) | Listed | — | — | `clawhub install humanizer-writing-editor` |
-| [Internal Link Graph Optimizer](skills/internal-link-graph-optimizer/) | Listed | — | — | `clawhub install internal-link-graph-optimizer` |
-| [Internal Link Optimizer](skills/internal-link-optimizer-seo/) | Listed | — | — | `clawhub install internal-link-optimizer-seo` |
-| [Markdown-to-AMP Article Converter](skills/markdown-to-amp-article-converter/) | Listed | — | — | `clawhub install markdown-to-amp-article-converter` |
-| [Schema Markup Generator for SEO](skills/schema-markup-generator-seo/) | Listed | — | — | `clawhub install schema-markup-generator-seo` |
+| [Internal Link Optimizer](skills/internal-link-optimizer-seo/) | Security Reviewed | — | — | `clawhub install internal-link-optimizer-seo` |
+| [Markdown-to-AMP Article Converter](skills/markdown-to-amp-article-converter/) | Security Reviewed | — | — | `clawhub install markdown-to-amp-article-converter` |
+| [Schema Markup Generator for SEO](skills/schema-markup-generator-seo/) | Security Reviewed | — | — | `clawhub install schema-markup-generator-seo` |
 | [Schema.org Markup Generator](skills/schema-org-markup-generator-agent/) | Security Reviewed | — | — | `clawhub install schema-org-markup-generator-agent` |
 | [Schema.org Structured Data Generator](skills/schema-org-structured-data-generator/) | Security Reviewed | — | — | `clawhub install schema-org-structured-data-generator` |
-| [Schema.org Structured Data Injector](skills/schema-org-structured-data-injector/) | Listed | — | — | `clawhub install schema-org-structured-data-injector` |
 | [SEMrush Content Optimizer Agent](skills/semrush-content-optimizer-agent/) | Security Reviewed | — | — | `clawhub install semrush-content-optimizer-agent` |
 | [SEMrush Keyword Research Agent](skills/semrush-keyword-research-agent-api-v3/) | Security Reviewed | — | — | `clawhub install semrush-keyword-research-agent-api-v3` |
 | [SEO Content Cluster Generator](skills/seo-content-cluster-generator/) | Security Reviewed | — | — | `clawhub install seo-content-cluster-generator` |
@@ -1420,20 +1428,24 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cont
 | [Technical SEO Audit Crawler](skills/technical-seo-audit-crawler/) | Security Reviewed | — | — | `clawhub install technical-seo-audit-crawler` |
 
 
-### 📰 WordPress & CMS (32 skills)
+### 📰 WordPress & CMS (36 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS&sort=downloads)
 
 | Skill | Tier | GitHub Stars | npm Downloads | Install |
 |---|---|---:|---:|---|
+| [WP Multisite Domain Mapping Agent](skills/wp-multisite-domain-mapping-agent/) | Security Reviewed | 32.9k | — | `clawhub install wp-multisite-domain-mapping-agent` |
 | [Gutenberg Block Scaffolder](skills/gutenberg-block-scaffolder-agent/) | Security Reviewed | 21k | 44.8M/wk | `clawhub install gutenberg-block-scaffolder-agent` |
 | [Gutenberg Custom Block Builder](skills/gutenberg-custom-block-builder/) | Security Reviewed | 21k | 44.8M/wk | `clawhub install gutenberg-custom-block-builder` |
 | [ACF Custom Fields REST Exposer](skills/acf-custom-fields-rest-exposer/) | Security Reviewed | 21k | — | `clawhub install acf-custom-fields-rest-exposer` |
+| [ACF to Gutenberg Block Migrator](skills/acf-to-gutenberg-block-migrator/) | Security Reviewed | 21k | — | `clawhub install acf-to-gutenberg-block-migrator` |
+| [Advanced Custom Fields REST Schema Mapper](skills/advanced-custom-fields-rest-schema-mapper/) | Security Reviewed | 21k | — | `clawhub install advanced-custom-fields-rest-schema-mapper` |
 | [Gutenberg Block Pattern Generator](skills/gutenberg-block-pattern-generator/) | Security Reviewed | 21k | — | `clawhub install gutenberg-block-pattern-generator` |
 | [WordPress ACF Field Group Auditor](skills/wordpress-acf-field-group-auditor/) | Security Reviewed | 21k | — | `clawhub install wordpress-acf-field-group-auditor` |
+| [WordPress Block Theme Scaffolder](skills/wordpress-block-theme-scaffolder/) | Security Reviewed | 21k | — | `clawhub install wordpress-block-theme-scaffolder` |
 | [WordPress Content Publisher](skills/wordpress-content-publisher/) | Listed | 21k | — | `clawhub install wordpress-content-publisher` |
 | [WordPress Gutenberg Block Generator](skills/wordpress-gutenberg-block-generator/) | Security Reviewed | 21k | — | `clawhub install wordpress-gutenberg-block-generator` |
-| [WordPress Gutenberg Block Scaffolder](skills/wordpress-gutenberg-block-scaffolder/) | Listed | 21k | — | `clawhub install wordpress-gutenberg-block-scaffolder` |
+| [WordPress Gutenberg Block Scaffolder](skills/wordpress-gutenberg-block-scaffolder/) | Security Reviewed | 21k | — | `clawhub install wordpress-gutenberg-block-scaffolder` |
 | [WordPress Multisite Network Sync](skills/wordpress-multisite-network-sync/) | Security Reviewed | 21k | — | `clawhub install wordpress-multisite-network-sync` |
 | [WordPress Multisite Provisioner](skills/wp-multisite-provisioner-agent/) | Security Reviewed | 21k | — | `clawhub install wp-multisite-provisioner-agent` |
 | [WordPress REST API Builder](skills/wordpress-rest-api-builder/) | Listed | 21k | — | `clawhub install wordpress-rest-api-builder` |
@@ -1443,21 +1455,21 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Word
 | [WP Abilities API](skills/wp-abilities-api/) | Security Reviewed | 21k | — | `clawhub install wp-abilities-api` |
 | [WP Multisite Network Sync Agent](skills/wp-multisite-network-sync-agent/) | Security Reviewed | 21k | — | `clawhub install wp-multisite-network-sync-agent` |
 | [WP-CLI Bulk Content Migrator](skills/wp-cli-bulk-content-migrator/) | Security Reviewed | 21k | — | `clawhub install wp-cli-bulk-content-migrator` |
-| [WP-CLI Site Migration Automator](skills/wp-cli-site-migration-automator/) | Listed | 21k | — | `clawhub install wp-cli-site-migration-automator` |
+| [WP-CLI Content Drift Auditor](skills/wp-cli-content-drift-auditor/) | Security Reviewed | 21k | — | `clawhub install wp-cli-content-drift-auditor` |
+| [WP-CLI Site Migration Automator](skills/wp-cli-site-migration-automator/) | Security Reviewed | 21k | — | `clawhub install wp-cli-site-migration-automator` |
+| [WPGraphQL Schema Extension Builder](skills/wpgraphql-schema-extension-builder/) | Security Reviewed | 21k | — | `clawhub install wpgraphql-schema-extension-builder` |
 | [Headless CMS GraphQL Connector](skills/headless-cms-graphql-connector/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install headless-cms-graphql-connector` |
+| [WooCommerce REST Sync Agent](skills/woocommerce-rest-sync-agent/) | Security Reviewed | 7k | 5M/wk | `clawhub install woocommerce-rest-sync-agent` |
 | [WooCommerce REST Order Manager](skills/woocommerce-rest-order-manager/) | Security Reviewed | 4.4k | 8.4M/wk | `clawhub install woocommerce-rest-order-manager` |
 | [WP Cron Health Monitor](skills/wp-cron-health-monitor/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install wp-cron-health-monitor` |
-| [WooCommerce REST Sync Agent](skills/woocommerce-rest-sync-agent/) | Security Reviewed | — | 5M/wk | `clawhub install woocommerce-rest-sync-agent` |
-| [ACF to Gutenberg Block Migrator](skills/acf-to-gutenberg-block-migrator/) | Listed | — | — | `clawhub install acf-to-gutenberg-block-migrator` |
-| [Advanced Custom Fields REST Schema Mapper](skills/advanced-custom-fields-rest-schema-mapper/) | Listed | — | — | `clawhub install advanced-custom-fields-rest-schema-mapper` |
 | [WooCommerce Order Sync Agent](skills/woocommerce-order-sync-agent/) | Security Reviewed | — | — | `clawhub install woocommerce-order-sync-agent` |
-| [WooCommerce REST Inventory Sync](skills/woocommerce-rest-inventory-sync/) | Listed | — | — | `clawhub install woocommerce-rest-inventory-sync` |
-| [WooCommerce Webhook Delivery Inspector](skills/woocommerce-webhook-delivery-inspector/) | Listed | — | — | `clawhub install woocommerce-webhook-delivery-inspector` |
+| [WooCommerce REST Inventory Sync](skills/woocommerce-rest-inventory-sync/) | Security Reviewed | — | — | `clawhub install woocommerce-rest-inventory-sync` |
+| [WooCommerce Webhook Delivery Inspector](skills/woocommerce-webhook-delivery-inspector/) | Security Reviewed | — | — | `clawhub install woocommerce-webhook-delivery-inspector` |
+| [WooCommerce Webhook Event Replayer](skills/woocommerce-webhook-event-replayer/) | Listed | — | — | `clawhub install woocommerce-webhook-event-replayer` |
 | [WooCommerce Webhook Orchestrator](skills/woocommerce-webhook-orchestrator/) | Security Reviewed | — | — | `clawhub install woocommerce-webhook-orchestrator` |
-| [WordPress Block Theme Scaffolder](skills/wordpress-block-theme-scaffolder/) | Listed | — | — | `clawhub install wordpress-block-theme-scaffolder` |
-| [WP Multisite Domain Mapping Agent](skills/wp-multisite-domain-mapping-agent/) | Listed | — | — | `clawhub install wp-multisite-domain-mapping-agent` |
-| [WP-CLI Content Drift Auditor](skills/wp-cli-content-drift-auditor/) | Listed | — | — | `clawhub install wp-cli-content-drift-auditor` |
-| [WPGraphQL Schema Extension Builder](skills/wpgraphql-schema-extension-builder/) | Listed | — | — | `clawhub install wpgraphql-schema-extension-builder` |
+| [WordPress Block Bindings API Connector](skills/wordpress-block-bindings-api-connector/) | Listed | — | — | `clawhub install wordpress-block-bindings-api-connector` |
+| [WordPress Interactivity API State Manager](skills/wordpress-interactivity-api-state-manager/) | Listed | — | — | `clawhub install wordpress-interactivity-api-state-manager` |
+| [WP-CLI Remote Bulk Importer](skills/wp-cli-remote-bulk-importer/) | Listed | — | — | `clawhub install wp-cli-remote-bulk-importer` |
 
 
 ### 📦 40 (4 skills)
@@ -1466,10 +1478,10 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=40) 
 
 | Skill | Tier | GitHub Stars | npm Downloads | Install |
 |---|---|---:|---:|---|
-| [Checkly Browser Check Failure Notifier](skills/checkly-browser-check-failure-notifier/) | Listed | — | — | `clawhub install checkly-browser-check-failure-notifier` |
-| [Elastic APM Transaction Anomaly Spotter](skills/elastic-apm-transaction-anomaly-spotter/) | Listed | — | — | `clawhub install elastic-apm-transaction-anomaly-spotter` |
-| [Sentry Issue Spike Detection Agent](skills/sentry-issue-spike-detection-agent/) | Listed | — | — | `clawhub install sentry-issue-spike-detection-agent` |
-| [Uptime Robot Status Page Webhook Alerter](skills/uptime-robot-status-page-webhook-alerter/) | Listed | — | — | `clawhub install uptime-robot-status-page-webhook-alerter` |
+| [Checkly Browser Check Failure Notifier](skills/checkly-browser-check-failure-notifier/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install checkly-browser-check-failure-notifier` |
+| [Elastic APM Transaction Anomaly Spotter](skills/elastic-apm-transaction-anomaly-spotter/) | Security Reviewed | 76.4k | 1.9M/wk | `clawhub install elastic-apm-transaction-anomaly-spotter` |
+| [Sentry Issue Spike Detection Agent](skills/sentry-issue-spike-detection-agent/) | Security Reviewed | 43.4k | 16.4M/wk | `clawhub install sentry-issue-spike-detection-agent` |
+| [Uptime Robot Status Page Webhook Alerter](skills/uptime-robot-status-page-webhook-alerter/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install uptime-robot-status-page-webhook-alerter` |
 
 
 ### 📦 41 (4 skills)
@@ -1478,10 +1490,10 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=41) 
 
 | Skill | Tier | GitHub Stars | npm Downloads | Install |
 |---|---|---:|---:|---|
-| [Cookiecutter Project Template Scaffolder](skills/cookiecutter-project-template-scaffolder/) | Listed | — | — | `clawhub install cookiecutter-project-template-scaffolder` |
-| [Plop.js Code Generator Orchestrator](skills/plopjs-code-generator-orchestrator/) | Listed | — | — | `clawhub install plopjs-code-generator-orchestrator` |
-| [Terraform Module Boilerplate Assembler](skills/terraform-module-boilerplate-assembler/) | Listed | — | — | `clawhub install terraform-module-boilerplate-assembler` |
-| [Yeoman Sub-Generator Composition Builder](skills/yeoman-sub-generator-composition-builder/) | Listed | — | — | `clawhub install yeoman-sub-generator-composition-builder` |
+| [Terraform Module Boilerplate Assembler](skills/terraform-module-boilerplate-assembler/) | Security Reviewed | 48k | — | `clawhub install terraform-module-boilerplate-assembler` |
+| [Cookiecutter Project Template Scaffolder](skills/cookiecutter-project-template-scaffolder/) | Security Reviewed | — | — | `clawhub install cookiecutter-project-template-scaffolder` |
+| [Plop.js Code Generator Orchestrator](skills/plopjs-code-generator-orchestrator/) | Security Reviewed | — | — | `clawhub install plopjs-code-generator-orchestrator` |
+| [Yeoman Sub-Generator Composition Builder](skills/yeoman-sub-generator-composition-builder/) | Security Reviewed | — | — | `clawhub install yeoman-sub-generator-composition-builder` |
 
 
 ### 📦 42 (4 skills)
@@ -1490,10 +1502,10 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=42) 
 
 | Skill | Tier | GitHub Stars | npm Downloads | Install |
 |---|---|---:|---:|---|
-| [DALL-E 3 Brand Asset Batch Generator](skills/dall-e-3-brand-asset-batch-generator/) | Listed | — | — | `clawhub install dall-e-3-brand-asset-batch-generator` |
+| [RunwayML Gen-3 Alpha Video Composer](skills/runwayml-gen-3-alpha-video-composer/) | Security Reviewed | 58.3k | — | `clawhub install runwayml-gen-3-alpha-video-composer` |
+| [DALL-E 3 Brand Asset Batch Generator](skills/dall-e-3-brand-asset-batch-generator/) | Security Reviewed | 10.8k | 16.3M/wk | `clawhub install dall-e-3-brand-asset-batch-generator` |
 | [Midjourney Prompt Chain Builder](skills/midjourney-prompt-chain-builder/) | Listed | — | — | `clawhub install midjourney-prompt-chain-builder` |
-| [RunwayML Gen-3 Alpha Video Composer](skills/runwayml-gen-3-alpha-video-composer/) | Listed | — | — | `clawhub install runwayml-gen-3-alpha-video-composer` |
-| [Stable Diffusion ControlNet Pose Pipeline](skills/stable-diffusion-controlnet-pose-pipeline/) | Listed | — | — | `clawhub install stable-diffusion-controlnet-pose-pipeline` |
+| [Stable Diffusion ControlNet Pose Pipeline](skills/stable-diffusion-controlnet-pose-pipeline/) | Security Reviewed | — | — | `clawhub install stable-diffusion-controlnet-pose-pipeline` |
 
 
 ---

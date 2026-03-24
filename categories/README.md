@@ -2,7 +2,7 @@
 
 Categories are the **top-level map** of the catalog. For live sorting by stars, downloads, and verification, jump into ASE Browse from any category.
 
-> **1312 skills** across **20 categories**
+> **1324 skills** across **20 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
@@ -14,15 +14,15 @@ Categories are the **top-level map** of the catalog. For live sorting by stars, 
 | 📊 | [**Monitoring & Alerts**](monitoring-alerts/) | **91** | Metrics collection, alerting rules, observability setup, and system m... |
 | 🔄 | [**Data Extraction & Transformation**](data-extraction-transformation/) | **88** | Parsing, ETL pipelines, format conversion, data wrangling, and transf... |
 | ✅ | [**Code Quality & Review**](code-quality-review/) | **88** | Linting rules, review checklists, code standards enforcement, and qua... |
-| 📄 | [**Templates & Workflows**](templates-workflows/) | **76** | Project scaffolding, boilerplate generators, workflow templates, and ... |
+| 📄 | [**Templates & Workflows**](templates-workflows/) | **80** | Project scaffolding, boilerplate generators, workflow templates, and ... |
 | 📅 | [**Calendar, Email & Productivity**](calendar-email-productivity/) | **62** | Email automation, calendar management, task coordination, and product... |
+| 🔍 | [**Research & Scraping**](research-scraping/) | **56** | Web research, data collection, content aggregation, and information g... |
 | 🎨 | [**Image & Creative Automation**](image-creative-automation/) | **53** | Image generation, asset processing, design automation, and creative t... |
-| 🔍 | [**Research & Scraping**](research-scraping/) | **52** | Web research, data collection, content aggregation, and information g... |
 | 🌐 | [**Browser Automation**](browser-automation/) | **47** | Web scraping, UI testing, headless browser control, and browser-based... |
 | 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **44** | Third-party API bridges, webhook handlers, service connectors, and pl... |
 | 🎙️ | [**Media & Transcription**](media-transcription/) | **42** | Audio/video processing, speech-to-text, media conversion, and transcr... |
 | ✍️ | [**Content Writing & SEO**](content-writing-seo/) | **41** | Blog posts, SEO optimization, content strategy, and writing assistance. |
-| 📰 | [**WordPress & CMS**](wordpress-cms/) | **32** | Theme/plugin development, WP-CLI automation, CMS management, and Word... |
+| 📰 | [**WordPress & CMS**](wordpress-cms/) | **36** | Theme/plugin development, WP-CLI automation, CMS management, and Word... |
 | 📦 | [**40**](40/) | **4** | Skills in this category. |
 | 📦 | [**41**](41/) | **4** | Skills in this category. |
 | 📦 | [**42**](42/) | **4** | Skills in this category. |
