@@ -2,7 +2,7 @@
 
 Browse skills by category. Each category contains a curated list of verified skills.
 
-> **1264 skills** across **17 categories**
+> **1276 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
@@ -19,10 +19,10 @@ Browse skills by category. Each category contains a curated list of verified ski
 | 🎨 | [**Image & Creative Automation**](image-creative-automation/) | **53** | Image generation, asset processing, design automation, and c... |
 | 🔍 | [**Research & Scraping**](research-scraping/) | **48** | Web research, data collection, content aggregation, and info... |
 | 🌐 | [**Browser Automation**](browser-automation/) | **47** | Web scraping, UI testing, headless browser control, and brow... |
+| 🎙️ | [**Media & Transcription**](media-transcription/) | **42** | Audio/video processing, speech-to-text, media conversion, an... |
+| ✍️ | [**Content Writing & SEO**](content-writing-seo/) | **41** | Blog posts, SEO optimization, content strategy, and writing ... |
 | 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **40** | Third-party API bridges, webhook handlers, service connector... |
-| 🎙️ | [**Media & Transcription**](media-transcription/) | **38** | Audio/video processing, speech-to-text, media conversion, an... |
-| ✍️ | [**Content Writing & SEO**](content-writing-seo/) | **37** | Blog posts, SEO optimization, content strategy, and writing ... |
-| 📰 | [**WordPress & CMS**](wordpress-cms/) | **24** | Theme/plugin development, WP-CLI automation, CMS management,... |
+| 📰 | [**WordPress & CMS**](wordpress-cms/) | **28** | Theme/plugin development, WP-CLI automation, CMS management,... |
 
 ---
 

@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1264 skills** across **17 categories** · Updated 2026-03-24 11:09 UTC
+> **1276 skills** across **17 categories** · Updated 2026-03-24 12:08 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -10,7 +10,7 @@
 
 | Metric | Value |
 |--------|-------|
-| Total Skills | **1264** |
+| Total Skills | **1276** |
 | Categories | **17** |
 | Frameworks | **11** |
 | Verification | All skills **Verified Metadata** or higher |
@@ -1209,6 +1209,99 @@
 | [Selenium Grid Session Router](skills/selenium-grid-session-router/) | ⭐ 0 | 0 | `clawhub install selenium-grid-session-router` |
 | [Selenium Grid Test Orchestrator](skills/selenium-grid-test-orchestrator-2/) | ⭐ 0 | 0 | `clawhub install selenium-grid-test-orchestrator-2` |
 
+### 🎙️ Media & Transcription (42 skills)
+
+| Skill | Rating | Reviews | Install |
+|-------|:------:|:-------:|---------|
+| [AssemblyAI Audio Intelligence Agent](skills/assemblyai-audio-intelligence-agent/) | ⭐ 0 | 0 | `clawhub install assemblyai-audio-intelligence-agent` |
+| [AssemblyAI LeMUR Summarizer](skills/assemblyai-lemur-summarizer-agent/) | ⭐ 0 | 0 | `clawhub install assemblyai-lemur-summarizer-agent` |
+| [AssemblyAI Summarization &#038; Chapters Skill](skills/assemblyai-summarization-chapters-skill/) | ⭐ 0 | 0 | `clawhub install assemblyai-summarization-chapters-skill` |
+| [Audio Fingerprint Identifier](skills/audio-fingerprint-identifier-agent/) | ⭐ 0 | 0 | `clawhub install audio-fingerprint-identifier-agent` |
+| [Audio Stem Separator with Demucs](skills/audio-stem-separator-demucs/) | ⭐ 0 | 0 | `clawhub install audio-stem-separator-demucs` |
+| [Core Audio Unit v3 Debugger](skills/core-audio-unit-v3-debugger/) | ⭐ 0 | 0 | `clawhub install core-audio-unit-v3-debugger` |
+| [Deepgram Nova STT Pipeline](skills/deepgram-nova-stt-pipeline/) | ⭐ 0 | 0 | `clawhub install deepgram-nova-stt-pipeline` |
+| [Deepgram Nova Transcriber](skills/deepgram-nova-transcriber-agent/) | ⭐ 0 | 0 | `clawhub install deepgram-nova-transcriber-agent` |
+| [Deepgram Podcast Chapter Generator](skills/deepgram-podcast-chapter-generator/) | ⭐ 0 | 0 | `clawhub install deepgram-podcast-chapter-generator` |
+| [Deepgram Real-Time Transcription Connector](skills/deepgram-realtime-transcription-connector/) | ⭐ 0 | 0 | `clawhub install deepgram-realtime-transcription-connector` |
+| [Dolby Atmos ADM-BWF Metadata Extractor](skills/dolby-atmos-adm-bwf-metadata-extractor/) | ⭐ 0 | 0 | `clawhub install dolby-atmos-adm-bwf-metadata-extractor` |
+| [Dolby.io Media Enhancer](skills/dolby-io-media-enhancer-agent/) | ⭐ 0 | 0 | `clawhub install dolby-io-media-enhancer-agent` |
+| [ElevenLabs Voice Cloning Agent](skills/elevenlabs-voice-cloning-agent/) | ⭐ 0 | 0 | `clawhub install elevenlabs-voice-cloning-agent` |
+| [ElevenLabs Voiceover Generator for Long-Form Content](skills/elevenlabs-voiceover-longform/) | ⭐ 0 | 0 | `clawhub install elevenlabs-voiceover-longform` |
+| [FFmpeg Audio Normalization Pipeline](skills/ffmpeg-audio-normalization-pipeline/) | ⭐ 0 | 0 | `clawhub install ffmpeg-audio-normalization-pipeline` |
+| [FFmpeg Audio Transcoder](skills/ffmpeg-audio-transcoder/) | ⭐ 0 | 0 | `clawhub install ffmpeg-audio-transcoder` |
+| [FFmpeg Batch Transcode Pipeline](skills/ffmpeg-batch-transcode-pipeline/) | ⭐ 0 | 0 | `clawhub install ffmpeg-batch-transcode-pipeline` |
+| [FFmpeg Batch Transcoder](skills/ffmpeg-batch-transcoder-skill/) | ⭐ 0 | 0 | `clawhub install ffmpeg-batch-transcoder-skill` |
+| [FFmpeg Clip Extractor](skills/ffmpeg-clip-extractor-agent/) | ⭐ 0 | 0 | `clawhub install ffmpeg-clip-extractor-agent` |
+| [GStreamer Live Stream Transcoder](skills/gstreamer-live-stream-transcoder/) | ⭐ 0 | 0 | `clawhub install gstreamer-live-stream-transcoder` |
+| [GStreamer Pipeline Graph Optimizer](skills/gstreamer-pipeline-graph-optimizer/) | ⭐ 0 | 0 | `clawhub install gstreamer-pipeline-graph-optimizer` |
+| [Live Stream Audio Monitor](skills/live-stream-audio-monitor/) | ⭐ 0 | 0 | `clawhub install live-stream-audio-monitor` |
+| [Live Stream Clip Extractor](skills/live-stream-clip-extractor-agent/) | ⭐ 0 | 0 | `clawhub install live-stream-clip-extractor-agent` |
+| [MediaInfo Metadata Extractor](skills/mediainfo-metadata-extractor/) | ⭐ 0 | 0 | `clawhub install mediainfo-metadata-extractor` |
+| [OpenAI Whisper API Transcription](skills/openai-whisper-api-transcription/) | ⭐ 0 | 0 | `clawhub install openai-whisper-api-transcription` |
+| [OpenAI Whisper Batch Transcription Pipeline](skills/whisper-batch-transcription-pipeline/) | ⭐ 0 | 0 | `clawhub install whisper-batch-transcription-pipeline` |
+| [OpenAI Whisper Transcription](skills/openai-whisper-transcription/) | ⭐ 0 | 0 | `clawhub install openai-whisper-transcription` |
+| [Podcast RSS Feed Audio Normalizer](skills/podcast-rss-feed-audio-normalizer/) | ⭐ 0 | 0 | `clawhub install podcast-rss-feed-audio-normalizer` |
+| [Podcast RSS Feed Builder](skills/podcast-rss-feed-builder/) | ⭐ 0 | 0 | `clawhub install podcast-rss-feed-builder` |
+| [Podcast RSS Feed Transcriber](skills/podcast-rss-feed-transcriber/) | ⭐ 0 | 0 | `clawhub install podcast-rss-feed-transcriber` |
+| [Podcast Transcription Pipeline](skills/podcast-transcription-pipeline-agent/) | ⭐ 0 | 0 | `clawhub install podcast-transcription-pipeline-agent` |
+| [SoX Audio Processing Toolkit](skills/sox-audio-processing-toolkit/) | ⭐ 0 | 0 | `clawhub install sox-audio-processing-toolkit` |
+| [Summarize](skills/summarize/) | ⭐ 0 | 0 | `clawhub install summarize` |
+| [Video Frames Extractor](skills/video-frames-extractor/) | ⭐ 0 | 0 | `clawhub install video-frames-extractor` |
+| [Video Subtitle Auto-Translator](skills/video-subtitle-auto-translator-agent/) | ⭐ 0 | 0 | `clawhub install video-subtitle-auto-translator-agent` |
+| [Video Subtitle Translator Agent](skills/video-subtitle-translator-agent/) | ⭐ 0 | 0 | `clawhub install video-subtitle-translator-agent` |
+| [Whisper Diarization Post-Processor](skills/whisper-diarization-post-processor/) | ⭐ 0 | 0 | `clawhub install whisper-diarization-post-processor` |
+| [Whisper Subtitle Generator](skills/whisper-subtitle-generator/) | ⭐ 0 | 0 | `clawhub install whisper-subtitle-generator` |
+| [Whisper.cpp Local Transcription Engine](skills/whisper-cpp-local-transcription-engine/) | ⭐ 0 | 0 | `clawhub install whisper-cpp-local-transcription-engine` |
+| [Whisper.cpp Real-Time Transcription Pipeline](skills/whisper-cpp-realtime-transcription-pipeline/) | ⭐ 0 | 0 | `clawhub install whisper-cpp-realtime-transcription-pipeline` |
+| [YouTube Chapter Generator from Transcripts](skills/youtube-chapter-generator-transcripts/) | ⭐ 0 | 0 | `clawhub install youtube-chapter-generator-transcripts` |
+| [YouTube Chapters Generator with Whisper](skills/youtube-chapters-generator-whisper/) | ⭐ 0 | 0 | `clawhub install youtube-chapters-generator-whisper` |
+
+### ✍️ Content Writing & SEO (41 skills)
+
+| Skill | Rating | Reviews | Install |
+|-------|:------:|:-------:|---------|
+| [Ahrefs Backlink Content Planner](skills/ahrefs-backlink-content-planner/) | ⭐ 0 | 0 | `clawhub install ahrefs-backlink-content-planner` |
+| [Ahrefs Content Gap Finder](skills/ahrefs-content-gap-finder-agent/) | ⭐ 0 | 0 | `clawhub install ahrefs-content-gap-finder-agent` |
+| [Ahrefs Keyword Gap Analysis Skill](skills/ahrefs-keyword-gap-analysis-skill/) | ⭐ 0 | 0 | `clawhub install ahrefs-keyword-gap-analysis-skill` |
+| [AI Content Readability Optimizer](skills/ai-content-readability-optimizer/) | ⭐ 0 | 0 | `clawhub install ai-content-readability-optimizer` |
+| [AI Meta Description Generator](skills/ai-meta-description-generator/) | ⭐ 0 | 0 | `clawhub install ai-meta-description-generator` |
+| [AI-Powered Meta Description Writer](skills/ai-powered-meta-description-writer/) | ⭐ 0 | 0 | `clawhub install ai-powered-meta-description-writer` |
+| [Clearscope NLP Grading Pipeline](skills/clearscope-nlp-grading-pipeline/) | ⭐ 0 | 0 | `clawhub install clearscope-nlp-grading-pipeline` |
+| [Content Brief Architect](skills/content-brief-architect-agent/) | ⭐ 0 | 0 | `clawhub install content-brief-architect-agent` |
+| [Content Cannibalization Detector](skills/content-cannibalization-detector/) | ⭐ 0 | 0 | `clawhub install content-cannibalization-detector` |
+| [Content Readability Analyzer](skills/content-readability-analyzer-agent/) | ⭐ 0 | 0 | `clawhub install content-readability-analyzer-agent` |
+| [Content Readability Optimizer](skills/content-readability-optimizer/) | ⭐ 0 | 0 | `clawhub install content-readability-optimizer` |
+| [Copy.ai Sales Email Sequence Builder](skills/copyai-sales-email-sequence/) | ⭐ 0 | 0 | `clawhub install copyai-sales-email-sequence` |
+| [Google Search Console Insights Agent](skills/gsc-insights-agent/) | ⭐ 0 | 0 | `clawhub install gsc-insights-agent` |
+| [Google Search Console Performance Analyzer](skills/gsc-performance-analyzer-skill/) | ⭐ 0 | 0 | `clawhub install gsc-performance-analyzer-skill` |
+| [Grammarly Business Tone Consistency Auditor](skills/grammarly-tone-auditor/) | ⭐ 0 | 0 | `clawhub install grammarly-tone-auditor` |
+| [Hemingway Readability Analyzer API](skills/hemingway-readability-analyzer-api/) | ⭐ 0 | 0 | `clawhub install hemingway-readability-analyzer-api` |
+| [Humanizer Writing Editor](skills/humanizer-writing-editor/) | ⭐ 0 | 0 | `clawhub install humanizer-writing-editor` |
+| [Internal Link Builder](skills/internal-link-builder-seo-agent/) | ⭐ 0 | 0 | `clawhub install internal-link-builder-seo-agent` |
+| [Internal Link Graph Optimizer](skills/internal-link-graph-optimizer/) | ⭐ 0 | 0 | `clawhub install internal-link-graph-optimizer` |
+| [Internal Link Optimizer](skills/internal-link-optimizer-seo/) | ⭐ 0 | 0 | `clawhub install internal-link-optimizer-seo` |
+| [Jasper AI Long-Form Blog Post Generator](skills/jasper-longform-blog-generator/) | ⭐ 0 | 0 | `clawhub install jasper-longform-blog-generator` |
+| [Keyword Cannibalization Detector](skills/keyword-cannibalization-detector/) | ⭐ 0 | 0 | `clawhub install keyword-cannibalization-detector` |
+| [Keyword Cluster Generator](skills/keyword-cluster-generator-agent/) | ⭐ 0 | 0 | `clawhub install keyword-cluster-generator-agent` |
+| [Markdown-to-AMP Article Converter](skills/markdown-to-amp-article-converter/) | ⭐ 0 | 0 | `clawhub install markdown-to-amp-article-converter` |
+| [Schema Markup Generator for SEO](skills/schema-markup-generator-seo/) | ⭐ 0 | 0 | `clawhub install schema-markup-generator-seo` |
+| [Schema.org Markup Generator](skills/schema-org-markup-generator-agent/) | ⭐ 0 | 0 | `clawhub install schema-org-markup-generator-agent` |
+| [Schema.org Structured Data Generator](skills/schema-org-structured-data-generator/) | ⭐ 0 | 0 | `clawhub install schema-org-structured-data-generator` |
+| [Schema.org Structured Data Injector](skills/schema-org-structured-data-injector/) | ⭐ 0 | 0 | `clawhub install schema-org-structured-data-injector` |
+| [SEMrush Content Optimizer Agent](skills/semrush-content-optimizer-agent/) | ⭐ 0 | 0 | `clawhub install semrush-content-optimizer-agent` |
+| [SEMrush Keyword Research Agent](skills/semrush-keyword-research-agent-api-v3/) | ⭐ 0 | 0 | `clawhub install semrush-keyword-research-agent-api-v3` |
+| [SEO Content Cluster Generator](skills/seo-content-cluster-generator/) | ⭐ 0 | 0 | `clawhub install seo-content-cluster-generator` |
+| [SEO Content Writer](skills/seo-content-writer/) | ⭐ 0 | 0 | `clawhub install seo-content-writer` |
+| [SEO Keyword Research Automator](skills/seo-keyword-research-automator/) | ⭐ 0 | 0 | `clawhub install seo-keyword-research-automator` |
+| [SEO Meta Tag Optimizer](skills/seo-meta-tag-optimizer-agent/) | ⭐ 0 | 0 | `clawhub install seo-meta-tag-optimizer-agent` |
+| [SEO Schema Markup Generator](skills/seo-schema-markup-generator-agent/) | ⭐ 0 | 0 | `clawhub install seo-schema-markup-generator-agent` |
+| [Substack Formatter](skills/substack-formatter/) | ⭐ 0 | 0 | `clawhub install substack-formatter` |
+| [Surfer SEO Content Optimizer](skills/surfer-seo-content-optimizer/) | ⭐ 0 | 0 | `clawhub install surfer-seo-content-optimizer` |
+| [Surfer SEO Content Optimizer Integration](skills/surfer-seo-content-optimizer-integration/) | ⭐ 0 | 0 | `clawhub install surfer-seo-content-optimizer-integration` |
+| [Surfer SEO SERP Analyzer](skills/surfer-seo-serp-analyzer/) | ⭐ 0 | 0 | `clawhub install surfer-seo-serp-analyzer` |
+| [Technical SEO Audit Crawler](skills/technical-seo-audit-crawler/) | ⭐ 0 | 0 | `clawhub install technical-seo-audit-crawler` |
+| [WordPress Content Optimizer](skills/wordpress-content-optimizer-yoast-rest/) | ⭐ 0 | 0 | `clawhub install wordpress-content-optimizer-yoast-rest` |
+
 ### 🔗 Integrations & Connectors (40 skills)
 
 | Skill | Rating | Reviews | Install |
@@ -1254,105 +1347,23 @@
 | [Zapier Multi-Step Lead Enrichment Workflow](skills/zapier-lead-enrichment-workflow/) | ⭐ 0 | 0 | `clawhub install zapier-lead-enrichment-workflow` |
 | [Zapier Webhook Integration Builder](skills/zapier-webhook-integration-builder/) | ⭐ 0 | 0 | `clawhub install zapier-webhook-integration-builder` |
 
-### 🎙️ Media & Transcription (38 skills)
-
-| Skill | Rating | Reviews | Install |
-|-------|:------:|:-------:|---------|
-| [AssemblyAI Audio Intelligence Agent](skills/assemblyai-audio-intelligence-agent/) | ⭐ 0 | 0 | `clawhub install assemblyai-audio-intelligence-agent` |
-| [AssemblyAI LeMUR Summarizer](skills/assemblyai-lemur-summarizer-agent/) | ⭐ 0 | 0 | `clawhub install assemblyai-lemur-summarizer-agent` |
-| [AssemblyAI Summarization &#038; Chapters Skill](skills/assemblyai-summarization-chapters-skill/) | ⭐ 0 | 0 | `clawhub install assemblyai-summarization-chapters-skill` |
-| [Audio Fingerprint Identifier](skills/audio-fingerprint-identifier-agent/) | ⭐ 0 | 0 | `clawhub install audio-fingerprint-identifier-agent` |
-| [Core Audio Unit v3 Debugger](skills/core-audio-unit-v3-debugger/) | ⭐ 0 | 0 | `clawhub install core-audio-unit-v3-debugger` |
-| [Deepgram Nova STT Pipeline](skills/deepgram-nova-stt-pipeline/) | ⭐ 0 | 0 | `clawhub install deepgram-nova-stt-pipeline` |
-| [Deepgram Nova Transcriber](skills/deepgram-nova-transcriber-agent/) | ⭐ 0 | 0 | `clawhub install deepgram-nova-transcriber-agent` |
-| [Deepgram Podcast Chapter Generator](skills/deepgram-podcast-chapter-generator/) | ⭐ 0 | 0 | `clawhub install deepgram-podcast-chapter-generator` |
-| [Deepgram Real-Time Transcription Connector](skills/deepgram-realtime-transcription-connector/) | ⭐ 0 | 0 | `clawhub install deepgram-realtime-transcription-connector` |
-| [Dolby Atmos ADM-BWF Metadata Extractor](skills/dolby-atmos-adm-bwf-metadata-extractor/) | ⭐ 0 | 0 | `clawhub install dolby-atmos-adm-bwf-metadata-extractor` |
-| [Dolby.io Media Enhancer](skills/dolby-io-media-enhancer-agent/) | ⭐ 0 | 0 | `clawhub install dolby-io-media-enhancer-agent` |
-| [ElevenLabs Voice Cloning Agent](skills/elevenlabs-voice-cloning-agent/) | ⭐ 0 | 0 | `clawhub install elevenlabs-voice-cloning-agent` |
-| [ElevenLabs Voiceover Generator for Long-Form Content](skills/elevenlabs-voiceover-longform/) | ⭐ 0 | 0 | `clawhub install elevenlabs-voiceover-longform` |
-| [FFmpeg Audio Normalization Pipeline](skills/ffmpeg-audio-normalization-pipeline/) | ⭐ 0 | 0 | `clawhub install ffmpeg-audio-normalization-pipeline` |
-| [FFmpeg Audio Transcoder](skills/ffmpeg-audio-transcoder/) | ⭐ 0 | 0 | `clawhub install ffmpeg-audio-transcoder` |
-| [FFmpeg Batch Transcode Pipeline](skills/ffmpeg-batch-transcode-pipeline/) | ⭐ 0 | 0 | `clawhub install ffmpeg-batch-transcode-pipeline` |
-| [FFmpeg Batch Transcoder](skills/ffmpeg-batch-transcoder-skill/) | ⭐ 0 | 0 | `clawhub install ffmpeg-batch-transcoder-skill` |
-| [FFmpeg Clip Extractor](skills/ffmpeg-clip-extractor-agent/) | ⭐ 0 | 0 | `clawhub install ffmpeg-clip-extractor-agent` |
-| [GStreamer Live Stream Transcoder](skills/gstreamer-live-stream-transcoder/) | ⭐ 0 | 0 | `clawhub install gstreamer-live-stream-transcoder` |
-| [GStreamer Pipeline Graph Optimizer](skills/gstreamer-pipeline-graph-optimizer/) | ⭐ 0 | 0 | `clawhub install gstreamer-pipeline-graph-optimizer` |
-| [Live Stream Clip Extractor](skills/live-stream-clip-extractor-agent/) | ⭐ 0 | 0 | `clawhub install live-stream-clip-extractor-agent` |
-| [MediaInfo Metadata Extractor](skills/mediainfo-metadata-extractor/) | ⭐ 0 | 0 | `clawhub install mediainfo-metadata-extractor` |
-| [OpenAI Whisper API Transcription](skills/openai-whisper-api-transcription/) | ⭐ 0 | 0 | `clawhub install openai-whisper-api-transcription` |
-| [OpenAI Whisper Batch Transcription Pipeline](skills/whisper-batch-transcription-pipeline/) | ⭐ 0 | 0 | `clawhub install whisper-batch-transcription-pipeline` |
-| [OpenAI Whisper Transcription](skills/openai-whisper-transcription/) | ⭐ 0 | 0 | `clawhub install openai-whisper-transcription` |
-| [Podcast RSS Feed Audio Normalizer](skills/podcast-rss-feed-audio-normalizer/) | ⭐ 0 | 0 | `clawhub install podcast-rss-feed-audio-normalizer` |
-| [Podcast RSS Feed Builder](skills/podcast-rss-feed-builder/) | ⭐ 0 | 0 | `clawhub install podcast-rss-feed-builder` |
-| [Podcast Transcription Pipeline](skills/podcast-transcription-pipeline-agent/) | ⭐ 0 | 0 | `clawhub install podcast-transcription-pipeline-agent` |
-| [SoX Audio Processing Toolkit](skills/sox-audio-processing-toolkit/) | ⭐ 0 | 0 | `clawhub install sox-audio-processing-toolkit` |
-| [Summarize](skills/summarize/) | ⭐ 0 | 0 | `clawhub install summarize` |
-| [Video Frames Extractor](skills/video-frames-extractor/) | ⭐ 0 | 0 | `clawhub install video-frames-extractor` |
-| [Video Subtitle Auto-Translator](skills/video-subtitle-auto-translator-agent/) | ⭐ 0 | 0 | `clawhub install video-subtitle-auto-translator-agent` |
-| [Whisper Diarization Post-Processor](skills/whisper-diarization-post-processor/) | ⭐ 0 | 0 | `clawhub install whisper-diarization-post-processor` |
-| [Whisper Subtitle Generator](skills/whisper-subtitle-generator/) | ⭐ 0 | 0 | `clawhub install whisper-subtitle-generator` |
-| [Whisper.cpp Local Transcription Engine](skills/whisper-cpp-local-transcription-engine/) | ⭐ 0 | 0 | `clawhub install whisper-cpp-local-transcription-engine` |
-| [Whisper.cpp Real-Time Transcription Pipeline](skills/whisper-cpp-realtime-transcription-pipeline/) | ⭐ 0 | 0 | `clawhub install whisper-cpp-realtime-transcription-pipeline` |
-| [YouTube Chapter Generator from Transcripts](skills/youtube-chapter-generator-transcripts/) | ⭐ 0 | 0 | `clawhub install youtube-chapter-generator-transcripts` |
-| [YouTube Chapters Generator with Whisper](skills/youtube-chapters-generator-whisper/) | ⭐ 0 | 0 | `clawhub install youtube-chapters-generator-whisper` |
-
-### ✍️ Content Writing & SEO (37 skills)
-
-| Skill | Rating | Reviews | Install |
-|-------|:------:|:-------:|---------|
-| [Ahrefs Backlink Content Planner](skills/ahrefs-backlink-content-planner/) | ⭐ 0 | 0 | `clawhub install ahrefs-backlink-content-planner` |
-| [Ahrefs Content Gap Finder](skills/ahrefs-content-gap-finder-agent/) | ⭐ 0 | 0 | `clawhub install ahrefs-content-gap-finder-agent` |
-| [Ahrefs Keyword Gap Analysis Skill](skills/ahrefs-keyword-gap-analysis-skill/) | ⭐ 0 | 0 | `clawhub install ahrefs-keyword-gap-analysis-skill` |
-| [AI Content Readability Optimizer](skills/ai-content-readability-optimizer/) | ⭐ 0 | 0 | `clawhub install ai-content-readability-optimizer` |
-| [AI-Powered Meta Description Writer](skills/ai-powered-meta-description-writer/) | ⭐ 0 | 0 | `clawhub install ai-powered-meta-description-writer` |
-| [Clearscope NLP Grading Pipeline](skills/clearscope-nlp-grading-pipeline/) | ⭐ 0 | 0 | `clawhub install clearscope-nlp-grading-pipeline` |
-| [Content Brief Architect](skills/content-brief-architect-agent/) | ⭐ 0 | 0 | `clawhub install content-brief-architect-agent` |
-| [Content Readability Analyzer](skills/content-readability-analyzer-agent/) | ⭐ 0 | 0 | `clawhub install content-readability-analyzer-agent` |
-| [Content Readability Optimizer](skills/content-readability-optimizer/) | ⭐ 0 | 0 | `clawhub install content-readability-optimizer` |
-| [Copy.ai Sales Email Sequence Builder](skills/copyai-sales-email-sequence/) | ⭐ 0 | 0 | `clawhub install copyai-sales-email-sequence` |
-| [Google Search Console Insights Agent](skills/gsc-insights-agent/) | ⭐ 0 | 0 | `clawhub install gsc-insights-agent` |
-| [Google Search Console Performance Analyzer](skills/gsc-performance-analyzer-skill/) | ⭐ 0 | 0 | `clawhub install gsc-performance-analyzer-skill` |
-| [Grammarly Business Tone Consistency Auditor](skills/grammarly-tone-auditor/) | ⭐ 0 | 0 | `clawhub install grammarly-tone-auditor` |
-| [Hemingway Readability Analyzer API](skills/hemingway-readability-analyzer-api/) | ⭐ 0 | 0 | `clawhub install hemingway-readability-analyzer-api` |
-| [Humanizer Writing Editor](skills/humanizer-writing-editor/) | ⭐ 0 | 0 | `clawhub install humanizer-writing-editor` |
-| [Internal Link Builder](skills/internal-link-builder-seo-agent/) | ⭐ 0 | 0 | `clawhub install internal-link-builder-seo-agent` |
-| [Internal Link Optimizer](skills/internal-link-optimizer-seo/) | ⭐ 0 | 0 | `clawhub install internal-link-optimizer-seo` |
-| [Jasper AI Long-Form Blog Post Generator](skills/jasper-longform-blog-generator/) | ⭐ 0 | 0 | `clawhub install jasper-longform-blog-generator` |
-| [Keyword Cannibalization Detector](skills/keyword-cannibalization-detector/) | ⭐ 0 | 0 | `clawhub install keyword-cannibalization-detector` |
-| [Keyword Cluster Generator](skills/keyword-cluster-generator-agent/) | ⭐ 0 | 0 | `clawhub install keyword-cluster-generator-agent` |
-| [Markdown-to-AMP Article Converter](skills/markdown-to-amp-article-converter/) | ⭐ 0 | 0 | `clawhub install markdown-to-amp-article-converter` |
-| [Schema Markup Generator for SEO](skills/schema-markup-generator-seo/) | ⭐ 0 | 0 | `clawhub install schema-markup-generator-seo` |
-| [Schema.org Markup Generator](skills/schema-org-markup-generator-agent/) | ⭐ 0 | 0 | `clawhub install schema-org-markup-generator-agent` |
-| [Schema.org Structured Data Generator](skills/schema-org-structured-data-generator/) | ⭐ 0 | 0 | `clawhub install schema-org-structured-data-generator` |
-| [SEMrush Content Optimizer Agent](skills/semrush-content-optimizer-agent/) | ⭐ 0 | 0 | `clawhub install semrush-content-optimizer-agent` |
-| [SEMrush Keyword Research Agent](skills/semrush-keyword-research-agent-api-v3/) | ⭐ 0 | 0 | `clawhub install semrush-keyword-research-agent-api-v3` |
-| [SEO Content Cluster Generator](skills/seo-content-cluster-generator/) | ⭐ 0 | 0 | `clawhub install seo-content-cluster-generator` |
-| [SEO Content Writer](skills/seo-content-writer/) | ⭐ 0 | 0 | `clawhub install seo-content-writer` |
-| [SEO Keyword Research Automator](skills/seo-keyword-research-automator/) | ⭐ 0 | 0 | `clawhub install seo-keyword-research-automator` |
-| [SEO Meta Tag Optimizer](skills/seo-meta-tag-optimizer-agent/) | ⭐ 0 | 0 | `clawhub install seo-meta-tag-optimizer-agent` |
-| [SEO Schema Markup Generator](skills/seo-schema-markup-generator-agent/) | ⭐ 0 | 0 | `clawhub install seo-schema-markup-generator-agent` |
-| [Substack Formatter](skills/substack-formatter/) | ⭐ 0 | 0 | `clawhub install substack-formatter` |
-| [Surfer SEO Content Optimizer](skills/surfer-seo-content-optimizer/) | ⭐ 0 | 0 | `clawhub install surfer-seo-content-optimizer` |
-| [Surfer SEO Content Optimizer Integration](skills/surfer-seo-content-optimizer-integration/) | ⭐ 0 | 0 | `clawhub install surfer-seo-content-optimizer-integration` |
-| [Surfer SEO SERP Analyzer](skills/surfer-seo-serp-analyzer/) | ⭐ 0 | 0 | `clawhub install surfer-seo-serp-analyzer` |
-| [Technical SEO Audit Crawler](skills/technical-seo-audit-crawler/) | ⭐ 0 | 0 | `clawhub install technical-seo-audit-crawler` |
-| [WordPress Content Optimizer](skills/wordpress-content-optimizer-yoast-rest/) | ⭐ 0 | 0 | `clawhub install wordpress-content-optimizer-yoast-rest` |
-
-### 📰 WordPress & CMS (24 skills)
+### 📰 WordPress & CMS (28 skills)
 
 | Skill | Rating | Reviews | Install |
 |-------|:------:|:-------:|---------|
 | [ACF Custom Fields REST Exposer](skills/acf-custom-fields-rest-exposer/) | ⭐ 0 | 0 | `clawhub install acf-custom-fields-rest-exposer` |
+| [ACF to Gutenberg Block Migrator](skills/acf-to-gutenberg-block-migrator/) | ⭐ 0 | 0 | `clawhub install acf-to-gutenberg-block-migrator` |
 | [Gutenberg Block Pattern Generator](skills/gutenberg-block-pattern-generator/) | ⭐ 0 | 0 | `clawhub install gutenberg-block-pattern-generator` |
 | [Gutenberg Block Scaffolder](skills/gutenberg-block-scaffolder-agent/) | ⭐ 0 | 0 | `clawhub install gutenberg-block-scaffolder-agent` |
 | [Gutenberg Custom Block Builder](skills/gutenberg-custom-block-builder/) | ⭐ 0 | 0 | `clawhub install gutenberg-custom-block-builder` |
 | [Headless CMS GraphQL Connector](skills/headless-cms-graphql-connector/) | ⭐ 0 | 0 | `clawhub install headless-cms-graphql-connector` |
 | [WooCommerce Order Sync Agent](skills/woocommerce-order-sync-agent/) | ⭐ 0 | 0 | `clawhub install woocommerce-order-sync-agent` |
+| [WooCommerce REST Inventory Sync](skills/woocommerce-rest-inventory-sync/) | ⭐ 0 | 0 | `clawhub install woocommerce-rest-inventory-sync` |
 | [WooCommerce REST Order Manager](skills/woocommerce-rest-order-manager/) | ⭐ 0 | 0 | `clawhub install woocommerce-rest-order-manager` |
 | [WooCommerce REST Sync Agent](skills/woocommerce-rest-sync-agent/) | ⭐ 0 | 0 | `clawhub install woocommerce-rest-sync-agent` |
 | [WooCommerce Webhook Orchestrator](skills/woocommerce-webhook-orchestrator/) | ⭐ 0 | 0 | `clawhub install woocommerce-webhook-orchestrator` |
 | [WordPress ACF Field Group Auditor](skills/wordpress-acf-field-group-auditor/) | ⭐ 0 | 0 | `clawhub install wordpress-acf-field-group-auditor` |
+| [WordPress Block Theme Scaffolder](skills/wordpress-block-theme-scaffolder/) | ⭐ 0 | 0 | `clawhub install wordpress-block-theme-scaffolder` |
 | [WordPress Content Publisher](skills/wordpress-content-publisher/) | ⭐ 0 | 0 | `clawhub install wordpress-content-publisher` |
 | [WordPress Gutenberg Block Generator](skills/wordpress-gutenberg-block-generator/) | ⭐ 0 | 0 | `clawhub install wordpress-gutenberg-block-generator` |
 | [WordPress Gutenberg Block Scaffolder](skills/wordpress-gutenberg-block-scaffolder/) | ⭐ 0 | 0 | `clawhub install wordpress-gutenberg-block-scaffolder` |
@@ -1364,6 +1375,7 @@
 | [WordPress Theme.json Design Token Manager](skills/wp-theme-json-design-token-manager/) | ⭐ 0 | 0 | `clawhub install wp-theme-json-design-token-manager` |
 | [WP Abilities API](skills/wp-abilities-api/) | ⭐ 0 | 0 | `clawhub install wp-abilities-api` |
 | [WP Cron Health Monitor](skills/wp-cron-health-monitor/) | ⭐ 0 | 0 | `clawhub install wp-cron-health-monitor` |
+| [WP Multisite Domain Mapping Agent](skills/wp-multisite-domain-mapping-agent/) | ⭐ 0 | 0 | `clawhub install wp-multisite-domain-mapping-agent` |
 | [WP Multisite Network Sync Agent](skills/wp-multisite-network-sync-agent/) | ⭐ 0 | 0 | `clawhub install wp-multisite-network-sync-agent` |
 | [WP-CLI Bulk Content Migrator](skills/wp-cli-bulk-content-migrator/) | ⭐ 0 | 0 | `clawhub install wp-cli-bulk-content-migrator` |
 | [WP-CLI Site Migration Automator](skills/wp-cli-site-migration-automator/) | ⭐ 0 | 0 | `clawhub install wp-cli-site-migration-automator` |

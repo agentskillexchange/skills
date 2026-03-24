@@ -1,6 +1,6 @@
 # ✍️ Content Writing & SEO
 
-> **37 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=content-writing-seo)
+> **41 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=content-writing-seo)
 
 Blog posts, SEO optimization, content strategy, and writing assistance.
 
@@ -14,9 +14,11 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [Ahrefs Content Gap Finder](../../skills/ahrefs-content-gap-finder-agent/) | ⭐ 0 | 0 | `clawhub install ahrefs-content-gap-finder-agent` |
 | [Ahrefs Keyword Gap Analysis Skill](../../skills/ahrefs-keyword-gap-analysis-skill/) | ⭐ 0 | 0 | `clawhub install ahrefs-keyword-gap-analysis-skill` |
 | [AI Content Readability Optimizer](../../skills/ai-content-readability-optimizer/) | ⭐ 0 | 0 | `clawhub install ai-content-readability-optimizer` |
+| [AI Meta Description Generator](../../skills/ai-meta-description-generator/) | ⭐ 0 | 0 | `clawhub install ai-meta-description-generator` |
 | [AI-Powered Meta Description Writer](../../skills/ai-powered-meta-description-writer/) | ⭐ 0 | 0 | `clawhub install ai-powered-meta-description-writer` |
 | [Clearscope NLP Grading Pipeline](../../skills/clearscope-nlp-grading-pipeline/) | ⭐ 0 | 0 | `clawhub install clearscope-nlp-grading-pipeline` |
 | [Content Brief Architect](../../skills/content-brief-architect-agent/) | ⭐ 0 | 0 | `clawhub install content-brief-architect-agent` |
+| [Content Cannibalization Detector](../../skills/content-cannibalization-detector/) | ⭐ 0 | 0 | `clawhub install content-cannibalization-detector` |
 | [Content Readability Analyzer](../../skills/content-readability-analyzer-agent/) | ⭐ 0 | 0 | `clawhub install content-readability-analyzer-agent` |
 | [Content Readability Optimizer](../../skills/content-readability-optimizer/) | ⭐ 0 | 0 | `clawhub install content-readability-optimizer` |
 | [Copy.ai Sales Email Sequence Builder](../../skills/copyai-sales-email-sequence/) | ⭐ 0 | 0 | `clawhub install copyai-sales-email-sequence` |
@@ -26,6 +28,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [Hemingway Readability Analyzer API](../../skills/hemingway-readability-analyzer-api/) | ⭐ 0 | 0 | `clawhub install hemingway-readability-analyzer-api` |
 | [Humanizer Writing Editor](../../skills/humanizer-writing-editor/) | ⭐ 0 | 0 | `clawhub install humanizer-writing-editor` |
 | [Internal Link Builder](../../skills/internal-link-builder-seo-agent/) | ⭐ 0 | 0 | `clawhub install internal-link-builder-seo-agent` |
+| [Internal Link Graph Optimizer](../../skills/internal-link-graph-optimizer/) | ⭐ 0 | 0 | `clawhub install internal-link-graph-optimizer` |
 | [Internal Link Optimizer](../../skills/internal-link-optimizer-seo/) | ⭐ 0 | 0 | `clawhub install internal-link-optimizer-seo` |
 | [Jasper AI Long-Form Blog Post Generator](../../skills/jasper-longform-blog-generator/) | ⭐ 0 | 0 | `clawhub install jasper-longform-blog-generator` |
 | [Keyword Cannibalization Detector](../../skills/keyword-cannibalization-detector/) | ⭐ 0 | 0 | `clawhub install keyword-cannibalization-detector` |
@@ -34,6 +37,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [Schema Markup Generator for SEO](../../skills/schema-markup-generator-seo/) | ⭐ 0 | 0 | `clawhub install schema-markup-generator-seo` |
 | [Schema.org Markup Generator](../../skills/schema-org-markup-generator-agent/) | ⭐ 0 | 0 | `clawhub install schema-org-markup-generator-agent` |
 | [Schema.org Structured Data Generator](../../skills/schema-org-structured-data-generator/) | ⭐ 0 | 0 | `clawhub install schema-org-structured-data-generator` |
+| [Schema.org Structured Data Injector](../../skills/schema-org-structured-data-injector/) | ⭐ 0 | 0 | `clawhub install schema-org-structured-data-injector` |
 | [SEMrush Content Optimizer Agent](../../skills/semrush-content-optimizer-agent/) | ⭐ 0 | 0 | `clawhub install semrush-content-optimizer-agent` |
 | [SEMrush Keyword Research Agent](../../skills/semrush-keyword-research-agent-api-v3/) | ⭐ 0 | 0 | `clawhub install semrush-keyword-research-agent-api-v3` |
 | [SEO Content Cluster Generator](../../skills/seo-content-cluster-generator/) | ⭐ 0 | 0 | `clawhub install seo-content-cluster-generator` |

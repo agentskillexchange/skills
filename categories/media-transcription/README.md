@@ -1,6 +1,6 @@
 # 🎙️ Media & Transcription
 
-> **38 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=media-transcription)
+> **42 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=media-transcription)
 
 Audio/video processing, speech-to-text, media conversion, and transcription.
 
@@ -14,6 +14,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [AssemblyAI LeMUR Summarizer](../../skills/assemblyai-lemur-summarizer-agent/) | ⭐ 0 | 0 | `clawhub install assemblyai-lemur-summarizer-agent` |
 | [AssemblyAI Summarization &#038; Chapters Skill](../../skills/assemblyai-summarization-chapters-skill/) | ⭐ 0 | 0 | `clawhub install assemblyai-summarization-chapters-skill` |
 | [Audio Fingerprint Identifier](../../skills/audio-fingerprint-identifier-agent/) | ⭐ 0 | 0 | `clawhub install audio-fingerprint-identifier-agent` |
+| [Audio Stem Separator with Demucs](../../skills/audio-stem-separator-demucs/) | ⭐ 0 | 0 | `clawhub install audio-stem-separator-demucs` |
 | [Core Audio Unit v3 Debugger](../../skills/core-audio-unit-v3-debugger/) | ⭐ 0 | 0 | `clawhub install core-audio-unit-v3-debugger` |
 | [Deepgram Nova STT Pipeline](../../skills/deepgram-nova-stt-pipeline/) | ⭐ 0 | 0 | `clawhub install deepgram-nova-stt-pipeline` |
 | [Deepgram Nova Transcriber](../../skills/deepgram-nova-transcriber-agent/) | ⭐ 0 | 0 | `clawhub install deepgram-nova-transcriber-agent` |
@@ -30,6 +31,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [FFmpeg Clip Extractor](../../skills/ffmpeg-clip-extractor-agent/) | ⭐ 0 | 0 | `clawhub install ffmpeg-clip-extractor-agent` |
 | [GStreamer Live Stream Transcoder](../../skills/gstreamer-live-stream-transcoder/) | ⭐ 0 | 0 | `clawhub install gstreamer-live-stream-transcoder` |
 | [GStreamer Pipeline Graph Optimizer](../../skills/gstreamer-pipeline-graph-optimizer/) | ⭐ 0 | 0 | `clawhub install gstreamer-pipeline-graph-optimizer` |
+| [Live Stream Audio Monitor](../../skills/live-stream-audio-monitor/) | ⭐ 0 | 0 | `clawhub install live-stream-audio-monitor` |
 | [Live Stream Clip Extractor](../../skills/live-stream-clip-extractor-agent/) | ⭐ 0 | 0 | `clawhub install live-stream-clip-extractor-agent` |
 | [MediaInfo Metadata Extractor](../../skills/mediainfo-metadata-extractor/) | ⭐ 0 | 0 | `clawhub install mediainfo-metadata-extractor` |
 | [OpenAI Whisper API Transcription](../../skills/openai-whisper-api-transcription/) | ⭐ 0 | 0 | `clawhub install openai-whisper-api-transcription` |
@@ -37,11 +39,13 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [OpenAI Whisper Transcription](../../skills/openai-whisper-transcription/) | ⭐ 0 | 0 | `clawhub install openai-whisper-transcription` |
 | [Podcast RSS Feed Audio Normalizer](../../skills/podcast-rss-feed-audio-normalizer/) | ⭐ 0 | 0 | `clawhub install podcast-rss-feed-audio-normalizer` |
 | [Podcast RSS Feed Builder](../../skills/podcast-rss-feed-builder/) | ⭐ 0 | 0 | `clawhub install podcast-rss-feed-builder` |
+| [Podcast RSS Feed Transcriber](../../skills/podcast-rss-feed-transcriber/) | ⭐ 0 | 0 | `clawhub install podcast-rss-feed-transcriber` |
 | [Podcast Transcription Pipeline](../../skills/podcast-transcription-pipeline-agent/) | ⭐ 0 | 0 | `clawhub install podcast-transcription-pipeline-agent` |
 | [SoX Audio Processing Toolkit](../../skills/sox-audio-processing-toolkit/) | ⭐ 0 | 0 | `clawhub install sox-audio-processing-toolkit` |
 | [Summarize](../../skills/summarize/) | ⭐ 0 | 0 | `clawhub install summarize` |
 | [Video Frames Extractor](../../skills/video-frames-extractor/) | ⭐ 0 | 0 | `clawhub install video-frames-extractor` |
 | [Video Subtitle Auto-Translator](../../skills/video-subtitle-auto-translator-agent/) | ⭐ 0 | 0 | `clawhub install video-subtitle-auto-translator-agent` |
+| [Video Subtitle Translator Agent](../../skills/video-subtitle-translator-agent/) | ⭐ 0 | 0 | `clawhub install video-subtitle-translator-agent` |
 | [Whisper Diarization Post-Processor](../../skills/whisper-diarization-post-processor/) | ⭐ 0 | 0 | `clawhub install whisper-diarization-post-processor` |
 | [Whisper Subtitle Generator](../../skills/whisper-subtitle-generator/) | ⭐ 0 | 0 | `clawhub install whisper-subtitle-generator` |
 | [Whisper.cpp Local Transcription Engine](../../skills/whisper-cpp-local-transcription-engine/) | ⭐ 0 | 0 | `clawhub install whisper-cpp-local-transcription-engine` |
