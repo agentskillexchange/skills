@@ -96,20 +96,20 @@ Full listing: [CATALOG.md](CATALOG.md) · Browse by category: [categories/](cate
 
 | Metric | Count |
 |--------|------:|
-| Total skills | **1,288** |
+| Total skills | **1,312** |
 | Categories | **17** |
 | Frameworks | **11** |
 | Skills with live signal data | **842** |
 
-### Verification tiers
+### Trust tiers (cumulative)
 
-| Tier | Count |
-|------|------:|
-| 🛡️ Security Reviewed | **760** |
-| ✅ Verified Metadata | **7** |
-| 📋 Listed | **521** |
+| Tier | Count | Meaning |
+|------|------:|---|
+| 📋 Listed | **1,312** | All published skills |
+| ✅ Verified | **960** | Metadata + technical references checked |
+| 🛡️ Security Reviewed | **950** | Scanned for malicious patterns — highest trust |
 
-> Verification counts are **final-state buckets**, not cumulative stages. That means `listed` can be smaller than `security_reviewed` if many skills have already been promoted by the scanner.
+> Trust increases from Listed → Verified → Security Reviewed. Each tier includes all checks from the tiers below it.
 
 ---
 
@@ -119,9 +119,9 @@ ASE uses these exact verification values:
 
 | Tier | What it means |
 |------|---|
-| 🛡️ Security Reviewed | Content scanned for malicious patterns, unsafe instructions, and prompt-injection risks |
-| ✅ Verified Metadata | Frontmatter schema, install commands, and linked tool ecosystem data verified |
-| 📋 Listed | Published with baseline structure but not yet promoted to a higher trust tier |
+| 📋 Listed | Published in the catalog with basic format validation — every skill starts here |
+| ✅ Verified | Metadata, install commands, and technical references checked |
+| 🛡️ Security Reviewed | Scanned for malicious patterns, prompt injection, and unsafe instructions — highest trust |
 
 More: [verification/README.md](verification/README.md)
 
