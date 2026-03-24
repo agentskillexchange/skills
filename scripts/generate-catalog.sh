@@ -1,180 +1,153 @@
 #!/usr/bin/env bash
-# generate-catalog.sh — Regenerate CATALOG.md from the Agent Skill Exchange WP REST API
+# generate-catalog.sh — Regenerate CATALOG.md from live ASE browse data
 # Usage: ./generate-catalog.sh [output_dir]
 #   output_dir: directory containing the git repo (default: parent of scripts/)
-#
-# Requires: curl, jq
 
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 REPO_DIR="${1:-$(dirname "$SCRIPT_DIR")}"
-API_BASE="https://agentskillexchange.com/wp-json/wp/v2"
-PER_PAGE=100
 
-echo "==> Fetching categories..." >&2
+python3 - "$REPO_DIR" << 'PY'
+import datetime as dt
+import html
+import json
+import sys
+import urllib.parse
+import urllib.request
+from collections import Counter
+from pathlib import Path
 
-# Fetch all categories
-CATEGORIES=$(curl -sS "${API_BASE}/skill_category?per_page=${PER_PAGE}&orderby=count&order=desc")
+REPO_DIR = Path(sys.argv[1])
+BROWSE_BASE = "https://agentskillexchange.com/wp-json/ase-marketplace/v1/browse"
+WP_CAT_URL = "https://agentskillexchange.com/wp-json/wp/v2/skill_category?per_page=100&orderby=count&order=desc"
 
-# Build category ID→name map (decode HTML entities)
-declare -A CAT_NAME CAT_SLUG CAT_COUNT
-while IFS=$'\t' read -r id name slug count; do
-  # Decode common HTML entities
-  name=$(echo "$name" | sed 's/&amp;/\&/g; s/&#039;/'"'"'/g; s/&lt;/</g; s/&gt;/>/g; s/&quot;/"/g')
-  CAT_NAME[$id]="$name"
-  CAT_SLUG[$id]="$slug"
-  CAT_COUNT[$id]="$count"
-done < <(echo "$CATEGORIES" | jq -r '.[] | [.id, .name, .slug, .count] | @tsv')
+CAT_EMOJI = {
+    "CI/CD Integrations": "🔧",
+    "Runbooks & Diagnostics": "📋",
+    "Code Quality & Review": "✅",
+    "Developer Tools": "🛠️",
+    "Library & API Reference": "📚",
+    "Monitoring & Alerts": "📊",
+    "Data Extraction & Transformation": "🔄",
+    "Security & Verification": "🔒",
+    "Templates & Workflows": "📄",
+    "Calendar, Email & Productivity": "📅",
+    "Integrations & Connectors": "🔗",
+    "Browser Automation": "🌐",
+    "Image & Creative Automation": "🎨",
+    "Research & Scraping": "🔍",
+    "Content Writing & SEO": "✍️",
+    "Media & Transcription": "🎙️",
+    "WordPress & CMS": "📰",
+}
+VER_LABEL = {
+    "listed": "Listed",
+    "verified_metadata": "Verified Metadata",
+    "security_reviewed": "Security Reviewed",
+}
 
-echo "==> Found ${#CAT_NAME[@]} categories" >&2
+def fetch_json(url: str):
+    req = urllib.request.Request(url, headers={"User-Agent": "OpenClaw ASE Catalog Generator"})
+    with urllib.request.urlopen(req, timeout=60) as resp:
+        return json.loads(resp.read().decode("utf-8")), dict(resp.headers)
 
-# Fetch all skills (paginated)
-ALL_SKILLS="[]"
-page=1
-while true; do
-  echo "==> Fetching skills page ${page}..." >&2
-  RESPONSE=$(curl -sS -w '\n%{http_code}' "${API_BASE}/skill?per_page=${PER_PAGE}&page=${page}&_fields=id,title,slug,skill_category,meta&orderby=title&order=asc")
-  HTTP_CODE=$(echo "$RESPONSE" | tail -1)
-  BODY=$(echo "$RESPONSE" | sed '$d')
+def fmt_num(n):
+    n = int(n or 0)
+    if n >= 1_000_000:
+        s = f"{n/1_000_000:.1f}".rstrip("0").rstrip(".")
+        return f"{s}M"
+    if n >= 1_000:
+        s = f"{n/1_000:.1f}".rstrip("0").rstrip(".")
+        return f"{s}k"
+    return str(n) if n else "—"
 
-  if [ "$HTTP_CODE" != "200" ]; then
-    # 400 means we've gone past the last page
-    break
-  fi
+def downloads_str(n):
+    n = int(n or 0)
+    return f"{fmt_num(n)}/wk" if n else "—"
 
-  SKILL_COUNT=$(echo "$BODY" | jq 'length')
-  if [ "$SKILL_COUNT" -eq 0 ]; then
-    break
-  fi
+cats, _ = fetch_json(WP_CAT_URL)
+cat_rows = [{"name": html.unescape(c["name"]), "slug": c["slug"], "count": int(c["count"])} for c in cats]
+items = []
+page = 1
+while True:
+    batch, headers = fetch_json(f"{BROWSE_BASE}?per_page=100&page={page}")
+    items.extend(batch)
+    total_pages = int(headers.get("X-WP-TotalPages", "1"))
+    if page >= total_pages:
+        break
+    page += 1
 
-  ALL_SKILLS=$(echo "$ALL_SKILLS" "$BODY" | jq -s '.[0] + .[1]')
-  page=$((page + 1))
-done
+for item in items:
+    item["categories"] = [html.unescape(x) for x in item.get("categories", [])]
+    item["frameworks"] = [html.unescape(x) for x in item.get("frameworks", [])]
 
-TOTAL_SKILLS=$(echo "$ALL_SKILLS" | jq 'length')
-echo "==> Total skills fetched: ${TOTAL_SKILLS}" >&2
+ver = Counter(i.get("verification", "listed") for i in items)
+framework_count = len({f for i in items for f in i.get("frameworks", [])})
+signal_count = sum(1 for i in items if int(i.get("github_stars") or 0) > 0 or int(i.get("npm_downloads") or 0) > 0 or (i.get("tool_license") and i.get("tool_license") != "Unknown"))
 
-# Count categories
-TOTAL_CATEGORIES=${#CAT_NAME[@]}
+lines = [
+    "# Agent Skill Exchange — Full Catalog",
+    "",
+    f"> **{len(items)} skills** across **{len(cat_rows)} categories** · Updated {dt.datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC')}",
+    ">",
+    "> Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.",
+    "",
+    "---",
+    "",
+    "## Summary",
+    "",
+    "| Metric | Value |",
+    "|--------|-------|",
+    f"| Total Skills | **{len(items)}** |",
+    f"| Categories | **{len(cat_rows)}** |",
+    f"| Frameworks | **{framework_count}** |",
+    f"| Skills with live signal data | **{signal_count}** |",
+    f"| Security Reviewed | **{ver['security_reviewed']}** |",
+    f"| Verified Metadata | **{ver['verified_metadata']}** |",
+    f"| Listed | **{ver['listed']}** |",
+    "",
+    "> These verification counts are **final-state buckets**, not cumulative stages.",
+    "",
+    "---",
+    "",
+    "## Skills by Category",
+    "",
+]
 
-# Emoji map for categories
-declare -A CAT_EMOJI
-CAT_EMOJI["CI/CD Integrations"]="🔧"
-CAT_EMOJI["Runbooks & Diagnostics"]="📋"
-CAT_EMOJI["Code Quality & Review"]="✅"
-CAT_EMOJI["Developer Tools"]="🛠️"
-CAT_EMOJI["Library & API Reference"]="📚"
-CAT_EMOJI["Monitoring & Alerts"]="📊"
-CAT_EMOJI["Data Extraction & Transformation"]="🔄"
-CAT_EMOJI["Security & Verification"]="🔒"
-CAT_EMOJI["Templates & Workflows"]="📄"
-CAT_EMOJI["Calendar, Email & Productivity"]="📅"
-CAT_EMOJI["Integrations & Connectors"]="🔗"
-CAT_EMOJI["Browser Automation"]="🌐"
-CAT_EMOJI["Image & Creative Automation"]="🎨"
-CAT_EMOJI["Research & Scraping"]="🔍"
-CAT_EMOJI["Content Writing & SEO"]="✍️"
-CAT_EMOJI["Media & Transcription"]="🎙️"
-CAT_EMOJI["WordPress & CMS"]="📰"
+for cat in cat_rows:
+    cat_name = cat['name']
+    cat_slug = cat['slug']
+    cat_items = [i for i in items if cat_name in i.get('categories', [])]
+    cat_items.sort(key=lambda i: (-int(i.get('github_stars') or 0), -int(i.get('npm_downloads') or 0), i.get('title', '').lower()))
+    emoji = CAT_EMOJI.get(cat_name, '📦')
+    browse_url = 'https://agentskillexchange.com/browse-skills/?category=' + urllib.parse.quote(cat_name, safe='')
+    lines += [
+        f"### {emoji} {cat_name} ({cat['count']} skills)",
+        "",
+        f"Live views: [Browse]({browse_url}) · [Top Starred]({browse_url}&sort=stars) · [Top Downloaded]({browse_url}&sort=downloads)",
+        "",
+        "| Skill | Tier | GitHub Stars | npm Downloads | Install |",
+        "|---|---|---:|---:|---|",
+    ]
+    for item in cat_items:
+        title = item.get('title', '')
+        slug = item.get('slug', '')
+        tier = VER_LABEL.get(item.get('verification', 'listed'), 'Listed')
+        lines.append(f"| [{title}](skills/{slug}/) | {tier} | {fmt_num(item.get('github_stars') or 0)} | {downloads_str(item.get('npm_downloads') or 0)} | `clawhub install {slug}` |")
+    lines += ["", ""]
 
-# Generate CATALOG.md
-CATALOG_FILE="${REPO_DIR}/CATALOG.md"
-echo "==> Generating ${CATALOG_FILE}..." >&2
+lines += [
+    "---",
+    "",
+    "<div align=\"center\">",
+    "",
+    "**[agentskillexchange.com](https://agentskillexchange.com)** — The marketplace for trusted AI agent skills",
+    "",
+    "</div>",
+    "",
+]
 
-cat > "$CATALOG_FILE" << 'HEADER'
-# Agent Skill Exchange — Full Catalog
-
-HEADER
-
-cat >> "$CATALOG_FILE" << EOF
-> **${TOTAL_SKILLS} skills** across **${TOTAL_CATEGORIES} categories** · Updated $(date -u '+%Y-%m-%d %H:%M UTC')
->
-> Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
-
----
-
-## Summary
-
-| Metric | Value |
-|--------|-------|
-| Total Skills | **${TOTAL_SKILLS}** |
-| Categories | **${TOTAL_CATEGORIES}** |
-| Frameworks | **11** |
-| Verification | All skills **Verified Metadata** or higher |
-
----
-
-## Skills by Category
-
-EOF
-
-# Sort categories by count (descending)
-SORTED_CAT_IDS=$(for id in "${!CAT_COUNT[@]}"; do echo "${CAT_COUNT[$id]} $id"; done | sort -rn | awk '{print $2}')
-
-for cat_id in $SORTED_CAT_IDS; do
-  cat_name="${CAT_NAME[$cat_id]}"
-  cat_slug="${CAT_SLUG[$cat_id]}"
-  cat_count="${CAT_COUNT[$cat_id]}"
-  emoji="${CAT_EMOJI[$cat_name]:-📦}"
-
-  cat >> "$CATALOG_FILE" << EOF
-### ${emoji} ${cat_name} (${cat_count} skills)
-
-| Skill | Rating | Reviews | Install |
-|-------|:------:|:-------:|---------|
-EOF
-
-  # Get skills in this category, sorted by rating desc
-  echo "$ALL_SKILLS" | jq -r --argjson cat_id "$cat_id" '
-    [.[] | select(.skill_category | index($cat_id))] |
-    sort_by(- ((.meta.skill_rating // "0") | tonumber)) |
-    .[] |
-    [
-      .title.rendered,
-      .slug,
-      (.meta.skill_rating // "N/A"),
-      (.meta.skill_reviews // "0"),
-      .slug
-    ] | @tsv
-  ' | while IFS=$'\t' read -r title slug rating reviews install_slug; do
-    # Decode HTML entities in title
-    title=$(echo "$title" | sed 's/&amp;/\&/g; s/&#039;/'"'"'/g; s/&lt;/</g; s/&gt;/>/g; s/&quot;/"/g')
-    rating_display="$rating"
-    if [ "$rating" != "N/A" ]; then
-      rating_display="⭐ ${rating}"
-    fi
-    echo "| [${title}](skills/${slug}/) | ${rating_display} | ${reviews} | \`clawhub install ${install_slug}\` |" >> "$CATALOG_FILE"
-  done
-
-  echo "" >> "$CATALOG_FILE"
-done
-
-cat >> "$CATALOG_FILE" << 'FOOTER'
----
-
-<div align="center">
-
-**[agentskillexchange.com](https://agentskillexchange.com)** — The marketplace for trusted AI agent skills
-
-</div>
-FOOTER
-
-echo "==> CATALOG.md generated with ${TOTAL_SKILLS} skills" >&2
-
-# Update README badge counts
-README_FILE="${REPO_DIR}/README.md"
-if [ -f "$README_FILE" ]; then
-  echo "==> Updating README.md badge counts to ${TOTAL_SKILLS}+..." >&2
-  # URL-encode the count for badge (1,268+ → 1%2C268+)
-  BADGE_COUNT=$(printf '%s' "${TOTAL_SKILLS}+" | sed 's/,/%2C/g')
-  # Update skills badge
-  sed -i -E "s|skills-[0-9%,]+\+-6366f1|skills-${BADGE_COUNT}-6366f1|g" "$README_FILE"
-  # Update verified badge
-  sed -i -E "s|verified-[0-9%,]+\+-10b981|verified-${BADGE_COUNT}-10b981|g" "$README_FILE"
-  # Update text references like "1,200+ skills"
-  sed -i -E "s/[0-9,]+\+ skills/${TOTAL_SKILLS}+ skills/g" "$README_FILE"
-  echo "==> README.md updated" >&2
-fi
-
-echo "==> Done!" >&2
+(REPO_DIR / 'CATALOG.md').write_text('\n'.join(lines), encoding='utf-8')
+print(f"Generated CATALOG.md for {len(items)} skills.")
+PY

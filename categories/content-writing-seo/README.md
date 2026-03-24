@@ -1,56 +1,58 @@
 # ✍️ Content Writing & SEO
 
-> **41 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=content-writing-seo)
+> **41 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO)
 
 Blog posts, SEO optimization, content strategy, and writing assistance.
+
+**Live views:** [Top Starred](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=downloads) · [Security Reviewed](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&verification=security_reviewed)
 
 ---
 
 ## Skills
 
-| Skill | Rating | Reviews | Install |
-|-------|:------:|:-------:|---------|
-| [Ahrefs Backlink Content Planner](../../skills/ahrefs-backlink-content-planner/) | ⭐ 0 | 0 | `clawhub install ahrefs-backlink-content-planner` |
-| [Ahrefs Content Gap Finder](../../skills/ahrefs-content-gap-finder-agent/) | ⭐ 0 | 0 | `clawhub install ahrefs-content-gap-finder-agent` |
-| [Ahrefs Keyword Gap Analysis Skill](../../skills/ahrefs-keyword-gap-analysis-skill/) | ⭐ 0 | 0 | `clawhub install ahrefs-keyword-gap-analysis-skill` |
-| [AI Content Readability Optimizer](../../skills/ai-content-readability-optimizer/) | ⭐ 0 | 0 | `clawhub install ai-content-readability-optimizer` |
-| [AI Meta Description Generator](../../skills/ai-meta-description-generator/) | ⭐ 0 | 0 | `clawhub install ai-meta-description-generator` |
-| [AI-Powered Meta Description Writer](../../skills/ai-powered-meta-description-writer/) | ⭐ 0 | 0 | `clawhub install ai-powered-meta-description-writer` |
-| [Clearscope NLP Grading Pipeline](../../skills/clearscope-nlp-grading-pipeline/) | ⭐ 0 | 0 | `clawhub install clearscope-nlp-grading-pipeline` |
-| [Content Brief Architect](../../skills/content-brief-architect-agent/) | ⭐ 0 | 0 | `clawhub install content-brief-architect-agent` |
-| [Content Cannibalization Detector](../../skills/content-cannibalization-detector/) | ⭐ 0 | 0 | `clawhub install content-cannibalization-detector` |
-| [Content Readability Analyzer](../../skills/content-readability-analyzer-agent/) | ⭐ 0 | 0 | `clawhub install content-readability-analyzer-agent` |
-| [Content Readability Optimizer](../../skills/content-readability-optimizer/) | ⭐ 0 | 0 | `clawhub install content-readability-optimizer` |
-| [Copy.ai Sales Email Sequence Builder](../../skills/copyai-sales-email-sequence/) | ⭐ 0 | 0 | `clawhub install copyai-sales-email-sequence` |
-| [Google Search Console Insights Agent](../../skills/gsc-insights-agent/) | ⭐ 0 | 0 | `clawhub install gsc-insights-agent` |
-| [Google Search Console Performance Analyzer](../../skills/gsc-performance-analyzer-skill/) | ⭐ 0 | 0 | `clawhub install gsc-performance-analyzer-skill` |
-| [Grammarly Business Tone Consistency Auditor](../../skills/grammarly-tone-auditor/) | ⭐ 0 | 0 | `clawhub install grammarly-tone-auditor` |
-| [Hemingway Readability Analyzer API](../../skills/hemingway-readability-analyzer-api/) | ⭐ 0 | 0 | `clawhub install hemingway-readability-analyzer-api` |
-| [Humanizer Writing Editor](../../skills/humanizer-writing-editor/) | ⭐ 0 | 0 | `clawhub install humanizer-writing-editor` |
-| [Internal Link Builder](../../skills/internal-link-builder-seo-agent/) | ⭐ 0 | 0 | `clawhub install internal-link-builder-seo-agent` |
-| [Internal Link Graph Optimizer](../../skills/internal-link-graph-optimizer/) | ⭐ 0 | 0 | `clawhub install internal-link-graph-optimizer` |
-| [Internal Link Optimizer](../../skills/internal-link-optimizer-seo/) | ⭐ 0 | 0 | `clawhub install internal-link-optimizer-seo` |
-| [Jasper AI Long-Form Blog Post Generator](../../skills/jasper-longform-blog-generator/) | ⭐ 0 | 0 | `clawhub install jasper-longform-blog-generator` |
-| [Keyword Cannibalization Detector](../../skills/keyword-cannibalization-detector/) | ⭐ 0 | 0 | `clawhub install keyword-cannibalization-detector` |
-| [Keyword Cluster Generator](../../skills/keyword-cluster-generator-agent/) | ⭐ 0 | 0 | `clawhub install keyword-cluster-generator-agent` |
-| [Markdown-to-AMP Article Converter](../../skills/markdown-to-amp-article-converter/) | ⭐ 0 | 0 | `clawhub install markdown-to-amp-article-converter` |
-| [Schema Markup Generator for SEO](../../skills/schema-markup-generator-seo/) | ⭐ 0 | 0 | `clawhub install schema-markup-generator-seo` |
-| [Schema.org Markup Generator](../../skills/schema-org-markup-generator-agent/) | ⭐ 0 | 0 | `clawhub install schema-org-markup-generator-agent` |
-| [Schema.org Structured Data Generator](../../skills/schema-org-structured-data-generator/) | ⭐ 0 | 0 | `clawhub install schema-org-structured-data-generator` |
-| [Schema.org Structured Data Injector](../../skills/schema-org-structured-data-injector/) | ⭐ 0 | 0 | `clawhub install schema-org-structured-data-injector` |
-| [SEMrush Content Optimizer Agent](../../skills/semrush-content-optimizer-agent/) | ⭐ 0 | 0 | `clawhub install semrush-content-optimizer-agent` |
-| [SEMrush Keyword Research Agent](../../skills/semrush-keyword-research-agent-api-v3/) | ⭐ 0 | 0 | `clawhub install semrush-keyword-research-agent-api-v3` |
-| [SEO Content Cluster Generator](../../skills/seo-content-cluster-generator/) | ⭐ 0 | 0 | `clawhub install seo-content-cluster-generator` |
-| [SEO Content Writer](../../skills/seo-content-writer/) | ⭐ 0 | 0 | `clawhub install seo-content-writer` |
-| [SEO Keyword Research Automator](../../skills/seo-keyword-research-automator/) | ⭐ 0 | 0 | `clawhub install seo-keyword-research-automator` |
-| [SEO Meta Tag Optimizer](../../skills/seo-meta-tag-optimizer-agent/) | ⭐ 0 | 0 | `clawhub install seo-meta-tag-optimizer-agent` |
-| [SEO Schema Markup Generator](../../skills/seo-schema-markup-generator-agent/) | ⭐ 0 | 0 | `clawhub install seo-schema-markup-generator-agent` |
-| [Substack Formatter](../../skills/substack-formatter/) | ⭐ 0 | 0 | `clawhub install substack-formatter` |
-| [Surfer SEO Content Optimizer](../../skills/surfer-seo-content-optimizer/) | ⭐ 0 | 0 | `clawhub install surfer-seo-content-optimizer` |
-| [Surfer SEO Content Optimizer Integration](../../skills/surfer-seo-content-optimizer-integration/) | ⭐ 0 | 0 | `clawhub install surfer-seo-content-optimizer-integration` |
-| [Surfer SEO SERP Analyzer](../../skills/surfer-seo-serp-analyzer/) | ⭐ 0 | 0 | `clawhub install surfer-seo-serp-analyzer` |
-| [Technical SEO Audit Crawler](../../skills/technical-seo-audit-crawler/) | ⭐ 0 | 0 | `clawhub install technical-seo-audit-crawler` |
-| [WordPress Content Optimizer](../../skills/wordpress-content-optimizer-yoast-rest/) | ⭐ 0 | 0 | `clawhub install wordpress-content-optimizer-yoast-rest` |
+| Skill | Tier | GitHub Stars | npm Downloads | Install |
+|---|---|---:|---:|---|
+| [Surfer SEO Content Optimizer](../../skills/surfer-seo-content-optimizer/) | Security Reviewed | 30.2k | 18.5M/wk | `clawhub install surfer-seo-content-optimizer` |
+| [AI Content Readability Optimizer](../../skills/ai-content-readability-optimizer/) | Security Reviewed | 21k | — | `clawhub install ai-content-readability-optimizer` |
+| [Internal Link Builder](../../skills/internal-link-builder-seo-agent/) | Security Reviewed | 21k | — | `clawhub install internal-link-builder-seo-agent` |
+| [Jasper AI Long-Form Blog Post Generator](../../skills/jasper-longform-blog-generator/) | Listed | 21k | — | `clawhub install jasper-longform-blog-generator` |
+| [Keyword Cannibalization Detector](../../skills/keyword-cannibalization-detector/) | Security Reviewed | 21k | — | `clawhub install keyword-cannibalization-detector` |
+| [SEO Meta Tag Optimizer](../../skills/seo-meta-tag-optimizer-agent/) | Security Reviewed | 21k | — | `clawhub install seo-meta-tag-optimizer-agent` |
+| [SEO Schema Markup Generator](../../skills/seo-schema-markup-generator-agent/) | Security Reviewed | 21k | — | `clawhub install seo-schema-markup-generator-agent` |
+| [WordPress Content Optimizer](../../skills/wordpress-content-optimizer-yoast-rest/) | Security Reviewed | 21k | — | `clawhub install wordpress-content-optimizer-yoast-rest` |
+| [AI-Powered Meta Description Writer](../../skills/ai-powered-meta-description-writer/) | Security Reviewed | 10.8k | 16.3M/wk | `clawhub install ai-powered-meta-description-writer` |
+| [Content Readability Analyzer](../../skills/content-readability-analyzer-agent/) | Security Reviewed | 10.8k | 16.3M/wk | `clawhub install content-readability-analyzer-agent` |
+| [Content Brief Architect](../../skills/content-brief-architect-agent/) | Security Reviewed | 5.6k | 1.1M/wk | `clawhub install content-brief-architect-agent` |
+| [Keyword Cluster Generator](../../skills/keyword-cluster-generator-agent/) | Security Reviewed | 5.6k | 1.1M/wk | `clawhub install keyword-cluster-generator-agent` |
+| [Copy.ai Sales Email Sequence Builder](../../skills/copyai-sales-email-sequence/) | Listed | 391 | 905.6k/wk | `clawhub install copyai-sales-email-sequence` |
+| [Ahrefs Backlink Content Planner](../../skills/ahrefs-backlink-content-planner/) | Security Reviewed | — | — | `clawhub install ahrefs-backlink-content-planner` |
+| [Ahrefs Content Gap Finder](../../skills/ahrefs-content-gap-finder-agent/) | Security Reviewed | — | — | `clawhub install ahrefs-content-gap-finder-agent` |
+| [Ahrefs Keyword Gap Analysis Skill](../../skills/ahrefs-keyword-gap-analysis-skill/) | Security Reviewed | — | — | `clawhub install ahrefs-keyword-gap-analysis-skill` |
+| [AI Meta Description Generator](../../skills/ai-meta-description-generator/) | Listed | — | — | `clawhub install ai-meta-description-generator` |
+| [Clearscope NLP Grading Pipeline](../../skills/clearscope-nlp-grading-pipeline/) | Security Reviewed | — | — | `clawhub install clearscope-nlp-grading-pipeline` |
+| [Content Cannibalization Detector](../../skills/content-cannibalization-detector/) | Listed | — | — | `clawhub install content-cannibalization-detector` |
+| [Content Readability Optimizer](../../skills/content-readability-optimizer/) | Listed | — | — | `clawhub install content-readability-optimizer` |
+| [Google Search Console Insights Agent](../../skills/gsc-insights-agent/) | Security Reviewed | — | — | `clawhub install gsc-insights-agent` |
+| [Google Search Console Performance Analyzer](../../skills/gsc-performance-analyzer-skill/) | Security Reviewed | — | — | `clawhub install gsc-performance-analyzer-skill` |
+| [Grammarly Business Tone Consistency Auditor](../../skills/grammarly-tone-auditor/) | Listed | — | — | `clawhub install grammarly-tone-auditor` |
+| [Hemingway Readability Analyzer API](../../skills/hemingway-readability-analyzer-api/) | Listed | — | — | `clawhub install hemingway-readability-analyzer-api` |
+| [Humanizer Writing Editor](../../skills/humanizer-writing-editor/) | Listed | — | — | `clawhub install humanizer-writing-editor` |
+| [Internal Link Graph Optimizer](../../skills/internal-link-graph-optimizer/) | Listed | — | — | `clawhub install internal-link-graph-optimizer` |
+| [Internal Link Optimizer](../../skills/internal-link-optimizer-seo/) | Listed | — | — | `clawhub install internal-link-optimizer-seo` |
+| [Markdown-to-AMP Article Converter](../../skills/markdown-to-amp-article-converter/) | Listed | — | — | `clawhub install markdown-to-amp-article-converter` |
+| [Schema Markup Generator for SEO](../../skills/schema-markup-generator-seo/) | Listed | — | — | `clawhub install schema-markup-generator-seo` |
+| [Schema.org Markup Generator](../../skills/schema-org-markup-generator-agent/) | Security Reviewed | — | — | `clawhub install schema-org-markup-generator-agent` |
+| [Schema.org Structured Data Generator](../../skills/schema-org-structured-data-generator/) | Security Reviewed | — | — | `clawhub install schema-org-structured-data-generator` |
+| [Schema.org Structured Data Injector](../../skills/schema-org-structured-data-injector/) | Listed | — | — | `clawhub install schema-org-structured-data-injector` |
+| [SEMrush Content Optimizer Agent](../../skills/semrush-content-optimizer-agent/) | Security Reviewed | — | — | `clawhub install semrush-content-optimizer-agent` |
+| [SEMrush Keyword Research Agent](../../skills/semrush-keyword-research-agent-api-v3/) | Security Reviewed | — | — | `clawhub install semrush-keyword-research-agent-api-v3` |
+| [SEO Content Cluster Generator](../../skills/seo-content-cluster-generator/) | Security Reviewed | — | — | `clawhub install seo-content-cluster-generator` |
+| [SEO Content Writer](../../skills/seo-content-writer/) | Listed | — | — | `clawhub install seo-content-writer` |
+| [SEO Keyword Research Automator](../../skills/seo-keyword-research-automator/) | Security Reviewed | — | — | `clawhub install seo-keyword-research-automator` |
+| [Substack Formatter](../../skills/substack-formatter/) | Listed | — | — | `clawhub install substack-formatter` |
+| [Surfer SEO Content Optimizer Integration](../../skills/surfer-seo-content-optimizer-integration/) | Security Reviewed | — | — | `clawhub install surfer-seo-content-optimizer-integration` |
+| [Surfer SEO SERP Analyzer](../../skills/surfer-seo-serp-analyzer/) | Security Reviewed | — | — | `clawhub install surfer-seo-serp-analyzer` |
+| [Technical SEO Audit Crawler](../../skills/technical-seo-audit-crawler/) | Security Reviewed | — | — | `clawhub install technical-seo-audit-crawler` |
 
 ---
 
@@ -81,4 +83,3 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 ---
 
 [← Back to all categories](../)
-
