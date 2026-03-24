@@ -2,7 +2,7 @@
 
 Browse skills by category. Each category contains a curated list of verified skills.
 
-> **1520 skills** across **17 categories**
+> **1532 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
@@ -15,9 +15,9 @@ Browse skills by category. Each category contains a curated list of verified ski
 | 🔒 | [**Security & Verification**](security-verification/) | **96** | Auth setup, vulnerability scanning, compliance checks, and s... |
 | 🔄 | [**Data Extraction & Transformation**](data-extraction-transformation/) | **90** | Parsing, ETL pipelines, format conversion, data wrangling, a... |
 | 📄 | [**Templates & Workflows**](templates-workflows/) | **88** | Project scaffolding, boilerplate generators, workflow templa... |
-| 📅 | [**Calendar, Email & Productivity**](calendar-email-productivity/) | **68** | Email automation, calendar management, task coordination, an... |
-| 🌐 | [**Browser Automation**](browser-automation/) | **52** | Web scraping, UI testing, headless browser control, and brow... |
-| 🎨 | [**Image & Creative Automation**](image-creative-automation/) | **47** | Image generation, asset processing, design automation, and c... |
+| 📅 | [**Calendar, Email & Productivity**](calendar-email-productivity/) | **72** | Email automation, calendar management, task coordination, an... |
+| 🌐 | [**Browser Automation**](browser-automation/) | **56** | Web scraping, UI testing, headless browser control, and brow... |
+| 🎨 | [**Image & Creative Automation**](image-creative-automation/) | **51** | Image generation, asset processing, design automation, and c... |
 | 🔍 | [**Research & Scraping**](research-scraping/) | **46** | Web research, data collection, content aggregation, and info... |
 | 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **45** | Third-party API bridges, webhook handlers, service connector... |
 | ✍️ | [**Content Writing & SEO**](content-writing-seo/) | **35** | Blog posts, SEO optimization, content strategy, and writing ... |

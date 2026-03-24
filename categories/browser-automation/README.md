@@ -1,6 +1,6 @@
 # 🌐 Browser Automation
 
-> **52 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=browser-automation)
+> **56 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=browser-automation)
 
 Web scraping, UI testing, headless browser control, and browser-based automation.
 
@@ -24,6 +24,8 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Puppeteer Web Scraping Pipeline](../../skills/puppeteer-web-scraping-pipeline-3/) | ⭐ 4.9 | 0 | `clawhub install puppeteer-web-scraping-pipeline-3` |
 | [Selenium Grid Multi-Browser Test Runner](../../skills/selenium-grid-multi-browser-test-runner/) | ⭐ 4.9 | 0 | `clawhub install selenium-grid-multi-browser-test-runner` |
 | [Selenium Grid Session Manager](../../skills/selenium-grid-session-manager/) | ⭐ 4.9 | 0 | `clawhub install selenium-grid-session-manager` |
+| [Selenium Grid Session Router](../../skills/selenium-grid-session-router/) | ⭐ 4.9 | 0 | `clawhub install selenium-grid-session-router` |
+| [Playwright Parallel Tab Manager](../../skills/playwright-parallel-tab-manager/) | ⭐ 4.8 | 0 | `clawhub install playwright-parallel-tab-manager` |
 | [Puppeteer Cookie Consent Handler](../../skills/puppeteer-cookie-consent-handler-3/) | ⭐ 4.8 | 0 | `clawhub install puppeteer-cookie-consent-handler-3` |
 | [Selenium Grid Parallel Execution Manager](../../skills/selenium-grid-parallel-execution-manager/) | ⭐ 4.8 | 0 | `clawhub install selenium-grid-parallel-execution-manager` |
 | [Selenium Grid Test Orchestrator](../../skills/selenium-grid-test-orchestrator/) | ⭐ 4.8 | 0 | `clawhub install selenium-grid-test-orchestrator` |
@@ -40,6 +42,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Playwright Visual Regression Tester](../../skills/playwright-visual-regression-tester-2/) | ⭐ 4.6 | 0 | `clawhub install playwright-visual-regression-tester-2` |
 | [Selenium Grid Cloud Executor](../../skills/selenium-grid-cloud-executor/) | ⭐ 4.6 | 0 | `clawhub install selenium-grid-cloud-executor` |
 | [Selenium Grid Parallel Executor](../../skills/selenium-grid-parallel-executor/) | ⭐ 4.6 | 0 | `clawhub install selenium-grid-parallel-executor` |
+| [Cypress Network Stub Generator](../../skills/cypress-network-stub-generator/) | ⭐ 4.5 | 0 | `clawhub install cypress-network-stub-generator` |
 | [Playwright PDF Export Automation](../../skills/playwright-pdf-export-automation/) | ⭐ 4.5 | 0 | `clawhub install playwright-pdf-export-automation` |
 | [Selenium Grid Auto-Scaling Orchestrator](../../skills/selenium-grid-auto-scaling-orchestrator/) | ⭐ 4.5 | 0 | `clawhub install selenium-grid-auto-scaling-orchestrator` |
 | [Selenium Grid Load Balancer](../../skills/selenium-grid-load-balancer/) | ⭐ 4.5 | 0 | `clawhub install selenium-grid-load-balancer` |
@@ -57,6 +60,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Cypress Visual Regression Testing Suite](../../skills/cypress-visual-regression-testing-suite/) | ⭐ 4.1 | 0 | `clawhub install cypress-visual-regression-testing-suite` |
 | [Playwright Accessibility Audit Runner](../../skills/playwright-accessibility-audit-runner/) | ⭐ 4.1 | 0 | `clawhub install playwright-accessibility-audit-runner` |
 | [Puppeteer PDF Renderer](../../skills/puppeteer-pdf-renderer/) | ⭐ 4.1 | 0 | `clawhub install puppeteer-pdf-renderer` |
+| [Puppeteer Screenshot Diff Engine](../../skills/puppeteer-screenshot-diff-engine/) | ⭐ 4.1 | 0 | `clawhub install puppeteer-screenshot-diff-engine` |
 | [Puppeteer Visual Regression Testing](../../skills/puppeteer-visual-regression-testing/) | ⭐ 4.1 | 0 | `clawhub install puppeteer-visual-regression-testing` |
 | [Cypress Component Testing Suite](../../skills/cypress-component-testing-suite/) | ⭐ 4.0 | 0 | `clawhub install cypress-component-testing-suite` |
 | [Cypress E2E Test Generator](../../skills/cypress-e2e-test-generator-2/) | ⭐ 4.0 | 0 | `clawhub install cypress-e2e-test-generator-2` |

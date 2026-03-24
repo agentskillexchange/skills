@@ -1,6 +1,6 @@
 # 🎨 Image & Creative Automation
 
-> **47 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=image-creative-automation)
+> **51 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=image-creative-automation)
 
 Image generation, asset processing, design automation, and creative tooling.
 
@@ -13,12 +13,14 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Cloudinary Media Transform Skill](../../skills/cloudinary-media-transform-skill/) | ⭐ 4.9 | 0 | `clawhub install cloudinary-media-transform-skill` |
 | [ComfyUI Workflow Executor](../../skills/comfyui-workflow-executor/) | ⭐ 4.9 | 0 | `clawhub install comfyui-workflow-executor` |
 | [DALL-E Image Variation Generator](../../skills/dalle-image-variation-generator/) | ⭐ 4.9 | 0 | `clawhub install dalle-image-variation-generator` |
+| [DALL-E Prompt Chain Generator](../../skills/dalle-prompt-chain-generator/) | ⭐ 4.9 | 0 | `clawhub install dalle-prompt-chain-generator` |
 | [Figma Design Token Extractor](../../skills/figma-design-token-extractor-3/) | ⭐ 4.9 | 0 | `clawhub install figma-design-token-extractor-3` |
 | [ImageMagick Batch Processor](../../skills/imagemagick-batch-processor/) | ⭐ 4.9 | 0 | `clawhub install imagemagick-batch-processor` |
 | [Midjourney Prompt Engineering Suite](../../skills/midjourney-prompt-engineering-suite/) | ⭐ 4.9 | 0 | `clawhub install midjourney-prompt-engineering-suite` |
 | [Stable Diffusion ControlNet Compositor](../../skills/stable-diffusion-controlnet-compositor/) | ⭐ 4.9 | 0 | `clawhub install stable-diffusion-controlnet-compositor` |
 | [Stable Diffusion Prompt Optimizer](../../skills/stable-diffusion-prompt-optimizer/) | ⭐ 4.9 | 0 | `clawhub install stable-diffusion-prompt-optimizer` |
 | [Bannerbear Dynamic Image API](../../skills/bannerbear-dynamic-image-api/) | ⭐ 4.8 | 0 | `clawhub install bannerbear-dynamic-image-api` |
+| [Figma REST API Asset Exporter](../../skills/figma-rest-api-asset-exporter/) | ⭐ 4.8 | 0 | `clawhub install figma-rest-api-asset-exporter` |
 | [Sharp Image Transform Pipeline](../../skills/sharp-image-transform-pipeline/) | ⭐ 4.8 | 0 | `clawhub install sharp-image-transform-pipeline` |
 | [Stable Diffusion XL Pipeline](../../skills/stable-diffusion-xl-pipeline/) | ⭐ 4.8 | 0 | `clawhub install stable-diffusion-xl-pipeline` |
 | [Stable Diffusion XL Pipeline Builder](../../skills/stable-diffusion-xl-pipeline-builder/) | ⭐ 4.8 | 0 | `clawhub install stable-diffusion-xl-pipeline-builder` |
@@ -28,6 +30,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Figma Design Token Extractor](../../skills/figma-design-token-extractor/) | ⭐ 4.7 | 0 | `clawhub install figma-design-token-extractor` |
 | [Midjourney Prompt Optimizer](../../skills/midjourney-prompt-optimizer/) | ⭐ 4.7 | 0 | `clawhub install midjourney-prompt-optimizer` |
 | [Photoshop Batch Action Automator](../../skills/photoshop-batch-action-automator/) | ⭐ 4.7 | 0 | `clawhub install photoshop-batch-action-automator` |
+| [Sharp Image Pipeline Processor](../../skills/sharp-image-pipeline-processor-2/) | ⭐ 4.7 | 0 | `clawhub install sharp-image-pipeline-processor-2` |
 | [Sharp Image Pipeline Skill](../../skills/sharp-image-pipeline-skill/) | ⭐ 4.7 | 0 | `clawhub install sharp-image-pipeline-skill` |
 | [ImageMagick Batch Processor](../../skills/imagemagick-batch-processor-2/) | ⭐ 4.6 | 0 | `clawhub install imagemagick-batch-processor-2` |
 | [Stable Diffusion ControlNet Pipeline](../../skills/stable-diffusion-controlnet-pipeline/) | ⭐ 4.6 | 0 | `clawhub install stable-diffusion-controlnet-pipeline` |
@@ -39,6 +42,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [DALL-E Variations Pipeline](../../skills/dalle-variations-pipeline/) | ⭐ 4.4 | 0 | `clawhub install dalle-variations-pipeline` |
 | [FFmpeg Intelligent Media Processor](../../skills/ffmpeg-intelligent-media-processor/) | ⭐ 4.4 | 0 | `clawhub install ffmpeg-intelligent-media-processor` |
 | [Figma Design Token Extractor](../../skills/figma-design-token-extractor-2/) | ⭐ 4.4 | 0 | `clawhub install figma-design-token-extractor-2` |
+| [ImageMagick Batch Converter CLI](../../skills/imagemagick-batch-converter-cli/) | ⭐ 4.4 | 0 | `clawhub install imagemagick-batch-converter-cli` |
 | [Sharp Image CDN Optimizer](../../skills/sharp-image-cdn-optimizer/) | ⭐ 4.4 | 0 | `clawhub install sharp-image-cdn-optimizer` |
 | [Cloudinary Media Optimization Agent](../../skills/cloudinary-media-optimization-agent/) | ⭐ 4.3 | 0 | `clawhub install cloudinary-media-optimization-agent` |
 | [DALL-E 3 Batch Asset Generator](../../skills/dalle-3-batch-asset-generator/) | ⭐ 4.3 | 0 | `clawhub install dalle-3-batch-asset-generator` |
