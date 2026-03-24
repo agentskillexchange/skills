@@ -3,15 +3,14 @@ name: "Censys Attack Surface Monitor"
 description: "Monitors internet-facing assets using Censys Search API v2 for host discovery and certificate enumeration. Tracks exposed services, TLS configurations, and new asset appearances with delta alerting via webhook integrations."
 category: "Research & Scraping"
 framework: "Custom Agents"
-verification: "community"
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/censys-attack-surface-monitor/"
+source: "https://agentskillexchange.com/skills/censys-attack-surface-monitor/"
 ---
-
 # Censys Attack Surface Monitor
 
 Monitors internet-facing assets using Censys Search API v2 for host discovery and certificate enumeration. Tracks exposed services, TLS configurations, and new asset appearances with delta alerting via webhook integrations.
@@ -20,22 +19,17 @@ Monitors internet-facing assets using Censys Search API v2 for host discovery an
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install censys-attack-surface-monitor
+npx skills add agentskillexchange/skills --skill censys-attack-surface-monitor
 ```
 
 ### Claude Code
 ```bash
-claude mcp add censys-attack-surface-monitor
+npx skills add agentskillexchange/skills --skill censys-attack-surface-monitor -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "censys-attack-surface-monitor": {
-    "source": "agentskillexchange"
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill censys-attack-surface-monitor -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install censys-attack-surface-monitor
 
 ### Codex
 ```bash
-codex install censys-attack-surface-monitor
+npx skills add agentskillexchange/skills --skill censys-attack-surface-monitor -a codex
 ```
-
 ## Details
 
 | Field | Value |

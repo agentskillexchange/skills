@@ -3,15 +3,14 @@ name: "GraphQL Schema Documentation Generator"
 description: "Generates interactive API documentation from GraphQL schemas using graphql-js introspection queries and SpectaQL. Annotates fields with usage analytics from Apollo Studio API."
 category: "Library & API Reference"
 framework: "MCP-compatible"
-verification: "security_reviewed"
-rating: "0"
-reviews: "0"
+verification: security_reviewed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/graphql-schema-documentation-generator/"
+source: "https://agentskillexchange.com/skills/graphql-schema-documentation-generator/"
 ---
-
 # GraphQL Schema Documentation Generator
 
 Generates interactive API documentation from GraphQL schemas using graphql-js introspection queries and SpectaQL. Annotates fields with usage analytics from Apollo Studio API.
@@ -20,23 +19,17 @@ Generates interactive API documentation from GraphQL schemas using graphql-js in
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agentskill install graphql-schema-documentation-generator
+npx skills add agentskillexchange/skills --skill graphql-schema-documentation-generator
 ```
 
 ### Claude Code
 ```bash
-claude mcp add graphql-schema-documentation-generator
+npx skills add agentskillexchange/skills --skill graphql-schema-documentation-generator -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "graphql-schema-documentation-generator": {
-    "source": "agentskillexchange",
-    "enabled": true
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill graphql-schema-documentation-generator -a cursor
 ```
 
 ### OpenClaw
@@ -46,9 +39,8 @@ clawhub install graphql-schema-documentation-generator
 
 ### Codex
 ```bash
-codex install graphql-schema-documentation-generator
+npx skills add agentskillexchange/skills --skill graphql-schema-documentation-generator -a codex
 ```
-
 ## Details
 
 | Field | Value |

@@ -3,35 +3,34 @@ name: "Apify Actor Web Intelligence Agent"
 description: "Deploys intelligent web scraping actors on the Apify platform using the Apify SDK with RequestQueue and Dataset APIs. Handles dynamic content via Apify CheerioCrawler and PlaywrightCrawler with automatic scaling."
 category: "Research & Scraping"
 framework: "Custom Agents"
-verification: ""
+verification: listed
 rating: 0
 reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/apify-actor-web-intelligence-agent/"
+source: "https://agentskillexchange.com/skills/apify-actor-web-intelligence-agent/"
 ---
-
 # Apify Actor Web Intelligence Agent
 
 Deploys intelligent web scraping actors on the Apify platform using the Apify SDK with RequestQueue and Dataset APIs. Handles dynamic content via Apify CheerioCrawler and PlaywrightCrawler with automatic scaling.
 
 ## Installation
 
-Install this skill across different AI coding agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install apify-actor-web-intelligence-agent
+npx skills add agentskillexchange/skills --skill apify-actor-web-intelligence-agent
 ```
 
 ### Claude Code
 ```bash
-claude mcp add apify-actor-web-intelligence-agent
+npx skills add agentskillexchange/skills --skill apify-actor-web-intelligence-agent -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills/` directory or install via Cursor Settings → Skills.
+```bash
+npx skills add agentskillexchange/skills --skill apify-actor-web-intelligence-agent -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install apify-actor-web-intelligence-agent
 
 ### Codex
 ```bash
-codex install apify-actor-web-intelligence-agent
+npx skills add agentskillexchange/skills --skill apify-actor-web-intelligence-agent -a codex
 ```
-
 ## Details
 
 | Property | Value |

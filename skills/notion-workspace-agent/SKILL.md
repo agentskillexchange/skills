@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.6
 reviews: 15
-creator: Nathan Brooks
-creator_handle: nbrooks
+creator: "Nathan Brooks"
+creator_handle: "@nbrooks"
 creator_verified: false
-source: https://agentskillexchange.com/skill/notion-workspace-agent/
+source: "https://agentskillexchange.com/skills/notion-workspace-agent/"
 ---
-
 # Notion Workspace Agent
 
 Read and write Notion pages, databases, and blocks through an AI agent using the Notion API. Enables automated content creation, database record management, and cross-page data aggregation for knowledge management workflows.

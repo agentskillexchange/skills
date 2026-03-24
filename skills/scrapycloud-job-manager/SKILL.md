@@ -3,39 +3,33 @@ name: "ScrapyCloud Job Manager"
 description: "Manages Scrapy spider deployments and job scheduling on ScrapyCloud via the Scrapinghub API. Handles spider argument injection, job prioritization, and item export to S3 or BigQuery."
 category: "Research & Scraping"
 framework: "ChatGPT Agents"
-verification: ""
-rating: "4.5"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/scrapycloud-job-manager/"
+source: "https://agentskillexchange.com/skills/scrapycloud-job-manager/"
 ---
-
 # ScrapyCloud Job Manager
 
 Manages Scrapy spider deployments and job scheduling on ScrapyCloud via the Scrapinghub API. Handles spider argument injection, job prioritization, and item export to S3 or BigQuery.
 
 ## Installation
 
-Install this skill in your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install scrapycloud-job-manager
+npx skills add agentskillexchange/skills --skill scrapycloud-job-manager
 ```
 
 ### Claude Code
 ```bash
-claude mcp add scrapycloud-job-manager
+npx skills add agentskillexchange/skills --skill scrapycloud-job-manager -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "scrapycloud-job-manager": true
-}
+```bash
+npx skills add agentskillexchange/skills --skill scrapycloud-job-manager -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install scrapycloud-job-manager
 
 ### Codex
 ```bash
-codex install scrapycloud-job-manager
+npx skills add agentskillexchange/skills --skill scrapycloud-job-manager -a codex
 ```
-
 ## Details
 
 | Property | Value |

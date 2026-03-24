@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.2
 reviews: 66
-creator: James Whitfield
-creator_handle: jwhitfield
+creator: "James Whitfield"
+creator_handle: "@jwhitfield"
 creator_verified: true
-source: https://agentskillexchange.com/skill/pagerduty-on-call-escalation-checker-2/
+source: "https://agentskillexchange.com/skills/pagerduty-on-call-escalation-checker-2/"
 ---
-
 # PagerDuty On-Call Escalation Checker
 
 Queries PagerDuty to show who is currently on-call for each escalation policy, surfaces unacknowledged incidents, and identifies schedule coverage gaps for the next 7 days. Useful for handoff checks and pre-weekend coverage audits. Read-only skill.

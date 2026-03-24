@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.0
 reviews: 82
-creator: Priya Sharma
-creator_handle: priyasharma
+creator: "Priya Sharma"
+creator_handle: "@priyasharma"
 creator_verified: true
-source: https://agentskillexchange.com/skill/python-dependency-graph-resolver/
+source: "https://agentskillexchange.com/skills/python-dependency-graph-resolver/"
 ---
-
 # Python Dependency Graph Resolver
 
 Resolves and visualizes Python package dependency graphs using pip, pipdeptree, and the PyPI JSON API. Detects version conflicts, circular dependencies, and vulnerable transitive dependencies.

@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.2
 reviews: 40
-creator: Sarah Chen
-creator_handle: sarahchen
+creator: "Sarah Chen"
+creator_handle: "@sarahchen"
 creator_verified: true
-source: https://agentskillexchange.com/skill/teams-webhook-configurator/
+source: "https://agentskillexchange.com/skills/teams-webhook-configurator/"
 ---
-
 # Teams Webhook Configurator
 
 Configure and manage Microsoft Teams incoming webhooks, Adaptive Card posting, and Power Automate connector flows through an AI agent. Enables structured notification delivery to Teams channels from external systems and CI/CD pipelines.

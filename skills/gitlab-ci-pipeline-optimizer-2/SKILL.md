@@ -6,12 +6,11 @@ framework: "Gemini"
 verification: verified_metadata
 rating: 4.8
 reviews: 57
-creator: Elena Kowalski
-creator_handle: ekowalski
+creator: "Elena Kowalski"
+creator_handle: "@ekowalski"
 creator_verified: true
-source: https://agentskillexchange.com/skill/gitlab-ci-pipeline-optimizer-2/
+source: "https://agentskillexchange.com/skills/gitlab-ci-pipeline-optimizer-2/"
 ---
-
 # GitLab CI Pipeline Optimizer
 
 Optimizes GitLab CI/CD pipeline configurations by analyzing job DAGs using the /api/v4/projects/{id}/pipelines endpoint. Identifies parallelization opportunities, reduces redundant stages, and suggests rules-based job filtering.

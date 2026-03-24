@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.5
 reviews: 72
-creator: Nathan Brooks
-creator_handle: nbrooks
+creator: "Nathan Brooks"
+creator_handle: "@nbrooks"
 creator_verified: false
-source: https://agentskillexchange.com/skill/replicate-mcp-server/
+source: "https://agentskillexchange.com/skills/replicate-mcp-server/"
 ---
-
 # Replicate MCP Server
 
 Use this skill to run any machine learning model hosted on Replicate, trigger fine-tuning jobs, and manage model deployments through MCP. It gives agents access to thousands of community and official ML models with simple API calls. Trigger when you need to run specialized ML models (image generation, audio, video, etc.) without managing GPU infrastructure.

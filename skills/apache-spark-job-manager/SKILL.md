@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.2
 reviews: 14
-creator: Raj Gupta
-creator_handle: rajgupta
+creator: "Raj Gupta"
+creator_handle: "@rajgupta"
 creator_verified: true
-source: https://agentskillexchange.com/skill/apache-spark-job-manager/
+source: "https://agentskillexchange.com/skills/apache-spark-job-manager/"
 ---
-
 # Apache Spark Job Manager
 
 Submit, monitor, and cancel Apache Spark jobs on YARN, Kubernetes, or Databricks runtimes through an AI agent interface. Retrieve application logs, executor metrics, and stage-level performance data to diagnose bottlenecks without accessing cluster UIs directly.

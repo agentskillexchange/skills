@@ -3,15 +3,14 @@ name: "ZAP Automated Security Scan Orchestrator"
 description: "Orchestrates OWASP ZAP security scans via the ZAP API with automated spider, active scanner, and authentication sequence configuration. Generates compliance reports mapped to OWASP Top 10 and exports findings in SARIF and JUnit XML formats."
 category: "Security & Verification"
 framework: "Codex"
-verification: "community"
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/zap-automated-security-scan-orchestrator/"
+source: "https://agentskillexchange.com/skills/zap-automated-security-scan-orchestrator/"
 ---
-
 # ZAP Automated Security Scan Orchestrator
 
 Orchestrates OWASP ZAP security scans via the ZAP API with automated spider, active scanner, and authentication sequence configuration. Generates compliance reports mapped to OWASP Top 10 and exports findings in SARIF and JUnit XML formats.
@@ -20,22 +19,17 @@ Orchestrates OWASP ZAP security scans via the ZAP API with automated spider, act
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install zap-automated-security-scan-orchestrator
+npx skills add agentskillexchange/skills --skill zap-automated-security-scan-orchestrator
 ```
 
 ### Claude Code
 ```bash
-claude mcp add zap-automated-security-scan-orchestrator
+npx skills add agentskillexchange/skills --skill zap-automated-security-scan-orchestrator -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "zap-automated-security-scan-orchestrator": {
-    "source": "agentskillexchange"
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill zap-automated-security-scan-orchestrator -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install zap-automated-security-scan-orchestrator
 
 ### Codex
 ```bash
-codex install zap-automated-security-scan-orchestrator
+npx skills add agentskillexchange/skills --skill zap-automated-security-scan-orchestrator -a codex
 ```
-
 ## Details
 
 | Field | Value |

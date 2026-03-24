@@ -3,36 +3,33 @@ name: "Stripe Payments Connector"
 description: "Full Stripe API integration using the stripe-node SDK. Creates PaymentIntents via stripe.paymentIntents.create(), manages Customers and Subscriptions, handles webhook events through stripe.webhooks.constructEvent(), and supports Stripe Connect for marketplace payouts."
 category: "Integrations & Connectors"
 framework: "ChatGPT Agents"
-verification: "verified_metadata"
-rating: "0"
-reviews: "0"
+verification: verified_metadata
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/stripe-payments-connector/"
+source: "https://agentskillexchange.com/skills/stripe-payments-connector/"
 ---
-
 # Stripe Payments Connector
 
 Full Stripe API integration using the stripe-node SDK. Creates PaymentIntents via stripe.paymentIntents.create(), manages Customers and Subscriptions, handles webhook events through stripe.webhooks.constructEvent(), and supports Stripe Connect for marketplace payouts.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install stripe-payments-connector
+npx skills add agentskillexchange/skills --skill stripe-payments-connector
 ```
 
 ### Claude Code
 ```bash
-claude skills add stripe-payments-connector
+npx skills add agentskillexchange/skills --skill stripe-payments-connector -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor skills install stripe-payments-connector
+npx skills add agentskillexchange/skills --skill stripe-payments-connector -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install stripe-payments-connector
 
 ### Codex
 ```bash
-codex skills add stripe-payments-connector
+npx skills add agentskillexchange/skills --skill stripe-payments-connector -a codex
 ```
-
 ## Details
 
 | | |

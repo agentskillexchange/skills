@@ -3,35 +3,34 @@ name: "Schema.org Structured Data Generator"
 description: "Generates JSON-LD structured data markup for articles, products, FAQs, and how-to pages using Schema.org vocabulary. Validates output against Google Rich Results Test API and SchemaValidator.org endpoints."
 category: "Content Writing & SEO"
 framework: "Gemini"
-verification: "Verified & Security Reviewed"
-rating: "4.5"
-reviews: "75"
+verification: security_reviewed
+rating: 4.5
+reviews: 75
 creator: "Grace Okafor"
 creator_handle: "@graceokafor"
-creator_verified: "true"
-source: "https://agentskillexchange.com/skill/schema-org-structured-data-generator/"
+creator_verified: true
+source: "https://agentskillexchange.com/skills/schema-org-structured-data-generator/"
 ---
-
 # Schema.org Structured Data Generator
 
 Generates JSON-LD structured data markup for articles, products, FAQs, and how-to pages using Schema.org vocabulary. Validates output against Google Rich Results Test API and SchemaValidator.org endpoints.
 
 ## Installation
 
-Install this skill across different AI coding agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agentskill install schema-org-structured-data-generator
+npx skills add agentskillexchange/skills --skill schema-org-structured-data-generator
 ```
 
 ### Claude Code
 ```bash
-claude skill add schema-org-structured-data-generator
+npx skills add agentskillexchange/skills --skill schema-org-structured-data-generator -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` directory or install via Cursor settings.
+```bash
+npx skills add agentskillexchange/skills --skill schema-org-structured-data-generator -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install schema-org-structured-data-generator
 
 ### Codex
 ```bash
-codex skill install schema-org-structured-data-generator
+npx skills add agentskillexchange/skills --skill schema-org-structured-data-generator -a codex
 ```
-
 ## Details
 
 | Field | Value |

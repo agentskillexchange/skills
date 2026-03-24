@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.8
 reviews: 85
-creator: Mia Zhang
-creator_handle: miazhang
+creator: "Mia Zhang"
+creator_handle: "@miazhang"
 creator_verified: true
-source: https://agentskillexchange.com/skill/prettier-format-enforcement-bot/
+source: "https://agentskillexchange.com/skills/prettier-format-enforcement-bot/"
 ---
-
 # Prettier Format Enforcement Bot
 
 Enforces code formatting standards using the Prettier API (prettier.format(), prettier.check()) and prettier-plugin-organize-imports. Supports 20+ languages with .prettierrc configuration management.

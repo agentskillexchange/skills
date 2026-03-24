@@ -3,15 +3,14 @@ name: "Pexels API Stock Photo Curator"
 description: "Searches and downloads royalty-free images from Pexels API with smart filtering by orientation, color, and size. Generates attribution HTML and maintains a local deduplication index via SQLite."
 category: "Image & Creative Automation"
 framework: "Claude Agents"
-verification: ""
+verification: listed
 rating: 0
 reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/pexels-api-stock-photo-curator/"
+source: "https://agentskillexchange.com/skills/pexels-api-stock-photo-curator/"
 ---
-
 # Pexels API Stock Photo Curator
 
 Searches and downloads royalty-free images from Pexels API with smart filtering by orientation, color, and size. Generates attribution HTML and maintains a local deduplication index via SQLite.
@@ -20,17 +19,17 @@ Searches and downloads royalty-free images from Pexels API with smart filtering 
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agentskill install pexels-api-stock-photo-curator
+npx skills add agentskillexchange/skills --skill pexels-api-stock-photo-curator
 ```
 
 ### Claude Code
 ```bash
-claude skill add pexels-api-stock-photo-curator
+npx skills add agentskillexchange/skills --skill pexels-api-stock-photo-curator -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor skill install pexels-api-stock-photo-curator
+npx skills add agentskillexchange/skills --skill pexels-api-stock-photo-curator -a cursor
 ```
 
 ### OpenClaw
@@ -40,9 +39,8 @@ clawhub install pexels-api-stock-photo-curator
 
 ### Codex
 ```bash
-codex skill add pexels-api-stock-photo-curator
+npx skills add agentskillexchange/skills --skill pexels-api-stock-photo-curator -a codex
 ```
-
 ## Details
 
 | Field | Value |

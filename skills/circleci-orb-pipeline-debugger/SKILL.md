@@ -3,39 +3,33 @@ name: "CircleCI Orb Pipeline Debugger"
 description: "Diagnoses CircleCI orb configuration errors and pipeline failures using the CircleCI v2 API. Parses orb YAML schemas, detects version pinning issues, and suggests fixes for executor and job dependency problems."
 category: "CI/CD Integrations"
 framework: "Claude Code"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.9
 reviews: 25
 creator: "Zoe Chen"
 creator_handle: "@zoechen"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/circleci-orb-pipeline-debugger/"
+source: "https://agentskillexchange.com/skills/circleci-orb-pipeline-debugger/"
 ---
-
 # CircleCI Orb Pipeline Debugger
 
 Diagnoses CircleCI orb configuration errors and pipeline failures using the CircleCI v2 API. Parses orb YAML schemas, detects version pinning issues, and suggests fixes for executor and job dependency problems.
 
 ## Installation
 
-Install this skill for your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install circleci-orb-pipeline-debugger
+npx skills add agentskillexchange/skills --skill circleci-orb-pipeline-debugger
 ```
 
 ### Claude Code
 ```bash
-claude skills add circleci-orb-pipeline-debugger
+npx skills add agentskillexchange/skills --skill circleci-orb-pipeline-debugger -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["circleci-orb-pipeline-debugger"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill circleci-orb-pipeline-debugger -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install circleci-orb-pipeline-debugger
 
 ### Codex
 ```bash
-codex skills add circleci-orb-pipeline-debugger
+npx skills add agentskillexchange/skills --skill circleci-orb-pipeline-debugger -a codex
 ```
-
 ## Details
 
 | Property | Value |

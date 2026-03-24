@@ -3,36 +3,33 @@ name: "Terraform Cloud Pipeline Agent"
 description: "Orchestrates Terraform Cloud run pipelines via the TFC API v2 and tfe provider. Manages workspace variables, Sentinel policy checks, and cost estimation hooks with automatic plan approval workflows."
 category: "CI/CD Integrations"
 framework: "OpenClaw"
-verification: ""
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/terraform-cloud-pipeline-agent/"
+source: "https://agentskillexchange.com/skills/terraform-cloud-pipeline-agent/"
 ---
-
 # Terraform Cloud Pipeline Agent
 
 Orchestrates Terraform Cloud run pipelines via the TFC API v2 and tfe provider. Manages workspace variables, Sentinel policy checks, and cost estimation hooks with automatic plan approval workflows.
 
 ## Installation
 
-Install this skill across different AI coding agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install terraform-cloud-pipeline-agent
+npx skills add agentskillexchange/skills --skill terraform-cloud-pipeline-agent
 ```
 
 ### Claude Code
 ```bash
-claude skills add terraform-cloud-pipeline-agent
+npx skills add agentskillexchange/skills --skill terraform-cloud-pipeline-agent -a claude-code
 ```
 
 ### Cursor
-```
-Install from Cursor Settings → Skills → Add → Search "Terraform Cloud Pipeline Agent"
+```bash
+npx skills add agentskillexchange/skills --skill terraform-cloud-pipeline-agent -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install terraform-cloud-pipeline-agent
 
 ### Codex
 ```bash
-codex skills add terraform-cloud-pipeline-agent
+npx skills add agentskillexchange/skills --skill terraform-cloud-pipeline-agent -a codex
 ```
-
 ## Details
 
 | Property | Value |

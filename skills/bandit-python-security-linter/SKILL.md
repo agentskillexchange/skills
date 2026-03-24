@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.9
 reviews: 40
-creator: Omar Hassan
-creator_handle: ohassan
+creator: "Omar Hassan"
+creator_handle: "@ohassan"
 creator_verified: true
-source: https://agentskillexchange.com/skill/bandit-python-security-linter/
+source: "https://agentskillexchange.com/skills/bandit-python-security-linter/"
 ---
-
 # Bandit Python Security Linter
 
 Runs Bandit to find common Python security issues: SQL injection, hardcoded passwords, use of dangerous functions (eval, exec), insecure random, and known vulnerable patterns.

@@ -3,15 +3,14 @@ name: "Google Calendar Conflict Resolver"
 description: "Detects overlapping Google Calendar events using the Google Calendar API v3 and suggests optimal rescheduling. Integrates with OAuth2 for multi-account support and handles recurring event RRULE parsing."
 category: "Calendar, Email & Productivity"
 framework: "OpenClaw"
-verification: ""
+verification: listed
 rating: 0
 reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/google-calendar-conflict-resolver/"
+source: "https://agentskillexchange.com/skills/google-calendar-conflict-resolver/"
 ---
-
 # Google Calendar Conflict Resolver
 
 Detects overlapping Google Calendar events using the Google Calendar API v3 and suggests optimal rescheduling. Integrates with OAuth2 for multi-account support and handles recurring event RRULE parsing.
@@ -20,16 +19,18 @@ Detects overlapping Google Calendar events using the Google Calendar API v3 and 
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install google-calendar-conflict-resolver
+npx skills add agentskillexchange/skills --skill google-calendar-conflict-resolver
 ```
 
 ### Claude Code
 ```bash
-claude install-skill google-calendar-conflict-resolver
+npx skills add agentskillexchange/skills --skill google-calendar-conflict-resolver -a claude-code
 ```
 
 ### Cursor
-Download from [Agent Skill Exchange](https://agentskillexchange.com/skill/google-calendar-conflict-resolver/) and add to your `.cursor/skills/` directory.
+```bash
+npx skills add agentskillexchange/skills --skill google-calendar-conflict-resolver -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -38,9 +39,8 @@ clawhub install google-calendar-conflict-resolver
 
 ### Codex
 ```bash
-codex install-skill google-calendar-conflict-resolver
+npx skills add agentskillexchange/skills --skill google-calendar-conflict-resolver -a codex
 ```
-
 ## Details
 
 | Field | Value |

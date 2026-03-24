@@ -6,12 +6,11 @@ framework: "OpenClaw"
 verification: security_reviewed
 rating: 4.4
 reviews: 5
-creator: Kai Nakamura
-creator_handle: kainakamura
+creator: "Kai Nakamura"
+creator_handle: "@kainakamura"
 creator_verified: true
-source: https://agentskillexchange.com/skill/github-actions-workflow-optimizer/
+source: "https://agentskillexchange.com/skills/github-actions-workflow-optimizer/"
 ---
-
 # GitHub Actions Workflow Optimizer
 
 Analyzes GitHub Actions YAML workflows to identify redundant steps, optimize caching strategies, and reduce CI minutes. Uses the GitHub Actions REST API and actions/cache toolkit to benchmark and improve pipeline performance.

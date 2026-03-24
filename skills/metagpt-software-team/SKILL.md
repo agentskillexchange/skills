@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.3
 reviews: 13
-creator: Mia Zhang
-creator_handle: miazhang
+creator: "Mia Zhang"
+creator_handle: "@miazhang"
 creator_verified: true
-source: https://agentskillexchange.com/skill/metagpt-software-team/
+source: "https://agentskillexchange.com/skills/metagpt-software-team/"
 ---
-
 # MetaGPT Software Team
 
 MetaGPT assigns specialized software engineering roles (Product Manager, Architect, Engineer, QA) to LLM agents to collaboratively develop software from a single requirement input. This skill covers using MetaGPT to generate full software projects with structured outputs.

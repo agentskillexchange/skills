@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.8
 reviews: 10
-creator: Tom Anderson
-creator_handle: tanderson
+creator: "Tom Anderson"
+creator_handle: "@tanderson"
 creator_verified: false
-source: https://agentskillexchange.com/skill/cron-job-manager/
+source: "https://agentskillexchange.com/skills/cron-job-manager/"
 ---
-
 # Cron Job Manager
 
 Use this skill when you need to list, create, modify, or debug cron jobs on a system or in a cloud scheduler (AWS EventBridge, GCP Cloud Scheduler). It validates cron expressions, explains schedules in plain language, and checks job execution history for failures.

@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.2
 reviews: 85
-creator: Ava Wilson
-creator_handle: avawilson
+creator: "Ava Wilson"
+creator_handle: "@avawilson"
 creator_verified: true
-source: https://agentskillexchange.com/skill/hashicorp-vault-mcp-server/
+source: "https://agentskillexchange.com/skills/hashicorp-vault-mcp-server/"
 ---
-
 # HashiCorp Vault MCP Server
 
 The official HashiCorp Vault MCP server lets AI assistants read, write, list, and delete secrets in Vault’s KV engine through a safe, auditable MCP interface. Supports both stdio and HTTP transports, TLS encryption, and CORS controls.

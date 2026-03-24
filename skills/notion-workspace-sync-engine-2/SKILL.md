@@ -3,39 +3,33 @@ name: "Notion Workspace Sync Engine"
 description: "Bidirectionally syncs Notion databases with external tools via the Notion API and webhooks. Maps page properties to Jira issues, GitHub PRs, and Linear tickets in real time."
 category: "Calendar, Email & Productivity"
 framework: "Gemini"
-verification: "✅ Verified"
-rating: "4.7"
-reviews: "32"
+verification: security_reviewed
+rating: 4.7
+reviews: 32
 creator: "Nina Volkov"
 creator_handle: "@ninavolkov"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/notion-workspace-sync-engine-2/"
+source: "https://agentskillexchange.com/skills/notion-workspace-sync-engine-2/"
 ---
-
 # Notion Workspace Sync Engine
 
 Bidirectionally syncs Notion databases with external tools via the Notion API and webhooks. Maps page properties to Jira issues, GitHub PRs, and Linear tickets in real time.
 
 ## Installation
 
-Install this skill across different AI agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install notion-workspace-sync-engine-2
+npx skills add agentskillexchange/skills --skill notion-workspace-sync-engine-2
 ```
 
 ### Claude Code
 ```bash
-claude mcp add notion-workspace-sync-engine-2
+npx skills add agentskillexchange/skills --skill notion-workspace-sync-engine-2 -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["notion-workspace-sync-engine-2"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill notion-workspace-sync-engine-2 -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install notion-workspace-sync-engine-2
 
 ### Codex
 ```bash
-codex install notion-workspace-sync-engine-2
+npx skills add agentskillexchange/skills --skill notion-workspace-sync-engine-2 -a codex
 ```
-
 ## Details
 
 | Field | Value |

@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.4
 reviews: 85
-creator: Omar Hassan
-creator_handle: ohassan
+creator: "Omar Hassan"
+creator_handle: "@ohassan"
 creator_verified: true
-source: https://agentskillexchange.com/skill/incident-escalation-runbook/
+source: "https://agentskillexchange.com/skills/incident-escalation-runbook/"
 ---
-
 # Incident Escalation Runbook
 
 Runbook defining clear escalation paths and communication protocols during production incidents. Covers severity classification, stakeholder notification, war room setup, and executive communication templates.

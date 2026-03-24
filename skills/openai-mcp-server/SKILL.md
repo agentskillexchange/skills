@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.6
 reviews: 25
-creator: Rachel Green
-creator_handle: rachelgreen
+creator: "Rachel Green"
+creator_handle: "@rachelgreen"
 creator_verified: false
-source: https://agentskillexchange.com/skill/openai-mcp-server/
+source: "https://agentskillexchange.com/skills/openai-mcp-server/"
 ---
-
 # OpenAI MCP Server
 
 Use this skill to make GPT-4/o1 API calls, generate embeddings, manage fine-tuning jobs, and access OpenAI’s full model suite through the Model Context Protocol. It enables agents to leverage OpenAI’s capabilities without direct API integration. Trigger when you need to generate text with GPT-4, create embeddings for semantic search, or manage model fine-tuning workflows.

@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.3
 reviews: 43
-creator: Elena Kowalski
-creator_handle: ekowalski
+creator: "Elena Kowalski"
+creator_handle: "@ekowalski"
 creator_verified: true
-source: https://agentskillexchange.com/skill/playwright-test-recorder/
+source: "https://agentskillexchange.com/skills/playwright-test-recorder/"
 ---
-
 # Playwright Test Recorder
 
 Record, generate, and optimize Playwright test scripts through an AI agent, including locator recommendations, page object model scaffolding, and visual comparison baseline creation. Supports multi-browser and multi-device configuration for comprehensive test coverage.

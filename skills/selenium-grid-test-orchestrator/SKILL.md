@@ -3,15 +3,14 @@ name: "Selenium Grid Test Orchestrator"
 description: "Orchestrates parallel browser test execution across Selenium Grid 4 nodes using the Grid Status API and WebDriver W3C protocol. Manages session distribution, retries, and result aggregation."
 category: "Browser Automation"
 framework: "Cursor"
-verification: "community"
+verification: listed
 rating: 0
 reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/selenium-grid-test-orchestrator/"
+source: "https://agentskillexchange.com/skills/selenium-grid-test-orchestrator/"
 ---
-
 # Selenium Grid Test Orchestrator
 
 Orchestrates parallel browser test execution across Selenium Grid 4 nodes using the Grid Status API and WebDriver W3C protocol. Manages session distribution, retries, and result aggregation.
@@ -20,16 +19,18 @@ Orchestrates parallel browser test execution across Selenium Grid 4 nodes using 
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install selenium-grid-test-orchestrator
+npx skills add agentskillexchange/skills --skill selenium-grid-test-orchestrator
 ```
 
 ### Claude Code
 ```bash
-claude mcp add selenium-grid-test-orchestrator
+npx skills add agentskillexchange/skills --skill selenium-grid-test-orchestrator -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills/selenium-grid-test-orchestrator` in your project.
+```bash
+npx skills add agentskillexchange/skills --skill selenium-grid-test-orchestrator -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -38,9 +39,8 @@ clawhub install selenium-grid-test-orchestrator
 
 ### Codex
 ```bash
-codex install selenium-grid-test-orchestrator
+npx skills add agentskillexchange/skills --skill selenium-grid-test-orchestrator -a codex
 ```
-
 ## Details
 
 | Field | Value |

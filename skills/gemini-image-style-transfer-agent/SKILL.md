@@ -3,15 +3,14 @@ name: "Gemini Image Style Transfer Agent"
 description: "Uses the Gemini Imagen 3 API (imagegeneration endpoint) to apply stylistic transformations to uploaded images, converting photos to watercolor, line art, or oil painting styles. Accepts base64-encoded input images and returns styled outputs with configurable style prompts."
 category: "Image & Creative Automation"
 framework: "Gemini"
-verification: 
+verification: listed
 rating: 4.2
 reviews: 32
-creator: David Kim
-creator_handle: dkim
+creator: "David Kim"
+creator_handle: "@dkim"
 creator_verified: false
-source: https://agentskillexchange.com/skill/gemini-image-style-transfer-agent/
+source: "https://agentskillexchange.com/skills/gemini-image-style-transfer-agent/"
 ---
-
 # Gemini Image Style Transfer Agent
 
 Uses the Gemini Imagen 3 API (imagegeneration endpoint) to apply stylistic transformations to uploaded images, converting photos to watercolor, line art, or oil painting styles. Accepts base64-encoded input images and returns styled outputs with configurable style prompts.

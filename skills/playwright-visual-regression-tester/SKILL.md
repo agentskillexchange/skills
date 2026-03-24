@@ -3,15 +3,14 @@ name: "Playwright Visual Regression Tester"
 description: "Performs pixel-level visual regression testing using the Playwright Test API and pixelmatch diffing library. Generates baseline screenshots, comparison reports, and integrates with Percy for cloud ..."
 category: "Browser Automation"
 framework: "Claude Agents"
-verification: "community"
+verification: listed
 rating: 0
 reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/playwright-visual-regression-tester/"
+source: "https://agentskillexchange.com/skills/playwright-visual-regression-tester/"
 ---
-
 # Playwright Visual Regression Tester
 
 Performs pixel-level visual regression testing using the Playwright Test API and pixelmatch diffing library. Generates baseline screenshots, comparison reports, and integrates with Percy for cloud storage.
@@ -20,16 +19,18 @@ Performs pixel-level visual regression testing using the Playwright Test API and
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install playwright-visual-regression-tester
+npx skills add agentskillexchange/skills --skill playwright-visual-regression-tester
 ```
 
 ### Claude Code
 ```bash
-claude mcp add playwright-visual-regression-tester
+npx skills add agentskillexchange/skills --skill playwright-visual-regression-tester -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills/playwright-visual-regression-tester` in your project.
+```bash
+npx skills add agentskillexchange/skills --skill playwright-visual-regression-tester -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -38,9 +39,8 @@ clawhub install playwright-visual-regression-tester
 
 ### Codex
 ```bash
-codex install playwright-visual-regression-tester
+npx skills add agentskillexchange/skills --skill playwright-visual-regression-tester -a codex
 ```
-
 ## Details
 
 | Field | Value |

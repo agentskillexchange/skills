@@ -3,36 +3,33 @@ name: "Prometheus Alert Runbook"
 description: "Execute structured runbook procedures triggered by Prometheus AlertManager webhooks. Queries PromQL metrics via the Prometheus HTTP API for automated incident diagnosis and escalation."
 category: "Runbooks & Diagnostics"
 framework: "MCP-compatible"
-verification: "verified_metadata"
-rating: "0"
-reviews: "0"
+verification: verified_metadata
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/prometheus-alert-runbook/"
+source: "https://agentskillexchange.com/skills/prometheus-alert-runbook/"
 ---
-
 # Prometheus Alert Runbook
 
 Execute structured runbook procedures triggered by Prometheus AlertManager webhooks. Queries PromQL metrics via the Prometheus HTTP API for automated incident diagnosis and escalation.
 
 ## Installation
 
-Install this skill using one of these methods:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install prometheus-alert-runbook
+npx skills add agentskillexchange/skills --skill prometheus-alert-runbook
 ```
 
 ### Claude Code
 ```bash
-claude skills add prometheus-alert-runbook
+npx skills add agentskillexchange/skills --skill prometheus-alert-runbook -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor skills install prometheus-alert-runbook
+npx skills add agentskillexchange/skills --skill prometheus-alert-runbook -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install prometheus-alert-runbook
 
 ### Codex
 ```bash
-codex skills add prometheus-alert-runbook
+npx skills add agentskillexchange/skills --skill prometheus-alert-runbook -a codex
 ```
-
 ## Details
 
 | Field | Value |

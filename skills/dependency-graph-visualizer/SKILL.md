@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.4
 reviews: 78
-creator: Elena Kowalski
-creator_handle: ekowalski
+creator: "Elena Kowalski"
+creator_handle: "@ekowalski"
 creator_verified: true
-source: https://agentskillexchange.com/skill/dependency-graph-visualizer/
+source: "https://agentskillexchange.com/skills/dependency-graph-visualizer/"
 ---
-
 # Dependency Graph Visualizer
 
 Generates visual dependency graphs for codebases — module dependencies, package relationships, and service call graphs. Outputs as SVG, DOT, or interactive HTML. Helps understand architecture and plan refactors.

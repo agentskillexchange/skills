@@ -6,12 +6,11 @@ framework: "Gemini"
 verification: security_reviewed
 rating: 4.8
 reviews: 17
-creator: Luna Martinez
-creator_handle: lunamartinez
+creator: "Luna Martinez"
+creator_handle: "@lunamartinez"
 creator_verified: false
-source: https://agentskillexchange.com/skill/docker-compose-health-monitor-2/
+source: "https://agentskillexchange.com/skills/docker-compose-health-monitor-2/"
 ---
-
 # Docker Compose Health Monitor
 
 Monitors multi-container Docker Compose stacks using the Docker Engine API via docker-py SDK. Tracks container health checks, restart counts, and resource usage with prometheus_client metric export for Grafana dashboards.

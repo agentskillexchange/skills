@@ -6,12 +6,11 @@ framework: "ChatGPT Agents"
 verification: security_reviewed
 rating: 4.6
 reviews: 64
-creator: Priya Sharma
-creator_handle: priyasharma
+creator: "Priya Sharma"
+creator_handle: "@priyasharma"
 creator_verified: true
-source: https://agentskillexchange.com/skill/terraform-state-drift-detector-2/
+source: "https://agentskillexchange.com/skills/terraform-state-drift-detector-2/"
 ---
-
 # Terraform State Drift Detector
 
 Detects infrastructure drift by comparing Terraform state files against live cloud resources using terraform plan -detailed-exitcode and the Terraform Cloud API. Supports AWS, GCP, and Azure providers.

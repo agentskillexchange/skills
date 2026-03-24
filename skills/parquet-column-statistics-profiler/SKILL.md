@@ -3,33 +3,34 @@ name: "Parquet Column Statistics Profiler"
 description: "Profiles Apache Parquet files using pyarrow metadata APIs to extract column statistics, row group distributions, and encoding efficiency metrics without reading full datasets."
 category: "Data Extraction & Transformation"
 framework: "ChatGPT Agents"
-verification: "Verified"
-rating: "4.0"
-reviews: "71"
+verification: verified_metadata
+rating: 4.0
+reviews: 71
 creator: "James Kim"
 creator_handle: "@jameskim_ai"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/parquet-column-statistics-profiler/"
+source: "https://agentskillexchange.com/skills/parquet-column-statistics-profiler/"
 ---
-
 # Parquet Column Statistics Profiler
 
 Profiles Apache Parquet files using pyarrow metadata APIs to extract column statistics, row group distributions, and encoding efficiency metrics without reading full datasets.
 
 ## Installation
 
-### Any AI Agent (npx)
+### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install parquet-column-statistics-profiler
+npx skills add agentskillexchange/skills --skill parquet-column-statistics-profiler
 ```
 
 ### Claude Code
 ```bash
-claude skills add parquet-column-statistics-profiler
+npx skills add agentskillexchange/skills --skill parquet-column-statistics-profiler -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` directory or install via Cursor settings.
+```bash
+npx skills add agentskillexchange/skills --skill parquet-column-statistics-profiler -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -38,9 +39,8 @@ clawhub install parquet-column-statistics-profiler
 
 ### Codex
 ```bash
-codex skills install parquet-column-statistics-profiler
+npx skills add agentskillexchange/skills --skill parquet-column-statistics-profiler -a codex
 ```
-
 ## Details
 
 | Field | Value |

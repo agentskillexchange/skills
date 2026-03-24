@@ -3,15 +3,14 @@ name: "Ansible Playbook Debugger"
 description: "Diagnoses failed Ansible playbook runs by analyzing callback plugin output and ansible-runner artifacts. Extracts task failure chains, variable resolution issues, and SSH connection errors with remediation suggestions using ansible-doc lookups."
 category: "Runbooks & Diagnostics"
 framework: "Gemini"
-verification: "security_reviewed"
+verification: security_reviewed
 rating: 4.8
 reviews: 22
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/ansible-playbook-debugger-2/"
+source: "https://agentskillexchange.com/skills/ansible-playbook-debugger-2/"
 ---
-
 # Ansible Playbook Debugger
 
 Diagnoses failed Ansible playbook runs by analyzing callback plugin output and ansible-runner artifacts. Extracts task failure chains, variable resolution issues, and SSH connection errors with remediation suggestions using ansible-doc lookups.
@@ -20,22 +19,17 @@ Diagnoses failed Ansible playbook runs by analyzing callback plugin output and a
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install ansible-playbook-debugger-2
+npx skills add agentskillexchange/skills --skill ansible-playbook-debugger-2
 ```
 
 ### Claude Code
 ```bash
-claude mcp add ansible-playbook-debugger-2
+npx skills add agentskillexchange/skills --skill ansible-playbook-debugger-2 -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "ansible-playbook-debugger-2": {
-    "source": "agentskillexchange"
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill ansible-playbook-debugger-2 -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install ansible-playbook-debugger-2
 
 ### Codex
 ```bash
-codex install ansible-playbook-debugger-2
+npx skills add agentskillexchange/skills --skill ansible-playbook-debugger-2 -a codex
 ```
-
 ## Details
 
 | Field | Value |

@@ -3,35 +3,34 @@ name: "Terraform Module Testing Framework"
 description: "Tests Terraform modules using Terratest Go library and terraform test native framework. Validates plan output, applies infrastructure in ephemeral environments, and asserts resource attributes with automatic cleanup."
 category: "Templates & Workflows"
 framework: "Claude Code"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.5
 reviews: 79
 creator: "Elena Rodriguez"
 creator_handle: "@elena_dev"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/terraform-module-testing-framework/"
+source: "https://agentskillexchange.com/skills/terraform-module-testing-framework/"
 ---
-
 # Terraform Module Testing Framework
 
 Tests Terraform modules using Terratest Go library and terraform test native framework. Validates plan output, applies infrastructure in ephemeral environments, and asserts resource attributes with automatic cleanup.
 
 ## Installation
 
-Install this skill in your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install terraform-module-testing-framework
+npx skills add agentskillexchange/skills --skill terraform-module-testing-framework
 ```
 
 ### Claude Code
 ```bash
-claude install-skill terraform-module-testing-framework
+npx skills add agentskillexchange/skills --skill terraform-module-testing-framework -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills/` directory or install via Cursor Settings → Skills.
+```bash
+npx skills add agentskillexchange/skills --skill terraform-module-testing-framework -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install terraform-module-testing-framework
 
 ### Codex
 ```bash
-codex install-skill terraform-module-testing-framework
+npx skills add agentskillexchange/skills --skill terraform-module-testing-framework -a codex
 ```
-
 ## Details
 
 | Field | Value |

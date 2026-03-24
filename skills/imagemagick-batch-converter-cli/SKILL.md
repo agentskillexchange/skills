@@ -3,51 +3,44 @@ name: "ImageMagick Batch Converter CLI"
 description: "Automates bulk image conversion using ImageMagick&#8217;s convert and mogrify commands with geometry expressions. Supports -density, -colorspace, and -profile flags for print-quality output."
 category: "Image & Creative Automation"
 framework: "OpenClaw"
-verification: "verified"
+verification: verified_metadata
 rating: 4.4
 reviews: 34
 creator: "David Nguyen"
 creator_handle: "@davidnguyen"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/imagemagick-batch-converter-cli/"
+source: "https://agentskillexchange.com/skills/imagemagick-batch-converter-cli/"
 ---
-
 # ImageMagick Batch Converter CLI
 
 Automates bulk image conversion using ImageMagick&#8217;s convert and mogrify commands with geometry expressions. Supports -density, -colorspace, and -profile flags for print-quality output.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
-**Any agent (npx):**
+### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install imagemagick-batch-converter-cli
+npx skills add agentskillexchange/skills --skill imagemagick-batch-converter-cli
 ```
 
-**Claude Code:**
+### Claude Code
 ```bash
-claude skills install imagemagick-batch-converter-cli
+npx skills add agentskillexchange/skills --skill imagemagick-batch-converter-cli -a claude-code
 ```
 
-**Cursor:**
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["imagemagick-batch-converter-cli"]
-}
+### Cursor
+```bash
+npx skills add agentskillexchange/skills --skill imagemagick-batch-converter-cli -a cursor
 ```
 
-**OpenClaw:**
+### OpenClaw
 ```bash
 clawhub install imagemagick-batch-converter-cli
 ```
 
-**Codex:**
+### Codex
 ```bash
-codex skills install imagemagick-batch-converter-cli
+npx skills add agentskillexchange/skills --skill imagemagick-batch-converter-cli -a codex
 ```
-
 ## Details
 
 | Field | Value |

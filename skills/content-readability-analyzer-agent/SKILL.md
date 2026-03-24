@@ -3,39 +3,33 @@ name: "Content Readability Analyzer"
 description: "Scores content using Flesch-Kincaid, Gunning Fog, and SMOG readability indices via textstat Python library. Provides sentence-level rewrite suggestions using OpenAI GPT-4o API."
 category: "Content Writing & SEO"
 framework: "Gemini"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.7
 reviews: 7
 creator: "Lucy Zhang"
 creator_handle: "@lucyzhang"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/content-readability-analyzer-agent/"
+source: "https://agentskillexchange.com/skills/content-readability-analyzer-agent/"
 ---
-
 # Content Readability Analyzer
 
 Scores content using Flesch-Kincaid, Gunning Fog, and SMOG readability indices via textstat Python library. Provides sentence-level rewrite suggestions using OpenAI GPT-4o API.
 
 ## Installation
 
-Install this skill for your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install content-readability-analyzer-agent
+npx skills add agentskillexchange/skills --skill content-readability-analyzer-agent
 ```
 
 ### Claude Code
 ```bash
-claude skills add content-readability-analyzer-agent
+npx skills add agentskillexchange/skills --skill content-readability-analyzer-agent -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["content-readability-analyzer-agent"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill content-readability-analyzer-agent -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install content-readability-analyzer-agent
 
 ### Codex
 ```bash
-codex skills add content-readability-analyzer-agent
+npx skills add agentskillexchange/skills --skill content-readability-analyzer-agent -a codex
 ```
-
 ## Details
 
 | Property | Value |

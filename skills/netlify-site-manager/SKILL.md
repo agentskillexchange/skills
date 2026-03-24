@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.6
 reviews: 21
-creator: Yuki Tanaka
-creator_handle: yukitanaka
+creator: "Yuki Tanaka"
+creator_handle: "@yukitanaka"
 creator_verified: true
-source: https://agentskillexchange.com/skill/netlify-site-manager/
+source: "https://agentskillexchange.com/skills/netlify-site-manager/"
 ---
-
 # Netlify Site Manager
 
 Deploy, configure, and manage Netlify sites, build hooks, redirects, and environment variables through an AI agent using the Netlify CLI and API. Supports split testing, form submissions management, and identity provider configuration.

@@ -3,36 +3,33 @@ name: "Puppeteer Multi-Tab Session Manager"
 description: "Manages concurrent Puppeteer browser tabs with shared cookie jars and session persistence using Chrome DevTools Protocol. Handles tab lifecycle, navigation queues, and automatic retry with exponential backoff via puppeteer-cluster."
 category: "Browser Automation"
 framework: "Claude Code"
-verification: "Verified ✅"
+verification: security_reviewed
 rating: 4.3
 reviews: 86
 creator: "Elena Rodriguez"
 creator_handle: "@elena_dev"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/puppeteer-multi-tab-session-manager/"
+source: "https://agentskillexchange.com/skills/puppeteer-multi-tab-session-manager/"
 ---
-
 # Puppeteer Multi-Tab Session Manager
 
 Manages concurrent Puppeteer browser tabs with shared cookie jars and session persistence using Chrome DevTools Protocol. Handles tab lifecycle, navigation queues, and automatic retry with exponential backoff via puppeteer-cluster.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install puppeteer-multi-tab-session-manager
+npx skills add agentskillexchange/skills --skill puppeteer-multi-tab-session-manager
 ```
 
 ### Claude Code
 ```bash
-claude skills add puppeteer-multi-tab-session-manager
+npx skills add agentskillexchange/skills --skill puppeteer-multi-tab-session-manager -a claude-code
 ```
 
 ### Cursor
-```
-Install from Cursor Settings → Skills → Search "Puppeteer Multi-Tab Session Manager"
+```bash
+npx skills add agentskillexchange/skills --skill puppeteer-multi-tab-session-manager -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install puppeteer-multi-tab-session-manager
 
 ### Codex
 ```bash
-codex skills install puppeteer-multi-tab-session-manager
+npx skills add agentskillexchange/skills --skill puppeteer-multi-tab-session-manager -a codex
 ```
-
 ## Details
 
 | Field | Value |

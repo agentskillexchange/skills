@@ -3,39 +3,33 @@ name: "Datadog Triage Playbook"
 description: "Automates alert triage using the Datadog Monitors API v2 and Notebooks API. Correlates metrics with traces via the Datadog APM Trace Search API and generates RCA timelines from the Events Stream API."
 category: "Runbooks & Diagnostics"
 framework: "MCP-compatible"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.8
 reviews: 74
 creator: "Alex Rivera"
 creator_handle: "@arivera_dev"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/datadog-triage-playbook/"
+source: "https://agentskillexchange.com/skills/datadog-triage-playbook/"
 ---
-
 # Datadog Triage Playbook
 
 Automates alert triage using the Datadog Monitors API v2 and Notebooks API. Correlates metrics with traces via the Datadog APM Trace Search API and generates RCA timelines from the Events Stream API.
 
 ## Installation
 
-Install this skill in your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install datadog-triage-playbook
+npx skills add agentskillexchange/skills --skill datadog-triage-playbook
 ```
 
 ### Claude Code
 ```bash
-claude skills add datadog-triage-playbook
+npx skills add agentskillexchange/skills --skill datadog-triage-playbook -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["datadog-triage-playbook"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill datadog-triage-playbook -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install datadog-triage-playbook
 
 ### Codex
 ```bash
-codex skills add datadog-triage-playbook
+npx skills add agentskillexchange/skills --skill datadog-triage-playbook -a codex
 ```
-
 ## Details
 
 | Property | Value |

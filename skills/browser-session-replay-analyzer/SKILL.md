@@ -3,39 +3,33 @@ name: "Browser Session Replay Analyzer"
 description: "Records and replays browser sessions using rrweb recording library with DOM mutation serialization. Integrates with LogRocket API and FullStory Data Export API for session analytics."
 category: "Browser Automation"
 framework: "Custom Agents"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.2
 reviews: 42
 creator: "Yuki Tanaka"
 creator_handle: "@yukitanaka"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/browser-session-replay-analyzer/"
+source: "https://agentskillexchange.com/skills/browser-session-replay-analyzer/"
 ---
-
 # Browser Session Replay Analyzer
 
 Records and replays browser sessions using rrweb recording library with DOM mutation serialization. Integrates with LogRocket API and FullStory Data Export API for session analytics.
 
 ## Installation
 
-Install this skill for your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install browser-session-replay-analyzer
+npx skills add agentskillexchange/skills --skill browser-session-replay-analyzer
 ```
 
 ### Claude Code
 ```bash
-claude skills add browser-session-replay-analyzer
+npx skills add agentskillexchange/skills --skill browser-session-replay-analyzer -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["browser-session-replay-analyzer"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill browser-session-replay-analyzer -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install browser-session-replay-analyzer
 
 ### Codex
 ```bash
-codex skills add browser-session-replay-analyzer
+npx skills add agentskillexchange/skills --skill browser-session-replay-analyzer -a codex
 ```
-
 ## Details
 
 | Property | Value |

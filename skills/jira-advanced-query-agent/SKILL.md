@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.8
 reviews: 46
-creator: Rachel Green
-creator_handle: rachelgreen
+creator: "Rachel Green"
+creator_handle: "@rachelgreen"
 creator_verified: false
-source: https://agentskillexchange.com/skill/jira-advanced-query-agent/
+source: "https://agentskillexchange.com/skills/jira-advanced-query-agent/"
 ---
-
 # Jira Advanced Query Agent
 
 Execute complex Jira Query Language (JQL) queries, create and update issues, manage sprints, and generate workload reports through an AI agent. Supports custom field mapping and bulk operations for large project datasets.

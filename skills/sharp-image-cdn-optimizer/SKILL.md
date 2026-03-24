@@ -3,36 +3,33 @@ name: "Sharp Image CDN Optimizer"
 description: "On-the-fly image optimization using Sharp (libvips Node.js bindings) with CDN-aware caching headers. Supports responsive srcset generation, AVIF/WebP transcoding, and blur placeholder (LQIP) creation."
 category: "Image & Creative Automation"
 framework: "Custom Agents"
-verification: "community"
-rating: "4.4"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/sharp-image-cdn-optimizer/"
+source: "https://agentskillexchange.com/skills/sharp-image-cdn-optimizer/"
 ---
-
 # Sharp Image CDN Optimizer
 
 On-the-fly image optimization using Sharp (libvips Node.js bindings) with CDN-aware caching headers. Supports responsive srcset generation, AVIF/WebP transcoding, and blur placeholder (LQIP) creation.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install sharp-image-cdn-optimizer
+npx skills add agentskillexchange/skills --skill sharp-image-cdn-optimizer
 ```
 
 ### Claude Code
 ```bash
-claude skills add sharp-image-cdn-optimizer
+npx skills add agentskillexchange/skills --skill sharp-image-cdn-optimizer -a claude-code
 ```
 
 ### Cursor
-```
-Install from Cursor Settings → Skills → Add → "Sharp Image CDN Optimizer"
+```bash
+npx skills add agentskillexchange/skills --skill sharp-image-cdn-optimizer -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install sharp-image-cdn-optimizer
 
 ### Codex
 ```bash
-codex skills add sharp-image-cdn-optimizer
+npx skills add agentskillexchange/skills --skill sharp-image-cdn-optimizer -a codex
 ```
-
 ## Details
 
 | Field | Value |

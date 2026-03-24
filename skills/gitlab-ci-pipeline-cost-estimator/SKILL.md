@@ -3,49 +3,44 @@ name: "GitLab CI Pipeline Cost Estimator"
 description: "Estimates CI/CD pipeline costs by querying the GitLab REST API v4 for job durations, runner types, and compute minutes. Maps shared vs self-hosted runner usage against GitLab pricing tiers."
 category: "CI/CD Integrations"
 framework: "Custom Agents"
-verification: "Verified Metadata"
-rating: "4.5"
-reviews: "52"
+verification: verified_metadata
+rating: 4.5
+reviews: 52
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/gitlab-ci-pipeline-cost-estimator/"
+source: "https://agentskillexchange.com/skills/gitlab-ci-pipeline-cost-estimator/"
 ---
-
 # GitLab CI Pipeline Cost Estimator
 
 Estimates CI/CD pipeline costs by querying the GitLab REST API v4 for job durations, runner types, and compute minutes. Maps shared vs self-hosted runner usage against GitLab pricing tiers.
 
 ## Installation
 
-**Any Agent (npx):**
+### Any Agent (npx)
 ```bash
-npx @anthropic/skills install gitlab-ci-pipeline-cost-estimator
+npx skills add agentskillexchange/skills --skill gitlab-ci-pipeline-cost-estimator
 ```
 
-**Claude Code:**
+### Claude Code
 ```bash
-claude mcp add gitlab-ci-pipeline-cost-estimator
+npx skills add agentskillexchange/skills --skill gitlab-ci-pipeline-cost-estimator -a claude-code
 ```
 
-**Cursor:**
-Add to `.cursor/skills.json`:
-```json
-{
-  "gitlab-ci-pipeline-cost-estimator": "latest"
-}
+### Cursor
+```bash
+npx skills add agentskillexchange/skills --skill gitlab-ci-pipeline-cost-estimator -a cursor
 ```
 
-**OpenClaw:**
+### OpenClaw
 ```bash
 clawhub install gitlab-ci-pipeline-cost-estimator
 ```
 
-**Codex:**
+### Codex
 ```bash
-codex install gitlab-ci-pipeline-cost-estimator
+npx skills add agentskillexchange/skills --skill gitlab-ci-pipeline-cost-estimator -a codex
 ```
-
 ## Details
 
 | Field | Value |

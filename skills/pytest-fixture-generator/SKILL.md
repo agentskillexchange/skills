@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.5
 reviews: 35
-creator: Alex Thompson
-creator_handle: alexthompson
+creator: "Alex Thompson"
+creator_handle: "@alexthompson"
 creator_verified: true
-source: https://agentskillexchange.com/skill/pytest-fixture-generator/
+source: "https://agentskillexchange.com/skills/pytest-fixture-generator/"
 ---
-
 # Pytest Fixture Generator
 
 Generate Pytest fixtures, conftest.py files, and parametrized test cases from Python source modules through an AI agent. Supports factory_boy integration for model factories, mock patching patterns, and pytest-asyncio for async test generation.

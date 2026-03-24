@@ -3,15 +3,14 @@ name: "Notion Database Sync Agent"
 description: "Syncs records between Notion databases and external sources using the Notion API (POST /v1/databases/{id}/query), applying field mapping, deduplication by title or unique property, and incremental updates via last_edited_time filtering."
 category: "Calendar, Email & Productivity"
 framework: "Claude Agents"
-verification: 
+verification: listed
 rating: 4.8
 reviews: 51
-creator: Zara Ahmed
-creator_handle: zaraahmed
+creator: "Zara Ahmed"
+creator_handle: "@zaraahmed"
 creator_verified: true
-source: https://agentskillexchange.com/skill/notion-database-sync-agent/
+source: "https://agentskillexchange.com/skills/notion-database-sync-agent/"
 ---
-
 # Notion Database Sync Agent
 
 Syncs records between Notion databases and external sources using the Notion API (POST /v1/databases/{id}/query), applying field mapping, deduplication by title or unique property, and incremental updates via last_edited_time filtering.

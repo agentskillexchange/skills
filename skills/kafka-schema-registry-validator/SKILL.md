@@ -3,15 +3,14 @@ name: "Apache Kafka Schema Registry Validator"
 description: "Validates Avro, Protobuf, and JSON Schema compatibility against Confluent Schema Registry using the REST API. Enforces backward/forward/full compatibility modes and detects breaking schema evolution changes."
 category: "Data Extraction & Transformation"
 framework: "Claude Agents"
-verification: "✅ Verified"
-rating: "4.6"
-reviews: "64"
+verification: security_reviewed
+rating: 4.6
+reviews: 64
 creator: "Grace Okafor"
 creator_handle: "@graceokafor"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/kafka-schema-registry-validator/"
+source: "https://agentskillexchange.com/skills/kafka-schema-registry-validator/"
 ---
-
 # Apache Kafka Schema Registry Validator
 
 Validates Avro, Protobuf, and JSON Schema compatibility against Confluent Schema Registry using the REST API. Enforces backward/forward/full compatibility modes and detects breaking schema evolution changes.
@@ -20,22 +19,17 @@ Validates Avro, Protobuf, and JSON Schema compatibility against Confluent Schema
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install kafka-schema-registry-validator
+npx skills add agentskillexchange/skills --skill kafka-schema-registry-validator
 ```
 
 ### Claude Code
 ```bash
-claude mcp add kafka-schema-registry-validator
+npx skills add agentskillexchange/skills --skill kafka-schema-registry-validator -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "kafka-schema-registry-validator": {
-    "source": "https://agentskillexchange.com/skill/kafka-schema-registry-validator/"
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill kafka-schema-registry-validator -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install kafka-schema-registry-validator
 
 ### Codex
 ```bash
-codex install kafka-schema-registry-validator
+npx skills add agentskillexchange/skills --skill kafka-schema-registry-validator -a codex
 ```
-
 ## Details
 
 | Field | Value |

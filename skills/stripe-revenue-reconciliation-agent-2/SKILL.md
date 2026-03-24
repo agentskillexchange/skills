@@ -6,12 +6,11 @@ framework: "Codex"
 verification: verified_metadata
 rating: 4.9
 reviews: 11
-creator: Isabella Rossi
-creator_handle: irossi
+creator: "Isabella Rossi"
+creator_handle: "@irossi"
 creator_verified: false
-source: https://agentskillexchange.com/skill/stripe-revenue-reconciliation-agent-2/
+source: "https://agentskillexchange.com/skills/stripe-revenue-reconciliation-agent-2/"
 ---
-
 # Stripe Revenue Reconciliation Agent
 
 Uses the Stripe API to pull charge, refund, dispute, and payout records and reconciles them against expected revenue figures. Flags mismatches and duplicate charges, outputting a CSV report with Stripe object IDs for audit trails. Supports live and test mode keys.

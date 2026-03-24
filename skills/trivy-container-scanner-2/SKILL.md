@@ -3,35 +3,34 @@ name: "Trivy Container Scanner"
 description: "Wraps the Trivy CLI for comprehensive container image vulnerability scanning. Outputs results in SARIF format for GitHub Code Scanning API integration and generates OCI artifact attestations."
 category: "Security & Verification"
 framework: "OpenClaw"
-verification: "Verified & Security Reviewed"
+verification: security_reviewed
 rating: 4.7
 reviews: 84
 creator: "Marcus Chen"
 creator_handle: "@marcuschen"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/trivy-container-scanner-2/"
+source: "https://agentskillexchange.com/skills/trivy-container-scanner-2/"
 ---
-
 # Trivy Container Scanner
 
 Wraps the Trivy CLI for comprehensive container image vulnerability scanning. Outputs results in SARIF format for GitHub Code Scanning API integration and generates OCI artifact attestations.
 
 ## Installation
 
-Install this skill across different AI coding agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install trivy-container-scanner-2
+npx skills add agentskillexchange/skills --skill trivy-container-scanner-2
 ```
 
 ### Claude Code
 ```bash
-claude mcp add trivy-container-scanner-2
+npx skills add agentskillexchange/skills --skill trivy-container-scanner-2 -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills/` directory or install via Cursor Settings → Skills.
+```bash
+npx skills add agentskillexchange/skills --skill trivy-container-scanner-2 -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install trivy-container-scanner-2
 
 ### Codex
 ```bash
-codex install trivy-container-scanner-2
+npx skills add agentskillexchange/skills --skill trivy-container-scanner-2 -a codex
 ```
-
 ## Details
 
 | Property | Value |

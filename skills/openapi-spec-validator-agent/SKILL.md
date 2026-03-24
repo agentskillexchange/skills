@@ -3,15 +3,14 @@ name: "OpenAPI Spec Validator"
 description: "Validates and lints OpenAPI 3.0/3.1 specifications using Spectral CLI rules and the Swagger Parser library. Detects breaking changes between spec versions and generates migration guides."
 category: "Developer Tools"
 framework: "Custom Agents"
-verification: "✅ Verified"
-rating: "4.8"
-reviews: "86"
+verification: security_reviewed
+rating: 4.8
+reviews: 86
 creator: "Tom Wilson"
 creator_handle: "@tomwilson"
 creator_verified: false
-source: "https://agentskillexchange.com/skill/openapi-spec-validator-agent/"
+source: "https://agentskillexchange.com/skills/openapi-spec-validator-agent/"
 ---
-
 # OpenAPI Spec Validator
 
 Validates and lints OpenAPI 3.0/3.1 specifications using Spectral CLI rules and the Swagger Parser library. Detects breaking changes between spec versions and generates migration guides.
@@ -19,33 +18,29 @@ Validates and lints OpenAPI 3.0/3.1 specifications using Spectral CLI rules and 
 ## Installation
 
 ### Any Agent (npx)
-
 ```bash
-npx @anthropic/agent-skills install openapi-spec-validator-agent
+npx skills add agentskillexchange/skills --skill openapi-spec-validator-agent
 ```
 
 ### Claude Code
-
 ```bash
-claude mcp add openapi-spec-validator-agent
+npx skills add agentskillexchange/skills --skill openapi-spec-validator-agent -a claude-code
 ```
 
 ### Cursor
-
-Add to `.cursor/skills/` directory or install via Cursor settings.
+```bash
+npx skills add agentskillexchange/skills --skill openapi-spec-validator-agent -a cursor
+```
 
 ### OpenClaw
-
 ```bash
 clawhub install openapi-spec-validator-agent
 ```
 
 ### Codex
-
 ```bash
-codex install openapi-spec-validator-agent
+npx skills add agentskillexchange/skills --skill openapi-spec-validator-agent -a codex
 ```
-
 ## Details
 
 | Field | Value |

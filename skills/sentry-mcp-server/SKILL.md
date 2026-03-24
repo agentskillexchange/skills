@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.2
 reviews: 78
-creator: Raj Gupta
-creator_handle: rajgupta
+creator: "Raj Gupta"
+creator_handle: "@rajgupta"
 creator_verified: true
-source: https://agentskillexchange.com/skill/sentry-mcp-server/
+source: "https://agentskillexchange.com/skills/sentry-mcp-server/"
 ---
-
 # Sentry MCP Server
 
 Sentry’s official MCP server connects your error monitoring stack to any MCP client. Search issues, analyze stack traces, investigate performance bottlenecks, and get AI-powered root cause analysis — all without leaving your editor or agent session.

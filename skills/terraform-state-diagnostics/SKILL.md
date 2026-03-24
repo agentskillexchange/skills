@@ -3,15 +3,14 @@ name: "Terraform State Diagnostics"
 description: "Diagnoses Terraform state issues using terraform state commands, the Terraform Cloud API, and HCL parser. Detects drift, orphaned resources, and state lock conflicts across workspaces."
 category: "Runbooks & Diagnostics"
 framework: "ChatGPT Agents"
-verification: "community"
-rating: "4.5"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
-creator_verified: 
-source: "https://agentskillexchange.com/skill/terraform-state-diagnostics/"
+creator_verified: false
+source: "https://agentskillexchange.com/skills/terraform-state-diagnostics/"
 ---
-
 # Terraform State Diagnostics
 
 Diagnoses Terraform state issues using terraform state commands, the Terraform Cloud API, and HCL parser. Detects drift, orphaned resources, and state lock conflicts across workspaces.
@@ -20,20 +19,17 @@ Diagnoses Terraform state issues using terraform state commands, the Terraform C
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install terraform-state-diagnostics
+npx skills add agentskillexchange/skills --skill terraform-state-diagnostics
 ```
 
 ### Claude Code
 ```bash
-claude skills add terraform-state-diagnostics
+npx skills add agentskillexchange/skills --skill terraform-state-diagnostics -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` configuration:
-```json
-{
-  "skills": ["terraform-state-diagnostics"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill terraform-state-diagnostics -a cursor
 ```
 
 ### OpenClaw
@@ -43,9 +39,8 @@ clawhub install terraform-state-diagnostics
 
 ### Codex
 ```bash
-codex skills add terraform-state-diagnostics
+npx skills add agentskillexchange/skills --skill terraform-state-diagnostics -a codex
 ```
-
 ## Details
 
 | Field | Value |

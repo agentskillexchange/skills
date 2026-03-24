@@ -3,35 +3,34 @@ name: "ArgoCD GitOps Sync Manager"
 description: "Manages ArgoCD application sync operations with intelligent drift detection and rollback strategies. Uses the ArgoCD gRPC API and ApplicationSet CRD for multi-cluster GitOps deployments."
 category: "CI/CD Integrations"
 framework: "Gemini"
-verification: "Community"
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/argocd-gitops-sync-manager/"
+source: "https://agentskillexchange.com/skills/argocd-gitops-sync-manager/"
 ---
-
 # ArgoCD GitOps Sync Manager
 
 Manages ArgoCD application sync operations with intelligent drift detection and rollback strategies. Uses the ArgoCD gRPC API and ApplicationSet CRD for multi-cluster GitOps deployments.
 
 ## Installation
 
-Install this skill across different agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install argocd-gitops-sync-manager
+npx skills add agentskillexchange/skills --skill argocd-gitops-sync-manager
 ```
 
 ### Claude Code
 ```bash
-claude skills add argocd-gitops-sync-manager
+npx skills add agentskillexchange/skills --skill argocd-gitops-sync-manager -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` directory or install via Cursor settings.
+```bash
+npx skills add agentskillexchange/skills --skill argocd-gitops-sync-manager -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install argocd-gitops-sync-manager
 
 ### Codex
 ```bash
-codex skills add argocd-gitops-sync-manager
+npx skills add agentskillexchange/skills --skill argocd-gitops-sync-manager -a codex
 ```
-
 ## Details
 
 | Field | Value |

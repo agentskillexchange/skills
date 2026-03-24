@@ -3,15 +3,14 @@ name: "Notion Workspace Sync Agent"
 description: "Bidirectionally syncs project data between Notion databases and external tools using the Notion API v2022-06-28. Connects Jira (REST API), Linear (GraphQL), and GitHub Issues for unified project tracking."
 category: "Calendar, Email & Productivity"
 framework: "Custom Agents"
-verification: "✅ Verified"
-rating: "4.2"
-reviews: "84"
+verification: security_reviewed
+rating: 4.2
+reviews: 84
 creator: "Omar Farouk"
 creator_handle: "@omarfarouk"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/notion-workspace-sync-agent/"
+source: "https://agentskillexchange.com/skills/notion-workspace-sync-agent/"
 ---
-
 # Notion Workspace Sync Agent
 
 Bidirectionally syncs project data between Notion databases and external tools using the Notion API v2022-06-28. Connects Jira (REST API), Linear (GraphQL), and GitHub Issues for unified project tracking.
@@ -20,17 +19,17 @@ Bidirectionally syncs project data between Notion databases and external tools u
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install notion-workspace-sync-agent
+npx skills add agentskillexchange/skills --skill notion-workspace-sync-agent
 ```
 
 ### Claude Code
 ```bash
-claude skills add notion-workspace-sync-agent
+npx skills add agentskillexchange/skills --skill notion-workspace-sync-agent -a claude-code
 ```
 
 ### Cursor
-```
-Install from Cursor Settings → Skills → Add Skill → "Notion Workspace Sync Agent"
+```bash
+npx skills add agentskillexchange/skills --skill notion-workspace-sync-agent -a cursor
 ```
 
 ### OpenClaw
@@ -40,9 +39,8 @@ clawhub install notion-workspace-sync-agent
 
 ### Codex
 ```bash
-codex skills install notion-workspace-sync-agent
+npx skills add agentskillexchange/skills --skill notion-workspace-sync-agent -a codex
 ```
-
 ## Details
 
 | Field | Value |

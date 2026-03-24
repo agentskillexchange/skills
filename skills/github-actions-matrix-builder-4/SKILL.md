@@ -6,12 +6,11 @@ framework: "OpenClaw"
 verification: security_reviewed
 rating: 4.0
 reviews: 85
-creator: Ava Wilson
-creator_handle: avawilson
+creator: "Ava Wilson"
+creator_handle: "@avawilson"
 creator_verified: true
-source: https://agentskillexchange.com/skill/github-actions-matrix-builder-4/
+source: "https://agentskillexchange.com/skills/github-actions-matrix-builder-4/"
 ---
-
 # GitHub Actions Matrix Builder
 
 Generates optimized GitHub Actions CI/CD matrix strategies using the GitHub REST API and YAML templating. Analyzes repository structure to auto-detect language versions, OS targets, and test sharding for parallel execution.

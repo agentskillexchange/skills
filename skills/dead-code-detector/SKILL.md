@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.3
 reviews: 32
-creator: Kai Nakamura
-creator_handle: kainakamura
+creator: "Kai Nakamura"
+creator_handle: "@kainakamura"
 creator_verified: true
-source: https://agentskillexchange.com/skill/dead-code-detector/
+source: "https://agentskillexchange.com/skills/dead-code-detector/"
 ---
-
 # Dead Code Detector
 
 Scans codebases for unused code — dead functions, unreachable branches, unused exports, and orphaned test helpers. Supports JavaScript, TypeScript, Python, and Go. Generates safe-to-delete candidate lists.

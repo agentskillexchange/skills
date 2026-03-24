@@ -3,39 +3,33 @@ name: "Terraform Plan Reviewer"
 description: "Analyzes Terraform plan JSON output via the hashicorp/terraform-exec Go SDK and tfjson package. Detects destructive changes, estimates blast radius using terraform-compliance rules, and generates PR review comments via the GitHub Checks API."
 category: "CI/CD Integrations"
 framework: "Codex"
-verification: "security_reviewed"
-rating: "4.1"
-reviews: "58"
+verification: security_reviewed
+rating: 4.1
+reviews: 58
 creator: "Meera Joshi"
 creator_handle: "@meerajoshi"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/terraform-plan-reviewer-6/"
+source: "https://agentskillexchange.com/skills/terraform-plan-reviewer-6/"
 ---
-
 # Terraform Plan Reviewer
 
 Analyzes Terraform plan JSON output via the hashicorp/terraform-exec Go SDK and tfjson package. Detects destructive changes, estimates blast radius using terraform-compliance rules, and generates PR review comments via the GitHub Checks API.
 
 ## Installation
 
-Install this skill in your AI coding agent:
-
 ### Any Agent (npx)
 ```bash
-npx agentskills install terraform-plan-reviewer-6
+npx skills add agentskillexchange/skills --skill terraform-plan-reviewer-6
 ```
 
 ### Claude Code
 ```bash
-claude mcp add terraform-plan-reviewer-6 -- npx agentskills install terraform-plan-reviewer-6
+npx skills add agentskillexchange/skills --skill terraform-plan-reviewer-6 -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/agents.json`:
-```json
-{
-  "skills": ["terraform-plan-reviewer-6"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill terraform-plan-reviewer-6 -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install terraform-plan-reviewer-6
 
 ### Codex
 ```bash
-codex install skill terraform-plan-reviewer-6
+npx skills add agentskillexchange/skills --skill terraform-plan-reviewer-6 -a codex
 ```
-
 ## Details
 
 | Field | Value |

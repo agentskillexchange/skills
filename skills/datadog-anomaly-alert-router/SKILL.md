@@ -1,37 +1,34 @@
 ---
-name: datadog-anomaly-alert-router
+name: "datadog-anomaly-alert-router"
 description: "Routes Datadog anomaly detection alerts to appropriate response channels using the Datadog Events API v2 and Monitors API. Applies severity-based escalation rules with PagerDuty and Slack webhook integration."
-category: Monitoring & Alerts
-framework: MCP-compatible
-verification: 
+category: "Monitoring & Alerts"
+framework: "MCP-compatible"
+verification: listed
 rating: 0
 reviews: 0
-creator: Community
+creator: "Community"
 creator_verified: false
-source: https://agentskillexchange.com/skill/datadog-anomaly-alert-router/
+source: "https://agentskillexchange.com/skills/datadog-anomaly-alert-router/"
 ---
-
 # Datadog Anomaly Alert Router
 
 Routes Datadog anomaly detection alerts to appropriate response channels using the Datadog Events API v2 and Monitors API. Applies severity-based escalation rules with PagerDuty and Slack webhook integration.
 
 ## Installation
 
-Install this skill for your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install datadog-anomaly-alert-router
+npx skills add agentskillexchange/skills --skill datadog-anomaly-alert-router
 ```
 
 ### Claude Code
 ```bash
-claude skills add datadog-anomaly-alert-router
+npx skills add agentskillexchange/skills --skill datadog-anomaly-alert-router -a claude-code
 ```
 
 ### Cursor
-```
-Install datadog-anomaly-alert-router from Cursor Settings > Skills
+```bash
+npx skills add agentskillexchange/skills --skill datadog-anomaly-alert-router -a cursor
 ```
 
 ### OpenClaw
@@ -41,9 +38,8 @@ clawhub install datadog-anomaly-alert-router
 
 ### Codex
 ```bash
-codex skills add datadog-anomaly-alert-router
+npx skills add agentskillexchange/skills --skill datadog-anomaly-alert-router -a codex
 ```
-
 ## Details
 
 | Field | Value |

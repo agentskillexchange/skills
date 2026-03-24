@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: verified_metadata
 rating: 4.3
 reviews: 41
-creator: Liam OBrien
-creator_handle: liamobrien
+creator: "Liam OBrien"
+creator_handle: "@liamobrien"
 creator_verified: true
-source: https://agentskillexchange.com/skill/filesystem-mcp-server/
+source: "https://agentskillexchange.com/skills/filesystem-mcp-server/"
 ---
-
 # Filesystem MCP Server
 
 Structured filesystem access for agent workflows.

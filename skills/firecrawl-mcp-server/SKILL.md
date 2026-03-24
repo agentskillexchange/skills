@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.2
 reviews: 78
-creator: Omar Hassan
-creator_handle: ohassan
+creator: "Omar Hassan"
+creator_handle: "@ohassan"
 creator_verified: true
-source: https://agentskillexchange.com/skill/firecrawl-mcp-server/
+source: "https://agentskillexchange.com/skills/firecrawl-mcp-server/"
 ---
-
 # Firecrawl MCP Server
 
 Agent-ready web crawling and page extraction through Firecrawl.

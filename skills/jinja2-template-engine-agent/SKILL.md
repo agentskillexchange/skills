@@ -3,39 +3,33 @@ name: "Jinja2 Template Engine"
 description: "Renders Jinja2 templates with variable injection, macro expansion, and template inheritance. Integrates with the Jinja2 Environment API for sandboxed execution and custom filter registration."
 category: "Templates & Workflows"
 framework: "Gemini"
-verification: ""
-rating: "4.9"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/jinja2-template-engine-agent/"
+source: "https://agentskillexchange.com/skills/jinja2-template-engine-agent/"
 ---
-
 # Jinja2 Template Engine
 
 Renders Jinja2 templates with variable injection, macro expansion, and template inheritance. Integrates with the Jinja2 Environment API for sandboxed execution and custom filter registration.
 
 ## Installation
 
-Install this skill in your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install jinja2-template-engine-agent
+npx skills add agentskillexchange/skills --skill jinja2-template-engine-agent
 ```
 
 ### Claude Code
 ```bash
-claude mcp add jinja2-template-engine-agent
+npx skills add agentskillexchange/skills --skill jinja2-template-engine-agent -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "jinja2-template-engine-agent": true
-}
+```bash
+npx skills add agentskillexchange/skills --skill jinja2-template-engine-agent -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install jinja2-template-engine-agent
 
 ### Codex
 ```bash
-codex install jinja2-template-engine-agent
+npx skills add agentskillexchange/skills --skill jinja2-template-engine-agent -a codex
 ```
-
 ## Details
 
 | Property | Value |

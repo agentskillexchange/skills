@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.3
 reviews: 74
-creator: Nathan Brooks
-creator_handle: nbrooks
+creator: "Nathan Brooks"
+creator_handle: "@nbrooks"
 creator_verified: false
-source: https://agentskillexchange.com/skill/grafana-dashboard-generator/
+source: "https://agentskillexchange.com/skills/grafana-dashboard-generator/"
 ---
-
 # Grafana Dashboard Generator
 
 Generates Grafana dashboard JSON definitions from metric descriptions or existing Prometheus/Datadog queries. Supports panels, variables, annotations, and alert thresholds for infrastructure and application monitoring dashboards.

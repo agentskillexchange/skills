@@ -3,15 +3,14 @@ name: "GitHub Actions CI Pipeline Builder"
 description: "Generates and manages GitHub Actions workflows using the Workflow YAML syntax and GitHub REST API. Supports matrix builds, reusable workflows, and composite actions."
 category: "CI/CD Integrations"
 framework: "Codex"
-verification: 
+verification: listed
 rating: 4.1
 reviews: 42
-creator: Alex Thompson
-creator_handle: alexthompson
+creator: "Alex Thompson"
+creator_handle: "@alexthompson"
 creator_verified: true
-source: https://agentskillexchange.com/skill/github-actions-ci-pipeline-builder/
+source: "https://agentskillexchange.com/skills/github-actions-ci-pipeline-builder/"
 ---
-
 # GitHub Actions CI Pipeline Builder
 
 Generates and manages GitHub Actions workflows using the Workflow YAML syntax and GitHub REST API. Supports matrix builds, reusable workflows, and composite actions.

@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.1
 reviews: 28
-creator: Tom Anderson
-creator_handle: tanderson
+creator: "Tom Anderson"
+creator_handle: "@tanderson"
 creator_verified: false
-source: https://agentskillexchange.com/skill/github-copilot-context-enhancer/
+source: "https://agentskillexchange.com/skills/github-copilot-context-enhancer/"
 ---
-
 # GitHub Copilot Context Enhancer
 
 Enrich GitHub Copilot suggestions by injecting structured context from repository READMEs, architecture docs, and coding conventions into the agent context window. Automates context file generation and .github/copilot-instructions.md maintenance.

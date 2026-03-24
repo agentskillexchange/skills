@@ -3,51 +3,44 @@ name: "CloudWatch Anomaly Detector"
 description: "Creates and manages CloudWatch Anomaly Detection bands using AWS SDK PutAnomalyDetector and GetMetricData APIs. Generates alerts when metrics breach learned baselines with configurable sensitivity."
 category: "Monitoring & Alerts"
 framework: "Gemini"
-verification: "Verified ✅"
-rating: "4.0"
-reviews: "85"
+verification: security_reviewed
+rating: 4.0
+reviews: 85
 creator: "Lucy Zhang"
 creator_handle: "@lucyzhang"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/cloudwatch-anomaly-detector/"
+source: "https://agentskillexchange.com/skills/cloudwatch-anomaly-detector/"
 ---
-
 # CloudWatch Anomaly Detector
 
 Creates and manages CloudWatch Anomaly Detection bands using AWS SDK PutAnomalyDetector and GetMetricData APIs. Generates alerts when metrics breach learned baselines with configurable sensitivity.
 
 ## Installation
 
-Install this skill across different agents:
-
-**Any agent (npx):**
+### Any Agent (npx)
 ```bash
-npx @anthropic/skills install cloudwatch-anomaly-detector
+npx skills add agentskillexchange/skills --skill cloudwatch-anomaly-detector
 ```
 
-**Claude Code:**
+### Claude Code
 ```bash
-claude skills add cloudwatch-anomaly-detector
+npx skills add agentskillexchange/skills --skill cloudwatch-anomaly-detector -a claude-code
 ```
 
-**Cursor:**
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["cloudwatch-anomaly-detector"]
-}
+### Cursor
+```bash
+npx skills add agentskillexchange/skills --skill cloudwatch-anomaly-detector -a cursor
 ```
 
-**OpenClaw:**
+### OpenClaw
 ```bash
 clawhub install cloudwatch-anomaly-detector
 ```
 
-**Codex:**
+### Codex
 ```bash
-codex skills add cloudwatch-anomaly-detector
+npx skills add agentskillexchange/skills --skill cloudwatch-anomaly-detector -a codex
 ```
-
 ## Details
 
 | Field | Value |

@@ -6,12 +6,11 @@ framework: "ChatGPT Agents"
 verification: verified_metadata
 rating: 4.8
 reviews: 48
-creator: Maya Johnson
-creator_handle: mayaj
+creator: "Maya Johnson"
+creator_handle: "@mayaj"
 creator_verified: false
-source: https://agentskillexchange.com/skill/docusign-contract-auto-sender/
+source: "https://agentskillexchange.com/skills/docusign-contract-auto-sender/"
 ---
-
 # DocuSign Contract Auto-Sender with Conditional Logic
 
 Uses the DocuSign eSignature REST API SDK to programmatically create envelope definitions with conditional routing rules based on contract value thresholds. Signers are resolved from a Salesforce SOQL query via the JSForce SDK, and envelope status updates are tracked via DocuSign Connect webhooks.

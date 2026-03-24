@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.4
 reviews: 10
-creator: Tom Anderson
-creator_handle: tanderson
+creator: "Tom Anderson"
+creator_handle: "@tanderson"
 creator_verified: false
-source: https://agentskillexchange.com/skill/import-cycle-analyzer/
+source: "https://agentskillexchange.com/skills/import-cycle-analyzer/"
 ---
-
 # Import Cycle Analyzer
 
 Detects circular import dependencies that cause initialization failures, memory leaks, and obscure bugs. Generates dependency graphs and suggests refactoring strategies to break cycles.

@@ -3,33 +3,34 @@ name: "GitHub Actions OIDC Token Verifier"
 description: "Verifies GitHub Actions OIDC tokens against the GitHub OIDC provider JWKS endpoint. Validates subject claims, audience restrictions, and repository ownership for secure cloud deployments."
 category: "CI/CD Integrations"
 framework: "Claude Code"
-verification: "Verified"
-rating: "4.3"
-reviews: "62"
+verification: verified_metadata
+rating: 4.3
+reviews: 62
 creator: "Tom Wilson"
 creator_handle: "@tomwilson"
 creator_verified: false
-source: "https://agentskillexchange.com/skill/github-actions-oidc-token-verifier/"
+source: "https://agentskillexchange.com/skills/github-actions-oidc-token-verifier/"
 ---
-
 # GitHub Actions OIDC Token Verifier
 
 Verifies GitHub Actions OIDC tokens against the GitHub OIDC provider JWKS endpoint. Validates subject claims, audience restrictions, and repository ownership for secure cloud deployments.
 
 ## Installation
 
-### Any AI Agent (npx)
+### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install github-actions-oidc-token-verifier
+npx skills add agentskillexchange/skills --skill github-actions-oidc-token-verifier
 ```
 
 ### Claude Code
 ```bash
-claude skills add github-actions-oidc-token-verifier
+npx skills add agentskillexchange/skills --skill github-actions-oidc-token-verifier -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` directory or install via Cursor settings.
+```bash
+npx skills add agentskillexchange/skills --skill github-actions-oidc-token-verifier -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -38,9 +39,8 @@ clawhub install github-actions-oidc-token-verifier
 
 ### Codex
 ```bash
-codex skills install github-actions-oidc-token-verifier
+npx skills add agentskillexchange/skills --skill github-actions-oidc-token-verifier -a codex
 ```
-
 ## Details
 
 | Field | Value |

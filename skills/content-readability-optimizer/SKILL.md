@@ -3,15 +3,14 @@ name: "Content Readability Optimizer"
 description: "Analyzes and optimizes content readability using textstat Python library and Hemingway API patterns. Computes Flesch-Kincaid, Gunning Fog, and SMOG indices with automated rewriting suggestions."
 category: "Content Writing & SEO"
 framework: "MCP-compatible"
-verification: "Verified & Security Reviewed"
-rating: "4.4"
-reviews: "63"
+verification: security_reviewed
+rating: 4.4
+reviews: 63
 creator: "Lucy Zhang"
 creator_handle: "@lucyzhang"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/content-readability-optimizer/"
+source: "https://agentskillexchange.com/skills/content-readability-optimizer/"
 ---
-
 # Content Readability Optimizer
 
 Analyzes and optimizes content readability using textstat Python library and Hemingway API patterns. Computes Flesch-Kincaid, Gunning Fog, and SMOG indices with automated rewriting suggestions.
@@ -20,20 +19,17 @@ Analyzes and optimizes content readability using textstat Python library and Hem
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install content-readability-optimizer
+npx skills add agentskillexchange/skills --skill content-readability-optimizer
 ```
 
 ### Claude Code
 ```bash
-claude mcp add content-readability-optimizer
+npx skills add agentskillexchange/skills --skill content-readability-optimizer -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "skills": ["content-readability-optimizer"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill content-readability-optimizer -a cursor
 ```
 
 ### OpenClaw
@@ -43,9 +39,8 @@ clawhub install content-readability-optimizer
 
 ### Codex
 ```bash
-codex install content-readability-optimizer
+npx skills add agentskillexchange/skills --skill content-readability-optimizer -a codex
 ```
-
 ## Details
 
 | Field | Value |

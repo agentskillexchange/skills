@@ -3,39 +3,33 @@ name: "ESLint Rule Configurator"
 description: "Generates and optimizes ESLint flat config files with rule selection from eslint-plugin-react, @typescript-eslint/parser, and eslint-plugin-import. Supports per-directory overrides and custom rule authoring."
 category: "Developer Tools"
 framework: "Cursor"
-verification: ""
-rating: "4.9"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/eslint-rule-configurator-2/"
+source: "https://agentskillexchange.com/skills/eslint-rule-configurator-2/"
 ---
-
 # ESLint Rule Configurator
 
 Generates and optimizes ESLint flat config files with rule selection from eslint-plugin-react, @typescript-eslint/parser, and eslint-plugin-import. Supports per-directory overrides and custom rule authoring.
 
 ## Installation
 
-Install this skill in your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install eslint-rule-configurator-2
+npx skills add agentskillexchange/skills --skill eslint-rule-configurator-2
 ```
 
 ### Claude Code
 ```bash
-claude mcp add eslint-rule-configurator-2
+npx skills add agentskillexchange/skills --skill eslint-rule-configurator-2 -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "eslint-rule-configurator-2": true
-}
+```bash
+npx skills add agentskillexchange/skills --skill eslint-rule-configurator-2 -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install eslint-rule-configurator-2
 
 ### Codex
 ```bash
-codex install eslint-rule-configurator-2
+npx skills add agentskillexchange/skills --skill eslint-rule-configurator-2 -a codex
 ```
-
 ## Details
 
 | Property | Value |

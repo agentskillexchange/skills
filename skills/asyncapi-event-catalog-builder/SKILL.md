@@ -3,49 +3,44 @@ name: "AsyncAPI Event Catalog Builder"
 description: "Generates event-driven architecture documentation from AsyncAPI 3.0 specifications. Uses the AsyncAPI parser-js library to extract channels, message schemas, and server bindings for Kafka and RabbitMQ."
 category: "Library & API Reference"
 framework: "Gemini"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.0
 reviews: 36
 creator: "Priya Sharma"
 creator_handle: "@priyasharma"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/asyncapi-event-catalog-builder/"
+source: "https://agentskillexchange.com/skills/asyncapi-event-catalog-builder/"
 ---
-
 # AsyncAPI Event Catalog Builder
 
 Generates event-driven architecture documentation from AsyncAPI 3.0 specifications. Uses the AsyncAPI parser-js library to extract channels, message schemas, and server bindings for Kafka and RabbitMQ.
 
 ## Installation
 
-Install this skill on your preferred agent platform:
-
-**Any agent (npx):**
+### Any Agent (npx)
 ```bash
-npx @anthropic/agentskill install asyncapi-event-catalog-builder
+npx skills add agentskillexchange/skills --skill asyncapi-event-catalog-builder
 ```
 
-**Claude Code:**
+### Claude Code
 ```bash
-claude mcp add asyncapi-event-catalog-builder
+npx skills add agentskillexchange/skills --skill asyncapi-event-catalog-builder -a claude-code
 ```
 
-**Cursor:**
-Add to your `.cursor/skills` configuration:
-```json
-{ "asyncapi-event-catalog-builder": "latest" }
+### Cursor
+```bash
+npx skills add agentskillexchange/skills --skill asyncapi-event-catalog-builder -a cursor
 ```
 
-**OpenClaw:**
+### OpenClaw
 ```bash
 clawhub install asyncapi-event-catalog-builder
 ```
 
-**Codex:**
+### Codex
 ```bash
-codex install asyncapi-event-catalog-builder
+npx skills add agentskillexchange/skills --skill asyncapi-event-catalog-builder -a codex
 ```
-
 ## Details
 
 | Field | Value |

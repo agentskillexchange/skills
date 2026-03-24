@@ -3,15 +3,14 @@ name: "CircleCI Orb Composer"
 description: "Builds and validates custom CircleCI orbs using the circleci CLI and Orb Development Kit. Scaffolds orb source with proper command/job/executor structure and publishes to the CircleCI Orb Registry via circleci orb publish."
 category: "CI/CD Integrations"
 framework: "Claude Agents"
-verification: "verified_metadata"
+verification: verified_metadata
 rating: 4.8
 reviews: 86
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/circleci-orb-composer-6/"
+source: "https://agentskillexchange.com/skills/circleci-orb-composer-6/"
 ---
-
 # CircleCI Orb Composer
 
 Builds and validates custom CircleCI orbs using the circleci CLI and Orb Development Kit. Scaffolds orb source with proper command/job/executor structure and publishes to the CircleCI Orb Registry via circleci orb publish.
@@ -20,22 +19,17 @@ Builds and validates custom CircleCI orbs using the circleci CLI and Orb Develop
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install circleci-orb-composer-6
+npx skills add agentskillexchange/skills --skill circleci-orb-composer-6
 ```
 
 ### Claude Code
 ```bash
-claude mcp add circleci-orb-composer-6
+npx skills add agentskillexchange/skills --skill circleci-orb-composer-6 -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "circleci-orb-composer-6": {
-    "source": "agentskillexchange"
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill circleci-orb-composer-6 -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install circleci-orb-composer-6
 
 ### Codex
 ```bash
-codex install circleci-orb-composer-6
+npx skills add agentskillexchange/skills --skill circleci-orb-composer-6 -a codex
 ```
-
 ## Details
 
 | Field | Value |

@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.8
 reviews: 14
-creator: Tom Anderson
-creator_handle: tanderson
+creator: "Tom Anderson"
+creator_handle: "@tanderson"
 creator_verified: false
-source: https://agentskillexchange.com/skill/webhook-event-catalog/
+source: "https://agentskillexchange.com/skills/webhook-event-catalog/"
 ---
-
 # Webhook Event Catalog
 
 Documents and manages webhook event schemas from third-party services. Generates type definitions from event payloads, validates incoming webhooks, and maintains a catalog of event types and their payloads.

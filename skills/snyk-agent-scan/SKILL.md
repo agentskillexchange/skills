@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.3
 reviews: 71
-creator: Isabella Rossi
-creator_handle: irossi
+creator: "Isabella Rossi"
+creator_handle: "@irossi"
 creator_verified: false
-source: https://agentskillexchange.com/skill/snyk-agent-scan/
+source: "https://agentskillexchange.com/skills/snyk-agent-scan/"
 ---
-
 # Snyk Agent Scan
 
 Scan your AI agents, MCP servers, and skills for security vulnerabilities from the command line. Snyk Agent Scan discovers and audits every agent component on your machine — detecting prompt injections, tool poisoning, toxic flows, malware payloads, and credential handling issues across 15+ distinct risk categories.

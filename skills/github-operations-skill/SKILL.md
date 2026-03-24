@@ -6,12 +6,11 @@ framework: "OpenClaw"
 verification: security_reviewed
 rating: 4.5
 reviews: 22
-creator: Marcus Rivera
-creator_handle: mrivera
+creator: "Marcus Rivera"
+creator_handle: "@mrivera"
 creator_verified: true
-source: https://agentskillexchange.com/skill/github-operations-skill/
+source: "https://agentskillexchange.com/skills/github-operations-skill/"
 ---
-
 # GitHub Operations Skill
 
 Run common GitHub operations from inside agent conversations.

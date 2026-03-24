@@ -3,15 +3,14 @@ name: "Python Type Stub Generator"
 description: "Generates PEP 561 type stubs for untyped Python libraries using mypy stubgen, pyright, and MonkeyType runtime tracing. Validates stubs against typeshed conventions and stubtest."
 category: "Library & API Reference"
 framework: "Claude Agents"
-verification: ""
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/python-type-stub-generator-3/"
+source: "https://agentskillexchange.com/skills/python-type-stub-generator-3/"
 ---
-
 # Python Type Stub Generator
 
 Generates PEP 561 type stubs for untyped Python libraries using mypy stubgen, pyright, and MonkeyType runtime tracing. Validates stubs against typeshed conventions and stubtest.
@@ -20,22 +19,17 @@ Generates PEP 561 type stubs for untyped Python libraries using mypy stubgen, py
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install python-type-stub-generator-3
+npx skills add agentskillexchange/skills --skill python-type-stub-generator-3
 ```
 
 ### Claude Code
 ```bash
-claude mcp add python-type-stub-generator-3
+npx skills add agentskillexchange/skills --skill python-type-stub-generator-3 -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "python-type-stub-generator-3": {
-    "enabled": true
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill python-type-stub-generator-3 -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install python-type-stub-generator-3
 
 ### Codex
 ```bash
-codex install python-type-stub-generator-3
+npx skills add agentskillexchange/skills --skill python-type-stub-generator-3 -a codex
 ```
-
 ## Details
 
 | Field | Value |

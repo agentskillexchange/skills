@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: verified_metadata
 rating: 4.6
 reviews: 85
-creator: Elena Kowalski
-creator_handle: ekowalski
+creator: "Elena Kowalski"
+creator_handle: "@ekowalski"
 creator_verified: true
-source: https://agentskillexchange.com/skill/gitlab-ci-pipeline-debugger/
+source: "https://agentskillexchange.com/skills/gitlab-ci-pipeline-debugger/"
 ---
-
 # GitLab CI Pipeline Debugger
 
 Debugs failed GitLab CI/CD pipelines by parsing .gitlab-ci.yml and fetching job logs via GitLab REST API v4. Identifies runner misconfigurations, artifact dependency issues, and suggests targeted fixes.

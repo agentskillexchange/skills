@@ -3,15 +3,14 @@ name: "Kubernetes Runbook Generator"
 description: "Auto-generates operational runbooks from Kubernetes cluster state using kubectl and the Kubernetes API. Produces step-by-step troubleshooting guides for common pod failure modes."
 category: "Runbooks & Diagnostics"
 framework: "OpenClaw"
-verification: "security_reviewed"
-rating: "0"
-reviews: "0"
+verification: security_reviewed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/kubernetes-runbook-generator/"
+source: "https://agentskillexchange.com/skills/kubernetes-runbook-generator/"
 ---
-
 # Kubernetes Runbook Generator
 
 Auto-generates operational runbooks from Kubernetes cluster state using kubectl and the Kubernetes API. Produces step-by-step troubleshooting guides for common pod failure modes.
@@ -20,23 +19,17 @@ Auto-generates operational runbooks from Kubernetes cluster state using kubectl 
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agentskill install kubernetes-runbook-generator
+npx skills add agentskillexchange/skills --skill kubernetes-runbook-generator
 ```
 
 ### Claude Code
 ```bash
-claude mcp add kubernetes-runbook-generator
+npx skills add agentskillexchange/skills --skill kubernetes-runbook-generator -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "kubernetes-runbook-generator": {
-    "source": "agentskillexchange",
-    "enabled": true
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill kubernetes-runbook-generator -a cursor
 ```
 
 ### OpenClaw
@@ -46,9 +39,8 @@ clawhub install kubernetes-runbook-generator
 
 ### Codex
 ```bash
-codex install kubernetes-runbook-generator
+npx skills add agentskillexchange/skills --skill kubernetes-runbook-generator -a codex
 ```
-
 ## Details
 
 | Field | Value |

@@ -6,12 +6,11 @@ framework: "ChatGPT Agents"
 verification: security_reviewed
 rating: 4.7
 reviews: 78
-creator: Rachel Green
-creator_handle: rachelgreen
+creator: "Rachel Green"
+creator_handle: "@rachelgreen"
 creator_verified: false
-source: https://agentskillexchange.com/skill/aws-cloudwatch-alarm-triage-agent/
+source: "https://agentskillexchange.com/skills/aws-cloudwatch-alarm-triage-agent/"
 ---
-
 # AWS CloudWatch Alarm Triage Agent
 
 Triages AWS CloudWatch alarms using the CloudWatch DescribeAlarms API, GetMetricData for historical analysis, and CloudTrail LookupEvents for root cause correlation. Prioritizes alerts by blast radius and provides remediation playbooks.

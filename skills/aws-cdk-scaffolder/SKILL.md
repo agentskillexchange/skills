@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.7
 reviews: 32
-creator: Luna Martinez
-creator_handle: lunamartinez
+creator: "Luna Martinez"
+creator_handle: "@lunamartinez"
 creator_verified: false
-source: https://agentskillexchange.com/skill/aws-cdk-scaffolder/
+source: "https://agentskillexchange.com/skills/aws-cdk-scaffolder/"
 ---
-
 # AWS CDK Scaffolder
 
 Generate AWS CDK stack definitions, construct libraries, and deployment pipelines through an AI agent. Supports TypeScript, Python, and Java CDK apps with opinionated best practices for VPC, IAM, and observability construct patterns.

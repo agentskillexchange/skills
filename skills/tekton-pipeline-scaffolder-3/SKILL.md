@@ -3,36 +3,33 @@ name: "Tekton Pipeline Scaffolder"
 description: "Scaffolds Tekton CI/CD pipelines from Dockerfile analysis using the Tekton Pipelines API and tkn CLI. Generates Task, Pipeline, and PipelineRun CRDs with proper workspace and result bindings."
 category: "CI/CD Integrations"
 framework: "Codex"
-verification: ""
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/tekton-pipeline-scaffolder-3/"
+source: "https://agentskillexchange.com/skills/tekton-pipeline-scaffolder-3/"
 ---
-
 # Tekton Pipeline Scaffolder
 
 Scaffolds Tekton CI/CD pipelines from Dockerfile analysis using the Tekton Pipelines API and tkn CLI. Generates Task, Pipeline, and PipelineRun CRDs with proper workspace and result bindings.
 
 ## Installation
 
-Install this skill across different agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agentskill install tekton-pipeline-scaffolder-3
+npx skills add agentskillexchange/skills --skill tekton-pipeline-scaffolder-3
 ```
 
 ### Claude Code
 ```bash
-claude skills install tekton-pipeline-scaffolder-3
+npx skills add agentskillexchange/skills --skill tekton-pipeline-scaffolder-3 -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor skills install tekton-pipeline-scaffolder-3
+npx skills add agentskillexchange/skills --skill tekton-pipeline-scaffolder-3 -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install tekton-pipeline-scaffolder-3
 
 ### Codex
 ```bash
-codex skills install tekton-pipeline-scaffolder-3
+npx skills add agentskillexchange/skills --skill tekton-pipeline-scaffolder-3 -a codex
 ```
-
 ## Details
 
 | Field | Value |

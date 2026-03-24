@@ -3,15 +3,14 @@ name: "Datadog SLO Monitor"
 description: "Monitors Datadog Service Level Objectives and burn rate alerts via the Datadog API v2. Generates SLO compliance reports and triggers remediation workflows when error budgets are exhausted."
 category: "Monitoring & Alerts"
 framework: "Claude Code"
-verification: "✅ Verified"
-rating: "4.7"
-reviews: "68"
+verification: security_reviewed
+rating: 4.7
+reviews: 68
 creator: "Ava Johnson"
 creator_handle: "@avajohnson"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/datadog-slo-monitor/"
+source: "https://agentskillexchange.com/skills/datadog-slo-monitor/"
 ---
-
 # Datadog SLO Monitor
 
 Monitors Datadog Service Level Objectives and burn rate alerts via the Datadog API v2. Generates SLO compliance reports and triggers remediation workflows when error budgets are exhausted.
@@ -19,33 +18,29 @@ Monitors Datadog Service Level Objectives and burn rate alerts via the Datadog A
 ## Installation
 
 ### Any Agent (npx)
-
 ```bash
-npx @anthropic/agent-skills install datadog-slo-monitor
+npx skills add agentskillexchange/skills --skill datadog-slo-monitor
 ```
 
 ### Claude Code
-
 ```bash
-claude mcp add datadog-slo-monitor
+npx skills add agentskillexchange/skills --skill datadog-slo-monitor -a claude-code
 ```
 
 ### Cursor
-
-Add to `.cursor/skills/` directory or install via Cursor settings.
+```bash
+npx skills add agentskillexchange/skills --skill datadog-slo-monitor -a cursor
+```
 
 ### OpenClaw
-
 ```bash
 clawhub install datadog-slo-monitor
 ```
 
 ### Codex
-
 ```bash
-codex install datadog-slo-monitor
+npx skills add agentskillexchange/skills --skill datadog-slo-monitor -a codex
 ```
-
 ## Details
 
 | Field | Value |

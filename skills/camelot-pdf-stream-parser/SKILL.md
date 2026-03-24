@@ -3,36 +3,33 @@ name: "Camelot PDF Stream Parser"
 description: "Implements Camelot library for advanced PDF table detection using lattice and stream parsing algorithms. Processes complex multi-page documents with OpenCV-based edge detection and outputs normalized DataFrames with cell-level confidence scores."
 category: "Data Extraction & Transformation"
 framework: "Claude Agents"
-verification: "✅ Verified"
-rating: "4.2"
-reviews: "31"
+verification: security_reviewed
+rating: 4.2
+reviews: 31
 creator: "Zoe Chen"
 creator_handle: "@zoechen"
-creator_verified: "true"
-source: "https://agentskillexchange.com/skill/camelot-pdf-stream-parser/"
+creator_verified: true
+source: "https://agentskillexchange.com/skills/camelot-pdf-stream-parser/"
 ---
-
 # Camelot PDF Stream Parser
 
 Implements Camelot library for advanced PDF table detection using lattice and stream parsing algorithms. Processes complex multi-page documents with OpenCV-based edge detection and outputs normalized DataFrames with cell-level confidence scores.
 
 ## Installation
 
-Install this skill in your AI coding agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install camelot-pdf-stream-parser
+npx skills add agentskillexchange/skills --skill camelot-pdf-stream-parser
 ```
 
 ### Claude Code
 ```bash
-claude skills add camelot-pdf-stream-parser
+npx skills add agentskillexchange/skills --skill camelot-pdf-stream-parser -a claude-code
 ```
 
 ### Cursor
-```
-Install from Cursor Settings → Skills → Add Skill → "Camelot PDF Stream Parser"
+```bash
+npx skills add agentskillexchange/skills --skill camelot-pdf-stream-parser -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install camelot-pdf-stream-parser
 
 ### Codex
 ```bash
-codex skills add camelot-pdf-stream-parser
+npx skills add agentskillexchange/skills --skill camelot-pdf-stream-parser -a codex
 ```
-
 ## Details
 
 | Field | Value |

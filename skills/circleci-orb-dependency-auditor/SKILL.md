@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.9
 reviews: 58
-creator: Liam OBrien
-creator_handle: liamobrien
+creator: "Liam OBrien"
+creator_handle: "@liamobrien"
 creator_verified: true
-source: https://agentskillexchange.com/skill/circleci-orb-dependency-auditor/
+source: "https://agentskillexchange.com/skills/circleci-orb-dependency-auditor/"
 ---
-
 # CircleCI Orb Dependency Auditor
 
 Audits CircleCI orb dependencies using the CircleCI v2 API /orb endpoint and orb registry. Detects outdated orbs, deprecated commands, and security advisories in circleci/config.yml pipeline configurations.

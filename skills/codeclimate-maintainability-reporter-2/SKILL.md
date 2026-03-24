@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: verified_metadata
 rating: 4.4
 reviews: 38
-creator: James Whitfield
-creator_handle: jwhitfield
+creator: "James Whitfield"
+creator_handle: "@jwhitfield"
 creator_verified: true
-source: https://agentskillexchange.com/skill/codeclimate-maintainability-reporter-2/
+source: "https://agentskillexchange.com/skills/codeclimate-maintainability-reporter-2/"
 ---
-
 # CodeClimate Maintainability Reporter
 
 Queries the CodeClimate API to fetch maintainability ratings, technical debt estimates, and code smell trends. Surfaces files with the worst churn-to-complexity ratio and outputs a prioritized refactor target list.

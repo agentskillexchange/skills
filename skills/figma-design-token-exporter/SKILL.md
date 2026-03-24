@@ -3,16 +3,15 @@ name: "Figma Design Token Exporter"
 description: "Extracts design tokens from Figma files using the Figma REST API v1 and transforms them into platform-specific formats via Style Dictionary. Supports CSS custom properties, Tailwind config, and iOS/Android native tokens."
 category: "Image & Creative Automation"
 framework: "Claude Code"
-verification: "✅ Verified"
-security: "✅ Reviewed"
-rating: "4.3"
-reviews: "33"
+verification: security_reviewed
+rating: 4.3
+reviews: 33
 creator: "Carlos Mendez"
 creator_handle: "@carlosmendez"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/figma-design-token-exporter/"
+source: "https://agentskillexchange.com/skills/figma-design-token-exporter/"
+security: "✅ Reviewed"
 ---
-
 # Figma Design Token Exporter
 
 Extracts design tokens from Figma files using the Figma REST API v1 and transforms them into platform-specific formats via Style Dictionary. Supports CSS custom properties, Tailwind config, and iOS/Android native tokens.
@@ -21,20 +20,17 @@ Extracts design tokens from Figma files using the Figma REST API v1 and transfor
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install figma-design-token-exporter
+npx skills add agentskillexchange/skills --skill figma-design-token-exporter
 ```
 
 ### Claude Code
 ```bash
-claude skills add figma-design-token-exporter
+npx skills add agentskillexchange/skills --skill figma-design-token-exporter -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` configuration:
-```json
-{
-  "skills": ["figma-design-token-exporter"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill figma-design-token-exporter -a cursor
 ```
 
 ### OpenClaw
@@ -44,9 +40,8 @@ clawhub install figma-design-token-exporter
 
 ### Codex
 ```bash
-codex skills add figma-design-token-exporter
+npx skills add agentskillexchange/skills --skill figma-design-token-exporter -a codex
 ```
-
 ## Details
 
 | Field | Value |

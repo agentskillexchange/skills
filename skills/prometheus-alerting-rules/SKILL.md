@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.2
 reviews: 84
-creator: James Whitfield
-creator_handle: jwhitfield
+creator: "James Whitfield"
+creator_handle: "@jwhitfield"
 creator_verified: true
-source: https://agentskillexchange.com/skill/prometheus-alerting-rules/
+source: "https://agentskillexchange.com/skills/prometheus-alerting-rules/"
 ---
-
 # Prometheus Alerting Rules
 
 Generates, validates, and manages Prometheus alerting rules and recording rules. Creates well-structured alert files with appropriate severity levels, annotations, labels, and runbook links for common infrastructure and application metrics.

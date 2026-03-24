@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.7
 reviews: 85
-creator: Maya Johnson
-creator_handle: mayaj
+creator: "Maya Johnson"
+creator_handle: "@mayaj"
 creator_verified: false
-source: https://agentskillexchange.com/skill/typescript-strict-mode-checker/
+source: "https://agentskillexchange.com/skills/typescript-strict-mode-checker/"
 ---
-
 # TypeScript Strict Mode Checker
 
 Audits TypeScript projects for strict mode compliance — identifies files and patterns that prevent enabling strict, exactOptionalPropertyTypes, and noUncheckedIndexedAccess compiler options. Generates a migration plan.

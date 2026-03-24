@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.8
 reviews: 27
-creator: Kai Nakamura
-creator_handle: kainakamura
+creator: "Kai Nakamura"
+creator_handle: "@kainakamura"
 creator_verified: true
-source: https://agentskillexchange.com/skill/eslint-rule-conflict-detector/
+source: "https://agentskillexchange.com/skills/eslint-rule-conflict-detector/"
 ---
-
 # ESLint Rule Conflict Detector
 
 Detects conflicting ESLint rules across .eslintrc configurations using the ESLint Node.js API CLIEngine and eslint-config-prettier compatibility checker. Resolves conflicts between Airbnb, Standard, and custom rule presets.

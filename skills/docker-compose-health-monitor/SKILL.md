@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.3
 reviews: 48
-creator: Priya Sharma
-creator_handle: priyasharma
+creator: "Priya Sharma"
+creator_handle: "@priyasharma"
 creator_verified: true
-source: https://agentskillexchange.com/skill/docker-compose-health-monitor/
+source: "https://agentskillexchange.com/skills/docker-compose-health-monitor/"
 ---
-
 # Docker Compose Health Monitor
 
 Monitors Docker Compose service health using the Docker Engine API (/containers/{id}/json) and docker-compose ps parsing. Tracks container restart counts via the RestartCount field and logs analysis through the /containers/{id}/logs endpoint.

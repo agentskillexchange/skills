@@ -3,39 +3,33 @@ name: "ImageMagick Batch Transform Agent"
 description: "Automates ImageMagick convert and mogrify operations for bulk image processing including responsive srcset generation, WebP/AVIF conversion, and ICC color profile management with Little CMS integration."
 category: "Image & Creative Automation"
 framework: "Cursor"
-verification: "✅ Verified"
-rating: "⭐ 4.1"
-reviews: "86"
+verification: security_reviewed
+rating: 0
+reviews: 86
 creator: "Meera Joshi"
 creator_handle: "@meerajoshi"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/imagemagick-batch-transform-agent/"
+source: "https://agentskillexchange.com/skills/imagemagick-batch-transform-agent/"
 ---
-
 # ImageMagick Batch Transform Agent
 
 Automates ImageMagick convert and mogrify operations for bulk image processing including responsive srcset generation, WebP/AVIF conversion, and ICC color profile management with Little CMS integration.
 
 ## Installation
 
-Install this skill across different agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install imagemagick-batch-transform-agent
+npx skills add agentskillexchange/skills --skill imagemagick-batch-transform-agent
 ```
 
 ### Claude Code
 ```bash
-claude skills add imagemagick-batch-transform-agent
+npx skills add agentskillexchange/skills --skill imagemagick-batch-transform-agent -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["imagemagick-batch-transform-agent"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill imagemagick-batch-transform-agent -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install imagemagick-batch-transform-agent
 
 ### Codex
 ```bash
-codex skills add imagemagick-batch-transform-agent
+npx skills add agentskillexchange/skills --skill imagemagick-batch-transform-agent -a codex
 ```
-
 ## Details
 
 | Property | Value |

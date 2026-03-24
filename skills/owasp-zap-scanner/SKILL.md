@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.1
 reviews: 35
-creator: Liam OBrien
-creator_handle: liamobrien
+creator: "Liam OBrien"
+creator_handle: "@liamobrien"
 creator_verified: true
-source: https://agentskillexchange.com/skill/owasp-zap-scanner/
+source: "https://agentskillexchange.com/skills/owasp-zap-scanner/"
 ---
-
 # OWASP ZAP Scanner
 
 Integrates OWASP ZAP (Zed Attack Proxy) for automated web application security scanning. Runs active and passive scans, identifies OWASP Top 10 vulnerabilities, and generates remediation reports for CI/CD pipelines.

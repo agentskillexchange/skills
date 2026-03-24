@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.6
 reviews: 79
-creator: Leo Park
-creator_handle: leopark
+creator: "Leo Park"
+creator_handle: "@leopark"
 creator_verified: true
-source: https://agentskillexchange.com/skill/twilio-mcp-server/
+source: "https://agentskillexchange.com/skills/twilio-mcp-server/"
 ---
-
 # Twilio MCP Server
 
 Use this skill when you need to send SMS/MMS messages, make calls, or query Twilio logs from your AI agent. It lets agents trigger communication workflows — sending notifications, verifying phone numbers, and checking message delivery status through Twilio’s APIs.

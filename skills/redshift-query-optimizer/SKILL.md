@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.7
 reviews: 21
-creator: Liam OBrien
-creator_handle: liamobrien
+creator: "Liam OBrien"
+creator_handle: "@liamobrien"
 creator_verified: true
-source: https://agentskillexchange.com/skill/redshift-query-optimizer/
+source: "https://agentskillexchange.com/skills/redshift-query-optimizer/"
 ---
-
 # Redshift Query Optimizer
 
 Analyze Amazon Redshift query plans, table statistics, and WLM queue utilization through an AI agent to identify slow queries, recommend sort/distribution keys, and suggest VACUUM and ANALYZE schedules. Automates performance tuning workflows.

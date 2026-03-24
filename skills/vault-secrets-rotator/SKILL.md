@@ -3,35 +3,34 @@ name: "Vault Secrets Rotator"
 description: "Manages secret lifecycle through the HashiCorp Vault HTTP API v1. Rotates database credentials via Vault dynamic secrets engine and syncs to Kubernetes via External Secrets Operator CRDs."
 category: "Security & Verification"
 framework: "MCP-compatible"
-verification: "Verified & Security Reviewed"
+verification: security_reviewed
 rating: 4.2
 reviews: 67
 creator: "Alex Rivera"
 creator_handle: "@arivera_dev"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/vault-secrets-rotator/"
+source: "https://agentskillexchange.com/skills/vault-secrets-rotator/"
 ---
-
 # Vault Secrets Rotator
 
 Manages secret lifecycle through the HashiCorp Vault HTTP API v1. Rotates database credentials via Vault dynamic secrets engine and syncs to Kubernetes via External Secrets Operator CRDs.
 
 ## Installation
 
-Install this skill across different AI coding agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install vault-secrets-rotator
+npx skills add agentskillexchange/skills --skill vault-secrets-rotator
 ```
 
 ### Claude Code
 ```bash
-claude mcp add vault-secrets-rotator
+npx skills add agentskillexchange/skills --skill vault-secrets-rotator -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills/` directory or install via Cursor Settings → Skills.
+```bash
+npx skills add agentskillexchange/skills --skill vault-secrets-rotator -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install vault-secrets-rotator
 
 ### Codex
 ```bash
-codex install vault-secrets-rotator
+npx skills add agentskillexchange/skills --skill vault-secrets-rotator -a codex
 ```
-
 ## Details
 
 | Property | Value |

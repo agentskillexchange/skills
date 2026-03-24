@@ -3,49 +3,44 @@ name: "Buf Protobuf Linter"
 description: "Lints Protocol Buffer definitions using the Buf CLI ruleset and validates gRPC service contracts. Detects breaking changes between proto revisions using buf breaking with git integration."
 category: "Library & API Reference"
 framework: "Claude Code"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.6
 reviews: 65
 creator: "Alex Rivera"
 creator_handle: "@arivera_dev"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/buf-protobuf-linter/"
+source: "https://agentskillexchange.com/skills/buf-protobuf-linter/"
 ---
-
 # Buf Protobuf Linter
 
 Lints Protocol Buffer definitions using the Buf CLI ruleset and validates gRPC service contracts. Detects breaking changes between proto revisions using buf breaking with git integration.
 
 ## Installation
 
-Install this skill on your preferred agent platform:
-
-**Any agent (npx):**
+### Any Agent (npx)
 ```bash
-npx @anthropic/agentskill install buf-protobuf-linter
+npx skills add agentskillexchange/skills --skill buf-protobuf-linter
 ```
 
-**Claude Code:**
+### Claude Code
 ```bash
-claude mcp add buf-protobuf-linter
+npx skills add agentskillexchange/skills --skill buf-protobuf-linter -a claude-code
 ```
 
-**Cursor:**
-Add to your `.cursor/skills` configuration:
-```json
-{ "buf-protobuf-linter": "latest" }
+### Cursor
+```bash
+npx skills add agentskillexchange/skills --skill buf-protobuf-linter -a cursor
 ```
 
-**OpenClaw:**
+### OpenClaw
 ```bash
 clawhub install buf-protobuf-linter
 ```
 
-**Codex:**
+### Codex
 ```bash
-codex install buf-protobuf-linter
+npx skills add agentskillexchange/skills --skill buf-protobuf-linter -a codex
 ```
-
 ## Details
 
 | Field | Value |

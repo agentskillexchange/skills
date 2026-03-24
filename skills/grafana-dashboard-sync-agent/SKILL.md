@@ -3,15 +3,14 @@ name: "Grafana Dashboard Sync Agent"
 description: "Synchronizes Grafana dashboards between instances using the Grafana HTTP API v5. Handles provisioning, folder management, and datasource remapping for multi-environment observability setups."
 category: "Monitoring & Alerts"
 framework: "Gemini"
-verification: "community"
+verification: listed
 rating: 0
 reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/grafana-dashboard-sync-agent/"
+source: "https://agentskillexchange.com/skills/grafana-dashboard-sync-agent/"
 ---
-
 # Grafana Dashboard Sync Agent
 
 Synchronizes Grafana dashboards between instances using the Grafana HTTP API v5. Handles provisioning, folder management, and datasource remapping for multi-environment observability setups.
@@ -20,16 +19,18 @@ Synchronizes Grafana dashboards between instances using the Grafana HTTP API v5.
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install grafana-dashboard-sync-agent
+npx skills add agentskillexchange/skills --skill grafana-dashboard-sync-agent
 ```
 
 ### Claude Code
 ```bash
-claude mcp add grafana-dashboard-sync-agent
+npx skills add agentskillexchange/skills --skill grafana-dashboard-sync-agent -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills/grafana-dashboard-sync-agent` in your project.
+```bash
+npx skills add agentskillexchange/skills --skill grafana-dashboard-sync-agent -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -38,9 +39,8 @@ clawhub install grafana-dashboard-sync-agent
 
 ### Codex
 ```bash
-codex install grafana-dashboard-sync-agent
+npx skills add agentskillexchange/skills --skill grafana-dashboard-sync-agent -a codex
 ```
-
 ## Details
 
 | Field | Value |

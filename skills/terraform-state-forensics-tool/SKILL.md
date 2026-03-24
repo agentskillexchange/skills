@@ -3,39 +3,33 @@ name: "Terraform State Forensics Tool"
 description: "Analyzes Terraform state files and plan outputs to detect drift, orphaned resources, and dependency cycles. Uses the Terraform CLI state commands, tfsec for security scanning, and Infracost API for cost impact analysis."
 category: "Runbooks & Diagnostics"
 framework: "Cursor"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.2
 reviews: 69
 creator: "Elena Rodriguez"
 creator_handle: "@elena_dev"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/terraform-state-forensics-tool/"
+source: "https://agentskillexchange.com/skills/terraform-state-forensics-tool/"
 ---
-
 # Terraform State Forensics Tool
 
 Analyzes Terraform state files and plan outputs to detect drift, orphaned resources, and dependency cycles. Uses the Terraform CLI state commands, tfsec for security scanning, and Infracost API for cost impact analysis.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install terraform-state-forensics-tool
+npx skills add agentskillexchange/skills --skill terraform-state-forensics-tool
 ```
 
 ### Claude Code
 ```bash
-claude skills add terraform-state-forensics-tool
+npx skills add agentskillexchange/skills --skill terraform-state-forensics-tool -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["terraform-state-forensics-tool"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill terraform-state-forensics-tool -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install terraform-state-forensics-tool
 
 ### Codex
 ```bash
-codex skills add terraform-state-forensics-tool
+npx skills add agentskillexchange/skills --skill terraform-state-forensics-tool -a codex
 ```
-
 ## Details
 
 | Field | Value |

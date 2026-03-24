@@ -3,15 +3,14 @@ name: "FFmpeg Thumbnail Grid Generator"
 description: "Generates contact-sheet-style thumbnail grids from video files using FFmpeg tile filter and libvips. Supports customizable grid dimensions, timestamp overlays, and batch processing across directories."
 category: "Image & Creative Automation"
 framework: "OpenClaw"
-verification: ""
+verification: listed
 rating: 0
 reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/ffmpeg-thumbnail-grid-generator/"
+source: "https://agentskillexchange.com/skills/ffmpeg-thumbnail-grid-generator/"
 ---
-
 # FFmpeg Thumbnail Grid Generator
 
 Generates contact-sheet-style thumbnail grids from video files using FFmpeg tile filter and libvips. Supports customizable grid dimensions, timestamp overlays, and batch processing across directories.
@@ -20,17 +19,17 @@ Generates contact-sheet-style thumbnail grids from video files using FFmpeg tile
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agentskill install ffmpeg-thumbnail-grid-generator
+npx skills add agentskillexchange/skills --skill ffmpeg-thumbnail-grid-generator
 ```
 
 ### Claude Code
 ```bash
-claude skill add ffmpeg-thumbnail-grid-generator
+npx skills add agentskillexchange/skills --skill ffmpeg-thumbnail-grid-generator -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor skill install ffmpeg-thumbnail-grid-generator
+npx skills add agentskillexchange/skills --skill ffmpeg-thumbnail-grid-generator -a cursor
 ```
 
 ### OpenClaw
@@ -40,9 +39,8 @@ clawhub install ffmpeg-thumbnail-grid-generator
 
 ### Codex
 ```bash
-codex skill add ffmpeg-thumbnail-grid-generator
+npx skills add agentskillexchange/skills --skill ffmpeg-thumbnail-grid-generator -a codex
 ```
-
 ## Details
 
 | Field | Value |

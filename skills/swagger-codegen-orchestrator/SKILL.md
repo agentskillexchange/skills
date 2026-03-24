@@ -3,37 +3,34 @@ name: "Swagger Codegen Orchestrator"
 description: "Orchestrates OpenAPI 3.x code generation using swagger-codegen-cli and openapi-generator. Produces typed client SDKs for TypeScript, Python, and Go with custom Mustache templates."
 category: "Templates & Workflows"
 framework: "Claude Code"
-verification: "✅ Verified"
-security: "✅ Reviewed"
-rating: "4.8"
-reviews: "84"
+verification: security_reviewed
+rating: 4.8
+reviews: 84
 creator: "Fatima Al-Hassan"
 creator_handle: "@fatimaalhassan"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/swagger-codegen-orchestrator/"
+source: "https://agentskillexchange.com/skills/swagger-codegen-orchestrator/"
+security: "✅ Reviewed"
 ---
-
 # Swagger Codegen Orchestrator
 
 Orchestrates OpenAPI 3.x code generation using swagger-codegen-cli and openapi-generator. Produces typed client SDKs for TypeScript, Python, and Go with custom Mustache templates.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install swagger-codegen-orchestrator
+npx skills add agentskillexchange/skills --skill swagger-codegen-orchestrator
 ```
 
 ### Claude Code
 ```bash
-claude skills add swagger-codegen-orchestrator
+npx skills add agentskillexchange/skills --skill swagger-codegen-orchestrator -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor skills install swagger-codegen-orchestrator
+npx skills add agentskillexchange/skills --skill swagger-codegen-orchestrator -a cursor
 ```
 
 ### OpenClaw
@@ -43,9 +40,8 @@ clawhub install swagger-codegen-orchestrator
 
 ### Codex
 ```bash
-codex skills add swagger-codegen-orchestrator
+npx skills add agentskillexchange/skills --skill swagger-codegen-orchestrator -a codex
 ```
-
 ## Details
 
 | Field | Value |

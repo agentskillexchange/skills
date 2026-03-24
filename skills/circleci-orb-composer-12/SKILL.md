@@ -3,39 +3,33 @@ name: "CircleCI Orb Composer"
 description: "Creates and validates custom CircleCI orbs using the circleci/orb-tools SDK. Generates reusable commands, executors, and jobs with built-in testing via BATS framework and orb-tools/publish pipeline."
 category: "CI/CD Integrations"
 framework: "Gemini"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.0
 reviews: 64
 creator: "Priya Sharma"
 creator_handle: "@priyasharma"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/circleci-orb-composer-12/"
+source: "https://agentskillexchange.com/skills/circleci-orb-composer-12/"
 ---
-
 # CircleCI Orb Composer
 
 Creates and validates custom CircleCI orbs using the circleci/orb-tools SDK. Generates reusable commands, executors, and jobs with built-in testing via BATS framework and orb-tools/publish pipeline.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install circleci-orb-composer-12
+npx skills add agentskillexchange/skills --skill circleci-orb-composer-12
 ```
 
 ### Claude Code
 ```bash
-claude skills add circleci-orb-composer-12
+npx skills add agentskillexchange/skills --skill circleci-orb-composer-12 -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["circleci-orb-composer-12"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill circleci-orb-composer-12 -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install circleci-orb-composer-12
 
 ### Codex
 ```bash
-codex skills add circleci-orb-composer-12
+npx skills add agentskillexchange/skills --skill circleci-orb-composer-12 -a codex
 ```
-
 ## Details
 
 | Field | Value |

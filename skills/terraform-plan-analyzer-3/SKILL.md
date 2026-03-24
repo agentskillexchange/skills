@@ -3,39 +3,33 @@ name: "Terraform Plan Analyzer"
 description: "Parses terraform plan JSON output via the HashiCorp terraform-json Go SDK to detect infrastructure drift, cost impacts, and breaking changes. Integrates with Infracost API for real-time cost estimation."
 category: "CI/CD Integrations"
 framework: "Codex"
-verification: "Yes"
-rating: "4.2"
-reviews: "86"
+verification: verified_metadata
+rating: 4.2
+reviews: 86
 creator: "Elena Rodriguez"
 creator_handle: "@elena_dev"
-creator_verified: "Yes"
-source: "https://agentskillexchange.com/skill/terraform-plan-analyzer-3/"
+creator_verified: true
+source: "https://agentskillexchange.com/skills/terraform-plan-analyzer-3/"
 ---
-
 # Terraform Plan Analyzer
 
 Parses terraform plan JSON output via the HashiCorp terraform-json Go SDK to detect infrastructure drift, cost impacts, and breaking changes. Integrates with Infracost API for real-time cost estimation.
 
 ## Installation
 
-Install this skill for your preferred agent framework:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skill install terraform-plan-analyzer-3
+npx skills add agentskillexchange/skills --skill terraform-plan-analyzer-3
 ```
 
 ### Claude Code
 ```bash
-claude skills install terraform-plan-analyzer-3
+npx skills add agentskillexchange/skills --skill terraform-plan-analyzer-3 -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["terraform-plan-analyzer-3"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill terraform-plan-analyzer-3 -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install terraform-plan-analyzer-3
 
 ### Codex
 ```bash
-codex skills install terraform-plan-analyzer-3
+npx skills add agentskillexchange/skills --skill terraform-plan-analyzer-3 -a codex
 ```
-
 ## Details
 
 | Property | Value |

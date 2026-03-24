@@ -3,39 +3,33 @@ name: "Datadog Monitors Skill"
 description: "Manages Datadog monitors and dashboards via the Datadog API v2. Lists triggered monitors, mutes/unmutes alert groups, and queries metric timeseries. Supports composite monitors and SLO tracking."
 category: "Monitoring & Alerts"
 framework: "Codex"
-verification: ""
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/datadog-monitors-skill/"
+source: "https://agentskillexchange.com/skills/datadog-monitors-skill/"
 ---
-
 # Datadog Monitors Skill
 
 Manages Datadog monitors and dashboards via the Datadog API v2. Lists triggered monitors, mutes/unmutes alert groups, and queries metric timeseries. Supports composite monitors and SLO tracking.
 
 ## Installation
 
-Install this skill across different AI coding agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install datadog-monitors-skill
+npx skills add agentskillexchange/skills --skill datadog-monitors-skill
 ```
 
 ### Claude Code
 ```bash
-claude skill add datadog-monitors-skill
+npx skills add agentskillexchange/skills --skill datadog-monitors-skill -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` configuration:
-```json
-{
-  "skills": ["datadog-monitors-skill"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill datadog-monitors-skill -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install datadog-monitors-skill
 
 ### Codex
 ```bash
-codex skill add datadog-monitors-skill
+npx skills add agentskillexchange/skills --skill datadog-monitors-skill -a codex
 ```
-
 ## Details
 
 | Property | Value |

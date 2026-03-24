@@ -3,35 +3,34 @@ name: "LLDB Debug Session Automator"
 description: "Automates LLDB debugging sessions with scripted breakpoint management and expression evaluation. Uses the LLDB Python SB API (lldb.SBDebugger, SBTarget, SBProcess) for programmatic debug control."
 category: "Developer Tools"
 framework: "Custom Agents"
-verification: "Community"
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/lldb-debug-session-automator/"
+source: "https://agentskillexchange.com/skills/lldb-debug-session-automator/"
 ---
-
 # LLDB Debug Session Automator
 
 Automates LLDB debugging sessions with scripted breakpoint management and expression evaluation. Uses the LLDB Python SB API (lldb.SBDebugger, SBTarget, SBProcess) for programmatic debug control.
 
 ## Installation
 
-Install this skill across different agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install lldb-debug-session-automator
+npx skills add agentskillexchange/skills --skill lldb-debug-session-automator
 ```
 
 ### Claude Code
 ```bash
-claude skills add lldb-debug-session-automator
+npx skills add agentskillexchange/skills --skill lldb-debug-session-automator -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` directory or install via Cursor settings.
+```bash
+npx skills add agentskillexchange/skills --skill lldb-debug-session-automator -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install lldb-debug-session-automator
 
 ### Codex
 ```bash
-codex skills add lldb-debug-session-automator
+npx skills add agentskillexchange/skills --skill lldb-debug-session-automator -a codex
 ```
-
 ## Details
 
 | Field | Value |

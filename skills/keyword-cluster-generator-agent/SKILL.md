@@ -3,39 +3,33 @@ name: "Keyword Cluster Generator"
 description: "Groups keywords into topical clusters using sentence-transformers all-MiniLM-L6-v2 embeddings with HDBSCAN clustering. Pulls search volume data from Google Ads API and SEMrush API."
 category: "Content Writing & SEO"
 framework: "MCP-compatible"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.9
 reviews: 34
 creator: "Carlos Mendez"
 creator_handle: "@carlosmendez"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/keyword-cluster-generator-agent/"
+source: "https://agentskillexchange.com/skills/keyword-cluster-generator-agent/"
 ---
-
 # Keyword Cluster Generator
 
 Groups keywords into topical clusters using sentence-transformers all-MiniLM-L6-v2 embeddings with HDBSCAN clustering. Pulls search volume data from Google Ads API and SEMrush API.
 
 ## Installation
 
-Install this skill for your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install keyword-cluster-generator-agent
+npx skills add agentskillexchange/skills --skill keyword-cluster-generator-agent
 ```
 
 ### Claude Code
 ```bash
-claude skills add keyword-cluster-generator-agent
+npx skills add agentskillexchange/skills --skill keyword-cluster-generator-agent -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["keyword-cluster-generator-agent"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill keyword-cluster-generator-agent -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install keyword-cluster-generator-agent
 
 ### Codex
 ```bash
-codex skills add keyword-cluster-generator-agent
+npx skills add agentskillexchange/skills --skill keyword-cluster-generator-agent -a codex
 ```
-
 ## Details
 
 | Property | Value |

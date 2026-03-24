@@ -3,15 +3,14 @@ name: "Incident Response Checklist Engine"
 description: "Generates and tracks incident response checklists using PagerDuty Incident Workflows API and Statuspage.io API. Automates severity classification, stakeholder notification, and post-incident review scheduling with Jira Service Management integration."
 category: "Runbooks & Diagnostics"
 framework: "Claude Agents"
-verification: "verified_metadata"
+verification: verified_metadata
 rating: 4.9
 reviews: 48
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/incident-response-checklist-engine/"
+source: "https://agentskillexchange.com/skills/incident-response-checklist-engine/"
 ---
-
 # Incident Response Checklist Engine
 
 Generates and tracks incident response checklists using PagerDuty Incident Workflows API and Statuspage.io API. Automates severity classification, stakeholder notification, and post-incident review scheduling with Jira Service Management integration.
@@ -20,22 +19,17 @@ Generates and tracks incident response checklists using PagerDuty Incident Workf
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install incident-response-checklist-engine
+npx skills add agentskillexchange/skills --skill incident-response-checklist-engine
 ```
 
 ### Claude Code
 ```bash
-claude mcp add incident-response-checklist-engine
+npx skills add agentskillexchange/skills --skill incident-response-checklist-engine -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "incident-response-checklist-engine": {
-    "source": "agentskillexchange"
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill incident-response-checklist-engine -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install incident-response-checklist-engine
 
 ### Codex
 ```bash
-codex install incident-response-checklist-engine
+npx skills add agentskillexchange/skills --skill incident-response-checklist-engine -a codex
 ```
-
 ## Details
 
 | Field | Value |

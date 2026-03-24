@@ -6,12 +6,11 @@ framework: "OpenClaw"
 verification: security_reviewed
 rating: 4.1
 reviews: 23
-creator: Chris Lee
-creator_handle: chrislee
+creator: "Chris Lee"
+creator_handle: "@chrislee"
 creator_verified: false
-source: https://agentskillexchange.com/skill/nano-banana-pro-image-editing/
+source: "https://agentskillexchange.com/skills/nano-banana-pro-image-editing/"
 ---
-
 # Nano Banana Pro Image Editing
 
 Generate and edit images through a premium model workflow.

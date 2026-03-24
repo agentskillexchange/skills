@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.9
 reviews: 22
-creator: Priya Sharma
-creator_handle: priyasharma
+creator: "Priya Sharma"
+creator_handle: "@priyasharma"
 creator_verified: true
-source: https://agentskillexchange.com/skill/llamaindex-agent/
+source: "https://agentskillexchange.com/skills/llamaindex-agent/"
 ---
-
 # LlamaIndex Agent
 
 LlamaIndex (formerly GPT Index) provides data connectors, indexes, and query engines for building LLM-powered agents over custom data. This skill covers building agentic RAG systems with tool use, multi-document reasoning, and structured data querying.

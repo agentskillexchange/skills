@@ -3,15 +3,14 @@ name: "Prometheus Alert Runbook Linker"
 description: "Links Prometheus alerting rules to executable runbooks using the Prometheus HTTP API and Alertmanager API. Parses PromQL expressions to generate diagnostic steps for each alert condition."
 category: "Runbooks & Diagnostics"
 framework: "OpenClaw"
-verification: "security_reviewed"
-rating: "4.0"
-reviews: "65"
+verification: security_reviewed
+rating: 4.0
+reviews: 65
 creator: "Community"
 creator_handle: ""
-creator_verified: "false"
-source: "https://agentskillexchange.com/skill/prometheus-alert-runbook-linker-2/"
+creator_verified: false
+source: "https://agentskillexchange.com/skills/prometheus-alert-runbook-linker-2/"
 ---
-
 # Prometheus Alert Runbook Linker
 
 Links Prometheus alerting rules to executable runbooks using the Prometheus HTTP API and Alertmanager API. Parses PromQL expressions to generate diagnostic steps for each alert condition.
@@ -20,17 +19,17 @@ Links Prometheus alerting rules to executable runbooks using the Prometheus HTTP
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install prometheus-alert-runbook-linker-2
+npx skills add agentskillexchange/skills --skill prometheus-alert-runbook-linker-2
 ```
 
 ### Claude Code
 ```bash
-claude skills add prometheus-alert-runbook-linker-2
+npx skills add agentskillexchange/skills --skill prometheus-alert-runbook-linker-2 -a claude-code
 ```
 
 ### Cursor
-```
-Install from Cursor Settings → Skills → Add → "Prometheus Alert Runbook Linker"
+```bash
+npx skills add agentskillexchange/skills --skill prometheus-alert-runbook-linker-2 -a cursor
 ```
 
 ### OpenClaw
@@ -40,9 +39,8 @@ clawhub install prometheus-alert-runbook-linker-2
 
 ### Codex
 ```bash
-codex skills add prometheus-alert-runbook-linker-2
+npx skills add agentskillexchange/skills --skill prometheus-alert-runbook-linker-2 -a codex
 ```
-
 ## Details
 
 | Field | Value |

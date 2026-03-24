@@ -6,12 +6,11 @@ framework: "OpenClaw"
 verification: verified_metadata
 rating: 4.3
 reviews: 9
-creator: Leo Park
-creator_handle: leopark
+creator: "Leo Park"
+creator_handle: "@leopark"
 creator_verified: true
-source: https://agentskillexchange.com/skill/slack-channel-summarizer-triage-2/
+source: "https://agentskillexchange.com/skills/slack-channel-summarizer-triage-2/"
 ---
-
 # Slack Channel Summarizer & Triage Bot
 
 Connects to the Slack Web API to fetch unread messages and surfaces a prioritized digest of action items, decisions, and blockers. Uses conversation.history and users.info endpoints to attribute messages correctly. Posts summaries to a designated DM or channel.

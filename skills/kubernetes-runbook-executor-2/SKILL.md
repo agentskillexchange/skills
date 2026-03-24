@@ -6,12 +6,11 @@ framework: "OpenClaw"
 verification: security_reviewed
 rating: 4.7
 reviews: 78
-creator: Ava Wilson
-creator_handle: avawilson
+creator: "Ava Wilson"
+creator_handle: "@avawilson"
 creator_verified: true
-source: https://agentskillexchange.com/skill/kubernetes-runbook-executor-2/
+source: "https://agentskillexchange.com/skills/kubernetes-runbook-executor-2/"
 ---
-
 # Kubernetes Runbook Executor
 
 Executes diagnostic runbooks against Kubernetes clusters using the official kubernetes/client-go SDK and kubectl commands. Checks pod health via the /healthz and /readyz endpoints and analyzes events with the CoreV1 Events API.

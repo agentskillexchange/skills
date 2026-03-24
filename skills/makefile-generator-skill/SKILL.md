@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.9
 reviews: 58
-creator: Nathan Brooks
-creator_handle: nbrooks
+creator: "Nathan Brooks"
+creator_handle: "@nbrooks"
 creator_verified: false
-source: https://agentskillexchange.com/skill/makefile-generator-skill/
+source: "https://agentskillexchange.com/skills/makefile-generator-skill/"
 ---
-
 # Makefile Generator Skill
 
 Use this skill to generate Makefiles with standard build targets based on project type, language, and build system. It creates clean, well-documented Makefiles with targets for build, test, lint, clean, deploy, and help. Trigger when a project lacks build automation or needs standardized make targets for CI/CD integration.

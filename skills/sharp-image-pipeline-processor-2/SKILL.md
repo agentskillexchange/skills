@@ -3,51 +3,44 @@ name: "Sharp Image Pipeline Processor"
 description: "Builds composable image transformation pipelines using the Sharp library with operations like resize(), composite(), and toFormat(). Leverages libvips bindings for high-performance batch processing."
 category: "Image & Creative Automation"
 framework: "Claude Code"
-verification: "verified"
+verification: verified_metadata
 rating: 4.7
 reviews: 49
 creator: "Priya Sharma"
 creator_handle: "@priyasharma"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/sharp-image-pipeline-processor-2/"
+source: "https://agentskillexchange.com/skills/sharp-image-pipeline-processor-2/"
 ---
-
 # Sharp Image Pipeline Processor
 
 Builds composable image transformation pipelines using the Sharp library with operations like resize(), composite(), and toFormat(). Leverages libvips bindings for high-performance batch processing.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
-**Any agent (npx):**
+### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install sharp-image-pipeline-processor-2
+npx skills add agentskillexchange/skills --skill sharp-image-pipeline-processor-2
 ```
 
-**Claude Code:**
+### Claude Code
 ```bash
-claude skills install sharp-image-pipeline-processor-2
+npx skills add agentskillexchange/skills --skill sharp-image-pipeline-processor-2 -a claude-code
 ```
 
-**Cursor:**
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["sharp-image-pipeline-processor-2"]
-}
+### Cursor
+```bash
+npx skills add agentskillexchange/skills --skill sharp-image-pipeline-processor-2 -a cursor
 ```
 
-**OpenClaw:**
+### OpenClaw
 ```bash
 clawhub install sharp-image-pipeline-processor-2
 ```
 
-**Codex:**
+### Codex
 ```bash
-codex skills install sharp-image-pipeline-processor-2
+npx skills add agentskillexchange/skills --skill sharp-image-pipeline-processor-2 -a codex
 ```
-
 ## Details
 
 | Field | Value |

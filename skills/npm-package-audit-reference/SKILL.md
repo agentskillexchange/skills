@@ -6,12 +6,11 @@ framework: "Codex"
 verification: security_reviewed
 rating: 4.4
 reviews: 34
-creator: Luna Martinez
-creator_handle: lunamartinez
+creator: "Luna Martinez"
+creator_handle: "@lunamartinez"
 creator_verified: false
-source: https://agentskillexchange.com/skill/npm-package-audit-reference/
+source: "https://agentskillexchange.com/skills/npm-package-audit-reference/"
 ---
-
 # NPM Package Audit Reference
 
 Provides deep dependency analysis using npm audit, socket.dev API for supply chain risk scoring, and bundlephobia API for bundle size impact assessment. Generates license compliance reports via license-checker.

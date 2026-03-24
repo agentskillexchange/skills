@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.7
 reviews: 76
-creator: Mia Zhang
-creator_handle: miazhang
+creator: "Mia Zhang"
+creator_handle: "@miazhang"
 creator_verified: true
-source: https://agentskillexchange.com/skill/vertex-ai-agent-builder/
+source: "https://agentskillexchange.com/skills/vertex-ai-agent-builder/"
 ---
-
 # Vertex AI Agent Builder
 
 Builds and deploys AI agents on Google Cloud Vertex AI. Covers agent definition, tool binding, grounding with Google Search or custom data stores, and deployment to production endpoints.

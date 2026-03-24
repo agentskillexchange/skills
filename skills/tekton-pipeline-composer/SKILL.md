@@ -6,12 +6,11 @@ framework: "Gemini"
 verification: verified_metadata
 rating: 4.1
 reviews: 86
-creator: Raj Gupta
-creator_handle: rajgupta
+creator: "Raj Gupta"
+creator_handle: "@rajgupta"
 creator_verified: true
-source: https://agentskillexchange.com/skill/tekton-pipeline-composer/
+source: "https://agentskillexchange.com/skills/tekton-pipeline-composer/"
 ---
-
 # Tekton Pipeline Composer
 
 Builds Tekton CI/CD pipelines on Kubernetes using the Tekton Pipelines API and tkn CLI. Composes Tasks, PipelineRuns, and TriggerBindings with proper workspace and result propagation between steps.

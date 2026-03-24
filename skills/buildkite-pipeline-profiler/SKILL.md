@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: verified_metadata
 rating: 4.1
 reviews: 50
-creator: Yuki Tanaka
-creator_handle: yukitanaka
+creator: "Yuki Tanaka"
+creator_handle: "@yukitanaka"
 creator_verified: true
-source: https://agentskillexchange.com/skill/buildkite-pipeline-profiler/
+source: "https://agentskillexchange.com/skills/buildkite-pipeline-profiler/"
 ---
-
 # Buildkite Pipeline Profiler
 
 Profiles Buildkite pipeline performance using the Buildkite REST API and GraphQL API. Analyzes step durations, agent queue wait times, and artifact upload bottlenecks. Generates optimization reports with buildkite-agent meta-data analysis.

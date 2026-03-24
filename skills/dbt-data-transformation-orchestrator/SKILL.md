@@ -3,15 +3,14 @@ name: "dbt Data Transformation Orchestrator"
 description: "Manages dbt Core and dbt Cloud API workflows for SQL-based data transformations. Handles model lineage, incremental builds, and data quality tests with Great Expectations integration."
 category: "Data Extraction & Transformation"
 framework: "Claude Code"
-verification: "community"
-rating: "4.1"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Marcus Chen"
 creator_handle: "@marcuschen"
-creator_verified: 1
-source: "https://agentskillexchange.com/skill/dbt-data-transformation-orchestrator/"
+creator_verified: true
+source: "https://agentskillexchange.com/skills/dbt-data-transformation-orchestrator/"
 ---
-
 # dbt Data Transformation Orchestrator
 
 Manages dbt Core and dbt Cloud API workflows for SQL-based data transformations. Handles model lineage, incremental builds, and data quality tests with Great Expectations integration.
@@ -20,22 +19,17 @@ Manages dbt Core and dbt Cloud API workflows for SQL-based data transformations.
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install dbt-data-transformation-orchestrator
+npx skills add agentskillexchange/skills --skill dbt-data-transformation-orchestrator
 ```
 
 ### Claude Code
 ```bash
-claude mcp add dbt-data-transformation-orchestrator
+npx skills add agentskillexchange/skills --skill dbt-data-transformation-orchestrator -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "dbt-data-transformation-orchestrator": {
-    "source": "agentskillexchange"
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill dbt-data-transformation-orchestrator -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install dbt-data-transformation-orchestrator
 
 ### Codex
 ```bash
-codex install-skill dbt-data-transformation-orchestrator
+npx skills add agentskillexchange/skills --skill dbt-data-transformation-orchestrator -a codex
 ```
-
 ## Details
 
 | Field | Value |

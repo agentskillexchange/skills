@@ -3,15 +3,14 @@ name: "Kubernetes Pod Crash Loop Analyzer"
 description: "Diagnoses CrashLoopBackOff pods using kubectl describe, container exit code analysis, and the Kubernetes Events API. Cross-references OOMKilled signals with Prometheus container_memory_rss metrics and cAdvisor stats for root cause identification."
 category: "Runbooks & Diagnostics"
 framework: "Cursor"
-verification: "✅ Verified"
-rating: "4.1"
-reviews: "86"
+verification: security_reviewed
+rating: 4.1
+reviews: 86
 creator: "Fatima Al-Hassan"
 creator_handle: "@fatimaalhassan"
-creator_verified: "true"
-source: "https://agentskillexchange.com/skill/kubernetes-pod-crash-loop-analyzer/"
+creator_verified: true
+source: "https://agentskillexchange.com/skills/kubernetes-pod-crash-loop-analyzer/"
 ---
-
 # Kubernetes Pod Crash Loop Analyzer
 
 Diagnoses CrashLoopBackOff pods using kubectl describe, container exit code analysis, and the Kubernetes Events API. Cross-references OOMKilled signals with Prometheus container_memory_rss metrics and cAdvisor stats for root cause identification.
@@ -20,20 +19,17 @@ Diagnoses CrashLoopBackOff pods using kubectl describe, container exit code anal
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install kubernetes-pod-crash-loop-analyzer
+npx skills add agentskillexchange/skills --skill kubernetes-pod-crash-loop-analyzer
 ```
 
 ### Claude Code
 ```bash
-claude mcp add kubernetes-pod-crash-loop-analyzer
+npx skills add agentskillexchange/skills --skill kubernetes-pod-crash-loop-analyzer -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "skills": ["kubernetes-pod-crash-loop-analyzer"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill kubernetes-pod-crash-loop-analyzer -a cursor
 ```
 
 ### OpenClaw
@@ -43,9 +39,8 @@ clawhub install kubernetes-pod-crash-loop-analyzer
 
 ### Codex
 ```bash
-codex install kubernetes-pod-crash-loop-analyzer
+npx skills add agentskillexchange/skills --skill kubernetes-pod-crash-loop-analyzer -a codex
 ```
-
 ## Details
 
 | Field | Value |

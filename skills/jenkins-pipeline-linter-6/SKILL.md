@@ -3,39 +3,33 @@ name: "Jenkins Pipeline Linter"
 description: "Validates Jenkinsfile declarative and scripted pipelines using the Jenkins Pipeline Linter HTTP API (/pipeline-model-converter/validate) and npm-groovy-lint for Groovy static analysis with CodeNarc rulesets."
 category: "CI/CD Integrations"
 framework: "Custom Agents"
-verification: "security_reviewed"
-rating: "4.9"
-reviews: "82"
+verification: security_reviewed
+rating: 4.9
+reviews: 82
 creator: "Mateo Silva"
 creator_handle: "@mateosilva"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/jenkins-pipeline-linter-6/"
+source: "https://agentskillexchange.com/skills/jenkins-pipeline-linter-6/"
 ---
-
 # Jenkins Pipeline Linter
 
 Validates Jenkinsfile declarative and scripted pipelines using the Jenkins Pipeline Linter HTTP API (/pipeline-model-converter/validate) and npm-groovy-lint for Groovy static analysis with CodeNarc rulesets.
 
 ## Installation
 
-Install this skill in your AI coding agent:
-
 ### Any Agent (npx)
 ```bash
-npx agentskills install jenkins-pipeline-linter-6
+npx skills add agentskillexchange/skills --skill jenkins-pipeline-linter-6
 ```
 
 ### Claude Code
 ```bash
-claude mcp add jenkins-pipeline-linter-6 -- npx agentskills install jenkins-pipeline-linter-6
+npx skills add agentskillexchange/skills --skill jenkins-pipeline-linter-6 -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/agents.json`:
-```json
-{
-  "skills": ["jenkins-pipeline-linter-6"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill jenkins-pipeline-linter-6 -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install jenkins-pipeline-linter-6
 
 ### Codex
 ```bash
-codex install skill jenkins-pipeline-linter-6
+npx skills add agentskillexchange/skills --skill jenkins-pipeline-linter-6 -a codex
 ```
-
 ## Details
 
 | Field | Value |

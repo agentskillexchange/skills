@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.4
 reviews: 37
-creator: Mia Zhang
-creator_handle: miazhang
+creator: "Mia Zhang"
+creator_handle: "@miazhang"
 creator_verified: true
-source: https://agentskillexchange.com/skill/miro-board-agent/
+source: "https://agentskillexchange.com/skills/miro-board-agent/"
 ---
-
 # Miro Board Agent
 
 Create and manage Miro boards, frames, sticky notes, and connector diagrams through the Miro REST API via an AI agent. Enables automated diagramming workflows including architecture diagram generation, retrospective board setup, and whiteboard content export.

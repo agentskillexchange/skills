@@ -6,12 +6,11 @@ framework: "Cursor"
 verification: security_reviewed
 rating: 4.8
 reviews: 4
-creator: Elena Kowalski
-creator_handle: ekowalski
+creator: "Elena Kowalski"
+creator_handle: "@ekowalski"
 creator_verified: true
-source: https://agentskillexchange.com/skill/grammarly-tone-auditor/
+source: "https://agentskillexchange.com/skills/grammarly-tone-auditor/"
 ---
-
 # Grammarly Business Tone Consistency Auditor
 
 Integrates with the Grammarly Text Editor SDK to batch-audit marketing copy for tone deviations using the /analyze endpoint with the tone_detector feature flag. Outputs a structured JSON report of flagged sentences with suggested rewrites, logged to Google Sheets via the Sheets API v4.

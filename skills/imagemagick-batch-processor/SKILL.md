@@ -3,36 +3,33 @@ name: "ImageMagick Batch Processor"
 description: "Batch image processing using ImageMagick’s convert and mogrify commands with support for resize, crop, watermark, and format conversion. Integrates with libvips for high-performance thumbnail generation."
 category: "Image & Creative Automation"
 framework: "MCP-compatible"
-verification: "community"
-rating: "4.9"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/imagemagick-batch-processor/"
+source: "https://agentskillexchange.com/skills/imagemagick-batch-processor/"
 ---
-
 # ImageMagick Batch Processor
 
 Batch image processing using ImageMagick’s convert and mogrify commands with support for resize, crop, watermark, and format conversion. Integrates with libvips for high-performance thumbnail generation.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install imagemagick-batch-processor
+npx skills add agentskillexchange/skills --skill imagemagick-batch-processor
 ```
 
 ### Claude Code
 ```bash
-claude skills add imagemagick-batch-processor
+npx skills add agentskillexchange/skills --skill imagemagick-batch-processor -a claude-code
 ```
 
 ### Cursor
-```
-Install from Cursor Settings → Skills → Add → "ImageMagick Batch Processor"
+```bash
+npx skills add agentskillexchange/skills --skill imagemagick-batch-processor -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install imagemagick-batch-processor
 
 ### Codex
 ```bash
-codex skills add imagemagick-batch-processor
+npx skills add agentskillexchange/skills --skill imagemagick-batch-processor -a codex
 ```
-
 ## Details
 
 | Field | Value |

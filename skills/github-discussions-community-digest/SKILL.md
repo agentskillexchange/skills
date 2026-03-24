@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.8
 reviews: 31
-creator: Ava Wilson
-creator_handle: avawilson
+creator: "Ava Wilson"
+creator_handle: "@avawilson"
 creator_verified: true
-source: https://agentskillexchange.com/skill/github-discussions-community-digest/
+source: "https://agentskillexchange.com/skills/github-discussions-community-digest/"
 ---
-
 # GitHub Discussions Community Digest
 
 Queries GitHub GraphQL API for new and unanswered Discussions, ranks them by reaction count and recency, and drafts a weekly digest via SendGrid. Automatically labels stale discussions as needs-triage via the GitHub REST API. Digest content is also mirrored as a pinned post to a linked Discord channel.

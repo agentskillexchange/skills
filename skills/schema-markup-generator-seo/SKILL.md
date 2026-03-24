@@ -3,15 +3,14 @@ name: "Schema Markup Generator for SEO"
 description: "Generates JSON-LD structured data using schema-dts TypeScript definitions and Google Rich Results Test API validation. Supports Article, Product, FAQ, HowTo, and LocalBusiness schema types."
 category: "Content Writing & SEO"
 framework: "Codex"
-verification: "Verified & Security Reviewed"
-rating: "4.0"
-reviews: "85"
+verification: security_reviewed
+rating: 4.0
+reviews: 85
 creator: "Ben Taylor"
 creator_handle: "@bentaylor"
 creator_verified: false
-source: "https://agentskillexchange.com/skill/schema-markup-generator-seo/"
+source: "https://agentskillexchange.com/skills/schema-markup-generator-seo/"
 ---
-
 # Schema Markup Generator for SEO
 
 Generates JSON-LD structured data using schema-dts TypeScript definitions and Google Rich Results Test API validation. Supports Article, Product, FAQ, HowTo, and LocalBusiness schema types.
@@ -20,20 +19,17 @@ Generates JSON-LD structured data using schema-dts TypeScript definitions and Go
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install schema-markup-generator-seo
+npx skills add agentskillexchange/skills --skill schema-markup-generator-seo
 ```
 
 ### Claude Code
 ```bash
-claude mcp add schema-markup-generator-seo
+npx skills add agentskillexchange/skills --skill schema-markup-generator-seo -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "skills": ["schema-markup-generator-seo"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill schema-markup-generator-seo -a cursor
 ```
 
 ### OpenClaw
@@ -43,9 +39,8 @@ clawhub install schema-markup-generator-seo
 
 ### Codex
 ```bash
-codex install schema-markup-generator-seo
+npx skills add agentskillexchange/skills --skill schema-markup-generator-seo -a codex
 ```
-
 ## Details
 
 | Field | Value |

@@ -3,49 +3,44 @@ name: "Grafana Dashboard JSON Migrator"
 description: "Migrates Grafana dashboards between instances using the Grafana HTTP API. Transforms datasource UIDs, folder structures, and alert rule references for cross-environment promotion."
 category: "Monitoring & Alerts"
 framework: "Cursor"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.7
 reviews: 68
 creator: "James Kim"
 creator_handle: "@jameskim_ai"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/grafana-dashboard-json-migrator/"
+source: "https://agentskillexchange.com/skills/grafana-dashboard-json-migrator/"
 ---
-
 # Grafana Dashboard JSON Migrator
 
 Migrates Grafana dashboards between instances using the Grafana HTTP API. Transforms datasource UIDs, folder structures, and alert rule references for cross-environment promotion.
 
 ## Installation
 
-Install this skill on your preferred agent platform:
-
-**Any agent (npx):**
+### Any Agent (npx)
 ```bash
-npx @anthropic/agentskill install grafana-dashboard-json-migrator
+npx skills add agentskillexchange/skills --skill grafana-dashboard-json-migrator
 ```
 
-**Claude Code:**
+### Claude Code
 ```bash
-claude mcp add grafana-dashboard-json-migrator
+npx skills add agentskillexchange/skills --skill grafana-dashboard-json-migrator -a claude-code
 ```
 
-**Cursor:**
-Add to your `.cursor/skills` configuration:
-```json
-{ "grafana-dashboard-json-migrator": "latest" }
+### Cursor
+```bash
+npx skills add agentskillexchange/skills --skill grafana-dashboard-json-migrator -a cursor
 ```
 
-**OpenClaw:**
+### OpenClaw
 ```bash
 clawhub install grafana-dashboard-json-migrator
 ```
 
-**Codex:**
+### Codex
 ```bash
-codex install grafana-dashboard-json-migrator
+npx skills add agentskillexchange/skills --skill grafana-dashboard-json-migrator -a codex
 ```
-
 ## Details
 
 | Field | Value |

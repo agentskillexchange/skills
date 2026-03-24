@@ -6,12 +6,11 @@ framework: "Codex"
 verification: security_reviewed
 rating: 4.7
 reviews: 68
-creator: Leo Park
-creator_handle: leopark
+creator: "Leo Park"
+creator_handle: "@leopark"
 creator_verified: true
-source: https://agentskillexchange.com/skill/jenkins-pipeline-health-monitor/
+source: "https://agentskillexchange.com/skills/jenkins-pipeline-health-monitor/"
 ---
-
 # Jenkins Pipeline Health Monitor
 
 Monitors Jenkins pipelines using the Jenkins REST API and Blue Ocean API, detecting flaky tests, build queue bottlenecks, and credential expiration warnings for proactive CI maintenance.

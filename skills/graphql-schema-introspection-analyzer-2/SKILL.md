@@ -3,39 +3,33 @@ name: "GraphQL Schema Introspection Analyzer"
 description: "Performs GraphQL schema introspection using the standard introspection query and graphql-inspector CLI. Detects breaking changes, generates TypeScript types via graphql-codegen, and produces schema documentation."
 category: "Library & API Reference"
 framework: "OpenClaw"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.5
 reviews: 59
 creator: "Sam Lee"
 creator_handle: "@samlee_dev"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/graphql-schema-introspection-analyzer-2/"
+source: "https://agentskillexchange.com/skills/graphql-schema-introspection-analyzer-2/"
 ---
-
 # GraphQL Schema Introspection Analyzer
 
 Performs GraphQL schema introspection using the standard introspection query and graphql-inspector CLI. Detects breaking changes, generates TypeScript types via graphql-codegen, and produces schema documentation.
 
 ## Installation
 
-Install this skill across different AI coding agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install graphql-schema-introspection-analyzer-2
+npx skills add agentskillexchange/skills --skill graphql-schema-introspection-analyzer-2
 ```
 
 ### Claude Code
 ```bash
-claude skills add graphql-schema-introspection-analyzer-2
+npx skills add agentskillexchange/skills --skill graphql-schema-introspection-analyzer-2 -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["graphql-schema-introspection-analyzer-2"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill graphql-schema-introspection-analyzer-2 -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install graphql-schema-introspection-analyzer-2
 
 ### Codex
 ```bash
-codex skills add graphql-schema-introspection-analyzer-2
+npx skills add agentskillexchange/skills --skill graphql-schema-introspection-analyzer-2 -a codex
 ```
-
 ## Details
 
 | Property | Value |

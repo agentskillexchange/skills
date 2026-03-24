@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.8
 reviews: 26
-creator: Liam OBrien
-creator_handle: liamobrien
+creator: "Liam OBrien"
+creator_handle: "@liamobrien"
 creator_verified: true
-source: https://agentskillexchange.com/skill/langgraph-workflow-builder/
+source: "https://agentskillexchange.com/skills/langgraph-workflow-builder/"
 ---
-
 # LangGraph Workflow Builder
 
 LangGraph is a library for building stateful, multi-actor applications with LLMs. Use this skill to design complex agent workflows with branching, loops, and conditional logic as a directed graph structure.

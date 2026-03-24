@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: verified_metadata
 rating: 4.2
 reviews: 68
-creator: James Whitfield
-creator_handle: jwhitfield
+creator: "James Whitfield"
+creator_handle: "@jwhitfield"
 creator_verified: true
-source: https://agentskillexchange.com/skill/argocd-sync-wave-orchestrator-wave48/
+source: "https://agentskillexchange.com/skills/argocd-sync-wave-orchestrator-wave48/"
 ---
-
 # ArgoCD Sync Wave Orchestrator
 
 Manages ArgoCD application sync waves and hooks using the ArgoCD API and argocd CLI. Coordinates multi-application deployment ordering with sync-wave annotations, health checks, and progressive rollout gates.

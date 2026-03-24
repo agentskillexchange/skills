@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.4
 reviews: 18
-creator: Elena Kowalski
-creator_handle: ekowalski
+creator: "Elena Kowalski"
+creator_handle: "@ekowalski"
 creator_verified: true
-source: https://agentskillexchange.com/skill/intercom-mcp-server/
+source: "https://agentskillexchange.com/skills/intercom-mcp-server/"
 ---
-
 # Intercom MCP Server
 
 Use this skill to manage Intercom customer conversations, create user segments, run campaigns, and access customer data through MCP. It enables agents to automate customer communication workflows and sync user data. Trigger when you need to send targeted messages, update user attributes, create segments, or integrate Intercom with data pipelines.

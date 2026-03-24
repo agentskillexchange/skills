@@ -3,16 +3,15 @@ name: "Stable Diffusion ControlNet Pipeline"
 description: "Automates image generation workflows using Stability AI ControlNet API with depth maps, edge detection, and pose estimation. Integrates with Hugging Face diffusers library for model management and CLIP interrogator for prompt refinement."
 category: "Image & Creative Automation"
 framework: "Cursor"
-verification: "✅ Verified"
-security: "✅ Reviewed"
-rating: "4.6"
-reviews: "70"
+verification: security_reviewed
+rating: 4.6
+reviews: 70
 creator: "Nina Volkov"
 creator_handle: "@ninavolkov"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/stable-diffusion-controlnet-pipeline/"
+source: "https://agentskillexchange.com/skills/stable-diffusion-controlnet-pipeline/"
+security: "✅ Reviewed"
 ---
-
 # Stable Diffusion ControlNet Pipeline
 
 Automates image generation workflows using Stability AI ControlNet API with depth maps, edge detection, and pose estimation. Integrates with Hugging Face diffusers library for model management and CLIP interrogator for prompt refinement.
@@ -21,20 +20,17 @@ Automates image generation workflows using Stability AI ControlNet API with dept
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install stable-diffusion-controlnet-pipeline
+npx skills add agentskillexchange/skills --skill stable-diffusion-controlnet-pipeline
 ```
 
 ### Claude Code
 ```bash
-claude skills add stable-diffusion-controlnet-pipeline
+npx skills add agentskillexchange/skills --skill stable-diffusion-controlnet-pipeline -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` configuration:
-```json
-{
-  "skills": ["stable-diffusion-controlnet-pipeline"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill stable-diffusion-controlnet-pipeline -a cursor
 ```
 
 ### OpenClaw
@@ -44,9 +40,8 @@ clawhub install stable-diffusion-controlnet-pipeline
 
 ### Codex
 ```bash
-codex skills add stable-diffusion-controlnet-pipeline
+npx skills add agentskillexchange/skills --skill stable-diffusion-controlnet-pipeline -a codex
 ```
-
 ## Details
 
 | Field | Value |

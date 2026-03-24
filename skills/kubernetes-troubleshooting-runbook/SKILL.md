@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.6
 reviews: 34
-creator: Zara Ahmed
-creator_handle: zaraahmed
+creator: "Zara Ahmed"
+creator_handle: "@zaraahmed"
 creator_verified: true
-source: https://agentskillexchange.com/skill/kubernetes-troubleshooting-runbook/
+source: "https://agentskillexchange.com/skills/kubernetes-troubleshooting-runbook/"
 ---
-
 # Kubernetes Troubleshooting Runbook
 
 Use this skill to systematically diagnose and resolve Kubernetes issues including pod failures, CrashLoopBackOff errors, OOMKills, and resource constraints. It guides agents through kubectl commands and diagnostic steps to identify root causes. Trigger when Kubernetes workloads are failing, pods are restarting, or cluster resources are being exhausted.

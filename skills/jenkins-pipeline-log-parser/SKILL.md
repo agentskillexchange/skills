@@ -6,12 +6,11 @@ framework: "Claude Agents"
 verification: verified_metadata
 rating: 4.1
 reviews: 58
-creator: Sarah Chen
-creator_handle: sarahchen
+creator: "Sarah Chen"
+creator_handle: "@sarahchen"
 creator_verified: true
-source: https://agentskillexchange.com/skill/jenkins-pipeline-log-parser/
+source: "https://agentskillexchange.com/skills/jenkins-pipeline-log-parser/"
 ---
-
 # Jenkins Pipeline Log Parser
 
 Extracts and analyzes Jenkins Pipeline build logs using the Jenkins REST API and Blue Ocean API. Identifies stage failures, flaky test patterns via JUnit XML parsing, and generates failure trend reports with node allocation insights.

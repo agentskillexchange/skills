@@ -3,41 +3,33 @@ name: "Stripe Connect Platform Bridge"
 description: "Manages Stripe Connect onboarding flows using the stripe-node SDK. Handles account creation, capability requests, OAuth redirects, and payout scheduling via the Stripe Accounts API."
 category: "Integrations & Connectors"
 framework: "Claude Agents"
-verification: ""
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/stripe-connect-platform-bridge/"
+source: "https://agentskillexchange.com/skills/stripe-connect-platform-bridge/"
 ---
-
 # Stripe Connect Platform Bridge
 
 Manages Stripe Connect onboarding flows using the stripe-node SDK. Handles account creation, capability requests, OAuth redirects, and payout scheduling via the Stripe Accounts API.
 
 ## Installation
 
-Install this skill using one of the following methods:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install stripe-connect-platform-bridge
+npx skills add agentskillexchange/skills --skill stripe-connect-platform-bridge
 ```
 
 ### Claude Code
 ```bash
-claude mcp add stripe-connect-platform-bridge
+npx skills add agentskillexchange/skills --skill stripe-connect-platform-bridge -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "stripe-connect-platform-bridge": {
-    "source": "agentskillexchange"
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill stripe-connect-platform-bridge -a cursor
 ```
 
 ### OpenClaw
@@ -47,9 +39,8 @@ clawhub install stripe-connect-platform-bridge
 
 ### Codex
 ```bash
-codex install stripe-connect-platform-bridge
+npx skills add agentskillexchange/skills --skill stripe-connect-platform-bridge -a codex
 ```
-
 ## Details
 
 | Field | Value |

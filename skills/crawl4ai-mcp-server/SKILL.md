@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.9
 reviews: 71
-creator: Isabella Rossi
-creator_handle: irossi
+creator: "Isabella Rossi"
+creator_handle: "@irossi"
 creator_verified: false
-source: https://agentskillexchange.com/skill/crawl4ai-mcp-server/
+source: "https://agentskillexchange.com/skills/crawl4ai-mcp-server/"
 ---
-
 # Crawl4AI MCP Server
 
 Self-hosted web crawling and content extraction exposed as MCP tools. Scrape pages, crawl sites with depth control, and extract clean markdown — all self-hosted and free.

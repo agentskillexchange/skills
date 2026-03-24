@@ -3,39 +3,33 @@ name: "Apify Actor Web Crawler"
 description: "Deploys custom Apify Actors via the Apify API v2 for large-scale web crawling using CrawleeJS. Leverages Apify dataset storage, RequestQueue, and proxy configuration for distributed scraping at scale."
 category: "Research & Scraping"
 framework: "Claude Agents"
-verification: "Community"
+verification: listed
 rating: 0
 reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/apify-actor-web-crawler/"
+source: "https://agentskillexchange.com/skills/apify-actor-web-crawler/"
 ---
-
 # Apify Actor Web Crawler
 
 Deploys custom Apify Actors via the Apify API v2 for large-scale web crawling using CrawleeJS. Leverages Apify dataset storage, RequestQueue, and proxy configuration for distributed scraping at scale.
 
 ## Installation
 
-Install this skill across different agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install apify-actor-web-crawler
+npx skills add agentskillexchange/skills --skill apify-actor-web-crawler
 ```
 
 ### Claude Code
 ```bash
-claude skills add apify-actor-web-crawler
+npx skills add agentskillexchange/skills --skill apify-actor-web-crawler -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` configuration:
-```json
-{
-  "skills": ["apify-actor-web-crawler"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill apify-actor-web-crawler -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install apify-actor-web-crawler
 
 ### Codex
 ```bash
-codex skills add apify-actor-web-crawler
+npx skills add agentskillexchange/skills --skill apify-actor-web-crawler -a codex
 ```
-
 ## Details
 
 | Property | Value |

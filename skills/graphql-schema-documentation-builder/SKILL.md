@@ -3,15 +3,14 @@ name: "GraphQL Schema Documentation Builder"
 description: "Generates interactive API documentation from GraphQL schemas using graphql-js introspection queries and SpectaQL. Produces type relationship diagrams, query examples, and deprecation notices from SDL files."
 category: "Library & API Reference"
 framework: "Gemini"
-verification: "community"
-rating: "4.9"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
-creator_verified: 
-source: "https://agentskillexchange.com/skill/graphql-schema-documentation-builder/"
+creator_verified: false
+source: "https://agentskillexchange.com/skills/graphql-schema-documentation-builder/"
 ---
-
 # GraphQL Schema Documentation Builder
 
 Generates interactive API documentation from GraphQL schemas using graphql-js introspection queries and SpectaQL. Produces type relationship diagrams, query examples, and deprecation notices from SDL files.
@@ -20,20 +19,17 @@ Generates interactive API documentation from GraphQL schemas using graphql-js in
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install graphql-schema-documentation-builder
+npx skills add agentskillexchange/skills --skill graphql-schema-documentation-builder
 ```
 
 ### Claude Code
 ```bash
-claude skills add graphql-schema-documentation-builder
+npx skills add agentskillexchange/skills --skill graphql-schema-documentation-builder -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` configuration:
-```json
-{
-  "skills": ["graphql-schema-documentation-builder"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill graphql-schema-documentation-builder -a cursor
 ```
 
 ### OpenClaw
@@ -43,9 +39,8 @@ clawhub install graphql-schema-documentation-builder
 
 ### Codex
 ```bash
-codex skills add graphql-schema-documentation-builder
+npx skills add agentskillexchange/skills --skill graphql-schema-documentation-builder -a codex
 ```
-
 ## Details
 
 | Field | Value |

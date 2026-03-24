@@ -3,39 +3,33 @@ name: "CircleCI Orb Composer"
 description: "Composes and validates CircleCI Orbs using the circleci/circleci-cli and circleci/orb-tools-orb SDK. Automates orb packaging, semantic versioning with conventional-changelog, and publishing to the CircleCI Orb Registry."
 category: "CI/CD Integrations"
 framework: "Claude Code"
-verification: "verified_metadata"
-rating: "4.9"
-reviews: "86"
+verification: verified_metadata
+rating: 4.9
+reviews: 86
 creator: "Lucy Zhang"
 creator_handle: "@lucyzhang"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/circleci-orb-composer-7/"
+source: "https://agentskillexchange.com/skills/circleci-orb-composer-7/"
 ---
-
 # CircleCI Orb Composer
 
 Composes and validates CircleCI Orbs using the circleci/circleci-cli and circleci/orb-tools-orb SDK. Automates orb packaging, semantic versioning with conventional-changelog, and publishing to the CircleCI Orb Registry.
 
 ## Installation
 
-Install this skill in your AI coding agent:
-
 ### Any Agent (npx)
 ```bash
-npx agentskills install circleci-orb-composer-7
+npx skills add agentskillexchange/skills --skill circleci-orb-composer-7
 ```
 
 ### Claude Code
 ```bash
-claude mcp add circleci-orb-composer-7 -- npx agentskills install circleci-orb-composer-7
+npx skills add agentskillexchange/skills --skill circleci-orb-composer-7 -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/agents.json`:
-```json
-{
-  "skills": ["circleci-orb-composer-7"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill circleci-orb-composer-7 -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install circleci-orb-composer-7
 
 ### Codex
 ```bash
-codex install skill circleci-orb-composer-7
+npx skills add agentskillexchange/skills --skill circleci-orb-composer-7 -a codex
 ```
-
 ## Details
 
 | Field | Value |

@@ -6,12 +6,11 @@ framework: "OpenClaw"
 verification: security_reviewed
 rating: 4.6
 reviews: 11
-creator: Yuki Tanaka
-creator_handle: yukitanaka
+creator: "Yuki Tanaka"
+creator_handle: "@yukitanaka"
 creator_verified: true
-source: https://agentskillexchange.com/skill/circleci-workflow-cost-auditor/
+source: "https://agentskillexchange.com/skills/circleci-workflow-cost-auditor/"
 ---
-
 # CircleCI Workflow Cost Auditor
 
 Audits CircleCI workflow spend using the CircleCI Insights API and machine-type pricing tables. Identifies jobs running on oversized resource classes and recommends downgrades using historical CPU/memory utilization from the pipeline telemetry endpoint. Produces a cost breakdown by project, branch, and executor type.

@@ -3,15 +3,14 @@ name: "Stable Diffusion Prompt Optimizer"
 description: "Analyzes and enhances Stable Diffusion prompts using the Automatic1111 WebUI API /sdapi/v1/txt2img endpoint. Applies prompt weighting, negative prompt generation, and A1111-specific syntax like (keyword:weight)."
 category: "Image & Creative Automation"
 framework: "Gemini"
-verification: ""
+verification: listed
 rating: 0
 reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/stable-diffusion-prompt-optimizer/"
+source: "https://agentskillexchange.com/skills/stable-diffusion-prompt-optimizer/"
 ---
-
 # Stable Diffusion Prompt Optimizer
 
 Analyzes and enhances Stable Diffusion prompts using the Automatic1111 WebUI API /sdapi/v1/txt2img endpoint. Applies prompt weighting, negative prompt generation, and A1111-specific syntax like (keyword:weight).
@@ -20,16 +19,18 @@ Analyzes and enhances Stable Diffusion prompts using the Automatic1111 WebUI API
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install stable-diffusion-prompt-optimizer
+npx skills add agentskillexchange/skills --skill stable-diffusion-prompt-optimizer
 ```
 
 ### Claude Code
 ```bash
-claude install-skill stable-diffusion-prompt-optimizer
+npx skills add agentskillexchange/skills --skill stable-diffusion-prompt-optimizer -a claude-code
 ```
 
 ### Cursor
-Download from [Agent Skill Exchange](https://agentskillexchange.com/skill/stable-diffusion-prompt-optimizer/) and add to your `.cursor/skills/` directory.
+```bash
+npx skills add agentskillexchange/skills --skill stable-diffusion-prompt-optimizer -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -38,9 +39,8 @@ clawhub install stable-diffusion-prompt-optimizer
 
 ### Codex
 ```bash
-codex install-skill stable-diffusion-prompt-optimizer
+npx skills add agentskillexchange/skills --skill stable-diffusion-prompt-optimizer -a codex
 ```
-
 ## Details
 
 | Field | Value |

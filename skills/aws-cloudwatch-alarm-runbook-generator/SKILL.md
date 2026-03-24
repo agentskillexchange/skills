@@ -6,12 +6,11 @@ framework: "Claude Agents"
 verification: verified_metadata
 rating: 4.9
 reviews: 69
-creator: David Kim
-creator_handle: dkim
+creator: "David Kim"
+creator_handle: "@dkim"
 creator_verified: false
-source: https://agentskillexchange.com/skill/aws-cloudwatch-alarm-runbook-generator/
+source: "https://agentskillexchange.com/skills/aws-cloudwatch-alarm-runbook-generator/"
 ---
-
 # AWS CloudWatch Alarm Runbook Generator
 
 Generates structured incident runbooks from AWS CloudWatch alarm configurations using the CloudWatch DescribeAlarms API and AWS Systems Manager documents. Links alarms to remediation procedures automatically.

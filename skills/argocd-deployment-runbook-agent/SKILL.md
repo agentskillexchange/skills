@@ -3,15 +3,14 @@ name: "ArgoCD Deployment Runbook Agent"
 description: "Manages GitOps deployments using ArgoCD API, argocd CLI, and Kustomize overlays. Automates sync operations, rollback procedures, and application health monitoring."
 category: "Runbooks & Diagnostics"
 framework: "Custom Agents"
-verification: 
+verification: listed
 rating: 4.0
 reviews: 25
-creator: David Kim
-creator_handle: dkim
+creator: "David Kim"
+creator_handle: "@dkim"
 creator_verified: false
-source: https://agentskillexchange.com/skill/argocd-deployment-runbook-agent/
+source: "https://agentskillexchange.com/skills/argocd-deployment-runbook-agent/"
 ---
-
 # ArgoCD Deployment Runbook Agent
 
 Manages GitOps deployments using ArgoCD API, argocd CLI, and Kustomize overlays. Automates sync operations, rollback procedures, and application health monitoring.

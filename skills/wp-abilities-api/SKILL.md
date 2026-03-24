@@ -6,12 +6,11 @@ framework: "OpenClaw"
 verification: security_reviewed
 rating: 4.3
 reviews: 38
-creator: David Kim
-creator_handle: dkim
+creator: "David Kim"
+creator_handle: "@dkim"
 creator_verified: false
-source: https://agentskillexchange.com/skill/wp-abilities-api/
+source: "https://agentskillexchange.com/skills/wp-abilities-api/"
 ---
-
 # WP Abilities API
 
 Specialized support for defining, exposing, and debugging WordPress abilities through the Abilities API.

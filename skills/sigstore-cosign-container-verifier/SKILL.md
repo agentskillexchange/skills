@@ -3,15 +3,14 @@ name: "Sigstore Cosign Container Verifier"
 description: "Verifies container image signatures and provenance using Sigstore Cosign and Rekor transparency log. Enforces supply chain policies with OPA Gatekeeper admission rules."
 category: "Security & Verification"
 framework: "MCP-compatible"
-verification: "community"
-rating: "4.3"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Zoe Chen"
 creator_handle: "@zoechen"
-creator_verified: 1
-source: "https://agentskillexchange.com/skill/sigstore-cosign-container-verifier/"
+creator_verified: true
+source: "https://agentskillexchange.com/skills/sigstore-cosign-container-verifier/"
 ---
-
 # Sigstore Cosign Container Verifier
 
 Verifies container image signatures and provenance using Sigstore Cosign and Rekor transparency log. Enforces supply chain policies with OPA Gatekeeper admission rules.
@@ -20,22 +19,17 @@ Verifies container image signatures and provenance using Sigstore Cosign and Rek
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install sigstore-cosign-container-verifier
+npx skills add agentskillexchange/skills --skill sigstore-cosign-container-verifier
 ```
 
 ### Claude Code
 ```bash
-claude mcp add sigstore-cosign-container-verifier
+npx skills add agentskillexchange/skills --skill sigstore-cosign-container-verifier -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "sigstore-cosign-container-verifier": {
-    "source": "agentskillexchange"
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill sigstore-cosign-container-verifier -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install sigstore-cosign-container-verifier
 
 ### Codex
 ```bash
-codex install-skill sigstore-cosign-container-verifier
+npx skills add agentskillexchange/skills --skill sigstore-cosign-container-verifier -a codex
 ```
-
 ## Details
 
 | Field | Value |

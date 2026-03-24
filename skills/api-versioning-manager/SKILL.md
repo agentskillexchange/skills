@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.8
 reviews: 68
-creator: David Kim
-creator_handle: dkim
+creator: "David Kim"
+creator_handle: "@dkim"
 creator_verified: false
-source: https://agentskillexchange.com/skill/api-versioning-manager/
+source: "https://agentskillexchange.com/skills/api-versioning-manager/"
 ---
-
 # API Versioning Manager
 
 Manages API version lifecycle: detects breaking changes between OpenAPI specs, generates deprecation notices, maintains version compatibility matrices, and generates migration guides for consumers.

@@ -3,36 +3,33 @@ name: "REST API Documentation Generator"
 description: "Generates interactive API documentation from route definitions using Swagger UI, Redoc, and the openapi-generator-cli. Extracts endpoint metadata from Express/Fastify route handlers, JSDoc annotations, and Zod/Joi validation schemas."
 category: "Library & API Reference"
 framework: "Claude Agents"
-verification: "verified_metadata"
-rating: "0"
-reviews: "0"
+verification: verified_metadata
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/rest-api-documentation-generator-2/"
+source: "https://agentskillexchange.com/skills/rest-api-documentation-generator-2/"
 ---
-
 # REST API Documentation Generator
 
 Generates interactive API documentation from route definitions using Swagger UI, Redoc, and the openapi-generator-cli. Extracts endpoint metadata from Express/Fastify route handlers, JSDoc annotations, and Zod/Joi validation schemas.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install rest-api-documentation-generator-2
+npx skills add agentskillexchange/skills --skill rest-api-documentation-generator-2
 ```
 
 ### Claude Code
 ```bash
-claude skills add rest-api-documentation-generator-2
+npx skills add agentskillexchange/skills --skill rest-api-documentation-generator-2 -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor skills install rest-api-documentation-generator-2
+npx skills add agentskillexchange/skills --skill rest-api-documentation-generator-2 -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install rest-api-documentation-generator-2
 
 ### Codex
 ```bash
-codex skills add rest-api-documentation-generator-2
+npx skills add agentskillexchange/skills --skill rest-api-documentation-generator-2 -a codex
 ```
-
 ## Details
 
 | Field | Value |

@@ -3,35 +3,34 @@ name: "Ahrefs Keyword Gap Analysis Skill"
 description: "Identifies keyword opportunities by comparing competitor rankings using Ahrefs’ /v3/site-explorer/organic-keywords API endpoint. Calculates traffic potential from search volume, CPC, and keyword difficulty scores."
 category: "Content Writing & SEO"
 framework: "ChatGPT Agents"
-verification: "Verified & Security Reviewed"
-rating: "4.9"
-reviews: "86"
+verification: security_reviewed
+rating: 4.9
+reviews: 86
 creator: "Yuki Tanaka"
 creator_handle: "@yukitanaka"
-creator_verified: "true"
-source: "https://agentskillexchange.com/skill/ahrefs-keyword-gap-analysis-skill/"
+creator_verified: true
+source: "https://agentskillexchange.com/skills/ahrefs-keyword-gap-analysis-skill/"
 ---
-
 # Ahrefs Keyword Gap Analysis Skill
 
 Identifies keyword opportunities by comparing competitor rankings using Ahrefs’ /v3/site-explorer/organic-keywords API endpoint. Calculates traffic potential from search volume, CPC, and keyword difficulty scores.
 
 ## Installation
 
-Install this skill across different AI coding agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agentskill install ahrefs-keyword-gap-analysis-skill
+npx skills add agentskillexchange/skills --skill ahrefs-keyword-gap-analysis-skill
 ```
 
 ### Claude Code
 ```bash
-claude skill add ahrefs-keyword-gap-analysis-skill
+npx skills add agentskillexchange/skills --skill ahrefs-keyword-gap-analysis-skill -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` directory or install via Cursor settings.
+```bash
+npx skills add agentskillexchange/skills --skill ahrefs-keyword-gap-analysis-skill -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install ahrefs-keyword-gap-analysis-skill
 
 ### Codex
 ```bash
-codex skill install ahrefs-keyword-gap-analysis-skill
+npx skills add agentskillexchange/skills --skill ahrefs-keyword-gap-analysis-skill -a codex
 ```
-
 ## Details
 
 | Field | Value |

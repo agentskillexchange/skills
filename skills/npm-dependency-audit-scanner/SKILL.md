@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.8
 reviews: 78
-creator: Nathan Brooks
-creator_handle: nbrooks
+creator: "Nathan Brooks"
+creator_handle: "@nbrooks"
 creator_verified: false
-source: https://agentskillexchange.com/skill/npm-dependency-audit-scanner/
+source: "https://agentskillexchange.com/skills/npm-dependency-audit-scanner/"
 ---
-
 # npm Dependency Audit Scanner
 
 Scans Node.js projects for vulnerable dependencies using npm audit and the OSV.dev REST API. Cross-references CVE databases via the National Vulnerability Database API v2.0 and generates SBOM documents in CycloneDX format.

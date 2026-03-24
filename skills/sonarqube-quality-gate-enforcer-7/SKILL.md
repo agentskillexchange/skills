@@ -3,35 +3,34 @@ name: "SonarQube Quality Gate Enforcer"
 description: "Enforces code quality standards using SonarQube Web API for metrics retrieval, quality gate evaluation, and automated PR decoration with inline issue annotations."
 category: "Code Quality & Review"
 framework: "Codex"
-verification: "✅ Verified"
-rating: "4.3"
-reviews: "48"
+verification: security_reviewed
+rating: 4.3
+reviews: 48
 creator: "Ryan O'Malley"
 creator_handle: "@ryanomalley"
 creator_verified: false
-source: "https://agentskillexchange.com/skill/sonarqube-quality-gate-enforcer-7/"
+source: "https://agentskillexchange.com/skills/sonarqube-quality-gate-enforcer-7/"
 ---
-
 # SonarQube Quality Gate Enforcer
 
 Enforces code quality standards using SonarQube Web API for metrics retrieval, quality gate evaluation, and automated PR decoration with inline issue annotations.
 
 ## Installation
 
-Install this skill across different AI coding agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install sonarqube-quality-gate-enforcer-7
+npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-enforcer-7
 ```
 
 ### Claude Code
 ```bash
-claude skills add sonarqube-quality-gate-enforcer-7
+npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-enforcer-7 -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` directory or install via Cursor Settings → Skills.
+```bash
+npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-enforcer-7 -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install sonarqube-quality-gate-enforcer-7
 
 ### Codex
 ```bash
-codex skills install sonarqube-quality-gate-enforcer-7
+npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-enforcer-7 -a codex
 ```
-
 ## Details
 
 | Field | Value |

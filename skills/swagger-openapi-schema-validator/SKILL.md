@@ -3,49 +3,44 @@ name: "Swagger OpenAPI Schema Validator"
 description: "Validates and lints OpenAPI 3.1 specifications using Spectral ruleset engine and swagger-parser. Detects breaking changes between API versions using oasdiff comparison tool."
 category: "Library & API Reference"
 framework: "Cursor"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.8
 reviews: 86
 creator: "Leo Park"
 creator_handle: "@leopark_ai"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/swagger-openapi-schema-validator/"
+source: "https://agentskillexchange.com/skills/swagger-openapi-schema-validator/"
 ---
-
 # Swagger OpenAPI Schema Validator
 
 Validates and lints OpenAPI 3.1 specifications using Spectral ruleset engine and swagger-parser. Detects breaking changes between API versions using oasdiff comparison tool.
 
 ## Installation
 
-Install this skill on your preferred agent platform:
-
-**Any agent (npx):**
+### Any Agent (npx)
 ```bash
-npx @anthropic/agentskill install swagger-openapi-schema-validator
+npx skills add agentskillexchange/skills --skill swagger-openapi-schema-validator
 ```
 
-**Claude Code:**
+### Claude Code
 ```bash
-claude mcp add swagger-openapi-schema-validator
+npx skills add agentskillexchange/skills --skill swagger-openapi-schema-validator -a claude-code
 ```
 
-**Cursor:**
-Add to your `.cursor/skills` configuration:
-```json
-{ "swagger-openapi-schema-validator": "latest" }
+### Cursor
+```bash
+npx skills add agentskillexchange/skills --skill swagger-openapi-schema-validator -a cursor
 ```
 
-**OpenClaw:**
+### OpenClaw
 ```bash
 clawhub install swagger-openapi-schema-validator
 ```
 
-**Codex:**
+### Codex
 ```bash
-codex install swagger-openapi-schema-validator
+npx skills add agentskillexchange/skills --skill swagger-openapi-schema-validator -a codex
 ```
-
 ## Details
 
 | Field | Value |

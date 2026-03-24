@@ -3,15 +3,14 @@ name: "Cypress E2E Test Generator"
 description: "Generates Cypress end-to-end test suites from user flow recordings. Uses the Cypress Real Events plugin and cy.intercept() for network stubbing with automatic fixture generation."
 category: "Browser Automation"
 framework: "Claude Agents"
-verification: "verified"
-rating: "4.7"
-reviews: "85"
+verification: verified_metadata
+rating: 4.7
+reviews: 85
 creator: "Nina Volkov"
 creator_handle: "@ninavolkov"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/cypress-e2e-test-generator-3/"
+source: "https://agentskillexchange.com/skills/cypress-e2e-test-generator-3/"
 ---
-
 # Cypress E2E Test Generator
 
 Generates Cypress end-to-end test suites from user flow recordings. Uses the Cypress Real Events plugin and cy.intercept() for network stubbing with automatic fixture generation.
@@ -19,38 +18,29 @@ Generates Cypress end-to-end test suites from user flow recordings. Uses the Cyp
 ## Installation
 
 ### Any Agent (npx)
-
 ```bash
-npx @anthropic/agent-skills install cypress-e2e-test-generator-3
+npx skills add agentskillexchange/skills --skill cypress-e2e-test-generator-3
 ```
 
 ### Claude Code
-
 ```bash
-claude mcp add cypress-e2e-test-generator-3
+npx skills add agentskillexchange/skills --skill cypress-e2e-test-generator-3 -a claude-code
 ```
 
 ### Cursor
-
-Add to `.cursor/skills.json`:
-```json
-{
-  "skills": ["cypress-e2e-test-generator-3"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill cypress-e2e-test-generator-3 -a cursor
 ```
 
 ### OpenClaw
-
 ```bash
 clawhub install cypress-e2e-test-generator-3
 ```
 
 ### Codex
-
 ```bash
-codex install cypress-e2e-test-generator-3
+npx skills add agentskillexchange/skills --skill cypress-e2e-test-generator-3 -a codex
 ```
-
 ## Details
 
 | Field | Value |

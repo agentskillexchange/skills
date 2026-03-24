@@ -3,39 +3,33 @@ name: "CodeClimate Maintainability Tracker"
 description: "Connects to the Code Climate Quality REST API v1 to track maintainability ratings, test coverage via SimpleCov and Istanbul reporters, and technical debt ratio across repositories."
 category: "Code Quality & Review"
 framework: "Codex"
-verification: "Community"
+verification: listed
 rating: 0
 reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/codeclimate-maintainability-tracker-6/"
+source: "https://agentskillexchange.com/skills/codeclimate-maintainability-tracker-6/"
 ---
-
 # CodeClimate Maintainability Tracker
 
 Connects to the Code Climate Quality REST API v1 to track maintainability ratings, test coverage via SimpleCov and Istanbul reporters, and technical debt ratio across repositories.
 
 ## Installation
 
-Install this skill across different agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install codeclimate-maintainability-tracker-6
+npx skills add agentskillexchange/skills --skill codeclimate-maintainability-tracker-6
 ```
 
 ### Claude Code
 ```bash
-claude skills add codeclimate-maintainability-tracker-6
+npx skills add agentskillexchange/skills --skill codeclimate-maintainability-tracker-6 -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` configuration:
-```json
-{
-  "skills": ["codeclimate-maintainability-tracker-6"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill codeclimate-maintainability-tracker-6 -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install codeclimate-maintainability-tracker-6
 
 ### Codex
 ```bash
-codex skills add codeclimate-maintainability-tracker-6
+npx skills add agentskillexchange/skills --skill codeclimate-maintainability-tracker-6 -a codex
 ```
-
 ## Details
 
 | Property | Value |

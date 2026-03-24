@@ -6,12 +6,11 @@ framework: "OpenClaw"
 verification: security_reviewed
 rating: 4.6
 reviews: 33
-creator: Elena Kowalski
-creator_handle: ekowalski
+creator: "Elena Kowalski"
+creator_handle: "@ekowalski"
 creator_verified: true
-source: https://agentskillexchange.com/skill/self-improvement-learnings-capture/
+source: "https://agentskillexchange.com/skills/self-improvement-learnings-capture/"
 ---
-
 # Self-Improvement / Learnings Capture
 
 Capture failures, corrections, and repeatable lessons so important operational knowledge persists across sessions.

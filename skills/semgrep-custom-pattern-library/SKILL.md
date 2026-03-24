@@ -3,39 +3,33 @@ name: "Semgrep Custom Pattern Library"
 description: "Builds custom Semgrep rules using the semgrep YAML rule syntax with metavariable-pattern, pattern-either, and taint-mode analysis. Generates rule packs for OWASP Top 10 detection across Python, JavaScript, and Go codebases."
 category: "Code Quality & Review"
 framework: "Claude Agents"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.9
 reviews: 6
 creator: "Sarah O'Brien"
 creator_handle: "@sarahcodes"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/semgrep-custom-pattern-library/"
+source: "https://agentskillexchange.com/skills/semgrep-custom-pattern-library/"
 ---
-
 # Semgrep Custom Pattern Library
 
 Builds custom Semgrep rules using the semgrep YAML rule syntax with metavariable-pattern, pattern-either, and taint-mode analysis. Generates rule packs for OWASP Top 10 detection across Python, JavaScript, and Go codebases.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install semgrep-custom-pattern-library
+npx skills add agentskillexchange/skills --skill semgrep-custom-pattern-library
 ```
 
 ### Claude Code
 ```bash
-claude skills add semgrep-custom-pattern-library
+npx skills add agentskillexchange/skills --skill semgrep-custom-pattern-library -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["semgrep-custom-pattern-library"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill semgrep-custom-pattern-library -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install semgrep-custom-pattern-library
 
 ### Codex
 ```bash
-codex skills add semgrep-custom-pattern-library
+npx skills add agentskillexchange/skills --skill semgrep-custom-pattern-library -a codex
 ```
-
 ## Details
 
 | Field | Value |

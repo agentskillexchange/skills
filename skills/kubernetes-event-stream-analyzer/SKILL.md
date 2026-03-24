@@ -3,15 +3,14 @@ name: "Kubernetes Event Stream Analyzer"
 description: "Watches Kubernetes event streams via the Watch API and correlates pod lifecycle events with resource metrics from Metrics Server. Detects CrashLoopBackOff patterns and OOMKilled signals for automated triage."
 category: "Monitoring & Alerts"
 framework: "Gemini"
-verification: "✅ Verified"
-rating: "4.8"
-reviews: "85"
+verification: security_reviewed
+rating: 4.8
+reviews: 85
 creator: "Meera Joshi"
 creator_handle: "@meerajoshi"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/kubernetes-event-stream-analyzer/"
+source: "https://agentskillexchange.com/skills/kubernetes-event-stream-analyzer/"
 ---
-
 # Kubernetes Event Stream Analyzer
 
 Watches Kubernetes event streams via the Watch API and correlates pod lifecycle events with resource metrics from Metrics Server. Detects CrashLoopBackOff patterns and OOMKilled signals for automated triage.
@@ -20,22 +19,17 @@ Watches Kubernetes event streams via the Watch API and correlates pod lifecycle 
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install kubernetes-event-stream-analyzer
+npx skills add agentskillexchange/skills --skill kubernetes-event-stream-analyzer
 ```
 
 ### Claude Code
 ```bash
-claude mcp add kubernetes-event-stream-analyzer
+npx skills add agentskillexchange/skills --skill kubernetes-event-stream-analyzer -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "kubernetes-event-stream-analyzer": {
-    "source": "https://agentskillexchange.com/skill/kubernetes-event-stream-analyzer/"
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill kubernetes-event-stream-analyzer -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install kubernetes-event-stream-analyzer
 
 ### Codex
 ```bash
-codex install kubernetes-event-stream-analyzer
+npx skills add agentskillexchange/skills --skill kubernetes-event-stream-analyzer -a codex
 ```
-
 ## Details
 
 | Field | Value |

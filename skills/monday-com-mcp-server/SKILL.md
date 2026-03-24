@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.8
 reviews: 22
-creator: Tom Anderson
-creator_handle: tanderson
+creator: "Tom Anderson"
+creator_handle: "@tanderson"
 creator_verified: false
-source: https://agentskillexchange.com/skill/monday-com-mcp-server/
+source: "https://agentskillexchange.com/skills/monday-com-mcp-server/"
 ---
-
 # Monday.com MCP Server
 
 Use this skill to manage Monday.com boards, update item columns, trigger automations, and track project progress through MCP. It enables programmatic access to Monday.com’s Work OS for building automated workflows and integrations. Trigger when you need to update Monday.com items from external systems, read board data for reporting, or automate status updates.

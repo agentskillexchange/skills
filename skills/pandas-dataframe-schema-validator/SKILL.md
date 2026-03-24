@@ -3,35 +3,34 @@ name: "Pandas DataFrame Schema Validator"
 description: "Validates Pandas DataFrame structures using the pandera library API and pa.DataFrameSchema definitions. Enforces column types, nullable constraints, and custom check functions via pandera.Check."
 category: "Data Extraction & Transformation"
 framework: "OpenClaw"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.8
 reviews: 13
 creator: "Lucy Zhang"
 creator_handle: "@lucyzhang"
-creator_verified: yes
-source: "https://agentskillexchange.com/skill/pandas-dataframe-schema-validator/"
+creator_verified: true
+source: "https://agentskillexchange.com/skills/pandas-dataframe-schema-validator/"
 ---
-
 # Pandas DataFrame Schema Validator
 
 Validates Pandas DataFrame structures using the pandera library API and pa.DataFrameSchema definitions. Enforces column types, nullable constraints, and custom check functions via pandera.Check.
 
 ## Installation
 
-Install this skill across different agents:
-
 ### Any Agent (npx)
 ```bash
-npx agentskills install pandas-dataframe-schema-validator
+npx skills add agentskillexchange/skills --skill pandas-dataframe-schema-validator
 ```
 
 ### Claude Code
 ```bash
-claude mcp add pandas-dataframe-schema-validator
+npx skills add agentskillexchange/skills --skill pandas-dataframe-schema-validator -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills/` directory or install via Cursor settings.
+```bash
+npx skills add agentskillexchange/skills --skill pandas-dataframe-schema-validator -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install pandas-dataframe-schema-validator
 
 ### Codex
 ```bash
-codex install pandas-dataframe-schema-validator
+npx skills add agentskillexchange/skills --skill pandas-dataframe-schema-validator -a codex
 ```
-
 ## Details
 
 | Property | Value |

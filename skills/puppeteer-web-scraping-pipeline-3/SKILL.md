@@ -3,15 +3,14 @@ name: "Puppeteer Web Scraping Pipeline"
 description: "Builds resilient web scraping pipelines using Puppeteer with stealth plugins. Handles Cloudflare challenges, CAPTCHAs via 2Captcha API, and dynamic content rendering with smart wait strategies."
 category: "Browser Automation"
 framework: "MCP-compatible"
-verification: "verified"
-rating: "4.9"
-reviews: "72"
+verification: verified_metadata
+rating: 4.9
+reviews: 72
 creator: "Tom Wilson"
 creator_handle: "@tomwilson"
 creator_verified: false
-source: "https://agentskillexchange.com/skill/puppeteer-web-scraping-pipeline-3/"
+source: "https://agentskillexchange.com/skills/puppeteer-web-scraping-pipeline-3/"
 ---
-
 # Puppeteer Web Scraping Pipeline
 
 Builds resilient web scraping pipelines using Puppeteer with stealth plugins. Handles Cloudflare challenges, CAPTCHAs via 2Captcha API, and dynamic content rendering with smart wait strategies.
@@ -19,38 +18,29 @@ Builds resilient web scraping pipelines using Puppeteer with stealth plugins. Ha
 ## Installation
 
 ### Any Agent (npx)
-
 ```bash
-npx @anthropic/agent-skills install puppeteer-web-scraping-pipeline-3
+npx skills add agentskillexchange/skills --skill puppeteer-web-scraping-pipeline-3
 ```
 
 ### Claude Code
-
 ```bash
-claude mcp add puppeteer-web-scraping-pipeline-3
+npx skills add agentskillexchange/skills --skill puppeteer-web-scraping-pipeline-3 -a claude-code
 ```
 
 ### Cursor
-
-Add to `.cursor/skills.json`:
-```json
-{
-  "skills": ["puppeteer-web-scraping-pipeline-3"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill puppeteer-web-scraping-pipeline-3 -a cursor
 ```
 
 ### OpenClaw
-
 ```bash
 clawhub install puppeteer-web-scraping-pipeline-3
 ```
 
 ### Codex
-
 ```bash
-codex install puppeteer-web-scraping-pipeline-3
+npx skills add agentskillexchange/skills --skill puppeteer-web-scraping-pipeline-3 -a codex
 ```
-
 ## Details
 
 | Field | Value |

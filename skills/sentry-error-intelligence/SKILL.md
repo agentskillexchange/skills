@@ -3,35 +3,34 @@ name: "Sentry Error Intelligence"
 description: "Connects to the Sentry API v0 to analyze error trends, group similar stack traces using fingerprinting rules, and auto-assigns issues to code owners via GitHub CODEOWNERS integration."
 category: "Monitoring & Alerts"
 framework: "Claude Code"
-verification: "Verified & Security Reviewed"
+verification: security_reviewed
 rating: 4.6
 reviews: 10
 creator: "Priya Sharma"
 creator_handle: "@priyasharma"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/sentry-error-intelligence/"
+source: "https://agentskillexchange.com/skills/sentry-error-intelligence/"
 ---
-
 # Sentry Error Intelligence
 
 Connects to the Sentry API v0 to analyze error trends, group similar stack traces using fingerprinting rules, and auto-assigns issues to code owners via GitHub CODEOWNERS integration.
 
 ## Installation
 
-Install this skill across different AI coding agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install sentry-error-intelligence
+npx skills add agentskillexchange/skills --skill sentry-error-intelligence
 ```
 
 ### Claude Code
 ```bash
-claude mcp add sentry-error-intelligence
+npx skills add agentskillexchange/skills --skill sentry-error-intelligence -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills/` directory or install via Cursor Settings → Skills.
+```bash
+npx skills add agentskillexchange/skills --skill sentry-error-intelligence -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install sentry-error-intelligence
 
 ### Codex
 ```bash
-codex install sentry-error-intelligence
+npx skills add agentskillexchange/skills --skill sentry-error-intelligence -a codex
 ```
-
 ## Details
 
 | Property | Value |

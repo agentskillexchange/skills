@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.1
 reviews: 41
-creator: Leo Park
-creator_handle: leopark
+creator: "Leo Park"
+creator_handle: "@leopark"
 creator_verified: true
-source: https://agentskillexchange.com/skill/security-audit-skill/
+source: "https://agentskillexchange.com/skills/security-audit-skill/"
 ---
-
 # Security Audit Skill
 
 Use this skill to perform automated security audits covering OWASP Top 10 vulnerabilities and dependency CVE scanning on codebases and projects. It identifies SQL injection risks, XSS vulnerabilities, insecure configurations, and known vulnerable dependencies. Trigger when preparing for security review, before deployments, or when assessing new codebases for vulnerabilities.

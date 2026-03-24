@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.3
 reviews: 24
-creator: Sarah Chen
-creator_handle: sarahchen
+creator: "Sarah Chen"
+creator_handle: "@sarahchen"
 creator_verified: true
-source: https://agentskillexchange.com/skill/aws-cloudformation-drift-detector/
+source: "https://agentskillexchange.com/skills/aws-cloudformation-drift-detector/"
 ---
-
 # AWS CloudFormation Drift Detector
 
 Detects infrastructure drift in AWS CloudFormation stacks using the AWS SDK boto3 detect_stack_drift API. Compares actual resource configurations against template definitions and generates remediation changesets.

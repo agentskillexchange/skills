@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.1
 reviews: 7
-creator: Alex Thompson
-creator_handle: alexthompson
+creator: "Alex Thompson"
+creator_handle: "@alexthompson"
 creator_verified: true
-source: https://agentskillexchange.com/skill/apache-airflow-mcp/
+source: "https://agentskillexchange.com/skills/apache-airflow-mcp/"
 ---
-
 # Apache Airflow MCP
 
 Expose Apache Airflow DAGs, task logs, and run history to AI agents via MCP, enabling conversational DAG management and troubleshooting. Agents can trigger DAG runs, inspect task states, and retrieve XCom values without direct Airflow UI access.

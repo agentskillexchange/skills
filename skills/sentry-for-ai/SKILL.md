@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: verified_metadata
 rating: 4.5
 reviews: 42
-creator: Luna Martinez
-creator_handle: lunamartinez
+creator: "Luna Martinez"
+creator_handle: "@lunamartinez"
 creator_verified: false
-source: https://agentskillexchange.com/skill/sentry-for-ai/
+source: "https://agentskillexchange.com/skills/sentry-for-ai/"
 ---
-
 # Sentry for AI
 
 Observability and debugging support for AI-assisted application workflows.

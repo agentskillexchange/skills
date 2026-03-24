@@ -3,39 +3,33 @@ name: "Prettier Config Harmonizer"
 description: "Uses the Prettier JavaScript API prettier.resolveConfig() and prettier.format() to detect and fix formatting inconsistencies across monorepo packages. Generates unified .prettierrc configurations with per-package overrides."
 category: "Code Quality & Review"
 framework: "Custom Agents"
-verification: "verified_metadata"
+verification: verified_metadata
 rating: 4.5
 reviews: 30
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/prettier-config-harmonizer/"
+source: "https://agentskillexchange.com/skills/prettier-config-harmonizer/"
 ---
-
 # Prettier Config Harmonizer
 
 Uses the Prettier JavaScript API prettier.resolveConfig() and prettier.format() to detect and fix formatting inconsistencies across monorepo packages. Generates unified .prettierrc configurations with per-package overrides.
 
 ## Installation
 
-Install this skill across different agents:
-
-### Any AI Agent (npx)
+### Any Agent (npx)
 ```bash
-npx @anthropic/skills install prettier-config-harmonizer
+npx skills add agentskillexchange/skills --skill prettier-config-harmonizer
 ```
 
 ### Claude Code
 ```bash
-claude skills install prettier-config-harmonizer
+npx skills add agentskillexchange/skills --skill prettier-config-harmonizer -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "skills": ["prettier-config-harmonizer"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill prettier-config-harmonizer -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install prettier-config-harmonizer
 
 ### Codex
 ```bash
-codex skills install prettier-config-harmonizer
+npx skills add agentskillexchange/skills --skill prettier-config-harmonizer -a codex
 ```
-
 ## Details
 
 | Field | Value |

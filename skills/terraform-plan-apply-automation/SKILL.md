@@ -6,12 +6,11 @@ framework: "OpenClaw"
 verification: verified_metadata
 rating: 4.8
 reviews: 47
-creator: Yuki Tanaka
-creator_handle: yukitanaka
+creator: "Yuki Tanaka"
+creator_handle: "@yukitanaka"
 creator_verified: true
-source: https://agentskillexchange.com/skill/terraform-plan-apply-automation/
+source: "https://agentskillexchange.com/skills/terraform-plan-apply-automation/"
 ---
-
 # Terraform Plan & Apply Automation
 
 Runs terraform plan against changed modules, posts a structured diff as a PR comment via GitHub API, and gates terraform apply on reviewer approval. Supports S3 and GCS remote state backends with automatic workspace detection. Integrates with AWS STS and GCP Workload Identity for short-lived credential injection.

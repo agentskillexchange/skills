@@ -3,35 +3,34 @@ name: "Sigstore Cosign Verifier"
 description: "Automates container image signature verification using Cosign CLI and the Rekor transparency log API. Validates SLSA provenance attestations and checks Fulcio certificate chains for keyless signing."
 category: "Security & Verification"
 framework: "Cursor"
-verification: "Verified & Security Reviewed"
+verification: security_reviewed
 rating: 4.7
 reviews: 86
 creator: "Omar Farouk"
 creator_handle: "@omarfarouk"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/sigstore-cosign-verifier-2/"
+source: "https://agentskillexchange.com/skills/sigstore-cosign-verifier-2/"
 ---
-
 # Sigstore Cosign Verifier
 
 Automates container image signature verification using Cosign CLI and the Rekor transparency log API. Validates SLSA provenance attestations and checks Fulcio certificate chains for keyless signing.
 
 ## Installation
 
-Install this skill across different AI coding agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install sigstore-cosign-verifier-2
+npx skills add agentskillexchange/skills --skill sigstore-cosign-verifier-2
 ```
 
 ### Claude Code
 ```bash
-claude mcp add sigstore-cosign-verifier-2
+npx skills add agentskillexchange/skills --skill sigstore-cosign-verifier-2 -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills/` directory or install via Cursor Settings → Skills.
+```bash
+npx skills add agentskillexchange/skills --skill sigstore-cosign-verifier-2 -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install sigstore-cosign-verifier-2
 
 ### Codex
 ```bash
-codex install sigstore-cosign-verifier-2
+npx skills add agentskillexchange/skills --skill sigstore-cosign-verifier-2 -a codex
 ```
-
 ## Details
 
 | Property | Value |

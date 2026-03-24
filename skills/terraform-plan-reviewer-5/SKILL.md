@@ -3,35 +3,32 @@ name: "Terraform Plan Reviewer"
 description: "Parses Terraform plan JSON output from the terraform show -json command to extract resource changes, cost estimates via Infracost API, and security findings from tfsec static analysis."
 category: "CI/CD Integrations"
 framework: "Claude Code"
-verification: "Verified Metadata"
-rating: "4.9"
-reviews: "21"
+verification: verified_metadata
+rating: 4.9
+reviews: 21
 creator: "Community"
 creator_verified: false
-source: "https://agentskillexchange.com/skill/terraform-plan-reviewer-5/"
+source: "https://agentskillexchange.com/skills/terraform-plan-reviewer-5/"
 ---
-
 # Terraform Plan Reviewer
 
 Parses Terraform plan JSON output from the terraform show -json command to extract resource changes, cost estimates via Infracost API, and security findings from tfsec static analysis.
 
 ## Installation
 
-Install this skill for your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install terraform-plan-reviewer-5
+npx skills add agentskillexchange/skills --skill terraform-plan-reviewer-5
 ```
 
 ### Claude Code
 ```bash
-claude skills add terraform-plan-reviewer-5
+npx skills add agentskillexchange/skills --skill terraform-plan-reviewer-5 -a claude-code
 ```
 
 ### Cursor
-```
-Install terraform-plan-reviewer-5 from Cursor Settings → Skills
+```bash
+npx skills add agentskillexchange/skills --skill terraform-plan-reviewer-5 -a cursor
 ```
 
 ### OpenClaw
@@ -41,9 +38,8 @@ clawhub install terraform-plan-reviewer-5
 
 ### Codex
 ```bash
-codex skills add terraform-plan-reviewer-5
+npx skills add agentskillexchange/skills --skill terraform-plan-reviewer-5 -a codex
 ```
-
 ## Details
 
 | Field | Value |

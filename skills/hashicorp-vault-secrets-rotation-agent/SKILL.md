@@ -3,15 +3,14 @@ name: "HashiCorp Vault Secrets Rotation Agent"
 description: "Automates credential rotation workflows using HashiCorp Vault dynamic secrets engine. Manages database credential leases via the Vault HTTP API, rotates AWS IAM access keys through the AWS secrets engine, and handles PKI certificate renewal."
 category: "Security & Verification"
 framework: "Cursor"
-verification: "community"
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/hashicorp-vault-secrets-rotation-agent/"
+source: "https://agentskillexchange.com/skills/hashicorp-vault-secrets-rotation-agent/"
 ---
-
 # HashiCorp Vault Secrets Rotation Agent
 
 Automates credential rotation workflows using HashiCorp Vault dynamic secrets engine. Manages database credential leases via the Vault HTTP API, rotates AWS IAM access keys through the AWS secrets engine, and handles PKI certificate renewal.
@@ -20,22 +19,17 @@ Automates credential rotation workflows using HashiCorp Vault dynamic secrets en
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install hashicorp-vault-secrets-rotation-agent
+npx skills add agentskillexchange/skills --skill hashicorp-vault-secrets-rotation-agent
 ```
 
 ### Claude Code
 ```bash
-claude mcp add hashicorp-vault-secrets-rotation-agent
+npx skills add agentskillexchange/skills --skill hashicorp-vault-secrets-rotation-agent -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "hashicorp-vault-secrets-rotation-agent": {
-    "source": "agentskillexchange"
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill hashicorp-vault-secrets-rotation-agent -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install hashicorp-vault-secrets-rotation-agent
 
 ### Codex
 ```bash
-codex install hashicorp-vault-secrets-rotation-agent
+npx skills add agentskillexchange/skills --skill hashicorp-vault-secrets-rotation-agent -a codex
 ```
-
 ## Details
 
 | Field | Value |

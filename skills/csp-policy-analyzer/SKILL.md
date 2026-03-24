@@ -3,37 +3,34 @@ name: "CSP Policy Analyzer"
 description: "Parses and evaluates Content Security Policy headers using csp-parse and csp-evaluator libraries. Identifies overly permissive directives, missing protections, and generates tightened policy recommendations."
 category: "Security & Verification"
 framework: "Claude Agents"
-verification: "✅ Verified"
-security: "✅ Reviewed"
-rating: "4.9"
-reviews: "11"
+verification: security_reviewed
+rating: 4.9
+reviews: 11
 creator: "Mateo Silva"
 creator_handle: "@mateosilva"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/csp-policy-analyzer/"
+source: "https://agentskillexchange.com/skills/csp-policy-analyzer/"
+security: "✅ Reviewed"
 ---
-
 # CSP Policy Analyzer
 
 Parses and evaluates Content Security Policy headers using csp-parse and csp-evaluator libraries. Identifies overly permissive directives, missing protections, and generates tightened policy recommendations.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install csp-policy-analyzer
+npx skills add agentskillexchange/skills --skill csp-policy-analyzer
 ```
 
 ### Claude Code
 ```bash
-claude skills add csp-policy-analyzer
+npx skills add agentskillexchange/skills --skill csp-policy-analyzer -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor skills install csp-policy-analyzer
+npx skills add agentskillexchange/skills --skill csp-policy-analyzer -a cursor
 ```
 
 ### OpenClaw
@@ -43,9 +40,8 @@ clawhub install csp-policy-analyzer
 
 ### Codex
 ```bash
-codex skills add csp-policy-analyzer
+npx skills add agentskillexchange/skills --skill csp-policy-analyzer -a codex
 ```
-
 ## Details
 
 | Field | Value |

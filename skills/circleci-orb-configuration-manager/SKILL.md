@@ -6,12 +6,11 @@ framework: "ChatGPT Agents"
 verification: verified_metadata
 rating: 4.2
 reviews: 68
-creator: Liam OBrien
-creator_handle: liamobrien
+creator: "Liam OBrien"
+creator_handle: "@liamobrien"
 creator_verified: true
-source: https://agentskillexchange.com/skill/circleci-orb-configuration-manager/
+source: "https://agentskillexchange.com/skills/circleci-orb-configuration-manager/"
 ---
-
 # CircleCI Orb Configuration Manager
 
 Manages CircleCI pipeline configurations using orbs like circleci/node, circleci/docker, and circleci/aws-s3. Handles workflow orchestration, parallelism, and resource class selection via .circleci/config.yml.

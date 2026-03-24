@@ -3,36 +3,33 @@ name: "Cookiecutter Project Scaffolder"
 description: "Manages and renders Cookiecutter templates for Python, Node.js, and Go projects. Integrates with the Cookiecutter CLI and Jinja2 templating engine to produce standardized project structures."
 category: "Templates & Workflows"
 framework: "Gemini"
-verification: ""
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/cookiecutter-project-scaffolder-2/"
+source: "https://agentskillexchange.com/skills/cookiecutter-project-scaffolder-2/"
 ---
-
 # Cookiecutter Project Scaffolder
 
 Manages and renders Cookiecutter templates for Python, Node.js, and Go projects. Integrates with the Cookiecutter CLI and Jinja2 templating engine to produce standardized project structures.
 
 ## Installation
 
-Install this skill across different agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agentskill install cookiecutter-project-scaffolder-2
+npx skills add agentskillexchange/skills --skill cookiecutter-project-scaffolder-2
 ```
 
 ### Claude Code
 ```bash
-claude install-skill cookiecutter-project-scaffolder-2
+npx skills add agentskillexchange/skills --skill cookiecutter-project-scaffolder-2 -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor install-skill cookiecutter-project-scaffolder-2
+npx skills add agentskillexchange/skills --skill cookiecutter-project-scaffolder-2 -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install cookiecutter-project-scaffolder-2
 
 ### Codex
 ```bash
-codex install-skill cookiecutter-project-scaffolder-2
+npx skills add agentskillexchange/skills --skill cookiecutter-project-scaffolder-2 -a codex
 ```
-
 ## Details
 
 | Field | Value |

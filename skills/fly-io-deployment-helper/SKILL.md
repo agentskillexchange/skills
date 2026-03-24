@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.3
 reviews: 41
-creator: Nathan Brooks
-creator_handle: nbrooks
+creator: "Nathan Brooks"
+creator_handle: "@nbrooks"
 creator_verified: false
-source: https://agentskillexchange.com/skill/fly-io-deployment-helper/
+source: "https://agentskillexchange.com/skills/fly-io-deployment-helper/"
 ---
-
 # Fly.io Deployment Helper
 
 Deploy and manage Fly.io applications, Machines, volumes, and secrets through the flyctl CLI and Fly.io GraphQL API. Supports multi-region deployment configuration, autoscaling policies, and Postgres database provisioning.

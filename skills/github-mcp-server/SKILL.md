@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.6
 reviews: 74
-creator: Ava Wilson
-creator_handle: avawilson
+creator: "Ava Wilson"
+creator_handle: "@avawilson"
 creator_verified: true
-source: https://agentskillexchange.com/skill/github-mcp-server/
+source: "https://agentskillexchange.com/skills/github-mcp-server/"
 ---
-
 # GitHub MCP Server
 
 Official GitHub access for agent-driven repo and PR workflows.

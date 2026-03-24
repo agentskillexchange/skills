@@ -3,39 +3,33 @@ name: "Protobuf Schema Registry Manager"
 description: "Manages Protocol Buffer schema evolution using buf CLI with breaking change detection and Confluent Schema Registry integration. Enforces buf lint rules and generates gRPC service stubs via protoc-gen-go and protoc-gen-grpc-web."
 category: "Library & API Reference"
 framework: "Codex"
-verification: ""
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
-creator_verified: "false"
-source: "https://agentskillexchange.com/skill/protobuf-schema-registry-manager/"
+creator_verified: false
+source: "https://agentskillexchange.com/skills/protobuf-schema-registry-manager/"
 ---
-
 # Protobuf Schema Registry Manager
 
 Manages Protocol Buffer schema evolution using buf CLI with breaking change detection and Confluent Schema Registry integration. Enforces buf lint rules and generates gRPC service stubs via protoc-gen-go and protoc-gen-grpc-web.
 
 ## Installation
 
-Install this skill across different agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install protobuf-schema-registry-manager
+npx skills add agentskillexchange/skills --skill protobuf-schema-registry-manager
 ```
 
 ### Claude Code
 ```bash
-claude mcp add protobuf-schema-registry-manager
+npx skills add agentskillexchange/skills --skill protobuf-schema-registry-manager -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["protobuf-schema-registry-manager"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill protobuf-schema-registry-manager -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install protobuf-schema-registry-manager
 
 ### Codex
 ```bash
-codex install protobuf-schema-registry-manager
+npx skills add agentskillexchange/skills --skill protobuf-schema-registry-manager -a codex
 ```
-
 ## Details
 
 | Property | Value |

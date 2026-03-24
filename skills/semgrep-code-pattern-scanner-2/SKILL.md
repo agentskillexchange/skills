@@ -6,12 +6,11 @@ framework: "Codex"
 verification: security_reviewed
 rating: 4.8
 reviews: 60
-creator: Luna Martinez
-creator_handle: lunamartinez
+creator: "Luna Martinez"
+creator_handle: "@lunamartinez"
 creator_verified: false
-source: https://agentskillexchange.com/skill/semgrep-code-pattern-scanner-2/
+source: "https://agentskillexchange.com/skills/semgrep-code-pattern-scanner-2/"
 ---
-
 # Semgrep Code Pattern Scanner
 
 Runs Semgrep against a codebase using official or custom rule registries and outputs a grouped report of security anti-patterns, deprecated API usage, and policy violations. Supports 30+ languages and produces SARIF output.

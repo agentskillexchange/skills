@@ -3,36 +3,33 @@ name: "Playwright Page Data Extractor"
 description: "Uses Microsoft Playwright’s Node.js API to navigate dynamic web applications, intercept network requests, and extract structured data from React/Vue/Angular SPAs with automatic wait strategies."
 category: "Research & Scraping"
 framework: "Claude Code"
-verification: "Verified"
-rating: "4.5"
-reviews: "52"
+verification: verified_metadata
+rating: 4.5
+reviews: 52
 creator: "Aisha Patel"
 creator_handle: "@aishapatel"
-creator_verified: "Yes"
-source: "https://agentskillexchange.com/skill/playwright-page-data-extractor/"
+creator_verified: true
+source: "https://agentskillexchange.com/skills/playwright-page-data-extractor/"
 ---
-
 # Playwright Page Data Extractor
 
 Uses Microsoft Playwright’s Node.js API to navigate dynamic web applications, intercept network requests, and extract structured data from React/Vue/Angular SPAs with automatic wait strategies.
 
 ## Installation
 
-Install this skill using one of the following methods:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install playwright-page-data-extractor
+npx skills add agentskillexchange/skills --skill playwright-page-data-extractor
 ```
 
 ### Claude Code
 ```bash
-claude skills add playwright-page-data-extractor
+npx skills add agentskillexchange/skills --skill playwright-page-data-extractor -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor skills install playwright-page-data-extractor
+npx skills add agentskillexchange/skills --skill playwright-page-data-extractor -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install playwright-page-data-extractor
 
 ### Codex
 ```bash
-codex skills add playwright-page-data-extractor
+npx skills add agentskillexchange/skills --skill playwright-page-data-extractor -a codex
 ```
-
 ## Details
 
 | Field | Value |

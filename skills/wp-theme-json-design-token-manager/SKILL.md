@@ -3,44 +3,33 @@ name: "WordPress Theme.json Design Token Manager"
 description: "Manages WordPress theme.json design tokens including colors, typography, spacing, and custom properties with visual preview and cross-theme compatibility checking."
 category: "WordPress & CMS"
 framework: "Gemini"
-verification: "Community"
+verification: listed
 rating: 4.9
 reviews: 28
 creator: "Hannah Berg"
 creator_handle: "@hannahberg"
 creator_verified: false
-source: "https://agentskillexchange.com/skill/wp-theme-json-design-token-manager/"
+source: "https://agentskillexchange.com/skills/wp-theme-json-design-token-manager/"
 ---
-
 # WordPress Theme.json Design Token Manager
 
 Manages WordPress theme.json design tokens including colors, typography, spacing, and custom properties with visual preview and cross-theme compatibility checking.
 
 ## Installation
 
-Install this skill on your preferred agent platform:
-
 ### Any Agent (npx)
 ```bash
-npx skills install wp-theme-json-design-token-manager
+npx skills add agentskillexchange/skills --skill wp-theme-json-design-token-manager
 ```
 
 ### Claude Code
 ```bash
-claude mcp add wp-theme-json-design-token-manager
+npx skills add agentskillexchange/skills --skill wp-theme-json-design-token-manager -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/mcp.json`:
-```json
-{
-  "mcpServers": {
-    "wp-theme-json-design-token-manager": {
-      "command": "npx",
-      "args": ["-y", "skills", "run", "wp-theme-json-design-token-manager"]
-    }
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill wp-theme-json-design-token-manager -a cursor
 ```
 
 ### OpenClaw
@@ -50,9 +39,8 @@ clawhub install wp-theme-json-design-token-manager
 
 ### Codex
 ```bash
-codex install wp-theme-json-design-token-manager
+npx skills add agentskillexchange/skills --skill wp-theme-json-design-token-manager -a codex
 ```
-
 ## Details
 
 | Property | Value |

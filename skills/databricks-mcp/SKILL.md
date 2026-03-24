@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.4
 reviews: 7
-creator: Sofia Petrov
-creator_handle: sofiapetrov
+creator: "Sofia Petrov"
+creator_handle: "@sofiapetrov"
 creator_verified: true
-source: https://agentskillexchange.com/skill/databricks-mcp/
+source: "https://agentskillexchange.com/skills/databricks-mcp/"
 ---
-
 # Databricks MCP
 
 Connect AI agents to Databricks workspaces via MCP, enabling notebook execution, cluster management, Delta Lake table queries, and MLflow experiment tracking from conversational interfaces. Supports Unity Catalog for governed data access.

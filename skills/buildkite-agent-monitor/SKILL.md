@@ -6,12 +6,11 @@ framework: "Gemini"
 verification: verified_metadata
 rating: 4.4
 reviews: 69
-creator: Tom Anderson
-creator_handle: tanderson
+creator: "Tom Anderson"
+creator_handle: "@tanderson"
 creator_verified: false
-source: https://agentskillexchange.com/skill/buildkite-agent-monitor/
+source: "https://agentskillexchange.com/skills/buildkite-agent-monitor/"
 ---
-
 # Buildkite Agent Monitor
 
 Monitors Buildkite agent pools via the Buildkite REST API v3 and GraphQL API. Tracks agent connectivity, queue depth, job wait times, and dispatches Slack alerts for stalled or disconnected agents.

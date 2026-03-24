@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.5
 reviews: 45
-creator: Ava Wilson
-creator_handle: avawilson
+creator: "Ava Wilson"
+creator_handle: "@avawilson"
 creator_verified: true
-source: https://agentskillexchange.com/skill/semantic-kernel-agent/
+source: "https://agentskillexchange.com/skills/semantic-kernel-agent/"
 ---
-
 # Semantic Kernel Agent
 
 Microsoft Semantic Kernel integration for building AI agents with memory, planning, and plugin orchestration. Connects LLMs to your existing .NET, Python, or Java codebase with a structured skill/plugin model.

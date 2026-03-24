@@ -3,36 +3,33 @@ name: "Kubernetes Runbook Executor"
 description: "Execute diagnostic runbooks for Kubernetes clusters using kubectl, the Kubernetes API, and client-go patterns. Automates pod debugging, resource inspection, and cluster health checks."
 category: "Runbooks & Diagnostics"
 framework: "OpenClaw"
-verification: "security_reviewed"
-rating: "0"
-reviews: "0"
+verification: security_reviewed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/kubernetes-runbook-executor-7/"
+source: "https://agentskillexchange.com/skills/kubernetes-runbook-executor-7/"
 ---
-
 # Kubernetes Runbook Executor
 
 Execute diagnostic runbooks for Kubernetes clusters using kubectl, the Kubernetes API, and client-go patterns. Automates pod debugging, resource inspection, and cluster health checks.
 
 ## Installation
 
-Install this skill using one of these methods:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install kubernetes-runbook-executor-7
+npx skills add agentskillexchange/skills --skill kubernetes-runbook-executor-7
 ```
 
 ### Claude Code
 ```bash
-claude skills add kubernetes-runbook-executor-7
+npx skills add agentskillexchange/skills --skill kubernetes-runbook-executor-7 -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor skills install kubernetes-runbook-executor-7
+npx skills add agentskillexchange/skills --skill kubernetes-runbook-executor-7 -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install kubernetes-runbook-executor-7
 
 ### Codex
 ```bash
-codex skills add kubernetes-runbook-executor-7
+npx skills add agentskillexchange/skills --skill kubernetes-runbook-executor-7 -a codex
 ```
-
 ## Details
 
 | Field | Value |

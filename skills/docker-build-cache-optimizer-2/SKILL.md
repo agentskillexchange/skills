@@ -3,39 +3,33 @@ name: "Docker Build Cache Optimizer"
 description: "Optimizes Docker build caching using BuildKit cache mounts (–mount=type=cache), multi-stage layer analysis via dive CLI, and GitHub Actions cache backend configuration with docker/build-push-action and actions/cache."
 category: "CI/CD Integrations"
 framework: "OpenClaw"
-verification: "verified_metadata"
-rating: "4.7"
-reviews: "26"
+verification: verified_metadata
+rating: 4.7
+reviews: 26
 creator: "Sam Lee"
 creator_handle: "@samlee_dev"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/docker-build-cache-optimizer-2/"
+source: "https://agentskillexchange.com/skills/docker-build-cache-optimizer-2/"
 ---
-
 # Docker Build Cache Optimizer
 
 Optimizes Docker build caching using BuildKit cache mounts (–mount=type=cache), multi-stage layer analysis via dive CLI, and GitHub Actions cache backend configuration with docker/build-push-action and actions/cache.
 
 ## Installation
 
-Install this skill in your AI coding agent:
-
 ### Any Agent (npx)
 ```bash
-npx agentskills install docker-build-cache-optimizer-2
+npx skills add agentskillexchange/skills --skill docker-build-cache-optimizer-2
 ```
 
 ### Claude Code
 ```bash
-claude mcp add docker-build-cache-optimizer-2 -- npx agentskills install docker-build-cache-optimizer-2
+npx skills add agentskillexchange/skills --skill docker-build-cache-optimizer-2 -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/agents.json`:
-```json
-{
-  "skills": ["docker-build-cache-optimizer-2"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill docker-build-cache-optimizer-2 -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install docker-build-cache-optimizer-2
 
 ### Codex
 ```bash
-codex install skill docker-build-cache-optimizer-2
+npx skills add agentskillexchange/skills --skill docker-build-cache-optimizer-2 -a codex
 ```
-
 ## Details
 
 | Field | Value |

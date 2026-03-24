@@ -3,15 +3,14 @@ name: "Jenkins Pipeline Debugger"
 description: "Debugs Jenkins declarative and scripted pipelines using the Jenkins REST API /job/{name}/lastBuild/consoleText and Blue Ocean API endpoints. Parses stage failure logs, identifies flaky test patterns, and suggests Jenkinsfile fixes with proper shared library imports."
 category: "CI/CD Integrations"
 framework: "Custom Agents"
-verification: "security_reviewed"
-rating: "0"
-reviews: "0"
+verification: security_reviewed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/jenkins-pipeline-debugger-skill/"
+source: "https://agentskillexchange.com/skills/jenkins-pipeline-debugger-skill/"
 ---
-
 # Jenkins Pipeline Debugger
 
 Debugs Jenkins declarative and scripted pipelines using the Jenkins REST API /job/{name}/lastBuild/consoleText and Blue Ocean API endpoints. Parses stage failure logs, identifies flaky test patterns, and suggests Jenkinsfile fixes with proper shared library imports.
@@ -20,16 +19,18 @@ Debugs Jenkins declarative and scripted pipelines using the Jenkins REST API /jo
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install jenkins-pipeline-debugger-skill
+npx skills add agentskillexchange/skills --skill jenkins-pipeline-debugger-skill
 ```
 
 ### Claude Code
 ```bash
-claude install-skill jenkins-pipeline-debugger-skill
+npx skills add agentskillexchange/skills --skill jenkins-pipeline-debugger-skill -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills/` directory or install via Cursor Settings → Skills.
+```bash
+npx skills add agentskillexchange/skills --skill jenkins-pipeline-debugger-skill -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -38,9 +39,8 @@ clawhub install jenkins-pipeline-debugger-skill
 
 ### Codex
 ```bash
-codex install-skill jenkins-pipeline-debugger-skill
+npx skills add agentskillexchange/skills --skill jenkins-pipeline-debugger-skill -a codex
 ```
-
 ## Details
 
 | | |

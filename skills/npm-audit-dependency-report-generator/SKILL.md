@@ -6,12 +6,11 @@ framework: "Claude Agents"
 verification: security_reviewed
 rating: 4.9
 reviews: 28
-creator: Isabella Rossi
-creator_handle: irossi
+creator: "Isabella Rossi"
+creator_handle: "@irossi"
 creator_verified: false
-source: https://agentskillexchange.com/skill/npm-audit-dependency-report-generator/
+source: "https://agentskillexchange.com/skills/npm-audit-dependency-report-generator/"
 ---
-
 # npm Audit Dependency Report Generator
 
 Generates comprehensive vulnerability reports from npm audit JSON output and the OSV (Open Source Vulnerabilities) API. Parses npm audit –json results, enriches each CVE with CVSS scores from the NVD REST API, and groups findings by severity. Produces SARIF output compatible with GitHub Advanced Security.

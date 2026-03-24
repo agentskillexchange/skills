@@ -3,36 +3,33 @@ name: "Cheerio DOM Scraping Toolkit"
 description: "Parses static HTML using Cheerio’s jQuery-like API for fast server-side DOM traversal and data extraction. Generates extraction patterns with CSS selectors optimized for resilience to layout changes."
 category: "Research & Scraping"
 framework: "Cursor"
-verification: "Verified"
-rating: "4.9"
-reviews: "19"
+verification: verified_metadata
+rating: 4.9
+reviews: 19
 creator: "Nina Volkov"
 creator_handle: "@ninavolkov"
-creator_verified: "Yes"
-source: "https://agentskillexchange.com/skill/cheerio-dom-scraping-toolkit/"
+creator_verified: true
+source: "https://agentskillexchange.com/skills/cheerio-dom-scraping-toolkit/"
 ---
-
 # Cheerio DOM Scraping Toolkit
 
 Parses static HTML using Cheerio’s jQuery-like API for fast server-side DOM traversal and data extraction. Generates extraction patterns with CSS selectors optimized for resilience to layout changes.
 
 ## Installation
 
-Install this skill using one of the following methods:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install cheerio-dom-scraping-toolkit
+npx skills add agentskillexchange/skills --skill cheerio-dom-scraping-toolkit
 ```
 
 ### Claude Code
 ```bash
-claude skills add cheerio-dom-scraping-toolkit
+npx skills add agentskillexchange/skills --skill cheerio-dom-scraping-toolkit -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor skills install cheerio-dom-scraping-toolkit
+npx skills add agentskillexchange/skills --skill cheerio-dom-scraping-toolkit -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install cheerio-dom-scraping-toolkit
 
 ### Codex
 ```bash
-codex skills add cheerio-dom-scraping-toolkit
+npx skills add agentskillexchange/skills --skill cheerio-dom-scraping-toolkit -a codex
 ```
-
 ## Details
 
 | Field | Value |

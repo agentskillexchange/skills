@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.4
 reviews: 31
-creator: Omar Hassan
-creator_handle: ohassan
+creator: "Omar Hassan"
+creator_handle: "@ohassan"
 creator_verified: true
-source: https://agentskillexchange.com/skill/confluence-page-writer/
+source: "https://agentskillexchange.com/skills/confluence-page-writer/"
 ---
-
 # Confluence Page Writer
 
 Create and update Confluence pages, spaces, and macros through an AI agent using the Confluence REST API. Automates documentation workflows by generating structured pages from templates, code comments, or meeting notes with proper page hierarchy.

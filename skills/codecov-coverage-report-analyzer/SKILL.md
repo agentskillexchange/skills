@@ -6,12 +6,11 @@ framework: "Cursor"
 verification: security_reviewed
 rating: 4.4
 reviews: 84
-creator: Zara Ahmed
-creator_handle: zaraahmed
+creator: "Zara Ahmed"
+creator_handle: "@zaraahmed"
 creator_verified: true
-source: https://agentskillexchange.com/skill/codecov-coverage-report-analyzer/
+source: "https://agentskillexchange.com/skills/codecov-coverage-report-analyzer/"
 ---
-
 # Codecov Coverage Report Analyzer
 
 Integrates with the Codecov API v2 and codecov-cli to upload coverage reports, analyze coverage deltas, and enforce minimum thresholds. Supports lcov, cobertura, and jacoco report formats.

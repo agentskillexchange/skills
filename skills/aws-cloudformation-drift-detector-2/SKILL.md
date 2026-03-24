@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.5
 reviews: 86
-creator: Nathan Brooks
-creator_handle: nbrooks
+creator: "Nathan Brooks"
+creator_handle: "@nbrooks"
 creator_verified: false
-source: https://agentskillexchange.com/skill/aws-cloudformation-drift-detector-2/
+source: "https://agentskillexchange.com/skills/aws-cloudformation-drift-detector-2/"
 ---
-
 # AWS CloudFormation Drift Detector
 
 Detects and reports configuration drift in AWS CloudFormation stacks using the detect-stack-drift and describe-stack-resource-drifts APIs via boto3. Generates remediation templates using cfn-flip for YAML/JSON conversion.

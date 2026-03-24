@@ -3,15 +3,14 @@ name: "SonarQube Code Scanner Agent"
 description: "Automated code quality scanning using SonarQube REST API and SonarScanner CLI. Detects code smells, bugs, and vulnerabilities across 30+ languages with configurable quality gates."
 category: "Code Quality & Review"
 framework: "OpenClaw"
-verification: 
+verification: listed
 rating: 4.7
 reviews: 76
-creator: Zara Ahmed
-creator_handle: zaraahmed
+creator: "Zara Ahmed"
+creator_handle: "@zaraahmed"
 creator_verified: true
-source: https://agentskillexchange.com/skill/sonarqube-code-scanner-agent/
+source: "https://agentskillexchange.com/skills/sonarqube-code-scanner-agent/"
 ---
-
 # SonarQube Code Scanner Agent
 
 Automated code quality scanning using SonarQube REST API and SonarScanner CLI. Detects code smells, bugs, and vulnerabilities across 30+ languages with configurable quality gates.

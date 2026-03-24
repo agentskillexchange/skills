@@ -6,12 +6,11 @@ framework: "Claude Agents"
 verification: security_reviewed
 rating: 4.8
 reviews: 61
-creator: Priya Sharma
-creator_handle: priyasharma
+creator: "Priya Sharma"
+creator_handle: "@priyasharma"
 creator_verified: true
-source: https://agentskillexchange.com/skill/kubernetes-pod-crashloop-runbook/
+source: "https://agentskillexchange.com/skills/kubernetes-pod-crashloop-runbook/"
 ---
-
 # Kubernetes Pod Crashloop Runbook
 
 Automates diagnosis of CrashLoopBackOff pods using kubectl commands wrapped via the Kubernetes API server. Fetches recent events, container logs, and resource quota status to identify root causes such as OOMKilled, misconfigured liveness probes, or missing ConfigMaps. Generates a step-by-step remediation runbook.

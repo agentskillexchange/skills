@@ -6,12 +6,11 @@ framework: "Claude Agents"
 verification: security_reviewed
 rating: 4.0
 reviews: 65
-creator: Isabella Rossi
-creator_handle: irossi
+creator: "Isabella Rossi"
+creator_handle: "@irossi"
 creator_verified: false
-source: https://agentskillexchange.com/skill/kubernetes-runbook-executor-3/
+source: "https://agentskillexchange.com/skills/kubernetes-runbook-executor-3/"
 ---
-
 # Kubernetes Runbook Executor
 
 Executes diagnostic runbooks for Kubernetes clusters using kubectl, kube-state-metrics, and the Kubernetes Python client. Automates pod restart loops, OOMKill analysis, and node pressure troubleshooting.

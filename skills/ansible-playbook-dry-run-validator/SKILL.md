@@ -6,12 +6,11 @@ framework: "OpenClaw"
 verification: verified_metadata
 rating: 4.7
 reviews: 56
-creator: Liam OBrien
-creator_handle: liamobrien
+creator: "Liam OBrien"
+creator_handle: "@liamobrien"
 creator_verified: true
-source: https://agentskillexchange.com/skill/ansible-playbook-dry-run-validator/
+source: "https://agentskillexchange.com/skills/ansible-playbook-dry-run-validator/"
 ---
-
 # Ansible Playbook Dry Run Validator
 
 Validates Ansible playbooks using ansible-lint and the Ansible Galaxy API. Performs check-mode dry runs, validates role dependencies, and detects deprecated module usage across collections.

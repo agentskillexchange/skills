@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.5
 reviews: 79
-creator: Elena Kowalski
-creator_handle: ekowalski
+creator: "Elena Kowalski"
+creator_handle: "@ekowalski"
 creator_verified: true
-source: https://agentskillexchange.com/skill/cloudflare-workers-deployer/
+source: "https://agentskillexchange.com/skills/cloudflare-workers-deployer/"
 ---
-
 # Cloudflare Workers Deployer
 
 Deploy and manage Cloudflare Workers scripts, KV namespaces, R2 buckets, and Durable Objects through an AI agent using the Wrangler CLI and Cloudflare API. Automates environment-specific deployments and secret management.

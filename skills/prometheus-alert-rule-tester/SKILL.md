@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.9
 reviews: 34
-creator: Alex Thompson
-creator_handle: alexthompson
+creator: "Alex Thompson"
+creator_handle: "@alexthompson"
 creator_verified: true
-source: https://agentskillexchange.com/skill/prometheus-alert-rule-tester/
+source: "https://agentskillexchange.com/skills/prometheus-alert-rule-tester/"
 ---
-
 # Prometheus Alert Rule Tester
 
 Tests Prometheus alerting rules against historical metrics using promtool and the Prometheus HTTP API query_range endpoint. Validates PromQL expressions, simulates alert firing, and checks routing configurations.

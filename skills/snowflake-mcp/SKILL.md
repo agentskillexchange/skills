@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.7
 reviews: 77
-creator: Priya Sharma
-creator_handle: priyasharma
+creator: "Priya Sharma"
+creator_handle: "@priyasharma"
 creator_verified: true
-source: https://agentskillexchange.com/skill/snowflake-mcp/
+source: "https://agentskillexchange.com/skills/snowflake-mcp/"
 ---
-
 # Snowflake MCP
 
 Expose Snowflake databases, schemas, and query execution to AI agents via the Model Context Protocol, enabling natural-language SQL generation, query history inspection, and warehouse cost analysis. Supports role-based access control passthrough.

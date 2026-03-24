@@ -6,12 +6,11 @@ framework: "Gemini"
 verification: security_reviewed
 rating: 4.9
 reviews: 86
-creator: Kai Nakamura
-creator_handle: kainakamura
+creator: "Kai Nakamura"
+creator_handle: "@kainakamura"
 creator_verified: true
-source: https://agentskillexchange.com/skill/sonarqube-quality-gate-checker/
+source: "https://agentskillexchange.com/skills/sonarqube-quality-gate-checker/"
 ---
-
 # SonarQube Quality Gate Checker
 
 Queries SonarQube Web API for project quality gate status, code coverage metrics, and technical debt analysis. Integrates with sonar-scanner CLI for on-demand analysis and pr-decoration via the SonarQube ALM integration API.

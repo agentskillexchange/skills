@@ -3,36 +3,33 @@ name: "FFmpeg Media Transcoder"
 description: "Automated video and audio transcoding using FFmpeg with hardware-accelerated encoding via NVENC/VAAPI, HLS adaptive streaming output, and MediaInfo-based quality validation."
 category: "Image & Creative Automation"
 framework: "Claude Code"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.2
 reviews: 40
 creator: "Yuki Tanaka"
 creator_handle: "@yukitanaka"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/ffmpeg-media-transcoder/"
+source: "https://agentskillexchange.com/skills/ffmpeg-media-transcoder/"
 ---
-
 # FFmpeg Media Transcoder
 
 Automated video and audio transcoding using FFmpeg with hardware-accelerated encoding via NVENC/VAAPI, HLS adaptive streaming output, and MediaInfo-based quality validation.
 
 ## Installation
 
-Install this skill using one of these methods:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install ffmpeg-media-transcoder
+npx skills add agentskillexchange/skills --skill ffmpeg-media-transcoder
 ```
 
 ### Claude Code
 ```bash
-claude skills add ffmpeg-media-transcoder
+npx skills add agentskillexchange/skills --skill ffmpeg-media-transcoder -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor skills install ffmpeg-media-transcoder
+npx skills add agentskillexchange/skills --skill ffmpeg-media-transcoder -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install ffmpeg-media-transcoder
 
 ### Codex
 ```bash
-codex skills add ffmpeg-media-transcoder
+npx skills add agentskillexchange/skills --skill ffmpeg-media-transcoder -a codex
 ```
-
 ## Details
 
 | Property | Value |

@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.4
 reviews: 32
-creator: Mia Zhang
-creator_handle: miazhang
+creator: "Mia Zhang"
+creator_handle: "@miazhang"
 creator_verified: true
-source: https://agentskillexchange.com/skill/looker-tableau-data-extractor/
+source: "https://agentskillexchange.com/skills/looker-tableau-data-extractor/"
 ---
-
 # Looker Tableau Data Extractor
 
 Extract Looker Explores and Tableau workbook data through AI agent APIs, enabling agents to retrieve pre-built metrics, dimensions, and dashboard data without requiring BI tool licenses for each consumer. Supports LookML field discovery and Tableau REST API data downloads.

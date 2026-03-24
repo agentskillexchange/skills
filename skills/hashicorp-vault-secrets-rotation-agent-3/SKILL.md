@@ -3,41 +3,33 @@ name: "HashiCorp Vault Secrets Rotation Agent"
 description: "Manages automated secrets rotation using HashiCorp Vault’s dynamic secrets engine and lease renewal APIs. Supports database credential rotation for PostgreSQL, MySQL, and MongoDB with zero-downtime rollovers."
 category: "Security & Verification"
 framework: "Claude Code"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.7
 reviews: 32
 creator: "Carlos Mendez"
 creator_handle: "@carlosmendez"
-creator_verified: yes
-source: "https://agentskillexchange.com/skill/hashicorp-vault-secrets-rotation-agent-3/"
+creator_verified: true
+source: "https://agentskillexchange.com/skills/hashicorp-vault-secrets-rotation-agent-3/"
 ---
-
 # HashiCorp Vault Secrets Rotation Agent
 
 Manages automated secrets rotation using HashiCorp Vault’s dynamic secrets engine and lease renewal APIs. Supports database credential rotation for PostgreSQL, MySQL, and MongoDB with zero-downtime rollovers.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx agentskills install hashicorp-vault-secrets-rotation-agent-3
+npx skills add agentskillexchange/skills --skill hashicorp-vault-secrets-rotation-agent-3
 ```
 
 ### Claude Code
 ```bash
-claude mcp add hashicorp-vault-secrets-rotation-agent-3
+npx skills add agentskillexchange/skills --skill hashicorp-vault-secrets-rotation-agent-3 -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "hashicorp-vault-secrets-rotation-agent-3": {
-    "enabled": true
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill hashicorp-vault-secrets-rotation-agent-3 -a cursor
 ```
 
 ### OpenClaw
@@ -47,9 +39,8 @@ clawhub install hashicorp-vault-secrets-rotation-agent-3
 
 ### Codex
 ```bash
-codex install hashicorp-vault-secrets-rotation-agent-3
+npx skills add agentskillexchange/skills --skill hashicorp-vault-secrets-rotation-agent-3 -a codex
 ```
-
 ## Details
 
 | Field | Value |

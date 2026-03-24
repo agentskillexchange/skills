@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.8
 reviews: 77
-creator: Raj Gupta
-creator_handle: rajgupta
+creator: "Raj Gupta"
+creator_handle: "@rajgupta"
 creator_verified: true
-source: https://agentskillexchange.com/skill/pylint-code-analyzer/
+source: "https://agentskillexchange.com/skills/pylint-code-analyzer/"
 ---
-
 # Pylint Code Analyzer
 
 Runs Pylint on Python codebases for comprehensive code quality analysis: style compliance, error detection, refactoring suggestions, and type checking hints. Generates quality scores and tracks regressions.

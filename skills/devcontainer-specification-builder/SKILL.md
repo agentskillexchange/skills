@@ -3,35 +3,34 @@ name: "Devcontainer Specification Builder"
 description: "Generates dev container specifications with feature composition and lifecycle hooks. Uses the Dev Container Specification API, OCI feature registry, and devcontainer CLI for container-based development."
 category: "Developer Tools"
 framework: "Claude Agents"
-verification: "Community"
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/devcontainer-specification-builder/"
+source: "https://agentskillexchange.com/skills/devcontainer-specification-builder/"
 ---
-
 # Devcontainer Specification Builder
 
 Generates dev container specifications with feature composition and lifecycle hooks. Uses the Dev Container Specification API, OCI feature registry, and devcontainer CLI for container-based development.
 
 ## Installation
 
-Install this skill across different agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install devcontainer-specification-builder
+npx skills add agentskillexchange/skills --skill devcontainer-specification-builder
 ```
 
 ### Claude Code
 ```bash
-claude skills add devcontainer-specification-builder
+npx skills add agentskillexchange/skills --skill devcontainer-specification-builder -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` directory or install via Cursor settings.
+```bash
+npx skills add agentskillexchange/skills --skill devcontainer-specification-builder -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install devcontainer-specification-builder
 
 ### Codex
 ```bash
-codex skills add devcontainer-specification-builder
+npx skills add agentskillexchange/skills --skill devcontainer-specification-builder -a codex
 ```
-
 ## Details
 
 | Field | Value |

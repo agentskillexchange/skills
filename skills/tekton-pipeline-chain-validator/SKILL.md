@@ -3,39 +3,33 @@ name: "Tekton Pipeline Chain Validator"
 description: "Validates Tekton pipeline supply chain security using Sigstore cosign verification and SLSA provenance checks. Ensures all pipeline tasks have signed images and proper attestation metadata via the Tekton Results API."
 category: "CI/CD Integrations"
 framework: "OpenClaw"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.7
 reviews: 16
 creator: "Omar Farouk"
 creator_handle: "@omarfarouk"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/tekton-pipeline-chain-validator/"
+source: "https://agentskillexchange.com/skills/tekton-pipeline-chain-validator/"
 ---
-
 # Tekton Pipeline Chain Validator
 
 Validates Tekton pipeline supply chain security using Sigstore cosign verification and SLSA provenance checks. Ensures all pipeline tasks have signed images and proper attestation metadata via the Tekton Results API.
 
 ## Installation
 
-Install this skill for your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install tekton-pipeline-chain-validator
+npx skills add agentskillexchange/skills --skill tekton-pipeline-chain-validator
 ```
 
 ### Claude Code
 ```bash
-claude skills add tekton-pipeline-chain-validator
+npx skills add agentskillexchange/skills --skill tekton-pipeline-chain-validator -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["tekton-pipeline-chain-validator"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill tekton-pipeline-chain-validator -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install tekton-pipeline-chain-validator
 
 ### Codex
 ```bash
-codex skills add tekton-pipeline-chain-validator
+npx skills add agentskillexchange/skills --skill tekton-pipeline-chain-validator -a codex
 ```
-
 ## Details
 
 | Property | Value |

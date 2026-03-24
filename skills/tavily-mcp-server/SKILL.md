@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.8
 reviews: 8
-creator: Mia Zhang
-creator_handle: miazhang
+creator: "Mia Zhang"
+creator_handle: "@miazhang"
 creator_verified: true
-source: https://agentskillexchange.com/skill/tavily-mcp-server/
+source: "https://agentskillexchange.com/skills/tavily-mcp-server/"
 ---
-
 # Tavily MCP Server
 
 Use this skill to perform AI-optimized web searches designed specifically for agent and research workflows through Tavily’s API via MCP. It returns clean, structured search results optimized for LLM consumption with depth control options. Trigger when you need reliable web search results for agent tasks, research pipelines, or when you need search results formatted for […]

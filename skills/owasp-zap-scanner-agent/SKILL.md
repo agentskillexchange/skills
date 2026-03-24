@@ -3,35 +3,34 @@ name: "OWASP ZAP Scanner Agent"
 description: "Integrates the OWASP ZAP API to run automated DAST scans against web applications. Parses ZAP JSON reports, triages alerts by CVSS severity, and generates remediation tickets via Jira REST API."
 category: "Security & Verification"
 framework: "OpenClaw"
-verification: "Verified & Security Reviewed"
+verification: security_reviewed
 rating: 4.8
 reviews: 37
 creator: "Yuki Tanaka"
 creator_handle: "@yukitanaka"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/owasp-zap-scanner-agent/"
+source: "https://agentskillexchange.com/skills/owasp-zap-scanner-agent/"
 ---
-
 # OWASP ZAP Scanner Agent
 
 Integrates the OWASP ZAP API to run automated DAST scans against web applications. Parses ZAP JSON reports, triages alerts by CVSS severity, and generates remediation tickets via Jira REST API.
 
 ## Installation
 
-Install this skill across different AI coding agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install owasp-zap-scanner-agent
+npx skills add agentskillexchange/skills --skill owasp-zap-scanner-agent
 ```
 
 ### Claude Code
 ```bash
-claude mcp add owasp-zap-scanner-agent
+npx skills add agentskillexchange/skills --skill owasp-zap-scanner-agent -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills/` directory or install via Cursor Settings → Skills.
+```bash
+npx skills add agentskillexchange/skills --skill owasp-zap-scanner-agent -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install owasp-zap-scanner-agent
 
 ### Codex
 ```bash
-codex install owasp-zap-scanner-agent
+npx skills add agentskillexchange/skills --skill owasp-zap-scanner-agent -a codex
 ```
-
 ## Details
 
 | Property | Value |

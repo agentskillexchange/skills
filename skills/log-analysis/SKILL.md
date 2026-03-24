@@ -6,12 +6,11 @@ framework: "Claude Agents"
 verification: security_reviewed
 rating: 4.3
 reviews: 36
-creator: Yuki Tanaka
-creator_handle: yukitanaka
+creator: "Yuki Tanaka"
+creator_handle: "@yukitanaka"
 creator_verified: true
-source: https://agentskillexchange.com/skill/log-analysis/
+source: "https://agentskillexchange.com/skills/log-analysis/"
 ---
-
 # Log Analysis
 
 Use this skill when you need to analyze application or system logs to identify errors, patterns, or anomalies. It parses log files or streams, extracts error rates, traces request flows, and surfaces the most frequent and impactful issues with contextual grouping.

@@ -3,35 +3,34 @@ name: "Terraform Plan Reviewer"
 description: "Analyzes Terraform plan output and HCL configurations using the Terraform CLI JSON output and tfsec static analysis. Detects drift, security misconfigurations, and cost implications."
 category: "Code Quality & Review"
 framework: "Gemini"
-verification: "✅ Verified"
-rating: "4.8"
-reviews: "74"
+verification: security_reviewed
+rating: 4.8
+reviews: 74
 creator: "Lucy Zhang"
 creator_handle: "@lucyzhang"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/terraform-plan-reviewer-agent-2/"
+source: "https://agentskillexchange.com/skills/terraform-plan-reviewer-agent-2/"
 ---
-
 # Terraform Plan Reviewer
 
 Analyzes Terraform plan output and HCL configurations using the Terraform CLI JSON output and tfsec static analysis. Detects drift, security misconfigurations, and cost implications.
 
 ## Installation
 
-Install this skill across different AI coding agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install terraform-plan-reviewer-agent-2
+npx skills add agentskillexchange/skills --skill terraform-plan-reviewer-agent-2
 ```
 
 ### Claude Code
 ```bash
-claude skills add terraform-plan-reviewer-agent-2
+npx skills add agentskillexchange/skills --skill terraform-plan-reviewer-agent-2 -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` directory or install via Cursor Settings → Skills.
+```bash
+npx skills add agentskillexchange/skills --skill terraform-plan-reviewer-agent-2 -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install terraform-plan-reviewer-agent-2
 
 ### Codex
 ```bash
-codex skills install terraform-plan-reviewer-agent-2
+npx skills add agentskillexchange/skills --skill terraform-plan-reviewer-agent-2 -a codex
 ```
-
 ## Details
 
 | Field | Value |

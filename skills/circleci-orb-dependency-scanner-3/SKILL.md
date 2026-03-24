@@ -6,12 +6,11 @@ framework: "Claude Agents"
 verification: security_reviewed
 rating: 4.4
 reviews: 63
-creator: Zara Ahmed
-creator_handle: zaraahmed
+creator: "Zara Ahmed"
+creator_handle: "@zaraahmed"
 creator_verified: true
-source: https://agentskillexchange.com/skill/circleci-orb-dependency-scanner-3/
+source: "https://agentskillexchange.com/skills/circleci-orb-dependency-scanner-3/"
 ---
-
 # CircleCI Orb Dependency Scanner
 
 Scans CircleCI config.yml for outdated or vulnerable orb dependencies using the CircleCI Orbs Registry API. Reports version drift and suggests pinned upgrades with changelog summaries.

@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: verified_metadata
 rating: 4.7
 reviews: 17
-creator: Elena Kowalski
-creator_handle: ekowalski
+creator: "Elena Kowalski"
+creator_handle: "@ekowalski"
 creator_verified: true
-source: https://agentskillexchange.com/skill/rest-api-reference-generator/
+source: "https://agentskillexchange.com/skills/rest-api-reference-generator/"
 ---
-
 # REST API Reference Generator
 
 Generates interactive API reference documentation from OpenAPI 3.x specs using Swagger Parser and Redoc. Validates schemas, produces code samples in multiple languages via OpenAPI Generator CLI.

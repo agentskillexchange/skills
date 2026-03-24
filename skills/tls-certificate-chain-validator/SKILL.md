@@ -3,15 +3,14 @@ name: "TLS Certificate Chain Validator"
 description: "Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates with Let&#8217;s Encrypt ACME protocol for automated certificate renewal alerts and CT log monitoring via crt.sh API."
 category: "Security & Verification"
 framework: "OpenClaw"
-verification: "✅ Verified"
-rating: "4.4"
-reviews: "69"
+verification: security_reviewed
+rating: 4.4
+reviews: 69
 creator: "Lucy Zhang"
 creator_handle: "@lucyzhang"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/tls-certificate-chain-validator/"
+source: "https://agentskillexchange.com/skills/tls-certificate-chain-validator/"
 ---
-
 # TLS Certificate Chain Validator
 
 Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates with Let&#8217;s Encrypt ACME protocol for automated certificate renewal alerts and CT log monitoring via crt.sh API.
@@ -20,22 +19,17 @@ Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks 
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install tls-certificate-chain-validator
+npx skills add agentskillexchange/skills --skill tls-certificate-chain-validator
 ```
 
 ### Claude Code
 ```bash
-claude mcp add tls-certificate-chain-validator
+npx skills add agentskillexchange/skills --skill tls-certificate-chain-validator -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "tls-certificate-chain-validator": {
-    "source": "https://agentskillexchange.com/skill/tls-certificate-chain-validator/"
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill tls-certificate-chain-validator -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install tls-certificate-chain-validator
 
 ### Codex
 ```bash
-codex install tls-certificate-chain-validator
+npx skills add agentskillexchange/skills --skill tls-certificate-chain-validator -a codex
 ```
-
 ## Details
 
 | Field | Value |

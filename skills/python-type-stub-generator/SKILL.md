@@ -3,35 +3,34 @@ name: "Python Type Stub Generator"
 description: "Generates PEP 561 compliant type stubs (.pyi files) for Python packages using mypy stubgen and pyright. Handles C extensions, dynamic attributes, and overloaded function signatures with manual override support."
 category: "Library & API Reference"
 framework: "Codex"
-verification: "Community"
-rating: "4.5"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/python-type-stub-generator/"
+source: "https://agentskillexchange.com/skills/python-type-stub-generator/"
 ---
-
 # Python Type Stub Generator
 
 Generates PEP 561 compliant type stubs (.pyi files) for Python packages using mypy stubgen and pyright. Handles C extensions, dynamic attributes, and overloaded function signatures with manual override support.
 
 ## Installation
 
-Install this skill across different agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install python-type-stub-generator
+npx skills add agentskillexchange/skills --skill python-type-stub-generator
 ```
 
 ### Claude Code
 ```bash
-claude skills add python-type-stub-generator
+npx skills add agentskillexchange/skills --skill python-type-stub-generator -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` directory or install via Cursor settings.
+```bash
+npx skills add agentskillexchange/skills --skill python-type-stub-generator -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install python-type-stub-generator
 
 ### Codex
 ```bash
-codex skills add python-type-stub-generator
+npx skills add agentskillexchange/skills --skill python-type-stub-generator -a codex
 ```
-
 ## Details
 
 | Field | Value |

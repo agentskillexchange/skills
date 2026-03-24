@@ -3,15 +3,14 @@ name: "Docker Compose Health Checker"
 description: "Validates Docker Compose configurations and checks service health using docker compose commands and the Docker Engine API. Detects port conflicts, volume mount issues, and network connectivity problems."
 category: "Runbooks & Diagnostics"
 framework: "Claude Code"
-verification: "community"
-rating: "4.6"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
-creator_verified: 
-source: "https://agentskillexchange.com/skill/docker-compose-health-checker-2/"
+creator_verified: false
+source: "https://agentskillexchange.com/skills/docker-compose-health-checker-2/"
 ---
-
 # Docker Compose Health Checker
 
 Validates Docker Compose configurations and checks service health using docker compose commands and the Docker Engine API. Detects port conflicts, volume mount issues, and network connectivity problems.
@@ -20,20 +19,17 @@ Validates Docker Compose configurations and checks service health using docker c
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install docker-compose-health-checker-2
+npx skills add agentskillexchange/skills --skill docker-compose-health-checker-2
 ```
 
 ### Claude Code
 ```bash
-claude skills add docker-compose-health-checker-2
+npx skills add agentskillexchange/skills --skill docker-compose-health-checker-2 -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` configuration:
-```json
-{
-  "skills": ["docker-compose-health-checker-2"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill docker-compose-health-checker-2 -a cursor
 ```
 
 ### OpenClaw
@@ -43,9 +39,8 @@ clawhub install docker-compose-health-checker-2
 
 ### Codex
 ```bash
-codex skills add docker-compose-health-checker-2
+npx skills add agentskillexchange/skills --skill docker-compose-health-checker-2 -a codex
 ```
-
 ## Details
 
 | Field | Value |

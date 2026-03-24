@@ -3,41 +3,33 @@ name: "Terraform Module Template Generator"
 description: "Generates production-ready Terraform module scaffolds with variables, outputs, provider blocks, and CI validation. Uses the Terraform Registry API to resolve provider schemas and version constraints."
 category: "Templates & Workflows"
 framework: "Cursor"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.4
 reviews: 43
 creator: "James Kim"
 creator_handle: "@jameskim_ai"
-creator_verified: yes
-source: "https://agentskillexchange.com/skill/terraform-module-template-generator-2/"
+creator_verified: true
+source: "https://agentskillexchange.com/skills/terraform-module-template-generator-2/"
 ---
-
 # Terraform Module Template Generator
 
 Generates production-ready Terraform module scaffolds with variables, outputs, provider blocks, and CI validation. Uses the Terraform Registry API to resolve provider schemas and version constraints.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx agentskills install terraform-module-template-generator-2
+npx skills add agentskillexchange/skills --skill terraform-module-template-generator-2
 ```
 
 ### Claude Code
 ```bash
-claude mcp add terraform-module-template-generator-2
+npx skills add agentskillexchange/skills --skill terraform-module-template-generator-2 -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "terraform-module-template-generator-2": {
-    "enabled": true
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill terraform-module-template-generator-2 -a cursor
 ```
 
 ### OpenClaw
@@ -47,9 +39,8 @@ clawhub install terraform-module-template-generator-2
 
 ### Codex
 ```bash
-codex install terraform-module-template-generator-2
+npx skills add agentskillexchange/skills --skill terraform-module-template-generator-2 -a codex
 ```
-
 ## Details
 
 | Field | Value |

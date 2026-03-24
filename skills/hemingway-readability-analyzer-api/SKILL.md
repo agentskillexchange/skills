@@ -3,15 +3,14 @@ name: "Hemingway Readability Analyzer API"
 description: "Scores content readability using textstat library metrics (Flesch-Kincaid, Gunning Fog, SMOG, Coleman-Liau). Highlights complex sentences, passive voice via spaCy dependency parsing, and adverb den..."
 category: "Content Writing & SEO"
 framework: "Cursor"
-verification: ""
+verification: listed
 rating: 0
 reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/hemingway-readability-analyzer-api/"
+source: "https://agentskillexchange.com/skills/hemingway-readability-analyzer-api/"
 ---
-
 # Hemingway Readability Analyzer API
 
 Scores content readability using textstat library metrics (Flesch-Kincaid, Gunning Fog, SMOG, Coleman-Liau). Highlights complex sentences, passive voice via spaCy dependency parsing, and adverb density.
@@ -20,17 +19,17 @@ Scores content readability using textstat library metrics (Flesch-Kincaid, Gunni
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agentskill install hemingway-readability-analyzer-api
+npx skills add agentskillexchange/skills --skill hemingway-readability-analyzer-api
 ```
 
 ### Claude Code
 ```bash
-claude skill add hemingway-readability-analyzer-api
+npx skills add agentskillexchange/skills --skill hemingway-readability-analyzer-api -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor skill install hemingway-readability-analyzer-api
+npx skills add agentskillexchange/skills --skill hemingway-readability-analyzer-api -a cursor
 ```
 
 ### OpenClaw
@@ -40,9 +39,8 @@ clawhub install hemingway-readability-analyzer-api
 
 ### Codex
 ```bash
-codex skill add hemingway-readability-analyzer-api
+npx skills add agentskillexchange/skills --skill hemingway-readability-analyzer-api -a codex
 ```
-
 ## Details
 
 | Field | Value |

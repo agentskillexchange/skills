@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.3
 reviews: 67
-creator: Tom Anderson
-creator_handle: tanderson
+creator: "Tom Anderson"
+creator_handle: "@tanderson"
 creator_verified: false
-source: https://agentskillexchange.com/skill/elasticsearch-mcp/
+source: "https://agentskillexchange.com/skills/elasticsearch-mcp/"
 ---
-
 # Elasticsearch MCP
 
 Query Elasticsearch indices, manage index mappings, and run aggregation pipelines through an AI agent via MCP. Supports natural-language search query generation, index health monitoring, and snapshot lifecycle management.

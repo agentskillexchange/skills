@@ -3,33 +3,34 @@ name: "CircleCI Orb Dependency Scanner"
 description: "Scans CircleCI orb dependencies for known vulnerabilities using the CircleCI Orb Registry API and cross-references with the OSV.dev database. Flags outdated orbs with pinned SHA verification."
 category: "CI/CD Integrations"
 framework: "Cursor"
-verification: "Verified"
-rating: "4.2"
-reviews: "40"
+verification: verified_metadata
+rating: 4.2
+reviews: 40
 creator: "Alex Rivera"
 creator_handle: "@arivera_dev"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/circleci-orb-dependency-scanner-5/"
+source: "https://agentskillexchange.com/skills/circleci-orb-dependency-scanner-5/"
 ---
-
 # CircleCI Orb Dependency Scanner
 
 Scans CircleCI orb dependencies for known vulnerabilities using the CircleCI Orb Registry API and cross-references with the OSV.dev database. Flags outdated orbs with pinned SHA verification.
 
 ## Installation
 
-### Any AI Agent (npx)
+### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install circleci-orb-dependency-scanner-5
+npx skills add agentskillexchange/skills --skill circleci-orb-dependency-scanner-5
 ```
 
 ### Claude Code
 ```bash
-claude skills add circleci-orb-dependency-scanner-5
+npx skills add agentskillexchange/skills --skill circleci-orb-dependency-scanner-5 -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` directory or install via Cursor settings.
+```bash
+npx skills add agentskillexchange/skills --skill circleci-orb-dependency-scanner-5 -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -38,9 +39,8 @@ clawhub install circleci-orb-dependency-scanner-5
 
 ### Codex
 ```bash
-codex skills install circleci-orb-dependency-scanner-5
+npx skills add agentskillexchange/skills --skill circleci-orb-dependency-scanner-5 -a codex
 ```
-
 ## Details
 
 | Field | Value |

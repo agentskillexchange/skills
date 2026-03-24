@@ -3,15 +3,14 @@ name: "SonarQube Quality Gate Explainer"
 description: "Fetches the latest SonarQube project analysis result, explains why the Quality Gate failed in plain English, and links to specific issues. Covers coverage drops, new bugs, and security hotspots. Supports SonarQube Server and SonarCloud. Diagnostic only."
 category: "Code Quality & Review"
 framework: "Claude Code"
-verification: 
+verification: listed
 rating: 4.1
 reviews: 53
-creator: Nathan Brooks
-creator_handle: nbrooks
+creator: "Nathan Brooks"
+creator_handle: "@nbrooks"
 creator_verified: false
-source: https://agentskillexchange.com/skill/sonarqube-quality-gate-explainer/
+source: "https://agentskillexchange.com/skills/sonarqube-quality-gate-explainer/"
 ---
-
 # SonarQube Quality Gate Explainer
 
 Fetches the latest SonarQube project analysis result, explains why the Quality Gate failed in plain English, and links to specific issues. Covers coverage drops, new bugs, and security hotspots. Supports SonarQube Server and SonarCloud. Diagnostic only.

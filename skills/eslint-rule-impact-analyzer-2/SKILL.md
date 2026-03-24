@@ -3,39 +3,33 @@ name: "ESLint Rule Impact Analyzer"
 description: "Measures the impact of enabling new ESLint rules across a codebase using the ESLint Node.js API and @typescript-eslint/parser. Generates violation heatmaps, estimates auto-fix coverage, and prioritizes rules by fix effort."
 category: "Code Quality & Review"
 framework: "Cursor"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.1
 reviews: 79
 creator: "Ava Johnson"
 creator_handle: "@avajohnson"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/eslint-rule-impact-analyzer-2/"
+source: "https://agentskillexchange.com/skills/eslint-rule-impact-analyzer-2/"
 ---
-
 # ESLint Rule Impact Analyzer
 
 Measures the impact of enabling new ESLint rules across a codebase using the ESLint Node.js API and @typescript-eslint/parser. Generates violation heatmaps, estimates auto-fix coverage, and prioritizes rules by fix effort.
 
 ## Installation
 
-Install this skill for your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install eslint-rule-impact-analyzer-2
+npx skills add agentskillexchange/skills --skill eslint-rule-impact-analyzer-2
 ```
 
 ### Claude Code
 ```bash
-claude skills add eslint-rule-impact-analyzer-2
+npx skills add agentskillexchange/skills --skill eslint-rule-impact-analyzer-2 -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["eslint-rule-impact-analyzer-2"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill eslint-rule-impact-analyzer-2 -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install eslint-rule-impact-analyzer-2
 
 ### Codex
 ```bash
-codex skills add eslint-rule-impact-analyzer-2
+npx skills add agentskillexchange/skills --skill eslint-rule-impact-analyzer-2 -a codex
 ```
-
 ## Details
 
 | Property | Value |

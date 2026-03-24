@@ -6,12 +6,11 @@ framework: "Gemini"
 verification: security_reviewed
 rating: 4.6
 reviews: 44
-creator: Sofia Petrov
-creator_handle: sofiapetrov
+creator: "Sofia Petrov"
+creator_handle: "@sofiapetrov"
 creator_verified: true
-source: https://agentskillexchange.com/skill/ansible-playbook-linter/
+source: "https://agentskillexchange.com/skills/ansible-playbook-linter/"
 ---
-
 # Ansible Playbook Linter
 
 Lints Ansible playbooks using ansible-lint rules and yamllint, detecting deprecated modules, missing become directives, and insecure variable handling patterns.

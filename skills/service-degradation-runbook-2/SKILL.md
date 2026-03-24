@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.4
 reviews: 43
-creator: Maya Johnson
-creator_handle: mayaj
+creator: "Maya Johnson"
+creator_handle: "@mayaj"
 creator_verified: false
-source: https://agentskillexchange.com/skill/service-degradation-runbook-2/
+source: "https://agentskillexchange.com/skills/service-degradation-runbook-2/"
 ---
-
 # Service Degradation Runbook
 
 Runbook for managing partial service degradation — when a service is up but performing below SLA. Covers graceful degradation activation, feature flag toggles, circuit breaker management, and customer communication.

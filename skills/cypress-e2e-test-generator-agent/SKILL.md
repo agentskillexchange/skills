@@ -3,39 +3,33 @@ name: "Cypress E2E Test Generator"
 description: "Auto-generates Cypress E2E test suites from OpenAPI 3.0 specs using swagger-parser. Includes cypress-real-events for native browser interactions and Percy SDK for visual regression testing."
 category: "Browser Automation"
 framework: "Cursor"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.8
 reviews: 84
 creator: "Fatima Al-Hassan"
 creator_handle: "@fatimaalhassan"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/cypress-e2e-test-generator-agent/"
+source: "https://agentskillexchange.com/skills/cypress-e2e-test-generator-agent/"
 ---
-
 # Cypress E2E Test Generator
 
 Auto-generates Cypress E2E test suites from OpenAPI 3.0 specs using swagger-parser. Includes cypress-real-events for native browser interactions and Percy SDK for visual regression testing.
 
 ## Installation
 
-Install this skill for your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install cypress-e2e-test-generator-agent
+npx skills add agentskillexchange/skills --skill cypress-e2e-test-generator-agent
 ```
 
 ### Claude Code
 ```bash
-claude skills add cypress-e2e-test-generator-agent
+npx skills add agentskillexchange/skills --skill cypress-e2e-test-generator-agent -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["cypress-e2e-test-generator-agent"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill cypress-e2e-test-generator-agent -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install cypress-e2e-test-generator-agent
 
 ### Codex
 ```bash
-codex skills add cypress-e2e-test-generator-agent
+npx skills add agentskillexchange/skills --skill cypress-e2e-test-generator-agent -a codex
 ```
-
 ## Details
 
 | Property | Value |

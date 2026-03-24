@@ -3,15 +3,14 @@ name: "Jenkins Pipeline Linter"
 description: "Validates Jenkinsfile declarative and scripted pipelines using the Jenkins Pipeline Linter API endpoint and Groovy AST analysis. Detects security anti-patterns like credentials in environment block..."
 category: "CI/CD Integrations"
 framework: "Claude Code"
-verification: "security_reviewed"
-rating: "0"
-reviews: "0"
+verification: security_reviewed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/jenkins-pipeline-linter-4/"
+source: "https://agentskillexchange.com/skills/jenkins-pipeline-linter-4/"
 ---
-
 # Jenkins Pipeline Linter
 
 Validates Jenkinsfile declarative and scripted pipelines using the Jenkins Pipeline Linter API endpoint and Groovy AST analysis. Detects security anti-patterns like credentials in environment blocks and unsafe script approvals.
@@ -20,22 +19,17 @@ Validates Jenkinsfile declarative and scripted pipelines using the Jenkins Pipel
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install jenkins-pipeline-linter-4
+npx skills add agentskillexchange/skills --skill jenkins-pipeline-linter-4
 ```
 
 ### Claude Code
 ```bash
-claude mcp add jenkins-pipeline-linter-4
+npx skills add agentskillexchange/skills --skill jenkins-pipeline-linter-4 -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "jenkins-pipeline-linter-4": {
-    "enabled": true
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill jenkins-pipeline-linter-4 -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install jenkins-pipeline-linter-4
 
 ### Codex
 ```bash
-codex install jenkins-pipeline-linter-4
+npx skills add agentskillexchange/skills --skill jenkins-pipeline-linter-4 -a codex
 ```
-
 ## Details
 
 | Field | Value |

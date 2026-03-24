@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.1
 reviews: 14
-creator: Kai Nakamura
-creator_handle: kainakamura
+creator: "Kai Nakamura"
+creator_handle: "@kainakamura"
 creator_verified: true
-source: https://agentskillexchange.com/skill/babyagi-task-planner/
+source: "https://agentskillexchange.com/skills/babyagi-task-planner/"
 ---
-
 # BabyAGI Task Planner
 
 BabyAGI is a pioneering autonomous task management system that uses LLMs to create, prioritize, and execute tasks toward a given objective. This skill covers implementing BabyAGI patterns for goal-driven task decomposition and iterative execution.

@@ -3,39 +3,43 @@ name: "Codecov Diff Analyzer"
 description: "Uses the Codecov API v2 to analyze coverage diffs on pull requests. Surfaces uncovered lines in changed files and compares against Codecov YAML threshold configurations."
 category: "Uncategorized"
 framework: "Unknown"
-verification: "Security Reviewed"
-rating: "4.9"
-reviews: "84"
+verification: security_reviewed
+rating: 4.9
+reviews: 84
 creator: "Community"
 creator_verified: false
-source: "https://agentskillexchange.com/skill/codecov-diff-analyzer-2/"
+source: "https://agentskillexchange.com/skills/codecov-diff-analyzer-2/"
 ---
-
 # Codecov Diff Analyzer
 
 Uses the Codecov API v2 to analyze coverage diffs on pull requests. Surfaces uncovered lines in changed files and compares against Codecov YAML threshold configurations.
 
 ## Installation
 
-Install this skill for your preferred agent:
-
+### Any Agent (npx)
 ```bash
-# Any npx-compatible agent
-npx skills install codecov-diff-analyzer-2
-
-# Claude Code
-claude mcp add skills -- npx -y skills install codecov-diff-analyzer-2
-
-# Cursor
-cursor mcp add skills -- npx -y skills install codecov-diff-analyzer-2
-
-# OpenClaw
-clawhub install codecov-diff-analyzer-2
-
-# Codex
-codex install codecov-diff-analyzer-2
+npx skills add agentskillexchange/skills --skill codecov-diff-analyzer-2
 ```
 
+### Claude Code
+```bash
+npx skills add agentskillexchange/skills --skill codecov-diff-analyzer-2 -a claude-code
+```
+
+### Cursor
+```bash
+npx skills add agentskillexchange/skills --skill codecov-diff-analyzer-2 -a cursor
+```
+
+### OpenClaw
+```bash
+clawhub install codecov-diff-analyzer-2
+```
+
+### Codex
+```bash
+npx skills add agentskillexchange/skills --skill codecov-diff-analyzer-2 -a codex
+```
 ## Details
 
 | | |

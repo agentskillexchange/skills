@@ -3,33 +3,34 @@ name: "Tekton Pipeline Resource Optimizer"
 description: "Analyzes Tekton Pipeline and Task resource definitions using the Tekton Results API. Recommends CPU/memory request adjustments based on historical TaskRun metrics from Prometheus."
 category: "CI/CD Integrations"
 framework: "Cursor"
-verification: "Verified"
-rating: "4.8"
-reviews: "32"
+verification: verified_metadata
+rating: 4.8
+reviews: 32
 creator: "Aisha Patel"
 creator_handle: "@aishapatel"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/tekton-pipeline-resource-optimizer/"
+source: "https://agentskillexchange.com/skills/tekton-pipeline-resource-optimizer/"
 ---
-
 # Tekton Pipeline Resource Optimizer
 
 Analyzes Tekton Pipeline and Task resource definitions using the Tekton Results API. Recommends CPU/memory request adjustments based on historical TaskRun metrics from Prometheus.
 
 ## Installation
 
-### Any AI Agent (npx)
+### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install tekton-pipeline-resource-optimizer
+npx skills add agentskillexchange/skills --skill tekton-pipeline-resource-optimizer
 ```
 
 ### Claude Code
 ```bash
-claude skills add tekton-pipeline-resource-optimizer
+npx skills add agentskillexchange/skills --skill tekton-pipeline-resource-optimizer -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` directory or install via Cursor settings.
+```bash
+npx skills add agentskillexchange/skills --skill tekton-pipeline-resource-optimizer -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -38,9 +39,8 @@ clawhub install tekton-pipeline-resource-optimizer
 
 ### Codex
 ```bash
-codex skills install tekton-pipeline-resource-optimizer
+npx skills add agentskillexchange/skills --skill tekton-pipeline-resource-optimizer -a codex
 ```
-
 ## Details
 
 | Field | Value |

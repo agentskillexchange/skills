@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.4
 reviews: 23
-creator: James Whitfield
-creator_handle: jwhitfield
+creator: "James Whitfield"
+creator_handle: "@jwhitfield"
 creator_verified: true
-source: https://agentskillexchange.com/skill/dependency-graph-visualizer-skill/
+source: "https://agentskillexchange.com/skills/dependency-graph-visualizer-skill/"
 ---
-
 # Dependency Graph Visualizer Skill
 
 Use this skill to analyze a codebase and generate visual dependency graphs showing module imports, package dependencies, and circular dependency detection. It helps identify architectural issues, understand code structure, and plan refactoring. Trigger when analyzing large codebases, planning refactoring, or detecting problematic circular dependencies.

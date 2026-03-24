@@ -6,12 +6,11 @@ framework: "OpenClaw"
 verification: security_reviewed
 rating: 4.9
 reviews: 74
-creator: David Kim
-creator_handle: dkim
+creator: "David Kim"
+creator_handle: "@dkim"
 creator_verified: false
-source: https://agentskillexchange.com/skill/github-actions-workflow-linter-2/
+source: "https://agentskillexchange.com/skills/github-actions-workflow-linter-2/"
 ---
-
 # GitHub Actions Workflow Linter
 
 Validates GitHub Actions YAML workflows using actionlint and the GitHub Actions REST API. Detects invalid step references, missing secrets declarations, and deprecated action versions before CI runs.

@@ -6,12 +6,11 @@ framework: "OpenClaw"
 verification: security_reviewed
 rating: 4.8
 reviews: 86
-creator: Elena Kowalski
-creator_handle: ekowalski
+creator: "Elena Kowalski"
+creator_handle: "@ekowalski"
 creator_verified: true
-source: https://agentskillexchange.com/skill/argocd-sync-status-monitor-2/
+source: "https://agentskillexchange.com/skills/argocd-sync-status-monitor-2/"
 ---
-
 # ArgoCD Sync Status Monitor
 
 Polls ArgoCD application sync status, detects OutOfSync and Degraded states, and reports which Kubernetes resources drifted and why. Compares live cluster state against Git source-of-truth.

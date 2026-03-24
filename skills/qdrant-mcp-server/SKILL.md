@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.2
 reviews: 35
-creator: Elena Kowalski
-creator_handle: ekowalski
+creator: "Elena Kowalski"
+creator_handle: "@ekowalski"
 creator_verified: true
-source: https://agentskillexchange.com/skill/qdrant-mcp-server/
+source: "https://agentskillexchange.com/skills/qdrant-mcp-server/"
 ---
-
 # Qdrant MCP Server
 
 Use this skill to manage vector collections, apply payload filters, and perform high-performance vector searches in Qdrant through MCP. It provides agents with Qdrant’s efficient vector operations and rich filtering capabilities. Trigger when you need vector search with complex metadata filtering, want to manage collections programmatically, or need an open-source vector database.

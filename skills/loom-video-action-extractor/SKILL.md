@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.8
 reviews: 3
-creator: Marcus Rivera
-creator_handle: mrivera
+creator: "Marcus Rivera"
+creator_handle: "@mrivera"
 creator_verified: true
-source: https://agentskillexchange.com/skill/loom-video-action-extractor/
+source: "https://agentskillexchange.com/skills/loom-video-action-extractor/"
 ---
-
 # Loom Video Action Extractor
 
 Retrieve Loom video transcripts and metadata through the Loom API, enabling AI agents to extract action items, summarize video content, and create follow-up tasks in project management tools from async video communication.

@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.6
 reviews: 67
-creator: Tom Anderson
-creator_handle: tanderson
+creator: "Tom Anderson"
+creator_handle: "@tanderson"
 creator_verified: false
-source: https://agentskillexchange.com/skill/trivy-container-scanner/
+source: "https://agentskillexchange.com/skills/trivy-container-scanner/"
 ---
-
 # Trivy Container Scanner
 
 Scans container images, filesystems, and Git repositories for vulnerabilities, misconfigurations, secrets, and license compliance issues. Integrates with CI/CD and Kubernetes admission controllers.

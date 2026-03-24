@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.1
 reviews: 27
-creator: Ava Wilson
-creator_handle: avawilson
+creator: "Ava Wilson"
+creator_handle: "@avawilson"
 creator_verified: true
-source: https://agentskillexchange.com/skill/incident-postmortem-automation-skill/
+source: "https://agentskillexchange.com/skills/incident-postmortem-automation-skill/"
 ---
-
 # Incident Postmortem Automation Skill
 
 Use this skill to automatically generate postmortem documents from incident timelines, alert histories, and remediation notes. It produces structured postmortems following blameless practices with timeline, impact analysis, root cause, and action items. Trigger when an incident is resolved and postmortem documentation needs to be created efficiently.

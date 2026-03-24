@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.9
 reviews: 56
-creator: Tom Anderson
-creator_handle: tanderson
+creator: "Tom Anderson"
+creator_handle: "@tanderson"
 creator_verified: false
-source: https://agentskillexchange.com/skill/digitalocean-droplet-manager/
+source: "https://agentskillexchange.com/skills/digitalocean-droplet-manager/"
 ---
-
 # DigitalOcean Droplet Manager
 
 Create, configure, and manage DigitalOcean Droplets, Kubernetes clusters, and managed databases through the doctl CLI and DigitalOcean API. Supports automated Droplet provisioning with cloud-init scripts and firewall rule management.

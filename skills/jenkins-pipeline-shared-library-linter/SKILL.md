@@ -6,12 +6,11 @@ framework: "Codex"
 verification: security_reviewed
 rating: 4.7
 reviews: 86
-creator: Omar Hassan
-creator_handle: ohassan
+creator: "Omar Hassan"
+creator_handle: "@ohassan"
 creator_verified: true
-source: https://agentskillexchange.com/skill/jenkins-pipeline-shared-library-linter/
+source: "https://agentskillexchange.com/skills/jenkins-pipeline-shared-library-linter/"
 ---
-
 # Jenkins Pipeline Shared Library Linter
 
 Lints Jenkins Declarative and Scripted pipeline syntax using the Jenkins REST API and the Jenkins CLI jar. Checks Jenkinsfile syntax against a live or sandbox Jenkins controller using the /pipeline-model-converter/validate endpoint. Reports errors with line numbers and suggested fixes.

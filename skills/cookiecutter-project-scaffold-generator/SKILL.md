@@ -3,35 +3,34 @@ name: "Cookiecutter Project Scaffold Generator"
 description: "Generates project scaffolds from Cookiecutter templates with Jinja2 variable interpolation. Supports post-generation hooks, conditional file inclusion, and template composition from multiple sources."
 category: "Templates & Workflows"
 framework: "Codex"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.7
 reviews: 41
 creator: "Mateo Silva"
 creator_handle: "@mateosilva"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/cookiecutter-project-scaffold-generator/"
+source: "https://agentskillexchange.com/skills/cookiecutter-project-scaffold-generator/"
 ---
-
 # Cookiecutter Project Scaffold Generator
 
 Generates project scaffolds from Cookiecutter templates with Jinja2 variable interpolation. Supports post-generation hooks, conditional file inclusion, and template composition from multiple sources.
 
 ## Installation
 
-Install this skill in your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install cookiecutter-project-scaffold-generator
+npx skills add agentskillexchange/skills --skill cookiecutter-project-scaffold-generator
 ```
 
 ### Claude Code
 ```bash
-claude install-skill cookiecutter-project-scaffold-generator
+npx skills add agentskillexchange/skills --skill cookiecutter-project-scaffold-generator -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills/` directory or install via Cursor Settings → Skills.
+```bash
+npx skills add agentskillexchange/skills --skill cookiecutter-project-scaffold-generator -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install cookiecutter-project-scaffold-generator
 
 ### Codex
 ```bash
-codex install-skill cookiecutter-project-scaffold-generator
+npx skills add agentskillexchange/skills --skill cookiecutter-project-scaffold-generator -a codex
 ```
-
 ## Details
 
 | Field | Value |

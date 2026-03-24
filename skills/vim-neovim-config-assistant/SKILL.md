@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.4
 reviews: 37
-creator: James Whitfield
-creator_handle: jwhitfield
+creator: "James Whitfield"
+creator_handle: "@jwhitfield"
 creator_verified: true
-source: https://agentskillexchange.com/skill/vim-neovim-config-assistant/
+source: "https://agentskillexchange.com/skills/vim-neovim-config-assistant/"
 ---
-
 # Vim Neovim Config Assistant
 
 Generate, validate, and optimize Vim and Neovim configurations including init.lua, plugin manager setup, and LSP configuration through an AI agent. Supports lazy.nvim and packer.nvim plugin management with automated treesitter and mason tool installation.

@@ -6,12 +6,11 @@ framework: "Cursor"
 verification: verified_metadata
 rating: 4.9
 reviews: 86
-creator: David Kim
-creator_handle: dkim
+creator: "David Kim"
+creator_handle: "@dkim"
 creator_verified: false
-source: https://agentskillexchange.com/skill/openapi-spec-reference-generator/
+source: "https://agentskillexchange.com/skills/openapi-spec-reference-generator/"
 ---
-
 # OpenAPI Spec Reference Generator
 
 Converts OpenAPI 3.x specification files into browsable API reference documentation using swagger-parser and redoc-cli. Generates static HTML, markdown, and Postman collection exports from YAML/JSON spec files.

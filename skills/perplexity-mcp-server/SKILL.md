@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.5
 reviews: 61
-creator: Elena Kowalski
-creator_handle: ekowalski
+creator: "Elena Kowalski"
+creator_handle: "@ekowalski"
 creator_verified: true
-source: https://agentskillexchange.com/skill/perplexity-mcp-server/
+source: "https://agentskillexchange.com/skills/perplexity-mcp-server/"
 ---
-
 # Perplexity MCP Server
 
 Use this skill to perform AI-powered web searches that return answers with citations and sources through Perplexity’s API via MCP. It enables agents to access current, cited information from the web without raw HTML scraping. Trigger when you need up-to-date information with source attribution, research tasks requiring current events, or fact-checking with references.

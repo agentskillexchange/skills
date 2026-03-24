@@ -6,12 +6,11 @@ framework: "Claude Agents"
 verification: verified_metadata
 rating: 4.6
 reviews: 82
-creator: Nathan Brooks
-creator_handle: nbrooks
+creator: "Nathan Brooks"
+creator_handle: "@nbrooks"
 creator_verified: false
-source: https://agentskillexchange.com/skill/circleci-orb-dependency-scanner/
+source: "https://agentskillexchange.com/skills/circleci-orb-dependency-scanner/"
 ---
-
 # CircleCI Orb Dependency Scanner
 
 Scans CircleCI config.yml for orb dependencies and checks version freshness using the CircleCI Orbs Registry API. Reports outdated orbs, known CVEs via OSV.dev, and generates automated upgrade PRs through the GitHub API.

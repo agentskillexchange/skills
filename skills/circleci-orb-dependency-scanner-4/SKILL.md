@@ -3,15 +3,14 @@ name: "CircleCI Orb Dependency Scanner"
 description: "Scans CircleCI config.yml for outdated orb versions using the CircleCI Orbs Registry API. Reports CVEs linked to orb dependencies via Snyk vulnerability database lookups."
 category: "CI/CD Integrations"
 framework: "Claude Code"
-verification: "verified_metadata"
-rating: "0"
-reviews: "0"
+verification: verified_metadata
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/circleci-orb-dependency-scanner-4/"
+source: "https://agentskillexchange.com/skills/circleci-orb-dependency-scanner-4/"
 ---
-
 # CircleCI Orb Dependency Scanner
 
 Scans CircleCI config.yml for outdated orb versions using the CircleCI Orbs Registry API. Reports CVEs linked to orb dependencies via Snyk vulnerability database lookups.
@@ -20,23 +19,17 @@ Scans CircleCI config.yml for outdated orb versions using the CircleCI Orbs Regi
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agentskill install circleci-orb-dependency-scanner-4
+npx skills add agentskillexchange/skills --skill circleci-orb-dependency-scanner-4
 ```
 
 ### Claude Code
 ```bash
-claude mcp add circleci-orb-dependency-scanner-4
+npx skills add agentskillexchange/skills --skill circleci-orb-dependency-scanner-4 -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "circleci-orb-dependency-scanner-4": {
-    "source": "agentskillexchange",
-    "enabled": true
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill circleci-orb-dependency-scanner-4 -a cursor
 ```
 
 ### OpenClaw
@@ -46,9 +39,8 @@ clawhub install circleci-orb-dependency-scanner-4
 
 ### Codex
 ```bash
-codex install circleci-orb-dependency-scanner-4
+npx skills add agentskillexchange/skills --skill circleci-orb-dependency-scanner-4 -a codex
 ```
-
 ## Details
 
 | Field | Value |

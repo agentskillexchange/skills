@@ -3,15 +3,14 @@ name: "Adobe Firefly API Batch Image Generator"
 description: "Calls Adobe Firefly’s text-to-image and generative fill APIs for batch asset creation. Manages Adobe IMS OAuth tokens and enforces Content Credentials (C2PA) metadata on all outputs."
 category: "Image & Creative Automation"
 framework: "Cursor"
-verification: ""
+verification: listed
 rating: 0
 reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/adobe-firefly-api-batch-image-generator/"
+source: "https://agentskillexchange.com/skills/adobe-firefly-api-batch-image-generator/"
 ---
-
 # Adobe Firefly API Batch Image Generator
 
 Calls Adobe Firefly’s text-to-image and generative fill APIs for batch asset creation. Manages Adobe IMS OAuth tokens and enforces Content Credentials (C2PA) metadata on all outputs.
@@ -20,17 +19,17 @@ Calls Adobe Firefly’s text-to-image and generative fill APIs for batch asset c
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agentskill install adobe-firefly-api-batch-image-generator
+npx skills add agentskillexchange/skills --skill adobe-firefly-api-batch-image-generator
 ```
 
 ### Claude Code
 ```bash
-claude skill add adobe-firefly-api-batch-image-generator
+npx skills add agentskillexchange/skills --skill adobe-firefly-api-batch-image-generator -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor skill install adobe-firefly-api-batch-image-generator
+npx skills add agentskillexchange/skills --skill adobe-firefly-api-batch-image-generator -a cursor
 ```
 
 ### OpenClaw
@@ -40,9 +39,8 @@ clawhub install adobe-firefly-api-batch-image-generator
 
 ### Codex
 ```bash
-codex skill add adobe-firefly-api-batch-image-generator
+npx skills add agentskillexchange/skills --skill adobe-firefly-api-batch-image-generator -a codex
 ```
-
 ## Details
 
 | Field | Value |

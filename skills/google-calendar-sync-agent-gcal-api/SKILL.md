@@ -3,15 +3,14 @@ name: "Google Calendar Sync Agent"
 description: "Synchronizes events across Google Calendar accounts using the Google Calendar API v3 with OAuth2 token refresh and conflict detection. Handles recurring event expansion via RFC 5545 RRULE parsing and ."
 category: "Calendar, Email & Productivity"
 framework: "OpenClaw"
-verification: ""
+verification: listed
 rating: 0
 reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/google-calendar-sync-agent-gcal-api/"
+source: "https://agentskillexchange.com/skills/google-calendar-sync-agent-gcal-api/"
 ---
-
 # Google Calendar Sync Agent
 
 Synchronizes events across Google Calendar accounts using the Google Calendar API v3 with OAuth2 token refresh and conflict detection. Handles recurring event expansion via RFC 5545 RRULE parsing and provides real-time webhook notifications through Google Push Notifications.
@@ -20,17 +19,17 @@ Synchronizes events across Google Calendar accounts using the Google Calendar AP
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install google-calendar-sync-agent-gcal-api
+npx skills add agentskillexchange/skills --skill google-calendar-sync-agent-gcal-api
 ```
 
 ### Claude Code
 ```bash
-claude skill add google-calendar-sync-agent-gcal-api
+npx skills add agentskillexchange/skills --skill google-calendar-sync-agent-gcal-api -a claude-code
 ```
 
 ### Cursor
-```
-Install from Cursor Settings > Skills > Add Skill > "Google Calendar Sync Agent"
+```bash
+npx skills add agentskillexchange/skills --skill google-calendar-sync-agent-gcal-api -a cursor
 ```
 
 ### OpenClaw
@@ -40,9 +39,8 @@ clawhub install google-calendar-sync-agent-gcal-api
 
 ### Codex
 ```bash
-codex skill add google-calendar-sync-agent-gcal-api
+npx skills add agentskillexchange/skills --skill google-calendar-sync-agent-gcal-api -a codex
 ```
-
 ## Details
 
 | Property | Value |

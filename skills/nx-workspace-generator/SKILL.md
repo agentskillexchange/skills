@@ -3,39 +3,33 @@ name: "Nx Workspace Generator"
 description: "Creates and manages Nx monorepo workspace generators using @nx/devkit and the Nx plugin API. Generates libraries, applications, and custom executors with automatic dependency graph updates via nx graph."
 category: "Templates & Workflows"
 framework: "Claude Code"
-verification: "Yes"
-rating: "4.5"
-reviews: "59"
+verification: verified_metadata
+rating: 4.5
+reviews: 59
 creator: "Carlos Mendez"
 creator_handle: "@carlosmendez"
-creator_verified: "Yes"
-source: "https://agentskillexchange.com/skill/nx-workspace-generator/"
+creator_verified: true
+source: "https://agentskillexchange.com/skills/nx-workspace-generator/"
 ---
-
 # Nx Workspace Generator
 
 Creates and manages Nx monorepo workspace generators using @nx/devkit and the Nx plugin API. Generates libraries, applications, and custom executors with automatic dependency graph updates via nx graph.
 
 ## Installation
 
-Install this skill for your preferred agent framework:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skill install nx-workspace-generator
+npx skills add agentskillexchange/skills --skill nx-workspace-generator
 ```
 
 ### Claude Code
 ```bash
-claude skills install nx-workspace-generator
+npx skills add agentskillexchange/skills --skill nx-workspace-generator -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["nx-workspace-generator"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill nx-workspace-generator -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install nx-workspace-generator
 
 ### Codex
 ```bash
-codex skills install nx-workspace-generator
+npx skills add agentskillexchange/skills --skill nx-workspace-generator -a codex
 ```
-
 ## Details
 
 | Property | Value |

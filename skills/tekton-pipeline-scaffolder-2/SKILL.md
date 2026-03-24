@@ -3,36 +3,33 @@ name: "Tekton Pipeline Scaffolder"
 description: "Scaffolds Tekton CI/CD pipelines with Tasks from Tekton Hub including git-clone, buildah, and kubernetes-actions. Generates PipelineRun manifests with workspace volume claims and result propagation."
 category: "CI/CD Integrations"
 framework: "MCP-compatible"
-verification: "community"
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
-creator_verified: "false"
-source: "https://agentskillexchange.com/skill/tekton-pipeline-scaffolder-2/"
+creator_verified: false
+source: "https://agentskillexchange.com/skills/tekton-pipeline-scaffolder-2/"
 ---
-
 # Tekton Pipeline Scaffolder
 
 Scaffolds Tekton CI/CD pipelines with Tasks from Tekton Hub including git-clone, buildah, and kubernetes-actions. Generates PipelineRun manifests with workspace volume claims and result propagation.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install tekton-pipeline-scaffolder-2
+npx skills add agentskillexchange/skills --skill tekton-pipeline-scaffolder-2
 ```
 
 ### Claude Code
 ```bash
-claude skills add tekton-pipeline-scaffolder-2
+npx skills add agentskillexchange/skills --skill tekton-pipeline-scaffolder-2 -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor skills install tekton-pipeline-scaffolder-2
+npx skills add agentskillexchange/skills --skill tekton-pipeline-scaffolder-2 -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install tekton-pipeline-scaffolder-2
 
 ### Codex
 ```bash
-codex skills add tekton-pipeline-scaffolder-2
+npx skills add agentskillexchange/skills --skill tekton-pipeline-scaffolder-2 -a codex
 ```
-
 ## Details
 
 | Field | Value |

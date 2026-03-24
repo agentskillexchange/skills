@@ -3,35 +3,34 @@ name: "HashiCorp Vault Secrets Rotation Agent"
 description: "Automates secret rotation in HashiCorp Vault using the Vault API and dynamic secrets engines. Manages database credential leases, PKI certificate renewal, and AWS STS token generation with TTL policies."
 category: "Security & Verification"
 framework: "MCP-compatible"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.2
 reviews: 74
 creator: "Alex Rivera"
 creator_handle: "@arivera_dev"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/hashicorp-vault-secrets-rotation-agent-2/"
+source: "https://agentskillexchange.com/skills/hashicorp-vault-secrets-rotation-agent-2/"
 ---
-
 # HashiCorp Vault Secrets Rotation Agent
 
 Automates secret rotation in HashiCorp Vault using the Vault API and dynamic secrets engines. Manages database credential leases, PKI certificate renewal, and AWS STS token generation with TTL policies.
 
 ## Installation
 
-Install this skill in your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install hashicorp-vault-secrets-rotation-agent-2
+npx skills add agentskillexchange/skills --skill hashicorp-vault-secrets-rotation-agent-2
 ```
 
 ### Claude Code
 ```bash
-claude install-skill hashicorp-vault-secrets-rotation-agent-2
+npx skills add agentskillexchange/skills --skill hashicorp-vault-secrets-rotation-agent-2 -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills/` directory or install via Cursor Settings → Skills.
+```bash
+npx skills add agentskillexchange/skills --skill hashicorp-vault-secrets-rotation-agent-2 -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install hashicorp-vault-secrets-rotation-agent-2
 
 ### Codex
 ```bash
-codex install-skill hashicorp-vault-secrets-rotation-agent-2
+npx skills add agentskillexchange/skills --skill hashicorp-vault-secrets-rotation-agent-2 -a codex
 ```
-
 ## Details
 
 | Field | Value |

@@ -3,15 +3,14 @@ name: "ArgoCD Sync Troubleshooter"
 description: "Diagnoses ArgoCD application sync failures using the ArgoCD REST API and Kubernetes resource diff analysis. Identifies Helm value conflicts, Kustomize overlay errors, and resource health check fail..."
 category: "CI/CD Integrations"
 framework: "Claude Agents"
-verification: "Community"
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/argocd-sync-troubleshooter/"
+source: "https://agentskillexchange.com/skills/argocd-sync-troubleshooter/"
 ---
-
 # ArgoCD Sync Troubleshooter
 
 Diagnoses ArgoCD application sync failures using the ArgoCD REST API and Kubernetes resource diff analysis. Identifies Helm value conflicts, Kustomize overlay errors, and resource health check failures.
@@ -20,17 +19,17 @@ Diagnoses ArgoCD application sync failures using the ArgoCD REST API and Kuberne
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install argocd-sync-troubleshooter
+npx skills add agentskillexchange/skills --skill argocd-sync-troubleshooter
 ```
 
 ### Claude Code
 ```bash
-claude install-skill argocd-sync-troubleshooter
+npx skills add agentskillexchange/skills --skill argocd-sync-troubleshooter -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor install-skill argocd-sync-troubleshooter
+npx skills add agentskillexchange/skills --skill argocd-sync-troubleshooter -a cursor
 ```
 
 ### OpenClaw
@@ -40,9 +39,8 @@ clawhub install argocd-sync-troubleshooter
 
 ### Codex
 ```bash
-codex install-skill argocd-sync-troubleshooter
+npx skills add agentskillexchange/skills --skill argocd-sync-troubleshooter -a codex
 ```
-
 ## Details
 
 | Field | Value |

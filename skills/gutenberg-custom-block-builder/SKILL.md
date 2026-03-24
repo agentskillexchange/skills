@@ -3,35 +3,34 @@ name: "Gutenberg Custom Block Builder"
 description: "Scaffolds and builds custom Gutenberg blocks using @wordpress/create-block and the Block API registerBlockType(). Generates edit/save components with InspectorControls, RichText, and InnerBlocks support."
 category: "WordPress & CMS"
 framework: "ChatGPT Agents"
-verification: ""
+verification: listed
 rating: 0
 reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/gutenberg-custom-block-builder/"
+source: "https://agentskillexchange.com/skills/gutenberg-custom-block-builder/"
 ---
-
 # Gutenberg Custom Block Builder
 
 Scaffolds and builds custom Gutenberg blocks using @wordpress/create-block and the Block API registerBlockType(). Generates edit/save components with InspectorControls, RichText, and InnerBlocks support.
 
 ## Installation
 
-Install this skill across different AI coding agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install gutenberg-custom-block-builder
+npx skills add agentskillexchange/skills --skill gutenberg-custom-block-builder
 ```
 
 ### Claude Code
 ```bash
-claude mcp add gutenberg-custom-block-builder
+npx skills add agentskillexchange/skills --skill gutenberg-custom-block-builder -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills/` directory or install via Cursor Settings → Skills.
+```bash
+npx skills add agentskillexchange/skills --skill gutenberg-custom-block-builder -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install gutenberg-custom-block-builder
 
 ### Codex
 ```bash
-codex install gutenberg-custom-block-builder
+npx skills add agentskillexchange/skills --skill gutenberg-custom-block-builder -a codex
 ```
-
 ## Details
 
 | Property | Value |

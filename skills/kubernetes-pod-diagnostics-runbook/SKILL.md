@@ -3,16 +3,15 @@ name: "Kubernetes Pod Diagnostics Runbook"
 description: "Automates Kubernetes troubleshooting using kubectl and the Kubernetes Python client to diagnose CrashLoopBackOff, OOMKilled, and ImagePullBackOff states. Collects pod logs, events, node conditions, and resource quotas systematically."
 category: "Runbooks & Diagnostics"
 framework: "OpenClaw"
-verification: "✅ Verified"
-security: "✅ Reviewed"
-rating: "4.9"
-reviews: "86"
+verification: security_reviewed
+rating: 4.9
+reviews: 86
 creator: "Fatima Al-Hassan"
 creator_handle: "@fatimaalhassan"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/kubernetes-pod-diagnostics-runbook/"
+source: "https://agentskillexchange.com/skills/kubernetes-pod-diagnostics-runbook/"
+security: "✅ Reviewed"
 ---
-
 # Kubernetes Pod Diagnostics Runbook
 
 Automates Kubernetes troubleshooting using kubectl and the Kubernetes Python client to diagnose CrashLoopBackOff, OOMKilled, and ImagePullBackOff states. Collects pod logs, events, node conditions, and resource quotas systematically.
@@ -21,20 +20,17 @@ Automates Kubernetes troubleshooting using kubectl and the Kubernetes Python cli
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install kubernetes-pod-diagnostics-runbook
+npx skills add agentskillexchange/skills --skill kubernetes-pod-diagnostics-runbook
 ```
 
 ### Claude Code
 ```bash
-claude skills add kubernetes-pod-diagnostics-runbook
+npx skills add agentskillexchange/skills --skill kubernetes-pod-diagnostics-runbook -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` configuration:
-```json
-{
-  "skills": ["kubernetes-pod-diagnostics-runbook"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill kubernetes-pod-diagnostics-runbook -a cursor
 ```
 
 ### OpenClaw
@@ -44,9 +40,8 @@ clawhub install kubernetes-pod-diagnostics-runbook
 
 ### Codex
 ```bash
-codex skills add kubernetes-pod-diagnostics-runbook
+npx skills add agentskillexchange/skills --skill kubernetes-pod-diagnostics-runbook -a codex
 ```
-
 ## Details
 
 | Field | Value |

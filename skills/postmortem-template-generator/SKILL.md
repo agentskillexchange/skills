@@ -6,12 +6,11 @@ framework: "Claude Agents"
 verification: security_reviewed
 rating: 4.5
 reviews: 86
-creator: Liam OBrien
-creator_handle: liamobrien
+creator: "Liam OBrien"
+creator_handle: "@liamobrien"
 creator_verified: true
-source: https://agentskillexchange.com/skill/postmortem-template-generator/
+source: "https://agentskillexchange.com/skills/postmortem-template-generator/"
 ---
-
 # Postmortem Template Generator
 
 Use this skill when an incident is resolved and you need to create a structured postmortem document. It generates a blameless postmortem template pre-filled with timeline, impact summary, root cause analysis sections, and action item tracking based on the incident details you provide.

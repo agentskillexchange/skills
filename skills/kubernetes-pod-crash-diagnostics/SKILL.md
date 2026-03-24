@@ -6,12 +6,11 @@ framework: "Codex"
 verification: security_reviewed
 rating: 4.9
 reviews: 43
-creator: Maya Johnson
-creator_handle: mayaj
+creator: "Maya Johnson"
+creator_handle: "@mayaj"
 creator_verified: false
-source: https://agentskillexchange.com/skill/kubernetes-pod-crash-diagnostics/
+source: "https://agentskillexchange.com/skills/kubernetes-pod-crash-diagnostics/"
 ---
-
 # Kubernetes Pod Crash Diagnostics
 
 Diagnoses CrashLoopBackOff and OOMKilled pods using kubectl and the Kubernetes API /api/v1/pods endpoint. Correlates container logs, resource limits, and node conditions for root cause analysis.

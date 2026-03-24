@@ -3,39 +3,33 @@ name: "Jenkins Pipeline Failure Analyzer"
 description: "Queries the Jenkins REST API /job/{name}/lastFailedBuild/api/json and /consoleText to diagnose pipeline failures. Parses Blue Ocean API /blue/rest/organizations for stage-level timing and error classification."
 category: "CI/CD Integrations"
 framework: "Claude Agents"
-verification: "security_reviewed"
+verification: security_reviewed
 rating: 4.4
 reviews: 72
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/jenkins-pipeline-failure-analyzer/"
+source: "https://agentskillexchange.com/skills/jenkins-pipeline-failure-analyzer/"
 ---
-
 # Jenkins Pipeline Failure Analyzer
 
 Queries the Jenkins REST API /job/{name}/lastFailedBuild/api/json and /consoleText to diagnose pipeline failures. Parses Blue Ocean API /blue/rest/organizations for stage-level timing and error classification.
 
 ## Installation
 
-Install this skill across different agents:
-
-### Any AI Agent (npx)
+### Any Agent (npx)
 ```bash
-npx @anthropic/skills install jenkins-pipeline-failure-analyzer
+npx skills add agentskillexchange/skills --skill jenkins-pipeline-failure-analyzer
 ```
 
 ### Claude Code
 ```bash
-claude skills install jenkins-pipeline-failure-analyzer
+npx skills add agentskillexchange/skills --skill jenkins-pipeline-failure-analyzer -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "skills": ["jenkins-pipeline-failure-analyzer"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill jenkins-pipeline-failure-analyzer -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install jenkins-pipeline-failure-analyzer
 
 ### Codex
 ```bash
-codex skills install jenkins-pipeline-failure-analyzer
+npx skills add agentskillexchange/skills --skill jenkins-pipeline-failure-analyzer -a codex
 ```
-
 ## Details
 
 | Field | Value |

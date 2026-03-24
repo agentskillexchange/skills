@@ -6,12 +6,11 @@ framework: "ChatGPT Agents"
 verification: security_reviewed
 rating: 4.5
 reviews: 86
-creator: Omar Hassan
-creator_handle: ohassan
+creator: "Omar Hassan"
+creator_handle: "@ohassan"
 creator_verified: true
-source: https://agentskillexchange.com/skill/python-pypi-package-reference-indexer/
+source: "https://agentskillexchange.com/skills/python-pypi-package-reference-indexer/"
 ---
-
 # Python PyPI Package Reference Indexer
 
 Indexes Python package documentation using the PyPI JSON API and Read the Docs API. Builds searchable reference catalogs with function signatures, type hints, and usage examples.

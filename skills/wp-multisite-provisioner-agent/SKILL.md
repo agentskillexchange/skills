@@ -3,15 +3,14 @@ name: "WordPress Multisite Provisioner"
 description: "Automates WordPress Multisite network site creation using wp_insert_site() and the Sites REST API. Configures per-site themes, plugins, and options via switch_to_blog() with subdomain or subdirectory routing."
 category: "WordPress & CMS"
 framework: "ChatGPT Agents"
-verification: "✅ Verified"
-rating: "4.9"
-reviews: "77"
+verification: security_reviewed
+rating: 4.9
+reviews: 77
 creator: "Grace Okafor"
 creator_handle: "@graceokafor"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/wp-multisite-provisioner-agent/"
+source: "https://agentskillexchange.com/skills/wp-multisite-provisioner-agent/"
 ---
-
 # WordPress Multisite Provisioner
 
 Automates WordPress Multisite network site creation using wp_insert_site() and the Sites REST API. Configures per-site themes, plugins, and options via switch_to_blog() with subdomain or subdirectory routing.
@@ -20,22 +19,17 @@ Automates WordPress Multisite network site creation using wp_insert_site() and t
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install wp-multisite-provisioner-agent
+npx skills add agentskillexchange/skills --skill wp-multisite-provisioner-agent
 ```
 
 ### Claude Code
 ```bash
-claude mcp add wp-multisite-provisioner-agent
+npx skills add agentskillexchange/skills --skill wp-multisite-provisioner-agent -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "wp-multisite-provisioner-agent": {
-    "enabled": true
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill wp-multisite-provisioner-agent -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install wp-multisite-provisioner-agent
 
 ### Codex
 ```bash
-codex install wp-multisite-provisioner-agent
+npx skills add agentskillexchange/skills --skill wp-multisite-provisioner-agent -a codex
 ```
-
 ## Details
 
 | Field | Value |

@@ -3,15 +3,14 @@ name: "GitLab CI/CD Pipeline Optimizer"
 description: "Optimizes GitLab CI/CD pipelines using the .gitlab-ci.yml specification and GitLab API v4. Implements DAG pipelines, parallel testing, and dynamic child pipelines."
 category: "CI/CD Integrations"
 framework: "ChatGPT Agents"
-verification: 
+verification: listed
 rating: 4.3
 reviews: 31
-creator: Rachel Green
-creator_handle: rachelgreen
+creator: "Rachel Green"
+creator_handle: "@rachelgreen"
 creator_verified: false
-source: https://agentskillexchange.com/skill/gitlab-cicd-pipeline-optimizer/
+source: "https://agentskillexchange.com/skills/gitlab-cicd-pipeline-optimizer/"
 ---
-
 # GitLab CI/CD Pipeline Optimizer
 
 Optimizes GitLab CI/CD pipelines using the .gitlab-ci.yml specification and GitLab API v4. Implements DAG pipelines, parallel testing, and dynamic child pipelines.

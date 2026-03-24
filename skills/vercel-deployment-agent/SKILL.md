@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.2
 reviews: 67
-creator: Sofia Petrov
-creator_handle: sofiapetrov
+creator: "Sofia Petrov"
+creator_handle: "@sofiapetrov"
 creator_verified: true
-source: https://agentskillexchange.com/skill/vercel-deployment-agent/
+source: "https://agentskillexchange.com/skills/vercel-deployment-agent/"
 ---
-
 # Vercel Deployment Agent
 
 Manage Vercel deployments, environment variables, and domain configurations through an AI agent using the Vercel CLI and REST API. Supports preview deployment promotion, edge config management, and deployment webhook configuration.

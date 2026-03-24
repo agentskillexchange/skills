@@ -3,15 +3,14 @@ name: "Apache Kafka Stream Transformer"
 description: "Processes real-time data streams using Kafka Streams DSL and the Schema Registry API. Supports Avro and Protobuf deserialization with exactly-once semantics for stream transformations."
 category: "Data Extraction & Transformation"
 framework: "Custom Agents"
-verification: "verified"
-rating: "4.4"
-reviews: "66"
+verification: verified_metadata
+rating: 4.4
+reviews: 66
 creator: "Carlos Mendez"
 creator_handle: "@carlosmendez"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/apache-kafka-stream-transformer/"
+source: "https://agentskillexchange.com/skills/apache-kafka-stream-transformer/"
 ---
-
 # Apache Kafka Stream Transformer
 
 Processes real-time data streams using Kafka Streams DSL and the Schema Registry API. Supports Avro and Protobuf deserialization with exactly-once semantics for stream transformations.
@@ -19,38 +18,29 @@ Processes real-time data streams using Kafka Streams DSL and the Schema Registry
 ## Installation
 
 ### Any Agent (npx)
-
 ```bash
-npx @anthropic/agent-skills install apache-kafka-stream-transformer
+npx skills add agentskillexchange/skills --skill apache-kafka-stream-transformer
 ```
 
 ### Claude Code
-
 ```bash
-claude mcp add apache-kafka-stream-transformer
+npx skills add agentskillexchange/skills --skill apache-kafka-stream-transformer -a claude-code
 ```
 
 ### Cursor
-
-Add to `.cursor/skills.json`:
-```json
-{
-  "skills": ["apache-kafka-stream-transformer"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill apache-kafka-stream-transformer -a cursor
 ```
 
 ### OpenClaw
-
 ```bash
 clawhub install apache-kafka-stream-transformer
 ```
 
 ### Codex
-
 ```bash
-codex install apache-kafka-stream-transformer
+npx skills add agentskillexchange/skills --skill apache-kafka-stream-transformer -a codex
 ```
-
 ## Details
 
 | Field | Value |

@@ -3,37 +3,34 @@ name: "Protobuf Documentation Generator"
 description: "Generates API documentation from Protocol Buffer definitions using protoc-gen-doc and buf build toolchain. Produces Markdown, HTML, and DocJSON output with cross-linked message and service references."
 category: "Library & API Reference"
 framework: "Gemini"
-verification: "✅ Verified"
-security: "✅ Reviewed"
-rating: "4.7"
-reviews: "81"
+verification: security_reviewed
+rating: 4.7
+reviews: 81
 creator: "Zoe Chen"
 creator_handle: "@zoechen"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/protobuf-documentation-generator/"
+source: "https://agentskillexchange.com/skills/protobuf-documentation-generator/"
+security: "✅ Reviewed"
 ---
-
 # Protobuf Documentation Generator
 
 Generates API documentation from Protocol Buffer definitions using protoc-gen-doc and buf build toolchain. Produces Markdown, HTML, and DocJSON output with cross-linked message and service references.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install protobuf-documentation-generator
+npx skills add agentskillexchange/skills --skill protobuf-documentation-generator
 ```
 
 ### Claude Code
 ```bash
-claude skills add protobuf-documentation-generator
+npx skills add agentskillexchange/skills --skill protobuf-documentation-generator -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor skills install protobuf-documentation-generator
+npx skills add agentskillexchange/skills --skill protobuf-documentation-generator -a cursor
 ```
 
 ### OpenClaw
@@ -43,9 +40,8 @@ clawhub install protobuf-documentation-generator
 
 ### Codex
 ```bash
-codex skills add protobuf-documentation-generator
+npx skills add agentskillexchange/skills --skill protobuf-documentation-generator -a codex
 ```
-
 ## Details
 
 | Field | Value |

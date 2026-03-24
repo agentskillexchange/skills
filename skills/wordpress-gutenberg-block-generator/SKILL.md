@@ -3,15 +3,14 @@ name: "WordPress Gutenberg Block Generator"
 description: "Scaffolds custom Gutenberg blocks using the @wordpress/create-block CLI and block.json schema, then registers them via register_block_type PHP API. Generates edit/save components with InspectorControls and useBlockProps. Outputs production-ready block plugin structure."
 category: "WordPress & CMS"
 framework: "Cursor"
-verification: 
+verification: listed
 rating: 4.6
 reviews: 41
-creator: Rachel Green
-creator_handle: rachelgreen
+creator: "Rachel Green"
+creator_handle: "@rachelgreen"
 creator_verified: false
-source: https://agentskillexchange.com/skill/wordpress-gutenberg-block-generator/
+source: "https://agentskillexchange.com/skills/wordpress-gutenberg-block-generator/"
 ---
-
 # WordPress Gutenberg Block Generator
 
 Scaffolds custom Gutenberg blocks using the @wordpress/create-block CLI and block.json schema, then registers them via register_block_type PHP API. Generates edit/save components with InspectorControls and useBlockProps. Outputs production-ready block plugin structure.

@@ -3,49 +3,44 @@ name: "OpenAPI Spec Changelog Generator"
 description: "Compares OpenAPI 3.x specification files using the oasdiff library to detect breaking changes, deprecated endpoints, and schema modifications. Outputs structured changelogs in Markdown or JSON."
 category: "Library & API Reference"
 framework: "Cursor"
-verification: "Security Reviewed ✓"
-rating: "4.8"
-reviews: "22"
+verification: security_reviewed
+rating: 4.8
+reviews: 22
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/openapi-spec-changelog-generator/"
+source: "https://agentskillexchange.com/skills/openapi-spec-changelog-generator/"
 ---
-
 # OpenAPI Spec Changelog Generator
 
 Compares OpenAPI 3.x specification files using the oasdiff library to detect breaking changes, deprecated endpoints, and schema modifications. Outputs structured changelogs in Markdown or JSON.
 
 ## Installation
 
-**Any Agent (npx):**
+### Any Agent (npx)
 ```bash
-npx @anthropic/skills install openapi-spec-changelog-generator
+npx skills add agentskillexchange/skills --skill openapi-spec-changelog-generator
 ```
 
-**Claude Code:**
+### Claude Code
 ```bash
-claude mcp add openapi-spec-changelog-generator
+npx skills add agentskillexchange/skills --skill openapi-spec-changelog-generator -a claude-code
 ```
 
-**Cursor:**
-Add to `.cursor/skills.json`:
-```json
-{
-  "openapi-spec-changelog-generator": "latest"
-}
+### Cursor
+```bash
+npx skills add agentskillexchange/skills --skill openapi-spec-changelog-generator -a cursor
 ```
 
-**OpenClaw:**
+### OpenClaw
 ```bash
 clawhub install openapi-spec-changelog-generator
 ```
 
-**Codex:**
+### Codex
 ```bash
-codex install openapi-spec-changelog-generator
+npx skills add agentskillexchange/skills --skill openapi-spec-changelog-generator -a codex
 ```
-
 ## Details
 
 | Field | Value |

@@ -3,15 +3,14 @@ name: "Prometheus Alert Rule Generator"
 description: "Generates and validates Prometheus alerting rules from natural language descriptions using the Prometheus HTTP API and PromQL query engine. Supports Alertmanager routing configuration and Grafana d..."
 category: "Monitoring & Alerts"
 framework: "Claude Code"
-verification: "community"
+verification: listed
 rating: 0
 reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/prometheus-alert-rule-generator-2/"
+source: "https://agentskillexchange.com/skills/prometheus-alert-rule-generator-2/"
 ---
-
 # Prometheus Alert Rule Generator
 
 Generates and validates Prometheus alerting rules from natural language descriptions using the Prometheus HTTP API and PromQL query engine. Supports Alertmanager routing configuration and Grafana dashboard annotation.
@@ -20,16 +19,18 @@ Generates and validates Prometheus alerting rules from natural language descript
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install prometheus-alert-rule-generator-2
+npx skills add agentskillexchange/skills --skill prometheus-alert-rule-generator-2
 ```
 
 ### Claude Code
 ```bash
-claude mcp add prometheus-alert-rule-generator-2
+npx skills add agentskillexchange/skills --skill prometheus-alert-rule-generator-2 -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills/prometheus-alert-rule-generator-2` in your project.
+```bash
+npx skills add agentskillexchange/skills --skill prometheus-alert-rule-generator-2 -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -38,9 +39,8 @@ clawhub install prometheus-alert-rule-generator-2
 
 ### Codex
 ```bash
-codex install prometheus-alert-rule-generator-2
+npx skills add agentskillexchange/skills --skill prometheus-alert-rule-generator-2 -a codex
 ```
-
 ## Details
 
 | Field | Value |

@@ -6,12 +6,11 @@ framework: "OpenClaw"
 verification: verified_metadata
 rating: 4.3
 reviews: 71
-creator: Rachel Green
-creator_handle: rachelgreen
+creator: "Rachel Green"
+creator_handle: "@rachelgreen"
 creator_verified: false
-source: https://agentskillexchange.com/skill/metabase-dashboard-snapshot-alerting-2/
+source: "https://agentskillexchange.com/skills/metabase-dashboard-snapshot-alerting-2/"
 ---
-
 # Metabase Dashboard Snapshot & Alerting
 
 Uses the Metabase REST API to export question results as CSV and render dashboard PNGs on schedule. Compares key metrics against user-defined thresholds and fires alerts to PagerDuty or Slack when anomalies are detected. Supports multi-instance Metabase deployments.

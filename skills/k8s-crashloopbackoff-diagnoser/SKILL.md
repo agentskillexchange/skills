@@ -6,12 +6,11 @@ framework: "Codex"
 verification: security_reviewed
 rating: 4.8
 reviews: 85
-creator: David Kim
-creator_handle: dkim
+creator: "David Kim"
+creator_handle: "@dkim"
 creator_verified: false
-source: https://agentskillexchange.com/skill/k8s-crashloopbackoff-diagnoser/
+source: "https://agentskillexchange.com/skills/k8s-crashloopbackoff-diagnoser/"
 ---
-
 # Kubernetes CrashLoopBackOff Diagnoser
 
 Diagnoses CrashLoopBackOff pods using kubectl and the Kubernetes API. Inspects container logs, exit codes, OOMKilled events, and liveness probe configurations to generate actionable remediation steps.

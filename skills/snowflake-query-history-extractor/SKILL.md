@@ -6,12 +6,11 @@ framework: "ChatGPT Agents"
 verification: verified_metadata
 rating: 4.5
 reviews: 19
-creator: Leo Park
-creator_handle: leopark
+creator: "Leo Park"
+creator_handle: "@leopark"
 creator_verified: true
-source: https://agentskillexchange.com/skill/snowflake-query-history-extractor/
+source: "https://agentskillexchange.com/skills/snowflake-query-history-extractor/"
 ---
-
 # Snowflake Query History Extractor
 
 Extracts query history and performance metadata from Snowflake using the Snowflake Python Connector and INFORMATION_SCHEMA.QUERY_HISTORY view. Identifies expensive queries by credits consumed, data scanned, and spillage to remote storage. Exports results to a Pandas DataFrame for downstream analysis or Slack reporting.

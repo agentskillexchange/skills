@@ -3,41 +3,33 @@ name: "AWS SDK Method Resolver"
 description: "Resolves AWS SDK v3 client commands and service endpoint signatures using @aws-sdk/client-* packages. Maps IAM permission requirements to specific API calls with request/response type definitions."
 category: "Library & API Reference"
 framework: "Claude Code"
-verification: "community"
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: ""
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/aws-sdk-method-resolver/"
+source: "https://agentskillexchange.com/skills/aws-sdk-method-resolver/"
 ---
-
 # AWS SDK Method Resolver
 
 Resolves AWS SDK v3 client commands and service endpoint signatures using @aws-sdk/client-* packages. Maps IAM permission requirements to specific API calls with request/response type definitions.
 
 ## Installation
 
-Install this skill using one of the following methods:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install aws-sdk-method-resolver
+npx skills add agentskillexchange/skills --skill aws-sdk-method-resolver
 ```
 
 ### Claude Code
 ```bash
-claude mcp add aws-sdk-method-resolver
+npx skills add agentskillexchange/skills --skill aws-sdk-method-resolver -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "aws-sdk-method-resolver": {
-    "source": "https://agentskillexchange.com/skill/aws-sdk-method-resolver/"
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill aws-sdk-method-resolver -a cursor
 ```
 
 ### OpenClaw
@@ -47,9 +39,8 @@ clawhub install aws-sdk-method-resolver
 
 ### Codex
 ```bash
-codex install aws-sdk-method-resolver
+npx skills add agentskillexchange/skills --skill aws-sdk-method-resolver -a codex
 ```
-
 ## Details
 
 | Field | Value |

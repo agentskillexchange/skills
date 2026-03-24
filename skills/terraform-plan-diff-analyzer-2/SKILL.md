@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.9
 reviews: 51
-creator: Isabella Rossi
-creator_handle: irossi
+creator: "Isabella Rossi"
+creator_handle: "@irossi"
 creator_verified: false
-source: https://agentskillexchange.com/skill/terraform-plan-diff-analyzer-2/
+source: "https://agentskillexchange.com/skills/terraform-plan-diff-analyzer-2/"
 ---
-
 # Terraform Plan Diff Analyzer
 
 Parses terraform plan JSON output using the Terraform CLI show -json command and HashiCorp HCL2 library. Summarizes infrastructure drift, resource changes, and cost impact estimates via the Infracost API.

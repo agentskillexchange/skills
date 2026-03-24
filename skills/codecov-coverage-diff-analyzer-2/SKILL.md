@@ -3,35 +3,34 @@ name: "Codecov Coverage Diff Analyzer"
 description: "Analyzes code coverage diffs on pull requests using the Codecov API v2 /repos/{owner}/{repo}/commits endpoint. Identifies untested code paths and generates coverage improvement suggestions."
 category: "Code Quality & Review"
 framework: "ChatGPT Agents"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.1
 reviews: 80
 creator: "Tom Wilson"
 creator_handle: "@tomwilson"
-creator_verified: no
-source: "https://agentskillexchange.com/skill/codecov-coverage-diff-analyzer-2/"
+creator_verified: false
+source: "https://agentskillexchange.com/skills/codecov-coverage-diff-analyzer-2/"
 ---
-
 # Codecov Coverage Diff Analyzer
 
 Analyzes code coverage diffs on pull requests using the Codecov API v2 /repos/{owner}/{repo}/commits endpoint. Identifies untested code paths and generates coverage improvement suggestions.
 
 ## Installation
 
-Install this skill across different agents:
-
 ### Any Agent (npx)
 ```bash
-npx agentskills install codecov-coverage-diff-analyzer-2
+npx skills add agentskillexchange/skills --skill codecov-coverage-diff-analyzer-2
 ```
 
 ### Claude Code
 ```bash
-claude mcp add codecov-coverage-diff-analyzer-2
+npx skills add agentskillexchange/skills --skill codecov-coverage-diff-analyzer-2 -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills/` directory or install via Cursor settings.
+```bash
+npx skills add agentskillexchange/skills --skill codecov-coverage-diff-analyzer-2 -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install codecov-coverage-diff-analyzer-2
 
 ### Codex
 ```bash
-codex install codecov-coverage-diff-analyzer-2
+npx skills add agentskillexchange/skills --skill codecov-coverage-diff-analyzer-2 -a codex
 ```
-
 ## Details
 
 | Property | Value |

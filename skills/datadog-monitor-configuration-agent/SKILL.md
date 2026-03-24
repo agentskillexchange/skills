@@ -3,15 +3,14 @@ name: "Datadog Monitor Configuration Agent"
 description: "Manages Datadog monitors, dashboards, and SLOs using the Datadog API v2 and terraform-provider-datadog. Implements anomaly detection, composite monitors, and automated downtime scheduling."
 category: "Monitoring & Alerts"
 framework: "OpenClaw"
-verification: ""
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/datadog-monitor-configuration-agent/"
+source: "https://agentskillexchange.com/skills/datadog-monitor-configuration-agent/"
 ---
-
 # Datadog Monitor Configuration Agent
 
 Manages Datadog monitors, dashboards, and SLOs using the Datadog API v2 and terraform-provider-datadog. Implements anomaly detection, composite monitors, and automated downtime scheduling.
@@ -20,22 +19,17 @@ Manages Datadog monitors, dashboards, and SLOs using the Datadog API v2 and terr
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install datadog-monitor-configuration-agent
+npx skills add agentskillexchange/skills --skill datadog-monitor-configuration-agent
 ```
 
 ### Claude Code
 ```bash
-claude mcp add datadog-monitor-configuration-agent
+npx skills add agentskillexchange/skills --skill datadog-monitor-configuration-agent -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "datadog-monitor-configuration-agent": {
-    "enabled": true
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill datadog-monitor-configuration-agent -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install datadog-monitor-configuration-agent
 
 ### Codex
 ```bash
-codex install datadog-monitor-configuration-agent
+npx skills add agentskillexchange/skills --skill datadog-monitor-configuration-agent -a codex
 ```
-
 ## Details
 
 | Field | Value |

@@ -3,39 +3,33 @@ name: "Microsoft Graph Email Triage Assistant"
 description: "Triages Outlook inboxes via Microsoft Graph API with delta query for incremental sync. Applies classification rules, auto-folders messages, and drafts priority-ranked response summaries."
 category: "Calendar, Email & Productivity"
 framework: "OpenClaw"
-verification: "✅ Verified"
-rating: "4.8"
-reviews: "70"
+verification: security_reviewed
+rating: 4.8
+reviews: 70
 creator: "David Nguyen"
 creator_handle: "@davidnguyen"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/microsoft-graph-email-triage-assistant/"
+source: "https://agentskillexchange.com/skills/microsoft-graph-email-triage-assistant/"
 ---
-
 # Microsoft Graph Email Triage Assistant
 
 Triages Outlook inboxes via Microsoft Graph API with delta query for incremental sync. Applies classification rules, auto-folders messages, and drafts priority-ranked response summaries.
 
 ## Installation
 
-Install this skill across different AI agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install microsoft-graph-email-triage-assistant
+npx skills add agentskillexchange/skills --skill microsoft-graph-email-triage-assistant
 ```
 
 ### Claude Code
 ```bash
-claude mcp add microsoft-graph-email-triage-assistant
+npx skills add agentskillexchange/skills --skill microsoft-graph-email-triage-assistant -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["microsoft-graph-email-triage-assistant"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill microsoft-graph-email-triage-assistant -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install microsoft-graph-email-triage-assistant
 
 ### Codex
 ```bash
-codex install microsoft-graph-email-triage-assistant
+npx skills add agentskillexchange/skills --skill microsoft-graph-email-triage-assistant -a codex
 ```
-
 ## Details
 
 | Field | Value |

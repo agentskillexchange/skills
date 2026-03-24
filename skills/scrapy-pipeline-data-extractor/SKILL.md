@@ -3,35 +3,34 @@ name: "Scrapy Pipeline Data Extractor"
 description: "Builds production Scrapy spiders with custom Item Pipelines for data cleaning and storage. Uses scrapy.linkextractors.LinkExtractor for crawl scoping and ItemLoader with MapCompose processors for field normalization."
 category: "Research & Scraping"
 framework: "Gemini"
-verification: ""
+verification: listed
 rating: 0
 reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/scrapy-pipeline-data-extractor/"
+source: "https://agentskillexchange.com/skills/scrapy-pipeline-data-extractor/"
 ---
-
 # Scrapy Pipeline Data Extractor
 
 Builds production Scrapy spiders with custom Item Pipelines for data cleaning and storage. Uses scrapy.linkextractors.LinkExtractor for crawl scoping and ItemLoader with MapCompose processors for field normalization.
 
 ## Installation
 
-Install this skill across different AI coding agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install scrapy-pipeline-data-extractor
+npx skills add agentskillexchange/skills --skill scrapy-pipeline-data-extractor
 ```
 
 ### Claude Code
 ```bash
-claude mcp add scrapy-pipeline-data-extractor
+npx skills add agentskillexchange/skills --skill scrapy-pipeline-data-extractor -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills/` directory or install via Cursor Settings → Skills.
+```bash
+npx skills add agentskillexchange/skills --skill scrapy-pipeline-data-extractor -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install scrapy-pipeline-data-extractor
 
 ### Codex
 ```bash
-codex install scrapy-pipeline-data-extractor
+npx skills add agentskillexchange/skills --skill scrapy-pipeline-data-extractor -a codex
 ```
-
 ## Details
 
 | Property | Value |

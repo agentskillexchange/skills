@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.7
 reviews: 80
-creator: Chris Lee
-creator_handle: chrislee
+creator: "Chris Lee"
+creator_handle: "@chrislee"
 creator_verified: false
-source: https://agentskillexchange.com/skill/disk-space-alert-runbook/
+source: "https://agentskillexchange.com/skills/disk-space-alert-runbook/"
 ---
-
 # Disk Space Alert Runbook
 
 Runbook for responding to disk space critical alerts. Identifies top consumers, performs safe cleanup, implements monitoring improvements, and prevents recurrence.

@@ -3,39 +3,33 @@ name: "Prometheus AlertManager Rules Engine"
 description: "Generates and validates Prometheus alerting rules and AlertManager routing configurations using the Prometheus HTTP API. Implements alert grouping, inhibition rules, and silence management."
 category: "Monitoring & Alerts"
 framework: "Custom Agents"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.8
 reviews: 86
 creator: "Nina Volkov"
 creator_handle: "@ninavolkov"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/prometheus-alertmanager-rules-engine/"
+source: "https://agentskillexchange.com/skills/prometheus-alertmanager-rules-engine/"
 ---
-
 # Prometheus AlertManager Rules Engine
 
 Generates and validates Prometheus alerting rules and AlertManager routing configurations using the Prometheus HTTP API. Implements alert grouping, inhibition rules, and silence management.
 
 ## Installation
 
-Install this skill across different AI coding agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install prometheus-alertmanager-rules-engine
+npx skills add agentskillexchange/skills --skill prometheus-alertmanager-rules-engine
 ```
 
 ### Claude Code
 ```bash
-claude skills add prometheus-alertmanager-rules-engine
+npx skills add agentskillexchange/skills --skill prometheus-alertmanager-rules-engine -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["prometheus-alertmanager-rules-engine"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill prometheus-alertmanager-rules-engine -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install prometheus-alertmanager-rules-engine
 
 ### Codex
 ```bash
-codex skills add prometheus-alertmanager-rules-engine
+npx skills add agentskillexchange/skills --skill prometheus-alertmanager-rules-engine -a codex
 ```
-
 ## Details
 
 | Property | Value |

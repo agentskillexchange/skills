@@ -3,33 +3,34 @@ name: "SBOM Generator with CycloneDX"
 description: "Generates Software Bill of Materials in CycloneDX 1.5 format using cdxgen and syft. Enriches component data with license detection from clearlydefined.io and vulnerability cross-referencing via OSV.dev."
 category: "Security & Verification"
 framework: "Gemini"
-verification: "Verified"
-rating: "4.9"
-reviews: "84"
+verification: verified_metadata
+rating: 4.9
+reviews: 84
 creator: "Marcus Chen"
 creator_handle: "@marcuschen"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/sbom-generator-cyclonedx/"
+source: "https://agentskillexchange.com/skills/sbom-generator-cyclonedx/"
 ---
-
 # SBOM Generator with CycloneDX
 
 Generates Software Bill of Materials in CycloneDX 1.5 format using cdxgen and syft. Enriches component data with license detection from clearlydefined.io and vulnerability cross-referencing via OSV.dev.
 
 ## Installation
 
-### Any AI Agent (npx)
+### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install sbom-generator-cyclonedx
+npx skills add agentskillexchange/skills --skill sbom-generator-cyclonedx
 ```
 
 ### Claude Code
 ```bash
-claude skills add sbom-generator-cyclonedx
+npx skills add agentskillexchange/skills --skill sbom-generator-cyclonedx -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` directory or install via Cursor settings.
+```bash
+npx skills add agentskillexchange/skills --skill sbom-generator-cyclonedx -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -38,9 +39,8 @@ clawhub install sbom-generator-cyclonedx
 
 ### Codex
 ```bash
-codex skills install sbom-generator-cyclonedx
+npx skills add agentskillexchange/skills --skill sbom-generator-cyclonedx -a codex
 ```
-
 ## Details
 
 | Field | Value |

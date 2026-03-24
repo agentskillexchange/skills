@@ -6,12 +6,11 @@ framework: "Claude Agents"
 verification: security_reviewed
 rating: 4.9
 reviews: 15
-creator: Chris Lee
-creator_handle: chrislee
+creator: "Chris Lee"
+creator_handle: "@chrislee"
 creator_verified: false
-source: https://agentskillexchange.com/skill/gitlab-ci-pipeline-linter/
+source: "https://agentskillexchange.com/skills/gitlab-ci-pipeline-linter/"
 ---
-
 # GitLab CI Pipeline Linter
 
 Validates and optimizes .gitlab-ci.yml configurations using the GitLab CI Lint API (/api/v4/ci/lint). Checks for DAG dependency cycles, detects redundant job definitions, and suggests pipeline graph optimizations via the needs keyword.

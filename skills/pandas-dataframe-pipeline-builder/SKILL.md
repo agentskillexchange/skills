@@ -3,15 +3,14 @@ name: "Pandas DataFrame Pipeline Builder"
 description: "Constructs data transformation pipelines using Pandas and the pipe() method chain pattern. Integrates with SQLAlchemy for database I/O and PyArrow for high-performance Parquet operations."
 category: "Data Extraction & Transformation"
 framework: "Cursor"
-verification: "verified"
-rating: "4.8"
-reviews: "37"
+verification: verified_metadata
+rating: 4.8
+reviews: 37
 creator: "Ryan O'Malley"
 creator_handle: "@ryanomalley"
 creator_verified: false
-source: "https://agentskillexchange.com/skill/pandas-dataframe-pipeline-builder/"
+source: "https://agentskillexchange.com/skills/pandas-dataframe-pipeline-builder/"
 ---
-
 # Pandas DataFrame Pipeline Builder
 
 Constructs data transformation pipelines using Pandas and the pipe() method chain pattern. Integrates with SQLAlchemy for database I/O and PyArrow for high-performance Parquet operations.
@@ -19,38 +18,29 @@ Constructs data transformation pipelines using Pandas and the pipe() method chai
 ## Installation
 
 ### Any Agent (npx)
-
 ```bash
-npx @anthropic/agent-skills install pandas-dataframe-pipeline-builder
+npx skills add agentskillexchange/skills --skill pandas-dataframe-pipeline-builder
 ```
 
 ### Claude Code
-
 ```bash
-claude mcp add pandas-dataframe-pipeline-builder
+npx skills add agentskillexchange/skills --skill pandas-dataframe-pipeline-builder -a claude-code
 ```
 
 ### Cursor
-
-Add to `.cursor/skills.json`:
-```json
-{
-  "skills": ["pandas-dataframe-pipeline-builder"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill pandas-dataframe-pipeline-builder -a cursor
 ```
 
 ### OpenClaw
-
 ```bash
 clawhub install pandas-dataframe-pipeline-builder
 ```
 
 ### Codex
-
 ```bash
-codex install pandas-dataframe-pipeline-builder
+npx skills add agentskillexchange/skills --skill pandas-dataframe-pipeline-builder -a codex
 ```
-
 ## Details
 
 | Field | Value |

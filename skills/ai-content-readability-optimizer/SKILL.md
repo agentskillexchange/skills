@@ -3,44 +3,33 @@ name: "AI Content Readability Optimizer"
 description: "Analyzes and optimizes content readability using AI-powered scoring, sentence restructuring, and vocabulary simplification to improve audience engagement and comprehension."
 category: "Content Writing & SEO"
 framework: "Codex"
-verification: "✅ Verified"
+verification: security_reviewed
 rating: 4.8
 reviews: 13
 creator: "Zoe Chen"
 creator_handle: "@zoechen"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/ai-content-readability-optimizer/"
+source: "https://agentskillexchange.com/skills/ai-content-readability-optimizer/"
 ---
-
 # AI Content Readability Optimizer
 
 Analyzes and optimizes content readability using AI-powered scoring, sentence restructuring, and vocabulary simplification to improve audience engagement and comprehension.
 
 ## Installation
 
-Install this skill on your preferred agent platform:
-
 ### Any Agent (npx)
 ```bash
-npx skills install ai-content-readability-optimizer
+npx skills add agentskillexchange/skills --skill ai-content-readability-optimizer
 ```
 
 ### Claude Code
 ```bash
-claude mcp add ai-content-readability-optimizer
+npx skills add agentskillexchange/skills --skill ai-content-readability-optimizer -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/mcp.json`:
-```json
-{
-  "mcpServers": {
-    "ai-content-readability-optimizer": {
-      "command": "npx",
-      "args": ["-y", "skills", "run", "ai-content-readability-optimizer"]
-    }
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill ai-content-readability-optimizer -a cursor
 ```
 
 ### OpenClaw
@@ -50,9 +39,8 @@ clawhub install ai-content-readability-optimizer
 
 ### Codex
 ```bash
-codex install ai-content-readability-optimizer
+npx skills add agentskillexchange/skills --skill ai-content-readability-optimizer -a codex
 ```
-
 ## Details
 
 | Property | Value |

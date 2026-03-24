@@ -3,35 +3,34 @@ name: "Makefile Dependency Auditor"
 description: "Parses GNU Makefiles using pymake and builds complete dependency DAGs. Detects circular dependencies, unreachable targets, missing prerequisites, and generates optimal parallel build orderings."
 category: "Developer Tools"
 framework: "Codex"
-verification: "Verified · Security Reviewed"
-rating: "4.4"
-reviews: "34"
+verification: security_reviewed
+rating: 4.4
+reviews: 34
 creator: "James Kim"
 creator_handle: "@jameskim_ai"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/makefile-dependency-auditor/"
+source: "https://agentskillexchange.com/skills/makefile-dependency-auditor/"
 ---
-
 # Makefile Dependency Auditor
 
 Parses GNU Makefiles using pymake and builds complete dependency DAGs. Detects circular dependencies, unreachable targets, missing prerequisites, and generates optimal parallel build orderings.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install makefile-dependency-auditor
+npx skills add agentskillexchange/skills --skill makefile-dependency-auditor
 ```
 
 ### Claude Code
 ```bash
-claude skills add makefile-dependency-auditor
+npx skills add agentskillexchange/skills --skill makefile-dependency-auditor -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursorrules` or install via Cursor Settings → Skills.
+```bash
+npx skills add agentskillexchange/skills --skill makefile-dependency-auditor -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install makefile-dependency-auditor
 
 ### Codex
 ```bash
-codex skills add makefile-dependency-auditor
+npx skills add agentskillexchange/skills --skill makefile-dependency-auditor -a codex
 ```
-
 ## Details
 
 | Field | Value |

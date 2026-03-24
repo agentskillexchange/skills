@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.8
 reviews: 77
-creator: Alex Thompson
-creator_handle: alexthompson
+creator: "Alex Thompson"
+creator_handle: "@alexthompson"
 creator_verified: true
-source: https://agentskillexchange.com/skill/ansible-playbook-runner/
+source: "https://agentskillexchange.com/skills/ansible-playbook-runner/"
 ---
-
 # Ansible Playbook Runner
 
 Execute and manage Ansible playbooks, inventories, and roles through an AI agent interface. Supports dynamic inventory generation, vault secret decryption, and playbook dry-run mode for safe infrastructure automation across SSH-accessible hosts.

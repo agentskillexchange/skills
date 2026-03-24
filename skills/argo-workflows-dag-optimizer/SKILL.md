@@ -3,49 +3,44 @@ name: "Argo Workflows DAG Optimizer"
 description: "Analyzes Argo Workflows DAG templates to identify parallelization opportunities. Uses the Argo Server API to fetch workflow execution history and critical path analysis."
 category: "Templates & Workflows"
 framework: "Custom Agents"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.9
 reviews: 39
 creator: "Sarah O'Brien"
 creator_handle: "@sarahcodes"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/argo-workflows-dag-optimizer/"
+source: "https://agentskillexchange.com/skills/argo-workflows-dag-optimizer/"
 ---
-
 # Argo Workflows DAG Optimizer
 
 Analyzes Argo Workflows DAG templates to identify parallelization opportunities. Uses the Argo Server API to fetch workflow execution history and critical path analysis.
 
 ## Installation
 
-Install this skill on your preferred agent platform:
-
-**Any agent (npx):**
+### Any Agent (npx)
 ```bash
-npx @anthropic/agentskill install argo-workflows-dag-optimizer
+npx skills add agentskillexchange/skills --skill argo-workflows-dag-optimizer
 ```
 
-**Claude Code:**
+### Claude Code
 ```bash
-claude mcp add argo-workflows-dag-optimizer
+npx skills add agentskillexchange/skills --skill argo-workflows-dag-optimizer -a claude-code
 ```
 
-**Cursor:**
-Add to your `.cursor/skills` configuration:
-```json
-{ "argo-workflows-dag-optimizer": "latest" }
+### Cursor
+```bash
+npx skills add agentskillexchange/skills --skill argo-workflows-dag-optimizer -a cursor
 ```
 
-**OpenClaw:**
+### OpenClaw
 ```bash
 clawhub install argo-workflows-dag-optimizer
 ```
 
-**Codex:**
+### Codex
 ```bash
-codex install argo-workflows-dag-optimizer
+npx skills add agentskillexchange/skills --skill argo-workflows-dag-optimizer -a codex
 ```
-
 ## Details
 
 | Field | Value |

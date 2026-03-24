@@ -3,35 +3,34 @@ name: "Nginx Config Validator and Optimizer"
 description: "Parses nginx.conf and included config files using the crossplane Python library and nginx -t test command. Identifies misconfigurations, duplicate server blocks, SSL/TLS weaknesses via Mozilla SSL ..."
 category: "Runbooks & Diagnostics"
 framework: "MCP-compatible"
-verification: "security_reviewed"
+verification: security_reviewed
 rating: 0
 reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/nginx-config-validator-optimizer/"
+source: "https://agentskillexchange.com/skills/nginx-config-validator-optimizer/"
 ---
-
 # Nginx Config Validator and Optimizer
 
 Parses nginx.conf and included config files using the crossplane Python library and nginx -t test command. Identifies misconfigurations, duplicate server blocks, SSL/TLS weaknesses via Mozilla SSL Configuration Generator recommendations.
 
 ## Installation
 
-Install this skill across different agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install nginx-config-validator-optimizer
+npx skills add agentskillexchange/skills --skill nginx-config-validator-optimizer
 ```
 
 ### Claude Code
 ```bash
-claude skills add nginx-config-validator-optimizer
+npx skills add agentskillexchange/skills --skill nginx-config-validator-optimizer -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills/` directory or install via Cursor settings.
+```bash
+npx skills add agentskillexchange/skills --skill nginx-config-validator-optimizer -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install nginx-config-validator-optimizer
 
 ### Codex
 ```bash
-codex skills add nginx-config-validator-optimizer
+npx skills add agentskillexchange/skills --skill nginx-config-validator-optimizer -a codex
 ```
-
 ## Details
 
 | Property | Value |

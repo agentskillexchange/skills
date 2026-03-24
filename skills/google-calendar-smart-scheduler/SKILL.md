@@ -3,15 +3,14 @@ name: "Google Calendar Smart Scheduler"
 description: "Finds optimal meeting slots across multiple Google Calendar accounts using the Freebusy API (POST /calendar/v3/freeBusy), respects working hours and focus time blocks, and creates calendar events via the Events API. Supports timezone-aware scheduling across distributed teams."
 category: "Calendar, Email & Productivity"
 framework: "OpenClaw"
-verification: 
+verification: listed
 rating: 4.2
 reviews: 26
-creator: Raj Gupta
-creator_handle: rajgupta
+creator: "Raj Gupta"
+creator_handle: "@rajgupta"
 creator_verified: true
-source: https://agentskillexchange.com/skill/google-calendar-smart-scheduler/
+source: "https://agentskillexchange.com/skills/google-calendar-smart-scheduler/"
 ---
-
 # Google Calendar Smart Scheduler
 
 Finds optimal meeting slots across multiple Google Calendar accounts using the Freebusy API (POST /calendar/v3/freeBusy), respects working hours and focus time blocks, and creates calendar events via the Events API. Supports timezone-aware scheduling across distributed teams.

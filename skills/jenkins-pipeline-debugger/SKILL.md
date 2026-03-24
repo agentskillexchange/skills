@@ -6,12 +6,11 @@ framework: "Claude Agents"
 verification: security_reviewed
 rating: 4.6
 reviews: 86
-creator: Leo Park
-creator_handle: leopark
+creator: "Leo Park"
+creator_handle: "@leopark"
 creator_verified: true
-source: https://agentskillexchange.com/skill/jenkins-pipeline-debugger/
+source: "https://agentskillexchange.com/skills/jenkins-pipeline-debugger/"
 ---
-
 # Jenkins Pipeline Debugger
 
 Connects to Jenkins via the Jenkins REST API and Blue Ocean API to debug Declarative and Scripted pipelines. Retrieves stage logs, replays failed builds, and traces Groovy CPS execution state.

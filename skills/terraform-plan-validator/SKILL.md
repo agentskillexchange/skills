@@ -3,41 +3,33 @@ name: "Terraform Plan Validator"
 description: "Parses terraform plan JSON output via the Terraform CLI (terraform show -json) to validate infrastructure changes before apply. Detects destructive operations, cost estimate impacts via Infracost API, and drift from desired state."
 category: "CI/CD Integrations"
 framework: "MCP-compatible"
-verification: "verified_metadata"
-rating: "4.0"
-reviews: "36"
+verification: verified_metadata
+rating: 4.0
+reviews: 36
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/terraform-plan-validator/"
+source: "https://agentskillexchange.com/skills/terraform-plan-validator/"
 ---
-
 # Terraform Plan Validator
 
 Parses terraform plan JSON output via the Terraform CLI (terraform show -json) to validate infrastructure changes before apply. Detects destructive operations, cost estimate impacts via Infracost API, and drift from desired state.
 
 ## Installation
 
-Install this skill in your agent with one of the following methods:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install terraform-plan-validator
+npx skills add agentskillexchange/skills --skill terraform-plan-validator
 ```
 
 ### Claude Code
 ```bash
-claude mcp add terraform-plan-validator
+npx skills add agentskillexchange/skills --skill terraform-plan-validator -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "terraform-plan-validator": {
-    "source": "https://agentskillexchange.com/skill/terraform-plan-validator/"
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill terraform-plan-validator -a cursor
 ```
 
 ### OpenClaw
@@ -47,9 +39,8 @@ clawhub install terraform-plan-validator
 
 ### Codex
 ```bash
-codex install terraform-plan-validator
+npx skills add agentskillexchange/skills --skill terraform-plan-validator -a codex
 ```
-
 ## Details
 
 | | |

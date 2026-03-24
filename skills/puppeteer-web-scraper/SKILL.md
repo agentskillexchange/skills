@@ -3,36 +3,33 @@ name: "Puppeteer Web Scraper"
 description: "Headless Chrome scraping via Puppeteer with automatic cookie handling, JavaScript rendering, and Cheerio-based DOM extraction. Handles infinite scroll and lazy-loaded content."
 category: "Research & Scraping"
 framework: "Cursor"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.6
 reviews: 85
 creator: "Sam Lee"
 creator_handle: "@samlee_dev"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/puppeteer-web-scraper/"
+source: "https://agentskillexchange.com/skills/puppeteer-web-scraper/"
 ---
-
 # Puppeteer Web Scraper
 
 Headless Chrome scraping via Puppeteer with automatic cookie handling, JavaScript rendering, and Cheerio-based DOM extraction. Handles infinite scroll and lazy-loaded content.
 
 ## Installation
 
-Install this skill using one of these methods:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install puppeteer-web-scraper
+npx skills add agentskillexchange/skills --skill puppeteer-web-scraper
 ```
 
 ### Claude Code
 ```bash
-claude skills add puppeteer-web-scraper
+npx skills add agentskillexchange/skills --skill puppeteer-web-scraper -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor skills install puppeteer-web-scraper
+npx skills add agentskillexchange/skills --skill puppeteer-web-scraper -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install puppeteer-web-scraper
 
 ### Codex
 ```bash
-codex skills add puppeteer-web-scraper
+npx skills add agentskillexchange/skills --skill puppeteer-web-scraper -a codex
 ```
-
 ## Details
 
 | Property | Value |

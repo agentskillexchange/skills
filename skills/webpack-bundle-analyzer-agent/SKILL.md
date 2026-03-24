@@ -3,39 +3,33 @@ name: "Webpack Bundle Analyzer Agent"
 description: "Analyzes webpack bundle composition using webpack-bundle-analyzer and source-map-explorer APIs. Identifies duplicate dependencies and suggests tree-shaking optimizations with specific import rewrites."
 category: "Developer Tools"
 framework: "Cursor"
-verification: ""
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/webpack-bundle-analyzer-agent/"
+source: "https://agentskillexchange.com/skills/webpack-bundle-analyzer-agent/"
 ---
-
 # Webpack Bundle Analyzer Agent
 
 Analyzes webpack bundle composition using webpack-bundle-analyzer and source-map-explorer APIs. Identifies duplicate dependencies and suggests tree-shaking optimizations with specific import rewrites.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install webpack-bundle-analyzer-agent
+npx skills add agentskillexchange/skills --skill webpack-bundle-analyzer-agent
 ```
 
 ### Claude Code
 ```bash
-claude mcp add webpack-bundle-analyzer-agent
+npx skills add agentskillexchange/skills --skill webpack-bundle-analyzer-agent -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["webpack-bundle-analyzer-agent"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill webpack-bundle-analyzer-agent -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install webpack-bundle-analyzer-agent
 
 ### Codex
 ```bash
-codex install webpack-bundle-analyzer-agent
+npx skills add agentskillexchange/skills --skill webpack-bundle-analyzer-agent -a codex
 ```
-
 ## Details
 
 | Field | Value |

@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.4
 reviews: 73
-creator: Sofia Petrov
-creator_handle: sofiapetrov
+creator: "Sofia Petrov"
+creator_handle: "@sofiapetrov"
 creator_verified: true
-source: https://agentskillexchange.com/skill/sdk-version-checker/
+source: "https://agentskillexchange.com/skills/sdk-version-checker/"
 ---
-
 # SDK Version Checker
 
 Audits SDK versions across your codebase, identifies outdated clients, maps SDKs to their API versions, and generates upgrade paths with breaking change summaries.

@@ -3,39 +3,33 @@ name: "SonarQube Quality Gate Enforcer"
 description: "Enforces SonarQube quality gates in CI pipelines using the sonarqube-scanner npm package and SonarQube Web API (/api/qualitygates/project_status). Blocks merges on new code coverage drops and security hotspot detections."
 category: "Code Quality & Review"
 framework: "Claude Agents"
-verification: "verified_metadata"
-rating: "4.9"
-reviews: "15"
+verification: verified_metadata
+rating: 4.9
+reviews: 15
 creator: "Fatima Al-Hassan"
 creator_handle: "@fatimaalhassan"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/sonarqube-quality-gate-enforcer-6/"
+source: "https://agentskillexchange.com/skills/sonarqube-quality-gate-enforcer-6/"
 ---
-
 # SonarQube Quality Gate Enforcer
 
 Enforces SonarQube quality gates in CI pipelines using the sonarqube-scanner npm package and SonarQube Web API (/api/qualitygates/project_status). Blocks merges on new code coverage drops and security hotspot detections.
 
 ## Installation
 
-Install this skill in your AI coding agent:
-
 ### Any Agent (npx)
 ```bash
-npx agentskills install sonarqube-quality-gate-enforcer-6
+npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-enforcer-6
 ```
 
 ### Claude Code
 ```bash
-claude mcp add sonarqube-quality-gate-enforcer-6 -- npx agentskills install sonarqube-quality-gate-enforcer-6
+npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-enforcer-6 -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/agents.json`:
-```json
-{
-  "skills": ["sonarqube-quality-gate-enforcer-6"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-enforcer-6 -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install sonarqube-quality-gate-enforcer-6
 
 ### Codex
 ```bash
-codex install skill sonarqube-quality-gate-enforcer-6
+npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-enforcer-6 -a codex
 ```
-
 ## Details
 
 | Field | Value |

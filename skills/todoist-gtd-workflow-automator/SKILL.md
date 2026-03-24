@@ -3,15 +3,14 @@ name: "Todoist GTD Workflow Automator"
 description: "Implements Getting Things Done methodology on Todoist using the Todoist Sync API v9. Automates inbox processing, context labeling, weekly reviews, and project-to-next-action extraction with natural language parsing."
 category: "Calendar, Email & Productivity"
 framework: "Cursor"
-verification: "✅ Verified"
-rating: "4.4"
-reviews: "85"
+verification: security_reviewed
+rating: 4.4
+reviews: 85
 creator: "Zoe Chen"
 creator_handle: "@zoechen"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/todoist-gtd-workflow-automator/"
+source: "https://agentskillexchange.com/skills/todoist-gtd-workflow-automator/"
 ---
-
 # Todoist GTD Workflow Automator
 
 Implements Getting Things Done methodology on Todoist using the Todoist Sync API v9. Automates inbox processing, context labeling, weekly reviews, and project-to-next-action extraction with natural language parsing.
@@ -20,17 +19,17 @@ Implements Getting Things Done methodology on Todoist using the Todoist Sync API
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install todoist-gtd-workflow-automator
+npx skills add agentskillexchange/skills --skill todoist-gtd-workflow-automator
 ```
 
 ### Claude Code
 ```bash
-claude skills add todoist-gtd-workflow-automator
+npx skills add agentskillexchange/skills --skill todoist-gtd-workflow-automator -a claude-code
 ```
 
 ### Cursor
-```
-Install from Cursor Settings → Skills → Add Skill → "Todoist GTD Workflow Automator"
+```bash
+npx skills add agentskillexchange/skills --skill todoist-gtd-workflow-automator -a cursor
 ```
 
 ### OpenClaw
@@ -40,9 +39,8 @@ clawhub install todoist-gtd-workflow-automator
 
 ### Codex
 ```bash
-codex skills install todoist-gtd-workflow-automator
+npx skills add agentskillexchange/skills --skill todoist-gtd-workflow-automator -a codex
 ```
-
 ## Details
 
 | Field | Value |

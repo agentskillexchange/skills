@@ -6,12 +6,11 @@ framework: "Codex"
 verification: verified_metadata
 rating: 4.8
 reviews: 32
-creator: Sarah Chen
-creator_handle: sarahchen
+creator: "Sarah Chen"
+creator_handle: "@sarahchen"
 creator_verified: true
-source: https://agentskillexchange.com/skill/semgrep-security-scanner/
+source: "https://agentskillexchange.com/skills/semgrep-security-scanner/"
 ---
-
 # Semgrep Security Scanner
 
 Runs Semgrep static analysis with custom and community rulesets via the Semgrep CLI and Semgrep App API. Detects OWASP Top 10 vulnerabilities and generates fix suggestions.

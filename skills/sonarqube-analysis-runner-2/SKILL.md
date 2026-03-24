@@ -3,36 +3,33 @@ name: "SonarQube Analysis Runner"
 description: "Runs SonarQube static analysis scans on codebases using the SonarScanner CLI and SonarQube REST API. Reports code smells, bugs, and security vulnerabilities with severity rankings. Integrates with SonarCloud for hosted analysis."
 category: "Code Quality & Review"
 framework: "Claude Code"
-verification: ""
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
-creator_verified: "false"
-source: "https://agentskillexchange.com/skill/sonarqube-analysis-runner-2/"
+creator_verified: false
+source: "https://agentskillexchange.com/skills/sonarqube-analysis-runner-2/"
 ---
-
 # SonarQube Analysis Runner
 
 Runs SonarQube static analysis scans on codebases using the SonarScanner CLI and SonarQube REST API. Reports code smells, bugs, and security vulnerabilities with severity rankings. Integrates with SonarCloud for hosted analysis.
 
 ## Installation
 
-Install this skill on your preferred agent platform:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install sonarqube-analysis-runner-2
+npx skills add agentskillexchange/skills --skill sonarqube-analysis-runner-2
 ```
 
 ### Claude Code
 ```bash
-claude mcp add sonarqube-analysis-runner-2
+npx skills add agentskillexchange/skills --skill sonarqube-analysis-runner-2 -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor skills install sonarqube-analysis-runner-2
+npx skills add agentskillexchange/skills --skill sonarqube-analysis-runner-2 -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install sonarqube-analysis-runner-2
 
 ### Codex
 ```bash
-codex install sonarqube-analysis-runner-2
+npx skills add agentskillexchange/skills --skill sonarqube-analysis-runner-2 -a codex
 ```
-
 ## Details
 
 | Field | Value |

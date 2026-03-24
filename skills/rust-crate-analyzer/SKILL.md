@@ -3,51 +3,44 @@ name: "Rust Crate Analyzer"
 description: "Fetches crate metadata from the crates.io API and docs.rs API for Rust package discovery. Analyzes feature flags, dependency auditing via RustSec Advisory DB, and MSRV compatibility checking."
 category: "Library & API Reference"
 framework: "Codex"
-verification: "Verified ✅"
-rating: "4.9"
-reviews: "86"
+verification: security_reviewed
+rating: 4.9
+reviews: 86
 creator: "Grace Okafor"
 creator_handle: "@graceokafor"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/rust-crate-analyzer/"
+source: "https://agentskillexchange.com/skills/rust-crate-analyzer/"
 ---
-
 # Rust Crate Analyzer
 
 Fetches crate metadata from the crates.io API and docs.rs API for Rust package discovery. Analyzes feature flags, dependency auditing via RustSec Advisory DB, and MSRV compatibility checking.
 
 ## Installation
 
-Install this skill across different agents:
-
-**Any agent (npx):**
+### Any Agent (npx)
 ```bash
-npx @anthropic/skills install rust-crate-analyzer
+npx skills add agentskillexchange/skills --skill rust-crate-analyzer
 ```
 
-**Claude Code:**
+### Claude Code
 ```bash
-claude skills add rust-crate-analyzer
+npx skills add agentskillexchange/skills --skill rust-crate-analyzer -a claude-code
 ```
 
-**Cursor:**
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["rust-crate-analyzer"]
-}
+### Cursor
+```bash
+npx skills add agentskillexchange/skills --skill rust-crate-analyzer -a cursor
 ```
 
-**OpenClaw:**
+### OpenClaw
 ```bash
 clawhub install rust-crate-analyzer
 ```
 
-**Codex:**
+### Codex
 ```bash
-codex skills add rust-crate-analyzer
+npx skills add agentskillexchange/skills --skill rust-crate-analyzer -a codex
 ```
-
 ## Details
 
 | Field | Value |

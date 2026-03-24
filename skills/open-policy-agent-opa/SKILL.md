@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.8
 reviews: 19
-creator: Liam OBrien
-creator_handle: liamobrien
+creator: "Liam OBrien"
+creator_handle: "@liamobrien"
 creator_verified: true
-source: https://agentskillexchange.com/skill/open-policy-agent-opa/
+source: "https://agentskillexchange.com/skills/open-policy-agent-opa/"
 ---
-
 # Open Policy Agent (OPA)
 
 Implements policy-as-code using Open Policy Agent and Rego language. Enforces admission control in Kubernetes, API authorization policies, and infrastructure compliance checks across cloud resources.

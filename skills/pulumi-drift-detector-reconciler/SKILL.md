@@ -6,12 +6,11 @@ framework: "Codex"
 verification: verified_metadata
 rating: 4.5
 reviews: 49
-creator: Elena Kowalski
-creator_handle: ekowalski
+creator: "Elena Kowalski"
+creator_handle: "@ekowalski"
 creator_verified: true
-source: https://agentskillexchange.com/skill/pulumi-drift-detector-reconciler/
+source: "https://agentskillexchange.com/skills/pulumi-drift-detector-reconciler/"
 ---
-
 # Pulumi Drift Detector & Reconciler
 
 Runs pulumi refresh on schedule to detect drift between live cloud resources and Pulumi state. Classifies drift by severity and opens a Jira ticket for destructive changes. Non-destructive drift is auto-reconciled via pulumi up –target for specific resources.

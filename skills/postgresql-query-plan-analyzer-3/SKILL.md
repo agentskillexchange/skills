@@ -3,35 +3,34 @@ name: "PostgreSQL Query Plan Analyzer"
 description: "Analyzes PostgreSQL EXPLAIN ANALYZE output using pg_stat_statements and auto_explain module data. Identifies sequential scans, nested loop inefficiencies, and missing index opportunities with cost-based recommendations."
 category: "Runbooks & Diagnostics"
 framework: "Cursor"
-verification: "Community"
-rating: "4.5"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/postgresql-query-plan-analyzer-3/"
+source: "https://agentskillexchange.com/skills/postgresql-query-plan-analyzer-3/"
 ---
-
 # PostgreSQL Query Plan Analyzer
 
 Analyzes PostgreSQL EXPLAIN ANALYZE output using pg_stat_statements and auto_explain module data. Identifies sequential scans, nested loop inefficiencies, and missing index opportunities with cost-based recommendations.
 
 ## Installation
 
-Install this skill across different agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install postgresql-query-plan-analyzer-3
+npx skills add agentskillexchange/skills --skill postgresql-query-plan-analyzer-3
 ```
 
 ### Claude Code
 ```bash
-claude skills add postgresql-query-plan-analyzer-3
+npx skills add agentskillexchange/skills --skill postgresql-query-plan-analyzer-3 -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` directory or install via Cursor settings.
+```bash
+npx skills add agentskillexchange/skills --skill postgresql-query-plan-analyzer-3 -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install postgresql-query-plan-analyzer-3
 
 ### Codex
 ```bash
-codex skills add postgresql-query-plan-analyzer-3
+npx skills add agentskillexchange/skills --skill postgresql-query-plan-analyzer-3 -a codex
 ```
-
 ## Details
 
 | Field | Value |

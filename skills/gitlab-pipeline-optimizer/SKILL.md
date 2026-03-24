@@ -6,12 +6,11 @@ framework: "Claude Agents"
 verification: security_reviewed
 rating: 4.5
 reviews: 86
-creator: Mia Zhang
-creator_handle: miazhang
+creator: "Mia Zhang"
+creator_handle: "@miazhang"
 creator_verified: true
-source: https://agentskillexchange.com/skill/gitlab-pipeline-optimizer/
+source: "https://agentskillexchange.com/skills/gitlab-pipeline-optimizer/"
 ---
-
 # GitLab Pipeline Optimizer
 
 Analyzes and optimizes GitLab CI/CD pipelines using the GitLab REST API v4 and .gitlab-ci.yml schema. Reduces pipeline duration by identifying bottleneck stages, configuring DAG dependencies with needs keyword, and implementing rules-based job filtering.

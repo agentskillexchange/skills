@@ -6,12 +6,11 @@ framework: "Gemini"
 verification: security_reviewed
 rating: 4.6
 reviews: 84
-creator: Maya Johnson
-creator_handle: mayaj
+creator: "Maya Johnson"
+creator_handle: "@mayaj"
 creator_verified: false
-source: https://agentskillexchange.com/skill/jenkins-shared-library-builder/
+source: "https://agentskillexchange.com/skills/jenkins-shared-library-builder/"
 ---
-
 # Jenkins Shared Library Builder
 
 Scaffolds and tests Jenkins Shared Libraries using the jenkins-pipeline-unit framework (JenkinsPipelineUnit). Validates Groovy DSL syntax via CodeNarc static analysis and tests pipeline steps with JenkinsRule from jenkins-test-harness.

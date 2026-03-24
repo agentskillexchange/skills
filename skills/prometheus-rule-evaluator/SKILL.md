@@ -1,37 +1,34 @@
 ---
-name: prometheus-rule-evaluator
+name: "prometheus-rule-evaluator"
 description: "Validates and tests Prometheus alerting rules against historical metrics data using the Prometheus HTTP API /api/v1/query_range endpoint. Runs rule simulations with configurable time windows and threshold testing."
-category: Monitoring & Alerts
-framework: Claude Agents
-verification: 
+category: "Monitoring & Alerts"
+framework: "Claude Agents"
+verification: listed
 rating: 0
 reviews: 0
-creator: Community
+creator: "Community"
 creator_verified: false
-source: https://agentskillexchange.com/skill/prometheus-rule-evaluator/
+source: "https://agentskillexchange.com/skills/prometheus-rule-evaluator/"
 ---
-
 # Prometheus Rule Evaluator
 
 Validates and tests Prometheus alerting rules against historical metrics data using the Prometheus HTTP API /api/v1/query_range endpoint. Runs rule simulations with configurable time windows and threshold testing.
 
 ## Installation
 
-Install this skill for your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install prometheus-rule-evaluator
+npx skills add agentskillexchange/skills --skill prometheus-rule-evaluator
 ```
 
 ### Claude Code
 ```bash
-claude skills add prometheus-rule-evaluator
+npx skills add agentskillexchange/skills --skill prometheus-rule-evaluator -a claude-code
 ```
 
 ### Cursor
-```
-Install prometheus-rule-evaluator from Cursor Settings > Skills
+```bash
+npx skills add agentskillexchange/skills --skill prometheus-rule-evaluator -a cursor
 ```
 
 ### OpenClaw
@@ -41,9 +38,8 @@ clawhub install prometheus-rule-evaluator
 
 ### Codex
 ```bash
-codex skills add prometheus-rule-evaluator
+npx skills add agentskillexchange/skills --skill prometheus-rule-evaluator -a codex
 ```
-
 ## Details
 
 | Field | Value |

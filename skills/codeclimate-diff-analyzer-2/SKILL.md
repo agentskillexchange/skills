@@ -3,35 +3,34 @@ name: "CodeClimate Diff Analyzer"
 description: "Runs CodeClimate analysis on pull request diffs using the CLI engine and reports new issues inline. Calculates maintainability impact scores per changed file."
 category: "Code Quality & Review"
 framework: "Claude Code"
-verification: "✅ Verified"
-rating: "4.6"
-reviews: "63"
+verification: security_reviewed
+rating: 4.6
+reviews: 63
 creator: "Aisha Patel"
 creator_handle: "@aishapatel"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/codeclimate-diff-analyzer-2/"
+source: "https://agentskillexchange.com/skills/codeclimate-diff-analyzer-2/"
 ---
-
 # CodeClimate Diff Analyzer
 
 Runs CodeClimate analysis on pull request diffs using the CLI engine and reports new issues inline. Calculates maintainability impact scores per changed file.
 
 ## Installation
 
-Install this skill across different AI coding agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install codeclimate-diff-analyzer-2
+npx skills add agentskillexchange/skills --skill codeclimate-diff-analyzer-2
 ```
 
 ### Claude Code
 ```bash
-claude skills install codeclimate-diff-analyzer-2
+npx skills add agentskillexchange/skills --skill codeclimate-diff-analyzer-2 -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` directory or install via Cursor settings.
+```bash
+npx skills add agentskillexchange/skills --skill codeclimate-diff-analyzer-2 -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install codeclimate-diff-analyzer-2
 
 ### Codex
 ```bash
-codex skills install codeclimate-diff-analyzer-2
+npx skills add agentskillexchange/skills --skill codeclimate-diff-analyzer-2 -a codex
 ```
-
 ## Details
 
 | | |

@@ -3,36 +3,33 @@ name: "Selenium Grid Auto-Scaling Orchestrator"
 description: "Orchestrates Selenium Grid 4 node scaling based on test queue depth using the Grid GraphQL API. Manages Docker container lifecycle for Chrome, Firefox, and Edge nodes with health monitoring."
 category: "Browser Automation"
 framework: "OpenClaw"
-verification: "Verified ✅"
+verification: security_reviewed
 rating: 4.5
 reviews: 20
 creator: "Priya Sharma"
 creator_handle: "@priyasharma"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/selenium-grid-auto-scaling-orchestrator/"
+source: "https://agentskillexchange.com/skills/selenium-grid-auto-scaling-orchestrator/"
 ---
-
 # Selenium Grid Auto-Scaling Orchestrator
 
 Orchestrates Selenium Grid 4 node scaling based on test queue depth using the Grid GraphQL API. Manages Docker container lifecycle for Chrome, Firefox, and Edge nodes with health monitoring.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install selenium-grid-auto-scaling-orchestrator
+npx skills add agentskillexchange/skills --skill selenium-grid-auto-scaling-orchestrator
 ```
 
 ### Claude Code
 ```bash
-claude skills add selenium-grid-auto-scaling-orchestrator
+npx skills add agentskillexchange/skills --skill selenium-grid-auto-scaling-orchestrator -a claude-code
 ```
 
 ### Cursor
-```
-Install from Cursor Settings → Skills → Search "Selenium Grid Auto-Scaling Orchestrator"
+```bash
+npx skills add agentskillexchange/skills --skill selenium-grid-auto-scaling-orchestrator -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install selenium-grid-auto-scaling-orchestrator
 
 ### Codex
 ```bash
-codex skills install selenium-grid-auto-scaling-orchestrator
+npx skills add agentskillexchange/skills --skill selenium-grid-auto-scaling-orchestrator -a codex
 ```
-
 ## Details
 
 | Field | Value |

@@ -3,39 +3,33 @@ name: "Selenium Grid Parallel Test Runner"
 description: "Orchestrates distributed browser tests across Selenium Grid 4 nodes with dynamic scaling. Uses selenium-webdriver RemoteWebDriver with W3C WebDriver protocol and Zalenium-style video recording."
 category: "Browser Automation"
 framework: "Cursor"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.0
 reviews: 82
 creator: "Tom Wilson"
 creator_handle: "@tomwilson"
 creator_verified: false
-source: "https://agentskillexchange.com/skill/selenium-grid-parallel-test-runner/"
+source: "https://agentskillexchange.com/skills/selenium-grid-parallel-test-runner/"
 ---
-
 # Selenium Grid Parallel Test Runner
 
 Orchestrates distributed browser tests across Selenium Grid 4 nodes with dynamic scaling. Uses selenium-webdriver RemoteWebDriver with W3C WebDriver protocol and Zalenium-style video recording.
 
 ## Installation
 
-Install this skill for your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install selenium-grid-parallel-test-runner
+npx skills add agentskillexchange/skills --skill selenium-grid-parallel-test-runner
 ```
 
 ### Claude Code
 ```bash
-claude skills add selenium-grid-parallel-test-runner
+npx skills add agentskillexchange/skills --skill selenium-grid-parallel-test-runner -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["selenium-grid-parallel-test-runner"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill selenium-grid-parallel-test-runner -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install selenium-grid-parallel-test-runner
 
 ### Codex
 ```bash
-codex skills add selenium-grid-parallel-test-runner
+npx skills add agentskillexchange/skills --skill selenium-grid-parallel-test-runner -a codex
 ```
-
 ## Details
 
 | Property | Value |

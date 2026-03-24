@@ -6,12 +6,11 @@ framework: "Claude Agents"
 verification: security_reviewed
 rating: 4.2
 reviews: 76
-creator: Alex Thompson
-creator_handle: alexthompson
+creator: "Alex Thompson"
+creator_handle: "@alexthompson"
 creator_verified: true
-source: https://agentskillexchange.com/skill/cloud-cost-analysis/
+source: "https://agentskillexchange.com/skills/cloud-cost-analysis/"
 ---
-
 # Cloud Cost Analysis
 
 Use this skill when you need to analyze cloud spending across AWS, GCP, or Azure accounts and identify optimization opportunities. It queries cost and usage data, surfaces top spending services, highlights anomalies, and recommends rightsizing or reserved instance strategies.

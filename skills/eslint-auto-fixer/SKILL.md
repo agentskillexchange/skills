@@ -3,36 +3,33 @@ name: "ESLint Auto-Fixer"
 description: "Applies ESLint fixes automatically using the ESLint Node.js API with flat config support. Handles rule conflicts across TypeScript-ESLint and eslint-plugin-react. Generates fix reports in SARIF format."
 category: "Code Quality & Review"
 framework: "OpenClaw"
-verification: ""
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
-creator_verified: "false"
-source: "https://agentskillexchange.com/skill/eslint-auto-fixer/"
+creator_verified: false
+source: "https://agentskillexchange.com/skills/eslint-auto-fixer/"
 ---
-
 # ESLint Auto-Fixer
 
 Applies ESLint fixes automatically using the ESLint Node.js API with flat config support. Handles rule conflicts across TypeScript-ESLint and eslint-plugin-react. Generates fix reports in SARIF format.
 
 ## Installation
 
-Install this skill on your preferred agent platform:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install eslint-auto-fixer
+npx skills add agentskillexchange/skills --skill eslint-auto-fixer
 ```
 
 ### Claude Code
 ```bash
-claude mcp add eslint-auto-fixer
+npx skills add agentskillexchange/skills --skill eslint-auto-fixer -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor skills install eslint-auto-fixer
+npx skills add agentskillexchange/skills --skill eslint-auto-fixer -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install eslint-auto-fixer
 
 ### Codex
 ```bash
-codex install eslint-auto-fixer
+npx skills add agentskillexchange/skills --skill eslint-auto-fixer -a codex
 ```
-
 ## Details
 
 | Field | Value |

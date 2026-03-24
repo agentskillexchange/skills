@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.0
 reviews: 85
-creator: Mia Zhang
-creator_handle: miazhang
+creator: "Mia Zhang"
+creator_handle: "@miazhang"
 creator_verified: true
-source: https://agentskillexchange.com/skill/weaviate-mcp-server/
+source: "https://agentskillexchange.com/skills/weaviate-mcp-server/"
 ---
-
 # Weaviate MCP Server
 
 Use this skill to perform vector database operations in Weaviate, manage schemas, and run semantic and hybrid searches through MCP. It enables agents to leverage Weaviate’s multi-modal vector capabilities and GraphQL interface. Trigger when you need semantic search with structured filtering, multi-modal search, or open-source vector database operations.

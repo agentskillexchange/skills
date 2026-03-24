@@ -3,40 +3,34 @@ name: "CDP Network Interception Logger"
 description: "Uses Chrome DevTools Protocol Fetch.requestPaused and Network.responseReceived events to intercept, log, and modify HTTP traffic during browser automation. Exports HAR files compatible with Charles Proxy and supports request/response body modification."
 category: "Browser Automation"
 framework: "Codex"
-verification: "✅ Verified"
-security: "🔒 Reviewed"
-rating: "4.7"
-reviews: "23"
+verification: security_reviewed
+rating: 4.7
+reviews: 23
 creator: "Sam Lee"
 creator_handle: "@samlee_dev"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/cdp-network-interception-logger/"
+source: "https://agentskillexchange.com/skills/cdp-network-interception-logger/"
+security: "🔒 Reviewed"
 ---
-
 # CDP Network Interception Logger
 
 Uses Chrome DevTools Protocol Fetch.requestPaused and Network.responseReceived events to intercept, log, and modify HTTP traffic during browser automation. Exports HAR files compatible with Charles Proxy and supports request/response body modification.
 
 ## Installation
 
-Install this skill across different AI coding agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install cdp-network-interception-logger
+npx skills add agentskillexchange/skills --skill cdp-network-interception-logger
 ```
 
 ### Claude Code
 ```bash
-claude skills add cdp-network-interception-logger
+npx skills add agentskillexchange/skills --skill cdp-network-interception-logger -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["cdp-network-interception-logger"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill cdp-network-interception-logger -a cursor
 ```
 
 ### OpenClaw
@@ -46,9 +40,8 @@ clawhub install cdp-network-interception-logger
 
 ### Codex
 ```bash
-codex skills add cdp-network-interception-logger
+npx skills add agentskillexchange/skills --skill cdp-network-interception-logger -a codex
 ```
-
 ## Details
 
 | Property | Value |

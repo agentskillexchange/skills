@@ -6,12 +6,11 @@ framework: "OpenClaw"
 verification: security_reviewed
 rating: 4.7
 reviews: 31
-creator: Tom Anderson
-creator_handle: tanderson
+creator: "Tom Anderson"
+creator_handle: "@tanderson"
 creator_verified: false
-source: https://agentskillexchange.com/skill/frontend-design-guidance-skill/
+source: "https://agentskillexchange.com/skills/frontend-design-guidance-skill/"
 ---
-
 # Frontend Design Guidance Skill
 
 Practical frontend design guidance for landing pages, dashboards, and UI implementation work.

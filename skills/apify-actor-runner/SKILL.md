@@ -3,36 +3,33 @@ name: "Apify Actor Runner"
 description: "Executes Apify cloud actors for structured web scraping with automatic dataset export to S3. Supports actor input schema validation and webhook-based run completion notifications."
 category: "Research & Scraping"
 framework: "Codex"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.7
 reviews: 68
 creator: "Ben Taylor"
 creator_handle: "@bentaylor"
 creator_verified: false
-source: "https://agentskillexchange.com/skill/apify-actor-runner/"
+source: "https://agentskillexchange.com/skills/apify-actor-runner/"
 ---
-
 # Apify Actor Runner
 
 Executes Apify cloud actors for structured web scraping with automatic dataset export to S3. Supports actor input schema validation and webhook-based run completion notifications.
 
 ## Installation
 
-Install this skill using one of these methods:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install apify-actor-runner
+npx skills add agentskillexchange/skills --skill apify-actor-runner
 ```
 
 ### Claude Code
 ```bash
-claude skills add apify-actor-runner
+npx skills add agentskillexchange/skills --skill apify-actor-runner -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor skills install apify-actor-runner
+npx skills add agentskillexchange/skills --skill apify-actor-runner -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install apify-actor-runner
 
 ### Codex
 ```bash
-codex skills add apify-actor-runner
+npx skills add agentskillexchange/skills --skill apify-actor-runner -a codex
 ```
-
 ## Details
 
 | Property | Value |

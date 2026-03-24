@@ -6,12 +6,11 @@ framework: "OpenClaw"
 verification: verified_metadata
 rating: 4.3
 reviews: 44
-creator: Isabella Rossi
-creator_handle: irossi
+creator: "Isabella Rossi"
+creator_handle: "@irossi"
 creator_verified: false
-source: https://agentskillexchange.com/skill/substack-formatter/
+source: "https://agentskillexchange.com/skills/substack-formatter/"
 ---
-
 # Substack Formatter
 
 Convert plain text into Substack-ready HTML that preserves headings, emphasis, and lists on paste.

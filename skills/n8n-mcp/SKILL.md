@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.9
 reviews: 33
-creator: Sarah Chen
-creator_handle: sarahchen
+creator: "Sarah Chen"
+creator_handle: "@sarahchen"
 creator_verified: true
-source: https://agentskillexchange.com/skill/n8n-mcp/
+source: "https://agentskillexchange.com/skills/n8n-mcp/"
 ---
-
 # n8n MCP
 
 Connect agent actions to n8n workflow automation.

@@ -3,36 +3,33 @@ name: "jq JSON Stream Transformer"
 description: "Constructs complex jq filter expressions for transforming JSON/NDJSON streams, including recursive descent, object construction, and reduce operations. Handles multi-gigabyte streams with jq’s streaming parser."
 category: "Data Extraction & Transformation"
 framework: "MCP-compatible"
-verification: "Verified"
-rating: "4.6"
-reviews: "86"
+verification: verified_metadata
+rating: 4.6
+reviews: 86
 creator: "Elena Rodriguez"
 creator_handle: "@elena_dev"
-creator_verified: "Yes"
-source: "https://agentskillexchange.com/skill/jq-json-stream-transformer/"
+creator_verified: true
+source: "https://agentskillexchange.com/skills/jq-json-stream-transformer/"
 ---
-
 # jq JSON Stream Transformer
 
 Constructs complex jq filter expressions for transforming JSON/NDJSON streams, including recursive descent, object construction, and reduce operations. Handles multi-gigabyte streams with jq’s streaming parser.
 
 ## Installation
 
-Install this skill using one of the following methods:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install jq-json-stream-transformer
+npx skills add agentskillexchange/skills --skill jq-json-stream-transformer
 ```
 
 ### Claude Code
 ```bash
-claude skills add jq-json-stream-transformer
+npx skills add agentskillexchange/skills --skill jq-json-stream-transformer -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor skills install jq-json-stream-transformer
+npx skills add agentskillexchange/skills --skill jq-json-stream-transformer -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install jq-json-stream-transformer
 
 ### Codex
 ```bash
-codex skills add jq-json-stream-transformer
+npx skills add agentskillexchange/skills --skill jq-json-stream-transformer -a codex
 ```
-
 ## Details
 
 | Field | Value |

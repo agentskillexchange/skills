@@ -1,37 +1,34 @@
 ---
-name: playwright-session-recorder
+name: "playwright-session-recorder"
 description: "Records browser sessions as Playwright test scripts using the Playwright Inspector API and Chrome DevTools Protocol. Captures user interactions, network requests, and DOM mutations for reproducible automated test generation."
-category: Browser Automation
-framework: Cursor
-verification: 
+category: "Browser Automation"
+framework: "Cursor"
+verification: listed
 rating: 0
 reviews: 0
-creator: Community
+creator: "Community"
 creator_verified: false
-source: https://agentskillexchange.com/skill/playwright-session-recorder/
+source: "https://agentskillexchange.com/skills/playwright-session-recorder/"
 ---
-
 # Playwright Session Recorder
 
 Records browser sessions as Playwright test scripts using the Playwright Inspector API and Chrome DevTools Protocol. Captures user interactions, network requests, and DOM mutations for reproducible automated test generation.
 
 ## Installation
 
-Install this skill for your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install playwright-session-recorder
+npx skills add agentskillexchange/skills --skill playwright-session-recorder
 ```
 
 ### Claude Code
 ```bash
-claude skills add playwright-session-recorder
+npx skills add agentskillexchange/skills --skill playwright-session-recorder -a claude-code
 ```
 
 ### Cursor
-```
-Install playwright-session-recorder from Cursor Settings > Skills
+```bash
+npx skills add agentskillexchange/skills --skill playwright-session-recorder -a cursor
 ```
 
 ### OpenClaw
@@ -41,9 +38,8 @@ clawhub install playwright-session-recorder
 
 ### Codex
 ```bash
-codex skills add playwright-session-recorder
+npx skills add agentskillexchange/skills --skill playwright-session-recorder -a codex
 ```
-
 ## Details
 
 | Field | Value |

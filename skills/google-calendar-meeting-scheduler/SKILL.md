@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: verified_metadata
 rating: 4.3
 reviews: 74
-creator: Yuki Tanaka
-creator_handle: yukitanaka
+creator: "Yuki Tanaka"
+creator_handle: "@yukitanaka"
 creator_verified: true
-source: https://agentskillexchange.com/skill/google-calendar-meeting-scheduler/
+source: "https://agentskillexchange.com/skills/google-calendar-meeting-scheduler/"
 ---
-
 # Google Calendar Meeting Scheduler
 
 Queries Google Calendar API to find free/busy windows across multiple attendees using FreeBusy queries. Creates events with Meet links via events.insert with conferenceData and sends invites via the attendees field. Handles timezone normalization using pytz.

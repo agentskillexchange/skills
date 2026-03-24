@@ -3,36 +3,33 @@ name: "ESLint Auto-Fix Agent"
 description: "Automated ESLint rule enforcement and auto-fix agent using the ESLint Node.js API and flat config system. Runs eslint.lintFiles() with fix:true across changed files, applies prettier-eslint formatting, and generates diff reports via unified-diff for PR reviews."
 category: "Code Quality & Review"
 framework: "OpenClaw"
-verification: "security_reviewed"
-rating: "0"
-reviews: "0"
+verification: security_reviewed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/eslint-auto-fix-agent-2/"
+source: "https://agentskillexchange.com/skills/eslint-auto-fix-agent-2/"
 ---
-
 # ESLint Auto-Fix Agent
 
 Automated ESLint rule enforcement and auto-fix agent using the ESLint Node.js API and flat config system. Runs eslint.lintFiles() with fix:true across changed files, applies prettier-eslint formatting, and generates diff reports via unified-diff for PR reviews.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install eslint-auto-fix-agent-2
+npx skills add agentskillexchange/skills --skill eslint-auto-fix-agent-2
 ```
 
 ### Claude Code
 ```bash
-claude skills add eslint-auto-fix-agent-2
+npx skills add agentskillexchange/skills --skill eslint-auto-fix-agent-2 -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor skills install eslint-auto-fix-agent-2
+npx skills add agentskillexchange/skills --skill eslint-auto-fix-agent-2 -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install eslint-auto-fix-agent-2
 
 ### Codex
 ```bash
-codex skills add eslint-auto-fix-agent-2
+npx skills add agentskillexchange/skills --skill eslint-auto-fix-agent-2 -a codex
 ```
-
 ## Details
 
 | | |

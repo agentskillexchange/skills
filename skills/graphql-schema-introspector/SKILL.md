@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.3
 reviews: 56
-creator: Chris Lee
-creator_handle: chrislee
+creator: "Chris Lee"
+creator_handle: "@chrislee"
 creator_verified: false
-source: https://agentskillexchange.com/skill/graphql-schema-introspector/
+source: "https://agentskillexchange.com/skills/graphql-schema-introspector/"
 ---
-
 # GraphQL Schema Introspector
 
 Performs GraphQL schema introspection using the graphql-js reference implementation and Apollo Client devtools protocol. Generates type documentation, query complexity analysis, and schema diff reports between API versions.

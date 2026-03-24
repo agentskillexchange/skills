@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: verified_metadata
 rating: 4.7
 reviews: 13
-creator: Yuki Tanaka
-creator_handle: yukitanaka
+creator: "Yuki Tanaka"
+creator_handle: "@yukitanaka"
 creator_verified: true
-source: https://agentskillexchange.com/skill/make-airtable-shopify-inventory-sync/
+source: "https://agentskillexchange.com/skills/make-airtable-shopify-inventory-sync/"
 ---
-
 # Make.com Airtable-to-Shopify Inventory Sync
 
 Configures a Make scenario using the Make REST API that watches for record changes in an Airtable base via Airtable Webhooks and maps inventory fields to Shopify product variants using the Shopify Admin REST API. Handles bulk updates with Make’s iterator and aggregator modules for up to 500 SKUs per run.

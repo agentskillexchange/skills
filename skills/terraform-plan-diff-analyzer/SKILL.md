@@ -6,12 +6,11 @@ framework: "Cursor"
 verification: security_reviewed
 rating: 4.1
 reviews: 80
-creator: Priya Sharma
-creator_handle: priyasharma
+creator: "Priya Sharma"
+creator_handle: "@priyasharma"
 creator_verified: true
-source: https://agentskillexchange.com/skill/terraform-plan-diff-analyzer/
+source: "https://agentskillexchange.com/skills/terraform-plan-diff-analyzer/"
 ---
-
 # Terraform Plan Diff Analyzer
 
 Parses Terraform plan JSON output to summarize resource changes, detect destructive actions, and flag policy violations. Uses the terraform show -json command and the Terraform Cloud API to retrieve plan artifacts. Integrates with OPA (Open Policy Agent) for policy-as-code enforcement on planned changes.

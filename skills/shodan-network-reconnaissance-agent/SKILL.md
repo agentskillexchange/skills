@@ -3,15 +3,14 @@ name: "Shodan Network Reconnaissance Agent"
 description: "Performs network reconnaissance using the Shodan REST API and Shodan InternetDB. Discovers exposed services, CVE mappings, and generates asset inventories with risk scores for security teams."
 category: "Research & Scraping"
 framework: "Claude Code"
-verification: "community"
+verification: listed
 rating: 0
 reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/shodan-network-reconnaissance-agent/"
+source: "https://agentskillexchange.com/skills/shodan-network-reconnaissance-agent/"
 ---
-
 # Shodan Network Reconnaissance Agent
 
 Performs network reconnaissance using the Shodan REST API and Shodan InternetDB. Discovers exposed services, CVE mappings, and generates asset inventories with risk scores for security teams.
@@ -20,16 +19,18 @@ Performs network reconnaissance using the Shodan REST API and Shodan InternetDB.
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install shodan-network-reconnaissance-agent
+npx skills add agentskillexchange/skills --skill shodan-network-reconnaissance-agent
 ```
 
 ### Claude Code
 ```bash
-claude mcp add shodan-network-reconnaissance-agent
+npx skills add agentskillexchange/skills --skill shodan-network-reconnaissance-agent -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills/shodan-network-reconnaissance-agent` in your project.
+```bash
+npx skills add agentskillexchange/skills --skill shodan-network-reconnaissance-agent -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -38,9 +39,8 @@ clawhub install shodan-network-reconnaissance-agent
 
 ### Codex
 ```bash
-codex install shodan-network-reconnaissance-agent
+npx skills add agentskillexchange/skills --skill shodan-network-reconnaissance-agent -a codex
 ```
-
 ## Details
 
 | Field | Value |

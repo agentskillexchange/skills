@@ -3,15 +3,14 @@ name: "Stable Diffusion XL Pipeline Builder"
 description: "Constructs and executes SDXL image generation pipelines using diffusers library and ComfyUI API. Supports LoRA loading, ControlNet conditioning, and batch prompt scheduling."
 category: "Image & Creative Automation"
 framework: "Cursor"
-verification: "community"
-rating: "4.8"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Omar Farouk"
 creator_handle: "@omarfarouk"
-creator_verified: 1
-source: "https://agentskillexchange.com/skill/stable-diffusion-xl-pipeline-builder/"
+creator_verified: true
+source: "https://agentskillexchange.com/skills/stable-diffusion-xl-pipeline-builder/"
 ---
-
 # Stable Diffusion XL Pipeline Builder
 
 Constructs and executes SDXL image generation pipelines using diffusers library and ComfyUI API. Supports LoRA loading, ControlNet conditioning, and batch prompt scheduling.
@@ -20,22 +19,17 @@ Constructs and executes SDXL image generation pipelines using diffusers library 
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install stable-diffusion-xl-pipeline-builder
+npx skills add agentskillexchange/skills --skill stable-diffusion-xl-pipeline-builder
 ```
 
 ### Claude Code
 ```bash
-claude mcp add stable-diffusion-xl-pipeline-builder
+npx skills add agentskillexchange/skills --skill stable-diffusion-xl-pipeline-builder -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "stable-diffusion-xl-pipeline-builder": {
-    "source": "agentskillexchange"
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill stable-diffusion-xl-pipeline-builder -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install stable-diffusion-xl-pipeline-builder
 
 ### Codex
 ```bash
-codex install-skill stable-diffusion-xl-pipeline-builder
+npx skills add agentskillexchange/skills --skill stable-diffusion-xl-pipeline-builder -a codex
 ```
-
 ## Details
 
 | Field | Value |

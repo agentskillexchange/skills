@@ -3,16 +3,15 @@ name: "Terraform Module Scaffolder"
 description: "Generates production-ready Terraform module structures using the HashiCorp HCL library with auto-generated variable definitions, output blocks, and provider constraints. Includes Terratest boilerplate and GitHub Actions CI templates."
 category: "Templates & Workflows"
 framework: "Codex"
-verification: "✅ Verified"
-security: "✅ Reviewed"
-rating: "4.8"
-reviews: "8"
+verification: security_reviewed
+rating: 4.8
+reviews: 8
 creator: "Meera Joshi"
 creator_handle: "@meerajoshi"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/terraform-module-scaffolder/"
+source: "https://agentskillexchange.com/skills/terraform-module-scaffolder/"
+security: "✅ Reviewed"
 ---
-
 # Terraform Module Scaffolder
 
 Generates production-ready Terraform module structures using the HashiCorp HCL library with auto-generated variable definitions, output blocks, and provider constraints. Includes Terratest boilerplate and GitHub Actions CI templates.
@@ -21,20 +20,17 @@ Generates production-ready Terraform module structures using the HashiCorp HCL l
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install terraform-module-scaffolder
+npx skills add agentskillexchange/skills --skill terraform-module-scaffolder
 ```
 
 ### Claude Code
 ```bash
-claude skills add terraform-module-scaffolder
+npx skills add agentskillexchange/skills --skill terraform-module-scaffolder -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` configuration:
-```json
-{
-  "skills": ["terraform-module-scaffolder"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill terraform-module-scaffolder -a cursor
 ```
 
 ### OpenClaw
@@ -44,9 +40,8 @@ clawhub install terraform-module-scaffolder
 
 ### Codex
 ```bash
-codex skills add terraform-module-scaffolder
+npx skills add agentskillexchange/skills --skill terraform-module-scaffolder -a codex
 ```
-
 ## Details
 
 | Field | Value |

@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: verified_metadata
 rating: 4.7
 reviews: 54
-creator: David Kim
-creator_handle: dkim
+creator: "David Kim"
+creator_handle: "@dkim"
 creator_verified: false
-source: https://agentskillexchange.com/skill/dbt-model-lineage-extractor/
+source: "https://agentskillexchange.com/skills/dbt-model-lineage-extractor/"
 ---
-
 # dbt Model Lineage Extractor
 
 Parses dbt project manifests and extracts full model lineage graphs using the dbt Core Python API and manifest.json. Identifies orphaned models, circular dependencies, and models missing tests using the dbt Graph API. Outputs a lineage report and optionally pushes graph data to Atlan or DataHub via their REST APIs.

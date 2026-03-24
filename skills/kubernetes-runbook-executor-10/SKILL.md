@@ -3,15 +3,14 @@ name: "Kubernetes Runbook Executor"
 description: "Executes diagnostic runbooks for Kubernetes clusters using kubectl CLI and the Kubernetes API. Checks pod health, node conditions, and resource quotas via the metrics-server API."
 category: "Runbooks & Diagnostics"
 framework: "Codex"
-verification: "security_reviewed"
-rating: "4.8"
-reviews: "74"
+verification: security_reviewed
+rating: 4.8
+reviews: 74
 creator: "Community"
 creator_handle: ""
-creator_verified: "false"
-source: "https://agentskillexchange.com/skill/kubernetes-runbook-executor-10/"
+creator_verified: false
+source: "https://agentskillexchange.com/skills/kubernetes-runbook-executor-10/"
 ---
-
 # Kubernetes Runbook Executor
 
 Executes diagnostic runbooks for Kubernetes clusters using kubectl CLI and the Kubernetes API. Checks pod health, node conditions, and resource quotas via the metrics-server API.
@@ -20,17 +19,17 @@ Executes diagnostic runbooks for Kubernetes clusters using kubectl CLI and the K
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install kubernetes-runbook-executor-10
+npx skills add agentskillexchange/skills --skill kubernetes-runbook-executor-10
 ```
 
 ### Claude Code
 ```bash
-claude skills add kubernetes-runbook-executor-10
+npx skills add agentskillexchange/skills --skill kubernetes-runbook-executor-10 -a claude-code
 ```
 
 ### Cursor
-```
-Install from Cursor Settings → Skills → Add → "Kubernetes Runbook Executor"
+```bash
+npx skills add agentskillexchange/skills --skill kubernetes-runbook-executor-10 -a cursor
 ```
 
 ### OpenClaw
@@ -40,9 +39,8 @@ clawhub install kubernetes-runbook-executor-10
 
 ### Codex
 ```bash
-codex skills add kubernetes-runbook-executor-10
+npx skills add agentskillexchange/skills --skill kubernetes-runbook-executor-10 -a codex
 ```
-
 ## Details
 
 | Field | Value |

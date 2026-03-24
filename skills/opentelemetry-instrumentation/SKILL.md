@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.3
 reviews: 45
-creator: Liam OBrien
-creator_handle: liamobrien
+creator: "Liam OBrien"
+creator_handle: "@liamobrien"
 creator_verified: true
-source: https://agentskillexchange.com/skill/opentelemetry-instrumentation/
+source: "https://agentskillexchange.com/skills/opentelemetry-instrumentation/"
 ---
-
 # OpenTelemetry Instrumentation
 
 Instruments applications with OpenTelemetry SDK for distributed tracing, metrics, and logs. Supports auto-instrumentation for popular frameworks and manual span creation for custom business logic observability.

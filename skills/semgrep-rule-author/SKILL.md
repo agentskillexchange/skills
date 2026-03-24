@@ -6,12 +6,11 @@ framework: "OpenClaw"
 verification: security_reviewed
 rating: 4.5
 reviews: 86
-creator: Marcus Rivera
-creator_handle: mrivera
+creator: "Marcus Rivera"
+creator_handle: "@mrivera"
 creator_verified: true
-source: https://agentskillexchange.com/skill/semgrep-rule-author/
+source: "https://agentskillexchange.com/skills/semgrep-rule-author/"
 ---
-
 # Semgrep Rule Author
 
 Generates custom Semgrep rules from natural language descriptions of vulnerability patterns. Uses semgrep –validate to verify rule syntax and semgrep –test to run against sample code fixtures automatically.

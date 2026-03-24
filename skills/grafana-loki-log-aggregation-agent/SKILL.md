@@ -3,35 +3,34 @@ name: "Grafana Loki Log Aggregation Agent"
 description: "Configures Grafana Loki log pipelines with Promtail collectors and LogQL queries. Supports multi-tenant log routing, retention policies, and correlation with Grafana Tempo traces."
 category: "Monitoring & Alerts"
 framework: "Gemini"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.8
 reviews: 64
 creator: "Zoe Chen"
 creator_handle: "@zoechen"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/grafana-loki-log-aggregation-agent/"
+source: "https://agentskillexchange.com/skills/grafana-loki-log-aggregation-agent/"
 ---
-
 # Grafana Loki Log Aggregation Agent
 
 Configures Grafana Loki log pipelines with Promtail collectors and LogQL queries. Supports multi-tenant log routing, retention policies, and correlation with Grafana Tempo traces.
 
 ## Installation
 
-Install this skill in your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install grafana-loki-log-aggregation-agent
+npx skills add agentskillexchange/skills --skill grafana-loki-log-aggregation-agent
 ```
 
 ### Claude Code
 ```bash
-claude install-skill grafana-loki-log-aggregation-agent
+npx skills add agentskillexchange/skills --skill grafana-loki-log-aggregation-agent -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills/` directory or install via Cursor Settings → Skills.
+```bash
+npx skills add agentskillexchange/skills --skill grafana-loki-log-aggregation-agent -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install grafana-loki-log-aggregation-agent
 
 ### Codex
 ```bash
-codex install-skill grafana-loki-log-aggregation-agent
+npx skills add agentskillexchange/skills --skill grafana-loki-log-aggregation-agent -a codex
 ```
-
 ## Details
 
 | Field | Value |

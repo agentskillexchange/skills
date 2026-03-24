@@ -3,51 +3,44 @@ name: "Datadog Monitor Sync"
 description: "Synchronizes Datadog monitor definitions between environments using the Datadog API v2 monitors endpoint. Supports diff-based updates, tag filtering, and Terraform state reconciliation."
 category: "Monitoring & Alerts"
 framework: "Claude Code"
-verification: "Verified ✅"
-rating: "4.7"
-reviews: "41"
+verification: security_reviewed
+rating: 4.7
+reviews: 41
 creator: "Tom Wilson"
 creator_handle: "@tomwilson"
 creator_verified: false
-source: "https://agentskillexchange.com/skill/datadog-monitor-sync/"
+source: "https://agentskillexchange.com/skills/datadog-monitor-sync/"
 ---
-
 # Datadog Monitor Sync
 
 Synchronizes Datadog monitor definitions between environments using the Datadog API v2 monitors endpoint. Supports diff-based updates, tag filtering, and Terraform state reconciliation.
 
 ## Installation
 
-Install this skill across different agents:
-
-**Any agent (npx):**
+### Any Agent (npx)
 ```bash
-npx @anthropic/skills install datadog-monitor-sync
+npx skills add agentskillexchange/skills --skill datadog-monitor-sync
 ```
 
-**Claude Code:**
+### Claude Code
 ```bash
-claude skills add datadog-monitor-sync
+npx skills add agentskillexchange/skills --skill datadog-monitor-sync -a claude-code
 ```
 
-**Cursor:**
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["datadog-monitor-sync"]
-}
+### Cursor
+```bash
+npx skills add agentskillexchange/skills --skill datadog-monitor-sync -a cursor
 ```
 
-**OpenClaw:**
+### OpenClaw
 ```bash
 clawhub install datadog-monitor-sync
 ```
 
-**Codex:**
+### Codex
 ```bash
-codex skills add datadog-monitor-sync
+npx skills add agentskillexchange/skills --skill datadog-monitor-sync -a codex
 ```
-
 ## Details
 
 | Field | Value |

@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.3
 reviews: 8
-creator: Tom Anderson
-creator_handle: tanderson
+creator: "Tom Anderson"
+creator_handle: "@tanderson"
 creator_verified: false
-source: https://agentskillexchange.com/skill/openagents-tool-user/
+source: "https://agentskillexchange.com/skills/openagents-tool-user/"
 ---
-
 # OpenAgents Tool User
 
 OpenAgents is an open platform for deploying LLM agents with real-world tools including data analysis, web browsing, and plugin integration. This skill covers building tool-augmented agents using the OpenAgents framework for practical everyday tasks.

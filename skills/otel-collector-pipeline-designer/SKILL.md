@@ -3,36 +3,33 @@ name: "OpenTelemetry Collector Pipeline Designer"
 description: "Designs OpenTelemetry Collector pipeline configurations with receivers (otlp, prometheus, filelog), processors (batch, attributes, tail_sampling), and exporters (otlphttp, jaeger, elasticsearch)."
 category: "Monitoring & Alerts"
 framework: "OpenClaw"
-verification: "community"
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
-creator_verified: "false"
-source: "https://agentskillexchange.com/skill/otel-collector-pipeline-designer/"
+creator_verified: false
+source: "https://agentskillexchange.com/skills/otel-collector-pipeline-designer/"
 ---
-
 # OpenTelemetry Collector Pipeline Designer
 
 Designs OpenTelemetry Collector pipeline configurations with receivers (otlp, prometheus, filelog), processors (batch, attributes, tail_sampling), and exporters (otlphttp, jaeger, elasticsearch).
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install otel-collector-pipeline-designer
+npx skills add agentskillexchange/skills --skill otel-collector-pipeline-designer
 ```
 
 ### Claude Code
 ```bash
-claude skills add otel-collector-pipeline-designer
+npx skills add agentskillexchange/skills --skill otel-collector-pipeline-designer -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor skills install otel-collector-pipeline-designer
+npx skills add agentskillexchange/skills --skill otel-collector-pipeline-designer -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install otel-collector-pipeline-designer
 
 ### Codex
 ```bash
-codex skills add otel-collector-pipeline-designer
+npx skills add agentskillexchange/skills --skill otel-collector-pipeline-designer -a codex
 ```
-
 ## Details
 
 | Field | Value |

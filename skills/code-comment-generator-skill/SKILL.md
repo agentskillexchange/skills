@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.6
 reviews: 15
-creator: Aisha Patel
-creator_handle: aishap
+creator: "Aisha Patel"
+creator_handle: "@aishap"
 creator_verified: true
-source: https://agentskillexchange.com/skill/code-comment-generator-skill/
+source: "https://agentskillexchange.com/skills/code-comment-generator-skill/"
 ---
-
 # Code Comment Generator Skill
 
 Use this skill to automatically add inline documentation, docstrings, and JSDoc/PyDoc comments to functions and classes in a codebase. It analyzes code logic and generates accurate, helpful comments that explain what the code does. Trigger when code lacks documentation, during code review prep, or when standardizing documentation across a codebase.

@@ -3,36 +3,33 @@ name: "New Relic NRQL Query Agent"
 description: "Executes NRQL queries against New Relic’s GraphQL NerdGraph API for application performance monitoring. Generates automated SLA reports with percentile latency breakdowns and error budget calculations."
 category: "Monitoring & Alerts"
 framework: "Custom Agents"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.9
 reviews: 65
 creator: "Hannah Berg"
 creator_handle: "@hannahberg"
 creator_verified: false
-source: "https://agentskillexchange.com/skill/new-relic-nrql-query-agent/"
+source: "https://agentskillexchange.com/skills/new-relic-nrql-query-agent/"
 ---
-
 # New Relic NRQL Query Agent
 
 Executes NRQL queries against New Relic’s GraphQL NerdGraph API for application performance monitoring. Generates automated SLA reports with percentile latency breakdowns and error budget calculations.
 
 ## Installation
 
-Install this skill using one of these methods:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install new-relic-nrql-query-agent
+npx skills add agentskillexchange/skills --skill new-relic-nrql-query-agent
 ```
 
 ### Claude Code
 ```bash
-claude skills add new-relic-nrql-query-agent
+npx skills add agentskillexchange/skills --skill new-relic-nrql-query-agent -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor skills install new-relic-nrql-query-agent
+npx skills add agentskillexchange/skills --skill new-relic-nrql-query-agent -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install new-relic-nrql-query-agent
 
 ### Codex
 ```bash
-codex skills add new-relic-nrql-query-agent
+npx skills add agentskillexchange/skills --skill new-relic-nrql-query-agent -a codex
 ```
-
 ## Details
 
 | Property | Value |

@@ -6,12 +6,11 @@ framework: "ChatGPT Agents"
 verification: security_reviewed
 rating: 4.4
 reviews: 59
-creator: Ava Wilson
-creator_handle: avawilson
+creator: "Ava Wilson"
+creator_handle: "@avawilson"
 creator_verified: true
-source: https://agentskillexchange.com/skill/secrets-scanner-git-repositories-2/
+source: "https://agentskillexchange.com/skills/secrets-scanner-git-repositories-2/"
 ---
-
 # Secrets Scanner for Git Repositories
 
 Wraps Gitleaks and TruffleHog in a unified scan pipeline targeting both commit history and working tree. Deduplicates findings, enriches results with committer identity and timestamps, and suppresses known false positives via allowlist. Outputs SARIF JSON for GitHub Advanced Security.

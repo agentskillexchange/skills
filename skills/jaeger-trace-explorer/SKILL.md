@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.4
 reviews: 77
-creator: Yuki Tanaka
-creator_handle: yukitanaka
+creator: "Yuki Tanaka"
+creator_handle: "@yukitanaka"
 creator_verified: true
-source: https://agentskillexchange.com/skill/jaeger-trace-explorer/
+source: "https://agentskillexchange.com/skills/jaeger-trace-explorer/"
 ---
-
 # Jaeger Trace Explorer
 
 Queries and analyzes distributed traces in Jaeger. Finds slow spans, identifies bottlenecks, compares trace latency distributions, and generates service dependency graphs from trace data.

@@ -3,36 +3,33 @@ name: "Semgrep Rule Runner"
 description: "Executes Semgrep static analysis using the semgrep CLI with custom YAML rule packs. Supports –config auto for community rules, parses JSON output via –json flag, and integrates with Semgrep App API for centralized findings management and triage workflows."
 category: "Code Quality & Review"
 framework: "Gemini"
-verification: "security_reviewed"
-rating: "0"
-reviews: "0"
+verification: security_reviewed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/semgrep-rule-runner/"
+source: "https://agentskillexchange.com/skills/semgrep-rule-runner/"
 ---
-
 # Semgrep Rule Runner
 
 Executes Semgrep static analysis using the semgrep CLI with custom YAML rule packs. Supports –config auto for community rules, parses JSON output via –json flag, and integrates with Semgrep App API for centralized findings management and triage workflows.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install semgrep-rule-runner
+npx skills add agentskillexchange/skills --skill semgrep-rule-runner
 ```
 
 ### Claude Code
 ```bash
-claude skills add semgrep-rule-runner
+npx skills add agentskillexchange/skills --skill semgrep-rule-runner -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor skills install semgrep-rule-runner
+npx skills add agentskillexchange/skills --skill semgrep-rule-runner -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install semgrep-rule-runner
 
 ### Codex
 ```bash
-codex skills add semgrep-rule-runner
+npx skills add agentskillexchange/skills --skill semgrep-rule-runner -a codex
 ```
-
 ## Details
 
 | | |

@@ -3,15 +3,14 @@ name: "Whisper.cpp Real-Time Transcription Pipeline"
 description: "Streams audio from PulseAudio or ALSA devices into whisper.cpp for real-time speech-to-text with word-level timestamps. Outputs SRT/VTT subtitles and JSON transcripts simultaneously."
 category: "Media & Transcription"
 framework: "Claude Code"
-verification: ""
+verification: listed
 rating: 0
 reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/whisper-cpp-realtime-transcription-pipeline/"
+source: "https://agentskillexchange.com/skills/whisper-cpp-realtime-transcription-pipeline/"
 ---
-
 # Whisper.cpp Real-Time Transcription Pipeline
 
 Streams audio from PulseAudio or ALSA devices into whisper.cpp for real-time speech-to-text with word-level timestamps. Outputs SRT/VTT subtitles and JSON transcripts simultaneously.
@@ -20,17 +19,17 @@ Streams audio from PulseAudio or ALSA devices into whisper.cpp for real-time spe
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agentskill install whisper-cpp-realtime-transcription-pipeline
+npx skills add agentskillexchange/skills --skill whisper-cpp-realtime-transcription-pipeline
 ```
 
 ### Claude Code
 ```bash
-claude skill add whisper-cpp-realtime-transcription-pipeline
+npx skills add agentskillexchange/skills --skill whisper-cpp-realtime-transcription-pipeline -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor skill install whisper-cpp-realtime-transcription-pipeline
+npx skills add agentskillexchange/skills --skill whisper-cpp-realtime-transcription-pipeline -a cursor
 ```
 
 ### OpenClaw
@@ -40,9 +39,8 @@ clawhub install whisper-cpp-realtime-transcription-pipeline
 
 ### Codex
 ```bash
-codex skill add whisper-cpp-realtime-transcription-pipeline
+npx skills add agentskillexchange/skills --skill whisper-cpp-realtime-transcription-pipeline -a codex
 ```
-
 ## Details
 
 | Field | Value |

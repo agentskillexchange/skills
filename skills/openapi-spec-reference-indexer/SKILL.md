@@ -3,15 +3,14 @@ name: "OpenAPI Spec Reference Indexer"
 description: "Indexes and cross-references OpenAPI 3.x specifications using swagger-parser and Redocly CLI. Builds searchable endpoint catalogs with schema resolution, authentication flow mapping, and SDK generation metadata."
 category: "Library & API Reference"
 framework: "MCP-compatible"
-verification: "community"
-rating: "4.3"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
-creator_verified: 
-source: "https://agentskillexchange.com/skill/openapi-spec-reference-indexer/"
+creator_verified: false
+source: "https://agentskillexchange.com/skills/openapi-spec-reference-indexer/"
 ---
-
 # OpenAPI Spec Reference Indexer
 
 Indexes and cross-references OpenAPI 3.x specifications using swagger-parser and Redocly CLI. Builds searchable endpoint catalogs with schema resolution, authentication flow mapping, and SDK generation metadata.
@@ -20,20 +19,17 @@ Indexes and cross-references OpenAPI 3.x specifications using swagger-parser and
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install openapi-spec-reference-indexer
+npx skills add agentskillexchange/skills --skill openapi-spec-reference-indexer
 ```
 
 ### Claude Code
 ```bash
-claude skills add openapi-spec-reference-indexer
+npx skills add agentskillexchange/skills --skill openapi-spec-reference-indexer -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` configuration:
-```json
-{
-  "skills": ["openapi-spec-reference-indexer"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill openapi-spec-reference-indexer -a cursor
 ```
 
 ### OpenClaw
@@ -43,9 +39,8 @@ clawhub install openapi-spec-reference-indexer
 
 ### Codex
 ```bash
-codex skills add openapi-spec-reference-indexer
+npx skills add agentskillexchange/skills --skill openapi-spec-reference-indexer -a codex
 ```
-
 ## Details
 
 | Field | Value |

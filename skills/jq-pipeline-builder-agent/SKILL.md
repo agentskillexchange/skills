@@ -3,39 +3,33 @@ name: "jq Pipeline Builder Agent"
 description: "Constructs complex jq filter pipelines from natural language queries against JSON/NDJSON data streams. Uses jq built-in functions including path expressions, reduce, and SQL-style operators."
 category: "Data Extraction & Transformation"
 framework: "Gemini"
-verification: ""
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/jq-pipeline-builder-agent/"
+source: "https://agentskillexchange.com/skills/jq-pipeline-builder-agent/"
 ---
-
 # jq Pipeline Builder Agent
 
 Constructs complex jq filter pipelines from natural language queries against JSON/NDJSON data streams. Uses jq built-in functions including path expressions, reduce, and SQL-style operators.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install jq-pipeline-builder-agent
+npx skills add agentskillexchange/skills --skill jq-pipeline-builder-agent
 ```
 
 ### Claude Code
 ```bash
-claude mcp add jq-pipeline-builder-agent
+npx skills add agentskillexchange/skills --skill jq-pipeline-builder-agent -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["jq-pipeline-builder-agent"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill jq-pipeline-builder-agent -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install jq-pipeline-builder-agent
 
 ### Codex
 ```bash
-codex install jq-pipeline-builder-agent
+npx skills add agentskillexchange/skills --skill jq-pipeline-builder-agent -a codex
 ```
-
 ## Details
 
 | Field | Value |

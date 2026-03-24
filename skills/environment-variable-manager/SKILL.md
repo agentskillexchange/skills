@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.1
 reviews: 69
-creator: Mia Zhang
-creator_handle: miazhang
+creator: "Mia Zhang"
+creator_handle: "@miazhang"
 creator_verified: true
-source: https://agentskillexchange.com/skill/environment-variable-manager/
+source: "https://agentskillexchange.com/skills/environment-variable-manager/"
 ---
-
 # Environment Variable Manager
 
 Use this skill when you need to audit, document, or validate environment variables across application environments. It scans codebases for env var usage, cross-references against .env files and secrets managers, and flags missing, unused, or inconsistently named variables.

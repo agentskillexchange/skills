@@ -3,51 +3,44 @@ name: "Slack Workflow Bot Builder"
 description: "Creates interactive Slack workflows using Block Kit UI components and the Bolt.js framework. Implements slash commands, modal views via views.open(), and message shortcuts with action listeners."
 category: "Calendar, Email & Productivity"
 framework: "MCP-compatible"
-verification: "verified"
+verification: verified_metadata
 rating: 4.5
 reviews: 86
 creator: "Sarah O'Brien"
 creator_handle: "@sarahcodes"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/slack-workflow-bot-builder/"
+source: "https://agentskillexchange.com/skills/slack-workflow-bot-builder/"
 ---
-
 # Slack Workflow Bot Builder
 
 Creates interactive Slack workflows using Block Kit UI components and the Bolt.js framework. Implements slash commands, modal views via views.open(), and message shortcuts with action listeners.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
-**Any agent (npx):**
+### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install slack-workflow-bot-builder
+npx skills add agentskillexchange/skills --skill slack-workflow-bot-builder
 ```
 
-**Claude Code:**
+### Claude Code
 ```bash
-claude skills install slack-workflow-bot-builder
+npx skills add agentskillexchange/skills --skill slack-workflow-bot-builder -a claude-code
 ```
 
-**Cursor:**
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["slack-workflow-bot-builder"]
-}
+### Cursor
+```bash
+npx skills add agentskillexchange/skills --skill slack-workflow-bot-builder -a cursor
 ```
 
-**OpenClaw:**
+### OpenClaw
 ```bash
 clawhub install slack-workflow-bot-builder
 ```
 
-**Codex:**
+### Codex
 ```bash
-codex skills install slack-workflow-bot-builder
+npx skills add agentskillexchange/skills --skill slack-workflow-bot-builder -a codex
 ```
-
 ## Details
 
 | Field | Value |

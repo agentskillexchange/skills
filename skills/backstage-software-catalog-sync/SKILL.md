@@ -3,35 +3,34 @@ name: "Backstage Software Catalog Sync"
 description: "Synchronizes service metadata into Spotify Backstage catalog using catalog-info.yaml generation and the Backstage Catalog REST API. Manages component, API, and system entity relationships across teams."
 category: "Templates & Workflows"
 framework: "Cursor"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.7
 reviews: 26
 creator: "Sarah O'Brien"
 creator_handle: "@sarahcodes"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/backstage-software-catalog-sync/"
+source: "https://agentskillexchange.com/skills/backstage-software-catalog-sync/"
 ---
-
 # Backstage Software Catalog Sync
 
 Synchronizes service metadata into Spotify Backstage catalog using catalog-info.yaml generation and the Backstage Catalog REST API. Manages component, API, and system entity relationships across teams.
 
 ## Installation
 
-Install this skill in your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install backstage-software-catalog-sync
+npx skills add agentskillexchange/skills --skill backstage-software-catalog-sync
 ```
 
 ### Claude Code
 ```bash
-claude install-skill backstage-software-catalog-sync
+npx skills add agentskillexchange/skills --skill backstage-software-catalog-sync -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills/` directory or install via Cursor Settings → Skills.
+```bash
+npx skills add agentskillexchange/skills --skill backstage-software-catalog-sync -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install backstage-software-catalog-sync
 
 ### Codex
 ```bash
-codex install-skill backstage-software-catalog-sync
+npx skills add agentskillexchange/skills --skill backstage-software-catalog-sync -a codex
 ```
-
 ## Details
 
 | Field | Value |

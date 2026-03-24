@@ -3,15 +3,14 @@ name: "WooCommerce REST Sync Agent"
 description: "Synchronizes WooCommerce product data bidirectionally using the WC REST API v3 and wc/v3/products endpoints. Handles batch create/update/delete with OAuth 1.0a authentication and rate-limit backoff."
 category: "WordPress & CMS"
 framework: "Codex"
-verification: "✅ Verified"
-rating: "4.5"
-reviews: "20"
+verification: security_reviewed
+rating: 4.5
+reviews: 20
 creator: "Yuki Tanaka"
 creator_handle: "@yukitanaka"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/woocommerce-rest-sync-agent/"
+source: "https://agentskillexchange.com/skills/woocommerce-rest-sync-agent/"
 ---
-
 # WooCommerce REST Sync Agent
 
 Synchronizes WooCommerce product data bidirectionally using the WC REST API v3 and wc/v3/products endpoints. Handles batch create/update/delete with OAuth 1.0a authentication and rate-limit backoff.
@@ -20,22 +19,17 @@ Synchronizes WooCommerce product data bidirectionally using the WC REST API v3 a
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install woocommerce-rest-sync-agent
+npx skills add agentskillexchange/skills --skill woocommerce-rest-sync-agent
 ```
 
 ### Claude Code
 ```bash
-claude mcp add woocommerce-rest-sync-agent
+npx skills add agentskillexchange/skills --skill woocommerce-rest-sync-agent -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "woocommerce-rest-sync-agent": {
-    "enabled": true
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill woocommerce-rest-sync-agent -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install woocommerce-rest-sync-agent
 
 ### Codex
 ```bash
-codex install woocommerce-rest-sync-agent
+npx skills add agentskillexchange/skills --skill woocommerce-rest-sync-agent -a codex
 ```
-
 ## Details
 
 | Field | Value |

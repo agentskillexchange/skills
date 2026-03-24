@@ -3,39 +3,33 @@ name: "Tekton Pipeline Composer"
 description: "Creates Kubernetes-native CI/CD pipelines using the Tekton Pipelines CRD API and Tekton Hub catalog. Manages PipelineRuns with the Tekton Results API and configures event-driven triggers via Tekton Triggers."
 category: "CI/CD Integrations"
 framework: "Codex"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.9
 reviews: 5
 creator: "Hannah Berg"
 creator_handle: "@hannahberg"
 creator_verified: false
-source: "https://agentskillexchange.com/skill/tekton-pipeline-composer-2/"
+source: "https://agentskillexchange.com/skills/tekton-pipeline-composer-2/"
 ---
-
 # Tekton Pipeline Composer
 
 Creates Kubernetes-native CI/CD pipelines using the Tekton Pipelines CRD API and Tekton Hub catalog. Manages PipelineRuns with the Tekton Results API and configures event-driven triggers via Tekton Triggers.
 
 ## Installation
 
-Install this skill in your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install tekton-pipeline-composer-2
+npx skills add agentskillexchange/skills --skill tekton-pipeline-composer-2
 ```
 
 ### Claude Code
 ```bash
-claude skills add tekton-pipeline-composer-2
+npx skills add agentskillexchange/skills --skill tekton-pipeline-composer-2 -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["tekton-pipeline-composer-2"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill tekton-pipeline-composer-2 -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install tekton-pipeline-composer-2
 
 ### Codex
 ```bash
-codex skills add tekton-pipeline-composer-2
+npx skills add agentskillexchange/skills --skill tekton-pipeline-composer-2 -a codex
 ```
-
 ## Details
 
 | Property | Value |

@@ -3,35 +3,34 @@ name: "Deepgram Real-Time Transcription Connector"
 description: "Streams live audio to Deepgram’s WebSocket API at wss://api.deepgram.com/v1/listen for real-time speech-to-text. Handles interim results, utterance detection, and speaker diarization via the Deepgram Node SDK."
 category: "Media & Transcription"
 framework: "MCP-compatible"
-verification: "Verified & Security Reviewed"
-rating: "4.1"
-reviews: "50"
+verification: security_reviewed
+rating: 4.1
+reviews: 50
 creator: "Sam Lee"
 creator_handle: "@samlee_dev"
-creator_verified: "true"
-source: "https://agentskillexchange.com/skill/deepgram-realtime-transcription-connector/"
+creator_verified: true
+source: "https://agentskillexchange.com/skills/deepgram-realtime-transcription-connector/"
 ---
-
 # Deepgram Real-Time Transcription Connector
 
 Streams live audio to Deepgram’s WebSocket API at wss://api.deepgram.com/v1/listen for real-time speech-to-text. Handles interim results, utterance detection, and speaker diarization via the Deepgram Node SDK.
 
 ## Installation
 
-Install this skill across different AI coding agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agentskill install deepgram-realtime-transcription-connector
+npx skills add agentskillexchange/skills --skill deepgram-realtime-transcription-connector
 ```
 
 ### Claude Code
 ```bash
-claude skill add deepgram-realtime-transcription-connector
+npx skills add agentskillexchange/skills --skill deepgram-realtime-transcription-connector -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` directory or install via Cursor settings.
+```bash
+npx skills add agentskillexchange/skills --skill deepgram-realtime-transcription-connector -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install deepgram-realtime-transcription-connector
 
 ### Codex
 ```bash
-codex skill install deepgram-realtime-transcription-connector
+npx skills add agentskillexchange/skills --skill deepgram-realtime-transcription-connector -a codex
 ```
-
 ## Details
 
 | Field | Value |

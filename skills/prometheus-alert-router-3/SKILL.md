@@ -3,51 +3,44 @@ name: "Prometheus Alert Router"
 description: "Routes Prometheus AlertManager webhook notifications to Slack, PagerDuty, and Opsgenie channels based on severity labels. Supports grouping, silencing, and deduplication via AlertManager API v2."
 category: "Monitoring & Alerts"
 framework: "OpenClaw"
-verification: "Verified ✅"
-rating: "4.2"
-reviews: "6"
+verification: security_reviewed
+rating: 4.2
+reviews: 6
 creator: "Aisha Patel"
 creator_handle: "@aishapatel"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/prometheus-alert-router-3/"
+source: "https://agentskillexchange.com/skills/prometheus-alert-router-3/"
 ---
-
 # Prometheus Alert Router
 
 Routes Prometheus AlertManager webhook notifications to Slack, PagerDuty, and Opsgenie channels based on severity labels. Supports grouping, silencing, and deduplication via AlertManager API v2.
 
 ## Installation
 
-Install this skill across different agents:
-
-**Any agent (npx):**
+### Any Agent (npx)
 ```bash
-npx @anthropic/skills install prometheus-alert-router-3
+npx skills add agentskillexchange/skills --skill prometheus-alert-router-3
 ```
 
-**Claude Code:**
+### Claude Code
 ```bash
-claude skills add prometheus-alert-router-3
+npx skills add agentskillexchange/skills --skill prometheus-alert-router-3 -a claude-code
 ```
 
-**Cursor:**
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["prometheus-alert-router-3"]
-}
+### Cursor
+```bash
+npx skills add agentskillexchange/skills --skill prometheus-alert-router-3 -a cursor
 ```
 
-**OpenClaw:**
+### OpenClaw
 ```bash
 clawhub install prometheus-alert-router-3
 ```
 
-**Codex:**
+### Codex
 ```bash
-codex skills add prometheus-alert-router-3
+npx skills add agentskillexchange/skills --skill prometheus-alert-router-3 -a codex
 ```
-
 ## Details
 
 | Field | Value |

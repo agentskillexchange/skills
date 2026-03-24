@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: verified_metadata
 rating: 4.1
 reviews: 79
-creator: Marcus Rivera
-creator_handle: mrivera
+creator: "Marcus Rivera"
+creator_handle: "@mrivera"
 creator_verified: true
-source: https://agentskillexchange.com/skill/github-actions-pipeline-debugger-2/
+source: "https://agentskillexchange.com/skills/github-actions-pipeline-debugger-2/"
 ---
-
 # GitHub Actions Pipeline Debugger
 
 Fetches failed GitHub Actions workflow run logs, identifies the failing step, and surfaces the root cause with a suggested fix. Works with multi-job matrix builds and annotates the exact YAML line.

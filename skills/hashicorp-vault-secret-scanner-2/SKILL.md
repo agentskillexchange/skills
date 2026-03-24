@@ -3,41 +3,33 @@ name: "HashiCorp Vault Secret Scanner"
 description: "Scans codebases for hardcoded secrets using HashiCorp Vault SDK and truffleHog patterns. Integrates with Vault Transit engine for automatic secret rotation and re-encryption of detected credentials."
 category: "Security & Verification"
 framework: "Claude Code"
-verification: ""
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/hashicorp-vault-secret-scanner-2/"
+source: "https://agentskillexchange.com/skills/hashicorp-vault-secret-scanner-2/"
 ---
-
 # HashiCorp Vault Secret Scanner
 
 Scans codebases for hardcoded secrets using HashiCorp Vault SDK and truffleHog patterns. Integrates with Vault Transit engine for automatic secret rotation and re-encryption of detected credentials.
 
 ## Installation
 
-Install this skill using one of the following methods:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install hashicorp-vault-secret-scanner-2
+npx skills add agentskillexchange/skills --skill hashicorp-vault-secret-scanner-2
 ```
 
 ### Claude Code
 ```bash
-claude mcp add hashicorp-vault-secret-scanner-2
+npx skills add agentskillexchange/skills --skill hashicorp-vault-secret-scanner-2 -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "hashicorp-vault-secret-scanner-2": {
-    "source": "agentskillexchange"
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill hashicorp-vault-secret-scanner-2 -a cursor
 ```
 
 ### OpenClaw
@@ -47,9 +39,8 @@ clawhub install hashicorp-vault-secret-scanner-2
 
 ### Codex
 ```bash
-codex install hashicorp-vault-secret-scanner-2
+npx skills add agentskillexchange/skills --skill hashicorp-vault-secret-scanner-2 -a codex
 ```
-
 ## Details
 
 | Field | Value |

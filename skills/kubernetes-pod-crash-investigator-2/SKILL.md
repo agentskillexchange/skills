@@ -6,12 +6,11 @@ framework: "Codex"
 verification: verified_metadata
 rating: 4.9
 reviews: 68
-creator: Aisha Patel
-creator_handle: aishap
+creator: "Aisha Patel"
+creator_handle: "@aishap"
 creator_verified: true
-source: https://agentskillexchange.com/skill/kubernetes-pod-crash-investigator-2/
+source: "https://agentskillexchange.com/skills/kubernetes-pod-crash-investigator-2/"
 ---
-
 # Kubernetes Pod Crash Investigator
 
 Identifies CrashLoopBackOff and OOMKilled pods in a Kubernetes namespace, retrieves logs from crashed containers, inspects events and resource limits, and produces a root cause hypothesis with remediation steps. Works with kubectl or the Kubernetes API.

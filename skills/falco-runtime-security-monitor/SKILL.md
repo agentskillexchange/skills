@@ -3,35 +3,34 @@ name: "Falco Runtime Security Monitor"
 description: "Monitors container runtime events using Falco sysdig libraries and sends alerts on suspicious syscall patterns. Integrates with Kubernetes audit logs and Prometheus AlertManager for real-time threat detection."
 category: "Security & Verification"
 framework: "OpenClaw"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.5
 reviews: 86
 creator: "Ava Johnson"
 creator_handle: "@avajohnson"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/falco-runtime-security-monitor/"
+source: "https://agentskillexchange.com/skills/falco-runtime-security-monitor/"
 ---
-
 # Falco Runtime Security Monitor
 
 Monitors container runtime events using Falco sysdig libraries and sends alerts on suspicious syscall patterns. Integrates with Kubernetes audit logs and Prometheus AlertManager for real-time threat detection.
 
 ## Installation
 
-Install this skill in your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install falco-runtime-security-monitor
+npx skills add agentskillexchange/skills --skill falco-runtime-security-monitor
 ```
 
 ### Claude Code
 ```bash
-claude install-skill falco-runtime-security-monitor
+npx skills add agentskillexchange/skills --skill falco-runtime-security-monitor -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills/` directory or install via Cursor Settings → Skills.
+```bash
+npx skills add agentskillexchange/skills --skill falco-runtime-security-monitor -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install falco-runtime-security-monitor
 
 ### Codex
 ```bash
-codex install-skill falco-runtime-security-monitor
+npx skills add agentskillexchange/skills --skill falco-runtime-security-monitor -a codex
 ```
-
 ## Details
 
 | Field | Value |

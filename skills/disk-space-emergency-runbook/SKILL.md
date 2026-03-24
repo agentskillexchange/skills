@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.7
 reviews: 76
-creator: Kai Nakamura
-creator_handle: kainakamura
+creator: "Kai Nakamura"
+creator_handle: "@kainakamura"
 creator_verified: true
-source: https://agentskillexchange.com/skill/disk-space-emergency-runbook/
+source: "https://agentskillexchange.com/skills/disk-space-emergency-runbook/"
 ---
-
 # Disk Space Emergency Runbook
 
 Use this skill to quickly identify and clean large files consuming disk space when systems are running critically low. It walks through du, df, lsof, and log rotation commands to free space fast. Trigger when disk usage hits critical thresholds, services are failing due to no space left on device, or disk I/O is saturated.

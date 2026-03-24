@@ -3,39 +3,33 @@ name: "Sharp Image Pipeline Skill"
 description: "Processes images using the Sharp npm library (libvips). Supports batch resize, format conversion (WebP/AVIF/JPEG XL), watermarking, and metadata extraction. Generates responsive image sets with srcset dimensions."
 category: "Image & Creative Automation"
 framework: "Claude Code"
-verification: ""
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/sharp-image-pipeline-skill/"
+source: "https://agentskillexchange.com/skills/sharp-image-pipeline-skill/"
 ---
-
 # Sharp Image Pipeline Skill
 
 Processes images using the Sharp npm library (libvips). Supports batch resize, format conversion (WebP/AVIF/JPEG XL), watermarking, and metadata extraction. Generates responsive image sets with srcset dimensions.
 
 ## Installation
 
-Install this skill across different AI coding agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install sharp-image-pipeline-skill
+npx skills add agentskillexchange/skills --skill sharp-image-pipeline-skill
 ```
 
 ### Claude Code
 ```bash
-claude skill add sharp-image-pipeline-skill
+npx skills add agentskillexchange/skills --skill sharp-image-pipeline-skill -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` configuration:
-```json
-{
-  "skills": ["sharp-image-pipeline-skill"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill sharp-image-pipeline-skill -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install sharp-image-pipeline-skill
 
 ### Codex
 ```bash
-codex skill add sharp-image-pipeline-skill
+npx skills add agentskillexchange/skills --skill sharp-image-pipeline-skill -a codex
 ```
-
 ## Details
 
 | Property | Value |

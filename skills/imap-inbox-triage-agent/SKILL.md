@@ -3,35 +3,34 @@ name: "IMAP Inbox Triage Agent"
 description: "Connects to IMAP email servers to classify, prioritize, and auto-label incoming messages using rule-based and ML-driven filtering. Supports Gmail, Outlook, and Fastmail."
 category: "Calendar, Email & Productivity"
 framework: "Codex"
-verification: "✅ Verified"
-rating: "4.3"
-reviews: "25"
+verification: security_reviewed
+rating: 4.3
+reviews: 25
 creator: "Priya Sharma"
 creator_handle: "@priyasharma"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/imap-inbox-triage-agent/"
+source: "https://agentskillexchange.com/skills/imap-inbox-triage-agent/"
 ---
-
 # IMAP Inbox Triage Agent
 
 Connects to IMAP email servers to classify, prioritize, and auto-label incoming messages using rule-based and ML-driven filtering. Supports Gmail, Outlook, and Fastmail.
 
 ## Installation
 
-Install this skill across different AI coding agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install imap-inbox-triage-agent
+npx skills add agentskillexchange/skills --skill imap-inbox-triage-agent
 ```
 
 ### Claude Code
 ```bash
-claude skills install imap-inbox-triage-agent
+npx skills add agentskillexchange/skills --skill imap-inbox-triage-agent -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` directory or install via Cursor settings.
+```bash
+npx skills add agentskillexchange/skills --skill imap-inbox-triage-agent -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install imap-inbox-triage-agent
 
 ### Codex
 ```bash
-codex skills install imap-inbox-triage-agent
+npx skills add agentskillexchange/skills --skill imap-inbox-triage-agent -a codex
 ```
-
 ## Details
 
 | | |

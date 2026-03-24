@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.7
 reviews: 48
-creator: Mia Zhang
-creator_handle: miazhang
+creator: "Mia Zhang"
+creator_handle: "@miazhang"
 creator_verified: true
-source: https://agentskillexchange.com/skill/github-actions-mcp-server/
+source: "https://agentskillexchange.com/skills/github-actions-mcp-server/"
 ---
-
 # GitHub Actions MCP Server
 
 Use this skill when you need to trigger GitHub Actions workflows, check run status, view job logs, or manage workflow files via AI. It lets agents kick off CI/CD pipelines, monitor deployment runs, and retrieve artifact information directly from GitHub Actions.

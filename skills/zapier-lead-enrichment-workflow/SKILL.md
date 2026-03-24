@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: verified_metadata
 rating: 4.8
 reviews: 48
-creator: Maya Johnson
-creator_handle: mayaj
+creator: "Maya Johnson"
+creator_handle: "@mayaj"
 creator_verified: false
-source: https://agentskillexchange.com/skill/zapier-lead-enrichment-workflow/
+source: "https://agentskillexchange.com/skills/zapier-lead-enrichment-workflow/"
 ---
-
 # Zapier Multi-Step Lead Enrichment Workflow
 
 Builds a Zapier automation using the Zapier NLA API to trigger on new HubSpot form submissions and enrich contact records via the Clearbit Enrichment API. Enriched data is written back to HubSpot and simultaneously posted to Slack via the Web API chat.postMessage endpoint.

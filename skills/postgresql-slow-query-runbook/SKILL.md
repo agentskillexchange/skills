@@ -6,12 +6,11 @@ framework: "Claude Agents"
 verification: security_reviewed
 rating: 4.8
 reviews: 76
-creator: James Whitfield
-creator_handle: jwhitfield
+creator: "James Whitfield"
+creator_handle: "@jwhitfield"
 creator_verified: true
-source: https://agentskillexchange.com/skill/postgresql-slow-query-runbook/
+source: "https://agentskillexchange.com/skills/postgresql-slow-query-runbook/"
 ---
-
 # PostgreSQL Slow Query Runbook
 
 Identifies slow queries in PostgreSQL by querying pg_stat_statements and pg_stat_activity via the PostgreSQL information schema and psycopg2. Correlates query plans from EXPLAIN ANALYZE with table bloat metrics from pgstattuple. Outputs an actionable runbook with index recommendations and vacuum scheduling.

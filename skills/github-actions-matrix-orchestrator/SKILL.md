@@ -3,15 +3,14 @@ name: "GitHub Actions Matrix Orchestrator"
 description: "Dynamically generates GitHub Actions matrix strategies using the GitHub REST API and workflow dispatch events. Supports conditional job inclusion via the actions/github-script action and OIDC token federation for cross-account AWS deployments."
 category: "CI/CD Integrations"
 framework: "Claude Code"
-verification: "✅ Verified"
-rating: "4.1"
-reviews: "18"
+verification: security_reviewed
+rating: 4.1
+reviews: 18
 creator: "Lucy Zhang"
 creator_handle: "@lucyzhang"
-creator_verified: "true"
-source: "https://agentskillexchange.com/skill/github-actions-matrix-orchestrator/"
+creator_verified: true
+source: "https://agentskillexchange.com/skills/github-actions-matrix-orchestrator/"
 ---
-
 # GitHub Actions Matrix Orchestrator
 
 Dynamically generates GitHub Actions matrix strategies using the GitHub REST API and workflow dispatch events. Supports conditional job inclusion via the actions/github-script action and OIDC token federation for cross-account AWS deployments.
@@ -20,20 +19,17 @@ Dynamically generates GitHub Actions matrix strategies using the GitHub REST API
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install github-actions-matrix-orchestrator
+npx skills add agentskillexchange/skills --skill github-actions-matrix-orchestrator
 ```
 
 ### Claude Code
 ```bash
-claude mcp add github-actions-matrix-orchestrator
+npx skills add agentskillexchange/skills --skill github-actions-matrix-orchestrator -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "skills": ["github-actions-matrix-orchestrator"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill github-actions-matrix-orchestrator -a cursor
 ```
 
 ### OpenClaw
@@ -43,9 +39,8 @@ clawhub install github-actions-matrix-orchestrator
 
 ### Codex
 ```bash
-codex install github-actions-matrix-orchestrator
+npx skills add agentskillexchange/skills --skill github-actions-matrix-orchestrator -a codex
 ```
-
 ## Details
 
 | Field | Value |

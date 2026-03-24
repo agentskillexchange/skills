@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.4
 reviews: 33
-creator: Ava Wilson
-creator_handle: avawilson
+creator: "Ava Wilson"
+creator_handle: "@avawilson"
 creator_verified: true
-source: https://agentskillexchange.com/skill/dependency-graph-visualizer-2/
+source: "https://agentskillexchange.com/skills/dependency-graph-visualizer-2/"
 ---
-
 # Dependency Graph Visualizer
 
 Generates interactive dependency graphs for codebases, showing module relationships, coupling metrics, and change impact analysis. Helps architects understand system structure and identify refactoring opportunities.

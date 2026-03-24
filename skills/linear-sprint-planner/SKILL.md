@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.4
 reviews: 50
-creator: Aisha Patel
-creator_handle: aishap
+creator: "Aisha Patel"
+creator_handle: "@aishap"
 creator_verified: true
-source: https://agentskillexchange.com/skill/linear-sprint-planner/
+source: "https://agentskillexchange.com/skills/linear-sprint-planner/"
 ---
-
 # Linear Sprint Planner
 
 Automate Linear sprint planning through the Linear GraphQL API, enabling AI agents to assign issues to cycles, balance team workloads, and generate sprint reports with velocity metrics and completion forecasts.

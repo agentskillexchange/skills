@@ -6,12 +6,11 @@ framework: "ChatGPT Agents"
 verification: security_reviewed
 rating: 4.2
 reviews: 74
-creator: Ava Wilson
-creator_handle: avawilson
+creator: "Ava Wilson"
+creator_handle: "@avawilson"
 creator_verified: true
-source: https://agentskillexchange.com/skill/kubernetes-runbook-executor-4/
+source: "https://agentskillexchange.com/skills/kubernetes-runbook-executor-4/"
 ---
-
 # Kubernetes Runbook Executor
 
 Executes structured Kubernetes diagnostic runbooks using kubectl and the Kubernetes Python client (kubernetes-client/python). Performs pod health checks via /healthz endpoints, analyzes CrashLoopBackOff events, and generates incident timelines from the Events API.

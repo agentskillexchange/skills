@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.8
 reviews: 9
-creator: Raj Gupta
-creator_handle: rajgupta
+creator: "Raj Gupta"
+creator_handle: "@rajgupta"
 creator_verified: true
-source: https://agentskillexchange.com/skill/autogen-multi-agent-orchestrator/
+source: "https://agentskillexchange.com/skills/autogen-multi-agent-orchestrator/"
 ---
-
 # AutoGen Multi-Agent Orchestrator
 
 AutoGen enables building multi-agent systems where LLM agents collaborate to solve complex tasks. This skill covers orchestrating conversations between specialized agents, tool use, and human-in-the-loop workflows.

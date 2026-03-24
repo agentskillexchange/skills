@@ -3,15 +3,14 @@ name: "Secrets Scanner for Git Repositories"
 description: "Wraps Gitleaks and TruffleHog in a unified scan pipeline targeting both commit history and working tree. Deduplicates findings across tools, enriches each result with committer identity and timestamp, and suppresses known false positives via allowlist. Outputs SARIF-compatible JSON for GitHub Advanced Security."
 category: "Security & Verification"
 framework: "ChatGPT Agents"
-verification: 
+verification: listed
 rating: 4.5
 reviews: 44
-creator: Leo Park
-creator_handle: leopark
+creator: "Leo Park"
+creator_handle: "@leopark"
 creator_verified: true
-source: https://agentskillexchange.com/skill/secrets-scanner-git-repositories/
+source: "https://agentskillexchange.com/skills/secrets-scanner-git-repositories/"
 ---
-
 # Secrets Scanner for Git Repositories
 
 Wraps Gitleaks and TruffleHog in a unified scan pipeline targeting both commit history and working tree. Deduplicates findings across tools, enriches each result with committer identity and timestamp, and suppresses known false positives via allowlist. Outputs SARIF-compatible JSON for GitHub Advanced Security.

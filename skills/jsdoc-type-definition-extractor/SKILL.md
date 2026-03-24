@@ -3,39 +3,33 @@ name: "JSDoc Type Definition Extractor"
 description: "Extracts and indexes JSDoc type annotations from JavaScript codebases using the jsdoc-api parser. Generates TypeScript declaration files (.d.ts) and searchable type catalogs from @typedef and @param tags."
 category: "Library & API Reference"
 framework: "MCP-compatible"
-verification: ""
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
-creator_verified: "false"
-source: "https://agentskillexchange.com/skill/jsdoc-type-definition-extractor/"
+creator_verified: false
+source: "https://agentskillexchange.com/skills/jsdoc-type-definition-extractor/"
 ---
-
 # JSDoc Type Definition Extractor
 
 Extracts and indexes JSDoc type annotations from JavaScript codebases using the jsdoc-api parser. Generates TypeScript declaration files (.d.ts) and searchable type catalogs from @typedef and @param tags.
 
 ## Installation
 
-Install this skill across different agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install jsdoc-type-definition-extractor
+npx skills add agentskillexchange/skills --skill jsdoc-type-definition-extractor
 ```
 
 ### Claude Code
 ```bash
-claude mcp add jsdoc-type-definition-extractor
+npx skills add agentskillexchange/skills --skill jsdoc-type-definition-extractor -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["jsdoc-type-definition-extractor"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill jsdoc-type-definition-extractor -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install jsdoc-type-definition-extractor
 
 ### Codex
 ```bash
-codex install jsdoc-type-definition-extractor
+npx skills add agentskillexchange/skills --skill jsdoc-type-definition-extractor -a codex
 ```
-
 ## Details
 
 | Property | Value |

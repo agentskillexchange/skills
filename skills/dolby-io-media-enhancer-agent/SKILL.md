@@ -3,15 +3,14 @@ name: "Dolby.io Media Enhancer"
 description: "Enhances audio and video quality using the Dolby.io Media Processing API. Applies noise reduction, loudness correction to EBU R128 standards, and dynamic range compression via the /media/enhance endpoint."
 category: "Media & Transcription"
 framework: "Cursor"
-verification: "✅ Verified"
-rating: "4.6"
-reviews: "11"
+verification: security_reviewed
+rating: 4.6
+reviews: 11
 creator: "Omar Farouk"
 creator_handle: "@omarfarouk"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/dolby-io-media-enhancer-agent/"
+source: "https://agentskillexchange.com/skills/dolby-io-media-enhancer-agent/"
 ---
-
 # Dolby.io Media Enhancer
 
 Enhances audio and video quality using the Dolby.io Media Processing API. Applies noise reduction, loudness correction to EBU R128 standards, and dynamic range compression via the /media/enhance endpoint.
@@ -20,22 +19,17 @@ Enhances audio and video quality using the Dolby.io Media Processing API. Applie
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install dolby-io-media-enhancer-agent
+npx skills add agentskillexchange/skills --skill dolby-io-media-enhancer-agent
 ```
 
 ### Claude Code
 ```bash
-claude mcp add dolby-io-media-enhancer-agent
+npx skills add agentskillexchange/skills --skill dolby-io-media-enhancer-agent -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "dolby-io-media-enhancer-agent": {
-    "enabled": true
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill dolby-io-media-enhancer-agent -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install dolby-io-media-enhancer-agent
 
 ### Codex
 ```bash
-codex install dolby-io-media-enhancer-agent
+npx skills add agentskillexchange/skills --skill dolby-io-media-enhancer-agent -a codex
 ```
-
 ## Details
 
 | Field | Value |

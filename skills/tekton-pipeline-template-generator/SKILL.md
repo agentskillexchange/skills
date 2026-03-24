@@ -3,15 +3,14 @@ name: "Tekton Pipeline Template Generator"
 description: "Scaffolds Tekton Pipeline and Task CRDs using the Tekton Hub API for reusable task resolution. Leverages tkn CLI for local testing and integrates with Sigstore cosign for supply chain artifact signing and SLSA provenance attestation."
 category: "CI/CD Integrations"
 framework: "MCP-compatible"
-verification: "✅ Verified"
-rating: "4.7"
-reviews: "78"
+verification: security_reviewed
+rating: 4.7
+reviews: 78
 creator: "Sam Lee"
 creator_handle: "@samlee_dev"
-creator_verified: "true"
-source: "https://agentskillexchange.com/skill/tekton-pipeline-template-generator/"
+creator_verified: true
+source: "https://agentskillexchange.com/skills/tekton-pipeline-template-generator/"
 ---
-
 # Tekton Pipeline Template Generator
 
 Scaffolds Tekton Pipeline and Task CRDs using the Tekton Hub API for reusable task resolution. Leverages tkn CLI for local testing and integrates with Sigstore cosign for supply chain artifact signing and SLSA provenance attestation.
@@ -20,20 +19,17 @@ Scaffolds Tekton Pipeline and Task CRDs using the Tekton Hub API for reusable ta
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install tekton-pipeline-template-generator
+npx skills add agentskillexchange/skills --skill tekton-pipeline-template-generator
 ```
 
 ### Claude Code
 ```bash
-claude mcp add tekton-pipeline-template-generator
+npx skills add agentskillexchange/skills --skill tekton-pipeline-template-generator -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "skills": ["tekton-pipeline-template-generator"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill tekton-pipeline-template-generator -a cursor
 ```
 
 ### OpenClaw
@@ -43,9 +39,8 @@ clawhub install tekton-pipeline-template-generator
 
 ### Codex
 ```bash
-codex install tekton-pipeline-template-generator
+npx skills add agentskillexchange/skills --skill tekton-pipeline-template-generator -a codex
 ```
-
 ## Details
 
 | Field | Value |

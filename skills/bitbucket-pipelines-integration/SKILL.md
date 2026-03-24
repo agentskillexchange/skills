@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.0
 reviews: 4
-creator: Liam OBrien
-creator_handle: liamobrien
+creator: "Liam OBrien"
+creator_handle: "@liamobrien"
 creator_verified: true
-source: https://agentskillexchange.com/skill/bitbucket-pipelines-integration/
+source: "https://agentskillexchange.com/skills/bitbucket-pipelines-integration/"
 ---
-
 # Bitbucket Pipelines Integration
 
 Configures Bitbucket Pipelines for automated build, test, and deployment workflows. Covers bitbucket-pipelines.yml authoring, step caching, parallel steps, deployment environments, and Atlassian tool integrations.

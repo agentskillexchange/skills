@@ -3,15 +3,14 @@ name: "CodeClimate Maintainability Tracker"
 description: "Tracks code maintainability scores via the Code Climate API v1 and analyzes cognitive complexity metrics. Generates refactoring priority lists using Halstead complexity measures and cyclomatic comp..."
 category: "Code Quality & Review"
 framework: "MCP-compatible"
-verification: "Community"
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/codeclimate-maintainability-tracker-5/"
+source: "https://agentskillexchange.com/skills/codeclimate-maintainability-tracker-5/"
 ---
-
 # CodeClimate Maintainability Tracker
 
 Tracks code maintainability scores via the Code Climate API v1 and analyzes cognitive complexity metrics. Generates refactoring priority lists using Halstead complexity measures and cyclomatic complexity.
@@ -20,17 +19,17 @@ Tracks code maintainability scores via the Code Climate API v1 and analyzes cogn
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install codeclimate-maintainability-tracker-5
+npx skills add agentskillexchange/skills --skill codeclimate-maintainability-tracker-5
 ```
 
 ### Claude Code
 ```bash
-claude install-skill codeclimate-maintainability-tracker-5
+npx skills add agentskillexchange/skills --skill codeclimate-maintainability-tracker-5 -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor install-skill codeclimate-maintainability-tracker-5
+npx skills add agentskillexchange/skills --skill codeclimate-maintainability-tracker-5 -a cursor
 ```
 
 ### OpenClaw
@@ -40,9 +39,8 @@ clawhub install codeclimate-maintainability-tracker-5
 
 ### Codex
 ```bash
-codex install-skill codeclimate-maintainability-tracker-5
+npx skills add agentskillexchange/skills --skill codeclimate-maintainability-tracker-5 -a codex
 ```
-
 ## Details
 
 | Field | Value |

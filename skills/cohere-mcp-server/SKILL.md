@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.6
 reviews: 77
-creator: Maya Johnson
-creator_handle: mayaj
+creator: "Maya Johnson"
+creator_handle: "@mayaj"
 creator_verified: false
-source: https://agentskillexchange.com/skill/cohere-mcp-server/
+source: "https://agentskillexchange.com/skills/cohere-mcp-server/"
 ---
-
 # Cohere MCP Server
 
 Use this skill to generate embeddings, rerank search results, classify text, and generate responses using Cohere’s models through MCP. It provides agents with Cohere’s specialized NLP capabilities, particularly reranking for improving search quality. Trigger when you need to improve search relevance with reranking, generate high-quality embeddings, or perform text classification at scale.

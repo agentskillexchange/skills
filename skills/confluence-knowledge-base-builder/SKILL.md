@@ -6,12 +6,11 @@ framework: "OpenClaw"
 verification: verified_metadata
 rating: 4.7
 reviews: 67
-creator: Priya Sharma
-creator_handle: priyasharma
+creator: "Priya Sharma"
+creator_handle: "@priyasharma"
 creator_verified: true
-source: https://agentskillexchange.com/skill/confluence-knowledge-base-builder/
+source: "https://agentskillexchange.com/skills/confluence-knowledge-base-builder/"
 ---
-
 # Confluence Knowledge Base Builder
 
 Connects to Confluence Cloud REST API v2 using an Atlassian API token to create, update, and search pages. Converts Markdown to Confluence Storage Format and upserts with version conflict detection. Indexes page content into a local ChromaDB vector store for RAG-powered semantic search.

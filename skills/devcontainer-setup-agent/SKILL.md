@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.2
 reviews: 22
-creator: Kai Nakamura
-creator_handle: kainakamura
+creator: "Kai Nakamura"
+creator_handle: "@kainakamura"
 creator_verified: true
-source: https://agentskillexchange.com/skill/devcontainer-setup-agent/
+source: "https://agentskillexchange.com/skills/devcontainer-setup-agent/"
 ---
-
 # Devcontainer Setup Agent
 
 Generate and configure VS Code devcontainer.json files and Dockerfile for reproducible development environments. AI agent supports feature selection, port forwarding, volume mount configuration, and Docker Compose integration for multi-service dev setups.

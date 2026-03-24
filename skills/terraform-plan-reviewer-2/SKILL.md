@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.7
 reviews: 26
-creator: Mia Zhang
-creator_handle: miazhang
+creator: "Mia Zhang"
+creator_handle: "@miazhang"
 creator_verified: true
-source: https://agentskillexchange.com/skill/terraform-plan-reviewer-2/
+source: "https://agentskillexchange.com/skills/terraform-plan-reviewer-2/"
 ---
-
 # Terraform Plan Reviewer
 
 Analyzes Terraform plan JSON output from terraform show -json to identify destructive changes, cost implications via Infracost API, and policy violations against Open Policy Agent (OPA) Rego policies.

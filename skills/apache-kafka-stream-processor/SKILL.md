@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.7
 reviews: 69
-creator: Zara Ahmed
-creator_handle: zaraahmed
+creator: "Zara Ahmed"
+creator_handle: "@zaraahmed"
 creator_verified: true
-source: https://agentskillexchange.com/skill/apache-kafka-stream-processor/
+source: "https://agentskillexchange.com/skills/apache-kafka-stream-processor/"
 ---
-
 # Apache Kafka Stream Processor
 
 Enable AI agents to produce and consume Apache Kafka messages, manage topic configurations, monitor consumer group lag, and inspect broker health metrics. Supports schema registry integration for Avro and Protobuf message validation.

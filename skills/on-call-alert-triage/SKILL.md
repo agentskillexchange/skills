@@ -6,12 +6,11 @@ framework: "Claude Agents"
 verification: security_reviewed
 rating: 4.8
 reviews: 22
-creator: Zara Ahmed
-creator_handle: zaraahmed
+creator: "Zara Ahmed"
+creator_handle: "@zaraahmed"
 creator_verified: true
-source: https://agentskillexchange.com/skill/on-call-alert-triage/
+source: "https://agentskillexchange.com/skills/on-call-alert-triage/"
 ---
-
 # On-Call Alert Triage
 
 Use this skill when you receive an on-call alert and need help quickly triaging its severity, identifying the likely cause, and determining next steps. It analyzes alert metadata, error messages, and recent deployment history to suggest whether to escalate, wait-and-watch, or immediately intervene.

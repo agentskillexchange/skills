@@ -3,49 +3,44 @@ name: "GitHub Actions Matrix Optimizer"
 description: "Analyzes GitHub Actions workflow matrix strategies using the GitHub REST API v3 workflow runs endpoint. Identifies redundant matrix combinations and suggests fail-fast optimizations to reduce CI minutes."
 category: "CI/CD Integrations"
 framework: "Claude Code"
-verification: "Security Reviewed ✓"
-rating: "4.8"
-reviews: "86"
+verification: security_reviewed
+rating: 4.8
+reviews: 86
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/github-actions-matrix-optimizer-2/"
+source: "https://agentskillexchange.com/skills/github-actions-matrix-optimizer-2/"
 ---
-
 # GitHub Actions Matrix Optimizer
 
 Analyzes GitHub Actions workflow matrix strategies using the GitHub REST API v3 workflow runs endpoint. Identifies redundant matrix combinations and suggests fail-fast optimizations to reduce CI minutes.
 
 ## Installation
 
-**Any Agent (npx):**
+### Any Agent (npx)
 ```bash
-npx @anthropic/skills install github-actions-matrix-optimizer-2
+npx skills add agentskillexchange/skills --skill github-actions-matrix-optimizer-2
 ```
 
-**Claude Code:**
+### Claude Code
 ```bash
-claude mcp add github-actions-matrix-optimizer-2
+npx skills add agentskillexchange/skills --skill github-actions-matrix-optimizer-2 -a claude-code
 ```
 
-**Cursor:**
-Add to `.cursor/skills.json`:
-```json
-{
-  "github-actions-matrix-optimizer-2": "latest"
-}
+### Cursor
+```bash
+npx skills add agentskillexchange/skills --skill github-actions-matrix-optimizer-2 -a cursor
 ```
 
-**OpenClaw:**
+### OpenClaw
 ```bash
 clawhub install github-actions-matrix-optimizer-2
 ```
 
-**Codex:**
+### Codex
 ```bash
-codex install github-actions-matrix-optimizer-2
+npx skills add agentskillexchange/skills --skill github-actions-matrix-optimizer-2 -a codex
 ```
-
 ## Details
 
 | Field | Value |

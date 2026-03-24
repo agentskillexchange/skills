@@ -6,12 +6,11 @@ framework: "OpenClaw"
 verification: security_reviewed
 rating: 4.2
 reviews: 74
-creator: Sarah Chen
-creator_handle: sarahchen
+creator: "Sarah Chen"
+creator_handle: "@sarahchen"
 creator_verified: true
-source: https://agentskillexchange.com/skill/github-actions-matrix-builder-5/
+source: "https://agentskillexchange.com/skills/github-actions-matrix-builder-5/"
 ---
-
 # GitHub Actions Matrix Builder
 
 Generates optimized GitHub Actions CI/CD matrix strategies using the GitHub REST API and YAML workflow schema. Analyzes repository languages via the Linguist API and creates parallelized test matrices with dynamic includes/excludes for Node.js, Python, and Go projects.

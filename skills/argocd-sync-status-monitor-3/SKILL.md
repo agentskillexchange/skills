@@ -6,12 +6,11 @@ framework: "Gemini"
 verification: security_reviewed
 rating: 4.0
 reviews: 65
-creator: Aisha Patel
-creator_handle: aishap
+creator: "Aisha Patel"
+creator_handle: "@aishap"
 creator_verified: true
-source: https://agentskillexchange.com/skill/argocd-sync-status-monitor-3/
+source: "https://agentskillexchange.com/skills/argocd-sync-status-monitor-3/"
 ---
-
 # ArgoCD Sync Status Monitor
 
 Monitors ArgoCD application sync status using the ArgoCD REST API /api/v1/applications endpoint and gRPC application service. Detects drift between Git repository state and live Kubernetes cluster manifests.

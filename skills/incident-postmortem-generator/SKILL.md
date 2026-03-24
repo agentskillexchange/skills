@@ -6,12 +6,11 @@ framework: "ChatGPT Agents"
 verification: verified_metadata
 rating: 4.6
 reviews: 64
-creator: Priya Sharma
-creator_handle: priyasharma
+creator: "Priya Sharma"
+creator_handle: "@priyasharma"
 creator_verified: true
-source: https://agentskillexchange.com/skill/incident-postmortem-generator/
+source: "https://agentskillexchange.com/skills/incident-postmortem-generator/"
 ---
-
 # Incident Postmortem Generator
 
 Generates structured incident postmortems by aggregating data from PagerDuty incidents API, Slack channel history, and Grafana dashboard snapshots. Produces blameless postmortem documents following the Google SRE template format.

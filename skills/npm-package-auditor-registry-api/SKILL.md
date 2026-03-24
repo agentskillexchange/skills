@@ -3,15 +3,14 @@ name: "NPM Package Auditor"
 description: "Audits NPM packages using the NPM Registry API with dependency tree resolution and vulnerability scanning via OSV.dev API. Generates SBOM in CycloneDX format and checks license compliance against SPDX."
 category: "Developer Tools"
 framework: "MCP-compatible"
-verification: ""
+verification: listed
 rating: 0
 reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/npm-package-auditor-registry-api/"
+source: "https://agentskillexchange.com/skills/npm-package-auditor-registry-api/"
 ---
-
 # NPM Package Auditor
 
 Audits NPM packages using the NPM Registry API with dependency tree resolution and vulnerability scanning via OSV.dev API. Generates SBOM in CycloneDX format and checks license compliance against SPDX expression parser.
@@ -20,17 +19,17 @@ Audits NPM packages using the NPM Registry API with dependency tree resolution a
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install npm-package-auditor-registry-api
+npx skills add agentskillexchange/skills --skill npm-package-auditor-registry-api
 ```
 
 ### Claude Code
 ```bash
-claude skill add npm-package-auditor-registry-api
+npx skills add agentskillexchange/skills --skill npm-package-auditor-registry-api -a claude-code
 ```
 
 ### Cursor
-```
-Install from Cursor Settings > Skills > Add Skill > "NPM Package Auditor"
+```bash
+npx skills add agentskillexchange/skills --skill npm-package-auditor-registry-api -a cursor
 ```
 
 ### OpenClaw
@@ -40,9 +39,8 @@ clawhub install npm-package-auditor-registry-api
 
 ### Codex
 ```bash
-codex skill add npm-package-auditor-registry-api
+npx skills add agentskillexchange/skills --skill npm-package-auditor-registry-api -a codex
 ```
-
 ## Details
 
 | Property | Value |

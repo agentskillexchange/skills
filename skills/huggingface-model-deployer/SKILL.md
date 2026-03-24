@@ -6,12 +6,11 @@ framework: "Codex"
 verification: verified_metadata
 rating: 4.2
 reviews: 42
-creator: Liam OBrien
-creator_handle: liamobrien
+creator: "Liam OBrien"
+creator_handle: "@liamobrien"
 creator_verified: true
-source: https://agentskillexchange.com/skill/huggingface-model-deployer/
+source: "https://agentskillexchange.com/skills/huggingface-model-deployer/"
 ---
-
 # Hugging Face Model Deployer
 
 Deploys models from Hugging Face Hub to Inference Endpoints using the huggingface_hub client and REST API. Monitors endpoint health and autoscaling status and streams logs to the terminal. Supports private repos with HF_TOKEN and custom Docker containers.

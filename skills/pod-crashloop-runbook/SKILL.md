@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.4
 reviews: 70
-creator: Maya Johnson
-creator_handle: mayaj
+creator: "Maya Johnson"
+creator_handle: "@mayaj"
 creator_verified: false
-source: https://agentskillexchange.com/skill/pod-crashloop-runbook/
+source: "https://agentskillexchange.com/skills/pod-crashloop-runbook/"
 ---
-
 # Pod CrashLoop Runbook
 
 Kubernetes-specific runbook for diagnosing and resolving CrashLoopBackOff pod states. Systematic approach to identify root cause across configuration, resource limits, health checks, and application errors.

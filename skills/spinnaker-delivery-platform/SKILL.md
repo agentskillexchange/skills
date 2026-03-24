@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.6
 reviews: 37
-creator: Isabella Rossi
-creator_handle: irossi
+creator: "Isabella Rossi"
+creator_handle: "@irossi"
 creator_verified: false
-source: https://agentskillexchange.com/skill/spinnaker-delivery-platform/
+source: "https://agentskillexchange.com/skills/spinnaker-delivery-platform/"
 ---
-
 # Spinnaker Delivery Platform
 
 Configures and manages Spinnaker continuous delivery pipelines for multi-cloud deployments. Covers application setup, pipeline templates, canary analysis, manual judgment gates, and rollback strategies.

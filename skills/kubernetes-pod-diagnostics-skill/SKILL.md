@@ -3,15 +3,14 @@ name: "Kubernetes Pod Diagnostics"
 description: "Diagnoses Kubernetes pod failures using kubectl describe, logs –previous, and the Kubernetes API /api/v1/namespaces/{ns}/events endpoints. Identifies CrashLoopBackOff root causes, OOMKilled memory analysis, and generates remediation steps with resource limit recommendations."
 category: "Runbooks & Diagnostics"
 framework: "OpenClaw"
-verification: "security_reviewed"
-rating: "0"
-reviews: "0"
+verification: security_reviewed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/kubernetes-pod-diagnostics-skill/"
+source: "https://agentskillexchange.com/skills/kubernetes-pod-diagnostics-skill/"
 ---
-
 # Kubernetes Pod Diagnostics
 
 Diagnoses Kubernetes pod failures using kubectl describe, logs –previous, and the Kubernetes API /api/v1/namespaces/{ns}/events endpoints. Identifies CrashLoopBackOff root causes, OOMKilled memory analysis, and generates remediation steps with resource limit recommendations.
@@ -20,16 +19,18 @@ Diagnoses Kubernetes pod failures using kubectl describe, logs –previous, and 
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install kubernetes-pod-diagnostics-skill
+npx skills add agentskillexchange/skills --skill kubernetes-pod-diagnostics-skill
 ```
 
 ### Claude Code
 ```bash
-claude install-skill kubernetes-pod-diagnostics-skill
+npx skills add agentskillexchange/skills --skill kubernetes-pod-diagnostics-skill -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills/` directory or install via Cursor Settings → Skills.
+```bash
+npx skills add agentskillexchange/skills --skill kubernetes-pod-diagnostics-skill -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -38,9 +39,8 @@ clawhub install kubernetes-pod-diagnostics-skill
 
 ### Codex
 ```bash
-codex install-skill kubernetes-pod-diagnostics-skill
+npx skills add agentskillexchange/skills --skill kubernetes-pod-diagnostics-skill -a codex
 ```
-
 ## Details
 
 | | |

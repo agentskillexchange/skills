@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.2
 reviews: 25
-creator: Omar Hassan
-creator_handle: ohassan
+creator: "Omar Hassan"
+creator_handle: "@ohassan"
 creator_verified: true
-source: https://agentskillexchange.com/skill/deepsource-automated-review/
+source: "https://agentskillexchange.com/skills/deepsource-automated-review/"
 ---
-
 # DeepSource Automated Review
 
 Integrates DeepSource static analysis into development workflows. Detects bugs, anti-patterns, security issues, and style violations across Python, JavaScript, TypeScript, Go, Ruby, and more.

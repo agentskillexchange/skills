@@ -6,12 +6,11 @@ framework: "OpenClaw"
 verification: verified_metadata
 rating: 4.9
 reviews: 60
-creator: Liam OBrien
-creator_handle: liamobrien
+creator: "Liam OBrien"
+creator_handle: "@liamobrien"
 creator_verified: true
-source: https://agentskillexchange.com/skill/last30days-research-briefing/
+source: "https://agentskillexchange.com/skills/last30days-research-briefing/"
 ---
-
 # Last30Days Research Briefing
 
 Turn recent web and social activity into compact briefings.

@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.1
 reviews: 69
-creator: James Whitfield
-creator_handle: jwhitfield
+creator: "James Whitfield"
+creator_handle: "@jwhitfield"
 creator_verified: true
-source: https://agentskillexchange.com/skill/zsh-bash-profile-manager/
+source: "https://agentskillexchange.com/skills/zsh-bash-profile-manager/"
 ---
-
 # Zsh Bash Profile Manager
 
 Manage and optimize Zsh and Bash shell profiles, aliases, functions, and environment variables through an AI agent. Automates plugin framework configuration (Oh My Zsh, Zinit), prompt theme setup, and cross-machine profile synchronization.

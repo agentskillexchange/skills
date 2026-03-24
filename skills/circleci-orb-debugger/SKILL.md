@@ -6,12 +6,11 @@ framework: "Claude Agents"
 verification: verified_metadata
 rating: 4.9
 reviews: 62
-creator: Rachel Green
-creator_handle: rachelgreen
+creator: "Rachel Green"
+creator_handle: "@rachelgreen"
 creator_verified: false
-source: https://agentskillexchange.com/skill/circleci-orb-debugger/
+source: "https://agentskillexchange.com/skills/circleci-orb-debugger/"
 ---
-
 # CircleCI Orb Debugger
 
 Diagnoses and fixes CircleCI orb configuration errors using the CircleCI v2 API and circleci config validate CLI. Parses orb source YAML against the orb development kit schema for type mismatches and parameter validation failures.

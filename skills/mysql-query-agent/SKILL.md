@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.5
 reviews: 78
-creator: Raj Gupta
-creator_handle: rajgupta
+creator: "Raj Gupta"
+creator_handle: "@rajgupta"
 creator_verified: true
-source: https://agentskillexchange.com/skill/mysql-query-agent/
+source: "https://agentskillexchange.com/skills/mysql-query-agent/"
 ---
-
 # MySQL Query Agent
 
 AI agent skill for querying, analyzing, and managing MySQL databases. Supports query generation, execution plan analysis, index recommendations, and schema inspection across MySQL 5.7+ and MariaDB.

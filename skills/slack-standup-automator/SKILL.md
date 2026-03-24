@@ -3,15 +3,14 @@ name: "Slack Standup Automator"
 description: "Automates daily standup collection and reporting in Slack using the Slack Web API chat.postMessage and conversations.history methods. Supports threaded responses and scheduled summaries via chat.scheduleMessage."
 category: "Calendar, Email & Productivity"
 framework: "Codex"
-verification: ""
+verification: listed
 rating: 0
 reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/slack-standup-automator/"
+source: "https://agentskillexchange.com/skills/slack-standup-automator/"
 ---
-
 # Slack Standup Automator
 
 Automates daily standup collection and reporting in Slack using the Slack Web API chat.postMessage and conversations.history methods. Supports threaded responses and scheduled summaries via chat.scheduleMessage.
@@ -20,16 +19,18 @@ Automates daily standup collection and reporting in Slack using the Slack Web AP
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install slack-standup-automator
+npx skills add agentskillexchange/skills --skill slack-standup-automator
 ```
 
 ### Claude Code
 ```bash
-claude install-skill slack-standup-automator
+npx skills add agentskillexchange/skills --skill slack-standup-automator -a claude-code
 ```
 
 ### Cursor
-Download from [Agent Skill Exchange](https://agentskillexchange.com/skill/slack-standup-automator/) and add to your `.cursor/skills/` directory.
+```bash
+npx skills add agentskillexchange/skills --skill slack-standup-automator -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -38,9 +39,8 @@ clawhub install slack-standup-automator
 
 ### Codex
 ```bash
-codex install-skill slack-standup-automator
+npx skills add agentskillexchange/skills --skill slack-standup-automator -a codex
 ```
-
 ## Details
 
 | Field | Value |

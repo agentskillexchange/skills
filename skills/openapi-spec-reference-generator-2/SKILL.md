@@ -6,12 +6,11 @@ framework: "Cursor"
 verification: security_reviewed
 rating: 4.8
 reviews: 64
-creator: Nathan Brooks
-creator_handle: nbrooks
+creator: "Nathan Brooks"
+creator_handle: "@nbrooks"
 creator_verified: false
-source: https://agentskillexchange.com/skill/openapi-spec-reference-generator-2/
+source: "https://agentskillexchange.com/skills/openapi-spec-reference-generator-2/"
 ---
-
 # OpenAPI Spec Reference Generator
 
 Generates interactive API reference documentation from OpenAPI 3.x specifications using swagger-parser for validation and redoc-cli for static HTML rendering. Supports $ref resolution across multi-file specs.

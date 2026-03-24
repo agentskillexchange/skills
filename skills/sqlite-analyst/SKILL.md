@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.4
 reviews: 20
-creator: Luna Martinez
-creator_handle: lunamartinez
+creator: "Luna Martinez"
+creator_handle: "@lunamartinez"
 creator_verified: false
-source: https://agentskillexchange.com/skill/sqlite-analyst/
+source: "https://agentskillexchange.com/skills/sqlite-analyst/"
 ---
-
 # SQLite Analyst
 
 AI agent skill for exploring, querying, and analyzing SQLite databases. Supports schema discovery, complex SQL generation, data profiling, and export to CSV or JSON. Ideal for local data analysis workflows.

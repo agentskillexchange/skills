@@ -3,49 +3,44 @@ name: "Jenkins Pipeline Linter Agent"
 description: "Validates Jenkinsfile syntax using the Jenkins Pipeline Linter REST API before commits. Integrates with jenkins-client npm SDK to authenticate and submit declarative or scripted pipelines for server-side validation."
 category: "CI/CD Integrations"
 framework: "OpenClaw"
-verification: "Security Reviewed ✓"
-rating: "4.5"
-reviews: "59"
+verification: security_reviewed
+rating: 4.5
+reviews: 59
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/jenkins-pipeline-linter-agent-2/"
+source: "https://agentskillexchange.com/skills/jenkins-pipeline-linter-agent-2/"
 ---
-
 # Jenkins Pipeline Linter Agent
 
 Validates Jenkinsfile syntax using the Jenkins Pipeline Linter REST API before commits. Integrates with jenkins-client npm SDK to authenticate and submit declarative or scripted pipelines for server-side validation.
 
 ## Installation
 
-**Any Agent (npx):**
+### Any Agent (npx)
 ```bash
-npx @anthropic/skills install jenkins-pipeline-linter-agent-2
+npx skills add agentskillexchange/skills --skill jenkins-pipeline-linter-agent-2
 ```
 
-**Claude Code:**
+### Claude Code
 ```bash
-claude mcp add jenkins-pipeline-linter-agent-2
+npx skills add agentskillexchange/skills --skill jenkins-pipeline-linter-agent-2 -a claude-code
 ```
 
-**Cursor:**
-Add to `.cursor/skills.json`:
-```json
-{
-  "jenkins-pipeline-linter-agent-2": "latest"
-}
+### Cursor
+```bash
+npx skills add agentskillexchange/skills --skill jenkins-pipeline-linter-agent-2 -a cursor
 ```
 
-**OpenClaw:**
+### OpenClaw
 ```bash
 clawhub install jenkins-pipeline-linter-agent-2
 ```
 
-**Codex:**
+### Codex
 ```bash
-codex install jenkins-pipeline-linter-agent-2
+npx skills add agentskillexchange/skills --skill jenkins-pipeline-linter-agent-2 -a codex
 ```
-
 ## Details
 
 | Field | Value |

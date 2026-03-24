@@ -3,16 +3,15 @@ name: "Photoshop Batch Action Automator"
 description: "Automates Adobe Photoshop batch processing via the UXP Scripting API and CEP ExtendScript. Handles bulk resize, watermarking, color profile conversion (ICC), and smart object replacement using photoshop-connection npm package."
 category: "Image & Creative Automation"
 framework: "Custom Agents"
-verification: "✅ Verified"
-security: "✅ Reviewed"
-rating: "4.7"
-reviews: "16"
+verification: security_reviewed
+rating: 4.7
+reviews: 16
 creator: "Mateo Silva"
 creator_handle: "@mateosilva"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/photoshop-batch-action-automator/"
+source: "https://agentskillexchange.com/skills/photoshop-batch-action-automator/"
+security: "✅ Reviewed"
 ---
-
 # Photoshop Batch Action Automator
 
 Automates Adobe Photoshop batch processing via the UXP Scripting API and CEP ExtendScript. Handles bulk resize, watermarking, color profile conversion (ICC), and smart object replacement using photoshop-connection npm package.
@@ -21,20 +20,17 @@ Automates Adobe Photoshop batch processing via the UXP Scripting API and CEP Ext
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install photoshop-batch-action-automator
+npx skills add agentskillexchange/skills --skill photoshop-batch-action-automator
 ```
 
 ### Claude Code
 ```bash
-claude skills add photoshop-batch-action-automator
+npx skills add agentskillexchange/skills --skill photoshop-batch-action-automator -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` configuration:
-```json
-{
-  "skills": ["photoshop-batch-action-automator"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill photoshop-batch-action-automator -a cursor
 ```
 
 ### OpenClaw
@@ -44,9 +40,8 @@ clawhub install photoshop-batch-action-automator
 
 ### Codex
 ```bash
-codex skills add photoshop-batch-action-automator
+npx skills add agentskillexchange/skills --skill photoshop-batch-action-automator -a codex
 ```
-
 ## Details
 
 | Field | Value |

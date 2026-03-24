@@ -3,36 +3,33 @@ name: "NPM Package Audit & License Checker"
 description: "Audits npm dependencies using npm audit, license-checker-rspack, and the npm registry API (registry.npmjs.org). Reports CVE vulnerabilities with CVSS scores, license compatibility matrices, and identifies abandoned packages via download trend analysis."
 category: "Library & API Reference"
 framework: "Claude Code"
-verification: "security_reviewed"
-rating: "0"
-reviews: "0"
+verification: security_reviewed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/npm-package-audit-license-checker/"
+source: "https://agentskillexchange.com/skills/npm-package-audit-license-checker/"
 ---
-
 # NPM Package Audit & License Checker
 
 Audits npm dependencies using npm audit, license-checker-rspack, and the npm registry API (registry.npmjs.org). Reports CVE vulnerabilities with CVSS scores, license compatibility matrices, and identifies abandoned packages via download trend analysis.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install npm-package-audit-license-checker
+npx skills add agentskillexchange/skills --skill npm-package-audit-license-checker
 ```
 
 ### Claude Code
 ```bash
-claude skills add npm-package-audit-license-checker
+npx skills add agentskillexchange/skills --skill npm-package-audit-license-checker -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor skills install npm-package-audit-license-checker
+npx skills add agentskillexchange/skills --skill npm-package-audit-license-checker -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install npm-package-audit-license-checker
 
 ### Codex
 ```bash
-codex skills add npm-package-audit-license-checker
+npx skills add agentskillexchange/skills --skill npm-package-audit-license-checker -a codex
 ```
-
 ## Details
 
 | Field | Value |

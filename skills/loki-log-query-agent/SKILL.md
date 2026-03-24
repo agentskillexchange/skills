@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.8
 reviews: 84
-creator: Mia Zhang
-creator_handle: miazhang
+creator: "Mia Zhang"
+creator_handle: "@miazhang"
 creator_verified: true
-source: https://agentskillexchange.com/skill/loki-log-query-agent/
+source: "https://agentskillexchange.com/skills/loki-log-query-agent/"
 ---
-
 # Loki Log Query Agent
 
 AI agent skill for Grafana Loki — generates LogQL queries, explores log streams, creates log-based alerting rules, and correlates logs with Prometheus metrics for full-stack observability.

@@ -3,36 +3,33 @@ name: "Playwright Accessibility Audit Runner"
 description: "Runs automated WCAG 2.1 AA/AAA accessibility audits using Playwright with axe-core integration. Generates detailed violation reports with CSS selectors, ARIA role analysis, and remediation suggestions."
 category: "Browser Automation"
 framework: "Cursor"
-verification: "Verified ✅"
+verification: security_reviewed
 rating: 4.1
 reviews: 53
 creator: "Alex Rivera"
 creator_handle: "@arivera_dev"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/playwright-accessibility-audit-runner/"
+source: "https://agentskillexchange.com/skills/playwright-accessibility-audit-runner/"
 ---
-
 # Playwright Accessibility Audit Runner
 
 Runs automated WCAG 2.1 AA/AAA accessibility audits using Playwright with axe-core integration. Generates detailed violation reports with CSS selectors, ARIA role analysis, and remediation suggestions.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install playwright-accessibility-audit-runner
+npx skills add agentskillexchange/skills --skill playwright-accessibility-audit-runner
 ```
 
 ### Claude Code
 ```bash
-claude skills add playwright-accessibility-audit-runner
+npx skills add agentskillexchange/skills --skill playwright-accessibility-audit-runner -a claude-code
 ```
 
 ### Cursor
-```
-Install from Cursor Settings → Skills → Search "Playwright Accessibility Audit Runner"
+```bash
+npx skills add agentskillexchange/skills --skill playwright-accessibility-audit-runner -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install playwright-accessibility-audit-runner
 
 ### Codex
 ```bash
-codex skills install playwright-accessibility-audit-runner
+npx skills add agentskillexchange/skills --skill playwright-accessibility-audit-runner -a codex
 ```
-
 ## Details
 
 | Field | Value |

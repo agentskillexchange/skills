@@ -3,15 +3,14 @@ name: "Semgrep Custom Rule Builder"
 description: "Creates custom Semgrep SAST rules using the Semgrep Registry API and pattern syntax with metavariable bindings. Supports taint tracking, join rules, and autofix patterns for security vulnerability ..."
 category: "Code Quality & Review"
 framework: "Claude Code"
-verification: "Community"
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/semgrep-custom-rule-builder-2/"
+source: "https://agentskillexchange.com/skills/semgrep-custom-rule-builder-2/"
 ---
-
 # Semgrep Custom Rule Builder
 
 Creates custom Semgrep SAST rules using the Semgrep Registry API and pattern syntax with metavariable bindings. Supports taint tracking, join rules, and autofix patterns for security vulnerability detection.
@@ -20,17 +19,17 @@ Creates custom Semgrep SAST rules using the Semgrep Registry API and pattern syn
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install semgrep-custom-rule-builder-2
+npx skills add agentskillexchange/skills --skill semgrep-custom-rule-builder-2
 ```
 
 ### Claude Code
 ```bash
-claude install-skill semgrep-custom-rule-builder-2
+npx skills add agentskillexchange/skills --skill semgrep-custom-rule-builder-2 -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor install-skill semgrep-custom-rule-builder-2
+npx skills add agentskillexchange/skills --skill semgrep-custom-rule-builder-2 -a cursor
 ```
 
 ### OpenClaw
@@ -40,9 +39,8 @@ clawhub install semgrep-custom-rule-builder-2
 
 ### Codex
 ```bash
-codex install-skill semgrep-custom-rule-builder-2
+npx skills add agentskillexchange/skills --skill semgrep-custom-rule-builder-2 -a codex
 ```
-
 ## Details
 
 | Field | Value |

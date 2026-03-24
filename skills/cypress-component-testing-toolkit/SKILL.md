@@ -3,39 +3,33 @@ name: "Cypress Component Testing Toolkit"
 description: "Creates component and integration tests using the Cypress Testing Library API and cy.intercept for network stubbing. Supports visual testing via the Cypress Image Snapshot plugin and accessibility auditing with cypress-axe."
 category: "Browser Automation"
 framework: "Custom Agents"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.4
 reviews: 14
 creator: "James Kim"
 creator_handle: "@jameskim_ai"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/cypress-component-testing-toolkit/"
+source: "https://agentskillexchange.com/skills/cypress-component-testing-toolkit/"
 ---
-
 # Cypress Component Testing Toolkit
 
 Creates component and integration tests using the Cypress Testing Library API and cy.intercept for network stubbing. Supports visual testing via the Cypress Image Snapshot plugin and accessibility auditing with cypress-axe.
 
 ## Installation
 
-Install this skill in your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install cypress-component-testing-toolkit
+npx skills add agentskillexchange/skills --skill cypress-component-testing-toolkit
 ```
 
 ### Claude Code
 ```bash
-claude skills add cypress-component-testing-toolkit
+npx skills add agentskillexchange/skills --skill cypress-component-testing-toolkit -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["cypress-component-testing-toolkit"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill cypress-component-testing-toolkit -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install cypress-component-testing-toolkit
 
 ### Codex
 ```bash
-codex skills add cypress-component-testing-toolkit
+npx skills add agentskillexchange/skills --skill cypress-component-testing-toolkit -a codex
 ```
-
 ## Details
 
 | Property | Value |

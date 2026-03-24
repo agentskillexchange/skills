@@ -6,12 +6,11 @@ framework: "OpenClaw"
 verification: verified_metadata
 rating: 4.2
 reviews: 44
-creator: James Whitfield
-creator_handle: jwhitfield
+creator: "James Whitfield"
+creator_handle: "@jwhitfield"
 creator_verified: true
-source: https://agentskillexchange.com/skill/openclaw-research-scout/
+source: "https://agentskillexchange.com/skills/openclaw-research-scout/"
 ---
-
 # OpenClaw Research Scout
 
 Cross-source research skill for discovering and summarizing signals from Reddit, X, and the web.

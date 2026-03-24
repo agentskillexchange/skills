@@ -3,39 +3,33 @@ name: "AWS CloudWatch Alarm Triager"
 description: "Triages AWS CloudWatch alarms by correlating alarm state changes with CloudTrail events and EC2 instance health using boto3. Classifies alarms by severity, identifies root cause candidates, and updates OpsGenie alerts."
 category: "Runbooks & Diagnostics"
 framework: "Cursor"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.3
 reviews: 25
 creator: "Sarah O'Brien"
 creator_handle: "@sarahcodes"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/aws-cloudwatch-alarm-triager/"
+source: "https://agentskillexchange.com/skills/aws-cloudwatch-alarm-triager/"
 ---
-
 # AWS CloudWatch Alarm Triager
 
 Triages AWS CloudWatch alarms by correlating alarm state changes with CloudTrail events and EC2 instance health using boto3. Classifies alarms by severity, identifies root cause candidates, and updates OpsGenie alerts.
 
 ## Installation
 
-Install this skill for your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install aws-cloudwatch-alarm-triager
+npx skills add agentskillexchange/skills --skill aws-cloudwatch-alarm-triager
 ```
 
 ### Claude Code
 ```bash
-claude skills add aws-cloudwatch-alarm-triager
+npx skills add agentskillexchange/skills --skill aws-cloudwatch-alarm-triager -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["aws-cloudwatch-alarm-triager"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill aws-cloudwatch-alarm-triager -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install aws-cloudwatch-alarm-triager
 
 ### Codex
 ```bash
-codex skills add aws-cloudwatch-alarm-triager
+npx skills add agentskillexchange/skills --skill aws-cloudwatch-alarm-triager -a codex
 ```
-
 ## Details
 
 | Property | Value |

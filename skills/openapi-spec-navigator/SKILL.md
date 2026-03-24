@@ -3,36 +3,33 @@ name: "OpenAPI Spec Navigator"
 description: "Parses and navigates OpenAPI 3.1 specifications using swagger-parser and @apidevtools/json-schema-ref-parser. Resolves $ref chains, extracts endpoint signatures, and generates typed client stubs."
 category: "Library & API Reference"
 framework: "Cursor"
-verification: "community"
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
-creator_verified: "false"
-source: "https://agentskillexchange.com/skill/openapi-spec-navigator/"
+creator_verified: false
+source: "https://agentskillexchange.com/skills/openapi-spec-navigator/"
 ---
-
 # OpenAPI Spec Navigator
 
 Parses and navigates OpenAPI 3.1 specifications using swagger-parser and @apidevtools/json-schema-ref-parser. Resolves $ref chains, extracts endpoint signatures, and generates typed client stubs.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install openapi-spec-navigator
+npx skills add agentskillexchange/skills --skill openapi-spec-navigator
 ```
 
 ### Claude Code
 ```bash
-claude skills add openapi-spec-navigator
+npx skills add agentskillexchange/skills --skill openapi-spec-navigator -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor skills install openapi-spec-navigator
+npx skills add agentskillexchange/skills --skill openapi-spec-navigator -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install openapi-spec-navigator
 
 ### Codex
 ```bash
-codex skills add openapi-spec-navigator
+npx skills add agentskillexchange/skills --skill openapi-spec-navigator -a codex
 ```
-
 ## Details
 
 | Field | Value |

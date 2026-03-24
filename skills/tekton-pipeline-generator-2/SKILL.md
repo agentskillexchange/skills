@@ -3,15 +3,14 @@ name: "Tekton Pipeline Generator"
 description: "Generates Tekton CI/CD pipeline resources using the Tekton Pipelines API and tkn CLI. Creates Tasks, Pipelines, and TriggerBindings with automatic Kubernetes RBAC configuration."
 category: "CI/CD Integrations"
 framework: "MCP-compatible"
-verification: "Verified"
-rating: "4.9"
-reviews: "30"
+verification: verified_metadata
+rating: 4.9
+reviews: 30
 creator: "Ava Johnson"
 creator_handle: "@avajohnson"
-creator_verified: "✓"
-source: "https://agentskillexchange.com/skill/tekton-pipeline-generator-2/"
+creator_verified: false
+source: "https://agentskillexchange.com/skills/tekton-pipeline-generator-2/"
 ---
-
 # Tekton Pipeline Generator
 
 Generates Tekton CI/CD pipeline resources using the Tekton Pipelines API and tkn CLI. Creates Tasks, Pipelines, and TriggerBindings with automatic Kubernetes RBAC configuration.
@@ -20,20 +19,17 @@ Generates Tekton CI/CD pipeline resources using the Tekton Pipelines API and tkn
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install tekton-pipeline-generator-2
+npx skills add agentskillexchange/skills --skill tekton-pipeline-generator-2
 ```
 
 ### Claude Code
 ```bash
-claude mcp add tekton-pipeline-generator-2
+npx skills add agentskillexchange/skills --skill tekton-pipeline-generator-2 -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "skills": ["tekton-pipeline-generator-2"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill tekton-pipeline-generator-2 -a cursor
 ```
 
 ### OpenClaw
@@ -43,9 +39,8 @@ clawhub install tekton-pipeline-generator-2
 
 ### Codex
 ```bash
-codex install tekton-pipeline-generator-2
+npx skills add agentskillexchange/skills --skill tekton-pipeline-generator-2 -a codex
 ```
-
 ## Details
 
 | Field | Value |

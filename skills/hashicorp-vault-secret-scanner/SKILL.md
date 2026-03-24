@@ -3,15 +3,14 @@ name: "HashiCorp Vault Secret Scanner"
 description: "Scans codebases for leaked secrets and rotates credentials via HashiCorp Vault API. Integrates with vault kv, transit, and pki engines for automated certificate renewal and secret lifecycle management."
 category: "Security & Verification"
 framework: "OpenClaw"
-verification: "community"
-rating: "4.5"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Mateo Silva"
 creator_handle: "@mateosilva"
-creator_verified: 1
-source: "https://agentskillexchange.com/skill/hashicorp-vault-secret-scanner/"
+creator_verified: true
+source: "https://agentskillexchange.com/skills/hashicorp-vault-secret-scanner/"
 ---
-
 # HashiCorp Vault Secret Scanner
 
 Scans codebases for leaked secrets and rotates credentials via HashiCorp Vault API. Integrates with vault kv, transit, and pki engines for automated certificate renewal and secret lifecycle management.
@@ -20,22 +19,17 @@ Scans codebases for leaked secrets and rotates credentials via HashiCorp Vault A
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install hashicorp-vault-secret-scanner
+npx skills add agentskillexchange/skills --skill hashicorp-vault-secret-scanner
 ```
 
 ### Claude Code
 ```bash
-claude mcp add hashicorp-vault-secret-scanner
+npx skills add agentskillexchange/skills --skill hashicorp-vault-secret-scanner -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "hashicorp-vault-secret-scanner": {
-    "source": "agentskillexchange"
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill hashicorp-vault-secret-scanner -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install hashicorp-vault-secret-scanner
 
 ### Codex
 ```bash
-codex install-skill hashicorp-vault-secret-scanner
+npx skills add agentskillexchange/skills --skill hashicorp-vault-secret-scanner -a codex
 ```
-
 ## Details
 
 | Field | Value |

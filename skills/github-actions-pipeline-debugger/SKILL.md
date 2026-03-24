@@ -3,15 +3,14 @@ name: "GitHub Actions Pipeline Debugger"
 description: "Fetches failed GitHub Actions workflow run logs via the GitHub REST API, identifies the failing step, and surfaces the root cause with a suggested fix. Works with multi-job matrix builds and annotates the exact YAML line that caused the failure. Diagnostic only — does not rerun jobs."
 category: "CI/CD Integrations"
 framework: "Claude Code"
-verification: 
+verification: listed
 rating: 4.3
 reviews: 59
-creator: Maya Johnson
-creator_handle: mayaj
+creator: "Maya Johnson"
+creator_handle: "@mayaj"
 creator_verified: false
-source: https://agentskillexchange.com/skill/github-actions-pipeline-debugger/
+source: "https://agentskillexchange.com/skills/github-actions-pipeline-debugger/"
 ---
-
 # GitHub Actions Pipeline Debugger
 
 Fetches failed GitHub Actions workflow run logs via the GitHub REST API, identifies the failing step, and surfaces the root cause with a suggested fix. Works with multi-job matrix builds and annotates the exact YAML line that caused the failure. Diagnostic only — does not rerun jobs.

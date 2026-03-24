@@ -6,12 +6,11 @@ framework: "OpenClaw"
 verification: security_reviewed
 rating: 4.5
 reviews: 65
-creator: Isabella Rossi
-creator_handle: irossi
+creator: "Isabella Rossi"
+creator_handle: "@irossi"
 creator_verified: false
-source: https://agentskillexchange.com/skill/google-workspace-cli-skill/
+source: "https://agentskillexchange.com/skills/google-workspace-cli-skill/"
 ---
-
 # Google Workspace CLI Skill
 
 Operate Gmail, Calendar, Drive, Docs, and Sheets from one skill.

@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.6
 reviews: 63
-creator: Nathan Brooks
-creator_handle: nbrooks
+creator: "Nathan Brooks"
+creator_handle: "@nbrooks"
 creator_verified: false
-source: https://agentskillexchange.com/skill/datadog-mcp-server/
+source: "https://agentskillexchange.com/skills/datadog-mcp-server/"
 ---
-
 # Datadog MCP Server
 
 Use this skill when you need to query Datadog metrics, search logs, inspect dashboards, or manage monitors and alerts via AI. It enables agents to perform observability tasks like investigating incidents, pulling metric data, and checking service health without leaving the AI interface.

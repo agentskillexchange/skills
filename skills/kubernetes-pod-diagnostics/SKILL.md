@@ -6,12 +6,11 @@ framework: "OpenClaw"
 verification: security_reviewed
 rating: 4.2
 reviews: 40
-creator: Priya Sharma
-creator_handle: priyasharma
+creator: "Priya Sharma"
+creator_handle: "@priyasharma"
 creator_verified: true
-source: https://agentskillexchange.com/skill/kubernetes-pod-diagnostics/
+source: "https://agentskillexchange.com/skills/kubernetes-pod-diagnostics/"
 ---
-
 # Kubernetes Pod Diagnostics
 
 Diagnoses CrashLoopBackOff, OOMKilled, and pending pod issues by querying Kubernetes API server endpoints. Parses kubectl describe output with structured remediation runbooks.

@@ -3,40 +3,34 @@ name: "Selenium Grid Session Distributor"
 description: "Manages browser session allocation across Selenium Grid 4 nodes using the GraphQL status endpoint and SE_NODE_MAX_SESSIONS configuration. Implements weighted round-robin distribution with health-check-based failover for Chrome, Firefox, and Edge instances."
 category: "Browser Automation"
 framework: "Cursor"
-verification: "✅ Verified"
-security: "🔒 Reviewed"
-rating: "4.5"
-reviews: "51"
+verification: security_reviewed
+rating: 4.5
+reviews: 51
 creator: "Ryan O'Malley"
 creator_handle: "@ryanomalley"
 creator_verified: false
-source: "https://agentskillexchange.com/skill/selenium-grid-session-distributor/"
+source: "https://agentskillexchange.com/skills/selenium-grid-session-distributor/"
+security: "🔒 Reviewed"
 ---
-
 # Selenium Grid Session Distributor
 
 Manages browser session allocation across Selenium Grid 4 nodes using the GraphQL status endpoint and SE_NODE_MAX_SESSIONS configuration. Implements weighted round-robin distribution with health-check-based failover for Chrome, Firefox, and Edge instances.
 
 ## Installation
 
-Install this skill across different AI coding agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install selenium-grid-session-distributor
+npx skills add agentskillexchange/skills --skill selenium-grid-session-distributor
 ```
 
 ### Claude Code
 ```bash
-claude skills add selenium-grid-session-distributor
+npx skills add agentskillexchange/skills --skill selenium-grid-session-distributor -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["selenium-grid-session-distributor"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill selenium-grid-session-distributor -a cursor
 ```
 
 ### OpenClaw
@@ -46,9 +40,8 @@ clawhub install selenium-grid-session-distributor
 
 ### Codex
 ```bash
-codex skills add selenium-grid-session-distributor
+npx skills add agentskillexchange/skills --skill selenium-grid-session-distributor -a codex
 ```
-
 ## Details
 
 | Property | Value |

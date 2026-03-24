@@ -3,36 +3,33 @@ name: "Prettier Config Harmonizer"
 description: "Resolves Prettier formatting conflicts across monorepo packages using the Prettier API and @prettier/plugin-xml. Generates unified .prettierrc configs with per-package overrides and EditorConfig synchronization."
 category: "Code Quality & Review"
 framework: "Cursor"
-verification: ""
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/prettier-config-harmonizer-2/"
+source: "https://agentskillexchange.com/skills/prettier-config-harmonizer-2/"
 ---
-
 # Prettier Config Harmonizer
 
 Resolves Prettier formatting conflicts across monorepo packages using the Prettier API and @prettier/plugin-xml. Generates unified .prettierrc configs with per-package overrides and EditorConfig synchronization.
 
 ## Installation
 
-Install this skill across different agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agentskill install prettier-config-harmonizer-2
+npx skills add agentskillexchange/skills --skill prettier-config-harmonizer-2
 ```
 
 ### Claude Code
 ```bash
-claude skills install prettier-config-harmonizer-2
+npx skills add agentskillexchange/skills --skill prettier-config-harmonizer-2 -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor skills install prettier-config-harmonizer-2
+npx skills add agentskillexchange/skills --skill prettier-config-harmonizer-2 -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install prettier-config-harmonizer-2
 
 ### Codex
 ```bash
-codex skills install prettier-config-harmonizer-2
+npx skills add agentskillexchange/skills --skill prettier-config-harmonizer-2 -a codex
 ```
-
 ## Details
 
 | Field | Value |

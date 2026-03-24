@@ -6,12 +6,11 @@ framework: "OpenClaw"
 verification: security_reviewed
 rating: 4.7
 reviews: 74
-creator: James Whitfield
-creator_handle: jwhitfield
+creator: "James Whitfield"
+creator_handle: "@jwhitfield"
 creator_verified: true
-source: https://agentskillexchange.com/skill/jasper-longform-blog-generator/
+source: "https://agentskillexchange.com/skills/jasper-longform-blog-generator/"
 ---
-
 # Jasper AI Long-Form Blog Post Generator
 
 Connects to Jasper’s /v1/content/generate REST endpoint to produce SEO-optimized long-form blog posts using the Boss Mode workflow. Passes custom tone, keyword targets, and brand voice templates via the Jasper API SDK, then auto-publishes drafts to WordPress via the WP REST API.

@@ -3,16 +3,15 @@ name: "GitHub Actions Workflow Generator"
 description: "Creates GitHub Actions workflow YAML files using the actions/toolkit SDK patterns with matrix strategies, reusable workflows, and composite actions. Supports Docker container jobs, OIDC authentication, and artifact caching via actions/cache."
 category: "Templates & Workflows"
 framework: "Claude Agents"
-verification: "✅ Verified"
-security: "✅ Reviewed"
-rating: "4.0"
-reviews: "85"
+verification: security_reviewed
+rating: 4.0
+reviews: 85
 creator: "Sam Lee"
 creator_handle: "@samlee_dev"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/github-actions-workflow-generator-v2/"
+source: "https://agentskillexchange.com/skills/github-actions-workflow-generator-v2/"
+security: "✅ Reviewed"
 ---
-
 # GitHub Actions Workflow Generator
 
 Creates GitHub Actions workflow YAML files using the actions/toolkit SDK patterns with matrix strategies, reusable workflows, and composite actions. Supports Docker container jobs, OIDC authentication, and artifact caching via actions/cache.
@@ -21,20 +20,17 @@ Creates GitHub Actions workflow YAML files using the actions/toolkit SDK pattern
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install github-actions-workflow-generator-v2
+npx skills add agentskillexchange/skills --skill github-actions-workflow-generator-v2
 ```
 
 ### Claude Code
 ```bash
-claude skills add github-actions-workflow-generator-v2
+npx skills add agentskillexchange/skills --skill github-actions-workflow-generator-v2 -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` configuration:
-```json
-{
-  "skills": ["github-actions-workflow-generator-v2"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill github-actions-workflow-generator-v2 -a cursor
 ```
 
 ### OpenClaw
@@ -44,9 +40,8 @@ clawhub install github-actions-workflow-generator-v2
 
 ### Codex
 ```bash
-codex skills add github-actions-workflow-generator-v2
+npx skills add agentskillexchange/skills --skill github-actions-workflow-generator-v2 -a codex
 ```
-
 ## Details
 
 | Field | Value |

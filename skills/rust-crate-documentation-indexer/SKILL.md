@@ -3,35 +3,32 @@ name: "Rust Crate Documentation Indexer"
 description: "Indexes Rust crate documentation from docs.rs using the docs.rs API and crates.io registry. Builds searchable function signature databases using rustdoc JSON output format."
 category: "Library & API Reference"
 framework: "Custom Agents"
-verification: "Security Reviewed"
-rating: "4.1"
-reviews: "12"
+verification: security_reviewed
+rating: 4.1
+reviews: 12
 creator: "Community"
 creator_verified: false
-source: "https://agentskillexchange.com/skill/rust-crate-documentation-indexer/"
+source: "https://agentskillexchange.com/skills/rust-crate-documentation-indexer/"
 ---
-
 # Rust Crate Documentation Indexer
 
 Indexes Rust crate documentation from docs.rs using the docs.rs API and crates.io registry. Builds searchable function signature databases using rustdoc JSON output format.
 
 ## Installation
 
-Install this skill for your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install rust-crate-documentation-indexer
+npx skills add agentskillexchange/skills --skill rust-crate-documentation-indexer
 ```
 
 ### Claude Code
 ```bash
-claude skills add rust-crate-documentation-indexer
+npx skills add agentskillexchange/skills --skill rust-crate-documentation-indexer -a claude-code
 ```
 
 ### Cursor
-```
-Install rust-crate-documentation-indexer from Cursor Settings → Skills
+```bash
+npx skills add agentskillexchange/skills --skill rust-crate-documentation-indexer -a cursor
 ```
 
 ### OpenClaw
@@ -41,9 +38,8 @@ clawhub install rust-crate-documentation-indexer
 
 ### Codex
 ```bash
-codex skills add rust-crate-documentation-indexer
+npx skills add agentskillexchange/skills --skill rust-crate-documentation-indexer -a codex
 ```
-
 ## Details
 
 | Field | Value |

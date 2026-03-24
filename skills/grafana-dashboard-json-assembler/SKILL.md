@@ -3,41 +3,33 @@ name: "Grafana Dashboard JSON Assembler"
 description: "Assembles Grafana dashboard JSON models using panel types like timeseries, stat, table, and heatmap. Configures datasource references, template variables, and annotation queries for operational dashboards."
 category: "Monitoring & Alerts"
 framework: "Cursor"
-verification: "community"
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: ""
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/grafana-dashboard-json-assembler/"
+source: "https://agentskillexchange.com/skills/grafana-dashboard-json-assembler/"
 ---
-
 # Grafana Dashboard JSON Assembler
 
 Assembles Grafana dashboard JSON models using panel types like timeseries, stat, table, and heatmap. Configures datasource references, template variables, and annotation queries for operational dashboards.
 
 ## Installation
 
-Install this skill using one of the following methods:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install grafana-dashboard-json-assembler
+npx skills add agentskillexchange/skills --skill grafana-dashboard-json-assembler
 ```
 
 ### Claude Code
 ```bash
-claude mcp add grafana-dashboard-json-assembler
+npx skills add agentskillexchange/skills --skill grafana-dashboard-json-assembler -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "grafana-dashboard-json-assembler": {
-    "source": "https://agentskillexchange.com/skill/grafana-dashboard-json-assembler/"
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill grafana-dashboard-json-assembler -a cursor
 ```
 
 ### OpenClaw
@@ -47,9 +39,8 @@ clawhub install grafana-dashboard-json-assembler
 
 ### Codex
 ```bash
-codex install grafana-dashboard-json-assembler
+npx skills add agentskillexchange/skills --skill grafana-dashboard-json-assembler -a codex
 ```
-
 ## Details
 
 | Field | Value |

@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.7
 reviews: 46
-creator: Sarah Chen
-creator_handle: sarahchen
+creator: "Sarah Chen"
+creator_handle: "@sarahchen"
 creator_verified: true
-source: https://agentskillexchange.com/skill/superagi-agent-runner/
+source: "https://agentskillexchange.com/skills/superagi-agent-runner/"
 ---
-
 # SuperAGI Agent Runner
 
 SuperAGI is an open-source autonomous AI agent framework that supports concurrent agent execution, multiple LLM providers, and a rich toolset. This skill covers deploying SuperAGI agents with custom tools, memory, and performance monitoring.

@@ -3,15 +3,14 @@ name: "Prometheus AlertManager Rule Builder"
 description: "Generates Prometheus alerting rules and AlertManager routing configs using PromQL validation via the Prometheus HTTP API. Supports PagerDuty, OpsGenie, and Slack receiver configurations."
 category: "Monitoring & Alerts"
 framework: "ChatGPT Agents"
-verification: ""
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/prometheus-alertmanager-rule-builder/"
+source: "https://agentskillexchange.com/skills/prometheus-alertmanager-rule-builder/"
 ---
-
 # Prometheus AlertManager Rule Builder
 
 Generates Prometheus alerting rules and AlertManager routing configs using PromQL validation via the Prometheus HTTP API. Supports PagerDuty, OpsGenie, and Slack receiver configurations.
@@ -20,22 +19,17 @@ Generates Prometheus alerting rules and AlertManager routing configs using PromQ
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install prometheus-alertmanager-rule-builder
+npx skills add agentskillexchange/skills --skill prometheus-alertmanager-rule-builder
 ```
 
 ### Claude Code
 ```bash
-claude mcp add prometheus-alertmanager-rule-builder
+npx skills add agentskillexchange/skills --skill prometheus-alertmanager-rule-builder -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "prometheus-alertmanager-rule-builder": {
-    "enabled": true
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill prometheus-alertmanager-rule-builder -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install prometheus-alertmanager-rule-builder
 
 ### Codex
 ```bash
-codex install prometheus-alertmanager-rule-builder
+npx skills add agentskillexchange/skills --skill prometheus-alertmanager-rule-builder -a codex
 ```
-
 ## Details
 
 | Field | Value |

@@ -6,12 +6,11 @@ framework: "OpenClaw"
 verification: security_reviewed
 rating: 4.8
 reviews: 64
-creator: David Kim
-creator_handle: dkim
+creator: "David Kim"
+creator_handle: "@dkim"
 creator_verified: false
-source: https://agentskillexchange.com/skill/codeclimate-maintainability-tracker-3/
+source: "https://agentskillexchange.com/skills/codeclimate-maintainability-tracker-3/"
 ---
-
 # CodeClimate Maintainability Tracker
 
 Tracks code maintainability trends using the Code Climate API v1 /repos endpoint. Monitors technical debt ratio, cognitive complexity scores, and file churn correlation across sprints.

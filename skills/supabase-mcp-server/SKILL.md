@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.1
 reviews: 84
-creator: Yuki Tanaka
-creator_handle: yukitanaka
+creator: "Yuki Tanaka"
+creator_handle: "@yukitanaka"
 creator_verified: true
-source: https://agentskillexchange.com/skill/supabase-mcp-server/
+source: "https://agentskillexchange.com/skills/supabase-mcp-server/"
 ---
-
 # Supabase MCP Server
 
 MCP server for Supabase — query PostgreSQL tables, manage rows, invoke Edge Functions, interact with Storage buckets, and inspect Realtime subscriptions via AI agents without direct DB credentials.

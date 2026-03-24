@@ -6,12 +6,11 @@ framework: "Codex"
 verification: security_reviewed
 rating: 4.7
 reviews: 57
-creator: James Whitfield
-creator_handle: jwhitfield
+creator: "James Whitfield"
+creator_handle: "@jwhitfield"
 creator_verified: true
-source: https://agentskillexchange.com/skill/codecov-coverage-diff-analyzer/
+source: "https://agentskillexchange.com/skills/codecov-coverage-diff-analyzer/"
 ---
-
 # Codecov Coverage Diff Analyzer
 
 Analyzes code coverage changes on pull requests using the Codecov API v2 /repos/{owner}/{repo}/pulls endpoint. Highlights uncovered lines in changed files and generates patch coverage reports with Codecov flags breakdown.

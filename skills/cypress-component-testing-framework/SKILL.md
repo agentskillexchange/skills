@@ -3,36 +3,33 @@ name: "Cypress Component Testing Framework"
 description: "Component-level testing with Cypress Component Testing using cy.mount() for React, Vue, and Angular components. Integrates with Webpack/Vite dev servers and supports visual snapshot testing via Percy."
 category: "Browser Automation"
 framework: "OpenClaw"
-verification: "community"
-rating: "4.2"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/cypress-component-testing-framework/"
+source: "https://agentskillexchange.com/skills/cypress-component-testing-framework/"
 ---
-
 # Cypress Component Testing Framework
 
 Component-level testing with Cypress Component Testing using cy.mount() for React, Vue, and Angular components. Integrates with Webpack/Vite dev servers and supports visual snapshot testing via Percy.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install cypress-component-testing-framework
+npx skills add agentskillexchange/skills --skill cypress-component-testing-framework
 ```
 
 ### Claude Code
 ```bash
-claude skills add cypress-component-testing-framework
+npx skills add agentskillexchange/skills --skill cypress-component-testing-framework -a claude-code
 ```
 
 ### Cursor
-```
-Install from Cursor Settings → Skills → Add → "Cypress Component Testing Framework"
+```bash
+npx skills add agentskillexchange/skills --skill cypress-component-testing-framework -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install cypress-component-testing-framework
 
 ### Codex
 ```bash
-codex skills add cypress-component-testing-framework
+npx skills add agentskillexchange/skills --skill cypress-component-testing-framework -a codex
 ```
-
 ## Details
 
 | Field | Value |

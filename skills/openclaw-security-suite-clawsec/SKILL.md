@@ -6,12 +6,11 @@ framework: "OpenClaw"
 verification: security_reviewed
 rating: 4.8
 reviews: 58
-creator: Nathan Brooks
-creator_handle: nbrooks
+creator: "Nathan Brooks"
+creator_handle: "@nbrooks"
 creator_verified: false
-source: https://agentskillexchange.com/skill/openclaw-security-suite-clawsec/
+source: "https://agentskillexchange.com/skills/openclaw-security-suite-clawsec/"
 ---
-
 # OpenClaw Security Suite (ClawSec)
 
 Agent-layer security monitoring, drift detection, and integrity verification for OpenClaw environments. Protects cognitive architecture files, audits skill supply chains, and monitors CVE advisories.

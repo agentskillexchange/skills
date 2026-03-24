@@ -3,35 +3,34 @@ name: "GitHub Actions Matrix Optimizer"
 description: "Analyzes GitHub Actions workflow YAML and CI matrix configurations to reduce redundant jobs using the actions/cache API and dorny/paths-filter. Suggests matrix.include/exclude refinements and compo..."
 category: "CI/CD Integrations"
 framework: "OpenClaw"
-verification: "security_reviewed"
+verification: security_reviewed
 rating: 0
 reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/github-actions-matrix-optimizer-3/"
+source: "https://agentskillexchange.com/skills/github-actions-matrix-optimizer-3/"
 ---
-
 # GitHub Actions Matrix Optimizer
 
 Analyzes GitHub Actions workflow YAML and CI matrix configurations to reduce redundant jobs using the actions/cache API and dorny/paths-filter. Suggests matrix.include/exclude refinements and composite action extraction to cut CI minutes by up to 60%.
 
 ## Installation
 
-Install this skill across different agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install github-actions-matrix-optimizer-3
+npx skills add agentskillexchange/skills --skill github-actions-matrix-optimizer-3
 ```
 
 ### Claude Code
 ```bash
-claude skills add github-actions-matrix-optimizer-3
+npx skills add agentskillexchange/skills --skill github-actions-matrix-optimizer-3 -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills/` directory or install via Cursor settings.
+```bash
+npx skills add agentskillexchange/skills --skill github-actions-matrix-optimizer-3 -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install github-actions-matrix-optimizer-3
 
 ### Codex
 ```bash
-codex skills add github-actions-matrix-optimizer-3
+npx skills add agentskillexchange/skills --skill github-actions-matrix-optimizer-3 -a codex
 ```
-
 ## Details
 
 | Property | Value |

@@ -3,36 +3,33 @@ name: "Playwright Network HAR Recorder"
 description: "Records and replays HTTP Archive (HAR) files using Playwright routeFromHAR API for deterministic test environments. Supports selective recording, response modification, and API mock generation."
 category: "Browser Automation"
 framework: "Codex"
-verification: "Verified ✅"
+verification: security_reviewed
 rating: 4.9
 reviews: 60
 creator: "Aisha Patel"
 creator_handle: "@aishapatel"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/playwright-network-har-recorder/"
+source: "https://agentskillexchange.com/skills/playwright-network-har-recorder/"
 ---
-
 # Playwright Network HAR Recorder
 
 Records and replays HTTP Archive (HAR) files using Playwright routeFromHAR API for deterministic test environments. Supports selective recording, response modification, and API mock generation.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install playwright-network-har-recorder
+npx skills add agentskillexchange/skills --skill playwright-network-har-recorder
 ```
 
 ### Claude Code
 ```bash
-claude skills add playwright-network-har-recorder
+npx skills add agentskillexchange/skills --skill playwright-network-har-recorder -a claude-code
 ```
 
 ### Cursor
-```
-Install from Cursor Settings → Skills → Search "Playwright Network HAR Recorder"
+```bash
+npx skills add agentskillexchange/skills --skill playwright-network-har-recorder -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install playwright-network-har-recorder
 
 ### Codex
 ```bash
-codex skills install playwright-network-har-recorder
+npx skills add agentskillexchange/skills --skill playwright-network-har-recorder -a codex
 ```
-
 ## Details
 
 | Field | Value |

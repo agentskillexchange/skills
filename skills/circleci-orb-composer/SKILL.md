@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: verified_metadata
 rating: 4.2
 reviews: 6
-creator: Kai Nakamura
-creator_handle: kainakamura
+creator: "Kai Nakamura"
+creator_handle: "@kainakamura"
 creator_verified: true
-source: https://agentskillexchange.com/skill/circleci-orb-composer/
+source: "https://agentskillexchange.com/skills/circleci-orb-composer/"
 ---
-
 # CircleCI Orb Composer
 
 Creates and validates CircleCI orbs using the circleci CLI orb pack and orb validate commands. Integrates with the CircleCI v2 API (/api/v2/pipeline) for pipeline triggering and uses shellcheck for embedded script validation.

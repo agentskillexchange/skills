@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.1
 reviews: 54
-creator: Rachel Green
-creator_handle: rachelgreen
+creator: "Rachel Green"
+creator_handle: "@rachelgreen"
 creator_verified: false
-source: https://agentskillexchange.com/skill/bandit-python-security-linter-2/
+source: "https://agentskillexchange.com/skills/bandit-python-security-linter-2/"
 ---
-
 # Bandit Python Security Linter
 
 Runs Bandit security linter on Python codebases to detect common security issues including hardcoded secrets, SQL injection risks, insecure deserialization, use of weak cryptography, and shell injection vulnerabilities.

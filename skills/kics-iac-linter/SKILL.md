@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.7
 reviews: 19
-creator: David Kim
-creator_handle: dkim
+creator: "David Kim"
+creator_handle: "@dkim"
 creator_verified: false
-source: https://agentskillexchange.com/skill/kics-iac-linter/
+source: "https://agentskillexchange.com/skills/kics-iac-linter/"
 ---
-
 # KICS IaC Linter
 
 Checkmarx KICS (Keeping Infrastructure as Code Secure) scans Terraform, CloudFormation, Ansible, Kubernetes, and Dockerfile for security vulnerabilities, compliance issues, and best practice violations.

@@ -3,15 +3,14 @@ name: "dbt Model Dependency Analyzer"
 description: "Analyzes dbt project DAGs using the dbt manifest.json artifact and the dbt Cloud API. Detects circular dependencies, orphaned models, and generates lineage visualizations."
 category: "Data Extraction & Transformation"
 framework: "Claude Code"
-verification: "verified"
-rating: "4.8"
-reviews: "3"
+verification: verified_metadata
+rating: 4.8
+reviews: 3
 creator: "Lucy Zhang"
 creator_handle: "@lucyzhang"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/dbt-model-dependency-analyzer/"
+source: "https://agentskillexchange.com/skills/dbt-model-dependency-analyzer/"
 ---
-
 # dbt Model Dependency Analyzer
 
 Analyzes dbt project DAGs using the dbt manifest.json artifact and the dbt Cloud API. Detects circular dependencies, orphaned models, and generates lineage visualizations.
@@ -19,38 +18,29 @@ Analyzes dbt project DAGs using the dbt manifest.json artifact and the dbt Cloud
 ## Installation
 
 ### Any Agent (npx)
-
 ```bash
-npx @anthropic/agent-skills install dbt-model-dependency-analyzer
+npx skills add agentskillexchange/skills --skill dbt-model-dependency-analyzer
 ```
 
 ### Claude Code
-
 ```bash
-claude mcp add dbt-model-dependency-analyzer
+npx skills add agentskillexchange/skills --skill dbt-model-dependency-analyzer -a claude-code
 ```
 
 ### Cursor
-
-Add to `.cursor/skills.json`:
-```json
-{
-  "skills": ["dbt-model-dependency-analyzer"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill dbt-model-dependency-analyzer -a cursor
 ```
 
 ### OpenClaw
-
 ```bash
 clawhub install dbt-model-dependency-analyzer
 ```
 
 ### Codex
-
 ```bash
-codex install dbt-model-dependency-analyzer
+npx skills add agentskillexchange/skills --skill dbt-model-dependency-analyzer -a codex
 ```
-
 ## Details
 
 | Field | Value |

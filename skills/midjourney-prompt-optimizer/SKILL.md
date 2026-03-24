@@ -3,15 +3,14 @@ name: "Midjourney Prompt Optimizer"
 description: "Analyzes a creative brief and generates optimized Midjourney prompts with style weights, aspect ratios, and –stylize parameters tuned for the desired output. Uses Midjourney’s parameter syntax for version selection (v6.1), quality flags, and negative prompt construction."
 category: "Image & Creative Automation"
 framework: "OpenClaw"
-verification: 
+verification: listed
 rating: 4.7
 reviews: 26
-creator: Marcus Rivera
-creator_handle: mrivera
+creator: "Marcus Rivera"
+creator_handle: "@mrivera"
 creator_verified: true
-source: https://agentskillexchange.com/skill/midjourney-prompt-optimizer/
+source: "https://agentskillexchange.com/skills/midjourney-prompt-optimizer/"
 ---
-
 # Midjourney Prompt Optimizer
 
 Analyzes a creative brief and generates optimized Midjourney prompts with style weights, aspect ratios, and –stylize parameters tuned for the desired output. Uses Midjourney’s parameter syntax for version selection (v6.1), quality flags, and negative prompt construction.

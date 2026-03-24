@@ -3,15 +3,14 @@ name: "Systemd Service Recovery Playbook"
 description: "Automates systemd service failure diagnosis and recovery using journalctl log analysis and systemctl status inspection. Applies structured runbook logic for common failure modes like socket activat..."
 category: "Runbooks & Diagnostics"
 framework: "Codex"
-verification: "verified_metadata"
-rating: "0"
-reviews: "0"
+verification: verified_metadata
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/systemd-service-recovery-playbook/"
+source: "https://agentskillexchange.com/skills/systemd-service-recovery-playbook/"
 ---
-
 # Systemd Service Recovery Playbook
 
 Automates systemd service failure diagnosis and recovery using journalctl log analysis and systemctl status inspection. Applies structured runbook logic for common failure modes like socket activation failures and dependency cycles.
@@ -20,22 +19,17 @@ Automates systemd service failure diagnosis and recovery using journalctl log an
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install systemd-service-recovery-playbook
+npx skills add agentskillexchange/skills --skill systemd-service-recovery-playbook
 ```
 
 ### Claude Code
 ```bash
-claude mcp add systemd-service-recovery-playbook
+npx skills add agentskillexchange/skills --skill systemd-service-recovery-playbook -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "systemd-service-recovery-playbook": {
-    "enabled": true
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill systemd-service-recovery-playbook -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install systemd-service-recovery-playbook
 
 ### Codex
 ```bash
-codex install systemd-service-recovery-playbook
+npx skills add agentskillexchange/skills --skill systemd-service-recovery-playbook -a codex
 ```
-
 ## Details
 
 | Field | Value |

@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.6
 reviews: 81
-creator: David Kim
-creator_handle: dkim
+creator: "David Kim"
+creator_handle: "@dkim"
 creator_verified: false
-source: https://agentskillexchange.com/skill/api-documentation-generator/
+source: "https://agentskillexchange.com/skills/api-documentation-generator/"
 ---
-
 # API Documentation Generator
 
 Use this skill when you need to generate API documentation from code, docstrings, or route definitions in your project. It analyzes the codebase to produce structured API docs in Markdown or OpenAPI format, covering endpoints, parameters, return types, and usage examples.

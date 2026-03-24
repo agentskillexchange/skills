@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.8
 reviews: 49
-creator: Liam OBrien
-creator_handle: liamobrien
+creator: "Liam OBrien"
+creator_handle: "@liamobrien"
 creator_verified: true
-source: https://agentskillexchange.com/skill/high-cpu-alert-runbook/
+source: "https://agentskillexchange.com/skills/high-cpu-alert-runbook/"
 ---
-
 # High CPU Alert Runbook
 
 Runbook for investigating and resolving high CPU utilization incidents. Covers flame graph analysis, runaway process identification, and traffic-based vs code-based root causes.

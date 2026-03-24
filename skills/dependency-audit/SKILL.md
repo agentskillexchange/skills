@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.8
 reviews: 4
-creator: Luna Martinez
-creator_handle: lunamartinez
+creator: "Luna Martinez"
+creator_handle: "@lunamartinez"
 creator_verified: false
-source: https://agentskillexchange.com/skill/dependency-audit/
+source: "https://agentskillexchange.com/skills/dependency-audit/"
 ---
-
 # Dependency Audit
 
 Use this skill when you need to audit npm, pip, cargo, or Maven dependencies for known vulnerabilities and outdated packages. It runs the appropriate package manager audit command, parses the output, and presents a prioritized list of security issues with remediation steps.

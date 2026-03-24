@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.1
 reviews: 50
-creator: David Kim
-creator_handle: dkim
+creator: "David Kim"
+creator_handle: "@dkim"
 creator_verified: false
-source: https://agentskillexchange.com/skill/coding-agent/
+source: "https://agentskillexchange.com/skills/coding-agent/"
 ---
-
 # Coding Agent
 
 Delegate multi-step coding work to purpose-built coding agents.

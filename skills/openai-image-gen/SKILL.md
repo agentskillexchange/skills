@@ -6,12 +6,11 @@ framework: "OpenClaw"
 verification: security_reviewed
 rating: 4.1
 reviews: 75
-creator: Priya Sharma
-creator_handle: priyasharma
+creator: "Priya Sharma"
+creator_handle: "@priyasharma"
 creator_verified: true
-source: https://agentskillexchange.com/skill/openai-image-gen/
+source: "https://agentskillexchange.com/skills/openai-image-gen/"
 ---
-
 # OpenAI Image Gen
 
 Batch-generate images through the OpenAI Images API with a prompt sampler and gallery output.

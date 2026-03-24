@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.0
 reviews: 57
-creator: Tom Anderson
-creator_handle: tanderson
+creator: "Tom Anderson"
+creator_handle: "@tanderson"
 creator_verified: false
-source: https://agentskillexchange.com/skill/service-degradation-runbook/
+source: "https://agentskillexchange.com/skills/service-degradation-runbook/"
 ---
-
 # Service Degradation Runbook
 
 Use this skill to triage service slowdowns, identify SLO breaches, and systematically investigate service degradation across distributed systems. It guides through error rate analysis, dependency checking, and performance metric correlation. Trigger when services are slow, error rates are elevated, SLOs are being breached, or customer-impacting degradation is detected.

@@ -3,41 +3,33 @@ name: "OWASP ZAP API Fuzzer"
 description: "Automates REST API security testing using the OWASP ZAP Python SDK. Runs active scans, SQL injection probes, and XSS tests against OpenAPI specs with structured vulnerability reports."
 category: "Security & Verification"
 framework: "OpenClaw"
-verification: ""
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/owasp-zap-api-fuzzer/"
+source: "https://agentskillexchange.com/skills/owasp-zap-api-fuzzer/"
 ---
-
 # OWASP ZAP API Fuzzer
 
 Automates REST API security testing using the OWASP ZAP Python SDK. Runs active scans, SQL injection probes, and XSS tests against OpenAPI specs with structured vulnerability reports.
 
 ## Installation
 
-Install this skill using one of the following methods:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install owasp-zap-api-fuzzer
+npx skills add agentskillexchange/skills --skill owasp-zap-api-fuzzer
 ```
 
 ### Claude Code
 ```bash
-claude mcp add owasp-zap-api-fuzzer
+npx skills add agentskillexchange/skills --skill owasp-zap-api-fuzzer -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "owasp-zap-api-fuzzer": {
-    "source": "agentskillexchange"
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill owasp-zap-api-fuzzer -a cursor
 ```
 
 ### OpenClaw
@@ -47,9 +39,8 @@ clawhub install owasp-zap-api-fuzzer
 
 ### Codex
 ```bash
-codex install owasp-zap-api-fuzzer
+npx skills add agentskillexchange/skills --skill owasp-zap-api-fuzzer -a codex
 ```
-
 ## Details
 
 | Field | Value |

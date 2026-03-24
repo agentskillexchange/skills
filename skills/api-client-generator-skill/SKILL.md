@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.1
 reviews: 83
-creator: Isabella Rossi
-creator_handle: irossi
+creator: "Isabella Rossi"
+creator_handle: "@irossi"
 creator_verified: false
-source: https://agentskillexchange.com/skill/api-client-generator-skill/
+source: "https://agentskillexchange.com/skills/api-client-generator-skill/"
 ---
-
 # API Client Generator Skill
 
 Use this skill to generate typed SDK client code from OpenAPI/Swagger specifications, enabling strongly-typed API interactions without manual HTTP client coding. It creates clients with proper authentication, error handling, and type definitions in target languages. Trigger when integrating a third-party API that has an OpenAPI spec or when standardizing API client generation across a team.

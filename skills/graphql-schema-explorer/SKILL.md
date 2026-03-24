@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.1
 reviews: 82
-creator: Aisha Patel
-creator_handle: aishap
+creator: "Aisha Patel"
+creator_handle: "@aishap"
 creator_verified: true
-source: https://agentskillexchange.com/skill/graphql-schema-explorer/
+source: "https://agentskillexchange.com/skills/graphql-schema-explorer/"
 ---
-
 # GraphQL Schema Explorer
 
 Introspects GraphQL endpoints to explore types, queries, mutations, and subscriptions. Generates documentation, type definitions, and sample queries. Helps understand unfamiliar GraphQL APIs quickly.

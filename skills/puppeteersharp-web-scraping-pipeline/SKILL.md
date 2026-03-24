@@ -3,15 +3,14 @@ name: "PuppeteerSharp Web Scraping Pipeline"
 description: "Builds headless Chrome scraping pipelines using PuppeteerSharp for .NET environments. Handles JavaScript-rendered SPAs, Cloudflare challenge bypass via stealth plugins, and exports structured data through Newtonsoft.Json serialization."
 category: "Research & Scraping"
 framework: "Claude Code"
-verification: "community"
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/puppeteersharp-web-scraping-pipeline/"
+source: "https://agentskillexchange.com/skills/puppeteersharp-web-scraping-pipeline/"
 ---
-
 # PuppeteerSharp Web Scraping Pipeline
 
 Builds headless Chrome scraping pipelines using PuppeteerSharp for .NET environments. Handles JavaScript-rendered SPAs, Cloudflare challenge bypass via stealth plugins, and exports structured data through Newtonsoft.Json serialization.
@@ -20,22 +19,17 @@ Builds headless Chrome scraping pipelines using PuppeteerSharp for .NET environm
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install puppeteersharp-web-scraping-pipeline
+npx skills add agentskillexchange/skills --skill puppeteersharp-web-scraping-pipeline
 ```
 
 ### Claude Code
 ```bash
-claude mcp add puppeteersharp-web-scraping-pipeline
+npx skills add agentskillexchange/skills --skill puppeteersharp-web-scraping-pipeline -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "puppeteersharp-web-scraping-pipeline": {
-    "source": "agentskillexchange"
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill puppeteersharp-web-scraping-pipeline -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install puppeteersharp-web-scraping-pipeline
 
 ### Codex
 ```bash
-codex install puppeteersharp-web-scraping-pipeline
+npx skills add agentskillexchange/skills --skill puppeteersharp-web-scraping-pipeline -a codex
 ```
-
 ## Details
 
 | Field | Value |

@@ -3,33 +3,34 @@ name: "TLS Certificate Chain Analyzer"
 description: "Analyzes TLS certificate chains using OpenSSL s_client and the crt.sh Certificate Transparency API. Detects weak algorithms, expiring intermediates, and CT log compliance issues."
 category: "Security & Verification"
 framework: "MCP-compatible"
-verification: "Verified"
-rating: "4.4"
-reviews: "5"
+verification: verified_metadata
+rating: 4.4
+reviews: 5
 creator: "Ava Johnson"
 creator_handle: "@avajohnson"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/tls-certificate-chain-analyzer/"
+source: "https://agentskillexchange.com/skills/tls-certificate-chain-analyzer/"
 ---
-
 # TLS Certificate Chain Analyzer
 
 Analyzes TLS certificate chains using OpenSSL s_client and the crt.sh Certificate Transparency API. Detects weak algorithms, expiring intermediates, and CT log compliance issues.
 
 ## Installation
 
-### Any AI Agent (npx)
+### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install tls-certificate-chain-analyzer
+npx skills add agentskillexchange/skills --skill tls-certificate-chain-analyzer
 ```
 
 ### Claude Code
 ```bash
-claude skills add tls-certificate-chain-analyzer
+npx skills add agentskillexchange/skills --skill tls-certificate-chain-analyzer -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` directory or install via Cursor settings.
+```bash
+npx skills add agentskillexchange/skills --skill tls-certificate-chain-analyzer -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -38,9 +39,8 @@ clawhub install tls-certificate-chain-analyzer
 
 ### Codex
 ```bash
-codex skills install tls-certificate-chain-analyzer
+npx skills add agentskillexchange/skills --skill tls-certificate-chain-analyzer -a codex
 ```
-
 ## Details
 
 | Field | Value |

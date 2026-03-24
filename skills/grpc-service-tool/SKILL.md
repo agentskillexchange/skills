@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.7
 reviews: 46
-creator: Luna Martinez
-creator_handle: lunamartinez
+creator: "Luna Martinez"
+creator_handle: "@lunamartinez"
 creator_verified: false
-source: https://agentskillexchange.com/skill/grpc-service-tool/
+source: "https://agentskillexchange.com/skills/grpc-service-tool/"
 ---
-
 # gRPC Service Tool
 
 Interacts with gRPC services for debugging, testing, and documentation. Supports service reflection, proto file loading, unary and streaming calls, and human-readable response formatting.

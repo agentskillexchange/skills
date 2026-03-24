@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.0
 reviews: 26
-creator: Mia Zhang
-creator_handle: miazhang
+creator: "Mia Zhang"
+creator_handle: "@miazhang"
 creator_verified: true
-source: https://agentskillexchange.com/skill/asana-mcp-server/
+source: "https://agentskillexchange.com/skills/asana-mcp-server/"
 ---
-
 # Asana MCP Server
 
 Use this skill to create tasks, manage projects, track team workload, and update Asana workspace data through MCP. It enables agents to integrate project management operations into automated workflows without manual Asana UI interaction. Trigger when you need to create or update tasks programmatically, check project status, or integrate Asana with other tools in an […]

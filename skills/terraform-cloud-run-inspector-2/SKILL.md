@@ -3,39 +3,43 @@ name: "Terraform Cloud Run Inspector"
 description: "Queries the Terraform Cloud API to inspect plan outputs, apply logs, and state file changes. Analyzes resource diffs including module-level changes, provider version constraints, and Sentinel policy e"
 category: "Uncategorized"
 framework: "Unknown"
-verification: "Security Reviewed"
-rating: "4.9"
-reviews: "65"
+verification: security_reviewed
+rating: 4.9
+reviews: 65
 creator: "Community"
 creator_verified: false
-source: "https://agentskillexchange.com/skill/terraform-cloud-run-inspector-2/"
+source: "https://agentskillexchange.com/skills/terraform-cloud-run-inspector-2/"
 ---
-
 # Terraform Cloud Run Inspector
 
 Queries the Terraform Cloud API to inspect plan outputs, apply logs, and state file changes. Analyzes resource diffs including module-level changes, provider version constraints, and Sentinel policy evaluation results.
 
 ## Installation
 
-Install this skill for your preferred agent:
-
+### Any Agent (npx)
 ```bash
-# Any npx-compatible agent
-npx skills install terraform-cloud-run-inspector-2
-
-# Claude Code
-claude mcp add skills -- npx -y skills install terraform-cloud-run-inspector-2
-
-# Cursor
-cursor mcp add skills -- npx -y skills install terraform-cloud-run-inspector-2
-
-# OpenClaw
-clawhub install terraform-cloud-run-inspector-2
-
-# Codex
-codex install terraform-cloud-run-inspector-2
+npx skills add agentskillexchange/skills --skill terraform-cloud-run-inspector-2
 ```
 
+### Claude Code
+```bash
+npx skills add agentskillexchange/skills --skill terraform-cloud-run-inspector-2 -a claude-code
+```
+
+### Cursor
+```bash
+npx skills add agentskillexchange/skills --skill terraform-cloud-run-inspector-2 -a cursor
+```
+
+### OpenClaw
+```bash
+clawhub install terraform-cloud-run-inspector-2
+```
+
+### Codex
+```bash
+npx skills add agentskillexchange/skills --skill terraform-cloud-run-inspector-2 -a codex
+```
 ## Details
 
 | | |

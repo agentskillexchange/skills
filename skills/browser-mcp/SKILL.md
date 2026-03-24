@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: verified_metadata
 rating: 4.7
 reviews: 4
-creator: Tom Anderson
-creator_handle: tanderson
+creator: "Tom Anderson"
+creator_handle: "@tanderson"
 creator_verified: false
-source: https://agentskillexchange.com/skill/browser-mcp/
+source: "https://agentskillexchange.com/skills/browser-mcp/"
 ---
-
 # Browser MCP
 
 Browser control for agent workflows through an MCP-friendly setup.

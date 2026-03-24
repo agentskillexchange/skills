@@ -3,15 +3,14 @@ name: "Tekton Pipeline Generator"
 description: "Scaffolds Tekton CI/CD pipelines and tasks using the Tekton Hub API and kubectl. Generates PipelineRun manifests with workspace bindings, result propagation, and sidecar configurations."
 category: "CI/CD Integrations"
 framework: "Gemini"
-verification: "Community"
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/tekton-pipeline-generator/"
+source: "https://agentskillexchange.com/skills/tekton-pipeline-generator/"
 ---
-
 # Tekton Pipeline Generator
 
 Scaffolds Tekton CI/CD pipelines and tasks using the Tekton Hub API and kubectl. Generates PipelineRun manifests with workspace bindings, result propagation, and sidecar configurations.
@@ -20,17 +19,17 @@ Scaffolds Tekton CI/CD pipelines and tasks using the Tekton Hub API and kubectl.
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install tekton-pipeline-generator
+npx skills add agentskillexchange/skills --skill tekton-pipeline-generator
 ```
 
 ### Claude Code
 ```bash
-claude install-skill tekton-pipeline-generator
+npx skills add agentskillexchange/skills --skill tekton-pipeline-generator -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor install-skill tekton-pipeline-generator
+npx skills add agentskillexchange/skills --skill tekton-pipeline-generator -a cursor
 ```
 
 ### OpenClaw
@@ -40,9 +39,8 @@ clawhub install tekton-pipeline-generator
 
 ### Codex
 ```bash
-codex install-skill tekton-pipeline-generator
+npx skills add agentskillexchange/skills --skill tekton-pipeline-generator -a codex
 ```
-
 ## Details
 
 | Field | Value |

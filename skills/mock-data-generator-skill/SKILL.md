@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.8
 reviews: 19
-creator: Marcus Rivera
-creator_handle: mrivera
+creator: "Marcus Rivera"
+creator_handle: "@mrivera"
 creator_verified: true
-source: https://agentskillexchange.com/skill/mock-data-generator-skill/
+source: "https://agentskillexchange.com/skills/mock-data-generator-skill/"
 ---
-
 # Mock Data Generator Skill
 
 Use this skill to create realistic fake data sets for testing, development, and demos based on schema definitions or TypeScript/Python type definitions. It generates JSON, CSV, or SQL INSERT data with realistic values (names, emails, addresses, dates, IDs). Trigger when you need test fixtures, want to seed a development database, or need demo data for […]

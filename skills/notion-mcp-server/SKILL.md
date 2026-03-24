@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.7
 reviews: 75
-creator: Priya Sharma
-creator_handle: priyasharma
+creator: "Priya Sharma"
+creator_handle: "@priyasharma"
 creator_verified: true
-source: https://agentskillexchange.com/skill/notion-mcp-server/
+source: "https://agentskillexchange.com/skills/notion-mcp-server/"
 ---
-
 # Notion MCP Server
 
 Use this skill when you need to read or write Notion pages, create database entries, search across a workspace, or update properties from your AI agent. It connects agents to Notion as a knowledge base and project management system for seamless information retrieval and creation.

@@ -3,15 +3,14 @@ name: "AWS CloudWatch Alarm Triage"
 description: "Retrieves all ALARM-state CloudWatch alarms for a given AWS account or region, correlates them with related metrics and log groups, and produces a triage summary with severity ranking. Maps alarms to services and resources to assess blast radius in under 2 minutes."
 category: "Runbooks & Diagnostics"
 framework: "ChatGPT Agents"
-verification: 
+verification: listed
 rating: 4.7
 reviews: 23
-creator: Yuki Tanaka
-creator_handle: yukitanaka
+creator: "Yuki Tanaka"
+creator_handle: "@yukitanaka"
 creator_verified: true
-source: https://agentskillexchange.com/skill/aws-cloudwatch-alarm-triage/
+source: "https://agentskillexchange.com/skills/aws-cloudwatch-alarm-triage/"
 ---
-
 # AWS CloudWatch Alarm Triage
 
 Retrieves all ALARM-state CloudWatch alarms for a given AWS account or region, correlates them with related metrics and log groups, and produces a triage summary with severity ranking. Maps alarms to services and resources to assess blast radius in under 2 minutes.

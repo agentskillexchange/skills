@@ -3,49 +3,44 @@ name: "Prometheus AlertManager Rule Generator"
 description: "Generates Prometheus alerting rules and AlertManager routing configs from natural language descriptions. Leverages PromQL query builder and the Alertmanager API v2 for live rule validation."
 category: "Monitoring & Alerts"
 framework: "Claude Code"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.3
 reviews: 73
 creator: "Zoe Chen"
 creator_handle: "@zoechen"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/prometheus-alertmanager-rule-generator/"
+source: "https://agentskillexchange.com/skills/prometheus-alertmanager-rule-generator/"
 ---
-
 # Prometheus AlertManager Rule Generator
 
 Generates Prometheus alerting rules and AlertManager routing configs from natural language descriptions. Leverages PromQL query builder and the Alertmanager API v2 for live rule validation.
 
 ## Installation
 
-Install this skill on your preferred agent platform:
-
-**Any agent (npx):**
+### Any Agent (npx)
 ```bash
-npx @anthropic/agentskill install prometheus-alertmanager-rule-generator
+npx skills add agentskillexchange/skills --skill prometheus-alertmanager-rule-generator
 ```
 
-**Claude Code:**
+### Claude Code
 ```bash
-claude mcp add prometheus-alertmanager-rule-generator
+npx skills add agentskillexchange/skills --skill prometheus-alertmanager-rule-generator -a claude-code
 ```
 
-**Cursor:**
-Add to your `.cursor/skills` configuration:
-```json
-{ "prometheus-alertmanager-rule-generator": "latest" }
+### Cursor
+```bash
+npx skills add agentskillexchange/skills --skill prometheus-alertmanager-rule-generator -a cursor
 ```
 
-**OpenClaw:**
+### OpenClaw
 ```bash
 clawhub install prometheus-alertmanager-rule-generator
 ```
 
-**Codex:**
+### Codex
 ```bash
-codex install prometheus-alertmanager-rule-generator
+npx skills add agentskillexchange/skills --skill prometheus-alertmanager-rule-generator -a codex
 ```
-
 ## Details
 
 | Field | Value |

@@ -6,12 +6,11 @@ framework: "OpenClaw"
 verification: verified_metadata
 rating: 4.9
 reviews: 55
-creator: Leo Park
-creator_handle: leopark
+creator: "Leo Park"
+creator_handle: "@leopark"
 creator_verified: true
-source: https://agentskillexchange.com/skill/github-actions-matrix-builder/
+source: "https://agentskillexchange.com/skills/github-actions-matrix-builder/"
 ---
-
 # GitHub Actions Matrix Builder
 
 Generates dynamic GitHub Actions CI/CD matrix configurations using the GitHub Actions Workflow YAML schema and the actions/setup-node, actions/setup-python, and actions/cache APIs. Supports cross-platform testing across Ubuntu, macOS, and Windows runners.

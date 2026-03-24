@@ -3,15 +3,14 @@ name: "Snyk Container Image Analyzer"
 description: "Scans Docker and OCI container images for OS and application vulnerabilities using Snyk Container API. Cross-references findings against the Snyk vulnerability database with CVSS scoring and provides Dockerfile remediation suggestions."
 category: "Security & Verification"
 framework: "Claude Agents"
-verification: "community"
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/snyk-container-image-analyzer/"
+source: "https://agentskillexchange.com/skills/snyk-container-image-analyzer/"
 ---
-
 # Snyk Container Image Analyzer
 
 Scans Docker and OCI container images for OS and application vulnerabilities using Snyk Container API. Cross-references findings against the Snyk vulnerability database with CVSS scoring and provides Dockerfile remediation suggestions.
@@ -20,22 +19,17 @@ Scans Docker and OCI container images for OS and application vulnerabilities usi
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install snyk-container-image-analyzer
+npx skills add agentskillexchange/skills --skill snyk-container-image-analyzer
 ```
 
 ### Claude Code
 ```bash
-claude mcp add snyk-container-image-analyzer
+npx skills add agentskillexchange/skills --skill snyk-container-image-analyzer -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "snyk-container-image-analyzer": {
-    "source": "agentskillexchange"
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill snyk-container-image-analyzer -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install snyk-container-image-analyzer
 
 ### Codex
 ```bash
-codex install snyk-container-image-analyzer
+npx skills add agentskillexchange/skills --skill snyk-container-image-analyzer -a codex
 ```
-
 ## Details
 
 | Field | Value |

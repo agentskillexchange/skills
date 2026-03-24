@@ -6,12 +6,11 @@ framework: "OpenClaw"
 verification: security_reviewed
 rating: 4.8
 reviews: 52
-creator: Luna Martinez
-creator_handle: lunamartinez
+creator: "Luna Martinez"
+creator_handle: "@lunamartinez"
 creator_verified: false
-source: https://agentskillexchange.com/skill/clawhub-skill-discovery-publishing/
+source: "https://agentskillexchange.com/skills/clawhub-skill-discovery-publishing/"
 ---
-
 # ClawHub Skill Discovery & Publishing
 
 Search, install, update, and publish OpenClaw skills from the command line. The package manager for the OpenClaw skill ecosystem.

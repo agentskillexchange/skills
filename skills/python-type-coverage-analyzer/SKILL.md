@@ -3,15 +3,14 @@ name: "Python Type Coverage Analyzer"
 description: "Measures and improves Python type annotation coverage using mypy –html-report and pyright type completeness scoring. Identifies untyped function signatures, missing return types, and Any-typed para..."
 category: "Code Quality & Review"
 framework: "Gemini"
-verification: "security_reviewed"
-rating: "0"
-reviews: "0"
+verification: security_reviewed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/python-type-coverage-analyzer/"
+source: "https://agentskillexchange.com/skills/python-type-coverage-analyzer/"
 ---
-
 # Python Type Coverage Analyzer
 
 Measures and improves Python type annotation coverage using mypy –html-report and pyright type completeness scoring. Identifies untyped function signatures, missing return types, and Any-typed parameters across codebases.
@@ -20,22 +19,17 @@ Measures and improves Python type annotation coverage using mypy –html-report 
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install python-type-coverage-analyzer
+npx skills add agentskillexchange/skills --skill python-type-coverage-analyzer
 ```
 
 ### Claude Code
 ```bash
-claude mcp add python-type-coverage-analyzer
+npx skills add agentskillexchange/skills --skill python-type-coverage-analyzer -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "python-type-coverage-analyzer": {
-    "enabled": true
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill python-type-coverage-analyzer -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install python-type-coverage-analyzer
 
 ### Codex
 ```bash
-codex install python-type-coverage-analyzer
+npx skills add agentskillexchange/skills --skill python-type-coverage-analyzer -a codex
 ```
-
 ## Details
 
 | Field | Value |

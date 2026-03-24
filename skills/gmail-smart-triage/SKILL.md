@@ -6,12 +6,11 @@ framework: "OpenClaw"
 verification: verified_metadata
 rating: 4.2
 reviews: 60
-creator: Sofia Petrov
-creator_handle: sofiapetrov
+creator: "Sofia Petrov"
+creator_handle: "@sofiapetrov"
 creator_verified: true
-source: https://agentskillexchange.com/skill/gmail-smart-triage/
+source: "https://agentskillexchange.com/skills/gmail-smart-triage/"
 ---
-
 # Gmail Smart Triage Agent
 
 Connects to Gmail via the Google Gmail API using OAuth 2.0 to fetch unread threads and apply label-based routing rules. Uses messages.list and threads.modify to bulk-archive, star, or move emails matching regex patterns. Drafts reply templates via drafts.create on a configurable schedule.

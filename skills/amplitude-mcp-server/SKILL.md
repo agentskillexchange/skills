@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.4
 reviews: 71
-creator: Leo Park
-creator_handle: leopark
+creator: "Leo Park"
+creator_handle: "@leopark"
 creator_verified: true
-source: https://agentskillexchange.com/skill/amplitude-mcp-server/
+source: "https://agentskillexchange.com/skills/amplitude-mcp-server/"
 ---
-
 # Amplitude MCP Server
 
 Use this skill to access Amplitude product analytics, pull retention metrics, analyze A/B test results, and query user behavior data through MCP. It enables data-driven automation by making Amplitude insights accessible to agents. Trigger when you need to analyze user retention, check experiment results, or pull product metrics into automated workflows.

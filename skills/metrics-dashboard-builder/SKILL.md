@@ -6,12 +6,11 @@ framework: "Claude Agents"
 verification: security_reviewed
 rating: 4.0
 reviews: 42
-creator: Priya Sharma
-creator_handle: priyasharma
+creator: "Priya Sharma"
+creator_handle: "@priyasharma"
 creator_verified: true
-source: https://agentskillexchange.com/skill/metrics-dashboard-builder/
+source: "https://agentskillexchange.com/skills/metrics-dashboard-builder/"
 ---
-
 # Metrics Dashboard Builder
 
 Use this skill when you need to generate a metrics dashboard definition (Grafana JSON, Datadog dashboard, or CloudWatch) based on a description of what you want to monitor. It creates dashboard configs from natural language requirements, covering chart types, metric queries, and threshold lines.

@@ -3,39 +3,33 @@ name: "Terraform Module Scaffolder"
 description: "Generates Terraform module boilerplate with provider blocks, variable definitions, and output declarations. Uses the Terraform CDK (cdktf) for programmatic infrastructure definition in TypeScript."
 category: "Developer Tools"
 framework: "Codex"
-verification: ""
-rating: "4.8"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/terraform-module-scaffolder-2/"
+source: "https://agentskillexchange.com/skills/terraform-module-scaffolder-2/"
 ---
-
 # Terraform Module Scaffolder
 
 Generates Terraform module boilerplate with provider blocks, variable definitions, and output declarations. Uses the Terraform CDK (cdktf) for programmatic infrastructure definition in TypeScript.
 
 ## Installation
 
-Install this skill in your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install terraform-module-scaffolder-2
+npx skills add agentskillexchange/skills --skill terraform-module-scaffolder-2
 ```
 
 ### Claude Code
 ```bash
-claude mcp add terraform-module-scaffolder-2
+npx skills add agentskillexchange/skills --skill terraform-module-scaffolder-2 -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "terraform-module-scaffolder-2": true
-}
+```bash
+npx skills add agentskillexchange/skills --skill terraform-module-scaffolder-2 -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install terraform-module-scaffolder-2
 
 ### Codex
 ```bash
-codex install terraform-module-scaffolder-2
+npx skills add agentskillexchange/skills --skill terraform-module-scaffolder-2 -a codex
 ```
-
 ## Details
 
 | Property | Value |

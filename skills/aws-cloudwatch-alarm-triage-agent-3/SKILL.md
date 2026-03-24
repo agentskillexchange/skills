@@ -3,15 +3,14 @@ name: "AWS CloudWatch Alarm Triage Agent"
 description: "Triages AWS CloudWatch alarms by querying the CloudWatch GetMetricData API and correlating with AWS Health events. Uses AWS X-Ray trace analysis and CloudTrail lookup-events to reconstruct incident timelines for SNS-triggered on-call escalations."
 category: "Runbooks & Diagnostics"
 framework: "ChatGPT Agents"
-verification: "✅ Verified"
-rating: "4.9"
-reviews: "58"
+verification: security_reviewed
+rating: 4.9
+reviews: 58
 creator: "Yuki Tanaka"
 creator_handle: "@yukitanaka"
-creator_verified: "true"
-source: "https://agentskillexchange.com/skill/aws-cloudwatch-alarm-triage-agent-3/"
+creator_verified: true
+source: "https://agentskillexchange.com/skills/aws-cloudwatch-alarm-triage-agent-3/"
 ---
-
 # AWS CloudWatch Alarm Triage Agent
 
 Triages AWS CloudWatch alarms by querying the CloudWatch GetMetricData API and correlating with AWS Health events. Uses AWS X-Ray trace analysis and CloudTrail lookup-events to reconstruct incident timelines for SNS-triggered on-call escalations.
@@ -20,20 +19,17 @@ Triages AWS CloudWatch alarms by querying the CloudWatch GetMetricData API and c
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install aws-cloudwatch-alarm-triage-agent-3
+npx skills add agentskillexchange/skills --skill aws-cloudwatch-alarm-triage-agent-3
 ```
 
 ### Claude Code
 ```bash
-claude mcp add aws-cloudwatch-alarm-triage-agent-3
+npx skills add agentskillexchange/skills --skill aws-cloudwatch-alarm-triage-agent-3 -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "skills": ["aws-cloudwatch-alarm-triage-agent-3"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill aws-cloudwatch-alarm-triage-agent-3 -a cursor
 ```
 
 ### OpenClaw
@@ -43,9 +39,8 @@ clawhub install aws-cloudwatch-alarm-triage-agent-3
 
 ### Codex
 ```bash
-codex install aws-cloudwatch-alarm-triage-agent-3
+npx skills add agentskillexchange/skills --skill aws-cloudwatch-alarm-triage-agent-3 -a codex
 ```
-
 ## Details
 
 | Field | Value |

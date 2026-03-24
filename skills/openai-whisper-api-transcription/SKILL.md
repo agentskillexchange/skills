@@ -6,12 +6,11 @@ framework: "OpenClaw"
 verification: security_reviewed
 rating: 4.5
 reviews: 62
-creator: Liam OBrien
-creator_handle: liamobrien
+creator: "Liam OBrien"
+creator_handle: "@liamobrien"
 creator_verified: true
-source: https://agentskillexchange.com/skill/openai-whisper-api-transcription/
+source: "https://agentskillexchange.com/skills/openai-whisper-api-transcription/"
 ---
-
 # OpenAI Whisper API Transcription
 
 API-based speech-to-text transcription through OpenAI. No local model downloads, no GPU, no Python ML stack — just an API key and a shell script.

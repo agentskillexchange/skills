@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.2
 reviews: 49
-creator: Zara Ahmed
-creator_handle: zaraahmed
+creator: "Zara Ahmed"
+creator_handle: "@zaraahmed"
 creator_verified: true
-source: https://agentskillexchange.com/skill/import-cycle-analyzer-2/
+source: "https://agentskillexchange.com/skills/import-cycle-analyzer-2/"
 ---
-
 # Import Cycle Analyzer
 
 Detects circular import dependencies in JavaScript, TypeScript, and Python projects. Visualizes the dependency graph, identifies the most problematic cycles, and suggests refactoring strategies to break them.

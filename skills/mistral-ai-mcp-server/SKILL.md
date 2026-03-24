@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.3
 reviews: 64
-creator: Maya Johnson
-creator_handle: mayaj
+creator: "Maya Johnson"
+creator_handle: "@mayaj"
 creator_verified: false
-source: https://agentskillexchange.com/skill/mistral-ai-mcp-server/
+source: "https://agentskillexchange.com/skills/mistral-ai-mcp-server/"
 ---
-
 # Mistral AI MCP Server
 
 Use this skill to access Mistral’s model API, leverage function calling capabilities, and generate embeddings through MCP. It provides agents with Mistral’s efficient European-built models including Mistral Large, Codestral for coding, and Mistral Embed. Trigger when you need GDPR-compliant AI, efficient coding assistance, or European data residency for LLM inference.

@@ -3,35 +3,34 @@ name: "Prometheus Alert Router"
 description: "Connects to Prometheus Alertmanager API to ingest firing alerts, correlates them with Grafana dashboard annotations, and routes notifications through PagerDuty Events API v2."
 category: "Monitoring & Alerts"
 framework: "Codex"
-verification: "Verified & Security Reviewed"
+verification: security_reviewed
 rating: 4.4
 reviews: 39
 creator: "Mateo Silva"
 creator_handle: "@mateosilva"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/prometheus-alert-router-2/"
+source: "https://agentskillexchange.com/skills/prometheus-alert-router-2/"
 ---
-
 # Prometheus Alert Router
 
 Connects to Prometheus Alertmanager API to ingest firing alerts, correlates them with Grafana dashboard annotations, and routes notifications through PagerDuty Events API v2.
 
 ## Installation
 
-Install this skill across different AI coding agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install prometheus-alert-router-2
+npx skills add agentskillexchange/skills --skill prometheus-alert-router-2
 ```
 
 ### Claude Code
 ```bash
-claude mcp add prometheus-alert-router-2
+npx skills add agentskillexchange/skills --skill prometheus-alert-router-2 -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills/` directory or install via Cursor Settings → Skills.
+```bash
+npx skills add agentskillexchange/skills --skill prometheus-alert-router-2 -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install prometheus-alert-router-2
 
 ### Codex
 ```bash
-codex install prometheus-alert-router-2
+npx skills add agentskillexchange/skills --skill prometheus-alert-router-2 -a codex
 ```
-
 ## Details
 
 | Property | Value |

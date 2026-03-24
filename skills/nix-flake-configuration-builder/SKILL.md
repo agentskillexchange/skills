@@ -3,35 +3,34 @@ name: "Nix Flake Configuration Builder"
 description: "Generates reproducible Nix flake configurations with devShell environments and package overlays. Uses the Nix Flakes API, nixpkgs lib functions, and flake-utils for cross-platform builds."
 category: "Developer Tools"
 framework: "Cursor"
-verification: "Community"
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/nix-flake-configuration-builder/"
+source: "https://agentskillexchange.com/skills/nix-flake-configuration-builder/"
 ---
-
 # Nix Flake Configuration Builder
 
 Generates reproducible Nix flake configurations with devShell environments and package overlays. Uses the Nix Flakes API, nixpkgs lib functions, and flake-utils for cross-platform builds.
 
 ## Installation
 
-Install this skill across different agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install nix-flake-configuration-builder
+npx skills add agentskillexchange/skills --skill nix-flake-configuration-builder
 ```
 
 ### Claude Code
 ```bash
-claude skills add nix-flake-configuration-builder
+npx skills add agentskillexchange/skills --skill nix-flake-configuration-builder -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` directory or install via Cursor settings.
+```bash
+npx skills add agentskillexchange/skills --skill nix-flake-configuration-builder -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install nix-flake-configuration-builder
 
 ### Codex
 ```bash
-codex skills add nix-flake-configuration-builder
+npx skills add agentskillexchange/skills --skill nix-flake-configuration-builder -a codex
 ```
-
 ## Details
 
 | Field | Value |

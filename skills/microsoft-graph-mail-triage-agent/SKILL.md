@@ -3,40 +3,34 @@ name: "Microsoft Graph Mail Triage Agent"
 description: "Triages Outlook emails using the Microsoft Graph API /me/messages endpoint with $filter OData queries and inferenceClassification. Applies category labels, moves messages to focused/other folders, and creates Planner tasks from flagged items via the Tasks API."
 category: "Calendar, Email & Productivity"
 framework: "Gemini"
-verification: "✅ Verified"
-security: "🔒 Reviewed"
-rating: "4.9"
-reviews: "75"
+verification: security_reviewed
+rating: 4.9
+reviews: 75
 creator: "Lucy Zhang"
 creator_handle: "@lucyzhang"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/microsoft-graph-mail-triage-agent/"
+source: "https://agentskillexchange.com/skills/microsoft-graph-mail-triage-agent/"
+security: "🔒 Reviewed"
 ---
-
 # Microsoft Graph Mail Triage Agent
 
 Triages Outlook emails using the Microsoft Graph API /me/messages endpoint with $filter OData queries and inferenceClassification. Applies category labels, moves messages to focused/other folders, and creates Planner tasks from flagged items via the Tasks API.
 
 ## Installation
 
-Install this skill across different AI coding agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install microsoft-graph-mail-triage-agent
+npx skills add agentskillexchange/skills --skill microsoft-graph-mail-triage-agent
 ```
 
 ### Claude Code
 ```bash
-claude skills add microsoft-graph-mail-triage-agent
+npx skills add agentskillexchange/skills --skill microsoft-graph-mail-triage-agent -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["microsoft-graph-mail-triage-agent"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill microsoft-graph-mail-triage-agent -a cursor
 ```
 
 ### OpenClaw
@@ -46,9 +40,8 @@ clawhub install microsoft-graph-mail-triage-agent
 
 ### Codex
 ```bash
-codex skills add microsoft-graph-mail-triage-agent
+npx skills add agentskillexchange/skills --skill microsoft-graph-mail-triage-agent -a codex
 ```
-
 ## Details
 
 | Property | Value |

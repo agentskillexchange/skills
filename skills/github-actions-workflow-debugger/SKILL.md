@@ -6,12 +6,11 @@ framework: "Claude Agents"
 verification: verified_metadata
 rating: 4.6
 reviews: 83
-creator: Sarah Chen
-creator_handle: sarahchen
+creator: "Sarah Chen"
+creator_handle: "@sarahchen"
 creator_verified: true
-source: https://agentskillexchange.com/skill/github-actions-workflow-debugger/
+source: "https://agentskillexchange.com/skills/github-actions-workflow-debugger/"
 ---
-
 # GitHub Actions Workflow Debugger
 
 Diagnoses failing GitHub Actions workflows using the GitHub REST API v3 /actions/runs and /actions/jobs endpoints. Parses step logs, identifies YAML syntax errors, and suggests fixes for runner environment issues.

@@ -3,39 +3,43 @@ name: "PostgreSQL Query Plan Analyzer"
 description: "Executes EXPLAIN (ANALYZE, BUFFERS, FORMAT JSON) on slow PostgreSQL queries and parses the plan tree for sequential scans, nested loop joins, and sort spills. Integrates with pg_stat_statements for id"
 category: "Uncategorized"
 framework: "Unknown"
-verification: "Unverified"
-rating: ""
-reviews: ""
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_verified: false
-source: "https://agentskillexchange.com/skill/postgresql-query-plan-analyzer/"
+source: "https://agentskillexchange.com/skills/postgresql-query-plan-analyzer/"
 ---
-
 # PostgreSQL Query Plan Analyzer
 
 Executes EXPLAIN (ANALYZE, BUFFERS, FORMAT JSON) on slow PostgreSQL queries and parses the plan tree for sequential scans, nested loop joins, and sort spills. Integrates with pg_stat_statements for identifying top resource-consuming queries.
 
 ## Installation
 
-Install this skill for your preferred agent:
-
+### Any Agent (npx)
 ```bash
-# Any npx-compatible agent
-npx skills install postgresql-query-plan-analyzer
-
-# Claude Code
-claude mcp add skills -- npx -y skills install postgresql-query-plan-analyzer
-
-# Cursor
-cursor mcp add skills -- npx -y skills install postgresql-query-plan-analyzer
-
-# OpenClaw
-clawhub install postgresql-query-plan-analyzer
-
-# Codex
-codex install postgresql-query-plan-analyzer
+npx skills add agentskillexchange/skills --skill postgresql-query-plan-analyzer
 ```
 
+### Claude Code
+```bash
+npx skills add agentskillexchange/skills --skill postgresql-query-plan-analyzer -a claude-code
+```
+
+### Cursor
+```bash
+npx skills add agentskillexchange/skills --skill postgresql-query-plan-analyzer -a cursor
+```
+
+### OpenClaw
+```bash
+clawhub install postgresql-query-plan-analyzer
+```
+
+### Codex
+```bash
+npx skills add agentskillexchange/skills --skill postgresql-query-plan-analyzer -a codex
+```
 ## Details
 
 | | |

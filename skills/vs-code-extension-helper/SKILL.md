@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.7
 reviews: 78
-creator: Rachel Green
-creator_handle: rachelgreen
+creator: "Rachel Green"
+creator_handle: "@rachelgreen"
 creator_verified: false
-source: https://agentskillexchange.com/skill/vs-code-extension-helper/
+source: "https://agentskillexchange.com/skills/vs-code-extension-helper/"
 ---
-
 # VS Code Extension Helper
 
 Discover, install, configure, and troubleshoot VS Code extensions through an AI agent using the VS Code CLI and extensions API. Automates extension pack creation, settings synchronization, and workspace-specific extension recommendations.

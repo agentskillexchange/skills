@@ -6,12 +6,11 @@ framework: "OpenClaw"
 verification: security_reviewed
 rating: 4.3
 reviews: 46
-creator: Ava Wilson
-creator_handle: avawilson
+creator: "Ava Wilson"
+creator_handle: "@avawilson"
 creator_verified: true
-source: https://agentskillexchange.com/skill/wordpress-rest-api-builder/
+source: "https://agentskillexchange.com/skills/wordpress-rest-api-builder/"
 ---
-
 # WordPress REST API Builder
 
 Build and debug WordPress REST endpoints with a specialized skill.

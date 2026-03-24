@@ -3,15 +3,14 @@ name: "NPM Package Explorer"
 description: "Explores the npm registry using the Registry API and npms.io scoring API. Analyzes package quality, dependency trees, and bundle sizes via bundlephobia API."
 category: "Library & API Reference"
 framework: "Cursor"
-verification: "community"
+verification: listed
 rating: 0
 reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/npm-package-explorer-registry-api/"
+source: "https://agentskillexchange.com/skills/npm-package-explorer-registry-api/"
 ---
-
 # NPM Package Explorer
 
 Explores the npm registry using the Registry API and npms.io scoring API. Analyzes package quality, dependency trees, and bundle sizes via bundlephobia API.
@@ -20,22 +19,17 @@ Explores the npm registry using the Registry API and npms.io scoring API. Analyz
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install npm-package-explorer-registry-api
+npx skills add agentskillexchange/skills --skill npm-package-explorer-registry-api
 ```
 
 ### Claude Code
 ```bash
-claude mcp add npm-package-explorer-registry-api
+npx skills add agentskillexchange/skills --skill npm-package-explorer-registry-api -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "npm-package-explorer-registry-api": {
-    "source": "https://agentskillexchange.com/skill/npm-package-explorer-registry-api/"
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill npm-package-explorer-registry-api -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install npm-package-explorer-registry-api
 
 ### Codex
 ```bash
-codex install npm-package-explorer-registry-api
+npx skills add agentskillexchange/skills --skill npm-package-explorer-registry-api -a codex
 ```
-
 ## Details
 
 | Field | Value |

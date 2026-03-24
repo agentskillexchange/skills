@@ -3,15 +3,14 @@ name: "GitLab Pipeline Bottleneck Profiler"
 description: "Profiles GitLab CI/CD pipeline execution using the GitLab Pipelines API and Job Artifacts API. Identifies stage bottlenecks and generates flame-graph visualizations of job dependencies."
 category: "CI/CD Integrations"
 framework: "Claude Agents"
-verification: "security_reviewed"
-rating: "0"
-reviews: "0"
+verification: security_reviewed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/gitlab-pipeline-bottleneck-profiler/"
+source: "https://agentskillexchange.com/skills/gitlab-pipeline-bottleneck-profiler/"
 ---
-
 # GitLab Pipeline Bottleneck Profiler
 
 Profiles GitLab CI/CD pipeline execution using the GitLab Pipelines API and Job Artifacts API. Identifies stage bottlenecks and generates flame-graph visualizations of job dependencies.
@@ -20,23 +19,17 @@ Profiles GitLab CI/CD pipeline execution using the GitLab Pipelines API and Job 
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agentskill install gitlab-pipeline-bottleneck-profiler
+npx skills add agentskillexchange/skills --skill gitlab-pipeline-bottleneck-profiler
 ```
 
 ### Claude Code
 ```bash
-claude mcp add gitlab-pipeline-bottleneck-profiler
+npx skills add agentskillexchange/skills --skill gitlab-pipeline-bottleneck-profiler -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "gitlab-pipeline-bottleneck-profiler": {
-    "source": "agentskillexchange",
-    "enabled": true
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill gitlab-pipeline-bottleneck-profiler -a cursor
 ```
 
 ### OpenClaw
@@ -46,9 +39,8 @@ clawhub install gitlab-pipeline-bottleneck-profiler
 
 ### Codex
 ```bash
-codex install gitlab-pipeline-bottleneck-profiler
+npx skills add agentskillexchange/skills --skill gitlab-pipeline-bottleneck-profiler -a codex
 ```
-
 ## Details
 
 | Field | Value |

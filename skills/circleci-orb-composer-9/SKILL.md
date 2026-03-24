@@ -3,36 +3,33 @@ name: "CircleCI Orb Composer"
 description: "Composes custom CircleCI Orbs from reusable command patterns using the CircleCI v2 API and circleci CLI. Validates orb syntax with circleci orb validate and publishes to the CircleCI Orb Registry."
 category: "CI/CD Integrations"
 framework: "ChatGPT Agents"
-verification: ""
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/circleci-orb-composer-9/"
+source: "https://agentskillexchange.com/skills/circleci-orb-composer-9/"
 ---
-
 # CircleCI Orb Composer
 
 Composes custom CircleCI Orbs from reusable command patterns using the CircleCI v2 API and circleci CLI. Validates orb syntax with circleci orb validate and publishes to the CircleCI Orb Registry.
 
 ## Installation
 
-Install this skill across different agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agentskill install circleci-orb-composer-9
+npx skills add agentskillexchange/skills --skill circleci-orb-composer-9
 ```
 
 ### Claude Code
 ```bash
-claude skills install circleci-orb-composer-9
+npx skills add agentskillexchange/skills --skill circleci-orb-composer-9 -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor skills install circleci-orb-composer-9
+npx skills add agentskillexchange/skills --skill circleci-orb-composer-9 -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install circleci-orb-composer-9
 
 ### Codex
 ```bash
-codex skills install circleci-orb-composer-9
+npx skills add agentskillexchange/skills --skill circleci-orb-composer-9 -a codex
 ```
-
 ## Details
 
 | Field | Value |

@@ -3,36 +3,33 @@ name: "OWASP ZAP API Security Auditor"
 description: "Orchestrates OWASP ZAP active and passive scans against REST and GraphQL endpoints using ZAP’s Python API client. Generates DAST reports with CWE mappings and suggests WAF rule configurations."
 category: "Security & Verification"
 framework: "OpenClaw"
-verification: "Verified"
-rating: "4.9"
-reviews: "44"
+verification: verified_metadata
+rating: 4.9
+reviews: 44
 creator: "Ava Johnson"
 creator_handle: "@avajohnson"
-creator_verified: "Yes"
-source: "https://agentskillexchange.com/skill/owasp-zap-api-security-auditor/"
+creator_verified: true
+source: "https://agentskillexchange.com/skills/owasp-zap-api-security-auditor/"
 ---
-
 # OWASP ZAP API Security Auditor
 
 Orchestrates OWASP ZAP active and passive scans against REST and GraphQL endpoints using ZAP’s Python API client. Generates DAST reports with CWE mappings and suggests WAF rule configurations.
 
 ## Installation
 
-Install this skill using one of the following methods:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install owasp-zap-api-security-auditor
+npx skills add agentskillexchange/skills --skill owasp-zap-api-security-auditor
 ```
 
 ### Claude Code
 ```bash
-claude skills add owasp-zap-api-security-auditor
+npx skills add agentskillexchange/skills --skill owasp-zap-api-security-auditor -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor skills install owasp-zap-api-security-auditor
+npx skills add agentskillexchange/skills --skill owasp-zap-api-security-auditor -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install owasp-zap-api-security-auditor
 
 ### Codex
 ```bash
-codex skills add owasp-zap-api-security-auditor
+npx skills add agentskillexchange/skills --skill owasp-zap-api-security-auditor -a codex
 ```
-
 ## Details
 
 | Field | Value |

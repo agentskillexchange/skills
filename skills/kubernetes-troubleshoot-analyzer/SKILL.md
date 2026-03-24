@@ -3,39 +3,33 @@ name: "Kubernetes Troubleshoot Analyzer"
 description: "Runs diagnostic analysis on Kubernetes clusters using kubectl, k9s terminal UI data, and the Troubleshoot.sh support-bundle collector framework. Generates remediation steps for common pod scheduling, networking, and storage failures."
 category: "Runbooks & Diagnostics"
 framework: "ChatGPT Agents"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.7
 reviews: 41
 creator: "James Kim"
 creator_handle: "@jameskim_ai"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/kubernetes-troubleshoot-analyzer/"
+source: "https://agentskillexchange.com/skills/kubernetes-troubleshoot-analyzer/"
 ---
-
 # Kubernetes Troubleshoot Analyzer
 
 Runs diagnostic analysis on Kubernetes clusters using kubectl, k9s terminal UI data, and the Troubleshoot.sh support-bundle collector framework. Generates remediation steps for common pod scheduling, networking, and storage failures.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install kubernetes-troubleshoot-analyzer
+npx skills add agentskillexchange/skills --skill kubernetes-troubleshoot-analyzer
 ```
 
 ### Claude Code
 ```bash
-claude skills add kubernetes-troubleshoot-analyzer
+npx skills add agentskillexchange/skills --skill kubernetes-troubleshoot-analyzer -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["kubernetes-troubleshoot-analyzer"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill kubernetes-troubleshoot-analyzer -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install kubernetes-troubleshoot-analyzer
 
 ### Codex
 ```bash
-codex skills add kubernetes-troubleshoot-analyzer
+npx skills add agentskillexchange/skills --skill kubernetes-troubleshoot-analyzer -a codex
 ```
-
 ## Details
 
 | Field | Value |

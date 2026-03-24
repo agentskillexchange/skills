@@ -3,35 +3,34 @@ name: "Semgrep Custom Rule Builder"
 description: "Creates and tests custom Semgrep SAST rules using the Semgrep CLI API and pattern syntax. Validates rule YAML against the Semgrep Registry API and tests against code samples with semgrep –test."
 category: "Code Quality & Review"
 framework: "Claude Agents"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.9
 reviews: 28
 creator: "Aisha Patel"
 creator_handle: "@aishapatel"
-creator_verified: yes
-source: "https://agentskillexchange.com/skill/semgrep-custom-rule-builder-4/"
+creator_verified: true
+source: "https://agentskillexchange.com/skills/semgrep-custom-rule-builder-4/"
 ---
-
 # Semgrep Custom Rule Builder
 
 Creates and tests custom Semgrep SAST rules using the Semgrep CLI API and pattern syntax. Validates rule YAML against the Semgrep Registry API and tests against code samples with semgrep –test.
 
 ## Installation
 
-Install this skill across different agents:
-
 ### Any Agent (npx)
 ```bash
-npx agentskills install semgrep-custom-rule-builder-4
+npx skills add agentskillexchange/skills --skill semgrep-custom-rule-builder-4
 ```
 
 ### Claude Code
 ```bash
-claude mcp add semgrep-custom-rule-builder-4
+npx skills add agentskillexchange/skills --skill semgrep-custom-rule-builder-4 -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills/` directory or install via Cursor settings.
+```bash
+npx skills add agentskillexchange/skills --skill semgrep-custom-rule-builder-4 -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install semgrep-custom-rule-builder-4
 
 ### Codex
 ```bash
-codex install semgrep-custom-rule-builder-4
+npx skills add agentskillexchange/skills --skill semgrep-custom-rule-builder-4 -a codex
 ```
-
 ## Details
 
 | Property | Value |

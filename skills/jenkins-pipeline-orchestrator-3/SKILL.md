@@ -3,36 +3,35 @@ name: "Jenkins Pipeline Orchestrator"
 description: "Automates Jenkins CI/CD pipeline configuration using the Jenkins REST API and Jenkinsfile DSL. Manages multi-branch pipelines, triggers builds via webhooks, and parses build artifacts for deployment readiness."
 category: "CI/CD Integrations"
 framework: "OpenClaw"
-verification: "✅ Verified"
-security: "✅ Reviewed"
-rating: "4.9"
-reviews: "86"
+verification: security_reviewed
+rating: 4.9
+reviews: 86
 creator: "Alex Rivera"
 creator_handle: "@arivera_dev"
-creator_verified: "✅"
-source: "https://agentskillexchange.com/skill/jenkins-pipeline-orchestrator-3/"
+creator_verified: true
+source: "https://agentskillexchange.com/skills/jenkins-pipeline-orchestrator-3/"
+security: "✅ Reviewed"
 ---
-
 # Jenkins Pipeline Orchestrator
 
 Automates Jenkins CI/CD pipeline configuration using the Jenkins REST API and Jenkinsfile DSL. Manages multi-branch pipelines, triggers builds via webhooks, and parses build artifacts for deployment readiness.
 
 ## Installation
 
-Install this skill in your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install jenkins-pipeline-orchestrator-3
+npx skills add agentskillexchange/skills --skill jenkins-pipeline-orchestrator-3
 ```
 
 ### Claude Code
 ```bash
-claude skills install jenkins-pipeline-orchestrator-3
+npx skills add agentskillexchange/skills --skill jenkins-pipeline-orchestrator-3 -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills/` directory or install via Cursor settings.
+```bash
+npx skills add agentskillexchange/skills --skill jenkins-pipeline-orchestrator-3 -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -41,9 +40,8 @@ clawhub install jenkins-pipeline-orchestrator-3
 
 ### Codex
 ```bash
-codex skills install jenkins-pipeline-orchestrator-3
+npx skills add agentskillexchange/skills --skill jenkins-pipeline-orchestrator-3 -a codex
 ```
-
 ## Details
 
 | Field | Value |

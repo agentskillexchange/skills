@@ -3,51 +3,44 @@ name: "Makedown Task Runner"
 description: "Extracts executable task definitions from Markdown files and runs them as shell pipelines. Parses fenced code blocks with task metadata annotations and manages dependencies between tasks."
 category: "Templates & Workflows"
 framework: "Claude Code"
-verification: "Verified ✅"
-rating: "4.3"
-reviews: "33"
+verification: security_reviewed
+rating: 4.3
+reviews: 33
 creator: "Fatima Al-Hassan"
 creator_handle: "@fatimaalhassan"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/makedown-task-runner/"
+source: "https://agentskillexchange.com/skills/makedown-task-runner/"
 ---
-
 # Makedown Task Runner
 
 Extracts executable task definitions from Markdown files and runs them as shell pipelines. Parses fenced code blocks with task metadata annotations and manages dependencies between tasks.
 
 ## Installation
 
-Install this skill across different agents:
-
-**Any agent (npx):**
+### Any Agent (npx)
 ```bash
-npx @anthropic/skills install makedown-task-runner
+npx skills add agentskillexchange/skills --skill makedown-task-runner
 ```
 
-**Claude Code:**
+### Claude Code
 ```bash
-claude skills add makedown-task-runner
+npx skills add agentskillexchange/skills --skill makedown-task-runner -a claude-code
 ```
 
-**Cursor:**
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["makedown-task-runner"]
-}
+### Cursor
+```bash
+npx skills add agentskillexchange/skills --skill makedown-task-runner -a cursor
 ```
 
-**OpenClaw:**
+### OpenClaw
 ```bash
 clawhub install makedown-task-runner
 ```
 
-**Codex:**
+### Codex
 ```bash
-codex skills add makedown-task-runner
+npx skills add agentskillexchange/skills --skill makedown-task-runner -a codex
 ```
-
 ## Details
 
 | Field | Value |

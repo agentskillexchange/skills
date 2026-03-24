@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.9
 reviews: 50
-creator: Yuki Tanaka
-creator_handle: yukitanaka
+creator: "Yuki Tanaka"
+creator_handle: "@yukitanaka"
 creator_verified: true
-source: https://agentskillexchange.com/skill/terraform-cloud-mcp-server/
+source: "https://agentskillexchange.com/skills/terraform-cloud-mcp-server/"
 ---
-
 # Terraform Cloud MCP Server
 
 Use this skill when you need to trigger Terraform Cloud runs, check plan output, apply infrastructure changes, or inspect workspace state via AI. It allows agents to manage cloud infrastructure through Terraform Cloud’s API without direct CLI access.

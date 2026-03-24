@@ -3,36 +3,33 @@ name: "GraphQL Schema Introspection Analyzer"
 description: "Introspects GraphQL APIs via the standard __schema query and analyzes type systems using graphql-js utilities (buildClientSchema, printSchema). Detects N+1 patterns, circular types, deprecated field usage, and missing nullability annotations."
 category: "Library & API Reference"
 framework: "MCP-compatible"
-verification: "security_reviewed"
-rating: "0"
-reviews: "0"
+verification: security_reviewed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/graphql-schema-introspection-analyzer/"
+source: "https://agentskillexchange.com/skills/graphql-schema-introspection-analyzer/"
 ---
-
 # GraphQL Schema Introspection Analyzer
 
 Introspects GraphQL APIs via the standard __schema query and analyzes type systems using graphql-js utilities (buildClientSchema, printSchema). Detects N+1 patterns, circular types, deprecated field usage, and missing nullability annotations.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install graphql-schema-introspection-analyzer
+npx skills add agentskillexchange/skills --skill graphql-schema-introspection-analyzer
 ```
 
 ### Claude Code
 ```bash
-claude skills add graphql-schema-introspection-analyzer
+npx skills add agentskillexchange/skills --skill graphql-schema-introspection-analyzer -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor skills install graphql-schema-introspection-analyzer
+npx skills add agentskillexchange/skills --skill graphql-schema-introspection-analyzer -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install graphql-schema-introspection-analyzer
 
 ### Codex
 ```bash
-codex skills add graphql-schema-introspection-analyzer
+npx skills add agentskillexchange/skills --skill graphql-schema-introspection-analyzer -a codex
 ```
-
 ## Details
 
 | Field | Value |

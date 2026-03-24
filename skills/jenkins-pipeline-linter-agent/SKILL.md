@@ -6,12 +6,11 @@ framework: "OpenClaw"
 verification: security_reviewed
 rating: 4.6
 reviews: 35
-creator: Ava Wilson
-creator_handle: avawilson
+creator: "Ava Wilson"
+creator_handle: "@avawilson"
 creator_verified: true
-source: https://agentskillexchange.com/skill/jenkins-pipeline-linter-agent/
+source: "https://agentskillexchange.com/skills/jenkins-pipeline-linter-agent/"
 ---
-
 # Jenkins Pipeline Linter Agent
 
 Validates Jenkinsfile syntax using the Jenkins Pipeline Model Definition API and jenkins-cli.jar lint-pipeline command. Catches declarative pipeline errors, stage misconfigurations, and post-condition issues before commits reach the CI server.

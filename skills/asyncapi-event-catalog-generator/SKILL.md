@@ -3,39 +3,33 @@ name: "AsyncAPI Event Catalog Generator"
 description: "Parses AsyncAPI 2.x/3.x specifications to generate event-driven architecture catalogs using the AsyncAPI Generator. Produces channel documentation, message schema validators, and EventBridge rule templates."
 category: "Library & API Reference"
 framework: "Claude Code"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.9
 reviews: 28
 creator: "Meera Joshi"
 creator_handle: "@meerajoshi"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/asyncapi-event-catalog-generator/"
+source: "https://agentskillexchange.com/skills/asyncapi-event-catalog-generator/"
 ---
-
 # AsyncAPI Event Catalog Generator
 
 Parses AsyncAPI 2.x/3.x specifications to generate event-driven architecture catalogs using the AsyncAPI Generator. Produces channel documentation, message schema validators, and EventBridge rule templates.
 
 ## Installation
 
-Install this skill across different AI coding agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install asyncapi-event-catalog-generator
+npx skills add agentskillexchange/skills --skill asyncapi-event-catalog-generator
 ```
 
 ### Claude Code
 ```bash
-claude skills add asyncapi-event-catalog-generator
+npx skills add agentskillexchange/skills --skill asyncapi-event-catalog-generator -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["asyncapi-event-catalog-generator"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill asyncapi-event-catalog-generator -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install asyncapi-event-catalog-generator
 
 ### Codex
 ```bash
-codex skills add asyncapi-event-catalog-generator
+npx skills add agentskillexchange/skills --skill asyncapi-event-catalog-generator -a codex
 ```
-
 ## Details
 
 | Property | Value |

@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.2
 reviews: 76
-creator: Chris Lee
-creator_handle: chrislee
+creator: "Chris Lee"
+creator_handle: "@chrislee"
 creator_verified: false
-source: https://agentskillexchange.com/skill/opsgenie-mcp-server/
+source: "https://agentskillexchange.com/skills/opsgenie-mcp-server/"
 ---
-
 # OpsGenie MCP Server
 
 Use this skill when you need to list, acknowledge, or close OpsGenie alerts, check on-call rotations, or create incidents from your AI agent. It integrates OpsGenie’s alert management into agent workflows for faster incident response.

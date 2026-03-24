@@ -3,15 +3,14 @@ name: "Prometheus Alert Resolver"
 description: "Resolves Prometheus alerts by querying the /api/v1/alerts and /api/v1/query_range endpoints for metric time series analysis. Executes playbook steps for common alerts like HighCPUUsage and DiskSpaceLow, validates PromQL recording rules, and silences alerts via Alertmanager /api/v2/silences."
 category: "Runbooks & Diagnostics"
 framework: "Gemini"
-verification: "verified_metadata"
-rating: "0"
-reviews: "0"
+verification: verified_metadata
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/prometheus-alert-resolver-skill/"
+source: "https://agentskillexchange.com/skills/prometheus-alert-resolver-skill/"
 ---
-
 # Prometheus Alert Resolver
 
 Resolves Prometheus alerts by querying the /api/v1/alerts and /api/v1/query_range endpoints for metric time series analysis. Executes playbook steps for common alerts like HighCPUUsage and DiskSpaceLow, validates PromQL recording rules, and silences alerts via Alertmanager /api/v2/silences.
@@ -20,16 +19,18 @@ Resolves Prometheus alerts by querying the /api/v1/alerts and /api/v1/query_rang
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install prometheus-alert-resolver-skill
+npx skills add agentskillexchange/skills --skill prometheus-alert-resolver-skill
 ```
 
 ### Claude Code
 ```bash
-claude install-skill prometheus-alert-resolver-skill
+npx skills add agentskillexchange/skills --skill prometheus-alert-resolver-skill -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills/` directory or install via Cursor Settings → Skills.
+```bash
+npx skills add agentskillexchange/skills --skill prometheus-alert-resolver-skill -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -38,9 +39,8 @@ clawhub install prometheus-alert-resolver-skill
 
 ### Codex
 ```bash
-codex install-skill prometheus-alert-resolver-skill
+npx skills add agentskillexchange/skills --skill prometheus-alert-resolver-skill -a codex
 ```
-
 ## Details
 
 | | |

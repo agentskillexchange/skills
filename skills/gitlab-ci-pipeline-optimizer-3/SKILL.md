@@ -6,12 +6,11 @@ framework: "Gemini"
 verification: security_reviewed
 rating: 4.1
 reviews: 79
-creator: Isabella Rossi
-creator_handle: irossi
+creator: "Isabella Rossi"
+creator_handle: "@irossi"
 creator_verified: false
-source: https://agentskillexchange.com/skill/gitlab-ci-pipeline-optimizer-3/
+source: "https://agentskillexchange.com/skills/gitlab-ci-pipeline-optimizer-3/"
 ---
-
 # GitLab CI Pipeline Optimizer
 
 Optimizes GitLab CI/CD pipelines using the GitLab REST API v4 and Pipeline Analytics API. Reduces build times by analyzing job dependencies, cache efficiency, and runner utilization patterns.

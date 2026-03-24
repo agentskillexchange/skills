@@ -3,36 +3,33 @@ name: "GitHub Actions Matrix Builder"
 description: "Generates dynamic GitHub Actions workflow matrices from repository analysis. Uses the GitHub Actions REST API and octokit/core.js SDK to detect language versions, OS targets, and dependency graphs, producing optimized CI matrix configurations."
 category: "CI/CD Integrations"
 framework: "Claude Code"
-verification: ""
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/github-actions-matrix-builder-18/"
+source: "https://agentskillexchange.com/skills/github-actions-matrix-builder-18/"
 ---
-
 # GitHub Actions Matrix Builder
 
 Generates dynamic GitHub Actions workflow matrices from repository analysis. Uses the GitHub Actions REST API and octokit/core.js SDK to detect language versions, OS targets, and dependency graphs, producing optimized CI matrix configurations.
 
 ## Installation
 
-Install this skill across different agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agentskill install github-actions-matrix-builder-18
+npx skills add agentskillexchange/skills --skill github-actions-matrix-builder-18
 ```
 
 ### Claude Code
 ```bash
-claude skills install github-actions-matrix-builder-18
+npx skills add agentskillexchange/skills --skill github-actions-matrix-builder-18 -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor skills install github-actions-matrix-builder-18
+npx skills add agentskillexchange/skills --skill github-actions-matrix-builder-18 -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install github-actions-matrix-builder-18
 
 ### Codex
 ```bash
-codex skills install github-actions-matrix-builder-18
+npx skills add agentskillexchange/skills --skill github-actions-matrix-builder-18 -a codex
 ```
-
 ## Details
 
 | Field | Value |

@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.1
 reviews: 77
-creator: Kai Nakamura
-creator_handle: kainakamura
+creator: "Kai Nakamura"
+creator_handle: "@kainakamura"
 creator_verified: true
-source: https://agentskillexchange.com/skill/crewai-task-crew-manager/
+source: "https://agentskillexchange.com/skills/crewai-task-crew-manager/"
 ---
-
 # CrewAI Task Crew Manager
 
 CrewAI provides a framework for orchestrating role-playing AI agents that work together as a crew. This skill helps you define agent roles, assign tasks, and coordinate multi-agent workflows with sequential or parallel execution.

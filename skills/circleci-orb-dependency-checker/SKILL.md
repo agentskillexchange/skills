@@ -3,35 +3,34 @@ name: "CircleCI Orb Dependency Checker"
 description: "Scans CircleCI config.yml for orb version conflicts and breaking changes using the CircleCI Orbs Registry API. Validates executor configurations against circleci/docker and circleci/node orb specs."
 category: "CI/CD Integrations"
 framework: "Codex"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.9
 reviews: 77
 creator: "Sarah O'Brien"
 creator_handle: "@sarahcodes"
-creator_verified: yes
-source: "https://agentskillexchange.com/skill/circleci-orb-dependency-checker/"
+creator_verified: true
+source: "https://agentskillexchange.com/skills/circleci-orb-dependency-checker/"
 ---
-
 # CircleCI Orb Dependency Checker
 
 Scans CircleCI config.yml for orb version conflicts and breaking changes using the CircleCI Orbs Registry API. Validates executor configurations against circleci/docker and circleci/node orb specs.
 
 ## Installation
 
-Install this skill across different agents:
-
 ### Any Agent (npx)
 ```bash
-npx agentskills install circleci-orb-dependency-checker
+npx skills add agentskillexchange/skills --skill circleci-orb-dependency-checker
 ```
 
 ### Claude Code
 ```bash
-claude mcp add circleci-orb-dependency-checker
+npx skills add agentskillexchange/skills --skill circleci-orb-dependency-checker -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills/` directory or install via Cursor settings.
+```bash
+npx skills add agentskillexchange/skills --skill circleci-orb-dependency-checker -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install circleci-orb-dependency-checker
 
 ### Codex
 ```bash
-codex install circleci-orb-dependency-checker
+npx skills add agentskillexchange/skills --skill circleci-orb-dependency-checker -a codex
 ```
-
 ## Details
 
 | Property | Value |

@@ -3,33 +3,34 @@ name: "AWS CloudTrail Log Normalizer"
 description: "Normalizes and enriches AWS CloudTrail JSON logs into OCSF (Open Cybersecurity Schema Framework) format. Maps eventSource/eventName pairs to MITRE ATT&CK technique IDs using the MITRE ATT&CK STIX API."
 category: "Security & Verification"
 framework: "Custom Agents"
-verification: "Verified"
-rating: "4.9"
-reviews: "9"
+verification: verified_metadata
+rating: 4.9
+reviews: 9
 creator: "David Nguyen"
 creator_handle: "@davidnguyen"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/aws-cloudtrail-log-normalizer/"
+source: "https://agentskillexchange.com/skills/aws-cloudtrail-log-normalizer/"
 ---
-
 # AWS CloudTrail Log Normalizer
 
 Normalizes and enriches AWS CloudTrail JSON logs into OCSF (Open Cybersecurity Schema Framework) format. Maps eventSource/eventName pairs to MITRE ATT&CK technique IDs using the MITRE ATT&CK STIX API.
 
 ## Installation
 
-### Any AI Agent (npx)
+### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install aws-cloudtrail-log-normalizer
+npx skills add agentskillexchange/skills --skill aws-cloudtrail-log-normalizer
 ```
 
 ### Claude Code
 ```bash
-claude skills add aws-cloudtrail-log-normalizer
+npx skills add agentskillexchange/skills --skill aws-cloudtrail-log-normalizer -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` directory or install via Cursor settings.
+```bash
+npx skills add agentskillexchange/skills --skill aws-cloudtrail-log-normalizer -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -38,9 +39,8 @@ clawhub install aws-cloudtrail-log-normalizer
 
 ### Codex
 ```bash
-codex skills install aws-cloudtrail-log-normalizer
+npx skills add agentskillexchange/skills --skill aws-cloudtrail-log-normalizer -a codex
 ```
-
 ## Details
 
 | Field | Value |

@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: verified_metadata
 rating: 4.8
 reviews: 8
-creator: Alex Thompson
-creator_handle: alexthompson
+creator: "Alex Thompson"
+creator_handle: "@alexthompson"
 creator_verified: true
-source: https://agentskillexchange.com/skill/jenkins-pipeline-lint-agent/
+source: "https://agentskillexchange.com/skills/jenkins-pipeline-lint-agent/"
 ---
-
 # Jenkins Pipeline Lint Agent
 
 Validates Jenkinsfile declarative and scripted pipelines using the Jenkins Pipeline Linter API endpoint. Checks for deprecated step usage, security anti-patterns, and Groovy sandbox violations.

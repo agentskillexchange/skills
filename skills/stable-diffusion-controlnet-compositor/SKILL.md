@@ -3,39 +3,33 @@ name: "Stable Diffusion ControlNet Compositor"
 description: "Orchestrates Stable Diffusion XL with ControlNet preprocessors (Canny, Depth, OpenPose) for guided image generation. Manages ComfyUI workflow JSON exports and A1111 API batch processing."
 category: "Image & Creative Automation"
 framework: "Gemini"
-verification: "✅ Verified"
-rating: "⭐ 4.9"
-reviews: "51"
+verification: security_reviewed
+rating: 0
+reviews: 51
 creator: "Lucy Zhang"
 creator_handle: "@lucyzhang"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/stable-diffusion-controlnet-compositor/"
+source: "https://agentskillexchange.com/skills/stable-diffusion-controlnet-compositor/"
 ---
-
 # Stable Diffusion ControlNet Compositor
 
 Orchestrates Stable Diffusion XL with ControlNet preprocessors (Canny, Depth, OpenPose) for guided image generation. Manages ComfyUI workflow JSON exports and A1111 API batch processing.
 
 ## Installation
 
-Install this skill across different agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install stable-diffusion-controlnet-compositor
+npx skills add agentskillexchange/skills --skill stable-diffusion-controlnet-compositor
 ```
 
 ### Claude Code
 ```bash
-claude skills add stable-diffusion-controlnet-compositor
+npx skills add agentskillexchange/skills --skill stable-diffusion-controlnet-compositor -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["stable-diffusion-controlnet-compositor"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill stable-diffusion-controlnet-compositor -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install stable-diffusion-controlnet-compositor
 
 ### Codex
 ```bash
-codex skills add stable-diffusion-controlnet-compositor
+npx skills add agentskillexchange/skills --skill stable-diffusion-controlnet-compositor -a codex
 ```
-
 ## Details
 
 | Property | Value |

@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.1
 reviews: 81
-creator: Omar Hassan
-creator_handle: ohassan
+creator: "Omar Hassan"
+creator_handle: "@ohassan"
 creator_verified: true
-source: https://agentskillexchange.com/skill/auth-token-rotator/
+source: "https://agentskillexchange.com/skills/auth-token-rotator/"
 ---
-
 # Auth Token Rotator
 
 Automates API authentication token rotation — OAuth2 token refresh, API key cycling, and JWT renewal. Handles secret storage, rotation scheduling, and notifies dependent services of new credentials.

@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.3
 reviews: 35
-creator: Isabella Rossi
-creator_handle: irossi
+creator: "Isabella Rossi"
+creator_handle: "@irossi"
 creator_verified: false
-source: https://agentskillexchange.com/skill/on-call-handoff-runbook/
+source: "https://agentskillexchange.com/skills/on-call-handoff-runbook/"
 ---
-
 # On-Call Handoff Runbook
 
 Runbook for structured on-call handoffs between engineers. Ensures continuity of incident awareness, open issues, system health context, and known fragile areas.

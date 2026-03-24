@@ -3,39 +3,33 @@ name: "PagerDuty Incident Runbook Executor"
 description: "Automatically executes diagnostic runbooks when PagerDuty incidents trigger, using the PagerDuty Events v2 API and Rundeck API. Attaches diagnostic output as incident notes and suggests remediation actions."
 category: "Runbooks & Diagnostics"
 framework: "OpenClaw"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.8
 reviews: 57
 creator: "Marcus Chen"
 creator_handle: "@marcuschen"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/pagerduty-incident-runbook-executor/"
+source: "https://agentskillexchange.com/skills/pagerduty-incident-runbook-executor/"
 ---
-
 # PagerDuty Incident Runbook Executor
 
 Automatically executes diagnostic runbooks when PagerDuty incidents trigger, using the PagerDuty Events v2 API and Rundeck API. Attaches diagnostic output as incident notes and suggests remediation actions.
 
 ## Installation
 
-Install this skill for your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install pagerduty-incident-runbook-executor
+npx skills add agentskillexchange/skills --skill pagerduty-incident-runbook-executor
 ```
 
 ### Claude Code
 ```bash
-claude skills add pagerduty-incident-runbook-executor
+npx skills add agentskillexchange/skills --skill pagerduty-incident-runbook-executor -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["pagerduty-incident-runbook-executor"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill pagerduty-incident-runbook-executor -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install pagerduty-incident-runbook-executor
 
 ### Codex
 ```bash
-codex skills add pagerduty-incident-runbook-executor
+npx skills add agentskillexchange/skills --skill pagerduty-incident-runbook-executor -a codex
 ```
-
 ## Details
 
 | Property | Value |

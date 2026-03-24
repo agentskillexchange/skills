@@ -3,39 +3,33 @@ name: "GitHub Actions Matrix Builder"
 description: "Dynamically generates GitHub Actions strategy.matrix configurations using workflow_call outputs and reusable workflow composition. Optimizes runner allocation with fail-fast strategies and concurrency group management."
 category: "CI/CD Integrations"
 framework: "OpenClaw"
-verification: ""
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
-creator_verified: "false"
-source: "https://agentskillexchange.com/skill/github-actions-matrix-builder-16/"
+creator_verified: false
+source: "https://agentskillexchange.com/skills/github-actions-matrix-builder-16/"
 ---
-
 # GitHub Actions Matrix Builder
 
 Dynamically generates GitHub Actions strategy.matrix configurations using workflow_call outputs and reusable workflow composition. Optimizes runner allocation with fail-fast strategies and concurrency group management.
 
 ## Installation
 
-Install this skill across different agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install github-actions-matrix-builder-16
+npx skills add agentskillexchange/skills --skill github-actions-matrix-builder-16
 ```
 
 ### Claude Code
 ```bash
-claude mcp add github-actions-matrix-builder-16
+npx skills add agentskillexchange/skills --skill github-actions-matrix-builder-16 -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["github-actions-matrix-builder-16"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill github-actions-matrix-builder-16 -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install github-actions-matrix-builder-16
 
 ### Codex
 ```bash
-codex install github-actions-matrix-builder-16
+npx skills add agentskillexchange/skills --skill github-actions-matrix-builder-16 -a codex
 ```
-
 ## Details
 
 | Property | Value |

@@ -3,39 +3,33 @@ name: "Prettier Config Harmonizer"
 description: "Resolves Prettier and ESLint formatting conflicts by generating compatible configurations with eslint-config-prettier. Manages .prettierrc overrides per file type and editor integration via .editorconfig sync."
 category: "Code Quality & Review"
 framework: "Cursor"
-verification: "✅ Verified"
-rating: "⭐ 4.9"
-reviews: "62"
+verification: security_reviewed
+rating: 0
+reviews: 62
 creator: "Fatima Al-Hassan"
 creator_handle: "@fatimaalhassan"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/prettier-config-harmonizer-3/"
+source: "https://agentskillexchange.com/skills/prettier-config-harmonizer-3/"
 ---
-
 # Prettier Config Harmonizer
 
 Resolves Prettier and ESLint formatting conflicts by generating compatible configurations with eslint-config-prettier. Manages .prettierrc overrides per file type and editor integration via .editorconfig sync.
 
 ## Installation
 
-Install this skill across different agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install prettier-config-harmonizer-3
+npx skills add agentskillexchange/skills --skill prettier-config-harmonizer-3
 ```
 
 ### Claude Code
 ```bash
-claude skills add prettier-config-harmonizer-3
+npx skills add agentskillexchange/skills --skill prettier-config-harmonizer-3 -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["prettier-config-harmonizer-3"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill prettier-config-harmonizer-3 -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install prettier-config-harmonizer-3
 
 ### Codex
 ```bash
-codex skills add prettier-config-harmonizer-3
+npx skills add agentskillexchange/skills --skill prettier-config-harmonizer-3 -a codex
 ```
-
 ## Details
 
 | Property | Value |

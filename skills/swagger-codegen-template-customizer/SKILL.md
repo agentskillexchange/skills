@@ -3,15 +3,14 @@ name: "Swagger Codegen Template Customizer"
 description: "Extends Swagger Codegen and OpenAPI Generator with custom Mustache templates for client SDK generation. Supports Java (OkHttp/Retrofit), TypeScript (Axios/Fetch), and Python (httpx) output targets."
 category: "Library & API Reference"
 framework: "ChatGPT Agents"
-verification: "✅ Verified"
-rating: "4.7"
-reviews: "68"
+verification: security_reviewed
+rating: 4.7
+reviews: 68
 creator: "Hannah Berg"
 creator_handle: "@hannahberg"
 creator_verified: false
-source: "https://agentskillexchange.com/skill/swagger-codegen-template-customizer/"
+source: "https://agentskillexchange.com/skills/swagger-codegen-template-customizer/"
 ---
-
 # Swagger Codegen Template Customizer
 
 Extends Swagger Codegen and OpenAPI Generator with custom Mustache templates for client SDK generation. Supports Java (OkHttp/Retrofit), TypeScript (Axios/Fetch), and Python (httpx) output targets.
@@ -20,17 +19,17 @@ Extends Swagger Codegen and OpenAPI Generator with custom Mustache templates for
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install swagger-codegen-template-customizer
+npx skills add agentskillexchange/skills --skill swagger-codegen-template-customizer
 ```
 
 ### Claude Code
 ```bash
-claude skills add swagger-codegen-template-customizer
+npx skills add agentskillexchange/skills --skill swagger-codegen-template-customizer -a claude-code
 ```
 
 ### Cursor
-```
-Install from Cursor Settings → Skills → Add Skill → "Swagger Codegen Template Customizer"
+```bash
+npx skills add agentskillexchange/skills --skill swagger-codegen-template-customizer -a cursor
 ```
 
 ### OpenClaw
@@ -40,9 +39,8 @@ clawhub install swagger-codegen-template-customizer
 
 ### Codex
 ```bash
-codex skills install swagger-codegen-template-customizer
+npx skills add agentskillexchange/skills --skill swagger-codegen-template-customizer -a codex
 ```
-
 ## Details
 
 | Field | Value |

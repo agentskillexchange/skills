@@ -3,15 +3,14 @@ name: "Terraform Plan Analyzer"
 description: "Parses terraform plan JSON output to identify destructive changes, cost implications via Infracost API, and policy violations against Open Policy Agent (OPA) Rego rules. Generates human-readable ch..."
 category: "CI/CD Integrations"
 framework: "ChatGPT Agents"
-verification: "security_reviewed"
-rating: "0"
-reviews: "0"
+verification: security_reviewed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/terraform-plan-analyzer-2/"
+source: "https://agentskillexchange.com/skills/terraform-plan-analyzer-2/"
 ---
-
 # Terraform Plan Analyzer
 
 Parses terraform plan JSON output to identify destructive changes, cost implications via Infracost API, and policy violations against Open Policy Agent (OPA) Rego rules. Generates human-readable change summaries for PR reviews.
@@ -20,22 +19,17 @@ Parses terraform plan JSON output to identify destructive changes, cost implicat
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install terraform-plan-analyzer-2
+npx skills add agentskillexchange/skills --skill terraform-plan-analyzer-2
 ```
 
 ### Claude Code
 ```bash
-claude mcp add terraform-plan-analyzer-2
+npx skills add agentskillexchange/skills --skill terraform-plan-analyzer-2 -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "terraform-plan-analyzer-2": {
-    "enabled": true
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill terraform-plan-analyzer-2 -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install terraform-plan-analyzer-2
 
 ### Codex
 ```bash
-codex install terraform-plan-analyzer-2
+npx skills add agentskillexchange/skills --skill terraform-plan-analyzer-2 -a codex
 ```
-
 ## Details
 
 | Field | Value |

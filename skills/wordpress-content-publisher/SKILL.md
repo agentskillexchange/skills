@@ -6,12 +6,11 @@ framework: "OpenClaw"
 verification: security_reviewed
 rating: 4.5
 reviews: 34
-creator: Sofia Petrov
-creator_handle: sofiapetrov
+creator: "Sofia Petrov"
+creator_handle: "@sofiapetrov"
 creator_verified: true
-source: https://agentskillexchange.com/skill/wordpress-content-publisher/
+source: "https://agentskillexchange.com/skills/wordpress-content-publisher/"
 ---
-
 # WordPress Content Publisher
 
 Structured publishing workflow for WordPress drafts, metadata, and content operations.

@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: verified_metadata
 rating: 4.1
 reviews: 7
-creator: Elena Kowalski
-creator_handle: ekowalski
+creator: "Elena Kowalski"
+creator_handle: "@ekowalski"
 creator_verified: true
-source: https://agentskillexchange.com/skill/outlook-email-automation-2/
+source: "https://agentskillexchange.com/skills/outlook-email-automation-2/"
 ---
-
 # Outlook Email Automation
 
 Authenticates to Microsoft Graph API using MSAL with delegated permissions for Mail.ReadWrite and Calendars.ReadWrite. Reads, classifies, and responds to emails via GET /me/messages and POST /me/sendMail endpoints. Moves processed messages into named folders and tracks reply SLAs in a local SQLite store.

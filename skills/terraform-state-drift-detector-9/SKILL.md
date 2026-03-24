@@ -3,15 +3,14 @@ name: "Terraform State Drift Detector"
 description: "Detects infrastructure drift between Terraform state files and actual cloud resources using terraform plan JSON output and the Terraform Cloud API. Generates drift reports with remediation suggestions."
 category: "Developer Tools"
 framework: "OpenClaw"
-verification: "✅ Verified"
-rating: "4.5"
-reviews: "51"
+verification: security_reviewed
+rating: 4.5
+reviews: 51
 creator: "Carlos Mendez"
 creator_handle: "@carlosmendez"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/terraform-state-drift-detector-9/"
+source: "https://agentskillexchange.com/skills/terraform-state-drift-detector-9/"
 ---
-
 # Terraform State Drift Detector
 
 Detects infrastructure drift between Terraform state files and actual cloud resources using terraform plan JSON output and the Terraform Cloud API. Generates drift reports with remediation suggestions.
@@ -19,33 +18,29 @@ Detects infrastructure drift between Terraform state files and actual cloud reso
 ## Installation
 
 ### Any Agent (npx)
-
 ```bash
-npx @anthropic/agent-skills install terraform-state-drift-detector-9
+npx skills add agentskillexchange/skills --skill terraform-state-drift-detector-9
 ```
 
 ### Claude Code
-
 ```bash
-claude mcp add terraform-state-drift-detector-9
+npx skills add agentskillexchange/skills --skill terraform-state-drift-detector-9 -a claude-code
 ```
 
 ### Cursor
-
-Add to `.cursor/skills/` directory or install via Cursor settings.
+```bash
+npx skills add agentskillexchange/skills --skill terraform-state-drift-detector-9 -a cursor
+```
 
 ### OpenClaw
-
 ```bash
 clawhub install terraform-state-drift-detector-9
 ```
 
 ### Codex
-
 ```bash
-codex install terraform-state-drift-detector-9
+npx skills add agentskillexchange/skills --skill terraform-state-drift-detector-9 -a codex
 ```
-
 ## Details
 
 | Field | Value |

@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.1
 reviews: 20
-creator: Alex Thompson
-creator_handle: alexthompson
+creator: "Alex Thompson"
+creator_handle: "@alexthompson"
 creator_verified: true
-source: https://agentskillexchange.com/skill/rest-mock-server/
+source: "https://agentskillexchange.com/skills/rest-mock-server/"
 ---
-
 # REST Mock Server
 
 Spins up a local mock REST API server from an OpenAPI spec or a custom route definition file. Useful for frontend development, integration testing, and service virtualization when the real API is unavailable.

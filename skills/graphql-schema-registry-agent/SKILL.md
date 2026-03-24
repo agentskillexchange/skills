@@ -3,15 +3,14 @@ name: "GraphQL Schema Registry Agent"
 description: "Manages federated GraphQL schemas using Apollo Studio API and Hive Schema Registry. Validates schema composition, detects breaking changes, and enforces naming conventions across subgraph services."
 category: "Library & API Reference"
 framework: "Codex"
-verification: "✅ Verified"
-rating: "4.9"
-reviews: "39"
+verification: security_reviewed
+rating: 4.9
+reviews: 39
 creator: "Mateo Silva"
 creator_handle: "@mateosilva"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/graphql-schema-registry-agent/"
+source: "https://agentskillexchange.com/skills/graphql-schema-registry-agent/"
 ---
-
 # GraphQL Schema Registry Agent
 
 Manages federated GraphQL schemas using Apollo Studio API and Hive Schema Registry. Validates schema composition, detects breaking changes, and enforces naming conventions across subgraph services.
@@ -20,17 +19,17 @@ Manages federated GraphQL schemas using Apollo Studio API and Hive Schema Regist
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install graphql-schema-registry-agent
+npx skills add agentskillexchange/skills --skill graphql-schema-registry-agent
 ```
 
 ### Claude Code
 ```bash
-claude skills add graphql-schema-registry-agent
+npx skills add agentskillexchange/skills --skill graphql-schema-registry-agent -a claude-code
 ```
 
 ### Cursor
-```
-Install from Cursor Settings → Skills → Add Skill → "GraphQL Schema Registry Agent"
+```bash
+npx skills add agentskillexchange/skills --skill graphql-schema-registry-agent -a cursor
 ```
 
 ### OpenClaw
@@ -40,9 +39,8 @@ clawhub install graphql-schema-registry-agent
 
 ### Codex
 ```bash
-codex skills install graphql-schema-registry-agent
+npx skills add agentskillexchange/skills --skill graphql-schema-registry-agent -a codex
 ```
-
 ## Details
 
 | Field | Value |

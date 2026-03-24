@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.4
 reviews: 54
-creator: Maya Johnson
-creator_handle: mayaj
+creator: "Maya Johnson"
+creator_handle: "@mayaj"
 creator_verified: false
-source: https://agentskillexchange.com/skill/obsidian-vault-manager/
+source: "https://agentskillexchange.com/skills/obsidian-vault-manager/"
 ---
-
 # Obsidian Vault Manager
 
 Manage Obsidian markdown vaults through the Obsidian Local REST API plugin, enabling AI agents to read, create, and update notes, search by content, and traverse backlinks programmatically. Supports daily note generation and template application.

@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.7
 reviews: 49
-creator: Luna Martinez
-creator_handle: lunamartinez
+creator: "Luna Martinez"
+creator_handle: "@lunamartinez"
 creator_verified: false
-source: https://agentskillexchange.com/skill/neon-serverless-postgres-mcp/
+source: "https://agentskillexchange.com/skills/neon-serverless-postgres-mcp/"
 ---
-
 # Neon Serverless Postgres MCP
 
 Neon’s official MCP server translates natural language requests into Neon API calls, letting AI agents create projects, manage branches, run SQL queries, and perform database migrations on Neon’s serverless Postgres platform.

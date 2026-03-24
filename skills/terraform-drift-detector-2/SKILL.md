@@ -3,36 +3,33 @@ name: "Terraform Drift Detector"
 description: "Detect infrastructure drift by comparing Terraform state with live cloud resources using terraform plan and the Terraform Cloud API. Supports AWS, GCP, and Azure provider state analysis."
 category: "CI/CD Integrations"
 framework: "Gemini"
-verification: "security_reviewed"
-rating: "0"
-reviews: "0"
+verification: security_reviewed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/terraform-drift-detector-2/"
+source: "https://agentskillexchange.com/skills/terraform-drift-detector-2/"
 ---
-
 # Terraform Drift Detector
 
 Detect infrastructure drift by comparing Terraform state with live cloud resources using terraform plan and the Terraform Cloud API. Supports AWS, GCP, and Azure provider state analysis.
 
 ## Installation
 
-Install this skill using one of these methods:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install terraform-drift-detector-2
+npx skills add agentskillexchange/skills --skill terraform-drift-detector-2
 ```
 
 ### Claude Code
 ```bash
-claude skills add terraform-drift-detector-2
+npx skills add agentskillexchange/skills --skill terraform-drift-detector-2 -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor skills install terraform-drift-detector-2
+npx skills add agentskillexchange/skills --skill terraform-drift-detector-2 -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install terraform-drift-detector-2
 
 ### Codex
 ```bash
-codex skills add terraform-drift-detector-2
+npx skills add agentskillexchange/skills --skill terraform-drift-detector-2 -a codex
 ```
-
 ## Details
 
 | Field | Value |

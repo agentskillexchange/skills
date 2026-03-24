@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: verified_metadata
 rating: 4.8
 reviews: 50
-creator: Isabella Rossi
-creator_handle: irossi
+creator: "Isabella Rossi"
+creator_handle: "@irossi"
 creator_verified: false
-source: https://agentskillexchange.com/skill/kubernetes-runbook-executor-6/
+source: "https://agentskillexchange.com/skills/kubernetes-runbook-executor-6/"
 ---
-
 # Kubernetes Runbook Executor
 
 Executes predefined Kubernetes diagnostic runbooks using kubectl commands and the Kubernetes API. Automates pod restart analysis via kubectl get events, resource quota checks, and node condition troubleshooting.

@@ -3,36 +3,33 @@ name: "Puppeteer Cookie Consent Handler"
 description: "Automatically detects and dismisses cookie consent banners across websites using Puppeteer’s page.evaluate and CDP (Chrome DevTools Protocol) session interception. Handles OneTrust, Cookiebot, and custom GDPR popups."
 category: "Browser Automation"
 framework: "ChatGPT Agents"
-verification: "community"
-rating: "4.9"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/puppeteer-cookie-consent-handler-2/"
+source: "https://agentskillexchange.com/skills/puppeteer-cookie-consent-handler-2/"
 ---
-
 # Puppeteer Cookie Consent Handler
 
 Automatically detects and dismisses cookie consent banners across websites using Puppeteer’s page.evaluate and CDP (Chrome DevTools Protocol) session interception. Handles OneTrust, Cookiebot, and custom GDPR popups.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install puppeteer-cookie-consent-handler-2
+npx skills add agentskillexchange/skills --skill puppeteer-cookie-consent-handler-2
 ```
 
 ### Claude Code
 ```bash
-claude skills add puppeteer-cookie-consent-handler-2
+npx skills add agentskillexchange/skills --skill puppeteer-cookie-consent-handler-2 -a claude-code
 ```
 
 ### Cursor
-```
-Install from Cursor Settings → Skills → Add → "Puppeteer Cookie Consent Handler"
+```bash
+npx skills add agentskillexchange/skills --skill puppeteer-cookie-consent-handler-2 -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install puppeteer-cookie-consent-handler-2
 
 ### Codex
 ```bash
-codex skills add puppeteer-cookie-consent-handler-2
+npx skills add agentskillexchange/skills --skill puppeteer-cookie-consent-handler-2 -a codex
 ```
-
 ## Details
 
 | Field | Value |

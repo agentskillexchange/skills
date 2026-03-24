@@ -6,12 +6,11 @@ framework: "Claude Agents"
 verification: security_reviewed
 rating: 4.5
 reviews: 12
-creator: Raj Gupta
-creator_handle: rajgupta
+creator: "Raj Gupta"
+creator_handle: "@rajgupta"
 creator_verified: true
-source: https://agentskillexchange.com/skill/webhook-debugger/
+source: "https://agentskillexchange.com/skills/webhook-debugger/"
 ---
-
 # Webhook Debugger
 
 Use this skill when you need to inspect, replay, or debug webhook payloads from services like Stripe, GitHub, or Twilio. It captures webhook events, validates signatures, shows payload structure, and helps trace why a webhook handler failed to process correctly.

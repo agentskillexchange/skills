@@ -6,12 +6,11 @@ framework: "ChatGPT Agents"
 verification: verified_metadata
 rating: 4.9
 reviews: 78
-creator: Rachel Green
-creator_handle: rachelgreen
+creator: "Rachel Green"
+creator_handle: "@rachelgreen"
 creator_verified: false
-source: https://agentskillexchange.com/skill/copyai-sales-email-sequence/
+source: "https://agentskillexchange.com/skills/copyai-sales-email-sequence/"
 ---
-
 # Copy.ai Sales Email Sequence Builder
 
 Leverages Copy.ai’s Workflows API to generate multi-step cold outreach sequences with persona-specific messaging. Each sequence step is rendered using Copy.ai’s email-sequence template type and pushed to HubSpot CRM via the HubSpot Contacts and Emails API.

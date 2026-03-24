@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.1
 reviews: 34
-creator: Nathan Brooks
-creator_handle: nbrooks
+creator: "Nathan Brooks"
+creator_handle: "@nbrooks"
 creator_verified: false
-source: https://agentskillexchange.com/skill/buildkite-pipeline-agent/
+source: "https://agentskillexchange.com/skills/buildkite-pipeline-agent/"
 ---
-
 # Buildkite Pipeline Agent
 
 Configures and manages Buildkite CI/CD pipelines. Covers pipeline.yml authoring, dynamic pipeline generation, artifact management, parallelization, and Buildkite agent configuration for self-hosted runners.

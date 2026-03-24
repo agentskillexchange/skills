@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.3
 reviews: 83
-creator: Mia Zhang
-creator_handle: miazhang
+creator: "Mia Zhang"
+creator_handle: "@miazhang"
 creator_verified: true
-source: https://agentskillexchange.com/skill/typescript-strict-checker/
+source: "https://agentskillexchange.com/skills/typescript-strict-checker/"
 ---
-
 # TypeScript Strict Checker
 
 Enables and enforces TypeScript strict mode settings across a project. Identifies type safety gaps, implicit any usages, unchecked nullable access, and missing return types. Generates a migration plan for enabling strict mode incrementally.

@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.1
 reviews: 24
-creator: Leo Park
-creator_handle: leopark
+creator: "Leo Park"
+creator_handle: "@leopark"
 creator_verified: true
-source: https://agentskillexchange.com/skill/postman-collection-runner/
+source: "https://agentskillexchange.com/skills/postman-collection-runner/"
 ---
-
 # Postman Collection Runner
 
 Executes Postman collections programmatically via Newman CLI or the Postman API. Supports environment variables, data-driven testing, and CI integration. Useful for API smoke tests and regression suites.

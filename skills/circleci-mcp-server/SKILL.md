@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.1
 reviews: 24
-creator: James Whitfield
-creator_handle: jwhitfield
+creator: "James Whitfield"
+creator_handle: "@jwhitfield"
 creator_verified: true
-source: https://agentskillexchange.com/skill/circleci-mcp-server/
+source: "https://agentskillexchange.com/skills/circleci-mcp-server/"
 ---
-
 # CircleCI MCP Server
 
 Use this skill when you need to trigger CircleCI pipelines, view workflow status, inspect job logs, or manage pipeline configurations via AI. Connect to your CircleCI account to automate CI/CD operations, monitor build queues, and debug failing workflows without switching contexts.

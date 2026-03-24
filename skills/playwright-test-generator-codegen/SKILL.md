@@ -3,15 +3,14 @@ name: "Playwright Test Generator with Codegen"
 description: "Records and generates end-to-end test scripts using Playwright Codegen with multi-browser targeting. Produces TypeScript test files compatible with Playwright Test runner, handles visual regression via playwright-visual-regression plugin, and integrates with Allure reporting."
 category: "Research & Scraping"
 framework: "Cursor"
-verification: "community"
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/playwright-test-generator-codegen/"
+source: "https://agentskillexchange.com/skills/playwright-test-generator-codegen/"
 ---
-
 # Playwright Test Generator with Codegen
 
 Records and generates end-to-end test scripts using Playwright Codegen with multi-browser targeting. Produces TypeScript test files compatible with Playwright Test runner, handles visual regression via playwright-visual-regression plugin, and integrates with Allure reporting.
@@ -20,22 +19,17 @@ Records and generates end-to-end test scripts using Playwright Codegen with mult
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install playwright-test-generator-codegen
+npx skills add agentskillexchange/skills --skill playwright-test-generator-codegen
 ```
 
 ### Claude Code
 ```bash
-claude mcp add playwright-test-generator-codegen
+npx skills add agentskillexchange/skills --skill playwright-test-generator-codegen -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "playwright-test-generator-codegen": {
-    "source": "agentskillexchange"
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill playwright-test-generator-codegen -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install playwright-test-generator-codegen
 
 ### Codex
 ```bash
-codex install playwright-test-generator-codegen
+npx skills add agentskillexchange/skills --skill playwright-test-generator-codegen -a codex
 ```
-
 ## Details
 
 | Field | Value |

@@ -3,41 +3,33 @@ name: "Kubernetes Helm Chart Scaffold Builder"
 description: "Generates Helm v3 chart scaffolds with templated deployments, services, ingress rules, and values.yaml schemas. Validates charts against Helm lint and Kubeval for Kubernetes API version compatibility."
 category: "Templates & Workflows"
 framework: "MCP-compatible"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.5
 reviews: 75
 creator: "David Nguyen"
 creator_handle: "@davidnguyen"
-creator_verified: yes
-source: "https://agentskillexchange.com/skill/kubernetes-helm-chart-scaffold-builder/"
+creator_verified: true
+source: "https://agentskillexchange.com/skills/kubernetes-helm-chart-scaffold-builder/"
 ---
-
 # Kubernetes Helm Chart Scaffold Builder
 
 Generates Helm v3 chart scaffolds with templated deployments, services, ingress rules, and values.yaml schemas. Validates charts against Helm lint and Kubeval for Kubernetes API version compatibility.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx agentskills install kubernetes-helm-chart-scaffold-builder
+npx skills add agentskillexchange/skills --skill kubernetes-helm-chart-scaffold-builder
 ```
 
 ### Claude Code
 ```bash
-claude mcp add kubernetes-helm-chart-scaffold-builder
+npx skills add agentskillexchange/skills --skill kubernetes-helm-chart-scaffold-builder -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "kubernetes-helm-chart-scaffold-builder": {
-    "enabled": true
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill kubernetes-helm-chart-scaffold-builder -a cursor
 ```
 
 ### OpenClaw
@@ -47,9 +39,8 @@ clawhub install kubernetes-helm-chart-scaffold-builder
 
 ### Codex
 ```bash
-codex install kubernetes-helm-chart-scaffold-builder
+npx skills add agentskillexchange/skills --skill kubernetes-helm-chart-scaffold-builder -a codex
 ```
-
 ## Details
 
 | Field | Value |

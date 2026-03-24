@@ -6,12 +6,11 @@ framework: "OpenClaw"
 verification: verified_metadata
 rating: 4.0
 reviews: 26
-creator: Omar Hassan
-creator_handle: ohassan
+creator: "Omar Hassan"
+creator_handle: "@ohassan"
 creator_verified: true
-source: https://agentskillexchange.com/skill/nano-pdf-editor/
+source: "https://agentskillexchange.com/skills/nano-pdf-editor/"
 ---
-
 # Nano PDF Editor
 
 Edit PDFs with natural-language instructions.

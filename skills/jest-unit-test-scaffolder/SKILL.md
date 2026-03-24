@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.4
 reviews: 76
-creator: Alex Thompson
-creator_handle: alexthompson
+creator: "Alex Thompson"
+creator_handle: "@alexthompson"
 creator_verified: true
-source: https://agentskillexchange.com/skill/jest-unit-test-scaffolder/
+source: "https://agentskillexchange.com/skills/jest-unit-test-scaffolder/"
 ---
-
 # Jest Unit Test Scaffolder
 
 Generate Jest unit test files, mock factories, and test utilities from existing TypeScript or JavaScript source files through an AI agent. Supports snapshot testing setup, module mocking patterns, and coverage threshold configuration.

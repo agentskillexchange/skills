@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: verified_metadata
 rating: 4.8
 reviews: 80
-creator: Tom Anderson
-creator_handle: tanderson
+creator: "Tom Anderson"
+creator_handle: "@tanderson"
 creator_verified: false
-source: https://agentskillexchange.com/skill/circleci-flaky-test-detector-2/
+source: "https://agentskillexchange.com/skills/circleci-flaky-test-detector-2/"
 ---
-
 # CircleCI Flaky Test Detector
 
 Queries CircleCI Insights API to identify test cases that flip between pass and fail across recent runs. Produces a ranked list by failure rate with quarantine strategies for Jest, pytest, RSpec, and JUnit.

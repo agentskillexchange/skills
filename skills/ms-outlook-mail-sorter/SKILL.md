@@ -3,15 +3,14 @@ name: "Microsoft Outlook Mail Sorter"
 description: "Automatically triages Microsoft Outlook emails using the Microsoft Graph API /me/messages endpoint. Applies intelligent categorization with customizable rules and moves messages to appropriate folders."
 category: "Calendar, Email & Productivity"
 framework: "Claude Code"
-verification: ""
+verification: listed
 rating: 0
 reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/ms-outlook-mail-sorter/"
+source: "https://agentskillexchange.com/skills/ms-outlook-mail-sorter/"
 ---
-
 # Microsoft Outlook Mail Sorter
 
 Automatically triages Microsoft Outlook emails using the Microsoft Graph API /me/messages endpoint. Applies intelligent categorization with customizable rules and moves messages to appropriate folders.
@@ -20,16 +19,18 @@ Automatically triages Microsoft Outlook emails using the Microsoft Graph API /me
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install ms-outlook-mail-sorter
+npx skills add agentskillexchange/skills --skill ms-outlook-mail-sorter
 ```
 
 ### Claude Code
 ```bash
-claude install-skill ms-outlook-mail-sorter
+npx skills add agentskillexchange/skills --skill ms-outlook-mail-sorter -a claude-code
 ```
 
 ### Cursor
-Download from [Agent Skill Exchange](https://agentskillexchange.com/skill/ms-outlook-mail-sorter/) and add to your `.cursor/skills/` directory.
+```bash
+npx skills add agentskillexchange/skills --skill ms-outlook-mail-sorter -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -38,9 +39,8 @@ clawhub install ms-outlook-mail-sorter
 
 ### Codex
 ```bash
-codex install-skill ms-outlook-mail-sorter
+npx skills add agentskillexchange/skills --skill ms-outlook-mail-sorter -a codex
 ```
-
 ## Details
 
 | Field | Value |

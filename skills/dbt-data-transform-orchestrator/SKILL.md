@@ -3,36 +3,33 @@ name: "dbt Data Transform Orchestrator"
 description: "Integrates with dbt Cloud Administrative API v2 to trigger and monitor data transformation jobs. Manages model runs, source freshness checks, and test execution through dbt API endpoints with Snowflake and BigQuery adapter support."
 category: "Data Extraction & Transformation"
 framework: "Custom Agents"
-verification: "✅ Verified"
-rating: "4.9"
-reviews: "45"
+verification: security_reviewed
+rating: 4.9
+reviews: 45
 creator: "Ava Johnson"
 creator_handle: "@avajohnson"
-creator_verified: "true"
-source: "https://agentskillexchange.com/skill/dbt-data-transform-orchestrator/"
+creator_verified: true
+source: "https://agentskillexchange.com/skills/dbt-data-transform-orchestrator/"
 ---
-
 # dbt Data Transform Orchestrator
 
 Integrates with dbt Cloud Administrative API v2 to trigger and monitor data transformation jobs. Manages model runs, source freshness checks, and test execution through dbt API endpoints with Snowflake and BigQuery adapter support.
 
 ## Installation
 
-Install this skill in your AI coding agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install dbt-data-transform-orchestrator
+npx skills add agentskillexchange/skills --skill dbt-data-transform-orchestrator
 ```
 
 ### Claude Code
 ```bash
-claude skills add dbt-data-transform-orchestrator
+npx skills add agentskillexchange/skills --skill dbt-data-transform-orchestrator -a claude-code
 ```
 
 ### Cursor
-```
-Install from Cursor Settings → Skills → Add Skill → "dbt Data Transform Orchestrator"
+```bash
+npx skills add agentskillexchange/skills --skill dbt-data-transform-orchestrator -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install dbt-data-transform-orchestrator
 
 ### Codex
 ```bash
-codex skills add dbt-data-transform-orchestrator
+npx skills add agentskillexchange/skills --skill dbt-data-transform-orchestrator -a codex
 ```
-
 ## Details
 
 | Field | Value |

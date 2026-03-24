@@ -6,12 +6,11 @@ framework: "OpenClaw"
 verification: security_reviewed
 rating: 4.7
 reviews: 41
-creator: Maya Johnson
-creator_handle: mayaj
+creator: "Maya Johnson"
+creator_handle: "@mayaj"
 creator_verified: false
-source: https://agentskillexchange.com/skill/sonarqube-code-quality-scanner/
+source: "https://agentskillexchange.com/skills/sonarqube-code-quality-scanner/"
 ---
-
 # SonarQube Code Quality Scanner
 
 Runs SonarQube static analysis via the SonarQube Web API and sonar-scanner CLI. Detects code smells, bugs, and security vulnerabilities across 30+ languages with quality gate enforcement.

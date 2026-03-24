@@ -3,35 +3,34 @@ name: "GitLab CI Pipeline Cost Calculator"
 description: "Calculates CI/CD spend using the GitLab REST API v4 pipelines and jobs endpoints. Tracks runner minutes by project, estimates cost per pipeline via GitLab compute minute pricing, and identifies exp..."
 category: "CI/CD Integrations"
 framework: "Custom Agents"
-verification: "security_reviewed"
+verification: security_reviewed
 rating: 0
 reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/gitlab-ci-pipeline-cost-calculator/"
+source: "https://agentskillexchange.com/skills/gitlab-ci-pipeline-cost-calculator/"
 ---
-
 # GitLab CI Pipeline Cost Calculator
 
 Calculates CI/CD spend using the GitLab REST API v4 pipelines and jobs endpoints. Tracks runner minutes by project, estimates cost per pipeline via GitLab compute minute pricing, and identifies expensive jobs for optimization.
 
 ## Installation
 
-Install this skill across different agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install gitlab-ci-pipeline-cost-calculator
+npx skills add agentskillexchange/skills --skill gitlab-ci-pipeline-cost-calculator
 ```
 
 ### Claude Code
 ```bash
-claude skills add gitlab-ci-pipeline-cost-calculator
+npx skills add agentskillexchange/skills --skill gitlab-ci-pipeline-cost-calculator -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills/` directory or install via Cursor settings.
+```bash
+npx skills add agentskillexchange/skills --skill gitlab-ci-pipeline-cost-calculator -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install gitlab-ci-pipeline-cost-calculator
 
 ### Codex
 ```bash
-codex skills add gitlab-ci-pipeline-cost-calculator
+npx skills add agentskillexchange/skills --skill gitlab-ci-pipeline-cost-calculator -a codex
 ```
-
 ## Details
 
 | Property | Value |

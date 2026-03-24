@@ -6,12 +6,11 @@ framework: "Codex"
 verification: verified_metadata
 rating: 4.6
 reviews: 35
-creator: James Whitfield
-creator_handle: jwhitfield
+creator: "James Whitfield"
+creator_handle: "@jwhitfield"
 creator_verified: true
-source: https://agentskillexchange.com/skill/github-actions-ci-pipeline-builder-2/
+source: "https://agentskillexchange.com/skills/github-actions-ci-pipeline-builder-2/"
 ---
-
 # GitHub Actions CI Pipeline Builder
 
 Generates and manages GitHub Actions workflow YAML files using the actions/checkout, actions/setup-node, and actions/cache actions. Supports matrix builds, artifact uploads, and environment deployments.

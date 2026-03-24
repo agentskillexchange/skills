@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.3
 reviews: 27
-creator: Kai Nakamura
-creator_handle: kainakamura
+creator: "Kai Nakamura"
+creator_handle: "@kainakamura"
 creator_verified: true
-source: https://agentskillexchange.com/skill/snowflake-mcp-server/
+source: "https://agentskillexchange.com/skills/snowflake-mcp-server/"
 ---
-
 # Snowflake MCP Server
 
 Use this skill to query Snowflake data warehouses, inspect schemas, monitor job execution, and manage Snowflake resources through MCP. It enables agents to access enterprise data warehouse capabilities for analytics, reporting, and data pipeline management. Trigger when you need to run analytical queries, check data pipeline status, or interact with Snowflake programmatically.

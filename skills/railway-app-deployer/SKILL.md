@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.9
 reviews: 44
-creator: James Whitfield
-creator_handle: jwhitfield
+creator: "James Whitfield"
+creator_handle: "@jwhitfield"
 creator_verified: true
-source: https://agentskillexchange.com/skill/railway-app-deployer/
+source: "https://agentskillexchange.com/skills/railway-app-deployer/"
 ---
-
 # Railway App Deployer
 
 Deploy and manage Railway applications, services, and databases through the Railway CLI and GraphQL API. Enables AI agents to create projects, link GitHub repos, manage environment variables, and monitor deployment status and logs.

@@ -3,33 +3,34 @@ name: "GitLab CI Pipeline Validator"
 description: "Validates .gitlab-ci.yml files against GitLab CI/CD schema using the gitlab-ci-lint API endpoint. Catches stage dependency errors, invalid artifact paths, and misconfigured rules before commit."
 category: "CI/CD Integrations"
 framework: "Claude Code"
-verification: "Verified"
-rating: "4.8"
-reviews: "36"
+verification: verified_metadata
+rating: 4.8
+reviews: 36
 creator: "Leo Park"
 creator_handle: "@leopark_ai"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/gitlab-ci-pipeline-validator/"
+source: "https://agentskillexchange.com/skills/gitlab-ci-pipeline-validator/"
 ---
-
 # GitLab CI Pipeline Validator
 
 Validates .gitlab-ci.yml files against GitLab CI/CD schema using the gitlab-ci-lint API endpoint. Catches stage dependency errors, invalid artifact paths, and misconfigured rules before commit.
 
 ## Installation
 
-### Any AI Agent (npx)
+### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install gitlab-ci-pipeline-validator
+npx skills add agentskillexchange/skills --skill gitlab-ci-pipeline-validator
 ```
 
 ### Claude Code
 ```bash
-claude skills add gitlab-ci-pipeline-validator
+npx skills add agentskillexchange/skills --skill gitlab-ci-pipeline-validator -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` directory or install via Cursor settings.
+```bash
+npx skills add agentskillexchange/skills --skill gitlab-ci-pipeline-validator -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -38,9 +39,8 @@ clawhub install gitlab-ci-pipeline-validator
 
 ### Codex
 ```bash
-codex skills install gitlab-ci-pipeline-validator
+npx skills add agentskillexchange/skills --skill gitlab-ci-pipeline-validator -a codex
 ```
-
 ## Details
 
 | Field | Value |

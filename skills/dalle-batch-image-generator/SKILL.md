@@ -3,15 +3,14 @@ name: "DALL-E Batch Image Generator"
 description: "Generates and manages batch image creation jobs using the OpenAI Images API /v1/images/generations endpoint. Supports DALL-E 3 with size, quality, and style parameters plus automatic prompt revision tracking."
 category: "Image & Creative Automation"
 framework: "Claude Agents"
-verification: ""
+verification: listed
 rating: 0
 reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/dalle-batch-image-generator/"
+source: "https://agentskillexchange.com/skills/dalle-batch-image-generator/"
 ---
-
 # DALL-E Batch Image Generator
 
 Generates and manages batch image creation jobs using the OpenAI Images API /v1/images/generations endpoint. Supports DALL-E 3 with size, quality, and style parameters plus automatic prompt revision tracking.
@@ -20,16 +19,18 @@ Generates and manages batch image creation jobs using the OpenAI Images API /v1/
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install dalle-batch-image-generator
+npx skills add agentskillexchange/skills --skill dalle-batch-image-generator
 ```
 
 ### Claude Code
 ```bash
-claude install-skill dalle-batch-image-generator
+npx skills add agentskillexchange/skills --skill dalle-batch-image-generator -a claude-code
 ```
 
 ### Cursor
-Download from [Agent Skill Exchange](https://agentskillexchange.com/skill/dalle-batch-image-generator/) and add to your `.cursor/skills/` directory.
+```bash
+npx skills add agentskillexchange/skills --skill dalle-batch-image-generator -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -38,9 +39,8 @@ clawhub install dalle-batch-image-generator
 
 ### Codex
 ```bash
-codex install-skill dalle-batch-image-generator
+npx skills add agentskillexchange/skills --skill dalle-batch-image-generator -a codex
 ```
-
 ## Details
 
 | Field | Value |

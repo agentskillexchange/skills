@@ -3,15 +3,14 @@ name: "Database Migration Validator"
 description: "Validates SQL database migrations for safety using pg_stat_statements analysis and pt-online-schema-change dry-run mode. Checks for long-running locks, missing indexes on foreign keys, and backward..."
 category: "Runbooks & Diagnostics"
 framework: "OpenClaw"
-verification: "verified_metadata"
-rating: "0"
-reviews: "0"
+verification: verified_metadata
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/database-migration-validator/"
+source: "https://agentskillexchange.com/skills/database-migration-validator/"
 ---
-
 # Database Migration Validator
 
 Validates SQL database migrations for safety using pg_stat_statements analysis and pt-online-schema-change dry-run mode. Checks for long-running locks, missing indexes on foreign keys, and backward-incompatible column changes.
@@ -20,22 +19,17 @@ Validates SQL database migrations for safety using pg_stat_statements analysis a
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install database-migration-validator
+npx skills add agentskillexchange/skills --skill database-migration-validator
 ```
 
 ### Claude Code
 ```bash
-claude mcp add database-migration-validator
+npx skills add agentskillexchange/skills --skill database-migration-validator -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "database-migration-validator": {
-    "enabled": true
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill database-migration-validator -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install database-migration-validator
 
 ### Codex
 ```bash
-codex install database-migration-validator
+npx skills add agentskillexchange/skills --skill database-migration-validator -a codex
 ```
-
 ## Details
 
 | Field | Value |

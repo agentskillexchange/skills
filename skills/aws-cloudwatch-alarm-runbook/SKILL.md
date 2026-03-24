@@ -3,15 +3,14 @@ name: "AWS CloudWatch Alarm Runbook"
 description: "Executes automated diagnostic runbooks triggered by AWS CloudWatch alarms using the AWS SDK (boto3) and CloudWatch Logs Insights. Correlates metrics, traces, and log patterns for incident response."
 category: "Runbooks & Diagnostics"
 framework: "OpenClaw"
-verification: "community"
-rating: "4.9"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
-creator_verified: 
-source: "https://agentskillexchange.com/skill/aws-cloudwatch-alarm-runbook/"
+creator_verified: false
+source: "https://agentskillexchange.com/skills/aws-cloudwatch-alarm-runbook/"
 ---
-
 # AWS CloudWatch Alarm Runbook
 
 Executes automated diagnostic runbooks triggered by AWS CloudWatch alarms using the AWS SDK (boto3) and CloudWatch Logs Insights. Correlates metrics, traces, and log patterns for incident response.
@@ -20,20 +19,17 @@ Executes automated diagnostic runbooks triggered by AWS CloudWatch alarms using 
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install aws-cloudwatch-alarm-runbook
+npx skills add agentskillexchange/skills --skill aws-cloudwatch-alarm-runbook
 ```
 
 ### Claude Code
 ```bash
-claude skills add aws-cloudwatch-alarm-runbook
+npx skills add agentskillexchange/skills --skill aws-cloudwatch-alarm-runbook -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` configuration:
-```json
-{
-  "skills": ["aws-cloudwatch-alarm-runbook"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill aws-cloudwatch-alarm-runbook -a cursor
 ```
 
 ### OpenClaw
@@ -43,9 +39,8 @@ clawhub install aws-cloudwatch-alarm-runbook
 
 ### Codex
 ```bash
-codex skills add aws-cloudwatch-alarm-runbook
+npx skills add agentskillexchange/skills --skill aws-cloudwatch-alarm-runbook -a codex
 ```
-
 ## Details
 
 | Field | Value |

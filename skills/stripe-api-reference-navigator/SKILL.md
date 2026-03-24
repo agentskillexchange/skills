@@ -3,41 +3,33 @@ name: "Stripe API Reference Navigator"
 description: "Navigates and queries the Stripe REST API documentation using stripe-node SDK methods. Resolves payment intent lifecycle, webhook event schemas, and Connect platform payout structures with type-safe parameter validation."
 category: "Library & API Reference"
 framework: "OpenClaw"
-verification: "community"
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: ""
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/stripe-api-reference-navigator/"
+source: "https://agentskillexchange.com/skills/stripe-api-reference-navigator/"
 ---
-
 # Stripe API Reference Navigator
 
 Navigates and queries the Stripe REST API documentation using stripe-node SDK methods. Resolves payment intent lifecycle, webhook event schemas, and Connect platform payout structures with type-safe parameter validation.
 
 ## Installation
 
-Install this skill using one of the following methods:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install stripe-api-reference-navigator
+npx skills add agentskillexchange/skills --skill stripe-api-reference-navigator
 ```
 
 ### Claude Code
 ```bash
-claude mcp add stripe-api-reference-navigator
+npx skills add agentskillexchange/skills --skill stripe-api-reference-navigator -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "stripe-api-reference-navigator": {
-    "source": "https://agentskillexchange.com/skill/stripe-api-reference-navigator/"
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill stripe-api-reference-navigator -a cursor
 ```
 
 ### OpenClaw
@@ -47,9 +39,8 @@ clawhub install stripe-api-reference-navigator
 
 ### Codex
 ```bash
-codex install stripe-api-reference-navigator
+npx skills add agentskillexchange/skills --skill stripe-api-reference-navigator -a codex
 ```
-
 ## Details
 
 | Field | Value |

@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.9
 reviews: 18
-creator: Chris Lee
-creator_handle: chrislee
+creator: "Chris Lee"
+creator_handle: "@chrislee"
 creator_verified: false
-source: https://agentskillexchange.com/skill/notion-ai-workspace/
+source: "https://agentskillexchange.com/skills/notion-ai-workspace/"
 ---
-
 # Notion AI Workspace
 
 Leverage Notion AI capabilities alongside the Notion API through an AI agent to generate content, summarize pages, and create structured database records from unstructured input. Supports automated knowledge base population and meeting notes processing workflows.

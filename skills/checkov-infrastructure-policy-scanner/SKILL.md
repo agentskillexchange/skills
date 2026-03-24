@@ -3,35 +3,34 @@ name: "Checkov Infrastructure Policy Scanner"
 description: "Scans IaC files with Bridgecrew Checkov for policy violations across Terraform, CloudFormation, Kubernetes, and Dockerfile configurations. Supports custom Python-based policy authoring and Prisma Cloud integration."
 category: "Security & Verification"
 framework: "Codex"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.1
 reviews: 58
 creator: "James Kim"
 creator_handle: "@jameskim_ai"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/checkov-infrastructure-policy-scanner/"
+source: "https://agentskillexchange.com/skills/checkov-infrastructure-policy-scanner/"
 ---
-
 # Checkov Infrastructure Policy Scanner
 
 Scans IaC files with Bridgecrew Checkov for policy violations across Terraform, CloudFormation, Kubernetes, and Dockerfile configurations. Supports custom Python-based policy authoring and Prisma Cloud integration.
 
 ## Installation
 
-Install this skill in your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install checkov-infrastructure-policy-scanner
+npx skills add agentskillexchange/skills --skill checkov-infrastructure-policy-scanner
 ```
 
 ### Claude Code
 ```bash
-claude install-skill checkov-infrastructure-policy-scanner
+npx skills add agentskillexchange/skills --skill checkov-infrastructure-policy-scanner -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills/` directory or install via Cursor Settings → Skills.
+```bash
+npx skills add agentskillexchange/skills --skill checkov-infrastructure-policy-scanner -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install checkov-infrastructure-policy-scanner
 
 ### Codex
 ```bash
-codex install-skill checkov-infrastructure-policy-scanner
+npx skills add agentskillexchange/skills --skill checkov-infrastructure-policy-scanner -a codex
 ```
-
 ## Details
 
 | Field | Value |

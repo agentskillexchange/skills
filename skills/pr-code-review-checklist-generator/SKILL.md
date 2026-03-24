@@ -3,15 +3,14 @@ name: "PR Code Review Checklist Generator"
 description: "Reads a GitHub pull request diff and generates a structured review checklist covering security, performance, test coverage, and style concerns specific to the changed files. Detects language and framework from the diff. Outputs ready-to-paste Markdown."
 category: "Code Quality & Review"
 framework: "OpenClaw"
-verification: 
+verification: listed
 rating: 4.8
 reviews: 25
-creator: Nathan Brooks
-creator_handle: nbrooks
+creator: "Nathan Brooks"
+creator_handle: "@nbrooks"
 creator_verified: false
-source: https://agentskillexchange.com/skill/pr-code-review-checklist-generator/
+source: "https://agentskillexchange.com/skills/pr-code-review-checklist-generator/"
 ---
-
 # PR Code Review Checklist Generator
 
 Reads a GitHub pull request diff and generates a structured review checklist covering security, performance, test coverage, and style concerns specific to the changed files. Detects language and framework from the diff. Outputs ready-to-paste Markdown.

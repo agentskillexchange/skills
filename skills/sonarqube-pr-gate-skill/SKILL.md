@@ -3,15 +3,14 @@ name: "SonarQube PR Gate"
 description: "Integrates SonarQube quality gates into pull request workflows via the SonarQube Web API /api/qualitygates/project_status. Blocks merges when code smells, duplications, or coverage thresholds fail and posts inline annotations using the GitHub Checks API."
 category: "Code Quality & Review"
 framework: "Codex"
-verification: "verified_metadata"
-rating: "0"
-reviews: "0"
+verification: verified_metadata
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/sonarqube-pr-gate-skill/"
+source: "https://agentskillexchange.com/skills/sonarqube-pr-gate-skill/"
 ---
-
 # SonarQube PR Gate
 
 Integrates SonarQube quality gates into pull request workflows via the SonarQube Web API /api/qualitygates/project_status. Blocks merges when code smells, duplications, or coverage thresholds fail and posts inline annotations using the GitHub Checks API.
@@ -20,16 +19,18 @@ Integrates SonarQube quality gates into pull request workflows via the SonarQube
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install sonarqube-pr-gate-skill
+npx skills add agentskillexchange/skills --skill sonarqube-pr-gate-skill
 ```
 
 ### Claude Code
 ```bash
-claude install-skill sonarqube-pr-gate-skill
+npx skills add agentskillexchange/skills --skill sonarqube-pr-gate-skill -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills/` directory or install via Cursor Settings → Skills.
+```bash
+npx skills add agentskillexchange/skills --skill sonarqube-pr-gate-skill -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -38,9 +39,8 @@ clawhub install sonarqube-pr-gate-skill
 
 ### Codex
 ```bash
-codex install-skill sonarqube-pr-gate-skill
+npx skills add agentskillexchange/skills --skill sonarqube-pr-gate-skill -a codex
 ```
-
 ## Details
 
 | | |

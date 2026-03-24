@@ -3,36 +3,33 @@ name: "GitHub Actions Workflow Builder"
 description: "Generates and validates GitHub Actions YAML workflows using the actions/checkout, actions/setup-node, and actions/cache actions. Supports matrix strategies, reusable workflows, and OIDC authentication for cloud deployments."
 category: "CI/CD Integrations"
 framework: "Cursor"
-verification: ""
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
-creator_verified: "false"
-source: "https://agentskillexchange.com/skill/github-actions-workflow-builder/"
+creator_verified: false
+source: "https://agentskillexchange.com/skills/github-actions-workflow-builder/"
 ---
-
 # GitHub Actions Workflow Builder
 
 Generates and validates GitHub Actions YAML workflows using the actions/checkout, actions/setup-node, and actions/cache actions. Supports matrix strategies, reusable workflows, and OIDC authentication for cloud deployments.
 
 ## Installation
 
-Install this skill on your preferred agent platform:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install github-actions-workflow-builder
+npx skills add agentskillexchange/skills --skill github-actions-workflow-builder
 ```
 
 ### Claude Code
 ```bash
-claude mcp add github-actions-workflow-builder
+npx skills add agentskillexchange/skills --skill github-actions-workflow-builder -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor skills install github-actions-workflow-builder
+npx skills add agentskillexchange/skills --skill github-actions-workflow-builder -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install github-actions-workflow-builder
 
 ### Codex
 ```bash
-codex install github-actions-workflow-builder
+npx skills add agentskillexchange/skills --skill github-actions-workflow-builder -a codex
 ```
-
 ## Details
 
 | Field | Value |

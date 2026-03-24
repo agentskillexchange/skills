@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.7
 reviews: 54
-creator: Mia Zhang
-creator_handle: miazhang
+creator: "Mia Zhang"
+creator_handle: "@miazhang"
 creator_verified: true
-source: https://agentskillexchange.com/skill/unit-test-generator-skill/
+source: "https://agentskillexchange.com/skills/unit-test-generator-skill/"
 ---
-
 # Unit Test Generator Skill
 
 Use this skill to generate unit test stubs and basic test cases from function signatures, types, and docstrings. It creates test files with happy path, edge case, and error condition tests using the project’s testing framework. Trigger when adding tests to untested code, bootstrapping test coverage, or generating test templates for new functions.

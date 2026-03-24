@@ -3,39 +3,33 @@ name: "Nginx Config Validator Runbook"
 description: "Validates Nginx configurations using nginx -t syntax checking, the crossplane Python parser for structural analysis, and gixy security analyzer. Detects misconfigurations, SSL issues, and security vulnerabilities."
 category: "Runbooks & Diagnostics"
 framework: "Claude Agents"
-verification: "Security Reviewed"
-rating: "4.8"
-reviews: "83"
+verification: security_reviewed
+rating: 4.8
+reviews: 83
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/nginx-config-validator-runbook/"
+source: "https://agentskillexchange.com/skills/nginx-config-validator-runbook/"
 ---
-
 # Nginx Config Validator Runbook
 
 Validates Nginx configurations using nginx -t syntax checking, the crossplane Python parser for structural analysis, and gixy security analyzer. Detects misconfigurations, SSL issues, and security vulnerabilities.
 
 ## Installation
 
-Install this skill across different AI coding agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install nginx-config-validator-runbook
+npx skills add agentskillexchange/skills --skill nginx-config-validator-runbook
 ```
 
 ### Claude Code
 ```bash
-claude skills add nginx-config-validator-runbook
+npx skills add agentskillexchange/skills --skill nginx-config-validator-runbook -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` configuration:
-```json
-{
-  "skills": ["nginx-config-validator-runbook"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill nginx-config-validator-runbook -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install nginx-config-validator-runbook
 
 ### Codex
 ```bash
-codex skills add nginx-config-validator-runbook
+npx skills add agentskillexchange/skills --skill nginx-config-validator-runbook -a codex
 ```
-
 ## Details
 
 | Property | Value |

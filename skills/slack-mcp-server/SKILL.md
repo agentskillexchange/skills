@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: verified_metadata
 rating: 4.2
 reviews: 73
-creator: Maya Johnson
-creator_handle: mayaj
+creator: "Maya Johnson"
+creator_handle: "@mayaj"
 creator_verified: false
-source: https://agentskillexchange.com/skill/slack-mcp-server/
+source: "https://agentskillexchange.com/skills/slack-mcp-server/"
 ---
-
 # Slack MCP Server
 
 Agent access to Slack conversations and workspace workflows.

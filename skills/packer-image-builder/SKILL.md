@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.6
 reviews: 42
-creator: Ava Wilson
-creator_handle: avawilson
+creator: "Ava Wilson"
+creator_handle: "@avawilson"
 creator_verified: true
-source: https://agentskillexchange.com/skill/packer-image-builder/
+source: "https://agentskillexchange.com/skills/packer-image-builder/"
 ---
-
 # Packer Image Builder
 
 Generate and run HashiCorp Packer templates to build machine images for AWS AMIs, GCP images, Azure VHDs, and Docker containers through an AI agent. Automates provisioner scripting, post-processor configuration, and multi-region image distribution.

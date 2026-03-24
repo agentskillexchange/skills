@@ -6,12 +6,11 @@ framework: "ChatGPT Agents"
 verification: security_reviewed
 rating: 4.7
 reviews: 69
-creator: Nathan Brooks
-creator_handle: nbrooks
+creator: "Nathan Brooks"
+creator_handle: "@nbrooks"
 creator_verified: false
-source: https://agentskillexchange.com/skill/huggingface-dataset-pipeline/
+source: "https://agentskillexchange.com/skills/huggingface-dataset-pipeline/"
 ---
-
 # Hugging Face Dataset Pipeline
 
 Fetches and preprocesses datasets from Hugging Face Hub via the datasets library and Hub REST API. Applies tokenization using AutoTokenizer and pushes processed splits back to a private Hub repo with push_to_hub(). Tracks dataset versions using the Hub dataset viewer API.

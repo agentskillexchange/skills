@@ -3,15 +3,14 @@ name: "Apify Web Scraper Orchestrator"
 description: "Manages Apify actor runs for structured web scraping using the Apify REST API v2. Handles proxy rotation via Apify Proxy, dataset exports, and webhook-triggered post-processing pipelines."
 category: "Research & Scraping"
 framework: "MCP-compatible"
-verification: "community"
+verification: listed
 rating: 0
 reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/apify-web-scraper-orchestrator/"
+source: "https://agentskillexchange.com/skills/apify-web-scraper-orchestrator/"
 ---
-
 # Apify Web Scraper Orchestrator
 
 Manages Apify actor runs for structured web scraping using the Apify REST API v2. Handles proxy rotation via Apify Proxy, dataset exports, and webhook-triggered post-processing pipelines.
@@ -20,16 +19,18 @@ Manages Apify actor runs for structured web scraping using the Apify REST API v2
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install apify-web-scraper-orchestrator
+npx skills add agentskillexchange/skills --skill apify-web-scraper-orchestrator
 ```
 
 ### Claude Code
 ```bash
-claude mcp add apify-web-scraper-orchestrator
+npx skills add agentskillexchange/skills --skill apify-web-scraper-orchestrator -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills/apify-web-scraper-orchestrator` in your project.
+```bash
+npx skills add agentskillexchange/skills --skill apify-web-scraper-orchestrator -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -38,9 +39,8 @@ clawhub install apify-web-scraper-orchestrator
 
 ### Codex
 ```bash
-codex install apify-web-scraper-orchestrator
+npx skills add agentskillexchange/skills --skill apify-web-scraper-orchestrator -a codex
 ```
-
 ## Details
 
 | Field | Value |

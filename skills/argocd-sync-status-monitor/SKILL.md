@@ -3,15 +3,14 @@ name: "ArgoCD Sync Status Monitor"
 description: "Polls ArgoCD application sync status via its REST API, detects OutOfSync and Degraded states, and reports which Kubernetes resources drifted and why. Compares live cluster state against Git and outputs a diff-style summary for GitOps teams."
 category: "CI/CD Integrations"
 framework: "OpenClaw"
-verification: 
+verification: listed
 rating: 4.6
 reviews: 57
-creator: Sarah Chen
-creator_handle: sarahchen
+creator: "Sarah Chen"
+creator_handle: "@sarahchen"
 creator_verified: true
-source: https://agentskillexchange.com/skill/argocd-sync-status-monitor/
+source: "https://agentskillexchange.com/skills/argocd-sync-status-monitor/"
 ---
-
 # ArgoCD Sync Status Monitor
 
 Polls ArgoCD application sync status via its REST API, detects OutOfSync and Degraded states, and reports which Kubernetes resources drifted and why. Compares live cluster state against Git and outputs a diff-style summary for GitOps teams.

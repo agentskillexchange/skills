@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.4
 reviews: 15
-creator: Zara Ahmed
-creator_handle: zaraahmed
+creator: "Zara Ahmed"
+creator_handle: "@zaraahmed"
 creator_verified: true
-source: https://agentskillexchange.com/skill/jetbrains-ide-agent/
+source: "https://agentskillexchange.com/skills/jetbrains-ide-agent/"
 ---
-
 # JetBrains IDE Agent
 
 Automate JetBrains IDE tasks including project indexing, run configuration management, and plugin installation through the JetBrains Gateway API and IDE scripting. Enables AI agents to trigger builds, run tests, and inspect code analysis results.

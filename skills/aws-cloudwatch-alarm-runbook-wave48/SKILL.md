@@ -6,12 +6,11 @@ framework: "Claude Agents"
 verification: verified_metadata
 rating: 4.8
 reviews: 85
-creator: Yuki Tanaka
-creator_handle: yukitanaka
+creator: "Yuki Tanaka"
+creator_handle: "@yukitanaka"
 creator_verified: true
-source: https://agentskillexchange.com/skill/aws-cloudwatch-alarm-runbook-wave48/
+source: "https://agentskillexchange.com/skills/aws-cloudwatch-alarm-runbook-wave48/"
 ---
-
 # AWS CloudWatch Alarm Runbook
 
 Automates incident response for AWS CloudWatch alarms using boto3, the CloudWatch GetMetricData API, and AWS Systems Manager runbook documents. Maps alarm states to diagnostic procedures and remediation actions.

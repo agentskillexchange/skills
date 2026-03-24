@@ -3,35 +3,34 @@ name: "Headless CMS GraphQL Connector"
 description: "Connects headless CMS backends (WordPress WPGraphQL, Strapi, Contentful) to frontend frameworks using Apollo Client and urql. Handles content previews, ISR cache invalidation, and webhook-driven rebuilds."
 category: "WordPress & CMS"
 framework: "Gemini"
-verification: ""
+verification: listed
 rating: 0
 reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/headless-cms-graphql-connector/"
+source: "https://agentskillexchange.com/skills/headless-cms-graphql-connector/"
 ---
-
 # Headless CMS GraphQL Connector
 
 Connects headless CMS backends (WordPress WPGraphQL, Strapi, Contentful) to frontend frameworks using Apollo Client and urql. Handles content previews, ISR cache invalidation, and webhook-driven rebuilds.
 
 ## Installation
 
-Install this skill across different AI coding agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install headless-cms-graphql-connector
+npx skills add agentskillexchange/skills --skill headless-cms-graphql-connector
 ```
 
 ### Claude Code
 ```bash
-claude mcp add headless-cms-graphql-connector
+npx skills add agentskillexchange/skills --skill headless-cms-graphql-connector -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills/` directory or install via Cursor Settings → Skills.
+```bash
+npx skills add agentskillexchange/skills --skill headless-cms-graphql-connector -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install headless-cms-graphql-connector
 
 ### Codex
 ```bash
-codex install headless-cms-graphql-connector
+npx skills add agentskillexchange/skills --skill headless-cms-graphql-connector -a codex
 ```
-
 ## Details
 
 | Property | Value |

@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.9
 reviews: 21
-creator: Omar Hassan
-creator_handle: ohassan
+creator: "Omar Hassan"
+creator_handle: "@ohassan"
 creator_verified: true
-source: https://agentskillexchange.com/skill/environment-setup-skill/
+source: "https://agentskillexchange.com/skills/environment-setup-skill/"
 ---
-
 # Environment Setup Skill
 
 Use this skill to detect a project’s runtime requirements and automatically configure the local development environment including dependencies, environment variables, and toolchain. It reads package manifests, Dockerfiles, and README files to understand what is needed and sets it up. Trigger when onboarding to a new project, setting up a dev environment on a new machine, […]

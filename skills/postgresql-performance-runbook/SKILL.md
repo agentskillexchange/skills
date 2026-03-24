@@ -3,36 +3,33 @@ name: "PostgreSQL Performance Runbook"
 description: "Executes diagnostic queries against PostgreSQL using pg_stat_statements, pg_stat_activity, and pg_locks system views. Identifies slow queries, lock contention, bloated tables via pgstattuple, and generates EXPLAIN ANALYZE reports with buffer statistics."
 category: "Runbooks & Diagnostics"
 framework: "Codex"
-verification: "security_reviewed"
-rating: "0"
-reviews: "0"
+verification: security_reviewed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/postgresql-performance-runbook/"
+source: "https://agentskillexchange.com/skills/postgresql-performance-runbook/"
 ---
-
 # PostgreSQL Performance Runbook
 
 Executes diagnostic queries against PostgreSQL using pg_stat_statements, pg_stat_activity, and pg_locks system views. Identifies slow queries, lock contention, bloated tables via pgstattuple, and generates EXPLAIN ANALYZE reports with buffer statistics.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install postgresql-performance-runbook
+npx skills add agentskillexchange/skills --skill postgresql-performance-runbook
 ```
 
 ### Claude Code
 ```bash
-claude skills add postgresql-performance-runbook
+npx skills add agentskillexchange/skills --skill postgresql-performance-runbook -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor skills install postgresql-performance-runbook
+npx skills add agentskillexchange/skills --skill postgresql-performance-runbook -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install postgresql-performance-runbook
 
 ### Codex
 ```bash
-codex skills add postgresql-performance-runbook
+npx skills add agentskillexchange/skills --skill postgresql-performance-runbook -a codex
 ```
-
 ## Details
 
 | Field | Value |

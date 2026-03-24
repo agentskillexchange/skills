@@ -3,39 +3,33 @@ name: "Snyk Open Source Dependency Auditor"
 description: "Performs deep dependency analysis using the Snyk CLI and REST API to detect vulnerable transitive packages. Generates fix PRs with version pinning and patch recommendations."
 category: "Security & Verification"
 framework: "Cursor"
-verification: "✅ Verified"
-rating: "4.7"
-reviews: "41"
+verification: security_reviewed
+rating: 4.7
+reviews: 41
 creator: "Marcus Chen"
 creator_handle: "@marcuschen"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/snyk-open-source-dependency-auditor/"
+source: "https://agentskillexchange.com/skills/snyk-open-source-dependency-auditor/"
 ---
-
 # Snyk Open Source Dependency Auditor
 
 Performs deep dependency analysis using the Snyk CLI and REST API to detect vulnerable transitive packages. Generates fix PRs with version pinning and patch recommendations.
 
 ## Installation
 
-Install this skill across different AI agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install snyk-open-source-dependency-auditor
+npx skills add agentskillexchange/skills --skill snyk-open-source-dependency-auditor
 ```
 
 ### Claude Code
 ```bash
-claude mcp add snyk-open-source-dependency-auditor
+npx skills add agentskillexchange/skills --skill snyk-open-source-dependency-auditor -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["snyk-open-source-dependency-auditor"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill snyk-open-source-dependency-auditor -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install snyk-open-source-dependency-auditor
 
 ### Codex
 ```bash
-codex install snyk-open-source-dependency-auditor
+npx skills add agentskillexchange/skills --skill snyk-open-source-dependency-auditor -a codex
 ```
-
 ## Details
 
 | Field | Value |

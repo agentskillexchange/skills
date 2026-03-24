@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.8
 reviews: 46
-creator: Alex Thompson
-creator_handle: alexthompson
+creator: "Alex Thompson"
+creator_handle: "@alexthompson"
 creator_verified: true
-source: https://agentskillexchange.com/skill/xero-accounting-agent/
+source: "https://agentskillexchange.com/skills/xero-accounting-agent/"
 ---
-
 # Xero Accounting Agent
 
 AI agent skill for Xero — query invoices, bills, bank transactions, contacts, and financial reports. Supports multi-currency, multi-entity, and Xero Payroll data extraction for financial analysis and reconciliation.

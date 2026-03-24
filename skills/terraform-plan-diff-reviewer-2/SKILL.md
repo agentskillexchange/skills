@@ -3,35 +3,34 @@ name: "Terraform Plan Diff Reviewer"
 description: "Parses terraform plan JSON output via the HashiCorp Terraform CLI and HCL2 parser to generate human-readable infrastructure change summaries. Flags destructive operations, cost estimation via Infra..."
 category: "CI/CD Integrations"
 framework: "Claude Code"
-verification: "security_reviewed"
+verification: security_reviewed
 rating: 0
 reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/terraform-plan-diff-reviewer-2/"
+source: "https://agentskillexchange.com/skills/terraform-plan-diff-reviewer-2/"
 ---
-
 # Terraform Plan Diff Reviewer
 
 Parses terraform plan JSON output via the HashiCorp Terraform CLI and HCL2 parser to generate human-readable infrastructure change summaries. Flags destructive operations, cost estimation via Infracost API, and drift detection.
 
 ## Installation
 
-Install this skill across different agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install terraform-plan-diff-reviewer-2
+npx skills add agentskillexchange/skills --skill terraform-plan-diff-reviewer-2
 ```
 
 ### Claude Code
 ```bash
-claude skills add terraform-plan-diff-reviewer-2
+npx skills add agentskillexchange/skills --skill terraform-plan-diff-reviewer-2 -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills/` directory or install via Cursor settings.
+```bash
+npx skills add agentskillexchange/skills --skill terraform-plan-diff-reviewer-2 -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install terraform-plan-diff-reviewer-2
 
 ### Codex
 ```bash
-codex skills add terraform-plan-diff-reviewer-2
+npx skills add agentskillexchange/skills --skill terraform-plan-diff-reviewer-2 -a codex
 ```
-
 ## Details
 
 | Property | Value |

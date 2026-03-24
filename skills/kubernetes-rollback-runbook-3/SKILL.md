@@ -3,39 +3,33 @@ name: "Kubernetes Rollback Runbook"
 description: "Executes structured Kubernetes rollback procedures using kubectl and the kubernetes/client-go library. Monitors rollout status via the apps/v1 Deployment API and triggers PagerDuty incidents through the PagerDuty Events API v2."
 category: "Runbooks & Diagnostics"
 framework: "OpenClaw"
-verification: "verified_metadata"
-rating: "4.8"
-reviews: "78"
+verification: verified_metadata
+rating: 4.8
+reviews: 78
 creator: "Carlos Mendez"
 creator_handle: "@carlosmendez"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/kubernetes-rollback-runbook-3/"
+source: "https://agentskillexchange.com/skills/kubernetes-rollback-runbook-3/"
 ---
-
 # Kubernetes Rollback Runbook
 
 Executes structured Kubernetes rollback procedures using kubectl and the kubernetes/client-go library. Monitors rollout status via the apps/v1 Deployment API and triggers PagerDuty incidents through the PagerDuty Events API v2.
 
 ## Installation
 
-Install this skill in your AI coding agent:
-
 ### Any Agent (npx)
 ```bash
-npx agentskills install kubernetes-rollback-runbook-3
+npx skills add agentskillexchange/skills --skill kubernetes-rollback-runbook-3
 ```
 
 ### Claude Code
 ```bash
-claude mcp add kubernetes-rollback-runbook-3 -- npx agentskills install kubernetes-rollback-runbook-3
+npx skills add agentskillexchange/skills --skill kubernetes-rollback-runbook-3 -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/agents.json`:
-```json
-{
-  "skills": ["kubernetes-rollback-runbook-3"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill kubernetes-rollback-runbook-3 -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install kubernetes-rollback-runbook-3
 
 ### Codex
 ```bash
-codex install skill kubernetes-rollback-runbook-3
+npx skills add agentskillexchange/skills --skill kubernetes-rollback-runbook-3 -a codex
 ```
-
 ## Details
 
 | Field | Value |

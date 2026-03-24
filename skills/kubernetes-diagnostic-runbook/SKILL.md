@@ -3,41 +3,33 @@ name: "Kubernetes Diagnostic Runbook"
 description: "Executes diagnostic workflows against Kubernetes clusters using kubectl and the Kubernetes Python client (kubernetes.client). Checks pod health, resource quotas, event logs, and node conditions for rapid incident triage."
 category: "Runbooks & Diagnostics"
 framework: "Claude Agents"
-verification: "security_reviewed"
-rating: "4.9"
-reviews: "83"
+verification: security_reviewed
+rating: 4.9
+reviews: 83
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/kubernetes-diagnostic-runbook/"
+source: "https://agentskillexchange.com/skills/kubernetes-diagnostic-runbook/"
 ---
-
 # Kubernetes Diagnostic Runbook
 
 Executes diagnostic workflows against Kubernetes clusters using kubectl and the Kubernetes Python client (kubernetes.client). Checks pod health, resource quotas, event logs, and node conditions for rapid incident triage.
 
 ## Installation
 
-Install this skill in your agent with one of the following methods:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install kubernetes-diagnostic-runbook
+npx skills add agentskillexchange/skills --skill kubernetes-diagnostic-runbook
 ```
 
 ### Claude Code
 ```bash
-claude mcp add kubernetes-diagnostic-runbook
+npx skills add agentskillexchange/skills --skill kubernetes-diagnostic-runbook -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "kubernetes-diagnostic-runbook": {
-    "source": "https://agentskillexchange.com/skill/kubernetes-diagnostic-runbook/"
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill kubernetes-diagnostic-runbook -a cursor
 ```
 
 ### OpenClaw
@@ -47,9 +39,8 @@ clawhub install kubernetes-diagnostic-runbook
 
 ### Codex
 ```bash
-codex install kubernetes-diagnostic-runbook
+npx skills add agentskillexchange/skills --skill kubernetes-diagnostic-runbook -a codex
 ```
-
 ## Details
 
 | | |

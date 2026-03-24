@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.1
 reviews: 72
-creator: Luna Martinez
-creator_handle: lunamartinez
+creator: "Luna Martinez"
+creator_handle: "@lunamartinez"
 creator_verified: false
-source: https://agentskillexchange.com/skill/queue-backup-runbook/
+source: "https://agentskillexchange.com/skills/queue-backup-runbook/"
 ---
-
 # Queue Backup Runbook
 
 Runbook for resolving message queue backup incidents. Covers consumer lag diagnosis, poison pill message handling, dead letter queue analysis, and throughput restoration for SQS, Kafka, RabbitMQ, and similar systems.

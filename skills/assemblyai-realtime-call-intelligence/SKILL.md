@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: verified_metadata
 rating: 4.3
 reviews: 56
-creator: Maya Johnson
-creator_handle: mayaj
+creator: "Maya Johnson"
+creator_handle: "@mayaj"
 creator_verified: false
-source: https://agentskillexchange.com/skill/assemblyai-realtime-call-intelligence/
+source: "https://agentskillexchange.com/skills/assemblyai-realtime-call-intelligence/"
 ---
-
 # AssemblyAI Real-Time Call Intelligence
 
 Streams audio from Twilio Media Streams over WebSocket to AssemblyAI real-time transcription, extracting speaker-diarized transcripts with word-level timestamps. Triggers entity detection and sentiment analysis via AssemblyAI LeMUR on completed call segments. Results are pushed to HubSpot or Salesforce contact records via their REST APIs.

@@ -3,39 +3,33 @@ name: "Kubernetes Rollback Runbook"
 description: "Executes Kubernetes deployment rollbacks using kubectl rollout undo, the Kubernetes Python client (kubernetes-client/python), and Helm rollback commands. Validates pod health via readiness probes post-rollback."
 category: "Runbooks & Diagnostics"
 framework: "Codex"
-verification: "Security Reviewed"
-rating: "4.2"
-reviews: "60"
+verification: security_reviewed
+rating: 4.2
+reviews: 60
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/kubernetes-rollback-runbook/"
+source: "https://agentskillexchange.com/skills/kubernetes-rollback-runbook/"
 ---
-
 # Kubernetes Rollback Runbook
 
 Executes Kubernetes deployment rollbacks using kubectl rollout undo, the Kubernetes Python client (kubernetes-client/python), and Helm rollback commands. Validates pod health via readiness probes post-rollback.
 
 ## Installation
 
-Install this skill across different AI coding agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install kubernetes-rollback-runbook
+npx skills add agentskillexchange/skills --skill kubernetes-rollback-runbook
 ```
 
 ### Claude Code
 ```bash
-claude skills add kubernetes-rollback-runbook
+npx skills add agentskillexchange/skills --skill kubernetes-rollback-runbook -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` configuration:
-```json
-{
-  "skills": ["kubernetes-rollback-runbook"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill kubernetes-rollback-runbook -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install kubernetes-rollback-runbook
 
 ### Codex
 ```bash
-codex skills add kubernetes-rollback-runbook
+npx skills add agentskillexchange/skills --skill kubernetes-rollback-runbook -a codex
 ```
-
 ## Details
 
 | Property | Value |

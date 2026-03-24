@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.1
 reviews: 57
-creator: Sofia Petrov
-creator_handle: sofiapetrov
+creator: "Sofia Petrov"
+creator_handle: "@sofiapetrov"
 creator_verified: true
-source: https://agentskillexchange.com/skill/secret-scanner/
+source: "https://agentskillexchange.com/skills/secret-scanner/"
 ---
-
 # Secret Scanner
 
 Use this skill when you need to scan code, commits, or configuration files for accidentally committed secrets like API keys, passwords, and tokens. It runs tools like truffleHog or gitleaks and returns findings with file paths, line numbers, and severity levels.

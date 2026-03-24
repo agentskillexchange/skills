@@ -6,12 +6,11 @@ framework: "Cursor"
 verification: verified_metadata
 rating: 4.5
 reviews: 82
-creator: Liam OBrien
-creator_handle: liamobrien
+creator: "Liam OBrien"
+creator_handle: "@liamobrien"
 creator_verified: true
-source: https://agentskillexchange.com/skill/cross-calendar-availability-finder-2/
+source: "https://agentskillexchange.com/skills/cross-calendar-availability-finder-2/"
 ---
-
 # Cross-Calendar Availability Finder
 
 Fetches availability from Google Calendar FreeBusy API and Microsoft Graph /me/calendarView in parallel to find overlapping open slots. Ranks candidate meeting times by attendee preference and timezone overlap. Sends booking confirmation emails via Gmail API and creates matching events in both calendars atomically.

@@ -3,15 +3,14 @@ name: "Datadog Anomaly Detection Agent"
 description: "Monitors Datadog metric streams using the Datadog API v2 and applies ML-based anomaly detection to alert on infrastructure drift. Integrates with PagerDuty and Slack webhooks for multi-channel incident routing."
 category: "Monitoring & Alerts"
 framework: "OpenClaw"
-verification: "✅ Verified"
-rating: "4.9"
-reviews: "83"
+verification: security_reviewed
+rating: 4.9
+reviews: 83
 creator: "Fatima Al-Hassan"
 creator_handle: "@fatimaalhassan"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/datadog-anomaly-detection-agent-2/"
+source: "https://agentskillexchange.com/skills/datadog-anomaly-detection-agent-2/"
 ---
-
 # Datadog Anomaly Detection Agent
 
 Monitors Datadog metric streams using the Datadog API v2 and applies ML-based anomaly detection to alert on infrastructure drift. Integrates with PagerDuty and Slack webhooks for multi-channel incident routing.
@@ -20,17 +19,17 @@ Monitors Datadog metric streams using the Datadog API v2 and applies ML-based an
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install datadog-anomaly-detection-agent-2
+npx skills add agentskillexchange/skills --skill datadog-anomaly-detection-agent-2
 ```
 
 ### Claude Code
 ```bash
-claude skills add datadog-anomaly-detection-agent-2
+npx skills add agentskillexchange/skills --skill datadog-anomaly-detection-agent-2 -a claude-code
 ```
 
 ### Cursor
-```
-Install from Cursor Settings → Skills → Add Skill → "Datadog Anomaly Detection Agent"
+```bash
+npx skills add agentskillexchange/skills --skill datadog-anomaly-detection-agent-2 -a cursor
 ```
 
 ### OpenClaw
@@ -40,9 +39,8 @@ clawhub install datadog-anomaly-detection-agent-2
 
 ### Codex
 ```bash
-codex skills install datadog-anomaly-detection-agent-2
+npx skills add agentskillexchange/skills --skill datadog-anomaly-detection-agent-2 -a codex
 ```
-
 ## Details
 
 | Field | Value |

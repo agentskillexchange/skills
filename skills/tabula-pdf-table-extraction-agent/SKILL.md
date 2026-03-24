@@ -3,36 +3,33 @@ name: "Tabula PDF Table Extraction Agent"
 description: "Uses Tabula Java library via tabula-py bindings to detect and extract tables from PDF documents. Supports both lattice and stream extraction modes with configurable area coordinates and outputs to pandas DataFrames or CSV."
 category: "Data Extraction & Transformation"
 framework: "MCP-compatible"
-verification: "✅ Verified"
-rating: "4.9"
-reviews: "81"
+verification: security_reviewed
+rating: 4.9
+reviews: 81
 creator: "Hannah Berg"
 creator_handle: "@hannahberg"
-creator_verified: "false"
-source: "https://agentskillexchange.com/skill/tabula-pdf-table-extraction-agent/"
+creator_verified: false
+source: "https://agentskillexchange.com/skills/tabula-pdf-table-extraction-agent/"
 ---
-
 # Tabula PDF Table Extraction Agent
 
 Uses Tabula Java library via tabula-py bindings to detect and extract tables from PDF documents. Supports both lattice and stream extraction modes with configurable area coordinates and outputs to pandas DataFrames or CSV.
 
 ## Installation
 
-Install this skill in your AI coding agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install tabula-pdf-table-extraction-agent
+npx skills add agentskillexchange/skills --skill tabula-pdf-table-extraction-agent
 ```
 
 ### Claude Code
 ```bash
-claude skills add tabula-pdf-table-extraction-agent
+npx skills add agentskillexchange/skills --skill tabula-pdf-table-extraction-agent -a claude-code
 ```
 
 ### Cursor
-```
-Install from Cursor Settings → Skills → Add Skill → "Tabula PDF Table Extraction Agent"
+```bash
+npx skills add agentskillexchange/skills --skill tabula-pdf-table-extraction-agent -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install tabula-pdf-table-extraction-agent
 
 ### Codex
 ```bash
-codex skills add tabula-pdf-table-extraction-agent
+npx skills add agentskillexchange/skills --skill tabula-pdf-table-extraction-agent -a codex
 ```
-
 ## Details
 
 | Field | Value |

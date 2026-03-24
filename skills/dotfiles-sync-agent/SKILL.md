@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.5
 reviews: 9
-creator: David Kim
-creator_handle: dkim
+creator: "David Kim"
+creator_handle: "@dkim"
 creator_verified: false
-source: https://agentskillexchange.com/skill/dotfiles-sync-agent/
+source: "https://agentskillexchange.com/skills/dotfiles-sync-agent/"
 ---
-
 # Dotfiles Sync Agent
 
 Synchronize dotfiles across machines using GNU Stow, chezmoi, or a bare git repository, managed through an AI agent. Handles per-machine templating, secret redaction, and automated symlink creation for consistent development environments.

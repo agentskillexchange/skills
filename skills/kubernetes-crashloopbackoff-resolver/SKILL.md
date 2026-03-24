@@ -6,12 +6,11 @@ framework: "Cursor"
 verification: security_reviewed
 rating: 4.3
 reviews: 48
-creator: Raj Gupta
-creator_handle: rajgupta
+creator: "Raj Gupta"
+creator_handle: "@rajgupta"
 creator_verified: true
-source: https://agentskillexchange.com/skill/kubernetes-crashloopbackoff-resolver/
+source: "https://agentskillexchange.com/skills/kubernetes-crashloopbackoff-resolver/"
 ---
-
 # Kubernetes CrashLoopBackOff Resolver
 
 Diagnoses CrashLoopBackOff pods using the Kubernetes API /api/v1/pods endpoint, kubectl logs –previous, and container runtime inspection via crictl. Identifies OOMKilled events, missing ConfigMaps, and image pull failures.

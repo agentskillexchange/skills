@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.0
 reviews: 20
-creator: Priya Sharma
-creator_handle: priyasharma
+creator: "Priya Sharma"
+creator_handle: "@priyasharma"
 creator_verified: true
-source: https://agentskillexchange.com/skill/dbt-mcp-server/
+source: "https://agentskillexchange.com/skills/dbt-mcp-server/"
 ---
-
 # dbt MCP Server
 
 Use this skill to trigger dbt model runs, execute dbt tests, explore lineage graphs, and manage dbt project operations through MCP. It integrates dbt’s transformation layer into agent workflows for automated data pipeline management. Trigger when you need to run data transformations, validate data quality with dbt tests, or explore model lineage programmatically.

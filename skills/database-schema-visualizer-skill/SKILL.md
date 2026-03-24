@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.4
 reviews: 77
-creator: Mia Zhang
-creator_handle: miazhang
+creator: "Mia Zhang"
+creator_handle: "@miazhang"
 creator_verified: true
-source: https://agentskillexchange.com/skill/database-schema-visualizer-skill/
+source: "https://agentskillexchange.com/skills/database-schema-visualizer-skill/"
 ---
-
 # Database Schema Visualizer Skill
 
 Use this skill to analyze database schema files or live database connections and render entity-relationship (ER) diagrams showing tables, columns, relationships, and constraints. It generates visual diagrams in Mermaid, PlantUML, or dbdiagram.io format. Trigger when onboarding to a database, documenting data models, or understanding complex schema relationships.

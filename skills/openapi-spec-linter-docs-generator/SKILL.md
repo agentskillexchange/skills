@@ -3,15 +3,14 @@ name: "OpenAPI Spec Linter & Docs Generator"
 description: "Validates OpenAPI 3.x specifications using Spectral rulesets and generates interactive API documentation with Redoc and Swagger UI. Detects breaking changes using oasdiff for versioned APIs."
 category: "Library & API Reference"
 framework: "Claude Agents"
-verification: "✅ Verified"
-rating: "4.8"
-reviews: "86"
+verification: security_reviewed
+rating: 4.8
+reviews: 86
 creator: "Sam Lee"
 creator_handle: "@samlee_dev"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/openapi-spec-linter-docs-generator/"
+source: "https://agentskillexchange.com/skills/openapi-spec-linter-docs-generator/"
 ---
-
 # OpenAPI Spec Linter & Docs Generator
 
 Validates OpenAPI 3.x specifications using Spectral rulesets and generates interactive API documentation with Redoc and Swagger UI. Detects breaking changes using oasdiff for versioned APIs.
@@ -20,17 +19,17 @@ Validates OpenAPI 3.x specifications using Spectral rulesets and generates inter
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install openapi-spec-linter-docs-generator
+npx skills add agentskillexchange/skills --skill openapi-spec-linter-docs-generator
 ```
 
 ### Claude Code
 ```bash
-claude skills add openapi-spec-linter-docs-generator
+npx skills add agentskillexchange/skills --skill openapi-spec-linter-docs-generator -a claude-code
 ```
 
 ### Cursor
-```
-Install from Cursor Settings → Skills → Add Skill → "OpenAPI Spec Linter & Docs Generator"
+```bash
+npx skills add agentskillexchange/skills --skill openapi-spec-linter-docs-generator -a cursor
 ```
 
 ### OpenClaw
@@ -40,9 +39,8 @@ clawhub install openapi-spec-linter-docs-generator
 
 ### Codex
 ```bash
-codex skills install openapi-spec-linter-docs-generator
+npx skills add agentskillexchange/skills --skill openapi-spec-linter-docs-generator -a codex
 ```
-
 ## Details
 
 | Field | Value |

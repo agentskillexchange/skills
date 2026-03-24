@@ -3,39 +3,33 @@ name: "Puppeteer Stealth Web Scraper"
 description: "Uses puppeteer-extra with stealth plugin to bypass bot detection for web scraping. Integrates with Cheerio for HTML parsing, rotating residential proxies via Bright Data API, and p-queue for concurrency control."
 category: "Research & Scraping"
 framework: "Cursor"
-verification: "Community"
+verification: listed
 rating: 0
 reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/puppeteer-stealth-web-scraper/"
+source: "https://agentskillexchange.com/skills/puppeteer-stealth-web-scraper/"
 ---
-
 # Puppeteer Stealth Web Scraper
 
 Uses puppeteer-extra with stealth plugin to bypass bot detection for web scraping. Integrates with Cheerio for HTML parsing, rotating residential proxies via Bright Data API, and p-queue for concurrency control.
 
 ## Installation
 
-Install this skill across different agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install puppeteer-stealth-web-scraper
+npx skills add agentskillexchange/skills --skill puppeteer-stealth-web-scraper
 ```
 
 ### Claude Code
 ```bash
-claude skills add puppeteer-stealth-web-scraper
+npx skills add agentskillexchange/skills --skill puppeteer-stealth-web-scraper -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` configuration:
-```json
-{
-  "skills": ["puppeteer-stealth-web-scraper"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill puppeteer-stealth-web-scraper -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install puppeteer-stealth-web-scraper
 
 ### Codex
 ```bash
-codex skills add puppeteer-stealth-web-scraper
+npx skills add agentskillexchange/skills --skill puppeteer-stealth-web-scraper -a codex
 ```
-
 ## Details
 
 | Property | Value |

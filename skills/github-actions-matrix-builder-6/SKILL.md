@@ -6,12 +6,11 @@ framework: "OpenClaw"
 verification: verified_metadata
 rating: 4.6
 reviews: 82
-creator: Rachel Green
-creator_handle: rachelgreen
+creator: "Rachel Green"
+creator_handle: "@rachelgreen"
 creator_verified: false
-source: https://agentskillexchange.com/skill/github-actions-matrix-builder-6/
+source: "https://agentskillexchange.com/skills/github-actions-matrix-builder-6/"
 ---
-
 # GitHub Actions Matrix Builder
 
 Generates dynamic GitHub Actions CI matrix configurations using the GitHub REST API and YAML templating. Supports conditional job inclusion based on changed files via dorny/paths-filter and tj-actions/changed-files for monorepo setups.

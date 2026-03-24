@@ -3,36 +3,33 @@ name: "Scrapy Spider Architect"
 description: "Generates Scrapy spider classes with CSS/XPath selectors, item pipelines, and middleware configurations for structured web scraping. Includes Scrapy-Splash integration for JavaScript-rendered content."
 category: "Research & Scraping"
 framework: "Custom Agents"
-verification: "Verified"
-rating: "4.7"
-reviews: "62"
+verification: verified_metadata
+rating: 4.7
+reviews: 62
 creator: "David Nguyen"
 creator_handle: "@davidnguyen"
-creator_verified: "Yes"
-source: "https://agentskillexchange.com/skill/scrapy-spider-architect/"
+creator_verified: true
+source: "https://agentskillexchange.com/skills/scrapy-spider-architect/"
 ---
-
 # Scrapy Spider Architect
 
 Generates Scrapy spider classes with CSS/XPath selectors, item pipelines, and middleware configurations for structured web scraping. Includes Scrapy-Splash integration for JavaScript-rendered content.
 
 ## Installation
 
-Install this skill using one of the following methods:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install scrapy-spider-architect
+npx skills add agentskillexchange/skills --skill scrapy-spider-architect
 ```
 
 ### Claude Code
 ```bash
-claude skills add scrapy-spider-architect
+npx skills add agentskillexchange/skills --skill scrapy-spider-architect -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor skills install scrapy-spider-architect
+npx skills add agentskillexchange/skills --skill scrapy-spider-architect -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install scrapy-spider-architect
 
 ### Codex
 ```bash
-codex skills add scrapy-spider-architect
+npx skills add agentskillexchange/skills --skill scrapy-spider-architect -a codex
 ```
-
 ## Details
 
 | Field | Value |

@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.5
 reviews: 64
-creator: Elena Kowalski
-creator_handle: ekowalski
+creator: "Elena Kowalski"
+creator_handle: "@ekowalski"
 creator_verified: true
-source: https://agentskillexchange.com/skill/artillery-load-test-runner/
+source: "https://agentskillexchange.com/skills/artillery-load-test-runner/"
 ---
-
 # Artillery Load Test Runner
 
 Generate Artillery YAML test scripts, run load tests against HTTP or WebSocket endpoints, and analyze performance reports through an AI agent. Supports scenario definition, virtual user ramp-up configuration, and threshold-based pass/fail for CI integration.

@@ -3,15 +3,14 @@ name: "ArgoCD Sync Wave Planner"
 description: "Manages ArgoCD Application sync waves and hooks through the ArgoCD REST API and Kubernetes custom resources. Uses kubectl diff and Helm template rendering to validate manifests before triggering progressive rollouts via Argo Rollouts."
 category: "CI/CD Integrations"
 framework: "Codex"
-verification: "✅ Verified"
-rating: "4.9"
-reviews: "56"
+verification: security_reviewed
+rating: 4.9
+reviews: 56
 creator: "Meera Joshi"
 creator_handle: "@meerajoshi"
-creator_verified: "true"
-source: "https://agentskillexchange.com/skill/argocd-sync-wave-planner/"
+creator_verified: true
+source: "https://agentskillexchange.com/skills/argocd-sync-wave-planner/"
 ---
-
 # ArgoCD Sync Wave Planner
 
 Manages ArgoCD Application sync waves and hooks through the ArgoCD REST API and Kubernetes custom resources. Uses kubectl diff and Helm template rendering to validate manifests before triggering progressive rollouts via Argo Rollouts.
@@ -20,20 +19,17 @@ Manages ArgoCD Application sync waves and hooks through the ArgoCD REST API and 
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install argocd-sync-wave-planner
+npx skills add agentskillexchange/skills --skill argocd-sync-wave-planner
 ```
 
 ### Claude Code
 ```bash
-claude mcp add argocd-sync-wave-planner
+npx skills add agentskillexchange/skills --skill argocd-sync-wave-planner -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "skills": ["argocd-sync-wave-planner"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill argocd-sync-wave-planner -a cursor
 ```
 
 ### OpenClaw
@@ -43,9 +39,8 @@ clawhub install argocd-sync-wave-planner
 
 ### Codex
 ```bash
-codex install argocd-sync-wave-planner
+npx skills add agentskillexchange/skills --skill argocd-sync-wave-planner -a codex
 ```
-
 ## Details
 
 | Field | Value |

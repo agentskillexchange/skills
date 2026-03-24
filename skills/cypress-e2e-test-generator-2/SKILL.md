@@ -3,35 +3,34 @@ name: "Cypress E2E Test Generator"
 description: "Generates Cypress end-to-end test suites from OpenAPI specifications using cy.intercept() for API mocking and cy.session() for authentication caching. Produces data-driven tests with fixture files."
 category: "Browser Automation"
 framework: "OpenClaw"
-verification: ""
+verification: listed
 rating: 0
 reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/cypress-e2e-test-generator-2/"
+source: "https://agentskillexchange.com/skills/cypress-e2e-test-generator-2/"
 ---
-
 # Cypress E2E Test Generator
 
 Generates Cypress end-to-end test suites from OpenAPI specifications using cy.intercept() for API mocking and cy.session() for authentication caching. Produces data-driven tests with fixture files.
 
 ## Installation
 
-Install this skill across different AI coding agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install cypress-e2e-test-generator-2
+npx skills add agentskillexchange/skills --skill cypress-e2e-test-generator-2
 ```
 
 ### Claude Code
 ```bash
-claude mcp add cypress-e2e-test-generator-2
+npx skills add agentskillexchange/skills --skill cypress-e2e-test-generator-2 -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills/` directory or install via Cursor Settings → Skills.
+```bash
+npx skills add agentskillexchange/skills --skill cypress-e2e-test-generator-2 -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install cypress-e2e-test-generator-2
 
 ### Codex
 ```bash
-codex install cypress-e2e-test-generator-2
+npx skills add agentskillexchange/skills --skill cypress-e2e-test-generator-2 -a codex
 ```
-
 ## Details
 
 | Property | Value |

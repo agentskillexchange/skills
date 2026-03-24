@@ -3,15 +3,14 @@ name: "Terraform Cloud Orchestrator"
 description: "Orchestrates Terraform Cloud runs via the TFC API v2 /runs endpoint with plan-only and auto-apply modes. Manages workspace variables through /vars API, parses plan output for resource drift detection, and integrates Sentinel policy checks."
 category: "CI/CD Integrations"
 framework: "Gemini"
-verification: "verified_metadata"
-rating: "0"
-reviews: "0"
+verification: verified_metadata
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/terraform-cloud-orchestrator-skill/"
+source: "https://agentskillexchange.com/skills/terraform-cloud-orchestrator-skill/"
 ---
-
 # Terraform Cloud Orchestrator
 
 Orchestrates Terraform Cloud runs via the TFC API v2 /runs endpoint with plan-only and auto-apply modes. Manages workspace variables through /vars API, parses plan output for resource drift detection, and integrates Sentinel policy checks.
@@ -20,16 +19,18 @@ Orchestrates Terraform Cloud runs via the TFC API v2 /runs endpoint with plan-on
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install terraform-cloud-orchestrator-skill
+npx skills add agentskillexchange/skills --skill terraform-cloud-orchestrator-skill
 ```
 
 ### Claude Code
 ```bash
-claude install-skill terraform-cloud-orchestrator-skill
+npx skills add agentskillexchange/skills --skill terraform-cloud-orchestrator-skill -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills/` directory or install via Cursor Settings → Skills.
+```bash
+npx skills add agentskillexchange/skills --skill terraform-cloud-orchestrator-skill -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -38,9 +39,8 @@ clawhub install terraform-cloud-orchestrator-skill
 
 ### Codex
 ```bash
-codex install-skill terraform-cloud-orchestrator-skill
+npx skills add agentskillexchange/skills --skill terraform-cloud-orchestrator-skill -a codex
 ```
-
 ## Details
 
 | | |

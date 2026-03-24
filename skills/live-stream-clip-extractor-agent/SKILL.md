@@ -3,44 +3,33 @@ name: "Live Stream Clip Extractor"
 description: "Automatically extracts highlight clips from live streams using transcript analysis, engagement signals, and scene detection to create shareable short-form content."
 category: "Media & Transcription"
 framework: "ChatGPT Agents"
-verification: "✅ Verified"
+verification: security_reviewed
 rating: 4.7
 reviews: 54
 creator: "Sarah O'Brien"
 creator_handle: "@sarahcodes"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/live-stream-clip-extractor-agent/"
+source: "https://agentskillexchange.com/skills/live-stream-clip-extractor-agent/"
 ---
-
 # Live Stream Clip Extractor
 
 Automatically extracts highlight clips from live streams using transcript analysis, engagement signals, and scene detection to create shareable short-form content.
 
 ## Installation
 
-Install this skill on your preferred agent platform:
-
 ### Any Agent (npx)
 ```bash
-npx skills install live-stream-clip-extractor-agent
+npx skills add agentskillexchange/skills --skill live-stream-clip-extractor-agent
 ```
 
 ### Claude Code
 ```bash
-claude mcp add live-stream-clip-extractor-agent
+npx skills add agentskillexchange/skills --skill live-stream-clip-extractor-agent -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/mcp.json`:
-```json
-{
-  "mcpServers": {
-    "live-stream-clip-extractor-agent": {
-      "command": "npx",
-      "args": ["-y", "skills", "run", "live-stream-clip-extractor-agent"]
-    }
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill live-stream-clip-extractor-agent -a cursor
 ```
 
 ### OpenClaw
@@ -50,9 +39,8 @@ clawhub install live-stream-clip-extractor-agent
 
 ### Codex
 ```bash
-codex install live-stream-clip-extractor-agent
+npx skills add agentskillexchange/skills --skill live-stream-clip-extractor-agent -a codex
 ```
-
 ## Details
 
 | Property | Value |

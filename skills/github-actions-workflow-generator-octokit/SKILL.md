@@ -3,15 +3,14 @@ name: "GitHub Actions Workflow Generator"
 description: "Generates and validates GitHub Actions workflows using Octokit REST API and the GitHub Actions YAML schema. Supports matrix builds, reusable workflow composition, and automated secret rotation via Git."
 category: "Developer Tools"
 framework: "ChatGPT Agents"
-verification: ""
+verification: listed
 rating: 0
 reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/github-actions-workflow-generator-octokit/"
+source: "https://agentskillexchange.com/skills/github-actions-workflow-generator-octokit/"
 ---
-
 # GitHub Actions Workflow Generator
 
 Generates and validates GitHub Actions workflows using Octokit REST API and the GitHub Actions YAML schema. Supports matrix builds, reusable workflow composition, and automated secret rotation via GitHub Environments API.
@@ -20,17 +19,17 @@ Generates and validates GitHub Actions workflows using Octokit REST API and the 
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install github-actions-workflow-generator-octokit
+npx skills add agentskillexchange/skills --skill github-actions-workflow-generator-octokit
 ```
 
 ### Claude Code
 ```bash
-claude skill add github-actions-workflow-generator-octokit
+npx skills add agentskillexchange/skills --skill github-actions-workflow-generator-octokit -a claude-code
 ```
 
 ### Cursor
-```
-Install from Cursor Settings > Skills > Add Skill > "GitHub Actions Workflow Generator"
+```bash
+npx skills add agentskillexchange/skills --skill github-actions-workflow-generator-octokit -a cursor
 ```
 
 ### OpenClaw
@@ -40,9 +39,8 @@ clawhub install github-actions-workflow-generator-octokit
 
 ### Codex
 ```bash
-codex skill add github-actions-workflow-generator-octokit
+npx skills add agentskillexchange/skills --skill github-actions-workflow-generator-octokit -a codex
 ```
-
 ## Details
 
 | Property | Value |

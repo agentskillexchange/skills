@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: verified_metadata
 rating: 4.7
 reviews: 32
-creator: Isabella Rossi
-creator_handle: irossi
+creator: "Isabella Rossi"
+creator_handle: "@irossi"
 creator_verified: false
-source: https://agentskillexchange.com/skill/jenkins-pipeline-declarative-generator/
+source: "https://agentskillexchange.com/skills/jenkins-pipeline-declarative-generator/"
 ---
-
 # Jenkins Pipeline Declarative Generator
 
 Creates Jenkins Declarative Pipeline Jenkinsfiles using jenkins-pipeline-syntax and jenkins-shared-libraries. Configures stages, parallel execution, and post-build actions with Blue Ocean compatibility.

@@ -6,12 +6,11 @@ framework: "ChatGPT Agents"
 verification: security_reviewed
 rating: 4.8
 reviews: 70
-creator: Nathan Brooks
-creator_handle: nbrooks
+creator: "Nathan Brooks"
+creator_handle: "@nbrooks"
 creator_verified: false
-source: https://agentskillexchange.com/skill/eslint-rule-impact-analyzer-wave48/
+source: "https://agentskillexchange.com/skills/eslint-rule-impact-analyzer-wave48/"
 ---
-
 # ESLint Rule Impact Analyzer
 
 Analyzes the impact of enabling or modifying ESLint rules across a codebase using the ESLint Node.js API and @typescript-eslint/parser. Calculates fix counts, estimates auto-fix coverage, and previews rule change effects before committing.

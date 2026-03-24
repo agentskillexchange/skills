@@ -6,12 +6,11 @@ framework: "OpenClaw"
 verification: security_reviewed
 rating: 4.4
 reviews: 85
-creator: James Whitfield
-creator_handle: jwhitfield
+creator: "James Whitfield"
+creator_handle: "@jwhitfield"
 creator_verified: true
-source: https://agentskillexchange.com/skill/seo-content-writer/
+source: "https://agentskillexchange.com/skills/seo-content-writer/"
 ---
-
 # SEO Content Writer
 
 Draft SEO-focused articles and landing-page content with stronger structure, keyword targeting, and on-page guidance.

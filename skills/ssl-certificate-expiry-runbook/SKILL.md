@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.8
 reviews: 64
-creator: Alex Thompson
-creator_handle: alexthompson
+creator: "Alex Thompson"
+creator_handle: "@alexthompson"
 creator_verified: true
-source: https://agentskillexchange.com/skill/ssl-certificate-expiry-runbook/
+source: "https://agentskillexchange.com/skills/ssl-certificate-expiry-runbook/"
 ---
-
 # SSL Certificate Expiry Runbook
 
 Runbook for handling SSL/TLS certificate expiry incidents. Covers detection, emergency renewal, deployment, and post-incident certificate lifecycle improvements.

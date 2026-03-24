@@ -3,15 +3,14 @@ name: "FFmpeg Thumbnail Mosaic Generator"
 description: "Creates video thumbnail mosaics and sprite sheets using FFmpeg filters and the fluent-ffmpeg Node.js wrapper. Generates contact sheets, animated GIF previews, and WebVTT thumbnail tracks."
 category: "Image & Creative Automation"
 framework: "Claude Code"
-verification: "Verified"
-rating: "4.1"
-reviews: "22"
+verification: verified_metadata
+rating: 4.1
+reviews: 22
 creator: "David Nguyen"
 creator_handle: "@davidnguyen"
-creator_verified: "✓"
-source: "https://agentskillexchange.com/skill/ffmpeg-thumbnail-mosaic-generator/"
+creator_verified: false
+source: "https://agentskillexchange.com/skills/ffmpeg-thumbnail-mosaic-generator/"
 ---
-
 # FFmpeg Thumbnail Mosaic Generator
 
 Creates video thumbnail mosaics and sprite sheets using FFmpeg filters and the fluent-ffmpeg Node.js wrapper. Generates contact sheets, animated GIF previews, and WebVTT thumbnail tracks.
@@ -20,20 +19,17 @@ Creates video thumbnail mosaics and sprite sheets using FFmpeg filters and the f
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install ffmpeg-thumbnail-mosaic-generator
+npx skills add agentskillexchange/skills --skill ffmpeg-thumbnail-mosaic-generator
 ```
 
 ### Claude Code
 ```bash
-claude mcp add ffmpeg-thumbnail-mosaic-generator
+npx skills add agentskillexchange/skills --skill ffmpeg-thumbnail-mosaic-generator -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "skills": ["ffmpeg-thumbnail-mosaic-generator"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill ffmpeg-thumbnail-mosaic-generator -a cursor
 ```
 
 ### OpenClaw
@@ -43,9 +39,8 @@ clawhub install ffmpeg-thumbnail-mosaic-generator
 
 ### Codex
 ```bash
-codex install ffmpeg-thumbnail-mosaic-generator
+npx skills add agentskillexchange/skills --skill ffmpeg-thumbnail-mosaic-generator -a codex
 ```
-
 ## Details
 
 | Field | Value |

@@ -6,12 +6,11 @@ framework: "ChatGPT Agents"
 verification: security_reviewed
 rating: 4.1
 reviews: 79
-creator: Alex Thompson
-creator_handle: alexthompson
+creator: "Alex Thompson"
+creator_handle: "@alexthompson"
 creator_verified: true
-source: https://agentskillexchange.com/skill/sonarqube-quality-gate-monitor/
+source: "https://agentskillexchange.com/skills/sonarqube-quality-gate-monitor/"
 ---
-
 # SonarQube Quality Gate Monitor
 
 Monitors SonarQube quality gate status across projects using the Web API /api/qualitygates/project_status endpoint. Sends alerts when coverage drops below thresholds or new code smells exceed limits via SonarQube webhooks.

@@ -3,39 +3,33 @@ name: "Selenium Grid Cloud Executor"
 description: "Distributes browser tests across Selenium Grid 4 using the Grid GraphQL API and New Session Queue. Configures dynamic node scaling via the Selenium Docker provider and manages session routing with capabilities matching."
 category: "Browser Automation"
 framework: "OpenClaw"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.3
 reviews: 48
 creator: "Sarah O'Brien"
 creator_handle: "@sarahcodes"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/selenium-grid-cloud-executor-2/"
+source: "https://agentskillexchange.com/skills/selenium-grid-cloud-executor-2/"
 ---
-
 # Selenium Grid Cloud Executor
 
 Distributes browser tests across Selenium Grid 4 using the Grid GraphQL API and New Session Queue. Configures dynamic node scaling via the Selenium Docker provider and manages session routing with capabilities matching.
 
 ## Installation
 
-Install this skill in your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install selenium-grid-cloud-executor-2
+npx skills add agentskillexchange/skills --skill selenium-grid-cloud-executor-2
 ```
 
 ### Claude Code
 ```bash
-claude skills add selenium-grid-cloud-executor-2
+npx skills add agentskillexchange/skills --skill selenium-grid-cloud-executor-2 -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["selenium-grid-cloud-executor-2"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill selenium-grid-cloud-executor-2 -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install selenium-grid-cloud-executor-2
 
 ### Codex
 ```bash
-codex skills add selenium-grid-cloud-executor-2
+npx skills add agentskillexchange/skills --skill selenium-grid-cloud-executor-2 -a codex
 ```
-
 ## Details
 
 | Property | Value |

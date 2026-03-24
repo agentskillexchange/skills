@@ -3,15 +3,14 @@ name: "Terraform Plan Validator Agent"
 description: "Validates Terraform plans using terraform CLI, tfsec, and Checkov. Detects infrastructure misconfigurations, cost anomalies, and compliance violations before apply."
 category: "CI/CD Integrations"
 framework: "Cursor"
-verification: 
+verification: listed
 rating: 4.3
 reviews: 39
-creator: Sofia Petrov
-creator_handle: sofiapetrov
+creator: "Sofia Petrov"
+creator_handle: "@sofiapetrov"
 creator_verified: true
-source: https://agentskillexchange.com/skill/terraform-plan-validator-agent/
+source: "https://agentskillexchange.com/skills/terraform-plan-validator-agent/"
 ---
-
 # Terraform Plan Validator Agent
 
 Validates Terraform plans using terraform CLI, tfsec, and Checkov. Detects infrastructure misconfigurations, cost anomalies, and compliance violations before apply.

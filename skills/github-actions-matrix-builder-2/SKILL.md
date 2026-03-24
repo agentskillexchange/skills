@@ -6,12 +6,11 @@ framework: "OpenClaw"
 verification: security_reviewed
 rating: 4.9
 reviews: 63
-creator: Tom Anderson
-creator_handle: tanderson
+creator: "Tom Anderson"
+creator_handle: "@tanderson"
 creator_verified: false
-source: https://agentskillexchange.com/skill/github-actions-matrix-builder-2/
+source: "https://agentskillexchange.com/skills/github-actions-matrix-builder-2/"
 ---
-
 # GitHub Actions Matrix Builder
 
 Dynamically generates GitHub Actions CI/CD matrix strategies using the GitHub REST API and workflow dispatch events. Parses .github/workflows YAML to detect test targets, then constructs optimized matrix.include configurations for parallel execution across Node.js, Python, and Go runtimes.

@@ -6,12 +6,11 @@ framework: "OpenClaw"
 verification: verified_metadata
 rating: 4.9
 reviews: 54
-creator: Sofia Petrov
-creator_handle: sofiapetrov
+creator: "Sofia Petrov"
+creator_handle: "@sofiapetrov"
 creator_verified: true
-source: https://agentskillexchange.com/skill/wordpress-router/
+source: "https://agentskillexchange.com/skills/wordpress-router/"
 ---
-
 # WordPress Router
 
 Route WordPress tasks to the right workflow fast.

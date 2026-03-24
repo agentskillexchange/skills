@@ -6,12 +6,11 @@ framework: "Claude Agents"
 verification: security_reviewed
 rating: 4.9
 reviews: 25
-creator: Nathan Brooks
-creator_handle: nbrooks
+creator: "Nathan Brooks"
+creator_handle: "@nbrooks"
 creator_verified: false
-source: https://agentskillexchange.com/skill/a-b-test-analyzer/
+source: "https://agentskillexchange.com/skills/a-b-test-analyzer/"
 ---
-
 # A/B Test Analyzer
 
 Use this skill when you need to analyze A/B test results and determine statistical significance, winner variant, and effect size. It takes experiment data (control vs. treatment metrics), calculates p-values, confidence intervals, and power, and delivers a plain-language recommendation.

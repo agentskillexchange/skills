@@ -6,12 +6,11 @@ framework: "Claude Agents"
 verification: security_reviewed
 rating: 4.7
 reviews: 44
-creator: Ava Wilson
-creator_handle: avawilson
+creator: "Ava Wilson"
+creator_handle: "@avawilson"
 creator_verified: true
-source: https://agentskillexchange.com/skill/incident-response-runbook/
+source: "https://agentskillexchange.com/skills/incident-response-runbook/"
 ---
-
 # Incident Response Runbook
 
 Use this skill when an incident is declared and you need a structured, step-by-step response guide tailored to the incident type. It generates or retrieves runbooks for common incident categories (database outage, service degradation, security breach) and guides the responder through triage, mitigation, and communication steps.

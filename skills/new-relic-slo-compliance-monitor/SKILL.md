@@ -3,15 +3,14 @@ name: "New Relic SLO Compliance Monitor"
 description: "Tracks SLO compliance using the New Relic NerdGraph GraphQL API and NRQL queries. Calculates error budgets, burn rates, and generates compliance reports with Slack notifications via Incoming Webhooks."
 category: "Monitoring & Alerts"
 framework: "ChatGPT Agents"
-verification: "community"
+verification: listed
 rating: 0
 reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/new-relic-slo-compliance-monitor/"
+source: "https://agentskillexchange.com/skills/new-relic-slo-compliance-monitor/"
 ---
-
 # New Relic SLO Compliance Monitor
 
 Tracks SLO compliance using the New Relic NerdGraph GraphQL API and NRQL queries. Calculates error budgets, burn rates, and generates compliance reports with Slack notifications via Incoming Webhooks.
@@ -20,16 +19,18 @@ Tracks SLO compliance using the New Relic NerdGraph GraphQL API and NRQL queries
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install new-relic-slo-compliance-monitor
+npx skills add agentskillexchange/skills --skill new-relic-slo-compliance-monitor
 ```
 
 ### Claude Code
 ```bash
-claude mcp add new-relic-slo-compliance-monitor
+npx skills add agentskillexchange/skills --skill new-relic-slo-compliance-monitor -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills/new-relic-slo-compliance-monitor` in your project.
+```bash
+npx skills add agentskillexchange/skills --skill new-relic-slo-compliance-monitor -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -38,9 +39,8 @@ clawhub install new-relic-slo-compliance-monitor
 
 ### Codex
 ```bash
-codex install new-relic-slo-compliance-monitor
+npx skills add agentskillexchange/skills --skill new-relic-slo-compliance-monitor -a codex
 ```
-
 ## Details
 
 | Field | Value |

@@ -3,15 +3,14 @@ name: "Systemd Service Recovery Playbook"
 description: "Diagnoses failed systemd units using journalctl structured logging, systemctl show properties, and D-Bus org.freedesktop.systemd1 introspection. Implements graduated recovery with ExecStartPre health checks and watchdog timeout tuning via sd_notify."
 category: "Runbooks & Diagnostics"
 framework: "Gemini"
-verification: "✅ Verified"
-rating: "4.8"
-reviews: "27"
+verification: security_reviewed
+rating: 4.8
+reviews: 27
 creator: "Grace Okafor"
 creator_handle: "@graceokafor"
-creator_verified: "true"
-source: "https://agentskillexchange.com/skill/systemd-service-recovery-playbook-3/"
+creator_verified: true
+source: "https://agentskillexchange.com/skills/systemd-service-recovery-playbook-3/"
 ---
-
 # Systemd Service Recovery Playbook
 
 Diagnoses failed systemd units using journalctl structured logging, systemctl show properties, and D-Bus org.freedesktop.systemd1 introspection. Implements graduated recovery with ExecStartPre health checks and watchdog timeout tuning via sd_notify.
@@ -20,20 +19,17 @@ Diagnoses failed systemd units using journalctl structured logging, systemctl sh
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install systemd-service-recovery-playbook-3
+npx skills add agentskillexchange/skills --skill systemd-service-recovery-playbook-3
 ```
 
 ### Claude Code
 ```bash
-claude mcp add systemd-service-recovery-playbook-3
+npx skills add agentskillexchange/skills --skill systemd-service-recovery-playbook-3 -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "skills": ["systemd-service-recovery-playbook-3"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill systemd-service-recovery-playbook-3 -a cursor
 ```
 
 ### OpenClaw
@@ -43,9 +39,8 @@ clawhub install systemd-service-recovery-playbook-3
 
 ### Codex
 ```bash
-codex install systemd-service-recovery-playbook-3
+npx skills add agentskillexchange/skills --skill systemd-service-recovery-playbook-3 -a codex
 ```
-
 ## Details
 
 | Field | Value |

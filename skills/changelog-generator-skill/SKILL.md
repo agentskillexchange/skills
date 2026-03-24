@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.8
 reviews: 85
-creator: Marcus Rivera
-creator_handle: mrivera
+creator: "Marcus Rivera"
+creator_handle: "@mrivera"
 creator_verified: true
-source: https://agentskillexchange.com/skill/changelog-generator-skill/
+source: "https://agentskillexchange.com/skills/changelog-generator-skill/"
 ---
-
 # Changelog Generator Skill
 
 Use this skill to parse git commit history and automatically generate a structured CHANGELOG.md following the Keep a Changelog convention. It categorizes commits into Added, Changed, Fixed, Deprecated, Removed, and Security sections. Trigger when preparing a release and needing to document changes since the last version.

@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.7
 reviews: 13
-creator: Nathan Brooks
-creator_handle: nbrooks
+creator: "Nathan Brooks"
+creator_handle: "@nbrooks"
 creator_verified: false
-source: https://agentskillexchange.com/skill/rate-limit-tracker/
+source: "https://agentskillexchange.com/skills/rate-limit-tracker/"
 ---
-
 # Rate Limit Tracker
 
 Monitors and tracks API rate limit consumption across multiple API providers. Parses rate limit headers, tracks usage trends, alerts before hitting limits, and suggests request batching or backoff strategies.

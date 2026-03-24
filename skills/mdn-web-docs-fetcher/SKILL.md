@@ -3,39 +3,33 @@ name: "MDN Web Docs Fetcher"
 description: "Queries the MDN Web Docs content API (Yari) and the MDN search index to retrieve browser compatibility data, Web API references, and CSS property documentation. Uses BCD (browser-compat-data) npm package for offline lookups."
 category: "Library & API Reference"
 framework: "Cursor"
-verification: "Yes"
-rating: "4.9"
-reviews: "47"
+verification: verified_metadata
+rating: 4.9
+reviews: 47
 creator: "Aisha Patel"
 creator_handle: "@aishapatel"
-creator_verified: "Yes"
-source: "https://agentskillexchange.com/skill/mdn-web-docs-fetcher/"
+creator_verified: true
+source: "https://agentskillexchange.com/skills/mdn-web-docs-fetcher/"
 ---
-
 # MDN Web Docs Fetcher
 
 Queries the MDN Web Docs content API (Yari) and the MDN search index to retrieve browser compatibility data, Web API references, and CSS property documentation. Uses BCD (browser-compat-data) npm package for offline lookups.
 
 ## Installation
 
-Install this skill for your preferred agent framework:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skill install mdn-web-docs-fetcher
+npx skills add agentskillexchange/skills --skill mdn-web-docs-fetcher
 ```
 
 ### Claude Code
 ```bash
-claude skills install mdn-web-docs-fetcher
+npx skills add agentskillexchange/skills --skill mdn-web-docs-fetcher -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["mdn-web-docs-fetcher"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill mdn-web-docs-fetcher -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install mdn-web-docs-fetcher
 
 ### Codex
 ```bash
-codex skills install mdn-web-docs-fetcher
+npx skills add agentskillexchange/skills --skill mdn-web-docs-fetcher -a codex
 ```
-
 ## Details
 
 | Property | Value |

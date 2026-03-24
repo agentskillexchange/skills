@@ -1,37 +1,34 @@
 ---
-name: outlook-rule-automation-manager
+name: "outlook-rule-automation-manager"
 description: "Creates and manages Outlook email rules programmatically using the Microsoft Graph API /me/mailFolders/inbox/messageRules endpoint. Supports complex condition chains with action sequences for automated email triage."
-category: Calendar, Email & Productivity
-framework: Custom Agents
-verification: 
+category: "Calendar, Email & Productivity"
+framework: "Custom Agents"
+verification: listed
 rating: 0
 reviews: 0
-creator: Community
+creator: "Community"
 creator_verified: false
-source: https://agentskillexchange.com/skill/outlook-rule-automation-manager/
+source: "https://agentskillexchange.com/skills/outlook-rule-automation-manager/"
 ---
-
 # Outlook Rule Automation Manager
 
 Creates and manages Outlook email rules programmatically using the Microsoft Graph API /me/mailFolders/inbox/messageRules endpoint. Supports complex condition chains with action sequences for automated email triage.
 
 ## Installation
 
-Install this skill for your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install outlook-rule-automation-manager
+npx skills add agentskillexchange/skills --skill outlook-rule-automation-manager
 ```
 
 ### Claude Code
 ```bash
-claude skills add outlook-rule-automation-manager
+npx skills add agentskillexchange/skills --skill outlook-rule-automation-manager -a claude-code
 ```
 
 ### Cursor
-```
-Install outlook-rule-automation-manager from Cursor Settings > Skills
+```bash
+npx skills add agentskillexchange/skills --skill outlook-rule-automation-manager -a cursor
 ```
 
 ### OpenClaw
@@ -41,9 +38,8 @@ clawhub install outlook-rule-automation-manager
 
 ### Codex
 ```bash
-codex skills add outlook-rule-automation-manager
+npx skills add agentskillexchange/skills --skill outlook-rule-automation-manager -a codex
 ```
-
 ## Details
 
 | Field | Value |

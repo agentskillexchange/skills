@@ -3,36 +3,33 @@ name: "HashiCorp Vault Secret Rotation Agent"
 description: "Connects to HashiCorp Vault HTTP API for automated secret rotation workflows. Manages dynamic database credentials via Vault database secrets engine, handles PKI certificate renewal, and implements lease lifecycle management with TTL monitoring."
 category: "Security & Verification"
 framework: "MCP-compatible"
-verification: "✅ Verified"
-rating: "4.8"
-reviews: "71"
+verification: security_reviewed
+rating: 4.8
+reviews: 71
 creator: "Alex Rivera"
 creator_handle: "@arivera_dev"
-creator_verified: "true"
-source: "https://agentskillexchange.com/skill/hashicorp-vault-secret-rotation-agent-2/"
+creator_verified: true
+source: "https://agentskillexchange.com/skills/hashicorp-vault-secret-rotation-agent-2/"
 ---
-
 # HashiCorp Vault Secret Rotation Agent
 
 Connects to HashiCorp Vault HTTP API for automated secret rotation workflows. Manages dynamic database credentials via Vault database secrets engine, handles PKI certificate renewal, and implements lease lifecycle management with TTL monitoring.
 
 ## Installation
 
-Install this skill in your AI coding agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install hashicorp-vault-secret-rotation-agent-2
+npx skills add agentskillexchange/skills --skill hashicorp-vault-secret-rotation-agent-2
 ```
 
 ### Claude Code
 ```bash
-claude skills add hashicorp-vault-secret-rotation-agent-2
+npx skills add agentskillexchange/skills --skill hashicorp-vault-secret-rotation-agent-2 -a claude-code
 ```
 
 ### Cursor
-```
-Install from Cursor Settings → Skills → Add Skill → "HashiCorp Vault Secret Rotation Agent"
+```bash
+npx skills add agentskillexchange/skills --skill hashicorp-vault-secret-rotation-agent-2 -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install hashicorp-vault-secret-rotation-agent-2
 
 ### Codex
 ```bash
-codex skills add hashicorp-vault-secret-rotation-agent-2
+npx skills add agentskillexchange/skills --skill hashicorp-vault-secret-rotation-agent-2 -a codex
 ```
-
 ## Details
 
 | Field | Value |

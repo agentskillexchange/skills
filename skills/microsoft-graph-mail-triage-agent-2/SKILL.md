@@ -3,51 +3,44 @@ name: "Microsoft Graph Mail Triage Agent"
 description: "Triages Outlook inbox using Microsoft Graph /me/messages endpoint with $filter and $orderby queries. Uses mailFolders API and message rules for automatic categorization and priority routing."
 category: "Calendar, Email & Productivity"
 framework: "ChatGPT Agents"
-verification: "verified"
+verification: verified_metadata
 rating: 4.9
 reviews: 15
 creator: "Alex Rivera"
 creator_handle: "@arivera_dev"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/microsoft-graph-mail-triage-agent-2/"
+source: "https://agentskillexchange.com/skills/microsoft-graph-mail-triage-agent-2/"
 ---
-
 # Microsoft Graph Mail Triage Agent
 
 Triages Outlook inbox using Microsoft Graph /me/messages endpoint with $filter and $orderby queries. Uses mailFolders API and message rules for automatic categorization and priority routing.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
-**Any agent (npx):**
+### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install microsoft-graph-mail-triage-agent-2
+npx skills add agentskillexchange/skills --skill microsoft-graph-mail-triage-agent-2
 ```
 
-**Claude Code:**
+### Claude Code
 ```bash
-claude skills install microsoft-graph-mail-triage-agent-2
+npx skills add agentskillexchange/skills --skill microsoft-graph-mail-triage-agent-2 -a claude-code
 ```
 
-**Cursor:**
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["microsoft-graph-mail-triage-agent-2"]
-}
+### Cursor
+```bash
+npx skills add agentskillexchange/skills --skill microsoft-graph-mail-triage-agent-2 -a cursor
 ```
 
-**OpenClaw:**
+### OpenClaw
 ```bash
 clawhub install microsoft-graph-mail-triage-agent-2
 ```
 
-**Codex:**
+### Codex
 ```bash
-codex skills install microsoft-graph-mail-triage-agent-2
+npx skills add agentskillexchange/skills --skill microsoft-graph-mail-triage-agent-2 -a codex
 ```
-
 ## Details
 
 | Field | Value |

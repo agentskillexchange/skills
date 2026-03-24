@@ -3,15 +3,14 @@ name: "Grafana Unified Alerting Manager"
 description: "Manages Grafana Unified Alerting rules, contact points, and notification policies via the Grafana HTTP API. Supports alert rule provisioning and silence management across multiple Grafana instances."
 category: "Monitoring & Alerts"
 framework: "Cursor"
-verification: "✅ Verified"
-rating: "4.0"
-reviews: "71"
+verification: security_reviewed
+rating: 4.0
+reviews: 71
 creator: "Marcus Chen"
 creator_handle: "@marcuschen"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/grafana-unified-alerting-manager/"
+source: "https://agentskillexchange.com/skills/grafana-unified-alerting-manager/"
 ---
-
 # Grafana Unified Alerting Manager
 
 Manages Grafana Unified Alerting rules, contact points, and notification policies via the Grafana HTTP API. Supports alert rule provisioning and silence management across multiple Grafana instances.
@@ -19,33 +18,29 @@ Manages Grafana Unified Alerting rules, contact points, and notification policie
 ## Installation
 
 ### Any Agent (npx)
-
 ```bash
-npx @anthropic/agent-skills install grafana-unified-alerting-manager
+npx skills add agentskillexchange/skills --skill grafana-unified-alerting-manager
 ```
 
 ### Claude Code
-
 ```bash
-claude mcp add grafana-unified-alerting-manager
+npx skills add agentskillexchange/skills --skill grafana-unified-alerting-manager -a claude-code
 ```
 
 ### Cursor
-
-Add to `.cursor/skills/` directory or install via Cursor settings.
+```bash
+npx skills add agentskillexchange/skills --skill grafana-unified-alerting-manager -a cursor
+```
 
 ### OpenClaw
-
 ```bash
 clawhub install grafana-unified-alerting-manager
 ```
 
 ### Codex
-
 ```bash
-codex install grafana-unified-alerting-manager
+npx skills add agentskillexchange/skills --skill grafana-unified-alerting-manager -a codex
 ```
-
 ## Details
 
 | Field | Value |

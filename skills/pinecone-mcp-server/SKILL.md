@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.2
 reviews: 22
-creator: Sofia Petrov
-creator_handle: sofiapetrov
+creator: "Sofia Petrov"
+creator_handle: "@sofiapetrov"
 creator_verified: true
-source: https://agentskillexchange.com/skill/pinecone-mcp-server/
+source: "https://agentskillexchange.com/skills/pinecone-mcp-server/"
 ---
-
 # Pinecone MCP Server
 
 Use this skill to upsert and query vectors in Pinecone, manage indexes, and perform similarity searches at scale through MCP. It gives agents direct access to Pinecone’s vector database for building semantic search and recommendation systems. Trigger when you need high-performance vector similarity search, want to store embeddings persistently, or need to manage vector indexes […]

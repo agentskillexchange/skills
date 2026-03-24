@@ -3,15 +3,14 @@ name: "Datadog Anomaly Detection Agent"
 description: "Monitors Datadog metric streams via the Datadog REST API v2 and automatically triggers PagerDuty incidents when anomaly scores exceed configurable thresholds. Integrates with Datadog Monitors and E..."
 category: "Monitoring & Alerts"
 framework: "OpenClaw"
-verification: "community"
+verification: listed
 rating: 0
 reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/datadog-anomaly-detection-agent/"
+source: "https://agentskillexchange.com/skills/datadog-anomaly-detection-agent/"
 ---
-
 # Datadog Anomaly Detection Agent
 
 Monitors Datadog metric streams via the Datadog REST API v2 and automatically triggers PagerDuty incidents when anomaly scores exceed configurable thresholds. Integrates with Datadog Monitors and Events API for real-time alerting.
@@ -20,16 +19,18 @@ Monitors Datadog metric streams via the Datadog REST API v2 and automatically tr
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install datadog-anomaly-detection-agent
+npx skills add agentskillexchange/skills --skill datadog-anomaly-detection-agent
 ```
 
 ### Claude Code
 ```bash
-claude mcp add datadog-anomaly-detection-agent
+npx skills add agentskillexchange/skills --skill datadog-anomaly-detection-agent -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills/datadog-anomaly-detection-agent` in your project.
+```bash
+npx skills add agentskillexchange/skills --skill datadog-anomaly-detection-agent -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -38,9 +39,8 @@ clawhub install datadog-anomaly-detection-agent
 
 ### Codex
 ```bash
-codex install datadog-anomaly-detection-agent
+npx skills add agentskillexchange/skills --skill datadog-anomaly-detection-agent -a codex
 ```
-
 ## Details
 
 | Field | Value |

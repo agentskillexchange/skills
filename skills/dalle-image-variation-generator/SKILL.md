@@ -3,40 +3,34 @@ name: "DALL-E Image Variation Generator"
 description: "Generates image variations and edits using the OpenAI Images API v1 with DALL-E 3 model selection. Supports inpainting via base64-encoded mask uploads, handles 1024×1024/1792×1024 aspect ratios, and implements content policy pre-screening with the Moderation API."
 category: "Image & Creative Automation"
 framework: "ChatGPT Agents"
-verification: "✅ Verified"
-security: "🔒 Reviewed"
-rating: "4.9"
-reviews: "56"
+verification: security_reviewed
+rating: 4.9
+reviews: 56
 creator: "Fatima Al-Hassan"
 creator_handle: "@fatimaalhassan"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/dalle-image-variation-generator/"
+source: "https://agentskillexchange.com/skills/dalle-image-variation-generator/"
+security: "🔒 Reviewed"
 ---
-
 # DALL-E Image Variation Generator
 
 Generates image variations and edits using the OpenAI Images API v1 with DALL-E 3 model selection. Supports inpainting via base64-encoded mask uploads, handles 1024×1024/1792×1024 aspect ratios, and implements content policy pre-screening with the Moderation API.
 
 ## Installation
 
-Install this skill across different AI coding agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install dalle-image-variation-generator
+npx skills add agentskillexchange/skills --skill dalle-image-variation-generator
 ```
 
 ### Claude Code
 ```bash
-claude skills add dalle-image-variation-generator
+npx skills add agentskillexchange/skills --skill dalle-image-variation-generator -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["dalle-image-variation-generator"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill dalle-image-variation-generator -a cursor
 ```
 
 ### OpenClaw
@@ -46,9 +40,8 @@ clawhub install dalle-image-variation-generator
 
 ### Codex
 ```bash
-codex skills add dalle-image-variation-generator
+npx skills add agentskillexchange/skills --skill dalle-image-variation-generator -a codex
 ```
-
 ## Details
 
 | Property | Value |

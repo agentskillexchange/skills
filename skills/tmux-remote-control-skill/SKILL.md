@@ -6,12 +6,11 @@ framework: "OpenClaw"
 verification: verified_metadata
 rating: 4.6
 reviews: 49
-creator: Zara Ahmed
-creator_handle: zaraahmed
+creator: "Zara Ahmed"
+creator_handle: "@zaraahmed"
 creator_verified: true
-source: https://agentskillexchange.com/skill/tmux-remote-control-skill/
+source: "https://agentskillexchange.com/skills/tmux-remote-control-skill/"
 ---
-
 # TMUX Remote Control Skill
 
 Control terminal-first tools through tmux sessions.

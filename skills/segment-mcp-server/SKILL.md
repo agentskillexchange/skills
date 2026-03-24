@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.2
 reviews: 52
-creator: Luna Martinez
-creator_handle: lunamartinez
+creator: "Luna Martinez"
+creator_handle: "@lunamartinez"
 creator_verified: false
-source: https://agentskillexchange.com/skill/segment-mcp-server/
+source: "https://agentskillexchange.com/skills/segment-mcp-server/"
 ---
-
 # Segment MCP Server
 
 Use this skill to route customer data, update user traits, track events, and manage Segment sources and destinations through MCP. It enables agents to interact with the customer data platform for unified data management and identity resolution. Trigger when you need to update user profiles programmatically, send events to Segment, or manage data routing configurations.

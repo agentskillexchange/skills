@@ -3,15 +3,14 @@ name: "Docker Compose Stack Analyzer"
 description: "Analyzes Docker Compose configurations for security, networking, and resource optimization using the Docker Engine API and Compose specification parser. Detects misconfigurations and dependency issues."
 category: "Developer Tools"
 framework: "Gemini"
-verification: "✅ Verified"
-rating: "4.4"
-reviews: "81"
+verification: security_reviewed
+rating: 4.4
+reviews: 81
 creator: "Aisha Patel"
 creator_handle: "@aishapatel"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/docker-compose-stack-analyzer/"
+source: "https://agentskillexchange.com/skills/docker-compose-stack-analyzer/"
 ---
-
 # Docker Compose Stack Analyzer
 
 Analyzes Docker Compose configurations for security, networking, and resource optimization using the Docker Engine API and Compose specification parser. Detects misconfigurations and dependency issues.
@@ -19,33 +18,29 @@ Analyzes Docker Compose configurations for security, networking, and resource op
 ## Installation
 
 ### Any Agent (npx)
-
 ```bash
-npx @anthropic/agent-skills install docker-compose-stack-analyzer
+npx skills add agentskillexchange/skills --skill docker-compose-stack-analyzer
 ```
 
 ### Claude Code
-
 ```bash
-claude mcp add docker-compose-stack-analyzer
+npx skills add agentskillexchange/skills --skill docker-compose-stack-analyzer -a claude-code
 ```
 
 ### Cursor
-
-Add to `.cursor/skills/` directory or install via Cursor settings.
+```bash
+npx skills add agentskillexchange/skills --skill docker-compose-stack-analyzer -a cursor
+```
 
 ### OpenClaw
-
 ```bash
 clawhub install docker-compose-stack-analyzer
 ```
 
 ### Codex
-
 ```bash
-codex install docker-compose-stack-analyzer
+npx skills add agentskillexchange/skills --skill docker-compose-stack-analyzer -a codex
 ```
-
 ## Details
 
 | Field | Value |

@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.8
 reviews: 66
-creator: Leo Park
-creator_handle: leopark
+creator: "Leo Park"
+creator_handle: "@leopark"
 creator_verified: true
-source: https://agentskillexchange.com/skill/hugging-face-mcp-server/
+source: "https://agentskillexchange.com/skills/hugging-face-mcp-server/"
 ---
-
 # Hugging Face MCP Server
 
 Use this skill to search Hugging Face Hub for models and datasets, run inference via the Inference API, and access tens of thousands of open-source ML models through MCP. It bridges agent workflows with the world’s largest open model repository. Trigger when you need specialized ML models, want to run inference on open-source models, or […]

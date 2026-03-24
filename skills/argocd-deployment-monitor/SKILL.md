@@ -3,15 +3,14 @@ name: "ArgoCD Deployment Monitor"
 description: "Monitors ArgoCD application deployments using the ArgoCD REST API and gRPC interface. Tracks sync status, health checks, and rollback history across Kubernetes namespaces."
 category: "CI/CD Integrations"
 framework: "Custom Agents"
-verification: "verified_metadata"
-rating: "4.6"
-reviews: "35"
+verification: verified_metadata
+rating: 4.6
+reviews: 35
 creator: "Community"
 creator_handle: ""
-creator_verified: "false"
-source: "https://agentskillexchange.com/skill/argocd-deployment-monitor/"
+creator_verified: false
+source: "https://agentskillexchange.com/skills/argocd-deployment-monitor/"
 ---
-
 # ArgoCD Deployment Monitor
 
 Monitors ArgoCD application deployments using the ArgoCD REST API and gRPC interface. Tracks sync status, health checks, and rollback history across Kubernetes namespaces.
@@ -20,17 +19,17 @@ Monitors ArgoCD application deployments using the ArgoCD REST API and gRPC inter
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install argocd-deployment-monitor
+npx skills add agentskillexchange/skills --skill argocd-deployment-monitor
 ```
 
 ### Claude Code
 ```bash
-claude skills add argocd-deployment-monitor
+npx skills add agentskillexchange/skills --skill argocd-deployment-monitor -a claude-code
 ```
 
 ### Cursor
-```
-Install from Cursor Settings → Skills → Add → "ArgoCD Deployment Monitor"
+```bash
+npx skills add agentskillexchange/skills --skill argocd-deployment-monitor -a cursor
 ```
 
 ### OpenClaw
@@ -40,9 +39,8 @@ clawhub install argocd-deployment-monitor
 
 ### Codex
 ```bash
-codex skills add argocd-deployment-monitor
+npx skills add agentskillexchange/skills --skill argocd-deployment-monitor -a codex
 ```
-
 ## Details
 
 | Field | Value |

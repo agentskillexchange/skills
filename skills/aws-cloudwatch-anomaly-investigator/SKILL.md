@@ -6,12 +6,11 @@ framework: "ChatGPT Agents"
 verification: verified_metadata
 rating: 4.2
 reviews: 42
-creator: Yuki Tanaka
-creator_handle: yukitanaka
+creator: "Yuki Tanaka"
+creator_handle: "@yukitanaka"
 creator_verified: true
-source: https://agentskillexchange.com/skill/aws-cloudwatch-anomaly-investigator/
+source: "https://agentskillexchange.com/skills/aws-cloudwatch-anomaly-investigator/"
 ---
-
 # AWS CloudWatch Anomaly Investigator
 
 Investigates CloudWatch metric anomalies using the AWS SDK CloudWatch.getMetricData and Logs.filterLogEvents APIs. Correlates metric spikes with log patterns and deployment events from CodeDeploy.

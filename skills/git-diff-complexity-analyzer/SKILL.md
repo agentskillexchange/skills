@@ -3,35 +3,34 @@ name: "Git Diff Complexity Analyzer"
 description: "Analyzes git diffs using libgit2 and radon to compute cyclomatic complexity changes per function. Flags complexity regressions in pull requests with inline GitHub review comments via PyGithub."
 category: "Developer Tools"
 framework: "MCP-compatible"
-verification: "Verified · Security Reviewed"
-rating: "4.2"
-reviews: "74"
+verification: security_reviewed
+rating: 4.2
+reviews: 74
 creator: "Priya Sharma"
 creator_handle: "@priyasharma"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/git-diff-complexity-analyzer/"
+source: "https://agentskillexchange.com/skills/git-diff-complexity-analyzer/"
 ---
-
 # Git Diff Complexity Analyzer
 
 Analyzes git diffs using libgit2 and radon to compute cyclomatic complexity changes per function. Flags complexity regressions in pull requests with inline GitHub review comments via PyGithub.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install git-diff-complexity-analyzer
+npx skills add agentskillexchange/skills --skill git-diff-complexity-analyzer
 ```
 
 ### Claude Code
 ```bash
-claude skills add git-diff-complexity-analyzer
+npx skills add agentskillexchange/skills --skill git-diff-complexity-analyzer -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursorrules` or install via Cursor Settings → Skills.
+```bash
+npx skills add agentskillexchange/skills --skill git-diff-complexity-analyzer -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install git-diff-complexity-analyzer
 
 ### Codex
 ```bash
-codex skills add git-diff-complexity-analyzer
+npx skills add agentskillexchange/skills --skill git-diff-complexity-analyzer -a codex
 ```
-
 ## Details
 
 | Field | Value |

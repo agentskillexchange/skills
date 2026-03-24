@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.3
 reviews: 55
-creator: Kai Nakamura
-creator_handle: kainakamura
+creator: "Kai Nakamura"
+creator_handle: "@kainakamura"
 creator_verified: true
-source: https://agentskillexchange.com/skill/deployment-rollback-runbook/
+source: "https://agentskillexchange.com/skills/deployment-rollback-runbook/"
 ---
-
 # Deployment Rollback Runbook
 
 Use this skill to execute rollback procedures for Kubernetes, ECS, and Lambda deployments when new releases cause issues. It provides step-by-step rollback commands with verification steps and communication templates. Trigger when a deployment causes errors, performance regressions, or needs to be reverted quickly to restore service.

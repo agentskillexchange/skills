@@ -3,36 +3,33 @@ name: "Figma Design Token Extractor"
 description: "Extracts design tokens from Figma files via the Figma REST API (/v1/files) and converts them to CSS custom properties, Tailwind config, and Style Dictionary format. Supports component variant mapping."
 category: "Image & Creative Automation"
 framework: "Claude Agents"
-verification: "community"
-rating: "4.4"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/figma-design-token-extractor-2/"
+source: "https://agentskillexchange.com/skills/figma-design-token-extractor-2/"
 ---
-
 # Figma Design Token Extractor
 
 Extracts design tokens from Figma files via the Figma REST API (/v1/files) and converts them to CSS custom properties, Tailwind config, and Style Dictionary format. Supports component variant mapping.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install figma-design-token-extractor-2
+npx skills add agentskillexchange/skills --skill figma-design-token-extractor-2
 ```
 
 ### Claude Code
 ```bash
-claude skills add figma-design-token-extractor-2
+npx skills add agentskillexchange/skills --skill figma-design-token-extractor-2 -a claude-code
 ```
 
 ### Cursor
-```
-Install from Cursor Settings → Skills → Add → "Figma Design Token Extractor"
+```bash
+npx skills add agentskillexchange/skills --skill figma-design-token-extractor-2 -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install figma-design-token-extractor-2
 
 ### Codex
 ```bash
-codex skills add figma-design-token-extractor-2
+npx skills add agentskillexchange/skills --skill figma-design-token-extractor-2 -a codex
 ```
-
 ## Details
 
 | Field | Value |

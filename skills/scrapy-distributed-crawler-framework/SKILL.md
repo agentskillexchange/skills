@@ -3,15 +3,14 @@ name: "Scrapy Distributed Crawler Framework"
 description: "Orchestrates large-scale web crawling using Scrapy with scrapy-redis for distributed job queuing. Integrates Splash for JavaScript rendering, stores results in MongoDB via scrapy-mongodb pipeline, and respects robots.txt with AutoThrottle."
 category: "Research & Scraping"
 framework: "MCP-compatible"
-verification: "community"
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/scrapy-distributed-crawler-framework/"
+source: "https://agentskillexchange.com/skills/scrapy-distributed-crawler-framework/"
 ---
-
 # Scrapy Distributed Crawler Framework
 
 Orchestrates large-scale web crawling using Scrapy with scrapy-redis for distributed job queuing. Integrates Splash for JavaScript rendering, stores results in MongoDB via scrapy-mongodb pipeline, and respects robots.txt with AutoThrottle.
@@ -20,22 +19,17 @@ Orchestrates large-scale web crawling using Scrapy with scrapy-redis for distrib
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install scrapy-distributed-crawler-framework
+npx skills add agentskillexchange/skills --skill scrapy-distributed-crawler-framework
 ```
 
 ### Claude Code
 ```bash
-claude mcp add scrapy-distributed-crawler-framework
+npx skills add agentskillexchange/skills --skill scrapy-distributed-crawler-framework -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "scrapy-distributed-crawler-framework": {
-    "source": "agentskillexchange"
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill scrapy-distributed-crawler-framework -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install scrapy-distributed-crawler-framework
 
 ### Codex
 ```bash
-codex install scrapy-distributed-crawler-framework
+npx skills add agentskillexchange/skills --skill scrapy-distributed-crawler-framework -a codex
 ```
-
 ## Details
 
 | Field | Value |

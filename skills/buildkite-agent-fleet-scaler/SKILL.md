@@ -3,39 +3,33 @@ name: "Buildkite Agent Fleet Scaler"
 description: "Auto-scales Buildkite agent fleets based on queue depth and job wait times using the Buildkite GraphQL API. Manages AWS EC2 spot instances and Kubernetes HPA configurations for elastic CI capacity."
 category: "CI/CD Integrations"
 framework: "Gemini"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.1
 reviews: 50
 creator: "Hannah Berg"
 creator_handle: "@hannahberg"
 creator_verified: false
-source: "https://agentskillexchange.com/skill/buildkite-agent-fleet-scaler/"
+source: "https://agentskillexchange.com/skills/buildkite-agent-fleet-scaler/"
 ---
-
 # Buildkite Agent Fleet Scaler
 
 Auto-scales Buildkite agent fleets based on queue depth and job wait times using the Buildkite GraphQL API. Manages AWS EC2 spot instances and Kubernetes HPA configurations for elastic CI capacity.
 
 ## Installation
 
-Install this skill for your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install buildkite-agent-fleet-scaler
+npx skills add agentskillexchange/skills --skill buildkite-agent-fleet-scaler
 ```
 
 ### Claude Code
 ```bash
-claude skills add buildkite-agent-fleet-scaler
+npx skills add agentskillexchange/skills --skill buildkite-agent-fleet-scaler -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["buildkite-agent-fleet-scaler"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill buildkite-agent-fleet-scaler -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install buildkite-agent-fleet-scaler
 
 ### Codex
 ```bash
-codex skills add buildkite-agent-fleet-scaler
+npx skills add agentskillexchange/skills --skill buildkite-agent-fleet-scaler -a codex
 ```
-
 ## Details
 
 | Property | Value |

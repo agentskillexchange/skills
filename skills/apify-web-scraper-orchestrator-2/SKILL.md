@@ -3,39 +3,33 @@ name: "Apify Web Scraper Orchestrator"
 description: "Manages Apify actors for large-scale web scraping jobs via the Apify Client SDK. Handles proxy rotation, result pagination, and dataset export to JSON/CSV. Integrates with Cheerio and Puppeteer crawlers."
 category: "Research & Scraping"
 framework: "OpenClaw"
-verification: ""
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/apify-web-scraper-orchestrator-2/"
+source: "https://agentskillexchange.com/skills/apify-web-scraper-orchestrator-2/"
 ---
-
 # Apify Web Scraper Orchestrator
 
 Manages Apify actors for large-scale web scraping jobs via the Apify Client SDK. Handles proxy rotation, result pagination, and dataset export to JSON/CSV. Integrates with Cheerio and Puppeteer crawlers.
 
 ## Installation
 
-Install this skill across different AI coding agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install apify-web-scraper-orchestrator-2
+npx skills add agentskillexchange/skills --skill apify-web-scraper-orchestrator-2
 ```
 
 ### Claude Code
 ```bash
-claude skill add apify-web-scraper-orchestrator-2
+npx skills add agentskillexchange/skills --skill apify-web-scraper-orchestrator-2 -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` configuration:
-```json
-{
-  "skills": ["apify-web-scraper-orchestrator-2"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill apify-web-scraper-orchestrator-2 -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install apify-web-scraper-orchestrator-2
 
 ### Codex
 ```bash
-codex skill add apify-web-scraper-orchestrator-2
+npx skills add agentskillexchange/skills --skill apify-web-scraper-orchestrator-2 -a codex
 ```
-
 ## Details
 
 | Property | Value |

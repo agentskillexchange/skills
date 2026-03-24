@@ -3,15 +3,14 @@ name: "Scrapy Spider Data Pipeline"
 description: "Builds and manages Scrapy web scraping spiders with custom item pipelines. Supports Splash rendering for JavaScript pages, rotating proxies via scrapy-rotating-proxies, and export to MongoDB or Elasticsearch."
 category: "Data Extraction & Transformation"
 framework: "Cursor"
-verification: "community"
-rating: "4.9"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "James Kim"
 creator_handle: "@jameskim_ai"
-creator_verified: 1
-source: "https://agentskillexchange.com/skill/scrapy-spider-data-pipeline/"
+creator_verified: true
+source: "https://agentskillexchange.com/skills/scrapy-spider-data-pipeline/"
 ---
-
 # Scrapy Spider Data Pipeline
 
 Builds and manages Scrapy web scraping spiders with custom item pipelines. Supports Splash rendering for JavaScript pages, rotating proxies via scrapy-rotating-proxies, and export to MongoDB or Elasticsearch.
@@ -20,22 +19,17 @@ Builds and manages Scrapy web scraping spiders with custom item pipelines. Suppo
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install scrapy-spider-data-pipeline
+npx skills add agentskillexchange/skills --skill scrapy-spider-data-pipeline
 ```
 
 ### Claude Code
 ```bash
-claude mcp add scrapy-spider-data-pipeline
+npx skills add agentskillexchange/skills --skill scrapy-spider-data-pipeline -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "scrapy-spider-data-pipeline": {
-    "source": "agentskillexchange"
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill scrapy-spider-data-pipeline -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install scrapy-spider-data-pipeline
 
 ### Codex
 ```bash
-codex install-skill scrapy-spider-data-pipeline
+npx skills add agentskillexchange/skills --skill scrapy-spider-data-pipeline -a codex
 ```
-
 ## Details
 
 | Field | Value |

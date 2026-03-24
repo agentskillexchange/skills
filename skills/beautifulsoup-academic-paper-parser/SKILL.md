@@ -3,35 +3,34 @@ name: "Beautiful Soup Academic Paper Parser"
 description: "Extracts structured citation data from academic repositories using BeautifulSoup4 with lxml parser. Parses DOI metadata, author affiliations, and reference lists from PubMed, arXiv, and Semantic Scholar HTML."
 category: "Research & Scraping"
 framework: "MCP-compatible"
-verification: ""
+verification: listed
 rating: 0
 reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/beautifulsoup-academic-paper-parser/"
+source: "https://agentskillexchange.com/skills/beautifulsoup-academic-paper-parser/"
 ---
-
 # Beautiful Soup Academic Paper Parser
 
 Extracts structured citation data from academic repositories using BeautifulSoup4 with lxml parser. Parses DOI metadata, author affiliations, and reference lists from PubMed, arXiv, and Semantic Scholar HTML.
 
 ## Installation
 
-Install this skill across different AI coding agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install beautifulsoup-academic-paper-parser
+npx skills add agentskillexchange/skills --skill beautifulsoup-academic-paper-parser
 ```
 
 ### Claude Code
 ```bash
-claude mcp add beautifulsoup-academic-paper-parser
+npx skills add agentskillexchange/skills --skill beautifulsoup-academic-paper-parser -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills/` directory or install via Cursor Settings → Skills.
+```bash
+npx skills add agentskillexchange/skills --skill beautifulsoup-academic-paper-parser -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install beautifulsoup-academic-paper-parser
 
 ### Codex
 ```bash
-codex install beautifulsoup-academic-paper-parser
+npx skills add agentskillexchange/skills --skill beautifulsoup-academic-paper-parser -a codex
 ```
-
 ## Details
 
 | Property | Value |

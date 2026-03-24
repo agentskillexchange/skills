@@ -3,39 +3,33 @@ name: "GitHub Actions Matrix Builder"
 description: "Dynamically generates GitHub Actions CI/CD matrix strategies from repository metadata using the actions/github-script SDK and octokit REST API. Supports conditional job inclusion, platform-specific test splits, and automatic dependency caching via actions/cache."
 category: "CI/CD Integrations"
 framework: "Claude Code"
-verification: "Yes"
-rating: "4.4"
-reviews: "83"
+verification: verified_metadata
+rating: 4.4
+reviews: 83
 creator: "James Kim"
 creator_handle: "@jameskim_ai"
-creator_verified: "Yes"
-source: "https://agentskillexchange.com/skill/github-actions-matrix-builder-20/"
+creator_verified: true
+source: "https://agentskillexchange.com/skills/github-actions-matrix-builder-20/"
 ---
-
 # GitHub Actions Matrix Builder
 
 Dynamically generates GitHub Actions CI/CD matrix strategies from repository metadata using the actions/github-script SDK and octokit REST API. Supports conditional job inclusion, platform-specific test splits, and automatic dependency caching via actions/cache.
 
 ## Installation
 
-Install this skill for your preferred agent framework:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skill install github-actions-matrix-builder-20
+npx skills add agentskillexchange/skills --skill github-actions-matrix-builder-20
 ```
 
 ### Claude Code
 ```bash
-claude skills install github-actions-matrix-builder-20
+npx skills add agentskillexchange/skills --skill github-actions-matrix-builder-20 -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["github-actions-matrix-builder-20"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill github-actions-matrix-builder-20 -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install github-actions-matrix-builder-20
 
 ### Codex
 ```bash
-codex skills install github-actions-matrix-builder-20
+npx skills add agentskillexchange/skills --skill github-actions-matrix-builder-20 -a codex
 ```
-
 ## Details
 
 | Property | Value |

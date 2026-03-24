@@ -3,39 +3,33 @@ name: "CircleCI Workflow Builder"
 description: "Generates CircleCI config.yml workflows using the CircleCI Orbs SDK and Workflows API. Supports parallelism tuning with the CircleCI Test Splitting API and resource class optimization for Docker and machine executors."
 category: "CI/CD Integrations"
 framework: "Claude Code"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.7
 reviews: 40
 creator: "Mateo Silva"
 creator_handle: "@mateosilva"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/circleci-workflow-builder/"
+source: "https://agentskillexchange.com/skills/circleci-workflow-builder/"
 ---
-
 # CircleCI Workflow Builder
 
 Generates CircleCI config.yml workflows using the CircleCI Orbs SDK and Workflows API. Supports parallelism tuning with the CircleCI Test Splitting API and resource class optimization for Docker and machine executors.
 
 ## Installation
 
-Install this skill in your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install circleci-workflow-builder
+npx skills add agentskillexchange/skills --skill circleci-workflow-builder
 ```
 
 ### Claude Code
 ```bash
-claude skills add circleci-workflow-builder
+npx skills add agentskillexchange/skills --skill circleci-workflow-builder -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["circleci-workflow-builder"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill circleci-workflow-builder -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install circleci-workflow-builder
 
 ### Codex
 ```bash
-codex skills add circleci-workflow-builder
+npx skills add agentskillexchange/skills --skill circleci-workflow-builder -a codex
 ```
-
 ## Details
 
 | Property | Value |

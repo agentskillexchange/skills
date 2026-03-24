@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.4
 reviews: 68
-creator: Ava Wilson
-creator_handle: avawilson
+creator: "Ava Wilson"
+creator_handle: "@avawilson"
 creator_verified: true
-source: https://agentskillexchange.com/skill/conftest-policy-tester/
+source: "https://agentskillexchange.com/skills/conftest-policy-tester/"
 ---
-
 # Conftest Policy Tester
 
 Tests configuration files (Kubernetes manifests, Terraform, Dockerfiles, Helm charts) against OPA Rego policies using Conftest. Integrates into CI/CD to prevent policy violations from reaching production.

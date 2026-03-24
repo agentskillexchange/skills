@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.2
 reviews: 79
-creator: Chris Lee
-creator_handle: chrislee
+creator: "Chris Lee"
+creator_handle: "@chrislee"
 creator_verified: false
-source: https://agentskillexchange.com/skill/api-latency-spike-runbook/
+source: "https://agentskillexchange.com/skills/api-latency-spike-runbook/"
 ---
-
 # API Latency Spike Runbook
 
 Runbook for investigating sudden API latency increases. Systematic investigation from load balancer through application code to database queries and external dependencies.

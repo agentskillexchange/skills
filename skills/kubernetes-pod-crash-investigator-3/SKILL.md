@@ -6,12 +6,11 @@ framework: "Codex"
 verification: security_reviewed
 rating: 4.1
 reviews: 86
-creator: Luna Martinez
-creator_handle: lunamartinez
+creator: "Luna Martinez"
+creator_handle: "@lunamartinez"
 creator_verified: false
-source: https://agentskillexchange.com/skill/kubernetes-pod-crash-investigator-3/
+source: "https://agentskillexchange.com/skills/kubernetes-pod-crash-investigator-3/"
 ---
-
 # Kubernetes Pod Crash Investigator
 
 Diagnoses CrashLoopBackOff and OOMKilled pod failures using the Kubernetes API via kubectl and the official kubernetes-client/python SDK. Correlates container logs, resource limits, and node conditions for root cause analysis.

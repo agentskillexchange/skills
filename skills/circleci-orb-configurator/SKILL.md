@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: verified_metadata
 rating: 4.1
 reviews: 18
-creator: Sarah Chen
-creator_handle: sarahchen
+creator: "Sarah Chen"
+creator_handle: "@sarahchen"
 creator_verified: true
-source: https://agentskillexchange.com/skill/circleci-orb-configurator/
+source: "https://agentskillexchange.com/skills/circleci-orb-configurator/"
 ---
-
 # CircleCI Orb Configurator
 
 Configures and validates CircleCI orbs using the circleci/config SDK and CircleCI CLI validator. Automates pipeline generation with the circleci/node, circleci/docker, and circleci/aws-ecr orbs for container-based deployments.

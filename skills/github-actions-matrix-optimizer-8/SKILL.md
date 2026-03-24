@@ -3,39 +3,33 @@ name: "GitHub Actions Matrix Optimizer"
 description: "Optimizes GitHub Actions matrix strategies by analyzing workflow run history via the GitHub REST API. Identifies redundant matrix combinations and reduces CI minutes using intelligent test grouping with pytest-split."
 category: "CI/CD Integrations"
 framework: "Codex"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.5
 reviews: 75
 creator: "Mateo Silva"
 creator_handle: "@mateosilva"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/github-actions-matrix-optimizer-8/"
+source: "https://agentskillexchange.com/skills/github-actions-matrix-optimizer-8/"
 ---
-
 # GitHub Actions Matrix Optimizer
 
 Optimizes GitHub Actions matrix strategies by analyzing workflow run history via the GitHub REST API. Identifies redundant matrix combinations and reduces CI minutes using intelligent test grouping with pytest-split.
 
 ## Installation
 
-Install this skill for your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install github-actions-matrix-optimizer-8
+npx skills add agentskillexchange/skills --skill github-actions-matrix-optimizer-8
 ```
 
 ### Claude Code
 ```bash
-claude skills add github-actions-matrix-optimizer-8
+npx skills add agentskillexchange/skills --skill github-actions-matrix-optimizer-8 -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["github-actions-matrix-optimizer-8"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill github-actions-matrix-optimizer-8 -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install github-actions-matrix-optimizer-8
 
 ### Codex
 ```bash
-codex skills add github-actions-matrix-optimizer-8
+npx skills add agentskillexchange/skills --skill github-actions-matrix-optimizer-8 -a codex
 ```
-
 ## Details
 
 | Property | Value |

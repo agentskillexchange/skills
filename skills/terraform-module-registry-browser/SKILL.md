@@ -3,49 +3,44 @@ name: "Terraform Module Registry Browser"
 description: "Searches and evaluates Terraform modules from the HashiCorp Registry API and private registries. Uses hcl2json parser to analyze module input variables, outputs, and provider requirements."
 category: "Templates & Workflows"
 framework: "MCP-compatible"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.8
 reviews: 13
 creator: "Hannah Berg"
 creator_handle: "@hannahberg"
 creator_verified: false
-source: "https://agentskillexchange.com/skill/terraform-module-registry-browser/"
+source: "https://agentskillexchange.com/skills/terraform-module-registry-browser/"
 ---
-
 # Terraform Module Registry Browser
 
 Searches and evaluates Terraform modules from the HashiCorp Registry API and private registries. Uses hcl2json parser to analyze module input variables, outputs, and provider requirements.
 
 ## Installation
 
-Install this skill on your preferred agent platform:
-
-**Any agent (npx):**
+### Any Agent (npx)
 ```bash
-npx @anthropic/agentskill install terraform-module-registry-browser
+npx skills add agentskillexchange/skills --skill terraform-module-registry-browser
 ```
 
-**Claude Code:**
+### Claude Code
 ```bash
-claude mcp add terraform-module-registry-browser
+npx skills add agentskillexchange/skills --skill terraform-module-registry-browser -a claude-code
 ```
 
-**Cursor:**
-Add to your `.cursor/skills` configuration:
-```json
-{ "terraform-module-registry-browser": "latest" }
+### Cursor
+```bash
+npx skills add agentskillexchange/skills --skill terraform-module-registry-browser -a cursor
 ```
 
-**OpenClaw:**
+### OpenClaw
 ```bash
 clawhub install terraform-module-registry-browser
 ```
 
-**Codex:**
+### Codex
 ```bash
-codex install terraform-module-registry-browser
+npx skills add agentskillexchange/skills --skill terraform-module-registry-browser -a codex
 ```
-
 ## Details
 
 | Field | Value |

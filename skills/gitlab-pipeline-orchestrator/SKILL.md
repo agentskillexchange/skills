@@ -3,39 +3,33 @@ name: "GitLab Pipeline Orchestrator"
 description: "Automates GitLab CI/CD pipeline creation using the GitLab Pipelines API and .gitlab-ci.yml DSL. Manages multi-stage builds with artifact caching via the GitLab Artifacts API and triggers downstream pipelines through bridge jobs."
 category: "CI/CD Integrations"
 framework: "OpenClaw"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.8
 reviews: 85
 creator: "Grace Okafor"
 creator_handle: "@graceokafor"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/gitlab-pipeline-orchestrator/"
+source: "https://agentskillexchange.com/skills/gitlab-pipeline-orchestrator/"
 ---
-
 # GitLab Pipeline Orchestrator
 
 Automates GitLab CI/CD pipeline creation using the GitLab Pipelines API and .gitlab-ci.yml DSL. Manages multi-stage builds with artifact caching via the GitLab Artifacts API and triggers downstream pipelines through bridge jobs.
 
 ## Installation
 
-Install this skill in your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install gitlab-pipeline-orchestrator
+npx skills add agentskillexchange/skills --skill gitlab-pipeline-orchestrator
 ```
 
 ### Claude Code
 ```bash
-claude skills add gitlab-pipeline-orchestrator
+npx skills add agentskillexchange/skills --skill gitlab-pipeline-orchestrator -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["gitlab-pipeline-orchestrator"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill gitlab-pipeline-orchestrator -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install gitlab-pipeline-orchestrator
 
 ### Codex
 ```bash
-codex skills add gitlab-pipeline-orchestrator
+npx skills add agentskillexchange/skills --skill gitlab-pipeline-orchestrator -a codex
 ```
-
 ## Details
 
 | Property | Value |

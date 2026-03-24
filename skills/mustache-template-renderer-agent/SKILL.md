@@ -3,39 +3,33 @@ name: "Mustache Template Renderer"
 description: "Renders Mustache logic-less templates with partials resolution and lambda support. Uses the mustache.js library for client and server-side rendering with custom delimiter configuration."
 category: "Templates & Workflows"
 framework: "OpenClaw"
-verification: ""
-rating: "4.1"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/mustache-template-renderer-agent/"
+source: "https://agentskillexchange.com/skills/mustache-template-renderer-agent/"
 ---
-
 # Mustache Template Renderer
 
 Renders Mustache logic-less templates with partials resolution and lambda support. Uses the mustache.js library for client and server-side rendering with custom delimiter configuration.
 
 ## Installation
 
-Install this skill in your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install mustache-template-renderer-agent
+npx skills add agentskillexchange/skills --skill mustache-template-renderer-agent
 ```
 
 ### Claude Code
 ```bash
-claude mcp add mustache-template-renderer-agent
+npx skills add agentskillexchange/skills --skill mustache-template-renderer-agent -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "mustache-template-renderer-agent": true
-}
+```bash
+npx skills add agentskillexchange/skills --skill mustache-template-renderer-agent -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install mustache-template-renderer-agent
 
 ### Codex
 ```bash
-codex install mustache-template-renderer-agent
+npx skills add agentskillexchange/skills --skill mustache-template-renderer-agent -a codex
 ```
-
 ## Details
 
 | Property | Value |

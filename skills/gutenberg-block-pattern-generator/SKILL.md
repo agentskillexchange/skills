@@ -3,44 +3,33 @@ name: "Gutenberg Block Pattern Generator"
 description: "Creates custom Gutenberg block patterns from natural language descriptions, generating valid PHP registration code and block markup for WordPress themes and plugins."
 category: "WordPress & CMS"
 framework: "Claude Code"
-verification: "✅ Verified"
+verification: security_reviewed
 rating: 4.8
 reviews: 86
 creator: "Grace Okafor"
 creator_handle: "@graceokafor"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/gutenberg-block-pattern-generator/"
+source: "https://agentskillexchange.com/skills/gutenberg-block-pattern-generator/"
 ---
-
 # Gutenberg Block Pattern Generator
 
 Creates custom Gutenberg block patterns from natural language descriptions, generating valid PHP registration code and block markup for WordPress themes and plugins.
 
 ## Installation
 
-Install this skill on your preferred agent platform:
-
 ### Any Agent (npx)
 ```bash
-npx skills install gutenberg-block-pattern-generator
+npx skills add agentskillexchange/skills --skill gutenberg-block-pattern-generator
 ```
 
 ### Claude Code
 ```bash
-claude mcp add gutenberg-block-pattern-generator
+npx skills add agentskillexchange/skills --skill gutenberg-block-pattern-generator -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/mcp.json`:
-```json
-{
-  "mcpServers": {
-    "gutenberg-block-pattern-generator": {
-      "command": "npx",
-      "args": ["-y", "skills", "run", "gutenberg-block-pattern-generator"]
-    }
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill gutenberg-block-pattern-generator -a cursor
 ```
 
 ### OpenClaw
@@ -50,9 +39,8 @@ clawhub install gutenberg-block-pattern-generator
 
 ### Codex
 ```bash
-codex install gutenberg-block-pattern-generator
+npx skills add agentskillexchange/skills --skill gutenberg-block-pattern-generator -a codex
 ```
-
 ## Details
 
 | Property | Value |

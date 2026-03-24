@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.2
 reviews: 48
-creator: Isabella Rossi
-creator_handle: irossi
+creator: "Isabella Rossi"
+creator_handle: "@irossi"
 creator_verified: false
-source: https://agentskillexchange.com/skill/redis-mcp-server/
+source: "https://agentskillexchange.com/skills/redis-mcp-server/"
 ---
-
 # Redis MCP Server
 
 MCP server exposing Redis operations to AI agents — get/set/del, hash operations, list/set/sorted set commands, pub/sub, streams, and keyspace exploration. Supports Redis Cluster and Sentinel.

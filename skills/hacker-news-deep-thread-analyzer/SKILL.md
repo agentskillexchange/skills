@@ -3,35 +3,34 @@ name: "Hacker News Deep Thread Analyzer"
 description: "Scrapes and analyzes Hacker News threads using the official HN Firebase API and BeautifulSoup. Extracts sentiment trends, expertise signals, and generates structured summaries with key arguments mapped."
 category: "Research & Scraping"
 framework: "Custom Agents"
-verification: "Verified · Security Reviewed"
-rating: "4.7"
-reviews: "41"
+verification: security_reviewed
+rating: 4.7
+reviews: 41
 creator: "Elena Rodriguez"
 creator_handle: "@elena_dev"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/hacker-news-deep-thread-analyzer/"
+source: "https://agentskillexchange.com/skills/hacker-news-deep-thread-analyzer/"
 ---
-
 # Hacker News Deep Thread Analyzer
 
 Scrapes and analyzes Hacker News threads using the official HN Firebase API and BeautifulSoup. Extracts sentiment trends, expertise signals, and generates structured summaries with key arguments mapped.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install hacker-news-deep-thread-analyzer
+npx skills add agentskillexchange/skills --skill hacker-news-deep-thread-analyzer
 ```
 
 ### Claude Code
 ```bash
-claude skills add hacker-news-deep-thread-analyzer
+npx skills add agentskillexchange/skills --skill hacker-news-deep-thread-analyzer -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursorrules` or install via Cursor Settings → Skills.
+```bash
+npx skills add agentskillexchange/skills --skill hacker-news-deep-thread-analyzer -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install hacker-news-deep-thread-analyzer
 
 ### Codex
 ```bash
-codex skills add hacker-news-deep-thread-analyzer
+npx skills add agentskillexchange/skills --skill hacker-news-deep-thread-analyzer -a codex
 ```
-
 ## Details
 
 | Field | Value |

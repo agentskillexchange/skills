@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.3
 reviews: 81
-creator: Maya Johnson
-creator_handle: mayaj
+creator: "Maya Johnson"
+creator_handle: "@mayaj"
 creator_verified: false
-source: https://agentskillexchange.com/skill/cockroachdb-agent/
+source: "https://agentskillexchange.com/skills/cockroachdb-agent/"
 ---
-
 # CockroachDB Agent
 
 AI agent skill for CockroachDB — generate distributed SQL queries, analyze query plans, manage schema migrations, inspect cluster health, and optimize multi-region data distribution.

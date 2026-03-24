@@ -3,15 +3,14 @@ name: "SEO Keyword Research Automator"
 description: "Automated keyword research using DataForSEO API and Google Search Console API. Performs SERP analysis, keyword clustering with TF-IDF scoring, and generates content briefs with search intent classification."
 category: "Content Writing & SEO"
 framework: "Gemini"
-verification: "Verified & Security Reviewed"
-rating: "4.9"
-reviews: "86"
+verification: security_reviewed
+rating: 4.9
+reviews: 86
 creator: "Nina Volkov"
 creator_handle: "@ninavolkov"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/seo-keyword-research-automator/"
+source: "https://agentskillexchange.com/skills/seo-keyword-research-automator/"
 ---
-
 # SEO Keyword Research Automator
 
 Automated keyword research using DataForSEO API and Google Search Console API. Performs SERP analysis, keyword clustering with TF-IDF scoring, and generates content briefs with search intent classification.
@@ -20,20 +19,17 @@ Automated keyword research using DataForSEO API and Google Search Console API. P
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install seo-keyword-research-automator
+npx skills add agentskillexchange/skills --skill seo-keyword-research-automator
 ```
 
 ### Claude Code
 ```bash
-claude mcp add seo-keyword-research-automator
+npx skills add agentskillexchange/skills --skill seo-keyword-research-automator -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "skills": ["seo-keyword-research-automator"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill seo-keyword-research-automator -a cursor
 ```
 
 ### OpenClaw
@@ -43,9 +39,8 @@ clawhub install seo-keyword-research-automator
 
 ### Codex
 ```bash
-codex install seo-keyword-research-automator
+npx skills add agentskillexchange/skills --skill seo-keyword-research-automator -a codex
 ```
-
 ## Details
 
 | Field | Value |

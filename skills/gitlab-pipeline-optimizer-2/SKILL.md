@@ -3,15 +3,14 @@ name: "GitLab Pipeline Optimizer"
 description: "Analyzes and optimizes GitLab CI/CD pipelines using the GitLab REST API v4 and gitlab-ci-lint. Reduces pipeline duration by identifying bottleneck stages, merging parallelizable jobs, and configuring DAG dependencies with needs keyword."
 category: "CI/CD Integrations"
 framework: "Claude Code"
-verification: "security_reviewed"
+verification: security_reviewed
 rating: 4.9
 reviews: 19
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/gitlab-pipeline-optimizer-2/"
+source: "https://agentskillexchange.com/skills/gitlab-pipeline-optimizer-2/"
 ---
-
 # GitLab Pipeline Optimizer
 
 Analyzes and optimizes GitLab CI/CD pipelines using the GitLab REST API v4 and gitlab-ci-lint. Reduces pipeline duration by identifying bottleneck stages, merging parallelizable jobs, and configuring DAG dependencies with needs keyword.
@@ -20,22 +19,17 @@ Analyzes and optimizes GitLab CI/CD pipelines using the GitLab REST API v4 and g
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install gitlab-pipeline-optimizer-2
+npx skills add agentskillexchange/skills --skill gitlab-pipeline-optimizer-2
 ```
 
 ### Claude Code
 ```bash
-claude mcp add gitlab-pipeline-optimizer-2
+npx skills add agentskillexchange/skills --skill gitlab-pipeline-optimizer-2 -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "gitlab-pipeline-optimizer-2": {
-    "source": "agentskillexchange"
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill gitlab-pipeline-optimizer-2 -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install gitlab-pipeline-optimizer-2
 
 ### Codex
 ```bash
-codex install gitlab-pipeline-optimizer-2
+npx skills add agentskillexchange/skills --skill gitlab-pipeline-optimizer-2 -a codex
 ```
-
 ## Details
 
 | Field | Value |

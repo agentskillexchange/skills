@@ -3,44 +3,33 @@ name: "Cypress Component Testing Suite"
 description: "Implements component and E2E tests using Cypress with cy.mount, cy.intercept, and cy.get selectors. Configures cypress.config.ts with component devServer, custom commands, and Mochawesome reporter integration."
 category: "Browser Automation"
 framework: "MCP-compatible"
-verification: "community"
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/cypress-component-testing-suite/"
+source: "https://agentskillexchange.com/skills/cypress-component-testing-suite/"
 ---
-
 # Cypress Component Testing Suite
 
 Implements component and E2E tests using Cypress with cy.mount, cy.intercept, and cy.get selectors. Configures cypress.config.ts with component devServer, custom commands, and Mochawesome reporter integration.
 
 ## Installation
 
-Install this skill in your agent framework of choice:
-
-### npx (Any Agent)
+### Any Agent (npx)
 ```bash
-npx agentskills install cypress-component-testing-suite
+npx skills add agentskillexchange/skills --skill cypress-component-testing-suite
 ```
 
 ### Claude Code
 ```bash
-claude mcp add skill-cypress-component-testing-suite -- npx agentskills run cypress-component-testing-suite
+npx skills add agentskillexchange/skills --skill cypress-component-testing-suite -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/mcp.json`:
-```json
-{
-  "mcpServers": {
-    "skill-cypress-component-testing-suite": {
-      "command": "npx",
-      "args": ["agentskills", "run", "cypress-component-testing-suite"]
-    }
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill cypress-component-testing-suite -a cursor
 ```
 
 ### OpenClaw
@@ -50,9 +39,8 @@ clawhub install cypress-component-testing-suite
 
 ### Codex
 ```bash
-codex install cypress-component-testing-suite
+npx skills add agentskillexchange/skills --skill cypress-component-testing-suite -a codex
 ```
-
 ## Details
 
 | | |

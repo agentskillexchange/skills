@@ -3,41 +3,33 @@ name: "Terraform Module Template Engine"
 description: "Scaffolds production-ready Terraform modules using HCL templates with automated variable documentation via terraform-docs. Includes Terratest boilerplate and GitHub Actions CI workflow generation."
 category: "Templates & Workflows"
 framework: "Gemini"
-verification: ""
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/terraform-module-template-engine/"
+source: "https://agentskillexchange.com/skills/terraform-module-template-engine/"
 ---
-
 # Terraform Module Template Engine
 
 Scaffolds production-ready Terraform modules using HCL templates with automated variable documentation via terraform-docs. Includes Terratest boilerplate and GitHub Actions CI workflow generation.
 
 ## Installation
 
-Install this skill using one of the following methods:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install terraform-module-template-engine
+npx skills add agentskillexchange/skills --skill terraform-module-template-engine
 ```
 
 ### Claude Code
 ```bash
-claude mcp add terraform-module-template-engine
+npx skills add agentskillexchange/skills --skill terraform-module-template-engine -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "terraform-module-template-engine": {
-    "source": "agentskillexchange"
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill terraform-module-template-engine -a cursor
 ```
 
 ### OpenClaw
@@ -47,9 +39,8 @@ clawhub install terraform-module-template-engine
 
 ### Codex
 ```bash
-codex install terraform-module-template-engine
+npx skills add agentskillexchange/skills --skill terraform-module-template-engine -a codex
 ```
-
 ## Details
 
 | Field | Value |

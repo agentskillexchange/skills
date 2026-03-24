@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.0
 reviews: 62
-creator: Rachel Green
-creator_handle: rachelgreen
+creator: "Rachel Green"
+creator_handle: "@rachelgreen"
 creator_verified: false
-source: https://agentskillexchange.com/skill/minio-object-storage/
+source: "https://agentskillexchange.com/skills/minio-object-storage/"
 ---
-
 # MinIO Object Storage
 
 AI agent skill for MinIO S3-compatible object storage — create/list/delete buckets, upload/download objects, manage lifecycle policies, set bucket policies, and generate presigned URLs.

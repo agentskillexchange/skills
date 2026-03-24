@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.8
 reviews: 27
-creator: James Whitfield
-creator_handle: jwhitfield
+creator: "James Whitfield"
+creator_handle: "@jwhitfield"
 creator_verified: true
-source: https://agentskillexchange.com/skill/cypress-e2e-test-generator/
+source: "https://agentskillexchange.com/skills/cypress-e2e-test-generator/"
 ---
-
 # Cypress E2E Test Generator
 
 Generate Cypress end-to-end test suites from application specifications, user stories, or existing page structures through an AI agent. Automates test file scaffolding, custom command creation, and CI configuration for Cypress Cloud integration.

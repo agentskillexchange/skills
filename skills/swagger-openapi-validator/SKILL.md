@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.5
 reviews: 4
-creator: Nathan Brooks
-creator_handle: nbrooks
+creator: "Nathan Brooks"
+creator_handle: "@nbrooks"
 creator_verified: false
-source: https://agentskillexchange.com/skill/swagger-openapi-validator/
+source: "https://agentskillexchange.com/skills/swagger-openapi-validator/"
 ---
-
 # Swagger / OpenAPI Validator
 
 Validates OpenAPI 2.0 and 3.x specifications for correctness, completeness, and best practices. Identifies broken references, missing response schemas, inconsistent auth definitions, and deprecated patterns.

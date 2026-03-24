@@ -3,39 +3,33 @@ name: "HashiCorp Vault Secret Rotation Agent"
 description: "Automates secret rotation in HashiCorp Vault using the Vault HTTP API and dynamic secret engines. Handles database credential rotation, PKI certificate renewal, and AWS STS token cycling."
 category: "Security & Verification"
 framework: "Gemini"
-verification: "✅ Verified"
-rating: "4.9"
-reviews: "6"
+verification: security_reviewed
+rating: 4.9
+reviews: 6
 creator: "Priya Sharma"
 creator_handle: "@priyasharma"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/hashicorp-vault-secret-rotation-agent/"
+source: "https://agentskillexchange.com/skills/hashicorp-vault-secret-rotation-agent/"
 ---
-
 # HashiCorp Vault Secret Rotation Agent
 
 Automates secret rotation in HashiCorp Vault using the Vault HTTP API and dynamic secret engines. Handles database credential rotation, PKI certificate renewal, and AWS STS token cycling.
 
 ## Installation
 
-Install this skill across different AI agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install hashicorp-vault-secret-rotation-agent
+npx skills add agentskillexchange/skills --skill hashicorp-vault-secret-rotation-agent
 ```
 
 ### Claude Code
 ```bash
-claude mcp add hashicorp-vault-secret-rotation-agent
+npx skills add agentskillexchange/skills --skill hashicorp-vault-secret-rotation-agent -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["hashicorp-vault-secret-rotation-agent"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill hashicorp-vault-secret-rotation-agent -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install hashicorp-vault-secret-rotation-agent
 
 ### Codex
 ```bash
-codex install hashicorp-vault-secret-rotation-agent
+npx skills add agentskillexchange/skills --skill hashicorp-vault-secret-rotation-agent -a codex
 ```
-
 ## Details
 
 | Field | Value |

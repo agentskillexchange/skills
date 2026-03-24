@@ -3,15 +3,14 @@ name: "PostgreSQL Query Optimizer Agent"
 description: "Optimizes PostgreSQL queries using EXPLAIN ANALYZE output parsing with pg_stat_statements extension data. Suggests index creation via HypoPG hypothetical index simulator and validates query plans agai."
 category: "Developer Tools"
 framework: "OpenClaw"
-verification: ""
+verification: listed
 rating: 0
 reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/postgresql-query-optimizer-explain-api/"
+source: "https://agentskillexchange.com/skills/postgresql-query-optimizer-explain-api/"
 ---
-
 # PostgreSQL Query Optimizer Agent
 
 Optimizes PostgreSQL queries using EXPLAIN ANALYZE output parsing with pg_stat_statements extension data. Suggests index creation via HypoPG hypothetical index simulator and validates query plans against pg_hint_plan directives.
@@ -20,17 +19,17 @@ Optimizes PostgreSQL queries using EXPLAIN ANALYZE output parsing with pg_stat_s
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install postgresql-query-optimizer-explain-api
+npx skills add agentskillexchange/skills --skill postgresql-query-optimizer-explain-api
 ```
 
 ### Claude Code
 ```bash
-claude skill add postgresql-query-optimizer-explain-api
+npx skills add agentskillexchange/skills --skill postgresql-query-optimizer-explain-api -a claude-code
 ```
 
 ### Cursor
-```
-Install from Cursor Settings > Skills > Add Skill > "PostgreSQL Query Optimizer Agent"
+```bash
+npx skills add agentskillexchange/skills --skill postgresql-query-optimizer-explain-api -a cursor
 ```
 
 ### OpenClaw
@@ -40,9 +39,8 @@ clawhub install postgresql-query-optimizer-explain-api
 
 ### Codex
 ```bash
-codex skill add postgresql-query-optimizer-explain-api
+npx skills add agentskillexchange/skills --skill postgresql-query-optimizer-explain-api -a codex
 ```
-
 ## Details
 
 | Property | Value |

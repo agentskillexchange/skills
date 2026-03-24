@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.1
 reviews: 31
-creator: Luna Martinez
-creator_handle: lunamartinez
+creator: "Luna Martinez"
+creator_handle: "@lunamartinez"
 creator_verified: false
-source: https://agentskillexchange.com/skill/network-latency-diagnosis-skill/
+source: "https://agentskillexchange.com/skills/network-latency-diagnosis-skill/"
 ---
-
 # Network Latency Diagnosis Skill
 
 Use this skill to trace packet loss, diagnose routing issues, identify MTU problems, and measure network latency between services. It guides through traceroute, ping, mtr, and tcpdump analysis to pinpoint network bottlenecks. Trigger when services are slow due to network issues, packet loss is suspected, or inter-service latency is higher than expected.

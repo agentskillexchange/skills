@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.7
 reviews: 31
-creator: Sofia Petrov
-creator_handle: sofiapetrov
+creator: "Sofia Petrov"
+creator_handle: "@sofiapetrov"
 creator_verified: true
-source: https://agentskillexchange.com/skill/endpoint-health-monitor/
+source: "https://agentskillexchange.com/skills/endpoint-health-monitor/"
 ---
-
 # Endpoint Health Monitor
 
 Continuously monitors API endpoint availability, response times, and response schema conformance. Generates uptime reports, tracks SLA compliance, and alerts on degraded or unavailable endpoints.

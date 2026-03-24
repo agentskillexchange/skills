@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.2
 reviews: 5
-creator: Alex Thompson
-creator_handle: alexthompson
+creator: "Alex Thompson"
+creator_handle: "@alexthompson"
 creator_verified: true
-source: https://agentskillexchange.com/skill/readme-generator-skill/
+source: "https://agentskillexchange.com/skills/readme-generator-skill/"
 ---
-
 # README Generator Skill
 
 Use this skill to automatically create comprehensive README.md files by analyzing an existing codebase, package files, and project structure. It generates professional documentation covering installation, usage, API reference, and contribution guidelines. Trigger when a project lacks documentation or the README needs to be generated or significantly updated from code.

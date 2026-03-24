@@ -3,36 +3,33 @@ name: "Ansible Playbook Template Library"
 description: "Generates and validates Ansible playbooks from infrastructure requirements. Uses ansible-lint for validation and queries Ansible Galaxy API for discovering certified roles and collections."
 category: "Templates & Workflows"
 framework: "ChatGPT Agents"
-verification: ""
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/ansible-playbook-template-library/"
+source: "https://agentskillexchange.com/skills/ansible-playbook-template-library/"
 ---
-
 # Ansible Playbook Template Library
 
 Generates and validates Ansible playbooks from infrastructure requirements. Uses ansible-lint for validation and queries Ansible Galaxy API for discovering certified roles and collections.
 
 ## Installation
 
-Install this skill across different agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agentskill install ansible-playbook-template-library
+npx skills add agentskillexchange/skills --skill ansible-playbook-template-library
 ```
 
 ### Claude Code
 ```bash
-claude install-skill ansible-playbook-template-library
+npx skills add agentskillexchange/skills --skill ansible-playbook-template-library -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor install-skill ansible-playbook-template-library
+npx skills add agentskillexchange/skills --skill ansible-playbook-template-library -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install ansible-playbook-template-library
 
 ### Codex
 ```bash
-codex install-skill ansible-playbook-template-library
+npx skills add agentskillexchange/skills --skill ansible-playbook-template-library -a codex
 ```
-
 ## Details
 
 | Field | Value |

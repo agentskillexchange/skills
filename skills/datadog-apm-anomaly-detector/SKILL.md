@@ -3,49 +3,44 @@ name: "Datadog APM Anomaly Detector"
 description: "Detects performance anomalies in Datadog APM traces using the Datadog API v2 metrics endpoint. Applies DBSCAN clustering on latency distributions to identify outlier service behaviors."
 category: "Monitoring & Alerts"
 framework: "ChatGPT Agents"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.6
 reviews: 4
 creator: "Marcus Chen"
 creator_handle: "@marcuschen"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/datadog-apm-anomaly-detector/"
+source: "https://agentskillexchange.com/skills/datadog-apm-anomaly-detector/"
 ---
-
 # Datadog APM Anomaly Detector
 
 Detects performance anomalies in Datadog APM traces using the Datadog API v2 metrics endpoint. Applies DBSCAN clustering on latency distributions to identify outlier service behaviors.
 
 ## Installation
 
-Install this skill on your preferred agent platform:
-
-**Any agent (npx):**
+### Any Agent (npx)
 ```bash
-npx @anthropic/agentskill install datadog-apm-anomaly-detector
+npx skills add agentskillexchange/skills --skill datadog-apm-anomaly-detector
 ```
 
-**Claude Code:**
+### Claude Code
 ```bash
-claude mcp add datadog-apm-anomaly-detector
+npx skills add agentskillexchange/skills --skill datadog-apm-anomaly-detector -a claude-code
 ```
 
-**Cursor:**
-Add to your `.cursor/skills` configuration:
-```json
-{ "datadog-apm-anomaly-detector": "latest" }
+### Cursor
+```bash
+npx skills add agentskillexchange/skills --skill datadog-apm-anomaly-detector -a cursor
 ```
 
-**OpenClaw:**
+### OpenClaw
 ```bash
 clawhub install datadog-apm-anomaly-detector
 ```
 
-**Codex:**
+### Codex
 ```bash
-codex install datadog-apm-anomaly-detector
+npx skills add agentskillexchange/skills --skill datadog-apm-anomaly-detector -a codex
 ```
-
 ## Details
 
 | Field | Value |

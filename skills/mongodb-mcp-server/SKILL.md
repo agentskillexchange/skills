@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.7
 reviews: 81
-creator: Omar Hassan
-creator_handle: ohassan
+creator: "Omar Hassan"
+creator_handle: "@ohassan"
 creator_verified: true
-source: https://agentskillexchange.com/skill/mongodb-mcp-server/
+source: "https://agentskillexchange.com/skills/mongodb-mcp-server/"
 ---
-
 # MongoDB MCP Server
 
 MCP server for MongoDB that enables AI agents to query collections, manage documents, create indexes, run aggregation pipelines, and inspect schema metadata without writing MongoDB driver code.

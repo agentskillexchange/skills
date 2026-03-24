@@ -3,15 +3,14 @@ name: "Semgrep SAST Scanner"
 description: "Runs Semgrep static analysis with custom rule packs targeting OWASP Top 10 patterns. Uses semgrep CLI with –config=auto and –sarif output for GitHub Advanced Security integration and CWE-tagged finding reports."
 category: "Code Quality & Review"
 framework: "OpenClaw"
-verification: "security_reviewed"
-rating: "0"
-reviews: "0"
+verification: security_reviewed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/semgrep-sast-scanner-skill/"
+source: "https://agentskillexchange.com/skills/semgrep-sast-scanner-skill/"
 ---
-
 # Semgrep SAST Scanner
 
 Runs Semgrep static analysis with custom rule packs targeting OWASP Top 10 patterns. Uses semgrep CLI with –config=auto and –sarif output for GitHub Advanced Security integration and CWE-tagged finding reports.
@@ -20,16 +19,18 @@ Runs Semgrep static analysis with custom rule packs targeting OWASP Top 10 patte
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install semgrep-sast-scanner-skill
+npx skills add agentskillexchange/skills --skill semgrep-sast-scanner-skill
 ```
 
 ### Claude Code
 ```bash
-claude install-skill semgrep-sast-scanner-skill
+npx skills add agentskillexchange/skills --skill semgrep-sast-scanner-skill -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills/` directory or install via Cursor Settings → Skills.
+```bash
+npx skills add agentskillexchange/skills --skill semgrep-sast-scanner-skill -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -38,9 +39,8 @@ clawhub install semgrep-sast-scanner-skill
 
 ### Codex
 ```bash
-codex install-skill semgrep-sast-scanner-skill
+npx skills add agentskillexchange/skills --skill semgrep-sast-scanner-skill -a codex
 ```
-
 ## Details
 
 | | |

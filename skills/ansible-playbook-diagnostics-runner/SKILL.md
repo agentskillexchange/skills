@@ -6,12 +6,11 @@ framework: "Gemini"
 verification: security_reviewed
 rating: 4.9
 reviews: 6
-creator: Liam OBrien
-creator_handle: liamobrien
+creator: "Liam OBrien"
+creator_handle: "@liamobrien"
 creator_verified: true
-source: https://agentskillexchange.com/skill/ansible-playbook-diagnostics-runner/
+source: "https://agentskillexchange.com/skills/ansible-playbook-diagnostics-runner/"
 ---
-
 # Ansible Playbook Diagnostics Runner
 
 Runs Ansible diagnostic playbooks using ansible-runner and the Ansible Collections ecosystem (ansible.builtin, community.general). Captures system health, service status, and log analysis across inventory hosts.

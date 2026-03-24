@@ -6,12 +6,11 @@ framework: "Cursor"
 verification: security_reviewed
 rating: 4.2
 reviews: 42
-creator: Maya Johnson
-creator_handle: mayaj
+creator: "Maya Johnson"
+creator_handle: "@mayaj"
 creator_verified: false
-source: https://agentskillexchange.com/skill/openapi-spec-compliance-checker/
+source: "https://agentskillexchange.com/skills/openapi-spec-compliance-checker/"
 ---
-
 # OpenAPI Spec Compliance Checker
 
 Validates REST APIs against their OpenAPI 3.x specifications using swagger-parser and Spectral linter rules. Checks response schemas, parameter types, authentication requirements, and generates compliance reports.

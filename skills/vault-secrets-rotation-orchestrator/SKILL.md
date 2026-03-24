@@ -3,15 +3,14 @@ name: "Vault Secrets Rotation Orchestrator"
 description: "Automates HashiCorp Vault secret rotation using the Vault HTTP API and dynamic secrets engines. Manages database credential leases, PKI certificate renewal, and AWS STS token rotation with zero-downtime rollover."
 category: "Security & Verification"
 framework: "MCP-compatible"
-verification: "✅ Verified"
-rating: "4.7"
-reviews: "7"
+verification: security_reviewed
+rating: 4.7
+reviews: 7
 creator: "Ben Taylor"
 creator_handle: "@bentaylor"
 creator_verified: false
-source: "https://agentskillexchange.com/skill/vault-secrets-rotation-orchestrator/"
+source: "https://agentskillexchange.com/skills/vault-secrets-rotation-orchestrator/"
 ---
-
 # Vault Secrets Rotation Orchestrator
 
 Automates HashiCorp Vault secret rotation using the Vault HTTP API and dynamic secrets engines. Manages database credential leases, PKI certificate renewal, and AWS STS token rotation with zero-downtime rollover.
@@ -20,22 +19,17 @@ Automates HashiCorp Vault secret rotation using the Vault HTTP API and dynamic s
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install vault-secrets-rotation-orchestrator
+npx skills add agentskillexchange/skills --skill vault-secrets-rotation-orchestrator
 ```
 
 ### Claude Code
 ```bash
-claude mcp add vault-secrets-rotation-orchestrator
+npx skills add agentskillexchange/skills --skill vault-secrets-rotation-orchestrator -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "vault-secrets-rotation-orchestrator": {
-    "source": "https://agentskillexchange.com/skill/vault-secrets-rotation-orchestrator/"
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill vault-secrets-rotation-orchestrator -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install vault-secrets-rotation-orchestrator
 
 ### Codex
 ```bash
-codex install vault-secrets-rotation-orchestrator
+npx skills add agentskillexchange/skills --skill vault-secrets-rotation-orchestrator -a codex
 ```
-
 ## Details
 
 | Field | Value |

@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: verified_metadata
 rating: 4.3
 reviews: 35
-creator: Zara Ahmed
-creator_handle: zaraahmed
+creator: "Zara Ahmed"
+creator_handle: "@zaraahmed"
 creator_verified: true
-source: https://agentskillexchange.com/skill/mlflow-to-wandb-migration/
+source: "https://agentskillexchange.com/skills/mlflow-to-wandb-migration/"
 ---
-
 # MLflow to W&B Migration Assistant
 
 Reads existing MLflow experiment runs via mlflow.search_runs() and bulk-imports them into Weights & Biases using wandb.init(). Maps MLflow artifact URIs to W&B Artifact objects, preserving metadata and lineage with original timestamps.

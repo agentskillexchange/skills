@@ -6,12 +6,11 @@ framework: "Claude Agents"
 verification: verified_metadata
 rating: 4.3
 reviews: 16
-creator: David Kim
-creator_handle: dkim
+creator: "David Kim"
+creator_handle: "@dkim"
 creator_verified: false
-source: https://agentskillexchange.com/skill/circleci-orb-dependency-scanner-2/
+source: "https://agentskillexchange.com/skills/circleci-orb-dependency-scanner-2/"
 ---
-
 # CircleCI Orb Dependency Scanner
 
 Scans CircleCI config.yml for outdated orb versions using the CircleCI Orb Registry API. Checks orb changelogs for breaking changes and generates automated version bump PRs with circleci config validate verification.

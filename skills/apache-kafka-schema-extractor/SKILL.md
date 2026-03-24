@@ -3,15 +3,14 @@ name: "Apache Kafka Schema Extractor"
 description: "Extracts and transforms Avro, Protobuf, and JSON Schema definitions from Confluent Schema Registry. Generates typed data models and validates schema compatibility using the Schema Registry REST API."
 category: "Data Extraction & Transformation"
 framework: "Codex"
-verification: "✅ Verified"
-rating: "4.9"
-reviews: "9"
+verification: security_reviewed
+rating: 4.9
+reviews: 9
 creator: "James Kim"
 creator_handle: "@jameskim_ai"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/apache-kafka-schema-extractor/"
+source: "https://agentskillexchange.com/skills/apache-kafka-schema-extractor/"
 ---
-
 # Apache Kafka Schema Extractor
 
 Extracts and transforms Avro, Protobuf, and JSON Schema definitions from Confluent Schema Registry. Generates typed data models and validates schema compatibility using the Schema Registry REST API.
@@ -19,33 +18,29 @@ Extracts and transforms Avro, Protobuf, and JSON Schema definitions from Conflue
 ## Installation
 
 ### Any Agent (npx)
-
 ```bash
-npx @anthropic/agent-skills install apache-kafka-schema-extractor
+npx skills add agentskillexchange/skills --skill apache-kafka-schema-extractor
 ```
 
 ### Claude Code
-
 ```bash
-claude mcp add apache-kafka-schema-extractor
+npx skills add agentskillexchange/skills --skill apache-kafka-schema-extractor -a claude-code
 ```
 
 ### Cursor
-
-Add to `.cursor/skills/` directory or install via Cursor settings.
+```bash
+npx skills add agentskillexchange/skills --skill apache-kafka-schema-extractor -a cursor
+```
 
 ### OpenClaw
-
 ```bash
 clawhub install apache-kafka-schema-extractor
 ```
 
 ### Codex
-
 ```bash
-codex install apache-kafka-schema-extractor
+npx skills add agentskillexchange/skills --skill apache-kafka-schema-extractor -a codex
 ```
-
 ## Details
 
 | Field | Value |

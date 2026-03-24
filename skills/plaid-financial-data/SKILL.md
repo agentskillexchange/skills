@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.5
 reviews: 33
-creator: Raj Gupta
-creator_handle: rajgupta
+creator: "Raj Gupta"
+creator_handle: "@rajgupta"
 creator_verified: true
-source: https://agentskillexchange.com/skill/plaid-financial-data/
+source: "https://agentskillexchange.com/skills/plaid-financial-data/"
 ---
-
 # Plaid Financial Data
 
 Integrates Plaid to retrieve bank account balances, transactions, income data, and identity information from connected financial institutions. Useful for personal finance apps, lending platforms, and financial analytics.

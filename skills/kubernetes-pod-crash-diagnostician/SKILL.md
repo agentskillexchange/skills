@@ -3,39 +3,33 @@ name: "Kubernetes Pod Crash Diagnostician"
 description: "Diagnoses Kubernetes pod crash loops by analyzing events, logs, and resource quotas via the Kubernetes API and kubectl debug. Correlates OOMKill signals with container memory profiles from Prometheus queries."
 category: "Runbooks & Diagnostics"
 framework: "Claude Code"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.3
 reviews: 16
 creator: "James Kim"
 creator_handle: "@jameskim_ai"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/kubernetes-pod-crash-diagnostician/"
+source: "https://agentskillexchange.com/skills/kubernetes-pod-crash-diagnostician/"
 ---
-
 # Kubernetes Pod Crash Diagnostician
 
 Diagnoses Kubernetes pod crash loops by analyzing events, logs, and resource quotas via the Kubernetes API and kubectl debug. Correlates OOMKill signals with container memory profiles from Prometheus queries.
 
 ## Installation
 
-Install this skill for your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install kubernetes-pod-crash-diagnostician
+npx skills add agentskillexchange/skills --skill kubernetes-pod-crash-diagnostician
 ```
 
 ### Claude Code
 ```bash
-claude skills add kubernetes-pod-crash-diagnostician
+npx skills add agentskillexchange/skills --skill kubernetes-pod-crash-diagnostician -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["kubernetes-pod-crash-diagnostician"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill kubernetes-pod-crash-diagnostician -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install kubernetes-pod-crash-diagnostician
 
 ### Codex
 ```bash
-codex skills add kubernetes-pod-crash-diagnostician
+npx skills add agentskillexchange/skills --skill kubernetes-pod-crash-diagnostician -a codex
 ```
-
 ## Details
 
 | Property | Value |

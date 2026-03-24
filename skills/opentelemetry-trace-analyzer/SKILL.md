@@ -3,35 +3,34 @@ name: "OpenTelemetry Trace Analyzer"
 description: "Queries distributed traces from Jaeger and Tempo via their gRPC and HTTP APIs. Identifies latency bottlenecks using OpenTelemetry Collector processors and correlates with Loki log streams."
 category: "Library & API Reference"
 framework: "Codex"
-verification: "Verified & Security Reviewed"
+verification: security_reviewed
 rating: 4.0
 reviews: 45
 creator: "Sarah O'Brien"
 creator_handle: "@sarahcodes"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/opentelemetry-trace-analyzer/"
+source: "https://agentskillexchange.com/skills/opentelemetry-trace-analyzer/"
 ---
-
 # OpenTelemetry Trace Analyzer
 
 Queries distributed traces from Jaeger and Tempo via their gRPC and HTTP APIs. Identifies latency bottlenecks using OpenTelemetry Collector processors and correlates with Loki log streams.
 
 ## Installation
 
-Install this skill across different AI coding agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install opentelemetry-trace-analyzer
+npx skills add agentskillexchange/skills --skill opentelemetry-trace-analyzer
 ```
 
 ### Claude Code
 ```bash
-claude mcp add opentelemetry-trace-analyzer
+npx skills add agentskillexchange/skills --skill opentelemetry-trace-analyzer -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills/` directory or install via Cursor Settings → Skills.
+```bash
+npx skills add agentskillexchange/skills --skill opentelemetry-trace-analyzer -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install opentelemetry-trace-analyzer
 
 ### Codex
 ```bash
-codex install opentelemetry-trace-analyzer
+npx skills add agentskillexchange/skills --skill opentelemetry-trace-analyzer -a codex
 ```
-
 ## Details
 
 | Property | Value |

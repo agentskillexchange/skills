@@ -3,15 +3,14 @@ name: "PagerDuty Incident Escalator"
 description: "Manages PagerDuty incident lifecycle using the PagerDuty REST API v2 /incidents endpoint. Automates escalation policies, merges related incidents, and generates postmortem templates from incident timelines."
 category: "Monitoring & Alerts"
 framework: "ChatGPT Agents"
-verification: ""
+verification: listed
 rating: 0
 reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/pagerduty-incident-escalator/"
+source: "https://agentskillexchange.com/skills/pagerduty-incident-escalator/"
 ---
-
 # PagerDuty Incident Escalator
 
 Manages PagerDuty incident lifecycle using the PagerDuty REST API v2 /incidents endpoint. Automates escalation policies, merges related incidents, and generates postmortem templates from incident timelines.
@@ -20,16 +19,18 @@ Manages PagerDuty incident lifecycle using the PagerDuty REST API v2 /incidents 
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install pagerduty-incident-escalator
+npx skills add agentskillexchange/skills --skill pagerduty-incident-escalator
 ```
 
 ### Claude Code
 ```bash
-claude install-skill pagerduty-incident-escalator
+npx skills add agentskillexchange/skills --skill pagerduty-incident-escalator -a claude-code
 ```
 
 ### Cursor
-Download from [Agent Skill Exchange](https://agentskillexchange.com/skill/pagerduty-incident-escalator/) and add to your `.cursor/skills/` directory.
+```bash
+npx skills add agentskillexchange/skills --skill pagerduty-incident-escalator -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -38,9 +39,8 @@ clawhub install pagerduty-incident-escalator
 
 ### Codex
 ```bash
-codex install-skill pagerduty-incident-escalator
+npx skills add agentskillexchange/skills --skill pagerduty-incident-escalator -a codex
 ```
-
 ## Details
 
 | Field | Value |

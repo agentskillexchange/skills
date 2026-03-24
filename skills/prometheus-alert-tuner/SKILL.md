@@ -3,36 +3,33 @@ name: "Prometheus Alert Tuner"
 description: "Tunes Prometheus alerting rules using the Prometheus HTTP API and PromQL query analysis. Reduces alert fatigue by analyzing firing history, adjusting thresholds via histogram_quantile, and configuring inhibition rules."
 category: "Runbooks & Diagnostics"
 framework: "Gemini"
-verification: ""
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/prometheus-alert-tuner/"
+source: "https://agentskillexchange.com/skills/prometheus-alert-tuner/"
 ---
-
 # Prometheus Alert Tuner
 
 Tunes Prometheus alerting rules using the Prometheus HTTP API and PromQL query analysis. Reduces alert fatigue by analyzing firing history, adjusting thresholds via histogram_quantile, and configuring inhibition rules.
 
 ## Installation
 
-Install this skill across different agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agentskill install prometheus-alert-tuner
+npx skills add agentskillexchange/skills --skill prometheus-alert-tuner
 ```
 
 ### Claude Code
 ```bash
-claude skills install prometheus-alert-tuner
+npx skills add agentskillexchange/skills --skill prometheus-alert-tuner -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor skills install prometheus-alert-tuner
+npx skills add agentskillexchange/skills --skill prometheus-alert-tuner -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install prometheus-alert-tuner
 
 ### Codex
 ```bash
-codex skills install prometheus-alert-tuner
+npx skills add agentskillexchange/skills --skill prometheus-alert-tuner -a codex
 ```
-
 ## Details
 
 | Field | Value |

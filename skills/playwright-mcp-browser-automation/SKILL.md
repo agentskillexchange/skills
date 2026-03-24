@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.2
 reviews: 82
-creator: Aisha Patel
-creator_handle: aishap
+creator: "Aisha Patel"
+creator_handle: "@aishap"
 creator_verified: true
-source: https://agentskillexchange.com/skill/playwright-mcp-browser-automation/
+source: "https://agentskillexchange.com/skills/playwright-mcp-browser-automation/"
 ---
-
 # Playwright MCP Browser Automation
 
 Official Playwright-powered browser control for agent workflows.

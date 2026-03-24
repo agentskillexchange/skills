@@ -3,36 +3,33 @@ name: "Codecov Coverage Analyzer"
 description: "Analyzes test coverage using the Codecov API v2 and codecov-cli uploader. Fetches per-file coverage from /api/v2/repos/{owner}/{repo}/report, computes diff coverage via /api/v2/repos/{owner}/{repo}/pulls/{pull}, and enforces configurable thresholds in CI pipelines."
 category: "Code Quality & Review"
 framework: "Codex"
-verification: "security_reviewed"
-rating: "0"
-reviews: "0"
+verification: security_reviewed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/codecov-coverage-analyzer/"
+source: "https://agentskillexchange.com/skills/codecov-coverage-analyzer/"
 ---
-
 # Codecov Coverage Analyzer
 
 Analyzes test coverage using the Codecov API v2 and codecov-cli uploader. Fetches per-file coverage from /api/v2/repos/{owner}/{repo}/report, computes diff coverage via /api/v2/repos/{owner}/{repo}/pulls/{pull}, and enforces configurable thresholds in CI pipelines.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install codecov-coverage-analyzer
+npx skills add agentskillexchange/skills --skill codecov-coverage-analyzer
 ```
 
 ### Claude Code
 ```bash
-claude skills add codecov-coverage-analyzer
+npx skills add agentskillexchange/skills --skill codecov-coverage-analyzer -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor skills install codecov-coverage-analyzer
+npx skills add agentskillexchange/skills --skill codecov-coverage-analyzer -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install codecov-coverage-analyzer
 
 ### Codex
 ```bash
-codex skills add codecov-coverage-analyzer
+npx skills add agentskillexchange/skills --skill codecov-coverage-analyzer -a codex
 ```
-
 ## Details
 
 | | |

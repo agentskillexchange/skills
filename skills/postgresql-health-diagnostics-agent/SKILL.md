@@ -3,39 +3,33 @@ name: "PostgreSQL Health Diagnostics Agent"
 description: "Queries PostgreSQL system catalogs pg_stat_activity, pg_stat_user_tables, and pg_locks to diagnose performance issues. Analyzes slow queries via pg_stat_statements and checks vacuum status through pg_stat_all_tables autovacuum columns."
 category: "Runbooks & Diagnostics"
 framework: "MCP-compatible"
-verification: "security_reviewed"
+verification: security_reviewed
 rating: 4.9
 reviews: 11
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/postgresql-health-diagnostics-agent/"
+source: "https://agentskillexchange.com/skills/postgresql-health-diagnostics-agent/"
 ---
-
 # PostgreSQL Health Diagnostics Agent
 
 Queries PostgreSQL system catalogs pg_stat_activity, pg_stat_user_tables, and pg_locks to diagnose performance issues. Analyzes slow queries via pg_stat_statements and checks vacuum status through pg_stat_all_tables autovacuum columns.
 
 ## Installation
 
-Install this skill across different agents:
-
-### Any AI Agent (npx)
+### Any Agent (npx)
 ```bash
-npx @anthropic/skills install postgresql-health-diagnostics-agent
+npx skills add agentskillexchange/skills --skill postgresql-health-diagnostics-agent
 ```
 
 ### Claude Code
 ```bash
-claude skills install postgresql-health-diagnostics-agent
+npx skills add agentskillexchange/skills --skill postgresql-health-diagnostics-agent -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "skills": ["postgresql-health-diagnostics-agent"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill postgresql-health-diagnostics-agent -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install postgresql-health-diagnostics-agent
 
 ### Codex
 ```bash
-codex skills install postgresql-health-diagnostics-agent
+npx skills add agentskillexchange/skills --skill postgresql-health-diagnostics-agent -a codex
 ```
-
 ## Details
 
 | Field | Value |

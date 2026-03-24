@@ -6,12 +6,11 @@ framework: "Codex"
 verification: security_reviewed
 rating: 4.7
 reviews: 23
-creator: Ava Wilson
-creator_handle: avawilson
+creator: "Ava Wilson"
+creator_handle: "@avawilson"
 creator_verified: true
-source: https://agentskillexchange.com/skill/terraform-plan-analyzer/
+source: "https://agentskillexchange.com/skills/terraform-plan-analyzer/"
 ---
-
 # Terraform Plan Analyzer
 
 Parses terraform plan JSON output using the HashiCorp terraform-json Go module and generates human-readable change summaries. Integrates with the Terraform Cloud API for remote plan retrieval and cost estimation via Infracost.

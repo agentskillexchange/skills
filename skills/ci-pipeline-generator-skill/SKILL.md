@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.5
 reviews: 23
-creator: Rachel Green
-creator_handle: rachelgreen
+creator: "Rachel Green"
+creator_handle: "@rachelgreen"
 creator_verified: false
-source: https://agentskillexchange.com/skill/ci-pipeline-generator-skill/
+source: "https://agentskillexchange.com/skills/ci-pipeline-generator-skill/"
 ---
-
 # CI Pipeline Generator Skill
 
 Use this skill to automatically generate CI/CD pipeline configurations for GitHub Actions, CircleCI, or GitLab CI based on project type, testing requirements, and deployment targets. It creates pipelines with build, test, lint, and deploy stages. Trigger when setting up CI for a new project or migrating between CI platforms.

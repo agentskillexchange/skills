@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.2
 reviews: 29
-creator: Rachel Green
-creator_handle: rachelgreen
+creator: "Rachel Green"
+creator_handle: "@rachelgreen"
 creator_verified: false
-source: https://agentskillexchange.com/skill/load-balancer-health-runbook/
+source: "https://agentskillexchange.com/skills/load-balancer-health-runbook/"
 ---
-
 # Load Balancer Health Runbook
 
 Runbook for diagnosing load balancer health check failures and traffic routing issues. Covers backend target health, listener configuration, sticky session problems, and SSL termination issues.

@@ -6,12 +6,11 @@ framework: "OpenClaw"
 verification: verified_metadata
 rating: 4.7
 reviews: 58
-creator: Zara Ahmed
-creator_handle: zaraahmed
+creator: "Zara Ahmed"
+creator_handle: "@zaraahmed"
 creator_verified: true
-source: https://agentskillexchange.com/skill/video-frames-extractor/
+source: "https://agentskillexchange.com/skills/video-frames-extractor/"
 ---
-
 # Video Frames Extractor
 
 Extract frames and short clips from videos.

@@ -3,51 +3,44 @@ name: "Grafana Dashboard Generator"
 description: "Programmatically generates Grafana dashboards from service definitions using the Grafana HTTP API /api/dashboards/db endpoint. Creates panels for RED metrics, SLO tracking, and infrastructure views."
 category: "Monitoring & Alerts"
 framework: "Cursor"
-verification: "Verified ✅"
-rating: "4.6"
-reviews: "84"
+verification: security_reviewed
+rating: 4.6
+reviews: 84
 creator: "Carlos Mendez"
 creator_handle: "@carlosmendez"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/grafana-dashboard-generator-3/"
+source: "https://agentskillexchange.com/skills/grafana-dashboard-generator-3/"
 ---
-
 # Grafana Dashboard Generator
 
 Programmatically generates Grafana dashboards from service definitions using the Grafana HTTP API /api/dashboards/db endpoint. Creates panels for RED metrics, SLO tracking, and infrastructure views.
 
 ## Installation
 
-Install this skill across different agents:
-
-**Any agent (npx):**
+### Any Agent (npx)
 ```bash
-npx @anthropic/skills install grafana-dashboard-generator-3
+npx skills add agentskillexchange/skills --skill grafana-dashboard-generator-3
 ```
 
-**Claude Code:**
+### Claude Code
 ```bash
-claude skills add grafana-dashboard-generator-3
+npx skills add agentskillexchange/skills --skill grafana-dashboard-generator-3 -a claude-code
 ```
 
-**Cursor:**
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["grafana-dashboard-generator-3"]
-}
+### Cursor
+```bash
+npx skills add agentskillexchange/skills --skill grafana-dashboard-generator-3 -a cursor
 ```
 
-**OpenClaw:**
+### OpenClaw
 ```bash
 clawhub install grafana-dashboard-generator-3
 ```
 
-**Codex:**
+### Codex
 ```bash
-codex skills add grafana-dashboard-generator-3
+npx skills add agentskillexchange/skills --skill grafana-dashboard-generator-3 -a codex
 ```
-
 ## Details
 
 | Field | Value |

@@ -6,12 +6,11 @@ framework: "Cursor"
 verification: security_reviewed
 rating: 4.3
 reviews: 25
-creator: Tom Anderson
-creator_handle: tanderson
+creator: "Tom Anderson"
+creator_handle: "@tanderson"
 creator_verified: false
-source: https://agentskillexchange.com/skill/github-actions-workflow-linter/
+source: "https://agentskillexchange.com/skills/github-actions-workflow-linter/"
 ---
-
 # GitHub Actions Workflow Linter
 
 Validates GitHub Actions workflow YAML files using actionlint and checks for security anti-patterns like script injection via ${{ github.event }}. Suggests pinned action versions using SHA hashes from the GitHub API.

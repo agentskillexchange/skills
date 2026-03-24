@@ -3,35 +3,34 @@ name: "Protocol Buffer Schema Generator"
 description: "Infers Protocol Buffer (.proto) definitions from JSON samples using protobuf-compiler and grpcio-tools. Generates proto3 schemas with nested message types, enums, and gRPC service stubs."
 category: "Data Extraction & Transformation"
 framework: "Gemini"
-verification: "Verified · Security Reviewed"
-rating: "4.9"
-reviews: "82"
+verification: security_reviewed
+rating: 4.9
+reviews: 82
 creator: "Alex Rivera"
 creator_handle: "@arivera_dev"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/protobuf-schema-generator-from-json/"
+source: "https://agentskillexchange.com/skills/protobuf-schema-generator-from-json/"
 ---
-
 # Protocol Buffer Schema Generator
 
 Infers Protocol Buffer (.proto) definitions from JSON samples using protobuf-compiler and grpcio-tools. Generates proto3 schemas with nested message types, enums, and gRPC service stubs.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install protobuf-schema-generator-from-json
+npx skills add agentskillexchange/skills --skill protobuf-schema-generator-from-json
 ```
 
 ### Claude Code
 ```bash
-claude skills add protobuf-schema-generator-from-json
+npx skills add agentskillexchange/skills --skill protobuf-schema-generator-from-json -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursorrules` or install via Cursor Settings → Skills.
+```bash
+npx skills add agentskillexchange/skills --skill protobuf-schema-generator-from-json -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install protobuf-schema-generator-from-json
 
 ### Codex
 ```bash
-codex skills add protobuf-schema-generator-from-json
+npx skills add agentskillexchange/skills --skill protobuf-schema-generator-from-json -a codex
 ```
-
 ## Details
 
 | Field | Value |

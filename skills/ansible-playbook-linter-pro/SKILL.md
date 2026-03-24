@@ -3,36 +3,33 @@ name: "Ansible Playbook Linter Pro"
 description: "Validates Ansible playbooks using ansible-lint with custom rule plugins and the Ansible Collections API. Checks for deprecated modules, missing handlers, insecure variable practices, and role dependency conflicts."
 category: "Runbooks & Diagnostics"
 framework: "MCP-compatible"
-verification: ""
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/ansible-playbook-linter-pro/"
+source: "https://agentskillexchange.com/skills/ansible-playbook-linter-pro/"
 ---
-
 # Ansible Playbook Linter Pro
 
 Validates Ansible playbooks using ansible-lint with custom rule plugins and the Ansible Collections API. Checks for deprecated modules, missing handlers, insecure variable practices, and role dependency conflicts.
 
 ## Installation
 
-Install this skill across different agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agentskill install ansible-playbook-linter-pro
+npx skills add agentskillexchange/skills --skill ansible-playbook-linter-pro
 ```
 
 ### Claude Code
 ```bash
-claude skills install ansible-playbook-linter-pro
+npx skills add agentskillexchange/skills --skill ansible-playbook-linter-pro -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor skills install ansible-playbook-linter-pro
+npx skills add agentskillexchange/skills --skill ansible-playbook-linter-pro -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install ansible-playbook-linter-pro
 
 ### Codex
 ```bash
-codex skills install ansible-playbook-linter-pro
+npx skills add agentskillexchange/skills --skill ansible-playbook-linter-pro -a codex
 ```
-
 ## Details
 
 | Field | Value |

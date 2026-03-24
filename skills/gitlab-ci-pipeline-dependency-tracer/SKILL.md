@@ -6,12 +6,11 @@ framework: "Codex"
 verification: security_reviewed
 rating: 4.0
 reviews: 45
-creator: Sofia Petrov
-creator_handle: sofiapetrov
+creator: "Sofia Petrov"
+creator_handle: "@sofiapetrov"
 creator_verified: true
-source: https://agentskillexchange.com/skill/gitlab-ci-pipeline-dependency-tracer/
+source: "https://agentskillexchange.com/skills/gitlab-ci-pipeline-dependency-tracer/"
 ---
-
 # GitLab CI Pipeline Dependency Tracer
 
 Traces job dependency chains in GitLab CI pipelines using the GitLab Jobs API and pipeline graph endpoints. Detects bottleneck stages that block parallel execution and suggests DAG refactoring. Integrates with the GitLab Merge Requests API to post optimization reports as MR comments.

@@ -1,37 +1,34 @@
 ---
-name: grafana-dashboard-snapshot-exporter
+name: "grafana-dashboard-snapshot-exporter"
 description: "Exports Grafana dashboards as shareable snapshots using the Grafana HTTP API /api/snapshots endpoint. Captures panel data at point-in-time with configurable expiration and external sharing via snapshot keys."
-category: Monitoring & Alerts
-framework: Claude Code
-verification: 
+category: "Monitoring & Alerts"
+framework: "Claude Code"
+verification: listed
 rating: 0
 reviews: 0
-creator: Community
+creator: "Community"
 creator_verified: false
-source: https://agentskillexchange.com/skill/grafana-dashboard-snapshot-exporter/
+source: "https://agentskillexchange.com/skills/grafana-dashboard-snapshot-exporter/"
 ---
-
 # Grafana Dashboard Snapshot Exporter
 
 Exports Grafana dashboards as shareable snapshots using the Grafana HTTP API /api/snapshots endpoint. Captures panel data at point-in-time with configurable expiration and external sharing via snapshot keys.
 
 ## Installation
 
-Install this skill for your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install grafana-dashboard-snapshot-exporter
+npx skills add agentskillexchange/skills --skill grafana-dashboard-snapshot-exporter
 ```
 
 ### Claude Code
 ```bash
-claude skills add grafana-dashboard-snapshot-exporter
+npx skills add agentskillexchange/skills --skill grafana-dashboard-snapshot-exporter -a claude-code
 ```
 
 ### Cursor
-```
-Install grafana-dashboard-snapshot-exporter from Cursor Settings > Skills
+```bash
+npx skills add agentskillexchange/skills --skill grafana-dashboard-snapshot-exporter -a cursor
 ```
 
 ### OpenClaw
@@ -41,9 +38,8 @@ clawhub install grafana-dashboard-snapshot-exporter
 
 ### Codex
 ```bash
-codex skills add grafana-dashboard-snapshot-exporter
+npx skills add agentskillexchange/skills --skill grafana-dashboard-snapshot-exporter -a codex
 ```
-
 ## Details
 
 | Field | Value |

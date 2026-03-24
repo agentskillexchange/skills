@@ -3,15 +3,14 @@ name: "CircleCI Orb Debugger"
 description: "Diagnoses and troubleshoots CircleCI orb configuration issues using the CircleCI v2 API and circleci config validate. Inspects orb parameters, executor definitions, and job dependency graphs to ide..."
 category: "CI/CD Integrations"
 framework: "Claude Agents"
-verification: "security_reviewed"
-rating: "0"
-reviews: "0"
+verification: security_reviewed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/circleci-orb-debugger-2/"
+source: "https://agentskillexchange.com/skills/circleci-orb-debugger-2/"
 ---
-
 # CircleCI Orb Debugger
 
 Diagnoses and troubleshoots CircleCI orb configuration issues using the CircleCI v2 API and circleci config validate. Inspects orb parameters, executor definitions, and job dependency graphs to identify misconfigurations.
@@ -20,22 +19,17 @@ Diagnoses and troubleshoots CircleCI orb configuration issues using the CircleCI
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install circleci-orb-debugger-2
+npx skills add agentskillexchange/skills --skill circleci-orb-debugger-2
 ```
 
 ### Claude Code
 ```bash
-claude mcp add circleci-orb-debugger-2
+npx skills add agentskillexchange/skills --skill circleci-orb-debugger-2 -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "circleci-orb-debugger-2": {
-    "enabled": true
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill circleci-orb-debugger-2 -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install circleci-orb-debugger-2
 
 ### Codex
 ```bash
-codex install circleci-orb-debugger-2
+npx skills add agentskillexchange/skills --skill circleci-orb-debugger-2 -a codex
 ```
-
 ## Details
 
 | Field | Value |

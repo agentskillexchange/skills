@@ -6,12 +6,11 @@ framework: "Codex"
 verification: verified_metadata
 rating: 4.8
 reviews: 49
-creator: Sarah Chen
-creator_handle: sarahchen
+creator: "Sarah Chen"
+creator_handle: "@sarahchen"
 creator_verified: true
-source: https://agentskillexchange.com/skill/aws-cloudwatch-log-anomaly-scanner/
+source: "https://agentskillexchange.com/skills/aws-cloudwatch-log-anomaly-scanner/"
 ---
-
 # AWS CloudWatch Log Anomaly Scanner
 
 Scans AWS CloudWatch Logs using the CloudWatch Logs Insights API and CloudWatch Anomaly Detection API. Identifies unusual error patterns, latency spikes, and log volume anomalies across log groups.

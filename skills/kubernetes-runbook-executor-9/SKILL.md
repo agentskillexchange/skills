@@ -3,39 +3,33 @@ name: "Kubernetes Runbook Executor"
 description: "Executes diagnostic runbooks using kubectl commands and the Kubernetes API /api/v1/namespaces/{ns}/pods to triage cluster incidents. Collects pod logs, describes failing deployments, and checks resource quotas via /apis/policy/v1."
 category: "Runbooks & Diagnostics"
 framework: "Cursor"
-verification: "security_reviewed"
+verification: security_reviewed
 rating: 4.8
 reviews: 46
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/kubernetes-runbook-executor-9/"
+source: "https://agentskillexchange.com/skills/kubernetes-runbook-executor-9/"
 ---
-
 # Kubernetes Runbook Executor
 
 Executes diagnostic runbooks using kubectl commands and the Kubernetes API /api/v1/namespaces/{ns}/pods to triage cluster incidents. Collects pod logs, describes failing deployments, and checks resource quotas via /apis/policy/v1.
 
 ## Installation
 
-Install this skill across different agents:
-
-### Any AI Agent (npx)
+### Any Agent (npx)
 ```bash
-npx @anthropic/skills install kubernetes-runbook-executor-9
+npx skills add agentskillexchange/skills --skill kubernetes-runbook-executor-9
 ```
 
 ### Claude Code
 ```bash
-claude skills install kubernetes-runbook-executor-9
+npx skills add agentskillexchange/skills --skill kubernetes-runbook-executor-9 -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "skills": ["kubernetes-runbook-executor-9"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill kubernetes-runbook-executor-9 -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install kubernetes-runbook-executor-9
 
 ### Codex
 ```bash
-codex skills install kubernetes-runbook-executor-9
+npx skills add agentskillexchange/skills --skill kubernetes-runbook-executor-9 -a codex
 ```
-
 ## Details
 
 | Field | Value |

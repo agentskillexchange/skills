@@ -3,39 +3,33 @@ name: "AWS CloudFormation Drift Detector"
 description: "Monitors AWS CloudFormation stacks for configuration drift using the AWS SDK DetectStackDrift and DescribeStackResourceDrifts APIs. Generates remediation templates and integrates with AWS Config rules for continuous compliance."
 category: "Runbooks & Diagnostics"
 framework: "Gemini"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.8
 reviews: 85
 creator: "Aisha Patel"
 creator_handle: "@aishapatel"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/aws-cloudformation-drift-detector-4/"
+source: "https://agentskillexchange.com/skills/aws-cloudformation-drift-detector-4/"
 ---
-
 # AWS CloudFormation Drift Detector
 
 Monitors AWS CloudFormation stacks for configuration drift using the AWS SDK DetectStackDrift and DescribeStackResourceDrifts APIs. Generates remediation templates and integrates with AWS Config rules for continuous compliance.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install aws-cloudformation-drift-detector-4
+npx skills add agentskillexchange/skills --skill aws-cloudformation-drift-detector-4
 ```
 
 ### Claude Code
 ```bash
-claude skills add aws-cloudformation-drift-detector-4
+npx skills add agentskillexchange/skills --skill aws-cloudformation-drift-detector-4 -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["aws-cloudformation-drift-detector-4"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill aws-cloudformation-drift-detector-4 -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install aws-cloudformation-drift-detector-4
 
 ### Codex
 ```bash
-codex skills add aws-cloudformation-drift-detector-4
+npx skills add agentskillexchange/skills --skill aws-cloudformation-drift-detector-4 -a codex
 ```
-
 ## Details
 
 | Field | Value |

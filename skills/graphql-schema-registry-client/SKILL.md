@@ -3,35 +3,34 @@ name: "GraphQL Schema Registry Client"
 description: "Manages GraphQL schema versions using Apollo Schema Registry API and graphql-inspector. Performs schema diffing, breaking change detection, and composition validation for federated GraphQL architectures."
 category: "Library & API Reference"
 framework: "Custom Agents"
-verification: "Community"
-rating: "4.5"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/graphql-schema-registry-client/"
+source: "https://agentskillexchange.com/skills/graphql-schema-registry-client/"
 ---
-
 # GraphQL Schema Registry Client
 
 Manages GraphQL schema versions using Apollo Schema Registry API and graphql-inspector. Performs schema diffing, breaking change detection, and composition validation for federated GraphQL architectures.
 
 ## Installation
 
-Install this skill across different agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install graphql-schema-registry-client
+npx skills add agentskillexchange/skills --skill graphql-schema-registry-client
 ```
 
 ### Claude Code
 ```bash
-claude skills add graphql-schema-registry-client
+npx skills add agentskillexchange/skills --skill graphql-schema-registry-client -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` directory or install via Cursor settings.
+```bash
+npx skills add agentskillexchange/skills --skill graphql-schema-registry-client -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install graphql-schema-registry-client
 
 ### Codex
 ```bash
-codex skills add graphql-schema-registry-client
+npx skills add agentskillexchange/skills --skill graphql-schema-registry-client -a codex
 ```
-
 ## Details
 
 | Field | Value |

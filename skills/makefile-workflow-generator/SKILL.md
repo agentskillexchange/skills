@@ -3,39 +3,33 @@ name: "Makefile Workflow Generator"
 description: "Generates project Makefiles with standard targets using GNU Make syntax, autodeps pattern rules, and integration with package managers (npm scripts, Poetry tasks, Cargo commands). Produces .PHONY declarations and help targets."
 category: "Templates & Workflows"
 framework: "Gemini"
-verification: "Security Reviewed"
-rating: "4.4"
-reviews: "72"
+verification: security_reviewed
+rating: 4.4
+reviews: 72
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/makefile-workflow-generator/"
+source: "https://agentskillexchange.com/skills/makefile-workflow-generator/"
 ---
-
 # Makefile Workflow Generator
 
 Generates project Makefiles with standard targets using GNU Make syntax, autodeps pattern rules, and integration with package managers (npm scripts, Poetry tasks, Cargo commands). Produces .PHONY declarations and help targets.
 
 ## Installation
 
-Install this skill across different AI coding agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install makefile-workflow-generator
+npx skills add agentskillexchange/skills --skill makefile-workflow-generator
 ```
 
 ### Claude Code
 ```bash
-claude skills add makefile-workflow-generator
+npx skills add agentskillexchange/skills --skill makefile-workflow-generator -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` configuration:
-```json
-{
-  "skills": ["makefile-workflow-generator"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill makefile-workflow-generator -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install makefile-workflow-generator
 
 ### Codex
 ```bash
-codex skills add makefile-workflow-generator
+npx skills add agentskillexchange/skills --skill makefile-workflow-generator -a codex
 ```
-
 ## Details
 
 | Property | Value |

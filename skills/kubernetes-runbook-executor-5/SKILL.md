@@ -6,12 +6,11 @@ framework: "Codex"
 verification: verified_metadata
 rating: 4.9
 reviews: 42
-creator: Elena Kowalski
-creator_handle: ekowalski
+creator: "Elena Kowalski"
+creator_handle: "@ekowalski"
 creator_verified: true
-source: https://agentskillexchange.com/skill/kubernetes-runbook-executor-5/
+source: "https://agentskillexchange.com/skills/kubernetes-runbook-executor-5/"
 ---
-
 # Kubernetes Runbook Executor
 
 Executes diagnostic runbooks for Kubernetes clusters using kubectl, kube-state-metrics, and the Kubernetes Python client. Automates pod restart analysis, resource quota checks, and node condition troubleshooting.

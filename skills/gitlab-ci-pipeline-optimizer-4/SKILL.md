@@ -3,39 +3,43 @@ name: "GitLab CI Pipeline Optimizer"
 description: "Parses .gitlab-ci.yml including extends, !reference, and include directives to visualize the effective pipeline. Queries the GitLab Pipelines API (/api/v4/projects/{id}/pipelines) to identify bottlene"
 category: "Uncategorized"
 framework: "Unknown"
-verification: "Unverified"
-rating: ""
-reviews: ""
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_verified: false
-source: "https://agentskillexchange.com/skill/gitlab-ci-pipeline-optimizer-4/"
+source: "https://agentskillexchange.com/skills/gitlab-ci-pipeline-optimizer-4/"
 ---
-
 # GitLab CI Pipeline Optimizer
 
 Parses .gitlab-ci.yml including extends, !reference, and include directives to visualize the effective pipeline. Queries the GitLab Pipelines API (/api/v4/projects/{id}/pipelines) to identify bottlenecks, cache misses, and DAG scheduling improvements.
 
 ## Installation
 
-Install this skill for your preferred agent:
-
+### Any Agent (npx)
 ```bash
-# Any npx-compatible agent
-npx skills install gitlab-ci-pipeline-optimizer-4
-
-# Claude Code
-claude mcp add skills -- npx -y skills install gitlab-ci-pipeline-optimizer-4
-
-# Cursor
-cursor mcp add skills -- npx -y skills install gitlab-ci-pipeline-optimizer-4
-
-# OpenClaw
-clawhub install gitlab-ci-pipeline-optimizer-4
-
-# Codex
-codex install gitlab-ci-pipeline-optimizer-4
+npx skills add agentskillexchange/skills --skill gitlab-ci-pipeline-optimizer-4
 ```
 
+### Claude Code
+```bash
+npx skills add agentskillexchange/skills --skill gitlab-ci-pipeline-optimizer-4 -a claude-code
+```
+
+### Cursor
+```bash
+npx skills add agentskillexchange/skills --skill gitlab-ci-pipeline-optimizer-4 -a cursor
+```
+
+### OpenClaw
+```bash
+clawhub install gitlab-ci-pipeline-optimizer-4
+```
+
+### Codex
+```bash
+npx skills add agentskillexchange/skills --skill gitlab-ci-pipeline-optimizer-4 -a codex
+```
 ## Details
 
 | | |

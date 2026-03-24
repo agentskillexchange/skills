@@ -3,15 +3,14 @@ name: "OWASP ZAP API Security Tester"
 description: "Runs automated DAST scans against REST and GraphQL APIs using OWASP ZAP daemon API. Detects injection flaws, broken auth, and CORS misconfigurations with detailed remediation steps."
 category: "Security & Verification"
 framework: "Codex"
-verification: "community"
-rating: "4.9"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Hannah Berg"
 creator_handle: "@hannahberg"
-creator_verified: 0
-source: "https://agentskillexchange.com/skill/owasp-zap-api-security-tester/"
+creator_verified: false
+source: "https://agentskillexchange.com/skills/owasp-zap-api-security-tester/"
 ---
-
 # OWASP ZAP API Security Tester
 
 Runs automated DAST scans against REST and GraphQL APIs using OWASP ZAP daemon API. Detects injection flaws, broken auth, and CORS misconfigurations with detailed remediation steps.
@@ -20,22 +19,17 @@ Runs automated DAST scans against REST and GraphQL APIs using OWASP ZAP daemon A
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install owasp-zap-api-security-tester
+npx skills add agentskillexchange/skills --skill owasp-zap-api-security-tester
 ```
 
 ### Claude Code
 ```bash
-claude mcp add owasp-zap-api-security-tester
+npx skills add agentskillexchange/skills --skill owasp-zap-api-security-tester -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "owasp-zap-api-security-tester": {
-    "source": "agentskillexchange"
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill owasp-zap-api-security-tester -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install owasp-zap-api-security-tester
 
 ### Codex
 ```bash
-codex install-skill owasp-zap-api-security-tester
+npx skills add agentskillexchange/skills --skill owasp-zap-api-security-tester -a codex
 ```
-
 ## Details
 
 | Field | Value |

@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.2
 reviews: 68
-creator: Leo Park
-creator_handle: leopark
+creator: "Leo Park"
+creator_handle: "@leopark"
 creator_verified: true
-source: https://agentskillexchange.com/skill/dns-failure-runbook/
+source: "https://agentskillexchange.com/skills/dns-failure-runbook/"
 ---
-
 # DNS Failure Runbook
 
 Runbook for diagnosing and resolving DNS resolution failures affecting production services. Covers DNS propagation issues, NXDOMAIN debugging, TTL problems, and split-horizon DNS complications.

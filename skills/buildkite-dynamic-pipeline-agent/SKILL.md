@@ -3,39 +3,33 @@ name: "Buildkite Dynamic Pipeline Agent"
 description: "Creates Buildkite pipelines dynamically using the Buildkite REST API and pipeline upload commands. Manages agent targeting with queue tags and implements automatic retry strategies for flaky tests."
 category: "CI/CD Integrations"
 framework: "Cursor"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.6
 reviews: 66
 creator: "Aisha Patel"
 creator_handle: "@aishapatel"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/buildkite-dynamic-pipeline-agent/"
+source: "https://agentskillexchange.com/skills/buildkite-dynamic-pipeline-agent/"
 ---
-
 # Buildkite Dynamic Pipeline Agent
 
 Creates Buildkite pipelines dynamically using the Buildkite REST API and pipeline upload commands. Manages agent targeting with queue tags and implements automatic retry strategies for flaky tests.
 
 ## Installation
 
-Install this skill across different AI coding agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install buildkite-dynamic-pipeline-agent
+npx skills add agentskillexchange/skills --skill buildkite-dynamic-pipeline-agent
 ```
 
 ### Claude Code
 ```bash
-claude skills add buildkite-dynamic-pipeline-agent
+npx skills add agentskillexchange/skills --skill buildkite-dynamic-pipeline-agent -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["buildkite-dynamic-pipeline-agent"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill buildkite-dynamic-pipeline-agent -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install buildkite-dynamic-pipeline-agent
 
 ### Codex
 ```bash
-codex skills add buildkite-dynamic-pipeline-agent
+npx skills add agentskillexchange/skills --skill buildkite-dynamic-pipeline-agent -a codex
 ```
-
 ## Details
 
 | Property | Value |

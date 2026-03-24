@@ -3,35 +3,32 @@ name: "CircleCI Orb Dependency Auditor"
 description: "Audits CircleCI orb dependencies using the CircleCI v2 API and orb registry. Detects outdated orb versions, deprecated commands, and known CVEs in orb executor images via Trivy scanning."
 category: "CI/CD Integrations"
 framework: "MCP-compatible"
-verification: "Verified Metadata"
-rating: "4.8"
-reviews: "80"
+verification: verified_metadata
+rating: 4.8
+reviews: 80
 creator: "Community"
 creator_verified: false
-source: "https://agentskillexchange.com/skill/circleci-orb-dependency-auditor-4/"
+source: "https://agentskillexchange.com/skills/circleci-orb-dependency-auditor-4/"
 ---
-
 # CircleCI Orb Dependency Auditor
 
 Audits CircleCI orb dependencies using the CircleCI v2 API and orb registry. Detects outdated orb versions, deprecated commands, and known CVEs in orb executor images via Trivy scanning.
 
 ## Installation
 
-Install this skill for your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install circleci-orb-dependency-auditor-4
+npx skills add agentskillexchange/skills --skill circleci-orb-dependency-auditor-4
 ```
 
 ### Claude Code
 ```bash
-claude skills add circleci-orb-dependency-auditor-4
+npx skills add agentskillexchange/skills --skill circleci-orb-dependency-auditor-4 -a claude-code
 ```
 
 ### Cursor
-```
-Install circleci-orb-dependency-auditor-4 from Cursor Settings → Skills
+```bash
+npx skills add agentskillexchange/skills --skill circleci-orb-dependency-auditor-4 -a cursor
 ```
 
 ### OpenClaw
@@ -41,9 +38,8 @@ clawhub install circleci-orb-dependency-auditor-4
 
 ### Codex
 ```bash
-codex skills add circleci-orb-dependency-auditor-4
+npx skills add agentskillexchange/skills --skill circleci-orb-dependency-auditor-4 -a codex
 ```
-
 ## Details
 
 | Field | Value |

@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.7
 reviews: 85
-creator: Ava Wilson
-creator_handle: avawilson
+creator: "Ava Wilson"
+creator_handle: "@avawilson"
 creator_verified: true
-source: https://agentskillexchange.com/skill/stripe-reporting-agent/
+source: "https://agentskillexchange.com/skills/stripe-reporting-agent/"
 ---
-
 # Stripe Reporting Agent
 
 AI agent skill for Stripe — query charges, subscriptions, invoices, refunds, and payment intents. Generates revenue reports, churn analysis, MRR calculations, and dispute summaries without leaving your workflow.

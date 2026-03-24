@@ -3,51 +3,44 @@ name: "Terraform Module Registry"
 description: "Indexes and serves Terraform modules via the Terraform Registry Protocol API. Validates module structure, generates documentation from HCL using terraform-docs, and publishes to private registries."
 category: "Templates & Workflows"
 framework: "MCP-compatible"
-verification: "Verified ✅"
-rating: "4.8"
-reviews: "8"
+verification: security_reviewed
+rating: 4.8
+reviews: 8
 creator: "Sam Lee"
 creator_handle: "@samlee_dev"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/terraform-module-registry-2/"
+source: "https://agentskillexchange.com/skills/terraform-module-registry-2/"
 ---
-
 # Terraform Module Registry
 
 Indexes and serves Terraform modules via the Terraform Registry Protocol API. Validates module structure, generates documentation from HCL using terraform-docs, and publishes to private registries.
 
 ## Installation
 
-Install this skill across different agents:
-
-**Any agent (npx):**
+### Any Agent (npx)
 ```bash
-npx @anthropic/skills install terraform-module-registry-2
+npx skills add agentskillexchange/skills --skill terraform-module-registry-2
 ```
 
-**Claude Code:**
+### Claude Code
 ```bash
-claude skills add terraform-module-registry-2
+npx skills add agentskillexchange/skills --skill terraform-module-registry-2 -a claude-code
 ```
 
-**Cursor:**
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["terraform-module-registry-2"]
-}
+### Cursor
+```bash
+npx skills add agentskillexchange/skills --skill terraform-module-registry-2 -a cursor
 ```
 
-**OpenClaw:**
+### OpenClaw
 ```bash
 clawhub install terraform-module-registry-2
 ```
 
-**Codex:**
+### Codex
 ```bash
-codex skills add terraform-module-registry-2
+npx skills add agentskillexchange/skills --skill terraform-module-registry-2 -a codex
 ```
-
 ## Details
 
 | Field | Value |

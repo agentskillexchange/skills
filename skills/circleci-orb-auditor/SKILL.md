@@ -6,12 +6,11 @@ framework: "Cursor"
 verification: verified_metadata
 rating: 4.0
 reviews: 71
-creator: James Whitfield
-creator_handle: jwhitfield
+creator: "James Whitfield"
+creator_handle: "@jwhitfield"
 creator_verified: true
-source: https://agentskillexchange.com/skill/circleci-orb-auditor/
+source: "https://agentskillexchange.com/skills/circleci-orb-auditor/"
 ---
-
 # CircleCI Orb Auditor
 
 Audits CircleCI orb versions and configurations using the CircleCI v2 API. Flags deprecated orbs, provides pinning recommendations, and checks security advisories from the orb registry.

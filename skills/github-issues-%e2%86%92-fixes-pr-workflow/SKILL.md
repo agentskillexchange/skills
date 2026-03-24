@@ -6,12 +6,11 @@ framework: "OpenClaw"
 verification: security_reviewed
 rating: 4.6
 reviews: 20
-creator: Alex Thompson
-creator_handle: alexthompson
+creator: "Alex Thompson"
+creator_handle: "@alexthompson"
 creator_verified: true
-source: https://agentskillexchange.com/skill/github-issues-%e2%86%92-fixes-pr-workflow/
+source: "https://agentskillexchange.com/skills/github-issues-%e2%86%92-fixes-pr-workflow/"
 ---
-
 # GitHub Issues → Fixes / PR Workflow
 
 Turn GitHub issues into implementation and pull request workflows.

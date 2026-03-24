@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.8
 reviews: 50
-creator: James Whitfield
-creator_handle: jwhitfield
+creator: "James Whitfield"
+creator_handle: "@jwhitfield"
 creator_verified: true
-source: https://agentskillexchange.com/skill/deepsource-static-analysis/
+source: "https://agentskillexchange.com/skills/deepsource-static-analysis/"
 ---
-
 # DeepSource Static Analysis
 
 Runs DeepSource static analysis on Python, JavaScript, TypeScript, Go, Ruby, and Rust codebases. Detects anti-patterns, security issues, performance problems, and style violations with auto-fix suggestions.

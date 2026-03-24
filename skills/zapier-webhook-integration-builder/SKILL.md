@@ -3,35 +3,34 @@ name: "Zapier Webhook Integration Builder"
 description: "Creates and manages Zapier integrations using the Zapier Platform CLI and REST Hooks API. Builds custom triggers, actions, and searches with OAuth2 authentication flows."
 category: "Integrations & Connectors"
 framework: "Custom Agents"
-verification: "✅ Verified"
-rating: "4.9"
-reviews: "58"
+verification: security_reviewed
+rating: 4.9
+reviews: 58
 creator: "Fatima Al-Hassan"
 creator_handle: "@fatimaalhassan"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/zapier-webhook-integration-builder/"
+source: "https://agentskillexchange.com/skills/zapier-webhook-integration-builder/"
 ---
-
 # Zapier Webhook Integration Builder
 
 Creates and manages Zapier integrations using the Zapier Platform CLI and REST Hooks API. Builds custom triggers, actions, and searches with OAuth2 authentication flows.
 
 ## Installation
 
-Install this skill across different AI coding agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install zapier-webhook-integration-builder
+npx skills add agentskillexchange/skills --skill zapier-webhook-integration-builder
 ```
 
 ### Claude Code
 ```bash
-claude skills add zapier-webhook-integration-builder
+npx skills add agentskillexchange/skills --skill zapier-webhook-integration-builder -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` directory or install via Cursor Settings → Skills.
+```bash
+npx skills add agentskillexchange/skills --skill zapier-webhook-integration-builder -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install zapier-webhook-integration-builder
 
 ### Codex
 ```bash
-codex skills install zapier-webhook-integration-builder
+npx skills add agentskillexchange/skills --skill zapier-webhook-integration-builder -a codex
 ```
-
 ## Details
 
 | Field | Value |

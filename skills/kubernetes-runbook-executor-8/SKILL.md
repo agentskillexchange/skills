@@ -3,15 +3,14 @@ name: "Kubernetes Runbook Executor"
 description: "Executes diagnostic runbooks against Kubernetes clusters using kubectl, the Kubernetes API, and Prometheus PromQL queries. Automates pod health checks, resource quota analysis, and event correlation."
 category: "Runbooks & Diagnostics"
 framework: "Codex"
-verification: "community"
-rating: "4.8"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
-creator_verified: 
-source: "https://agentskillexchange.com/skill/kubernetes-runbook-executor-8/"
+creator_verified: false
+source: "https://agentskillexchange.com/skills/kubernetes-runbook-executor-8/"
 ---
-
 # Kubernetes Runbook Executor
 
 Executes diagnostic runbooks against Kubernetes clusters using kubectl, the Kubernetes API, and Prometheus PromQL queries. Automates pod health checks, resource quota analysis, and event correlation.
@@ -20,20 +19,17 @@ Executes diagnostic runbooks against Kubernetes clusters using kubectl, the Kube
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install kubernetes-runbook-executor-8
+npx skills add agentskillexchange/skills --skill kubernetes-runbook-executor-8
 ```
 
 ### Claude Code
 ```bash
-claude skills add kubernetes-runbook-executor-8
+npx skills add agentskillexchange/skills --skill kubernetes-runbook-executor-8 -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` configuration:
-```json
-{
-  "skills": ["kubernetes-runbook-executor-8"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill kubernetes-runbook-executor-8 -a cursor
 ```
 
 ### OpenClaw
@@ -43,9 +39,8 @@ clawhub install kubernetes-runbook-executor-8
 
 ### Codex
 ```bash
-codex skills add kubernetes-runbook-executor-8
+npx skills add agentskillexchange/skills --skill kubernetes-runbook-executor-8 -a codex
 ```
-
 ## Details
 
 | Field | Value |

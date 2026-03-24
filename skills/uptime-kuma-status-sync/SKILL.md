@@ -3,35 +3,34 @@ name: "Uptime Kuma Status Sync"
 description: "Interfaces with the Uptime Kuma Socket.IO API to monitor service health checks. Syncs status page data to Statuspage.io via Atlassian REST API and triggers incident workflows in Rootly."
 category: "Monitoring & Alerts"
 framework: "Claude Agents"
-verification: "Verified & Security Reviewed"
+verification: security_reviewed
 rating: 4.8
 reviews: 3
 creator: "Zoe Chen"
 creator_handle: "@zoechen"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/uptime-kuma-status-sync/"
+source: "https://agentskillexchange.com/skills/uptime-kuma-status-sync/"
 ---
-
 # Uptime Kuma Status Sync
 
 Interfaces with the Uptime Kuma Socket.IO API to monitor service health checks. Syncs status page data to Statuspage.io via Atlassian REST API and triggers incident workflows in Rootly.
 
 ## Installation
 
-Install this skill across different AI coding agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install uptime-kuma-status-sync
+npx skills add agentskillexchange/skills --skill uptime-kuma-status-sync
 ```
 
 ### Claude Code
 ```bash
-claude mcp add uptime-kuma-status-sync
+npx skills add agentskillexchange/skills --skill uptime-kuma-status-sync -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills/` directory or install via Cursor Settings → Skills.
+```bash
+npx skills add agentskillexchange/skills --skill uptime-kuma-status-sync -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install uptime-kuma-status-sync
 
 ### Codex
 ```bash
-codex install uptime-kuma-status-sync
+npx skills add agentskillexchange/skills --skill uptime-kuma-status-sync -a codex
 ```
-
 ## Details
 
 | Property | Value |

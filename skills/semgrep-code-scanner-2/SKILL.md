@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.4
 reviews: 45
-creator: Aisha Patel
-creator_handle: aishap
+creator: "Aisha Patel"
+creator_handle: "@aishap"
 creator_verified: true
-source: https://agentskillexchange.com/skill/semgrep-code-scanner-2/
+source: "https://agentskillexchange.com/skills/semgrep-code-scanner-2/"
 ---
-
 # Semgrep Code Scanner
 
 Runs Semgrep static analysis rules against your codebase to find security vulnerabilities, bug patterns, and code quality issues. Supports custom rule authoring for organization-specific patterns.

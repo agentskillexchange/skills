@@ -3,51 +3,44 @@ name: "Todoist Sync API Task Orchestrator"
 description: "Orchestrates complex task workflows using the Todoist Sync API v9 with incremental sync via sync_token. Uses commands array for atomic batch operations on items, projects, and labels."
 category: "Calendar, Email & Productivity"
 framework: "Gemini"
-verification: "verified"
+verification: verified_metadata
 rating: 4.2
 reviews: 74
 creator: "Marcus Chen"
 creator_handle: "@marcuschen"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/todoist-sync-api-task-orchestrator/"
+source: "https://agentskillexchange.com/skills/todoist-sync-api-task-orchestrator/"
 ---
-
 # Todoist Sync API Task Orchestrator
 
 Orchestrates complex task workflows using the Todoist Sync API v9 with incremental sync via sync_token. Uses commands array for atomic batch operations on items, projects, and labels.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
-**Any agent (npx):**
+### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install todoist-sync-api-task-orchestrator
+npx skills add agentskillexchange/skills --skill todoist-sync-api-task-orchestrator
 ```
 
-**Claude Code:**
+### Claude Code
 ```bash
-claude skills install todoist-sync-api-task-orchestrator
+npx skills add agentskillexchange/skills --skill todoist-sync-api-task-orchestrator -a claude-code
 ```
 
-**Cursor:**
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["todoist-sync-api-task-orchestrator"]
-}
+### Cursor
+```bash
+npx skills add agentskillexchange/skills --skill todoist-sync-api-task-orchestrator -a cursor
 ```
 
-**OpenClaw:**
+### OpenClaw
 ```bash
 clawhub install todoist-sync-api-task-orchestrator
 ```
 
-**Codex:**
+### Codex
 ```bash
-codex skills install todoist-sync-api-task-orchestrator
+npx skills add agentskillexchange/skills --skill todoist-sync-api-task-orchestrator -a codex
 ```
-
 ## Details
 
 | Field | Value |

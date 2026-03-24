@@ -3,41 +3,33 @@ name: "GitHub Actions Workflow Composer"
 description: "Composes GitHub Actions workflow YAML files from modular job templates, resolving action version pins and secret references. Validates against the GitHub Actions schema and checks for known action CVEs."
 category: "Templates & Workflows"
 framework: "Claude Agents"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.9
 reviews: 63
 creator: "Elena Rodriguez"
 creator_handle: "@elena_dev"
-creator_verified: yes
-source: "https://agentskillexchange.com/skill/github-actions-workflow-composer-2/"
+creator_verified: true
+source: "https://agentskillexchange.com/skills/github-actions-workflow-composer-2/"
 ---
-
 # GitHub Actions Workflow Composer
 
 Composes GitHub Actions workflow YAML files from modular job templates, resolving action version pins and secret references. Validates against the GitHub Actions schema and checks for known action CVEs.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx agentskills install github-actions-workflow-composer-2
+npx skills add agentskillexchange/skills --skill github-actions-workflow-composer-2
 ```
 
 ### Claude Code
 ```bash
-claude mcp add github-actions-workflow-composer-2
+npx skills add agentskillexchange/skills --skill github-actions-workflow-composer-2 -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "github-actions-workflow-composer-2": {
-    "enabled": true
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill github-actions-workflow-composer-2 -a cursor
 ```
 
 ### OpenClaw
@@ -47,9 +39,8 @@ clawhub install github-actions-workflow-composer-2
 
 ### Codex
 ```bash
-codex install github-actions-workflow-composer-2
+npx skills add agentskillexchange/skills --skill github-actions-workflow-composer-2 -a codex
 ```
-
 ## Details
 
 | Field | Value |

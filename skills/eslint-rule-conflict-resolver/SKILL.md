@@ -3,35 +3,34 @@ name: "ESLint Rule Conflict Resolver"
 description: "Detects and resolves conflicting ESLint rules across .eslintrc configurations using the ESLint Node.js API. Analyzes rule interactions between eslint-config-airbnb, eslint-config-prettier, and typescript-eslint plugins."
 category: "Code Quality & Review"
 framework: "Cursor"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.5
 reviews: 19
 creator: "Elena Rodriguez"
 creator_handle: "@elena_dev"
-creator_verified: yes
-source: "https://agentskillexchange.com/skill/eslint-rule-conflict-resolver/"
+creator_verified: true
+source: "https://agentskillexchange.com/skills/eslint-rule-conflict-resolver/"
 ---
-
 # ESLint Rule Conflict Resolver
 
 Detects and resolves conflicting ESLint rules across .eslintrc configurations using the ESLint Node.js API. Analyzes rule interactions between eslint-config-airbnb, eslint-config-prettier, and typescript-eslint plugins.
 
 ## Installation
 
-Install this skill across different agents:
-
 ### Any Agent (npx)
 ```bash
-npx agentskills install eslint-rule-conflict-resolver
+npx skills add agentskillexchange/skills --skill eslint-rule-conflict-resolver
 ```
 
 ### Claude Code
 ```bash
-claude mcp add eslint-rule-conflict-resolver
+npx skills add agentskillexchange/skills --skill eslint-rule-conflict-resolver -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills/` directory or install via Cursor settings.
+```bash
+npx skills add agentskillexchange/skills --skill eslint-rule-conflict-resolver -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install eslint-rule-conflict-resolver
 
 ### Codex
 ```bash
-codex install eslint-rule-conflict-resolver
+npx skills add agentskillexchange/skills --skill eslint-rule-conflict-resolver -a codex
 ```
-
 ## Details
 
 | Property | Value |

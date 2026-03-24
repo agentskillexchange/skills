@@ -3,35 +3,34 @@ name: "CSV Schema Validator & Auto-Fixer"
 description: "Validates CSV files against JSON Schema definitions using AJV and csv-parse. Automatically detects and repairs type mismatches, missing required columns, and encoding issues with configurable strictness levels."
 category: "Data Extraction & Transformation"
 framework: "OpenClaw"
-verification: "Verified · Security Reviewed"
-rating: "4.7"
-reviews: "26"
+verification: security_reviewed
+rating: 4.7
+reviews: 26
 creator: "Zoe Chen"
 creator_handle: "@zoechen"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/csv-schema-validator-auto-fixer/"
+source: "https://agentskillexchange.com/skills/csv-schema-validator-auto-fixer/"
 ---
-
 # CSV Schema Validator & Auto-Fixer
 
 Validates CSV files against JSON Schema definitions using AJV and csv-parse. Automatically detects and repairs type mismatches, missing required columns, and encoding issues with configurable strictness levels.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install csv-schema-validator-auto-fixer
+npx skills add agentskillexchange/skills --skill csv-schema-validator-auto-fixer
 ```
 
 ### Claude Code
 ```bash
-claude skills add csv-schema-validator-auto-fixer
+npx skills add agentskillexchange/skills --skill csv-schema-validator-auto-fixer -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursorrules` or install via Cursor Settings → Skills.
+```bash
+npx skills add agentskillexchange/skills --skill csv-schema-validator-auto-fixer -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install csv-schema-validator-auto-fixer
 
 ### Codex
 ```bash
-codex skills add csv-schema-validator-auto-fixer
+npx skills add agentskillexchange/skills --skill csv-schema-validator-auto-fixer -a codex
 ```
-
 ## Details
 
 | Field | Value |

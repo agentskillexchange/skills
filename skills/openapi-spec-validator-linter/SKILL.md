@@ -6,12 +6,11 @@ framework: "Gemini"
 verification: security_reviewed
 rating: 4.9
 reviews: 58
-creator: Luna Martinez
-creator_handle: lunamartinez
+creator: "Luna Martinez"
+creator_handle: "@lunamartinez"
 creator_verified: false
-source: https://agentskillexchange.com/skill/openapi-spec-validator-linter/
+source: "https://agentskillexchange.com/skills/openapi-spec-validator-linter/"
 ---
-
 # OpenAPI Spec Validator & Linter
 
 Validates and lints OpenAPI 3.x specifications using the @readme/openapi-parser and Spectral (@stoplight/spectral-core) rulesets. Detects schema inconsistencies, missing examples, and generates SDK compatibility reports.

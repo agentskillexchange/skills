@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.9
 reviews: 46
-creator: Marcus Rivera
-creator_handle: mrivera
+creator: "Marcus Rivera"
+creator_handle: "@mrivera"
 creator_verified: true
-source: https://agentskillexchange.com/skill/terraform-module-registry/
+source: "https://agentskillexchange.com/skills/terraform-module-registry/"
 ---
-
 # Terraform Module Registry
 
 Search, fetch, and scaffold Terraform modules from the public registry and private registries through an AI agent. Automates module version pinning, variable documentation generation, and outputs wiring for composable infrastructure definitions.

@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.1
 reviews: 6
-creator: Omar Hassan
-creator_handle: ohassan
+creator: "Omar Hassan"
+creator_handle: "@ohassan"
 creator_verified: true
-source: https://agentskillexchange.com/skill/memory-leak-diagnosis-skill/
+source: "https://agentskillexchange.com/skills/memory-leak-diagnosis-skill/"
 ---
-
 # Memory Leak Diagnosis Skill
 
 Use this skill to systematically identify memory leaks in Node.js and Python applications through heap profiling, garbage collection analysis, and memory growth tracking. It guides through capturing heap snapshots, comparing memory over time, and identifying leak sources. Trigger when application memory grows unboundedly, OOM errors occur, or process memory exceeds expected levels.

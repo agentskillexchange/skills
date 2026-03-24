@@ -6,12 +6,11 @@ framework: "Codex"
 verification: security_reviewed
 rating: 4.7
 reviews: 32
-creator: Yuki Tanaka
-creator_handle: yukitanaka
+creator: "Yuki Tanaka"
+creator_handle: "@yukitanaka"
 creator_verified: true
-source: https://agentskillexchange.com/skill/terraform-state-drift-detector-5/
+source: "https://agentskillexchange.com/skills/terraform-state-drift-detector-5/"
 ---
-
 # Terraform State Drift Detector
 
 Identifies infrastructure drift by comparing Terraform state files against live cloud resources using terraform plan -detailed-exitcode and the AWS/GCP provider APIs. Generates targeted remediation plans for out-of-sync resources.

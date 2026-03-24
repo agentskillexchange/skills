@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.5
 reviews: 81
-creator: Kai Nakamura
-creator_handle: kainakamura
+creator: "Kai Nakamura"
+creator_handle: "@kainakamura"
 creator_verified: true
-source: https://agentskillexchange.com/skill/codeclimate-quality-analysis/
+source: "https://agentskillexchange.com/skills/codeclimate-quality-analysis/"
 ---
-
 # CodeClimate Quality Analysis
 
 Runs CodeClimate quality analysis on your codebase to detect code smells, duplication, complexity hotspots, and maintainability issues. Integrates with CI to enforce quality gates and track technical debt over time.

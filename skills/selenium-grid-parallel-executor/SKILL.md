@@ -3,44 +3,33 @@ name: "Selenium Grid Parallel Executor"
 description: "Orchestrates parallel browser automation across Selenium Grid nodes using RemoteWebDriver, DesiredCapabilities, and WebDriverWait. Manages session distribution, retry policies, and HTML test reports via ExtentReports."
 category: "Browser Automation"
 framework: "Custom Agents"
-verification: "community"
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/selenium-grid-parallel-executor/"
+source: "https://agentskillexchange.com/skills/selenium-grid-parallel-executor/"
 ---
-
 # Selenium Grid Parallel Executor
 
 Orchestrates parallel browser automation across Selenium Grid nodes using RemoteWebDriver, DesiredCapabilities, and WebDriverWait. Manages session distribution, retry policies, and HTML test reports via ExtentReports.
 
 ## Installation
 
-Install this skill in your agent framework of choice:
-
-### npx (Any Agent)
+### Any Agent (npx)
 ```bash
-npx agentskills install selenium-grid-parallel-executor
+npx skills add agentskillexchange/skills --skill selenium-grid-parallel-executor
 ```
 
 ### Claude Code
 ```bash
-claude mcp add skill-selenium-grid-parallel-executor -- npx agentskills run selenium-grid-parallel-executor
+npx skills add agentskillexchange/skills --skill selenium-grid-parallel-executor -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/mcp.json`:
-```json
-{
-  "mcpServers": {
-    "skill-selenium-grid-parallel-executor": {
-      "command": "npx",
-      "args": ["agentskills", "run", "selenium-grid-parallel-executor"]
-    }
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill selenium-grid-parallel-executor -a cursor
 ```
 
 ### OpenClaw
@@ -50,9 +39,8 @@ clawhub install selenium-grid-parallel-executor
 
 ### Codex
 ```bash
-codex install selenium-grid-parallel-executor
+npx skills add agentskillexchange/skills --skill selenium-grid-parallel-executor -a codex
 ```
-
 ## Details
 
 | | |

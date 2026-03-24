@@ -3,36 +3,33 @@ name: "Kubernetes Pod Diagnostics Runner"
 description: "Runs automated diagnostic sequences on Kubernetes pods using kubectl exec, kubectl logs, and the Kubernetes API /api/v1/pods endpoint. Captures OOMKilled events, CrashLoopBackOff analysis, and resource utilization via metrics-server."
 category: "Runbooks & Diagnostics"
 framework: "Cursor"
-verification: "security_reviewed"
-rating: "0"
-reviews: "0"
+verification: security_reviewed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/kubernetes-pod-diagnostics-runner-2/"
+source: "https://agentskillexchange.com/skills/kubernetes-pod-diagnostics-runner-2/"
 ---
-
 # Kubernetes Pod Diagnostics Runner
 
 Runs automated diagnostic sequences on Kubernetes pods using kubectl exec, kubectl logs, and the Kubernetes API /api/v1/pods endpoint. Captures OOMKilled events, CrashLoopBackOff analysis, and resource utilization via metrics-server.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install kubernetes-pod-diagnostics-runner-2
+npx skills add agentskillexchange/skills --skill kubernetes-pod-diagnostics-runner-2
 ```
 
 ### Claude Code
 ```bash
-claude skills add kubernetes-pod-diagnostics-runner-2
+npx skills add agentskillexchange/skills --skill kubernetes-pod-diagnostics-runner-2 -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor skills install kubernetes-pod-diagnostics-runner-2
+npx skills add agentskillexchange/skills --skill kubernetes-pod-diagnostics-runner-2 -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install kubernetes-pod-diagnostics-runner-2
 
 ### Codex
 ```bash
-codex skills add kubernetes-pod-diagnostics-runner-2
+npx skills add agentskillexchange/skills --skill kubernetes-pod-diagnostics-runner-2 -a codex
 ```
-
 ## Details
 
 | Field | Value |

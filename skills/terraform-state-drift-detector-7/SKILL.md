@@ -3,15 +3,14 @@ name: "Terraform State Drift Detector"
 description: "Detects infrastructure drift by comparing Terraform state files against live cloud resources using terraform show and the AWS/GCP/Azure provider APIs. Generates remediation plans automatically."
 category: "Runbooks & Diagnostics"
 framework: "Gemini"
-verification: "security_reviewed"
-rating: "0"
-reviews: "0"
+verification: security_reviewed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/terraform-state-drift-detector-7/"
+source: "https://agentskillexchange.com/skills/terraform-state-drift-detector-7/"
 ---
-
 # Terraform State Drift Detector
 
 Detects infrastructure drift by comparing Terraform state files against live cloud resources using terraform show and the AWS/GCP/Azure provider APIs. Generates remediation plans automatically.
@@ -20,23 +19,17 @@ Detects infrastructure drift by comparing Terraform state files against live clo
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agentskill install terraform-state-drift-detector-7
+npx skills add agentskillexchange/skills --skill terraform-state-drift-detector-7
 ```
 
 ### Claude Code
 ```bash
-claude mcp add terraform-state-drift-detector-7
+npx skills add agentskillexchange/skills --skill terraform-state-drift-detector-7 -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "terraform-state-drift-detector-7": {
-    "source": "agentskillexchange",
-    "enabled": true
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill terraform-state-drift-detector-7 -a cursor
 ```
 
 ### OpenClaw
@@ -46,9 +39,8 @@ clawhub install terraform-state-drift-detector-7
 
 ### Codex
 ```bash
-codex install terraform-state-drift-detector-7
+npx skills add agentskillexchange/skills --skill terraform-state-drift-detector-7 -a codex
 ```
-
 ## Details
 
 | Field | Value |

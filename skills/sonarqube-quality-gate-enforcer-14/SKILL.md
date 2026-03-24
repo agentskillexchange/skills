@@ -3,39 +3,33 @@ name: "SonarQube Quality Gate Enforcer"
 description: "Enforces SonarQube quality gates in pull request workflows using the SonarQube Web API and ce/task endpoint. Blocks merges when code coverage drops, duplications exceed thresholds, or security hotspots are unreviewed."
 category: "Code Quality & Review"
 framework: "MCP-compatible"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.5
 reviews: 86
 creator: "Alex Rivera"
 creator_handle: "@arivera_dev"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/sonarqube-quality-gate-enforcer-14/"
+source: "https://agentskillexchange.com/skills/sonarqube-quality-gate-enforcer-14/"
 ---
-
 # SonarQube Quality Gate Enforcer
 
 Enforces SonarQube quality gates in pull request workflows using the SonarQube Web API and ce/task endpoint. Blocks merges when code coverage drops, duplications exceed thresholds, or security hotspots are unreviewed.
 
 ## Installation
 
-Install this skill for your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install sonarqube-quality-gate-enforcer-14
+npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-enforcer-14
 ```
 
 ### Claude Code
 ```bash
-claude skills add sonarqube-quality-gate-enforcer-14
+npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-enforcer-14 -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["sonarqube-quality-gate-enforcer-14"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-enforcer-14 -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install sonarqube-quality-gate-enforcer-14
 
 ### Codex
 ```bash
-codex skills add sonarqube-quality-gate-enforcer-14
+npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-enforcer-14 -a codex
 ```
-
 ## Details
 
 | Property | Value |

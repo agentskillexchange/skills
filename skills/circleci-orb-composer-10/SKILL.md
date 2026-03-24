@@ -3,35 +3,34 @@ name: "CircleCI Orb Composer"
 description: "Composes and validates CircleCI orbs with automated semantic versioning and publishing. Leverages the CircleCI CLI orb pack/validate commands and the CircleCI v2 API for pipeline management."
 category: "CI/CD Integrations"
 framework: "Codex"
-verification: "Community"
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/circleci-orb-composer-10/"
+source: "https://agentskillexchange.com/skills/circleci-orb-composer-10/"
 ---
-
 # CircleCI Orb Composer
 
 Composes and validates CircleCI orbs with automated semantic versioning and publishing. Leverages the CircleCI CLI orb pack/validate commands and the CircleCI v2 API for pipeline management.
 
 ## Installation
 
-Install this skill across different agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install circleci-orb-composer-10
+npx skills add agentskillexchange/skills --skill circleci-orb-composer-10
 ```
 
 ### Claude Code
 ```bash
-claude skills add circleci-orb-composer-10
+npx skills add agentskillexchange/skills --skill circleci-orb-composer-10 -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` directory or install via Cursor settings.
+```bash
+npx skills add agentskillexchange/skills --skill circleci-orb-composer-10 -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install circleci-orb-composer-10
 
 ### Codex
 ```bash
-codex skills add circleci-orb-composer-10
+npx skills add agentskillexchange/skills --skill circleci-orb-composer-10 -a codex
 ```
-
 ## Details
 
 | Field | Value |

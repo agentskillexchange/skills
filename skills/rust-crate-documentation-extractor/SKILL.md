@@ -3,15 +3,14 @@ name: "Rust Crate Documentation Extractor"
 description: "Extracts and indexes Rust crate documentation using cargo-doc, docs.rs API, and syn for AST parsing. Generates searchable API references with cross-crate linking and example extraction."
 category: "Library & API Reference"
 framework: "Custom Agents"
-verification: ""
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/rust-crate-documentation-extractor/"
+source: "https://agentskillexchange.com/skills/rust-crate-documentation-extractor/"
 ---
-
 # Rust Crate Documentation Extractor
 
 Extracts and indexes Rust crate documentation using cargo-doc, docs.rs API, and syn for AST parsing. Generates searchable API references with cross-crate linking and example extraction.
@@ -20,22 +19,17 @@ Extracts and indexes Rust crate documentation using cargo-doc, docs.rs API, and 
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install rust-crate-documentation-extractor
+npx skills add agentskillexchange/skills --skill rust-crate-documentation-extractor
 ```
 
 ### Claude Code
 ```bash
-claude mcp add rust-crate-documentation-extractor
+npx skills add agentskillexchange/skills --skill rust-crate-documentation-extractor -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "rust-crate-documentation-extractor": {
-    "enabled": true
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill rust-crate-documentation-extractor -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install rust-crate-documentation-extractor
 
 ### Codex
 ```bash
-codex install rust-crate-documentation-extractor
+npx skills add agentskillexchange/skills --skill rust-crate-documentation-extractor -a codex
 ```
-
 ## Details
 
 | Field | Value |

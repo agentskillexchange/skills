@@ -3,15 +3,14 @@ name: "Outlook Mail Triage Assistant"
 description: "Automated email triage using Microsoft Graph API and @azure/msal-node for OAuth. Classifies messages with zero-shot classification, applies Outlook rules, and manages focused inbox priorities."
 category: "Calendar, Email & Productivity"
 framework: "Claude Code"
-verification: "Verified & Security Reviewed"
-rating: "4.1"
-reviews: "50"
+verification: security_reviewed
+rating: 4.1
+reviews: 50
 creator: "Aisha Patel"
 creator_handle: "@aishapatel"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/outlook-mail-triage-assistant/"
+source: "https://agentskillexchange.com/skills/outlook-mail-triage-assistant/"
 ---
-
 # Outlook Mail Triage Assistant
 
 Automated email triage using Microsoft Graph API and @azure/msal-node for OAuth. Classifies messages with zero-shot classification, applies Outlook rules, and manages focused inbox priorities.
@@ -20,20 +19,17 @@ Automated email triage using Microsoft Graph API and @azure/msal-node for OAuth.
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install outlook-mail-triage-assistant
+npx skills add agentskillexchange/skills --skill outlook-mail-triage-assistant
 ```
 
 ### Claude Code
 ```bash
-claude mcp add outlook-mail-triage-assistant
+npx skills add agentskillexchange/skills --skill outlook-mail-triage-assistant -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "skills": ["outlook-mail-triage-assistant"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill outlook-mail-triage-assistant -a cursor
 ```
 
 ### OpenClaw
@@ -43,9 +39,8 @@ clawhub install outlook-mail-triage-assistant
 
 ### Codex
 ```bash
-codex install outlook-mail-triage-assistant
+npx skills add agentskillexchange/skills --skill outlook-mail-triage-assistant -a codex
 ```
-
 ## Details
 
 | Field | Value |

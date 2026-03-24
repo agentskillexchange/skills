@@ -3,39 +3,33 @@ name: "Cookiecutter Template Generator"
 description: "Generates project scaffolding using the Cookiecutter CLI with Jinja2 templating. Supports custom template registries, post-generation hooks via Python scripts, and integration with the GitHub template repository API."
 category: "Templates & Workflows"
 framework: "Codex"
-verification: "Yes"
-rating: "4.8"
-reviews: "22"
+verification: verified_metadata
+rating: 4.8
+reviews: 22
 creator: "Fatima Al-Hassan"
 creator_handle: "@fatimaalhassan"
-creator_verified: "Yes"
-source: "https://agentskillexchange.com/skill/cookiecutter-template-generator/"
+creator_verified: true
+source: "https://agentskillexchange.com/skills/cookiecutter-template-generator/"
 ---
-
 # Cookiecutter Template Generator
 
 Generates project scaffolding using the Cookiecutter CLI with Jinja2 templating. Supports custom template registries, post-generation hooks via Python scripts, and integration with the GitHub template repository API.
 
 ## Installation
 
-Install this skill for your preferred agent framework:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skill install cookiecutter-template-generator
+npx skills add agentskillexchange/skills --skill cookiecutter-template-generator
 ```
 
 ### Claude Code
 ```bash
-claude skills install cookiecutter-template-generator
+npx skills add agentskillexchange/skills --skill cookiecutter-template-generator -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["cookiecutter-template-generator"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill cookiecutter-template-generator -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install cookiecutter-template-generator
 
 ### Codex
 ```bash
-codex skills install cookiecutter-template-generator
+npx skills add agentskillexchange/skills --skill cookiecutter-template-generator -a codex
 ```
-
 ## Details
 
 | Property | Value |

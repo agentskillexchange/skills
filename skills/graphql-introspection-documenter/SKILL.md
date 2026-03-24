@@ -3,49 +3,44 @@ name: "GraphQL Introspection Documenter"
 description: "Introspects GraphQL endpoints using the __schema query and generates structured API documentation. Uses graphql-js type system to resolve interfaces, unions, and custom scalar descriptions."
 category: "Library & API Reference"
 framework: "Claude Agents"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.5
 reviews: 59
 creator: "Grace Okafor"
 creator_handle: "@graceokafor"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/graphql-introspection-documenter/"
+source: "https://agentskillexchange.com/skills/graphql-introspection-documenter/"
 ---
-
 # GraphQL Introspection Documenter
 
 Introspects GraphQL endpoints using the __schema query and generates structured API documentation. Uses graphql-js type system to resolve interfaces, unions, and custom scalar descriptions.
 
 ## Installation
 
-Install this skill on your preferred agent platform:
-
-**Any agent (npx):**
+### Any Agent (npx)
 ```bash
-npx @anthropic/agentskill install graphql-introspection-documenter
+npx skills add agentskillexchange/skills --skill graphql-introspection-documenter
 ```
 
-**Claude Code:**
+### Claude Code
 ```bash
-claude mcp add graphql-introspection-documenter
+npx skills add agentskillexchange/skills --skill graphql-introspection-documenter -a claude-code
 ```
 
-**Cursor:**
-Add to your `.cursor/skills` configuration:
-```json
-{ "graphql-introspection-documenter": "latest" }
+### Cursor
+```bash
+npx skills add agentskillexchange/skills --skill graphql-introspection-documenter -a cursor
 ```
 
-**OpenClaw:**
+### OpenClaw
 ```bash
 clawhub install graphql-introspection-documenter
 ```
 
-**Codex:**
+### Codex
 ```bash
-codex install graphql-introspection-documenter
+npx skills add agentskillexchange/skills --skill graphql-introspection-documenter -a codex
 ```
-
 ## Details
 
 | Field | Value |

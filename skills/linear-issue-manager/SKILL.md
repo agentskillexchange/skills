@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.9
 reviews: 48
-creator: Elena Kowalski
-creator_handle: ekowalski
+creator: "Elena Kowalski"
+creator_handle: "@ekowalski"
 creator_verified: true
-source: https://agentskillexchange.com/skill/linear-issue-manager/
+source: "https://agentskillexchange.com/skills/linear-issue-manager/"
 ---
-
 # Linear Issue Manager
 
 Manage Linear issues, cycles, and projects from AI agent workflows using the Linear GraphQL API. Create issues with proper team routing, update priorities, add comments, and query sprint progress without leaving your development context.

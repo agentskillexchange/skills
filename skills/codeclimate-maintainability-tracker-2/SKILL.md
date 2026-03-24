@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.7
 reviews: 16
-creator: Leo Park
-creator_handle: leopark
+creator: "Leo Park"
+creator_handle: "@leopark"
 creator_verified: true
-source: https://agentskillexchange.com/skill/codeclimate-maintainability-tracker-2/
+source: "https://agentskillexchange.com/skills/codeclimate-maintainability-tracker-2/"
 ---
-
 # CodeClimate Maintainability Tracker
 
 Tracks code maintainability metrics via the Code Climate API v1 and codeclimate CLI analyze command. Monitors GPA scores, technical debt ratios, and file-level complexity using the Cognitive Complexity engine.

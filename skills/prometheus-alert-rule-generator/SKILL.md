@@ -3,15 +3,14 @@ name: "Prometheus Alert Rule Generator"
 description: "Generates Prometheus alerting rules from natural language descriptions using PromQL query syntax. Validates expressions against the Prometheus /api/v1/query endpoint and outputs AlertManager-compatible YAML."
 category: "Monitoring & Alerts"
 framework: "OpenClaw"
-verification: ""
+verification: listed
 rating: 0
 reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/prometheus-alert-rule-generator/"
+source: "https://agentskillexchange.com/skills/prometheus-alert-rule-generator/"
 ---
-
 # Prometheus Alert Rule Generator
 
 Generates Prometheus alerting rules from natural language descriptions using PromQL query syntax. Validates expressions against the Prometheus /api/v1/query endpoint and outputs AlertManager-compatible YAML.
@@ -20,16 +19,18 @@ Generates Prometheus alerting rules from natural language descriptions using Pro
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install prometheus-alert-rule-generator
+npx skills add agentskillexchange/skills --skill prometheus-alert-rule-generator
 ```
 
 ### Claude Code
 ```bash
-claude install-skill prometheus-alert-rule-generator
+npx skills add agentskillexchange/skills --skill prometheus-alert-rule-generator -a claude-code
 ```
 
 ### Cursor
-Download from [Agent Skill Exchange](https://agentskillexchange.com/skill/prometheus-alert-rule-generator/) and add to your `.cursor/skills/` directory.
+```bash
+npx skills add agentskillexchange/skills --skill prometheus-alert-rule-generator -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -38,9 +39,8 @@ clawhub install prometheus-alert-rule-generator
 
 ### Codex
 ```bash
-codex install-skill prometheus-alert-rule-generator
+npx skills add agentskillexchange/skills --skill prometheus-alert-rule-generator -a codex
 ```
-
 ## Details
 
 | Field | Value |

@@ -3,36 +3,35 @@ name: "Whisper Subtitle Generator"
 description: "Generates accurate subtitles and captions using OpenAI Whisper API with word-level timestamps. Outputs SRT, VTT, and ASS formats with configurable line length and speaker diarization via pyannote."
 category: "Media & Transcription"
 framework: "Gemini"
-verification: "✅ Verified"
-security: "✅ Reviewed"
-rating: "4.5"
-reviews: "29"
+verification: security_reviewed
+rating: 4.5
+reviews: 29
 creator: "Sarah O'Brien"
 creator_handle: "@sarahcodes"
-creator_verified: "✅"
-source: "https://agentskillexchange.com/skill/whisper-subtitle-generator/"
+creator_verified: true
+source: "https://agentskillexchange.com/skills/whisper-subtitle-generator/"
+security: "✅ Reviewed"
 ---
-
 # Whisper Subtitle Generator
 
 Generates accurate subtitles and captions using OpenAI Whisper API with word-level timestamps. Outputs SRT, VTT, and ASS formats with configurable line length and speaker diarization via pyannote.
 
 ## Installation
 
-Install this skill in your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install whisper-subtitle-generator
+npx skills add agentskillexchange/skills --skill whisper-subtitle-generator
 ```
 
 ### Claude Code
 ```bash
-claude skills install whisper-subtitle-generator
+npx skills add agentskillexchange/skills --skill whisper-subtitle-generator -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills/` directory or install via Cursor settings.
+```bash
+npx skills add agentskillexchange/skills --skill whisper-subtitle-generator -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -41,9 +40,8 @@ clawhub install whisper-subtitle-generator
 
 ### Codex
 ```bash
-codex skills install whisper-subtitle-generator
+npx skills add agentskillexchange/skills --skill whisper-subtitle-generator -a codex
 ```
-
 ## Details
 
 | Field | Value |

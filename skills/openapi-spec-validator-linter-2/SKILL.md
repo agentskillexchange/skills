@@ -3,36 +3,33 @@ name: "OpenAPI Spec Validator & Linter"
 description: "Validates OpenAPI 3.0/3.1 specifications using the @readme/openapi-parser and Spectral linter with custom rulesets. Detects missing descriptions, inconsistent naming conventions, and security scheme gaps in your API definitions."
 category: "Library & API Reference"
 framework: "Custom Agents"
-verification: "security_reviewed"
-rating: "0"
-reviews: "0"
+verification: security_reviewed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/openapi-spec-validator-linter-2/"
+source: "https://agentskillexchange.com/skills/openapi-spec-validator-linter-2/"
 ---
-
 # OpenAPI Spec Validator & Linter
 
 Validates OpenAPI 3.0/3.1 specifications using the @readme/openapi-parser and Spectral linter with custom rulesets. Detects missing descriptions, inconsistent naming conventions, and security scheme gaps in your API definitions.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install openapi-spec-validator-linter-2
+npx skills add agentskillexchange/skills --skill openapi-spec-validator-linter-2
 ```
 
 ### Claude Code
 ```bash
-claude skills add openapi-spec-validator-linter-2
+npx skills add agentskillexchange/skills --skill openapi-spec-validator-linter-2 -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor skills install openapi-spec-validator-linter-2
+npx skills add agentskillexchange/skills --skill openapi-spec-validator-linter-2 -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install openapi-spec-validator-linter-2
 
 ### Codex
 ```bash
-codex skills add openapi-spec-validator-linter-2
+npx skills add agentskillexchange/skills --skill openapi-spec-validator-linter-2 -a codex
 ```
-
 ## Details
 
 | Field | Value |

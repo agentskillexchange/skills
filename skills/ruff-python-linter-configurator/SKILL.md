@@ -3,35 +3,34 @@ name: "Ruff Python Linter Configurator"
 description: "Generates optimized Ruff configuration from existing Flake8, isort, and Black setups. Migrates pyproject.toml rules with automatic conflict resolution."
 category: "Code Quality & Review"
 framework: "Custom Agents"
-verification: "✅ Verified"
-rating: "4.0"
-reviews: "82"
+verification: security_reviewed
+rating: 4.0
+reviews: 82
 creator: "David Nguyen"
 creator_handle: "@davidnguyen"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/ruff-python-linter-configurator/"
+source: "https://agentskillexchange.com/skills/ruff-python-linter-configurator/"
 ---
-
 # Ruff Python Linter Configurator
 
 Generates optimized Ruff configuration from existing Flake8, isort, and Black setups. Migrates pyproject.toml rules with automatic conflict resolution.
 
 ## Installation
 
-Install this skill across different AI coding agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install ruff-python-linter-configurator
+npx skills add agentskillexchange/skills --skill ruff-python-linter-configurator
 ```
 
 ### Claude Code
 ```bash
-claude skills install ruff-python-linter-configurator
+npx skills add agentskillexchange/skills --skill ruff-python-linter-configurator -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` directory or install via Cursor settings.
+```bash
+npx skills add agentskillexchange/skills --skill ruff-python-linter-configurator -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install ruff-python-linter-configurator
 
 ### Codex
 ```bash
-codex skills install ruff-python-linter-configurator
+npx skills add agentskillexchange/skills --skill ruff-python-linter-configurator -a codex
 ```
-
 ## Details
 
 | | |

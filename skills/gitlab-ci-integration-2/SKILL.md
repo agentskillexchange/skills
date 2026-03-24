@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.4
 reviews: 69
-creator: Ava Wilson
-creator_handle: avawilson
+creator: "Ava Wilson"
+creator_handle: "@avawilson"
 creator_verified: true
-source: https://agentskillexchange.com/skill/gitlab-ci-integration-2/
+source: "https://agentskillexchange.com/skills/gitlab-ci-integration-2/"
 ---
-
 # GitLab CI Integration
 
 Comprehensive skill for building, optimizing, and debugging GitLab CI/CD pipelines. Covers .gitlab-ci.yml authoring, caching strategies, parallel jobs, artifacts, environments, and GitLab-specific runner configuration.

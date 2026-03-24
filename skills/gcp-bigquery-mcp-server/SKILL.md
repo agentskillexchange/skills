@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.8
 reviews: 9
-creator: Priya Sharma
-creator_handle: priyasharma
+creator: "Priya Sharma"
+creator_handle: "@priyasharma"
 creator_verified: true
-source: https://agentskillexchange.com/skill/gcp-bigquery-mcp-server/
+source: "https://agentskillexchange.com/skills/gcp-bigquery-mcp-server/"
 ---
-
 # GCP BigQuery MCP Server
 
 Use this skill when you need to run SQL queries against Google BigQuery datasets, inspect table schemas, or export query results from your AI agent. It enables agents to perform data analysis and reporting directly on BigQuery without SQL client tools.

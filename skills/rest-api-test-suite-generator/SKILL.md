@@ -3,15 +3,14 @@ name: "REST API Test Suite Generator"
 description: "Generates comprehensive API test suites from OpenAPI specs using Postman Collection SDK and Newman CLI. Creates parameterized test scenarios with environment-specific variables, auth flows, and assertion chains."
 category: "Library & API Reference"
 framework: "Claude Agents"
-verification: "community"
-rating: "4.6"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
-creator_verified: 
-source: "https://agentskillexchange.com/skill/rest-api-test-suite-generator/"
+creator_verified: false
+source: "https://agentskillexchange.com/skills/rest-api-test-suite-generator/"
 ---
-
 # REST API Test Suite Generator
 
 Generates comprehensive API test suites from OpenAPI specs using Postman Collection SDK and Newman CLI. Creates parameterized test scenarios with environment-specific variables, auth flows, and assertion chains.
@@ -20,20 +19,17 @@ Generates comprehensive API test suites from OpenAPI specs using Postman Collect
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install rest-api-test-suite-generator
+npx skills add agentskillexchange/skills --skill rest-api-test-suite-generator
 ```
 
 ### Claude Code
 ```bash
-claude skills add rest-api-test-suite-generator
+npx skills add agentskillexchange/skills --skill rest-api-test-suite-generator -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` configuration:
-```json
-{
-  "skills": ["rest-api-test-suite-generator"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill rest-api-test-suite-generator -a cursor
 ```
 
 ### OpenClaw
@@ -43,9 +39,8 @@ clawhub install rest-api-test-suite-generator
 
 ### Codex
 ```bash
-codex skills add rest-api-test-suite-generator
+npx skills add agentskillexchange/skills --skill rest-api-test-suite-generator -a codex
 ```
-
 ## Details
 
 | Field | Value |

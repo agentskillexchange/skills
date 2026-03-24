@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.8
 reviews: 43
-creator: David Kim
-creator_handle: dkim
+creator: "David Kim"
+creator_handle: "@dkim"
 creator_verified: false
-source: https://agentskillexchange.com/skill/linear-mcp-server/
+source: "https://agentskillexchange.com/skills/linear-mcp-server/"
 ---
-
 # Linear MCP Server
 
 Use this skill when you need to create, update, or query Linear issues, projects, and cycles from your AI agent. It lets agents participate in engineering project management workflows — filing bugs, updating issue status, and tracking sprint progress without leaving the AI interface.

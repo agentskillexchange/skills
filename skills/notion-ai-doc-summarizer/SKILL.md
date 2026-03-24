@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.6
 reviews: 19
-creator: Chris Lee
-creator_handle: chrislee
+creator: "Chris Lee"
+creator_handle: "@chrislee"
 creator_verified: false
-source: https://agentskillexchange.com/skill/notion-ai-doc-summarizer/
+source: "https://agentskillexchange.com/skills/notion-ai-doc-summarizer/"
 ---
-
 # Notion AI Document Summarizer & Action Item Extractor
 
 Uses the Notion SDK and Notion AI’s /v1/pages and /v1/blocks/children endpoints to retrieve page content and invoke AI-powered summarization. Extracted action items are appended as a structured database entry via databases.query and pages.create.

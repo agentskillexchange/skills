@@ -3,39 +3,33 @@ name: "GitHub Actions Matrix Optimizer"
 description: "Analyzes GitHub Actions workflow YAML files and optimizes matrix strategy configurations using the actions/setup-node and actions/cache APIs. Reduces CI build times by intelligently splitting test suites across parallel runners with dynamic matrix generation."
 category: "CI/CD Integrations"
 framework: "Claude Code"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.8
 reviews: 74
 creator: "Leo Park"
 creator_handle: "@leopark_ai"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/github-actions-matrix-optimizer-7/"
+source: "https://agentskillexchange.com/skills/github-actions-matrix-optimizer-7/"
 ---
-
 # GitHub Actions Matrix Optimizer
 
 Analyzes GitHub Actions workflow YAML files and optimizes matrix strategy configurations using the actions/setup-node and actions/cache APIs. Reduces CI build times by intelligently splitting test suites across parallel runners with dynamic matrix generation.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install github-actions-matrix-optimizer-7
+npx skills add agentskillexchange/skills --skill github-actions-matrix-optimizer-7
 ```
 
 ### Claude Code
 ```bash
-claude skills add github-actions-matrix-optimizer-7
+npx skills add agentskillexchange/skills --skill github-actions-matrix-optimizer-7 -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["github-actions-matrix-optimizer-7"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill github-actions-matrix-optimizer-7 -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install github-actions-matrix-optimizer-7
 
 ### Codex
 ```bash
-codex skills add github-actions-matrix-optimizer-7
+npx skills add agentskillexchange/skills --skill github-actions-matrix-optimizer-7 -a codex
 ```
-
 ## Details
 
 | Field | Value |

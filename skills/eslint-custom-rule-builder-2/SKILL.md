@@ -3,39 +3,33 @@ name: "ESLint Custom Rule Builder"
 description: "Creates and tests custom ESLint rules using the AST Explorer API and @typescript-eslint/utils. Generates rule documentation, fixers, and suggestion providers with automated test scaffolding via RuleTester."
 category: "Code Quality & Review"
 framework: "Claude Code"
-verification: "✅ Verified"
-rating: "⭐ 4.7"
-reviews: "32"
+verification: security_reviewed
+rating: 0
+reviews: 32
 creator: "Ben Taylor"
 creator_handle: "@bentaylor"
 creator_verified: false
-source: "https://agentskillexchange.com/skill/eslint-custom-rule-builder-2/"
+source: "https://agentskillexchange.com/skills/eslint-custom-rule-builder-2/"
 ---
-
 # ESLint Custom Rule Builder
 
 Creates and tests custom ESLint rules using the AST Explorer API and @typescript-eslint/utils. Generates rule documentation, fixers, and suggestion providers with automated test scaffolding via RuleTester.
 
 ## Installation
 
-Install this skill across different agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install eslint-custom-rule-builder-2
+npx skills add agentskillexchange/skills --skill eslint-custom-rule-builder-2
 ```
 
 ### Claude Code
 ```bash
-claude skills add eslint-custom-rule-builder-2
+npx skills add agentskillexchange/skills --skill eslint-custom-rule-builder-2 -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["eslint-custom-rule-builder-2"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill eslint-custom-rule-builder-2 -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install eslint-custom-rule-builder-2
 
 ### Codex
 ```bash
-codex skills add eslint-custom-rule-builder-2
+npx skills add agentskillexchange/skills --skill eslint-custom-rule-builder-2 -a codex
 ```
-
 ## Details
 
 | Property | Value |

@@ -3,15 +3,14 @@ name: "ESLint Auto-Fix Orchestrator"
 description: "Runs ESLint with auto-fix capabilities using the ESLint Node.js API and flat config system. Supports custom rule sets, TypeScript via typescript-eslint, and Prettier integration."
 category: "Code Quality & Review"
 framework: "Claude Code"
-verification: 
+verification: listed
 rating: 4.8
 reviews: 72
-creator: James Whitfield
-creator_handle: jwhitfield
+creator: "James Whitfield"
+creator_handle: "@jwhitfield"
 creator_verified: true
-source: https://agentskillexchange.com/skill/eslint-autofix-orchestrator/
+source: "https://agentskillexchange.com/skills/eslint-autofix-orchestrator/"
 ---
-
 # ESLint Auto-Fix Orchestrator
 
 Runs ESLint with auto-fix capabilities using the ESLint Node.js API and flat config system. Supports custom rule sets, TypeScript via typescript-eslint, and Prettier integration.

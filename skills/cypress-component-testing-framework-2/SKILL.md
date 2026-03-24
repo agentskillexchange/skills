@@ -3,39 +3,33 @@ name: "Cypress Component Testing Framework"
 description: "Scaffolds Cypress component tests for React, Vue, and Angular apps using the Cypress CT mount API. Configures webpack/vite dev servers and generates snapshot-based visual assertions."
 category: "Browser Automation"
 framework: "MCP-compatible"
-verification: "✅ Verified"
-rating: "4.4"
-reviews: "43"
+verification: security_reviewed
+rating: 4.4
+reviews: 43
 creator: "Aisha Patel"
 creator_handle: "@aishapatel"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/cypress-component-testing-framework-2/"
+source: "https://agentskillexchange.com/skills/cypress-component-testing-framework-2/"
 ---
-
 # Cypress Component Testing Framework
 
 Scaffolds Cypress component tests for React, Vue, and Angular apps using the Cypress CT mount API. Configures webpack/vite dev servers and generates snapshot-based visual assertions.
 
 ## Installation
 
-Install this skill across different AI agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install cypress-component-testing-framework-2
+npx skills add agentskillexchange/skills --skill cypress-component-testing-framework-2
 ```
 
 ### Claude Code
 ```bash
-claude mcp add cypress-component-testing-framework-2
+npx skills add agentskillexchange/skills --skill cypress-component-testing-framework-2 -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["cypress-component-testing-framework-2"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill cypress-component-testing-framework-2 -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install cypress-component-testing-framework-2
 
 ### Codex
 ```bash
-codex install cypress-component-testing-framework-2
+npx skills add agentskillexchange/skills --skill cypress-component-testing-framework-2 -a codex
 ```
-
 ## Details
 
 | Field | Value |

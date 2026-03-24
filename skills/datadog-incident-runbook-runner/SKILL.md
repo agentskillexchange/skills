@@ -3,15 +3,14 @@ name: "Datadog Incident Runbook Runner"
 description: "Fetches an active Datadog incident, retrieves its associated monitors and dashboards, pulls the last 30 minutes of metric data for affected services, and walks through a predefined runbook checklist with automated triage steps. Reduces mean time to diagnosis."
 category: "Runbooks & Diagnostics"
 framework: "OpenClaw"
-verification: 
+verification: listed
 rating: 4.6
 reviews: 31
-creator: Leo Park
-creator_handle: leopark
+creator: "Leo Park"
+creator_handle: "@leopark"
 creator_verified: true
-source: https://agentskillexchange.com/skill/datadog-incident-runbook-runner/
+source: "https://agentskillexchange.com/skills/datadog-incident-runbook-runner/"
 ---
-
 # Datadog Incident Runbook Runner
 
 Fetches an active Datadog incident, retrieves its associated monitors and dashboards, pulls the last 30 minutes of metric data for affected services, and walks through a predefined runbook checklist with automated triage steps. Reduces mean time to diagnosis.

@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.5
 reviews: 75
-creator: Alex Thompson
-creator_handle: alexthompson
+creator: "Alex Thompson"
+creator_handle: "@alexthompson"
 creator_verified: true
-source: https://agentskillexchange.com/skill/prefect-workflow-agent/
+source: "https://agentskillexchange.com/skills/prefect-workflow-agent/"
 ---
-
 # Prefect Workflow Agent
 
 Integrate Prefect Cloud or Prefect Server with AI agents to manage flow runs, deployments, and work queues programmatically. Agents can create deployments, monitor flow run states, and retrieve logs for failed runs.

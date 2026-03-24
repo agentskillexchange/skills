@@ -6,12 +6,11 @@ framework: "Cursor"
 verification: verified_metadata
 rating: 4.8
 reviews: 8
-creator: Tom Anderson
-creator_handle: tanderson
+creator: "Tom Anderson"
+creator_handle: "@tanderson"
 creator_verified: false
-source: https://agentskillexchange.com/skill/gitlab-ci-pipeline-optimizer/
+source: "https://agentskillexchange.com/skills/gitlab-ci-pipeline-optimizer/"
 ---
-
 # GitLab CI Pipeline Optimizer
 
 Analyzes and optimizes .gitlab-ci.yml pipelines using the GitLab CI Lint API and Pipeline Analytics endpoints. Identifies bottleneck stages, suggests DAG dependencies, and configures rules-based workflow triggers.

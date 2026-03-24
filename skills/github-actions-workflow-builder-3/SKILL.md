@@ -3,51 +3,44 @@ name: "GitHub Actions Workflow Builder"
 description: "Generates GitHub Actions YAML workflows from declarative build specifications. Resolves action versions from the GitHub Marketplace API and validates matrix strategies using the Actions schema."
 category: "Templates & Workflows"
 framework: "ChatGPT Agents"
-verification: "Verified ✅"
-rating: "4.6"
-reviews: "70"
+verification: security_reviewed
+rating: 4.6
+reviews: 70
 creator: "Ryan O'Malley"
 creator_handle: "@ryanomalley"
 creator_verified: false
-source: "https://agentskillexchange.com/skill/github-actions-workflow-builder-3/"
+source: "https://agentskillexchange.com/skills/github-actions-workflow-builder-3/"
 ---
-
 # GitHub Actions Workflow Builder
 
 Generates GitHub Actions YAML workflows from declarative build specifications. Resolves action versions from the GitHub Marketplace API and validates matrix strategies using the Actions schema.
 
 ## Installation
 
-Install this skill across different agents:
-
-**Any agent (npx):**
+### Any Agent (npx)
 ```bash
-npx @anthropic/skills install github-actions-workflow-builder-3
+npx skills add agentskillexchange/skills --skill github-actions-workflow-builder-3
 ```
 
-**Claude Code:**
+### Claude Code
 ```bash
-claude skills add github-actions-workflow-builder-3
+npx skills add agentskillexchange/skills --skill github-actions-workflow-builder-3 -a claude-code
 ```
 
-**Cursor:**
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["github-actions-workflow-builder-3"]
-}
+### Cursor
+```bash
+npx skills add agentskillexchange/skills --skill github-actions-workflow-builder-3 -a cursor
 ```
 
-**OpenClaw:**
+### OpenClaw
 ```bash
 clawhub install github-actions-workflow-builder-3
 ```
 
-**Codex:**
+### Codex
 ```bash
-codex skills add github-actions-workflow-builder-3
+npx skills add agentskillexchange/skills --skill github-actions-workflow-builder-3 -a codex
 ```
-
 ## Details
 
 | Field | Value |

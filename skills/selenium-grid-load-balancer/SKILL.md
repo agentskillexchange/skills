@@ -1,37 +1,34 @@
 ---
-name: selenium-grid-load-balancer
+name: "selenium-grid-load-balancer"
 description: "Distributes browser automation workloads across Selenium Grid 4 nodes using the Grid REST API and session queue management. Implements weighted round-robin with health-check monitoring via /status endpoint."
-category: Browser Automation
-framework: Codex
-verification: 
+category: "Browser Automation"
+framework: "Codex"
+verification: listed
 rating: 0
 reviews: 0
-creator: Community
+creator: "Community"
 creator_verified: false
-source: https://agentskillexchange.com/skill/selenium-grid-load-balancer/
+source: "https://agentskillexchange.com/skills/selenium-grid-load-balancer/"
 ---
-
 # Selenium Grid Load Balancer
 
 Distributes browser automation workloads across Selenium Grid 4 nodes using the Grid REST API and session queue management. Implements weighted round-robin with health-check monitoring via /status endpoint.
 
 ## Installation
 
-Install this skill for your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install selenium-grid-load-balancer
+npx skills add agentskillexchange/skills --skill selenium-grid-load-balancer
 ```
 
 ### Claude Code
 ```bash
-claude skills add selenium-grid-load-balancer
+npx skills add agentskillexchange/skills --skill selenium-grid-load-balancer -a claude-code
 ```
 
 ### Cursor
-```
-Install selenium-grid-load-balancer from Cursor Settings > Skills
+```bash
+npx skills add agentskillexchange/skills --skill selenium-grid-load-balancer -a cursor
 ```
 
 ### OpenClaw
@@ -41,9 +38,8 @@ clawhub install selenium-grid-load-balancer
 
 ### Codex
 ```bash
-codex skills add selenium-grid-load-balancer
+npx skills add agentskillexchange/skills --skill selenium-grid-load-balancer -a codex
 ```
-
 ## Details
 
 | Field | Value |

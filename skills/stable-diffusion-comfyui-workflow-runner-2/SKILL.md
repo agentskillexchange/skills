@@ -3,15 +3,14 @@ name: "Stable Diffusion ComfyUI Workflow Runner"
 description: "Executes ComfyUI workflow JSON files against a local or remote ComfyUI server via its REST API. Supports LoRA loading, ControlNet conditioning, and queue management with progress polling."
 category: "Image & Creative Automation"
 framework: "MCP-compatible"
-verification: ""
+verification: listed
 rating: 0
 reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/stable-diffusion-comfyui-workflow-runner-2/"
+source: "https://agentskillexchange.com/skills/stable-diffusion-comfyui-workflow-runner-2/"
 ---
-
 # Stable Diffusion ComfyUI Workflow Runner
 
 Executes ComfyUI workflow JSON files against a local or remote ComfyUI server via its REST API. Supports LoRA loading, ControlNet conditioning, and queue management with progress polling.
@@ -20,17 +19,17 @@ Executes ComfyUI workflow JSON files against a local or remote ComfyUI server vi
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agentskill install stable-diffusion-comfyui-workflow-runner-2
+npx skills add agentskillexchange/skills --skill stable-diffusion-comfyui-workflow-runner-2
 ```
 
 ### Claude Code
 ```bash
-claude skill add stable-diffusion-comfyui-workflow-runner-2
+npx skills add agentskillexchange/skills --skill stable-diffusion-comfyui-workflow-runner-2 -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor skill install stable-diffusion-comfyui-workflow-runner-2
+npx skills add agentskillexchange/skills --skill stable-diffusion-comfyui-workflow-runner-2 -a cursor
 ```
 
 ### OpenClaw
@@ -40,9 +39,8 @@ clawhub install stable-diffusion-comfyui-workflow-runner-2
 
 ### Codex
 ```bash
-codex skill add stable-diffusion-comfyui-workflow-runner-2
+npx skills add agentskillexchange/skills --skill stable-diffusion-comfyui-workflow-runner-2 -a codex
 ```
-
 ## Details
 
 | Field | Value |

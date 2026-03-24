@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.1
 reviews: 17
-creator: Yuki Tanaka
-creator_handle: yukitanaka
+creator: "Yuki Tanaka"
+creator_handle: "@yukitanaka"
 creator_verified: true
-source: https://agentskillexchange.com/skill/dead-code-detector-2/
+source: "https://agentskillexchange.com/skills/dead-code-detector-2/"
 ---
-
 # Dead Code Detector
 
 Identifies unused code, unreachable functions, dead exports, and zombie feature flags across JavaScript, TypeScript, and Python projects. Generates a prioritized removal plan with impact assessment.

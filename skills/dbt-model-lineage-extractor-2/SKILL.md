@@ -3,35 +3,34 @@ name: "dbt Model Lineage Extractor"
 description: "Extracts and visualizes dbt model dependency lineage using the dbt Core manifest.json artifact API. Parses ref() and source() calls to build DAG representations via the dbt Cloud API v2."
 category: "Data Extraction & Transformation"
 framework: "Claude Code"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.5
 reviews: 59
 creator: "Carlos Mendez"
 creator_handle: "@carlosmendez"
-creator_verified: yes
-source: "https://agentskillexchange.com/skill/dbt-model-lineage-extractor-2/"
+creator_verified: true
+source: "https://agentskillexchange.com/skills/dbt-model-lineage-extractor-2/"
 ---
-
 # dbt Model Lineage Extractor
 
 Extracts and visualizes dbt model dependency lineage using the dbt Core manifest.json artifact API. Parses ref() and source() calls to build DAG representations via the dbt Cloud API v2.
 
 ## Installation
 
-Install this skill across different agents:
-
 ### Any Agent (npx)
 ```bash
-npx agentskills install dbt-model-lineage-extractor-2
+npx skills add agentskillexchange/skills --skill dbt-model-lineage-extractor-2
 ```
 
 ### Claude Code
 ```bash
-claude mcp add dbt-model-lineage-extractor-2
+npx skills add agentskillexchange/skills --skill dbt-model-lineage-extractor-2 -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills/` directory or install via Cursor settings.
+```bash
+npx skills add agentskillexchange/skills --skill dbt-model-lineage-extractor-2 -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install dbt-model-lineage-extractor-2
 
 ### Codex
 ```bash
-codex install dbt-model-lineage-extractor-2
+npx skills add agentskillexchange/skills --skill dbt-model-lineage-extractor-2 -a codex
 ```
-
 ## Details
 
 | Property | Value |

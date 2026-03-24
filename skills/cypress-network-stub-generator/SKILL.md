@@ -3,51 +3,44 @@ name: "Cypress Network Stub Generator"
 description: "Generates cy.intercept() stubs from recorded HAR files for deterministic E2E tests. Uses cy.session() for authentication caching and cy.origin() for cross-origin testing workflows."
 category: "Browser Automation"
 framework: "Codex"
-verification: "verified"
+verification: verified_metadata
 rating: 4.5
 reviews: 79
 creator: "Zoe Chen"
 creator_handle: "@zoechen"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/cypress-network-stub-generator/"
+source: "https://agentskillexchange.com/skills/cypress-network-stub-generator/"
 ---
-
 # Cypress Network Stub Generator
 
 Generates cy.intercept() stubs from recorded HAR files for deterministic E2E tests. Uses cy.session() for authentication caching and cy.origin() for cross-origin testing workflows.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
-**Any agent (npx):**
+### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install cypress-network-stub-generator
+npx skills add agentskillexchange/skills --skill cypress-network-stub-generator
 ```
 
-**Claude Code:**
+### Claude Code
 ```bash
-claude skills install cypress-network-stub-generator
+npx skills add agentskillexchange/skills --skill cypress-network-stub-generator -a claude-code
 ```
 
-**Cursor:**
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["cypress-network-stub-generator"]
-}
+### Cursor
+```bash
+npx skills add agentskillexchange/skills --skill cypress-network-stub-generator -a cursor
 ```
 
-**OpenClaw:**
+### OpenClaw
 ```bash
 clawhub install cypress-network-stub-generator
 ```
 
-**Codex:**
+### Codex
 ```bash
-codex skills install cypress-network-stub-generator
+npx skills add agentskillexchange/skills --skill cypress-network-stub-generator -a codex
 ```
-
 ## Details
 
 | Field | Value |

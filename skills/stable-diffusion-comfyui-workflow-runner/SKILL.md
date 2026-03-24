@@ -3,15 +3,14 @@ name: "Stable Diffusion ComfyUI Workflow Runner"
 description: "Submits generation workflows to a local or remote ComfyUI instance via its REST API (/api/prompt, /api/queue), monitors job status via WebSocket, and retrieves completed images. Supports chained nodes for ControlNet conditioning, upscaling, and LoRA injection."
 category: "Image & Creative Automation"
 framework: "Custom Agents"
-verification: 
+verification: listed
 rating: 4.3
 reviews: 71
-creator: Chris Lee
-creator_handle: chrislee
+creator: "Chris Lee"
+creator_handle: "@chrislee"
 creator_verified: false
-source: https://agentskillexchange.com/skill/stable-diffusion-comfyui-workflow-runner/
+source: "https://agentskillexchange.com/skills/stable-diffusion-comfyui-workflow-runner/"
 ---
-
 # Stable Diffusion ComfyUI Workflow Runner
 
 Submits generation workflows to a local or remote ComfyUI instance via its REST API (/api/prompt, /api/queue), monitors job status via WebSocket, and retrieves completed images. Supports chained nodes for ControlNet conditioning, upscaling, and LoRA injection.

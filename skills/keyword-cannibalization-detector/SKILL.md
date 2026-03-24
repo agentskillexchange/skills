@@ -3,44 +3,33 @@ name: "Keyword Cannibalization Detector"
 description: "Detects keyword cannibalization across your site by analyzing page rankings, content overlap, and SERP competition to recommend consolidation and optimization strategies."
 category: "Content Writing & SEO"
 framework: "Claude Code"
-verification: "✅ Verified"
+verification: security_reviewed
 rating: 4.1
 reviews: 80
 creator: "Ava Johnson"
 creator_handle: "@avajohnson"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/keyword-cannibalization-detector/"
+source: "https://agentskillexchange.com/skills/keyword-cannibalization-detector/"
 ---
-
 # Keyword Cannibalization Detector
 
 Detects keyword cannibalization across your site by analyzing page rankings, content overlap, and SERP competition to recommend consolidation and optimization strategies.
 
 ## Installation
 
-Install this skill on your preferred agent platform:
-
 ### Any Agent (npx)
 ```bash
-npx skills install keyword-cannibalization-detector
+npx skills add agentskillexchange/skills --skill keyword-cannibalization-detector
 ```
 
 ### Claude Code
 ```bash
-claude mcp add keyword-cannibalization-detector
+npx skills add agentskillexchange/skills --skill keyword-cannibalization-detector -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/mcp.json`:
-```json
-{
-  "mcpServers": {
-    "keyword-cannibalization-detector": {
-      "command": "npx",
-      "args": ["-y", "skills", "run", "keyword-cannibalization-detector"]
-    }
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill keyword-cannibalization-detector -a cursor
 ```
 
 ### OpenClaw
@@ -50,9 +39,8 @@ clawhub install keyword-cannibalization-detector
 
 ### Codex
 ```bash
-codex install keyword-cannibalization-detector
+npx skills add agentskillexchange/skills --skill keyword-cannibalization-detector -a codex
 ```
-
 ## Details
 
 | Property | Value |

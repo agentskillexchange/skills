@@ -3,35 +3,34 @@ name: "Bazel Build Graph Analyzer"
 description: "Analyzes Bazel build dependency graphs to identify bottlenecks and optimize build times. Uses the Bazel Query Language (BQL), Action Graph API, and Build Event Protocol (BEP) for deep build analysis."
 category: "Developer Tools"
 framework: "MCP-compatible"
-verification: "Community"
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/bazel-build-graph-analyzer/"
+source: "https://agentskillexchange.com/skills/bazel-build-graph-analyzer/"
 ---
-
 # Bazel Build Graph Analyzer
 
 Analyzes Bazel build dependency graphs to identify bottlenecks and optimize build times. Uses the Bazel Query Language (BQL), Action Graph API, and Build Event Protocol (BEP) for deep build analysis.
 
 ## Installation
 
-Install this skill across different agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install bazel-build-graph-analyzer
+npx skills add agentskillexchange/skills --skill bazel-build-graph-analyzer
 ```
 
 ### Claude Code
 ```bash
-claude skills add bazel-build-graph-analyzer
+npx skills add agentskillexchange/skills --skill bazel-build-graph-analyzer -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` directory or install via Cursor settings.
+```bash
+npx skills add agentskillexchange/skills --skill bazel-build-graph-analyzer -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install bazel-build-graph-analyzer
 
 ### Codex
 ```bash
-codex skills add bazel-build-graph-analyzer
+npx skills add agentskillexchange/skills --skill bazel-build-graph-analyzer -a codex
 ```
-
 ## Details
 
 | Field | Value |

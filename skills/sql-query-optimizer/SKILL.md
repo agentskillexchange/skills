@@ -6,12 +6,11 @@ framework: "Claude Agents"
 verification: security_reviewed
 rating: 4.8
 reviews: 55
-creator: Nathan Brooks
-creator_handle: nbrooks
+creator: "Nathan Brooks"
+creator_handle: "@nbrooks"
 creator_verified: false
-source: https://agentskillexchange.com/skill/sql-query-optimizer/
+source: "https://agentskillexchange.com/skills/sql-query-optimizer/"
 ---
-
 # SQL Query Optimizer
 
 Use this skill when you need to analyze and optimize slow SQL queries by reviewing query plans, index usage, and table statistics. It takes a SQL query and EXPLAIN output, identifies inefficiencies like full table scans and missing indexes, and suggests optimized query rewrites.

@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.4
 reviews: 56
-creator: Sarah Chen
-creator_handle: sarahchen
+creator: "Sarah Chen"
+creator_handle: "@sarahchen"
 creator_verified: true
-source: https://agentskillexchange.com/skill/storybook-component-tester/
+source: "https://agentskillexchange.com/skills/storybook-component-tester/"
 ---
-
 # Storybook Component Tester
 
 Generate Storybook stories, interaction tests, and accessibility checks for UI components through an AI agent. Automates story creation from component prop types, configures Storybook Test Runner for CI, and integrates with Chromatic for visual regression testing.

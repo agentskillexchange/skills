@@ -3,36 +3,33 @@ name: "Google Calendar Sync & Conflict Resolver"
 description: "Bidirectional calendar synchronization using Google Calendar API v3 with OAuth 2.0. Detects scheduling conflicts across multiple calendars, suggests optimal meeting times using FreeBusy API queries."
 category: "Calendar, Email & Productivity"
 framework: "OpenClaw"
-verification: "Verified ✅"
+verification: security_reviewed
 rating: 4.6
 reviews: 46
 creator: "Carlos Mendez"
 creator_handle: "@carlosmendez"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/google-calendar-sync-conflict-resolver/"
+source: "https://agentskillexchange.com/skills/google-calendar-sync-conflict-resolver/"
 ---
-
 # Google Calendar Sync & Conflict Resolver
 
 Bidirectional calendar synchronization using Google Calendar API v3 with OAuth 2.0. Detects scheduling conflicts across multiple calendars, suggests optimal meeting times using FreeBusy API queries.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install google-calendar-sync-conflict-resolver
+npx skills add agentskillexchange/skills --skill google-calendar-sync-conflict-resolver
 ```
 
 ### Claude Code
 ```bash
-claude skills add google-calendar-sync-conflict-resolver
+npx skills add agentskillexchange/skills --skill google-calendar-sync-conflict-resolver -a claude-code
 ```
 
 ### Cursor
-```
-Install from Cursor Settings → Skills → Search "Google Calendar Sync & Conflict Resolver"
+```bash
+npx skills add agentskillexchange/skills --skill google-calendar-sync-conflict-resolver -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install google-calendar-sync-conflict-resolver
 
 ### Codex
 ```bash
-codex skills install google-calendar-sync-conflict-resolver
+npx skills add agentskillexchange/skills --skill google-calendar-sync-conflict-resolver -a codex
 ```
-
 ## Details
 
 | Field | Value |

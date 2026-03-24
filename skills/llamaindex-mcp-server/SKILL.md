@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.6
 reviews: 25
-creator: Omar Hassan
-creator_handle: ohassan
+creator: "Omar Hassan"
+creator_handle: "@ohassan"
 creator_verified: true
-source: https://agentskillexchange.com/skill/llamaindex-mcp-server/
+source: "https://agentskillexchange.com/skills/llamaindex-mcp-server/"
 ---
-
 # LlamaIndex MCP Server
 
 Use this skill to index documents, build RAG (Retrieval-Augmented Generation) pipelines, and run semantic queries over large document corpora through MCP. It provides agents with powerful document understanding and retrieval capabilities. Trigger when you need to search over private documents, build knowledge bases, or answer questions from specific document sets.

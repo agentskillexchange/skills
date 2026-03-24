@@ -3,49 +3,44 @@ name: "Nginx Error Log Pattern Analyzer"
 description: "Parses Nginx error logs using configurable regex patterns and the GoAccess real-time log analyzer API. Clusters recurring 502/504 errors and correlates with upstream health check failures."
 category: "Runbooks & Diagnostics"
 framework: "Gemini"
-verification: "Security Reviewed ✓"
-rating: "4.3"
-reviews: "78"
+verification: security_reviewed
+rating: 4.3
+reviews: 78
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/nginx-error-log-pattern-analyzer/"
+source: "https://agentskillexchange.com/skills/nginx-error-log-pattern-analyzer/"
 ---
-
 # Nginx Error Log Pattern Analyzer
 
 Parses Nginx error logs using configurable regex patterns and the GoAccess real-time log analyzer API. Clusters recurring 502/504 errors and correlates with upstream health check failures.
 
 ## Installation
 
-**Any Agent (npx):**
+### Any Agent (npx)
 ```bash
-npx @anthropic/skills install nginx-error-log-pattern-analyzer
+npx skills add agentskillexchange/skills --skill nginx-error-log-pattern-analyzer
 ```
 
-**Claude Code:**
+### Claude Code
 ```bash
-claude mcp add nginx-error-log-pattern-analyzer
+npx skills add agentskillexchange/skills --skill nginx-error-log-pattern-analyzer -a claude-code
 ```
 
-**Cursor:**
-Add to `.cursor/skills.json`:
-```json
-{
-  "nginx-error-log-pattern-analyzer": "latest"
-}
+### Cursor
+```bash
+npx skills add agentskillexchange/skills --skill nginx-error-log-pattern-analyzer -a cursor
 ```
 
-**OpenClaw:**
+### OpenClaw
 ```bash
 clawhub install nginx-error-log-pattern-analyzer
 ```
 
-**Codex:**
+### Codex
 ```bash
-codex install nginx-error-log-pattern-analyzer
+npx skills add agentskillexchange/skills --skill nginx-error-log-pattern-analyzer -a codex
 ```
-
 ## Details
 
 | Field | Value |

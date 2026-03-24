@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.6
 reviews: 11
-creator: Nathan Brooks
-creator_handle: nbrooks
+creator: "Nathan Brooks"
+creator_handle: "@nbrooks"
 creator_verified: false
-source: https://agentskillexchange.com/skill/falco-runtime-security/
+source: "https://agentskillexchange.com/skills/falco-runtime-security/"
 ---
-
 # Falco Runtime Security
 
 Deploys and manages Falco rules for kernel-level runtime security monitoring in Kubernetes. Detects anomalous behavior, privilege escalations, unexpected network connections, and file system access violations.

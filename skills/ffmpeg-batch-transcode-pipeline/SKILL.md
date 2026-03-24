@@ -3,15 +3,14 @@ name: "FFmpeg Batch Transcode Pipeline"
 description: "Orchestrates parallel FFmpeg transcoding jobs with hardware-accelerated encoding via NVENC, VAAPI, or VideoToolbox. Supports HLS adaptive bitrate packaging using ffmpeg -f hls with multiple -map streams and fmp4 segment formatting for DASH output."
 category: "Media & Transcription"
 framework: "Custom Agents"
-verification: "✅ Verified"
-rating: "4.4"
-reviews: "14"
+verification: security_reviewed
+rating: 4.4
+reviews: 14
 creator: "Mateo Silva"
 creator_handle: "@mateosilva"
-creator_verified: "true"
-source: "https://agentskillexchange.com/skill/ffmpeg-batch-transcode-pipeline/"
+creator_verified: true
+source: "https://agentskillexchange.com/skills/ffmpeg-batch-transcode-pipeline/"
 ---
-
 # FFmpeg Batch Transcode Pipeline
 
 Orchestrates parallel FFmpeg transcoding jobs with hardware-accelerated encoding via NVENC, VAAPI, or VideoToolbox. Supports HLS adaptive bitrate packaging using ffmpeg -f hls with multiple -map streams and fmp4 segment formatting for DASH output.
@@ -20,20 +19,17 @@ Orchestrates parallel FFmpeg transcoding jobs with hardware-accelerated encoding
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install ffmpeg-batch-transcode-pipeline
+npx skills add agentskillexchange/skills --skill ffmpeg-batch-transcode-pipeline
 ```
 
 ### Claude Code
 ```bash
-claude mcp add ffmpeg-batch-transcode-pipeline
+npx skills add agentskillexchange/skills --skill ffmpeg-batch-transcode-pipeline -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "skills": ["ffmpeg-batch-transcode-pipeline"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill ffmpeg-batch-transcode-pipeline -a cursor
 ```
 
 ### OpenClaw
@@ -43,9 +39,8 @@ clawhub install ffmpeg-batch-transcode-pipeline
 
 ### Codex
 ```bash
-codex install ffmpeg-batch-transcode-pipeline
+npx skills add agentskillexchange/skills --skill ffmpeg-batch-transcode-pipeline -a codex
 ```
-
 ## Details
 
 | Field | Value |

@@ -3,37 +3,34 @@ name: "Helm Chart Templater"
 description: "Generates and validates Kubernetes Helm charts using helm template and helm lint APIs. Supports values schema generation via json-schema-generator and chart dependency resolution with helm dependency update."
 category: "Templates & Workflows"
 framework: "Gemini"
-verification: "✅ Verified"
-security: "✅ Reviewed"
-rating: "4.6"
-reviews: "38"
+verification: security_reviewed
+rating: 4.6
+reviews: 38
 creator: "Meera Joshi"
 creator_handle: "@meerajoshi"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/helm-chart-templater/"
+source: "https://agentskillexchange.com/skills/helm-chart-templater/"
+security: "✅ Reviewed"
 ---
-
 # Helm Chart Templater
 
 Generates and validates Kubernetes Helm charts using helm template and helm lint APIs. Supports values schema generation via json-schema-generator and chart dependency resolution with helm dependency update.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install helm-chart-templater
+npx skills add agentskillexchange/skills --skill helm-chart-templater
 ```
 
 ### Claude Code
 ```bash
-claude skills add helm-chart-templater
+npx skills add agentskillexchange/skills --skill helm-chart-templater -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor skills install helm-chart-templater
+npx skills add agentskillexchange/skills --skill helm-chart-templater -a cursor
 ```
 
 ### OpenClaw
@@ -43,9 +40,8 @@ clawhub install helm-chart-templater
 
 ### Codex
 ```bash
-codex skills add helm-chart-templater
+npx skills add agentskillexchange/skills --skill helm-chart-templater -a codex
 ```
-
 ## Details
 
 | Field | Value |

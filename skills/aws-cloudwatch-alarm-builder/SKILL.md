@@ -6,12 +6,11 @@ framework: "ChatGPT Agents"
 verification: verified_metadata
 rating: 4.5
 reviews: 79
-creator: David Kim
-creator_handle: dkim
+creator: "David Kim"
+creator_handle: "@dkim"
 creator_verified: false
-source: https://agentskillexchange.com/skill/aws-cloudwatch-alarm-builder/
+source: "https://agentskillexchange.com/skills/aws-cloudwatch-alarm-builder/"
 ---
-
 # AWS CloudWatch Alarm Builder
 
 Creates and manages CloudWatch alarms using the AWS SDK for JavaScript v3 (@aws-sdk/client-cloudwatch). Configures metric math expressions, composite alarms, and SNS notification routing via @aws-sdk/client-sns.

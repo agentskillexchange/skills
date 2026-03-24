@@ -3,15 +3,14 @@ name: "IMAP Email Classifier"
 description: "Classifies and organizes emails from IMAP servers using imaplib and scikit-learn text classification. Supports custom label rules with SpaCy NER for entity extraction."
 category: "Calendar, Email & Productivity"
 framework: "ChatGPT Agents"
-verification: "community"
+verification: listed
 rating: 0
 reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/imap-email-classifier-ml/"
+source: "https://agentskillexchange.com/skills/imap-email-classifier-ml/"
 ---
-
 # IMAP Email Classifier
 
 Classifies and organizes emails from IMAP servers using imaplib and scikit-learn text classification. Supports custom label rules with SpaCy NER for entity extraction.
@@ -20,22 +19,17 @@ Classifies and organizes emails from IMAP servers using imaplib and scikit-learn
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install imap-email-classifier-ml
+npx skills add agentskillexchange/skills --skill imap-email-classifier-ml
 ```
 
 ### Claude Code
 ```bash
-claude mcp add imap-email-classifier-ml
+npx skills add agentskillexchange/skills --skill imap-email-classifier-ml -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "imap-email-classifier-ml": {
-    "source": "https://agentskillexchange.com/skill/imap-email-classifier-ml/"
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill imap-email-classifier-ml -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install imap-email-classifier-ml
 
 ### Codex
 ```bash
-codex install imap-email-classifier-ml
+npx skills add agentskillexchange/skills --skill imap-email-classifier-ml -a codex
 ```
-
 ## Details
 
 | Field | Value |

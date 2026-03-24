@@ -3,15 +3,14 @@ name: "Docker Compose Stack Builder"
 description: "Builds multi-service Docker Compose stacks using Docker Engine SDK for Python with automatic health check configuration and network isolation. Validates compose files against the Compose Specification."
 category: "Developer Tools"
 framework: "Gemini"
-verification: ""
+verification: listed
 rating: 0
 reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/docker-compose-stack-builder-sdk/"
+source: "https://agentskillexchange.com/skills/docker-compose-stack-builder-sdk/"
 ---
-
 # Docker Compose Stack Builder
 
 Builds multi-service Docker Compose stacks using Docker Engine SDK for Python with automatic health check configuration and network isolation. Validates compose files against the Compose Specification v2.x and generates .env templates.
@@ -20,17 +19,17 @@ Builds multi-service Docker Compose stacks using Docker Engine SDK for Python wi
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install docker-compose-stack-builder-sdk
+npx skills add agentskillexchange/skills --skill docker-compose-stack-builder-sdk
 ```
 
 ### Claude Code
 ```bash
-claude skill add docker-compose-stack-builder-sdk
+npx skills add agentskillexchange/skills --skill docker-compose-stack-builder-sdk -a claude-code
 ```
 
 ### Cursor
-```
-Install from Cursor Settings > Skills > Add Skill > "Docker Compose Stack Builder"
+```bash
+npx skills add agentskillexchange/skills --skill docker-compose-stack-builder-sdk -a cursor
 ```
 
 ### OpenClaw
@@ -40,9 +39,8 @@ clawhub install docker-compose-stack-builder-sdk
 
 ### Codex
 ```bash
-codex skill add docker-compose-stack-builder-sdk
+npx skills add agentskillexchange/skills --skill docker-compose-stack-builder-sdk -a codex
 ```
-
 ## Details
 
 | Property | Value |

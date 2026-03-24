@@ -3,37 +3,34 @@ name: "Terraform Module Scaffolder"
 description: "Generates production-ready Terraform module templates with HashiCorp best practices. Integrates with terraform-docs SDK and tflint API for automatic documentation and validation rule generation."
 category: "Templates & Workflows"
 framework: "OpenClaw"
-verification: "✅ Verified"
-security: "✅ Reviewed"
-rating: "4.4"
-reviews: "72"
+verification: security_reviewed
+rating: 4.4
+reviews: 72
 creator: "Yuki Tanaka"
 creator_handle: "@yukitanaka"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/terraform-module-scaffolder-3/"
+source: "https://agentskillexchange.com/skills/terraform-module-scaffolder-3/"
+security: "✅ Reviewed"
 ---
-
 # Terraform Module Scaffolder
 
 Generates production-ready Terraform module templates with HashiCorp best practices. Integrates with terraform-docs SDK and tflint API for automatic documentation and validation rule generation.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install terraform-module-scaffolder-3
+npx skills add agentskillexchange/skills --skill terraform-module-scaffolder-3
 ```
 
 ### Claude Code
 ```bash
-claude skills add terraform-module-scaffolder-3
+npx skills add agentskillexchange/skills --skill terraform-module-scaffolder-3 -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor skills install terraform-module-scaffolder-3
+npx skills add agentskillexchange/skills --skill terraform-module-scaffolder-3 -a cursor
 ```
 
 ### OpenClaw
@@ -43,9 +40,8 @@ clawhub install terraform-module-scaffolder-3
 
 ### Codex
 ```bash
-codex skills add terraform-module-scaffolder-3
+npx skills add agentskillexchange/skills --skill terraform-module-scaffolder-3 -a codex
 ```
-
 ## Details
 
 | Field | Value |

@@ -1,37 +1,34 @@
 ---
-name: microsoft-graph-email-digest-builder
+name: "microsoft-graph-email-digest-builder"
 description: "Generates daily email digests from Microsoft 365 mailboxes using the Microsoft Graph API /me/messages endpoint. Groups emails by sender, thread, and priority using the inferenceClassification properties."
-category: Calendar, Email & Productivity
-framework: ChatGPT Agents
-verification: 
+category: "Calendar, Email & Productivity"
+framework: "ChatGPT Agents"
+verification: listed
 rating: 0
 reviews: 0
-creator: Community
+creator: "Community"
 creator_verified: false
-source: https://agentskillexchange.com/skill/microsoft-graph-email-digest-builder/
+source: "https://agentskillexchange.com/skills/microsoft-graph-email-digest-builder/"
 ---
-
 # Microsoft Graph Email Digest Builder
 
 Generates daily email digests from Microsoft 365 mailboxes using the Microsoft Graph API /me/messages endpoint. Groups emails by sender, thread, and priority using the inferenceClassification properties.
 
 ## Installation
 
-Install this skill for your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install microsoft-graph-email-digest-builder
+npx skills add agentskillexchange/skills --skill microsoft-graph-email-digest-builder
 ```
 
 ### Claude Code
 ```bash
-claude skills add microsoft-graph-email-digest-builder
+npx skills add agentskillexchange/skills --skill microsoft-graph-email-digest-builder -a claude-code
 ```
 
 ### Cursor
-```
-Install microsoft-graph-email-digest-builder from Cursor Settings > Skills
+```bash
+npx skills add agentskillexchange/skills --skill microsoft-graph-email-digest-builder -a cursor
 ```
 
 ### OpenClaw
@@ -41,9 +38,8 @@ clawhub install microsoft-graph-email-digest-builder
 
 ### Codex
 ```bash
-codex skills add microsoft-graph-email-digest-builder
+npx skills add agentskillexchange/skills --skill microsoft-graph-email-digest-builder -a codex
 ```
-
 ## Details
 
 | Field | Value |

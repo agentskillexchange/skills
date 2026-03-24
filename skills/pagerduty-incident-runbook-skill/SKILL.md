@@ -3,15 +3,14 @@ name: "PagerDuty Incident Runbook"
 description: "Automates PagerDuty incident response using the Events API v2 /enqueue endpoint and REST API /incidents for triage. Executes diagnostic runbooks based on alert routing keys, collects system metrics via Datadog API, and posts timeline updates to incident channels."
 category: "Runbooks & Diagnostics"
 framework: "MCP-compatible"
-verification: "verified_metadata"
-rating: "0"
-reviews: "0"
+verification: verified_metadata
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/pagerduty-incident-runbook-skill/"
+source: "https://agentskillexchange.com/skills/pagerduty-incident-runbook-skill/"
 ---
-
 # PagerDuty Incident Runbook
 
 Automates PagerDuty incident response using the Events API v2 /enqueue endpoint and REST API /incidents for triage. Executes diagnostic runbooks based on alert routing keys, collects system metrics via Datadog API, and posts timeline updates to incident channels.
@@ -20,16 +19,18 @@ Automates PagerDuty incident response using the Events API v2 /enqueue endpoint 
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install pagerduty-incident-runbook-skill
+npx skills add agentskillexchange/skills --skill pagerduty-incident-runbook-skill
 ```
 
 ### Claude Code
 ```bash
-claude install-skill pagerduty-incident-runbook-skill
+npx skills add agentskillexchange/skills --skill pagerduty-incident-runbook-skill -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills/` directory or install via Cursor Settings → Skills.
+```bash
+npx skills add agentskillexchange/skills --skill pagerduty-incident-runbook-skill -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -38,9 +39,8 @@ clawhub install pagerduty-incident-runbook-skill
 
 ### Codex
 ```bash
-codex install-skill pagerduty-incident-runbook-skill
+npx skills add agentskillexchange/skills --skill pagerduty-incident-runbook-skill -a codex
 ```
-
 ## Details
 
 | | |

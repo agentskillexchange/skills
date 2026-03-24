@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.6
 reviews: 33
-creator: Omar Hassan
-creator_handle: ohassan
+creator: "Omar Hassan"
+creator_handle: "@ohassan"
 creator_verified: true
-source: https://agentskillexchange.com/skill/anthropic-claude-mcp-server/
+source: "https://agentskillexchange.com/skills/anthropic-claude-mcp-server/"
 ---
-
 # Anthropic Claude MCP Server
 
 Use this skill to access Claude models directly via the Anthropic API through MCP, enabling prompt management, multi-turn conversations, and Claude-specific features like extended thinking. It provides programmatic access to Claude’s capabilities from within agent workflows. Trigger when you need to call Claude from a non-Claude agent or manage Anthropic API interactions systematically.

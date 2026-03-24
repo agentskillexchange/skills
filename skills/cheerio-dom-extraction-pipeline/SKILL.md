@@ -3,36 +3,33 @@ name: "Cheerio DOM Extraction Pipeline"
 description: "Builds configurable data extraction pipelines using Cheerio for server-side DOM parsing with CSS selector chains. Supports JSONPath output mapping, pagination following, and schema validation via Ajv."
 category: "Data Extraction & Transformation"
 framework: "Codex"
-verification: "Verified ✅"
+verification: security_reviewed
 rating: 4.9
 reviews: 21
 creator: "Marcus Chen"
 creator_handle: "@marcuschen"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/cheerio-dom-extraction-pipeline/"
+source: "https://agentskillexchange.com/skills/cheerio-dom-extraction-pipeline/"
 ---
-
 # Cheerio DOM Extraction Pipeline
 
 Builds configurable data extraction pipelines using Cheerio for server-side DOM parsing with CSS selector chains. Supports JSONPath output mapping, pagination following, and schema validation via Ajv.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install cheerio-dom-extraction-pipeline
+npx skills add agentskillexchange/skills --skill cheerio-dom-extraction-pipeline
 ```
 
 ### Claude Code
 ```bash
-claude skills add cheerio-dom-extraction-pipeline
+npx skills add agentskillexchange/skills --skill cheerio-dom-extraction-pipeline -a claude-code
 ```
 
 ### Cursor
-```
-Install from Cursor Settings → Skills → Search "Cheerio DOM Extraction Pipeline"
+```bash
+npx skills add agentskillexchange/skills --skill cheerio-dom-extraction-pipeline -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install cheerio-dom-extraction-pipeline
 
 ### Codex
 ```bash
-codex skills install cheerio-dom-extraction-pipeline
+npx skills add agentskillexchange/skills --skill cheerio-dom-extraction-pipeline -a codex
 ```
-
 ## Details
 
 | Field | Value |

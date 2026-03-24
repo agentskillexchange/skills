@@ -3,36 +3,33 @@ name: "Selenium Grid Session Manager"
 description: "Manages distributed browser sessions on Selenium Grid 4 via the GraphQL API and /status endpoint. Handles node scaling, session queuing, and capability matching for parallel test execution."
 category: "Browser Automation"
 framework: "Gemini"
-verification: "community"
-rating: "4.9"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/selenium-grid-session-manager/"
+source: "https://agentskillexchange.com/skills/selenium-grid-session-manager/"
 ---
-
 # Selenium Grid Session Manager
 
 Manages distributed browser sessions on Selenium Grid 4 via the GraphQL API and /status endpoint. Handles node scaling, session queuing, and capability matching for parallel test execution.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install selenium-grid-session-manager
+npx skills add agentskillexchange/skills --skill selenium-grid-session-manager
 ```
 
 ### Claude Code
 ```bash
-claude skills add selenium-grid-session-manager
+npx skills add agentskillexchange/skills --skill selenium-grid-session-manager -a claude-code
 ```
 
 ### Cursor
-```
-Install from Cursor Settings → Skills → Add → "Selenium Grid Session Manager"
+```bash
+npx skills add agentskillexchange/skills --skill selenium-grid-session-manager -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install selenium-grid-session-manager
 
 ### Codex
 ```bash
-codex skills add selenium-grid-session-manager
+npx skills add agentskillexchange/skills --skill selenium-grid-session-manager -a codex
 ```
-
 ## Details
 
 | Field | Value |

@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.3
 reviews: 61
-creator: Omar Hassan
-creator_handle: ohassan
+creator: "Omar Hassan"
+creator_handle: "@ohassan"
 creator_verified: true
-source: https://agentskillexchange.com/skill/dns-troubleshooting-runbook/
+source: "https://agentskillexchange.com/skills/dns-troubleshooting-runbook/"
 ---
-
 # DNS Troubleshooting Runbook
 
 Use this skill to systematically diagnose DNS resolution failures, propagation delays, misconfigured records, and DNS-related connectivity issues. It guides through dig/nslookup commands and DNS record validation steps. Trigger when domains are not resolving, DNS propagation issues occur after changes, or specific DNS record types are failing.

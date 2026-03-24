@@ -3,39 +3,43 @@ name: "Kubernetes Pod Crash Diagnostics"
 description: "Runs kubectl describe pod, kubectl logs –previous, and kubectl get events to diagnose CrashLoopBackOff and OOMKilled pods. Parses container exit codes, resource limits, and liveness probe configuratio"
 category: "Uncategorized"
 framework: "Unknown"
-verification: "Unverified"
-rating: ""
-reviews: ""
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_verified: false
-source: "https://agentskillexchange.com/skill/kubernetes-pod-crash-diagnostics-2/"
+source: "https://agentskillexchange.com/skills/kubernetes-pod-crash-diagnostics-2/"
 ---
-
 # Kubernetes Pod Crash Diagnostics
 
 Runs kubectl describe pod, kubectl logs –previous, and kubectl get events to diagnose CrashLoopBackOff and OOMKilled pods. Parses container exit codes, resource limits, and liveness probe configurations for root cause analysis.
 
 ## Installation
 
-Install this skill for your preferred agent:
-
+### Any Agent (npx)
 ```bash
-# Any npx-compatible agent
-npx skills install kubernetes-pod-crash-diagnostics-2
-
-# Claude Code
-claude mcp add skills -- npx -y skills install kubernetes-pod-crash-diagnostics-2
-
-# Cursor
-cursor mcp add skills -- npx -y skills install kubernetes-pod-crash-diagnostics-2
-
-# OpenClaw
-clawhub install kubernetes-pod-crash-diagnostics-2
-
-# Codex
-codex install kubernetes-pod-crash-diagnostics-2
+npx skills add agentskillexchange/skills --skill kubernetes-pod-crash-diagnostics-2
 ```
 
+### Claude Code
+```bash
+npx skills add agentskillexchange/skills --skill kubernetes-pod-crash-diagnostics-2 -a claude-code
+```
+
+### Cursor
+```bash
+npx skills add agentskillexchange/skills --skill kubernetes-pod-crash-diagnostics-2 -a cursor
+```
+
+### OpenClaw
+```bash
+clawhub install kubernetes-pod-crash-diagnostics-2
+```
+
+### Codex
+```bash
+npx skills add agentskillexchange/skills --skill kubernetes-pod-crash-diagnostics-2 -a codex
+```
 ## Details
 
 | | |

@@ -3,36 +3,33 @@ name: "SerpAPI Search Results Aggregator"
 description: "Queries Google, Bing, and DuckDuckGo search APIs through SerpAPI to collect SERP features, Knowledge Graph data, and organic results. Supports People Also Ask extraction and trend analysis."
 category: "Research & Scraping"
 framework: "OpenClaw"
-verification: "Verified"
-rating: "4.9"
-reviews: "81"
+verification: verified_metadata
+rating: 4.9
+reviews: 81
 creator: "Tom Wilson"
 creator_handle: "@tomwilson"
-creator_verified: "No"
-source: "https://agentskillexchange.com/skill/serpapi-search-results-aggregator/"
+creator_verified: false
+source: "https://agentskillexchange.com/skills/serpapi-search-results-aggregator/"
 ---
-
 # SerpAPI Search Results Aggregator
 
 Queries Google, Bing, and DuckDuckGo search APIs through SerpAPI to collect SERP features, Knowledge Graph data, and organic results. Supports People Also Ask extraction and trend analysis.
 
 ## Installation
 
-Install this skill using one of the following methods:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install serpapi-search-results-aggregator
+npx skills add agentskillexchange/skills --skill serpapi-search-results-aggregator
 ```
 
 ### Claude Code
 ```bash
-claude skills add serpapi-search-results-aggregator
+npx skills add agentskillexchange/skills --skill serpapi-search-results-aggregator -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor skills install serpapi-search-results-aggregator
+npx skills add agentskillexchange/skills --skill serpapi-search-results-aggregator -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install serpapi-search-results-aggregator
 
 ### Codex
 ```bash
-codex skills add serpapi-search-results-aggregator
+npx skills add agentskillexchange/skills --skill serpapi-search-results-aggregator -a codex
 ```
-
 ## Details
 
 | Field | Value |

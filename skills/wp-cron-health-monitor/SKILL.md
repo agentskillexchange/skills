@@ -3,15 +3,14 @@ name: "WP Cron Health Monitor"
 description: "Monitors WordPress wp-cron scheduled events using the WP_Cron API and Action Scheduler library. Detects stuck, overdue, or orphaned cron jobs and reports via WP REST API webhooks with configurable alert thresholds."
 category: "WordPress & CMS"
 framework: "OpenClaw"
-verification: "✅ Verified"
-rating: "4.9"
-reviews: "53"
+verification: security_reviewed
+rating: 4.9
+reviews: 53
 creator: "Fatima Al-Hassan"
 creator_handle: "@fatimaalhassan"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/wp-cron-health-monitor/"
+source: "https://agentskillexchange.com/skills/wp-cron-health-monitor/"
 ---
-
 # WP Cron Health Monitor
 
 Monitors WordPress wp-cron scheduled events using the WP_Cron API and Action Scheduler library. Detects stuck, overdue, or orphaned cron jobs and reports via WP REST API webhooks with configurable alert thresholds.
@@ -20,22 +19,17 @@ Monitors WordPress wp-cron scheduled events using the WP_Cron API and Action Sch
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install wp-cron-health-monitor
+npx skills add agentskillexchange/skills --skill wp-cron-health-monitor
 ```
 
 ### Claude Code
 ```bash
-claude mcp add wp-cron-health-monitor
+npx skills add agentskillexchange/skills --skill wp-cron-health-monitor -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "wp-cron-health-monitor": {
-    "enabled": true
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill wp-cron-health-monitor -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install wp-cron-health-monitor
 
 ### Codex
 ```bash
-codex install wp-cron-health-monitor
+npx skills add agentskillexchange/skills --skill wp-cron-health-monitor -a codex
 ```
-
 ## Details
 
 | Field | Value |

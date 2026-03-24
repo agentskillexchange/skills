@@ -3,15 +3,14 @@ name: "DALL-E 3 Batch Asset Generator"
 description: "Generates multiple image variations from a single brief using the OpenAI Images API (POST /v1/images/generations) with DALL-E 3, applying brand guidelines via structured prompt templates. Handles concurrent generation requests with retry logic for rate limit compliance."
 category: "Image & Creative Automation"
 framework: "ChatGPT Agents"
-verification: 
+verification: listed
 rating: 4.3
 reviews: 49
-creator: Omar Hassan
-creator_handle: ohassan
+creator: "Omar Hassan"
+creator_handle: "@ohassan"
 creator_verified: true
-source: https://agentskillexchange.com/skill/dalle-3-batch-asset-generator/
+source: "https://agentskillexchange.com/skills/dalle-3-batch-asset-generator/"
 ---
-
 # DALL-E 3 Batch Asset Generator
 
 Generates multiple image variations from a single brief using the OpenAI Images API (POST /v1/images/generations) with DALL-E 3, applying brand guidelines via structured prompt templates. Handles concurrent generation requests with retry logic for rate limit compliance.

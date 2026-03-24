@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.3
 reviews: 28
-creator: Nathan Brooks
-creator_handle: nbrooks
+creator: "Nathan Brooks"
+creator_handle: "@nbrooks"
 creator_verified: false
-source: https://agentskillexchange.com/skill/memory-leak-debugger-runbook/
+source: "https://agentskillexchange.com/skills/memory-leak-debugger-runbook/"
 ---
-
 # Memory Leak Debugger Runbook
 
 Runbook for identifying and resolving memory leak incidents in production services. Provides systematic steps for heap analysis, leak detection, and remediation across Node.js, Python, and JVM-based services.

@@ -3,39 +3,33 @@ name: "Puppeteer Scraping Framework"
 description: "Headless Chrome scraping using Puppeteer with stealth plugin, request interception via page.setRequestInterception(), and automatic CAPTCHA detection. Supports CDP sessions for advanced protocol access."
 category: "Research & Scraping"
 framework: "Claude Code"
-verification: ""
-rating: "4.7"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/puppeteer-scraping-framework-2/"
+source: "https://agentskillexchange.com/skills/puppeteer-scraping-framework-2/"
 ---
-
 # Puppeteer Scraping Framework
 
 Headless Chrome scraping using Puppeteer with stealth plugin, request interception via page.setRequestInterception(), and automatic CAPTCHA detection. Supports CDP sessions for advanced protocol access.
 
 ## Installation
 
-Install this skill in your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install puppeteer-scraping-framework-2
+npx skills add agentskillexchange/skills --skill puppeteer-scraping-framework-2
 ```
 
 ### Claude Code
 ```bash
-claude mcp add puppeteer-scraping-framework-2
+npx skills add agentskillexchange/skills --skill puppeteer-scraping-framework-2 -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "puppeteer-scraping-framework-2": true
-}
+```bash
+npx skills add agentskillexchange/skills --skill puppeteer-scraping-framework-2 -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install puppeteer-scraping-framework-2
 
 ### Codex
 ```bash
-codex install puppeteer-scraping-framework-2
+npx skills add agentskillexchange/skills --skill puppeteer-scraping-framework-2 -a codex
 ```
-
 ## Details
 
 | Property | Value |

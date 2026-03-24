@@ -3,41 +3,33 @@ name: "OWASP ZAP Security Scanner Agent"
 description: "Automates OWASP ZAP active and passive scanning against web applications, parsing alerts into structured vulnerability reports. Integrates with the ZAP API daemon to manage contexts, spider targets, and export SARIF-formatted findings."
 category: "Security & Verification"
 framework: "OpenClaw"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.8
 reviews: 70
 creator: "Tom Wilson"
 creator_handle: "@tomwilson"
-creator_verified: no
-source: "https://agentskillexchange.com/skill/owasp-zap-security-scanner-agent/"
+creator_verified: false
+source: "https://agentskillexchange.com/skills/owasp-zap-security-scanner-agent/"
 ---
-
 # OWASP ZAP Security Scanner Agent
 
 Automates OWASP ZAP active and passive scanning against web applications, parsing alerts into structured vulnerability reports. Integrates with the ZAP API daemon to manage contexts, spider targets, and export SARIF-formatted findings.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx agentskills install owasp-zap-security-scanner-agent
+npx skills add agentskillexchange/skills --skill owasp-zap-security-scanner-agent
 ```
 
 ### Claude Code
 ```bash
-claude mcp add owasp-zap-security-scanner-agent
+npx skills add agentskillexchange/skills --skill owasp-zap-security-scanner-agent -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "owasp-zap-security-scanner-agent": {
-    "enabled": true
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill owasp-zap-security-scanner-agent -a cursor
 ```
 
 ### OpenClaw
@@ -47,9 +39,8 @@ clawhub install owasp-zap-security-scanner-agent
 
 ### Codex
 ```bash
-codex install owasp-zap-security-scanner-agent
+npx skills add agentskillexchange/skills --skill owasp-zap-security-scanner-agent -a codex
 ```
-
 ## Details
 
 | Field | Value |

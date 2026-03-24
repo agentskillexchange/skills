@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.4
 reviews: 63
-creator: Rachel Green
-creator_handle: rachelgreen
+creator: "Rachel Green"
+creator_handle: "@rachelgreen"
 creator_verified: false
-source: https://agentskillexchange.com/skill/jenkins-mcp-server/
+source: "https://agentskillexchange.com/skills/jenkins-mcp-server/"
 ---
-
 # Jenkins MCP Server
 
 Use this skill when you need to trigger Jenkins builds, check pipeline status, view build logs, or manage Jenkins jobs via an AI agent. Connect to your Jenkins instance to automate CI/CD workflows, monitor build health, and respond to build failures without leaving your AI interface.

@@ -3,36 +3,35 @@ name: "Podcast RSS Feed Builder"
 description: "Generates and validates podcast RSS feeds compliant with the Apple Podcasts and Spotify specification. Uses the podcast-index API for cross-platform distribution and ID3 tag management via mutagen."
 category: "Media & Transcription"
 framework: "Claude Agents"
-verification: "✅ Verified"
-security: "✅ Reviewed"
-rating: "4.8"
-reviews: "83"
+verification: security_reviewed
+rating: 4.8
+reviews: 83
 creator: "Tom Wilson"
 creator_handle: "@tomwilson"
-creator_verified: ""
-source: "https://agentskillexchange.com/skill/podcast-rss-feed-builder/"
+creator_verified: false
+source: "https://agentskillexchange.com/skills/podcast-rss-feed-builder/"
+security: "✅ Reviewed"
 ---
-
 # Podcast RSS Feed Builder
 
 Generates and validates podcast RSS feeds compliant with the Apple Podcasts and Spotify specification. Uses the podcast-index API for cross-platform distribution and ID3 tag management via mutagen.
 
 ## Installation
 
-Install this skill in your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install podcast-rss-feed-builder
+npx skills add agentskillexchange/skills --skill podcast-rss-feed-builder
 ```
 
 ### Claude Code
 ```bash
-claude skills install podcast-rss-feed-builder
+npx skills add agentskillexchange/skills --skill podcast-rss-feed-builder -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills/` directory or install via Cursor settings.
+```bash
+npx skills add agentskillexchange/skills --skill podcast-rss-feed-builder -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -41,9 +40,8 @@ clawhub install podcast-rss-feed-builder
 
 ### Codex
 ```bash
-codex skills install podcast-rss-feed-builder
+npx skills add agentskillexchange/skills --skill podcast-rss-feed-builder -a codex
 ```
-
 ## Details
 
 | Field | Value |

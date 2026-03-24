@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.1
 reviews: 17
-creator: Marcus Rivera
-creator_handle: mrivera
+creator: "Marcus Rivera"
+creator_handle: "@mrivera"
 creator_verified: true
-source: https://agentskillexchange.com/skill/gitlab-ci-integration/
+source: "https://agentskillexchange.com/skills/gitlab-ci-integration/"
 ---
-
 # GitLab CI Integration
 
 Configures and optimizes GitLab CI/CD pipelines. Handles .gitlab-ci.yml authoring, caching strategies, parallel job matrices, environment deployment rules, and merge request pipeline configuration.

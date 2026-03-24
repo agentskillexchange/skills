@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.3
 reviews: 29
-creator: Marcus Rivera
-creator_handle: mrivera
+creator: "Marcus Rivera"
+creator_handle: "@mrivera"
 creator_verified: true
-source: https://agentskillexchange.com/skill/db-connection-runbook/
+source: "https://agentskillexchange.com/skills/db-connection-runbook/"
 ---
-
 # DB Connection Runbook
 
 Operational runbook for diagnosing and resolving database connection failures in production environments. Covers connection pool exhaustion, credential rotation, network partitions, and replica lag issues.

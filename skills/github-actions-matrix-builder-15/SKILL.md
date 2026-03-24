@@ -3,36 +3,33 @@ name: "GitHub Actions Matrix Builder"
 description: "Generates optimized GitHub Actions CI/CD matrix configurations using the actions/setup-node and actions/cache APIs. Supports dynamic OS/version matrix expansion with fail-fast strategies and artifa..."
 category: "CI/CD Integrations"
 framework: "Claude Code"
-verification: "community"
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
-creator_verified: "false"
-source: "https://agentskillexchange.com/skill/github-actions-matrix-builder-15/"
+creator_verified: false
+source: "https://agentskillexchange.com/skills/github-actions-matrix-builder-15/"
 ---
-
 # GitHub Actions Matrix Builder
 
 Generates optimized GitHub Actions CI/CD matrix configurations using the actions/setup-node and actions/cache APIs. Supports dynamic OS/version matrix expansion with fail-fast strategies and artifact upload via actions/upload-artifact.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install github-actions-matrix-builder-15
+npx skills add agentskillexchange/skills --skill github-actions-matrix-builder-15
 ```
 
 ### Claude Code
 ```bash
-claude skills add github-actions-matrix-builder-15
+npx skills add agentskillexchange/skills --skill github-actions-matrix-builder-15 -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor skills install github-actions-matrix-builder-15
+npx skills add agentskillexchange/skills --skill github-actions-matrix-builder-15 -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install github-actions-matrix-builder-15
 
 ### Codex
 ```bash
-codex skills add github-actions-matrix-builder-15
+npx skills add agentskillexchange/skills --skill github-actions-matrix-builder-15 -a codex
 ```
-
 ## Details
 
 | Field | Value |

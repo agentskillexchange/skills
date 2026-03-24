@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.7
 reviews: 34
-creator: Yuki Tanaka
-creator_handle: yukitanaka
+creator: "Yuki Tanaka"
+creator_handle: "@yukitanaka"
 creator_verified: true
-source: https://agentskillexchange.com/skill/airtable-mcp-server/
+source: "https://agentskillexchange.com/skills/airtable-mcp-server/"
 ---
-
 # Airtable MCP Server
 
 Use this skill when you need to read, create, or update Airtable records, query views, or manage bases from your AI agent. It enables agents to treat Airtable as a dynamic database, automating data entry, lookup, and workflow tracking without manual spreadsheet interaction.

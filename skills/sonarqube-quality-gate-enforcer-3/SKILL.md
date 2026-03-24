@@ -6,12 +6,11 @@ framework: "Codex"
 verification: verified_metadata
 rating: 4.4
 reviews: 14
-creator: Priya Sharma
-creator_handle: priyasharma
+creator: "Priya Sharma"
+creator_handle: "@priyasharma"
 creator_verified: true
-source: https://agentskillexchange.com/skill/sonarqube-quality-gate-enforcer-3/
+source: "https://agentskillexchange.com/skills/sonarqube-quality-gate-enforcer-3/"
 ---
-
 # SonarQube Quality Gate Enforcer
 
 Enforces SonarQube quality gate policies using the SonarQube Web API /api/qualitygates/project_status endpoint and /api/issues/search for vulnerability detection. Blocks merges when code coverage drops or security hotspots are unresolved.

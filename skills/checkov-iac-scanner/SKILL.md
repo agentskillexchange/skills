@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.0
 reviews: 6
-creator: Alex Thompson
-creator_handle: alexthompson
+creator: "Alex Thompson"
+creator_handle: "@alexthompson"
 creator_verified: true
-source: https://agentskillexchange.com/skill/checkov-iac-scanner/
+source: "https://agentskillexchange.com/skills/checkov-iac-scanner/"
 ---
-
 # Checkov IaC Scanner
 
 Scans Terraform, CloudFormation, Kubernetes manifests, ARM templates, and Dockerfiles for security misconfigurations and compliance violations. Maps findings to CIS benchmarks and SOC2 controls.

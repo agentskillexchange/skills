@@ -3,39 +3,33 @@ name: "Tekton Pipeline Task Generator"
 description: "Generates Tekton CI/CD pipeline tasks and PipelineRun manifests using the Tekton Pipelines API. Integrates with Tekton Hub for reusable task catalog lookups and automated resource binding."
 category: "CI/CD Integrations"
 framework: "Gemini"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.0
 reviews: 37
 creator: "David Nguyen"
 creator_handle: "@davidnguyen"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/tekton-pipeline-task-generator/"
+source: "https://agentskillexchange.com/skills/tekton-pipeline-task-generator/"
 ---
-
 # Tekton Pipeline Task Generator
 
 Generates Tekton CI/CD pipeline tasks and PipelineRun manifests using the Tekton Pipelines API. Integrates with Tekton Hub for reusable task catalog lookups and automated resource binding.
 
 ## Installation
 
-Install this skill across different AI coding agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install tekton-pipeline-task-generator
+npx skills add agentskillexchange/skills --skill tekton-pipeline-task-generator
 ```
 
 ### Claude Code
 ```bash
-claude skills add tekton-pipeline-task-generator
+npx skills add agentskillexchange/skills --skill tekton-pipeline-task-generator -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["tekton-pipeline-task-generator"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill tekton-pipeline-task-generator -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install tekton-pipeline-task-generator
 
 ### Codex
 ```bash
-codex skills add tekton-pipeline-task-generator
+npx skills add agentskillexchange/skills --skill tekton-pipeline-task-generator -a codex
 ```
-
 ## Details
 
 | Property | Value |

@@ -6,12 +6,11 @@ framework: "OpenClaw"
 verification: verified_metadata
 rating: 4.9
 reviews: 10
-creator: Isabella Rossi
-creator_handle: irossi
+creator: "Isabella Rossi"
+creator_handle: "@irossi"
 creator_verified: false
-source: https://agentskillexchange.com/skill/pr-code-review-checklist-generator-2/
+source: "https://agentskillexchange.com/skills/pr-code-review-checklist-generator-2/"
 ---
-
 # PR Code Review Checklist Generator
 
 Reads a GitHub pull request diff and generates a structured review checklist covering security, performance, test coverage, and style concerns specific to the changed files. Detects language and framework from the diff.

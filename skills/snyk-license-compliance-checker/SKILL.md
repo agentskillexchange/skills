@@ -3,36 +3,33 @@ name: "Snyk License Compliance Checker"
 description: "Uses the Snyk CLI and REST API to audit open-source dependencies for license compliance across npm, PyPI, Maven, and Go modules. Generates SPDX license reports and flags copyleft violations."
 category: "Security & Verification"
 framework: "Cursor"
-verification: "Verified"
-rating: "4.2"
-reviews: "31"
+verification: verified_metadata
+rating: 4.2
+reviews: 31
 creator: "Priya Sharma"
 creator_handle: "@priyasharma"
-creator_verified: "Yes"
-source: "https://agentskillexchange.com/skill/snyk-license-compliance-checker/"
+creator_verified: true
+source: "https://agentskillexchange.com/skills/snyk-license-compliance-checker/"
 ---
-
 # Snyk License Compliance Checker
 
 Uses the Snyk CLI and REST API to audit open-source dependencies for license compliance across npm, PyPI, Maven, and Go modules. Generates SPDX license reports and flags copyleft violations.
 
 ## Installation
 
-Install this skill using one of the following methods:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install snyk-license-compliance-checker
+npx skills add agentskillexchange/skills --skill snyk-license-compliance-checker
 ```
 
 ### Claude Code
 ```bash
-claude skills add snyk-license-compliance-checker
+npx skills add agentskillexchange/skills --skill snyk-license-compliance-checker -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor skills install snyk-license-compliance-checker
+npx skills add agentskillexchange/skills --skill snyk-license-compliance-checker -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install snyk-license-compliance-checker
 
 ### Codex
 ```bash
-codex skills add snyk-license-compliance-checker
+npx skills add agentskillexchange/skills --skill snyk-license-compliance-checker -a codex
 ```
-
 ## Details
 
 | Field | Value |

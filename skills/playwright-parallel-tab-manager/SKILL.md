@@ -3,51 +3,44 @@ name: "Playwright Parallel Tab Manager"
 description: "Manages concurrent Playwright browser contexts with tab pooling and automatic resource cleanup. Integrates with Playwright BrowserContext API and chromium.launch() for parallel test execution across multiple viewports."
 category: "Browser Automation"
 framework: "Cursor"
-verification: "verified"
+verification: verified_metadata
 rating: 4.8
 reviews: 78
 creator: "Hannah Berg"
 creator_handle: "@hannahberg"
 creator_verified: false
-source: "https://agentskillexchange.com/skill/playwright-parallel-tab-manager/"
+source: "https://agentskillexchange.com/skills/playwright-parallel-tab-manager/"
 ---
-
 # Playwright Parallel Tab Manager
 
 Manages concurrent Playwright browser contexts with tab pooling and automatic resource cleanup. Integrates with Playwright BrowserContext API and chromium.launch() for parallel test execution across multiple viewports.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
-**Any agent (npx):**
+### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install playwright-parallel-tab-manager
+npx skills add agentskillexchange/skills --skill playwright-parallel-tab-manager
 ```
 
-**Claude Code:**
+### Claude Code
 ```bash
-claude skills install playwright-parallel-tab-manager
+npx skills add agentskillexchange/skills --skill playwright-parallel-tab-manager -a claude-code
 ```
 
-**Cursor:**
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["playwright-parallel-tab-manager"]
-}
+### Cursor
+```bash
+npx skills add agentskillexchange/skills --skill playwright-parallel-tab-manager -a cursor
 ```
 
-**OpenClaw:**
+### OpenClaw
 ```bash
 clawhub install playwright-parallel-tab-manager
 ```
 
-**Codex:**
+### Codex
 ```bash
-codex skills install playwright-parallel-tab-manager
+npx skills add agentskillexchange/skills --skill playwright-parallel-tab-manager -a codex
 ```
-
 ## Details
 
 | Field | Value |

@@ -3,15 +3,14 @@ name: "NPM Package Analyzer"
 description: "Deep analysis of npm packages using npm-registry-fetch and pacote. Evaluates bundle size via bundlephobia API, checks security advisories from npm audit, and maps dependency trees with arborist."
 category: "Library & API Reference"
 framework: "ChatGPT Agents"
-verification: "Verified & Security Reviewed"
-rating: "4.8"
-reviews: "8"
+verification: security_reviewed
+rating: 4.8
+reviews: 8
 creator: "Meera Joshi"
 creator_handle: "@meerajoshi"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/npm-package-analyzer/"
+source: "https://agentskillexchange.com/skills/npm-package-analyzer/"
 ---
-
 # NPM Package Analyzer
 
 Deep analysis of npm packages using npm-registry-fetch and pacote. Evaluates bundle size via bundlephobia API, checks security advisories from npm audit, and maps dependency trees with arborist.
@@ -20,20 +19,17 @@ Deep analysis of npm packages using npm-registry-fetch and pacote. Evaluates bun
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install npm-package-analyzer
+npx skills add agentskillexchange/skills --skill npm-package-analyzer
 ```
 
 ### Claude Code
 ```bash
-claude mcp add npm-package-analyzer
+npx skills add agentskillexchange/skills --skill npm-package-analyzer -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "skills": ["npm-package-analyzer"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill npm-package-analyzer -a cursor
 ```
 
 ### OpenClaw
@@ -43,9 +39,8 @@ clawhub install npm-package-analyzer
 
 ### Codex
 ```bash
-codex install npm-package-analyzer
+npx skills add agentskillexchange/skills --skill npm-package-analyzer -a codex
 ```
-
 ## Details
 
 | Field | Value |

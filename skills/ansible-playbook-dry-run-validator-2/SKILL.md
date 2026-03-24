@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: verified_metadata
 rating: 4.2
 reviews: 6
-creator: Chris Lee
-creator_handle: chrislee
+creator: "Chris Lee"
+creator_handle: "@chrislee"
 creator_verified: false
-source: https://agentskillexchange.com/skill/ansible-playbook-dry-run-validator-2/
+source: "https://agentskillexchange.com/skills/ansible-playbook-dry-run-validator-2/"
 ---
-
 # Ansible Playbook Dry-Run Validator
 
 Validates Ansible playbooks in check mode using ansible-playbook –check –diff and the Ansible Python API. Detects undefined variables, missing roles from Ansible Galaxy, and handler ordering issues.

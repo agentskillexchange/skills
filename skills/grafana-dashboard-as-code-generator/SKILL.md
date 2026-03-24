@@ -3,15 +3,14 @@ name: "Grafana Dashboard as Code Generator"
 description: "Generates Grafana dashboards programmatically using Grafonnet (jsonnet), the Grafana HTTP API, and grafana-toolkit. Supports multi-datasource panels with Prometheus, Loki, and Tempo queries."
 category: "Monitoring & Alerts"
 framework: "Cursor"
-verification: ""
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/grafana-dashboard-as-code-generator/"
+source: "https://agentskillexchange.com/skills/grafana-dashboard-as-code-generator/"
 ---
-
 # Grafana Dashboard as Code Generator
 
 Generates Grafana dashboards programmatically using Grafonnet (jsonnet), the Grafana HTTP API, and grafana-toolkit. Supports multi-datasource panels with Prometheus, Loki, and Tempo queries.
@@ -20,22 +19,17 @@ Generates Grafana dashboards programmatically using Grafonnet (jsonnet), the Gra
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install grafana-dashboard-as-code-generator
+npx skills add agentskillexchange/skills --skill grafana-dashboard-as-code-generator
 ```
 
 ### Claude Code
 ```bash
-claude mcp add grafana-dashboard-as-code-generator
+npx skills add agentskillexchange/skills --skill grafana-dashboard-as-code-generator -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "grafana-dashboard-as-code-generator": {
-    "enabled": true
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill grafana-dashboard-as-code-generator -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install grafana-dashboard-as-code-generator
 
 ### Codex
 ```bash
-codex install grafana-dashboard-as-code-generator
+npx skills add agentskillexchange/skills --skill grafana-dashboard-as-code-generator -a codex
 ```
-
 ## Details
 
 | Field | Value |

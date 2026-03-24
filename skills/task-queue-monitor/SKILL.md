@@ -6,12 +6,11 @@ framework: "Claude Agents"
 verification: security_reviewed
 rating: 4.1
 reviews: 84
-creator: Ava Wilson
-creator_handle: avawilson
+creator: "Ava Wilson"
+creator_handle: "@avawilson"
 creator_verified: true
-source: https://agentskillexchange.com/skill/task-queue-monitor/
+source: "https://agentskillexchange.com/skills/task-queue-monitor/"
 ---
-
 # Task Queue Monitor
 
 Use this skill when you need to inspect the state of a task queue (Celery, Bull, Sidekiq, or SQS) — checking queue depth, failed jobs, worker status, and dead letter queues. It surfaces processing bottlenecks and helps diagnose stuck or failing tasks.

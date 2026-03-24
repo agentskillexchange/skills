@@ -3,36 +3,33 @@ name: "Plop.js Code Generator"
 description: "Creates Plop.js generators with Handlebars templates and custom action types for scaffolding React components, API routes, and test files. Uses inquirer prompts with validation and the addMany acti..."
 category: "Templates & Workflows"
 framework: "Cursor"
-verification: ""
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/plopjs-code-generator/"
+source: "https://agentskillexchange.com/skills/plopjs-code-generator/"
 ---
-
 # Plop.js Code Generator
 
 Creates Plop.js generators with Handlebars templates and custom action types for scaffolding React components, API routes, and test files. Uses inquirer prompts with validation and the addMany action for batch file generation.
 
 ## Installation
 
-Install this skill across different AI coding agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install plopjs-code-generator
+npx skills add agentskillexchange/skills --skill plopjs-code-generator
 ```
 
 ### Claude Code
 ```bash
-claude skills add plopjs-code-generator
+npx skills add agentskillexchange/skills --skill plopjs-code-generator -a claude-code
 ```
 
 ### Cursor
-```
-Install from Cursor Settings → Skills → Add → Search "Plop.js Code Generator"
+```bash
+npx skills add agentskillexchange/skills --skill plopjs-code-generator -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install plopjs-code-generator
 
 ### Codex
 ```bash
-codex skills add plopjs-code-generator
+npx skills add agentskillexchange/skills --skill plopjs-code-generator -a codex
 ```
-
 ## Details
 
 | Property | Value |

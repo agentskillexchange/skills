@@ -3,41 +3,33 @@ name: "Pylint Code Review Assistant"
 description: "Runs Pylint analysis on Python codebases using the pylint.lint.Run API, scoring modules against PEP 8 and custom rcfile configurations. Maps findings to specific PR diff lines via unified diff parsing."
 category: "Code Quality & Review"
 framework: "Codex"
-verification: "security_reviewed"
-rating: "4.8"
-reviews: "13"
+verification: security_reviewed
+rating: 4.8
+reviews: 13
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/pylint-code-review-assistant-2/"
+source: "https://agentskillexchange.com/skills/pylint-code-review-assistant-2/"
 ---
-
 # Pylint Code Review Assistant
 
 Runs Pylint analysis on Python codebases using the pylint.lint.Run API, scoring modules against PEP 8 and custom rcfile configurations. Maps findings to specific PR diff lines via unified diff parsing.
 
 ## Installation
 
-Install this skill in your agent with one of the following methods:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install pylint-code-review-assistant-2
+npx skills add agentskillexchange/skills --skill pylint-code-review-assistant-2
 ```
 
 ### Claude Code
 ```bash
-claude mcp add pylint-code-review-assistant-2
+npx skills add agentskillexchange/skills --skill pylint-code-review-assistant-2 -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "pylint-code-review-assistant-2": {
-    "source": "https://agentskillexchange.com/skill/pylint-code-review-assistant-2/"
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill pylint-code-review-assistant-2 -a cursor
 ```
 
 ### OpenClaw
@@ -47,9 +39,8 @@ clawhub install pylint-code-review-assistant-2
 
 ### Codex
 ```bash
-codex install pylint-code-review-assistant-2
+npx skills add agentskillexchange/skills --skill pylint-code-review-assistant-2 -a codex
 ```
-
 ## Details
 
 | | |

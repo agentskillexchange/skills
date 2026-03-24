@@ -3,15 +3,14 @@ name: "AWS CloudWatch Log Analyzer"
 description: "Analyzes AWS CloudWatch Logs using the CloudWatch Logs API and Logs Insights query syntax. Identifies error patterns, calculates error rates, and generates metric filters from log data."
 category: "Runbooks & Diagnostics"
 framework: "ChatGPT Agents"
-verification: "security_reviewed"
-rating: "4.9"
-reviews: "58"
+verification: security_reviewed
+rating: 4.9
+reviews: 58
 creator: "Community"
 creator_handle: ""
-creator_verified: "false"
-source: "https://agentskillexchange.com/skill/aws-cloudwatch-log-analyzer/"
+creator_verified: false
+source: "https://agentskillexchange.com/skills/aws-cloudwatch-log-analyzer/"
 ---
-
 # AWS CloudWatch Log Analyzer
 
 Analyzes AWS CloudWatch Logs using the CloudWatch Logs API and Logs Insights query syntax. Identifies error patterns, calculates error rates, and generates metric filters from log data.
@@ -20,17 +19,17 @@ Analyzes AWS CloudWatch Logs using the CloudWatch Logs API and Logs Insights que
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install aws-cloudwatch-log-analyzer
+npx skills add agentskillexchange/skills --skill aws-cloudwatch-log-analyzer
 ```
 
 ### Claude Code
 ```bash
-claude skills add aws-cloudwatch-log-analyzer
+npx skills add agentskillexchange/skills --skill aws-cloudwatch-log-analyzer -a claude-code
 ```
 
 ### Cursor
-```
-Install from Cursor Settings → Skills → Add → "AWS CloudWatch Log Analyzer"
+```bash
+npx skills add agentskillexchange/skills --skill aws-cloudwatch-log-analyzer -a cursor
 ```
 
 ### OpenClaw
@@ -40,9 +39,8 @@ clawhub install aws-cloudwatch-log-analyzer
 
 ### Codex
 ```bash
-codex skills add aws-cloudwatch-log-analyzer
+npx skills add agentskillexchange/skills --skill aws-cloudwatch-log-analyzer -a codex
 ```
-
 ## Details
 
 | Field | Value |

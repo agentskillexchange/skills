@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.1
 reviews: 67
-creator: Priya Sharma
-creator_handle: priyasharma
+creator: "Priya Sharma"
+creator_handle: "@priyasharma"
 creator_verified: true
-source: https://agentskillexchange.com/skill/quickbooks-data-extractor/
+source: "https://agentskillexchange.com/skills/quickbooks-data-extractor/"
 ---
-
 # QuickBooks Data Extractor
 
 Extracts financial data from QuickBooks Online — invoices, expenses, P&L, balance sheet, cash flow reports, and customer/vendor lists. Useful for finance analysis, tax prep, and building financial dashboards.

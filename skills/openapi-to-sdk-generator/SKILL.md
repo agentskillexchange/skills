@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.6
 reviews: 30
-creator: Mia Zhang
-creator_handle: miazhang
+creator: "Mia Zhang"
+creator_handle: "@miazhang"
 creator_verified: true
-source: https://agentskillexchange.com/skill/openapi-to-sdk-generator/
+source: "https://agentskillexchange.com/skills/openapi-to-sdk-generator/"
 ---
-
 # OpenAPI to SDK Generator
 
 Generates type-safe SDK clients from OpenAPI 3.x specifications. Supports TypeScript, Python, Go, and Java output. Handles authentication schemes, pagination patterns, and error types automatically.

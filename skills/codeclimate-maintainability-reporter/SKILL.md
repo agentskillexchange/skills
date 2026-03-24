@@ -3,15 +3,14 @@ name: "CodeClimate Maintainability Reporter"
 description: "Queries the CodeClimate API to fetch maintainability ratings, technical debt estimates, and code smell trends. Surfaces files with the worst churn-to-complexity ratio and flags functions exceeding cognitive complexity thresholds. Outputs a prioritized refactor list."
 category: "Code Quality & Review"
 framework: "MCP-compatible"
-verification: 
+verification: listed
 rating: 4.6
 reviews: 79
-creator: Tom Anderson
-creator_handle: tanderson
+creator: "Tom Anderson"
+creator_handle: "@tanderson"
 creator_verified: false
-source: https://agentskillexchange.com/skill/codeclimate-maintainability-reporter/
+source: "https://agentskillexchange.com/skills/codeclimate-maintainability-reporter/"
 ---
-
 # CodeClimate Maintainability Reporter
 
 Queries the CodeClimate API to fetch maintainability ratings, technical debt estimates, and code smell trends. Surfaces files with the worst churn-to-complexity ratio and flags functions exceeding cognitive complexity thresholds. Outputs a prioritized refactor list.

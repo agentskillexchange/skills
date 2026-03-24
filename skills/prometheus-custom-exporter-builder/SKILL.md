@@ -3,35 +3,34 @@ name: "Prometheus Custom Exporter Builder"
 description: "Builds custom Prometheus exporters using the prometheus_client Python SDK and Go client_golang library. Exposes application-specific metrics with proper histogram buckets, counter labels, and gauge instrumentation."
 category: "Monitoring & Alerts"
 framework: "Claude Agents"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.7
 reviews: 49
 creator: "Priya Sharma"
 creator_handle: "@priyasharma"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/prometheus-custom-exporter-builder/"
+source: "https://agentskillexchange.com/skills/prometheus-custom-exporter-builder/"
 ---
-
 # Prometheus Custom Exporter Builder
 
 Builds custom Prometheus exporters using the prometheus_client Python SDK and Go client_golang library. Exposes application-specific metrics with proper histogram buckets, counter labels, and gauge instrumentation.
 
 ## Installation
 
-Install this skill in your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install prometheus-custom-exporter-builder
+npx skills add agentskillexchange/skills --skill prometheus-custom-exporter-builder
 ```
 
 ### Claude Code
 ```bash
-claude install-skill prometheus-custom-exporter-builder
+npx skills add agentskillexchange/skills --skill prometheus-custom-exporter-builder -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills/` directory or install via Cursor Settings → Skills.
+```bash
+npx skills add agentskillexchange/skills --skill prometheus-custom-exporter-builder -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install prometheus-custom-exporter-builder
 
 ### Codex
 ```bash
-codex install-skill prometheus-custom-exporter-builder
+npx skills add agentskillexchange/skills --skill prometheus-custom-exporter-builder -a codex
 ```
-
 ## Details
 
 | Field | Value |

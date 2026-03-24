@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.3
 reviews: 16
-creator: Chris Lee
-creator_handle: chrislee
+creator: "Chris Lee"
+creator_handle: "@chrislee"
 creator_verified: false
-source: https://agentskillexchange.com/skill/kubernetes-pod-crash-analyzer/
+source: "https://agentskillexchange.com/skills/kubernetes-pod-crash-analyzer/"
 ---
-
 # Kubernetes Pod Crash Analyzer
 
 Diagnoses CrashLoopBackOff and OOMKilled pods using the Kubernetes API and kubectl. Correlates container exit codes, resource limits, and event streams to pinpoint root causes.

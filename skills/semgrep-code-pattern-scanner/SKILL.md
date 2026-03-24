@@ -3,15 +3,14 @@ name: "Semgrep Code Pattern Scanner"
 description: "Runs Semgrep against a codebase using the official or custom rule registry and outputs a grouped report of security anti-patterns, deprecated API usage, and policy violations. Supports 30+ languages and produces SARIF output for GitHub Advanced Security."
 category: "Code Quality & Review"
 framework: "Codex"
-verification: 
+verification: listed
 rating: 4.2
 reviews: 57
-creator: Isabella Rossi
-creator_handle: irossi
+creator: "Isabella Rossi"
+creator_handle: "@irossi"
 creator_verified: false
-source: https://agentskillexchange.com/skill/semgrep-code-pattern-scanner/
+source: "https://agentskillexchange.com/skills/semgrep-code-pattern-scanner/"
 ---
-
 # Semgrep Code Pattern Scanner
 
 Runs Semgrep against a codebase using the official or custom rule registry and outputs a grouped report of security anti-patterns, deprecated API usage, and policy violations. Supports 30+ languages and produces SARIF output for GitHub Advanced Security.

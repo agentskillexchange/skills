@@ -3,15 +3,14 @@ name: "Kubernetes Rollback Runbook"
 description: "Executes structured Kubernetes deployment rollbacks using kubectl rollout undo and the Kubernetes API. Validates pod health via readinessProbe checks, captures rollback metrics with Prometheus queries, and generates incident timeline reports."
 category: "Runbooks & Diagnostics"
 framework: "Codex"
-verification: "verified_metadata"
+verification: verified_metadata
 rating: 4.3
 reviews: 55
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/kubernetes-rollback-runbook-2/"
+source: "https://agentskillexchange.com/skills/kubernetes-rollback-runbook-2/"
 ---
-
 # Kubernetes Rollback Runbook
 
 Executes structured Kubernetes deployment rollbacks using kubectl rollout undo and the Kubernetes API. Validates pod health via readinessProbe checks, captures rollback metrics with Prometheus queries, and generates incident timeline reports.
@@ -20,22 +19,17 @@ Executes structured Kubernetes deployment rollbacks using kubectl rollout undo a
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install kubernetes-rollback-runbook-2
+npx skills add agentskillexchange/skills --skill kubernetes-rollback-runbook-2
 ```
 
 ### Claude Code
 ```bash
-claude mcp add kubernetes-rollback-runbook-2
+npx skills add agentskillexchange/skills --skill kubernetes-rollback-runbook-2 -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "kubernetes-rollback-runbook-2": {
-    "source": "agentskillexchange"
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill kubernetes-rollback-runbook-2 -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install kubernetes-rollback-runbook-2
 
 ### Codex
 ```bash
-codex install kubernetes-rollback-runbook-2
+npx skills add agentskillexchange/skills --skill kubernetes-rollback-runbook-2 -a codex
 ```
-
 ## Details
 
 | Field | Value |

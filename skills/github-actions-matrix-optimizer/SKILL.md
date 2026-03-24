@@ -6,12 +6,11 @@ framework: "OpenClaw"
 verification: verified_metadata
 rating: 4.3
 reviews: 33
-creator: Maya Johnson
-creator_handle: mayaj
+creator: "Maya Johnson"
+creator_handle: "@mayaj"
 creator_verified: false
-source: https://agentskillexchange.com/skill/github-actions-matrix-optimizer/
+source: "https://agentskillexchange.com/skills/github-actions-matrix-optimizer/"
 ---
-
 # GitHub Actions Matrix Optimizer
 
 Analyzes GitHub Actions workflow YAML to optimize matrix strategies and reduce CI minutes. Uses the GitHub REST API v3 /actions/workflows endpoint and job timing data to suggest parallelism improvements and caching strategies.

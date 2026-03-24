@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.0
 reviews: 16
-creator: Omar Hassan
-creator_handle: ohassan
+creator: "Omar Hassan"
+creator_handle: "@ohassan"
 creator_verified: true
-source: https://agentskillexchange.com/skill/aws-iam-privilege-escalation-audit-2/
+source: "https://agentskillexchange.com/skills/aws-iam-privilege-escalation-audit-2/"
 ---
-
 # AWS IAM Privilege Escalation Audit
 
 Uses boto3 and AWS IAM Access Analyzer to enumerate roles, policies, and users, flagging permission combinations that could allow privilege escalation to AdministratorAccess. Outputs findings mapped to MITRE ATT&CK TA0004 with remediation steps and least-privilege replacement JSON.

@@ -3,35 +3,34 @@ name: "CloudWatch Intelligent Alarms"
 description: "Uses AWS CloudWatch SDK (boto3) to create composite alarms with ML-powered anomaly detection bands. Integrates with AWS SNS for notifications and EventBridge for automated remediation triggers."
 category: "Monitoring & Alerts"
 framework: "ChatGPT Agents"
-verification: "Verified & Security Reviewed"
+verification: security_reviewed
 rating: 4.9
 reviews: 85
 creator: "Ava Johnson"
 creator_handle: "@avajohnson"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/cloudwatch-intelligent-alarms/"
+source: "https://agentskillexchange.com/skills/cloudwatch-intelligent-alarms/"
 ---
-
 # CloudWatch Intelligent Alarms
 
 Uses AWS CloudWatch SDK (boto3) to create composite alarms with ML-powered anomaly detection bands. Integrates with AWS SNS for notifications and EventBridge for automated remediation triggers.
 
 ## Installation
 
-Install this skill across different AI coding agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install cloudwatch-intelligent-alarms
+npx skills add agentskillexchange/skills --skill cloudwatch-intelligent-alarms
 ```
 
 ### Claude Code
 ```bash
-claude mcp add cloudwatch-intelligent-alarms
+npx skills add agentskillexchange/skills --skill cloudwatch-intelligent-alarms -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills/` directory or install via Cursor Settings → Skills.
+```bash
+npx skills add agentskillexchange/skills --skill cloudwatch-intelligent-alarms -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install cloudwatch-intelligent-alarms
 
 ### Codex
 ```bash
-codex install cloudwatch-intelligent-alarms
+npx skills add agentskillexchange/skills --skill cloudwatch-intelligent-alarms -a codex
 ```
-
 ## Details
 
 | Property | Value |

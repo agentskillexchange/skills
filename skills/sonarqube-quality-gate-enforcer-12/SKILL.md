@@ -3,15 +3,14 @@ name: "SonarQube Quality Gate Enforcer"
 description: "Integrates SonarQube analysis into CI pipelines using the SonarQube Web API and sonar-scanner CLI. Enforces quality gate conditions with custom metric thresholds and automated PR decoration."
 category: "Code Quality & Review"
 framework: "Gemini"
-verification: "Verified"
-rating: "4.3"
-reviews: "86"
+verification: verified_metadata
+rating: 4.3
+reviews: 86
 creator: "Marcus Chen"
 creator_handle: "@marcuschen"
-creator_verified: "✓"
-source: "https://agentskillexchange.com/skill/sonarqube-quality-gate-enforcer-12/"
+creator_verified: false
+source: "https://agentskillexchange.com/skills/sonarqube-quality-gate-enforcer-12/"
 ---
-
 # SonarQube Quality Gate Enforcer
 
 Integrates SonarQube analysis into CI pipelines using the SonarQube Web API and sonar-scanner CLI. Enforces quality gate conditions with custom metric thresholds and automated PR decoration.
@@ -20,20 +19,17 @@ Integrates SonarQube analysis into CI pipelines using the SonarQube Web API and 
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install sonarqube-quality-gate-enforcer-12
+npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-enforcer-12
 ```
 
 ### Claude Code
 ```bash
-claude mcp add sonarqube-quality-gate-enforcer-12
+npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-enforcer-12 -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "skills": ["sonarqube-quality-gate-enforcer-12"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-enforcer-12 -a cursor
 ```
 
 ### OpenClaw
@@ -43,9 +39,8 @@ clawhub install sonarqube-quality-gate-enforcer-12
 
 ### Codex
 ```bash
-codex install sonarqube-quality-gate-enforcer-12
+npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-enforcer-12 -a codex
 ```
-
 ## Details
 
 | Field | Value |

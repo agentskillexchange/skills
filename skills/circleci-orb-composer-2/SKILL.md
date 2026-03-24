@@ -6,12 +6,11 @@ framework: "Cursor"
 verification: verified_metadata
 rating: 4.7
 reviews: 49
-creator: Ava Wilson
-creator_handle: avawilson
+creator: "Ava Wilson"
+creator_handle: "@avawilson"
 creator_verified: true
-source: https://agentskillexchange.com/skill/circleci-orb-composer-2/
+source: "https://agentskillexchange.com/skills/circleci-orb-composer-2/"
 ---
-
 # CircleCI Orb Composer
 
 Creates and publishes reusable CircleCI orbs using the CircleCI CLI and Orb Registry API. Generates parameterized jobs, commands, and executors with inline orb definitions and validates configurations against the CircleCI config schema v2.1.

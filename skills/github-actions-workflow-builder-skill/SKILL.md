@@ -3,15 +3,14 @@ name: "GitHub Actions Workflow Builder"
 description: "Generates and validates GitHub Actions YAML workflows using the actions/toolkit SDK and workflow_dispatch event triggers. Supports matrix builds, reusable workflows with workflow_call, and composite actions with proper input/output schema definitions."
 category: "CI/CD Integrations"
 framework: "Cursor"
-verification: "verified_metadata"
-rating: "0"
-reviews: "0"
+verification: verified_metadata
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/github-actions-workflow-builder-skill/"
+source: "https://agentskillexchange.com/skills/github-actions-workflow-builder-skill/"
 ---
-
 # GitHub Actions Workflow Builder
 
 Generates and validates GitHub Actions YAML workflows using the actions/toolkit SDK and workflow_dispatch event triggers. Supports matrix builds, reusable workflows with workflow_call, and composite actions with proper input/output schema definitions.
@@ -20,16 +19,18 @@ Generates and validates GitHub Actions YAML workflows using the actions/toolkit 
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install github-actions-workflow-builder-skill
+npx skills add agentskillexchange/skills --skill github-actions-workflow-builder-skill
 ```
 
 ### Claude Code
 ```bash
-claude install-skill github-actions-workflow-builder-skill
+npx skills add agentskillexchange/skills --skill github-actions-workflow-builder-skill -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills/` directory or install via Cursor Settings → Skills.
+```bash
+npx skills add agentskillexchange/skills --skill github-actions-workflow-builder-skill -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -38,9 +39,8 @@ clawhub install github-actions-workflow-builder-skill
 
 ### Codex
 ```bash
-codex install-skill github-actions-workflow-builder-skill
+npx skills add agentskillexchange/skills --skill github-actions-workflow-builder-skill -a codex
 ```
-
 ## Details
 
 | | |

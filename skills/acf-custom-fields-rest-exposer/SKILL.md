@@ -3,44 +3,33 @@ name: "ACF Custom Fields REST Exposer"
 description: "Exposes Advanced Custom Fields data through the WordPress REST API using register_rest_field and acf_format_value. Handles repeater fields, flexible content layouts, and gallery fields with proper serialization."
 category: "WordPress & CMS"
 framework: "Cursor"
-verification: "community"
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/acf-custom-fields-rest-exposer/"
+source: "https://agentskillexchange.com/skills/acf-custom-fields-rest-exposer/"
 ---
-
 # ACF Custom Fields REST Exposer
 
 Exposes Advanced Custom Fields data through the WordPress REST API using register_rest_field and acf_format_value. Handles repeater fields, flexible content layouts, and gallery fields with proper serialization.
 
 ## Installation
 
-Install this skill in your agent framework of choice:
-
-### npx (Any Agent)
+### Any Agent (npx)
 ```bash
-npx agentskills install acf-custom-fields-rest-exposer
+npx skills add agentskillexchange/skills --skill acf-custom-fields-rest-exposer
 ```
 
 ### Claude Code
 ```bash
-claude mcp add skill-acf-custom-fields-rest-exposer -- npx agentskills run acf-custom-fields-rest-exposer
+npx skills add agentskillexchange/skills --skill acf-custom-fields-rest-exposer -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/mcp.json`:
-```json
-{
-  "mcpServers": {
-    "skill-acf-custom-fields-rest-exposer": {
-      "command": "npx",
-      "args": ["agentskills", "run", "acf-custom-fields-rest-exposer"]
-    }
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill acf-custom-fields-rest-exposer -a cursor
 ```
 
 ### OpenClaw
@@ -50,9 +39,8 @@ clawhub install acf-custom-fields-rest-exposer
 
 ### Codex
 ```bash
-codex install acf-custom-fields-rest-exposer
+npx skills add agentskillexchange/skills --skill acf-custom-fields-rest-exposer -a codex
 ```
-
 ## Details
 
 | | |

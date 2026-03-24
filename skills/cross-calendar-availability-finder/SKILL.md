@@ -6,12 +6,11 @@ framework: "Cursor"
 verification: verified_metadata
 rating: 4.2
 reviews: 23
-creator: Elena Kowalski
-creator_handle: ekowalski
+creator: "Elena Kowalski"
+creator_handle: "@ekowalski"
 creator_verified: true
-source: https://agentskillexchange.com/skill/cross-calendar-availability-finder/
+source: "https://agentskillexchange.com/skills/cross-calendar-availability-finder/"
 ---
-
 # Cross-Calendar Availability Finder
 
 Fetches availability from Google Calendar FreeBusy API and Microsoft Graph /me/calendarView in parallel to find overlapping open slots. Ranks candidate meeting times by attendee preference and timezone overlap. Sends confirmation emails and creates matching events in both calendars atomically.

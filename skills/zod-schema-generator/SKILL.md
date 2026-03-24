@@ -3,37 +3,34 @@ name: "Zod Schema Generator"
 description: "Converts JSON samples, TypeScript interfaces, and OpenAPI specs into Zod validation schemas. Uses ts-morph for AST parsing and zod-to-json-schema for bidirectional conversion."
 category: "Library & API Reference"
 framework: "Cursor"
-verification: "✅ Verified"
-security: "✅ Reviewed"
-rating: "4.2"
-reviews: "61"
+verification: security_reviewed
+rating: 4.2
+reviews: 61
 creator: "Omar Farouk"
 creator_handle: "@omarfarouk"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/zod-schema-generator/"
+source: "https://agentskillexchange.com/skills/zod-schema-generator/"
+security: "✅ Reviewed"
 ---
-
 # Zod Schema Generator
 
 Converts JSON samples, TypeScript interfaces, and OpenAPI specs into Zod validation schemas. Uses ts-morph for AST parsing and zod-to-json-schema for bidirectional conversion.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install zod-schema-generator
+npx skills add agentskillexchange/skills --skill zod-schema-generator
 ```
 
 ### Claude Code
 ```bash
-claude skills add zod-schema-generator
+npx skills add agentskillexchange/skills --skill zod-schema-generator -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor skills install zod-schema-generator
+npx skills add agentskillexchange/skills --skill zod-schema-generator -a cursor
 ```
 
 ### OpenClaw
@@ -43,9 +40,8 @@ clawhub install zod-schema-generator
 
 ### Codex
 ```bash
-codex skills add zod-schema-generator
+npx skills add agentskillexchange/skills --skill zod-schema-generator -a codex
 ```
-
 ## Details
 
 | Field | Value |

@@ -3,41 +3,33 @@ name: "Cookiecutter Project Bootstrapper"
 description: "Bootstraps project repositories from Cookiecutter templates with Jinja2 variable substitution and post-generation hooks. Supports remote template registries and custom extension plugins."
 category: "Templates & Workflows"
 framework: "Gemini"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.1
 reviews: 86
 creator: "Aisha Patel"
 creator_handle: "@aishapatel"
-creator_verified: yes
-source: "https://agentskillexchange.com/skill/cookiecutter-project-bootstrapper/"
+creator_verified: true
+source: "https://agentskillexchange.com/skills/cookiecutter-project-bootstrapper/"
 ---
-
 # Cookiecutter Project Bootstrapper
 
 Bootstraps project repositories from Cookiecutter templates with Jinja2 variable substitution and post-generation hooks. Supports remote template registries and custom extension plugins.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx agentskills install cookiecutter-project-bootstrapper
+npx skills add agentskillexchange/skills --skill cookiecutter-project-bootstrapper
 ```
 
 ### Claude Code
 ```bash
-claude mcp add cookiecutter-project-bootstrapper
+npx skills add agentskillexchange/skills --skill cookiecutter-project-bootstrapper -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "cookiecutter-project-bootstrapper": {
-    "enabled": true
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill cookiecutter-project-bootstrapper -a cursor
 ```
 
 ### OpenClaw
@@ -47,9 +39,8 @@ clawhub install cookiecutter-project-bootstrapper
 
 ### Codex
 ```bash
-codex install cookiecutter-project-bootstrapper
+npx skills add agentskillexchange/skills --skill cookiecutter-project-bootstrapper -a codex
 ```
-
 ## Details
 
 | Field | Value |

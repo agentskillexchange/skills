@@ -3,36 +3,33 @@ name: "GitLab CI Template Generator"
 description: "Creates GitLab CI/CD pipeline templates using Auto DevOps components, Kaniko for container builds, and SAST/DAST security scanning. Supports multi-project pipelines with trigger and bridge jobs."
 category: "CI/CD Integrations"
 framework: "OpenClaw"
-verification: "community"
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
-creator_verified: "false"
-source: "https://agentskillexchange.com/skill/gitlab-ci-template-generator/"
+creator_verified: false
+source: "https://agentskillexchange.com/skills/gitlab-ci-template-generator/"
 ---
-
 # GitLab CI Template Generator
 
 Creates GitLab CI/CD pipeline templates using Auto DevOps components, Kaniko for container builds, and SAST/DAST security scanning. Supports multi-project pipelines with trigger and bridge jobs.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install gitlab-ci-template-generator
+npx skills add agentskillexchange/skills --skill gitlab-ci-template-generator
 ```
 
 ### Claude Code
 ```bash
-claude skills add gitlab-ci-template-generator
+npx skills add agentskillexchange/skills --skill gitlab-ci-template-generator -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor skills install gitlab-ci-template-generator
+npx skills add agentskillexchange/skills --skill gitlab-ci-template-generator -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install gitlab-ci-template-generator
 
 ### Codex
 ```bash
-codex skills add gitlab-ci-template-generator
+npx skills add agentskillexchange/skills --skill gitlab-ci-template-generator -a codex
 ```
-
 ## Details
 
 | Field | Value |

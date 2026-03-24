@@ -3,36 +3,33 @@ name: "Trivy Container Security Scanner"
 description: "Integrates Aqua Security Trivy CLI for comprehensive container image vulnerability scanning. Detects OS package CVEs, language-specific dependency vulnerabilities, and IaC misconfigurations with SARIF output format for CI/CD pipeline integration."
 category: "Security & Verification"
 framework: "Codex"
-verification: "✅ Verified"
-rating: "4.2"
-reviews: "84"
+verification: security_reviewed
+rating: 4.2
+reviews: 84
 creator: "Marcus Chen"
 creator_handle: "@marcuschen"
-creator_verified: "true"
-source: "https://agentskillexchange.com/skill/trivy-container-security-scanner/"
+creator_verified: true
+source: "https://agentskillexchange.com/skills/trivy-container-security-scanner/"
 ---
-
 # Trivy Container Security Scanner
 
 Integrates Aqua Security Trivy CLI for comprehensive container image vulnerability scanning. Detects OS package CVEs, language-specific dependency vulnerabilities, and IaC misconfigurations with SARIF output format for CI/CD pipeline integration.
 
 ## Installation
 
-Install this skill in your AI coding agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install trivy-container-security-scanner
+npx skills add agentskillexchange/skills --skill trivy-container-security-scanner
 ```
 
 ### Claude Code
 ```bash
-claude skills add trivy-container-security-scanner
+npx skills add agentskillexchange/skills --skill trivy-container-security-scanner -a claude-code
 ```
 
 ### Cursor
-```
-Install from Cursor Settings → Skills → Add Skill → "Trivy Container Security Scanner"
+```bash
+npx skills add agentskillexchange/skills --skill trivy-container-security-scanner -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install trivy-container-security-scanner
 
 ### Codex
 ```bash
-codex skills add trivy-container-security-scanner
+npx skills add agentskillexchange/skills --skill trivy-container-security-scanner -a codex
 ```
-
 ## Details
 
 | Field | Value |

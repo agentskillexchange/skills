@@ -3,15 +3,14 @@ name: "NPM Package Dependency Auditor"
 description: "Deep-audits npm package dependency trees using the npm Registry API and Socket.dev security intelligence. Identifies supply chain risks, typosquatting, and license incompatibilities across transitive dependencies."
 category: "Library & API Reference"
 framework: "MCP-compatible"
-verification: "✅ Verified"
-rating: "4.3"
-reviews: "73"
+verification: security_reviewed
+rating: 4.3
+reviews: 73
 creator: "Meera Joshi"
 creator_handle: "@meerajoshi"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/npm-package-dependency-auditor/"
+source: "https://agentskillexchange.com/skills/npm-package-dependency-auditor/"
 ---
-
 # NPM Package Dependency Auditor
 
 Deep-audits npm package dependency trees using the npm Registry API and Socket.dev security intelligence. Identifies supply chain risks, typosquatting, and license incompatibilities across transitive dependencies.
@@ -20,17 +19,17 @@ Deep-audits npm package dependency trees using the npm Registry API and Socket.d
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install npm-package-dependency-auditor
+npx skills add agentskillexchange/skills --skill npm-package-dependency-auditor
 ```
 
 ### Claude Code
 ```bash
-claude skills add npm-package-dependency-auditor
+npx skills add agentskillexchange/skills --skill npm-package-dependency-auditor -a claude-code
 ```
 
 ### Cursor
-```
-Install from Cursor Settings → Skills → Add Skill → "NPM Package Dependency Auditor"
+```bash
+npx skills add agentskillexchange/skills --skill npm-package-dependency-auditor -a cursor
 ```
 
 ### OpenClaw
@@ -40,9 +39,8 @@ clawhub install npm-package-dependency-auditor
 
 ### Codex
 ```bash
-codex skills install npm-package-dependency-auditor
+npx skills add agentskillexchange/skills --skill npm-package-dependency-auditor -a codex
 ```
-
 ## Details
 
 | Field | Value |

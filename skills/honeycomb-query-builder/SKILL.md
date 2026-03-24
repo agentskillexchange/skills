@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.7
 reviews: 85
-creator: Mia Zhang
-creator_handle: miazhang
+creator: "Mia Zhang"
+creator_handle: "@miazhang"
 creator_verified: true
-source: https://agentskillexchange.com/skill/honeycomb-query-builder/
+source: "https://agentskillexchange.com/skills/honeycomb-query-builder/"
 ---
-
 # Honeycomb Query Builder
 
 Builds and executes Honeycomb queries for high-cardinality observability data. Generates BubbleUp queries, heatmaps, and SLO analysis from event data to find root cause in complex distributed systems.

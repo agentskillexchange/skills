@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.3
 reviews: 67
-creator: Raj Gupta
-creator_handle: rajgupta
+creator: "Raj Gupta"
+creator_handle: "@rajgupta"
 creator_verified: true
-source: https://agentskillexchange.com/skill/database-slow-query-runbook/
+source: "https://agentskillexchange.com/skills/database-slow-query-runbook/"
 ---
-
 # Database Slow Query Runbook
 
 Use this skill to identify and fix slow database queries through systematic analysis of query execution plans, indexes, and database performance metrics. It walks through EXPLAIN/EXPLAIN ANALYZE output and recommends optimizations. Trigger when database queries are slow, timeouts are occurring, or database CPU/IO is spiking.

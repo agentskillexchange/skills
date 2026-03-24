@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.8
 reviews: 63
-creator: David Kim
-creator_handle: dkim
+creator: "David Kim"
+creator_handle: "@dkim"
 creator_verified: false
-source: https://agentskillexchange.com/skill/zoom-meeting-summarizer/
+source: "https://agentskillexchange.com/skills/zoom-meeting-summarizer/"
 ---
-
 # Zoom Meeting Summarizer
 
 Retrieve Zoom meeting recordings, transcripts, and participant reports through the Zoom API, then generate structured summaries with action items using an AI agent. Supports automated post-meeting note distribution and calendar event linking.

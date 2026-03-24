@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.9
 reviews: 9
-creator: Marcus Rivera
-creator_handle: mrivera
+creator: "Marcus Rivera"
+creator_handle: "@mrivera"
 creator_verified: true
-source: https://agentskillexchange.com/skill/codeclimate-maintainability-tracker/
+source: "https://agentskillexchange.com/skills/codeclimate-maintainability-tracker/"
 ---
-
 # CodeClimate Maintainability Tracker
 
 Tracks CodeClimate maintainability scores over time using the CodeClimate v1 API. Generates trend reports for technical debt, duplication, and complexity metrics.

@@ -3,15 +3,14 @@ name: "YouTube Chapter Generator from Transcripts"
 description: "Extracts YouTube video transcripts via the youtube-transcript-api Python library and generates semantic chapter markers. Uses sentence-transformers for topic segmentation and formats chapter timestamps for YouTube description metadata compliance."
 category: "Media & Transcription"
 framework: "OpenClaw"
-verification: "✅ Verified"
-rating: "4.9"
-reviews: "86"
+verification: security_reviewed
+rating: 4.9
+reviews: 86
 creator: "Omar Farouk"
 creator_handle: "@omarfarouk"
-creator_verified: "true"
-source: "https://agentskillexchange.com/skill/youtube-chapter-generator-transcripts/"
+creator_verified: true
+source: "https://agentskillexchange.com/skills/youtube-chapter-generator-transcripts/"
 ---
-
 # YouTube Chapter Generator from Transcripts
 
 Extracts YouTube video transcripts via the youtube-transcript-api Python library and generates semantic chapter markers. Uses sentence-transformers for topic segmentation and formats chapter timestamps for YouTube description metadata compliance.
@@ -20,20 +19,17 @@ Extracts YouTube video transcripts via the youtube-transcript-api Python library
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install youtube-chapter-generator-transcripts
+npx skills add agentskillexchange/skills --skill youtube-chapter-generator-transcripts
 ```
 
 ### Claude Code
 ```bash
-claude mcp add youtube-chapter-generator-transcripts
+npx skills add agentskillexchange/skills --skill youtube-chapter-generator-transcripts -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "skills": ["youtube-chapter-generator-transcripts"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill youtube-chapter-generator-transcripts -a cursor
 ```
 
 ### OpenClaw
@@ -43,9 +39,8 @@ clawhub install youtube-chapter-generator-transcripts
 
 ### Codex
 ```bash
-codex install youtube-chapter-generator-transcripts
+npx skills add agentskillexchange/skills --skill youtube-chapter-generator-transcripts -a codex
 ```
-
 ## Details
 
 | Field | Value |

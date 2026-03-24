@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.1
 reviews: 51
-creator: Zara Ahmed
-creator_handle: zaraahmed
+creator: "Zara Ahmed"
+creator_handle: "@zaraahmed"
 creator_verified: true
-source: https://agentskillexchange.com/skill/pre-commit-hook-runner/
+source: "https://agentskillexchange.com/skills/pre-commit-hook-runner/"
 ---
-
 # Pre-commit Hook Runner
 
 Use this skill when you need to run pre-commit hooks on staged files or across an entire codebase to catch issues before committing. It executes the pre-commit framework’s checks — formatting, linting, secret detection — and surfaces failures with actionable output.

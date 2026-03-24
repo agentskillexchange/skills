@@ -3,15 +3,14 @@ name: "Jenkins Shared Library Linter"
 description: "Validates Jenkins Shared Library Groovy code using the Jenkins Pipeline Model Definition API and Groovy AST parser. Catches syntax errors and anti-patterns before pipeline execution."
 category: "CI/CD Integrations"
 framework: "Codex"
-verification: "verified_metadata"
-rating: "0"
-reviews: "0"
+verification: verified_metadata
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/jenkins-shared-library-linter/"
+source: "https://agentskillexchange.com/skills/jenkins-shared-library-linter/"
 ---
-
 # Jenkins Shared Library Linter
 
 Validates Jenkins Shared Library Groovy code using the Jenkins Pipeline Model Definition API and Groovy AST parser. Catches syntax errors and anti-patterns before pipeline execution.
@@ -20,23 +19,17 @@ Validates Jenkins Shared Library Groovy code using the Jenkins Pipeline Model De
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agentskill install jenkins-shared-library-linter
+npx skills add agentskillexchange/skills --skill jenkins-shared-library-linter
 ```
 
 ### Claude Code
 ```bash
-claude mcp add jenkins-shared-library-linter
+npx skills add agentskillexchange/skills --skill jenkins-shared-library-linter -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "jenkins-shared-library-linter": {
-    "source": "agentskillexchange",
-    "enabled": true
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill jenkins-shared-library-linter -a cursor
 ```
 
 ### OpenClaw
@@ -46,9 +39,8 @@ clawhub install jenkins-shared-library-linter
 
 ### Codex
 ```bash
-codex install jenkins-shared-library-linter
+npx skills add agentskillexchange/skills --skill jenkins-shared-library-linter -a codex
 ```
-
 ## Details
 
 | Field | Value |

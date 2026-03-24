@@ -3,39 +3,33 @@ name: "Yeoman Scaffold Runner"
 description: "Executes Yeoman generators via the yo CLI and yeoman-environment API to scaffold applications, components, and microservices. Manages generator discovery through the npm registry and supports sub-generator composition."
 category: "Templates & Workflows"
 framework: "OpenClaw"
-verification: "Yes"
-rating: "4.8"
-reviews: "86"
+verification: verified_metadata
+rating: 4.8
+reviews: 86
 creator: "Ryan O'Malley"
 creator_handle: "@ryanomalley"
-creator_verified: "No"
-source: "https://agentskillexchange.com/skill/yeoman-scaffold-runner/"
+creator_verified: false
+source: "https://agentskillexchange.com/skills/yeoman-scaffold-runner/"
 ---
-
 # Yeoman Scaffold Runner
 
 Executes Yeoman generators via the yo CLI and yeoman-environment API to scaffold applications, components, and microservices. Manages generator discovery through the npm registry and supports sub-generator composition.
 
 ## Installation
 
-Install this skill for your preferred agent framework:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skill install yeoman-scaffold-runner
+npx skills add agentskillexchange/skills --skill yeoman-scaffold-runner
 ```
 
 ### Claude Code
 ```bash
-claude skills install yeoman-scaffold-runner
+npx skills add agentskillexchange/skills --skill yeoman-scaffold-runner -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["yeoman-scaffold-runner"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill yeoman-scaffold-runner -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install yeoman-scaffold-runner
 
 ### Codex
 ```bash
-codex skills install yeoman-scaffold-runner
+npx skills add agentskillexchange/skills --skill yeoman-scaffold-runner -a codex
 ```
-
 ## Details
 
 | Property | Value |

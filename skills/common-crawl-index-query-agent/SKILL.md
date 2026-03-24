@@ -3,35 +3,34 @@ name: "Common Crawl Index Query Agent"
 description: "Queries the Common Crawl Index API for large-scale web archive research and data extraction. Uses the CDX Server API, WARC record parsing with warcio, and the Common Crawl S3 bucket for bulk data access."
 category: "Research & Scraping"
 framework: "OpenClaw"
-verification: "Community"
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/common-crawl-index-query-agent/"
+source: "https://agentskillexchange.com/skills/common-crawl-index-query-agent/"
 ---
-
 # Common Crawl Index Query Agent
 
 Queries the Common Crawl Index API for large-scale web archive research and data extraction. Uses the CDX Server API, WARC record parsing with warcio, and the Common Crawl S3 bucket for bulk data access.
 
 ## Installation
 
-Install this skill across different agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install common-crawl-index-query-agent
+npx skills add agentskillexchange/skills --skill common-crawl-index-query-agent
 ```
 
 ### Claude Code
 ```bash
-claude skills add common-crawl-index-query-agent
+npx skills add agentskillexchange/skills --skill common-crawl-index-query-agent -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` directory or install via Cursor settings.
+```bash
+npx skills add agentskillexchange/skills --skill common-crawl-index-query-agent -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install common-crawl-index-query-agent
 
 ### Codex
 ```bash
-codex skills add common-crawl-index-query-agent
+npx skills add agentskillexchange/skills --skill common-crawl-index-query-agent -a codex
 ```
-
 ## Details
 
 | Field | Value |

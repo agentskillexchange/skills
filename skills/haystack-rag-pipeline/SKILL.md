@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.8
 reviews: 68
-creator: Ava Wilson
-creator_handle: avawilson
+creator: "Ava Wilson"
+creator_handle: "@avawilson"
 creator_verified: true
-source: https://agentskillexchange.com/skill/haystack-rag-pipeline/
+source: "https://agentskillexchange.com/skills/haystack-rag-pipeline/"
 ---
-
 # Haystack RAG Pipeline
 
 Haystack is an open-source NLP framework for building retrieval-augmented generation (RAG) pipelines, question answering systems, and semantic search. This skill covers building production RAG pipelines with document preprocessing, embedding, retrieval, and generation components.

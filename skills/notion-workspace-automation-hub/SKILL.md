@@ -3,36 +3,33 @@ name: "Notion Workspace Automation Hub"
 description: "Orchestrates Notion workspace workflows using Notion API v2 with database queries, page creation, and relation property management. Automates sprint boards, meeting notes, and knowledge base maintenance."
 category: "Calendar, Email & Productivity"
 framework: "Custom Agents"
-verification: "Verified ✅"
+verification: security_reviewed
 rating: 4.8
 reviews: 80
 creator: "David Nguyen"
 creator_handle: "@davidnguyen"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/notion-workspace-automation-hub/"
+source: "https://agentskillexchange.com/skills/notion-workspace-automation-hub/"
 ---
-
 # Notion Workspace Automation Hub
 
 Orchestrates Notion workspace workflows using Notion API v2 with database queries, page creation, and relation property management. Automates sprint boards, meeting notes, and knowledge base maintenance.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install notion-workspace-automation-hub
+npx skills add agentskillexchange/skills --skill notion-workspace-automation-hub
 ```
 
 ### Claude Code
 ```bash
-claude skills add notion-workspace-automation-hub
+npx skills add agentskillexchange/skills --skill notion-workspace-automation-hub -a claude-code
 ```
 
 ### Cursor
-```
-Install from Cursor Settings → Skills → Search "Notion Workspace Automation Hub"
+```bash
+npx skills add agentskillexchange/skills --skill notion-workspace-automation-hub -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install notion-workspace-automation-hub
 
 ### Codex
 ```bash
-codex skills install notion-workspace-automation-hub
+npx skills add agentskillexchange/skills --skill notion-workspace-automation-hub -a codex
 ```
-
 ## Details
 
 | Field | Value |

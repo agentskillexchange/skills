@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.4
 reviews: 46
-creator: Kai Nakamura
-creator_handle: kainakamura
+creator: "Kai Nakamura"
+creator_handle: "@kainakamura"
 creator_verified: true
-source: https://agentskillexchange.com/skill/bitbucket-pipelines-integration-2/
+source: "https://agentskillexchange.com/skills/bitbucket-pipelines-integration-2/"
 ---
-
 # Bitbucket Pipelines Integration
 
 Skill for authoring and optimizing Bitbucket Pipelines CI/CD configuration. Covers bitbucket-pipelines.yml structure, step caching, parallel steps, deployment environments, and Atlassian ecosystem integrations.

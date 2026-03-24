@@ -6,12 +6,11 @@ framework: "OpenClaw"
 verification: security_reviewed
 rating: 4.7
 reviews: 49
-creator: Leo Park
-creator_handle: leopark
+creator: "Leo Park"
+creator_handle: "@leopark"
 creator_verified: true
-source: https://agentskillexchange.com/skill/github-actions-matrix-builder-3/
+source: "https://agentskillexchange.com/skills/github-actions-matrix-builder-3/"
 ---
-
 # GitHub Actions Matrix Builder
 
 Generates dynamic GitHub Actions CI/CD matrix strategies using the actions/github-script API and octokit/rest.js. Automatically detects changed packages in monorepos via dorny/paths-filter and creates optimized parallel test matrices.

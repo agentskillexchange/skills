@@ -3,36 +3,33 @@ name: "Yeoman Generator Builder"
 description: "Builds Yeoman generators using the yeoman-generator base class and mem-fs-editor for virtual filesystem operations. Handles generator composition, sub-generators, and the Yeoman storage API for per..."
 category: "Templates & Workflows"
 framework: "OpenClaw"
-verification: ""
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/yeoman-generator-builder-2/"
+source: "https://agentskillexchange.com/skills/yeoman-generator-builder-2/"
 ---
-
 # Yeoman Generator Builder
 
 Builds Yeoman generators using the yeoman-generator base class and mem-fs-editor for virtual filesystem operations. Handles generator composition, sub-generators, and the Yeoman storage API for persistent user preferences.
 
 ## Installation
 
-Install this skill across different AI coding agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install yeoman-generator-builder-2
+npx skills add agentskillexchange/skills --skill yeoman-generator-builder-2
 ```
 
 ### Claude Code
 ```bash
-claude skills add yeoman-generator-builder-2
+npx skills add agentskillexchange/skills --skill yeoman-generator-builder-2 -a claude-code
 ```
 
 ### Cursor
-```
-Install from Cursor Settings → Skills → Add → Search "Yeoman Generator Builder"
+```bash
+npx skills add agentskillexchange/skills --skill yeoman-generator-builder-2 -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install yeoman-generator-builder-2
 
 ### Codex
 ```bash
-codex skills add yeoman-generator-builder-2
+npx skills add agentskillexchange/skills --skill yeoman-generator-builder-2 -a codex
 ```
-
 ## Details
 
 | Property | Value |

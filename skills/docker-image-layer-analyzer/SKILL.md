@@ -3,15 +3,14 @@ name: "Docker Image Layer Analyzer"
 description: "Analyzes Docker image layers using the Docker Registry HTTP API v2 and dive CLI tool. Calculates layer sizes, identifies wasted space, and suggests multi-stage build optimizations."
 category: "Library & API Reference"
 framework: "Claude Code"
-verification: "security_reviewed"
-rating: "4.6"
-reviews: "83"
+verification: security_reviewed
+rating: 4.6
+reviews: 83
 creator: "Community"
 creator_handle: ""
-creator_verified: "false"
-source: "https://agentskillexchange.com/skill/docker-image-layer-analyzer/"
+creator_verified: false
+source: "https://agentskillexchange.com/skills/docker-image-layer-analyzer/"
 ---
-
 # Docker Image Layer Analyzer
 
 Analyzes Docker image layers using the Docker Registry HTTP API v2 and dive CLI tool. Calculates layer sizes, identifies wasted space, and suggests multi-stage build optimizations.
@@ -20,17 +19,17 @@ Analyzes Docker image layers using the Docker Registry HTTP API v2 and dive CLI 
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install docker-image-layer-analyzer
+npx skills add agentskillexchange/skills --skill docker-image-layer-analyzer
 ```
 
 ### Claude Code
 ```bash
-claude skills add docker-image-layer-analyzer
+npx skills add agentskillexchange/skills --skill docker-image-layer-analyzer -a claude-code
 ```
 
 ### Cursor
-```
-Install from Cursor Settings → Skills → Add → "Docker Image Layer Analyzer"
+```bash
+npx skills add agentskillexchange/skills --skill docker-image-layer-analyzer -a cursor
 ```
 
 ### OpenClaw
@@ -40,9 +39,8 @@ clawhub install docker-image-layer-analyzer
 
 ### Codex
 ```bash
-codex skills add docker-image-layer-analyzer
+npx skills add agentskillexchange/skills --skill docker-image-layer-analyzer -a codex
 ```
-
 ## Details
 
 | Field | Value |

@@ -6,12 +6,11 @@ framework: "OpenClaw"
 verification: security_reviewed
 rating: 4.8
 reviews: 80
-creator: Yuki Tanaka
-creator_handle: yukitanaka
+creator: "Yuki Tanaka"
+creator_handle: "@yukitanaka"
 creator_verified: true
-source: https://agentskillexchange.com/skill/weather-forecast-skill/
+source: "https://agentskillexchange.com/skills/weather-forecast-skill/"
 ---
-
 # Weather Forecast Skill
 
 Check current weather and forecasts inside OpenClaw workflows without needing a paid weather API.

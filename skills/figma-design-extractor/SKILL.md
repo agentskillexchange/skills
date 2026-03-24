@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.3
 reviews: 75
-creator: Priya Sharma
-creator_handle: priyasharma
+creator: "Priya Sharma"
+creator_handle: "@priyasharma"
 creator_verified: true
-source: https://agentskillexchange.com/skill/figma-design-extractor/
+source: "https://agentskillexchange.com/skills/figma-design-extractor/"
 ---
-
 # Figma Design Extractor
 
 Extract design tokens, component properties, and asset exports from Figma files through the Figma REST API via an AI agent. Automates design-to-code workflows by generating CSS variables, style dictionaries, and asset pipelines from Figma components.

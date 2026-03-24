@@ -3,41 +3,33 @@ name: "Twilio Programmable SMS Gateway"
 description: "Sends and receives SMS/MMS messages via Twilio REST API with webhook handler generation. Supports message scheduling, delivery status callbacks, and Twilio Verify for OTP flows."
 category: "Integrations & Connectors"
 framework: "OpenClaw"
-verification: ""
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/twilio-programmable-sms-gateway/"
+source: "https://agentskillexchange.com/skills/twilio-programmable-sms-gateway/"
 ---
-
 # Twilio Programmable SMS Gateway
 
 Sends and receives SMS/MMS messages via Twilio REST API with webhook handler generation. Supports message scheduling, delivery status callbacks, and Twilio Verify for OTP flows.
 
 ## Installation
 
-Install this skill using one of the following methods:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install twilio-programmable-sms-gateway
+npx skills add agentskillexchange/skills --skill twilio-programmable-sms-gateway
 ```
 
 ### Claude Code
 ```bash
-claude mcp add twilio-programmable-sms-gateway
+npx skills add agentskillexchange/skills --skill twilio-programmable-sms-gateway -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "twilio-programmable-sms-gateway": {
-    "source": "agentskillexchange"
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill twilio-programmable-sms-gateway -a cursor
 ```
 
 ### OpenClaw
@@ -47,9 +39,8 @@ clawhub install twilio-programmable-sms-gateway
 
 ### Codex
 ```bash
-codex install twilio-programmable-sms-gateway
+npx skills add agentskillexchange/skills --skill twilio-programmable-sms-gateway -a codex
 ```
-
 ## Details
 
 | Field | Value |

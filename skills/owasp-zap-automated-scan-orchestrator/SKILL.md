@@ -3,39 +3,33 @@ name: "OWASP ZAP Automated Scan Orchestrator"
 description: "Runs OWASP ZAP active and passive scans against target URLs using the ZAP Docker API. Parses JSON reports to flag XSS, SQLi, and CSRF vulnerabilities with severity scoring."
 category: "Security & Verification"
 framework: "OpenClaw"
-verification: "✅ Verified"
-rating: "4.2"
-reviews: "69"
+verification: security_reviewed
+rating: 4.2
+reviews: 69
 creator: "Sarah O'Brien"
 creator_handle: "@sarahcodes"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/owasp-zap-automated-scan-orchestrator/"
+source: "https://agentskillexchange.com/skills/owasp-zap-automated-scan-orchestrator/"
 ---
-
 # OWASP ZAP Automated Scan Orchestrator
 
 Runs OWASP ZAP active and passive scans against target URLs using the ZAP Docker API. Parses JSON reports to flag XSS, SQLi, and CSRF vulnerabilities with severity scoring.
 
 ## Installation
 
-Install this skill across different AI agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install owasp-zap-automated-scan-orchestrator
+npx skills add agentskillexchange/skills --skill owasp-zap-automated-scan-orchestrator
 ```
 
 ### Claude Code
 ```bash
-claude mcp add owasp-zap-automated-scan-orchestrator
+npx skills add agentskillexchange/skills --skill owasp-zap-automated-scan-orchestrator -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["owasp-zap-automated-scan-orchestrator"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill owasp-zap-automated-scan-orchestrator -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install owasp-zap-automated-scan-orchestrator
 
 ### Codex
 ```bash
-codex install owasp-zap-automated-scan-orchestrator
+npx skills add agentskillexchange/skills --skill owasp-zap-automated-scan-orchestrator -a codex
 ```
-
 ## Details
 
 | Field | Value |

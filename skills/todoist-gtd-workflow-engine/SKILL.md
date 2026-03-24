@@ -3,35 +3,34 @@ name: "Todoist GTD Workflow Engine"
 description: "Implements Getting Things Done methodology on Todoist using the Sync API v9. Automates weekly reviews, context tagging, and project decomposition into next actions."
 category: "Calendar, Email & Productivity"
 framework: "MCP-compatible"
-verification: "✅ Verified"
-rating: "4.8"
-reviews: "50"
+verification: security_reviewed
+rating: 4.8
+reviews: 50
 creator: "Sarah O'Brien"
 creator_handle: "@sarahcodes"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/todoist-gtd-workflow-engine/"
+source: "https://agentskillexchange.com/skills/todoist-gtd-workflow-engine/"
 ---
-
 # Todoist GTD Workflow Engine
 
 Implements Getting Things Done methodology on Todoist using the Sync API v9. Automates weekly reviews, context tagging, and project decomposition into next actions.
 
 ## Installation
 
-Install this skill across different AI coding agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install todoist-gtd-workflow-engine
+npx skills add agentskillexchange/skills --skill todoist-gtd-workflow-engine
 ```
 
 ### Claude Code
 ```bash
-claude skills install todoist-gtd-workflow-engine
+npx skills add agentskillexchange/skills --skill todoist-gtd-workflow-engine -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` directory or install via Cursor settings.
+```bash
+npx skills add agentskillexchange/skills --skill todoist-gtd-workflow-engine -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install todoist-gtd-workflow-engine
 
 ### Codex
 ```bash
-codex skills install todoist-gtd-workflow-engine
+npx skills add agentskillexchange/skills --skill todoist-gtd-workflow-engine -a codex
 ```
-
 ## Details
 
 | | |

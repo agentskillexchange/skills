@@ -6,12 +6,11 @@ framework: "Claude Agents"
 verification: security_reviewed
 rating: 4.7
 reviews: 71
-creator: Omar Hassan
-creator_handle: ohassan
+creator: "Omar Hassan"
+creator_handle: "@ohassan"
 creator_verified: true
-source: https://agentskillexchange.com/skill/feature-flag-manager/
+source: "https://agentskillexchange.com/skills/feature-flag-manager/"
 ---
-
 # Feature Flag Manager
 
 Use this skill when you need to enable, disable, or configure feature flags in tools like LaunchDarkly, Unleash, or Split.io via AI. It lets agents toggle flags for specific user segments, roll out features gradually, and check current flag states without accessing the feature flag dashboard.

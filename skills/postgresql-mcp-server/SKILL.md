@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: verified_metadata
 rating: 4.3
 reviews: 62
-creator: David Kim
-creator_handle: dkim
+creator: "David Kim"
+creator_handle: "@dkim"
 creator_verified: false
-source: https://agentskillexchange.com/skill/postgresql-mcp-server/
+source: "https://agentskillexchange.com/skills/postgresql-mcp-server/"
 ---
-
 # PostgreSQL MCP Server
 
 Agent access to PostgreSQL data and queries through MCP.

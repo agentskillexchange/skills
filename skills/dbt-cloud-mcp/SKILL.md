@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.8
 reviews: 20
-creator: Kai Nakamura
-creator_handle: kainakamura
+creator: "Kai Nakamura"
+creator_handle: "@kainakamura"
 creator_verified: true
-source: https://agentskillexchange.com/skill/dbt-cloud-mcp/
+source: "https://agentskillexchange.com/skills/dbt-cloud-mcp/"
 ---
-
 # dbt Cloud MCP
 
 Connect AI agents directly to dbt Cloud via the Model Context Protocol, enabling natural-language querying of dbt models, lineage graphs, and job run status. Trigger dbt job runs, inspect model documentation, and retrieve compiled SQL from within any MCP-compatible agent workflow.

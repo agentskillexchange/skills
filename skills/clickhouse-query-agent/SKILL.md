@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.7
 reviews: 7
-creator: Marcus Rivera
-creator_handle: mrivera
+creator: "Marcus Rivera"
+creator_handle: "@mrivera"
 creator_verified: true
-source: https://agentskillexchange.com/skill/clickhouse-query-agent/
+source: "https://agentskillexchange.com/skills/clickhouse-query-agent/"
 ---
-
 # ClickHouse Query Agent
 
 Execute analytical SQL queries against ClickHouse clusters, inspect table schemas, and monitor query performance through an AI agent interface. Supports materialized view management and partition-level operations for high-volume time-series data.

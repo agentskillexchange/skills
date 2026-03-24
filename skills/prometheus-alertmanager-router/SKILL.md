@@ -3,15 +3,14 @@ name: "Prometheus AlertManager Router"
 description: "Configures and manages Prometheus AlertManager routing trees and silences via the AlertManager HTTP API. Supports PagerDuty, OpsGenie, and Slack receiver configuration with inhibition rules."
 category: "Monitoring & Alerts"
 framework: "Cursor"
-verification: "✅ Verified"
-rating: "4.8"
-reviews: "85"
+verification: security_reviewed
+rating: 4.8
+reviews: 85
 creator: "Ryan O'Malley"
 creator_handle: "@ryanomalley"
 creator_verified: false
-source: "https://agentskillexchange.com/skill/prometheus-alertmanager-router/"
+source: "https://agentskillexchange.com/skills/prometheus-alertmanager-router/"
 ---
-
 # Prometheus AlertManager Router
 
 Configures and manages Prometheus AlertManager routing trees and silences via the AlertManager HTTP API. Supports PagerDuty, OpsGenie, and Slack receiver configuration with inhibition rules.
@@ -20,22 +19,17 @@ Configures and manages Prometheus AlertManager routing trees and silences via th
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install prometheus-alertmanager-router
+npx skills add agentskillexchange/skills --skill prometheus-alertmanager-router
 ```
 
 ### Claude Code
 ```bash
-claude mcp add prometheus-alertmanager-router
+npx skills add agentskillexchange/skills --skill prometheus-alertmanager-router -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "prometheus-alertmanager-router": {
-    "source": "https://agentskillexchange.com/skill/prometheus-alertmanager-router/"
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill prometheus-alertmanager-router -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install prometheus-alertmanager-router
 
 ### Codex
 ```bash
-codex install prometheus-alertmanager-router
+npx skills add agentskillexchange/skills --skill prometheus-alertmanager-router -a codex
 ```
-
 ## Details
 
 | Field | Value |

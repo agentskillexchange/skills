@@ -3,15 +3,14 @@ name: "Slack Channel Summarizer"
 description: "Generates channel summaries using Slack Bolt SDK with conversations.history and conversations.replies endpoints. Leverages OpenAI GPT-4 API for abstractive summarization and delivers digests via Slack."
 category: "Calendar, Email & Productivity"
 framework: "MCP-compatible"
-verification: ""
+verification: listed
 rating: 0
 reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/slack-channel-summarizer-bolt-sdk/"
+source: "https://agentskillexchange.com/skills/slack-channel-summarizer-bolt-sdk/"
 ---
-
 # Slack Channel Summarizer
 
 Generates channel summaries using Slack Bolt SDK with conversations.history and conversations.replies endpoints. Leverages OpenAI GPT-4 API for abstractive summarization and delivers digests via Slack Block Kit interactive messages.
@@ -20,17 +19,17 @@ Generates channel summaries using Slack Bolt SDK with conversations.history and 
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install slack-channel-summarizer-bolt-sdk
+npx skills add agentskillexchange/skills --skill slack-channel-summarizer-bolt-sdk
 ```
 
 ### Claude Code
 ```bash
-claude skill add slack-channel-summarizer-bolt-sdk
+npx skills add agentskillexchange/skills --skill slack-channel-summarizer-bolt-sdk -a claude-code
 ```
 
 ### Cursor
-```
-Install from Cursor Settings > Skills > Add Skill > "Slack Channel Summarizer"
+```bash
+npx skills add agentskillexchange/skills --skill slack-channel-summarizer-bolt-sdk -a cursor
 ```
 
 ### OpenClaw
@@ -40,9 +39,8 @@ clawhub install slack-channel-summarizer-bolt-sdk
 
 ### Codex
 ```bash
-codex skill add slack-channel-summarizer-bolt-sdk
+npx skills add agentskillexchange/skills --skill slack-channel-summarizer-bolt-sdk -a codex
 ```
-
 ## Details
 
 | Property | Value |

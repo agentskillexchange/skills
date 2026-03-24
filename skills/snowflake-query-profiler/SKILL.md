@@ -3,15 +3,14 @@ name: "Snowflake Query Profiler"
 description: "Profiles and optimizes Snowflake SQL queries using the Snowflake Information Schema and Query History views. Identifies warehouse sizing issues, scanning inefficiencies, and recommends clustering keys."
 category: "Data Extraction & Transformation"
 framework: "ChatGPT Agents"
-verification: "✅ Verified"
-rating: "4.8"
-reviews: "32"
+verification: security_reviewed
+rating: 4.8
+reviews: 32
 creator: "Elena Rodriguez"
 creator_handle: "@elena_dev"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/snowflake-query-profiler/"
+source: "https://agentskillexchange.com/skills/snowflake-query-profiler/"
 ---
-
 # Snowflake Query Profiler
 
 Profiles and optimizes Snowflake SQL queries using the Snowflake Information Schema and Query History views. Identifies warehouse sizing issues, scanning inefficiencies, and recommends clustering keys.
@@ -19,33 +18,29 @@ Profiles and optimizes Snowflake SQL queries using the Snowflake Information Sch
 ## Installation
 
 ### Any Agent (npx)
-
 ```bash
-npx @anthropic/agent-skills install snowflake-query-profiler
+npx skills add agentskillexchange/skills --skill snowflake-query-profiler
 ```
 
 ### Claude Code
-
 ```bash
-claude mcp add snowflake-query-profiler
+npx skills add agentskillexchange/skills --skill snowflake-query-profiler -a claude-code
 ```
 
 ### Cursor
-
-Add to `.cursor/skills/` directory or install via Cursor settings.
+```bash
+npx skills add agentskillexchange/skills --skill snowflake-query-profiler -a cursor
+```
 
 ### OpenClaw
-
 ```bash
 clawhub install snowflake-query-profiler
 ```
 
 ### Codex
-
 ```bash
-codex install snowflake-query-profiler
+npx skills add agentskillexchange/skills --skill snowflake-query-profiler -a codex
 ```
-
 ## Details
 
 | Field | Value |

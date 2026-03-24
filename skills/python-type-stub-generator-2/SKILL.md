@@ -3,35 +3,32 @@ name: "Python Type Stub Generator"
 description: "Generates Python type stubs (.pyi files) using mypy stubgen and MonkeyType runtime tracing. Handles C extension modules via stubtest validation against the typeshed repository."
 category: "Library & API Reference"
 framework: "Claude Agents"
-verification: "Security Reviewed"
-rating: "4.3"
-reviews: "77"
+verification: security_reviewed
+rating: 4.3
+reviews: 77
 creator: "Community"
 creator_verified: false
-source: "https://agentskillexchange.com/skill/python-type-stub-generator-2/"
+source: "https://agentskillexchange.com/skills/python-type-stub-generator-2/"
 ---
-
 # Python Type Stub Generator
 
 Generates Python type stubs (.pyi files) using mypy stubgen and MonkeyType runtime tracing. Handles C extension modules via stubtest validation against the typeshed repository.
 
 ## Installation
 
-Install this skill for your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install python-type-stub-generator-2
+npx skills add agentskillexchange/skills --skill python-type-stub-generator-2
 ```
 
 ### Claude Code
 ```bash
-claude skills add python-type-stub-generator-2
+npx skills add agentskillexchange/skills --skill python-type-stub-generator-2 -a claude-code
 ```
 
 ### Cursor
-```
-Install python-type-stub-generator-2 from Cursor Settings → Skills
+```bash
+npx skills add agentskillexchange/skills --skill python-type-stub-generator-2 -a cursor
 ```
 
 ### OpenClaw
@@ -41,9 +38,8 @@ clawhub install python-type-stub-generator-2
 
 ### Codex
 ```bash
-codex skills add python-type-stub-generator-2
+npx skills add agentskillexchange/skills --skill python-type-stub-generator-2 -a codex
 ```
-
 ## Details
 
 | Field | Value |

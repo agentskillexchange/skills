@@ -3,15 +3,14 @@ name: "Notion Task Sync Bridge"
 description: "Bidirectionally syncs tasks between Notion databases and external project management tools using the Notion API v2022-06-28. Handles property mapping, status updates, and relation fields."
 category: "Calendar, Email & Productivity"
 framework: "Cursor"
-verification: ""
+verification: listed
 rating: 0
 reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/notion-task-sync-bridge/"
+source: "https://agentskillexchange.com/skills/notion-task-sync-bridge/"
 ---
-
 # Notion Task Sync Bridge
 
 Bidirectionally syncs tasks between Notion databases and external project management tools using the Notion API v2022-06-28. Handles property mapping, status updates, and relation fields.
@@ -20,16 +19,18 @@ Bidirectionally syncs tasks between Notion databases and external project manage
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install notion-task-sync-bridge
+npx skills add agentskillexchange/skills --skill notion-task-sync-bridge
 ```
 
 ### Claude Code
 ```bash
-claude install-skill notion-task-sync-bridge
+npx skills add agentskillexchange/skills --skill notion-task-sync-bridge -a claude-code
 ```
 
 ### Cursor
-Download from [Agent Skill Exchange](https://agentskillexchange.com/skill/notion-task-sync-bridge/) and add to your `.cursor/skills/` directory.
+```bash
+npx skills add agentskillexchange/skills --skill notion-task-sync-bridge -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -38,9 +39,8 @@ clawhub install notion-task-sync-bridge
 
 ### Codex
 ```bash
-codex install-skill notion-task-sync-bridge
+npx skills add agentskillexchange/skills --skill notion-task-sync-bridge -a codex
 ```
-
 ## Details
 
 | Field | Value |

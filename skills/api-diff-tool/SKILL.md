@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.1
 reviews: 42
-creator: Sarah Chen
-creator_handle: sarahchen
+creator: "Sarah Chen"
+creator_handle: "@sarahchen"
 creator_verified: true
-source: https://agentskillexchange.com/skill/api-diff-tool/
+source: "https://agentskillexchange.com/skills/api-diff-tool/"
 ---
-
 # API Diff Tool
 
 Compares two API responses (by endpoint or spec) and highlights structural differences, missing fields, type changes, and behavioral divergence. Useful for debugging API changes and validating migrations.

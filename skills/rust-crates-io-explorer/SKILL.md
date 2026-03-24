@@ -3,39 +3,33 @@ name: "Rust Crates.io Explorer"
 description: "Searches the crates.io REST API for Rust crate metadata, version diffs, and feature flag documentation. Integrates with docs.rs API for inline rustdoc retrieval and lib.rs category browsing."
 category: "Library & API Reference"
 framework: "Claude Agents"
-verification: "Yes"
-rating: "4.9"
-reviews: "80"
+verification: verified_metadata
+rating: 4.9
+reviews: 80
 creator: "Lucy Zhang"
 creator_handle: "@lucyzhang"
-creator_verified: "Yes"
-source: "https://agentskillexchange.com/skill/rust-crates-io-explorer/"
+creator_verified: true
+source: "https://agentskillexchange.com/skills/rust-crates-io-explorer/"
 ---
-
 # Rust Crates.io Explorer
 
 Searches the crates.io REST API for Rust crate metadata, version diffs, and feature flag documentation. Integrates with docs.rs API for inline rustdoc retrieval and lib.rs category browsing.
 
 ## Installation
 
-Install this skill for your preferred agent framework:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skill install rust-crates-io-explorer
+npx skills add agentskillexchange/skills --skill rust-crates-io-explorer
 ```
 
 ### Claude Code
 ```bash
-claude skills install rust-crates-io-explorer
+npx skills add agentskillexchange/skills --skill rust-crates-io-explorer -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["rust-crates-io-explorer"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill rust-crates-io-explorer -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install rust-crates-io-explorer
 
 ### Codex
 ```bash
-codex skills install rust-crates-io-explorer
+npx skills add agentskillexchange/skills --skill rust-crates-io-explorer -a codex
 ```
-
 ## Details
 
 | Property | Value |

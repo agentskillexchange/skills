@@ -6,12 +6,11 @@ framework: "Gemini"
 verification: security_reviewed
 rating: 4.6
 reviews: 70
-creator: Raj Gupta
-creator_handle: rajgupta
+creator: "Raj Gupta"
+creator_handle: "@rajgupta"
 creator_verified: true
-source: https://agentskillexchange.com/skill/eslint-rule-impact-analyzer/
+source: "https://agentskillexchange.com/skills/eslint-rule-impact-analyzer/"
 ---
-
 # ESLint Rule Impact Analyzer
 
 Evaluates the impact of enabling new ESLint rules across a codebase using the ESLint Node.js API and CLIEngine. Reports violation counts, auto-fixable ratios, and estimated remediation effort per rule.

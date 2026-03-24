@@ -6,12 +6,11 @@ framework: "ChatGPT Agents"
 verification: security_reviewed
 rating: 4.4
 reviews: 63
-creator: Kai Nakamura
-creator_handle: kainakamura
+creator: "Kai Nakamura"
+creator_handle: "@kainakamura"
 creator_verified: true
-source: https://agentskillexchange.com/skill/terraform-drift-detector/
+source: "https://agentskillexchange.com/skills/terraform-drift-detector/"
 ---
-
 # Terraform Drift Detector
 
 Detects infrastructure drift by running terraform plan with -detailed-exitcode and parsing state files using the Terraform CLI and HCP Terraform API. Reports resource-level changes with diff summaries.

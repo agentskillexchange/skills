@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.3
 reviews: 33
-creator: Chris Lee
-creator_handle: chrislee
+creator: "Chris Lee"
+creator_handle: "@chrislee"
 creator_verified: false
-source: https://agentskillexchange.com/skill/jenkins-pipeline-linter/
+source: "https://agentskillexchange.com/skills/jenkins-pipeline-linter/"
 ---
-
 # Jenkins Pipeline Linter
 
 Validates and optimizes Jenkinsfile declarative and scripted pipelines using the Jenkins Pipeline Linter API and jenkins-cli.jar. Checks for anti-patterns and suggests parallel stage refactoring.

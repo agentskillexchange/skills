@@ -3,39 +3,33 @@ name: "Parquet Column Pruning Optimizer"
 description: "Optimizes Apache Parquet file reads using PyArrow column pruning and predicate pushdown. Analyzes query patterns to recommend row group sizing and dictionary encoding strategies."
 category: "Data Extraction & Transformation"
 framework: "Custom Agents"
-verification: ""
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/parquet-column-pruning-optimizer/"
+source: "https://agentskillexchange.com/skills/parquet-column-pruning-optimizer/"
 ---
-
 # Parquet Column Pruning Optimizer
 
 Optimizes Apache Parquet file reads using PyArrow column pruning and predicate pushdown. Analyzes query patterns to recommend row group sizing and dictionary encoding strategies.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install parquet-column-pruning-optimizer
+npx skills add agentskillexchange/skills --skill parquet-column-pruning-optimizer
 ```
 
 ### Claude Code
 ```bash
-claude mcp add parquet-column-pruning-optimizer
+npx skills add agentskillexchange/skills --skill parquet-column-pruning-optimizer -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["parquet-column-pruning-optimizer"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill parquet-column-pruning-optimizer -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install parquet-column-pruning-optimizer
 
 ### Codex
 ```bash
-codex install parquet-column-pruning-optimizer
+npx skills add agentskillexchange/skills --skill parquet-column-pruning-optimizer -a codex
 ```
-
 ## Details
 
 | Field | Value |

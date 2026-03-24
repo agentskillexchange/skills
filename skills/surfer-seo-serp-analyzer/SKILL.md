@@ -3,36 +3,33 @@ name: "Surfer SEO SERP Analyzer"
 description: "Uses Surfer SEO Content Editor API to pull SERP analysis data including word count benchmarks, heading structure patterns, and NLP entity recommendations. Generates content briefs with target keyword clusters from Surfer Audit endpoints."
 category: "Content Writing & SEO"
 framework: "Cursor"
-verification: "✅ Verified"
-rating: "4.7"
-reviews: "61"
+verification: security_reviewed
+rating: 4.7
+reviews: 61
 creator: "Omar Farouk"
 creator_handle: "@omarfarouk"
-creator_verified: "true"
-source: "https://agentskillexchange.com/skill/surfer-seo-serp-analyzer/"
+creator_verified: true
+source: "https://agentskillexchange.com/skills/surfer-seo-serp-analyzer/"
 ---
-
 # Surfer SEO SERP Analyzer
 
 Uses Surfer SEO Content Editor API to pull SERP analysis data including word count benchmarks, heading structure patterns, and NLP entity recommendations. Generates content briefs with target keyword clusters from Surfer Audit endpoints.
 
 ## Installation
 
-Install this skill in your AI coding agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install surfer-seo-serp-analyzer
+npx skills add agentskillexchange/skills --skill surfer-seo-serp-analyzer
 ```
 
 ### Claude Code
 ```bash
-claude skills add surfer-seo-serp-analyzer
+npx skills add agentskillexchange/skills --skill surfer-seo-serp-analyzer -a claude-code
 ```
 
 ### Cursor
-```
-Install from Cursor Settings → Skills → Add Skill → "Surfer SEO SERP Analyzer"
+```bash
+npx skills add agentskillexchange/skills --skill surfer-seo-serp-analyzer -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install surfer-seo-serp-analyzer
 
 ### Codex
 ```bash
-codex skills add surfer-seo-serp-analyzer
+npx skills add agentskillexchange/skills --skill surfer-seo-serp-analyzer -a codex
 ```
-
 ## Details
 
 | Field | Value |

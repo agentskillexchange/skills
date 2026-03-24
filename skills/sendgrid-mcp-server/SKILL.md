@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.4
 reviews: 79
-creator: Chris Lee
-creator_handle: chrislee
+creator: "Chris Lee"
+creator_handle: "@chrislee"
 creator_verified: false
-source: https://agentskillexchange.com/skill/sendgrid-mcp-server/
+source: "https://agentskillexchange.com/skills/sendgrid-mcp-server/"
 ---
-
 # SendGrid MCP Server
 
 Use this skill when you need to send transactional emails, check email delivery stats, manage suppression lists, or query SendGrid event logs from your AI agent. It enables agents to trigger email sends and monitor deliverability without accessing the SendGrid dashboard.

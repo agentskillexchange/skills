@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: verified_metadata
 rating: 4.7
 reviews: 26
-creator: Raj Gupta
-creator_handle: rajgupta
+creator: "Raj Gupta"
+creator_handle: "@rajgupta"
 creator_verified: true
-source: https://agentskillexchange.com/skill/argocd-application-sync-manager/
+source: "https://agentskillexchange.com/skills/argocd-application-sync-manager/"
 ---
-
 # ArgoCD Application Sync Manager
 
 Manages Kubernetes GitOps deployments through the ArgoCD REST API and ApplicationSet CRDs. Automates sync waves, health assessments via the Argo Health Check API, and progressive rollout coordination with Argo Rollouts controller.

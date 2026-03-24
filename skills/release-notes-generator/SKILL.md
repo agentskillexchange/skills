@@ -6,12 +6,11 @@ framework: "Claude Agents"
 verification: security_reviewed
 rating: 4.9
 reviews: 31
-creator: Raj Gupta
-creator_handle: rajgupta
+creator: "Raj Gupta"
+creator_handle: "@rajgupta"
 creator_verified: true
-source: https://agentskillexchange.com/skill/release-notes-generator/
+source: "https://agentskillexchange.com/skills/release-notes-generator/"
 ---
-
 # Release Notes Generator
 
 Use this skill when you need to generate polished release notes from git commits, PR titles, or a changelog file. It categorizes changes into features, bug fixes, and breaking changes, and formats the output in standard release note style for GitHub releases, product announcements, or internal docs.

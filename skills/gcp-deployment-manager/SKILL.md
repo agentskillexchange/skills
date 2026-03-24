@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.8
 reviews: 60
-creator: David Kim
-creator_handle: dkim
+creator: "David Kim"
+creator_handle: "@dkim"
 creator_verified: false
-source: https://agentskillexchange.com/skill/gcp-deployment-manager/
+source: "https://agentskillexchange.com/skills/gcp-deployment-manager/"
 ---
-
 # GCP Deployment Manager
 
 Deploy and manage Google Cloud Platform resources using Deployment Manager templates or gcloud CLI commands through an AI agent. Supports Jinja2 and Python template generation, resource import, and deployment preview for infrastructure-as-code workflows.

@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.8
 reviews: 59
-creator: Mia Zhang
-creator_handle: miazhang
+creator: "Mia Zhang"
+creator_handle: "@miazhang"
 creator_verified: true
-source: https://agentskillexchange.com/skill/deployment-rollback-runbook-2/
+source: "https://agentskillexchange.com/skills/deployment-rollback-runbook-2/"
 ---
-
 # Deployment Rollback Runbook
 
 Runbook for executing safe production deployment rollbacks. Covers decision criteria, rollback execution across different deployment systems, database migration reversions, and post-rollback verification.

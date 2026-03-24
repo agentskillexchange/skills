@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.7
 reviews: 80
-creator: Priya Sharma
-creator_handle: priyasharma
+creator: "Priya Sharma"
+creator_handle: "@priyasharma"
 creator_verified: true
-source: https://agentskillexchange.com/skill/sonarqube-code-analysis/
+source: "https://agentskillexchange.com/skills/sonarqube-code-analysis/"
 ---
-
 # SonarQube Code Analysis
 
 Use this skill when you need to trigger a SonarQube scan, retrieve quality gate results, or inspect code smell and vulnerability reports for a project. It interfaces with SonarQube’s Web API to surface technical debt, security hotspots, and coverage metrics in AI-readable form.

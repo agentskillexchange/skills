@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.3
 reviews: 71
-creator: Yuki Tanaka
-creator_handle: yukitanaka
+creator: "Yuki Tanaka"
+creator_handle: "@yukitanaka"
 creator_verified: true
-source: https://agentskillexchange.com/skill/openapi-spec-validator/
+source: "https://agentskillexchange.com/skills/openapi-spec-validator/"
 ---
-
 # OpenAPI Spec Validator
 
 Use this skill when you need to validate an OpenAPI 2.0 or 3.x specification file for schema correctness, missing fields, and broken references. It runs spec validation tooling and reports specific errors with line numbers and fix suggestions.

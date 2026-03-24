@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: verified_metadata
 rating: 4.4
 reviews: 76
-creator: Alex Thompson
-creator_handle: alexthompson
+creator: "Alex Thompson"
+creator_handle: "@alexthompson"
 creator_verified: true
-source: https://agentskillexchange.com/skill/sqlite-mcp-server/
+source: "https://agentskillexchange.com/skills/sqlite-mcp-server/"
 ---
-
 # SQLite MCP Server
 
 Lightweight local database access for agent tasks.

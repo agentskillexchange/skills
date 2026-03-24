@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.0
 reviews: 61
-creator: Leo Park
-creator_handle: leopark
+creator: "Leo Park"
+creator_handle: "@leopark"
 creator_verified: true
-source: https://agentskillexchange.com/skill/groq-mcp-server/
+source: "https://agentskillexchange.com/skills/groq-mcp-server/"
 ---
-
 # Groq MCP Server
 
 Use this skill to run ultra-fast LLM inference on Llama and Mixtral models through Groq’s LPU hardware via MCP. It enables agents to get near-instantaneous responses from powerful open-source models when speed is critical. Trigger when you need very low latency LLM responses, real-time interactive applications, or high-throughput inference without compromising on model quality.

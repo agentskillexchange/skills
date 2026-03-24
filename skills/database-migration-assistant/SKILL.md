@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.9
 reviews: 20
-creator: Chris Lee
-creator_handle: chrislee
+creator: "Chris Lee"
+creator_handle: "@chrislee"
 creator_verified: false
-source: https://agentskillexchange.com/skill/database-migration-assistant/
+source: "https://agentskillexchange.com/skills/database-migration-assistant/"
 ---
-
 # Database Migration Assistant
 
 Use this skill when you need help planning, generating, or reviewing database schema migrations. It creates migration scripts (Alembic, Flyway, Liquibase, or raw SQL), checks for destructive operations, and validates backward compatibility before execution.

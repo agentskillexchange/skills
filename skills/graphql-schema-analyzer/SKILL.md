@@ -3,36 +3,33 @@ name: "GraphQL Schema Analyzer"
 description: "Analyzes GraphQL schemas using graphql-js introspection and @graphql-tools/utils. Maps type relationships, detects N+1 query patterns, and generates DataLoader batching recommendations."
 category: "Library & API Reference"
 framework: "ChatGPT Agents"
-verification: "community"
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
-creator_verified: "false"
-source: "https://agentskillexchange.com/skill/graphql-schema-analyzer/"
+creator_verified: false
+source: "https://agentskillexchange.com/skills/graphql-schema-analyzer/"
 ---
-
 # GraphQL Schema Analyzer
 
 Analyzes GraphQL schemas using graphql-js introspection and @graphql-tools/utils. Maps type relationships, detects N+1 query patterns, and generates DataLoader batching recommendations.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install graphql-schema-analyzer
+npx skills add agentskillexchange/skills --skill graphql-schema-analyzer
 ```
 
 ### Claude Code
 ```bash
-claude skills add graphql-schema-analyzer
+npx skills add agentskillexchange/skills --skill graphql-schema-analyzer -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor skills install graphql-schema-analyzer
+npx skills add agentskillexchange/skills --skill graphql-schema-analyzer -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install graphql-schema-analyzer
 
 ### Codex
 ```bash
-codex skills add graphql-schema-analyzer
+npx skills add agentskillexchange/skills --skill graphql-schema-analyzer -a codex
 ```
-
 ## Details
 
 | Field | Value |

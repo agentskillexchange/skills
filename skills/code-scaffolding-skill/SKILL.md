@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.8
 reviews: 9
-creator: Tom Anderson
-creator_handle: tanderson
+creator: "Tom Anderson"
+creator_handle: "@tanderson"
 creator_verified: false
-source: https://agentskillexchange.com/skill/code-scaffolding-skill/
+source: "https://agentskillexchange.com/skills/code-scaffolding-skill/"
 ---
-
 # Code Scaffolding Skill
 
 Use this skill to automatically generate project boilerplate, file structure, and configuration files for new software projects based on project type and requirements. It creates a ready-to-develop project structure including package files, directory layout, and essential configs. Trigger when starting a new project and needing a proper structure without manual setup.

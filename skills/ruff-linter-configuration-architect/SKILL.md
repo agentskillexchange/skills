@@ -3,15 +3,14 @@ name: "Ruff Linter Configuration Architect"
 description: "Configures and optimizes Ruff Python linter settings using the ruff CLI and pyproject.toml schema. Migrates from Flake8, isort, and Black configurations with automatic rule mapping."
 category: "Code Quality & Review"
 framework: "ChatGPT Agents"
-verification: "Verified"
-rating: "4.7"
-reviews: "86"
+verification: verified_metadata
+rating: 4.7
+reviews: 86
 creator: "Nina Volkov"
 creator_handle: "@ninavolkov"
-creator_verified: "✓"
-source: "https://agentskillexchange.com/skill/ruff-linter-configuration-architect/"
+creator_verified: false
+source: "https://agentskillexchange.com/skills/ruff-linter-configuration-architect/"
 ---
-
 # Ruff Linter Configuration Architect
 
 Configures and optimizes Ruff Python linter settings using the ruff CLI and pyproject.toml schema. Migrates from Flake8, isort, and Black configurations with automatic rule mapping.
@@ -20,20 +19,17 @@ Configures and optimizes Ruff Python linter settings using the ruff CLI and pypr
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install ruff-linter-configuration-architect
+npx skills add agentskillexchange/skills --skill ruff-linter-configuration-architect
 ```
 
 ### Claude Code
 ```bash
-claude mcp add ruff-linter-configuration-architect
+npx skills add agentskillexchange/skills --skill ruff-linter-configuration-architect -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "skills": ["ruff-linter-configuration-architect"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill ruff-linter-configuration-architect -a cursor
 ```
 
 ### OpenClaw
@@ -43,9 +39,8 @@ clawhub install ruff-linter-configuration-architect
 
 ### Codex
 ```bash
-codex install ruff-linter-configuration-architect
+npx skills add agentskillexchange/skills --skill ruff-linter-configuration-architect -a codex
 ```
-
 ## Details
 
 | Field | Value |

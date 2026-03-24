@@ -3,41 +3,33 @@ name: "Sigstore Cosign Verifier"
 description: "Validates container image signatures using Sigstore Cosign CLI and Rekor transparency logs. Enforces supply chain security policies by verifying SBOM attestations before deployment."
 category: "Security & Verification"
 framework: "Codex"
-verification: ""
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/sigstore-cosign-verifier/"
+source: "https://agentskillexchange.com/skills/sigstore-cosign-verifier/"
 ---
-
 # Sigstore Cosign Verifier
 
 Validates container image signatures using Sigstore Cosign CLI and Rekor transparency logs. Enforces supply chain security policies by verifying SBOM attestations before deployment.
 
 ## Installation
 
-Install this skill using one of the following methods:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install sigstore-cosign-verifier
+npx skills add agentskillexchange/skills --skill sigstore-cosign-verifier
 ```
 
 ### Claude Code
 ```bash
-claude mcp add sigstore-cosign-verifier
+npx skills add agentskillexchange/skills --skill sigstore-cosign-verifier -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "sigstore-cosign-verifier": {
-    "source": "agentskillexchange"
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill sigstore-cosign-verifier -a cursor
 ```
 
 ### OpenClaw
@@ -47,9 +39,8 @@ clawhub install sigstore-cosign-verifier
 
 ### Codex
 ```bash
-codex install sigstore-cosign-verifier
+npx skills add agentskillexchange/skills --skill sigstore-cosign-verifier -a codex
 ```
-
 ## Details
 
 | Field | Value |

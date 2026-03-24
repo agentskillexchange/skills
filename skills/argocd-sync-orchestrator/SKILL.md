@@ -3,39 +3,33 @@ name: "ArgoCD Sync Orchestrator"
 description: "Manages ArgoCD application syncs using the argocd CLI and the Argo CD REST API (v1alpha1). Supports progressive delivery with Argo Rollouts integration and automated health checks via Kubernetes readiness probes."
 category: "CI/CD Integrations"
 framework: "ChatGPT Agents"
-verification: "Yes"
-rating: "4.1"
-reviews: "28"
+verification: verified_metadata
+rating: 4.1
+reviews: 28
 creator: "Nina Volkov"
 creator_handle: "@ninavolkov"
-creator_verified: "Yes"
-source: "https://agentskillexchange.com/skill/argocd-sync-orchestrator/"
+creator_verified: true
+source: "https://agentskillexchange.com/skills/argocd-sync-orchestrator/"
 ---
-
 # ArgoCD Sync Orchestrator
 
 Manages ArgoCD application syncs using the argocd CLI and the Argo CD REST API (v1alpha1). Supports progressive delivery with Argo Rollouts integration and automated health checks via Kubernetes readiness probes.
 
 ## Installation
 
-Install this skill for your preferred agent framework:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skill install argocd-sync-orchestrator
+npx skills add agentskillexchange/skills --skill argocd-sync-orchestrator
 ```
 
 ### Claude Code
 ```bash
-claude skills install argocd-sync-orchestrator
+npx skills add agentskillexchange/skills --skill argocd-sync-orchestrator -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["argocd-sync-orchestrator"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill argocd-sync-orchestrator -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install argocd-sync-orchestrator
 
 ### Codex
 ```bash
-codex skills install argocd-sync-orchestrator
+npx skills add agentskillexchange/skills --skill argocd-sync-orchestrator -a codex
 ```
-
 ## Details
 
 | Property | Value |

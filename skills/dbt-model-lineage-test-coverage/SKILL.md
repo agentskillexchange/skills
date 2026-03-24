@@ -3,15 +3,14 @@ name: "dbt Model Lineage & Test Coverage Checker"
 description: "Parses dbt project artifacts (manifest.json and catalog.json) to build a lineage graph and identify models with no tests, stale documentation, or missing uniqueness assertions. Integrates with dbt Cloud API to fetch the latest run results and annotates each model with its last pass/fail status."
 category: "Data Extraction & Transformation"
 framework: "Cursor"
-verification: 
+verification: listed
 rating: 4.3
 reviews: 13
-creator: Yuki Tanaka
-creator_handle: yukitanaka
+creator: "Yuki Tanaka"
+creator_handle: "@yukitanaka"
 creator_verified: true
-source: https://agentskillexchange.com/skill/dbt-model-lineage-test-coverage/
+source: "https://agentskillexchange.com/skills/dbt-model-lineage-test-coverage/"
 ---
-
 # dbt Model Lineage & Test Coverage Checker
 
 Parses dbt project artifacts (manifest.json and catalog.json) to build a lineage graph and identify models with no tests, stale documentation, or missing uniqueness assertions. Integrates with dbt Cloud API to fetch the latest run results and annotates each model with its last pass/fail status.

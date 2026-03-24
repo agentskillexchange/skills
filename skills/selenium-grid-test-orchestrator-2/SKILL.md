@@ -3,15 +3,14 @@ name: "Selenium Grid Test Orchestrator"
 description: "Orchestrates distributed browser testing across Selenium Grid 4 nodes using the Grid API. Manages session queuing, node health, and parallel test execution via the WebDriver protocol."
 category: "Browser Automation"
 framework: "ChatGPT Agents"
-verification: "verified"
-rating: "4.7"
-reviews: "84"
+verification: verified_metadata
+rating: 4.7
+reviews: 84
 creator: "Aisha Patel"
 creator_handle: "@aishapatel"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/selenium-grid-test-orchestrator-2/"
+source: "https://agentskillexchange.com/skills/selenium-grid-test-orchestrator-2/"
 ---
-
 # Selenium Grid Test Orchestrator
 
 Orchestrates distributed browser testing across Selenium Grid 4 nodes using the Grid API. Manages session queuing, node health, and parallel test execution via the WebDriver protocol.
@@ -19,38 +18,29 @@ Orchestrates distributed browser testing across Selenium Grid 4 nodes using the 
 ## Installation
 
 ### Any Agent (npx)
-
 ```bash
-npx @anthropic/agent-skills install selenium-grid-test-orchestrator-2
+npx skills add agentskillexchange/skills --skill selenium-grid-test-orchestrator-2
 ```
 
 ### Claude Code
-
 ```bash
-claude mcp add selenium-grid-test-orchestrator-2
+npx skills add agentskillexchange/skills --skill selenium-grid-test-orchestrator-2 -a claude-code
 ```
 
 ### Cursor
-
-Add to `.cursor/skills.json`:
-```json
-{
-  "skills": ["selenium-grid-test-orchestrator-2"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill selenium-grid-test-orchestrator-2 -a cursor
 ```
 
 ### OpenClaw
-
 ```bash
 clawhub install selenium-grid-test-orchestrator-2
 ```
 
 ### Codex
-
 ```bash
-codex install selenium-grid-test-orchestrator-2
+npx skills add agentskillexchange/skills --skill selenium-grid-test-orchestrator-2 -a codex
 ```
-
 ## Details
 
 | Field | Value |

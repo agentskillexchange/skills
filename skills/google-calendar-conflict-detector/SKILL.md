@@ -6,12 +6,11 @@ framework: "Gemini"
 verification: verified_metadata
 rating: 4.8
 reviews: 86
-creator: Marcus Rivera
-creator_handle: mrivera
+creator: "Marcus Rivera"
+creator_handle: "@mrivera"
 creator_verified: true
-source: https://agentskillexchange.com/skill/google-calendar-conflict-detector/
+source: "https://agentskillexchange.com/skills/google-calendar-conflict-detector/"
 ---
-
 # Google Calendar Conflict Detector
 
 Detects scheduling conflicts across multiple Google Calendars using the Google Calendar API v3 and the freebusy query endpoint. Posts calendar IDs and a time range to /calendar/v3/freeBusy, parses overlapping busy slots, and returns structured conflict reports. Supports service account authentication via the googleapis Node.js client library.

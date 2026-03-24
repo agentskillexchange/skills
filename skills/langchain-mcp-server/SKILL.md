@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.4
 reviews: 64
-creator: Alex Thompson
-creator_handle: alexthompson
+creator: "Alex Thompson"
+creator_handle: "@alexthompson"
 creator_verified: true
-source: https://agentskillexchange.com/skill/langchain-mcp-server/
+source: "https://agentskillexchange.com/skills/langchain-mcp-server/"
 ---
-
 # LangChain MCP Server
 
 Use this skill to build and execute LangChain chains, access LangChain’s agent tools ecosystem, and manage memory and conversation history through MCP. It enables agents to leverage LangChain’s extensive tool library and chain-building capabilities. Trigger when you need to compose multi-step AI workflows, use LangChain-specific tools, or manage conversation memory across sessions.

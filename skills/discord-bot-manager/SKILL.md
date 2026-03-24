@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.1
 reviews: 16
-creator: Mia Zhang
-creator_handle: miazhang
+creator: "Mia Zhang"
+creator_handle: "@miazhang"
 creator_verified: true
-source: https://agentskillexchange.com/skill/discord-bot-manager/
+source: "https://agentskillexchange.com/skills/discord-bot-manager/"
 ---
-
 # Discord Bot Manager
 
 Create, deploy, and manage Discord bots including slash command registration, event handler setup, and webhook configuration through an AI agent. Supports discord.py and discord.js frameworks with automated permission scoping and OAuth2 bot invite link generation.

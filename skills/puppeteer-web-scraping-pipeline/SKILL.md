@@ -3,44 +3,33 @@ name: "Puppeteer Web Scraping Pipeline"
 description: "Builds web scraping pipelines with Puppeteer using page.evaluate, page.waitForSelector, and browser.newPage. Handles infinite scroll, cookie consent banners, and anti-bot detection with stealth plugin."
 category: "Browser Automation"
 framework: "Gemini"
-verification: "community"
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/puppeteer-web-scraping-pipeline/"
+source: "https://agentskillexchange.com/skills/puppeteer-web-scraping-pipeline/"
 ---
-
 # Puppeteer Web Scraping Pipeline
 
 Builds web scraping pipelines with Puppeteer using page.evaluate, page.waitForSelector, and browser.newPage. Handles infinite scroll, cookie consent banners, and anti-bot detection with stealth plugin.
 
 ## Installation
 
-Install this skill in your agent framework of choice:
-
-### npx (Any Agent)
+### Any Agent (npx)
 ```bash
-npx agentskills install puppeteer-web-scraping-pipeline
+npx skills add agentskillexchange/skills --skill puppeteer-web-scraping-pipeline
 ```
 
 ### Claude Code
 ```bash
-claude mcp add skill-puppeteer-web-scraping-pipeline -- npx agentskills run puppeteer-web-scraping-pipeline
+npx skills add agentskillexchange/skills --skill puppeteer-web-scraping-pipeline -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/mcp.json`:
-```json
-{
-  "mcpServers": {
-    "skill-puppeteer-web-scraping-pipeline": {
-      "command": "npx",
-      "args": ["agentskills", "run", "puppeteer-web-scraping-pipeline"]
-    }
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill puppeteer-web-scraping-pipeline -a cursor
 ```
 
 ### OpenClaw
@@ -50,9 +39,8 @@ clawhub install puppeteer-web-scraping-pipeline
 
 ### Codex
 ```bash
-codex install puppeteer-web-scraping-pipeline
+npx skills add agentskillexchange/skills --skill puppeteer-web-scraping-pipeline -a codex
 ```
-
 ## Details
 
 | | |

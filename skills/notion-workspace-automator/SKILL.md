@@ -3,15 +3,14 @@ name: "Notion Workspace Automator"
 description: "Automates Notion databases and pages using the @notionhq/client SDK. Creates templates, syncs databases with external sources via Notion API v2022-06-28, and manages workspace permissions."
 category: "Calendar, Email & Productivity"
 framework: "Claude Agents"
-verification: "Verified & Security Reviewed"
-rating: "4.3"
-reviews: "33"
+verification: security_reviewed
+rating: 4.3
+reviews: 33
 creator: "Ryan O'Malley"
 creator_handle: "@ryanomalley"
 creator_verified: false
-source: "https://agentskillexchange.com/skill/notion-workspace-automator/"
+source: "https://agentskillexchange.com/skills/notion-workspace-automator/"
 ---
-
 # Notion Workspace Automator
 
 Automates Notion databases and pages using the @notionhq/client SDK. Creates templates, syncs databases with external sources via Notion API v2022-06-28, and manages workspace permissions.
@@ -20,20 +19,17 @@ Automates Notion databases and pages using the @notionhq/client SDK. Creates tem
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install notion-workspace-automator
+npx skills add agentskillexchange/skills --skill notion-workspace-automator
 ```
 
 ### Claude Code
 ```bash
-claude mcp add notion-workspace-automator
+npx skills add agentskillexchange/skills --skill notion-workspace-automator -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "skills": ["notion-workspace-automator"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill notion-workspace-automator -a cursor
 ```
 
 ### OpenClaw
@@ -43,9 +39,8 @@ clawhub install notion-workspace-automator
 
 ### Codex
 ```bash
-codex install notion-workspace-automator
+npx skills add agentskillexchange/skills --skill notion-workspace-automator -a codex
 ```
-
 ## Details
 
 | Field | Value |

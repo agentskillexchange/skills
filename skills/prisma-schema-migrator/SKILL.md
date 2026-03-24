@@ -3,37 +3,34 @@ name: "Prisma Schema Migrator"
 description: "Automates Prisma ORM schema evolution and migration planning using prisma migrate and prisma db commands. Validates schema changes against existing data with dry-run introspection via prisma db pull."
 category: "Library & API Reference"
 framework: "Codex"
-verification: "✅ Verified"
-security: "✅ Reviewed"
-rating: "4.2"
-reviews: "85"
+verification: security_reviewed
+rating: 4.2
+reviews: 85
 creator: "Ben Taylor"
 creator_handle: "@bentaylor"
 creator_verified: false
-source: "https://agentskillexchange.com/skill/prisma-schema-migrator/"
+source: "https://agentskillexchange.com/skills/prisma-schema-migrator/"
+security: "✅ Reviewed"
 ---
-
 # Prisma Schema Migrator
 
 Automates Prisma ORM schema evolution and migration planning using prisma migrate and prisma db commands. Validates schema changes against existing data with dry-run introspection via prisma db pull.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install prisma-schema-migrator
+npx skills add agentskillexchange/skills --skill prisma-schema-migrator
 ```
 
 ### Claude Code
 ```bash
-claude skills add prisma-schema-migrator
+npx skills add agentskillexchange/skills --skill prisma-schema-migrator -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor skills install prisma-schema-migrator
+npx skills add agentskillexchange/skills --skill prisma-schema-migrator -a cursor
 ```
 
 ### OpenClaw
@@ -43,9 +40,8 @@ clawhub install prisma-schema-migrator
 
 ### Codex
 ```bash
-codex skills add prisma-schema-migrator
+npx skills add agentskillexchange/skills --skill prisma-schema-migrator -a codex
 ```
-
 ## Details
 
 | Field | Value |

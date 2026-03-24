@@ -3,35 +3,34 @@ name: "GitHub Actions Matrix Builder"
 description: "Constructs optimized GitHub Actions workflow matrices with intelligent job splitting and caching strategies. Uses the GitHub Actions Toolkit and workflow_dispatch API for dynamic matrix generation."
 category: "CI/CD Integrations"
 framework: "Claude Code"
-verification: "Community"
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/github-actions-matrix-builder-19/"
+source: "https://agentskillexchange.com/skills/github-actions-matrix-builder-19/"
 ---
-
 # GitHub Actions Matrix Builder
 
 Constructs optimized GitHub Actions workflow matrices with intelligent job splitting and caching strategies. Uses the GitHub Actions Toolkit and workflow_dispatch API for dynamic matrix generation.
 
 ## Installation
 
-Install this skill across different agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install github-actions-matrix-builder-19
+npx skills add agentskillexchange/skills --skill github-actions-matrix-builder-19
 ```
 
 ### Claude Code
 ```bash
-claude skills add github-actions-matrix-builder-19
+npx skills add agentskillexchange/skills --skill github-actions-matrix-builder-19 -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` directory or install via Cursor settings.
+```bash
+npx skills add agentskillexchange/skills --skill github-actions-matrix-builder-19 -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install github-actions-matrix-builder-19
 
 ### Codex
 ```bash
-codex skills add github-actions-matrix-builder-19
+npx skills add agentskillexchange/skills --skill github-actions-matrix-builder-19 -a codex
 ```
-
 ## Details
 
 | Field | Value |

@@ -6,12 +6,11 @@ framework: "ChatGPT Agents"
 verification: verified_metadata
 rating: 4.3
 reviews: 62
-creator: Tom Anderson
-creator_handle: tanderson
+creator: "Tom Anderson"
+creator_handle: "@tanderson"
 creator_verified: false
-source: https://agentskillexchange.com/skill/sonarqube-quality-gate-enforcer/
+source: "https://agentskillexchange.com/skills/sonarqube-quality-gate-enforcer/"
 ---
-
 # SonarQube Quality Gate Enforcer
 
 Enforces SonarQube quality gates by querying the SonarQube Web API for code smells, coverage metrics, and security hotspots. Blocks merges that fail defined quality thresholds.

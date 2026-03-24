@@ -3,15 +3,14 @@ name: "SoX Audio Processing Toolkit"
 description: "Applies audio effects chains using SoX (Sound eXchange) CLI including noise reduction, normalization, tempo adjustment, and format conversion. Supports batch processing with GNU Parallel."
 category: "Media & Transcription"
 framework: "OpenClaw"
-verification: ""
+verification: listed
 rating: 0
 reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/sox-audio-processing-toolkit/"
+source: "https://agentskillexchange.com/skills/sox-audio-processing-toolkit/"
 ---
-
 # SoX Audio Processing Toolkit
 
 Applies audio effects chains using SoX (Sound eXchange) CLI including noise reduction, normalization, tempo adjustment, and format conversion. Supports batch processing with GNU Parallel.
@@ -20,17 +19,17 @@ Applies audio effects chains using SoX (Sound eXchange) CLI including noise redu
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agentskill install sox-audio-processing-toolkit
+npx skills add agentskillexchange/skills --skill sox-audio-processing-toolkit
 ```
 
 ### Claude Code
 ```bash
-claude skill add sox-audio-processing-toolkit
+npx skills add agentskillexchange/skills --skill sox-audio-processing-toolkit -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor skill install sox-audio-processing-toolkit
+npx skills add agentskillexchange/skills --skill sox-audio-processing-toolkit -a cursor
 ```
 
 ### OpenClaw
@@ -40,9 +39,8 @@ clawhub install sox-audio-processing-toolkit
 
 ### Codex
 ```bash
-codex skill add sox-audio-processing-toolkit
+npx skills add agentskillexchange/skills --skill sox-audio-processing-toolkit -a codex
 ```
-
 ## Details
 
 | Field | Value |

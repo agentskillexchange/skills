@@ -3,35 +3,34 @@ name: "OWASP ZAP Automated Pen Testing Agent"
 description: "Runs automated penetration tests using OWASP ZAP API with spider crawling, active scanning, and AJAX-aware testing. Generates SARIF and HTML reports with CWE-mapped findings for security review workflows."
 category: "Security & Verification"
 framework: "ChatGPT Agents"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.9
 reviews: 15
 creator: "Marcus Chen"
 creator_handle: "@marcuschen"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/owasp-zap-automated-pen-testing-agent/"
+source: "https://agentskillexchange.com/skills/owasp-zap-automated-pen-testing-agent/"
 ---
-
 # OWASP ZAP Automated Pen Testing Agent
 
 Runs automated penetration tests using OWASP ZAP API with spider crawling, active scanning, and AJAX-aware testing. Generates SARIF and HTML reports with CWE-mapped findings for security review workflows.
 
 ## Installation
 
-Install this skill in your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install owasp-zap-automated-pen-testing-agent
+npx skills add agentskillexchange/skills --skill owasp-zap-automated-pen-testing-agent
 ```
 
 ### Claude Code
 ```bash
-claude install-skill owasp-zap-automated-pen-testing-agent
+npx skills add agentskillexchange/skills --skill owasp-zap-automated-pen-testing-agent -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills/` directory or install via Cursor Settings → Skills.
+```bash
+npx skills add agentskillexchange/skills --skill owasp-zap-automated-pen-testing-agent -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install owasp-zap-automated-pen-testing-agent
 
 ### Codex
 ```bash
-codex install-skill owasp-zap-automated-pen-testing-agent
+npx skills add agentskillexchange/skills --skill owasp-zap-automated-pen-testing-agent -a codex
 ```
-
 ## Details
 
 | Field | Value |

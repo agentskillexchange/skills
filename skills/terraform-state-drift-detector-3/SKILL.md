@@ -6,12 +6,11 @@ framework: "Cursor"
 verification: security_reviewed
 rating: 4.3
 reviews: 25
-creator: Aisha Patel
-creator_handle: aishap
+creator: "Aisha Patel"
+creator_handle: "@aishap"
 creator_verified: true
-source: https://agentskillexchange.com/skill/terraform-state-drift-detector-3/
+source: "https://agentskillexchange.com/skills/terraform-state-drift-detector-3/"
 ---
-
 # Terraform State Drift Detector
 
 Compares Terraform state files against live cloud resources using the Terraform Cloud API and AWS/GCP/Azure provider APIs. Identifies unmanaged resources and configuration drift.

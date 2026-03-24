@@ -3,36 +3,33 @@ name: "Microsoft Graph Email Triage Agent"
 description: "Automates Outlook email triage using Microsoft Graph API with MSAL authentication. Classifies emails by urgency, auto-files to folders, and generates daily digest summaries with actionable item extraction."
 category: "Calendar, Email & Productivity"
 framework: "Claude Agents"
-verification: "Verified ✅"
+verification: security_reviewed
 rating: 4.5
 reviews: 29
 creator: "Tom Wilson"
 creator_handle: "@tomwilson"
 creator_verified: false
-source: "https://agentskillexchange.com/skill/microsoft-graph-email-triage-agent-2/"
+source: "https://agentskillexchange.com/skills/microsoft-graph-email-triage-agent-2/"
 ---
-
 # Microsoft Graph Email Triage Agent
 
 Automates Outlook email triage using Microsoft Graph API with MSAL authentication. Classifies emails by urgency, auto-files to folders, and generates daily digest summaries with actionable item extraction.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install microsoft-graph-email-triage-agent-2
+npx skills add agentskillexchange/skills --skill microsoft-graph-email-triage-agent-2
 ```
 
 ### Claude Code
 ```bash
-claude skills add microsoft-graph-email-triage-agent-2
+npx skills add agentskillexchange/skills --skill microsoft-graph-email-triage-agent-2 -a claude-code
 ```
 
 ### Cursor
-```
-Install from Cursor Settings → Skills → Search "Microsoft Graph Email Triage Agent"
+```bash
+npx skills add agentskillexchange/skills --skill microsoft-graph-email-triage-agent-2 -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install microsoft-graph-email-triage-agent-2
 
 ### Codex
 ```bash
-codex skills install microsoft-graph-email-triage-agent-2
+npx skills add agentskillexchange/skills --skill microsoft-graph-email-triage-agent-2 -a codex
 ```
-
 ## Details
 
 | Field | Value |

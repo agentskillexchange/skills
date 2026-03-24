@@ -3,35 +3,34 @@ name: "Scrapy Spider Generator"
 description: "Generates production-ready Scrapy spiders with middleware configuration and item pipeline setup. Uses the Scrapy Framework API, Selector (XPath/CSS), and Twisted reactor for concurrent crawling."
 category: "Research & Scraping"
 framework: "ChatGPT Agents"
-verification: "Community"
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/scrapy-spider-generator/"
+source: "https://agentskillexchange.com/skills/scrapy-spider-generator/"
 ---
-
 # Scrapy Spider Generator
 
 Generates production-ready Scrapy spiders with middleware configuration and item pipeline setup. Uses the Scrapy Framework API, Selector (XPath/CSS), and Twisted reactor for concurrent crawling.
 
 ## Installation
 
-Install this skill across different agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install scrapy-spider-generator
+npx skills add agentskillexchange/skills --skill scrapy-spider-generator
 ```
 
 ### Claude Code
 ```bash
-claude skills add scrapy-spider-generator
+npx skills add agentskillexchange/skills --skill scrapy-spider-generator -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` directory or install via Cursor settings.
+```bash
+npx skills add agentskillexchange/skills --skill scrapy-spider-generator -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install scrapy-spider-generator
 
 ### Codex
 ```bash
-codex skills add scrapy-spider-generator
+npx skills add agentskillexchange/skills --skill scrapy-spider-generator -a codex
 ```
-
 ## Details
 
 | Field | Value |

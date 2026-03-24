@@ -3,15 +3,14 @@ name: "YouTube Chapters Generator with Whisper"
 description: "Downloads YouTube audio via yt-dlp, transcribes with Whisper, and uses NLP topic segmentation via TextTiling algorithm to auto-generate chapter markers with timestamps and titles."
 category: "Media & Transcription"
 framework: "Claude Code"
-verification: ""
+verification: listed
 rating: 0
 reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/youtube-chapters-generator-whisper/"
+source: "https://agentskillexchange.com/skills/youtube-chapters-generator-whisper/"
 ---
-
 # YouTube Chapters Generator with Whisper
 
 Downloads YouTube audio via yt-dlp, transcribes with Whisper, and uses NLP topic segmentation via TextTiling algorithm to auto-generate chapter markers with timestamps and titles.
@@ -20,17 +19,17 @@ Downloads YouTube audio via yt-dlp, transcribes with Whisper, and uses NLP topic
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agentskill install youtube-chapters-generator-whisper
+npx skills add agentskillexchange/skills --skill youtube-chapters-generator-whisper
 ```
 
 ### Claude Code
 ```bash
-claude skill add youtube-chapters-generator-whisper
+npx skills add agentskillexchange/skills --skill youtube-chapters-generator-whisper -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor skill install youtube-chapters-generator-whisper
+npx skills add agentskillexchange/skills --skill youtube-chapters-generator-whisper -a cursor
 ```
 
 ### OpenClaw
@@ -40,9 +39,8 @@ clawhub install youtube-chapters-generator-whisper
 
 ### Codex
 ```bash
-codex skill add youtube-chapters-generator-whisper
+npx skills add agentskillexchange/skills --skill youtube-chapters-generator-whisper -a codex
 ```
-
 ## Details
 
 | Field | Value |

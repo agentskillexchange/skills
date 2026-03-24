@@ -3,36 +3,33 @@ name: "CircleCI Orb Builder"
 description: "Creates reusable CircleCI Orbs using the CircleCI Orb SDK and circleci/orb-tools@12 pipeline. Packages commands, executors, and jobs into publishable orbs with automated semantic versioning via the CircleCI CLI."
 category: "CI/CD Integrations"
 framework: "Claude Code"
-verification: "verified_metadata"
-rating: "0"
-reviews: "0"
+verification: verified_metadata
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/circleci-orb-builder/"
+source: "https://agentskillexchange.com/skills/circleci-orb-builder/"
 ---
-
 # CircleCI Orb Builder
 
 Creates reusable CircleCI Orbs using the CircleCI Orb SDK and circleci/orb-tools@12 pipeline. Packages commands, executors, and jobs into publishable orbs with automated semantic versioning via the CircleCI CLI.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install circleci-orb-builder
+npx skills add agentskillexchange/skills --skill circleci-orb-builder
 ```
 
 ### Claude Code
 ```bash
-claude skills add circleci-orb-builder
+npx skills add agentskillexchange/skills --skill circleci-orb-builder -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor skills install circleci-orb-builder
+npx skills add agentskillexchange/skills --skill circleci-orb-builder -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install circleci-orb-builder
 
 ### Codex
 ```bash
-codex skills add circleci-orb-builder
+npx skills add agentskillexchange/skills --skill circleci-orb-builder -a codex
 ```
-
 ## Details
 
 | Field | Value |

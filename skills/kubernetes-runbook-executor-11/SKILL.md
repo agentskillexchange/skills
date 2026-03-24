@@ -3,15 +3,14 @@ name: "Kubernetes Runbook Executor"
 description: "Executes diagnostic runbooks against Kubernetes clusters using kubectl, client-go SDK, and Prometheus PromQL queries. Automates pod restart loops, OOMKill investigation, and node pressure analysis."
 category: "Runbooks & Diagnostics"
 framework: "Cursor"
-verification: "Community"
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/kubernetes-runbook-executor-11/"
+source: "https://agentskillexchange.com/skills/kubernetes-runbook-executor-11/"
 ---
-
 # Kubernetes Runbook Executor
 
 Executes diagnostic runbooks against Kubernetes clusters using kubectl, client-go SDK, and Prometheus PromQL queries. Automates pod restart loops, OOMKill investigation, and node pressure analysis.
@@ -20,17 +19,17 @@ Executes diagnostic runbooks against Kubernetes clusters using kubectl, client-g
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install kubernetes-runbook-executor-11
+npx skills add agentskillexchange/skills --skill kubernetes-runbook-executor-11
 ```
 
 ### Claude Code
 ```bash
-claude install-skill kubernetes-runbook-executor-11
+npx skills add agentskillexchange/skills --skill kubernetes-runbook-executor-11 -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor install-skill kubernetes-runbook-executor-11
+npx skills add agentskillexchange/skills --skill kubernetes-runbook-executor-11 -a cursor
 ```
 
 ### OpenClaw
@@ -40,9 +39,8 @@ clawhub install kubernetes-runbook-executor-11
 
 ### Codex
 ```bash
-codex install-skill kubernetes-runbook-executor-11
+npx skills add agentskillexchange/skills --skill kubernetes-runbook-executor-11 -a codex
 ```
-
 ## Details
 
 | Field | Value |

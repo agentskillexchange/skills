@@ -6,12 +6,11 @@ framework: "ChatGPT Agents"
 verification: security_reviewed
 rating: 4.0
 reviews: 85
-creator: Luna Martinez
-creator_handle: lunamartinez
+creator: "Luna Martinez"
+creator_handle: "@lunamartinez"
 creator_verified: false
-source: https://agentskillexchange.com/skill/terraform-plan-diff-reviewer/
+source: "https://agentskillexchange.com/skills/terraform-plan-diff-reviewer/"
 ---
-
 # Terraform Plan Diff Reviewer
 
 Parses terraform plan JSON output to identify destructive changes, security group modifications, and IAM policy drift. Uses the Terraform Cloud API for workspace state comparison.

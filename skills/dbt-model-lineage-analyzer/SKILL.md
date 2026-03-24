@@ -3,15 +3,14 @@ name: "dbt Model Lineage Analyzer"
 description: "Parses dbt project manifests and catalog artifacts to build complete data lineage graphs. Uses the dbt Cloud API v2 for run metadata and the dbt Core manifest.json for model dependency analysis."
 category: "Data Extraction & Transformation"
 framework: "Claude Agents"
-verification: "✅ Verified"
-rating: "4.6"
-reviews: "44"
+verification: security_reviewed
+rating: 4.6
+reviews: 44
 creator: "Sarah O'Brien"
 creator_handle: "@sarahcodes"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/dbt-model-lineage-analyzer/"
+source: "https://agentskillexchange.com/skills/dbt-model-lineage-analyzer/"
 ---
-
 # dbt Model Lineage Analyzer
 
 Parses dbt project manifests and catalog artifacts to build complete data lineage graphs. Uses the dbt Cloud API v2 for run metadata and the dbt Core manifest.json for model dependency analysis.
@@ -19,33 +18,29 @@ Parses dbt project manifests and catalog artifacts to build complete data lineag
 ## Installation
 
 ### Any Agent (npx)
-
 ```bash
-npx @anthropic/agent-skills install dbt-model-lineage-analyzer
+npx skills add agentskillexchange/skills --skill dbt-model-lineage-analyzer
 ```
 
 ### Claude Code
-
 ```bash
-claude mcp add dbt-model-lineage-analyzer
+npx skills add agentskillexchange/skills --skill dbt-model-lineage-analyzer -a claude-code
 ```
 
 ### Cursor
-
-Add to `.cursor/skills/` directory or install via Cursor settings.
+```bash
+npx skills add agentskillexchange/skills --skill dbt-model-lineage-analyzer -a cursor
+```
 
 ### OpenClaw
-
 ```bash
 clawhub install dbt-model-lineage-analyzer
 ```
 
 ### Codex
-
 ```bash
-codex install dbt-model-lineage-analyzer
+npx skills add agentskillexchange/skills --skill dbt-model-lineage-analyzer -a codex
 ```
-
 ## Details
 
 | Field | Value |

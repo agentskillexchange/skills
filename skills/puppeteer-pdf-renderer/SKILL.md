@@ -3,35 +3,34 @@ name: "Puppeteer PDF Renderer"
 description: "Generates pixel-perfect PDFs from web pages using Puppeteer with custom headers, footers, and page breaks. Supports authenticated pages via cookie injection."
 category: "Browser Automation"
 framework: "Cursor"
-verification: "✅ Verified"
-rating: "4.1"
-reviews: "79"
+verification: security_reviewed
+rating: 4.1
+reviews: 79
 creator: "Zoe Chen"
 creator_handle: "@zoechen"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/puppeteer-pdf-renderer/"
+source: "https://agentskillexchange.com/skills/puppeteer-pdf-renderer/"
 ---
-
 # Puppeteer PDF Renderer
 
 Generates pixel-perfect PDFs from web pages using Puppeteer with custom headers, footers, and page breaks. Supports authenticated pages via cookie injection.
 
 ## Installation
 
-Install this skill across different AI coding agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install puppeteer-pdf-renderer
+npx skills add agentskillexchange/skills --skill puppeteer-pdf-renderer
 ```
 
 ### Claude Code
 ```bash
-claude skills install puppeteer-pdf-renderer
+npx skills add agentskillexchange/skills --skill puppeteer-pdf-renderer -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` directory or install via Cursor settings.
+```bash
+npx skills add agentskillexchange/skills --skill puppeteer-pdf-renderer -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install puppeteer-pdf-renderer
 
 ### Codex
 ```bash
-codex skills install puppeteer-pdf-renderer
+npx skills add agentskillexchange/skills --skill puppeteer-pdf-renderer -a codex
 ```
-
 ## Details
 
 | | |

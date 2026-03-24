@@ -3,39 +3,33 @@ name: "Browserless Scraping Agent"
 description: "Drives headless Chrome via the Browserless.io API for scraping dynamic SPAs. Uses /content, /screenshot, and /pdf endpoints with stealth mode. Manages session tokens and concurrent connection limits."
 category: "Research & Scraping"
 framework: "Cursor"
-verification: ""
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/browserless-scraping-agent/"
+source: "https://agentskillexchange.com/skills/browserless-scraping-agent/"
 ---
-
 # Browserless Scraping Agent
 
 Drives headless Chrome via the Browserless.io API for scraping dynamic SPAs. Uses /content, /screenshot, and /pdf endpoints with stealth mode. Manages session tokens and concurrent connection limits.
 
 ## Installation
 
-Install this skill across different AI coding agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install browserless-scraping-agent
+npx skills add agentskillexchange/skills --skill browserless-scraping-agent
 ```
 
 ### Claude Code
 ```bash
-claude skill add browserless-scraping-agent
+npx skills add agentskillexchange/skills --skill browserless-scraping-agent -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` configuration:
-```json
-{
-  "skills": ["browserless-scraping-agent"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill browserless-scraping-agent -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install browserless-scraping-agent
 
 ### Codex
 ```bash
-codex skill add browserless-scraping-agent
+npx skills add agentskillexchange/skills --skill browserless-scraping-agent -a codex
 ```
-
 ## Details
 
 | Property | Value |

@@ -3,41 +3,33 @@ name: "Sigstore Cosign Verification Pipeline"
 description: "Verifies container image signatures and SBOMs using Sigstore Cosign and Rekor transparency log. Enforces supply chain security policies by validating keyless signatures against Fulcio certificate authorities."
 category: "Security & Verification"
 framework: "Codex"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.6
 reviews: 82
 creator: "Nina Volkov"
 creator_handle: "@ninavolkov"
-creator_verified: yes
-source: "https://agentskillexchange.com/skill/sigstore-cosign-verification-pipeline/"
+creator_verified: true
+source: "https://agentskillexchange.com/skills/sigstore-cosign-verification-pipeline/"
 ---
-
 # Sigstore Cosign Verification Pipeline
 
 Verifies container image signatures and SBOMs using Sigstore Cosign and Rekor transparency log. Enforces supply chain security policies by validating keyless signatures against Fulcio certificate authorities.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx agentskills install sigstore-cosign-verification-pipeline
+npx skills add agentskillexchange/skills --skill sigstore-cosign-verification-pipeline
 ```
 
 ### Claude Code
 ```bash
-claude mcp add sigstore-cosign-verification-pipeline
+npx skills add agentskillexchange/skills --skill sigstore-cosign-verification-pipeline -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "sigstore-cosign-verification-pipeline": {
-    "enabled": true
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill sigstore-cosign-verification-pipeline -a cursor
 ```
 
 ### OpenClaw
@@ -47,9 +39,8 @@ clawhub install sigstore-cosign-verification-pipeline
 
 ### Codex
 ```bash
-codex install sigstore-cosign-verification-pipeline
+npx skills add agentskillexchange/skills --skill sigstore-cosign-verification-pipeline -a codex
 ```
-
 ## Details
 
 | Field | Value |

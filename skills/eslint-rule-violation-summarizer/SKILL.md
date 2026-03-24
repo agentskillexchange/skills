@@ -3,15 +3,14 @@ name: "ESLint Rule Violation Summarizer"
 description: "Runs ESLint against a JavaScript or TypeScript codebase, groups violations by rule and file, and produces a prioritized fix plan. Distinguishes auto-fixable violations from those requiring manual review. Outputs Markdown suitable for a GitHub PR comment."
 category: "Code Quality & Review"
 framework: "Cursor"
-verification: 
+verification: listed
 rating: 4.7
 reviews: 14
-creator: Tom Anderson
-creator_handle: tanderson
+creator: "Tom Anderson"
+creator_handle: "@tanderson"
 creator_verified: false
-source: https://agentskillexchange.com/skill/eslint-rule-violation-summarizer/
+source: "https://agentskillexchange.com/skills/eslint-rule-violation-summarizer/"
 ---
-
 # ESLint Rule Violation Summarizer
 
 Runs ESLint against a JavaScript or TypeScript codebase, groups violations by rule and file, and produces a prioritized fix plan. Distinguishes auto-fixable violations from those requiring manual review. Outputs Markdown suitable for a GitHub PR comment.

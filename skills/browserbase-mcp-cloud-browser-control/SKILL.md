@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: verified_metadata
 rating: 4.7
 reviews: 61
-creator: Raj Gupta
-creator_handle: rajgupta
+creator: "Raj Gupta"
+creator_handle: "@rajgupta"
 creator_verified: true
-source: https://agentskillexchange.com/skill/browserbase-mcp-cloud-browser-control/
+source: "https://agentskillexchange.com/skills/browserbase-mcp-cloud-browser-control/"
 ---
-
 # Browserbase MCP for Cloud Browser Control
 
 Cloud browser sessions for scalable agent automation.

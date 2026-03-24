@@ -3,39 +3,43 @@ name: "Semgrep Custom Rule Runner"
 description: "Executes Semgrep OSS with custom YAML rule files for project-specific static analysis patterns. Supports semgrep –config and –pattern flags with metavariable constraints for detecting anti-patterns in"
 category: "Uncategorized"
 framework: "Unknown"
-verification: "Unverified"
-rating: ""
-reviews: ""
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_verified: false
-source: "https://agentskillexchange.com/skill/semgrep-custom-rule-runner/"
+source: "https://agentskillexchange.com/skills/semgrep-custom-rule-runner/"
 ---
-
 # Semgrep Custom Rule Runner
 
 Executes Semgrep OSS with custom YAML rule files for project-specific static analysis patterns. Supports semgrep –config and –pattern flags with metavariable constraints for detecting anti-patterns in Python, JavaScript, Go, and Java codebases.
 
 ## Installation
 
-Install this skill for your preferred agent:
-
+### Any Agent (npx)
 ```bash
-# Any npx-compatible agent
-npx skills install semgrep-custom-rule-runner
-
-# Claude Code
-claude mcp add skills -- npx -y skills install semgrep-custom-rule-runner
-
-# Cursor
-cursor mcp add skills -- npx -y skills install semgrep-custom-rule-runner
-
-# OpenClaw
-clawhub install semgrep-custom-rule-runner
-
-# Codex
-codex install semgrep-custom-rule-runner
+npx skills add agentskillexchange/skills --skill semgrep-custom-rule-runner
 ```
 
+### Claude Code
+```bash
+npx skills add agentskillexchange/skills --skill semgrep-custom-rule-runner -a claude-code
+```
+
+### Cursor
+```bash
+npx skills add agentskillexchange/skills --skill semgrep-custom-rule-runner -a cursor
+```
+
+### OpenClaw
+```bash
+clawhub install semgrep-custom-rule-runner
+```
+
+### Codex
+```bash
+npx skills add agentskillexchange/skills --skill semgrep-custom-rule-runner -a codex
+```
 ## Details
 
 | | |

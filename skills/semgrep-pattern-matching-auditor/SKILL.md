@@ -3,39 +3,33 @@ name: "Semgrep Pattern Matching Auditor"
 description: "Leverages the Semgrep OSS engine and semgrep-rules registry to perform deep static analysis across 30+ languages. Combines taint tracking with pattern matching for OWASP Top 10 vulnerability detection."
 category: "Code Quality & Review"
 framework: "OpenClaw"
-verification: "Community"
+verification: listed
 rating: 0
 reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/semgrep-pattern-matching-auditor/"
+source: "https://agentskillexchange.com/skills/semgrep-pattern-matching-auditor/"
 ---
-
 # Semgrep Pattern Matching Auditor
 
 Leverages the Semgrep OSS engine and semgrep-rules registry to perform deep static analysis across 30+ languages. Combines taint tracking with pattern matching for OWASP Top 10 vulnerability detection.
 
 ## Installation
 
-Install this skill across different agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install semgrep-pattern-matching-auditor
+npx skills add agentskillexchange/skills --skill semgrep-pattern-matching-auditor
 ```
 
 ### Claude Code
 ```bash
-claude skills add semgrep-pattern-matching-auditor
+npx skills add agentskillexchange/skills --skill semgrep-pattern-matching-auditor -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` configuration:
-```json
-{
-  "skills": ["semgrep-pattern-matching-auditor"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill semgrep-pattern-matching-auditor -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install semgrep-pattern-matching-auditor
 
 ### Codex
 ```bash
-codex skills add semgrep-pattern-matching-auditor
+npx skills add agentskillexchange/skills --skill semgrep-pattern-matching-auditor -a codex
 ```
-
 ## Details
 
 | Property | Value |

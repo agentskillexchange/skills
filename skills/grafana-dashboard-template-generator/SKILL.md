@@ -3,15 +3,14 @@ name: "Grafana Dashboard Template Generator"
 description: "Programmatically creates Grafana dashboard JSON models using the Grafana HTTP API and grafonnet-lib. Supports templated variables, panel linking, and multi-datasource layouts for Prometheus, Loki, and Tempo."
 category: "Monitoring & Alerts"
 framework: "Cursor"
-verification: "✅ Verified"
-rating: "4.6"
-reviews: "65"
+verification: security_reviewed
+rating: 4.6
+reviews: 65
 creator: "Ben Taylor"
 creator_handle: "@bentaylor"
 creator_verified: false
-source: "https://agentskillexchange.com/skill/grafana-dashboard-template-generator/"
+source: "https://agentskillexchange.com/skills/grafana-dashboard-template-generator/"
 ---
-
 # Grafana Dashboard Template Generator
 
 Programmatically creates Grafana dashboard JSON models using the Grafana HTTP API and grafonnet-lib. Supports templated variables, panel linking, and multi-datasource layouts for Prometheus, Loki, and Tempo.
@@ -20,17 +19,17 @@ Programmatically creates Grafana dashboard JSON models using the Grafana HTTP AP
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install grafana-dashboard-template-generator
+npx skills add agentskillexchange/skills --skill grafana-dashboard-template-generator
 ```
 
 ### Claude Code
 ```bash
-claude skills add grafana-dashboard-template-generator
+npx skills add agentskillexchange/skills --skill grafana-dashboard-template-generator -a claude-code
 ```
 
 ### Cursor
-```
-Install from Cursor Settings → Skills → Add Skill → "Grafana Dashboard Template Generator"
+```bash
+npx skills add agentskillexchange/skills --skill grafana-dashboard-template-generator -a cursor
 ```
 
 ### OpenClaw
@@ -40,9 +39,8 @@ clawhub install grafana-dashboard-template-generator
 
 ### Codex
 ```bash
-codex skills install grafana-dashboard-template-generator
+npx skills add agentskillexchange/skills --skill grafana-dashboard-template-generator -a codex
 ```
-
 ## Details
 
 | Field | Value |

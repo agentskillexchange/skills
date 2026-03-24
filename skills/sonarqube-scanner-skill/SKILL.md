@@ -3,36 +3,33 @@ name: "SonarQube Scanner Skill"
 description: "Integrates SonarQube static analysis via the sonar-scanner CLI and SonarQube Web API. Fetches quality gate results from api/qualitygates/project_status, parses issues via api/issues/search, and maps findings to source lines for inline code review annotations."
 category: "Code Quality & Review"
 framework: "Claude Code"
-verification: "security_reviewed"
-rating: "0"
-reviews: "0"
+verification: security_reviewed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/sonarqube-scanner-skill/"
+source: "https://agentskillexchange.com/skills/sonarqube-scanner-skill/"
 ---
-
 # SonarQube Scanner Skill
 
 Integrates SonarQube static analysis via the sonar-scanner CLI and SonarQube Web API. Fetches quality gate results from api/qualitygates/project_status, parses issues via api/issues/search, and maps findings to source lines for inline code review annotations.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install sonarqube-scanner-skill
+npx skills add agentskillexchange/skills --skill sonarqube-scanner-skill
 ```
 
 ### Claude Code
 ```bash
-claude skills add sonarqube-scanner-skill
+npx skills add agentskillexchange/skills --skill sonarqube-scanner-skill -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor skills install sonarqube-scanner-skill
+npx skills add agentskillexchange/skills --skill sonarqube-scanner-skill -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install sonarqube-scanner-skill
 
 ### Codex
 ```bash
-codex skills add sonarqube-scanner-skill
+npx skills add agentskillexchange/skills --skill sonarqube-scanner-skill -a codex
 ```
-
 ## Details
 
 | | |

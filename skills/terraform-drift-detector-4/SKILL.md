@@ -3,15 +3,14 @@ name: "Terraform Drift Detector"
 description: "Detects infrastructure drift by comparing Terraform state files against live cloud resources using terraform plan, AWS SDK, and Azure Resource Manager API. Generates categorized drift reports."
 category: "Runbooks & Diagnostics"
 framework: "Codex"
-verification: "Community"
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/terraform-drift-detector-4/"
+source: "https://agentskillexchange.com/skills/terraform-drift-detector-4/"
 ---
-
 # Terraform Drift Detector
 
 Detects infrastructure drift by comparing Terraform state files against live cloud resources using terraform plan, AWS SDK, and Azure Resource Manager API. Generates categorized drift reports.
@@ -20,17 +19,17 @@ Detects infrastructure drift by comparing Terraform state files against live clo
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install terraform-drift-detector-4
+npx skills add agentskillexchange/skills --skill terraform-drift-detector-4
 ```
 
 ### Claude Code
 ```bash
-claude install-skill terraform-drift-detector-4
+npx skills add agentskillexchange/skills --skill terraform-drift-detector-4 -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor install-skill terraform-drift-detector-4
+npx skills add agentskillexchange/skills --skill terraform-drift-detector-4 -a cursor
 ```
 
 ### OpenClaw
@@ -40,9 +39,8 @@ clawhub install terraform-drift-detector-4
 
 ### Codex
 ```bash
-codex install-skill terraform-drift-detector-4
+npx skills add agentskillexchange/skills --skill terraform-drift-detector-4 -a codex
 ```
-
 ## Details
 
 | Field | Value |

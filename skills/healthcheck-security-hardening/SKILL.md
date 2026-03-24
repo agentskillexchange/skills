@@ -6,12 +6,11 @@ framework: "OpenClaw"
 verification: security_reviewed
 rating: 4.6
 reviews: 60
-creator: Mia Zhang
-creator_handle: miazhang
+creator: "Mia Zhang"
+creator_handle: "@miazhang"
 creator_verified: true
-source: https://agentskillexchange.com/skill/healthcheck-security-hardening/
+source: "https://agentskillexchange.com/skills/healthcheck-security-hardening/"
 ---
-
 # Healthcheck Security Hardening
 
 Audit and harden OpenClaw host environments with a security-focused review skill.

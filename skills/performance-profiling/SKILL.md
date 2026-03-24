@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.5
 reviews: 85
-creator: Zara Ahmed
-creator_handle: zaraahmed
+creator: "Zara Ahmed"
+creator_handle: "@zaraahmed"
 creator_verified: true
-source: https://agentskillexchange.com/skill/performance-profiling/
+source: "https://agentskillexchange.com/skills/performance-profiling/"
 ---
-
 # Performance Profiling
 
 Use this skill when you need to profile application performance, identify bottlenecks, and get optimization recommendations. It runs profiling tools (cProfile, py-spy, clinic.js, etc.) against your application, analyzes hot paths, and suggests targeted code changes to improve throughput or reduce latency.

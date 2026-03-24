@@ -3,16 +3,15 @@ name: "AWS CloudWatch Alarm Triage Agent"
 description: "Triages AWS CloudWatch alarms using boto3 to correlate alarm state changes with CloudTrail events, EC2 instance metrics, and ELB target health. Generates root cause summaries linking alarms to recent deployments or scaling events."
 category: "Runbooks & Diagnostics"
 framework: "Gemini"
-verification: "✅ Verified"
-security: "✅ Reviewed"
-rating: "4.9"
-reviews: "25"
+verification: security_reviewed
+rating: 4.9
+reviews: 25
 creator: "Yuki Tanaka"
 creator_handle: "@yukitanaka"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/aws-cloudwatch-alarm-triage-agent-4/"
+source: "https://agentskillexchange.com/skills/aws-cloudwatch-alarm-triage-agent-4/"
+security: "✅ Reviewed"
 ---
-
 # AWS CloudWatch Alarm Triage Agent
 
 Triages AWS CloudWatch alarms using boto3 to correlate alarm state changes with CloudTrail events, EC2 instance metrics, and ELB target health. Generates root cause summaries linking alarms to recent deployments or scaling events.
@@ -21,20 +20,17 @@ Triages AWS CloudWatch alarms using boto3 to correlate alarm state changes with 
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install aws-cloudwatch-alarm-triage-agent-4
+npx skills add agentskillexchange/skills --skill aws-cloudwatch-alarm-triage-agent-4
 ```
 
 ### Claude Code
 ```bash
-claude skills add aws-cloudwatch-alarm-triage-agent-4
+npx skills add agentskillexchange/skills --skill aws-cloudwatch-alarm-triage-agent-4 -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` configuration:
-```json
-{
-  "skills": ["aws-cloudwatch-alarm-triage-agent-4"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill aws-cloudwatch-alarm-triage-agent-4 -a cursor
 ```
 
 ### OpenClaw
@@ -44,9 +40,8 @@ clawhub install aws-cloudwatch-alarm-triage-agent-4
 
 ### Codex
 ```bash
-codex skills add aws-cloudwatch-alarm-triage-agent-4
+npx skills add agentskillexchange/skills --skill aws-cloudwatch-alarm-triage-agent-4 -a codex
 ```
-
 ## Details
 
 | Field | Value |

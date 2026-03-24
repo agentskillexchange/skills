@@ -6,12 +6,11 @@ framework: "Gemini"
 verification: verified_metadata
 rating: 4.2
 reviews: 8
-creator: Sofia Petrov
-creator_handle: sofiapetrov
+creator: "Sofia Petrov"
+creator_handle: "@sofiapetrov"
 creator_verified: true
-source: https://agentskillexchange.com/skill/pagerduty-incident-runbook-automator/
+source: "https://agentskillexchange.com/skills/pagerduty-incident-runbook-automator/"
 ---
-
 # PagerDuty Incident Runbook Automator
 
 Automates incident response runbooks using the PagerDuty Events API v2 and REST API. Manages incident creation, escalation policies, and automated diagnostics triggered by alert severity.

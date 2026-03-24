@@ -3,15 +3,14 @@ name: "CircleCI Config Validator"
 description: "Validates and optimizes CircleCI configuration files using the CircleCI v2 API and circleci config validate CLI. Analyzes orb usage, parallelism settings, and resource class allocation."
 category: "CI/CD Integrations"
 framework: "Claude Agents"
-verification: "security_reviewed"
-rating: "4.3"
-reviews: "48"
+verification: security_reviewed
+rating: 4.3
+reviews: 48
 creator: "Community"
 creator_handle: ""
-creator_verified: "false"
-source: "https://agentskillexchange.com/skill/circleci-config-validator/"
+creator_verified: false
+source: "https://agentskillexchange.com/skills/circleci-config-validator/"
 ---
-
 # CircleCI Config Validator
 
 Validates and optimizes CircleCI configuration files using the CircleCI v2 API and circleci config validate CLI. Analyzes orb usage, parallelism settings, and resource class allocation.
@@ -20,17 +19,17 @@ Validates and optimizes CircleCI configuration files using the CircleCI v2 API a
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install circleci-config-validator
+npx skills add agentskillexchange/skills --skill circleci-config-validator
 ```
 
 ### Claude Code
 ```bash
-claude skills add circleci-config-validator
+npx skills add agentskillexchange/skills --skill circleci-config-validator -a claude-code
 ```
 
 ### Cursor
-```
-Install from Cursor Settings → Skills → Add → "CircleCI Config Validator"
+```bash
+npx skills add agentskillexchange/skills --skill circleci-config-validator -a cursor
 ```
 
 ### OpenClaw
@@ -40,9 +39,8 @@ clawhub install circleci-config-validator
 
 ### Codex
 ```bash
-codex skills add circleci-config-validator
+npx skills add agentskillexchange/skills --skill circleci-config-validator -a codex
 ```
-
 ## Details
 
 | Field | Value |

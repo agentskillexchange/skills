@@ -3,15 +3,14 @@ name: "SonarQube Quality Gate Enforcer"
 description: "Monitors and enforces SonarQube quality gate conditions via the SonarQube Web API. Extracts new code metrics including coverage delta, duplicated lines percentage, and security hotspot counts for p..."
 category: "Code Quality & Review"
 framework: "ChatGPT Agents"
-verification: "verified_metadata"
-rating: "0"
-reviews: "0"
+verification: verified_metadata
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/sonarqube-quality-gate-enforcer-5/"
+source: "https://agentskillexchange.com/skills/sonarqube-quality-gate-enforcer-5/"
 ---
-
 # SonarQube Quality Gate Enforcer
 
 Monitors and enforces SonarQube quality gate conditions via the SonarQube Web API. Extracts new code metrics including coverage delta, duplicated lines percentage, and security hotspot counts for pull request decoration.
@@ -20,22 +19,17 @@ Monitors and enforces SonarQube quality gate conditions via the SonarQube Web AP
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install sonarqube-quality-gate-enforcer-5
+npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-enforcer-5
 ```
 
 ### Claude Code
 ```bash
-claude mcp add sonarqube-quality-gate-enforcer-5
+npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-enforcer-5 -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "sonarqube-quality-gate-enforcer-5": {
-    "enabled": true
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-enforcer-5 -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install sonarqube-quality-gate-enforcer-5
 
 ### Codex
 ```bash
-codex install sonarqube-quality-gate-enforcer-5
+npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-enforcer-5 -a codex
 ```
-
 ## Details
 
 | Field | Value |

@@ -3,16 +3,15 @@ name: "PostgreSQL Performance Diagnostics"
 description: "Analyzes PostgreSQL query performance using pg_stat_statements, pg_stat_user_tables, and EXPLAIN ANALYZE output. Identifies missing indexes via pg_stat_user_indexes and detects lock contention through pg_locks and pg_stat_activity."
 category: "Runbooks & Diagnostics"
 framework: "MCP-compatible"
-verification: "✅ Verified"
-security: "✅ Reviewed"
-rating: "4.8"
-reviews: "82"
+verification: security_reviewed
+rating: 4.8
+reviews: 82
 creator: "Ben Taylor"
 creator_handle: "@bentaylor"
 creator_verified: false
-source: "https://agentskillexchange.com/skill/postgresql-performance-diagnostics/"
+source: "https://agentskillexchange.com/skills/postgresql-performance-diagnostics/"
+security: "✅ Reviewed"
 ---
-
 # PostgreSQL Performance Diagnostics
 
 Analyzes PostgreSQL query performance using pg_stat_statements, pg_stat_user_tables, and EXPLAIN ANALYZE output. Identifies missing indexes via pg_stat_user_indexes and detects lock contention through pg_locks and pg_stat_activity.
@@ -21,20 +20,17 @@ Analyzes PostgreSQL query performance using pg_stat_statements, pg_stat_user_tab
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install postgresql-performance-diagnostics
+npx skills add agentskillexchange/skills --skill postgresql-performance-diagnostics
 ```
 
 ### Claude Code
 ```bash
-claude skills add postgresql-performance-diagnostics
+npx skills add agentskillexchange/skills --skill postgresql-performance-diagnostics -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` configuration:
-```json
-{
-  "skills": ["postgresql-performance-diagnostics"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill postgresql-performance-diagnostics -a cursor
 ```
 
 ### OpenClaw
@@ -44,9 +40,8 @@ clawhub install postgresql-performance-diagnostics
 
 ### Codex
 ```bash
-codex skills add postgresql-performance-diagnostics
+npx skills add agentskillexchange/skills --skill postgresql-performance-diagnostics -a codex
 ```
-
 ## Details
 
 | Field | Value |

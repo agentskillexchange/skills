@@ -3,15 +3,14 @@ name: "Schema.org Markup Generator"
 description: "Generates structured data markup using Schema.org vocabulary in JSON-LD format. Supports Article, Product, FAQPage, HowTo, and LocalBusiness schemas with Google Rich Results Test API validation."
 category: "Content Writing & SEO"
 framework: "MCP-compatible"
-verification: "✅ Verified"
-rating: "4.9"
-reviews: "30"
+verification: security_reviewed
+rating: 4.9
+reviews: 30
 creator: "Ava Johnson"
 creator_handle: "@avajohnson"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/schema-org-markup-generator-agent/"
+source: "https://agentskillexchange.com/skills/schema-org-markup-generator-agent/"
 ---
-
 # Schema.org Markup Generator
 
 Generates structured data markup using Schema.org vocabulary in JSON-LD format. Supports Article, Product, FAQPage, HowTo, and LocalBusiness schemas with Google Rich Results Test API validation.
@@ -20,22 +19,17 @@ Generates structured data markup using Schema.org vocabulary in JSON-LD format. 
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install schema-org-markup-generator-agent
+npx skills add agentskillexchange/skills --skill schema-org-markup-generator-agent
 ```
 
 ### Claude Code
 ```bash
-claude mcp add schema-org-markup-generator-agent
+npx skills add agentskillexchange/skills --skill schema-org-markup-generator-agent -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "schema-org-markup-generator-agent": {
-    "enabled": true
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill schema-org-markup-generator-agent -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install schema-org-markup-generator-agent
 
 ### Codex
 ```bash
-codex install schema-org-markup-generator-agent
+npx skills add agentskillexchange/skills --skill schema-org-markup-generator-agent -a codex
 ```
-
 ## Details
 
 | Field | Value |

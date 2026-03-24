@@ -3,41 +3,33 @@ name: "Jenkins Pipeline Monitor"
 description: "Monitors Jenkins CI pipelines via the Jenkins REST API (/api/json) and Blue Ocean REST endpoints. Tracks build queue times, stage durations, and test result trends using JUnit XML parsing."
 category: "CI/CD Integrations"
 framework: "Gemini"
-verification: "security_reviewed"
-rating: "4.4"
-reviews: "47"
+verification: security_reviewed
+rating: 4.4
+reviews: 47
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/jenkins-pipeline-monitor/"
+source: "https://agentskillexchange.com/skills/jenkins-pipeline-monitor/"
 ---
-
 # Jenkins Pipeline Monitor
 
 Monitors Jenkins CI pipelines via the Jenkins REST API (/api/json) and Blue Ocean REST endpoints. Tracks build queue times, stage durations, and test result trends using JUnit XML parsing.
 
 ## Installation
 
-Install this skill in your agent with one of the following methods:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install jenkins-pipeline-monitor
+npx skills add agentskillexchange/skills --skill jenkins-pipeline-monitor
 ```
 
 ### Claude Code
 ```bash
-claude mcp add jenkins-pipeline-monitor
+npx skills add agentskillexchange/skills --skill jenkins-pipeline-monitor -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "jenkins-pipeline-monitor": {
-    "source": "https://agentskillexchange.com/skill/jenkins-pipeline-monitor/"
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill jenkins-pipeline-monitor -a cursor
 ```
 
 ### OpenClaw
@@ -47,9 +39,8 @@ clawhub install jenkins-pipeline-monitor
 
 ### Codex
 ```bash
-codex install jenkins-pipeline-monitor
+npx skills add agentskillexchange/skills --skill jenkins-pipeline-monitor -a codex
 ```
-
 ## Details
 
 | | |

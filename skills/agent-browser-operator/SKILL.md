@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.2
 reviews: 52
-creator: Raj Gupta
-creator_handle: rajgupta
+creator: "Raj Gupta"
+creator_handle: "@rajgupta"
 creator_verified: true
-source: https://agentskillexchange.com/skill/agent-browser-operator/
+source: "https://agentskillexchange.com/skills/agent-browser-operator/"
 ---
-
 # Agent Browser Operator
 
 Interactive browser skill for logged-in flows, dynamic pages, and session-aware site operations.

@@ -3,15 +3,14 @@ name: "Tesseract OCR Data Extractor"
 description: "Extracts structured data from scanned documents using Tesseract OCR engine with LSTM models. Supports table detection via OpenCV contour analysis and outputs to CSV, JSON, or Pandas DataFrames."
 category: "Data Extraction & Transformation"
 framework: "Gemini"
-verification: "community"
-rating: "4.9"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Alex Rivera"
 creator_handle: "@arivera_dev"
-creator_verified: 1
-source: "https://agentskillexchange.com/skill/tesseract-ocr-data-extractor/"
+creator_verified: true
+source: "https://agentskillexchange.com/skills/tesseract-ocr-data-extractor/"
 ---
-
 # Tesseract OCR Data Extractor
 
 Extracts structured data from scanned documents using Tesseract OCR engine with LSTM models. Supports table detection via OpenCV contour analysis and outputs to CSV, JSON, or Pandas DataFrames.
@@ -20,22 +19,17 @@ Extracts structured data from scanned documents using Tesseract OCR engine with 
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install tesseract-ocr-data-extractor
+npx skills add agentskillexchange/skills --skill tesseract-ocr-data-extractor
 ```
 
 ### Claude Code
 ```bash
-claude mcp add tesseract-ocr-data-extractor
+npx skills add agentskillexchange/skills --skill tesseract-ocr-data-extractor -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "tesseract-ocr-data-extractor": {
-    "source": "agentskillexchange"
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill tesseract-ocr-data-extractor -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install tesseract-ocr-data-extractor
 
 ### Codex
 ```bash
-codex install-skill tesseract-ocr-data-extractor
+npx skills add agentskillexchange/skills --skill tesseract-ocr-data-extractor -a codex
 ```
-
 ## Details
 
 | Field | Value |

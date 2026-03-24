@@ -3,36 +3,33 @@ name: "GitLab CI Template Library"
 description: "Creates reusable GitLab CI/CD template libraries using include:template and extends keywords. Manages pipeline configurations with rules:changes path filtering, needs DAG dependencies, and Auto Dev..."
 category: "CI/CD Integrations"
 framework: "MCP-compatible"
-verification: ""
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/gitlab-ci-template-library/"
+source: "https://agentskillexchange.com/skills/gitlab-ci-template-library/"
 ---
-
 # GitLab CI Template Library
 
 Creates reusable GitLab CI/CD template libraries using include:template and extends keywords. Manages pipeline configurations with rules:changes path filtering, needs DAG dependencies, and Auto DevOps customization via CI/CD variables.
 
 ## Installation
 
-Install this skill across different AI coding agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install gitlab-ci-template-library
+npx skills add agentskillexchange/skills --skill gitlab-ci-template-library
 ```
 
 ### Claude Code
 ```bash
-claude skills add gitlab-ci-template-library
+npx skills add agentskillexchange/skills --skill gitlab-ci-template-library -a claude-code
 ```
 
 ### Cursor
-```
-Install from Cursor Settings → Skills → Add → Search "GitLab CI Template Library"
+```bash
+npx skills add agentskillexchange/skills --skill gitlab-ci-template-library -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install gitlab-ci-template-library
 
 ### Codex
 ```bash
-codex skills add gitlab-ci-template-library
+npx skills add agentskillexchange/skills --skill gitlab-ci-template-library -a codex
 ```
-
 ## Details
 
 | Property | Value |

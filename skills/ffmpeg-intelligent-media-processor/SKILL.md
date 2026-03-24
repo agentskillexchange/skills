@@ -3,16 +3,15 @@ name: "FFmpeg Intelligent Media Processor"
 description: "Orchestrates complex video and audio processing pipelines using FFmpeg and FFprobe with scene detection via PySceneDetect. Handles format conversion, thumbnail generation, HLS packaging, and loudness normalization per EBU R128."
 category: "Image & Creative Automation"
 framework: "OpenClaw"
-verification: "✅ Verified"
-security: "✅ Reviewed"
-rating: "4.4"
-reviews: "63"
+verification: security_reviewed
+rating: 4.4
+reviews: 63
 creator: "Lucy Zhang"
 creator_handle: "@lucyzhang"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/ffmpeg-intelligent-media-processor/"
+source: "https://agentskillexchange.com/skills/ffmpeg-intelligent-media-processor/"
+security: "✅ Reviewed"
 ---
-
 # FFmpeg Intelligent Media Processor
 
 Orchestrates complex video and audio processing pipelines using FFmpeg and FFprobe with scene detection via PySceneDetect. Handles format conversion, thumbnail generation, HLS packaging, and loudness normalization per EBU R128.
@@ -21,20 +20,17 @@ Orchestrates complex video and audio processing pipelines using FFmpeg and FFpro
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install ffmpeg-intelligent-media-processor
+npx skills add agentskillexchange/skills --skill ffmpeg-intelligent-media-processor
 ```
 
 ### Claude Code
 ```bash
-claude skills add ffmpeg-intelligent-media-processor
+npx skills add agentskillexchange/skills --skill ffmpeg-intelligent-media-processor -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` configuration:
-```json
-{
-  "skills": ["ffmpeg-intelligent-media-processor"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill ffmpeg-intelligent-media-processor -a cursor
 ```
 
 ### OpenClaw
@@ -44,9 +40,8 @@ clawhub install ffmpeg-intelligent-media-processor
 
 ### Codex
 ```bash
-codex skills add ffmpeg-intelligent-media-processor
+npx skills add agentskillexchange/skills --skill ffmpeg-intelligent-media-processor -a codex
 ```
-
 ## Details
 
 | Field | Value |

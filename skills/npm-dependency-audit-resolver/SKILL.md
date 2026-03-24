@@ -3,39 +3,33 @@ name: "npm Dependency Audit Resolver"
 description: "Resolves npm audit vulnerabilities by analyzing the npm registry API for patched versions, generating targeted package.json overrides, and testing upgrades via npm-check-updates compatibility mode."
 category: "Security & Verification"
 framework: "Claude Code"
-verification: ""
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/npm-dependency-audit-resolver/"
+source: "https://agentskillexchange.com/skills/npm-dependency-audit-resolver/"
 ---
-
 # npm Dependency Audit Resolver
 
 Resolves npm audit vulnerabilities by analyzing the npm registry API for patched versions, generating targeted package.json overrides, and testing upgrades via npm-check-updates compatibility mode.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install npm-dependency-audit-resolver
+npx skills add agentskillexchange/skills --skill npm-dependency-audit-resolver
 ```
 
 ### Claude Code
 ```bash
-claude mcp add npm-dependency-audit-resolver
+npx skills add agentskillexchange/skills --skill npm-dependency-audit-resolver -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["npm-dependency-audit-resolver"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill npm-dependency-audit-resolver -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install npm-dependency-audit-resolver
 
 ### Codex
 ```bash
-codex install npm-dependency-audit-resolver
+npx skills add agentskillexchange/skills --skill npm-dependency-audit-resolver -a codex
 ```
-
 ## Details
 
 | Field | Value |

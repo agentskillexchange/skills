@@ -3,15 +3,14 @@ name: "CircleCI Orb Composition Engine"
 description: "Composes and validates CircleCI orbs using the circleci/config SDK and orb registry API. Supports parameterized jobs, executor definitions, and automated orb publishing via circleci/orb-tools."
 category: "CI/CD Integrations"
 framework: "Codex"
-verification: ""
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/circleci-orb-composition-engine-2/"
+source: "https://agentskillexchange.com/skills/circleci-orb-composition-engine-2/"
 ---
-
 # CircleCI Orb Composition Engine
 
 Composes and validates CircleCI orbs using the circleci/config SDK and orb registry API. Supports parameterized jobs, executor definitions, and automated orb publishing via circleci/orb-tools.
@@ -20,22 +19,17 @@ Composes and validates CircleCI orbs using the circleci/config SDK and orb regis
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install circleci-orb-composition-engine-2
+npx skills add agentskillexchange/skills --skill circleci-orb-composition-engine-2
 ```
 
 ### Claude Code
 ```bash
-claude mcp add circleci-orb-composition-engine-2
+npx skills add agentskillexchange/skills --skill circleci-orb-composition-engine-2 -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "circleci-orb-composition-engine-2": {
-    "enabled": true
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill circleci-orb-composition-engine-2 -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install circleci-orb-composition-engine-2
 
 ### Codex
 ```bash
-codex install circleci-orb-composition-engine-2
+npx skills add agentskillexchange/skills --skill circleci-orb-composition-engine-2 -a codex
 ```
-
 ## Details
 
 | Field | Value |

@@ -3,51 +3,44 @@ name: "Google Calendar Conflict Resolver"
 description: "Detects and resolves scheduling conflicts using the Google Calendar Events.list API with timeMin/timeMax queries. Integrates with FreeBusy.query endpoint for multi-calendar availability checks."
 category: "Calendar, Email & Productivity"
 framework: "OpenClaw"
-verification: "verified"
+verification: verified_metadata
 rating: 4.7
 reviews: 26
 creator: "Ava Johnson"
 creator_handle: "@avajohnson"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/google-calendar-conflict-resolver-6/"
+source: "https://agentskillexchange.com/skills/google-calendar-conflict-resolver-6/"
 ---
-
 # Google Calendar Conflict Resolver
 
 Detects and resolves scheduling conflicts using the Google Calendar Events.list API with timeMin/timeMax queries. Integrates with FreeBusy.query endpoint for multi-calendar availability checks.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
-**Any agent (npx):**
+### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install google-calendar-conflict-resolver-6
+npx skills add agentskillexchange/skills --skill google-calendar-conflict-resolver-6
 ```
 
-**Claude Code:**
+### Claude Code
 ```bash
-claude skills install google-calendar-conflict-resolver-6
+npx skills add agentskillexchange/skills --skill google-calendar-conflict-resolver-6 -a claude-code
 ```
 
-**Cursor:**
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["google-calendar-conflict-resolver-6"]
-}
+### Cursor
+```bash
+npx skills add agentskillexchange/skills --skill google-calendar-conflict-resolver-6 -a cursor
 ```
 
-**OpenClaw:**
+### OpenClaw
 ```bash
 clawhub install google-calendar-conflict-resolver-6
 ```
 
-**Codex:**
+### Codex
 ```bash
-codex skills install google-calendar-conflict-resolver-6
+npx skills add agentskillexchange/skills --skill google-calendar-conflict-resolver-6 -a codex
 ```
-
 ## Details
 
 | Field | Value |

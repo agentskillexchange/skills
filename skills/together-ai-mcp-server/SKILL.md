@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.0
 reviews: 63
-creator: Marcus Rivera
-creator_handle: mrivera
+creator: "Marcus Rivera"
+creator_handle: "@mrivera"
 creator_verified: true
-source: https://agentskillexchange.com/skill/together-ai-mcp-server/
+source: "https://agentskillexchange.com/skills/together-ai-mcp-server/"
 ---
-
 # Together AI MCP Server
 
 Use this skill to run inference on open-source LLMs and perform batch processing jobs through Together AI’s platform via MCP. It provides access to Llama, Mistral, Qwen, and other open models with competitive pricing and high throughput. Trigger when you need cost-effective open-source LLM inference, batch processing, or want to avoid proprietary model lock-in.

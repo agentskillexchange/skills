@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.2
 reviews: 5
-creator: Leo Park
-creator_handle: leopark
+creator: "Leo Park"
+creator_handle: "@leopark"
 creator_verified: true
-source: https://agentskillexchange.com/skill/codeclimate-quality-analysis-2/
+source: "https://agentskillexchange.com/skills/codeclimate-quality-analysis-2/"
 ---
-
 # CodeClimate Quality Analysis
 
 Integrates CodeClimate into your development workflow for automated code quality and maintainability analysis. Tracks technical debt, code smells, duplication, and complexity trends across pull requests and branches.

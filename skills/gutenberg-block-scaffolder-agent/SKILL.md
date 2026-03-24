@@ -3,15 +3,14 @@ name: "Gutenberg Block Scaffolder"
 description: "Generates custom Gutenberg blocks using @wordpress/create-block and the Block API v3 schema. Produces edit.js, save.js, block.json, and render.php with InnerBlocks support and block.json viewScriptModule."
 category: "WordPress & CMS"
 framework: "Claude Code"
-verification: "✅ Verified"
-rating: "4.7"
-reviews: "54"
+verification: security_reviewed
+rating: 4.7
+reviews: 54
 creator: "Ben Taylor"
 creator_handle: "@bentaylor"
 creator_verified: false
-source: "https://agentskillexchange.com/skill/gutenberg-block-scaffolder-agent/"
+source: "https://agentskillexchange.com/skills/gutenberg-block-scaffolder-agent/"
 ---
-
 # Gutenberg Block Scaffolder
 
 Generates custom Gutenberg blocks using @wordpress/create-block and the Block API v3 schema. Produces edit.js, save.js, block.json, and render.php with InnerBlocks support and block.json viewScriptModule.
@@ -20,22 +19,17 @@ Generates custom Gutenberg blocks using @wordpress/create-block and the Block AP
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install gutenberg-block-scaffolder-agent
+npx skills add agentskillexchange/skills --skill gutenberg-block-scaffolder-agent
 ```
 
 ### Claude Code
 ```bash
-claude mcp add gutenberg-block-scaffolder-agent
+npx skills add agentskillexchange/skills --skill gutenberg-block-scaffolder-agent -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "gutenberg-block-scaffolder-agent": {
-    "enabled": true
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill gutenberg-block-scaffolder-agent -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install gutenberg-block-scaffolder-agent
 
 ### Codex
 ```bash
-codex install gutenberg-block-scaffolder-agent
+npx skills add agentskillexchange/skills --skill gutenberg-block-scaffolder-agent -a codex
 ```
-
 ## Details
 
 | Field | Value |

@@ -3,40 +3,34 @@ name: "Google Calendar Conflict Resolver"
 description: "Detects and resolves scheduling conflicts using the Google Calendar API v3 freebusy endpoint and Events.list with singleEvents=true. Suggests optimal rescheduling slots based on working hours preferences and attendee availability matrices."
 category: "Calendar, Email & Productivity"
 framework: "ChatGPT Agents"
-verification: "✅ Verified"
-security: "🔒 Reviewed"
-rating: "4.1"
-reviews: "18"
+verification: security_reviewed
+rating: 4.1
+reviews: 18
 creator: "Meera Joshi"
 creator_handle: "@meerajoshi"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/google-calendar-conflict-resolver-5/"
+source: "https://agentskillexchange.com/skills/google-calendar-conflict-resolver-5/"
+security: "🔒 Reviewed"
 ---
-
 # Google Calendar Conflict Resolver
 
 Detects and resolves scheduling conflicts using the Google Calendar API v3 freebusy endpoint and Events.list with singleEvents=true. Suggests optimal rescheduling slots based on working hours preferences and attendee availability matrices.
 
 ## Installation
 
-Install this skill across different AI coding agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install google-calendar-conflict-resolver-5
+npx skills add agentskillexchange/skills --skill google-calendar-conflict-resolver-5
 ```
 
 ### Claude Code
 ```bash
-claude skills add google-calendar-conflict-resolver-5
+npx skills add agentskillexchange/skills --skill google-calendar-conflict-resolver-5 -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["google-calendar-conflict-resolver-5"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill google-calendar-conflict-resolver-5 -a cursor
 ```
 
 ### OpenClaw
@@ -46,9 +40,8 @@ clawhub install google-calendar-conflict-resolver-5
 
 ### Codex
 ```bash
-codex skills add google-calendar-conflict-resolver-5
+npx skills add agentskillexchange/skills --skill google-calendar-conflict-resolver-5 -a codex
 ```
-
 ## Details
 
 | Property | Value |

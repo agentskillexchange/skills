@@ -3,39 +3,33 @@ name: "SerpAPI Search Pipeline"
 description: "Automates multi-engine searches via SerpAPI (Google, Bing, DuckDuckGo) with structured JSON extraction. Supports pagination, location targeting, and result deduplication using MinHash LSH."
 category: "Research & Scraping"
 framework: "OpenClaw"
-verification: ""
-rating: "4.6"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/serpapi-search-pipeline/"
+source: "https://agentskillexchange.com/skills/serpapi-search-pipeline/"
 ---
-
 # SerpAPI Search Pipeline
 
 Automates multi-engine searches via SerpAPI (Google, Bing, DuckDuckGo) with structured JSON extraction. Supports pagination, location targeting, and result deduplication using MinHash LSH.
 
 ## Installation
 
-Install this skill in your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install serpapi-search-pipeline
+npx skills add agentskillexchange/skills --skill serpapi-search-pipeline
 ```
 
 ### Claude Code
 ```bash
-claude mcp add serpapi-search-pipeline
+npx skills add agentskillexchange/skills --skill serpapi-search-pipeline -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "serpapi-search-pipeline": true
-}
+```bash
+npx skills add agentskillexchange/skills --skill serpapi-search-pipeline -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install serpapi-search-pipeline
 
 ### Codex
 ```bash
-codex install serpapi-search-pipeline
+npx skills add agentskillexchange/skills --skill serpapi-search-pipeline -a codex
 ```
-
 ## Details
 
 | Property | Value |

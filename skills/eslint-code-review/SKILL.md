@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.9
 reviews: 33
-creator: Tom Anderson
-creator_handle: tanderson
+creator: "Tom Anderson"
+creator_handle: "@tanderson"
 creator_verified: false
-source: https://agentskillexchange.com/skill/eslint-code-review/
+source: "https://agentskillexchange.com/skills/eslint-code-review/"
 ---
-
 # ESLint Code Review
 
 Use this skill when you need to run ESLint analysis on JavaScript or TypeScript code and get structured lint results with fix suggestions. It runs ESLint with your project config, parses the output, and presents actionable findings grouped by severity and rule.

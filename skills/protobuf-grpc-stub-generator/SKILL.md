@@ -3,41 +3,33 @@ name: "Protobuf & gRPC Stub Generator"
 description: "Compiles Protocol Buffer definitions into language-specific gRPC client and server stubs using buf CLI and protoc plugins. Validates proto files against Buf lint rules and detects breaking changes."
 category: "Library & API Reference"
 framework: "Cursor"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.3
 reviews: 56
 creator: "Lucy Zhang"
 creator_handle: "@lucyzhang"
-creator_verified: yes
-source: "https://agentskillexchange.com/skill/protobuf-grpc-stub-generator/"
+creator_verified: true
+source: "https://agentskillexchange.com/skills/protobuf-grpc-stub-generator/"
 ---
-
 # Protobuf & gRPC Stub Generator
 
 Compiles Protocol Buffer definitions into language-specific gRPC client and server stubs using buf CLI and protoc plugins. Validates proto files against Buf lint rules and detects breaking changes.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx agentskills install protobuf-grpc-stub-generator
+npx skills add agentskillexchange/skills --skill protobuf-grpc-stub-generator
 ```
 
 ### Claude Code
 ```bash
-claude mcp add protobuf-grpc-stub-generator
+npx skills add agentskillexchange/skills --skill protobuf-grpc-stub-generator -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "protobuf-grpc-stub-generator": {
-    "enabled": true
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill protobuf-grpc-stub-generator -a cursor
 ```
 
 ### OpenClaw
@@ -47,9 +39,8 @@ clawhub install protobuf-grpc-stub-generator
 
 ### Codex
 ```bash
-codex install protobuf-grpc-stub-generator
+npx skills add agentskillexchange/skills --skill protobuf-grpc-stub-generator -a codex
 ```
-
 ## Details
 
 | Field | Value |

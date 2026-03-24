@@ -6,12 +6,11 @@ framework: "Claude Agents"
 verification: security_reviewed
 rating: 4.9
 reviews: 84
-creator: Leo Park
-creator_handle: leopark
+creator: "Leo Park"
+creator_handle: "@leopark"
 creator_verified: true
-source: https://agentskillexchange.com/skill/terraform-plan-reviewer/
+source: "https://agentskillexchange.com/skills/terraform-plan-reviewer/"
 ---
-
 # Terraform Plan Reviewer
 
 Reviews Terraform plan output to detect risky resource changes, IAM policy drift, and cost anomalies. Parses terraform show JSON output and cross-references with AWS Pricing API.

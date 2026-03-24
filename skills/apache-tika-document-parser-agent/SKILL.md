@@ -3,36 +3,33 @@ name: "Apache Tika Document Parser Agent"
 description: "Extracts text and metadata from 1000+ file formats using Apache Tika server REST API. Handles PDF OCR via Tesseract integration, Office document parsing, and email archive extraction with MIME detection."
 category: "Data Extraction & Transformation"
 framework: "Gemini"
-verification: "Verified ✅"
+verification: security_reviewed
 rating: 4.8
 reviews: 54
 creator: "Sarah O'Brien"
 creator_handle: "@sarahcodes"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/apache-tika-document-parser-agent/"
+source: "https://agentskillexchange.com/skills/apache-tika-document-parser-agent/"
 ---
-
 # Apache Tika Document Parser Agent
 
 Extracts text and metadata from 1000+ file formats using Apache Tika server REST API. Handles PDF OCR via Tesseract integration, Office document parsing, and email archive extraction with MIME detection.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install apache-tika-document-parser-agent
+npx skills add agentskillexchange/skills --skill apache-tika-document-parser-agent
 ```
 
 ### Claude Code
 ```bash
-claude skills add apache-tika-document-parser-agent
+npx skills add agentskillexchange/skills --skill apache-tika-document-parser-agent -a claude-code
 ```
 
 ### Cursor
-```
-Install from Cursor Settings → Skills → Search "Apache Tika Document Parser Agent"
+```bash
+npx skills add agentskillexchange/skills --skill apache-tika-document-parser-agent -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install apache-tika-document-parser-agent
 
 ### Codex
 ```bash
-codex skills install apache-tika-document-parser-agent
+npx skills add agentskillexchange/skills --skill apache-tika-document-parser-agent -a codex
 ```
-
 ## Details
 
 | Field | Value |

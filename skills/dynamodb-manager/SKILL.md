@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.4
 reviews: 45
-creator: Alex Thompson
-creator_handle: alexthompson
+creator: "Alex Thompson"
+creator_handle: "@alexthompson"
 creator_verified: true
-source: https://agentskillexchange.com/skill/dynamodb-manager/
+source: "https://agentskillexchange.com/skills/dynamodb-manager/"
 ---
-
 # DynamoDB Manager
 
 AI agent skill for AWS DynamoDB — query and scan tables, inspect item schemas, manage secondary indexes, analyze capacity usage, and generate PartiQL queries. Supports on-demand and provisioned capacity modes.

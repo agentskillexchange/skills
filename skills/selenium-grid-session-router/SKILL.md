@@ -3,51 +3,44 @@ name: "Selenium Grid Session Router"
 description: "Routes browser automation sessions across Selenium Grid 4 nodes using the /status and /session endpoints. Configures RemoteWebDriver with DesiredCapabilities for cross-browser parallel execution."
 category: "Browser Automation"
 framework: "OpenClaw"
-verification: "verified"
+verification: verified_metadata
 rating: 4.9
 reviews: 86
 creator: "Omar Farouk"
 creator_handle: "@omarfarouk"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/selenium-grid-session-router/"
+source: "https://agentskillexchange.com/skills/selenium-grid-session-router/"
 ---
-
 # Selenium Grid Session Router
 
 Routes browser automation sessions across Selenium Grid 4 nodes using the /status and /session endpoints. Configures RemoteWebDriver with DesiredCapabilities for cross-browser parallel execution.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
-**Any agent (npx):**
+### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install selenium-grid-session-router
+npx skills add agentskillexchange/skills --skill selenium-grid-session-router
 ```
 
-**Claude Code:**
+### Claude Code
 ```bash
-claude skills install selenium-grid-session-router
+npx skills add agentskillexchange/skills --skill selenium-grid-session-router -a claude-code
 ```
 
-**Cursor:**
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["selenium-grid-session-router"]
-}
+### Cursor
+```bash
+npx skills add agentskillexchange/skills --skill selenium-grid-session-router -a cursor
 ```
 
-**OpenClaw:**
+### OpenClaw
 ```bash
 clawhub install selenium-grid-session-router
 ```
 
-**Codex:**
+### Codex
 ```bash
-codex skills install selenium-grid-session-router
+npx skills add agentskillexchange/skills --skill selenium-grid-session-router -a codex
 ```
-
 ## Details
 
 | Field | Value |

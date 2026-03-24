@@ -3,51 +3,44 @@ name: "Puppeteer Screenshot Diff Engine"
 description: "Visual regression testing using Puppeteer page.screenshot() with pixelmatch comparison. Leverages CDP sessions via page.createCDPSession() for precise viewport emulation and network throttling."
 category: "Browser Automation"
 framework: "Claude Code"
-verification: "verified"
+verification: verified_metadata
 rating: 4.1
 reviews: 58
 creator: "Leo Park"
 creator_handle: "@leopark_ai"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/puppeteer-screenshot-diff-engine/"
+source: "https://agentskillexchange.com/skills/puppeteer-screenshot-diff-engine/"
 ---
-
 # Puppeteer Screenshot Diff Engine
 
 Visual regression testing using Puppeteer page.screenshot() with pixelmatch comparison. Leverages CDP sessions via page.createCDPSession() for precise viewport emulation and network throttling.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
-**Any agent (npx):**
+### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install puppeteer-screenshot-diff-engine
+npx skills add agentskillexchange/skills --skill puppeteer-screenshot-diff-engine
 ```
 
-**Claude Code:**
+### Claude Code
 ```bash
-claude skills install puppeteer-screenshot-diff-engine
+npx skills add agentskillexchange/skills --skill puppeteer-screenshot-diff-engine -a claude-code
 ```
 
-**Cursor:**
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["puppeteer-screenshot-diff-engine"]
-}
+### Cursor
+```bash
+npx skills add agentskillexchange/skills --skill puppeteer-screenshot-diff-engine -a cursor
 ```
 
-**OpenClaw:**
+### OpenClaw
 ```bash
 clawhub install puppeteer-screenshot-diff-engine
 ```
 
-**Codex:**
+### Codex
 ```bash
-codex skills install puppeteer-screenshot-diff-engine
+npx skills add agentskillexchange/skills --skill puppeteer-screenshot-diff-engine -a codex
 ```
-
 ## Details
 
 | Field | Value |

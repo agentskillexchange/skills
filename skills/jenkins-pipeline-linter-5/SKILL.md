@@ -3,15 +3,14 @@ name: "Jenkins Pipeline Linter"
 description: "Lints and validates Jenkinsfile declarative and scripted pipelines using the Jenkins Remote API and Groovy AST inspection. Catches syntax errors, deprecated plugin calls, and security anti-patterns."
 category: "CI/CD Integrations"
 framework: "Claude Code"
-verification: "Community"
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/jenkins-pipeline-linter-5/"
+source: "https://agentskillexchange.com/skills/jenkins-pipeline-linter-5/"
 ---
-
 # Jenkins Pipeline Linter
 
 Lints and validates Jenkinsfile declarative and scripted pipelines using the Jenkins Remote API and Groovy AST inspection. Catches syntax errors, deprecated plugin calls, and security anti-patterns.
@@ -20,17 +19,17 @@ Lints and validates Jenkinsfile declarative and scripted pipelines using the Jen
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install jenkins-pipeline-linter-5
+npx skills add agentskillexchange/skills --skill jenkins-pipeline-linter-5
 ```
 
 ### Claude Code
 ```bash
-claude install-skill jenkins-pipeline-linter-5
+npx skills add agentskillexchange/skills --skill jenkins-pipeline-linter-5 -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor install-skill jenkins-pipeline-linter-5
+npx skills add agentskillexchange/skills --skill jenkins-pipeline-linter-5 -a cursor
 ```
 
 ### OpenClaw
@@ -40,9 +39,8 @@ clawhub install jenkins-pipeline-linter-5
 
 ### Codex
 ```bash
-codex install-skill jenkins-pipeline-linter-5
+npx skills add agentskillexchange/skills --skill jenkins-pipeline-linter-5 -a codex
 ```
-
 ## Details
 
 | Field | Value |

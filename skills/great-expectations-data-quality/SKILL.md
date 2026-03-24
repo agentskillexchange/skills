@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.6
 reviews: 34
-creator: Elena Kowalski
-creator_handle: ekowalski
+creator: "Elena Kowalski"
+creator_handle: "@ekowalski"
 creator_verified: true
-source: https://agentskillexchange.com/skill/great-expectations-data-quality/
+source: "https://agentskillexchange.com/skills/great-expectations-data-quality/"
 ---
-
 # Great Expectations Data Quality
 
 Automate data quality validation using Great Expectations suites, enabling AI agents to generate expectation suites, run checkpoint validations, and surface data quality failures as structured reports. Integrates with existing data pipelines to enforce schema and statistical constraints.

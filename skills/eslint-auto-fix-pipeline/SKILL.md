@@ -3,36 +3,33 @@ name: "ESLint Auto-Fix Pipeline"
 description: "Automated ESLint rule enforcement with auto-fix capabilities using the ESLint Node.js API and @typescript-eslint/parser. Integrates with Prettier for formatting conflicts and supports custom rule configurations via .eslintrc.json schema validation."
 category: "Code Quality & Review"
 framework: "Claude Code"
-verification: "community"
-rating: "4.1"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/eslint-auto-fix-pipeline/"
+source: "https://agentskillexchange.com/skills/eslint-auto-fix-pipeline/"
 ---
-
 # ESLint Auto-Fix Pipeline
 
 Automated ESLint rule enforcement with auto-fix capabilities using the ESLint Node.js API and @typescript-eslint/parser. Integrates with Prettier for formatting conflicts and supports custom rule configurations via .eslintrc.json schema validation.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install eslint-auto-fix-pipeline
+npx skills add agentskillexchange/skills --skill eslint-auto-fix-pipeline
 ```
 
 ### Claude Code
 ```bash
-claude skills add eslint-auto-fix-pipeline
+npx skills add agentskillexchange/skills --skill eslint-auto-fix-pipeline -a claude-code
 ```
 
 ### Cursor
-```
-Install from Cursor Settings → Skills → Add → "ESLint Auto-Fix Pipeline"
+```bash
+npx skills add agentskillexchange/skills --skill eslint-auto-fix-pipeline -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install eslint-auto-fix-pipeline
 
 ### Codex
 ```bash
-codex skills add eslint-auto-fix-pipeline
+npx skills add agentskillexchange/skills --skill eslint-auto-fix-pipeline -a codex
 ```
-
 ## Details
 
 | Field | Value |

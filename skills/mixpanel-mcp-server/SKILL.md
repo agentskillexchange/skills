@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.8
 reviews: 69
-creator: Maya Johnson
-creator_handle: mayaj
+creator: "Maya Johnson"
+creator_handle: "@mayaj"
 creator_verified: false
-source: https://agentskillexchange.com/skill/mixpanel-mcp-server/
+source: "https://agentskillexchange.com/skills/mixpanel-mcp-server/"
 ---
-
 # Mixpanel MCP Server
 
 Use this skill to query Mixpanel event analytics, analyze funnels, create user cohorts, and access product analytics data through MCP. It enables agents to pull insights from user behavior data and integrate analytics into automated decision-making. Trigger when you need to query event data programmatically, analyze conversion funnels, or build analytics-driven automation.

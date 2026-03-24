@@ -3,35 +3,34 @@ name: "Snyk Dependency Audit Skill"
 description: "Uses the Snyk CLI and REST API v1 to scan package manifests for known CVEs. Cross-references findings with the GitHub Advisory Database and produces SBOM documents in CycloneDX format."
 category: "Security & Verification"
 framework: "Claude Code"
-verification: "Verified & Security Reviewed"
+verification: security_reviewed
 rating: 4.2
 reviews: 83
 creator: "Grace Okafor"
 creator_handle: "@graceokafor"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/snyk-dependency-audit-skill/"
+source: "https://agentskillexchange.com/skills/snyk-dependency-audit-skill/"
 ---
-
 # Snyk Dependency Audit Skill
 
 Uses the Snyk CLI and REST API v1 to scan package manifests for known CVEs. Cross-references findings with the GitHub Advisory Database and produces SBOM documents in CycloneDX format.
 
 ## Installation
 
-Install this skill across different AI coding agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install snyk-dependency-audit-skill
+npx skills add agentskillexchange/skills --skill snyk-dependency-audit-skill
 ```
 
 ### Claude Code
 ```bash
-claude mcp add snyk-dependency-audit-skill
+npx skills add agentskillexchange/skills --skill snyk-dependency-audit-skill -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills/` directory or install via Cursor Settings → Skills.
+```bash
+npx skills add agentskillexchange/skills --skill snyk-dependency-audit-skill -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install snyk-dependency-audit-skill
 
 ### Codex
 ```bash
-codex install snyk-dependency-audit-skill
+npx skills add agentskillexchange/skills --skill snyk-dependency-audit-skill -a codex
 ```
-
 ## Details
 
 | Property | Value |

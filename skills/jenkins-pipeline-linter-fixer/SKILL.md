@@ -3,35 +3,32 @@ name: "Jenkins Pipeline Linter & Fixer"
 description: "Validates Jenkinsfile declarative pipelines using the Jenkins Pipeline Linter API endpoint (/pipeline-model-converter/validate). Auto-fixes common syntax issues and stages missing agent directives."
 category: "CI/CD Integrations"
 framework: "Cursor"
-verification: "Verified Metadata"
-rating: "4.3"
-reviews: "86"
+verification: verified_metadata
+rating: 4.3
+reviews: 86
 creator: "Community"
 creator_verified: false
-source: "https://agentskillexchange.com/skill/jenkins-pipeline-linter-fixer/"
+source: "https://agentskillexchange.com/skills/jenkins-pipeline-linter-fixer/"
 ---
-
 # Jenkins Pipeline Linter & Fixer
 
 Validates Jenkinsfile declarative pipelines using the Jenkins Pipeline Linter API endpoint (/pipeline-model-converter/validate). Auto-fixes common syntax issues and stages missing agent directives.
 
 ## Installation
 
-Install this skill for your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install jenkins-pipeline-linter-fixer
+npx skills add agentskillexchange/skills --skill jenkins-pipeline-linter-fixer
 ```
 
 ### Claude Code
 ```bash
-claude skills add jenkins-pipeline-linter-fixer
+npx skills add agentskillexchange/skills --skill jenkins-pipeline-linter-fixer -a claude-code
 ```
 
 ### Cursor
-```
-Install jenkins-pipeline-linter-fixer from Cursor Settings → Skills
+```bash
+npx skills add agentskillexchange/skills --skill jenkins-pipeline-linter-fixer -a cursor
 ```
 
 ### OpenClaw
@@ -41,9 +38,8 @@ clawhub install jenkins-pipeline-linter-fixer
 
 ### Codex
 ```bash
-codex skills add jenkins-pipeline-linter-fixer
+npx skills add agentskillexchange/skills --skill jenkins-pipeline-linter-fixer -a codex
 ```
-
 ## Details
 
 | Field | Value |

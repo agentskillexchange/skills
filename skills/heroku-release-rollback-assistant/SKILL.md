@@ -3,15 +3,14 @@ name: "Heroku Release Rollback Assistant"
 description: "Uses the Heroku Platform API to list recent releases, identify the last stable version before a regression, and execute a rollback with a single confirmation step. Compares config vars between releases to flag changes that may have caused the issue."
 category: "CI/CD Integrations"
 framework: "ChatGPT Agents"
-verification: 
+verification: listed
 rating: 4.5
 reviews: 54
-creator: Marcus Rivera
-creator_handle: mrivera
+creator: "Marcus Rivera"
+creator_handle: "@mrivera"
 creator_verified: true
-source: https://agentskillexchange.com/skill/heroku-release-rollback-assistant/
+source: "https://agentskillexchange.com/skills/heroku-release-rollback-assistant/"
 ---
-
 # Heroku Release Rollback Assistant
 
 Uses the Heroku Platform API to list recent releases, identify the last stable version before a regression, and execute a rollback with a single confirmation step. Compares config vars between releases to flag changes that may have caused the issue.

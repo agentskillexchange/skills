@@ -3,15 +3,14 @@ name: "Metabase Dashboard Snapshot & Alerting"
 description: "Uses the Metabase REST API to export question results as CSV and render dashboard PNGs on a cron schedule. Compares key metric values against user-defined thresholds and fires alerts to PagerDuty or Slack when anomalies are detected. Supports multi-instance deployments."
 category: "Data Extraction & Transformation"
 framework: "OpenClaw"
-verification: 
+verification: listed
 rating: 4.4
 reviews: 47
-creator: Priya Sharma
-creator_handle: priyasharma
+creator: "Priya Sharma"
+creator_handle: "@priyasharma"
 creator_verified: true
-source: https://agentskillexchange.com/skill/metabase-dashboard-snapshot-alerting/
+source: "https://agentskillexchange.com/skills/metabase-dashboard-snapshot-alerting/"
 ---
-
 # Metabase Dashboard Snapshot & Alerting
 
 Uses the Metabase REST API to export question results as CSV and render dashboard PNGs on a cron schedule. Compares key metric values against user-defined thresholds and fires alerts to PagerDuty or Slack when anomalies are detected. Supports multi-instance deployments.

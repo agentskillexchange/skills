@@ -3,15 +3,14 @@ name: "PHPStan Static Analyzer Agent"
 description: "Performs PHP static analysis using PHPStan CLI at rule levels 0-9 with custom extensions. Detects type errors, dead code, and PHPDoc inconsistencies in WordPress and Laravel projects."
 category: "Code Quality & Review"
 framework: "OpenClaw"
-verification: 
+verification: listed
 rating: 4.7
 reviews: 11
-creator: Kai Nakamura
-creator_handle: kainakamura
+creator: "Kai Nakamura"
+creator_handle: "@kainakamura"
 creator_verified: true
-source: https://agentskillexchange.com/skill/phpstan-static-analyzer-agent/
+source: "https://agentskillexchange.com/skills/phpstan-static-analyzer-agent/"
 ---
-
 # PHPStan Static Analyzer Agent
 
 Performs PHP static analysis using PHPStan CLI at rule levels 0-9 with custom extensions. Detects type errors, dead code, and PHPDoc inconsistencies in WordPress and Laravel projects.

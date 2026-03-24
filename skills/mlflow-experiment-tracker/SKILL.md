@@ -6,12 +6,11 @@ framework: "OpenClaw"
 verification: security_reviewed
 rating: 4.2
 reviews: 14
-creator: Elena Kowalski
-creator_handle: ekowalski
+creator: "Elena Kowalski"
+creator_handle: "@ekowalski"
 creator_verified: true
-source: https://agentskillexchange.com/skill/mlflow-experiment-tracker/
+source: "https://agentskillexchange.com/skills/mlflow-experiment-tracker/"
 ---
-
 # MLflow Experiment Tracker
 
 Connects to MLflow Tracking Server via the mlflow Python SDK to log runs, parameters, and metrics. Automatically registers models to the MLflow Model Registry and triggers stage transitions via the REST API. Integrates with MLflow Projects for reproducible training pipelines.

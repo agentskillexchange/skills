@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.4
 reviews: 48
-creator: Marcus Rivera
-creator_handle: mrivera
+creator: "Marcus Rivera"
+creator_handle: "@mrivera"
 creator_verified: true
-source: https://agentskillexchange.com/skill/agentgpt-autonomy-agent/
+source: "https://agentskillexchange.com/skills/agentgpt-autonomy-agent/"
 ---
-
 # AgentGPT Autonomy Agent
 
 AgentGPT is a browser-based autonomous AI agent that can plan, execute, and iterate on multi-step tasks. This skill covers deploying and customizing AgentGPT for autonomous goal completion with web browsing and tool use.

@@ -6,12 +6,11 @@ framework: "OpenClaw"
 verification: security_reviewed
 rating: 4.9
 reviews: 33
-creator: Elena Kowalski
-creator_handle: ekowalski
+creator: "Elena Kowalski"
+creator_handle: "@ekowalski"
 creator_verified: true
-source: https://agentskillexchange.com/skill/summarize/
+source: "https://agentskillexchange.com/skills/summarize/"
 ---
-
 # Summarize
 
 Summarize long-form media, URLs, and files into useful briefs.

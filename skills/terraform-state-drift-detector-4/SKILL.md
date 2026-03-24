@@ -6,12 +6,11 @@ framework: "Gemini"
 verification: security_reviewed
 rating: 4.1
 reviews: 58
-creator: Marcus Rivera
-creator_handle: mrivera
+creator: "Marcus Rivera"
+creator_handle: "@mrivera"
 creator_verified: true
-source: https://agentskillexchange.com/skill/terraform-state-drift-detector-4/
+source: "https://agentskillexchange.com/skills/terraform-state-drift-detector-4/"
 ---
-
 # Terraform State Drift Detector
 
 Detects infrastructure drift by comparing Terraform state files against live cloud resources using terraform plan -detailed-exitcode and the Terraform Cloud API v2. Generates drift reports with resource-level diffs via terraform show -json output.

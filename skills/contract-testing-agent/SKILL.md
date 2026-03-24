@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.3
 reviews: 76
-creator: Raj Gupta
-creator_handle: rajgupta
+creator: "Raj Gupta"
+creator_handle: "@rajgupta"
 creator_verified: true
-source: https://agentskillexchange.com/skill/contract-testing-agent/
+source: "https://agentskillexchange.com/skills/contract-testing-agent/"
 ---
-
 # Contract Testing Agent
 
 Implements consumer-driven contract testing using Pact. Generates pacts from consumer code, verifies providers against contracts, and integrates with Pact Broker for team-wide contract management.

@@ -3,15 +3,14 @@ name: "Cookiecutter Project Scaffolding Agent"
 description: "Generates project boilerplate from Cookiecutter templates with interactive variable prompts. Supports custom Jinja2 hooks, post-generation scripts, and template composition from multiple cookiecutter.json sources for complex monorepo scaffolding."
 category: "Templates & Workflows"
 framework: "ChatGPT Agents"
-verification: "community"
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/cookiecutter-project-scaffolding-agent/"
+source: "https://agentskillexchange.com/skills/cookiecutter-project-scaffolding-agent/"
 ---
-
 # Cookiecutter Project Scaffolding Agent
 
 Generates project boilerplate from Cookiecutter templates with interactive variable prompts. Supports custom Jinja2 hooks, post-generation scripts, and template composition from multiple cookiecutter.json sources for complex monorepo scaffolding.
@@ -20,22 +19,17 @@ Generates project boilerplate from Cookiecutter templates with interactive varia
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install cookiecutter-project-scaffolding-agent
+npx skills add agentskillexchange/skills --skill cookiecutter-project-scaffolding-agent
 ```
 
 ### Claude Code
 ```bash
-claude mcp add cookiecutter-project-scaffolding-agent
+npx skills add agentskillexchange/skills --skill cookiecutter-project-scaffolding-agent -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "cookiecutter-project-scaffolding-agent": {
-    "source": "agentskillexchange"
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill cookiecutter-project-scaffolding-agent -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install cookiecutter-project-scaffolding-agent
 
 ### Codex
 ```bash
-codex install cookiecutter-project-scaffolding-agent
+npx skills add agentskillexchange/skills --skill cookiecutter-project-scaffolding-agent -a codex
 ```
-
 ## Details
 
 | Field | Value |

@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.9
 reviews: 3
-creator: Aisha Patel
-creator_handle: aishap
+creator: "Aisha Patel"
+creator_handle: "@aishap"
 creator_verified: true
-source: https://agentskillexchange.com/skill/ssl-certificate-manager-skill/
+source: "https://agentskillexchange.com/skills/ssl-certificate-manager-skill/"
 ---
-
 # SSL Certificate Manager Skill
 
 Use this skill to check SSL certificate expiry, renew certificates via Let’s Encrypt or other CAs, and validate the full certificate chain for domains. It automates certificate lifecycle management and alerts on expiring certificates. Trigger when certificates are expiring, HTTPS errors occur, or certificate chain validation fails.

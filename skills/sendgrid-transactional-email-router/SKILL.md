@@ -3,41 +3,33 @@ name: "SendGrid Transactional Email Router"
 description: "Manages transactional email delivery via SendGrid v3 Mail Send API with dynamic template rendering. Handles bounce processing, suppression group management, and event webhook parsing."
 category: "Integrations & Connectors"
 framework: "Cursor"
-verification: ""
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/sendgrid-transactional-email-router/"
+source: "https://agentskillexchange.com/skills/sendgrid-transactional-email-router/"
 ---
-
 # SendGrid Transactional Email Router
 
 Manages transactional email delivery via SendGrid v3 Mail Send API with dynamic template rendering. Handles bounce processing, suppression group management, and event webhook parsing.
 
 ## Installation
 
-Install this skill using one of the following methods:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install sendgrid-transactional-email-router
+npx skills add agentskillexchange/skills --skill sendgrid-transactional-email-router
 ```
 
 ### Claude Code
 ```bash
-claude mcp add sendgrid-transactional-email-router
+npx skills add agentskillexchange/skills --skill sendgrid-transactional-email-router -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "sendgrid-transactional-email-router": {
-    "source": "agentskillexchange"
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill sendgrid-transactional-email-router -a cursor
 ```
 
 ### OpenClaw
@@ -47,9 +39,8 @@ clawhub install sendgrid-transactional-email-router
 
 ### Codex
 ```bash
-codex install sendgrid-transactional-email-router
+npx skills add agentskillexchange/skills --skill sendgrid-transactional-email-router -a codex
 ```
-
 ## Details
 
 | Field | Value |

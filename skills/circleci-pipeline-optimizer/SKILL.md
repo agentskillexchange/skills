@@ -3,39 +3,33 @@ name: "CircleCI Pipeline Optimizer"
 description: "Interfaces with CircleCI API v2 /pipeline and /workflow endpoints to analyze build performance. Identifies slow jobs via timing data, recommends Docker layer caching, and generates optimized .circleci/config.yml with parallelism settings."
 category: "CI/CD Integrations"
 framework: "ChatGPT Agents"
-verification: "security_reviewed"
+verification: security_reviewed
 rating: 4.9
 reviews: 67
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/circleci-pipeline-optimizer/"
+source: "https://agentskillexchange.com/skills/circleci-pipeline-optimizer/"
 ---
-
 # CircleCI Pipeline Optimizer
 
 Interfaces with CircleCI API v2 /pipeline and /workflow endpoints to analyze build performance. Identifies slow jobs via timing data, recommends Docker layer caching, and generates optimized .circleci/config.yml with parallelism settings.
 
 ## Installation
 
-Install this skill across different agents:
-
-### Any AI Agent (npx)
+### Any Agent (npx)
 ```bash
-npx @anthropic/skills install circleci-pipeline-optimizer
+npx skills add agentskillexchange/skills --skill circleci-pipeline-optimizer
 ```
 
 ### Claude Code
 ```bash
-claude skills install circleci-pipeline-optimizer
+npx skills add agentskillexchange/skills --skill circleci-pipeline-optimizer -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "skills": ["circleci-pipeline-optimizer"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill circleci-pipeline-optimizer -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install circleci-pipeline-optimizer
 
 ### Codex
 ```bash
-codex skills install circleci-pipeline-optimizer
+npx skills add agentskillexchange/skills --skill circleci-pipeline-optimizer -a codex
 ```
-
 ## Details
 
 | Field | Value |

@@ -3,39 +3,33 @@ name: "SSL Certificate Auditor"
 description: "Audits TLS/SSL configurations using sslyze Python library and SSL Labs API v3. Checks certificate chain validity, HSTS headers, and OCSP stapling status with Certificate Transparency log verification."
 category: "Security & Verification"
 framework: "OpenClaw"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.8
 reviews: 85
 creator: "Sam Lee"
 creator_handle: "@samlee_dev"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/ssl-certificate-auditor-agent/"
+source: "https://agentskillexchange.com/skills/ssl-certificate-auditor-agent/"
 ---
-
 # SSL Certificate Auditor
 
 Audits TLS/SSL configurations using sslyze Python library and SSL Labs API v3. Checks certificate chain validity, HSTS headers, and OCSP stapling status with Certificate Transparency log verification.
 
 ## Installation
 
-Install this skill for your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install ssl-certificate-auditor-agent
+npx skills add agentskillexchange/skills --skill ssl-certificate-auditor-agent
 ```
 
 ### Claude Code
 ```bash
-claude skills add ssl-certificate-auditor-agent
+npx skills add agentskillexchange/skills --skill ssl-certificate-auditor-agent -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["ssl-certificate-auditor-agent"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill ssl-certificate-auditor-agent -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install ssl-certificate-auditor-agent
 
 ### Codex
 ```bash
-codex skills add ssl-certificate-auditor-agent
+npx skills add agentskillexchange/skills --skill ssl-certificate-auditor-agent -a codex
 ```
-
 ## Details
 
 | Property | Value |

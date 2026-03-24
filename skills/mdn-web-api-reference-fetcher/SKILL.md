@@ -3,51 +3,44 @@ name: "MDN Web API Reference Fetcher"
 description: "Fetches and indexes Mozilla Developer Network Web API documentation using the MDN Yari content API. Provides structured API signatures, browser compatibility data from BCD, and code examples."
 category: "Library & API Reference"
 framework: "Custom Agents"
-verification: "Verified ✅"
-rating: "4.9"
-reviews: "42"
+verification: security_reviewed
+rating: 4.9
+reviews: 42
 creator: "Meera Joshi"
 creator_handle: "@meerajoshi"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/mdn-web-api-reference-fetcher/"
+source: "https://agentskillexchange.com/skills/mdn-web-api-reference-fetcher/"
 ---
-
 # MDN Web API Reference Fetcher
 
 Fetches and indexes Mozilla Developer Network Web API documentation using the MDN Yari content API. Provides structured API signatures, browser compatibility data from BCD, and code examples.
 
 ## Installation
 
-Install this skill across different agents:
-
-**Any agent (npx):**
+### Any Agent (npx)
 ```bash
-npx @anthropic/skills install mdn-web-api-reference-fetcher
+npx skills add agentskillexchange/skills --skill mdn-web-api-reference-fetcher
 ```
 
-**Claude Code:**
+### Claude Code
 ```bash
-claude skills add mdn-web-api-reference-fetcher
+npx skills add agentskillexchange/skills --skill mdn-web-api-reference-fetcher -a claude-code
 ```
 
-**Cursor:**
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["mdn-web-api-reference-fetcher"]
-}
+### Cursor
+```bash
+npx skills add agentskillexchange/skills --skill mdn-web-api-reference-fetcher -a cursor
 ```
 
-**OpenClaw:**
+### OpenClaw
 ```bash
 clawhub install mdn-web-api-reference-fetcher
 ```
 
-**Codex:**
+### Codex
 ```bash
-codex skills add mdn-web-api-reference-fetcher
+npx skills add agentskillexchange/skills --skill mdn-web-api-reference-fetcher -a codex
 ```
-
 ## Details
 
 | Field | Value |

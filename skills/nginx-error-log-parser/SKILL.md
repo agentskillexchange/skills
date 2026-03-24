@@ -3,39 +3,43 @@ name: "Nginx Error Log Parser"
 description: "Parses nginx error.log and access.log files using pattern matching for 5xx status codes, upstream timeouts, and SSL handshake failures. Correlates error spikes with nginx -T configuration dumps to ide"
 category: "Uncategorized"
 framework: "Unknown"
-verification: "Security Reviewed"
-rating: "4.9"
-reviews: "47"
+verification: security_reviewed
+rating: 4.9
+reviews: 47
 creator: "Community"
 creator_verified: false
-source: "https://agentskillexchange.com/skill/nginx-error-log-parser/"
+source: "https://agentskillexchange.com/skills/nginx-error-log-parser/"
 ---
-
 # Nginx Error Log Parser
 
 Parses nginx error.log and access.log files using pattern matching for 5xx status codes, upstream timeouts, and SSL handshake failures. Correlates error spikes with nginx -T configuration dumps to identify misconfigured proxy_pass and keepalive settings.
 
 ## Installation
 
-Install this skill for your preferred agent:
-
+### Any Agent (npx)
 ```bash
-# Any npx-compatible agent
-npx skills install nginx-error-log-parser
-
-# Claude Code
-claude mcp add skills -- npx -y skills install nginx-error-log-parser
-
-# Cursor
-cursor mcp add skills -- npx -y skills install nginx-error-log-parser
-
-# OpenClaw
-clawhub install nginx-error-log-parser
-
-# Codex
-codex install nginx-error-log-parser
+npx skills add agentskillexchange/skills --skill nginx-error-log-parser
 ```
 
+### Claude Code
+```bash
+npx skills add agentskillexchange/skills --skill nginx-error-log-parser -a claude-code
+```
+
+### Cursor
+```bash
+npx skills add agentskillexchange/skills --skill nginx-error-log-parser -a cursor
+```
+
+### OpenClaw
+```bash
+clawhub install nginx-error-log-parser
+```
+
+### Codex
+```bash
+npx skills add agentskillexchange/skills --skill nginx-error-log-parser -a codex
+```
 ## Details
 
 | | |

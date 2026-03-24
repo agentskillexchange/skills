@@ -6,12 +6,11 @@ framework: "Cursor"
 verification: verified_metadata
 rating: 4.6
 reviews: 17
-creator: Leo Park
-creator_handle: leopark
+creator: "Leo Park"
+creator_handle: "@leopark"
 creator_verified: true
-source: https://agentskillexchange.com/skill/eslint-rule-violation-summarizer-2/
+source: "https://agentskillexchange.com/skills/eslint-rule-violation-summarizer-2/"
 ---
-
 # ESLint Rule Violation Summarizer
 
 Runs ESLint against a JS/TS codebase, groups violations by rule and file, and produces a prioritized fix plan. Distinguishes auto-fixable violations from manual ones. Outputs Markdown for GitHub PR comments.

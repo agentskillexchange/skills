@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.6
 reviews: 45
-creator: David Kim
-creator_handle: dkim
+creator: "David Kim"
+creator_handle: "@dkim"
 creator_verified: false
-source: https://agentskillexchange.com/skill/semgrep-code-scanner/
+source: "https://agentskillexchange.com/skills/semgrep-code-scanner/"
 ---
-
 # Semgrep Code Scanner
 
 Runs Semgrep static analysis for security vulnerabilities, bug patterns, and custom code rules. Supports 30+ languages and custom rule creation. Integrates with CI for automated scanning on every commit.

@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.5
 reviews: 3
-creator: Yuki Tanaka
-creator_handle: yukitanaka
+creator: "Yuki Tanaka"
+creator_handle: "@yukitanaka"
 creator_verified: true
-source: https://agentskillexchange.com/skill/docker-mcp-server/
+source: "https://agentskillexchange.com/skills/docker-mcp-server/"
 ---
-
 # Docker MCP Server
 
 Use this skill when you need to list running containers, inspect images, view container logs, or manage Docker volumes and networks from your AI agent. It enables agents to perform container management tasks and debug Docker-based applications without direct terminal access.

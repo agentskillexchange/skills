@@ -3,15 +3,14 @@ name: "GitHub Actions Matrix Builder"
 description: "Generates dynamic CI/CD matrix strategies for GitHub Actions using the GitHub REST API and YAML templating. Supports cross-platform builds with Node.js, Python, and Go version matrices across ubuntu, macos, and windows runners."
 category: "CI/CD Integrations"
 framework: "OpenClaw"
-verification: "community"
-rating: "4.9"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
-creator_verified: 
-source: "https://agentskillexchange.com/skill/github-actions-matrix-builder-7/"
+creator_verified: false
+source: "https://agentskillexchange.com/skills/github-actions-matrix-builder-7/"
 ---
-
 # GitHub Actions Matrix Builder
 
 Generates dynamic CI/CD matrix strategies for GitHub Actions using the GitHub REST API and YAML templating. Supports cross-platform builds with Node.js, Python, and Go version matrices across ubuntu, macos, and windows runners.
@@ -20,20 +19,17 @@ Generates dynamic CI/CD matrix strategies for GitHub Actions using the GitHub RE
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install github-actions-matrix-builder-7
+npx skills add agentskillexchange/skills --skill github-actions-matrix-builder-7
 ```
 
 ### Claude Code
 ```bash
-claude skills add github-actions-matrix-builder-7
+npx skills add agentskillexchange/skills --skill github-actions-matrix-builder-7 -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` configuration:
-```json
-{
-  "skills": ["github-actions-matrix-builder-7"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill github-actions-matrix-builder-7 -a cursor
 ```
 
 ### OpenClaw
@@ -43,9 +39,8 @@ clawhub install github-actions-matrix-builder-7
 
 ### Codex
 ```bash
-codex skills add github-actions-matrix-builder-7
+npx skills add agentskillexchange/skills --skill github-actions-matrix-builder-7 -a codex
 ```
-
 ## Details
 
 | Field | Value |

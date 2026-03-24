@@ -3,15 +3,14 @@ name: "ESLint Rule Composer"
 description: "Creates custom ESLint rules using the ESLint RuleTester API and AST Explorer patterns. Generates rule implementations with auto-fix suggestions based on estree node types and scope analysis."
 category: "Code Quality & Review"
 framework: "Custom Agents"
-verification: "Community"
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/eslint-rule-composer/"
+source: "https://agentskillexchange.com/skills/eslint-rule-composer/"
 ---
-
 # ESLint Rule Composer
 
 Creates custom ESLint rules using the ESLint RuleTester API and AST Explorer patterns. Generates rule implementations with auto-fix suggestions based on estree node types and scope analysis.
@@ -20,17 +19,17 @@ Creates custom ESLint rules using the ESLint RuleTester API and AST Explorer pat
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install eslint-rule-composer
+npx skills add agentskillexchange/skills --skill eslint-rule-composer
 ```
 
 ### Claude Code
 ```bash
-claude install-skill eslint-rule-composer
+npx skills add agentskillexchange/skills --skill eslint-rule-composer -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor install-skill eslint-rule-composer
+npx skills add agentskillexchange/skills --skill eslint-rule-composer -a cursor
 ```
 
 ### OpenClaw
@@ -40,9 +39,8 @@ clawhub install eslint-rule-composer
 
 ### Codex
 ```bash
-codex install-skill eslint-rule-composer
+npx skills add agentskillexchange/skills --skill eslint-rule-composer -a codex
 ```
-
 ## Details
 
 | Field | Value |

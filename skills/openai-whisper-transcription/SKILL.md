@@ -6,12 +6,11 @@ framework: "OpenClaw"
 verification: verified_metadata
 rating: 4.1
 reviews: 78
-creator: Alex Thompson
-creator_handle: alexthompson
+creator: "Alex Thompson"
+creator_handle: "@alexthompson"
 creator_verified: true
-source: https://agentskillexchange.com/skill/openai-whisper-transcription/
+source: "https://agentskillexchange.com/skills/openai-whisper-transcription/"
 ---
-
 # OpenAI Whisper Transcription
 
 Local speech-to-text transcription without relying on an API.

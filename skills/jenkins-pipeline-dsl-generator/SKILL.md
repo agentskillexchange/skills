@@ -3,15 +3,14 @@ name: "Jenkins Pipeline DSL Generator"
 description: "Generates Jenkins Declarative and Scripted Pipeline DSL using the Jenkins REST API and Job DSL plugin. Creates Jenkinsfile configurations with parallel stages, shared libraries, and credential binding."
 category: "CI/CD Integrations"
 framework: "Claude Code"
-verification: "community"
-rating: "4.8"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
-creator_verified: 
-source: "https://agentskillexchange.com/skill/jenkins-pipeline-dsl-generator/"
+creator_verified: false
+source: "https://agentskillexchange.com/skills/jenkins-pipeline-dsl-generator/"
 ---
-
 # Jenkins Pipeline DSL Generator
 
 Generates Jenkins Declarative and Scripted Pipeline DSL using the Jenkins REST API and Job DSL plugin. Creates Jenkinsfile configurations with parallel stages, shared libraries, and credential binding.
@@ -20,20 +19,17 @@ Generates Jenkins Declarative and Scripted Pipeline DSL using the Jenkins REST A
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install jenkins-pipeline-dsl-generator
+npx skills add agentskillexchange/skills --skill jenkins-pipeline-dsl-generator
 ```
 
 ### Claude Code
 ```bash
-claude skills add jenkins-pipeline-dsl-generator
+npx skills add agentskillexchange/skills --skill jenkins-pipeline-dsl-generator -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` configuration:
-```json
-{
-  "skills": ["jenkins-pipeline-dsl-generator"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill jenkins-pipeline-dsl-generator -a cursor
 ```
 
 ### OpenClaw
@@ -43,9 +39,8 @@ clawhub install jenkins-pipeline-dsl-generator
 
 ### Codex
 ```bash
-codex skills add jenkins-pipeline-dsl-generator
+npx skills add agentskillexchange/skills --skill jenkins-pipeline-dsl-generator -a codex
 ```
-
 ## Details
 
 | Field | Value |

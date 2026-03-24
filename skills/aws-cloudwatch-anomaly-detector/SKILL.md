@@ -3,39 +3,33 @@ name: "AWS CloudWatch Anomaly Detector"
 description: "Uses AWS CloudWatch SDK (boto3) to configure anomaly detection bands on metrics via PutAnomalyDetector API. Integrates with SNS for notifications and CloudWatch Synthetics for canary-based uptime monitoring."
 category: "Monitoring & Alerts"
 framework: "MCP-compatible"
-verification: "Community"
+verification: listed
 rating: 0
 reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/aws-cloudwatch-anomaly-detector/"
+source: "https://agentskillexchange.com/skills/aws-cloudwatch-anomaly-detector/"
 ---
-
 # AWS CloudWatch Anomaly Detector
 
 Uses AWS CloudWatch SDK (boto3) to configure anomaly detection bands on metrics via PutAnomalyDetector API. Integrates with SNS for notifications and CloudWatch Synthetics for canary-based uptime monitoring.
 
 ## Installation
 
-Install this skill across different agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install aws-cloudwatch-anomaly-detector
+npx skills add agentskillexchange/skills --skill aws-cloudwatch-anomaly-detector
 ```
 
 ### Claude Code
 ```bash
-claude skills add aws-cloudwatch-anomaly-detector
+npx skills add agentskillexchange/skills --skill aws-cloudwatch-anomaly-detector -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills` configuration:
-```json
-{
-  "skills": ["aws-cloudwatch-anomaly-detector"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill aws-cloudwatch-anomaly-detector -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install aws-cloudwatch-anomaly-detector
 
 ### Codex
 ```bash
-codex skills add aws-cloudwatch-anomaly-detector
+npx skills add agentskillexchange/skills --skill aws-cloudwatch-anomaly-detector -a codex
 ```
-
 ## Details
 
 | Property | Value |

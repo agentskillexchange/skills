@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.3
 reviews: 44
-creator: David Kim
-creator_handle: dkim
+creator: "David Kim"
+creator_handle: "@dkim"
 creator_verified: false
-source: https://agentskillexchange.com/skill/api-changelog-watcher/
+source: "https://agentskillexchange.com/skills/api-changelog-watcher/"
 ---
-
 # API Changelog Watcher
 
 Monitors third-party API changelogs and OpenAPI spec diffs for breaking changes, deprecations, and new features. Sends alerts when APIs you depend on change in ways that could affect your integration.

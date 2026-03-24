@@ -3,39 +3,33 @@ name: "Selenium Grid Parallel Execution Manager"
 description: "Orchestrates distributed browser testing across Selenium Grid 4 nodes using the Grid REST API. Manages session allocation, node health monitoring, and parallel TestNG suite execution."
 category: "Browser Automation"
 framework: "Claude Agents"
-verification: "✅ Verified"
-rating: "4.8"
-reviews: "85"
+verification: security_reviewed
+rating: 4.8
+reviews: 85
 creator: "Elena Rodriguez"
 creator_handle: "@elena_dev"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/selenium-grid-parallel-execution-manager/"
+source: "https://agentskillexchange.com/skills/selenium-grid-parallel-execution-manager/"
 ---
-
 # Selenium Grid Parallel Execution Manager
 
 Orchestrates distributed browser testing across Selenium Grid 4 nodes using the Grid REST API. Manages session allocation, node health monitoring, and parallel TestNG suite execution.
 
 ## Installation
 
-Install this skill across different AI agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install selenium-grid-parallel-execution-manager
+npx skills add agentskillexchange/skills --skill selenium-grid-parallel-execution-manager
 ```
 
 ### Claude Code
 ```bash
-claude mcp add selenium-grid-parallel-execution-manager
+npx skills add agentskillexchange/skills --skill selenium-grid-parallel-execution-manager -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["selenium-grid-parallel-execution-manager"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill selenium-grid-parallel-execution-manager -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install selenium-grid-parallel-execution-manager
 
 ### Codex
 ```bash
-codex install selenium-grid-parallel-execution-manager
+npx skills add agentskillexchange/skills --skill selenium-grid-parallel-execution-manager -a codex
 ```
-
 ## Details
 
 | Field | Value |

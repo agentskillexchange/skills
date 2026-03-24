@@ -3,15 +3,14 @@ name: "Deepgram Nova Transcriber"
 description: "Transcribes audio using the Deepgram Nova-2 API with diarization, punctuation, and smart formatting. Supports streaming via WebSocket and batch via REST with pre-recorded endpoint and callback URLs."
 category: "Media & Transcription"
 framework: "OpenClaw"
-verification: "✅ Verified"
-rating: "4.1"
-reviews: "22"
+verification: security_reviewed
+rating: 4.1
+reviews: 22
 creator: "Hannah Berg"
 creator_handle: "@hannahberg"
 creator_verified: false
-source: "https://agentskillexchange.com/skill/deepgram-nova-transcriber-agent/"
+source: "https://agentskillexchange.com/skills/deepgram-nova-transcriber-agent/"
 ---
-
 # Deepgram Nova Transcriber
 
 Transcribes audio using the Deepgram Nova-2 API with diarization, punctuation, and smart formatting. Supports streaming via WebSocket and batch via REST with pre-recorded endpoint and callback URLs.
@@ -20,22 +19,17 @@ Transcribes audio using the Deepgram Nova-2 API with diarization, punctuation, a
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install deepgram-nova-transcriber-agent
+npx skills add agentskillexchange/skills --skill deepgram-nova-transcriber-agent
 ```
 
 ### Claude Code
 ```bash
-claude mcp add deepgram-nova-transcriber-agent
+npx skills add agentskillexchange/skills --skill deepgram-nova-transcriber-agent -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "deepgram-nova-transcriber-agent": {
-    "enabled": true
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill deepgram-nova-transcriber-agent -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install deepgram-nova-transcriber-agent
 
 ### Codex
 ```bash
-codex install deepgram-nova-transcriber-agent
+npx skills add agentskillexchange/skills --skill deepgram-nova-transcriber-agent -a codex
 ```
-
 ## Details
 
 | Field | Value |

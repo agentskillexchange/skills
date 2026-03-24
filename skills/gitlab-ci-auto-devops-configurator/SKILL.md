@@ -6,12 +6,11 @@ framework: "Claude Agents"
 verification: verified_metadata
 rating: 4.8
 reviews: 70
-creator: Tom Anderson
-creator_handle: tanderson
+creator: "Tom Anderson"
+creator_handle: "@tanderson"
 creator_verified: false
-source: https://agentskillexchange.com/skill/gitlab-ci-auto-devops-configurator/
+source: "https://agentskillexchange.com/skills/gitlab-ci-auto-devops-configurator/"
 ---
-
 # GitLab CI Auto DevOps Configurator
 
 Configures GitLab CI/CD pipelines using .gitlab-ci.yml with Auto DevOps templates, includes, and the GitLab Container Registry. Manages multi-project pipelines and environment-specific deployments.

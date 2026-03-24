@@ -6,12 +6,11 @@ framework: "Cursor"
 verification: security_reviewed
 rating: 4.4
 reviews: 43
-creator: Leo Park
-creator_handle: leopark
+creator: "Leo Park"
+creator_handle: "@leopark"
 creator_verified: true
-source: https://agentskillexchange.com/skill/sonarqube-quality-gate-enforcer-2/
+source: "https://agentskillexchange.com/skills/sonarqube-quality-gate-enforcer-2/"
 ---
-
 # SonarQube Quality Gate Enforcer
 
 Enforces SonarQube quality gates in CI pipelines using the SonarQube Web API and sonar-scanner CLI. Retrieves project measures for coverage, duplications, and maintainability rating to block merges on gate failure.

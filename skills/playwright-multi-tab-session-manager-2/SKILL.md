@@ -3,39 +3,33 @@ name: "Playwright Multi-Tab Session Manager"
 description: "Manages concurrent Playwright browser contexts with tab isolation and cookie partitioning. Uses Playwright BrowserContext API for parallel tab orchestration with SharedArrayBuffer synchronization."
 category: "Browser Automation"
 framework: "Claude Code"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.6
 reviews: 86
 creator: "Aisha Patel"
 creator_handle: "@aishapatel"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/playwright-multi-tab-session-manager-2/"
+source: "https://agentskillexchange.com/skills/playwright-multi-tab-session-manager-2/"
 ---
-
 # Playwright Multi-Tab Session Manager
 
 Manages concurrent Playwright browser contexts with tab isolation and cookie partitioning. Uses Playwright BrowserContext API for parallel tab orchestration with SharedArrayBuffer synchronization.
 
 ## Installation
 
-Install this skill for your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install playwright-multi-tab-session-manager-2
+npx skills add agentskillexchange/skills --skill playwright-multi-tab-session-manager-2
 ```
 
 ### Claude Code
 ```bash
-claude skills add playwright-multi-tab-session-manager-2
+npx skills add agentskillexchange/skills --skill playwright-multi-tab-session-manager-2 -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills.json`:
-```json
-{
-  "skills": ["playwright-multi-tab-session-manager-2"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill playwright-multi-tab-session-manager-2 -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install playwright-multi-tab-session-manager-2
 
 ### Codex
 ```bash
-codex skills add playwright-multi-tab-session-manager-2
+npx skills add agentskillexchange/skills --skill playwright-multi-tab-session-manager-2 -a codex
 ```
-
 ## Details
 
 | Property | Value |

@@ -3,44 +3,33 @@ name: "WP Multisite Network Sync Agent"
 description: "Synchronizes content, settings, plugins, and themes across WordPress multisite networks with conflict resolution, selective sync, and rollback capabilities."
 category: "WordPress & CMS"
 framework: "OpenClaw"
-verification: "✅ Verified"
+verification: security_reviewed
 rating: 4.9
 reviews: 83
 creator: "Yuki Tanaka"
 creator_handle: "@yukitanaka"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/wp-multisite-network-sync-agent/"
+source: "https://agentskillexchange.com/skills/wp-multisite-network-sync-agent/"
 ---
-
 # WP Multisite Network Sync Agent
 
 Synchronizes content, settings, plugins, and themes across WordPress multisite networks with conflict resolution, selective sync, and rollback capabilities.
 
 ## Installation
 
-Install this skill on your preferred agent platform:
-
 ### Any Agent (npx)
 ```bash
-npx skills install wp-multisite-network-sync-agent
+npx skills add agentskillexchange/skills --skill wp-multisite-network-sync-agent
 ```
 
 ### Claude Code
 ```bash
-claude mcp add wp-multisite-network-sync-agent
+npx skills add agentskillexchange/skills --skill wp-multisite-network-sync-agent -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/mcp.json`:
-```json
-{
-  "mcpServers": {
-    "wp-multisite-network-sync-agent": {
-      "command": "npx",
-      "args": ["-y", "skills", "run", "wp-multisite-network-sync-agent"]
-    }
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill wp-multisite-network-sync-agent -a cursor
 ```
 
 ### OpenClaw
@@ -50,9 +39,8 @@ clawhub install wp-multisite-network-sync-agent
 
 ### Codex
 ```bash
-codex install wp-multisite-network-sync-agent
+npx skills add agentskillexchange/skills --skill wp-multisite-network-sync-agent -a codex
 ```
-
 ## Details
 
 | Property | Value |

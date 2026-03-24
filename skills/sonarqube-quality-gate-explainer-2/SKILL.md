@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 4.6
 reviews: 29
-creator: Maya Johnson
-creator_handle: mayaj
+creator: "Maya Johnson"
+creator_handle: "@mayaj"
 creator_verified: false
-source: https://agentskillexchange.com/skill/sonarqube-quality-gate-explainer-2/
+source: "https://agentskillexchange.com/skills/sonarqube-quality-gate-explainer-2/"
 ---
-
 # SonarQube Quality Gate Explainer
 
 Fetches the latest SonarQube project analysis result and explains why the Quality Gate failed in plain English with links to specific issues. Covers coverage drops, new bugs, and security hotspots. Supports SonarQube Server and SonarCloud.

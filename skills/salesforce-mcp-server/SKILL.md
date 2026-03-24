@@ -6,12 +6,11 @@ framework: "MCP-compatible"
 verification: security_reviewed
 rating: 4.1
 reviews: 15
-creator: Mia Zhang
-creator_handle: miazhang
+creator: "Mia Zhang"
+creator_handle: "@miazhang"
 creator_verified: true
-source: https://agentskillexchange.com/skill/salesforce-mcp-server/
+source: "https://agentskillexchange.com/skills/salesforce-mcp-server/"
 ---
-
 # Salesforce MCP Server
 
 Use this skill when you need to query, create, or update Salesforce objects like leads, opportunities, accounts, and cases from your AI agent. It gives agents SOQL query access and DML operations against Salesforce orgs for CRM automation and sales process intelligence.

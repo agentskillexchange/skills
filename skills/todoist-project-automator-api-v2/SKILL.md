@@ -3,15 +3,14 @@ name: "Todoist Project Automator"
 description: "Automates Todoist project management using the Todoist REST API v2 and Sync API. Creates task templates, manages recurring workflows, and syncs with external project trackers."
 category: "Calendar, Email & Productivity"
 framework: "Gemini"
-verification: "community"
+verification: listed
 rating: 0
 reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/todoist-project-automator-api-v2/"
+source: "https://agentskillexchange.com/skills/todoist-project-automator-api-v2/"
 ---
-
 # Todoist Project Automator
 
 Automates Todoist project management using the Todoist REST API v2 and Sync API. Creates task templates, manages recurring workflows, and syncs with external project trackers.
@@ -20,22 +19,17 @@ Automates Todoist project management using the Todoist REST API v2 and Sync API.
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install todoist-project-automator-api-v2
+npx skills add agentskillexchange/skills --skill todoist-project-automator-api-v2
 ```
 
 ### Claude Code
 ```bash
-claude mcp add todoist-project-automator-api-v2
+npx skills add agentskillexchange/skills --skill todoist-project-automator-api-v2 -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "todoist-project-automator-api-v2": {
-    "source": "https://agentskillexchange.com/skill/todoist-project-automator-api-v2/"
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill todoist-project-automator-api-v2 -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install todoist-project-automator-api-v2
 
 ### Codex
 ```bash
-codex install todoist-project-automator-api-v2
+npx skills add agentskillexchange/skills --skill todoist-project-automator-api-v2 -a codex
 ```
-
 ## Details
 
 | Field | Value |

@@ -3,39 +3,33 @@ name: "Playwright E2E Test Generator"
 description: "Generates Playwright test suites from natural language descriptions using the Playwright Test API. Supports cross-browser testing with Chromium, Firefox, and WebKit via BrowserContext fixtures."
 category: "Developer Tools"
 framework: "Claude Code"
-verification: ""
-rating: "4.1"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/playwright-e2e-test-generator/"
+source: "https://agentskillexchange.com/skills/playwright-e2e-test-generator/"
 ---
-
 # Playwright E2E Test Generator
 
 Generates Playwright test suites from natural language descriptions using the Playwright Test API. Supports cross-browser testing with Chromium, Firefox, and WebKit via BrowserContext fixtures.
 
 ## Installation
 
-Install this skill in your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install playwright-e2e-test-generator
+npx skills add agentskillexchange/skills --skill playwright-e2e-test-generator
 ```
 
 ### Claude Code
 ```bash
-claude mcp add playwright-e2e-test-generator
+npx skills add agentskillexchange/skills --skill playwright-e2e-test-generator -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "playwright-e2e-test-generator": true
-}
+```bash
+npx skills add agentskillexchange/skills --skill playwright-e2e-test-generator -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install playwright-e2e-test-generator
 
 ### Codex
 ```bash
-codex install playwright-e2e-test-generator
+npx skills add agentskillexchange/skills --skill playwright-e2e-test-generator -a codex
 ```
-
 ## Details
 
 | Property | Value |

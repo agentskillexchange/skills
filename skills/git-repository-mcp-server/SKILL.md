@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: verified_metadata
 rating: 4.2
 reviews: 39
-creator: Priya Sharma
-creator_handle: priyasharma
+creator: "Priya Sharma"
+creator_handle: "@priyasharma"
 creator_verified: true
-source: https://agentskillexchange.com/skill/git-repository-mcp-server/
+source: "https://agentskillexchange.com/skills/git-repository-mcp-server/"
 ---
-
 # Git Repository MCP Server
 
 Structured Git repository operations for agent-assisted development.

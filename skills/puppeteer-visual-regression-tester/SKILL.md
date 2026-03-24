@@ -3,35 +3,34 @@ name: "Puppeteer Visual Regression Tester"
 description: "Automates visual regression testing using Puppeteer page.screenshot() with pixelmatch diffing. Captures full-page screenshots at multiple viewport sizes and generates HTML diff reports with highlighted change regions."
 category: "Browser Automation"
 framework: "Cursor"
-verification: ""
+verification: listed
 rating: 0
 reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/puppeteer-visual-regression-tester/"
+source: "https://agentskillexchange.com/skills/puppeteer-visual-regression-tester/"
 ---
-
 # Puppeteer Visual Regression Tester
 
 Automates visual regression testing using Puppeteer page.screenshot() with pixelmatch diffing. Captures full-page screenshots at multiple viewport sizes and generates HTML diff reports with highlighted change regions.
 
 ## Installation
 
-Install this skill across different AI coding agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install puppeteer-visual-regression-tester
+npx skills add agentskillexchange/skills --skill puppeteer-visual-regression-tester
 ```
 
 ### Claude Code
 ```bash
-claude mcp add puppeteer-visual-regression-tester
+npx skills add agentskillexchange/skills --skill puppeteer-visual-regression-tester -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills/` directory or install via Cursor Settings → Skills.
+```bash
+npx skills add agentskillexchange/skills --skill puppeteer-visual-regression-tester -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install puppeteer-visual-regression-tester
 
 ### Codex
 ```bash
-codex install puppeteer-visual-regression-tester
+npx skills add agentskillexchange/skills --skill puppeteer-visual-regression-tester -a codex
 ```
-
 ## Details
 
 | Property | Value |

@@ -6,12 +6,11 @@ framework: "Codex"
 verification: verified_metadata
 rating: 4.5
 reviews: 59
-creator: Ava Wilson
-creator_handle: avawilson
+creator: "Ava Wilson"
+creator_handle: "@avawilson"
 creator_verified: true
-source: https://agentskillexchange.com/skill/n8n-github-jira-ticket-automator/
+source: "https://agentskillexchange.com/skills/n8n-github-jira-ticket-automator/"
 ---
-
 # n8n GitHub Issue-to-Jira Ticket Automator
 
 Deploys an n8n workflow via the n8n REST API using the GitHub Trigger node to capture new issue events and transform them into Jira tickets via the Jira Cloud REST API. Labels, priority mappings, and assignee routing rules are configured using n8n’s Function node with custom JavaScript.

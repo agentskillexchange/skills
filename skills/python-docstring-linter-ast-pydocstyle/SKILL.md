@@ -3,15 +3,14 @@ name: "Python Docstring Linter"
 description: "Validates and auto-generates Python docstrings using the ast module and pydocstyle conventions. Supports NumPy, Google, and Sphinx docstring formats with type stub integration."
 category: "Library & API Reference"
 framework: "Codex"
-verification: "community"
+verification: listed
 rating: 0
 reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/python-docstring-linter-ast-pydocstyle/"
+source: "https://agentskillexchange.com/skills/python-docstring-linter-ast-pydocstyle/"
 ---
-
 # Python Docstring Linter
 
 Validates and auto-generates Python docstrings using the ast module and pydocstyle conventions. Supports NumPy, Google, and Sphinx docstring formats with type stub integration.
@@ -20,22 +19,17 @@ Validates and auto-generates Python docstrings using the ast module and pydocsty
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install python-docstring-linter-ast-pydocstyle
+npx skills add agentskillexchange/skills --skill python-docstring-linter-ast-pydocstyle
 ```
 
 ### Claude Code
 ```bash
-claude mcp add python-docstring-linter-ast-pydocstyle
+npx skills add agentskillexchange/skills --skill python-docstring-linter-ast-pydocstyle -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "python-docstring-linter-ast-pydocstyle": {
-    "source": "https://agentskillexchange.com/skill/python-docstring-linter-ast-pydocstyle/"
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill python-docstring-linter-ast-pydocstyle -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install python-docstring-linter-ast-pydocstyle
 
 ### Codex
 ```bash
-codex install python-docstring-linter-ast-pydocstyle
+npx skills add agentskillexchange/skills --skill python-docstring-linter-ast-pydocstyle -a codex
 ```
-
 ## Details
 
 | Field | Value |

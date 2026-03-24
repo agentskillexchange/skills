@@ -3,15 +3,14 @@ name: "Kubernetes Pod Crash Analyzer"
 description: "Investigates CrashLoopBackOff and OOMKilled pod failures using kubectl and the Kubernetes API. Correlates container logs, event streams, and resource metrics from metrics-server to diagnose root ca..."
 category: "Runbooks & Diagnostics"
 framework: "Gemini"
-verification: "security_reviewed"
-rating: "0"
-reviews: "0"
+verification: security_reviewed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/kubernetes-pod-crash-analyzer-3/"
+source: "https://agentskillexchange.com/skills/kubernetes-pod-crash-analyzer-3/"
 ---
-
 # Kubernetes Pod Crash Analyzer
 
 Investigates CrashLoopBackOff and OOMKilled pod failures using kubectl and the Kubernetes API. Correlates container logs, event streams, and resource metrics from metrics-server to diagnose root causes automatically.
@@ -20,22 +19,17 @@ Investigates CrashLoopBackOff and OOMKilled pod failures using kubectl and the K
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install kubernetes-pod-crash-analyzer-3
+npx skills add agentskillexchange/skills --skill kubernetes-pod-crash-analyzer-3
 ```
 
 ### Claude Code
 ```bash
-claude mcp add kubernetes-pod-crash-analyzer-3
+npx skills add agentskillexchange/skills --skill kubernetes-pod-crash-analyzer-3 -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "kubernetes-pod-crash-analyzer-3": {
-    "enabled": true
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill kubernetes-pod-crash-analyzer-3 -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install kubernetes-pod-crash-analyzer-3
 
 ### Codex
 ```bash
-codex install kubernetes-pod-crash-analyzer-3
+npx skills add agentskillexchange/skills --skill kubernetes-pod-crash-analyzer-3 -a codex
 ```
-
 ## Details
 
 | Field | Value |

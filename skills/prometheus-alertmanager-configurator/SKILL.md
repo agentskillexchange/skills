@@ -3,36 +3,33 @@ name: "Prometheus AlertManager Configurator"
 description: "Generates Prometheus AlertManager configurations with routing trees, inhibition rules, and receiver integrations for PagerDuty, Slack, and OpsGenie APIs. Supports template-based notification custom..."
 category: "Monitoring & Alerts"
 framework: "Custom Agents"
-verification: "community"
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
-creator_verified: "false"
-source: "https://agentskillexchange.com/skill/prometheus-alertmanager-configurator/"
+creator_verified: false
+source: "https://agentskillexchange.com/skills/prometheus-alertmanager-configurator/"
 ---
-
 # Prometheus AlertManager Configurator
 
 Generates Prometheus AlertManager configurations with routing trees, inhibition rules, and receiver integrations for PagerDuty, Slack, and OpsGenie APIs. Supports template-based notification customization.
 
 ## Installation
 
-Install this skill with your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install prometheus-alertmanager-configurator
+npx skills add agentskillexchange/skills --skill prometheus-alertmanager-configurator
 ```
 
 ### Claude Code
 ```bash
-claude skills add prometheus-alertmanager-configurator
+npx skills add agentskillexchange/skills --skill prometheus-alertmanager-configurator -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor skills install prometheus-alertmanager-configurator
+npx skills add agentskillexchange/skills --skill prometheus-alertmanager-configurator -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install prometheus-alertmanager-configurator
 
 ### Codex
 ```bash
-codex skills add prometheus-alertmanager-configurator
+npx skills add agentskillexchange/skills --skill prometheus-alertmanager-configurator -a codex
 ```
-
 ## Details
 
 | Field | Value |

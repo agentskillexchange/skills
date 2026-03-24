@@ -3,15 +3,14 @@ name: "Kubernetes Runbook Executor"
 description: "Executes diagnostic runbooks for Kubernetes clusters using kubectl CLI, Kubernetes API, and Helm. Automates pod debugging, resource scaling, and cluster health assessments."
 category: "Runbooks & Diagnostics"
 framework: "OpenClaw"
-verification: 
+verification: listed
 rating: 4.8
 reviews: 63
-creator: Elena Kowalski
-creator_handle: ekowalski
+creator: "Elena Kowalski"
+creator_handle: "@ekowalski"
 creator_verified: true
-source: https://agentskillexchange.com/skill/kubernetes-runbook-executor/
+source: "https://agentskillexchange.com/skills/kubernetes-runbook-executor/"
 ---
-
 # Kubernetes Runbook Executor
 
 Executes diagnostic runbooks for Kubernetes clusters using kubectl CLI, Kubernetes API, and Helm. Automates pod debugging, resource scaling, and cluster health assessments.

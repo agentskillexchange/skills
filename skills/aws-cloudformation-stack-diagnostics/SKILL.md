@@ -6,12 +6,11 @@ framework: "ChatGPT Agents"
 verification: security_reviewed
 rating: 4.9
 reviews: 25
-creator: Tom Anderson
-creator_handle: tanderson
+creator: "Tom Anderson"
+creator_handle: "@tanderson"
 creator_verified: false
-source: https://agentskillexchange.com/skill/aws-cloudformation-stack-diagnostics/
+source: "https://agentskillexchange.com/skills/aws-cloudformation-stack-diagnostics/"
 ---
-
 # AWS CloudFormation Stack Diagnostics
 
 Diagnoses failed AWS CloudFormation stack operations using the AWS CLI (aws cloudformation describe-stack-events) and cfn-lint validator. Traces resource creation failures, rollback causes, and nested stack dependency chains.

@@ -3,44 +3,33 @@ name: "AI-Powered Meta Description Writer"
 description: "Generates optimized meta descriptions using OpenAI Chat Completions API with token-aware truncation. Integrates with Yoast SEO REST API fields and Google SERP Preview validation for CTR optimization."
 category: "Content Writing & SEO"
 framework: "Claude Code"
-verification: "community"
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/ai-powered-meta-description-writer/"
+source: "https://agentskillexchange.com/skills/ai-powered-meta-description-writer/"
 ---
-
 # AI-Powered Meta Description Writer
 
 Generates optimized meta descriptions using OpenAI Chat Completions API with token-aware truncation. Integrates with Yoast SEO REST API fields and Google SERP Preview validation for CTR optimization.
 
 ## Installation
 
-Install this skill in your agent framework of choice:
-
-### npx (Any Agent)
+### Any Agent (npx)
 ```bash
-npx agentskills install ai-powered-meta-description-writer
+npx skills add agentskillexchange/skills --skill ai-powered-meta-description-writer
 ```
 
 ### Claude Code
 ```bash
-claude mcp add skill-ai-powered-meta-description-writer -- npx agentskills run ai-powered-meta-description-writer
+npx skills add agentskillexchange/skills --skill ai-powered-meta-description-writer -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/mcp.json`:
-```json
-{
-  "mcpServers": {
-    "skill-ai-powered-meta-description-writer": {
-      "command": "npx",
-      "args": ["agentskills", "run", "ai-powered-meta-description-writer"]
-    }
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill ai-powered-meta-description-writer -a cursor
 ```
 
 ### OpenClaw
@@ -50,9 +39,8 @@ clawhub install ai-powered-meta-description-writer
 
 ### Codex
 ```bash
-codex install ai-powered-meta-description-writer
+npx skills add agentskillexchange/skills --skill ai-powered-meta-description-writer -a codex
 ```
-
 ## Details
 
 | | |

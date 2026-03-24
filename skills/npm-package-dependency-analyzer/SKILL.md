@@ -3,15 +3,14 @@ name: "NPM Package Dependency Analyzer"
 description: "Analyzes npm package dependency trees using npm-registry-fetch, pacote, and arborist APIs. Detects circular dependencies, license conflicts, and bundle size impacts via bundlephobia API."
 category: "Library & API Reference"
 framework: "Gemini"
-verification: ""
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/npm-package-dependency-analyzer/"
+source: "https://agentskillexchange.com/skills/npm-package-dependency-analyzer/"
 ---
-
 # NPM Package Dependency Analyzer
 
 Analyzes npm package dependency trees using npm-registry-fetch, pacote, and arborist APIs. Detects circular dependencies, license conflicts, and bundle size impacts via bundlephobia API.
@@ -20,22 +19,17 @@ Analyzes npm package dependency trees using npm-registry-fetch, pacote, and arbo
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install npm-package-dependency-analyzer
+npx skills add agentskillexchange/skills --skill npm-package-dependency-analyzer
 ```
 
 ### Claude Code
 ```bash
-claude mcp add npm-package-dependency-analyzer
+npx skills add agentskillexchange/skills --skill npm-package-dependency-analyzer -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "npm-package-dependency-analyzer": {
-    "enabled": true
-  }
-}
+```bash
+npx skills add agentskillexchange/skills --skill npm-package-dependency-analyzer -a cursor
 ```
 
 ### OpenClaw
@@ -45,9 +39,8 @@ clawhub install npm-package-dependency-analyzer
 
 ### Codex
 ```bash
-codex install npm-package-dependency-analyzer
+npx skills add agentskillexchange/skills --skill npm-package-dependency-analyzer -a codex
 ```
-
 ## Details
 
 | Field | Value |

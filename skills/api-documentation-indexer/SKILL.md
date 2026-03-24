@@ -3,15 +3,14 @@ name: "API Documentation Indexer"
 description: "Indexes and searches API documentation from OpenAPI 3.0 specs using swagger-parser and lunr.js. Builds searchable indexes of endpoints, parameters, and response schemas for quick reference."
 category: "Library & API Reference"
 framework: "Claude Code"
-verification: "Verified & Security Reviewed"
-rating: "4.9"
-reviews: "69"
+verification: security_reviewed
+rating: 4.9
+reviews: 69
 creator: "Grace Okafor"
 creator_handle: "@graceokafor"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/api-documentation-indexer/"
+source: "https://agentskillexchange.com/skills/api-documentation-indexer/"
 ---
-
 # API Documentation Indexer
 
 Indexes and searches API documentation from OpenAPI 3.0 specs using swagger-parser and lunr.js. Builds searchable indexes of endpoints, parameters, and response schemas for quick reference.
@@ -20,20 +19,17 @@ Indexes and searches API documentation from OpenAPI 3.0 specs using swagger-pars
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install api-documentation-indexer
+npx skills add agentskillexchange/skills --skill api-documentation-indexer
 ```
 
 ### Claude Code
 ```bash
-claude mcp add api-documentation-indexer
+npx skills add agentskillexchange/skills --skill api-documentation-indexer -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "skills": ["api-documentation-indexer"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill api-documentation-indexer -a cursor
 ```
 
 ### OpenClaw
@@ -43,9 +39,8 @@ clawhub install api-documentation-indexer
 
 ### Codex
 ```bash
-codex install api-documentation-indexer
+npx skills add agentskillexchange/skills --skill api-documentation-indexer -a codex
 ```
-
 ## Details
 
 | Field | Value |

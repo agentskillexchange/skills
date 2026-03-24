@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.6
 reviews: 19
-creator: Nathan Brooks
-creator_handle: nbrooks
+creator: "Nathan Brooks"
+creator_handle: "@nbrooks"
 creator_verified: false
-source: https://agentskillexchange.com/skill/trufflehog-secret-scanner/
+source: "https://agentskillexchange.com/skills/trufflehog-secret-scanner/"
 ---
-
 # TruffleHog Secret Scanner
 
 Scans Git repositories, filesystems, and CI/CD pipelines for exposed secrets, API keys, and credentials. Uses entropy analysis and 700+ regex detectors to find secrets before they reach production.

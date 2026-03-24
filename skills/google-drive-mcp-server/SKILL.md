@@ -6,12 +6,11 @@ framework: "Claude Code"
 verification: verified_metadata
 rating: 4.6
 reviews: 10
-creator: Ava Wilson
-creator_handle: avawilson
+creator: "Ava Wilson"
+creator_handle: "@avawilson"
 creator_verified: true
-source: https://agentskillexchange.com/skill/google-drive-mcp-server/
+source: "https://agentskillexchange.com/skills/google-drive-mcp-server/"
 ---
-
 # Google Drive MCP Server
 
 Connect agent workflows to Google Drive documents and files.

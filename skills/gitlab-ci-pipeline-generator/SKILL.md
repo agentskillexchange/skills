@@ -3,36 +3,35 @@ name: "GitLab CI Pipeline Generator"
 description: "Creates and manages GitLab CI/CD pipelines via the GitLab REST API v4. Generates .gitlab-ci.yml with multi-stage definitions, DAG dependencies, and environment-scoped deployments."
 category: "CI/CD Integrations"
 framework: "ChatGPT Agents"
-verification: "✅ Verified"
-security: "✅ Reviewed"
-rating: "4.9"
-reviews: "12"
+verification: security_reviewed
+rating: 4.9
+reviews: 12
 creator: "James Kim"
 creator_handle: "@jameskim_ai"
-creator_verified: "✅"
-source: "https://agentskillexchange.com/skill/gitlab-ci-pipeline-generator/"
+creator_verified: true
+source: "https://agentskillexchange.com/skills/gitlab-ci-pipeline-generator/"
+security: "✅ Reviewed"
 ---
-
 # GitLab CI Pipeline Generator
 
 Creates and manages GitLab CI/CD pipelines via the GitLab REST API v4. Generates .gitlab-ci.yml with multi-stage definitions, DAG dependencies, and environment-scoped deployments.
 
 ## Installation
 
-Install this skill in your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install gitlab-ci-pipeline-generator
+npx skills add agentskillexchange/skills --skill gitlab-ci-pipeline-generator
 ```
 
 ### Claude Code
 ```bash
-claude skills install gitlab-ci-pipeline-generator
+npx skills add agentskillexchange/skills --skill gitlab-ci-pipeline-generator -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills/` directory or install via Cursor settings.
+```bash
+npx skills add agentskillexchange/skills --skill gitlab-ci-pipeline-generator -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -41,9 +40,8 @@ clawhub install gitlab-ci-pipeline-generator
 
 ### Codex
 ```bash
-codex skills install gitlab-ci-pipeline-generator
+npx skills add agentskillexchange/skills --skill gitlab-ci-pipeline-generator -a codex
 ```
-
 ## Details
 
 | Field | Value |

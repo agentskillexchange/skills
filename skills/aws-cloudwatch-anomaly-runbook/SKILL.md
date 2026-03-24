@@ -3,49 +3,44 @@ name: "AWS CloudWatch Anomaly Runbook"
 description: "Executes structured diagnostic runbooks when CloudWatch Anomaly Detection triggers alarms. Uses the AWS SDK CloudWatch client (GetMetricData, DescribeAlarms) to gather context and suggest remediations."
 category: "Runbooks & Diagnostics"
 framework: "OpenClaw"
-verification: "Security Reviewed ✓"
-rating: "4.9"
-reviews: "81"
+verification: security_reviewed
+rating: 4.9
+reviews: 81
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/aws-cloudwatch-anomaly-runbook/"
+source: "https://agentskillexchange.com/skills/aws-cloudwatch-anomaly-runbook/"
 ---
-
 # AWS CloudWatch Anomaly Runbook
 
 Executes structured diagnostic runbooks when CloudWatch Anomaly Detection triggers alarms. Uses the AWS SDK CloudWatch client (GetMetricData, DescribeAlarms) to gather context and suggest remediations.
 
 ## Installation
 
-**Any Agent (npx):**
+### Any Agent (npx)
 ```bash
-npx @anthropic/skills install aws-cloudwatch-anomaly-runbook
+npx skills add agentskillexchange/skills --skill aws-cloudwatch-anomaly-runbook
 ```
 
-**Claude Code:**
+### Claude Code
 ```bash
-claude mcp add aws-cloudwatch-anomaly-runbook
+npx skills add agentskillexchange/skills --skill aws-cloudwatch-anomaly-runbook -a claude-code
 ```
 
-**Cursor:**
-Add to `.cursor/skills.json`:
-```json
-{
-  "aws-cloudwatch-anomaly-runbook": "latest"
-}
+### Cursor
+```bash
+npx skills add agentskillexchange/skills --skill aws-cloudwatch-anomaly-runbook -a cursor
 ```
 
-**OpenClaw:**
+### OpenClaw
 ```bash
 clawhub install aws-cloudwatch-anomaly-runbook
 ```
 
-**Codex:**
+### Codex
 ```bash
-codex install aws-cloudwatch-anomaly-runbook
+npx skills add agentskillexchange/skills --skill aws-cloudwatch-anomaly-runbook -a codex
 ```
-
 ## Details
 
 | Field | Value |

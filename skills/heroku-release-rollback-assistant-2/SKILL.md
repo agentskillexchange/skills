@@ -6,12 +6,11 @@ framework: "ChatGPT Agents"
 verification: verified_metadata
 rating: 4.5
 reviews: 65
-creator: Raj Gupta
-creator_handle: rajgupta
+creator: "Raj Gupta"
+creator_handle: "@rajgupta"
 creator_verified: true
-source: https://agentskillexchange.com/skill/heroku-release-rollback-assistant-2/
+source: "https://agentskillexchange.com/skills/heroku-release-rollback-assistant-2/"
 ---
-
 # Heroku Release Rollback Assistant
 
 Uses the Heroku Platform API to identify the last stable release before a regression and execute a rollback. Compares config vars between releases to flag changes that may have caused the issue.

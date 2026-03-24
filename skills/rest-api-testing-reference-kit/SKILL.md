@@ -3,15 +3,14 @@ name: "REST API Testing Reference Kit"
 description: "Comprehensive REST API testing reference using Postman Collection SDK v2.1 and Newman CLI. Includes assertion libraries for JSON Schema validation with Ajv, response time benchmarking, and contract testing patterns."
 category: "Library & API Reference"
 framework: "Cursor"
-verification: "Verified & Security Reviewed"
-rating: "4.9"
-reviews: "43"
+verification: security_reviewed
+rating: 4.9
+reviews: 43
 creator: "Sam Lee"
 creator_handle: "@samlee_dev"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/rest-api-testing-reference-kit/"
+source: "https://agentskillexchange.com/skills/rest-api-testing-reference-kit/"
 ---
-
 # REST API Testing Reference Kit
 
 Comprehensive REST API testing reference using Postman Collection SDK v2.1 and Newman CLI. Includes assertion libraries for JSON Schema validation with Ajv, response time benchmarking, and contract testing patterns.
@@ -20,20 +19,17 @@ Comprehensive REST API testing reference using Postman Collection SDK v2.1 and N
 
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install rest-api-testing-reference-kit
+npx skills add agentskillexchange/skills --skill rest-api-testing-reference-kit
 ```
 
 ### Claude Code
 ```bash
-claude mcp add rest-api-testing-reference-kit
+npx skills add agentskillexchange/skills --skill rest-api-testing-reference-kit -a claude-code
 ```
 
 ### Cursor
-Add to `.cursor/skills.json`:
-```json
-{
-  "skills": ["rest-api-testing-reference-kit"]
-}
+```bash
+npx skills add agentskillexchange/skills --skill rest-api-testing-reference-kit -a cursor
 ```
 
 ### OpenClaw
@@ -43,9 +39,8 @@ clawhub install rest-api-testing-reference-kit
 
 ### Codex
 ```bash
-codex install rest-api-testing-reference-kit
+npx skills add agentskillexchange/skills --skill rest-api-testing-reference-kit -a codex
 ```
-
 ## Details
 
 | Field | Value |

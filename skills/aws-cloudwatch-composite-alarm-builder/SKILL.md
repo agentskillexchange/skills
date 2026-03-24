@@ -1,37 +1,34 @@
 ---
-name: aws-cloudwatch-composite-alarm-builder
+name: "aws-cloudwatch-composite-alarm-builder"
 description: "Creates and manages AWS CloudWatch composite alarms using the CloudWatch PutCompositeAlarm API. Builds alarm rule expressions from existing metric alarms with AND/OR/NOT logic for multi-signal alerting."
-category: Monitoring & Alerts
-framework: OpenClaw
-verification: 
+category: "Monitoring & Alerts"
+framework: "OpenClaw"
+verification: listed
 rating: 0
 reviews: 0
-creator: Community
+creator: "Community"
 creator_verified: false
-source: https://agentskillexchange.com/skill/aws-cloudwatch-composite-alarm-builder/
+source: "https://agentskillexchange.com/skills/aws-cloudwatch-composite-alarm-builder/"
 ---
-
 # AWS CloudWatch Composite Alarm Builder
 
 Creates and manages AWS CloudWatch composite alarms using the CloudWatch PutCompositeAlarm API. Builds alarm rule expressions from existing metric alarms with AND/OR/NOT logic for multi-signal alerting.
 
 ## Installation
 
-Install this skill for your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install aws-cloudwatch-composite-alarm-builder
+npx skills add agentskillexchange/skills --skill aws-cloudwatch-composite-alarm-builder
 ```
 
 ### Claude Code
 ```bash
-claude skills add aws-cloudwatch-composite-alarm-builder
+npx skills add agentskillexchange/skills --skill aws-cloudwatch-composite-alarm-builder -a claude-code
 ```
 
 ### Cursor
-```
-Install aws-cloudwatch-composite-alarm-builder from Cursor Settings > Skills
+```bash
+npx skills add agentskillexchange/skills --skill aws-cloudwatch-composite-alarm-builder -a cursor
 ```
 
 ### OpenClaw
@@ -41,9 +38,8 @@ clawhub install aws-cloudwatch-composite-alarm-builder
 
 ### Codex
 ```bash
-codex skills add aws-cloudwatch-composite-alarm-builder
+npx skills add agentskillexchange/skills --skill aws-cloudwatch-composite-alarm-builder -a codex
 ```
-
 ## Details
 
 | Field | Value |

@@ -3,35 +3,34 @@ name: "PagerDuty Incident Orchestrator"
 description: "Manages PagerDuty incidents via Events API v2 and REST API with escalation policy automation. Creates runbooks, coordinates on-call rotations, and triggers remediation workflows through PagerDuty Rundeck integration."
 category: "Monitoring & Alerts"
 framework: "OpenClaw"
-verification: "Verified"
+verification: verified_metadata
 rating: 4.9
 reviews: 82
 creator: "Leo Park"
 creator_handle: "@leopark_ai"
 creator_verified: true
-source: "https://agentskillexchange.com/skill/pagerduty-incident-orchestrator/"
+source: "https://agentskillexchange.com/skills/pagerduty-incident-orchestrator/"
 ---
-
 # PagerDuty Incident Orchestrator
 
 Manages PagerDuty incidents via Events API v2 and REST API with escalation policy automation. Creates runbooks, coordinates on-call rotations, and triggers remediation workflows through PagerDuty Rundeck integration.
 
 ## Installation
 
-Install this skill in your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/skills install pagerduty-incident-orchestrator
+npx skills add agentskillexchange/skills --skill pagerduty-incident-orchestrator
 ```
 
 ### Claude Code
 ```bash
-claude install-skill pagerduty-incident-orchestrator
+npx skills add agentskillexchange/skills --skill pagerduty-incident-orchestrator -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills/` directory or install via Cursor Settings → Skills.
+```bash
+npx skills add agentskillexchange/skills --skill pagerduty-incident-orchestrator -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -40,9 +39,8 @@ clawhub install pagerduty-incident-orchestrator
 
 ### Codex
 ```bash
-codex install-skill pagerduty-incident-orchestrator
+npx skills add agentskillexchange/skills --skill pagerduty-incident-orchestrator -a codex
 ```
-
 ## Details
 
 | Field | Value |

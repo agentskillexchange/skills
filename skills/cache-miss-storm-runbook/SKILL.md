@@ -6,12 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.4
 reviews: 32
-creator: Leo Park
-creator_handle: leopark
+creator: "Leo Park"
+creator_handle: "@leopark"
 creator_verified: true
-source: https://agentskillexchange.com/skill/cache-miss-storm-runbook/
+source: "https://agentskillexchange.com/skills/cache-miss-storm-runbook/"
 ---
-
 # Cache Miss Storm Runbook
 
 Runbook for handling cache miss storm (thundering herd) incidents. Covers cache warming strategies, request coalescing, circuit breaker activation, and prevention patterns.

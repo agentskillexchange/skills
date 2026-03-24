@@ -6,12 +6,11 @@ framework: "OpenClaw"
 verification: verified_metadata
 rating: 4.6
 reviews: 25
-creator: Yuki Tanaka
-creator_handle: yukitanaka
+creator: "Yuki Tanaka"
+creator_handle: "@yukitanaka"
 creator_verified: true
-source: https://agentskillexchange.com/skill/humanizer-writing-editor/
+source: "https://agentskillexchange.com/skills/humanizer-writing-editor/"
 ---
-
 # Humanizer Writing Editor
 
 Make text sound more natural and less machine-written.

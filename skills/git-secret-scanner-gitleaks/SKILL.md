@@ -3,36 +3,33 @@ name: "Git Secret Scanner with Gitleaks"
 description: "Scans Git repositories for leaked secrets using Gitleaks, TruffleHog, and custom regex patterns. Detects API keys, AWS credentials, private keys, and database connection strings across commit history."
 category: "Security & Verification"
 framework: "Claude Code"
-verification: ""
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/git-secret-scanner-gitleaks/"
+source: "https://agentskillexchange.com/skills/git-secret-scanner-gitleaks/"
 ---
-
 # Git Secret Scanner with Gitleaks
 
 Scans Git repositories for leaked secrets using Gitleaks, TruffleHog, and custom regex patterns. Detects API keys, AWS credentials, private keys, and database connection strings across commit history.
 
 ## Installation
 
-Install this skill across different agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agentskill install git-secret-scanner-gitleaks
+npx skills add agentskillexchange/skills --skill git-secret-scanner-gitleaks
 ```
 
 ### Claude Code
 ```bash
-claude install-skill git-secret-scanner-gitleaks
+npx skills add agentskillexchange/skills --skill git-secret-scanner-gitleaks -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor install-skill git-secret-scanner-gitleaks
+npx skills add agentskillexchange/skills --skill git-secret-scanner-gitleaks -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install git-secret-scanner-gitleaks
 
 ### Codex
 ```bash
-codex install-skill git-secret-scanner-gitleaks
+npx skills add agentskillexchange/skills --skill git-secret-scanner-gitleaks -a codex
 ```
-
 ## Details
 
 | Field | Value |

@@ -3,36 +3,35 @@ name: "Datadog Monitor Configurator"
 description: "Manages Datadog monitors and dashboards via the Datadog REST API v2. Creates metric, log, and APM monitors with composite conditions and configures notification routing through @-mention integrations."
 category: "Monitoring & Alerts"
 framework: "OpenClaw"
-verification: "✅ Verified"
-security: "✅ Reviewed"
-rating: "4.2"
-reviews: "85"
+verification: security_reviewed
+rating: 4.2
+reviews: 85
 creator: "Aisha Patel"
 creator_handle: "@aishapatel"
-creator_verified: "✅"
-source: "https://agentskillexchange.com/skill/datadog-monitor-configurator-2/"
+creator_verified: true
+source: "https://agentskillexchange.com/skills/datadog-monitor-configurator-2/"
+security: "✅ Reviewed"
 ---
-
 # Datadog Monitor Configurator
 
 Manages Datadog monitors and dashboards via the Datadog REST API v2. Creates metric, log, and APM monitors with composite conditions and configures notification routing through @-mention integrations.
 
 ## Installation
 
-Install this skill in your preferred agent:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agent-skills install datadog-monitor-configurator-2
+npx skills add agentskillexchange/skills --skill datadog-monitor-configurator-2
 ```
 
 ### Claude Code
 ```bash
-claude skills install datadog-monitor-configurator-2
+npx skills add agentskillexchange/skills --skill datadog-monitor-configurator-2 -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/skills/` directory or install via Cursor settings.
+```bash
+npx skills add agentskillexchange/skills --skill datadog-monitor-configurator-2 -a cursor
+```
 
 ### OpenClaw
 ```bash
@@ -41,9 +40,8 @@ clawhub install datadog-monitor-configurator-2
 
 ### Codex
 ```bash
-codex skills install datadog-monitor-configurator-2
+npx skills add agentskillexchange/skills --skill datadog-monitor-configurator-2 -a codex
 ```
-
 ## Details
 
 | Field | Value |

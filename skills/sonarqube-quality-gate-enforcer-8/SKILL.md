@@ -3,36 +3,33 @@ name: "SonarQube Quality Gate Enforcer"
 description: "Enforces SonarQube quality gates in CI pipelines using the SonarQube Web API and sonar-scanner CLI. Monitors code coverage, duplication, and security hotspots against configurable thresholds."
 category: "Code Quality & Review"
 framework: "Gemini"
-verification: ""
-rating: "0"
-reviews: "0"
+verification: listed
+rating: 0
+reviews: 0
 creator: "Community"
 creator_handle: ""
 creator_verified: false
-source: "https://agentskillexchange.com/skill/sonarqube-quality-gate-enforcer-8/"
+source: "https://agentskillexchange.com/skills/sonarqube-quality-gate-enforcer-8/"
 ---
-
 # SonarQube Quality Gate Enforcer
 
 Enforces SonarQube quality gates in CI pipelines using the SonarQube Web API and sonar-scanner CLI. Monitors code coverage, duplication, and security hotspots against configurable thresholds.
 
 ## Installation
 
-Install this skill across different agents:
-
 ### Any Agent (npx)
 ```bash
-npx @anthropic/agentskill install sonarqube-quality-gate-enforcer-8
+npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-enforcer-8
 ```
 
 ### Claude Code
 ```bash
-claude skills install sonarqube-quality-gate-enforcer-8
+npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-enforcer-8 -a claude-code
 ```
 
 ### Cursor
 ```bash
-cursor skills install sonarqube-quality-gate-enforcer-8
+npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-enforcer-8 -a cursor
 ```
 
 ### OpenClaw
@@ -42,9 +39,8 @@ clawhub install sonarqube-quality-gate-enforcer-8
 
 ### Codex
 ```bash
-codex skills install sonarqube-quality-gate-enforcer-8
+npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-enforcer-8 -a codex
 ```
-
 ## Details
 
 | Field | Value |

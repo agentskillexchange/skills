@@ -6,12 +6,11 @@ framework: "ChatGPT Agents"
 verification: verified_metadata
 rating: 4.6
 reviews: 13
-creator: Marcus Rivera
-creator_handle: mrivera
+creator: "Marcus Rivera"
+creator_handle: "@mrivera"
 creator_verified: true
-source: https://agentskillexchange.com/skill/aws-cloudwatch-alarm-triage-2/
+source: "https://agentskillexchange.com/skills/aws-cloudwatch-alarm-triage-2/"
 ---
-
 # AWS CloudWatch Alarm Triage
 
 Retrieves all ALARM-state CloudWatch alarms for a given AWS account or region, correlates them with related metrics and log groups, and produces a triage summary with severity ranking. Maps alarms to services and resources to assess blast radius quickly.
