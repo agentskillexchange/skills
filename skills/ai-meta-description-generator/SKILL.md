@@ -3,13 +3,20 @@ name: "AI Meta Description Generator"
 description: "Bulk-generates SEO meta descriptions from page content using OpenAI’s GPT-4o API with custom system prompts tuned for SERP CTR optimization. Validates character limits, checks for duplicate descriptions via Screaming Frog CSV exports, and outputs Yoast SEO-compatible import files."
 category: "Content Writing & SEO"
 framework: "Claude Agents"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/ai-meta-description-generator/"
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "openai"  # from ase_tool_match
+  github_stars: 10761  # from ase_github_stars (integer, not string)
+  npm_weekly_downloads: 16275389  # from ase_npm_downloads
+  github_repo: "openai/openai-node"  # from ase_github_repo
+  license: "Apache-2.0"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # AI Meta Description Generator

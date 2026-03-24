@@ -3,7 +3,7 @@ name: "Puppeteer Web Scraper"
 description: "Headless Chrome scraping via Puppeteer with automatic cookie handling, JavaScript rendering, and Cheerio-based DOM extraction. Handles infinite scroll and lazy-loaded content."
 category: "Research & Scraping"
 framework: "Cursor"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

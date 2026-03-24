@@ -19,19 +19,20 @@ Connect agent actions to n8n workflow automation.
 ## Overview
 
 n8n MCP adds an MCP bridge for n8n so agents can trigger and coordinate workflow automation without forcing users into custom glue code.
+
 Best for
 
-- workflow orchestration
+workflow orchestration
 
-- automation handoffs
+automation handoffs
 
-- connecting agent tasks to n8n flows
+connecting agent tasks to n8n flows
 
 Install notes
 
 Install from the GitHub repository, connect it to an accessible n8n instance, then register it in the host MCP configuration.
 
-Source: czlonkowski/n8n-mcp.
+**Source:** czlonkowski/n8n-mcp.
 
 ## Installation
 

@@ -19,19 +19,20 @@ Convert plain text into Substack-ready HTML that preserves headings, emphasis, a
 ## Overview
 
 Substack Formatter turns rough plain text into HTML that pastes cleanly into the Substack editor. Instead of manually rebuilding headings, emphasis, spacing, and list structure after every paste, it handles the formatting layer so the writing workflow stays fast.
+
 Best for
 
-- turning plain draft text into Substack-ready HTML
+turning plain draft text into Substack-ready HTML
 
-- preserving bold, italic, headings, and bullets during paste
+preserving bold, italic, headings, and bullets during paste
 
-- speeding up newsletter publishing workflows
+speeding up newsletter publishing workflows
 
 Install notes
 
 Install the skill in an OpenClaw workspace with Python available. The bundled formatter and copy helpers handle HTML generation and clipboard-friendly output for Substack.
 
-Source: OpenClaw-compatible Substack formatter skill.
+**Source:** OpenClaw-compatible Substack formatter skill.
 
 ## Installation
 

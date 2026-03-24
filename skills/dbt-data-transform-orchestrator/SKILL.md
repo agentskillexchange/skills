@@ -25,18 +25,20 @@ Integrates with dbt Cloud Administrative API v2 to trigger and monitor data tran
 ## Overview
 
 Integrates with dbt Cloud Administrative API v2 to trigger and monitor data transformation jobs. Manages model runs, source freshness checks, and test execution through dbt API endpoints with Snowflake and BigQuery adapter support.
+
 Overview
 
 This skill provides automated integration capabilities designed for production agent workflows. It handles authentication, rate limiting, and error recovery out of the box, allowing agents to focus on high-level task orchestration rather than low-level API management.
+
 Key Features
 
-- Automatic retry logic with exponential backoff for API rate limits
+Automatic retry logic with exponential backoff for API rate limits
 
-- Structured output formatting compatible with downstream agent pipelines
+Structured output formatting compatible with downstream agent pipelines
 
-- Comprehensive error handling with actionable diagnostic messages
+Comprehensive error handling with actionable diagnostic messages
 
-- Configurable caching layer to reduce redundant API calls
+Configurable caching layer to reduce redundant API calls
 
 Usage
 

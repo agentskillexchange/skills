@@ -25,19 +25,20 @@ Extract frames and short clips from videos.
 ## Overview
 
 Video Frames Extractor makes ffmpeg-backed frame extraction and short clip generation easier to run from agent workflows for review, content prep, and analysis.
+
 Best for
 
-- pulling frames from videos
+pulling frames from videos
 
-- creating short clips
+creating short clips
 
-- preparing media for review or analysis
+preparing media for review or analysis
 
 Install notes
 
 Install from the OpenClaw skills set and ensure ffmpeg is available on the host machine.
 
-Source: OpenClaw official skills.
+**Source:** OpenClaw official skills.
 
 ## Installation
 

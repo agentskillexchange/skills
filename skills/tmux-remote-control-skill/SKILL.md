@@ -19,19 +19,20 @@ Control terminal-first tools through tmux sessions.
 ## Overview
 
 TMUX Remote Control Skill lets agents send keystrokes, inspect pane output, and operate interactive CLI workflows through tmux when a standard command runner is not enough.
+
 Best for
 
-- terminal-first tools
+terminal-first tools
 
-- interactive CLI workflows
+interactive CLI workflows
 
-- remote control of long-running sessions
+remote control of long-running sessions
 
 Install notes
 
 Install from the OpenClaw skills set and make sure tmux is installed on the target machine.
 
-Source: OpenClaw official skills.
+**Source:** OpenClaw official skills.
 
 ## Installation
 

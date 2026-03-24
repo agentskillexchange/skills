@@ -12,8 +12,8 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/apache-spark-job-manager/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "spark"  # from ase_tool_match
-  github_stars: 121313  # from ase_github_stars (integer, not string)
-  github_repo: "kubernetes/kubernetes"  # from ase_github_repo
+  github_stars: 43027  # from ase_github_stars (integer, not string)
+  github_repo: "apache/spark"  # from ase_github_repo
   license: "Apache-2.0"  # from ase_tool_license
   maintained: true  # from ase_tool_maintained
 ---

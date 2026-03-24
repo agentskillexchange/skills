@@ -12,6 +12,10 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/pytest-fixture-generator/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "pytest"  # from ase_tool_match
+  github_stars: 13718  # from ase_github_stars (integer, not string)
+  github_repo: "pytest-dev/pytest"  # from ase_github_repo
+  license: "MIT"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Pytest Fixture Generator

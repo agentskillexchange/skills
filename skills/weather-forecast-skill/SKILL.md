@@ -19,19 +19,20 @@ Check current weather and forecasts inside OpenClaw workflows without needing a 
 ## Overview
 
 Weather Forecast Skill provides quick current-weather and forecast checks through public weather sources such as wttr.in. It is intentionally simple: the goal is to give OpenClaw a fast, low-friction weather lookup path for everyday planning rather than severe-weather analysis or historical data work.
+
 Best for
 
-- checking current weather for a city or airport code
+checking current weather for a city or airport code
 
-- getting short forecasts for travel and daily planning
+getting short forecasts for travel and daily planning
 
-- answering common weather questions without extra API setup
+answering common weather questions without extra API setup
 
 Install notes
 
 Requires `curl` and basic web access. Install the skill, then query supported weather endpoints with the target location in your request.
 
-Source: OpenClaw official weather skill.
+**Source:** OpenClaw official weather skill.
 
 ## Installation
 

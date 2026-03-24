@@ -12,7 +12,11 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/netlify-site-manager/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "netlify"  # from ase_tool_match
+  github_stars: 1837  # from ase_github_stars (integer, not string)
   npm_weekly_downloads: 383701  # from ase_npm_downloads
+  github_repo: "netlify/cli"  # from ase_github_repo
+  license: "MIT"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Netlify Site Manager

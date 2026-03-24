@@ -3,7 +3,7 @@ name: "Nix Flake Configuration Builder"
 description: "Generates reproducible Nix flake configurations with devShell environments and package overlays. Uses the Nix Flakes API, nixpkgs lib functions, and flake-utils for cross-platform builds."
 category: "Developer Tools"
 framework: "Cursor"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

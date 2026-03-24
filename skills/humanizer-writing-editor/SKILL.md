@@ -19,19 +19,20 @@ Make text sound more natural and less machine-written.
 ## Overview
 
 Humanizer Writing Editor helps revise text to remove common signs of AI-generated writing and improve clarity, rhythm, and human readability.
+
 Best for
 
-- editing AI-assisted drafts
+editing AI-assisted drafts
 
-- making writing sound more natural
+making writing sound more natural
 
-- polishing tone before publishing
+polishing tone before publishing
 
 Install notes
 
 Install from the OpenClaw skills set; no major external setup is usually required.
 
-Source: OpenClaw official skills.
+**Source:** OpenClaw official skills.
 
 ## Installation
 

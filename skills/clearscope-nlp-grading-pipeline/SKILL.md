@@ -19,18 +19,20 @@ Connects to Clearscope API to generate content grades based on NLP term frequenc
 ## Overview
 
 Connects to Clearscope API to generate content grades based on NLP term frequency analysis. Automates keyword research via Clearscope Research Reports endpoint and outputs structured optimization recommendations with TF-IDF scoring.
+
 Overview
 
 This skill provides automated integration capabilities designed for production agent workflows. It handles authentication, rate limiting, and error recovery out of the box, allowing agents to focus on high-level task orchestration rather than low-level API management.
+
 Key Features
 
-- Automatic retry logic with exponential backoff for API rate limits
+Automatic retry logic with exponential backoff for API rate limits
 
-- Structured output formatting compatible with downstream agent pipelines
+Structured output formatting compatible with downstream agent pipelines
 
-- Comprehensive error handling with actionable diagnostic messages
+Comprehensive error handling with actionable diagnostic messages
 
-- Configurable caching layer to reduce redundant API calls
+Configurable caching layer to reduce redundant API calls
 
 Usage
 

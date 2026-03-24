@@ -1,44 +1,67 @@
 ---
 name: "Kubernetes Events API CrashLoop Investigator"
 description: "Diagnoses restart storms with the Kubernetes Events API, Pod status conditions, and the Metrics API to explain why workloads are stuck in CrashLoopBackOff. Great for agents that need to summarize cluster evidence before an operator starts digging through kubectl output by hand."
-category: "Runbooks &amp; Diagnostics"
-framework: ""
-verification: listed
-rating: 0
-reviews: 0
-creator: ""
+category: "Runbooks & Diagnostics"
+framework: "MCP-compatible"
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/kubernetes-events-api-crashloop-investigator/"
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "kubernetes"  # from ase_tool_match
+  github_stars: 121313  # from ase_github_stars (integer, not string)
+  github_repo: "kubernetes/kubernetes"  # from ase_github_repo
+  license: "Apache-2.0"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Kubernetes Events API CrashLoop Investigator
 
 Diagnoses restart storms with the Kubernetes Events API, Pod status conditions, and the Metrics API to explain why workloads are stuck in CrashLoopBackOff. Great for agents that need to summarize cluster evidence before an operator starts digging through kubectl output by hand.
 
+## Overview
+
+Kubernetes Events API CrashLoop Investigator is designed for operational debugging when a deployment or job keeps restarting and nobody wants to assemble the evidence from scratch every time. It works with the Kubernetes Events API, Pod status and container state fields, and cluster metrics from the Metrics API to show what happened, when it started, and which signals matter most. That makes it well suited for CrashLoopBackOff, ImagePullBackOff, failed readiness checks, and other noisy pod failure modes.
+
+The skill can correlate event timelines with restart counts, last termination reasons, node placement, and recent resource pressure. In practice, that gives responders a more reliable first-pass explanation than reading a single event stream in isolation. It also helps agents produce summaries that point toward configuration, dependency, or resource causes instead of generic statements like “pod is unhealthy.”
+
+Use this skill when you want cluster diagnostics that stay grounded in native Kubernetes APIs and when on-call engineers need a faster, cleaner view of repeated pod startup failures.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
-npx @anthropic/agent-skills add kubernetes-events-api-crashloop-investigator
+npx skills add agentskillexchange/skills --skill kubernetes-events-api-crashloop-investigator
 ```
 
 ### Claude Code
+
 ```bash
-npx @anthropic/agent-skills add kubernetes-events-api-crashloop-investigator --target claude-code
+npx skills add agentskillexchange/skills --skill kubernetes-events-api-crashloop-investigator -a claude-code
 ```
 
 ### Cursor
+
 ```bash
-npx @anthropic/agent-skills add kubernetes-events-api-crashloop-investigator --target cursor
+npx skills add agentskillexchange/skills --skill kubernetes-events-api-crashloop-investigator -a cursor
 ```
 
 ### Codex
+
 ```bash
-npx @anthropic/agent-skills add kubernetes-events-api-crashloop-investigator --target codex
+npx skills add agentskillexchange/skills --skill kubernetes-events-api-crashloop-investigator -a codex
 ```
 
 ### OpenClaw
+
 ```bash
 clawhub install kubernetes-events-api-crashloop-investigator
 ```
+
+## Source
+
+- Marketplace: https://agentskillexchange.com/skills/kubernetes-events-api-crashloop-investigator/

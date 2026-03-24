@@ -12,7 +12,11 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/clickhouse-query-agent/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "clickhouse"  # from ase_tool_match
+  github_stars: 46508  # from ase_github_stars (integer, not string)
   npm_weekly_downloads: 1471334  # from ase_npm_downloads
+  github_repo: "ClickHouse/ClickHouse"  # from ase_github_repo
+  license: "Apache-2.0"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # ClickHouse Query Agent

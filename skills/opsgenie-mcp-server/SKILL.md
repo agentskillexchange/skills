@@ -12,7 +12,11 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/opsgenie-mcp-server/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "opsgenie"  # from ase_tool_match
+  github_stars: 24  # from ase_github_stars (integer, not string)
   npm_weekly_downloads: 9107  # from ase_npm_downloads
+  github_repo: "opsgenie/opsgenie-nodejs-sdk"  # from ase_github_repo
+  license: "Apache-2.0"  # from ase_tool_license
+  maintained: false  # from ase_tool_maintained
 ---
 
 # OpsGenie MCP Server

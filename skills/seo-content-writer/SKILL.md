@@ -19,19 +19,20 @@ Draft SEO-focused articles and landing-page content with stronger structure, key
 ## Overview
 
 SEO Content Writer is a content-production skill built for SEO-focused drafting rather than general writing help. It helps structure articles, blog posts, and landing pages around keyword intent, information hierarchy, and on-page clarity so the output is easier to optimize and publish.
+
 Best for
 
-- drafting SEO-oriented blog posts and landing pages
+drafting SEO-oriented blog posts and landing pages
 
-- organizing article structure around search intent
+organizing article structure around search intent
 
-- building content briefs with stronger on-page direction
+building content briefs with stronger on-page direction
 
 Install notes
 
 This skill is part of the SEO & GEO Skills Library. Install the skill set, then use it inside an OpenClaw workspace when you need search-oriented content planning and drafting rather than prose-only editing.
 
-Source: SEO & GEO Skills Library.
+**Source:** SEO & GEO Skills Library.
 
 ## Installation
 

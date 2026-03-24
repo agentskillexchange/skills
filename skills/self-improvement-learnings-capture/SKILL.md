@@ -3,7 +3,7 @@ name: "Self-Improvement / Learnings Capture"
 description: "Capture failures, corrections, and repeatable lessons so important operational knowledge persists across sessions."
 category: "Templates & Workflows"
 framework: "OpenClaw"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
@@ -19,19 +19,20 @@ Capture failures, corrections, and repeatable lessons so important operational k
 ## Overview
 
 Self-Improvement / Learnings Capture is a workflow skill for turning one-off errors and corrections into durable operating knowledge. Instead of losing lessons between sessions, it helps store them in structured markdown files and promote recurring patterns into workspace guidance.
+
 Best for
 
-- logging errors, corrections, and feature gaps into durable files
+logging errors, corrections, and feature gaps into durable files
 
-- turning recurring mistakes into documented process improvements
+turning recurring mistakes into documented process improvements
 
-- maintaining operational memory inside OpenClaw workspaces
+maintaining operational memory inside OpenClaw workspaces
 
 Install notes
 
 Install the skill into an OpenClaw workspace with write access to memory and learning files. Optional hooks can be added later for deeper automation, but the core value is already there without them.
 
-Source: self-improving-agent skill for OpenClaw workflows.
+**Source:** self-improving-agent skill for OpenClaw workflows.
 
 ## Installation
 

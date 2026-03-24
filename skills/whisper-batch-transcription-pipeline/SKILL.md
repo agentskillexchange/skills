@@ -12,10 +12,10 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/whisper-batch-transcription-pipeline/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "whisper"  # from ase_tool_match
-  github_stars: 10761  # from ase_github_stars (integer, not string)
+  github_stars: 96530  # from ase_github_stars (integer, not string)
   npm_weekly_downloads: 16275389  # from ase_npm_downloads
-  github_repo: "openai/openai-node"  # from ase_github_repo
-  license: "Apache-2.0"  # from ase_tool_license
+  github_repo: "openai/whisper"  # from ase_github_repo
+  license: "MIT"  # from ase_tool_license
   maintained: true  # from ase_tool_maintained
 ---
 

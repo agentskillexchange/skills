@@ -12,7 +12,11 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/apify-actor-web-intelligence-agent/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "apify"  # from ase_tool_match
+  github_stars: 172  # from ase_github_stars (integer, not string)
   npm_weekly_downloads: 44900  # from ase_npm_downloads
+  github_repo: "apify/apify-sdk-js"  # from ase_github_repo
+  license: "Apache-2.0"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Apify Actor Web Intelligence Agent

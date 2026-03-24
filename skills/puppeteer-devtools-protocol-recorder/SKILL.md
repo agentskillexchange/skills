@@ -3,7 +3,7 @@ name: "Puppeteer DevTools Protocol Recorder"
 description: "Records and replays Chrome DevTools Protocol (CDP) sessions via Puppeteer’s CDPSession API, captures Network, Performance, and Accessibility domain events, and exports HAR-compatible traces for CI regression testing."
 category: "Developer Tools"
 framework: "Cursor"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

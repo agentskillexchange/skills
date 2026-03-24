@@ -26,19 +26,20 @@ Batch-generate images through the OpenAI Images API with a prompt sampler and ga
 ## Overview
 
 OpenAI Image Gen gives OpenClaw a focused batch image-generation workflow built around the OpenAI Images API. It is designed for users who want to render multiple structured prompts, vary model settings, and review results in a simple gallery instead of generating one image at a time.
+
 Best for
 
-- batch-generating images from structured prompts
+batch-generating images from structured prompts
 
-- testing model, size, and quality combinations
+testing model, size, and quality combinations
 
-- producing gallery-style output for review and iteration
+producing gallery-style output for review and iteration
 
 Install notes
 
 Requires Python 3 and a valid `OPENAI_API_KEY`. Install the skill, configure your API key, then run the bundled generation script with the model and output settings you want.
 
-Source: OpenClaw official skill.
+**Source:** OpenClaw official skill.
 
 ## Installation
 

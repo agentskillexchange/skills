@@ -19,19 +19,20 @@ Cross-source research skill for discovering and summarizing signals from Reddit,
 ## Overview
 
 OpenClaw Research Scout helps discover high-signal information across Reddit, X, web search, and community sources. It is designed for trend analysis, competitor research, and early signal discovery.
+
 Best for
 
-- market research and trend spotting
+market research and trend spotting
 
-- competitor tracking across social and web sources
+competitor tracking across social and web sources
 
-- summarizing recent activity on a topic
+summarizing recent activity on a topic
 
 Install notes
 
 Install the research skill from the OpenClaw skills set. Ensure `web_search` and `web_fetch` tools are enabled and configured with an API key (Brave Search or equivalent).
 
-Source: OpenClaw official skills.
+**Source:** OpenClaw official skills.
 
 ## Installation
 

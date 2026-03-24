@@ -19,18 +19,20 @@ Wraps Apache Tika Server REST API for extracting structured text from PDFs, DOCX
 ## Overview
 
 Wraps Apache Tika Server REST API for extracting structured text from PDFs, DOCX, PPTX, and 1,200+ file formats. Outputs clean markdown with metadata preservation using Tika /rmeta/text endpoint and recursive parsing mode.
+
 Overview
 
 This skill provides automated integration capabilities designed for production agent workflows. It handles authentication, rate limiting, and error recovery out of the box, allowing agents to focus on high-level task orchestration rather than low-level API management.
+
 Key Features
 
-- Automatic retry logic with exponential backoff for API rate limits
+Automatic retry logic with exponential backoff for API rate limits
 
-- Structured output formatting compatible with downstream agent pipelines
+Structured output formatting compatible with downstream agent pipelines
 
-- Comprehensive error handling with actionable diagnostic messages
+Comprehensive error handling with actionable diagnostic messages
 
-- Configurable caching layer to reduce redundant API calls
+Configurable caching layer to reduce redundant API calls
 
 Usage
 

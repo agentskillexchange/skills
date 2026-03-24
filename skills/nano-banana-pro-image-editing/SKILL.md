@@ -19,19 +19,20 @@ Generate and edit images through a premium model workflow.
 ## Overview
 
 Nano Banana Pro Image Editing adds image generation and editing capabilities through a polished skill wrapper around a higher-end image model workflow.
+
 Best for
 
-- editing generated images
+editing generated images
 
-- creative concept iteration
+creative concept iteration
 
-- image workflow automation
+image workflow automation
 
 Install notes
 
 Install from the OpenClaw skills set and configure any required provider credentials or model access separately.
 
-Source: OpenClaw official skills.
+**Source:** OpenClaw official skills.
 
 ## Installation
 

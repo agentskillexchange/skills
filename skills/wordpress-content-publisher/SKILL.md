@@ -25,19 +25,20 @@ Structured publishing workflow for WordPress drafts, metadata, and content opera
 ## Overview
 
 WordPress Content Publisher helps prepare structured content packets, editorial drafts, and publishing workflows for WordPress-based sites. It works through the WordPress REST API to create, update, and manage posts and pages.
+
 Best for
 
-- creating and updating WordPress posts and pages via REST
+creating and updating WordPress posts and pages via REST
 
-- batch content operations and editorial workflows
+batch content operations and editorial workflows
 
-- structured content packaging with metadata and taxonomy assignment
+structured content packaging with metadata and taxonomy assignment
 
 Install notes
 
 Requires a WordPress site with REST API enabled and an application password configured. Install the WordPress skills from the OpenClaw skills set and provide your site URL and credentials in the agent environment.
 
-Source: OpenClaw official skills.
+**Source:** OpenClaw official skills.
 
 ## Installation
 

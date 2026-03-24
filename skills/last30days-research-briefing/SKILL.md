@@ -19,19 +19,20 @@ Turn recent web and social activity into compact briefings.
 ## Overview
 
 Last30Days Research Briefing helps agents research topics, manage watchlists, and produce recent-activity summaries across sources like the web, Reddit, X, and YouTube.
+
 Best for
 
-- watchlists and briefings
+watchlists and briefings
 
-- tracking recent market activity
+tracking recent market activity
 
-- summarizing the last 30 days of discussion
+summarizing the last 30 days of discussion
 
 Install notes
 
 Install from the OpenClaw skills set and use it with normal web-enabled research tooling.
 
-Source: OpenClaw official skills.
+**Source:** OpenClaw official skills.
 
 ## Installation
 

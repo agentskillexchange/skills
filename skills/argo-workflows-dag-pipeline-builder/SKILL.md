@@ -3,13 +3,19 @@ name: "Argo Workflows DAG Pipeline Builder"
 description: "Constructs Kubernetes-native workflow DAGs using Argo Workflows CRDs with configurable retry strategies, artifact passing via S3/MinIO, and template composition through WorkflowTemplates and ClusterWorkflowTemplates."
 category: "Templates & Workflows"
 framework: "MCP-compatible"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/argo-workflows-dag-pipeline-builder/"
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "kubernetes"  # from ase_tool_match
+  github_stars: 121313  # from ase_github_stars (integer, not string)
+  github_repo: "kubernetes/kubernetes"  # from ase_github_repo
+  license: "Apache-2.0"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Argo Workflows DAG Pipeline Builder

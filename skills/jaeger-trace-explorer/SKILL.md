@@ -12,6 +12,10 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/jaeger-trace-explorer/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "jaeger"  # from ase_tool_match
+  github_stars: 22608  # from ase_github_stars (integer, not string)
+  github_repo: "jaegertracing/jaeger"  # from ase_github_repo
+  license: "Apache-2.0"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Jaeger Trace Explorer

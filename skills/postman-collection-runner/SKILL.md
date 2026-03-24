@@ -12,6 +12,10 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/postman-collection-runner/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "postman"  # from ase_tool_match
+  github_stars: 5996  # from ase_github_stars (integer, not string)
+  github_repo: "postmanlabs/postman-app-support"  # from ase_github_repo
+  license: "Unknown"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Postman Collection Runner

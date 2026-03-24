@@ -3,7 +3,7 @@ name: "Nginx Error Log Analyzer and Fixer"
 description: "Parses Nginx error logs and access logs to diagnose 502, 504, and 413 errors. Uses GoAccess for real-time log visualization and integrates with nginx -t for configuration validation."
 category: "Runbooks & Diagnostics"
 framework: "Claude Agents"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

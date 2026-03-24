@@ -3,13 +3,19 @@ name: "Grafana OnCall Escalation Chain Manager"
 description: "Configures Grafana OnCall escalation chains, notification policies, and on-call schedules via the Grafana OnCall HTTP API. Manages integration routes from Alertmanager, Zabbix, and Datadog with automatic responder assignment."
 category: "Monitoring & Alerts"
 framework: "ChatGPT Agents"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/grafana-oncall-escalation-chain-manager/"
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "grafana"  # from ase_tool_match
+  github_stars: 72784  # from ase_github_stars (integer, not string)
+  github_repo: "grafana/grafana"  # from ase_github_repo
+  license: "AGPL-3.0"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Grafana OnCall Escalation Chain Manager

@@ -26,18 +26,20 @@ Enforces consistent ESLint configurations across monorepo packages using eslint-
 ## Overview
 
 ESLint Config Enforcer ensures coding standards remain consistent across every package in a monorepo by leveraging eslint-config-inspector and ESLint’s flat config system.
+
 How It Works
 
 The skill scans all workspace packages for their ESLint configurations, merges them using the flat config cascade, and identifies rule conflicts or overrides that deviate from the shared baseline. It uses eslint –inspect-config to produce a detailed report of active rules per package.
+
 Key Features
 
-- Automatic detection of conflicting rules between @eslint/js, typescript-eslint, and custom shared configs
+Automatic detection of conflicting rules between @eslint/js, typescript-eslint, and custom shared configs
 
-- Generates override files that resolve conflicts while preserving intentional per-package customizations
+Generates override files that resolve conflicts while preserving intentional per-package customizations
 
-- Compliance dashboard showing rule coverage and deviation percentages across all packages
+Compliance dashboard showing rule coverage and deviation percentages across all packages
 
-- Supports eslint.config.mjs, eslint.config.ts, and legacy .eslintrc migration paths
+Supports eslint.config.mjs, eslint.config.ts, and legacy .eslintrc migration paths
 
 Integration
 

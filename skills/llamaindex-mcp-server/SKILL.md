@@ -12,7 +12,11 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/llamaindex-mcp-server/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "llamaindex"  # from ase_tool_match
+  github_stars: 47942  # from ase_github_stars (integer, not string)
   npm_weekly_downloads: 125659  # from ase_npm_downloads
+  github_repo: "run-llama/llama_index"  # from ase_github_repo
+  license: "MIT"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # LlamaIndex MCP Server

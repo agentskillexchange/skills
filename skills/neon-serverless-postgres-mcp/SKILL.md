@@ -22,24 +22,26 @@ Neon’s official MCP server translates natural language requests into Neon API 
 ## Overview
 
 Neon MCP Server is maintained by Neon and designed for use with Claude Code, Cursor, VS Code, and any MCP-compatible client. It bridges natural language requests to the Neon Management API for full database lifecycle management.
+
 Best for
 
-- Creating and managing Neon projects through conversational commands
+Creating and managing Neon projects through conversational commands
 
-- Branch-based migrations: test schema changes on a temporary branch before committing
+Branch-based migrations: test schema changes on a temporary branch before committing
 
-- Running SQL queries against any Neon database through the agent
+Running SQL queries against any Neon database through the agent
 
-- Exploring schemas, tables, and data summaries
+Exploring schemas, tables, and data summaries
 
 How it differs from Postgres MCP Pro
 
 Postgres MCP Pro provides deep query analysis against any PostgreSQL instance. Neon MCP manages Neon-specific platform infrastructure — creating projects, branching databases for safe migrations, and managing the serverless platform layer.
+
 Install notes
 
-Quickest: `npx neonctl@latest init` (auto-configures everything). Manual: `npx -y @neondatabase/mcp-server-neon start YOUR_API_KEY`. Remote: Connect to `https://mcp.neon.tech/mcp` with OAuth. Free tier available.
+**Quickest:** `npx neonctl@latest init` (auto-configures everything). **Manual:** `npx -y @neondatabase/mcp-server-neon start YOUR_API_KEY`. **Remote:** Connect to `https://mcp.neon.tech/mcp` with OAuth. Free tier available.
 
-Source: github.com/neondatabase/mcp-server-neon
+**Source:** [github.com/neondatabase/mcp-server-neon](https://github.com/neondatabase/mcp-server-neon)
 
 ## Installation
 

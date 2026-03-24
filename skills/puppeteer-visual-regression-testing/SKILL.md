@@ -3,7 +3,7 @@ name: "Puppeteer Visual Regression Testing"
 description: "Runs pixel-level visual regression tests using Puppeteer page.screenshot() and pixelmatch diffing library. Compares baseline screenshots against current renders with configurable threshold tolerance."
 category: "Browser Automation"
 framework: "Cursor"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

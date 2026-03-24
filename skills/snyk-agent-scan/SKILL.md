@@ -26,29 +26,30 @@ Scan your AI agents, MCP servers, and skills for security vulnerabilities from t
 ## Overview
 
 Snyk Agent Scan (formerly Invariant Labs MCP-Scan) is a command-line security scanner purpose-built for the AI agent supply chain. It auto-discovers agent configurations for Claude Code, Claude Desktop, Cursor, Windsurf, Gemini CLI, and other MCP-compatible platforms, then runs a comprehensive vulnerability assessment against every discovered component.
+
 Best for
 
-- Auditing installed MCP servers and agent skills before trusting them
+Auditing installed MCP servers and agent skills before trusting them
 
-- Detecting prompt injection attacks hidden in tool descriptions
+Detecting prompt injection attacks hidden in tool descriptions
 
-- Identifying tool shadowing between MCP servers
+Identifying tool shadowing between MCP servers
 
-- Verifying skills don’t contain malware payloads or unsafe credential handling
+Verifying skills don’t contain malware payloads or unsafe credential handling
 
 What it scans
 
-- MCP servers: Prompt injection in tool descriptions, tool shadowing, tool poisoning via hidden instructions, and toxic data flows
+**MCP servers:** Prompt injection in tool descriptions, tool shadowing, tool poisoning via hidden instructions, and toxic data flows
 
-- Agent skills: Prompt injection in skill files, malware payloads, untrusted content references, unsafe credential handling, and hardcoded secrets
+**Agent skills:** Prompt injection in skill files, malware payloads, untrusted content references, unsafe credential handling, and hardcoded secrets
 
-- Agent harnesses: Configuration discovery and inventory across all supported platforms
+**Agent harnesses:** Configuration discovery and inventory across all supported platforms
 
 Install notes
 
-Get an API token from app.snyk.io/account. Set `SNYK_TOKEN`, install uv, then run `uvx snyk-agent-scan@latest` for a full machine scan. For targeted scans: `uvx snyk-agent-scan@latest ~/.cursor/mcp.json`.
+Get an API token from [app.snyk.io/account](https://app.snyk.io/account). Set `SNYK_TOKEN`, install [uv](https://docs.astral.sh/uv/), then run `uvx snyk-agent-scan@latest` for a full machine scan. For targeted scans: `uvx snyk-agent-scan@latest ~/.cursor/mcp.json`.
 
-Source: github.com/snyk/agent-scan
+**Source:** [github.com/snyk/agent-scan](https://github.com/snyk/agent-scan)
 
 ## Installation
 

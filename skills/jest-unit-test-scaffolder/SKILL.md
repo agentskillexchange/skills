@@ -12,7 +12,11 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/jest-unit-test-scaffolder/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "jest"  # from ase_tool_match
+  github_stars: 45332  # from ase_github_stars (integer, not string)
   npm_weekly_downloads: 45503384  # from ase_npm_downloads
+  github_repo: "jestjs/jest"  # from ase_github_repo
+  license: "MIT"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Jest Unit Test Scaffolder

@@ -12,7 +12,11 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/supabase-mcp-server/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "supabase"  # from ase_tool_match
+  github_stars: 99546  # from ase_github_stars (integer, not string)
   npm_weekly_downloads: 14597348  # from ase_npm_downloads
+  github_repo: "supabase/supabase"  # from ase_github_repo
+  license: "Apache-2.0"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Supabase MCP Server

@@ -1,44 +1,68 @@
 ---
 name: "Datadog Synthetics Failure Triage Skill"
 description: "Investigates broken checks with the Datadog Synthetics API, Monitors API, and Logs Search API to connect failed browser or API tests with the signals that explain them. Handy for turning a red synthetic check into an actionable diagnosis instead of a vague outage alarm."
-category: "Runbooks &amp; Diagnostics"
-framework: ""
-verification: listed
-rating: 0
-reviews: 0
-creator: ""
+category: "Runbooks & Diagnostics"
+framework: "Claude Code"
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/datadog-synthetics-failure-triage-skill/"
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "datadog"  # from ase_tool_match
+  github_stars: 787  # from ase_github_stars (integer, not string)
+  npm_weekly_downloads: 6043057  # from ase_npm_downloads
+  github_repo: "DataDog/dd-trace-js"  # from ase_github_repo
+  license: "NOASSERTION"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Datadog Synthetics Failure Triage Skill
 
 Investigates broken checks with the Datadog Synthetics API, Monitors API, and Logs Search API to connect failed browser or API tests with the signals that explain them. Handy for turning a red synthetic check into an actionable diagnosis instead of a vague outage alarm.
 
+## Overview
+
+Datadog Synthetics Failure Triage Skill helps agents move from a failed synthetic result to a grounded explanation of what probably went wrong. It relies on the Datadog Synthetics API for test runs and step details, the Monitors API for alert state and history, and the Logs Search API for the surrounding evidence. That makes it useful for browser journeys, API checks, and uptime monitors that fail intermittently and leave teams guessing whether the root cause is networking, auth, a backend regression, or a third-party dependency.
+
+The workflow can inspect failure locations, compare the latest run against recent history, and correlate the failed step with logs, tags, and affected services. It is also a good fit for organizations that want agents to prepare a concise triage packet before a human jumps in. Instead of handing off only a failing test name, the skill can surface monitor state, timestamps, environment tags, and the most relevant error traces.
+
+Use this skill when synthetic monitoring is already in place but the first investigation step still takes too long and too much manual dashboard hopping.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
-npx @anthropic/agent-skills add datadog-synthetics-failure-triage-skill
+npx skills add agentskillexchange/skills --skill datadog-synthetics-failure-triage-skill
 ```
 
 ### Claude Code
+
 ```bash
-npx @anthropic/agent-skills add datadog-synthetics-failure-triage-skill --target claude-code
+npx skills add agentskillexchange/skills --skill datadog-synthetics-failure-triage-skill -a claude-code
 ```
 
 ### Cursor
+
 ```bash
-npx @anthropic/agent-skills add datadog-synthetics-failure-triage-skill --target cursor
+npx skills add agentskillexchange/skills --skill datadog-synthetics-failure-triage-skill -a cursor
 ```
 
 ### Codex
+
 ```bash
-npx @anthropic/agent-skills add datadog-synthetics-failure-triage-skill --target codex
+npx skills add agentskillexchange/skills --skill datadog-synthetics-failure-triage-skill -a codex
 ```
 
 ### OpenClaw
+
 ```bash
 clawhub install datadog-synthetics-failure-triage-skill
 ```
+
+## Source
+
+- Marketplace: https://agentskillexchange.com/skills/datadog-synthetics-failure-triage-skill/

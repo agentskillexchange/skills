@@ -12,7 +12,11 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/langchain-mcp-server/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "langchain"  # from ase_tool_match
+  github_stars: 17321  # from ase_github_stars (integer, not string)
   npm_weekly_downloads: 2137497  # from ase_npm_downloads
+  github_repo: "langchain-ai/langchainjs"  # from ase_github_repo
+  license: "MIT"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # LangChain MCP Server

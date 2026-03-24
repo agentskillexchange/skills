@@ -3,13 +3,20 @@ name: "Zapier Webhooks by Zapier Router"
 description: "Routes and validates inbound automation traffic built around Webhooks by Zapier endpoints such as `hooks.zapier.com/hooks/catch/…`. Useful for standardizing payload shapes, inspecting trigger contracts, and debugging chained zaps across third-party SaaS systems."
 category: "Integrations & Connectors"
 framework: "Custom Agents"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/zapier-webhooks-by-zapier-router/"
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "slack"  # from ase_tool_match
+  github_stars: 2900  # from ase_github_stars (integer, not string)
+  npm_weekly_downloads: 2433529  # from ase_npm_downloads
+  github_repo: "slackapi/bolt-js"  # from ase_github_repo
+  license: "MIT"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Zapier Webhooks by Zapier Router

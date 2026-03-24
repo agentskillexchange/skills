@@ -3,7 +3,7 @@ name: "Prometheus Alert Runbook Linker"
 description: "Links Prometheus alerting rules to operational runbooks by parsing AlertManager configurations and PrometheusRule CRDs. Validates runbook_url annotations exist and are reachable, and generates stub runbooks for undocumented alerts."
 category: "Runbooks & Diagnostics"
 framework: "Gemini"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
@@ -26,18 +26,20 @@ Links Prometheus alerting rules to operational runbooks by parsing AlertManager 
 ## Overview
 
 Prometheus Alert Runbook Linker ensures every alerting rule in your monitoring stack has an associated operational runbook for incident responders.
+
 How It Works
 
 The skill scans Prometheus alerting rules (both file-based and PrometheusRule CRDs in Kubernetes) for runbook_url annotations. It validates that linked runbooks are accessible, contain relevant content, and follows a consistent format.
+
 Key Features
 
-- Scans prometheus.yml alert rules and Kubernetes PrometheusRule custom resources
+Scans prometheus.yml alert rules and Kubernetes PrometheusRule custom resources
 
-- Validates runbook_url annotation presence and HTTP reachability for every alert
+Validates runbook_url annotation presence and HTTP reachability for every alert
 
-- Generates stub runbook templates for alerts missing documentation
+Generates stub runbook templates for alerts missing documentation
 
-- Cross-references alert labels with runbook metadata to detect mislinked documentation
+Cross-references alert labels with runbook metadata to detect mislinked documentation
 
 Templates
 

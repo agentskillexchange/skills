@@ -24,7 +24,7 @@ Validates and transforms Pandas DataFrames using Pandera schema definitions with
 
 ## Overview
 
-The Pandas DataFrame Schema Enforcer skill integrates Pandera with Pandas to provide runtime data validation for DataFrame pipelines. It defines and enforces column-level schemas including data types, nullable constraints, value ranges, regex patterns, and custom validation functions.
+The Pandas DataFrame Schema Enforcer skill integrates **Pandera** with Pandas to provide runtime data validation for DataFrame pipelines. It defines and enforces column-level schemas including data types, nullable constraints, value ranges, regex patterns, and custom validation functions.
 
 The skill auto-generates Pandera SchemaModel classes from sample DataFrames, inferring appropriate column types and constraints from data distributions. It supports both eager validation (fail-fast on first error) and lazy validation (collect all errors) modes, with detailed error reporting including row indices and failing values.
 

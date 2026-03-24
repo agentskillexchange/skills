@@ -25,7 +25,7 @@ Uses Microsoft Playwright’s Node.js API to navigate dynamic web applications, 
 
 ## Overview
 
-The Playwright Page Data Extractor skill leverages Microsoft Playwright for reliable data extraction from modern JavaScript-heavy web applications. It handles React, Vue, and Angular single-page applications that render content client-side, using Playwright’s auto-waiting mechanisms to ensure content is fully loaded before extraction.
+The Playwright Page Data Extractor skill leverages **Microsoft Playwright** for reliable data extraction from modern JavaScript-heavy web applications. It handles React, Vue, and Angular single-page applications that render content client-side, using Playwright’s auto-waiting mechanisms to ensure content is fully loaded before extraction.
 
 The skill uses Playwright’s page.evaluate() for DOM traversal, page.route() for network request interception and API response capture, and page.waitForSelector() with configurable timeout strategies. It generates extraction scripts that handle infinite scroll pagination, modal dialogs, and dynamic content loading via IntersectionObserver patterns.
 

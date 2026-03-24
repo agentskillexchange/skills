@@ -3,7 +3,7 @@ name: "SerpAPI Research Pipeline"
 description: "Builds structured research datasets by querying SerpAPI Google Search, Google Scholar, and Google News endpoints. Extracts entities via spaCy NER and stores results in SQLite with full-text search."
 category: "Research & Scraping"
 framework: "Codex"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
@@ -12,7 +12,11 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/serpapi-research-pipeline/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "sqlite"  # from ase_tool_match
+  github_stars: 7041  # from ase_github_stars (integer, not string)
   npm_weekly_downloads: 4960915  # from ase_npm_downloads
+  github_repo: "WiseLibs/better-sqlite3"  # from ase_github_repo
+  license: "MIT"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # SerpAPI Research Pipeline

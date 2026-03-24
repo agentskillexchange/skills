@@ -22,7 +22,7 @@ Schema.org Markup Generator creates valid JSON-LD structured data for web pages 
 
 The agent constructs nested schema objects with proper `@context`, `@type`, and `@id` references, handling multi-entity pages with `@graph` arrays. For Product schema, it includes `AggregateRating`, `Offer` with `priceValidUntil`, and `Review` markup meeting Google’s merchant listing requirements.
 
-Validates generated markup against Google’s Rich Results Test API (`https://searchconsole.googleapis.com/v1/urlTestingTools/mobileFriendlyTest:run`) and Schema.org’s official validator. Handles conditional properties like `isAccessibleForFree` for paywalled content and `speakable` for voice search optimization. Outputs ready-to-embed `` blocks with proper escaping.
+Validates generated markup against Google’s Rich Results Test API (`https://searchconsole.googleapis.com/v1/urlTestingTools/mobileFriendlyTest:run`) and Schema.org’s official validator. Handles conditional properties like `isAccessibleForFree` for paywalled content and `speakable` for voice search optimization. Outputs ready-to-embed `<script type="application/ld+json">` blocks with proper escaping.
 
 ## Installation
 

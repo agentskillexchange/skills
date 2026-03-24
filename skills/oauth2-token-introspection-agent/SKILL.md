@@ -12,7 +12,11 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/oauth2-token-introspection-agent/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "auth0"  # from ase_tool_match
+  github_stars: 676  # from ase_github_stars (integer, not string)
   npm_weekly_downloads: 1226704  # from ase_npm_downloads
+  github_repo: "auth0/node-auth0"  # from ase_github_repo
+  license: "MIT"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # OAuth2 Token Introspection Agent

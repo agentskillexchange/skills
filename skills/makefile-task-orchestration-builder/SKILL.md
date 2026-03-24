@@ -18,7 +18,7 @@ Builds GNU Make task orchestration files with proper prerequisite chains, patter
 
 ## Overview
 
-The Makefile Task Orchestration Builder generates GNU Make compatible Makefiles with correct syntax for complex build and automation workflows. It constructs prerequisite chains using both order-only and normal prerequisites to model task dependencies accurately. Pattern rules with stem matching handle repetitive build targets across multiple source files. Automatic variables ($@, $
+The Makefile Task Orchestration Builder generates GNU Make compatible Makefiles with correct syntax for complex build and automation workflows. It constructs prerequisite chains using both order-only and normal prerequisites to model task dependencies accurately. Pattern rules with stem matching handle repetitive build targets across multiple source files. Automatic variables ($@, $<, $^, $*, $(@D)) are used correctly in recipes to avoid hard-coded paths. The skill configures parallel execution using -j flags with proper dependency ordering to prevent race conditions. Phony targets are declared for non-file targets like clean, test, lint, and deploy. For monorepo scenarios, it generates recursive make invocations with proper MAKEFLAGS propagation and sub-directory traversal. Conditional assignments (?=, :=, +=) handle environment-specific overrides. Includes .SECONDEXPANSION for deferred prerequisite evaluation and define/endef for multi-line variable definitions used in canned recipes.
 
 ## Installation
 

@@ -12,7 +12,11 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/discord-bot-manager/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "discord"  # from ase_tool_match
+  github_stars: 26650  # from ase_github_stars (integer, not string)
   npm_weekly_downloads: 508798  # from ase_npm_downloads
+  github_repo: "discordjs/discord.js"  # from ase_github_repo
+  license: "Apache-2.0"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Discord Bot Manager

@@ -12,9 +12,9 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/spark-dataframe-etl-pipeline/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "spark"  # from ase_tool_match
-  github_stars: 3594  # from ase_github_stars (integer, not string)
+  github_stars: 43027  # from ase_github_stars (integer, not string)
   npm_weekly_downloads: 9204385  # from ase_npm_downloads
-  github_repo: "aws/aws-sdk-js-v3"  # from ase_github_repo
+  github_repo: "apache/spark"  # from ase_github_repo
   license: "Apache-2.0"  # from ase_tool_license
   maintained: true  # from ase_tool_maintained
 ---

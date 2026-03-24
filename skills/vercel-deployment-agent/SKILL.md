@@ -12,7 +12,11 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/vercel-deployment-agent/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "vercel"  # from ase_tool_match
+  github_stars: 15126  # from ase_github_stars (integer, not string)
   npm_weekly_downloads: 2073585  # from ase_npm_downloads
+  github_repo: "vercel/vercel"  # from ase_github_repo
+  license: "Apache-2.0"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Vercel Deployment Agent

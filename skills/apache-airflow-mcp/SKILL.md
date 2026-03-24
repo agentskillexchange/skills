@@ -12,6 +12,10 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/apache-airflow-mcp/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "airflow"  # from ase_tool_match
+  github_stars: 44767  # from ase_github_stars (integer, not string)
+  github_repo: "apache/airflow"  # from ase_github_repo
+  license: "Apache-2.0"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Apache Airflow MCP
