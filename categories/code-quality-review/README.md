@@ -1,6 +1,6 @@
 # ✅ Code Quality & Review
 
-> **88 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review)
+> **74 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review)
 
 Linting rules, review checklists, code standards enforcement, and quality gates.
 
@@ -120,31 +120,17 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [SonarQube Scanner Skill](../../skills/sonarqube-scanner-skill/) | Security Reviewed | 10.4k | — | `clawhub install sonarqube-scanner-skill` |
 | [CodeClimate Maintainability Tracker](../../skills/codeclimate-maintainability-tracker-7/) | Security Reviewed | 3.1k | 3.3M/wk | `clawhub install codeclimate-maintainability-tracker-7` |
 | [Codecov Coverage Report Analyzer](../../skills/codecov-coverage-report-analyzer/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install codecov-coverage-report-analyzer` |
-| [Artillery Load Test Runner](../../skills/artillery-load-test-runner/) | Listed | — | — | `clawhub install artillery-load-test-runner` |
-| [Bandit Python Security Linter](../../skills/bandit-python-security-linter-2/) | Listed | — | — | `clawhub install bandit-python-security-linter-2` |
-| [CodeClimate Maintainability Reporter](../../skills/codeclimate-maintainability-reporter/) | Listed | — | — | `clawhub install codeclimate-maintainability-reporter` |
-| [CodeClimate Quality Analysis](../../skills/codeclimate-quality-analysis/) | Listed | — | — | `clawhub install codeclimate-quality-analysis` |
 | [Codecov Coverage Diff Analyzer](../../skills/codecov-coverage-diff-analyzer-2/) | Security Reviewed | — | — | `clawhub install codecov-coverage-diff-analyzer-2` |
 | [Codecov Coverage Tracker](../../skills/codecov-coverage-tracker-skill/) | Security Reviewed | — | — | `clawhub install codecov-coverage-tracker-skill` |
 | [Codecov Coverage Tracker Agent](../../skills/codecov-coverage-tracker-agent/) | Security Reviewed | — | — | `clawhub install codecov-coverage-tracker-agent` |
 | [Complexity Trend Tracker](../../skills/complexity-trend-tracker-agent/) | Security Reviewed | — | — | `clawhub install complexity-trend-tracker-agent` |
-| [Dead Code Detector](../../skills/dead-code-detector/) | Listed | — | — | `clawhub install dead-code-detector` |
-| [DeepSource Automated Review](../../skills/deepsource-automated-review/) | Listed | — | — | `clawhub install deepsource-automated-review` |
-| [DeepSource Static Analysis](../../skills/deepsource-static-analysis/) | Listed | — | — | `clawhub install deepsource-static-analysis` |
-| [Dependency Graph Visualizer](../../skills/dependency-graph-visualizer/) | Listed | — | — | `clawhub install dependency-graph-visualizer` |
-| [Import Cycle Analyzer](../../skills/import-cycle-analyzer-2/) | Listed | — | — | `clawhub install import-cycle-analyzer-2` |
-| [PR Code Review Checklist Generator](../../skills/pr-code-review-checklist-generator/) | Listed | — | — | `clawhub install pr-code-review-checklist-generator` |
 | [Prettier Config Harmonizer](../../skills/prettier-config-harmonizer-2/) | Security Reviewed | — | — | `clawhub install prettier-config-harmonizer-2` |
 | [Pylint Baseline Manager](../../skills/pylint-baseline-manager-wave48/) | Security Reviewed | — | — | `clawhub install pylint-baseline-manager-wave48` |
-| [Pylint Code Analyzer](../../skills/pylint-code-analyzer/) | Listed | — | — | `clawhub install pylint-code-analyzer` |
 | [Pylint Code Review Assistant](../../skills/pylint-code-review-assistant/) | Security Reviewed | — | — | `clawhub install pylint-code-review-assistant` |
 | [Python Type Coverage Analyzer](../../skills/python-type-coverage-analyzer/) | Security Reviewed | — | — | `clawhub install python-type-coverage-analyzer` |
-| [Python Type Coverage Checker](../../skills/python-type-coverage-checker/) | Listed | — | — | `clawhub install python-type-coverage-checker` |
 | [Ruff Linter and Formatter](../../skills/ruff-linter-formatter-agent/) | Security Reviewed | — | — | `clawhub install ruff-linter-formatter-agent` |
 | [Ruff Linter Configuration Architect](../../skills/ruff-linter-configuration-architect/) | Security Reviewed | — | — | `clawhub install ruff-linter-configuration-architect` |
 | [Ruff Python Linter Configurator](../../skills/ruff-python-linter-configurator/) | Security Reviewed | — | — | `clawhub install ruff-python-linter-configurator` |
-| [TypeScript Strict Checker](../../skills/typescript-strict-checker/) | Listed | — | — | `clawhub install typescript-strict-checker` |
-| [TypeScript Strict Mode Checker](../../skills/typescript-strict-mode-checker/) | Listed | — | — | `clawhub install typescript-strict-mode-checker` |
 
 ---
 
@@ -167,10 +153,10 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 ## Related Categories
 
-- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (148 skills)
-- 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (126 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (120 skills)
-- 📚 [Library & API Reference](../library-api-reference/) (106 skills)
+- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (137 skills)
+- 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
+- 📚 [Library & API Reference](../library-api-reference/) (89 skills)
+- 🔒 [Security & Verification](../security-verification/) (84 skills)
 
 ---
 

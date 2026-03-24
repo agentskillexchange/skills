@@ -1,6 +1,6 @@
 # 🔒 Security & Verification
 
-> **96 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification)
+> **84 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification)
 
 Auth setup, vulnerability scanning, compliance checks, and security automation.
 
@@ -10,7 +10,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 
 - **Top Starred:** 6 visible with GitHub signal data
 - **Top Downloaded:** 6 visible with npm signal data
-- **Security Reviewed:** 69 skills
+- **Security Reviewed:** 71 skills
 
 ---
 
@@ -72,7 +72,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [SBOM Vulnerability Scanner](../../skills/sbom-vulnerability-scanner/) | Security Reviewed | 71.6k | — | `clawhub install sbom-vulnerability-scanner` |
 | [Sentry for AI](../../skills/sentry-for-ai/) | Listed | 43.4k | 16.4M/wk | `clawhub install sentry-for-ai` |
 | [Vault Secrets Rotation Orchestrator](../../skills/vault-secrets-rotation-orchestrator/) | Security Reviewed | 35.3k | 9.2M/wk | `clawhub install vault-secrets-rotation-orchestrator` |
-| [HashiCorp Vault MCP Server](../../skills/hashicorp-vault-mcp-server/) | Listed | 35.3k | — | `clawhub install hashicorp-vault-mcp-server` |
+| [HashiCorp Vault MCP Server](../../skills/hashicorp-vault-mcp-server/) | Security Reviewed | 35.3k | — | `clawhub install hashicorp-vault-mcp-server` |
 | [HashiCorp Vault Secret Rotation Agent](../../skills/hashicorp-vault-secret-rotation-agent-2/) | Security Reviewed | 35.3k | — | `clawhub install hashicorp-vault-secret-rotation-agent-2` |
 | [HashiCorp Vault Secret Scanner](../../skills/hashicorp-vault-secret-scanner-2/) | Security Reviewed | 35.3k | — | `clawhub install hashicorp-vault-secret-scanner-2` |
 | [HashiCorp Vault Secrets Rotation Agent](../../skills/hashicorp-vault-secrets-rotation-agent-2/) | Security Reviewed | 35.3k | — | `clawhub install hashicorp-vault-secrets-rotation-agent-2` |
@@ -105,7 +105,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Semgrep Supply Chain Rule Pack Runner](../../skills/semgrep-supply-chain-rule-pack-runner/) | Security Reviewed | 14.5k | — | `clawhub install semgrep-supply-chain-rule-pack-runner` |
 | [Dependency Vulnerability Scanner](../../skills/dependency-vulnerability-scanner-agent/) | Security Reviewed | 5.5k | 601.7k/wk | `clawhub install dependency-vulnerability-scanner-agent` |
 | [NPM Package Supply Chain Auditor](../../skills/npm-package-supply-chain-auditor/) | Security Reviewed | 5.5k | 601.7k/wk | `clawhub install npm-package-supply-chain-auditor` |
-| [Snyk Agent Scan](../../skills/snyk-agent-scan/) | Listed | 5.5k | 601.7k/wk | `clawhub install snyk-agent-scan` |
+| [Snyk Agent Scan](../../skills/snyk-agent-scan/) | Security Reviewed | 5.5k | 601.7k/wk | `clawhub install snyk-agent-scan` |
 | [Snyk Container Image Analyzer](../../skills/snyk-container-image-analyzer/) | Security Reviewed | 5.5k | 601.7k/wk | `clawhub install snyk-container-image-analyzer` |
 | [Snyk Container Vulnerability Agent](../../skills/snyk-container-vulnerability-agent/) | Security Reviewed | 5.5k | 601.7k/wk | `clawhub install snyk-container-vulnerability-agent` |
 | [Snyk Dependency Audit Skill](../../skills/snyk-dependency-audit-skill/) | Security Reviewed | 5.5k | 601.7k/wk | `clawhub install snyk-dependency-audit-skill` |
@@ -127,32 +127,20 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [OAuth2 Token Introspection Agent](../../skills/oauth2-token-introspection-agent/) | Listed | 676 | 1.2M/wk | `clawhub install oauth2-token-introspection-agent` |
 | [CSP Policy Analyzer](../../skills/csp-policy-analyzer/) | Security Reviewed | — | — | `clawhub install csp-policy-analyzer` |
 | [CycloneDX SBOM Generator](../../skills/cyclonedx-sbom-generator/) | Security Reviewed | — | — | `clawhub install cyclonedx-sbom-generator` |
-| [Dependabot Alert Export Normalizer](../../skills/dependabot-alert-export-normalizer/) | Listed | — | — | `clawhub install dependabot-alert-export-normalizer` |
-| [Dependency Audit](../../skills/dependency-audit/) | Listed | — | — | `clawhub install dependency-audit` |
-| [Dependency Vulnerability &#038; License Auditor](../../skills/dependency-vulnerability-license-auditor-2/) | Listed | — | — | `clawhub install dependency-vulnerability-license-auditor-2` |
-| [Falco Rule Exception Reviewer](../../skills/falco-rule-exception-reviewer/) | Listed | — | — | `clawhub install falco-rule-exception-reviewer` |
 | [GPG Encryption and Key Management Agent](../../skills/gpg-encryption-key-management-agent/) | Security Reviewed | — | — | `clawhub install gpg-encryption-key-management-agent` |
-| [Grype Vulnerability Scanner](../../skills/grype-vulnerability-scanner/) | Listed | — | — | `clawhub install grype-vulnerability-scanner` |
-| [Healthcheck Security Hardening](../../skills/healthcheck-security-hardening/) | Listed | — | — | `clawhub install healthcheck-security-hardening` |
 | [NPM Audit Deep Scanner](../../skills/npm-audit-deep-scanner/) | Security Reviewed | — | — | `clawhub install npm-audit-deep-scanner` |
 | [npm Dependency Audit Resolver](../../skills/npm-dependency-audit-resolver/) | Security Reviewed | — | — | `clawhub install npm-dependency-audit-resolver` |
 | [Nuclei Vulnerability Template Runner](../../skills/nuclei-vulnerability-template-runner/) | Security Reviewed | — | — | `clawhub install nuclei-vulnerability-template-runner` |
 | [OAuth2 Flow Debugger](../../skills/oauth2-flow-debugger/) | Security Reviewed | — | — | `clawhub install oauth2-flow-debugger` |
-| [OPA Bundle Signature Verifier with Cosign](../../skills/opa-bundle-signature-verifier-with-cosign/) | Listed | — | — | `clawhub install opa-bundle-signature-verifier-with-cosign` |
 | [OPA Rego Policy Bundle Tester](../../skills/opa-rego-policy-bundle-tester/) | Security Reviewed | — | — | `clawhub install opa-rego-policy-bundle-tester` |
 | [OpenClaw Security Suite (ClawSec)](../../skills/openclaw-security-suite-clawsec/) | Security Reviewed | — | — | `clawhub install openclaw-security-suite-clawsec` |
 | [SBOM Generator and CVE Matcher](../../skills/sbom-generator-cve-matcher/) | Security Reviewed | — | — | `clawhub install sbom-generator-cve-matcher` |
 | [SBOM Generator with CycloneDX](../../skills/sbom-generator-cyclonedx/) | Security Reviewed | — | — | `clawhub install sbom-generator-cyclonedx` |
-| [Secret Scanner](../../skills/secret-scanner/) | Listed | — | — | `clawhub install secret-scanner` |
-| [Secrets Scanner for Git Repositories](../../skills/secrets-scanner-git-repositories-2/) | Listed | — | — | `clawhub install secrets-scanner-git-repositories-2` |
 | [Sigstore Cosign Container Signature Checker](../../skills/sigstore-cosign-container-signature-checker/) | Security Reviewed | — | — | `clawhub install sigstore-cosign-container-signature-checker` |
 | [Sigstore Cosign Verifier](../../skills/sigstore-cosign-verifier-2/) | Security Reviewed | — | — | `clawhub install sigstore-cosign-verifier-2` |
 | [SSL Certificate Chain Validator](../../skills/ssl-certificate-chain-validator-2/) | Security Reviewed | — | — | `clawhub install ssl-certificate-chain-validator-2` |
-| [SSL Certificate Manager Skill](../../skills/ssl-certificate-manager-skill/) | Listed | — | — | `clawhub install ssl-certificate-manager-skill` |
 | [SSL/TLS Certificate Validator and Monitor](../../skills/ssl-tls-certificate-validator-monitor/) | Security Reviewed | — | — | `clawhub install ssl-tls-certificate-validator-monitor` |
-| [Syft SBOM Diff and License Gate](../../skills/syft-sbom-diff-and-license-gate/) | Listed | — | — | `clawhub install syft-sbom-diff-and-license-gate` |
 | [TLS Certificate Chain Validator](../../skills/tls-certificate-chain-validator/) | Security Reviewed | — | — | `clawhub install tls-certificate-chain-validator` |
-| [TruffleHog Secret Scanner](../../skills/trufflehog-secret-scanner/) | Listed | — | — | `clawhub install trufflehog-secret-scanner` |
 
 ---
 
@@ -175,10 +163,10 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 ## Related Categories
 
-- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (148 skills)
-- 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (126 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (120 skills)
-- 📚 [Library & API Reference](../library-api-reference/) (106 skills)
+- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (137 skills)
+- 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
+- 📚 [Library & API Reference](../library-api-reference/) (89 skills)
+- 📊 [Monitoring & Alerts](../monitoring-alerts/) (77 skills)
 
 ---
 

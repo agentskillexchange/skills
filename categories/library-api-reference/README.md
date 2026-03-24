@@ -1,6 +1,6 @@
 # 📚 Library & API Reference
 
-> **106 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference)
+> **89 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference)
 
 SDK documentation, API guides, framework reference material, and library usage patterns.
 
@@ -110,17 +110,8 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [OpenTelemetry Trace Context Propagator](../../skills/opentelemetry-trace-context-propagator/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install opentelemetry-trace-context-propagator` |
 | [REST API Changelog Tracker](../../skills/rest-api-changelog-tracker/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install rest-api-changelog-tracker` |
 | [Plaid Financial Data Aggregator &#038; Budget Classifier](../../skills/plaid-financial-data-aggregator/) | Listed | — | 21.4M/wk | `clawhub install plaid-financial-data-aggregator` |
-| [API Changelog Watcher](../../skills/api-changelog-watcher/) | Listed | — | — | `clawhub install api-changelog-watcher` |
-| [API Diff Tool](../../skills/api-diff-tool/) | Listed | — | — | `clawhub install api-diff-tool` |
-| [API Versioning Manager](../../skills/api-versioning-manager/) | Listed | — | — | `clawhub install api-versioning-manager` |
-| [AsyncAPI Event Catalog Merger](../../skills/asyncapi-event-catalog-merger-20260324/) | Listed | — | — | `clawhub install asyncapi-event-catalog-merger-20260324` |
-| [Auth Token Rotator](../../skills/auth-token-rotator/) | Listed | — | — | `clawhub install auth-token-rotator` |
-| [Confluence Knowledge Base Builder](../../skills/confluence-knowledge-base-builder/) | Listed | — | — | `clawhub install confluence-knowledge-base-builder` |
-| [Contract Testing Agent](../../skills/contract-testing-agent/) | Listed | — | — | `clawhub install contract-testing-agent` |
 | [Doxygen Cross-Reference Indexer](../../skills/doxygen-cross-reference-indexer/) | Security Reviewed | — | — | `clawhub install doxygen-cross-reference-indexer` |
-| [Endpoint Health Monitor](../../skills/endpoint-health-monitor/) | Listed | — | — | `clawhub install endpoint-health-monitor` |
 | [GitHub REST API Paginator Library](../../skills/github-rest-api-paginator-library/) | Security Reviewed | — | — | `clawhub install github-rest-api-paginator-library` |
-| [GraphQL Introspection Schema Change Reporter](../../skills/graphql-introspection-schema-change-reporter-20260324/) | Listed | — | — | `clawhub install graphql-introspection-schema-change-reporter-20260324` |
 | [JSDoc Type Definition Extractor](../../skills/jsdoc-type-definition-extractor/) | Security Reviewed | — | — | `clawhub install jsdoc-type-definition-extractor` |
 | [MDN Web API Reference Fetcher](../../skills/mdn-web-api-reference-fetcher/) | Security Reviewed | — | — | `clawhub install mdn-web-api-reference-fetcher` |
 | [MDN Web Docs Fetcher](../../skills/mdn-web-docs-fetcher/) | Security Reviewed | — | — | `clawhub install mdn-web-docs-fetcher` |
@@ -135,11 +126,8 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [NPM Package Vulnerability Scanner](../../skills/npm-package-vulnerability-scanner/) | Security Reviewed | — | — | `clawhub install npm-package-vulnerability-scanner` |
 | [npm Registry Analyzer](../../skills/npm-registry-analyzer/) | Security Reviewed | — | — | `clawhub install npm-registry-analyzer` |
 | [npm Registry Explorer](../../skills/npm-registry-explorer/) | Security Reviewed | — | — | `clawhub install npm-registry-explorer` |
-| [OpenAPI 3.1 SDK Stub Generator](../../skills/openapi-31-sdk-stub-generator-20260324/) | Listed | — | — | `clawhub install openapi-31-sdk-stub-generator-20260324` |
 | [OpenAPI SDK Generator Pipeline](../../skills/openapi-sdk-generator-pipeline/) | Verified Metadata | — | — | `clawhub install openapi-sdk-generator-pipeline` |
 | [OpenAPI Spec Validator &#038; Linter](../../skills/openapi-spec-validator-linter-2/) | Security Reviewed | — | — | `clawhub install openapi-spec-validator-linter-2` |
-| [OpenAPI to SDK Generator](../../skills/openapi-to-sdk-generator/) | Listed | — | — | `clawhub install openapi-to-sdk-generator` |
-| [Postman Collection to Insomnia Converter](../../skills/postman-collection-to-insomnia-converter-20260324/) | Listed | — | — | `clawhub install postman-collection-to-insomnia-converter-20260324` |
 | [PyPI Package Inspector](../../skills/pypi-package-inspector/) | Security Reviewed | — | — | `clawhub install pypi-package-inspector` |
 | [Python Dependency Graph Resolver](../../skills/python-dependency-graph-resolver/) | Security Reviewed | — | — | `clawhub install python-dependency-graph-resolver` |
 | [Python Docstring Extractor](../../skills/python-docstring-extractor/) | Security Reviewed | — | — | `clawhub install python-docstring-extractor` |
@@ -150,18 +138,13 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Python Package Docs Fetcher](../../skills/python-package-docs-fetcher/) | Security Reviewed | — | — | `clawhub install python-package-docs-fetcher` |
 | [Python PyPI Dependency Resolver](../../skills/python-pypi-dependency-resolver/) | Security Reviewed | — | — | `clawhub install python-pypi-dependency-resolver` |
 | [Python PyPI Package Reference Indexer](../../skills/python-pypi-package-reference-indexer/) | Security Reviewed | — | — | `clawhub install python-pypi-package-reference-indexer` |
-| [Python Type Stub Generator](../../skills/python-type-stub-generator-2/) | Listed | — | — | `clawhub install python-type-stub-generator-2` |
-| [Rate Limit Tracker](../../skills/rate-limit-tracker/) | Listed | — | — | `clawhub install rate-limit-tracker` |
 | [REST API Response Schema Validator](../../skills/rest-api-response-schema-validator/) | Security Reviewed | — | — | `clawhub install rest-api-response-schema-validator` |
-| [REST Mock Server](../../skills/rest-mock-server/) | Listed | — | — | `clawhub install rest-mock-server` |
 | [Rust Crate Analyzer](../../skills/rust-crate-analyzer/) | Security Reviewed | — | — | `clawhub install rust-crate-analyzer` |
 | [Rust Crate Docs Scanner](../../skills/rust-crate-docs-scanner/) | Security Reviewed | — | — | `clawhub install rust-crate-docs-scanner` |
 | [Rust Crate Documentation Extractor](../../skills/rust-crate-documentation-extractor/) | Security Reviewed | — | — | `clawhub install rust-crate-documentation-extractor` |
 | [Rust Crate Documentation Indexer](../../skills/rust-crate-documentation-indexer-2/) | Security Reviewed | — | — | `clawhub install rust-crate-documentation-indexer-2` |
 | [Rust Crates.io Explorer](../../skills/rust-crates-io-explorer/) | Security Reviewed | — | — | `clawhub install rust-crates-io-explorer` |
-| [SDK Version Checker](../../skills/sdk-version-checker/) | Listed | — | — | `clawhub install sdk-version-checker` |
 | [TypeDoc Symbol Resolver](../../skills/typedoc-symbol-resolver/) | Security Reviewed | — | — | `clawhub install typedoc-symbol-resolver` |
-| [Webhook Event Catalog](../../skills/webhook-event-catalog/) | Listed | — | — | `clawhub install webhook-event-catalog` |
 | [Zod Schema Generator](../../skills/zod-schema-generator/) | Security Reviewed | — | — | `clawhub install zod-schema-generator` |
 
 ---
@@ -185,10 +168,10 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 ## Related Categories
 
-- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (148 skills)
-- 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (126 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (120 skills)
-- 🔒 [Security & Verification](../security-verification/) (96 skills)
+- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (137 skills)
+- 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
+- 🔒 [Security & Verification](../security-verification/) (84 skills)
+- 📊 [Monitoring & Alerts](../monitoring-alerts/) (77 skills)
 
 ---
 

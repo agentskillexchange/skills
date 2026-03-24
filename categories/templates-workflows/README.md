@@ -1,6 +1,6 @@
 # 📄 Templates & Workflows
 
-> **83 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows)
+> **61 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows)
 
 Project scaffolding, boilerplate generators, workflow templates, and starter kits.
 
@@ -103,43 +103,21 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Netlify Site Manager](../../skills/netlify-site-manager/) | Listed | 1.8k | 383.7k/wk | `clawhub install netlify-site-manager` |
 | [Backstage Software Template Composer](../../skills/backstage-software-template-composer/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install backstage-software-template-composer` |
 | [Argo Workflows DAG Optimizer](../../skills/argo-workflows-dag-optimizer/) | Security Reviewed | — | — | `clawhub install argo-workflows-dag-optimizer` |
-| [Asana MCP Server](../../skills/asana-mcp-server/) | Listed | — | — | `clawhub install asana-mcp-server` |
-| [Azure Bicep Generator](../../skills/azure-bicep-generator/) | Listed | — | — | `clawhub install azure-bicep-generator` |
-| [Backstage Entity Catalog Populator](../../skills/backstage-entity-catalog-populator/) | Listed | — | — | `clawhub install backstage-entity-catalog-populator` |
-| [Backstage Software Template YAML Scaffolder](../../skills/backstage-software-template-yaml-scaffolder/) | Listed | — | — | `clawhub install backstage-software-template-yaml-scaffolder` |
-| [ClickUp MCP Server](../../skills/clickup-mcp-server/) | Listed | — | — | `clawhub install clickup-mcp-server` |
-| [Codecov Diff Analyzer](../../skills/codecov-diff-analyzer-2/) | Listed | — | — | `clawhub install codecov-diff-analyzer-2` |
 | [Cookiecutter Project Bootstrapper](../../skills/cookiecutter-project-bootstrapper/) | Security Reviewed | — | — | `clawhub install cookiecutter-project-bootstrapper` |
 | [Cookiecutter Project Scaffold](../../skills/cookiecutter-project-scaffold/) | Security Reviewed | — | — | `clawhub install cookiecutter-project-scaffold` |
 | [Cookiecutter Project Scaffolder](../../skills/cookiecutter-project-scaffolder-3/) | Security Reviewed | — | — | `clawhub install cookiecutter-project-scaffolder-3` |
 | [Cookiecutter Project Template Engine](../../skills/cookiecutter-project-template-engine/) | Security Reviewed | — | — | `clawhub install cookiecutter-project-template-engine` |
 | [Cookiecutter Template Generator](../../skills/cookiecutter-template-generator/) | Security Reviewed | — | — | `clawhub install cookiecutter-template-generator` |
-| [GCP Deployment Manager](../../skills/gcp-deployment-manager/) | Listed | — | — | `clawhub install gcp-deployment-manager` |
-| [GitHub Actions Reusable Workflow Library](../../skills/github-actions-reusable-workflow-library/) | Listed | — | — | `clawhub install github-actions-reusable-workflow-library` |
 | [GitHub Actions Workflow Composer](../../skills/github-actions-workflow-composer-2/) | Security Reviewed | — | — | `clawhub install github-actions-workflow-composer-2` |
-| [Helm Chart Value Override Template Generator](../../skills/helm-chart-value-override-template-generator/) | Listed | — | — | `clawhub install helm-chart-value-override-template-generator` |
-| [Incident Response Runbook](../../skills/incident-response-runbook/) | Listed | — | — | `clawhub install incident-response-runbook` |
-| [Intercom MCP Server](../../skills/intercom-mcp-server/) | Listed | — | — | `clawhub install intercom-mcp-server` |
 | [Jinja2 Template Engine](../../skills/jinja2-template-engine-agent/) | Security Reviewed | — | — | `clawhub install jinja2-template-engine-agent` |
 | [Makedown Task Runner](../../skills/makedown-task-runner/) | Security Reviewed | — | — | `clawhub install makedown-task-runner` |
-| [Makefile Task Orchestration Builder](../../skills/makefile-task-orchestration-builder/) | Listed | — | — | `clawhub install makefile-task-orchestration-builder` |
-| [Monday.com MCP Server](../../skills/monday-com-mcp-server/) | Listed | — | — | `clawhub install monday-com-mcp-server` |
 | [Mustache Template Renderer](../../skills/mustache-template-renderer-agent/) | Security Reviewed | — | — | `clawhub install mustache-template-renderer-agent` |
-| [n8n MCP](../../skills/n8n-mcp/) | Listed | — | — | `clawhub install n8n-mcp` |
 | [Nx Monorepo Workflow Orchestrator](../../skills/nx-monorepo-workflow-orchestrator/) | Security Reviewed | — | — | `clawhub install nx-monorepo-workflow-orchestrator` |
 | [Nx Workspace Generator](../../skills/nx-workspace-generator/) | Security Reviewed | — | — | `clawhub install nx-workspace-generator` |
-| [Nx Workspace Generator Plugin](../../skills/nx-workspace-generator-plugin-builder/) | Listed | — | — | `clawhub install nx-workspace-generator-plugin-builder` |
-| [Plop.js Micro-Generator](../../skills/plopjs-micro-generator-2/) | Listed | — | — | `clawhub install plopjs-micro-generator-2` |
-| [Postmortem Template Generator](../../skills/postmortem-template-generator/) | Listed | — | — | `clawhub install postmortem-template-generator` |
-| [Prefect Workflow Agent](../../skills/prefect-workflow-agent/) | Listed | — | — | `clawhub install prefect-workflow-agent` |
-| [Pulumi Component Resource Scaffolder](../../skills/pulumi-component-resource-scaffolder/) | Listed | — | — | `clawhub install pulumi-component-resource-scaffolder` |
-| [Release Notes Generator](../../skills/release-notes-generator/) | Listed | — | — | `clawhub install release-notes-generator` |
 | [Self-Improvement / Learnings Capture](../../skills/self-improvement-learnings-capture/) | Security Reviewed | — | — | `clawhub install self-improvement-learnings-capture` |
-| [Terraform Module Documentation Generator with tf-docs](../../skills/terraform-module-documentation-generator-tfdocs/) | Listed | — | — | `clawhub install terraform-module-documentation-generator-tfdocs` |
 | [Yeoman Generator Builder](../../skills/yeoman-generator-builder/) | Security Reviewed | — | — | `clawhub install yeoman-generator-builder` |
 | [Yeoman Scaffold Runner](../../skills/yeoman-scaffold-runner/) | Security Reviewed | — | — | `clawhub install yeoman-scaffold-runner` |
 | [Yeoman Workflow Orchestrator](../../skills/yeoman-workflow-orchestrator/) | Security Reviewed | — | — | `clawhub install yeoman-workflow-orchestrator` |
-| [Zendesk MCP Server](../../skills/zendesk-mcp-server/) | Listed | — | — | `clawhub install zendesk-mcp-server` |
 
 ---
 
@@ -162,10 +140,10 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 ## Related Categories
 
-- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (148 skills)
-- 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (126 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (120 skills)
-- 📚 [Library & API Reference](../library-api-reference/) (106 skills)
+- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (137 skills)
+- 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
+- 📚 [Library & API Reference](../library-api-reference/) (89 skills)
+- 🔒 [Security & Verification](../security-verification/) (84 skills)
 
 ---
 

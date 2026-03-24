@@ -1,6 +1,6 @@
 # 🎨 Image & Creative Automation
 
-> **53 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation)
+> **52 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation)
 
 Image generation, asset processing, design automation, and creative tooling.
 
@@ -99,7 +99,6 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Lottie Animation Optimizer](../../skills/lottie-animation-optimizer/) | Security Reviewed | — | — | `clawhub install lottie-animation-optimizer` |
 | [Midjourney Prompt Engineering Suite](../../skills/midjourney-prompt-engineering-suite/) | Security Reviewed | — | — | `clawhub install midjourney-prompt-engineering-suite` |
 | [Midjourney Prompt Optimizer](../../skills/midjourney-prompt-optimizer-skill/) | Listed | — | — | `clawhub install midjourney-prompt-optimizer-skill` |
-| [Nano Banana Pro Image Editing](../../skills/nano-banana-pro-image-editing/) | Listed | — | — | `clawhub install nano-banana-pro-image-editing` |
 | [OpenEXR HDR Compositing Pipeline](../../skills/openexr-hdr-compositing-pipeline/) | Security Reviewed | — | — | `clawhub install openexr-hdr-compositing-pipeline` |
 | [Photoshop Batch Action Automator](../../skills/photoshop-batch-action-automator/) | Security Reviewed | — | — | `clawhub install photoshop-batch-action-automator` |
 | [Stable Diffusion ComfyUI Workflow Runner](../../skills/stable-diffusion-comfyui-workflow-runner-2/) | Security Reviewed | — | — | `clawhub install stable-diffusion-comfyui-workflow-runner-2` |
@@ -132,10 +131,10 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 ## Related Categories
 
-- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (148 skills)
-- 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (126 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (120 skills)
-- 📚 [Library & API Reference](../library-api-reference/) (106 skills)
+- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (137 skills)
+- 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
+- 📚 [Library & API Reference](../library-api-reference/) (89 skills)
+- 🔒 [Security & Verification](../security-verification/) (84 skills)
 
 ---
 

@@ -1,6 +1,6 @@
 # ✍️ Content Writing & SEO
 
-> **41 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO)
+> **37 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO)
 
 Blog posts, SEO optimization, content strategy, and writing assistance.
 
@@ -81,9 +81,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [Content Readability Optimizer](../../skills/content-readability-optimizer/) | Security Reviewed | — | — | `clawhub install content-readability-optimizer` |
 | [Google Search Console Insights Agent](../../skills/gsc-insights-agent/) | Security Reviewed | — | — | `clawhub install gsc-insights-agent` |
 | [Google Search Console Performance Analyzer](../../skills/gsc-performance-analyzer-skill/) | Security Reviewed | — | — | `clawhub install gsc-performance-analyzer-skill` |
-| [Grammarly Business Tone Consistency Auditor](../../skills/grammarly-tone-auditor/) | Listed | — | — | `clawhub install grammarly-tone-auditor` |
 | [Hemingway Readability Analyzer API](../../skills/hemingway-readability-analyzer-api/) | Security Reviewed | — | — | `clawhub install hemingway-readability-analyzer-api` |
-| [Humanizer Writing Editor](../../skills/humanizer-writing-editor/) | Listed | — | — | `clawhub install humanizer-writing-editor` |
 | [Internal Link Optimizer](../../skills/internal-link-optimizer-seo/) | Security Reviewed | — | — | `clawhub install internal-link-optimizer-seo` |
 | [Markdown-to-AMP Article Converter](../../skills/markdown-to-amp-article-converter/) | Security Reviewed | — | — | `clawhub install markdown-to-amp-article-converter` |
 | [Schema Markup Generator for SEO](../../skills/schema-markup-generator-seo/) | Security Reviewed | — | — | `clawhub install schema-markup-generator-seo` |
@@ -92,9 +90,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [SEMrush Content Optimizer Agent](../../skills/semrush-content-optimizer-agent/) | Security Reviewed | — | — | `clawhub install semrush-content-optimizer-agent` |
 | [SEMrush Keyword Research Agent](../../skills/semrush-keyword-research-agent-api-v3/) | Security Reviewed | — | — | `clawhub install semrush-keyword-research-agent-api-v3` |
 | [SEO Content Cluster Generator](../../skills/seo-content-cluster-generator/) | Security Reviewed | — | — | `clawhub install seo-content-cluster-generator` |
-| [SEO Content Writer](../../skills/seo-content-writer/) | Listed | — | — | `clawhub install seo-content-writer` |
 | [SEO Keyword Research Automator](../../skills/seo-keyword-research-automator/) | Security Reviewed | — | — | `clawhub install seo-keyword-research-automator` |
-| [Substack Formatter](../../skills/substack-formatter/) | Listed | — | — | `clawhub install substack-formatter` |
 | [Surfer SEO Content Optimizer Integration](../../skills/surfer-seo-content-optimizer-integration/) | Security Reviewed | — | — | `clawhub install surfer-seo-content-optimizer-integration` |
 | [Surfer SEO SERP Analyzer](../../skills/surfer-seo-serp-analyzer/) | Security Reviewed | — | — | `clawhub install surfer-seo-serp-analyzer` |
 | [Technical SEO Audit Crawler](../../skills/technical-seo-audit-crawler/) | Security Reviewed | — | — | `clawhub install technical-seo-audit-crawler` |
@@ -120,10 +116,10 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 ## Related Categories
 
-- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (148 skills)
-- 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (126 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (120 skills)
-- 📚 [Library & API Reference](../library-api-reference/) (106 skills)
+- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (137 skills)
+- 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
+- 📚 [Library & API Reference](../library-api-reference/) (89 skills)
+- 🔒 [Security & Verification](../security-verification/) (84 skills)
 
 ---
 

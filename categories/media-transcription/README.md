@@ -1,6 +1,6 @@
 # 🎙️ Media & Transcription
 
-> **42 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription)
+> **40 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription)
 
 Audio/video processing, speech-to-text, media conversion, and transcription.
 
@@ -96,8 +96,6 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [ElevenLabs Voice Cloning Agent](../../skills/elevenlabs-voice-cloning-agent/) | Security Reviewed | — | — | `clawhub install elevenlabs-voice-cloning-agent` |
 | [GStreamer Pipeline Graph Optimizer](../../skills/gstreamer-pipeline-graph-optimizer/) | Security Reviewed | — | — | `clawhub install gstreamer-pipeline-graph-optimizer` |
 | [Podcast RSS Feed Builder](../../skills/podcast-rss-feed-builder/) | Security Reviewed | — | — | `clawhub install podcast-rss-feed-builder` |
-| [SoX Audio Processing Toolkit](../../skills/sox-audio-processing-toolkit/) | Listed | — | — | `clawhub install sox-audio-processing-toolkit` |
-| [Summarize](../../skills/summarize/) | Listed | — | — | `clawhub install summarize` |
 | [YouTube Chapter Generator from Transcripts](../../skills/youtube-chapter-generator-transcripts/) | Security Reviewed | — | — | `clawhub install youtube-chapter-generator-transcripts` |
 
 ---
@@ -121,10 +119,10 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 ## Related Categories
 
-- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (148 skills)
-- 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (126 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (120 skills)
-- 📚 [Library & API Reference](../library-api-reference/) (106 skills)
+- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (137 skills)
+- 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
+- 📚 [Library & API Reference](../library-api-reference/) (89 skills)
+- 🔒 [Security & Verification](../security-verification/) (84 skills)
 
 ---
 

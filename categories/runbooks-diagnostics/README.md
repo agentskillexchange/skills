@@ -1,6 +1,6 @@
 # 📋 Runbooks & Diagnostics
 
-> **126 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics)
+> **113 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics)
 
 Incident response, troubleshooting guides, system diagnostics, and operational runbooks.
 
@@ -166,20 +166,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [PostgreSQL Slow Query Analyzer](../../skills/postgresql-slow-query-analyzer/) | Listed | — | 21.4M/wk | `clawhub install postgresql-slow-query-analyzer` |
 | [PostgreSQL Slow Query Runbook](../../skills/postgresql-slow-query-runbook-agent/) | Security Reviewed | — | 21.4M/wk | `clawhub install postgresql-slow-query-runbook-agent` |
 | [PostgreSQL Vacuum Deadlock Runbook](../../skills/postgresql-vacuum-deadlock-runbook/) | Security Reviewed | — | 21.4M/wk | `clawhub install postgresql-vacuum-deadlock-runbook` |
-| [API Latency Spike Runbook](../../skills/api-latency-spike-runbook/) | Listed | — | — | `clawhub install api-latency-spike-runbook` |
-| [Cache Miss Storm Runbook](../../skills/cache-miss-storm-runbook/) | Listed | — | — | `clawhub install cache-miss-storm-runbook` |
-| [DB Connection Runbook](../../skills/db-connection-runbook/) | Listed | — | — | `clawhub install db-connection-runbook` |
-| [Deployment Rollback Runbook](../../skills/deployment-rollback-runbook-2/) | Listed | — | — | `clawhub install deployment-rollback-runbook-2` |
-| [Disk Space Alert Runbook](../../skills/disk-space-alert-runbook/) | Listed | — | — | `clawhub install disk-space-alert-runbook` |
-| [DNS Failure Runbook](../../skills/dns-failure-runbook/) | Listed | — | — | `clawhub install dns-failure-runbook` |
-| [High CPU Alert Runbook](../../skills/high-cpu-alert-runbook/) | Listed | — | — | `clawhub install high-cpu-alert-runbook` |
-| [Incident Escalation Runbook](../../skills/incident-escalation-runbook/) | Listed | — | — | `clawhub install incident-escalation-runbook` |
 | [Incident Response Playbook Runner](../../skills/incident-response-playbook-runner/) | Security Reviewed | — | — | `clawhub install incident-response-playbook-runner` |
-| [Load Balancer Health Runbook](../../skills/load-balancer-health-runbook/) | Listed | — | — | `clawhub install load-balancer-health-runbook` |
-| [Memory Leak Debugger Runbook](../../skills/memory-leak-debugger-runbook/) | Listed | — | — | `clawhub install memory-leak-debugger-runbook` |
-| [MLflow to W&#038;B Migration Assistant](../../skills/mlflow-to-wandb-migration/) | Listed | — | — | `clawhub install mlflow-to-wandb-migration` |
-| [On-Call Handoff Runbook](../../skills/on-call-handoff-runbook/) | Listed | — | — | `clawhub install on-call-handoff-runbook` |
-| [SSL Certificate Expiry Runbook](../../skills/ssl-certificate-expiry-runbook/) | Listed | — | — | `clawhub install ssl-certificate-expiry-runbook` |
 | [Systemd Service Debugger](../../skills/systemd-service-debugger/) | Security Reviewed | — | — | `clawhub install systemd-service-debugger` |
 | [Systemd Service Diagnostics](../../skills/systemd-service-diagnostics/) | Security Reviewed | — | — | `clawhub install systemd-service-diagnostics` |
 | [Systemd Service Recovery Playbook](../../skills/systemd-service-recovery-playbook-2/) | Security Reviewed | — | — | `clawhub install systemd-service-recovery-playbook-2` |
@@ -205,10 +192,10 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 ## Related Categories
 
-- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (148 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (120 skills)
-- 📚 [Library & API Reference](../library-api-reference/) (106 skills)
-- 🔒 [Security & Verification](../security-verification/) (96 skills)
+- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (137 skills)
+- 📚 [Library & API Reference](../library-api-reference/) (89 skills)
+- 🔒 [Security & Verification](../security-verification/) (84 skills)
+- 📊 [Monitoring & Alerts](../monitoring-alerts/) (77 skills)
 
 ---
 

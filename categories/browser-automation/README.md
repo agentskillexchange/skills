@@ -1,6 +1,6 @@
 # 🌐 Browser Automation
 
-> **47 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation)
+> **45 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation)
 
 Web scraping, UI testing, headless browser control, and browser-based automation.
 
@@ -102,8 +102,6 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Selenium Grid Session Router](../../skills/selenium-grid-session-router/) | Security Reviewed | 34.2k | 2M/wk | `clawhub install selenium-grid-session-router` |
 | [Selenium Grid Test Orchestrator](../../skills/selenium-grid-test-orchestrator-2/) | Security Reviewed | 34.2k | 2M/wk | `clawhub install selenium-grid-test-orchestrator-2` |
 | [CDP Network Interception Logger](../../skills/cdp-network-interception-logger/) | Verified Metadata | 787 | 6M/wk | `clawhub install cdp-network-interception-logger` |
-| [Browser MCP](../../skills/browser-mcp/) | Listed | — | — | `clawhub install browser-mcp` |
-| [Browserbase MCP for Cloud Browser Control](../../skills/browserbase-mcp-cloud-browser-control/) | Listed | — | — | `clawhub install browserbase-mcp-cloud-browser-control` |
 
 ---
 
@@ -126,10 +124,10 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 ## Related Categories
 
-- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (148 skills)
-- 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (126 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (120 skills)
-- 📚 [Library & API Reference](../library-api-reference/) (106 skills)
+- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (137 skills)
+- 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
+- 📚 [Library & API Reference](../library-api-reference/) (89 skills)
+- 🔒 [Security & Verification](../security-verification/) (84 skills)
 
 ---
 

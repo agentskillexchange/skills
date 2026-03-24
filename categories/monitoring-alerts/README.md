@@ -1,6 +1,6 @@
 # 📊 Monitoring & Alerts
 
-> **91 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts)
+> **77 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts)
 
 Metrics collection, alerting rules, observability setup, and system monitoring.
 
@@ -134,20 +134,6 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [PagerDuty MCP Server](../../skills/pagerduty-mcp-server/) | Listed | 69 | 210.8k/wk | `clawhub install pagerduty-mcp-server` |
 | [Uptime Robot Multi-Check Coordinator](../../skills/uptime-robot-multi-check-coordinator/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install uptime-robot-multi-check-coordinator` |
 | [OpsGenie MCP Server](../../skills/opsgenie-mcp-server/) | Listed | 24 | 9.1k/wk | `clawhub install opsgenie-mcp-server` |
-| [API Rate Limit Monitor](../../skills/api-rate-limit-monitor/) | Listed | — | — | `clawhub install api-rate-limit-monitor` |
-| [Database Slow Query Runbook](../../skills/database-slow-query-runbook/) | Listed | — | — | `clawhub install database-slow-query-runbook` |
-| [Disk Space Emergency Runbook](../../skills/disk-space-emergency-runbook/) | Listed | — | — | `clawhub install disk-space-emergency-runbook` |
-| [DNS Troubleshooting Runbook](../../skills/dns-troubleshooting-runbook/) | Listed | — | — | `clawhub install dns-troubleshooting-runbook` |
-| [Honeycomb Query Builder](../../skills/honeycomb-query-builder/) | Listed | — | — | `clawhub install honeycomb-query-builder` |
-| [Incident Postmortem Automation Skill](../../skills/incident-postmortem-automation-skill/) | Listed | — | — | `clawhub install incident-postmortem-automation-skill` |
-| [Last30Days Research Briefing](../../skills/last30days-research-briefing/) | Listed | — | — | `clawhub install last30days-research-briefing` |
-| [Log Analysis](../../skills/log-analysis/) | Listed | — | — | `clawhub install log-analysis` |
-| [Memory Leak Diagnosis Skill](../../skills/memory-leak-diagnosis-skill/) | Listed | — | — | `clawhub install memory-leak-diagnosis-skill` |
-| [Network Latency Diagnosis Skill](../../skills/network-latency-diagnosis-skill/) | Listed | — | — | `clawhub install network-latency-diagnosis-skill` |
-| [On-Call Alert Triage](../../skills/on-call-alert-triage/) | Listed | — | — | `clawhub install on-call-alert-triage` |
-| [OpenTelemetry Instrumentation](../../skills/opentelemetry-instrumentation/) | Listed | — | — | `clawhub install opentelemetry-instrumentation` |
-| [Service Degradation Runbook](../../skills/service-degradation-runbook/) | Listed | — | — | `clawhub install service-degradation-runbook` |
-| [Task Queue Monitor](../../skills/task-queue-monitor/) | Listed | — | — | `clawhub install task-queue-monitor` |
 
 ---
 
@@ -170,10 +156,10 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 ## Related Categories
 
-- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (148 skills)
-- 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (126 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (120 skills)
-- 📚 [Library & API Reference](../library-api-reference/) (106 skills)
+- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (137 skills)
+- 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
+- 📚 [Library & API Reference](../library-api-reference/) (89 skills)
+- 🔒 [Security & Verification](../security-verification/) (84 skills)
 
 ---
 

@@ -1,6 +1,6 @@
 # 🔧 CI/CD Integrations
 
-> **148 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations)
+> **137 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations)
 
 Pipeline configs, deployment automation, build tooling, and continuous integration/delivery skills.
 
@@ -10,7 +10,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 
 - **Top Starred:** 6 visible with GitHub signal data
 - **Top Downloaded:** 6 visible with npm signal data
-- **Security Reviewed:** 130 skills
+- **Security Reviewed:** 131 skills
 
 ---
 
@@ -88,7 +88,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Jenkins Pipeline Generator](../../skills/jenkins-pipeline-generator/) | Security Reviewed | 25.1k | — | `clawhub install jenkins-pipeline-generator` |
 | [Jenkins Pipeline Health Monitor](../../skills/jenkins-pipeline-health-monitor/) | Security Reviewed | 25.1k | — | `clawhub install jenkins-pipeline-health-monitor` |
 | [Jenkins Pipeline Lint Agent](../../skills/jenkins-pipeline-lint-agent/) | Security Reviewed | 25.1k | — | `clawhub install jenkins-pipeline-lint-agent` |
-| [Jenkins Pipeline Linter](../../skills/jenkins-pipeline-linter-6/) | Listed | 25.1k | — | `clawhub install jenkins-pipeline-linter-6` |
+| [Jenkins Pipeline Linter](../../skills/jenkins-pipeline-linter-6/) | Security Reviewed | 25.1k | — | `clawhub install jenkins-pipeline-linter-6` |
 | [Jenkins Pipeline Linter &#038; Fixer](../../skills/jenkins-pipeline-linter-fixer/) | Security Reviewed | 25.1k | — | `clawhub install jenkins-pipeline-linter-fixer` |
 | [Jenkins Pipeline Linter Agent](../../skills/jenkins-pipeline-linter-agent-2/) | Security Reviewed | 25.1k | — | `clawhub install jenkins-pipeline-linter-agent-2` |
 | [Jenkins Pipeline Linter Pro](../../skills/jenkins-pipeline-linter-pro/) | Security Reviewed | 25.1k | — | `clawhub install jenkins-pipeline-linter-pro` |
@@ -182,29 +182,18 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [CircleCI Workflow Analyzer](../../skills/circleci-workflow-analyzer/) | Security Reviewed | 842 | — | `clawhub install circleci-workflow-analyzer` |
 | [CircleCI Workflow Builder](../../skills/circleci-workflow-builder/) | Security Reviewed | 842 | — | `clawhub install circleci-workflow-builder` |
 | [CircleCI Workflow Cost Auditor](../../skills/circleci-workflow-cost-auditor/) | Security Reviewed | 842 | — | `clawhub install circleci-workflow-cost-auditor` |
-| [Argo CD ApplicationSet Promotion Gatekeeper](../../skills/argo-cd-applicationset-promotion-gatekeeper/) | Listed | — | — | `clawhub install argo-cd-applicationset-promotion-gatekeeper` |
-| [Bitbucket Pipelines Integration](../../skills/bitbucket-pipelines-integration-2/) | Listed | — | — | `clawhub install bitbucket-pipelines-integration-2` |
-| [Buildkite Pipeline Agent](../../skills/buildkite-pipeline-agent/) | Listed | — | — | `clawhub install buildkite-pipeline-agent` |
-| [Buildkite Test Analytics Flake Triage](../../skills/buildkite-test-analytics-flake-triage/) | Listed | — | — | `clawhub install buildkite-test-analytics-flake-triage` |
-| [Drone CI Integration](../../skills/drone-ci-integration/) | Listed | — | — | `clawhub install drone-ci-integration` |
 | [GitHub Actions CI Builder](../../skills/github-actions-ci-builder/) | Security Reviewed | — | — | `clawhub install github-actions-ci-builder` |
 | [GitHub Actions CI Pipeline Builder](../../skills/github-actions-ci-pipeline-builder/) | Security Reviewed | — | — | `clawhub install github-actions-ci-pipeline-builder` |
 | [GitHub Actions Matrix Build Optimizer](../../skills/github-actions-matrix-build-optimizer/) | Security Reviewed | — | — | `clawhub install github-actions-matrix-build-optimizer` |
 | [GitHub Actions Matrix Builder](../../skills/github-actions-matrix-builder-13/) | Security Reviewed | — | — | `clawhub install github-actions-matrix-builder-13` |
 | [GitHub Actions Matrix Optimizer](../../skills/github-actions-matrix-optimizer-2/) | Security Reviewed | — | — | `clawhub install github-actions-matrix-optimizer-2` |
 | [GitHub Actions Matrix Strategy Builder](../../skills/github-actions-matrix-strategy-builder/) | Security Reviewed | — | — | `clawhub install github-actions-matrix-strategy-builder` |
-| [GitHub Actions Pipeline Debugger](../../skills/github-actions-pipeline-debugger-2/) | Listed | — | — | `clawhub install github-actions-pipeline-debugger-2` |
 | [GitHub Actions Pipeline Validator](../../skills/github-actions-pipeline-validator/) | Security Reviewed | — | — | `clawhub install github-actions-pipeline-validator` |
-| [GitHub Actions Required Check Policy Evaluator](../../skills/github-actions-required-check-policy-evaluator/) | Listed | — | — | `clawhub install github-actions-required-check-policy-evaluator` |
 | [GitHub Actions Workflow Builder](../../skills/github-actions-workflow-builder-skill/) | Security Reviewed | — | — | `clawhub install github-actions-workflow-builder-skill` |
 | [GitHub Actions Workflow Generator](../../skills/github-actions-workflow-generator-3/) | Security Reviewed | — | — | `clawhub install github-actions-workflow-generator-3` |
 | [GitHub Actions Workflow Linter](../../skills/github-actions-workflow-linter-2/) | Security Reviewed | — | — | `clawhub install github-actions-workflow-linter-2` |
 | [GitHub Actions Workflow Optimizer](../../skills/github-actions-workflow-optimizer/) | Security Reviewed | — | — | `clawhub install github-actions-workflow-optimizer` |
-| [GitLab CI Artifact Retention Auditor](../../skills/gitlab-ci-artifact-retention-auditor/) | Listed | — | — | `clawhub install gitlab-ci-artifact-retention-auditor` |
-| [Harness CI/CD Platform](../../skills/harness-ci-cd-platform/) | Listed | — | — | `clawhub install harness-ci-cd-platform` |
-| [Heroku Release Rollback Assistant](../../skills/heroku-release-rollback-assistant-2/) | Listed | — | — | `clawhub install heroku-release-rollback-assistant-2` |
 | [npm Audit Dependency Report Generator](../../skills/npm-audit-dependency-report-generator/) | Security Reviewed | — | — | `clawhub install npm-audit-dependency-report-generator` |
-| [Spinnaker Delivery Platform](../../skills/spinnaker-delivery-platform/) | Listed | — | — | `clawhub install spinnaker-delivery-platform` |
 
 ---
 
@@ -227,10 +216,10 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 ## Related Categories
 
-- 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (126 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (120 skills)
-- 📚 [Library & API Reference](../library-api-reference/) (106 skills)
-- 🔒 [Security & Verification](../security-verification/) (96 skills)
+- 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
+- 📚 [Library & API Reference](../library-api-reference/) (89 skills)
+- 🔒 [Security & Verification](../security-verification/) (84 skills)
+- 📊 [Monitoring & Alerts](../monitoring-alerts/) (77 skills)
 
 ---
 

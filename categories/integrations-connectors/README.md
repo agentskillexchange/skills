@@ -1,6 +1,6 @@
 # 🔗 Integrations & Connectors
 
-> **44 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors)
+> **37 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors)
 
 Third-party API bridges, webhook handlers, service connectors, and platform integrations.
 
@@ -91,15 +91,8 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [HubSpot MCP Server](../../skills/hubspot-mcp-server/) | Listed | 391 | 905.6k/wk | `clawhub install hubspot-mcp-server` |
 | [Zapier Multi-Step Lead Enrichment Workflow](../../skills/zapier-lead-enrichment-workflow/) | Listed | 391 | 905.6k/wk | `clawhub install zapier-lead-enrichment-workflow` |
 | [Neon Serverless Postgres MCP](../../skills/neon-serverless-postgres-mcp/) | Security Reviewed | — | 21.4M/wk | `clawhub install neon-serverless-postgres-mcp` |
-| [ClawHub Skill Discovery &#038; Publishing](../../skills/clawhub-skill-discovery-publishing/) | Listed | — | — | `clawhub install clawhub-skill-discovery-publishing` |
-| [Google Drive MCP Server](../../skills/google-drive-mcp-server/) | Listed | — | — | `clawhub install google-drive-mcp-server` |
-| [Make.com Airtable-to-Shopify Inventory Sync](../../skills/make-airtable-shopify-inventory-sync/) | Listed | — | — | `clawhub install make-airtable-shopify-inventory-sync` |
 | [n8n Workflow Webhook Bridge](../../skills/n8n-workflow-webhook-bridge/) | Security Reviewed | — | — | `clawhub install n8n-workflow-webhook-bridge` |
-| [Plaid Financial Data](../../skills/plaid-financial-data/) | Listed | — | — | `clawhub install plaid-financial-data` |
 | [Plaid Financial Data Connector](../../skills/plaid-financial-data-connector/) | Security Reviewed | — | — | `clawhub install plaid-financial-data-connector` |
-| [QuickBooks Data Extractor](../../skills/quickbooks-data-extractor/) | Listed | — | — | `clawhub install quickbooks-data-extractor` |
-| [SageMaker Pipeline Orchestrator](../../skills/sagemaker-pipeline-orchestrator/) | Listed | — | — | `clawhub install sagemaker-pipeline-orchestrator` |
-| [Xero Accounting Agent](../../skills/xero-accounting-agent/) | Listed | — | — | `clawhub install xero-accounting-agent` |
 | [Zapier Webhook Integration Builder](../../skills/zapier-webhook-integration-builder/) | Security Reviewed | — | — | `clawhub install zapier-webhook-integration-builder` |
 
 ---
@@ -123,10 +116,10 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 ## Related Categories
 
-- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (148 skills)
-- 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (126 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (120 skills)
-- 📚 [Library & API Reference](../library-api-reference/) (106 skills)
+- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (137 skills)
+- 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
+- 📚 [Library & API Reference](../library-api-reference/) (89 skills)
+- 🔒 [Security & Verification](../security-verification/) (84 skills)
 
 ---
 

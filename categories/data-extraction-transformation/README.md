@@ -1,6 +1,6 @@
 # 🔄 Data Extraction & Transformation
 
-> **88 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation)
+> **71 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation)
 
 Parsing, ETL pipelines, format conversion, data wrangling, and transformation utilities.
 
@@ -115,35 +115,18 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Parquet to PostgreSQL Loader](../../skills/parquet-to-postgresql-loader/) | Security Reviewed | 387 | 146.9k/wk | `clawhub install parquet-to-postgresql-loader` |
 | [Metabase Dashboard Snapshot &#038; Alerting](../../skills/metabase-dashboard-snapshot-alerting-2/) | Listed | 69 | 210.8k/wk | `clawhub install metabase-dashboard-snapshot-alerting-2` |
 | [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | Listed | — | 21.4M/wk | `clawhub install postgresql-mcp-server` |
-| [A/B Test Analyzer](../../skills/a-b-test-analyzer/) | Listed | — | — | `clawhub install a-b-test-analyzer` |
-| [Amplitude MCP Server](../../skills/amplitude-mcp-server/) | Listed | — | — | `clawhub install amplitude-mcp-server` |
 | [Apache Tika Content Extraction Hub](../../skills/apache-tika-content-extraction-hub/) | Security Reviewed | — | — | `clawhub install apache-tika-content-extraction-hub` |
 | [Apache Tika Document Extractor](../../skills/apache-tika-document-extractor/) | Security Reviewed | — | — | `clawhub install apache-tika-document-extractor` |
 | [Apache Tika Document Parser](../../skills/apache-tika-document-parser/) | Security Reviewed | — | — | `clawhub install apache-tika-document-parser` |
 | [Apache Tika Document Parser Agent](../../skills/apache-tika-document-parser-agent/) | Security Reviewed | — | — | `clawhub install apache-tika-document-parser-agent` |
-| [BigQuery Cost &#038; Query Performance Auditor](../../skills/bigquery-cost-query-performance-auditor-2/) | Listed | — | — | `clawhub install bigquery-cost-query-performance-auditor-2` |
 | [Camelot PDF Stream Parser](../../skills/camelot-pdf-stream-parser/) | Security Reviewed | — | — | `clawhub install camelot-pdf-stream-parser` |
-| [Cohere MCP Server](../../skills/cohere-mcp-server/) | Listed | — | — | `clawhub install cohere-mcp-server` |
 | [CSV Schema Validator &#038; Auto-Fixer](../../skills/csv-schema-validator-auto-fixer/) | Security Reviewed | — | — | `clawhub install csv-schema-validator-auto-fixer` |
-| [Databricks MCP](../../skills/databricks-mcp/) | Listed | — | — | `clawhub install databricks-mcp` |
-| [GCP BigQuery MCP Server](../../skills/gcp-bigquery-mcp-server/) | Listed | — | — | `clawhub install gcp-bigquery-mcp-server` |
-| [Great Expectations Data Quality](../../skills/great-expectations-data-quality/) | Listed | — | — | `clawhub install great-expectations-data-quality` |
-| [Hugging Face Dataset Pipeline](../../skills/huggingface-dataset-pipeline/) | Listed | — | — | `clawhub install huggingface-dataset-pipeline` |
 | [jq Pipeline Builder Agent](../../skills/jq-pipeline-builder-agent/) | Security Reviewed | — | — | `clawhub install jq-pipeline-builder-agent` |
-| [Looker Tableau Data Extractor](../../skills/looker-tableau-data-extractor/) | Listed | — | — | `clawhub install looker-tableau-data-extractor` |
-| [Mixpanel MCP Server](../../skills/mixpanel-mcp-server/) | Listed | — | — | `clawhub install mixpanel-mcp-server` |
-| [MLflow Experiment Tracker](../../skills/mlflow-experiment-tracker/) | Listed | — | — | `clawhub install mlflow-experiment-tracker` |
-| [Nano PDF Editor](../../skills/nano-pdf-editor/) | Listed | — | — | `clawhub install nano-pdf-editor` |
-| [Pinecone MCP Server](../../skills/pinecone-mcp-server/) | Listed | — | — | `clawhub install pinecone-mcp-server` |
-| [Qdrant MCP Server](../../skills/qdrant-mcp-server/) | Listed | — | — | `clawhub install qdrant-mcp-server` |
-| [Redshift Query Optimizer](../../skills/redshift-query-optimizer/) | Listed | — | — | `clawhub install redshift-query-optimizer` |
-| [Segment MCP Server](../../skills/segment-mcp-server/) | Listed | — | — | `clawhub install segment-mcp-server` |
 | [Snowflake MCP](../../skills/snowflake-mcp/) | Listed | — | — | `clawhub install snowflake-mcp` |
 | [Snowflake MCP Server](../../skills/snowflake-mcp-server/) | Listed | — | — | `clawhub install snowflake-mcp-server` |
 | [Snowflake Query History Extractor](../../skills/snowflake-query-history-extractor/) | Security Reviewed | — | — | `clawhub install snowflake-query-history-extractor` |
 | [Snowflake Query Optimizer Agent](../../skills/snowflake-query-optimizer-agent/) | Security Reviewed | — | — | `clawhub install snowflake-query-optimizer-agent` |
 | [Snowflake Query Profiler](../../skills/snowflake-query-profiler/) | Security Reviewed | — | — | `clawhub install snowflake-query-profiler` |
-| [SQL Query Optimizer](../../skills/sql-query-optimizer/) | Listed | — | — | `clawhub install sql-query-optimizer` |
 | [XML XSLT Transform Pipeline](../../skills/xml-xslt-transform-pipeline/) | Security Reviewed | — | — | `clawhub install xml-xslt-transform-pipeline` |
 
 ---
@@ -167,10 +150,10 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 ## Related Categories
 
-- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (148 skills)
-- 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (126 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (120 skills)
-- 📚 [Library & API Reference](../library-api-reference/) (106 skills)
+- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (137 skills)
+- 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
+- 📚 [Library & API Reference](../library-api-reference/) (89 skills)
+- 🔒 [Security & Verification](../security-verification/) (84 skills)
 
 ---
 
