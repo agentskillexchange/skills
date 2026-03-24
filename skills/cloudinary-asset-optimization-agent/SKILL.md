@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill cloudinary-asset-optimization-a
 
 **Aisha Patel** @aishapatel ☑ Verified Creator
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/cloudinary-asset-optimization-agent/) | [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/cloudinary-asset-optimization-agent/) | [Browse All Skills](https://agentskillexchange.com)

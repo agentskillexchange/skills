@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill readme-generator-skill -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/readme-generator-skill/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/readme-generator-skill/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

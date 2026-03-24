@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill sentry-error-intelligence -a co
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/sentry-error-intelligence/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/sentry-error-intelligence/)
 - [Browse All Skills](https://agentskillexchange.com/)

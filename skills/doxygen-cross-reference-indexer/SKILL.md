@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill doxygen-cross-reference-indexer
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/doxygen-cross-reference-indexer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/doxygen-cross-reference-indexer/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

@@ -57,5 +57,5 @@ npx skills add agentskillexchange/skills --skill technical-seo-audit-crawler -a 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/technical-seo-audit-crawler/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/technical-seo-audit-crawler/)
 - [Browse All Skills](https://agentskillexchange.com/)

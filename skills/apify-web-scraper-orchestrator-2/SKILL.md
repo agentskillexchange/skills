@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill apify-web-scraper-orchestrator-
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/apify-web-scraper-orchestrator-2/) · [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/apify-web-scraper-orchestrator-2/) · [Browse All Skills](https://agentskillexchange.com)

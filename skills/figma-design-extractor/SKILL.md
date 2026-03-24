@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill figma-design-extractor -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/figma-design-extractor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/figma-design-extractor/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

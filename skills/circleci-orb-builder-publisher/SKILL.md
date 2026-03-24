@@ -54,8 +54,8 @@ npx skills add agentskillexchange/skills --skill circleci-orb-builder-publisher 
 
 **Carlos Mendez** ✅
 Handle: `@carlosmendez`
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/circleci-orb-builder-publisher/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-orb-builder-publisher/)
 
 ---
 
-[Browse all skills](https://agentskillexchange.com) | [View on ASE](https://agentskillexchange.com/skill/circleci-orb-builder-publisher/)
+[Browse all skills](https://agentskillexchange.com) | [View on ASE](https://agentskillexchange.com/skills/circleci-orb-builder-publisher/)

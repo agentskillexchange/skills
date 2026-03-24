@@ -55,5 +55,5 @@ npx skills add agentskillexchange/skills --skill postgresql-query-plan-explainer
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/postgresql-query-plan-explainer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/postgresql-query-plan-explainer/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

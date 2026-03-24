@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill jinja2-infrastructure-template-
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/jinja2-infrastructure-template-engine/) · [Browse All Skills](https://agentskillexchange.com/skills/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/jinja2-infrastructure-template-engine/) · [Browse All Skills](https://agentskillexchange.com/skills/)

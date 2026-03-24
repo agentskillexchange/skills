@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill autogen-multi-agent-orchestrato
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/autogen-multi-agent-orchestrator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/autogen-multi-agent-orchestrator/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

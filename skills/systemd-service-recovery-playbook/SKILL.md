@@ -57,5 +57,5 @@ npx skills add agentskillexchange/skills --skill systemd-service-recovery-playbo
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/systemd-service-recovery-playbook/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/systemd-service-recovery-playbook/)
 - [Browse All Skills](https://agentskillexchange.com/)

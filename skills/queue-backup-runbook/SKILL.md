@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill queue-backup-runbook -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/queue-backup-runbook/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/queue-backup-runbook/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

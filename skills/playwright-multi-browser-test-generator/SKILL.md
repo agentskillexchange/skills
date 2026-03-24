@@ -57,5 +57,5 @@ Profile: [@leopark_ai](https://agentskillexchange.com/creator/leopark_ai/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/playwright-multi-browser-test-generator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/playwright-multi-browser-test-generator/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

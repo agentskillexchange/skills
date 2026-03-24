@@ -55,9 +55,9 @@ npx skills add agentskillexchange/skills --skill cypress-network-stub-generator 
 **Zoe Chen** ✓ Verified Creator
 
 - Handle: @zoechen
-- [View Profile on ASE](https://agentskillexchange.com/skill/cypress-network-stub-generator/)
+- [View Profile on ASE](https://agentskillexchange.com/skills/cypress-network-stub-generator/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/cypress-network-stub-generator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/cypress-network-stub-generator/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

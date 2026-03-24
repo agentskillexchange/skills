@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill ansible-playbook-dry-run-valida
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/ansible-playbook-dry-run-validator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/ansible-playbook-dry-run-validator/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

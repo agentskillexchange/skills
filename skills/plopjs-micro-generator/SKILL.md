@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill plopjs-micro-generator -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/plopjs-micro-generator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/plopjs-micro-generator/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

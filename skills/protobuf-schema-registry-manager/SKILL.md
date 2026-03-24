@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill protobuf-schema-registry-manage
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/protobuf-schema-registry-manager/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/protobuf-schema-registry-manager/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

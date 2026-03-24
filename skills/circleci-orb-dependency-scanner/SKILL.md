@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill circleci-orb-dependency-scanner
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/circleci-orb-dependency-scanner/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-orb-dependency-scanner/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

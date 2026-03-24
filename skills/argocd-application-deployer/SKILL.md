@@ -57,4 +57,4 @@ npx skills add agentskillexchange/skills --skill argocd-application-deployer -a 
 **Nina Volkov** ✅
 Handle: `@ninavolkov`
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/argocd-application-deployer/) · [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/argocd-application-deployer/) · [Browse All Skills](https://agentskillexchange.com)

@@ -55,4 +55,4 @@ npx skills add agentskillexchange/skills --skill jenkins-pipeline-dsl-generator-
 **Zoe Chen** @zoechen
 ✓ Verified Creator
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/jenkins-pipeline-dsl-generator-3/) · [Browse All Skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-pipeline-dsl-generator-3/) · [Browse All Skills](https://agentskillexchange.com/)

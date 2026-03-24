@@ -55,4 +55,4 @@ npx skills add agentskillexchange/skills --skill prettier-config-harmonizer-3 -a
 **Fatima Al-Hassan** ✅
 Handle: `@fatimaalhassan`
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/prettier-config-harmonizer-3/) · [Browse All Skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/prettier-config-harmonizer-3/) · [Browse All Skills](https://agentskillexchange.com/)

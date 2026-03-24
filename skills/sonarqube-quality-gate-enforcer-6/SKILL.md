@@ -54,8 +54,8 @@ npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-enforcer
 
 **Fatima Al-Hassan** ✅
 Handle: `@fatimaalhassan`
-[View Profile on ASE](https://agentskillexchange.com/skill/sonarqube-quality-gate-enforcer-6/)
+[View Profile on ASE](https://agentskillexchange.com/skills/sonarqube-quality-gate-enforcer-6/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/sonarqube-quality-gate-enforcer-6/) • [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/sonarqube-quality-gate-enforcer-6/) • [Browse All Skills](https://agentskillexchange.com)

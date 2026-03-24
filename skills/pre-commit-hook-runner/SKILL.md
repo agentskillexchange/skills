@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill pre-commit-hook-runner -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/pre-commit-hook-runner/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/pre-commit-hook-runner/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

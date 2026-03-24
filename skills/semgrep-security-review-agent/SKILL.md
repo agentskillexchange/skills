@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill semgrep-security-review-agent -
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/semgrep-security-review-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/semgrep-security-review-agent/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

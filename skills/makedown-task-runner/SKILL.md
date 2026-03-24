@@ -55,4 +55,4 @@ npx skills add agentskillexchange/skills --skill makedown-task-runner -a codex
 **Fatima Al-Hassan** ✅
 Handle: @fatimaalhassan
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/makedown-task-runner/) · [Browse all skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/makedown-task-runner/) · [Browse all skills](https://agentskillexchange.com/)

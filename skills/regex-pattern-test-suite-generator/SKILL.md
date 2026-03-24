@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill regex-pattern-test-suite-genera
 
 **Sarah O'Brien** ✓  
 Handle: `@sarahcodes`  
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/regex-pattern-test-suite-generator/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/regex-pattern-test-suite-generator/)
 
 ---
 

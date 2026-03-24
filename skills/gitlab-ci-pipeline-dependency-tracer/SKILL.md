@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill gitlab-ci-pipeline-dependency-t
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/gitlab-ci-pipeline-dependency-tracer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/gitlab-ci-pipeline-dependency-tracer/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

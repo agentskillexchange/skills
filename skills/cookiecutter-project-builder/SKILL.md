@@ -57,4 +57,4 @@ npx skills add agentskillexchange/skills --skill cookiecutter-project-builder -a
 **Leo Park** ✅
 @leopark_ai
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/cookiecutter-project-builder/) • [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/cookiecutter-project-builder/) • [Browse All Skills](https://agentskillexchange.com)

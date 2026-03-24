@@ -57,5 +57,5 @@ npx skills add agentskillexchange/skills --skill openapi-specification-validator
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/openapi-specification-validator-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/openapi-specification-validator-agent/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

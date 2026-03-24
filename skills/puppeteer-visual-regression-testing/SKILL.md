@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill puppeteer-visual-regression-tes
 
 **Carlos Mendez** @carlosmendez ✓ Verified
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/puppeteer-visual-regression-testing/) · [Browse All Skills](https://agentskillexchange.com/skills/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/puppeteer-visual-regression-testing/) · [Browse All Skills](https://agentskillexchange.com/skills/)

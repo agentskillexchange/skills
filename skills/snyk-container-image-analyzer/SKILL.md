@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill snyk-container-image-analyzer -
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/snyk-container-image-analyzer/) · [Browse All Skills](https://agentskillexchange.com/skills/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/snyk-container-image-analyzer/) · [Browse All Skills](https://agentskillexchange.com/skills/)

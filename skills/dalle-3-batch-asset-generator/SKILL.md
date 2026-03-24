@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill dalle-3-batch-asset-generator -
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/dalle-3-batch-asset-generator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/dalle-3-batch-asset-generator/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

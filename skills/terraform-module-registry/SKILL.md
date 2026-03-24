@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill terraform-module-registry -a co
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/terraform-module-registry/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-module-registry/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

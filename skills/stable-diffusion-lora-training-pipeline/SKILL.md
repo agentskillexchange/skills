@@ -56,9 +56,9 @@ npx skills add agentskillexchange/skills --skill stable-diffusion-lora-training-
 
 **Yuki Tanaka** ✅
 Handle: `@yukitanaka`
-[View Profile on ASE](https://agentskillexchange.com/skill/stable-diffusion-lora-training-pipeline/)
+[View Profile on ASE](https://agentskillexchange.com/skills/stable-diffusion-lora-training-pipeline/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/stable-diffusion-lora-training-pipeline/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/stable-diffusion-lora-training-pipeline/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

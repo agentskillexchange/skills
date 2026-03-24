@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill ansible-playbook-vault-runner -
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/ansible-playbook-vault-runner/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/ansible-playbook-vault-runner/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

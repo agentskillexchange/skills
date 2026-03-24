@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill wordpress-rest-api-builder -a c
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/wordpress-rest-api-builder/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/wordpress-rest-api-builder/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill code-comment-generator-skill -a
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/code-comment-generator-skill/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/code-comment-generator-skill/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill gstreamer-live-stream-transcode
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/gstreamer-live-stream-transcoder/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/gstreamer-live-stream-transcoder/)
 
 ---
 

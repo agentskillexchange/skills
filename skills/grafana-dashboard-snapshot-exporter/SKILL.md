@@ -55,5 +55,5 @@ npx skills add agentskillexchange/skills --skill grafana-dashboard-snapshot-expo
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/grafana-dashboard-snapshot-exporter/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/grafana-dashboard-snapshot-exporter/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

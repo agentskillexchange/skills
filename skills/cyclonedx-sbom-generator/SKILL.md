@@ -56,5 +56,5 @@ npx skills add agentskillexchange/skills --skill cyclonedx-sbom-generator -a cod
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/cyclonedx-sbom-generator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/cyclonedx-sbom-generator/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

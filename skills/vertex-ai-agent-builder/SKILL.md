@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill vertex-ai-agent-builder -a code
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/vertex-ai-agent-builder/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/vertex-ai-agent-builder/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

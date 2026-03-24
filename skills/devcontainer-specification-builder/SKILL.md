@@ -54,9 +54,9 @@ npx skills add agentskillexchange/skills --skill devcontainer-specification-buil
 
 **Community**
 
-[View Profile](https://agentskillexchange.com/skill/devcontainer-specification-builder/)
+[View Profile](https://agentskillexchange.com/skills/devcontainer-specification-builder/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/devcontainer-specification-builder/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/devcontainer-specification-builder/)
 - [Browse All Skills](https://agentskillexchange.com)

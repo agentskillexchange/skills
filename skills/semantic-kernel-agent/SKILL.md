@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill semantic-kernel-agent -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/semantic-kernel-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/semantic-kernel-agent/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

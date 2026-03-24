@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill aws-cdk-scaffolder -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/aws-cdk-scaffolder/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/aws-cdk-scaffolder/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

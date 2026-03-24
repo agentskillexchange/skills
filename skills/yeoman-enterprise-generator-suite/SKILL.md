@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill yeoman-enterprise-generator-sui
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/yeoman-enterprise-generator-suite/) · [Browse All Skills](https://agentskillexchange.com/skills/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/yeoman-enterprise-generator-suite/) · [Browse All Skills](https://agentskillexchange.com/skills/)

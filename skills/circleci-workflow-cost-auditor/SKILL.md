@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill circleci-workflow-cost-auditor 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/circleci-workflow-cost-auditor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-workflow-cost-auditor/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

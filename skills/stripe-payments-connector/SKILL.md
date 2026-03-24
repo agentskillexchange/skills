@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill stripe-payments-connector -a co
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/stripe-payments-connector/) · [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/stripe-payments-connector/) · [Browse All Skills](https://agentskillexchange.com)

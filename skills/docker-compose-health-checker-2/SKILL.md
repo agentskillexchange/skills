@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill docker-compose-health-checker-2
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/docker-compose-health-checker-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/docker-compose-health-checker-2/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

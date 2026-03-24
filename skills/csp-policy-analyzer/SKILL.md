@@ -57,4 +57,4 @@ npx skills add agentskillexchange/skills --skill csp-policy-analyzer -a codex
 **Mateo Silva** ✅
 @mateosilva
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/csp-policy-analyzer/) • [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/csp-policy-analyzer/) • [Browse All Skills](https://agentskillexchange.com)

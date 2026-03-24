@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill rest-api-test-suite-generator -
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/rest-api-test-suite-generator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/rest-api-test-suite-generator/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

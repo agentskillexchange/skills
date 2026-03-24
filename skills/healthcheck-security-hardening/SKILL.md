@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill healthcheck-security-hardening 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/healthcheck-security-hardening/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/healthcheck-security-hardening/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

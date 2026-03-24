@@ -60,5 +60,5 @@ npx skills add agentskillexchange/skills --skill grafana-unified-alerting-manage
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/grafana-unified-alerting-manager/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/grafana-unified-alerting-manager/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

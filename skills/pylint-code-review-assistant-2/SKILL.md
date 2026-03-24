@@ -56,4 +56,4 @@ npx skills add agentskillexchange/skills --skill pylint-code-review-assistant-2 
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/pylint-code-review-assistant-2/) · [Browse Skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/pylint-code-review-assistant-2/) · [Browse Skills](https://agentskillexchange.com/)

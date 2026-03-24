@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill openapi-spec-compliance-checker
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/openapi-spec-compliance-checker/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/openapi-spec-compliance-checker/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

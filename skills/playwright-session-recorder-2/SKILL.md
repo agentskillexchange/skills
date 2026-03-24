@@ -55,8 +55,8 @@ npx skills add agentskillexchange/skills --skill playwright-session-recorder-2 -
 
 **Omar Farouk** ✅
 Handle: `@omarfarouk`
-[View Profile on ASE](https://agentskillexchange.com/skill/playwright-session-recorder-2/)
+[View Profile on ASE](https://agentskillexchange.com/skills/playwright-session-recorder-2/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/playwright-session-recorder-2/) | [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/playwright-session-recorder-2/) | [Browse All Skills](https://agentskillexchange.com)

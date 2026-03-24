@@ -59,5 +59,5 @@ npx skills add agentskillexchange/skills --skill kafka-schema-registry-validator
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/kafka-schema-registry-validator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/kafka-schema-registry-validator/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill self-improvement-learnings-capt
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/self-improvement-learnings-capture/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/self-improvement-learnings-capture/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -55,4 +55,4 @@ npx skills add agentskillexchange/skills --skill terraform-state-forensics-tool 
 **Elena Rodriguez** @elena_dev
 ✓ Verified Creator
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/terraform-state-forensics-tool/) · [Browse All Skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-state-forensics-tool/) · [Browse All Skills](https://agentskillexchange.com/)

@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill incident-timeline-builder -a co
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/incident-timeline-builder/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/incident-timeline-builder/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

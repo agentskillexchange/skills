@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill postgresql-query-plan-diagnosti
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/postgresql-query-plan-diagnostics-wave48/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/postgresql-query-plan-diagnostics-wave48/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -55,9 +55,9 @@ npx skills add agentskillexchange/skills --skill microsoft-graph-mail-triage-age
 **Alex Rivera** ✓ Verified Creator
 
 - Handle: @arivera_dev
-- [View Profile on ASE](https://agentskillexchange.com/skill/microsoft-graph-mail-triage-agent-2/)
+- [View Profile on ASE](https://agentskillexchange.com/skills/microsoft-graph-mail-triage-agent-2/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/microsoft-graph-mail-triage-agent-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/microsoft-graph-mail-triage-agent-2/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

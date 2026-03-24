@@ -2,7 +2,7 @@
 name: "Python Package Dependency Graph Mapper"
 description: "Builds dependency graphs for Python packages using the PyPI JSON API and pipdeptree library. Visualizes transitive dependency chains and identifies version conflict risks."
 category: "Library & API Reference"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.9
 reviews: 19
@@ -57,4 +57,4 @@ npx skills add agentskillexchange/skills --skill python-package-dependency-graph
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/python-package-dependency-graph-mapper/) • [Browse All Skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/python-package-dependency-graph-mapper/) • [Browse All Skills](https://agentskillexchange.com/)

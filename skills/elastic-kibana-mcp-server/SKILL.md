@@ -2,7 +2,7 @@
 name: "Elastic / Kibana MCP Server"
 description: "Use this skill when you need to query Elasticsearch indices, search logs in Kibana, or analyze data stored in the Elastic Stack via AI. It allows agents to run KQL or Lucene queries, retrieve log data, and investigate application events without direct Kibana access."
 category: "Monitoring & Alerts"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.1
 reviews: 28
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill elastic-kibana-mcp-server -a co
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/elastic-kibana-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/elastic-kibana-mcp-server/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

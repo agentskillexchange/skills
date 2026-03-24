@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill cosign-artifact-signature-verif
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/cosign-artifact-signature-verifier/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/cosign-artifact-signature-verifier/)
 - [Browse All Skills](https://agentskillexchange.com/)

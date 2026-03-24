@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill terraform-plan-reviewer-3 -a co
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/terraform-plan-reviewer-3/) · [Browse All Skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-plan-reviewer-3/) · [Browse All Skills](https://agentskillexchange.com/)

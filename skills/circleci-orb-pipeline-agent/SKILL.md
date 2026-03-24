@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill circleci-orb-pipeline-agent -a 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/circleci-orb-pipeline-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-orb-pipeline-agent/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

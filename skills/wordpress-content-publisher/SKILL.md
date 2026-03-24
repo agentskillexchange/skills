@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill wordpress-content-publisher -a 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/wordpress-content-publisher/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/wordpress-content-publisher/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

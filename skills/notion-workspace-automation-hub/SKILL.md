@@ -58,5 +58,5 @@ Profile: [@davidnguyen](https://agentskillexchange.com/creator/davidnguyen/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/notion-workspace-automation-hub/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/notion-workspace-automation-hub/)
 - [Browse All Skills](https://agentskillexchange.com/)

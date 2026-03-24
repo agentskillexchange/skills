@@ -57,5 +57,5 @@ npx skills add agentskillexchange/skills --skill grafana-loki-log-correlation-ag
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/grafana-loki-log-correlation-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/grafana-loki-log-correlation-agent/)
 - [Browse All Skills](https://agentskillexchange.com/)

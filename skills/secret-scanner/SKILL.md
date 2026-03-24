@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill secret-scanner -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/secret-scanner/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/secret-scanner/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

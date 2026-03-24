@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill confluence-page-writer -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/confluence-page-writer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/confluence-page-writer/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

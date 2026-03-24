@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill rust-crate-docs-scanner -a code
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/rust-crate-docs-scanner/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/rust-crate-docs-scanner/)
 
 ---
 

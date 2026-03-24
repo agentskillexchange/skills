@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill semgrep-pattern-scanner -a code
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/semgrep-pattern-scanner/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/semgrep-pattern-scanner/)
 - [Browse All Skills](https://agentskillexchange.com/)

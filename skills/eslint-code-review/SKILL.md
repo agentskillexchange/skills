@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill eslint-code-review -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/eslint-code-review/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/eslint-code-review/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -57,5 +57,5 @@ Profile: [@davidnguyen](https://agentskillexchange.com/creator/davidnguyen/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/microsoft-graph-email-triage-assistant/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/microsoft-graph-email-triage-assistant/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

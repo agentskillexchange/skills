@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill deepgram-podcast-chapter-genera
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/deepgram-podcast-chapter-generator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/deepgram-podcast-chapter-generator/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

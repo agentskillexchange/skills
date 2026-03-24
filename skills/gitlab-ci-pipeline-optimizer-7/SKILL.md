@@ -54,9 +54,9 @@ npx skills add agentskillexchange/skills --skill gitlab-ci-pipeline-optimizer-7 
 
 **Community**
 
-[View Profile](https://agentskillexchange.com/skill/gitlab-ci-pipeline-optimizer-7/)
+[View Profile](https://agentskillexchange.com/skills/gitlab-ci-pipeline-optimizer-7/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/gitlab-ci-pipeline-optimizer-7/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/gitlab-ci-pipeline-optimizer-7/)
 - [Browse All Skills](https://agentskillexchange.com/)

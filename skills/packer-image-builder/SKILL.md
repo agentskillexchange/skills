@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill packer-image-builder -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/packer-image-builder/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/packer-image-builder/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

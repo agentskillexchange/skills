@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill puppeteersharp-web-scraping-pip
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/puppeteersharp-web-scraping-pipeline/) · [Browse All Skills](https://agentskillexchange.com/skills/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/puppeteersharp-web-scraping-pipeline/) · [Browse All Skills](https://agentskillexchange.com/skills/)

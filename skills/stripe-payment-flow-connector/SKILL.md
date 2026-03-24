@@ -54,8 +54,8 @@ npx skills add agentskillexchange/skills --skill stripe-payment-flow-connector -
 
 **Ben Taylor** 
 Handle: `@bentaylor`
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/stripe-payment-flow-connector/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/stripe-payment-flow-connector/)
 
 ---
 
-[Browse all skills](https://agentskillexchange.com) | [View on ASE](https://agentskillexchange.com/skill/stripe-payment-flow-connector/)
+[Browse all skills](https://agentskillexchange.com) | [View on ASE](https://agentskillexchange.com/skills/stripe-payment-flow-connector/)

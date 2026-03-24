@@ -56,4 +56,4 @@ npx skills add agentskillexchange/skills --skill prometheus-alert-tuner -a codex
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/prometheus-alert-tuner/) | [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-alert-tuner/) | [Browse All Skills](https://agentskillexchange.com)

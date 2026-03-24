@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill semgrep-rule-author -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/semgrep-rule-author/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/semgrep-rule-author/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

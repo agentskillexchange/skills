@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill rest-api-changelog-tracker -a c
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/rest-api-changelog-tracker/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/rest-api-changelog-tracker/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

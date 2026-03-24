@@ -56,5 +56,5 @@ npx skills add agentskillexchange/skills --skill typescript-ast-refactor-ts-morp
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/typescript-ast-refactor-ts-morph/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/typescript-ast-refactor-ts-morph/)
 - [Browse All Skills](https://agentskillexchange.com/)

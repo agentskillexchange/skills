@@ -56,8 +56,8 @@ npx skills add agentskillexchange/skills --skill terraform-module-scaffolder -a 
 
 **Meera Joshi** ✅
 Handle: `@meerajoshi`
-[View Profile on ASE](https://agentskillexchange.com/skill/terraform-module-scaffolder/)
+[View Profile on ASE](https://agentskillexchange.com/skills/terraform-module-scaffolder/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/terraform-module-scaffolder/) • [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-module-scaffolder/) • [Browse All Skills](https://agentskillexchange.com)

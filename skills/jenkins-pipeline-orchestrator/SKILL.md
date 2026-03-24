@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill jenkins-pipeline-orchestrator -
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/jenkins-pipeline-orchestrator/) · [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-pipeline-orchestrator/) · [Browse All Skills](https://agentskillexchange.com)

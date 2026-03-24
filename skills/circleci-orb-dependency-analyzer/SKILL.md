@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill circleci-orb-dependency-analyze
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/circleci-orb-dependency-analyzer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-orb-dependency-analyzer/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

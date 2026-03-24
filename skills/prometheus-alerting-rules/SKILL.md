@@ -2,7 +2,7 @@
 name: "Prometheus Alerting Rules"
 description: "Generates, validates, and manages Prometheus alerting rules and recording rules. Creates well-structured alert files with appropriate severity levels, annotations, labels, and runbook links for common infrastructure and application metrics."
 category: "Monitoring & Alerts"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.2
 reviews: 84
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill prometheus-alerting-rules -a co
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/prometheus-alerting-rules/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-alerting-rules/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

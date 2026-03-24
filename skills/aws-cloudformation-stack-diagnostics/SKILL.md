@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill aws-cloudformation-stack-diagno
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/aws-cloudformation-stack-diagnostics/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/aws-cloudformation-stack-diagnostics/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

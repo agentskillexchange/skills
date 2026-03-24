@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill graphql-data-federation-agent -
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/graphql-data-federation-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/graphql-data-federation-agent/)
 - [Browse All Skills](https://agentskillexchange.com)

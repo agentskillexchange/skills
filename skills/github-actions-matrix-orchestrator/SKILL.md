@@ -54,8 +54,8 @@ npx skills add agentskillexchange/skills --skill github-actions-matrix-orchestra
 
 **Lucy Zhang** ✅
 Handle: `@lucyzhang`
-[View Profile on ASE](https://agentskillexchange.com/skill/github-actions-matrix-orchestrator/)
+[View Profile on ASE](https://agentskillexchange.com/skills/github-actions-matrix-orchestrator/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/github-actions-matrix-orchestrator/) · [Browse All Skills](https://agentskillexchange.com/skills/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/github-actions-matrix-orchestrator/) · [Browse All Skills](https://agentskillexchange.com/skills/)

@@ -2,7 +2,7 @@
 name: "Mixpanel MCP Server"
 description: "Use this skill to query Mixpanel event analytics, analyze funnels, create user cohorts, and access product analytics data through MCP. It enables agents to pull insights from user behavior data and integrate analytics into automated decision-making. Trigger when you need to query event data programmatically, analyze conversion funnels, or build analytics-driven automation."
 category: "Data Extraction & Transformation"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.8
 reviews: 69
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill mixpanel-mcp-server -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/mixpanel-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/mixpanel-mcp-server/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

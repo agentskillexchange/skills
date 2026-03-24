@@ -2,7 +2,7 @@
 name: "Weaviate MCP Server"
 description: "Use this skill to perform vector database operations in Weaviate, manage schemas, and run semantic and hybrid searches through MCP. It enables agents to leverage Weaviate’s multi-modal vector capabilities and GraphQL interface. Trigger when you need semantic search with structured filtering, multi-modal search, or open-source vector database operations."
 category: "Data Extraction & Transformation"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.0
 reviews: 85
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill weaviate-mcp-server -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/weaviate-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/weaviate-mcp-server/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

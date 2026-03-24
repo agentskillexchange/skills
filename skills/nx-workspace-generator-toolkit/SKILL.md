@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill nx-workspace-generator-toolkit 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/nx-workspace-generator-toolkit/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/nx-workspace-generator-toolkit/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

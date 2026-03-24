@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill slack-digest-and-task-router -a
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/slack-digest-and-task-router/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/slack-digest-and-task-router/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

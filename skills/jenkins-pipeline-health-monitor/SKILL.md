@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill jenkins-pipeline-health-monitor
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/jenkins-pipeline-health-monitor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-pipeline-health-monitor/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

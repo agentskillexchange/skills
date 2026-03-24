@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill bigquery-cost-query-performance
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/bigquery-cost-query-performance-auditor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/bigquery-cost-query-performance-auditor/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

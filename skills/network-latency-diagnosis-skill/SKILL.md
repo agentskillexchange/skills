@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill network-latency-diagnosis-skill
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/network-latency-diagnosis-skill/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/network-latency-diagnosis-skill/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

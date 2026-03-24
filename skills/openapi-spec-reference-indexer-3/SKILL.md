@@ -2,7 +2,7 @@
 name: "OpenAPI Spec Reference Indexer"
 description: "Indexes and queries OpenAPI 3.1 specifications using the swagger-parser library and json-schema-ref-parser for $ref resolution. Builds searchable endpoint catalogs with parameter schemas, response ..."
 category: "Library & API Reference"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: listed
 rating: 0
 reviews: 0
@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill openapi-spec-reference-indexer-
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/openapi-spec-reference-indexer-3/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/openapi-spec-reference-indexer-3/)
 
 ---
 

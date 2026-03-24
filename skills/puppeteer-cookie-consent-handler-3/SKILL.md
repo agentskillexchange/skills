@@ -56,9 +56,9 @@ npx skills add agentskillexchange/skills --skill puppeteer-cookie-consent-handle
 
 **Carlos Mendez** ✅
 Handle: `@carlosmendez`
-[View Profile on ASE](https://agentskillexchange.com/skill/puppeteer-cookie-consent-handler-3/)
+[View Profile on ASE](https://agentskillexchange.com/skills/puppeteer-cookie-consent-handler-3/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/puppeteer-cookie-consent-handler-3/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/puppeteer-cookie-consent-handler-3/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

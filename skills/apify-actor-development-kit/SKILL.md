@@ -54,9 +54,9 @@ npx skills add agentskillexchange/skills --skill apify-actor-development-kit -a 
 
 **Community**
 
-[View Profile](https://agentskillexchange.com/skill/apify-actor-development-kit/)
+[View Profile](https://agentskillexchange.com/skills/apify-actor-development-kit/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/apify-actor-development-kit/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/apify-actor-development-kit/)
 - [Browse All Skills](https://agentskillexchange.com)

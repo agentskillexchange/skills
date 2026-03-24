@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill jira-advanced-query-agent -a co
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/jira-advanced-query-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/jira-advanced-query-agent/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

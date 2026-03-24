@@ -2,7 +2,7 @@
 name: "Qdrant MCP Server"
 description: "Use this skill to manage vector collections, apply payload filters, and perform high-performance vector searches in Qdrant through MCP. It provides agents with Qdrant’s efficient vector operations and rich filtering capabilities. Trigger when you need vector search with complex metadata filtering, want to manage collections programmatically, or need an open-source vector database."
 category: "Data Extraction & Transformation"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.2
 reviews: 35
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill qdrant-mcp-server -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/qdrant-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/qdrant-mcp-server/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -58,5 +58,5 @@ Profile: [@mateosilva](https://agentskillexchange.com/creator/mateosilva/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/apache-tika-document-extractor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/apache-tika-document-extractor/)
 - [Browse All Skills](https://agentskillexchange.com/)

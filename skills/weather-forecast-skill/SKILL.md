@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill weather-forecast-skill -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/weather-forecast-skill/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/weather-forecast-skill/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -2,7 +2,7 @@
 name: "GitHub Actions MCP Server"
 description: "Use this skill when you need to trigger GitHub Actions workflows, check run status, view job logs, or manage workflow files via AI. It lets agents kick off CI/CD pipelines, monitor deployment runs, and retrieve artifact information directly from GitHub Actions."
 category: "Developer Tools"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.7
 reviews: 48
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill github-actions-mcp-server -a co
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/github-actions-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/github-actions-mcp-server/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

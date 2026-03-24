@@ -2,7 +2,7 @@
 name: "Apify Web Scraper Orchestrator"
 description: "Manages Apify actor runs for structured web scraping using the Apify REST API v2. Handles proxy rotation via Apify Proxy, dataset exports, and webhook-triggered post-processing pipelines."
 category: "Research & Scraping"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: listed
 rating: 0
 reviews: 0
@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill apify-web-scraper-orchestrator 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/apify-web-scraper-orchestrator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/apify-web-scraper-orchestrator/)
 - [Browse All Skills](https://agentskillexchange.com/)

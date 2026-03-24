@@ -55,7 +55,7 @@ npx skills add agentskillexchange/skills --skill nx-workspace-generator -a codex
 
 **Carlos Mendez** ✓
 Handle: `@carlosmendez`
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/nx-workspace-generator/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/nx-workspace-generator/)
 
 ---
 

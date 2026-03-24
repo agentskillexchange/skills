@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill teams-webhook-configurator -a c
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/teams-webhook-configurator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/teams-webhook-configurator/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

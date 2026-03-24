@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill pagerduty-incident-escalator -a
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/pagerduty-incident-escalator/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/pagerduty-incident-escalator/)
 
 ---
 

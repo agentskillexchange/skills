@@ -54,9 +54,9 @@ npx skills add agentskillexchange/skills --skill argocd-gitops-sync-manager -a c
 
 **Community**
 
-[View Profile](https://agentskillexchange.com/skill/argocd-gitops-sync-manager/)
+[View Profile](https://agentskillexchange.com/skills/argocd-gitops-sync-manager/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/argocd-gitops-sync-manager/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/argocd-gitops-sync-manager/)
 - [Browse All Skills](https://agentskillexchange.com)

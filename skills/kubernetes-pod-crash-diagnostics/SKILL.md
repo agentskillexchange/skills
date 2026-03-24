@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill kubernetes-pod-crash-diagnostic
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/kubernetes-pod-crash-diagnostics/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-pod-crash-diagnostics/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

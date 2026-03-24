@@ -57,4 +57,4 @@ npx skills add agentskillexchange/skills --skill oauth2-flow-debugger -a codex
 **Grace Okafor** ✅
 @graceokafor
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/oauth2-flow-debugger/) • [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/oauth2-flow-debugger/) • [Browse All Skills](https://agentskillexchange.com)

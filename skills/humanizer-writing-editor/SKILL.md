@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill humanizer-writing-editor -a cod
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/humanizer-writing-editor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/humanizer-writing-editor/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

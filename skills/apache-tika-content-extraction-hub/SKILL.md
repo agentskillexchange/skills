@@ -58,4 +58,4 @@ npx skills add agentskillexchange/skills --skill apache-tika-content-extraction-
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/apache-tika-content-extraction-hub/) · [Browse All Skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/apache-tika-content-extraction-hub/) · [Browse All Skills](https://agentskillexchange.com/)

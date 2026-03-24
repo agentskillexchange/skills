@@ -58,5 +58,5 @@ Handle: @ninavolkov
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/seo-keyword-research-automator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/seo-keyword-research-automator/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

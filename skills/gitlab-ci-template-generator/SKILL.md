@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill gitlab-ci-template-generator -a
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/gitlab-ci-template-generator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/gitlab-ci-template-generator/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

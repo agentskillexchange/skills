@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill incident-postmortem-generator -
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/incident-postmortem-generator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/incident-postmortem-generator/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

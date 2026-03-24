@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill github-actions-workflow-debugge
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/github-actions-workflow-debugger-4/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/github-actions-workflow-debugger-4/)
 - [Browse All Skills](https://agentskillexchange.com/)

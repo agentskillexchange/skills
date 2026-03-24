@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill apify-actor-runner -a codex
 
 **Ben Taylor**
 - Handle: [@bentaylor](https://agentskillexchange.com/creator/bentaylor/)
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/apify-actor-runner/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/apify-actor-runner/)
 
 ---
 

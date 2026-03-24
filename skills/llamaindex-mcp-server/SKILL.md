@@ -2,7 +2,7 @@
 name: "LlamaIndex MCP Server"
 description: "Use this skill to index documents, build RAG (Retrieval-Augmented Generation) pipelines, and run semantic queries over large document corpora through MCP. It provides agents with powerful document understanding and retrieval capabilities. Trigger when you need to search over private documents, build knowledge bases, or answer questions from specific document sets."
 category: "Developer Tools"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.6
 reviews: 25
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill llamaindex-mcp-server -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/llamaindex-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/llamaindex-mcp-server/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

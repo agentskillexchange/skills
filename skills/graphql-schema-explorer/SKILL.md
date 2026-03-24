@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill graphql-schema-explorer -a code
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/graphql-schema-explorer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/graphql-schema-explorer/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

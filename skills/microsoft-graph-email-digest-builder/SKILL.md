@@ -55,5 +55,5 @@ npx skills add agentskillexchange/skills --skill microsoft-graph-email-digest-bu
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/microsoft-graph-email-digest-builder/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/microsoft-graph-email-digest-builder/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

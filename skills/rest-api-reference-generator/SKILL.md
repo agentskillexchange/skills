@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill rest-api-reference-generator -a
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/rest-api-reference-generator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/rest-api-reference-generator/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

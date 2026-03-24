@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill kubernetes-pod-diagnostics-runn
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/kubernetes-pod-diagnostics-runner/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-pod-diagnostics-runner/)
 - [Browse All Skills](https://agentskillexchange.com/)

@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill google-workspace-cli-skill -a c
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/google-workspace-cli-skill/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/google-workspace-cli-skill/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

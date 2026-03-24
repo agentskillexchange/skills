@@ -58,4 +58,4 @@ npx skills add agentskillexchange/skills --skill hashicorp-vault-secret-scanner 
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/hashicorp-vault-secret-scanner/) · [Browse All Skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/hashicorp-vault-secret-scanner/) · [Browse All Skills](https://agentskillexchange.com/)

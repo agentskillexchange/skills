@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill clawhub-skill-discovery-publish
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/clawhub-skill-discovery-publishing/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/clawhub-skill-discovery-publishing/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

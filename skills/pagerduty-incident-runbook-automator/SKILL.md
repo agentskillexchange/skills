@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill pagerduty-incident-runbook-auto
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/pagerduty-incident-runbook-automator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/pagerduty-incident-runbook-automator/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

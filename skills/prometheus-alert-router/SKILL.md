@@ -60,5 +60,5 @@ npx skills add agentskillexchange/skills --skill prometheus-alert-router -a code
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/prometheus-alert-router/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-alert-router/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

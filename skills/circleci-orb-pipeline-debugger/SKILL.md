@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill circleci-orb-pipeline-debugger 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/circleci-orb-pipeline-debugger/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-orb-pipeline-debugger/)
 - [Browse All Skills](https://agentskillexchange.com)

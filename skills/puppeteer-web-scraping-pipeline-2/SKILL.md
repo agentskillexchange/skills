@@ -57,5 +57,5 @@ Profile: [@avajohnson](https://agentskillexchange.com/creator/avajohnson/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/puppeteer-web-scraping-pipeline-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/puppeteer-web-scraping-pipeline-2/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill sentry-error-triage-assistant -
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/sentry-error-triage-assistant/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/sentry-error-triage-assistant/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

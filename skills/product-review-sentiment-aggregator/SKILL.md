@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill product-review-sentiment-aggreg
 
 **Aisha Patel** ✓  
 Handle: `@aishapatel`  
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/product-review-sentiment-aggregator/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/product-review-sentiment-aggregator/)
 
 ---
 

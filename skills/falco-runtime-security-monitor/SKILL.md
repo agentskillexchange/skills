@@ -54,8 +54,8 @@ npx skills add agentskillexchange/skills --skill falco-runtime-security-monitor 
 
 **Ava Johnson** ✓
 Handle: `@avajohnson`
-[View Profile on ASE](https://agentskillexchange.com/skill/falco-runtime-security-monitor/)
+[View Profile on ASE](https://agentskillexchange.com/skills/falco-runtime-security-monitor/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/falco-runtime-security-monitor/) · [Browse All Skills](https://agentskillexchange.com/skills/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/falco-runtime-security-monitor/) · [Browse All Skills](https://agentskillexchange.com/skills/)

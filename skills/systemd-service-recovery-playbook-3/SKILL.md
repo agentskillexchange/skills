@@ -54,8 +54,8 @@ npx skills add agentskillexchange/skills --skill systemd-service-recovery-playbo
 
 **Grace Okafor** ✅
 Handle: `@graceokafor`
-[View Profile on ASE](https://agentskillexchange.com/skill/systemd-service-recovery-playbook-3/)
+[View Profile on ASE](https://agentskillexchange.com/skills/systemd-service-recovery-playbook-3/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/systemd-service-recovery-playbook-3/) · [Browse All Skills](https://agentskillexchange.com/skills/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/systemd-service-recovery-playbook-3/) · [Browse All Skills](https://agentskillexchange.com/skills/)

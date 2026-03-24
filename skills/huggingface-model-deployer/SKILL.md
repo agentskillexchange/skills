@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill huggingface-model-deployer -a c
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/huggingface-model-deployer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/huggingface-model-deployer/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

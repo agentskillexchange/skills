@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill seo-meta-tag-optimizer-agent -a
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/seo-meta-tag-optimizer-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/seo-meta-tag-optimizer-agent/)
 - [Browse All Skills](https://agentskillexchange.com)

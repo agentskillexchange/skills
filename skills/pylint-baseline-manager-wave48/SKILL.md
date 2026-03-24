@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill pylint-baseline-manager-wave48 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/pylint-baseline-manager-wave48/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/pylint-baseline-manager-wave48/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

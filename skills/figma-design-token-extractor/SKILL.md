@@ -2,7 +2,7 @@
 name: "Figma Design Token Extractor"
 description: "Extracts design tokens from Figma files using the Figma REST API v1 /files/{key} endpoint. Generates CSS custom properties, Tailwind config, and Style Dictionary compatible JSON from Figma styles."
 category: "Image & Creative Automation"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: listed
 rating: 0
 reviews: 0
@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill figma-design-token-extractor -a
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/figma-design-token-extractor/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/figma-design-token-extractor/)
 
 ---
 

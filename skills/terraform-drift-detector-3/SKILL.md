@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill terraform-drift-detector-3 -a c
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/terraform-drift-detector-3/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-drift-detector-3/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

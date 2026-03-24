@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill opentelemetry-trace-analyzer -a
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/opentelemetry-trace-analyzer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/opentelemetry-trace-analyzer/)
 - [Browse All Skills](https://agentskillexchange.com/)

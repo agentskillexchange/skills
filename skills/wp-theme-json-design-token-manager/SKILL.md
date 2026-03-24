@@ -57,5 +57,5 @@ npx skills add agentskillexchange/skills --skill wp-theme-json-design-token-mana
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/wp-theme-json-design-token-manager/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/wp-theme-json-design-token-manager/)
 - [Browse All Skills](https://agentskillexchange.com/)

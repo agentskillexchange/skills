@@ -56,8 +56,8 @@ npx skills add agentskillexchange/skills --skill docker-container-health-inspect
 
 **Grace Okafor** ✅
 Handle: `@graceokafor`
-[View Profile on ASE](https://agentskillexchange.com/skill/docker-container-health-inspector-3/)
+[View Profile on ASE](https://agentskillexchange.com/skills/docker-container-health-inspector-3/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/docker-container-health-inspector-3/) • [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/docker-container-health-inspector-3/) • [Browse All Skills](https://agentskillexchange.com)

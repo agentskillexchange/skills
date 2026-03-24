@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill dbt-model-transformation-archit
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/dbt-model-transformation-architect/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/dbt-model-transformation-architect/)
 - [Browse All Skills](https://agentskillexchange.com/)

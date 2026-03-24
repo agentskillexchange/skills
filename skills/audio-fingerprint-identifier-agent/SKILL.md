@@ -57,5 +57,5 @@ npx skills add agentskillexchange/skills --skill audio-fingerprint-identifier-ag
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/audio-fingerprint-identifier-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/audio-fingerprint-identifier-agent/)
 - [Browse All Skills](https://agentskillexchange.com/)

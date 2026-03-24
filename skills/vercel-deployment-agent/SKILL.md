@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill vercel-deployment-agent -a code
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/vercel-deployment-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/vercel-deployment-agent/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

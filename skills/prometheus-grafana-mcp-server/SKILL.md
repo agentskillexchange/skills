@@ -2,7 +2,7 @@
 name: "Prometheus / Grafana MCP Server"
 description: "Use this skill when you need to query Prometheus metrics with PromQL, inspect Grafana dashboards, or check alerting rules via AI. It enables agents to fetch time-series data, investigate metric anomalies, and verify alert states without direct access to the monitoring stack."
 category: "Monitoring & Alerts"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.4
 reviews: 30
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill prometheus-grafana-mcp-server -
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/prometheus-grafana-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-grafana-mcp-server/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

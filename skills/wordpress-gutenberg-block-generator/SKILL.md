@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill wordpress-gutenberg-block-gener
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/wordpress-gutenberg-block-generator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/wordpress-gutenberg-block-generator/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

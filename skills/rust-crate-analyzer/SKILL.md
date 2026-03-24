@@ -55,4 +55,4 @@ npx skills add agentskillexchange/skills --skill rust-crate-analyzer -a codex
 **Grace Okafor** ✅
 Handle: @graceokafor
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/rust-crate-analyzer/) · [Browse all skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/rust-crate-analyzer/) · [Browse all skills](https://agentskillexchange.com/)

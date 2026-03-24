@@ -2,7 +2,7 @@
 name: "Databricks MCP"
 description: "Connect AI agents to Databricks workspaces via MCP, enabling notebook execution, cluster management, Delta Lake table queries, and MLflow experiment tracking from conversational interfaces. Supports Unity Catalog for governed data access."
 category: "Data Extraction & Transformation"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.4
 reviews: 7
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill databricks-mcp -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/databricks-mcp/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/databricks-mcp/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

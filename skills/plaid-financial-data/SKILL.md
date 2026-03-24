@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill plaid-financial-data -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/plaid-financial-data/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/plaid-financial-data/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

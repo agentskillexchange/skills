@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill diffbot-knowledge-graph-extract
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/diffbot-knowledge-graph-extractor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/diffbot-knowledge-graph-extractor/)
 - [Browse All Skills](https://agentskillexchange.com/)

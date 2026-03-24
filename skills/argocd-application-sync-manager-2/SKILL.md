@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill argocd-application-sync-manager
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/argocd-application-sync-manager-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/argocd-application-sync-manager-2/)
 - [Browse All Skills](https://agentskillexchange.com/)

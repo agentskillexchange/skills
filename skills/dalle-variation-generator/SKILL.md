@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill dalle-variation-generator -a co
 
 **Grace Okafor** ✅
 - Handle: [@graceokafor](https://agentskillexchange.com/creator/graceokafor/)
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/dalle-variation-generator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/dalle-variation-generator/)
 
 ---
 

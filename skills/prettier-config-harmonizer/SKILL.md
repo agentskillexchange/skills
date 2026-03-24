@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill prettier-config-harmonizer -a c
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/prettier-config-harmonizer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/prettier-config-harmonizer/)
 - [Browse All Skills](https://agentskillexchange.com/)

@@ -2,7 +2,7 @@
 name: "npm Registry Analyzer"
 description: "Queries the npm registry API and npms.io scoring endpoint to evaluate package quality, maintenance scores, and download trends. Uses npm-audit for security vulnerability detection against the GitHub Advisory Database."
 category: "Library & API Reference"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: verified_metadata
 rating: 4.3
 reviews: 55
@@ -55,7 +55,7 @@ npx skills add agentskillexchange/skills --skill npm-registry-analyzer -a codex
 
 **Sam Lee** ✓
 Handle: `@samlee_dev`
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/npm-registry-analyzer/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/npm-registry-analyzer/)
 
 ---
 

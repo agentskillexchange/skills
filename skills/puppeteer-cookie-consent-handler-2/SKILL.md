@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill puppeteer-cookie-consent-handle
 
 **Community** · Community
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/puppeteer-cookie-consent-handler-2/) · [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/puppeteer-cookie-consent-handler-2/) · [Browse All Skills](https://agentskillexchange.com)

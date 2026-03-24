@@ -2,7 +2,7 @@
 name: "Linear MCP Server"
 description: "Use this skill when you need to create, update, or query Linear issues, projects, and cycles from your AI agent. It lets agents participate in engineering project management workflows — filing bugs, updating issue status, and tracking sprint progress without leaving the AI interface."
 category: "Calendar, Email & Productivity"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.8
 reviews: 43
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill linear-mcp-server -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/linear-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/linear-mcp-server/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

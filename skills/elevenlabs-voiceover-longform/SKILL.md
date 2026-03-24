@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill elevenlabs-voiceover-longform -
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/elevenlabs-voiceover-longform/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/elevenlabs-voiceover-longform/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

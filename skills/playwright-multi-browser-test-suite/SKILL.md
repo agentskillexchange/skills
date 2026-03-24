@@ -55,4 +55,4 @@ npx skills add agentskillexchange/skills --skill playwright-multi-browser-test-s
 **Priya Sharma** (@priyasharma)
 ✓ Verified Creator
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/playwright-multi-browser-test-suite/) | [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/playwright-multi-browser-test-suite/) | [Browse All Skills](https://agentskillexchange.com)

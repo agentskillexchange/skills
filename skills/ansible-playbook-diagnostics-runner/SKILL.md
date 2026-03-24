@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill ansible-playbook-diagnostics-ru
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/ansible-playbook-diagnostics-runner/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/ansible-playbook-diagnostics-runner/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

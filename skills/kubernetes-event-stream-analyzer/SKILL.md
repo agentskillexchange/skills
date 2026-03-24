@@ -59,5 +59,5 @@ npx skills add agentskillexchange/skills --skill kubernetes-event-stream-analyze
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/kubernetes-event-stream-analyzer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-event-stream-analyzer/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

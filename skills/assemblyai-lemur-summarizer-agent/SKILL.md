@@ -58,5 +58,5 @@ Profile: [@zoechen](https://agentskillexchange.com/creator/zoechen/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/assemblyai-lemur-summarizer-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/assemblyai-lemur-summarizer-agent/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill openagents-tool-user -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/openagents-tool-user/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/openagents-tool-user/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

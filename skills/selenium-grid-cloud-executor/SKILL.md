@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill selenium-grid-cloud-executor -a
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/selenium-grid-cloud-executor/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/selenium-grid-cloud-executor/)
 
 ---
 

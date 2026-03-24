@@ -2,7 +2,7 @@
 name: "ClickUp MCP Server"
 description: "Use this skill to manage ClickUp tasks, documents, goals, and time tracking through MCP. It provides comprehensive access to ClickUp’s project management features for automation and integration workflows. Trigger when you need to create tasks from external triggers, track time programmatically, sync goals with metrics, or integrate ClickUp with other systems."
 category: "Templates & Workflows"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.8
 reviews: 22
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill clickup-mcp-server -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/clickup-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/clickup-mcp-server/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

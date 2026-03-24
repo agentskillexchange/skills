@@ -56,4 +56,4 @@ npx skills add agentskillexchange/skills --skill datadog-monitor-configuration-a
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/datadog-monitor-configuration-agent-2/) | [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/datadog-monitor-configuration-agent-2/) | [Browse All Skills](https://agentskillexchange.com)

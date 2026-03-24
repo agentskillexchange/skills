@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill clickhouse-query-agent -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/clickhouse-query-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/clickhouse-query-agent/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

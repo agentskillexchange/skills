@@ -2,7 +2,7 @@
 name: "CodeClimate Maintainability Tracker"
 description: "Tracks code maintainability scores via the Code Climate API v1 and analyzes cognitive complexity metrics. Generates refactoring priority lists using Halstead complexity measures and cyclomatic comp..."
 category: "Code Quality & Review"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: listed
 rating: 0
 reviews: 0
@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill codeclimate-maintainability-tra
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/codeclimate-maintainability-tracker-5/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/codeclimate-maintainability-tracker-5/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

@@ -57,4 +57,4 @@ npx skills add agentskillexchange/skills --skill helm-chart-templater -a codex
 **Meera Joshi** ✅
 @meerajoshi
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/helm-chart-templater/) • [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/helm-chart-templater/) • [Browse All Skills](https://agentskillexchange.com)

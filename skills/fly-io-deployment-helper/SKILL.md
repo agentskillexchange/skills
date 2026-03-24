@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill fly-io-deployment-helper -a cod
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/fly-io-deployment-helper/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/fly-io-deployment-helper/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

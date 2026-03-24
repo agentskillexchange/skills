@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill vscode-extension-debugger-dap-p
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/vscode-extension-debugger-dap-protocol/) | [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/vscode-extension-debugger-dap-protocol/) | [Browse All Skills](https://agentskillexchange.com)

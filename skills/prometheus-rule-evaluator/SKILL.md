@@ -55,5 +55,5 @@ npx skills add agentskillexchange/skills --skill prometheus-rule-evaluator -a co
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/prometheus-rule-evaluator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-rule-evaluator/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

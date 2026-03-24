@@ -2,7 +2,7 @@
 name: "Docker Container Health Inspector"
 description: "Inspects Docker container health using the Docker Engine API v1.45 /containers/{id}/json and /containers/{id}/stats endpoints. Diagnoses OOM kills, restart loops, and network connectivity issues with automated log analysis via /containers/{id}/logs streaming."
 category: "Runbooks & Diagnostics"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.5
 reviews: 79
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill docker-container-health-inspect
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/docker-container-health-inspector/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/docker-container-health-inspector/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

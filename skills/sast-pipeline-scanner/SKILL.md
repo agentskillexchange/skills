@@ -59,5 +59,5 @@ npx skills add agentskillexchange/skills --skill sast-pipeline-scanner -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/sast-pipeline-scanner/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/sast-pipeline-scanner/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

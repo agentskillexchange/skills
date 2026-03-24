@@ -54,8 +54,8 @@ npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-enforcer
 
 **Ryan O'Malley** 
 Handle: `@ryanomalley`
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/sonarqube-quality-gate-enforcer-7/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/sonarqube-quality-gate-enforcer-7/)
 
 ---
 
-[Browse all skills](https://agentskillexchange.com) | [View on ASE](https://agentskillexchange.com/skill/sonarqube-quality-gate-enforcer-7/)
+[Browse all skills](https://agentskillexchange.com) | [View on ASE](https://agentskillexchange.com/skills/sonarqube-quality-gate-enforcer-7/)

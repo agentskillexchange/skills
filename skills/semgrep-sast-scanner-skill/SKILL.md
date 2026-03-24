@@ -54,8 +54,8 @@ npx skills add agentskillexchange/skills --skill semgrep-sast-scanner-skill -a c
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/semgrep-sast-scanner-skill/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/semgrep-sast-scanner-skill/)
 
 ---
 
-[Browse more skills](https://agentskillexchange.com) | [Agent Skill Exchange](https://agentskillexchange.com/skill/semgrep-sast-scanner-skill/)
+[Browse more skills](https://agentskillexchange.com) | [Agent Skill Exchange](https://agentskillexchange.com/skills/semgrep-sast-scanner-skill/)

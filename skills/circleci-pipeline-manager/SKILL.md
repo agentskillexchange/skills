@@ -56,5 +56,5 @@ npx skills add agentskillexchange/skills --skill circleci-pipeline-manager -a co
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/circleci-pipeline-manager/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-pipeline-manager/)
 - [Browse All Skills](https://agentskillexchange.com)

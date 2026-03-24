@@ -2,7 +2,7 @@
 name: "Azure DevOps MCP Server"
 description: "Use this skill when you need to manage Azure DevOps pipelines, work items, repos, or boards from your AI agent. It connects agents to Azure DevOps for CI/CD pipeline management, sprint board updates, and repository operations across Azure-hosted projects."
 category: "Developer Tools"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.7
 reviews: 68
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill azure-devops-mcp-server -a code
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/azure-devops-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/azure-devops-mcp-server/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

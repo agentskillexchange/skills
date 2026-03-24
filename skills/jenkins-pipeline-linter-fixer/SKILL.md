@@ -55,5 +55,5 @@ npx skills add agentskillexchange/skills --skill jenkins-pipeline-linter-fixer -
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/jenkins-pipeline-linter-fixer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-pipeline-linter-fixer/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

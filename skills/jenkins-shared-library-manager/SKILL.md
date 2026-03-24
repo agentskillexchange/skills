@@ -2,7 +2,7 @@
 name: "Jenkins Shared Library Manager"
 description: "Manages Jenkins Shared Libraries with proper vars/ and src/ structure using the Jenkins Pipeline Shared Groovy Libraries plugin. Validates Groovy syntax, tests steps with jenkins-pipeline-unit, and configures Global Pipeline Libraries via Jenkins CLI."
 category: "CI/CD Integrations"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: verified_metadata
 rating: 4.6
 reviews: 14
@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill jenkins-shared-library-manager 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/jenkins-shared-library-manager/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-shared-library-manager/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

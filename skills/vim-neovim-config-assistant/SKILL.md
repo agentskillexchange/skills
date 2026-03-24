@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill vim-neovim-config-assistant -a 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/vim-neovim-config-assistant/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/vim-neovim-config-assistant/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

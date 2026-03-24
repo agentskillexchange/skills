@@ -57,4 +57,4 @@ npx skills add agentskillexchange/skills --skill kubernetes-crashloop-diagnoser 
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/kubernetes-crashloop-diagnoser/) • [Browse All Skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-crashloop-diagnoser/) • [Browse All Skills](https://agentskillexchange.com/)

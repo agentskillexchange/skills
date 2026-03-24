@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill minio-object-storage -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/minio-object-storage/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/minio-object-storage/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

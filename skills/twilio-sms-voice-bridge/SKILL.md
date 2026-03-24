@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill twilio-sms-voice-bridge -a code
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/twilio-sms-voice-bridge/) · [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/twilio-sms-voice-bridge/) · [Browse All Skills](https://agentskillexchange.com)

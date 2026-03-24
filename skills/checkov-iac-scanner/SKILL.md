@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill checkov-iac-scanner -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/checkov-iac-scanner/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/checkov-iac-scanner/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

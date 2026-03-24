@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill gitlab-ci-pipeline-cost-calcula
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/gitlab-ci-pipeline-cost-calculator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/gitlab-ci-pipeline-cost-calculator/)
 - [Browse All Skills](https://agentskillexchange.com/)

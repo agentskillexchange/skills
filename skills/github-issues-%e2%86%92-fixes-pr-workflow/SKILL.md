@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill github-issues-%e2%86%92-fixes-p
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/github-issues-%e2%86%92-fixes-pr-workflow/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/github-issues-%e2%86%92-fixes-pr-workflow/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

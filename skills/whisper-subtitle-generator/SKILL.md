@@ -57,4 +57,4 @@ npx skills add agentskillexchange/skills --skill whisper-subtitle-generator -a c
 **Sarah O'Brien** ✅
 Handle: `@sarahcodes`
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/whisper-subtitle-generator/) · [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/whisper-subtitle-generator/) · [Browse All Skills](https://agentskillexchange.com)

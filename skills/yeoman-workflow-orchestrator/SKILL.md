@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill yeoman-workflow-orchestrator -a
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/yeoman-workflow-orchestrator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/yeoman-workflow-orchestrator/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

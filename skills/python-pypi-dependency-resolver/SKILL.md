@@ -2,7 +2,7 @@
 name: "Python PyPI Dependency Resolver"
 description: "Resolves Python package dependencies using the PyPI JSON API and pip resolver algorithm. Generates locked requirements files and checks compatibility across Python version markers via packaging library."
 category: "Library & API Reference"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.7
 reviews: 41
@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill python-pypi-dependency-resolver
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/python-pypi-dependency-resolver/) · [Browse All Skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/python-pypi-dependency-resolver/) · [Browse All Skills](https://agentskillexchange.com/)

@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill ssl-certificate-chain-validator
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/ssl-certificate-chain-validator-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/ssl-certificate-chain-validator-2/)
 - [Browse All Skills](https://agentskillexchange.com)

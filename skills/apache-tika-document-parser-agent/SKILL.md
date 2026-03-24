@@ -58,5 +58,5 @@ Profile: [@sarahcodes](https://agentskillexchange.com/creator/sarahcodes/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/apache-tika-document-parser-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/apache-tika-document-parser-agent/)
 - [Browse All Skills](https://agentskillexchange.com/)

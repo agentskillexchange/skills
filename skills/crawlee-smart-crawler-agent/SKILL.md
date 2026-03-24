@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill crawlee-smart-crawler-agent -a 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/crawlee-smart-crawler-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/crawlee-smart-crawler-agent/)
 - [Browse All Skills](https://agentskillexchange.com/)

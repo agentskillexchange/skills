@@ -54,8 +54,8 @@ npx skills add agentskillexchange/skills --skill sonarqube-pr-gate-skill -a code
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/sonarqube-pr-gate-skill/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/sonarqube-pr-gate-skill/)
 
 ---
 
-[Browse more skills](https://agentskillexchange.com) | [Agent Skill Exchange](https://agentskillexchange.com/skill/sonarqube-pr-gate-skill/)
+[Browse more skills](https://agentskillexchange.com) | [Agent Skill Exchange](https://agentskillexchange.com/skills/sonarqube-pr-gate-skill/)

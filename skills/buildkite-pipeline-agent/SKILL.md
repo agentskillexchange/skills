@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill buildkite-pipeline-agent -a cod
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/buildkite-pipeline-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/buildkite-pipeline-agent/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

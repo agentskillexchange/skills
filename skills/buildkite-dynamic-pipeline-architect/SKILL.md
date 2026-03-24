@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill buildkite-dynamic-pipeline-arch
 
 **Alex Rivera** @arivera_dev ☑ Verified Creator
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/buildkite-dynamic-pipeline-architect/) | [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/buildkite-dynamic-pipeline-architect/) | [Browse All Skills](https://agentskillexchange.com)

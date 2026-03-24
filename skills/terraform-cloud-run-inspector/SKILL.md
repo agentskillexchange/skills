@@ -1,8 +1,8 @@
 ---
 name: "Terraform Cloud Run Inspector"
 description: "Queries the Terraform Cloud API (/api/v2/runs) to inspect plan outputs, apply logs, and state file changes. Analyzes resource diffs including module-level changes, provider version constraints, and Se"
-category: "Uncategorized"
-framework: "Unknown"
+category: "Developer Tools"
+framework: "Custom Agents"
 verification: listed
 rating: 0
 reviews: 0
@@ -55,5 +55,5 @@ npx skills add agentskillexchange/skills --skill terraform-cloud-run-inspector -
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/terraform-cloud-run-inspector/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-cloud-run-inspector/)
 - [Browse All Skills](https://agentskillexchange.com/)

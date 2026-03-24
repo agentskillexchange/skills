@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill stable-diffusion-prompt-optimiz
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/stable-diffusion-prompt-optimizer/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/stable-diffusion-prompt-optimizer/)
 
 ---
 

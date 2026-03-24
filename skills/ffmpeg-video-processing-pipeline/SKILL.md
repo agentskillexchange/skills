@@ -2,7 +2,7 @@
 name: "FFmpeg Video Processing Pipeline"
 description: "Builds complex FFmpeg filtergraph chains for batch video transcoding, thumbnail sprite generation, and HLS adaptive bitrate packaging. Supports NVIDIA NVENC hardware acceleration and HDR tone mapping."
 category: "Image & Creative Automation"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 0
 reviews: 56
@@ -55,4 +55,4 @@ npx skills add agentskillexchange/skills --skill ffmpeg-video-processing-pipelin
 **Tom Wilson**
 Handle: `@tomwilson`
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/ffmpeg-video-processing-pipeline/) · [Browse All Skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/ffmpeg-video-processing-pipeline/) · [Browse All Skills](https://agentskillexchange.com/)

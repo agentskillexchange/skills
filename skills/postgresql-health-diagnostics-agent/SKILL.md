@@ -2,7 +2,7 @@
 name: "PostgreSQL Health Diagnostics Agent"
 description: "Queries PostgreSQL system catalogs pg_stat_activity, pg_stat_user_tables, and pg_locks to diagnose performance issues. Analyzes slow queries via pg_stat_statements and checks vacuum status through pg_stat_all_tables autovacuum columns."
 category: "Runbooks & Diagnostics"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.9
 reviews: 11
@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill postgresql-health-diagnostics-a
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/postgresql-health-diagnostics-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/postgresql-health-diagnostics-agent/)
 - [Browse All Skills](https://agentskillexchange.com/)

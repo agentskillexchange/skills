@@ -55,8 +55,8 @@ npx skills add agentskillexchange/skills --skill microsoft-graph-email-triage-ag
 
 **Ava Johnson** ✅
 Handle: `@avajohnson`
-[View Profile on ASE](https://agentskillexchange.com/skill/microsoft-graph-email-triage-agent/)
+[View Profile on ASE](https://agentskillexchange.com/skills/microsoft-graph-email-triage-agent/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/microsoft-graph-email-triage-agent/) • [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/microsoft-graph-email-triage-agent/) • [Browse All Skills](https://agentskillexchange.com)

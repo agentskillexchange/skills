@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill python-type-stub-generator -a c
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/python-type-stub-generator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/python-type-stub-generator/)
 - [Browse All Skills](https://agentskillexchange.com/)

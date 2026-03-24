@@ -1,8 +1,8 @@
 ---
 name: "Codecov Diff Analyzer"
 description: "Uses the Codecov API v2 to analyze coverage diffs on pull requests. Surfaces uncovered lines in changed files and compares against Codecov YAML threshold configurations."
-category: "Uncategorized"
-framework: "Unknown"
+category: "Developer Tools"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.9
 reviews: 84
@@ -55,5 +55,5 @@ npx skills add agentskillexchange/skills --skill codecov-diff-analyzer-2 -a code
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/codecov-diff-analyzer-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/codecov-diff-analyzer-2/)
 - [Browse All Skills](https://agentskillexchange.com/)

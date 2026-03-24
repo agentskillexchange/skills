@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill wandb-run-monitor -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/wandb-run-monitor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/wandb-run-monitor/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

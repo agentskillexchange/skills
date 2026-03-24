@@ -1,8 +1,8 @@
 ---
 name: "ArgoCD Sync Status Monitor"
 description: "Connects to the Argo CD REST API (/api/v1/applications) to monitor application sync status, health checks, and drift detection. Parses Kubernetes manifests against live cluster state to identify out-o"
-category: "Uncategorized"
-framework: "Unknown"
+category: "Developer Tools"
+framework: "Custom Agents"
 verification: listed
 rating: 0
 reviews: 0
@@ -55,5 +55,5 @@ npx skills add agentskillexchange/skills --skill argocd-sync-status-monitor-4 -a
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/argocd-sync-status-monitor-4/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/argocd-sync-status-monitor-4/)
 - [Browse All Skills](https://agentskillexchange.com/)

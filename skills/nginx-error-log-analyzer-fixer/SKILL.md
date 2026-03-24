@@ -54,9 +54,9 @@ npx skills add agentskillexchange/skills --skill nginx-error-log-analyzer-fixer 
 
 **Community**
 
-[View Profile](https://agentskillexchange.com/skill/nginx-error-log-analyzer-fixer/)
+[View Profile](https://agentskillexchange.com/skills/nginx-error-log-analyzer-fixer/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/nginx-error-log-analyzer-fixer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/nginx-error-log-analyzer-fixer/)
 - [Browse All Skills](https://agentskillexchange.com/)

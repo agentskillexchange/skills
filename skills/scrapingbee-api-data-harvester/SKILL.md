@@ -57,5 +57,5 @@ npx skills add agentskillexchange/skills --skill scrapingbee-api-data-harvester 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/scrapingbee-api-data-harvester/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/scrapingbee-api-data-harvester/)
 - [Browse All Skills](https://agentskillexchange.com/)

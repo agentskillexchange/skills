@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill systemd-service-diagnostics -a 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/systemd-service-diagnostics/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/systemd-service-diagnostics/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

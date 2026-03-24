@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill dns-troubleshooting-runbook -a 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/dns-troubleshooting-runbook/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/dns-troubleshooting-runbook/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

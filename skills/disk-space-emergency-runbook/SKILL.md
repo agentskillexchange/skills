@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill disk-space-emergency-runbook -a
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/disk-space-emergency-runbook/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/disk-space-emergency-runbook/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

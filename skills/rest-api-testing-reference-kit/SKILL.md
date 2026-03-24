@@ -58,5 +58,5 @@ Handle: @samlee_dev
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/rest-api-testing-reference-kit/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/rest-api-testing-reference-kit/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

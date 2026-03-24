@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill ssl-certificate-manager-skill -
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/ssl-certificate-manager-skill/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/ssl-certificate-manager-skill/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

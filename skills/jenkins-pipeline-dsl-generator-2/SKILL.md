@@ -54,9 +54,9 @@ npx skills add agentskillexchange/skills --skill jenkins-pipeline-dsl-generator-
 
 **Community**
 
-[View Profile](https://agentskillexchange.com/skill/jenkins-pipeline-dsl-generator-2/)
+[View Profile](https://agentskillexchange.com/skills/jenkins-pipeline-dsl-generator-2/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/jenkins-pipeline-dsl-generator-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-pipeline-dsl-generator-2/)
 - [Browse All Skills](https://agentskillexchange.com)

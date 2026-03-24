@@ -54,9 +54,9 @@ npx skills add agentskillexchange/skills --skill npm-package-supply-chain-audito
 
 **Community**
 
-[View Profile](https://agentskillexchange.com/skill/npm-package-supply-chain-auditor/)
+[View Profile](https://agentskillexchange.com/skills/npm-package-supply-chain-auditor/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/npm-package-supply-chain-auditor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/npm-package-supply-chain-auditor/)
 - [Browse All Skills](https://agentskillexchange.com/)

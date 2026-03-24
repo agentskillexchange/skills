@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill nginx-config-linter-tester -a c
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/nginx-config-linter-tester/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/nginx-config-linter-tester/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

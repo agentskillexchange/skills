@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill aws-iam-privilege-escalation-au
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/aws-iam-privilege-escalation-audit-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/aws-iam-privilege-escalation-audit-2/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

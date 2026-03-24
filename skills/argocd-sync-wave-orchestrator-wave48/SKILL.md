@@ -2,7 +2,7 @@
 name: "ArgoCD Sync Wave Orchestrator"
 description: "Manages ArgoCD application sync waves and hooks using the ArgoCD API and argocd CLI. Coordinates multi-application deployment ordering with sync-wave annotations, health checks, and progressive rollout gates."
 category: "CI/CD Integrations"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: verified_metadata
 rating: 4.2
 reviews: 68
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill argocd-sync-wave-orchestrator-w
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/argocd-sync-wave-orchestrator-wave48/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/argocd-sync-wave-orchestrator-wave48/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

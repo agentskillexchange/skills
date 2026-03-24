@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill apify-actor-web-intelligence-ag
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/apify-actor-web-intelligence-agent/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/apify-actor-web-intelligence-agent/)
 
 ---
 

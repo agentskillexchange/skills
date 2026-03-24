@@ -55,8 +55,8 @@ npx skills add agentskillexchange/skills --skill cypress-component-test-generato
 
 **Ava Johnson** ✅
 Handle: `@avajohnson`
-[View Profile on ASE](https://agentskillexchange.com/skill/cypress-component-test-generator/)
+[View Profile on ASE](https://agentskillexchange.com/skills/cypress-component-test-generator/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/cypress-component-test-generator/) | [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/cypress-component-test-generator/) | [Browse All Skills](https://agentskillexchange.com)

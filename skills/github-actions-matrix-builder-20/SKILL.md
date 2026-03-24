@@ -55,7 +55,7 @@ npx skills add agentskillexchange/skills --skill github-actions-matrix-builder-2
 
 **James Kim** ✓
 Handle: `@jameskim_ai`
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/github-actions-matrix-builder-20/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/github-actions-matrix-builder-20/)
 
 ---
 

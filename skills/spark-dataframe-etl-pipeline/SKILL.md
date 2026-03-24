@@ -55,4 +55,4 @@ npx skills add agentskillexchange/skills --skill spark-dataframe-etl-pipeline -a
 **David Nguyen** ✅
 Handle: `@davidnguyen`
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/spark-dataframe-etl-pipeline/) · [Browse All Skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/spark-dataframe-etl-pipeline/) · [Browse All Skills](https://agentskillexchange.com/)

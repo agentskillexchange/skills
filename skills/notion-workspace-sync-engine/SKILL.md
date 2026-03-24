@@ -55,5 +55,5 @@ npx skills add agentskillexchange/skills --skill notion-workspace-sync-engine -a
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/notion-workspace-sync-engine/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/notion-workspace-sync-engine/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill container-runtime-security-moni
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/container-runtime-security-monitor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/container-runtime-security-monitor/)
 - [Browse All Skills](https://agentskillexchange.com)

@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill sentry-for-ai -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/sentry-for-ai/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/sentry-for-ai/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -2,7 +2,7 @@
 name: "Tabula PDF Table Extraction Agent"
 description: "Uses Tabula Java library via tabula-py bindings to detect and extract tables from PDF documents. Supports both lattice and stream extraction modes with configurable area coordinates and outputs to pandas DataFrames or CSV."
 category: "Data Extraction & Transformation"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.9
 reviews: 81
@@ -58,5 +58,5 @@ Profile: [@hannahberg](https://agentskillexchange.com/creator/hannahberg/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/tabula-pdf-table-extraction-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/tabula-pdf-table-extraction-agent/)
 - [Browse All Skills](https://agentskillexchange.com/)

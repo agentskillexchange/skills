@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill stripe-connect-integration -a c
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/stripe-connect-integration/) · [Browse All Skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/stripe-connect-integration/) · [Browse All Skills](https://agentskillexchange.com/)

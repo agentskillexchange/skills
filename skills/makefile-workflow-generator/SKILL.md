@@ -56,4 +56,4 @@ npx skills add agentskillexchange/skills --skill makefile-workflow-generator -a 
 
 
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/makefile-workflow-generator/) · [Browse All Skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/makefile-workflow-generator/) · [Browse All Skills](https://agentskillexchange.com/)

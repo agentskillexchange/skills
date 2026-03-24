@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill grafana-dashboard-sync-agent -a
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/grafana-dashboard-sync-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/grafana-dashboard-sync-agent/)
 - [Browse All Skills](https://agentskillexchange.com/)

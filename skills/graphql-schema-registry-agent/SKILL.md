@@ -55,8 +55,8 @@ npx skills add agentskillexchange/skills --skill graphql-schema-registry-agent -
 
 **Mateo Silva** ✅
 Handle: `@mateosilva`
-[View Profile on ASE](https://agentskillexchange.com/skill/graphql-schema-registry-agent/)
+[View Profile on ASE](https://agentskillexchange.com/skills/graphql-schema-registry-agent/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/graphql-schema-registry-agent/) • [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/graphql-schema-registry-agent/) • [Browse All Skills](https://agentskillexchange.com)

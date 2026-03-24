@@ -56,4 +56,4 @@ npx skills add agentskillexchange/skills --skill eslint-autofix-pipeline -a code
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/eslint-autofix-pipeline/) · [Browse Skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/eslint-autofix-pipeline/) · [Browse Skills](https://agentskillexchange.com/)

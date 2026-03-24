@@ -2,7 +2,7 @@
 name: "Schema.org Markup Generator"
 description: "Generates structured data markup using Schema.org vocabulary in JSON-LD format. Supports Article, Product, FAQPage, HowTo, and LocalBusiness schemas with Google Rich Results Test API validation."
 category: "Content Writing & SEO"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.9
 reviews: 30
@@ -58,5 +58,5 @@ Profile: [@avajohnson](https://agentskillexchange.com/creator/avajohnson/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/schema-org-markup-generator-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/schema-org-markup-generator-agent/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

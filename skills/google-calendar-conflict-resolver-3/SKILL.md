@@ -57,5 +57,5 @@ Profile: [@tomwilson](https://agentskillexchange.com/creator/tomwilson/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/google-calendar-conflict-resolver-3/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/google-calendar-conflict-resolver-3/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

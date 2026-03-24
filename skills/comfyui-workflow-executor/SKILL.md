@@ -56,9 +56,9 @@ npx skills add agentskillexchange/skills --skill comfyui-workflow-executor -a co
 
 **Mateo Silva** ✅
 Handle: `@mateosilva`
-[View Profile on ASE](https://agentskillexchange.com/skill/comfyui-workflow-executor/)
+[View Profile on ASE](https://agentskillexchange.com/skills/comfyui-workflow-executor/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/comfyui-workflow-executor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/comfyui-workflow-executor/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

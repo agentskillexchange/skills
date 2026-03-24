@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill dependency-audit -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/dependency-audit/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/dependency-audit/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

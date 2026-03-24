@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill discord-bot-manager -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/discord-bot-manager/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/discord-bot-manager/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

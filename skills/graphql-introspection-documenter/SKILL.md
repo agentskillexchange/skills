@@ -57,5 +57,5 @@ npx skills add agentskillexchange/skills --skill graphql-introspection-documente
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/graphql-introspection-documenter/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/graphql-introspection-documenter/)
 - [Browse All Skills](https://agentskillexchange.com/)

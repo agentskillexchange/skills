@@ -2,7 +2,7 @@
 name: "NPM Package Auditor"
 description: "Audits NPM packages using the NPM Registry API with dependency tree resolution and vulnerability scanning via OSV.dev API. Generates SBOM in CycloneDX format and checks license compliance against SPDX."
 category: "Developer Tools"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: listed
 rating: 0
 reviews: 0
@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill npm-package-auditor-registry-ap
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/npm-package-auditor-registry-api/) | [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/npm-package-auditor-registry-api/) | [Browse All Skills](https://agentskillexchange.com)

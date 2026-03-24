@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill sonarqube-code-analysis -a code
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/sonarqube-code-analysis/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/sonarqube-code-analysis/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

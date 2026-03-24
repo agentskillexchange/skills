@@ -60,5 +60,5 @@ npx skills add agentskillexchange/skills --skill datadog-slo-monitor -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/datadog-slo-monitor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/datadog-slo-monitor/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

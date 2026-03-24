@@ -57,5 +57,5 @@ npx skills add agentskillexchange/skills --skill podcast-transcription-pipeline-
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/podcast-transcription-pipeline-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/podcast-transcription-pipeline-agent/)
 - [Browse All Skills](https://agentskillexchange.com/)

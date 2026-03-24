@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill docker-image-layer-analyzer -a 
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/docker-image-layer-analyzer/) · [Browse All Skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/docker-image-layer-analyzer/) · [Browse All Skills](https://agentskillexchange.com/)

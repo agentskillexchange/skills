@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill cloud-cost-analysis -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/cloud-cost-analysis/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/cloud-cost-analysis/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

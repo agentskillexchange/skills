@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill linear-sprint-planner -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/linear-sprint-planner/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/linear-sprint-planner/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

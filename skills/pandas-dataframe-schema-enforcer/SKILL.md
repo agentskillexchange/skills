@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill pandas-dataframe-schema-enforce
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/pandas-dataframe-schema-enforcer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/pandas-dataframe-schema-enforcer/)
 - [Browse All Skills](https://agentskillexchange.com/)

@@ -2,7 +2,7 @@
 name: "Sigstore Cosign Container Verifier"
 description: "Verifies container image signatures and provenance using Sigstore Cosign and Rekor transparency log. Enforces supply chain policies with OPA Gatekeeper admission rules."
 category: "Security & Verification"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: listed
 rating: 0
 reviews: 0
@@ -58,4 +58,4 @@ npx skills add agentskillexchange/skills --skill sigstore-cosign-container-verif
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/sigstore-cosign-container-verifier/) · [Browse All Skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/sigstore-cosign-container-verifier/) · [Browse All Skills](https://agentskillexchange.com/)

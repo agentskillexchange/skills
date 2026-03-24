@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill apache-kafka-consumer-lag-runbo
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/apache-kafka-consumer-lag-runbook/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/apache-kafka-consumer-lag-runbook/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

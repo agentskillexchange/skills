@@ -2,7 +2,7 @@
 name: "Redis MCP Server"
 description: "MCP server exposing Redis operations to AI agents — get/set/del, hash operations, list/set/sorted set commands, pub/sub, streams, and keyspace exploration. Supports Redis Cluster and Sentinel."
 category: "Developer Tools"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.2
 reviews: 48
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill redis-mcp-server -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/redis-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/redis-mcp-server/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

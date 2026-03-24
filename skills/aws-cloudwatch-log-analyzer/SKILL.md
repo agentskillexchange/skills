@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill aws-cloudwatch-log-analyzer -a 
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/aws-cloudwatch-log-analyzer/) · [Browse All Skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/aws-cloudwatch-log-analyzer/) · [Browse All Skills](https://agentskillexchange.com/)

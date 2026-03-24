@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill gmail-thread-summarizer-action-
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/gmail-thread-summarizer-action-extractor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/gmail-thread-summarizer-action-extractor/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

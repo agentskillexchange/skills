@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill mustache-template-renderer-agen
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/mustache-template-renderer-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/mustache-template-renderer-agent/)
 - [Browse All Skills](https://agentskillexchange.com/)

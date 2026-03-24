@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill dbt-model-lineage-extractor -a 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/dbt-model-lineage-extractor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/dbt-model-lineage-extractor/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill playwright-pdf-export-automatio
 
 **Nina Volkov** @ninavolkov ✓ Verified
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/playwright-pdf-export-automation/) · [Browse All Skills](https://agentskillexchange.com/skills/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/playwright-pdf-export-automation/) · [Browse All Skills](https://agentskillexchange.com/skills/)

@@ -56,9 +56,9 @@ npx skills add agentskillexchange/skills --skill sharp-image-transform-pipeline 
 
 **Hannah Berg** 
 Handle: `@hannahberg`
-[View Profile on ASE](https://agentskillexchange.com/skill/sharp-image-transform-pipeline/)
+[View Profile on ASE](https://agentskillexchange.com/skills/sharp-image-transform-pipeline/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/sharp-image-transform-pipeline/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/sharp-image-transform-pipeline/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

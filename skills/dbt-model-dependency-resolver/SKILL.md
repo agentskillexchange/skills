@@ -56,5 +56,5 @@ npx skills add agentskillexchange/skills --skill dbt-model-dependency-resolver -
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/dbt-model-dependency-resolver/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/dbt-model-dependency-resolver/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

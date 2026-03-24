@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill puppeteer-cookie-consent-automa
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/puppeteer-cookie-consent-automator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/puppeteer-cookie-consent-automator/)
 - [Browse All Skills](https://agentskillexchange.com/)

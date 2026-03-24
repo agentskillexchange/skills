@@ -56,9 +56,9 @@ npx skills add agentskillexchange/skills --skill selenium-grid-session-distribut
 
 **Ryan O'Malley** 
 Handle: `@ryanomalley`
-[View Profile on ASE](https://agentskillexchange.com/skill/selenium-grid-session-distributor/)
+[View Profile on ASE](https://agentskillexchange.com/skills/selenium-grid-session-distributor/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/selenium-grid-session-distributor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/selenium-grid-session-distributor/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

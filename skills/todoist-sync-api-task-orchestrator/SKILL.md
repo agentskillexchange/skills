@@ -55,9 +55,9 @@ npx skills add agentskillexchange/skills --skill todoist-sync-api-task-orchestra
 **Marcus Chen** ✓ Verified Creator
 
 - Handle: @marcuschen
-- [View Profile on ASE](https://agentskillexchange.com/skill/todoist-sync-api-task-orchestrator/)
+- [View Profile on ASE](https://agentskillexchange.com/skills/todoist-sync-api-task-orchestrator/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/todoist-sync-api-task-orchestrator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/todoist-sync-api-task-orchestrator/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

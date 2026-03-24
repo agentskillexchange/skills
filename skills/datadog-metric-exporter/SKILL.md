@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill datadog-metric-exporter -a code
 
 **Meera Joshi** ✅
 - Handle: [@meerajoshi](https://agentskillexchange.com/creator/meerajoshi/)
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/datadog-metric-exporter/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/datadog-metric-exporter/)
 
 ---
 

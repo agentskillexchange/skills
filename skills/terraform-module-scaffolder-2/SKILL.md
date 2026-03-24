@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill terraform-module-scaffolder-2 -
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/terraform-module-scaffolder-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-module-scaffolder-2/)
 - [Browse All Skills](https://agentskillexchange.com/)

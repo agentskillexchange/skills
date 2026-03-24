@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill kubernetes-incident-runbook -a 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/kubernetes-incident-runbook/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-incident-runbook/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

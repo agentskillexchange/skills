@@ -57,4 +57,4 @@ npx skills add agentskillexchange/skills --skill grafana-dashboard-generator-2 -
 **Lucy Zhang** ✅
 Handle: `@lucyzhang`
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/grafana-dashboard-generator-2/) · [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/grafana-dashboard-generator-2/) · [Browse All Skills](https://agentskillexchange.com)

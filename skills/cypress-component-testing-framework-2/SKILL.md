@@ -2,7 +2,7 @@
 name: "Cypress Component Testing Framework"
 description: "Scaffolds Cypress component tests for React, Vue, and Angular apps using the Cypress CT mount API. Configures webpack/vite dev servers and generates snapshot-based visual assertions."
 category: "Browser Automation"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.4
 reviews: 43
@@ -57,5 +57,5 @@ Profile: [@aishapatel](https://agentskillexchange.com/creator/aishapatel/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/cypress-component-testing-framework-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/cypress-component-testing-framework-2/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

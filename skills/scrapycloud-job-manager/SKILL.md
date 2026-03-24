@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill scrapycloud-job-manager -a code
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/scrapycloud-job-manager/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/scrapycloud-job-manager/)
 - [Browse All Skills](https://agentskillexchange.com/)

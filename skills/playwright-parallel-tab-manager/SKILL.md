@@ -55,9 +55,9 @@ npx skills add agentskillexchange/skills --skill playwright-parallel-tab-manager
 **Hannah Berg** 
 
 - Handle: @hannahberg
-- [View Profile on ASE](https://agentskillexchange.com/skill/playwright-parallel-tab-manager/)
+- [View Profile on ASE](https://agentskillexchange.com/skills/playwright-parallel-tab-manager/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/playwright-parallel-tab-manager/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/playwright-parallel-tab-manager/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

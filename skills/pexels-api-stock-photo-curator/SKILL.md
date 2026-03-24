@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill pexels-api-stock-photo-curator 
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/pexels-api-stock-photo-curator/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/pexels-api-stock-photo-curator/)
 
 ---
 

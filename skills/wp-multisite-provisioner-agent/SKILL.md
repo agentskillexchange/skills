@@ -58,5 +58,5 @@ Profile: [@graceokafor](https://agentskillexchange.com/creator/graceokafor/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/wp-multisite-provisioner-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/wp-multisite-provisioner-agent/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

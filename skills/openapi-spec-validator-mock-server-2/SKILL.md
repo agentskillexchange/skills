@@ -54,9 +54,9 @@ npx skills add agentskillexchange/skills --skill openapi-spec-validator-mock-ser
 
 **Lucy Zhang** ✓
 Handle: @lucyzhang
-[View Profile](https://agentskillexchange.com/skill/openapi-spec-validator-mock-server-2/)
+[View Profile](https://agentskillexchange.com/skills/openapi-spec-validator-mock-server-2/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/openapi-spec-validator-mock-server-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/openapi-spec-validator-mock-server-2/)
 - [Browse All Skills](https://agentskillexchange.com/)

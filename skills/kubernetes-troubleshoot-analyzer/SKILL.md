@@ -55,4 +55,4 @@ npx skills add agentskillexchange/skills --skill kubernetes-troubleshoot-analyze
 **James Kim** @jameskim_ai
 ✓ Verified Creator
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/kubernetes-troubleshoot-analyzer/) · [Browse All Skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-troubleshoot-analyzer/) · [Browse All Skills](https://agentskillexchange.com/)

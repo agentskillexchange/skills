@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill slack-mcp-server -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/slack-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/slack-mcp-server/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

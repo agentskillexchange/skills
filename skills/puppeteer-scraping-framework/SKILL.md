@@ -55,4 +55,4 @@ npx skills add agentskillexchange/skills --skill puppeteer-scraping-framework -a
 **Marcus Chen** (@marcuschen)
 ✓ Verified Creator
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/puppeteer-scraping-framework/) | [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/puppeteer-scraping-framework/) | [Browse All Skills](https://agentskillexchange.com)

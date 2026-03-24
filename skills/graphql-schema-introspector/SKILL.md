@@ -2,7 +2,7 @@
 name: "GraphQL Schema Introspector"
 description: "Performs GraphQL schema introspection using the graphql-js reference implementation and Apollo Client devtools protocol. Generates type documentation, query complexity analysis, and schema diff reports between API versions."
 category: "Library & API Reference"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.3
 reviews: 56
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill graphql-schema-introspector -a 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/graphql-schema-introspector/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/graphql-schema-introspector/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

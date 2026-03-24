@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill spinnaker-delivery-platform -a 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/spinnaker-delivery-platform/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/spinnaker-delivery-platform/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

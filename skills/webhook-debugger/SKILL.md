@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill webhook-debugger -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/webhook-debugger/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/webhook-debugger/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -2,7 +2,7 @@
 name: "Jaeger Trace Explorer"
 description: "Queries and analyzes distributed traces in Jaeger. Finds slow spans, identifies bottlenecks, compares trace latency distributions, and generates service dependency graphs from trace data."
 category: "Monitoring & Alerts"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.4
 reviews: 77
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill jaeger-trace-explorer -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/jaeger-trace-explorer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/jaeger-trace-explorer/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

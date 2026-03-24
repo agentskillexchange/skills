@@ -58,5 +58,5 @@ Profile: [@hannahberg](https://agentskillexchange.com/creator/hannahberg/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/deepgram-nova-transcriber-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/deepgram-nova-transcriber-agent/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

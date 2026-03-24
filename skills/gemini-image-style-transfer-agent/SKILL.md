@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill gemini-image-style-transfer-age
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/gemini-image-style-transfer-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/gemini-image-style-transfer-agent/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

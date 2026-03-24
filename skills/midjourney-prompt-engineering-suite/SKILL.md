@@ -56,8 +56,8 @@ npx skills add agentskillexchange/skills --skill midjourney-prompt-engineering-s
 
 **Ryan O'Malley** 
 Handle: `@ryanomalley`
-[View Profile on ASE](https://agentskillexchange.com/skill/midjourney-prompt-engineering-suite/)
+[View Profile on ASE](https://agentskillexchange.com/skills/midjourney-prompt-engineering-suite/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/midjourney-prompt-engineering-suite/) • [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/midjourney-prompt-engineering-suite/) • [Browse All Skills](https://agentskillexchange.com)

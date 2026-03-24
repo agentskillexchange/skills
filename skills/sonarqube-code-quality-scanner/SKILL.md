@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill sonarqube-code-quality-scanner 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/sonarqube-code-quality-scanner/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/sonarqube-code-quality-scanner/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

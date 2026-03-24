@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill circleci-orb-dependency-auditor
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/circleci-orb-dependency-auditor-3/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-orb-dependency-auditor-3/)
 - [Browse All Skills](https://agentskillexchange.com/)

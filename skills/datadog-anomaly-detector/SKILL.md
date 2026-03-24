@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill datadog-anomaly-detector -a cod
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/datadog-anomaly-detector/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/datadog-anomaly-detector/)
 - [Browse All Skills](https://agentskillexchange.com/)

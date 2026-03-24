@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill xero-accounting-agent -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/xero-accounting-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/xero-accounting-agent/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

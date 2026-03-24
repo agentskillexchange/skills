@@ -2,7 +2,7 @@
 name: "Scrapy Distributed Crawler Framework"
 description: "Orchestrates large-scale web crawling using Scrapy with scrapy-redis for distributed job queuing. Integrates Splash for JavaScript rendering, stores results in MongoDB via scrapy-mongodb pipeline, and respects robots.txt with AutoThrottle."
 category: "Research & Scraping"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: listed
 rating: 0
 reviews: 0
@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill scrapy-distributed-crawler-fram
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/scrapy-distributed-crawler-framework/) · [Browse All Skills](https://agentskillexchange.com/skills/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/scrapy-distributed-crawler-framework/) · [Browse All Skills](https://agentskillexchange.com/skills/)

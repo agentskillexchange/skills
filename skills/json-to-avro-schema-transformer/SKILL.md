@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill json-to-avro-schema-transformer
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/json-to-avro-schema-transformer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/json-to-avro-schema-transformer/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

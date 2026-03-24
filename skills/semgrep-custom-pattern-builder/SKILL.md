@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill semgrep-custom-pattern-builder 
 
 **Carlos Mendez** @carlosmendez ☑ Verified Creator
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/semgrep-custom-pattern-builder/) | [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/semgrep-custom-pattern-builder/) | [Browse All Skills](https://agentskillexchange.com)

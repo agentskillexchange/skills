@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill import-cycle-analyzer -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/import-cycle-analyzer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/import-cycle-analyzer/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

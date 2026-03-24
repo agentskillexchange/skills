@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill wordpress-acf-field-group-audit
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/wordpress-acf-field-group-auditor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/wordpress-acf-field-group-auditor/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

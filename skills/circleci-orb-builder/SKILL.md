@@ -54,9 +54,9 @@ npx skills add agentskillexchange/skills --skill circleci-orb-builder -a codex
 
 **Community**
 
-[View Profile](https://agentskillexchange.com/skill/circleci-orb-builder/)
+[View Profile](https://agentskillexchange.com/skills/circleci-orb-builder/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/circleci-orb-builder/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-orb-builder/)
 - [Browse All Skills](https://agentskillexchange.com/)

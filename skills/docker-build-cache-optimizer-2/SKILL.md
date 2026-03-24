@@ -54,8 +54,8 @@ npx skills add agentskillexchange/skills --skill docker-build-cache-optimizer-2 
 
 **Sam Lee** ✅
 Handle: `@samlee_dev`
-[View Profile on ASE](https://agentskillexchange.com/skill/docker-build-cache-optimizer-2/)
+[View Profile on ASE](https://agentskillexchange.com/skills/docker-build-cache-optimizer-2/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/docker-build-cache-optimizer-2/) • [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/docker-build-cache-optimizer-2/) • [Browse All Skills](https://agentskillexchange.com)

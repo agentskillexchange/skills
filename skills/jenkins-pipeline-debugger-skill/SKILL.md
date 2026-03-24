@@ -54,8 +54,8 @@ npx skills add agentskillexchange/skills --skill jenkins-pipeline-debugger-skill
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/jenkins-pipeline-debugger-skill/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-pipeline-debugger-skill/)
 
 ---
 
-[Browse more skills](https://agentskillexchange.com) | [Agent Skill Exchange](https://agentskillexchange.com/skill/jenkins-pipeline-debugger-skill/)
+[Browse more skills](https://agentskillexchange.com) | [Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-pipeline-debugger-skill/)

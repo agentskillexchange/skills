@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill github-actions-oidc-token-valid
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/github-actions-oidc-token-validator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/github-actions-oidc-token-validator/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

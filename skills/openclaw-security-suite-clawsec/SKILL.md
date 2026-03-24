@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill openclaw-security-suite-clawsec
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/openclaw-security-suite-clawsec/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/openclaw-security-suite-clawsec/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

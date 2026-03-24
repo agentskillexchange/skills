@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill assemblyai-realtime-call-intell
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/assemblyai-realtime-call-intelligence/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/assemblyai-realtime-call-intelligence/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

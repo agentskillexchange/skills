@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill postgresql-mcp-server -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/postgresql-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/postgresql-mcp-server/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

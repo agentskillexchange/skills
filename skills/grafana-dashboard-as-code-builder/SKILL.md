@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill grafana-dashboard-as-code-build
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/grafana-dashboard-as-code-builder/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/grafana-dashboard-as-code-builder/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

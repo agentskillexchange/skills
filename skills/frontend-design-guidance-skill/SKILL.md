@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill frontend-design-guidance-skill 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/frontend-design-guidance-skill/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/frontend-design-guidance-skill/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

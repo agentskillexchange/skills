@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill scrapy-pipeline-data-extractor 
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/scrapy-pipeline-data-extractor/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/scrapy-pipeline-data-extractor/)
 
 ---
 

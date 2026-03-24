@@ -2,7 +2,7 @@
 name: "SageMaker Pipeline Orchestrator"
 description: "Builds and triggers Amazon SageMaker Pipelines using boto3 sagemaker.workflow. Registers model artifacts to SageMaker Model Registry and invokes approval workflows via UpdateModelPackage API. Pulls training job metrics from CloudWatch Logs Insights for post-run analysis."
 category: "Integrations & Connectors"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: verified_metadata
 rating: 4.9
 reviews: 44
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill sagemaker-pipeline-orchestrator
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/sagemaker-pipeline-orchestrator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/sagemaker-pipeline-orchestrator/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -55,4 +55,4 @@ npx skills add agentskillexchange/skills --skill tekton-pipeline-composer-2 -a c
 **Hannah Berg** (@hannahberg)
 Community Creator
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/tekton-pipeline-composer-2/) | [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/tekton-pipeline-composer-2/) | [Browse All Skills](https://agentskillexchange.com)

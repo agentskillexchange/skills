@@ -57,5 +57,5 @@ npx skills add agentskillexchange/skills --skill prometheus-alert-rule-synthesiz
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/prometheus-alert-rule-synthesizer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-alert-rule-synthesizer/)
 - [Browse All Skills](https://agentskillexchange.com/)

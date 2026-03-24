@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill last30days-research-briefing -a
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/last30days-research-briefing/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/last30days-research-briefing/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

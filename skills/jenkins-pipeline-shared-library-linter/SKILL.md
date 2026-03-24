@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill jenkins-pipeline-shared-library
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/jenkins-pipeline-shared-library-linter/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-pipeline-shared-library-linter/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill cypress-e2e-api-intercept-skill
 
 **Ryan O'Malley** @ryanomalley 
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/cypress-e2e-api-intercept-skill/) · [Browse All Skills](https://agentskillexchange.com/skills/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/cypress-e2e-api-intercept-skill/) · [Browse All Skills](https://agentskillexchange.com/skills/)

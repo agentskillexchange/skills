@@ -1,8 +1,8 @@
 ---
 name: "GitHub Actions Workflow Debugger"
 description: "Analyzes GitHub Actions workflow YAML files and queries the GitHub REST API (/repos/{owner}/{repo}/actions/runs) to diagnose failed runs. Inspects step logs, runner environment variables, and action v"
-category: "Uncategorized"
-framework: "Unknown"
+category: "Developer Tools"
+framework: "Custom Agents"
 verification: listed
 rating: 0
 reviews: 0
@@ -55,5 +55,5 @@ npx skills add agentskillexchange/skills --skill github-actions-workflow-debugge
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/github-actions-workflow-debugger-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/github-actions-workflow-debugger-2/)
 - [Browse All Skills](https://agentskillexchange.com/)

@@ -56,5 +56,5 @@ npx skills add agentskillexchange/skills --skill google-calendar-sync-agent-2 -a
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/google-calendar-sync-agent-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/google-calendar-sync-agent-2/)
 - [Browse All Skills](https://agentskillexchange.com/)

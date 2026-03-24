@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill plaid-financial-data-aggregator
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/plaid-financial-data-aggregator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/plaid-financial-data-aggregator/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

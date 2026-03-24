@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill storybook-component-tester -a c
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/storybook-component-tester/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/storybook-component-tester/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

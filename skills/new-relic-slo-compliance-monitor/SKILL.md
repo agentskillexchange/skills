@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill new-relic-slo-compliance-monito
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/new-relic-slo-compliance-monitor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/new-relic-slo-compliance-monitor/)
 - [Browse All Skills](https://agentskillexchange.com/)

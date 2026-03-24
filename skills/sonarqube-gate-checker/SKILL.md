@@ -1,8 +1,8 @@
 ---
 name: "SonarQube Gate Checker"
 description: "Queries the SonarQube Web API (/api/qualitygates/project_status) to evaluate quality gate conditions before merge. Reports code smells, coverage thresholds, and duplications against configurable Sonar"
-category: "Uncategorized"
-framework: "Unknown"
+category: "Developer Tools"
+framework: "Custom Agents"
 verification: listed
 rating: 0
 reviews: 0
@@ -55,5 +55,5 @@ npx skills add agentskillexchange/skills --skill sonarqube-gate-checker -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/sonarqube-gate-checker/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/sonarqube-gate-checker/)
 - [Browse All Skills](https://agentskillexchange.com/)

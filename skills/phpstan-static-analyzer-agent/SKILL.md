@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill phpstan-static-analyzer-agent -
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/phpstan-static-analyzer-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/phpstan-static-analyzer-agent/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

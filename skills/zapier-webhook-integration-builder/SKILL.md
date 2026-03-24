@@ -54,8 +54,8 @@ npx skills add agentskillexchange/skills --skill zapier-webhook-integration-buil
 
 **Fatima Al-Hassan** ✅
 Handle: `@fatimaalhassan`
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/zapier-webhook-integration-builder/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/zapier-webhook-integration-builder/)
 
 ---
 
-[Browse all skills](https://agentskillexchange.com) | [View on ASE](https://agentskillexchange.com/skill/zapier-webhook-integration-builder/)
+[Browse all skills](https://agentskillexchange.com) | [View on ASE](https://agentskillexchange.com/skills/zapier-webhook-integration-builder/)

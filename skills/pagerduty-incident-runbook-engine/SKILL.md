@@ -55,4 +55,4 @@ npx skills add agentskillexchange/skills --skill pagerduty-incident-runbook-engi
 **David Nguyen** @davidnguyen
 ✓ Verified Creator
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/pagerduty-incident-runbook-engine/) · [Browse All Skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/pagerduty-incident-runbook-engine/) · [Browse All Skills](https://agentskillexchange.com/)

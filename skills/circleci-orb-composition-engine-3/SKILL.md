@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill circleci-orb-composition-engine
 
 **Sarah O'Brien** @sarahcodes ☑ Verified Creator
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/circleci-orb-composition-engine-3/) | [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-orb-composition-engine-3/) | [Browse All Skills](https://agentskillexchange.com)

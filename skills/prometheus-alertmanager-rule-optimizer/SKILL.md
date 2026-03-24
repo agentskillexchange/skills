@@ -55,8 +55,8 @@ npx skills add agentskillexchange/skills --skill prometheus-alertmanager-rule-op
 
 **Grace Okafor** ✅
 Handle: `@graceokafor`
-[View Profile on ASE](https://agentskillexchange.com/skill/prometheus-alertmanager-rule-optimizer/)
+[View Profile on ASE](https://agentskillexchange.com/skills/prometheus-alertmanager-rule-optimizer/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/prometheus-alertmanager-rule-optimizer/) • [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-alertmanager-rule-optimizer/) • [Browse All Skills](https://agentskillexchange.com)

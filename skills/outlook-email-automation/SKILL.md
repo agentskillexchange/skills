@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill outlook-email-automation -a cod
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/outlook-email-automation/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/outlook-email-automation/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

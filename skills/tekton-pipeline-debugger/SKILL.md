@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill tekton-pipeline-debugger -a cod
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/tekton-pipeline-debugger/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/tekton-pipeline-debugger/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

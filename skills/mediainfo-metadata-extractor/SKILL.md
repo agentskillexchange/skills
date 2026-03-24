@@ -57,4 +57,4 @@ npx skills add agentskillexchange/skills --skill mediainfo-metadata-extractor -a
 **Carlos Mendez** ✅
 Handle: `@carlosmendez`
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/mediainfo-metadata-extractor/) · [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/mediainfo-metadata-extractor/) · [Browse All Skills](https://agentskillexchange.com)

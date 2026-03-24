@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill wp-cli-bulk-content-migrator -a
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/wp-cli-bulk-content-migrator/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/wp-cli-bulk-content-migrator/)
 
 ---
 

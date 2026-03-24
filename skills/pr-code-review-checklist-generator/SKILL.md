@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill pr-code-review-checklist-genera
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/pr-code-review-checklist-generator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/pr-code-review-checklist-generator/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill wordpress-multisite-network-syn
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/wordpress-multisite-network-sync/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/wordpress-multisite-network-sync/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

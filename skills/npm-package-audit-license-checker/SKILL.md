@@ -54,9 +54,9 @@ npx skills add agentskillexchange/skills --skill npm-package-audit-license-check
 
 **Community**
 
-[View Profile](https://agentskillexchange.com/skill/npm-package-audit-license-checker/)
+[View Profile](https://agentskillexchange.com/skills/npm-package-audit-license-checker/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/npm-package-audit-license-checker/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/npm-package-audit-license-checker/)
 - [Browse All Skills](https://agentskillexchange.com/)

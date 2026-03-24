@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill github-actions-ci-pipeline-buil
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/github-actions-ci-pipeline-builder-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/github-actions-ci-pipeline-builder-2/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -58,4 +58,4 @@ npx skills add agentskillexchange/skills --skill dbt-data-transformation-orchest
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/dbt-data-transformation-orchestrator/) · [Browse All Skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/dbt-data-transformation-orchestrator/) · [Browse All Skills](https://agentskillexchange.com/)

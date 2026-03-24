@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill bubble-stripe-subscription-port
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/bubble-stripe-subscription-portal/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/bubble-stripe-subscription-portal/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

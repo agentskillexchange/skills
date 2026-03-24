@@ -2,7 +2,7 @@
 name: "Prometheus Alert Runbook"
 description: "Execute structured runbook procedures triggered by Prometheus AlertManager webhooks. Queries PromQL metrics via the Prometheus HTTP API for automated incident diagnosis and escalation."
 category: "Runbooks & Diagnostics"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: verified_metadata
 rating: 0
 reviews: 0
@@ -56,5 +56,5 @@ npx skills add agentskillexchange/skills --skill prometheus-alert-runbook -a cod
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/prometheus-alert-runbook/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-alert-runbook/)
 - [Browse All Skills](https://agentskillexchange.com)

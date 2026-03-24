@@ -2,7 +2,7 @@
 name: "MySQL Query Agent"
 description: "AI agent skill for querying, analyzing, and managing MySQL databases. Supports query generation, execution plan analysis, index recommendations, and schema inspection across MySQL 5.7+ and MariaDB."
 category: "Developer Tools"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.5
 reviews: 78
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill mysql-query-agent -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/mysql-query-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/mysql-query-agent/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

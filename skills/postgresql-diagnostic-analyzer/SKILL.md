@@ -54,8 +54,8 @@ npx skills add agentskillexchange/skills --skill postgresql-diagnostic-analyzer 
 
 **Tom Wilson** 
 Handle: `@tomwilson`
-[View Profile on ASE](https://agentskillexchange.com/skill/postgresql-diagnostic-analyzer/)
+[View Profile on ASE](https://agentskillexchange.com/skills/postgresql-diagnostic-analyzer/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/postgresql-diagnostic-analyzer/) • [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/postgresql-diagnostic-analyzer/) • [Browse All Skills](https://agentskillexchange.com)

@@ -57,5 +57,5 @@ npx skills add agentskillexchange/skills --skill selenium-grid-parallel-executor
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/selenium-grid-parallel-executor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/selenium-grid-parallel-executor/)
 - [Browse All Skills](https://agentskillexchange.com/)

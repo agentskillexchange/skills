@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill youtube-chapters-generator-whis
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/youtube-chapters-generator-whisper/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/youtube-chapters-generator-whisper/)
 
 ---
 

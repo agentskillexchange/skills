@@ -55,4 +55,4 @@ npx skills add agentskillexchange/skills --skill stable-diffusion-controlnet-com
 **Lucy Zhang** ✅
 Handle: `@lucyzhang`
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/stable-diffusion-controlnet-compositor/) · [Browse All Skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/stable-diffusion-controlnet-compositor/) · [Browse All Skills](https://agentskillexchange.com/)

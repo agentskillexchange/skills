@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill parquet-to-postgresql-loader -a
 
 **Leo Park** ✓  
 Handle: `@leopark_ai`  
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/parquet-to-postgresql-loader/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/parquet-to-postgresql-loader/)
 
 ---
 

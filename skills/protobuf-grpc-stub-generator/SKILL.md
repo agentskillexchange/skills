@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill protobuf-grpc-stub-generator -a
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/protobuf-grpc-stub-generator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/protobuf-grpc-stub-generator/)
 - [Browse All Skills](https://agentskillexchange.com)

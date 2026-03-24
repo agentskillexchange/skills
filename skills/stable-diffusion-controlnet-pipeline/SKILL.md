@@ -56,8 +56,8 @@ npx skills add agentskillexchange/skills --skill stable-diffusion-controlnet-pip
 
 **Nina Volkov** ✅
 Handle: `@ninavolkov`
-[View Profile on ASE](https://agentskillexchange.com/skill/stable-diffusion-controlnet-pipeline/)
+[View Profile on ASE](https://agentskillexchange.com/skills/stable-diffusion-controlnet-pipeline/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/stable-diffusion-controlnet-pipeline/) • [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/stable-diffusion-controlnet-pipeline/) • [Browse All Skills](https://agentskillexchange.com)

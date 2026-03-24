@@ -56,9 +56,9 @@ npx skills add agentskillexchange/skills --skill microsoft-graph-mail-triage-age
 
 **Lucy Zhang** ✅
 Handle: `@lucyzhang`
-[View Profile on ASE](https://agentskillexchange.com/skill/microsoft-graph-mail-triage-agent/)
+[View Profile on ASE](https://agentskillexchange.com/skills/microsoft-graph-mail-triage-agent/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/microsoft-graph-mail-triage-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/microsoft-graph-mail-triage-agent/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

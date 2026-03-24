@@ -2,7 +2,7 @@
 name: "ArgoCD GitOps Sync Controller"
 description: "Manages ArgoCD Application and ApplicationSet resources for Kubernetes GitOps deployments. Uses the ArgoCD REST API and argocd CLI to automate sync waves, health checks, and progressive rollout configurations."
 category: "CI/CD Integrations"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: verified_metadata
 rating: 4.4
 reviews: 15
@@ -55,4 +55,4 @@ npx skills add agentskillexchange/skills --skill argocd-gitops-sync-controller -
 **Omar Farouk** @omarfarouk
 ✓ Verified Creator
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/argocd-gitops-sync-controller/) · [Browse All Skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/argocd-gitops-sync-controller/) · [Browse All Skills](https://agentskillexchange.com/)

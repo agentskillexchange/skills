@@ -2,7 +2,7 @@
 name: "Amplitude MCP Server"
 description: "Use this skill to access Amplitude product analytics, pull retention metrics, analyze A/B test results, and query user behavior data through MCP. It enables data-driven automation by making Amplitude insights accessible to agents. Trigger when you need to analyze user retention, check experiment results, or pull product metrics into automated workflows."
 category: "Data Extraction & Transformation"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.4
 reviews: 71
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill amplitude-mcp-server -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/amplitude-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/amplitude-mcp-server/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

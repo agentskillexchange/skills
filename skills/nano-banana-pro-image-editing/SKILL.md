@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill nano-banana-pro-image-editing -
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/nano-banana-pro-image-editing/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/nano-banana-pro-image-editing/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

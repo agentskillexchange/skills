@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill jinja2-template-engine-agent -a
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/jinja2-template-engine-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/jinja2-template-engine-agent/)
 - [Browse All Skills](https://agentskillexchange.com/)

@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill makefile-generator-skill -a cod
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/makefile-generator-skill/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/makefile-generator-skill/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill gitlab-ci-integration-2 -a code
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/gitlab-ci-integration-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/gitlab-ci-integration-2/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

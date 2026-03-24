@@ -57,5 +57,5 @@ npx skills add agentskillexchange/skills --skill sonarqube-rule-enforcement-agen
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/sonarqube-rule-enforcement-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/sonarqube-rule-enforcement-agent/)
 - [Browse All Skills](https://agentskillexchange.com/)

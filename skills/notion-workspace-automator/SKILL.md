@@ -58,5 +58,5 @@ Handle: @ryanomalley
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/notion-workspace-automator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/notion-workspace-automator/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

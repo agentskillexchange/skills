@@ -2,7 +2,7 @@
 name: "Kubernetes Runbook Executor"
 description: "Executes predefined Kubernetes diagnostic runbooks using kubectl commands and the Kubernetes API. Automates pod restart analysis via kubectl get events, resource quota checks, and node condition troubleshooting."
 category: "Runbooks & Diagnostics"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: verified_metadata
 rating: 4.8
 reviews: 50
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill kubernetes-runbook-executor-6 -
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/kubernetes-runbook-executor-6/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-runbook-executor-6/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

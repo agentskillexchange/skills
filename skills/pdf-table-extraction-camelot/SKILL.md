@@ -59,5 +59,5 @@ npx skills add agentskillexchange/skills --skill pdf-table-extraction-camelot -a
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/pdf-table-extraction-camelot/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/pdf-table-extraction-camelot/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

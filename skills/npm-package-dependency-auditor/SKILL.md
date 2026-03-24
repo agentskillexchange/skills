@@ -2,7 +2,7 @@
 name: "NPM Package Dependency Auditor"
 description: "Deep-audits npm package dependency trees using the npm Registry API and Socket.dev security intelligence. Identifies supply chain risks, typosquatting, and license incompatibilities across transitive dependencies."
 category: "Library & API Reference"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.3
 reviews: 73
@@ -55,8 +55,8 @@ npx skills add agentskillexchange/skills --skill npm-package-dependency-auditor 
 
 **Meera Joshi** ✅
 Handle: `@meerajoshi`
-[View Profile on ASE](https://agentskillexchange.com/skill/npm-package-dependency-auditor/)
+[View Profile on ASE](https://agentskillexchange.com/skills/npm-package-dependency-auditor/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/npm-package-dependency-auditor/) • [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/npm-package-dependency-auditor/) • [Browse All Skills](https://agentskillexchange.com)

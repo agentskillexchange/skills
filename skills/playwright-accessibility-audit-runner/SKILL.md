@@ -58,5 +58,5 @@ Profile: [@arivera_dev](https://agentskillexchange.com/creator/arivera_dev/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/playwright-accessibility-audit-runner/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/playwright-accessibility-audit-runner/)
 - [Browse All Skills](https://agentskillexchange.com/)

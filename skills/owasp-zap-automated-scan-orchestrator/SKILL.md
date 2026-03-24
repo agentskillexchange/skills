@@ -57,5 +57,5 @@ Profile: [@sarahcodes](https://agentskillexchange.com/creator/sarahcodes/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/owasp-zap-automated-scan-orchestrator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/owasp-zap-automated-scan-orchestrator/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

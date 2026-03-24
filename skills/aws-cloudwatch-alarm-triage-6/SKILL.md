@@ -54,8 +54,8 @@ npx skills add agentskillexchange/skills --skill aws-cloudwatch-alarm-triage-6 -
 
 **Ryan O'Malley** 
 Handle: `@ryanomalley`
-[View Profile on ASE](https://agentskillexchange.com/skill/aws-cloudwatch-alarm-triage-6/)
+[View Profile on ASE](https://agentskillexchange.com/skills/aws-cloudwatch-alarm-triage-6/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/aws-cloudwatch-alarm-triage-6/) • [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/aws-cloudwatch-alarm-triage-6/) • [Browse All Skills](https://agentskillexchange.com)

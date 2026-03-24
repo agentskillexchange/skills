@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill gcp-deployment-manager -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/gcp-deployment-manager/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/gcp-deployment-manager/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

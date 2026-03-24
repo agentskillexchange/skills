@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill zap-automated-security-scan-orc
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/zap-automated-security-scan-orchestrator/) · [Browse All Skills](https://agentskillexchange.com/skills/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/zap-automated-security-scan-orchestrator/) · [Browse All Skills](https://agentskillexchange.com/skills/)

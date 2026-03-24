@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill playwright-test-recorder -a cod
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/playwright-test-recorder/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/playwright-test-recorder/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

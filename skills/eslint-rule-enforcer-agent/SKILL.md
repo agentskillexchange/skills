@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill eslint-rule-enforcer-agent -a c
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/eslint-rule-enforcer-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/eslint-rule-enforcer-agent/)
 - [Browse All Skills](https://agentskillexchange.com/)

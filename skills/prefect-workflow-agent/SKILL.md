@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill prefect-workflow-agent -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/prefect-workflow-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/prefect-workflow-agent/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

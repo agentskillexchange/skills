@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill cheerio-product-price-tracker -
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/cheerio-product-price-tracker/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/cheerio-product-price-tracker/)
 
 ---
 

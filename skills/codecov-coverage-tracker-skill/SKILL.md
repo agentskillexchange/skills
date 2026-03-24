@@ -54,8 +54,8 @@ npx skills add agentskillexchange/skills --skill codecov-coverage-tracker-skill 
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/codecov-coverage-tracker-skill/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/codecov-coverage-tracker-skill/)
 
 ---
 
-[Browse more skills](https://agentskillexchange.com) | [Agent Skill Exchange](https://agentskillexchange.com/skill/codecov-coverage-tracker-skill/)
+[Browse more skills](https://agentskillexchange.com) | [Agent Skill Exchange](https://agentskillexchange.com/skills/codecov-coverage-tracker-skill/)

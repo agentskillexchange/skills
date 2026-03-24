@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill cloudflare-workers-deployer -a 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/cloudflare-workers-deployer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/cloudflare-workers-deployer/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

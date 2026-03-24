@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill cross-calendar-availability-fin
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/cross-calendar-availability-finder/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/cross-calendar-availability-finder/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

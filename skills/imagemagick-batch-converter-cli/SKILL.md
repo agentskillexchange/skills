@@ -55,9 +55,9 @@ npx skills add agentskillexchange/skills --skill imagemagick-batch-converter-cli
 **David Nguyen** ✓ Verified Creator
 
 - Handle: @davidnguyen
-- [View Profile on ASE](https://agentskillexchange.com/skill/imagemagick-batch-converter-cli/)
+- [View Profile on ASE](https://agentskillexchange.com/skills/imagemagick-batch-converter-cli/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/imagemagick-batch-converter-cli/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/imagemagick-batch-converter-cli/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

@@ -2,7 +2,7 @@
 name: "Stripe MCP Server"
 description: "Use this skill when you need to query Stripe customers, charges, subscriptions, invoices, or payment intents from your AI agent. It enables agents to look up payment data, issue refunds, create payment links, and investigate failed charges without accessing the Stripe dashboard."
 category: "Integrations & Connectors"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.3
 reviews: 44
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill stripe-mcp-server -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/stripe-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/stripe-mcp-server/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

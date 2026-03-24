@@ -57,5 +57,5 @@ Profile: [@ninavolkov](https://agentskillexchange.com/creator/ninavolkov/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/notion-workspace-sync-engine-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/notion-workspace-sync-engine-2/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

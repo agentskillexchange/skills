@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill mlflow-to-wandb-migration -a co
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/mlflow-to-wandb-migration/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/mlflow-to-wandb-migration/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

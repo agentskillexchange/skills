@@ -2,7 +2,7 @@
 name: "Datadog MCP Server"
 description: "Use this skill when you need to query Datadog metrics, search logs, inspect dashboards, or manage monitors and alerts via AI. It enables agents to perform observability tasks like investigating incidents, pulling metric data, and checking service health without leaving the AI interface."
 category: "Monitoring & Alerts"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.6
 reviews: 63
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill datadog-mcp-server -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/datadog-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/datadog-mcp-server/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

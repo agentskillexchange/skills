@@ -55,4 +55,4 @@ npx skills add agentskillexchange/skills --skill prometheus-alert-router-3 -a co
 **Aisha Patel** ✅
 Handle: @aishapatel
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/prometheus-alert-router-3/) · [Browse all skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-alert-router-3/) · [Browse all skills](https://agentskillexchange.com/)

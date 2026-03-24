@@ -54,8 +54,8 @@ npx skills add agentskillexchange/skills --skill whisper-diarization-post-proces
 
 **Hannah Berg** 
 Handle: `@hannahberg`
-[View Profile on ASE](https://agentskillexchange.com/skill/whisper-diarization-post-processor/)
+[View Profile on ASE](https://agentskillexchange.com/skills/whisper-diarization-post-processor/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/whisper-diarization-post-processor/) · [Browse All Skills](https://agentskillexchange.com/skills/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/whisper-diarization-post-processor/) · [Browse All Skills](https://agentskillexchange.com/skills/)

@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill substack-formatter -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/substack-formatter/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/substack-formatter/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

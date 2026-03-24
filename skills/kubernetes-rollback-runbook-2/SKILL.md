@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill kubernetes-rollback-runbook-2 -
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/kubernetes-rollback-runbook-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-rollback-runbook-2/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

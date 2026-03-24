@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill devcontainer-setup-agent -a cod
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/devcontainer-setup-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/devcontainer-setup-agent/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

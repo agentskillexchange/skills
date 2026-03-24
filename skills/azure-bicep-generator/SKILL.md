@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill azure-bicep-generator -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/azure-bicep-generator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/azure-bicep-generator/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

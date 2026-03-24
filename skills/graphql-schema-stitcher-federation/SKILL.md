@@ -56,5 +56,5 @@ npx skills add agentskillexchange/skills --skill graphql-schema-stitcher-federat
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/graphql-schema-stitcher-federation/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/graphql-schema-stitcher-federation/)
 - [Browse All Skills](https://agentskillexchange.com/)

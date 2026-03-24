@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill summarize -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/summarize/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/summarize/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

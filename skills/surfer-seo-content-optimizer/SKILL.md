@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill surfer-seo-content-optimizer -a
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/surfer-seo-content-optimizer/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/surfer-seo-content-optimizer/)
 
 ---
 

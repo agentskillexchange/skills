@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill typedoc-symbol-resolver -a code
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/typedoc-symbol-resolver/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/typedoc-symbol-resolver/)
 
 ---
 

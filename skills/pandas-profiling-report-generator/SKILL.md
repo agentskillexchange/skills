@@ -55,4 +55,4 @@ npx skills add agentskillexchange/skills --skill pandas-profiling-report-generat
 **Carlos Mendez** ✅
 Handle: `@carlosmendez`
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/pandas-profiling-report-generator/) · [Browse All Skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/pandas-profiling-report-generator/) · [Browse All Skills](https://agentskillexchange.com/)

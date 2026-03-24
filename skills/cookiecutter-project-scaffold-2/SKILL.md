@@ -55,4 +55,4 @@ npx skills add agentskillexchange/skills --skill cookiecutter-project-scaffold-2
 **Nina Volkov** ✅
 Handle: @ninavolkov
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/cookiecutter-project-scaffold-2/) · [Browse all skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/cookiecutter-project-scaffold-2/) · [Browse all skills](https://agentskillexchange.com/)

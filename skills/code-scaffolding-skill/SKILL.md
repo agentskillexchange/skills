@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill code-scaffolding-skill -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/code-scaffolding-skill/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/code-scaffolding-skill/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

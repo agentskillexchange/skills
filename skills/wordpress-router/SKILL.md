@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill wordpress-router -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/wordpress-router/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/wordpress-router/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

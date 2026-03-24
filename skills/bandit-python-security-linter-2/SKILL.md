@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill bandit-python-security-linter-2
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/bandit-python-security-linter-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/bandit-python-security-linter-2/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

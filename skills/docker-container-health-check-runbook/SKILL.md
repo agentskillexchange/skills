@@ -54,9 +54,9 @@ npx skills add agentskillexchange/skills --skill docker-container-health-check-r
 
 **Community**
 
-[View Profile](https://agentskillexchange.com/skill/docker-container-health-check-runbook/)
+[View Profile](https://agentskillexchange.com/skills/docker-container-health-check-runbook/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/docker-container-health-check-runbook/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/docker-container-health-check-runbook/)
 - [Browse All Skills](https://agentskillexchange.com/)

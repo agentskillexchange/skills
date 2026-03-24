@@ -54,8 +54,8 @@ npx skills add agentskillexchange/skills --skill kubernetes-rollback-runbook-3 -
 
 **Carlos Mendez** ✅
 Handle: `@carlosmendez`
-[View Profile on ASE](https://agentskillexchange.com/skill/kubernetes-rollback-runbook-3/)
+[View Profile on ASE](https://agentskillexchange.com/skills/kubernetes-rollback-runbook-3/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/kubernetes-rollback-runbook-3/) • [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-rollback-runbook-3/) • [Browse All Skills](https://agentskillexchange.com)

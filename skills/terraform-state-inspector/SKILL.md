@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill terraform-state-inspector -a co
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/terraform-state-inspector/) · [Browse All Skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-state-inspector/) · [Browse All Skills](https://agentskillexchange.com/)

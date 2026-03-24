@@ -58,5 +58,5 @@ Handle: @graceokafor
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/api-documentation-indexer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/api-documentation-indexer/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

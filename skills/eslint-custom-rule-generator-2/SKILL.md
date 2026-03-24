@@ -57,5 +57,5 @@ npx skills add agentskillexchange/skills --skill eslint-custom-rule-generator-2 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/eslint-custom-rule-generator-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/eslint-custom-rule-generator-2/)
 - [Browse All Skills](https://agentskillexchange.com/)

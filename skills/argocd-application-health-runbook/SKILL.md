@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill argocd-application-health-runbo
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/argocd-application-health-runbook/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/argocd-application-health-runbook/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill crewai-task-crew-manager -a cod
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/crewai-task-crew-manager/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/crewai-task-crew-manager/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill gmail-smart-triage-2 -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/gmail-smart-triage-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/gmail-smart-triage-2/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

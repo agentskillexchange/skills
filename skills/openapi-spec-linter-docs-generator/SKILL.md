@@ -55,8 +55,8 @@ npx skills add agentskillexchange/skills --skill openapi-spec-linter-docs-genera
 
 **Sam Lee** ✅
 Handle: `@samlee_dev`
-[View Profile on ASE](https://agentskillexchange.com/skill/openapi-spec-linter-docs-generator/)
+[View Profile on ASE](https://agentskillexchange.com/skills/openapi-spec-linter-docs-generator/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/openapi-spec-linter-docs-generator/) • [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/openapi-spec-linter-docs-generator/) • [Browse All Skills](https://agentskillexchange.com)

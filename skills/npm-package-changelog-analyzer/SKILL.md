@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill npm-package-changelog-analyzer 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/npm-package-changelog-analyzer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/npm-package-changelog-analyzer/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

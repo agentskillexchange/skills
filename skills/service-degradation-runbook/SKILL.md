@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill service-degradation-runbook -a 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/service-degradation-runbook/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/service-degradation-runbook/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

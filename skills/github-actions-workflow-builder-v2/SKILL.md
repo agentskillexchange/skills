@@ -54,9 +54,9 @@ npx skills add agentskillexchange/skills --skill github-actions-workflow-builder
 
 **Community**
 
-[View Profile](https://agentskillexchange.com/skill/github-actions-workflow-builder-v2/)
+[View Profile](https://agentskillexchange.com/skills/github-actions-workflow-builder-v2/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/github-actions-workflow-builder-v2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/github-actions-workflow-builder-v2/)
 - [Browse All Skills](https://agentskillexchange.com/)

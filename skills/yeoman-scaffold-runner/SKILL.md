@@ -55,7 +55,7 @@ npx skills add agentskillexchange/skills --skill yeoman-scaffold-runner -a codex
 
 **Ryan O'Malley**
 Handle: `@ryanomalley`
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/yeoman-scaffold-runner/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/yeoman-scaffold-runner/)
 
 ---
 

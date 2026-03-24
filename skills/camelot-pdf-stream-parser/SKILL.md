@@ -58,5 +58,5 @@ Profile: [@zoechen](https://agentskillexchange.com/creator/zoechen/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/camelot-pdf-stream-parser/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/camelot-pdf-stream-parser/)
 - [Browse All Skills](https://agentskillexchange.com/)

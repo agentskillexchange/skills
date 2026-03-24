@@ -55,5 +55,5 @@ npx skills add agentskillexchange/skills --skill playwright-session-recorder -a 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/playwright-session-recorder/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/playwright-session-recorder/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

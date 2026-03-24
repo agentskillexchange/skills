@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill wp-abilities-api -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/wp-abilities-api/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/wp-abilities-api/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

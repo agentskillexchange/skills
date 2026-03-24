@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill docker-compose-stack-builder-sd
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/docker-compose-stack-builder-sdk/) | [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/docker-compose-stack-builder-sdk/) | [Browse All Skills](https://agentskillexchange.com)

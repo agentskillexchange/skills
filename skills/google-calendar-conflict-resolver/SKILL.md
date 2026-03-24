@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill google-calendar-conflict-resolv
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/google-calendar-conflict-resolver/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/google-calendar-conflict-resolver/)
 
 ---
 

@@ -55,5 +55,5 @@ npx skills add agentskillexchange/skills --skill openapi-spec-validator-mock-ser
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/openapi-spec-validator-mock-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/openapi-spec-validator-mock-server/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

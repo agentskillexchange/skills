@@ -2,7 +2,7 @@
 name: "Kubernetes MCP Server"
 description: "Use this skill when you need to inspect Kubernetes cluster state, list pods, check deployment status, view logs, or apply manifest changes from your AI agent. It gives agents kubectl-like capabilities to manage workloads and diagnose cluster issues without direct cluster access."
 category: "Developer Tools"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.7
 reviews: 77
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill kubernetes-mcp-server -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/kubernetes-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-mcp-server/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

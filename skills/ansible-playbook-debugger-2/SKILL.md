@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill ansible-playbook-debugger-2 -a 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/ansible-playbook-debugger-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/ansible-playbook-debugger-2/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

@@ -55,9 +55,9 @@ npx skills add agentskillexchange/skills --skill selenium-grid-session-router -a
 **Omar Farouk** ✓ Verified Creator
 
 - Handle: @omarfarouk
-- [View Profile on ASE](https://agentskillexchange.com/skill/selenium-grid-session-router/)
+- [View Profile on ASE](https://agentskillexchange.com/skills/selenium-grid-session-router/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/selenium-grid-session-router/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/selenium-grid-session-router/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill jenkins-pipeline-linter-wave48 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/jenkins-pipeline-linter-wave48/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-pipeline-linter-wave48/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

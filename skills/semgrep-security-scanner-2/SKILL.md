@@ -56,5 +56,5 @@ npx skills add agentskillexchange/skills --skill semgrep-security-scanner-2 -a c
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/semgrep-security-scanner-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/semgrep-security-scanner-2/)
 - [Browse All Skills](https://agentskillexchange.com)

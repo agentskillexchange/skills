@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill load-balancer-health-runbook -a
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/load-balancer-health-runbook/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/load-balancer-health-runbook/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

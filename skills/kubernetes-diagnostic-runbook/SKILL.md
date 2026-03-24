@@ -56,4 +56,4 @@ npx skills add agentskillexchange/skills --skill kubernetes-diagnostic-runbook -
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/kubernetes-diagnostic-runbook/) · [Browse Skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-diagnostic-runbook/) · [Browse Skills](https://agentskillexchange.com/)

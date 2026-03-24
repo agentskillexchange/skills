@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill figma-design-token-extractor-3 
 
 **Tom Wilson** @tomwilson 
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/figma-design-token-extractor-3/) | [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/figma-design-token-extractor-3/) | [Browse All Skills](https://agentskillexchange.com)

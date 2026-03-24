@@ -2,7 +2,7 @@
 name: "ImageMagick Batch Processor"
 description: "Batch image processing using ImageMagick’s convert and mogrify commands with support for resize, crop, watermark, and format conversion. Integrates with libvips for high-performance thumbnail generation."
 category: "Image & Creative Automation"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: listed
 rating: 0
 reviews: 0
@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill imagemagick-batch-processor -a 
 
 **Community** · Community
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/imagemagick-batch-processor/) · [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/imagemagick-batch-processor/) · [Browse All Skills](https://agentskillexchange.com)

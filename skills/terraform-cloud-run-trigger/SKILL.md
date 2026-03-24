@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill terraform-cloud-run-trigger -a 
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/terraform-cloud-run-trigger/) · [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-cloud-run-trigger/) · [Browse All Skills](https://agentskillexchange.com)

@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill log-analysis -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/log-analysis/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/log-analysis/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

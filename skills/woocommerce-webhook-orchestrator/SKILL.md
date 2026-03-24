@@ -57,5 +57,5 @@ npx skills add agentskillexchange/skills --skill woocommerce-webhook-orchestrato
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/woocommerce-webhook-orchestrator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/woocommerce-webhook-orchestrator/)
 - [Browse All Skills](https://agentskillexchange.com/)

@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill plopjs-code-generator -a codex
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/plopjs-code-generator/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/plopjs-code-generator/)
 
 ---
 

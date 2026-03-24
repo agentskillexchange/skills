@@ -58,5 +58,5 @@ Profile: [@graceokafor](https://agentskillexchange.com/creator/graceokafor/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/ahrefs-backlink-content-planner/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/ahrefs-backlink-content-planner/)
 - [Browse All Skills](https://agentskillexchange.com/)

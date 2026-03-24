@@ -55,4 +55,4 @@ npx skills add agentskillexchange/skills --skill kafka-schema-registry-extractor
 **Sarah O'Brien** @sarahcodes
 ✓ Verified Creator
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/kafka-schema-registry-extractor/) · [Browse All Skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/kafka-schema-registry-extractor/) · [Browse All Skills](https://agentskillexchange.com/)

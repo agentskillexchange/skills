@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill notion-database-sync-agent -a c
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/notion-database-sync-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/notion-database-sync-agent/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

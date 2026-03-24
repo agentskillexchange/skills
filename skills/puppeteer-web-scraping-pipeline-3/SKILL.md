@@ -2,7 +2,7 @@
 name: "Puppeteer Web Scraping Pipeline"
 description: "Builds resilient web scraping pipelines using Puppeteer with stealth plugins. Handles Cloudflare challenges, CAPTCHAs via 2Captcha API, and dynamic content rendering with smart wait strategies."
 category: "Browser Automation"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: verified_metadata
 rating: 4.9
 reviews: 72
@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill puppeteer-web-scraping-pipeline
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/puppeteer-web-scraping-pipeline-3/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/puppeteer-web-scraping-pipeline-3/)
 - [Browse All Skills](https://agentskillexchange.com)

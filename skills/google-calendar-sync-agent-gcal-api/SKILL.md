@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill google-calendar-sync-agent-gcal
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/google-calendar-sync-agent-gcal-api/) | [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/google-calendar-sync-agent-gcal-api/) | [Browse All Skills](https://agentskillexchange.com)

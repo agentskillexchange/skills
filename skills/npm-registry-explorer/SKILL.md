@@ -55,4 +55,4 @@ npx skills add agentskillexchange/skills --skill npm-registry-explorer -a codex
 **Yuki Tanaka** ✅
 Handle: @yukitanaka
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/npm-registry-explorer/) · [Browse all skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/npm-registry-explorer/) · [Browse all skills](https://agentskillexchange.com/)

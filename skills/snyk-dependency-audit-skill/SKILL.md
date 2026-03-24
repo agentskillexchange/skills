@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill snyk-dependency-audit-skill -a 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/snyk-dependency-audit-skill/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/snyk-dependency-audit-skill/)
 - [Browse All Skills](https://agentskillexchange.com/)

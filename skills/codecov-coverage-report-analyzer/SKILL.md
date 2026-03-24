@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill codecov-coverage-report-analyze
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/codecov-coverage-report-analyzer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/codecov-coverage-report-analyzer/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

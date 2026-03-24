@@ -54,9 +54,9 @@ npx skills add agentskillexchange/skills --skill pandas-dataframe-schema-validat
 
 **Lucy Zhang** @lucyzhang  
 ✅ Verified Creator  
-[View Profile](https://agentskillexchange.com/skill/pandas-dataframe-schema-validator/)
+[View Profile](https://agentskillexchange.com/skills/pandas-dataframe-schema-validator/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/pandas-dataframe-schema-validator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/pandas-dataframe-schema-validator/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

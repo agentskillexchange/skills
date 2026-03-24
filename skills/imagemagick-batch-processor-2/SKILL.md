@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill imagemagick-batch-processor-2 -
 
 **Ryan O'Malley**
 - Handle: [@ryanomalley](https://agentskillexchange.com/creator/ryanomalley/)
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/imagemagick-batch-processor-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/imagemagick-batch-processor-2/)
 
 ---
 

@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill midjourney-prompt-optimizer -a 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/midjourney-prompt-optimizer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/midjourney-prompt-optimizer/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -54,9 +54,9 @@ npx skills add agentskillexchange/skills --skill eslint-rule-conflict-resolver -
 
 **Elena Rodriguez** @elena_dev  
 ✅ Verified Creator  
-[View Profile](https://agentskillexchange.com/skill/eslint-rule-conflict-resolver/)
+[View Profile](https://agentskillexchange.com/skills/eslint-rule-conflict-resolver/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/eslint-rule-conflict-resolver/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/eslint-rule-conflict-resolver/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

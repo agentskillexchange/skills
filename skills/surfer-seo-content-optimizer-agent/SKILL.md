@@ -58,5 +58,5 @@ Profile: [@arivera_dev](https://agentskillexchange.com/creator/arivera_dev/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/surfer-seo-content-optimizer-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/surfer-seo-content-optimizer-agent/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

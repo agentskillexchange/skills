@@ -2,7 +2,7 @@
 name: "Replicate MCP Server"
 description: "Use this skill to run any machine learning model hosted on Replicate, trigger fine-tuning jobs, and manage model deployments through MCP. It gives agents access to thousands of community and official ML models with simple API calls. Trigger when you need to run specialized ML models (image generation, audio, video, etc.) without managing GPU infrastructure."
 category: "Developer Tools"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.5
 reviews: 72
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill replicate-mcp-server -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/replicate-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/replicate-mcp-server/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

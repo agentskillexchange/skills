@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill release-notes-generator -a code
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/release-notes-generator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/release-notes-generator/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

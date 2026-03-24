@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill performance-profiling -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/performance-profiling/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/performance-profiling/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

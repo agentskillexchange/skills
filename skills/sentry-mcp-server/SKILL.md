@@ -2,7 +2,7 @@
 name: "Sentry MCP Server"
 description: "Sentry’s official MCP server connects your error monitoring stack to any MCP client. Search issues, analyze stack traces, investigate performance bottlenecks, and get AI-powered root cause analysis — all without leaving your editor or agent session."
 category: "Monitoring & Alerts"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.2
 reviews: 78
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill sentry-mcp-server -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/sentry-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/sentry-mcp-server/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

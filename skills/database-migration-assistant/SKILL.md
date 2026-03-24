@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill database-migration-assistant -a
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/database-migration-assistant/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/database-migration-assistant/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

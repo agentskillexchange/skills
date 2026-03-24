@@ -57,4 +57,4 @@ npx skills add agentskillexchange/skills --skill github-actions-matrix-builder-2
 **Marcus Chen** ✅
 Handle: `@marcuschen`
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/github-actions-matrix-builder-21/) · [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/github-actions-matrix-builder-21/) · [Browse All Skills](https://agentskillexchange.com)

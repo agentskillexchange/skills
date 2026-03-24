@@ -1,8 +1,8 @@
 ---
 name: "ESLint Rule Auditor"
 description: "Scans ESLint configuration files and runs eslint –print-config to audit rule conflicts, deprecated rules, and missing plugin dependencies. Integrates with eslint-plugin-import and @typescript-eslint/p"
-category: "Uncategorized"
-framework: "Unknown"
+category: "Developer Tools"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.0
 reviews: 71
@@ -55,5 +55,5 @@ npx skills add agentskillexchange/skills --skill eslint-rule-auditor-2 -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/eslint-rule-auditor-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/eslint-rule-auditor-2/)
 - [Browse All Skills](https://agentskillexchange.com/)

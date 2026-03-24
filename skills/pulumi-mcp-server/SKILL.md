@@ -2,7 +2,7 @@
 name: "Pulumi MCP Server"
 description: "Use this skill when you need to deploy or update cloud infrastructure using Pulumi stacks via AI. It enables agents to preview changes, run updates, check stack outputs, and manage Pulumi Cloud deployments without manual CLI interaction."
 category: "Developer Tools"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.5
 reviews: 50
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill pulumi-mcp-server -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/pulumi-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/pulumi-mcp-server/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

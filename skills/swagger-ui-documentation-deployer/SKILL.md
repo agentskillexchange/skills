@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill swagger-ui-documentation-deploy
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/swagger-ui-documentation-deployer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/swagger-ui-documentation-deployer/)
 - [Browse All Skills](https://agentskillexchange.com)

@@ -56,8 +56,8 @@ npx skills add agentskillexchange/skills --skill kubernetes-pod-diagnostics-runb
 
 **Fatima Al-Hassan** ✅
 Handle: `@fatimaalhassan`
-[View Profile on ASE](https://agentskillexchange.com/skill/kubernetes-pod-diagnostics-runbook/)
+[View Profile on ASE](https://agentskillexchange.com/skills/kubernetes-pod-diagnostics-runbook/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/kubernetes-pod-diagnostics-runbook/) • [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-pod-diagnostics-runbook/) • [Browse All Skills](https://agentskillexchange.com)

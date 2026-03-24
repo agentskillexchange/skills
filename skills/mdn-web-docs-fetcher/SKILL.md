@@ -55,7 +55,7 @@ npx skills add agentskillexchange/skills --skill mdn-web-docs-fetcher -a codex
 
 **Aisha Patel** ✓
 Handle: `@aishapatel`
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/mdn-web-docs-fetcher/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/mdn-web-docs-fetcher/)
 
 ---
 

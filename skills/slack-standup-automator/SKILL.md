@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill slack-standup-automator -a code
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/slack-standup-automator/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/slack-standup-automator/)
 
 ---
 

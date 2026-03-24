@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill python-package-api-surface-mapp
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/python-package-api-surface-mapper/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/python-package-api-surface-mapper/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

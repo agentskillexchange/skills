@@ -54,8 +54,8 @@ npx skills add agentskillexchange/skills --skill cookiecutter-project-scaffold-g
 
 **Mateo Silva** ✓
 Handle: `@mateosilva`
-[View Profile on ASE](https://agentskillexchange.com/skill/cookiecutter-project-scaffold-generator/)
+[View Profile on ASE](https://agentskillexchange.com/skills/cookiecutter-project-scaffold-generator/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/cookiecutter-project-scaffold-generator/) · [Browse All Skills](https://agentskillexchange.com/skills/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/cookiecutter-project-scaffold-generator/) · [Browse All Skills](https://agentskillexchange.com/skills/)

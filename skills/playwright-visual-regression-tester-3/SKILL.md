@@ -56,9 +56,9 @@ npx skills add agentskillexchange/skills --skill playwright-visual-regression-te
 
 **Nina Volkov** ✅
 Handle: `@ninavolkov`
-[View Profile on ASE](https://agentskillexchange.com/skill/playwright-visual-regression-tester-3/)
+[View Profile on ASE](https://agentskillexchange.com/skills/playwright-visual-regression-tester-3/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/playwright-visual-regression-tester-3/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/playwright-visual-regression-tester-3/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

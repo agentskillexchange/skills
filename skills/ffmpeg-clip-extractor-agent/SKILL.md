@@ -58,5 +58,5 @@ Profile: [@mateosilva](https://agentskillexchange.com/creator/mateosilva/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/ffmpeg-clip-extractor-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/ffmpeg-clip-extractor-agent/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

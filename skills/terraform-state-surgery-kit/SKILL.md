@@ -56,4 +56,4 @@ npx skills add agentskillexchange/skills --skill terraform-state-surgery-kit -a 
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/terraform-state-surgery-kit/) | [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-state-surgery-kit/) | [Browse All Skills](https://agentskillexchange.com)

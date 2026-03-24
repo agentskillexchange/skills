@@ -2,7 +2,7 @@
 name: "ArgoCD MCP Server"
 description: "Use this skill when you need to deploy applications via ArgoCD, check sync status, roll back deployments, or view application health from your AI agent. It connects to ArgoCD’s API to give agents full GitOps deployment control without requiring kubectl access."
 category: "Developer Tools"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.8
 reviews: 84
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill argocd-mcp-server -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/argocd-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/argocd-mcp-server/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

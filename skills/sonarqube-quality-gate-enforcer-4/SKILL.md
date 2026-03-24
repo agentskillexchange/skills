@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-enforcer
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/sonarqube-quality-gate-enforcer-4/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/sonarqube-quality-gate-enforcer-4/)
 - [Browse All Skills](https://agentskillexchange.com/)

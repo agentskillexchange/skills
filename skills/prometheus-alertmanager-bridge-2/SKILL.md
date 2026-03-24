@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill prometheus-alertmanager-bridge-
 
 **Fatima Al-Hassan** ✅
 - Handle: [@fatimaalhassan](https://agentskillexchange.com/creator/fatimaalhassan/)
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/prometheus-alertmanager-bridge-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-alertmanager-bridge-2/)
 
 ---
 

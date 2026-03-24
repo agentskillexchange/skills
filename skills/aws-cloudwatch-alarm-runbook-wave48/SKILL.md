@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill aws-cloudwatch-alarm-runbook-wa
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/aws-cloudwatch-alarm-runbook-wave48/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/aws-cloudwatch-alarm-runbook-wave48/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

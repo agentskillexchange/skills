@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill heroku-release-rollback-assista
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/heroku-release-rollback-assistant/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/heroku-release-rollback-assistant/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

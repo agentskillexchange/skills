@@ -55,4 +55,4 @@ npx skills add agentskillexchange/skills --skill github-actions-matrix-optimizer
 **Leo Park** @leopark_ai
 ✓ Verified Creator
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/github-actions-matrix-optimizer-7/) · [Browse All Skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/github-actions-matrix-optimizer-7/) · [Browse All Skills](https://agentskillexchange.com/)

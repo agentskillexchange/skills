@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill ssl-certificate-auditor-agent -
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/ssl-certificate-auditor-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/ssl-certificate-auditor-agent/)
 - [Browse All Skills](https://agentskillexchange.com)

@@ -55,8 +55,8 @@ npx skills add agentskillexchange/skills --skill google-calendar-smart-scheduler
 
 **Leo Park** ✅
 Handle: `@leopark_ai`
-[View Profile on ASE](https://agentskillexchange.com/skill/google-calendar-smart-scheduler-2/)
+[View Profile on ASE](https://agentskillexchange.com/skills/google-calendar-smart-scheduler-2/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/google-calendar-smart-scheduler-2/) • [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/google-calendar-smart-scheduler-2/) • [Browse All Skills](https://agentskillexchange.com)

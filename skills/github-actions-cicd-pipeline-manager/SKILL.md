@@ -54,8 +54,8 @@ npx skills add agentskillexchange/skills --skill github-actions-cicd-pipeline-ma
 
 **Tom Wilson** 
 Handle: `@tomwilson`
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/github-actions-cicd-pipeline-manager/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/github-actions-cicd-pipeline-manager/)
 
 ---
 
-[Browse all skills](https://agentskillexchange.com) | [View on ASE](https://agentskillexchange.com/skill/github-actions-cicd-pipeline-manager/)
+[Browse all skills](https://agentskillexchange.com) | [View on ASE](https://agentskillexchange.com/skills/github-actions-cicd-pipeline-manager/)

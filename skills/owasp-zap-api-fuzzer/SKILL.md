@@ -56,5 +56,5 @@ npx skills add agentskillexchange/skills --skill owasp-zap-api-fuzzer -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/owasp-zap-api-fuzzer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/owasp-zap-api-fuzzer/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

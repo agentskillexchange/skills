@@ -55,7 +55,7 @@ npx skills add agentskillexchange/skills --skill plopjs-micro-generator-2 -a cod
 
 **Meera Joshi** ✓
 Handle: `@meerajoshi`
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/plopjs-micro-generator-2/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/plopjs-micro-generator-2/)
 
 ---
 

@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill circleci-orb-configurator -a co
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/circleci-orb-configurator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-orb-configurator/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

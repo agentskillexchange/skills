@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill superagi-agent-runner -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/superagi-agent-runner/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/superagi-agent-runner/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

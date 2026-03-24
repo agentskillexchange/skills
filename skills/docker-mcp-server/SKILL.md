@@ -2,7 +2,7 @@
 name: "Docker MCP Server"
 description: "Use this skill when you need to list running containers, inspect images, view container logs, or manage Docker volumes and networks from your AI agent. It enables agents to perform container management tasks and debug Docker-based applications without direct terminal access."
 category: "Developer Tools"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.5
 reviews: 3
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill docker-mcp-server -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/docker-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/docker-mcp-server/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

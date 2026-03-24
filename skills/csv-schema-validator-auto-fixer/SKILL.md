@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill csv-schema-validator-auto-fixer
 
 **Zoe Chen** ✓  
 Handle: `@zoechen`  
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/csv-schema-validator-auto-fixer/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/csv-schema-validator-auto-fixer/)
 
 ---
 

@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill playwright-page-data-extractor 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/playwright-page-data-extractor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/playwright-page-data-extractor/)
 - [Browse All Skills](https://agentskillexchange.com/)

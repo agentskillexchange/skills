@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill svg-animation-builder -a codex
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/svg-animation-builder/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/svg-animation-builder/)
 
 ---
 

@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill npm-package-audit-analyzer -a c
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/npm-package-audit-analyzer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/npm-package-audit-analyzer/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

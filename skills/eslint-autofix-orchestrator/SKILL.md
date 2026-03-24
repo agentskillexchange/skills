@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill eslint-autofix-orchestrator -a 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/eslint-autofix-orchestrator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/eslint-autofix-orchestrator/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

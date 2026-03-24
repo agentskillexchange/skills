@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill conftest-policy-tester -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/conftest-policy-tester/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/conftest-policy-tester/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

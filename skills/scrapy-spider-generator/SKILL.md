@@ -54,9 +54,9 @@ npx skills add agentskillexchange/skills --skill scrapy-spider-generator -a code
 
 **Community**
 
-[View Profile](https://agentskillexchange.com/skill/scrapy-spider-generator/)
+[View Profile](https://agentskillexchange.com/skills/scrapy-spider-generator/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/scrapy-spider-generator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/scrapy-spider-generator/)
 - [Browse All Skills](https://agentskillexchange.com)

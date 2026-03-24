@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill tekton-pipeline-task-assembler 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/tekton-pipeline-task-assembler/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/tekton-pipeline-task-assembler/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

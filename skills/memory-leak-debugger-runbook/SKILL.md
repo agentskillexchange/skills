@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill memory-leak-debugger-runbook -a
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/memory-leak-debugger-runbook/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/memory-leak-debugger-runbook/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

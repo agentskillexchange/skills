@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill cache-miss-storm-runbook -a cod
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/cache-miss-storm-runbook/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/cache-miss-storm-runbook/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

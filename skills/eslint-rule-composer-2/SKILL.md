@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill eslint-rule-composer-2 -a codex
 
 **James Kim** @jameskim_ai ☑ Verified Creator
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/eslint-rule-composer-2/) | [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/eslint-rule-composer-2/) | [Browse All Skills](https://agentskillexchange.com)

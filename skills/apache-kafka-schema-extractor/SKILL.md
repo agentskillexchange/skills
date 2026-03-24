@@ -60,5 +60,5 @@ npx skills add agentskillexchange/skills --skill apache-kafka-schema-extractor -
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/apache-kafka-schema-extractor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/apache-kafka-schema-extractor/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

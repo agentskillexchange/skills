@@ -55,8 +55,8 @@ npx skills add agentskillexchange/skills --skill swagger-codegen-template-custom
 
 **Hannah Berg** 
 Handle: `@hannahberg`
-[View Profile on ASE](https://agentskillexchange.com/skill/swagger-codegen-template-customizer/)
+[View Profile on ASE](https://agentskillexchange.com/skills/swagger-codegen-template-customizer/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/swagger-codegen-template-customizer/) • [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/swagger-codegen-template-customizer/) • [Browse All Skills](https://agentskillexchange.com)

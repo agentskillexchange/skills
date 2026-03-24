@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill tmux-remote-control-skill -a co
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/tmux-remote-control-skill/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/tmux-remote-control-skill/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

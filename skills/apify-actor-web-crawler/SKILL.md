@@ -57,5 +57,5 @@ npx skills add agentskillexchange/skills --skill apify-actor-web-crawler -a code
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/apify-actor-web-crawler/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/apify-actor-web-crawler/)
 - [Browse All Skills](https://agentskillexchange.com/)

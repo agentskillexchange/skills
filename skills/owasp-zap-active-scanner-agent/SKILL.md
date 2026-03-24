@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill owasp-zap-active-scanner-agent 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/owasp-zap-active-scanner-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/owasp-zap-active-scanner-agent/)
 - [Browse All Skills](https://agentskillexchange.com)

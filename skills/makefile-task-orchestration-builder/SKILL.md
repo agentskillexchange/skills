@@ -56,4 +56,4 @@ npx skills add agentskillexchange/skills --skill makefile-task-orchestration-bui
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/makefile-task-orchestration-builder/) | [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/makefile-task-orchestration-builder/) | [Browse All Skills](https://agentskillexchange.com)

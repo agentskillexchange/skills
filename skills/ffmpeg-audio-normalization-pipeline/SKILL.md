@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill ffmpeg-audio-normalization-pipe
 
 **Meera Joshi** @meerajoshi ✓ Verified
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/ffmpeg-audio-normalization-pipeline/) · [Browse All Skills](https://agentskillexchange.com/skills/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/ffmpeg-audio-normalization-pipeline/) · [Browse All Skills](https://agentskillexchange.com/skills/)

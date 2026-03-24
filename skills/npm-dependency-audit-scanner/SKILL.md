@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill npm-dependency-audit-scanner -a
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/npm-dependency-audit-scanner/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/npm-dependency-audit-scanner/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

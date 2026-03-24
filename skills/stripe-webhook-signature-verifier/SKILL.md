@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill stripe-webhook-signature-verifi
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/stripe-webhook-signature-verifier/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/stripe-webhook-signature-verifier/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

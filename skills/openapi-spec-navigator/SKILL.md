@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill openapi-spec-navigator -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/openapi-spec-navigator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/openapi-spec-navigator/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

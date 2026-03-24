@@ -58,4 +58,4 @@ npx skills add agentskillexchange/skills --skill owasp-zap-api-security-tester -
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/owasp-zap-api-security-tester/) · [Browse All Skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/owasp-zap-api-security-tester/) · [Browse All Skills](https://agentskillexchange.com/)

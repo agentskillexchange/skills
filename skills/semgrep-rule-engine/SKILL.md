@@ -56,4 +56,4 @@ npx skills add agentskillexchange/skills --skill semgrep-rule-engine -a codex
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/semgrep-rule-engine/) · [Browse Skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/semgrep-rule-engine/) · [Browse Skills](https://agentskillexchange.com/)

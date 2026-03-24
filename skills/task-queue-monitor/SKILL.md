@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill task-queue-monitor -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/task-queue-monitor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/task-queue-monitor/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

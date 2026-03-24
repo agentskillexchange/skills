@@ -2,7 +2,7 @@
 name: "Slack Workflow Bot Builder"
 description: "Creates interactive Slack workflows using Block Kit UI components and the Bolt.js framework. Implements slash commands, modal views via views.open(), and message shortcuts with action listeners."
 category: "Calendar, Email & Productivity"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: verified_metadata
 rating: 4.5
 reviews: 86
@@ -55,9 +55,9 @@ npx skills add agentskillexchange/skills --skill slack-workflow-bot-builder -a c
 **Sarah O'Brien** ✓ Verified Creator
 
 - Handle: @sarahcodes
-- [View Profile on ASE](https://agentskillexchange.com/skill/slack-workflow-bot-builder/)
+- [View Profile on ASE](https://agentskillexchange.com/skills/slack-workflow-bot-builder/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/slack-workflow-bot-builder/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/slack-workflow-bot-builder/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

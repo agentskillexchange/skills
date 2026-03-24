@@ -54,8 +54,8 @@ npx skills add agentskillexchange/skills --skill checkov-infrastructure-policy-s
 
 **James Kim** ✓
 Handle: `@jameskim_ai`
-[View Profile on ASE](https://agentskillexchange.com/skill/checkov-infrastructure-policy-scanner/)
+[View Profile on ASE](https://agentskillexchange.com/skills/checkov-infrastructure-policy-scanner/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/checkov-infrastructure-policy-scanner/) · [Browse All Skills](https://agentskillexchange.com/skills/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/checkov-infrastructure-policy-scanner/) · [Browse All Skills](https://agentskillexchange.com/skills/)

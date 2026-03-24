@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill cypress-component-testing-frame
 
 **Community** · Community
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/cypress-component-testing-framework/) · [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/cypress-component-testing-framework/) · [Browse All Skills](https://agentskillexchange.com)

@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill docker-container-health-inspect
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/docker-container-health-inspector-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/docker-container-health-inspector-2/)
 - [Browse All Skills](https://agentskillexchange.com/)

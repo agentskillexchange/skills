@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill slack-channel-summarizer-triage
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/slack-channel-summarizer-triage-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/slack-channel-summarizer-triage-2/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

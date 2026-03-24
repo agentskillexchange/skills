@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill playwright-multi-tab-session-ma
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/playwright-multi-tab-session-manager/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/playwright-multi-tab-session-manager/)
 
 ---
 

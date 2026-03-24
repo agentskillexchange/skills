@@ -60,5 +60,5 @@ npx skills add agentskillexchange/skills --skill dbt-model-lineage-analyzer -a c
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/dbt-model-lineage-analyzer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/dbt-model-lineage-analyzer/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

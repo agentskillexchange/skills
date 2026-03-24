@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill load-testing-with-k6-and-locust
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/load-testing-with-k6-and-locust/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/load-testing-with-k6-and-locust/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

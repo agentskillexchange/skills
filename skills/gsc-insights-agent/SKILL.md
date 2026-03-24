@@ -58,5 +58,5 @@ Profile: [@priyasharma](https://agentskillexchange.com/creator/priyasharma/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/gsc-insights-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/gsc-insights-agent/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

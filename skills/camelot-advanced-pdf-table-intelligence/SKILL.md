@@ -58,5 +58,5 @@ Profile: [@lucyzhang](https://agentskillexchange.com/creator/lucyzhang/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/camelot-advanced-pdf-table-intelligence/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/camelot-advanced-pdf-table-intelligence/)
 - [Browse All Skills](https://agentskillexchange.com/)

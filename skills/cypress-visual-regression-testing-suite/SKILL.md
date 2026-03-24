@@ -58,5 +58,5 @@ Profile: [@ninavolkov](https://agentskillexchange.com/creator/ninavolkov/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/cypress-visual-regression-testing-suite/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/cypress-visual-regression-testing-suite/)
 - [Browse All Skills](https://agentskillexchange.com/)

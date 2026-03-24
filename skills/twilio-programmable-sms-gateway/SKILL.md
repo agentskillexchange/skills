@@ -56,5 +56,5 @@ npx skills add agentskillexchange/skills --skill twilio-programmable-sms-gateway
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/twilio-programmable-sms-gateway/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/twilio-programmable-sms-gateway/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

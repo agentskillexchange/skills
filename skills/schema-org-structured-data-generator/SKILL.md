@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill schema-org-structured-data-gene
 
 **Grace Okafor** @graceokafor ✓ Verified
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/schema-org-structured-data-generator/) · [Browse All Skills](https://agentskillexchange.com/skills/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/schema-org-structured-data-generator/) · [Browse All Skills](https://agentskillexchange.com/skills/)

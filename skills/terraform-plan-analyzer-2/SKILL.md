@@ -57,5 +57,5 @@ npx skills add agentskillexchange/skills --skill terraform-plan-analyzer-2 -a co
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/terraform-plan-analyzer-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-plan-analyzer-2/)
 - [Browse All Skills](https://agentskillexchange.com/)

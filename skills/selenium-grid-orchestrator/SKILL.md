@@ -55,8 +55,8 @@ npx skills add agentskillexchange/skills --skill selenium-grid-orchestrator -a c
 
 **Leo Park** ✅
 Handle: `@leopark_ai`
-[View Profile on ASE](https://agentskillexchange.com/skill/selenium-grid-orchestrator/)
+[View Profile on ASE](https://agentskillexchange.com/skills/selenium-grid-orchestrator/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/selenium-grid-orchestrator/) | [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/selenium-grid-orchestrator/) | [Browse All Skills](https://agentskillexchange.com)

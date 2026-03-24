@@ -58,5 +58,5 @@ Profile: [@marcuschen](https://agentskillexchange.com/creator/marcuschen/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/trivy-container-security-scanner/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/trivy-container-security-scanner/)
 - [Browse All Skills](https://agentskillexchange.com/)

@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill yeoman-generator-builder -a cod
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/yeoman-generator-builder/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/yeoman-generator-builder/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

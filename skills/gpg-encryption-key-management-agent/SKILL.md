@@ -58,4 +58,4 @@ npx skills add agentskillexchange/skills --skill gpg-encryption-key-management-a
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/gpg-encryption-key-management-agent/) · [Browse All Skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/gpg-encryption-key-management-agent/) · [Browse All Skills](https://agentskillexchange.com/)

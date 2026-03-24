@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill ms-outlook-mail-sorter -a codex
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/ms-outlook-mail-sorter/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/ms-outlook-mail-sorter/)
 
 ---
 

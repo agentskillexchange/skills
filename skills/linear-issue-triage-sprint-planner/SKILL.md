@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill linear-issue-triage-sprint-plan
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/linear-issue-triage-sprint-planner/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/linear-issue-triage-sprint-planner/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill api-documentation-generator -a 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/api-documentation-generator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/api-documentation-generator/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

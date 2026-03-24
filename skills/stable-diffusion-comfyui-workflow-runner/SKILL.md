@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill stable-diffusion-comfyui-workfl
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/stable-diffusion-comfyui-workflow-runner/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/stable-diffusion-comfyui-workflow-runner/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

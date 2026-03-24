@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill deepsource-static-analysis -a c
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/deepsource-static-analysis/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/deepsource-static-analysis/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -54,8 +54,8 @@ npx skills add agentskillexchange/skills --skill datadog-apm-trace-analyzer -a c
 
 **Hannah Berg** 
 Handle: `@hannahberg`
-[View Profile on ASE](https://agentskillexchange.com/skill/datadog-apm-trace-analyzer/)
+[View Profile on ASE](https://agentskillexchange.com/skills/datadog-apm-trace-analyzer/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/datadog-apm-trace-analyzer/) · [Browse All Skills](https://agentskillexchange.com/skills/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/datadog-apm-trace-analyzer/) · [Browse All Skills](https://agentskillexchange.com/skills/)

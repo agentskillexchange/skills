@@ -55,9 +55,9 @@ npx skills add agentskillexchange/skills --skill puppeteer-screenshot-diff-engin
 **Leo Park** ✓ Verified Creator
 
 - Handle: @leopark_ai
-- [View Profile on ASE](https://agentskillexchange.com/skill/puppeteer-screenshot-diff-engine/)
+- [View Profile on ASE](https://agentskillexchange.com/skills/puppeteer-screenshot-diff-engine/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/puppeteer-screenshot-diff-engine/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/puppeteer-screenshot-diff-engine/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

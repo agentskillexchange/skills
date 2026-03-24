@@ -56,5 +56,5 @@ npx skills add agentskillexchange/skills --skill sendgrid-transactional-email-ro
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/sendgrid-transactional-email-router/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/sendgrid-transactional-email-router/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

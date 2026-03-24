@@ -55,8 +55,8 @@ npx skills add agentskillexchange/skills --skill imap-inbox-triage-agent -a code
 
 **Priya Sharma** ✅
 Handle: `@priyasharma`
-[View Profile on ASE](https://agentskillexchange.com/skill/imap-inbox-triage-agent/)
+[View Profile on ASE](https://agentskillexchange.com/skills/imap-inbox-triage-agent/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/imap-inbox-triage-agent/) | [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/imap-inbox-triage-agent/) | [Browse All Skills](https://agentskillexchange.com)

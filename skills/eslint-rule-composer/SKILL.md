@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill eslint-rule-composer -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/eslint-rule-composer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/eslint-rule-composer/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

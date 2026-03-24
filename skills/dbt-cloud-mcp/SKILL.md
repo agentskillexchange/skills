@@ -2,7 +2,7 @@
 name: "dbt Cloud MCP"
 description: "Connect AI agents directly to dbt Cloud via the Model Context Protocol, enabling natural-language querying of dbt models, lineage graphs, and job run status. Trigger dbt job runs, inspect model documentation, and retrieve compiled SQL from within any MCP-compatible agent workflow."
 category: "Data Extraction & Transformation"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.8
 reviews: 20
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill dbt-cloud-mcp -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/dbt-cloud-mcp/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/dbt-cloud-mcp/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

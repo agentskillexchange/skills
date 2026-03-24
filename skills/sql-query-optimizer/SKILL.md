@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill sql-query-optimizer -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/sql-query-optimizer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/sql-query-optimizer/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

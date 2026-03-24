@@ -57,5 +57,5 @@ npx skills add agentskillexchange/skills --skill git-bisect-automation-agent -a 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/git-bisect-automation-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/git-bisect-automation-agent/)
 - [Browse All Skills](https://agentskillexchange.com/)

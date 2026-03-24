@@ -57,4 +57,4 @@ npx skills add agentskillexchange/skills --skill zod-schema-generator -a codex
 **Omar Farouk** ✅
 @omarfarouk
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/zod-schema-generator/) • [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/zod-schema-generator/) • [Browse All Skills](https://agentskillexchange.com)

@@ -57,5 +57,5 @@ npx skills add agentskillexchange/skills --skill buf-protobuf-linter -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/buf-protobuf-linter/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/buf-protobuf-linter/)
 - [Browse All Skills](https://agentskillexchange.com/)

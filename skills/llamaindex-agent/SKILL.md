@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill llamaindex-agent -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/llamaindex-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/llamaindex-agent/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

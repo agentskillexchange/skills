@@ -56,5 +56,5 @@ npx skills add agentskillexchange/skills --skill parquet-column-pruning-optimize
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/parquet-column-pruning-optimizer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/parquet-column-pruning-optimizer/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

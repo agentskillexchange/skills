@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill prometheus-alert-rule-tester -a
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/prometheus-alert-rule-tester/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-alert-rule-tester/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

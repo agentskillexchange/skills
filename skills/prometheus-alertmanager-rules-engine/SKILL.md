@@ -54,9 +54,9 @@ npx skills add agentskillexchange/skills --skill prometheus-alertmanager-rules-e
 
 **Nina Volkov** ✓
 Handle: @ninavolkov
-[View Profile](https://agentskillexchange.com/skill/prometheus-alertmanager-rules-engine/)
+[View Profile](https://agentskillexchange.com/skills/prometheus-alertmanager-rules-engine/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/prometheus-alertmanager-rules-engine/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-alertmanager-rules-engine/)
 - [Browse All Skills](https://agentskillexchange.com/)

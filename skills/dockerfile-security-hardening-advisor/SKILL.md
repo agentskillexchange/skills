@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill dockerfile-security-hardening-a
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/dockerfile-security-hardening-advisor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/dockerfile-security-hardening-advisor/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

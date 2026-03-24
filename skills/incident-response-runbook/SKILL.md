@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill incident-response-runbook -a co
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/incident-response-runbook/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/incident-response-runbook/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

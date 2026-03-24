@@ -55,9 +55,9 @@ npx skills add agentskillexchange/skills --skill figma-rest-api-asset-exporter -
 **Elena Rodriguez** ✓ Verified Creator
 
 - Handle: @elena_dev
-- [View Profile on ASE](https://agentskillexchange.com/skill/figma-rest-api-asset-exporter/)
+- [View Profile on ASE](https://agentskillexchange.com/skills/figma-rest-api-asset-exporter/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/figma-rest-api-asset-exporter/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/figma-rest-api-asset-exporter/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

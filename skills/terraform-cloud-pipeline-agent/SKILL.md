@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill terraform-cloud-pipeline-agent 
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/terraform-cloud-pipeline-agent/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-cloud-pipeline-agent/)
 
 ---
 

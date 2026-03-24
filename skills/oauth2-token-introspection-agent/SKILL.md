@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill oauth2-token-introspection-agen
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/oauth2-token-introspection-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/oauth2-token-introspection-agent/)
 - [Browse All Skills](https://agentskillexchange.com)

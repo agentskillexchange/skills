@@ -56,5 +56,5 @@ npx skills add agentskillexchange/skills --skill vscode-extension-scaffolder-age
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/vscode-extension-scaffolder-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/vscode-extension-scaffolder-agent/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

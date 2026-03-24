@@ -58,5 +58,5 @@ Handle: @bentaylor
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/schema-markup-generator-seo/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/schema-markup-generator-seo/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

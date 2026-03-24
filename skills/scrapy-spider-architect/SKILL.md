@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill scrapy-spider-architect -a code
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/scrapy-spider-architect/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/scrapy-spider-architect/)
 - [Browse All Skills](https://agentskillexchange.com/)

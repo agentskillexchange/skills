@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill shodan-network-reconnaissance-a
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/shodan-network-reconnaissance-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/shodan-network-reconnaissance-agent/)
 - [Browse All Skills](https://agentskillexchange.com/)

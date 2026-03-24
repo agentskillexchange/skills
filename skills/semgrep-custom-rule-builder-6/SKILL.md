@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill semgrep-custom-rule-builder-6 -
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/semgrep-custom-rule-builder-6/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/semgrep-custom-rule-builder-6/)
 - [Browse All Skills](https://agentskillexchange.com)

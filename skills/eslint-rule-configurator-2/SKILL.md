@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill eslint-rule-configurator-2 -a c
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/eslint-rule-configurator-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/eslint-rule-configurator-2/)
 - [Browse All Skills](https://agentskillexchange.com/)

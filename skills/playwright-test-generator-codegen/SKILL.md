@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill playwright-test-generator-codeg
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/playwright-test-generator-codegen/) · [Browse All Skills](https://agentskillexchange.com/skills/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/playwright-test-generator-codegen/) · [Browse All Skills](https://agentskillexchange.com/skills/)

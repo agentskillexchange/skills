@@ -54,9 +54,9 @@ npx skills add agentskillexchange/skills --skill playwright-network-interceptor 
 
 **Community**
 
-[View Profile](https://agentskillexchange.com/skill/playwright-network-interceptor/)
+[View Profile](https://agentskillexchange.com/skills/playwright-network-interceptor/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/playwright-network-interceptor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/playwright-network-interceptor/)
 - [Browse All Skills](https://agentskillexchange.com)

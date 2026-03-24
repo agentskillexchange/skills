@@ -55,4 +55,4 @@ npx skills add agentskillexchange/skills --skill sbom-generator-cyclonedx -a cod
 **Marcus Chen** @marcuschen
 ✓ Verified Creator
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/sbom-generator-cyclonedx/) · [Browse All Skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/sbom-generator-cyclonedx/) · [Browse All Skills](https://agentskillexchange.com/)

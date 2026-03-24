@@ -1,8 +1,8 @@
 ---
 name: "Nginx Error Log Parser"
 description: "Parses nginx error.log and access.log files using pattern matching for 5xx status codes, upstream timeouts, and SSL handshake failures. Correlates error spikes with nginx -T configuration dumps to ide"
-category: "Uncategorized"
-framework: "Unknown"
+category: "Developer Tools"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.9
 reviews: 47
@@ -55,5 +55,5 @@ npx skills add agentskillexchange/skills --skill nginx-error-log-parser -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/nginx-error-log-parser/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/nginx-error-log-parser/)
 - [Browse All Skills](https://agentskillexchange.com/)

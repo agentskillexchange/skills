@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill protobuf-schema-generator-from-
 
 **Alex Rivera** ✓  
 Handle: `@arivera_dev`  
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/protobuf-schema-generator-from-json/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/protobuf-schema-generator-from-json/)
 
 ---
 

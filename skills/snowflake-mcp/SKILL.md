@@ -2,7 +2,7 @@
 name: "Snowflake MCP"
 description: "Expose Snowflake databases, schemas, and query execution to AI agents via the Model Context Protocol, enabling natural-language SQL generation, query history inspection, and warehouse cost analysis. Supports role-based access control passthrough."
 category: "Data Extraction & Transformation"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.7
 reviews: 77
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill snowflake-mcp -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/snowflake-mcp/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/snowflake-mcp/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

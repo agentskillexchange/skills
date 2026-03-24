@@ -58,5 +58,5 @@ Handle: @tomwilson
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/google-calendar-sync-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/google-calendar-sync-agent/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

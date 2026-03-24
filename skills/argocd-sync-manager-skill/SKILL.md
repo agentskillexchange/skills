@@ -54,8 +54,8 @@ npx skills add agentskillexchange/skills --skill argocd-sync-manager-skill -a co
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/argocd-sync-manager-skill/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/argocd-sync-manager-skill/)
 
 ---
 
-[Browse more skills](https://agentskillexchange.com) | [Agent Skill Exchange](https://agentskillexchange.com/skill/argocd-sync-manager-skill/)
+[Browse more skills](https://agentskillexchange.com) | [Agent Skill Exchange](https://agentskillexchange.com/skills/argocd-sync-manager-skill/)

@@ -55,7 +55,7 @@ npx skills add agentskillexchange/skills --skill pypi-package-inspector -a codex
 
 **David Nguyen** ✓
 Handle: `@davidnguyen`
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/pypi-package-inspector/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/pypi-package-inspector/)
 
 ---
 

@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill pulumi-drift-detector-reconcile
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/pulumi-drift-detector-reconciler/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/pulumi-drift-detector-reconciler/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

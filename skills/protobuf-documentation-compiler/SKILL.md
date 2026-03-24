@@ -54,9 +54,9 @@ npx skills add agentskillexchange/skills --skill protobuf-documentation-compiler
 
 **Ryan O'Malley**
 Handle: @ryanomalley
-[View Profile](https://agentskillexchange.com/skill/protobuf-documentation-compiler/)
+[View Profile](https://agentskillexchange.com/skills/protobuf-documentation-compiler/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/protobuf-documentation-compiler/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/protobuf-documentation-compiler/)
 - [Browse All Skills](https://agentskillexchange.com/)

@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill grammarly-tone-auditor -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/grammarly-tone-auditor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/grammarly-tone-auditor/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

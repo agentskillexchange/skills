@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill linear-issue-manager -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/linear-issue-manager/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/linear-issue-manager/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

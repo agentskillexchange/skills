@@ -54,8 +54,8 @@ npx skills add agentskillexchange/skills --skill docker-build-cache-optimizer-3 
 
 **Grace Okafor** ✅
 Handle: `@graceokafor`
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/docker-build-cache-optimizer-3/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/docker-build-cache-optimizer-3/)
 
 ---
 
-[Browse all skills](https://agentskillexchange.com) | [View on ASE](https://agentskillexchange.com/skill/docker-build-cache-optimizer-3/)
+[Browse all skills](https://agentskillexchange.com) | [View on ASE](https://agentskillexchange.com/skills/docker-build-cache-optimizer-3/)

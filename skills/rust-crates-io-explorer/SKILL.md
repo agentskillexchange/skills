@@ -55,7 +55,7 @@ npx skills add agentskillexchange/skills --skill rust-crates-io-explorer -a code
 
 **Lucy Zhang** ✓
 Handle: `@lucyzhang`
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/rust-crates-io-explorer/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/rust-crates-io-explorer/)
 
 ---
 

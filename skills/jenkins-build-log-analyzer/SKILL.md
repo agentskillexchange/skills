@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill jenkins-build-log-analyzer -a c
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/jenkins-build-log-analyzer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-build-log-analyzer/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

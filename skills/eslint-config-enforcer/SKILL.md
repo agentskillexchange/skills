@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill eslint-config-enforcer -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/eslint-config-enforcer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/eslint-config-enforcer/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

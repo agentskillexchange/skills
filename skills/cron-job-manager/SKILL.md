@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill cron-job-manager -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/cron-job-manager/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/cron-job-manager/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

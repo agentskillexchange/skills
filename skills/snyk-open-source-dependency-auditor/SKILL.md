@@ -57,5 +57,5 @@ Profile: [@marcuschen](https://agentskillexchange.com/creator/marcuschen/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/snyk-open-source-dependency-auditor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/snyk-open-source-dependency-auditor/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

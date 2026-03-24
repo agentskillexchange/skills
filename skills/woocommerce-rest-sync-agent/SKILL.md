@@ -58,5 +58,5 @@ Profile: [@yukitanaka](https://agentskillexchange.com/creator/yukitanaka/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/woocommerce-rest-sync-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/woocommerce-rest-sync-agent/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

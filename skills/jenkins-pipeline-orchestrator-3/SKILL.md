@@ -57,4 +57,4 @@ npx skills add agentskillexchange/skills --skill jenkins-pipeline-orchestrator-3
 **Alex Rivera** ✅
 Handle: `@arivera_dev`
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/jenkins-pipeline-orchestrator-3/) · [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-pipeline-orchestrator-3/) · [Browse All Skills](https://agentskillexchange.com)

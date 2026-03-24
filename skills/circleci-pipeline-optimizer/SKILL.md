@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill circleci-pipeline-optimizer -a 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/circleci-pipeline-optimizer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-pipeline-optimizer/)
 - [Browse All Skills](https://agentskillexchange.com/)

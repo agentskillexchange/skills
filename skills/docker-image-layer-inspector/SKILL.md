@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill docker-image-layer-inspector -a
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/docker-image-layer-inspector/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/docker-image-layer-inspector/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

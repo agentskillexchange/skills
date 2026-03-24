@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill makefile-dependency-auditor -a 
 
 **James Kim** ✓  
 Handle: `@jameskim_ai`  
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/makefile-dependency-auditor/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/makefile-dependency-auditor/)
 
 ---
 

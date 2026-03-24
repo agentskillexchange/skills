@@ -54,9 +54,9 @@ npx skills add agentskillexchange/skills --skill apache-camel-route-data-mapper 
 
 **Nina Volkov** @ninavolkov  
 ✅ Verified Creator  
-[View Profile](https://agentskillexchange.com/skill/apache-camel-route-data-mapper/)
+[View Profile](https://agentskillexchange.com/skills/apache-camel-route-data-mapper/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/apache-camel-route-data-mapper/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/apache-camel-route-data-mapper/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

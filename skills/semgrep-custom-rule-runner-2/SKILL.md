@@ -1,8 +1,8 @@
 ---
 name: "Semgrep Custom Rule Runner"
 description: "Executes Semgrep OSS with custom YAML rule files for project-specific static analysis patterns. Supports semgrep –config and –pattern flags with metavariable constraints for detecting anti-patterns in"
-category: "Uncategorized"
-framework: "Unknown"
+category: "Developer Tools"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.7
 reviews: 68
@@ -55,5 +55,5 @@ npx skills add agentskillexchange/skills --skill semgrep-custom-rule-runner-2 -a
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/semgrep-custom-rule-runner-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/semgrep-custom-rule-runner-2/)
 - [Browse All Skills](https://agentskillexchange.com/)

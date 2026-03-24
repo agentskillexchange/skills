@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill snyk-license-compliance-checker
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/snyk-license-compliance-checker/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/snyk-license-compliance-checker/)
 - [Browse All Skills](https://agentskillexchange.com/)

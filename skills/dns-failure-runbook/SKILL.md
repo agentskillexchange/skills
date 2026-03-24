@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill dns-failure-runbook -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/dns-failure-runbook/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/dns-failure-runbook/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

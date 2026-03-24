@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill openai-image-gen -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/openai-image-gen/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/openai-image-gen/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

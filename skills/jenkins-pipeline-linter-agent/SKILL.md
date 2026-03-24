@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill jenkins-pipeline-linter-agent -
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/jenkins-pipeline-linter-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-pipeline-linter-agent/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

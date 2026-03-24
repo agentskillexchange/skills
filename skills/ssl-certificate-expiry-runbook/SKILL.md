@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill ssl-certificate-expiry-runbook 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/ssl-certificate-expiry-runbook/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/ssl-certificate-expiry-runbook/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

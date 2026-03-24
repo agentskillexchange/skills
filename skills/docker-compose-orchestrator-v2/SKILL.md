@@ -56,5 +56,5 @@ npx skills add agentskillexchange/skills --skill docker-compose-orchestrator-v2 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/docker-compose-orchestrator-v2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/docker-compose-orchestrator-v2/)
 - [Browse All Skills](https://agentskillexchange.com/)

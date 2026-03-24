@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill browser-mcp -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/browser-mcp/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/browser-mcp/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

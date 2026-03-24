@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill eslint-rule-violation-summarize
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/eslint-rule-violation-summarizer-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/eslint-rule-violation-summarizer-2/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

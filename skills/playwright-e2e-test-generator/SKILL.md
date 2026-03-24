@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill playwright-e2e-test-generator -
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/playwright-e2e-test-generator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/playwright-e2e-test-generator/)
 - [Browse All Skills](https://agentskillexchange.com/)

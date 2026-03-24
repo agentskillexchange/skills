@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill environment-variable-manager -a
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/environment-variable-manager/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/environment-variable-manager/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

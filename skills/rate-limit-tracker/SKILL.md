@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill rate-limit-tracker -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/rate-limit-tracker/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/rate-limit-tracker/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

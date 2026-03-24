@@ -2,7 +2,7 @@
 name: "Groq MCP Server"
 description: "Use this skill to run ultra-fast LLM inference on Llama and Mixtral models through Groq’s LPU hardware via MCP. It enables agents to get near-instantaneous responses from powerful open-source models when speed is critical. Trigger when you need very low latency LLM responses, real-time interactive applications, or high-throughput inference without compromising on model quality."
 category: "Developer Tools"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.0
 reviews: 61
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill groq-mcp-server -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/groq-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/groq-mcp-server/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

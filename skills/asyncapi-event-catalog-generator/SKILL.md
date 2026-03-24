@@ -54,9 +54,9 @@ npx skills add agentskillexchange/skills --skill asyncapi-event-catalog-generato
 
 **Meera Joshi** ✓
 Handle: @meerajoshi
-[View Profile](https://agentskillexchange.com/skill/asyncapi-event-catalog-generator/)
+[View Profile](https://agentskillexchange.com/skills/asyncapi-event-catalog-generator/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/asyncapi-event-catalog-generator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/asyncapi-event-catalog-generator/)
 - [Browse All Skills](https://agentskillexchange.com/)

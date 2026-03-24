@@ -54,8 +54,8 @@ npx skills add agentskillexchange/skills --skill prometheus-custom-exporter-buil
 
 **Priya Sharma** ✓
 Handle: `@priyasharma`
-[View Profile on ASE](https://agentskillexchange.com/skill/prometheus-custom-exporter-builder/)
+[View Profile on ASE](https://agentskillexchange.com/skills/prometheus-custom-exporter-builder/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/prometheus-custom-exporter-builder/) · [Browse All Skills](https://agentskillexchange.com/skills/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-custom-exporter-builder/) · [Browse All Skills](https://agentskillexchange.com/skills/)

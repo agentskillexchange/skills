@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill webhook-event-catalog -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/webhook-event-catalog/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/webhook-event-catalog/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

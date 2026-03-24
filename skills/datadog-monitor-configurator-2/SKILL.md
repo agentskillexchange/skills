@@ -57,4 +57,4 @@ npx skills add agentskillexchange/skills --skill datadog-monitor-configurator-2 
 **Aisha Patel** ✅
 Handle: `@aishapatel`
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/datadog-monitor-configurator-2/) · [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/datadog-monitor-configurator-2/) · [Browse All Skills](https://agentskillexchange.com)

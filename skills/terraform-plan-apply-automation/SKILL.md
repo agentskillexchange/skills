@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill terraform-plan-apply-automation
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/terraform-plan-apply-automation/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-plan-apply-automation/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

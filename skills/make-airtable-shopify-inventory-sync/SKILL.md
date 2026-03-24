@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill make-airtable-shopify-inventory
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/make-airtable-shopify-inventory-sync/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/make-airtable-shopify-inventory-sync/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

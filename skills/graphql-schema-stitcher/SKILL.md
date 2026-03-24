@@ -2,7 +2,7 @@
 name: "GraphQL Schema Stitcher"
 description: "Merges multiple GraphQL schemas into a unified federated gateway using Apollo Federation v2 and graphql-tools stitchSchemas. Validates composed schemas with rover graph check."
 category: "Library & API Reference"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.9
 reviews: 67
@@ -57,4 +57,4 @@ npx skills add agentskillexchange/skills --skill graphql-schema-stitcher -a code
 **Sam Lee** ✅
 @samlee_dev
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/graphql-schema-stitcher/) • [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/graphql-schema-stitcher/) • [Browse All Skills](https://agentskillexchange.com)

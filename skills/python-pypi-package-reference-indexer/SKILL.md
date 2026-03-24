@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill python-pypi-package-reference-i
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/python-pypi-package-reference-indexer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/python-pypi-package-reference-indexer/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill cloudwatch-intelligent-alarms -
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/cloudwatch-intelligent-alarms/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/cloudwatch-intelligent-alarms/)
 - [Browse All Skills](https://agentskillexchange.com/)

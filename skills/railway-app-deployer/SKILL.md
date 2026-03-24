@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill railway-app-deployer -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/railway-app-deployer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/railway-app-deployer/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

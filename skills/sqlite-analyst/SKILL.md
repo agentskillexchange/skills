@@ -2,7 +2,7 @@
 name: "SQLite Analyst"
 description: "AI agent skill for exploring, querying, and analyzing SQLite databases. Supports schema discovery, complex SQL generation, data profiling, and export to CSV or JSON. Ideal for local data analysis workflows."
 category: "Developer Tools"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.4
 reviews: 20
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill sqlite-analyst -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/sqlite-analyst/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/sqlite-analyst/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill netlify-site-manager -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/netlify-site-manager/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/netlify-site-manager/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

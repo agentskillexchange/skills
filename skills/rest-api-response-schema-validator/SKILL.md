@@ -57,4 +57,4 @@ npx skills add agentskillexchange/skills --skill rest-api-response-schema-valida
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/rest-api-response-schema-validator/) • [Browse All Skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/rest-api-response-schema-validator/) • [Browse All Skills](https://agentskillexchange.com/)

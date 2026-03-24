@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill ffmpeg-media-transcoder -a code
 
 **Yuki Tanaka** ✅
 - Handle: [@yukitanaka](https://agentskillexchange.com/creator/yukitanaka/)
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/ffmpeg-media-transcoder/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/ffmpeg-media-transcoder/)
 
 ---
 

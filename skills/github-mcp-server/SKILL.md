@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill github-mcp-server -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/github-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/github-mcp-server/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

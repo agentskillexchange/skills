@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill changelog-generator-skill -a co
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/changelog-generator-skill/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/changelog-generator-skill/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

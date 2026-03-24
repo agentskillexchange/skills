@@ -54,9 +54,9 @@ npx skills add agentskillexchange/skills --skill tekton-pipeline-scaffolder -a c
 
 **Community**
 
-[View Profile](https://agentskillexchange.com/skill/tekton-pipeline-scaffolder/)
+[View Profile](https://agentskillexchange.com/skills/tekton-pipeline-scaffolder/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/tekton-pipeline-scaffolder/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/tekton-pipeline-scaffolder/)
 - [Browse All Skills](https://agentskillexchange.com/)

@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill parquet-schema-extractor-for-s3
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/parquet-schema-extractor-for-s3/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/parquet-schema-extractor-for-s3/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

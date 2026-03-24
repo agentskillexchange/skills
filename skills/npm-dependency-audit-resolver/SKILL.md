@@ -56,5 +56,5 @@ npx skills add agentskillexchange/skills --skill npm-dependency-audit-resolver -
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/npm-dependency-audit-resolver/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/npm-dependency-audit-resolver/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

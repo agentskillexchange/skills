@@ -2,7 +2,7 @@
 name: "Nginx Config Validator and Optimizer"
 description: "Parses nginx.conf and included config files using the crossplane Python library and nginx -t test command. Identifies misconfigurations, duplicate server blocks, SSL/TLS weaknesses via Mozilla SSL ..."
 category: "Runbooks & Diagnostics"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 0
 reviews: 0
@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill nginx-config-validator-optimize
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/nginx-config-validator-optimizer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/nginx-config-validator-optimizer/)
 - [Browse All Skills](https://agentskillexchange.com/)

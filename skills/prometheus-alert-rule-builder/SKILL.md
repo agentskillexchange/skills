@@ -2,7 +2,7 @@
 name: "Prometheus Alert Rule Builder"
 description: "Creates and validates Prometheus alerting rules using PromQL expressions and the Prometheus HTTP API. Configures Alertmanager routing trees with PagerDuty, Slack, and OpsGenie receiver integrations."
 category: "Monitoring & Alerts"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.4
 reviews: 72
@@ -57,4 +57,4 @@ npx skills add agentskillexchange/skills --skill prometheus-alert-rule-builder -
 **David Nguyen** ✅
 Handle: `@davidnguyen`
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/prometheus-alert-rule-builder/) · [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-alert-rule-builder/) · [Browse All Skills](https://agentskillexchange.com)

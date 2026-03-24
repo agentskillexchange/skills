@@ -57,5 +57,5 @@ npx skills add agentskillexchange/skills --skill playwright-cross-browser-test-r
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/playwright-cross-browser-test-runner/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/playwright-cross-browser-test-runner/)
 - [Browse All Skills](https://agentskillexchange.com/)

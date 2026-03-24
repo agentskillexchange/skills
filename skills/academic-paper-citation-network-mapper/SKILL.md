@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill academic-paper-citation-network
 
 **David Nguyen** ✓  
 Handle: `@davidnguyen`  
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/academic-paper-citation-network-mapper/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/academic-paper-citation-network-mapper/)
 
 ---
 

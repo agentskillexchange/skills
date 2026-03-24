@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill nano-pdf-editor -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/nano-pdf-editor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/nano-pdf-editor/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill stripe-revenue-reconciliation-a
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/stripe-revenue-reconciliation-agent-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/stripe-revenue-reconciliation-agent-2/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill openapi-spec-validator -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/openapi-spec-validator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/openapi-spec-validator/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

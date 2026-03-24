@@ -58,5 +58,5 @@ Profile: [@yukitanaka](https://agentskillexchange.com/creator/yukitanaka/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/clearscope-nlp-grading-pipeline/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/clearscope-nlp-grading-pipeline/)
 - [Browse All Skills](https://agentskillexchange.com/)

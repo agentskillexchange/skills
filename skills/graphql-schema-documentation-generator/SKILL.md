@@ -2,7 +2,7 @@
 name: "GraphQL Schema Documentation Generator"
 description: "Generates interactive API documentation from GraphQL schemas using graphql-js introspection queries and SpectaQL. Annotates fields with usage analytics from Apollo Studio API."
 category: "Library & API Reference"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 0
 reviews: 0
@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill graphql-schema-documentation-ge
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/graphql-schema-documentation-generator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/graphql-schema-documentation-generator/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

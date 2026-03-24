@@ -57,4 +57,4 @@ npx skills add agentskillexchange/skills --skill openapi-spec-changelog-generato
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/openapi-spec-changelog-generator/) • [Browse All Skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/openapi-spec-changelog-generator/) • [Browse All Skills](https://agentskillexchange.com/)

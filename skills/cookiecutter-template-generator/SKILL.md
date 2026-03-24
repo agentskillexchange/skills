@@ -55,7 +55,7 @@ npx skills add agentskillexchange/skills --skill cookiecutter-template-generator
 
 **Fatima Al-Hassan** ✓
 Handle: `@fatimaalhassan`
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/cookiecutter-template-generator/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/cookiecutter-template-generator/)
 
 ---
 

@@ -54,8 +54,8 @@ npx skills add agentskillexchange/skills --skill kubernetes-pod-crash-loop-analy
 
 **Fatima Al-Hassan** ✅
 Handle: `@fatimaalhassan`
-[View Profile on ASE](https://agentskillexchange.com/skill/kubernetes-pod-crash-loop-analyzer/)
+[View Profile on ASE](https://agentskillexchange.com/skills/kubernetes-pod-crash-loop-analyzer/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/kubernetes-pod-crash-loop-analyzer/) · [Browse All Skills](https://agentskillexchange.com/skills/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-pod-crash-loop-analyzer/) · [Browse All Skills](https://agentskillexchange.com/skills/)

@@ -55,4 +55,4 @@ npx skills add agentskillexchange/skills --skill eslint-custom-rule-builder-2 -a
 **Ben Taylor**
 Handle: `@bentaylor`
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/eslint-custom-rule-builder-2/) · [Browse All Skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/eslint-custom-rule-builder-2/) · [Browse All Skills](https://agentskillexchange.com/)

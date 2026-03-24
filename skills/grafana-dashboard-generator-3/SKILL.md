@@ -55,4 +55,4 @@ npx skills add agentskillexchange/skills --skill grafana-dashboard-generator-3 -
 **Carlos Mendez** ✅
 Handle: @carlosmendez
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/grafana-dashboard-generator-3/) · [Browse all skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/grafana-dashboard-generator-3/) · [Browse all skills](https://agentskillexchange.com/)

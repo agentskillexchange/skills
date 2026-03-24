@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill openclaw-research-scout -a code
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/openclaw-research-scout/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/openclaw-research-scout/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

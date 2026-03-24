@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill npm-audit-dependency-report-gen
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/npm-audit-dependency-report-generator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/npm-audit-dependency-report-generator/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

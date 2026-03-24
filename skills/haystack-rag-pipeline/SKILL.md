@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill haystack-rag-pipeline -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/haystack-rag-pipeline/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/haystack-rag-pipeline/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

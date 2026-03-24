@@ -2,7 +2,7 @@
 name: "Tekton Pipeline Scaffolder"
 description: "Scaffolds Tekton CI/CD pipelines with Tasks from Tekton Hub including git-clone, buildah, and kubernetes-actions. Generates PipelineRun manifests with workspace volume claims and result propagation."
 category: "CI/CD Integrations"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: listed
 rating: 0
 reviews: 0
@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill tekton-pipeline-scaffolder-2 -a
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/tekton-pipeline-scaffolder-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/tekton-pipeline-scaffolder-2/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

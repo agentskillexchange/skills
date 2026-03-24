@@ -58,5 +58,5 @@ Handle: @meerajoshi
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/npm-package-analyzer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/npm-package-analyzer/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

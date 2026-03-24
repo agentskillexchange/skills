@@ -54,9 +54,9 @@ npx skills add agentskillexchange/skills --skill circleci-orb-dependency-checker
 
 **Sarah O'Brien** @sarahcodes  
 ✅ Verified Creator  
-[View Profile](https://agentskillexchange.com/skill/circleci-orb-dependency-checker/)
+[View Profile](https://agentskillexchange.com/skills/circleci-orb-dependency-checker/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/circleci-orb-dependency-checker/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-orb-dependency-checker/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

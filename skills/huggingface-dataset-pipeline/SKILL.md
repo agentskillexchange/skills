@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill huggingface-dataset-pipeline -a
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/huggingface-dataset-pipeline/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/huggingface-dataset-pipeline/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

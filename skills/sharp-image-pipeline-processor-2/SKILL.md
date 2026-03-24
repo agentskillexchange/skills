@@ -55,9 +55,9 @@ npx skills add agentskillexchange/skills --skill sharp-image-pipeline-processor-
 **Priya Sharma** ✓ Verified Creator
 
 - Handle: @priyasharma
-- [View Profile on ASE](https://agentskillexchange.com/skill/sharp-image-pipeline-processor-2/)
+- [View Profile on ASE](https://agentskillexchange.com/skills/sharp-image-pipeline-processor-2/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/sharp-image-pipeline-processor-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/sharp-image-pipeline-processor-2/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

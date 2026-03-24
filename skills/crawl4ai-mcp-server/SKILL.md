@@ -2,7 +2,7 @@
 name: "Crawl4AI MCP Server"
 description: "Self-hosted web crawling and content extraction exposed as MCP tools. Scrape pages, crawl sites with depth control, and extract clean markdown — all self-hosted and free."
 category: "Data Extraction & Transformation"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.9
 reviews: 71
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill crawl4ai-mcp-server -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/crawl4ai-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/crawl4ai-mcp-server/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

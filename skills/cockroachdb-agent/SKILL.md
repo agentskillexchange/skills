@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill cockroachdb-agent -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/cockroachdb-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/cockroachdb-agent/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

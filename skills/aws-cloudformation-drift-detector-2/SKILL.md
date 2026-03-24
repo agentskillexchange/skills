@@ -2,7 +2,7 @@
 name: "AWS CloudFormation Drift Detector"
 description: "Detects and reports configuration drift in AWS CloudFormation stacks using the detect-stack-drift and describe-stack-resource-drifts APIs via boto3. Generates remediation templates using cfn-flip for YAML/JSON conversion."
 category: "Runbooks & Diagnostics"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.5
 reviews: 86
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill aws-cloudformation-drift-detect
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/aws-cloudformation-drift-detector-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/aws-cloudformation-drift-detector-2/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

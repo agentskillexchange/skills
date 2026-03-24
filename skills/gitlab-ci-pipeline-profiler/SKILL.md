@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill gitlab-ci-pipeline-profiler -a 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/gitlab-ci-pipeline-profiler/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/gitlab-ci-pipeline-profiler/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

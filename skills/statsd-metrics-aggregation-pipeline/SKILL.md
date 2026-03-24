@@ -59,5 +59,5 @@ npx skills add agentskillexchange/skills --skill statsd-metrics-aggregation-pipe
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/statsd-metrics-aggregation-pipeline/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/statsd-metrics-aggregation-pipeline/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

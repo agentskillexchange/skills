@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill discord-moderation-ai-classific
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/discord-moderation-ai-classification/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/discord-moderation-ai-classification/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

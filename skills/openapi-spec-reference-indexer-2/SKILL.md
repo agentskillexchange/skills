@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill openapi-spec-reference-indexer-
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/openapi-spec-reference-indexer-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/openapi-spec-reference-indexer-2/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

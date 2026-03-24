@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill assemblyai-summarization-chapte
 
 **Ben Taylor** @bentaylor 
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/assemblyai-summarization-chapters-skill/) · [Browse All Skills](https://agentskillexchange.com/skills/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/assemblyai-summarization-chapters-skill/) · [Browse All Skills](https://agentskillexchange.com/skills/)

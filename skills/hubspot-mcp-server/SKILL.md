@@ -2,7 +2,7 @@
 name: "HubSpot MCP Server"
 description: "Use this skill when you need to query or update HubSpot contacts, deals, companies, or tasks from your AI agent. It enables agents to power CRM workflows — looking up leads, updating pipeline stages, logging notes, and creating follow-up tasks without manual CRM navigation."
 category: "Integrations & Connectors"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.4
 reviews: 67
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill hubspot-mcp-server -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/hubspot-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/hubspot-mcp-server/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

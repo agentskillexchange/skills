@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill dall-e-prompt-engineering-kit -
 
 **Community** · Community
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/dall-e-prompt-engineering-kit/) · [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/dall-e-prompt-engineering-kit/) · [Browse All Skills](https://agentskillexchange.com)

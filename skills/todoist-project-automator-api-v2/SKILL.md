@@ -56,5 +56,5 @@ npx skills add agentskillexchange/skills --skill todoist-project-automator-api-v
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/todoist-project-automator-api-v2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/todoist-project-automator-api-v2/)
 - [Browse All Skills](https://agentskillexchange.com/)

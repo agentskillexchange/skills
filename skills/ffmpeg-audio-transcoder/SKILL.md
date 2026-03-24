@@ -57,4 +57,4 @@ npx skills add agentskillexchange/skills --skill ffmpeg-audio-transcoder -a code
 **Elena Rodriguez** ✅
 Handle: `@elena_dev`
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/ffmpeg-audio-transcoder/) · [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/ffmpeg-audio-transcoder/) · [Browse All Skills](https://agentskillexchange.com)

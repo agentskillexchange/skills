@@ -1,8 +1,8 @@
 ---
 name: "PostgreSQL Query Plan Analyzer"
 description: "Executes EXPLAIN ANALYZE BUFFERS on slow PostgreSQL queries and parses the plan tree for sequential scans, nested loop joins, and sort spills. Integrates with pg_stat_statements for identifying top re"
-category: "Uncategorized"
-framework: "Unknown"
+category: "Developer Tools"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.2
 reviews: 86
@@ -55,5 +55,5 @@ npx skills add agentskillexchange/skills --skill postgresql-query-plan-analyzer-
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/postgresql-query-plan-analyzer-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/postgresql-query-plan-analyzer-2/)
 - [Browse All Skills](https://agentskillexchange.com/)

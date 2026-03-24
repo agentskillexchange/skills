@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill cloudinary-media-transform-skil
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/cloudinary-media-transform-skill/) · [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/cloudinary-media-transform-skill/) · [Browse All Skills](https://agentskillexchange.com)

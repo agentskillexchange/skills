@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill postgresql-query-diagnostics -a
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/postgresql-query-diagnostics/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/postgresql-query-diagnostics/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

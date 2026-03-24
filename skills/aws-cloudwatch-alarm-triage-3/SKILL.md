@@ -1,8 +1,8 @@
 ---
 name: "AWS CloudWatch Alarm Triage"
 description: "Uses the AWS SDK (boto3 CloudWatch client) to list ALARM-state metrics, fetch metric data points via get_metric_data, and correlate with CloudTrail events. Provides structured incident triage for EC2,"
-category: "Uncategorized"
-framework: "Unknown"
+category: "Developer Tools"
+framework: "Custom Agents"
 verification: listed
 rating: 0
 reviews: 0
@@ -55,5 +55,5 @@ npx skills add agentskillexchange/skills --skill aws-cloudwatch-alarm-triage-3 -
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/aws-cloudwatch-alarm-triage-3/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/aws-cloudwatch-alarm-triage-3/)
 - [Browse All Skills](https://agentskillexchange.com/)

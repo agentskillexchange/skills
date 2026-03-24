@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill aws-cloudwatch-alarm-triage -a 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/aws-cloudwatch-alarm-triage/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/aws-cloudwatch-alarm-triage/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

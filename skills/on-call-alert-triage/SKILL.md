@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill on-call-alert-triage -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/on-call-alert-triage/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/on-call-alert-triage/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill datadog-incident-runbook-runner
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/datadog-incident-runbook-runner/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/datadog-incident-runbook-runner/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

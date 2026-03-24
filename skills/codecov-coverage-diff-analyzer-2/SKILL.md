@@ -54,9 +54,9 @@ npx skills add agentskillexchange/skills --skill codecov-coverage-diff-analyzer-
 
 **Tom Wilson** @tomwilson  
   
-[View Profile](https://agentskillexchange.com/skill/codecov-coverage-diff-analyzer-2/)
+[View Profile](https://agentskillexchange.com/skills/codecov-coverage-diff-analyzer-2/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/codecov-coverage-diff-analyzer-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/codecov-coverage-diff-analyzer-2/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

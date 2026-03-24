@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill pandas-dataframe-pipeline-build
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/pandas-dataframe-pipeline-builder/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/pandas-dataframe-pipeline-builder/)
 - [Browse All Skills](https://agentskillexchange.com)

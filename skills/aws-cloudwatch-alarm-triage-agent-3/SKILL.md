@@ -54,8 +54,8 @@ npx skills add agentskillexchange/skills --skill aws-cloudwatch-alarm-triage-age
 
 **Yuki Tanaka** ✅
 Handle: `@yukitanaka`
-[View Profile on ASE](https://agentskillexchange.com/skill/aws-cloudwatch-alarm-triage-agent-3/)
+[View Profile on ASE](https://agentskillexchange.com/skills/aws-cloudwatch-alarm-triage-agent-3/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/aws-cloudwatch-alarm-triage-agent-3/) · [Browse All Skills](https://agentskillexchange.com/skills/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/aws-cloudwatch-alarm-triage-agent-3/) · [Browse All Skills](https://agentskillexchange.com/skills/)

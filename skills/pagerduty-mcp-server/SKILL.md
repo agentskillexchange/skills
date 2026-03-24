@@ -2,7 +2,7 @@
 name: "PagerDuty MCP Server"
 description: "Use this skill when you need to acknowledge, resolve, or escalate PagerDuty incidents, list on-call schedules, or create new incidents from your AI agent. It lets agents participate in incident response workflows directly through PagerDuty’s API."
 category: "Monitoring & Alerts"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.4
 reviews: 33
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill pagerduty-mcp-server -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/pagerduty-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/pagerduty-mcp-server/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

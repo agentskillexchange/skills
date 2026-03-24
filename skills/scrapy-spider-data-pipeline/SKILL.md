@@ -58,4 +58,4 @@ npx skills add agentskillexchange/skills --skill scrapy-spider-data-pipeline -a 
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/scrapy-spider-data-pipeline/) · [Browse All Skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/scrapy-spider-data-pipeline/) · [Browse All Skills](https://agentskillexchange.com/)

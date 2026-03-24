@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill grafana-dashboard-scaffolder -a
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/grafana-dashboard-scaffolder/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/grafana-dashboard-scaffolder/)
 
 ---
 

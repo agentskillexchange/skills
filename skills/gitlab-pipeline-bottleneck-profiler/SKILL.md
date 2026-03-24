@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill gitlab-pipeline-bottleneck-prof
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/gitlab-pipeline-bottleneck-profiler/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/gitlab-pipeline-bottleneck-profiler/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

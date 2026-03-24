@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill dead-code-detector-2 -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/dead-code-detector-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/dead-code-detector-2/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

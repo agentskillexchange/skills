@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill dalle-batch-image-generator -a 
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/dalle-batch-image-generator/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/dalle-batch-image-generator/)
 
 ---
 

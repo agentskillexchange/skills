@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill npm-audit-deep-scanner -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/npm-audit-deep-scanner/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/npm-audit-deep-scanner/)
 - [Browse All Skills](https://agentskillexchange.com/)

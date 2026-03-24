@@ -2,7 +2,7 @@
 name: "AWS Lambda MCP Server"
 description: "Use this skill when you need to invoke AWS Lambda functions, check execution logs, update function configuration, or list deployed functions from your AI agent. It lets agents trigger serverless workflows and debug Lambda execution without accessing the AWS console."
 category: "Developer Tools"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.3
 reviews: 12
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill aws-lambda-mcp-server -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/aws-lambda-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/aws-lambda-mcp-server/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

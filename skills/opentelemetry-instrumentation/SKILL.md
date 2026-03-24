@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill opentelemetry-instrumentation -
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/opentelemetry-instrumentation/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/opentelemetry-instrumentation/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

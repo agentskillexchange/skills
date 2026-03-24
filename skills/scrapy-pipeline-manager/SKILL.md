@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill scrapy-pipeline-manager -a code
 
 **Mateo Silva** ✅
 - Handle: [@mateosilva](https://agentskillexchange.com/creator/mateosilva/)
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/scrapy-pipeline-manager/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/scrapy-pipeline-manager/)
 
 ---
 

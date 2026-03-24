@@ -54,9 +54,9 @@ npx skills add agentskillexchange/skills --skill ssl-tls-certificate-validator-m
 
 **Community**
 
-[View Profile](https://agentskillexchange.com/skill/ssl-tls-certificate-validator-monitor/)
+[View Profile](https://agentskillexchange.com/skills/ssl-tls-certificate-validator-monitor/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/ssl-tls-certificate-validator-monitor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/ssl-tls-certificate-validator-monitor/)
 - [Browse All Skills](https://agentskillexchange.com/)

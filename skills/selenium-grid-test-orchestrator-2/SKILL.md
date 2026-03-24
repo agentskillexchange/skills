@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill selenium-grid-test-orchestrator
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/selenium-grid-test-orchestrator-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/selenium-grid-test-orchestrator-2/)
 - [Browse All Skills](https://agentskillexchange.com)

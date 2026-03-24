@@ -2,7 +2,7 @@
 name: "Notion MCP Server"
 description: "Use this skill when you need to read or write Notion pages, create database entries, search across a workspace, or update properties from your AI agent. It connects agents to Notion as a knowledge base and project management system for seamless information retrieval and creation."
 category: "Calendar, Email & Productivity"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.7
 reviews: 75
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill notion-mcp-server -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/notion-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/notion-mcp-server/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

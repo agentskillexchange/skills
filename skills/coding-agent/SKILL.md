@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill coding-agent -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/coding-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/coding-agent/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

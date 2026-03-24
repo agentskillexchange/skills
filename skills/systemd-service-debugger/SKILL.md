@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill systemd-service-debugger -a cod
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/systemd-service-debugger/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/systemd-service-debugger/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

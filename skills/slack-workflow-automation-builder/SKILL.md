@@ -57,5 +57,5 @@ Profile: [@jameskim_ai](https://agentskillexchange.com/creator/jameskim_ai/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/slack-workflow-automation-builder/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/slack-workflow-automation-builder/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

@@ -56,4 +56,4 @@ npx skills add agentskillexchange/skills --skill pagerduty-incident-runbook -a c
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/pagerduty-incident-runbook/) · [Browse Skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/pagerduty-incident-runbook/) · [Browse Skills](https://agentskillexchange.com/)

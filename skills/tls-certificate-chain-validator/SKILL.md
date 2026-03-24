@@ -59,5 +59,5 @@ npx skills add agentskillexchange/skills --skill tls-certificate-chain-validator
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/tls-certificate-chain-validator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/tls-certificate-chain-validator/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

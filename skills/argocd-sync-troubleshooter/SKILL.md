@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill argocd-sync-troubleshooter -a c
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/argocd-sync-troubleshooter/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/argocd-sync-troubleshooter/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

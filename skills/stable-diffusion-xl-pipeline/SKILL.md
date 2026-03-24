@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill stable-diffusion-xl-pipeline -a
 
 **Carlos Mendez** ✅
 - Handle: [@carlosmendez](https://agentskillexchange.com/creator/carlosmendez/)
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/stable-diffusion-xl-pipeline/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/stable-diffusion-xl-pipeline/)
 
 ---
 

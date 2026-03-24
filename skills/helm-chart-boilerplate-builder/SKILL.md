@@ -56,5 +56,5 @@ npx skills add agentskillexchange/skills --skill helm-chart-boilerplate-builder 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/helm-chart-boilerplate-builder/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/helm-chart-boilerplate-builder/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

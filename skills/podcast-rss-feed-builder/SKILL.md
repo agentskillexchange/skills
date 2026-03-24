@@ -57,4 +57,4 @@ npx skills add agentskillexchange/skills --skill podcast-rss-feed-builder -a cod
 **Tom Wilson** 
 Handle: `@tomwilson`
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/podcast-rss-feed-builder/) · [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/podcast-rss-feed-builder/) · [Browse All Skills](https://agentskillexchange.com)

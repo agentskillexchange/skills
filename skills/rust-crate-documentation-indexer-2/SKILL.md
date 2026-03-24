@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill rust-crate-documentation-indexe
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/rust-crate-documentation-indexer-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/rust-crate-documentation-indexer-2/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

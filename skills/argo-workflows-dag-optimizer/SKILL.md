@@ -57,5 +57,5 @@ npx skills add agentskillexchange/skills --skill argo-workflows-dag-optimizer -a
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/argo-workflows-dag-optimizer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/argo-workflows-dag-optimizer/)
 - [Browse All Skills](https://agentskillexchange.com/)

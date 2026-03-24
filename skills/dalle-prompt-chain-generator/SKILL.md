@@ -55,9 +55,9 @@ npx skills add agentskillexchange/skills --skill dalle-prompt-chain-generator -a
 **James Kim** ✓ Verified Creator
 
 - Handle: @jameskim_ai
-- [View Profile on ASE](https://agentskillexchange.com/skill/dalle-prompt-chain-generator/)
+- [View Profile on ASE](https://agentskillexchange.com/skills/dalle-prompt-chain-generator/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/dalle-prompt-chain-generator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/dalle-prompt-chain-generator/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

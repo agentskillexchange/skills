@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill babyagi-task-planner -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/babyagi-task-planner/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/babyagi-task-planner/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

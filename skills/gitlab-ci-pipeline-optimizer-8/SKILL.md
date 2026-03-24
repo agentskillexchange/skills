@@ -54,8 +54,8 @@ npx skills add agentskillexchange/skills --skill gitlab-ci-pipeline-optimizer-8 
 
 **Nina Volkov** ✅
 Handle: `@ninavolkov`
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/gitlab-ci-pipeline-optimizer-8/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/gitlab-ci-pipeline-optimizer-8/)
 
 ---
 
-[Browse all skills](https://agentskillexchange.com) | [View on ASE](https://agentskillexchange.com/skill/gitlab-ci-pipeline-optimizer-8/)
+[Browse all skills](https://agentskillexchange.com) | [View on ASE](https://agentskillexchange.com/skills/gitlab-ci-pipeline-optimizer-8/)

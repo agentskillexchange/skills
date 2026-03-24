@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill osint-domain-intelligence-scann
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/osint-domain-intelligence-scanner/) · [Browse All Skills](https://agentskillexchange.com/skills/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/osint-domain-intelligence-scanner/) · [Browse All Skills](https://agentskillexchange.com/skills/)

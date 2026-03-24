@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill cheerio-dom-scraping-toolkit -a
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/cheerio-dom-scraping-toolkit/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/cheerio-dom-scraping-toolkit/)
 - [Browse All Skills](https://agentskillexchange.com/)

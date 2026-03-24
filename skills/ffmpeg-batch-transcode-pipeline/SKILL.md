@@ -54,8 +54,8 @@ npx skills add agentskillexchange/skills --skill ffmpeg-batch-transcode-pipeline
 
 **Mateo Silva** ✅
 Handle: `@mateosilva`
-[View Profile on ASE](https://agentskillexchange.com/skill/ffmpeg-batch-transcode-pipeline/)
+[View Profile on ASE](https://agentskillexchange.com/skills/ffmpeg-batch-transcode-pipeline/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/ffmpeg-batch-transcode-pipeline/) · [Browse All Skills](https://agentskillexchange.com/skills/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/ffmpeg-batch-transcode-pipeline/) · [Browse All Skills](https://agentskillexchange.com/skills/)

@@ -2,7 +2,7 @@
 name: "Docker Compose Health Checker"
 description: "Validates docker-compose.yml files against the Compose Specification, checks image vulnerability status via Docker Scout API, and verifies healthcheck configurations."
 category: "Runbooks & Diagnostics"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.4
 reviews: 81
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill docker-compose-health-checker -
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/docker-compose-health-checker/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/docker-compose-health-checker/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

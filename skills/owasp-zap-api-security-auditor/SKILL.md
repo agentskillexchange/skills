@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill owasp-zap-api-security-auditor 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/owasp-zap-api-security-auditor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/owasp-zap-api-security-auditor/)
 - [Browse All Skills](https://agentskillexchange.com/)

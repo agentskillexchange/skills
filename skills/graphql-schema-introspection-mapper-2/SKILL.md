@@ -56,4 +56,4 @@ npx skills add agentskillexchange/skills --skill graphql-schema-introspection-ma
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/graphql-schema-introspection-mapper-2/) | [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/graphql-schema-introspection-mapper-2/) | [Browse All Skills](https://agentskillexchange.com)

@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill notion-task-sync-bridge -a code
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/notion-task-sync-bridge/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/notion-task-sync-bridge/)
 
 ---
 

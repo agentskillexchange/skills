@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill kubernetes-runbook-generator -a
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/kubernetes-runbook-generator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-runbook-generator/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

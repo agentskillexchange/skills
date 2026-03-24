@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill dotfiles-sync-agent -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/dotfiles-sync-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/dotfiles-sync-agent/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

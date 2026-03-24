@@ -2,7 +2,7 @@
 name: "CircleCI MCP Server"
 description: "Use this skill when you need to trigger CircleCI pipelines, view workflow status, inspect job logs, or manage pipeline configurations via AI. Connect to your CircleCI account to automate CI/CD operations, monitor build queues, and debug failing workflows without switching contexts."
 category: "Developer Tools"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.1
 reviews: 24
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill circleci-mcp-server -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/circleci-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-mcp-server/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

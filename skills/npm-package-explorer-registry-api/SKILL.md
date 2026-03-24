@@ -56,5 +56,5 @@ npx skills add agentskillexchange/skills --skill npm-package-explorer-registry-a
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/npm-package-explorer-registry-api/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/npm-package-explorer-registry-api/)
 - [Browse All Skills](https://agentskillexchange.com/)

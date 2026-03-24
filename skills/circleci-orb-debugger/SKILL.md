@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill circleci-orb-debugger -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/circleci-orb-debugger/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-orb-debugger/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

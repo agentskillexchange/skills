@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill prometheus-alert-runbook-linker
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/prometheus-alert-runbook-linker-2/) · [Browse All Skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-alert-runbook-linker-2/) · [Browse All Skills](https://agentskillexchange.com/)

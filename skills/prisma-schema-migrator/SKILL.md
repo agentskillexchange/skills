@@ -57,4 +57,4 @@ npx skills add agentskillexchange/skills --skill prisma-schema-migrator -a codex
 **Ben Taylor** 
 @bentaylor
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/prisma-schema-migrator/) • [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/prisma-schema-migrator/) • [Browse All Skills](https://agentskillexchange.com)

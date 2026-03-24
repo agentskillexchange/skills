@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill kubernetes-runbook-executor-8 -
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/kubernetes-runbook-executor-8/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-runbook-executor-8/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

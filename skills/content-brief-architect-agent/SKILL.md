@@ -2,7 +2,7 @@
 name: "Content Brief Architect"
 description: "Generates comprehensive content briefs with keyword research, competitor analysis, outline generation, and SEO recommendations for content teams and writers."
 category: "Content Writing & SEO"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.7
 reviews: 86
@@ -57,5 +57,5 @@ npx skills add agentskillexchange/skills --skill content-brief-architect-agent -
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/content-brief-architect-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/content-brief-architect-agent/)
 - [Browse All Skills](https://agentskillexchange.com/)

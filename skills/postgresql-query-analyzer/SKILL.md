@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill postgresql-query-analyzer -a co
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/postgresql-query-analyzer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/postgresql-query-analyzer/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill api-diff-tool -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/api-diff-tool/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/api-diff-tool/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

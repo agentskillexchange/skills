@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill headless-cms-graphql-connector 
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/headless-cms-graphql-connector/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/headless-cms-graphql-connector/)
 
 ---
 

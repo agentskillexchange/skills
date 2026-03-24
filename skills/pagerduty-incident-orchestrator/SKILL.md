@@ -54,8 +54,8 @@ npx skills add agentskillexchange/skills --skill pagerduty-incident-orchestrator
 
 **Leo Park** ✓
 Handle: `@leopark_ai`
-[View Profile on ASE](https://agentskillexchange.com/skill/pagerduty-incident-orchestrator/)
+[View Profile on ASE](https://agentskillexchange.com/skills/pagerduty-incident-orchestrator/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/pagerduty-incident-orchestrator/) · [Browse All Skills](https://agentskillexchange.com/skills/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/pagerduty-incident-orchestrator/) · [Browse All Skills](https://agentskillexchange.com/skills/)

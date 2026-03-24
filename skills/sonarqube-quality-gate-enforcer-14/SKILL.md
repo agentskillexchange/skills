@@ -2,7 +2,7 @@
 name: "SonarQube Quality Gate Enforcer"
 description: "Enforces SonarQube quality gates in pull request workflows using the SonarQube Web API and ce/task endpoint. Blocks merges when code coverage drops, duplications exceed thresholds, or security hotspots are unreviewed."
 category: "Code Quality & Review"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: verified_metadata
 rating: 4.5
 reviews: 86
@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-enforcer
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/sonarqube-quality-gate-enforcer-14/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/sonarqube-quality-gate-enforcer-14/)
 - [Browse All Skills](https://agentskillexchange.com)

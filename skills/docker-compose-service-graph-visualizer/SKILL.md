@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill docker-compose-service-graph-vi
 
 **Marcus Chen** ✓  
 Handle: `@marcuschen`  
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/docker-compose-service-graph-visualizer/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/docker-compose-service-graph-visualizer/)
 
 ---
 

@@ -58,5 +58,5 @@ Profile: [@avajohnson](https://agentskillexchange.com/creator/avajohnson/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/dbt-data-transform-orchestrator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/dbt-data-transform-orchestrator/)
 - [Browse All Skills](https://agentskillexchange.com/)

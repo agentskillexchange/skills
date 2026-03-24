@@ -55,8 +55,8 @@ npx skills add agentskillexchange/skills --skill slack-standup-summarizer -a cod
 
 **Marcus Chen** ✅
 Handle: `@marcuschen`
-[View Profile on ASE](https://agentskillexchange.com/skill/slack-standup-summarizer/)
+[View Profile on ASE](https://agentskillexchange.com/skills/slack-standup-summarizer/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/slack-standup-summarizer/) | [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/slack-standup-summarizer/) | [Browse All Skills](https://agentskillexchange.com)

@@ -2,7 +2,7 @@
 name: "Semgrep Custom Rule Builder"
 description: "Creates custom Semgrep SAST rules using the semgrep CLI and rule schema YAML format. Supports pattern-either, metavariable-regex, and taint-mode tracking for detecting framework-specific vulnerabilities in Python, Go, and JavaScript."
 category: "Code Quality & Review"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.5
 reviews: 86
@@ -54,8 +54,8 @@ npx skills add agentskillexchange/skills --skill semgrep-custom-rule-builder-3 -
 
 **Grace Okafor** ✅
 Handle: `@graceokafor`
-[View Profile on ASE](https://agentskillexchange.com/skill/semgrep-custom-rule-builder-3/)
+[View Profile on ASE](https://agentskillexchange.com/skills/semgrep-custom-rule-builder-3/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/semgrep-custom-rule-builder-3/) • [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/semgrep-custom-rule-builder-3/) • [Browse All Skills](https://agentskillexchange.com)

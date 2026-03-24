@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill snowflake-query-history-extract
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/snowflake-query-history-extractor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/snowflake-query-history-extractor/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

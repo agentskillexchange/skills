@@ -55,4 +55,4 @@ npx skills add agentskillexchange/skills --skill gitlab-pipeline-orchestrator -a
 **Grace Okafor** (@graceokafor)
 ✓ Verified Creator
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/gitlab-pipeline-orchestrator/) | [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/gitlab-pipeline-orchestrator/) | [Browse All Skills](https://agentskillexchange.com)

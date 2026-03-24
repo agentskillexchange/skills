@@ -56,4 +56,4 @@ npx skills add agentskillexchange/skills --skill tekton-pipeline-scaffolder-3 -a
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/tekton-pipeline-scaffolder-3/) | [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/tekton-pipeline-scaffolder-3/) | [Browse All Skills](https://agentskillexchange.com)

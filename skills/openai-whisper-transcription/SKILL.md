@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill openai-whisper-transcription -a
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/openai-whisper-transcription/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/openai-whisper-transcription/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

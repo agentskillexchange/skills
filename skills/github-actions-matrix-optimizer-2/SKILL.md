@@ -57,4 +57,4 @@ npx skills add agentskillexchange/skills --skill github-actions-matrix-optimizer
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/github-actions-matrix-optimizer-2/) • [Browse All Skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/github-actions-matrix-optimizer-2/) • [Browse All Skills](https://agentskillexchange.com/)

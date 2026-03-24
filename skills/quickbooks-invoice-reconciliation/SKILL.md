@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill quickbooks-invoice-reconciliati
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/quickbooks-invoice-reconciliation/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/quickbooks-invoice-reconciliation/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

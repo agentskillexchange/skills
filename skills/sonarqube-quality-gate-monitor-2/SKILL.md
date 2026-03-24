@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-monitor-
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/sonarqube-quality-gate-monitor-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/sonarqube-quality-gate-monitor-2/)
 - [Browse All Skills](https://agentskillexchange.com/)

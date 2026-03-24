@@ -56,5 +56,5 @@ npx skills add agentskillexchange/skills --skill github-actions-ci-builder -a co
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/github-actions-ci-builder/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/github-actions-ci-builder/)
 - [Browse All Skills](https://agentskillexchange.com)

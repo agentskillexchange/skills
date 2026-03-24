@@ -55,4 +55,4 @@ npx skills add agentskillexchange/skills --skill aws-ssm-runbook-engine -a codex
 **Ava Johnson** (@avajohnson)
 ✓ Verified Creator
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/aws-ssm-runbook-engine/) | [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/aws-ssm-runbook-engine/) | [Browse All Skills](https://agentskillexchange.com)

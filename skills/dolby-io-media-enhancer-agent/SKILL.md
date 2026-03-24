@@ -58,5 +58,5 @@ Profile: [@omarfarouk](https://agentskillexchange.com/creator/omarfarouk/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/dolby-io-media-enhancer-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/dolby-io-media-enhancer-agent/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

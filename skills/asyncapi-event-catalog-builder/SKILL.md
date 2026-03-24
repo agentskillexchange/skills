@@ -57,5 +57,5 @@ npx skills add agentskillexchange/skills --skill asyncapi-event-catalog-builder 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/asyncapi-event-catalog-builder/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/asyncapi-event-catalog-builder/)
 - [Browse All Skills](https://agentskillexchange.com/)

@@ -2,7 +2,7 @@
 name: "Slack Channel Summarizer"
 description: "Generates channel summaries using Slack Bolt SDK with conversations.history and conversations.replies endpoints. Leverages OpenAI GPT-4 API for abstractive summarization and delivers digests via Slack."
 category: "Calendar, Email & Productivity"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: listed
 rating: 0
 reviews: 0
@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill slack-channel-summarizer-bolt-s
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/slack-channel-summarizer-bolt-sdk/) | [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/slack-channel-summarizer-bolt-sdk/) | [Browse All Skills](https://agentskillexchange.com)

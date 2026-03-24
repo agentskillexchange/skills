@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill dbt-model-lineage-test-coverage
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/dbt-model-lineage-test-coverage/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/dbt-model-lineage-test-coverage/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

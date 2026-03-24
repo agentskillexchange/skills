@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill gitlab-pipeline-optimizer -a co
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/gitlab-pipeline-optimizer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/gitlab-pipeline-optimizer/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

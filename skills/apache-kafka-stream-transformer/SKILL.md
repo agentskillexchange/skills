@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill apache-kafka-stream-transformer
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/apache-kafka-stream-transformer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/apache-kafka-stream-transformer/)
 - [Browse All Skills](https://agentskillexchange.com)

@@ -55,8 +55,8 @@ npx skills add agentskillexchange/skills --skill grafana-dashboard-template-gene
 
 **Ben Taylor** 
 Handle: `@bentaylor`
-[View Profile on ASE](https://agentskillexchange.com/skill/grafana-dashboard-template-generator/)
+[View Profile on ASE](https://agentskillexchange.com/skills/grafana-dashboard-template-generator/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/grafana-dashboard-template-generator/) • [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/grafana-dashboard-template-generator/) • [Browse All Skills](https://agentskillexchange.com)

@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill uptime-kuma-status-sync -a code
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/uptime-kuma-status-sync/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/uptime-kuma-status-sync/)
 - [Browse All Skills](https://agentskillexchange.com/)

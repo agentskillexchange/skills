@@ -58,4 +58,4 @@ npx skills add agentskillexchange/skills --skill cloudinary-media-optimization-a
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/cloudinary-media-optimization-agent/) · [Browse All Skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/cloudinary-media-optimization-agent/) · [Browse All Skills](https://agentskillexchange.com/)

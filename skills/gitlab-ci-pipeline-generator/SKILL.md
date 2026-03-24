@@ -57,4 +57,4 @@ npx skills add agentskillexchange/skills --skill gitlab-ci-pipeline-generator -a
 **James Kim** ✅
 Handle: `@jameskim_ai`
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/gitlab-ci-pipeline-generator/) · [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/gitlab-ci-pipeline-generator/) · [Browse All Skills](https://agentskillexchange.com)

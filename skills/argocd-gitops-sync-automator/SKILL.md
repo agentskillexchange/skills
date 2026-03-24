@@ -2,7 +2,7 @@
 name: "ArgoCD GitOps Sync Automator"
 description: "Automates ArgoCD application synchronization using the ArgoCD gRPC/REST API and argocd-autopilot CLI. Manages ApplicationSets, sync waves, and health assessments for Kubernetes deployments."
 category: "CI/CD Integrations"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: listed
 rating: 0
 reviews: 0
@@ -57,5 +57,5 @@ npx skills add agentskillexchange/skills --skill argocd-gitops-sync-automator -a
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/argocd-gitops-sync-automator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/argocd-gitops-sync-automator/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

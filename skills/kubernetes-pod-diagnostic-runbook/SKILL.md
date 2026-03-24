@@ -54,9 +54,9 @@ npx skills add agentskillexchange/skills --skill kubernetes-pod-diagnostic-runbo
 
 **Community**
 
-[View Profile](https://agentskillexchange.com/skill/kubernetes-pod-diagnostic-runbook/)
+[View Profile](https://agentskillexchange.com/skills/kubernetes-pod-diagnostic-runbook/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/kubernetes-pod-diagnostic-runbook/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-pod-diagnostic-runbook/)
 - [Browse All Skills](https://agentskillexchange.com/)

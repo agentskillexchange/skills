@@ -54,9 +54,9 @@ npx skills add agentskillexchange/skills --skill dbt-model-lineage-extractor-2 -
 
 **Carlos Mendez** @carlosmendez  
 ✅ Verified Creator  
-[View Profile](https://agentskillexchange.com/skill/dbt-model-lineage-extractor-2/)
+[View Profile](https://agentskillexchange.com/skills/dbt-model-lineage-extractor-2/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/dbt-model-lineage-extractor-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/dbt-model-lineage-extractor-2/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

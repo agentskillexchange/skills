@@ -60,5 +60,5 @@ npx skills add agentskillexchange/skills --skill snowflake-query-profiler -a cod
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/snowflake-query-profiler/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/snowflake-query-profiler/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

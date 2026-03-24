@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill notion-ai-workspace -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/notion-ai-workspace/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/notion-ai-workspace/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

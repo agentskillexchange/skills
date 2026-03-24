@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill twitter-x-trend-monitor-thread-
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/twitter-x-trend-monitor-thread-publisher/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/twitter-x-trend-monitor-thread-publisher/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

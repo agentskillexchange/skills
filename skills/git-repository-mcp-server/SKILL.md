@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill git-repository-mcp-server -a co
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/git-repository-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/git-repository-mcp-server/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

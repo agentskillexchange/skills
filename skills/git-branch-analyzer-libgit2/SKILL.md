@@ -56,5 +56,5 @@ npx skills add agentskillexchange/skills --skill git-branch-analyzer-libgit2 -a 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/git-branch-analyzer-libgit2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/git-branch-analyzer-libgit2/)
 - [Browse All Skills](https://agentskillexchange.com/)

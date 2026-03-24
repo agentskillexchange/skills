@@ -55,4 +55,4 @@ npx skills add agentskillexchange/skills --skill semgrep-pattern-matching-analyz
 **Yuki Tanaka** ✅
 Handle: `@yukitanaka`
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/semgrep-pattern-matching-analyzer/) · [Browse All Skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/semgrep-pattern-matching-analyzer/) · [Browse All Skills](https://agentskillexchange.com/)

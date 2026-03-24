@@ -2,7 +2,7 @@
 name: "CircleCI Flaky Test Detector"
 description: "Queries CircleCI Insights API to identify test cases that flip between pass and fail across recent runs. Produces a ranked list by failure rate with quarantine strategies for Jest, pytest, RSpec, and JUnit."
 category: "CI/CD Integrations"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: verified_metadata
 rating: 4.8
 reviews: 80
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill circleci-flaky-test-detector-2 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/circleci-flaky-test-detector-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-flaky-test-detector-2/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -56,5 +56,5 @@ npx skills add agentskillexchange/skills --skill terraform-module-template-engin
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/terraform-module-template-engine/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-module-template-engine/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

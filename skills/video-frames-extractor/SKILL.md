@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill video-frames-extractor -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/video-frames-extractor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/video-frames-extractor/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

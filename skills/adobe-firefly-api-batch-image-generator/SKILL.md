@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill adobe-firefly-api-batch-image-g
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/adobe-firefly-api-batch-image-generator/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/adobe-firefly-api-batch-image-generator/)
 
 ---
 

@@ -55,4 +55,4 @@ npx skills add agentskillexchange/skills --skill pypi-package-inspector-2 -a cod
 **Ben Taylor**
 Handle: @bentaylor
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/pypi-package-inspector-2/) · [Browse all skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/pypi-package-inspector-2/) · [Browse all skills](https://agentskillexchange.com/)

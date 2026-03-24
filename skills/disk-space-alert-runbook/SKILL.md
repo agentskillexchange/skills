@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill disk-space-alert-runbook -a cod
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/disk-space-alert-runbook/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/disk-space-alert-runbook/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

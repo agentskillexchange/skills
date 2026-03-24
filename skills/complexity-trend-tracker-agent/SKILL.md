@@ -2,7 +2,7 @@
 name: "Complexity Trend Tracker"
 description: "Tracks cyclomatic and cognitive complexity trends using lizard CLI and radon for Python analysis. Generates weekly complexity reports with git-integrated change attribution per module."
 category: "Code Quality & Review"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.6
 reviews: 86

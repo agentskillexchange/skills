@@ -2,7 +2,7 @@
 name: "MongoDB MCP Server"
 description: "MCP server for MongoDB that enables AI agents to query collections, manage documents, create indexes, run aggregation pipelines, and inspect schema metadata without writing MongoDB driver code."
 category: "Developer Tools"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.7
 reviews: 81
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill mongodb-mcp-server -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/mongodb-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/mongodb-mcp-server/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

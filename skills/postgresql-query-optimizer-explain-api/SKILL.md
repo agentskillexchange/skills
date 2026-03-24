@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill postgresql-query-optimizer-expl
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/postgresql-query-optimizer-explain-api/) | [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/postgresql-query-optimizer-explain-api/) | [Browse All Skills](https://agentskillexchange.com)

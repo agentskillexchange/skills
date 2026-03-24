@@ -55,5 +55,5 @@ npx skills add agentskillexchange/skills --skill argocd-sync-status-monitor-7 -a
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/argocd-sync-status-monitor-7/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/argocd-sync-status-monitor-7/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

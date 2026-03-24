@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill claude-code-mcp-bridge -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/claude-code-mcp-bridge/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/claude-code-mcp-bridge/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

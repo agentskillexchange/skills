@@ -56,9 +56,9 @@ npx skills add agentskillexchange/skills --skill dalle-image-variation-generator
 
 **Fatima Al-Hassan** ✅
 Handle: `@fatimaalhassan`
-[View Profile on ASE](https://agentskillexchange.com/skill/dalle-image-variation-generator/)
+[View Profile on ASE](https://agentskillexchange.com/skills/dalle-image-variation-generator/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/dalle-image-variation-generator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/dalle-image-variation-generator/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

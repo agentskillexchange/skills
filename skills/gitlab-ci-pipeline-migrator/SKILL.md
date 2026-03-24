@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill gitlab-ci-pipeline-migrator -a 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/gitlab-ci-pipeline-migrator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/gitlab-ci-pipeline-migrator/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

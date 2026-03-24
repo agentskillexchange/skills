@@ -56,4 +56,4 @@ npx skills add agentskillexchange/skills --skill circleci-orb-linter -a codex
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/circleci-orb-linter/) · [Browse Skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-orb-linter/) · [Browse Skills](https://agentskillexchange.com/)

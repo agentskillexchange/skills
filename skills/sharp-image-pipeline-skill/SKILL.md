@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill sharp-image-pipeline-skill -a c
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/sharp-image-pipeline-skill/) · [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/sharp-image-pipeline-skill/) · [Browse All Skills](https://agentskillexchange.com)

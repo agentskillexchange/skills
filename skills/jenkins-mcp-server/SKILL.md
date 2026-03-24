@@ -2,7 +2,7 @@
 name: "Jenkins MCP Server"
 description: "Use this skill when you need to trigger Jenkins builds, check pipeline status, view build logs, or manage Jenkins jobs via an AI agent. Connect to your Jenkins instance to automate CI/CD workflows, monitor build health, and respond to build failures without leaving your AI interface."
 category: "Developer Tools"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.4
 reviews: 63
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill jenkins-mcp-server -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/jenkins-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-mcp-server/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

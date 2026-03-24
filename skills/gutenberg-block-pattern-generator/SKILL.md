@@ -57,5 +57,5 @@ npx skills add agentskillexchange/skills --skill gutenberg-block-pattern-generat
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/gutenberg-block-pattern-generator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/gutenberg-block-pattern-generator/)
 - [Browse All Skills](https://agentskillexchange.com/)

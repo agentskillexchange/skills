@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill github-copilot-context-enhancer
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/github-copilot-context-enhancer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/github-copilot-context-enhancer/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

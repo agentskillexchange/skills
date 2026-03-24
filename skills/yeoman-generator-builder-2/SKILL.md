@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill yeoman-generator-builder-2 -a c
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/yeoman-generator-builder-2/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/yeoman-generator-builder-2/)
 
 ---
 

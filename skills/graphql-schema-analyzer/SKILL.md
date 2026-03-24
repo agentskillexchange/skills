@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill graphql-schema-analyzer -a code
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/graphql-schema-analyzer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/graphql-schema-analyzer/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

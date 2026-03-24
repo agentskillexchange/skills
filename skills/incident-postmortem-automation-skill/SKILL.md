@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill incident-postmortem-automation-
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/incident-postmortem-automation-skill/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/incident-postmortem-automation-skill/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

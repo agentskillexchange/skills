@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill github-actions-matrix-builder-3
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/github-actions-matrix-builder-3/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/github-actions-matrix-builder-3/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

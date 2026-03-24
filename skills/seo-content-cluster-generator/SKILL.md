@@ -57,5 +57,5 @@ npx skills add agentskillexchange/skills --skill seo-content-cluster-generator -
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/seo-content-cluster-generator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/seo-content-cluster-generator/)
 - [Browse All Skills](https://agentskillexchange.com/)

@@ -58,5 +58,5 @@ Profile: [@leopark_ai](https://agentskillexchange.com/creator/leopark_ai/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/ahrefs-content-gap-finder-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/ahrefs-content-gap-finder-agent/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

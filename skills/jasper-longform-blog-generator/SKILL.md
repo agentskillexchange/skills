@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill jasper-longform-blog-generator 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/jasper-longform-blog-generator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/jasper-longform-blog-generator/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

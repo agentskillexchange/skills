@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill openapi-sdk-generator-pipeline 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/openapi-sdk-generator-pipeline/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/openapi-sdk-generator-pipeline/)
 - [Browse All Skills](https://agentskillexchange.com)

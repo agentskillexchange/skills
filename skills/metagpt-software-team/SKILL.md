@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill metagpt-software-team -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/metagpt-software-team/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/metagpt-software-team/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

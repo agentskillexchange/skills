@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill eslint-rule-impact-analyzer -a 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/eslint-rule-impact-analyzer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/eslint-rule-impact-analyzer/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -2,7 +2,7 @@
 name: "Terraform Module Registry Browser"
 description: "Searches and evaluates Terraform modules from the HashiCorp Registry API and private registries. Uses hcl2json parser to analyze module input variables, outputs, and provider requirements."
 category: "Templates & Workflows"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: verified_metadata
 rating: 4.8
 reviews: 13
@@ -57,5 +57,5 @@ npx skills add agentskillexchange/skills --skill terraform-module-registry-brows
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/terraform-module-registry-browser/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-module-registry-browser/)
 - [Browse All Skills](https://agentskillexchange.com/)

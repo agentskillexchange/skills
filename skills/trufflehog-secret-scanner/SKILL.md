@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill trufflehog-secret-scanner -a co
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/trufflehog-secret-scanner/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/trufflehog-secret-scanner/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

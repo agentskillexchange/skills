@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill database-slow-query-runbook -a 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/database-slow-query-runbook/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/database-slow-query-runbook/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

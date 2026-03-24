@@ -2,7 +2,7 @@
 name: "Terraform Cloud MCP Server"
 description: "Use this skill when you need to trigger Terraform Cloud runs, check plan output, apply infrastructure changes, or inspect workspace state via AI. It allows agents to manage cloud infrastructure through Terraform Cloud’s API without direct CLI access."
 category: "Developer Tools"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.9
 reviews: 50
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill terraform-cloud-mcp-server -a c
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/terraform-cloud-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-cloud-mcp-server/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill jenkins-declarative-pipeline-ge
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/jenkins-declarative-pipeline-generator/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-declarative-pipeline-generator/)
 
 ---
 

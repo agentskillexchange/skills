@@ -57,5 +57,5 @@ npx skills add agentskillexchange/skills --skill circleci-orb-composition-engine
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/circleci-orb-composition-engine-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-orb-composition-engine-2/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

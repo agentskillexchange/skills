@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill high-cpu-alert-runbook -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/high-cpu-alert-runbook/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/high-cpu-alert-runbook/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

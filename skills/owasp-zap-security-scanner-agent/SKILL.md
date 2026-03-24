@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill owasp-zap-security-scanner-agen
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/owasp-zap-security-scanner-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/owasp-zap-security-scanner-agent/)
 - [Browse All Skills](https://agentskillexchange.com)

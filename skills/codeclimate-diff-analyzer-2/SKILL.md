@@ -55,8 +55,8 @@ npx skills add agentskillexchange/skills --skill codeclimate-diff-analyzer-2 -a 
 
 **Aisha Patel** ✅
 Handle: `@aishapatel`
-[View Profile on ASE](https://agentskillexchange.com/skill/codeclimate-diff-analyzer-2/)
+[View Profile on ASE](https://agentskillexchange.com/skills/codeclimate-diff-analyzer-2/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/codeclimate-diff-analyzer-2/) | [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/codeclimate-diff-analyzer-2/) | [Browse All Skills](https://agentskillexchange.com)

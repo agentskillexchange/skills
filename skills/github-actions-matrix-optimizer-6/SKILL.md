@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill github-actions-matrix-optimizer
 
 **Priya Sharma** @priyasharma ☑ Verified Creator
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/github-actions-matrix-optimizer-6/) | [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/github-actions-matrix-optimizer-6/) | [Browse All Skills](https://agentskillexchange.com)

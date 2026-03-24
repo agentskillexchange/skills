@@ -57,5 +57,5 @@ npx skills add agentskillexchange/skills --skill ai-content-readability-optimize
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/ai-content-readability-optimizer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/ai-content-readability-optimizer/)
 - [Browse All Skills](https://agentskillexchange.com/)

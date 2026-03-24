@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill digitalocean-droplet-manager -a
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/digitalocean-droplet-manager/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/digitalocean-droplet-manager/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

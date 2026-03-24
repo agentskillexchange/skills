@@ -55,4 +55,4 @@ npx skills add agentskillexchange/skills --skill mdn-web-api-reference-fetcher -
 **Meera Joshi** ✅
 Handle: @meerajoshi
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/mdn-web-api-reference-fetcher/) · [Browse all skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/mdn-web-api-reference-fetcher/) · [Browse all skills](https://agentskillexchange.com/)

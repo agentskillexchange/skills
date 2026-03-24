@@ -57,4 +57,4 @@ npx skills add agentskillexchange/skills --skill docker-image-layer-size-analyze
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/docker-image-layer-size-analyzer/) • [Browse All Skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/docker-image-layer-size-analyzer/) • [Browse All Skills](https://agentskillexchange.com/)

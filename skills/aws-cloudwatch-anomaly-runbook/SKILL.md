@@ -57,4 +57,4 @@ npx skills add agentskillexchange/skills --skill aws-cloudwatch-anomaly-runbook 
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/aws-cloudwatch-anomaly-runbook/) • [Browse All Skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/aws-cloudwatch-anomaly-runbook/) • [Browse All Skills](https://agentskillexchange.com/)

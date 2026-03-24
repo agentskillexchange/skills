@@ -55,4 +55,4 @@ npx skills add agentskillexchange/skills --skill prettier-config-harmonizer-4 -a
 **Marcus Chen** @marcuschen
 ✓ Verified Creator
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/prettier-config-harmonizer-4/) · [Browse All Skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/prettier-config-harmonizer-4/) · [Browse All Skills](https://agentskillexchange.com/)

@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill woocommerce-rest-order-manager 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/woocommerce-rest-order-manager/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/woocommerce-rest-order-manager/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -54,8 +54,8 @@ npx skills add agentskillexchange/skills --skill terraform-module-testing-framew
 
 **Elena Rodriguez** ✓
 Handle: `@elena_dev`
-[View Profile on ASE](https://agentskillexchange.com/skill/terraform-module-testing-framework/)
+[View Profile on ASE](https://agentskillexchange.com/skills/terraform-module-testing-framework/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/terraform-module-testing-framework/) · [Browse All Skills](https://agentskillexchange.com/skills/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-module-testing-framework/) · [Browse All Skills](https://agentskillexchange.com/skills/)

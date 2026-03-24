@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill buildkite-agent-monitor -a code
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/buildkite-agent-monitor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/buildkite-agent-monitor/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

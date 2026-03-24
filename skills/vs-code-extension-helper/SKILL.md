@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill vs-code-extension-helper -a cod
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/vs-code-extension-helper/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/vs-code-extension-helper/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

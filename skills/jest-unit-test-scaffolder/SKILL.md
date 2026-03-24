@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill jest-unit-test-scaffolder -a co
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/jest-unit-test-scaffolder/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/jest-unit-test-scaffolder/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

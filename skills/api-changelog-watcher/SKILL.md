@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill api-changelog-watcher -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/api-changelog-watcher/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/api-changelog-watcher/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill artillery-load-test-runner -a c
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/artillery-load-test-runner/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/artillery-load-test-runner/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

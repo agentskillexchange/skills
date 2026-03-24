@@ -57,5 +57,5 @@ npx skills add agentskillexchange/skills --skill grafana-dashboard-json-migrator
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/grafana-dashboard-json-migrator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/grafana-dashboard-json-migrator/)
 - [Browse All Skills](https://agentskillexchange.com/)

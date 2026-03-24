@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill grpc-service-tool -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/grpc-service-tool/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/grpc-service-tool/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

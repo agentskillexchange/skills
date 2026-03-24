@@ -2,7 +2,7 @@
 name: "PagerDuty Incident Runbook"
 description: "Automates PagerDuty incident response using the Events API v2 /enqueue endpoint and REST API /incidents for triage. Executes diagnostic runbooks based on alert routing keys, collects system metrics via Datadog API, and posts timeline updates to incident channels."
 category: "Runbooks & Diagnostics"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: verified_metadata
 rating: 0
 reviews: 0
@@ -54,8 +54,8 @@ npx skills add agentskillexchange/skills --skill pagerduty-incident-runbook-skil
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/pagerduty-incident-runbook-skill/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/pagerduty-incident-runbook-skill/)
 
 ---
 
-[Browse more skills](https://agentskillexchange.com) | [Agent Skill Exchange](https://agentskillexchange.com/skill/pagerduty-incident-runbook-skill/)
+[Browse more skills](https://agentskillexchange.com) | [Agent Skill Exchange](https://agentskillexchange.com/skills/pagerduty-incident-runbook-skill/)

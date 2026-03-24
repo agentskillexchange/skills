@@ -56,4 +56,4 @@ npx skills add agentskillexchange/skills --skill ansible-runbook-executor -a cod
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/ansible-runbook-executor/) · [Browse Skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/ansible-runbook-executor/) · [Browse Skills](https://agentskillexchange.com/)

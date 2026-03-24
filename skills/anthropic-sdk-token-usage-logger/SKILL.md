@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill anthropic-sdk-token-usage-logge
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/anthropic-sdk-token-usage-logger/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/anthropic-sdk-token-usage-logger/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

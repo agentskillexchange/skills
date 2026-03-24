@@ -54,9 +54,9 @@ npx skills add agentskillexchange/skills --skill circleci-orb-pipeline-composer-
 
 **Sarah O'Brien** ✓
 Handle: @sarahcodes
-[View Profile](https://agentskillexchange.com/skill/circleci-orb-pipeline-composer-2/)
+[View Profile](https://agentskillexchange.com/skills/circleci-orb-pipeline-composer-2/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/circleci-orb-pipeline-composer-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-orb-pipeline-composer-2/)
 - [Browse All Skills](https://agentskillexchange.com/)

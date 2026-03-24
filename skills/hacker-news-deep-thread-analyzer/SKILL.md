@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill hacker-news-deep-thread-analyze
 
 **Elena Rodriguez** ✓  
 Handle: `@elena_dev`  
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/hacker-news-deep-thread-analyzer/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/hacker-news-deep-thread-analyzer/)
 
 ---
 

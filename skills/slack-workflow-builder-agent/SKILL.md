@@ -58,5 +58,5 @@ Handle: @carlosmendez
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/slack-workflow-builder-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/slack-workflow-builder-agent/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

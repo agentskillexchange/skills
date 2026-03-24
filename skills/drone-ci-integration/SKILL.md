@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill drone-ci-integration -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/drone-ci-integration/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/drone-ci-integration/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

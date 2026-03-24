@@ -57,5 +57,5 @@ npx skills add agentskillexchange/skills --skill helm-chart-template-scaffolder 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/helm-chart-template-scaffolder/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/helm-chart-template-scaffolder/)
 - [Browse All Skills](https://agentskillexchange.com/)

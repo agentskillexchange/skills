@@ -54,8 +54,8 @@ npx skills add agentskillexchange/skills --skill prometheus-alert-resolver-skill
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/prometheus-alert-resolver-skill/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-alert-resolver-skill/)
 
 ---
 
-[Browse more skills](https://agentskillexchange.com) | [Agent Skill Exchange](https://agentskillexchange.com/skill/prometheus-alert-resolver-skill/)
+[Browse more skills](https://agentskillexchange.com) | [Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-alert-resolver-skill/)

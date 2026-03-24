@@ -56,5 +56,5 @@ npx skills add agentskillexchange/skills --skill git-secrets-precommit-scanner -
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/git-secrets-precommit-scanner/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/git-secrets-precommit-scanner/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

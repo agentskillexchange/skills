@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill aws-cloudwatch-anomaly-investig
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/aws-cloudwatch-anomaly-investigator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/aws-cloudwatch-anomaly-investigator/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

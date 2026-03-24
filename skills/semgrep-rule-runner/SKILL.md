@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill semgrep-rule-runner -a codex
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/semgrep-rule-runner/) · [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/semgrep-rule-runner/) · [Browse All Skills](https://agentskillexchange.com)

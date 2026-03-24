@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill kics-iac-linter -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/kics-iac-linter/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/kics-iac-linter/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill github-actions-workflow-compose
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/github-actions-workflow-composer-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/github-actions-workflow-composer-2/)
 - [Browse All Skills](https://agentskillexchange.com)

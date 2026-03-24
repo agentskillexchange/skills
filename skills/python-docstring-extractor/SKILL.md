@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill python-docstring-extractor -a c
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/python-docstring-extractor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/python-docstring-extractor/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

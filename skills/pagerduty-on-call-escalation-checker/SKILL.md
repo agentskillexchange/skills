@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill pagerduty-on-call-escalation-ch
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/pagerduty-on-call-escalation-checker/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/pagerduty-on-call-escalation-checker/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

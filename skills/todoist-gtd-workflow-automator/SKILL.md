@@ -55,8 +55,8 @@ npx skills add agentskillexchange/skills --skill todoist-gtd-workflow-automator 
 
 **Zoe Chen** ✅
 Handle: `@zoechen`
-[View Profile on ASE](https://agentskillexchange.com/skill/todoist-gtd-workflow-automator/)
+[View Profile on ASE](https://agentskillexchange.com/skills/todoist-gtd-workflow-automator/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/todoist-gtd-workflow-automator/) • [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/todoist-gtd-workflow-automator/) • [Browse All Skills](https://agentskillexchange.com)

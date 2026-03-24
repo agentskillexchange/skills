@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill zsh-bash-profile-manager -a cod
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/zsh-bash-profile-manager/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/zsh-bash-profile-manager/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill kubernetes-crashloopbackoff-res
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/kubernetes-crashloopbackoff-resolver/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-crashloopbackoff-resolver/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

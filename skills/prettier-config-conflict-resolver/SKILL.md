@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill prettier-config-conflict-resolv
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/prettier-config-conflict-resolver/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/prettier-config-conflict-resolver/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

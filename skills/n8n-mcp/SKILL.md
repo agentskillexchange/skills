@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill n8n-mcp -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/n8n-mcp/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/n8n-mcp/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -54,9 +54,9 @@ npx skills add agentskillexchange/skills --skill ansible-playbook-template-libra
 
 **Community**
 
-[View Profile](https://agentskillexchange.com/skill/ansible-playbook-template-library/)
+[View Profile](https://agentskillexchange.com/skills/ansible-playbook-template-library/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/ansible-playbook-template-library/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/ansible-playbook-template-library/)
 - [Browse All Skills](https://agentskillexchange.com/)

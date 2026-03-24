@@ -58,5 +58,5 @@ Profile: [@priyasharma](https://agentskillexchange.com/creator/priyasharma/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/owasp-zap-security-audit-skill/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/owasp-zap-security-audit-skill/)
 - [Browse All Skills](https://agentskillexchange.com/)

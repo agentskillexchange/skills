@@ -2,7 +2,7 @@
 name: "SonarQube Quality Gate Enforcer"
 description: "Enforces SonarQube quality gates in CI pipelines via the SonarQube Web API /api/qualitygates/project_status endpoint. Validates coverage thresholds, code smell counts, and security hotspot resolutions."
 category: "Code Quality & Review"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: verified_metadata
 rating: 4.9
 reviews: 52
@@ -54,9 +54,9 @@ npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-enforcer
 
 **David Nguyen** @davidnguyen  
 ✅ Verified Creator  
-[View Profile](https://agentskillexchange.com/skill/sonarqube-quality-gate-enforcer-9/)
+[View Profile](https://agentskillexchange.com/skills/sonarqube-quality-gate-enforcer-9/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/sonarqube-quality-gate-enforcer-9/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/sonarqube-quality-gate-enforcer-9/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

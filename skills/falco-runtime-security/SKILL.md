@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill falco-runtime-security -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/falco-runtime-security/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/falco-runtime-security/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

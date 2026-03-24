@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill codeclimate-quality-analysis-2 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/codeclimate-quality-analysis-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/codeclimate-quality-analysis-2/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

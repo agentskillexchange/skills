@@ -56,4 +56,4 @@ npx skills add agentskillexchange/skills --skill ansible-playbook-template-gener
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/ansible-playbook-template-generator/) | [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/ansible-playbook-template-generator/) | [Browse All Skills](https://agentskillexchange.com)

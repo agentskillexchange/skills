@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill unit-test-generator-skill -a co
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/unit-test-generator-skill/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/unit-test-generator-skill/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

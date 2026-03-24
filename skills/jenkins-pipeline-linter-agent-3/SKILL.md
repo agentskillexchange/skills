@@ -54,9 +54,9 @@ npx skills add agentskillexchange/skills --skill jenkins-pipeline-linter-agent-3
 
 **Marcus Chen** @marcuschen  
 ✅ Verified Creator  
-[View Profile](https://agentskillexchange.com/skill/jenkins-pipeline-linter-agent-3/)
+[View Profile](https://agentskillexchange.com/skills/jenkins-pipeline-linter-agent-3/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/jenkins-pipeline-linter-agent-3/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-pipeline-linter-agent-3/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

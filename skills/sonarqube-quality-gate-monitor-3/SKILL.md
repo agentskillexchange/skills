@@ -55,8 +55,8 @@ npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-monitor-
 
 **James Kim** ✅
 Handle: `@jameskim_ai`
-[View Profile on ASE](https://agentskillexchange.com/skill/sonarqube-quality-gate-monitor-3/)
+[View Profile on ASE](https://agentskillexchange.com/skills/sonarqube-quality-gate-monitor-3/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/sonarqube-quality-gate-monitor-3/) | [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/sonarqube-quality-gate-monitor-3/) | [Browse All Skills](https://agentskillexchange.com)

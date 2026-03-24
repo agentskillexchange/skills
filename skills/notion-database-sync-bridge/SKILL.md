@@ -56,9 +56,9 @@ npx skills add agentskillexchange/skills --skill notion-database-sync-bridge -a 
 
 **Ben Taylor** 
 Handle: `@bentaylor`
-[View Profile on ASE](https://agentskillexchange.com/skill/notion-database-sync-bridge/)
+[View Profile on ASE](https://agentskillexchange.com/skills/notion-database-sync-bridge/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/notion-database-sync-bridge/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/notion-database-sync-bridge/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

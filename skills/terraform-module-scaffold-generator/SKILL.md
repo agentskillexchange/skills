@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill terraform-module-scaffold-gener
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/terraform-module-scaffold-generator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-module-scaffold-generator/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill selenium-grid-parallel-test-run
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/selenium-grid-parallel-test-runner/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/selenium-grid-parallel-test-runner/)
 - [Browse All Skills](https://agentskillexchange.com)

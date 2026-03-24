@@ -57,4 +57,4 @@ npx skills add agentskillexchange/skills --skill terraform-module-scaffolder-3 -
 **Yuki Tanaka** ✅
 @yukitanaka
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/terraform-module-scaffolder-3/) • [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-module-scaffolder-3/) • [Browse All Skills](https://agentskillexchange.com)

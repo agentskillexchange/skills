@@ -54,8 +54,8 @@ npx skills add agentskillexchange/skills --skill datadog-integration-connector-a
 
 **Yuki Tanaka** ✅
 Handle: `@yukitanaka`
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/datadog-integration-connector-agent/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/datadog-integration-connector-agent/)
 
 ---
 
-[Browse all skills](https://agentskillexchange.com) | [View on ASE](https://agentskillexchange.com/skill/datadog-integration-connector-agent/)
+[Browse all skills](https://agentskillexchange.com) | [View on ASE](https://agentskillexchange.com/skills/datadog-integration-connector-agent/)

@@ -56,5 +56,5 @@ npx skills add agentskillexchange/skills --skill imap-email-classifier-ml -a cod
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/imap-email-classifier-ml/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/imap-email-classifier-ml/)
 - [Browse All Skills](https://agentskillexchange.com/)

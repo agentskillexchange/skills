@@ -56,5 +56,5 @@ npx skills add agentskillexchange/skills --skill cookiecutter-project-scaffold -
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/cookiecutter-project-scaffold/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/cookiecutter-project-scaffold/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

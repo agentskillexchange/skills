@@ -2,7 +2,7 @@
 name: "PagerDuty Incident Orchestrator"
 description: "Manages PagerDuty incident lifecycle using the PagerDuty Events API v2 and REST API. Automates escalation policies, runbook attachment, and post-incident timeline generation."
 category: "Monitoring & Alerts"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: verified_metadata
 rating: 4.9
 reviews: 83
@@ -54,9 +54,9 @@ npx skills add agentskillexchange/skills --skill pagerduty-incident-orchestrator
 
 **Tom Wilson**
 Handle: @tomwilson
-[View Profile](https://agentskillexchange.com/skill/pagerduty-incident-orchestrator-2/)
+[View Profile](https://agentskillexchange.com/skills/pagerduty-incident-orchestrator-2/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/pagerduty-incident-orchestrator-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/pagerduty-incident-orchestrator-2/)
 - [Browse All Skills](https://agentskillexchange.com/)

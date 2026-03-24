@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill sigstore-cosign-verifier-2 -a c
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/sigstore-cosign-verifier-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/sigstore-cosign-verifier-2/)
 - [Browse All Skills](https://agentskillexchange.com/)

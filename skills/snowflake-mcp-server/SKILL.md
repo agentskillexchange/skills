@@ -2,7 +2,7 @@
 name: "Snowflake MCP Server"
 description: "Use this skill to query Snowflake data warehouses, inspect schemas, monitor job execution, and manage Snowflake resources through MCP. It enables agents to access enterprise data warehouse capabilities for analytics, reporting, and data pipeline management. Trigger when you need to run analytical queries, check data pipeline status, or interact with Snowflake programmatically."
 category: "Data Extraction & Transformation"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.3
 reviews: 27
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill snowflake-mcp-server -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/snowflake-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/snowflake-mcp-server/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

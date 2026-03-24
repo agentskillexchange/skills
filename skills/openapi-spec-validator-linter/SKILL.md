@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill openapi-spec-validator-linter -
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/openapi-spec-validator-linter/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/openapi-spec-validator-linter/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

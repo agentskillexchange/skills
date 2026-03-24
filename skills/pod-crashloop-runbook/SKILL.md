@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill pod-crashloop-runbook -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/pod-crashloop-runbook/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/pod-crashloop-runbook/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -54,8 +54,8 @@ npx skills add agentskillexchange/skills --skill terraform-cloud-orchestrator-sk
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/terraform-cloud-orchestrator-skill/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-cloud-orchestrator-skill/)
 
 ---
 
-[Browse more skills](https://agentskillexchange.com) | [Agent Skill Exchange](https://agentskillexchange.com/skill/terraform-cloud-orchestrator-skill/)
+[Browse more skills](https://agentskillexchange.com) | [Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-cloud-orchestrator-skill/)

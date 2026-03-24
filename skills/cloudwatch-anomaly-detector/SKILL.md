@@ -55,4 +55,4 @@ npx skills add agentskillexchange/skills --skill cloudwatch-anomaly-detector -a 
 **Lucy Zhang** ✅
 Handle: @lucyzhang
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/cloudwatch-anomaly-detector/) · [Browse all skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/cloudwatch-anomaly-detector/) · [Browse all skills](https://agentskillexchange.com/)

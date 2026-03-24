@@ -55,4 +55,4 @@ npx skills add agentskillexchange/skills --skill pagerduty-incident-runbook-2 -a
 **Zoe Chen** (@zoechen)
 ✓ Verified Creator
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/pagerduty-incident-runbook-2/) | [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/pagerduty-incident-runbook-2/) | [Browse All Skills](https://agentskillexchange.com)

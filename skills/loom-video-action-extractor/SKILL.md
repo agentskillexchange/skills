@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill loom-video-action-extractor -a 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/loom-video-action-extractor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/loom-video-action-extractor/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

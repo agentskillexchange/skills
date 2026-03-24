@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill docker-build-cache-optimizer -a
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/docker-build-cache-optimizer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/docker-build-cache-optimizer/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

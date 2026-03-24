@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill argocd-deployment-runbook-agent
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/argocd-deployment-runbook-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/argocd-deployment-runbook-agent/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

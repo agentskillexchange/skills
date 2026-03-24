@@ -56,9 +56,9 @@ npx skills add agentskillexchange/skills --skill google-calendar-conflict-resolv
 
 **Meera Joshi** ✅
 Handle: `@meerajoshi`
-[View Profile on ASE](https://agentskillexchange.com/skill/google-calendar-conflict-resolver-5/)
+[View Profile on ASE](https://agentskillexchange.com/skills/google-calendar-conflict-resolver-5/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/google-calendar-conflict-resolver-5/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/google-calendar-conflict-resolver-5/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

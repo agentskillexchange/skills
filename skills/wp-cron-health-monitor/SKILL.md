@@ -58,5 +58,5 @@ Profile: [@fatimaalhassan](https://agentskillexchange.com/creator/fatimaalhassan
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/wp-cron-health-monitor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/wp-cron-health-monitor/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

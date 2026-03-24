@@ -58,5 +58,5 @@ Profile: [@aishapatel](https://agentskillexchange.com/creator/aishapatel/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/playwright-network-har-recorder/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/playwright-network-har-recorder/)
 - [Browse All Skills](https://agentskillexchange.com/)

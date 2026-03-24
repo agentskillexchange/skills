@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill secrets-scanner-git-repositorie
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/secrets-scanner-git-repositories-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/secrets-scanner-git-repositories-2/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

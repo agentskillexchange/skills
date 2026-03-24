@@ -2,7 +2,7 @@
 name: "Docker Compose Test Harness"
 description: "Scaffolds integration test environments using Docker Compose v2 CLI, testcontainers-python library, and the docker-py SDK. Manages service dependencies, health checks, and test data seeding."
 category: "Templates & Workflows"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.2
 reviews: 85
@@ -56,4 +56,4 @@ npx skills add agentskillexchange/skills --skill docker-compose-test-harness -a 
 
 
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/docker-compose-test-harness/) · [Browse All Skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/docker-compose-test-harness/) · [Browse All Skills](https://agentskillexchange.com/)

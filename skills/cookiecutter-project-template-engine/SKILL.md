@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill cookiecutter-project-template-e
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/cookiecutter-project-template-engine/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/cookiecutter-project-template-engine/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

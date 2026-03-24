@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill sonarqube-scanner-skill -a code
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/sonarqube-scanner-skill/) · [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/sonarqube-scanner-skill/) · [Browse All Skills](https://agentskillexchange.com)

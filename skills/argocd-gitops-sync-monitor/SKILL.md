@@ -54,9 +54,9 @@ npx skills add agentskillexchange/skills --skill argocd-gitops-sync-monitor -a c
 
 **James Kim** @jameskim_ai  
 ✅ Verified Creator  
-[View Profile](https://agentskillexchange.com/skill/argocd-gitops-sync-monitor/)
+[View Profile](https://agentskillexchange.com/skills/argocd-gitops-sync-monitor/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/argocd-gitops-sync-monitor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/argocd-gitops-sync-monitor/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

@@ -57,5 +57,5 @@ npx skills add agentskillexchange/skills --skill video-subtitle-auto-translator-
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/video-subtitle-auto-translator-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/video-subtitle-auto-translator-agent/)
 - [Browse All Skills](https://agentskillexchange.com/)

@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill whisper-cpp-local-transcription
 
 **Fatima Al-Hassan** @fatimaalhassan ✓ Verified
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/whisper-cpp-local-transcription-engine/) · [Browse All Skills](https://agentskillexchange.com/skills/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/whisper-cpp-local-transcription-engine/) · [Browse All Skills](https://agentskillexchange.com/skills/)

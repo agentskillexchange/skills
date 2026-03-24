@@ -58,5 +58,5 @@ Handle: @fatimaalhassan
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/internal-link-optimizer-seo/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/internal-link-optimizer-seo/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

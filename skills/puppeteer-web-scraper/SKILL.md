@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill puppeteer-web-scraper -a codex
 
 **Sam Lee** ✅
 - Handle: [@samlee_dev](https://agentskillexchange.com/creator/samlee_dev/)
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/puppeteer-web-scraper/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/puppeteer-web-scraper/)
 
 ---
 

@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill great-expectations-data-quality
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/great-expectations-data-quality/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/great-expectations-data-quality/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill zoom-meeting-summarizer -a code
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/zoom-meeting-summarizer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/zoom-meeting-summarizer/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill db-connection-runbook -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/db-connection-runbook/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/db-connection-runbook/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

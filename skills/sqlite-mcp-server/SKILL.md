@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill sqlite-mcp-server -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/sqlite-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/sqlite-mcp-server/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

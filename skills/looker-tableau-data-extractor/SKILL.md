@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill looker-tableau-data-extractor -
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/looker-tableau-data-extractor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/looker-tableau-data-extractor/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

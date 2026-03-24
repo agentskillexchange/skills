@@ -56,8 +56,8 @@ npx skills add agentskillexchange/skills --skill github-actions-workflow-generat
 
 **Sam Lee** ✅
 Handle: `@samlee_dev`
-[View Profile on ASE](https://agentskillexchange.com/skill/github-actions-workflow-generator-v2/)
+[View Profile on ASE](https://agentskillexchange.com/skills/github-actions-workflow-generator-v2/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/github-actions-workflow-generator-v2/) • [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/github-actions-workflow-generator-v2/) • [Browse All Skills](https://agentskillexchange.com)

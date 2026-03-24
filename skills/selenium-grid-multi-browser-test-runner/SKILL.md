@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill selenium-grid-multi-browser-tes
 
 **Lucy Zhang** @lucyzhang ✓ Verified
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/selenium-grid-multi-browser-test-runner/) · [Browse All Skills](https://agentskillexchange.com/skills/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/selenium-grid-multi-browser-test-runner/) · [Browse All Skills](https://agentskillexchange.com/skills/)

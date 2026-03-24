@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill gsc-performance-analyzer-skill 
 
 **Hannah Berg** @hannahberg 
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/gsc-performance-analyzer-skill/) · [Browse All Skills](https://agentskillexchange.com/skills/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/gsc-performance-analyzer-skill/) · [Browse All Skills](https://agentskillexchange.com/skills/)

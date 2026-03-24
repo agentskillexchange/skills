@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill whisper-cpp-realtime-transcript
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/whisper-cpp-realtime-transcription-pipeline/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/whisper-cpp-realtime-transcription-pipeline/)
 
 ---
 

@@ -55,4 +55,4 @@ npx skills add agentskillexchange/skills --skill datadog-monitor-sync -a codex
 **Tom Wilson**
 Handle: @tomwilson
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/datadog-monitor-sync/) · [Browse all skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/datadog-monitor-sync/) · [Browse all skills](https://agentskillexchange.com/)

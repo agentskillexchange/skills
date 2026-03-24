@@ -58,4 +58,4 @@ npx skills add agentskillexchange/skills --skill adobe-photoshop-api-batch-proce
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/adobe-photoshop-api-batch-processor/) · [Browse All Skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/adobe-photoshop-api-batch-processor/) · [Browse All Skills](https://agentskillexchange.com/)

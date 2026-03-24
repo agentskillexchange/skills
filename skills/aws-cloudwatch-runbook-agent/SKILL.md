@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill aws-cloudwatch-runbook-agent -a
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/aws-cloudwatch-runbook-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/aws-cloudwatch-runbook-agent/)
 - [Browse All Skills](https://agentskillexchange.com/)

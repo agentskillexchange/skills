@@ -54,9 +54,9 @@ npx skills add agentskillexchange/skills --skill graphql-schema-introspection-an
 
 **Sam Lee** ✓
 Handle: @samlee_dev
-[View Profile](https://agentskillexchange.com/skill/graphql-schema-introspection-analyzer-2/)
+[View Profile](https://agentskillexchange.com/skills/graphql-schema-introspection-analyzer-2/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/graphql-schema-introspection-analyzer-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/graphql-schema-introspection-analyzer-2/)
 - [Browse All Skills](https://agentskillexchange.com/)

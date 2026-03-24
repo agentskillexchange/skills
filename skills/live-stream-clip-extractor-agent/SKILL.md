@@ -57,5 +57,5 @@ npx skills add agentskillexchange/skills --skill live-stream-clip-extractor-agen
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/live-stream-clip-extractor-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/live-stream-clip-extractor-agent/)
 - [Browse All Skills](https://agentskillexchange.com/)

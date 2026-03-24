@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill dbt-model-dependency-analyzer -
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/dbt-model-dependency-analyzer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/dbt-model-dependency-analyzer/)
 - [Browse All Skills](https://agentskillexchange.com)

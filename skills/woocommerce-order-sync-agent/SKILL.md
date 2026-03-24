@@ -57,5 +57,5 @@ npx skills add agentskillexchange/skills --skill woocommerce-order-sync-agent -a
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/woocommerce-order-sync-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/woocommerce-order-sync-agent/)
 - [Browse All Skills](https://agentskillexchange.com/)

@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill obsidian-vault-manager -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/obsidian-vault-manager/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/obsidian-vault-manager/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

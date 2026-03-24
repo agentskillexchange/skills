@@ -2,7 +2,7 @@
 name: "CodeClimate Maintainability Reporter"
 description: "Queries the CodeClimate API to fetch maintainability ratings, technical debt estimates, and code smell trends. Surfaces files with the worst churn-to-complexity ratio and flags functions exceeding cognitive complexity thresholds. Outputs a prioritized refactor list."
 category: "Code Quality & Review"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: listed
 rating: 4.6
 reviews: 79
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill codeclimate-maintainability-rep
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/codeclimate-maintainability-reporter/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/codeclimate-maintainability-reporter/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

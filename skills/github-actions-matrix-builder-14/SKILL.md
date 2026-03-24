@@ -54,8 +54,8 @@ npx skills add agentskillexchange/skills --skill github-actions-matrix-builder-1
 
 **Nina Volkov** ✅
 Handle: `@ninavolkov`
-[View Profile on ASE](https://agentskillexchange.com/skill/github-actions-matrix-builder-14/)
+[View Profile on ASE](https://agentskillexchange.com/skills/github-actions-matrix-builder-14/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/github-actions-matrix-builder-14/) • [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/github-actions-matrix-builder-14/) • [Browse All Skills](https://agentskillexchange.com)

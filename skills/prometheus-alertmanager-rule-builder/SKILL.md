@@ -57,5 +57,5 @@ npx skills add agentskillexchange/skills --skill prometheus-alertmanager-rule-bu
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/prometheus-alertmanager-rule-builder/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-alertmanager-rule-builder/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

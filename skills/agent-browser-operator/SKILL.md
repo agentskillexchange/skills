@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill agent-browser-operator -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/agent-browser-operator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/agent-browser-operator/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

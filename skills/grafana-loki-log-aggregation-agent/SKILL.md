@@ -54,8 +54,8 @@ npx skills add agentskillexchange/skills --skill grafana-loki-log-aggregation-ag
 
 **Zoe Chen** ✓
 Handle: `@zoechen`
-[View Profile on ASE](https://agentskillexchange.com/skill/grafana-loki-log-aggregation-agent/)
+[View Profile on ASE](https://agentskillexchange.com/skills/grafana-loki-log-aggregation-agent/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/grafana-loki-log-aggregation-agent/) · [Browse All Skills](https://agentskillexchange.com/skills/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/grafana-loki-log-aggregation-agent/) · [Browse All Skills](https://agentskillexchange.com/skills/)

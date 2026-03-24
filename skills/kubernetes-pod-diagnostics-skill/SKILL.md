@@ -54,8 +54,8 @@ npx skills add agentskillexchange/skills --skill kubernetes-pod-diagnostics-skil
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/kubernetes-pod-diagnostics-skill/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-pod-diagnostics-skill/)
 
 ---
 
-[Browse more skills](https://agentskillexchange.com) | [Agent Skill Exchange](https://agentskillexchange.com/skill/kubernetes-pod-diagnostics-skill/)
+[Browse more skills](https://agentskillexchange.com) | [Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-pod-diagnostics-skill/)

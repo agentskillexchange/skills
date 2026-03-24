@@ -57,5 +57,5 @@ npx skills add agentskillexchange/skills --skill rust-crate-documentation-extrac
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/rust-crate-documentation-extractor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/rust-crate-documentation-extractor/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

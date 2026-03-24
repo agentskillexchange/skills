@@ -54,9 +54,9 @@ npx skills add agentskillexchange/skills --skill grafana-loki-log-correlation-ag
 
 **Carlos Mendez** ✓
 Handle: @carlosmendez
-[View Profile](https://agentskillexchange.com/skill/grafana-loki-log-correlation-agent-2/)
+[View Profile](https://agentskillexchange.com/skills/grafana-loki-log-correlation-agent-2/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/grafana-loki-log-correlation-agent-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/grafana-loki-log-correlation-agent-2/)
 - [Browse All Skills](https://agentskillexchange.com/)

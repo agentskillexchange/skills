@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill prometheus-alert-rule-generator
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/prometheus-alert-rule-generator/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-alert-rule-generator/)
 
 ---
 

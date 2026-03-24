@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill aws-cloudwatch-insights-agent -
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/aws-cloudwatch-insights-agent/) · [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/aws-cloudwatch-insights-agent/) · [Browse All Skills](https://agentskillexchange.com)

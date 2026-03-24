@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill markdown-to-amp-article-convert
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/markdown-to-amp-article-converter/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/markdown-to-amp-article-converter/)
 
 ---
 

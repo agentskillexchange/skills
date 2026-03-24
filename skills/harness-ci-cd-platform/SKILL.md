@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill harness-ci-cd-platform -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/harness-ci-cd-platform/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/harness-ci-cd-platform/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill nginx-error-log-runbook-agent -
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/nginx-error-log-runbook-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/nginx-error-log-runbook-agent/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

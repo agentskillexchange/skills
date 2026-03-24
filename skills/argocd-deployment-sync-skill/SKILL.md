@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill argocd-deployment-sync-skill -a
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/argocd-deployment-sync-skill/) · [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/argocd-deployment-sync-skill/) · [Browse All Skills](https://agentskillexchange.com)

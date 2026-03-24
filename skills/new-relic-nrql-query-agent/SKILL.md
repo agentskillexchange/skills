@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill new-relic-nrql-query-agent -a c
 
 **Hannah Berg**
 - Handle: [@hannahberg](https://agentskillexchange.com/creator/hannahberg/)
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/new-relic-nrql-query-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/new-relic-nrql-query-agent/)
 
 ---
 

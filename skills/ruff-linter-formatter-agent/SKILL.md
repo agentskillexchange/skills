@@ -56,5 +56,5 @@ npx skills add agentskillexchange/skills --skill ruff-linter-formatter-agent -a 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/ruff-linter-formatter-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/ruff-linter-formatter-agent/)
 - [Browse All Skills](https://agentskillexchange.com)

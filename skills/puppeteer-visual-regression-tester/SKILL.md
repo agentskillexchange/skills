@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill puppeteer-visual-regression-tes
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/puppeteer-visual-regression-tester/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/puppeteer-visual-regression-tester/)
 
 ---
 

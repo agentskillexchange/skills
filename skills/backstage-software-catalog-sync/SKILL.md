@@ -54,8 +54,8 @@ npx skills add agentskillexchange/skills --skill backstage-software-catalog-sync
 
 **Sarah O'Brien** ✓
 Handle: `@sarahcodes`
-[View Profile on ASE](https://agentskillexchange.com/skill/backstage-software-catalog-sync/)
+[View Profile on ASE](https://agentskillexchange.com/skills/backstage-software-catalog-sync/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/backstage-software-catalog-sync/) · [Browse All Skills](https://agentskillexchange.com/skills/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/backstage-software-catalog-sync/) · [Browse All Skills](https://agentskillexchange.com/skills/)

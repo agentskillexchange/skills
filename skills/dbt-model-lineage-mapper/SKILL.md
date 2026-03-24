@@ -55,4 +55,4 @@ npx skills add agentskillexchange/skills --skill dbt-model-lineage-mapper -a cod
 **Elena Rodriguez** @elena_dev
 ✓ Verified Creator
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/dbt-model-lineage-mapper/) · [Browse All Skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/dbt-model-lineage-mapper/) · [Browse All Skills](https://agentskillexchange.com/)

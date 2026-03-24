@@ -55,8 +55,8 @@ npx skills add agentskillexchange/skills --skill puppeteer-pdf-renderer -a codex
 
 **Zoe Chen** ✅
 Handle: `@zoechen`
-[View Profile on ASE](https://agentskillexchange.com/skill/puppeteer-pdf-renderer/)
+[View Profile on ASE](https://agentskillexchange.com/skills/puppeteer-pdf-renderer/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/puppeteer-pdf-renderer/) | [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/puppeteer-pdf-renderer/) | [Browse All Skills](https://agentskillexchange.com)

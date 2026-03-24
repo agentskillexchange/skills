@@ -2,7 +2,7 @@
 name: "Tavily MCP Server"
 description: "Use this skill to perform AI-optimized web searches designed specifically for agent and research workflows through Tavily’s API via MCP. It returns clean, structured search results optimized for LLM consumption with depth control options. Trigger when you need reliable web search results for agent tasks, research pipelines, or when you need search results formatted for […]"
 category: "Research & Scraping"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.8
 reviews: 8
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill tavily-mcp-server -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/tavily-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/tavily-mcp-server/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill sonarqube-gate-enforcer -a code
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/sonarqube-gate-enforcer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/sonarqube-gate-enforcer/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -56,4 +56,4 @@ npx skills add agentskillexchange/skills --skill argocd-sync-drift-detector -a c
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/argocd-sync-drift-detector/) | [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/argocd-sync-drift-detector/) | [Browse All Skills](https://agentskillexchange.com)

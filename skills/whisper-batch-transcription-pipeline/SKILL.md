@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill whisper-batch-transcription-pip
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/whisper-batch-transcription-pipeline/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/whisper-batch-transcription-pipeline/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

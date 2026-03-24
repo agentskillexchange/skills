@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill ffmpeg-thumbnail-grid-generator
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/ffmpeg-thumbnail-grid-generator/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/ffmpeg-thumbnail-grid-generator/)
 
 ---
 

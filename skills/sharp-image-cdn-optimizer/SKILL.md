@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill sharp-image-cdn-optimizer -a co
 
 **Community** · Community
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/sharp-image-cdn-optimizer/) · [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/sharp-image-cdn-optimizer/) · [Browse All Skills](https://agentskillexchange.com)

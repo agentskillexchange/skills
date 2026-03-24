@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill circleci-orb-auditor -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/circleci-orb-auditor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-orb-auditor/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

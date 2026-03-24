@@ -2,7 +2,7 @@
 name: "Intercom MCP Server"
 description: "Use this skill to manage Intercom customer conversations, create user segments, run campaigns, and access customer data through MCP. It enables agents to automate customer communication workflows and sync user data. Trigger when you need to send targeted messages, update user attributes, create segments, or integrate Intercom with data pipelines."
 category: "Templates & Workflows"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.4
 reviews: 18
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill intercom-mcp-server -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/intercom-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/intercom-mcp-server/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

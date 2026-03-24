@@ -54,9 +54,9 @@ npx skills add agentskillexchange/skills --skill github-actions-matrix-optimizer
 
 **James Kim** ✓
 Handle: @jameskim_ai
-[View Profile](https://agentskillexchange.com/skill/github-actions-matrix-optimizer-5/)
+[View Profile](https://agentskillexchange.com/skills/github-actions-matrix-optimizer-5/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/github-actions-matrix-optimizer-5/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/github-actions-matrix-optimizer-5/)
 - [Browse All Skills](https://agentskillexchange.com/)

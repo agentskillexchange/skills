@@ -56,5 +56,5 @@ npx skills add agentskillexchange/skills --skill plaid-financial-data-connector 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/plaid-financial-data-connector/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/plaid-financial-data-connector/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

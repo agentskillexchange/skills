@@ -2,7 +2,7 @@
 name: "Terraform Module Registry"
 description: "Indexes and serves Terraform modules via the Terraform Registry Protocol API. Validates module structure, generates documentation from HCL using terraform-docs, and publishes to private registries."
 category: "Templates & Workflows"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.8
 reviews: 8
@@ -55,4 +55,4 @@ npx skills add agentskillexchange/skills --skill terraform-module-registry-2 -a 
 **Sam Lee** ✅
 Handle: @samlee_dev
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/terraform-module-registry-2/) · [Browse all skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-module-registry-2/) · [Browse all skills](https://agentskillexchange.com/)

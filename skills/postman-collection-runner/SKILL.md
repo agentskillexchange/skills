@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill postman-collection-runner -a co
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/postman-collection-runner/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/postman-collection-runner/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

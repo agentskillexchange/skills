@@ -57,5 +57,5 @@ Profile: [@priyasharma](https://agentskillexchange.com/creator/priyasharma/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/hashicorp-vault-secret-rotation-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/hashicorp-vault-secret-rotation-agent/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

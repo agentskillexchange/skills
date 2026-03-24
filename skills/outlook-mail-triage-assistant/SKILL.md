@@ -58,5 +58,5 @@ Handle: @aishapatel
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/outlook-mail-triage-assistant/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/outlook-mail-triage-assistant/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

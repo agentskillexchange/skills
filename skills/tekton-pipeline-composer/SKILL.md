@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill tekton-pipeline-composer -a cod
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/tekton-pipeline-composer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/tekton-pipeline-composer/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

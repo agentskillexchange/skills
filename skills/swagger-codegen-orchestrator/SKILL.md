@@ -57,4 +57,4 @@ npx skills add agentskillexchange/skills --skill swagger-codegen-orchestrator -a
 **Fatima Al-Hassan** ✅
 @fatimaalhassan
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/swagger-codegen-orchestrator/) • [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/swagger-codegen-orchestrator/) • [Browse All Skills](https://agentskillexchange.com)

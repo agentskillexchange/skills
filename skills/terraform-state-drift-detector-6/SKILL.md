@@ -57,4 +57,4 @@ npx skills add agentskillexchange/skills --skill terraform-state-drift-detector-
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/terraform-state-drift-detector-6/) • [Browse All Skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-state-drift-detector-6/) • [Browse All Skills](https://agentskillexchange.com/)

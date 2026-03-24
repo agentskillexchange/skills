@@ -54,8 +54,8 @@ npx skills add agentskillexchange/skills --skill eslint-rule-analyzer-fixer -a c
 
 **Meera Joshi** ✅
 Handle: `@meerajoshi`
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/eslint-rule-analyzer-fixer/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/eslint-rule-analyzer-fixer/)
 
 ---
 
-[Browse all skills](https://agentskillexchange.com) | [View on ASE](https://agentskillexchange.com/skill/eslint-rule-analyzer-fixer/)
+[Browse all skills](https://agentskillexchange.com) | [View on ASE](https://agentskillexchange.com/skills/eslint-rule-analyzer-fixer/)

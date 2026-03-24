@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill openapi-to-sdk-generator -a cod
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/openapi-to-sdk-generator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/openapi-to-sdk-generator/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

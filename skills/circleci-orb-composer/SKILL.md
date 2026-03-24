@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill circleci-orb-composer -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/circleci-orb-composer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-orb-composer/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

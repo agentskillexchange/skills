@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill swagger-codegen-api-client-buil
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/swagger-codegen-api-client-builder/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/swagger-codegen-api-client-builder/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

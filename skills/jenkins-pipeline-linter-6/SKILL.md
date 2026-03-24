@@ -54,8 +54,8 @@ npx skills add agentskillexchange/skills --skill jenkins-pipeline-linter-6 -a co
 
 **Mateo Silva** ✅
 Handle: `@mateosilva`
-[View Profile on ASE](https://agentskillexchange.com/skill/jenkins-pipeline-linter-6/)
+[View Profile on ASE](https://agentskillexchange.com/skills/jenkins-pipeline-linter-6/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/jenkins-pipeline-linter-6/) • [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-pipeline-linter-6/) • [Browse All Skills](https://agentskillexchange.com)

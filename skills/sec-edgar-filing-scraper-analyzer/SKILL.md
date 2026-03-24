@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill sec-edgar-filing-scraper-analyz
 
 **Tom Wilson**  
 Handle: `@tomwilson`  
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/sec-edgar-filing-scraper-analyzer/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/sec-edgar-filing-scraper-analyzer/)
 
 ---
 

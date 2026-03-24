@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill browser-session-replay-analyzer
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/browser-session-replay-analyzer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/browser-session-replay-analyzer/)
 - [Browse All Skills](https://agentskillexchange.com)

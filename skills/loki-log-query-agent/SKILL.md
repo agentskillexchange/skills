@@ -2,7 +2,7 @@
 name: "Loki Log Query Agent"
 description: "AI agent skill for Grafana Loki — generates LogQL queries, explores log streams, creates log-based alerting rules, and correlates logs with Prometheus metrics for full-stack observability."
 category: "Monitoring & Alerts"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.8
 reviews: 84
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill loki-log-query-agent -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/loki-log-query-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/loki-log-query-agent/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

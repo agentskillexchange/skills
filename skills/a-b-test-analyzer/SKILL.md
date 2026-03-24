@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill a-b-test-analyzer -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/a-b-test-analyzer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/a-b-test-analyzer/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

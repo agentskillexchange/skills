@@ -56,5 +56,5 @@ npx skills add agentskillexchange/skills --skill package-vuln-scanner-osv-api -a
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/package-vuln-scanner-osv-api/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/package-vuln-scanner-osv-api/)
 - [Browse All Skills](https://agentskillexchange.com/)

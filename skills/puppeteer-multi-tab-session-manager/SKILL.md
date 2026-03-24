@@ -58,5 +58,5 @@ Profile: [@elena_dev](https://agentskillexchange.com/creator/elena_dev/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/puppeteer-multi-tab-session-manager/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/puppeteer-multi-tab-session-manager/)
 - [Browse All Skills](https://agentskillexchange.com/)

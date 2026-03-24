@@ -2,7 +2,7 @@
 name: "Todoist GTD Workflow Engine"
 description: "Implements Getting Things Done methodology on Todoist using the Sync API v9. Automates weekly reviews, context tagging, and project decomposition into next actions."
 category: "Calendar, Email & Productivity"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.8
 reviews: 50
@@ -55,8 +55,8 @@ npx skills add agentskillexchange/skills --skill todoist-gtd-workflow-engine -a 
 
 **Sarah O'Brien** ✅
 Handle: `@sarahcodes`
-[View Profile on ASE](https://agentskillexchange.com/skill/todoist-gtd-workflow-engine/)
+[View Profile on ASE](https://agentskillexchange.com/skills/todoist-gtd-workflow-engine/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/todoist-gtd-workflow-engine/) | [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/todoist-gtd-workflow-engine/) | [Browse All Skills](https://agentskillexchange.com)

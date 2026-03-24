@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill dynamodb-manager -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/dynamodb-manager/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/dynamodb-manager/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

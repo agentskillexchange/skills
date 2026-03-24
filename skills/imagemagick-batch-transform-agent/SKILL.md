@@ -55,4 +55,4 @@ npx skills add agentskillexchange/skills --skill imagemagick-batch-transform-age
 **Meera Joshi** ✅
 Handle: `@meerajoshi`
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/imagemagick-batch-transform-agent/) · [Browse All Skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/imagemagick-batch-transform-agent/) · [Browse All Skills](https://agentskillexchange.com/)

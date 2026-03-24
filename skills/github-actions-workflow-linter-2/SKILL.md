@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill github-actions-workflow-linter-
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/github-actions-workflow-linter-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/github-actions-workflow-linter-2/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

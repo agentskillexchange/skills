@@ -54,9 +54,9 @@ npx skills add agentskillexchange/skills --skill postgresql-performance-runbook 
 
 **Community**
 
-[View Profile](https://agentskillexchange.com/skill/postgresql-performance-runbook/)
+[View Profile](https://agentskillexchange.com/skills/postgresql-performance-runbook/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/postgresql-performance-runbook/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/postgresql-performance-runbook/)
 - [Browse All Skills](https://agentskillexchange.com/)

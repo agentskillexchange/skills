@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill graphql-schema-documentation-bu
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/graphql-schema-documentation-builder/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/graphql-schema-documentation-builder/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

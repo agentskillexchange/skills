@@ -2,7 +2,7 @@
 name: "Bazel Build Graph Analyzer"
 description: "Analyzes Bazel build dependency graphs to identify bottlenecks and optimize build times. Uses the Bazel Query Language (BQL), Action Graph API, and Build Event Protocol (BEP) for deep build analysis."
 category: "Developer Tools"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: listed
 rating: 0
 reviews: 0
@@ -54,9 +54,9 @@ npx skills add agentskillexchange/skills --skill bazel-build-graph-analyzer -a c
 
 **Community**
 
-[View Profile](https://agentskillexchange.com/skill/bazel-build-graph-analyzer/)
+[View Profile](https://agentskillexchange.com/skills/bazel-build-graph-analyzer/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/bazel-build-graph-analyzer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/bazel-build-graph-analyzer/)
 - [Browse All Skills](https://agentskillexchange.com)

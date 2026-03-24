@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill kubernetes-pod-crashloop-runboo
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/kubernetes-pod-crashloop-runbook/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-pod-crashloop-runbook/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill environment-setup-skill -a code
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/environment-setup-skill/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/environment-setup-skill/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

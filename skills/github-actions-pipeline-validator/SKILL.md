@@ -54,9 +54,9 @@ npx skills add agentskillexchange/skills --skill github-actions-pipeline-validat
 
 **Priya Sharma** @priyasharma  
 ✅ Verified Creator  
-[View Profile](https://agentskillexchange.com/skill/github-actions-pipeline-validator/)
+[View Profile](https://agentskillexchange.com/skills/github-actions-pipeline-validator/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/github-actions-pipeline-validator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/github-actions-pipeline-validator/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

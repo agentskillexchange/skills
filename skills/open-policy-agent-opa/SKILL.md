@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill open-policy-agent-opa -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/open-policy-agent-opa/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/open-policy-agent-opa/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

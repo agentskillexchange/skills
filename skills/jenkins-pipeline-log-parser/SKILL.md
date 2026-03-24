@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill jenkins-pipeline-log-parser -a 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/jenkins-pipeline-log-parser/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-pipeline-log-parser/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

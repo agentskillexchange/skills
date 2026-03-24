@@ -54,8 +54,8 @@ npx skills add agentskillexchange/skills --skill eslint-rule-auditor-3 -a codex
 
 **Yuki Tanaka** ✅
 Handle: `@yukitanaka`
-[View Profile on ASE](https://agentskillexchange.com/skill/eslint-rule-auditor-3/)
+[View Profile on ASE](https://agentskillexchange.com/skills/eslint-rule-auditor-3/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/eslint-rule-auditor-3/) • [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/eslint-rule-auditor-3/) • [Browse All Skills](https://agentskillexchange.com)

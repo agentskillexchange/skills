@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill circleci-orb-validator -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/circleci-orb-validator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-orb-validator/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

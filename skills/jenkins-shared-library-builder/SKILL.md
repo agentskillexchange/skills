@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill jenkins-shared-library-builder 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/jenkins-shared-library-builder/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-shared-library-builder/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

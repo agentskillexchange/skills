@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill prometheus-alertmanager-configu
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/prometheus-alertmanager-configurator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-alertmanager-configurator/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

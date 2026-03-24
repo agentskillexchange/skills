@@ -56,5 +56,5 @@ npx skills add agentskillexchange/skills --skill stripe-connect-platform-bridge 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/stripe-connect-platform-bridge/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/stripe-connect-platform-bridge/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

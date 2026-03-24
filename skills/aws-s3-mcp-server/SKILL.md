@@ -2,7 +2,7 @@
 name: "AWS S3 MCP Server"
 description: "Use this skill when you need to list, upload, download, or manage files in AWS S3 buckets from your AI agent. It enables agents to interact with S3 as a file store — reading config files, uploading artifacts, and checking bucket contents without direct AWS console access."
 category: "Developer Tools"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.1
 reviews: 7
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill aws-s3-mcp-server -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/aws-s3-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/aws-s3-mcp-server/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

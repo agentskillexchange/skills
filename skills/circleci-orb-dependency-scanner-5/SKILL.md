@@ -55,4 +55,4 @@ npx skills add agentskillexchange/skills --skill circleci-orb-dependency-scanner
 **Alex Rivera** @arivera_dev
 ✓ Verified Creator
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/circleci-orb-dependency-scanner-5/) · [Browse All Skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-orb-dependency-scanner-5/) · [Browse All Skills](https://agentskillexchange.com/)

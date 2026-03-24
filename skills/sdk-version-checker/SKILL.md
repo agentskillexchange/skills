@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill sdk-version-checker -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/sdk-version-checker/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/sdk-version-checker/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

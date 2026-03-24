@@ -58,5 +58,5 @@ Profile: [@bentaylor](https://agentskillexchange.com/creator/bentaylor/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/gutenberg-block-scaffolder-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/gutenberg-block-scaffolder-agent/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

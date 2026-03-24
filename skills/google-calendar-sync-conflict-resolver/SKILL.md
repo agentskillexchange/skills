@@ -58,5 +58,5 @@ Profile: [@carlosmendez](https://agentskillexchange.com/creator/carlosmendez/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/google-calendar-sync-conflict-resolver/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/google-calendar-sync-conflict-resolver/)
 - [Browse All Skills](https://agentskillexchange.com/)

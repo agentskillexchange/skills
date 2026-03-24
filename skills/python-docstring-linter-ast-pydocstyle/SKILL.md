@@ -56,5 +56,5 @@ npx skills add agentskillexchange/skills --skill python-docstring-linter-ast-pyd
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/python-docstring-linter-ast-pydocstyle/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/python-docstring-linter-ast-pydocstyle/)
 - [Browse All Skills](https://agentskillexchange.com/)

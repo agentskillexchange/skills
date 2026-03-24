@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill playwright-visual-regression-su
 
 **Community** · Community
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/playwright-visual-regression-suite/) · [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/playwright-visual-regression-suite/) · [Browse All Skills](https://agentskillexchange.com)

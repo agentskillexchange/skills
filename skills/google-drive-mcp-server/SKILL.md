@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill google-drive-mcp-server -a code
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/google-drive-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/google-drive-mcp-server/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill python-package-docs-fetcher -a 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/python-package-docs-fetcher/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/python-package-docs-fetcher/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

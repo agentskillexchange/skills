@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill docusign-contract-auto-sender -
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/docusign-contract-auto-sender/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/docusign-contract-auto-sender/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

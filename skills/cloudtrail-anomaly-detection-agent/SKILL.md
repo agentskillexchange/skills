@@ -59,5 +59,5 @@ npx skills add agentskillexchange/skills --skill cloudtrail-anomaly-detection-ag
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/cloudtrail-anomaly-detection-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/cloudtrail-anomaly-detection-agent/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

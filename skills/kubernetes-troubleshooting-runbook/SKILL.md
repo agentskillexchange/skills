@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill kubernetes-troubleshooting-runb
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/kubernetes-troubleshooting-runbook/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-troubleshooting-runbook/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

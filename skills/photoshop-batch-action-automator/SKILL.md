@@ -56,8 +56,8 @@ npx skills add agentskillexchange/skills --skill photoshop-batch-action-automato
 
 **Mateo Silva** ✅
 Handle: `@mateosilva`
-[View Profile on ASE](https://agentskillexchange.com/skill/photoshop-batch-action-automator/)
+[View Profile on ASE](https://agentskillexchange.com/skills/photoshop-batch-action-automator/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/photoshop-batch-action-automator/) • [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/photoshop-batch-action-automator/) • [Browse All Skills](https://agentskillexchange.com)

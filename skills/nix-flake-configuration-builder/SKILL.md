@@ -54,9 +54,9 @@ npx skills add agentskillexchange/skills --skill nix-flake-configuration-builder
 
 **Community**
 
-[View Profile](https://agentskillexchange.com/skill/nix-flake-configuration-builder/)
+[View Profile](https://agentskillexchange.com/skills/nix-flake-configuration-builder/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/nix-flake-configuration-builder/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/nix-flake-configuration-builder/)
 - [Browse All Skills](https://agentskillexchange.com)

@@ -2,7 +2,7 @@
 name: "Prometheus PromQL Alert Builder"
 description: "Constructs Prometheus alerting rules using PromQL expressions with proper label matchers, aggregation operators, and for-duration thresholds. Integrates with Alertmanager routing trees for notification dispatch."
 category: "Monitoring & Alerts"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: listed
 rating: 0
 reviews: 0
@@ -56,4 +56,4 @@ npx skills add agentskillexchange/skills --skill prometheus-promql-alert-builder
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/prometheus-promql-alert-builder/) | [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-promql-alert-builder/) | [Browse All Skills](https://agentskillexchange.com)

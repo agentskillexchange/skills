@@ -2,7 +2,7 @@
 name: "Tekton Pipeline Generator"
 description: "Generates Tekton CI/CD pipeline resources using the Tekton Pipelines API and tkn CLI. Creates Tasks, Pipelines, and TriggerBindings with automatic Kubernetes RBAC configuration."
 category: "CI/CD Integrations"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: verified_metadata
 rating: 4.9
 reviews: 30
@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill tekton-pipeline-generator-2 -a 
 
 **Ava Johnson** @avajohnson ☑ Verified Creator
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/tekton-pipeline-generator-2/) | [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/tekton-pipeline-generator-2/) | [Browse All Skills](https://agentskillexchange.com)

@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill browserless-scraping-agent -a c
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/browserless-scraping-agent/) · [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/browserless-scraping-agent/) · [Browse All Skills](https://agentskillexchange.com)

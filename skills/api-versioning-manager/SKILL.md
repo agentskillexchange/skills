@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill api-versioning-manager -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/api-versioning-manager/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/api-versioning-manager/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -2,7 +2,7 @@
 name: "PostgreSQL Performance Diagnostic Suite"
 description: "Diagnoses PostgreSQL performance issues using pg_stat_statements, pg_stat_activity, and EXPLAIN ANALYZE. Integrates with pgBadger for log analysis and pg_stat_user_tables for index recommendations."
 category: "Runbooks & Diagnostics"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: listed
 rating: 0
 reviews: 0
@@ -54,9 +54,9 @@ npx skills add agentskillexchange/skills --skill postgresql-performance-diagnost
 
 **Community**
 
-[View Profile](https://agentskillexchange.com/skill/postgresql-performance-diagnostic-suite/)
+[View Profile](https://agentskillexchange.com/skills/postgresql-performance-diagnostic-suite/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/postgresql-performance-diagnostic-suite/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/postgresql-performance-diagnostic-suite/)
 - [Browse All Skills](https://agentskillexchange.com/)

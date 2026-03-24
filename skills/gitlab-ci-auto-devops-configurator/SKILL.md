@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill gitlab-ci-auto-devops-configura
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/gitlab-ci-auto-devops-configurator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/gitlab-ci-auto-devops-configurator/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

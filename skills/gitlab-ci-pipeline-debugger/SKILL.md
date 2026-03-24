@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill gitlab-ci-pipeline-debugger -a 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/gitlab-ci-pipeline-debugger/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/gitlab-ci-pipeline-debugger/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill codeclimate-diff-analyzer -a co
 
 **Community** · Community
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/codeclimate-diff-analyzer/) · [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/codeclimate-diff-analyzer/) · [Browse All Skills](https://agentskillexchange.com)

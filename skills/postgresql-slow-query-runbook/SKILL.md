@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill postgresql-slow-query-runbook -
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/postgresql-slow-query-runbook/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/postgresql-slow-query-runbook/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

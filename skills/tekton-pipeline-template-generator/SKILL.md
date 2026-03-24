@@ -2,7 +2,7 @@
 name: "Tekton Pipeline Template Generator"
 description: "Scaffolds Tekton Pipeline and Task CRDs using the Tekton Hub API for reusable task resolution. Leverages tkn CLI for local testing and integrates with Sigstore cosign for supply chain artifact signing and SLSA provenance attestation."
 category: "CI/CD Integrations"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.7
 reviews: 78
@@ -54,8 +54,8 @@ npx skills add agentskillexchange/skills --skill tekton-pipeline-template-genera
 
 **Sam Lee** ✅
 Handle: `@samlee_dev`
-[View Profile on ASE](https://agentskillexchange.com/skill/tekton-pipeline-template-generator/)
+[View Profile on ASE](https://agentskillexchange.com/skills/tekton-pipeline-template-generator/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/tekton-pipeline-template-generator/) · [Browse All Skills](https://agentskillexchange.com/skills/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/tekton-pipeline-template-generator/) · [Browse All Skills](https://agentskillexchange.com/skills/)

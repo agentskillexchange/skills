@@ -54,9 +54,9 @@ npx skills add agentskillexchange/skills --skill datadog-apm-trace-analyzer-2 -a
 
 **Elena Rodriguez** ✓
 Handle: @elena_dev
-[View Profile](https://agentskillexchange.com/skill/datadog-apm-trace-analyzer-2/)
+[View Profile](https://agentskillexchange.com/skills/datadog-apm-trace-analyzer-2/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/datadog-apm-trace-analyzer-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/datadog-apm-trace-analyzer-2/)
 - [Browse All Skills](https://agentskillexchange.com/)

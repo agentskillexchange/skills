@@ -56,5 +56,5 @@ npx skills add agentskillexchange/skills --skill sonarqube-analysis-runner -a co
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/sonarqube-analysis-runner/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/sonarqube-analysis-runner/)
 - [Browse All Skills](https://agentskillexchange.com)

@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill tekton-pipeline-generator -a co
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/tekton-pipeline-generator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/tekton-pipeline-generator/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

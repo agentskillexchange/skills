@@ -54,8 +54,8 @@ npx skills add agentskillexchange/skills --skill argocd-sync-wave-planner -a cod
 
 **Meera Joshi** ✅
 Handle: `@meerajoshi`
-[View Profile on ASE](https://agentskillexchange.com/skill/argocd-sync-wave-planner/)
+[View Profile on ASE](https://agentskillexchange.com/skills/argocd-sync-wave-planner/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/argocd-sync-wave-planner/) · [Browse All Skills](https://agentskillexchange.com/skills/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/argocd-sync-wave-planner/) · [Browse All Skills](https://agentskillexchange.com/skills/)

@@ -57,5 +57,5 @@ npx skills add agentskillexchange/skills --skill aws-cloudwatch-insights-query-b
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/aws-cloudwatch-insights-query-builder/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/aws-cloudwatch-insights-query-builder/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

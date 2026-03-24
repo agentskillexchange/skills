@@ -56,5 +56,5 @@ npx skills add agentskillexchange/skills --skill gitlab-cicd-pipeline-orchestrat
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/gitlab-cicd-pipeline-orchestrator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/gitlab-cicd-pipeline-orchestrator/)
 - [Browse All Skills](https://agentskillexchange.com)

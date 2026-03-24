@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill prettier-format-enforcement-bot
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/prettier-format-enforcement-bot/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/prettier-format-enforcement-bot/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

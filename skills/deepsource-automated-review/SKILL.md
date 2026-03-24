@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill deepsource-automated-review -a 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/deepsource-automated-review/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/deepsource-automated-review/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

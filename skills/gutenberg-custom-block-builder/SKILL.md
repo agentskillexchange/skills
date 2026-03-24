@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill gutenberg-custom-block-builder 
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/gutenberg-custom-block-builder/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/gutenberg-custom-block-builder/)
 
 ---
 

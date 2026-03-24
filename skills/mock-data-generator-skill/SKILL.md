@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill mock-data-generator-skill -a co
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/mock-data-generator-skill/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/mock-data-generator-skill/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

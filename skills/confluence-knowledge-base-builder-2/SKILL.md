@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill confluence-knowledge-base-build
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/confluence-knowledge-base-builder-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/confluence-knowledge-base-builder-2/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

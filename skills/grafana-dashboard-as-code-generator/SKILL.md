@@ -57,5 +57,5 @@ npx skills add agentskillexchange/skills --skill grafana-dashboard-as-code-gener
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/grafana-dashboard-as-code-generator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/grafana-dashboard-as-code-generator/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

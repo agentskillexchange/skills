@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill browserbase-mcp-cloud-browser-c
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/browserbase-mcp-cloud-browser-control/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/browserbase-mcp-cloud-browser-control/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

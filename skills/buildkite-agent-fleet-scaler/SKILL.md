@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill buildkite-agent-fleet-scaler -a
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/buildkite-agent-fleet-scaler/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/buildkite-agent-fleet-scaler/)
 - [Browse All Skills](https://agentskillexchange.com)

@@ -1,8 +1,8 @@
 ---
 name: "Kubernetes Pod Crash Diagnostics"
 description: "Runs kubectl describe pod, kubectl logs –previous, and kubectl get events to diagnose CrashLoopBackOff and OOMKilled pods. Parses container exit codes, resource limits, and liveness probe configuratio"
-category: "Uncategorized"
-framework: "Unknown"
+category: "Developer Tools"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.4
 reviews: 83
@@ -55,5 +55,5 @@ npx skills add agentskillexchange/skills --skill kubernetes-pod-crash-diagnostic
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/kubernetes-pod-crash-diagnostics-3/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-pod-crash-diagnostics-3/)
 - [Browse All Skills](https://agentskillexchange.com/)

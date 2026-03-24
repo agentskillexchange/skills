@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill aws-cloudformation-drift-detect
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/aws-cloudformation-drift-detector/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/aws-cloudformation-drift-detector/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill n8n-github-jira-ticket-automato
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/n8n-github-jira-ticket-automator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/n8n-github-jira-ticket-automator/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

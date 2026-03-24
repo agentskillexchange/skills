@@ -54,9 +54,9 @@ npx skills add agentskillexchange/skills --skill lldb-debug-session-automator -a
 
 **Community**
 
-[View Profile](https://agentskillexchange.com/skill/lldb-debug-session-automator/)
+[View Profile](https://agentskillexchange.com/skills/lldb-debug-session-automator/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/lldb-debug-session-automator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/lldb-debug-session-automator/)
 - [Browse All Skills](https://agentskillexchange.com)

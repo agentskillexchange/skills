@@ -56,5 +56,5 @@ npx skills add agentskillexchange/skills --skill rest-api-doc-generator-openapi 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/rest-api-doc-generator-openapi/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/rest-api-doc-generator-openapi/)
 - [Browse All Skills](https://agentskillexchange.com/)

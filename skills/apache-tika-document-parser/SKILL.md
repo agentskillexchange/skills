@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill apache-tika-document-parser -a 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/apache-tika-document-parser/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/apache-tika-document-parser/)
 - [Browse All Skills](https://agentskillexchange.com/)

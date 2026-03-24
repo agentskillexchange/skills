@@ -2,7 +2,7 @@
 name: "Atlassian Rovo MCP Server"
 description: "The Atlassian Rovo MCP Server bridges your Atlassian Cloud workspace with any MCP-compatible client. Search and summarize Jira issues, create tickets from natural language, update Confluence pages, and query Compass services."
 category: "Calendar, Email & Productivity"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.2
 reviews: 25
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill atlassian-rovo-mcp-server -a co
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/atlassian-rovo-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/atlassian-rovo-mcp-server/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

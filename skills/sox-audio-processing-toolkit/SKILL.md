@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill sox-audio-processing-toolkit -a
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/sox-audio-processing-toolkit/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/sox-audio-processing-toolkit/)
 
 ---
 

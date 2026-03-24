@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill pylint-code-analyzer -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/pylint-code-analyzer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/pylint-code-analyzer/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

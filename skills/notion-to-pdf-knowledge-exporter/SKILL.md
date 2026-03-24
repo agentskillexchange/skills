@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill notion-to-pdf-knowledge-exporte
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/notion-to-pdf-knowledge-exporter/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/notion-to-pdf-knowledge-exporter/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -56,5 +56,5 @@ npx skills add agentskillexchange/skills --skill eslint-auto-fix-agent -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/eslint-auto-fix-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/eslint-auto-fix-agent/)
 - [Browse All Skills](https://agentskillexchange.com)

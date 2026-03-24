@@ -55,5 +55,5 @@ npx skills add agentskillexchange/skills --skill aws-cloudwatch-composite-alarm-
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/aws-cloudwatch-composite-alarm-builder/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/aws-cloudwatch-composite-alarm-builder/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

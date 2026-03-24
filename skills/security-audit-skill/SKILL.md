@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill security-audit-skill -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/security-audit-skill/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/security-audit-skill/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

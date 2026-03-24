@@ -2,7 +2,7 @@
 name: "WordPress REST API Content Sync"
 description: "Synchronizes content between WordPress multisite installations using the WP REST API /wp/v2/posts endpoint with OAuth 1.0a authentication. Handles media sideloading, shortcode transformation, and conflict resolution."
 category: "WordPress & CMS"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: listed
 rating: 0
 reviews: 0
@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill wordpress-rest-api-content-sync
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/wordpress-rest-api-content-sync/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/wordpress-rest-api-content-sync/)
 
 ---
 

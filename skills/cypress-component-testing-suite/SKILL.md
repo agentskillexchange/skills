@@ -2,7 +2,7 @@
 name: "Cypress Component Testing Suite"
 description: "Implements component and E2E tests using Cypress with cy.mount, cy.intercept, and cy.get selectors. Configures cypress.config.ts with component devServer, custom commands, and Mochawesome reporter integration."
 category: "Browser Automation"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: listed
 rating: 0
 reviews: 0
@@ -57,5 +57,5 @@ npx skills add agentskillexchange/skills --skill cypress-component-testing-suite
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/cypress-component-testing-suite/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/cypress-component-testing-suite/)
 - [Browse All Skills](https://agentskillexchange.com/)

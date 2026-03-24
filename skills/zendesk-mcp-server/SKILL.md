@@ -2,7 +2,7 @@
 name: "Zendesk MCP Server"
 description: "Use this skill to manage Zendesk support tickets, apply macros, manage user segments, and integrate customer support operations through MCP. It enables agents to automate support workflows, escalate issues, and sync ticket data with other systems. Trigger when you need to create or update tickets programmatically, apply automated responses, or integrate support data with other […]"
 category: "Templates & Workflows"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.6
 reviews: 81
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill zendesk-mcp-server -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/zendesk-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/zendesk-mcp-server/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

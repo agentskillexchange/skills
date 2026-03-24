@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill langgraph-workflow-builder -a c
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/langgraph-workflow-builder/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/langgraph-workflow-builder/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -57,5 +57,5 @@ Profile: [@elena_dev](https://agentskillexchange.com/creator/elena_dev/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/selenium-grid-parallel-execution-manager/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/selenium-grid-parallel-execution-manager/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

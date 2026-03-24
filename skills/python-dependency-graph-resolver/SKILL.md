@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill python-dependency-graph-resolve
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/python-dependency-graph-resolver/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/python-dependency-graph-resolver/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

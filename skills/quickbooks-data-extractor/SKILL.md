@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill quickbooks-data-extractor -a co
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/quickbooks-data-extractor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/quickbooks-data-extractor/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill serpapi-search-results-aggregat
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/serpapi-search-results-aggregator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/serpapi-search-results-aggregator/)
 - [Browse All Skills](https://agentskillexchange.com/)

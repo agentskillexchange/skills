@@ -55,8 +55,8 @@ npx skills add agentskillexchange/skills --skill google-calendar-conflict-resolv
 
 **Alex Rivera** ✅
 Handle: `@arivera_dev`
-[View Profile on ASE](https://agentskillexchange.com/skill/google-calendar-conflict-resolver-4/)
+[View Profile on ASE](https://agentskillexchange.com/skills/google-calendar-conflict-resolver-4/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/google-calendar-conflict-resolver-4/) | [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/google-calendar-conflict-resolver-4/) | [Browse All Skills](https://agentskillexchange.com)

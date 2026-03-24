@@ -54,8 +54,8 @@ npx skills add agentskillexchange/skills --skill jenkins-pipeline-code-review-ag
 
 **Aisha Patel** ✅
 Handle: `@aishapatel`
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/jenkins-pipeline-code-review-agent/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-pipeline-code-review-agent/)
 
 ---
 
-[Browse all skills](https://agentskillexchange.com) | [View on ASE](https://agentskillexchange.com/skill/jenkins-pipeline-code-review-agent/)
+[Browse all skills](https://agentskillexchange.com) | [View on ASE](https://agentskillexchange.com/skills/jenkins-pipeline-code-review-agent/)

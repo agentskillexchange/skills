@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill github-actions-matrix-builder-1
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/github-actions-matrix-builder-17/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/github-actions-matrix-builder-17/)
 
 ---
 

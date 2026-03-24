@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill bitbucket-pipelines-integration
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/bitbucket-pipelines-integration-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/bitbucket-pipelines-integration-2/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

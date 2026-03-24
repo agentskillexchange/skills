@@ -56,5 +56,5 @@ npx skills add agentskillexchange/skills --skill aws-ssm-runbook-executor -a cod
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/aws-ssm-runbook-executor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/aws-ssm-runbook-executor/)
 - [Browse All Skills](https://agentskillexchange.com)

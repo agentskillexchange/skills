@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill wordpress-content-optimizer-yoa
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/wordpress-content-optimizer-yoast-rest/) | [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/wordpress-content-optimizer-yoast-rest/) | [Browse All Skills](https://agentskillexchange.com)

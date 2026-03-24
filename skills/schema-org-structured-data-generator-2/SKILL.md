@@ -2,7 +2,7 @@
 name: "Schema.org Structured Data Generator"
 description: "Generates JSON-LD structured data for 15+ schema.org types using the Google Rich Results Test API and Schema Markup Validator. Supports FAQ, HowTo, Product, Article, and LocalBusiness schemas with nested properties."
 category: "Content Writing & SEO"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: listed
 rating: 0
 reviews: 0
@@ -57,5 +57,5 @@ npx skills add agentskillexchange/skills --skill schema-org-structured-data-gene
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/schema-org-structured-data-generator-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/schema-org-structured-data-generator-2/)
 - [Browse All Skills](https://agentskillexchange.com/)

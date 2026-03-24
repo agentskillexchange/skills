@@ -2,7 +2,7 @@
 name: "Together AI MCP Server"
 description: "Use this skill to run inference on open-source LLMs and perform batch processing jobs through Together AI’s platform via MCP. It provides access to Llama, Mistral, Qwen, and other open models with competitive pricing and high throughput. Trigger when you need cost-effective open-source LLM inference, batch processing, or want to avoid proprietary model lock-in."
 category: "Developer Tools"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.0
 reviews: 63
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill together-ai-mcp-server -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/together-ai-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/together-ai-mcp-server/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

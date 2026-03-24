@@ -54,9 +54,9 @@ npx skills add agentskillexchange/skills --skill semgrep-custom-rule-builder-4 -
 
 **Aisha Patel** @aishapatel  
 ✅ Verified Creator  
-[View Profile](https://agentskillexchange.com/skill/semgrep-custom-rule-builder-4/)
+[View Profile](https://agentskillexchange.com/skills/semgrep-custom-rule-builder-4/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/semgrep-custom-rule-builder-4/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/semgrep-custom-rule-builder-4/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

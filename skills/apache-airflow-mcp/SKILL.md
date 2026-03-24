@@ -2,7 +2,7 @@
 name: "Apache Airflow MCP"
 description: "Expose Apache Airflow DAGs, task logs, and run history to AI agents via MCP, enabling conversational DAG management and troubleshooting. Agents can trigger DAG runs, inspect task states, and retrieve XCom values without direct Airflow UI access."
 category: "Data Extraction & Transformation"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.1
 reviews: 7
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill apache-airflow-mcp -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/apache-airflow-mcp/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/apache-airflow-mcp/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

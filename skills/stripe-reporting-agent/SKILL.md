@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill stripe-reporting-agent -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/stripe-reporting-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/stripe-reporting-agent/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

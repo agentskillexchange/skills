@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill playwright-mcp-browser-automati
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/playwright-mcp-browser-automation/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/playwright-mcp-browser-automation/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -55,8 +55,8 @@ npx skills add agentskillexchange/skills --skill eslint-custom-rule-builder -a c
 
 **Elena Rodriguez** ✅
 Handle: `@elena_dev`
-[View Profile on ASE](https://agentskillexchange.com/skill/eslint-custom-rule-builder/)
+[View Profile on ASE](https://agentskillexchange.com/skills/eslint-custom-rule-builder/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/eslint-custom-rule-builder/) | [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/eslint-custom-rule-builder/) | [Browse All Skills](https://agentskillexchange.com)

@@ -54,8 +54,8 @@ npx skills add agentskillexchange/skills --skill terraform-plan-reviewer-6 -a co
 
 **Meera Joshi** ✅
 Handle: `@meerajoshi`
-[View Profile on ASE](https://agentskillexchange.com/skill/terraform-plan-reviewer-6/)
+[View Profile on ASE](https://agentskillexchange.com/skills/terraform-plan-reviewer-6/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/terraform-plan-reviewer-6/) • [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-plan-reviewer-6/) • [Browse All Skills](https://agentskillexchange.com)

@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill seo-content-writer -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/seo-content-writer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/seo-content-writer/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

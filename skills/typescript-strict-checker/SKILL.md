@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill typescript-strict-checker -a co
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/typescript-strict-checker/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/typescript-strict-checker/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

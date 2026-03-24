@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill datadog-monitors-skill -a codex
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/datadog-monitors-skill/) · [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/datadog-monitors-skill/) · [Browse All Skills](https://agentskillexchange.com)

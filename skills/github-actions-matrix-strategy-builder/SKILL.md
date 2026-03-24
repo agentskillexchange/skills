@@ -57,5 +57,5 @@ npx skills add agentskillexchange/skills --skill github-actions-matrix-strategy-
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/github-actions-matrix-strategy-builder/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/github-actions-matrix-strategy-builder/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

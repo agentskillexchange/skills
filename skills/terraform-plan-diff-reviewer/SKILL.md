@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill terraform-plan-diff-reviewer -a
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/terraform-plan-diff-reviewer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-plan-diff-reviewer/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill codeclimate-maintainability-tra
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/codeclimate-maintainability-tracker-7/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/codeclimate-maintainability-tracker-7/)
 - [Browse All Skills](https://agentskillexchange.com)

@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill github-operations-skill -a code
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/github-operations-skill/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/github-operations-skill/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

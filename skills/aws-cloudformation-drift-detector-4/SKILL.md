@@ -55,4 +55,4 @@ npx skills add agentskillexchange/skills --skill aws-cloudformation-drift-detect
 **Aisha Patel** @aishapatel
 ✓ Verified Creator
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/aws-cloudformation-drift-detector-4/) · [Browse All Skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/aws-cloudformation-drift-detector-4/) · [Browse All Skills](https://agentskillexchange.com/)

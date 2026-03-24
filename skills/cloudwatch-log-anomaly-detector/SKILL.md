@@ -60,5 +60,5 @@ npx skills add agentskillexchange/skills --skill cloudwatch-log-anomaly-detector
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/cloudwatch-log-anomaly-detector/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/cloudwatch-log-anomaly-detector/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

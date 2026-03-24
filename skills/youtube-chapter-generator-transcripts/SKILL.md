@@ -54,8 +54,8 @@ npx skills add agentskillexchange/skills --skill youtube-chapter-generator-trans
 
 **Omar Farouk** ✅
 Handle: `@omarfarouk`
-[View Profile on ASE](https://agentskillexchange.com/skill/youtube-chapter-generator-transcripts/)
+[View Profile on ASE](https://agentskillexchange.com/skills/youtube-chapter-generator-transcripts/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/youtube-chapter-generator-transcripts/) · [Browse All Skills](https://agentskillexchange.com/skills/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/youtube-chapter-generator-transcripts/) · [Browse All Skills](https://agentskillexchange.com/skills/)

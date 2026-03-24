@@ -2,7 +2,7 @@
 name: "Kubernetes Helm Chart Scaffold Builder"
 description: "Generates Helm v3 chart scaffolds with templated deployments, services, ingress rules, and values.yaml schemas. Validates charts against Helm lint and Kubeval for Kubernetes API version compatibility."
 category: "Templates & Workflows"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: verified_metadata
 rating: 4.5
 reviews: 75
@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill kubernetes-helm-chart-scaffold-
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/kubernetes-helm-chart-scaffold-builder/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-helm-chart-scaffold-builder/)
 - [Browse All Skills](https://agentskillexchange.com)

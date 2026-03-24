@@ -2,7 +2,7 @@
 name: "GitLab CI Template Library"
 description: "Creates reusable GitLab CI/CD template libraries using include:template and extends keywords. Manages pipeline configurations with rules:changes path filtering, needs DAG dependencies, and Auto Dev..."
 category: "CI/CD Integrations"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: listed
 rating: 0
 reviews: 0
@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill gitlab-ci-template-library -a c
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/gitlab-ci-template-library/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/gitlab-ci-template-library/)
 
 ---
 

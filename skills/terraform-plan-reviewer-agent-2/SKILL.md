@@ -54,8 +54,8 @@ npx skills add agentskillexchange/skills --skill terraform-plan-reviewer-agent-2
 
 **Lucy Zhang** ✅
 Handle: `@lucyzhang`
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/terraform-plan-reviewer-agent-2/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-plan-reviewer-agent-2/)
 
 ---
 
-[Browse all skills](https://agentskillexchange.com) | [View on ASE](https://agentskillexchange.com/skill/terraform-plan-reviewer-agent-2/)
+[Browse all skills](https://agentskillexchange.com) | [View on ASE](https://agentskillexchange.com/skills/terraform-plan-reviewer-agent-2/)

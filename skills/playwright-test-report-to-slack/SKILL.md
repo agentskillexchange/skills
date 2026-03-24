@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill playwright-test-report-to-slack
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/playwright-test-report-to-slack/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/playwright-test-report-to-slack/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

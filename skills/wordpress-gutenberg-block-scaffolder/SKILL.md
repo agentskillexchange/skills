@@ -57,5 +57,5 @@ npx skills add agentskillexchange/skills --skill wordpress-gutenberg-block-scaff
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/wordpress-gutenberg-block-scaffolder/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/wordpress-gutenberg-block-scaffolder/)
 - [Browse All Skills](https://agentskillexchange.com/)

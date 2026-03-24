@@ -2,7 +2,7 @@
 name: "Google Calendar Meeting Scheduler"
 description: "Queries Google Calendar API to find free/busy windows across multiple attendees using FreeBusy queries. Creates events with Meet links via events.insert with conferenceData and sends invites via the attendees field. Handles timezone normalization using pytz."
 category: "Calendar, Email & Productivity"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: verified_metadata
 rating: 4.3
 reviews: 74
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill google-calendar-meeting-schedul
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/google-calendar-meeting-scheduler/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/google-calendar-meeting-scheduler/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

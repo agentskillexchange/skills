@@ -2,7 +2,7 @@
 name: "Elasticsearch MCP"
 description: "Query Elasticsearch indices, manage index mappings, and run aggregation pipelines through an AI agent via MCP. Supports natural-language search query generation, index health monitoring, and snapshot lifecycle management."
 category: "Data Extraction & Transformation"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.3
 reviews: 67
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill elasticsearch-mcp -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/elasticsearch-mcp/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/elasticsearch-mcp/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill google-calendar-smart-scheduler
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/google-calendar-smart-scheduler/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/google-calendar-smart-scheduler/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

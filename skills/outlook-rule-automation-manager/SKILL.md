@@ -55,5 +55,5 @@ npx skills add agentskillexchange/skills --skill outlook-rule-automation-manager
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/outlook-rule-automation-manager/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/outlook-rule-automation-manager/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

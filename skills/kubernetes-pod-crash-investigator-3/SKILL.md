@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill kubernetes-pod-crash-investigat
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/kubernetes-pod-crash-investigator-3/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-pod-crash-investigator-3/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

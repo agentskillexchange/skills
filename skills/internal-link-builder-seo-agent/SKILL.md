@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill internal-link-builder-seo-agent
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/internal-link-builder-seo-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/internal-link-builder-seo-agent/)
 - [Browse All Skills](https://agentskillexchange.com)

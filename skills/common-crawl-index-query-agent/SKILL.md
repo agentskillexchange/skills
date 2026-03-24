@@ -54,9 +54,9 @@ npx skills add agentskillexchange/skills --skill common-crawl-index-query-agent 
 
 **Community**
 
-[View Profile](https://agentskillexchange.com/skill/common-crawl-index-query-agent/)
+[View Profile](https://agentskillexchange.com/skills/common-crawl-index-query-agent/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/common-crawl-index-query-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/common-crawl-index-query-agent/)
 - [Browse All Skills](https://agentskillexchange.com)

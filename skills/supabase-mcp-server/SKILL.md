@@ -2,7 +2,7 @@
 name: "Supabase MCP Server"
 description: "MCP server for Supabase — query PostgreSQL tables, manage rows, invoke Edge Functions, interact with Storage buckets, and inspect Realtime subscriptions via AI agents without direct DB credentials."
 category: "Developer Tools"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.1
 reviews: 84
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill supabase-mcp-server -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/supabase-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/supabase-mcp-server/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill puppeteer-stealth-scraper-agent
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/puppeteer-stealth-scraper-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/puppeteer-stealth-scraper-agent/)
 - [Browse All Skills](https://agentskillexchange.com)

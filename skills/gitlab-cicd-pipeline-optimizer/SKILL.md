@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill gitlab-cicd-pipeline-optimizer 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/gitlab-cicd-pipeline-optimizer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/gitlab-cicd-pipeline-optimizer/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

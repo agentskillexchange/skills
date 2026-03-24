@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill on-call-handoff-runbook -a code
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/on-call-handoff-runbook/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/on-call-handoff-runbook/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

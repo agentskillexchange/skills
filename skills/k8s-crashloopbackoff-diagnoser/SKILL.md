@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill k8s-crashloopbackoff-diagnoser 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/k8s-crashloopbackoff-diagnoser/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/k8s-crashloopbackoff-diagnoser/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

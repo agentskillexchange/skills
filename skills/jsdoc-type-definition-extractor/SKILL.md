@@ -2,7 +2,7 @@
 name: "JSDoc Type Definition Extractor"
 description: "Extracts and indexes JSDoc type annotations from JavaScript codebases using the jsdoc-api parser. Generates TypeScript declaration files (.d.ts) and searchable type catalogs from @typedef and @param tags."
 category: "Library & API Reference"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: listed
 rating: 0
 reviews: 0
@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill jsdoc-type-definition-extractor
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/jsdoc-type-definition-extractor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/jsdoc-type-definition-extractor/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

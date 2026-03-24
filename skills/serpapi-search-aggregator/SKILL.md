@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill serpapi-search-aggregator -a co
 
 **Nina Volkov** ✅
 - Handle: [@ninavolkov](https://agentskillexchange.com/creator/ninavolkov/)
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/serpapi-search-aggregator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/serpapi-search-aggregator/)
 
 ---
 

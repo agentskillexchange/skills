@@ -58,5 +58,5 @@ Profile: [@marcuschen](https://agentskillexchange.com/creator/marcuschen/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/cheerio-dom-extraction-pipeline/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/cheerio-dom-extraction-pipeline/)
 - [Browse All Skills](https://agentskillexchange.com/)

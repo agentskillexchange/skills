@@ -2,7 +2,7 @@
 name: "GitHub Actions Workflow Generator"
 description: "Creates GitHub Actions YAML workflows from natural language descriptions using the actions/toolkit SDK. Generates matrix builds, caching strategies, and artifact upload steps with proper secret references."
 category: "Templates & Workflows"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: listed
 rating: 0
 reviews: 0
@@ -56,5 +56,5 @@ npx skills add agentskillexchange/skills --skill github-actions-workflow-generat
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/github-actions-workflow-generator-4/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/github-actions-workflow-generator-4/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

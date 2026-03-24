@@ -55,4 +55,4 @@ npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-enforcer
 **Sam Lee** ✅
 Handle: `@samlee_dev`
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/sonarqube-quality-gate-enforcer-11/) · [Browse All Skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/sonarqube-quality-gate-enforcer-11/) · [Browse All Skills](https://agentskillexchange.com/)

@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill ansible-playbook-linter -a code
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/ansible-playbook-linter/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/ansible-playbook-linter/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

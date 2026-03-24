@@ -60,5 +60,5 @@ npx skills add agentskillexchange/skills --skill docker-compose-stack-analyzer -
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/docker-compose-stack-analyzer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/docker-compose-stack-analyzer/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill rest-mock-server -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/rest-mock-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/rest-mock-server/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

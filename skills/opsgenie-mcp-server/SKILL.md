@@ -2,7 +2,7 @@
 name: "OpsGenie MCP Server"
 description: "Use this skill when you need to list, acknowledge, or close OpsGenie alerts, check on-call rotations, or create incidents from your AI agent. It integrates OpsGenie’s alert management into agent workflows for faster incident response."
 category: "Monitoring & Alerts"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.2
 reviews: 76
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill opsgenie-mcp-server -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/opsgenie-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/opsgenie-mcp-server/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

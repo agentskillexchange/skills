@@ -58,5 +58,5 @@ Profile: [@bentaylor](https://agentskillexchange.com/creator/bentaylor/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/semrush-content-optimizer-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/semrush-content-optimizer-agent/)
 - [Browse All Skills](https://agentskillexchange.com/)

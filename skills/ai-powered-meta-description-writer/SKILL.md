@@ -57,5 +57,5 @@ npx skills add agentskillexchange/skills --skill ai-powered-meta-description-wri
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/ai-powered-meta-description-writer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/ai-powered-meta-description-writer/)
 - [Browse All Skills](https://agentskillexchange.com/)

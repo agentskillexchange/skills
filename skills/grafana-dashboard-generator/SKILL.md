@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill grafana-dashboard-generator -a 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/grafana-dashboard-generator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/grafana-dashboard-generator/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

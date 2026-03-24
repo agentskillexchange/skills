@@ -57,5 +57,5 @@ npx skills add agentskillexchange/skills --skill wp-cli-site-migration-automator
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/wp-cli-site-migration-automator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/wp-cli-site-migration-automator/)
 - [Browse All Skills](https://agentskillexchange.com/)

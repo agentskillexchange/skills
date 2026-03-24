@@ -2,7 +2,7 @@
 name: "ESLint Rule Conflict Detector"
 description: "Detects conflicting ESLint rules across .eslintrc configurations using the ESLint Node.js API CLIEngine and eslint-config-prettier compatibility checker. Resolves conflicts between Airbnb, Standard, and custom rule presets."
 category: "Code Quality & Review"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.8
 reviews: 27
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill eslint-rule-conflict-detector -
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/eslint-rule-conflict-detector/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/eslint-rule-conflict-detector/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

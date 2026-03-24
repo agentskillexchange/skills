@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill endpoint-health-monitor -a code
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/endpoint-health-monitor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/endpoint-health-monitor/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

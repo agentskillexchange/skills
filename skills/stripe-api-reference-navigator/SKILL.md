@@ -56,4 +56,4 @@ npx skills add agentskillexchange/skills --skill stripe-api-reference-navigator 
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/stripe-api-reference-navigator/) | [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/stripe-api-reference-navigator/) | [Browse All Skills](https://agentskillexchange.com)

@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill censys-attack-surface-monitor -
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/censys-attack-surface-monitor/) · [Browse All Skills](https://agentskillexchange.com/skills/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/censys-attack-surface-monitor/) · [Browse All Skills](https://agentskillexchange.com/skills/)

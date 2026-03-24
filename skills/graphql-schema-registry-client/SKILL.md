@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill graphql-schema-registry-client 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/graphql-schema-registry-client/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/graphql-schema-registry-client/)
 - [Browse All Skills](https://agentskillexchange.com/)

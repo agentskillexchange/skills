@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill circleci-orb-pipeline-composer 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/circleci-orb-pipeline-composer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-orb-pipeline-composer/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

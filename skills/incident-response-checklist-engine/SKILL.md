@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill incident-response-checklist-eng
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/incident-response-checklist-engine/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/incident-response-checklist-engine/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

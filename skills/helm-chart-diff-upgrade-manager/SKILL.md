@@ -2,7 +2,7 @@
 name: "Helm Chart Diff & Upgrade Manager"
 description: "Uses helm-diff to compute a human-readable diff between deployed and candidate chart versions before upgrade. Automatically bumps image tags by querying the OCI registry, then executes helm upgrade –atomic with configurable rollback timeouts. Sends upgrade status to PagerDuty or Datadog."
 category: "CI/CD Integrations"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: verified_metadata
 rating: 4.7
 reviews: 60
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill helm-chart-diff-upgrade-manager
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/helm-chart-diff-upgrade-manager/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/helm-chart-diff-upgrade-manager/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

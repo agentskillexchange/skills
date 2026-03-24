@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill deployment-rollback-runbook -a 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/deployment-rollback-runbook/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/deployment-rollback-runbook/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill datadog-monitor-blueprint-gener
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/datadog-monitor-blueprint-generator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/datadog-monitor-blueprint-generator/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

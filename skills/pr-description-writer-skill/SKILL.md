@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill pr-description-writer-skill -a 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/pr-description-writer-skill/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/pr-description-writer-skill/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

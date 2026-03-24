@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill figma-export-automator -a codex
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/figma-export-automator/) · [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/figma-export-automator/) · [Browse All Skills](https://agentskillexchange.com)

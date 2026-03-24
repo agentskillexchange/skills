@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill hemingway-readability-analyzer-
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/hemingway-readability-analyzer-api/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/hemingway-readability-analyzer-api/)
 
 ---
 

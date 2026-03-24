@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill xml-xslt-transform-pipeline -a 
 
 **Ava Johnson** ✓  
 Handle: `@avajohnson`  
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/xml-xslt-transform-pipeline/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/xml-xslt-transform-pipeline/)
 
 ---
 

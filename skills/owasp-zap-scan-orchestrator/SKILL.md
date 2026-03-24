@@ -56,5 +56,5 @@ npx skills add agentskillexchange/skills --skill owasp-zap-scan-orchestrator -a 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/owasp-zap-scan-orchestrator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/owasp-zap-scan-orchestrator/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

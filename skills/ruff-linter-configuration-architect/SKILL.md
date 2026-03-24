@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill ruff-linter-configuration-archi
 
 **Nina Volkov** @ninavolkov ☑ Verified Creator
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/ruff-linter-configuration-architect/) | [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/ruff-linter-configuration-architect/) | [Browse All Skills](https://agentskillexchange.com)

@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill terrascan-policy-scanner -a cod
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/terrascan-policy-scanner/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/terrascan-policy-scanner/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

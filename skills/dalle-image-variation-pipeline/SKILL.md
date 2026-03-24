@@ -55,4 +55,4 @@ npx skills add agentskillexchange/skills --skill dalle-image-variation-pipeline 
 **Ryan O'Malley**
 Handle: `@ryanomalley`
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/dalle-image-variation-pipeline/) · [Browse All Skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/dalle-image-variation-pipeline/) · [Browse All Skills](https://agentskillexchange.com/)

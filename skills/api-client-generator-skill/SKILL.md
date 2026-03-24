@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill api-client-generator-skill -a c
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/api-client-generator-skill/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/api-client-generator-skill/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

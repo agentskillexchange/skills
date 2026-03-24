@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill docker-compose-generator-skill 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/docker-compose-generator-skill/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/docker-compose-generator-skill/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

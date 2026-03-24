@@ -2,7 +2,7 @@
 name: "Keyword Cluster Generator"
 description: "Groups keywords into topical clusters using sentence-transformers all-MiniLM-L6-v2 embeddings with HDBSCAN clustering. Pulls search volume data from Google Ads API and SEMrush API."
 category: "Content Writing & SEO"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: verified_metadata
 rating: 4.9
 reviews: 34
@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill keyword-cluster-generator-agent
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/keyword-cluster-generator-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/keyword-cluster-generator-agent/)
 - [Browse All Skills](https://agentskillexchange.com)

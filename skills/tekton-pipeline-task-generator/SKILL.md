@@ -54,9 +54,9 @@ npx skills add agentskillexchange/skills --skill tekton-pipeline-task-generator 
 
 **David Nguyen** ✓
 Handle: @davidnguyen
-[View Profile](https://agentskillexchange.com/skill/tekton-pipeline-task-generator/)
+[View Profile](https://agentskillexchange.com/skills/tekton-pipeline-task-generator/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/tekton-pipeline-task-generator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/tekton-pipeline-task-generator/)
 - [Browse All Skills](https://agentskillexchange.com/)

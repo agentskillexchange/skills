@@ -56,5 +56,5 @@ npx skills add agentskillexchange/skills --skill eslint-rule-generator-agent -a 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/eslint-rule-generator-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/eslint-rule-generator-agent/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

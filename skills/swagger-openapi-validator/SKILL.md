@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill swagger-openapi-validator -a co
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/swagger-openapi-validator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/swagger-openapi-validator/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

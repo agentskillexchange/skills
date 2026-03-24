@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill api-rate-limit-monitor -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/api-rate-limit-monitor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/api-rate-limit-monitor/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

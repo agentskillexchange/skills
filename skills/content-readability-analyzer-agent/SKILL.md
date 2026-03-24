@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill content-readability-analyzer-ag
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/content-readability-analyzer-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/content-readability-analyzer-agent/)
 - [Browse All Skills](https://agentskillexchange.com)

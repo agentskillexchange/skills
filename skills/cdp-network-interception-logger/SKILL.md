@@ -56,9 +56,9 @@ npx skills add agentskillexchange/skills --skill cdp-network-interception-logger
 
 **Sam Lee** ✅
 Handle: `@samlee_dev`
-[View Profile on ASE](https://agentskillexchange.com/skill/cdp-network-interception-logger/)
+[View Profile on ASE](https://agentskillexchange.com/skills/cdp-network-interception-logger/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/cdp-network-interception-logger/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/cdp-network-interception-logger/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

@@ -55,7 +55,7 @@ npx skills add agentskillexchange/skills --skill terraform-plan-analyzer-3 -a co
 
 **Elena Rodriguez** ✓
 Handle: `@elena_dev`
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/terraform-plan-analyzer-3/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-plan-analyzer-3/)
 
 ---
 

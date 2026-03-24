@@ -57,5 +57,5 @@ npx skills add agentskillexchange/skills --skill semgrep-pattern-matching-audito
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/semgrep-pattern-matching-auditor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/semgrep-pattern-matching-auditor/)
 - [Browse All Skills](https://agentskillexchange.com/)

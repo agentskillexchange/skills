@@ -54,9 +54,9 @@ npx skills add agentskillexchange/skills --skill aws-cloudwatch-alarm-triage-age
 
 **Community**
 
-[View Profile](https://agentskillexchange.com/skill/aws-cloudwatch-alarm-triage-agent-2/)
+[View Profile](https://agentskillexchange.com/skills/aws-cloudwatch-alarm-triage-agent-2/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/aws-cloudwatch-alarm-triage-agent-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/aws-cloudwatch-alarm-triage-agent-2/)
 - [Browse All Skills](https://agentskillexchange.com/)

@@ -1,8 +1,8 @@
 ---
 name: "GitLab CI Pipeline Optimizer"
 description: "Parses .gitlab-ci.yml including extends, reference, and include directives to visualize the effective pipeline. Queries the GitLab Pipelines API to identify bottlenecks, cache misses, and DAG scheduli"
-category: "Uncategorized"
-framework: "Unknown"
+category: "Developer Tools"
+framework: "Custom Agents"
 verification: security_reviewed
 rating: 4.4
 reviews: 5
@@ -55,5 +55,5 @@ npx skills add agentskillexchange/skills --skill gitlab-ci-pipeline-optimizer-5 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/gitlab-ci-pipeline-optimizer-5/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/gitlab-ci-pipeline-optimizer-5/)
 - [Browse All Skills](https://agentskillexchange.com/)

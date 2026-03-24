@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill apache-spark-job-manager -a cod
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/apache-spark-job-manager/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/apache-spark-job-manager/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

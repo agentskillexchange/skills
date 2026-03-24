@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill salesforce-crm-sync-agent -a co
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/salesforce-crm-sync-agent/) · [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/salesforce-crm-sync-agent/) · [Browse All Skills](https://agentskillexchange.com)

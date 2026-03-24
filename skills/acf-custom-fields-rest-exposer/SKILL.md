@@ -57,5 +57,5 @@ npx skills add agentskillexchange/skills --skill acf-custom-fields-rest-exposer 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/acf-custom-fields-rest-exposer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/acf-custom-fields-rest-exposer/)
 - [Browse All Skills](https://agentskillexchange.com/)

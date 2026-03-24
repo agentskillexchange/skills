@@ -54,9 +54,9 @@ npx skills add agentskillexchange/skills --skill circleci-orb-composer-10 -a cod
 
 **Community**
 
-[View Profile](https://agentskillexchange.com/skill/circleci-orb-composer-10/)
+[View Profile](https://agentskillexchange.com/skills/circleci-orb-composer-10/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/circleci-orb-composer-10/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-orb-composer-10/)
 - [Browse All Skills](https://agentskillexchange.com)

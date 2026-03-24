@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill otel-collector-pipeline-designe
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/otel-collector-pipeline-designer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/otel-collector-pipeline-designer/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

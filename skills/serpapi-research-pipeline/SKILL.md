@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill serpapi-research-pipeline -a co
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/serpapi-research-pipeline/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/serpapi-research-pipeline/)
 - [Browse All Skills](https://agentskillexchange.com/)

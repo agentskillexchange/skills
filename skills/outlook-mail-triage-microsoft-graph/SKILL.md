@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill outlook-mail-triage-microsoft-g
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/outlook-mail-triage-microsoft-graph/) | [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/outlook-mail-triage-microsoft-graph/) | [Browse All Skills](https://agentskillexchange.com)

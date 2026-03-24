@@ -54,4 +54,4 @@ npx skills add agentskillexchange/skills --skill ahrefs-keyword-gap-analysis-ski
 
 **Yuki Tanaka** @yukitanaka ✓ Verified
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/ahrefs-keyword-gap-analysis-skill/) · [Browse All Skills](https://agentskillexchange.com/skills/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/ahrefs-keyword-gap-analysis-skill/) · [Browse All Skills](https://agentskillexchange.com/skills/)

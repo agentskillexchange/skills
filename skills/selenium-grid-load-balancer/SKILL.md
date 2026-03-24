@@ -55,5 +55,5 @@ npx skills add agentskillexchange/skills --skill selenium-grid-load-balancer -a 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/selenium-grid-load-balancer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/selenium-grid-load-balancer/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

@@ -55,4 +55,4 @@ npx skills add agentskillexchange/skills --skill github-actions-workflow-builder
 **Ryan O'Malley**
 Handle: @ryanomalley
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/github-actions-workflow-builder-3/) · [Browse all skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/github-actions-workflow-builder-3/) · [Browse all skills](https://agentskillexchange.com/)

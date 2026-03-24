@@ -54,8 +54,8 @@ npx skills add agentskillexchange/skills --skill python-type-coverage-checker -a
 
 **Ben Taylor** 
 Handle: `@bentaylor`
-[View Profile on ASE](https://agentskillexchange.com/skill/python-type-coverage-checker/)
+[View Profile on ASE](https://agentskillexchange.com/skills/python-type-coverage-checker/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/python-type-coverage-checker/) • [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/python-type-coverage-checker/) • [Browse All Skills](https://agentskillexchange.com)

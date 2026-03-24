@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill postgresql-query-plan-analyzer-
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/postgresql-query-plan-analyzer-3/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/postgresql-query-plan-analyzer-3/)
 - [Browse All Skills](https://agentskillexchange.com/)

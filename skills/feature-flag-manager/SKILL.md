@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill feature-flag-manager -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/feature-flag-manager/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/feature-flag-manager/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

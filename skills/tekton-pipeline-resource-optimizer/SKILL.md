@@ -55,4 +55,4 @@ npx skills add agentskillexchange/skills --skill tekton-pipeline-resource-optimi
 **Aisha Patel** @aishapatel
 ✓ Verified Creator
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/tekton-pipeline-resource-optimizer/) · [Browse All Skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/tekton-pipeline-resource-optimizer/) · [Browse All Skills](https://agentskillexchange.com/)

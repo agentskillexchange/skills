@@ -56,4 +56,4 @@ npx skills add agentskillexchange/skills --skill eslint-rule-architect -a codex
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/eslint-rule-architect/) | [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/eslint-rule-architect/) | [Browse All Skills](https://agentskillexchange.com)

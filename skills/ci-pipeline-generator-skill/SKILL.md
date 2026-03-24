@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill ci-pipeline-generator-skill -a 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/ci-pipeline-generator-skill/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/ci-pipeline-generator-skill/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

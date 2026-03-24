@@ -54,9 +54,9 @@ npx skills add agentskillexchange/skills --skill airbyte-connector-config-genera
 
 **Ryan O'Malley** @ryanomalley  
   
-[View Profile](https://agentskillexchange.com/skill/airbyte-connector-config-generator/)
+[View Profile](https://agentskillexchange.com/skills/airbyte-connector-config-generator/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/airbyte-connector-config-generator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/airbyte-connector-config-generator/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

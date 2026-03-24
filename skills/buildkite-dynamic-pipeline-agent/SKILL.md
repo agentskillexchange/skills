@@ -54,9 +54,9 @@ npx skills add agentskillexchange/skills --skill buildkite-dynamic-pipeline-agen
 
 **Aisha Patel** ✓
 Handle: @aishapatel
-[View Profile](https://agentskillexchange.com/skill/buildkite-dynamic-pipeline-agent/)
+[View Profile](https://agentskillexchange.com/skills/buildkite-dynamic-pipeline-agent/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/buildkite-dynamic-pipeline-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/buildkite-dynamic-pipeline-agent/)
 - [Browse All Skills](https://agentskillexchange.com/)

@@ -57,4 +57,4 @@ npx skills add agentskillexchange/skills --skill protobuf-documentation-generato
 **Zoe Chen** ✅
 @zoechen
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/protobuf-documentation-generator/) • [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/protobuf-documentation-generator/) • [Browse All Skills](https://agentskillexchange.com)

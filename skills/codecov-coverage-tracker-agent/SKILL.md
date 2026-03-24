@@ -2,7 +2,7 @@
 name: "Codecov Coverage Tracker Agent"
 description: "Tracks and enforces code coverage using Codecov API, lcov, and Istanbul/nyc. Generates coverage reports, detects regressions, and blocks PRs below threshold."
 category: "Code Quality & Review"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: listed
 rating: 4.3
 reviews: 19
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill codecov-coverage-tracker-agent 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/codecov-coverage-tracker-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/codecov-coverage-tracker-agent/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

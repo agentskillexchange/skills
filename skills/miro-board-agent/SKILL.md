@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill miro-board-agent -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/miro-board-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/miro-board-agent/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill npm-package-api-surface-extract
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/npm-package-api-surface-extractor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/npm-package-api-surface-extractor/)
 - [Browse All Skills](https://agentskillexchange.com/)

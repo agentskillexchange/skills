@@ -57,5 +57,5 @@ npx skills add agentskillexchange/skills --skill seo-schema-markup-generator-age
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/seo-schema-markup-generator-agent/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/seo-schema-markup-generator-agent/)
 - [Browse All Skills](https://agentskillexchange.com/)

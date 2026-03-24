@@ -57,5 +57,5 @@ npx skills add agentskillexchange/skills --skill database-migration-validator -a
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/database-migration-validator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/database-migration-validator/)
 - [Browse All Skills](https://agentskillexchange.com/)

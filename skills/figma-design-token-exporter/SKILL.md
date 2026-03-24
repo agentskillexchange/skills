@@ -56,8 +56,8 @@ npx skills add agentskillexchange/skills --skill figma-design-token-exporter -a 
 
 **Carlos Mendez** ✅
 Handle: `@carlosmendez`
-[View Profile on ASE](https://agentskillexchange.com/skill/figma-design-token-exporter/)
+[View Profile on ASE](https://agentskillexchange.com/skills/figma-design-token-exporter/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/figma-design-token-exporter/) • [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/figma-design-token-exporter/) • [Browse All Skills](https://agentskillexchange.com)

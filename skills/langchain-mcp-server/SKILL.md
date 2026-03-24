@@ -2,7 +2,7 @@
 name: "LangChain MCP Server"
 description: "Use this skill to build and execute LangChain chains, access LangChain’s agent tools ecosystem, and manage memory and conversation history through MCP. It enables agents to leverage LangChain’s extensive tool library and chain-building capabilities. Trigger when you need to compose multi-step AI workflows, use LangChain-specific tools, or manage conversation memory across sessions."
 category: "Developer Tools"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.4
 reviews: 64
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill langchain-mcp-server -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/langchain-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/langchain-mcp-server/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

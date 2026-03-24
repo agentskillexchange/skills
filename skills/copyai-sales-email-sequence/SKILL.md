@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill copyai-sales-email-sequence -a 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/copyai-sales-email-sequence/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/copyai-sales-email-sequence/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

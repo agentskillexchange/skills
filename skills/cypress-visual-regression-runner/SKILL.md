@@ -55,5 +55,5 @@ npx skills add agentskillexchange/skills --skill cypress-visual-regression-runne
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/cypress-visual-regression-runner/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/cypress-visual-regression-runner/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

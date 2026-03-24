@@ -2,7 +2,7 @@
 name: "PostgreSQL Slow Query Analyzer"
 description: "Queries pg_stat_statements and pg_stat_activity to surface top slow queries by execution time and call frequency. Runs EXPLAIN ANALYZE on worst offenders and suggests index additions, rewrites, or vacuum triggers. Works on RDS, Supabase, and self-hosted Postgres."
 category: "Runbooks & Diagnostics"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.4
 reviews: 83
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill postgresql-slow-query-analyzer-
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/postgresql-slow-query-analyzer-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/postgresql-slow-query-analyzer-2/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

@@ -2,7 +2,7 @@
 name: "Stable Diffusion ComfyUI Workflow Runner"
 description: "Executes ComfyUI workflow JSON files against a local or remote ComfyUI server via its REST API. Supports LoRA loading, ControlNet conditioning, and queue management with progress polling."
 category: "Image & Creative Automation"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: listed
 rating: 0
 reviews: 0
@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill stable-diffusion-comfyui-workfl
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/stable-diffusion-comfyui-workflow-runner-2/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/stable-diffusion-comfyui-workflow-runner-2/)
 
 ---
 

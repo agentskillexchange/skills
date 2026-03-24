@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill terraform-state-diagnostics -a 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/terraform-state-diagnostics/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-state-diagnostics/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

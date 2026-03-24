@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill dependency-graph-visualizer -a 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/dependency-graph-visualizer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/dependency-graph-visualizer/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

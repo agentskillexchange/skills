@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill tekton-pipeline-validator -a co
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/tekton-pipeline-validator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/tekton-pipeline-validator/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

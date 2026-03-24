@@ -58,5 +58,5 @@ Profile: [@omarfarouk](https://agentskillexchange.com/creator/omarfarouk/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/surfer-seo-serp-analyzer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/surfer-seo-serp-analyzer/)
 - [Browse All Skills](https://agentskillexchange.com/)

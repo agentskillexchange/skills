@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill trivy-container-scanner-2 -a co
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/trivy-container-scanner-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/trivy-container-scanner-2/)
 - [Browse All Skills](https://agentskillexchange.com/)

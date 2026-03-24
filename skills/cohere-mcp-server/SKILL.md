@@ -2,7 +2,7 @@
 name: "Cohere MCP Server"
 description: "Use this skill to generate embeddings, rerank search results, classify text, and generate responses using Cohere’s models through MCP. It provides agents with Cohere’s specialized NLP capabilities, particularly reranking for improving search quality. Trigger when you need to improve search relevance with reranking, generate high-quality embeddings, or perform text classification at scale."
 category: "Data Extraction & Transformation"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 rating: 4.6
 reviews: 77
@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill cohere-mcp-server -a codex
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/cohere-mcp-server/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/cohere-mcp-server/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

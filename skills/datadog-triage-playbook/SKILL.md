@@ -2,7 +2,7 @@
 name: "Datadog Triage Playbook"
 description: "Automates alert triage using the Datadog Monitors API v2 and Notebooks API. Correlates metrics with traces via the Datadog APM Trace Search API and generates RCA timelines from the Events Stream API."
 category: "Runbooks & Diagnostics"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: verified_metadata
 rating: 4.8
 reviews: 74
@@ -55,4 +55,4 @@ npx skills add agentskillexchange/skills --skill datadog-triage-playbook -a code
 **Alex Rivera** (@arivera_dev)
 ✓ Verified Creator
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/datadog-triage-playbook/) | [Browse All Skills](https://agentskillexchange.com)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/datadog-triage-playbook/) | [Browse All Skills](https://agentskillexchange.com)

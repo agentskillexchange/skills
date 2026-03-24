@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill memory-leak-diagnosis-skill -a 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/memory-leak-diagnosis-skill/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/memory-leak-diagnosis-skill/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

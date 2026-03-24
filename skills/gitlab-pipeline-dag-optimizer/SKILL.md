@@ -54,8 +54,8 @@ npx skills add agentskillexchange/skills --skill gitlab-pipeline-dag-optimizer -
 
 **Ryan O'Malley** 
 Handle: `@ryanomalley`
-[View Profile on ASE](https://agentskillexchange.com/skill/gitlab-pipeline-dag-optimizer/)
+[View Profile on ASE](https://agentskillexchange.com/skills/gitlab-pipeline-dag-optimizer/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/gitlab-pipeline-dag-optimizer/) · [Browse All Skills](https://agentskillexchange.com/skills/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/gitlab-pipeline-dag-optimizer/) · [Browse All Skills](https://agentskillexchange.com/skills/)

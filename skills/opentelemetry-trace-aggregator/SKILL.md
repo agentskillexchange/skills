@@ -57,5 +57,5 @@ npx skills add agentskillexchange/skills --skill opentelemetry-trace-aggregator 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/opentelemetry-trace-aggregator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/opentelemetry-trace-aggregator/)
 - [Browse All Skills](https://agentskillexchange.com/)

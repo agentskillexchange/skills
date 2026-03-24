@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill cypress-e2e-test-generator -a c
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/cypress-e2e-test-generator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/cypress-e2e-test-generator/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

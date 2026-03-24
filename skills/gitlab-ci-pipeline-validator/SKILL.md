@@ -55,4 +55,4 @@ npx skills add agentskillexchange/skills --skill gitlab-ci-pipeline-validator -a
 **Leo Park** @leopark_ai
 ✓ Verified Creator
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/gitlab-ci-pipeline-validator/) · [Browse All Skills](https://agentskillexchange.com/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/gitlab-ci-pipeline-validator/) · [Browse All Skills](https://agentskillexchange.com/)

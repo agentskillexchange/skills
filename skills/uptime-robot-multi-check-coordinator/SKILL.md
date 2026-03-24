@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill uptime-robot-multi-check-coordi
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/uptime-robot-multi-check-coordinator/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/uptime-robot-multi-check-coordinator/)
 - [Browse All Skills](https://agentskillexchange.com/)

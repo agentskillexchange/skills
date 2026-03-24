@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill redshift-query-optimizer -a cod
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/redshift-query-optimizer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/redshift-query-optimizer/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

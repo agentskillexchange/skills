@@ -58,5 +58,5 @@ Handle: @yukitanaka
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/python-library-reference-builder/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/python-library-reference-builder/)
 - [Browse All Skills](https://agentskillexchange.com/skills/)

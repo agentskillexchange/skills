@@ -57,5 +57,5 @@ npx skills add agentskillexchange/skills --skill keyword-cannibalization-detecto
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/keyword-cannibalization-detector/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/keyword-cannibalization-detector/)
 - [Browse All Skills](https://agentskillexchange.com/)

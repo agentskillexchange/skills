@@ -54,9 +54,9 @@ npx skills add agentskillexchange/skills --skill git-secret-scanner-gitleaks -a 
 
 **Community**
 
-[View Profile](https://agentskillexchange.com/skill/git-secret-scanner-gitleaks/)
+[View Profile](https://agentskillexchange.com/skills/git-secret-scanner-gitleaks/)
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/git-secret-scanner-gitleaks/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/git-secret-scanner-gitleaks/)
 - [Browse All Skills](https://agentskillexchange.com/)

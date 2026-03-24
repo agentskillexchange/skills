@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill apache-kafka-stream-processor -
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/apache-kafka-stream-processor/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/apache-kafka-stream-processor/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

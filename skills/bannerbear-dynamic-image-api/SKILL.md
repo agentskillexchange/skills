@@ -54,7 +54,7 @@ npx skills add agentskillexchange/skills --skill bannerbear-dynamic-image-api -a
 
 **Community**
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/bannerbear-dynamic-image-api/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/bannerbear-dynamic-image-api/)
 
 ---
 

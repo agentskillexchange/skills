@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill cookiecutter-project-bootstrapp
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/cookiecutter-project-bootstrapper/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/cookiecutter-project-bootstrapper/)
 - [Browse All Skills](https://agentskillexchange.com)

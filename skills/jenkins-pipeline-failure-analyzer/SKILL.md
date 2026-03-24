@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill jenkins-pipeline-failure-analyz
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/jenkins-pipeline-failure-analyzer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-pipeline-failure-analyzer/)
 - [Browse All Skills](https://agentskillexchange.com/)

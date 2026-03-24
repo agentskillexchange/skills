@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill mlflow-experiment-tracker -a co
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/mlflow-experiment-tracker/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/mlflow-experiment-tracker/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

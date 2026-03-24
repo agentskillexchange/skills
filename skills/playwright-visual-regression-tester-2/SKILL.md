@@ -58,5 +58,5 @@ npx skills add agentskillexchange/skills --skill playwright-visual-regression-te
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/playwright-visual-regression-tester-2/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/playwright-visual-regression-tester-2/)
 - [Browse All Skills](https://agentskillexchange.com)

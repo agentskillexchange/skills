@@ -54,8 +54,8 @@ npx skills add agentskillexchange/skills --skill owasp-zap-automated-pen-testing
 
 **Marcus Chen** ✓
 Handle: `@marcuschen`
-[View Profile on ASE](https://agentskillexchange.com/skill/owasp-zap-automated-pen-testing-agent/)
+[View Profile on ASE](https://agentskillexchange.com/skills/owasp-zap-automated-pen-testing-agent/)
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/owasp-zap-automated-pen-testing-agent/) · [Browse All Skills](https://agentskillexchange.com/skills/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/owasp-zap-automated-pen-testing-agent/) · [Browse All Skills](https://agentskillexchange.com/skills/)

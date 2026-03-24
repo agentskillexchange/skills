@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill incident-escalation-runbook -a 
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/incident-escalation-runbook/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/incident-escalation-runbook/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

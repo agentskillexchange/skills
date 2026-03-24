@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill notion-ai-doc-summarizer -a cod
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/notion-ai-doc-summarizer/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/notion-ai-doc-summarizer/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

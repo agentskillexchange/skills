@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill metrics-dashboard-builder -a co
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/metrics-dashboard-builder/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/metrics-dashboard-builder/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

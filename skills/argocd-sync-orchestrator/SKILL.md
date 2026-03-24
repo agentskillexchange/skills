@@ -55,7 +55,7 @@ npx skills add agentskillexchange/skills --skill argocd-sync-orchestrator -a cod
 
 **Nina Volkov** ✓
 Handle: `@ninavolkov`
-[View on Agent Skill Exchange](https://agentskillexchange.com/skill/argocd-sync-orchestrator/)
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/argocd-sync-orchestrator/)
 
 ---
 

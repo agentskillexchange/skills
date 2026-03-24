@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill metabase-dashboard-snapshot-ale
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/metabase-dashboard-snapshot-alerting/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/metabase-dashboard-snapshot-alerting/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)

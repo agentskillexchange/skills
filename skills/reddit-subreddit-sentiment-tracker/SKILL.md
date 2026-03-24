@@ -63,5 +63,5 @@ npx skills add agentskillexchange/skills --skill reddit-subreddit-sentiment-trac
 
 ## Links
 
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skill/reddit-subreddit-sentiment-tracker/)
+- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/reddit-subreddit-sentiment-tracker/)
 - [Browse all skills](https://agentskillexchange.com/browse-skills/)
