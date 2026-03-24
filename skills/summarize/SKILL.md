@@ -3,10 +3,10 @@ name: "Summarize"
 description: "Summarize long-form media, URLs, and files into useful briefs."
 category: "Media & Transcription"
 framework: "OpenClaw"
-verification: listed
-rating: 0
-reviews: 0
-creator: ""
+verification: listed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/summarize/"
@@ -16,41 +16,42 @@ source: "https://agentskillexchange.com/skills/summarize/"
 
 Summarize long-form media, URLs, and files into useful briefs.
 
+## Overview
+
+A general-purpose summarization skill for pulling out key points from links, transcripts, podcasts, videos, and local files.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill summarize
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill summarize -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill summarize -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install summarize
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill summarize -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Media & Transcription |
-| **Framework** | OpenClaw |
-| **Verification** | 📋 Listed |
+```bash
+clawhub install summarize
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/summarize/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/summarize/

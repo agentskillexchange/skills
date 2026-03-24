@@ -3,10 +3,10 @@ name: "DeepSource Static Analysis"
 description: "Runs DeepSource static analysis on Python, JavaScript, TypeScript, Go, Ruby, and Rust codebases. Detects anti-patterns, security issues, performance problems, and style violations with auto-fix suggestions."
 category: "Code Quality & Review"
 framework: "Claude Code"
-verification: listed
-rating: 0
-reviews: 0
-creator: ""
+verification: listed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/deepsource-static-analysis/"
@@ -16,41 +16,42 @@ source: "https://agentskillexchange.com/skills/deepsource-static-analysis/"
 
 Runs DeepSource static analysis on Python, JavaScript, TypeScript, Go, Ruby, and Rust codebases. Detects anti-patterns, security issues, performance problems, and style violations with auto-fix suggestions.
 
+## Overview
+
+Runs DeepSource static analysis on Python, JavaScript, TypeScript, Go, Ruby, and Rust codebases. Detects anti-patterns, security issues, performance problems, and style violations with auto-fix suggestions.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill deepsource-static-analysis
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill deepsource-static-analysis -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill deepsource-static-analysis -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install deepsource-static-analysis
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill deepsource-static-analysis -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Code Quality & Review |
-| **Framework** | Claude Code |
-| **Verification** | 📋 Listed |
+```bash
+clawhub install deepsource-static-analysis
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/deepsource-static-analysis/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/deepsource-static-analysis/

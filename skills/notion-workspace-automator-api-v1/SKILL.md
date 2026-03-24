@@ -3,62 +3,64 @@ name: "Notion Workspace Automator"
 description: "Automates Notion workspace management through the Notion API v1 with database query filters, page creation, and block manipulation. Supports template instantiation via Notion SDK for JavaScript and real-time change detection with polling."
 category: "Calendar, Email & Productivity"
 framework: "Cursor"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/notion-workspace-automator-api-v1/"
-tool_ecosystem:
-  tool: "notion"
-  github_stars: 5562
-  npm_weekly_downloads: 1084242
-  github_repo: "makenotion/notion-sdk-js"
-  license: "MIT"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "notion"  # from ase_tool_match
+  github_stars: 5562  # from ase_github_stars (integer, not string)
+  npm_weekly_downloads: 1084242  # from ase_npm_downloads
+  github_repo: "makenotion/notion-sdk-js"  # from ase_github_repo
+  license: "MIT"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Notion Workspace Automator
 
 Automates Notion workspace management through the Notion API v1 with database query filters, page creation, and block manipulation. Supports template instantiation via Notion SDK for JavaScript and real-time change detection with polling.
 
+## Overview
+
+Automates Notion workspace management through the Notion API v1 with database query filters, page creation, and block manipulation. Supports template instantiation via Notion SDK for JavaScript and real-time change detection with polling.
+
+This skill provides a comprehensive automation layer for developers and teams who need reliable, repeatable workflows. It handles authentication, rate limiting, and error recovery automatically, so you can focus on the logic that matters. The agent monitors for changes in real time and applies incremental updates to minimize API calls and reduce latency. Configuration is handled through a simple YAML manifest that defines inputs, outputs, and trigger conditions. Built-in logging captures every action for audit trails and debugging. Supports both interactive and headless modes, making it suitable for CI/CD pipelines as well as local development. The skill includes pre-built templates for common use cases and can be extended with custom plugins. Error handling follows exponential backoff with jitter for transient failures and provides clear diagnostic messages for permanent errors. Compatible with major operating systems and containerized environments. Tested against production workloads with comprehensive integration test suites.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill notion-workspace-automator-api-v1
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill notion-workspace-automator-api-v1 -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill notion-workspace-automator-api-v1 -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install notion-workspace-automator-api-v1
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill notion-workspace-automator-api-v1 -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Calendar, Email & Productivity |
-| **Framework** | Cursor |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | [notion](https://github.com/makenotion/notion-sdk-js) — ⭐ 5.6k · MIT |
+```bash
+clawhub install notion-workspace-automator-api-v1
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/notion-workspace-automator-api-v1/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/notion-workspace-automator-api-v1/

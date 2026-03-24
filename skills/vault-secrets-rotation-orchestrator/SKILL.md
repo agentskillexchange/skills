@@ -3,62 +3,66 @@ name: "Vault Secrets Rotation Orchestrator"
 description: "Automates HashiCorp Vault secret rotation using the Vault HTTP API and dynamic secrets engines. Manages database credential leases, PKI certificate renewal, and AWS STS token rotation with zero-downtime rollover."
 category: "Security & Verification"
 framework: "MCP-compatible"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/vault-secrets-rotation-orchestrator/"
-tool_ecosystem:
-  tool: "vault"
-  github_stars: 35266
-  npm_weekly_downloads: 9204385
-  github_repo: "hashicorp/vault"
-  license: "NOASSERTION"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "vault"  # from ase_tool_match
+  github_stars: 35266  # from ase_github_stars (integer, not string)
+  npm_weekly_downloads: 9204385  # from ase_npm_downloads
+  github_repo: "hashicorp/vault"  # from ase_github_repo
+  license: "NOASSERTION"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Vault Secrets Rotation Orchestrator
 
 Automates HashiCorp Vault secret rotation using the Vault HTTP API and dynamic secrets engines. Manages database credential leases, PKI certificate renewal, and AWS STS token rotation with zero-downtime rollover.
 
+## Overview
+
+The Vault Secrets Rotation Orchestrator skill manages automated secret lifecycle operations through HashiCorp Vault’s HTTP API. It orchestrates credential rotation across Vault’s dynamic secrets engines, ensuring applications always have valid credentials while maintaining security through regular rotation without service interruption.
+
+Database secrets engine management includes automatic rotation of PostgreSQL, MySQL, MongoDB, and MSSQL credentials with configurable TTLs and max-TTLs, lease renewal tracking with proactive rotation before expiry, and zero-downtime rollover using Vault’s dual-credential rotation strategy where new credentials are provisioned before old ones are revoked.
+
+Additional engine support covers PKI certificate rotation with automatic CSR generation and CA signing through Vault’s PKI secrets engine, AWS STS credential rotation using the AWS secrets engine for IAM user access keys and assumed role session tokens, and transit engine key rotation for encryption-as-a-service deployments. The skill monitors lease utilization across all engines, alerts on rotation failures or approaching max-TTL limits, and maintains audit logs of all rotation events mapped to Vault’s audit device output for compliance reporting.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill vault-secrets-rotation-orchestrator
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill vault-secrets-rotation-orchestrator -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill vault-secrets-rotation-orchestrator -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install vault-secrets-rotation-orchestrator
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill vault-secrets-rotation-orchestrator -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Security & Verification |
-| **Framework** | MCP-compatible |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | [vault](https://github.com/hashicorp/vault) — ⭐ 35.3k · NOASSERTION |
+```bash
+clawhub install vault-secrets-rotation-orchestrator
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/vault-secrets-rotation-orchestrator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/vault-secrets-rotation-orchestrator/

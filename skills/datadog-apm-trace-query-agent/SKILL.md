@@ -3,62 +3,66 @@ name: "Datadog APM Trace Query Agent"
 description: "Queries distributed traces from Datadog APM using the Trace Search API with faceted filtering. Analyzes p99 latency breakdowns across service spans and identifies slow database queries via db.statement tags."
 category: "Monitoring & Alerts"
 framework: "MCP-compatible"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/datadog-apm-trace-query-agent/"
-tool_ecosystem:
-  tool: "datadog"
-  github_stars: 787
-  npm_weekly_downloads: 6043057
-  github_repo: "DataDog/dd-trace-js"
-  license: "NOASSERTION"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "datadog"  # from ase_tool_match
+  github_stars: 787  # from ase_github_stars (integer, not string)
+  npm_weekly_downloads: 6043057  # from ase_npm_downloads
+  github_repo: "DataDog/dd-trace-js"  # from ase_github_repo
+  license: "NOASSERTION"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Datadog APM Trace Query Agent
 
 Queries distributed traces from Datadog APM using the Trace Search API with faceted filtering. Analyzes p99 latency breakdowns across service spans and identifies slow database queries via db.statement tags.
 
+## Overview
+
+The Datadog APM Trace Query Agent skill enables intelligent analysis of distributed traces collected by Datadog’s APM platform. Using the Trace Search API, it performs faceted queries across trace data filtered by service name, operation, resource, duration percentiles, and custom span tags to identify performance bottlenecks.
+
+The skill specializes in latency analysis, decomposing p99 response times across service-to-service spans in distributed architectures. It identifies slow database queries by analyzing db.statement span tags, detects N+1 query patterns through span count analysis, and correlates high-latency traces with infrastructure metrics like CPU utilization and garbage collection pauses.
+
+Advanced capabilities include trace comparison between deployment versions using the deployment.environment tag, error rate analysis with stack trace grouping, service dependency map generation from trace topology data, and retention filter optimization recommendations based on trace volume and query patterns. The skill outputs structured reports with flame graph data compatible with Datadog’s trace visualization, and supports alerting threshold recommendations based on historical latency distributions.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill datadog-apm-trace-query-agent
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill datadog-apm-trace-query-agent -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill datadog-apm-trace-query-agent -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install datadog-apm-trace-query-agent
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill datadog-apm-trace-query-agent -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Monitoring & Alerts |
-| **Framework** | MCP-compatible |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | [datadog](https://github.com/DataDog/dd-trace-js) — ⭐ 787 · NOASSERTION |
+```bash
+clawhub install datadog-apm-trace-query-agent
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/datadog-apm-trace-query-agent/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/datadog-apm-trace-query-agent/

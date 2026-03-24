@@ -3,10 +3,10 @@ name: "Doxygen Cross-Reference Indexer"
 description: "Builds searchable cross-reference indexes from Doxygen XML output using doxyparse and doxygen-awesome-css themes. Maps function call graphs, inheritance hierarchies, and include dependency chains across C/C++ codebases."
 category: "Library & API Reference"
 framework: "ChatGPT Agents"
-verification: listed
-rating: 0
-reviews: 0
-creator: ""
+verification: listed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/doxygen-cross-reference-indexer/"
@@ -16,41 +16,42 @@ source: "https://agentskillexchange.com/skills/doxygen-cross-reference-indexer/"
 
 Builds searchable cross-reference indexes from Doxygen XML output using doxyparse and doxygen-awesome-css themes. Maps function call graphs, inheritance hierarchies, and include dependency chains across C/C++ codebases.
 
+## Overview
+
+The Doxygen Cross-Reference Indexer processes Doxygen XML output to build rich, searchable cross-reference indexes for C and C++ codebases. Using doxyparse for structural analysis, it maps complete function call graphs showing caller-callee relationships across translation units. Inheritance hierarchies are visualized with virtual method override tracking and diamond inheritance detection. Include dependency chains reveal header file relationships and potential circular include issues. The indexer applies doxygen-awesome-css themes for modern, responsive documentation rendering with dark mode support. It generates interactive diagrams using Graphviz dot language with clickable nodes linking to source code. The tool supports incremental indexing where only changed files trigger reprocessing, dramatically reducing build times for large codebases. Custom tag files enable cross-project references where documentation from dependent libraries is linked seamlessly. Search functionality uses a pre-built lunr.js index for instant client-side full-text search across all documented symbols.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill doxygen-cross-reference-indexer
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill doxygen-cross-reference-indexer -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill doxygen-cross-reference-indexer -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install doxygen-cross-reference-indexer
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill doxygen-cross-reference-indexer -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Library & API Reference |
-| **Framework** | ChatGPT Agents |
-| **Verification** | 📋 Listed |
+```bash
+clawhub install doxygen-cross-reference-indexer
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/doxygen-cross-reference-indexer/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/doxygen-cross-reference-indexer/

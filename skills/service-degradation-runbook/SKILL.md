@@ -3,10 +3,10 @@ name: "Service Degradation Runbook"
 description: "Use this skill to triage service slowdowns, identify SLO breaches, and systematically investigate service degradation across distributed systems. It guides through error rate analysis, dependency checking, and performance metric correlation. Trigger when services are slow, error rates are elevated, SLOs are being breached, or customer-impacting degradation is detected."
 category: "Monitoring & Alerts"
 framework: "Custom Agents"
-verification: listed
-rating: 0
-reviews: 0
-creator: ""
+verification: listed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/service-degradation-runbook/"
@@ -16,41 +16,42 @@ source: "https://agentskillexchange.com/skills/service-degradation-runbook/"
 
 Use this skill to triage service slowdowns, identify SLO breaches, and systematically investigate service degradation across distributed systems. It guides through error rate analysis, dependency checking, and performance metric correlation. Trigger when services are slow, error rates are elevated, SLOs are being breached, or customer-impacting degradation is detected.
 
+## Overview
+
+Use this skill to triage service slowdowns, identify SLO breaches, and systematically investigate service degradation across distributed systems. It guides through error rate analysis, dependency checking, and performance metric correlation. Trigger when services are slow, error rates are elevated, SLOs are being breached, or customer-impacting degradation is detected.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill service-degradation-runbook
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill service-degradation-runbook -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill service-degradation-runbook -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install service-degradation-runbook
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill service-degradation-runbook -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Monitoring & Alerts |
-| **Framework** | Custom Agents |
-| **Verification** | 📋 Listed |
+```bash
+clawhub install service-degradation-runbook
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/service-degradation-runbook/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/service-degradation-runbook/

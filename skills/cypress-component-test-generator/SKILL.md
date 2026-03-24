@@ -3,62 +3,66 @@ name: "Cypress Component Test Generator"
 description: "Auto-generates Cypress component tests from React and Vue source files using AST parsing. Produces mount, interaction, and accessibility test cases."
 category: "Browser Automation"
 framework: "ChatGPT Agents"
-verification: listed
-rating: 0
-reviews: 0
-creator: ""
+verification: listed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/cypress-component-test-generator/"
-tool_ecosystem:
-  tool: "cypress"
-  github_stars: 49612
-  npm_weekly_downloads: 7404178
-  github_repo: "cypress-io/cypress"
-  license: "MIT"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "cypress"  # from ase_tool_match
+  github_stars: 49612  # from ase_github_stars (integer, not string)
+  npm_weekly_downloads: 7404178  # from ase_npm_downloads
+  github_repo: "cypress-io/cypress"  # from ase_github_repo
+  license: "MIT"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Cypress Component Test Generator
 
 Auto-generates Cypress component tests from React and Vue source files using AST parsing. Produces mount, interaction, and accessibility test cases.
 
+## Overview
+
+The Cypress Component Test Generator skill analyzes React and Vue component source files using Babel AST parsing to automatically generate comprehensive Cypress component test suites. It identifies props interfaces, event handlers, conditional renders, and slot content to produce meaningful test coverage.
+
+For React components, the generator creates mount tests with all prop combinations, simulates user interactions via cy.click and cy.type commands, and validates rendered output against expected DOM structures. Vue components receive equivalent treatment with Vuex store mocking and Vue Router stub injection.
+
+Accessibility tests are generated automatically using cypress-axe integration, checking WCAG 2.1 AA compliance for each component state. The generator produces both happy-path and edge-case scenarios including empty states, error boundaries, and loading skeletons. Output follows Cypress best practices with proper beforeEach hooks, custom commands, and fixture data management.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill cypress-component-test-generator
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill cypress-component-test-generator -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill cypress-component-test-generator -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install cypress-component-test-generator
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill cypress-component-test-generator -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Browser Automation |
-| **Framework** | ChatGPT Agents |
-| **Verification** | 📋 Listed |
-| **Tool** | [cypress](https://github.com/cypress-io/cypress) — ⭐ 49.6k · MIT |
+```bash
+clawhub install cypress-component-test-generator
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/cypress-component-test-generator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/cypress-component-test-generator/

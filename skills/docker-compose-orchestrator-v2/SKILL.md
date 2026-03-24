@@ -3,62 +3,61 @@ name: "Docker Compose Orchestrator"
 description: "Manages multi-service Docker Compose environments using the Compose V2 Go API and Docker Engine SDK. Handles health checks, dependency ordering, and rolling updates."
 category: "Developer Tools"
 framework: "OpenClaw"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/docker-compose-orchestrator-v2/"
-tool_ecosystem:
-  tool: "docker"
-  github_stars: 71560
-  npm_weekly_downloads: 0
-  github_repo: "moby/moby"
-  license: "Apache-2.0"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "docker"  # from ase_tool_match
+  github_stars: 71560  # from ase_github_stars (integer, not string)
+  github_repo: "moby/moby"  # from ase_github_repo
+  license: "Apache-2.0"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Docker Compose Orchestrator
 
 Manages multi-service Docker Compose environments using the Compose V2 Go API and Docker Engine SDK. Handles health checks, dependency ordering, and rolling updates.
 
+## Overview
+
+Docker Compose Orchestrator provides intelligent management of multi-service Docker environments through the Compose V2 specification. It uses the Docker Engine SDK for Go to monitor container health, manage network overlays, and orchestrate rolling updates with configurable parallelism. The tool analyzes depends_on chains to determine optimal startup ordering, implements custom health check retry logic beyond what Docker natively supports, and provides real-time log aggregation across services. It supports Docker Compose profiles for environment-specific configurations, volume backup and restore operations, and automatic image pruning based on retention policies. Integration with Docker BuildKit enables optimized multi-stage builds with layer caching analytics. The tool exposes Prometheus metrics for container resource utilization tracking.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill docker-compose-orchestrator-v2
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill docker-compose-orchestrator-v2 -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill docker-compose-orchestrator-v2 -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install docker-compose-orchestrator-v2
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill docker-compose-orchestrator-v2 -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Developer Tools |
-| **Framework** | OpenClaw |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | [docker](https://github.com/moby/moby) — ⭐ 71.6k · Apache-2.0 |
+```bash
+clawhub install docker-compose-orchestrator-v2
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/docker-compose-orchestrator-v2/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/docker-compose-orchestrator-v2/

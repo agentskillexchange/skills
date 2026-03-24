@@ -3,62 +3,58 @@ name: "SQLite Analyst"
 description: "AI agent skill for exploring, querying, and analyzing SQLite databases. Supports schema discovery, complex SQL generation, data profiling, and export to CSV or JSON. Ideal for local data analysis workflows."
 category: "Developer Tools"
 framework: "MCP-compatible"
-verification: listed
-rating: 0
-reviews: 0
-creator: ""
+verification: listed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/sqlite-analyst/"
-tool_ecosystem:
-  tool: "sqlite"
-  github_stars: 0
-  npm_weekly_downloads: 4960915
-  github_repo: ""
-  license: ""
-  maintained: false
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "sqlite"  # from ase_tool_match
+  npm_weekly_downloads: 4960915  # from ase_npm_downloads
 ---
 
 # SQLite Analyst
 
 AI agent skill for exploring, querying, and analyzing SQLite databases. Supports schema discovery, complex SQL generation, data profiling, and export to CSV or JSON. Ideal for local data analysis workflows.
 
+## Overview
+
+AI agent skill for exploring, querying, and analyzing SQLite databases. Supports schema discovery, complex SQL generation, data profiling, and export to CSV or JSON. Ideal for local data analysis workflows.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill sqlite-analyst
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill sqlite-analyst -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill sqlite-analyst -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install sqlite-analyst
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill sqlite-analyst -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Developer Tools |
-| **Framework** | MCP-compatible |
-| **Verification** | 📋 Listed |
-| **Tool** | sqlite |
+```bash
+clawhub install sqlite-analyst
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/sqlite-analyst/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/sqlite-analyst/

@@ -3,62 +3,68 @@ name: "AWS CloudWatch Insights Agent"
 description: "Runs CloudWatch Logs Insights queries via AWS SDK for JavaScript v3. Analyzes Lambda cold starts, API Gateway latency, and ECS container logs. Generates anomaly detection alarms with math expressions."
 category: "Monitoring & Alerts"
 framework: "ChatGPT Agents"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/aws-cloudwatch-insights-agent/"
-tool_ecosystem:
-  tool: "aws"
-  github_stars: 3594
-  npm_weekly_downloads: 9204385
-  github_repo: "aws/aws-sdk-js-v3"
-  license: "Apache-2.0"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "aws"  # from ase_tool_match
+  github_stars: 3594  # from ase_github_stars (integer, not string)
+  npm_weekly_downloads: 9204385  # from ase_npm_downloads
+  github_repo: "aws/aws-sdk-js-v3"  # from ase_github_repo
+  license: "Apache-2.0"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # AWS CloudWatch Insights Agent
 
 Runs CloudWatch Logs Insights queries via AWS SDK for JavaScript v3. Analyzes Lambda cold starts, API Gateway latency, and ECS container logs. Generates anomaly detection alarms with math expressions.
 
+## Overview
+
+The AWS CloudWatch Insights Agent skill connects Claude to Amazon CloudWatch using the AWS SDK for JavaScript v3 (@aws-sdk/client-cloudwatch-logs). It executes CloudWatch Logs Insights queries to analyze log data across AWS services with SQL-like syntax.
+
+The skill constructs Insights queries for common debugging scenarios: Lambda function cold start analysis (filtering by INIT_START and REPORT lines), API Gateway latency percentile calculations, ECS container log correlation across task IDs, and Step Functions execution tracing. It handles query pagination and asynchronous result polling for long-running queries.
+
+Metric analysis uses the CloudWatch GetMetricData API to retrieve timeseries for custom and AWS-managed metrics. The skill supports math expressions for derived metrics (computing error rates from request counts and error counts) and anomaly detection band configuration for intelligent alerting.
+
+Alarm management includes creating, describing, and modifying CloudWatch alarms with composite alarm support for multi-condition alerting. The skill handles cross-account and cross-region queries for organizations with distributed AWS infrastructure. IAM credential resolution follows the standard AWS credential chain (environment variables, shared credentials file, instance profile). Essential for teams running serverless and containerized workloads on AWS.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill aws-cloudwatch-insights-agent
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill aws-cloudwatch-insights-agent -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill aws-cloudwatch-insights-agent -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install aws-cloudwatch-insights-agent
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill aws-cloudwatch-insights-agent -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Monitoring & Alerts |
-| **Framework** | ChatGPT Agents |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | [aws](https://github.com/aws/aws-sdk-js-v3) — ⭐ 3.6k · Apache-2.0 |
+```bash
+clawhub install aws-cloudwatch-insights-agent
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/aws-cloudwatch-insights-agent/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/aws-cloudwatch-insights-agent/

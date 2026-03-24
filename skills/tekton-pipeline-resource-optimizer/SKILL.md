@@ -3,62 +3,67 @@ name: "Tekton Pipeline Resource Optimizer"
 description: "Analyzes Tekton Pipeline and Task resource definitions using the Tekton Results API. Recommends CPU/memory request adjustments based on historical TaskRun metrics from Prometheus."
 category: "CI/CD Integrations"
 framework: "Cursor"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/tekton-pipeline-resource-optimizer/"
-tool_ecosystem:
-  tool: "tekton"
-  github_stars: 8920
-  npm_weekly_downloads: 0
-  github_repo: "tektoncd/pipeline"
-  license: "Apache-2.0"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "tekton"  # from ase_tool_match
+  github_stars: 8920  # from ase_github_stars (integer, not string)
+  github_repo: "tektoncd/pipeline"  # from ase_github_repo
+  license: "Apache-2.0"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Tekton Pipeline Resource Optimizer
 
 Analyzes Tekton Pipeline and Task resource definitions using the Tekton Results API. Recommends CPU/memory request adjustments based on historical TaskRun metrics from Prometheus.
 
+## Overview
+
+The Tekton Pipeline Resource Optimizer skill analyzes your Tekton CI/CD pipeline configurations to identify resource waste and optimization opportunities. It queries the Tekton Results API to fetch historical TaskRun and PipelineRun execution data, then correlates with Prometheus metrics for actual CPU and memory consumption during builds.
+
+For each Task step, the skill compares declared resource requests/limits against actual usage percentiles (p50, p95, p99) from historical runs. It identifies over-provisioned steps wasting cluster capacity and under-provisioned steps causing OOMKills or CPU throttling. Recommendations include right-sized resource values with configurable headroom percentages.
+
+Pipeline-level analysis examines Task parallelism opportunities, identifying sequential Tasks that could run concurrently based on dependency analysis of workspace, result, and when-expression relationships. It also detects redundant git-clone operations across Tasks and recommends workspace sharing patterns.
+
+The skill validates Tekton resource definitions against the Tekton API specification, checks for deprecated fields across Tekton versions, and ensures compatibility with your installed Tekton Pipelines version. Output includes formatted optimization reports with estimated cost savings, Tekton YAML patches for recommended changes, and Grafana dashboard JSON for ongoing monitoring.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill tekton-pipeline-resource-optimizer
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill tekton-pipeline-resource-optimizer -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill tekton-pipeline-resource-optimizer -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install tekton-pipeline-resource-optimizer
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill tekton-pipeline-resource-optimizer -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | CI/CD Integrations |
-| **Framework** | Cursor |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | [tekton](https://github.com/tektoncd/pipeline) — ⭐ 8.9k · Apache-2.0 |
+```bash
+clawhub install tekton-pipeline-resource-optimizer
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/tekton-pipeline-resource-optimizer/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/tekton-pipeline-resource-optimizer/

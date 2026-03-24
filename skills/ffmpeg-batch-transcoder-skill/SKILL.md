@@ -3,62 +3,67 @@ name: "FFmpeg Batch Transcoder"
 description: "Batch transcode media files using FFmpeg CLI with preset profiles for web, mobile, and broadcast delivery. Supports hardware-accelerated encoding via NVENC/VAAPI and automated quality analysis with VMAF scoring."
 category: "Media & Transcription"
 framework: "Cursor"
-verification: listed
-rating: 0
-reviews: 0
-creator: ""
+verification: listed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/ffmpeg-batch-transcoder-skill/"
-tool_ecosystem:
-  tool: "ffmpeg"
-  github_stars: 58257
-  npm_weekly_downloads: 0
-  github_repo: "FFmpeg/FFmpeg"
-  license: "NOASSERTION"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "ffmpeg"  # from ase_tool_match
+  github_stars: 58257  # from ase_github_stars (integer, not string)
+  github_repo: "FFmpeg/FFmpeg"  # from ase_github_repo
+  license: "NOASSERTION"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # FFmpeg Batch Transcoder
 
 Batch transcode media files using FFmpeg CLI with preset profiles for web, mobile, and broadcast delivery. Supports hardware-accelerated encoding via NVENC/VAAPI and automated quality analysis with VMAF scoring.
 
+## Overview
+
+Automate media transcoding workflows using FFmpeg command-line tools with configurable preset profiles optimized for different delivery targets.
+
+This skill wraps FFmpeg and FFprobe to analyze input media, select appropriate encoding parameters, and batch-process multiple files in parallel. Preset profiles include web-optimized H.264/AAC at various bitrates, mobile-friendly HEVC with adaptive bitrate laddering, and broadcast-spec ProRes/DNxHR for post-production handoff.
+
+Hardware acceleration is supported via NVIDIA NVENC, Intel VAAPI, and Apple VideoToolbox backends, with automatic fallback to software encoding when GPU resources are unavailable. The skill detects available hardware encoders at runtime and selects the optimal pipeline.
+
+Quality validation runs VMAF perceptual scoring against source material to verify encoding quality meets configured thresholds. Failed encodes are automatically retried with adjusted CRF/bitrate parameters. Output includes detailed logs with per-file encoding statistics, compression ratios, and VMAF scores for quality assurance review.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill ffmpeg-batch-transcoder-skill
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill ffmpeg-batch-transcoder-skill -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill ffmpeg-batch-transcoder-skill -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install ffmpeg-batch-transcoder-skill
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill ffmpeg-batch-transcoder-skill -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Media & Transcription |
-| **Framework** | Cursor |
-| **Verification** | 📋 Listed |
-| **Tool** | [ffmpeg](https://github.com/FFmpeg/FFmpeg) — ⭐ 58.3k · NOASSERTION |
+```bash
+clawhub install ffmpeg-batch-transcoder-skill
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/ffmpeg-batch-transcoder-skill/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/ffmpeg-batch-transcoder-skill/

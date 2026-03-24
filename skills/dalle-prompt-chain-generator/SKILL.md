@@ -3,62 +3,66 @@ name: "DALL-E Prompt Chain Generator"
 description: "Generates and iterates DALL-E 3 image prompts using the OpenAI Images API with size, quality, and style parameters. Chains edits via the images/edits endpoint with mask-based inpainting."
 category: "Image & Creative Automation"
 framework: "ChatGPT Agents"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/dalle-prompt-chain-generator/"
-tool_ecosystem:
-  tool: "openai"
-  github_stars: 10761
-  npm_weekly_downloads: 16275389
-  github_repo: "openai/openai-node"
-  license: "Apache-2.0"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "openai"  # from ase_tool_match
+  github_stars: 10761  # from ase_github_stars (integer, not string)
+  npm_weekly_downloads: 16275389  # from ase_npm_downloads
+  github_repo: "openai/openai-node"  # from ase_github_repo
+  license: "Apache-2.0"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # DALL-E Prompt Chain Generator
 
 Generates and iterates DALL-E 3 image prompts using the OpenAI Images API with size, quality, and style parameters. Chains edits via the images/edits endpoint with mask-based inpainting.
 
+## Overview
+
+The DALL-E Prompt Chain Generator orchestrates iterative image creation workflows through the OpenAI Images API. It generates initial images via POST /v1/images/generations with model: “dall-e-3”, configurable size (1024×1024, 1792×1024, 1024×1792), quality (“standard” or “hd”), and style (“vivid” or “natural”) parameters.
+
+The skill implements prompt engineering chains that analyze revised_prompt responses from DALL-E 3 to understand how the model interpreted instructions, then refines subsequent prompts for better alignment with creative intent. It manages image variation workflows through the /v1/images/variations endpoint for exploring creative directions from a base image.
+
+Advanced capabilities include mask-based inpainting via /v1/images/edits with PNG mask images for targeted region modification, automatic prompt expansion using structured templates for consistent brand imagery, and batch generation with response_format: “b64_json” for direct pipeline processing without URL downloads. The generator maintains a prompt history log for reproducible image generation and supports A/B comparison workflows across different style and quality combinations.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill dalle-prompt-chain-generator
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill dalle-prompt-chain-generator -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill dalle-prompt-chain-generator -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install dalle-prompt-chain-generator
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill dalle-prompt-chain-generator -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Image & Creative Automation |
-| **Framework** | ChatGPT Agents |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | [openai](https://github.com/openai/openai-node) — ⭐ 10.8k · Apache-2.0 |
+```bash
+clawhub install dalle-prompt-chain-generator
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/dalle-prompt-chain-generator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/dalle-prompt-chain-generator/

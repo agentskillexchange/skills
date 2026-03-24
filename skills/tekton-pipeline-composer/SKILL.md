@@ -3,62 +3,67 @@ name: "Tekton Pipeline Composer"
 description: "Builds Tekton CI/CD pipelines on Kubernetes using the Tekton Pipelines API and tkn CLI. Composes Tasks, PipelineRuns, and TriggerBindings with proper workspace and result propagation between steps."
 category: "CI/CD Integrations"
 framework: "Gemini"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/tekton-pipeline-composer/"
-tool_ecosystem:
-  tool: "tekton"
-  github_stars: 8920
-  npm_weekly_downloads: 0
-  github_repo: "tektoncd/pipeline"
-  license: "Apache-2.0"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "tekton"  # from ase_tool_match
+  github_stars: 8920  # from ase_github_stars (integer, not string)
+  github_repo: "tektoncd/pipeline"  # from ase_github_repo
+  license: "Apache-2.0"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Tekton Pipeline Composer
 
 Builds Tekton CI/CD pipelines on Kubernetes using the Tekton Pipelines API and tkn CLI. Composes Tasks, PipelineRuns, and TriggerBindings with proper workspace and result propagation between steps.
 
+## Overview
+
+The Tekton Pipeline Composer skill creates and manages cloud-native CI/CD pipelines using the Tekton Pipelines framework on Kubernetes. It generates Task, Pipeline, PipelineRun, and TriggerTemplate custom resource definitions that follow Tekton best practices for workspace sharing and result propagation.
+
+This skill uses the tkn CLI and Kubernetes API to inspect cluster state, list available ClusterTasks, and validate resource definitions before applying them. It understands Tekton workspace types (emptyDir, PVC, ConfigMap, Secret) and ensures proper volume binding across pipeline tasks.
+
+Key features include automatic generation of TriggerBindings and TriggerTemplates for webhook-driven pipelines, EventListener configuration with CEL interceptors for branch filtering, and proper parameterization of pipeline definitions for reuse across environments.
+
+The skill handles complex scenarios like fan-out/fan-in patterns using Tekton’s when expressions, matrix parameters for parallel test execution, and custom task result propagation using $(tasks.taskname.results.resultname) syntax. It also integrates with Tekton Chains for supply chain security attestation.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill tekton-pipeline-composer
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill tekton-pipeline-composer -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill tekton-pipeline-composer -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install tekton-pipeline-composer
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill tekton-pipeline-composer -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | CI/CD Integrations |
-| **Framework** | Gemini |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | [tekton](https://github.com/tektoncd/pipeline) — ⭐ 8.9k · Apache-2.0 |
+```bash
+clawhub install tekton-pipeline-composer
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/tekton-pipeline-composer/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/tekton-pipeline-composer/

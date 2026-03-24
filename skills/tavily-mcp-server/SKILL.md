@@ -3,10 +3,10 @@ name: "Tavily MCP Server"
 description: "Use this skill to perform AI-optimized web searches designed specifically for agent and research workflows through Tavily’s API via MCP. It returns clean, structured search results optimized for LLM consumption with depth control options. Trigger when you need reliable web search results for agent tasks, research pipelines, or when you need search results formatted for […]"
 category: "Research & Scraping"
 framework: "MCP-compatible"
-verification: listed
-rating: 0
-reviews: 0
-creator: ""
+verification: listed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/tavily-mcp-server/"
@@ -16,41 +16,42 @@ source: "https://agentskillexchange.com/skills/tavily-mcp-server/"
 
 Use this skill to perform AI-optimized web searches designed specifically for agent and research workflows through Tavily’s API via MCP. It returns clean, structured search results optimized for LLM consumption with depth control options. Trigger when you need reliable web search results for agent tasks, research pipelines, or when you need search results formatted for […]
 
+## Overview
+
+Use this skill to perform AI-optimized web searches designed specifically for agent and research workflows through Tavily’s API via MCP. It returns clean, structured search results optimized for LLM consumption with depth control options. Trigger when you need reliable web search results for agent tasks, research pipelines, or when you need search results formatted for LLM processing.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill tavily-mcp-server
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill tavily-mcp-server -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill tavily-mcp-server -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install tavily-mcp-server
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill tavily-mcp-server -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Research & Scraping |
-| **Framework** | MCP-compatible |
-| **Verification** | 📋 Listed |
+```bash
+clawhub install tavily-mcp-server
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/tavily-mcp-server/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/tavily-mcp-server/

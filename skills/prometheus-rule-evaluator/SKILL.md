@@ -3,62 +3,62 @@ name: "Prometheus Rule Evaluator"
 description: "Validates and tests Prometheus alerting rules against historical metrics data using the Prometheus HTTP API /api/v1/query_range endpoint. Runs rule simulations with configurable time windows and threshold testing."
 category: "Monitoring & Alerts"
 framework: "Claude Agents"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/prometheus-rule-evaluator/"
-tool_ecosystem:
-  tool: "prometheus"
-  github_stars: 63278
-  npm_weekly_downloads: 5319832
-  github_repo: "prometheus/prometheus"
-  license: "Apache-2.0"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "prometheus"  # from ase_tool_match
+  github_stars: 63278  # from ase_github_stars (integer, not string)
+  npm_weekly_downloads: 5319832  # from ase_npm_downloads
+  github_repo: "prometheus/prometheus"  # from ase_github_repo
+  license: "Apache-2.0"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Prometheus Rule Evaluator
 
 Validates and tests Prometheus alerting rules against historical metrics data using the Prometheus HTTP API /api/v1/query_range endpoint. Runs rule simulations with configurable time windows and threshold testing.
 
+## Overview
+
+The Prometheus Rule Evaluator validates alerting and recording rules before deployment to production Prometheus instances. It parses rule YAML files following the Prometheus rule_group schema and tests each rule expression against historical metrics data via the Prometheus HTTP API /api/v1/query_range endpoint. For each rule, the evaluator runs the PromQL expression across configurable time windows (default: 7 days) to determine historical firing patterns. The skill reports false positive rates, alert frequency, and duration distributions to help tune thresholds before deployment. It supports all PromQL functions including rate(), histogram_quantile(), predict_linear(), and aggregation operators. Test scenarios can be defined in YAML format specifying expected alert states at given timestamps, enabling unit-test-style validation of alerting logic. The evaluator integrates with the Prometheus /api/v1/rules endpoint to compare proposed rules against existing active rules, detecting conflicts and redundancies. Output includes a coverage report showing which metrics are monitored, gaps in monitoring, and recommendations for additional rules based on available metric labels. Compatible with Thanos and Cortex long-term storage backends via their compatible query APIs.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill prometheus-rule-evaluator
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill prometheus-rule-evaluator -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill prometheus-rule-evaluator -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install prometheus-rule-evaluator
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill prometheus-rule-evaluator -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Monitoring & Alerts |
-| **Framework** | Claude Agents |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | [prometheus](https://github.com/prometheus/prometheus) — ⭐ 63.3k · Apache-2.0 |
+```bash
+clawhub install prometheus-rule-evaluator
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-rule-evaluator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/prometheus-rule-evaluator/

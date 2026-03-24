@@ -3,62 +3,58 @@ name: "PostgreSQL MCP Server"
 description: "Agent access to PostgreSQL data and queries through MCP."
 category: "Data Extraction & Transformation"
 framework: "Claude Code"
-verification: listed
-rating: 0
-reviews: 0
-creator: ""
+verification: listed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/postgresql-mcp-server/"
-tool_ecosystem:
-  tool: "postgresql"
-  github_stars: 0
-  npm_weekly_downloads: 21413502
-  github_repo: ""
-  license: ""
-  maintained: false
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "postgresql"  # from ase_tool_match
+  npm_weekly_downloads: 21413502  # from ase_npm_downloads
 ---
 
 # PostgreSQL MCP Server
 
 Agent access to PostgreSQL data and queries through MCP.
 
+## Overview
+
+Lets agents inspect schemas, run queries, and work with PostgreSQL-backed data sources in a structured way.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill postgresql-mcp-server
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill postgresql-mcp-server -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill postgresql-mcp-server -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install postgresql-mcp-server
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill postgresql-mcp-server -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Data Extraction & Transformation |
-| **Framework** | Claude Code |
-| **Verification** | 📋 Listed |
-| **Tool** | postgresql |
+```bash
+clawhub install postgresql-mcp-server
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/postgresql-mcp-server/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/postgresql-mcp-server/

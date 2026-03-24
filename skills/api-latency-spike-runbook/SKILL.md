@@ -3,10 +3,10 @@ name: "API Latency Spike Runbook"
 description: "Runbook for investigating sudden API latency increases. Systematic investigation from load balancer through application code to database queries and external dependencies."
 category: "Runbooks & Diagnostics"
 framework: "Custom Agents"
-verification: listed
-rating: 0
-reviews: 0
-creator: ""
+verification: listed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/api-latency-spike-runbook/"
@@ -16,41 +16,42 @@ source: "https://agentskillexchange.com/skills/api-latency-spike-runbook/"
 
 Runbook for investigating sudden API latency increases. Systematic investigation from load balancer through application code to database queries and external dependencies.
 
+## Overview
+
+Runbook for investigating sudden API latency increases. Systematic investigation from load balancer through application code to database queries and external dependencies.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill api-latency-spike-runbook
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill api-latency-spike-runbook -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill api-latency-spike-runbook -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install api-latency-spike-runbook
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill api-latency-spike-runbook -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Runbooks & Diagnostics |
-| **Framework** | Custom Agents |
-| **Verification** | 📋 Listed |
+```bash
+clawhub install api-latency-spike-runbook
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/api-latency-spike-runbook/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/api-latency-spike-runbook/

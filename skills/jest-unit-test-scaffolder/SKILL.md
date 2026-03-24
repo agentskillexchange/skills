@@ -3,62 +3,58 @@ name: "Jest Unit Test Scaffolder"
 description: "Generate Jest unit test files, mock factories, and test utilities from existing TypeScript or JavaScript source files through an AI agent. Supports snapshot testing setup, module mocking patterns, and coverage threshold configuration."
 category: "Code Quality & Review"
 framework: "Custom Agents"
-verification: listed
-rating: 0
-reviews: 0
-creator: ""
+verification: listed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/jest-unit-test-scaffolder/"
-tool_ecosystem:
-  tool: "jest"
-  github_stars: 0
-  npm_weekly_downloads: 45503384
-  github_repo: ""
-  license: ""
-  maintained: false
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "jest"  # from ase_tool_match
+  npm_weekly_downloads: 45503384  # from ase_npm_downloads
 ---
 
 # Jest Unit Test Scaffolder
 
 Generate Jest unit test files, mock factories, and test utilities from existing TypeScript or JavaScript source files through an AI agent. Supports snapshot testing setup, module mocking patterns, and coverage threshold configuration.
 
+## Overview
+
+Generate Jest unit test files, mock factories, and test utilities from existing TypeScript or JavaScript source files through an AI agent. Supports snapshot testing setup, module mocking patterns, and coverage threshold configuration.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill jest-unit-test-scaffolder
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill jest-unit-test-scaffolder -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill jest-unit-test-scaffolder -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install jest-unit-test-scaffolder
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill jest-unit-test-scaffolder -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Code Quality & Review |
-| **Framework** | Custom Agents |
-| **Verification** | 📋 Listed |
-| **Tool** | jest |
+```bash
+clawhub install jest-unit-test-scaffolder
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/jest-unit-test-scaffolder/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/jest-unit-test-scaffolder/

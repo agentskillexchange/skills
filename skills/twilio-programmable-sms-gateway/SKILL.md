@@ -3,62 +3,64 @@ name: "Twilio Programmable SMS Gateway"
 description: "Sends and receives SMS/MMS messages via Twilio REST API with webhook handler generation. Supports message scheduling, delivery status callbacks, and Twilio Verify for OTP flows."
 category: "Integrations & Connectors"
 framework: "OpenClaw"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/twilio-programmable-sms-gateway/"
-tool_ecosystem:
-  tool: "twilio"
-  github_stars: 1523
-  npm_weekly_downloads: 3810383
-  github_repo: "twilio/twilio-node"
-  license: "MIT"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "twilio"  # from ase_tool_match
+  github_stars: 1523  # from ase_github_stars (integer, not string)
+  npm_weekly_downloads: 3810383  # from ase_npm_downloads
+  github_repo: "twilio/twilio-node"  # from ase_github_repo
+  license: "MIT"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Twilio Programmable SMS Gateway
 
 Sends and receives SMS/MMS messages via Twilio REST API with webhook handler generation. Supports message scheduling, delivery status callbacks, and Twilio Verify for OTP flows.
 
+## Overview
+
+Sends and receives SMS/MMS messages via Twilio REST API with webhook handler generation. Supports message scheduling, delivery status callbacks, and Twilio Verify for OTP flows.
+
+This skill automates twilio programmable sms gateway operations for agent-driven workflows. It wraps the underlying API client libraries with sensible defaults for authentication, error handling, and pagination. Configuration is managed through environment variables and a local settings file, keeping credentials out of your codebase. The agent validates inputs against the provider’s API schema before making requests, catching configuration errors early. Includes retry logic with exponential backoff for transient failures and structured logging for audit trails. Works in both synchronous command mode and event-driven webhook mode for real-time integrations.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill twilio-programmable-sms-gateway
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill twilio-programmable-sms-gateway -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill twilio-programmable-sms-gateway -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install twilio-programmable-sms-gateway
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill twilio-programmable-sms-gateway -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Integrations & Connectors |
-| **Framework** | OpenClaw |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | [twilio](https://github.com/twilio/twilio-node) — ⭐ 1.5k · MIT |
+```bash
+clawhub install twilio-programmable-sms-gateway
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/twilio-programmable-sms-gateway/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/twilio-programmable-sms-gateway/

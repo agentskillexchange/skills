@@ -3,62 +3,67 @@ name: "Semgrep Rule Runner"
 description: "Executes Semgrep static analysis using the semgrep CLI with custom YAML rule packs. Supports –config auto for community rules, parses JSON output via –json flag, and integrates with Semgrep App API for centralized findings management and triage workflows."
 category: "Code Quality & Review"
 framework: "Gemini"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/semgrep-rule-runner/"
-tool_ecosystem:
-  tool: "semgrep"
-  github_stars: 14543
-  npm_weekly_downloads: 0
-  github_repo: "semgrep/semgrep"
-  license: "LGPL-2.1"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "semgrep"  # from ase_tool_match
+  github_stars: 14543  # from ase_github_stars (integer, not string)
+  github_repo: "semgrep/semgrep"  # from ase_github_repo
+  license: "LGPL-2.1"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Semgrep Rule Runner
 
 Executes Semgrep static analysis using the semgrep CLI with custom YAML rule packs. Supports –config auto for community rules, parses JSON output via –json flag, and integrates with Semgrep App API for centralized findings management and triage workflows.
 
+## Overview
+
+The Semgrep Rule Runner provides advanced static analysis capabilities using the Semgrep open-source engine. It supports both local rule definitions in YAML format and the Semgrep Registry for community-maintained rule packs covering OWASP Top 10, CWE categories, and framework-specific patterns.
+
+The skill invokes the semgrep CLI with configurable options including –config for rule selection, –json for structured output parsing, –severity for filtering, and –exclude for path ignoring. It supports multi-language scanning across Python, JavaScript, TypeScript, Go, Java, Ruby, and Kotlin in a single pass.
+
+Results are parsed from the JSON output format, extracting match locations, severity levels, fix suggestions, and metadata references. The agent can automatically apply Semgrep autofix suggestions where available and generate suppression comments (# nosemgrep) with justification tracking.
+
+For team workflows, the skill integrates with the Semgrep App API to upload findings, manage triage states (open/ignored/fixed), track false positive rates, and enforce policy-as-code rules that block PRs containing critical findings. It also supports custom rule authoring with pattern-either, metavariable-comparison, and taint-mode tracking.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill semgrep-rule-runner
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill semgrep-rule-runner -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill semgrep-rule-runner -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install semgrep-rule-runner
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill semgrep-rule-runner -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Code Quality & Review |
-| **Framework** | Gemini |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | [semgrep](https://github.com/semgrep/semgrep) — ⭐ 14.5k · LGPL-2.1 |
+```bash
+clawhub install semgrep-rule-runner
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/semgrep-rule-runner/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/semgrep-rule-runner/

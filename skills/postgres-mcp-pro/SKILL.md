@@ -3,62 +3,79 @@ name: "Postgres MCP Pro"
 description: "Query, analyze, and tune PostgreSQL databases through your AI agent with safe access controls. Beyond basic SQL execution, it provides index tuning recommendations, query plan analysis, database health monitoring, and schema intelligence."
 category: "Data Extraction & Transformation"
 framework: "MCP-compatible"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/postgres-mcp-pro/"
-tool_ecosystem:
-  tool: "docker"
-  github_stars: 71560
-  npm_weekly_downloads: 0
-  github_repo: "moby/moby"
-  license: "Apache-2.0"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "docker"  # from ase_tool_match
+  github_stars: 71560  # from ase_github_stars (integer, not string)
+  github_repo: "moby/moby"  # from ase_github_repo
+  license: "Apache-2.0"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Postgres MCP Pro
 
 Query, analyze, and tune PostgreSQL databases through your AI agent with safe access controls. Beyond basic SQL execution, it provides index tuning recommendations, query plan analysis, database health monitoring, and schema intelligence.
 
+## Overview
+
+Postgres MCP Pro is an open-source MCP server by Crystal DBA that goes beyond wrapping a database connection. It provides deep database intelligence including index tuning, EXPLAIN plan analysis, health diagnostics, and configurable access controls.
+Best for
+
+- Running queries with configurable read-only or full-access modes
+
+- Diagnosing database performance problems with EXPLAIN plan analysis
+
+- Getting industrial-strength index tuning recommendations
+
+- Monitoring database health: connection utilization, buffer cache, vacuum health, replication lag
+
+Access modes
+
+Three modes: `read-only` (safe for production monitoring), `restricted` (allows writes with SQL parsing), and `unrestricted` (full access for development).
+Install notes
+
+Pull the Docker image: `docker pull crystaldba/postgres-mcp`. Or install via pip: `pipx install postgres-mcp`. Configure in your MCP client with your database URI and desired access mode. Supports both stdio and SSE transports.
+
+Source: github.com/crystaldba/postgres-mcp
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill postgres-mcp-pro
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill postgres-mcp-pro -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill postgres-mcp-pro -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install postgres-mcp-pro
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill postgres-mcp-pro -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Data Extraction & Transformation |
-| **Framework** | MCP-compatible |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | [docker](https://github.com/moby/moby) — ⭐ 71.6k · Apache-2.0 |
+```bash
+clawhub install postgres-mcp-pro
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/postgres-mcp-pro/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/postgres-mcp-pro/

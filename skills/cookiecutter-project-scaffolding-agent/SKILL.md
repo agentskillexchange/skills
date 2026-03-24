@@ -3,62 +3,65 @@ name: "Cookiecutter Project Scaffolding Agent"
 description: "Generates project boilerplate from Cookiecutter templates with interactive variable prompts. Supports custom Jinja2 hooks, post-generation scripts, and template composition from multiple cookiecutter.json sources for complex monorepo scaffolding."
 category: "Templates & Workflows"
 framework: "ChatGPT Agents"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/cookiecutter-project-scaffolding-agent/"
-tool_ecosystem:
-  tool: "docker"
-  github_stars: 71560
-  npm_weekly_downloads: 0
-  github_repo: "moby/moby"
-  license: "Apache-2.0"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "docker"  # from ase_tool_match
+  github_stars: 71560  # from ase_github_stars (integer, not string)
+  github_repo: "moby/moby"  # from ase_github_repo
+  license: "Apache-2.0"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Cookiecutter Project Scaffolding Agent
 
 Generates project boilerplate from Cookiecutter templates with interactive variable prompts. Supports custom Jinja2 hooks, post-generation scripts, and template composition from multiple cookiecutter.json sources for complex monorepo scaffolding.
 
+## Overview
+
+The Cookiecutter Project Scaffolding Agent automates new project creation using the Cookiecutter templating system. It manages a curated library of project templates for various technology stacks including FastAPI backends, React frontends, Terraform modules, and Python packages conforming to PyPA standards.
+
+Template customization flows through cookiecutter.json variable definitions with validation rules, conditional file inclusion, and computed defaults based on prior selections. Pre and post-generation hooks execute setup tasks like git initialization, virtual environment creation, dependency installation via pip or npm, and initial commit generation.
+
+Advanced features include template composition where multiple Cookiecutter templates merge into unified project structures for monorepo setups. The agent supports private template repositories via Git SSH authentication and template version pinning through Git tags. Generated projects include pre-configured CI pipelines for GitHub Actions or GitLab CI, Docker configurations, pre-commit hook setups with black/ruff/mypy, and documentation scaffolding with MkDocs Material theme. Template updates can be replayed onto existing projects using cruft for downstream synchronization.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill cookiecutter-project-scaffolding-agent
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill cookiecutter-project-scaffolding-agent -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill cookiecutter-project-scaffolding-agent -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install cookiecutter-project-scaffolding-agent
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill cookiecutter-project-scaffolding-agent -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Templates & Workflows |
-| **Framework** | ChatGPT Agents |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | [docker](https://github.com/moby/moby) — ⭐ 71.6k · Apache-2.0 |
+```bash
+clawhub install cookiecutter-project-scaffolding-agent
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/cookiecutter-project-scaffolding-agent/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/cookiecutter-project-scaffolding-agent/

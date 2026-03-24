@@ -3,10 +3,10 @@ name: "Frontend Design Guidance Skill"
 description: "Practical frontend design guidance for landing pages, dashboards, and UI implementation work."
 category: "Developer Tools"
 framework: "OpenClaw"
-verification: listed
-rating: 0
-reviews: 0
-creator: ""
+verification: listed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/frontend-design-guidance-skill/"
@@ -16,41 +16,55 @@ source: "https://agentskillexchange.com/skills/frontend-design-guidance-skill/"
 
 Practical frontend design guidance for landing pages, dashboards, and UI implementation work.
 
+## Overview
+
+Frontend Design Guidance Skill helps teams plan and refine interface work with more structure before implementation starts. It is aimed at builders working on dashboards, landing pages, and product UI who want practical direction on layout, hierarchy, spacing, typography, and implementation-ready design choices.
+Best for
+
+- planning UI layouts and page structure before coding
+
+- reviewing design direction for dashboards and landing pages
+
+- adding stronger frontend implementation guidance to build workflows
+
+Install notes
+
+Install the skill in an OpenClaw workspace and use it during frontend planning or review. It works best when paired with an existing project or prototype context where design suggestions can be applied directly.
+
+Source: SuperDesign-inspired frontend guidance skill.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill frontend-design-guidance-skill
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill frontend-design-guidance-skill -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill frontend-design-guidance-skill -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install frontend-design-guidance-skill
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill frontend-design-guidance-skill -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Developer Tools |
-| **Framework** | OpenClaw |
-| **Verification** | 📋 Listed |
+```bash
+clawhub install frontend-design-guidance-skill
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/frontend-design-guidance-skill/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/frontend-design-guidance-skill/

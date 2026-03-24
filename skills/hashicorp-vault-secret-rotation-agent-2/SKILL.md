@@ -3,62 +3,77 @@ name: "HashiCorp Vault Secret Rotation Agent"
 description: "Connects to HashiCorp Vault HTTP API for automated secret rotation workflows. Manages dynamic database credentials via Vault database secrets engine, handles PKI certificate renewal, and implements lease lifecycle management with TTL monitoring."
 category: "Security & Verification"
 framework: "MCP-compatible"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/hashicorp-vault-secret-rotation-agent-2/"
-tool_ecosystem:
-  tool: "vault"
-  github_stars: 35266
-  npm_weekly_downloads: 0
-  github_repo: "hashicorp/vault"
-  license: "NOASSERTION"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "vault"  # from ase_tool_match
+  github_stars: 35266  # from ase_github_stars (integer, not string)
+  github_repo: "hashicorp/vault"  # from ase_github_repo
+  license: "NOASSERTION"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # HashiCorp Vault Secret Rotation Agent
 
 Connects to HashiCorp Vault HTTP API for automated secret rotation workflows. Manages dynamic database credentials via Vault database secrets engine, handles PKI certificate renewal, and implements lease lifecycle management with TTL monitoring.
 
+## Overview
+
+Connects to HashiCorp Vault HTTP API for automated secret rotation workflows. Manages dynamic database credentials via Vault database secrets engine, handles PKI certificate renewal, and implements lease lifecycle management with TTL monitoring.
+Overview
+
+This skill provides automated integration capabilities designed for production agent workflows. It handles authentication, rate limiting, and error recovery out of the box, allowing agents to focus on high-level task orchestration rather than low-level API management.
+Key Features
+
+- Automatic retry logic with exponential backoff for API rate limits
+
+- Structured output formatting compatible with downstream agent pipelines
+
+- Comprehensive error handling with actionable diagnostic messages
+
+- Configurable caching layer to reduce redundant API calls
+
+Usage
+
+Install via the Agent Skill Exchange registry and configure with your API credentials. The skill exposes a standardized interface that works across supported agent frameworks, with framework-specific optimizations applied automatically during initialization.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill hashicorp-vault-secret-rotation-agent-2
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill hashicorp-vault-secret-rotation-agent-2 -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill hashicorp-vault-secret-rotation-agent-2 -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install hashicorp-vault-secret-rotation-agent-2
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill hashicorp-vault-secret-rotation-agent-2 -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Security & Verification |
-| **Framework** | MCP-compatible |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | [vault](https://github.com/hashicorp/vault) — ⭐ 35.3k · NOASSERTION |
+```bash
+clawhub install hashicorp-vault-secret-rotation-agent-2
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/hashicorp-vault-secret-rotation-agent-2/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/hashicorp-vault-secret-rotation-agent-2/

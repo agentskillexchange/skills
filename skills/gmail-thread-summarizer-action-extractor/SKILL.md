@@ -3,10 +3,10 @@ name: "Gmail Thread Summarizer and Action Extractor"
 description: "Fetches Gmail threads via the Gmail API (users.threads.get), extracts full message content, and produces a structured summary with action items, decisions, and follow-ups. Uses MIME part decoding for multi-part HTML/plain text emails and handles forwarded thread chains."
 category: "Calendar, Email & Productivity"
 framework: "OpenClaw"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/gmail-thread-summarizer-action-extractor/"
@@ -16,41 +16,46 @@ source: "https://agentskillexchange.com/skills/gmail-thread-summarizer-action-ex
 
 Fetches Gmail threads via the Gmail API (users.threads.get), extracts full message content, and produces a structured summary with action items, decisions, and follow-ups. Uses MIME part decoding for multi-part HTML/plain text emails and handles forwarded thread chains.
 
+## Overview
+
+Fetches Gmail threads via the Gmail API (users.threads.get), extracts full message content, and produces a structured summary with action items, decisions, and follow-ups. Uses MIME part decoding for multi-part HTML/plain text emails and handles forwarded thread chains.
+
+This skill authenticates with the Gmail API using OAuth2, fetches a thread by ID or search query (users.messages.list with q parameter), decodes base64url-encoded message parts, strips HTML to plain text, and runs summarization with action item extraction. Outputs structured JSON with: summary, action_items array (owner, deadline, description), decisions array, and key_contacts.
+
+Use for inbox zero workflows, meeting prep, CRM note generation, and async team communication summaries. Not for real-time email triage at high volume — rate limit is 250 quota units/second. Not for emails with encrypted attachments. Requires Gmail API OAuth credentials with gmail.readonly scope. Handles threads up to 100 messages; very long threads may need chunking.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill gmail-thread-summarizer-action-extractor
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill gmail-thread-summarizer-action-extractor -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill gmail-thread-summarizer-action-extractor -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install gmail-thread-summarizer-action-extractor
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill gmail-thread-summarizer-action-extractor -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Calendar, Email & Productivity |
-| **Framework** | OpenClaw |
-| **Verification** | 🛡️ Security Reviewed |
+```bash
+clawhub install gmail-thread-summarizer-action-extractor
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/gmail-thread-summarizer-action-extractor/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/gmail-thread-summarizer-action-extractor/

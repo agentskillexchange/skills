@@ -3,62 +3,66 @@ name: "Prometheus AlertManager Router"
 description: "Configures and manages Prometheus AlertManager routing trees and silences via the AlertManager HTTP API. Supports PagerDuty, OpsGenie, and Slack receiver configuration with inhibition rules."
 category: "Monitoring & Alerts"
 framework: "Cursor"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/prometheus-alertmanager-router/"
-tool_ecosystem:
-  tool: "prometheus"
-  github_stars: 63278
-  npm_weekly_downloads: 5319832
-  github_repo: "prometheus/prometheus"
-  license: "Apache-2.0"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "prometheus"  # from ase_tool_match
+  github_stars: 63278  # from ase_github_stars (integer, not string)
+  npm_weekly_downloads: 5319832  # from ase_npm_downloads
+  github_repo: "prometheus/prometheus"  # from ase_github_repo
+  license: "Apache-2.0"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Prometheus AlertManager Router
 
 Configures and manages Prometheus AlertManager routing trees and silences via the AlertManager HTTP API. Supports PagerDuty, OpsGenie, and Slack receiver configuration with inhibition rules.
 
+## Overview
+
+The Prometheus AlertManager Router skill provides intelligent alert routing and management through the AlertManager HTTP API. It enables agents to programmatically create, modify, and debug complex routing trees that determine how alerts flow from Prometheus to notification receivers like PagerDuty, OpsGenie, Slack, and email.
+
+Key features include routing tree visualization and validation before applying changes, automatic silence creation during maintenance windows with scheduled expiry, and inhibition rule management to suppress dependent alerts when root-cause alerts are already firing. The skill can analyze alert group patterns to suggest routing optimizations.
+
+It supports match and match_re label-based routing, continue flags for multi-receiver fan-out, group_by/group_wait/group_interval tuning for alert batching, and receiver template customization using Go template syntax. Integration with Prometheus’s /api/v1/rules endpoint enables correlation between recording rules, alerting rules, and their AlertManager routing destinations for end-to-end observability pipeline verification.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill prometheus-alertmanager-router
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill prometheus-alertmanager-router -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill prometheus-alertmanager-router -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install prometheus-alertmanager-router
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill prometheus-alertmanager-router -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Monitoring & Alerts |
-| **Framework** | Cursor |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | [prometheus](https://github.com/prometheus/prometheus) — ⭐ 63.3k · Apache-2.0 |
+```bash
+clawhub install prometheus-alertmanager-router
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-alertmanager-router/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/prometheus-alertmanager-router/

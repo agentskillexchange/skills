@@ -3,62 +3,58 @@ name: "Vercel Deployment Agent"
 description: "Manage Vercel deployments, environment variables, and domain configurations through an AI agent using the Vercel CLI and REST API. Supports preview deployment promotion, edge config management, and deployment webhook configuration."
 category: "Templates & Workflows"
 framework: "Custom Agents"
-verification: listed
-rating: 0
-reviews: 0
-creator: ""
+verification: listed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/vercel-deployment-agent/"
-tool_ecosystem:
-  tool: "vercel"
-  github_stars: 0
-  npm_weekly_downloads: 2073585
-  github_repo: ""
-  license: ""
-  maintained: false
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "vercel"  # from ase_tool_match
+  npm_weekly_downloads: 2073585  # from ase_npm_downloads
 ---
 
 # Vercel Deployment Agent
 
 Manage Vercel deployments, environment variables, and domain configurations through an AI agent using the Vercel CLI and REST API. Supports preview deployment promotion, edge config management, and deployment webhook configuration.
 
+## Overview
+
+Manage Vercel deployments, environment variables, and domain configurations through an AI agent using the Vercel CLI and REST API. Supports preview deployment promotion, edge config management, and deployment webhook configuration.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill vercel-deployment-agent
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill vercel-deployment-agent -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill vercel-deployment-agent -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install vercel-deployment-agent
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill vercel-deployment-agent -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Templates & Workflows |
-| **Framework** | Custom Agents |
-| **Verification** | 📋 Listed |
-| **Tool** | vercel |
+```bash
+clawhub install vercel-deployment-agent
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/vercel-deployment-agent/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/vercel-deployment-agent/

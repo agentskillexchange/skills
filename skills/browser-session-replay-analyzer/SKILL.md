@@ -3,62 +3,62 @@ name: "Browser Session Replay Analyzer"
 description: "Records and replays browser sessions using rrweb recording library with DOM mutation serialization. Integrates with LogRocket API and FullStory Data Export API for session analytics."
 category: "Browser Automation"
 framework: "Custom Agents"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/browser-session-replay-analyzer/"
-tool_ecosystem:
-  tool: "puppeteer"
-  github_stars: 93912
-  npm_weekly_downloads: 8696130
-  github_repo: "puppeteer/puppeteer"
-  license: "Apache-2.0"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "puppeteer"  # from ase_tool_match
+  github_stars: 93912  # from ase_github_stars (integer, not string)
+  npm_weekly_downloads: 8696130  # from ase_npm_downloads
+  github_repo: "puppeteer/puppeteer"  # from ase_github_repo
+  license: "Apache-2.0"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Browser Session Replay Analyzer
 
 Records and replays browser sessions using rrweb recording library with DOM mutation serialization. Integrates with LogRocket API and FullStory Data Export API for session analytics.
 
+## Overview
+
+The Browser Session Replay Analyzer captures and analyzes user browser sessions for UX research and debugging. It uses the rrweb library to record DOM mutations, mouse movements, scroll positions, and network requests as a serialized event stream with minimal performance overhead. Recorded sessions are compressed using lz-string and stored with metadata tags for filtering. The skill integrates with LogRocket’s REST API to pull session recordings filtered by user segments, error occurrences, and conversion funnels. FullStory Data Export API integration enables bulk session analysis with custom event tracking. Replay analysis uses automated heuristic detection for rage clicks (3+ clicks within 500ms on same element), dead clicks on non-interactive elements, and excessive scrolling patterns indicating content findability issues. The skill generates UX insight reports with heatmap overlays using canvas-based rendering. Session segments can be exported as MP4 video files using puppeteer-screen-recorder for stakeholder presentations. Integration with Jira API automatically creates UX bug tickets from detected interaction anomalies.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill browser-session-replay-analyzer
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill browser-session-replay-analyzer -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill browser-session-replay-analyzer -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install browser-session-replay-analyzer
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill browser-session-replay-analyzer -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Browser Automation |
-| **Framework** | Custom Agents |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | [puppeteer](https://github.com/puppeteer/puppeteer) — ⭐ 93.9k · Apache-2.0 |
+```bash
+clawhub install browser-session-replay-analyzer
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/browser-session-replay-analyzer/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/browser-session-replay-analyzer/

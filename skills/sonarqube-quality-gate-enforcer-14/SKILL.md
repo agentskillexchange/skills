@@ -3,62 +3,61 @@ name: "SonarQube Quality Gate Enforcer"
 description: "Enforces SonarQube quality gates in pull request workflows using the SonarQube Web API and ce/task endpoint. Blocks merges when code coverage drops, duplications exceed thresholds, or security hotspots are unreviewed."
 category: "Code Quality & Review"
 framework: "MCP-compatible"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/sonarqube-quality-gate-enforcer-14/"
-tool_ecosystem:
-  tool: "sonarqube"
-  github_stars: 10357
-  npm_weekly_downloads: 0
-  github_repo: "SonarSource/sonarqube"
-  license: "LGPL-3.0"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "sonarqube"  # from ase_tool_match
+  github_stars: 10357  # from ase_github_stars (integer, not string)
+  github_repo: "SonarSource/sonarqube"  # from ase_github_repo
+  license: "LGPL-3.0"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # SonarQube Quality Gate Enforcer
 
 Enforces SonarQube quality gates in pull request workflows using the SonarQube Web API and ce/task endpoint. Blocks merges when code coverage drops, duplications exceed thresholds, or security hotspots are unreviewed.
 
+## Overview
+
+The SonarQube Quality Gate Enforcer skill integrates SonarQube quality gate enforcement into pull request workflows. It queries the SonarQube Web API measures/component endpoint to fetch real-time quality metrics including code coverage, duplicated lines percentage, cognitive complexity, and security hotspot counts. The skill monitors the ce/task endpoint for analysis completion and evaluates results against configurable quality gate profiles. When violations are detected, it posts detailed PR comments breaking down each failed condition with specific file-level metrics and remediation guidance. Supports multi-language projects with per-language threshold overrides. Can enforce differential quality gates that apply stricter standards to new code versus legacy code. Integrates with GitHub Check Runs API to create blocking status checks. Generates trend reports showing quality metric trajectories across releases. Works with SonarQube Community, Developer, and Enterprise editions.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-enforcer-14
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-enforcer-14 -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-enforcer-14 -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install sonarqube-quality-gate-enforcer-14
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-enforcer-14 -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Code Quality & Review |
-| **Framework** | MCP-compatible |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | [sonarqube](https://github.com/SonarSource/sonarqube) — ⭐ 10.4k · LGPL-3.0 |
+```bash
+clawhub install sonarqube-quality-gate-enforcer-14
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/sonarqube-quality-gate-enforcer-14/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/sonarqube-quality-gate-enforcer-14/

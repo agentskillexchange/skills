@@ -3,62 +3,65 @@ name: "Ansible Runbook Executor"
 description: "Executes Ansible playbooks for server diagnostics and remediation using ansible-runner Python SDK. Supports inventory parsing, vault-encrypted credentials, and real-time task output streaming."
 category: "Runbooks & Diagnostics"
 framework: "Claude Code"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/ansible-runbook-executor/"
-tool_ecosystem:
-  tool: "ansible"
-  github_stars: 68365
-  npm_weekly_downloads: 0
-  github_repo: "ansible/ansible"
-  license: "GPL-3.0"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "ansible"  # from ase_tool_match
+  github_stars: 68365  # from ase_github_stars (integer, not string)
+  github_repo: "ansible/ansible"  # from ase_github_repo
+  license: "GPL-3.0"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Ansible Runbook Executor
 
 Executes Ansible playbooks for server diagnostics and remediation using ansible-runner Python SDK. Supports inventory parsing, vault-encrypted credentials, and real-time task output streaming.
 
+## Overview
+
+The Ansible Runbook Executor agent leverages the ansible-runner Python SDK to execute diagnostic and remediation playbooks on remote infrastructure. It parses YAML-based inventory files, resolves host groups, and manages vault-encrypted secrets for secure credential handling during execution.
+
+Designed for incident response, the agent can run pre-defined runbooks for common scenarios: disk space cleanup, service restarts, log collection, certificate rotation, and DNS resolution checks. Each playbook execution produces structured JSON output with per-host task results, return codes, and stdout/stderr capture.
+
+The agent streams real-time task output via ansible-runner event handlers, enabling live progress tracking during long-running operations. It supports check mode (dry-run) for validation before applying changes, and integrates with Ansible Galaxy for pulling community roles. Tags and limits can be applied dynamically to scope execution to specific hosts or task subsets.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill ansible-runbook-executor
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill ansible-runbook-executor -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill ansible-runbook-executor -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install ansible-runbook-executor
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill ansible-runbook-executor -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Runbooks & Diagnostics |
-| **Framework** | Claude Code |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | [ansible](https://github.com/ansible/ansible) — ⭐ 68.4k · GPL-3.0 |
+```bash
+clawhub install ansible-runbook-executor
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/ansible-runbook-executor/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/ansible-runbook-executor/

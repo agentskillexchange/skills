@@ -3,62 +3,65 @@ name: "SonarQube Quality Gate Monitor"
 description: "Monitors SonarQube project quality gates via the Web API and blocks CI deployments when thresholds fail. Tracks technical debt trends across releases."
 category: "Code Quality & Review"
 framework: "OpenClaw"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/sonarqube-quality-gate-monitor-3/"
-tool_ecosystem:
-  tool: "sonarqube"
-  github_stars: 10357
-  npm_weekly_downloads: 0
-  github_repo: "SonarSource/sonarqube"
-  license: "LGPL-3.0"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "sonarqube"  # from ase_tool_match
+  github_stars: 10357  # from ase_github_stars (integer, not string)
+  github_repo: "SonarSource/sonarqube"  # from ase_github_repo
+  license: "LGPL-3.0"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # SonarQube Quality Gate Monitor
 
 Monitors SonarQube project quality gates via the Web API and blocks CI deployments when thresholds fail. Tracks technical debt trends across releases.
 
+## Overview
+
+The SonarQube Quality Gate Monitor skill integrates with the SonarQube Web API to enforce code quality standards in CI/CD pipelines. It polls analysis task status via api/ce/task and evaluates quality gate conditions through api/qualitygates/project_status endpoints.
+
+The monitor checks all quality gate conditions including coverage percentage, duplicated lines density, reliability rating, security hotspots reviewed, and maintainability rating. When any condition fails, it generates detailed failure reports with specific metrics, threshold values, and links to the SonarQube dashboard for drill-down investigation.
+
+Technical debt tracking uses the api/measures/search_history endpoint to build trend charts across releases, identifying modules with growing debt and files with the highest remediation cost. Integration with GitHub status checks and GitLab merge request approvals blocks deployment pipelines when quality gates fail. Webhook support enables real-time notifications to Slack and Teams channels with formatted analysis summaries including new issues by severity and hotspot counts.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-monitor-3
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-monitor-3 -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-monitor-3 -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install sonarqube-quality-gate-monitor-3
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-monitor-3 -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Code Quality & Review |
-| **Framework** | OpenClaw |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | [sonarqube](https://github.com/SonarSource/sonarqube) — ⭐ 10.4k · LGPL-3.0 |
+```bash
+clawhub install sonarqube-quality-gate-monitor-3
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/sonarqube-quality-gate-monitor-3/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/sonarqube-quality-gate-monitor-3/

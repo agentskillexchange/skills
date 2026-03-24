@@ -3,62 +3,65 @@ name: "Kubernetes Pod Crash Analyzer"
 description: "Investigates CrashLoopBackOff and OOMKilled pod failures using kubectl and the Kubernetes API. Correlates container logs, event streams, and resource metrics from metrics-server to diagnose root causes automatically."
 category: "Runbooks & Diagnostics"
 framework: "Gemini"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/kubernetes-pod-crash-analyzer-3/"
-tool_ecosystem:
-  tool: "kubernetes"
-  github_stars: 121313
-  npm_weekly_downloads: 0
-  github_repo: "kubernetes/kubernetes"
-  license: "Apache-2.0"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "kubernetes"  # from ase_tool_match
+  github_stars: 121313  # from ase_github_stars (integer, not string)
+  github_repo: "kubernetes/kubernetes"  # from ase_github_repo
+  license: "Apache-2.0"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Kubernetes Pod Crash Analyzer
 
 Investigates CrashLoopBackOff and OOMKilled pod failures using kubectl and the Kubernetes API. Correlates container logs, event streams, and resource metrics from metrics-server to diagnose root causes automatically.
 
+## Overview
+
+The Kubernetes Pod Crash Analyzer skill automates the diagnosis of pod failures in Kubernetes clusters. It uses the Kubernetes API (via kubectl or direct REST calls) to gather pod status, container states, event streams, and resource utilization data from metrics-server to build a comprehensive failure timeline.
+
+For CrashLoopBackOff scenarios, the skill retrieves logs from previous container instances using the –previous flag, analyzes exit codes against known signal mappings (SIGKILL=137, SIGSEGV=139), and checks liveness/readiness probe configurations for timing issues. For OOMKilled events, it correlates memory limits from pod specs with actual consumption patterns from metrics-server.
+
+The skill also inspects init container failures, volume mount permission issues via SecurityContext analysis, and network policy conflicts using Calico or Cilium CRDs. It can trace image pull failures through container runtime logs and validate imagePullSecrets against configured registry credentials. Output includes a structured diagnosis report with specific remediation steps and kubectl commands for applying fixes.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill kubernetes-pod-crash-analyzer-3
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill kubernetes-pod-crash-analyzer-3 -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill kubernetes-pod-crash-analyzer-3 -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install kubernetes-pod-crash-analyzer-3
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill kubernetes-pod-crash-analyzer-3 -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Runbooks & Diagnostics |
-| **Framework** | Gemini |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | [kubernetes](https://github.com/kubernetes/kubernetes) — ⭐ 121.3k · Apache-2.0 |
+```bash
+clawhub install kubernetes-pod-crash-analyzer-3
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-pod-crash-analyzer-3/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/kubernetes-pod-crash-analyzer-3/

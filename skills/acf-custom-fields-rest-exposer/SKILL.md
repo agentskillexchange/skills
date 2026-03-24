@@ -3,62 +3,61 @@ name: "ACF Custom Fields REST Exposer"
 description: "Exposes Advanced Custom Fields data through the WordPress REST API using register_rest_field and acf_format_value. Handles repeater fields, flexible content layouts, and gallery fields with proper serialization."
 category: "WordPress & CMS"
 framework: "Cursor"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/acf-custom-fields-rest-exposer/"
-tool_ecosystem:
-  tool: "wordpress"
-  github_stars: 20973
-  npm_weekly_downloads: 0
-  github_repo: "WordPress/WordPress"
-  license: "NOASSERTION"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "wordpress"  # from ase_tool_match
+  github_stars: 20973  # from ase_github_stars (integer, not string)
+  github_repo: "WordPress/WordPress"  # from ase_github_repo
+  license: "NOASSERTION"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # ACF Custom Fields REST Exposer
 
 Exposes Advanced Custom Fields data through the WordPress REST API using register_rest_field and acf_format_value. Handles repeater fields, flexible content layouts, and gallery fields with proper serialization.
 
+## Overview
+
+This skill automates the exposure of ACF (Advanced Custom Fields) data through WordPress REST API endpoints. It uses register_rest_field() to attach ACF values to post type responses, with custom get_callback functions that handle complex field types. Repeater fields are serialized as nested arrays with proper subfield mapping using get_field() and have_rows() iterators. Flexible content layouts are exposed with their layout names and subfield data intact. Gallery fields return structured arrays with image IDs, URLs, alt text, and srcset data via wp_get_attachment_image_srcset(). The agent configures field group visibility through acf_add_local_field_group() with proper location rules. Relationship and post object fields resolve to full post objects rather than raw IDs. Group fields are nested properly with their subfield hierarchy. The skill includes schema validation for each field type, caching with wp_cache_set() for expensive field lookups, and permission callbacks to restrict sensitive fields. Supports ACF blocks integration through acf_register_block_type().
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill acf-custom-fields-rest-exposer
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill acf-custom-fields-rest-exposer -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill acf-custom-fields-rest-exposer -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install acf-custom-fields-rest-exposer
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill acf-custom-fields-rest-exposer -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | WordPress & CMS |
-| **Framework** | Cursor |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | [wordpress](https://github.com/WordPress/WordPress) — ⭐ 21.0k · NOASSERTION |
+```bash
+clawhub install acf-custom-fields-rest-exposer
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/acf-custom-fields-rest-exposer/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/acf-custom-fields-rest-exposer/

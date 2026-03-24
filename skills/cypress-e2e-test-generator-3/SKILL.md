@@ -3,62 +3,62 @@ name: "Cypress E2E Test Generator"
 description: "Generates Cypress end-to-end test suites from user flow recordings. Uses the Cypress Real Events plugin and cy.intercept() for network stubbing with automatic fixture generation."
 category: "Browser Automation"
 framework: "Claude Agents"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/cypress-e2e-test-generator-3/"
-tool_ecosystem:
-  tool: "cypress"
-  github_stars: 49612
-  npm_weekly_downloads: 7404178
-  github_repo: "cypress-io/cypress"
-  license: "MIT"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "cypress"  # from ase_tool_match
+  github_stars: 49612  # from ase_github_stars (integer, not string)
+  npm_weekly_downloads: 7404178  # from ase_npm_downloads
+  github_repo: "cypress-io/cypress"  # from ase_github_repo
+  license: "MIT"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Cypress E2E Test Generator
 
 Generates Cypress end-to-end test suites from user flow recordings. Uses the Cypress Real Events plugin and cy.intercept() for network stubbing with automatic fixture generation.
 
+## Overview
+
+Automated end-to-end test generation agent for Cypress testing framework. Records user interaction flows and converts them into maintainable Cypress test specifications. Uses the Cypress Real Events plugin for accurate mouse and keyboard event simulation. Generates network request fixtures automatically using cy.intercept() to capture and replay API responses. Implements the Page Object Model pattern for generated tests with automatic selector optimization favoring data-testid attributes over fragile CSS selectors. Supports custom command generation for repeated interaction patterns. Integrates with Cypress Dashboard for test analytics, parallelization, and flaky test management. Includes visual testing via the cypress-image-snapshot plugin. Generates TypeScript test files with full type definitions for custom commands and fixtures.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill cypress-e2e-test-generator-3
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill cypress-e2e-test-generator-3 -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill cypress-e2e-test-generator-3 -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install cypress-e2e-test-generator-3
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill cypress-e2e-test-generator-3 -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Browser Automation |
-| **Framework** | Claude Agents |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | [cypress](https://github.com/cypress-io/cypress) — ⭐ 49.6k · MIT |
+```bash
+clawhub install cypress-e2e-test-generator-3
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/cypress-e2e-test-generator-3/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/cypress-e2e-test-generator-3/

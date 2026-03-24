@@ -3,62 +3,62 @@ name: "AWS CloudWatch Alarm Runbook Generator"
 description: "Generates structured incident runbooks from AWS CloudWatch alarm configurations using the CloudWatch DescribeAlarms API and AWS Systems Manager documents. Links alarms to remediation procedures automatically."
 category: "Runbooks & Diagnostics"
 framework: "Claude Agents"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/aws-cloudwatch-alarm-runbook-generator/"
-tool_ecosystem:
-  tool: "aws"
-  github_stars: 3594
-  npm_weekly_downloads: 9204385
-  github_repo: "aws/aws-sdk-js-v3"
-  license: "Apache-2.0"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "aws"  # from ase_tool_match
+  github_stars: 3594  # from ase_github_stars (integer, not string)
+  npm_weekly_downloads: 9204385  # from ase_npm_downloads
+  github_repo: "aws/aws-sdk-js-v3"  # from ase_github_repo
+  license: "Apache-2.0"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # AWS CloudWatch Alarm Runbook Generator
 
 Generates structured incident runbooks from AWS CloudWatch alarm configurations using the CloudWatch DescribeAlarms API and AWS Systems Manager documents. Links alarms to remediation procedures automatically.
 
+## Overview
+
+The AWS CloudWatch Alarm Runbook Generator skill reads CloudWatch alarm configurations via the AWS SDK DescribeAlarms and DescribeAlarmsForMetric API calls to automatically generate incident response runbooks. For each alarm, it identifies the monitored metric, threshold conditions, evaluation periods, and associated SNS notification targets. The skill maps alarms to relevant AWS resources using resource tags and CloudFormation stack associations. It generates structured runbook documents that include alarm context, likely root causes based on the metric type, diagnostic steps using specific AWS CLI commands, and remediation procedures. The tool integrates with AWS Systems Manager to link runbooks to SSM Automation documents for one-click remediation. It supports custom runbook templates with organization-specific escalation procedures and communication channels. Output formats include Markdown, Confluence wiki markup, and PagerDuty service integration specifications.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill aws-cloudwatch-alarm-runbook-generator
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill aws-cloudwatch-alarm-runbook-generator -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill aws-cloudwatch-alarm-runbook-generator -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install aws-cloudwatch-alarm-runbook-generator
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill aws-cloudwatch-alarm-runbook-generator -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Runbooks & Diagnostics |
-| **Framework** | Claude Agents |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | [aws](https://github.com/aws/aws-sdk-js-v3) — ⭐ 3.6k · Apache-2.0 |
+```bash
+clawhub install aws-cloudwatch-alarm-runbook-generator
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/aws-cloudwatch-alarm-runbook-generator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/aws-cloudwatch-alarm-runbook-generator/

@@ -3,62 +3,62 @@ name: "PagerDuty Incident Runbook Linker"
 description: "Automatically links PagerDuty incidents to relevant runbooks using the PagerDuty Events API v2 and service directory. Matches incident alerts to runbook tags via Elasticsearch fuzzy queries."
 category: "Monitoring & Alerts"
 framework: "OpenClaw"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/pagerduty-incident-runbook-linker/"
-tool_ecosystem:
-  tool: "pagerduty"
-  github_stars: 69
-  npm_weekly_downloads: 210829
-  github_repo: "PagerDuty/pdjs"
-  license: "Apache-2.0"
-  maintained: false
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "pagerduty"  # from ase_tool_match
+  github_stars: 69  # from ase_github_stars (integer, not string)
+  npm_weekly_downloads: 210829  # from ase_npm_downloads
+  github_repo: "PagerDuty/pdjs"  # from ase_github_repo
+  license: "Apache-2.0"  # from ase_tool_license
+  maintained: false  # from ase_tool_maintained
 ---
 
 # PagerDuty Incident Runbook Linker
 
 Automatically links PagerDuty incidents to relevant runbooks using the PagerDuty Events API v2 and service directory. Matches incident alerts to runbook tags via Elasticsearch fuzzy queries.
 
+## Overview
+
+The PagerDuty Incident Runbook Linker bridges the gap between alerting and response by automatically associating PagerDuty incidents with relevant operational runbooks. It uses the PagerDuty REST API v2 to monitor incident creation events and extract service context, alert descriptions, and urgency levels. Runbook matching uses Elasticsearch fuzzy queries against a runbook index built from Confluence, Notion, or Markdown documentation repositories. The skill maintains a mapping between PagerDuty services, escalation policies, and runbook collections. When an incident fires, it posts the top-matched runbook links as incident notes and updates the incident custom fields with runbook metadata. Integration with the PagerDuty Events API v2 allows enriching alerts with runbook links before they create incidents. The skill tracks runbook effectiveness by correlating MTTR with runbook usage, identifying which runbooks lead to fastest resolution times and which need updating.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill pagerduty-incident-runbook-linker
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill pagerduty-incident-runbook-linker -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill pagerduty-incident-runbook-linker -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install pagerduty-incident-runbook-linker
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill pagerduty-incident-runbook-linker -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Monitoring & Alerts |
-| **Framework** | OpenClaw |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | [pagerduty](https://github.com/PagerDuty/pdjs) — ⭐ 69 · Apache-2.0 |
+```bash
+clawhub install pagerduty-incident-runbook-linker
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/pagerduty-incident-runbook-linker/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/pagerduty-incident-runbook-linker/

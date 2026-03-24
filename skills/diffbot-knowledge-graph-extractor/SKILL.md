@@ -3,10 +3,10 @@ name: "Diffbot Knowledge Graph Extractor"
 description: "Extracts structured entities from web pages using the Diffbot Extraction API and Knowledge Graph. Supports article, product, and discussion extraction with automatic entity linking via DQL queries."
 category: "Research & Scraping"
 framework: "Claude Agents"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/diffbot-knowledge-graph-extractor/"
@@ -16,41 +16,48 @@ source: "https://agentskillexchange.com/skills/diffbot-knowledge-graph-extractor
 
 Extracts structured entities from web pages using the Diffbot Extraction API and Knowledge Graph. Supports article, product, and discussion extraction with automatic entity linking via DQL queries.
 
+## Overview
+
+This skill extracts structured data from web pages using Diffbot’s suite of extraction APIs. It leverages the Automatic Extraction API for content type detection and the specialized Article, Product, Discussion, and Image APIs for domain-specific extraction with high accuracy.
+
+The skill integrates with the Diffbot Knowledge Graph (DKG) for entity resolution and enrichment. Extracted entities are linked to the Knowledge Graph using DQL (Diffbot Query Language) queries, enabling cross-referencing of organizations, people, products, and locations with enriched metadata.
+
+Bulk processing is handled through the Diffbot Bulk API and Crawlbot for site-wide extraction jobs. The skill manages crawl budgets, URL pattern filtering via regex rules, and incremental crawl schedules. Extracted data is normalized into a unified schema with configurable field mapping.
+
+Output formats include JSON-LD with Schema.org markup, CSV for tabular data, and direct integration with downstream databases via webhook notifications on extraction completion.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill diffbot-knowledge-graph-extractor
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill diffbot-knowledge-graph-extractor -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill diffbot-knowledge-graph-extractor -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install diffbot-knowledge-graph-extractor
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill diffbot-knowledge-graph-extractor -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Research & Scraping |
-| **Framework** | Claude Agents |
-| **Verification** | 🛡️ Security Reviewed |
+```bash
+clawhub install diffbot-knowledge-graph-extractor
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/diffbot-knowledge-graph-extractor/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/diffbot-knowledge-graph-extractor/

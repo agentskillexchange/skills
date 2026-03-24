@@ -3,62 +3,65 @@ name: "Kubernetes Pod Diagnostics Runbook"
 description: "Automates Kubernetes troubleshooting using kubectl and the Kubernetes Python client to diagnose CrashLoopBackOff, OOMKilled, and ImagePullBackOff states. Collects pod logs, events, node conditions, and resource quotas systematically."
 category: "Runbooks & Diagnostics"
 framework: "OpenClaw"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/kubernetes-pod-diagnostics-runbook/"
-tool_ecosystem:
-  tool: "kubernetes"
-  github_stars: 121313
-  npm_weekly_downloads: 0
-  github_repo: "kubernetes/kubernetes"
-  license: "Apache-2.0"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "kubernetes"  # from ase_tool_match
+  github_stars: 121313  # from ase_github_stars (integer, not string)
+  github_repo: "kubernetes/kubernetes"  # from ase_github_repo
+  license: "Apache-2.0"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Kubernetes Pod Diagnostics Runbook
 
 Automates Kubernetes troubleshooting using kubectl and the Kubernetes Python client to diagnose CrashLoopBackOff, OOMKilled, and ImagePullBackOff states. Collects pod logs, events, node conditions, and resource quotas systematically.
 
+## Overview
+
+The Kubernetes Pod Diagnostics Runbook provides systematic troubleshooting procedures for common pod failure states in Kubernetes clusters. It uses the official Kubernetes Python client (kubernetes-client/python) to query cluster state programmatically, collecting pod descriptions, container logs, node conditions, and resource quota utilization in a structured diagnostic report.
+
+For CrashLoopBackOff pods, the runbook retrieves previous container logs, checks liveness probe configurations, and correlates restart timestamps with cluster events. OOMKilled diagnostics compare container memory limits against actual usage metrics from the Metrics Server API, suggesting right-sized resource requests.
+
+ImagePullBackOff diagnosis validates image references against container registry APIs, checks imagePullSecrets configuration, and verifies registry authentication tokens. The runbook also covers Pending pods by analyzing node affinity rules, taint tolerations, and PersistentVolumeClaim binding status. All findings are compiled into a prioritized remediation checklist with kubectl commands ready for execution.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill kubernetes-pod-diagnostics-runbook
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill kubernetes-pod-diagnostics-runbook -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill kubernetes-pod-diagnostics-runbook -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install kubernetes-pod-diagnostics-runbook
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill kubernetes-pod-diagnostics-runbook -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Runbooks & Diagnostics |
-| **Framework** | OpenClaw |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | [kubernetes](https://github.com/kubernetes/kubernetes) — ⭐ 121.3k · Apache-2.0 |
+```bash
+clawhub install kubernetes-pod-diagnostics-runbook
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-pod-diagnostics-runbook/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/kubernetes-pod-diagnostics-runbook/

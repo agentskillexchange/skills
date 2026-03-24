@@ -3,62 +3,62 @@ name: "Redis MCP Server"
 description: "MCP server exposing Redis operations to AI agents — get/set/del, hash operations, list/set/sorted set commands, pub/sub, streams, and keyspace exploration. Supports Redis Cluster and Sentinel."
 category: "Developer Tools"
 framework: "MCP-compatible"
-verification: listed
-rating: 0
-reviews: 0
-creator: ""
+verification: listed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/redis-mcp-server/"
-tool_ecosystem:
-  tool: "redis"
-  github_stars: 73523
-  npm_weekly_downloads: 8224050
-  github_repo: "redis/redis"
-  license: "NOASSERTION"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "redis"  # from ase_tool_match
+  github_stars: 73523  # from ase_github_stars (integer, not string)
+  npm_weekly_downloads: 8224050  # from ase_npm_downloads
+  github_repo: "redis/redis"  # from ase_github_repo
+  license: "NOASSERTION"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Redis MCP Server
 
 MCP server exposing Redis operations to AI agents — get/set/del, hash operations, list/set/sorted set commands, pub/sub, streams, and keyspace exploration. Supports Redis Cluster and Sentinel.
 
+## Overview
+
+MCP server exposing Redis operations to AI agents — get/set/del, hash operations, list/set/sorted set commands, pub/sub, streams, and keyspace exploration. Supports Redis Cluster and Sentinel.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill redis-mcp-server
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill redis-mcp-server -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill redis-mcp-server -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install redis-mcp-server
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill redis-mcp-server -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Developer Tools |
-| **Framework** | MCP-compatible |
-| **Verification** | 📋 Listed |
-| **Tool** | [redis](https://github.com/redis/redis) — ⭐ 73.5k · NOASSERTION |
+```bash
+clawhub install redis-mcp-server
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/redis-mcp-server/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/redis-mcp-server/

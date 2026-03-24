@@ -3,62 +3,61 @@ name: "Docker Container Health Check Runbook"
 description: "Runs systematic health diagnostics on Docker containers using docker inspect, docker stats, and the Docker Engine API. Checks resource limits, network connectivity, and volume mount integrity."
 category: "Runbooks & Diagnostics"
 framework: "Cursor"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/docker-container-health-check-runbook/"
-tool_ecosystem:
-  tool: "docker"
-  github_stars: 71560
-  npm_weekly_downloads: 0
-  github_repo: "moby/moby"
-  license: "Apache-2.0"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "docker"  # from ase_tool_match
+  github_stars: 71560  # from ase_github_stars (integer, not string)
+  github_repo: "moby/moby"  # from ase_github_repo
+  license: "Apache-2.0"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Docker Container Health Check Runbook
 
 Runs systematic health diagnostics on Docker containers using docker inspect, docker stats, and the Docker Engine API. Checks resource limits, network connectivity, and volume mount integrity.
 
+## Overview
+
+This skill provides automated health diagnostics for Docker containers and Docker Compose stacks. It queries the Docker Engine API to inspect container states, resource consumption, and configuration details. The runbook checks container health status via HEALTHCHECK definitions, analyzes docker stats output for CPU throttling and memory pressure, and verifies network connectivity between containers using docker network inspect. It examines volume mounts for permission issues and disk space constraints, checks for zombie processes inside containers via docker top, and validates environment variable injection. The skill parses docker events streams to identify restart loops and OOM kills, analyzes Dockerfile layers for size optimization opportunities using dive, and checks for known vulnerabilities in base images via trivy scanning. It generates structured reports with container-specific remediation steps and can automatically restart unhealthy containers or scale services via Docker Compose.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill docker-container-health-check-runbook
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill docker-container-health-check-runbook -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill docker-container-health-check-runbook -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install docker-container-health-check-runbook
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill docker-container-health-check-runbook -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Runbooks & Diagnostics |
-| **Framework** | Cursor |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | [docker](https://github.com/moby/moby) — ⭐ 71.6k · Apache-2.0 |
+```bash
+clawhub install docker-container-health-check-runbook
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/docker-container-health-check-runbook/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/docker-container-health-check-runbook/

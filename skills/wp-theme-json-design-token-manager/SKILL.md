@@ -3,62 +3,61 @@ name: "WordPress Theme.json Design Token Manager"
 description: "Manages WordPress theme.json design tokens including color palettes, typography presets, and spacing scales. Uses the WP_Theme_JSON_Resolver class and wp_get_global_settings() for dynamic token resolution."
 category: "WordPress & CMS"
 framework: "Gemini"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/wp-theme-json-design-token-manager/"
-tool_ecosystem:
-  tool: "wordpress"
-  github_stars: 20973
-  npm_weekly_downloads: 0
-  github_repo: "WordPress/WordPress"
-  license: "NOASSERTION"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "wordpress"  # from ase_tool_match
+  github_stars: 20973  # from ase_github_stars (integer, not string)
+  github_repo: "WordPress/WordPress"  # from ase_github_repo
+  license: "NOASSERTION"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # WordPress Theme.json Design Token Manager
 
 Manages WordPress theme.json design tokens including color palettes, typography presets, and spacing scales. Uses the WP_Theme_JSON_Resolver class and wp_get_global_settings() for dynamic token resolution.
 
+## Overview
+
+The WordPress Theme.json Design Token Manager provides systematic control over design tokens in modern WordPress block themes. It reads and writes theme.json configurations using the WP_Theme_JSON_Resolver class, managing color palettes, font families, spacing presets, and custom CSS properties. The agent uses wp_get_global_settings() and wp_get_global_styles() to resolve merged settings across default, theme, and user layers. It supports design token versioning and migration between theme.json schema versions (v1 to v3) using WP_Theme_JSON_Schema::migrate(). The manager handles custom block style variations through the styles.blocks configuration and generates CSS custom properties via wp_get_global_stylesheet(). It validates token values against WordPress color and gradient formats, manages font face declarations through the Font Library API (wp_register_font_collection), and synchronizes tokens with Figma design files through the Figma REST API. Includes support for per-block settings overrides and appearance tools configuration.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill wp-theme-json-design-token-manager
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill wp-theme-json-design-token-manager -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill wp-theme-json-design-token-manager -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install wp-theme-json-design-token-manager
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill wp-theme-json-design-token-manager -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | WordPress & CMS |
-| **Framework** | Gemini |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | [wordpress](https://github.com/WordPress/WordPress) — ⭐ 21.0k · NOASSERTION |
+```bash
+clawhub install wp-theme-json-design-token-manager
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/wp-theme-json-design-token-manager/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/wp-theme-json-design-token-manager/

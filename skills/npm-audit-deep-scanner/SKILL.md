@@ -3,10 +3,10 @@ name: "NPM Audit Deep Scanner"
 description: "Extends npm audit with deep transitive dependency analysis using the npm Registry API. Generates fix PRs via GitHub API and cross-checks advisories against the OSV.dev vulnerability database."
 category: "Security & Verification"
 framework: "Custom Agents"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/npm-audit-deep-scanner/"
@@ -16,41 +16,46 @@ source: "https://agentskillexchange.com/skills/npm-audit-deep-scanner/"
 
 Extends npm audit with deep transitive dependency analysis using the npm Registry API. Generates fix PRs via GitHub API and cross-checks advisories against the OSV.dev vulnerability database.
 
+## Overview
+
+The NPM Audit Deep Scanner skill provides comprehensive JavaScript supply chain security analysis beyond standard npm audit capabilities. It queries the npm Registry API (registry.npmjs.org) to resolve complete dependency trees, identifying phantom dependencies and version conflicts invisible to standard tooling.
+
+The skill performs deep analysis of each package by querying the OSV.dev API (/v1/query) for vulnerability data across multiple ecosystems simultaneously. It identifies not just direct CVEs but also malicious package indicators by checking package metadata patterns against known typosquatting databases and the Socket.dev API for install script analysis.
+
+Automated remediation generates pull requests via the GitHub REST API v3, using the Git Trees API to create atomic commits that bump vulnerable dependencies while respecting peer dependency constraints. Each PR includes a detailed impact assessment with breaking change likelihood scores computed from semver analysis and changelog parsing. Integration with the npm diff API provides human-readable code diffs between vulnerable and patched versions for security team review.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill npm-audit-deep-scanner
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill npm-audit-deep-scanner -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill npm-audit-deep-scanner -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install npm-audit-deep-scanner
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill npm-audit-deep-scanner -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Security & Verification |
-| **Framework** | Custom Agents |
-| **Verification** | 🛡️ Security Reviewed |
+```bash
+clawhub install npm-audit-deep-scanner
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/npm-audit-deep-scanner/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/npm-audit-deep-scanner/

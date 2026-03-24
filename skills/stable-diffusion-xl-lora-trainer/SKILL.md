@@ -3,62 +3,63 @@ name: "Stable Diffusion XL LoRA Trainer"
 description: "Fine-tune Stable Diffusion XL models with LoRA adapters using the diffusers library and Kohya-ss training scripts. Manages dataset preparation, training configuration, and checkpoint merging for custom image generation."
 category: "Image & Creative Automation"
 framework: "Custom Agents"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/stable-diffusion-xl-lora-trainer/"
-tool_ecosystem:
-  tool: "stable.diffusion"
-  github_stars: 0
-  npm_weekly_downloads: 0
-  github_repo: ""
-  license: ""
-  maintained: false
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "stable.diffusion"  # from ase_tool_match
 ---
 
 # Stable Diffusion XL LoRA Trainer
 
 Fine-tune Stable Diffusion XL models with LoRA adapters using the diffusers library and Kohya-ss training scripts. Manages dataset preparation, training configuration, and checkpoint merging for custom image generation.
 
+## Overview
+
+Train custom LoRA (Low-Rank Adaptation) adapters for Stable Diffusion XL to generate images in specific styles or with specific subjects. This skill automates the full training pipeline from dataset curation through model export.
+
+Dataset preparation includes automatic image resizing, aspect ratio bucketing, and caption generation using BLIP-2 or WD14 tagger models. Training images are organized with text file captions following the Kohya-ss naming convention.
+
+Training configuration supports key hyperparameters including rank (4-128), alpha, learning rate scheduling (cosine, constant with warmup), optimizer selection (AdamW8bit, Prodigy, DAdaptation), and mixed precision (fp16/bf16). The training loop uses the diffusers library with xformers memory optimization and gradient checkpointing for reduced VRAM usage.
+
+Checkpoint management handles saving intermediate epochs, merging multiple LoRA weights with configurable merge ratios, and exporting to safetensors format. The skill can invoke the AUTOMATIC1111 or ComfyUI API to generate test images at configurable intervals during training for visual quality monitoring.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill stable-diffusion-xl-lora-trainer
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill stable-diffusion-xl-lora-trainer -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill stable-diffusion-xl-lora-trainer -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install stable-diffusion-xl-lora-trainer
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill stable-diffusion-xl-lora-trainer -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Image & Creative Automation |
-| **Framework** | Custom Agents |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | stable.diffusion |
+```bash
+clawhub install stable-diffusion-xl-lora-trainer
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/stable-diffusion-xl-lora-trainer/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/stable-diffusion-xl-lora-trainer/

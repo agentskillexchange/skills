@@ -3,62 +3,64 @@ name: "SendGrid Transactional Email Router"
 description: "Manages transactional email delivery via SendGrid v3 Mail Send API with dynamic template rendering. Handles bounce processing, suppression group management, and event webhook parsing."
 category: "Integrations & Connectors"
 framework: "Cursor"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/sendgrid-transactional-email-router/"
-tool_ecosystem:
-  tool: "sendgrid"
-  github_stars: 3054
-  npm_weekly_downloads: 3287627
-  github_repo: "sendgrid/sendgrid-nodejs"
-  license: "MIT"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "sendgrid"  # from ase_tool_match
+  github_stars: 3054  # from ase_github_stars (integer, not string)
+  npm_weekly_downloads: 3287627  # from ase_npm_downloads
+  github_repo: "sendgrid/sendgrid-nodejs"  # from ase_github_repo
+  license: "MIT"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # SendGrid Transactional Email Router
 
 Manages transactional email delivery via SendGrid v3 Mail Send API with dynamic template rendering. Handles bounce processing, suppression group management, and event webhook parsing.
 
+## Overview
+
+Manages transactional email delivery via SendGrid v3 Mail Send API with dynamic template rendering. Handles bounce processing, suppression group management, and event webhook parsing.
+
+This skill automates sendgrid transactional email router operations for agent-driven workflows. It wraps the underlying API client libraries with sensible defaults for authentication, error handling, and pagination. Configuration is managed through environment variables and a local settings file, keeping credentials out of your codebase. The agent validates inputs against the provider’s API schema before making requests, catching configuration errors early. Includes retry logic with exponential backoff for transient failures and structured logging for audit trails. Works in both synchronous command mode and event-driven webhook mode for real-time integrations.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill sendgrid-transactional-email-router
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill sendgrid-transactional-email-router -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill sendgrid-transactional-email-router -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install sendgrid-transactional-email-router
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill sendgrid-transactional-email-router -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Integrations & Connectors |
-| **Framework** | Cursor |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | [sendgrid](https://github.com/sendgrid/sendgrid-nodejs) — ⭐ 3.1k · MIT |
+```bash
+clawhub install sendgrid-transactional-email-router
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/sendgrid-transactional-email-router/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/sendgrid-transactional-email-router/

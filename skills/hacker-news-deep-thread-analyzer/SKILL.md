@@ -3,62 +3,62 @@ name: "Hacker News Deep Thread Analyzer"
 description: "Scrapes and analyzes Hacker News threads using the official HN Firebase API and BeautifulSoup. Extracts sentiment trends, expertise signals, and generates structured summaries with key arguments mapped."
 category: "Research & Scraping"
 framework: "Custom Agents"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/hacker-news-deep-thread-analyzer/"
-tool_ecosystem:
-  tool: "firebase"
-  github_stars: 1726
-  npm_weekly_downloads: 4837581
-  github_repo: "firebase/firebase-admin-node"
-  license: "Apache-2.0"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "firebase"  # from ase_tool_match
+  github_stars: 1726  # from ase_github_stars (integer, not string)
+  npm_weekly_downloads: 4837581  # from ase_npm_downloads
+  github_repo: "firebase/firebase-admin-node"  # from ase_github_repo
+  license: "Apache-2.0"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Hacker News Deep Thread Analyzer
 
 Scrapes and analyzes Hacker News threads using the official HN Firebase API and BeautifulSoup. Extracts sentiment trends, expertise signals, and generates structured summaries with key arguments mapped.
 
+## Overview
+
+The Hacker News Deep Thread Analyzer skill provides rich analysis of Hacker News discussion threads using the official Algolia HN API and Firebase real-time API for comprehensive data retrieval. Given a story URL or HN item ID, it fetches the complete comment tree including deleted and dead comments (when accessible), reconstructing the full conversation topology. Sentiment analysis via TextBlob and VADER classifiers identifies emotional tone shifts throughout the thread, detecting where discussions become heated, where consensus emerges, and where productive technical debate occurs. Expertise signals are extracted by analyzing commenter history — accounts with high karma, longtime membership, and domain-relevant past comments are weighted higher in summary generation. The structured output maps key arguments and counterarguments into a debate tree, identifying the strongest points on each side of contentious topics. Link extraction and classification categorizes referenced URLs by type (documentation, blog posts, academic papers, code repositories), creating a curated resource list from the collective intelligence of the thread. The tool generates executive summaries at configurable detail levels: one-paragraph TL;DR, bullet-point key takeaways, or full argument mapping with attributed quotes. Batch mode processes multiple related threads to identify recurring themes across discussions.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill hacker-news-deep-thread-analyzer
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill hacker-news-deep-thread-analyzer -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill hacker-news-deep-thread-analyzer -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install hacker-news-deep-thread-analyzer
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill hacker-news-deep-thread-analyzer -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Research & Scraping |
-| **Framework** | Custom Agents |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | [firebase](https://github.com/firebase/firebase-admin-node) — ⭐ 1.7k · Apache-2.0 |
+```bash
+clawhub install hacker-news-deep-thread-analyzer
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/hacker-news-deep-thread-analyzer/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/hacker-news-deep-thread-analyzer/

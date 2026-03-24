@@ -3,62 +3,64 @@ name: "Puppeteer Cookie Consent Handler"
 description: "Detects and dismisses cookie consent banners across websites using Puppeteer page.evaluate selectors and the CMP (Consent Management Platform) protocol. Supports IAB TCF v2.0 consent strings and GDPR/CCPA banner patterns."
 category: "Browser Automation"
 framework: "Claude Code"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/puppeteer-cookie-consent-handler-3/"
-tool_ecosystem:
-  tool: "puppeteer"
-  github_stars: 93912
-  npm_weekly_downloads: 8696130
-  github_repo: "puppeteer/puppeteer"
-  license: "Apache-2.0"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "puppeteer"  # from ase_tool_match
+  github_stars: 93912  # from ase_github_stars (integer, not string)
+  npm_weekly_downloads: 8696130  # from ase_npm_downloads
+  github_repo: "puppeteer/puppeteer"  # from ase_github_repo
+  license: "Apache-2.0"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Puppeteer Cookie Consent Handler
 
 Detects and dismisses cookie consent banners across websites using Puppeteer page.evaluate selectors and the CMP (Consent Management Platform) protocol. Supports IAB TCF v2.0 consent strings and GDPR/CCPA banner patterns.
 
+## Overview
+
+Detects and dismisses cookie consent banners across websites using Puppeteer page.evaluate selectors and the CMP (Consent Management Platform) protocol. Supports IAB TCF v2.0 consent strings and GDPR/CCPA banner patterns.
+
+This skill integrates with production-grade tooling to streamline automation workflows. It handles edge cases such as timeout management, retry logic with exponential backoff, and detailed error reporting. Configuration is managed through environment variables and YAML config files, supporting both local development and CI/CD pipeline environments. The skill outputs structured JSON logs compatible with ELK stack and Datadog for observability. It includes built-in rate limiting to respect API quotas and implements proper credential rotation using vault-based secret management.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill puppeteer-cookie-consent-handler-3
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill puppeteer-cookie-consent-handler-3 -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill puppeteer-cookie-consent-handler-3 -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install puppeteer-cookie-consent-handler-3
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill puppeteer-cookie-consent-handler-3 -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Browser Automation |
-| **Framework** | Claude Code |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | [puppeteer](https://github.com/puppeteer/puppeteer) — ⭐ 93.9k · Apache-2.0 |
+```bash
+clawhub install puppeteer-cookie-consent-handler-3
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/puppeteer-cookie-consent-handler-3/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/puppeteer-cookie-consent-handler-3/

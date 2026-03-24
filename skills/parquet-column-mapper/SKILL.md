@@ -3,62 +3,62 @@ name: "Parquet Column Mapper"
 description: "Reads and transforms Apache Parquet file metadata and column statistics using PyArrow and the Parquet Thrift specification. Maps column types across Delta Lake, Iceberg, and Hudi table formats."
 category: "Data Extraction & Transformation"
 framework: "MCP-compatible"
-verification: listed
-rating: 0
-reviews: 0
-creator: ""
+verification: listed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/parquet-column-mapper/"
-tool_ecosystem:
-  tool: "parquet"
-  github_stars: 387
-  npm_weekly_downloads: 146943
-  github_repo: "ironSource/parquetjs"
-  license: "MIT"
-  maintained: false
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "parquet"  # from ase_tool_match
+  github_stars: 387  # from ase_github_stars (integer, not string)
+  npm_weekly_downloads: 146943  # from ase_npm_downloads
+  github_repo: "ironSource/parquetjs"  # from ase_github_repo
+  license: "MIT"  # from ase_tool_license
+  maintained: false  # from ase_tool_maintained
 ---
 
 # Parquet Column Mapper
 
 Reads and transforms Apache Parquet file metadata and column statistics using PyArrow and the Parquet Thrift specification. Maps column types across Delta Lake, Iceberg, and Hudi table formats.
 
+## Overview
+
+The Parquet Column Mapper skill uses the PyArrow library to read Apache Parquet file footers, row group metadata, and column chunk statistics without loading full datasets into memory. It extracts min/max values, null counts, distinct counts, and encoding information for each column chunk across row groups. The skill maps Parquet logical and physical types to equivalent types in Delta Lake, Apache Iceberg, and Apache Hudi table formats, identifying type compatibility issues during format migration. Features include partition statistics aggregation from directory-structured datasets, predicate pushdown simulation for query planning analysis, and bloom filter metadata extraction for point lookup optimization. Supports bulk schema comparison across Parquet files in S3, GCS, and ADLS using fsspec-compatible file systems.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill parquet-column-mapper
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill parquet-column-mapper -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill parquet-column-mapper -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install parquet-column-mapper
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill parquet-column-mapper -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Data Extraction & Transformation |
-| **Framework** | MCP-compatible |
-| **Verification** | 📋 Listed |
-| **Tool** | [parquet](https://github.com/ironSource/parquetjs) — ⭐ 387 · MIT |
+```bash
+clawhub install parquet-column-mapper
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/parquet-column-mapper/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/parquet-column-mapper/

@@ -3,62 +3,62 @@ name: "Puppeteer DevTools Protocol Recorder"
 description: "Records and replays Chrome DevTools Protocol (CDP) sessions via Puppeteer’s CDPSession API, captures Network, Performance, and Accessibility domain events, and exports HAR-compatible traces for CI regression testing."
 category: "Developer Tools"
 framework: "Cursor"
-verification: listed
-rating: 0
-reviews: 0
-creator: ""
+verification: listed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/puppeteer-devtools-protocol-recorder/"
-tool_ecosystem:
-  tool: "puppeteer"
-  github_stars: 93912
-  npm_weekly_downloads: 8696130
-  github_repo: "puppeteer/puppeteer"
-  license: "Apache-2.0"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "puppeteer"  # from ase_tool_match
+  github_stars: 93912  # from ase_github_stars (integer, not string)
+  npm_weekly_downloads: 8696130  # from ase_npm_downloads
+  github_repo: "puppeteer/puppeteer"  # from ase_github_repo
+  license: "Apache-2.0"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Puppeteer DevTools Protocol Recorder
 
 Records and replays Chrome DevTools Protocol (CDP) sessions via Puppeteer’s CDPSession API, captures Network, Performance, and Accessibility domain events, and exports HAR-compatible traces for CI regression testing.
 
+## Overview
+
+The Puppeteer DevTools Protocol Recorder uses Puppeteer’s page.createCDPSession() to directly interface with Chrome’s DevTools Protocol domains for comprehensive browser telemetry capture. It enables Network domain events (requestWillBeSent, responseReceived, loadingFinished) for full HAR generation, Performance domain for runtime metrics (ScriptDuration, LayoutDuration, RecalcStyleDuration), and Accessibility domain for full accessibility tree snapshots. The agent records sessions as timestamped CDP event logs that can be replayed for deterministic testing. It captures heap snapshots via HeapProfiler.takeHeapSnapshot, CSS coverage via CSS.startRuleUsageTracking, and JavaScript execution contexts via Runtime.executionContextCreated. For CI integration, recorded sessions serve as regression baselines with replayed sessions comparing network waterfall timing, layout shift scores (CLS), and accessibility tree diffs against recorded baselines. Exports include HAR 1.2 format, Chrome trace JSON for chrome://tracing, and JUnit XML for CI test reporters.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill puppeteer-devtools-protocol-recorder
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill puppeteer-devtools-protocol-recorder -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill puppeteer-devtools-protocol-recorder -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install puppeteer-devtools-protocol-recorder
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill puppeteer-devtools-protocol-recorder -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Developer Tools |
-| **Framework** | Cursor |
-| **Verification** | 📋 Listed |
-| **Tool** | [puppeteer](https://github.com/puppeteer/puppeteer) — ⭐ 93.9k · Apache-2.0 |
+```bash
+clawhub install puppeteer-devtools-protocol-recorder
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/puppeteer-devtools-protocol-recorder/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/puppeteer-devtools-protocol-recorder/

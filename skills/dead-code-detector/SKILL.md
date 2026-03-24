@@ -3,10 +3,10 @@ name: "Dead Code Detector"
 description: "Scans codebases for unused code — dead functions, unreachable branches, unused exports, and orphaned test helpers. Supports JavaScript, TypeScript, Python, and Go. Generates safe-to-delete candidate lists."
 category: "Code Quality & Review"
 framework: "Claude Code"
-verification: listed
-rating: 0
-reviews: 0
-creator: ""
+verification: listed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/dead-code-detector/"
@@ -16,41 +16,42 @@ source: "https://agentskillexchange.com/skills/dead-code-detector/"
 
 Scans codebases for unused code — dead functions, unreachable branches, unused exports, and orphaned test helpers. Supports JavaScript, TypeScript, Python, and Go. Generates safe-to-delete candidate lists.
 
+## Overview
+
+Scans codebases for unused code — dead functions, unreachable branches, unused exports, and orphaned test helpers. Supports JavaScript, TypeScript, Python, and Go. Generates safe-to-delete candidate lists.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill dead-code-detector
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill dead-code-detector -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill dead-code-detector -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install dead-code-detector
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill dead-code-detector -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Code Quality & Review |
-| **Framework** | Claude Code |
-| **Verification** | 📋 Listed |
+```bash
+clawhub install dead-code-detector
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/dead-code-detector/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/dead-code-detector/

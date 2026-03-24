@@ -3,10 +3,10 @@ name: "Nano PDF Editor"
 description: "Edit PDFs with natural-language instructions."
 category: "Data Extraction & Transformation"
 framework: "OpenClaw"
-verification: listed
-rating: 0
-reviews: 0
-creator: ""
+verification: listed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/nano-pdf-editor/"
@@ -16,41 +16,42 @@ source: "https://agentskillexchange.com/skills/nano-pdf-editor/"
 
 Edit PDFs with natural-language instructions.
 
+## Overview
+
+Wraps PDF editing workflows so users can modify documents through natural-language instructions instead of manual PDF tooling.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill nano-pdf-editor
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill nano-pdf-editor -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill nano-pdf-editor -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install nano-pdf-editor
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill nano-pdf-editor -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Data Extraction & Transformation |
-| **Framework** | OpenClaw |
-| **Verification** | 📋 Listed |
+```bash
+clawhub install nano-pdf-editor
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/nano-pdf-editor/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/nano-pdf-editor/

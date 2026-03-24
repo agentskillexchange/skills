@@ -3,62 +3,61 @@ name: "Apache Spark Job Manager"
 description: "Submit, monitor, and cancel Apache Spark jobs on YARN, Kubernetes, or Databricks runtimes through an AI agent interface. Retrieve application logs, executor metrics, and stage-level performance data to diagnose bottlenecks without accessing cluster UIs directly."
 category: "Data Extraction & Transformation"
 framework: "Custom Agents"
-verification: listed
-rating: 0
-reviews: 0
-creator: ""
+verification: listed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/apache-spark-job-manager/"
-tool_ecosystem:
-  tool: "spark"
-  github_stars: 121313
-  npm_weekly_downloads: 0
-  github_repo: "kubernetes/kubernetes"
-  license: "Apache-2.0"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "spark"  # from ase_tool_match
+  github_stars: 121313  # from ase_github_stars (integer, not string)
+  github_repo: "kubernetes/kubernetes"  # from ase_github_repo
+  license: "Apache-2.0"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Apache Spark Job Manager
 
 Submit, monitor, and cancel Apache Spark jobs on YARN, Kubernetes, or Databricks runtimes through an AI agent interface. Retrieve application logs, executor metrics, and stage-level performance data to diagnose bottlenecks without accessing cluster UIs directly.
 
+## Overview
+
+Submit, monitor, and cancel Apache Spark jobs on YARN, Kubernetes, or Databricks runtimes through an AI agent interface. Retrieve application logs, executor metrics, and stage-level performance data to diagnose bottlenecks without accessing cluster UIs directly.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill apache-spark-job-manager
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill apache-spark-job-manager -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill apache-spark-job-manager -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install apache-spark-job-manager
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill apache-spark-job-manager -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Data Extraction & Transformation |
-| **Framework** | Custom Agents |
-| **Verification** | 📋 Listed |
-| **Tool** | [spark](https://github.com/kubernetes/kubernetes) — ⭐ 121.3k · Apache-2.0 |
+```bash
+clawhub install apache-spark-job-manager
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/apache-spark-job-manager/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/apache-spark-job-manager/

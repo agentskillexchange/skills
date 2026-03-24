@@ -3,62 +3,66 @@ name: "Cypress Network Stub Generator"
 description: "Generates cy.intercept() stubs from recorded HAR files for deterministic E2E tests. Uses cy.session() for authentication caching and cy.origin() for cross-origin testing workflows."
 category: "Browser Automation"
 framework: "Codex"
-verification: verified_metadata
-rating: 0
-reviews: 0
-creator: ""
+verification: verified_metadata  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/cypress-network-stub-generator/"
-tool_ecosystem:
-  tool: "cypress"
-  github_stars: 49612
-  npm_weekly_downloads: 7404178
-  github_repo: "cypress-io/cypress"
-  license: "MIT"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "cypress"  # from ase_tool_match
+  github_stars: 49612  # from ase_github_stars (integer, not string)
+  npm_weekly_downloads: 7404178  # from ase_npm_downloads
+  github_repo: "cypress-io/cypress"  # from ase_github_repo
+  license: "MIT"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Cypress Network Stub Generator
 
 Generates cy.intercept() stubs from recorded HAR files for deterministic E2E tests. Uses cy.session() for authentication caching and cy.origin() for cross-origin testing workflows.
 
+## Overview
+
+The Cypress Network Stub Generator converts HAR (HTTP Archive) files into deterministic cy.intercept() route handlers for Cypress E2E tests. It parses HAR entries to create matching routeHandlers with appropriate status codes, headers, and response bodies for each API endpoint.
+
+The skill leverages cy.session() to cache authentication state across test specs, dramatically reducing login overhead in large test suites. For applications spanning multiple domains, it uses cy.origin() to handle cross-origin interactions without disabling web security.
+
+Key features include automatic fixture file generation from HAR response bodies, intelligent URL pattern matching using minimatch globs for dynamic API paths, and cy.clock() integration for time-dependent response scenarios. It supports GraphQL request matching by parsing query operation names from request bodies and routing to appropriate stub responses. The generator also creates cy.wait() aliases for intercepted routes to enable reliable assertion timing.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill cypress-network-stub-generator
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill cypress-network-stub-generator -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill cypress-network-stub-generator -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install cypress-network-stub-generator
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill cypress-network-stub-generator -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Browser Automation |
-| **Framework** | Codex |
-| **Verification** | ✅ Verified Metadata |
-| **Tool** | [cypress](https://github.com/cypress-io/cypress) — ⭐ 49.6k · MIT |
+```bash
+clawhub install cypress-network-stub-generator
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/cypress-network-stub-generator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/cypress-network-stub-generator/

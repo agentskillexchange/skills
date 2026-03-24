@@ -3,62 +3,61 @@ name: "Grafana Dashboard as Code Generator"
 description: "Generates Grafana dashboards programmatically using Grafonnet (jsonnet), the Grafana HTTP API, and grafana-toolkit. Supports multi-datasource panels with Prometheus, Loki, and Tempo queries."
 category: "Monitoring & Alerts"
 framework: "Cursor"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/grafana-dashboard-as-code-generator/"
-tool_ecosystem:
-  tool: "grafana"
-  github_stars: 72784
-  npm_weekly_downloads: 0
-  github_repo: "grafana/grafana"
-  license: "AGPL-3.0"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "grafana"  # from ase_tool_match
+  github_stars: 72784  # from ase_github_stars (integer, not string)
+  github_repo: "grafana/grafana"  # from ase_github_repo
+  license: "AGPL-3.0"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Grafana Dashboard as Code Generator
 
 Generates Grafana dashboards programmatically using Grafonnet (jsonnet), the Grafana HTTP API, and grafana-toolkit. Supports multi-datasource panels with Prometheus, Loki, and Tempo queries.
 
+## Overview
+
+The Grafana Dashboard as Code Generator creates production-quality Grafana dashboards using Grafonnet, the official Jsonnet library for Grafana dashboard generation. It produces version-controlled dashboard definitions that compile to Grafana JSON model format, supporting all panel types including time series, stat, gauge, table, heatmap, and geomap visualizations. The skill interfaces with the Grafana HTTP API for dashboard provisioning, folder management, and datasource configuration. It generates multi-datasource panels combining Prometheus metrics queries, Loki log queries with LogQL, and Tempo trace queries for unified observability dashboards. The generator uses grafana-toolkit for dashboard linting and validation, ensuring compliance with organizational standards for variable naming, panel sizing, and annotation configurations. It supports dashboard templating with Grafana variables for environment, cluster, and service selection, and implements row-level repeating for dynamic dashboard sections. The tool also configures alert rules using Grafana Alerting with proper notification policies and contact point routing.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill grafana-dashboard-as-code-generator
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill grafana-dashboard-as-code-generator -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill grafana-dashboard-as-code-generator -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install grafana-dashboard-as-code-generator
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill grafana-dashboard-as-code-generator -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Monitoring & Alerts |
-| **Framework** | Cursor |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | [grafana](https://github.com/grafana/grafana) — ⭐ 72.8k · AGPL-3.0 |
+```bash
+clawhub install grafana-dashboard-as-code-generator
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/grafana-dashboard-as-code-generator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/grafana-dashboard-as-code-generator/

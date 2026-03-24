@@ -3,10 +3,10 @@ name: "Technical SEO Audit Crawler"
 description: "Crawls websites for technical SEO issues using Screaming Frog CLI, Lighthouse CI API, and PageSpeed Insights v5. Reports on Core Web Vitals, canonical chains, hreflang conflicts, and XML sitemap validation."
 category: "Content Writing & SEO"
 framework: "OpenClaw"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/technical-seo-audit-crawler/"
@@ -16,41 +16,42 @@ source: "https://agentskillexchange.com/skills/technical-seo-audit-crawler/"
 
 Crawls websites for technical SEO issues using Screaming Frog CLI, Lighthouse CI API, and PageSpeed Insights v5. Reports on Core Web Vitals, canonical chains, hreflang conflicts, and XML sitemap validation.
 
+## Overview
+
+This skill performs comprehensive technical SEO audits by combining multiple analysis tools. It initiates crawls using Screaming Frog SEO Spider command-line interface with custom extraction rules and configuration files for crawl depth, URL scope, and rendering settings. Lighthouse CI runs automated performance audits using the lighthouse-ci/action with budgets configured for Core Web Vitals thresholds (LCP under 2.5s, FID under 100ms, CLS under 0.1). PageSpeed Insights API v5 provides field data from Chrome User Experience Report alongside lab metrics. The agent analyzes crawl data for technical issues including redirect chains (301/302 sequences), canonical tag conflicts between self-referencing and cross-domain canonicals, orphaned pages without internal links, and mixed content warnings. Hreflang implementation is validated for reciprocal tag presence, x-default fallbacks, and ISO 639-1 language code compliance. XML sitemap validation checks for proper lastmod dates, priority values, and URL inclusion against crawl results. The skill generates prioritized issue reports with estimated traffic impact based on Google Search Console impression data.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill technical-seo-audit-crawler
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill technical-seo-audit-crawler -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill technical-seo-audit-crawler -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install technical-seo-audit-crawler
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill technical-seo-audit-crawler -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Content Writing & SEO |
-| **Framework** | OpenClaw |
-| **Verification** | 🛡️ Security Reviewed |
+```bash
+clawhub install technical-seo-audit-crawler
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/technical-seo-audit-crawler/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/technical-seo-audit-crawler/

@@ -3,62 +3,66 @@ name: "StatsD Metrics Aggregation Pipeline"
 description: "Configures StatsD metric collection with custom aggregation rules and flush intervals. Routes metrics to Graphite Carbon, InfluxDB Line Protocol, or Datadog DogStatsD endpoints with tag-based dimensional routing."
 category: "Monitoring & Alerts"
 framework: "Custom Agents"
-verification: listed
-rating: 0
-reviews: 0
-creator: ""
+verification: listed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/statsd-metrics-aggregation-pipeline/"
-tool_ecosystem:
-  tool: "datadog"
-  github_stars: 787
-  npm_weekly_downloads: 6043057
-  github_repo: "DataDog/dd-trace-js"
-  license: "NOASSERTION"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "datadog"  # from ase_tool_match
+  github_stars: 787  # from ase_github_stars (integer, not string)
+  npm_weekly_downloads: 6043057  # from ase_npm_downloads
+  github_repo: "DataDog/dd-trace-js"  # from ase_github_repo
+  license: "NOASSERTION"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # StatsD Metrics Aggregation Pipeline
 
 Configures StatsD metric collection with custom aggregation rules and flush intervals. Routes metrics to Graphite Carbon, InfluxDB Line Protocol, or Datadog DogStatsD endpoints with tag-based dimensional routing.
 
+## Overview
+
+The StatsD Metrics Aggregation Pipeline skill manages application metrics collection and routing through StatsD-compatible metric pipelines. It configures metric type handling for counters, gauges, timers, histograms, and sets with customizable aggregation rules including percentile calculations, moving averages, and rate conversions.
+
+The skill supports multi-backend routing where aggregated metrics are simultaneously flushed to Graphite’s Carbon protocol (plaintext and pickle), InfluxDB Line Protocol with tag preservation, and Datadog’s DogStatsD extension format. Tag-based routing rules enable sending different metric namespaces to different backends based on dimensional metadata.
+
+Configuration capabilities include flush interval tuning with per-metric-type overrides, sampling rate adjustment to manage high-cardinality metric volume, prefix/suffix namespacing for multi-service environments, and metric filtering with allowlist/blocklist patterns. The skill also manages health monitoring of the metrics pipeline itself, tracking flush latency, packet loss rates, and backend write failures. It supports hot-reload of routing configuration without metric loss and provides metric throughput dashboards showing ingestion rates, aggregation overhead, and backend delivery confirmation.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill statsd-metrics-aggregation-pipeline
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill statsd-metrics-aggregation-pipeline -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill statsd-metrics-aggregation-pipeline -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install statsd-metrics-aggregation-pipeline
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill statsd-metrics-aggregation-pipeline -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Monitoring & Alerts |
-| **Framework** | Custom Agents |
-| **Verification** | 📋 Listed |
-| **Tool** | [datadog](https://github.com/DataDog/dd-trace-js) — ⭐ 787 · NOASSERTION |
+```bash
+clawhub install statsd-metrics-aggregation-pipeline
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/statsd-metrics-aggregation-pipeline/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/statsd-metrics-aggregation-pipeline/

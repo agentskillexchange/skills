@@ -3,62 +3,66 @@ name: "ESLint Rule Auditor"
 description: "Audits ESLint configurations using @eslint/eslintrc and @eslint/js flat config APIs. Detects conflicting rules, deprecated configs, and generates migration paths from eslintrc to eslint.config.js flat config format."
 category: "Code Quality & Review"
 framework: "Cursor"
-verification: listed
-rating: 0
-reviews: 0
-creator: ""
+verification: listed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/eslint-rule-auditor-3/"
-tool_ecosystem:
-  tool: "eslint"
-  github_stars: 27186
-  npm_weekly_downloads: 109028697
-  github_repo: "eslint/eslint"
-  license: "MIT"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "eslint"  # from ase_tool_match
+  github_stars: 27186  # from ase_github_stars (integer, not string)
+  npm_weekly_downloads: 109028697  # from ase_npm_downloads
+  github_repo: "eslint/eslint"  # from ase_github_repo
+  license: "MIT"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # ESLint Rule Auditor
 
 Audits ESLint configurations using @eslint/eslintrc and @eslint/js flat config APIs. Detects conflicting rules, deprecated configs, and generates migration paths from eslintrc to eslint.config.js flat config format.
 
+## Overview
+
+The ESLint Rule Auditor skill performs comprehensive analysis of ESLint configurations across JavaScript and TypeScript projects. It parses both legacy eslintrc and modern flat config formats using @eslint/eslintrc and @eslint/js APIs to build a complete picture of active rules, overrides, and plugin interactions.
+
+The skill detects common configuration issues including conflicting rules between extends chains, deprecated rule usage flagged by eslint –print-config, overlapping plugin rules from @typescript-eslint/eslint-plugin and eslint-plugin-import, and misconfigured parser options. It evaluates rule severity distributions and identifies overly permissive configurations that may miss code quality issues.
+
+For projects still using legacy eslintrc format, the auditor generates detailed migration plans to eslint.config.js flat config, mapping each extends entry to its equivalent flat config import and converting overrides patterns to the new glob-based configuration arrays. It also benchmarks rule execution times using TIMING=1 environment variable to identify slow rules impacting CI performance, and suggests equivalent faster alternatives where available.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill eslint-rule-auditor-3
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill eslint-rule-auditor-3 -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill eslint-rule-auditor-3 -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install eslint-rule-auditor-3
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill eslint-rule-auditor-3 -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Code Quality & Review |
-| **Framework** | Cursor |
-| **Verification** | 📋 Listed |
-| **Tool** | [eslint](https://github.com/eslint/eslint) — ⭐ 27.2k · MIT |
+```bash
+clawhub install eslint-rule-auditor-3
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/eslint-rule-auditor-3/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/eslint-rule-auditor-3/

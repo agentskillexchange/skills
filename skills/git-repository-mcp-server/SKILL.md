@@ -3,10 +3,10 @@ name: "Git Repository MCP Server"
 description: "Structured Git repository operations for agent-assisted development."
 category: "Developer Tools"
 framework: "Claude Code"
-verification: listed
-rating: 0
-reviews: 0
-creator: ""
+verification: listed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/git-repository-mcp-server/"
@@ -16,41 +16,42 @@ source: "https://agentskillexchange.com/skills/git-repository-mcp-server/"
 
 Structured Git repository operations for agent-assisted development.
 
+## Overview
+
+Exposes Git repository context and operations through MCP so agents can inspect history, diffs, branches, and repository state more reliably.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill git-repository-mcp-server
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill git-repository-mcp-server -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill git-repository-mcp-server -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install git-repository-mcp-server
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill git-repository-mcp-server -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Developer Tools |
-| **Framework** | Claude Code |
-| **Verification** | 📋 Listed |
+```bash
+clawhub install git-repository-mcp-server
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/git-repository-mcp-server/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/git-repository-mcp-server/

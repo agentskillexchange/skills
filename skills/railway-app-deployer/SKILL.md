@@ -3,62 +3,62 @@ name: "Railway App Deployer"
 description: "Deploy and manage Railway applications, services, and databases through the Railway CLI and GraphQL API. Enables AI agents to create projects, link GitHub repos, manage environment variables, and monitor deployment status and logs."
 category: "Templates & Workflows"
 framework: "Custom Agents"
-verification: listed
-rating: 0
-reviews: 0
-creator: ""
+verification: listed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/railway-app-deployer/"
-tool_ecosystem:
-  tool: "graphql"
-  github_stars: 20335
-  npm_weekly_downloads: 32010306
-  github_repo: "graphql/graphql-js"
-  license: "MIT"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "graphql"  # from ase_tool_match
+  github_stars: 20335  # from ase_github_stars (integer, not string)
+  npm_weekly_downloads: 32010306  # from ase_npm_downloads
+  github_repo: "graphql/graphql-js"  # from ase_github_repo
+  license: "MIT"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Railway App Deployer
 
 Deploy and manage Railway applications, services, and databases through the Railway CLI and GraphQL API. Enables AI agents to create projects, link GitHub repos, manage environment variables, and monitor deployment status and logs.
 
+## Overview
+
+Deploy and manage Railway applications, services, and databases through the Railway CLI and GraphQL API. Enables AI agents to create projects, link GitHub repos, manage environment variables, and monitor deployment status and logs.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill railway-app-deployer
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill railway-app-deployer -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill railway-app-deployer -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install railway-app-deployer
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill railway-app-deployer -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Templates & Workflows |
-| **Framework** | Custom Agents |
-| **Verification** | 📋 Listed |
-| **Tool** | [graphql](https://github.com/graphql/graphql-js) — ⭐ 20.3k · MIT |
+```bash
+clawhub install railway-app-deployer
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/railway-app-deployer/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/railway-app-deployer/

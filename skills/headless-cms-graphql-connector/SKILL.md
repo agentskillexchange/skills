@@ -3,62 +3,66 @@ name: "Headless CMS GraphQL Connector"
 description: "Connects headless CMS backends (WordPress WPGraphQL, Strapi, Contentful) to frontend frameworks using Apollo Client and urql. Handles content previews, ISR cache invalidation, and webhook-driven rebuilds."
 category: "WordPress & CMS"
 framework: "Gemini"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/headless-cms-graphql-connector/"
-tool_ecosystem:
-  tool: "graphql"
-  github_stars: 20335
-  npm_weekly_downloads: 32010306
-  github_repo: "graphql/graphql-js"
-  license: "MIT"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "graphql"  # from ase_tool_match
+  github_stars: 20335  # from ase_github_stars (integer, not string)
+  npm_weekly_downloads: 32010306  # from ase_npm_downloads
+  github_repo: "graphql/graphql-js"  # from ase_github_repo
+  license: "MIT"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Headless CMS GraphQL Connector
 
 Connects headless CMS backends (WordPress WPGraphQL, Strapi, Contentful) to frontend frameworks using Apollo Client and urql. Handles content previews, ISR cache invalidation, and webhook-driven rebuilds.
 
+## Overview
+
+This skill bridges headless CMS platforms with modern frontend frameworks using GraphQL as the unified query layer. It supports WordPress via WPGraphQL, Strapi v4 GraphQL plugin, and Contentful GraphQL Content API, providing normalized data fetching regardless of the backend CMS.
+
+Client-side integration uses Apollo Client or urql with automatic cache management, optimistic UI updates, and subscription support for real-time content changes. Query generation handles nested content relationships, image transformations via CMS-specific APIs (WordPress srcset, Contentful Images API, Strapi media), and locale-aware content fetching for multilingual sites.
+
+Build integration supports Incremental Static Regeneration (ISR) with Next.js and on-demand revalidation triggered by CMS webhooks. Content preview mode enables editors to see draft changes in the frontend before publishing. The skill handles authentication for protected content, rate limiting for API quotas, and graceful fallbacks when the CMS is unreachable.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill headless-cms-graphql-connector
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill headless-cms-graphql-connector -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill headless-cms-graphql-connector -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install headless-cms-graphql-connector
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill headless-cms-graphql-connector -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | WordPress & CMS |
-| **Framework** | Gemini |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | [graphql](https://github.com/graphql/graphql-js) — ⭐ 20.3k · MIT |
+```bash
+clawhub install headless-cms-graphql-connector
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/headless-cms-graphql-connector/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/headless-cms-graphql-connector/

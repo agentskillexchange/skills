@@ -3,62 +3,67 @@ name: "ArgoCD Application Sync Monitor"
 description: "Monitors ArgoCD application sync status via the ArgoCD REST API and argocd CLI. Detects OutOfSync conditions, tracks sync wave progress, and alerts on failed sync operations with detailed resource diff analysis using argocd app diff."
 category: "CI/CD Integrations"
 framework: "Claude Code"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/argocd-application-sync-monitor/"
-tool_ecosystem:
-  tool: "argocd"
-  github_stars: 22391
-  npm_weekly_downloads: 0
-  github_repo: "argoproj/argo-cd"
-  license: "Apache-2.0"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "argocd"  # from ase_tool_match
+  github_stars: 22391  # from ase_github_stars (integer, not string)
+  github_repo: "argoproj/argo-cd"  # from ase_github_repo
+  license: "Apache-2.0"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # ArgoCD Application Sync Monitor
 
 Monitors ArgoCD application sync status via the ArgoCD REST API and argocd CLI. Detects OutOfSync conditions, tracks sync wave progress, and alerts on failed sync operations with detailed resource diff analysis using argocd app diff.
 
+## Overview
+
+The ArgoCD Application Sync Monitor skill provides continuous monitoring of GitOps application deployments managed by ArgoCD. It connects to the ArgoCD server via its REST API to query application sync status, health state, and resource details across multiple clusters.
+
+The skill polls application endpoints to detect OutOfSync conditions where the desired state in Git diverges from the live cluster state. When drift is detected, it uses argocd app diff to generate detailed resource-level comparisons showing exactly which Kubernetes manifests have changed, including annotation, label, and spec differences.
+
+Sync wave monitoring tracks multi-phase deployments where resources are applied in ordered waves using the argocd.argoproj.io/sync-wave annotation. The skill reports progress through each wave, identifies stuck resources that prevent wave advancement, and detects sync hook failures (PreSync, Sync, PostSync, SyncFail).
+
+Alerting integrates with Slack via incoming webhooks and email via SMTP. Alert payloads include the application name, sync status, health status, affected resources with their GVK (Group/Version/Kind), and direct links to the ArgoCD UI for investigation. The skill supports configurable alert thresholds to avoid notification fatigue during planned rollouts.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill argocd-application-sync-monitor
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill argocd-application-sync-monitor -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill argocd-application-sync-monitor -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install argocd-application-sync-monitor
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill argocd-application-sync-monitor -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | CI/CD Integrations |
-| **Framework** | Claude Code |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | [argocd](https://github.com/argoproj/argo-cd) — ⭐ 22.4k · Apache-2.0 |
+```bash
+clawhub install argocd-application-sync-monitor
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/argocd-application-sync-monitor/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/argocd-application-sync-monitor/

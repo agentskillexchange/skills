@@ -1,12 +1,12 @@
 ---
 name: "WP Multisite Domain Mapping Agent"
 description: "Manages domain mapping configurations across WordPress Multisite networks using the sunrise.php drop-in and WP-CLI’s site commands. Handles SSL certificate provisioning via Certbot ACME, DNS validation through Cloudflare API, and wp_blogs table updates for custom domain routing."
-category: "WordPress &amp; CMS"
-framework: ""
-verification: listed
-rating: 0.0
-reviews: 0
-creator: ""
+category: "WordPress & CMS"
+framework: "Custom Agents"
+verification: listed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/wp-multisite-domain-mapping-agent/"
@@ -16,33 +16,46 @@ source: "https://agentskillexchange.com/skills/wp-multisite-domain-mapping-agent
 
 Manages domain mapping configurations across WordPress Multisite networks using the sunrise.php drop-in and WP-CLI’s site commands. Handles SSL certificate provisioning via Certbot ACME, DNS validation through Cloudflare API, and wp_blogs table updates for custom domain routing.
 
+## Overview
+
+WP Multisite Domain Mapping Agent handles the complete domain mapping lifecycle for WordPress Multisite installations. It configures the sunrise.php drop-in for early domain resolution, manages the wp_blogs and wp_site tables for network routing, and coordinates SSL provisioning through Certbot’s ACME protocol with DNS-01 challenges via the Cloudflare API.
+
+New domain mappings are provisioned by updating the DOMAIN_CURRENT_SITE constant context, creating DNS records through Cloudflare’s /zones/{zone_id}/dns_records endpoint, and waiting for propagation before triggering Certbot with –preferred-challenges dns-01. The agent runs WP-CLI commands like wp site create, wp option update, and wp search-replace for URL migration across the network.
+
+Health monitoring checks SSL certificate expiry dates, validates DNS resolution against expected IP addresses, and tests HTTP-to-HTTPS redirects. For subdomain-to-custom-domain transitions, it handles the wp_sitemeta updates, rewrites .htaccess or Nginx server blocks, and flushes object cache groups. Rollback capability maintains the previous DNS and WordPress configuration state for safe reversion.
+
 ## Installation
 
-### Any AI Agent (npx)
+### Any Agent
+
 ```bash
-npx @anthropic/agent-skills add wp-multisite-domain-mapping-agent
+npx skills add agentskillexchange/skills --skill wp-multisite-domain-mapping-agent
 ```
 
 ### Claude Code
+
 ```bash
-npx skills add wp-multisite-domain-mapping-agent
+npx skills add agentskillexchange/skills --skill wp-multisite-domain-mapping-agent -a claude-code
 ```
 
 ### Cursor
+
 ```bash
-npx skills add wp-multisite-domain-mapping-agent
+npx skills add agentskillexchange/skills --skill wp-multisite-domain-mapping-agent -a cursor
 ```
 
 ### Codex
+
 ```bash
-npx skills add wp-multisite-domain-mapping-agent
+npx skills add agentskillexchange/skills --skill wp-multisite-domain-mapping-agent -a codex
 ```
 
 ### OpenClaw
+
 ```bash
 clawhub install wp-multisite-domain-mapping-agent
 ```
 
 ## Source
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/wp-multisite-domain-mapping-agent/)
+- Marketplace: https://agentskillexchange.com/skills/wp-multisite-domain-mapping-agent/

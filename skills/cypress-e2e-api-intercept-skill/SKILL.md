@@ -3,62 +3,62 @@ name: "Cypress E2E API Intercept Skill"
 description: "Creates end-to-end tests with Cypress cy.intercept() for API mocking and cy.wait() for request assertion. Uses Cypress Testing Library queries with findByRole() and findByText() for accessible element selection."
 category: "Browser Automation"
 framework: "Codex"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/cypress-e2e-api-intercept-skill/"
-tool_ecosystem:
-  tool: "cypress"
-  github_stars: 49612
-  npm_weekly_downloads: 7404178
-  github_repo: "cypress-io/cypress"
-  license: "MIT"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "cypress"  # from ase_tool_match
+  github_stars: 49612  # from ase_github_stars (integer, not string)
+  npm_weekly_downloads: 7404178  # from ase_npm_downloads
+  github_repo: "cypress-io/cypress"  # from ase_github_repo
+  license: "MIT"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Cypress E2E API Intercept Skill
 
 Creates end-to-end tests with Cypress cy.intercept() for API mocking and cy.wait() for request assertion. Uses Cypress Testing Library queries with findByRole() and findByText() for accessible element selection.
 
+## Overview
+
+This skill generates comprehensive end-to-end test suites using the Cypress testing framework with advanced API interception capabilities. It uses cy.intercept() to mock, stub, and spy on HTTP requests, enabling tests to run independently of backend services. API responses are stubbed using cy.intercept(“GET”, “/api/users”, { fixture: “users.json” }) with support for dynamic response generation via routeHandler callbacks. Request assertions use cy.wait(“@alias”) to verify request bodies, headers, and query parameters. The skill integrates Cypress Testing Library for accessible element queries: cy.findByRole(“button”, { name: /submit/i }), cy.findByText(), and cy.findByLabelText(). It generates test files following the Arrange-Act-Assert pattern with proper beforeEach hooks for setup. Custom commands are defined via Cypress.Commands.add() for reusable login flows, data seeding, and cleanup operations. The skill supports component testing via cy.mount() for React/Vue components and generates cypress.config.js with proper baseUrl, viewportWidth, and retries configuration. Test data management uses cy.fixture() for JSON fixtures and cy.task() for database operations.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill cypress-e2e-api-intercept-skill
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill cypress-e2e-api-intercept-skill -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill cypress-e2e-api-intercept-skill -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install cypress-e2e-api-intercept-skill
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill cypress-e2e-api-intercept-skill -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Browser Automation |
-| **Framework** | Codex |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | [cypress](https://github.com/cypress-io/cypress) — ⭐ 49.6k · MIT |
+```bash
+clawhub install cypress-e2e-api-intercept-skill
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/cypress-e2e-api-intercept-skill/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/cypress-e2e-api-intercept-skill/

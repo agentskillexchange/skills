@@ -3,10 +3,10 @@ name: "DB Connection Runbook"
 description: "Operational runbook for diagnosing and resolving database connection failures in production environments. Covers connection pool exhaustion, credential rotation, network partitions, and replica lag issues."
 category: "Runbooks & Diagnostics"
 framework: "Custom Agents"
-verification: listed
-rating: 0
-reviews: 0
-creator: ""
+verification: listed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/db-connection-runbook/"
@@ -16,41 +16,42 @@ source: "https://agentskillexchange.com/skills/db-connection-runbook/"
 
 Operational runbook for diagnosing and resolving database connection failures in production environments. Covers connection pool exhaustion, credential rotation, network partitions, and replica lag issues.
 
+## Overview
+
+Operational runbook for diagnosing and resolving database connection failures in production environments. Covers connection pool exhaustion, credential rotation, network partitions, and replica lag issues.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill db-connection-runbook
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill db-connection-runbook -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill db-connection-runbook -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install db-connection-runbook
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill db-connection-runbook -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Runbooks & Diagnostics |
-| **Framework** | Custom Agents |
-| **Verification** | 📋 Listed |
+```bash
+clawhub install db-connection-runbook
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/db-connection-runbook/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/db-connection-runbook/

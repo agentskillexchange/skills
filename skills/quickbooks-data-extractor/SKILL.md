@@ -3,10 +3,10 @@ name: "QuickBooks Data Extractor"
 description: "Extracts financial data from QuickBooks Online — invoices, expenses, P&L, balance sheet, cash flow reports, and customer/vendor lists. Useful for finance analysis, tax prep, and building financial dashboards."
 category: "Integrations & Connectors"
 framework: "Custom Agents"
-verification: listed
-rating: 0
-reviews: 0
-creator: ""
+verification: listed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/quickbooks-data-extractor/"
@@ -16,41 +16,42 @@ source: "https://agentskillexchange.com/skills/quickbooks-data-extractor/"
 
 Extracts financial data from QuickBooks Online — invoices, expenses, P&L, balance sheet, cash flow reports, and customer/vendor lists. Useful for finance analysis, tax prep, and building financial dashboards.
 
+## Overview
+
+Extracts financial data from QuickBooks Online — invoices, expenses, P&L, balance sheet, cash flow reports, and customer/vendor lists. Useful for finance analysis, tax prep, and building financial dashboards.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill quickbooks-data-extractor
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill quickbooks-data-extractor -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill quickbooks-data-extractor -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install quickbooks-data-extractor
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill quickbooks-data-extractor -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Integrations & Connectors |
-| **Framework** | Custom Agents |
-| **Verification** | 📋 Listed |
+```bash
+clawhub install quickbooks-data-extractor
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/quickbooks-data-extractor/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/quickbooks-data-extractor/

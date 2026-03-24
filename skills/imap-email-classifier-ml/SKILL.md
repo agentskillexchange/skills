@@ -3,10 +3,10 @@ name: "IMAP Email Classifier"
 description: "Classifies and organizes emails from IMAP servers using imaplib and scikit-learn text classification. Supports custom label rules with SpaCy NER for entity extraction."
 category: "Calendar, Email & Productivity"
 framework: "ChatGPT Agents"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/imap-email-classifier-ml/"
@@ -16,41 +16,42 @@ source: "https://agentskillexchange.com/skills/imap-email-classifier-ml/"
 
 Classifies and organizes emails from IMAP servers using imaplib and scikit-learn text classification. Supports custom label rules with SpaCy NER for entity extraction.
 
+## Overview
+
+IMAP Email Classifier connects to any IMAP-compatible email server to automatically classify incoming messages into configurable categories. It uses scikit-learn TF-IDF vectorization with LinearSVC classifiers trained on user-labeled examples for high-accuracy categorization. SpaCy NER models extract entities like dates, monetary amounts, and organization names for structured metadata tagging. The tool supports IMAP IDLE for push-based real-time classification, MIME multipart parsing for attachment analysis, and S/MIME header verification. Custom rules engine allows regex-based overrides for known senders or subject patterns. It generates weekly email analytics including response time tracking, sender frequency analysis, and category volume trends. Integration with Microsoft Graph API enables dual Exchange/IMAP support. Training data management includes active learning loops for continuous model improvement.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill imap-email-classifier-ml
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill imap-email-classifier-ml -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill imap-email-classifier-ml -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install imap-email-classifier-ml
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill imap-email-classifier-ml -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Calendar, Email & Productivity |
-| **Framework** | ChatGPT Agents |
-| **Verification** | 🛡️ Security Reviewed |
+```bash
+clawhub install imap-email-classifier-ml
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/imap-email-classifier-ml/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/imap-email-classifier-ml/

@@ -3,62 +3,66 @@ name: "Notion Workspace Sync Agent"
 description: "Bidirectionally syncs project data between Notion databases and external tools using the Notion API v2022-06-28. Connects Jira (REST API), Linear (GraphQL), and GitHub Issues for unified project tracking."
 category: "Calendar, Email & Productivity"
 framework: "Custom Agents"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/notion-workspace-sync-agent/"
-tool_ecosystem:
-  tool: "notion"
-  github_stars: 5562
-  npm_weekly_downloads: 1084242
-  github_repo: "makenotion/notion-sdk-js"
-  license: "MIT"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "notion"  # from ase_tool_match
+  github_stars: 5562  # from ase_github_stars (integer, not string)
+  npm_weekly_downloads: 1084242  # from ase_npm_downloads
+  github_repo: "makenotion/notion-sdk-js"  # from ase_github_repo
+  license: "MIT"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Notion Workspace Sync Agent
 
 Bidirectionally syncs project data between Notion databases and external tools using the Notion API v2022-06-28. Connects Jira (REST API), Linear (GraphQL), and GitHub Issues for unified project tracking.
 
+## Overview
+
+The Notion Workspace Sync Agent creates a unified project management hub by bidirectionally synchronizing data between Notion databases and popular project tracking tools. Using the Notion API (version 2022-06-28) with database and page manipulation capabilities, it maintains real-time consistency across Jira, Linear, and GitHub Issues.
+
+The sync engine maps fields intelligently: Jira issue types to Notion select properties, Linear priority levels to Notion status groups, GitHub labels to Notion multi-select tags, and assignees to Notion people properties via email matching. It handles rich content synchronization including Markdown-to-Notion block conversion for descriptions, comment threading with attribution, and attachment linking.
+
+Conflict resolution follows configurable strategies: last-write-wins, source-of-truth per field, or manual review queue for contested changes. The agent supports filtered sync rules (e.g., only sync epics from Jira, only sync high-priority Linear issues) and transformation pipelines that can enrich data during sync (adding team labels, calculating derived fields). It logs all sync operations to a dedicated Notion audit database and can generate weekly sync health reports with error rates, latency metrics, and data consistency scores.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill notion-workspace-sync-agent
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill notion-workspace-sync-agent -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill notion-workspace-sync-agent -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install notion-workspace-sync-agent
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill notion-workspace-sync-agent -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Calendar, Email & Productivity |
-| **Framework** | Custom Agents |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | [notion](https://github.com/makenotion/notion-sdk-js) — ⭐ 5.6k · MIT |
+```bash
+clawhub install notion-workspace-sync-agent
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/notion-workspace-sync-agent/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/notion-workspace-sync-agent/

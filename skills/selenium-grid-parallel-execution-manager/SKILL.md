@@ -3,62 +3,62 @@ name: "Selenium Grid Parallel Execution Manager"
 description: "Orchestrates distributed browser testing across Selenium Grid 4 nodes using the Grid REST API. Manages session allocation, node health monitoring, and parallel TestNG suite execution."
 category: "Browser Automation"
 framework: "Claude Agents"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/selenium-grid-parallel-execution-manager/"
-tool_ecosystem:
-  tool: "selenium"
-  github_stars: 34169
-  npm_weekly_downloads: 2000657
-  github_repo: "SeleniumHQ/selenium"
-  license: "Apache-2.0"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "selenium"  # from ase_tool_match
+  github_stars: 34169  # from ase_github_stars (integer, not string)
+  npm_weekly_downloads: 2000657  # from ase_npm_downloads
+  github_repo: "SeleniumHQ/selenium"  # from ase_github_repo
+  license: "Apache-2.0"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Selenium Grid Parallel Execution Manager
 
 Orchestrates distributed browser testing across Selenium Grid 4 nodes using the Grid REST API. Manages session allocation, node health monitoring, and parallel TestNG suite execution.
 
+## Overview
+
+The Selenium Grid Parallel Execution Manager handles distributed browser test execution across Selenium Grid 4 infrastructure. It communicates with the Grid Hub via the SE4 REST API to monitor node availability, browser capabilities, and session queue depth. The skill dynamically configures TestNG XML suites to maximize parallelism based on available Grid capacity—allocating Chrome, Firefox, and Edge sessions proportionally across registered nodes. It implements smart test distribution using a priority queue that runs flaky or slow tests first, maximizing pipeline efficiency. Session management includes automatic retry logic for node disconnections and stale session cleanup via the Grid drain API. The skill monitors real-time Grid status dashboards through the GraphQL endpoint, tracking session creation latency, queue wait times, and node CPU utilization. It supports Docker-based dynamic Grid scaling by triggering Kubernetes HPA or Docker Compose scale commands when queue depth exceeds configurable thresholds. Test results are aggregated across all nodes into unified Allure reports with screenshots, video recordings via Selenium Video plugin, and browser console logs attached to each test case.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill selenium-grid-parallel-execution-manager
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill selenium-grid-parallel-execution-manager -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill selenium-grid-parallel-execution-manager -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install selenium-grid-parallel-execution-manager
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill selenium-grid-parallel-execution-manager -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Browser Automation |
-| **Framework** | Claude Agents |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | [selenium](https://github.com/SeleniumHQ/selenium) — ⭐ 34.2k · Apache-2.0 |
+```bash
+clawhub install selenium-grid-parallel-execution-manager
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/selenium-grid-parallel-execution-manager/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/selenium-grid-parallel-execution-manager/

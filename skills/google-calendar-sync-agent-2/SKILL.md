@@ -3,10 +3,10 @@ name: "Google Calendar Sync Agent"
 description: "Synchronizes events across multiple Google Calendar accounts using the Calendar API v3 and OAuth 2.0. Handles recurring events, timezone conversions, and conflict resolution."
 category: "Calendar, Email & Productivity"
 framework: "OpenClaw"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/google-calendar-sync-agent-2/"
@@ -16,41 +16,42 @@ source: "https://agentskillexchange.com/skills/google-calendar-sync-agent-2/"
 
 Synchronizes events across multiple Google Calendar accounts using the Calendar API v3 and OAuth 2.0. Handles recurring events, timezone conversions, and conflict resolution.
 
+## Overview
+
+Google Calendar Sync Agent manages bidirectional synchronization across multiple Google Calendar accounts through the Calendar API v3. It uses incremental sync tokens to minimize API quota consumption, processing only changed events since the last sync. The agent handles complex recurring event patterns including RRULE with EXDATE exceptions, properly converting between timezones using the IANA tz database. Conflict resolution supports configurable strategies: last-write-wins, source-priority, or interactive prompting. It manages OAuth 2.0 refresh token rotation across multiple accounts and supports Google Workspace domain-wide delegation for organizational calendars. The tool generates daily agenda summaries, detects double-bookings across synced calendars, and supports color-coding rules based on event source. Push notifications via Google Cloud Pub/Sub enable near-real-time sync.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill google-calendar-sync-agent-2
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill google-calendar-sync-agent-2 -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill google-calendar-sync-agent-2 -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install google-calendar-sync-agent-2
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill google-calendar-sync-agent-2 -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Calendar, Email & Productivity |
-| **Framework** | OpenClaw |
-| **Verification** | 🛡️ Security Reviewed |
+```bash
+clawhub install google-calendar-sync-agent-2
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/google-calendar-sync-agent-2/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/google-calendar-sync-agent-2/

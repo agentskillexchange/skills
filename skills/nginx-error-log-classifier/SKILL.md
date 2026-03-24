@@ -3,62 +3,65 @@ name: "Nginx Error Log Classifier"
 description: "Classifies and prioritizes Nginx error log entries using pattern matching against known error signatures and the GoAccess real-time log analyzer. Maps upstream timeout patterns to specific backend service degradation."
 category: "Runbooks & Diagnostics"
 framework: "Cursor"
-verification: listed
-rating: 0
-reviews: 0
-creator: ""
+verification: listed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/nginx-error-log-classifier/"
-tool_ecosystem:
-  tool: "nginx"
-  github_stars: 29762
-  npm_weekly_downloads: 0
-  github_repo: "nginx/nginx"
-  license: "BSD-2-Clause"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "nginx"  # from ase_tool_match
+  github_stars: 29762  # from ase_github_stars (integer, not string)
+  github_repo: "nginx/nginx"  # from ase_github_repo
+  license: "BSD-2-Clause"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Nginx Error Log Classifier
 
 Classifies and prioritizes Nginx error log entries using pattern matching against known error signatures and the GoAccess real-time log analyzer. Maps upstream timeout patterns to specific backend service degradation.
 
+## Overview
+
+The Nginx Error Log Classifier skill processes Nginx error logs to identify, classify, and prioritize issues affecting web application delivery. It parses error.log entries using regex patterns matched against a curated database of known Nginx error signatures, categorizing them into upstream failures, SSL/TLS errors, configuration issues, and resource exhaustion events.
+
+The skill integrates with GoAccess for real-time log analysis and can process access.log entries to correlate error spikes with traffic patterns. It maps upstream timeout and connection refused patterns to specific backend services by cross-referencing Nginx upstream block configurations, helping identify which microservice is degraded.
+
+Advanced capabilities include SSL handshake failure diagnosis by inspecting certificate chains via OpenSSL s_client, worker process crash analysis through core dump inspection, and rate limiting effectiveness evaluation by analyzing limit_req and limit_conn zone statistics. The skill generates actionable Nginx configuration snippets for resolving detected issues, including buffer size adjustments, keepalive tuning, and proxy timeout optimization.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill nginx-error-log-classifier
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill nginx-error-log-classifier -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill nginx-error-log-classifier -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install nginx-error-log-classifier
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill nginx-error-log-classifier -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Runbooks & Diagnostics |
-| **Framework** | Cursor |
-| **Verification** | 📋 Listed |
-| **Tool** | [nginx](https://github.com/nginx/nginx) — ⭐ 29.8k · BSD-2-Clause |
+```bash
+clawhub install nginx-error-log-classifier
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/nginx-error-log-classifier/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/nginx-error-log-classifier/

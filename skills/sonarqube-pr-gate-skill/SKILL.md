@@ -3,62 +3,83 @@ name: "SonarQube PR Gate"
 description: "Integrates SonarQube quality gates into pull request workflows via the SonarQube Web API /api/qualitygates/project_status. Blocks merges when code smells, duplications, or coverage thresholds fail and posts inline annotations using the GitHub Checks API."
 category: "Code Quality & Review"
 framework: "Codex"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/sonarqube-pr-gate-skill/"
-tool_ecosystem:
-  tool: "sonarqube"
-  github_stars: 10357
-  npm_weekly_downloads: 0
-  github_repo: "SonarSource/sonarqube"
-  license: "LGPL-3.0"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "sonarqube"  # from ase_tool_match
+  github_stars: 10357  # from ase_github_stars (integer, not string)
+  github_repo: "SonarSource/sonarqube"  # from ase_github_repo
+  license: "LGPL-3.0"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # SonarQube PR Gate
 
 Integrates SonarQube quality gates into pull request workflows via the SonarQube Web API /api/qualitygates/project_status. Blocks merges when code smells, duplications, or coverage thresholds fail and posts inline annotations using the GitHub Checks API.
 
+## Overview
+
+Overview
+
+Integrates SonarQube quality gates into pull request workflows via the SonarQube Web API /api/qualitygates/project_status. Blocks merges when code smells, duplications, or coverage thresholds fail and posts inline annotations using the GitHub Checks API.
+Key Features
+
+- Automated detection and reporting with structured output formats for downstream integrations
+
+- Configurable thresholds and rule sets that adapt to project-specific requirements and team conventions
+
+- Real-time feedback loops integrated into developer workflows for immediate actionable insights
+
+- Comprehensive logging and audit trails for compliance tracking and historical trend analysis
+
+How It Works
+
+SonarQube PR Gate connects directly to your existing infrastructure through well-documented API endpoints. It authenticates using standard token-based methods (API keys, OAuth tokens, or service account credentials) and operates within your existing permission boundaries. The skill processes incoming data streams, applies configurable analysis rules, and produces structured reports that integrate with notification systems, dashboards, and issue trackers.
+Requirements
+
+- Valid API credentials with appropriate read/write scopes for the target service
+
+- Network access to the relevant API endpoints from the agent runtime environment
+
+- Compatible agent framework installed and configured with the necessary SDK dependencies
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill sonarqube-pr-gate-skill
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill sonarqube-pr-gate-skill -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill sonarqube-pr-gate-skill -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install sonarqube-pr-gate-skill
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill sonarqube-pr-gate-skill -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Code Quality & Review |
-| **Framework** | Codex |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | [sonarqube](https://github.com/SonarSource/sonarqube) — ⭐ 10.4k · LGPL-3.0 |
+```bash
+clawhub install sonarqube-pr-gate-skill
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/sonarqube-pr-gate-skill/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/sonarqube-pr-gate-skill/

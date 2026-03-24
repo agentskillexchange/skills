@@ -3,62 +3,65 @@ name: "Kubernetes Event Stream Analyzer"
 description: "Watches Kubernetes event streams via the Watch API and correlates pod lifecycle events with resource metrics from Metrics Server. Detects CrashLoopBackOff patterns and OOMKilled signals for automated triage."
 category: "Monitoring & Alerts"
 framework: "Gemini"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/kubernetes-event-stream-analyzer/"
-tool_ecosystem:
-  tool: "kubernetes"
-  github_stars: 121313
-  npm_weekly_downloads: 0
-  github_repo: "kubernetes/kubernetes"
-  license: "Apache-2.0"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "kubernetes"  # from ase_tool_match
+  github_stars: 121313  # from ase_github_stars (integer, not string)
+  github_repo: "kubernetes/kubernetes"  # from ase_github_repo
+  license: "Apache-2.0"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Kubernetes Event Stream Analyzer
 
 Watches Kubernetes event streams via the Watch API and correlates pod lifecycle events with resource metrics from Metrics Server. Detects CrashLoopBackOff patterns and OOMKilled signals for automated triage.
 
+## Overview
+
+The Kubernetes Event Stream Analyzer skill provides real-time monitoring and intelligent triage of Kubernetes cluster events through the Watch API. It maintains a persistent watch connection to the Events API, capturing pod scheduling decisions, container state transitions, volume mount failures, and node condition changes as they occur.
+
+The skill correlates event streams with resource utilization data from the Kubernetes Metrics Server API, enabling detection of patterns like memory pressure leading to OOMKilled terminations, CPU throttling causing health check failures, and persistent volume claim binding delays impacting pod startup times. CrashLoopBackOff detection includes automatic log collection from previous container instances via the pod log API.
+
+Advanced features include event deduplication with configurable time windows, anomaly detection based on historical event frequency baselines, and structured incident summaries that include the full event chain from scheduling through termination. The skill supports namespace filtering, label selector scoping, and field selector optimization to reduce API server load in large clusters with thousands of pods.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill kubernetes-event-stream-analyzer
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill kubernetes-event-stream-analyzer -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill kubernetes-event-stream-analyzer -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install kubernetes-event-stream-analyzer
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill kubernetes-event-stream-analyzer -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Monitoring & Alerts |
-| **Framework** | Gemini |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | [kubernetes](https://github.com/kubernetes/kubernetes) — ⭐ 121.3k · Apache-2.0 |
+```bash
+clawhub install kubernetes-event-stream-analyzer
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-event-stream-analyzer/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/kubernetes-event-stream-analyzer/

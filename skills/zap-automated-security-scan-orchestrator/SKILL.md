@@ -3,62 +3,65 @@ name: "ZAP Automated Security Scan Orchestrator"
 description: "Orchestrates OWASP ZAP security scans via the ZAP API with automated spider, active scanner, and authentication sequence configuration. Generates compliance reports mapped to OWASP Top 10 and exports findings in SARIF and JUnit XML formats."
 category: "Security & Verification"
 framework: "Codex"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/zap-automated-security-scan-orchestrator/"
-tool_ecosystem:
-  tool: "owasp"
-  github_stars: 14896
-  npm_weekly_downloads: 0
-  github_repo: "zaproxy/zaproxy"
-  license: "Apache-2.0"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "owasp"  # from ase_tool_match
+  github_stars: 14896  # from ase_github_stars (integer, not string)
+  github_repo: "zaproxy/zaproxy"  # from ase_github_repo
+  license: "Apache-2.0"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # ZAP Automated Security Scan Orchestrator
 
 Orchestrates OWASP ZAP security scans via the ZAP API with automated spider, active scanner, and authentication sequence configuration. Generates compliance reports mapped to OWASP Top 10 and exports findings in SARIF and JUnit XML formats.
 
+## Overview
+
+The ZAP Automated Security Scan Orchestrator manages end-to-end dynamic application security testing using OWASP ZAP through its REST API. It configures and executes multi-phase scan workflows starting with traditional and AJAX spider discovery, followed by passive analysis and targeted active scanning against discovered endpoints.
+
+Authentication handling supports multiple schemes including form-based login with anti-CSRF token extraction, OAuth 2.0 bearer token injection, and session cookie management through ZAP authentication scripts. Scan policies are customizable per engagement type with tunable scanner strength and threshold settings for balancing thoroughness against scan duration.
+
+The orchestrator maps findings to OWASP Top 10 categories with remediation guidance and severity ratings adjusted for application context. Output formats include HTML reports for stakeholder review, SARIF for GitHub Advanced Security integration, JUnit XML for CI pipeline quality gates, and JSON for programmatic processing. Baseline scan profiles enable regression testing in CI where new findings break the build while known accepted risks are suppressed. ZAP marketplace add-ons are managed declaratively for consistent scan capabilities across environments.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill zap-automated-security-scan-orchestrator
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill zap-automated-security-scan-orchestrator -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill zap-automated-security-scan-orchestrator -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install zap-automated-security-scan-orchestrator
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill zap-automated-security-scan-orchestrator -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Security & Verification |
-| **Framework** | Codex |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | [owasp](https://github.com/zaproxy/zaproxy) — ⭐ 14.9k · Apache-2.0 |
+```bash
+clawhub install zap-automated-security-scan-orchestrator
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/zap-automated-security-scan-orchestrator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/zap-automated-security-scan-orchestrator/

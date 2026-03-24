@@ -3,62 +3,68 @@ name: "Puppeteer Multi-Tab Session Manager"
 description: "Manages concurrent Puppeteer browser tabs with shared cookie jars and session persistence using Chrome DevTools Protocol. Handles tab lifecycle, navigation queues, and automatic retry with exponential backoff via puppeteer-cluster."
 category: "Browser Automation"
 framework: "Claude Code"
-verification: listed
-rating: 0
-reviews: 0
-creator: ""
+verification: listed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/puppeteer-multi-tab-session-manager/"
-tool_ecosystem:
-  tool: "puppeteer"
-  github_stars: 93912
-  npm_weekly_downloads: 8696130
-  github_repo: "puppeteer/puppeteer"
-  license: "Apache-2.0"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "puppeteer"  # from ase_tool_match
+  github_stars: 93912  # from ase_github_stars (integer, not string)
+  npm_weekly_downloads: 8696130  # from ase_npm_downloads
+  github_repo: "puppeteer/puppeteer"  # from ase_github_repo
+  license: "Apache-2.0"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Puppeteer Multi-Tab Session Manager
 
 Manages concurrent Puppeteer browser tabs with shared cookie jars and session persistence using Chrome DevTools Protocol. Handles tab lifecycle, navigation queues, and automatic retry with exponential backoff via puppeteer-cluster.
 
+## Overview
+
+The Puppeteer Multi-Tab Session Manager provides robust orchestration of concurrent browser tabs for complex web automation workflows. Built on top of puppeteer-cluster, it manages tab pools with configurable concurrency limits, shared cookie storage, and automatic session restoration.
+
+Key capabilities include CDP-level session management using Chrome DevTools Protocol for fine-grained control over network interception, cookie manipulation, and request throttling. The skill supports persistent browser contexts that survive page navigations, enabling long-running scraping or testing workflows.
+
+Advanced features include automatic retry logic with configurable exponential backoff, dead tab detection and recycling, memory usage monitoring per tab, and screenshot-on-failure diagnostics. The session state serializer can export and import full browser state including localStorage, sessionStorage, and IndexedDB snapshots.
+
+Integrates with proxy rotation services (BrightData, Oxylabs) for IP management and includes built-in user agent rotation using the ua-parser-js library for fingerprint randomization.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill puppeteer-multi-tab-session-manager
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill puppeteer-multi-tab-session-manager -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill puppeteer-multi-tab-session-manager -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install puppeteer-multi-tab-session-manager
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill puppeteer-multi-tab-session-manager -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Browser Automation |
-| **Framework** | Claude Code |
-| **Verification** | 📋 Listed |
-| **Tool** | [puppeteer](https://github.com/puppeteer/puppeteer) — ⭐ 93.9k · Apache-2.0 |
+```bash
+clawhub install puppeteer-multi-tab-session-manager
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/puppeteer-multi-tab-session-manager/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/puppeteer-multi-tab-session-manager/

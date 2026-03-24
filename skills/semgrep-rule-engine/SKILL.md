@@ -3,62 +3,65 @@ name: "Semgrep Rule Engine"
 description: "Executes Semgrep static analysis using the semgrep CLI with custom YAML rule definitions. Supports taint tracking, metavariable comparisons, and pattern-not-inside exclusions for precise vulnerability detection."
 category: "Code Quality & Review"
 framework: "Custom Agents"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/semgrep-rule-engine/"
-tool_ecosystem:
-  tool: "semgrep"
-  github_stars: 14543
-  npm_weekly_downloads: 0
-  github_repo: "semgrep/semgrep"
-  license: "LGPL-2.1"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "semgrep"  # from ase_tool_match
+  github_stars: 14543  # from ase_github_stars (integer, not string)
+  github_repo: "semgrep/semgrep"  # from ase_github_repo
+  license: "LGPL-2.1"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Semgrep Rule Engine
 
 Executes Semgrep static analysis using the semgrep CLI with custom YAML rule definitions. Supports taint tracking, metavariable comparisons, and pattern-not-inside exclusions for precise vulnerability detection.
 
+## Overview
+
+The Semgrep Rule Engine agent runs the semgrep CLI to perform lightweight static analysis across codebases in 30+ languages. It loads custom YAML rule definitions that leverage Semgrep’s pattern matching DSL including metavariables ($X), ellipsis operators (…), and typed metavariable comparisons for precise code pattern detection.
+
+The agent supports advanced features like taint tracking for tracing data flow from user input (sources) to dangerous operations (sinks), enabling detection of SQL injection, XSS, and path traversal vulnerabilities. Pattern composition using pattern-either, pattern-not, and pattern-not-inside operators allows complex rule logic that reduces false positives.
+
+For CI integration, the agent runs in differential mode (–baseline-commit) to analyze only changed code in pull requests. It categorizes findings by OWASP Top 10, CWE identifiers, and custom severity levels. Supports Semgrep Registry rules, private rule bundles, and integration with Semgrep App for centralized finding management and developer notification workflows. Output formats include SARIF for GitHub Code Scanning and JSON for custom reporting.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill semgrep-rule-engine
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill semgrep-rule-engine -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill semgrep-rule-engine -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install semgrep-rule-engine
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill semgrep-rule-engine -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Code Quality & Review |
-| **Framework** | Custom Agents |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | [semgrep](https://github.com/semgrep/semgrep) — ⭐ 14.5k · LGPL-2.1 |
+```bash
+clawhub install semgrep-rule-engine
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/semgrep-rule-engine/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/semgrep-rule-engine/

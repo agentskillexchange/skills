@@ -3,62 +3,61 @@ name: "Pod CrashLoop Runbook"
 description: "Kubernetes-specific runbook for diagnosing and resolving CrashLoopBackOff pod states. Systematic approach to identify root cause across configuration, resource limits, health checks, and application errors."
 category: "Runbooks & Diagnostics"
 framework: "Custom Agents"
-verification: listed
-rating: 0
-reviews: 0
-creator: ""
+verification: listed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/pod-crashloop-runbook/"
-tool_ecosystem:
-  tool: "kubernetes"
-  github_stars: 121313
-  npm_weekly_downloads: 0
-  github_repo: "kubernetes/kubernetes"
-  license: "Apache-2.0"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "kubernetes"  # from ase_tool_match
+  github_stars: 121313  # from ase_github_stars (integer, not string)
+  github_repo: "kubernetes/kubernetes"  # from ase_github_repo
+  license: "Apache-2.0"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Pod CrashLoop Runbook
 
 Kubernetes-specific runbook for diagnosing and resolving CrashLoopBackOff pod states. Systematic approach to identify root cause across configuration, resource limits, health checks, and application errors.
 
+## Overview
+
+Kubernetes-specific runbook for diagnosing and resolving CrashLoopBackOff pod states. Systematic approach to identify root cause across configuration, resource limits, health checks, and application errors.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill pod-crashloop-runbook
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill pod-crashloop-runbook -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill pod-crashloop-runbook -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install pod-crashloop-runbook
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill pod-crashloop-runbook -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Runbooks & Diagnostics |
-| **Framework** | Custom Agents |
-| **Verification** | 📋 Listed |
-| **Tool** | [kubernetes](https://github.com/kubernetes/kubernetes) — ⭐ 121.3k · Apache-2.0 |
+```bash
+clawhub install pod-crashloop-runbook
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/pod-crashloop-runbook/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/pod-crashloop-runbook/

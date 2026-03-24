@@ -3,10 +3,10 @@ name: "MDN Web Docs Fetcher"
 description: "Queries the MDN Web Docs content API (Yari) and the MDN search index to retrieve browser compatibility data, Web API references, and CSS property documentation. Uses BCD (browser-compat-data) npm package for offline lookups."
 category: "Library & API Reference"
 framework: "Cursor"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/mdn-web-docs-fetcher/"
@@ -16,41 +16,46 @@ source: "https://agentskillexchange.com/skills/mdn-web-docs-fetcher/"
 
 Queries the MDN Web Docs content API (Yari) and the MDN search index to retrieve browser compatibility data, Web API references, and CSS property documentation. Uses BCD (browser-compat-data) npm package for offline lookups.
 
+## Overview
+
+The MDN Web Docs Fetcher skill provides instant access to comprehensive web platform documentation through the MDN content API (Yari). It queries the MDN search index for fast lookups of Web API references, CSS properties, HTML elements, and JavaScript features.
+
+The skill leverages the @mdn/browser-compat-data (BCD) npm package for offline browser compatibility lookups, enabling quick checks of feature support across Chrome, Firefox, Safari, and Edge. It parses MDN structured content to extract syntax examples, parameter descriptions, and return value documentation.
+
+Advanced features include cross-referencing related APIs, generating compatibility tables, and extracting polyfill recommendations for features with limited browser support. The skill supports querying by specification URL, feature name, or free-text search, making it ideal for rapid web development reference during coding sessions.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill mdn-web-docs-fetcher
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill mdn-web-docs-fetcher -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill mdn-web-docs-fetcher -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install mdn-web-docs-fetcher
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill mdn-web-docs-fetcher -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Library & API Reference |
-| **Framework** | Cursor |
-| **Verification** | 🛡️ Security Reviewed |
+```bash
+clawhub install mdn-web-docs-fetcher
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/mdn-web-docs-fetcher/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/mdn-web-docs-fetcher/

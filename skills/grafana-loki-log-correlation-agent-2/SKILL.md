@@ -3,62 +3,61 @@ name: "Grafana Loki Log Correlation Agent"
 description: "Queries Grafana Loki via the LogQL API to correlate log streams across services. Builds cross-service trace-to-log mappings using Tempo integration and generates alert rule suggestions."
 category: "Monitoring & Alerts"
 framework: "ChatGPT Agents"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/grafana-loki-log-correlation-agent-2/"
-tool_ecosystem:
-  tool: "loki"
-  github_stars: 72784
-  npm_weekly_downloads: 0
-  github_repo: "grafana/grafana"
-  license: "AGPL-3.0"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "loki"  # from ase_tool_match
+  github_stars: 72784  # from ase_github_stars (integer, not string)
+  github_repo: "grafana/grafana"  # from ase_github_repo
+  license: "AGPL-3.0"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Grafana Loki Log Correlation Agent
 
 Queries Grafana Loki via the LogQL API to correlate log streams across services. Builds cross-service trace-to-log mappings using Tempo integration and generates alert rule suggestions.
 
+## Overview
+
+The Grafana Loki Log Correlation Agent skill queries distributed log data through the Loki HTTP API using LogQL expressions. It performs multi-stream correlation by joining log lines across services using shared trace IDs, request IDs, and timestamp windows. The skill leverages the Loki Series API to discover active label combinations and builds LogQL pipeline expressions with line_format, json, and regexp parsers for structured field extraction. It integrates with the Grafana Tempo API to create trace-to-log links, enabling seamless navigation between distributed traces and corresponding log entries. The agent analyzes log volume patterns using the Loki Stats API to identify unusual error rate spikes, generates Grafana alerting rule YAML for Cortex/Mimir ruler compatible alert definitions, and configures recording rules for frequently queried aggregations. Output includes correlated log summaries, suggested dashboard panels in JSON format, and LogQL query templates for common debugging scenarios.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill grafana-loki-log-correlation-agent-2
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill grafana-loki-log-correlation-agent-2 -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill grafana-loki-log-correlation-agent-2 -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install grafana-loki-log-correlation-agent-2
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill grafana-loki-log-correlation-agent-2 -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Monitoring & Alerts |
-| **Framework** | ChatGPT Agents |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | [loki](https://github.com/grafana/grafana) — ⭐ 72.8k · AGPL-3.0 |
+```bash
+clawhub install grafana-loki-log-correlation-agent-2
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/grafana-loki-log-correlation-agent-2/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/grafana-loki-log-correlation-agent-2/

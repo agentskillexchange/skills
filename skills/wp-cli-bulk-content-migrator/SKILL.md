@@ -3,62 +3,65 @@ name: "WP-CLI Bulk Content Migrator"
 description: "Automates large-scale WordPress content migrations using WP-CLI wp post create and wp term set commands. Handles custom post types, ACF field mapping, and taxonomy reassignment with rollback support."
 category: "WordPress & CMS"
 framework: "OpenClaw"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/wp-cli-bulk-content-migrator/"
-tool_ecosystem:
-  tool: "wordpress"
-  github_stars: 20973
-  npm_weekly_downloads: 0
-  github_repo: "WordPress/WordPress"
-  license: "NOASSERTION"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "wordpress"  # from ase_tool_match
+  github_stars: 20973  # from ase_github_stars (integer, not string)
+  github_repo: "WordPress/WordPress"  # from ase_github_repo
+  license: "NOASSERTION"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # WP-CLI Bulk Content Migrator
 
 Automates large-scale WordPress content migrations using WP-CLI wp post create and wp term set commands. Handles custom post types, ACF field mapping, and taxonomy reassignment with rollback support.
 
+## Overview
+
+This skill automates complex WordPress content migrations using WP-CLI commands for reliable server-side execution. It handles bulk post creation via wp post create with support for custom post types, post meta, and featured images. Taxonomy assignment uses wp term set for categories, tags, and custom taxonomies.
+
+Advanced Custom Fields (ACF) data is mapped using wp post meta update with proper field key references, supporting repeater fields, flexible content layouts, and relationship fields. The skill handles media library imports via wp media import with automatic attachment to posts and alt text assignment.
+
+A transaction-like rollback system tracks all created/modified content IDs, allowing complete reversal if migration validation fails. Progress tracking provides real-time counts and ETA for large migrations (10k+ posts). The skill also handles URL rewriting in content bodies using wp search-replace for domain changes.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill wp-cli-bulk-content-migrator
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill wp-cli-bulk-content-migrator -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill wp-cli-bulk-content-migrator -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install wp-cli-bulk-content-migrator
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill wp-cli-bulk-content-migrator -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | WordPress & CMS |
-| **Framework** | OpenClaw |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | [wordpress](https://github.com/WordPress/WordPress) — ⭐ 21.0k · NOASSERTION |
+```bash
+clawhub install wp-cli-bulk-content-migrator
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/wp-cli-bulk-content-migrator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/wp-cli-bulk-content-migrator/

@@ -3,62 +3,61 @@ name: "Kubernetes Helm Chart Scaffold Builder"
 description: "Generates Helm v3 chart scaffolds with templated deployments, services, ingress rules, and values.yaml schemas. Validates charts against Helm lint and Kubeval for Kubernetes API version compatibility."
 category: "Templates & Workflows"
 framework: "MCP-compatible"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/kubernetes-helm-chart-scaffold-builder/"
-tool_ecosystem:
-  tool: "helm"
-  github_stars: 29603
-  npm_weekly_downloads: 0
-  github_repo: "helm/helm"
-  license: "Apache-2.0"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "helm"  # from ase_tool_match
+  github_stars: 29603  # from ase_github_stars (integer, not string)
+  github_repo: "helm/helm"  # from ase_github_repo
+  license: "Apache-2.0"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Kubernetes Helm Chart Scaffold Builder
 
 Generates Helm v3 chart scaffolds with templated deployments, services, ingress rules, and values.yaml schemas. Validates charts against Helm lint and Kubeval for Kubernetes API version compatibility.
 
+## Overview
+
+This skill creates production-grade Helm v3 chart packages following the chart developer guide conventions. It generates Chart.yaml with proper apiVersion v2 metadata, dependency declarations, and annotation blocks for ArtifactHub publishing. Template files include deployments with resource limits, liveness/readiness probes, and pod disruption budgets. Service templates support ClusterIP, NodePort, and LoadBalancer types with configurable port mappings. Ingress templates handle both networking.k8s.io/v1 and legacy extensions/v1beta1 API versions with TLS certificate references. The values.yaml file includes JSON Schema validation through values.schema.json generation, ensuring type safety for consumer overrides. Helper templates in _helpers.tpl provide standard label selectors, naming conventions, and resource annotations. The skill runs helm lint for syntax validation and kubeval for Kubernetes API schema conformance. Chart testing configurations include ct.yaml for automated testing in CI pipelines. NOTES.txt templates provide post-install instructions with dynamic endpoint resolution.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill kubernetes-helm-chart-scaffold-builder
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill kubernetes-helm-chart-scaffold-builder -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill kubernetes-helm-chart-scaffold-builder -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install kubernetes-helm-chart-scaffold-builder
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill kubernetes-helm-chart-scaffold-builder -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Templates & Workflows |
-| **Framework** | MCP-compatible |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | [helm](https://github.com/helm/helm) — ⭐ 29.6k · Apache-2.0 |
+```bash
+clawhub install kubernetes-helm-chart-scaffold-builder
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-helm-chart-scaffold-builder/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/kubernetes-helm-chart-scaffold-builder/

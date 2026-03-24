@@ -3,62 +3,83 @@ name: "Atlassian Rovo MCP Server"
 description: "The Atlassian Rovo MCP Server bridges your Atlassian Cloud workspace with any MCP-compatible client. Search and summarize Jira issues, create tickets from natural language, update Confluence pages, and query Compass services."
 category: "Calendar, Email & Productivity"
 framework: "MCP-compatible"
-verification: listed
-rating: 0
-reviews: 0
-creator: ""
+verification: listed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/atlassian-rovo-mcp-server/"
-tool_ecosystem:
-  tool: "jira"
-  github_stars: 0
-  npm_weekly_downloads: 0
-  github_repo: ""
-  license: ""
-  maintained: false
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "jira"  # from ase_tool_match
 ---
 
 # Atlassian Rovo MCP Server
 
 The Atlassian Rovo MCP Server bridges your Atlassian Cloud workspace with any MCP-compatible client. Search and summarize Jira issues, create tickets from natural language, update Confluence pages, and query Compass services.
 
+## Overview
+
+The Atlassian Rovo MCP Server is maintained by Atlassian and provides a cloud-based bridge between your Atlassian Cloud site and MCP-compatible tools including Claude Code, Cursor, VS Code, GitHub Copilot CLI, Gemini CLI, and more.
+Best for
+
+- Creating Jira tickets from specs or meeting notes without context switching
+
+- Searching and summarizing Confluence documentation through your agent
+
+- Querying Compass service metadata
+
+- Automating cross-product workflows spanning Jira and Confluence
+
+Key capabilities
+
+- Jira: Search issues, create and update tickets, view project status, manage workflows
+
+- Confluence: Search pages, create and edit content, summarize documentation
+
+- Compass: Query service information and component metadata
+
+Security model
+
+All traffic encrypted via HTTPS (TLS 1.2+). OAuth 2.1 or API token authentication. Data access respects existing Jira, Confluence, and Compass user permissions.
+Install notes
+
+Remote endpoint: `https://mcp.atlassian.com/v1/mcp` — complete OAuth 2.1 in your browser. Local proxy: `npx -y mcp-remote https://mcp.atlassian.com/v1/sse`. Requires an Atlassian Cloud site.
+
+Source: github.com/atlassian/atlassian-mcp-server
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill atlassian-rovo-mcp-server
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill atlassian-rovo-mcp-server -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill atlassian-rovo-mcp-server -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install atlassian-rovo-mcp-server
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill atlassian-rovo-mcp-server -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Calendar, Email & Productivity |
-| **Framework** | MCP-compatible |
-| **Verification** | 📋 Listed |
-| **Tool** | jira |
+```bash
+clawhub install atlassian-rovo-mcp-server
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/atlassian-rovo-mcp-server/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/atlassian-rovo-mcp-server/

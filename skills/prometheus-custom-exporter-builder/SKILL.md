@@ -3,62 +3,62 @@ name: "Prometheus Custom Exporter Builder"
 description: "Builds custom Prometheus exporters using the prometheus_client Python SDK and Go client_golang library. Exposes application-specific metrics with proper histogram buckets, counter labels, and gauge instrumentation."
 category: "Monitoring & Alerts"
 framework: "Claude Agents"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/prometheus-custom-exporter-builder/"
-tool_ecosystem:
-  tool: "prometheus"
-  github_stars: 63278
-  npm_weekly_downloads: 5319832
-  github_repo: "prometheus/prometheus"
-  license: "Apache-2.0"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "prometheus"  # from ase_tool_match
+  github_stars: 63278  # from ase_github_stars (integer, not string)
+  npm_weekly_downloads: 5319832  # from ase_npm_downloads
+  github_repo: "prometheus/prometheus"  # from ase_github_repo
+  license: "Apache-2.0"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Prometheus Custom Exporter Builder
 
 Builds custom Prometheus exporters using the prometheus_client Python SDK and Go client_golang library. Exposes application-specific metrics with proper histogram buckets, counter labels, and gauge instrumentation.
 
+## Overview
+
+The Prometheus Custom Exporter Builder skill creates tailored Prometheus metric exporters for applications and infrastructure components that lack native Prometheus support. Using the prometheus_client Python SDK or the client_golang library, it instruments applications with counters, gauges, histograms, and summary metric types following Prometheus naming conventions and best practices. The skill configures appropriate histogram bucket boundaries based on expected value distributions for latency and size metrics. Label cardinality is carefully managed to prevent metric explosion and excessive memory consumption. Custom collectors implement the Collector interface for pulling metrics from external APIs, databases, or file-based data sources on each scrape. The skill generates proper /metrics endpoints with content negotiation supporting both text exposition format and Protocol Buffers. ServiceMonitor and PodMonitor Kubernetes custom resources are created for automatic Prometheus Operator service discovery. Recording rules and alerting rules are generated based on the exported metrics to provide immediate observability value.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill prometheus-custom-exporter-builder
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill prometheus-custom-exporter-builder -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill prometheus-custom-exporter-builder -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install prometheus-custom-exporter-builder
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill prometheus-custom-exporter-builder -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Monitoring & Alerts |
-| **Framework** | Claude Agents |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | [prometheus](https://github.com/prometheus/prometheus) — ⭐ 63.3k · Apache-2.0 |
+```bash
+clawhub install prometheus-custom-exporter-builder
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-custom-exporter-builder/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/prometheus-custom-exporter-builder/

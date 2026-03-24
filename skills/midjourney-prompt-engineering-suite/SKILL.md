@@ -3,62 +3,61 @@ name: "Midjourney Prompt Engineering Suite"
 description: "Generates and optimizes Midjourney prompts using the Midjourney API with automatic parameter tuning for aspect ratios, stylize values, and chaos settings. Includes A/B testing workflows via Replicate prediction API."
 category: "Image & Creative Automation"
 framework: "ChatGPT Agents"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/midjourney-prompt-engineering-suite/"
-tool_ecosystem:
-  tool: "midjourney"
-  github_stars: 0
-  npm_weekly_downloads: 0
-  github_repo: ""
-  license: ""
-  maintained: false
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "midjourney"  # from ase_tool_match
 ---
 
 # Midjourney Prompt Engineering Suite
 
 Generates and optimizes Midjourney prompts using the Midjourney API with automatic parameter tuning for aspect ratios, stylize values, and chaos settings. Includes A/B testing workflows via Replicate prediction API.
 
+## Overview
+
+The Midjourney Prompt Engineering Suite provides intelligent prompt construction and optimization for Midjourney image generation. It analyzes input descriptions and automatically selects optimal parameters including aspect ratio, stylize value, chaos level, and quality settings based on the intended output use case.
+
+The skill maintains a prompt template library organized by genre (photorealistic, illustration, 3D render, abstract) with tested parameter combinations. It supports multi-prompt weighting syntax and negative prompting to exclude unwanted elements. Style reference images can be provided via URLs with configurable style weight blending.
+
+A/B testing functionality leverages the Replicate prediction API to generate variant images with systematic parameter sweeps, scoring outputs using CLIP similarity against the target description. Results are compiled into comparison grids with metadata annotations. The suite includes prompt history tracking, favorite management, and export to JSON for team sharing. Batch generation queues handle rate limiting gracefully with exponential backoff.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill midjourney-prompt-engineering-suite
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill midjourney-prompt-engineering-suite -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill midjourney-prompt-engineering-suite -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install midjourney-prompt-engineering-suite
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill midjourney-prompt-engineering-suite -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Image & Creative Automation |
-| **Framework** | ChatGPT Agents |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | midjourney |
+```bash
+clawhub install midjourney-prompt-engineering-suite
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/midjourney-prompt-engineering-suite/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/midjourney-prompt-engineering-suite/

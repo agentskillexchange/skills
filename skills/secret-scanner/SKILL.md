@@ -3,10 +3,10 @@ name: "Secret Scanner"
 description: "Use this skill when you need to scan code, commits, or configuration files for accidentally committed secrets like API keys, passwords, and tokens. It runs tools like truffleHog or gitleaks and returns findings with file paths, line numbers, and severity levels."
 category: "Security & Verification"
 framework: "Claude Code"
-verification: listed
-rating: 0
-reviews: 0
-creator: ""
+verification: listed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/secret-scanner/"
@@ -16,41 +16,42 @@ source: "https://agentskillexchange.com/skills/secret-scanner/"
 
 Use this skill when you need to scan code, commits, or configuration files for accidentally committed secrets like API keys, passwords, and tokens. It runs tools like truffleHog or gitleaks and returns findings with file paths, line numbers, and severity levels.
 
+## Overview
+
+Use this skill when you need to scan code, commits, or configuration files for accidentally committed secrets like API keys, passwords, and tokens. It runs tools like truffleHog or gitleaks and returns findings with file paths, line numbers, and severity levels.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill secret-scanner
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill secret-scanner -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill secret-scanner -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install secret-scanner
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill secret-scanner -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Security & Verification |
-| **Framework** | Claude Code |
-| **Verification** | 📋 Listed |
+```bash
+clawhub install secret-scanner
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/secret-scanner/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/secret-scanner/

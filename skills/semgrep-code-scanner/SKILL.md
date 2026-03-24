@@ -3,62 +3,61 @@ name: "Semgrep Code Scanner"
 description: "Runs Semgrep static analysis for security vulnerabilities, bug patterns, and custom code rules. Supports 30+ languages and custom rule creation. Integrates with CI for automated scanning on every commit."
 category: "Code Quality & Review"
 framework: "Claude Code"
-verification: listed
-rating: 0
-reviews: 0
-creator: ""
+verification: listed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/semgrep-code-scanner/"
-tool_ecosystem:
-  tool: "semgrep"
-  github_stars: 14543
-  npm_weekly_downloads: 0
-  github_repo: "semgrep/semgrep"
-  license: "LGPL-2.1"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "semgrep"  # from ase_tool_match
+  github_stars: 14543  # from ase_github_stars (integer, not string)
+  github_repo: "semgrep/semgrep"  # from ase_github_repo
+  license: "LGPL-2.1"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Semgrep Code Scanner
 
 Runs Semgrep static analysis for security vulnerabilities, bug patterns, and custom code rules. Supports 30+ languages and custom rule creation. Integrates with CI for automated scanning on every commit.
 
+## Overview
+
+Runs Semgrep static analysis for security vulnerabilities, bug patterns, and custom code rules. Supports 30+ languages and custom rule creation. Integrates with CI for automated scanning on every commit.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill semgrep-code-scanner
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill semgrep-code-scanner -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill semgrep-code-scanner -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install semgrep-code-scanner
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill semgrep-code-scanner -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Code Quality & Review |
-| **Framework** | Claude Code |
-| **Verification** | 📋 Listed |
-| **Tool** | [semgrep](https://github.com/semgrep/semgrep) — ⭐ 14.5k · LGPL-2.1 |
+```bash
+clawhub install semgrep-code-scanner
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/semgrep-code-scanner/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/semgrep-code-scanner/

@@ -3,62 +3,61 @@ name: "Docker Compose Test Harness"
 description: "Scaffolds integration test environments using Docker Compose v2 CLI, testcontainers-python library, and the docker-py SDK. Manages service dependencies, health checks, and test data seeding."
 category: "Templates & Workflows"
 framework: "MCP-compatible"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/docker-compose-test-harness/"
-tool_ecosystem:
-  tool: "docker"
-  github_stars: 71560
-  npm_weekly_downloads: 0
-  github_repo: "moby/moby"
-  license: "Apache-2.0"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "docker"  # from ase_tool_match
+  github_stars: 71560  # from ase_github_stars (integer, not string)
+  github_repo: "moby/moby"  # from ase_github_repo
+  license: "Apache-2.0"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Docker Compose Test Harness
 
 Scaffolds integration test environments using Docker Compose v2 CLI, testcontainers-python library, and the docker-py SDK. Manages service dependencies, health checks, and test data seeding.
 
+## Overview
+
+The Docker Compose Test Harness skill automates the creation and management of integration test environments using container orchestration. It generates Docker Compose v2 configuration files with proper service dependency ordering, health check definitions, and network isolation. The testcontainers-python library integration provides programmatic container lifecycle management within pytest test suites, supporting database containers (PostgreSQL, MySQL, MongoDB), message brokers (RabbitMQ, Kafka), and cache services (Redis, Memcached). The docker-py SDK handles image building, container inspection, and log collection for test debugging. The harness manages test data seeding through init containers, SQL migration scripts, and fixture loading from JSON/CSV files. Service health check configurations use appropriate strategies: TCP socket checks for databases, HTTP endpoint checks for web services, and command-based checks for custom readiness criteria. The skill supports environment variable templating, secret injection via Docker secrets, and volume mounting for test configuration files. Parallel test execution is managed through dynamic port allocation and network namespace isolation. Cleanup procedures ensure complete resource removal after test completion including orphaned volumes and networks. Output includes generated docker-compose.yml files, pytest conftest.py fixtures, and CI pipeline integration scripts.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill docker-compose-test-harness
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill docker-compose-test-harness -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill docker-compose-test-harness -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install docker-compose-test-harness
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill docker-compose-test-harness -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Templates & Workflows |
-| **Framework** | MCP-compatible |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | [docker](https://github.com/moby/moby) — ⭐ 71.6k · Apache-2.0 |
+```bash
+clawhub install docker-compose-test-harness
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/docker-compose-test-harness/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/docker-compose-test-harness/

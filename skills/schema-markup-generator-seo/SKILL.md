@@ -3,10 +3,10 @@ name: "Schema Markup Generator for SEO"
 description: "Generates JSON-LD structured data using schema-dts TypeScript definitions and Google Rich Results Test API validation. Supports Article, Product, FAQ, HowTo, and LocalBusiness schema types."
 category: "Content Writing & SEO"
 framework: "Codex"
-verification: listed
-rating: 0
-reviews: 0
-creator: ""
+verification: listed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/schema-markup-generator-seo/"
@@ -16,41 +16,46 @@ source: "https://agentskillexchange.com/skills/schema-markup-generator-seo/"
 
 Generates JSON-LD structured data using schema-dts TypeScript definitions and Google Rich Results Test API validation. Supports Article, Product, FAQ, HowTo, and LocalBusiness schema types.
 
+## Overview
+
+The Schema Markup Generator automates JSON-LD structured data creation using schema-dts TypeScript definitions for type-safe schema authoring. It generates valid Schema.org markup that passes Google Rich Results Test validation for enhanced search engine visibility.
+
+The agent supports all major schema types including Article, Product, FAQ, HowTo, LocalBusiness, Event, Recipe, and Organization. It analyzes page content to automatically determine the appropriate schema type and populates required and recommended properties from existing page elements, meta tags, and Open Graph data.
+
+Advanced features include nested schema generation with proper @id references for entity linking, automated breadcrumb markup from URL structure analysis, and aggregate rating schema from review data. The agent validates output against Google’s structured data guidelines, identifies missing recommended fields, and generates schema for multiple entities per page. It also supports dynamic schema injection via Google Tag Manager dataLayer events and server-side rendering integration.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill schema-markup-generator-seo
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill schema-markup-generator-seo -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill schema-markup-generator-seo -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install schema-markup-generator-seo
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill schema-markup-generator-seo -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Content Writing & SEO |
-| **Framework** | Codex |
-| **Verification** | 📋 Listed |
+```bash
+clawhub install schema-markup-generator-seo
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/schema-markup-generator-seo/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/schema-markup-generator-seo/

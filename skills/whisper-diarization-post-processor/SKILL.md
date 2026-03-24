@@ -3,62 +3,70 @@ name: "Whisper Diarization Post-Processor"
 description: "Enhances OpenAI Whisper transcription output with speaker diarization using pyannote.audio pipeline and speechbrain embeddings. Aligns word-level timestamps from whisper-timestamped with speaker segments for multi-speaker meeting transcript generation."
 category: "Media & Transcription"
 framework: "Claude Code"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/whisper-diarization-post-processor/"
-tool_ecosystem:
-  tool: "whisper"
-  github_stars: 10761
-  npm_weekly_downloads: 16275389
-  github_repo: "openai/openai-node"
-  license: "Apache-2.0"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "whisper"  # from ase_tool_match
+  github_stars: 10761  # from ase_github_stars (integer, not string)
+  npm_weekly_downloads: 16275389  # from ase_npm_downloads
+  github_repo: "openai/openai-node"  # from ase_github_repo
+  license: "Apache-2.0"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Whisper Diarization Post-Processor
 
 Enhances OpenAI Whisper transcription output with speaker diarization using pyannote.audio pipeline and speechbrain embeddings. Aligns word-level timestamps from whisper-timestamped with speaker segments for multi-speaker meeting transcript generation.
 
+## Overview
+
+Overview
+
+The Whisper Diarization Post-Processor enhances raw OpenAI Whisper transcription output by adding speaker identification and precise timestamp alignment. It combines state-of-the-art speech recognition with neural speaker diarization for production-quality meeting transcripts.
+Key Capabilities
+
+This skill processes Whisper output through the `pyannote.audio` speaker diarization pipeline, using pre-trained speaker embedding models from `speechbrain` for voice characterization. It aligns word-level timestamps from `whisper-timestamped` with speaker segments using an optimal assignment algorithm that handles overlapping speech regions.
+Output Formats
+
+Generates formatted transcripts with speaker labels, timestamps, and confidence scores in multiple output formats including SRT, VTT, and structured JSON. Supports custom speaker name mapping through voice enrollment, handles multi-language transcription with automatic language detection, and produces analytics summaries including per-speaker talk time ratios, interruption counts, and topic transition markers for meeting intelligence dashboards.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill whisper-diarization-post-processor
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill whisper-diarization-post-processor -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill whisper-diarization-post-processor -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install whisper-diarization-post-processor
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill whisper-diarization-post-processor -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Media & Transcription |
-| **Framework** | Claude Code |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | [whisper](https://github.com/openai/openai-node) — ⭐ 10.8k · Apache-2.0 |
+```bash
+clawhub install whisper-diarization-post-processor
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/whisper-diarization-post-processor/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/whisper-diarization-post-processor/

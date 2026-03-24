@@ -3,62 +3,61 @@ name: "Stable Diffusion ControlNet Pipeline"
 description: "Automates image generation workflows using Stability AI ControlNet API with depth maps, edge detection, and pose estimation. Integrates with Hugging Face diffusers library for model management and CLIP interrogator for prompt refinement."
 category: "Image & Creative Automation"
 framework: "Cursor"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/stable-diffusion-controlnet-pipeline/"
-tool_ecosystem:
-  tool: "stable.diffusion"
-  github_stars: 0
-  npm_weekly_downloads: 0
-  github_repo: ""
-  license: ""
-  maintained: false
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "stable.diffusion"  # from ase_tool_match
 ---
 
 # Stable Diffusion ControlNet Pipeline
 
 Automates image generation workflows using Stability AI ControlNet API with depth maps, edge detection, and pose estimation. Integrates with Hugging Face diffusers library for model management and CLIP interrogator for prompt refinement.
 
+## Overview
+
+The Stable Diffusion ControlNet Pipeline skill provides a comprehensive image generation framework that leverages ControlNet conditioning models through the Stability AI API. It supports multiple control modes including depth mapping via MiDaS, edge detection through Canny filters, and OpenPose skeleton estimation for precise human figure guidance.
+
+The skill integrates directly with the Hugging Face diffusers library to manage model downloads, LoRA weight loading, and scheduler configuration. It includes CLIP interrogator functionality to reverse-engineer prompts from reference images, enabling style transfer workflows.
+
+Key capabilities include batch processing with configurable seed management, automatic EXIF metadata embedding, and resolution upscaling via Real-ESRGAN. The pipeline supports both local ComfyUI backends and cloud Stability AI endpoints, with automatic fallback between providers. Output images are validated against NSFW classifiers and can be automatically uploaded to S3-compatible storage with CDN invalidation.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill stable-diffusion-controlnet-pipeline
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill stable-diffusion-controlnet-pipeline -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill stable-diffusion-controlnet-pipeline -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install stable-diffusion-controlnet-pipeline
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill stable-diffusion-controlnet-pipeline -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Image & Creative Automation |
-| **Framework** | Cursor |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | stable.diffusion |
+```bash
+clawhub install stable-diffusion-controlnet-pipeline
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/stable-diffusion-controlnet-pipeline/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/stable-diffusion-controlnet-pipeline/

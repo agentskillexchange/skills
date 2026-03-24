@@ -3,10 +3,10 @@ name: "API Diff Tool"
 description: "Compares two API responses (by endpoint or spec) and highlights structural differences, missing fields, type changes, and behavioral divergence. Useful for debugging API changes and validating migrations."
 category: "Library & API Reference"
 framework: "Claude Code"
-verification: listed
-rating: 0
-reviews: 0
-creator: ""
+verification: listed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/api-diff-tool/"
@@ -16,41 +16,42 @@ source: "https://agentskillexchange.com/skills/api-diff-tool/"
 
 Compares two API responses (by endpoint or spec) and highlights structural differences, missing fields, type changes, and behavioral divergence. Useful for debugging API changes and validating migrations.
 
+## Overview
+
+Compares two API responses (by endpoint or spec) and highlights structural differences, missing fields, type changes, and behavioral divergence. Useful for debugging API changes and validating migrations.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill api-diff-tool
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill api-diff-tool -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill api-diff-tool -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install api-diff-tool
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill api-diff-tool -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Library & API Reference |
-| **Framework** | Claude Code |
-| **Verification** | 📋 Listed |
+```bash
+clawhub install api-diff-tool
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/api-diff-tool/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/api-diff-tool/

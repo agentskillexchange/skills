@@ -3,62 +3,66 @@ name: "Prometheus Alertmanager Bridge"
 description: "Bridges Prometheus Alertmanager notifications to Microsoft Teams, Discord, and Telegram using adaptive card templates and PromQL-based alert correlation."
 category: "Monitoring & Alerts"
 framework: "ChatGPT Agents"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/prometheus-alertmanager-bridge-2/"
-tool_ecosystem:
-  tool: "prometheus"
-  github_stars: 63278
-  npm_weekly_downloads: 5319832
-  github_repo: "prometheus/prometheus"
-  license: "Apache-2.0"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "prometheus"  # from ase_tool_match
+  github_stars: 63278  # from ase_github_stars (integer, not string)
+  npm_weekly_downloads: 5319832  # from ase_npm_downloads
+  github_repo: "prometheus/prometheus"  # from ase_github_repo
+  license: "Apache-2.0"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Prometheus Alertmanager Bridge
 
 Bridges Prometheus Alertmanager notifications to Microsoft Teams, Discord, and Telegram using adaptive card templates and PromQL-based alert correlation.
 
+## Overview
+
+The Prometheus Alertmanager Bridge skill receives webhook notifications from Prometheus Alertmanager and transforms them into rich notifications for messaging platforms. It uses Microsoft Teams Adaptive Cards, Discord embeds via webhook API, and Telegram Bot API with inline keyboards for alert acknowledgment.
+
+Alert correlation uses PromQL queries against the Prometheus HTTP API to fetch related metrics and attach sparkline graphs generated with the QuickChart.io API. The skill groups related alerts using configurable inhibition rules and time-based correlation windows to reduce notification fatigue.
+
+Template customization supports Go template syntax matching Alertmanager’s native templating. The skill maintains alert state in a Redis cache for deduplication and tracks acknowledgment status across platforms. Runbook links are automatically generated from alert labels using configurable URL templates. The skill exposes its own metrics endpoint for monitoring notification delivery rates and latencies.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill prometheus-alertmanager-bridge-2
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill prometheus-alertmanager-bridge-2 -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill prometheus-alertmanager-bridge-2 -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install prometheus-alertmanager-bridge-2
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill prometheus-alertmanager-bridge-2 -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Monitoring & Alerts |
-| **Framework** | ChatGPT Agents |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | [prometheus](https://github.com/prometheus/prometheus) — ⭐ 63.3k · Apache-2.0 |
+```bash
+clawhub install prometheus-alertmanager-bridge-2
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-alertmanager-bridge-2/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/prometheus-alertmanager-bridge-2/

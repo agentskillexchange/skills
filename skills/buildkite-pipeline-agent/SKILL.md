@@ -3,10 +3,10 @@ name: "Buildkite Pipeline Agent"
 description: "Configures and manages Buildkite CI/CD pipelines. Covers pipeline.yml authoring, dynamic pipeline generation, artifact management, parallelization, and Buildkite agent configuration for self-hosted runners."
 category: "CI/CD Integrations"
 framework: "Claude Code"
-verification: listed
-rating: 0
-reviews: 0
-creator: ""
+verification: listed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/buildkite-pipeline-agent/"
@@ -16,41 +16,42 @@ source: "https://agentskillexchange.com/skills/buildkite-pipeline-agent/"
 
 Configures and manages Buildkite CI/CD pipelines. Covers pipeline.yml authoring, dynamic pipeline generation, artifact management, parallelization, and Buildkite agent configuration for self-hosted runners.
 
+## Overview
+
+Configures and manages Buildkite CI/CD pipelines. Covers pipeline.yml authoring, dynamic pipeline generation, artifact management, parallelization, and Buildkite agent configuration for self-hosted runners.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill buildkite-pipeline-agent
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill buildkite-pipeline-agent -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill buildkite-pipeline-agent -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install buildkite-pipeline-agent
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill buildkite-pipeline-agent -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | CI/CD Integrations |
-| **Framework** | Claude Code |
-| **Verification** | 📋 Listed |
+```bash
+clawhub install buildkite-pipeline-agent
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/buildkite-pipeline-agent/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/buildkite-pipeline-agent/

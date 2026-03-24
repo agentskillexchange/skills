@@ -3,10 +3,10 @@ name: "Pylint Code Analyzer"
 description: "Runs Pylint on Python codebases for comprehensive code quality analysis: style compliance, error detection, refactoring suggestions, and type checking hints. Generates quality scores and tracks regressions."
 category: "Code Quality & Review"
 framework: "Claude Code"
-verification: listed
-rating: 0
-reviews: 0
-creator: ""
+verification: listed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/pylint-code-analyzer/"
@@ -16,41 +16,42 @@ source: "https://agentskillexchange.com/skills/pylint-code-analyzer/"
 
 Runs Pylint on Python codebases for comprehensive code quality analysis: style compliance, error detection, refactoring suggestions, and type checking hints. Generates quality scores and tracks regressions.
 
+## Overview
+
+Runs Pylint on Python codebases for comprehensive code quality analysis: style compliance, error detection, refactoring suggestions, and type checking hints. Generates quality scores and tracks regressions.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill pylint-code-analyzer
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill pylint-code-analyzer -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill pylint-code-analyzer -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install pylint-code-analyzer
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill pylint-code-analyzer -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Code Quality & Review |
-| **Framework** | Claude Code |
-| **Verification** | 📋 Listed |
+```bash
+clawhub install pylint-code-analyzer
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/pylint-code-analyzer/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/pylint-code-analyzer/

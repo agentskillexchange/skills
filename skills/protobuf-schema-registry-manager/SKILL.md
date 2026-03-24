@@ -3,62 +3,62 @@ name: "Protobuf Schema Registry Manager"
 description: "Manages Protocol Buffer schema evolution using buf CLI with breaking change detection and Confluent Schema Registry integration. Enforces buf lint rules and generates gRPC service stubs via protoc-gen-go and protoc-gen-grpc-web."
 category: "Library & API Reference"
 framework: "Codex"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/protobuf-schema-registry-manager/"
-tool_ecosystem:
-  tool: "grpc"
-  github_stars: 4816
-  npm_weekly_downloads: 30883690
-  github_repo: "grpc/grpc-node"
-  license: "Apache-2.0"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "grpc"  # from ase_tool_match
+  github_stars: 4816  # from ase_github_stars (integer, not string)
+  npm_weekly_downloads: 30883690  # from ase_npm_downloads
+  github_repo: "grpc/grpc-node"  # from ase_github_repo
+  license: "Apache-2.0"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Protobuf Schema Registry Manager
 
 Manages Protocol Buffer schema evolution using buf CLI with breaking change detection and Confluent Schema Registry integration. Enforces buf lint rules and generates gRPC service stubs via protoc-gen-go and protoc-gen-grpc-web.
 
+## Overview
+
+The Protobuf Schema Registry Manager provides comprehensive Protocol Buffer schema lifecycle management using the buf CLI toolchain. It enforces schema quality through configurable buf lint rules covering naming conventions, field numbering, package organization, and service definition patterns. Breaking change detection via buf breaking compares current schemas against the Git baseline, preventing backwards-incompatible changes from reaching production. Integration with Confluent Schema Registry enables centralized schema storage with compatibility mode enforcement (BACKWARD, FORWARD, FULL). The manager generates gRPC service stubs using protoc-gen-go for Go servers, protoc-gen-grpc-web for browser clients, and protoc-gen-ts for TypeScript definitions. It handles proto file dependency resolution across multiple roots and supports Buf Schema Registry (BSR) for publishing and consuming shared proto packages. Schema evolution workflows include automated migration script generation when breaking changes are intentionally introduced, with field deprecation tracking and removal timelines.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill protobuf-schema-registry-manager
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill protobuf-schema-registry-manager -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill protobuf-schema-registry-manager -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install protobuf-schema-registry-manager
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill protobuf-schema-registry-manager -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Library & API Reference |
-| **Framework** | Codex |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | [grpc](https://github.com/grpc/grpc-node) — ⭐ 4.8k · Apache-2.0 |
+```bash
+clawhub install protobuf-schema-registry-manager
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/protobuf-schema-registry-manager/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/protobuf-schema-registry-manager/

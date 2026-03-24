@@ -3,62 +3,57 @@ name: "Jira Advanced Query Agent"
 description: "Execute complex Jira Query Language (JQL) queries, create and update issues, manage sprints, and generate workload reports through an AI agent. Supports custom field mapping and bulk operations for large project datasets."
 category: "Developer Tools"
 framework: "Custom Agents"
-verification: listed
-rating: 0
-reviews: 0
-creator: ""
+verification: listed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/jira-advanced-query-agent/"
-tool_ecosystem:
-  tool: "jira"
-  github_stars: 0
-  npm_weekly_downloads: 0
-  github_repo: ""
-  license: ""
-  maintained: false
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "jira"  # from ase_tool_match
 ---
 
 # Jira Advanced Query Agent
 
 Execute complex Jira Query Language (JQL) queries, create and update issues, manage sprints, and generate workload reports through an AI agent. Supports custom field mapping and bulk operations for large project datasets.
 
+## Overview
+
+Execute complex Jira Query Language (JQL) queries, create and update issues, manage sprints, and generate workload reports through an AI agent. Supports custom field mapping and bulk operations for large project datasets.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill jira-advanced-query-agent
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill jira-advanced-query-agent -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill jira-advanced-query-agent -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install jira-advanced-query-agent
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill jira-advanced-query-agent -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Developer Tools |
-| **Framework** | Custom Agents |
-| **Verification** | 📋 Listed |
-| **Tool** | jira |
+```bash
+clawhub install jira-advanced-query-agent
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/jira-advanced-query-agent/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/jira-advanced-query-agent/

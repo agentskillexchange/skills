@@ -3,10 +3,10 @@ name: "Confluence Page Writer"
 description: "Create and update Confluence pages, spaces, and macros through an AI agent using the Confluence REST API. Automates documentation workflows by generating structured pages from templates, code comments, or meeting notes with proper page hierarchy."
 category: "Developer Tools"
 framework: "Custom Agents"
-verification: listed
-rating: 0
-reviews: 0
-creator: ""
+verification: listed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/confluence-page-writer/"
@@ -16,41 +16,42 @@ source: "https://agentskillexchange.com/skills/confluence-page-writer/"
 
 Create and update Confluence pages, spaces, and macros through an AI agent using the Confluence REST API. Automates documentation workflows by generating structured pages from templates, code comments, or meeting notes with proper page hierarchy.
 
+## Overview
+
+Create and update Confluence pages, spaces, and macros through an AI agent using the Confluence REST API. Automates documentation workflows by generating structured pages from templates, code comments, or meeting notes with proper page hierarchy.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill confluence-page-writer
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill confluence-page-writer -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill confluence-page-writer -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install confluence-page-writer
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill confluence-page-writer -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Developer Tools |
-| **Framework** | Custom Agents |
-| **Verification** | 📋 Listed |
+```bash
+clawhub install confluence-page-writer
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/confluence-page-writer/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/confluence-page-writer/

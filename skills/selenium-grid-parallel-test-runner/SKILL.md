@@ -3,62 +3,62 @@ name: "Selenium Grid Parallel Test Runner"
 description: "Orchestrates distributed browser tests across Selenium Grid 4 nodes with dynamic scaling. Uses selenium-webdriver RemoteWebDriver with W3C WebDriver protocol and Zalenium-style video recording."
 category: "Browser Automation"
 framework: "Cursor"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/selenium-grid-parallel-test-runner/"
-tool_ecosystem:
-  tool: "selenium"
-  github_stars: 34169
-  npm_weekly_downloads: 2000657
-  github_repo: "SeleniumHQ/selenium"
-  license: "Apache-2.0"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "selenium"  # from ase_tool_match
+  github_stars: 34169  # from ase_github_stars (integer, not string)
+  npm_weekly_downloads: 2000657  # from ase_npm_downloads
+  github_repo: "SeleniumHQ/selenium"  # from ase_github_repo
+  license: "Apache-2.0"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Selenium Grid Parallel Test Runner
 
 Orchestrates distributed browser tests across Selenium Grid 4 nodes with dynamic scaling. Uses selenium-webdriver RemoteWebDriver with W3C WebDriver protocol and Zalenium-style video recording.
 
+## Overview
+
+The Selenium Grid Parallel Test Runner distributes browser automation workloads across a Selenium Grid 4 cluster for maximum throughput. It uses the selenium-webdriver RemoteWebDriver interface with W3C WebDriver protocol compliance for cross-browser compatibility. The skill dynamically provisions grid nodes based on test queue depth using the Grid 4 GraphQL API for real-time capacity monitoring. Each test session gets an isolated node with configurable browser capabilities including screen resolution, timezone, and locale. Video recording captures every session using the FFMPEG-based recorder built into Selenium Grid 4 Docker images. Test artifacts including screenshots, page sources, and console logs are automatically collected and organized by test run ID. The skill supports retry logic with configurable max attempts and failure categorization for flaky test identification. Integration with TestNG and JUnit reporters generates detailed HTML dashboards.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill selenium-grid-parallel-test-runner
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill selenium-grid-parallel-test-runner -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill selenium-grid-parallel-test-runner -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install selenium-grid-parallel-test-runner
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill selenium-grid-parallel-test-runner -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Browser Automation |
-| **Framework** | Cursor |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | [selenium](https://github.com/SeleniumHQ/selenium) — ⭐ 34.2k · Apache-2.0 |
+```bash
+clawhub install selenium-grid-parallel-test-runner
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/selenium-grid-parallel-test-runner/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/selenium-grid-parallel-test-runner/

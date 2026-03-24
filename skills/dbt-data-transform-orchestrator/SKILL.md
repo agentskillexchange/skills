@@ -3,62 +3,77 @@ name: "dbt Data Transform Orchestrator"
 description: "Integrates with dbt Cloud Administrative API v2 to trigger and monitor data transformation jobs. Manages model runs, source freshness checks, and test execution through dbt API endpoints with Snowflake and BigQuery adapter support."
 category: "Data Extraction & Transformation"
 framework: "Custom Agents"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/dbt-data-transform-orchestrator/"
-tool_ecosystem:
-  tool: "dbt"
-  github_stars: 12457
-  npm_weekly_downloads: 0
-  github_repo: "dbt-labs/dbt-core"
-  license: "NOASSERTION"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "dbt"  # from ase_tool_match
+  github_stars: 12457  # from ase_github_stars (integer, not string)
+  github_repo: "dbt-labs/dbt-core"  # from ase_github_repo
+  license: "NOASSERTION"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # dbt Data Transform Orchestrator
 
 Integrates with dbt Cloud Administrative API v2 to trigger and monitor data transformation jobs. Manages model runs, source freshness checks, and test execution through dbt API endpoints with Snowflake and BigQuery adapter support.
 
+## Overview
+
+Integrates with dbt Cloud Administrative API v2 to trigger and monitor data transformation jobs. Manages model runs, source freshness checks, and test execution through dbt API endpoints with Snowflake and BigQuery adapter support.
+Overview
+
+This skill provides automated integration capabilities designed for production agent workflows. It handles authentication, rate limiting, and error recovery out of the box, allowing agents to focus on high-level task orchestration rather than low-level API management.
+Key Features
+
+- Automatic retry logic with exponential backoff for API rate limits
+
+- Structured output formatting compatible with downstream agent pipelines
+
+- Comprehensive error handling with actionable diagnostic messages
+
+- Configurable caching layer to reduce redundant API calls
+
+Usage
+
+Install via the Agent Skill Exchange registry and configure with your API credentials. The skill exposes a standardized interface that works across supported agent frameworks, with framework-specific optimizations applied automatically during initialization.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill dbt-data-transform-orchestrator
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill dbt-data-transform-orchestrator -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill dbt-data-transform-orchestrator -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install dbt-data-transform-orchestrator
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill dbt-data-transform-orchestrator -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Data Extraction & Transformation |
-| **Framework** | Custom Agents |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | [dbt](https://github.com/dbt-labs/dbt-core) — ⭐ 12.5k · NOASSERTION |
+```bash
+clawhub install dbt-data-transform-orchestrator
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/dbt-data-transform-orchestrator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/dbt-data-transform-orchestrator/

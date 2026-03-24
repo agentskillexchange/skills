@@ -3,62 +3,62 @@ name: "OpenAI Whisper Transcription"
 description: "Local speech-to-text transcription without relying on an API."
 category: "Media & Transcription"
 framework: "OpenClaw"
-verification: listed
-rating: 0
-reviews: 0
-creator: ""
+verification: listed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/openai-whisper-transcription/"
-tool_ecosystem:
-  tool: "whisper"
-  github_stars: 10761
-  npm_weekly_downloads: 16275389
-  github_repo: "openai/openai-node"
-  license: "Apache-2.0"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "whisper"  # from ase_tool_match
+  github_stars: 10761  # from ase_github_stars (integer, not string)
+  npm_weekly_downloads: 16275389  # from ase_npm_downloads
+  github_repo: "openai/openai-node"  # from ase_github_repo
+  license: "Apache-2.0"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # OpenAI Whisper Transcription
 
 Local speech-to-text transcription without relying on an API.
 
+## Overview
+
+Wraps the Whisper CLI for local transcription workflows, making it useful where users want privacy-friendly or offline-oriented speech-to-text processing.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill openai-whisper-transcription
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill openai-whisper-transcription -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill openai-whisper-transcription -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install openai-whisper-transcription
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill openai-whisper-transcription -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Media & Transcription |
-| **Framework** | OpenClaw |
-| **Verification** | 📋 Listed |
-| **Tool** | [whisper](https://github.com/openai/openai-node) — ⭐ 10.8k · Apache-2.0 |
+```bash
+clawhub install openai-whisper-transcription
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/openai-whisper-transcription/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/openai-whisper-transcription/

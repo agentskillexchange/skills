@@ -3,62 +3,67 @@ name: "CircleCI Orb Configurator"
 description: "Builds and validates CircleCI orb configurations using the CircleCI CLI and Orb Development Kit. Supports orb packing, linting with yamllint, and publishing to the CircleCI Orb Registry via circleci orb publish."
 category: "CI/CD Integrations"
 framework: "Claude Agents"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/circleci-orb-configurator-2/"
-tool_ecosystem:
-  tool: "circleci"
-  github_stars: 842
-  npm_weekly_downloads: 0
-  github_repo: "circleci/circleci-docs"
-  license: "Unknown"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "circleci"  # from ase_tool_match
+  github_stars: 842  # from ase_github_stars (integer, not string)
+  github_repo: "circleci/circleci-docs"  # from ase_github_repo
+  license: "Unknown"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # CircleCI Orb Configurator
 
 Builds and validates CircleCI orb configurations using the CircleCI CLI and Orb Development Kit. Supports orb packing, linting with yamllint, and publishing to the CircleCI Orb Registry via circleci orb publish.
 
+## Overview
+
+The CircleCI Orb Configurator skill streamlines the creation and maintenance of reusable CircleCI orbs for CI/CD pipelines. It uses the CircleCI CLI (circleci orb validate, circleci orb pack) to validate orb source files and pack them into single-file orbs ready for publishing.
+
+The skill manages the full orb development lifecycle: scaffolding new orbs with circleci orb init, defining commands/jobs/executors using YAML templating, running integration tests with circleci local execute, and publishing via circleci orb publish. It integrates with the CircleCI v2 API for orb version management and namespace administration.
+
+Configuration generation leverages the Orb Development Kit patterns including parameterized commands with type validation (string, boolean, integer, enum, executor, steps), executor definitions for Docker/machine/macOS environments, and job templates with proper workspace/cache handling. The skill validates all configurations against CircleCI schema definitions.
+
+Advanced features include orb dependency resolution for private orbs, inline orb expansion for debugging, and automated semantic versioning based on conventional commits using the circleci orb publish promote workflow.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill circleci-orb-configurator-2
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill circleci-orb-configurator-2 -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill circleci-orb-configurator-2 -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install circleci-orb-configurator-2
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill circleci-orb-configurator-2 -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | CI/CD Integrations |
-| **Framework** | Claude Agents |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | [circleci](https://github.com/circleci/circleci-docs) — ⭐ 842 · Unknown |
+```bash
+clawhub install circleci-orb-configurator-2
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-orb-configurator-2/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/circleci-orb-configurator-2/

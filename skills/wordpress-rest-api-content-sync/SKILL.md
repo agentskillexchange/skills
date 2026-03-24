@@ -3,62 +3,65 @@ name: "WordPress REST API Content Sync"
 description: "Synchronizes content between WordPress multisite installations using the WP REST API /wp/v2/posts endpoint with OAuth 1.0a authentication. Handles media sideloading, shortcode transformation, and conflict resolution."
 category: "WordPress & CMS"
 framework: "MCP-compatible"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/wordpress-rest-api-content-sync/"
-tool_ecosystem:
-  tool: "wordpress"
-  github_stars: 20973
-  npm_weekly_downloads: 0
-  github_repo: "WordPress/WordPress"
-  license: "NOASSERTION"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "wordpress"  # from ase_tool_match
+  github_stars: 20973  # from ase_github_stars (integer, not string)
+  github_repo: "WordPress/WordPress"  # from ase_github_repo
+  license: "NOASSERTION"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # WordPress REST API Content Sync
 
 Synchronizes content between WordPress multisite installations using the WP REST API /wp/v2/posts endpoint with OAuth 1.0a authentication. Handles media sideloading, shortcode transformation, and conflict resolution.
 
+## Overview
+
+This skill enables bidirectional content synchronization between WordPress installations using the WP REST API. It fetches posts, pages, and custom post types via /wp/v2/{type} endpoints with pagination handling through the X-WP-TotalPages header and supports both OAuth 1.0a and Application Password authentication methods.
+
+Media synchronization handles image and file sideloading via the /wp/v2/media endpoint, preserving alt text, captions, and attachment metadata. The skill transforms shortcodes between installations that use different plugins (e.g., converting Elementor shortcodes to Gutenberg blocks). Content diff detection uses post modified dates and content hashing to avoid unnecessary updates.
+
+Conflict resolution supports last-write-wins, source-priority, and manual review modes. A sync log tracks all operations with rollback capability. The skill handles taxonomy mapping between sites with different category/tag structures and supports custom field synchronization for ACF and meta box data.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill wordpress-rest-api-content-sync
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill wordpress-rest-api-content-sync -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill wordpress-rest-api-content-sync -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install wordpress-rest-api-content-sync
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill wordpress-rest-api-content-sync -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | WordPress & CMS |
-| **Framework** | MCP-compatible |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | [wordpress](https://github.com/WordPress/WordPress) — ⭐ 21.0k · NOASSERTION |
+```bash
+clawhub install wordpress-rest-api-content-sync
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/wordpress-rest-api-content-sync/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/wordpress-rest-api-content-sync/

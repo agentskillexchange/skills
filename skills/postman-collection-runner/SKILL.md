@@ -3,62 +3,57 @@ name: "Postman Collection Runner"
 description: "Executes Postman collections programmatically via Newman CLI or the Postman API. Supports environment variables, data-driven testing, and CI integration. Useful for API smoke tests and regression suites."
 category: "Library & API Reference"
 framework: "Custom Agents"
-verification: listed
-rating: 0
-reviews: 0
-creator: ""
+verification: listed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/postman-collection-runner/"
-tool_ecosystem:
-  tool: "postman"
-  github_stars: 0
-  npm_weekly_downloads: 0
-  github_repo: ""
-  license: ""
-  maintained: false
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "postman"  # from ase_tool_match
 ---
 
 # Postman Collection Runner
 
 Executes Postman collections programmatically via Newman CLI or the Postman API. Supports environment variables, data-driven testing, and CI integration. Useful for API smoke tests and regression suites.
 
+## Overview
+
+Executes Postman collections programmatically via Newman CLI or the Postman API. Supports environment variables, data-driven testing, and CI integration. Useful for API smoke tests and regression suites.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill postman-collection-runner
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill postman-collection-runner -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill postman-collection-runner -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install postman-collection-runner
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill postman-collection-runner -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Library & API Reference |
-| **Framework** | Custom Agents |
-| **Verification** | 📋 Listed |
-| **Tool** | postman |
+```bash
+clawhub install postman-collection-runner
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/postman-collection-runner/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/postman-collection-runner/

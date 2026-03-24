@@ -3,62 +3,61 @@ name: "Semgrep Pattern Scanner"
 description: "Executes Semgrep CLI with custom YAML rules and the Semgrep Registry API to detect anti-patterns, vulnerabilities, and taint tracking violations. Outputs SARIF-formatted results for GitHub Security tab integration."
 category: "Code Quality & Review"
 framework: "Claude Code"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/semgrep-pattern-scanner/"
-tool_ecosystem:
-  tool: "semgrep"
-  github_stars: 14543
-  npm_weekly_downloads: 0
-  github_repo: "semgrep/semgrep"
-  license: "LGPL-2.1"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "semgrep"  # from ase_tool_match
+  github_stars: 14543  # from ase_github_stars (integer, not string)
+  github_repo: "semgrep/semgrep"  # from ase_github_repo
+  license: "LGPL-2.1"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Semgrep Pattern Scanner
 
 Executes Semgrep CLI with custom YAML rules and the Semgrep Registry API to detect anti-patterns, vulnerabilities, and taint tracking violations. Outputs SARIF-formatted results for GitHub Security tab integration.
 
+## Overview
+
+The Semgrep Pattern Scanner leverages the Semgrep open-source static analysis engine to scan codebases for security vulnerabilities, anti-patterns, and code smells. It loads rules from the Semgrep Registry via the –config=auto flag and supports custom YAML rule definitions using pattern, pattern-either, and pattern-not-inside operators. The agent executes semgrep scan with –sarif output for direct integration with GitHub Advanced Security and the Code Scanning API. It supports taint mode analysis by defining source-sink-sanitizer rules to track dangerous data flows across function boundaries. For monorepo support, it uses –include/–exclude glob patterns and respects .semgrepignore files. The scanner handles multiple languages simultaneously including Python, JavaScript, Go, Java, and Ruby through Semgrep generic pattern syntax. Results are deduplicated across runs using fingerprinting and can be filtered by severity (ERROR, WARNING, INFO) for actionable reporting.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill semgrep-pattern-scanner
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill semgrep-pattern-scanner -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill semgrep-pattern-scanner -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install semgrep-pattern-scanner
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill semgrep-pattern-scanner -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Code Quality & Review |
-| **Framework** | Claude Code |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | [semgrep](https://github.com/semgrep/semgrep) — ⭐ 14.5k · LGPL-2.1 |
+```bash
+clawhub install semgrep-pattern-scanner
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/semgrep-pattern-scanner/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/semgrep-pattern-scanner/

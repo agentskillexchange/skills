@@ -3,62 +3,66 @@ name: "Apache Kafka Schema Registry Validator"
 description: "Validates Avro, Protobuf, and JSON Schema compatibility against Confluent Schema Registry using the REST API. Enforces backward/forward/full compatibility modes and detects breaking schema evolution changes."
 category: "Data Extraction & Transformation"
 framework: "Claude Agents"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/kafka-schema-registry-validator/"
-tool_ecosystem:
-  tool: "kafka"
-  github_stars: 3987
-  npm_weekly_downloads: 2396148
-  github_repo: "tulios/kafkajs"
-  license: "MIT"
-  maintained: false
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "kafka"  # from ase_tool_match
+  github_stars: 3987  # from ase_github_stars (integer, not string)
+  npm_weekly_downloads: 2396148  # from ase_npm_downloads
+  github_repo: "tulios/kafkajs"  # from ase_github_repo
+  license: "MIT"  # from ase_tool_license
+  maintained: false  # from ase_tool_maintained
 ---
 
 # Apache Kafka Schema Registry Validator
 
 Validates Avro, Protobuf, and JSON Schema compatibility against Confluent Schema Registry using the REST API. Enforces backward/forward/full compatibility modes and detects breaking schema evolution changes.
 
+## Overview
+
+The Apache Kafka Schema Registry Validator skill ensures data contract integrity across event-driven architectures by validating schema changes against Confluent Schema Registry. It uses the Schema Registry REST API to test compatibility of new Avro, Protobuf, and JSON Schema versions before they are registered, preventing breaking changes from reaching production consumers.
+
+The skill supports all Confluent compatibility modes: BACKWARD (new schema can read old data), FORWARD (old schema can read new data), FULL (both directions), and TRANSITIVE variants that check against all previous versions rather than just the latest. It analyzes proposed schema changes to identify specific incompatible modifications like field removal, type narrowing, or default value changes.
+
+Additional features include schema diff visualization showing added, removed, and modified fields between versions, subject naming strategy validation for TopicNameStrategy and RecordNameStrategy patterns, cross-subject compatibility checking for schemas shared across topics, and integration with Kafka Connect to verify converter configurations match registered schemas. The skill outputs actionable remediation suggestions when incompatibilities are detected.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill kafka-schema-registry-validator
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill kafka-schema-registry-validator -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill kafka-schema-registry-validator -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install kafka-schema-registry-validator
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill kafka-schema-registry-validator -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Data Extraction & Transformation |
-| **Framework** | Claude Agents |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | [kafka](https://github.com/tulios/kafkajs) — ⭐ 4.0k · MIT |
+```bash
+clawhub install kafka-schema-registry-validator
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/kafka-schema-registry-validator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/kafka-schema-registry-validator/

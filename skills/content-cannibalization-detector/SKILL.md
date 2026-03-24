@@ -1,12 +1,12 @@
 ---
 name: "Content Cannibalization Detector"
 description: "Identifies keyword cannibalization across site pages by analyzing Google Search Console Performance API data, extracting query-page pairings, and detecting overlap using TF-IDF cosine similarity scoring. Generates merge recommendations and 301 redirect maps via Screaming Frog exports."
-category: "Content Writing &amp; SEO"
-framework: ""
-verification: listed
-rating: 0.0
-reviews: 0
-creator: ""
+category: "Content Writing & SEO"
+framework: "Gemini"
+verification: listed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/content-cannibalization-detector/"
@@ -16,33 +16,46 @@ source: "https://agentskillexchange.com/skills/content-cannibalization-detector/
 
 Identifies keyword cannibalization across site pages by analyzing Google Search Console Performance API data, extracting query-page pairings, and detecting overlap using TF-IDF cosine similarity scoring. Generates merge recommendations and 301 redirect maps via Screaming Frog exports.
 
+## Overview
+
+Content Cannibalization Detector finds pages competing for the same search queries by cross-referencing Google Search Console Performance API data with on-page content analysis. It pulls query-level impressions and clicks per URL through the searchAnalytics.query method, grouping results by query to identify URLs sharing keyword targeting.
+
+The detection algorithm computes TF-IDF vectors for page content and calculates cosine similarity between pages ranking for overlapping queries. Pages with similarity scores above 0.7 that share more than three ranking queries are flagged as cannibalization candidates. The tool also checks title tags, H1 headers, and meta descriptions for direct keyword overlap using fuzzy string matching via python-Levenshtein.
+
+Output includes a prioritized list of cannibalization pairs with recommended actions: merge content into the stronger page, differentiate keyword targeting, or implement 301 redirects. Redirect maps are generated in CSV format compatible with Screaming Frog’s redirect chain validation. The tool integrates with Screaming Frog crawl exports to correlate internal link equity, showing which cannibalized page receives more internal authority signals to inform the consolidation decision.
+
 ## Installation
 
-### Any AI Agent (npx)
+### Any Agent
+
 ```bash
-npx @anthropic/agent-skills add content-cannibalization-detector
+npx skills add agentskillexchange/skills --skill content-cannibalization-detector
 ```
 
 ### Claude Code
+
 ```bash
-npx skills add content-cannibalization-detector
+npx skills add agentskillexchange/skills --skill content-cannibalization-detector -a claude-code
 ```
 
 ### Cursor
+
 ```bash
-npx skills add content-cannibalization-detector
+npx skills add agentskillexchange/skills --skill content-cannibalization-detector -a cursor
 ```
 
 ### Codex
+
 ```bash
-npx skills add content-cannibalization-detector
+npx skills add agentskillexchange/skills --skill content-cannibalization-detector -a codex
 ```
 
 ### OpenClaw
+
 ```bash
 clawhub install content-cannibalization-detector
 ```
 
 ## Source
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/content-cannibalization-detector/)
+- Marketplace: https://agentskillexchange.com/skills/content-cannibalization-detector/

@@ -3,62 +3,83 @@ name: "Terraform Cloud Orchestrator"
 description: "Orchestrates Terraform Cloud runs via the TFC API v2 /runs endpoint with plan-only and auto-apply modes. Manages workspace variables through /vars API, parses plan output for resource drift detection, and integrates Sentinel policy checks."
 category: "CI/CD Integrations"
 framework: "Gemini"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/terraform-cloud-orchestrator-skill/"
-tool_ecosystem:
-  tool: "terraform"
-  github_stars: 47996
-  npm_weekly_downloads: 0
-  github_repo: "hashicorp/terraform"
-  license: "NOASSERTION"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "terraform"  # from ase_tool_match
+  github_stars: 47996  # from ase_github_stars (integer, not string)
+  github_repo: "hashicorp/terraform"  # from ase_github_repo
+  license: "NOASSERTION"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Terraform Cloud Orchestrator
 
 Orchestrates Terraform Cloud runs via the TFC API v2 /runs endpoint with plan-only and auto-apply modes. Manages workspace variables through /vars API, parses plan output for resource drift detection, and integrates Sentinel policy checks.
 
+## Overview
+
+Overview
+
+Orchestrates Terraform Cloud runs via the TFC API v2 /runs endpoint with plan-only and auto-apply modes. Manages workspace variables through /vars API, parses plan output for resource drift detection, and integrates Sentinel policy checks.
+Key Features
+
+- Automated detection and reporting with structured output formats for downstream integrations
+
+- Configurable thresholds and rule sets that adapt to project-specific requirements and team conventions
+
+- Real-time feedback loops integrated into developer workflows for immediate actionable insights
+
+- Comprehensive logging and audit trails for compliance tracking and historical trend analysis
+
+How It Works
+
+Terraform Cloud Orchestrator connects directly to your existing infrastructure through well-documented API endpoints. It authenticates using standard token-based methods (API keys, OAuth tokens, or service account credentials) and operates within your existing permission boundaries. The skill processes incoming data streams, applies configurable analysis rules, and produces structured reports that integrate with notification systems, dashboards, and issue trackers.
+Requirements
+
+- Valid API credentials with appropriate read/write scopes for the target service
+
+- Network access to the relevant API endpoints from the agent runtime environment
+
+- Compatible agent framework installed and configured with the necessary SDK dependencies
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill terraform-cloud-orchestrator-skill
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill terraform-cloud-orchestrator-skill -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill terraform-cloud-orchestrator-skill -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install terraform-cloud-orchestrator-skill
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill terraform-cloud-orchestrator-skill -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | CI/CD Integrations |
-| **Framework** | Gemini |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | [terraform](https://github.com/hashicorp/terraform) — ⭐ 48.0k · NOASSERTION |
+```bash
+clawhub install terraform-cloud-orchestrator-skill
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-cloud-orchestrator-skill/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/terraform-cloud-orchestrator-skill/

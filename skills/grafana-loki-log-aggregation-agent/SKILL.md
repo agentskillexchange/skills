@@ -3,62 +3,61 @@ name: "Grafana Loki Log Aggregation Agent"
 description: "Configures Grafana Loki log pipelines with Promtail collectors and LogQL queries. Supports multi-tenant log routing, retention policies, and correlation with Grafana Tempo traces."
 category: "Monitoring & Alerts"
 framework: "Gemini"
-verification: listed
-rating: 0
-reviews: 0
-creator: ""
+verification: listed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/grafana-loki-log-aggregation-agent/"
-tool_ecosystem:
-  tool: "grafana"
-  github_stars: 72784
-  npm_weekly_downloads: 0
-  github_repo: "grafana/grafana"
-  license: "AGPL-3.0"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "grafana"  # from ase_tool_match
+  github_stars: 72784  # from ase_github_stars (integer, not string)
+  github_repo: "grafana/grafana"  # from ase_github_repo
+  license: "AGPL-3.0"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Grafana Loki Log Aggregation Agent
 
 Configures Grafana Loki log pipelines with Promtail collectors and LogQL queries. Supports multi-tenant log routing, retention policies, and correlation with Grafana Tempo traces.
 
+## Overview
+
+The Grafana Loki Log Aggregation Agent skill sets up and manages centralized logging infrastructure using Grafana Loki as the log storage backend. It configures Promtail agents for log collection from Kubernetes pods, systemd journals, Docker containers, and flat files with automatic label extraction and pipeline stages. The skill writes LogQL queries for log searching, filtering, and metric generation from log lines. Multi-tenant log routing ensures proper data isolation between teams and environments. Integration with Grafana Tempo enables jumping from log entries directly to correlated distributed traces using trace IDs embedded in structured logs. The skill manages retention policies, compaction schedules, and chunk storage configuration for cost-effective long-term log retention on object storage backends like S3 or GCS. Alerting rules defined in LogQL can trigger notifications through Grafana Alerting contact points.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill grafana-loki-log-aggregation-agent
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill grafana-loki-log-aggregation-agent -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill grafana-loki-log-aggregation-agent -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install grafana-loki-log-aggregation-agent
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill grafana-loki-log-aggregation-agent -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Monitoring & Alerts |
-| **Framework** | Gemini |
-| **Verification** | 📋 Listed |
-| **Tool** | [grafana](https://github.com/grafana/grafana) — ⭐ 72.8k · AGPL-3.0 |
+```bash
+clawhub install grafana-loki-log-aggregation-agent
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/grafana-loki-log-aggregation-agent/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/grafana-loki-log-aggregation-agent/

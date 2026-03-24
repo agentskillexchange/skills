@@ -3,10 +3,10 @@ name: "API Versioning Manager"
 description: "Manages API version lifecycle: detects breaking changes between OpenAPI specs, generates deprecation notices, maintains version compatibility matrices, and generates migration guides for consumers."
 category: "Library & API Reference"
 framework: "Claude Code"
-verification: listed
-rating: 0
-reviews: 0
-creator: ""
+verification: listed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/api-versioning-manager/"
@@ -16,41 +16,42 @@ source: "https://agentskillexchange.com/skills/api-versioning-manager/"
 
 Manages API version lifecycle: detects breaking changes between OpenAPI specs, generates deprecation notices, maintains version compatibility matrices, and generates migration guides for consumers.
 
+## Overview
+
+Manages API version lifecycle: detects breaking changes between OpenAPI specs, generates deprecation notices, maintains version compatibility matrices, and generates migration guides for consumers.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill api-versioning-manager
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill api-versioning-manager -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill api-versioning-manager -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install api-versioning-manager
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill api-versioning-manager -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Library & API Reference |
-| **Framework** | Claude Code |
-| **Verification** | 📋 Listed |
+```bash
+clawhub install api-versioning-manager
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/api-versioning-manager/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/api-versioning-manager/

@@ -3,62 +3,66 @@ name: "Swagger Codegen Template Customizer"
 description: "Extends Swagger Codegen and OpenAPI Generator with custom Mustache templates for client SDK generation. Supports Java (OkHttp/Retrofit), TypeScript (Axios/Fetch), and Python (httpx) output targets."
 category: "Library & API Reference"
 framework: "ChatGPT Agents"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/swagger-codegen-template-customizer/"
-tool_ecosystem:
-  tool: "swagger"
-  github_stars: 28702
-  npm_weekly_downloads: 3219093
-  github_repo: "swagger-api/swagger-ui"
-  license: "Apache-2.0"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "swagger"  # from ase_tool_match
+  github_stars: 28702  # from ase_github_stars (integer, not string)
+  npm_weekly_downloads: 3219093  # from ase_npm_downloads
+  github_repo: "swagger-api/swagger-ui"  # from ase_github_repo
+  license: "Apache-2.0"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Swagger Codegen Template Customizer
 
 Extends Swagger Codegen and OpenAPI Generator with custom Mustache templates for client SDK generation. Supports Java (OkHttp/Retrofit), TypeScript (Axios/Fetch), and Python (httpx) output targets.
 
+## Overview
+
+The Swagger Codegen Template Customizer streamlines client SDK generation by providing an intelligent layer on top of OpenAPI Generator CLI. It analyzes your OpenAPI 3.x specification and generates customized Mustache templates that produce production-ready client libraries tailored to your project’s conventions and framework choices.
+
+The customizer supports multiple language targets: Java with OkHttp or Retrofit adapters, TypeScript with Axios or native Fetch implementations, Python with httpx async support, and Go with configurable HTTP client backends. For each target, it generates proper error handling hierarchies, retry logic with exponential backoff, request/response interceptors for authentication, and type-safe model classes with JSON serialization annotations.
+
+Advanced features include: automatic pagination helper generation for list endpoints, WebSocket client stubs for async API endpoints, multipart upload utilities with progress callbacks, and mock server generation using Prism for testing. The agent validates generated code against language-specific linters (ESLint, pylint, checkstyle) and can publish packages to npm, PyPI, or Maven Central via their respective APIs. Supports monorepo output with shared type definitions.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill swagger-codegen-template-customizer
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill swagger-codegen-template-customizer -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill swagger-codegen-template-customizer -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install swagger-codegen-template-customizer
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill swagger-codegen-template-customizer -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Library & API Reference |
-| **Framework** | ChatGPT Agents |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | [swagger](https://github.com/swagger-api/swagger-ui) — ⭐ 28.7k · Apache-2.0 |
+```bash
+clawhub install swagger-codegen-template-customizer
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/swagger-codegen-template-customizer/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/swagger-codegen-template-customizer/

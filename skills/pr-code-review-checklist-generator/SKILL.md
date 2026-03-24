@@ -3,10 +3,10 @@ name: "PR Code Review Checklist Generator"
 description: "Reads a GitHub pull request diff and generates a structured review checklist covering security, performance, test coverage, and style concerns specific to the changed files. Detects language and framework from the diff. Outputs ready-to-paste Markdown."
 category: "Code Quality & Review"
 framework: "OpenClaw"
-verification: listed
-rating: 0
-reviews: 0
-creator: ""
+verification: listed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/pr-code-review-checklist-generator/"
@@ -16,41 +16,42 @@ source: "https://agentskillexchange.com/skills/pr-code-review-checklist-generato
 
 Reads a GitHub pull request diff and generates a structured review checklist covering security, performance, test coverage, and style concerns specific to the changed files. Detects language and framework from the diff. Outputs ready-to-paste Markdown.
 
+## Overview
+
+Reads a GitHub pull request diff and generates a structured review checklist covering security, performance, test coverage, and style concerns specific to the changed files. Detects language and framework from the diff. Outputs ready-to-paste Markdown.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill pr-code-review-checklist-generator
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill pr-code-review-checklist-generator -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill pr-code-review-checklist-generator -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install pr-code-review-checklist-generator
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill pr-code-review-checklist-generator -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Code Quality & Review |
-| **Framework** | OpenClaw |
-| **Verification** | 📋 Listed |
+```bash
+clawhub install pr-code-review-checklist-generator
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/pr-code-review-checklist-generator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/pr-code-review-checklist-generator/

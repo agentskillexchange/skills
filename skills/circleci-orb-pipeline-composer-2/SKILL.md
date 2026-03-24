@@ -3,62 +3,61 @@ name: "CircleCI Orb Pipeline Composer"
 description: "Composes multi-stage CircleCI pipelines using reusable Orbs and the CircleCI v2 API. Supports dynamic config generation with setup workflows and pipeline parameters for monorepo deployments."
 category: "CI/CD Integrations"
 framework: "Claude Code"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/circleci-orb-pipeline-composer-2/"
-tool_ecosystem:
-  tool: "circleci"
-  github_stars: 842
-  npm_weekly_downloads: 0
-  github_repo: "circleci/circleci-docs"
-  license: "Unknown"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "circleci"  # from ase_tool_match
+  github_stars: 842  # from ase_github_stars (integer, not string)
+  github_repo: "circleci/circleci-docs"  # from ase_github_repo
+  license: "Unknown"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # CircleCI Orb Pipeline Composer
 
 Composes multi-stage CircleCI pipelines using reusable Orbs and the CircleCI v2 API. Supports dynamic config generation with setup workflows and pipeline parameters for monorepo deployments.
 
+## Overview
+
+The CircleCI Orb Pipeline Composer skill generates optimized CircleCI pipeline configurations by leveraging the CircleCI v2 API and the Orb registry. It creates multi-stage workflows that compose reusable Orbs for common tasks like Docker image building (circleci/docker), AWS deployments (circleci/aws-cli), and Kubernetes rollouts (circleci/kubernetes). The skill supports dynamic configuration through setup workflows, enabling monorepo projects to selectively trigger downstream pipelines based on changed paths using the path-filtering orb. It configures pipeline parameters for environment-specific builds, implements workspace persistence between jobs, and sets up approval gates for production deployments. The composer validates configurations against the CircleCI config schema, checks Orb version compatibility, and generates pipeline parameter maps for API-triggered runs via the CircleCI Pipeline Trigger API endpoint.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill circleci-orb-pipeline-composer-2
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill circleci-orb-pipeline-composer-2 -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill circleci-orb-pipeline-composer-2 -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install circleci-orb-pipeline-composer-2
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill circleci-orb-pipeline-composer-2 -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | CI/CD Integrations |
-| **Framework** | Claude Code |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | [circleci](https://github.com/circleci/circleci-docs) — ⭐ 842 · Unknown |
+```bash
+clawhub install circleci-orb-pipeline-composer-2
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-orb-pipeline-composer-2/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/circleci-orb-pipeline-composer-2/

@@ -3,10 +3,10 @@ name: "Lottie Animation Optimizer"
 description: "Analyzes and optimizes Lottie JSON animation files using lottie-web parser internals, reduces file size via keyframe deduplication and path simplification, and validates against the Telegram Lottie sticker spec (TGS)."
 category: "Image & Creative Automation"
 framework: "ChatGPT Agents"
-verification: listed
-rating: 0
-reviews: 0
-creator: ""
+verification: listed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/lottie-animation-optimizer/"
@@ -16,41 +16,42 @@ source: "https://agentskillexchange.com/skills/lottie-animation-optimizer/"
 
 Analyzes and optimizes Lottie JSON animation files using lottie-web parser internals, reduces file size via keyframe deduplication and path simplification, and validates against the Telegram Lottie sticker spec (TGS).
 
+## Overview
+
+The Lottie Animation Optimizer parses After Effects-exported Lottie JSON files and applies size and performance optimizations for web and mobile delivery. It uses the lottie-web renderer’s internal data model to identify redundant keyframes, unused layers, oversized embedded images (replacing them with external asset references), and unnecessarily complex Bezier paths. The agent applies path simplification using Ramer-Douglas-Peucker algorithm on shape layers, deduplicates identical transform keyframes across layers, and strips editor metadata. For Telegram sticker compliance, it validates against the TGS spec: max 64KB gzipped, 512×512 canvas, 60fps max, no embedded raster images, no expressions. Output includes optimized JSON, gzipped .tgs for Telegram, and dotlottie (.lottie) container format with embedded assets. Performance benchmarks compare render time on lottie-web, lottie-ios (Airbnb), and rlottie (Samsung) renderers.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill lottie-animation-optimizer
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill lottie-animation-optimizer -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill lottie-animation-optimizer -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install lottie-animation-optimizer
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill lottie-animation-optimizer -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Image & Creative Automation |
-| **Framework** | ChatGPT Agents |
-| **Verification** | 📋 Listed |
+```bash
+clawhub install lottie-animation-optimizer
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/lottie-animation-optimizer/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/lottie-animation-optimizer/

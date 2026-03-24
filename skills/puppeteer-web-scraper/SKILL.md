@@ -3,62 +3,66 @@ name: "Puppeteer Web Scraper"
 description: "Headless Chrome scraping via Puppeteer with automatic cookie handling, JavaScript rendering, and Cheerio-based DOM extraction. Handles infinite scroll and lazy-loaded content."
 category: "Research & Scraping"
 framework: "Cursor"
-verification: listed
-rating: 0
-reviews: 0
-creator: ""
+verification: listed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/puppeteer-web-scraper/"
-tool_ecosystem:
-  tool: "puppeteer"
-  github_stars: 93912
-  npm_weekly_downloads: 8696130
-  github_repo: "puppeteer/puppeteer"
-  license: "Apache-2.0"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "puppeteer"  # from ase_tool_match
+  github_stars: 93912  # from ase_github_stars (integer, not string)
+  npm_weekly_downloads: 8696130  # from ase_npm_downloads
+  github_repo: "puppeteer/puppeteer"  # from ase_github_repo
+  license: "Apache-2.0"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Puppeteer Web Scraper
 
 Headless Chrome scraping via Puppeteer with automatic cookie handling, JavaScript rendering, and Cheerio-based DOM extraction. Handles infinite scroll and lazy-loaded content.
 
+## Overview
+
+This skill leverages Puppeteer to launch headless Chromium instances for scraping JavaScript-heavy websites that traditional HTTP clients cannot parse. It manages browser contexts, handles cookie consent dialogs, and waits for dynamic content to fully render.
+
+The extraction pipeline uses Cheerio for fast DOM querying after page load, supporting CSS selectors and XPath expressions. Built-in strategies handle infinite scroll pages by monitoring DOM mutations and network idle states.
+
+Features include proxy rotation via a configurable proxy pool, user-agent randomization from a curated list of real browser strings, and viewport emulation for responsive sites. The skill captures screenshots for debugging and exports data as JSON-LD, CSV, or feeds into a PostgreSQL database via pg-copy-streams for high-throughput ingestion.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill puppeteer-web-scraper
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill puppeteer-web-scraper -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill puppeteer-web-scraper -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install puppeteer-web-scraper
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill puppeteer-web-scraper -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Research & Scraping |
-| **Framework** | Cursor |
-| **Verification** | 📋 Listed |
-| **Tool** | [puppeteer](https://github.com/puppeteer/puppeteer) — ⭐ 93.9k · Apache-2.0 |
+```bash
+clawhub install puppeteer-web-scraper
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/puppeteer-web-scraper/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/puppeteer-web-scraper/

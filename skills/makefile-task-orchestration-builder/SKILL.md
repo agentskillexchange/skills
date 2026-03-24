@@ -3,10 +3,10 @@ name: "Makefile Task Orchestration Builder"
 description: "Builds GNU Make task orchestration files with proper prerequisite chains, pattern rules, and automatic variables. Handles parallel execution flags, phony targets, and recursive make invocations for monorepo builds."
 category: "Templates & Workflows"
 framework: "Claude Code"
-verification: listed
-rating: 0
-reviews: 0
-creator: ""
+verification: listed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/makefile-task-orchestration-builder/"
@@ -16,41 +16,42 @@ source: "https://agentskillexchange.com/skills/makefile-task-orchestration-build
 
 Builds GNU Make task orchestration files with proper prerequisite chains, pattern rules, and automatic variables. Handles parallel execution flags, phony targets, and recursive make invocations for monorepo builds.
 
+## Overview
+
+The Makefile Task Orchestration Builder generates GNU Make compatible Makefiles with correct syntax for complex build and automation workflows. It constructs prerequisite chains using both order-only and normal prerequisites to model task dependencies accurately. Pattern rules with stem matching handle repetitive build targets across multiple source files. Automatic variables ($@, $
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill makefile-task-orchestration-builder
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill makefile-task-orchestration-builder -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill makefile-task-orchestration-builder -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install makefile-task-orchestration-builder
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill makefile-task-orchestration-builder -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Templates & Workflows |
-| **Framework** | Claude Code |
-| **Verification** | 📋 Listed |
+```bash
+clawhub install makefile-task-orchestration-builder
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/makefile-task-orchestration-builder/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/makefile-task-orchestration-builder/

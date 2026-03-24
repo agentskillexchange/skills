@@ -3,62 +3,58 @@ name: "LangChain MCP Server"
 description: "Use this skill to build and execute LangChain chains, access LangChain’s agent tools ecosystem, and manage memory and conversation history through MCP. It enables agents to leverage LangChain’s extensive tool library and chain-building capabilities. Trigger when you need to compose multi-step AI workflows, use LangChain-specific tools, or manage conversation memory across sessions."
 category: "Developer Tools"
 framework: "MCP-compatible"
-verification: listed
-rating: 0
-reviews: 0
-creator: ""
+verification: listed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/langchain-mcp-server/"
-tool_ecosystem:
-  tool: "langchain"
-  github_stars: 0
-  npm_weekly_downloads: 2137497
-  github_repo: ""
-  license: ""
-  maintained: false
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "langchain"  # from ase_tool_match
+  npm_weekly_downloads: 2137497  # from ase_npm_downloads
 ---
 
 # LangChain MCP Server
 
 Use this skill to build and execute LangChain chains, access LangChain’s agent tools ecosystem, and manage memory and conversation history through MCP. It enables agents to leverage LangChain’s extensive tool library and chain-building capabilities. Trigger when you need to compose multi-step AI workflows, use LangChain-specific tools, or manage conversation memory across sessions.
 
+## Overview
+
+Use this skill to build and execute LangChain chains, access LangChain’s agent tools ecosystem, and manage memory and conversation history through MCP. It enables agents to leverage LangChain’s extensive tool library and chain-building capabilities. Trigger when you need to compose multi-step AI workflows, use LangChain-specific tools, or manage conversation memory across sessions.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill langchain-mcp-server
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill langchain-mcp-server -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill langchain-mcp-server -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install langchain-mcp-server
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill langchain-mcp-server -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Developer Tools |
-| **Framework** | MCP-compatible |
-| **Verification** | 📋 Listed |
-| **Tool** | langchain |
+```bash
+clawhub install langchain-mcp-server
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/langchain-mcp-server/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/langchain-mcp-server/

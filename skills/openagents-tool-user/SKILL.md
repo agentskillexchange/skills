@@ -3,10 +3,10 @@ name: "OpenAgents Tool User"
 description: "OpenAgents is an open platform for deploying LLM agents with real-world tools including data analysis, web browsing, and plugin integration. This skill covers building tool-augmented agents using the OpenAgents framework for practical everyday tasks."
 category: "Developer Tools"
 framework: "Custom Agents"
-verification: listed
-rating: 0
-reviews: 0
-creator: ""
+verification: listed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/openagents-tool-user/"
@@ -16,41 +16,42 @@ source: "https://agentskillexchange.com/skills/openagents-tool-user/"
 
 OpenAgents is an open platform for deploying LLM agents with real-world tools including data analysis, web browsing, and plugin integration. This skill covers building tool-augmented agents using the OpenAgents framework for practical everyday tasks.
 
+## Overview
+
+OpenAgents is an open platform for deploying LLM agents with real-world tools including data analysis, web browsing, and plugin integration. This skill covers building tool-augmented agents using the OpenAgents framework for practical everyday tasks.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill openagents-tool-user
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill openagents-tool-user -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill openagents-tool-user -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install openagents-tool-user
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill openagents-tool-user -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Developer Tools |
-| **Framework** | Custom Agents |
-| **Verification** | 📋 Listed |
+```bash
+clawhub install openagents-tool-user
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/openagents-tool-user/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/openagents-tool-user/

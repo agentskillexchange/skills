@@ -3,10 +3,10 @@ name: "CSV Schema Validator & Auto-Fixer"
 description: "Validates CSV files against JSON Schema definitions using AJV and csv-parse. Automatically detects and repairs type mismatches, missing required columns, and encoding issues with configurable strictness levels."
 category: "Data Extraction & Transformation"
 framework: "OpenClaw"
-verification: listed
-rating: 0
-reviews: 0
-creator: ""
+verification: listed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/csv-schema-validator-auto-fixer/"
@@ -16,41 +16,42 @@ source: "https://agentskillexchange.com/skills/csv-schema-validator-auto-fixer/"
 
 Validates CSV files against JSON Schema definitions using AJV and csv-parse. Automatically detects and repairs type mismatches, missing required columns, and encoding issues with configurable strictness levels.
 
+## Overview
+
+The CSV Schema Validator & Auto-Fixer skill provides comprehensive CSV validation and repair capabilities using the AJV JSON Schema validator combined with csv-parse for robust parsing. It accepts CSV files alongside JSON Schema definitions that describe expected column types, required fields, and value constraints. The validation engine processes each row against the schema, flagging type mismatches (e.g., strings in numeric columns), missing required columns, duplicate headers, and encoding anomalies like BOM markers or mixed line endings. When auto-fix mode is enabled, it applies configurable repair strategies: coercing types where safe, inserting default values for missing required fields, deduplicating headers with suffix numbering, and normalizing encoding to UTF-8. The tool generates detailed validation reports in JSON format with per-row error annotations, summary statistics, and a diff of applied fixes. Supports streaming mode for large files exceeding available memory, batch processing of entire directories, and integration with CI/CD pipelines via exit codes and structured output.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill csv-schema-validator-auto-fixer
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill csv-schema-validator-auto-fixer -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill csv-schema-validator-auto-fixer -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install csv-schema-validator-auto-fixer
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill csv-schema-validator-auto-fixer -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Data Extraction & Transformation |
-| **Framework** | OpenClaw |
-| **Verification** | 📋 Listed |
+```bash
+clawhub install csv-schema-validator-auto-fixer
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/csv-schema-validator-auto-fixer/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/csv-schema-validator-auto-fixer/

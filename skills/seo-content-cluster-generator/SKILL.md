@@ -3,10 +3,10 @@ name: "SEO Content Cluster Generator"
 description: "Builds topical authority clusters using SEMrush Keyword Magic API, Ahrefs Content Explorer, and Google Search Console API. Generates pillar pages with internal linking maps and schema.org Article markup."
 category: "Content Writing & SEO"
 framework: "Claude Agents"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/seo-content-cluster-generator/"
@@ -16,41 +16,42 @@ source: "https://agentskillexchange.com/skills/seo-content-cluster-generator/"
 
 Builds topical authority clusters using SEMrush Keyword Magic API, Ahrefs Content Explorer, and Google Search Console API. Generates pillar pages with internal linking maps and schema.org Article markup.
 
+## Overview
+
+This skill creates comprehensive SEO content clusters designed to build topical authority. It starts with keyword research using the SEMrush Keyword Magic Tool API to identify seed keywords, related terms, and question-based queries with search volume and keyword difficulty scores. The Ahrefs Content Explorer API analyzes top-ranking content for word count benchmarks, referring domain patterns, and content gap opportunities. Google Search Console API integration via google.webmasters.searchanalytics.query identifies existing ranking positions and impression opportunities. The agent generates pillar page outlines with H2/H3 heading structures optimized for featured snippets. Internal linking maps connect cluster pages to pillar content using contextual anchor text variations. Each piece includes schema.org Article structured data with author, datePublished, and mainEntityOfPage properties for rich result eligibility. Meta descriptions are crafted within the 155-character limit with primary keyword placement. The skill tracks content performance through Google Analytics 4 Data API engagement metrics including average_session_duration and scroll_depth events.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill seo-content-cluster-generator
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill seo-content-cluster-generator -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill seo-content-cluster-generator -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install seo-content-cluster-generator
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill seo-content-cluster-generator -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Content Writing & SEO |
-| **Framework** | Claude Agents |
-| **Verification** | 🛡️ Security Reviewed |
+```bash
+clawhub install seo-content-cluster-generator
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/seo-content-cluster-generator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/seo-content-cluster-generator/

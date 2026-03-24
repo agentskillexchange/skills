@@ -3,62 +3,66 @@ name: "Selenium Grid Orchestrator"
 description: "Manages Selenium Grid 4 hub and node registration for cross-browser parallel testing. Configures Chrome, Firefox, and Edge nodes with resource allocation policies."
 category: "Browser Automation"
 framework: "OpenClaw"
-verification: listed
-rating: 0
-reviews: 0
-creator: ""
+verification: listed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/selenium-grid-orchestrator/"
-tool_ecosystem:
-  tool: "selenium"
-  github_stars: 34169
-  npm_weekly_downloads: 2000657
-  github_repo: "SeleniumHQ/selenium"
-  license: "Apache-2.0"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "selenium"  # from ase_tool_match
+  github_stars: 34169  # from ase_github_stars (integer, not string)
+  npm_weekly_downloads: 2000657  # from ase_npm_downloads
+  github_repo: "SeleniumHQ/selenium"  # from ase_github_repo
+  license: "Apache-2.0"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Selenium Grid Orchestrator
 
 Manages Selenium Grid 4 hub and node registration for cross-browser parallel testing. Configures Chrome, Firefox, and Edge nodes with resource allocation policies.
 
+## Overview
+
+The Selenium Grid Orchestrator skill automates the deployment and management of Selenium Grid 4 infrastructure for distributed browser testing. It handles hub configuration, node registration, and session distribution across multiple browser types and versions.
+
+The skill configures Chrome, Firefox, and Edge nodes with specific resource allocation policies including max-sessions, stereotype matching, and drain timeouts. It supports Docker-based node scaling using Selenium Docker images with automatic pull and version pinning.
+
+Health monitoring tracks node availability, session queue depth, and test throughput metrics. The orchestrator implements smart session routing based on browser capability matching and node load balancing. Integration with TestNG and JUnit parallel execution allows test suites to scale horizontally across the grid. Configuration is managed through TOML files with environment variable overrides for CI environments.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill selenium-grid-orchestrator
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill selenium-grid-orchestrator -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill selenium-grid-orchestrator -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install selenium-grid-orchestrator
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill selenium-grid-orchestrator -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Browser Automation |
-| **Framework** | OpenClaw |
-| **Verification** | 📋 Listed |
-| **Tool** | [selenium](https://github.com/SeleniumHQ/selenium) — ⭐ 34.2k · Apache-2.0 |
+```bash
+clawhub install selenium-grid-orchestrator
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/selenium-grid-orchestrator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/selenium-grid-orchestrator/

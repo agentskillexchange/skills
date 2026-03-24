@@ -3,10 +3,10 @@ name: "Self-Improvement / Learnings Capture"
 description: "Capture failures, corrections, and repeatable lessons so important operational knowledge persists across sessions."
 category: "Templates & Workflows"
 framework: "OpenClaw"
-verification: listed
-rating: 0
-reviews: 0
-creator: ""
+verification: listed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/self-improvement-learnings-capture/"
@@ -16,41 +16,55 @@ source: "https://agentskillexchange.com/skills/self-improvement-learnings-captur
 
 Capture failures, corrections, and repeatable lessons so important operational knowledge persists across sessions.
 
+## Overview
+
+Self-Improvement / Learnings Capture is a workflow skill for turning one-off errors and corrections into durable operating knowledge. Instead of losing lessons between sessions, it helps store them in structured markdown files and promote recurring patterns into workspace guidance.
+Best for
+
+- logging errors, corrections, and feature gaps into durable files
+
+- turning recurring mistakes into documented process improvements
+
+- maintaining operational memory inside OpenClaw workspaces
+
+Install notes
+
+Install the skill into an OpenClaw workspace with write access to memory and learning files. Optional hooks can be added later for deeper automation, but the core value is already there without them.
+
+Source: self-improving-agent skill for OpenClaw workflows.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill self-improvement-learnings-capture
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill self-improvement-learnings-capture -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill self-improvement-learnings-capture -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install self-improvement-learnings-capture
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill self-improvement-learnings-capture -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Templates & Workflows |
-| **Framework** | OpenClaw |
-| **Verification** | 📋 Listed |
+```bash
+clawhub install self-improvement-learnings-capture
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/self-improvement-learnings-capture/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/self-improvement-learnings-capture/

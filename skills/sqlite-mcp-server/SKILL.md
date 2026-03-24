@@ -3,62 +3,58 @@ name: "SQLite MCP Server"
 description: "Lightweight local database access for agent tasks."
 category: "Data Extraction & Transformation"
 framework: "Claude Code"
-verification: listed
-rating: 0
-reviews: 0
-creator: ""
+verification: listed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/sqlite-mcp-server/"
-tool_ecosystem:
-  tool: "sqlite"
-  github_stars: 0
-  npm_weekly_downloads: 4960915
-  github_repo: ""
-  license: ""
-  maintained: false
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "sqlite"  # from ase_tool_match
+  npm_weekly_downloads: 4960915  # from ase_npm_downloads
 ---
 
 # SQLite MCP Server
 
 Lightweight local database access for agent tasks.
 
+## Overview
+
+Lets agents inspect and query SQLite databases, making it useful for local apps, exports, and embedded data workflows.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill sqlite-mcp-server
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill sqlite-mcp-server -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill sqlite-mcp-server -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install sqlite-mcp-server
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill sqlite-mcp-server -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Data Extraction & Transformation |
-| **Framework** | Claude Code |
-| **Verification** | 📋 Listed |
-| **Tool** | sqlite |
+```bash
+clawhub install sqlite-mcp-server
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/sqlite-mcp-server/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/sqlite-mcp-server/

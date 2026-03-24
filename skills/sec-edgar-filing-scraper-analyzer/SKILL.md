@@ -3,62 +3,61 @@ name: "SEC EDGAR Filing Scraper & Analyzer"
 description: "Downloads and parses SEC EDGAR filings (10-K, 10-Q, 8-K) using the EDGAR full-text search API and python-xbrl. Extracts financial statements, risk factors, and executive compensation into structured datasets."
 category: "Research & Scraping"
 framework: "Claude Code"
-verification: security_reviewed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/sec-edgar-filing-scraper-analyzer/"
-tool_ecosystem:
-  tool: "pandas"
-  github_stars: 48224
-  npm_weekly_downloads: 0
-  github_repo: "pandas-dev/pandas"
-  license: "BSD-3-Clause"
-  maintained: true
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "pandas"  # from ase_tool_match
+  github_stars: 48224  # from ase_github_stars (integer, not string)
+  github_repo: "pandas-dev/pandas"  # from ase_github_repo
+  license: "BSD-3-Clause"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # SEC EDGAR Filing Scraper & Analyzer
 
 Downloads and parses SEC EDGAR filings (10-K, 10-Q, 8-K) using the EDGAR full-text search API and python-xbrl. Extracts financial statements, risk factors, and executive compensation into structured datasets.
 
+## Overview
+
+The SEC EDGAR Filing Scraper & Analyzer skill automates the extraction and analysis of SEC regulatory filings for financial research and compliance monitoring. Using the official EDGAR EFTS (full-text search) API and direct filing access endpoints, it retrieves 10-K annual reports, 10-Q quarterly reports, 8-K current reports, and proxy statements for any public company by CIK number or ticker symbol. The python-xbrl parser processes inline XBRL tagged data to extract structured financial statements — income statements, balance sheets, and cash flow statements — with proper handling of GAAP and IFRS taxonomies, extension elements, and dimensional breakdowns. Risk factor extraction uses section detection heuristics and NLP to identify and categorize risk disclosures, tracking changes between filing periods to surface new and removed risks. Executive compensation parsing extracts named executive officer tables, equity award details, and total compensation calculations from DEF 14A proxy statements. The tool generates normalized financial datasets in pandas DataFrames with consistent column naming across companies and filing periods, enabling cross-company comparison and time-series analysis. Automated ratio computation (current ratio, debt-to-equity, ROE, margins) provides instant financial health snapshots. Filing monitoring mode polls EDGAR for new filings matching configurable criteria and triggers analysis pipelines automatically.
+
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
 npx skills add agentskillexchange/skills --skill sec-edgar-filing-scraper-analyzer
 ```
 
 ### Claude Code
+
 ```bash
 npx skills add agentskillexchange/skills --skill sec-edgar-filing-scraper-analyzer -a claude-code
 ```
 
 ### Cursor
+
 ```bash
 npx skills add agentskillexchange/skills --skill sec-edgar-filing-scraper-analyzer -a cursor
 ```
 
-### OpenClaw
-```bash
-clawhub install sec-edgar-filing-scraper-analyzer
-```
-
 ### Codex
+
 ```bash
 npx skills add agentskillexchange/skills --skill sec-edgar-filing-scraper-analyzer -a codex
 ```
 
-## Details
+### OpenClaw
 
-| | |
-|---|---|
-| **Category** | Research & Scraping |
-| **Framework** | Claude Code |
-| **Verification** | 🛡️ Security Reviewed |
-| **Tool** | [pandas](https://github.com/pandas-dev/pandas) — ⭐ 48.2k · BSD-3-Clause |
+```bash
+clawhub install sec-edgar-filing-scraper-analyzer
+```
 
----
+## Source
 
-*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/sec-edgar-filing-scraper-analyzer/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
+- Marketplace: https://agentskillexchange.com/skills/sec-edgar-filing-scraper-analyzer/
