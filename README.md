@@ -52,6 +52,18 @@ If you're new to the repo, use these entry points first:
 
 ---
 
+## Featured Paths
+
+| Section | Best for | Link |
+|---|---|---|
+| ⭐ **Top Starred** | Skills with the strongest GitHub traction | [TOP-STARS.md](TOP-STARS.md) |
+| 🔥 **Top Downloaded** | Skills tied to widely-used npm ecosystems | [TOP-DOWNLOADS.md](TOP-DOWNLOADS.md) |
+| 🛡️ **Security Reviewed** | Highest trust tier in ASE | [verification/security_reviewed.md](verification/security_reviewed.md) |
+
+These are the repo-native equivalents of the strongest ASE homepage discovery sections.
+
+---
+
 ## Categories
 
 Categories are the best way to understand the shape of the catalog. For live sorting by stars, downloads, and verification, jump from a category into the ASE browse surface.
