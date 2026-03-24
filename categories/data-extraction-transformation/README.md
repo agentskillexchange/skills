@@ -1,6 +1,6 @@
 # 🔄 Data Extraction & Transformation
 
-> **90 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=data-extraction-transformation)
+> **95 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=data-extraction-transformation)
 
 Parsing, ETL pipelines, format conversion, data wrangling, and transformation utilities.
 
@@ -12,12 +12,14 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 |-------|:------:|:-------:|---------|
 | [A/B Test Analyzer](../../skills/a-b-test-analyzer/) | ⭐ 4.9 | 0 | `clawhub install a-b-test-analyzer` |
 | [Apache Kafka Schema Extractor](../../skills/apache-kafka-schema-extractor/) | ⭐ 4.9 | 0 | `clawhub install apache-kafka-schema-extractor` |
+| [Apache Kafka Stream Transformer](../../skills/apache-kafka-stream-transformer-2/) | ⭐ 4.9 | 0 | `clawhub install apache-kafka-stream-transformer-2` |
 | [Apache Spark DataFrame ETL Pipeline](../../skills/spark-dataframe-etl-pipeline/) | ⭐ 4.9 | 0 | `clawhub install spark-dataframe-etl-pipeline` |
 | [Camelot Advanced PDF Table Intelligence](../../skills/camelot-advanced-pdf-table-intelligence/) | ⭐ 4.9 | 0 | `clawhub install camelot-advanced-pdf-table-intelligence` |
 | [Cheerio DOM Extraction Pipeline](../../skills/cheerio-dom-extraction-pipeline/) | ⭐ 4.9 | 0 | `clawhub install cheerio-dom-extraction-pipeline` |
 | [Crawl4AI MCP Server](../../skills/crawl4ai-mcp-server/) | ⭐ 4.9 | 0 | `clawhub install crawl4ai-mcp-server` |
 | [dbt Data Transform Orchestrator](../../skills/dbt-data-transform-orchestrator/) | ⭐ 4.9 | 0 | `clawhub install dbt-data-transform-orchestrator` |
 | [jq Pipeline Builder Agent](../../skills/jq-pipeline-builder-agent/) | ⭐ 4.9 | 0 | `clawhub install jq-pipeline-builder-agent` |
+| [Pandas DataFrame Pipeline Orchestrator](../../skills/pandas-dataframe-pipeline-orchestrator/) | ⭐ 4.9 | 0 | `clawhub install pandas-dataframe-pipeline-orchestrator` |
 | [Parquet Schema Extractor for S3](../../skills/parquet-schema-extractor-for-s3/) | ⭐ 4.9 | 0 | `clawhub install parquet-schema-extractor-for-s3` |
 | [Parquet to PostgreSQL Loader](../../skills/parquet-to-postgresql-loader/) | ⭐ 4.9 | 0 | `clawhub install parquet-to-postgresql-loader` |
 | [Protocol Buffer Schema Generator](../../skills/protobuf-schema-generator-from-json/) | ⭐ 4.9 | 0 | `clawhub install protobuf-schema-generator-from-json` |
@@ -58,6 +60,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Great Expectations Data Quality](../../skills/great-expectations-data-quality/) | ⭐ 4.6 | 0 | `clawhub install great-expectations-data-quality` |
 | [jq JSON Stream Transformer](../../skills/jq-json-stream-transformer/) | ⭐ 4.6 | 0 | `clawhub install jq-json-stream-transformer` |
 | [Parquet Column Pruning Optimizer](../../skills/parquet-column-pruning-optimizer/) | ⭐ 4.6 | 0 | `clawhub install parquet-column-pruning-optimizer` |
+| [Salesforce Bulk API Data Loader](../../skills/salesforce-bulk-api-data-loader/) | ⭐ 4.6 | 0 | `clawhub install salesforce-bulk-api-data-loader` |
 | [Apache Tika Document Parser](../../skills/apache-tika-document-parser/) | ⭐ 4.5 | 0 | `clawhub install apache-tika-document-parser` |
 | [dbt Model Lineage Extractor](../../skills/dbt-model-lineage-extractor-2/) | ⭐ 4.5 | 0 | `clawhub install dbt-model-lineage-extractor-2` |
 | [QuickBooks Online Invoice Reconciliation Agent](../../skills/quickbooks-invoice-reconciliation/) | ⭐ 4.5 | 0 | `clawhub install quickbooks-invoice-reconciliation` |
@@ -82,12 +85,14 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Apache Spark Job Manager](../../skills/apache-spark-job-manager/) | ⭐ 4.2 | 0 | `clawhub install apache-spark-job-manager` |
 | [BigQuery Cost &#038; Query Performance Auditor](../../skills/bigquery-cost-query-performance-auditor/) | ⭐ 4.2 | 0 | `clawhub install bigquery-cost-query-performance-auditor` |
 | [Camelot PDF Stream Parser](../../skills/camelot-pdf-stream-parser/) | ⭐ 4.2 | 0 | `clawhub install camelot-pdf-stream-parser` |
+| [dbt Model Dependency Analyzer](../../skills/dbt-model-dependency-analyzer-2/) | ⭐ 4.2 | 0 | `clawhub install dbt-model-dependency-analyzer-2` |
 | [GraphQL Data Federation Agent](../../skills/graphql-data-federation-agent/) | ⭐ 4.2 | 0 | `clawhub install graphql-data-federation-agent` |
 | [MLflow Experiment Tracker](../../skills/mlflow-experiment-tracker/) | ⭐ 4.2 | 0 | `clawhub install mlflow-experiment-tracker` |
 | [PDF Table Extraction with Camelot](../../skills/pdf-table-extraction-camelot/) | ⭐ 4.2 | 0 | `clawhub install pdf-table-extraction-camelot` |
 | [Pinecone MCP Server](../../skills/pinecone-mcp-server/) | ⭐ 4.2 | 0 | `clawhub install pinecone-mcp-server` |
 | [Qdrant MCP Server](../../skills/qdrant-mcp-server/) | ⭐ 4.2 | 0 | `clawhub install qdrant-mcp-server` |
 | [Segment MCP Server](../../skills/segment-mcp-server/) | ⭐ 4.2 | 0 | `clawhub install segment-mcp-server` |
+| [Snowflake Query Optimizer Agent](../../skills/snowflake-query-optimizer-agent/) | ⭐ 4.2 | 0 | `clawhub install snowflake-query-optimizer-agent` |
 | [Apache Airflow MCP](../../skills/apache-airflow-mcp/) | ⭐ 4.1 | 0 | `clawhub install apache-airflow-mcp` |
 | [dbt Data Transformation Orchestrator](../../skills/dbt-data-transformation-orchestrator/) | ⭐ 4.1 | 0 | `clawhub install dbt-data-transformation-orchestrator` |
 | [JSON-to-Avro Schema Transformer](../../skills/json-to-avro-schema-transformer/) | ⭐ 4.1 | 0 | `clawhub install json-to-avro-schema-transformer` |

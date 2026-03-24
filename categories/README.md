@@ -2,7 +2,7 @@
 
 Browse skills by category. Each category contains a curated list of verified skills.
 
-> **1592 skills** across **17 categories**
+> **1604 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
@@ -13,12 +13,12 @@ Browse skills by category. Each category contains a curated list of verified ski
 | 📚 | [**Library & API Reference**](library-api-reference/) | **119** | SDK documentation, API guides, framework reference material,... |
 | 📊 | [**Monitoring & Alerts**](monitoring-alerts/) | **101** | Metrics collection, alerting rules, observability setup, and... |
 | 🔒 | [**Security & Verification**](security-verification/) | **99** | Auth setup, vulnerability scanning, compliance checks, and s... |
+| 🔄 | [**Data Extraction & Transformation**](data-extraction-transformation/) | **95** | Parsing, ETL pipelines, format conversion, data wrangling, a... |
 | 📄 | [**Templates & Workflows**](templates-workflows/) | **92** | Project scaffolding, boilerplate generators, workflow templa... |
-| 🔄 | [**Data Extraction & Transformation**](data-extraction-transformation/) | **90** | Parsing, ETL pipelines, format conversion, data wrangling, a... |
-| 📅 | [**Calendar, Email & Productivity**](calendar-email-productivity/) | **72** | Email automation, calendar management, task coordination, an... |
+| 📅 | [**Calendar, Email & Productivity**](calendar-email-productivity/) | **75** | Email automation, calendar management, task coordination, an... |
 | 🌐 | [**Browser Automation**](browser-automation/) | **61** | Web scraping, UI testing, headless browser control, and brow... |
 | 🎨 | [**Image & Creative Automation**](image-creative-automation/) | **55** | Image generation, asset processing, design automation, and c... |
-| 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **49** | Third-party API bridges, webhook handlers, service connector... |
+| 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **53** | Third-party API bridges, webhook handlers, service connector... |
 | 🔍 | [**Research & Scraping**](research-scraping/) | **46** | Web research, data collection, content aggregation, and info... |
 | ✍️ | [**Content Writing & SEO**](content-writing-seo/) | **39** | Blog posts, SEO optimization, content strategy, and writing ... |
 | 🎙️ | [**Media & Transcription**](media-transcription/) | **35** | Audio/video processing, speech-to-text, media conversion, an... |

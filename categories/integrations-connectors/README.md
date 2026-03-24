@@ -1,6 +1,6 @@
 # 🔗 Integrations & Connectors
 
-> **49 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=integrations-connectors)
+> **53 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=integrations-connectors)
 
 Third-party API bridges, webhook handlers, service connectors, and platform integrations.
 
@@ -19,6 +19,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [ArgoCD Sync Status Monitor](../../skills/argocd-sync-status-monitor-5/) | ⭐ 4.8 | 0 | `clawhub install argocd-sync-status-monitor-5` |
 | [ClawHub Skill Discovery &#038; Publishing](../../skills/clawhub-skill-discovery-publishing/) | ⭐ 4.8 | 0 | `clawhub install clawhub-skill-discovery-publishing` |
 | [GitHub Discussions Community Digest](../../skills/github-discussions-community-digest/) | ⭐ 4.8 | 0 | `clawhub install github-discussions-community-digest` |
+| [HubSpot CRM Contact Enrichment Pipeline](../../skills/hubspot-crm-contact-enrichment-pipeline/) | ⭐ 4.8 | 0 | `clawhub install hubspot-crm-contact-enrichment-pipeline` |
 | [Plaid Financial Data Connector](../../skills/plaid-financial-data-connector-2/) | ⭐ 4.8 | 0 | `clawhub install plaid-financial-data-connector-2` |
 | [SendGrid Transactional Email Router](../../skills/sendgrid-transactional-email-router/) | ⭐ 4.8 | 0 | `clawhub install sendgrid-transactional-email-router` |
 | [Stripe Connect Integration](../../skills/stripe-connect-integration/) | ⭐ 4.8 | 0 | `clawhub install stripe-connect-integration` |
@@ -35,7 +36,9 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Google Drive MCP Server](../../skills/google-drive-mcp-server/) | ⭐ 4.6 | 0 | `clawhub install google-drive-mcp-server` |
 | [Notion Database Sync &#038; Page Generator](../../skills/notion-database-sync-page-generator/) | ⭐ 4.6 | 0 | `clawhub install notion-database-sync-page-generator` |
 | [Twilio MCP Server](../../skills/twilio-mcp-server/) | ⭐ 4.6 | 0 | `clawhub install twilio-mcp-server` |
+| [Twilio Programmable Voice Router](../../skills/twilio-programmable-voice-router-2/) | ⭐ 4.6 | 0 | `clawhub install twilio-programmable-voice-router-2` |
 | [Plaid Financial Data](../../skills/plaid-financial-data/) | ⭐ 4.5 | 0 | `clawhub install plaid-financial-data` |
+| [SendGrid Transactional Email Builder](../../skills/sendgrid-transactional-email-builder/) | ⭐ 4.5 | 0 | `clawhub install sendgrid-transactional-email-builder` |
 | [Stripe Payment Flow Connector](../../skills/stripe-payment-flow-connector/) | ⭐ 4.5 | 0 | `clawhub install stripe-payment-flow-connector` |
 | [AWS S3 &#038; SQS Pipeline Connector](../../skills/aws-s3-sqs-pipeline-connector/) | ⭐ 4.4 | 0 | `clawhub install aws-s3-sqs-pipeline-connector` |
 | [GitLab CI Pipeline Optimizer](../../skills/gitlab-ci-pipeline-optimizer-5/) | ⭐ 4.4 | 0 | `clawhub install gitlab-ci-pipeline-optimizer-5` |
@@ -59,6 +62,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Salesforce Bulk API Sync Agent](../../skills/salesforce-bulk-api-sync-agent/) | ⭐ 4.1 | 0 | `clawhub install salesforce-bulk-api-sync-agent` |
 | [Salesforce MCP Server](../../skills/salesforce-mcp-server/) | ⭐ 4.1 | 0 | `clawhub install salesforce-mcp-server` |
 | [Linear Issue Triage &#038; Sprint Planner](../../skills/linear-issue-triage-sprint-planner/) | ⭐ 4.0 | 0 | `clawhub install linear-issue-triage-sprint-planner` |
+| [Stripe Connect Account Provisioner](../../skills/stripe-connect-account-provisioner/) | ⭐ 4.0 | 0 | `clawhub install stripe-connect-account-provisioner` |
 
 ---
 

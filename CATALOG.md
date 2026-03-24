@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1592 skills** across **17 categories** · Updated 2026-03-24 08:08 UTC
+> **1604 skills** across **17 categories** · Updated 2026-03-24 09:11 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -10,7 +10,7 @@
 
 | Metric | Value |
 |--------|-------|
-| Total Skills | **1592** |
+| Total Skills | **1604** |
 | Categories | **17** |
 | Frameworks | **11** |
 | Verification | All skills **Verified Metadata** or higher |
@@ -1083,6 +1083,106 @@
 | [Container Runtime Security Monitor](skills/container-runtime-security-monitor/) | ⭐ 4.0 | 0 | `clawhub install container-runtime-security-monitor` |
 | [Stripe Webhook Signature Verifier](skills/stripe-webhook-signature-verifier/) | ⭐ 4.0 | 0 | `clawhub install stripe-webhook-signature-verifier` |
 
+### 🔄 Data Extraction & Transformation (95 skills)
+
+| Skill | Rating | Reviews | Install |
+|-------|:------:|:-------:|---------|
+| [A/B Test Analyzer](skills/a-b-test-analyzer/) | ⭐ 4.9 | 0 | `clawhub install a-b-test-analyzer` |
+| [Apache Kafka Schema Extractor](skills/apache-kafka-schema-extractor/) | ⭐ 4.9 | 0 | `clawhub install apache-kafka-schema-extractor` |
+| [Apache Kafka Stream Transformer](skills/apache-kafka-stream-transformer-2/) | ⭐ 4.9 | 0 | `clawhub install apache-kafka-stream-transformer-2` |
+| [Apache Spark DataFrame ETL Pipeline](skills/spark-dataframe-etl-pipeline/) | ⭐ 4.9 | 0 | `clawhub install spark-dataframe-etl-pipeline` |
+| [Camelot Advanced PDF Table Intelligence](skills/camelot-advanced-pdf-table-intelligence/) | ⭐ 4.9 | 0 | `clawhub install camelot-advanced-pdf-table-intelligence` |
+| [Cheerio DOM Extraction Pipeline](skills/cheerio-dom-extraction-pipeline/) | ⭐ 4.9 | 0 | `clawhub install cheerio-dom-extraction-pipeline` |
+| [Crawl4AI MCP Server](skills/crawl4ai-mcp-server/) | ⭐ 4.9 | 0 | `clawhub install crawl4ai-mcp-server` |
+| [dbt Data Transform Orchestrator](skills/dbt-data-transform-orchestrator/) | ⭐ 4.9 | 0 | `clawhub install dbt-data-transform-orchestrator` |
+| [jq Pipeline Builder Agent](skills/jq-pipeline-builder-agent/) | ⭐ 4.9 | 0 | `clawhub install jq-pipeline-builder-agent` |
+| [Pandas DataFrame Pipeline Orchestrator](skills/pandas-dataframe-pipeline-orchestrator/) | ⭐ 4.9 | 0 | `clawhub install pandas-dataframe-pipeline-orchestrator` |
+| [Parquet Schema Extractor for S3](skills/parquet-schema-extractor-for-s3/) | ⭐ 4.9 | 0 | `clawhub install parquet-schema-extractor-for-s3` |
+| [Parquet to PostgreSQL Loader](skills/parquet-to-postgresql-loader/) | ⭐ 4.9 | 0 | `clawhub install parquet-to-postgresql-loader` |
+| [Protocol Buffer Schema Generator](skills/protobuf-schema-generator-from-json/) | ⭐ 4.9 | 0 | `clawhub install protobuf-schema-generator-from-json` |
+| [Scrapy Spider Data Pipeline](skills/scrapy-spider-data-pipeline/) | ⭐ 4.9 | 0 | `clawhub install scrapy-spider-data-pipeline` |
+| [Stripe Revenue Analytics Dashboard Builder](skills/stripe-revenue-analytics-dashboard/) | ⭐ 4.9 | 0 | `clawhub install stripe-revenue-analytics-dashboard` |
+| [Tabula PDF Table Extraction Agent](skills/tabula-pdf-table-extraction-agent/) | ⭐ 4.9 | 0 | `clawhub install tabula-pdf-table-extraction-agent` |
+| [Tesseract OCR Data Extractor](skills/tesseract-ocr-data-extractor/) | ⭐ 4.9 | 0 | `clawhub install tesseract-ocr-data-extractor` |
+| [Apache Avro Schema Evolution Agent](skills/apache-avro-schema-evolution-agent/) | ⭐ 4.8 | 0 | `clawhub install apache-avro-schema-evolution-agent` |
+| [Apache Tika Content Extraction Hub](skills/apache-tika-content-extraction-hub/) | ⭐ 4.8 | 0 | `clawhub install apache-tika-content-extraction-hub` |
+| [Apache Tika Document Parser Agent](skills/apache-tika-document-parser-agent/) | ⭐ 4.8 | 0 | `clawhub install apache-tika-document-parser-agent` |
+| [BigQuery Cost &#038; Query Performance Auditor](skills/bigquery-cost-query-performance-auditor-2/) | ⭐ 4.8 | 0 | `clawhub install bigquery-cost-query-performance-auditor-2` |
+| [dbt Cloud MCP](skills/dbt-cloud-mcp/) | ⭐ 4.8 | 0 | `clawhub install dbt-cloud-mcp` |
+| [dbt Model Dependency Analyzer](skills/dbt-model-dependency-analyzer/) | ⭐ 4.8 | 0 | `clawhub install dbt-model-dependency-analyzer` |
+| [dbt Model Lineage &#038; Test Coverage Checker](skills/dbt-model-lineage-test-coverage-2/) | ⭐ 4.8 | 0 | `clawhub install dbt-model-lineage-test-coverage-2` |
+| [GCP BigQuery MCP Server](skills/gcp-bigquery-mcp-server/) | ⭐ 4.8 | 0 | `clawhub install gcp-bigquery-mcp-server` |
+| [Mixpanel MCP Server](skills/mixpanel-mcp-server/) | ⭐ 4.8 | 0 | `clawhub install mixpanel-mcp-server` |
+| [Pandas DataFrame Pipeline Builder](skills/pandas-dataframe-pipeline-builder/) | ⭐ 4.8 | 0 | `clawhub install pandas-dataframe-pipeline-builder` |
+| [Pandas DataFrame Schema Validator](skills/pandas-dataframe-schema-validator/) | ⭐ 4.8 | 0 | `clawhub install pandas-dataframe-schema-validator` |
+| [Pandas Profiling Report Generator](skills/pandas-profiling-report-generator/) | ⭐ 4.8 | 0 | `clawhub install pandas-profiling-report-generator` |
+| [Snowflake Query Profiler](skills/snowflake-query-profiler/) | ⭐ 4.8 | 0 | `clawhub install snowflake-query-profiler` |
+| [SQL Query Optimizer](skills/sql-query-optimizer/) | ⭐ 4.8 | 0 | `clawhub install sql-query-optimizer` |
+| [Tesseract OCR Document Extractor](skills/tesseract-ocr-document-extractor/) | ⭐ 4.8 | 0 | `clawhub install tesseract-ocr-document-extractor` |
+| [Apache Camel Route Data Mapper](skills/apache-camel-route-data-mapper/) | ⭐ 4.7 | 0 | `clawhub install apache-camel-route-data-mapper` |
+| [Apache Kafka Stream Processor](skills/apache-kafka-stream-processor/) | ⭐ 4.7 | 0 | `clawhub install apache-kafka-stream-processor` |
+| [ClickHouse Query Agent](skills/clickhouse-query-agent/) | ⭐ 4.7 | 0 | `clawhub install clickhouse-query-agent` |
+| [CSV Schema Validator &#038; Auto-Fixer](skills/csv-schema-validator-auto-fixer/) | ⭐ 4.7 | 0 | `clawhub install csv-schema-validator-auto-fixer` |
+| [dbt Model Lineage Extractor](skills/dbt-model-lineage-extractor/) | ⭐ 4.7 | 0 | `clawhub install dbt-model-lineage-extractor` |
+| [Hugging Face Dataset Pipeline](skills/huggingface-dataset-pipeline/) | ⭐ 4.7 | 0 | `clawhub install huggingface-dataset-pipeline` |
+| [Redshift Query Optimizer](skills/redshift-query-optimizer/) | ⭐ 4.7 | 0 | `clawhub install redshift-query-optimizer` |
+| [Snowflake MCP](skills/snowflake-mcp/) | ⭐ 4.7 | 0 | `clawhub install snowflake-mcp` |
+| [XML XSLT Transform Pipeline](skills/xml-xslt-transform-pipeline/) | ⭐ 4.7 | 0 | `clawhub install xml-xslt-transform-pipeline` |
+| [Apache Kafka Schema Registry Extractor](skills/kafka-schema-registry-extractor/) | ⭐ 4.6 | 0 | `clawhub install kafka-schema-registry-extractor` |
+| [Apache Kafka Schema Registry Validator](skills/kafka-schema-registry-validator/) | ⭐ 4.6 | 0 | `clawhub install kafka-schema-registry-validator` |
+| [Apache Tika Document Extractor](skills/apache-tika-document-extractor/) | ⭐ 4.6 | 0 | `clawhub install apache-tika-document-extractor` |
+| [Cohere MCP Server](skills/cohere-mcp-server/) | ⭐ 4.6 | 0 | `clawhub install cohere-mcp-server` |
+| [dbt Model Lineage Analyzer](skills/dbt-model-lineage-analyzer/) | ⭐ 4.6 | 0 | `clawhub install dbt-model-lineage-analyzer` |
+| [dbt Model Lineage Mapper](skills/dbt-model-lineage-mapper/) | ⭐ 4.6 | 0 | `clawhub install dbt-model-lineage-mapper` |
+| [Great Expectations Data Quality](skills/great-expectations-data-quality/) | ⭐ 4.6 | 0 | `clawhub install great-expectations-data-quality` |
+| [jq JSON Stream Transformer](skills/jq-json-stream-transformer/) | ⭐ 4.6 | 0 | `clawhub install jq-json-stream-transformer` |
+| [Parquet Column Pruning Optimizer](skills/parquet-column-pruning-optimizer/) | ⭐ 4.6 | 0 | `clawhub install parquet-column-pruning-optimizer` |
+| [Salesforce Bulk API Data Loader](skills/salesforce-bulk-api-data-loader/) | ⭐ 4.6 | 0 | `clawhub install salesforce-bulk-api-data-loader` |
+| [Apache Tika Document Parser](skills/apache-tika-document-parser/) | ⭐ 4.5 | 0 | `clawhub install apache-tika-document-parser` |
+| [dbt Model Lineage Extractor](skills/dbt-model-lineage-extractor-2/) | ⭐ 4.5 | 0 | `clawhub install dbt-model-lineage-extractor-2` |
+| [QuickBooks Online Invoice Reconciliation Agent](skills/quickbooks-invoice-reconciliation/) | ⭐ 4.5 | 0 | `clawhub install quickbooks-invoice-reconciliation` |
+| [Snowflake Query History Extractor](skills/snowflake-query-history-extractor/) | ⭐ 4.5 | 0 | `clawhub install snowflake-query-history-extractor` |
+| [Weights &#038; Biases Run Monitor](skills/wandb-run-monitor/) | ⭐ 4.5 | 0 | `clawhub install wandb-run-monitor` |
+| [Airbyte Connector Config Generator](skills/airbyte-connector-config-generator/) | ⭐ 4.4 | 0 | `clawhub install airbyte-connector-config-generator` |
+| [Amplitude MCP Server](skills/amplitude-mcp-server/) | ⭐ 4.4 | 0 | `clawhub install amplitude-mcp-server` |
+| [Apache Kafka Stream Transformer](skills/apache-kafka-stream-transformer/) | ⭐ 4.4 | 0 | `clawhub install apache-kafka-stream-transformer` |
+| [Databricks MCP](skills/databricks-mcp/) | ⭐ 4.4 | 0 | `clawhub install databricks-mcp` |
+| [dbt Model Transformation Architect](skills/dbt-model-transformation-architect/) | ⭐ 4.4 | 0 | `clawhub install dbt-model-transformation-architect` |
+| [Looker Tableau Data Extractor](skills/looker-tableau-data-extractor/) | ⭐ 4.4 | 0 | `clawhub install looker-tableau-data-extractor` |
+| [Metabase Dashboard Snapshot &#038; Alerting](skills/metabase-dashboard-snapshot-alerting/) | ⭐ 4.4 | 0 | `clawhub install metabase-dashboard-snapshot-alerting` |
+| [SQLite MCP Server](skills/sqlite-mcp-server/) | ⭐ 4.4 | 0 | `clawhub install sqlite-mcp-server` |
+| [dbt Model Dependency Resolver](skills/dbt-model-dependency-resolver-2/) | ⭐ 4.3 | 0 | `clawhub install dbt-model-dependency-resolver-2` |
+| [dbt Model Lineage &#038; Test Coverage Checker](skills/dbt-model-lineage-test-coverage/) | ⭐ 4.3 | 0 | `clawhub install dbt-model-lineage-test-coverage` |
+| [Elasticsearch MCP](skills/elasticsearch-mcp/) | ⭐ 4.3 | 0 | `clawhub install elasticsearch-mcp` |
+| [Metabase Dashboard Snapshot &#038; Alerting](skills/metabase-dashboard-snapshot-alerting-2/) | ⭐ 4.3 | 0 | `clawhub install metabase-dashboard-snapshot-alerting-2` |
+| [Parquet Column Mapper](skills/parquet-column-mapper/) | ⭐ 4.3 | 0 | `clawhub install parquet-column-mapper` |
+| [PostgreSQL MCP Server](skills/postgresql-mcp-server/) | ⭐ 4.3 | 0 | `clawhub install postgresql-mcp-server` |
+| [Snowflake MCP Server](skills/snowflake-mcp-server/) | ⭐ 4.3 | 0 | `clawhub install snowflake-mcp-server` |
+| [Tabula PDF Table Extractor](skills/tabula-pdf-table-extractor/) | ⭐ 4.3 | 0 | `clawhub install tabula-pdf-table-extractor` |
+| [Apache Spark Job Manager](skills/apache-spark-job-manager/) | ⭐ 4.2 | 0 | `clawhub install apache-spark-job-manager` |
+| [BigQuery Cost &#038; Query Performance Auditor](skills/bigquery-cost-query-performance-auditor/) | ⭐ 4.2 | 0 | `clawhub install bigquery-cost-query-performance-auditor` |
+| [Camelot PDF Stream Parser](skills/camelot-pdf-stream-parser/) | ⭐ 4.2 | 0 | `clawhub install camelot-pdf-stream-parser` |
+| [dbt Model Dependency Analyzer](skills/dbt-model-dependency-analyzer-2/) | ⭐ 4.2 | 0 | `clawhub install dbt-model-dependency-analyzer-2` |
+| [GraphQL Data Federation Agent](skills/graphql-data-federation-agent/) | ⭐ 4.2 | 0 | `clawhub install graphql-data-federation-agent` |
+| [MLflow Experiment Tracker](skills/mlflow-experiment-tracker/) | ⭐ 4.2 | 0 | `clawhub install mlflow-experiment-tracker` |
+| [PDF Table Extraction with Camelot](skills/pdf-table-extraction-camelot/) | ⭐ 4.2 | 0 | `clawhub install pdf-table-extraction-camelot` |
+| [Pinecone MCP Server](skills/pinecone-mcp-server/) | ⭐ 4.2 | 0 | `clawhub install pinecone-mcp-server` |
+| [Qdrant MCP Server](skills/qdrant-mcp-server/) | ⭐ 4.2 | 0 | `clawhub install qdrant-mcp-server` |
+| [Segment MCP Server](skills/segment-mcp-server/) | ⭐ 4.2 | 0 | `clawhub install segment-mcp-server` |
+| [Snowflake Query Optimizer Agent](skills/snowflake-query-optimizer-agent/) | ⭐ 4.2 | 0 | `clawhub install snowflake-query-optimizer-agent` |
+| [Apache Airflow MCP](skills/apache-airflow-mcp/) | ⭐ 4.1 | 0 | `clawhub install apache-airflow-mcp` |
+| [dbt Data Transformation Orchestrator](skills/dbt-data-transformation-orchestrator/) | ⭐ 4.1 | 0 | `clawhub install dbt-data-transformation-orchestrator` |
+| [JSON-to-Avro Schema Transformer](skills/json-to-avro-schema-transformer/) | ⭐ 4.1 | 0 | `clawhub install json-to-avro-schema-transformer` |
+| [Pandas DataFrame Schema Enforcer](skills/pandas-dataframe-schema-enforcer/) | ⭐ 4.1 | 0 | `clawhub install pandas-dataframe-schema-enforcer` |
+| [Postgres MCP Pro](skills/postgres-mcp-pro/) | ⭐ 4.1 | 0 | `clawhub install postgres-mcp-pro` |
+| [Reddit Subreddit Sentiment Tracker](skills/reddit-subreddit-sentiment-tracker/) | ⭐ 4.1 | 0 | `clawhub install reddit-subreddit-sentiment-tracker` |
+| [dbt MCP Server](skills/dbt-mcp-server/) | ⭐ 4.0 | 0 | `clawhub install dbt-mcp-server` |
+| [dbt Model Dependency Resolver](skills/dbt-model-dependency-resolver/) | ⭐ 4.0 | 0 | `clawhub install dbt-model-dependency-resolver` |
+| [GraphQL Schema Introspection Mapper](skills/graphql-schema-introspection-mapper/) | ⭐ 4.0 | 0 | `clawhub install graphql-schema-introspection-mapper` |
+| [Nano PDF Editor](skills/nano-pdf-editor/) | ⭐ 4.0 | 0 | `clawhub install nano-pdf-editor` |
+| [Parquet Column Statistics Profiler](skills/parquet-column-statistics-profiler/) | ⭐ 4.0 | 0 | `clawhub install parquet-column-statistics-profiler` |
+| [Weaviate MCP Server](skills/weaviate-mcp-server/) | ⭐ 4.0 | 0 | `clawhub install weaviate-mcp-server` |
+
 ### 📄 Templates & Workflows (92 skills)
 
 | Skill | Rating | Reviews | Install |
@@ -1180,102 +1280,7 @@
 | [ESLint Rule Auditor](skills/eslint-rule-auditor-2/) | ⭐ 4.0 | 0 | `clawhub install eslint-rule-auditor-2` |
 | [GitHub Actions Workflow Generator](skills/github-actions-workflow-generator-v2/) | ⭐ 4.0 | 0 | `clawhub install github-actions-workflow-generator-v2` |
 
-### 🔄 Data Extraction & Transformation (90 skills)
-
-| Skill | Rating | Reviews | Install |
-|-------|:------:|:-------:|---------|
-| [A/B Test Analyzer](skills/a-b-test-analyzer/) | ⭐ 4.9 | 0 | `clawhub install a-b-test-analyzer` |
-| [Apache Kafka Schema Extractor](skills/apache-kafka-schema-extractor/) | ⭐ 4.9 | 0 | `clawhub install apache-kafka-schema-extractor` |
-| [Apache Spark DataFrame ETL Pipeline](skills/spark-dataframe-etl-pipeline/) | ⭐ 4.9 | 0 | `clawhub install spark-dataframe-etl-pipeline` |
-| [Camelot Advanced PDF Table Intelligence](skills/camelot-advanced-pdf-table-intelligence/) | ⭐ 4.9 | 0 | `clawhub install camelot-advanced-pdf-table-intelligence` |
-| [Cheerio DOM Extraction Pipeline](skills/cheerio-dom-extraction-pipeline/) | ⭐ 4.9 | 0 | `clawhub install cheerio-dom-extraction-pipeline` |
-| [Crawl4AI MCP Server](skills/crawl4ai-mcp-server/) | ⭐ 4.9 | 0 | `clawhub install crawl4ai-mcp-server` |
-| [dbt Data Transform Orchestrator](skills/dbt-data-transform-orchestrator/) | ⭐ 4.9 | 0 | `clawhub install dbt-data-transform-orchestrator` |
-| [jq Pipeline Builder Agent](skills/jq-pipeline-builder-agent/) | ⭐ 4.9 | 0 | `clawhub install jq-pipeline-builder-agent` |
-| [Parquet Schema Extractor for S3](skills/parquet-schema-extractor-for-s3/) | ⭐ 4.9 | 0 | `clawhub install parquet-schema-extractor-for-s3` |
-| [Parquet to PostgreSQL Loader](skills/parquet-to-postgresql-loader/) | ⭐ 4.9 | 0 | `clawhub install parquet-to-postgresql-loader` |
-| [Protocol Buffer Schema Generator](skills/protobuf-schema-generator-from-json/) | ⭐ 4.9 | 0 | `clawhub install protobuf-schema-generator-from-json` |
-| [Scrapy Spider Data Pipeline](skills/scrapy-spider-data-pipeline/) | ⭐ 4.9 | 0 | `clawhub install scrapy-spider-data-pipeline` |
-| [Stripe Revenue Analytics Dashboard Builder](skills/stripe-revenue-analytics-dashboard/) | ⭐ 4.9 | 0 | `clawhub install stripe-revenue-analytics-dashboard` |
-| [Tabula PDF Table Extraction Agent](skills/tabula-pdf-table-extraction-agent/) | ⭐ 4.9 | 0 | `clawhub install tabula-pdf-table-extraction-agent` |
-| [Tesseract OCR Data Extractor](skills/tesseract-ocr-data-extractor/) | ⭐ 4.9 | 0 | `clawhub install tesseract-ocr-data-extractor` |
-| [Apache Avro Schema Evolution Agent](skills/apache-avro-schema-evolution-agent/) | ⭐ 4.8 | 0 | `clawhub install apache-avro-schema-evolution-agent` |
-| [Apache Tika Content Extraction Hub](skills/apache-tika-content-extraction-hub/) | ⭐ 4.8 | 0 | `clawhub install apache-tika-content-extraction-hub` |
-| [Apache Tika Document Parser Agent](skills/apache-tika-document-parser-agent/) | ⭐ 4.8 | 0 | `clawhub install apache-tika-document-parser-agent` |
-| [BigQuery Cost &#038; Query Performance Auditor](skills/bigquery-cost-query-performance-auditor-2/) | ⭐ 4.8 | 0 | `clawhub install bigquery-cost-query-performance-auditor-2` |
-| [dbt Cloud MCP](skills/dbt-cloud-mcp/) | ⭐ 4.8 | 0 | `clawhub install dbt-cloud-mcp` |
-| [dbt Model Dependency Analyzer](skills/dbt-model-dependency-analyzer/) | ⭐ 4.8 | 0 | `clawhub install dbt-model-dependency-analyzer` |
-| [dbt Model Lineage &#038; Test Coverage Checker](skills/dbt-model-lineage-test-coverage-2/) | ⭐ 4.8 | 0 | `clawhub install dbt-model-lineage-test-coverage-2` |
-| [GCP BigQuery MCP Server](skills/gcp-bigquery-mcp-server/) | ⭐ 4.8 | 0 | `clawhub install gcp-bigquery-mcp-server` |
-| [Mixpanel MCP Server](skills/mixpanel-mcp-server/) | ⭐ 4.8 | 0 | `clawhub install mixpanel-mcp-server` |
-| [Pandas DataFrame Pipeline Builder](skills/pandas-dataframe-pipeline-builder/) | ⭐ 4.8 | 0 | `clawhub install pandas-dataframe-pipeline-builder` |
-| [Pandas DataFrame Schema Validator](skills/pandas-dataframe-schema-validator/) | ⭐ 4.8 | 0 | `clawhub install pandas-dataframe-schema-validator` |
-| [Pandas Profiling Report Generator](skills/pandas-profiling-report-generator/) | ⭐ 4.8 | 0 | `clawhub install pandas-profiling-report-generator` |
-| [Snowflake Query Profiler](skills/snowflake-query-profiler/) | ⭐ 4.8 | 0 | `clawhub install snowflake-query-profiler` |
-| [SQL Query Optimizer](skills/sql-query-optimizer/) | ⭐ 4.8 | 0 | `clawhub install sql-query-optimizer` |
-| [Tesseract OCR Document Extractor](skills/tesseract-ocr-document-extractor/) | ⭐ 4.8 | 0 | `clawhub install tesseract-ocr-document-extractor` |
-| [Apache Camel Route Data Mapper](skills/apache-camel-route-data-mapper/) | ⭐ 4.7 | 0 | `clawhub install apache-camel-route-data-mapper` |
-| [Apache Kafka Stream Processor](skills/apache-kafka-stream-processor/) | ⭐ 4.7 | 0 | `clawhub install apache-kafka-stream-processor` |
-| [ClickHouse Query Agent](skills/clickhouse-query-agent/) | ⭐ 4.7 | 0 | `clawhub install clickhouse-query-agent` |
-| [CSV Schema Validator &#038; Auto-Fixer](skills/csv-schema-validator-auto-fixer/) | ⭐ 4.7 | 0 | `clawhub install csv-schema-validator-auto-fixer` |
-| [dbt Model Lineage Extractor](skills/dbt-model-lineage-extractor/) | ⭐ 4.7 | 0 | `clawhub install dbt-model-lineage-extractor` |
-| [Hugging Face Dataset Pipeline](skills/huggingface-dataset-pipeline/) | ⭐ 4.7 | 0 | `clawhub install huggingface-dataset-pipeline` |
-| [Redshift Query Optimizer](skills/redshift-query-optimizer/) | ⭐ 4.7 | 0 | `clawhub install redshift-query-optimizer` |
-| [Snowflake MCP](skills/snowflake-mcp/) | ⭐ 4.7 | 0 | `clawhub install snowflake-mcp` |
-| [XML XSLT Transform Pipeline](skills/xml-xslt-transform-pipeline/) | ⭐ 4.7 | 0 | `clawhub install xml-xslt-transform-pipeline` |
-| [Apache Kafka Schema Registry Extractor](skills/kafka-schema-registry-extractor/) | ⭐ 4.6 | 0 | `clawhub install kafka-schema-registry-extractor` |
-| [Apache Kafka Schema Registry Validator](skills/kafka-schema-registry-validator/) | ⭐ 4.6 | 0 | `clawhub install kafka-schema-registry-validator` |
-| [Apache Tika Document Extractor](skills/apache-tika-document-extractor/) | ⭐ 4.6 | 0 | `clawhub install apache-tika-document-extractor` |
-| [Cohere MCP Server](skills/cohere-mcp-server/) | ⭐ 4.6 | 0 | `clawhub install cohere-mcp-server` |
-| [dbt Model Lineage Analyzer](skills/dbt-model-lineage-analyzer/) | ⭐ 4.6 | 0 | `clawhub install dbt-model-lineage-analyzer` |
-| [dbt Model Lineage Mapper](skills/dbt-model-lineage-mapper/) | ⭐ 4.6 | 0 | `clawhub install dbt-model-lineage-mapper` |
-| [Great Expectations Data Quality](skills/great-expectations-data-quality/) | ⭐ 4.6 | 0 | `clawhub install great-expectations-data-quality` |
-| [jq JSON Stream Transformer](skills/jq-json-stream-transformer/) | ⭐ 4.6 | 0 | `clawhub install jq-json-stream-transformer` |
-| [Parquet Column Pruning Optimizer](skills/parquet-column-pruning-optimizer/) | ⭐ 4.6 | 0 | `clawhub install parquet-column-pruning-optimizer` |
-| [Apache Tika Document Parser](skills/apache-tika-document-parser/) | ⭐ 4.5 | 0 | `clawhub install apache-tika-document-parser` |
-| [dbt Model Lineage Extractor](skills/dbt-model-lineage-extractor-2/) | ⭐ 4.5 | 0 | `clawhub install dbt-model-lineage-extractor-2` |
-| [QuickBooks Online Invoice Reconciliation Agent](skills/quickbooks-invoice-reconciliation/) | ⭐ 4.5 | 0 | `clawhub install quickbooks-invoice-reconciliation` |
-| [Snowflake Query History Extractor](skills/snowflake-query-history-extractor/) | ⭐ 4.5 | 0 | `clawhub install snowflake-query-history-extractor` |
-| [Weights &#038; Biases Run Monitor](skills/wandb-run-monitor/) | ⭐ 4.5 | 0 | `clawhub install wandb-run-monitor` |
-| [Airbyte Connector Config Generator](skills/airbyte-connector-config-generator/) | ⭐ 4.4 | 0 | `clawhub install airbyte-connector-config-generator` |
-| [Amplitude MCP Server](skills/amplitude-mcp-server/) | ⭐ 4.4 | 0 | `clawhub install amplitude-mcp-server` |
-| [Apache Kafka Stream Transformer](skills/apache-kafka-stream-transformer/) | ⭐ 4.4 | 0 | `clawhub install apache-kafka-stream-transformer` |
-| [Databricks MCP](skills/databricks-mcp/) | ⭐ 4.4 | 0 | `clawhub install databricks-mcp` |
-| [dbt Model Transformation Architect](skills/dbt-model-transformation-architect/) | ⭐ 4.4 | 0 | `clawhub install dbt-model-transformation-architect` |
-| [Looker Tableau Data Extractor](skills/looker-tableau-data-extractor/) | ⭐ 4.4 | 0 | `clawhub install looker-tableau-data-extractor` |
-| [Metabase Dashboard Snapshot &#038; Alerting](skills/metabase-dashboard-snapshot-alerting/) | ⭐ 4.4 | 0 | `clawhub install metabase-dashboard-snapshot-alerting` |
-| [SQLite MCP Server](skills/sqlite-mcp-server/) | ⭐ 4.4 | 0 | `clawhub install sqlite-mcp-server` |
-| [dbt Model Dependency Resolver](skills/dbt-model-dependency-resolver-2/) | ⭐ 4.3 | 0 | `clawhub install dbt-model-dependency-resolver-2` |
-| [dbt Model Lineage &#038; Test Coverage Checker](skills/dbt-model-lineage-test-coverage/) | ⭐ 4.3 | 0 | `clawhub install dbt-model-lineage-test-coverage` |
-| [Elasticsearch MCP](skills/elasticsearch-mcp/) | ⭐ 4.3 | 0 | `clawhub install elasticsearch-mcp` |
-| [Metabase Dashboard Snapshot &#038; Alerting](skills/metabase-dashboard-snapshot-alerting-2/) | ⭐ 4.3 | 0 | `clawhub install metabase-dashboard-snapshot-alerting-2` |
-| [Parquet Column Mapper](skills/parquet-column-mapper/) | ⭐ 4.3 | 0 | `clawhub install parquet-column-mapper` |
-| [PostgreSQL MCP Server](skills/postgresql-mcp-server/) | ⭐ 4.3 | 0 | `clawhub install postgresql-mcp-server` |
-| [Snowflake MCP Server](skills/snowflake-mcp-server/) | ⭐ 4.3 | 0 | `clawhub install snowflake-mcp-server` |
-| [Tabula PDF Table Extractor](skills/tabula-pdf-table-extractor/) | ⭐ 4.3 | 0 | `clawhub install tabula-pdf-table-extractor` |
-| [Apache Spark Job Manager](skills/apache-spark-job-manager/) | ⭐ 4.2 | 0 | `clawhub install apache-spark-job-manager` |
-| [BigQuery Cost &#038; Query Performance Auditor](skills/bigquery-cost-query-performance-auditor/) | ⭐ 4.2 | 0 | `clawhub install bigquery-cost-query-performance-auditor` |
-| [Camelot PDF Stream Parser](skills/camelot-pdf-stream-parser/) | ⭐ 4.2 | 0 | `clawhub install camelot-pdf-stream-parser` |
-| [GraphQL Data Federation Agent](skills/graphql-data-federation-agent/) | ⭐ 4.2 | 0 | `clawhub install graphql-data-federation-agent` |
-| [MLflow Experiment Tracker](skills/mlflow-experiment-tracker/) | ⭐ 4.2 | 0 | `clawhub install mlflow-experiment-tracker` |
-| [PDF Table Extraction with Camelot](skills/pdf-table-extraction-camelot/) | ⭐ 4.2 | 0 | `clawhub install pdf-table-extraction-camelot` |
-| [Pinecone MCP Server](skills/pinecone-mcp-server/) | ⭐ 4.2 | 0 | `clawhub install pinecone-mcp-server` |
-| [Qdrant MCP Server](skills/qdrant-mcp-server/) | ⭐ 4.2 | 0 | `clawhub install qdrant-mcp-server` |
-| [Segment MCP Server](skills/segment-mcp-server/) | ⭐ 4.2 | 0 | `clawhub install segment-mcp-server` |
-| [Apache Airflow MCP](skills/apache-airflow-mcp/) | ⭐ 4.1 | 0 | `clawhub install apache-airflow-mcp` |
-| [dbt Data Transformation Orchestrator](skills/dbt-data-transformation-orchestrator/) | ⭐ 4.1 | 0 | `clawhub install dbt-data-transformation-orchestrator` |
-| [JSON-to-Avro Schema Transformer](skills/json-to-avro-schema-transformer/) | ⭐ 4.1 | 0 | `clawhub install json-to-avro-schema-transformer` |
-| [Pandas DataFrame Schema Enforcer](skills/pandas-dataframe-schema-enforcer/) | ⭐ 4.1 | 0 | `clawhub install pandas-dataframe-schema-enforcer` |
-| [Postgres MCP Pro](skills/postgres-mcp-pro/) | ⭐ 4.1 | 0 | `clawhub install postgres-mcp-pro` |
-| [Reddit Subreddit Sentiment Tracker](skills/reddit-subreddit-sentiment-tracker/) | ⭐ 4.1 | 0 | `clawhub install reddit-subreddit-sentiment-tracker` |
-| [dbt MCP Server](skills/dbt-mcp-server/) | ⭐ 4.0 | 0 | `clawhub install dbt-mcp-server` |
-| [dbt Model Dependency Resolver](skills/dbt-model-dependency-resolver/) | ⭐ 4.0 | 0 | `clawhub install dbt-model-dependency-resolver` |
-| [GraphQL Schema Introspection Mapper](skills/graphql-schema-introspection-mapper/) | ⭐ 4.0 | 0 | `clawhub install graphql-schema-introspection-mapper` |
-| [Nano PDF Editor](skills/nano-pdf-editor/) | ⭐ 4.0 | 0 | `clawhub install nano-pdf-editor` |
-| [Parquet Column Statistics Profiler](skills/parquet-column-statistics-profiler/) | ⭐ 4.0 | 0 | `clawhub install parquet-column-statistics-profiler` |
-| [Weaviate MCP Server](skills/weaviate-mcp-server/) | ⭐ 4.0 | 0 | `clawhub install weaviate-mcp-server` |
-
-### 📅 Calendar, Email & Productivity (72 skills)
+### 📅 Calendar, Email & Productivity (75 skills)
 
 | Skill | Rating | Reviews | Install |
 |-------|:------:|:-------:|---------|
@@ -1302,9 +1307,11 @@
 | [Zoom Meeting Summarizer](skills/zoom-meeting-summarizer/) | ⭐ 4.8 | 0 | `clawhub install zoom-meeting-summarizer` |
 | [Airtable MCP Server](skills/airtable-mcp-server/) | ⭐ 4.7 | 0 | `clawhub install airtable-mcp-server` |
 | [Google Calendar Conflict Resolver](skills/google-calendar-conflict-resolver-6/) | ⭐ 4.7 | 0 | `clawhub install google-calendar-conflict-resolver-6` |
+| [Google Calendar Smart Scheduler](skills/google-calendar-smart-scheduler-agent/) | ⭐ 4.7 | 0 | `clawhub install google-calendar-smart-scheduler-agent` |
 | [IMAP Email Classifier](skills/imap-email-classifier-ml/) | ⭐ 4.7 | 0 | `clawhub install imap-email-classifier-ml` |
 | [Notion Database Sync Bridge](skills/notion-database-sync-bridge/) | ⭐ 4.7 | 0 | `clawhub install notion-database-sync-bridge` |
 | [Notion MCP Server](skills/notion-mcp-server/) | ⭐ 4.7 | 0 | `clawhub install notion-mcp-server` |
+| [Notion Task Board Automation](skills/notion-task-board-automation-agent/) | ⭐ 4.7 | 0 | `clawhub install notion-task-board-automation-agent` |
 | [Notion Workspace Sync Engine](skills/notion-workspace-sync-engine-2/) | ⭐ 4.7 | 0 | `clawhub install notion-workspace-sync-engine-2` |
 | [Outlook Email Automation](skills/outlook-email-automation/) | ⭐ 4.7 | 0 | `clawhub install outlook-email-automation` |
 | [Todoist Project Automator](skills/todoist-project-automator-api-v2/) | ⭐ 4.7 | 0 | `clawhub install todoist-project-automator-api-v2` |
@@ -1321,6 +1328,7 @@
 | [Slack Workflow Bot Builder](skills/slack-workflow-bot-builder/) | ⭐ 4.5 | 0 | `clawhub install slack-workflow-bot-builder` |
 | [Todoist Natural Language Task Parser](skills/todoist-natural-language-task-parser/) | ⭐ 4.5 | 0 | `clawhub install todoist-natural-language-task-parser` |
 | [Linear Sprint Planner](skills/linear-sprint-planner/) | ⭐ 4.4 | 0 | `clawhub install linear-sprint-planner` |
+| [Microsoft Outlook Calendar Sync Agent](skills/ms-outlook-calendar-sync-agent/) | ⭐ 4.4 | 0 | `clawhub install ms-outlook-calendar-sync-agent` |
 | [Miro Board Agent](skills/miro-board-agent/) | ⭐ 4.4 | 0 | `clawhub install miro-board-agent` |
 | [Notion Task Sync Bridge](skills/notion-task-sync-bridge/) | ⭐ 4.4 | 0 | `clawhub install notion-task-sync-bridge` |
 | [Notion Workspace Automator](skills/notion-workspace-automator-api-v1/) | ⭐ 4.4 | 0 | `clawhub install notion-workspace-automator-api-v1` |
@@ -1478,7 +1486,7 @@
 | [Stable Diffusion LoRA Training Pipeline](skills/stable-diffusion-lora-training-pipeline/) | ⭐ 4.1 | 0 | `clawhub install stable-diffusion-lora-training-pipeline` |
 | [SVG Animation Builder](skills/svg-animation-builder/) | ⭐ 4.0 | 0 | `clawhub install svg-animation-builder` |
 
-### 🔗 Integrations & Connectors (49 skills)
+### 🔗 Integrations & Connectors (53 skills)
 
 | Skill | Rating | Reviews | Install |
 |-------|:------:|:-------:|---------|
@@ -1491,6 +1499,7 @@
 | [ArgoCD Sync Status Monitor](skills/argocd-sync-status-monitor-5/) | ⭐ 4.8 | 0 | `clawhub install argocd-sync-status-monitor-5` |
 | [ClawHub Skill Discovery &#038; Publishing](skills/clawhub-skill-discovery-publishing/) | ⭐ 4.8 | 0 | `clawhub install clawhub-skill-discovery-publishing` |
 | [GitHub Discussions Community Digest](skills/github-discussions-community-digest/) | ⭐ 4.8 | 0 | `clawhub install github-discussions-community-digest` |
+| [HubSpot CRM Contact Enrichment Pipeline](skills/hubspot-crm-contact-enrichment-pipeline/) | ⭐ 4.8 | 0 | `clawhub install hubspot-crm-contact-enrichment-pipeline` |
 | [Plaid Financial Data Connector](skills/plaid-financial-data-connector-2/) | ⭐ 4.8 | 0 | `clawhub install plaid-financial-data-connector-2` |
 | [SendGrid Transactional Email Router](skills/sendgrid-transactional-email-router/) | ⭐ 4.8 | 0 | `clawhub install sendgrid-transactional-email-router` |
 | [Stripe Connect Integration](skills/stripe-connect-integration/) | ⭐ 4.8 | 0 | `clawhub install stripe-connect-integration` |
@@ -1507,7 +1516,9 @@
 | [Google Drive MCP Server](skills/google-drive-mcp-server/) | ⭐ 4.6 | 0 | `clawhub install google-drive-mcp-server` |
 | [Notion Database Sync &#038; Page Generator](skills/notion-database-sync-page-generator/) | ⭐ 4.6 | 0 | `clawhub install notion-database-sync-page-generator` |
 | [Twilio MCP Server](skills/twilio-mcp-server/) | ⭐ 4.6 | 0 | `clawhub install twilio-mcp-server` |
+| [Twilio Programmable Voice Router](skills/twilio-programmable-voice-router-2/) | ⭐ 4.6 | 0 | `clawhub install twilio-programmable-voice-router-2` |
 | [Plaid Financial Data](skills/plaid-financial-data/) | ⭐ 4.5 | 0 | `clawhub install plaid-financial-data` |
+| [SendGrid Transactional Email Builder](skills/sendgrid-transactional-email-builder/) | ⭐ 4.5 | 0 | `clawhub install sendgrid-transactional-email-builder` |
 | [Stripe Payment Flow Connector](skills/stripe-payment-flow-connector/) | ⭐ 4.5 | 0 | `clawhub install stripe-payment-flow-connector` |
 | [AWS S3 &#038; SQS Pipeline Connector](skills/aws-s3-sqs-pipeline-connector/) | ⭐ 4.4 | 0 | `clawhub install aws-s3-sqs-pipeline-connector` |
 | [GitLab CI Pipeline Optimizer](skills/gitlab-ci-pipeline-optimizer-5/) | ⭐ 4.4 | 0 | `clawhub install gitlab-ci-pipeline-optimizer-5` |
@@ -1531,6 +1542,7 @@
 | [Salesforce Bulk API Sync Agent](skills/salesforce-bulk-api-sync-agent/) | ⭐ 4.1 | 0 | `clawhub install salesforce-bulk-api-sync-agent` |
 | [Salesforce MCP Server](skills/salesforce-mcp-server/) | ⭐ 4.1 | 0 | `clawhub install salesforce-mcp-server` |
 | [Linear Issue Triage &#038; Sprint Planner](skills/linear-issue-triage-sprint-planner/) | ⭐ 4.0 | 0 | `clawhub install linear-issue-triage-sprint-planner` |
+| [Stripe Connect Account Provisioner](skills/stripe-connect-account-provisioner/) | ⭐ 4.0 | 0 | `clawhub install stripe-connect-account-provisioner` |
 
 ### 🔍 Research & Scraping (46 skills)
 

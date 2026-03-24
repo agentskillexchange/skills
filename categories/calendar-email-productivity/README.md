@@ -1,6 +1,6 @@
 # 📅 Calendar, Email & Productivity
 
-> **72 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=calendar-email-productivity)
+> **75 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=calendar-email-productivity)
 
 Email automation, calendar management, task coordination, and productivity tools.
 
@@ -33,9 +33,11 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Zoom Meeting Summarizer](../../skills/zoom-meeting-summarizer/) | ⭐ 4.8 | 0 | `clawhub install zoom-meeting-summarizer` |
 | [Airtable MCP Server](../../skills/airtable-mcp-server/) | ⭐ 4.7 | 0 | `clawhub install airtable-mcp-server` |
 | [Google Calendar Conflict Resolver](../../skills/google-calendar-conflict-resolver-6/) | ⭐ 4.7 | 0 | `clawhub install google-calendar-conflict-resolver-6` |
+| [Google Calendar Smart Scheduler](../../skills/google-calendar-smart-scheduler-agent/) | ⭐ 4.7 | 0 | `clawhub install google-calendar-smart-scheduler-agent` |
 | [IMAP Email Classifier](../../skills/imap-email-classifier-ml/) | ⭐ 4.7 | 0 | `clawhub install imap-email-classifier-ml` |
 | [Notion Database Sync Bridge](../../skills/notion-database-sync-bridge/) | ⭐ 4.7 | 0 | `clawhub install notion-database-sync-bridge` |
 | [Notion MCP Server](../../skills/notion-mcp-server/) | ⭐ 4.7 | 0 | `clawhub install notion-mcp-server` |
+| [Notion Task Board Automation](../../skills/notion-task-board-automation-agent/) | ⭐ 4.7 | 0 | `clawhub install notion-task-board-automation-agent` |
 | [Notion Workspace Sync Engine](../../skills/notion-workspace-sync-engine-2/) | ⭐ 4.7 | 0 | `clawhub install notion-workspace-sync-engine-2` |
 | [Outlook Email Automation](../../skills/outlook-email-automation/) | ⭐ 4.7 | 0 | `clawhub install outlook-email-automation` |
 | [Todoist Project Automator](../../skills/todoist-project-automator-api-v2/) | ⭐ 4.7 | 0 | `clawhub install todoist-project-automator-api-v2` |
@@ -52,6 +54,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Slack Workflow Bot Builder](../../skills/slack-workflow-bot-builder/) | ⭐ 4.5 | 0 | `clawhub install slack-workflow-bot-builder` |
 | [Todoist Natural Language Task Parser](../../skills/todoist-natural-language-task-parser/) | ⭐ 4.5 | 0 | `clawhub install todoist-natural-language-task-parser` |
 | [Linear Sprint Planner](../../skills/linear-sprint-planner/) | ⭐ 4.4 | 0 | `clawhub install linear-sprint-planner` |
+| [Microsoft Outlook Calendar Sync Agent](../../skills/ms-outlook-calendar-sync-agent/) | ⭐ 4.4 | 0 | `clawhub install ms-outlook-calendar-sync-agent` |
 | [Miro Board Agent](../../skills/miro-board-agent/) | ⭐ 4.4 | 0 | `clawhub install miro-board-agent` |
 | [Notion Task Sync Bridge](../../skills/notion-task-sync-bridge/) | ⭐ 4.4 | 0 | `clawhub install notion-task-sync-bridge` |
 | [Notion Workspace Automator](../../skills/notion-workspace-automator-api-v1/) | ⭐ 4.4 | 0 | `clawhub install notion-workspace-automator-api-v1` |
