@@ -6,9 +6,54 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 
 **Live views:** [Top Starred](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=downloads) · [Security Reviewed](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&verification=security_reviewed)
 
+## At a Glance
+
+- **Top Starred:** 6 visible with GitHub signal data
+- **Top Downloaded:** 6 visible with npm signal data
+- **Security Reviewed:** 26 skills
+
 ---
 
-## Skills
+## ⭐ Top Starred
+
+| Skill | Tier | Signal | Install |
+|---|---|---:|---|
+| [Surfer SEO Content Optimizer](../../skills/surfer-seo-content-optimizer/) | Security Reviewed | ⭐ 30.2k | `clawhub install surfer-seo-content-optimizer` |
+| [AI Content Readability Optimizer](../../skills/ai-content-readability-optimizer/) | Security Reviewed | ⭐ 21k | `clawhub install ai-content-readability-optimizer` |
+| [Internal Link Builder](../../skills/internal-link-builder-seo-agent/) | Security Reviewed | ⭐ 21k | `clawhub install internal-link-builder-seo-agent` |
+| [Jasper AI Long-Form Blog Post Generator](../../skills/jasper-longform-blog-generator/) | Listed | ⭐ 21k | `clawhub install jasper-longform-blog-generator` |
+| [Keyword Cannibalization Detector](../../skills/keyword-cannibalization-detector/) | Security Reviewed | ⭐ 21k | `clawhub install keyword-cannibalization-detector` |
+| [SEO Meta Tag Optimizer](../../skills/seo-meta-tag-optimizer-agent/) | Security Reviewed | ⭐ 21k | `clawhub install seo-meta-tag-optimizer-agent` |
+
+---
+
+## 🔥 Top Downloaded
+
+| Skill | Tier | Signal | Install |
+|---|---|---:|---|
+| [Surfer SEO Content Optimizer](../../skills/surfer-seo-content-optimizer/) | Security Reviewed | ⬇ 18.5M/wk | `clawhub install surfer-seo-content-optimizer` |
+| [AI-Powered Meta Description Writer](../../skills/ai-powered-meta-description-writer/) | Security Reviewed | ⬇ 16.3M/wk | `clawhub install ai-powered-meta-description-writer` |
+| [Content Readability Analyzer](../../skills/content-readability-analyzer-agent/) | Security Reviewed | ⬇ 16.3M/wk | `clawhub install content-readability-analyzer-agent` |
+| [Content Brief Architect](../../skills/content-brief-architect-agent/) | Security Reviewed | ⬇ 1.1M/wk | `clawhub install content-brief-architect-agent` |
+| [Keyword Cluster Generator](../../skills/keyword-cluster-generator-agent/) | Security Reviewed | ⬇ 1.1M/wk | `clawhub install keyword-cluster-generator-agent` |
+| [Copy.ai Sales Email Sequence Builder](../../skills/copyai-sales-email-sequence/) | Listed | ⬇ 905.6k/wk | `clawhub install copyai-sales-email-sequence` |
+
+---
+
+## 🛡️ Security Reviewed
+
+| Skill | Tier | Signal | Install |
+|---|---|---:|---|
+| [Surfer SEO Content Optimizer](../../skills/surfer-seo-content-optimizer/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install surfer-seo-content-optimizer` |
+| [AI Content Readability Optimizer](../../skills/ai-content-readability-optimizer/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install ai-content-readability-optimizer` |
+| [Internal Link Builder](../../skills/internal-link-builder-seo-agent/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install internal-link-builder-seo-agent` |
+| [Keyword Cannibalization Detector](../../skills/keyword-cannibalization-detector/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install keyword-cannibalization-detector` |
+| [SEO Meta Tag Optimizer](../../skills/seo-meta-tag-optimizer-agent/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install seo-meta-tag-optimizer-agent` |
+| [SEO Schema Markup Generator](../../skills/seo-schema-markup-generator-agent/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install seo-schema-markup-generator-agent` |
+
+---
+
+## Full Skill List
 
 | Skill | Tier | GitHub Stars | npm Downloads | Install |
 |---|---|---:|---:|---|

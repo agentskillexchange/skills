@@ -6,9 +6,54 @@ Image generation, asset processing, design automation, and creative tooling.
 
 **Live views:** [Top Starred](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=downloads) · [Security Reviewed](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&verification=security_reviewed)
 
+## At a Glance
+
+- **Top Starred:** 6 visible with GitHub signal data
+- **Top Downloaded:** 6 visible with npm signal data
+- **Security Reviewed:** 41 skills
+
 ---
 
-## Skills
+## ⭐ Top Starred
+
+| Skill | Tier | Signal | Install |
+|---|---|---:|---|
+| [Rive Runtime Animation Controller](../../skills/rive-runtime-animation-controller/) | Listed | ⭐ 244.1k | `clawhub install rive-runtime-animation-controller` |
+| [SVG Animation Builder](../../skills/svg-animation-builder/) | Security Reviewed | ⭐ 93.9k | `clawhub install svg-animation-builder` |
+| [Figma Design Token Extractor](../../skills/figma-design-token-extractor-3/) | Security Reviewed | ⭐ 89.5k | `clawhub install figma-design-token-extractor-3` |
+| [RunPod Serverless GPU Inference](../../skills/runpod-serverless-gpu-inference/) | Security Reviewed | ⭐ 71.6k | `clawhub install runpod-serverless-gpu-inference` |
+| [FFmpeg Thumbnail Grid Generator](../../skills/ffmpeg-thumbnail-grid-generator/) | Security Reviewed | ⭐ 58.3k | `clawhub install ffmpeg-thumbnail-grid-generator` |
+| [FFmpeg Intelligent Media Processor](../../skills/ffmpeg-intelligent-media-processor/) | Listed | ⭐ 58.3k | `clawhub install ffmpeg-intelligent-media-processor` |
+
+---
+
+## 🔥 Top Downloaded
+
+| Skill | Tier | Signal | Install |
+|---|---|---:|---|
+| [Rive Runtime Animation Controller](../../skills/rive-runtime-animation-controller/) | Listed | ⬇ 104.8M/wk | `clawhub install rive-runtime-animation-controller` |
+| [SVG Animation Builder](../../skills/svg-animation-builder/) | Security Reviewed | ⬇ 8.7M/wk | `clawhub install svg-animation-builder` |
+| [Figma Design Token Extractor](../../skills/figma-design-token-extractor-3/) | Security Reviewed | ⬇ 13M/wk | `clawhub install figma-design-token-extractor-3` |
+| [FFmpeg Thumbnail Grid Generator](../../skills/ffmpeg-thumbnail-grid-generator/) | Security Reviewed | ⬇ 9.2M/wk | `clawhub install ffmpeg-thumbnail-grid-generator` |
+| [Sharp Image CDN Optimizer](../../skills/sharp-image-cdn-optimizer/) | Listed | ⬇ 54.5M/wk | `clawhub install sharp-image-cdn-optimizer` |
+| [Sharp Image Pipeline Processor](../../skills/sharp-image-pipeline-processor-2/) | Security Reviewed | ⬇ 54.5M/wk | `clawhub install sharp-image-pipeline-processor-2` |
+
+---
+
+## 🛡️ Security Reviewed
+
+| Skill | Tier | Signal | Install |
+|---|---|---:|---|
+| [SVG Animation Builder](../../skills/svg-animation-builder/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install svg-animation-builder` |
+| [Figma Design Token Extractor](../../skills/figma-design-token-extractor-3/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install figma-design-token-extractor-3` |
+| [RunPod Serverless GPU Inference](../../skills/runpod-serverless-gpu-inference/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install runpod-serverless-gpu-inference` |
+| [FFmpeg Thumbnail Grid Generator](../../skills/ffmpeg-thumbnail-grid-generator/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install ffmpeg-thumbnail-grid-generator` |
+| [FFmpeg Media Transcoder](../../skills/ffmpeg-media-transcoder/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install ffmpeg-media-transcoder` |
+| [ComfyUI Workflow Executor](../../skills/comfyui-workflow-executor/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install comfyui-workflow-executor` |
+
+---
+
+## Full Skill List
 
 | Skill | Tier | GitHub Stars | npm Downloads | Install |
 |---|---|---:|---:|---|

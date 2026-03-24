@@ -6,9 +6,54 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 
 **Live views:** [Top Starred](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=downloads) · [Security Reviewed](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&verification=security_reviewed)
 
+## At a Glance
+
+- **Top Starred:** 6 visible with GitHub signal data
+- **Top Downloaded:** 6 visible with npm signal data
+- **Security Reviewed:** 78 skills
+
 ---
 
-## Skills
+## ⭐ Top Starred
+
+| Skill | Tier | Signal | Install |
+|---|---|---:|---|
+| [Kubernetes CrashLoop Diagnoser](../../skills/kubernetes-crashloop-diagnoser-agent/) | Security Reviewed | ⭐ 121.3k | `clawhub install kubernetes-crashloop-diagnoser-agent` |
+| [Kubernetes Crashloop Diagnostic Runbook](../../skills/kubernetes-crashloop-diagnostic-runbook/) | Security Reviewed | ⭐ 121.3k | `clawhub install kubernetes-crashloop-diagnostic-runbook` |
+| [Kubernetes CrashLoop Diagnostician](../../skills/kubernetes-crashloop-diagnostician/) | Security Reviewed | ⭐ 121.3k | `clawhub install kubernetes-crashloop-diagnostician` |
+| [Kubernetes CrashLoopBackOff Diagnoser](../../skills/k8s-crashloopbackoff-diagnoser/) | Security Reviewed | ⭐ 121.3k | `clawhub install k8s-crashloopbackoff-diagnoser` |
+| [Kubernetes CrashLoopBackOff Resolver](../../skills/kubernetes-crashloopbackoff-resolver/) | Security Reviewed | ⭐ 121.3k | `clawhub install kubernetes-crashloopbackoff-resolver` |
+| [Kubernetes Diagnostic Runbook](../../skills/kubernetes-diagnostic-runbook/) | Security Reviewed | ⭐ 121.3k | `clawhub install kubernetes-diagnostic-runbook` |
+
+---
+
+## 🔥 Top Downloaded
+
+| Skill | Tier | Signal | Install |
+|---|---|---:|---|
+| [Ansible Playbook Dry-Run Validator](../../skills/ansible-playbook-dryrun-validator-agent/) | Security Reviewed | ⬇ 9.2M/wk | `clawhub install ansible-playbook-dryrun-validator-agent` |
+| [Ansible Playbook Runner with Vault Secrets](../../skills/ansible-playbook-vault-runner/) | Listed | ⬇ 9.2M/wk | `clawhub install ansible-playbook-vault-runner` |
+| [Prometheus Alert Resolver](../../skills/prometheus-alert-resolver-skill/) | Security Reviewed | ⬇ 5.3M/wk | `clawhub install prometheus-alert-resolver-skill` |
+| [Prometheus Alert Rule Tester](../../skills/prometheus-alert-rule-tester/) | Security Reviewed | ⬇ 5.3M/wk | `clawhub install prometheus-alert-rule-tester` |
+| [Prometheus Alert Runbook](../../skills/prometheus-alert-runbook/) | Security Reviewed | ⬇ 5.3M/wk | `clawhub install prometheus-alert-runbook` |
+| [Prometheus Alert Runbook Agent](../../skills/prometheus-alert-runbook-agent/) | Security Reviewed | ⬇ 5.3M/wk | `clawhub install prometheus-alert-runbook-agent` |
+
+---
+
+## 🛡️ Security Reviewed
+
+| Skill | Tier | Signal | Install |
+|---|---|---:|---|
+| [Kubernetes CrashLoop Diagnoser](../../skills/kubernetes-crashloop-diagnoser-agent/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install kubernetes-crashloop-diagnoser-agent` |
+| [Kubernetes Crashloop Diagnostic Runbook](../../skills/kubernetes-crashloop-diagnostic-runbook/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install kubernetes-crashloop-diagnostic-runbook` |
+| [Kubernetes CrashLoop Diagnostician](../../skills/kubernetes-crashloop-diagnostician/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install kubernetes-crashloop-diagnostician` |
+| [Kubernetes CrashLoopBackOff Diagnoser](../../skills/k8s-crashloopbackoff-diagnoser/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install k8s-crashloopbackoff-diagnoser` |
+| [Kubernetes CrashLoopBackOff Resolver](../../skills/kubernetes-crashloopbackoff-resolver/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install kubernetes-crashloopbackoff-resolver` |
+| [Kubernetes Diagnostic Runbook](../../skills/kubernetes-diagnostic-runbook/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install kubernetes-diagnostic-runbook` |
+
+---
+
+## Full Skill List
 
 | Skill | Tier | GitHub Stars | npm Downloads | Install |
 |---|---|---:|---:|---|

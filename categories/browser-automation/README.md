@@ -6,9 +6,54 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 
 **Live views:** [Top Starred](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=downloads) · [Security Reviewed](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&verification=security_reviewed)
 
+## At a Glance
+
+- **Top Starred:** 6 visible with GitHub signal data
+- **Top Downloaded:** 6 visible with npm signal data
+- **Security Reviewed:** 29 skills
+
 ---
 
-## Skills
+## ⭐ Top Starred
+
+| Skill | Tier | Signal | Install |
+|---|---|---:|---|
+| [Browser Session Replay Analyzer](../../skills/browser-session-replay-analyzer/) | Security Reviewed | ⭐ 93.9k | `clawhub install browser-session-replay-analyzer` |
+| [Puppeteer Cookie Consent Automator](../../skills/puppeteer-cookie-consent-automator/) | Security Reviewed | ⭐ 93.9k | `clawhub install puppeteer-cookie-consent-automator` |
+| [Puppeteer Cookie Consent Handler](../../skills/puppeteer-cookie-consent-handler-3/) | Security Reviewed | ⭐ 93.9k | `clawhub install puppeteer-cookie-consent-handler-3` |
+| [Puppeteer Multi-Tab Session Manager](../../skills/puppeteer-multi-tab-session-manager/) | Listed | ⭐ 93.9k | `clawhub install puppeteer-multi-tab-session-manager` |
+| [Puppeteer PDF Renderer](../../skills/puppeteer-pdf-renderer/) | Security Reviewed | ⭐ 93.9k | `clawhub install puppeteer-pdf-renderer` |
+| [Puppeteer Screenshot Diff Engine](../../skills/puppeteer-screenshot-diff-engine/) | Security Reviewed | ⭐ 93.9k | `clawhub install puppeteer-screenshot-diff-engine` |
+
+---
+
+## 🔥 Top Downloaded
+
+| Skill | Tier | Signal | Install |
+|---|---|---:|---|
+| [Browser Session Replay Analyzer](../../skills/browser-session-replay-analyzer/) | Security Reviewed | ⬇ 8.7M/wk | `clawhub install browser-session-replay-analyzer` |
+| [Puppeteer Cookie Consent Automator](../../skills/puppeteer-cookie-consent-automator/) | Security Reviewed | ⬇ 8.7M/wk | `clawhub install puppeteer-cookie-consent-automator` |
+| [Puppeteer Cookie Consent Handler](../../skills/puppeteer-cookie-consent-handler-3/) | Security Reviewed | ⬇ 8.7M/wk | `clawhub install puppeteer-cookie-consent-handler-3` |
+| [Puppeteer Multi-Tab Session Manager](../../skills/puppeteer-multi-tab-session-manager/) | Listed | ⬇ 8.7M/wk | `clawhub install puppeteer-multi-tab-session-manager` |
+| [Puppeteer PDF Renderer](../../skills/puppeteer-pdf-renderer/) | Security Reviewed | ⬇ 8.7M/wk | `clawhub install puppeteer-pdf-renderer` |
+| [Puppeteer Screenshot Diff Engine](../../skills/puppeteer-screenshot-diff-engine/) | Security Reviewed | ⬇ 8.7M/wk | `clawhub install puppeteer-screenshot-diff-engine` |
+
+---
+
+## 🛡️ Security Reviewed
+
+| Skill | Tier | Signal | Install |
+|---|---|---:|---|
+| [Browser Session Replay Analyzer](../../skills/browser-session-replay-analyzer/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install browser-session-replay-analyzer` |
+| [Puppeteer Cookie Consent Automator](../../skills/puppeteer-cookie-consent-automator/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install puppeteer-cookie-consent-automator` |
+| [Puppeteer Cookie Consent Handler](../../skills/puppeteer-cookie-consent-handler-3/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install puppeteer-cookie-consent-handler-3` |
+| [Puppeteer PDF Renderer](../../skills/puppeteer-pdf-renderer/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install puppeteer-pdf-renderer` |
+| [Puppeteer Screenshot Diff Engine](../../skills/puppeteer-screenshot-diff-engine/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install puppeteer-screenshot-diff-engine` |
+| [Puppeteer Web Scraping Pipeline](../../skills/puppeteer-web-scraping-pipeline/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install puppeteer-web-scraping-pipeline` |
+
+---
+
+## Full Skill List
 
 | Skill | Tier | GitHub Stars | npm Downloads | Install |
 |---|---|---:|---:|---|

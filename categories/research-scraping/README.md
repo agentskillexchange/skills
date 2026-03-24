@@ -6,9 +6,54 @@ Web research, data collection, content aggregation, and information gathering.
 
 **Live views:** [Top Starred](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=downloads) · [Security Reviewed](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&verification=security_reviewed)
 
+## At a Glance
+
+- **Top Starred:** 6 visible with GitHub signal data
+- **Top Downloaded:** 6 visible with npm signal data
+- **Security Reviewed:** 29 skills
+
 ---
 
-## Skills
+## ⭐ Top Starred
+
+| Skill | Tier | Signal | Install |
+|---|---|---:|---|
+| [Puppeteer Scraping Framework](../../skills/puppeteer-scraping-framework-2/) | Listed | ⭐ 93.9k | `clawhub install puppeteer-scraping-framework-2` |
+| [Puppeteer Stealth Web Scraper](../../skills/puppeteer-stealth-web-scraper/) | Security Reviewed | ⭐ 93.9k | `clawhub install puppeteer-stealth-web-scraper` |
+| [Puppeteer Web Scraper](../../skills/puppeteer-web-scraper/) | Listed | ⭐ 93.9k | `clawhub install puppeteer-web-scraper` |
+| [PuppeteerSharp Web Scraping Pipeline](../../skills/puppeteersharp-web-scraping-pipeline/) | Listed | ⭐ 93.9k | `clawhub install puppeteersharp-web-scraping-pipeline` |
+| [Playwright Network Interceptor](../../skills/playwright-network-interceptor/) | Security Reviewed | ⭐ 84.9k | `clawhub install playwright-network-interceptor` |
+| [Playwright Page Data Extractor](../../skills/playwright-page-data-extractor/) | Security Reviewed | ⭐ 84.9k | `clawhub install playwright-page-data-extractor` |
+
+---
+
+## 🔥 Top Downloaded
+
+| Skill | Tier | Signal | Install |
+|---|---|---:|---|
+| [Puppeteer Scraping Framework](../../skills/puppeteer-scraping-framework-2/) | Listed | ⬇ 8.7M/wk | `clawhub install puppeteer-scraping-framework-2` |
+| [Puppeteer Stealth Web Scraper](../../skills/puppeteer-stealth-web-scraper/) | Security Reviewed | ⬇ 8.7M/wk | `clawhub install puppeteer-stealth-web-scraper` |
+| [Puppeteer Web Scraper](../../skills/puppeteer-web-scraper/) | Listed | ⬇ 8.7M/wk | `clawhub install puppeteer-web-scraper` |
+| [PuppeteerSharp Web Scraping Pipeline](../../skills/puppeteersharp-web-scraping-pipeline/) | Listed | ⬇ 8.7M/wk | `clawhub install puppeteersharp-web-scraping-pipeline` |
+| [Playwright Network Interceptor](../../skills/playwright-network-interceptor/) | Security Reviewed | ⬇ 39.8M/wk | `clawhub install playwright-network-interceptor` |
+| [Playwright Page Data Extractor](../../skills/playwright-page-data-extractor/) | Security Reviewed | ⬇ 39.8M/wk | `clawhub install playwright-page-data-extractor` |
+
+---
+
+## 🛡️ Security Reviewed
+
+| Skill | Tier | Signal | Install |
+|---|---|---:|---|
+| [Puppeteer Stealth Web Scraper](../../skills/puppeteer-stealth-web-scraper/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install puppeteer-stealth-web-scraper` |
+| [Playwright Network Interceptor](../../skills/playwright-network-interceptor/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install playwright-network-interceptor` |
+| [Playwright Page Data Extractor](../../skills/playwright-page-data-extractor/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install playwright-page-data-extractor` |
+| [Playwright Test Generator with Codegen](../../skills/playwright-test-generator-codegen/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install playwright-test-generator-codegen` |
+| [Scrapy Pipeline Manager](../../skills/scrapy-pipeline-manager/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install scrapy-pipeline-manager` |
+| [ScrapyCloud Job Manager](../../skills/scrapycloud-job-manager/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install scrapycloud-job-manager` |
+
+---
+
+## Full Skill List
 
 | Skill | Tier | GitHub Stars | npm Downloads | Install |
 |---|---|---:|---:|---|

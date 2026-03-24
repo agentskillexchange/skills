@@ -6,9 +6,54 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 
 **Live views:** [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads) · [Security Reviewed](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&verification=security_reviewed)
 
+## At a Glance
+
+- **Top Starred:** 6 visible with GitHub signal data
+- **Top Downloaded:** 6 visible with npm signal data
+- **Security Reviewed:** 58 skills
+
 ---
 
-## Skills
+## ⭐ Top Starred
+
+| Skill | Tier | Signal | Install |
+|---|---|---:|---|
+| [Checkov IaC Scanner](../../skills/checkov-iac-scanner/) | Listed | ⭐ 121.3k | `clawhub install checkov-iac-scanner` |
+| [Conftest Policy Tester](../../skills/conftest-policy-tester/) | Listed | ⭐ 121.3k | `clawhub install conftest-policy-tester` |
+| [Cosign Artifact Signature Verifier](../../skills/cosign-artifact-signature-verifier/) | Listed | ⭐ 121.3k | `clawhub install cosign-artifact-signature-verifier` |
+| [Falco Runtime Security](../../skills/falco-runtime-security/) | Listed | ⭐ 121.3k | `clawhub install falco-runtime-security` |
+| [Falco Runtime Security Monitor](../../skills/falco-runtime-security-monitor/) | Security Reviewed | ⭐ 121.3k | `clawhub install falco-runtime-security-monitor` |
+| [KICS IaC Linter](../../skills/kics-iac-linter/) | Listed | ⭐ 121.3k | `clawhub install kics-iac-linter` |
+
+---
+
+## 🔥 Top Downloaded
+
+| Skill | Tier | Signal | Install |
+|---|---|---:|---|
+| [Sentry for AI](../../skills/sentry-for-ai/) | Listed | ⬇ 16.4M/wk | `clawhub install sentry-for-ai` |
+| [Vault Secrets Rotation Orchestrator](../../skills/vault-secrets-rotation-orchestrator/) | Security Reviewed | ⬇ 9.2M/wk | `clawhub install vault-secrets-rotation-orchestrator` |
+| [npm Dependency Audit Scanner](../../skills/npm-dependency-audit-scanner/) | Security Reviewed | ⬇ 32M/wk | `clawhub install npm-dependency-audit-scanner` |
+| [Discord Moderation Bot with AI Classification](../../skills/discord-moderation-ai-classification/) | Listed | ⬇ 508.8k/wk | `clawhub install discord-moderation-ai-classification` |
+| [Dependency Vulnerability Scanner](../../skills/dependency-vulnerability-scanner-agent/) | Security Reviewed | ⬇ 601.7k/wk | `clawhub install dependency-vulnerability-scanner-agent` |
+| [NPM Package Supply Chain Auditor](../../skills/npm-package-supply-chain-auditor/) | Security Reviewed | ⬇ 601.7k/wk | `clawhub install npm-package-supply-chain-auditor` |
+
+---
+
+## 🛡️ Security Reviewed
+
+| Skill | Tier | Signal | Install |
+|---|---|---:|---|
+| [Falco Runtime Security Monitor](../../skills/falco-runtime-security-monitor/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install falco-runtime-security-monitor` |
+| [Sigstore Cosign Verification Pipeline](../../skills/sigstore-cosign-verification-pipeline/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install sigstore-cosign-verification-pipeline` |
+| [Container Image Vulnerability Scanner](../../skills/container-image-vulnerability-scanner/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install container-image-vulnerability-scanner` |
+| [Container Runtime Security Monitor](../../skills/container-runtime-security-monitor/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install container-runtime-security-monitor` |
+| [SBOM Vulnerability Scanner](../../skills/sbom-vulnerability-scanner/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install sbom-vulnerability-scanner` |
+| [Vault Secrets Rotation Orchestrator](../../skills/vault-secrets-rotation-orchestrator/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install vault-secrets-rotation-orchestrator` |
+
+---
+
+## Full Skill List
 
 | Skill | Tier | GitHub Stars | npm Downloads | Install |
 |---|---|---:|---:|---|

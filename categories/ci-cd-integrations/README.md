@@ -6,9 +6,54 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 
 **Live views:** [Top Starred](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&sort=downloads) · [Security Reviewed](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&verification=security_reviewed)
 
+## At a Glance
+
+- **Top Starred:** 6 visible with GitHub signal data
+- **Top Downloaded:** 6 visible with npm signal data
+- **Security Reviewed:** 128 skills
+
 ---
 
-## Skills
+## ⭐ Top Starred
+
+| Skill | Tier | Signal | Install |
+|---|---|---:|---|
+| [Argo Workflows Deployer](../../skills/argo-workflows-deployer/) | Security Reviewed | ⭐ 121.3k | `clawhub install argo-workflows-deployer` |
+| [Argo Workflows Linter](../../skills/argo-workflows-linter/) | Security Reviewed | ⭐ 121.3k | `clawhub install argo-workflows-linter` |
+| [Buildkite Agent Fleet Scaler](../../skills/buildkite-agent-fleet-scaler/) | Security Reviewed | ⭐ 121.3k | `clawhub install buildkite-agent-fleet-scaler` |
+| [Playwright Test Report to Slack](../../skills/playwright-test-report-to-slack/) | Security Reviewed | ⭐ 84.9k | `clawhub install playwright-test-report-to-slack` |
+| [Buildkite Dynamic Pipeline Architect](../../skills/buildkite-dynamic-pipeline-architect/) | Security Reviewed | ⭐ 71.6k | `clawhub install buildkite-dynamic-pipeline-architect` |
+| [Buildkite Pipeline Profiler](../../skills/buildkite-pipeline-profiler/) | Security Reviewed | ⭐ 71.6k | `clawhub install buildkite-pipeline-profiler` |
+
+---
+
+## 🔥 Top Downloaded
+
+| Skill | Tier | Signal | Install |
+|---|---|---:|---|
+| [Playwright Test Report to Slack](../../skills/playwright-test-report-to-slack/) | Security Reviewed | ⬇ 39.8M/wk | `clawhub install playwright-test-report-to-slack` |
+| [Buildkite Agent Monitor](../../skills/buildkite-agent-monitor/) | Security Reviewed | ⬇ 32M/wk | `clawhub install buildkite-agent-monitor` |
+| [Buildkite Dynamic Pipeline Agent](../../skills/buildkite-dynamic-pipeline-agent/) | Security Reviewed | ⬇ 32M/wk | `clawhub install buildkite-dynamic-pipeline-agent` |
+| [Buildkite Pipeline Optimizer](../../skills/buildkite-pipeline-optimizer-agent/) | Security Reviewed | ⬇ 32M/wk | `clawhub install buildkite-pipeline-optimizer-agent` |
+| [GitHub Actions CI/CD Pipeline Manager](../../skills/github-actions-cicd-pipeline-manager/) | Security Reviewed | ⬇ 32M/wk | `clawhub install github-actions-cicd-pipeline-manager` |
+| [GitHub Actions Workflow Debugger](../../skills/github-actions-workflow-debugger/) | Security Reviewed | ⬇ 32M/wk | `clawhub install github-actions-workflow-debugger` |
+
+---
+
+## 🛡️ Security Reviewed
+
+| Skill | Tier | Signal | Install |
+|---|---|---:|---|
+| [Argo Workflows Deployer](../../skills/argo-workflows-deployer/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install argo-workflows-deployer` |
+| [Argo Workflows Linter](../../skills/argo-workflows-linter/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install argo-workflows-linter` |
+| [Buildkite Agent Fleet Scaler](../../skills/buildkite-agent-fleet-scaler/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install buildkite-agent-fleet-scaler` |
+| [Playwright Test Report to Slack](../../skills/playwright-test-report-to-slack/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install playwright-test-report-to-slack` |
+| [Buildkite Dynamic Pipeline Architect](../../skills/buildkite-dynamic-pipeline-architect/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install buildkite-dynamic-pipeline-architect` |
+| [Buildkite Pipeline Profiler](../../skills/buildkite-pipeline-profiler/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install buildkite-pipeline-profiler` |
+
+---
+
+## Full Skill List
 
 | Skill | Tier | GitHub Stars | npm Downloads | Install |
 |---|---|---:|---:|---|

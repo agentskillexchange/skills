@@ -155,6 +155,28 @@ for idx, cat in enumerate(cat_rows):
 
     related = [c for c in cat_rows if c["slug"] != cat_slug][:4]
     browse_base = "https://agentskillexchange.com/browse-skills/?category=" + urllib.parse.quote(cat_name, safe='')
+    top_starred = [i for i in cat_items if int(i.get('github_stars') or 0) > 0][:6]
+    top_downloaded = [i for i in cat_items if int(i.get('npm_downloads') or 0) > 0][:6]
+    top_security = [i for i in cat_items if i.get('verification') == 'security_reviewed'][:6]
+
+    def add_section(title, section_items, stat_kind):
+        if not section_items:
+            return []
+        out = [f"## {title}", "", "| Skill | Tier | Signal | Install |", "|---|---|---:|---|"]
+        for item in section_items:
+            skill_title = item.get('title', '')
+            slug = item.get('slug', '')
+            tier = VER_LABEL.get(item.get('verification', 'listed'), 'Listed')
+            if stat_kind == 'stars':
+                signal = '⭐ ' + fmt_num(item.get('github_stars') or 0)
+            elif stat_kind == 'downloads':
+                signal = '⬇ ' + downloads_str(item.get('npm_downloads') or 0)
+            else:
+                signal = '🛡️ ' + tier
+            out.append(f"| [{skill_title}](../../skills/{slug}/) | {tier} | {signal} | `clawhub install {slug}` |")
+        out += ["", "---", ""]
+        return out
+
     lines = [
         f"# {emoji} {cat_name}",
         "",
@@ -164,9 +186,21 @@ for idx, cat in enumerate(cat_rows):
         "",
         f"**Live views:** [Top Starred]({browse_base}&sort=stars) · [Top Downloaded]({browse_base}&sort=downloads) · [Security Reviewed]({browse_base}&verification=security_reviewed)",
         "",
+        "## At a Glance",
+        "",
+        f"- **Top Starred:** {len(top_starred)} visible with GitHub signal data",
+        f"- **Top Downloaded:** {len(top_downloaded)} visible with npm signal data",
+        f"- **Security Reviewed:** {sum(1 for i in cat_items if i.get('verification') == 'security_reviewed')} skills",
+        "",
         "---",
         "",
-        "## Skills",
+    ]
+
+    lines += add_section('⭐ Top Starred', top_starred, 'stars')
+    lines += add_section('🔥 Top Downloaded', top_downloaded, 'downloads')
+    lines += add_section('🛡️ Security Reviewed', top_security, 'security')
+    lines += [
+        "## Full Skill List",
         "",
         "| Skill | Tier | GitHub Stars | npm Downloads | Install |",
         "|---|---|---:|---:|---|",

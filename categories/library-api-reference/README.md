@@ -6,9 +6,54 @@ SDK documentation, API guides, framework reference material, and library usage p
 
 **Live views:** [Top Starred](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference&sort=downloads) · [Security Reviewed](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference&verification=security_reviewed)
 
+## At a Glance
+
+- **Top Starred:** 6 visible with GitHub signal data
+- **Top Downloaded:** 6 visible with npm signal data
+- **Security Reviewed:** 76 skills
+
 ---
 
-## Skills
+## ⭐ Top Starred
+
+| Skill | Tier | Signal | Install |
+|---|---|---:|---|
+| [OpenAPI Spec Compliance Checker](../../skills/openapi-spec-compliance-checker/) | Security Reviewed | ⭐ 96.5k | `clawhub install openapi-spec-compliance-checker` |
+| [OpenTelemetry Trace Analyzer](../../skills/opentelemetry-trace-analyzer/) | Security Reviewed | ⭐ 72.8k | `clawhub install opentelemetry-trace-analyzer` |
+| [Docker Image Layer Analyzer](../../skills/docker-image-layer-analyzer/) | Security Reviewed | ⭐ 71.6k | `clawhub install docker-image-layer-analyzer` |
+| [REST API Documentation Generator](../../skills/rest-api-documentation-generator/) | Security Reviewed | ⭐ 68.9k | `clawhub install rest-api-documentation-generator` |
+| [Terraform Provider Schema Explorer](../../skills/terraform-provider-schema-explorer/) | Listed | ⭐ 48k | `clawhub install terraform-provider-schema-explorer` |
+| [Prisma Schema Migrator](../../skills/prisma-schema-migrator/) | Security Reviewed | ⭐ 45.6k | `clawhub install prisma-schema-migrator` |
+
+---
+
+## 🔥 Top Downloaded
+
+| Skill | Tier | Signal | Install |
+|---|---|---:|---|
+| [REST API Documentation Generator](../../skills/rest-api-documentation-generator/) | Security Reviewed | ⬇ 91.7M/wk | `clawhub install rest-api-documentation-generator` |
+| [Prisma Schema Migrator](../../skills/prisma-schema-migrator/) | Security Reviewed | ⬇ 9.4M/wk | `clawhub install prisma-schema-migrator` |
+| [API Documentation Indexer](../../skills/api-documentation-indexer/) | Security Reviewed | ⬇ 3.2M/wk | `clawhub install api-documentation-indexer` |
+| [OpenAPI Spec Changelog Generator](../../skills/openapi-spec-changelog-generator/) | Security Reviewed | ⬇ 3.2M/wk | `clawhub install openapi-spec-changelog-generator` |
+| [OpenAPI Spec Linter &#038; Docs Generator](../../skills/openapi-spec-linter-docs-generator/) | Security Reviewed | ⬇ 3.2M/wk | `clawhub install openapi-spec-linter-docs-generator` |
+| [OpenAPI Spec Navigator](../../skills/openapi-spec-navigator/) | Security Reviewed | ⬇ 3.2M/wk | `clawhub install openapi-spec-navigator` |
+
+---
+
+## 🛡️ Security Reviewed
+
+| Skill | Tier | Signal | Install |
+|---|---|---:|---|
+| [OpenAPI Spec Compliance Checker](../../skills/openapi-spec-compliance-checker/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install openapi-spec-compliance-checker` |
+| [OpenTelemetry Trace Analyzer](../../skills/opentelemetry-trace-analyzer/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install opentelemetry-trace-analyzer` |
+| [Docker Image Layer Analyzer](../../skills/docker-image-layer-analyzer/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install docker-image-layer-analyzer` |
+| [REST API Documentation Generator](../../skills/rest-api-documentation-generator/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install rest-api-documentation-generator` |
+| [Prisma Schema Migrator](../../skills/prisma-schema-migrator/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install prisma-schema-migrator` |
+| [API Documentation Indexer](../../skills/api-documentation-indexer/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install api-documentation-indexer` |
+
+---
+
+## Full Skill List
 
 | Skill | Tier | GitHub Stars | npm Downloads | Install |
 |---|---|---:|---:|---|

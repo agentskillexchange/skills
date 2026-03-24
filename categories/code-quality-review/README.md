@@ -6,9 +6,54 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 
 **Live views:** [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads) · [Security Reviewed](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&verification=security_reviewed)
 
+## At a Glance
+
+- **Top Starred:** 6 visible with GitHub signal data
+- **Top Downloaded:** 6 visible with npm signal data
+- **Security Reviewed:** 54 skills
+
 ---
 
-## Skills
+## ⭐ Top Starred
+
+| Skill | Tier | Signal | Install |
+|---|---|---:|---|
+| [Storybook Component Tester](../../skills/storybook-component-tester/) | Listed | ⭐ 89.5k | `clawhub install storybook-component-tester` |
+| [Playwright Test Recorder](../../skills/playwright-test-recorder/) | Listed | ⭐ 84.9k | `clawhub install playwright-test-recorder` |
+| [Docker Build Cache Optimizer](../../skills/docker-build-cache-optimizer/) | Security Reviewed | ⭐ 71.6k | `clawhub install docker-build-cache-optimizer` |
+| [Git Bisect Automation Agent](../../skills/git-bisect-automation-agent/) | Listed | ⭐ 71.6k | `clawhub install git-bisect-automation-agent` |
+| [ESLint Auto-Fix Agent](../../skills/eslint-auto-fix-agent/) | Security Reviewed | ⭐ 27.2k | `clawhub install eslint-auto-fix-agent` |
+| [ESLint Auto-Fix Orchestrator](../../skills/eslint-autofix-orchestrator/) | Security Reviewed | ⭐ 27.2k | `clawhub install eslint-autofix-orchestrator` |
+
+---
+
+## 🔥 Top Downloaded
+
+| Skill | Tier | Signal | Install |
+|---|---|---:|---|
+| [Storybook Component Tester](../../skills/storybook-component-tester/) | Listed | ⬇ 13M/wk | `clawhub install storybook-component-tester` |
+| [Playwright Test Recorder](../../skills/playwright-test-recorder/) | Listed | ⬇ 39.8M/wk | `clawhub install playwright-test-recorder` |
+| [ESLint Auto-Fix Agent](../../skills/eslint-auto-fix-agent/) | Security Reviewed | ⬇ 109M/wk | `clawhub install eslint-auto-fix-agent` |
+| [ESLint Auto-Fix Orchestrator](../../skills/eslint-autofix-orchestrator/) | Security Reviewed | ⬇ 109M/wk | `clawhub install eslint-autofix-orchestrator` |
+| [ESLint Auto-Fix Pipeline](../../skills/eslint-autofix-pipeline/) | Security Reviewed | ⬇ 109M/wk | `clawhub install eslint-autofix-pipeline` |
+| [ESLint Auto-Fixer](../../skills/eslint-auto-fixer/) | Security Reviewed | ⬇ 109M/wk | `clawhub install eslint-auto-fixer` |
+
+---
+
+## 🛡️ Security Reviewed
+
+| Skill | Tier | Signal | Install |
+|---|---|---:|---|
+| [Docker Build Cache Optimizer](../../skills/docker-build-cache-optimizer/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install docker-build-cache-optimizer` |
+| [ESLint Auto-Fix Agent](../../skills/eslint-auto-fix-agent/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install eslint-auto-fix-agent` |
+| [ESLint Auto-Fix Orchestrator](../../skills/eslint-autofix-orchestrator/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install eslint-autofix-orchestrator` |
+| [ESLint Auto-Fix Pipeline](../../skills/eslint-autofix-pipeline/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install eslint-autofix-pipeline` |
+| [ESLint Auto-Fixer](../../skills/eslint-auto-fixer/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install eslint-auto-fixer` |
+| [ESLint Config Enforcer](../../skills/eslint-config-enforcer/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install eslint-config-enforcer` |
+
+---
+
+## Full Skill List
 
 | Skill | Tier | GitHub Stars | npm Downloads | Install |
 |---|---|---:|---:|---|

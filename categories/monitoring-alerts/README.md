@@ -6,9 +6,54 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 
 **Live views:** [Top Starred](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=downloads) · [Security Reviewed](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&verification=security_reviewed)
 
+## At a Glance
+
+- **Top Starred:** 6 visible with GitHub signal data
+- **Top Downloaded:** 6 visible with npm signal data
+- **Security Reviewed:** 57 skills
+
 ---
 
-## Skills
+## ⭐ Top Starred
+
+| Skill | Tier | Signal | Install |
+|---|---|---:|---|
+| [Kubernetes Event Stream Analyzer](../../skills/kubernetes-event-stream-analyzer/) | Security Reviewed | ⭐ 121.3k | `clawhub install kubernetes-event-stream-analyzer` |
+| [Kubernetes Troubleshooting Runbook](../../skills/kubernetes-troubleshooting-runbook/) | Listed | ⭐ 121.3k | `clawhub install kubernetes-troubleshooting-runbook` |
+| [OpenTelemetry Collector Pipeline Designer](../../skills/otel-collector-pipeline-designer/) | Listed | ⭐ 121.3k | `clawhub install otel-collector-pipeline-designer` |
+| [OpenTelemetry Trace Aggregator](../../skills/opentelemetry-trace-aggregator/) | Security Reviewed | ⭐ 121.3k | `clawhub install opentelemetry-trace-aggregator` |
+| [Elastic / Kibana MCP Server](../../skills/elastic-kibana-mcp-server/) | Listed | ⭐ 76.4k | `clawhub install elastic-kibana-mcp-server` |
+| [Grafana Alert Router](../../skills/grafana-alert-router/) | Security Reviewed | ⭐ 72.8k | `clawhub install grafana-alert-router` |
+
+---
+
+## 🔥 Top Downloaded
+
+| Skill | Tier | Signal | Install |
+|---|---|---:|---|
+| [Elastic / Kibana MCP Server](../../skills/elastic-kibana-mcp-server/) | Listed | ⬇ 1.9M/wk | `clawhub install elastic-kibana-mcp-server` |
+| [Prometheus Alert Router](../../skills/prometheus-alert-router/) | Security Reviewed | ⬇ 5.3M/wk | `clawhub install prometheus-alert-router` |
+| [Prometheus Alert Rule Builder](../../skills/prometheus-alert-rule-builder/) | Security Reviewed | ⬇ 5.3M/wk | `clawhub install prometheus-alert-rule-builder` |
+| [Prometheus Alert Rule Generator](../../skills/prometheus-alert-rule-generator-2/) | Security Reviewed | ⬇ 5.3M/wk | `clawhub install prometheus-alert-rule-generator-2` |
+| [Prometheus Alert Rule Synthesizer](../../skills/prometheus-alert-rule-synthesizer/) | Security Reviewed | ⬇ 5.3M/wk | `clawhub install prometheus-alert-rule-synthesizer` |
+| [Prometheus Alerting Rules](../../skills/prometheus-alerting-rules/) | Listed | ⬇ 5.3M/wk | `clawhub install prometheus-alerting-rules` |
+
+---
+
+## 🛡️ Security Reviewed
+
+| Skill | Tier | Signal | Install |
+|---|---|---:|---|
+| [Kubernetes Event Stream Analyzer](../../skills/kubernetes-event-stream-analyzer/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install kubernetes-event-stream-analyzer` |
+| [OpenTelemetry Trace Aggregator](../../skills/opentelemetry-trace-aggregator/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install opentelemetry-trace-aggregator` |
+| [Grafana Alert Router](../../skills/grafana-alert-router/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install grafana-alert-router` |
+| [Grafana Dashboard as Code Builder](../../skills/grafana-dashboard-as-code-builder/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install grafana-dashboard-as-code-builder` |
+| [Grafana Dashboard as Code Generator](../../skills/grafana-dashboard-as-code-generator/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install grafana-dashboard-as-code-generator` |
+| [Grafana Dashboard Generator](../../skills/grafana-dashboard-generator-3/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install grafana-dashboard-generator-3` |
+
+---
+
+## Full Skill List
 
 | Skill | Tier | GitHub Stars | npm Downloads | Install |
 |---|---|---:|---:|---|

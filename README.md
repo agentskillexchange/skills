@@ -41,6 +41,17 @@ clawhub install <slug>
 
 ---
 
+## Start Here
+
+If you're new to the repo, use these entry points first:
+
+- **Browse by category:** [categories/](categories/)
+- **Top Starred:** [TOP-STARS.md](TOP-STARS.md)
+- **Top Downloaded:** [TOP-DOWNLOADS.md](TOP-DOWNLOADS.md)
+- **Live marketplace browse:** <https://agentskillexchange.com/browse-skills/>
+
+---
+
 ## Categories
 
 Categories are the best way to understand the shape of the catalog. For live sorting by stars, downloads, and verification, jump from a category into the ASE browse surface.
@@ -77,6 +88,11 @@ Full listing: [CATALOG.md](CATALOG.md) · Browse by category: [categories/](cate
 | Categories | **17** |
 | Frameworks | **11** |
 | Skills with live signal data | **842** |
+
+### Verification tiers
+
+| Tier | Count |
+|------|------:|
 | 🛡️ Security Reviewed | **760** |
 | ✅ Verified Metadata | **7** |
 | 📋 Listed | **521** |

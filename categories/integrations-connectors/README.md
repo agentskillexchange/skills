@@ -6,9 +6,54 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 
 **Live views:** [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads) · [Security Reviewed](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&verification=security_reviewed)
 
+## At a Glance
+
+- **Top Starred:** 6 visible with GitHub signal data
+- **Top Downloaded:** 6 visible with npm signal data
+- **Security Reviewed:** 19 skills
+
 ---
 
-## Skills
+## ⭐ Top Starred
+
+| Skill | Tier | Signal | Install |
+|---|---|---:|---|
+| [Terraform Cloud Run Inspector](../../skills/terraform-cloud-run-inspector-2/) | Listed | ⭐ 48k | `clawhub install terraform-cloud-run-inspector-2` |
+| [Linear Issue Triage &#038; Sprint Planner](../../skills/linear-issue-triage-sprint-planner-2/) | Listed | ⭐ 20.3k | `clawhub install linear-issue-triage-sprint-planner-2` |
+| [Notion Database Sync &#038; Page Generator](../../skills/notion-database-sync-page-generator-2/) | Listed | ⭐ 5.6k | `clawhub install notion-database-sync-page-generator-2` |
+| [Stripe Connect Account Provisioner](../../skills/stripe-connect-account-provisioner/) | Security Reviewed | ⭐ 4.4k | `clawhub install stripe-connect-account-provisioner` |
+| [Stripe Connect Integration](../../skills/stripe-connect-integration/) | Security Reviewed | ⭐ 4.4k | `clawhub install stripe-connect-integration` |
+| [Stripe Connect Marketplace Sync](../../skills/stripe-connect-marketplace-sync/) | Security Reviewed | ⭐ 4.4k | `clawhub install stripe-connect-marketplace-sync` |
+
+---
+
+## 🔥 Top Downloaded
+
+| Skill | Tier | Signal | Install |
+|---|---|---:|---|
+| [Linear Issue Triage &#038; Sprint Planner](../../skills/linear-issue-triage-sprint-planner-2/) | Listed | ⬇ 32M/wk | `clawhub install linear-issue-triage-sprint-planner-2` |
+| [Notion Database Sync &#038; Page Generator](../../skills/notion-database-sync-page-generator-2/) | Listed | ⬇ 1.1M/wk | `clawhub install notion-database-sync-page-generator-2` |
+| [Stripe Connect Account Provisioner](../../skills/stripe-connect-account-provisioner/) | Security Reviewed | ⬇ 8.4M/wk | `clawhub install stripe-connect-account-provisioner` |
+| [Stripe Connect Integration](../../skills/stripe-connect-integration/) | Security Reviewed | ⬇ 8.4M/wk | `clawhub install stripe-connect-integration` |
+| [Stripe Connect Marketplace Sync](../../skills/stripe-connect-marketplace-sync/) | Security Reviewed | ⬇ 8.4M/wk | `clawhub install stripe-connect-marketplace-sync` |
+| [Stripe Connect Platform Bridge](../../skills/stripe-connect-platform-bridge/) | Security Reviewed | ⬇ 8.4M/wk | `clawhub install stripe-connect-platform-bridge` |
+
+---
+
+## 🛡️ Security Reviewed
+
+| Skill | Tier | Signal | Install |
+|---|---|---:|---|
+| [Stripe Connect Account Provisioner](../../skills/stripe-connect-account-provisioner/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install stripe-connect-account-provisioner` |
+| [Stripe Connect Integration](../../skills/stripe-connect-integration/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install stripe-connect-integration` |
+| [Stripe Connect Marketplace Sync](../../skills/stripe-connect-marketplace-sync/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install stripe-connect-marketplace-sync` |
+| [Stripe Connect Platform Bridge](../../skills/stripe-connect-platform-bridge/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install stripe-connect-platform-bridge` |
+| [Stripe Payment Flow Connector](../../skills/stripe-payment-flow-connector/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install stripe-payment-flow-connector` |
+| [Stripe Payments Connector](../../skills/stripe-payments-connector/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install stripe-payments-connector` |
+
+---
+
+## Full Skill List
 
 | Skill | Tier | GitHub Stars | npm Downloads | Install |
 |---|---|---:|---:|---|

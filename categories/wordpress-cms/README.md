@@ -6,9 +6,54 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 
 **Live views:** [Top Starred](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS&sort=downloads) · [Security Reviewed](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS&verification=security_reviewed)
 
+## At a Glance
+
+- **Top Starred:** 6 visible with GitHub signal data
+- **Top Downloaded:** 6 visible with npm signal data
+- **Security Reviewed:** 19 skills
+
 ---
 
-## Skills
+## ⭐ Top Starred
+
+| Skill | Tier | Signal | Install |
+|---|---|---:|---|
+| [Gutenberg Block Scaffolder](../../skills/gutenberg-block-scaffolder-agent/) | Security Reviewed | ⭐ 21k | `clawhub install gutenberg-block-scaffolder-agent` |
+| [Gutenberg Custom Block Builder](../../skills/gutenberg-custom-block-builder/) | Security Reviewed | ⭐ 21k | `clawhub install gutenberg-custom-block-builder` |
+| [ACF Custom Fields REST Exposer](../../skills/acf-custom-fields-rest-exposer/) | Security Reviewed | ⭐ 21k | `clawhub install acf-custom-fields-rest-exposer` |
+| [Gutenberg Block Pattern Generator](../../skills/gutenberg-block-pattern-generator/) | Security Reviewed | ⭐ 21k | `clawhub install gutenberg-block-pattern-generator` |
+| [WordPress ACF Field Group Auditor](../../skills/wordpress-acf-field-group-auditor/) | Security Reviewed | ⭐ 21k | `clawhub install wordpress-acf-field-group-auditor` |
+| [WordPress Content Publisher](../../skills/wordpress-content-publisher/) | Listed | ⭐ 21k | `clawhub install wordpress-content-publisher` |
+
+---
+
+## 🔥 Top Downloaded
+
+| Skill | Tier | Signal | Install |
+|---|---|---:|---|
+| [Gutenberg Block Scaffolder](../../skills/gutenberg-block-scaffolder-agent/) | Security Reviewed | ⬇ 44.8M/wk | `clawhub install gutenberg-block-scaffolder-agent` |
+| [Gutenberg Custom Block Builder](../../skills/gutenberg-custom-block-builder/) | Security Reviewed | ⬇ 44.8M/wk | `clawhub install gutenberg-custom-block-builder` |
+| [Headless CMS GraphQL Connector](../../skills/headless-cms-graphql-connector/) | Security Reviewed | ⬇ 32M/wk | `clawhub install headless-cms-graphql-connector` |
+| [WooCommerce REST Order Manager](../../skills/woocommerce-rest-order-manager/) | Security Reviewed | ⬇ 8.4M/wk | `clawhub install woocommerce-rest-order-manager` |
+| [WP Cron Health Monitor](../../skills/wp-cron-health-monitor/) | Security Reviewed | ⬇ 210.8k/wk | `clawhub install wp-cron-health-monitor` |
+| [WooCommerce REST Sync Agent](../../skills/woocommerce-rest-sync-agent/) | Security Reviewed | ⬇ 5M/wk | `clawhub install woocommerce-rest-sync-agent` |
+
+---
+
+## 🛡️ Security Reviewed
+
+| Skill | Tier | Signal | Install |
+|---|---|---:|---|
+| [Gutenberg Block Scaffolder](../../skills/gutenberg-block-scaffolder-agent/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install gutenberg-block-scaffolder-agent` |
+| [Gutenberg Custom Block Builder](../../skills/gutenberg-custom-block-builder/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install gutenberg-custom-block-builder` |
+| [ACF Custom Fields REST Exposer](../../skills/acf-custom-fields-rest-exposer/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install acf-custom-fields-rest-exposer` |
+| [Gutenberg Block Pattern Generator](../../skills/gutenberg-block-pattern-generator/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install gutenberg-block-pattern-generator` |
+| [WordPress ACF Field Group Auditor](../../skills/wordpress-acf-field-group-auditor/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install wordpress-acf-field-group-auditor` |
+| [WordPress Gutenberg Block Generator](../../skills/wordpress-gutenberg-block-generator/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install wordpress-gutenberg-block-generator` |
+
+---
+
+## Full Skill List
 
 | Skill | Tier | GitHub Stars | npm Downloads | Install |
 |---|---|---:|---:|---|

@@ -6,9 +6,54 @@ Email automation, calendar management, task coordination, and productivity tools
 
 **Live views:** [Top Starred](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=downloads) · [Security Reviewed](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&verification=security_reviewed)
 
+## At a Glance
+
+- **Top Starred:** 6 visible with GitHub signal data
+- **Top Downloaded:** 6 visible with npm signal data
+- **Security Reviewed:** 36 skills
+
 ---
 
-## Skills
+## ⭐ Top Starred
+
+| Skill | Tier | Signal | Install |
+|---|---|---:|---|
+| [Todoist Natural Language Task Parser](../../skills/todoist-natural-language-task-parser/) | Security Reviewed | ⭐ 35.3k | `clawhub install todoist-natural-language-task-parser` |
+| [Linear Sprint Planner](../../skills/linear-sprint-planner/) | Listed | ⭐ 20.3k | `clawhub install linear-sprint-planner` |
+| [Notion AI Document Summarizer &#038; Action Item Extractor](../../skills/notion-ai-doc-summarizer/) | Listed | ⭐ 5.6k | `clawhub install notion-ai-doc-summarizer` |
+| [Notion AI Workspace](../../skills/notion-ai-workspace/) | Listed | ⭐ 5.6k | `clawhub install notion-ai-workspace` |
+| [Notion Database Sync Agent](../../skills/notion-database-sync-agent/) | Security Reviewed | ⭐ 5.6k | `clawhub install notion-database-sync-agent` |
+| [Notion Database Sync Bridge](../../skills/notion-database-sync-bridge/) | Security Reviewed | ⭐ 5.6k | `clawhub install notion-database-sync-bridge` |
+
+---
+
+## 🔥 Top Downloaded
+
+| Skill | Tier | Signal | Install |
+|---|---|---:|---|
+| [Linear Sprint Planner](../../skills/linear-sprint-planner/) | Listed | ⬇ 32M/wk | `clawhub install linear-sprint-planner` |
+| [Notion AI Document Summarizer &#038; Action Item Extractor](../../skills/notion-ai-doc-summarizer/) | Listed | ⬇ 1.1M/wk | `clawhub install notion-ai-doc-summarizer` |
+| [Notion AI Workspace](../../skills/notion-ai-workspace/) | Listed | ⬇ 1.1M/wk | `clawhub install notion-ai-workspace` |
+| [Notion Database Sync Agent](../../skills/notion-database-sync-agent/) | Security Reviewed | ⬇ 1.1M/wk | `clawhub install notion-database-sync-agent` |
+| [Notion Database Sync Bridge](../../skills/notion-database-sync-bridge/) | Security Reviewed | ⬇ 1.1M/wk | `clawhub install notion-database-sync-bridge` |
+| [Notion MCP Server](../../skills/notion-mcp-server/) | Listed | ⬇ 1.1M/wk | `clawhub install notion-mcp-server` |
+
+---
+
+## 🛡️ Security Reviewed
+
+| Skill | Tier | Signal | Install |
+|---|---|---:|---|
+| [Todoist Natural Language Task Parser](../../skills/todoist-natural-language-task-parser/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install todoist-natural-language-task-parser` |
+| [Notion Database Sync Agent](../../skills/notion-database-sync-agent/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install notion-database-sync-agent` |
+| [Notion Database Sync Bridge](../../skills/notion-database-sync-bridge/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install notion-database-sync-bridge` |
+| [Notion Task Board Automation](../../skills/notion-task-board-automation-agent/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install notion-task-board-automation-agent` |
+| [Notion Task Sync Bridge](../../skills/notion-task-sync-bridge/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install notion-task-sync-bridge` |
+| [Notion Workspace Automation Hub](../../skills/notion-workspace-automation-hub/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install notion-workspace-automation-hub` |
+
+---
+
+## Full Skill List
 
 | Skill | Tier | GitHub Stars | npm Downloads | Install |
 |---|---|---:|---:|---|

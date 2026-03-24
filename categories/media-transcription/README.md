@@ -6,9 +6,54 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 
 **Live views:** [Top Starred](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&sort=downloads) · [Security Reviewed](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&verification=security_reviewed)
 
+## At a Glance
+
+- **Top Starred:** 6 visible with GitHub signal data
+- **Top Downloaded:** 6 visible with npm signal data
+- **Security Reviewed:** 23 skills
+
 ---
 
-## Skills
+## ⭐ Top Starred
+
+| Skill | Tier | Signal | Install |
+|---|---|---:|---|
+| [GStreamer Live Stream Transcoder](../../skills/gstreamer-live-stream-transcoder/) | Security Reviewed | ⭐ 63.3k | `clawhub install gstreamer-live-stream-transcoder` |
+| [Deepgram Nova STT Pipeline](../../skills/deepgram-nova-stt-pipeline/) | Security Reviewed | ⭐ 58.3k | `clawhub install deepgram-nova-stt-pipeline` |
+| [FFmpeg Audio Normalization Pipeline](../../skills/ffmpeg-audio-normalization-pipeline/) | Listed | ⭐ 58.3k | `clawhub install ffmpeg-audio-normalization-pipeline` |
+| [FFmpeg Audio Transcoder](../../skills/ffmpeg-audio-transcoder/) | Listed | ⭐ 58.3k | `clawhub install ffmpeg-audio-transcoder` |
+| [FFmpeg Batch Transcode Pipeline](../../skills/ffmpeg-batch-transcode-pipeline/) | Security Reviewed | ⭐ 58.3k | `clawhub install ffmpeg-batch-transcode-pipeline` |
+| [FFmpeg Batch Transcoder](../../skills/ffmpeg-batch-transcoder-skill/) | Listed | ⭐ 58.3k | `clawhub install ffmpeg-batch-transcoder-skill` |
+
+---
+
+## 🔥 Top Downloaded
+
+| Skill | Tier | Signal | Install |
+|---|---|---:|---|
+| [GStreamer Live Stream Transcoder](../../skills/gstreamer-live-stream-transcoder/) | Security Reviewed | ⬇ 5.3M/wk | `clawhub install gstreamer-live-stream-transcoder` |
+| [OpenAI Whisper API Transcription](../../skills/openai-whisper-api-transcription/) | Security Reviewed | ⬇ 16.3M/wk | `clawhub install openai-whisper-api-transcription` |
+| [OpenAI Whisper Batch Transcription Pipeline](../../skills/whisper-batch-transcription-pipeline/) | Listed | ⬇ 16.3M/wk | `clawhub install whisper-batch-transcription-pipeline` |
+| [OpenAI Whisper Transcription](../../skills/openai-whisper-transcription/) | Listed | ⬇ 16.3M/wk | `clawhub install openai-whisper-transcription` |
+| [Podcast Transcription Pipeline](../../skills/podcast-transcription-pipeline-agent/) | Security Reviewed | ⬇ 16.3M/wk | `clawhub install podcast-transcription-pipeline-agent` |
+| [Whisper Diarization Post-Processor](../../skills/whisper-diarization-post-processor/) | Security Reviewed | ⬇ 16.3M/wk | `clawhub install whisper-diarization-post-processor` |
+
+---
+
+## 🛡️ Security Reviewed
+
+| Skill | Tier | Signal | Install |
+|---|---|---:|---|
+| [GStreamer Live Stream Transcoder](../../skills/gstreamer-live-stream-transcoder/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install gstreamer-live-stream-transcoder` |
+| [Deepgram Nova STT Pipeline](../../skills/deepgram-nova-stt-pipeline/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install deepgram-nova-stt-pipeline` |
+| [FFmpeg Batch Transcode Pipeline](../../skills/ffmpeg-batch-transcode-pipeline/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install ffmpeg-batch-transcode-pipeline` |
+| [FFmpeg Clip Extractor](../../skills/ffmpeg-clip-extractor-agent/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install ffmpeg-clip-extractor-agent` |
+| [Live Stream Clip Extractor](../../skills/live-stream-clip-extractor-agent/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install live-stream-clip-extractor-agent` |
+| [Podcast RSS Feed Audio Normalizer](../../skills/podcast-rss-feed-audio-normalizer/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install podcast-rss-feed-audio-normalizer` |
+
+---
+
+## Full Skill List
 
 | Skill | Tier | GitHub Stars | npm Downloads | Install |
 |---|---|---:|---:|---|

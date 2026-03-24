@@ -6,9 +6,54 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 
 **Live views:** [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads) · [Security Reviewed](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&verification=security_reviewed)
 
+## At a Glance
+
+- **Top Starred:** 6 visible with GitHub signal data
+- **Top Downloaded:** 6 visible with npm signal data
+- **Security Reviewed:** 32 skills
+
 ---
 
-## Skills
+## ⭐ Top Starred
+
+| Skill | Tier | Signal | Install |
+|---|---|---:|---|
+| [Plop.js Code Generator](../../skills/plopjs-code-generator/) | Security Reviewed | ⭐ 244.1k | `clawhub install plopjs-code-generator` |
+| [DigitalOcean Droplet Manager](../../skills/digitalocean-droplet-manager/) | Listed | ⭐ 121.3k | `clawhub install digitalocean-droplet-manager` |
+| [Jinja2 Infrastructure Template Engine](../../skills/jinja2-infrastructure-template-engine/) | Listed | ⭐ 121.3k | `clawhub install jinja2-infrastructure-template-engine` |
+| [Nx Workspace Generator Toolkit](../../skills/nx-workspace-generator-toolkit/) | Security Reviewed | ⭐ 84.9k | `clawhub install nx-workspace-generator-toolkit` |
+| [Twitter/X Trend Monitor &#038; Thread Publisher](../../skills/twitter-x-trend-monitor-thread-publisher/) | Listed | ⭐ 73.5k | `clawhub install twitter-x-trend-monitor-thread-publisher` |
+| [Cookiecutter Project Scaffold Generator](../../skills/cookiecutter-project-scaffold-generator/) | Security Reviewed | ⭐ 71.6k | `clawhub install cookiecutter-project-scaffold-generator` |
+
+---
+
+## 🔥 Top Downloaded
+
+| Skill | Tier | Signal | Install |
+|---|---|---:|---|
+| [Plop.js Code Generator](../../skills/plopjs-code-generator/) | Security Reviewed | ⬇ 104.8M/wk | `clawhub install plopjs-code-generator` |
+| [Nx Workspace Generator Toolkit](../../skills/nx-workspace-generator-toolkit/) | Security Reviewed | ⬇ 39.8M/wk | `clawhub install nx-workspace-generator-toolkit` |
+| [Twitter/X Trend Monitor &#038; Thread Publisher](../../skills/twitter-x-trend-monitor-thread-publisher/) | Listed | ⬇ 8.2M/wk | `clawhub install twitter-x-trend-monitor-thread-publisher` |
+| [Ansible Playbook Template Library](../../skills/ansible-playbook-template-library/) | Security Reviewed | ⬇ 9.2M/wk | `clawhub install ansible-playbook-template-library` |
+| [Swagger Codegen Orchestrator](../../skills/swagger-codegen-orchestrator/) | Security Reviewed | ⬇ 3.2M/wk | `clawhub install swagger-codegen-orchestrator` |
+| [Yeoman Enterprise Generator Suite](../../skills/yeoman-enterprise-generator-suite/) | Security Reviewed | ⬇ 109M/wk | `clawhub install yeoman-enterprise-generator-suite` |
+
+---
+
+## 🛡️ Security Reviewed
+
+| Skill | Tier | Signal | Install |
+|---|---|---:|---|
+| [Plop.js Code Generator](../../skills/plopjs-code-generator/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install plopjs-code-generator` |
+| [Nx Workspace Generator Toolkit](../../skills/nx-workspace-generator-toolkit/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install nx-workspace-generator-toolkit` |
+| [Cookiecutter Project Scaffold Generator](../../skills/cookiecutter-project-scaffold-generator/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install cookiecutter-project-scaffold-generator` |
+| [Cookiecutter Project Scaffolding Agent](../../skills/cookiecutter-project-scaffolding-agent/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install cookiecutter-project-scaffolding-agent` |
+| [Docker Compose Test Harness](../../skills/docker-compose-test-harness/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install docker-compose-test-harness` |
+| [Makefile Workflow Generator](../../skills/makefile-workflow-generator/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install makefile-workflow-generator` |
+
+---
+
+## Full Skill List
 
 | Skill | Tier | GitHub Stars | npm Downloads | Install |
 |---|---|---:|---:|---|

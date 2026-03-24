@@ -6,9 +6,54 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 
 **Live views:** [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads) · [Security Reviewed](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&verification=security_reviewed)
 
+## At a Glance
+
+- **Top Starred:** 6 visible with GitHub signal data
+- **Top Downloaded:** 6 visible with npm signal data
+- **Security Reviewed:** 35 skills
+
 ---
 
-## Skills
+## ⭐ Top Starred
+
+| Skill | Tier | Signal | Install |
+|---|---|---:|---|
+| [Apache Spark Job Manager](../../skills/apache-spark-job-manager/) | Listed | ⭐ 121.3k | `clawhub install apache-spark-job-manager` |
+| [Elasticsearch MCP](../../skills/elasticsearch-mcp/) | Listed | ⭐ 76.4k | `clawhub install elasticsearch-mcp` |
+| [Crawl4AI MCP Server](../../skills/crawl4ai-mcp-server/) | Security Reviewed | ⭐ 71.6k | `clawhub install crawl4ai-mcp-server` |
+| [Postgres MCP Pro](../../skills/postgres-mcp-pro/) | Security Reviewed | ⭐ 71.6k | `clawhub install postgres-mcp-pro` |
+| [Scrapy Spider Data Pipeline](../../skills/scrapy-spider-data-pipeline/) | Security Reviewed | ⭐ 60.9k | `clawhub install scrapy-spider-data-pipeline` |
+| [Camelot Advanced PDF Table Intelligence](../../skills/camelot-advanced-pdf-table-intelligence/) | Listed | ⭐ 48.2k | `clawhub install camelot-advanced-pdf-table-intelligence` |
+
+---
+
+## 🔥 Top Downloaded
+
+| Skill | Tier | Signal | Install |
+|---|---|---:|---|
+| [Elasticsearch MCP](../../skills/elasticsearch-mcp/) | Listed | ⬇ 1.9M/wk | `clawhub install elasticsearch-mcp` |
+| [Scrapy Spider Data Pipeline](../../skills/scrapy-spider-data-pipeline/) | Security Reviewed | ⬇ 39.8M/wk | `clawhub install scrapy-spider-data-pipeline` |
+| [Cheerio DOM Extraction Pipeline](../../skills/cheerio-dom-extraction-pipeline/) | Security Reviewed | ⬇ 18.5M/wk | `clawhub install cheerio-dom-extraction-pipeline` |
+| [GraphQL Data Federation Agent](../../skills/graphql-data-federation-agent/) | Security Reviewed | ⬇ 32M/wk | `clawhub install graphql-data-federation-agent` |
+| [GraphQL Schema Introspection Mapper](../../skills/graphql-schema-introspection-mapper/) | Security Reviewed | ⬇ 32M/wk | `clawhub install graphql-schema-introspection-mapper` |
+| [Weaviate MCP Server](../../skills/weaviate-mcp-server/) | Listed | ⬇ 32M/wk | `clawhub install weaviate-mcp-server` |
+
+---
+
+## 🛡️ Security Reviewed
+
+| Skill | Tier | Signal | Install |
+|---|---|---:|---|
+| [Crawl4AI MCP Server](../../skills/crawl4ai-mcp-server/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install crawl4ai-mcp-server` |
+| [Postgres MCP Pro](../../skills/postgres-mcp-pro/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install postgres-mcp-pro` |
+| [Scrapy Spider Data Pipeline](../../skills/scrapy-spider-data-pipeline/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install scrapy-spider-data-pipeline` |
+| [Pandas DataFrame Pipeline Orchestrator](../../skills/pandas-dataframe-pipeline-orchestrator/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install pandas-dataframe-pipeline-orchestrator` |
+| [Pandas DataFrame Schema Validator](../../skills/pandas-dataframe-schema-validator/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install pandas-dataframe-schema-validator` |
+| [Pandas Profiling Report Generator](../../skills/pandas-profiling-report-generator/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install pandas-profiling-report-generator` |
+
+---
+
+## Full Skill List
 
 | Skill | Tier | GitHub Stars | npm Downloads | Install |
 |---|---|---:|---:|---|

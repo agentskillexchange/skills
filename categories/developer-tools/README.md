@@ -6,9 +6,54 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 
 **Live views:** [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads) · [Security Reviewed](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&verification=security_reviewed)
 
+## At a Glance
+
+- **Top Starred:** 6 visible with GitHub signal data
+- **Top Downloaded:** 6 visible with npm signal data
+- **Security Reviewed:** 20 skills
+
 ---
 
-## Skills
+## ⭐ Top Starred
+
+| Skill | Tier | Signal | Install |
+|---|---|---:|---|
+| [Kubernetes MCP Server](../../skills/kubernetes-mcp-server/) | Listed | ⭐ 121.3k | `clawhub install kubernetes-mcp-server` |
+| [Kubernetes Pod Crash Diagnostics](../../skills/kubernetes-pod-crash-diagnostics-3/) | Listed | ⭐ 121.3k | `clawhub install kubernetes-pod-crash-diagnostics-3` |
+| [Puppeteer DevTools Protocol Recorder](../../skills/puppeteer-devtools-protocol-recorder/) | Listed | ⭐ 93.9k | `clawhub install puppeteer-devtools-protocol-recorder` |
+| [Playwright E2E Test Generator](../../skills/playwright-e2e-test-generator/) | Security Reviewed | ⭐ 84.9k | `clawhub install playwright-e2e-test-generator` |
+| [Vite Plugin Hot Module Analyzer](../../skills/vite-plugin-hmr-analyzer/) | Listed | ⭐ 79.3k | `clawhub install vite-plugin-hmr-analyzer` |
+| [Redis MCP Server](../../skills/redis-mcp-server/) | Listed | ⭐ 73.5k | `clawhub install redis-mcp-server` |
+
+---
+
+## 🔥 Top Downloaded
+
+| Skill | Tier | Signal | Install |
+|---|---|---:|---|
+| [Puppeteer DevTools Protocol Recorder](../../skills/puppeteer-devtools-protocol-recorder/) | Listed | ⬇ 8.7M/wk | `clawhub install puppeteer-devtools-protocol-recorder` |
+| [Playwright E2E Test Generator](../../skills/playwright-e2e-test-generator/) | Security Reviewed | ⬇ 39.8M/wk | `clawhub install playwright-e2e-test-generator` |
+| [Vite Plugin Hot Module Analyzer](../../skills/vite-plugin-hmr-analyzer/) | Listed | ⬇ 76.3M/wk | `clawhub install vite-plugin-hmr-analyzer` |
+| [Redis MCP Server](../../skills/redis-mcp-server/) | Listed | ⬇ 8.2M/wk | `clawhub install redis-mcp-server` |
+| [VS Code Extension Scaffolder](../../skills/vscode-extension-scaffolder-agent/) | Listed | ⬇ 44.8M/wk | `clawhub install vscode-extension-scaffolder-agent` |
+| [Webpack Bundle Analyzer Agent](../../skills/webpack-bundle-analyzer-agent/) | Listed | ⬇ 44.8M/wk | `clawhub install webpack-bundle-analyzer-agent` |
+
+---
+
+## 🛡️ Security Reviewed
+
+| Skill | Tier | Signal | Install |
+|---|---|---:|---|
+| [Playwright E2E Test Generator](../../skills/playwright-e2e-test-generator/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install playwright-e2e-test-generator` |
+| [Devcontainer Specification Builder](../../skills/devcontainer-specification-builder/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install devcontainer-specification-builder` |
+| [Docker Compose Orchestrator](../../skills/docker-compose-orchestrator-v2/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install docker-compose-orchestrator-v2` |
+| [Docker Compose Service Graph Visualizer](../../skills/docker-compose-service-graph-visualizer/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install docker-compose-service-graph-visualizer` |
+| [Docker Compose Stack Analyzer](../../skills/docker-compose-stack-analyzer/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install docker-compose-stack-analyzer` |
+| [Docker Compose Stack Builder](../../skills/docker-compose-stack-builder-sdk/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install docker-compose-stack-builder-sdk` |
+
+---
+
+## Full Skill List
 
 | Skill | Tier | GitHub Stars | npm Downloads | Install |
 |---|---|---:|---:|---|
