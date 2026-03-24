@@ -2,7 +2,7 @@
 
 Browse skills by category. Each category contains a curated list of verified skills.
 
-> **1532 skills** across **17 categories**
+> **1544 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
@@ -10,11 +10,11 @@ Browse skills by category. Each category contains a curated list of verified ski
 | 📋 | [**Runbooks & Diagnostics**](runbooks-diagnostics/) | **178** | Incident response, troubleshooting guides, system diagnostic... |
 | ✅ | [**Code Quality & Review**](code-quality-review/) | **139** | Linting rules, review checklists, code standards enforcement... |
 | 🛠️ | [**Developer Tools**](developer-tools/) | **126** | CLI helpers, dev environment setup, productivity utilities, ... |
-| 📚 | [**Library & API Reference**](library-api-reference/) | **115** | SDK documentation, API guides, framework reference material,... |
-| 📊 | [**Monitoring & Alerts**](monitoring-alerts/) | **97** | Metrics collection, alerting rules, observability setup, and... |
+| 📚 | [**Library & API Reference**](library-api-reference/) | **119** | SDK documentation, API guides, framework reference material,... |
+| 📊 | [**Monitoring & Alerts**](monitoring-alerts/) | **101** | Metrics collection, alerting rules, observability setup, and... |
 | 🔒 | [**Security & Verification**](security-verification/) | **96** | Auth setup, vulnerability scanning, compliance checks, and s... |
+| 📄 | [**Templates & Workflows**](templates-workflows/) | **92** | Project scaffolding, boilerplate generators, workflow templa... |
 | 🔄 | [**Data Extraction & Transformation**](data-extraction-transformation/) | **90** | Parsing, ETL pipelines, format conversion, data wrangling, a... |
-| 📄 | [**Templates & Workflows**](templates-workflows/) | **88** | Project scaffolding, boilerplate generators, workflow templa... |
 | 📅 | [**Calendar, Email & Productivity**](calendar-email-productivity/) | **72** | Email automation, calendar management, task coordination, an... |
 | 🌐 | [**Browser Automation**](browser-automation/) | **56** | Web scraping, UI testing, headless browser control, and brow... |
 | 🎨 | [**Image & Creative Automation**](image-creative-automation/) | **51** | Image generation, asset processing, design automation, and c... |

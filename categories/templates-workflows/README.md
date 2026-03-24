@@ -1,6 +1,6 @@
 # 📄 Templates & Workflows
 
-> **88 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=templates-workflows)
+> **92 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=templates-workflows)
 
 Project scaffolding, boilerplate generators, workflow templates, and starter kits.
 
@@ -13,6 +13,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Argo Workflows DAG Optimizer](../../skills/argo-workflows-dag-optimizer/) | ⭐ 4.9 | 0 | `clawhub install argo-workflows-dag-optimizer` |
 | [Codecov Diff Analyzer](../../skills/codecov-diff-analyzer-2/) | ⭐ 4.9 | 0 | `clawhub install codecov-diff-analyzer-2` |
 | [Cookiecutter Project Builder](../../skills/cookiecutter-project-builder/) | ⭐ 4.9 | 0 | `clawhub install cookiecutter-project-builder` |
+| [Cookiecutter Project Scaffold](../../skills/cookiecutter-project-scaffold-2/) | ⭐ 4.9 | 0 | `clawhub install cookiecutter-project-scaffold-2` |
 | [DigitalOcean Droplet Manager](../../skills/digitalocean-droplet-manager/) | ⭐ 4.9 | 0 | `clawhub install digitalocean-droplet-manager` |
 | [Docker Compose Service Blueprint Creator](../../skills/docker-compose-service-blueprint-creator/) | ⭐ 4.9 | 0 | `clawhub install docker-compose-service-blueprint-creator` |
 | [GitHub Actions Workflow Composer](../../skills/github-actions-workflow-composer-2/) | ⭐ 4.9 | 0 | `clawhub install github-actions-workflow-composer-2` |
@@ -39,6 +40,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Notion to PDF Knowledge Exporter](../../skills/notion-to-pdf-knowledge-exporter-2/) | ⭐ 4.8 | 0 | `clawhub install notion-to-pdf-knowledge-exporter-2` |
 | [Nx Workspace Generator Toolkit](../../skills/nx-workspace-generator-toolkit/) | ⭐ 4.8 | 0 | `clawhub install nx-workspace-generator-toolkit` |
 | [Swagger Codegen Orchestrator](../../skills/swagger-codegen-orchestrator/) | ⭐ 4.8 | 0 | `clawhub install swagger-codegen-orchestrator` |
+| [Terraform Module Registry](../../skills/terraform-module-registry-2/) | ⭐ 4.8 | 0 | `clawhub install terraform-module-registry-2` |
 | [Terraform Module Registry Browser](../../skills/terraform-module-registry-browser/) | ⭐ 4.8 | 0 | `clawhub install terraform-module-registry-browser` |
 | [Terraform Module Scaffolder](../../skills/terraform-module-scaffolder/) | ⭐ 4.8 | 0 | `clawhub install terraform-module-scaffolder` |
 | [Yeoman Scaffold Runner](../../skills/yeoman-scaffold-runner/) | ⭐ 4.8 | 0 | `clawhub install yeoman-scaffold-runner` |
@@ -55,6 +57,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Codecov Diff Analyzer](../../skills/codecov-diff-analyzer/) | ⭐ 4.6 | 0 | `clawhub install codecov-diff-analyzer` |
 | [Cookiecutter Project Scaffold](../../skills/cookiecutter-project-scaffold/) | ⭐ 4.6 | 0 | `clawhub install cookiecutter-project-scaffold` |
 | [Cookiecutter Project Template Engine](../../skills/cookiecutter-project-template-engine/) | ⭐ 4.6 | 0 | `clawhub install cookiecutter-project-template-engine` |
+| [GitHub Actions Workflow Builder](../../skills/github-actions-workflow-builder-3/) | ⭐ 4.6 | 0 | `clawhub install github-actions-workflow-builder-3` |
 | [Helm Chart Templater](../../skills/helm-chart-templater/) | ⭐ 4.6 | 0 | `clawhub install helm-chart-templater` |
 | [Makefile Task Orchestration Builder](../../skills/makefile-task-orchestration-builder/) | ⭐ 4.6 | 0 | `clawhub install makefile-task-orchestration-builder` |
 | [Netlify Site Manager](../../skills/netlify-site-manager/) | ⭐ 4.6 | 0 | `clawhub install netlify-site-manager` |
@@ -80,6 +83,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Terraform Module Scaffolder](../../skills/terraform-module-scaffolder-3/) | ⭐ 4.4 | 0 | `clawhub install terraform-module-scaffolder-3` |
 | [Terraform Module Template Generator](../../skills/terraform-module-template-generator-2/) | ⭐ 4.4 | 0 | `clawhub install terraform-module-template-generator-2` |
 | [Fly.io Deployment Helper](../../skills/fly-io-deployment-helper/) | ⭐ 4.3 | 0 | `clawhub install fly-io-deployment-helper` |
+| [Makedown Task Runner](../../skills/makedown-task-runner/) | ⭐ 4.3 | 0 | `clawhub install makedown-task-runner` |
 | [Plop.js Micro-Generator](../../skills/plopjs-micro-generator-2/) | ⭐ 4.3 | 0 | `clawhub install plopjs-micro-generator-2` |
 | [Ansible Playbook Template Library](../../skills/ansible-playbook-template-library/) | ⭐ 4.2 | 0 | `clawhub install ansible-playbook-template-library` |
 | [Cookiecutter Project Scaffolder](../../skills/cookiecutter-project-scaffolder-3/) | ⭐ 4.2 | 0 | `clawhub install cookiecutter-project-scaffolder-3` |

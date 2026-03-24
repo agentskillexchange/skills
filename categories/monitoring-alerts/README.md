@@ -1,6 +1,6 @@
 # 📊 Monitoring & Alerts
 
-> **97 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=monitoring-alerts)
+> **101 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=monitoring-alerts)
 
 Metrics collection, alerting rules, observability setup, and system monitoring.
 
@@ -41,6 +41,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Prometheus Rule Evaluator](../../skills/prometheus-rule-evaluator/) | ⭐ 4.8 | 0 | `clawhub install prometheus-rule-evaluator` |
 | [Uptime Kuma Status Sync](../../skills/uptime-kuma-status-sync/) | ⭐ 4.8 | 0 | `clawhub install uptime-kuma-status-sync` |
 | [Datadog APM Trace Query Agent](../../skills/datadog-apm-trace-query-agent/) | ⭐ 4.7 | 0 | `clawhub install datadog-apm-trace-query-agent` |
+| [Datadog Monitor Sync](../../skills/datadog-monitor-sync/) | ⭐ 4.7 | 0 | `clawhub install datadog-monitor-sync` |
 | [Datadog SLO Monitor](../../skills/datadog-slo-monitor/) | ⭐ 4.7 | 0 | `clawhub install datadog-slo-monitor` |
 | [Disk Space Emergency Runbook](../../skills/disk-space-emergency-runbook/) | ⭐ 4.7 | 0 | `clawhub install disk-space-emergency-runbook` |
 | [Grafana Dashboard JSON Migrator](../../skills/grafana-dashboard-json-migrator/) | ⭐ 4.7 | 0 | `clawhub install grafana-dashboard-json-migrator` |
@@ -53,6 +54,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Datadog APM Trace Analyzer](../../skills/datadog-apm-trace-analyzer-2/) | ⭐ 4.6 | 0 | `clawhub install datadog-apm-trace-analyzer-2` |
 | [Datadog MCP Server](../../skills/datadog-mcp-server/) | ⭐ 4.6 | 0 | `clawhub install datadog-mcp-server` |
 | [Datadog Monitor Configurator](../../skills/datadog-monitor-configurator/) | ⭐ 4.6 | 0 | `clawhub install datadog-monitor-configurator` |
+| [Grafana Dashboard Generator](../../skills/grafana-dashboard-generator-3/) | ⭐ 4.6 | 0 | `clawhub install grafana-dashboard-generator-3` |
 | [Grafana Dashboard Template Generator](../../skills/grafana-dashboard-template-generator/) | ⭐ 4.6 | 0 | `clawhub install grafana-dashboard-template-generator` |
 | [Grafana Loki Log Query Agent](../../skills/grafana-loki-log-query-agent/) | ⭐ 4.6 | 0 | `clawhub install grafana-loki-log-query-agent` |
 | [Kubernetes Troubleshooting Runbook](../../skills/kubernetes-troubleshooting-runbook/) | ⭐ 4.6 | 0 | `clawhub install kubernetes-troubleshooting-runbook` |
@@ -91,6 +93,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Datadog Monitor Configurator](../../skills/datadog-monitor-configurator-2/) | ⭐ 4.2 | 0 | `clawhub install datadog-monitor-configurator-2` |
 | [Grafana Dashboard JSON Assembler](../../skills/grafana-dashboard-json-assembler/) | ⭐ 4.2 | 0 | `clawhub install grafana-dashboard-json-assembler` |
 | [OpsGenie MCP Server](../../skills/opsgenie-mcp-server/) | ⭐ 4.2 | 0 | `clawhub install opsgenie-mcp-server` |
+| [Prometheus Alert Router](../../skills/prometheus-alert-router-3/) | ⭐ 4.2 | 0 | `clawhub install prometheus-alert-router-3` |
 | [Prometheus Alerting Rules](../../skills/prometheus-alerting-rules/) | ⭐ 4.2 | 0 | `clawhub install prometheus-alerting-rules` |
 | [Sentry MCP Server](../../skills/sentry-mcp-server/) | ⭐ 4.2 | 0 | `clawhub install sentry-mcp-server` |
 | [AWS CloudWatch Insights Query Builder](../../skills/aws-cloudwatch-insights-query-builder/) | ⭐ 4.1 | 0 | `clawhub install aws-cloudwatch-insights-query-builder` |
@@ -101,6 +104,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Network Latency Diagnosis Skill](../../skills/network-latency-diagnosis-skill/) | ⭐ 4.1 | 0 | `clawhub install network-latency-diagnosis-skill` |
 | [Task Queue Monitor](../../skills/task-queue-monitor/) | ⭐ 4.1 | 0 | `clawhub install task-queue-monitor` |
 | [AWS CloudWatch Composite Alarm Builder](../../skills/aws-cloudwatch-composite-alarm-builder-2/) | ⭐ 4.0 | 0 | `clawhub install aws-cloudwatch-composite-alarm-builder-2` |
+| [CloudWatch Anomaly Detector](../../skills/cloudwatch-anomaly-detector/) | ⭐ 4.0 | 0 | `clawhub install cloudwatch-anomaly-detector` |
 | [Datadog Metric Exporter](../../skills/datadog-metric-exporter/) | ⭐ 4.0 | 0 | `clawhub install datadog-metric-exporter` |
 | [Grafana Dashboard Generator](../../skills/grafana-dashboard-generator-2/) | ⭐ 4.0 | 0 | `clawhub install grafana-dashboard-generator-2` |
 | [Grafana Dashboard Snapshot Exporter](../../skills/grafana-dashboard-snapshot-exporter/) | ⭐ 4.0 | 0 | `clawhub install grafana-dashboard-snapshot-exporter` |

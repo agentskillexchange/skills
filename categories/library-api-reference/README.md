@@ -1,6 +1,6 @@
 # 📚 Library & API Reference
 
-> **115 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=library-api-reference)
+> **119 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=library-api-reference)
 
 SDK documentation, API guides, framework reference material, and library usage patterns.
 
@@ -18,6 +18,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [GraphQL Schema Documentation Builder](../../skills/graphql-schema-documentation-builder/) | ⭐ 4.9 | 0 | `clawhub install graphql-schema-documentation-builder` |
 | [GraphQL Schema Registry Agent](../../skills/graphql-schema-registry-agent/) | ⭐ 4.9 | 0 | `clawhub install graphql-schema-registry-agent` |
 | [GraphQL Schema Stitcher](../../skills/graphql-schema-stitcher/) | ⭐ 4.9 | 0 | `clawhub install graphql-schema-stitcher` |
+| [MDN Web API Reference Fetcher](../../skills/mdn-web-api-reference-fetcher/) | ⭐ 4.9 | 0 | `clawhub install mdn-web-api-reference-fetcher` |
 | [MDN Web Docs Fetcher](../../skills/mdn-web-docs-fetcher/) | ⭐ 4.9 | 0 | `clawhub install mdn-web-docs-fetcher` |
 | [NPM Package Vulnerability Runbook](../../skills/npm-package-vulnerability-runbook/) | ⭐ 4.9 | 0 | `clawhub install npm-package-vulnerability-runbook` |
 | [NPM Package Vulnerability Scanner](../../skills/npm-package-vulnerability-scanner-2/) | ⭐ 4.9 | 0 | `clawhub install npm-package-vulnerability-scanner-2` |
@@ -29,6 +30,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [REST API Documentation Generator](../../skills/rest-api-documentation-generator/) | ⭐ 4.9 | 0 | `clawhub install rest-api-documentation-generator` |
 | [REST API Documentation Generator](../../skills/rest-api-documentation-generator-2/) | ⭐ 4.9 | 0 | `clawhub install rest-api-documentation-generator-2` |
 | [REST API Testing Reference Kit](../../skills/rest-api-testing-reference-kit/) | ⭐ 4.9 | 0 | `clawhub install rest-api-testing-reference-kit` |
+| [Rust Crate Analyzer](../../skills/rust-crate-analyzer/) | ⭐ 4.9 | 0 | `clawhub install rust-crate-analyzer` |
 | [Rust Crates.io Explorer](../../skills/rust-crates-io-explorer/) | ⭐ 4.9 | 0 | `clawhub install rust-crates-io-explorer` |
 | [API Versioning Manager](../../skills/api-versioning-manager/) | ⭐ 4.8 | 0 | `clawhub install api-versioning-manager` |
 | [AWS SDK Method Resolver](../../skills/aws-sdk-method-resolver/) | ⭐ 4.8 | 0 | `clawhub install aws-sdk-method-resolver` |
@@ -36,6 +38,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [GraphQL Schema Stitching &#038; Federation Agent](../../skills/graphql-schema-stitching-federation-agent/) | ⭐ 4.8 | 0 | `clawhub install graphql-schema-stitching-federation-agent` |
 | [NPM Package Analyzer](../../skills/npm-package-analyzer/) | ⭐ 4.8 | 0 | `clawhub install npm-package-analyzer` |
 | [NPM Package Vulnerability Scanner](../../skills/npm-package-vulnerability-scanner/) | ⭐ 4.8 | 0 | `clawhub install npm-package-vulnerability-scanner` |
+| [npm Registry Explorer](../../skills/npm-registry-explorer/) | ⭐ 4.8 | 0 | `clawhub install npm-registry-explorer` |
 | [OpenAPI Spec Changelog Generator](../../skills/openapi-spec-changelog-generator/) | ⭐ 4.8 | 0 | `clawhub install openapi-spec-changelog-generator` |
 | [OpenAPI Spec Linter &#038; Docs Generator](../../skills/openapi-spec-linter-docs-generator/) | ⭐ 4.8 | 0 | `clawhub install openapi-spec-linter-docs-generator` |
 | [OpenAPI Spec Reference Generator](../../skills/openapi-spec-reference-generator-2/) | ⭐ 4.8 | 0 | `clawhub install openapi-spec-reference-generator-2` |
@@ -91,6 +94,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [OpenAPI Spec Reference Indexer](../../skills/openapi-spec-reference-indexer-3/) | ⭐ 4.4 | 0 | `clawhub install openapi-spec-reference-indexer-3` |
 | [OpenAPI Spec Validator &#038; Mock Server](../../skills/openapi-spec-validator-mock-server-2/) | ⭐ 4.4 | 0 | `clawhub install openapi-spec-validator-mock-server-2` |
 | [Protobuf Schema Registry Manager](../../skills/protobuf-schema-registry-manager/) | ⭐ 4.4 | 0 | `clawhub install protobuf-schema-registry-manager` |
+| [PyPI Package Inspector](../../skills/pypi-package-inspector-2/) | ⭐ 4.4 | 0 | `clawhub install pypi-package-inspector-2` |
 | [Python Docstring Extractor](../../skills/python-docstring-extractor-2/) | ⭐ 4.4 | 0 | `clawhub install python-docstring-extractor-2` |
 | [REST API Documentation Generator](../../skills/rest-api-doc-generator-openapi/) | ⭐ 4.4 | 0 | `clawhub install rest-api-doc-generator-openapi` |
 | [SDK Version Checker](../../skills/sdk-version-checker/) | ⭐ 4.4 | 0 | `clawhub install sdk-version-checker` |
