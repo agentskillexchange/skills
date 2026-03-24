@@ -1,6 +1,6 @@
 # 📋 Runbooks & Diagnostics
 
-> **178 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=runbooks-diagnostics)
+> **182 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=runbooks-diagnostics)
 
 Incident response, troubleshooting guides, system diagnostics, and operational runbooks.
 
@@ -70,12 +70,14 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Nginx Error Log Analyzer](../../skills/nginx-error-log-analyzer-2/) | ⭐ 4.8 | 0 | `clawhub install nginx-error-log-analyzer-2` |
 | [Nginx Error Log Analyzer and Fixer](../../skills/nginx-error-log-analyzer-fixer/) | ⭐ 4.8 | 0 | `clawhub install nginx-error-log-analyzer-fixer` |
 | [Nginx Error Log Runbook Agent](../../skills/nginx-error-log-runbook-agent/) | ⭐ 4.8 | 0 | `clawhub install nginx-error-log-runbook-agent` |
+| [PagerDuty Incident Runbook Executor](../../skills/pagerduty-incident-runbook-executor/) | ⭐ 4.8 | 0 | `clawhub install pagerduty-incident-runbook-executor` |
 | [PostgreSQL Performance Diagnostics](../../skills/postgresql-performance-diagnostics/) | ⭐ 4.8 | 0 | `clawhub install postgresql-performance-diagnostics` |
 | [PostgreSQL Slow Query Analyzer](../../skills/postgresql-slow-query-analyzer/) | ⭐ 4.8 | 0 | `clawhub install postgresql-slow-query-analyzer` |
 | [PostgreSQL Slow Query Runbook](../../skills/postgresql-slow-query-runbook/) | ⭐ 4.8 | 0 | `clawhub install postgresql-slow-query-runbook` |
 | [SSL Certificate Expiry Runbook](../../skills/ssl-certificate-expiry-runbook/) | ⭐ 4.8 | 0 | `clawhub install ssl-certificate-expiry-runbook` |
 | [Systemd Service Debugger](../../skills/systemd-service-debugger/) | ⭐ 4.8 | 0 | `clawhub install systemd-service-debugger` |
 | [Systemd Service Recovery Playbook](../../skills/systemd-service-recovery-playbook-3/) | ⭐ 4.8 | 0 | `clawhub install systemd-service-recovery-playbook-3` |
+| [Terraform State Drift Detector](../../skills/terraform-state-drift-detector-10/) | ⭐ 4.8 | 0 | `clawhub install terraform-state-drift-detector-10` |
 | [Ansible Playbook Dry Run Validator](../../skills/ansible-playbook-dry-run-validator/) | ⭐ 4.7 | 0 | `clawhub install ansible-playbook-dry-run-validator` |
 | [AWS CloudWatch Alarm Triage](../../skills/aws-cloudwatch-alarm-triage-5/) | ⭐ 4.7 | 0 | `clawhub install aws-cloudwatch-alarm-triage-5` |
 | [AWS CloudWatch Alarm Triage](../../skills/aws-cloudwatch-alarm-triage/) | ⭐ 4.7 | 0 | `clawhub install aws-cloudwatch-alarm-triage` |
@@ -137,10 +139,12 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Apache Kafka Consumer Lag Runbook](../../skills/apache-kafka-consumer-lag-runbook/) | ⭐ 4.3 | 0 | `clawhub install apache-kafka-consumer-lag-runbook` |
 | [AWS CloudFormation Drift Detector](../../skills/aws-cloudformation-drift-detector/) | ⭐ 4.3 | 0 | `clawhub install aws-cloudformation-drift-detector` |
 | [AWS CloudWatch Alarm Diagnostic](../../skills/aws-cloudwatch-alarm-diagnostic/) | ⭐ 4.3 | 0 | `clawhub install aws-cloudwatch-alarm-diagnostic` |
+| [AWS CloudWatch Alarm Triager](../../skills/aws-cloudwatch-alarm-triager/) | ⭐ 4.3 | 0 | `clawhub install aws-cloudwatch-alarm-triager` |
 | [DB Connection Runbook](../../skills/db-connection-runbook/) | ⭐ 4.3 | 0 | `clawhub install db-connection-runbook` |
 | [Docker Compose Health Monitor](../../skills/docker-compose-health-monitor/) | ⭐ 4.3 | 0 | `clawhub install docker-compose-health-monitor` |
 | [Kubernetes CrashLoopBackOff Resolver](../../skills/kubernetes-crashloopbackoff-resolver/) | ⭐ 4.3 | 0 | `clawhub install kubernetes-crashloopbackoff-resolver` |
 | [Kubernetes Pod Crash Analyzer](../../skills/kubernetes-pod-crash-analyzer/) | ⭐ 4.3 | 0 | `clawhub install kubernetes-pod-crash-analyzer` |
+| [Kubernetes Pod Crash Diagnostician](../../skills/kubernetes-pod-crash-diagnostician/) | ⭐ 4.3 | 0 | `clawhub install kubernetes-pod-crash-diagnostician` |
 | [Kubernetes Rollback Runbook](../../skills/kubernetes-rollback-runbook-2/) | ⭐ 4.3 | 0 | `clawhub install kubernetes-rollback-runbook-2` |
 | [Memory Leak Debugger Runbook](../../skills/memory-leak-debugger-runbook/) | ⭐ 4.3 | 0 | `clawhub install memory-leak-debugger-runbook` |
 | [MLflow to W&#038;B Migration Assistant](../../skills/mlflow-to-wandb-migration/) | ⭐ 4.3 | 0 | `clawhub install mlflow-to-wandb-migration` |
@@ -210,8 +214,8 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 ## Related Categories
 
-- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (243 skills)
-- ✅ [Code Quality & Review](../code-quality-review/) (139 skills)
+- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (247 skills)
+- ✅ [Code Quality & Review](../code-quality-review/) (143 skills)
 - 🛠️ [Developer Tools](../developer-tools/) (126 skills)
 - 📚 [Library & API Reference](../library-api-reference/) (119 skills)
 

@@ -1,6 +1,6 @@
 # ✅ Code Quality & Review
 
-> **139 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=code-quality-review)
+> **143 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=code-quality-review)
 
 Linting rules, review checklists, code standards enforcement, and quality gates.
 
@@ -12,6 +12,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 |-------|:------:|:-------:|---------|
 | [Bandit Python Security Linter](../../skills/bandit-python-security-linter/) | ⭐ 4.9 | 0 | `clawhub install bandit-python-security-linter` |
 | [CodeClimate Maintainability Tracker](../../skills/codeclimate-maintainability-tracker/) | ⭐ 4.9 | 0 | `clawhub install codeclimate-maintainability-tracker` |
+| [CodeClimate Maintainability Tracker](../../skills/codeclimate-maintainability-tracker-7/) | ⭐ 4.9 | 0 | `clawhub install codeclimate-maintainability-tracker-7` |
 | [ESLint Auto-Fix Agent](../../skills/eslint-auto-fix-agent/) | ⭐ 4.9 | 0 | `clawhub install eslint-auto-fix-agent` |
 | [ESLint Auto-Fix Pipeline](../../skills/eslint-autofix-pipeline/) | ⭐ 4.9 | 0 | `clawhub install eslint-autofix-pipeline` |
 | [ESLint Auto-Fixer](../../skills/eslint-auto-fixer/) | ⭐ 4.9 | 0 | `clawhub install eslint-auto-fixer` |
@@ -65,6 +66,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Python Type Coverage Checker](../../skills/python-type-coverage-checker/) | ⭐ 4.7 | 0 | `clawhub install python-type-coverage-checker` |
 | [Ruff Linter Configuration Architect](../../skills/ruff-linter-configuration-architect/) | ⭐ 4.7 | 0 | `clawhub install ruff-linter-configuration-architect` |
 | [Semgrep Custom Pattern Generator](../../skills/semgrep-custom-pattern-generator/) | ⭐ 4.7 | 0 | `clawhub install semgrep-custom-pattern-generator` |
+| [Semgrep Custom Rule Builder](../../skills/semgrep-custom-rule-builder-6/) | ⭐ 4.7 | 0 | `clawhub install semgrep-custom-rule-builder-6` |
 | [Semgrep Pattern Matching Auditor](../../skills/semgrep-pattern-matching-auditor/) | ⭐ 4.7 | 0 | `clawhub install semgrep-pattern-matching-auditor` |
 | [SonarQube Analysis Agent](../../skills/sonarqube-analysis-agent/) | ⭐ 4.7 | 0 | `clawhub install sonarqube-analysis-agent` |
 | [SonarQube Code Quality Scanner](../../skills/sonarqube-code-quality-scanner/) | ⭐ 4.7 | 0 | `clawhub install sonarqube-code-quality-scanner` |
@@ -101,6 +103,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Semgrep Custom Rule Builder](../../skills/semgrep-custom-rule-builder-2/) | ⭐ 4.5 | 0 | `clawhub install semgrep-custom-rule-builder-2` |
 | [Semgrep Custom Rule Builder](../../skills/semgrep-custom-rule-builder-3/) | ⭐ 4.5 | 0 | `clawhub install semgrep-custom-rule-builder-3` |
 | [Semgrep Rule Author](../../skills/semgrep-rule-author/) | ⭐ 4.5 | 0 | `clawhub install semgrep-rule-author` |
+| [SonarQube Quality Gate Enforcer](../../skills/sonarqube-quality-gate-enforcer-14/) | ⭐ 4.5 | 0 | `clawhub install sonarqube-quality-gate-enforcer-14` |
 | [CodeClimate Maintainability Reporter](../../skills/codeclimate-maintainability-reporter-2/) | ⭐ 4.4 | 0 | `clawhub install codeclimate-maintainability-reporter-2` |
 | [Codecov Coverage Report Analyzer](../../skills/codecov-coverage-report-analyzer/) | ⭐ 4.4 | 0 | `clawhub install codecov-coverage-report-analyzer` |
 | [Dependency Graph Visualizer](../../skills/dependency-graph-visualizer/) | ⭐ 4.4 | 0 | `clawhub install dependency-graph-visualizer` |
@@ -139,6 +142,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Codecov Coverage Diff Analyzer](../../skills/codecov-coverage-diff-analyzer-2/) | ⭐ 4.1 | 0 | `clawhub install codecov-coverage-diff-analyzer-2` |
 | [Dead Code Detector](../../skills/dead-code-detector-2/) | ⭐ 4.1 | 0 | `clawhub install dead-code-detector-2` |
 | [ESLint Auto-Fix Pipeline](../../skills/eslint-auto-fix-pipeline/) | ⭐ 4.1 | 0 | `clawhub install eslint-auto-fix-pipeline` |
+| [ESLint Rule Impact Analyzer](../../skills/eslint-rule-impact-analyzer-2/) | ⭐ 4.1 | 0 | `clawhub install eslint-rule-impact-analyzer-2` |
 | [Ruff Linter and Formatter](../../skills/ruff-linter-formatter-agent/) | ⭐ 4.1 | 0 | `clawhub install ruff-linter-formatter-agent` |
 | [Semgrep Custom Pattern Builder](../../skills/semgrep-custom-pattern-builder/) | ⭐ 4.1 | 0 | `clawhub install semgrep-custom-pattern-builder` |
 | [Semgrep Security Scanner](../../skills/semgrep-security-scanner-3/) | ⭐ 4.1 | 0 | `clawhub install semgrep-security-scanner-3` |
@@ -171,8 +175,8 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 ## Related Categories
 
-- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (243 skills)
-- 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (178 skills)
+- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (247 skills)
+- 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (182 skills)
 - 🛠️ [Developer Tools](../developer-tools/) (126 skills)
 - 📚 [Library & API Reference](../library-api-reference/) (119 skills)
 

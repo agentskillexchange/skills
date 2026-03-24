@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1544 skills** across **17 categories** · Updated 2026-03-24 04:09 UTC
+> **1568 skills** across **17 categories** · Updated 2026-03-24 06:06 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -10,7 +10,7 @@
 
 | Metric | Value |
 |--------|-------|
-| Total Skills | **1544** |
+| Total Skills | **1568** |
 | Categories | **17** |
 | Frameworks | **11** |
 | Verification | All skills **Verified Metadata** or higher |
@@ -19,7 +19,7 @@
 
 ## Skills by Category
 
-### 🔧 CI/CD Integrations (243 skills)
+### 🔧 CI/CD Integrations (247 skills)
 
 | Skill | Rating | Reviews | Install |
 |-------|:------:|:-------:|---------|
@@ -35,6 +35,7 @@
 | [CircleCI Orb Debugger](skills/circleci-orb-debugger/) | ⭐ 4.9 | 0 | `clawhub install circleci-orb-debugger` |
 | [CircleCI Orb Dependency Auditor](skills/circleci-orb-dependency-auditor/) | ⭐ 4.9 | 0 | `clawhub install circleci-orb-dependency-auditor` |
 | [CircleCI Orb Dependency Checker](skills/circleci-orb-dependency-checker/) | ⭐ 4.9 | 0 | `clawhub install circleci-orb-dependency-checker` |
+| [CircleCI Orb Pipeline Debugger](skills/circleci-orb-pipeline-debugger/) | ⭐ 4.9 | 0 | `clawhub install circleci-orb-pipeline-debugger` |
 | [CircleCI Pipeline Optimizer](skills/circleci-pipeline-optimizer/) | ⭐ 4.9 | 0 | `clawhub install circleci-pipeline-optimizer` |
 | [Docker Image Layer Inspector](skills/docker-image-layer-inspector/) | ⭐ 4.9 | 0 | `clawhub install docker-image-layer-inspector` |
 | [GitHub Actions Matrix Builder](skills/github-actions-matrix-builder/) | ⭐ 4.9 | 0 | `clawhub install github-actions-matrix-builder` |
@@ -129,6 +130,7 @@
 | [Jenkins Pipeline Linter](skills/jenkins-pipeline-linter-wave48/) | ⭐ 4.7 | 0 | `clawhub install jenkins-pipeline-linter-wave48` |
 | [Jenkins Pipeline Linter Agent](skills/jenkins-pipeline-linter-agent-3/) | ⭐ 4.7 | 0 | `clawhub install jenkins-pipeline-linter-agent-3` |
 | [Jenkins Pipeline Shared Library Linter](skills/jenkins-pipeline-shared-library-linter/) | ⭐ 4.7 | 0 | `clawhub install jenkins-pipeline-shared-library-linter` |
+| [Tekton Pipeline Chain Validator](skills/tekton-pipeline-chain-validator/) | ⭐ 4.7 | 0 | `clawhub install tekton-pipeline-chain-validator` |
 | [Tekton Pipeline Generator](skills/tekton-pipeline-generator/) | ⭐ 4.7 | 0 | `clawhub install tekton-pipeline-generator` |
 | [Tekton Pipeline Template Generator](skills/tekton-pipeline-template-generator/) | ⭐ 4.7 | 0 | `clawhub install tekton-pipeline-template-generator` |
 | [Terraform Cloud Pipeline Agent](skills/terraform-cloud-pipeline-agent/) | ⭐ 4.7 | 0 | `clawhub install terraform-cloud-pipeline-agent` |
@@ -167,6 +169,7 @@
 | [CircleCI Orb Builder](skills/circleci-orb-builder/) | ⭐ 4.5 | 0 | `clawhub install circleci-orb-builder` |
 | [CircleCI Orb Composer](skills/circleci-orb-composer-9/) | ⭐ 4.5 | 0 | `clawhub install circleci-orb-composer-9` |
 | [GitHub Actions Matrix Builder](skills/github-actions-matrix-builder-11/) | ⭐ 4.5 | 0 | `clawhub install github-actions-matrix-builder-11` |
+| [GitHub Actions Matrix Optimizer](skills/github-actions-matrix-optimizer-8/) | ⭐ 4.5 | 0 | `clawhub install github-actions-matrix-optimizer-8` |
 | [GitHub Actions Workflow Builder](skills/github-actions-workflow-builder/) | ⭐ 4.5 | 0 | `clawhub install github-actions-workflow-builder` |
 | [GitHub Actions Workflow Debugger](skills/github-actions-workflow-debugger-5/) | ⭐ 4.5 | 0 | `clawhub install github-actions-workflow-debugger-5` |
 | [GitLab CI Pipeline Cost Estimator](skills/gitlab-ci-pipeline-cost-estimator/) | ⭐ 4.5 | 0 | `clawhub install gitlab-ci-pipeline-cost-estimator` |
@@ -238,6 +241,7 @@
 | [ArgoCD GitOps Sync Monitor](skills/argocd-gitops-sync-monitor/) | ⭐ 4.1 | 0 | `clawhub install argocd-gitops-sync-monitor` |
 | [ArgoCD Sync Orchestrator](skills/argocd-sync-orchestrator/) | ⭐ 4.1 | 0 | `clawhub install argocd-sync-orchestrator` |
 | [ArgoCD Sync Troubleshooter](skills/argocd-sync-troubleshooter/) | ⭐ 4.1 | 0 | `clawhub install argocd-sync-troubleshooter` |
+| [Buildkite Agent Fleet Scaler](skills/buildkite-agent-fleet-scaler/) | ⭐ 4.1 | 0 | `clawhub install buildkite-agent-fleet-scaler` |
 | [Buildkite Pipeline Agent](skills/buildkite-pipeline-agent/) | ⭐ 4.1 | 0 | `clawhub install buildkite-pipeline-agent` |
 | [Buildkite Pipeline Profiler](skills/buildkite-pipeline-profiler/) | ⭐ 4.1 | 0 | `clawhub install buildkite-pipeline-profiler` |
 | [CircleCI Orb Configurator](skills/circleci-orb-configurator/) | ⭐ 4.1 | 0 | `clawhub install circleci-orb-configurator` |
@@ -267,7 +271,7 @@
 | [Tekton Pipeline Task Generator](skills/tekton-pipeline-task-generator/) | ⭐ 4.0 | 0 | `clawhub install tekton-pipeline-task-generator` |
 | [Terraform Plan Validator](skills/terraform-plan-validator/) | ⭐ 4.0 | 0 | `clawhub install terraform-plan-validator` |
 
-### 📋 Runbooks & Diagnostics (178 skills)
+### 📋 Runbooks & Diagnostics (182 skills)
 
 | Skill | Rating | Reviews | Install |
 |-------|:------:|:-------:|---------|
@@ -331,12 +335,14 @@
 | [Nginx Error Log Analyzer](skills/nginx-error-log-analyzer-2/) | ⭐ 4.8 | 0 | `clawhub install nginx-error-log-analyzer-2` |
 | [Nginx Error Log Analyzer and Fixer](skills/nginx-error-log-analyzer-fixer/) | ⭐ 4.8 | 0 | `clawhub install nginx-error-log-analyzer-fixer` |
 | [Nginx Error Log Runbook Agent](skills/nginx-error-log-runbook-agent/) | ⭐ 4.8 | 0 | `clawhub install nginx-error-log-runbook-agent` |
+| [PagerDuty Incident Runbook Executor](skills/pagerduty-incident-runbook-executor/) | ⭐ 4.8 | 0 | `clawhub install pagerduty-incident-runbook-executor` |
 | [PostgreSQL Performance Diagnostics](skills/postgresql-performance-diagnostics/) | ⭐ 4.8 | 0 | `clawhub install postgresql-performance-diagnostics` |
 | [PostgreSQL Slow Query Analyzer](skills/postgresql-slow-query-analyzer/) | ⭐ 4.8 | 0 | `clawhub install postgresql-slow-query-analyzer` |
 | [PostgreSQL Slow Query Runbook](skills/postgresql-slow-query-runbook/) | ⭐ 4.8 | 0 | `clawhub install postgresql-slow-query-runbook` |
 | [SSL Certificate Expiry Runbook](skills/ssl-certificate-expiry-runbook/) | ⭐ 4.8 | 0 | `clawhub install ssl-certificate-expiry-runbook` |
 | [Systemd Service Debugger](skills/systemd-service-debugger/) | ⭐ 4.8 | 0 | `clawhub install systemd-service-debugger` |
 | [Systemd Service Recovery Playbook](skills/systemd-service-recovery-playbook-3/) | ⭐ 4.8 | 0 | `clawhub install systemd-service-recovery-playbook-3` |
+| [Terraform State Drift Detector](skills/terraform-state-drift-detector-10/) | ⭐ 4.8 | 0 | `clawhub install terraform-state-drift-detector-10` |
 | [Ansible Playbook Dry Run Validator](skills/ansible-playbook-dry-run-validator/) | ⭐ 4.7 | 0 | `clawhub install ansible-playbook-dry-run-validator` |
 | [AWS CloudWatch Alarm Triage](skills/aws-cloudwatch-alarm-triage-5/) | ⭐ 4.7 | 0 | `clawhub install aws-cloudwatch-alarm-triage-5` |
 | [AWS CloudWatch Alarm Triage](skills/aws-cloudwatch-alarm-triage/) | ⭐ 4.7 | 0 | `clawhub install aws-cloudwatch-alarm-triage` |
@@ -398,10 +404,12 @@
 | [Apache Kafka Consumer Lag Runbook](skills/apache-kafka-consumer-lag-runbook/) | ⭐ 4.3 | 0 | `clawhub install apache-kafka-consumer-lag-runbook` |
 | [AWS CloudFormation Drift Detector](skills/aws-cloudformation-drift-detector/) | ⭐ 4.3 | 0 | `clawhub install aws-cloudformation-drift-detector` |
 | [AWS CloudWatch Alarm Diagnostic](skills/aws-cloudwatch-alarm-diagnostic/) | ⭐ 4.3 | 0 | `clawhub install aws-cloudwatch-alarm-diagnostic` |
+| [AWS CloudWatch Alarm Triager](skills/aws-cloudwatch-alarm-triager/) | ⭐ 4.3 | 0 | `clawhub install aws-cloudwatch-alarm-triager` |
 | [DB Connection Runbook](skills/db-connection-runbook/) | ⭐ 4.3 | 0 | `clawhub install db-connection-runbook` |
 | [Docker Compose Health Monitor](skills/docker-compose-health-monitor/) | ⭐ 4.3 | 0 | `clawhub install docker-compose-health-monitor` |
 | [Kubernetes CrashLoopBackOff Resolver](skills/kubernetes-crashloopbackoff-resolver/) | ⭐ 4.3 | 0 | `clawhub install kubernetes-crashloopbackoff-resolver` |
 | [Kubernetes Pod Crash Analyzer](skills/kubernetes-pod-crash-analyzer/) | ⭐ 4.3 | 0 | `clawhub install kubernetes-pod-crash-analyzer` |
+| [Kubernetes Pod Crash Diagnostician](skills/kubernetes-pod-crash-diagnostician/) | ⭐ 4.3 | 0 | `clawhub install kubernetes-pod-crash-diagnostician` |
 | [Kubernetes Rollback Runbook](skills/kubernetes-rollback-runbook-2/) | ⭐ 4.3 | 0 | `clawhub install kubernetes-rollback-runbook-2` |
 | [Memory Leak Debugger Runbook](skills/memory-leak-debugger-runbook/) | ⭐ 4.3 | 0 | `clawhub install memory-leak-debugger-runbook` |
 | [MLflow to W&#038;B Migration Assistant](skills/mlflow-to-wandb-migration/) | ⭐ 4.3 | 0 | `clawhub install mlflow-to-wandb-migration` |
@@ -450,12 +458,13 @@
 | [Prometheus Alert Runbook Linker](skills/prometheus-alert-runbook-linker-2/) | ⭐ 4.0 | 0 | `clawhub install prometheus-alert-runbook-linker-2` |
 | [Terraform Plan Diff Reviewer](skills/terraform-plan-diff-reviewer/) | ⭐ 4.0 | 0 | `clawhub install terraform-plan-diff-reviewer` |
 
-### ✅ Code Quality & Review (139 skills)
+### ✅ Code Quality & Review (143 skills)
 
 | Skill | Rating | Reviews | Install |
 |-------|:------:|:-------:|---------|
 | [Bandit Python Security Linter](skills/bandit-python-security-linter/) | ⭐ 4.9 | 0 | `clawhub install bandit-python-security-linter` |
 | [CodeClimate Maintainability Tracker](skills/codeclimate-maintainability-tracker/) | ⭐ 4.9 | 0 | `clawhub install codeclimate-maintainability-tracker` |
+| [CodeClimate Maintainability Tracker](skills/codeclimate-maintainability-tracker-7/) | ⭐ 4.9 | 0 | `clawhub install codeclimate-maintainability-tracker-7` |
 | [ESLint Auto-Fix Agent](skills/eslint-auto-fix-agent/) | ⭐ 4.9 | 0 | `clawhub install eslint-auto-fix-agent` |
 | [ESLint Auto-Fix Pipeline](skills/eslint-autofix-pipeline/) | ⭐ 4.9 | 0 | `clawhub install eslint-autofix-pipeline` |
 | [ESLint Auto-Fixer](skills/eslint-auto-fixer/) | ⭐ 4.9 | 0 | `clawhub install eslint-auto-fixer` |
@@ -509,6 +518,7 @@
 | [Python Type Coverage Checker](skills/python-type-coverage-checker/) | ⭐ 4.7 | 0 | `clawhub install python-type-coverage-checker` |
 | [Ruff Linter Configuration Architect](skills/ruff-linter-configuration-architect/) | ⭐ 4.7 | 0 | `clawhub install ruff-linter-configuration-architect` |
 | [Semgrep Custom Pattern Generator](skills/semgrep-custom-pattern-generator/) | ⭐ 4.7 | 0 | `clawhub install semgrep-custom-pattern-generator` |
+| [Semgrep Custom Rule Builder](skills/semgrep-custom-rule-builder-6/) | ⭐ 4.7 | 0 | `clawhub install semgrep-custom-rule-builder-6` |
 | [Semgrep Pattern Matching Auditor](skills/semgrep-pattern-matching-auditor/) | ⭐ 4.7 | 0 | `clawhub install semgrep-pattern-matching-auditor` |
 | [SonarQube Analysis Agent](skills/sonarqube-analysis-agent/) | ⭐ 4.7 | 0 | `clawhub install sonarqube-analysis-agent` |
 | [SonarQube Code Quality Scanner](skills/sonarqube-code-quality-scanner/) | ⭐ 4.7 | 0 | `clawhub install sonarqube-code-quality-scanner` |
@@ -545,6 +555,7 @@
 | [Semgrep Custom Rule Builder](skills/semgrep-custom-rule-builder-2/) | ⭐ 4.5 | 0 | `clawhub install semgrep-custom-rule-builder-2` |
 | [Semgrep Custom Rule Builder](skills/semgrep-custom-rule-builder-3/) | ⭐ 4.5 | 0 | `clawhub install semgrep-custom-rule-builder-3` |
 | [Semgrep Rule Author](skills/semgrep-rule-author/) | ⭐ 4.5 | 0 | `clawhub install semgrep-rule-author` |
+| [SonarQube Quality Gate Enforcer](skills/sonarqube-quality-gate-enforcer-14/) | ⭐ 4.5 | 0 | `clawhub install sonarqube-quality-gate-enforcer-14` |
 | [CodeClimate Maintainability Reporter](skills/codeclimate-maintainability-reporter-2/) | ⭐ 4.4 | 0 | `clawhub install codeclimate-maintainability-reporter-2` |
 | [Codecov Coverage Report Analyzer](skills/codecov-coverage-report-analyzer/) | ⭐ 4.4 | 0 | `clawhub install codecov-coverage-report-analyzer` |
 | [Dependency Graph Visualizer](skills/dependency-graph-visualizer/) | ⭐ 4.4 | 0 | `clawhub install dependency-graph-visualizer` |
@@ -583,6 +594,7 @@
 | [Codecov Coverage Diff Analyzer](skills/codecov-coverage-diff-analyzer-2/) | ⭐ 4.1 | 0 | `clawhub install codecov-coverage-diff-analyzer-2` |
 | [Dead Code Detector](skills/dead-code-detector-2/) | ⭐ 4.1 | 0 | `clawhub install dead-code-detector-2` |
 | [ESLint Auto-Fix Pipeline](skills/eslint-auto-fix-pipeline/) | ⭐ 4.1 | 0 | `clawhub install eslint-auto-fix-pipeline` |
+| [ESLint Rule Impact Analyzer](skills/eslint-rule-impact-analyzer-2/) | ⭐ 4.1 | 0 | `clawhub install eslint-rule-impact-analyzer-2` |
 | [Ruff Linter and Formatter](skills/ruff-linter-formatter-agent/) | ⭐ 4.1 | 0 | `clawhub install ruff-linter-formatter-agent` |
 | [Semgrep Custom Pattern Builder](skills/semgrep-custom-pattern-builder/) | ⭐ 4.1 | 0 | `clawhub install semgrep-custom-pattern-builder` |
 | [Semgrep Security Scanner](skills/semgrep-security-scanner-3/) | ⭐ 4.1 | 0 | `clawhub install semgrep-security-scanner-3` |
@@ -955,7 +967,7 @@
 | [Metrics Dashboard Builder](skills/metrics-dashboard-builder/) | ⭐ 4.0 | 0 | `clawhub install metrics-dashboard-builder` |
 | [Service Degradation Runbook](skills/service-degradation-runbook/) | ⭐ 4.0 | 0 | `clawhub install service-degradation-runbook` |
 
-### 🔒 Security & Verification (96 skills)
+### 🔒 Security & Verification (99 skills)
 
 | Skill | Rating | Reviews | Install |
 |-------|:------:|:-------:|---------|
@@ -987,6 +999,7 @@
 | [OWASP ZAP Scanner Agent](skills/owasp-zap-scanner-agent/) | ⭐ 4.8 | 0 | `clawhub install owasp-zap-scanner-agent` |
 | [OWASP ZAP Security Scanner Agent](skills/owasp-zap-security-scanner-agent/) | ⭐ 4.8 | 0 | `clawhub install owasp-zap-security-scanner-agent` |
 | [Snyk Container Vulnerability Agent](skills/snyk-container-vulnerability-agent/) | ⭐ 4.8 | 0 | `clawhub install snyk-container-vulnerability-agent` |
+| [SSL Certificate Auditor](skills/ssl-certificate-auditor-agent/) | ⭐ 4.8 | 0 | `clawhub install ssl-certificate-auditor-agent` |
 | [Terrascan Policy Scanner](skills/terrascan-policy-scanner/) | ⭐ 4.8 | 0 | `clawhub install terrascan-policy-scanner` |
 | [HashiCorp Vault Secrets Rotation Agent](skills/hashicorp-vault-secrets-rotation-agent-3/) | ⭐ 4.7 | 0 | `clawhub install hashicorp-vault-secrets-rotation-agent-3` |
 | [KICS IaC Linter](skills/kics-iac-linter/) | ⭐ 4.7 | 0 | `clawhub install kics-iac-linter` |
@@ -1017,6 +1030,7 @@
 | [CloudTrail Anomaly Detection Agent](skills/cloudtrail-anomaly-detection-agent/) | ⭐ 4.4 | 0 | `clawhub install cloudtrail-anomaly-detection-agent` |
 | [Conftest Policy Tester](skills/conftest-policy-tester/) | ⭐ 4.4 | 0 | `clawhub install conftest-policy-tester` |
 | [Discord Moderation Bot with AI Classification](skills/discord-moderation-ai-classification/) | ⭐ 4.4 | 0 | `clawhub install discord-moderation-ai-classification` |
+| [OWASP ZAP Active Scanner Agent](skills/owasp-zap-active-scanner-agent/) | ⭐ 4.4 | 0 | `clawhub install owasp-zap-active-scanner-agent` |
 | [OWASP ZAP API Security Scanner](skills/owasp-zap-api-security-scanner/) | ⭐ 4.4 | 0 | `clawhub install owasp-zap-api-security-scanner` |
 | [OWASP ZAP Scan Orchestrator](skills/owasp-zap-scan-orchestrator/) | ⭐ 4.4 | 0 | `clawhub install owasp-zap-scan-orchestrator` |
 | [OWASP ZAP Security Audit Skill](skills/owasp-zap-security-audit-skill/) | ⭐ 4.4 | 0 | `clawhub install owasp-zap-security-audit-skill` |
@@ -1032,6 +1046,7 @@
 | [AWS IAM Privilege Escalation Audit](skills/aws-iam-privilege-escalation-audit/) | ⭐ 4.2 | 0 | `clawhub install aws-iam-privilege-escalation-audit` |
 | [CycloneDX SBOM Generator](skills/cyclonedx-sbom-generator/) | ⭐ 4.2 | 0 | `clawhub install cyclonedx-sbom-generator` |
 | [Dependency Vulnerability &#038; License Auditor](skills/dependency-vulnerability-license-auditor-2/) | ⭐ 4.2 | 0 | `clawhub install dependency-vulnerability-license-auditor-2` |
+| [Dependency Vulnerability Scanner](skills/dependency-vulnerability-scanner-agent/) | ⭐ 4.2 | 0 | `clawhub install dependency-vulnerability-scanner-agent` |
 | [Git Secret Scanner with Gitleaks](skills/git-secret-scanner-gitleaks/) | ⭐ 4.2 | 0 | `clawhub install git-secret-scanner-gitleaks` |
 | [HashiCorp Vault MCP Server](skills/hashicorp-vault-mcp-server/) | ⭐ 4.2 | 0 | `clawhub install hashicorp-vault-mcp-server` |
 | [HashiCorp Vault Secrets Rotation Agent](skills/hashicorp-vault-secrets-rotation-agent-2/) | ⭐ 4.2 | 0 | `clawhub install hashicorp-vault-secrets-rotation-agent-2` |
@@ -1325,7 +1340,7 @@
 | [Outlook Email Automation](skills/outlook-email-automation-2/) | ⭐ 4.1 | 0 | `clawhub install outlook-email-automation-2` |
 | [Outlook Mail Triage Assistant](skills/outlook-mail-triage-assistant/) | ⭐ 4.1 | 0 | `clawhub install outlook-mail-triage-assistant` |
 
-### 🌐 Browser Automation (56 skills)
+### 🌐 Browser Automation (61 skills)
 
 | Skill | Rating | Reviews | Install |
 |-------|:------:|:-------:|---------|
@@ -1338,12 +1353,14 @@
 | [Puppeteer Cookie Consent Automator](skills/puppeteer-cookie-consent-automator/) | ⭐ 4.9 | 0 | `clawhub install puppeteer-cookie-consent-automator` |
 | [Puppeteer Cookie Consent Handler](skills/puppeteer-cookie-consent-handler/) | ⭐ 4.9 | 0 | `clawhub install puppeteer-cookie-consent-handler` |
 | [Puppeteer Cookie Consent Handler](skills/puppeteer-cookie-consent-handler-2/) | ⭐ 4.9 | 0 | `clawhub install puppeteer-cookie-consent-handler-2` |
+| [Puppeteer Stealth Scraper](skills/puppeteer-stealth-scraper-agent/) | ⭐ 4.9 | 0 | `clawhub install puppeteer-stealth-scraper-agent` |
 | [Puppeteer Visual Regression Tester](skills/puppeteer-visual-regression-tester/) | ⭐ 4.9 | 0 | `clawhub install puppeteer-visual-regression-tester` |
 | [Puppeteer Web Scraping Pipeline](skills/puppeteer-web-scraping-pipeline/) | ⭐ 4.9 | 0 | `clawhub install puppeteer-web-scraping-pipeline` |
 | [Puppeteer Web Scraping Pipeline](skills/puppeteer-web-scraping-pipeline-3/) | ⭐ 4.9 | 0 | `clawhub install puppeteer-web-scraping-pipeline-3` |
 | [Selenium Grid Multi-Browser Test Runner](skills/selenium-grid-multi-browser-test-runner/) | ⭐ 4.9 | 0 | `clawhub install selenium-grid-multi-browser-test-runner` |
 | [Selenium Grid Session Manager](skills/selenium-grid-session-manager/) | ⭐ 4.9 | 0 | `clawhub install selenium-grid-session-manager` |
 | [Selenium Grid Session Router](skills/selenium-grid-session-router/) | ⭐ 4.9 | 0 | `clawhub install selenium-grid-session-router` |
+| [Cypress E2E Test Generator](skills/cypress-e2e-test-generator-agent/) | ⭐ 4.8 | 0 | `clawhub install cypress-e2e-test-generator-agent` |
 | [Playwright Parallel Tab Manager](skills/playwright-parallel-tab-manager/) | ⭐ 4.8 | 0 | `clawhub install playwright-parallel-tab-manager` |
 | [Puppeteer Cookie Consent Handler](skills/puppeteer-cookie-consent-handler-3/) | ⭐ 4.8 | 0 | `clawhub install puppeteer-cookie-consent-handler-3` |
 | [Selenium Grid Parallel Execution Manager](skills/selenium-grid-parallel-execution-manager/) | ⭐ 4.8 | 0 | `clawhub install selenium-grid-parallel-execution-manager` |
@@ -1358,6 +1375,7 @@
 | [Playwright Visual Regression Suite](skills/playwright-visual-regression-suite/) | ⭐ 4.7 | 0 | `clawhub install playwright-visual-regression-suite` |
 | [Selenium Grid Test Orchestrator](skills/selenium-grid-test-orchestrator-2/) | ⭐ 4.7 | 0 | `clawhub install selenium-grid-test-orchestrator-2` |
 | [Playwright Multi-Browser Test Generator](skills/playwright-multi-browser-test-generator/) | ⭐ 4.6 | 0 | `clawhub install playwright-multi-browser-test-generator` |
+| [Playwright Multi-Tab Session Manager](skills/playwright-multi-tab-session-manager-2/) | ⭐ 4.6 | 0 | `clawhub install playwright-multi-tab-session-manager-2` |
 | [Playwright Visual Regression Tester](skills/playwright-visual-regression-tester-2/) | ⭐ 4.6 | 0 | `clawhub install playwright-visual-regression-tester-2` |
 | [Selenium Grid Cloud Executor](skills/selenium-grid-cloud-executor/) | ⭐ 4.6 | 0 | `clawhub install selenium-grid-cloud-executor` |
 | [Selenium Grid Parallel Executor](skills/selenium-grid-parallel-executor/) | ⭐ 4.6 | 0 | `clawhub install selenium-grid-parallel-executor` |
@@ -1374,6 +1392,7 @@
 | [Puppeteer Multi-Tab Session Manager](skills/puppeteer-multi-tab-session-manager/) | ⭐ 4.3 | 0 | `clawhub install puppeteer-multi-tab-session-manager` |
 | [Selenium Grid Cloud Executor](skills/selenium-grid-cloud-executor-2/) | ⭐ 4.3 | 0 | `clawhub install selenium-grid-cloud-executor-2` |
 | [Agent Browser Operator](skills/agent-browser-operator/) | ⭐ 4.2 | 0 | `clawhub install agent-browser-operator` |
+| [Browser Session Replay Analyzer](skills/browser-session-replay-analyzer/) | ⭐ 4.2 | 0 | `clawhub install browser-session-replay-analyzer` |
 | [Cypress Component Testing Framework](skills/cypress-component-testing-framework/) | ⭐ 4.2 | 0 | `clawhub install cypress-component-testing-framework` |
 | [Playwright MCP Browser Automation](skills/playwright-mcp-browser-automation/) | ⭐ 4.2 | 0 | `clawhub install playwright-mcp-browser-automation` |
 | [Cypress Visual Regression Testing Suite](skills/cypress-visual-regression-testing-suite/) | ⭐ 4.1 | 0 | `clawhub install cypress-visual-regression-testing-suite` |
@@ -1385,6 +1404,7 @@
 | [Cypress E2E Test Generator](skills/cypress-e2e-test-generator-2/) | ⭐ 4.0 | 0 | `clawhub install cypress-e2e-test-generator-2` |
 | [Puppeteer Scraping Framework](skills/puppeteer-scraping-framework/) | ⭐ 4.0 | 0 | `clawhub install puppeteer-scraping-framework` |
 | [Puppeteer Web Scraping Pipeline](skills/puppeteer-web-scraping-pipeline-2/) | ⭐ 4.0 | 0 | `clawhub install puppeteer-web-scraping-pipeline-2` |
+| [Selenium Grid Parallel Test Runner](skills/selenium-grid-parallel-test-runner/) | ⭐ 4.0 | 0 | `clawhub install selenium-grid-parallel-test-runner` |
 
 ### 🎨 Image & Creative Automation (51 skills)
 
@@ -1543,13 +1563,14 @@
 | [Salesforce MCP Server](skills/salesforce-mcp-server/) | ⭐ 4.1 | 0 | `clawhub install salesforce-mcp-server` |
 | [Linear Issue Triage &#038; Sprint Planner](skills/linear-issue-triage-sprint-planner/) | ⭐ 4.0 | 0 | `clawhub install linear-issue-triage-sprint-planner` |
 
-### ✍️ Content Writing & SEO (35 skills)
+### ✍️ Content Writing & SEO (39 skills)
 
 | Skill | Rating | Reviews | Install |
 |-------|:------:|:-------:|---------|
 | [Ahrefs Keyword Gap Analysis Skill](skills/ahrefs-keyword-gap-analysis-skill/) | ⭐ 4.9 | 0 | `clawhub install ahrefs-keyword-gap-analysis-skill` |
 | [Copy.ai Sales Email Sequence Builder](skills/copyai-sales-email-sequence/) | ⭐ 4.9 | 0 | `clawhub install copyai-sales-email-sequence` |
 | [Hemingway Readability Analyzer API](skills/hemingway-readability-analyzer-api/) | ⭐ 4.9 | 0 | `clawhub install hemingway-readability-analyzer-api` |
+| [Keyword Cluster Generator](skills/keyword-cluster-generator-agent/) | ⭐ 4.9 | 0 | `clawhub install keyword-cluster-generator-agent` |
 | [Markdown-to-AMP Article Converter](skills/markdown-to-amp-article-converter/) | ⭐ 4.9 | 0 | `clawhub install markdown-to-amp-article-converter` |
 | [Schema.org Markup Generator](skills/schema-org-markup-generator-agent/) | ⭐ 4.9 | 0 | `clawhub install schema-org-markup-generator-agent` |
 | [Schema.org Structured Data Generator](skills/schema-org-structured-data-generator-2/) | ⭐ 4.9 | 0 | `clawhub install schema-org-structured-data-generator-2` |
@@ -1563,14 +1584,17 @@
 | [Surfer SEO Content Optimizer](skills/surfer-seo-content-optimizer-agent/) | ⭐ 4.8 | 0 | `clawhub install surfer-seo-content-optimizer-agent` |
 | [Technical SEO Audit Crawler](skills/technical-seo-audit-crawler/) | ⭐ 4.8 | 0 | `clawhub install technical-seo-audit-crawler` |
 | [Content Brief Architect](skills/content-brief-architect-agent/) | ⭐ 4.7 | 0 | `clawhub install content-brief-architect-agent` |
+| [Content Readability Analyzer](skills/content-readability-analyzer-agent/) | ⭐ 4.7 | 0 | `clawhub install content-readability-analyzer-agent` |
 | [Jasper AI Long-Form Blog Post Generator](skills/jasper-longform-blog-generator/) | ⭐ 4.7 | 0 | `clawhub install jasper-longform-blog-generator` |
 | [SEMrush Keyword Research Agent](skills/semrush-keyword-research-agent-api-v3/) | ⭐ 4.7 | 0 | `clawhub install semrush-keyword-research-agent-api-v3` |
 | [Surfer SEO SERP Analyzer](skills/surfer-seo-serp-analyzer/) | ⭐ 4.7 | 0 | `clawhub install surfer-seo-serp-analyzer` |
 | [Humanizer Writing Editor](skills/humanizer-writing-editor/) | ⭐ 4.6 | 0 | `clawhub install humanizer-writing-editor` |
 | [Internal Link Optimizer](skills/internal-link-optimizer-seo/) | ⭐ 4.6 | 0 | `clawhub install internal-link-optimizer-seo` |
+| [SEO Meta Tag Optimizer](skills/seo-meta-tag-optimizer-agent/) | ⭐ 4.6 | 0 | `clawhub install seo-meta-tag-optimizer-agent` |
 | [Clearscope NLP Grading Pipeline](skills/clearscope-nlp-grading-pipeline/) | ⭐ 4.5 | 0 | `clawhub install clearscope-nlp-grading-pipeline` |
 | [Schema.org Structured Data Generator](skills/schema-org-structured-data-generator/) | ⭐ 4.5 | 0 | `clawhub install schema-org-structured-data-generator` |
 | [Content Readability Optimizer](skills/content-readability-optimizer/) | ⭐ 4.4 | 0 | `clawhub install content-readability-optimizer` |
+| [Internal Link Builder](skills/internal-link-builder-seo-agent/) | ⭐ 4.4 | 0 | `clawhub install internal-link-builder-seo-agent` |
 | [SEO Content Writer](skills/seo-content-writer/) | ⭐ 4.4 | 0 | `clawhub install seo-content-writer` |
 | [SEO Schema Markup Generator](skills/seo-schema-markup-generator-agent/) | ⭐ 4.4 | 0 | `clawhub install seo-schema-markup-generator-agent` |
 | [Ahrefs Content Gap Finder](skills/ahrefs-content-gap-finder-agent/) | ⭐ 4.3 | 0 | `clawhub install ahrefs-content-gap-finder-agent` |

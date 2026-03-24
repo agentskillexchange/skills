@@ -1,6 +1,6 @@
 # ✍️ Content Writing & SEO
 
-> **35 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=content-writing-seo)
+> **39 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=content-writing-seo)
 
 Blog posts, SEO optimization, content strategy, and writing assistance.
 
@@ -13,6 +13,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [Ahrefs Keyword Gap Analysis Skill](../../skills/ahrefs-keyword-gap-analysis-skill/) | ⭐ 4.9 | 0 | `clawhub install ahrefs-keyword-gap-analysis-skill` |
 | [Copy.ai Sales Email Sequence Builder](../../skills/copyai-sales-email-sequence/) | ⭐ 4.9 | 0 | `clawhub install copyai-sales-email-sequence` |
 | [Hemingway Readability Analyzer API](../../skills/hemingway-readability-analyzer-api/) | ⭐ 4.9 | 0 | `clawhub install hemingway-readability-analyzer-api` |
+| [Keyword Cluster Generator](../../skills/keyword-cluster-generator-agent/) | ⭐ 4.9 | 0 | `clawhub install keyword-cluster-generator-agent` |
 | [Markdown-to-AMP Article Converter](../../skills/markdown-to-amp-article-converter/) | ⭐ 4.9 | 0 | `clawhub install markdown-to-amp-article-converter` |
 | [Schema.org Markup Generator](../../skills/schema-org-markup-generator-agent/) | ⭐ 4.9 | 0 | `clawhub install schema-org-markup-generator-agent` |
 | [Schema.org Structured Data Generator](../../skills/schema-org-structured-data-generator-2/) | ⭐ 4.9 | 0 | `clawhub install schema-org-structured-data-generator-2` |
@@ -26,14 +27,17 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [Surfer SEO Content Optimizer](../../skills/surfer-seo-content-optimizer-agent/) | ⭐ 4.8 | 0 | `clawhub install surfer-seo-content-optimizer-agent` |
 | [Technical SEO Audit Crawler](../../skills/technical-seo-audit-crawler/) | ⭐ 4.8 | 0 | `clawhub install technical-seo-audit-crawler` |
 | [Content Brief Architect](../../skills/content-brief-architect-agent/) | ⭐ 4.7 | 0 | `clawhub install content-brief-architect-agent` |
+| [Content Readability Analyzer](../../skills/content-readability-analyzer-agent/) | ⭐ 4.7 | 0 | `clawhub install content-readability-analyzer-agent` |
 | [Jasper AI Long-Form Blog Post Generator](../../skills/jasper-longform-blog-generator/) | ⭐ 4.7 | 0 | `clawhub install jasper-longform-blog-generator` |
 | [SEMrush Keyword Research Agent](../../skills/semrush-keyword-research-agent-api-v3/) | ⭐ 4.7 | 0 | `clawhub install semrush-keyword-research-agent-api-v3` |
 | [Surfer SEO SERP Analyzer](../../skills/surfer-seo-serp-analyzer/) | ⭐ 4.7 | 0 | `clawhub install surfer-seo-serp-analyzer` |
 | [Humanizer Writing Editor](../../skills/humanizer-writing-editor/) | ⭐ 4.6 | 0 | `clawhub install humanizer-writing-editor` |
 | [Internal Link Optimizer](../../skills/internal-link-optimizer-seo/) | ⭐ 4.6 | 0 | `clawhub install internal-link-optimizer-seo` |
+| [SEO Meta Tag Optimizer](../../skills/seo-meta-tag-optimizer-agent/) | ⭐ 4.6 | 0 | `clawhub install seo-meta-tag-optimizer-agent` |
 | [Clearscope NLP Grading Pipeline](../../skills/clearscope-nlp-grading-pipeline/) | ⭐ 4.5 | 0 | `clawhub install clearscope-nlp-grading-pipeline` |
 | [Schema.org Structured Data Generator](../../skills/schema-org-structured-data-generator/) | ⭐ 4.5 | 0 | `clawhub install schema-org-structured-data-generator` |
 | [Content Readability Optimizer](../../skills/content-readability-optimizer/) | ⭐ 4.4 | 0 | `clawhub install content-readability-optimizer` |
+| [Internal Link Builder](../../skills/internal-link-builder-seo-agent/) | ⭐ 4.4 | 0 | `clawhub install internal-link-builder-seo-agent` |
 | [SEO Content Writer](../../skills/seo-content-writer/) | ⭐ 4.4 | 0 | `clawhub install seo-content-writer` |
 | [SEO Schema Markup Generator](../../skills/seo-schema-markup-generator-agent/) | ⭐ 4.4 | 0 | `clawhub install seo-schema-markup-generator-agent` |
 | [Ahrefs Content Gap Finder](../../skills/ahrefs-content-gap-finder-agent/) | ⭐ 4.3 | 0 | `clawhub install ahrefs-content-gap-finder-agent` |
@@ -67,9 +71,9 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 ## Related Categories
 
-- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (243 skills)
-- 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (178 skills)
-- ✅ [Code Quality & Review](../code-quality-review/) (139 skills)
+- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (247 skills)
+- 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (182 skills)
+- ✅ [Code Quality & Review](../code-quality-review/) (143 skills)
 - 🛠️ [Developer Tools](../developer-tools/) (126 skills)
 
 ---

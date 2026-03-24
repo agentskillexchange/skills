@@ -1,6 +1,6 @@
 # 🔒 Security & Verification
 
-> **96 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=security-verification)
+> **99 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=security-verification)
 
 Auth setup, vulnerability scanning, compliance checks, and security automation.
 
@@ -38,6 +38,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [OWASP ZAP Scanner Agent](../../skills/owasp-zap-scanner-agent/) | ⭐ 4.8 | 0 | `clawhub install owasp-zap-scanner-agent` |
 | [OWASP ZAP Security Scanner Agent](../../skills/owasp-zap-security-scanner-agent/) | ⭐ 4.8 | 0 | `clawhub install owasp-zap-security-scanner-agent` |
 | [Snyk Container Vulnerability Agent](../../skills/snyk-container-vulnerability-agent/) | ⭐ 4.8 | 0 | `clawhub install snyk-container-vulnerability-agent` |
+| [SSL Certificate Auditor](../../skills/ssl-certificate-auditor-agent/) | ⭐ 4.8 | 0 | `clawhub install ssl-certificate-auditor-agent` |
 | [Terrascan Policy Scanner](../../skills/terrascan-policy-scanner/) | ⭐ 4.8 | 0 | `clawhub install terrascan-policy-scanner` |
 | [HashiCorp Vault Secrets Rotation Agent](../../skills/hashicorp-vault-secrets-rotation-agent-3/) | ⭐ 4.7 | 0 | `clawhub install hashicorp-vault-secrets-rotation-agent-3` |
 | [KICS IaC Linter](../../skills/kics-iac-linter/) | ⭐ 4.7 | 0 | `clawhub install kics-iac-linter` |
@@ -68,6 +69,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [CloudTrail Anomaly Detection Agent](../../skills/cloudtrail-anomaly-detection-agent/) | ⭐ 4.4 | 0 | `clawhub install cloudtrail-anomaly-detection-agent` |
 | [Conftest Policy Tester](../../skills/conftest-policy-tester/) | ⭐ 4.4 | 0 | `clawhub install conftest-policy-tester` |
 | [Discord Moderation Bot with AI Classification](../../skills/discord-moderation-ai-classification/) | ⭐ 4.4 | 0 | `clawhub install discord-moderation-ai-classification` |
+| [OWASP ZAP Active Scanner Agent](../../skills/owasp-zap-active-scanner-agent/) | ⭐ 4.4 | 0 | `clawhub install owasp-zap-active-scanner-agent` |
 | [OWASP ZAP API Security Scanner](../../skills/owasp-zap-api-security-scanner/) | ⭐ 4.4 | 0 | `clawhub install owasp-zap-api-security-scanner` |
 | [OWASP ZAP Scan Orchestrator](../../skills/owasp-zap-scan-orchestrator/) | ⭐ 4.4 | 0 | `clawhub install owasp-zap-scan-orchestrator` |
 | [OWASP ZAP Security Audit Skill](../../skills/owasp-zap-security-audit-skill/) | ⭐ 4.4 | 0 | `clawhub install owasp-zap-security-audit-skill` |
@@ -83,6 +85,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [AWS IAM Privilege Escalation Audit](../../skills/aws-iam-privilege-escalation-audit/) | ⭐ 4.2 | 0 | `clawhub install aws-iam-privilege-escalation-audit` |
 | [CycloneDX SBOM Generator](../../skills/cyclonedx-sbom-generator/) | ⭐ 4.2 | 0 | `clawhub install cyclonedx-sbom-generator` |
 | [Dependency Vulnerability &#038; License Auditor](../../skills/dependency-vulnerability-license-auditor-2/) | ⭐ 4.2 | 0 | `clawhub install dependency-vulnerability-license-auditor-2` |
+| [Dependency Vulnerability Scanner](../../skills/dependency-vulnerability-scanner-agent/) | ⭐ 4.2 | 0 | `clawhub install dependency-vulnerability-scanner-agent` |
 | [Git Secret Scanner with Gitleaks](../../skills/git-secret-scanner-gitleaks/) | ⭐ 4.2 | 0 | `clawhub install git-secret-scanner-gitleaks` |
 | [HashiCorp Vault MCP Server](../../skills/hashicorp-vault-mcp-server/) | ⭐ 4.2 | 0 | `clawhub install hashicorp-vault-mcp-server` |
 | [HashiCorp Vault Secrets Rotation Agent](../../skills/hashicorp-vault-secrets-rotation-agent-2/) | ⭐ 4.2 | 0 | `clawhub install hashicorp-vault-secrets-rotation-agent-2` |
@@ -128,9 +131,9 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 ## Related Categories
 
-- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (243 skills)
-- 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (178 skills)
-- ✅ [Code Quality & Review](../code-quality-review/) (139 skills)
+- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (247 skills)
+- 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (182 skills)
+- ✅ [Code Quality & Review](../code-quality-review/) (143 skills)
 - 🛠️ [Developer Tools](../developer-tools/) (126 skills)
 
 ---
