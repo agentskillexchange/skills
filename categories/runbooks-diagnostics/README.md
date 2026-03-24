@@ -1,6 +1,6 @@
 # 📋 Runbooks & Diagnostics
 
-> **122 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics)
+> **126 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics)
 
 Incident response, troubleshooting guides, system diagnostics, and operational runbooks.
 
@@ -163,7 +163,9 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [PostgreSQL Vacuum Deadlock Runbook](../../skills/postgresql-vacuum-deadlock-runbook/) | Security Reviewed | — | 21.4M/wk | `clawhub install postgresql-vacuum-deadlock-runbook` |
 | [Pulumi Drift Detector &#038; Reconciler](../../skills/pulumi-drift-detector-reconciler/) | Listed | — | 1.5M/wk | `clawhub install pulumi-drift-detector-reconciler` |
 | [API Latency Spike Runbook](../../skills/api-latency-spike-runbook/) | Listed | — | — | `clawhub install api-latency-spike-runbook` |
+| [AWS Systems Manager Automation Incident Guide](../../skills/aws-systems-manager-automation-incident-guide/) | Listed | — | — | `clawhub install aws-systems-manager-automation-incident-guide` |
 | [Cache Miss Storm Runbook](../../skills/cache-miss-storm-runbook/) | Listed | — | — | `clawhub install cache-miss-storm-runbook` |
+| [Datadog Synthetics Failure Triage Skill](../../skills/datadog-synthetics-failure-triage-skill/) | Listed | — | — | `clawhub install datadog-synthetics-failure-triage-skill` |
 | [DB Connection Runbook](../../skills/db-connection-runbook/) | Listed | — | — | `clawhub install db-connection-runbook` |
 | [Deployment Rollback Runbook](../../skills/deployment-rollback-runbook-2/) | Listed | — | — | `clawhub install deployment-rollback-runbook-2` |
 | [Disk Space Alert Runbook](../../skills/disk-space-alert-runbook/) | Listed | — | — | `clawhub install disk-space-alert-runbook` |
@@ -171,10 +173,12 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [High CPU Alert Runbook](../../skills/high-cpu-alert-runbook/) | Listed | — | — | `clawhub install high-cpu-alert-runbook` |
 | [Incident Escalation Runbook](../../skills/incident-escalation-runbook/) | Listed | — | — | `clawhub install incident-escalation-runbook` |
 | [Incident Response Playbook Runner](../../skills/incident-response-playbook-runner/) | Security Reviewed | — | — | `clawhub install incident-response-playbook-runner` |
+| [Kubernetes Events API CrashLoop Investigator](../../skills/kubernetes-events-api-crashloop-investigator/) | Listed | — | — | `clawhub install kubernetes-events-api-crashloop-investigator` |
 | [Load Balancer Health Runbook](../../skills/load-balancer-health-runbook/) | Listed | — | — | `clawhub install load-balancer-health-runbook` |
 | [Memory Leak Debugger Runbook](../../skills/memory-leak-debugger-runbook/) | Listed | — | — | `clawhub install memory-leak-debugger-runbook` |
 | [MLflow to W&#038;B Migration Assistant](../../skills/mlflow-to-wandb-migration/) | Listed | — | — | `clawhub install mlflow-to-wandb-migration` |
 | [On-Call Handoff Runbook](../../skills/on-call-handoff-runbook/) | Listed | — | — | `clawhub install on-call-handoff-runbook` |
+| [PagerDuty Event Orchestration Runbook](../../skills/pagerduty-event-orchestration-runbook/) | Listed | — | — | `clawhub install pagerduty-event-orchestration-runbook` |
 | [SSL Certificate Expiry Runbook](../../skills/ssl-certificate-expiry-runbook/) | Listed | — | — | `clawhub install ssl-certificate-expiry-runbook` |
 | [Systemd Service Debugger](../../skills/systemd-service-debugger/) | Security Reviewed | — | — | `clawhub install systemd-service-debugger` |
 | [Systemd Service Diagnostics](../../skills/systemd-service-diagnostics/) | Listed | — | — | `clawhub install systemd-service-diagnostics` |
@@ -204,7 +208,7 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (144 skills)
 - 🛠️ [Developer Tools](../developer-tools/) (120 skills)
 - 📚 [Library & API Reference](../library-api-reference/) (102 skills)
-- 📊 [Monitoring & Alerts](../monitoring-alerts/) (91 skills)
+- 🔒 [Security & Verification](../security-verification/) (92 skills)
 
 ---
 

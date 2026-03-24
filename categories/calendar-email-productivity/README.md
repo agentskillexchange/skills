@@ -1,6 +1,6 @@
 # 📅 Calendar, Email & Productivity
 
-> **58 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity)
+> **62 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity)
 
 Email automation, calendar management, task coordination, and productivity tools.
 
@@ -88,10 +88,12 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Atlassian Rovo MCP Server](../../skills/atlassian-rovo-mcp-server/) | Listed | — | — | `clawhub install atlassian-rovo-mcp-server` |
 | [Cross-Calendar Availability Finder](../../skills/cross-calendar-availability-finder-2/) | Listed | — | — | `clawhub install cross-calendar-availability-finder-2` |
 | [Figma Design Extractor](../../skills/figma-design-extractor/) | Listed | — | — | `clawhub install figma-design-extractor` |
+| [Gmail API Thread Label Triage](../../skills/gmail-api-thread-label-triage/) | Listed | — | — | `clawhub install gmail-api-thread-label-triage` |
 | [Gmail Smart Triage Agent](../../skills/gmail-smart-triage-2/) | Listed | — | — | `clawhub install gmail-smart-triage-2` |
 | [Gmail Thread Summarizer and Action Extractor](../../skills/gmail-thread-summarizer-action-extractor/) | Security Reviewed | — | — | `clawhub install gmail-thread-summarizer-action-extractor` |
 | [Google Calendar Conflict Detector](../../skills/google-calendar-conflict-detector/) | Security Reviewed | — | — | `clawhub install google-calendar-conflict-detector` |
 | [Google Calendar Conflict Resolver](../../skills/google-calendar-conflict-resolver-2/) | Security Reviewed | — | — | `clawhub install google-calendar-conflict-resolver-2` |
+| [Google Calendar FreeBusy Scheduler Bridge](../../skills/google-calendar-freebusy-scheduler-bridge/) | Listed | — | — | `clawhub install google-calendar-freebusy-scheduler-bridge` |
 | [Google Calendar Meeting Scheduler](../../skills/google-calendar-meeting-scheduler/) | Listed | — | — | `clawhub install google-calendar-meeting-scheduler` |
 | [Google Calendar Smart Scheduler](../../skills/google-calendar-smart-scheduler-2/) | Security Reviewed | — | — | `clawhub install google-calendar-smart-scheduler-2` |
 | [Google Calendar Sync &#038; Conflict Resolver](../../skills/google-calendar-sync-conflict-resolver/) | Security Reviewed | — | — | `clawhub install google-calendar-sync-conflict-resolver` |
@@ -101,6 +103,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [IMAP Inbox Triage Agent](../../skills/imap-inbox-triage-agent/) | Listed | — | — | `clawhub install imap-inbox-triage-agent` |
 | [Linear MCP Server](../../skills/linear-mcp-server/) | Listed | — | — | `clawhub install linear-mcp-server` |
 | [Loom Video Action Extractor](../../skills/loom-video-action-extractor/) | Listed | — | — | `clawhub install loom-video-action-extractor` |
+| [Microsoft Graph Calendar Conflict Resolver](../../skills/microsoft-graph-calendar-conflict-resolver/) | Listed | — | — | `clawhub install microsoft-graph-calendar-conflict-resolver` |
 | [Microsoft Graph Email Digest Builder](../../skills/microsoft-graph-email-digest-builder/) | Security Reviewed | — | — | `clawhub install microsoft-graph-email-digest-builder` |
 | [Microsoft Graph Email Triage Agent](../../skills/microsoft-graph-email-triage-agent/) | Security Reviewed | — | — | `clawhub install microsoft-graph-email-triage-agent` |
 | [Microsoft Outlook Calendar Sync Agent](../../skills/ms-outlook-calendar-sync-agent/) | Security Reviewed | — | — | `clawhub install ms-outlook-calendar-sync-agent` |
@@ -109,6 +112,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Outlook Mail Triage Assistant](../../skills/outlook-mail-triage-assistant/) | Security Reviewed | — | — | `clawhub install outlook-mail-triage-assistant` |
 | [Outlook Mail Triage Skill](../../skills/outlook-mail-triage-microsoft-graph/) | Security Reviewed | — | — | `clawhub install outlook-mail-triage-microsoft-graph` |
 | [Outlook Rule Automation Manager](../../skills/outlook-rule-automation-manager/) | Security Reviewed | — | — | `clawhub install outlook-rule-automation-manager` |
+| [Slack Status API PTO Sync Assistant](../../skills/slack-status-api-pto-sync-assistant/) | Listed | — | — | `clawhub install slack-status-api-pto-sync-assistant` |
 | [Teams Webhook Configurator](../../skills/teams-webhook-configurator/) | Listed | — | — | `clawhub install teams-webhook-configurator` |
 | [Todoist GTD Workflow Engine](../../skills/todoist-gtd-workflow-engine/) | Security Reviewed | — | — | `clawhub install todoist-gtd-workflow-engine` |
 | [Todoist Project Automator](../../skills/todoist-project-automator-api-v2/) | Security Reviewed | — | — | `clawhub install todoist-project-automator-api-v2` |
@@ -138,7 +142,7 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 ## Related Categories
 
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (144 skills)
-- 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (122 skills)
+- 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (126 skills)
 - 🛠️ [Developer Tools](../developer-tools/) (120 skills)
 - 📚 [Library & API Reference](../library-api-reference/) (102 skills)
 
