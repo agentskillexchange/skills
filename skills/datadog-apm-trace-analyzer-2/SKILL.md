@@ -3,14 +3,22 @@ name: "Datadog APM Trace Analyzer"
 description: "Queries Datadog APM trace data via the Datadog Tracing API v2 to identify latency bottlenecks and error hotspots. Generates flame graph summaries and service dependency impact reports."
 category: "Monitoring & Alerts"
 framework: "Claude Agents"
-verification: verified_metadata
-rating: 4.6
-reviews: 4
-creator: "Elena Rodriguez"
-creator_handle: "@elena_dev"
-creator_verified: true
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/datadog-apm-trace-analyzer-2/"
+tool_ecosystem:
+  tool: "datadog"
+  github_stars: 787
+  npm_weekly_downloads: 6043057
+  github_repo: "DataDog/dd-trace-js"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # Datadog APM Trace Analyzer
 
 Queries Datadog APM trace data via the Datadog Tracing API v2 to identify latency bottlenecks and error hotspots. Generates flame graph summaries and service dependency impact reports.
@@ -41,22 +49,16 @@ clawhub install datadog-apm-trace-analyzer-2
 ```bash
 npx skills add agentskillexchange/skills --skill datadog-apm-trace-analyzer-2 -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Monitoring & Alerts |
 | **Framework** | Claude Agents |
-| **Verification** | Verified |
-| **Rating** | 4.6 ⭐ (4 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [datadog](https://github.com/DataDog/dd-trace-js) — ⭐ 787 · NOASSERTION |
 
-## Creator
+---
 
-**Elena Rodriguez** ✓
-Handle: @elena_dev
-[View Profile](https://agentskillexchange.com/skills/datadog-apm-trace-analyzer-2/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/datadog-apm-trace-analyzer-2/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/datadog-apm-trace-analyzer-2/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

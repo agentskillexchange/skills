@@ -6,11 +6,19 @@ framework: "Claude Agents"
 verification: listed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/nginx-error-log-analyzer-fixer/"
+tool_ecosystem:
+  tool: "nginx"
+  github_stars: 29762
+  npm_weekly_downloads: 0
+  github_repo: "nginx/nginx"
+  license: "BSD-2-Clause"
+  maintained: true
 ---
+
 # Nginx Error Log Analyzer and Fixer
 
 Parses Nginx error logs and access logs to diagnose 502, 504, and 413 errors. Uses GoAccess for real-time log visualization and integrates with nginx -t for configuration validation.
@@ -41,22 +49,16 @@ clawhub install nginx-error-log-analyzer-fixer
 ```bash
 npx skills add agentskillexchange/skills --skill nginx-error-log-analyzer-fixer -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
-| Category | Runbooks & Diagnostics |
-| Framework | Claude Agents |
-| Verification |  |
-| Rating | 0 ⭐ |
+| | |
+|---|---|
+| **Category** | Runbooks & Diagnostics |
+| **Framework** | Claude Agents |
+| **Verification** | 📋 Listed |
+| **Tool** | [nginx](https://github.com/nginx/nginx) — ⭐ 29.8k · BSD-2-Clause |
 
-## Creator
+---
 
-**Community**
-
-[View Profile](https://agentskillexchange.com/skills/nginx-error-log-analyzer-fixer/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/nginx-error-log-analyzer-fixer/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/nginx-error-log-analyzer-fixer/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

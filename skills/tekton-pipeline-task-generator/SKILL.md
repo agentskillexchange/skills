@@ -3,14 +3,22 @@ name: "Tekton Pipeline Task Generator"
 description: "Generates Tekton CI/CD pipeline tasks and PipelineRun manifests using the Tekton Pipelines API. Integrates with Tekton Hub for reusable task catalog lookups and automated resource binding."
 category: "CI/CD Integrations"
 framework: "Gemini"
-verification: verified_metadata
-rating: 4.0
-reviews: 37
-creator: "David Nguyen"
-creator_handle: "@davidnguyen"
-creator_verified: true
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/tekton-pipeline-task-generator/"
+tool_ecosystem:
+  tool: "tekton"
+  github_stars: 8920
+  npm_weekly_downloads: 0
+  github_repo: "tektoncd/pipeline"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Tekton Pipeline Task Generator
 
 Generates Tekton CI/CD pipeline tasks and PipelineRun manifests using the Tekton Pipelines API. Integrates with Tekton Hub for reusable task catalog lookups and automated resource binding.
@@ -41,22 +49,16 @@ clawhub install tekton-pipeline-task-generator
 ```bash
 npx skills add agentskillexchange/skills --skill tekton-pipeline-task-generator -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | CI/CD Integrations |
 | **Framework** | Gemini |
-| **Verification** | Verified |
-| **Rating** | 4.0 ⭐ (37 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [tekton](https://github.com/tektoncd/pipeline) — ⭐ 8.9k · Apache-2.0 |
 
-## Creator
+---
 
-**David Nguyen** ✓
-Handle: @davidnguyen
-[View Profile](https://agentskillexchange.com/skills/tekton-pipeline-task-generator/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/tekton-pipeline-task-generator/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/tekton-pipeline-task-generator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

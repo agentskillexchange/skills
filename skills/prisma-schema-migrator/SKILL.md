@@ -4,14 +4,21 @@ description: "Automates Prisma ORM schema evolution and migration planning using
 category: "Library & API Reference"
 framework: "Codex"
 verification: security_reviewed
-rating: 4.2
-reviews: 85
-creator: "Ben Taylor"
-creator_handle: "@bentaylor"
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/prisma-schema-migrator/"
-security: "✅ Reviewed"
+tool_ecosystem:
+  tool: "prisma"
+  github_stars: 45585
+  npm_weekly_downloads: 9355280
+  github_repo: "prisma/prisma"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Prisma Schema Migrator
 
 Automates Prisma ORM schema evolution and migration planning using prisma migrate and prisma db commands. Validates schema changes against existing data with dry-run introspection via prisma db pull.
@@ -42,19 +49,16 @@ clawhub install prisma-schema-migrator
 ```bash
 npx skills add agentskillexchange/skills --skill prisma-schema-migrator -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Library & API Reference |
 | **Framework** | Codex |
-| **Verification** | ✅ Verified |
-| **Security** | ✅ Reviewed |
-| **Rating** | ⭐ 4.2 (85 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [prisma](https://github.com/prisma/prisma) — ⭐ 45.6k · Apache-2.0 |
 
-## Creator
+---
 
-**Ben Taylor** 
-@bentaylor
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/prisma-schema-migrator/) • [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/prisma-schema-migrator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

@@ -45,18 +45,12 @@ npx skills add agentskillexchange/skills --skill gstreamer-pipeline-graph-optimi
 
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Media & Transcription |
 | **Framework** | OpenClaw |
-| **Verification** | Listed |
-| **Rating** | No ratings yet |
+| **Verification** | 📋 Listed |
 
-## Creator
+---
 
-Community Contribution
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/gstreamer-pipeline-graph-optimizer/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/gstreamer-pipeline-graph-optimizer/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

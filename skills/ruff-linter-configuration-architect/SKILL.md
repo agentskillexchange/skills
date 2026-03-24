@@ -3,14 +3,15 @@ name: "Ruff Linter Configuration Architect"
 description: "Configures and optimizes Ruff Python linter settings using the ruff CLI and pyproject.toml schema. Migrates from Flake8, isort, and Black configurations with automatic rule mapping."
 category: "Code Quality & Review"
 framework: "ChatGPT Agents"
-verification: verified_metadata
-rating: 4.7
-reviews: 86
-creator: "Nina Volkov"
-creator_handle: "@ninavolkov"
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/ruff-linter-configuration-architect/"
 ---
+
 # Ruff Linter Configuration Architect
 
 Configures and optimizes Ruff Python linter settings using the ruff CLI and pyproject.toml schema. Migrates from Flake8, isort, and Black configurations with automatic rule mapping.
@@ -41,17 +42,15 @@ clawhub install ruff-linter-configuration-architect
 ```bash
 npx skills add agentskillexchange/skills --skill ruff-linter-configuration-architect -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Code Quality & Review |
 | **Framework** | ChatGPT Agents |
-| **Verification** | Verified |
-| **Rating** | ⭐⭐⭐⭐⭐ 4.7/5 (86 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
 
-## Creator
+---
 
-**Nina Volkov** @ninavolkov ☑ Verified Creator
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/ruff-linter-configuration-architect/) | [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/ruff-linter-configuration-architect/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

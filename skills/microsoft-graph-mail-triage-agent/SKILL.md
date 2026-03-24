@@ -4,14 +4,21 @@ description: "Triages Outlook emails using the Microsoft Graph API /me/messages 
 category: "Calendar, Email & Productivity"
 framework: "Gemini"
 verification: security_reviewed
-rating: 4.9
-reviews: 75
-creator: "Lucy Zhang"
-creator_handle: "@lucyzhang"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/microsoft-graph-mail-triage-agent/"
-security: "🔒 Reviewed"
+tool_ecosystem:
+  tool: "datadog"
+  github_stars: 787
+  npm_weekly_downloads: 6043057
+  github_repo: "DataDog/dd-trace-js"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # Microsoft Graph Mail Triage Agent
 
 Triages Outlook emails using the Microsoft Graph API /me/messages endpoint with $filter OData queries and inferenceClassification. Applies category labels, moves messages to focused/other folders, and creates Planner tasks from flagged items via the Tasks API.
@@ -42,23 +49,16 @@ clawhub install microsoft-graph-mail-triage-agent
 ```bash
 npx skills add agentskillexchange/skills --skill microsoft-graph-mail-triage-agent -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Calendar, Email & Productivity |
 | **Framework** | Gemini |
-| **Verification** | ✅ Verified |
-| **Security** | 🔒 Reviewed |
-| **Rating** | ⭐⭐⭐⭐ 4.9/5 (75 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [datadog](https://github.com/DataDog/dd-trace-js) — ⭐ 787 · NOASSERTION |
 
-## Creator
+---
 
-**Lucy Zhang** ✅
-Handle: `@lucyzhang`
-[View Profile on ASE](https://agentskillexchange.com/skills/microsoft-graph-mail-triage-agent/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/microsoft-graph-mail-triage-agent/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/microsoft-graph-mail-triage-agent/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

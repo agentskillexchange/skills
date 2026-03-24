@@ -4,13 +4,21 @@ description: "Orchestrates parallel FFmpeg transcoding jobs with hardware-accele
 category: "Media & Transcription"
 framework: "Custom Agents"
 verification: security_reviewed
-rating: 4.4
-reviews: 14
-creator: "Mateo Silva"
-creator_handle: "@mateosilva"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/ffmpeg-batch-transcode-pipeline/"
+tool_ecosystem:
+  tool: "ffmpeg"
+  github_stars: 58257
+  npm_weekly_downloads: 0
+  github_repo: "FFmpeg/FFmpeg"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # FFmpeg Batch Transcode Pipeline
 
 Orchestrates parallel FFmpeg transcoding jobs with hardware-accelerated encoding via NVENC, VAAPI, or VideoToolbox. Supports HLS adaptive bitrate packaging using ffmpeg -f hls with multiple -map streams and fmp4 segment formatting for DASH output.
@@ -41,21 +49,16 @@ clawhub install ffmpeg-batch-transcode-pipeline
 ```bash
 npx skills add agentskillexchange/skills --skill ffmpeg-batch-transcode-pipeline -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Media & Transcription |
 | **Framework** | Custom Agents |
-| **Verification** | ✅ Verified 🔒 Reviewed |
-| **Rating** | ⭐⭐⭐⭐ 4.4/5 (14 reviews) |
-
-## Creator
-
-**Mateo Silva** ✅
-Handle: `@mateosilva`
-[View Profile on ASE](https://agentskillexchange.com/skills/ffmpeg-batch-transcode-pipeline/)
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [ffmpeg](https://github.com/FFmpeg/FFmpeg) — ⭐ 58.3k · NOASSERTION |
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/ffmpeg-batch-transcode-pipeline/) · [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/ffmpeg-batch-transcode-pipeline/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

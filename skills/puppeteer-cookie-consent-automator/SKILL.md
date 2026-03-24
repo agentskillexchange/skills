@@ -3,14 +3,22 @@ name: "Puppeteer Cookie Consent Automator"
 description: "Automatically detects and handles cookie consent banners across websites using Puppeteer CDP protocol and a trained classifier. Supports OneTrust, Cookiebot, and TrustArc consent management platforms."
 category: "Browser Automation"
 framework: "Custom Agents"
-verification: listed
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/puppeteer-cookie-consent-automator/"
+tool_ecosystem:
+  tool: "puppeteer"
+  github_stars: 93912
+  npm_weekly_downloads: 8696130
+  github_repo: "puppeteer/puppeteer"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Puppeteer Cookie Consent Automator
 
 Automatically detects and handles cookie consent banners across websites using Puppeteer CDP protocol and a trained classifier. Supports OneTrust, Cookiebot, and TrustArc consent management platforms.
@@ -41,22 +49,16 @@ clawhub install puppeteer-cookie-consent-automator
 ```bash
 npx skills add agentskillexchange/skills --skill puppeteer-cookie-consent-automator -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Browser Automation |
 | **Framework** | Custom Agents |
-| **Verification** | community |
-| **Rating** | 0 (0 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [puppeteer](https://github.com/puppeteer/puppeteer) — ⭐ 93.9k · Apache-2.0 |
 
-## Creator
+---
 
-**Community**
-
-
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/puppeteer-cookie-consent-automator/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/puppeteer-cookie-consent-automator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

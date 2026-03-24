@@ -3,14 +3,22 @@ name: "Stable Diffusion Prompt Optimizer"
 description: "Analyzes and enhances Stable Diffusion prompts using the Automatic1111 WebUI API /sdapi/v1/txt2img endpoint. Applies prompt weighting, negative prompt generation, and A1111-specific syntax like (keyword:weight)."
 category: "Image & Creative Automation"
 framework: "Gemini"
-verification: listed
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/stable-diffusion-prompt-optimizer/"
+tool_ecosystem:
+  tool: "stable.diffusion"
+  github_stars: 0
+  npm_weekly_downloads: 0
+  github_repo: ""
+  license: ""
+  maintained: false
 ---
+
 # Stable Diffusion Prompt Optimizer
 
 Analyzes and enhances Stable Diffusion prompts using the Automatic1111 WebUI API /sdapi/v1/txt2img endpoint. Applies prompt weighting, negative prompt generation, and A1111-specific syntax like (keyword:weight).
@@ -41,21 +49,16 @@ clawhub install stable-diffusion-prompt-optimizer
 ```bash
 npx skills add agentskillexchange/skills --skill stable-diffusion-prompt-optimizer -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Image & Creative Automation |
 | **Framework** | Gemini |
-| **Verification** |  |
-| **Rating** | 0/5 (0 reviews) |
-
-## Creator
-
-**Community**
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/stable-diffusion-prompt-optimizer/)
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | stable.diffusion |
 
 ---
 
-[Browse all skills](https://agentskillexchange.com) · [GitHub Repository](https://github.com/agentskillexchange/skills)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/stable-diffusion-prompt-optimizer/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

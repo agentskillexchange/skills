@@ -3,14 +3,22 @@ name: "Incident Response Checklist Engine"
 description: "Generates and tracks incident response checklists using PagerDuty Incident Workflows API and Statuspage.io API. Automates severity classification, stakeholder notification, and post-incident review scheduling with Jira Service Management integration."
 category: "Runbooks & Diagnostics"
 framework: "Claude Agents"
-verification: verified_metadata
-rating: 4.9
-reviews: 48
-creator: "Community"
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/incident-response-checklist-engine/"
+tool_ecosystem:
+  tool: "pagerduty"
+  github_stars: 69
+  npm_weekly_downloads: 210829
+  github_repo: "PagerDuty/pdjs"
+  license: "Apache-2.0"
+  maintained: false
 ---
+
 # Incident Response Checklist Engine
 
 Generates and tracks incident response checklists using PagerDuty Incident Workflows API and Statuspage.io API. Automates severity classification, stakeholder notification, and post-incident review scheduling with Jira Service Management integration.
@@ -41,22 +49,16 @@ clawhub install incident-response-checklist-engine
 ```bash
 npx skills add agentskillexchange/skills --skill incident-response-checklist-engine -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Runbooks & Diagnostics |
 | **Framework** | Claude Agents |
-| **Verification** | ✅ Verified |
-| **Rating** | ⭐⭐⭐⭐⭐ 4.9/5 (48 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [pagerduty](https://github.com/PagerDuty/pdjs) — ⭐ 69 · Apache-2.0 |
 
-## Creator
+---
 
-**Community**
-
-
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/incident-response-checklist-engine/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/incident-response-checklist-engine/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

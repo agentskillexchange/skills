@@ -3,14 +3,22 @@ name: "Semgrep Custom Pattern Library"
 description: "Builds custom Semgrep rules using the semgrep YAML rule syntax with metavariable-pattern, pattern-either, and taint-mode analysis. Generates rule packs for OWASP Top 10 detection across Python, JavaScript, and Go codebases."
 category: "Code Quality & Review"
 framework: "Claude Agents"
-verification: verified_metadata
-rating: 4.9
-reviews: 6
-creator: "Sarah O'Brien"
-creator_handle: "@sarahcodes"
-creator_verified: true
+verification: listed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/semgrep-custom-pattern-library/"
+tool_ecosystem:
+  tool: "semgrep"
+  github_stars: 14543
+  npm_weekly_downloads: 0
+  github_repo: "semgrep/semgrep"
+  license: "LGPL-2.1"
+  maintained: true
 ---
+
 # Semgrep Custom Pattern Library
 
 Builds custom Semgrep rules using the semgrep YAML rule syntax with metavariable-pattern, pattern-either, and taint-mode analysis. Generates rule packs for OWASP Top 10 detection across Python, JavaScript, and Go codebases.
@@ -41,18 +49,16 @@ clawhub install semgrep-custom-pattern-library
 ```bash
 npx skills add agentskillexchange/skills --skill semgrep-custom-pattern-library -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Code Quality & Review |
 | **Framework** | Claude Agents |
-| **Verification** | Verified |
-| **Rating** | ⭐⭐⭐⭐ 4.9/5 (6 reviews) |
+| **Verification** | 📋 Listed |
+| **Tool** | [semgrep](https://github.com/semgrep/semgrep) — ⭐ 14.5k · LGPL-2.1 |
 
-## Creator
+---
 
-**Sarah O'Brien** @sarahcodes
-✓ Verified Creator
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/semgrep-custom-pattern-library/) · [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/semgrep-custom-pattern-library/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

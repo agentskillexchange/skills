@@ -10,6 +10,13 @@ creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/rive-runtime-animation-controller/"
+tool_ecosystem:
+  tool: "react"
+  github_stars: 244146
+  npm_weekly_downloads: 104796073
+  github_repo: "facebook/react"
+  license: "MIT"
+  maintained: true
 ---
 
 # Rive Runtime Animation Controller
@@ -45,18 +52,13 @@ npx skills add agentskillexchange/skills --skill rive-runtime-animation-controll
 
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Image & Creative Automation |
 | **Framework** | ChatGPT Agents |
-| **Verification** | Listed |
-| **Rating** | No ratings yet |
+| **Verification** | 📋 Listed |
+| **Tool** | [react](https://github.com/facebook/react) — ⭐ 244.1k · MIT |
 
-## Creator
+---
 
-Community Contribution
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/rive-runtime-animation-controller/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/rive-runtime-animation-controller/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

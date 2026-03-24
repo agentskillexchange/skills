@@ -1,19 +1,27 @@
 ---
 name: "Podcast Transcription Pipeline"
-description: "End-to-end podcast transcription pipeline with speaker diarization, chapter generation, show notes creation, and multi-format export for podcast producers."
+description: "Transcribes podcast episodes using OpenAI Whisper API with speaker diarization via pyannote.audio. Exports formatted transcripts to SRT, VTT, and searchable JSON with timestamped segments."
 category: "Media & Transcription"
 framework: "Codex"
 verification: security_reviewed
-rating: 4.5
-reviews: 59
-creator: "Alex Rivera"
-creator_handle: "@arivera_dev"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/podcast-transcription-pipeline-agent/"
+tool_ecosystem:
+  tool: "whisper"
+  github_stars: 10761
+  npm_weekly_downloads: 16275389
+  github_repo: "openai/openai-node"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Podcast Transcription Pipeline
 
-End-to-end podcast transcription pipeline with speaker diarization, chapter generation, show notes creation, and multi-format export for podcast producers.
+Transcribes podcast episodes using OpenAI Whisper API with speaker diarization via pyannote.audio. Exports formatted transcripts to SRT, VTT, and searchable JSON with timestamped segments.
 
 ## Installation
 
@@ -41,21 +49,16 @@ clawhub install podcast-transcription-pipeline-agent
 ```bash
 npx skills add agentskillexchange/skills --skill podcast-transcription-pipeline-agent -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Media & Transcription |
 | **Framework** | Codex |
-| **Verification** | ✅ Verified |
-| **Rating** | 4.5 ⭐⭐⭐⭐ (59 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [whisper](https://github.com/openai/openai-node) — ⭐ 10.8k · Apache-2.0 |
 
-## Creator
+---
 
-**Alex Rivera** ✅
-[View Profile](https://agentskillexchange.com/creator/arivera_dev/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/podcast-transcription-pipeline-agent/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/podcast-transcription-pipeline-agent/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

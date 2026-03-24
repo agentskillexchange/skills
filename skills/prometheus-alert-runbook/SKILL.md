@@ -2,15 +2,23 @@
 name: "Prometheus Alert Runbook"
 description: "Execute structured runbook procedures triggered by Prometheus AlertManager webhooks. Queries PromQL metrics via the Prometheus HTTP API for automated incident diagnosis and escalation."
 category: "Runbooks & Diagnostics"
-framework: "MCP"
-verification: verified_metadata
+framework: "MCP-compatible"
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/prometheus-alert-runbook/"
+tool_ecosystem:
+  tool: "prometheus"
+  github_stars: 63278
+  npm_weekly_downloads: 5319832
+  github_repo: "prometheus/prometheus"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Prometheus Alert Runbook
 
 Execute structured runbook procedures triggered by Prometheus AlertManager webhooks. Queries PromQL metrics via the Prometheus HTTP API for automated incident diagnosis and escalation.
@@ -41,20 +49,16 @@ clawhub install prometheus-alert-runbook
 ```bash
 npx skills add agentskillexchange/skills --skill prometheus-alert-runbook -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Runbooks & Diagnostics |
 | **Framework** | MCP-compatible |
-| **Verification** | verified_metadata |
-| **Rating** | 0 ⭐ (0 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [prometheus](https://github.com/prometheus/prometheus) — ⭐ 63.3k · Apache-2.0 |
 
-## Creator
+---
 
-**Community**
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-alert-runbook/)
-- [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-alert-runbook/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

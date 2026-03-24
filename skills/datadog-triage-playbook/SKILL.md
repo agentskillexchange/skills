@@ -2,15 +2,23 @@
 name: "Datadog Triage Playbook"
 description: "Automates alert triage using the Datadog Monitors API v2 and Notebooks API. Correlates metrics with traces via the Datadog APM Trace Search API and generates RCA timelines from the Events Stream API."
 category: "Runbooks & Diagnostics"
-framework: "MCP"
-verification: verified_metadata
-rating: 4.8
-reviews: 74
-creator: "Alex Rivera"
-creator_handle: "@arivera_dev"
-creator_verified: true
+framework: "MCP-compatible"
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/datadog-triage-playbook/"
+tool_ecosystem:
+  tool: "datadog"
+  github_stars: 787
+  npm_weekly_downloads: 6043057
+  github_repo: "DataDog/dd-trace-js"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # Datadog Triage Playbook
 
 Automates alert triage using the Datadog Monitors API v2 and Notebooks API. Correlates metrics with traces via the Datadog APM Trace Search API and generates RCA timelines from the Events Stream API.
@@ -41,18 +49,16 @@ clawhub install datadog-triage-playbook
 ```bash
 npx skills add agentskillexchange/skills --skill datadog-triage-playbook -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Runbooks & Diagnostics |
 | **Framework** | MCP-compatible |
-| **Verification** | Verified |
-| **Rating** | ⭐⭐⭐⭐ 4.8/5 (74 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [datadog](https://github.com/DataDog/dd-trace-js) — ⭐ 787 · NOASSERTION |
 
-## Creator
+---
 
-**Alex Rivera** (@arivera_dev)
-✓ Verified Creator
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/datadog-triage-playbook/) | [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/datadog-triage-playbook/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

@@ -2,15 +2,23 @@
 name: "Semgrep Custom Rule Builder"
 description: "Creates custom Semgrep SAST rules using the semgrep CLI and rule schema YAML format. Supports pattern-either, metavariable-regex, and taint-mode tracking for detecting framework-specific vulnerabilities in Python, Go, and JavaScript."
 category: "Code Quality & Review"
-framework: "MCP"
-verification: security_reviewed
-rating: 4.5
-reviews: 86
-creator: "Grace Okafor"
-creator_handle: "@graceokafor"
-creator_verified: true
+framework: "MCP-compatible"
+verification: listed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/semgrep-custom-rule-builder-3/"
+tool_ecosystem:
+  tool: "semgrep"
+  github_stars: 14543
+  npm_weekly_downloads: 0
+  github_repo: "semgrep/semgrep"
+  license: "LGPL-2.1"
+  maintained: true
 ---
+
 # Semgrep Custom Rule Builder
 
 Creates custom Semgrep SAST rules using the semgrep CLI and rule schema YAML format. Supports pattern-either, metavariable-regex, and taint-mode tracking for detecting framework-specific vulnerabilities in Python, Go, and JavaScript.
@@ -41,21 +49,16 @@ clawhub install semgrep-custom-rule-builder-3
 ```bash
 npx skills add agentskillexchange/skills --skill semgrep-custom-rule-builder-3 -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Code Quality & Review |
 | **Framework** | MCP-compatible |
-| **Verification** | 🔒 Security Reviewed |
-| **Rating** | ⭐ 4.5 (86 reviews) |
-
-## Creator
-
-**Grace Okafor** ✅
-Handle: `@graceokafor`
-[View Profile on ASE](https://agentskillexchange.com/skills/semgrep-custom-rule-builder-3/)
+| **Verification** | 📋 Listed |
+| **Tool** | [semgrep](https://github.com/semgrep/semgrep) — ⭐ 14.5k · LGPL-2.1 |
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/semgrep-custom-rule-builder-3/) • [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/semgrep-custom-rule-builder-3/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

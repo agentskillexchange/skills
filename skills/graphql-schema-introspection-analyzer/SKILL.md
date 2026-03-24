@@ -2,15 +2,23 @@
 name: "GraphQL Schema Introspection Analyzer"
 description: "Introspects GraphQL APIs via the standard __schema query and analyzes type systems using graphql-js utilities (buildClientSchema, printSchema). Detects N+1 patterns, circular types, deprecated field usage, and missing nullability annotations."
 category: "Library & API Reference"
-framework: "MCP"
+framework: "MCP-compatible"
 verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/graphql-schema-introspection-analyzer/"
+tool_ecosystem:
+  tool: "graphql"
+  github_stars: 20335
+  npm_weekly_downloads: 32010306
+  github_repo: "graphql/graphql-js"
+  license: "MIT"
+  maintained: true
 ---
+
 # GraphQL Schema Introspection Analyzer
 
 Introspects GraphQL APIs via the standard __schema query and analyzes type systems using graphql-js utilities (buildClientSchema, printSchema). Detects N+1 patterns, circular types, deprecated field usage, and missing nullability annotations.
@@ -41,22 +49,16 @@ clawhub install graphql-schema-introspection-analyzer
 ```bash
 npx skills add agentskillexchange/skills --skill graphql-schema-introspection-analyzer -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Library & API Reference |
 | **Framework** | MCP-compatible |
-| **Verification** | security_reviewed |
-| **Rating** | 0 (0 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [graphql](https://github.com/graphql/graphql-js) — ⭐ 20.3k · MIT |
 
-## Creator
+---
 
-**Community**
-
-[View Profile](https://agentskillexchange.com/skills/graphql-schema-introspection-analyzer/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/graphql-schema-introspection-analyzer/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/graphql-schema-introspection-analyzer/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

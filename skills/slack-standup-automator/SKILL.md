@@ -3,14 +3,22 @@ name: "Slack Standup Automator"
 description: "Automates daily standup collection and reporting in Slack using the Slack Web API chat.postMessage and conversations.history methods. Supports threaded responses and scheduled summaries via chat.scheduleMessage."
 category: "Calendar, Email & Productivity"
 framework: "Codex"
-verification: listed
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/slack-standup-automator/"
+tool_ecosystem:
+  tool: "slack"
+  github_stars: 2900
+  npm_weekly_downloads: 2433529
+  github_repo: "slackapi/bolt-js"
+  license: "MIT"
+  maintained: true
 ---
+
 # Slack Standup Automator
 
 Automates daily standup collection and reporting in Slack using the Slack Web API chat.postMessage and conversations.history methods. Supports threaded responses and scheduled summaries via chat.scheduleMessage.
@@ -41,21 +49,16 @@ clawhub install slack-standup-automator
 ```bash
 npx skills add agentskillexchange/skills --skill slack-standup-automator -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Calendar, Email & Productivity |
 | **Framework** | Codex |
-| **Verification** |  |
-| **Rating** | 0/5 (0 reviews) |
-
-## Creator
-
-**Community**
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/slack-standup-automator/)
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [slack](https://github.com/slackapi/bolt-js) — ⭐ 2.9k · MIT |
 
 ---
 
-[Browse all skills](https://agentskillexchange.com) · [GitHub Repository](https://github.com/agentskillexchange/skills)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/slack-standup-automator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

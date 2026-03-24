@@ -4,13 +4,14 @@ description: "Extends npm audit with deep transitive dependency analysis using t
 category: "Security & Verification"
 framework: "Custom Agents"
 verification: security_reviewed
-rating: 4.6
-reviews: 71
-creator: "Leo Park"
-creator_handle: "@leopark_ai"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/npm-audit-deep-scanner/"
 ---
+
 # NPM Audit Deep Scanner
 
 Extends npm audit with deep transitive dependency analysis using the npm Registry API. Generates fix PRs via GitHub API and cross-checks advisories against the OSV.dev vulnerability database.
@@ -41,22 +42,15 @@ clawhub install npm-audit-deep-scanner
 ```bash
 npx skills add agentskillexchange/skills --skill npm-audit-deep-scanner -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Security & Verification |
 | **Framework** | Custom Agents |
-| **Verification** | Verified & Security Reviewed |
-| **Rating** | ★★★★½ (4.6/5 from 71 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
 
-## Creator
+---
 
-**Leo Park** ✓ Verified Creator
-
-[View Profile](https://agentskillexchange.com/creator/leopark_ai/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/npm-audit-deep-scanner/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/npm-audit-deep-scanner/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

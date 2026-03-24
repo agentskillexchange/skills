@@ -4,64 +4,61 @@ description: "Profiles GitLab CI/CD pipeline execution times using the GitLab RE
 category: "CI/CD Integrations"
 framework: "Custom Agents"
 verification: security_reviewed
-rating: 4.7
-reviews: 41
-creator: "Ava Wilson"
-creator_handle: "@avawilson"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/gitlab-ci-pipeline-profiler/"
+tool_ecosystem:
+  tool: "gitlab"
+  github_stars: 24276
+  npm_weekly_downloads: 0
+  github_repo: "gitlabhq/gitlabhq"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # GitLab CI Pipeline Profiler
 
 Profiles GitLab CI/CD pipeline execution times using the GitLab REST API v4 /projects/:id/pipelines endpoint. Identifies slow jobs, inefficient artifact passing, and cache miss patterns across pipeline history.
 
 ## Installation
 
-### Any agent (npx skills)
-
+### Any Agent (npx)
 ```bash
 npx skills add agentskillexchange/skills --skill gitlab-ci-pipeline-profiler
 ```
 
 ### Claude Code
-
 ```bash
 npx skills add agentskillexchange/skills --skill gitlab-ci-pipeline-profiler -a claude-code
 ```
 
 ### Cursor
-
 ```bash
 npx skills add agentskillexchange/skills --skill gitlab-ci-pipeline-profiler -a cursor
 ```
 
 ### OpenClaw
-
 ```bash
 clawhub install gitlab-ci-pipeline-profiler
 ```
 
 ### Codex
-
 ```bash
 npx skills add agentskillexchange/skills --skill gitlab-ci-pipeline-profiler -a codex
 ```
 
 ## Details
 
-| Field | Value |
-|-------|-------|
-| Category | CI/CD Integrations |
-| Framework | Custom Agents |
-| Verification | Security Reviewed |
-| Rating | 4.7/5 (41 reviews) |
+| | |
+|---|---|
+| **Category** | CI/CD Integrations |
+| **Framework** | Custom Agents |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [gitlab](https://github.com/gitlabhq/gitlabhq) — ⭐ 24.3k · NOASSERTION |
 
-## Creator
+---
 
-**Ava Wilson** (Verified Creator ✓)
-- Profile: [@avawilson](https://agentskillexchange.com/browse-skills/?creator=avawilson)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/gitlab-ci-pipeline-profiler/)
-- [Browse all skills](https://agentskillexchange.com/browse-skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/gitlab-ci-pipeline-profiler/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

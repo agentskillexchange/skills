@@ -4,12 +4,19 @@ description: "Synchronize marketplace transactions using the Stripe Connect API 
 category: "Integrations & Connectors"
 framework: "Gemini"
 verification: security_reviewed
-rating: 4.9
-reviews: 24
-creator: "Tom Wilson"
-creator_handle: "@tomwilson"
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/stripe-connect-marketplace-sync/"
+tool_ecosystem:
+  tool: "stripe"
+  github_stars: 4377
+  npm_weekly_downloads: 8442269
+  github_repo: "stripe/stripe-node"
+  license: "MIT"
+  maintained: true
 ---
 
 # Stripe Connect Marketplace Sync
@@ -45,15 +52,13 @@ npx skills add agentskillexchange/skills --skill stripe-connect-marketplace-sync
 
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Integrations & Connectors |
 | **Framework** | Gemini |
-| **Verification** | Security Reviewed |
-| **Rating** | ⭐ 4.9 (24 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [stripe](https://github.com/stripe/stripe-node) — ⭐ 4.4k · MIT |
 
-## Creator
+---
 
-**Tom Wilson** (@tomwilson)
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/stripe-connect-marketplace-sync/) · [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/stripe-connect-marketplace-sync/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

@@ -2,66 +2,63 @@
 name: "Elasticsearch MCP"
 description: "Query Elasticsearch indices, manage index mappings, and run aggregation pipelines through an AI agent via MCP. Supports natural-language search query generation, index health monitoring, and snapshot lifecycle management."
 category: "Data Extraction & Transformation"
-framework: "MCP"
-verification: security_reviewed
-rating: 4.3
-reviews: 67
-creator: "Tom Anderson"
-creator_handle: "@tanderson"
+framework: "MCP-compatible"
+verification: listed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/elasticsearch-mcp/"
+tool_ecosystem:
+  tool: "elasticsearch"
+  github_stars: 76387
+  npm_weekly_downloads: 1893773
+  github_repo: "elastic/elasticsearch"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # Elasticsearch MCP
 
 Query Elasticsearch indices, manage index mappings, and run aggregation pipelines through an AI agent via MCP. Supports natural-language search query generation, index health monitoring, and snapshot lifecycle management.
 
 ## Installation
 
-### Any agent (npx skills)
-
+### Any Agent (npx)
 ```bash
 npx skills add agentskillexchange/skills --skill elasticsearch-mcp
 ```
 
 ### Claude Code
-
 ```bash
 npx skills add agentskillexchange/skills --skill elasticsearch-mcp -a claude-code
 ```
 
 ### Cursor
-
 ```bash
 npx skills add agentskillexchange/skills --skill elasticsearch-mcp -a cursor
 ```
 
 ### OpenClaw
-
 ```bash
 clawhub install elasticsearch-mcp
 ```
 
 ### Codex
-
 ```bash
 npx skills add agentskillexchange/skills --skill elasticsearch-mcp -a codex
 ```
 
 ## Details
 
-| Field | Value |
-|-------|-------|
-| Category | Data Extraction & Transformation |
-| Framework | MCP-compatible |
-| Verification | Security Reviewed |
-| Rating | 4.3/5 (67 reviews) |
+| | |
+|---|---|
+| **Category** | Data Extraction & Transformation |
+| **Framework** | MCP-compatible |
+| **Verification** | 📋 Listed |
+| **Tool** | [elasticsearch](https://github.com/elastic/elasticsearch) — ⭐ 76.4k · NOASSERTION |
 
-## Creator
+---
 
-**Tom Anderson**
-- Profile: [@tanderson](https://agentskillexchange.com/browse-skills/?creator=tanderson)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/elasticsearch-mcp/)
-- [Browse all skills](https://agentskillexchange.com/browse-skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/elasticsearch-mcp/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

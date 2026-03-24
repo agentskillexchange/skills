@@ -2,66 +2,63 @@
 name: "Salesforce MCP Server"
 description: "Use this skill when you need to query, create, or update Salesforce objects like leads, opportunities, accounts, and cases from your AI agent. It gives agents SOQL query access and DML operations against Salesforce orgs for CRM automation and sales process intelligence."
 category: "Integrations & Connectors"
-framework: "MCP"
-verification: security_reviewed
-rating: 4.1
-reviews: 15
-creator: "Mia Zhang"
-creator_handle: "@miazhang"
-creator_verified: true
+framework: "MCP-compatible"
+verification: listed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/salesforce-mcp-server/"
+tool_ecosystem:
+  tool: "salesforce"
+  github_stars: 1452
+  npm_weekly_downloads: 804753
+  github_repo: "jsforce/jsforce"
+  license: "MIT"
+  maintained: true
 ---
+
 # Salesforce MCP Server
 
 Use this skill when you need to query, create, or update Salesforce objects like leads, opportunities, accounts, and cases from your AI agent. It gives agents SOQL query access and DML operations against Salesforce orgs for CRM automation and sales process intelligence.
 
 ## Installation
 
-### Any agent (npx skills)
-
+### Any Agent (npx)
 ```bash
 npx skills add agentskillexchange/skills --skill salesforce-mcp-server
 ```
 
 ### Claude Code
-
 ```bash
 npx skills add agentskillexchange/skills --skill salesforce-mcp-server -a claude-code
 ```
 
 ### Cursor
-
 ```bash
 npx skills add agentskillexchange/skills --skill salesforce-mcp-server -a cursor
 ```
 
 ### OpenClaw
-
 ```bash
 clawhub install salesforce-mcp-server
 ```
 
 ### Codex
-
 ```bash
 npx skills add agentskillexchange/skills --skill salesforce-mcp-server -a codex
 ```
 
 ## Details
 
-| Field | Value |
-|-------|-------|
-| Category | Integrations & Connectors |
-| Framework | MCP-compatible |
-| Verification | Security Reviewed |
-| Rating | 4.1/5 (15 reviews) |
+| | |
+|---|---|
+| **Category** | Integrations & Connectors |
+| **Framework** | MCP-compatible |
+| **Verification** | 📋 Listed |
+| **Tool** | [salesforce](https://github.com/jsforce/jsforce) — ⭐ 1.5k · MIT |
 
-## Creator
+---
 
-**Mia Zhang** (Verified Creator ✓)
-- Profile: [@miazhang](https://agentskillexchange.com/browse-skills/?creator=miazhang)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/salesforce-mcp-server/)
-- [Browse all skills](https://agentskillexchange.com/browse-skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/salesforce-mcp-server/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

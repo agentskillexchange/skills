@@ -4,14 +4,14 @@ description: "Extracts design tokens from Figma files using the Figma REST API v
 category: "Image & Creative Automation"
 framework: "Claude Code"
 verification: security_reviewed
-rating: 4.3
-reviews: 33
-creator: "Carlos Mendez"
-creator_handle: "@carlosmendez"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/figma-design-token-exporter/"
-security: "✅ Reviewed"
 ---
+
 # Figma Design Token Exporter
 
 Extracts design tokens from Figma files using the Figma REST API v1 and transforms them into platform-specific formats via Style Dictionary. Supports CSS custom properties, Tailwind config, and iOS/Android native tokens.
@@ -42,22 +42,15 @@ clawhub install figma-design-token-exporter
 ```bash
 npx skills add agentskillexchange/skills --skill figma-design-token-exporter -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Image & Creative Automation |
 | **Framework** | Claude Code |
-| **Verification** | ✅ Verified |
-| **Security** | ✅ Reviewed |
-| **Rating** | ⭐ 4.3 (33 reviews) |
-
-## Creator
-
-**Carlos Mendez** ✅
-Handle: `@carlosmendez`
-[View Profile on ASE](https://agentskillexchange.com/skills/figma-design-token-exporter/)
+| **Verification** | 🛡️ Security Reviewed |
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/figma-design-token-exporter/) • [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/figma-design-token-exporter/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

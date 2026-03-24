@@ -1,19 +1,27 @@
 ---
 name: "Devcontainer Specification Builder"
-description: "Generates dev container specifications with feature composition and lifecycle hooks. Uses the Dev Container Specification API, OCI feature registry, and devcontainer CLI for container-based development."
+description: "Generates dev container specifications with feature composition and lifecycle hooks. Uses the Dev Container Specification API, OCI feature registry, and devcontainer CLI for container-based development environments."
 category: "Developer Tools"
 framework: "Claude Agents"
-verification: listed
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/devcontainer-specification-builder/"
+tool_ecosystem:
+  tool: "docker"
+  github_stars: 71560
+  npm_weekly_downloads: 0
+  github_repo: "moby/moby"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Devcontainer Specification Builder
 
-Generates dev container specifications with feature composition and lifecycle hooks. Uses the Dev Container Specification API, OCI feature registry, and devcontainer CLI for container-based development.
+Generates dev container specifications with feature composition and lifecycle hooks. Uses the Dev Container Specification API, OCI feature registry, and devcontainer CLI for container-based development environments.
 
 ## Installation
 
@@ -41,22 +49,16 @@ clawhub install devcontainer-specification-builder
 ```bash
 npx skills add agentskillexchange/skills --skill devcontainer-specification-builder -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
-| Category | Developer Tools |
-| Framework | Claude Agents |
-| Verification | Community |
-| Rating | 0 ⭐ (0 reviews) |
+| | |
+|---|---|
+| **Category** | Developer Tools |
+| **Framework** | Claude Agents |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [docker](https://github.com/moby/moby) — ⭐ 71.6k · Apache-2.0 |
 
-## Creator
+---
 
-**Community**
-
-[View Profile](https://agentskillexchange.com/skills/devcontainer-specification-builder/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/devcontainer-specification-builder/)
-- [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/devcontainer-specification-builder/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

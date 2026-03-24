@@ -4,13 +4,14 @@ description: "Extracts YouTube video transcripts via the youtube-transcript-api 
 category: "Media & Transcription"
 framework: "OpenClaw"
 verification: security_reviewed
-rating: 4.9
-reviews: 86
-creator: "Omar Farouk"
-creator_handle: "@omarfarouk"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/youtube-chapter-generator-transcripts/"
 ---
+
 # YouTube Chapter Generator from Transcripts
 
 Extracts YouTube video transcripts via the youtube-transcript-api Python library and generates semantic chapter markers. Uses sentence-transformers for topic segmentation and formats chapter timestamps for YouTube description metadata compliance.
@@ -41,21 +42,15 @@ clawhub install youtube-chapter-generator-transcripts
 ```bash
 npx skills add agentskillexchange/skills --skill youtube-chapter-generator-transcripts -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Media & Transcription |
 | **Framework** | OpenClaw |
-| **Verification** | ✅ Verified 🔒 Reviewed |
-| **Rating** | ⭐⭐⭐⭐ 4.9/5 (86 reviews) |
-
-## Creator
-
-**Omar Farouk** ✅
-Handle: `@omarfarouk`
-[View Profile on ASE](https://agentskillexchange.com/skills/youtube-chapter-generator-transcripts/)
+| **Verification** | 🛡️ Security Reviewed |
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/youtube-chapter-generator-transcripts/) · [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/youtube-chapter-generator-transcripts/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

@@ -4,13 +4,21 @@ description: "Validates Avro, Protobuf, and JSON Schema compatibility against Co
 category: "Data Extraction & Transformation"
 framework: "Claude Agents"
 verification: security_reviewed
-rating: 4.6
-reviews: 64
-creator: "Grace Okafor"
-creator_handle: "@graceokafor"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/kafka-schema-registry-validator/"
+tool_ecosystem:
+  tool: "kafka"
+  github_stars: 3987
+  npm_weekly_downloads: 2396148
+  github_repo: "tulios/kafkajs"
+  license: "MIT"
+  maintained: false
 ---
+
 # Apache Kafka Schema Registry Validator
 
 Validates Avro, Protobuf, and JSON Schema compatibility against Confluent Schema Registry using the REST API. Enforces backward/forward/full compatibility modes and detects breaking schema evolution changes.
@@ -41,23 +49,16 @@ clawhub install kafka-schema-registry-validator
 ```bash
 npx skills add agentskillexchange/skills --skill kafka-schema-registry-validator -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Data Extraction & Transformation |
 | **Framework** | Claude Agents |
-| **Verification** | ✅ Verified |
-| **Security** | ✅ Reviewed |
-| **Rating** | ⭐ 4.6/5.0 (64 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [kafka](https://github.com/tulios/kafkajs) — ⭐ 4.0k · MIT |
 
-## Creator
+---
 
-**Grace Okafor** ✅
-- Handle: @graceokafor
-- [View Profile](https://agentskillexchange.com/creator/graceokafor/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/kafka-schema-registry-validator/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/kafka-schema-registry-validator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

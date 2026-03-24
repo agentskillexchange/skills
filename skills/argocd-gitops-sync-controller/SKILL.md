@@ -2,15 +2,23 @@
 name: "ArgoCD GitOps Sync Controller"
 description: "Manages ArgoCD Application and ApplicationSet resources for Kubernetes GitOps deployments. Uses the ArgoCD REST API and argocd CLI to automate sync waves, health checks, and progressive rollout configurations."
 category: "CI/CD Integrations"
-framework: "MCP"
-verification: verified_metadata
-rating: 4.4
-reviews: 15
-creator: "Omar Farouk"
-creator_handle: "@omarfarouk"
-creator_verified: true
+framework: "MCP-compatible"
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/argocd-gitops-sync-controller/"
+tool_ecosystem:
+  tool: "argocd"
+  github_stars: 22391
+  npm_weekly_downloads: 0
+  github_repo: "argoproj/argo-cd"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # ArgoCD GitOps Sync Controller
 
 Manages ArgoCD Application and ApplicationSet resources for Kubernetes GitOps deployments. Uses the ArgoCD REST API and argocd CLI to automate sync waves, health checks, and progressive rollout configurations.
@@ -41,18 +49,16 @@ clawhub install argocd-gitops-sync-controller
 ```bash
 npx skills add agentskillexchange/skills --skill argocd-gitops-sync-controller -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | CI/CD Integrations |
 | **Framework** | MCP-compatible |
-| **Verification** | Verified |
-| **Rating** | ⭐⭐⭐⭐ 4.4/5 (15 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [argocd](https://github.com/argoproj/argo-cd) — ⭐ 22.4k · Apache-2.0 |
 
-## Creator
+---
 
-**Omar Farouk** @omarfarouk
-✓ Verified Creator
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/argocd-gitops-sync-controller/) · [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/argocd-gitops-sync-controller/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

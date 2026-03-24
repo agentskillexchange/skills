@@ -1,15 +1,24 @@
 ---
 name: "SonarQube Gate Checker"
-description: "Queries the SonarQube Web API (/api/qualitygates/project_status) to evaluate quality gate conditions before merge. Reports code smells, coverage thresholds, and duplications against configurable Sonar"
-category: "Developer Tools"
-framework: "Custom Agents"
-verification: security_reviewed
-rating: 4.6
-reviews: 85
-creator: "Community"
+description: "Queries the SonarQube Web API (/api/qualitygates/project_status) to evaluate quality gate conditions before merge. Reports code smells, coverage thresholds, and duplications against configurable SonarQube quality profiles."
+category: "Templates & Workflows"
+framework: "Any"
+verification: listed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/sonarqube-gate-checker-2/"
+tool_ecosystem:
+  tool: "sonarqube"
+  github_stars: 10357
+  npm_weekly_downloads: 0
+  github_repo: "SonarSource/sonarqube"
+  license: "LGPL-3.0"
+  maintained: true
 ---
+
 # SonarQube Gate Checker
 
 Queries the SonarQube Web API (/api/qualitygates/project_status) to evaluate quality gate conditions before merge. Reports code smells, coverage thresholds, and duplications against configurable SonarQube quality profiles.
@@ -40,20 +49,16 @@ clawhub install sonarqube-gate-checker-2
 ```bash
 npx skills add agentskillexchange/skills --skill sonarqube-gate-checker-2 -a codex
 ```
+
 ## Details
 
 | | |
 |---|---|
-| **Category** | Uncategorized |
-| **Framework** | Unknown |
-| **Verification** | 🔵 Security Reviewed |
-| **Rating** | ⭐⭐⭐⭐ 4.6/5 (85 reviews) |
+| **Category** | Templates & Workflows |
+| **Framework** | Any |
+| **Verification** | 📋 Listed |
+| **Tool** | [sonarqube](https://github.com/SonarSource/sonarqube) — ⭐ 10.4k · LGPL-3.0 |
 
-## Creator
+---
 
-**Community**
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/sonarqube-gate-checker-2/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/sonarqube-gate-checker-2/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

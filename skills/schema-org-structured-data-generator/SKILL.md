@@ -4,13 +4,14 @@ description: "Generates JSON-LD structured data markup for articles, products, F
 category: "Content Writing & SEO"
 framework: "Gemini"
 verification: security_reviewed
-rating: 4.5
-reviews: 75
-creator: "Grace Okafor"
-creator_handle: "@graceokafor"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/schema-org-structured-data-generator/"
 ---
+
 # Schema.org Structured Data Generator
 
 Generates JSON-LD structured data markup for articles, products, FAQs, and how-to pages using Schema.org vocabulary. Validates output against Google Rich Results Test API and SchemaValidator.org endpoints.
@@ -41,17 +42,15 @@ clawhub install schema-org-structured-data-generator
 ```bash
 npx skills add agentskillexchange/skills --skill schema-org-structured-data-generator -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Content Writing & SEO |
 | **Framework** | Gemini |
-| **Verification** | Verified & Security Reviewed |
-| **Rating** | ⭐ 4.5 (75 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
 
-## Creator
+---
 
-**Grace Okafor** @graceokafor ✓ Verified
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/schema-org-structured-data-generator/) · [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/schema-org-structured-data-generator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

@@ -4,13 +4,21 @@ description: "Queries distributed traces from Jaeger and Tempo via their gRPC an
 category: "Library & API Reference"
 framework: "Codex"
 verification: security_reviewed
-rating: 4.0
-reviews: 45
-creator: "Sarah O'Brien"
-creator_handle: "@sarahcodes"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/opentelemetry-trace-analyzer/"
+tool_ecosystem:
+  tool: "grafana"
+  github_stars: 72784
+  npm_weekly_downloads: 0
+  github_repo: "grafana/grafana"
+  license: "AGPL-3.0"
+  maintained: true
 ---
+
 # OpenTelemetry Trace Analyzer
 
 Queries distributed traces from Jaeger and Tempo via their gRPC and HTTP APIs. Identifies latency bottlenecks using OpenTelemetry Collector processors and correlates with Loki log streams.
@@ -41,22 +49,16 @@ clawhub install opentelemetry-trace-analyzer
 ```bash
 npx skills add agentskillexchange/skills --skill opentelemetry-trace-analyzer -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Library & API Reference |
 | **Framework** | Codex |
-| **Verification** | Verified & Security Reviewed |
-| **Rating** | ★★★★☆ (4.0/5 from 45 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [grafana](https://github.com/grafana/grafana) — ⭐ 72.8k · AGPL-3.0 |
 
-## Creator
+---
 
-**Sarah O'Brien** ✓ Verified Creator
-
-[View Profile](https://agentskillexchange.com/creator/sarahcodes/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/opentelemetry-trace-analyzer/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/opentelemetry-trace-analyzer/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

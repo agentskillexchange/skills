@@ -45,18 +45,12 @@ npx skills add agentskillexchange/skills --skill blender-geometry-nodes-script-g
 
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Image & Creative Automation |
 | **Framework** | Custom Agents |
-| **Verification** | Listed |
-| **Rating** | No ratings yet |
+| **Verification** | 📋 Listed |
 
-## Creator
+---
 
-Community Contribution
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/blender-geometry-nodes-script-generator/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/blender-geometry-nodes-script-generator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

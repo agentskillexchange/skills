@@ -3,14 +3,15 @@ name: "Cloudinary Media Optimization Agent"
 description: "Automates image and video optimization workflows via the Cloudinary Upload and Admin APIs. Applies responsive breakpoints, format negotiation, and intelligent cropping with gravity detection."
 category: "Image & Creative Automation"
 framework: "Claude Agents"
-verification: listed
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Leo Park"
-creator_handle: "@leopark_ai"
-creator_verified: true
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/cloudinary-media-optimization-agent/"
 ---
+
 # Cloudinary Media Optimization Agent
 
 Automates image and video optimization workflows via the Cloudinary Upload and Admin APIs. Applies responsive breakpoints, format negotiation, and intelligent cropping with gravity detection.
@@ -41,21 +42,15 @@ clawhub install cloudinary-media-optimization-agent
 ```bash
 npx skills add agentskillexchange/skills --skill cloudinary-media-optimization-agent -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Image & Creative Automation |
 | **Framework** | Claude Agents |
-| **Verification** | community |
-| **Rating** | 4.3 (0 reviews) |
-
-## Creator
-
-**Leo Park** ✓
-
-[Profile](https://agentskillexchange.com/creator/@leopark_ai/)
+| **Verification** | 🛡️ Security Reviewed |
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/cloudinary-media-optimization-agent/) · [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/cloudinary-media-optimization-agent/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

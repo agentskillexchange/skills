@@ -3,14 +3,22 @@ name: "AsyncAPI Event Catalog Builder"
 description: "Generates event-driven architecture documentation from AsyncAPI 3.0 specifications. Uses the AsyncAPI parser-js library to extract channels, message schemas, and server bindings for Kafka and RabbitMQ."
 category: "Library & API Reference"
 framework: "Gemini"
-verification: verified_metadata
-rating: 4.0
-reviews: 36
-creator: "Priya Sharma"
-creator_handle: "@priyasharma"
-creator_verified: true
+verification: listed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/asyncapi-event-catalog-builder/"
+tool_ecosystem:
+  tool: "kafka"
+  github_stars: 3987
+  npm_weekly_downloads: 2396148
+  github_repo: "tulios/kafkajs"
+  license: "MIT"
+  maintained: false
 ---
+
 # AsyncAPI Event Catalog Builder
 
 Generates event-driven architecture documentation from AsyncAPI 3.0 specifications. Uses the AsyncAPI parser-js library to extract channels, message schemas, and server bindings for Kafka and RabbitMQ.
@@ -41,21 +49,16 @@ clawhub install asyncapi-event-catalog-builder
 ```bash
 npx skills add agentskillexchange/skills --skill asyncapi-event-catalog-builder -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Library & API Reference |
 | **Framework** | Gemini |
-| **Verification** | Verified |
-| **Rating** | ⭐⭐⭐⭐ 4.0/5 (36 reviews) |
+| **Verification** | 📋 Listed |
+| **Tool** | [kafka](https://github.com/tulios/kafkajs) — ⭐ 4.0k · MIT |
 
-## Creator
+---
 
-**Priya Sharma** ✓
-[View Profile](https://agentskillexchange.com/creator/priyasharma/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/asyncapi-event-catalog-builder/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/asyncapi-event-catalog-builder/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

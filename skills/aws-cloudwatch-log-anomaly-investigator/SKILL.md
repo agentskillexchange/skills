@@ -6,11 +6,19 @@ framework: "ChatGPT Agents"
 verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/aws-cloudwatch-log-anomaly-investigator/"
+tool_ecosystem:
+  tool: "aws"
+  github_stars: 3594
+  npm_weekly_downloads: 9204385
+  github_repo: "aws/aws-sdk-js-v3"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # AWS CloudWatch Log Anomaly Investigator
 
 Investigates anomalous patterns in AWS CloudWatch Logs using the CloudWatch Logs Insights API and CloudWatch Anomaly Detection. Correlates log spikes with deployment events via AWS CodeDeploy API.
@@ -41,22 +49,16 @@ clawhub install aws-cloudwatch-log-anomaly-investigator
 ```bash
 npx skills add agentskillexchange/skills --skill aws-cloudwatch-log-anomaly-investigator -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Runbooks & Diagnostics |
 | **Framework** | ChatGPT Agents |
-| **Verification** | security_reviewed |
-| **Rating** | 0 ⭐ (0 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [aws](https://github.com/aws/aws-sdk-js-v3) — ⭐ 3.6k · Apache-2.0 |
 
-## Creator
+---
 
-**Community** 
-
-
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/aws-cloudwatch-log-anomaly-investigator/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/aws-cloudwatch-log-anomaly-investigator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

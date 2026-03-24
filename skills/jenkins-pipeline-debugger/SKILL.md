@@ -4,64 +4,61 @@ description: "Connects to Jenkins via the Jenkins REST API and Blue Ocean API to
 category: "CI/CD Integrations"
 framework: "Claude Agents"
 verification: security_reviewed
-rating: 4.6
-reviews: 86
-creator: "Leo Park"
-creator_handle: "@leopark"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/jenkins-pipeline-debugger/"
+tool_ecosystem:
+  tool: "jenkins"
+  github_stars: 25122
+  npm_weekly_downloads: 0
+  github_repo: "jenkinsci/jenkins"
+  license: "MIT"
+  maintained: true
 ---
+
 # Jenkins Pipeline Debugger
 
 Connects to Jenkins via the Jenkins REST API and Blue Ocean API to debug Declarative and Scripted pipelines. Retrieves stage logs, replays failed builds, and traces Groovy CPS execution state.
 
 ## Installation
 
-### Any agent (npx skills)
-
+### Any Agent (npx)
 ```bash
 npx skills add agentskillexchange/skills --skill jenkins-pipeline-debugger
 ```
 
 ### Claude Code
-
 ```bash
 npx skills add agentskillexchange/skills --skill jenkins-pipeline-debugger -a claude-code
 ```
 
 ### Cursor
-
 ```bash
 npx skills add agentskillexchange/skills --skill jenkins-pipeline-debugger -a cursor
 ```
 
 ### OpenClaw
-
 ```bash
 clawhub install jenkins-pipeline-debugger
 ```
 
 ### Codex
-
 ```bash
 npx skills add agentskillexchange/skills --skill jenkins-pipeline-debugger -a codex
 ```
 
 ## Details
 
-| Field | Value |
-|-------|-------|
-| Category | CI/CD Integrations |
-| Framework | Claude Agents |
-| Verification | Security Reviewed |
-| Rating | 4.6/5 (86 reviews) |
+| | |
+|---|---|
+| **Category** | CI/CD Integrations |
+| **Framework** | Claude Agents |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [jenkins](https://github.com/jenkinsci/jenkins) — ⭐ 25.1k · MIT |
 
-## Creator
+---
 
-**Leo Park** (Verified Creator ✓)
-- Profile: [@leopark](https://agentskillexchange.com/browse-skills/?creator=leopark)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-pipeline-debugger/)
-- [Browse all skills](https://agentskillexchange.com/browse-skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-pipeline-debugger/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

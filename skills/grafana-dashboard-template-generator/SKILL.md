@@ -4,13 +4,21 @@ description: "Programmatically creates Grafana dashboard JSON models using the G
 category: "Monitoring & Alerts"
 framework: "Cursor"
 verification: security_reviewed
-rating: 4.6
-reviews: 65
-creator: "Ben Taylor"
-creator_handle: "@bentaylor"
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/grafana-dashboard-template-generator/"
+tool_ecosystem:
+  tool: "grafana"
+  github_stars: 72784
+  npm_weekly_downloads: 0
+  github_repo: "grafana/grafana"
+  license: "AGPL-3.0"
+  maintained: true
 ---
+
 # Grafana Dashboard Template Generator
 
 Programmatically creates Grafana dashboard JSON models using the Grafana HTTP API and grafonnet-lib. Supports templated variables, panel linking, and multi-datasource layouts for Prometheus, Loki, and Tempo.
@@ -41,22 +49,16 @@ clawhub install grafana-dashboard-template-generator
 ```bash
 npx skills add agentskillexchange/skills --skill grafana-dashboard-template-generator -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Monitoring & Alerts |
 | **Framework** | Cursor |
-| **Verification** | ✅ Verified |
-| **Security** | ✅ Reviewed |
-| **Rating** | ⭐ 4.6 (65 reviews) |
-
-## Creator
-
-**Ben Taylor** 
-Handle: `@bentaylor`
-[View Profile on ASE](https://agentskillexchange.com/skills/grafana-dashboard-template-generator/)
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [grafana](https://github.com/grafana/grafana) — ⭐ 72.8k · AGPL-3.0 |
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/grafana-dashboard-template-generator/) • [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/grafana-dashboard-template-generator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

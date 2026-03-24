@@ -3,14 +3,22 @@ name: "Tekton Pipeline Chain Validator"
 description: "Validates Tekton pipeline supply chain security using Sigstore cosign verification and SLSA provenance checks. Ensures all pipeline tasks have signed images and proper attestation metadata via the Tekton Results API."
 category: "CI/CD Integrations"
 framework: "OpenClaw"
-verification: verified_metadata
-rating: 4.7
-reviews: 16
-creator: "Omar Farouk"
-creator_handle: "@omarfarouk"
-creator_verified: true
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/tekton-pipeline-chain-validator/"
+tool_ecosystem:
+  tool: "tekton"
+  github_stars: 8920
+  npm_weekly_downloads: 0
+  github_repo: "tektoncd/pipeline"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Tekton Pipeline Chain Validator
 
 Validates Tekton pipeline supply chain security using Sigstore cosign verification and SLSA provenance checks. Ensures all pipeline tasks have signed images and proper attestation metadata via the Tekton Results API.
@@ -41,22 +49,16 @@ clawhub install tekton-pipeline-chain-validator
 ```bash
 npx skills add agentskillexchange/skills --skill tekton-pipeline-chain-validator -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | CI/CD Integrations |
 | **Framework** | OpenClaw |
-| **Verification** | Verified |
-| **Rating** | ⭐⭐⭐⭐ 4.7/5 (16 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [tekton](https://github.com/tektoncd/pipeline) — ⭐ 8.9k · Apache-2.0 |
 
-## Creator
+---
 
-**Omar Farouk** ✓
-
-[View Profile](https://agentskillexchange.com/creator/omarfarouk/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/tekton-pipeline-chain-validator/)
-- [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/tekton-pipeline-chain-validator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

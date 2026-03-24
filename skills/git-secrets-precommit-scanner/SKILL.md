@@ -3,14 +3,22 @@ name: "Git Secrets Pre-Commit Scanner"
 description: "Scans git diffs for exposed secrets using truffleHog entropy detection and custom regex patterns. Integrates with pre-commit hooks and GitHub push protection API for real-time blocking."
 category: "Security & Verification"
 framework: "OpenClaw"
-verification: listed
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/git-secrets-precommit-scanner/"
+tool_ecosystem:
+  tool: "stripe"
+  github_stars: 4377
+  npm_weekly_downloads: 8442269
+  github_repo: "stripe/stripe-node"
+  license: "MIT"
+  maintained: true
 ---
+
 # Git Secrets Pre-Commit Scanner
 
 Scans git diffs for exposed secrets using truffleHog entropy detection and custom regex patterns. Integrates with pre-commit hooks and GitHub push protection API for real-time blocking.
@@ -41,20 +49,16 @@ clawhub install git-secrets-precommit-scanner
 ```bash
 npx skills add agentskillexchange/skills --skill git-secrets-precommit-scanner -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Security & Verification |
 | **Framework** | OpenClaw |
-| **Verification** |  |
-| **Rating** | 0 (0 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [stripe](https://github.com/stripe/stripe-node) — ⭐ 4.4k · MIT |
 
-## Creator
+---
 
-**Community**
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/git-secrets-precommit-scanner/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/git-secrets-precommit-scanner/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

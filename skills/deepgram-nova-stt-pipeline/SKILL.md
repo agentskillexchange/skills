@@ -4,12 +4,19 @@ description: "Real-time speech-to-text using Deepgram Nova-2 API with streaming 
 category: "Media & Transcription"
 framework: "Claude Code"
 verification: security_reviewed
-rating: 4.1
-reviews: 78
-creator: "Elena Rodriguez"
-creator_handle: "@elena_dev"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/deepgram-nova-stt-pipeline/"
+tool_ecosystem:
+  tool: "ffmpeg"
+  github_stars: 58257
+  npm_weekly_downloads: 0
+  github_repo: "FFmpeg/FFmpeg"
+  license: "NOASSERTION"
+  maintained: true
 ---
 
 # Deepgram Nova STT Pipeline
@@ -45,15 +52,13 @@ npx skills add agentskillexchange/skills --skill deepgram-nova-stt-pipeline -a c
 
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Media & Transcription |
 | **Framework** | Claude Code |
-| **Verification** | Security Reviewed |
-| **Rating** | ⭐ 4.1 (78 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [ffmpeg](https://github.com/FFmpeg/FFmpeg) — ⭐ 58.3k · NOASSERTION |
 
-## Creator
+---
 
-**Elena Rodriguez** (@elena_dev) ✓
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/deepgram-nova-stt-pipeline/) · [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/deepgram-nova-stt-pipeline/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

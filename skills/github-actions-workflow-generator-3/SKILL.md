@@ -3,14 +3,15 @@ name: "GitHub Actions Workflow Generator"
 description: "Generates GitHub Actions workflow YAML files using the GitHub REST API v3 and Actions API. Supports matrix builds, reusable workflows, and composite actions with caching via actions/cache."
 category: "CI/CD Integrations"
 framework: "Claude Code"
-verification: verified_metadata
-rating: 4.9
-reviews: 86
-creator: "Community"
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/github-actions-workflow-generator-3/"
 ---
+
 # GitHub Actions Workflow Generator
 
 Generates GitHub Actions workflow YAML files using the GitHub REST API v3 and Actions API. Supports matrix builds, reusable workflows, and composite actions with caching via actions/cache.
@@ -41,17 +42,15 @@ clawhub install github-actions-workflow-generator-3
 ```bash
 npx skills add agentskillexchange/skills --skill github-actions-workflow-generator-3 -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | CI/CD Integrations |
 | **Framework** | Claude Code |
-| **Verification** | ✅ Verified Metadata |
-| **Rating** | ⭐⭐⭐⭐⭐ 4.9/5 (86 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
 
-## Creator
+---
 
-**Community**
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/github-actions-workflow-generator-3/) · [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/github-actions-workflow-generator-3/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

@@ -3,14 +3,22 @@ name: "Dockerfile Security Hardening Advisor"
 description: "Audits Dockerfiles for security vulnerabilities using Hadolint and Trivy container scanner. Recommends hardening steps based on CIS Docker Benchmark and Snyk container advisories."
 category: "Runbooks & Diagnostics"
 framework: "Claude Code"
-verification: verified_metadata
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/dockerfile-security-hardening-advisor/"
+tool_ecosystem:
+  tool: "docker"
+  github_stars: 71560
+  npm_weekly_downloads: 0
+  github_repo: "moby/moby"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Dockerfile Security Hardening Advisor
 
 Audits Dockerfiles for security vulnerabilities using Hadolint and Trivy container scanner. Recommends hardening steps based on CIS Docker Benchmark and Snyk container advisories.
@@ -41,22 +49,16 @@ clawhub install dockerfile-security-hardening-advisor
 ```bash
 npx skills add agentskillexchange/skills --skill dockerfile-security-hardening-advisor -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Runbooks & Diagnostics |
 | **Framework** | Claude Code |
-| **Verification** | verified_metadata |
-| **Rating** | 0 ⭐ (0 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [docker](https://github.com/moby/moby) — ⭐ 71.6k · Apache-2.0 |
 
-## Creator
+---
 
-**Community** 
-
-
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/dockerfile-security-hardening-advisor/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/dockerfile-security-hardening-advisor/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

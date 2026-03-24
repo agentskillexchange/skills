@@ -3,13 +3,22 @@ name: "Jenkins Pipeline Linter & Fixer"
 description: "Validates Jenkinsfile declarative pipelines using the Jenkins Pipeline Linter API endpoint (/pipeline-model-converter/validate). Auto-fixes common syntax issues and stages missing agent directives."
 category: "CI/CD Integrations"
 framework: "Cursor"
-verification: verified_metadata
-rating: 4.3
-reviews: 86
-creator: "Community"
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/jenkins-pipeline-linter-fixer/"
+tool_ecosystem:
+  tool: "jenkins"
+  github_stars: 25122
+  npm_weekly_downloads: 0
+  github_repo: "jenkinsci/jenkins"
+  license: "MIT"
+  maintained: true
 ---
+
 # Jenkins Pipeline Linter & Fixer
 
 Validates Jenkinsfile declarative pipelines using the Jenkins Pipeline Linter API endpoint (/pipeline-model-converter/validate). Auto-fixes common syntax issues and stages missing agent directives.
@@ -40,20 +49,16 @@ clawhub install jenkins-pipeline-linter-fixer
 ```bash
 npx skills add agentskillexchange/skills --skill jenkins-pipeline-linter-fixer -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
-| Category | CI/CD Integrations |
-| Framework | Cursor |
-| Verification | Verified Metadata |
-| Rating | 4.3 ⭐⭐⭐⭐ (86 reviews) |
+| | |
+|---|---|
+| **Category** | CI/CD Integrations |
+| **Framework** | Cursor |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [jenkins](https://github.com/jenkinsci/jenkins) — ⭐ 25.1k · MIT |
 
-## Creator
+---
 
-**Community**
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-pipeline-linter-fixer/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-pipeline-linter-fixer/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

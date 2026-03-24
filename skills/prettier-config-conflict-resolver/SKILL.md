@@ -4,64 +4,61 @@ description: "Detects and resolves conflicts between Prettier, ESLint, and Edito
 category: "Code Quality & Review"
 framework: "Gemini"
 verification: security_reviewed
-rating: 4.4
-reviews: 34
-creator: "Sofia Petrov"
-creator_handle: "@sofiapetrov"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/prettier-config-conflict-resolver/"
+tool_ecosystem:
+  tool: "eslint"
+  github_stars: 27186
+  npm_weekly_downloads: 109028697
+  github_repo: "eslint/eslint"
+  license: "MIT"
+  maintained: true
 ---
+
 # Prettier Config Conflict Resolver
 
 Detects and resolves conflicts between Prettier, ESLint, and EditorConfig formatting rules using the Prettier resolveConfig API and eslint-config-prettier compatibility checker.
 
 ## Installation
 
-### Any agent (npx skills)
-
+### Any Agent (npx)
 ```bash
 npx skills add agentskillexchange/skills --skill prettier-config-conflict-resolver
 ```
 
 ### Claude Code
-
 ```bash
 npx skills add agentskillexchange/skills --skill prettier-config-conflict-resolver -a claude-code
 ```
 
 ### Cursor
-
 ```bash
 npx skills add agentskillexchange/skills --skill prettier-config-conflict-resolver -a cursor
 ```
 
 ### OpenClaw
-
 ```bash
 clawhub install prettier-config-conflict-resolver
 ```
 
 ### Codex
-
 ```bash
 npx skills add agentskillexchange/skills --skill prettier-config-conflict-resolver -a codex
 ```
 
 ## Details
 
-| Field | Value |
-|-------|-------|
-| Category | Code Quality & Review |
-| Framework | Gemini |
-| Verification | Security Reviewed |
-| Rating | 4.4/5 (34 reviews) |
+| | |
+|---|---|
+| **Category** | Code Quality & Review |
+| **Framework** | Gemini |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [eslint](https://github.com/eslint/eslint) — ⭐ 27.2k · MIT |
 
-## Creator
+---
 
-**Sofia Petrov** (Verified Creator ✓)
-- Profile: [@sofiapetrov](https://agentskillexchange.com/browse-skills/?creator=sofiapetrov)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/prettier-config-conflict-resolver/)
-- [Browse all skills](https://agentskillexchange.com/browse-skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/prettier-config-conflict-resolver/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

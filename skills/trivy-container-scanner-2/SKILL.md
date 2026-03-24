@@ -4,13 +4,21 @@ description: "Wraps the Trivy CLI for comprehensive container image vulnerabilit
 category: "Security & Verification"
 framework: "OpenClaw"
 verification: security_reviewed
-rating: 4.7
-reviews: 84
-creator: "Marcus Chen"
-creator_handle: "@marcuschen"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/trivy-container-scanner-2/"
+tool_ecosystem:
+  tool: "trivy"
+  github_stars: 33887
+  npm_weekly_downloads: 0
+  github_repo: "aquasecurity/trivy"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Trivy Container Scanner
 
 Wraps the Trivy CLI for comprehensive container image vulnerability scanning. Outputs results in SARIF format for GitHub Code Scanning API integration and generates OCI artifact attestations.
@@ -41,22 +49,16 @@ clawhub install trivy-container-scanner-2
 ```bash
 npx skills add agentskillexchange/skills --skill trivy-container-scanner-2 -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Security & Verification |
 | **Framework** | OpenClaw |
-| **Verification** | Verified & Security Reviewed |
-| **Rating** | ★★★★½ (4.7/5 from 84 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [trivy](https://github.com/aquasecurity/trivy) — ⭐ 33.9k · Apache-2.0 |
 
-## Creator
+---
 
-**Marcus Chen** ✓ Verified Creator
-
-[View Profile](https://agentskillexchange.com/creator/marcuschen/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/trivy-container-scanner-2/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/trivy-container-scanner-2/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

@@ -4,13 +4,14 @@ description: "Automates git bisect workflows with custom test scripts and CI pip
 category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
-rating: 4.9
-reviews: 75
-creator: "Nina Volkov"
-creator_handle: "@ninavolkov"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/git-bisect-automator/"
 ---
+
 # Git Bisect Automator
 
 Automates git bisect workflows with custom test scripts and CI pipeline integration. Uses the Git CLI and GitHub Actions API to identify regression-introducing commits across large repositories.
@@ -41,24 +42,15 @@ clawhub install git-bisect-automator
 ```bash
 npx skills add agentskillexchange/skills --skill git-bisect-automator -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Developer Tools |
 | **Framework** | Claude Code |
-| **Verification** | ✅ Verified |
-| **Security Review** | ✅ Reviewed |
-| **Rating** | ⭐ 4.9 (75 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
 
-## Creator
+---
 
-**Nina Volkov** ✅
-@ninavolkov
-
-[View Profile on ASE](https://agentskillexchange.com/creator/ninavolkov/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/git-bisect-automator/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/git-bisect-automator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

@@ -2,15 +2,23 @@
 name: "Grafana Alert Router"
 description: "Routes Grafana alerting webhook payloads to Slack, PagerDuty, and OpsGenie channels based on label matching rules. Supports alert grouping and silence management via the Grafana Alerting API."
 category: "Monitoring & Alerts"
-framework: "MCP"
-verification: verified_metadata
-rating: 4.9
-reviews: 9
-creator: "Lucy Zhang"
-creator_handle: "@lucyzhang"
-creator_verified: true
+framework: "MCP-compatible"
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/grafana-alert-router/"
+tool_ecosystem:
+  tool: "grafana"
+  github_stars: 72784
+  npm_weekly_downloads: 0
+  github_repo: "grafana/grafana"
+  license: "AGPL-3.0"
+  maintained: true
 ---
+
 # Grafana Alert Router
 
 Routes Grafana alerting webhook payloads to Slack, PagerDuty, and OpsGenie channels based on label matching rules. Supports alert grouping and silence management via the Grafana Alerting API.
@@ -41,21 +49,16 @@ clawhub install grafana-alert-router
 ```bash
 npx skills add agentskillexchange/skills --skill grafana-alert-router -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Monitoring & Alerts |
 | **Framework** | MCP-compatible |
-| **Verification** | Verified |
-| **Rating** | ⭐⭐⭐⭐ 4.9/5 (9 reviews) |
-
-## Creator
-
-**Lucy Zhang** ✅
-- Handle: [@lucyzhang](https://agentskillexchange.com/creator/lucyzhang/)
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/grafana-alert-router/)
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [grafana](https://github.com/grafana/grafana) — ⭐ 72.8k · AGPL-3.0 |
 
 ---
 
-[Browse all skills](https://agentskillexchange.com/) | [Submit a skill](https://agentskillexchange.com/submit/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/grafana-alert-router/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

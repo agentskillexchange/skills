@@ -4,64 +4,61 @@ description: "Diagnoses CrashLoopBackOff and OOMKilled pod failures using the Ku
 category: "Runbooks & Diagnostics"
 framework: "Codex"
 verification: security_reviewed
-rating: 4.1
-reviews: 86
-creator: "Luna Martinez"
-creator_handle: "@lunamartinez"
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/kubernetes-pod-crash-investigator-3/"
+tool_ecosystem:
+  tool: "kubernetes"
+  github_stars: 121313
+  npm_weekly_downloads: 0
+  github_repo: "kubernetes/kubernetes"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Kubernetes Pod Crash Investigator
 
 Diagnoses CrashLoopBackOff and OOMKilled pod failures using the Kubernetes API via kubectl and the official kubernetes-client/python SDK. Correlates container logs, resource limits, and node conditions for root cause analysis.
 
 ## Installation
 
-### Any agent (npx skills)
-
+### Any Agent (npx)
 ```bash
 npx skills add agentskillexchange/skills --skill kubernetes-pod-crash-investigator-3
 ```
 
 ### Claude Code
-
 ```bash
 npx skills add agentskillexchange/skills --skill kubernetes-pod-crash-investigator-3 -a claude-code
 ```
 
 ### Cursor
-
 ```bash
 npx skills add agentskillexchange/skills --skill kubernetes-pod-crash-investigator-3 -a cursor
 ```
 
 ### OpenClaw
-
 ```bash
 clawhub install kubernetes-pod-crash-investigator-3
 ```
 
 ### Codex
-
 ```bash
 npx skills add agentskillexchange/skills --skill kubernetes-pod-crash-investigator-3 -a codex
 ```
 
 ## Details
 
-| Field | Value |
-|-------|-------|
-| Category | Runbooks & Diagnostics |
-| Framework | Codex |
-| Verification | Security Reviewed |
-| Rating | 4.1/5 (86 reviews) |
+| | |
+|---|---|
+| **Category** | Runbooks & Diagnostics |
+| **Framework** | Codex |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [kubernetes](https://github.com/kubernetes/kubernetes) — ⭐ 121.3k · Apache-2.0 |
 
-## Creator
+---
 
-**Luna Martinez**
-- Profile: [@lunamartinez](https://agentskillexchange.com/browse-skills/?creator=lunamartinez)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-pod-crash-investigator-3/)
-- [Browse all skills](https://agentskillexchange.com/browse-skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-pod-crash-investigator-3/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

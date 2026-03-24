@@ -3,14 +3,22 @@ name: "Apache Camel Route Data Mapper"
 description: "Maps and transforms data between systems using Apache Camel route definitions and the Camel Component API. Supports XSLT, JSONPath, and DataFormat transformations via camel-core SDK."
 category: "Data Extraction & Transformation"
 framework: "Custom Agents"
-verification: verified_metadata
-rating: 4.7
-reviews: 86
-creator: "Nina Volkov"
-creator_handle: "@ninavolkov"
-creator_verified: true
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/apache-camel-route-data-mapper/"
+tool_ecosystem:
+  tool: "kafka"
+  github_stars: 3987
+  npm_weekly_downloads: 2396148
+  github_repo: "tulios/kafkajs"
+  license: "MIT"
+  maintained: false
 ---
+
 # Apache Camel Route Data Mapper
 
 Maps and transforms data between systems using Apache Camel route definitions and the Camel Component API. Supports XSLT, JSONPath, and DataFormat transformations via camel-core SDK.
@@ -41,22 +49,16 @@ clawhub install apache-camel-route-data-mapper
 ```bash
 npx skills add agentskillexchange/skills --skill apache-camel-route-data-mapper -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Data Extraction & Transformation |
 | **Framework** | Custom Agents |
-| **Verification** | Verified |
-| **Rating** | ⭐⭐⭐⭐ 4.7/5 (86 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [kafka](https://github.com/tulios/kafkajs) — ⭐ 4.0k · MIT |
 
-## Creator
+---
 
-**Nina Volkov** @ninavolkov  
-✅ Verified Creator  
-[View Profile](https://agentskillexchange.com/skills/apache-camel-route-data-mapper/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/apache-camel-route-data-mapper/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/apache-camel-route-data-mapper/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

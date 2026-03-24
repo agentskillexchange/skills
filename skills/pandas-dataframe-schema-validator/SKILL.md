@@ -3,14 +3,22 @@ name: "Pandas DataFrame Schema Validator"
 description: "Validates Pandas DataFrame structures using the pandera library API and pa.DataFrameSchema definitions. Enforces column types, nullable constraints, and custom check functions via pandera.Check."
 category: "Data Extraction & Transformation"
 framework: "OpenClaw"
-verification: verified_metadata
-rating: 4.8
-reviews: 13
-creator: "Lucy Zhang"
-creator_handle: "@lucyzhang"
-creator_verified: true
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/pandas-dataframe-schema-validator/"
+tool_ecosystem:
+  tool: "pandas"
+  github_stars: 48224
+  npm_weekly_downloads: 0
+  github_repo: "pandas-dev/pandas"
+  license: "BSD-3-Clause"
+  maintained: true
 ---
+
 # Pandas DataFrame Schema Validator
 
 Validates Pandas DataFrame structures using the pandera library API and pa.DataFrameSchema definitions. Enforces column types, nullable constraints, and custom check functions via pandera.Check.
@@ -41,22 +49,16 @@ clawhub install pandas-dataframe-schema-validator
 ```bash
 npx skills add agentskillexchange/skills --skill pandas-dataframe-schema-validator -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Data Extraction & Transformation |
 | **Framework** | OpenClaw |
-| **Verification** | Verified |
-| **Rating** | ⭐⭐⭐⭐ 4.8/5 (13 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [pandas](https://github.com/pandas-dev/pandas) — ⭐ 48.2k · BSD-3-Clause |
 
-## Creator
+---
 
-**Lucy Zhang** @lucyzhang  
-✅ Verified Creator  
-[View Profile](https://agentskillexchange.com/skills/pandas-dataframe-schema-validator/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/pandas-dataframe-schema-validator/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/pandas-dataframe-schema-validator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

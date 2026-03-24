@@ -3,14 +3,22 @@ name: "NPM Package Explorer"
 description: "Explores the npm registry using the Registry API and npms.io scoring API. Analyzes package quality, dependency trees, and bundle sizes via bundlephobia API."
 category: "Library & API Reference"
 framework: "Cursor"
-verification: listed
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/npm-package-explorer-registry-api/"
+tool_ecosystem:
+  tool: "snyk"
+  github_stars: 5457
+  npm_weekly_downloads: 601684
+  github_repo: "snyk/cli"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # NPM Package Explorer
 
 Explores the npm registry using the Registry API and npms.io scoring API. Analyzes package quality, dependency trees, and bundle sizes via bundlephobia API.
@@ -41,20 +49,16 @@ clawhub install npm-package-explorer-registry-api
 ```bash
 npx skills add agentskillexchange/skills --skill npm-package-explorer-registry-api -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Library & API Reference |
 | **Framework** | Cursor |
-| **Verification** | community |
-| **Rating** | Not yet rated (0 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [snyk](https://github.com/snyk/cli) — ⭐ 5.5k · NOASSERTION |
 
-## Creator
+---
 
-**Community**
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/npm-package-explorer-registry-api/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/npm-package-explorer-registry-api/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

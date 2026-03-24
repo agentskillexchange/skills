@@ -3,14 +3,22 @@ name: "Playwright E2E Test Generator"
 description: "Generates Playwright test suites from natural language descriptions using the Playwright Test API. Supports cross-browser testing with Chromium, Firefox, and WebKit via BrowserContext fixtures."
 category: "Developer Tools"
 framework: "Claude Code"
-verification: listed
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/playwright-e2e-test-generator/"
+tool_ecosystem:
+  tool: "playwright"
+  github_stars: 84874
+  npm_weekly_downloads: 39806814
+  github_repo: "microsoft/playwright"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Playwright E2E Test Generator
 
 Generates Playwright test suites from natural language descriptions using the Playwright Test API. Supports cross-browser testing with Chromium, Firefox, and WebKit via BrowserContext fixtures.
@@ -41,22 +49,16 @@ clawhub install playwright-e2e-test-generator
 ```bash
 npx skills add agentskillexchange/skills --skill playwright-e2e-test-generator -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Developer Tools |
 | **Framework** | Claude Code |
-| **Verification** |  |
-| **Rating** | 4.1 (0 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [playwright](https://github.com/microsoft/playwright) — ⭐ 84.9k · Apache-2.0 |
 
-## Creator
+---
 
-**Community**
-
-
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/playwright-e2e-test-generator/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/playwright-e2e-test-generator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

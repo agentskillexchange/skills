@@ -4,13 +4,21 @@ description: "Creates end-to-end tests with Cypress cy.intercept() for API mocki
 category: "Browser Automation"
 framework: "Codex"
 verification: security_reviewed
-rating: 4.7
-reviews: 17
-creator: "Ryan O'Malley"
-creator_handle: "@ryanomalley"
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/cypress-e2e-api-intercept-skill/"
+tool_ecosystem:
+  tool: "cypress"
+  github_stars: 49612
+  npm_weekly_downloads: 7404178
+  github_repo: "cypress-io/cypress"
+  license: "MIT"
+  maintained: true
 ---
+
 # Cypress E2E API Intercept Skill
 
 Creates end-to-end tests with Cypress cy.intercept() for API mocking and cy.wait() for request assertion. Uses Cypress Testing Library queries with findByRole() and findByText() for accessible element selection.
@@ -41,17 +49,16 @@ clawhub install cypress-e2e-api-intercept-skill
 ```bash
 npx skills add agentskillexchange/skills --skill cypress-e2e-api-intercept-skill -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Browser Automation |
 | **Framework** | Codex |
-| **Verification** | Verified & Security Reviewed |
-| **Rating** | ⭐ 4.7 (17 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [cypress](https://github.com/cypress-io/cypress) — ⭐ 49.6k · MIT |
 
-## Creator
+---
 
-**Ryan O'Malley** @ryanomalley 
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/cypress-e2e-api-intercept-skill/) · [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/cypress-e2e-api-intercept-skill/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

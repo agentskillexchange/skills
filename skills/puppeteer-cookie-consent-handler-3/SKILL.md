@@ -4,14 +4,21 @@ description: "Detects and dismisses cookie consent banners across websites using
 category: "Browser Automation"
 framework: "Claude Code"
 verification: security_reviewed
-rating: 4.8
-reviews: 86
-creator: "Carlos Mendez"
-creator_handle: "@carlosmendez"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/puppeteer-cookie-consent-handler-3/"
-security: "🔒 Reviewed"
+tool_ecosystem:
+  tool: "puppeteer"
+  github_stars: 93912
+  npm_weekly_downloads: 8696130
+  github_repo: "puppeteer/puppeteer"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Puppeteer Cookie Consent Handler
 
 Detects and dismisses cookie consent banners across websites using Puppeteer page.evaluate selectors and the CMP (Consent Management Platform) protocol. Supports IAB TCF v2.0 consent strings and GDPR/CCPA banner patterns.
@@ -42,23 +49,16 @@ clawhub install puppeteer-cookie-consent-handler-3
 ```bash
 npx skills add agentskillexchange/skills --skill puppeteer-cookie-consent-handler-3 -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Browser Automation |
 | **Framework** | Claude Code |
-| **Verification** | ✅ Verified |
-| **Security** | 🔒 Reviewed |
-| **Rating** | ⭐⭐⭐⭐ 4.8/5 (86 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [puppeteer](https://github.com/puppeteer/puppeteer) — ⭐ 93.9k · Apache-2.0 |
 
-## Creator
+---
 
-**Carlos Mendez** ✅
-Handle: `@carlosmendez`
-[View Profile on ASE](https://agentskillexchange.com/skills/puppeteer-cookie-consent-handler-3/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/puppeteer-cookie-consent-handler-3/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/puppeteer-cookie-consent-handler-3/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

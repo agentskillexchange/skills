@@ -4,13 +4,21 @@ description: "Generates Playwright test scripts for Chromium, Firefox, and WebKi
 category: "Browser Automation"
 framework: "Codex"
 verification: security_reviewed
-rating: 4.6
-reviews: 83
-creator: "Leo Park"
-creator_handle: "@leopark_ai"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/playwright-multi-browser-test-generator/"
+tool_ecosystem:
+  tool: "playwright"
+  github_stars: 84874
+  npm_weekly_downloads: 39806814
+  github_repo: "microsoft/playwright"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Playwright Multi-Browser Test Generator
 
 Generates Playwright test scripts for Chromium, Firefox, and WebKit from natural language descriptions. Uses the Playwright codegen recorder API and assertion library for reliable E2E tests.
@@ -41,21 +49,16 @@ clawhub install playwright-multi-browser-test-generator
 ```bash
 npx skills add agentskillexchange/skills --skill playwright-multi-browser-test-generator -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Browser Automation |
 | **Framework** | Codex |
-| **Verification** | ✅ Verified |
-| **Rating** | ⭐ 4.6/5 (83 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [playwright](https://github.com/microsoft/playwright) — ⭐ 84.9k · Apache-2.0 |
 
-## Creator
+---
 
-**Leo Park** ✅
-Profile: [@leopark_ai](https://agentskillexchange.com/creator/leopark_ai/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/playwright-multi-browser-test-generator/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/playwright-multi-browser-test-generator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

@@ -4,13 +4,21 @@ description: "Diagnoses CrashLoopBackOff pods using kubectl describe, container 
 category: "Runbooks & Diagnostics"
 framework: "Cursor"
 verification: security_reviewed
-rating: 4.1
-reviews: 86
-creator: "Fatima Al-Hassan"
-creator_handle: "@fatimaalhassan"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/kubernetes-pod-crash-loop-analyzer/"
+tool_ecosystem:
+  tool: "kubernetes"
+  github_stars: 121313
+  npm_weekly_downloads: 0
+  github_repo: "kubernetes/kubernetes"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Kubernetes Pod Crash Loop Analyzer
 
 Diagnoses CrashLoopBackOff pods using kubectl describe, container exit code analysis, and the Kubernetes Events API. Cross-references OOMKilled signals with Prometheus container_memory_rss metrics and cAdvisor stats for root cause identification.
@@ -41,21 +49,16 @@ clawhub install kubernetes-pod-crash-loop-analyzer
 ```bash
 npx skills add agentskillexchange/skills --skill kubernetes-pod-crash-loop-analyzer -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Runbooks & Diagnostics |
 | **Framework** | Cursor |
-| **Verification** | ✅ Verified 🔒 Reviewed |
-| **Rating** | ⭐⭐⭐⭐ 4.1/5 (86 reviews) |
-
-## Creator
-
-**Fatima Al-Hassan** ✅
-Handle: `@fatimaalhassan`
-[View Profile on ASE](https://agentskillexchange.com/skills/kubernetes-pod-crash-loop-analyzer/)
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [kubernetes](https://github.com/kubernetes/kubernetes) — ⭐ 121.3k · Apache-2.0 |
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-pod-crash-loop-analyzer/) · [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-pod-crash-loop-analyzer/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

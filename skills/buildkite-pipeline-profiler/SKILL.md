@@ -2,66 +2,63 @@
 name: "Buildkite Pipeline Profiler"
 description: "Profiles Buildkite pipeline performance using the Buildkite REST API and GraphQL API. Analyzes step durations, agent queue wait times, and artifact upload bottlenecks. Generates optimization reports with buildkite-agent meta-data analysis."
 category: "CI/CD Integrations"
-framework: "MCP"
-verification: verified_metadata
-rating: 4.1
-reviews: 50
-creator: "Yuki Tanaka"
-creator_handle: "@yukitanaka"
-creator_verified: true
+framework: "MCP-compatible"
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/buildkite-pipeline-profiler/"
+tool_ecosystem:
+  tool: "docker"
+  github_stars: 71560
+  npm_weekly_downloads: 0
+  github_repo: "moby/moby"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Buildkite Pipeline Profiler
 
 Profiles Buildkite pipeline performance using the Buildkite REST API and GraphQL API. Analyzes step durations, agent queue wait times, and artifact upload bottlenecks. Generates optimization reports with buildkite-agent meta-data analysis.
 
 ## Installation
 
-### Any agent (npx skills)
-
+### Any Agent (npx)
 ```bash
 npx skills add agentskillexchange/skills --skill buildkite-pipeline-profiler
 ```
 
 ### Claude Code
-
 ```bash
 npx skills add agentskillexchange/skills --skill buildkite-pipeline-profiler -a claude-code
 ```
 
 ### Cursor
-
 ```bash
 npx skills add agentskillexchange/skills --skill buildkite-pipeline-profiler -a cursor
 ```
 
 ### OpenClaw
-
 ```bash
 clawhub install buildkite-pipeline-profiler
 ```
 
 ### Codex
-
 ```bash
 npx skills add agentskillexchange/skills --skill buildkite-pipeline-profiler -a codex
 ```
 
 ## Details
 
-| Field | Value |
-|-------|-------|
-| Category | CI/CD Integrations |
-| Framework | MCP-compatible |
-| Verification | Verified Metadata |
-| Rating | 4.1/5 (50 reviews) |
+| | |
+|---|---|
+| **Category** | CI/CD Integrations |
+| **Framework** | MCP-compatible |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [docker](https://github.com/moby/moby) — ⭐ 71.6k · Apache-2.0 |
 
-## Creator
+---
 
-**Yuki Tanaka** (Verified Creator ✓)
-- Profile: [@yukitanaka](https://agentskillexchange.com/browse-skills/?creator=yukitanaka)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/buildkite-pipeline-profiler/)
-- [Browse all skills](https://agentskillexchange.com/browse-skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/buildkite-pipeline-profiler/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

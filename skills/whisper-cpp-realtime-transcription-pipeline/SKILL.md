@@ -6,11 +6,19 @@ framework: "Claude Code"
 verification: listed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/whisper-cpp-realtime-transcription-pipeline/"
+tool_ecosystem:
+  tool: "whisper"
+  github_stars: 0
+  npm_weekly_downloads: 0
+  github_repo: ""
+  license: ""
+  maintained: false
 ---
+
 # Whisper.cpp Real-Time Transcription Pipeline
 
 Streams audio from PulseAudio or ALSA devices into whisper.cpp for real-time speech-to-text with word-level timestamps. Outputs SRT/VTT subtitles and JSON transcripts simultaneously.
@@ -41,21 +49,16 @@ clawhub install whisper-cpp-realtime-transcription-pipeline
 ```bash
 npx skills add agentskillexchange/skills --skill whisper-cpp-realtime-transcription-pipeline -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Media & Transcription |
 | **Framework** | Claude Code |
-| **Verification** |  |
-| **Rating** | Not yet rated (0 reviews) |
-
-## Creator
-
-**Community**
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/whisper-cpp-realtime-transcription-pipeline/)
+| **Verification** | 📋 Listed |
+| **Tool** | whisper |
 
 ---
 
-[Browse more skills](https://agentskillexchange.com) | [Agent Skill Exchange](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/whisper-cpp-realtime-transcription-pipeline/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

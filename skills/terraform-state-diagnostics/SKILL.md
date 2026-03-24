@@ -3,14 +3,22 @@ name: "Terraform State Diagnostics"
 description: "Diagnoses Terraform state issues using terraform state commands, the Terraform Cloud API, and HCL parser. Detects drift, orphaned resources, and state lock conflicts across workspaces."
 category: "Runbooks & Diagnostics"
 framework: "ChatGPT Agents"
-verification: listed
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/terraform-state-diagnostics/"
+tool_ecosystem:
+  tool: "terraform"
+  github_stars: 47996
+  npm_weekly_downloads: 0
+  github_repo: "hashicorp/terraform"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # Terraform State Diagnostics
 
 Diagnoses Terraform state issues using terraform state commands, the Terraform Cloud API, and HCL parser. Detects drift, orphaned resources, and state lock conflicts across workspaces.
@@ -41,22 +49,16 @@ clawhub install terraform-state-diagnostics
 ```bash
 npx skills add agentskillexchange/skills --skill terraform-state-diagnostics -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Runbooks & Diagnostics |
 | **Framework** | ChatGPT Agents |
-| **Verification** | community |
-| **Rating** | 4.5 (0 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [terraform](https://github.com/hashicorp/terraform) — ⭐ 48.0k · NOASSERTION |
 
-## Creator
+---
 
-**Community**
-
-- Profile: [View on ASE](https://agentskillexchange.com/creator//)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-state-diagnostics/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-state-diagnostics/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

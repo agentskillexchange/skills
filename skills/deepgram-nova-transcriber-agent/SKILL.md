@@ -4,13 +4,14 @@ description: "Transcribes audio using the Deepgram Nova-2 API with diarization, 
 category: "Media & Transcription"
 framework: "OpenClaw"
 verification: security_reviewed
-rating: 4.1
-reviews: 22
-creator: "Hannah Berg"
-creator_handle: "@hannahberg"
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/deepgram-nova-transcriber-agent/"
 ---
+
 # Deepgram Nova Transcriber
 
 Transcribes audio using the Deepgram Nova-2 API with diarization, punctuation, and smart formatting. Supports streaming via WebSocket and batch via REST with pre-recorded endpoint and callback URLs.
@@ -41,22 +42,15 @@ clawhub install deepgram-nova-transcriber-agent
 ```bash
 npx skills add agentskillexchange/skills --skill deepgram-nova-transcriber-agent -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Media & Transcription |
 | **Framework** | OpenClaw |
-| **Verification** | ✅ Verified |
-| **Rating** | ⭐⭐⭐⭐ 4.1/5 (22 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
 
-## Creator
+---
 
-**Hannah Berg** 
-
-Profile: [@hannahberg](https://agentskillexchange.com/creator/hannahberg/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/deepgram-nova-transcriber-agent/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/deepgram-nova-transcriber-agent/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

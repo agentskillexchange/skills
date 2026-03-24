@@ -3,14 +3,22 @@ name: "dbt Model Lineage Extractor"
 description: "Extracts and visualizes dbt model dependency lineage using the dbt Core manifest.json artifact API. Parses ref() and source() calls to build DAG representations via the dbt Cloud API v2."
 category: "Data Extraction & Transformation"
 framework: "Claude Code"
-verification: verified_metadata
-rating: 4.5
-reviews: 59
-creator: "Carlos Mendez"
-creator_handle: "@carlosmendez"
-creator_verified: true
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/dbt-model-lineage-extractor-2/"
+tool_ecosystem:
+  tool: "dbt"
+  github_stars: 12457
+  npm_weekly_downloads: 0
+  github_repo: "dbt-labs/dbt-core"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # dbt Model Lineage Extractor
 
 Extracts and visualizes dbt model dependency lineage using the dbt Core manifest.json artifact API. Parses ref() and source() calls to build DAG representations via the dbt Cloud API v2.
@@ -41,22 +49,16 @@ clawhub install dbt-model-lineage-extractor-2
 ```bash
 npx skills add agentskillexchange/skills --skill dbt-model-lineage-extractor-2 -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Data Extraction & Transformation |
 | **Framework** | Claude Code |
-| **Verification** | Verified |
-| **Rating** | ⭐⭐⭐⭐ 4.5/5 (59 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [dbt](https://github.com/dbt-labs/dbt-core) — ⭐ 12.5k · NOASSERTION |
 
-## Creator
+---
 
-**Carlos Mendez** @carlosmendez  
-✅ Verified Creator  
-[View Profile](https://agentskillexchange.com/skills/dbt-model-lineage-extractor-2/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/dbt-model-lineage-extractor-2/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/dbt-model-lineage-extractor-2/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

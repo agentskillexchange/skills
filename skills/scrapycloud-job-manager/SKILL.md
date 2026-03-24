@@ -3,14 +3,22 @@ name: "ScrapyCloud Job Manager"
 description: "Manages Scrapy spider deployments and job scheduling on ScrapyCloud via the Scrapinghub API. Handles spider argument injection, job prioritization, and item export to S3 or BigQuery."
 category: "Research & Scraping"
 framework: "ChatGPT Agents"
-verification: listed
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/scrapycloud-job-manager/"
+tool_ecosystem:
+  tool: "scrapy"
+  github_stars: 60923
+  npm_weekly_downloads: 0
+  github_repo: "scrapy/scrapy"
+  license: "BSD-3-Clause"
+  maintained: true
 ---
+
 # ScrapyCloud Job Manager
 
 Manages Scrapy spider deployments and job scheduling on ScrapyCloud via the Scrapinghub API. Handles spider argument injection, job prioritization, and item export to S3 or BigQuery.
@@ -41,22 +49,16 @@ clawhub install scrapycloud-job-manager
 ```bash
 npx skills add agentskillexchange/skills --skill scrapycloud-job-manager -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Research & Scraping |
 | **Framework** | ChatGPT Agents |
-| **Verification** |  |
-| **Rating** | 4.5 (0 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [scrapy](https://github.com/scrapy/scrapy) — ⭐ 60.9k · BSD-3-Clause |
 
-## Creator
+---
 
-**Community**
-
-
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/scrapycloud-job-manager/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/scrapycloud-job-manager/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

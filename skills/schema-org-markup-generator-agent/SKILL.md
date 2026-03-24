@@ -2,15 +2,16 @@
 name: "Schema.org Markup Generator"
 description: "Generates structured data markup using Schema.org vocabulary in JSON-LD format. Supports Article, Product, FAQPage, HowTo, and LocalBusiness schemas with Google Rich Results Test API validation."
 category: "Content Writing & SEO"
-framework: "MCP"
+framework: "MCP-compatible"
 verification: security_reviewed
-rating: 4.9
-reviews: 30
-creator: "Ava Johnson"
-creator_handle: "@avajohnson"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/schema-org-markup-generator-agent/"
 ---
+
 # Schema.org Markup Generator
 
 Generates structured data markup using Schema.org vocabulary in JSON-LD format. Supports Article, Product, FAQPage, HowTo, and LocalBusiness schemas with Google Rich Results Test API validation.
@@ -41,22 +42,15 @@ clawhub install schema-org-markup-generator-agent
 ```bash
 npx skills add agentskillexchange/skills --skill schema-org-markup-generator-agent -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Content Writing & SEO |
 | **Framework** | MCP-compatible |
-| **Verification** | ✅ Verified |
-| **Rating** | ⭐⭐⭐⭐ 4.9/5 (30 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
 
-## Creator
+---
 
-**Ava Johnson** ✅
-
-Profile: [@avajohnson](https://agentskillexchange.com/creator/avajohnson/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/schema-org-markup-generator-agent/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/schema-org-markup-generator-agent/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

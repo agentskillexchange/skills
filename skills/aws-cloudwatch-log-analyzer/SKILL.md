@@ -4,13 +4,21 @@ description: "Analyzes AWS CloudWatch Logs using the CloudWatch Logs API and Log
 category: "Runbooks & Diagnostics"
 framework: "ChatGPT Agents"
 verification: security_reviewed
-rating: 4.9
-reviews: 58
-creator: "Community"
+rating: 0
+reviews: 0
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/aws-cloudwatch-log-analyzer/"
+tool_ecosystem:
+  tool: "aws"
+  github_stars: 3594
+  npm_weekly_downloads: 9204385
+  github_repo: "aws/aws-sdk-js-v3"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # AWS CloudWatch Log Analyzer
 
 Analyzes AWS CloudWatch Logs using the CloudWatch Logs API and Logs Insights query syntax. Identifies error patterns, calculates error rates, and generates metric filters from log data.
@@ -41,17 +49,16 @@ clawhub install aws-cloudwatch-log-analyzer
 ```bash
 npx skills add agentskillexchange/skills --skill aws-cloudwatch-log-analyzer -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Runbooks & Diagnostics |
 | **Framework** | ChatGPT Agents |
-| **Verification** | 🔒 Security Reviewed |
-| **Rating** | ⭐⭐⭐⭐⭐ 4.9/5 (58 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [aws](https://github.com/aws/aws-sdk-js-v3) — ⭐ 3.6k · Apache-2.0 |
 
-## Creator
+---
 
-**Community**
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/aws-cloudwatch-log-analyzer/) · [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/aws-cloudwatch-log-analyzer/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

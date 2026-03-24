@@ -3,14 +3,22 @@ name: "New Relic NRQL Query Agent"
 description: "Executes NRQL queries against New Relic’s GraphQL NerdGraph API for application performance monitoring. Generates automated SLA reports with percentile latency breakdowns and error budget calculations."
 category: "Monitoring & Alerts"
 framework: "Custom Agents"
-verification: verified_metadata
-rating: 4.9
-reviews: 65
-creator: "Hannah Berg"
-creator_handle: "@hannahberg"
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/new-relic-nrql-query-agent/"
+tool_ecosystem:
+  tool: "slack"
+  github_stars: 2900
+  npm_weekly_downloads: 2433529
+  github_repo: "slackapi/bolt-js"
+  license: "MIT"
+  maintained: true
 ---
+
 # New Relic NRQL Query Agent
 
 Executes NRQL queries against New Relic’s GraphQL NerdGraph API for application performance monitoring. Generates automated SLA reports with percentile latency breakdowns and error budget calculations.
@@ -41,21 +49,16 @@ clawhub install new-relic-nrql-query-agent
 ```bash
 npx skills add agentskillexchange/skills --skill new-relic-nrql-query-agent -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Monitoring & Alerts |
 | **Framework** | Custom Agents |
-| **Verification** | Verified |
-| **Rating** | ⭐⭐⭐⭐ 4.9/5 (65 reviews) |
-
-## Creator
-
-**Hannah Berg**
-- Handle: [@hannahberg](https://agentskillexchange.com/creator/hannahberg/)
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/new-relic-nrql-query-agent/)
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [slack](https://github.com/slackapi/bolt-js) — ⭐ 2.9k · MIT |
 
 ---
 
-[Browse all skills](https://agentskillexchange.com/) | [Submit a skill](https://agentskillexchange.com/submit/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/new-relic-nrql-query-agent/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

@@ -4,13 +4,21 @@ description: "Orchestrates Selenium Grid 4 node scaling based on test queue dept
 category: "Browser Automation"
 framework: "OpenClaw"
 verification: security_reviewed
-rating: 4.5
-reviews: 20
-creator: "Priya Sharma"
-creator_handle: "@priyasharma"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/selenium-grid-auto-scaling-orchestrator/"
+tool_ecosystem:
+  tool: "selenium"
+  github_stars: 34169
+  npm_weekly_downloads: 2000657
+  github_repo: "SeleniumHQ/selenium"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Selenium Grid Auto-Scaling Orchestrator
 
 Orchestrates Selenium Grid 4 node scaling based on test queue depth using the Grid GraphQL API. Manages Docker container lifecycle for Chrome, Firefox, and Edge nodes with health monitoring.
@@ -41,22 +49,16 @@ clawhub install selenium-grid-auto-scaling-orchestrator
 ```bash
 npx skills add agentskillexchange/skills --skill selenium-grid-auto-scaling-orchestrator -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Browser Automation |
 | **Framework** | OpenClaw |
-| **Verification** | Verified ✅ |
-| **Rating** | ★★★★½ (4.5/5 from 20 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [selenium](https://github.com/SeleniumHQ/selenium) — ⭐ 34.2k · Apache-2.0 |
 
-## Creator
+---
 
-**Priya Sharma** ✓
-
-Profile: [@priyasharma](https://agentskillexchange.com/creator/priyasharma/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/selenium-grid-auto-scaling-orchestrator/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/selenium-grid-auto-scaling-orchestrator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

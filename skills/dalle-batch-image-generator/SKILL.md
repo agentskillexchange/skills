@@ -3,14 +3,22 @@ name: "DALL-E Batch Image Generator"
 description: "Generates and manages batch image creation jobs using the OpenAI Images API /v1/images/generations endpoint. Supports DALL-E 3 with size, quality, and style parameters plus automatic prompt revision tracking."
 category: "Image & Creative Automation"
 framework: "Claude Agents"
-verification: listed
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/dalle-batch-image-generator/"
+tool_ecosystem:
+  tool: "openai"
+  github_stars: 10761
+  npm_weekly_downloads: 16275389
+  github_repo: "openai/openai-node"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # DALL-E Batch Image Generator
 
 Generates and manages batch image creation jobs using the OpenAI Images API /v1/images/generations endpoint. Supports DALL-E 3 with size, quality, and style parameters plus automatic prompt revision tracking.
@@ -41,21 +49,16 @@ clawhub install dalle-batch-image-generator
 ```bash
 npx skills add agentskillexchange/skills --skill dalle-batch-image-generator -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Image & Creative Automation |
 | **Framework** | Claude Agents |
-| **Verification** |  |
-| **Rating** | 0/5 (0 reviews) |
-
-## Creator
-
-**Community**
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/dalle-batch-image-generator/)
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [openai](https://github.com/openai/openai-node) — ⭐ 10.8k · Apache-2.0 |
 
 ---
 
-[Browse all skills](https://agentskillexchange.com) · [GitHub Repository](https://github.com/agentskillexchange/skills)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/dalle-batch-image-generator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

@@ -4,13 +4,21 @@ description: "Integrates Stripe payment processing using stripe-node SDK includi
 category: "Integrations & Connectors"
 framework: "Cursor"
 verification: security_reviewed
-rating: 4.5
-reviews: 80
-creator: "Ben Taylor"
-creator_handle: "@bentaylor"
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/stripe-payment-flow-connector/"
+tool_ecosystem:
+  tool: "stripe"
+  github_stars: 4377
+  npm_weekly_downloads: 8442269
+  github_repo: "stripe/stripe-node"
+  license: "MIT"
+  maintained: true
 ---
+
 # Stripe Payment Flow Connector
 
 Integrates Stripe payment processing using stripe-node SDK including PaymentIntents, Checkout Sessions, Billing Portal, and webhook event verification with stripe.webhooks.constructEvent.
@@ -41,21 +49,16 @@ clawhub install stripe-payment-flow-connector
 ```bash
 npx skills add agentskillexchange/skills --skill stripe-payment-flow-connector -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Integrations & Connectors |
 | **Framework** | Cursor |
-| **Verification** | ✅ Verified |
-| **Rating** | ⭐ 4.5 (80 reviews) |
-
-## Creator
-
-**Ben Taylor** 
-Handle: `@bentaylor`
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/stripe-payment-flow-connector/)
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [stripe](https://github.com/stripe/stripe-node) — ⭐ 4.4k · MIT |
 
 ---
 
-[Browse all skills](https://agentskillexchange.com) | [View on ASE](https://agentskillexchange.com/skills/stripe-payment-flow-connector/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/stripe-payment-flow-connector/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

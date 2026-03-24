@@ -10,6 +10,13 @@ creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/puppeteer-devtools-protocol-recorder/"
+tool_ecosystem:
+  tool: "puppeteer"
+  github_stars: 93912
+  npm_weekly_downloads: 8696130
+  github_repo: "puppeteer/puppeteer"
+  license: "Apache-2.0"
+  maintained: true
 ---
 
 # Puppeteer DevTools Protocol Recorder
@@ -45,18 +52,13 @@ npx skills add agentskillexchange/skills --skill puppeteer-devtools-protocol-rec
 
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Developer Tools |
 | **Framework** | Cursor |
-| **Verification** | Listed |
-| **Rating** | No ratings yet |
+| **Verification** | 📋 Listed |
+| **Tool** | [puppeteer](https://github.com/puppeteer/puppeteer) — ⭐ 93.9k · Apache-2.0 |
 
-## Creator
+---
 
-Community Contribution
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/puppeteer-devtools-protocol-recorder/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/puppeteer-devtools-protocol-recorder/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

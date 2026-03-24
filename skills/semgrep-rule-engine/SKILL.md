@@ -4,13 +4,21 @@ description: "Executes Semgrep static analysis using the semgrep CLI with custom
 category: "Code Quality & Review"
 framework: "Custom Agents"
 verification: security_reviewed
-rating: 4.8
-reviews: 86
-creator: "Community"
+rating: 0
+reviews: 0
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/semgrep-rule-engine/"
+tool_ecosystem:
+  tool: "semgrep"
+  github_stars: 14543
+  npm_weekly_downloads: 0
+  github_repo: "semgrep/semgrep"
+  license: "LGPL-2.1"
+  maintained: true
 ---
+
 # Semgrep Rule Engine
 
 Executes Semgrep static analysis using the semgrep CLI with custom YAML rule definitions. Supports taint tracking, metavariable comparisons, and pattern-not-inside exclusions for precise vulnerability detection.
@@ -41,19 +49,16 @@ clawhub install semgrep-rule-engine
 ```bash
 npx skills add agentskillexchange/skills --skill semgrep-rule-engine -a codex
 ```
+
 ## Details
 
 | | |
 |---|---|
 | **Category** | Code Quality & Review |
 | **Framework** | Custom Agents |
-| **Verification** | Security Reviewed |
-| **Rating** | ⭐⭐⭐⭐ 4.8/5 (86 reviews) |
-
-## Creator
-
-**Community**
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [semgrep](https://github.com/semgrep/semgrep) — ⭐ 14.5k · LGPL-2.1 |
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/semgrep-rule-engine/) · [Browse Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/semgrep-rule-engine/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

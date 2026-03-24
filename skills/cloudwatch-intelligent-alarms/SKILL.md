@@ -4,13 +4,21 @@ description: "Uses AWS CloudWatch SDK (boto3) to create composite alarms with ML
 category: "Monitoring & Alerts"
 framework: "ChatGPT Agents"
 verification: security_reviewed
-rating: 4.9
-reviews: 85
-creator: "Ava Johnson"
-creator_handle: "@avajohnson"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/cloudwatch-intelligent-alarms/"
+tool_ecosystem:
+  tool: "aws"
+  github_stars: 3594
+  npm_weekly_downloads: 9204385
+  github_repo: "aws/aws-sdk-js-v3"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # CloudWatch Intelligent Alarms
 
 Uses AWS CloudWatch SDK (boto3) to create composite alarms with ML-powered anomaly detection bands. Integrates with AWS SNS for notifications and EventBridge for automated remediation triggers.
@@ -41,22 +49,16 @@ clawhub install cloudwatch-intelligent-alarms
 ```bash
 npx skills add agentskillexchange/skills --skill cloudwatch-intelligent-alarms -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Monitoring & Alerts |
 | **Framework** | ChatGPT Agents |
-| **Verification** | Verified & Security Reviewed |
-| **Rating** | ★★★★½ (4.9/5 from 85 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [aws](https://github.com/aws/aws-sdk-js-v3) — ⭐ 3.6k · Apache-2.0 |
 
-## Creator
+---
 
-**Ava Johnson** ✓ Verified Creator
-
-[View Profile](https://agentskillexchange.com/creator/avajohnson/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/cloudwatch-intelligent-alarms/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/cloudwatch-intelligent-alarms/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

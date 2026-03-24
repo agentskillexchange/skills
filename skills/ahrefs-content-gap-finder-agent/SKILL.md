@@ -4,13 +4,14 @@ description: "Identifies content gaps using the Ahrefs API v3 /site-explorer/org
 category: "Content Writing & SEO"
 framework: "OpenClaw"
 verification: security_reviewed
-rating: 4.3
-reviews: 81
-creator: "Leo Park"
-creator_handle: "@leopark_ai"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/ahrefs-content-gap-finder-agent/"
 ---
+
 # Ahrefs Content Gap Finder
 
 Identifies content gaps using the Ahrefs API v3 /site-explorer/organic-keywords endpoint. Compares competitor keyword profiles and surfaces untapped opportunities with volume, KD, and SERP feature data.
@@ -41,22 +42,15 @@ clawhub install ahrefs-content-gap-finder-agent
 ```bash
 npx skills add agentskillexchange/skills --skill ahrefs-content-gap-finder-agent -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Content Writing & SEO |
 | **Framework** | OpenClaw |
-| **Verification** | ✅ Verified |
-| **Rating** | ⭐⭐⭐⭐ 4.3/5 (81 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
 
-## Creator
+---
 
-**Leo Park** ✅
-
-Profile: [@leopark_ai](https://agentskillexchange.com/creator/leopark_ai/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/ahrefs-content-gap-finder-agent/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/ahrefs-content-gap-finder-agent/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

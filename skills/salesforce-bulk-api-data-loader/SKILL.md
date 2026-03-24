@@ -2,14 +2,21 @@
 name: "Salesforce Bulk API Data Loader"
 description: "Performs high-volume data operations using the Salesforce Bulk API 2.0. Creates ingest jobs with createJob(), uploads CSV batches, and monitors job status via getJobInfo() for millions of records."
 category: "Data Extraction & Transformation"
-framework: "OpenClaw"
+framework: "Claude Code"
 verification: security_reviewed
-rating: 4.6
-reviews: 70
-creator: "Elena Rodriguez"
-creator_handle: "@elena_dev"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/salesforce-bulk-api-data-loader/"
+tool_ecosystem:
+  tool: "salesforce"
+  github_stars: 1452
+  npm_weekly_downloads: 804753
+  github_repo: "jsforce/jsforce"
+  license: "MIT"
+  maintained: true
 ---
 
 # Salesforce Bulk API Data Loader
@@ -48,16 +55,10 @@ npx skills add agentskillexchange/skills --skill salesforce-bulk-api-data-loader
 | | |
 |---|---|
 | **Category** | Data Extraction & Transformation |
-| **Framework** | OpenClaw |
-| **Verification** | Security Reviewed |
-| **Rating** | ⭐ 4.6 (70 reviews) |
+| **Framework** | Claude Code |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [salesforce](https://github.com/jsforce/jsforce) — ⭐ 1.5k · MIT |
 
-## Creator
+---
 
-**Elena Rodriguez** ✓
-- Profile: [https://agentskillexchange.com/creator/elena_dev/](https://agentskillexchange.com/creator/elena_dev/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/salesforce-bulk-api-data-loader/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/salesforce-bulk-api-data-loader/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

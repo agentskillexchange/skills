@@ -3,14 +3,15 @@ name: "Systemd Service Recovery Playbook"
 description: "Diagnoses and recovers failed systemd services using journalctl, systemctl status, and D-Bus org.freedesktop.systemd1 interface. Analyzes exit codes, dependency chains via list-dependencies, and resource limits from cgroup controllers."
 category: "Runbooks & Diagnostics"
 framework: "ChatGPT Agents"
-verification: verified_metadata
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/systemd-service-recovery-playbook-2/"
 ---
+
 # Systemd Service Recovery Playbook
 
 Diagnoses and recovers failed systemd services using journalctl, systemctl status, and D-Bus org.freedesktop.systemd1 interface. Analyzes exit codes, dependency chains via list-dependencies, and resource limits from cgroup controllers.
@@ -41,22 +42,15 @@ clawhub install systemd-service-recovery-playbook-2
 ```bash
 npx skills add agentskillexchange/skills --skill systemd-service-recovery-playbook-2 -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Runbooks & Diagnostics |
 | **Framework** | ChatGPT Agents |
-| **Verification** | verified_metadata |
-| **Rating** | 0 (0 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
 
-## Creator
+---
 
-**Community**
-
-[View Profile](https://agentskillexchange.com/skills/systemd-service-recovery-playbook-2/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/systemd-service-recovery-playbook-2/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/systemd-service-recovery-playbook-2/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

@@ -2,14 +2,21 @@
 name: "Notion Task Board Automation"
 description: "Automates Notion database workflows using the Notion API databases.query and pages.create endpoints. Builds filtered views with compound filter objects, manages status property transitions, and syncs with external project trackers."
 category: "Calendar, Email & Productivity"
-framework: "Multi-Framework"
+framework: "Cursor"
 verification: security_reviewed
-rating: 4.7
-reviews: 49
-creator: "Ben Taylor"
-creator_handle: "@bentaylor"
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/notion-task-board-automation-agent/"
+tool_ecosystem:
+  tool: "notion"
+  github_stars: 5562
+  npm_weekly_downloads: 1084242
+  github_repo: "makenotion/notion-sdk-js"
+  license: "MIT"
+  maintained: true
 ---
 
 # Notion Task Board Automation
@@ -48,16 +55,10 @@ npx skills add agentskillexchange/skills --skill notion-task-board-automation-ag
 | | |
 |---|---|
 | **Category** | Calendar, Email & Productivity |
-| **Framework** | Multi-Framework |
-| **Verification** | Security Reviewed |
-| **Rating** | ⭐ 4.7 (49 reviews) |
+| **Framework** | Cursor |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [notion](https://github.com/makenotion/notion-sdk-js) — ⭐ 5.6k · MIT |
 
-## Creator
+---
 
-**Ben Taylor**
-- Profile: [https://agentskillexchange.com/creator/bentaylor/](https://agentskillexchange.com/creator/bentaylor/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/notion-task-board-automation-agent/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/notion-task-board-automation-agent/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

@@ -3,14 +3,15 @@ name: "NPM Package API Surface Extractor"
 description: "Extracts and documents public API surfaces from NPM packages using TypeScript Compiler API (ts.createProgram) and API Extractor from @microsoft/api-extractor. Generates .api.md report files and .d.ts rollups."
 category: "Library & API Reference"
 framework: "Claude Code"
-verification: listed
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/npm-package-api-surface-extractor/"
 ---
+
 # NPM Package API Surface Extractor
 
 Extracts and documents public API surfaces from NPM packages using TypeScript Compiler API (ts.createProgram) and API Extractor from @microsoft/api-extractor. Generates .api.md report files and .d.ts rollups.
@@ -41,22 +42,15 @@ clawhub install npm-package-api-surface-extractor
 ```bash
 npx skills add agentskillexchange/skills --skill npm-package-api-surface-extractor -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
-| Category | Library & API Reference |
-| Framework | Claude Code |
-| Verification | Community |
-| Rating | ⭐ 4.5 (0 reviews) |
+| | |
+|---|---|
+| **Category** | Library & API Reference |
+| **Framework** | Claude Code |
+| **Verification** | 🛡️ Security Reviewed |
 
-## Creator
+---
 
-**Community**
-
-
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/npm-package-api-surface-extractor/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/npm-package-api-surface-extractor/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

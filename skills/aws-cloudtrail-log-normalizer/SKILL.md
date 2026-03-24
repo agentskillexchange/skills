@@ -3,14 +3,22 @@ name: "AWS CloudTrail Log Normalizer"
 description: "Normalizes and enriches AWS CloudTrail JSON logs into OCSF (Open Cybersecurity Schema Framework) format. Maps eventSource/eventName pairs to MITRE ATT&CK technique IDs using the MITRE ATT&CK STIX API."
 category: "Security & Verification"
 framework: "Custom Agents"
-verification: verified_metadata
-rating: 4.9
-reviews: 9
-creator: "David Nguyen"
-creator_handle: "@davidnguyen"
-creator_verified: true
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/aws-cloudtrail-log-normalizer/"
+tool_ecosystem:
+  tool: "aws"
+  github_stars: 3594
+  npm_weekly_downloads: 9204385
+  github_repo: "aws/aws-sdk-js-v3"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # AWS CloudTrail Log Normalizer
 
 Normalizes and enriches AWS CloudTrail JSON logs into OCSF (Open Cybersecurity Schema Framework) format. Maps eventSource/eventName pairs to MITRE ATT&CK technique IDs using the MITRE ATT&CK STIX API.
@@ -41,18 +49,16 @@ clawhub install aws-cloudtrail-log-normalizer
 ```bash
 npx skills add agentskillexchange/skills --skill aws-cloudtrail-log-normalizer -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Security & Verification |
 | **Framework** | Custom Agents |
-| **Verification** | Verified |
-| **Rating** | ⭐⭐⭐⭐ 4.9/5 (9 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [aws](https://github.com/aws/aws-sdk-js-v3) — ⭐ 3.6k · Apache-2.0 |
 
-## Creator
+---
 
-**David Nguyen** @davidnguyen
-✓ Verified Creator
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/aws-cloudtrail-log-normalizer/) · [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/aws-cloudtrail-log-normalizer/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

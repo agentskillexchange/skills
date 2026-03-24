@@ -4,13 +4,21 @@ description: "Generates cy.intercept() stubs from recorded HAR files for determi
 category: "Browser Automation"
 framework: "Codex"
 verification: verified_metadata
-rating: 4.5
-reviews: 79
-creator: "Zoe Chen"
-creator_handle: "@zoechen"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/cypress-network-stub-generator/"
+tool_ecosystem:
+  tool: "cypress"
+  github_stars: 49612
+  npm_weekly_downloads: 7404178
+  github_repo: "cypress-io/cypress"
+  license: "MIT"
+  maintained: true
 ---
+
 # Cypress Network Stub Generator
 
 Generates cy.intercept() stubs from recorded HAR files for deterministic E2E tests. Uses cy.session() for authentication caching and cy.origin() for cross-origin testing workflows.
@@ -41,23 +49,16 @@ clawhub install cypress-network-stub-generator
 ```bash
 npx skills add agentskillexchange/skills --skill cypress-network-stub-generator -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Browser Automation |
 | **Framework** | Codex |
-| **Verification** | verified |
-| **Rating** | ⭐⭐⭐⭐ 4.5/5 (79 reviews) |
+| **Verification** | ✅ Verified Metadata |
+| **Tool** | [cypress](https://github.com/cypress-io/cypress) — ⭐ 49.6k · MIT |
 
-## Creator
+---
 
-**Zoe Chen** ✓ Verified Creator
-
-- Handle: @zoechen
-- [View Profile on ASE](https://agentskillexchange.com/skills/cypress-network-stub-generator/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/cypress-network-stub-generator/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/cypress-network-stub-generator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

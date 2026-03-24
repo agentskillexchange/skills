@@ -3,14 +3,15 @@ name: "Yeoman Workflow Orchestrator"
 description: "Orchestrates Yeoman generator workflows with composable sub-generators and mem-fs-editor file transformations. Manages generator dependencies via yo env and supports custom inquirer.js prompt chains."
 category: "Templates & Workflows"
 framework: "Gemini"
-verification: listed
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/yeoman-workflow-orchestrator/"
 ---
+
 # Yeoman Workflow Orchestrator
 
 Orchestrates Yeoman generator workflows with composable sub-generators and mem-fs-editor file transformations. Manages generator dependencies via yo env and supports custom inquirer.js prompt chains.
@@ -41,22 +42,15 @@ clawhub install yeoman-workflow-orchestrator
 ```bash
 npx skills add agentskillexchange/skills --skill yeoman-workflow-orchestrator -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Templates & Workflows |
 | **Framework** | Gemini |
-| **Verification** |  |
-| **Rating** | 0/5 (0 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
 
-## Creator
+---
 
-**Community**
-
-
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/yeoman-workflow-orchestrator/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/yeoman-workflow-orchestrator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

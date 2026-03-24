@@ -1,19 +1,27 @@
 ---
 name: "Audio Fingerprint Identifier"
-description: "Identifies audio tracks by generating acoustic fingerprints and matching them against databases, supporting music recognition, content verification, and duplicate detection."
+description: "Identifies audio content using Chromaprint/AcoustID fingerprinting, Shazam API recognition, and ACRCloud monitoring. Matches music, speech, and ambient audio against fingerprint databases."
 category: "Media & Transcription"
 framework: "OpenClaw"
 verification: security_reviewed
-rating: 4.9
-reviews: 77
-creator: "Marcus Chen"
-creator_handle: "@marcuschen"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/audio-fingerprint-identifier-agent/"
+tool_ecosystem:
+  tool: "postgresql"
+  github_stars: 0
+  npm_weekly_downloads: 21413502
+  github_repo: ""
+  license: ""
+  maintained: false
 ---
+
 # Audio Fingerprint Identifier
 
-Identifies audio tracks by generating acoustic fingerprints and matching them against databases, supporting music recognition, content verification, and duplicate detection.
+Identifies audio content using Chromaprint/AcoustID fingerprinting, Shazam API recognition, and ACRCloud monitoring. Matches music, speech, and ambient audio against fingerprint databases.
 
 ## Installation
 
@@ -41,21 +49,16 @@ clawhub install audio-fingerprint-identifier-agent
 ```bash
 npx skills add agentskillexchange/skills --skill audio-fingerprint-identifier-agent -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Media & Transcription |
 | **Framework** | OpenClaw |
-| **Verification** | ✅ Verified |
-| **Rating** | 4.9 ⭐⭐⭐⭐ (77 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | postgresql |
 
-## Creator
+---
 
-**Marcus Chen** ✅
-[View Profile](https://agentskillexchange.com/creator/marcuschen/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/audio-fingerprint-identifier-agent/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/audio-fingerprint-identifier-agent/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

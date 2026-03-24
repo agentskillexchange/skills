@@ -4,13 +4,21 @@ description: "Scrapes and analyzes Hacker News threads using the official HN Fir
 category: "Research & Scraping"
 framework: "Custom Agents"
 verification: security_reviewed
-rating: 4.7
-reviews: 41
-creator: "Elena Rodriguez"
-creator_handle: "@elena_dev"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/hacker-news-deep-thread-analyzer/"
+tool_ecosystem:
+  tool: "firebase"
+  github_stars: 1726
+  npm_weekly_downloads: 4837581
+  github_repo: "firebase/firebase-admin-node"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Hacker News Deep Thread Analyzer
 
 Scrapes and analyzes Hacker News threads using the official HN Firebase API and BeautifulSoup. Extracts sentiment trends, expertise signals, and generates structured summaries with key arguments mapped.
@@ -41,21 +49,16 @@ clawhub install hacker-news-deep-thread-analyzer
 ```bash
 npx skills add agentskillexchange/skills --skill hacker-news-deep-thread-analyzer -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Research & Scraping |
 | **Framework** | Custom Agents |
-| **Verification** | Verified · Security Reviewed |
-| **Rating** | ⭐⭐⭐⭐ 4.7/5 (41 reviews) |
-
-## Creator
-
-**Elena Rodriguez** ✓  
-Handle: `@elena_dev`  
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/hacker-news-deep-thread-analyzer/)
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [firebase](https://github.com/firebase/firebase-admin-node) — ⭐ 1.7k · Apache-2.0 |
 
 ---
 
-[Browse more skills](https://agentskillexchange.com) · [Submit a skill](https://agentskillexchange.com/submit/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/hacker-news-deep-thread-analyzer/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

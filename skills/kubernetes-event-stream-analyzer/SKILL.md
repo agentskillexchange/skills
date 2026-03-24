@@ -4,13 +4,21 @@ description: "Watches Kubernetes event streams via the Watch API and correlates 
 category: "Monitoring & Alerts"
 framework: "Gemini"
 verification: security_reviewed
-rating: 4.8
-reviews: 85
-creator: "Meera Joshi"
-creator_handle: "@meerajoshi"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/kubernetes-event-stream-analyzer/"
+tool_ecosystem:
+  tool: "kubernetes"
+  github_stars: 121313
+  npm_weekly_downloads: 0
+  github_repo: "kubernetes/kubernetes"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Kubernetes Event Stream Analyzer
 
 Watches Kubernetes event streams via the Watch API and correlates pod lifecycle events with resource metrics from Metrics Server. Detects CrashLoopBackOff patterns and OOMKilled signals for automated triage.
@@ -41,23 +49,16 @@ clawhub install kubernetes-event-stream-analyzer
 ```bash
 npx skills add agentskillexchange/skills --skill kubernetes-event-stream-analyzer -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Monitoring & Alerts |
 | **Framework** | Gemini |
-| **Verification** | ✅ Verified |
-| **Security** | ✅ Reviewed |
-| **Rating** | ⭐ 4.8/5.0 (85 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [kubernetes](https://github.com/kubernetes/kubernetes) — ⭐ 121.3k · Apache-2.0 |
 
-## Creator
+---
 
-**Meera Joshi** ✅
-- Handle: @meerajoshi
-- [View Profile](https://agentskillexchange.com/creator/meerajoshi/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-event-stream-analyzer/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-event-stream-analyzer/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

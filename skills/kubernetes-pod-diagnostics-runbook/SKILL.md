@@ -4,14 +4,21 @@ description: "Automates Kubernetes troubleshooting using kubectl and the Kuberne
 category: "Runbooks & Diagnostics"
 framework: "OpenClaw"
 verification: security_reviewed
-rating: 4.9
-reviews: 86
-creator: "Fatima Al-Hassan"
-creator_handle: "@fatimaalhassan"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/kubernetes-pod-diagnostics-runbook/"
-security: "✅ Reviewed"
+tool_ecosystem:
+  tool: "kubernetes"
+  github_stars: 121313
+  npm_weekly_downloads: 0
+  github_repo: "kubernetes/kubernetes"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Kubernetes Pod Diagnostics Runbook
 
 Automates Kubernetes troubleshooting using kubectl and the Kubernetes Python client to diagnose CrashLoopBackOff, OOMKilled, and ImagePullBackOff states. Collects pod logs, events, node conditions, and resource quotas systematically.
@@ -42,22 +49,16 @@ clawhub install kubernetes-pod-diagnostics-runbook
 ```bash
 npx skills add agentskillexchange/skills --skill kubernetes-pod-diagnostics-runbook -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Runbooks & Diagnostics |
 | **Framework** | OpenClaw |
-| **Verification** | ✅ Verified |
-| **Security** | ✅ Reviewed |
-| **Rating** | ⭐ 4.9 (86 reviews) |
-
-## Creator
-
-**Fatima Al-Hassan** ✅
-Handle: `@fatimaalhassan`
-[View Profile on ASE](https://agentskillexchange.com/skills/kubernetes-pod-diagnostics-runbook/)
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [kubernetes](https://github.com/kubernetes/kubernetes) — ⭐ 121.3k · Apache-2.0 |
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-pod-diagnostics-runbook/) • [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-pod-diagnostics-runbook/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

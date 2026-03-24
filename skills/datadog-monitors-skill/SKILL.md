@@ -3,14 +3,22 @@ name: "Datadog Monitors Skill"
 description: "Manages Datadog monitors and dashboards via the Datadog API v2. Lists triggered monitors, mutes/unmutes alert groups, and queries metric timeseries. Supports composite monitors and SLO tracking."
 category: "Monitoring & Alerts"
 framework: "Codex"
-verification: listed
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/datadog-monitors-skill/"
+tool_ecosystem:
+  tool: "datadog"
+  github_stars: 787
+  npm_weekly_downloads: 6043057
+  github_repo: "DataDog/dd-trace-js"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # Datadog Monitors Skill
 
 Manages Datadog monitors and dashboards via the Datadog API v2. Lists triggered monitors, mutes/unmutes alert groups, and queries metric timeseries. Supports composite monitors and SLO tracking.
@@ -41,17 +49,16 @@ clawhub install datadog-monitors-skill
 ```bash
 npx skills add agentskillexchange/skills --skill datadog-monitors-skill -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Monitoring & Alerts |
 | **Framework** | Codex |
-| **Verification** |  |
-| **Rating** | 0 ⭐ (0 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [datadog](https://github.com/DataDog/dd-trace-js) — ⭐ 787 · NOASSERTION |
 
-## Creator
+---
 
-**Community**
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/datadog-monitors-skill/) · [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/datadog-monitors-skill/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

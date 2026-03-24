@@ -4,14 +4,21 @@ description: "Generates API documentation from Protocol Buffer definitions using
 category: "Library & API Reference"
 framework: "Gemini"
 verification: security_reviewed
-rating: 4.7
-reviews: 81
-creator: "Zoe Chen"
-creator_handle: "@zoechen"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/protobuf-documentation-generator/"
-security: "✅ Reviewed"
+tool_ecosystem:
+  tool: "grpc"
+  github_stars: 4816
+  npm_weekly_downloads: 30883690
+  github_repo: "grpc/grpc-node"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Protobuf Documentation Generator
 
 Generates API documentation from Protocol Buffer definitions using protoc-gen-doc and buf build toolchain. Produces Markdown, HTML, and DocJSON output with cross-linked message and service references.
@@ -42,19 +49,16 @@ clawhub install protobuf-documentation-generator
 ```bash
 npx skills add agentskillexchange/skills --skill protobuf-documentation-generator -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Library & API Reference |
 | **Framework** | Gemini |
-| **Verification** | ✅ Verified |
-| **Security** | ✅ Reviewed |
-| **Rating** | ⭐ 4.7 (81 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [grpc](https://github.com/grpc/grpc-node) — ⭐ 4.8k · Apache-2.0 |
 
-## Creator
+---
 
-**Zoe Chen** ✅
-@zoechen
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/protobuf-documentation-generator/) • [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/protobuf-documentation-generator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

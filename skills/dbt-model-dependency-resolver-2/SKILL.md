@@ -3,14 +3,22 @@ name: "dbt Model Dependency Resolver"
 description: "Analyzes dbt project DAGs to identify circular references, orphaned models, and suboptimal materialization strategies. Uses dbt-core manifest.json parsing with Jinja template resolution for accurate lineage tracking."
 category: "Data Extraction & Transformation"
 framework: "Claude Code"
-verification: security_reviewed
+verification: listed
 rating: 0
-reviews: 24
-creator: "Nina Volkov"
-creator_handle: "@ninavolkov"
-creator_verified: true
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/dbt-model-dependency-resolver-2/"
+tool_ecosystem:
+  tool: "dbt"
+  github_stars: 12457
+  npm_weekly_downloads: 0
+  github_repo: "dbt-labs/dbt-core"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # dbt Model Dependency Resolver
 
 Analyzes dbt project DAGs to identify circular references, orphaned models, and suboptimal materialization strategies. Uses dbt-core manifest.json parsing with Jinja template resolution for accurate lineage tracking.
@@ -41,18 +49,16 @@ clawhub install dbt-model-dependency-resolver-2
 ```bash
 npx skills add agentskillexchange/skills --skill dbt-model-dependency-resolver-2 -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Data Extraction & Transformation |
 | **Framework** | Claude Code |
-| **Verification** | ✅ Verified |
-| **Rating** | ⭐ 4.3 (24 reviews) |
+| **Verification** | 📋 Listed |
+| **Tool** | [dbt](https://github.com/dbt-labs/dbt-core) — ⭐ 12.5k · NOASSERTION |
 
-## Creator
+---
 
-**Nina Volkov** ✅
-Handle: `@ninavolkov`
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/dbt-model-dependency-resolver-2/) · [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/dbt-model-dependency-resolver-2/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

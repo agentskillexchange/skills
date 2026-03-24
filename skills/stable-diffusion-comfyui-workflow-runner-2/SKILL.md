@@ -2,15 +2,23 @@
 name: "Stable Diffusion ComfyUI Workflow Runner"
 description: "Executes ComfyUI workflow JSON files against a local or remote ComfyUI server via its REST API. Supports LoRA loading, ControlNet conditioning, and queue management with progress polling."
 category: "Image & Creative Automation"
-framework: "MCP"
-verification: listed
+framework: "MCP-compatible"
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/stable-diffusion-comfyui-workflow-runner-2/"
+tool_ecosystem:
+  tool: "stable.diffusion"
+  github_stars: 0
+  npm_weekly_downloads: 0
+  github_repo: ""
+  license: ""
+  maintained: false
 ---
+
 # Stable Diffusion ComfyUI Workflow Runner
 
 Executes ComfyUI workflow JSON files against a local or remote ComfyUI server via its REST API. Supports LoRA loading, ControlNet conditioning, and queue management with progress polling.
@@ -41,21 +49,16 @@ clawhub install stable-diffusion-comfyui-workflow-runner-2
 ```bash
 npx skills add agentskillexchange/skills --skill stable-diffusion-comfyui-workflow-runner-2 -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Image & Creative Automation |
 | **Framework** | MCP-compatible |
-| **Verification** |  |
-| **Rating** | Not yet rated (0 reviews) |
-
-## Creator
-
-**Community**
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/stable-diffusion-comfyui-workflow-runner-2/)
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | stable.diffusion |
 
 ---
 
-[Browse more skills](https://agentskillexchange.com) | [Agent Skill Exchange](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/stable-diffusion-comfyui-workflow-runner-2/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

@@ -4,13 +4,14 @@ description: "Enhances audio and video quality using the Dolby.io Media Processi
 category: "Media & Transcription"
 framework: "Cursor"
 verification: security_reviewed
-rating: 4.6
-reviews: 11
-creator: "Omar Farouk"
-creator_handle: "@omarfarouk"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/dolby-io-media-enhancer-agent/"
 ---
+
 # Dolby.io Media Enhancer
 
 Enhances audio and video quality using the Dolby.io Media Processing API. Applies noise reduction, loudness correction to EBU R128 standards, and dynamic range compression via the /media/enhance endpoint.
@@ -41,22 +42,15 @@ clawhub install dolby-io-media-enhancer-agent
 ```bash
 npx skills add agentskillexchange/skills --skill dolby-io-media-enhancer-agent -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Media & Transcription |
 | **Framework** | Cursor |
-| **Verification** | ✅ Verified |
-| **Rating** | ⭐⭐⭐⭐ 4.6/5 (11 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
 
-## Creator
+---
 
-**Omar Farouk** ✅
-
-Profile: [@omarfarouk](https://agentskillexchange.com/creator/omarfarouk/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/dolby-io-media-enhancer-agent/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/dolby-io-media-enhancer-agent/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

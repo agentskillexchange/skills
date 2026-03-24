@@ -3,14 +3,22 @@ name: "Yeoman Enterprise Generator Suite"
 description: "Manages Yeoman generators for enterprise application scaffolding with custom sub-generators. Handles Angular module generation via generator-angular, Express API scaffolding, and composite generators with shared prompting and conflict resolution."
 category: "Templates & Workflows"
 framework: "Claude Code"
-verification: listed
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/yeoman-enterprise-generator-suite/"
+tool_ecosystem:
+  tool: "eslint"
+  github_stars: 27186
+  npm_weekly_downloads: 109028697
+  github_repo: "eslint/eslint"
+  license: "MIT"
+  maintained: true
 ---
+
 # Yeoman Enterprise Generator Suite
 
 Manages Yeoman generators for enterprise application scaffolding with custom sub-generators. Handles Angular module generation via generator-angular, Express API scaffolding, and composite generators with shared prompting and conflict resolution.
@@ -41,17 +49,16 @@ clawhub install yeoman-enterprise-generator-suite
 ```bash
 npx skills add agentskillexchange/skills --skill yeoman-enterprise-generator-suite -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Templates & Workflows |
 | **Framework** | Claude Code |
-| **Verification** | community |
-| **Rating** |  (0/5 from 0 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [eslint](https://github.com/eslint/eslint) — ⭐ 27.2k · MIT |
 
-## Creator
+---
 
-**Community**
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/yeoman-enterprise-generator-suite/) · [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/yeoman-enterprise-generator-suite/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

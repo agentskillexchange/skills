@@ -45,18 +45,12 @@ npx skills add agentskillexchange/skills --skill wasm-component-model-linker -a 
 
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Developer Tools |
 | **Framework** | Gemini |
-| **Verification** | Listed |
-| **Rating** | No ratings yet |
+| **Verification** | 📋 Listed |
 
-## Creator
+---
 
-Community Contribution
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/wasm-component-model-linker/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/wasm-component-model-linker/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

@@ -3,14 +3,22 @@ name: "GitLab CI Pipeline Cost Estimator"
 description: "Estimates CI/CD pipeline costs by querying the GitLab REST API v4 for job durations, runner types, and compute minutes. Maps shared vs self-hosted runner usage against GitLab pricing tiers."
 category: "CI/CD Integrations"
 framework: "Custom Agents"
-verification: verified_metadata
-rating: 4.5
-reviews: 52
-creator: "Community"
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/gitlab-ci-pipeline-cost-estimator/"
+tool_ecosystem:
+  tool: "gitlab"
+  github_stars: 24276
+  npm_weekly_downloads: 0
+  github_repo: "gitlabhq/gitlabhq"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # GitLab CI Pipeline Cost Estimator
 
 Estimates CI/CD pipeline costs by querying the GitLab REST API v4 for job durations, runner types, and compute minutes. Maps shared vs self-hosted runner usage against GitLab pricing tiers.
@@ -41,20 +49,16 @@ clawhub install gitlab-ci-pipeline-cost-estimator
 ```bash
 npx skills add agentskillexchange/skills --skill gitlab-ci-pipeline-cost-estimator -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | CI/CD Integrations |
 | **Framework** | Custom Agents |
-| **Verification** | Verified Metadata |
-| **Rating** | ⭐ 4.5/5 (52 reviews) |
-
-## Creator
-
-**Community**
-
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [gitlab](https://github.com/gitlabhq/gitlabhq) — ⭐ 24.3k · NOASSERTION |
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/gitlab-ci-pipeline-cost-estimator/) • [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/gitlab-ci-pipeline-cost-estimator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

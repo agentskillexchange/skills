@@ -4,12 +4,19 @@ description: "Perform high-volume data synchronization with Salesforce using the
 category: "Integrations & Connectors"
 framework: "Codex"
 verification: security_reviewed
-rating: 4.1
-reviews: 50
-creator: "Carlos Mendez"
-creator_handle: "@carlosmendez"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/salesforce-bulk-api-sync-agent/"
+tool_ecosystem:
+  tool: "salesforce"
+  github_stars: 1452
+  npm_weekly_downloads: 804753
+  github_repo: "jsforce/jsforce"
+  license: "MIT"
+  maintained: true
 ---
 
 # Salesforce Bulk API Sync Agent
@@ -45,15 +52,13 @@ npx skills add agentskillexchange/skills --skill salesforce-bulk-api-sync-agent 
 
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Integrations & Connectors |
 | **Framework** | Codex |
-| **Verification** | Security Reviewed |
-| **Rating** | ⭐ 4.1 (50 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [salesforce](https://github.com/jsforce/jsforce) — ⭐ 1.5k · MIT |
 
-## Creator
+---
 
-**Carlos Mendez** (@carlosmendez) ✓
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/salesforce-bulk-api-sync-agent/) · [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/salesforce-bulk-api-sync-agent/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

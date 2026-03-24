@@ -10,6 +10,13 @@ creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/vite-plugin-hmr-analyzer/"
+tool_ecosystem:
+  tool: "vite"
+  github_stars: 79305
+  npm_weekly_downloads: 76344516
+  github_repo: "vitejs/vite"
+  license: "MIT"
+  maintained: true
 ---
 
 # Vite Plugin Hot Module Analyzer
@@ -45,18 +52,13 @@ npx skills add agentskillexchange/skills --skill vite-plugin-hmr-analyzer -a cod
 
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Developer Tools |
 | **Framework** | Cursor |
-| **Verification** | Listed |
-| **Rating** | No ratings yet |
+| **Verification** | 📋 Listed |
+| **Tool** | [vite](https://github.com/vitejs/vite) — ⭐ 79.3k · MIT |
 
-## Creator
+---
 
-Community Contribution
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/vite-plugin-hmr-analyzer/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/vite-plugin-hmr-analyzer/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

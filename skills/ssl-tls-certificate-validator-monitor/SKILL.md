@@ -3,14 +3,15 @@ name: "SSL/TLS Certificate Validator and Monitor"
 description: "Validates SSL/TLS certificates using OpenSSL s_client, checks OCSP stapling status, and monitors expiry dates. Integrates with crt.sh Certificate Transparency logs and SSLLabs API for grading."
 category: "Security & Verification"
 framework: "Custom Agents"
-verification: listed
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/ssl-tls-certificate-validator-monitor/"
 ---
+
 # SSL/TLS Certificate Validator and Monitor
 
 Validates SSL/TLS certificates using OpenSSL s_client, checks OCSP stapling status, and monitors expiry dates. Integrates with crt.sh Certificate Transparency logs and SSLLabs API for grading.
@@ -41,22 +42,15 @@ clawhub install ssl-tls-certificate-validator-monitor
 ```bash
 npx skills add agentskillexchange/skills --skill ssl-tls-certificate-validator-monitor -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
-| Category | Security & Verification |
-| Framework | Custom Agents |
-| Verification |  |
-| Rating | 0 ⭐ |
+| | |
+|---|---|
+| **Category** | Security & Verification |
+| **Framework** | Custom Agents |
+| **Verification** | 🛡️ Security Reviewed |
 
-## Creator
+---
 
-**Community**
-
-[View Profile](https://agentskillexchange.com/skills/ssl-tls-certificate-validator-monitor/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/ssl-tls-certificate-validator-monitor/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/ssl-tls-certificate-validator-monitor/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

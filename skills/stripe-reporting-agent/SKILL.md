@@ -3,65 +3,62 @@ name: "Stripe Reporting Agent"
 description: "AI agent skill for Stripe — query charges, subscriptions, invoices, refunds, and payment intents. Generates revenue reports, churn analysis, MRR calculations, and dispute summaries without leaving your workflow."
 category: "Integrations & Connectors"
 framework: "Custom Agents"
-verification: security_reviewed
-rating: 4.7
-reviews: 85
-creator: "Ava Wilson"
-creator_handle: "@avawilson"
-creator_verified: true
+verification: listed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/stripe-reporting-agent/"
+tool_ecosystem:
+  tool: "stripe"
+  github_stars: 4377
+  npm_weekly_downloads: 8442269
+  github_repo: "stripe/stripe-node"
+  license: "MIT"
+  maintained: true
 ---
+
 # Stripe Reporting Agent
 
 AI agent skill for Stripe — query charges, subscriptions, invoices, refunds, and payment intents. Generates revenue reports, churn analysis, MRR calculations, and dispute summaries without leaving your workflow.
 
 ## Installation
 
-### Any agent (npx skills)
-
+### Any Agent (npx)
 ```bash
 npx skills add agentskillexchange/skills --skill stripe-reporting-agent
 ```
 
 ### Claude Code
-
 ```bash
 npx skills add agentskillexchange/skills --skill stripe-reporting-agent -a claude-code
 ```
 
 ### Cursor
-
 ```bash
 npx skills add agentskillexchange/skills --skill stripe-reporting-agent -a cursor
 ```
 
 ### OpenClaw
-
 ```bash
 clawhub install stripe-reporting-agent
 ```
 
 ### Codex
-
 ```bash
 npx skills add agentskillexchange/skills --skill stripe-reporting-agent -a codex
 ```
 
 ## Details
 
-| Field | Value |
-|-------|-------|
-| Category | Integrations & Connectors |
-| Framework | Custom Agents |
-| Verification | Security Reviewed |
-| Rating | 4.7/5 (85 reviews) |
+| | |
+|---|---|
+| **Category** | Integrations & Connectors |
+| **Framework** | Custom Agents |
+| **Verification** | 📋 Listed |
+| **Tool** | [stripe](https://github.com/stripe/stripe-node) — ⭐ 4.4k · MIT |
 
-## Creator
+---
 
-**Ava Wilson** (Verified Creator ✓)
-- Profile: [@avawilson](https://agentskillexchange.com/browse-skills/?creator=avawilson)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/stripe-reporting-agent/)
-- [Browse all skills](https://agentskillexchange.com/browse-skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/stripe-reporting-agent/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

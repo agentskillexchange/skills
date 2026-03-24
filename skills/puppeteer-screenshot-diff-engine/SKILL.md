@@ -3,14 +3,22 @@ name: "Puppeteer Screenshot Diff Engine"
 description: "Visual regression testing using Puppeteer page.screenshot() with pixelmatch comparison. Leverages CDP sessions via page.createCDPSession() for precise viewport emulation and network throttling."
 category: "Browser Automation"
 framework: "Claude Code"
-verification: verified_metadata
-rating: 4.1
-reviews: 58
-creator: "Leo Park"
-creator_handle: "@leopark_ai"
-creator_verified: true
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/puppeteer-screenshot-diff-engine/"
+tool_ecosystem:
+  tool: "puppeteer"
+  github_stars: 93912
+  npm_weekly_downloads: 8696130
+  github_repo: "puppeteer/puppeteer"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Puppeteer Screenshot Diff Engine
 
 Visual regression testing using Puppeteer page.screenshot() with pixelmatch comparison. Leverages CDP sessions via page.createCDPSession() for precise viewport emulation and network throttling.
@@ -41,23 +49,16 @@ clawhub install puppeteer-screenshot-diff-engine
 ```bash
 npx skills add agentskillexchange/skills --skill puppeteer-screenshot-diff-engine -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Browser Automation |
 | **Framework** | Claude Code |
-| **Verification** | verified |
-| **Rating** | ⭐⭐⭐⭐ 4.1/5 (58 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [puppeteer](https://github.com/puppeteer/puppeteer) — ⭐ 93.9k · Apache-2.0 |
 
-## Creator
+---
 
-**Leo Park** ✓ Verified Creator
-
-- Handle: @leopark_ai
-- [View Profile on ASE](https://agentskillexchange.com/skills/puppeteer-screenshot-diff-engine/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/puppeteer-screenshot-diff-engine/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/puppeteer-screenshot-diff-engine/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

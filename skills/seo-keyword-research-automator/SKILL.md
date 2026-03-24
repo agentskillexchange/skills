@@ -4,13 +4,14 @@ description: "Automated keyword research using DataForSEO API and Google Search 
 category: "Content Writing & SEO"
 framework: "Gemini"
 verification: security_reviewed
-rating: 4.9
-reviews: 86
-creator: "Nina Volkov"
-creator_handle: "@ninavolkov"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/seo-keyword-research-automator/"
 ---
+
 # SEO Keyword Research Automator
 
 Automated keyword research using DataForSEO API and Google Search Console API. Performs SERP analysis, keyword clustering with TF-IDF scoring, and generates content briefs with search intent classification.
@@ -41,22 +42,15 @@ clawhub install seo-keyword-research-automator
 ```bash
 npx skills add agentskillexchange/skills --skill seo-keyword-research-automator -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Content Writing & SEO |
 | **Framework** | Gemini |
-| **Verification** | Verified & Security Reviewed |
-| **Rating** | 4.9 ⭐ (86 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
 
-## Creator
+---
 
-**Nina Volkov** ✓
-Handle: @ninavolkov
-[View Profile](https://agentskillexchange.com/creator/ninavolkov/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/seo-keyword-research-automator/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/seo-keyword-research-automator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

@@ -4,12 +4,19 @@ description: "Fine-tune Stable Diffusion XL models with LoRA adapters using the 
 category: "Image & Creative Automation"
 framework: "Custom Agents"
 verification: security_reviewed
-rating: 4.9
-reviews: 86
-creator: "Lucy Zhang"
-creator_handle: "@lucyzhang"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/stable-diffusion-xl-lora-trainer/"
+tool_ecosystem:
+  tool: "stable.diffusion"
+  github_stars: 0
+  npm_weekly_downloads: 0
+  github_repo: ""
+  license: ""
+  maintained: false
 ---
 
 # Stable Diffusion XL LoRA Trainer
@@ -45,15 +52,13 @@ npx skills add agentskillexchange/skills --skill stable-diffusion-xl-lora-traine
 
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Image & Creative Automation |
 | **Framework** | Custom Agents |
-| **Verification** | Security Reviewed |
-| **Rating** | ⭐ 4.9 (86 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | stable.diffusion |
 
-## Creator
+---
 
-**Lucy Zhang** (@lucyzhang) ✓
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/stable-diffusion-xl-lora-trainer/) · [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/stable-diffusion-xl-lora-trainer/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

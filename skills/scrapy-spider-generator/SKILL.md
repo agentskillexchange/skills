@@ -6,11 +6,19 @@ framework: "ChatGPT Agents"
 verification: listed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/scrapy-spider-generator/"
+tool_ecosystem:
+  tool: "scrapy"
+  github_stars: 60923
+  npm_weekly_downloads: 10909882
+  github_repo: "scrapy/scrapy"
+  license: "BSD-3-Clause"
+  maintained: true
 ---
+
 # Scrapy Spider Generator
 
 Generates production-ready Scrapy spiders with middleware configuration and item pipeline setup. Uses the Scrapy Framework API, Selector (XPath/CSS), and Twisted reactor for concurrent crawling.
@@ -41,22 +49,16 @@ clawhub install scrapy-spider-generator
 ```bash
 npx skills add agentskillexchange/skills --skill scrapy-spider-generator -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
-| Category | Research & Scraping |
-| Framework | ChatGPT Agents |
-| Verification | Community |
-| Rating | 0 ⭐ (0 reviews) |
+| | |
+|---|---|
+| **Category** | Research & Scraping |
+| **Framework** | ChatGPT Agents |
+| **Verification** | 📋 Listed |
+| **Tool** | [scrapy](https://github.com/scrapy/scrapy) — ⭐ 60.9k · BSD-3-Clause |
 
-## Creator
+---
 
-**Community**
-
-[View Profile](https://agentskillexchange.com/skills/scrapy-spider-generator/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/scrapy-spider-generator/)
-- [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/scrapy-spider-generator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

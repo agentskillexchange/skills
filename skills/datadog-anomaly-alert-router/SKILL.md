@@ -1,15 +1,24 @@
 ---
-name: "datadog-anomaly-alert-router"
+name: "Datadog Anomaly Alert Router"
 description: "Routes Datadog anomaly detection alerts to appropriate response channels using the Datadog Events API v2 and Monitors API. Applies severity-based escalation rules with PagerDuty and Slack webhook integration."
 category: "Monitoring & Alerts"
-framework: "MCP"
-verification: listed
+framework: "MCP-compatible"
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
+creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/datadog-anomaly-alert-router/"
+tool_ecosystem:
+  tool: "datadog"
+  github_stars: 787
+  npm_weekly_downloads: 6043057
+  github_repo: "DataDog/dd-trace-js"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # Datadog Anomaly Alert Router
 
 Routes Datadog anomaly detection alerts to appropriate response channels using the Datadog Events API v2 and Monitors API. Applies severity-based escalation rules with PagerDuty and Slack webhook integration.
@@ -40,20 +49,16 @@ clawhub install datadog-anomaly-alert-router
 ```bash
 npx skills add agentskillexchange/skills --skill datadog-anomaly-alert-router -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
-| Category | Monitoring & Alerts |
-| Framework | MCP-compatible |
-| Verification |  |
-| Rating | 0/5 (0 reviews) |
+| | |
+|---|---|
+| **Category** | Monitoring & Alerts |
+| **Framework** | MCP-compatible |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [datadog](https://github.com/DataDog/dd-trace-js) — ⭐ 787 · NOASSERTION |
 
-## Creator
+---
 
-**Community**
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/datadog-anomaly-alert-router/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/datadog-anomaly-alert-router/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

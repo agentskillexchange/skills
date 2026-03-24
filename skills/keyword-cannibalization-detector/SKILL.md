@@ -1,19 +1,27 @@
 ---
 name: "Keyword Cannibalization Detector"
-description: "Detects keyword cannibalization across your site by analyzing page rankings, content overlap, and SERP competition to recommend consolidation and optimization strategies."
+description: "Detects keyword cannibalization issues using Google Search Console API performance data and Semrush keyword tracking. Maps URL-to-keyword overlaps and suggests content consolidation strategies."
 category: "Content Writing & SEO"
 framework: "Claude Code"
 verification: security_reviewed
-rating: 4.1
-reviews: 80
-creator: "Ava Johnson"
-creator_handle: "@avajohnson"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/keyword-cannibalization-detector/"
+tool_ecosystem:
+  tool: "wordpress"
+  github_stars: 20973
+  npm_weekly_downloads: 0
+  github_repo: "WordPress/WordPress"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # Keyword Cannibalization Detector
 
-Detects keyword cannibalization across your site by analyzing page rankings, content overlap, and SERP competition to recommend consolidation and optimization strategies.
+Detects keyword cannibalization issues using Google Search Console API performance data and Semrush keyword tracking. Maps URL-to-keyword overlaps and suggests content consolidation strategies.
 
 ## Installation
 
@@ -41,21 +49,16 @@ clawhub install keyword-cannibalization-detector
 ```bash
 npx skills add agentskillexchange/skills --skill keyword-cannibalization-detector -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Content Writing & SEO |
 | **Framework** | Claude Code |
-| **Verification** | ✅ Verified |
-| **Rating** | 4.1 ⭐⭐⭐⭐ (80 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [wordpress](https://github.com/WordPress/WordPress) — ⭐ 21.0k · NOASSERTION |
 
-## Creator
+---
 
-**Ava Johnson** ✅
-[View Profile](https://agentskillexchange.com/creator/avajohnson/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/keyword-cannibalization-detector/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/keyword-cannibalization-detector/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

@@ -4,13 +4,21 @@ description: "Bidirectionally syncs project data between Notion databases and ex
 category: "Calendar, Email & Productivity"
 framework: "Custom Agents"
 verification: security_reviewed
-rating: 4.2
-reviews: 84
-creator: "Omar Farouk"
-creator_handle: "@omarfarouk"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/notion-workspace-sync-agent/"
+tool_ecosystem:
+  tool: "notion"
+  github_stars: 5562
+  npm_weekly_downloads: 1084242
+  github_repo: "makenotion/notion-sdk-js"
+  license: "MIT"
+  maintained: true
 ---
+
 # Notion Workspace Sync Agent
 
 Bidirectionally syncs project data between Notion databases and external tools using the Notion API v2022-06-28. Connects Jira (REST API), Linear (GraphQL), and GitHub Issues for unified project tracking.
@@ -41,22 +49,16 @@ clawhub install notion-workspace-sync-agent
 ```bash
 npx skills add agentskillexchange/skills --skill notion-workspace-sync-agent -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Calendar, Email & Productivity |
 | **Framework** | Custom Agents |
-| **Verification** | ✅ Verified |
-| **Security** | ✅ Reviewed |
-| **Rating** | ⭐ 4.2 (84 reviews) |
-
-## Creator
-
-**Omar Farouk** ✅
-Handle: `@omarfarouk`
-[View Profile on ASE](https://agentskillexchange.com/skills/notion-workspace-sync-agent/)
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [notion](https://github.com/makenotion/notion-sdk-js) — ⭐ 5.6k · MIT |
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/notion-workspace-sync-agent/) • [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/notion-workspace-sync-agent/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

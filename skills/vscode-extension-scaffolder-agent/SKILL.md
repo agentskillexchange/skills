@@ -6,11 +6,19 @@ framework: "Cursor"
 verification: listed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/vscode-extension-scaffolder-agent/"
+tool_ecosystem:
+  tool: "webpack"
+  github_stars: 66013
+  npm_weekly_downloads: 44849699
+  github_repo: "webpack/webpack"
+  license: "MIT"
+  maintained: true
 ---
+
 # VS Code Extension Scaffolder
 
 Scaffolds VS Code extensions using the vscode-extension API with TypeScript, including commands, webview panels, language servers via LSP, and custom tree view providers.
@@ -41,20 +49,16 @@ clawhub install vscode-extension-scaffolder-agent
 ```bash
 npx skills add agentskillexchange/skills --skill vscode-extension-scaffolder-agent -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Developer Tools |
 | **Framework** | Cursor |
-| **Verification** |  |
-| **Rating** | 0 (0 reviews) |
+| **Verification** | 📋 Listed |
+| **Tool** | [webpack](https://github.com/webpack/webpack) — ⭐ 66.0k · MIT |
 
-## Creator
+---
 
-**Community**
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/vscode-extension-scaffolder-agent/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/vscode-extension-scaffolder-agent/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

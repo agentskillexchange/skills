@@ -3,14 +3,22 @@ name: "Terraform Module Template Engine"
 description: "Scaffolds production-ready Terraform modules using HCL templates with automated variable documentation via terraform-docs. Includes Terratest boilerplate and GitHub Actions CI workflow generation."
 category: "Templates & Workflows"
 framework: "Gemini"
-verification: listed
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/terraform-module-template-engine/"
+tool_ecosystem:
+  tool: "terraform"
+  github_stars: 47996
+  npm_weekly_downloads: 0
+  github_repo: "hashicorp/terraform"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # Terraform Module Template Engine
 
 Scaffolds production-ready Terraform modules using HCL templates with automated variable documentation via terraform-docs. Includes Terratest boilerplate and GitHub Actions CI workflow generation.
@@ -41,20 +49,16 @@ clawhub install terraform-module-template-engine
 ```bash
 npx skills add agentskillexchange/skills --skill terraform-module-template-engine -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Templates & Workflows |
 | **Framework** | Gemini |
-| **Verification** |  |
-| **Rating** | 0 (0 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [terraform](https://github.com/hashicorp/terraform) — ⭐ 48.0k · NOASSERTION |
 
-## Creator
+---
 
-**Community**
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-module-template-engine/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-module-template-engine/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

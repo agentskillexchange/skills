@@ -3,14 +3,22 @@ name: "Scrapy Spider Data Pipeline"
 description: "Builds and manages Scrapy web scraping spiders with custom item pipelines. Supports Splash rendering for JavaScript pages, rotating proxies via scrapy-rotating-proxies, and export to MongoDB or Elasticsearch."
 category: "Data Extraction & Transformation"
 framework: "Cursor"
-verification: listed
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "James Kim"
-creator_handle: "@jameskim_ai"
-creator_verified: true
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/scrapy-spider-data-pipeline/"
+tool_ecosystem:
+  tool: "scrapy"
+  github_stars: 60923
+  npm_weekly_downloads: 39806814
+  github_repo: "scrapy/scrapy"
+  license: "BSD-3-Clause"
+  maintained: true
 ---
+
 # Scrapy Spider Data Pipeline
 
 Builds and manages Scrapy web scraping spiders with custom item pipelines. Supports Splash rendering for JavaScript pages, rotating proxies via scrapy-rotating-proxies, and export to MongoDB or Elasticsearch.
@@ -41,21 +49,16 @@ clawhub install scrapy-spider-data-pipeline
 ```bash
 npx skills add agentskillexchange/skills --skill scrapy-spider-data-pipeline -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Data Extraction & Transformation |
 | **Framework** | Cursor |
-| **Verification** | community |
-| **Rating** | 4.9 (0 reviews) |
-
-## Creator
-
-**James Kim** ✓
-
-[Profile](https://agentskillexchange.com/creator/@jameskim_ai/)
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [scrapy](https://github.com/scrapy/scrapy) — ⭐ 60.9k · BSD-3-Clause |
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/scrapy-spider-data-pipeline/) · [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/scrapy-spider-data-pipeline/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

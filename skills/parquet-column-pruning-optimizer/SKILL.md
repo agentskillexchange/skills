@@ -6,11 +6,19 @@ framework: "Custom Agents"
 verification: listed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/parquet-column-pruning-optimizer/"
+tool_ecosystem:
+  tool: "parquet"
+  github_stars: 387
+  npm_weekly_downloads: 146943
+  github_repo: "ironSource/parquetjs"
+  license: "MIT"
+  maintained: false
 ---
+
 # Parquet Column Pruning Optimizer
 
 Optimizes Apache Parquet file reads using PyArrow column pruning and predicate pushdown. Analyzes query patterns to recommend row group sizing and dictionary encoding strategies.
@@ -41,20 +49,16 @@ clawhub install parquet-column-pruning-optimizer
 ```bash
 npx skills add agentskillexchange/skills --skill parquet-column-pruning-optimizer -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Data Extraction & Transformation |
 | **Framework** | Custom Agents |
-| **Verification** |  |
-| **Rating** | 0 (0 reviews) |
+| **Verification** | 📋 Listed |
+| **Tool** | [parquet](https://github.com/ironSource/parquetjs) — ⭐ 387 · MIT |
 
-## Creator
+---
 
-**Community**
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/parquet-column-pruning-optimizer/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/parquet-column-pruning-optimizer/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

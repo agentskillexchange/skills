@@ -3,14 +3,22 @@ name: "Cheerio DOM Scraping Toolkit"
 description: "Parses static HTML using Cheerio’s jQuery-like API for fast server-side DOM traversal and data extraction. Generates extraction patterns with CSS selectors optimized for resilience to layout changes."
 category: "Research & Scraping"
 framework: "Cursor"
-verification: verified_metadata
-rating: 4.9
-reviews: 19
-creator: "Nina Volkov"
-creator_handle: "@ninavolkov"
-creator_verified: true
+verification: listed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/cheerio-dom-scraping-toolkit/"
+tool_ecosystem:
+  tool: "cheerio"
+  github_stars: 30229
+  npm_weekly_downloads: 18512628
+  github_repo: "cheeriojs/cheerio"
+  license: "MIT"
+  maintained: true
 ---
+
 # Cheerio DOM Scraping Toolkit
 
 Parses static HTML using Cheerio’s jQuery-like API for fast server-side DOM traversal and data extraction. Generates extraction patterns with CSS selectors optimized for resilience to layout changes.
@@ -41,22 +49,16 @@ clawhub install cheerio-dom-scraping-toolkit
 ```bash
 npx skills add agentskillexchange/skills --skill cheerio-dom-scraping-toolkit -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Research & Scraping |
 | **Framework** | Cursor |
-| **Verification** | Verified |
-| **Rating** | ⭐⭐⭐⭐ 4.9/5 (19 reviews) |
+| **Verification** | 📋 Listed |
+| **Tool** | [cheerio](https://github.com/cheeriojs/cheerio) — ⭐ 30.2k · MIT |
 
-## Creator
+---
 
-**Nina Volkov** (@ninavolkov)
-- Verified Creator: Yes
-- [View Profile](https://agentskillexchange.com/creator/ninavolkov/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/cheerio-dom-scraping-toolkit/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/cheerio-dom-scraping-toolkit/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

@@ -3,14 +3,22 @@ name: "Puppeteer Web Scraping Pipeline"
 description: "Builds web scraping pipelines with Puppeteer using page.evaluate, page.waitForSelector, and browser.newPage. Handles infinite scroll, cookie consent banners, and anti-bot detection with stealth plugin."
 category: "Browser Automation"
 framework: "Gemini"
-verification: listed
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/puppeteer-web-scraping-pipeline/"
+tool_ecosystem:
+  tool: "puppeteer"
+  github_stars: 93912
+  npm_weekly_downloads: 8696130
+  github_repo: "puppeteer/puppeteer"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Puppeteer Web Scraping Pipeline
 
 Builds web scraping pipelines with Puppeteer using page.evaluate, page.waitForSelector, and browser.newPage. Handles infinite scroll, cookie consent banners, and anti-bot detection with stealth plugin.
@@ -41,21 +49,16 @@ clawhub install puppeteer-web-scraping-pipeline
 ```bash
 npx skills add agentskillexchange/skills --skill puppeteer-web-scraping-pipeline -a codex
 ```
+
 ## Details
 
 | | |
 |---|---|
 | **Category** | Browser Automation |
 | **Framework** | Gemini |
-| **Verification** | community |
-| **Rating** | 0 ⭐ (0 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [puppeteer](https://github.com/puppeteer/puppeteer) — ⭐ 93.9k · Apache-2.0 |
 
-## Creator
+---
 
-**Community**
-
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/puppeteer-web-scraping-pipeline/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/puppeteer-web-scraping-pipeline/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

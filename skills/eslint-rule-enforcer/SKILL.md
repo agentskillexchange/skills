@@ -6,11 +6,19 @@ framework: "Claude Code"
 verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/eslint-rule-enforcer/"
+tool_ecosystem:
+  tool: "eslint"
+  github_stars: 27186
+  npm_weekly_downloads: 109028697
+  github_repo: "eslint/eslint"
+  license: "MIT"
+  maintained: true
 ---
+
 # ESLint Rule Enforcer
 
 Automates ESLint v9 flat config enforcement across monorepos using eslint-plugin-unicorn and @typescript-eslint/parser. Scans changed files via git diff, applies auto-fixable rules, and generates per-package lint reports with violation severity breakdowns.
@@ -41,21 +49,16 @@ clawhub install eslint-rule-enforcer
 ```bash
 npx skills add agentskillexchange/skills --skill eslint-rule-enforcer -a codex
 ```
+
 ## Details
 
 | | |
 |---|---|
 | **Category** | Code Quality & Review |
 | **Framework** | Claude Code |
-| **Verification** | security_reviewed |
-| **Rating** |  (0/5 from 0 reviews) |
-
-## Creator
-
-**Community**
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/eslint-rule-enforcer/)
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [eslint](https://github.com/eslint/eslint) — ⭐ 27.2k · MIT |
 
 ---
 
-[Browse more skills](https://agentskillexchange.com) | [Agent Skill Exchange](https://agentskillexchange.com/skills/eslint-rule-enforcer/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/eslint-rule-enforcer/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

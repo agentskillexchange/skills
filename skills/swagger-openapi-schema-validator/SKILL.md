@@ -3,14 +3,22 @@ name: "Swagger OpenAPI Schema Validator"
 description: "Validates and lints OpenAPI 3.1 specifications using Spectral ruleset engine and swagger-parser. Detects breaking changes between API versions using oasdiff comparison tool."
 category: "Library & API Reference"
 framework: "Cursor"
-verification: verified_metadata
-rating: 4.8
-reviews: 86
-creator: "Leo Park"
-creator_handle: "@leopark_ai"
-creator_verified: true
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/swagger-openapi-schema-validator/"
+tool_ecosystem:
+  tool: "swagger"
+  github_stars: 28702
+  npm_weekly_downloads: 3219093
+  github_repo: "swagger-api/swagger-ui"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Swagger OpenAPI Schema Validator
 
 Validates and lints OpenAPI 3.1 specifications using Spectral ruleset engine and swagger-parser. Detects breaking changes between API versions using oasdiff comparison tool.
@@ -41,21 +49,16 @@ clawhub install swagger-openapi-schema-validator
 ```bash
 npx skills add agentskillexchange/skills --skill swagger-openapi-schema-validator -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Library & API Reference |
 | **Framework** | Cursor |
-| **Verification** | Verified |
-| **Rating** | ⭐⭐⭐⭐ 4.8/5 (86 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [swagger](https://github.com/swagger-api/swagger-ui) — ⭐ 28.7k · Apache-2.0 |
 
-## Creator
+---
 
-**Leo Park** ✓
-[View Profile](https://agentskillexchange.com/creator/leopark_ai/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/swagger-openapi-schema-validator/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/swagger-openapi-schema-validator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

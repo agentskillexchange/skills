@@ -3,14 +3,22 @@ name: "CircleCI Orb Validator"
 description: "Validates and lints CircleCI orb configurations using the CircleCI CLI and circleci-config-sdk. Checks for deprecated keys, version constraints, and executor compatibility before publishing."
 category: "CI/CD Integrations"
 framework: "Claude Agents"
-verification: listed
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/circleci-orb-validator/"
+tool_ecosystem:
+  tool: "circleci"
+  github_stars: 842
+  npm_weekly_downloads: 0
+  github_repo: "circleci/circleci-docs"
+  license: "Unknown"
+  maintained: true
 ---
+
 # CircleCI Orb Validator
 
 Validates and lints CircleCI orb configurations using the CircleCI CLI and circleci-config-sdk. Checks for deprecated keys, version constraints, and executor compatibility before publishing.
@@ -41,22 +49,16 @@ clawhub install circleci-orb-validator
 ```bash
 npx skills add agentskillexchange/skills --skill circleci-orb-validator -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | CI/CD Integrations |
 | **Framework** | Claude Agents |
-| **Verification** | Community |
-| **Rating** | 0 ⭐ (0 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [circleci](https://github.com/circleci/circleci-docs) — ⭐ 842 · Unknown |
 
-## Creator
+---
 
-**Community**
-
-
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-orb-validator/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-orb-validator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

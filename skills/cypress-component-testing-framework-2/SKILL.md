@@ -2,15 +2,23 @@
 name: "Cypress Component Testing Framework"
 description: "Scaffolds Cypress component tests for React, Vue, and Angular apps using the Cypress CT mount API. Configures webpack/vite dev servers and generates snapshot-based visual assertions."
 category: "Browser Automation"
-framework: "MCP"
+framework: "MCP-compatible"
 verification: security_reviewed
-rating: 4.4
-reviews: 43
-creator: "Aisha Patel"
-creator_handle: "@aishapatel"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/cypress-component-testing-framework-2/"
+tool_ecosystem:
+  tool: "cypress"
+  github_stars: 49612
+  npm_weekly_downloads: 7404178
+  github_repo: "cypress-io/cypress"
+  license: "MIT"
+  maintained: true
 ---
+
 # Cypress Component Testing Framework
 
 Scaffolds Cypress component tests for React, Vue, and Angular apps using the Cypress CT mount API. Configures webpack/vite dev servers and generates snapshot-based visual assertions.
@@ -41,21 +49,16 @@ clawhub install cypress-component-testing-framework-2
 ```bash
 npx skills add agentskillexchange/skills --skill cypress-component-testing-framework-2 -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Browser Automation |
 | **Framework** | MCP-compatible |
-| **Verification** | ✅ Verified |
-| **Rating** | ⭐ 4.4/5 (43 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [cypress](https://github.com/cypress-io/cypress) — ⭐ 49.6k · MIT |
 
-## Creator
+---
 
-**Aisha Patel** ✅
-Profile: [@aishapatel](https://agentskillexchange.com/creator/aishapatel/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/cypress-component-testing-framework-2/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/cypress-component-testing-framework-2/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

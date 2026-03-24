@@ -1,15 +1,17 @@
 ---
 name: "Codecov Diff Analyzer"
 description: "Uses the Codecov API v2 to analyze coverage diffs on pull requests. Surfaces uncovered lines in changed files and compares against Codecov YAML threshold configurations."
-category: "Developer Tools"
-framework: "Custom Agents"
-verification: security_reviewed
-rating: 4.9
-reviews: 84
-creator: "Community"
+category: "Templates & Workflows"
+framework: "Any"
+verification: listed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/codecov-diff-analyzer-2/"
 ---
+
 # Codecov Diff Analyzer
 
 Uses the Codecov API v2 to analyze coverage diffs on pull requests. Surfaces uncovered lines in changed files and compares against Codecov YAML threshold configurations.
@@ -40,20 +42,15 @@ clawhub install codecov-diff-analyzer-2
 ```bash
 npx skills add agentskillexchange/skills --skill codecov-diff-analyzer-2 -a codex
 ```
+
 ## Details
 
 | | |
 |---|---|
-| **Category** | Uncategorized |
-| **Framework** | Unknown |
-| **Verification** | 🔵 Security Reviewed |
-| **Rating** | ⭐⭐⭐⭐ 4.9/5 (84 reviews) |
+| **Category** | Templates & Workflows |
+| **Framework** | Any |
+| **Verification** | 📋 Listed |
 
-## Creator
+---
 
-**Community**
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/codecov-diff-analyzer-2/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/codecov-diff-analyzer-2/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

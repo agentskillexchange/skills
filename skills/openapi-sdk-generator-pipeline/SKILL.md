@@ -4,13 +4,14 @@ description: "Generates typed client SDKs from OpenAPI 3.x specifications using 
 category: "Library & API Reference"
 framework: "Custom Agents"
 verification: verified_metadata
-rating: 4.9
-reviews: 51
-creator: "Tom Wilson"
-creator_handle: "@tomwilson"
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/openapi-sdk-generator-pipeline/"
 ---
+
 # OpenAPI SDK Generator Pipeline
 
 Generates typed client SDKs from OpenAPI 3.x specifications using openapi-generator-cli. Produces TypeScript, Python, and Go clients with proper authentication interceptors and retry logic.
@@ -41,22 +42,15 @@ clawhub install openapi-sdk-generator-pipeline
 ```bash
 npx skills add agentskillexchange/skills --skill openapi-sdk-generator-pipeline -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Library & API Reference |
 | **Framework** | Custom Agents |
-| **Verification** | Verified |
-| **Rating** | 4.9 ⭐ (51 reviews) |
+| **Verification** | ✅ Verified Metadata |
 
-## Creator
+---
 
-**Tom Wilson** (@tomwilson)
-- Verified: No
-- [View Profile](https://agentskillexchange.com/creator/tomwilson)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/openapi-sdk-generator-pipeline/)
-- [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/openapi-sdk-generator-pipeline/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

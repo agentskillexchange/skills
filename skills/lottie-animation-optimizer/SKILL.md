@@ -45,18 +45,12 @@ npx skills add agentskillexchange/skills --skill lottie-animation-optimizer -a c
 
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Image & Creative Automation |
 | **Framework** | ChatGPT Agents |
-| **Verification** | Listed |
-| **Rating** | No ratings yet |
+| **Verification** | 📋 Listed |
 
-## Creator
+---
 
-Community Contribution
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/lottie-animation-optimizer/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/lottie-animation-optimizer/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

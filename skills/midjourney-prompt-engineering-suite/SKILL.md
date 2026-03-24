@@ -4,14 +4,21 @@ description: "Generates and optimizes Midjourney prompts using the Midjourney AP
 category: "Image & Creative Automation"
 framework: "ChatGPT Agents"
 verification: security_reviewed
-rating: 4.9
-reviews: 42
-creator: "Ryan O'Malley"
-creator_handle: "@ryanomalley"
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/midjourney-prompt-engineering-suite/"
-security: "✅ Reviewed"
+tool_ecosystem:
+  tool: "midjourney"
+  github_stars: 0
+  npm_weekly_downloads: 0
+  github_repo: ""
+  license: ""
+  maintained: false
 ---
+
 # Midjourney Prompt Engineering Suite
 
 Generates and optimizes Midjourney prompts using the Midjourney API with automatic parameter tuning for aspect ratios, stylize values, and chaos settings. Includes A/B testing workflows via Replicate prediction API.
@@ -42,22 +49,16 @@ clawhub install midjourney-prompt-engineering-suite
 ```bash
 npx skills add agentskillexchange/skills --skill midjourney-prompt-engineering-suite -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Image & Creative Automation |
 | **Framework** | ChatGPT Agents |
-| **Verification** | ✅ Verified |
-| **Security** | ✅ Reviewed |
-| **Rating** | ⭐ 4.9 (42 reviews) |
-
-## Creator
-
-**Ryan O'Malley** 
-Handle: `@ryanomalley`
-[View Profile on ASE](https://agentskillexchange.com/skills/midjourney-prompt-engineering-suite/)
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | midjourney |
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/midjourney-prompt-engineering-suite/) • [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/midjourney-prompt-engineering-suite/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

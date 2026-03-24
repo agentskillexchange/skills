@@ -2,15 +2,23 @@
 name: "Keyword Cluster Generator"
 description: "Groups keywords into topical clusters using sentence-transformers all-MiniLM-L6-v2 embeddings with HDBSCAN clustering. Pulls search volume data from Google Ads API and SEMrush API."
 category: "Content Writing & SEO"
-framework: "MCP"
-verification: verified_metadata
-rating: 4.9
-reviews: 34
-creator: "Carlos Mendez"
-creator_handle: "@carlosmendez"
-creator_verified: true
+framework: "MCP-compatible"
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/keyword-cluster-generator-agent/"
+tool_ecosystem:
+  tool: "notion"
+  github_stars: 5562
+  npm_weekly_downloads: 1084242
+  github_repo: "makenotion/notion-sdk-js"
+  license: "MIT"
+  maintained: true
 ---
+
 # Keyword Cluster Generator
 
 Groups keywords into topical clusters using sentence-transformers all-MiniLM-L6-v2 embeddings with HDBSCAN clustering. Pulls search volume data from Google Ads API and SEMrush API.
@@ -41,22 +49,16 @@ clawhub install keyword-cluster-generator-agent
 ```bash
 npx skills add agentskillexchange/skills --skill keyword-cluster-generator-agent -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Content Writing & SEO |
 | **Framework** | MCP-compatible |
-| **Verification** | Verified |
-| **Rating** | ⭐⭐⭐⭐ 4.9/5 (34 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [notion](https://github.com/makenotion/notion-sdk-js) — ⭐ 5.6k · MIT |
 
-## Creator
+---
 
-**Carlos Mendez** ✓
-
-[View Profile](https://agentskillexchange.com/creator/carlosmendez/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/keyword-cluster-generator-agent/)
-- [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/keyword-cluster-generator-agent/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

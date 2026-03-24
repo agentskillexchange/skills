@@ -10,6 +10,13 @@ creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/biome-lint-migration-toolkit/"
+tool_ecosystem:
+  tool: "eslint"
+  github_stars: 27186
+  npm_weekly_downloads: 109028697
+  github_repo: "eslint/eslint"
+  license: "MIT"
+  maintained: true
 ---
 
 # Biome Lint Migration Toolkit
@@ -45,18 +52,13 @@ npx skills add agentskillexchange/skills --skill biome-lint-migration-toolkit -a
 
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Developer Tools |
 | **Framework** | Claude Code |
-| **Verification** | Listed |
-| **Rating** | No ratings yet |
+| **Verification** | 📋 Listed |
+| **Tool** | [eslint](https://github.com/eslint/eslint) — ⭐ 27.2k · MIT |
 
-## Creator
+---
 
-Community Contribution
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/biome-lint-migration-toolkit/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/biome-lint-migration-toolkit/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

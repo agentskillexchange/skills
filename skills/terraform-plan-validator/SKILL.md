@@ -2,15 +2,23 @@
 name: "Terraform Plan Validator"
 description: "Parses terraform plan JSON output via the Terraform CLI (terraform show -json) to validate infrastructure changes before apply. Detects destructive operations, cost estimate impacts via Infracost API, and drift from desired state."
 category: "CI/CD Integrations"
-framework: "MCP"
-verification: verified_metadata
-rating: 4.0
-reviews: 36
-creator: "Community"
+framework: "MCP-compatible"
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/terraform-plan-validator/"
+tool_ecosystem:
+  tool: "terraform"
+  github_stars: 47996
+  npm_weekly_downloads: 0
+  github_repo: "hashicorp/terraform"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # Terraform Plan Validator
 
 Parses terraform plan JSON output via the Terraform CLI (terraform show -json) to validate infrastructure changes before apply. Detects destructive operations, cost estimate impacts via Infracost API, and drift from desired state.
@@ -41,19 +49,16 @@ clawhub install terraform-plan-validator
 ```bash
 npx skills add agentskillexchange/skills --skill terraform-plan-validator -a codex
 ```
+
 ## Details
 
 | | |
 |---|---|
 | **Category** | CI/CD Integrations |
 | **Framework** | MCP-compatible |
-| **Verification** | Verified Metadata |
-| **Rating** | ⭐⭐⭐⭐ 4.0/5 (36 reviews) |
-
-## Creator
-
-**Community**
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [terraform](https://github.com/hashicorp/terraform) — ⭐ 48.0k · NOASSERTION |
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-plan-validator/) · [Browse Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-plan-validator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

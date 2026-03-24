@@ -1,20 +1,27 @@
 ---
 name: "Twilio Programmable Voice Router"
-description: "Builds intelligent voice routing flows using the Twilio Programmable Voice API. Generates TwiML responses with , , and  verbs, and manages call recordings via the Recordings REST resource."
+description: "Builds intelligent voice routing flows using the Twilio Programmable Voice API. Generates TwiML responses with <Gather>, <Dial>, and <Enqueue> verbs, and manages call recordings via the Recordings REST resource."
 category: "Integrations & Connectors"
-framework: "Cursor"
+framework: "Claude Agents"
 verification: security_reviewed
-rating: 4.6
-reviews: 84
-creator: "Aisha Patel"
-creator_handle: "@aishapatel"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/twilio-programmable-voice-router-2/"
+tool_ecosystem:
+  tool: "twilio"
+  github_stars: 1523
+  npm_weekly_downloads: 3810383
+  github_repo: "twilio/twilio-node"
+  license: "MIT"
+  maintained: true
 ---
 
 # Twilio Programmable Voice Router
 
-Builds intelligent voice routing flows using the Twilio Programmable Voice API. Generates TwiML responses with , , and  verbs, and manages call recordings via the Recordings REST resource.
+Builds intelligent voice routing flows using the Twilio Programmable Voice API. Generates TwiML responses with <Gather>, <Dial>, and <Enqueue> verbs, and manages call recordings via the Recordings REST resource.
 
 ## Installation
 
@@ -48,16 +55,10 @@ npx skills add agentskillexchange/skills --skill twilio-programmable-voice-route
 | | |
 |---|---|
 | **Category** | Integrations & Connectors |
-| **Framework** | Cursor |
-| **Verification** | Security Reviewed |
-| **Rating** | ⭐ 4.6 (84 reviews) |
+| **Framework** | Claude Agents |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [twilio](https://github.com/twilio/twilio-node) — ⭐ 1.5k · MIT |
 
-## Creator
+---
 
-**Aisha Patel** ✓
-- Profile: [https://agentskillexchange.com/creator/aishapatel/](https://agentskillexchange.com/creator/aishapatel/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/twilio-programmable-voice-router-2/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/twilio-programmable-voice-router-2/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

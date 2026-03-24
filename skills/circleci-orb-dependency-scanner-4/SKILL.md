@@ -3,14 +3,22 @@ name: "CircleCI Orb Dependency Scanner"
 description: "Scans CircleCI config.yml for outdated orb versions using the CircleCI Orbs Registry API. Reports CVEs linked to orb dependencies via Snyk vulnerability database lookups."
 category: "CI/CD Integrations"
 framework: "Claude Code"
-verification: verified_metadata
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/circleci-orb-dependency-scanner-4/"
+tool_ecosystem:
+  tool: "circleci"
+  github_stars: 842
+  npm_weekly_downloads: 0
+  github_repo: "circleci/circleci-docs"
+  license: "Unknown"
+  maintained: true
 ---
+
 # CircleCI Orb Dependency Scanner
 
 Scans CircleCI config.yml for outdated orb versions using the CircleCI Orbs Registry API. Reports CVEs linked to orb dependencies via Snyk vulnerability database lookups.
@@ -41,22 +49,16 @@ clawhub install circleci-orb-dependency-scanner-4
 ```bash
 npx skills add agentskillexchange/skills --skill circleci-orb-dependency-scanner-4 -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | CI/CD Integrations |
 | **Framework** | Claude Code |
-| **Verification** | verified_metadata |
-| **Rating** | 0 ⭐ (0 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [circleci](https://github.com/circleci/circleci-docs) — ⭐ 842 · Unknown |
 
-## Creator
+---
 
-**Community** 
-
-
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-orb-dependency-scanner-4/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-orb-dependency-scanner-4/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

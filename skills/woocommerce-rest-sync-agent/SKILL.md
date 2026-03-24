@@ -4,13 +4,21 @@ description: "Synchronizes WooCommerce product data bidirectionally using the WC
 category: "WordPress & CMS"
 framework: "Codex"
 verification: security_reviewed
-rating: 4.5
-reviews: 20
-creator: "Yuki Tanaka"
-creator_handle: "@yukitanaka"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/woocommerce-rest-sync-agent/"
+tool_ecosystem:
+  tool: "sqlite"
+  github_stars: 0
+  npm_weekly_downloads: 4960915
+  github_repo: ""
+  license: ""
+  maintained: false
 ---
+
 # WooCommerce REST Sync Agent
 
 Synchronizes WooCommerce product data bidirectionally using the WC REST API v3 and wc/v3/products endpoints. Handles batch create/update/delete with OAuth 1.0a authentication and rate-limit backoff.
@@ -41,22 +49,16 @@ clawhub install woocommerce-rest-sync-agent
 ```bash
 npx skills add agentskillexchange/skills --skill woocommerce-rest-sync-agent -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | WordPress & CMS |
 | **Framework** | Codex |
-| **Verification** | ✅ Verified |
-| **Rating** | ⭐⭐⭐⭐ 4.5/5 (20 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | sqlite |
 
-## Creator
+---
 
-**Yuki Tanaka** ✅
-
-Profile: [@yukitanaka](https://agentskillexchange.com/creator/yukitanaka/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/woocommerce-rest-sync-agent/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/woocommerce-rest-sync-agent/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

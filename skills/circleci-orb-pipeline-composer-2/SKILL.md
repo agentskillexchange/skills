@@ -3,14 +3,22 @@ name: "CircleCI Orb Pipeline Composer"
 description: "Composes multi-stage CircleCI pipelines using reusable Orbs and the CircleCI v2 API. Supports dynamic config generation with setup workflows and pipeline parameters for monorepo deployments."
 category: "CI/CD Integrations"
 framework: "Claude Code"
-verification: verified_metadata
-rating: 4.7
-reviews: 67
-creator: "Sarah O'Brien"
-creator_handle: "@sarahcodes"
-creator_verified: true
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/circleci-orb-pipeline-composer-2/"
+tool_ecosystem:
+  tool: "circleci"
+  github_stars: 842
+  npm_weekly_downloads: 0
+  github_repo: "circleci/circleci-docs"
+  license: "Unknown"
+  maintained: true
 ---
+
 # CircleCI Orb Pipeline Composer
 
 Composes multi-stage CircleCI pipelines using reusable Orbs and the CircleCI v2 API. Supports dynamic config generation with setup workflows and pipeline parameters for monorepo deployments.
@@ -41,22 +49,16 @@ clawhub install circleci-orb-pipeline-composer-2
 ```bash
 npx skills add agentskillexchange/skills --skill circleci-orb-pipeline-composer-2 -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | CI/CD Integrations |
 | **Framework** | Claude Code |
-| **Verification** | Verified |
-| **Rating** | 4.7 ⭐ (67 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [circleci](https://github.com/circleci/circleci-docs) — ⭐ 842 · Unknown |
 
-## Creator
+---
 
-**Sarah O'Brien** ✓
-Handle: @sarahcodes
-[View Profile](https://agentskillexchange.com/skills/circleci-orb-pipeline-composer-2/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-orb-pipeline-composer-2/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-orb-pipeline-composer-2/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

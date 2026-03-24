@@ -3,15 +3,22 @@ name: "CDP Network Interception Logger"
 description: "Uses Chrome DevTools Protocol Fetch.requestPaused and Network.responseReceived events to intercept, log, and modify HTTP traffic during browser automation. Exports HAR files compatible with Charles Proxy and supports request/response body modification."
 category: "Browser Automation"
 framework: "Codex"
-verification: security_reviewed
-rating: 4.7
-reviews: 23
-creator: "Sam Lee"
-creator_handle: "@samlee_dev"
-creator_verified: true
+verification: verified_metadata
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/cdp-network-interception-logger/"
-security: "🔒 Reviewed"
+tool_ecosystem:
+  tool: "datadog"
+  github_stars: 787
+  npm_weekly_downloads: 6043057
+  github_repo: "DataDog/dd-trace-js"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # CDP Network Interception Logger
 
 Uses Chrome DevTools Protocol Fetch.requestPaused and Network.responseReceived events to intercept, log, and modify HTTP traffic during browser automation. Exports HAR files compatible with Charles Proxy and supports request/response body modification.
@@ -42,23 +49,16 @@ clawhub install cdp-network-interception-logger
 ```bash
 npx skills add agentskillexchange/skills --skill cdp-network-interception-logger -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Browser Automation |
 | **Framework** | Codex |
-| **Verification** | ✅ Verified |
-| **Security** | 🔒 Reviewed |
-| **Rating** | ⭐⭐⭐⭐ 4.7/5 (23 reviews) |
+| **Verification** | ✅ Verified Metadata |
+| **Tool** | [datadog](https://github.com/DataDog/dd-trace-js) — ⭐ 787 · NOASSERTION |
 
-## Creator
+---
 
-**Sam Lee** ✅
-Handle: `@samlee_dev`
-[View Profile on ASE](https://agentskillexchange.com/skills/cdp-network-interception-logger/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/cdp-network-interception-logger/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/cdp-network-interception-logger/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

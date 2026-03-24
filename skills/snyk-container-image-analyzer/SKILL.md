@@ -3,14 +3,22 @@ name: "Snyk Container Image Analyzer"
 description: "Scans Docker and OCI container images for OS and application vulnerabilities using Snyk Container API. Cross-references findings against the Snyk vulnerability database with CVSS scoring and provides Dockerfile remediation suggestions."
 category: "Security & Verification"
 framework: "Claude Agents"
-verification: listed
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/snyk-container-image-analyzer/"
+tool_ecosystem:
+  tool: "snyk"
+  github_stars: 5457
+  npm_weekly_downloads: 601684
+  github_repo: "snyk/cli"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # Snyk Container Image Analyzer
 
 Scans Docker and OCI container images for OS and application vulnerabilities using Snyk Container API. Cross-references findings against the Snyk vulnerability database with CVSS scoring and provides Dockerfile remediation suggestions.
@@ -41,17 +49,16 @@ clawhub install snyk-container-image-analyzer
 ```bash
 npx skills add agentskillexchange/skills --skill snyk-container-image-analyzer -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Security & Verification |
 | **Framework** | Claude Agents |
-| **Verification** | community |
-| **Rating** |  (0/5 from 0 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [snyk](https://github.com/snyk/cli) — ⭐ 5.5k · NOASSERTION |
 
-## Creator
+---
 
-**Community**
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/snyk-container-image-analyzer/) · [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/snyk-container-image-analyzer/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

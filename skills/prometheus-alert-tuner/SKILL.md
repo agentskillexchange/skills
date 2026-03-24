@@ -3,14 +3,22 @@ name: "Prometheus Alert Tuner"
 description: "Tunes Prometheus alerting rules using the Prometheus HTTP API and PromQL query analysis. Reduces alert fatigue by analyzing firing history, adjusting thresholds via histogram_quantile, and configuring inhibition rules."
 category: "Runbooks & Diagnostics"
 framework: "Gemini"
-verification: listed
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/prometheus-alert-tuner/"
+tool_ecosystem:
+  tool: "prometheus"
+  github_stars: 63278
+  npm_weekly_downloads: 5319832
+  github_repo: "prometheus/prometheus"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Prometheus Alert Tuner
 
 Tunes Prometheus alerting rules using the Prometheus HTTP API and PromQL query analysis. Reduces alert fatigue by analyzing firing history, adjusting thresholds via histogram_quantile, and configuring inhibition rules.
@@ -41,19 +49,16 @@ clawhub install prometheus-alert-tuner
 ```bash
 npx skills add agentskillexchange/skills --skill prometheus-alert-tuner -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Runbooks & Diagnostics |
 | **Framework** | Gemini |
-| **Verification** |  |
-| **Rating** | 0 (0 reviews) |
-
-## Creator
-
-**Community**
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [prometheus](https://github.com/prometheus/prometheus) — ⭐ 63.3k · Apache-2.0 |
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-alert-tuner/) | [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-alert-tuner/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

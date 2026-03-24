@@ -3,14 +3,22 @@ name: "ImageMagick Batch Transform Agent"
 description: "Automates ImageMagick convert and mogrify operations for bulk image processing including responsive srcset generation, WebP/AVIF conversion, and ICC color profile management with Little CMS integration."
 category: "Image & Creative Automation"
 framework: "Cursor"
-verification: security_reviewed
+verification: listed
 rating: 0
-reviews: 86
-creator: "Meera Joshi"
-creator_handle: "@meerajoshi"
-creator_verified: true
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/imagemagick-batch-transform-agent/"
+tool_ecosystem:
+  tool: "imagemagick"
+  github_stars: 15991
+  npm_weekly_downloads: 0
+  github_repo: "ImageMagick/ImageMagick"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # ImageMagick Batch Transform Agent
 
 Automates ImageMagick convert and mogrify operations for bulk image processing including responsive srcset generation, WebP/AVIF conversion, and ICC color profile management with Little CMS integration.
@@ -41,18 +49,16 @@ clawhub install imagemagick-batch-transform-agent
 ```bash
 npx skills add agentskillexchange/skills --skill imagemagick-batch-transform-agent -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Image & Creative Automation |
 | **Framework** | Cursor |
-| **Verification** | ✅ Verified |
-| **Rating** | ⭐ 4.1 (86 reviews) |
+| **Verification** | 📋 Listed |
+| **Tool** | [imagemagick](https://github.com/ImageMagick/ImageMagick) — ⭐ 16.0k · NOASSERTION |
 
-## Creator
+---
 
-**Meera Joshi** ✅
-Handle: `@meerajoshi`
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/imagemagick-batch-transform-agent/) · [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/imagemagick-batch-transform-agent/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

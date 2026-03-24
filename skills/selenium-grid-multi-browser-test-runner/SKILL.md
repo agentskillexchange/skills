@@ -4,13 +4,21 @@ description: "Orchestrates parallel cross-browser testing across Selenium Grid n
 category: "Browser Automation"
 framework: "OpenClaw"
 verification: security_reviewed
-rating: 4.9
-reviews: 24
-creator: "Lucy Zhang"
-creator_handle: "@lucyzhang"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/selenium-grid-multi-browser-test-runner/"
+tool_ecosystem:
+  tool: "selenium"
+  github_stars: 34169
+  npm_weekly_downloads: 2000657
+  github_repo: "SeleniumHQ/selenium"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Selenium Grid Multi-Browser Test Runner
 
 Orchestrates parallel cross-browser testing across Selenium Grid nodes using WebDriver RemoteConnection API. Supports Chrome, Firefox, and Edge with configurable DesiredCapabilities for each browser matrix.
@@ -41,17 +49,16 @@ clawhub install selenium-grid-multi-browser-test-runner
 ```bash
 npx skills add agentskillexchange/skills --skill selenium-grid-multi-browser-test-runner -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Browser Automation |
 | **Framework** | OpenClaw |
-| **Verification** | Verified & Security Reviewed |
-| **Rating** | ⭐ 4.9 (24 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [selenium](https://github.com/SeleniumHQ/selenium) — ⭐ 34.2k · Apache-2.0 |
 
-## Creator
+---
 
-**Lucy Zhang** @lucyzhang ✓ Verified
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/selenium-grid-multi-browser-test-runner/) · [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/selenium-grid-multi-browser-test-runner/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

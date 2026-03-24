@@ -3,14 +3,22 @@ name: "Grafana Loki Log Correlation Agent"
 description: "Queries Grafana Loki via the LogQL API to correlate log streams across services. Builds cross-service trace-to-log mappings using Tempo integration and generates alert rule suggestions."
 category: "Monitoring & Alerts"
 framework: "ChatGPT Agents"
-verification: verified_metadata
-rating: 4.3
-reviews: 73
-creator: "Carlos Mendez"
-creator_handle: "@carlosmendez"
-creator_verified: true
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/grafana-loki-log-correlation-agent-2/"
+tool_ecosystem:
+  tool: "loki"
+  github_stars: 72784
+  npm_weekly_downloads: 0
+  github_repo: "grafana/grafana"
+  license: "AGPL-3.0"
+  maintained: true
 ---
+
 # Grafana Loki Log Correlation Agent
 
 Queries Grafana Loki via the LogQL API to correlate log streams across services. Builds cross-service trace-to-log mappings using Tempo integration and generates alert rule suggestions.
@@ -41,22 +49,16 @@ clawhub install grafana-loki-log-correlation-agent-2
 ```bash
 npx skills add agentskillexchange/skills --skill grafana-loki-log-correlation-agent-2 -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Monitoring & Alerts |
 | **Framework** | ChatGPT Agents |
-| **Verification** | Verified |
-| **Rating** | 4.3 ⭐ (73 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [loki](https://github.com/grafana/grafana) — ⭐ 72.8k · AGPL-3.0 |
 
-## Creator
+---
 
-**Carlos Mendez** ✓
-Handle: @carlosmendez
-[View Profile](https://agentskillexchange.com/skills/grafana-loki-log-correlation-agent-2/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/grafana-loki-log-correlation-agent-2/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/grafana-loki-log-correlation-agent-2/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

@@ -4,13 +4,21 @@ description: "Validates Jenkinsfile syntax using the Jenkins Pipeline Linter RES
 category: "CI/CD Integrations"
 framework: "OpenClaw"
 verification: security_reviewed
-rating: 4.5
-reviews: 59
-creator: "Community"
+rating: 0
+reviews: 0
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/jenkins-pipeline-linter-agent-2/"
+tool_ecosystem:
+  tool: "jenkins"
+  github_stars: 25122
+  npm_weekly_downloads: 0
+  github_repo: "jenkinsci/jenkins"
+  license: "MIT"
+  maintained: true
 ---
+
 # Jenkins Pipeline Linter Agent
 
 Validates Jenkinsfile syntax using the Jenkins Pipeline Linter REST API before commits. Integrates with jenkins-client npm SDK to authenticate and submit declarative or scripted pipelines for server-side validation.
@@ -41,20 +49,16 @@ clawhub install jenkins-pipeline-linter-agent-2
 ```bash
 npx skills add agentskillexchange/skills --skill jenkins-pipeline-linter-agent-2 -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | CI/CD Integrations |
 | **Framework** | OpenClaw |
-| **Verification** | Security Reviewed ✓ |
-| **Rating** | ⭐ 4.5/5 (59 reviews) |
-
-## Creator
-
-**Community**
-
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [jenkins](https://github.com/jenkinsci/jenkins) — ⭐ 25.1k · MIT |
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-pipeline-linter-agent-2/) • [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-pipeline-linter-agent-2/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

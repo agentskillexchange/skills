@@ -4,11 +4,11 @@ description: "Clone and synthesize custom voices using the ElevenLabs API v2 wit
 category: "Media & Transcription"
 framework: "OpenClaw"
 verification: security_reviewed
-rating: 4.7
-reviews: 56
-creator: "David Nguyen"
-creator_handle: "@davidnguyen"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/elevenlabs-voice-cloning-agent/"
 ---
 
@@ -45,15 +45,12 @@ npx skills add agentskillexchange/skills --skill elevenlabs-voice-cloning-agent 
 
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Media & Transcription |
 | **Framework** | OpenClaw |
-| **Verification** | Security Reviewed |
-| **Rating** | ⭐ 4.7 (56 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
 
-## Creator
+---
 
-**David Nguyen** (@davidnguyen) ✓
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/elevenlabs-voice-cloning-agent/) · [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/elevenlabs-voice-cloning-agent/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

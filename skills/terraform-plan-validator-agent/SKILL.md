@@ -3,65 +3,62 @@ name: "Terraform Plan Validator Agent"
 description: "Validates Terraform plans using terraform CLI, tfsec, and Checkov. Detects infrastructure misconfigurations, cost anomalies, and compliance violations before apply."
 category: "CI/CD Integrations"
 framework: "Cursor"
-verification: listed
-rating: 4.3
-reviews: 39
-creator: "Sofia Petrov"
-creator_handle: "@sofiapetrov"
-creator_verified: true
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/terraform-plan-validator-agent/"
+tool_ecosystem:
+  tool: "terraform"
+  github_stars: 47996
+  npm_weekly_downloads: 0
+  github_repo: "hashicorp/terraform"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # Terraform Plan Validator Agent
 
 Validates Terraform plans using terraform CLI, tfsec, and Checkov. Detects infrastructure misconfigurations, cost anomalies, and compliance violations before apply.
 
 ## Installation
 
-### Any agent (npx skills)
-
+### Any Agent (npx)
 ```bash
 npx skills add agentskillexchange/skills --skill terraform-plan-validator-agent
 ```
 
 ### Claude Code
-
 ```bash
 npx skills add agentskillexchange/skills --skill terraform-plan-validator-agent -a claude-code
 ```
 
 ### Cursor
-
 ```bash
 npx skills add agentskillexchange/skills --skill terraform-plan-validator-agent -a cursor
 ```
 
 ### OpenClaw
-
 ```bash
 clawhub install terraform-plan-validator-agent
 ```
 
 ### Codex
-
 ```bash
 npx skills add agentskillexchange/skills --skill terraform-plan-validator-agent -a codex
 ```
 
 ## Details
 
-| Field | Value |
-|-------|-------|
-| Category | CI/CD Integrations |
-| Framework | Cursor |
-| Verification | Listed |
-| Rating | 4.3/5 (39 reviews) |
+| | |
+|---|---|
+| **Category** | CI/CD Integrations |
+| **Framework** | Cursor |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [terraform](https://github.com/hashicorp/terraform) — ⭐ 48.0k · NOASSERTION |
 
-## Creator
+---
 
-**Sofia Petrov** (Verified Creator ✓)
-- Profile: [@sofiapetrov](https://agentskillexchange.com/browse-skills/?creator=sofiapetrov)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-plan-validator-agent/)
-- [Browse all skills](https://agentskillexchange.com/browse-skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-plan-validator-agent/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

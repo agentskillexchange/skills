@@ -3,14 +3,22 @@ name: "Selenium Grid Session Router"
 description: "Routes browser automation sessions across Selenium Grid 4 nodes using the /status and /session endpoints. Configures RemoteWebDriver with DesiredCapabilities for cross-browser parallel execution."
 category: "Browser Automation"
 framework: "OpenClaw"
-verification: verified_metadata
-rating: 4.9
-reviews: 86
-creator: "Omar Farouk"
-creator_handle: "@omarfarouk"
-creator_verified: true
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/selenium-grid-session-router/"
+tool_ecosystem:
+  tool: "selenium"
+  github_stars: 34169
+  npm_weekly_downloads: 2000657
+  github_repo: "SeleniumHQ/selenium"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Selenium Grid Session Router
 
 Routes browser automation sessions across Selenium Grid 4 nodes using the /status and /session endpoints. Configures RemoteWebDriver with DesiredCapabilities for cross-browser parallel execution.
@@ -41,23 +49,16 @@ clawhub install selenium-grid-session-router
 ```bash
 npx skills add agentskillexchange/skills --skill selenium-grid-session-router -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Browser Automation |
 | **Framework** | OpenClaw |
-| **Verification** | verified |
-| **Rating** | ⭐⭐⭐⭐ 4.9/5 (86 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [selenium](https://github.com/SeleniumHQ/selenium) — ⭐ 34.2k · Apache-2.0 |
 
-## Creator
+---
 
-**Omar Farouk** ✓ Verified Creator
-
-- Handle: @omarfarouk
-- [View Profile on ASE](https://agentskillexchange.com/skills/selenium-grid-session-router/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/selenium-grid-session-router/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/selenium-grid-session-router/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

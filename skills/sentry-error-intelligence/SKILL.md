@@ -4,13 +4,21 @@ description: "Connects to the Sentry API v0 to analyze error trends, group simil
 category: "Monitoring & Alerts"
 framework: "Claude Code"
 verification: security_reviewed
-rating: 4.6
-reviews: 10
-creator: "Priya Sharma"
-creator_handle: "@priyasharma"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/sentry-error-intelligence/"
+tool_ecosystem:
+  tool: "sentry"
+  github_stars: 43434
+  npm_weekly_downloads: 16379655
+  github_repo: "getsentry/sentry"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # Sentry Error Intelligence
 
 Connects to the Sentry API v0 to analyze error trends, group similar stack traces using fingerprinting rules, and auto-assigns issues to code owners via GitHub CODEOWNERS integration.
@@ -41,22 +49,16 @@ clawhub install sentry-error-intelligence
 ```bash
 npx skills add agentskillexchange/skills --skill sentry-error-intelligence -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Monitoring & Alerts |
 | **Framework** | Claude Code |
-| **Verification** | Verified & Security Reviewed |
-| **Rating** | ★★★★½ (4.6/5 from 10 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [sentry](https://github.com/getsentry/sentry) — ⭐ 43.4k · NOASSERTION |
 
-## Creator
+---
 
-**Priya Sharma** ✓ Verified Creator
-
-[View Profile](https://agentskillexchange.com/creator/priyasharma/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/sentry-error-intelligence/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/sentry-error-intelligence/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

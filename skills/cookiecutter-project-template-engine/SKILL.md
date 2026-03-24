@@ -6,11 +6,12 @@ framework: "Claude Agents"
 verification: listed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/cookiecutter-project-template-engine/"
 ---
+
 # Cookiecutter Project Template Engine
 
 Manages and instantiates Cookiecutter project templates with dynamic Jinja2 variable substitution and post-generation hooks. Supports template inheritance chains and integrates with cruft for template update tracking.
@@ -41,22 +42,15 @@ clawhub install cookiecutter-project-template-engine
 ```bash
 npx skills add agentskillexchange/skills --skill cookiecutter-project-template-engine -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Templates & Workflows |
 | **Framework** | Claude Agents |
-| **Verification** |  |
-| **Rating** | 0/5 (0 reviews) |
+| **Verification** | 📋 Listed |
 
-## Creator
+---
 
-**Community**
-
-
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/cookiecutter-project-template-engine/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/cookiecutter-project-template-engine/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

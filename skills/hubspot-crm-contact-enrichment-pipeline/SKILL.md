@@ -4,12 +4,19 @@ description: "Enriches HubSpot CRM contacts using the v3 Contacts API with batch
 category: "Integrations & Connectors"
 framework: "Claude Code"
 verification: security_reviewed
-rating: 4.8
-reviews: 64
-creator: "Ryan O'Malley"
-creator_handle: "@ryanomalley"
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/hubspot-crm-contact-enrichment-pipeline/"
+tool_ecosystem:
+  tool: "hubspot"
+  github_stars: 391
+  npm_weekly_downloads: 905578
+  github_repo: "HubSpot/hubspot-api-nodejs"
+  license: "Apache-2.0"
+  maintained: true
 ---
 
 # HubSpot CRM Contact Enrichment Pipeline
@@ -49,15 +56,9 @@ npx skills add agentskillexchange/skills --skill hubspot-crm-contact-enrichment-
 |---|---|
 | **Category** | Integrations & Connectors |
 | **Framework** | Claude Code |
-| **Verification** | Security Reviewed |
-| **Rating** | ⭐ 4.8 (64 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [hubspot](https://github.com/HubSpot/hubspot-api-nodejs) — ⭐ 391 · Apache-2.0 |
 
-## Creator
+---
 
-**Ryan O'Malley**
-- Profile: [https://agentskillexchange.com/creator/ryanomalley/](https://agentskillexchange.com/creator/ryanomalley/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/hubspot-crm-contact-enrichment-pipeline/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/hubspot-crm-contact-enrichment-pipeline/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

@@ -3,14 +3,22 @@ name: "Cypress Component Test Generator"
 description: "Auto-generates Cypress component tests from React and Vue source files using AST parsing. Produces mount, interaction, and accessibility test cases."
 category: "Browser Automation"
 framework: "ChatGPT Agents"
-verification: security_reviewed
-rating: 4.9
-reviews: 79
-creator: "Ava Johnson"
-creator_handle: "@avajohnson"
-creator_verified: true
+verification: listed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/cypress-component-test-generator/"
+tool_ecosystem:
+  tool: "cypress"
+  github_stars: 49612
+  npm_weekly_downloads: 7404178
+  github_repo: "cypress-io/cypress"
+  license: "MIT"
+  maintained: true
 ---
+
 # Cypress Component Test Generator
 
 Auto-generates Cypress component tests from React and Vue source files using AST parsing. Produces mount, interaction, and accessibility test cases.
@@ -41,22 +49,16 @@ clawhub install cypress-component-test-generator
 ```bash
 npx skills add agentskillexchange/skills --skill cypress-component-test-generator -a codex
 ```
+
 ## Details
 
 | | |
 |---|---|
 | **Category** | Browser Automation |
 | **Framework** | ChatGPT Agents |
-| **Verification** | ✅ Verified |
-| **Security** | 🔒 Reviewed |
-| **Rating** | ⭐⭐⭐⭐ 4.9/5 (79 reviews) |
-
-## Creator
-
-**Ava Johnson** ✅
-Handle: `@avajohnson`
-[View Profile on ASE](https://agentskillexchange.com/skills/cypress-component-test-generator/)
+| **Verification** | 📋 Listed |
+| **Tool** | [cypress](https://github.com/cypress-io/cypress) — ⭐ 49.6k · MIT |
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/cypress-component-test-generator/) | [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/cypress-component-test-generator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

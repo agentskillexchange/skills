@@ -3,14 +3,22 @@ name: "Buildkite Agent Fleet Scaler"
 description: "Auto-scales Buildkite agent fleets based on queue depth and job wait times using the Buildkite GraphQL API. Manages AWS EC2 spot instances and Kubernetes HPA configurations for elastic CI capacity."
 category: "CI/CD Integrations"
 framework: "Gemini"
-verification: verified_metadata
-rating: 4.1
-reviews: 50
-creator: "Hannah Berg"
-creator_handle: "@hannahberg"
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/buildkite-agent-fleet-scaler/"
+tool_ecosystem:
+  tool: "kubernetes"
+  github_stars: 121313
+  npm_weekly_downloads: 0
+  github_repo: "kubernetes/kubernetes"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Buildkite Agent Fleet Scaler
 
 Auto-scales Buildkite agent fleets based on queue depth and job wait times using the Buildkite GraphQL API. Manages AWS EC2 spot instances and Kubernetes HPA configurations for elastic CI capacity.
@@ -41,22 +49,16 @@ clawhub install buildkite-agent-fleet-scaler
 ```bash
 npx skills add agentskillexchange/skills --skill buildkite-agent-fleet-scaler -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | CI/CD Integrations |
 | **Framework** | Gemini |
-| **Verification** | Verified |
-| **Rating** | ⭐⭐⭐⭐ 4.1/5 (50 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [kubernetes](https://github.com/kubernetes/kubernetes) — ⭐ 121.3k · Apache-2.0 |
 
-## Creator
+---
 
-**Hannah Berg**
-
-[View Profile](https://agentskillexchange.com/creator/hannahberg/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/buildkite-agent-fleet-scaler/)
-- [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/buildkite-agent-fleet-scaler/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

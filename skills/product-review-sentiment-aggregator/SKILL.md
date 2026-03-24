@@ -4,13 +4,14 @@ description: "Collects and analyzes product reviews from Amazon Product API and 
 category: "Research & Scraping"
 framework: "Claude Agents"
 verification: security_reviewed
-rating: 4.6
-reviews: 84
-creator: "Aisha Patel"
-creator_handle: "@aishapatel"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/product-review-sentiment-aggregator/"
 ---
+
 # Product Review Sentiment Aggregator
 
 Collects and analyzes product reviews from Amazon Product API and Google Shopping via SerpAPI. Uses spaCy NER and aspect-based sentiment analysis to extract feature-level opinions and competitive comparisons.
@@ -41,21 +42,15 @@ clawhub install product-review-sentiment-aggregator
 ```bash
 npx skills add agentskillexchange/skills --skill product-review-sentiment-aggregator -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Research & Scraping |
 | **Framework** | Claude Agents |
-| **Verification** | Verified · Security Reviewed |
-| **Rating** | ⭐⭐⭐⭐ 4.6/5 (84 reviews) |
-
-## Creator
-
-**Aisha Patel** ✓  
-Handle: `@aishapatel`  
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/product-review-sentiment-aggregator/)
+| **Verification** | 🛡️ Security Reviewed |
 
 ---
 
-[Browse more skills](https://agentskillexchange.com) · [Submit a skill](https://agentskillexchange.com/submit/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/product-review-sentiment-aggregator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

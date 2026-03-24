@@ -6,11 +6,19 @@ framework: "Cursor"
 verification: listed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/puppeteer-visual-regression-tester/"
+tool_ecosystem:
+  tool: "puppeteer"
+  github_stars: 93912
+  npm_weekly_downloads: 8696130
+  github_repo: "puppeteer/puppeteer"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Puppeteer Visual Regression Tester
 
 Automates visual regression testing using Puppeteer page.screenshot() with pixelmatch diffing. Captures full-page screenshots at multiple viewport sizes and generates HTML diff reports with highlighted change regions.
@@ -41,21 +49,16 @@ clawhub install puppeteer-visual-regression-tester
 ```bash
 npx skills add agentskillexchange/skills --skill puppeteer-visual-regression-tester -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Browser Automation |
 | **Framework** | Cursor |
-| **Verification** |  |
-| **Rating** | 0/5 (0 reviews) |
-
-## Creator
-
-**Community**
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/puppeteer-visual-regression-tester/)
+| **Verification** | 📋 Listed |
+| **Tool** | [puppeteer](https://github.com/puppeteer/puppeteer) — ⭐ 93.9k · Apache-2.0 |
 
 ---
 
-[Browse more skills](https://agentskillexchange.com) | [Agent Skill Exchange](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/puppeteer-visual-regression-tester/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

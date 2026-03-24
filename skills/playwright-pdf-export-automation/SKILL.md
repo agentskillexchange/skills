@@ -4,13 +4,21 @@ description: "Automates headless PDF generation from web pages using the Playwri
 category: "Browser Automation"
 framework: "Claude Code"
 verification: security_reviewed
-rating: 4.5
-reviews: 86
-creator: "Nina Volkov"
-creator_handle: "@ninavolkov"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/playwright-pdf-export-automation/"
+tool_ecosystem:
+  tool: "playwright"
+  github_stars: 84874
+  npm_weekly_downloads: 39806814
+  github_repo: "microsoft/playwright"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Playwright PDF Export Automation
 
 Automates headless PDF generation from web pages using the Playwright chromium.launch() API with custom page.pdf() options. Supports A4/Letter sizing, header/footer templates, and configurable margins via Playwright’s PDFOptions interface.
@@ -41,17 +49,16 @@ clawhub install playwright-pdf-export-automation
 ```bash
 npx skills add agentskillexchange/skills --skill playwright-pdf-export-automation -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Browser Automation |
 | **Framework** | Claude Code |
-| **Verification** | Verified & Security Reviewed |
-| **Rating** | ⭐ 4.5 (86 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [playwright](https://github.com/microsoft/playwright) — ⭐ 84.9k · Apache-2.0 |
 
-## Creator
+---
 
-**Nina Volkov** @ninavolkov ✓ Verified
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/playwright-pdf-export-automation/) · [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/playwright-pdf-export-automation/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

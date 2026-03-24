@@ -3,14 +3,22 @@ name: "Tekton Pipeline Scaffolder"
 description: "Scaffolds Kubernetes-native CI/CD pipelines using Tekton Pipelines CRDs (Tasks, Pipelines, PipelineRuns) and the Tekton Hub API. Generates YAML manifests with proper workspace bindings, result passing, and when expressions."
 category: "CI/CD Integrations"
 framework: "Gemini"
-verification: verified_metadata
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/tekton-pipeline-scaffolder/"
+tool_ecosystem:
+  tool: "tekton"
+  github_stars: 8920
+  npm_weekly_downloads: 0
+  github_repo: "tektoncd/pipeline"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Tekton Pipeline Scaffolder
 
 Scaffolds Kubernetes-native CI/CD pipelines using Tekton Pipelines CRDs (Tasks, Pipelines, PipelineRuns) and the Tekton Hub API. Generates YAML manifests with proper workspace bindings, result passing, and when expressions.
@@ -41,22 +49,16 @@ clawhub install tekton-pipeline-scaffolder
 ```bash
 npx skills add agentskillexchange/skills --skill tekton-pipeline-scaffolder -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | CI/CD Integrations |
 | **Framework** | Gemini |
-| **Verification** | verified_metadata |
-| **Rating** | 0 (0 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [tekton](https://github.com/tektoncd/pipeline) — ⭐ 8.9k · Apache-2.0 |
 
-## Creator
+---
 
-**Community**
-
-[View Profile](https://agentskillexchange.com/skills/tekton-pipeline-scaffolder/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/tekton-pipeline-scaffolder/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/tekton-pipeline-scaffolder/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

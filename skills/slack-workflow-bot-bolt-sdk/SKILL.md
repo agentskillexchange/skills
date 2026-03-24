@@ -2,15 +2,23 @@
 name: "Slack Workflow Bot"
 description: "Builds interactive Slack workflows using the Bolt SDK for JavaScript and Block Kit Builder API. Handles modal forms, scheduled messages, and webhook integrations."
 category: "Calendar, Email & Productivity"
-framework: "MCP"
-verification: listed
+framework: "MCP-compatible"
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/slack-workflow-bot-bolt-sdk/"
+tool_ecosystem:
+  tool: "slack"
+  github_stars: 2900
+  npm_weekly_downloads: 2433529
+  github_repo: "slackapi/bolt-js"
+  license: "MIT"
+  maintained: true
 ---
+
 # Slack Workflow Bot
 
 Builds interactive Slack workflows using the Bolt SDK for JavaScript and Block Kit Builder API. Handles modal forms, scheduled messages, and webhook integrations.
@@ -41,20 +49,16 @@ clawhub install slack-workflow-bot-bolt-sdk
 ```bash
 npx skills add agentskillexchange/skills --skill slack-workflow-bot-bolt-sdk -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Calendar, Email & Productivity |
 | **Framework** | MCP-compatible |
-| **Verification** | community |
-| **Rating** | Not yet rated (0 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [slack](https://github.com/slackapi/bolt-js) — ⭐ 2.9k · MIT |
 
-## Creator
+---
 
-**Community**
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/slack-workflow-bot-bolt-sdk/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/slack-workflow-bot-bolt-sdk/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

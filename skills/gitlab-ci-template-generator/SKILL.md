@@ -3,14 +3,22 @@ name: "GitLab CI Template Generator"
 description: "Creates GitLab CI/CD pipeline templates using Auto DevOps components, Kaniko for container builds, and SAST/DAST security scanning. Supports multi-project pipelines with trigger and bridge jobs."
 category: "CI/CD Integrations"
 framework: "OpenClaw"
-verification: listed
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/gitlab-ci-template-generator/"
+tool_ecosystem:
+  tool: "gitlab"
+  github_stars: 24276
+  npm_weekly_downloads: 0
+  github_repo: "gitlabhq/gitlabhq"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # GitLab CI Template Generator
 
 Creates GitLab CI/CD pipeline templates using Auto DevOps components, Kaniko for container builds, and SAST/DAST security scanning. Supports multi-project pipelines with trigger and bridge jobs.
@@ -41,22 +49,16 @@ clawhub install gitlab-ci-template-generator
 ```bash
 npx skills add agentskillexchange/skills --skill gitlab-ci-template-generator -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | CI/CD Integrations |
 | **Framework** | OpenClaw |
-| **Verification** | community |
-| **Rating** |  (0/5) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [gitlab](https://github.com/gitlabhq/gitlabhq) — ⭐ 24.3k · NOASSERTION |
 
-## Creator
+---
 
-**Community**
-
-
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/gitlab-ci-template-generator/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/gitlab-ci-template-generator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

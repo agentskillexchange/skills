@@ -6,11 +6,19 @@ framework: "Codex"
 verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/codecov-coverage-analyzer/"
+tool_ecosystem:
+  tool: "jest"
+  github_stars: 0
+  npm_weekly_downloads: 45503384
+  github_repo: ""
+  license: ""
+  maintained: false
 ---
+
 # Codecov Coverage Analyzer
 
 Analyzes test coverage using the Codecov API v2 and codecov-cli uploader. Fetches per-file coverage from /api/v2/repos/{owner}/{repo}/report, computes diff coverage via /api/v2/repos/{owner}/{repo}/pulls/{pull}, and enforces configurable thresholds in CI pipelines.
@@ -41,17 +49,16 @@ clawhub install codecov-coverage-analyzer
 ```bash
 npx skills add agentskillexchange/skills --skill codecov-coverage-analyzer -a codex
 ```
+
 ## Details
 
 | | |
 |---|---|
 | **Category** | Code Quality & Review |
 | **Framework** | Codex |
-| **Verification** | security_reviewed |
-| **Rating** | 0 (0 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | jest |
 
-## Creator
+---
 
-**Community**
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/codecov-coverage-analyzer/) · [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/codecov-coverage-analyzer/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

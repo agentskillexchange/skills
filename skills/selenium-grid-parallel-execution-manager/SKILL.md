@@ -4,13 +4,21 @@ description: "Orchestrates distributed browser testing across Selenium Grid 4 no
 category: "Browser Automation"
 framework: "Claude Agents"
 verification: security_reviewed
-rating: 4.8
-reviews: 85
-creator: "Elena Rodriguez"
-creator_handle: "@elena_dev"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/selenium-grid-parallel-execution-manager/"
+tool_ecosystem:
+  tool: "selenium"
+  github_stars: 34169
+  npm_weekly_downloads: 2000657
+  github_repo: "SeleniumHQ/selenium"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Selenium Grid Parallel Execution Manager
 
 Orchestrates distributed browser testing across Selenium Grid 4 nodes using the Grid REST API. Manages session allocation, node health monitoring, and parallel TestNG suite execution.
@@ -41,21 +49,16 @@ clawhub install selenium-grid-parallel-execution-manager
 ```bash
 npx skills add agentskillexchange/skills --skill selenium-grid-parallel-execution-manager -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Browser Automation |
 | **Framework** | Claude Agents |
-| **Verification** | ✅ Verified |
-| **Rating** | ⭐ 4.8/5 (85 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [selenium](https://github.com/SeleniumHQ/selenium) — ⭐ 34.2k · Apache-2.0 |
 
-## Creator
+---
 
-**Elena Rodriguez** ✅
-Profile: [@elena_dev](https://agentskillexchange.com/creator/elena_dev/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/selenium-grid-parallel-execution-manager/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/selenium-grid-parallel-execution-manager/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

@@ -2,13 +2,13 @@
 name: "Microsoft Outlook Calendar Sync Agent"
 description: "Synchronizes calendar events bidirectionally using the Microsoft Graph API /me/calendar/events endpoint. Handles delta queries with deltaToken for incremental sync, manages recurrence patterns, and resolves timezone conflicts."
 category: "Calendar, Email & Productivity"
-framework: "OpenClaw"
+framework: "Custom Agents"
 verification: security_reviewed
-rating: 4.4
-reviews: 35
-creator: "Lucy Zhang"
-creator_handle: "@lucyzhang"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/ms-outlook-calendar-sync-agent/"
 ---
 
@@ -48,16 +48,9 @@ npx skills add agentskillexchange/skills --skill ms-outlook-calendar-sync-agent 
 | | |
 |---|---|
 | **Category** | Calendar, Email & Productivity |
-| **Framework** | OpenClaw |
-| **Verification** | Security Reviewed |
-| **Rating** | ⭐ 4.4 (35 reviews) |
+| **Framework** | Custom Agents |
+| **Verification** | 🛡️ Security Reviewed |
 
-## Creator
+---
 
-**Lucy Zhang** ✓
-- Profile: [https://agentskillexchange.com/creator/lucyzhang/](https://agentskillexchange.com/creator/lucyzhang/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/ms-outlook-calendar-sync-agent/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/ms-outlook-calendar-sync-agent/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

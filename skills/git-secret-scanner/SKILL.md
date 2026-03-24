@@ -4,64 +4,61 @@ description: "Detects leaked secrets in Git repositories using pattern-based sca
 category: "Security & Verification"
 framework: "Claude Agents"
 verification: security_reviewed
-rating: 4.3
-reviews: 56
-creator: "David Kim"
-creator_handle: "@dkim"
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/git-secret-scanner/"
+tool_ecosystem:
+  tool: "stripe"
+  github_stars: 4377
+  npm_weekly_downloads: 8442269
+  github_repo: "stripe/stripe-node"
+  license: "MIT"
+  maintained: true
 ---
+
 # Git Secret Scanner
 
 Detects leaked secrets in Git repositories using pattern-based scanning with Gitleaks rule definitions and the GitHub Secret Scanning API. Identifies exposed API keys, tokens, and credentials across full commit history using git log –all -p analysis.
 
 ## Installation
 
-### Any agent (npx skills)
-
+### Any Agent (npx)
 ```bash
 npx skills add agentskillexchange/skills --skill git-secret-scanner
 ```
 
 ### Claude Code
-
 ```bash
 npx skills add agentskillexchange/skills --skill git-secret-scanner -a claude-code
 ```
 
 ### Cursor
-
 ```bash
 npx skills add agentskillexchange/skills --skill git-secret-scanner -a cursor
 ```
 
 ### OpenClaw
-
 ```bash
 clawhub install git-secret-scanner
 ```
 
 ### Codex
-
 ```bash
 npx skills add agentskillexchange/skills --skill git-secret-scanner -a codex
 ```
 
 ## Details
 
-| Field | Value |
-|-------|-------|
-| Category | Security & Verification |
-| Framework | Claude Agents |
-| Verification | Security Reviewed |
-| Rating | 4.3/5 (56 reviews) |
+| | |
+|---|---|
+| **Category** | Security & Verification |
+| **Framework** | Claude Agents |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [stripe](https://github.com/stripe/stripe-node) — ⭐ 4.4k · MIT |
 
-## Creator
+---
 
-**David Kim**
-- Profile: [@dkim](https://agentskillexchange.com/browse-skills/?creator=dkim)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/git-secret-scanner/)
-- [Browse all skills](https://agentskillexchange.com/browse-skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/git-secret-scanner/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

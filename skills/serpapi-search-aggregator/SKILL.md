@@ -3,14 +3,22 @@ name: "SerpAPI Search Aggregator"
 description: "Aggregates search results from Google, Bing, and DuckDuckGo via the SerpAPI REST endpoint. Parses organic results, knowledge panels, and People Also Ask data into structured JSON for downstream analysis."
 category: "Research & Scraping"
 framework: "OpenClaw"
-verification: verified_metadata
-rating: 4.3
-reviews: 62
-creator: "Nina Volkov"
-creator_handle: "@ninavolkov"
-creator_verified: true
+verification: listed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/serpapi-search-aggregator/"
+tool_ecosystem:
+  tool: "redis"
+  github_stars: 73523
+  npm_weekly_downloads: 8224050
+  github_repo: "redis/redis"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # SerpAPI Search Aggregator
 
 Aggregates search results from Google, Bing, and DuckDuckGo via the SerpAPI REST endpoint. Parses organic results, knowledge panels, and People Also Ask data into structured JSON for downstream analysis.
@@ -41,21 +49,16 @@ clawhub install serpapi-search-aggregator
 ```bash
 npx skills add agentskillexchange/skills --skill serpapi-search-aggregator -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Research & Scraping |
 | **Framework** | OpenClaw |
-| **Verification** | Verified |
-| **Rating** | ⭐⭐⭐⭐ 4.3/5 (62 reviews) |
-
-## Creator
-
-**Nina Volkov** ✅
-- Handle: [@ninavolkov](https://agentskillexchange.com/creator/ninavolkov/)
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/serpapi-search-aggregator/)
+| **Verification** | 📋 Listed |
+| **Tool** | [redis](https://github.com/redis/redis) — ⭐ 73.5k · NOASSERTION |
 
 ---
 
-[Browse all skills](https://agentskillexchange.com/) | [Submit a skill](https://agentskillexchange.com/submit/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/serpapi-search-aggregator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

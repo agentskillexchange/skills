@@ -3,13 +3,22 @@ name: "ArgoCD Sync Status Monitor"
 description: "Monitors ArgoCD application sync status via the ArgoCD REST API and gRPC gateway. Detects drift between desired and live Kubernetes manifests and triggers Slack notifications through the Slack Bolt SDK."
 category: "CI/CD Integrations"
 framework: "Claude Agents"
-verification: verified_metadata
-rating: 4.9
-reviews: 86
-creator: "Community"
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/argocd-sync-status-monitor-7/"
+tool_ecosystem:
+  tool: "argocd"
+  github_stars: 22391
+  npm_weekly_downloads: 0
+  github_repo: "argoproj/argo-cd"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # ArgoCD Sync Status Monitor
 
 Monitors ArgoCD application sync status via the ArgoCD REST API and gRPC gateway. Detects drift between desired and live Kubernetes manifests and triggers Slack notifications through the Slack Bolt SDK.
@@ -40,20 +49,16 @@ clawhub install argocd-sync-status-monitor-7
 ```bash
 npx skills add agentskillexchange/skills --skill argocd-sync-status-monitor-7 -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
-| Category | CI/CD Integrations |
-| Framework | Claude Agents |
-| Verification | Verified Metadata |
-| Rating | 4.9 ⭐⭐⭐⭐⭐ (86 reviews) |
+| | |
+|---|---|
+| **Category** | CI/CD Integrations |
+| **Framework** | Claude Agents |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [argocd](https://github.com/argoproj/argo-cd) — ⭐ 22.4k · Apache-2.0 |
 
-## Creator
+---
 
-**Community**
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/argocd-sync-status-monitor-7/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/argocd-sync-status-monitor-7/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

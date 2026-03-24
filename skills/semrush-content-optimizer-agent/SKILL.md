@@ -4,13 +4,14 @@ description: "Integrates with SEMrush Writing Assistant API to analyze content a
 category: "Content Writing & SEO"
 framework: "OpenClaw"
 verification: security_reviewed
-rating: 4.9
-reviews: 19
-creator: "Ben Taylor"
-creator_handle: "@bentaylor"
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/semrush-content-optimizer-agent/"
 ---
+
 # SEMrush Content Optimizer Agent
 
 Integrates with SEMrush Writing Assistant API to analyze content against top-10 SERP competitors. Provides real-time readability scoring via Flesch-Kincaid, keyword density analysis, and semantic similarity checks using SEMrush Topic Research endpoints.
@@ -41,22 +42,15 @@ clawhub install semrush-content-optimizer-agent
 ```bash
 npx skills add agentskillexchange/skills --skill semrush-content-optimizer-agent -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Content Writing & SEO |
 | **Framework** | OpenClaw |
-| **Verification** | ✅ Verified |
-| **Rating** | ⭐⭐⭐⭐ 4.9/5 (19 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
 
-## Creator
+---
 
-**Ben Taylor** 
-
-Profile: [@bentaylor](https://agentskillexchange.com/creator/bentaylor/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/semrush-content-optimizer-agent/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/semrush-content-optimizer-agent/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

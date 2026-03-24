@@ -4,13 +4,21 @@ description: "Uses the Snyk CLI and REST API v1 to scan package manifests for kn
 category: "Security & Verification"
 framework: "Claude Code"
 verification: security_reviewed
-rating: 4.2
-reviews: 83
-creator: "Grace Okafor"
-creator_handle: "@graceokafor"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/snyk-dependency-audit-skill/"
+tool_ecosystem:
+  tool: "snyk"
+  github_stars: 5457
+  npm_weekly_downloads: 601684
+  github_repo: "snyk/cli"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # Snyk Dependency Audit Skill
 
 Uses the Snyk CLI and REST API v1 to scan package manifests for known CVEs. Cross-references findings with the GitHub Advisory Database and produces SBOM documents in CycloneDX format.
@@ -41,22 +49,16 @@ clawhub install snyk-dependency-audit-skill
 ```bash
 npx skills add agentskillexchange/skills --skill snyk-dependency-audit-skill -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Security & Verification |
 | **Framework** | Claude Code |
-| **Verification** | Verified & Security Reviewed |
-| **Rating** | ★★★★☆ (4.2/5 from 83 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [snyk](https://github.com/snyk/cli) — ⭐ 5.5k · NOASSERTION |
 
-## Creator
+---
 
-**Grace Okafor** ✓ Verified Creator
-
-[View Profile](https://agentskillexchange.com/creator/graceokafor/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/snyk-dependency-audit-skill/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/snyk-dependency-audit-skill/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

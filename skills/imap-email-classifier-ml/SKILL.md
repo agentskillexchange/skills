@@ -3,14 +3,15 @@ name: "IMAP Email Classifier"
 description: "Classifies and organizes emails from IMAP servers using imaplib and scikit-learn text classification. Supports custom label rules with SpaCy NER for entity extraction."
 category: "Calendar, Email & Productivity"
 framework: "ChatGPT Agents"
-verification: listed
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/imap-email-classifier-ml/"
 ---
+
 # IMAP Email Classifier
 
 Classifies and organizes emails from IMAP servers using imaplib and scikit-learn text classification. Supports custom label rules with SpaCy NER for entity extraction.
@@ -41,20 +42,15 @@ clawhub install imap-email-classifier-ml
 ```bash
 npx skills add agentskillexchange/skills --skill imap-email-classifier-ml -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Calendar, Email & Productivity |
 | **Framework** | ChatGPT Agents |
-| **Verification** | community |
-| **Rating** | Not yet rated (0 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
 
-## Creator
+---
 
-**Community**
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/imap-email-classifier-ml/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/imap-email-classifier-ml/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

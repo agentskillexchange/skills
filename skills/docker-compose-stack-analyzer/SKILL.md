@@ -4,13 +4,21 @@ description: "Analyzes Docker Compose configurations for security, networking, a
 category: "Developer Tools"
 framework: "Gemini"
 verification: security_reviewed
-rating: 4.4
-reviews: 81
-creator: "Aisha Patel"
-creator_handle: "@aishapatel"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/docker-compose-stack-analyzer/"
+tool_ecosystem:
+  tool: "docker"
+  github_stars: 71560
+  npm_weekly_downloads: 0
+  github_repo: "moby/moby"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Docker Compose Stack Analyzer
 
 Analyzes Docker Compose configurations for security, networking, and resource optimization using the Docker Engine API and Compose specification parser. Detects misconfigurations and dependency issues.
@@ -41,24 +49,16 @@ clawhub install docker-compose-stack-analyzer
 ```bash
 npx skills add agentskillexchange/skills --skill docker-compose-stack-analyzer -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Developer Tools |
 | **Framework** | Gemini |
-| **Verification** | ✅ Verified |
-| **Security Review** | ✅ Reviewed |
-| **Rating** | ⭐ 4.4 (81 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [docker](https://github.com/moby/moby) — ⭐ 71.6k · Apache-2.0 |
 
-## Creator
+---
 
-**Aisha Patel** ✅
-@aishapatel
-
-[View Profile on ASE](https://agentskillexchange.com/creator/aishapatel/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/docker-compose-stack-analyzer/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/docker-compose-stack-analyzer/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

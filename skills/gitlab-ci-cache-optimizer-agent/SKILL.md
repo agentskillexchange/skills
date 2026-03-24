@@ -4,12 +4,19 @@ description: "Optimizes GitLab CI/CD cache configurations using the GitLab Pipel
 category: "CI/CD Integrations"
 framework: "Claude Code"
 verification: security_reviewed
-rating: 4.8
-reviews: 57
-creator: "Sam Lee"
-creator_handle: "@samlee_dev"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/gitlab-ci-cache-optimizer-agent/"
+tool_ecosystem:
+  tool: "gitlab"
+  github_stars: 24276
+  npm_weekly_downloads: 0
+  github_repo: "gitlabhq/gitlabhq"
+  license: "NOASSERTION"
+  maintained: true
 ---
 
 # GitLab CI Cache Optimizer
@@ -45,21 +52,13 @@ npx skills add agentskillexchange/skills --skill gitlab-ci-cache-optimizer-agent
 
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | CI/CD Integrations |
 | **Framework** | Claude Code |
-| **Verification** | Security Reviewed |
-| **Rating** | ⭐ 4.8 (57 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [gitlab](https://github.com/gitlabhq/gitlabhq) — ⭐ 24.3k · NOASSERTION |
 
-## Creator
+---
 
-**Sam Lee** ✓
-
-- Handle: `@samlee_dev`
-- Profile: [View on ASE](https://agentskillexchange.com/creator/samlee_dev/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/gitlab-ci-cache-optimizer-agent/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/gitlab-ci-cache-optimizer-agent/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

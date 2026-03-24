@@ -3,14 +3,22 @@ name: "PostgreSQL Diagnostic Analyzer"
 description: "Runs diagnostic queries against PostgreSQL using pg_stat_statements, pg_stat_activity, and pg_locks system views. Identifies slow queries, lock contention, and bloat using pgstattuple and pg_repack extension analysis."
 category: "Runbooks & Diagnostics"
 framework: "Gemini"
-verification: security_reviewed
-rating: 4.3
-reviews: 24
-creator: "Tom Wilson"
-creator_handle: "@tomwilson"
+verification: listed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/postgresql-diagnostic-analyzer/"
+tool_ecosystem:
+  tool: "postgresql"
+  github_stars: 0
+  npm_weekly_downloads: 21413502
+  github_repo: ""
+  license: ""
+  maintained: false
 ---
+
 # PostgreSQL Diagnostic Analyzer
 
 Runs diagnostic queries against PostgreSQL using pg_stat_statements, pg_stat_activity, and pg_locks system views. Identifies slow queries, lock contention, and bloat using pgstattuple and pg_repack extension analysis.
@@ -41,21 +49,16 @@ clawhub install postgresql-diagnostic-analyzer
 ```bash
 npx skills add agentskillexchange/skills --skill postgresql-diagnostic-analyzer -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Runbooks & Diagnostics |
 | **Framework** | Gemini |
-| **Verification** | 🔒 Security Reviewed |
-| **Rating** | ⭐ 4.3 (24 reviews) |
-
-## Creator
-
-**Tom Wilson** 
-Handle: `@tomwilson`
-[View Profile on ASE](https://agentskillexchange.com/skills/postgresql-diagnostic-analyzer/)
+| **Verification** | 📋 Listed |
+| **Tool** | postgresql |
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/postgresql-diagnostic-analyzer/) • [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/postgresql-diagnostic-analyzer/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

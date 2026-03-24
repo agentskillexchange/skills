@@ -4,14 +4,14 @@ description: "Converts JSON samples, TypeScript interfaces, and OpenAPI specs in
 category: "Library & API Reference"
 framework: "Cursor"
 verification: security_reviewed
-rating: 4.2
-reviews: 61
-creator: "Omar Farouk"
-creator_handle: "@omarfarouk"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/zod-schema-generator/"
-security: "✅ Reviewed"
 ---
+
 # Zod Schema Generator
 
 Converts JSON samples, TypeScript interfaces, and OpenAPI specs into Zod validation schemas. Uses ts-morph for AST parsing and zod-to-json-schema for bidirectional conversion.
@@ -42,19 +42,15 @@ clawhub install zod-schema-generator
 ```bash
 npx skills add agentskillexchange/skills --skill zod-schema-generator -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Library & API Reference |
 | **Framework** | Cursor |
-| **Verification** | ✅ Verified |
-| **Security** | ✅ Reviewed |
-| **Rating** | ⭐ 4.2 (61 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
 
-## Creator
+---
 
-**Omar Farouk** ✅
-@omarfarouk
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/zod-schema-generator/) • [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/zod-schema-generator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

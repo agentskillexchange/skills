@@ -4,13 +4,14 @@ description: "Extracts search performance data via the Google Search Console API
 category: "Content Writing & SEO"
 framework: "Custom Agents"
 verification: security_reviewed
-rating: 4.8
-reviews: 76
-creator: "Priya Sharma"
-creator_handle: "@priyasharma"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/gsc-insights-agent/"
 ---
+
 # Google Search Console Insights Agent
 
 Extracts search performance data via the Google Search Console API v1 /searchAnalytics/query endpoint. Analyzes CTR, impressions, and position trends with dimension filtering by page, query, device, and country.
@@ -41,22 +42,15 @@ clawhub install gsc-insights-agent
 ```bash
 npx skills add agentskillexchange/skills --skill gsc-insights-agent -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Content Writing & SEO |
 | **Framework** | Custom Agents |
-| **Verification** | ✅ Verified |
-| **Rating** | ⭐⭐⭐⭐ 4.8/5 (76 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
 
-## Creator
+---
 
-**Priya Sharma** ✅
-
-Profile: [@priyasharma](https://agentskillexchange.com/creator/priyasharma/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/gsc-insights-agent/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/gsc-insights-agent/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

@@ -3,14 +3,22 @@ name: "Scrapy Spider Architect"
 description: "Generates Scrapy spider classes with CSS/XPath selectors, item pipelines, and middleware configurations for structured web scraping. Includes Scrapy-Splash integration for JavaScript-rendered content."
 category: "Research & Scraping"
 framework: "Custom Agents"
-verification: verified_metadata
-rating: 4.7
-reviews: 62
-creator: "David Nguyen"
-creator_handle: "@davidnguyen"
-creator_verified: true
+verification: listed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/scrapy-spider-architect/"
+tool_ecosystem:
+  tool: "scrapy"
+  github_stars: 60923
+  npm_weekly_downloads: 39806814
+  github_repo: "scrapy/scrapy"
+  license: "BSD-3-Clause"
+  maintained: true
 ---
+
 # Scrapy Spider Architect
 
 Generates Scrapy spider classes with CSS/XPath selectors, item pipelines, and middleware configurations for structured web scraping. Includes Scrapy-Splash integration for JavaScript-rendered content.
@@ -41,22 +49,16 @@ clawhub install scrapy-spider-architect
 ```bash
 npx skills add agentskillexchange/skills --skill scrapy-spider-architect -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Research & Scraping |
 | **Framework** | Custom Agents |
-| **Verification** | Verified |
-| **Rating** | ⭐⭐⭐⭐ 4.7/5 (62 reviews) |
+| **Verification** | 📋 Listed |
+| **Tool** | [scrapy](https://github.com/scrapy/scrapy) — ⭐ 60.9k · BSD-3-Clause |
 
-## Creator
+---
 
-**David Nguyen** (@davidnguyen)
-- Verified Creator: Yes
-- [View Profile](https://agentskillexchange.com/creator/davidnguyen/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/scrapy-spider-architect/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/scrapy-spider-architect/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

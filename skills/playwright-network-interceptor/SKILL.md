@@ -3,14 +3,22 @@ name: "Playwright Network Interceptor"
 description: "Intercepts and analyzes network traffic using Playwright route handlers for API response capture and modification. Uses the Playwright page.route() API, HAR recording, and request/response event listeners."
 category: "Research & Scraping"
 framework: "Cursor"
-verification: listed
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/playwright-network-interceptor/"
+tool_ecosystem:
+  tool: "playwright"
+  github_stars: 84874
+  npm_weekly_downloads: 39806814
+  github_repo: "microsoft/playwright"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Playwright Network Interceptor
 
 Intercepts and analyzes network traffic using Playwright route handlers for API response capture and modification. Uses the Playwright page.route() API, HAR recording, and request/response event listeners.
@@ -41,22 +49,16 @@ clawhub install playwright-network-interceptor
 ```bash
 npx skills add agentskillexchange/skills --skill playwright-network-interceptor -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
-| Category | Research & Scraping |
-| Framework | Cursor |
-| Verification | Community |
-| Rating | 0 ⭐ (0 reviews) |
+| | |
+|---|---|
+| **Category** | Research & Scraping |
+| **Framework** | Cursor |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [playwright](https://github.com/microsoft/playwright) — ⭐ 84.9k · Apache-2.0 |
 
-## Creator
+---
 
-**Community**
-
-[View Profile](https://agentskillexchange.com/skills/playwright-network-interceptor/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/playwright-network-interceptor/)
-- [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/playwright-network-interceptor/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

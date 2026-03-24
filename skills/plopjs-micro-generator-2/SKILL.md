@@ -3,14 +3,15 @@ name: "Plop.js Micro-Generator"
 description: "Runs Plop.js micro-generators using Handlebars templates and the Plop Node API for component, hook, and module scaffolding. Supports custom Inquirer.js prompts and built-in addMany/modify/append actions."
 category: "Templates & Workflows"
 framework: "Cursor"
-verification: verified_metadata
-rating: 4.3
-reviews: 78
-creator: "Meera Joshi"
-creator_handle: "@meerajoshi"
-creator_verified: true
+verification: listed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/plopjs-micro-generator-2/"
 ---
+
 # Plop.js Micro-Generator
 
 Runs Plop.js micro-generators using Handlebars templates and the Plop Node API for component, hook, and module scaffolding. Supports custom Inquirer.js prompts and built-in addMany/modify/append actions.
@@ -41,22 +42,15 @@ clawhub install plopjs-micro-generator-2
 ```bash
 npx skills add agentskillexchange/skills --skill plopjs-micro-generator-2 -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
-| Category | Templates & Workflows |
-| Framework | Cursor |
-| Verification | ✅ Verified |
-| Security Reviewed | ✅ Yes |
-| Rating | ⭐⭐⭐⭐ 4.3/5 (78 reviews) |
-
-## Creator
-
-**Meera Joshi** ✓
-Handle: `@meerajoshi`
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/plopjs-micro-generator-2/)
+| | |
+|---|---|
+| **Category** | Templates & Workflows |
+| **Framework** | Cursor |
+| **Verification** | 📋 Listed |
 
 ---
 
-[Browse more skills](https://agentskillexchange.com) | [Submit a skill](https://agentskillexchange.com/submit/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/plopjs-micro-generator-2/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

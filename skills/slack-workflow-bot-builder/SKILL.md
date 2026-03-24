@@ -2,15 +2,23 @@
 name: "Slack Workflow Bot Builder"
 description: "Creates interactive Slack workflows using Block Kit UI components and the Bolt.js framework. Implements slash commands, modal views via views.open(), and message shortcuts with action listeners."
 category: "Calendar, Email & Productivity"
-framework: "MCP"
-verification: verified_metadata
-rating: 4.5
-reviews: 86
-creator: "Sarah O'Brien"
-creator_handle: "@sarahcodes"
-creator_verified: true
+framework: "MCP-compatible"
+verification: listed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/slack-workflow-bot-builder/"
+tool_ecosystem:
+  tool: "slack"
+  github_stars: 2900
+  npm_weekly_downloads: 2433529
+  github_repo: "slackapi/bolt-js"
+  license: "MIT"
+  maintained: true
 ---
+
 # Slack Workflow Bot Builder
 
 Creates interactive Slack workflows using Block Kit UI components and the Bolt.js framework. Implements slash commands, modal views via views.open(), and message shortcuts with action listeners.
@@ -41,23 +49,16 @@ clawhub install slack-workflow-bot-builder
 ```bash
 npx skills add agentskillexchange/skills --skill slack-workflow-bot-builder -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Calendar, Email & Productivity |
 | **Framework** | MCP-compatible |
-| **Verification** | verified |
-| **Rating** | ⭐⭐⭐⭐ 4.5/5 (86 reviews) |
+| **Verification** | 📋 Listed |
+| **Tool** | [slack](https://github.com/slackapi/bolt-js) — ⭐ 2.9k · MIT |
 
-## Creator
+---
 
-**Sarah O'Brien** ✓ Verified Creator
-
-- Handle: @sarahcodes
-- [View Profile on ASE](https://agentskillexchange.com/skills/slack-workflow-bot-builder/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/slack-workflow-bot-builder/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/slack-workflow-bot-builder/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

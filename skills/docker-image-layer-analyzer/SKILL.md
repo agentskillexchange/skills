@@ -4,13 +4,21 @@ description: "Analyzes Docker image layers using the Docker Registry HTTP API v2
 category: "Library & API Reference"
 framework: "Claude Code"
 verification: security_reviewed
-rating: 4.6
-reviews: 83
-creator: "Community"
+rating: 0
+reviews: 0
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/docker-image-layer-analyzer/"
+tool_ecosystem:
+  tool: "docker"
+  github_stars: 71560
+  npm_weekly_downloads: 0
+  github_repo: "moby/moby"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Docker Image Layer Analyzer
 
 Analyzes Docker image layers using the Docker Registry HTTP API v2 and dive CLI tool. Calculates layer sizes, identifies wasted space, and suggests multi-stage build optimizations.
@@ -41,17 +49,16 @@ clawhub install docker-image-layer-analyzer
 ```bash
 npx skills add agentskillexchange/skills --skill docker-image-layer-analyzer -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Library & API Reference |
 | **Framework** | Claude Code |
-| **Verification** | 🔒 Security Reviewed |
-| **Rating** | ⭐⭐⭐⭐⭐ 4.6/5 (83 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [docker](https://github.com/moby/moby) — ⭐ 71.6k · Apache-2.0 |
 
-## Creator
+---
 
-**Community**
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/docker-image-layer-analyzer/) · [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/docker-image-layer-analyzer/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

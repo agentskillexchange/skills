@@ -1,20 +1,27 @@
 ---
 name: "Ansible Playbook Dry-Run Validator"
-description: "Validates Ansible playbooks in check mode using ansible-playbook --check --diff and the Ansible Python API. Detects idempotency issues, undefined variables, and unreachable hosts before production runs."
+description: "Validates Ansible playbooks in check mode using ansible-playbook –check –diff and the Ansible Python API. Detects idempotency issues, undefined variables, and unreachable hosts before production runs."
 category: "Runbooks & Diagnostics"
 framework: "Cursor"
 verification: security_reviewed
-rating: 4.9
-reviews: 79
-creator: "Ben Taylor"
-creator_handle: "@bentaylor"
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/ansible-playbook-dryrun-validator-agent/"
+tool_ecosystem:
+  tool: "ansible"
+  github_stars: 68365
+  npm_weekly_downloads: 9204385
+  github_repo: "ansible/ansible"
+  license: "GPL-3.0"
+  maintained: true
 ---
 
 # Ansible Playbook Dry-Run Validator
 
-Validates Ansible playbooks in check mode using ansible-playbook --check --diff and the Ansible Python API. Detects idempotency issues, undefined variables, and unreachable hosts before production runs.
+Validates Ansible playbooks in check mode using ansible-playbook –check –diff and the Ansible Python API. Detects idempotency issues, undefined variables, and unreachable hosts before production runs.
 
 ## Installation
 
@@ -45,21 +52,13 @@ npx skills add agentskillexchange/skills --skill ansible-playbook-dryrun-validat
 
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Runbooks & Diagnostics |
 | **Framework** | Cursor |
-| **Verification** | Security Reviewed |
-| **Rating** | ⭐ 4.9 (79 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [ansible](https://github.com/ansible/ansible) — ⭐ 68.4k · GPL-3.0 |
 
-## Creator
+---
 
-**Ben Taylor**
-
-- Handle: `@bentaylor`
-- Profile: [View on ASE](https://agentskillexchange.com/creator/bentaylor/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/ansible-playbook-dryrun-validator-agent/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/ansible-playbook-dryrun-validator-agent/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

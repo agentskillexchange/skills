@@ -4,13 +4,21 @@ description: "Downloads and parses SEC EDGAR filings (10-K, 10-Q, 8-K) using the
 category: "Research & Scraping"
 framework: "Claude Code"
 verification: security_reviewed
-rating: 4.9
-reviews: 69
-creator: "Tom Wilson"
-creator_handle: "@tomwilson"
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/sec-edgar-filing-scraper-analyzer/"
+tool_ecosystem:
+  tool: "pandas"
+  github_stars: 48224
+  npm_weekly_downloads: 0
+  github_repo: "pandas-dev/pandas"
+  license: "BSD-3-Clause"
+  maintained: true
 ---
+
 # SEC EDGAR Filing Scraper & Analyzer
 
 Downloads and parses SEC EDGAR filings (10-K, 10-Q, 8-K) using the EDGAR full-text search API and python-xbrl. Extracts financial statements, risk factors, and executive compensation into structured datasets.
@@ -41,21 +49,16 @@ clawhub install sec-edgar-filing-scraper-analyzer
 ```bash
 npx skills add agentskillexchange/skills --skill sec-edgar-filing-scraper-analyzer -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Research & Scraping |
 | **Framework** | Claude Code |
-| **Verification** | Verified · Security Reviewed |
-| **Rating** | ⭐⭐⭐⭐ 4.9/5 (69 reviews) |
-
-## Creator
-
-**Tom Wilson**  
-Handle: `@tomwilson`  
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/sec-edgar-filing-scraper-analyzer/)
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [pandas](https://github.com/pandas-dev/pandas) — ⭐ 48.2k · BSD-3-Clause |
 
 ---
 
-[Browse more skills](https://agentskillexchange.com) · [Submit a skill](https://agentskillexchange.com/submit/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/sec-edgar-filing-scraper-analyzer/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

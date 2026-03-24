@@ -4,13 +4,14 @@ description: "Uses Surfer SEO Content Editor API to pull SERP analysis data incl
 category: "Content Writing & SEO"
 framework: "Cursor"
 verification: security_reviewed
-rating: 4.7
-reviews: 61
-creator: "Omar Farouk"
-creator_handle: "@omarfarouk"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/surfer-seo-serp-analyzer/"
 ---
+
 # Surfer SEO SERP Analyzer
 
 Uses Surfer SEO Content Editor API to pull SERP analysis data including word count benchmarks, heading structure patterns, and NLP entity recommendations. Generates content briefs with target keyword clusters from Surfer Audit endpoints.
@@ -41,22 +42,15 @@ clawhub install surfer-seo-serp-analyzer
 ```bash
 npx skills add agentskillexchange/skills --skill surfer-seo-serp-analyzer -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Content Writing & SEO |
 | **Framework** | Cursor |
-| **Verification** | ✅ Verified |
-| **Rating** | ⭐⭐⭐⭐ 4.7/5 (61 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
 
-## Creator
+---
 
-**Omar Farouk** ✅
-
-Profile: [@omarfarouk](https://agentskillexchange.com/creator/omarfarouk/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/surfer-seo-serp-analyzer/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/surfer-seo-serp-analyzer/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

@@ -3,14 +3,22 @@ name: "Datadog Metric Exporter"
 description: "Exports custom metrics and traces to Datadog using the DogStatsD protocol and Datadog API v2. Supports histogram aggregation, tag-based filtering, and SLO tracking."
 category: "Monitoring & Alerts"
 framework: "Gemini"
-verification: verified_metadata
-rating: 4.0
-reviews: 71
-creator: "Meera Joshi"
-creator_handle: "@meerajoshi"
-creator_verified: true
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/datadog-metric-exporter/"
+tool_ecosystem:
+  tool: "datadog"
+  github_stars: 787
+  npm_weekly_downloads: 6043057
+  github_repo: "DataDog/dd-trace-js"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # Datadog Metric Exporter
 
 Exports custom metrics and traces to Datadog using the DogStatsD protocol and Datadog API v2. Supports histogram aggregation, tag-based filtering, and SLO tracking.
@@ -41,21 +49,16 @@ clawhub install datadog-metric-exporter
 ```bash
 npx skills add agentskillexchange/skills --skill datadog-metric-exporter -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Monitoring & Alerts |
 | **Framework** | Gemini |
-| **Verification** | Verified |
-| **Rating** | ⭐⭐⭐⭐ 4.0/5 (71 reviews) |
-
-## Creator
-
-**Meera Joshi** ✅
-- Handle: [@meerajoshi](https://agentskillexchange.com/creator/meerajoshi/)
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/datadog-metric-exporter/)
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [datadog](https://github.com/DataDog/dd-trace-js) — ⭐ 787 · NOASSERTION |
 
 ---
 
-[Browse all skills](https://agentskillexchange.com/) | [Submit a skill](https://agentskillexchange.com/submit/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/datadog-metric-exporter/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

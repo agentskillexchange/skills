@@ -45,18 +45,12 @@ npx skills add agentskillexchange/skills --skill bun-shell-script-executor -a co
 
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Developer Tools |
 | **Framework** | Codex |
-| **Verification** | Listed |
-| **Rating** | No ratings yet |
+| **Verification** | 📋 Listed |
 
-## Creator
+---
 
-Community Contribution
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/bun-shell-script-executor/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/bun-shell-script-executor/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

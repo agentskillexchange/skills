@@ -6,11 +6,12 @@ framework: "Codex"
 verification: listed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/markdown-to-amp-article-converter/"
 ---
+
 # Markdown-to-AMP Article Converter
 
 Converts Markdown files to valid AMP HTML articles using unified/remark/rehype pipeline. Validates output against amphtml-validator and generates structured data with schema-dts.
@@ -41,21 +42,15 @@ clawhub install markdown-to-amp-article-converter
 ```bash
 npx skills add agentskillexchange/skills --skill markdown-to-amp-article-converter -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Content Writing & SEO |
 | **Framework** | Codex |
-| **Verification** |  |
-| **Rating** | Not yet rated (0 reviews) |
-
-## Creator
-
-**Community**
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/markdown-to-amp-article-converter/)
+| **Verification** | 📋 Listed |
 
 ---
 
-[Browse more skills](https://agentskillexchange.com) | [Agent Skill Exchange](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/markdown-to-amp-article-converter/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

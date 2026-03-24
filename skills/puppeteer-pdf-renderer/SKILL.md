@@ -4,13 +4,21 @@ description: "Generates pixel-perfect PDFs from web pages using Puppeteer with c
 category: "Browser Automation"
 framework: "Cursor"
 verification: security_reviewed
-rating: 4.1
-reviews: 79
-creator: "Zoe Chen"
-creator_handle: "@zoechen"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/puppeteer-pdf-renderer/"
+tool_ecosystem:
+  tool: "puppeteer"
+  github_stars: 93912
+  npm_weekly_downloads: 8696130
+  github_repo: "puppeteer/puppeteer"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Puppeteer PDF Renderer
 
 Generates pixel-perfect PDFs from web pages using Puppeteer with custom headers, footers, and page breaks. Supports authenticated pages via cookie injection.
@@ -41,22 +49,16 @@ clawhub install puppeteer-pdf-renderer
 ```bash
 npx skills add agentskillexchange/skills --skill puppeteer-pdf-renderer -a codex
 ```
+
 ## Details
 
 | | |
 |---|---|
 | **Category** | Browser Automation |
 | **Framework** | Cursor |
-| **Verification** | ✅ Verified |
-| **Security** | 🔒 Reviewed |
-| **Rating** | ⭐⭐⭐⭐ 4.1/5 (79 reviews) |
-
-## Creator
-
-**Zoe Chen** ✅
-Handle: `@zoechen`
-[View Profile on ASE](https://agentskillexchange.com/skills/puppeteer-pdf-renderer/)
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [puppeteer](https://github.com/puppeteer/puppeteer) — ⭐ 93.9k · Apache-2.0 |
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/puppeteer-pdf-renderer/) | [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/puppeteer-pdf-renderer/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

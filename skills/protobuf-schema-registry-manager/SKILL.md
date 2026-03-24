@@ -3,14 +3,22 @@ name: "Protobuf Schema Registry Manager"
 description: "Manages Protocol Buffer schema evolution using buf CLI with breaking change detection and Confluent Schema Registry integration. Enforces buf lint rules and generates gRPC service stubs via protoc-gen-go and protoc-gen-grpc-web."
 category: "Library & API Reference"
 framework: "Codex"
-verification: listed
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/protobuf-schema-registry-manager/"
+tool_ecosystem:
+  tool: "grpc"
+  github_stars: 4816
+  npm_weekly_downloads: 30883690
+  github_repo: "grpc/grpc-node"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Protobuf Schema Registry Manager
 
 Manages Protocol Buffer schema evolution using buf CLI with breaking change detection and Confluent Schema Registry integration. Enforces buf lint rules and generates gRPC service stubs via protoc-gen-go and protoc-gen-grpc-web.
@@ -41,22 +49,16 @@ clawhub install protobuf-schema-registry-manager
 ```bash
 npx skills add agentskillexchange/skills --skill protobuf-schema-registry-manager -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Library & API Reference |
 | **Framework** | Codex |
-| **Verification** |  |
-| **Rating** | 0/5 (0 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [grpc](https://github.com/grpc/grpc-node) — ⭐ 4.8k · Apache-2.0 |
 
-## Creator
+---
 
-**Community**
-
-
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/protobuf-schema-registry-manager/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/protobuf-schema-registry-manager/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

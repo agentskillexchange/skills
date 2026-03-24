@@ -1,19 +1,27 @@
 ---
 name: "SEO Schema Markup Generator"
-description: "Generates structured data markup (JSON-LD) for articles, products, FAQs, recipes, and other schema types to improve search engine rich result eligibility."
+description: "Generates JSON-LD structured data for articles, products, FAQs, and local business schemas using Schema.org vocabulary. Validates output against Google Rich Results Test API and Yoast SEO wp_head hooks."
 category: "Content Writing & SEO"
 framework: "OpenClaw"
 verification: security_reviewed
-rating: 4.4
-reviews: 47
-creator: "Omar Farouk"
-creator_handle: "@omarfarouk"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/seo-schema-markup-generator-agent/"
+tool_ecosystem:
+  tool: "wordpress"
+  github_stars: 20973
+  npm_weekly_downloads: 0
+  github_repo: "WordPress/WordPress"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # SEO Schema Markup Generator
 
-Generates structured data markup (JSON-LD) for articles, products, FAQs, recipes, and other schema types to improve search engine rich result eligibility.
+Generates JSON-LD structured data for articles, products, FAQs, and local business schemas using Schema.org vocabulary. Validates output against Google Rich Results Test API and Yoast SEO wp_head hooks.
 
 ## Installation
 
@@ -41,21 +49,16 @@ clawhub install seo-schema-markup-generator-agent
 ```bash
 npx skills add agentskillexchange/skills --skill seo-schema-markup-generator-agent -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Content Writing & SEO |
 | **Framework** | OpenClaw |
-| **Verification** | ✅ Verified |
-| **Rating** | 4.4 ⭐⭐⭐⭐ (47 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [wordpress](https://github.com/WordPress/WordPress) — ⭐ 21.0k · NOASSERTION |
 
-## Creator
+---
 
-**Omar Farouk** ✅
-[View Profile](https://agentskillexchange.com/creator/omarfarouk/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/seo-schema-markup-generator-agent/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/seo-schema-markup-generator-agent/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

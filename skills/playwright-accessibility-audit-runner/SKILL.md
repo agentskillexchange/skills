@@ -3,14 +3,22 @@ name: "Playwright Accessibility Audit Runner"
 description: "Runs automated WCAG 2.1 AA/AAA accessibility audits using Playwright with axe-core integration. Generates detailed violation reports with CSS selectors, ARIA role analysis, and remediation suggestions."
 category: "Browser Automation"
 framework: "Cursor"
-verification: security_reviewed
-rating: 4.1
-reviews: 53
-creator: "Alex Rivera"
-creator_handle: "@arivera_dev"
-creator_verified: true
+verification: listed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/playwright-accessibility-audit-runner/"
+tool_ecosystem:
+  tool: "playwright"
+  github_stars: 84874
+  npm_weekly_downloads: 39806814
+  github_repo: "microsoft/playwright"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Playwright Accessibility Audit Runner
 
 Runs automated WCAG 2.1 AA/AAA accessibility audits using Playwright with axe-core integration. Generates detailed violation reports with CSS selectors, ARIA role analysis, and remediation suggestions.
@@ -41,22 +49,16 @@ clawhub install playwright-accessibility-audit-runner
 ```bash
 npx skills add agentskillexchange/skills --skill playwright-accessibility-audit-runner -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Browser Automation |
 | **Framework** | Cursor |
-| **Verification** | Verified ✅ |
-| **Rating** | ★★★★☆ (4.1/5 from 53 reviews) |
+| **Verification** | 📋 Listed |
+| **Tool** | [playwright](https://github.com/microsoft/playwright) — ⭐ 84.9k · Apache-2.0 |
 
-## Creator
+---
 
-**Alex Rivera** ✓
-
-Profile: [@arivera_dev](https://agentskillexchange.com/creator/arivera_dev/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/playwright-accessibility-audit-runner/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/playwright-accessibility-audit-runner/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

@@ -3,14 +3,22 @@ name: "Apify Actor Web Crawler"
 description: "Deploys custom Apify Actors via the Apify API v2 for large-scale web crawling using CrawleeJS. Leverages Apify dataset storage, RequestQueue, and proxy configuration for distributed scraping at scale."
 category: "Research & Scraping"
 framework: "Claude Agents"
-verification: listed
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/apify-actor-web-crawler/"
+tool_ecosystem:
+  tool: "apify"
+  github_stars: 0
+  npm_weekly_downloads: 44900
+  github_repo: ""
+  license: ""
+  maintained: false
 ---
+
 # Apify Actor Web Crawler
 
 Deploys custom Apify Actors via the Apify API v2 for large-scale web crawling using CrawleeJS. Leverages Apify dataset storage, RequestQueue, and proxy configuration for distributed scraping at scale.
@@ -41,21 +49,16 @@ clawhub install apify-actor-web-crawler
 ```bash
 npx skills add agentskillexchange/skills --skill apify-actor-web-crawler -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Research & Scraping |
 | **Framework** | Claude Agents |
-| **Verification** | Community |
-| **Rating** | 0/5 (0 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | apify |
 
-## Creator
+---
 
-**Community**
-
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/apify-actor-web-crawler/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/apify-actor-web-crawler/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

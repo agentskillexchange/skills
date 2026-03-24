@@ -11,6 +11,7 @@ creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/makefile-task-orchestration-builder/"
 ---
+
 # Makefile Task Orchestration Builder
 
 Builds GNU Make task orchestration files with proper prerequisite chains, pattern rules, and automatic variables. Handles parallel execution flags, phony targets, and recursive make invocations for monorepo builds.
@@ -41,19 +42,15 @@ clawhub install makefile-task-orchestration-builder
 ```bash
 npx skills add agentskillexchange/skills --skill makefile-task-orchestration-builder -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
-| Category | Templates & Workflows |
-| Framework | Claude Code |
-| Verification | community |
-| Rating |  (0/5) |
-
-## Creator
-
-****
+| | |
+|---|---|
+| **Category** | Templates & Workflows |
+| **Framework** | Claude Code |
+| **Verification** | 📋 Listed |
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/makefile-task-orchestration-builder/) | [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/makefile-task-orchestration-builder/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

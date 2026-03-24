@@ -3,14 +3,22 @@ name: "Jenkins Pipeline Linter"
 description: "Validates Jenkinsfile declarative and scripted pipelines using the Jenkins Pipeline Linter HTTP API (/pipeline-model-converter/validate) and npm-groovy-lint for Groovy static analysis with CodeNarc rulesets."
 category: "CI/CD Integrations"
 framework: "Custom Agents"
-verification: security_reviewed
-rating: 4.9
-reviews: 82
-creator: "Mateo Silva"
-creator_handle: "@mateosilva"
-creator_verified: true
+verification: listed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/jenkins-pipeline-linter-6/"
+tool_ecosystem:
+  tool: "jenkins"
+  github_stars: 25122
+  npm_weekly_downloads: 0
+  github_repo: "jenkinsci/jenkins"
+  license: "MIT"
+  maintained: true
 ---
+
 # Jenkins Pipeline Linter
 
 Validates Jenkinsfile declarative and scripted pipelines using the Jenkins Pipeline Linter HTTP API (/pipeline-model-converter/validate) and npm-groovy-lint for Groovy static analysis with CodeNarc rulesets.
@@ -41,21 +49,16 @@ clawhub install jenkins-pipeline-linter-6
 ```bash
 npx skills add agentskillexchange/skills --skill jenkins-pipeline-linter-6 -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | CI/CD Integrations |
 | **Framework** | Custom Agents |
-| **Verification** | 🔒 Security Reviewed |
-| **Rating** | ⭐ 4.9 (82 reviews) |
-
-## Creator
-
-**Mateo Silva** ✅
-Handle: `@mateosilva`
-[View Profile on ASE](https://agentskillexchange.com/skills/jenkins-pipeline-linter-6/)
+| **Verification** | 📋 Listed |
+| **Tool** | [jenkins](https://github.com/jenkinsci/jenkins) — ⭐ 25.1k · MIT |
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-pipeline-linter-6/) • [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-pipeline-linter-6/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

@@ -4,12 +4,19 @@ description: "Analyzes PR size and reviewability using the GitHub GraphQL API an
 category: "Code Quality & Review"
 framework: "OpenClaw"
 verification: security_reviewed
-rating: 4.3
-reviews: 25
-creator: "Fatima Al-Hassan"
-creator_handle: "@fatimaalhassan"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/pull-request-size-analyzer-agent/"
+tool_ecosystem:
+  tool: "graphql"
+  github_stars: 20335
+  npm_weekly_downloads: 32010306
+  github_repo: "graphql/graphql-js"
+  license: "MIT"
+  maintained: true
 ---
 
 # Pull Request Size Analyzer
@@ -45,21 +52,13 @@ npx skills add agentskillexchange/skills --skill pull-request-size-analyzer-agen
 
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Code Quality & Review |
 | **Framework** | OpenClaw |
-| **Verification** | Security Reviewed |
-| **Rating** | ⭐ 4.3 (25 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [graphql](https://github.com/graphql/graphql-js) — ⭐ 20.3k · MIT |
 
-## Creator
+---
 
-**Fatima Al-Hassan** ✓
-
-- Handle: `@fatimaalhassan`
-- Profile: [View on ASE](https://agentskillexchange.com/creator/fatimaalhassan/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/pull-request-size-analyzer-agent/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/pull-request-size-analyzer-agent/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

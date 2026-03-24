@@ -2,14 +2,21 @@
 name: "Apache Kafka Stream Transformer"
 description: "Processes real-time event streams using KafkaJS consumer groups and transforms messages with configurable schemas. Handles partition rebalancing, offset commits, and dead-letter queue routing for failed transformations."
 category: "Data Extraction & Transformation"
-framework: "Codex"
+framework: "Cursor"
 verification: security_reviewed
-rating: 4.9
-reviews: 69
-creator: "Tom Wilson"
-creator_handle: "@tomwilson"
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/apache-kafka-stream-transformer-2/"
+tool_ecosystem:
+  tool: "kafka"
+  github_stars: 3987
+  npm_weekly_downloads: 2396148
+  github_repo: "tulios/kafkajs"
+  license: "MIT"
+  maintained: false
 ---
 
 # Apache Kafka Stream Transformer
@@ -48,16 +55,10 @@ npx skills add agentskillexchange/skills --skill apache-kafka-stream-transformer
 | | |
 |---|---|
 | **Category** | Data Extraction & Transformation |
-| **Framework** | Codex |
-| **Verification** | Security Reviewed |
-| **Rating** | ⭐ 4.9 (69 reviews) |
+| **Framework** | Cursor |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [kafka](https://github.com/tulios/kafkajs) — ⭐ 4.0k · MIT |
 
-## Creator
+---
 
-**Tom Wilson**
-- Profile: [https://agentskillexchange.com/creator/tomwilson/](https://agentskillexchange.com/creator/tomwilson/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/apache-kafka-stream-transformer-2/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/apache-kafka-stream-transformer-2/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

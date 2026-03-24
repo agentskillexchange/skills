@@ -3,15 +3,15 @@ name: "CSP Policy Analyzer"
 description: "Parses and evaluates Content Security Policy headers using csp-parse and csp-evaluator libraries. Identifies overly permissive directives, missing protections, and generates tightened policy recommendations."
 category: "Security & Verification"
 framework: "Claude Agents"
-verification: security_reviewed
-rating: 4.9
-reviews: 11
-creator: "Mateo Silva"
-creator_handle: "@mateosilva"
-creator_verified: true
+verification: listed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/csp-policy-analyzer/"
-security: "✅ Reviewed"
 ---
+
 # CSP Policy Analyzer
 
 Parses and evaluates Content Security Policy headers using csp-parse and csp-evaluator libraries. Identifies overly permissive directives, missing protections, and generates tightened policy recommendations.
@@ -42,19 +42,15 @@ clawhub install csp-policy-analyzer
 ```bash
 npx skills add agentskillexchange/skills --skill csp-policy-analyzer -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Security & Verification |
 | **Framework** | Claude Agents |
-| **Verification** | ✅ Verified |
-| **Security** | ✅ Reviewed |
-| **Rating** | ⭐ 4.9 (11 reviews) |
+| **Verification** | 📋 Listed |
 
-## Creator
+---
 
-**Mateo Silva** ✅
-@mateosilva
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/csp-policy-analyzer/) • [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/csp-policy-analyzer/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

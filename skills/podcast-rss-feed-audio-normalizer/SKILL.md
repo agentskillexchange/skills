@@ -2,15 +2,23 @@
 name: "Podcast RSS Feed Audio Normalizer"
 description: "Parses podcast RSS feeds with feedparser and normalizes audio loudness to -16 LUFS broadcast standard using ffmpeg loudnorm filter with dual-pass EBU R128 analysis. Integrates with Podbean API and Buzzsprout API for automated episode re-upload."
 category: "Media & Transcription"
-framework: "MCP"
+framework: "MCP-compatible"
 verification: security_reviewed
-rating: 4.3
-reviews: 48
-creator: "Zoe Chen"
-creator_handle: "@zoechen"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/podcast-rss-feed-audio-normalizer/"
+tool_ecosystem:
+  tool: "ffmpeg"
+  github_stars: 58257
+  npm_weekly_downloads: 0
+  github_repo: "FFmpeg/FFmpeg"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # Podcast RSS Feed Audio Normalizer
 
 Parses podcast RSS feeds with feedparser and normalizes audio loudness to -16 LUFS broadcast standard using ffmpeg loudnorm filter with dual-pass EBU R128 analysis. Integrates with Podbean API and Buzzsprout API for automated episode re-upload.
@@ -41,21 +49,16 @@ clawhub install podcast-rss-feed-audio-normalizer
 ```bash
 npx skills add agentskillexchange/skills --skill podcast-rss-feed-audio-normalizer -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Media & Transcription |
 | **Framework** | MCP-compatible |
-| **Verification** | ✅ Verified 🔒 Reviewed |
-| **Rating** | ⭐⭐⭐⭐ 4.3/5 (48 reviews) |
-
-## Creator
-
-**Zoe Chen** ✅
-Handle: `@zoechen`
-[View Profile on ASE](https://agentskillexchange.com/skills/podcast-rss-feed-audio-normalizer/)
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [ffmpeg](https://github.com/FFmpeg/FFmpeg) — ⭐ 58.3k · NOASSERTION |
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/podcast-rss-feed-audio-normalizer/) · [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/podcast-rss-feed-audio-normalizer/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

@@ -3,13 +3,20 @@ name: "FFmpeg Batch Transcoder"
 description: "Batch transcode media files using FFmpeg CLI with preset profiles for web, mobile, and broadcast delivery. Supports hardware-accelerated encoding via NVENC/VAAPI and automated quality analysis with VMAF scoring."
 category: "Media & Transcription"
 framework: "Cursor"
-verification: security_reviewed
-rating: 4.5
-reviews: 75
-creator: "Aisha Patel"
-creator_handle: "@aishapatel"
-creator_verified: true
+verification: listed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/ffmpeg-batch-transcoder-skill/"
+tool_ecosystem:
+  tool: "ffmpeg"
+  github_stars: 58257
+  npm_weekly_downloads: 0
+  github_repo: "FFmpeg/FFmpeg"
+  license: "NOASSERTION"
+  maintained: true
 ---
 
 # FFmpeg Batch Transcoder
@@ -45,15 +52,13 @@ npx skills add agentskillexchange/skills --skill ffmpeg-batch-transcoder-skill -
 
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Media & Transcription |
 | **Framework** | Cursor |
-| **Verification** | Security Reviewed |
-| **Rating** | ⭐ 4.5 (75 reviews) |
+| **Verification** | 📋 Listed |
+| **Tool** | [ffmpeg](https://github.com/FFmpeg/FFmpeg) — ⭐ 58.3k · NOASSERTION |
 
-## Creator
+---
 
-**Aisha Patel** (@aishapatel) ✓
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/ffmpeg-batch-transcoder-skill/) · [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/ffmpeg-batch-transcoder-skill/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

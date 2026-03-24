@@ -2,66 +2,63 @@
 name: "Snowflake MCP"
 description: "Expose Snowflake databases, schemas, and query execution to AI agents via the Model Context Protocol, enabling natural-language SQL generation, query history inspection, and warehouse cost analysis. Supports role-based access control passthrough."
 category: "Data Extraction & Transformation"
-framework: "MCP"
-verification: security_reviewed
-rating: 4.7
-reviews: 77
-creator: "Priya Sharma"
-creator_handle: "@priyasharma"
-creator_verified: true
+framework: "MCP-compatible"
+verification: listed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/snowflake-mcp/"
+tool_ecosystem:
+  tool: "snowflake"
+  github_stars: 0
+  npm_weekly_downloads: 0
+  github_repo: ""
+  license: ""
+  maintained: false
 ---
+
 # Snowflake MCP
 
 Expose Snowflake databases, schemas, and query execution to AI agents via the Model Context Protocol, enabling natural-language SQL generation, query history inspection, and warehouse cost analysis. Supports role-based access control passthrough.
 
 ## Installation
 
-### Any agent (npx skills)
-
+### Any Agent (npx)
 ```bash
 npx skills add agentskillexchange/skills --skill snowflake-mcp
 ```
 
 ### Claude Code
-
 ```bash
 npx skills add agentskillexchange/skills --skill snowflake-mcp -a claude-code
 ```
 
 ### Cursor
-
 ```bash
 npx skills add agentskillexchange/skills --skill snowflake-mcp -a cursor
 ```
 
 ### OpenClaw
-
 ```bash
 clawhub install snowflake-mcp
 ```
 
 ### Codex
-
 ```bash
 npx skills add agentskillexchange/skills --skill snowflake-mcp -a codex
 ```
 
 ## Details
 
-| Field | Value |
-|-------|-------|
-| Category | Data Extraction & Transformation |
-| Framework | MCP-compatible |
-| Verification | Security Reviewed |
-| Rating | 4.7/5 (77 reviews) |
+| | |
+|---|---|
+| **Category** | Data Extraction & Transformation |
+| **Framework** | MCP-compatible |
+| **Verification** | 📋 Listed |
+| **Tool** | snowflake |
 
-## Creator
+---
 
-**Priya Sharma** (Verified Creator ✓)
-- Profile: [@priyasharma](https://agentskillexchange.com/browse-skills/?creator=priyasharma)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/snowflake-mcp/)
-- [Browse all skills](https://agentskillexchange.com/browse-skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/snowflake-mcp/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

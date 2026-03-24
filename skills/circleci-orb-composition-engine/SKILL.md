@@ -3,14 +3,22 @@ name: "CircleCI Orb Composition Engine"
 description: "Composes and publishes CircleCI Orbs using the circleci CLI with orb pack, orb validate, and semantic versioning. Manages reusable executors, commands, and jobs with parameterized pipeline configurations."
 category: "CI/CD Integrations"
 framework: "Custom Agents"
-verification: listed
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/circleci-orb-composition-engine/"
+tool_ecosystem:
+  tool: "circleci"
+  github_stars: 842
+  npm_weekly_downloads: 0
+  github_repo: "circleci/circleci-docs"
+  license: "Unknown"
+  maintained: true
 ---
+
 # CircleCI Orb Composition Engine
 
 Composes and publishes CircleCI Orbs using the circleci CLI with orb pack, orb validate, and semantic versioning. Manages reusable executors, commands, and jobs with parameterized pipeline configurations.
@@ -41,22 +49,16 @@ clawhub install circleci-orb-composition-engine
 ```bash
 npx skills add agentskillexchange/skills --skill circleci-orb-composition-engine -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | CI/CD Integrations |
 | **Framework** | Custom Agents |
-| **Verification** |  |
-| **Rating** | 0/5 (0 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [circleci](https://github.com/circleci/circleci-docs) — ⭐ 842 · Unknown |
 
-## Creator
+---
 
-**Community**
-
-
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-orb-composition-engine/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-orb-composition-engine/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

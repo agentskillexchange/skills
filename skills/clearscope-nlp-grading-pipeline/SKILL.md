@@ -4,13 +4,14 @@ description: "Connects to Clearscope API to generate content grades based on NLP
 category: "Content Writing & SEO"
 framework: "Claude Code"
 verification: security_reviewed
-rating: 4.5
-reviews: 52
-creator: "Yuki Tanaka"
-creator_handle: "@yukitanaka"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/clearscope-nlp-grading-pipeline/"
 ---
+
 # Clearscope NLP Grading Pipeline
 
 Connects to Clearscope API to generate content grades based on NLP term frequency analysis. Automates keyword research via Clearscope Research Reports endpoint and outputs structured optimization recommendations with TF-IDF scoring.
@@ -41,22 +42,15 @@ clawhub install clearscope-nlp-grading-pipeline
 ```bash
 npx skills add agentskillexchange/skills --skill clearscope-nlp-grading-pipeline -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Content Writing & SEO |
 | **Framework** | Claude Code |
-| **Verification** | ✅ Verified |
-| **Rating** | ⭐⭐⭐⭐ 4.5/5 (52 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
 
-## Creator
+---
 
-**Yuki Tanaka** ✅
-
-Profile: [@yukitanaka](https://agentskillexchange.com/creator/yukitanaka/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/clearscope-nlp-grading-pipeline/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/clearscope-nlp-grading-pipeline/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

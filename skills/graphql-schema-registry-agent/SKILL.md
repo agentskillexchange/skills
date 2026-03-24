@@ -4,13 +4,21 @@ description: "Manages federated GraphQL schemas using Apollo Studio API and Hive
 category: "Library & API Reference"
 framework: "Codex"
 verification: security_reviewed
-rating: 4.9
-reviews: 39
-creator: "Mateo Silva"
-creator_handle: "@mateosilva"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/graphql-schema-registry-agent/"
+tool_ecosystem:
+  tool: "graphql"
+  github_stars: 20335
+  npm_weekly_downloads: 32010306
+  github_repo: "graphql/graphql-js"
+  license: "MIT"
+  maintained: true
 ---
+
 # GraphQL Schema Registry Agent
 
 Manages federated GraphQL schemas using Apollo Studio API and Hive Schema Registry. Validates schema composition, detects breaking changes, and enforces naming conventions across subgraph services.
@@ -41,22 +49,16 @@ clawhub install graphql-schema-registry-agent
 ```bash
 npx skills add agentskillexchange/skills --skill graphql-schema-registry-agent -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Library & API Reference |
 | **Framework** | Codex |
-| **Verification** | ✅ Verified |
-| **Security** | ✅ Reviewed |
-| **Rating** | ⭐ 4.9 (39 reviews) |
-
-## Creator
-
-**Mateo Silva** ✅
-Handle: `@mateosilva`
-[View Profile on ASE](https://agentskillexchange.com/skills/graphql-schema-registry-agent/)
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [graphql](https://github.com/graphql/graphql-js) — ⭐ 20.3k · MIT |
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/graphql-schema-registry-agent/) • [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/graphql-schema-registry-agent/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

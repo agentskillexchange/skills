@@ -6,11 +6,19 @@ framework: "Gemini"
 verification: listed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/jinja2-infrastructure-template-engine/"
+tool_ecosystem:
+  tool: "kubernetes"
+  github_stars: 121313
+  npm_weekly_downloads: 0
+  github_repo: "kubernetes/kubernetes"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Jinja2 Infrastructure Template Engine
 
 Generates infrastructure-as-code configurations from Jinja2 templates with variable inheritance. Produces Terraform HCL, Ansible playbooks, and Kubernetes manifests from shared parameter files using hierarchical environment overlays.
@@ -41,17 +49,16 @@ clawhub install jinja2-infrastructure-template-engine
 ```bash
 npx skills add agentskillexchange/skills --skill jinja2-infrastructure-template-engine -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Templates & Workflows |
 | **Framework** | Gemini |
-| **Verification** | community |
-| **Rating** |  (0/5 from 0 reviews) |
+| **Verification** | 📋 Listed |
+| **Tool** | [kubernetes](https://github.com/kubernetes/kubernetes) — ⭐ 121.3k · Apache-2.0 |
 
-## Creator
+---
 
-**Community**
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/jinja2-infrastructure-template-engine/) · [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/jinja2-infrastructure-template-engine/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

@@ -6,11 +6,12 @@ framework: "Codex"
 verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/python-package-api-surface-mapper/"
 ---
+
 # Python Package API Surface Mapper
 
 Maps the public API surface of Python packages using ast module parsing and importlib introspection. Generates comprehensive reference docs with type annotations from mypy stubs.
@@ -41,22 +42,15 @@ clawhub install python-package-api-surface-mapper
 ```bash
 npx skills add agentskillexchange/skills --skill python-package-api-surface-mapper -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Library & API Reference |
 | **Framework** | Codex |
-| **Verification** | security_reviewed |
-| **Rating** | 0 ⭐ (0 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
 
-## Creator
+---
 
-**Community** 
-
-
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/python-package-api-surface-mapper/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/python-package-api-surface-mapper/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

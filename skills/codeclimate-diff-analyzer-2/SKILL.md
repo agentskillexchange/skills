@@ -4,13 +4,21 @@ description: "Runs CodeClimate analysis on pull request diffs using the CLI engi
 category: "Code Quality & Review"
 framework: "Claude Code"
 verification: security_reviewed
-rating: 4.6
-reviews: 63
-creator: "Aisha Patel"
-creator_handle: "@aishapatel"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/codeclimate-diff-analyzer-2/"
+tool_ecosystem:
+  tool: "gitlab"
+  github_stars: 24276
+  npm_weekly_downloads: 0
+  github_repo: "gitlabhq/gitlabhq"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # CodeClimate Diff Analyzer
 
 Runs CodeClimate analysis on pull request diffs using the CLI engine and reports new issues inline. Calculates maintainability impact scores per changed file.
@@ -41,22 +49,16 @@ clawhub install codeclimate-diff-analyzer-2
 ```bash
 npx skills add agentskillexchange/skills --skill codeclimate-diff-analyzer-2 -a codex
 ```
+
 ## Details
 
 | | |
 |---|---|
 | **Category** | Code Quality & Review |
 | **Framework** | Claude Code |
-| **Verification** | ✅ Verified |
-| **Security** | 🔒 Reviewed |
-| **Rating** | ⭐⭐⭐⭐ 4.6/5 (63 reviews) |
-
-## Creator
-
-**Aisha Patel** ✅
-Handle: `@aishapatel`
-[View Profile on ASE](https://agentskillexchange.com/skills/codeclimate-diff-analyzer-2/)
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [gitlab](https://github.com/gitlabhq/gitlabhq) — ⭐ 24.3k · NOASSERTION |
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/codeclimate-diff-analyzer-2/) | [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/codeclimate-diff-analyzer-2/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

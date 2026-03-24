@@ -3,14 +3,22 @@ name: "Datadog Monitor Configuration Engine"
 description: "Interfaces with the Datadog API v2 monitors and dashboards endpoints to programmatically create and manage monitors. Uses DogStatsD protocol for custom metric submission and Datadog Terraform provider for IaC."
 category: "Monitoring & Alerts"
 framework: "ChatGPT Agents"
-verification: listed
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/datadog-monitor-configuration-engine/"
+tool_ecosystem:
+  tool: "datadog"
+  github_stars: 787
+  npm_weekly_downloads: 6043057
+  github_repo: "DataDog/dd-trace-js"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # Datadog Monitor Configuration Engine
 
 Interfaces with the Datadog API v2 monitors and dashboards endpoints to programmatically create and manage monitors. Uses DogStatsD protocol for custom metric submission and Datadog Terraform provider for IaC.
@@ -41,21 +49,16 @@ clawhub install datadog-monitor-configuration-engine
 ```bash
 npx skills add agentskillexchange/skills --skill datadog-monitor-configuration-engine -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Monitoring & Alerts |
 | **Framework** | ChatGPT Agents |
-| **Verification** | Community |
-| **Rating** | 0/5 (0 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [datadog](https://github.com/DataDog/dd-trace-js) — ⭐ 787 · NOASSERTION |
 
-## Creator
+---
 
-**Community**
-
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/datadog-monitor-configuration-engine/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/datadog-monitor-configuration-engine/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

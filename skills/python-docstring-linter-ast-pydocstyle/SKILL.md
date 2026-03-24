@@ -6,11 +6,12 @@ framework: "Codex"
 verification: listed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/python-docstring-linter-ast-pydocstyle/"
 ---
+
 # Python Docstring Linter
 
 Validates and auto-generates Python docstrings using the ast module and pydocstyle conventions. Supports NumPy, Google, and Sphinx docstring formats with type stub integration.
@@ -41,20 +42,15 @@ clawhub install python-docstring-linter-ast-pydocstyle
 ```bash
 npx skills add agentskillexchange/skills --skill python-docstring-linter-ast-pydocstyle -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Library & API Reference |
 | **Framework** | Codex |
-| **Verification** | community |
-| **Rating** | Not yet rated (0 reviews) |
+| **Verification** | 📋 Listed |
 
-## Creator
+---
 
-**Community**
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/python-docstring-linter-ast-pydocstyle/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/python-docstring-linter-ast-pydocstyle/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

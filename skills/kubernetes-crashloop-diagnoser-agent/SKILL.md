@@ -4,12 +4,19 @@ description: "Diagnoses CrashLoopBackOff pods using kubectl and the Kubernetes A
 category: "Runbooks & Diagnostics"
 framework: "Gemini"
 verification: security_reviewed
-rating: 4.8
-reviews: 49
-creator: "Lucy Zhang"
-creator_handle: "@lucyzhang"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/kubernetes-crashloop-diagnoser-agent/"
+tool_ecosystem:
+  tool: "kubernetes"
+  github_stars: 121313
+  npm_weekly_downloads: 0
+  github_repo: "kubernetes/kubernetes"
+  license: "Apache-2.0"
+  maintained: true
 ---
 
 # Kubernetes CrashLoop Diagnoser
@@ -45,21 +52,13 @@ npx skills add agentskillexchange/skills --skill kubernetes-crashloop-diagnoser-
 
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Runbooks & Diagnostics |
 | **Framework** | Gemini |
-| **Verification** | Security Reviewed |
-| **Rating** | ⭐ 4.8 (49 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [kubernetes](https://github.com/kubernetes/kubernetes) — ⭐ 121.3k · Apache-2.0 |
 
-## Creator
+---
 
-**Lucy Zhang** ✓
-
-- Handle: `@lucyzhang`
-- Profile: [View on ASE](https://agentskillexchange.com/creator/lucyzhang/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-crashloop-diagnoser-agent/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-crashloop-diagnoser-agent/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

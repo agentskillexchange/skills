@@ -3,14 +3,22 @@ name: "OWASP ZAP Automated Pen Testing Agent"
 description: "Runs automated penetration tests using OWASP ZAP API with spider crawling, active scanning, and AJAX-aware testing. Generates SARIF and HTML reports with CWE-mapped findings for security review workflows."
 category: "Security & Verification"
 framework: "ChatGPT Agents"
-verification: verified_metadata
-rating: 4.9
-reviews: 15
-creator: "Marcus Chen"
-creator_handle: "@marcuschen"
-creator_verified: true
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/owasp-zap-automated-pen-testing-agent/"
+tool_ecosystem:
+  tool: "owasp"
+  github_stars: 14896
+  npm_weekly_downloads: 0
+  github_repo: "zaproxy/zaproxy"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # OWASP ZAP Automated Pen Testing Agent
 
 Runs automated penetration tests using OWASP ZAP API with spider crawling, active scanning, and AJAX-aware testing. Generates SARIF and HTML reports with CWE-mapped findings for security review workflows.
@@ -41,21 +49,16 @@ clawhub install owasp-zap-automated-pen-testing-agent
 ```bash
 npx skills add agentskillexchange/skills --skill owasp-zap-automated-pen-testing-agent -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Security & Verification |
 | **Framework** | ChatGPT Agents |
-| **Verification** | Verified |
-| **Rating** | ⭐⭐⭐⭐ 4.9/5 (15 reviews) |
-
-## Creator
-
-**Marcus Chen** ✓
-Handle: `@marcuschen`
-[View Profile on ASE](https://agentskillexchange.com/skills/owasp-zap-automated-pen-testing-agent/)
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [owasp](https://github.com/zaproxy/zaproxy) — ⭐ 14.9k · Apache-2.0 |
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/owasp-zap-automated-pen-testing-agent/) · [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/owasp-zap-automated-pen-testing-agent/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

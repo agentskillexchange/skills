@@ -3,14 +3,22 @@ name: "AWS Systems Manager Runbook Engine"
 description: "Executes automated diagnostics using the AWS Systems Manager Automation API and SSM Documents. Collects system metrics via the CloudWatch GetMetricData API and correlates with AWS Health events."
 category: "Runbooks & Diagnostics"
 framework: "ChatGPT Agents"
-verification: verified_metadata
-rating: 4.6
-reviews: 83
-creator: "Ava Johnson"
-creator_handle: "@avajohnson"
-creator_verified: true
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/aws-ssm-runbook-engine/"
+tool_ecosystem:
+  tool: "aws"
+  github_stars: 3594
+  npm_weekly_downloads: 9204385
+  github_repo: "aws/aws-sdk-js-v3"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # AWS Systems Manager Runbook Engine
 
 Executes automated diagnostics using the AWS Systems Manager Automation API and SSM Documents. Collects system metrics via the CloudWatch GetMetricData API and correlates with AWS Health events.
@@ -41,18 +49,16 @@ clawhub install aws-ssm-runbook-engine
 ```bash
 npx skills add agentskillexchange/skills --skill aws-ssm-runbook-engine -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Runbooks & Diagnostics |
 | **Framework** | ChatGPT Agents |
-| **Verification** | Verified |
-| **Rating** | ⭐⭐⭐⭐ 4.6/5 (83 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [aws](https://github.com/aws/aws-sdk-js-v3) — ⭐ 3.6k · Apache-2.0 |
 
-## Creator
+---
 
-**Ava Johnson** (@avajohnson)
-✓ Verified Creator
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/aws-ssm-runbook-engine/) | [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/aws-ssm-runbook-engine/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

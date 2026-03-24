@@ -2,15 +2,23 @@
 name: "Sigstore Cosign Container Verifier"
 description: "Verifies container image signatures and provenance using Sigstore Cosign and Rekor transparency log. Enforces supply chain policies with OPA Gatekeeper admission rules."
 category: "Security & Verification"
-framework: "MCP"
+framework: "MCP-compatible"
 verification: listed
 rating: 0
 reviews: 0
-creator: "Zoe Chen"
-creator_handle: "@zoechen"
-creator_verified: true
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/sigstore-cosign-container-verifier/"
+tool_ecosystem:
+  tool: "kubernetes"
+  github_stars: 121313
+  npm_weekly_downloads: 0
+  github_repo: "kubernetes/kubernetes"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Sigstore Cosign Container Verifier
 
 Verifies container image signatures and provenance using Sigstore Cosign and Rekor transparency log. Enforces supply chain policies with OPA Gatekeeper admission rules.
@@ -41,21 +49,16 @@ clawhub install sigstore-cosign-container-verifier
 ```bash
 npx skills add agentskillexchange/skills --skill sigstore-cosign-container-verifier -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Security & Verification |
 | **Framework** | MCP-compatible |
-| **Verification** | community |
-| **Rating** | 4.3 (0 reviews) |
-
-## Creator
-
-**Zoe Chen** ✓
-
-[Profile](https://agentskillexchange.com/creator/@zoechen/)
+| **Verification** | 📋 Listed |
+| **Tool** | [kubernetes](https://github.com/kubernetes/kubernetes) — ⭐ 121.3k · Apache-2.0 |
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/sigstore-cosign-container-verifier/) · [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/sigstore-cosign-container-verifier/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

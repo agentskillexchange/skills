@@ -1,16 +1,24 @@
 ---
 name: "Plop.js Code Generator"
-description: "Creates Plop.js generators with Handlebars templates and custom action types for scaffolding React components, API routes, and test files. Uses inquirer prompts with validation and the addMany acti..."
+description: "Creates Plop.js generators with Handlebars templates and custom action types for scaffolding React components, API routes, and test files. Uses inquirer prompts with validation and the addMany action for batch file generation."
 category: "Templates & Workflows"
 framework: "Cursor"
-verification: listed
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/plopjs-code-generator/"
+tool_ecosystem:
+  tool: "react"
+  github_stars: 244146
+  npm_weekly_downloads: 104796073
+  github_repo: "facebook/react"
+  license: "MIT"
+  maintained: true
 ---
+
 # Plop.js Code Generator
 
 Creates Plop.js generators with Handlebars templates and custom action types for scaffolding React components, API routes, and test files. Uses inquirer prompts with validation and the addMany action for batch file generation.
@@ -41,21 +49,16 @@ clawhub install plopjs-code-generator
 ```bash
 npx skills add agentskillexchange/skills --skill plopjs-code-generator -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Templates & Workflows |
 | **Framework** | Cursor |
-| **Verification** |  |
-| **Rating** | 0 (0 reviews) |
-
-## Creator
-
-**Community**
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/plopjs-code-generator/)
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [react](https://github.com/facebook/react) — ⭐ 244.1k · MIT |
 
 ---
 
-[Browse all skills](https://agentskillexchange.com) | [Submit a skill](https://agentskillexchange.com/submit/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/plopjs-code-generator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

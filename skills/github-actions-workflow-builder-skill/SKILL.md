@@ -3,14 +3,15 @@ name: "GitHub Actions Workflow Builder"
 description: "Generates and validates GitHub Actions YAML workflows using the actions/toolkit SDK and workflow_dispatch event triggers. Supports matrix builds, reusable workflows with workflow_call, and composite actions with proper input/output schema definitions."
 category: "CI/CD Integrations"
 framework: "Cursor"
-verification: verified_metadata
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/github-actions-workflow-builder-skill/"
 ---
+
 # GitHub Actions Workflow Builder
 
 Generates and validates GitHub Actions YAML workflows using the actions/toolkit SDK and workflow_dispatch event triggers. Supports matrix builds, reusable workflows with workflow_call, and composite actions with proper input/output schema definitions.
@@ -41,21 +42,15 @@ clawhub install github-actions-workflow-builder-skill
 ```bash
 npx skills add agentskillexchange/skills --skill github-actions-workflow-builder-skill -a codex
 ```
+
 ## Details
 
 | | |
 |---|---|
 | **Category** | CI/CD Integrations |
 | **Framework** | Cursor |
-| **Verification** | verified_metadata |
-| **Rating** |  (0/5 from 0 reviews) |
-
-## Creator
-
-**Community**
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/github-actions-workflow-builder-skill/)
+| **Verification** | 🛡️ Security Reviewed |
 
 ---
 
-[Browse more skills](https://agentskillexchange.com) | [Agent Skill Exchange](https://agentskillexchange.com/skills/github-actions-workflow-builder-skill/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/github-actions-workflow-builder-skill/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

@@ -4,13 +4,21 @@ description: "Integrates the OWASP ZAP API to run automated DAST scans against w
 category: "Security & Verification"
 framework: "OpenClaw"
 verification: security_reviewed
-rating: 4.8
-reviews: 37
-creator: "Yuki Tanaka"
-creator_handle: "@yukitanaka"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/owasp-zap-scanner-agent/"
+tool_ecosystem:
+  tool: "owasp"
+  github_stars: 14896
+  npm_weekly_downloads: 0
+  github_repo: "zaproxy/zaproxy"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # OWASP ZAP Scanner Agent
 
 Integrates the OWASP ZAP API to run automated DAST scans against web applications. Parses ZAP JSON reports, triages alerts by CVSS severity, and generates remediation tickets via Jira REST API.
@@ -41,22 +49,16 @@ clawhub install owasp-zap-scanner-agent
 ```bash
 npx skills add agentskillexchange/skills --skill owasp-zap-scanner-agent -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Security & Verification |
 | **Framework** | OpenClaw |
-| **Verification** | Verified & Security Reviewed |
-| **Rating** | ★★★★½ (4.8/5 from 37 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [owasp](https://github.com/zaproxy/zaproxy) — ⭐ 14.9k · Apache-2.0 |
 
-## Creator
+---
 
-**Yuki Tanaka** ✓ Verified Creator
-
-[View Profile](https://agentskillexchange.com/creator/yukitanaka/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/owasp-zap-scanner-agent/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/owasp-zap-scanner-agent/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

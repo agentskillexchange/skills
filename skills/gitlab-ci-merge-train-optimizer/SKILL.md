@@ -4,13 +4,21 @@ description: "Optimizes GitLab CI/CD merge trains via the GitLab REST API v4 (/a
 category: "CI/CD Integrations"
 framework: "Codex"
 verification: security_reviewed
-rating: 4.6
-reviews: 4
-creator: "Community"
+rating: 0
+reviews: 0
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/gitlab-ci-merge-train-optimizer/"
+tool_ecosystem:
+  tool: "gitlab"
+  github_stars: 24276
+  npm_weekly_downloads: 0
+  github_repo: "gitlabhq/gitlabhq"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # GitLab CI Merge Train Optimizer
 
 Optimizes GitLab CI/CD merge trains via the GitLab REST API v4 (/api/v4/projects/{id}/merge_trains). Analyzes pipeline durations, identifies bottleneck stages, and recommends DAG-based job dependencies for parallel execution.
@@ -41,19 +49,16 @@ clawhub install gitlab-ci-merge-train-optimizer
 ```bash
 npx skills add agentskillexchange/skills --skill gitlab-ci-merge-train-optimizer -a codex
 ```
+
 ## Details
 
 | | |
 |---|---|
 | **Category** | CI/CD Integrations |
 | **Framework** | Codex |
-| **Verification** | Security Reviewed |
-| **Rating** | ⭐⭐⭐⭐ 4.6/5 (4 reviews) |
-
-## Creator
-
-**Community**
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [gitlab](https://github.com/gitlabhq/gitlabhq) — ⭐ 24.3k · NOASSERTION |
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/gitlab-ci-merge-train-optimizer/) · [Browse Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/gitlab-ci-merge-train-optimizer/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

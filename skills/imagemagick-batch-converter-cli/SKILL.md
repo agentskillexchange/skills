@@ -1,19 +1,27 @@
 ---
 name: "ImageMagick Batch Converter CLI"
-description: "Automates bulk image conversion using ImageMagick&#8217;s convert and mogrify commands with geometry expressions. Supports -density, -colorspace, and -profile flags for print-quality output."
+description: "Automates bulk image conversion using ImageMagick’s convert and mogrify commands with geometry expressions. Supports -density, -colorspace, and -profile flags for print-quality output."
 category: "Image & Creative Automation"
 framework: "OpenClaw"
-verification: verified_metadata
-rating: 4.4
-reviews: 34
-creator: "David Nguyen"
-creator_handle: "@davidnguyen"
-creator_verified: true
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/imagemagick-batch-converter-cli/"
+tool_ecosystem:
+  tool: "imagemagick"
+  github_stars: 15991
+  npm_weekly_downloads: 0
+  github_repo: "ImageMagick/ImageMagick"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # ImageMagick Batch Converter CLI
 
-Automates bulk image conversion using ImageMagick&#8217;s convert and mogrify commands with geometry expressions. Supports -density, -colorspace, and -profile flags for print-quality output.
+Automates bulk image conversion using ImageMagick’s convert and mogrify commands with geometry expressions. Supports -density, -colorspace, and -profile flags for print-quality output.
 
 ## Installation
 
@@ -41,23 +49,16 @@ clawhub install imagemagick-batch-converter-cli
 ```bash
 npx skills add agentskillexchange/skills --skill imagemagick-batch-converter-cli -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Image & Creative Automation |
 | **Framework** | OpenClaw |
-| **Verification** | verified |
-| **Rating** | ⭐⭐⭐⭐ 4.4/5 (34 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [imagemagick](https://github.com/ImageMagick/ImageMagick) — ⭐ 16.0k · NOASSERTION |
 
-## Creator
+---
 
-**David Nguyen** ✓ Verified Creator
-
-- Handle: @davidnguyen
-- [View Profile on ASE](https://agentskillexchange.com/skills/imagemagick-batch-converter-cli/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/imagemagick-batch-converter-cli/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/imagemagick-batch-converter-cli/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

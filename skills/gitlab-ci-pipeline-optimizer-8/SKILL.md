@@ -4,13 +4,21 @@ description: "Optimizes GitLab CI/CD pipelines using the GitLab Pipelines API an
 category: "CI/CD Integrations"
 framework: "Claude Code"
 verification: security_reviewed
-rating: 4.6
-reviews: 83
-creator: "Nina Volkov"
-creator_handle: "@ninavolkov"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/gitlab-ci-pipeline-optimizer-8/"
+tool_ecosystem:
+  tool: "gitlab"
+  github_stars: 24276
+  npm_weekly_downloads: 0
+  github_repo: "gitlabhq/gitlabhq"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # GitLab CI Pipeline Optimizer
 
 Optimizes GitLab CI/CD pipelines using the GitLab Pipelines API and DAG keyword configurations. Analyzes job dependencies, parallel execution opportunities, and cache strategies for faster builds.
@@ -41,21 +49,16 @@ clawhub install gitlab-ci-pipeline-optimizer-8
 ```bash
 npx skills add agentskillexchange/skills --skill gitlab-ci-pipeline-optimizer-8 -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | CI/CD Integrations |
 | **Framework** | Claude Code |
-| **Verification** | ✅ Verified |
-| **Rating** | ⭐ 4.6 (83 reviews) |
-
-## Creator
-
-**Nina Volkov** ✅
-Handle: `@ninavolkov`
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/gitlab-ci-pipeline-optimizer-8/)
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [gitlab](https://github.com/gitlabhq/gitlabhq) — ⭐ 24.3k · NOASSERTION |
 
 ---
 
-[Browse all skills](https://agentskillexchange.com) | [View on ASE](https://agentskillexchange.com/skills/gitlab-ci-pipeline-optimizer-8/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/gitlab-ci-pipeline-optimizer-8/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

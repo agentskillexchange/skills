@@ -3,14 +3,22 @@ name: "OpenAPI Spec Validator & Mock Server"
 description: "Validates OpenAPI 3.x specifications using the swagger-parser library and generates Prism mock servers. Detects schema inconsistencies, missing examples, and generates SDK client stubs via openapi-generator."
 category: "Library & API Reference"
 framework: "Codex"
-verification: verified_metadata
-rating: 4.4
-reviews: 47
-creator: "Lucy Zhang"
-creator_handle: "@lucyzhang"
-creator_verified: true
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/openapi-spec-validator-mock-server-2/"
+tool_ecosystem:
+  tool: "postman"
+  github_stars: 0
+  npm_weekly_downloads: 0
+  github_repo: ""
+  license: ""
+  maintained: false
 ---
+
 # OpenAPI Spec Validator & Mock Server
 
 Validates OpenAPI 3.x specifications using the swagger-parser library and generates Prism mock servers. Detects schema inconsistencies, missing examples, and generates SDK client stubs via openapi-generator.
@@ -41,22 +49,16 @@ clawhub install openapi-spec-validator-mock-server-2
 ```bash
 npx skills add agentskillexchange/skills --skill openapi-spec-validator-mock-server-2 -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Library & API Reference |
 | **Framework** | Codex |
-| **Verification** | Verified |
-| **Rating** | 4.4 ⭐ (47 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | postman |
 
-## Creator
+---
 
-**Lucy Zhang** ✓
-Handle: @lucyzhang
-[View Profile](https://agentskillexchange.com/skills/openapi-spec-validator-mock-server-2/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/openapi-spec-validator-mock-server-2/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/openapi-spec-validator-mock-server-2/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

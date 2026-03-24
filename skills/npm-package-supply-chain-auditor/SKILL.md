@@ -3,14 +3,22 @@ name: "NPM Package Supply Chain Auditor"
 description: "Audits npm dependencies for supply chain risks using npm audit, Socket.dev API, and Snyk vulnerability database. Detects typosquatting, install scripts, and maintainer account takeovers."
 category: "Security & Verification"
 framework: "OpenClaw"
-verification: listed
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/npm-package-supply-chain-auditor/"
+tool_ecosystem:
+  tool: "snyk"
+  github_stars: 5457
+  npm_weekly_downloads: 601684
+  github_repo: "snyk/cli"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # NPM Package Supply Chain Auditor
 
 Audits npm dependencies for supply chain risks using npm audit, Socket.dev API, and Snyk vulnerability database. Detects typosquatting, install scripts, and maintainer account takeovers.
@@ -41,22 +49,16 @@ clawhub install npm-package-supply-chain-auditor
 ```bash
 npx skills add agentskillexchange/skills --skill npm-package-supply-chain-auditor -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
-| Category | Security & Verification |
-| Framework | OpenClaw |
-| Verification |  |
-| Rating | 0 ⭐ |
+| | |
+|---|---|
+| **Category** | Security & Verification |
+| **Framework** | OpenClaw |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [snyk](https://github.com/snyk/cli) — ⭐ 5.5k · NOASSERTION |
 
-## Creator
+---
 
-**Community**
-
-[View Profile](https://agentskillexchange.com/skills/npm-package-supply-chain-auditor/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/npm-package-supply-chain-auditor/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/npm-package-supply-chain-auditor/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

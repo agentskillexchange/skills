@@ -3,14 +3,22 @@ name: "SendGrid Transactional Email Router"
 description: "Manages transactional email delivery via SendGrid v3 Mail Send API with dynamic template rendering. Handles bounce processing, suppression group management, and event webhook parsing."
 category: "Integrations & Connectors"
 framework: "Cursor"
-verification: listed
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/sendgrid-transactional-email-router/"
+tool_ecosystem:
+  tool: "sendgrid"
+  github_stars: 3054
+  npm_weekly_downloads: 3287627
+  github_repo: "sendgrid/sendgrid-nodejs"
+  license: "MIT"
+  maintained: true
 ---
+
 # SendGrid Transactional Email Router
 
 Manages transactional email delivery via SendGrid v3 Mail Send API with dynamic template rendering. Handles bounce processing, suppression group management, and event webhook parsing.
@@ -41,20 +49,16 @@ clawhub install sendgrid-transactional-email-router
 ```bash
 npx skills add agentskillexchange/skills --skill sendgrid-transactional-email-router -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Integrations & Connectors |
 | **Framework** | Cursor |
-| **Verification** |  |
-| **Rating** | 0 (0 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [sendgrid](https://github.com/sendgrid/sendgrid-nodejs) — ⭐ 3.1k · MIT |
 
-## Creator
+---
 
-**Community**
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/sendgrid-transactional-email-router/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/sendgrid-transactional-email-router/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

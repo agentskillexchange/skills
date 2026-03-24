@@ -3,15 +3,22 @@ name: "FFmpeg Audio Transcoder"
 description: "Transcodes and processes audio files using the FFmpeg CLI and libavcodec library. Supports batch format conversion, loudness normalization via EBU R128, and metadata extraction with ffprobe."
 category: "Media & Transcription"
 framework: "Cursor"
-verification: security_reviewed
-rating: 4.8
-reviews: 46
-creator: "Elena Rodriguez"
-creator_handle: "@elena_dev"
-creator_verified: true
+verification: listed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/ffmpeg-audio-transcoder/"
-security: "✅ Reviewed"
+tool_ecosystem:
+  tool: "ffmpeg"
+  github_stars: 58257
+  npm_weekly_downloads: 0
+  github_repo: "FFmpeg/FFmpeg"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # FFmpeg Audio Transcoder
 
 Transcodes and processes audio files using the FFmpeg CLI and libavcodec library. Supports batch format conversion, loudness normalization via EBU R128, and metadata extraction with ffprobe.
@@ -42,19 +49,16 @@ clawhub install ffmpeg-audio-transcoder
 ```bash
 npx skills add agentskillexchange/skills --skill ffmpeg-audio-transcoder -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Media & Transcription |
 | **Framework** | Cursor |
-| **Verification** | ✅ Verified |
-| **Security** | ✅ Reviewed |
-| **Rating** | ⭐ 4.8 (46 reviews) |
+| **Verification** | 📋 Listed |
+| **Tool** | [ffmpeg](https://github.com/FFmpeg/FFmpeg) — ⭐ 58.3k · NOASSERTION |
 
-## Creator
+---
 
-**Elena Rodriguez** ✅
-Handle: `@elena_dev`
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/ffmpeg-audio-transcoder/) · [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/ffmpeg-audio-transcoder/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

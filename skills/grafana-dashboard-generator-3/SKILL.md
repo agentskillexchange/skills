@@ -4,13 +4,21 @@ description: "Programmatically generates Grafana dashboards from service definit
 category: "Monitoring & Alerts"
 framework: "Cursor"
 verification: security_reviewed
-rating: 4.6
-reviews: 84
-creator: "Carlos Mendez"
-creator_handle: "@carlosmendez"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/grafana-dashboard-generator-3/"
+tool_ecosystem:
+  tool: "grafana"
+  github_stars: 72784
+  npm_weekly_downloads: 0
+  github_repo: "grafana/grafana"
+  license: "AGPL-3.0"
+  maintained: true
 ---
+
 # Grafana Dashboard Generator
 
 Programmatically generates Grafana dashboards from service definitions using the Grafana HTTP API /api/dashboards/db endpoint. Creates panels for RED metrics, SLO tracking, and infrastructure views.
@@ -41,18 +49,16 @@ clawhub install grafana-dashboard-generator-3
 ```bash
 npx skills add agentskillexchange/skills --skill grafana-dashboard-generator-3 -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
-| Category | Monitoring & Alerts |
-| Framework | Cursor |
-| Verification | Verified ✅ |
-| Rating | 4.6 ⭐⭐⭐⭐ (84 reviews) |
+| | |
+|---|---|
+| **Category** | Monitoring & Alerts |
+| **Framework** | Cursor |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [grafana](https://github.com/grafana/grafana) — ⭐ 72.8k · AGPL-3.0 |
 
-## Creator
+---
 
-**Carlos Mendez** ✅
-Handle: @carlosmendez
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/grafana-dashboard-generator-3/) · [Browse all skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/grafana-dashboard-generator-3/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

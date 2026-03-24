@@ -3,14 +3,22 @@ name: "Stripe Payments Connector"
 description: "Full Stripe API integration using the stripe-node SDK. Creates PaymentIntents via stripe.paymentIntents.create(), manages Customers and Subscriptions, handles webhook events through stripe.webhooks.constructEvent(), and supports Stripe Connect for marketplace payouts."
 category: "Integrations & Connectors"
 framework: "ChatGPT Agents"
-verification: verified_metadata
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/stripe-payments-connector/"
+tool_ecosystem:
+  tool: "stripe"
+  github_stars: 4377
+  npm_weekly_downloads: 8442269
+  github_repo: "stripe/stripe-node"
+  license: "MIT"
+  maintained: true
 ---
+
 # Stripe Payments Connector
 
 Full Stripe API integration using the stripe-node SDK. Creates PaymentIntents via stripe.paymentIntents.create(), manages Customers and Subscriptions, handles webhook events through stripe.webhooks.constructEvent(), and supports Stripe Connect for marketplace payouts.
@@ -41,17 +49,16 @@ clawhub install stripe-payments-connector
 ```bash
 npx skills add agentskillexchange/skills --skill stripe-payments-connector -a codex
 ```
+
 ## Details
 
 | | |
 |---|---|
 | **Category** | Integrations & Connectors |
 | **Framework** | ChatGPT Agents |
-| **Verification** | verified_metadata |
-| **Rating** | 0 (0 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [stripe](https://github.com/stripe/stripe-node) — ⭐ 4.4k · MIT |
 
-## Creator
+---
 
-**Community**
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/stripe-payments-connector/) · [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/stripe-payments-connector/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

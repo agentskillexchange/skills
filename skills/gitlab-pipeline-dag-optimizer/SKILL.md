@@ -4,13 +4,21 @@ description: "Analyzes GitLab CI/CD pipeline YAML using the GitLab Pipelines API
 category: "CI/CD Integrations"
 framework: "OpenClaw"
 verification: security_reviewed
-rating: 4.7
-reviews: 23
-creator: "Ryan O'Malley"
-creator_handle: "@ryanomalley"
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/gitlab-pipeline-dag-optimizer/"
+tool_ecosystem:
+  tool: "gitlab"
+  github_stars: 24276
+  npm_weekly_downloads: 0
+  github_repo: "gitlabhq/gitlabhq"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # GitLab Pipeline DAG Optimizer
 
 Analyzes GitLab CI/CD pipeline YAML using the GitLab Pipelines API to detect bottlenecks and restructure directed acyclic graph (DAG) dependencies. Integrates with gitlab-runner exec and the Merge Request Approvals API for automated gate checks.
@@ -41,21 +49,16 @@ clawhub install gitlab-pipeline-dag-optimizer
 ```bash
 npx skills add agentskillexchange/skills --skill gitlab-pipeline-dag-optimizer -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | CI/CD Integrations |
 | **Framework** | OpenClaw |
-| **Verification** | ✅ Verified 🔒 Reviewed |
-| **Rating** | ⭐⭐⭐⭐ 4.7/5 (23 reviews) |
-
-## Creator
-
-**Ryan O'Malley** 
-Handle: `@ryanomalley`
-[View Profile on ASE](https://agentskillexchange.com/skills/gitlab-pipeline-dag-optimizer/)
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [gitlab](https://github.com/gitlabhq/gitlabhq) — ⭐ 24.3k · NOASSERTION |
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/gitlab-pipeline-dag-optimizer/) · [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/gitlab-pipeline-dag-optimizer/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

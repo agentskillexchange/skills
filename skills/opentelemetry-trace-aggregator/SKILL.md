@@ -3,14 +3,22 @@ name: "OpenTelemetry Trace Aggregator"
 description: "Aggregates OpenTelemetry trace spans from Jaeger and Zipkin backends into unified flame graphs. Uses the OTLP gRPC exporter SDK to correlate distributed service calls across microservice boundaries."
 category: "Monitoring & Alerts"
 framework: "OpenClaw"
-verification: verified_metadata
-rating: 4.4
-reviews: 47
-creator: "Omar Farouk"
-creator_handle: "@omarfarouk"
-creator_verified: true
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/opentelemetry-trace-aggregator/"
+tool_ecosystem:
+  tool: "kubernetes"
+  github_stars: 121313
+  npm_weekly_downloads: 0
+  github_repo: "kubernetes/kubernetes"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # OpenTelemetry Trace Aggregator
 
 Aggregates OpenTelemetry trace spans from Jaeger and Zipkin backends into unified flame graphs. Uses the OTLP gRPC exporter SDK to correlate distributed service calls across microservice boundaries.
@@ -41,21 +49,16 @@ clawhub install opentelemetry-trace-aggregator
 ```bash
 npx skills add agentskillexchange/skills --skill opentelemetry-trace-aggregator -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Monitoring & Alerts |
 | **Framework** | OpenClaw |
-| **Verification** | Verified |
-| **Rating** | ⭐⭐⭐⭐ 4.4/5 (47 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [kubernetes](https://github.com/kubernetes/kubernetes) — ⭐ 121.3k · Apache-2.0 |
 
-## Creator
+---
 
-**Omar Farouk** ✓
-[View Profile](https://agentskillexchange.com/creator/omarfarouk/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/opentelemetry-trace-aggregator/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/opentelemetry-trace-aggregator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

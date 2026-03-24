@@ -1,16 +1,17 @@
 ---
 name: "SEMrush Keyword Research Agent"
-description: "Performs keyword research using SEMrush API v3 with domain analytics, keyword difficulty scoring, and SERP feature detection. Integrates with Google Search Console API for click-through rate analysis ."
+description: "Performs keyword research using SEMrush API v3 with domain analytics, keyword difficulty scoring, and SERP feature detection. Integrates with Google Search Console API for click-through rate analysis and content gap identification."
 category: "Content Writing & SEO"
 framework: "Claude Code"
-verification: listed
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/semrush-keyword-research-agent-api-v3/"
 ---
+
 # SEMrush Keyword Research Agent
 
 Performs keyword research using SEMrush API v3 with domain analytics, keyword difficulty scoring, and SERP feature detection. Integrates with Google Search Console API for click-through rate analysis and content gap identification.
@@ -41,17 +42,15 @@ clawhub install semrush-keyword-research-agent-api-v3
 ```bash
 npx skills add agentskillexchange/skills --skill semrush-keyword-research-agent-api-v3 -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Content Writing & SEO |
 | **Framework** | Claude Code |
-| **Verification** |  |
-| **Rating** | 0/5 (0 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
 
-## Creator
+---
 
-**Community**
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/semrush-keyword-research-agent-api-v3/) | [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/semrush-keyword-research-agent-api-v3/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

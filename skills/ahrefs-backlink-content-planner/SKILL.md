@@ -4,13 +4,14 @@ description: "Leverages Ahrefs REST API v3 to identify content gap opportunities
 category: "Content Writing & SEO"
 framework: "Gemini"
 verification: security_reviewed
-rating: 4.1
-reviews: 76
-creator: "Grace Okafor"
-creator_handle: "@graceokafor"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/ahrefs-backlink-content-planner/"
 ---
+
 # Ahrefs Backlink Content Planner
 
 Leverages Ahrefs REST API v3 to identify content gap opportunities through competing domain analysis. Pulls referring domains data, anchor text distributions, and DR metrics to prioritize content creation for link-worthy topics.
@@ -41,22 +42,15 @@ clawhub install ahrefs-backlink-content-planner
 ```bash
 npx skills add agentskillexchange/skills --skill ahrefs-backlink-content-planner -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Content Writing & SEO |
 | **Framework** | Gemini |
-| **Verification** | ✅ Verified |
-| **Rating** | ⭐⭐⭐⭐ 4.1/5 (76 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
 
-## Creator
+---
 
-**Grace Okafor** ✅
-
-Profile: [@graceokafor](https://agentskillexchange.com/creator/graceokafor/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/ahrefs-backlink-content-planner/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/ahrefs-backlink-content-planner/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

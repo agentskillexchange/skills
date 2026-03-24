@@ -3,14 +3,22 @@ name: "Cypress Component Testing Toolkit"
 description: "Creates component and integration tests using the Cypress Testing Library API and cy.intercept for network stubbing. Supports visual testing via the Cypress Image Snapshot plugin and accessibility auditing with cypress-axe."
 category: "Browser Automation"
 framework: "Custom Agents"
-verification: verified_metadata
-rating: 4.4
-reviews: 14
-creator: "James Kim"
-creator_handle: "@jameskim_ai"
-creator_verified: true
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/cypress-component-testing-toolkit/"
+tool_ecosystem:
+  tool: "cypress"
+  github_stars: 49612
+  npm_weekly_downloads: 7404178
+  github_repo: "cypress-io/cypress"
+  license: "MIT"
+  maintained: true
 ---
+
 # Cypress Component Testing Toolkit
 
 Creates component and integration tests using the Cypress Testing Library API and cy.intercept for network stubbing. Supports visual testing via the Cypress Image Snapshot plugin and accessibility auditing with cypress-axe.
@@ -41,18 +49,16 @@ clawhub install cypress-component-testing-toolkit
 ```bash
 npx skills add agentskillexchange/skills --skill cypress-component-testing-toolkit -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Browser Automation |
 | **Framework** | Custom Agents |
-| **Verification** | Verified |
-| **Rating** | ⭐⭐⭐⭐ 4.4/5 (14 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [cypress](https://github.com/cypress-io/cypress) — ⭐ 49.6k · MIT |
 
-## Creator
+---
 
-**James Kim** (@jameskim_ai)
-✓ Verified Creator
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/cypress-component-testing-toolkit/) | [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/cypress-component-testing-toolkit/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

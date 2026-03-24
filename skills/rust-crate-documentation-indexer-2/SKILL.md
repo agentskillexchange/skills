@@ -3,14 +3,15 @@ name: "Rust Crate Documentation Indexer"
 description: "Indexes Rust crate documentation from docs.rs using rustdoc JSON output and cargo-doc. Extracts trait implementations, generic bounds, and lifetime annotations for searchable API reference."
 category: "Library & API Reference"
 framework: "Gemini"
-verification: listed
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/rust-crate-documentation-indexer-2/"
 ---
+
 # Rust Crate Documentation Indexer
 
 Indexes Rust crate documentation from docs.rs using rustdoc JSON output and cargo-doc. Extracts trait implementations, generic bounds, and lifetime annotations for searchable API reference.
@@ -41,22 +42,15 @@ clawhub install rust-crate-documentation-indexer-2
 ```bash
 npx skills add agentskillexchange/skills --skill rust-crate-documentation-indexer-2 -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Library & API Reference |
 | **Framework** | Gemini |
-| **Verification** | community |
-| **Rating** |  (0/5) |
+| **Verification** | 🛡️ Security Reviewed |
 
-## Creator
+---
 
-**Community**
-
-
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/rust-crate-documentation-indexer-2/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/rust-crate-documentation-indexer-2/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

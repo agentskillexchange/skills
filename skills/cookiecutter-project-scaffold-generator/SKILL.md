@@ -3,14 +3,22 @@ name: "Cookiecutter Project Scaffold Generator"
 description: "Generates project scaffolds from Cookiecutter templates with Jinja2 variable interpolation. Supports post-generation hooks, conditional file inclusion, and template composition from multiple sources."
 category: "Templates & Workflows"
 framework: "Codex"
-verification: verified_metadata
-rating: 4.7
-reviews: 41
-creator: "Mateo Silva"
-creator_handle: "@mateosilva"
-creator_verified: true
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/cookiecutter-project-scaffold-generator/"
+tool_ecosystem:
+  tool: "docker"
+  github_stars: 71560
+  npm_weekly_downloads: 0
+  github_repo: "moby/moby"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Cookiecutter Project Scaffold Generator
 
 Generates project scaffolds from Cookiecutter templates with Jinja2 variable interpolation. Supports post-generation hooks, conditional file inclusion, and template composition from multiple sources.
@@ -41,21 +49,16 @@ clawhub install cookiecutter-project-scaffold-generator
 ```bash
 npx skills add agentskillexchange/skills --skill cookiecutter-project-scaffold-generator -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Templates & Workflows |
 | **Framework** | Codex |
-| **Verification** | Verified |
-| **Rating** | ⭐⭐⭐⭐ 4.7/5 (41 reviews) |
-
-## Creator
-
-**Mateo Silva** ✓
-Handle: `@mateosilva`
-[View Profile on ASE](https://agentskillexchange.com/skills/cookiecutter-project-scaffold-generator/)
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [docker](https://github.com/moby/moby) — ⭐ 71.6k · Apache-2.0 |
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/cookiecutter-project-scaffold-generator/) · [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/cookiecutter-project-scaffold-generator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

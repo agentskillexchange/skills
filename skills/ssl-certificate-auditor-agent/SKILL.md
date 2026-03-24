@@ -3,14 +3,22 @@ name: "SSL Certificate Auditor"
 description: "Audits TLS/SSL configurations using sslyze Python library and SSL Labs API v3. Checks certificate chain validity, HSTS headers, and OCSP stapling status with Certificate Transparency log verification."
 category: "Security & Verification"
 framework: "OpenClaw"
-verification: verified_metadata
-rating: 4.8
-reviews: 85
-creator: "Sam Lee"
-creator_handle: "@samlee_dev"
-creator_verified: true
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/ssl-certificate-auditor-agent/"
+tool_ecosystem:
+  tool: "sendgrid"
+  github_stars: 3054
+  npm_weekly_downloads: 3287627
+  github_repo: "sendgrid/sendgrid-nodejs"
+  license: "MIT"
+  maintained: true
 ---
+
 # SSL Certificate Auditor
 
 Audits TLS/SSL configurations using sslyze Python library and SSL Labs API v3. Checks certificate chain validity, HSTS headers, and OCSP stapling status with Certificate Transparency log verification.
@@ -41,22 +49,16 @@ clawhub install ssl-certificate-auditor-agent
 ```bash
 npx skills add agentskillexchange/skills --skill ssl-certificate-auditor-agent -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Security & Verification |
 | **Framework** | OpenClaw |
-| **Verification** | Verified |
-| **Rating** | ⭐⭐⭐⭐ 4.8/5 (85 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [sendgrid](https://github.com/sendgrid/sendgrid-nodejs) — ⭐ 3.1k · MIT |
 
-## Creator
+---
 
-**Sam Lee** ✓
-
-[View Profile](https://agentskillexchange.com/creator/samlee_dev/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/ssl-certificate-auditor-agent/)
-- [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/ssl-certificate-auditor-agent/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

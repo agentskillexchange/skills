@@ -4,10 +4,10 @@ description: "Manage digital assets through the Cloudinary Upload, Admin, and Tr
 category: "Image & Creative Automation"
 framework: "ChatGPT Agents"
 verification: security_reviewed
-rating: 4.4
-reviews: 63
-creator: "Ryan O'Malley"
-creator_handle: "@ryanomalley"
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/cloudinary-dam-pipeline-skill/"
 ---
@@ -45,15 +45,12 @@ npx skills add agentskillexchange/skills --skill cloudinary-dam-pipeline-skill -
 
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Image & Creative Automation |
 | **Framework** | ChatGPT Agents |
-| **Verification** | Security Reviewed |
-| **Rating** | ⭐ 4.4 (63 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
 
-## Creator
+---
 
-**Ryan O'Malley** (@ryanomalley)
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/cloudinary-dam-pipeline-skill/) · [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/cloudinary-dam-pipeline-skill/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

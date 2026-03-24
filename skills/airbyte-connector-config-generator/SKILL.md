@@ -3,14 +3,22 @@ name: "Airbyte Connector Config Generator"
 description: "Generates Airbyte source and destination connector configurations using the Airbyte API /v1/sources/create and /v1/destinations/create endpoints. Validates connection specs against the Airbyte Protocol."
 category: "Data Extraction & Transformation"
 framework: "Cursor"
-verification: verified_metadata
-rating: 4.4
-reviews: 47
-creator: "Ryan O'Malley"
-creator_handle: "@ryanomalley"
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/airbyte-connector-config-generator/"
+tool_ecosystem:
+  tool: "terraform"
+  github_stars: 47996
+  npm_weekly_downloads: 0
+  github_repo: "hashicorp/terraform"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # Airbyte Connector Config Generator
 
 Generates Airbyte source and destination connector configurations using the Airbyte API /v1/sources/create and /v1/destinations/create endpoints. Validates connection specs against the Airbyte Protocol.
@@ -41,22 +49,16 @@ clawhub install airbyte-connector-config-generator
 ```bash
 npx skills add agentskillexchange/skills --skill airbyte-connector-config-generator -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Data Extraction & Transformation |
 | **Framework** | Cursor |
-| **Verification** | Verified |
-| **Rating** | ⭐⭐⭐⭐ 4.4/5 (47 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [terraform](https://github.com/hashicorp/terraform) — ⭐ 48.0k · NOASSERTION |
 
-## Creator
+---
 
-**Ryan O'Malley** @ryanomalley  
-  
-[View Profile](https://agentskillexchange.com/skills/airbyte-connector-config-generator/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/airbyte-connector-config-generator/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/airbyte-connector-config-generator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

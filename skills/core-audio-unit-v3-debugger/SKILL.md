@@ -45,18 +45,12 @@ npx skills add agentskillexchange/skills --skill core-audio-unit-v3-debugger -a 
 
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Media & Transcription |
 | **Framework** | Claude Code |
-| **Verification** | Listed |
-| **Rating** | No ratings yet |
+| **Verification** | 📋 Listed |
 
-## Creator
+---
 
-Community Contribution
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/core-audio-unit-v3-debugger/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/core-audio-unit-v3-debugger/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

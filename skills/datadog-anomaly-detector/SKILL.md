@@ -4,13 +4,21 @@ description: "Leverages the Datadog API v2 metrics and events endpoints to detec
 category: "Monitoring & Alerts"
 framework: "Gemini"
 verification: security_reviewed
-rating: 4.4
-reviews: 66
-creator: "Hannah Berg"
-creator_handle: "@hannahberg"
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/datadog-anomaly-detector/"
+tool_ecosystem:
+  tool: "datadog"
+  github_stars: 787
+  npm_weekly_downloads: 6043057
+  github_repo: "DataDog/dd-trace-js"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # Datadog Anomaly Detector
 
 Leverages the Datadog API v2 metrics and events endpoints to detect anomalous patterns. Uses the Datadog Monitors API to create dynamic thresholds and sends escalations via OpsGenie REST API.
@@ -41,22 +49,16 @@ clawhub install datadog-anomaly-detector
 ```bash
 npx skills add agentskillexchange/skills --skill datadog-anomaly-detector -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Monitoring & Alerts |
 | **Framework** | Gemini |
-| **Verification** | Verified & Security Reviewed |
-| **Rating** | ★★★★½ (4.4/5 from 66 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [datadog](https://github.com/DataDog/dd-trace-js) — ⭐ 787 · NOASSERTION |
 
-## Creator
+---
 
-**Hannah Berg** 
-
-[View Profile](https://agentskillexchange.com/creator/hannahberg/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/datadog-anomaly-detector/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/datadog-anomaly-detector/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

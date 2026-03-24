@@ -2,15 +2,23 @@
 name: "HashiCorp Vault Secret Rotation Agent"
 description: "Connects to HashiCorp Vault HTTP API for automated secret rotation workflows. Manages dynamic database credentials via Vault database secrets engine, handles PKI certificate renewal, and implements lease lifecycle management with TTL monitoring."
 category: "Security & Verification"
-framework: "MCP"
+framework: "MCP-compatible"
 verification: security_reviewed
-rating: 4.8
-reviews: 71
-creator: "Alex Rivera"
-creator_handle: "@arivera_dev"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/hashicorp-vault-secret-rotation-agent-2/"
+tool_ecosystem:
+  tool: "vault"
+  github_stars: 35266
+  npm_weekly_downloads: 0
+  github_repo: "hashicorp/vault"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # HashiCorp Vault Secret Rotation Agent
 
 Connects to HashiCorp Vault HTTP API for automated secret rotation workflows. Manages dynamic database credentials via Vault database secrets engine, handles PKI certificate renewal, and implements lease lifecycle management with TTL monitoring.
@@ -41,22 +49,16 @@ clawhub install hashicorp-vault-secret-rotation-agent-2
 ```bash
 npx skills add agentskillexchange/skills --skill hashicorp-vault-secret-rotation-agent-2 -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Security & Verification |
 | **Framework** | MCP-compatible |
-| **Verification** | ✅ Verified |
-| **Rating** | ⭐⭐⭐⭐ 4.8/5 (71 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [vault](https://github.com/hashicorp/vault) — ⭐ 35.3k · NOASSERTION |
 
-## Creator
+---
 
-**Alex Rivera** ✅
-
-Profile: [@arivera_dev](https://agentskillexchange.com/creator/arivera_dev/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/hashicorp-vault-secret-rotation-agent-2/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/hashicorp-vault-secret-rotation-agent-2/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

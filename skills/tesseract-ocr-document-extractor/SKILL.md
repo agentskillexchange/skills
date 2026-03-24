@@ -3,14 +3,22 @@ name: "Tesseract OCR Document Extractor"
 description: "Extracts structured text from scanned documents and images using Tesseract OCR with custom LSTM training data. Supports table detection via OpenCV contour analysis and PDF/A output generation."
 category: "Data Extraction & Transformation"
 framework: "ChatGPT Agents"
-verification: security_reviewed
+verification: listed
 rating: 0
-reviews: 78
-creator: "Aisha Patel"
-creator_handle: "@aishapatel"
-creator_verified: true
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/tesseract-ocr-document-extractor/"
+tool_ecosystem:
+  tool: "pandas"
+  github_stars: 48224
+  npm_weekly_downloads: 0
+  github_repo: "pandas-dev/pandas"
+  license: "BSD-3-Clause"
+  maintained: true
 ---
+
 # Tesseract OCR Document Extractor
 
 Extracts structured text from scanned documents and images using Tesseract OCR with custom LSTM training data. Supports table detection via OpenCV contour analysis and PDF/A output generation.
@@ -41,18 +49,16 @@ clawhub install tesseract-ocr-document-extractor
 ```bash
 npx skills add agentskillexchange/skills --skill tesseract-ocr-document-extractor -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Data Extraction & Transformation |
 | **Framework** | ChatGPT Agents |
-| **Verification** | ✅ Verified |
-| **Rating** | ⭐ 4.8 (78 reviews) |
+| **Verification** | 📋 Listed |
+| **Tool** | [pandas](https://github.com/pandas-dev/pandas) — ⭐ 48.2k · BSD-3-Clause |
 
-## Creator
+---
 
-**Aisha Patel** ✅
-Handle: `@aishapatel`
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/tesseract-ocr-document-extractor/) · [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/tesseract-ocr-document-extractor/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

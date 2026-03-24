@@ -4,13 +4,21 @@ description: "Monitors Datadog Service Level Objectives and burn rate alerts via
 category: "Monitoring & Alerts"
 framework: "Claude Code"
 verification: security_reviewed
-rating: 4.7
-reviews: 68
-creator: "Ava Johnson"
-creator_handle: "@avajohnson"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/datadog-slo-monitor/"
+tool_ecosystem:
+  tool: "datadog"
+  github_stars: 787
+  npm_weekly_downloads: 6043057
+  github_repo: "DataDog/dd-trace-js"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # Datadog SLO Monitor
 
 Monitors Datadog Service Level Objectives and burn rate alerts via the Datadog API v2. Generates SLO compliance reports and triggers remediation workflows when error budgets are exhausted.
@@ -41,24 +49,16 @@ clawhub install datadog-slo-monitor
 ```bash
 npx skills add agentskillexchange/skills --skill datadog-slo-monitor -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Monitoring & Alerts |
 | **Framework** | Claude Code |
-| **Verification** | ✅ Verified |
-| **Security Review** | ✅ Reviewed |
-| **Rating** | ⭐ 4.7 (68 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [datadog](https://github.com/DataDog/dd-trace-js) — ⭐ 787 · NOASSERTION |
 
-## Creator
+---
 
-**Ava Johnson** ✅
-@avajohnson
-
-[View Profile on ASE](https://agentskillexchange.com/creator/avajohnson/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/datadog-slo-monitor/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/datadog-slo-monitor/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

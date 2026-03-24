@@ -3,14 +3,22 @@ name: "GraphQL Schema Stitching & Federation Agent"
 description: "Manages Apollo Federation v2 supergraph composition from subgraph schemas, validating composition rules and generating rover CLI deployment manifests. Handles @key, @shareable, and @override directives."
 category: "Library & API Reference"
 framework: "Claude Code"
-verification: verified_metadata
-rating: 4.8
-reviews: 17
-creator: "Carlos Mendez"
-creator_handle: "@carlosmendez"
-creator_verified: true
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/graphql-schema-stitching-federation-agent/"
+tool_ecosystem:
+  tool: "graphql"
+  github_stars: 20335
+  npm_weekly_downloads: 32010306
+  github_repo: "graphql/graphql-js"
+  license: "MIT"
+  maintained: true
 ---
+
 # GraphQL Schema Stitching & Federation Agent
 
 Manages Apollo Federation v2 supergraph composition from subgraph schemas, validating composition rules and generating rover CLI deployment manifests. Handles @key, @shareable, and @override directives.
@@ -41,22 +49,16 @@ clawhub install graphql-schema-stitching-federation-agent
 ```bash
 npx skills add agentskillexchange/skills --skill graphql-schema-stitching-federation-agent -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Library & API Reference |
 | **Framework** | Claude Code |
-| **Verification** | Verified |
-| **Rating** | 4.8 ⭐ (17 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [graphql](https://github.com/graphql/graphql-js) — ⭐ 20.3k · MIT |
 
-## Creator
+---
 
-**Carlos Mendez** (@carlosmendez)
-- Verified: Yes
-- [View Profile](https://agentskillexchange.com/creator/carlosmendez)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/graphql-schema-stitching-federation-agent/)
-- [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/graphql-schema-stitching-federation-agent/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

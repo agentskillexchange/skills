@@ -3,14 +3,22 @@ name: "dbt Model Dependency Analyzer"
 description: "Analyzes dbt project DAGs using the dbt manifest.json artifact and the dbt Cloud API. Detects circular dependencies, orphaned models, and generates lineage visualizations."
 category: "Data Extraction & Transformation"
 framework: "Claude Code"
-verification: verified_metadata
-rating: 4.8
-reviews: 3
-creator: "Lucy Zhang"
-creator_handle: "@lucyzhang"
-creator_verified: true
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/dbt-model-dependency-analyzer/"
+tool_ecosystem:
+  tool: "dbt"
+  github_stars: 12457
+  npm_weekly_downloads: 0
+  github_repo: "dbt-labs/dbt-core"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # dbt Model Dependency Analyzer
 
 Analyzes dbt project DAGs using the dbt manifest.json artifact and the dbt Cloud API. Detects circular dependencies, orphaned models, and generates lineage visualizations.
@@ -41,22 +49,16 @@ clawhub install dbt-model-dependency-analyzer
 ```bash
 npx skills add agentskillexchange/skills --skill dbt-model-dependency-analyzer -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Data Extraction & Transformation |
 | **Framework** | Claude Code |
-| **Verification** | ✅ Verified |
-| **Rating** | ⭐ 4.8 (3 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [dbt](https://github.com/dbt-labs/dbt-core) — ⭐ 12.5k · NOASSERTION |
 
-## Creator
+---
 
-**Lucy Zhang** ✅ Verified Creator
-- Handle: @lucyzhang
-- [View Profile](https://agentskillexchange.com/creator/lucyzhang)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/dbt-model-dependency-analyzer/)
-- [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/dbt-model-dependency-analyzer/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

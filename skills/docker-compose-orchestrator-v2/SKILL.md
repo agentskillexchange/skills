@@ -3,14 +3,22 @@ name: "Docker Compose Orchestrator"
 description: "Manages multi-service Docker Compose environments using the Compose V2 Go API and Docker Engine SDK. Handles health checks, dependency ordering, and rolling updates."
 category: "Developer Tools"
 framework: "OpenClaw"
-verification: listed
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/docker-compose-orchestrator-v2/"
+tool_ecosystem:
+  tool: "docker"
+  github_stars: 71560
+  npm_weekly_downloads: 0
+  github_repo: "moby/moby"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Docker Compose Orchestrator
 
 Manages multi-service Docker Compose environments using the Compose V2 Go API and Docker Engine SDK. Handles health checks, dependency ordering, and rolling updates.
@@ -41,20 +49,16 @@ clawhub install docker-compose-orchestrator-v2
 ```bash
 npx skills add agentskillexchange/skills --skill docker-compose-orchestrator-v2 -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Developer Tools |
 | **Framework** | OpenClaw |
-| **Verification** | community |
-| **Rating** | Not yet rated (0 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [docker](https://github.com/moby/moby) — ⭐ 71.6k · Apache-2.0 |
 
-## Creator
+---
 
-**Community**
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/docker-compose-orchestrator-v2/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/docker-compose-orchestrator-v2/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

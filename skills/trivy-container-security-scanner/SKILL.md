@@ -4,13 +4,21 @@ description: "Integrates Aqua Security Trivy CLI for comprehensive container ima
 category: "Security & Verification"
 framework: "Codex"
 verification: security_reviewed
-rating: 4.2
-reviews: 84
-creator: "Marcus Chen"
-creator_handle: "@marcuschen"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/trivy-container-security-scanner/"
+tool_ecosystem:
+  tool: "trivy"
+  github_stars: 33887
+  npm_weekly_downloads: 0
+  github_repo: "aquasecurity/trivy"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Trivy Container Security Scanner
 
 Integrates Aqua Security Trivy CLI for comprehensive container image vulnerability scanning. Detects OS package CVEs, language-specific dependency vulnerabilities, and IaC misconfigurations with SARIF output format for CI/CD pipeline integration.
@@ -41,22 +49,16 @@ clawhub install trivy-container-security-scanner
 ```bash
 npx skills add agentskillexchange/skills --skill trivy-container-security-scanner -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Security & Verification |
 | **Framework** | Codex |
-| **Verification** | ✅ Verified |
-| **Rating** | ⭐⭐⭐⭐ 4.2/5 (84 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [trivy](https://github.com/aquasecurity/trivy) — ⭐ 33.9k · Apache-2.0 |
 
-## Creator
+---
 
-**Marcus Chen** ✅
-
-Profile: [@marcuschen](https://agentskillexchange.com/creator/marcuschen/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/trivy-container-security-scanner/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/trivy-container-security-scanner/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

@@ -6,11 +6,12 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/pylint-code-review-assistant/"
 ---
+
 # Pylint Code Review Assistant
 
 Perform automated Python code reviews using Pylint programmatic API and pylint-json2html for report generation. Supports custom checker plugins and per-project rcfile configurations.
@@ -41,20 +42,15 @@ clawhub install pylint-code-review-assistant
 ```bash
 npx skills add agentskillexchange/skills --skill pylint-code-review-assistant -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Code Quality & Review |
 | **Framework** | Custom Agents |
-| **Verification** | security_reviewed |
-| **Rating** | 0 ⭐ (0 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
 
-## Creator
+---
 
-**Community**
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/pylint-code-review-assistant/)
-- [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/pylint-code-review-assistant/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

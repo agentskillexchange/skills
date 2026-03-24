@@ -3,14 +3,22 @@ name: "Grafana Dashboard as Code Generator"
 description: "Generates Grafana dashboards programmatically using Grafonnet (jsonnet), the Grafana HTTP API, and grafana-toolkit. Supports multi-datasource panels with Prometheus, Loki, and Tempo queries."
 category: "Monitoring & Alerts"
 framework: "Cursor"
-verification: listed
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/grafana-dashboard-as-code-generator/"
+tool_ecosystem:
+  tool: "grafana"
+  github_stars: 72784
+  npm_weekly_downloads: 0
+  github_repo: "grafana/grafana"
+  license: "AGPL-3.0"
+  maintained: true
 ---
+
 # Grafana Dashboard as Code Generator
 
 Generates Grafana dashboards programmatically using Grafonnet (jsonnet), the Grafana HTTP API, and grafana-toolkit. Supports multi-datasource panels with Prometheus, Loki, and Tempo queries.
@@ -41,21 +49,16 @@ clawhub install grafana-dashboard-as-code-generator
 ```bash
 npx skills add agentskillexchange/skills --skill grafana-dashboard-as-code-generator -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Monitoring & Alerts |
 | **Framework** | Cursor |
-| **Verification** |  |
-| **Rating** | 0 ⭐ (0 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [grafana](https://github.com/grafana/grafana) — ⭐ 72.8k · AGPL-3.0 |
 
-## Creator
+---
 
-**Community**
-
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/grafana-dashboard-as-code-generator/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/grafana-dashboard-as-code-generator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

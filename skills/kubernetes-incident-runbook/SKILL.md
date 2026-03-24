@@ -4,64 +4,61 @@ description: "Executes structured incident response procedures for Kubernetes cl
 category: "Runbooks & Diagnostics"
 framework: "Claude Code"
 verification: security_reviewed
-rating: 4.2
-reviews: 9
-creator: "James Whitfield"
-creator_handle: "@jwhitfield"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/kubernetes-incident-runbook/"
+tool_ecosystem:
+  tool: "kubernetes"
+  github_stars: 121313
+  npm_weekly_downloads: 0
+  github_repo: "kubernetes/kubernetes"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Kubernetes Incident Runbook
 
 Executes structured incident response procedures for Kubernetes clusters using kubectl, kube-state-metrics, and the Kubernetes Events API. Automates pod crash diagnosis, OOMKill analysis, and node pressure triage.
 
 ## Installation
 
-### Any agent (npx skills)
-
+### Any Agent (npx)
 ```bash
 npx skills add agentskillexchange/skills --skill kubernetes-incident-runbook
 ```
 
 ### Claude Code
-
 ```bash
 npx skills add agentskillexchange/skills --skill kubernetes-incident-runbook -a claude-code
 ```
 
 ### Cursor
-
 ```bash
 npx skills add agentskillexchange/skills --skill kubernetes-incident-runbook -a cursor
 ```
 
 ### OpenClaw
-
 ```bash
 clawhub install kubernetes-incident-runbook
 ```
 
 ### Codex
-
 ```bash
 npx skills add agentskillexchange/skills --skill kubernetes-incident-runbook -a codex
 ```
 
 ## Details
 
-| Field | Value |
-|-------|-------|
-| Category | Runbooks & Diagnostics |
-| Framework | Claude Code |
-| Verification | Security Reviewed |
-| Rating | 4.2/5 (9 reviews) |
+| | |
+|---|---|
+| **Category** | Runbooks & Diagnostics |
+| **Framework** | Claude Code |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [kubernetes](https://github.com/kubernetes/kubernetes) — ⭐ 121.3k · Apache-2.0 |
 
-## Creator
+---
 
-**James Whitfield** (Verified Creator ✓)
-- Profile: [@jwhitfield](https://agentskillexchange.com/browse-skills/?creator=jwhitfield)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-incident-runbook/)
-- [Browse all skills](https://agentskillexchange.com/browse-skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-incident-runbook/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

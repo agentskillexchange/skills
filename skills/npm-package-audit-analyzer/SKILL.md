@@ -4,64 +4,61 @@ description: "Analyzes npm package security advisories using npm audit, the npm 
 category: "Library & API Reference"
 framework: "Claude Agents"
 verification: security_reviewed
-rating: 4.4
-reviews: 69
-creator: "Raj Gupta"
-creator_handle: "@rajgupta"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/npm-package-audit-analyzer/"
+tool_ecosystem:
+  tool: "graphql"
+  github_stars: 20335
+  npm_weekly_downloads: 32010306
+  github_repo: "graphql/graphql-js"
+  license: "MIT"
+  maintained: true
 ---
+
 # NPM Package Audit Analyzer
 
 Analyzes npm package security advisories using npm audit, the npm Registry API, and the GitHub Advisory Database GraphQL API. Produces prioritized vulnerability reports with upgrade path recommendations.
 
 ## Installation
 
-### Any agent (npx skills)
-
+### Any Agent (npx)
 ```bash
 npx skills add agentskillexchange/skills --skill npm-package-audit-analyzer
 ```
 
 ### Claude Code
-
 ```bash
 npx skills add agentskillexchange/skills --skill npm-package-audit-analyzer -a claude-code
 ```
 
 ### Cursor
-
 ```bash
 npx skills add agentskillexchange/skills --skill npm-package-audit-analyzer -a cursor
 ```
 
 ### OpenClaw
-
 ```bash
 clawhub install npm-package-audit-analyzer
 ```
 
 ### Codex
-
 ```bash
 npx skills add agentskillexchange/skills --skill npm-package-audit-analyzer -a codex
 ```
 
 ## Details
 
-| Field | Value |
-|-------|-------|
-| Category | Library & API Reference |
-| Framework | Claude Agents |
-| Verification | Security Reviewed |
-| Rating | 4.4/5 (69 reviews) |
+| | |
+|---|---|
+| **Category** | Library & API Reference |
+| **Framework** | Claude Agents |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [graphql](https://github.com/graphql/graphql-js) — ⭐ 20.3k · MIT |
 
-## Creator
+---
 
-**Raj Gupta** (Verified Creator ✓)
-- Profile: [@rajgupta](https://agentskillexchange.com/browse-skills/?creator=rajgupta)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/npm-package-audit-analyzer/)
-- [Browse all skills](https://agentskillexchange.com/browse-skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/npm-package-audit-analyzer/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

@@ -4,14 +4,21 @@ description: "Automates Jenkins CI/CD pipeline configuration using the Jenkins R
 category: "CI/CD Integrations"
 framework: "OpenClaw"
 verification: security_reviewed
-rating: 4.9
-reviews: 86
-creator: "Alex Rivera"
-creator_handle: "@arivera_dev"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/jenkins-pipeline-orchestrator-3/"
-security: "✅ Reviewed"
+tool_ecosystem:
+  tool: "jenkins"
+  github_stars: 25122
+  npm_weekly_downloads: 0
+  github_repo: "jenkinsci/jenkins"
+  license: "MIT"
+  maintained: true
 ---
+
 # Jenkins Pipeline Orchestrator
 
 Automates Jenkins CI/CD pipeline configuration using the Jenkins REST API and Jenkinsfile DSL. Manages multi-branch pipelines, triggers builds via webhooks, and parses build artifacts for deployment readiness.
@@ -42,19 +49,16 @@ clawhub install jenkins-pipeline-orchestrator-3
 ```bash
 npx skills add agentskillexchange/skills --skill jenkins-pipeline-orchestrator-3 -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | CI/CD Integrations |
 | **Framework** | OpenClaw |
-| **Verification** | ✅ Verified |
-| **Security** | ✅ Reviewed |
-| **Rating** | ⭐ 4.9 (86 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [jenkins](https://github.com/jenkinsci/jenkins) — ⭐ 25.1k · MIT |
 
-## Creator
+---
 
-**Alex Rivera** ✅
-Handle: `@arivera_dev`
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-pipeline-orchestrator-3/) · [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-pipeline-orchestrator-3/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

@@ -3,65 +3,62 @@ name: "Datadog Incident Runbook Runner"
 description: "Fetches an active Datadog incident, retrieves associated monitors and dashboards, pulls the last 30 minutes of metric data, and walks through a runbook checklist with automated triage steps. Reduces mean time to diagnosis by surfacing signal without dashboard navigation."
 category: "Runbooks & Diagnostics"
 framework: "OpenClaw"
-verification: verified_metadata
-rating: 4.5
-reviews: 54
-creator: "Nathan Brooks"
-creator_handle: "@nbrooks"
+verification: listed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/datadog-incident-runbook-runner-2/"
+tool_ecosystem:
+  tool: "datadog"
+  github_stars: 787
+  npm_weekly_downloads: 6043057
+  github_repo: "DataDog/dd-trace-js"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # Datadog Incident Runbook Runner
 
 Fetches an active Datadog incident, retrieves associated monitors and dashboards, pulls the last 30 minutes of metric data, and walks through a runbook checklist with automated triage steps. Reduces mean time to diagnosis by surfacing signal without dashboard navigation.
 
 ## Installation
 
-### Any agent (npx skills)
-
+### Any Agent (npx)
 ```bash
 npx skills add agentskillexchange/skills --skill datadog-incident-runbook-runner-2
 ```
 
 ### Claude Code
-
 ```bash
 npx skills add agentskillexchange/skills --skill datadog-incident-runbook-runner-2 -a claude-code
 ```
 
 ### Cursor
-
 ```bash
 npx skills add agentskillexchange/skills --skill datadog-incident-runbook-runner-2 -a cursor
 ```
 
 ### OpenClaw
-
 ```bash
 clawhub install datadog-incident-runbook-runner-2
 ```
 
 ### Codex
-
 ```bash
 npx skills add agentskillexchange/skills --skill datadog-incident-runbook-runner-2 -a codex
 ```
 
 ## Details
 
-| Field | Value |
-|-------|-------|
-| Category | Runbooks & Diagnostics |
-| Framework | OpenClaw |
-| Verification | Verified Metadata |
-| Rating | 4.5/5 (54 reviews) |
+| | |
+|---|---|
+| **Category** | Runbooks & Diagnostics |
+| **Framework** | OpenClaw |
+| **Verification** | 📋 Listed |
+| **Tool** | [datadog](https://github.com/DataDog/dd-trace-js) — ⭐ 787 · NOASSERTION |
 
-## Creator
+---
 
-**Nathan Brooks**
-- Profile: [@nbrooks](https://agentskillexchange.com/browse-skills/?creator=nbrooks)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/datadog-incident-runbook-runner-2/)
-- [Browse all skills](https://agentskillexchange.com/browse-skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/datadog-incident-runbook-runner-2/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

@@ -3,14 +3,22 @@ name: "OWASP ZAP Security Scanner Agent"
 description: "Automates OWASP ZAP active and passive scanning against web applications, parsing alerts into structured vulnerability reports. Integrates with the ZAP API daemon to manage contexts, spider targets, and export SARIF-formatted findings."
 category: "Security & Verification"
 framework: "OpenClaw"
-verification: verified_metadata
-rating: 4.8
-reviews: 70
-creator: "Tom Wilson"
-creator_handle: "@tomwilson"
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/owasp-zap-security-scanner-agent/"
+tool_ecosystem:
+  tool: "owasp"
+  github_stars: 14896
+  npm_weekly_downloads: 0
+  github_repo: "zaproxy/zaproxy"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # OWASP ZAP Security Scanner Agent
 
 Automates OWASP ZAP active and passive scanning against web applications, parsing alerts into structured vulnerability reports. Integrates with the ZAP API daemon to manage contexts, spider targets, and export SARIF-formatted findings.
@@ -41,22 +49,16 @@ clawhub install owasp-zap-security-scanner-agent
 ```bash
 npx skills add agentskillexchange/skills --skill owasp-zap-security-scanner-agent -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Security & Verification |
 | **Framework** | OpenClaw |
-| **Verification** | Verified |
-| **Rating** | 4.8 ⭐ (70 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [owasp](https://github.com/zaproxy/zaproxy) — ⭐ 14.9k · Apache-2.0 |
 
-## Creator
+---
 
-**Tom Wilson** (@tomwilson)
-- Verified: No
-- [View Profile](https://agentskillexchange.com/creator/tomwilson)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/owasp-zap-security-scanner-agent/)
-- [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/owasp-zap-security-scanner-agent/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

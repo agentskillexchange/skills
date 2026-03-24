@@ -3,14 +3,15 @@ name: "Schema Markup Generator for SEO"
 description: "Generates JSON-LD structured data using schema-dts TypeScript definitions and Google Rich Results Test API validation. Supports Article, Product, FAQ, HowTo, and LocalBusiness schema types."
 category: "Content Writing & SEO"
 framework: "Codex"
-verification: security_reviewed
-rating: 4.0
-reviews: 85
-creator: "Ben Taylor"
-creator_handle: "@bentaylor"
+verification: listed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/schema-markup-generator-seo/"
 ---
+
 # Schema Markup Generator for SEO
 
 Generates JSON-LD structured data using schema-dts TypeScript definitions and Google Rich Results Test API validation. Supports Article, Product, FAQ, HowTo, and LocalBusiness schema types.
@@ -41,22 +42,15 @@ clawhub install schema-markup-generator-seo
 ```bash
 npx skills add agentskillexchange/skills --skill schema-markup-generator-seo -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Content Writing & SEO |
 | **Framework** | Codex |
-| **Verification** | Verified & Security Reviewed |
-| **Rating** | 4.0 ⭐ (85 reviews) |
+| **Verification** | 📋 Listed |
 
-## Creator
+---
 
-**Ben Taylor**
-Handle: @bentaylor
-[View Profile](https://agentskillexchange.com/creator/bentaylor/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/schema-markup-generator-seo/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/schema-markup-generator-seo/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

@@ -4,12 +4,19 @@ description: "Analyzes Nginx error logs using GoAccess and custom regex parsers 
 category: "Runbooks & Diagnostics"
 framework: "Custom Agents"
 verification: security_reviewed
-rating: 4.5
-reviews: 86
-creator: "Meera Joshi"
-creator_handle: "@meerajoshi"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/nginx-error-pattern-analyzer-agent/"
+tool_ecosystem:
+  tool: "nginx"
+  github_stars: 29762
+  npm_weekly_downloads: 0
+  github_repo: "nginx/nginx"
+  license: "BSD-2-Clause"
+  maintained: true
 ---
 
 # Nginx Error Pattern Analyzer
@@ -45,21 +52,13 @@ npx skills add agentskillexchange/skills --skill nginx-error-pattern-analyzer-ag
 
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Runbooks & Diagnostics |
 | **Framework** | Custom Agents |
-| **Verification** | Security Reviewed |
-| **Rating** | ⭐ 4.5 (86 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [nginx](https://github.com/nginx/nginx) — ⭐ 29.8k · BSD-2-Clause |
 
-## Creator
+---
 
-**Meera Joshi** ✓
-
-- Handle: `@meerajoshi`
-- Profile: [View on ASE](https://agentskillexchange.com/creator/meerajoshi/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/nginx-error-pattern-analyzer-agent/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/nginx-error-pattern-analyzer-agent/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

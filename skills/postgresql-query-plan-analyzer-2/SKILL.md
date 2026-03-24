@@ -1,15 +1,24 @@
 ---
 name: "PostgreSQL Query Plan Analyzer"
-description: "Executes EXPLAIN ANALYZE BUFFERS on slow PostgreSQL queries and parses the plan tree for sequential scans, nested loop joins, and sort spills. Integrates with pg_stat_statements for identifying top re"
+description: "Executes EXPLAIN ANALYZE BUFFERS on slow PostgreSQL queries and parses the plan tree for sequential scans, nested loop joins, and sort spills. Integrates with pg_stat_statements for identifying top resource-consuming queries."
 category: "Developer Tools"
-framework: "Custom Agents"
-verification: security_reviewed
-rating: 4.2
-reviews: 86
-creator: "Community"
+framework: "Any"
+verification: listed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/postgresql-query-plan-analyzer-2/"
+tool_ecosystem:
+  tool: "postgresql"
+  github_stars: 0
+  npm_weekly_downloads: 21413502
+  github_repo: ""
+  license: ""
+  maintained: false
 ---
+
 # PostgreSQL Query Plan Analyzer
 
 Executes EXPLAIN ANALYZE BUFFERS on slow PostgreSQL queries and parses the plan tree for sequential scans, nested loop joins, and sort spills. Integrates with pg_stat_statements for identifying top resource-consuming queries.
@@ -40,20 +49,16 @@ clawhub install postgresql-query-plan-analyzer-2
 ```bash
 npx skills add agentskillexchange/skills --skill postgresql-query-plan-analyzer-2 -a codex
 ```
+
 ## Details
 
 | | |
 |---|---|
-| **Category** | Uncategorized |
-| **Framework** | Unknown |
-| **Verification** | 🔵 Security Reviewed |
-| **Rating** | ⭐⭐⭐⭐ 4.2/5 (86 reviews) |
+| **Category** | Developer Tools |
+| **Framework** | Any |
+| **Verification** | 📋 Listed |
+| **Tool** | postgresql |
 
-## Creator
+---
 
-**Community**
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/postgresql-query-plan-analyzer-2/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/postgresql-query-plan-analyzer-2/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

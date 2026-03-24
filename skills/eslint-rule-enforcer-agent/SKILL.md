@@ -3,14 +3,22 @@ name: "ESLint Rule Enforcer Agent"
 description: "Runs ESLint with custom rulesets via the ESLint Node.js API and eslint-plugin-import to enforce project-specific code standards. Parses AST violations, groups by severity, and generates fix-ready patches using eslint –fix output diffs."
 category: "Code Quality & Review"
 framework: "OpenClaw"
-verification: verified_metadata
-rating: 4.6
-reviews: 38
-creator: "Community"
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/eslint-rule-enforcer-agent/"
+tool_ecosystem:
+  tool: "eslint"
+  github_stars: 27186
+  npm_weekly_downloads: 109028697
+  github_repo: "eslint/eslint"
+  license: "MIT"
+  maintained: true
 ---
+
 # ESLint Rule Enforcer Agent
 
 Runs ESLint with custom rulesets via the ESLint Node.js API and eslint-plugin-import to enforce project-specific code standards. Parses AST violations, groups by severity, and generates fix-ready patches using eslint –fix output diffs.
@@ -41,22 +49,16 @@ clawhub install eslint-rule-enforcer-agent
 ```bash
 npx skills add agentskillexchange/skills --skill eslint-rule-enforcer-agent -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Code Quality & Review |
 | **Framework** | OpenClaw |
-| **Verification** | ✅ Verified Metadata |
-| **Rating** | ⭐⭐⭐⭐ 4.6/5 (38 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [eslint](https://github.com/eslint/eslint) — ⭐ 27.2k · MIT |
 
-## Creator
+---
 
-**Community**
-
-
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/eslint-rule-enforcer-agent/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/eslint-rule-enforcer-agent/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

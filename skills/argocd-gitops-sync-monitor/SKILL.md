@@ -3,14 +3,22 @@ name: "ArgoCD GitOps Sync Monitor"
 description: "Monitors ArgoCD application sync status using the ArgoCD REST API /api/v1/applications endpoint. Detects drift between Git manifests and live Kubernetes cluster state via the Kubernetes API."
 category: "CI/CD Integrations"
 framework: "Gemini"
-verification: verified_metadata
-rating: 4.1
-reviews: 22
-creator: "James Kim"
-creator_handle: "@jameskim_ai"
-creator_verified: true
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/argocd-gitops-sync-monitor/"
+tool_ecosystem:
+  tool: "argocd"
+  github_stars: 22391
+  npm_weekly_downloads: 0
+  github_repo: "argoproj/argo-cd"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # ArgoCD GitOps Sync Monitor
 
 Monitors ArgoCD application sync status using the ArgoCD REST API /api/v1/applications endpoint. Detects drift between Git manifests and live Kubernetes cluster state via the Kubernetes API.
@@ -41,22 +49,16 @@ clawhub install argocd-gitops-sync-monitor
 ```bash
 npx skills add agentskillexchange/skills --skill argocd-gitops-sync-monitor -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | CI/CD Integrations |
 | **Framework** | Gemini |
-| **Verification** | Verified |
-| **Rating** | ⭐⭐⭐⭐ 4.1/5 (22 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [argocd](https://github.com/argoproj/argo-cd) — ⭐ 22.4k · Apache-2.0 |
 
-## Creator
+---
 
-**James Kim** @jameskim_ai  
-✅ Verified Creator  
-[View Profile](https://agentskillexchange.com/skills/argocd-gitops-sync-monitor/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/argocd-gitops-sync-monitor/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/argocd-gitops-sync-monitor/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

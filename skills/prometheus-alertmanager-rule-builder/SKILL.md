@@ -3,14 +3,22 @@ name: "Prometheus AlertManager Rule Builder"
 description: "Generates Prometheus alerting rules and AlertManager routing configs using PromQL validation via the Prometheus HTTP API. Supports PagerDuty, OpsGenie, and Slack receiver configurations."
 category: "Monitoring & Alerts"
 framework: "ChatGPT Agents"
-verification: listed
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/prometheus-alertmanager-rule-builder/"
+tool_ecosystem:
+  tool: "prometheus"
+  github_stars: 63278
+  npm_weekly_downloads: 5319832
+  github_repo: "prometheus/prometheus"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Prometheus AlertManager Rule Builder
 
 Generates Prometheus alerting rules and AlertManager routing configs using PromQL validation via the Prometheus HTTP API. Supports PagerDuty, OpsGenie, and Slack receiver configurations.
@@ -41,21 +49,16 @@ clawhub install prometheus-alertmanager-rule-builder
 ```bash
 npx skills add agentskillexchange/skills --skill prometheus-alertmanager-rule-builder -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Monitoring & Alerts |
 | **Framework** | ChatGPT Agents |
-| **Verification** |  |
-| **Rating** | 0 ⭐ (0 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [prometheus](https://github.com/prometheus/prometheus) — ⭐ 63.3k · Apache-2.0 |
 
-## Creator
+---
 
-**Community**
-
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-alertmanager-rule-builder/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-alertmanager-rule-builder/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

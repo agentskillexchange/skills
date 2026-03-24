@@ -4,64 +4,61 @@ description: "Analyzes Terraform plan output using the terraform show -json comm
 category: "CI/CD Integrations"
 framework: "Claude Code"
 verification: security_reviewed
-rating: 4.9
-reviews: 86
-creator: "Raj Gupta"
-creator_handle: "@rajgupta"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/terraform-plan-analyzer-agent/"
+tool_ecosystem:
+  tool: "terraform"
+  github_stars: 47996
+  npm_weekly_downloads: 0
+  github_repo: "hashicorp/terraform"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # Terraform Plan Analyzer
 
 Analyzes Terraform plan output using the terraform show -json command and HCL2 parser library. Detects destructive changes, cost implications via Infracost API, and policy violations against Open Policy Agent (OPA) rules.
 
 ## Installation
 
-### Any agent (npx skills)
-
+### Any Agent (npx)
 ```bash
 npx skills add agentskillexchange/skills --skill terraform-plan-analyzer-agent
 ```
 
 ### Claude Code
-
 ```bash
 npx skills add agentskillexchange/skills --skill terraform-plan-analyzer-agent -a claude-code
 ```
 
 ### Cursor
-
 ```bash
 npx skills add agentskillexchange/skills --skill terraform-plan-analyzer-agent -a cursor
 ```
 
 ### OpenClaw
-
 ```bash
 clawhub install terraform-plan-analyzer-agent
 ```
 
 ### Codex
-
 ```bash
 npx skills add agentskillexchange/skills --skill terraform-plan-analyzer-agent -a codex
 ```
 
 ## Details
 
-| Field | Value |
-|-------|-------|
-| Category | CI/CD Integrations |
-| Framework | Claude Code |
-| Verification | Security Reviewed |
-| Rating | 4.9/5 (86 reviews) |
+| | |
+|---|---|
+| **Category** | CI/CD Integrations |
+| **Framework** | Claude Code |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [terraform](https://github.com/hashicorp/terraform) — ⭐ 48.0k · NOASSERTION |
 
-## Creator
+---
 
-**Raj Gupta** (Verified Creator ✓)
-- Profile: [@rajgupta](https://agentskillexchange.com/browse-skills/?creator=rajgupta)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-plan-analyzer-agent/)
-- [Browse all skills](https://agentskillexchange.com/browse-skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-plan-analyzer-agent/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

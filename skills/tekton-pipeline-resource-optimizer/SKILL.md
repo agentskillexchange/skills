@@ -3,14 +3,22 @@ name: "Tekton Pipeline Resource Optimizer"
 description: "Analyzes Tekton Pipeline and Task resource definitions using the Tekton Results API. Recommends CPU/memory request adjustments based on historical TaskRun metrics from Prometheus."
 category: "CI/CD Integrations"
 framework: "Cursor"
-verification: verified_metadata
-rating: 4.8
-reviews: 32
-creator: "Aisha Patel"
-creator_handle: "@aishapatel"
-creator_verified: true
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/tekton-pipeline-resource-optimizer/"
+tool_ecosystem:
+  tool: "tekton"
+  github_stars: 8920
+  npm_weekly_downloads: 0
+  github_repo: "tektoncd/pipeline"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Tekton Pipeline Resource Optimizer
 
 Analyzes Tekton Pipeline and Task resource definitions using the Tekton Results API. Recommends CPU/memory request adjustments based on historical TaskRun metrics from Prometheus.
@@ -41,18 +49,16 @@ clawhub install tekton-pipeline-resource-optimizer
 ```bash
 npx skills add agentskillexchange/skills --skill tekton-pipeline-resource-optimizer -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | CI/CD Integrations |
 | **Framework** | Cursor |
-| **Verification** | Verified |
-| **Rating** | ⭐⭐⭐⭐ 4.8/5 (32 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [tekton](https://github.com/tektoncd/pipeline) — ⭐ 8.9k · Apache-2.0 |
 
-## Creator
+---
 
-**Aisha Patel** @aishapatel
-✓ Verified Creator
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/tekton-pipeline-resource-optimizer/) · [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/tekton-pipeline-resource-optimizer/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

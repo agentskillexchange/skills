@@ -4,13 +4,21 @@ description: "Comprehensive REST API testing reference using Postman Collection 
 category: "Library & API Reference"
 framework: "Cursor"
 verification: security_reviewed
-rating: 4.9
-reviews: 43
-creator: "Sam Lee"
-creator_handle: "@samlee_dev"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/rest-api-testing-reference-kit/"
+tool_ecosystem:
+  tool: "swagger"
+  github_stars: 28702
+  npm_weekly_downloads: 3219093
+  github_repo: "swagger-api/swagger-ui"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # REST API Testing Reference Kit
 
 Comprehensive REST API testing reference using Postman Collection SDK v2.1 and Newman CLI. Includes assertion libraries for JSON Schema validation with Ajv, response time benchmarking, and contract testing patterns.
@@ -41,22 +49,16 @@ clawhub install rest-api-testing-reference-kit
 ```bash
 npx skills add agentskillexchange/skills --skill rest-api-testing-reference-kit -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Library & API Reference |
 | **Framework** | Cursor |
-| **Verification** | Verified & Security Reviewed |
-| **Rating** | 4.9 ⭐ (43 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [swagger](https://github.com/swagger-api/swagger-ui) — ⭐ 28.7k · Apache-2.0 |
 
-## Creator
+---
 
-**Sam Lee** ✓
-Handle: @samlee_dev
-[View Profile](https://agentskillexchange.com/creator/samlee_dev/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/rest-api-testing-reference-kit/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/rest-api-testing-reference-kit/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

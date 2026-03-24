@@ -3,14 +3,22 @@ name: "Terraform State Forensics Tool"
 description: "Analyzes Terraform state files and plan outputs to detect drift, orphaned resources, and dependency cycles. Uses the Terraform CLI state commands, tfsec for security scanning, and Infracost API for cost impact analysis."
 category: "Runbooks & Diagnostics"
 framework: "Cursor"
-verification: verified_metadata
-rating: 4.2
-reviews: 69
-creator: "Elena Rodriguez"
-creator_handle: "@elena_dev"
-creator_verified: true
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/terraform-state-forensics-tool/"
+tool_ecosystem:
+  tool: "terraform"
+  github_stars: 47996
+  npm_weekly_downloads: 0
+  github_repo: "hashicorp/terraform"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # Terraform State Forensics Tool
 
 Analyzes Terraform state files and plan outputs to detect drift, orphaned resources, and dependency cycles. Uses the Terraform CLI state commands, tfsec for security scanning, and Infracost API for cost impact analysis.
@@ -41,18 +49,16 @@ clawhub install terraform-state-forensics-tool
 ```bash
 npx skills add agentskillexchange/skills --skill terraform-state-forensics-tool -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Runbooks & Diagnostics |
 | **Framework** | Cursor |
-| **Verification** | Verified |
-| **Rating** | ⭐⭐⭐⭐ 4.2/5 (69 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [terraform](https://github.com/hashicorp/terraform) — ⭐ 48.0k · NOASSERTION |
 
-## Creator
+---
 
-**Elena Rodriguez** @elena_dev
-✓ Verified Creator
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-state-forensics-tool/) · [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-state-forensics-tool/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

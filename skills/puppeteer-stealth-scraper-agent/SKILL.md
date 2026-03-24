@@ -4,13 +4,21 @@ description: "Anti-detection web scraping using puppeteer-extra-plugin-stealth w
 category: "Browser Automation"
 framework: "OpenClaw"
 verification: verified_metadata
-rating: 4.9
-reviews: 74
-creator: "David Nguyen"
-creator_handle: "@davidnguyen"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/puppeteer-stealth-scraper-agent/"
+tool_ecosystem:
+  tool: "puppeteer"
+  github_stars: 93912
+  npm_weekly_downloads: 8696130
+  github_repo: "puppeteer/puppeteer"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Puppeteer Stealth Scraper
 
 Anti-detection web scraping using puppeteer-extra-plugin-stealth with residential proxy rotation. Implements Canvas fingerprint spoofing and WebGL vendor masking via puppeteer-extra.
@@ -41,22 +49,16 @@ clawhub install puppeteer-stealth-scraper-agent
 ```bash
 npx skills add agentskillexchange/skills --skill puppeteer-stealth-scraper-agent -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Browser Automation |
 | **Framework** | OpenClaw |
-| **Verification** | Verified |
-| **Rating** | ⭐⭐⭐⭐ 4.9/5 (74 reviews) |
+| **Verification** | ✅ Verified Metadata |
+| **Tool** | [puppeteer](https://github.com/puppeteer/puppeteer) — ⭐ 93.9k · Apache-2.0 |
 
-## Creator
+---
 
-**David Nguyen** ✓
-
-[View Profile](https://agentskillexchange.com/creator/davidnguyen/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/puppeteer-stealth-scraper-agent/)
-- [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/puppeteer-stealth-scraper-agent/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

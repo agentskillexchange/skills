@@ -3,14 +3,22 @@ name: "SVG Animation Builder"
 description: "Creates animated SVGs using GSAP (GreenSock Animation Platform) and the SVG DOM API. Generates timeline-based animations with morphing paths via flubber and scroll-triggered sequences using ScrollTrigger plugin."
 category: "Image & Creative Automation"
 framework: "Custom Agents"
-verification: listed
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/svg-animation-builder/"
+tool_ecosystem:
+  tool: "puppeteer"
+  github_stars: 93912
+  npm_weekly_downloads: 8696130
+  github_repo: "puppeteer/puppeteer"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # SVG Animation Builder
 
 Creates animated SVGs using GSAP (GreenSock Animation Platform) and the SVG DOM API. Generates timeline-based animations with morphing paths via flubber and scroll-triggered sequences using ScrollTrigger plugin.
@@ -41,21 +49,16 @@ clawhub install svg-animation-builder
 ```bash
 npx skills add agentskillexchange/skills --skill svg-animation-builder -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Image & Creative Automation |
 | **Framework** | Custom Agents |
-| **Verification** |  |
-| **Rating** | 0/5 (0 reviews) |
-
-## Creator
-
-**Community**
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/svg-animation-builder/)
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [puppeteer](https://github.com/puppeteer/puppeteer) — ⭐ 93.9k · Apache-2.0 |
 
 ---
 
-[Browse all skills](https://agentskillexchange.com) · [GitHub Repository](https://github.com/agentskillexchange/skills)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/svg-animation-builder/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

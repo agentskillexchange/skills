@@ -3,14 +3,22 @@ name: "Cosign Artifact Signature Verifier"
 description: "Validates container image and artifact signatures using Sigstore Cosign with keyless verification via Fulcio and Rekor transparency logs. Enforces supply chain integrity policies with OPA/Rego."
 category: "Security & Verification"
 framework: "Codex"
-verification: verified_metadata
-rating: 4.8
-reviews: 71
-creator: "Alex Rivera"
-creator_handle: "@arivera_dev"
-creator_verified: true
+verification: listed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/cosign-artifact-signature-verifier/"
+tool_ecosystem:
+  tool: "kubernetes"
+  github_stars: 121313
+  npm_weekly_downloads: 0
+  github_repo: "kubernetes/kubernetes"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Cosign Artifact Signature Verifier
 
 Validates container image and artifact signatures using Sigstore Cosign with keyless verification via Fulcio and Rekor transparency logs. Enforces supply chain integrity policies with OPA/Rego.
@@ -41,22 +49,16 @@ clawhub install cosign-artifact-signature-verifier
 ```bash
 npx skills add agentskillexchange/skills --skill cosign-artifact-signature-verifier -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Security & Verification |
 | **Framework** | Codex |
-| **Verification** | Verified |
-| **Rating** | ⭐⭐⭐⭐ 4.8/5 (71 reviews) |
+| **Verification** | 📋 Listed |
+| **Tool** | [kubernetes](https://github.com/kubernetes/kubernetes) — ⭐ 121.3k · Apache-2.0 |
 
-## Creator
+---
 
-**Alex Rivera** (@arivera_dev)
-- Verified Creator: Yes
-- [View Profile](https://agentskillexchange.com/creator/arivera_dev/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/cosign-artifact-signature-verifier/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/cosign-artifact-signature-verifier/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

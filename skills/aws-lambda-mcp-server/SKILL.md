@@ -2,66 +2,63 @@
 name: "AWS Lambda MCP Server"
 description: "Use this skill when you need to invoke AWS Lambda functions, check execution logs, update function configuration, or list deployed functions from your AI agent. It lets agents trigger serverless workflows and debug Lambda execution without accessing the AWS console."
 category: "Developer Tools"
-framework: "MCP"
-verification: security_reviewed
-rating: 4.3
-reviews: 12
-creator: "Luna Martinez"
-creator_handle: "@lunamartinez"
+framework: "MCP-compatible"
+verification: listed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/aws-lambda-mcp-server/"
+tool_ecosystem:
+  tool: "aws"
+  github_stars: 3594
+  npm_weekly_downloads: 9204385
+  github_repo: "aws/aws-sdk-js-v3"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # AWS Lambda MCP Server
 
 Use this skill when you need to invoke AWS Lambda functions, check execution logs, update function configuration, or list deployed functions from your AI agent. It lets agents trigger serverless workflows and debug Lambda execution without accessing the AWS console.
 
 ## Installation
 
-### Any agent (npx skills)
-
+### Any Agent (npx)
 ```bash
 npx skills add agentskillexchange/skills --skill aws-lambda-mcp-server
 ```
 
 ### Claude Code
-
 ```bash
 npx skills add agentskillexchange/skills --skill aws-lambda-mcp-server -a claude-code
 ```
 
 ### Cursor
-
 ```bash
 npx skills add agentskillexchange/skills --skill aws-lambda-mcp-server -a cursor
 ```
 
 ### OpenClaw
-
 ```bash
 clawhub install aws-lambda-mcp-server
 ```
 
 ### Codex
-
 ```bash
 npx skills add agentskillexchange/skills --skill aws-lambda-mcp-server -a codex
 ```
 
 ## Details
 
-| Field | Value |
-|-------|-------|
-| Category | Developer Tools |
-| Framework | MCP-compatible |
-| Verification | Security Reviewed |
-| Rating | 4.3/5 (12 reviews) |
+| | |
+|---|---|
+| **Category** | Developer Tools |
+| **Framework** | MCP-compatible |
+| **Verification** | 📋 Listed |
+| **Tool** | [aws](https://github.com/aws/aws-sdk-js-v3) — ⭐ 3.6k · Apache-2.0 |
 
-## Creator
+---
 
-**Luna Martinez**
-- Profile: [@lunamartinez](https://agentskillexchange.com/browse-skills/?creator=lunamartinez)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/aws-lambda-mcp-server/)
-- [Browse all skills](https://agentskillexchange.com/browse-skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/aws-lambda-mcp-server/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

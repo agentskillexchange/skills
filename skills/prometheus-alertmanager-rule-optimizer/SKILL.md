@@ -4,13 +4,21 @@ description: "Analyzes Prometheus alerting rules and AlertManager configuration 
 category: "Monitoring & Alerts"
 framework: "Claude Code"
 verification: security_reviewed
-rating: 4.6
-reviews: 4
-creator: "Grace Okafor"
-creator_handle: "@graceokafor"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/prometheus-alertmanager-rule-optimizer/"
+tool_ecosystem:
+  tool: "prometheus"
+  github_stars: 63278
+  npm_weekly_downloads: 5319832
+  github_repo: "prometheus/prometheus"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Prometheus AlertManager Rule Optimizer
 
 Analyzes Prometheus alerting rules and AlertManager configuration to reduce alert fatigue. Uses PromQL query analysis and historical firing patterns to suggest rule consolidation and threshold adjustments.
@@ -41,22 +49,16 @@ clawhub install prometheus-alertmanager-rule-optimizer
 ```bash
 npx skills add agentskillexchange/skills --skill prometheus-alertmanager-rule-optimizer -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Monitoring & Alerts |
 | **Framework** | Claude Code |
-| **Verification** | ✅ Verified |
-| **Security** | ✅ Reviewed |
-| **Rating** | ⭐ 4.6 (4 reviews) |
-
-## Creator
-
-**Grace Okafor** ✅
-Handle: `@graceokafor`
-[View Profile on ASE](https://agentskillexchange.com/skills/prometheus-alertmanager-rule-optimizer/)
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [prometheus](https://github.com/prometheus/prometheus) — ⭐ 63.3k · Apache-2.0 |
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-alertmanager-rule-optimizer/) • [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-alertmanager-rule-optimizer/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

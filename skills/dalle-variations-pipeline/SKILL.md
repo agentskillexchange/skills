@@ -3,14 +3,22 @@ name: "DALL-E Variations Pipeline"
 description: "Generates image variations and edits using the OpenAI Images API (DALL-E 3 and gpt-image-1). Manages prompt engineering for consistent style, handles mask-based inpainting, and outputs multiple sizes with quality presets."
 category: "Image & Creative Automation"
 framework: "ChatGPT Agents"
-verification: listed
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/dalle-variations-pipeline/"
+tool_ecosystem:
+  tool: "openai"
+  github_stars: 10761
+  npm_weekly_downloads: 16275389
+  github_repo: "openai/openai-node"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # DALL-E Variations Pipeline
 
 Generates image variations and edits using the OpenAI Images API (DALL-E 3 and gpt-image-1). Manages prompt engineering for consistent style, handles mask-based inpainting, and outputs multiple sizes with quality presets.
@@ -41,17 +49,16 @@ clawhub install dalle-variations-pipeline
 ```bash
 npx skills add agentskillexchange/skills --skill dalle-variations-pipeline -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Image & Creative Automation |
 | **Framework** | ChatGPT Agents |
-| **Verification** |  |
-| **Rating** | 0 ⭐ (0 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [openai](https://github.com/openai/openai-node) — ⭐ 10.8k · Apache-2.0 |
 
-## Creator
+---
 
-**Community**
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/dalle-variations-pipeline/) · [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/dalle-variations-pipeline/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

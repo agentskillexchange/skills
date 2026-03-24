@@ -3,14 +3,22 @@ name: "SAST Pipeline Scanner"
 description: "Runs static application security testing using Semgrep rules and CodeQL queries against pull request diffs. Supports SARIF output format and integrates with GitHub Advanced Security for findings management."
 category: "Security & Verification"
 framework: "Claude Code"
-verification: security_reviewed
-rating: 4.9
-reviews: 34
-creator: "Tom Wilson"
-creator_handle: "@tomwilson"
+verification: listed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/sast-pipeline-scanner/"
+tool_ecosystem:
+  tool: "semgrep"
+  github_stars: 14543
+  npm_weekly_downloads: 0
+  github_repo: "semgrep/semgrep"
+  license: "LGPL-2.1"
+  maintained: true
 ---
+
 # SAST Pipeline Scanner
 
 Runs static application security testing using Semgrep rules and CodeQL queries against pull request diffs. Supports SARIF output format and integrates with GitHub Advanced Security for findings management.
@@ -41,23 +49,16 @@ clawhub install sast-pipeline-scanner
 ```bash
 npx skills add agentskillexchange/skills --skill sast-pipeline-scanner -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Security & Verification |
 | **Framework** | Claude Code |
-| **Verification** | ✅ Verified |
-| **Security** | ✅ Reviewed |
-| **Rating** | ⭐ 4.9/5.0 (34 reviews) |
+| **Verification** | 📋 Listed |
+| **Tool** | [semgrep](https://github.com/semgrep/semgrep) — ⭐ 14.5k · LGPL-2.1 |
 
-## Creator
+---
 
-**Tom Wilson** 
-- Handle: @tomwilson
-- [View Profile](https://agentskillexchange.com/creator/tomwilson/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/sast-pipeline-scanner/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/sast-pipeline-scanner/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

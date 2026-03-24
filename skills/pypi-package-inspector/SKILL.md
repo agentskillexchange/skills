@@ -3,14 +3,15 @@ name: "PyPI Package Inspector"
 description: "Queries the PyPI JSON API and the libraries.io API to analyze Python package metadata, dependency trees, and version histories. Uses pip-audit for vulnerability scanning against the OSV database."
 category: "Library & API Reference"
 framework: "Gemini"
-verification: verified_metadata
-rating: 4.7
-reviews: 73
-creator: "David Nguyen"
-creator_handle: "@davidnguyen"
-creator_verified: true
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/pypi-package-inspector/"
 ---
+
 # PyPI Package Inspector
 
 Queries the PyPI JSON API and the libraries.io API to analyze Python package metadata, dependency trees, and version histories. Uses pip-audit for vulnerability scanning against the OSV database.
@@ -41,22 +42,15 @@ clawhub install pypi-package-inspector
 ```bash
 npx skills add agentskillexchange/skills --skill pypi-package-inspector -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
-| Category | Library & API Reference |
-| Framework | Gemini |
-| Verification | ✅ Verified |
-| Security Reviewed | ✅ Yes |
-| Rating | ⭐⭐⭐⭐ 4.7/5 (73 reviews) |
-
-## Creator
-
-**David Nguyen** ✓
-Handle: `@davidnguyen`
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/pypi-package-inspector/)
+| | |
+|---|---|
+| **Category** | Library & API Reference |
+| **Framework** | Gemini |
+| **Verification** | 🛡️ Security Reviewed |
 
 ---
 
-[Browse more skills](https://agentskillexchange.com) | [Submit a skill](https://agentskillexchange.com/submit/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/pypi-package-inspector/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

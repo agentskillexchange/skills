@@ -3,14 +3,22 @@ name: "CircleCI Pipeline Manager"
 description: "Configure and trigger CircleCI pipelines using the CircleCI v2 API and config.yml orbs. Manages pipeline parameters, workspace persistence, and dynamic configuration with setup workflows."
 category: "CI/CD Integrations"
 framework: "ChatGPT Agents"
-verification: verified_metadata
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/circleci-pipeline-manager/"
+tool_ecosystem:
+  tool: "circleci"
+  github_stars: 842
+  npm_weekly_downloads: 0
+  github_repo: "circleci/circleci-docs"
+  license: "Unknown"
+  maintained: true
 ---
+
 # CircleCI Pipeline Manager
 
 Configure and trigger CircleCI pipelines using the CircleCI v2 API and config.yml orbs. Manages pipeline parameters, workspace persistence, and dynamic configuration with setup workflows.
@@ -41,20 +49,16 @@ clawhub install circleci-pipeline-manager
 ```bash
 npx skills add agentskillexchange/skills --skill circleci-pipeline-manager -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | CI/CD Integrations |
 | **Framework** | ChatGPT Agents |
-| **Verification** | verified_metadata |
-| **Rating** | 0 ⭐ (0 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [circleci](https://github.com/circleci/circleci-docs) — ⭐ 842 · Unknown |
 
-## Creator
+---
 
-**Community**
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-pipeline-manager/)
-- [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-pipeline-manager/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

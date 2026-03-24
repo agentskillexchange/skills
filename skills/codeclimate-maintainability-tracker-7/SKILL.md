@@ -3,14 +3,22 @@ name: "CodeClimate Maintainability Tracker"
 description: "Tracks Code Climate maintainability scores over time using the Code Climate v1 API. Identifies technical debt hotspots, monitors churn-complexity coupling, and generates weekly maintainability digests via SendGrid."
 category: "Code Quality & Review"
 framework: "ChatGPT Agents"
-verification: verified_metadata
-rating: 4.9
-reviews: 79
-creator: "Priya Sharma"
-creator_handle: "@priyasharma"
-creator_verified: true
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/codeclimate-maintainability-tracker-7/"
+tool_ecosystem:
+  tool: "sendgrid"
+  github_stars: 3054
+  npm_weekly_downloads: 3287627
+  github_repo: "sendgrid/sendgrid-nodejs"
+  license: "MIT"
+  maintained: true
 ---
+
 # CodeClimate Maintainability Tracker
 
 Tracks Code Climate maintainability scores over time using the Code Climate v1 API. Identifies technical debt hotspots, monitors churn-complexity coupling, and generates weekly maintainability digests via SendGrid.
@@ -41,22 +49,16 @@ clawhub install codeclimate-maintainability-tracker-7
 ```bash
 npx skills add agentskillexchange/skills --skill codeclimate-maintainability-tracker-7 -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Code Quality & Review |
 | **Framework** | ChatGPT Agents |
-| **Verification** | Verified |
-| **Rating** | ⭐⭐⭐⭐ 4.9/5 (79 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [sendgrid](https://github.com/sendgrid/sendgrid-nodejs) — ⭐ 3.1k · MIT |
 
-## Creator
+---
 
-**Priya Sharma** ✓
-
-[View Profile](https://agentskillexchange.com/creator/priyasharma/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/codeclimate-maintainability-tracker-7/)
-- [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/codeclimate-maintainability-tracker-7/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

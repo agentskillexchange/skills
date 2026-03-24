@@ -4,13 +4,21 @@ description: "Interfaces with the Uptime Kuma Socket.IO API to monitor service h
 category: "Monitoring & Alerts"
 framework: "Claude Agents"
 verification: security_reviewed
-rating: 4.8
-reviews: 3
-creator: "Zoe Chen"
-creator_handle: "@zoechen"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/uptime-kuma-status-sync/"
+tool_ecosystem:
+  tool: "sendgrid"
+  github_stars: 3054
+  npm_weekly_downloads: 3287627
+  github_repo: "sendgrid/sendgrid-nodejs"
+  license: "MIT"
+  maintained: true
 ---
+
 # Uptime Kuma Status Sync
 
 Interfaces with the Uptime Kuma Socket.IO API to monitor service health checks. Syncs status page data to Statuspage.io via Atlassian REST API and triggers incident workflows in Rootly.
@@ -41,22 +49,16 @@ clawhub install uptime-kuma-status-sync
 ```bash
 npx skills add agentskillexchange/skills --skill uptime-kuma-status-sync -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Monitoring & Alerts |
 | **Framework** | Claude Agents |
-| **Verification** | Verified & Security Reviewed |
-| **Rating** | ★★★★½ (4.8/5 from 3 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [sendgrid](https://github.com/sendgrid/sendgrid-nodejs) — ⭐ 3.1k · MIT |
 
-## Creator
+---
 
-**Zoe Chen** ✓ Verified Creator
-
-[View Profile](https://agentskillexchange.com/creator/zoechen/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/uptime-kuma-status-sync/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/uptime-kuma-status-sync/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

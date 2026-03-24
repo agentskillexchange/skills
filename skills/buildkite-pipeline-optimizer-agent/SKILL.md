@@ -4,12 +4,19 @@ description: "Analyzes Buildkite pipeline YAML and optimizes parallelism using t
 category: "CI/CD Integrations"
 framework: "OpenClaw"
 verification: security_reviewed
-rating: 4.9
-reviews: 74
-creator: "David Nguyen"
-creator_handle: "@davidnguyen"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/buildkite-pipeline-optimizer-agent/"
+tool_ecosystem:
+  tool: "graphql"
+  github_stars: 20335
+  npm_weekly_downloads: 32010306
+  github_repo: "graphql/graphql-js"
+  license: "MIT"
+  maintained: true
 ---
 
 # Buildkite Pipeline Optimizer
@@ -45,21 +52,13 @@ npx skills add agentskillexchange/skills --skill buildkite-pipeline-optimizer-ag
 
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | CI/CD Integrations |
 | **Framework** | OpenClaw |
-| **Verification** | Security Reviewed |
-| **Rating** | ⭐ 4.9 (74 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [graphql](https://github.com/graphql/graphql-js) — ⭐ 20.3k · MIT |
 
-## Creator
+---
 
-**David Nguyen** ✓
-
-- Handle: `@davidnguyen`
-- Profile: [View on ASE](https://agentskillexchange.com/creator/davidnguyen/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/buildkite-pipeline-optimizer-agent/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/buildkite-pipeline-optimizer-agent/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

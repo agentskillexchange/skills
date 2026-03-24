@@ -2,15 +2,23 @@
 name: "jq JSON Stream Transformer"
 description: "Constructs complex jq filter expressions for transforming JSON/NDJSON streams, including recursive descent, object construction, and reduce operations. Handles multi-gigabyte streams with jq’s streaming parser."
 category: "Data Extraction & Transformation"
-framework: "MCP"
-verification: verified_metadata
-rating: 4.6
-reviews: 86
-creator: "Elena Rodriguez"
-creator_handle: "@elena_dev"
-creator_verified: true
+framework: "MCP-compatible"
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/jq-json-stream-transformer/"
+tool_ecosystem:
+  tool: "aws"
+  github_stars: 3594
+  npm_weekly_downloads: 9204385
+  github_repo: "aws/aws-sdk-js-v3"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # jq JSON Stream Transformer
 
 Constructs complex jq filter expressions for transforming JSON/NDJSON streams, including recursive descent, object construction, and reduce operations. Handles multi-gigabyte streams with jq’s streaming parser.
@@ -41,22 +49,16 @@ clawhub install jq-json-stream-transformer
 ```bash
 npx skills add agentskillexchange/skills --skill jq-json-stream-transformer -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Data Extraction & Transformation |
 | **Framework** | MCP-compatible |
-| **Verification** | Verified |
-| **Rating** | ⭐⭐⭐⭐ 4.6/5 (86 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [aws](https://github.com/aws/aws-sdk-js-v3) — ⭐ 3.6k · Apache-2.0 |
 
-## Creator
+---
 
-**Elena Rodriguez** (@elena_dev)
-- Verified Creator: Yes
-- [View Profile](https://agentskillexchange.com/creator/elena_dev/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/jq-json-stream-transformer/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/jq-json-stream-transformer/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

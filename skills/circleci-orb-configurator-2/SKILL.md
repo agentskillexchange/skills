@@ -3,65 +3,62 @@ name: "CircleCI Orb Configurator"
 description: "Builds and validates CircleCI orb configurations using the CircleCI CLI and Orb Development Kit. Supports orb packing, linting with yamllint, and publishing to the CircleCI Orb Registry via circleci orb publish."
 category: "CI/CD Integrations"
 framework: "Claude Agents"
-verification: verified_metadata
-rating: 4.6
-reviews: 70
-creator: "James Whitfield"
-creator_handle: "@jwhitfield"
-creator_verified: true
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/circleci-orb-configurator-2/"
+tool_ecosystem:
+  tool: "circleci"
+  github_stars: 842
+  npm_weekly_downloads: 0
+  github_repo: "circleci/circleci-docs"
+  license: "Unknown"
+  maintained: true
 ---
+
 # CircleCI Orb Configurator
 
 Builds and validates CircleCI orb configurations using the CircleCI CLI and Orb Development Kit. Supports orb packing, linting with yamllint, and publishing to the CircleCI Orb Registry via circleci orb publish.
 
 ## Installation
 
-### Any agent (npx skills)
-
+### Any Agent (npx)
 ```bash
 npx skills add agentskillexchange/skills --skill circleci-orb-configurator-2
 ```
 
 ### Claude Code
-
 ```bash
 npx skills add agentskillexchange/skills --skill circleci-orb-configurator-2 -a claude-code
 ```
 
 ### Cursor
-
 ```bash
 npx skills add agentskillexchange/skills --skill circleci-orb-configurator-2 -a cursor
 ```
 
 ### OpenClaw
-
 ```bash
 clawhub install circleci-orb-configurator-2
 ```
 
 ### Codex
-
 ```bash
 npx skills add agentskillexchange/skills --skill circleci-orb-configurator-2 -a codex
 ```
 
 ## Details
 
-| Field | Value |
-|-------|-------|
-| Category | CI/CD Integrations |
-| Framework | Claude Agents |
-| Verification | Verified Metadata |
-| Rating | 4.6/5 (70 reviews) |
+| | |
+|---|---|
+| **Category** | CI/CD Integrations |
+| **Framework** | Claude Agents |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [circleci](https://github.com/circleci/circleci-docs) — ⭐ 842 · Unknown |
 
-## Creator
+---
 
-**James Whitfield** (Verified Creator ✓)
-- Profile: [@jwhitfield](https://agentskillexchange.com/browse-skills/?creator=jwhitfield)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-orb-configurator-2/)
-- [Browse all skills](https://agentskillexchange.com/browse-skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-orb-configurator-2/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

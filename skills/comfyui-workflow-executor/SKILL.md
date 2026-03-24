@@ -4,14 +4,21 @@ description: "Executes ComfyUI image generation workflows via the /prompt REST A
 category: "Image & Creative Automation"
 framework: "Codex"
 verification: security_reviewed
-rating: 4.9
-reviews: 58
-creator: "Mateo Silva"
-creator_handle: "@mateosilva"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/comfyui-workflow-executor/"
-security: "🔒 Reviewed"
+tool_ecosystem:
+  tool: "vault"
+  github_stars: 35266
+  npm_weekly_downloads: 0
+  github_repo: "hashicorp/vault"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # ComfyUI Workflow Executor
 
 Executes ComfyUI image generation workflows via the /prompt REST API endpoint with WebSocket progress tracking. Manages node graph JSON payloads, KSampler scheduler configurations (euler_ancestral, dpmpp_2m_sde), and output image retrieval from the /view endpoint.
@@ -42,23 +49,16 @@ clawhub install comfyui-workflow-executor
 ```bash
 npx skills add agentskillexchange/skills --skill comfyui-workflow-executor -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Image & Creative Automation |
 | **Framework** | Codex |
-| **Verification** | ✅ Verified |
-| **Security** | 🔒 Reviewed |
-| **Rating** | ⭐⭐⭐⭐ 4.9/5 (58 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [vault](https://github.com/hashicorp/vault) — ⭐ 35.3k · NOASSERTION |
 
-## Creator
+---
 
-**Mateo Silva** ✅
-Handle: `@mateosilva`
-[View Profile on ASE](https://agentskillexchange.com/skills/comfyui-workflow-executor/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/comfyui-workflow-executor/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/comfyui-workflow-executor/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

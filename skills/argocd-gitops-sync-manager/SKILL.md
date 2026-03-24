@@ -3,14 +3,22 @@ name: "ArgoCD GitOps Sync Manager"
 description: "Manages ArgoCD application sync operations with intelligent drift detection and rollback strategies. Uses the ArgoCD gRPC API and ApplicationSet CRD for multi-cluster GitOps deployments."
 category: "CI/CD Integrations"
 framework: "Gemini"
-verification: listed
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/argocd-gitops-sync-manager/"
+tool_ecosystem:
+  tool: "argocd"
+  github_stars: 22391
+  npm_weekly_downloads: 0
+  github_repo: "argoproj/argo-cd"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # ArgoCD GitOps Sync Manager
 
 Manages ArgoCD application sync operations with intelligent drift detection and rollback strategies. Uses the ArgoCD gRPC API and ApplicationSet CRD for multi-cluster GitOps deployments.
@@ -41,22 +49,16 @@ clawhub install argocd-gitops-sync-manager
 ```bash
 npx skills add agentskillexchange/skills --skill argocd-gitops-sync-manager -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
-| Category | CI/CD Integrations |
-| Framework | Gemini |
-| Verification | Community |
-| Rating | 0 ⭐ (0 reviews) |
+| | |
+|---|---|
+| **Category** | CI/CD Integrations |
+| **Framework** | Gemini |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [argocd](https://github.com/argoproj/argo-cd) — ⭐ 22.4k · Apache-2.0 |
 
-## Creator
+---
 
-**Community**
-
-[View Profile](https://agentskillexchange.com/skills/argocd-gitops-sync-manager/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/argocd-gitops-sync-manager/)
-- [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/argocd-gitops-sync-manager/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

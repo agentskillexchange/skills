@@ -3,14 +3,15 @@ name: "SerpAPI Search Results Aggregator"
 description: "Queries Google, Bing, and DuckDuckGo search APIs through SerpAPI to collect SERP features, Knowledge Graph data, and organic results. Supports People Also Ask extraction and trend analysis."
 category: "Research & Scraping"
 framework: "OpenClaw"
-verification: verified_metadata
-rating: 4.9
-reviews: 81
-creator: "Tom Wilson"
-creator_handle: "@tomwilson"
+verification: listed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/serpapi-search-results-aggregator/"
 ---
+
 # SerpAPI Search Results Aggregator
 
 Queries Google, Bing, and DuckDuckGo search APIs through SerpAPI to collect SERP features, Knowledge Graph data, and organic results. Supports People Also Ask extraction and trend analysis.
@@ -41,22 +42,15 @@ clawhub install serpapi-search-results-aggregator
 ```bash
 npx skills add agentskillexchange/skills --skill serpapi-search-results-aggregator -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Research & Scraping |
 | **Framework** | OpenClaw |
-| **Verification** | Verified |
-| **Rating** | ⭐⭐⭐⭐ 4.9/5 (81 reviews) |
+| **Verification** | 📋 Listed |
 
-## Creator
+---
 
-**Tom Wilson** (@tomwilson)
-- Verified Creator: No
-- [View Profile](https://agentskillexchange.com/creator/tomwilson/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/serpapi-search-results-aggregator/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/serpapi-search-results-aggregator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

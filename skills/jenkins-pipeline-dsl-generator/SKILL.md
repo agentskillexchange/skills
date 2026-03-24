@@ -3,14 +3,22 @@ name: "Jenkins Pipeline DSL Generator"
 description: "Generates Jenkins Declarative and Scripted Pipeline DSL using the Jenkins REST API and Job DSL plugin. Creates Jenkinsfile configurations with parallel stages, shared libraries, and credential binding."
 category: "CI/CD Integrations"
 framework: "Claude Code"
-verification: listed
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/jenkins-pipeline-dsl-generator/"
+tool_ecosystem:
+  tool: "jenkins"
+  github_stars: 25122
+  npm_weekly_downloads: 0
+  github_repo: "jenkinsci/jenkins"
+  license: "MIT"
+  maintained: true
 ---
+
 # Jenkins Pipeline DSL Generator
 
 Generates Jenkins Declarative and Scripted Pipeline DSL using the Jenkins REST API and Job DSL plugin. Creates Jenkinsfile configurations with parallel stages, shared libraries, and credential binding.
@@ -41,22 +49,16 @@ clawhub install jenkins-pipeline-dsl-generator
 ```bash
 npx skills add agentskillexchange/skills --skill jenkins-pipeline-dsl-generator -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | CI/CD Integrations |
 | **Framework** | Claude Code |
-| **Verification** | community |
-| **Rating** | 4.8 (0 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [jenkins](https://github.com/jenkinsci/jenkins) — ⭐ 25.1k · MIT |
 
-## Creator
+---
 
-**Community**
-
-- Profile: [View on ASE](https://agentskillexchange.com/creator//)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-pipeline-dsl-generator/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-pipeline-dsl-generator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

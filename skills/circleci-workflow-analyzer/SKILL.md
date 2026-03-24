@@ -4,14 +4,21 @@ description: "Analyzes and optimizes CircleCI workflows using the CircleCI v2 AP
 category: "CI/CD Integrations"
 framework: "Claude Code"
 verification: security_reviewed
-rating: 4.7
-reviews: 81
-creator: "Priya Sharma"
-creator_handle: "@priyasharma"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/circleci-workflow-analyzer/"
-security: "✅ Reviewed"
+tool_ecosystem:
+  tool: "circleci"
+  github_stars: 842
+  npm_weekly_downloads: 0
+  github_repo: "circleci/circleci-docs"
+  license: "Unknown"
+  maintained: true
 ---
+
 # CircleCI Workflow Analyzer
 
 Analyzes and optimizes CircleCI workflows using the CircleCI v2 API. Identifies bottlenecks in job dependency graphs, suggests parallelism improvements, and monitors pipeline credit usage.
@@ -42,19 +49,16 @@ clawhub install circleci-workflow-analyzer
 ```bash
 npx skills add agentskillexchange/skills --skill circleci-workflow-analyzer -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | CI/CD Integrations |
 | **Framework** | Claude Code |
-| **Verification** | ✅ Verified |
-| **Security** | ✅ Reviewed |
-| **Rating** | ⭐ 4.7 (81 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [circleci](https://github.com/circleci/circleci-docs) — ⭐ 842 · Unknown |
 
-## Creator
+---
 
-**Priya Sharma** ✅
-Handle: `@priyasharma`
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-workflow-analyzer/) · [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-workflow-analyzer/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

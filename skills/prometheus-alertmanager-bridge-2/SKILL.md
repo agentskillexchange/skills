@@ -3,14 +3,22 @@ name: "Prometheus Alertmanager Bridge"
 description: "Bridges Prometheus Alertmanager notifications to Microsoft Teams, Discord, and Telegram using adaptive card templates and PromQL-based alert correlation."
 category: "Monitoring & Alerts"
 framework: "ChatGPT Agents"
-verification: verified_metadata
-rating: 4.9
-reviews: 84
-creator: "Fatima Al-Hassan"
-creator_handle: "@fatimaalhassan"
-creator_verified: true
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/prometheus-alertmanager-bridge-2/"
+tool_ecosystem:
+  tool: "prometheus"
+  github_stars: 63278
+  npm_weekly_downloads: 5319832
+  github_repo: "prometheus/prometheus"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Prometheus Alertmanager Bridge
 
 Bridges Prometheus Alertmanager notifications to Microsoft Teams, Discord, and Telegram using adaptive card templates and PromQL-based alert correlation.
@@ -41,21 +49,16 @@ clawhub install prometheus-alertmanager-bridge-2
 ```bash
 npx skills add agentskillexchange/skills --skill prometheus-alertmanager-bridge-2 -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Monitoring & Alerts |
 | **Framework** | ChatGPT Agents |
-| **Verification** | Verified |
-| **Rating** | ⭐⭐⭐⭐ 4.9/5 (84 reviews) |
-
-## Creator
-
-**Fatima Al-Hassan** ✅
-- Handle: [@fatimaalhassan](https://agentskillexchange.com/creator/fatimaalhassan/)
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-alertmanager-bridge-2/)
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [prometheus](https://github.com/prometheus/prometheus) — ⭐ 63.3k · Apache-2.0 |
 
 ---
 
-[Browse all skills](https://agentskillexchange.com/) | [Submit a skill](https://agentskillexchange.com/submit/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-alertmanager-bridge-2/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

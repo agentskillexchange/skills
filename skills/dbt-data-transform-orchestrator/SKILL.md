@@ -4,13 +4,21 @@ description: "Integrates with dbt Cloud Administrative API v2 to trigger and mon
 category: "Data Extraction & Transformation"
 framework: "Custom Agents"
 verification: security_reviewed
-rating: 4.9
-reviews: 45
-creator: "Ava Johnson"
-creator_handle: "@avajohnson"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/dbt-data-transform-orchestrator/"
+tool_ecosystem:
+  tool: "dbt"
+  github_stars: 12457
+  npm_weekly_downloads: 0
+  github_repo: "dbt-labs/dbt-core"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # dbt Data Transform Orchestrator
 
 Integrates with dbt Cloud Administrative API v2 to trigger and monitor data transformation jobs. Manages model runs, source freshness checks, and test execution through dbt API endpoints with Snowflake and BigQuery adapter support.
@@ -41,22 +49,16 @@ clawhub install dbt-data-transform-orchestrator
 ```bash
 npx skills add agentskillexchange/skills --skill dbt-data-transform-orchestrator -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Data Extraction & Transformation |
 | **Framework** | Custom Agents |
-| **Verification** | ✅ Verified |
-| **Rating** | ⭐⭐⭐⭐ 4.9/5 (45 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [dbt](https://github.com/dbt-labs/dbt-core) — ⭐ 12.5k · NOASSERTION |
 
-## Creator
+---
 
-**Ava Johnson** ✅
-
-Profile: [@avajohnson](https://agentskillexchange.com/creator/avajohnson/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/dbt-data-transform-orchestrator/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/dbt-data-transform-orchestrator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

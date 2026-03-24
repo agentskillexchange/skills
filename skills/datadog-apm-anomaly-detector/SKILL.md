@@ -3,14 +3,22 @@ name: "Datadog APM Anomaly Detector"
 description: "Detects performance anomalies in Datadog APM traces using the Datadog API v2 metrics endpoint. Applies DBSCAN clustering on latency distributions to identify outlier service behaviors."
 category: "Monitoring & Alerts"
 framework: "ChatGPT Agents"
-verification: verified_metadata
-rating: 4.6
-reviews: 4
-creator: "Marcus Chen"
-creator_handle: "@marcuschen"
-creator_verified: true
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/datadog-apm-anomaly-detector/"
+tool_ecosystem:
+  tool: "datadog"
+  github_stars: 787
+  npm_weekly_downloads: 6043057
+  github_repo: "DataDog/dd-trace-js"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # Datadog APM Anomaly Detector
 
 Detects performance anomalies in Datadog APM traces using the Datadog API v2 metrics endpoint. Applies DBSCAN clustering on latency distributions to identify outlier service behaviors.
@@ -41,21 +49,16 @@ clawhub install datadog-apm-anomaly-detector
 ```bash
 npx skills add agentskillexchange/skills --skill datadog-apm-anomaly-detector -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Monitoring & Alerts |
 | **Framework** | ChatGPT Agents |
-| **Verification** | Verified |
-| **Rating** | ⭐⭐⭐⭐ 4.6/5 (4 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [datadog](https://github.com/DataDog/dd-trace-js) — ⭐ 787 · NOASSERTION |
 
-## Creator
+---
 
-**Marcus Chen** ✓
-[View Profile](https://agentskillexchange.com/creator/marcuschen/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/datadog-apm-anomaly-detector/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/datadog-apm-anomaly-detector/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

@@ -1,20 +1,27 @@
 ---
 name: "Midjourney Prompt Optimizer"
-description: "Analyze and optimize Midjourney prompts using parameter tuning for --ar, --stylize, --chaos, and --weird flags. Generates prompt variations with style references (--sref) and character references (--cref) for consistent image output."
+description: "Analyze and optimize Midjourney prompts using parameter tuning for –ar, –stylize, –chaos, and –weird flags. Generates prompt variations with style references (–sref) and character references (–cref) for consistent image output."
 category: "Image & Creative Automation"
 framework: "Gemini"
-verification: security_reviewed
-rating: 4.8
-reviews: 82
-creator: "Ben Taylor"
-creator_handle: "@bentaylor"
+verification: listed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/midjourney-prompt-optimizer-skill/"
+tool_ecosystem:
+  tool: "midjourney"
+  github_stars: 0
+  npm_weekly_downloads: 0
+  github_repo: ""
+  license: ""
+  maintained: false
 ---
 
 # Midjourney Prompt Optimizer
 
-Analyze and optimize Midjourney prompts using parameter tuning for --ar, --stylize, --chaos, and --weird flags. Generates prompt variations with style references (--sref) and character references (--cref) for consistent image output.
+Analyze and optimize Midjourney prompts using parameter tuning for –ar, –stylize, –chaos, and –weird flags. Generates prompt variations with style references (–sref) and character references (–cref) for consistent image output.
 
 ## Installation
 
@@ -45,15 +52,13 @@ npx skills add agentskillexchange/skills --skill midjourney-prompt-optimizer-ski
 
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Image & Creative Automation |
 | **Framework** | Gemini |
-| **Verification** | Security Reviewed |
-| **Rating** | ⭐ 4.8 (82 reviews) |
+| **Verification** | 📋 Listed |
+| **Tool** | midjourney |
 
-## Creator
+---
 
-**Ben Taylor** (@bentaylor)
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/midjourney-prompt-optimizer-skill/) · [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/midjourney-prompt-optimizer-skill/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

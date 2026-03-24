@@ -1,15 +1,24 @@
 ---
 name: "Terraform Cloud Run Inspector"
-description: "Queries the Terraform Cloud API to inspect plan outputs, apply logs, and state file changes. Analyzes resource diffs including module-level changes, provider version constraints, and Sentinel policy e"
-category: "Developer Tools"
-framework: "Custom Agents"
-verification: security_reviewed
-rating: 4.9
-reviews: 65
-creator: "Community"
+description: "Queries the Terraform Cloud API to inspect plan outputs, apply logs, and state file changes. Analyzes resource diffs including module-level changes, provider version constraints, and Sentinel policy evaluation results."
+category: "Integrations & Connectors"
+framework: "Any"
+verification: listed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/terraform-cloud-run-inspector-2/"
+tool_ecosystem:
+  tool: "terraform"
+  github_stars: 47996
+  npm_weekly_downloads: 0
+  github_repo: "hashicorp/terraform"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # Terraform Cloud Run Inspector
 
 Queries the Terraform Cloud API to inspect plan outputs, apply logs, and state file changes. Analyzes resource diffs including module-level changes, provider version constraints, and Sentinel policy evaluation results.
@@ -40,20 +49,16 @@ clawhub install terraform-cloud-run-inspector-2
 ```bash
 npx skills add agentskillexchange/skills --skill terraform-cloud-run-inspector-2 -a codex
 ```
+
 ## Details
 
 | | |
 |---|---|
-| **Category** | Uncategorized |
-| **Framework** | Unknown |
-| **Verification** | 🔵 Security Reviewed |
-| **Rating** | ⭐⭐⭐⭐ 4.9/5 (65 reviews) |
+| **Category** | Integrations & Connectors |
+| **Framework** | Any |
+| **Verification** | 📋 Listed |
+| **Tool** | [terraform](https://github.com/hashicorp/terraform) — ⭐ 48.0k · NOASSERTION |
 
-## Creator
+---
 
-**Community**
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-cloud-run-inspector-2/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-cloud-run-inspector-2/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

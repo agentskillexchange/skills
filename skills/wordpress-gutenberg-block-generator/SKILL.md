@@ -3,65 +3,62 @@ name: "WordPress Gutenberg Block Generator"
 description: "Scaffolds custom Gutenberg blocks using the @wordpress/create-block CLI and block.json schema, then registers them via register_block_type PHP API. Generates edit/save components with InspectorControls and useBlockProps. Outputs production-ready block plugin structure."
 category: "WordPress & CMS"
 framework: "Cursor"
-verification: listed
-rating: 4.6
-reviews: 41
-creator: "Rachel Green"
-creator_handle: "@rachelgreen"
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/wordpress-gutenberg-block-generator/"
+tool_ecosystem:
+  tool: "wordpress"
+  github_stars: 20973
+  npm_weekly_downloads: 0
+  github_repo: "WordPress/WordPress"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # WordPress Gutenberg Block Generator
 
 Scaffolds custom Gutenberg blocks using the @wordpress/create-block CLI and block.json schema, then registers them via register_block_type PHP API. Generates edit/save components with InspectorControls and useBlockProps. Outputs production-ready block plugin structure.
 
 ## Installation
 
-### Any agent (npx skills)
-
+### Any Agent (npx)
 ```bash
 npx skills add agentskillexchange/skills --skill wordpress-gutenberg-block-generator
 ```
 
 ### Claude Code
-
 ```bash
 npx skills add agentskillexchange/skills --skill wordpress-gutenberg-block-generator -a claude-code
 ```
 
 ### Cursor
-
 ```bash
 npx skills add agentskillexchange/skills --skill wordpress-gutenberg-block-generator -a cursor
 ```
 
 ### OpenClaw
-
 ```bash
 clawhub install wordpress-gutenberg-block-generator
 ```
 
 ### Codex
-
 ```bash
 npx skills add agentskillexchange/skills --skill wordpress-gutenberg-block-generator -a codex
 ```
 
 ## Details
 
-| Field | Value |
-|-------|-------|
-| Category | WordPress & CMS |
-| Framework | Cursor |
-| Verification | Listed |
-| Rating | 4.6/5 (41 reviews) |
+| | |
+|---|---|
+| **Category** | WordPress & CMS |
+| **Framework** | Cursor |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [wordpress](https://github.com/WordPress/WordPress) — ⭐ 21.0k · NOASSERTION |
 
-## Creator
+---
 
-**Rachel Green**
-- Profile: [@rachelgreen](https://agentskillexchange.com/browse-skills/?creator=rachelgreen)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/wordpress-gutenberg-block-generator/)
-- [Browse all skills](https://agentskillexchange.com/browse-skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/wordpress-gutenberg-block-generator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

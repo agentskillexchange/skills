@@ -3,14 +3,15 @@ name: "MDN Web Docs Fetcher"
 description: "Queries the MDN Web Docs content API (Yari) and the MDN search index to retrieve browser compatibility data, Web API references, and CSS property documentation. Uses BCD (browser-compat-data) npm package for offline lookups."
 category: "Library & API Reference"
 framework: "Cursor"
-verification: verified_metadata
-rating: 4.9
-reviews: 47
-creator: "Aisha Patel"
-creator_handle: "@aishapatel"
-creator_verified: true
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/mdn-web-docs-fetcher/"
 ---
+
 # MDN Web Docs Fetcher
 
 Queries the MDN Web Docs content API (Yari) and the MDN search index to retrieve browser compatibility data, Web API references, and CSS property documentation. Uses BCD (browser-compat-data) npm package for offline lookups.
@@ -41,22 +42,15 @@ clawhub install mdn-web-docs-fetcher
 ```bash
 npx skills add agentskillexchange/skills --skill mdn-web-docs-fetcher -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
-| Category | Library & API Reference |
-| Framework | Cursor |
-| Verification | ✅ Verified |
-| Security Reviewed | ✅ Yes |
-| Rating | ⭐⭐⭐⭐ 4.9/5 (47 reviews) |
-
-## Creator
-
-**Aisha Patel** ✓
-Handle: `@aishapatel`
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/mdn-web-docs-fetcher/)
+| | |
+|---|---|
+| **Category** | Library & API Reference |
+| **Framework** | Cursor |
+| **Verification** | 🛡️ Security Reviewed |
 
 ---
 
-[Browse more skills](https://agentskillexchange.com) | [Submit a skill](https://agentskillexchange.com/submit/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/mdn-web-docs-fetcher/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

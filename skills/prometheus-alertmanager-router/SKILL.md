@@ -4,13 +4,21 @@ description: "Configures and manages Prometheus AlertManager routing trees and s
 category: "Monitoring & Alerts"
 framework: "Cursor"
 verification: security_reviewed
-rating: 4.8
-reviews: 85
-creator: "Ryan O'Malley"
-creator_handle: "@ryanomalley"
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/prometheus-alertmanager-router/"
+tool_ecosystem:
+  tool: "prometheus"
+  github_stars: 63278
+  npm_weekly_downloads: 5319832
+  github_repo: "prometheus/prometheus"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Prometheus AlertManager Router
 
 Configures and manages Prometheus AlertManager routing trees and silences via the AlertManager HTTP API. Supports PagerDuty, OpsGenie, and Slack receiver configuration with inhibition rules.
@@ -41,23 +49,16 @@ clawhub install prometheus-alertmanager-router
 ```bash
 npx skills add agentskillexchange/skills --skill prometheus-alertmanager-router -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Monitoring & Alerts |
 | **Framework** | Cursor |
-| **Verification** | ✅ Verified |
-| **Security** | ✅ Reviewed |
-| **Rating** | ⭐ 4.8/5.0 (85 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [prometheus](https://github.com/prometheus/prometheus) — ⭐ 63.3k · Apache-2.0 |
 
-## Creator
+---
 
-**Ryan O'Malley** 
-- Handle: @ryanomalley
-- [View Profile](https://agentskillexchange.com/creator/ryanomalley/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-alertmanager-router/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-alertmanager-router/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

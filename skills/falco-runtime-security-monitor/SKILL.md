@@ -2,15 +2,23 @@
 name: "Falco Runtime Security Monitor"
 description: "Monitors container runtime events using Falco sysdig libraries and sends alerts on suspicious syscall patterns. Integrates with Kubernetes audit logs and Prometheus AlertManager for real-time threat detection."
 category: "Security & Verification"
-framework: "OpenClaw"
-verification: verified_metadata
-rating: 4.5
-reviews: 86
-creator: "Ava Johnson"
-creator_handle: "@avajohnson"
-creator_verified: true
+framework: "Multi-Framework"
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/falco-runtime-security-monitor/"
+tool_ecosystem:
+  tool: "kubernetes"
+  github_stars: 121313
+  npm_weekly_downloads: 0
+  github_repo: "kubernetes/kubernetes"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Falco Runtime Security Monitor
 
 Monitors container runtime events using Falco sysdig libraries and sends alerts on suspicious syscall patterns. Integrates with Kubernetes audit logs and Prometheus AlertManager for real-time threat detection.
@@ -41,21 +49,16 @@ clawhub install falco-runtime-security-monitor
 ```bash
 npx skills add agentskillexchange/skills --skill falco-runtime-security-monitor -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Security & Verification |
-| **Framework** | OpenClaw |
-| **Verification** | Verified |
-| **Rating** | ⭐⭐⭐⭐ 4.5/5 (86 reviews) |
-
-## Creator
-
-**Ava Johnson** ✓
-Handle: `@avajohnson`
-[View Profile on ASE](https://agentskillexchange.com/skills/falco-runtime-security-monitor/)
+| **Framework** | Multi-Framework |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [kubernetes](https://github.com/kubernetes/kubernetes) — ⭐ 121.3k · Apache-2.0 |
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/falco-runtime-security-monitor/) · [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/falco-runtime-security-monitor/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

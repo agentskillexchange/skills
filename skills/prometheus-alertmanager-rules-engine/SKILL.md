@@ -3,14 +3,22 @@ name: "Prometheus AlertManager Rules Engine"
 description: "Generates and validates Prometheus alerting rules and AlertManager routing configurations using the Prometheus HTTP API. Implements alert grouping, inhibition rules, and silence management."
 category: "Monitoring & Alerts"
 framework: "Custom Agents"
-verification: verified_metadata
-rating: 4.8
-reviews: 86
-creator: "Nina Volkov"
-creator_handle: "@ninavolkov"
-creator_verified: true
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/prometheus-alertmanager-rules-engine/"
+tool_ecosystem:
+  tool: "prometheus"
+  github_stars: 63278
+  npm_weekly_downloads: 5319832
+  github_repo: "prometheus/prometheus"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Prometheus AlertManager Rules Engine
 
 Generates and validates Prometheus alerting rules and AlertManager routing configurations using the Prometheus HTTP API. Implements alert grouping, inhibition rules, and silence management.
@@ -41,22 +49,16 @@ clawhub install prometheus-alertmanager-rules-engine
 ```bash
 npx skills add agentskillexchange/skills --skill prometheus-alertmanager-rules-engine -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Monitoring & Alerts |
 | **Framework** | Custom Agents |
-| **Verification** | Verified |
-| **Rating** | 4.8 ⭐ (86 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [prometheus](https://github.com/prometheus/prometheus) — ⭐ 63.3k · Apache-2.0 |
 
-## Creator
+---
 
-**Nina Volkov** ✓
-Handle: @ninavolkov
-[View Profile](https://agentskillexchange.com/skills/prometheus-alertmanager-rules-engine/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-alertmanager-rules-engine/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-alertmanager-rules-engine/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

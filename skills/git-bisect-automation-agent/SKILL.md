@@ -1,16 +1,24 @@
 ---
 name: "Git Bisect Automation Agent"
-description: "Automates git bisect workflows to find regression-introducing commits using custom test scripts and the git bisect run interface. Supports containerized test execution via Docker to ensure reproduc..."
+description: "Automates git bisect workflows to find regression-introducing commits using custom test scripts and the git bisect run interface. Supports containerized test execution via Docker to ensure reproducible bisect environments."
 category: "Code Quality & Review"
 framework: "Custom Agents"
-verification: security_reviewed
+verification: listed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/git-bisect-automation-agent/"
+tool_ecosystem:
+  tool: "docker"
+  github_stars: 71560
+  npm_weekly_downloads: 0
+  github_repo: "moby/moby"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Git Bisect Automation Agent
 
 Automates git bisect workflows to find regression-introducing commits using custom test scripts and the git bisect run interface. Supports containerized test execution via Docker to ensure reproducible bisect environments.
@@ -41,21 +49,16 @@ clawhub install git-bisect-automation-agent
 ```bash
 npx skills add agentskillexchange/skills --skill git-bisect-automation-agent -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Code Quality & Review |
 | **Framework** | Custom Agents |
-| **Verification** | security_reviewed |
-| **Rating** | 0 (0 reviews) |
+| **Verification** | 📋 Listed |
+| **Tool** | [docker](https://github.com/moby/moby) — ⭐ 71.6k · Apache-2.0 |
 
-## Creator
+---
 
-**Community**
-
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/git-bisect-automation-agent/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/git-bisect-automation-agent/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

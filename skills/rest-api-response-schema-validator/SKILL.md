@@ -4,13 +4,14 @@ description: "Validates live API responses against JSON Schema definitions using
 category: "Library & API Reference"
 framework: "Claude Agents"
 verification: security_reviewed
-rating: 4.6
-reviews: 86
-creator: "Community"
+rating: 0
+reviews: 0
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/rest-api-response-schema-validator/"
 ---
+
 # REST API Response Schema Validator
 
 Validates live API responses against JSON Schema definitions using Ajv (Another JSON Schema Validator). Supports OpenAPI 3.x schema extraction and detects undocumented fields or type mismatches.
@@ -41,20 +42,15 @@ clawhub install rest-api-response-schema-validator
 ```bash
 npx skills add agentskillexchange/skills --skill rest-api-response-schema-validator -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Library & API Reference |
 | **Framework** | Claude Agents |
-| **Verification** | Security Reviewed ✓ |
-| **Rating** | ⭐ 4.6/5 (86 reviews) |
-
-## Creator
-
-**Community**
-
+| **Verification** | 🛡️ Security Reviewed |
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/rest-api-response-schema-validator/) • [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/rest-api-response-schema-validator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

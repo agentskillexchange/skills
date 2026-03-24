@@ -10,7 +10,15 @@ creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/ansible-playbook-template-generator/"
+tool_ecosystem:
+  tool: "ansible"
+  github_stars: 68365
+  npm_weekly_downloads: 0
+  github_repo: "ansible/ansible"
+  license: "GPL-3.0"
+  maintained: true
 ---
+
 # Ansible Playbook Template Generator
 
 Generates Ansible playbook YAML with proper module usage, handler chains, and role structures using ansible-core built-in modules. Supports Jinja2 template rendering and vault-encrypted variable files.
@@ -41,19 +49,16 @@ clawhub install ansible-playbook-template-generator
 ```bash
 npx skills add agentskillexchange/skills --skill ansible-playbook-template-generator -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
-| Category | Templates & Workflows |
-| Framework | OpenClaw |
-| Verification | community |
-| Rating |  (0/5) |
-
-## Creator
-
-****
+| | |
+|---|---|
+| **Category** | Templates & Workflows |
+| **Framework** | OpenClaw |
+| **Verification** | 📋 Listed |
+| **Tool** | [ansible](https://github.com/ansible/ansible) — ⭐ 68.4k · GPL-3.0 |
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/ansible-playbook-template-generator/) | [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/ansible-playbook-template-generator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

@@ -6,11 +6,12 @@ framework: "Custom Agents"
 verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/openapi-spec-validator-linter-2/"
 ---
+
 # OpenAPI Spec Validator & Linter
 
 Validates OpenAPI 3.0/3.1 specifications using the @readme/openapi-parser and Spectral linter with custom rulesets. Detects missing descriptions, inconsistent naming conventions, and security scheme gaps in your API definitions.
@@ -41,22 +42,15 @@ clawhub install openapi-spec-validator-linter-2
 ```bash
 npx skills add agentskillexchange/skills --skill openapi-spec-validator-linter-2 -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Library & API Reference |
 | **Framework** | Custom Agents |
-| **Verification** | security_reviewed |
-| **Rating** | 0 (0 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
 
-## Creator
+---
 
-**Community**
-
-[View Profile](https://agentskillexchange.com/skills/openapi-spec-validator-linter-2/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/openapi-spec-validator-linter-2/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/openapi-spec-validator-linter-2/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

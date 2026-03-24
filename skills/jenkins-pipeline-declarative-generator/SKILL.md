@@ -3,65 +3,62 @@ name: "Jenkins Pipeline Declarative Generator"
 description: "Creates Jenkins Declarative Pipeline Jenkinsfiles using jenkins-pipeline-syntax and jenkins-shared-libraries. Configures stages, parallel execution, and post-build actions with Blue Ocean compatibility."
 category: "CI/CD Integrations"
 framework: "Custom Agents"
-verification: verified_metadata
-rating: 4.7
-reviews: 32
-creator: "Isabella Rossi"
-creator_handle: "@irossi"
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/jenkins-pipeline-declarative-generator/"
+tool_ecosystem:
+  tool: "jenkins"
+  github_stars: 25122
+  npm_weekly_downloads: 0
+  github_repo: "jenkinsci/jenkins"
+  license: "MIT"
+  maintained: true
 ---
+
 # Jenkins Pipeline Declarative Generator
 
 Creates Jenkins Declarative Pipeline Jenkinsfiles using jenkins-pipeline-syntax and jenkins-shared-libraries. Configures stages, parallel execution, and post-build actions with Blue Ocean compatibility.
 
 ## Installation
 
-### Any agent (npx skills)
-
+### Any Agent (npx)
 ```bash
 npx skills add agentskillexchange/skills --skill jenkins-pipeline-declarative-generator
 ```
 
 ### Claude Code
-
 ```bash
 npx skills add agentskillexchange/skills --skill jenkins-pipeline-declarative-generator -a claude-code
 ```
 
 ### Cursor
-
 ```bash
 npx skills add agentskillexchange/skills --skill jenkins-pipeline-declarative-generator -a cursor
 ```
 
 ### OpenClaw
-
 ```bash
 clawhub install jenkins-pipeline-declarative-generator
 ```
 
 ### Codex
-
 ```bash
 npx skills add agentskillexchange/skills --skill jenkins-pipeline-declarative-generator -a codex
 ```
 
 ## Details
 
-| Field | Value |
-|-------|-------|
-| Category | CI/CD Integrations |
-| Framework | Custom Agents |
-| Verification | Verified Metadata |
-| Rating | 4.7/5 (32 reviews) |
+| | |
+|---|---|
+| **Category** | CI/CD Integrations |
+| **Framework** | Custom Agents |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [jenkins](https://github.com/jenkinsci/jenkins) — ⭐ 25.1k · MIT |
 
-## Creator
+---
 
-**Isabella Rossi**
-- Profile: [@irossi](https://agentskillexchange.com/browse-skills/?creator=irossi)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-pipeline-declarative-generator/)
-- [Browse all skills](https://agentskillexchange.com/browse-skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-pipeline-declarative-generator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

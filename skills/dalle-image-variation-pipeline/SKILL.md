@@ -5,12 +5,20 @@ category: "Image & Creative Automation"
 framework: "Custom Agents"
 verification: security_reviewed
 rating: 0
-reviews: 75
-creator: "Ryan O'Malley"
-creator_handle: "@ryanomalley"
+reviews: 0
+creator: ""
+creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/dalle-image-variation-pipeline/"
+tool_ecosystem:
+  tool: "openai"
+  github_stars: 10761
+  npm_weekly_downloads: 16275389
+  github_repo: "openai/openai-node"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # DALL-E Image Variation Pipeline
 
 Manages OpenAI DALL-E 3 API workflows for brand-consistent image generation with style references, aspect ratio control, and automated prompt refinement using GPT-4 Vision feedback loops.
@@ -41,18 +49,16 @@ clawhub install dalle-image-variation-pipeline
 ```bash
 npx skills add agentskillexchange/skills --skill dalle-image-variation-pipeline -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Image & Creative Automation |
 | **Framework** | Custom Agents |
-| **Verification** | ✅ Verified |
-| **Rating** | ⭐ 4.5 (75 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [openai](https://github.com/openai/openai-node) — ⭐ 10.8k · Apache-2.0 |
 
-## Creator
+---
 
-**Ryan O'Malley**
-Handle: `@ryanomalley`
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/dalle-image-variation-pipeline/) · [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/dalle-image-variation-pipeline/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

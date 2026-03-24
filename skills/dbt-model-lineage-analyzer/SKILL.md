@@ -4,13 +4,21 @@ description: "Parses dbt project manifests and catalog artifacts to build comple
 category: "Data Extraction & Transformation"
 framework: "Claude Agents"
 verification: security_reviewed
-rating: 4.6
-reviews: 44
-creator: "Sarah O'Brien"
-creator_handle: "@sarahcodes"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/dbt-model-lineage-analyzer/"
+tool_ecosystem:
+  tool: "dbt"
+  github_stars: 12457
+  npm_weekly_downloads: 0
+  github_repo: "dbt-labs/dbt-core"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # dbt Model Lineage Analyzer
 
 Parses dbt project manifests and catalog artifacts to build complete data lineage graphs. Uses the dbt Cloud API v2 for run metadata and the dbt Core manifest.json for model dependency analysis.
@@ -41,24 +49,16 @@ clawhub install dbt-model-lineage-analyzer
 ```bash
 npx skills add agentskillexchange/skills --skill dbt-model-lineage-analyzer -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Data Extraction & Transformation |
 | **Framework** | Claude Agents |
-| **Verification** | ✅ Verified |
-| **Security Review** | ✅ Reviewed |
-| **Rating** | ⭐ 4.6 (44 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [dbt](https://github.com/dbt-labs/dbt-core) — ⭐ 12.5k · NOASSERTION |
 
-## Creator
+---
 
-**Sarah O'Brien** ✅
-@sarahcodes
-
-[View Profile on ASE](https://agentskillexchange.com/creator/sarahcodes/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/dbt-model-lineage-analyzer/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/dbt-model-lineage-analyzer/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

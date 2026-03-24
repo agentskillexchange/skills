@@ -4,13 +4,21 @@ description: "Parses terraform plan -json output and queries the Terraform Cloud
 category: "CI/CD Integrations"
 framework: "Gemini"
 verification: security_reviewed
-rating: 4.6
-reviews: 38
-creator: "Community"
+rating: 0
+reviews: 0
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/terraform-plan-reviewer-agent/"
+tool_ecosystem:
+  tool: "terraform"
+  github_stars: 47996
+  npm_weekly_downloads: 0
+  github_repo: "hashicorp/terraform"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # Terraform Plan Reviewer Agent
 
 Parses terraform plan -json output and queries the Terraform Cloud API /runs endpoint to review infrastructure changes. Detects destructive operations, estimates cost impact via Infracost API, and validates against OPA policies.
@@ -41,22 +49,16 @@ clawhub install terraform-plan-reviewer-agent
 ```bash
 npx skills add agentskillexchange/skills --skill terraform-plan-reviewer-agent -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | CI/CD Integrations |
 | **Framework** | Gemini |
-| **Verification** | 🔒 Security Reviewed |
-| **Rating** | ⭐⭐⭐⭐ 4.6/5 (38 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [terraform](https://github.com/hashicorp/terraform) — ⭐ 48.0k · NOASSERTION |
 
-## Creator
+---
 
-**Community**
-
-
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-plan-reviewer-agent/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-plan-reviewer-agent/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

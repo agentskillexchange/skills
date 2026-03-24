@@ -4,13 +4,14 @@ description: "Analyzes GitHub Actions workflow matrix strategies using the GitHu
 category: "CI/CD Integrations"
 framework: "Claude Code"
 verification: security_reviewed
-rating: 4.8
-reviews: 86
-creator: "Community"
+rating: 0
+reviews: 0
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/github-actions-matrix-optimizer-2/"
 ---
+
 # GitHub Actions Matrix Optimizer
 
 Analyzes GitHub Actions workflow matrix strategies using the GitHub REST API v3 workflow runs endpoint. Identifies redundant matrix combinations and suggests fail-fast optimizations to reduce CI minutes.
@@ -41,20 +42,15 @@ clawhub install github-actions-matrix-optimizer-2
 ```bash
 npx skills add agentskillexchange/skills --skill github-actions-matrix-optimizer-2 -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | CI/CD Integrations |
 | **Framework** | Claude Code |
-| **Verification** | Security Reviewed ✓ |
-| **Rating** | ⭐ 4.8/5 (86 reviews) |
-
-## Creator
-
-**Community**
-
+| **Verification** | 🛡️ Security Reviewed |
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/github-actions-matrix-optimizer-2/) • [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/github-actions-matrix-optimizer-2/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

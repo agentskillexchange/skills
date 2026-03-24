@@ -3,14 +3,15 @@ name: "GitHub Actions Workflow Composer"
 description: "Composes GitHub Actions workflow YAML files from modular job templates, resolving action version pins and secret references. Validates against the GitHub Actions schema and checks for known action CVEs."
 category: "Templates & Workflows"
 framework: "Claude Agents"
-verification: verified_metadata
-rating: 4.9
-reviews: 63
-creator: "Elena Rodriguez"
-creator_handle: "@elena_dev"
-creator_verified: true
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/github-actions-workflow-composer-2/"
 ---
+
 # GitHub Actions Workflow Composer
 
 Composes GitHub Actions workflow YAML files from modular job templates, resolving action version pins and secret references. Validates against the GitHub Actions schema and checks for known action CVEs.
@@ -41,22 +42,15 @@ clawhub install github-actions-workflow-composer-2
 ```bash
 npx skills add agentskillexchange/skills --skill github-actions-workflow-composer-2 -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Templates & Workflows |
 | **Framework** | Claude Agents |
-| **Verification** | Verified |
-| **Rating** | 4.9 ⭐ (63 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
 
-## Creator
+---
 
-**Elena Rodriguez** (@elena_dev)
-- Verified: Yes
-- [View Profile](https://agentskillexchange.com/creator/elena_dev)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/github-actions-workflow-composer-2/)
-- [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/github-actions-workflow-composer-2/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

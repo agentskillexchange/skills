@@ -2,15 +2,23 @@
 name: "Scrapy Distributed Crawler Framework"
 description: "Orchestrates large-scale web crawling using Scrapy with scrapy-redis for distributed job queuing. Integrates Splash for JavaScript rendering, stores results in MongoDB via scrapy-mongodb pipeline, and respects robots.txt with AutoThrottle."
 category: "Research & Scraping"
-framework: "MCP"
+framework: "MCP-compatible"
 verification: listed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/scrapy-distributed-crawler-framework/"
+tool_ecosystem:
+  tool: "scrapy"
+  github_stars: 60923
+  npm_weekly_downloads: 8224050
+  github_repo: "scrapy/scrapy"
+  license: "BSD-3-Clause"
+  maintained: true
 ---
+
 # Scrapy Distributed Crawler Framework
 
 Orchestrates large-scale web crawling using Scrapy with scrapy-redis for distributed job queuing. Integrates Splash for JavaScript rendering, stores results in MongoDB via scrapy-mongodb pipeline, and respects robots.txt with AutoThrottle.
@@ -41,17 +49,16 @@ clawhub install scrapy-distributed-crawler-framework
 ```bash
 npx skills add agentskillexchange/skills --skill scrapy-distributed-crawler-framework -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Research & Scraping |
 | **Framework** | MCP-compatible |
-| **Verification** | community |
-| **Rating** |  (0/5 from 0 reviews) |
+| **Verification** | 📋 Listed |
+| **Tool** | [scrapy](https://github.com/scrapy/scrapy) — ⭐ 60.9k · BSD-3-Clause |
 
-## Creator
+---
 
-**Community**
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/scrapy-distributed-crawler-framework/) · [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/scrapy-distributed-crawler-framework/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

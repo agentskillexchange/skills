@@ -3,14 +3,22 @@ name: "Stable Diffusion XL Pipeline"
 description: "Orchestrates SDXL image generation via the Stability AI REST API with ControlNet conditioning, IP-Adapter style transfer, and automatic prompt enhancement using CLIP interrogation."
 category: "Image & Creative Automation"
 framework: "Claude Agents"
-verification: verified_metadata
-rating: 4.8
-reviews: 31
-creator: "Carlos Mendez"
-creator_handle: "@carlosmendez"
-creator_verified: true
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/stable-diffusion-xl-pipeline/"
+tool_ecosystem:
+  tool: "stable.diffusion"
+  github_stars: 0
+  npm_weekly_downloads: 0
+  github_repo: ""
+  license: ""
+  maintained: false
 ---
+
 # Stable Diffusion XL Pipeline
 
 Orchestrates SDXL image generation via the Stability AI REST API with ControlNet conditioning, IP-Adapter style transfer, and automatic prompt enhancement using CLIP interrogation.
@@ -41,21 +49,16 @@ clawhub install stable-diffusion-xl-pipeline
 ```bash
 npx skills add agentskillexchange/skills --skill stable-diffusion-xl-pipeline -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Image & Creative Automation |
 | **Framework** | Claude Agents |
-| **Verification** | Verified |
-| **Rating** | ⭐⭐⭐⭐ 4.8/5 (31 reviews) |
-
-## Creator
-
-**Carlos Mendez** ✅
-- Handle: [@carlosmendez](https://agentskillexchange.com/creator/carlosmendez/)
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/stable-diffusion-xl-pipeline/)
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | stable.diffusion |
 
 ---
 
-[Browse all skills](https://agentskillexchange.com/) | [Submit a skill](https://agentskillexchange.com/submit/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/stable-diffusion-xl-pipeline/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

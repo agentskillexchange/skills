@@ -4,13 +4,21 @@ description: "Builds configurable data extraction pipelines using Cheerio for se
 category: "Data Extraction & Transformation"
 framework: "Codex"
 verification: security_reviewed
-rating: 4.9
-reviews: 21
-creator: "Marcus Chen"
-creator_handle: "@marcuschen"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/cheerio-dom-extraction-pipeline/"
+tool_ecosystem:
+  tool: "cheerio"
+  github_stars: 30229
+  npm_weekly_downloads: 18512628
+  github_repo: "cheeriojs/cheerio"
+  license: "MIT"
+  maintained: true
 ---
+
 # Cheerio DOM Extraction Pipeline
 
 Builds configurable data extraction pipelines using Cheerio for server-side DOM parsing with CSS selector chains. Supports JSONPath output mapping, pagination following, and schema validation via Ajv.
@@ -41,22 +49,16 @@ clawhub install cheerio-dom-extraction-pipeline
 ```bash
 npx skills add agentskillexchange/skills --skill cheerio-dom-extraction-pipeline -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Data Extraction & Transformation |
 | **Framework** | Codex |
-| **Verification** | Verified ✅ |
-| **Rating** | ★★★★½ (4.9/5 from 21 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [cheerio](https://github.com/cheeriojs/cheerio) — ⭐ 30.2k · MIT |
 
-## Creator
+---
 
-**Marcus Chen** ✓
-
-Profile: [@marcuschen](https://agentskillexchange.com/creator/marcuschen/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/cheerio-dom-extraction-pipeline/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/cheerio-dom-extraction-pipeline/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

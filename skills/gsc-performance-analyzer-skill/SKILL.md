@@ -4,13 +4,14 @@ description: "Pulls search analytics from Google Search Console’s /searchanaly
 category: "Content Writing & SEO"
 framework: "Custom Agents"
 verification: security_reviewed
-rating: 4.8
-reviews: 8
-creator: "Hannah Berg"
-creator_handle: "@hannahberg"
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/gsc-performance-analyzer-skill/"
 ---
+
 # Google Search Console Performance Analyzer
 
 Pulls search analytics from Google Search Console’s /searchanalytics/query API to identify declining pages and keyword cannibalization. Calculates CTR optimization opportunities by comparing actual vs expected click-through rates.
@@ -41,17 +42,15 @@ clawhub install gsc-performance-analyzer-skill
 ```bash
 npx skills add agentskillexchange/skills --skill gsc-performance-analyzer-skill -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Content Writing & SEO |
 | **Framework** | Custom Agents |
-| **Verification** | Verified & Security Reviewed |
-| **Rating** | ⭐ 4.8 (8 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
 
-## Creator
+---
 
-**Hannah Berg** @hannahberg 
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/gsc-performance-analyzer-skill/) · [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/gsc-performance-analyzer-skill/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

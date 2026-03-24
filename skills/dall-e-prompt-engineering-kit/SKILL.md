@@ -3,14 +3,22 @@ name: "DALL-E Prompt Engineering Kit"
 description: "Structured prompt generation for OpenAI’s DALL-E 3 API (images/generations endpoint) with style modifiers, aspect ratio control, and batch variation generation. Includes negative prompt patterns and quality presets."
 category: "Image & Creative Automation"
 framework: "ChatGPT Agents"
-verification: listed
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/dall-e-prompt-engineering-kit/"
+tool_ecosystem:
+  tool: "openai"
+  github_stars: 10761
+  npm_weekly_downloads: 16275389
+  github_repo: "openai/openai-node"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # DALL-E Prompt Engineering Kit
 
 Structured prompt generation for OpenAI’s DALL-E 3 API (images/generations endpoint) with style modifiers, aspect ratio control, and batch variation generation. Includes negative prompt patterns and quality presets.
@@ -41,17 +49,16 @@ clawhub install dall-e-prompt-engineering-kit
 ```bash
 npx skills add agentskillexchange/skills --skill dall-e-prompt-engineering-kit -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Image & Creative Automation |
 | **Framework** | ChatGPT Agents |
-| **Verification** | community |
-| **Rating** | 4.2/5 (0 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [openai](https://github.com/openai/openai-node) — ⭐ 10.8k · Apache-2.0 |
 
-## Creator
+---
 
-**Community** · Community
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/dall-e-prompt-engineering-kit/) · [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/dall-e-prompt-engineering-kit/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

@@ -3,14 +3,22 @@ name: "Apify Actor Runner"
 description: "Executes Apify cloud actors for structured web scraping with automatic dataset export to S3. Supports actor input schema validation and webhook-based run completion notifications."
 category: "Research & Scraping"
 framework: "Codex"
-verification: verified_metadata
-rating: 4.7
-reviews: 68
-creator: "Ben Taylor"
-creator_handle: "@bentaylor"
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/apify-actor-runner/"
+tool_ecosystem:
+  tool: "apify"
+  github_stars: 3594
+  npm_weekly_downloads: 44900
+  github_repo: "aws/aws-sdk-js-v3"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Apify Actor Runner
 
 Executes Apify cloud actors for structured web scraping with automatic dataset export to S3. Supports actor input schema validation and webhook-based run completion notifications.
@@ -41,21 +49,16 @@ clawhub install apify-actor-runner
 ```bash
 npx skills add agentskillexchange/skills --skill apify-actor-runner -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Research & Scraping |
 | **Framework** | Codex |
-| **Verification** | Verified |
-| **Rating** | ⭐⭐⭐⭐ 4.7/5 (68 reviews) |
-
-## Creator
-
-**Ben Taylor**
-- Handle: [@bentaylor](https://agentskillexchange.com/creator/bentaylor/)
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/apify-actor-runner/)
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [apify](https://github.com/aws/aws-sdk-js-v3) — ⭐ 3.6k · Apache-2.0 |
 
 ---
 
-[Browse all skills](https://agentskillexchange.com/) | [Submit a skill](https://agentskillexchange.com/submit/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/apify-actor-runner/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

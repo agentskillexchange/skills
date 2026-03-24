@@ -2,15 +2,23 @@
 name: "PostgreSQL Performance Diagnostic Suite"
 description: "Diagnoses PostgreSQL performance issues using pg_stat_statements, pg_stat_activity, and EXPLAIN ANALYZE. Integrates with pgBadger for log analysis and pg_stat_user_tables for index recommendations."
 category: "Runbooks & Diagnostics"
-framework: "MCP"
+framework: "MCP-compatible"
 verification: listed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/postgresql-performance-diagnostic-suite/"
+tool_ecosystem:
+  tool: "postgresql"
+  github_stars: 0
+  npm_weekly_downloads: 21413502
+  github_repo: ""
+  license: ""
+  maintained: false
 ---
+
 # PostgreSQL Performance Diagnostic Suite
 
 Diagnoses PostgreSQL performance issues using pg_stat_statements, pg_stat_activity, and EXPLAIN ANALYZE. Integrates with pgBadger for log analysis and pg_stat_user_tables for index recommendations.
@@ -41,22 +49,16 @@ clawhub install postgresql-performance-diagnostic-suite
 ```bash
 npx skills add agentskillexchange/skills --skill postgresql-performance-diagnostic-suite -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
-| Category | Runbooks & Diagnostics |
-| Framework | MCP-compatible |
-| Verification |  |
-| Rating | 0 ⭐ |
+| | |
+|---|---|
+| **Category** | Runbooks & Diagnostics |
+| **Framework** | MCP-compatible |
+| **Verification** | 📋 Listed |
+| **Tool** | postgresql |
 
-## Creator
+---
 
-**Community**
-
-[View Profile](https://agentskillexchange.com/skills/postgresql-performance-diagnostic-suite/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/postgresql-performance-diagnostic-suite/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/postgresql-performance-diagnostic-suite/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

@@ -4,13 +4,21 @@ description: "Creates and manages Slack workflows using @slack/bolt and @slack/w
 category: "Calendar, Email & Productivity"
 framework: "Cursor"
 verification: security_reviewed
-rating: 4.8
-reviews: 82
-creator: "Carlos Mendez"
-creator_handle: "@carlosmendez"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/slack-workflow-builder-agent/"
+tool_ecosystem:
+  tool: "slack"
+  github_stars: 2900
+  npm_weekly_downloads: 2433529
+  github_repo: "slackapi/bolt-js"
+  license: "MIT"
+  maintained: true
 ---
+
 # Slack Workflow Builder Agent
 
 Creates and manages Slack workflows using @slack/bolt and @slack/web-api. Builds interactive modals with Block Kit, handles slash commands, and orchestrates multi-step approval flows via Slack Events API.
@@ -41,22 +49,16 @@ clawhub install slack-workflow-builder-agent
 ```bash
 npx skills add agentskillexchange/skills --skill slack-workflow-builder-agent -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Calendar, Email & Productivity |
 | **Framework** | Cursor |
-| **Verification** | Verified & Security Reviewed |
-| **Rating** | 4.8 ⭐ (82 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [slack](https://github.com/slackapi/bolt-js) — ⭐ 2.9k · MIT |
 
-## Creator
+---
 
-**Carlos Mendez** ✓
-Handle: @carlosmendez
-[View Profile](https://agentskillexchange.com/creator/carlosmendez/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/slack-workflow-builder-agent/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/slack-workflow-builder-agent/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

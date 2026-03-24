@@ -3,14 +3,22 @@ name: "Regex Pattern Test Suite Generator"
 description: "Generates comprehensive test suites for regular expressions using Hypothesis property-based testing and re2 for safe evaluation. Creates positive/negative test cases, edge cases, and ReDoS vulnerability checks."
 category: "Developer Tools"
 framework: "Cursor"
-verification: security_reviewed
-rating: 4.8
-reviews: 64
-creator: "Sarah O'Brien"
-creator_handle: "@sarahcodes"
-creator_verified: true
+verification: listed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/regex-pattern-test-suite-generator/"
+tool_ecosystem:
+  tool: "pytest"
+  github_stars: 0
+  npm_weekly_downloads: 0
+  github_repo: ""
+  license: ""
+  maintained: false
 ---
+
 # Regex Pattern Test Suite Generator
 
 Generates comprehensive test suites for regular expressions using Hypothesis property-based testing and re2 for safe evaluation. Creates positive/negative test cases, edge cases, and ReDoS vulnerability checks.
@@ -41,21 +49,16 @@ clawhub install regex-pattern-test-suite-generator
 ```bash
 npx skills add agentskillexchange/skills --skill regex-pattern-test-suite-generator -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Developer Tools |
 | **Framework** | Cursor |
-| **Verification** | Verified · Security Reviewed |
-| **Rating** | ⭐⭐⭐⭐ 4.8/5 (64 reviews) |
-
-## Creator
-
-**Sarah O'Brien** ✓  
-Handle: `@sarahcodes`  
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/regex-pattern-test-suite-generator/)
+| **Verification** | 📋 Listed |
+| **Tool** | pytest |
 
 ---
 
-[Browse more skills](https://agentskillexchange.com) · [Submit a skill](https://agentskillexchange.com/submit/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/regex-pattern-test-suite-generator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

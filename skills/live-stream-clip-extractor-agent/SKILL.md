@@ -1,19 +1,27 @@
 ---
 name: "Live Stream Clip Extractor"
-description: "Automatically extracts highlight clips from live streams using transcript analysis, engagement signals, and scene detection to create shareable short-form content."
+description: "Extracts highlight clips from live streams using Twitch Helix API, YouTube Live Streaming API, and FFmpeg segment detection. Identifies peak moments via chat velocity analysis and audio energy spikes."
 category: "Media & Transcription"
 framework: "ChatGPT Agents"
 verification: security_reviewed
-rating: 4.7
-reviews: 54
-creator: "Sarah O'Brien"
-creator_handle: "@sarahcodes"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/live-stream-clip-extractor-agent/"
+tool_ecosystem:
+  tool: "ffmpeg"
+  github_stars: 58257
+  npm_weekly_downloads: 0
+  github_repo: "FFmpeg/FFmpeg"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # Live Stream Clip Extractor
 
-Automatically extracts highlight clips from live streams using transcript analysis, engagement signals, and scene detection to create shareable short-form content.
+Extracts highlight clips from live streams using Twitch Helix API, YouTube Live Streaming API, and FFmpeg segment detection. Identifies peak moments via chat velocity analysis and audio energy spikes.
 
 ## Installation
 
@@ -41,21 +49,16 @@ clawhub install live-stream-clip-extractor-agent
 ```bash
 npx skills add agentskillexchange/skills --skill live-stream-clip-extractor-agent -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Media & Transcription |
 | **Framework** | ChatGPT Agents |
-| **Verification** | ✅ Verified |
-| **Rating** | 4.7 ⭐⭐⭐⭐ (54 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [ffmpeg](https://github.com/FFmpeg/FFmpeg) — ⭐ 58.3k · NOASSERTION |
 
-## Creator
+---
 
-**Sarah O'Brien** ✅
-[View Profile](https://agentskillexchange.com/creator/sarahcodes/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/live-stream-clip-extractor-agent/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/live-stream-clip-extractor-agent/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

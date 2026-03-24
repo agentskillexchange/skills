@@ -3,14 +3,22 @@ name: "ArgoCD Sync Manager"
 description: "Manages ArgoCD application syncs via the ArgoCD REST API /api/v1/applications/{name}/sync endpoint. Monitors sync status, handles rollback operations, and validates Kubernetes manifest health using argocd CLI diff commands."
 category: "CI/CD Integrations"
 framework: "Claude Agents"
-verification: verified_metadata
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/argocd-sync-manager-skill/"
+tool_ecosystem:
+  tool: "argocd"
+  github_stars: 22391
+  npm_weekly_downloads: 0
+  github_repo: "argoproj/argo-cd"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # ArgoCD Sync Manager
 
 Manages ArgoCD application syncs via the ArgoCD REST API /api/v1/applications/{name}/sync endpoint. Monitors sync status, handles rollback operations, and validates Kubernetes manifest health using argocd CLI diff commands.
@@ -41,21 +49,16 @@ clawhub install argocd-sync-manager-skill
 ```bash
 npx skills add agentskillexchange/skills --skill argocd-sync-manager-skill -a codex
 ```
+
 ## Details
 
 | | |
 |---|---|
 | **Category** | CI/CD Integrations |
 | **Framework** | Claude Agents |
-| **Verification** | verified_metadata |
-| **Rating** |  (0/5 from 0 reviews) |
-
-## Creator
-
-**Community**
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/argocd-sync-manager-skill/)
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [argocd](https://github.com/argoproj/argo-cd) — ⭐ 22.4k · Apache-2.0 |
 
 ---
 
-[Browse more skills](https://agentskillexchange.com) | [Agent Skill Exchange](https://agentskillexchange.com/skills/argocd-sync-manager-skill/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/argocd-sync-manager-skill/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

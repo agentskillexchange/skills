@@ -4,64 +4,61 @@ description: "Diagnoses Kafka consumer group lag using the Kafka AdminClient API
 category: "Runbooks & Diagnostics"
 framework: "Cursor"
 verification: security_reviewed
-rating: 4.3
-reviews: 86
-creator: "Isabella Rossi"
-creator_handle: "@irossi"
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/apache-kafka-consumer-lag-runbook/"
+tool_ecosystem:
+  tool: "kafka"
+  github_stars: 3987
+  npm_weekly_downloads: 2396148
+  github_repo: "tulios/kafkajs"
+  license: "MIT"
+  maintained: false
 ---
+
 # Apache Kafka Consumer Lag Runbook
 
 Diagnoses Kafka consumer group lag using the Kafka AdminClient API and JMX metrics exposed via the Confluent Metrics API. Identifies slow consumers, topic partition hotspots, and broker rebalance storms that contribute to lag growth. Provides a step-by-step runbook to tune fetch.min.bytes, max.poll.records, and partition count.
 
 ## Installation
 
-### Any agent (npx skills)
-
+### Any Agent (npx)
 ```bash
 npx skills add agentskillexchange/skills --skill apache-kafka-consumer-lag-runbook
 ```
 
 ### Claude Code
-
 ```bash
 npx skills add agentskillexchange/skills --skill apache-kafka-consumer-lag-runbook -a claude-code
 ```
 
 ### Cursor
-
 ```bash
 npx skills add agentskillexchange/skills --skill apache-kafka-consumer-lag-runbook -a cursor
 ```
 
 ### OpenClaw
-
 ```bash
 clawhub install apache-kafka-consumer-lag-runbook
 ```
 
 ### Codex
-
 ```bash
 npx skills add agentskillexchange/skills --skill apache-kafka-consumer-lag-runbook -a codex
 ```
 
 ## Details
 
-| Field | Value |
-|-------|-------|
-| Category | Runbooks & Diagnostics |
-| Framework | Cursor |
-| Verification | Security Reviewed |
-| Rating | 4.3/5 (86 reviews) |
+| | |
+|---|---|
+| **Category** | Runbooks & Diagnostics |
+| **Framework** | Cursor |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [kafka](https://github.com/tulios/kafkajs) — ⭐ 4.0k · MIT |
 
-## Creator
+---
 
-**Isabella Rossi**
-- Profile: [@irossi](https://agentskillexchange.com/browse-skills/?creator=irossi)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/apache-kafka-consumer-lag-runbook/)
-- [Browse all skills](https://agentskillexchange.com/browse-skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/apache-kafka-consumer-lag-runbook/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

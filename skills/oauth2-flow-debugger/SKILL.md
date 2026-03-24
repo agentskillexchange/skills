@@ -4,14 +4,14 @@ description: "Inspects and debugs OAuth 2.0 authorization flows including PKCE, 
 category: "Security & Verification"
 framework: "ChatGPT Agents"
 verification: security_reviewed
-rating: 4.8
-reviews: 46
-creator: "Grace Okafor"
-creator_handle: "@graceokafor"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/oauth2-flow-debugger/"
-security: "✅ Reviewed"
 ---
+
 # OAuth2 Flow Debugger
 
 Inspects and debugs OAuth 2.0 authorization flows including PKCE, client credentials, and device code grants. Uses jose JWT library and node-fetch to validate tokens, decode claims, and trace redirect chains.
@@ -42,19 +42,15 @@ clawhub install oauth2-flow-debugger
 ```bash
 npx skills add agentskillexchange/skills --skill oauth2-flow-debugger -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Security & Verification |
 | **Framework** | ChatGPT Agents |
-| **Verification** | ✅ Verified |
-| **Security** | ✅ Reviewed |
-| **Rating** | ⭐ 4.8 (46 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
 
-## Creator
+---
 
-**Grace Okafor** ✅
-@graceokafor
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/oauth2-flow-debugger/) • [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/oauth2-flow-debugger/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

@@ -4,14 +4,21 @@ description: "Manages Datadog monitors and dashboards via the Datadog REST API v
 category: "Monitoring & Alerts"
 framework: "OpenClaw"
 verification: security_reviewed
-rating: 4.2
-reviews: 85
-creator: "Aisha Patel"
-creator_handle: "@aishapatel"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/datadog-monitor-configurator-2/"
-security: "✅ Reviewed"
+tool_ecosystem:
+  tool: "datadog"
+  github_stars: 787
+  npm_weekly_downloads: 6043057
+  github_repo: "DataDog/dd-trace-js"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # Datadog Monitor Configurator
 
 Manages Datadog monitors and dashboards via the Datadog REST API v2. Creates metric, log, and APM monitors with composite conditions and configures notification routing through @-mention integrations.
@@ -42,19 +49,16 @@ clawhub install datadog-monitor-configurator-2
 ```bash
 npx skills add agentskillexchange/skills --skill datadog-monitor-configurator-2 -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Monitoring & Alerts |
 | **Framework** | OpenClaw |
-| **Verification** | ✅ Verified |
-| **Security** | ✅ Reviewed |
-| **Rating** | ⭐ 4.2 (85 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [datadog](https://github.com/DataDog/dd-trace-js) — ⭐ 787 · NOASSERTION |
 
-## Creator
+---
 
-**Aisha Patel** ✅
-Handle: `@aishapatel`
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/datadog-monitor-configurator-2/) · [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/datadog-monitor-configurator-2/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

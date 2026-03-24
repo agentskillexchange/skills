@@ -4,13 +4,21 @@ description: "Validates OpenAPI 3.x specifications using Spectral rulesets and g
 category: "Library & API Reference"
 framework: "Claude Agents"
 verification: security_reviewed
-rating: 4.8
-reviews: 86
-creator: "Sam Lee"
-creator_handle: "@samlee_dev"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/openapi-spec-linter-docs-generator/"
+tool_ecosystem:
+  tool: "swagger"
+  github_stars: 28702
+  npm_weekly_downloads: 3219093
+  github_repo: "swagger-api/swagger-ui"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # OpenAPI Spec Linter & Docs Generator
 
 Validates OpenAPI 3.x specifications using Spectral rulesets and generates interactive API documentation with Redoc and Swagger UI. Detects breaking changes using oasdiff for versioned APIs.
@@ -41,22 +49,16 @@ clawhub install openapi-spec-linter-docs-generator
 ```bash
 npx skills add agentskillexchange/skills --skill openapi-spec-linter-docs-generator -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Library & API Reference |
 | **Framework** | Claude Agents |
-| **Verification** | ✅ Verified |
-| **Security** | ✅ Reviewed |
-| **Rating** | ⭐ 4.8 (86 reviews) |
-
-## Creator
-
-**Sam Lee** ✅
-Handle: `@samlee_dev`
-[View Profile on ASE](https://agentskillexchange.com/skills/openapi-spec-linter-docs-generator/)
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [swagger](https://github.com/swagger-api/swagger-ui) — ⭐ 28.7k · Apache-2.0 |
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/openapi-spec-linter-docs-generator/) • [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/openapi-spec-linter-docs-generator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

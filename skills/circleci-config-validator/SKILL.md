@@ -4,13 +4,21 @@ description: "Validates and optimizes CircleCI configuration files using the Cir
 category: "CI/CD Integrations"
 framework: "Claude Agents"
 verification: security_reviewed
-rating: 4.3
-reviews: 48
-creator: "Community"
+rating: 0
+reviews: 0
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/circleci-config-validator/"
+tool_ecosystem:
+  tool: "circleci"
+  github_stars: 842
+  npm_weekly_downloads: 0
+  github_repo: "circleci/circleci-docs"
+  license: "Unknown"
+  maintained: true
 ---
+
 # CircleCI Config Validator
 
 Validates and optimizes CircleCI configuration files using the CircleCI v2 API and circleci config validate CLI. Analyzes orb usage, parallelism settings, and resource class allocation.
@@ -41,17 +49,16 @@ clawhub install circleci-config-validator
 ```bash
 npx skills add agentskillexchange/skills --skill circleci-config-validator -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | CI/CD Integrations |
 | **Framework** | Claude Agents |
-| **Verification** | 🔒 Security Reviewed |
-| **Rating** | ⭐⭐⭐⭐ 4.3/5 (48 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [circleci](https://github.com/circleci/circleci-docs) — ⭐ 842 · Unknown |
 
-## Creator
+---
 
-**Community**
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-config-validator/) · [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-config-validator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

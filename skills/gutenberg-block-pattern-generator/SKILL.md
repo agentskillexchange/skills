@@ -1,19 +1,27 @@
 ---
 name: "Gutenberg Block Pattern Generator"
-description: "Creates custom Gutenberg block patterns from natural language descriptions, generating valid PHP registration code and block markup for WordPress themes and plugins."
+description: "Generates custom WordPress Gutenberg block patterns using register_block_pattern() and the Block Editor API. Creates reusable pattern categories with register_block_pattern_category() for organized content libraries."
 category: "WordPress & CMS"
 framework: "Claude Code"
 verification: security_reviewed
-rating: 4.8
-reviews: 86
-creator: "Grace Okafor"
-creator_handle: "@graceokafor"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/gutenberg-block-pattern-generator/"
+tool_ecosystem:
+  tool: "wordpress"
+  github_stars: 20973
+  npm_weekly_downloads: 0
+  github_repo: "WordPress/WordPress"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # Gutenberg Block Pattern Generator
 
-Creates custom Gutenberg block patterns from natural language descriptions, generating valid PHP registration code and block markup for WordPress themes and plugins.
+Generates custom WordPress Gutenberg block patterns using register_block_pattern() and the Block Editor API. Creates reusable pattern categories with register_block_pattern_category() for organized content libraries.
 
 ## Installation
 
@@ -41,21 +49,16 @@ clawhub install gutenberg-block-pattern-generator
 ```bash
 npx skills add agentskillexchange/skills --skill gutenberg-block-pattern-generator -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | WordPress & CMS |
 | **Framework** | Claude Code |
-| **Verification** | ✅ Verified |
-| **Rating** | 4.8 ⭐⭐⭐⭐ (86 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [wordpress](https://github.com/WordPress/WordPress) — ⭐ 21.0k · NOASSERTION |
 
-## Creator
+---
 
-**Grace Okafor** ✅
-[View Profile](https://agentskillexchange.com/creator/graceokafor/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/gutenberg-block-pattern-generator/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/gutenberg-block-pattern-generator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

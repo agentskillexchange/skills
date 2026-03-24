@@ -3,14 +3,22 @@ name: "Selenium Grid Orchestrator"
 description: "Manages Selenium Grid 4 hub and node registration for cross-browser parallel testing. Configures Chrome, Firefox, and Edge nodes with resource allocation policies."
 category: "Browser Automation"
 framework: "OpenClaw"
-verification: security_reviewed
-rating: 4.5
-reviews: 86
-creator: "Leo Park"
-creator_handle: "@leopark_ai"
-creator_verified: true
+verification: listed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/selenium-grid-orchestrator/"
+tool_ecosystem:
+  tool: "selenium"
+  github_stars: 34169
+  npm_weekly_downloads: 2000657
+  github_repo: "SeleniumHQ/selenium"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Selenium Grid Orchestrator
 
 Manages Selenium Grid 4 hub and node registration for cross-browser parallel testing. Configures Chrome, Firefox, and Edge nodes with resource allocation policies.
@@ -41,22 +49,16 @@ clawhub install selenium-grid-orchestrator
 ```bash
 npx skills add agentskillexchange/skills --skill selenium-grid-orchestrator -a codex
 ```
+
 ## Details
 
 | | |
 |---|---|
 | **Category** | Browser Automation |
 | **Framework** | OpenClaw |
-| **Verification** | ✅ Verified |
-| **Security** | 🔒 Reviewed |
-| **Rating** | ⭐⭐⭐⭐ 4.5/5 (86 reviews) |
-
-## Creator
-
-**Leo Park** ✅
-Handle: `@leopark_ai`
-[View Profile on ASE](https://agentskillexchange.com/skills/selenium-grid-orchestrator/)
+| **Verification** | 📋 Listed |
+| **Tool** | [selenium](https://github.com/SeleniumHQ/selenium) — ⭐ 34.2k · Apache-2.0 |
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/selenium-grid-orchestrator/) | [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/selenium-grid-orchestrator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

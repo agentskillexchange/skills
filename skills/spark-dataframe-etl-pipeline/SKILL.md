@@ -5,12 +5,20 @@ category: "Data Extraction & Transformation"
 framework: "OpenClaw"
 verification: security_reviewed
 rating: 0
-reviews: 86
-creator: "David Nguyen"
-creator_handle: "@davidnguyen"
-creator_verified: true
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/spark-dataframe-etl-pipeline/"
+tool_ecosystem:
+  tool: "spark"
+  github_stars: 3594
+  npm_weekly_downloads: 9204385
+  github_repo: "aws/aws-sdk-js-v3"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Apache Spark DataFrame ETL Pipeline
 
 Automates PySpark DataFrame transformations including schema inference, partition pruning, and Delta Lake merge operations. Integrates with AWS Glue Data Catalog and Apache Iceberg table formats for lakehouse architectures.
@@ -41,18 +49,16 @@ clawhub install spark-dataframe-etl-pipeline
 ```bash
 npx skills add agentskillexchange/skills --skill spark-dataframe-etl-pipeline -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Data Extraction & Transformation |
 | **Framework** | OpenClaw |
-| **Verification** | ✅ Verified |
-| **Rating** | ⭐ 4.9 (86 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [spark](https://github.com/aws/aws-sdk-js-v3) — ⭐ 3.6k · Apache-2.0 |
 
-## Creator
+---
 
-**David Nguyen** ✅
-Handle: `@davidnguyen`
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/spark-dataframe-etl-pipeline/) · [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/spark-dataframe-etl-pipeline/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

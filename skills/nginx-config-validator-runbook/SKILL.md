@@ -3,14 +3,22 @@ name: "Nginx Config Validator Runbook"
 description: "Validates Nginx configurations using nginx -t syntax checking, the crossplane Python parser for structural analysis, and gixy security analyzer. Detects misconfigurations, SSL issues, and security vulnerabilities."
 category: "Runbooks & Diagnostics"
 framework: "Claude Agents"
-verification: security_reviewed
-rating: 4.8
-reviews: 83
-creator: "Community"
+verification: listed
+rating: 0
+reviews: 0
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/nginx-config-validator-runbook/"
+tool_ecosystem:
+  tool: "nginx"
+  github_stars: 29762
+  npm_weekly_downloads: 0
+  github_repo: "nginx/nginx"
+  license: "BSD-2-Clause"
+  maintained: true
 ---
+
 # Nginx Config Validator Runbook
 
 Validates Nginx configurations using nginx -t syntax checking, the crossplane Python parser for structural analysis, and gixy security analyzer. Detects misconfigurations, SSL issues, and security vulnerabilities.
@@ -41,19 +49,16 @@ clawhub install nginx-config-validator-runbook
 ```bash
 npx skills add agentskillexchange/skills --skill nginx-config-validator-runbook -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Runbooks & Diagnostics |
 | **Framework** | Claude Agents |
-| **Verification** | Security Reviewed |
-| **Rating** | ⭐⭐⭐⭐ 4.8/5 (83 reviews) |
+| **Verification** | 📋 Listed |
+| **Tool** | [nginx](https://github.com/nginx/nginx) — ⭐ 29.8k · BSD-2-Clause |
 
-## Creator
+---
 
-**Community**
-
-
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/nginx-config-validator-runbook/) · [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/nginx-config-validator-runbook/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

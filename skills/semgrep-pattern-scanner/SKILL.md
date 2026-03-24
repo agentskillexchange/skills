@@ -4,13 +4,21 @@ description: "Executes Semgrep CLI with custom YAML rules and the Semgrep Regist
 category: "Code Quality & Review"
 framework: "Claude Code"
 verification: security_reviewed
-rating: 4.8
-reviews: 83
-creator: "Community"
+rating: 0
+reviews: 0
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/semgrep-pattern-scanner/"
+tool_ecosystem:
+  tool: "semgrep"
+  github_stars: 14543
+  npm_weekly_downloads: 0
+  github_repo: "semgrep/semgrep"
+  license: "LGPL-2.1"
+  maintained: true
 ---
+
 # Semgrep Pattern Scanner
 
 Executes Semgrep CLI with custom YAML rules and the Semgrep Registry API to detect anti-patterns, vulnerabilities, and taint tracking violations. Outputs SARIF-formatted results for GitHub Security tab integration.
@@ -41,22 +49,16 @@ clawhub install semgrep-pattern-scanner
 ```bash
 npx skills add agentskillexchange/skills --skill semgrep-pattern-scanner -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Code Quality & Review |
 | **Framework** | Claude Code |
-| **Verification** | 🔒 Security Reviewed |
-| **Rating** | ⭐⭐⭐⭐ 4.8/5 (83 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [semgrep](https://github.com/semgrep/semgrep) — ⭐ 14.5k · LGPL-2.1 |
 
-## Creator
+---
 
-**Community**
-
-
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/semgrep-pattern-scanner/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/semgrep-pattern-scanner/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

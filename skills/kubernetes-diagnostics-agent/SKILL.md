@@ -3,14 +3,22 @@ name: "Kubernetes Diagnostics Agent"
 description: "Performs deep cluster troubleshooting using the Kubernetes API server /debug/pprof endpoints and kubectl-debug ephemeral containers. Analyzes resource pressure via the Metrics Server API and kube-state-metrics."
 category: "Runbooks & Diagnostics"
 framework: "Claude Code"
-verification: verified_metadata
-rating: 4.6
-reviews: 35
-creator: "Leo Park"
-creator_handle: "@leopark_ai"
-creator_verified: true
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/kubernetes-diagnostics-agent/"
+tool_ecosystem:
+  tool: "kubernetes"
+  github_stars: 121313
+  npm_weekly_downloads: 0
+  github_repo: "kubernetes/kubernetes"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Kubernetes Diagnostics Agent
 
 Performs deep cluster troubleshooting using the Kubernetes API server /debug/pprof endpoints and kubectl-debug ephemeral containers. Analyzes resource pressure via the Metrics Server API and kube-state-metrics.
@@ -41,18 +49,16 @@ clawhub install kubernetes-diagnostics-agent
 ```bash
 npx skills add agentskillexchange/skills --skill kubernetes-diagnostics-agent -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Runbooks & Diagnostics |
 | **Framework** | Claude Code |
-| **Verification** | Verified |
-| **Rating** | ⭐⭐⭐⭐ 4.6/5 (35 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [kubernetes](https://github.com/kubernetes/kubernetes) — ⭐ 121.3k · Apache-2.0 |
 
-## Creator
+---
 
-**Leo Park** (@leopark_ai)
-✓ Verified Creator
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-diagnostics-agent/) | [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-diagnostics-agent/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

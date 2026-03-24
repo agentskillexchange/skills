@@ -4,13 +4,21 @@ description: "Enhances OpenAI Whisper transcription output with speaker diarizat
 category: "Media & Transcription"
 framework: "Claude Code"
 verification: security_reviewed
-rating: 4.8
-reviews: 74
-creator: "Hannah Berg"
-creator_handle: "@hannahberg"
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/whisper-diarization-post-processor/"
+tool_ecosystem:
+  tool: "whisper"
+  github_stars: 10761
+  npm_weekly_downloads: 16275389
+  github_repo: "openai/openai-node"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Whisper Diarization Post-Processor
 
 Enhances OpenAI Whisper transcription output with speaker diarization using pyannote.audio pipeline and speechbrain embeddings. Aligns word-level timestamps from whisper-timestamped with speaker segments for multi-speaker meeting transcript generation.
@@ -41,21 +49,16 @@ clawhub install whisper-diarization-post-processor
 ```bash
 npx skills add agentskillexchange/skills --skill whisper-diarization-post-processor -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Media & Transcription |
 | **Framework** | Claude Code |
-| **Verification** | ✅ Verified 🔒 Reviewed |
-| **Rating** | ⭐⭐⭐⭐ 4.8/5 (74 reviews) |
-
-## Creator
-
-**Hannah Berg** 
-Handle: `@hannahberg`
-[View Profile on ASE](https://agentskillexchange.com/skills/whisper-diarization-post-processor/)
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [whisper](https://github.com/openai/openai-node) — ⭐ 10.8k · Apache-2.0 |
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/whisper-diarization-post-processor/) · [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/whisper-diarization-post-processor/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

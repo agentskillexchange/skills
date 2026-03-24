@@ -1,16 +1,17 @@
 ---
 name: "Hemingway Readability Analyzer API"
-description: "Scores content readability using textstat library metrics (Flesch-Kincaid, Gunning Fog, SMOG, Coleman-Liau). Highlights complex sentences, passive voice via spaCy dependency parsing, and adverb den..."
+description: "Scores content readability using textstat library metrics (Flesch-Kincaid, Gunning Fog, SMOG, Coleman-Liau). Highlights complex sentences, passive voice via spaCy dependency parsing, and adverb density."
 category: "Content Writing & SEO"
 framework: "Cursor"
 verification: listed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/hemingway-readability-analyzer-api/"
 ---
+
 # Hemingway Readability Analyzer API
 
 Scores content readability using textstat library metrics (Flesch-Kincaid, Gunning Fog, SMOG, Coleman-Liau). Highlights complex sentences, passive voice via spaCy dependency parsing, and adverb density.
@@ -41,21 +42,15 @@ clawhub install hemingway-readability-analyzer-api
 ```bash
 npx skills add agentskillexchange/skills --skill hemingway-readability-analyzer-api -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Content Writing & SEO |
 | **Framework** | Cursor |
-| **Verification** |  |
-| **Rating** | Not yet rated (0 reviews) |
-
-## Creator
-
-**Community**
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/hemingway-readability-analyzer-api/)
+| **Verification** | 📋 Listed |
 
 ---
 
-[Browse more skills](https://agentskillexchange.com) | [Agent Skill Exchange](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/hemingway-readability-analyzer-api/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

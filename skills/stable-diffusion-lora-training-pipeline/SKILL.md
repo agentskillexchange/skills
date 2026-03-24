@@ -4,14 +4,21 @@ description: "Orchestrates LoRA fine-tuning for Stable Diffusion XL using the di
 category: "Image & Creative Automation"
 framework: "Custom Agents"
 verification: security_reviewed
-rating: 4.1
-reviews: 86
-creator: "Yuki Tanaka"
-creator_handle: "@yukitanaka"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/stable-diffusion-lora-training-pipeline/"
-security: "🔒 Reviewed"
+tool_ecosystem:
+  tool: "stable.diffusion"
+  github_stars: 0
+  npm_weekly_downloads: 0
+  github_repo: ""
+  license: ""
+  maintained: false
 ---
+
 # Stable Diffusion LoRA Training Pipeline
 
 Orchestrates LoRA fine-tuning for Stable Diffusion XL using the diffusers library and Kohya ss-scripts. Manages dataset preparation with BLIP-2 auto-captioning, configures AdaFactor optimizer parameters, and exports safetensors checkpoints with A1111 metadata embedding.
@@ -42,23 +49,16 @@ clawhub install stable-diffusion-lora-training-pipeline
 ```bash
 npx skills add agentskillexchange/skills --skill stable-diffusion-lora-training-pipeline -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Image & Creative Automation |
 | **Framework** | Custom Agents |
-| **Verification** | ✅ Verified |
-| **Security** | 🔒 Reviewed |
-| **Rating** | ⭐⭐⭐⭐ 4.1/5 (86 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | stable.diffusion |
 
-## Creator
+---
 
-**Yuki Tanaka** ✅
-Handle: `@yukitanaka`
-[View Profile on ASE](https://agentskillexchange.com/skills/stable-diffusion-lora-training-pipeline/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/stable-diffusion-lora-training-pipeline/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/stable-diffusion-lora-training-pipeline/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

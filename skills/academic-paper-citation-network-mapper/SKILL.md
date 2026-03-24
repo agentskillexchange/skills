@@ -4,13 +4,14 @@ description: "Builds citation networks from Semantic Scholar API and CrossRef DO
 category: "Research & Scraping"
 framework: "OpenClaw"
 verification: security_reviewed
-rating: 4.2
-reviews: 6
-creator: "David Nguyen"
-creator_handle: "@davidnguyen"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/academic-paper-citation-network-mapper/"
 ---
+
 # Academic Paper Citation Network Mapper
 
 Builds citation networks from Semantic Scholar API and CrossRef DOI metadata. Visualizes paper influence graphs using NetworkX, identifies seminal works, and tracks research lineage across fields.
@@ -41,21 +42,15 @@ clawhub install academic-paper-citation-network-mapper
 ```bash
 npx skills add agentskillexchange/skills --skill academic-paper-citation-network-mapper -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Research & Scraping |
 | **Framework** | OpenClaw |
-| **Verification** | Verified · Security Reviewed |
-| **Rating** | ⭐⭐⭐⭐ 4.2/5 (6 reviews) |
-
-## Creator
-
-**David Nguyen** ✓  
-Handle: `@davidnguyen`  
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/academic-paper-citation-network-mapper/)
+| **Verification** | 🛡️ Security Reviewed |
 
 ---
 
-[Browse more skills](https://agentskillexchange.com) · [Submit a skill](https://agentskillexchange.com/submit/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/academic-paper-citation-network-mapper/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

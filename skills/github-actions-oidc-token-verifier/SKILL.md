@@ -3,14 +3,22 @@ name: "GitHub Actions OIDC Token Verifier"
 description: "Verifies GitHub Actions OIDC tokens against the GitHub OIDC provider JWKS endpoint. Validates subject claims, audience restrictions, and repository ownership for secure cloud deployments."
 category: "CI/CD Integrations"
 framework: "Claude Code"
-verification: verified_metadata
-rating: 4.3
-reviews: 62
-creator: "Tom Wilson"
-creator_handle: "@tomwilson"
+verification: listed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/github-actions-oidc-token-verifier/"
+tool_ecosystem:
+  tool: "aws"
+  github_stars: 3594
+  npm_weekly_downloads: 9204385
+  github_repo: "aws/aws-sdk-js-v3"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # GitHub Actions OIDC Token Verifier
 
 Verifies GitHub Actions OIDC tokens against the GitHub OIDC provider JWKS endpoint. Validates subject claims, audience restrictions, and repository ownership for secure cloud deployments.
@@ -41,18 +49,16 @@ clawhub install github-actions-oidc-token-verifier
 ```bash
 npx skills add agentskillexchange/skills --skill github-actions-oidc-token-verifier -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | CI/CD Integrations |
 | **Framework** | Claude Code |
-| **Verification** | Verified |
-| **Rating** | ⭐⭐⭐⭐ 4.3/5 (62 reviews) |
+| **Verification** | 📋 Listed |
+| **Tool** | [aws](https://github.com/aws/aws-sdk-js-v3) — ⭐ 3.6k · Apache-2.0 |
 
-## Creator
+---
 
-**Tom Wilson** @tomwilson
-
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/github-actions-oidc-token-verifier/) · [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/github-actions-oidc-token-verifier/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

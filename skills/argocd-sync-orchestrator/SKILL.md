@@ -3,14 +3,22 @@ name: "ArgoCD Sync Orchestrator"
 description: "Manages ArgoCD application syncs using the argocd CLI and the Argo CD REST API (v1alpha1). Supports progressive delivery with Argo Rollouts integration and automated health checks via Kubernetes readiness probes."
 category: "CI/CD Integrations"
 framework: "ChatGPT Agents"
-verification: verified_metadata
-rating: 4.1
-reviews: 28
-creator: "Nina Volkov"
-creator_handle: "@ninavolkov"
-creator_verified: true
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/argocd-sync-orchestrator/"
+tool_ecosystem:
+  tool: "argocd"
+  github_stars: 22391
+  npm_weekly_downloads: 0
+  github_repo: "argoproj/argo-cd"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # ArgoCD Sync Orchestrator
 
 Manages ArgoCD application syncs using the argocd CLI and the Argo CD REST API (v1alpha1). Supports progressive delivery with Argo Rollouts integration and automated health checks via Kubernetes readiness probes.
@@ -41,22 +49,16 @@ clawhub install argocd-sync-orchestrator
 ```bash
 npx skills add agentskillexchange/skills --skill argocd-sync-orchestrator -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
-| Category | CI/CD Integrations |
-| Framework | ChatGPT Agents |
-| Verification | ✅ Verified |
-| Security Reviewed | ✅ Yes |
-| Rating | ⭐⭐⭐⭐ 4.1/5 (28 reviews) |
-
-## Creator
-
-**Nina Volkov** ✓
-Handle: `@ninavolkov`
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/argocd-sync-orchestrator/)
+| | |
+|---|---|
+| **Category** | CI/CD Integrations |
+| **Framework** | ChatGPT Agents |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [argocd](https://github.com/argoproj/argo-cd) — ⭐ 22.4k · Apache-2.0 |
 
 ---
 
-[Browse more skills](https://agentskillexchange.com) | [Submit a skill](https://agentskillexchange.com/submit/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/argocd-sync-orchestrator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

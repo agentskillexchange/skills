@@ -4,14 +4,21 @@ description: "Manages ArgoCD application deployments via the ArgoCD REST API and
 category: "CI/CD Integrations"
 framework: "Claude Code"
 verification: security_reviewed
-rating: 4.9
-reviews: 66
-creator: "Nina Volkov"
-creator_handle: "@ninavolkov"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/argocd-application-deployer/"
-security: "✅ Reviewed"
+tool_ecosystem:
+  tool: "argocd"
+  github_stars: 22391
+  npm_weekly_downloads: 0
+  github_repo: "argoproj/argo-cd"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # ArgoCD Application Deployer
 
 Manages ArgoCD application deployments via the ArgoCD REST API and argocd CLI. Configures GitOps sync policies, automated rollbacks, and multi-cluster application sets with generator templates.
@@ -42,19 +49,16 @@ clawhub install argocd-application-deployer
 ```bash
 npx skills add agentskillexchange/skills --skill argocd-application-deployer -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | CI/CD Integrations |
 | **Framework** | Claude Code |
-| **Verification** | ✅ Verified |
-| **Security** | ✅ Reviewed |
-| **Rating** | ⭐ 4.9 (66 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [argocd](https://github.com/argoproj/argo-cd) — ⭐ 22.4k · Apache-2.0 |
 
-## Creator
+---
 
-**Nina Volkov** ✅
-Handle: `@ninavolkov`
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/argocd-application-deployer/) · [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/argocd-application-deployer/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

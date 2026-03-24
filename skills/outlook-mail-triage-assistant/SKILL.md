@@ -4,13 +4,14 @@ description: "Automated email triage using Microsoft Graph API and @azure/msal-n
 category: "Calendar, Email & Productivity"
 framework: "Claude Code"
 verification: security_reviewed
-rating: 4.1
-reviews: 50
-creator: "Aisha Patel"
-creator_handle: "@aishapatel"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/outlook-mail-triage-assistant/"
 ---
+
 # Outlook Mail Triage Assistant
 
 Automated email triage using Microsoft Graph API and @azure/msal-node for OAuth. Classifies messages with zero-shot classification, applies Outlook rules, and manages focused inbox priorities.
@@ -41,22 +42,15 @@ clawhub install outlook-mail-triage-assistant
 ```bash
 npx skills add agentskillexchange/skills --skill outlook-mail-triage-assistant -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Calendar, Email & Productivity |
 | **Framework** | Claude Code |
-| **Verification** | Verified & Security Reviewed |
-| **Rating** | 4.1 ⭐ (50 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
 
-## Creator
+---
 
-**Aisha Patel** ✓
-Handle: @aishapatel
-[View Profile](https://agentskillexchange.com/creator/aishapatel/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/outlook-mail-triage-assistant/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/outlook-mail-triage-assistant/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

@@ -6,11 +6,12 @@ framework: "Gemini"
 verification: listed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/jq-pipeline-builder-agent/"
 ---
+
 # jq Pipeline Builder Agent
 
 Constructs complex jq filter pipelines from natural language queries against JSON/NDJSON data streams. Uses jq built-in functions including path expressions, reduce, and SQL-style operators.
@@ -41,20 +42,15 @@ clawhub install jq-pipeline-builder-agent
 ```bash
 npx skills add agentskillexchange/skills --skill jq-pipeline-builder-agent -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Data Extraction & Transformation |
 | **Framework** | Gemini |
-| **Verification** |  |
-| **Rating** | 0 (0 reviews) |
+| **Verification** | 📋 Listed |
 
-## Creator
+---
 
-**Community**
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/jq-pipeline-builder-agent/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/jq-pipeline-builder-agent/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

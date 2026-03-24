@@ -4,13 +4,21 @@ description: "Automates GitHub Actions workflow creation, runner management, and
 category: "CI/CD Integrations"
 framework: "OpenClaw"
 verification: security_reviewed
-rating: 4.0
-reviews: 65
-creator: "Tom Wilson"
-creator_handle: "@tomwilson"
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/github-actions-cicd-pipeline-manager/"
+tool_ecosystem:
+  tool: "graphql"
+  github_stars: 20335
+  npm_weekly_downloads: 32010306
+  github_repo: "graphql/graphql-js"
+  license: "MIT"
+  maintained: true
 ---
+
 # GitHub Actions CI/CD Pipeline Manager
 
 Automates GitHub Actions workflow creation, runner management, and artifact caching using the GitHub REST API and YAML generation. Supports matrix builds, reusable workflows, and environment-specific deployment gates.
@@ -41,21 +49,16 @@ clawhub install github-actions-cicd-pipeline-manager
 ```bash
 npx skills add agentskillexchange/skills --skill github-actions-cicd-pipeline-manager -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | CI/CD Integrations |
 | **Framework** | OpenClaw |
-| **Verification** | ✅ Verified |
-| **Rating** | ⭐ 4.0 (65 reviews) |
-
-## Creator
-
-**Tom Wilson** 
-Handle: `@tomwilson`
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/github-actions-cicd-pipeline-manager/)
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [graphql](https://github.com/graphql/graphql-js) — ⭐ 20.3k · MIT |
 
 ---
 
-[Browse all skills](https://agentskillexchange.com) | [View on ASE](https://agentskillexchange.com/skills/github-actions-cicd-pipeline-manager/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/github-actions-cicd-pipeline-manager/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

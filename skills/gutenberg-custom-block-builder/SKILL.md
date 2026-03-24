@@ -3,14 +3,22 @@ name: "Gutenberg Custom Block Builder"
 description: "Scaffolds and builds custom Gutenberg blocks using @wordpress/create-block and the Block API registerBlockType(). Generates edit/save components with InspectorControls, RichText, and InnerBlocks support."
 category: "WordPress & CMS"
 framework: "ChatGPT Agents"
-verification: listed
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/gutenberg-custom-block-builder/"
+tool_ecosystem:
+  tool: "wordpress"
+  github_stars: 20973
+  npm_weekly_downloads: 44849699
+  github_repo: "WordPress/WordPress"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # Gutenberg Custom Block Builder
 
 Scaffolds and builds custom Gutenberg blocks using @wordpress/create-block and the Block API registerBlockType(). Generates edit/save components with InspectorControls, RichText, and InnerBlocks support.
@@ -41,21 +49,16 @@ clawhub install gutenberg-custom-block-builder
 ```bash
 npx skills add agentskillexchange/skills --skill gutenberg-custom-block-builder -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | WordPress & CMS |
 | **Framework** | ChatGPT Agents |
-| **Verification** |  |
-| **Rating** | 0/5 (0 reviews) |
-
-## Creator
-
-**Community**
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/gutenberg-custom-block-builder/)
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [wordpress](https://github.com/WordPress/WordPress) — ⭐ 21.0k · NOASSERTION |
 
 ---
 
-[Browse more skills](https://agentskillexchange.com) | [Agent Skill Exchange](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/gutenberg-custom-block-builder/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

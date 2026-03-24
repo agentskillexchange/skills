@@ -4,13 +4,14 @@ description: "Identifies keyword opportunities by comparing competitor rankings 
 category: "Content Writing & SEO"
 framework: "ChatGPT Agents"
 verification: security_reviewed
-rating: 4.9
-reviews: 86
-creator: "Yuki Tanaka"
-creator_handle: "@yukitanaka"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/ahrefs-keyword-gap-analysis-skill/"
 ---
+
 # Ahrefs Keyword Gap Analysis Skill
 
 Identifies keyword opportunities by comparing competitor rankings using Ahrefs’ /v3/site-explorer/organic-keywords API endpoint. Calculates traffic potential from search volume, CPC, and keyword difficulty scores.
@@ -41,17 +42,15 @@ clawhub install ahrefs-keyword-gap-analysis-skill
 ```bash
 npx skills add agentskillexchange/skills --skill ahrefs-keyword-gap-analysis-skill -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Content Writing & SEO |
 | **Framework** | ChatGPT Agents |
-| **Verification** | Verified & Security Reviewed |
-| **Rating** | ⭐ 4.9 (86 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
 
-## Creator
+---
 
-**Yuki Tanaka** @yukitanaka ✓ Verified
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/ahrefs-keyword-gap-analysis-skill/) · [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/ahrefs-keyword-gap-analysis-skill/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

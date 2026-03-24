@@ -3,14 +3,22 @@ name: "Pandas DataFrame Pipeline Builder"
 description: "Constructs data transformation pipelines using Pandas and the pipe() method chain pattern. Integrates with SQLAlchemy for database I/O and PyArrow for high-performance Parquet operations."
 category: "Data Extraction & Transformation"
 framework: "Cursor"
-verification: verified_metadata
-rating: 4.8
-reviews: 37
-creator: "Ryan O'Malley"
-creator_handle: "@ryanomalley"
+verification: listed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/pandas-dataframe-pipeline-builder/"
+tool_ecosystem:
+  tool: "pandas"
+  github_stars: 48224
+  npm_weekly_downloads: 0
+  github_repo: "pandas-dev/pandas"
+  license: "BSD-3-Clause"
+  maintained: true
 ---
+
 # Pandas DataFrame Pipeline Builder
 
 Constructs data transformation pipelines using Pandas and the pipe() method chain pattern. Integrates with SQLAlchemy for database I/O and PyArrow for high-performance Parquet operations.
@@ -41,22 +49,16 @@ clawhub install pandas-dataframe-pipeline-builder
 ```bash
 npx skills add agentskillexchange/skills --skill pandas-dataframe-pipeline-builder -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Data Extraction & Transformation |
 | **Framework** | Cursor |
-| **Verification** | ✅ Verified |
-| **Rating** | ⭐ 4.8 (37 reviews) |
+| **Verification** | 📋 Listed |
+| **Tool** | [pandas](https://github.com/pandas-dev/pandas) — ⭐ 48.2k · BSD-3-Clause |
 
-## Creator
+---
 
-**Ryan O'Malley** 
-- Handle: @ryanomalley
-- [View Profile](https://agentskillexchange.com/creator/ryanomalley)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/pandas-dataframe-pipeline-builder/)
-- [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/pandas-dataframe-pipeline-builder/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

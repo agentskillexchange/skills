@@ -3,14 +3,15 @@ name: "Yeoman Generator Builder"
 description: "Creates custom Yeoman generators using the yeoman-generator API and yo CLI. Scaffolds generator packages with prompting, writing, and install phases, supporting composability via this.composeWith() for multi-generator workflows."
 category: "Templates & Workflows"
 framework: "OpenClaw"
-verification: verified_metadata
-rating: 4.9
-reviews: 80
-creator: "Community"
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/yeoman-generator-builder/"
 ---
+
 # Yeoman Generator Builder
 
 Creates custom Yeoman generators using the yeoman-generator API and yo CLI. Scaffolds generator packages with prompting, writing, and install phases, supporting composability via this.composeWith() for multi-generator workflows.
@@ -41,22 +42,15 @@ clawhub install yeoman-generator-builder
 ```bash
 npx skills add agentskillexchange/skills --skill yeoman-generator-builder -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Templates & Workflows |
 | **Framework** | OpenClaw |
-| **Verification** | ✅ Verified |
-| **Rating** | ⭐⭐⭐⭐⭐ 4.9/5 (80 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
 
-## Creator
+---
 
-**Community**
-
-
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/yeoman-generator-builder/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/yeoman-generator-builder/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

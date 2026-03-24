@@ -4,13 +4,21 @@ description: "Creates Slack Workflow Builder automations using the Slack Web API
 category: "Calendar, Email & Productivity"
 framework: "Claude Code"
 verification: security_reviewed
-rating: 4.4
-reviews: 84
-creator: "James Kim"
-creator_handle: "@jameskim_ai"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/slack-workflow-automation-builder/"
+tool_ecosystem:
+  tool: "slack"
+  github_stars: 2900
+  npm_weekly_downloads: 2433529
+  github_repo: "slackapi/bolt-js"
+  license: "MIT"
+  maintained: true
 ---
+
 # Slack Workflow Automation Builder
 
 Creates Slack Workflow Builder automations using the Slack Web API and Block Kit. Builds approval flows, standup collectors, and incident response channels with interactive message components.
@@ -41,21 +49,16 @@ clawhub install slack-workflow-automation-builder
 ```bash
 npx skills add agentskillexchange/skills --skill slack-workflow-automation-builder -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Calendar, Email & Productivity |
 | **Framework** | Claude Code |
-| **Verification** | ✅ Verified |
-| **Rating** | ⭐ 4.4/5 (84 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [slack](https://github.com/slackapi/bolt-js) — ⭐ 2.9k · MIT |
 
-## Creator
+---
 
-**James Kim** ✅
-Profile: [@jameskim_ai](https://agentskillexchange.com/creator/jameskim_ai/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/slack-workflow-automation-builder/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/slack-workflow-automation-builder/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

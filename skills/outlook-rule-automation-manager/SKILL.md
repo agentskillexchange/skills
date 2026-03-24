@@ -1,15 +1,17 @@
 ---
-name: "outlook-rule-automation-manager"
+name: "Outlook Rule Automation Manager"
 description: "Creates and manages Outlook email rules programmatically using the Microsoft Graph API /me/mailFolders/inbox/messageRules endpoint. Supports complex condition chains with action sequences for automated email triage."
 category: "Calendar, Email & Productivity"
 framework: "Custom Agents"
-verification: listed
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
+creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/outlook-rule-automation-manager/"
 ---
+
 # Outlook Rule Automation Manager
 
 Creates and manages Outlook email rules programmatically using the Microsoft Graph API /me/mailFolders/inbox/messageRules endpoint. Supports complex condition chains with action sequences for automated email triage.
@@ -40,20 +42,15 @@ clawhub install outlook-rule-automation-manager
 ```bash
 npx skills add agentskillexchange/skills --skill outlook-rule-automation-manager -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
-| Category | Calendar, Email & Productivity |
-| Framework | Custom Agents |
-| Verification |  |
-| Rating | 0/5 (0 reviews) |
+| | |
+|---|---|
+| **Category** | Calendar, Email & Productivity |
+| **Framework** | Custom Agents |
+| **Verification** | 🛡️ Security Reviewed |
 
-## Creator
+---
 
-**Community**
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/outlook-rule-automation-manager/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/outlook-rule-automation-manager/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

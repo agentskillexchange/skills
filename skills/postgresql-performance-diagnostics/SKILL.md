@@ -2,16 +2,23 @@
 name: "PostgreSQL Performance Diagnostics"
 description: "Analyzes PostgreSQL query performance using pg_stat_statements, pg_stat_user_tables, and EXPLAIN ANALYZE output. Identifies missing indexes via pg_stat_user_indexes and detects lock contention through pg_locks and pg_stat_activity."
 category: "Runbooks & Diagnostics"
-framework: "MCP"
-verification: security_reviewed
-rating: 4.8
-reviews: 82
-creator: "Ben Taylor"
-creator_handle: "@bentaylor"
+framework: "MCP-compatible"
+verification: listed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/postgresql-performance-diagnostics/"
-security: "✅ Reviewed"
+tool_ecosystem:
+  tool: "postgresql"
+  github_stars: 0
+  npm_weekly_downloads: 21413502
+  github_repo: ""
+  license: ""
+  maintained: false
 ---
+
 # PostgreSQL Performance Diagnostics
 
 Analyzes PostgreSQL query performance using pg_stat_statements, pg_stat_user_tables, and EXPLAIN ANALYZE output. Identifies missing indexes via pg_stat_user_indexes and detects lock contention through pg_locks and pg_stat_activity.
@@ -42,22 +49,16 @@ clawhub install postgresql-performance-diagnostics
 ```bash
 npx skills add agentskillexchange/skills --skill postgresql-performance-diagnostics -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Runbooks & Diagnostics |
 | **Framework** | MCP-compatible |
-| **Verification** | ✅ Verified |
-| **Security** | ✅ Reviewed |
-| **Rating** | ⭐ 4.8 (82 reviews) |
-
-## Creator
-
-**Ben Taylor** 
-Handle: `@bentaylor`
-[View Profile on ASE](https://agentskillexchange.com/skills/postgresql-performance-diagnostics/)
+| **Verification** | 📋 Listed |
+| **Tool** | postgresql |
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/postgresql-performance-diagnostics/) • [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/postgresql-performance-diagnostics/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

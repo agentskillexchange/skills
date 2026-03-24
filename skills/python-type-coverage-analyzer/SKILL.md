@@ -1,16 +1,17 @@
 ---
 name: "Python Type Coverage Analyzer"
-description: "Measures and improves Python type annotation coverage using mypy –html-report and pyright type completeness scoring. Identifies untyped function signatures, missing return types, and Any-typed para..."
+description: "Measures and improves Python type annotation coverage using mypy –html-report and pyright type completeness scoring. Identifies untyped function signatures, missing return types, and Any-typed parameters across codebases."
 category: "Code Quality & Review"
 framework: "Gemini"
-verification: security_reviewed
+verification: listed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/python-type-coverage-analyzer/"
 ---
+
 # Python Type Coverage Analyzer
 
 Measures and improves Python type annotation coverage using mypy –html-report and pyright type completeness scoring. Identifies untyped function signatures, missing return types, and Any-typed parameters across codebases.
@@ -41,21 +42,15 @@ clawhub install python-type-coverage-analyzer
 ```bash
 npx skills add agentskillexchange/skills --skill python-type-coverage-analyzer -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Code Quality & Review |
 | **Framework** | Gemini |
-| **Verification** | security_reviewed |
-| **Rating** | 0 (0 reviews) |
+| **Verification** | 📋 Listed |
 
-## Creator
+---
 
-**Community**
-
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/python-type-coverage-analyzer/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/python-type-coverage-analyzer/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

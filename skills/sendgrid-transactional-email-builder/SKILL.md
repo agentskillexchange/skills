@@ -2,14 +2,21 @@
 name: "SendGrid Transactional Email Builder"
 description: "Constructs and sends transactional emails using the SendGrid v3 Mail Send API. Builds dynamic templates with Handlebars substitutions, manages suppression groups, and tracks delivery via Event Webhook parsing."
 category: "Integrations & Connectors"
-framework: "Codex"
+framework: "MCP-compatible"
 verification: security_reviewed
-rating: 4.5
-reviews: 86
-creator: "Sam Lee"
-creator_handle: "@samlee_dev"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/sendgrid-transactional-email-builder/"
+tool_ecosystem:
+  tool: "sendgrid"
+  github_stars: 3054
+  npm_weekly_downloads: 3287627
+  github_repo: "sendgrid/sendgrid-nodejs"
+  license: "MIT"
+  maintained: true
 ---
 
 # SendGrid Transactional Email Builder
@@ -48,16 +55,10 @@ npx skills add agentskillexchange/skills --skill sendgrid-transactional-email-bu
 | | |
 |---|---|
 | **Category** | Integrations & Connectors |
-| **Framework** | Codex |
-| **Verification** | Security Reviewed |
-| **Rating** | ⭐ 4.5 (86 reviews) |
+| **Framework** | MCP-compatible |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [sendgrid](https://github.com/sendgrid/sendgrid-nodejs) — ⭐ 3.1k · MIT |
 
-## Creator
+---
 
-**Sam Lee** ✓
-- Profile: [https://agentskillexchange.com/creator/samlee_dev/](https://agentskillexchange.com/creator/samlee_dev/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/sendgrid-transactional-email-builder/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/sendgrid-transactional-email-builder/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

@@ -4,13 +4,21 @@ description: "Monitors Datadog metric streams using the Datadog API v2 and appli
 category: "Monitoring & Alerts"
 framework: "OpenClaw"
 verification: security_reviewed
-rating: 4.9
-reviews: 83
-creator: "Fatima Al-Hassan"
-creator_handle: "@fatimaalhassan"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/datadog-anomaly-detection-agent-2/"
+tool_ecosystem:
+  tool: "datadog"
+  github_stars: 787
+  npm_weekly_downloads: 6043057
+  github_repo: "DataDog/dd-trace-js"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # Datadog Anomaly Detection Agent
 
 Monitors Datadog metric streams using the Datadog API v2 and applies ML-based anomaly detection to alert on infrastructure drift. Integrates with PagerDuty and Slack webhooks for multi-channel incident routing.
@@ -41,22 +49,16 @@ clawhub install datadog-anomaly-detection-agent-2
 ```bash
 npx skills add agentskillexchange/skills --skill datadog-anomaly-detection-agent-2 -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Monitoring & Alerts |
 | **Framework** | OpenClaw |
-| **Verification** | ✅ Verified |
-| **Security** | ✅ Reviewed |
-| **Rating** | ⭐ 4.9 (83 reviews) |
-
-## Creator
-
-**Fatima Al-Hassan** ✅
-Handle: `@fatimaalhassan`
-[View Profile on ASE](https://agentskillexchange.com/skills/datadog-anomaly-detection-agent-2/)
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [datadog](https://github.com/DataDog/dd-trace-js) — ⭐ 787 · NOASSERTION |
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/datadog-anomaly-detection-agent-2/) • [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/datadog-anomaly-detection-agent-2/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

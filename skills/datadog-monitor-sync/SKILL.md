@@ -4,13 +4,21 @@ description: "Synchronizes Datadog monitor definitions between environments usin
 category: "Monitoring & Alerts"
 framework: "Claude Code"
 verification: security_reviewed
-rating: 4.7
-reviews: 41
-creator: "Tom Wilson"
-creator_handle: "@tomwilson"
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/datadog-monitor-sync/"
+tool_ecosystem:
+  tool: "datadog"
+  github_stars: 787
+  npm_weekly_downloads: 6043057
+  github_repo: "DataDog/dd-trace-js"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # Datadog Monitor Sync
 
 Synchronizes Datadog monitor definitions between environments using the Datadog API v2 monitors endpoint. Supports diff-based updates, tag filtering, and Terraform state reconciliation.
@@ -41,18 +49,16 @@ clawhub install datadog-monitor-sync
 ```bash
 npx skills add agentskillexchange/skills --skill datadog-monitor-sync -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
-| Category | Monitoring & Alerts |
-| Framework | Claude Code |
-| Verification | Verified ✅ |
-| Rating | 4.7 ⭐⭐⭐⭐ (41 reviews) |
+| | |
+|---|---|
+| **Category** | Monitoring & Alerts |
+| **Framework** | Claude Code |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [datadog](https://github.com/DataDog/dd-trace-js) — ⭐ 787 · NOASSERTION |
 
-## Creator
+---
 
-**Tom Wilson**
-Handle: @tomwilson
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/datadog-monitor-sync/) · [Browse all skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/datadog-monitor-sync/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

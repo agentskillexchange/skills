@@ -2,16 +2,23 @@
 name: "Prometheus Alert Rule Builder"
 description: "Creates and validates Prometheus alerting rules using PromQL expressions and the Prometheus HTTP API. Configures Alertmanager routing trees with PagerDuty, Slack, and OpsGenie receiver integrations."
 category: "Monitoring & Alerts"
-framework: "MCP"
+framework: "MCP-compatible"
 verification: security_reviewed
-rating: 4.4
-reviews: 72
-creator: "David Nguyen"
-creator_handle: "@davidnguyen"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/prometheus-alert-rule-builder/"
-security: "✅ Reviewed"
+tool_ecosystem:
+  tool: "prometheus"
+  github_stars: 63278
+  npm_weekly_downloads: 5319832
+  github_repo: "prometheus/prometheus"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Prometheus Alert Rule Builder
 
 Creates and validates Prometheus alerting rules using PromQL expressions and the Prometheus HTTP API. Configures Alertmanager routing trees with PagerDuty, Slack, and OpsGenie receiver integrations.
@@ -42,19 +49,16 @@ clawhub install prometheus-alert-rule-builder
 ```bash
 npx skills add agentskillexchange/skills --skill prometheus-alert-rule-builder -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Monitoring & Alerts |
 | **Framework** | MCP-compatible |
-| **Verification** | ✅ Verified |
-| **Security** | ✅ Reviewed |
-| **Rating** | ⭐ 4.4 (72 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [prometheus](https://github.com/prometheus/prometheus) — ⭐ 63.3k · Apache-2.0 |
 
-## Creator
+---
 
-**David Nguyen** ✅
-Handle: `@davidnguyen`
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-alert-rule-builder/) · [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-alert-rule-builder/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

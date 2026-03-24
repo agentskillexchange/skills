@@ -4,11 +4,11 @@ description: "Extract structured intelligence from audio using the AssemblyAI AP
 category: "Media & Transcription"
 framework: "MCP-compatible"
 verification: security_reviewed
-rating: 4.9
-reviews: 43
-creator: "Sam Lee"
-creator_handle: "@samlee_dev"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/assemblyai-audio-intelligence-agent/"
 ---
 
@@ -45,15 +45,12 @@ npx skills add agentskillexchange/skills --skill assemblyai-audio-intelligence-a
 
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Media & Transcription |
 | **Framework** | MCP-compatible |
-| **Verification** | Security Reviewed |
-| **Rating** | ⭐ 4.9 (43 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
 
-## Creator
+---
 
-**Sam Lee** (@samlee_dev) ✓
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/assemblyai-audio-intelligence-agent/) · [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/assemblyai-audio-intelligence-agent/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

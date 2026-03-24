@@ -3,14 +3,22 @@ name: "Swagger UI Documentation Deployer"
 description: "Deploys interactive Swagger UI documentation sites from OpenAPI specs with custom branding, authentication presets, and CDN-hosted static builds. Integrates with Redoc for alternative rendering."
 category: "Library & API Reference"
 framework: "OpenClaw"
-verification: verified_metadata
-rating: 4.3
-reviews: 24
-creator: "Nina Volkov"
-creator_handle: "@ninavolkov"
-creator_verified: true
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/swagger-ui-documentation-deployer/"
+tool_ecosystem:
+  tool: "swagger"
+  github_stars: 28702
+  npm_weekly_downloads: 3219093
+  github_repo: "swagger-api/swagger-ui"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Swagger UI Documentation Deployer
 
 Deploys interactive Swagger UI documentation sites from OpenAPI specs with custom branding, authentication presets, and CDN-hosted static builds. Integrates with Redoc for alternative rendering.
@@ -41,22 +49,16 @@ clawhub install swagger-ui-documentation-deployer
 ```bash
 npx skills add agentskillexchange/skills --skill swagger-ui-documentation-deployer -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Library & API Reference |
 | **Framework** | OpenClaw |
-| **Verification** | Verified |
-| **Rating** | 4.3 ⭐ (24 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [swagger](https://github.com/swagger-api/swagger-ui) — ⭐ 28.7k · Apache-2.0 |
 
-## Creator
+---
 
-**Nina Volkov** (@ninavolkov)
-- Verified: Yes
-- [View Profile](https://agentskillexchange.com/creator/ninavolkov)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/swagger-ui-documentation-deployer/)
-- [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/swagger-ui-documentation-deployer/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

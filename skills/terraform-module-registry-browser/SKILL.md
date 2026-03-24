@@ -2,15 +2,23 @@
 name: "Terraform Module Registry Browser"
 description: "Searches and evaluates Terraform modules from the HashiCorp Registry API and private registries. Uses hcl2json parser to analyze module input variables, outputs, and provider requirements."
 category: "Templates & Workflows"
-framework: "MCP"
-verification: verified_metadata
-rating: 4.8
-reviews: 13
-creator: "Hannah Berg"
-creator_handle: "@hannahberg"
+framework: "MCP-compatible"
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/terraform-module-registry-browser/"
+tool_ecosystem:
+  tool: "terraform"
+  github_stars: 47996
+  npm_weekly_downloads: 0
+  github_repo: "hashicorp/terraform"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # Terraform Module Registry Browser
 
 Searches and evaluates Terraform modules from the HashiCorp Registry API and private registries. Uses hcl2json parser to analyze module input variables, outputs, and provider requirements.
@@ -41,21 +49,16 @@ clawhub install terraform-module-registry-browser
 ```bash
 npx skills add agentskillexchange/skills --skill terraform-module-registry-browser -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Templates & Workflows |
 | **Framework** | MCP-compatible |
-| **Verification** | Verified |
-| **Rating** | ⭐⭐⭐⭐ 4.8/5 (13 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [terraform](https://github.com/hashicorp/terraform) — ⭐ 48.0k · NOASSERTION |
 
-## Creator
+---
 
-**Hannah Berg**
-[View Profile](https://agentskillexchange.com/creator/hannahberg/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-module-registry-browser/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-module-registry-browser/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

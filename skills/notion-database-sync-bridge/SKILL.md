@@ -4,14 +4,21 @@ description: "Synchronizes data between Notion databases and external sources us
 category: "Calendar, Email & Productivity"
 framework: "Claude Agents"
 verification: security_reviewed
-rating: 4.7
-reviews: 78
-creator: "Ben Taylor"
-creator_handle: "@bentaylor"
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/notion-database-sync-bridge/"
-security: "🔒 Reviewed"
+tool_ecosystem:
+  tool: "notion"
+  github_stars: 5562
+  npm_weekly_downloads: 1084242
+  github_repo: "makenotion/notion-sdk-js"
+  license: "MIT"
+  maintained: true
 ---
+
 # Notion Database Sync Bridge
 
 Synchronizes data between Notion databases and external sources using the Notion API v2022-06-28 with cursor-based pagination. Handles property type mapping for select, multi-select, relation, and formula fields with conflict resolution via last-write-wins strategy.
@@ -42,23 +49,16 @@ clawhub install notion-database-sync-bridge
 ```bash
 npx skills add agentskillexchange/skills --skill notion-database-sync-bridge -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Calendar, Email & Productivity |
 | **Framework** | Claude Agents |
-| **Verification** | ✅ Verified |
-| **Security** | 🔒 Reviewed |
-| **Rating** | ⭐⭐⭐⭐ 4.7/5 (78 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [notion](https://github.com/makenotion/notion-sdk-js) — ⭐ 5.6k · MIT |
 
-## Creator
+---
 
-**Ben Taylor** 
-Handle: `@bentaylor`
-[View Profile on ASE](https://agentskillexchange.com/skills/notion-database-sync-bridge/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/notion-database-sync-bridge/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/notion-database-sync-bridge/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

@@ -3,65 +3,54 @@ name: "High CPU Alert Runbook"
 description: "Runbook for investigating and resolving high CPU utilization incidents. Covers flame graph analysis, runaway process identification, and traffic-based vs code-based root causes."
 category: "Runbooks & Diagnostics"
 framework: "Custom Agents"
-verification: security_reviewed
-rating: 4.8
-reviews: 49
-creator: "Liam OBrien"
-creator_handle: "@liamobrien"
-creator_verified: true
+verification: listed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/high-cpu-alert-runbook/"
 ---
+
 # High CPU Alert Runbook
 
 Runbook for investigating and resolving high CPU utilization incidents. Covers flame graph analysis, runaway process identification, and traffic-based vs code-based root causes.
 
 ## Installation
 
-### Any agent (npx skills)
-
+### Any Agent (npx)
 ```bash
 npx skills add agentskillexchange/skills --skill high-cpu-alert-runbook
 ```
 
 ### Claude Code
-
 ```bash
 npx skills add agentskillexchange/skills --skill high-cpu-alert-runbook -a claude-code
 ```
 
 ### Cursor
-
 ```bash
 npx skills add agentskillexchange/skills --skill high-cpu-alert-runbook -a cursor
 ```
 
 ### OpenClaw
-
 ```bash
 clawhub install high-cpu-alert-runbook
 ```
 
 ### Codex
-
 ```bash
 npx skills add agentskillexchange/skills --skill high-cpu-alert-runbook -a codex
 ```
 
 ## Details
 
-| Field | Value |
-|-------|-------|
-| Category | Runbooks & Diagnostics |
-| Framework | Custom Agents |
-| Verification | Security Reviewed |
-| Rating | 4.8/5 (49 reviews) |
+| | |
+|---|---|
+| **Category** | Runbooks & Diagnostics |
+| **Framework** | Custom Agents |
+| **Verification** | 📋 Listed |
 
-## Creator
+---
 
-**Liam OBrien** (Verified Creator ✓)
-- Profile: [@liamobrien](https://agentskillexchange.com/browse-skills/?creator=liamobrien)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/high-cpu-alert-runbook/)
-- [Browse all skills](https://agentskillexchange.com/browse-skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/high-cpu-alert-runbook/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

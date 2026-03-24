@@ -4,13 +4,21 @@ description: "Creates, validates, and publishes CircleCI Orbs using the CircleCI
 category: "CI/CD Integrations"
 framework: "ChatGPT Agents"
 verification: security_reviewed
-rating: 4.9
-reviews: 86
-creator: "Carlos Mendez"
-creator_handle: "@carlosmendez"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/circleci-orb-builder-publisher/"
+tool_ecosystem:
+  tool: "circleci"
+  github_stars: 842
+  npm_weekly_downloads: 0
+  github_repo: "circleci/circleci-docs"
+  license: "Unknown"
+  maintained: true
 ---
+
 # CircleCI Orb Builder and Publisher
 
 Creates, validates, and publishes CircleCI Orbs using the CircleCI CLI and Orb Registry API. Handles semantic versioning, namespace management, and orb dependency resolution.
@@ -41,21 +49,16 @@ clawhub install circleci-orb-builder-publisher
 ```bash
 npx skills add agentskillexchange/skills --skill circleci-orb-builder-publisher -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | CI/CD Integrations |
 | **Framework** | ChatGPT Agents |
-| **Verification** | ✅ Verified |
-| **Rating** | ⭐ 4.9 (86 reviews) |
-
-## Creator
-
-**Carlos Mendez** ✅
-Handle: `@carlosmendez`
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-orb-builder-publisher/)
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [circleci](https://github.com/circleci/circleci-docs) — ⭐ 842 · Unknown |
 
 ---
 
-[Browse all skills](https://agentskillexchange.com) | [View on ASE](https://agentskillexchange.com/skills/circleci-orb-builder-publisher/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-orb-builder-publisher/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

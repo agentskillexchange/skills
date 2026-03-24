@@ -3,14 +3,22 @@ name: "Puppeteer Web Scraper"
 description: "Headless Chrome scraping via Puppeteer with automatic cookie handling, JavaScript rendering, and Cheerio-based DOM extraction. Handles infinite scroll and lazy-loaded content."
 category: "Research & Scraping"
 framework: "Cursor"
-verification: verified_metadata
-rating: 4.6
-reviews: 85
-creator: "Sam Lee"
-creator_handle: "@samlee_dev"
-creator_verified: true
+verification: listed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/puppeteer-web-scraper/"
+tool_ecosystem:
+  tool: "puppeteer"
+  github_stars: 93912
+  npm_weekly_downloads: 8696130
+  github_repo: "puppeteer/puppeteer"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Puppeteer Web Scraper
 
 Headless Chrome scraping via Puppeteer with automatic cookie handling, JavaScript rendering, and Cheerio-based DOM extraction. Handles infinite scroll and lazy-loaded content.
@@ -41,21 +49,16 @@ clawhub install puppeteer-web-scraper
 ```bash
 npx skills add agentskillexchange/skills --skill puppeteer-web-scraper -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Research & Scraping |
 | **Framework** | Cursor |
-| **Verification** | Verified |
-| **Rating** | ⭐⭐⭐⭐ 4.6/5 (85 reviews) |
-
-## Creator
-
-**Sam Lee** ✅
-- Handle: [@samlee_dev](https://agentskillexchange.com/creator/samlee_dev/)
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/puppeteer-web-scraper/)
+| **Verification** | 📋 Listed |
+| **Tool** | [puppeteer](https://github.com/puppeteer/puppeteer) — ⭐ 93.9k · Apache-2.0 |
 
 ---
 
-[Browse all skills](https://agentskillexchange.com/) | [Submit a skill](https://agentskillexchange.com/submit/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/puppeteer-web-scraper/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

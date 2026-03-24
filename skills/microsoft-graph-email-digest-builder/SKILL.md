@@ -1,15 +1,17 @@
 ---
-name: "microsoft-graph-email-digest-builder"
+name: "Microsoft Graph Email Digest Builder"
 description: "Generates daily email digests from Microsoft 365 mailboxes using the Microsoft Graph API /me/messages endpoint. Groups emails by sender, thread, and priority using the inferenceClassification properties."
 category: "Calendar, Email & Productivity"
 framework: "ChatGPT Agents"
-verification: listed
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
+creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/microsoft-graph-email-digest-builder/"
 ---
+
 # Microsoft Graph Email Digest Builder
 
 Generates daily email digests from Microsoft 365 mailboxes using the Microsoft Graph API /me/messages endpoint. Groups emails by sender, thread, and priority using the inferenceClassification properties.
@@ -40,20 +42,15 @@ clawhub install microsoft-graph-email-digest-builder
 ```bash
 npx skills add agentskillexchange/skills --skill microsoft-graph-email-digest-builder -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
-| Category | Calendar, Email & Productivity |
-| Framework | ChatGPT Agents |
-| Verification |  |
-| Rating | 0/5 (0 reviews) |
+| | |
+|---|---|
+| **Category** | Calendar, Email & Productivity |
+| **Framework** | ChatGPT Agents |
+| **Verification** | 🛡️ Security Reviewed |
 
-## Creator
+---
 
-**Community**
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/microsoft-graph-email-digest-builder/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/microsoft-graph-email-digest-builder/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

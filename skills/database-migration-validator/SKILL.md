@@ -1,16 +1,24 @@
 ---
 name: "Database Migration Validator"
-description: "Validates SQL database migrations for safety using pg_stat_statements analysis and pt-online-schema-change dry-run mode. Checks for long-running locks, missing indexes on foreign keys, and backward..."
+description: "Validates SQL database migrations for safety using pg_stat_statements analysis and pt-online-schema-change dry-run mode. Checks for long-running locks, missing indexes on foreign keys, and backward-incompatible column changes."
 category: "Runbooks & Diagnostics"
 framework: "OpenClaw"
-verification: verified_metadata
+verification: listed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/database-migration-validator/"
+tool_ecosystem:
+  tool: "postgresql"
+  github_stars: 0
+  npm_weekly_downloads: 21413502
+  github_repo: ""
+  license: ""
+  maintained: false
 ---
+
 # Database Migration Validator
 
 Validates SQL database migrations for safety using pg_stat_statements analysis and pt-online-schema-change dry-run mode. Checks for long-running locks, missing indexes on foreign keys, and backward-incompatible column changes.
@@ -41,21 +49,16 @@ clawhub install database-migration-validator
 ```bash
 npx skills add agentskillexchange/skills --skill database-migration-validator -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Runbooks & Diagnostics |
 | **Framework** | OpenClaw |
-| **Verification** | verified_metadata |
-| **Rating** | 0 (0 reviews) |
+| **Verification** | 📋 Listed |
+| **Tool** | postgresql |
 
-## Creator
+---
 
-**Community**
-
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/database-migration-validator/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/database-migration-validator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

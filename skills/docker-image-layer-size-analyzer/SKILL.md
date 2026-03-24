@@ -4,13 +4,21 @@ description: "Analyzes Docker image layers using the Docker Registry HTTP API v2
 category: "CI/CD Integrations"
 framework: "Gemini"
 verification: security_reviewed
-rating: 4.1
-reviews: 76
-creator: "Community"
+rating: 0
+reviews: 0
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/docker-image-layer-size-analyzer/"
+tool_ecosystem:
+  tool: "docker"
+  github_stars: 71560
+  npm_weekly_downloads: 0
+  github_repo: "moby/moby"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Docker Image Layer Size Analyzer
 
 Analyzes Docker image layers using the Docker Registry HTTP API v2 and dive CLI tool. Identifies bloated layers, wasted space from deleted files, and suggests multi-stage build optimizations.
@@ -41,20 +49,16 @@ clawhub install docker-image-layer-size-analyzer
 ```bash
 npx skills add agentskillexchange/skills --skill docker-image-layer-size-analyzer -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | CI/CD Integrations |
 | **Framework** | Gemini |
-| **Verification** | Security Reviewed ✓ |
-| **Rating** | ⭐ 4.1/5 (76 reviews) |
-
-## Creator
-
-**Community**
-
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [docker](https://github.com/moby/moby) — ⭐ 71.6k · Apache-2.0 |
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/docker-image-layer-size-analyzer/) • [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/docker-image-layer-size-analyzer/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

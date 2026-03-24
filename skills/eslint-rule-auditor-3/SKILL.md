@@ -3,14 +3,22 @@ name: "ESLint Rule Auditor"
 description: "Audits ESLint configurations using @eslint/eslintrc and @eslint/js flat config APIs. Detects conflicting rules, deprecated configs, and generates migration paths from eslintrc to eslint.config.js flat config format."
 category: "Code Quality & Review"
 framework: "Cursor"
-verification: security_reviewed
-rating: 4.2
-reviews: 74
-creator: "Yuki Tanaka"
-creator_handle: "@yukitanaka"
-creator_verified: true
+verification: listed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/eslint-rule-auditor-3/"
+tool_ecosystem:
+  tool: "eslint"
+  github_stars: 27186
+  npm_weekly_downloads: 109028697
+  github_repo: "eslint/eslint"
+  license: "MIT"
+  maintained: true
 ---
+
 # ESLint Rule Auditor
 
 Audits ESLint configurations using @eslint/eslintrc and @eslint/js flat config APIs. Detects conflicting rules, deprecated configs, and generates migration paths from eslintrc to eslint.config.js flat config format.
@@ -41,21 +49,16 @@ clawhub install eslint-rule-auditor-3
 ```bash
 npx skills add agentskillexchange/skills --skill eslint-rule-auditor-3 -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Code Quality & Review |
 | **Framework** | Cursor |
-| **Verification** | 🔒 Security Reviewed |
-| **Rating** | ⭐ 4.2 (74 reviews) |
-
-## Creator
-
-**Yuki Tanaka** ✅
-Handle: `@yukitanaka`
-[View Profile on ASE](https://agentskillexchange.com/skills/eslint-rule-auditor-3/)
+| **Verification** | 📋 Listed |
+| **Tool** | [eslint](https://github.com/eslint/eslint) — ⭐ 27.2k · MIT |
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/eslint-rule-auditor-3/) • [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/eslint-rule-auditor-3/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

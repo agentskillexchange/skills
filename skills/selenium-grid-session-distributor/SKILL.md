@@ -4,14 +4,21 @@ description: "Manages browser session allocation across Selenium Grid 4 nodes us
 category: "Browser Automation"
 framework: "Cursor"
 verification: security_reviewed
-rating: 4.5
-reviews: 51
-creator: "Ryan O'Malley"
-creator_handle: "@ryanomalley"
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/selenium-grid-session-distributor/"
-security: "🔒 Reviewed"
+tool_ecosystem:
+  tool: "selenium"
+  github_stars: 34169
+  npm_weekly_downloads: 2000657
+  github_repo: "SeleniumHQ/selenium"
+  license: "Apache-2.0"
+  maintained: true
 ---
+
 # Selenium Grid Session Distributor
 
 Manages browser session allocation across Selenium Grid 4 nodes using the GraphQL status endpoint and SE_NODE_MAX_SESSIONS configuration. Implements weighted round-robin distribution with health-check-based failover for Chrome, Firefox, and Edge instances.
@@ -42,23 +49,16 @@ clawhub install selenium-grid-session-distributor
 ```bash
 npx skills add agentskillexchange/skills --skill selenium-grid-session-distributor -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Browser Automation |
 | **Framework** | Cursor |
-| **Verification** | ✅ Verified |
-| **Security** | 🔒 Reviewed |
-| **Rating** | ⭐⭐⭐⭐ 4.5/5 (51 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [selenium](https://github.com/SeleniumHQ/selenium) — ⭐ 34.2k · Apache-2.0 |
 
-## Creator
+---
 
-**Ryan O'Malley** 
-Handle: `@ryanomalley`
-[View Profile on ASE](https://agentskillexchange.com/skills/selenium-grid-session-distributor/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/selenium-grid-session-distributor/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/selenium-grid-session-distributor/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

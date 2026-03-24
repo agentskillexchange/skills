@@ -4,14 +4,21 @@ description: "Creates project scaffolds from Cookiecutter templates with interac
 category: "Templates & Workflows"
 framework: "Claude Code"
 verification: security_reviewed
-rating: 4.9
-reviews: 86
-creator: "Leo Park"
-creator_handle: "@leopark_ai"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/cookiecutter-project-builder/"
-security: "✅ Reviewed"
+tool_ecosystem:
+  tool: "gitlab"
+  github_stars: 24276
+  npm_weekly_downloads: 0
+  github_repo: "gitlabhq/gitlabhq"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # Cookiecutter Project Builder
 
 Creates project scaffolds from Cookiecutter templates with interactive variable resolution. Integrates with cruft for template drift detection and copier for advanced multi-template composition.
@@ -42,19 +49,16 @@ clawhub install cookiecutter-project-builder
 ```bash
 npx skills add agentskillexchange/skills --skill cookiecutter-project-builder -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Templates & Workflows |
 | **Framework** | Claude Code |
-| **Verification** | ✅ Verified |
-| **Security** | ✅ Reviewed |
-| **Rating** | ⭐ 4.9 (86 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [gitlab](https://github.com/gitlabhq/gitlabhq) — ⭐ 24.3k · NOASSERTION |
 
-## Creator
+---
 
-**Leo Park** ✅
-@leopark_ai
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/cookiecutter-project-builder/) • [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/cookiecutter-project-builder/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

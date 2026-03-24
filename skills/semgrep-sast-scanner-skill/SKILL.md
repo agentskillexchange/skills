@@ -6,11 +6,19 @@ framework: "OpenClaw"
 verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/semgrep-sast-scanner-skill/"
+tool_ecosystem:
+  tool: "semgrep"
+  github_stars: 14543
+  npm_weekly_downloads: 0
+  github_repo: "semgrep/semgrep"
+  license: "LGPL-2.1"
+  maintained: true
 ---
+
 # Semgrep SAST Scanner
 
 Runs Semgrep static analysis with custom rule packs targeting OWASP Top 10 patterns. Uses semgrep CLI with –config=auto and –sarif output for GitHub Advanced Security integration and CWE-tagged finding reports.
@@ -41,21 +49,16 @@ clawhub install semgrep-sast-scanner-skill
 ```bash
 npx skills add agentskillexchange/skills --skill semgrep-sast-scanner-skill -a codex
 ```
+
 ## Details
 
 | | |
 |---|---|
 | **Category** | Code Quality & Review |
 | **Framework** | OpenClaw |
-| **Verification** | security_reviewed |
-| **Rating** |  (0/5 from 0 reviews) |
-
-## Creator
-
-**Community**
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/semgrep-sast-scanner-skill/)
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [semgrep](https://github.com/semgrep/semgrep) — ⭐ 14.5k · LGPL-2.1 |
 
 ---
 
-[Browse more skills](https://agentskillexchange.com) | [Agent Skill Exchange](https://agentskillexchange.com/skills/semgrep-sast-scanner-skill/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/semgrep-sast-scanner-skill/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

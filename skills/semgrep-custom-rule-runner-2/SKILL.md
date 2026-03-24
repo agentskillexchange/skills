@@ -1,15 +1,24 @@
 ---
 name: "Semgrep Custom Rule Runner"
-description: "Executes Semgrep OSS with custom YAML rule files for project-specific static analysis patterns. Supports semgrep –config and –pattern flags with metavariable constraints for detecting anti-patterns in"
-category: "Developer Tools"
-framework: "Custom Agents"
-verification: security_reviewed
-rating: 4.7
-reviews: 68
-creator: "Community"
+description: "Executes Semgrep OSS with custom YAML rule files for project-specific static analysis patterns. Supports semgrep –config and –pattern flags with metavariable constraints for detecting anti-patterns in Python, JavaScript, Go, and Java codebases."
+category: "Templates & Workflows"
+framework: "Any"
+verification: listed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/semgrep-custom-rule-runner-2/"
+tool_ecosystem:
+  tool: "semgrep"
+  github_stars: 14543
+  npm_weekly_downloads: 0
+  github_repo: "semgrep/semgrep"
+  license: "LGPL-2.1"
+  maintained: true
 ---
+
 # Semgrep Custom Rule Runner
 
 Executes Semgrep OSS with custom YAML rule files for project-specific static analysis patterns. Supports semgrep –config and –pattern flags with metavariable constraints for detecting anti-patterns in Python, JavaScript, Go, and Java codebases.
@@ -40,20 +49,16 @@ clawhub install semgrep-custom-rule-runner-2
 ```bash
 npx skills add agentskillexchange/skills --skill semgrep-custom-rule-runner-2 -a codex
 ```
+
 ## Details
 
 | | |
 |---|---|
-| **Category** | Uncategorized |
-| **Framework** | Unknown |
-| **Verification** | 🔵 Security Reviewed |
-| **Rating** | ⭐⭐⭐⭐ 4.7/5 (68 reviews) |
+| **Category** | Templates & Workflows |
+| **Framework** | Any |
+| **Verification** | 📋 Listed |
+| **Tool** | [semgrep](https://github.com/semgrep/semgrep) — ⭐ 14.5k · LGPL-2.1 |
 
-## Creator
+---
 
-**Community**
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/semgrep-custom-rule-runner-2/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/semgrep-custom-rule-runner-2/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

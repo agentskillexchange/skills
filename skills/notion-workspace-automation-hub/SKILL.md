@@ -4,13 +4,21 @@ description: "Orchestrates Notion workspace workflows using Notion API v2 with d
 category: "Calendar, Email & Productivity"
 framework: "Custom Agents"
 verification: security_reviewed
-rating: 4.8
-reviews: 80
-creator: "David Nguyen"
-creator_handle: "@davidnguyen"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/notion-workspace-automation-hub/"
+tool_ecosystem:
+  tool: "notion"
+  github_stars: 5562
+  npm_weekly_downloads: 1084242
+  github_repo: "makenotion/notion-sdk-js"
+  license: "MIT"
+  maintained: true
 ---
+
 # Notion Workspace Automation Hub
 
 Orchestrates Notion workspace workflows using Notion API v2 with database queries, page creation, and relation property management. Automates sprint boards, meeting notes, and knowledge base maintenance.
@@ -41,22 +49,16 @@ clawhub install notion-workspace-automation-hub
 ```bash
 npx skills add agentskillexchange/skills --skill notion-workspace-automation-hub -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Calendar, Email & Productivity |
 | **Framework** | Custom Agents |
-| **Verification** | Verified ✅ |
-| **Rating** | ★★★★½ (4.8/5 from 80 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [notion](https://github.com/makenotion/notion-sdk-js) — ⭐ 5.6k · MIT |
 
-## Creator
+---
 
-**David Nguyen** ✓
-
-Profile: [@davidnguyen](https://agentskillexchange.com/creator/davidnguyen/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/notion-workspace-automation-hub/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/notion-workspace-automation-hub/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

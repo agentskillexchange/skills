@@ -3,14 +3,22 @@ name: "SEO Meta Tag Optimizer"
 description: "Generates optimized title tags, meta descriptions, and Open Graph markup using Google NLP API for entity salience scoring. Integrates with Yoast SEO REST API for WordPress deployments."
 category: "Content Writing & SEO"
 framework: "ChatGPT Agents"
-verification: verified_metadata
-rating: 4.6
-reviews: 63
-creator: "Nina Volkov"
-creator_handle: "@ninavolkov"
-creator_verified: true
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/seo-meta-tag-optimizer-agent/"
+tool_ecosystem:
+  tool: "wordpress"
+  github_stars: 20973
+  npm_weekly_downloads: 0
+  github_repo: "WordPress/WordPress"
+  license: "NOASSERTION"
+  maintained: true
 ---
+
 # SEO Meta Tag Optimizer
 
 Generates optimized title tags, meta descriptions, and Open Graph markup using Google NLP API for entity salience scoring. Integrates with Yoast SEO REST API for WordPress deployments.
@@ -41,22 +49,16 @@ clawhub install seo-meta-tag-optimizer-agent
 ```bash
 npx skills add agentskillexchange/skills --skill seo-meta-tag-optimizer-agent -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Content Writing & SEO |
 | **Framework** | ChatGPT Agents |
-| **Verification** | Verified |
-| **Rating** | ⭐⭐⭐⭐ 4.6/5 (63 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [wordpress](https://github.com/WordPress/WordPress) — ⭐ 21.0k · NOASSERTION |
 
-## Creator
+---
 
-**Nina Volkov** ✓
-
-[View Profile](https://agentskillexchange.com/creator/ninavolkov/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/seo-meta-tag-optimizer-agent/)
-- [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/seo-meta-tag-optimizer-agent/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

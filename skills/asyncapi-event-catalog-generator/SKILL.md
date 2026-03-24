@@ -3,14 +3,22 @@ name: "AsyncAPI Event Catalog Generator"
 description: "Parses AsyncAPI 2.x/3.x specifications to generate event-driven architecture catalogs using the AsyncAPI Generator. Produces channel documentation, message schema validators, and EventBridge rule templates."
 category: "Library & API Reference"
 framework: "Claude Code"
-verification: verified_metadata
-rating: 4.9
-reviews: 28
-creator: "Meera Joshi"
-creator_handle: "@meerajoshi"
-creator_verified: true
+verification: listed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/asyncapi-event-catalog-generator/"
+tool_ecosystem:
+  tool: "kafka"
+  github_stars: 3987
+  npm_weekly_downloads: 2396148
+  github_repo: "tulios/kafkajs"
+  license: "MIT"
+  maintained: false
 ---
+
 # AsyncAPI Event Catalog Generator
 
 Parses AsyncAPI 2.x/3.x specifications to generate event-driven architecture catalogs using the AsyncAPI Generator. Produces channel documentation, message schema validators, and EventBridge rule templates.
@@ -41,22 +49,16 @@ clawhub install asyncapi-event-catalog-generator
 ```bash
 npx skills add agentskillexchange/skills --skill asyncapi-event-catalog-generator -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Library & API Reference |
 | **Framework** | Claude Code |
-| **Verification** | Verified |
-| **Rating** | 4.9 ⭐ (28 reviews) |
+| **Verification** | 📋 Listed |
+| **Tool** | [kafka](https://github.com/tulios/kafkajs) — ⭐ 4.0k · MIT |
 
-## Creator
+---
 
-**Meera Joshi** ✓
-Handle: @meerajoshi
-[View Profile](https://agentskillexchange.com/skills/asyncapi-event-catalog-generator/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/asyncapi-event-catalog-generator/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/asyncapi-event-catalog-generator/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

@@ -4,13 +4,21 @@ description: "Performs deep ESLint configuration analysis using the ESLint Node.
 category: "Code Quality & Review"
 framework: "Claude Agents"
 verification: security_reviewed
-rating: 4.4
-reviews: 14
-creator: "Meera Joshi"
-creator_handle: "@meerajoshi"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/eslint-rule-analyzer-fixer/"
+tool_ecosystem:
+  tool: "eslint"
+  github_stars: 27186
+  npm_weekly_downloads: 109028697
+  github_repo: "eslint/eslint"
+  license: "MIT"
+  maintained: true
 ---
+
 # ESLint Rule Analyzer and Fixer
 
 Performs deep ESLint configuration analysis using the ESLint Node.js API and flat config system. Auto-fixes rule conflicts, generates shareable configs, and produces code quality trend reports.
@@ -41,21 +49,16 @@ clawhub install eslint-rule-analyzer-fixer
 ```bash
 npx skills add agentskillexchange/skills --skill eslint-rule-analyzer-fixer -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Code Quality & Review |
 | **Framework** | Claude Agents |
-| **Verification** | ✅ Verified |
-| **Rating** | ⭐ 4.4 (14 reviews) |
-
-## Creator
-
-**Meera Joshi** ✅
-Handle: `@meerajoshi`
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/eslint-rule-analyzer-fixer/)
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [eslint](https://github.com/eslint/eslint) — ⭐ 27.2k · MIT |
 
 ---
 
-[Browse all skills](https://agentskillexchange.com) | [View on ASE](https://agentskillexchange.com/skills/eslint-rule-analyzer-fixer/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/eslint-rule-analyzer-fixer/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

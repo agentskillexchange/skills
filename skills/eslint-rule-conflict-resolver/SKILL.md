@@ -3,14 +3,22 @@ name: "ESLint Rule Conflict Resolver"
 description: "Detects and resolves conflicting ESLint rules across .eslintrc configurations using the ESLint Node.js API. Analyzes rule interactions between eslint-config-airbnb, eslint-config-prettier, and typescript-eslint plugins."
 category: "Code Quality & Review"
 framework: "Cursor"
-verification: verified_metadata
-rating: 4.5
-reviews: 19
-creator: "Elena Rodriguez"
-creator_handle: "@elena_dev"
-creator_verified: true
+verification: security_reviewed
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/eslint-rule-conflict-resolver/"
+tool_ecosystem:
+  tool: "eslint"
+  github_stars: 27186
+  npm_weekly_downloads: 109028697
+  github_repo: "eslint/eslint"
+  license: "MIT"
+  maintained: true
 ---
+
 # ESLint Rule Conflict Resolver
 
 Detects and resolves conflicting ESLint rules across .eslintrc configurations using the ESLint Node.js API. Analyzes rule interactions between eslint-config-airbnb, eslint-config-prettier, and typescript-eslint plugins.
@@ -41,22 +49,16 @@ clawhub install eslint-rule-conflict-resolver
 ```bash
 npx skills add agentskillexchange/skills --skill eslint-rule-conflict-resolver -a codex
 ```
+
 ## Details
 
-| Property | Value |
-|----------|-------|
+| | |
+|---|---|
 | **Category** | Code Quality & Review |
 | **Framework** | Cursor |
-| **Verification** | Verified |
-| **Rating** | ⭐⭐⭐⭐ 4.5/5 (19 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [eslint](https://github.com/eslint/eslint) — ⭐ 27.2k · MIT |
 
-## Creator
+---
 
-**Elena Rodriguez** @elena_dev  
-✅ Verified Creator  
-[View Profile](https://agentskillexchange.com/skills/eslint-rule-conflict-resolver/)
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/eslint-rule-conflict-resolver/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/eslint-rule-conflict-resolver/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

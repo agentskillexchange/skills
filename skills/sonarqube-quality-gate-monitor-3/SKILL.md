@@ -4,13 +4,21 @@ description: "Monitors SonarQube project quality gates via the Web API and block
 category: "Code Quality & Review"
 framework: "OpenClaw"
 verification: security_reviewed
-rating: 4.9
-reviews: 74
-creator: "James Kim"
-creator_handle: "@jameskim_ai"
-creator_verified: true
+rating: 0
+reviews: 0
+creator: ""
+creator_handle: ""
+creator_verified: false
 source: "https://agentskillexchange.com/skills/sonarqube-quality-gate-monitor-3/"
+tool_ecosystem:
+  tool: "sonarqube"
+  github_stars: 10357
+  npm_weekly_downloads: 0
+  github_repo: "SonarSource/sonarqube"
+  license: "LGPL-3.0"
+  maintained: true
 ---
+
 # SonarQube Quality Gate Monitor
 
 Monitors SonarQube project quality gates via the Web API and blocks CI deployments when thresholds fail. Tracks technical debt trends across releases.
@@ -41,22 +49,16 @@ clawhub install sonarqube-quality-gate-monitor-3
 ```bash
 npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-monitor-3 -a codex
 ```
+
 ## Details
 
 | | |
 |---|---|
 | **Category** | Code Quality & Review |
 | **Framework** | OpenClaw |
-| **Verification** | ✅ Verified |
-| **Security** | 🔒 Reviewed |
-| **Rating** | ⭐⭐⭐⭐ 4.9/5 (74 reviews) |
-
-## Creator
-
-**James Kim** ✅
-Handle: `@jameskim_ai`
-[View Profile on ASE](https://agentskillexchange.com/skills/sonarqube-quality-gate-monitor-3/)
+| **Verification** | 🛡️ Security Reviewed |
+| **Tool** | [sonarqube](https://github.com/SonarSource/sonarqube) — ⭐ 10.4k · LGPL-3.0 |
 
 ---
 
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/sonarqube-quality-gate-monitor-3/) | [Browse All Skills](https://agentskillexchange.com)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/sonarqube-quality-gate-monitor-3/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

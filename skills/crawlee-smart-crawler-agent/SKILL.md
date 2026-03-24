@@ -1,16 +1,17 @@
 ---
 name: "Crawlee Smart Crawler Agent"
-description: "Implements intelligent web crawling using the Crawlee framework with adaptive request routing between CheerioCrawler and PlaywrightCrawler. Manages request queues, handles anti-bot challenges, and ..."
+description: "Implements intelligent web crawling using the Crawlee framework with adaptive request routing between CheerioCrawler and PlaywrightCrawler. Manages request queues, handles anti-bot challenges, and exports structured data."
 category: "Research & Scraping"
 framework: "Cursor"
-verification: listed
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/crawlee-smart-crawler-agent/"
 ---
+
 # Crawlee Smart Crawler Agent
 
 Implements intelligent web crawling using the Crawlee framework with adaptive request routing between CheerioCrawler and PlaywrightCrawler. Manages request queues, handles anti-bot challenges, and exports structured data.
@@ -41,22 +42,15 @@ clawhub install crawlee-smart-crawler-agent
 ```bash
 npx skills add agentskillexchange/skills --skill crawlee-smart-crawler-agent -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | Research & Scraping |
 | **Framework** | Cursor |
-| **Verification** | community |
-| **Rating** | 0 (0 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
 
-## Creator
+---
 
-**Community**
-
-
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/crawlee-smart-crawler-agent/)
-- [Browse All Skills](https://agentskillexchange.com/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/crawlee-smart-crawler-agent/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*

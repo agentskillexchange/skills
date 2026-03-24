@@ -1,16 +1,17 @@
 ---
 name: "GitHub Actions Matrix Strategy Builder"
-description: "Generates optimized GitHub Actions workflow matrices using the actions/setup-node, actions/cache, and actions/upload-artifact APIs. Automatically detects language versions and OS combinations for m..."
+description: "Generates optimized GitHub Actions workflow matrices using the actions/setup-node, actions/cache, and actions/upload-artifact APIs. Automatically detects language versions and OS combinations for maximum CI coverage."
 category: "CI/CD Integrations"
 framework: "Claude Code"
-verification: listed
+verification: security_reviewed
 rating: 0
 reviews: 0
-creator: "Community"
+creator: ""
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/github-actions-matrix-strategy-builder/"
 ---
+
 # GitHub Actions Matrix Strategy Builder
 
 Generates optimized GitHub Actions workflow matrices using the actions/setup-node, actions/cache, and actions/upload-artifact APIs. Automatically detects language versions and OS combinations for maximum CI coverage.
@@ -41,21 +42,15 @@ clawhub install github-actions-matrix-strategy-builder
 ```bash
 npx skills add agentskillexchange/skills --skill github-actions-matrix-strategy-builder -a codex
 ```
+
 ## Details
 
-| Field | Value |
-|-------|-------|
+| | |
+|---|---|
 | **Category** | CI/CD Integrations |
 | **Framework** | Claude Code |
-| **Verification** |  |
-| **Rating** | 0 ⭐ (0 reviews) |
+| **Verification** | 🛡️ Security Reviewed |
 
-## Creator
+---
 
-**Community**
-
-
-## Links
-
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/github-actions-matrix-strategy-builder/)
-- [Browse All Skills](https://agentskillexchange.com/skills/)
+*[View on Agent Skill Exchange](https://agentskillexchange.com/skills/github-actions-matrix-strategy-builder/) · [Browse all skills](https://agentskillexchange.com/browse-skills/)*
