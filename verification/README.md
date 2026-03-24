@@ -26,7 +26,7 @@ The skill has been published to the marketplace with a valid `SKILL.md` file.
 A reviewer has confirmed the skill's metadata is accurate and complete.
 
 - Category and framework assignments match the skill's actual purpose
-- Source links are valid and point to real repositories
+- Source links are valid and point to real pages
 - Install commands work for the specified frameworks
 - Naming is consistent with marketplace conventions
 - Description accurately reflects the skill's functionality
@@ -41,24 +41,32 @@ The skill's content has been scanned for potentially malicious patterns.
 - No credential harvesting
 - No obfuscated or encoded payloads
 
+## Current Distribution
+
+| Tier | Skills | Percentage |
+|------|-------:|-----------:|
+| 🛡️ Security Reviewed | **810** | 51% |
+| ✅ Verified Metadata | **379** | 24% |
+| 📝 Listed | **391** | 25% |
+
 ## Checking a Skill's Verification Status
 
-Each skill's `SKILL.md` frontmatter includes verification fields:
+Each skill's `SKILL.md` frontmatter includes a `verification` field:
 
 ```yaml
-verification:
-  verified_metadata: true    # Tier 2 passed
-  security_reviewed: true    # Tier 3 passed
+---
+name: "Example Skill"
+verification: security_reviewed
+---
 ```
 
-| Field | Value | Meaning |
-|-------|-------|---------|
-| `verified_metadata` | `true` | Tier 2 passed — metadata is accurate |
-| `verified_metadata` | `false` | Tier 2 not yet completed |
-| `security_reviewed` | `true` | Tier 3 passed — safe for production |
-| `security_reviewed` | `false` | Tier 3 not yet completed |
+Valid values:
 
-All skills in this repository have at minimum `verified_metadata: true`.
+| Value | Tier | Meaning |
+|-------|------|---------|
+| `listed` | 📝 Tier 1 | Published and indexed — basic format validation |
+| `verified_metadata` | ✅ Tier 2 | Frontmatter, links, and installs confirmed accurate |
+| `security_reviewed` | 🛡️ Tier 3 | Content scanned for malicious patterns — production safe |
 
 ## More Information
 

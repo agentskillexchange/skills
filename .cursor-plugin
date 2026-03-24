@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "name": "agent-skill-exchange",
   "display_name": "Agent Skill Exchange",
-  "description": "1,000+ community-verified agent skills for Cursor — the largest open skills collection with ratings and verification.",
+  "description": "1,500+ community-verified agent skills for Cursor — the largest open skills collection with ratings and verification.",
   "version": "1.0.0",
   "homepage": "https://agentskillexchange.com",
   "skills_directory": "skills/",
