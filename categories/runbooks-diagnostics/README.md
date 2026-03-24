@@ -1,6 +1,6 @@
 # 📋 Runbooks & Diagnostics
 
-> **174 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=runbooks-diagnostics)
+> **178 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=runbooks-diagnostics)
 
 Incident response, troubleshooting guides, system diagnostics, and operational runbooks.
 
@@ -47,6 +47,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Terraform State Drift Detector](../../skills/terraform-state-drift-detector-7/) | ⭐ 4.9 | 0 | `clawhub install terraform-state-drift-detector-7` |
 | [Ansible Playbook Debugger](../../skills/ansible-playbook-debugger-2/) | ⭐ 4.8 | 0 | `clawhub install ansible-playbook-debugger-2` |
 | [ArgoCD Application Health Runbook](../../skills/argocd-application-health-runbook/) | ⭐ 4.8 | 0 | `clawhub install argocd-application-health-runbook` |
+| [AWS CloudFormation Drift Detector](../../skills/aws-cloudformation-drift-detector-4/) | ⭐ 4.8 | 0 | `clawhub install aws-cloudformation-drift-detector-4` |
 | [AWS CloudWatch Alarm Runbook](../../skills/aws-cloudwatch-alarm-runbook-wave48/) | ⭐ 4.8 | 0 | `clawhub install aws-cloudwatch-alarm-runbook-wave48` |
 | [AWS CloudWatch Log Anomaly Scanner](../../skills/aws-cloudwatch-log-anomaly-scanner/) | ⭐ 4.8 | 0 | `clawhub install aws-cloudwatch-log-anomaly-scanner` |
 | [Datadog Triage Playbook](../../skills/datadog-triage-playbook/) | ⭐ 4.8 | 0 | `clawhub install datadog-triage-playbook` |
@@ -84,6 +85,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [AWS Systems Manager Runbook](../../skills/aws-ssm-runbook-executor/) | ⭐ 4.7 | 0 | `clawhub install aws-ssm-runbook-executor` |
 | [Disk Space Alert Runbook](../../skills/disk-space-alert-runbook/) | ⭐ 4.7 | 0 | `clawhub install disk-space-alert-runbook` |
 | [Kubernetes Runbook Executor](../../skills/kubernetes-runbook-executor-2/) | ⭐ 4.7 | 0 | `clawhub install kubernetes-runbook-executor-2` |
+| [Kubernetes Troubleshoot Analyzer](../../skills/kubernetes-troubleshoot-analyzer/) | ⭐ 4.7 | 0 | `clawhub install kubernetes-troubleshoot-analyzer` |
 | [PagerDuty On-Call Escalation Checker](../../skills/pagerduty-on-call-escalation-checker/) | ⭐ 4.7 | 0 | `clawhub install pagerduty-on-call-escalation-checker` |
 | [Systemd Service Recovery Playbook](../../skills/systemd-service-recovery-playbook/) | ⭐ 4.7 | 0 | `clawhub install systemd-service-recovery-playbook` |
 | [Terraform State Drift Detector](../../skills/terraform-state-drift-detector-5/) | ⭐ 4.7 | 0 | `clawhub install terraform-state-drift-detector-5` |
@@ -122,6 +124,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Kubernetes Pod Crash Analyzer](../../skills/kubernetes-pod-crash-analyzer-3/) | ⭐ 4.4 | 0 | `clawhub install kubernetes-pod-crash-analyzer-3` |
 | [Nginx Config Validator and Optimizer](../../skills/nginx-config-validator-optimizer/) | ⭐ 4.4 | 0 | `clawhub install nginx-config-validator-optimizer` |
 | [Nginx Error Log Classifier](../../skills/nginx-error-log-classifier/) | ⭐ 4.4 | 0 | `clawhub install nginx-error-log-classifier` |
+| [PagerDuty Incident Runbook Engine](../../skills/pagerduty-incident-runbook-engine/) | ⭐ 4.4 | 0 | `clawhub install pagerduty-incident-runbook-engine` |
 | [Pod CrashLoop Runbook](../../skills/pod-crashloop-runbook/) | ⭐ 4.4 | 0 | `clawhub install pod-crashloop-runbook` |
 | [PostgreSQL Performance Runbook](../../skills/postgresql-performance-runbook/) | ⭐ 4.4 | 0 | `clawhub install postgresql-performance-runbook` |
 | [PostgreSQL Slow Query Analyzer](../../skills/postgresql-slow-query-analyzer-2/) | ⭐ 4.4 | 0 | `clawhub install postgresql-slow-query-analyzer-2` |
@@ -162,6 +165,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [PagerDuty Incident Runbook Automator](../../skills/pagerduty-incident-runbook-automator/) | ⭐ 4.2 | 0 | `clawhub install pagerduty-incident-runbook-automator` |
 | [PagerDuty On-Call Escalation Checker](../../skills/pagerduty-on-call-escalation-checker-2/) | ⭐ 4.2 | 0 | `clawhub install pagerduty-on-call-escalation-checker-2` |
 | [PostgreSQL Query Plan Analyzer](../../skills/postgresql-query-plan-analyzer-3/) | ⭐ 4.2 | 0 | `clawhub install postgresql-query-plan-analyzer-3` |
+| [Terraform State Forensics Tool](../../skills/terraform-state-forensics-tool/) | ⭐ 4.2 | 0 | `clawhub install terraform-state-forensics-tool` |
 | [Ansible Runbook Executor](../../skills/ansible-runbook-executor/) | ⭐ 4.1 | 0 | `clawhub install ansible-runbook-executor` |
 | [AWS CloudWatch Alarm Triage Agent](../../skills/aws-cloudwatch-alarm-triage-agent-2/) | ⭐ 4.1 | 0 | `clawhub install aws-cloudwatch-alarm-triage-agent-2` |
 | [Docker Container Health Inspector](../../skills/docker-container-health-inspector-3/) | ⭐ 4.1 | 0 | `clawhub install docker-container-health-inspector-3` |
@@ -206,8 +210,8 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 ## Related Categories
 
-- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (239 skills)
-- ✅ [Code Quality & Review](../code-quality-review/) (135 skills)
+- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (243 skills)
+- ✅ [Code Quality & Review](../code-quality-review/) (139 skills)
 - 🛠️ [Developer Tools](../developer-tools/) (126 skills)
 - 📚 [Library & API Reference](../library-api-reference/) (111 skills)
 

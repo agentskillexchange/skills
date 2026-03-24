@@ -1,6 +1,6 @@
 # ✅ Code Quality & Review
 
-> **135 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=code-quality-review)
+> **139 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=code-quality-review)
 
 Linting rules, review checklists, code standards enforcement, and quality gates.
 
@@ -17,10 +17,12 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [ESLint Auto-Fixer](../../skills/eslint-auto-fixer/) | ⭐ 4.9 | 0 | `clawhub install eslint-auto-fixer` |
 | [ESLint Config Enforcer](../../skills/eslint-config-enforcer/) | ⭐ 4.9 | 0 | `clawhub install eslint-config-enforcer` |
 | [ESLint Custom Rule Generator](../../skills/eslint-custom-rule-generator/) | ⭐ 4.9 | 0 | `clawhub install eslint-custom-rule-generator` |
+| [ESLint Rule Architect](../../skills/eslint-rule-architect-2/) | ⭐ 4.9 | 0 | `clawhub install eslint-rule-architect-2` |
 | [ESLint Rule Architect](../../skills/eslint-rule-architect/) | ⭐ 4.9 | 0 | `clawhub install eslint-rule-architect` |
 | [ESLint Rule Composer](../../skills/eslint-rule-composer-2/) | ⭐ 4.9 | 0 | `clawhub install eslint-rule-composer-2` |
 | [PR Code Review Checklist Generator](../../skills/pr-code-review-checklist-generator-2/) | ⭐ 4.9 | 0 | `clawhub install pr-code-review-checklist-generator-2` |
 | [Prettier Config Harmonizer](../../skills/prettier-config-harmonizer-3/) | ⭐ 4.9 | 0 | `clawhub install prettier-config-harmonizer-3` |
+| [Semgrep Custom Pattern Library](../../skills/semgrep-custom-pattern-library/) | ⭐ 4.9 | 0 | `clawhub install semgrep-custom-pattern-library` |
 | [Semgrep Custom Rule Builder](../../skills/semgrep-custom-rule-builder-4/) | ⭐ 4.9 | 0 | `clawhub install semgrep-custom-rule-builder-4` |
 | [SonarQube Quality Gate Agent](../../skills/sonarqube-quality-gate-agent/) | ⭐ 4.9 | 0 | `clawhub install sonarqube-quality-gate-agent` |
 | [SonarQube Quality Gate Checker](../../skills/sonarqube-quality-gate-checker/) | ⭐ 4.9 | 0 | `clawhub install sonarqube-quality-gate-checker` |
@@ -80,10 +82,12 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [ESLint Rule Impact Analyzer](../../skills/eslint-rule-impact-analyzer/) | ⭐ 4.6 | 0 | `clawhub install eslint-rule-impact-analyzer` |
 | [ESLint Rule Violation Summarizer](../../skills/eslint-rule-violation-summarizer-2/) | ⭐ 4.6 | 0 | `clawhub install eslint-rule-violation-summarizer-2` |
 | [Jenkins Pipeline Code Review Agent](../../skills/jenkins-pipeline-code-review-agent/) | ⭐ 4.6 | 0 | `clawhub install jenkins-pipeline-code-review-agent` |
+| [Prettier Config Harmonizer](../../skills/prettier-config-harmonizer-4/) | ⭐ 4.6 | 0 | `clawhub install prettier-config-harmonizer-4` |
 | [Python Type Coverage Analyzer](../../skills/python-type-coverage-analyzer/) | ⭐ 4.6 | 0 | `clawhub install python-type-coverage-analyzer` |
 | [Semgrep Code Scanner](../../skills/semgrep-code-scanner/) | ⭐ 4.6 | 0 | `clawhub install semgrep-code-scanner` |
 | [Semgrep Custom Rule Builder](../../skills/semgrep-custom-rule-builder/) | ⭐ 4.6 | 0 | `clawhub install semgrep-custom-rule-builder` |
 | [SonarQube Gate Enforcer](../../skills/sonarqube-gate-enforcer/) | ⭐ 4.6 | 0 | `clawhub install sonarqube-gate-enforcer` |
+| [SonarQube Quality Gate Enforcer](../../skills/sonarqube-quality-gate-enforcer-13/) | ⭐ 4.6 | 0 | `clawhub install sonarqube-quality-gate-enforcer-13` |
 | [SonarQube Quality Gate Enforcer](../../skills/sonarqube-quality-gate-enforcer-11/) | ⭐ 4.6 | 0 | `clawhub install sonarqube-quality-gate-enforcer-11` |
 | [SonarQube Quality Gate Enforcer](../../skills/sonarqube-quality-gate-enforcer-10/) | ⭐ 4.6 | 0 | `clawhub install sonarqube-quality-gate-enforcer-10` |
 | [SonarQube Quality Gate Explainer](../../skills/sonarqube-quality-gate-explainer-2/) | ⭐ 4.6 | 0 | `clawhub install sonarqube-quality-gate-explainer-2` |
@@ -167,8 +171,8 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 ## Related Categories
 
-- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (239 skills)
-- 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (174 skills)
+- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (243 skills)
+- 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (178 skills)
 - 🛠️ [Developer Tools](../developer-tools/) (126 skills)
 - 📚 [Library & API Reference](../library-api-reference/) (111 skills)
 
