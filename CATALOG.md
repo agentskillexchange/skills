@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1300 skills** across **17 categories** · Updated 2026-03-24 14:09 UTC
+> **1312 skills** across **20 categories** · Updated 2026-03-24 15:10 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -10,13 +10,13 @@
 
 | Metric | Value |
 |--------|-------|
-| Total Skills | **1300** |
-| Categories | **17** |
-| Frameworks | **11** |
+| Total Skills | **1312** |
+| Categories | **20** |
+| Frameworks | **20** |
 | Skills with live signal data | **842** |
 | Security Reviewed | **760** |
 | Verified Metadata | **7** |
-| Listed | **533** |
+| Listed | **545** |
 
 > These verification counts are **final-state buckets**, not cumulative stages.
 
@@ -747,102 +747,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Task Queue Monitor](skills/task-queue-monitor/) | Listed | — | — | `clawhub install task-queue-monitor` |
 
 
-### ✅ Code Quality & Review (88 skills)
-
-Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
-
-| Skill | Tier | GitHub Stars | npm Downloads | Install |
-|---|---|---:|---:|---|
-| [Storybook Component Tester](skills/storybook-component-tester/) | Listed | 89.5k | 13M/wk | `clawhub install storybook-component-tester` |
-| [Playwright Test Recorder](skills/playwright-test-recorder/) | Listed | 84.9k | 39.8M/wk | `clawhub install playwright-test-recorder` |
-| [Docker Build Cache Optimizer](skills/docker-build-cache-optimizer/) | Security Reviewed | 71.6k | — | `clawhub install docker-build-cache-optimizer` |
-| [Git Bisect Automation Agent](skills/git-bisect-automation-agent/) | Listed | 71.6k | — | `clawhub install git-bisect-automation-agent` |
-| [ESLint Auto-Fix Agent](skills/eslint-auto-fix-agent/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-auto-fix-agent` |
-| [ESLint Auto-Fix Orchestrator](skills/eslint-autofix-orchestrator/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-autofix-orchestrator` |
-| [ESLint Auto-Fix Pipeline](skills/eslint-autofix-pipeline/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-autofix-pipeline` |
-| [ESLint Auto-Fixer](skills/eslint-auto-fixer/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-auto-fixer` |
-| [ESLint Config Enforcer](skills/eslint-config-enforcer/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-config-enforcer` |
-| [ESLint Custom Rule Builder](skills/eslint-custom-rule-builder/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-custom-rule-builder` |
-| [ESLint Custom Rule Generator](skills/eslint-custom-rule-generator/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-custom-rule-generator` |
-| [ESLint Rule Analyzer](skills/eslint-rule-analyzer/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-rule-analyzer` |
-| [ESLint Rule Analyzer and Fixer](skills/eslint-rule-analyzer-fixer/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-rule-analyzer-fixer` |
-| [ESLint Rule Architect](skills/eslint-rule-architect-2/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-rule-architect-2` |
-| [ESLint Rule Auditor](skills/eslint-rule-auditor-3/) | Listed | 27.2k | 109M/wk | `clawhub install eslint-rule-auditor-3` |
-| [ESLint Rule Composer](skills/eslint-rule-composer/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-rule-composer` |
-| [ESLint Rule Configurator](skills/eslint-rule-configurator/) | Listed | 27.2k | 109M/wk | `clawhub install eslint-rule-configurator` |
-| [ESLint Rule Conflict Detector](skills/eslint-rule-conflict-detector-2/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-rule-conflict-detector-2` |
-| [ESLint Rule Conflict Resolver](skills/eslint-rule-conflict-resolver/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-rule-conflict-resolver` |
-| [ESLint Rule Enforcement Agent](skills/eslint-rule-enforcement-agent/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-rule-enforcement-agent` |
-| [ESLint Rule Enforcer](skills/eslint-rule-enforcer/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-rule-enforcer` |
-| [ESLint Rule Enforcer Agent](skills/eslint-rule-enforcer-agent/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-rule-enforcer-agent` |
-| [ESLint Rule Impact Analyzer](skills/eslint-rule-impact-analyzer-2/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-rule-impact-analyzer-2` |
-| [ESLint Rule Violation Summarizer](skills/eslint-rule-violation-summarizer-2/) | Listed | 27.2k | 109M/wk | `clawhub install eslint-rule-violation-summarizer-2` |
-| [Prettier Config Conflict Resolver](skills/prettier-config-conflict-resolver/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install prettier-config-conflict-resolver` |
-| [Jenkins Pipeline Code Review Agent](skills/jenkins-pipeline-code-review-agent/) | Security Reviewed | 25.1k | — | `clawhub install jenkins-pipeline-code-review-agent` |
-| [CodeClimate Diff Analyzer](skills/codeclimate-diff-analyzer-2/) | Security Reviewed | 24.3k | — | `clawhub install codeclimate-diff-analyzer-2` |
-| [PHPStan Static Analyzer Agent](skills/phpstan-static-analyzer-agent/) | Security Reviewed | 21k | — | `clawhub install phpstan-static-analyzer-agent` |
-| [Prettier Format Enforcement Bot](skills/prettier-format-enforcement-bot/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install prettier-format-enforcement-bot` |
-| [Pull Request Size Analyzer](skills/pull-request-size-analyzer-agent/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install pull-request-size-analyzer-agent` |
-| [Semgrep Code Pattern Scanner](skills/semgrep-code-pattern-scanner-2/) | Listed | 14.5k | — | `clawhub install semgrep-code-pattern-scanner-2` |
-| [Semgrep Code Scanner](skills/semgrep-code-scanner/) | Listed | 14.5k | — | `clawhub install semgrep-code-scanner` |
-| [Semgrep Custom Pattern Builder](skills/semgrep-custom-pattern-builder/) | Security Reviewed | 14.5k | — | `clawhub install semgrep-custom-pattern-builder` |
-| [Semgrep Custom Pattern Generator](skills/semgrep-custom-pattern-generator/) | Listed | 14.5k | — | `clawhub install semgrep-custom-pattern-generator` |
-| [Semgrep Custom Pattern Library](skills/semgrep-custom-pattern-library/) | Listed | 14.5k | — | `clawhub install semgrep-custom-pattern-library` |
-| [Semgrep Custom Rule Builder](skills/semgrep-custom-rule-builder-3/) | Listed | 14.5k | — | `clawhub install semgrep-custom-rule-builder-3` |
-| [Semgrep Pattern Matching Analyzer](skills/semgrep-pattern-matching-analyzer/) | Listed | 14.5k | — | `clawhub install semgrep-pattern-matching-analyzer` |
-| [Semgrep Pattern Matching Auditor](skills/semgrep-pattern-matching-auditor/) | Security Reviewed | 14.5k | — | `clawhub install semgrep-pattern-matching-auditor` |
-| [Semgrep Pattern Scanner](skills/semgrep-pattern-scanner/) | Security Reviewed | 14.5k | — | `clawhub install semgrep-pattern-scanner` |
-| [Semgrep Rule Author](skills/semgrep-rule-author/) | Listed | 14.5k | — | `clawhub install semgrep-rule-author` |
-| [Semgrep Rule Engine](skills/semgrep-rule-engine/) | Security Reviewed | 14.5k | — | `clawhub install semgrep-rule-engine` |
-| [Semgrep Rule Runner](skills/semgrep-rule-runner/) | Security Reviewed | 14.5k | — | `clawhub install semgrep-rule-runner` |
-| [Semgrep SAST Scanner](skills/semgrep-sast-scanner-skill/) | Security Reviewed | 14.5k | — | `clawhub install semgrep-sast-scanner-skill` |
-| [Semgrep Security Review Agent](skills/semgrep-security-review-agent/) | Security Reviewed | 14.5k | — | `clawhub install semgrep-security-review-agent` |
-| [Semgrep Security Scanner](skills/semgrep-security-scanner-2/) | Security Reviewed | 14.5k | — | `clawhub install semgrep-security-scanner-2` |
-| [SonarQube Analysis Agent](skills/sonarqube-analysis-agent/) | Security Reviewed | 10.4k | — | `clawhub install sonarqube-analysis-agent` |
-| [SonarQube Analysis Runner](skills/sonarqube-analysis-runner/) | Security Reviewed | 10.4k | — | `clawhub install sonarqube-analysis-runner` |
-| [SonarQube Code Quality Scanner](skills/sonarqube-code-quality-scanner/) | Security Reviewed | 10.4k | — | `clawhub install sonarqube-code-quality-scanner` |
-| [SonarQube Code Scanner Agent](skills/sonarqube-code-scanner-agent/) | Security Reviewed | 10.4k | — | `clawhub install sonarqube-code-scanner-agent` |
-| [SonarQube Gate Enforcer](skills/sonarqube-gate-enforcer/) | Security Reviewed | 10.4k | — | `clawhub install sonarqube-gate-enforcer` |
-| [SonarQube PR Gate](skills/sonarqube-pr-gate-skill/) | Security Reviewed | 10.4k | — | `clawhub install sonarqube-pr-gate-skill` |
-| [SonarQube Quality Gate Agent](skills/sonarqube-quality-gate-agent/) | Security Reviewed | 10.4k | — | `clawhub install sonarqube-quality-gate-agent` |
-| [SonarQube Quality Gate Checker](skills/sonarqube-quality-gate-checker/) | Security Reviewed | 10.4k | — | `clawhub install sonarqube-quality-gate-checker` |
-| [SonarQube Quality Gate Enforcer](skills/sonarqube-quality-gate-enforcer-14/) | Security Reviewed | 10.4k | — | `clawhub install sonarqube-quality-gate-enforcer-14` |
-| [SonarQube Quality Gate Explainer](skills/sonarqube-quality-gate-explainer/) | Listed | 10.4k | — | `clawhub install sonarqube-quality-gate-explainer` |
-| [SonarQube Quality Gate Monitor](skills/sonarqube-quality-gate-monitor-3/) | Security Reviewed | 10.4k | — | `clawhub install sonarqube-quality-gate-monitor-3` |
-| [SonarQube Rule Enforcement Agent](skills/sonarqube-rule-enforcement-agent/) | Security Reviewed | 10.4k | — | `clawhub install sonarqube-rule-enforcement-agent` |
-| [SonarQube Scanner Skill](skills/sonarqube-scanner-skill/) | Security Reviewed | 10.4k | — | `clawhub install sonarqube-scanner-skill` |
-| [CodeClimate Maintainability Tracker](skills/codeclimate-maintainability-tracker-7/) | Security Reviewed | 3.1k | 3.3M/wk | `clawhub install codeclimate-maintainability-tracker-7` |
-| [Codecov Coverage Report Analyzer](skills/codecov-coverage-report-analyzer/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install codecov-coverage-report-analyzer` |
-| [Codecov Coverage Analyzer](skills/codecov-coverage-analyzer/) | Security Reviewed | — | 45.5M/wk | `clawhub install codecov-coverage-analyzer` |
-| [Jest Unit Test Scaffolder](skills/jest-unit-test-scaffolder/) | Listed | — | 45.5M/wk | `clawhub install jest-unit-test-scaffolder` |
-| [Artillery Load Test Runner](skills/artillery-load-test-runner/) | Listed | — | — | `clawhub install artillery-load-test-runner` |
-| [Bandit Python Security Linter](skills/bandit-python-security-linter-2/) | Listed | — | — | `clawhub install bandit-python-security-linter-2` |
-| [CodeClimate Maintainability Reporter](skills/codeclimate-maintainability-reporter/) | Listed | — | — | `clawhub install codeclimate-maintainability-reporter` |
-| [CodeClimate Quality Analysis](skills/codeclimate-quality-analysis/) | Listed | — | — | `clawhub install codeclimate-quality-analysis` |
-| [Codecov Coverage Diff Analyzer](skills/codecov-coverage-diff-analyzer-2/) | Security Reviewed | — | — | `clawhub install codecov-coverage-diff-analyzer-2` |
-| [Codecov Coverage Tracker](skills/codecov-coverage-tracker-skill/) | Security Reviewed | — | — | `clawhub install codecov-coverage-tracker-skill` |
-| [Codecov Coverage Tracker Agent](skills/codecov-coverage-tracker-agent/) | Security Reviewed | — | — | `clawhub install codecov-coverage-tracker-agent` |
-| [Complexity Trend Tracker](skills/complexity-trend-tracker-agent/) | Listed | — | — | `clawhub install complexity-trend-tracker-agent` |
-| [Dead Code Detector](skills/dead-code-detector/) | Listed | — | — | `clawhub install dead-code-detector` |
-| [DeepSource Automated Review](skills/deepsource-automated-review/) | Listed | — | — | `clawhub install deepsource-automated-review` |
-| [DeepSource Static Analysis](skills/deepsource-static-analysis/) | Listed | — | — | `clawhub install deepsource-static-analysis` |
-| [Dependency Graph Visualizer](skills/dependency-graph-visualizer/) | Listed | — | — | `clawhub install dependency-graph-visualizer` |
-| [Import Cycle Analyzer](skills/import-cycle-analyzer-2/) | Listed | — | — | `clawhub install import-cycle-analyzer-2` |
-| [PR Code Review Checklist Generator](skills/pr-code-review-checklist-generator/) | Listed | — | — | `clawhub install pr-code-review-checklist-generator` |
-| [Prettier Config Harmonizer](skills/prettier-config-harmonizer-2/) | Security Reviewed | — | — | `clawhub install prettier-config-harmonizer-2` |
-| [Pylint Baseline Manager](skills/pylint-baseline-manager-wave48/) | Security Reviewed | — | — | `clawhub install pylint-baseline-manager-wave48` |
-| [Pylint Code Analyzer](skills/pylint-code-analyzer/) | Listed | — | — | `clawhub install pylint-code-analyzer` |
-| [Pylint Code Review Assistant](skills/pylint-code-review-assistant/) | Security Reviewed | — | — | `clawhub install pylint-code-review-assistant` |
-| [Pytest Fixture Generator](skills/pytest-fixture-generator/) | Listed | — | — | `clawhub install pytest-fixture-generator` |
-| [Python Type Coverage Analyzer](skills/python-type-coverage-analyzer/) | Listed | — | — | `clawhub install python-type-coverage-analyzer` |
-| [Python Type Coverage Checker](skills/python-type-coverage-checker/) | Listed | — | — | `clawhub install python-type-coverage-checker` |
-| [Ruff Linter and Formatter](skills/ruff-linter-formatter-agent/) | Listed | — | — | `clawhub install ruff-linter-formatter-agent` |
-| [Ruff Linter Configuration Architect](skills/ruff-linter-configuration-architect/) | Security Reviewed | — | — | `clawhub install ruff-linter-configuration-architect` |
-| [Ruff Python Linter Configurator](skills/ruff-python-linter-configurator/) | Listed | — | — | `clawhub install ruff-python-linter-configurator` |
-| [TypeScript Strict Checker](skills/typescript-strict-checker/) | Listed | — | — | `clawhub install typescript-strict-checker` |
-| [TypeScript Strict Mode Checker](skills/typescript-strict-mode-checker/) | Listed | — | — | `clawhub install typescript-strict-mode-checker` |
-
-
 ### 🔄 Data Extraction & Transformation (88 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
@@ -937,6 +841,102 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Snowflake Query Profiler](skills/snowflake-query-profiler/) | Security Reviewed | — | — | `clawhub install snowflake-query-profiler` |
 | [SQL Query Optimizer](skills/sql-query-optimizer/) | Listed | — | — | `clawhub install sql-query-optimizer` |
 | [XML XSLT Transform Pipeline](skills/xml-xslt-transform-pipeline/) | Listed | — | — | `clawhub install xml-xslt-transform-pipeline` |
+
+
+### ✅ Code Quality & Review (88 skills)
+
+Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
+
+| Skill | Tier | GitHub Stars | npm Downloads | Install |
+|---|---|---:|---:|---|
+| [Storybook Component Tester](skills/storybook-component-tester/) | Listed | 89.5k | 13M/wk | `clawhub install storybook-component-tester` |
+| [Playwright Test Recorder](skills/playwright-test-recorder/) | Listed | 84.9k | 39.8M/wk | `clawhub install playwright-test-recorder` |
+| [Docker Build Cache Optimizer](skills/docker-build-cache-optimizer/) | Security Reviewed | 71.6k | — | `clawhub install docker-build-cache-optimizer` |
+| [Git Bisect Automation Agent](skills/git-bisect-automation-agent/) | Listed | 71.6k | — | `clawhub install git-bisect-automation-agent` |
+| [ESLint Auto-Fix Agent](skills/eslint-auto-fix-agent/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-auto-fix-agent` |
+| [ESLint Auto-Fix Orchestrator](skills/eslint-autofix-orchestrator/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-autofix-orchestrator` |
+| [ESLint Auto-Fix Pipeline](skills/eslint-autofix-pipeline/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-autofix-pipeline` |
+| [ESLint Auto-Fixer](skills/eslint-auto-fixer/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-auto-fixer` |
+| [ESLint Config Enforcer](skills/eslint-config-enforcer/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-config-enforcer` |
+| [ESLint Custom Rule Builder](skills/eslint-custom-rule-builder/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-custom-rule-builder` |
+| [ESLint Custom Rule Generator](skills/eslint-custom-rule-generator/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-custom-rule-generator` |
+| [ESLint Rule Analyzer](skills/eslint-rule-analyzer/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-rule-analyzer` |
+| [ESLint Rule Analyzer and Fixer](skills/eslint-rule-analyzer-fixer/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-rule-analyzer-fixer` |
+| [ESLint Rule Architect](skills/eslint-rule-architect-2/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-rule-architect-2` |
+| [ESLint Rule Auditor](skills/eslint-rule-auditor-3/) | Listed | 27.2k | 109M/wk | `clawhub install eslint-rule-auditor-3` |
+| [ESLint Rule Composer](skills/eslint-rule-composer/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-rule-composer` |
+| [ESLint Rule Configurator](skills/eslint-rule-configurator/) | Listed | 27.2k | 109M/wk | `clawhub install eslint-rule-configurator` |
+| [ESLint Rule Conflict Detector](skills/eslint-rule-conflict-detector-2/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-rule-conflict-detector-2` |
+| [ESLint Rule Conflict Resolver](skills/eslint-rule-conflict-resolver/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-rule-conflict-resolver` |
+| [ESLint Rule Enforcement Agent](skills/eslint-rule-enforcement-agent/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-rule-enforcement-agent` |
+| [ESLint Rule Enforcer](skills/eslint-rule-enforcer/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-rule-enforcer` |
+| [ESLint Rule Enforcer Agent](skills/eslint-rule-enforcer-agent/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-rule-enforcer-agent` |
+| [ESLint Rule Impact Analyzer](skills/eslint-rule-impact-analyzer-2/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-rule-impact-analyzer-2` |
+| [ESLint Rule Violation Summarizer](skills/eslint-rule-violation-summarizer-2/) | Listed | 27.2k | 109M/wk | `clawhub install eslint-rule-violation-summarizer-2` |
+| [Prettier Config Conflict Resolver](skills/prettier-config-conflict-resolver/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install prettier-config-conflict-resolver` |
+| [Jenkins Pipeline Code Review Agent](skills/jenkins-pipeline-code-review-agent/) | Security Reviewed | 25.1k | — | `clawhub install jenkins-pipeline-code-review-agent` |
+| [CodeClimate Diff Analyzer](skills/codeclimate-diff-analyzer-2/) | Security Reviewed | 24.3k | — | `clawhub install codeclimate-diff-analyzer-2` |
+| [PHPStan Static Analyzer Agent](skills/phpstan-static-analyzer-agent/) | Security Reviewed | 21k | — | `clawhub install phpstan-static-analyzer-agent` |
+| [Prettier Format Enforcement Bot](skills/prettier-format-enforcement-bot/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install prettier-format-enforcement-bot` |
+| [Pull Request Size Analyzer](skills/pull-request-size-analyzer-agent/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install pull-request-size-analyzer-agent` |
+| [Semgrep Code Pattern Scanner](skills/semgrep-code-pattern-scanner-2/) | Listed | 14.5k | — | `clawhub install semgrep-code-pattern-scanner-2` |
+| [Semgrep Code Scanner](skills/semgrep-code-scanner/) | Listed | 14.5k | — | `clawhub install semgrep-code-scanner` |
+| [Semgrep Custom Pattern Builder](skills/semgrep-custom-pattern-builder/) | Security Reviewed | 14.5k | — | `clawhub install semgrep-custom-pattern-builder` |
+| [Semgrep Custom Pattern Generator](skills/semgrep-custom-pattern-generator/) | Listed | 14.5k | — | `clawhub install semgrep-custom-pattern-generator` |
+| [Semgrep Custom Pattern Library](skills/semgrep-custom-pattern-library/) | Listed | 14.5k | — | `clawhub install semgrep-custom-pattern-library` |
+| [Semgrep Custom Rule Builder](skills/semgrep-custom-rule-builder-3/) | Listed | 14.5k | — | `clawhub install semgrep-custom-rule-builder-3` |
+| [Semgrep Pattern Matching Analyzer](skills/semgrep-pattern-matching-analyzer/) | Listed | 14.5k | — | `clawhub install semgrep-pattern-matching-analyzer` |
+| [Semgrep Pattern Matching Auditor](skills/semgrep-pattern-matching-auditor/) | Security Reviewed | 14.5k | — | `clawhub install semgrep-pattern-matching-auditor` |
+| [Semgrep Pattern Scanner](skills/semgrep-pattern-scanner/) | Security Reviewed | 14.5k | — | `clawhub install semgrep-pattern-scanner` |
+| [Semgrep Rule Author](skills/semgrep-rule-author/) | Listed | 14.5k | — | `clawhub install semgrep-rule-author` |
+| [Semgrep Rule Engine](skills/semgrep-rule-engine/) | Security Reviewed | 14.5k | — | `clawhub install semgrep-rule-engine` |
+| [Semgrep Rule Runner](skills/semgrep-rule-runner/) | Security Reviewed | 14.5k | — | `clawhub install semgrep-rule-runner` |
+| [Semgrep SAST Scanner](skills/semgrep-sast-scanner-skill/) | Security Reviewed | 14.5k | — | `clawhub install semgrep-sast-scanner-skill` |
+| [Semgrep Security Review Agent](skills/semgrep-security-review-agent/) | Security Reviewed | 14.5k | — | `clawhub install semgrep-security-review-agent` |
+| [Semgrep Security Scanner](skills/semgrep-security-scanner-2/) | Security Reviewed | 14.5k | — | `clawhub install semgrep-security-scanner-2` |
+| [SonarQube Analysis Agent](skills/sonarqube-analysis-agent/) | Security Reviewed | 10.4k | — | `clawhub install sonarqube-analysis-agent` |
+| [SonarQube Analysis Runner](skills/sonarqube-analysis-runner/) | Security Reviewed | 10.4k | — | `clawhub install sonarqube-analysis-runner` |
+| [SonarQube Code Quality Scanner](skills/sonarqube-code-quality-scanner/) | Security Reviewed | 10.4k | — | `clawhub install sonarqube-code-quality-scanner` |
+| [SonarQube Code Scanner Agent](skills/sonarqube-code-scanner-agent/) | Security Reviewed | 10.4k | — | `clawhub install sonarqube-code-scanner-agent` |
+| [SonarQube Gate Enforcer](skills/sonarqube-gate-enforcer/) | Security Reviewed | 10.4k | — | `clawhub install sonarqube-gate-enforcer` |
+| [SonarQube PR Gate](skills/sonarqube-pr-gate-skill/) | Security Reviewed | 10.4k | — | `clawhub install sonarqube-pr-gate-skill` |
+| [SonarQube Quality Gate Agent](skills/sonarqube-quality-gate-agent/) | Security Reviewed | 10.4k | — | `clawhub install sonarqube-quality-gate-agent` |
+| [SonarQube Quality Gate Checker](skills/sonarqube-quality-gate-checker/) | Security Reviewed | 10.4k | — | `clawhub install sonarqube-quality-gate-checker` |
+| [SonarQube Quality Gate Enforcer](skills/sonarqube-quality-gate-enforcer-14/) | Security Reviewed | 10.4k | — | `clawhub install sonarqube-quality-gate-enforcer-14` |
+| [SonarQube Quality Gate Explainer](skills/sonarqube-quality-gate-explainer/) | Listed | 10.4k | — | `clawhub install sonarqube-quality-gate-explainer` |
+| [SonarQube Quality Gate Monitor](skills/sonarqube-quality-gate-monitor-3/) | Security Reviewed | 10.4k | — | `clawhub install sonarqube-quality-gate-monitor-3` |
+| [SonarQube Rule Enforcement Agent](skills/sonarqube-rule-enforcement-agent/) | Security Reviewed | 10.4k | — | `clawhub install sonarqube-rule-enforcement-agent` |
+| [SonarQube Scanner Skill](skills/sonarqube-scanner-skill/) | Security Reviewed | 10.4k | — | `clawhub install sonarqube-scanner-skill` |
+| [CodeClimate Maintainability Tracker](skills/codeclimate-maintainability-tracker-7/) | Security Reviewed | 3.1k | 3.3M/wk | `clawhub install codeclimate-maintainability-tracker-7` |
+| [Codecov Coverage Report Analyzer](skills/codecov-coverage-report-analyzer/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install codecov-coverage-report-analyzer` |
+| [Codecov Coverage Analyzer](skills/codecov-coverage-analyzer/) | Security Reviewed | — | 45.5M/wk | `clawhub install codecov-coverage-analyzer` |
+| [Jest Unit Test Scaffolder](skills/jest-unit-test-scaffolder/) | Listed | — | 45.5M/wk | `clawhub install jest-unit-test-scaffolder` |
+| [Artillery Load Test Runner](skills/artillery-load-test-runner/) | Listed | — | — | `clawhub install artillery-load-test-runner` |
+| [Bandit Python Security Linter](skills/bandit-python-security-linter-2/) | Listed | — | — | `clawhub install bandit-python-security-linter-2` |
+| [CodeClimate Maintainability Reporter](skills/codeclimate-maintainability-reporter/) | Listed | — | — | `clawhub install codeclimate-maintainability-reporter` |
+| [CodeClimate Quality Analysis](skills/codeclimate-quality-analysis/) | Listed | — | — | `clawhub install codeclimate-quality-analysis` |
+| [Codecov Coverage Diff Analyzer](skills/codecov-coverage-diff-analyzer-2/) | Security Reviewed | — | — | `clawhub install codecov-coverage-diff-analyzer-2` |
+| [Codecov Coverage Tracker](skills/codecov-coverage-tracker-skill/) | Security Reviewed | — | — | `clawhub install codecov-coverage-tracker-skill` |
+| [Codecov Coverage Tracker Agent](skills/codecov-coverage-tracker-agent/) | Security Reviewed | — | — | `clawhub install codecov-coverage-tracker-agent` |
+| [Complexity Trend Tracker](skills/complexity-trend-tracker-agent/) | Listed | — | — | `clawhub install complexity-trend-tracker-agent` |
+| [Dead Code Detector](skills/dead-code-detector/) | Listed | — | — | `clawhub install dead-code-detector` |
+| [DeepSource Automated Review](skills/deepsource-automated-review/) | Listed | — | — | `clawhub install deepsource-automated-review` |
+| [DeepSource Static Analysis](skills/deepsource-static-analysis/) | Listed | — | — | `clawhub install deepsource-static-analysis` |
+| [Dependency Graph Visualizer](skills/dependency-graph-visualizer/) | Listed | — | — | `clawhub install dependency-graph-visualizer` |
+| [Import Cycle Analyzer](skills/import-cycle-analyzer-2/) | Listed | — | — | `clawhub install import-cycle-analyzer-2` |
+| [PR Code Review Checklist Generator](skills/pr-code-review-checklist-generator/) | Listed | — | — | `clawhub install pr-code-review-checklist-generator` |
+| [Prettier Config Harmonizer](skills/prettier-config-harmonizer-2/) | Security Reviewed | — | — | `clawhub install prettier-config-harmonizer-2` |
+| [Pylint Baseline Manager](skills/pylint-baseline-manager-wave48/) | Security Reviewed | — | — | `clawhub install pylint-baseline-manager-wave48` |
+| [Pylint Code Analyzer](skills/pylint-code-analyzer/) | Listed | — | — | `clawhub install pylint-code-analyzer` |
+| [Pylint Code Review Assistant](skills/pylint-code-review-assistant/) | Security Reviewed | — | — | `clawhub install pylint-code-review-assistant` |
+| [Pytest Fixture Generator](skills/pytest-fixture-generator/) | Listed | — | — | `clawhub install pytest-fixture-generator` |
+| [Python Type Coverage Analyzer](skills/python-type-coverage-analyzer/) | Listed | — | — | `clawhub install python-type-coverage-analyzer` |
+| [Python Type Coverage Checker](skills/python-type-coverage-checker/) | Listed | — | — | `clawhub install python-type-coverage-checker` |
+| [Ruff Linter and Formatter](skills/ruff-linter-formatter-agent/) | Listed | — | — | `clawhub install ruff-linter-formatter-agent` |
+| [Ruff Linter Configuration Architect](skills/ruff-linter-configuration-architect/) | Security Reviewed | — | — | `clawhub install ruff-linter-configuration-architect` |
+| [Ruff Python Linter Configurator](skills/ruff-python-linter-configurator/) | Listed | — | — | `clawhub install ruff-python-linter-configurator` |
+| [TypeScript Strict Checker](skills/typescript-strict-checker/) | Listed | — | — | `clawhub install typescript-strict-checker` |
+| [TypeScript Strict Mode Checker](skills/typescript-strict-mode-checker/) | Listed | — | — | `clawhub install typescript-strict-mode-checker` |
 
 
 ### 📄 Templates & Workflows (76 skills)
@@ -1458,6 +1458,42 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Word
 | [WP Multisite Domain Mapping Agent](skills/wp-multisite-domain-mapping-agent/) | Listed | — | — | `clawhub install wp-multisite-domain-mapping-agent` |
 | [WP-CLI Content Drift Auditor](skills/wp-cli-content-drift-auditor/) | Listed | — | — | `clawhub install wp-cli-content-drift-auditor` |
 | [WPGraphQL Schema Extension Builder](skills/wpgraphql-schema-extension-builder/) | Listed | — | — | `clawhub install wpgraphql-schema-extension-builder` |
+
+
+### 📦 40 (4 skills)
+
+Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=40) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=40&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=40&sort=downloads)
+
+| Skill | Tier | GitHub Stars | npm Downloads | Install |
+|---|---|---:|---:|---|
+| [Checkly Browser Check Failure Notifier](skills/checkly-browser-check-failure-notifier/) | Listed | — | — | `clawhub install checkly-browser-check-failure-notifier` |
+| [Elastic APM Transaction Anomaly Spotter](skills/elastic-apm-transaction-anomaly-spotter/) | Listed | — | — | `clawhub install elastic-apm-transaction-anomaly-spotter` |
+| [Sentry Issue Spike Detection Agent](skills/sentry-issue-spike-detection-agent/) | Listed | — | — | `clawhub install sentry-issue-spike-detection-agent` |
+| [Uptime Robot Status Page Webhook Alerter](skills/uptime-robot-status-page-webhook-alerter/) | Listed | — | — | `clawhub install uptime-robot-status-page-webhook-alerter` |
+
+
+### 📦 41 (4 skills)
+
+Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=41) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=41&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=41&sort=downloads)
+
+| Skill | Tier | GitHub Stars | npm Downloads | Install |
+|---|---|---:|---:|---|
+| [Cookiecutter Project Template Scaffolder](skills/cookiecutter-project-template-scaffolder/) | Listed | — | — | `clawhub install cookiecutter-project-template-scaffolder` |
+| [Plop.js Code Generator Orchestrator](skills/plopjs-code-generator-orchestrator/) | Listed | — | — | `clawhub install plopjs-code-generator-orchestrator` |
+| [Terraform Module Boilerplate Assembler](skills/terraform-module-boilerplate-assembler/) | Listed | — | — | `clawhub install terraform-module-boilerplate-assembler` |
+| [Yeoman Sub-Generator Composition Builder](skills/yeoman-sub-generator-composition-builder/) | Listed | — | — | `clawhub install yeoman-sub-generator-composition-builder` |
+
+
+### 📦 42 (4 skills)
+
+Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=42) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=42&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=42&sort=downloads)
+
+| Skill | Tier | GitHub Stars | npm Downloads | Install |
+|---|---|---:|---:|---|
+| [DALL-E 3 Brand Asset Batch Generator](skills/dall-e-3-brand-asset-batch-generator/) | Listed | — | — | `clawhub install dall-e-3-brand-asset-batch-generator` |
+| [Midjourney Prompt Chain Builder](skills/midjourney-prompt-chain-builder/) | Listed | — | — | `clawhub install midjourney-prompt-chain-builder` |
+| [RunwayML Gen-3 Alpha Video Composer](skills/runwayml-gen-3-alpha-video-composer/) | Listed | — | — | `clawhub install runwayml-gen-3-alpha-video-composer` |
+| [Stable Diffusion ControlNet Pose Pipeline](skills/stable-diffusion-controlnet-pose-pipeline/) | Listed | — | — | `clawhub install stable-diffusion-controlnet-pose-pipeline` |
 
 
 ---
