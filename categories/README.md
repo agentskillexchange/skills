@@ -2,7 +2,7 @@
 
 Browse skills by category. Each category contains a curated list of verified skills.
 
-> **1276 skills** across **17 categories**
+> **1288 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
@@ -17,12 +17,12 @@ Browse skills by category. Each category contains a curated list of verified ski
 | 📄 | [**Templates & Workflows**](templates-workflows/) | **76** | Project scaffolding, boilerplate generators, workflow templa... |
 | 📅 | [**Calendar, Email & Productivity**](calendar-email-productivity/) | **58** | Email automation, calendar management, task coordination, an... |
 | 🎨 | [**Image & Creative Automation**](image-creative-automation/) | **53** | Image generation, asset processing, design automation, and c... |
-| 🔍 | [**Research & Scraping**](research-scraping/) | **48** | Web research, data collection, content aggregation, and info... |
+| 🔍 | [**Research & Scraping**](research-scraping/) | **52** | Web research, data collection, content aggregation, and info... |
 | 🌐 | [**Browser Automation**](browser-automation/) | **47** | Web scraping, UI testing, headless browser control, and brow... |
+| 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **44** | Third-party API bridges, webhook handlers, service connector... |
 | 🎙️ | [**Media & Transcription**](media-transcription/) | **42** | Audio/video processing, speech-to-text, media conversion, an... |
 | ✍️ | [**Content Writing & SEO**](content-writing-seo/) | **41** | Blog posts, SEO optimization, content strategy, and writing ... |
-| 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **40** | Third-party API bridges, webhook handlers, service connector... |
-| 📰 | [**WordPress & CMS**](wordpress-cms/) | **28** | Theme/plugin development, WP-CLI automation, CMS management,... |
+| 📰 | [**WordPress & CMS**](wordpress-cms/) | **32** | Theme/plugin development, WP-CLI automation, CMS management,... |
 
 ---
 

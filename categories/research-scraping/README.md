@@ -1,6 +1,6 @@
 # 🔍 Research & Scraping
 
-> **48 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=research-scraping)
+> **52 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=research-scraping)
 
 Web research, data collection, content aggregation, and information gathering.
 
@@ -22,9 +22,12 @@ Web research, data collection, content aggregation, and information gathering.
 | [Cheerio DOM Scraping Toolkit](../../skills/cheerio-dom-scraping-toolkit/) | ⭐ 0 | 0 | `clawhub install cheerio-dom-scraping-toolkit` |
 | [Cheerio Product Price Tracker](../../skills/cheerio-product-price-tracker/) | ⭐ 0 | 0 | `clawhub install cheerio-product-price-tracker` |
 | [Common Crawl Index Query Agent](../../skills/common-crawl-index-query-agent/) | ⭐ 0 | 0 | `clawhub install common-crawl-index-query-agent` |
+| [Common Crawl URL Index Miner](../../skills/common-crawl-url-index-miner/) | ⭐ 0 | 0 | `clawhub install common-crawl-url-index-miner` |
 | [Crawlee Smart Crawler Agent](../../skills/crawlee-smart-crawler-agent/) | ⭐ 0 | 0 | `clawhub install crawlee-smart-crawler-agent` |
 | [Crunchbase Company Intelligence Scraper](../../skills/crunchbase-company-intelligence-scraper/) | ⭐ 0 | 0 | `clawhub install crunchbase-company-intelligence-scraper` |
+| [Diffbot Article Extraction Verifier](../../skills/diffbot-article-extraction-verifier/) | ⭐ 0 | 0 | `clawhub install diffbot-article-extraction-verifier` |
 | [Diffbot Knowledge Graph Extractor](../../skills/diffbot-knowledge-graph-extractor/) | ⭐ 0 | 0 | `clawhub install diffbot-knowledge-graph-extractor` |
+| [Firecrawl Markdown Capture Pipeline](../../skills/firecrawl-markdown-capture-pipeline/) | ⭐ 0 | 0 | `clawhub install firecrawl-markdown-capture-pipeline` |
 | [Firecrawl MCP Server](../../skills/firecrawl-mcp-server/) | ⭐ 0 | 0 | `clawhub install firecrawl-mcp-server` |
 | [Hacker News Deep Thread Analyzer](../../skills/hacker-news-deep-thread-analyzer/) | ⭐ 0 | 0 | `clawhub install hacker-news-deep-thread-analyzer` |
 | [Jina Reader API Skill](../../skills/jina-reader-api-skill/) | ⭐ 0 | 0 | `clawhub install jina-reader-api-skill` |
@@ -50,6 +53,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [ScrapyCloud Job Manager](../../skills/scrapycloud-job-manager/) | ⭐ 0 | 0 | `clawhub install scrapycloud-job-manager` |
 | [SEC EDGAR Filing Scraper &#038; Analyzer](../../skills/sec-edgar-filing-scraper-analyzer/) | ⭐ 0 | 0 | `clawhub install sec-edgar-filing-scraper-analyzer` |
 | [SEC EDGAR Financial Filing Parser](../../skills/sec-edgar-financial-filing-parser/) | ⭐ 0 | 0 | `clawhub install sec-edgar-financial-filing-parser` |
+| [SerpAPI Answer Box Extractor](../../skills/serpapi-answer-box-extractor/) | ⭐ 0 | 0 | `clawhub install serpapi-answer-box-extractor` |
 | [SerpAPI Research Pipeline](../../skills/serpapi-research-pipeline/) | ⭐ 0 | 0 | `clawhub install serpapi-research-pipeline` |
 | [SerpAPI Scholar Agent](../../skills/serpapi-scholar-agent/) | ⭐ 0 | 0 | `clawhub install serpapi-scholar-agent` |
 | [SerpAPI Search Aggregator](../../skills/serpapi-search-aggregator/) | ⭐ 0 | 0 | `clawhub install serpapi-search-aggregator` |

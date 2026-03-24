@@ -1,6 +1,6 @@
 # 📰 WordPress & CMS
 
-> **28 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=wordpress-cms)
+> **32 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=wordpress-cms)
 
 Theme/plugin development, WP-CLI automation, CMS management, and WordPress skills.
 
@@ -12,6 +12,7 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 |-------|:------:|:-------:|---------|
 | [ACF Custom Fields REST Exposer](../../skills/acf-custom-fields-rest-exposer/) | ⭐ 0 | 0 | `clawhub install acf-custom-fields-rest-exposer` |
 | [ACF to Gutenberg Block Migrator](../../skills/acf-to-gutenberg-block-migrator/) | ⭐ 0 | 0 | `clawhub install acf-to-gutenberg-block-migrator` |
+| [Advanced Custom Fields REST Schema Mapper](../../skills/advanced-custom-fields-rest-schema-mapper/) | ⭐ 0 | 0 | `clawhub install advanced-custom-fields-rest-schema-mapper` |
 | [Gutenberg Block Pattern Generator](../../skills/gutenberg-block-pattern-generator/) | ⭐ 0 | 0 | `clawhub install gutenberg-block-pattern-generator` |
 | [Gutenberg Block Scaffolder](../../skills/gutenberg-block-scaffolder-agent/) | ⭐ 0 | 0 | `clawhub install gutenberg-block-scaffolder-agent` |
 | [Gutenberg Custom Block Builder](../../skills/gutenberg-custom-block-builder/) | ⭐ 0 | 0 | `clawhub install gutenberg-custom-block-builder` |
@@ -20,6 +21,7 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [WooCommerce REST Inventory Sync](../../skills/woocommerce-rest-inventory-sync/) | ⭐ 0 | 0 | `clawhub install woocommerce-rest-inventory-sync` |
 | [WooCommerce REST Order Manager](../../skills/woocommerce-rest-order-manager/) | ⭐ 0 | 0 | `clawhub install woocommerce-rest-order-manager` |
 | [WooCommerce REST Sync Agent](../../skills/woocommerce-rest-sync-agent/) | ⭐ 0 | 0 | `clawhub install woocommerce-rest-sync-agent` |
+| [WooCommerce Webhook Delivery Inspector](../../skills/woocommerce-webhook-delivery-inspector/) | ⭐ 0 | 0 | `clawhub install woocommerce-webhook-delivery-inspector` |
 | [WooCommerce Webhook Orchestrator](../../skills/woocommerce-webhook-orchestrator/) | ⭐ 0 | 0 | `clawhub install woocommerce-webhook-orchestrator` |
 | [WordPress ACF Field Group Auditor](../../skills/wordpress-acf-field-group-auditor/) | ⭐ 0 | 0 | `clawhub install wordpress-acf-field-group-auditor` |
 | [WordPress Block Theme Scaffolder](../../skills/wordpress-block-theme-scaffolder/) | ⭐ 0 | 0 | `clawhub install wordpress-block-theme-scaffolder` |
@@ -37,7 +39,9 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [WP Multisite Domain Mapping Agent](../../skills/wp-multisite-domain-mapping-agent/) | ⭐ 0 | 0 | `clawhub install wp-multisite-domain-mapping-agent` |
 | [WP Multisite Network Sync Agent](../../skills/wp-multisite-network-sync-agent/) | ⭐ 0 | 0 | `clawhub install wp-multisite-network-sync-agent` |
 | [WP-CLI Bulk Content Migrator](../../skills/wp-cli-bulk-content-migrator/) | ⭐ 0 | 0 | `clawhub install wp-cli-bulk-content-migrator` |
+| [WP-CLI Content Drift Auditor](../../skills/wp-cli-content-drift-auditor/) | ⭐ 0 | 0 | `clawhub install wp-cli-content-drift-auditor` |
 | [WP-CLI Site Migration Automator](../../skills/wp-cli-site-migration-automator/) | ⭐ 0 | 0 | `clawhub install wp-cli-site-migration-automator` |
+| [WPGraphQL Schema Extension Builder](../../skills/wpgraphql-schema-extension-builder/) | ⭐ 0 | 0 | `clawhub install wpgraphql-schema-extension-builder` |
 
 ---
 

@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1276 skills** across **17 categories** · Updated 2026-03-24 12:08 UTC
+> **1288 skills** across **17 categories** · Updated 2026-03-24 13:11 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -10,7 +10,7 @@
 
 | Metric | Value |
 |--------|-------|
-| Total Skills | **1276** |
+| Total Skills | **1288** |
 | Categories | **17** |
 | Frameworks | **11** |
 | Verification | All skills **Verified Metadata** or higher |
@@ -1104,7 +1104,7 @@
 | [Stable Diffusion XL Pipeline Builder](skills/stable-diffusion-xl-pipeline-builder/) | ⭐ 0 | 0 | `clawhub install stable-diffusion-xl-pipeline-builder` |
 | [SVG Animation Builder](skills/svg-animation-builder/) | ⭐ 0 | 0 | `clawhub install svg-animation-builder` |
 
-### 🔍 Research & Scraping (48 skills)
+### 🔍 Research & Scraping (52 skills)
 
 | Skill | Rating | Reviews | Install |
 |-------|:------:|:-------:|---------|
@@ -1120,9 +1120,12 @@
 | [Cheerio DOM Scraping Toolkit](skills/cheerio-dom-scraping-toolkit/) | ⭐ 0 | 0 | `clawhub install cheerio-dom-scraping-toolkit` |
 | [Cheerio Product Price Tracker](skills/cheerio-product-price-tracker/) | ⭐ 0 | 0 | `clawhub install cheerio-product-price-tracker` |
 | [Common Crawl Index Query Agent](skills/common-crawl-index-query-agent/) | ⭐ 0 | 0 | `clawhub install common-crawl-index-query-agent` |
+| [Common Crawl URL Index Miner](skills/common-crawl-url-index-miner/) | ⭐ 0 | 0 | `clawhub install common-crawl-url-index-miner` |
 | [Crawlee Smart Crawler Agent](skills/crawlee-smart-crawler-agent/) | ⭐ 0 | 0 | `clawhub install crawlee-smart-crawler-agent` |
 | [Crunchbase Company Intelligence Scraper](skills/crunchbase-company-intelligence-scraper/) | ⭐ 0 | 0 | `clawhub install crunchbase-company-intelligence-scraper` |
+| [Diffbot Article Extraction Verifier](skills/diffbot-article-extraction-verifier/) | ⭐ 0 | 0 | `clawhub install diffbot-article-extraction-verifier` |
 | [Diffbot Knowledge Graph Extractor](skills/diffbot-knowledge-graph-extractor/) | ⭐ 0 | 0 | `clawhub install diffbot-knowledge-graph-extractor` |
+| [Firecrawl Markdown Capture Pipeline](skills/firecrawl-markdown-capture-pipeline/) | ⭐ 0 | 0 | `clawhub install firecrawl-markdown-capture-pipeline` |
 | [Firecrawl MCP Server](skills/firecrawl-mcp-server/) | ⭐ 0 | 0 | `clawhub install firecrawl-mcp-server` |
 | [Hacker News Deep Thread Analyzer](skills/hacker-news-deep-thread-analyzer/) | ⭐ 0 | 0 | `clawhub install hacker-news-deep-thread-analyzer` |
 | [Jina Reader API Skill](skills/jina-reader-api-skill/) | ⭐ 0 | 0 | `clawhub install jina-reader-api-skill` |
@@ -1148,6 +1151,7 @@
 | [ScrapyCloud Job Manager](skills/scrapycloud-job-manager/) | ⭐ 0 | 0 | `clawhub install scrapycloud-job-manager` |
 | [SEC EDGAR Filing Scraper &#038; Analyzer](skills/sec-edgar-filing-scraper-analyzer/) | ⭐ 0 | 0 | `clawhub install sec-edgar-filing-scraper-analyzer` |
 | [SEC EDGAR Financial Filing Parser](skills/sec-edgar-financial-filing-parser/) | ⭐ 0 | 0 | `clawhub install sec-edgar-financial-filing-parser` |
+| [SerpAPI Answer Box Extractor](skills/serpapi-answer-box-extractor/) | ⭐ 0 | 0 | `clawhub install serpapi-answer-box-extractor` |
 | [SerpAPI Research Pipeline](skills/serpapi-research-pipeline/) | ⭐ 0 | 0 | `clawhub install serpapi-research-pipeline` |
 | [SerpAPI Scholar Agent](skills/serpapi-scholar-agent/) | ⭐ 0 | 0 | `clawhub install serpapi-scholar-agent` |
 | [SerpAPI Search Aggregator](skills/serpapi-search-aggregator/) | ⭐ 0 | 0 | `clawhub install serpapi-search-aggregator` |
@@ -1208,6 +1212,55 @@
 | [Selenium Grid Session Manager](skills/selenium-grid-session-manager/) | ⭐ 0 | 0 | `clawhub install selenium-grid-session-manager` |
 | [Selenium Grid Session Router](skills/selenium-grid-session-router/) | ⭐ 0 | 0 | `clawhub install selenium-grid-session-router` |
 | [Selenium Grid Test Orchestrator](skills/selenium-grid-test-orchestrator-2/) | ⭐ 0 | 0 | `clawhub install selenium-grid-test-orchestrator-2` |
+
+### 🔗 Integrations & Connectors (44 skills)
+
+| Skill | Rating | Reviews | Install |
+|-------|:------:|:-------:|---------|
+| [AssemblyAI Real-Time Call Intelligence](skills/assemblyai-realtime-call-intelligence/) | ⭐ 0 | 0 | `clawhub install assemblyai-realtime-call-intelligence` |
+| [AWS S3 &#038; SQS Pipeline Connector](skills/aws-s3-sqs-pipeline-connector/) | ⭐ 0 | 0 | `clawhub install aws-s3-sqs-pipeline-connector` |
+| [ClawHub Skill Discovery &#038; Publishing](skills/clawhub-skill-discovery-publishing/) | ⭐ 0 | 0 | `clawhub install clawhub-skill-discovery-publishing` |
+| [Datadog Integration Connector](skills/datadog-integration-connector-agent/) | ⭐ 0 | 0 | `clawhub install datadog-integration-connector-agent` |
+| [GitHub Discussions Community Digest](skills/github-discussions-community-digest/) | ⭐ 0 | 0 | `clawhub install github-discussions-community-digest` |
+| [Google Drive MCP Server](skills/google-drive-mcp-server/) | ⭐ 0 | 0 | `clawhub install google-drive-mcp-server` |
+| [HubSpot CRM Contact Enrichment Pipeline](skills/hubspot-crm-contact-enrichment-pipeline/) | ⭐ 0 | 0 | `clawhub install hubspot-crm-contact-enrichment-pipeline` |
+| [HubSpot MCP Server](skills/hubspot-mcp-server/) | ⭐ 0 | 0 | `clawhub install hubspot-mcp-server` |
+| [Linear Issue Triage &#038; Sprint Planner](skills/linear-issue-triage-sprint-planner-2/) | ⭐ 0 | 0 | `clawhub install linear-issue-triage-sprint-planner-2` |
+| [Make.com Airtable-to-Shopify Inventory Sync](skills/make-airtable-shopify-inventory-sync/) | ⭐ 0 | 0 | `clawhub install make-airtable-shopify-inventory-sync` |
+| [n8n Workflow Webhook Bridge](skills/n8n-workflow-webhook-bridge/) | ⭐ 0 | 0 | `clawhub install n8n-workflow-webhook-bridge` |
+| [Neon Serverless Postgres MCP](skills/neon-serverless-postgres-mcp/) | ⭐ 0 | 0 | `clawhub install neon-serverless-postgres-mcp` |
+| [Notion Database Sync &#038; Page Generator](skills/notion-database-sync-page-generator-2/) | ⭐ 0 | 0 | `clawhub install notion-database-sync-page-generator-2` |
+| [Plaid Financial Data](skills/plaid-financial-data/) | ⭐ 0 | 0 | `clawhub install plaid-financial-data` |
+| [Plaid Financial Data Connector](skills/plaid-financial-data-connector/) | ⭐ 0 | 0 | `clawhub install plaid-financial-data-connector` |
+| [QuickBooks Data Extractor](skills/quickbooks-data-extractor/) | ⭐ 0 | 0 | `clawhub install quickbooks-data-extractor` |
+| [SageMaker Pipeline Orchestrator](skills/sagemaker-pipeline-orchestrator/) | ⭐ 0 | 0 | `clawhub install sagemaker-pipeline-orchestrator` |
+| [Salesforce Bulk API Sync Agent](skills/salesforce-bulk-api-sync-agent/) | ⭐ 0 | 0 | `clawhub install salesforce-bulk-api-sync-agent` |
+| [Salesforce CRM Sync Agent](skills/salesforce-crm-sync-agent/) | ⭐ 0 | 0 | `clawhub install salesforce-crm-sync-agent` |
+| [Salesforce MCP Server](skills/salesforce-mcp-server/) | ⭐ 0 | 0 | `clawhub install salesforce-mcp-server` |
+| [SendGrid MCP Server](skills/sendgrid-mcp-server/) | ⭐ 0 | 0 | `clawhub install sendgrid-mcp-server` |
+| [SendGrid Transactional Email Builder](skills/sendgrid-transactional-email-builder/) | ⭐ 0 | 0 | `clawhub install sendgrid-transactional-email-builder` |
+| [SendGrid Transactional Email Router](skills/sendgrid-transactional-email-router/) | ⭐ 0 | 0 | `clawhub install sendgrid-transactional-email-router` |
+| [Shopify Admin GraphQL Sync Agent](skills/shopify-admin-graphql-sync-agent/) | ⭐ 0 | 0 | `clawhub install shopify-admin-graphql-sync-agent` |
+| [Slack Bolt Event Subscription Debugger](skills/slack-bolt-event-subscription-debugger/) | ⭐ 0 | 0 | `clawhub install slack-bolt-event-subscription-debugger` |
+| [Slack Channel Summarizer &#038; Triage Bot](skills/slack-channel-summarizer-triage/) | ⭐ 0 | 0 | `clawhub install slack-channel-summarizer-triage` |
+| [Stripe Connect Account Provisioner](skills/stripe-connect-account-provisioner/) | ⭐ 0 | 0 | `clawhub install stripe-connect-account-provisioner` |
+| [Stripe Connect Integration](skills/stripe-connect-integration/) | ⭐ 0 | 0 | `clawhub install stripe-connect-integration` |
+| [Stripe Connect Marketplace Sync](skills/stripe-connect-marketplace-sync/) | ⭐ 0 | 0 | `clawhub install stripe-connect-marketplace-sync` |
+| [Stripe Connect Platform Bridge](skills/stripe-connect-platform-bridge/) | ⭐ 0 | 0 | `clawhub install stripe-connect-platform-bridge` |
+| [Stripe MCP Server](skills/stripe-mcp-server/) | ⭐ 0 | 0 | `clawhub install stripe-mcp-server` |
+| [Stripe Payment Flow Connector](skills/stripe-payment-flow-connector/) | ⭐ 0 | 0 | `clawhub install stripe-payment-flow-connector` |
+| [Stripe Payments Connector](skills/stripe-payments-connector/) | ⭐ 0 | 0 | `clawhub install stripe-payments-connector` |
+| [Stripe Reporting Agent](skills/stripe-reporting-agent/) | ⭐ 0 | 0 | `clawhub install stripe-reporting-agent` |
+| [Stripe Revenue Reconciliation Agent](skills/stripe-revenue-reconciliation-agent/) | ⭐ 0 | 0 | `clawhub install stripe-revenue-reconciliation-agent` |
+| [Terraform Cloud Run Inspector](skills/terraform-cloud-run-inspector-2/) | ⭐ 0 | 0 | `clawhub install terraform-cloud-run-inspector-2` |
+| [Twilio MCP Server](skills/twilio-mcp-server/) | ⭐ 0 | 0 | `clawhub install twilio-mcp-server` |
+| [Twilio Programmable SMS Gateway](skills/twilio-programmable-sms-gateway/) | ⭐ 0 | 0 | `clawhub install twilio-programmable-sms-gateway` |
+| [Twilio Programmable Voice Router](skills/twilio-programmable-voice-router-2/) | ⭐ 0 | 0 | `clawhub install twilio-programmable-voice-router-2` |
+| [Twilio SMS &#038; Voice Bridge](skills/twilio-sms-voice-bridge/) | ⭐ 0 | 0 | `clawhub install twilio-sms-voice-bridge` |
+| [Xero Accounting Agent](skills/xero-accounting-agent/) | ⭐ 0 | 0 | `clawhub install xero-accounting-agent` |
+| [Zapier Multi-Step Lead Enrichment Workflow](skills/zapier-lead-enrichment-workflow/) | ⭐ 0 | 0 | `clawhub install zapier-lead-enrichment-workflow` |
+| [Zapier Webhook Integration Builder](skills/zapier-webhook-integration-builder/) | ⭐ 0 | 0 | `clawhub install zapier-webhook-integration-builder` |
+| [Zapier Webhooks by Zapier Router](skills/zapier-webhooks-by-zapier-router/) | ⭐ 0 | 0 | `clawhub install zapier-webhooks-by-zapier-router` |
 
 ### 🎙️ Media & Transcription (42 skills)
 
@@ -1302,57 +1355,13 @@
 | [Technical SEO Audit Crawler](skills/technical-seo-audit-crawler/) | ⭐ 0 | 0 | `clawhub install technical-seo-audit-crawler` |
 | [WordPress Content Optimizer](skills/wordpress-content-optimizer-yoast-rest/) | ⭐ 0 | 0 | `clawhub install wordpress-content-optimizer-yoast-rest` |
 
-### 🔗 Integrations & Connectors (40 skills)
-
-| Skill | Rating | Reviews | Install |
-|-------|:------:|:-------:|---------|
-| [AssemblyAI Real-Time Call Intelligence](skills/assemblyai-realtime-call-intelligence/) | ⭐ 0 | 0 | `clawhub install assemblyai-realtime-call-intelligence` |
-| [AWS S3 &#038; SQS Pipeline Connector](skills/aws-s3-sqs-pipeline-connector/) | ⭐ 0 | 0 | `clawhub install aws-s3-sqs-pipeline-connector` |
-| [ClawHub Skill Discovery &#038; Publishing](skills/clawhub-skill-discovery-publishing/) | ⭐ 0 | 0 | `clawhub install clawhub-skill-discovery-publishing` |
-| [Datadog Integration Connector](skills/datadog-integration-connector-agent/) | ⭐ 0 | 0 | `clawhub install datadog-integration-connector-agent` |
-| [GitHub Discussions Community Digest](skills/github-discussions-community-digest/) | ⭐ 0 | 0 | `clawhub install github-discussions-community-digest` |
-| [Google Drive MCP Server](skills/google-drive-mcp-server/) | ⭐ 0 | 0 | `clawhub install google-drive-mcp-server` |
-| [HubSpot CRM Contact Enrichment Pipeline](skills/hubspot-crm-contact-enrichment-pipeline/) | ⭐ 0 | 0 | `clawhub install hubspot-crm-contact-enrichment-pipeline` |
-| [HubSpot MCP Server](skills/hubspot-mcp-server/) | ⭐ 0 | 0 | `clawhub install hubspot-mcp-server` |
-| [Linear Issue Triage &#038; Sprint Planner](skills/linear-issue-triage-sprint-planner-2/) | ⭐ 0 | 0 | `clawhub install linear-issue-triage-sprint-planner-2` |
-| [Make.com Airtable-to-Shopify Inventory Sync](skills/make-airtable-shopify-inventory-sync/) | ⭐ 0 | 0 | `clawhub install make-airtable-shopify-inventory-sync` |
-| [Neon Serverless Postgres MCP](skills/neon-serverless-postgres-mcp/) | ⭐ 0 | 0 | `clawhub install neon-serverless-postgres-mcp` |
-| [Notion Database Sync &#038; Page Generator](skills/notion-database-sync-page-generator-2/) | ⭐ 0 | 0 | `clawhub install notion-database-sync-page-generator-2` |
-| [Plaid Financial Data](skills/plaid-financial-data/) | ⭐ 0 | 0 | `clawhub install plaid-financial-data` |
-| [Plaid Financial Data Connector](skills/plaid-financial-data-connector/) | ⭐ 0 | 0 | `clawhub install plaid-financial-data-connector` |
-| [QuickBooks Data Extractor](skills/quickbooks-data-extractor/) | ⭐ 0 | 0 | `clawhub install quickbooks-data-extractor` |
-| [SageMaker Pipeline Orchestrator](skills/sagemaker-pipeline-orchestrator/) | ⭐ 0 | 0 | `clawhub install sagemaker-pipeline-orchestrator` |
-| [Salesforce Bulk API Sync Agent](skills/salesforce-bulk-api-sync-agent/) | ⭐ 0 | 0 | `clawhub install salesforce-bulk-api-sync-agent` |
-| [Salesforce CRM Sync Agent](skills/salesforce-crm-sync-agent/) | ⭐ 0 | 0 | `clawhub install salesforce-crm-sync-agent` |
-| [Salesforce MCP Server](skills/salesforce-mcp-server/) | ⭐ 0 | 0 | `clawhub install salesforce-mcp-server` |
-| [SendGrid MCP Server](skills/sendgrid-mcp-server/) | ⭐ 0 | 0 | `clawhub install sendgrid-mcp-server` |
-| [SendGrid Transactional Email Builder](skills/sendgrid-transactional-email-builder/) | ⭐ 0 | 0 | `clawhub install sendgrid-transactional-email-builder` |
-| [SendGrid Transactional Email Router](skills/sendgrid-transactional-email-router/) | ⭐ 0 | 0 | `clawhub install sendgrid-transactional-email-router` |
-| [Slack Channel Summarizer &#038; Triage Bot](skills/slack-channel-summarizer-triage/) | ⭐ 0 | 0 | `clawhub install slack-channel-summarizer-triage` |
-| [Stripe Connect Account Provisioner](skills/stripe-connect-account-provisioner/) | ⭐ 0 | 0 | `clawhub install stripe-connect-account-provisioner` |
-| [Stripe Connect Integration](skills/stripe-connect-integration/) | ⭐ 0 | 0 | `clawhub install stripe-connect-integration` |
-| [Stripe Connect Marketplace Sync](skills/stripe-connect-marketplace-sync/) | ⭐ 0 | 0 | `clawhub install stripe-connect-marketplace-sync` |
-| [Stripe Connect Platform Bridge](skills/stripe-connect-platform-bridge/) | ⭐ 0 | 0 | `clawhub install stripe-connect-platform-bridge` |
-| [Stripe MCP Server](skills/stripe-mcp-server/) | ⭐ 0 | 0 | `clawhub install stripe-mcp-server` |
-| [Stripe Payment Flow Connector](skills/stripe-payment-flow-connector/) | ⭐ 0 | 0 | `clawhub install stripe-payment-flow-connector` |
-| [Stripe Payments Connector](skills/stripe-payments-connector/) | ⭐ 0 | 0 | `clawhub install stripe-payments-connector` |
-| [Stripe Reporting Agent](skills/stripe-reporting-agent/) | ⭐ 0 | 0 | `clawhub install stripe-reporting-agent` |
-| [Stripe Revenue Reconciliation Agent](skills/stripe-revenue-reconciliation-agent/) | ⭐ 0 | 0 | `clawhub install stripe-revenue-reconciliation-agent` |
-| [Terraform Cloud Run Inspector](skills/terraform-cloud-run-inspector-2/) | ⭐ 0 | 0 | `clawhub install terraform-cloud-run-inspector-2` |
-| [Twilio MCP Server](skills/twilio-mcp-server/) | ⭐ 0 | 0 | `clawhub install twilio-mcp-server` |
-| [Twilio Programmable SMS Gateway](skills/twilio-programmable-sms-gateway/) | ⭐ 0 | 0 | `clawhub install twilio-programmable-sms-gateway` |
-| [Twilio Programmable Voice Router](skills/twilio-programmable-voice-router-2/) | ⭐ 0 | 0 | `clawhub install twilio-programmable-voice-router-2` |
-| [Twilio SMS &#038; Voice Bridge](skills/twilio-sms-voice-bridge/) | ⭐ 0 | 0 | `clawhub install twilio-sms-voice-bridge` |
-| [Xero Accounting Agent](skills/xero-accounting-agent/) | ⭐ 0 | 0 | `clawhub install xero-accounting-agent` |
-| [Zapier Multi-Step Lead Enrichment Workflow](skills/zapier-lead-enrichment-workflow/) | ⭐ 0 | 0 | `clawhub install zapier-lead-enrichment-workflow` |
-| [Zapier Webhook Integration Builder](skills/zapier-webhook-integration-builder/) | ⭐ 0 | 0 | `clawhub install zapier-webhook-integration-builder` |
-
-### 📰 WordPress & CMS (28 skills)
+### 📰 WordPress & CMS (32 skills)
 
 | Skill | Rating | Reviews | Install |
 |-------|:------:|:-------:|---------|
 | [ACF Custom Fields REST Exposer](skills/acf-custom-fields-rest-exposer/) | ⭐ 0 | 0 | `clawhub install acf-custom-fields-rest-exposer` |
 | [ACF to Gutenberg Block Migrator](skills/acf-to-gutenberg-block-migrator/) | ⭐ 0 | 0 | `clawhub install acf-to-gutenberg-block-migrator` |
+| [Advanced Custom Fields REST Schema Mapper](skills/advanced-custom-fields-rest-schema-mapper/) | ⭐ 0 | 0 | `clawhub install advanced-custom-fields-rest-schema-mapper` |
 | [Gutenberg Block Pattern Generator](skills/gutenberg-block-pattern-generator/) | ⭐ 0 | 0 | `clawhub install gutenberg-block-pattern-generator` |
 | [Gutenberg Block Scaffolder](skills/gutenberg-block-scaffolder-agent/) | ⭐ 0 | 0 | `clawhub install gutenberg-block-scaffolder-agent` |
 | [Gutenberg Custom Block Builder](skills/gutenberg-custom-block-builder/) | ⭐ 0 | 0 | `clawhub install gutenberg-custom-block-builder` |
@@ -1361,6 +1370,7 @@
 | [WooCommerce REST Inventory Sync](skills/woocommerce-rest-inventory-sync/) | ⭐ 0 | 0 | `clawhub install woocommerce-rest-inventory-sync` |
 | [WooCommerce REST Order Manager](skills/woocommerce-rest-order-manager/) | ⭐ 0 | 0 | `clawhub install woocommerce-rest-order-manager` |
 | [WooCommerce REST Sync Agent](skills/woocommerce-rest-sync-agent/) | ⭐ 0 | 0 | `clawhub install woocommerce-rest-sync-agent` |
+| [WooCommerce Webhook Delivery Inspector](skills/woocommerce-webhook-delivery-inspector/) | ⭐ 0 | 0 | `clawhub install woocommerce-webhook-delivery-inspector` |
 | [WooCommerce Webhook Orchestrator](skills/woocommerce-webhook-orchestrator/) | ⭐ 0 | 0 | `clawhub install woocommerce-webhook-orchestrator` |
 | [WordPress ACF Field Group Auditor](skills/wordpress-acf-field-group-auditor/) | ⭐ 0 | 0 | `clawhub install wordpress-acf-field-group-auditor` |
 | [WordPress Block Theme Scaffolder](skills/wordpress-block-theme-scaffolder/) | ⭐ 0 | 0 | `clawhub install wordpress-block-theme-scaffolder` |
@@ -1378,7 +1388,9 @@
 | [WP Multisite Domain Mapping Agent](skills/wp-multisite-domain-mapping-agent/) | ⭐ 0 | 0 | `clawhub install wp-multisite-domain-mapping-agent` |
 | [WP Multisite Network Sync Agent](skills/wp-multisite-network-sync-agent/) | ⭐ 0 | 0 | `clawhub install wp-multisite-network-sync-agent` |
 | [WP-CLI Bulk Content Migrator](skills/wp-cli-bulk-content-migrator/) | ⭐ 0 | 0 | `clawhub install wp-cli-bulk-content-migrator` |
+| [WP-CLI Content Drift Auditor](skills/wp-cli-content-drift-auditor/) | ⭐ 0 | 0 | `clawhub install wp-cli-content-drift-auditor` |
 | [WP-CLI Site Migration Automator](skills/wp-cli-site-migration-automator/) | ⭐ 0 | 0 | `clawhub install wp-cli-site-migration-automator` |
+| [WPGraphQL Schema Extension Builder](skills/wpgraphql-schema-extension-builder/) | ⭐ 0 | 0 | `clawhub install wpgraphql-schema-extension-builder` |
 
 ---
 
