@@ -1,6 +1,6 @@
 # 🔒 Security & Verification
 
-> **92 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification)
+> **96 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification)
 
 Auth setup, vulnerability scanning, compliance checks, and security automation.
 
@@ -127,8 +127,10 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [OAuth2 Token Introspection Agent](../../skills/oauth2-token-introspection-agent/) | Listed | 676 | 1.2M/wk | `clawhub install oauth2-token-introspection-agent` |
 | [CSP Policy Analyzer](../../skills/csp-policy-analyzer/) | Security Reviewed | — | — | `clawhub install csp-policy-analyzer` |
 | [CycloneDX SBOM Generator](../../skills/cyclonedx-sbom-generator/) | Security Reviewed | — | — | `clawhub install cyclonedx-sbom-generator` |
+| [Dependabot Alert Export Normalizer](../../skills/dependabot-alert-export-normalizer/) | Listed | — | — | `clawhub install dependabot-alert-export-normalizer` |
 | [Dependency Audit](../../skills/dependency-audit/) | Listed | — | — | `clawhub install dependency-audit` |
 | [Dependency Vulnerability &#038; License Auditor](../../skills/dependency-vulnerability-license-auditor-2/) | Listed | — | — | `clawhub install dependency-vulnerability-license-auditor-2` |
+| [Falco Rule Exception Reviewer](../../skills/falco-rule-exception-reviewer/) | Listed | — | — | `clawhub install falco-rule-exception-reviewer` |
 | [GPG Encryption and Key Management Agent](../../skills/gpg-encryption-key-management-agent/) | Security Reviewed | — | — | `clawhub install gpg-encryption-key-management-agent` |
 | [Grype Vulnerability Scanner](../../skills/grype-vulnerability-scanner/) | Listed | — | — | `clawhub install grype-vulnerability-scanner` |
 | [Healthcheck Security Hardening](../../skills/healthcheck-security-hardening/) | Listed | — | — | `clawhub install healthcheck-security-hardening` |
@@ -136,6 +138,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [npm Dependency Audit Resolver](../../skills/npm-dependency-audit-resolver/) | Security Reviewed | — | — | `clawhub install npm-dependency-audit-resolver` |
 | [Nuclei Vulnerability Template Runner](../../skills/nuclei-vulnerability-template-runner/) | Security Reviewed | — | — | `clawhub install nuclei-vulnerability-template-runner` |
 | [OAuth2 Flow Debugger](../../skills/oauth2-flow-debugger/) | Security Reviewed | — | — | `clawhub install oauth2-flow-debugger` |
+| [OPA Bundle Signature Verifier with Cosign](../../skills/opa-bundle-signature-verifier-with-cosign/) | Listed | — | — | `clawhub install opa-bundle-signature-verifier-with-cosign` |
 | [OPA Rego Policy Bundle Tester](../../skills/opa-rego-policy-bundle-tester/) | Security Reviewed | — | — | `clawhub install opa-rego-policy-bundle-tester` |
 | [OpenClaw Security Suite (ClawSec)](../../skills/openclaw-security-suite-clawsec/) | Security Reviewed | — | — | `clawhub install openclaw-security-suite-clawsec` |
 | [SBOM Generator and CVE Matcher](../../skills/sbom-generator-cve-matcher/) | Security Reviewed | — | — | `clawhub install sbom-generator-cve-matcher` |
@@ -147,6 +150,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [SSL Certificate Chain Validator](../../skills/ssl-certificate-chain-validator-2/) | Security Reviewed | — | — | `clawhub install ssl-certificate-chain-validator-2` |
 | [SSL Certificate Manager Skill](../../skills/ssl-certificate-manager-skill/) | Listed | — | — | `clawhub install ssl-certificate-manager-skill` |
 | [SSL/TLS Certificate Validator and Monitor](../../skills/ssl-tls-certificate-validator-monitor/) | Security Reviewed | — | — | `clawhub install ssl-tls-certificate-validator-monitor` |
+| [Syft SBOM Diff and License Gate](../../skills/syft-sbom-diff-and-license-gate/) | Listed | — | — | `clawhub install syft-sbom-diff-and-license-gate` |
 | [TLS Certificate Chain Validator](../../skills/tls-certificate-chain-validator/) | Security Reviewed | — | — | `clawhub install tls-certificate-chain-validator` |
 | [TruffleHog Secret Scanner](../../skills/trufflehog-secret-scanner/) | Listed | — | — | `clawhub install trufflehog-secret-scanner` |
 
@@ -171,10 +175,10 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 ## Related Categories
 
-- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (144 skills)
+- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (148 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (126 skills)
 - 🛠️ [Developer Tools](../developer-tools/) (120 skills)
-- 📚 [Library & API Reference](../library-api-reference/) (102 skills)
+- 📚 [Library & API Reference](../library-api-reference/) (106 skills)
 
 ---
 

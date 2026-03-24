@@ -1,6 +1,6 @@
 # 🔍 Research & Scraping
 
-> **56 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping)
+> **60 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping)
 
 Web research, data collection, content aggregation, and information gathering.
 
@@ -91,7 +91,9 @@ Web research, data collection, content aggregation, and information gathering.
 | [Browserless Scraping Agent](../../skills/browserless-scraping-agent/) | Security Reviewed | — | — | `clawhub install browserless-scraping-agent` |
 | [Common Crawl Index Query Agent](../../skills/common-crawl-index-query-agent/) | Security Reviewed | — | — | `clawhub install common-crawl-index-query-agent` |
 | [Common Crawl URL Index Miner](../../skills/common-crawl-url-index-miner/) | Security Reviewed | — | — | `clawhub install common-crawl-url-index-miner` |
+| [Common Crawl WARC Query Builder for Athena](../../skills/common-crawl-warc-query-builder-athena-20260324/) | Listed | — | — | `clawhub install common-crawl-warc-query-builder-athena-20260324` |
 | [Crawlee Smart Crawler Agent](../../skills/crawlee-smart-crawler-agent/) | Security Reviewed | — | — | `clawhub install crawlee-smart-crawler-agent` |
+| [Diffbot Article API to Markdown Pipeline](../../skills/diffbot-article-api-markdown-pipeline-20260324/) | Listed | — | — | `clawhub install diffbot-article-api-markdown-pipeline-20260324` |
 | [Diffbot Article Extraction Verifier](../../skills/diffbot-article-extraction-verifier/) | Security Reviewed | — | — | `clawhub install diffbot-article-extraction-verifier` |
 | [Diffbot Knowledge Graph Extractor](../../skills/diffbot-knowledge-graph-extractor/) | Security Reviewed | — | — | `clawhub install diffbot-knowledge-graph-extractor` |
 | [Firecrawl Markdown Capture Pipeline](../../skills/firecrawl-markdown-capture-pipeline/) | Security Reviewed | — | — | `clawhub install firecrawl-markdown-capture-pipeline` |
@@ -103,9 +105,11 @@ Web research, data collection, content aggregation, and information gathering.
 | [Patent Landscape Analyzer](../../skills/patent-landscape-analyzer/) | Security Reviewed | — | — | `clawhub install patent-landscape-analyzer` |
 | [Patent Landscape Crawler](../../skills/patent-landscape-crawler-v2/) | Listed | — | — | `clawhub install patent-landscape-crawler-v2` |
 | [Perplexity MCP Server](../../skills/perplexity-mcp-server/) | Listed | — | — | `clawhub install perplexity-mcp-server` |
+| [Playwright Trace Harvester for Infinite Scroll APIs](../../skills/playwright-trace-harvester-infinite-scroll-apis-20260324/) | Listed | — | — | `clawhub install playwright-trace-harvester-infinite-scroll-apis-20260324` |
 | [Product Review Sentiment Aggregator](../../skills/product-review-sentiment-aggregator/) | Security Reviewed | — | — | `clawhub install product-review-sentiment-aggregator` |
 | [ProductHunt Launch Tracker](../../skills/producthunt-launch-tracker/) | Listed | — | — | `clawhub install producthunt-launch-tracker` |
 | [ScrapingBee API Data Harvester](../../skills/scrapingbee-api-data-harvester/) | Security Reviewed | — | — | `clawhub install scrapingbee-api-data-harvester` |
+| [Scrapy Splash Selector Debugger for JS Catalogs](../../skills/scrapy-splash-selector-debugger-js-catalogs-20260324/) | Listed | — | — | `clawhub install scrapy-splash-selector-debugger-js-catalogs-20260324` |
 | [SEC EDGAR Financial Filing Parser](../../skills/sec-edgar-financial-filing-parser/) | Security Reviewed | — | — | `clawhub install sec-edgar-financial-filing-parser` |
 | [SerpAPI Answer Box Extractor](../../skills/serpapi-answer-box-extractor/) | Security Reviewed | — | — | `clawhub install serpapi-answer-box-extractor` |
 | [SerpAPI Scholar Agent](../../skills/serpapi-scholar-agent/) | Security Reviewed | — | — | `clawhub install serpapi-scholar-agent` |
@@ -135,10 +139,10 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 ## Related Categories
 
-- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (144 skills)
+- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (148 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (126 skills)
 - 🛠️ [Developer Tools](../developer-tools/) (120 skills)
-- 📚 [Library & API Reference](../library-api-reference/) (102 skills)
+- 📚 [Library & API Reference](../library-api-reference/) (106 skills)
 
 ---
 

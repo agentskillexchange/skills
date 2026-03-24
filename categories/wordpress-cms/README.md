@@ -1,6 +1,6 @@
 # 📰 WordPress & CMS
 
-> **36 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS)
+> **40 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS)
 
 Theme/plugin development, WP-CLI automation, CMS management, and WordPress skills.
 
@@ -85,6 +85,8 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [WooCommerce REST Sync Agent](../../skills/woocommerce-rest-sync-agent/) | Security Reviewed | 7k | 5M/wk | `clawhub install woocommerce-rest-sync-agent` |
 | [WooCommerce REST Order Manager](../../skills/woocommerce-rest-order-manager/) | Security Reviewed | 4.4k | 8.4M/wk | `clawhub install woocommerce-rest-order-manager` |
 | [WP Cron Health Monitor](../../skills/wp-cron-health-monitor/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install wp-cron-health-monitor` |
+| [Elementor Template Export Mapper](../../skills/elementor-template-export-mapper-20260324/) | Listed | — | — | `clawhub install elementor-template-export-mapper-20260324` |
+| [Gutenberg block.json Schema Linter](../../skills/gutenberg-block-json-schema-linter-20260324/) | Listed | — | — | `clawhub install gutenberg-block-json-schema-linter-20260324` |
 | [WooCommerce Order Sync Agent](../../skills/woocommerce-order-sync-agent/) | Security Reviewed | — | — | `clawhub install woocommerce-order-sync-agent` |
 | [WooCommerce REST Inventory Sync](../../skills/woocommerce-rest-inventory-sync/) | Security Reviewed | — | — | `clawhub install woocommerce-rest-inventory-sync` |
 | [WooCommerce Webhook Delivery Inspector](../../skills/woocommerce-webhook-delivery-inspector/) | Security Reviewed | — | — | `clawhub install woocommerce-webhook-delivery-inspector` |
@@ -92,7 +94,9 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [WooCommerce Webhook Orchestrator](../../skills/woocommerce-webhook-orchestrator/) | Security Reviewed | — | — | `clawhub install woocommerce-webhook-orchestrator` |
 | [WordPress Block Bindings API Connector](../../skills/wordpress-block-bindings-api-connector/) | Listed | — | — | `clawhub install wordpress-block-bindings-api-connector` |
 | [WordPress Interactivity API State Manager](../../skills/wordpress-interactivity-api-state-manager/) | Listed | — | — | `clawhub install wordpress-interactivity-api-state-manager` |
+| [WordPress REST Batch Publisher with Application Passwords](../../skills/wordpress-rest-batch-publisher-application-passwords-20260324/) | Listed | — | — | `clawhub install wordpress-rest-batch-publisher-application-passwords-20260324` |
 | [WP-CLI Remote Bulk Importer](../../skills/wp-cli-remote-bulk-importer/) | Listed | — | — | `clawhub install wp-cli-remote-bulk-importer` |
+| [WPGraphQL Content Model Explorer](../../skills/wpgraphql-content-model-explorer-20260324/) | Listed | — | — | `clawhub install wpgraphql-content-model-explorer-20260324` |
 
 ---
 
@@ -115,10 +119,10 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 ## Related Categories
 
-- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (144 skills)
+- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (148 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (126 skills)
 - 🛠️ [Developer Tools](../developer-tools/) (120 skills)
-- 📚 [Library & API Reference](../library-api-reference/) (102 skills)
+- 📚 [Library & API Reference](../library-api-reference/) (106 skills)
 
 ---
 
