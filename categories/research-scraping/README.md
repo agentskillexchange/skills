@@ -1,6 +1,6 @@
 # 🔍 Research & Scraping
 
-> **60 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping)
+> **65 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping)
 
 Web research, data collection, content aggregation, and information gathering.
 
@@ -86,6 +86,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Apify Web Scraper Orchestrator](../../skills/apify-web-scraper-orchestrator-3/) | Security Reviewed | 172 | 44.9k/wk | `clawhub install apify-web-scraper-orchestrator-3` |
 | [Censys Attack Surface Monitor](../../skills/censys-attack-surface-monitor/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install censys-attack-surface-monitor` |
 | [Academic Paper Citation Network Mapper](../../skills/academic-paper-citation-network-mapper/) | Security Reviewed | — | — | `clawhub install academic-paper-citation-network-mapper` |
+| [Apify Dataset to PostgreSQL ETL Pipeline](../../skills/apify-dataset-to-postgresql-etl-pipeline/) | Listed | — | — | `clawhub install apify-dataset-to-postgresql-etl-pipeline` |
 | [Arxiv Paper Discovery Agent](../../skills/arxiv-paper-discovery-agent/) | Listed | — | — | `clawhub install arxiv-paper-discovery-agent` |
 | [Beautiful Soup Academic Paper Parser](../../skills/beautifulsoup-academic-paper-parser/) | Security Reviewed | — | — | `clawhub install beautifulsoup-academic-paper-parser` |
 | [Browserless Scraping Agent](../../skills/browserless-scraping-agent/) | Security Reviewed | — | — | `clawhub install browserless-scraping-agent` |
@@ -98,6 +99,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Diffbot Knowledge Graph Extractor](../../skills/diffbot-knowledge-graph-extractor/) | Security Reviewed | — | — | `clawhub install diffbot-knowledge-graph-extractor` |
 | [Firecrawl Markdown Capture Pipeline](../../skills/firecrawl-markdown-capture-pipeline/) | Security Reviewed | — | — | `clawhub install firecrawl-markdown-capture-pipeline` |
 | [Firecrawl MCP Server](../../skills/firecrawl-mcp-server/) | Listed | — | — | `clawhub install firecrawl-mcp-server` |
+| [GitHub Code Search Intelligence Agent](../../skills/github-code-search-intelligence-agent/) | Listed | — | — | `clawhub install github-code-search-intelligence-agent` |
 | [Hacker News Frontpage Tracker](../../skills/hacker-news-frontpage-tracker/) | Listed | — | — | `clawhub install hacker-news-frontpage-tracker` |
 | [Jina Reader API Skill](../../skills/jina-reader-api-skill/) | Security Reviewed | — | — | `clawhub install jina-reader-api-skill` |
 | [OpenClaw Research Scout](../../skills/openclaw-research-scout/) | Listed | — | — | `clawhub install openclaw-research-scout` |
@@ -109,14 +111,17 @@ Web research, data collection, content aggregation, and information gathering.
 | [Product Review Sentiment Aggregator](../../skills/product-review-sentiment-aggregator/) | Security Reviewed | — | — | `clawhub install product-review-sentiment-aggregator` |
 | [ProductHunt Launch Tracker](../../skills/producthunt-launch-tracker/) | Listed | — | — | `clawhub install producthunt-launch-tracker` |
 | [ScrapingBee API Data Harvester](../../skills/scrapingbee-api-data-harvester/) | Security Reviewed | — | — | `clawhub install scrapingbee-api-data-harvester` |
+| [ScrapingBee Structured Data Extraction Pipeline](../../skills/scrapingbee-structured-data-extraction-pipeline/) | Listed | — | — | `clawhub install scrapingbee-structured-data-extraction-pipeline` |
 | [Scrapy Splash Selector Debugger for JS Catalogs](../../skills/scrapy-splash-selector-debugger-js-catalogs-20260324/) | Listed | — | — | `clawhub install scrapy-splash-selector-debugger-js-catalogs-20260324` |
 | [SEC EDGAR Financial Filing Parser](../../skills/sec-edgar-financial-filing-parser/) | Security Reviewed | — | — | `clawhub install sec-edgar-financial-filing-parser` |
 | [SerpAPI Answer Box Extractor](../../skills/serpapi-answer-box-extractor/) | Security Reviewed | — | — | `clawhub install serpapi-answer-box-extractor` |
 | [SerpAPI Scholar Agent](../../skills/serpapi-scholar-agent/) | Security Reviewed | — | — | `clawhub install serpapi-scholar-agent` |
 | [SerpAPI Search Intelligence Aggregator](../../skills/serpapi-search-intelligence-aggregator/) | Security Reviewed | — | — | `clawhub install serpapi-search-intelligence-aggregator` |
 | [SerpAPI Search Results Aggregator](../../skills/serpapi-search-results-aggregator/) | Security Reviewed | — | — | `clawhub install serpapi-search-results-aggregator` |
+| [Shodan IoT Device Intelligence Mapper](../../skills/shodan-iot-device-intelligence-mapper/) | Listed | — | — | `clawhub install shodan-iot-device-intelligence-mapper` |
 | [Shodan Network Reconnaissance Agent](../../skills/shodan-network-reconnaissance-agent/) | Security Reviewed | — | — | `clawhub install shodan-network-reconnaissance-agent` |
 | [Tavily MCP Server](../../skills/tavily-mcp-server/) | Listed | — | — | `clawhub install tavily-mcp-server` |
+| [Wayback Machine Historical Content Differ](../../skills/wayback-machine-historical-content-differ/) | Listed | — | — | `clawhub install wayback-machine-historical-content-differ` |
 
 ---
 

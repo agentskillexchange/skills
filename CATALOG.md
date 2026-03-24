@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1348 skills** across **20 categories** · Updated 2026-03-24 18:15 UTC
+> **1360 skills** across **20 categories** · Updated 2026-03-24 19:12 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -10,13 +10,13 @@
 
 | Metric | Value |
 |--------|-------|
-| Total Skills | **1348** |
+| Total Skills | **1360** |
 | Categories | **20** |
 | Frameworks | **20** |
 | Skills with live signal data | **890** |
 | Security Reviewed | **950** |
 | Verified Metadata | **10** |
-| Listed | **388** |
+| Listed | **400** |
 
 > These verification counts are **final-state buckets**, not cumulative stages.
 
@@ -951,7 +951,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [TypeScript Strict Mode Checker](skills/typescript-strict-mode-checker/) | Listed | — | — | `clawhub install typescript-strict-mode-checker` |
 
 
-### 📄 Templates & Workflows (80 skills)
+### 📄 Templates & Workflows (83 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -1006,6 +1006,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Asana MCP Server](skills/asana-mcp-server/) | Listed | — | — | `clawhub install asana-mcp-server` |
 | [Azure Bicep Generator](skills/azure-bicep-generator/) | Listed | — | — | `clawhub install azure-bicep-generator` |
 | [Backstage Entity Catalog Populator](skills/backstage-entity-catalog-populator/) | Listed | — | — | `clawhub install backstage-entity-catalog-populator` |
+| [Backstage Software Template YAML Scaffolder](skills/backstage-software-template-yaml-scaffolder/) | Listed | — | — | `clawhub install backstage-software-template-yaml-scaffolder` |
 | [ClickUp MCP Server](skills/clickup-mcp-server/) | Listed | — | — | `clawhub install clickup-mcp-server` |
 | [Codecov Diff Analyzer](skills/codecov-diff-analyzer-2/) | Listed | — | — | `clawhub install codecov-diff-analyzer-2` |
 | [Cookiecutter Project Bootstrapper](skills/cookiecutter-project-bootstrapper/) | Security Reviewed | — | — | `clawhub install cookiecutter-project-bootstrapper` |
@@ -1016,6 +1017,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [GCP Deployment Manager](skills/gcp-deployment-manager/) | Listed | — | — | `clawhub install gcp-deployment-manager` |
 | [GitHub Actions Reusable Workflow Library](skills/github-actions-reusable-workflow-library/) | Listed | — | — | `clawhub install github-actions-reusable-workflow-library` |
 | [GitHub Actions Workflow Composer](skills/github-actions-workflow-composer-2/) | Security Reviewed | — | — | `clawhub install github-actions-workflow-composer-2` |
+| [Helm Chart Value Override Template Generator](skills/helm-chart-value-override-template-generator/) | Listed | — | — | `clawhub install helm-chart-value-override-template-generator` |
 | [Incident Response Runbook](skills/incident-response-runbook/) | Listed | — | — | `clawhub install incident-response-runbook` |
 | [Intercom MCP Server](skills/intercom-mcp-server/) | Listed | — | — | `clawhub install intercom-mcp-server` |
 | [Jinja2 Template Engine](skills/jinja2-template-engine-agent/) | Security Reviewed | — | — | `clawhub install jinja2-template-engine-agent` |
@@ -1033,6 +1035,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Pulumi Component Resource Scaffolder](skills/pulumi-component-resource-scaffolder/) | Listed | — | — | `clawhub install pulumi-component-resource-scaffolder` |
 | [Release Notes Generator](skills/release-notes-generator/) | Listed | — | — | `clawhub install release-notes-generator` |
 | [Self-Improvement / Learnings Capture](skills/self-improvement-learnings-capture/) | Security Reviewed | — | — | `clawhub install self-improvement-learnings-capture` |
+| [Terraform Module Documentation Generator with tf-docs](skills/terraform-module-documentation-generator-tfdocs/) | Listed | — | — | `clawhub install terraform-module-documentation-generator-tfdocs` |
 | [Yeoman Generator Builder](skills/yeoman-generator-builder/) | Security Reviewed | — | — | `clawhub install yeoman-generator-builder` |
 | [Yeoman Scaffold Runner](skills/yeoman-scaffold-runner/) | Security Reviewed | — | — | `clawhub install yeoman-scaffold-runner` |
 | [Yeoman Workflow Orchestrator](skills/yeoman-workflow-orchestrator/) | Security Reviewed | — | — | `clawhub install yeoman-workflow-orchestrator` |
@@ -1113,7 +1116,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Zoom Meeting Summarizer](skills/zoom-meeting-summarizer/) | Listed | — | — | `clawhub install zoom-meeting-summarizer` |
 
 
-### 🔍 Research & Scraping (60 skills)
+### 🔍 Research & Scraping (65 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=downloads)
 
@@ -1148,6 +1151,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Apify Web Scraper Orchestrator](skills/apify-web-scraper-orchestrator-3/) | Security Reviewed | 172 | 44.9k/wk | `clawhub install apify-web-scraper-orchestrator-3` |
 | [Censys Attack Surface Monitor](skills/censys-attack-surface-monitor/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install censys-attack-surface-monitor` |
 | [Academic Paper Citation Network Mapper](skills/academic-paper-citation-network-mapper/) | Security Reviewed | — | — | `clawhub install academic-paper-citation-network-mapper` |
+| [Apify Dataset to PostgreSQL ETL Pipeline](skills/apify-dataset-to-postgresql-etl-pipeline/) | Listed | — | — | `clawhub install apify-dataset-to-postgresql-etl-pipeline` |
 | [Arxiv Paper Discovery Agent](skills/arxiv-paper-discovery-agent/) | Listed | — | — | `clawhub install arxiv-paper-discovery-agent` |
 | [Beautiful Soup Academic Paper Parser](skills/beautifulsoup-academic-paper-parser/) | Security Reviewed | — | — | `clawhub install beautifulsoup-academic-paper-parser` |
 | [Browserless Scraping Agent](skills/browserless-scraping-agent/) | Security Reviewed | — | — | `clawhub install browserless-scraping-agent` |
@@ -1160,6 +1164,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Diffbot Knowledge Graph Extractor](skills/diffbot-knowledge-graph-extractor/) | Security Reviewed | — | — | `clawhub install diffbot-knowledge-graph-extractor` |
 | [Firecrawl Markdown Capture Pipeline](skills/firecrawl-markdown-capture-pipeline/) | Security Reviewed | — | — | `clawhub install firecrawl-markdown-capture-pipeline` |
 | [Firecrawl MCP Server](skills/firecrawl-mcp-server/) | Listed | — | — | `clawhub install firecrawl-mcp-server` |
+| [GitHub Code Search Intelligence Agent](skills/github-code-search-intelligence-agent/) | Listed | — | — | `clawhub install github-code-search-intelligence-agent` |
 | [Hacker News Frontpage Tracker](skills/hacker-news-frontpage-tracker/) | Listed | — | — | `clawhub install hacker-news-frontpage-tracker` |
 | [Jina Reader API Skill](skills/jina-reader-api-skill/) | Security Reviewed | — | — | `clawhub install jina-reader-api-skill` |
 | [OpenClaw Research Scout](skills/openclaw-research-scout/) | Listed | — | — | `clawhub install openclaw-research-scout` |
@@ -1171,14 +1176,17 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Product Review Sentiment Aggregator](skills/product-review-sentiment-aggregator/) | Security Reviewed | — | — | `clawhub install product-review-sentiment-aggregator` |
 | [ProductHunt Launch Tracker](skills/producthunt-launch-tracker/) | Listed | — | — | `clawhub install producthunt-launch-tracker` |
 | [ScrapingBee API Data Harvester](skills/scrapingbee-api-data-harvester/) | Security Reviewed | — | — | `clawhub install scrapingbee-api-data-harvester` |
+| [ScrapingBee Structured Data Extraction Pipeline](skills/scrapingbee-structured-data-extraction-pipeline/) | Listed | — | — | `clawhub install scrapingbee-structured-data-extraction-pipeline` |
 | [Scrapy Splash Selector Debugger for JS Catalogs](skills/scrapy-splash-selector-debugger-js-catalogs-20260324/) | Listed | — | — | `clawhub install scrapy-splash-selector-debugger-js-catalogs-20260324` |
 | [SEC EDGAR Financial Filing Parser](skills/sec-edgar-financial-filing-parser/) | Security Reviewed | — | — | `clawhub install sec-edgar-financial-filing-parser` |
 | [SerpAPI Answer Box Extractor](skills/serpapi-answer-box-extractor/) | Security Reviewed | — | — | `clawhub install serpapi-answer-box-extractor` |
 | [SerpAPI Scholar Agent](skills/serpapi-scholar-agent/) | Security Reviewed | — | — | `clawhub install serpapi-scholar-agent` |
 | [SerpAPI Search Intelligence Aggregator](skills/serpapi-search-intelligence-aggregator/) | Security Reviewed | — | — | `clawhub install serpapi-search-intelligence-aggregator` |
 | [SerpAPI Search Results Aggregator](skills/serpapi-search-results-aggregator/) | Security Reviewed | — | — | `clawhub install serpapi-search-results-aggregator` |
+| [Shodan IoT Device Intelligence Mapper](skills/shodan-iot-device-intelligence-mapper/) | Listed | — | — | `clawhub install shodan-iot-device-intelligence-mapper` |
 | [Shodan Network Reconnaissance Agent](skills/shodan-network-reconnaissance-agent/) | Security Reviewed | — | — | `clawhub install shodan-network-reconnaissance-agent` |
 | [Tavily MCP Server](skills/tavily-mcp-server/) | Listed | — | — | `clawhub install tavily-mcp-server` |
+| [Wayback Machine Historical Content Differ](skills/wayback-machine-historical-content-differ/) | Listed | — | — | `clawhub install wayback-machine-historical-content-differ` |
 
 
 ### 🎨 Image & Creative Automation (53 skills)
@@ -1349,6 +1357,58 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Zapier Webhook Integration Builder](skills/zapier-webhook-integration-builder/) | Security Reviewed | — | — | `clawhub install zapier-webhook-integration-builder` |
 
 
+### 📰 WordPress & CMS (44 skills)
+
+Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS&sort=downloads)
+
+| Skill | Tier | GitHub Stars | npm Downloads | Install |
+|---|---|---:|---:|---|
+| [WP Multisite Domain Mapping Agent](skills/wp-multisite-domain-mapping-agent/) | Security Reviewed | 32.9k | — | `clawhub install wp-multisite-domain-mapping-agent` |
+| [Gutenberg Block Scaffolder](skills/gutenberg-block-scaffolder-agent/) | Security Reviewed | 21k | 44.8M/wk | `clawhub install gutenberg-block-scaffolder-agent` |
+| [Gutenberg Custom Block Builder](skills/gutenberg-custom-block-builder/) | Security Reviewed | 21k | 44.8M/wk | `clawhub install gutenberg-custom-block-builder` |
+| [ACF Custom Fields REST Exposer](skills/acf-custom-fields-rest-exposer/) | Security Reviewed | 21k | — | `clawhub install acf-custom-fields-rest-exposer` |
+| [ACF to Gutenberg Block Migrator](skills/acf-to-gutenberg-block-migrator/) | Security Reviewed | 21k | — | `clawhub install acf-to-gutenberg-block-migrator` |
+| [Advanced Custom Fields REST Schema Mapper](skills/advanced-custom-fields-rest-schema-mapper/) | Security Reviewed | 21k | — | `clawhub install advanced-custom-fields-rest-schema-mapper` |
+| [Gutenberg Block Pattern Generator](skills/gutenberg-block-pattern-generator/) | Security Reviewed | 21k | — | `clawhub install gutenberg-block-pattern-generator` |
+| [WordPress ACF Field Group Auditor](skills/wordpress-acf-field-group-auditor/) | Security Reviewed | 21k | — | `clawhub install wordpress-acf-field-group-auditor` |
+| [WordPress Block Theme Scaffolder](skills/wordpress-block-theme-scaffolder/) | Security Reviewed | 21k | — | `clawhub install wordpress-block-theme-scaffolder` |
+| [WordPress Content Publisher](skills/wordpress-content-publisher/) | Listed | 21k | — | `clawhub install wordpress-content-publisher` |
+| [WordPress Gutenberg Block Generator](skills/wordpress-gutenberg-block-generator/) | Security Reviewed | 21k | — | `clawhub install wordpress-gutenberg-block-generator` |
+| [WordPress Gutenberg Block Scaffolder](skills/wordpress-gutenberg-block-scaffolder/) | Security Reviewed | 21k | — | `clawhub install wordpress-gutenberg-block-scaffolder` |
+| [WordPress Multisite Network Sync](skills/wordpress-multisite-network-sync/) | Security Reviewed | 21k | — | `clawhub install wordpress-multisite-network-sync` |
+| [WordPress Multisite Provisioner](skills/wp-multisite-provisioner-agent/) | Security Reviewed | 21k | — | `clawhub install wp-multisite-provisioner-agent` |
+| [WordPress REST API Builder](skills/wordpress-rest-api-builder/) | Listed | 21k | — | `clawhub install wordpress-rest-api-builder` |
+| [WordPress REST API Content Sync](skills/wordpress-rest-api-content-sync/) | Security Reviewed | 21k | — | `clawhub install wordpress-rest-api-content-sync` |
+| [WordPress Router](skills/wordpress-router/) | Listed | 21k | — | `clawhub install wordpress-router` |
+| [WordPress Theme.json Design Token Manager](skills/wp-theme-json-design-token-manager/) | Security Reviewed | 21k | — | `clawhub install wp-theme-json-design-token-manager` |
+| [WP Abilities API](skills/wp-abilities-api/) | Security Reviewed | 21k | — | `clawhub install wp-abilities-api` |
+| [WP Multisite Network Sync Agent](skills/wp-multisite-network-sync-agent/) | Security Reviewed | 21k | — | `clawhub install wp-multisite-network-sync-agent` |
+| [WP-CLI Bulk Content Migrator](skills/wp-cli-bulk-content-migrator/) | Security Reviewed | 21k | — | `clawhub install wp-cli-bulk-content-migrator` |
+| [WP-CLI Content Drift Auditor](skills/wp-cli-content-drift-auditor/) | Security Reviewed | 21k | — | `clawhub install wp-cli-content-drift-auditor` |
+| [WP-CLI Site Migration Automator](skills/wp-cli-site-migration-automator/) | Security Reviewed | 21k | — | `clawhub install wp-cli-site-migration-automator` |
+| [WPGraphQL Schema Extension Builder](skills/wpgraphql-schema-extension-builder/) | Security Reviewed | 21k | — | `clawhub install wpgraphql-schema-extension-builder` |
+| [Headless CMS GraphQL Connector](skills/headless-cms-graphql-connector/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install headless-cms-graphql-connector` |
+| [WooCommerce REST Sync Agent](skills/woocommerce-rest-sync-agent/) | Security Reviewed | 7k | 5M/wk | `clawhub install woocommerce-rest-sync-agent` |
+| [WooCommerce REST Order Manager](skills/woocommerce-rest-order-manager/) | Security Reviewed | 4.4k | 8.4M/wk | `clawhub install woocommerce-rest-order-manager` |
+| [WP Cron Health Monitor](skills/wp-cron-health-monitor/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install wp-cron-health-monitor` |
+| [Algolia Search Index Sync Agent for WordPress](skills/algolia-search-index-sync-wordpress/) | Listed | — | — | `clawhub install algolia-search-index-sync-wordpress` |
+| [Elementor Template Export Mapper](skills/elementor-template-export-mapper-20260324/) | Listed | — | — | `clawhub install elementor-template-export-mapper-20260324` |
+| [Gutenberg block.json Schema Linter](skills/gutenberg-block-json-schema-linter-20260324/) | Listed | — | — | `clawhub install gutenberg-block-json-schema-linter-20260324` |
+| [WooCommerce Order Sync Agent](skills/woocommerce-order-sync-agent/) | Security Reviewed | — | — | `clawhub install woocommerce-order-sync-agent` |
+| [WooCommerce Product Feed Generator for Google Merchant Center](skills/woocommerce-product-feed-google-merchant/) | Listed | — | — | `clawhub install woocommerce-product-feed-google-merchant` |
+| [WooCommerce REST Inventory Sync](skills/woocommerce-rest-inventory-sync/) | Security Reviewed | — | — | `clawhub install woocommerce-rest-inventory-sync` |
+| [WooCommerce Webhook Delivery Inspector](skills/woocommerce-webhook-delivery-inspector/) | Security Reviewed | — | — | `clawhub install woocommerce-webhook-delivery-inspector` |
+| [WooCommerce Webhook Event Replayer](skills/woocommerce-webhook-event-replayer/) | Listed | — | — | `clawhub install woocommerce-webhook-event-replayer` |
+| [WooCommerce Webhook Orchestrator](skills/woocommerce-webhook-orchestrator/) | Security Reviewed | — | — | `clawhub install woocommerce-webhook-orchestrator` |
+| [WordPress Block Bindings API Connector](skills/wordpress-block-bindings-api-connector/) | Listed | — | — | `clawhub install wordpress-block-bindings-api-connector` |
+| [WordPress Block Theme Style Variation Generator](skills/wordpress-block-theme-style-variation-generator/) | Listed | — | — | `clawhub install wordpress-block-theme-style-variation-generator` |
+| [WordPress Interactivity API State Manager](skills/wordpress-interactivity-api-state-manager/) | Listed | — | — | `clawhub install wordpress-interactivity-api-state-manager` |
+| [WordPress REST Batch Publisher with Application Passwords](skills/wordpress-rest-batch-publisher-application-passwords-20260324/) | Listed | — | — | `clawhub install wordpress-rest-batch-publisher-application-passwords-20260324` |
+| [WP-CLI Remote Bulk Importer](skills/wp-cli-remote-bulk-importer/) | Listed | — | — | `clawhub install wp-cli-remote-bulk-importer` |
+| [WPGraphQL Content Model Explorer](skills/wpgraphql-content-model-explorer-20260324/) | Listed | — | — | `clawhub install wpgraphql-content-model-explorer-20260324` |
+| [WPGraphQL Custom Taxonomy Filter Builder](skills/wpgraphql-custom-taxonomy-filter-builder/) | Listed | — | — | `clawhub install wpgraphql-custom-taxonomy-filter-builder` |
+
+
 ### 🎙️ Media & Transcription (42 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&sort=downloads)
@@ -1446,54 +1506,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cont
 | [Surfer SEO Content Optimizer Integration](skills/surfer-seo-content-optimizer-integration/) | Security Reviewed | — | — | `clawhub install surfer-seo-content-optimizer-integration` |
 | [Surfer SEO SERP Analyzer](skills/surfer-seo-serp-analyzer/) | Security Reviewed | — | — | `clawhub install surfer-seo-serp-analyzer` |
 | [Technical SEO Audit Crawler](skills/technical-seo-audit-crawler/) | Security Reviewed | — | — | `clawhub install technical-seo-audit-crawler` |
-
-
-### 📰 WordPress & CMS (40 skills)
-
-Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS&sort=downloads)
-
-| Skill | Tier | GitHub Stars | npm Downloads | Install |
-|---|---|---:|---:|---|
-| [WP Multisite Domain Mapping Agent](skills/wp-multisite-domain-mapping-agent/) | Security Reviewed | 32.9k | — | `clawhub install wp-multisite-domain-mapping-agent` |
-| [Gutenberg Block Scaffolder](skills/gutenberg-block-scaffolder-agent/) | Security Reviewed | 21k | 44.8M/wk | `clawhub install gutenberg-block-scaffolder-agent` |
-| [Gutenberg Custom Block Builder](skills/gutenberg-custom-block-builder/) | Security Reviewed | 21k | 44.8M/wk | `clawhub install gutenberg-custom-block-builder` |
-| [ACF Custom Fields REST Exposer](skills/acf-custom-fields-rest-exposer/) | Security Reviewed | 21k | — | `clawhub install acf-custom-fields-rest-exposer` |
-| [ACF to Gutenberg Block Migrator](skills/acf-to-gutenberg-block-migrator/) | Security Reviewed | 21k | — | `clawhub install acf-to-gutenberg-block-migrator` |
-| [Advanced Custom Fields REST Schema Mapper](skills/advanced-custom-fields-rest-schema-mapper/) | Security Reviewed | 21k | — | `clawhub install advanced-custom-fields-rest-schema-mapper` |
-| [Gutenberg Block Pattern Generator](skills/gutenberg-block-pattern-generator/) | Security Reviewed | 21k | — | `clawhub install gutenberg-block-pattern-generator` |
-| [WordPress ACF Field Group Auditor](skills/wordpress-acf-field-group-auditor/) | Security Reviewed | 21k | — | `clawhub install wordpress-acf-field-group-auditor` |
-| [WordPress Block Theme Scaffolder](skills/wordpress-block-theme-scaffolder/) | Security Reviewed | 21k | — | `clawhub install wordpress-block-theme-scaffolder` |
-| [WordPress Content Publisher](skills/wordpress-content-publisher/) | Listed | 21k | — | `clawhub install wordpress-content-publisher` |
-| [WordPress Gutenberg Block Generator](skills/wordpress-gutenberg-block-generator/) | Security Reviewed | 21k | — | `clawhub install wordpress-gutenberg-block-generator` |
-| [WordPress Gutenberg Block Scaffolder](skills/wordpress-gutenberg-block-scaffolder/) | Security Reviewed | 21k | — | `clawhub install wordpress-gutenberg-block-scaffolder` |
-| [WordPress Multisite Network Sync](skills/wordpress-multisite-network-sync/) | Security Reviewed | 21k | — | `clawhub install wordpress-multisite-network-sync` |
-| [WordPress Multisite Provisioner](skills/wp-multisite-provisioner-agent/) | Security Reviewed | 21k | — | `clawhub install wp-multisite-provisioner-agent` |
-| [WordPress REST API Builder](skills/wordpress-rest-api-builder/) | Listed | 21k | — | `clawhub install wordpress-rest-api-builder` |
-| [WordPress REST API Content Sync](skills/wordpress-rest-api-content-sync/) | Security Reviewed | 21k | — | `clawhub install wordpress-rest-api-content-sync` |
-| [WordPress Router](skills/wordpress-router/) | Listed | 21k | — | `clawhub install wordpress-router` |
-| [WordPress Theme.json Design Token Manager](skills/wp-theme-json-design-token-manager/) | Security Reviewed | 21k | — | `clawhub install wp-theme-json-design-token-manager` |
-| [WP Abilities API](skills/wp-abilities-api/) | Security Reviewed | 21k | — | `clawhub install wp-abilities-api` |
-| [WP Multisite Network Sync Agent](skills/wp-multisite-network-sync-agent/) | Security Reviewed | 21k | — | `clawhub install wp-multisite-network-sync-agent` |
-| [WP-CLI Bulk Content Migrator](skills/wp-cli-bulk-content-migrator/) | Security Reviewed | 21k | — | `clawhub install wp-cli-bulk-content-migrator` |
-| [WP-CLI Content Drift Auditor](skills/wp-cli-content-drift-auditor/) | Security Reviewed | 21k | — | `clawhub install wp-cli-content-drift-auditor` |
-| [WP-CLI Site Migration Automator](skills/wp-cli-site-migration-automator/) | Security Reviewed | 21k | — | `clawhub install wp-cli-site-migration-automator` |
-| [WPGraphQL Schema Extension Builder](skills/wpgraphql-schema-extension-builder/) | Security Reviewed | 21k | — | `clawhub install wpgraphql-schema-extension-builder` |
-| [Headless CMS GraphQL Connector](skills/headless-cms-graphql-connector/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install headless-cms-graphql-connector` |
-| [WooCommerce REST Sync Agent](skills/woocommerce-rest-sync-agent/) | Security Reviewed | 7k | 5M/wk | `clawhub install woocommerce-rest-sync-agent` |
-| [WooCommerce REST Order Manager](skills/woocommerce-rest-order-manager/) | Security Reviewed | 4.4k | 8.4M/wk | `clawhub install woocommerce-rest-order-manager` |
-| [WP Cron Health Monitor](skills/wp-cron-health-monitor/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install wp-cron-health-monitor` |
-| [Elementor Template Export Mapper](skills/elementor-template-export-mapper-20260324/) | Listed | — | — | `clawhub install elementor-template-export-mapper-20260324` |
-| [Gutenberg block.json Schema Linter](skills/gutenberg-block-json-schema-linter-20260324/) | Listed | — | — | `clawhub install gutenberg-block-json-schema-linter-20260324` |
-| [WooCommerce Order Sync Agent](skills/woocommerce-order-sync-agent/) | Security Reviewed | — | — | `clawhub install woocommerce-order-sync-agent` |
-| [WooCommerce REST Inventory Sync](skills/woocommerce-rest-inventory-sync/) | Security Reviewed | — | — | `clawhub install woocommerce-rest-inventory-sync` |
-| [WooCommerce Webhook Delivery Inspector](skills/woocommerce-webhook-delivery-inspector/) | Security Reviewed | — | — | `clawhub install woocommerce-webhook-delivery-inspector` |
-| [WooCommerce Webhook Event Replayer](skills/woocommerce-webhook-event-replayer/) | Listed | — | — | `clawhub install woocommerce-webhook-event-replayer` |
-| [WooCommerce Webhook Orchestrator](skills/woocommerce-webhook-orchestrator/) | Security Reviewed | — | — | `clawhub install woocommerce-webhook-orchestrator` |
-| [WordPress Block Bindings API Connector](skills/wordpress-block-bindings-api-connector/) | Listed | — | — | `clawhub install wordpress-block-bindings-api-connector` |
-| [WordPress Interactivity API State Manager](skills/wordpress-interactivity-api-state-manager/) | Listed | — | — | `clawhub install wordpress-interactivity-api-state-manager` |
-| [WordPress REST Batch Publisher with Application Passwords](skills/wordpress-rest-batch-publisher-application-passwords-20260324/) | Listed | — | — | `clawhub install wordpress-rest-batch-publisher-application-passwords-20260324` |
-| [WP-CLI Remote Bulk Importer](skills/wp-cli-remote-bulk-importer/) | Listed | — | — | `clawhub install wp-cli-remote-bulk-importer` |
-| [WPGraphQL Content Model Explorer](skills/wpgraphql-content-model-explorer-20260324/) | Listed | — | — | `clawhub install wpgraphql-content-model-explorer-20260324` |
 
 
 ### 📦 40 (4 skills)

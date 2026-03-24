@@ -1,6 +1,6 @@
 # 📄 Templates & Workflows
 
-> **80 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows)
+> **83 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows)
 
 Project scaffolding, boilerplate generators, workflow templates, and starter kits.
 
@@ -106,6 +106,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Asana MCP Server](../../skills/asana-mcp-server/) | Listed | — | — | `clawhub install asana-mcp-server` |
 | [Azure Bicep Generator](../../skills/azure-bicep-generator/) | Listed | — | — | `clawhub install azure-bicep-generator` |
 | [Backstage Entity Catalog Populator](../../skills/backstage-entity-catalog-populator/) | Listed | — | — | `clawhub install backstage-entity-catalog-populator` |
+| [Backstage Software Template YAML Scaffolder](../../skills/backstage-software-template-yaml-scaffolder/) | Listed | — | — | `clawhub install backstage-software-template-yaml-scaffolder` |
 | [ClickUp MCP Server](../../skills/clickup-mcp-server/) | Listed | — | — | `clawhub install clickup-mcp-server` |
 | [Codecov Diff Analyzer](../../skills/codecov-diff-analyzer-2/) | Listed | — | — | `clawhub install codecov-diff-analyzer-2` |
 | [Cookiecutter Project Bootstrapper](../../skills/cookiecutter-project-bootstrapper/) | Security Reviewed | — | — | `clawhub install cookiecutter-project-bootstrapper` |
@@ -116,6 +117,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [GCP Deployment Manager](../../skills/gcp-deployment-manager/) | Listed | — | — | `clawhub install gcp-deployment-manager` |
 | [GitHub Actions Reusable Workflow Library](../../skills/github-actions-reusable-workflow-library/) | Listed | — | — | `clawhub install github-actions-reusable-workflow-library` |
 | [GitHub Actions Workflow Composer](../../skills/github-actions-workflow-composer-2/) | Security Reviewed | — | — | `clawhub install github-actions-workflow-composer-2` |
+| [Helm Chart Value Override Template Generator](../../skills/helm-chart-value-override-template-generator/) | Listed | — | — | `clawhub install helm-chart-value-override-template-generator` |
 | [Incident Response Runbook](../../skills/incident-response-runbook/) | Listed | — | — | `clawhub install incident-response-runbook` |
 | [Intercom MCP Server](../../skills/intercom-mcp-server/) | Listed | — | — | `clawhub install intercom-mcp-server` |
 | [Jinja2 Template Engine](../../skills/jinja2-template-engine-agent/) | Security Reviewed | — | — | `clawhub install jinja2-template-engine-agent` |
@@ -133,6 +135,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Pulumi Component Resource Scaffolder](../../skills/pulumi-component-resource-scaffolder/) | Listed | — | — | `clawhub install pulumi-component-resource-scaffolder` |
 | [Release Notes Generator](../../skills/release-notes-generator/) | Listed | — | — | `clawhub install release-notes-generator` |
 | [Self-Improvement / Learnings Capture](../../skills/self-improvement-learnings-capture/) | Security Reviewed | — | — | `clawhub install self-improvement-learnings-capture` |
+| [Terraform Module Documentation Generator with tf-docs](../../skills/terraform-module-documentation-generator-tfdocs/) | Listed | — | — | `clawhub install terraform-module-documentation-generator-tfdocs` |
 | [Yeoman Generator Builder](../../skills/yeoman-generator-builder/) | Security Reviewed | — | — | `clawhub install yeoman-generator-builder` |
 | [Yeoman Scaffold Runner](../../skills/yeoman-scaffold-runner/) | Security Reviewed | — | — | `clawhub install yeoman-scaffold-runner` |
 | [Yeoman Workflow Orchestrator](../../skills/yeoman-workflow-orchestrator/) | Security Reviewed | — | — | `clawhub install yeoman-workflow-orchestrator` |
