@@ -1,6 +1,6 @@
 # ✅ Code Quality & Review
 
-> **143 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=code-quality-review)
+> **147 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=code-quality-review)
 
 Linting rules, review checklists, code standards enforcement, and quality gates.
 
@@ -21,6 +21,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [ESLint Rule Architect](../../skills/eslint-rule-architect-2/) | ⭐ 4.9 | 0 | `clawhub install eslint-rule-architect-2` |
 | [ESLint Rule Architect](../../skills/eslint-rule-architect/) | ⭐ 4.9 | 0 | `clawhub install eslint-rule-architect` |
 | [ESLint Rule Composer](../../skills/eslint-rule-composer-2/) | ⭐ 4.9 | 0 | `clawhub install eslint-rule-composer-2` |
+| [ESLint Rule Impact Analyzer](../../skills/eslint-rule-impact-analyzer-agent/) | ⭐ 4.9 | 0 | `clawhub install eslint-rule-impact-analyzer-agent` |
 | [PR Code Review Checklist Generator](../../skills/pr-code-review-checklist-generator-2/) | ⭐ 4.9 | 0 | `clawhub install pr-code-review-checklist-generator-2` |
 | [Prettier Config Harmonizer](../../skills/prettier-config-harmonizer-3/) | ⭐ 4.9 | 0 | `clawhub install prettier-config-harmonizer-3` |
 | [Semgrep Custom Pattern Library](../../skills/semgrep-custom-pattern-library/) | ⭐ 4.9 | 0 | `clawhub install semgrep-custom-pattern-library` |
@@ -75,6 +76,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [TypeScript Strict Mode Checker](../../skills/typescript-strict-mode-checker/) | ⭐ 4.7 | 0 | `clawhub install typescript-strict-mode-checker` |
 | [CodeClimate Diff Analyzer](../../skills/codeclimate-diff-analyzer-2/) | ⭐ 4.6 | 0 | `clawhub install codeclimate-diff-analyzer-2` |
 | [CodeClimate Maintainability Reporter](../../skills/codeclimate-maintainability-reporter/) | ⭐ 4.6 | 0 | `clawhub install codeclimate-maintainability-reporter` |
+| [Complexity Trend Tracker](../../skills/complexity-trend-tracker-agent/) | ⭐ 4.6 | 0 | `clawhub install complexity-trend-tracker-agent` |
 | [ESLint Auto-Fix Agent](../../skills/eslint-auto-fix-agent-2/) | ⭐ 4.6 | 0 | `clawhub install eslint-auto-fix-agent-2` |
 | [ESLint Custom Rule Builder](../../skills/eslint-custom-rule-builder/) | ⭐ 4.6 | 0 | `clawhub install eslint-custom-rule-builder` |
 | [ESLint Rule Composer](../../skills/eslint-rule-composer/) | ⭐ 4.6 | 0 | `clawhub install eslint-rule-composer` |
@@ -91,6 +93,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [SonarQube Gate Enforcer](../../skills/sonarqube-gate-enforcer/) | ⭐ 4.6 | 0 | `clawhub install sonarqube-gate-enforcer` |
 | [SonarQube Quality Gate Enforcer](../../skills/sonarqube-quality-gate-enforcer-13/) | ⭐ 4.6 | 0 | `clawhub install sonarqube-quality-gate-enforcer-13` |
 | [SonarQube Quality Gate Enforcer](../../skills/sonarqube-quality-gate-enforcer-11/) | ⭐ 4.6 | 0 | `clawhub install sonarqube-quality-gate-enforcer-11` |
+| [SonarQube Quality Gate Enforcer](../../skills/sonarqube-quality-gate-enforcer-v2/) | ⭐ 4.6 | 0 | `clawhub install sonarqube-quality-gate-enforcer-v2` |
 | [SonarQube Quality Gate Enforcer](../../skills/sonarqube-quality-gate-enforcer-10/) | ⭐ 4.6 | 0 | `clawhub install sonarqube-quality-gate-enforcer-10` |
 | [SonarQube Quality Gate Explainer](../../skills/sonarqube-quality-gate-explainer-2/) | ⭐ 4.6 | 0 | `clawhub install sonarqube-quality-gate-explainer-2` |
 | [Artillery Load Test Runner](../../skills/artillery-load-test-runner/) | ⭐ 4.5 | 0 | `clawhub install artillery-load-test-runner` |
@@ -122,6 +125,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Codecov Coverage Tracker Agent](../../skills/codecov-coverage-tracker-agent/) | ⭐ 4.3 | 0 | `clawhub install codecov-coverage-tracker-agent` |
 | [Dead Code Detector](../../skills/dead-code-detector/) | ⭐ 4.3 | 0 | `clawhub install dead-code-detector` |
 | [Playwright Test Recorder](../../skills/playwright-test-recorder/) | ⭐ 4.3 | 0 | `clawhub install playwright-test-recorder` |
+| [Pull Request Size Analyzer](../../skills/pull-request-size-analyzer-agent/) | ⭐ 4.3 | 0 | `clawhub install pull-request-size-analyzer-agent` |
 | [Semgrep Security Scanner](../../skills/semgrep-security-scanner-2/) | ⭐ 4.3 | 0 | `clawhub install semgrep-security-scanner-2` |
 | [SonarQube Quality Gate Enforcer](../../skills/sonarqube-quality-gate-enforcer-12/) | ⭐ 4.3 | 0 | `clawhub install sonarqube-quality-gate-enforcer-12` |
 | [SonarQube Quality Gate Enforcer](../../skills/sonarqube-quality-gate-enforcer-7/) | ⭐ 4.3 | 0 | `clawhub install sonarqube-quality-gate-enforcer-7` |
@@ -175,8 +179,8 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 ## Related Categories
 
-- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (247 skills)
-- 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (182 skills)
+- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (251 skills)
+- 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (186 skills)
 - 🛠️ [Developer Tools](../developer-tools/) (126 skills)
 - 📚 [Library & API Reference](../library-api-reference/) (119 skills)
 

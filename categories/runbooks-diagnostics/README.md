@@ -1,6 +1,6 @@
 # 📋 Runbooks & Diagnostics
 
-> **182 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=runbooks-diagnostics)
+> **186 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=runbooks-diagnostics)
 
 Incident response, troubleshooting guides, system diagnostics, and operational runbooks.
 
@@ -12,6 +12,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 |-------|:------:|:-------:|---------|
 | [Ansible Playbook Diagnostics Runner](../../skills/ansible-playbook-diagnostics-runner/) | ⭐ 4.9 | 0 | `clawhub install ansible-playbook-diagnostics-runner` |
 | [Ansible Playbook Dry-Run Analyzer](../../skills/ansible-playbook-dry-run-analyzer/) | ⭐ 4.9 | 0 | `clawhub install ansible-playbook-dry-run-analyzer` |
+| [Ansible Playbook Dry-Run Validator](../../skills/ansible-playbook-dryrun-validator-agent/) | ⭐ 4.9 | 0 | `clawhub install ansible-playbook-dryrun-validator-agent` |
 | [Ansible Playbook Linter Pro](../../skills/ansible-playbook-linter-pro/) | ⭐ 4.9 | 0 | `clawhub install ansible-playbook-linter-pro` |
 | [AWS CloudFormation Drift Detector](../../skills/aws-cloudformation-drift-detector-3/) | ⭐ 4.9 | 0 | `clawhub install aws-cloudformation-drift-detector-3` |
 | [AWS CloudFormation Stack Diagnostics](../../skills/aws-cloudformation-stack-diagnostics/) | ⭐ 4.9 | 0 | `clawhub install aws-cloudformation-stack-diagnostics` |
@@ -55,6 +56,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Docker Compose Health Monitor](../../skills/docker-compose-health-monitor-2/) | ⭐ 4.8 | 0 | `clawhub install docker-compose-health-monitor-2` |
 | [Docker Container Health Check Runbook](../../skills/docker-container-health-check-runbook/) | ⭐ 4.8 | 0 | `clawhub install docker-container-health-check-runbook` |
 | [High CPU Alert Runbook](../../skills/high-cpu-alert-runbook/) | ⭐ 4.8 | 0 | `clawhub install high-cpu-alert-runbook` |
+| [Kubernetes CrashLoop Diagnoser](../../skills/kubernetes-crashloop-diagnoser-agent/) | ⭐ 4.8 | 0 | `clawhub install kubernetes-crashloop-diagnoser-agent` |
 | [Kubernetes CrashLoopBackOff Diagnoser](../../skills/k8s-crashloopbackoff-diagnoser/) | ⭐ 4.8 | 0 | `clawhub install k8s-crashloopbackoff-diagnoser` |
 | [Kubernetes Pod Crashloop Runbook](../../skills/kubernetes-pod-crashloop-runbook/) | ⭐ 4.8 | 0 | `clawhub install kubernetes-pod-crashloop-runbook` |
 | [Kubernetes Pod Diagnostics Runner](../../skills/kubernetes-pod-diagnostics-runner/) | ⭐ 4.8 | 0 | `clawhub install kubernetes-pod-diagnostics-runner` |
@@ -112,6 +114,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Kubernetes Crashloop Diagnostic Runbook](../../skills/kubernetes-crashloop-diagnostic-runbook/) | ⭐ 4.5 | 0 | `clawhub install kubernetes-crashloop-diagnostic-runbook` |
 | [Kubernetes CrashLoopBackOff Diagnoser](../../skills/kubernetes-crashloop-diagnoser-2/) | ⭐ 4.5 | 0 | `clawhub install kubernetes-crashloop-diagnoser-2` |
 | [Nginx Config Linter and Tester](../../skills/nginx-config-linter-tester/) | ⭐ 4.5 | 0 | `clawhub install nginx-config-linter-tester` |
+| [Nginx Error Pattern Analyzer](../../skills/nginx-error-pattern-analyzer-agent/) | ⭐ 4.5 | 0 | `clawhub install nginx-error-pattern-analyzer-agent` |
 | [PagerDuty Incident Runbook](../../skills/pagerduty-incident-runbook-skill/) | ⭐ 4.5 | 0 | `clawhub install pagerduty-incident-runbook-skill` |
 | [PostgreSQL Diagnostic Runbook](../../skills/postgresql-diagnostic-runbook/) | ⭐ 4.5 | 0 | `clawhub install postgresql-diagnostic-runbook` |
 | [PostgreSQL Vacuum Deadlock Runbook](../../skills/postgresql-vacuum-deadlock-runbook/) | ⭐ 4.5 | 0 | `clawhub install postgresql-vacuum-deadlock-runbook` |
@@ -153,6 +156,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [PostgreSQL Diagnostic Analyzer](../../skills/postgresql-diagnostic-analyzer/) | ⭐ 4.3 | 0 | `clawhub install postgresql-diagnostic-analyzer` |
 | [Terraform Drift Detector](../../skills/terraform-drift-detector-3/) | ⭐ 4.3 | 0 | `clawhub install terraform-drift-detector-3` |
 | [Terraform State Drift Detector](../../skills/terraform-state-drift-detector-3/) | ⭐ 4.3 | 0 | `clawhub install terraform-state-drift-detector-3` |
+| [Terraform State Drift Detector](../../skills/terraform-state-drift-detector-agent/) | ⭐ 4.3 | 0 | `clawhub install terraform-state-drift-detector-agent` |
 | [Terraform State Drift Detector](../../skills/terraform-state-drift-detector-6/) | ⭐ 4.3 | 0 | `clawhub install terraform-state-drift-detector-6` |
 | [Ansible Playbook Dry-Run Validator](../../skills/ansible-playbook-dry-run-validator-2/) | ⭐ 4.2 | 0 | `clawhub install ansible-playbook-dry-run-validator-2` |
 | [API Latency Spike Runbook](../../skills/api-latency-spike-runbook/) | ⭐ 4.2 | 0 | `clawhub install api-latency-spike-runbook` |
@@ -214,8 +218,8 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 ## Related Categories
 
-- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (247 skills)
-- ✅ [Code Quality & Review](../code-quality-review/) (143 skills)
+- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (251 skills)
+- ✅ [Code Quality & Review](../code-quality-review/) (147 skills)
 - 🛠️ [Developer Tools](../developer-tools/) (126 skills)
 - 📚 [Library & API Reference](../library-api-reference/) (119 skills)
 

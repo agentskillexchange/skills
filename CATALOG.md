@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1568 skills** across **17 categories** · Updated 2026-03-24 06:27 UTC
+> **1580 skills** across **17 categories** · Updated 2026-03-24 07:06 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -10,7 +10,7 @@
 
 | Metric | Value |
 |--------|-------|
-| Total Skills | **1568** |
+| Total Skills | **1580** |
 | Categories | **17** |
 | Frameworks | **11** |
 | Verification | All skills **Verified Metadata** or higher |
@@ -19,7 +19,7 @@
 
 ## Skills by Category
 
-### 🔧 CI/CD Integrations (247 skills)
+### 🔧 CI/CD Integrations (251 skills)
 
 | Skill | Rating | Reviews | Install |
 |-------|:------:|:-------:|---------|
@@ -28,6 +28,7 @@
 | [ArgoCD Sync Status Monitor](skills/argocd-sync-status-monitor-6/) | ⭐ 4.9 | 0 | `clawhub install argocd-sync-status-monitor-6` |
 | [ArgoCD Sync Status Monitor](skills/argocd-sync-status-monitor-7/) | ⭐ 4.9 | 0 | `clawhub install argocd-sync-status-monitor-7` |
 | [ArgoCD Sync Wave Planner](skills/argocd-sync-wave-planner/) | ⭐ 4.9 | 0 | `clawhub install argocd-sync-wave-planner` |
+| [Buildkite Pipeline Optimizer](skills/buildkite-pipeline-optimizer-agent/) | ⭐ 4.9 | 0 | `clawhub install buildkite-pipeline-optimizer-agent` |
 | [CircleCI Orb Builder and Publisher](skills/circleci-orb-builder-publisher/) | ⭐ 4.9 | 0 | `clawhub install circleci-orb-builder-publisher` |
 | [CircleCI Orb Composer](skills/circleci-orb-composer-10/) | ⭐ 4.9 | 0 | `clawhub install circleci-orb-composer-10` |
 | [CircleCI Orb Composer](skills/circleci-orb-composer-7/) | ⭐ 4.9 | 0 | `clawhub install circleci-orb-composer-7` |
@@ -89,6 +90,7 @@
 | [GitHub Actions Pipeline Validator](skills/github-actions-pipeline-validator/) | ⭐ 4.8 | 0 | `clawhub install github-actions-pipeline-validator` |
 | [GitHub Actions Workflow Generator](skills/github-actions-workflow-generator/) | ⭐ 4.8 | 0 | `clawhub install github-actions-workflow-generator` |
 | [GitLab CI Auto DevOps Configurator](skills/gitlab-ci-auto-devops-configurator/) | ⭐ 4.8 | 0 | `clawhub install gitlab-ci-auto-devops-configurator` |
+| [GitLab CI Cache Optimizer](skills/gitlab-ci-cache-optimizer-agent/) | ⭐ 4.8 | 0 | `clawhub install gitlab-ci-cache-optimizer-agent` |
 | [GitLab CI Pipeline Optimizer](skills/gitlab-ci-pipeline-optimizer/) | ⭐ 4.8 | 0 | `clawhub install gitlab-ci-pipeline-optimizer` |
 | [GitLab CI Pipeline Optimizer](skills/gitlab-ci-pipeline-optimizer-2/) | ⭐ 4.8 | 0 | `clawhub install gitlab-ci-pipeline-optimizer-2` |
 | [GitLab CI Pipeline Validator](skills/gitlab-ci-pipeline-validator/) | ⭐ 4.8 | 0 | `clawhub install gitlab-ci-pipeline-validator` |
@@ -113,6 +115,7 @@
 | [CircleCI Orb Composer](skills/circleci-orb-composer-5/) | ⭐ 4.7 | 0 | `clawhub install circleci-orb-composer-5` |
 | [CircleCI Orb Composer](skills/circleci-orb-composer-2/) | ⭐ 4.7 | 0 | `clawhub install circleci-orb-composer-2` |
 | [CircleCI Orb Pipeline Composer](skills/circleci-orb-pipeline-composer-2/) | ⭐ 4.7 | 0 | `clawhub install circleci-orb-pipeline-composer-2` |
+| [CircleCI Orb Validator](skills/circleci-orb-validator-agent/) | ⭐ 4.7 | 0 | `clawhub install circleci-orb-validator-agent` |
 | [CircleCI Workflow Analyzer](skills/circleci-workflow-analyzer/) | ⭐ 4.7 | 0 | `clawhub install circleci-workflow-analyzer` |
 | [CircleCI Workflow Builder](skills/circleci-workflow-builder/) | ⭐ 4.7 | 0 | `clawhub install circleci-workflow-builder` |
 | [Docker Build Cache Optimizer](skills/docker-build-cache-optimizer-3/) | ⭐ 4.7 | 0 | `clawhub install docker-build-cache-optimizer-3` |
@@ -268,15 +271,17 @@
 | [GitHub Actions Matrix Builder](skills/github-actions-matrix-builder-4/) | ⭐ 4.0 | 0 | `clawhub install github-actions-matrix-builder-4` |
 | [GitLab CI Pipeline Dependency Tracer](skills/gitlab-ci-pipeline-dependency-tracer/) | ⭐ 4.0 | 0 | `clawhub install gitlab-ci-pipeline-dependency-tracer` |
 | [GitLab CI Pipeline Optimizer](skills/gitlab-ci-pipeline-optimizer-6/) | ⭐ 4.0 | 0 | `clawhub install gitlab-ci-pipeline-optimizer-6` |
+| [Jenkins Shared Library Auditor](skills/jenkins-shared-library-auditor-agent/) | ⭐ 4.0 | 0 | `clawhub install jenkins-shared-library-auditor-agent` |
 | [Tekton Pipeline Task Generator](skills/tekton-pipeline-task-generator/) | ⭐ 4.0 | 0 | `clawhub install tekton-pipeline-task-generator` |
 | [Terraform Plan Validator](skills/terraform-plan-validator/) | ⭐ 4.0 | 0 | `clawhub install terraform-plan-validator` |
 
-### 📋 Runbooks & Diagnostics (182 skills)
+### 📋 Runbooks & Diagnostics (186 skills)
 
 | Skill | Rating | Reviews | Install |
 |-------|:------:|:-------:|---------|
 | [Ansible Playbook Diagnostics Runner](skills/ansible-playbook-diagnostics-runner/) | ⭐ 4.9 | 0 | `clawhub install ansible-playbook-diagnostics-runner` |
 | [Ansible Playbook Dry-Run Analyzer](skills/ansible-playbook-dry-run-analyzer/) | ⭐ 4.9 | 0 | `clawhub install ansible-playbook-dry-run-analyzer` |
+| [Ansible Playbook Dry-Run Validator](skills/ansible-playbook-dryrun-validator-agent/) | ⭐ 4.9 | 0 | `clawhub install ansible-playbook-dryrun-validator-agent` |
 | [Ansible Playbook Linter Pro](skills/ansible-playbook-linter-pro/) | ⭐ 4.9 | 0 | `clawhub install ansible-playbook-linter-pro` |
 | [AWS CloudFormation Drift Detector](skills/aws-cloudformation-drift-detector-3/) | ⭐ 4.9 | 0 | `clawhub install aws-cloudformation-drift-detector-3` |
 | [AWS CloudFormation Stack Diagnostics](skills/aws-cloudformation-stack-diagnostics/) | ⭐ 4.9 | 0 | `clawhub install aws-cloudformation-stack-diagnostics` |
@@ -320,6 +325,7 @@
 | [Docker Compose Health Monitor](skills/docker-compose-health-monitor-2/) | ⭐ 4.8 | 0 | `clawhub install docker-compose-health-monitor-2` |
 | [Docker Container Health Check Runbook](skills/docker-container-health-check-runbook/) | ⭐ 4.8 | 0 | `clawhub install docker-container-health-check-runbook` |
 | [High CPU Alert Runbook](skills/high-cpu-alert-runbook/) | ⭐ 4.8 | 0 | `clawhub install high-cpu-alert-runbook` |
+| [Kubernetes CrashLoop Diagnoser](skills/kubernetes-crashloop-diagnoser-agent/) | ⭐ 4.8 | 0 | `clawhub install kubernetes-crashloop-diagnoser-agent` |
 | [Kubernetes CrashLoopBackOff Diagnoser](skills/k8s-crashloopbackoff-diagnoser/) | ⭐ 4.8 | 0 | `clawhub install k8s-crashloopbackoff-diagnoser` |
 | [Kubernetes Pod Crashloop Runbook](skills/kubernetes-pod-crashloop-runbook/) | ⭐ 4.8 | 0 | `clawhub install kubernetes-pod-crashloop-runbook` |
 | [Kubernetes Pod Diagnostics Runner](skills/kubernetes-pod-diagnostics-runner/) | ⭐ 4.8 | 0 | `clawhub install kubernetes-pod-diagnostics-runner` |
@@ -377,6 +383,7 @@
 | [Kubernetes Crashloop Diagnostic Runbook](skills/kubernetes-crashloop-diagnostic-runbook/) | ⭐ 4.5 | 0 | `clawhub install kubernetes-crashloop-diagnostic-runbook` |
 | [Kubernetes CrashLoopBackOff Diagnoser](skills/kubernetes-crashloop-diagnoser-2/) | ⭐ 4.5 | 0 | `clawhub install kubernetes-crashloop-diagnoser-2` |
 | [Nginx Config Linter and Tester](skills/nginx-config-linter-tester/) | ⭐ 4.5 | 0 | `clawhub install nginx-config-linter-tester` |
+| [Nginx Error Pattern Analyzer](skills/nginx-error-pattern-analyzer-agent/) | ⭐ 4.5 | 0 | `clawhub install nginx-error-pattern-analyzer-agent` |
 | [PagerDuty Incident Runbook](skills/pagerduty-incident-runbook-skill/) | ⭐ 4.5 | 0 | `clawhub install pagerduty-incident-runbook-skill` |
 | [PostgreSQL Diagnostic Runbook](skills/postgresql-diagnostic-runbook/) | ⭐ 4.5 | 0 | `clawhub install postgresql-diagnostic-runbook` |
 | [PostgreSQL Vacuum Deadlock Runbook](skills/postgresql-vacuum-deadlock-runbook/) | ⭐ 4.5 | 0 | `clawhub install postgresql-vacuum-deadlock-runbook` |
@@ -418,6 +425,7 @@
 | [PostgreSQL Diagnostic Analyzer](skills/postgresql-diagnostic-analyzer/) | ⭐ 4.3 | 0 | `clawhub install postgresql-diagnostic-analyzer` |
 | [Terraform Drift Detector](skills/terraform-drift-detector-3/) | ⭐ 4.3 | 0 | `clawhub install terraform-drift-detector-3` |
 | [Terraform State Drift Detector](skills/terraform-state-drift-detector-3/) | ⭐ 4.3 | 0 | `clawhub install terraform-state-drift-detector-3` |
+| [Terraform State Drift Detector](skills/terraform-state-drift-detector-agent/) | ⭐ 4.3 | 0 | `clawhub install terraform-state-drift-detector-agent` |
 | [Terraform State Drift Detector](skills/terraform-state-drift-detector-6/) | ⭐ 4.3 | 0 | `clawhub install terraform-state-drift-detector-6` |
 | [Ansible Playbook Dry-Run Validator](skills/ansible-playbook-dry-run-validator-2/) | ⭐ 4.2 | 0 | `clawhub install ansible-playbook-dry-run-validator-2` |
 | [API Latency Spike Runbook](skills/api-latency-spike-runbook/) | ⭐ 4.2 | 0 | `clawhub install api-latency-spike-runbook` |
@@ -458,7 +466,7 @@
 | [Prometheus Alert Runbook Linker](skills/prometheus-alert-runbook-linker-2/) | ⭐ 4.0 | 0 | `clawhub install prometheus-alert-runbook-linker-2` |
 | [Terraform Plan Diff Reviewer](skills/terraform-plan-diff-reviewer/) | ⭐ 4.0 | 0 | `clawhub install terraform-plan-diff-reviewer` |
 
-### ✅ Code Quality & Review (143 skills)
+### ✅ Code Quality & Review (147 skills)
 
 | Skill | Rating | Reviews | Install |
 |-------|:------:|:-------:|---------|
@@ -473,6 +481,7 @@
 | [ESLint Rule Architect](skills/eslint-rule-architect-2/) | ⭐ 4.9 | 0 | `clawhub install eslint-rule-architect-2` |
 | [ESLint Rule Architect](skills/eslint-rule-architect/) | ⭐ 4.9 | 0 | `clawhub install eslint-rule-architect` |
 | [ESLint Rule Composer](skills/eslint-rule-composer-2/) | ⭐ 4.9 | 0 | `clawhub install eslint-rule-composer-2` |
+| [ESLint Rule Impact Analyzer](skills/eslint-rule-impact-analyzer-agent/) | ⭐ 4.9 | 0 | `clawhub install eslint-rule-impact-analyzer-agent` |
 | [PR Code Review Checklist Generator](skills/pr-code-review-checklist-generator-2/) | ⭐ 4.9 | 0 | `clawhub install pr-code-review-checklist-generator-2` |
 | [Prettier Config Harmonizer](skills/prettier-config-harmonizer-3/) | ⭐ 4.9 | 0 | `clawhub install prettier-config-harmonizer-3` |
 | [Semgrep Custom Pattern Library](skills/semgrep-custom-pattern-library/) | ⭐ 4.9 | 0 | `clawhub install semgrep-custom-pattern-library` |
@@ -527,6 +536,7 @@
 | [TypeScript Strict Mode Checker](skills/typescript-strict-mode-checker/) | ⭐ 4.7 | 0 | `clawhub install typescript-strict-mode-checker` |
 | [CodeClimate Diff Analyzer](skills/codeclimate-diff-analyzer-2/) | ⭐ 4.6 | 0 | `clawhub install codeclimate-diff-analyzer-2` |
 | [CodeClimate Maintainability Reporter](skills/codeclimate-maintainability-reporter/) | ⭐ 4.6 | 0 | `clawhub install codeclimate-maintainability-reporter` |
+| [Complexity Trend Tracker](skills/complexity-trend-tracker-agent/) | ⭐ 4.6 | 0 | `clawhub install complexity-trend-tracker-agent` |
 | [ESLint Auto-Fix Agent](skills/eslint-auto-fix-agent-2/) | ⭐ 4.6 | 0 | `clawhub install eslint-auto-fix-agent-2` |
 | [ESLint Custom Rule Builder](skills/eslint-custom-rule-builder/) | ⭐ 4.6 | 0 | `clawhub install eslint-custom-rule-builder` |
 | [ESLint Rule Composer](skills/eslint-rule-composer/) | ⭐ 4.6 | 0 | `clawhub install eslint-rule-composer` |
@@ -543,6 +553,7 @@
 | [SonarQube Gate Enforcer](skills/sonarqube-gate-enforcer/) | ⭐ 4.6 | 0 | `clawhub install sonarqube-gate-enforcer` |
 | [SonarQube Quality Gate Enforcer](skills/sonarqube-quality-gate-enforcer-13/) | ⭐ 4.6 | 0 | `clawhub install sonarqube-quality-gate-enforcer-13` |
 | [SonarQube Quality Gate Enforcer](skills/sonarqube-quality-gate-enforcer-11/) | ⭐ 4.6 | 0 | `clawhub install sonarqube-quality-gate-enforcer-11` |
+| [SonarQube Quality Gate Enforcer](skills/sonarqube-quality-gate-enforcer-v2/) | ⭐ 4.6 | 0 | `clawhub install sonarqube-quality-gate-enforcer-v2` |
 | [SonarQube Quality Gate Enforcer](skills/sonarqube-quality-gate-enforcer-10/) | ⭐ 4.6 | 0 | `clawhub install sonarqube-quality-gate-enforcer-10` |
 | [SonarQube Quality Gate Explainer](skills/sonarqube-quality-gate-explainer-2/) | ⭐ 4.6 | 0 | `clawhub install sonarqube-quality-gate-explainer-2` |
 | [Artillery Load Test Runner](skills/artillery-load-test-runner/) | ⭐ 4.5 | 0 | `clawhub install artillery-load-test-runner` |
@@ -574,6 +585,7 @@
 | [Codecov Coverage Tracker Agent](skills/codecov-coverage-tracker-agent/) | ⭐ 4.3 | 0 | `clawhub install codecov-coverage-tracker-agent` |
 | [Dead Code Detector](skills/dead-code-detector/) | ⭐ 4.3 | 0 | `clawhub install dead-code-detector` |
 | [Playwright Test Recorder](skills/playwright-test-recorder/) | ⭐ 4.3 | 0 | `clawhub install playwright-test-recorder` |
+| [Pull Request Size Analyzer](skills/pull-request-size-analyzer-agent/) | ⭐ 4.3 | 0 | `clawhub install pull-request-size-analyzer-agent` |
 | [Semgrep Security Scanner](skills/semgrep-security-scanner-2/) | ⭐ 4.3 | 0 | `clawhub install semgrep-security-scanner-2` |
 | [SonarQube Quality Gate Enforcer](skills/sonarqube-quality-gate-enforcer-12/) | ⭐ 4.3 | 0 | `clawhub install sonarqube-quality-gate-enforcer-12` |
 | [SonarQube Quality Gate Enforcer](skills/sonarqube-quality-gate-enforcer-7/) | ⭐ 4.3 | 0 | `clawhub install sonarqube-quality-gate-enforcer-7` |

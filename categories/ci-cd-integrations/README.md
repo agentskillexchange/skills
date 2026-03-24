@@ -1,6 +1,6 @@
 # 🔧 CI/CD Integrations
 
-> **247 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=ci-cd-integrations)
+> **251 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=ci-cd-integrations)
 
 Pipeline configs, deployment automation, build tooling, and continuous integration/delivery skills.
 
@@ -15,6 +15,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [ArgoCD Sync Status Monitor](../../skills/argocd-sync-status-monitor-6/) | ⭐ 4.9 | 0 | `clawhub install argocd-sync-status-monitor-6` |
 | [ArgoCD Sync Status Monitor](../../skills/argocd-sync-status-monitor-7/) | ⭐ 4.9 | 0 | `clawhub install argocd-sync-status-monitor-7` |
 | [ArgoCD Sync Wave Planner](../../skills/argocd-sync-wave-planner/) | ⭐ 4.9 | 0 | `clawhub install argocd-sync-wave-planner` |
+| [Buildkite Pipeline Optimizer](../../skills/buildkite-pipeline-optimizer-agent/) | ⭐ 4.9 | 0 | `clawhub install buildkite-pipeline-optimizer-agent` |
 | [CircleCI Orb Builder and Publisher](../../skills/circleci-orb-builder-publisher/) | ⭐ 4.9 | 0 | `clawhub install circleci-orb-builder-publisher` |
 | [CircleCI Orb Composer](../../skills/circleci-orb-composer-10/) | ⭐ 4.9 | 0 | `clawhub install circleci-orb-composer-10` |
 | [CircleCI Orb Composer](../../skills/circleci-orb-composer-7/) | ⭐ 4.9 | 0 | `clawhub install circleci-orb-composer-7` |
@@ -76,6 +77,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [GitHub Actions Pipeline Validator](../../skills/github-actions-pipeline-validator/) | ⭐ 4.8 | 0 | `clawhub install github-actions-pipeline-validator` |
 | [GitHub Actions Workflow Generator](../../skills/github-actions-workflow-generator/) | ⭐ 4.8 | 0 | `clawhub install github-actions-workflow-generator` |
 | [GitLab CI Auto DevOps Configurator](../../skills/gitlab-ci-auto-devops-configurator/) | ⭐ 4.8 | 0 | `clawhub install gitlab-ci-auto-devops-configurator` |
+| [GitLab CI Cache Optimizer](../../skills/gitlab-ci-cache-optimizer-agent/) | ⭐ 4.8 | 0 | `clawhub install gitlab-ci-cache-optimizer-agent` |
 | [GitLab CI Pipeline Optimizer](../../skills/gitlab-ci-pipeline-optimizer/) | ⭐ 4.8 | 0 | `clawhub install gitlab-ci-pipeline-optimizer` |
 | [GitLab CI Pipeline Optimizer](../../skills/gitlab-ci-pipeline-optimizer-2/) | ⭐ 4.8 | 0 | `clawhub install gitlab-ci-pipeline-optimizer-2` |
 | [GitLab CI Pipeline Validator](../../skills/gitlab-ci-pipeline-validator/) | ⭐ 4.8 | 0 | `clawhub install gitlab-ci-pipeline-validator` |
@@ -100,6 +102,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [CircleCI Orb Composer](../../skills/circleci-orb-composer-5/) | ⭐ 4.7 | 0 | `clawhub install circleci-orb-composer-5` |
 | [CircleCI Orb Composer](../../skills/circleci-orb-composer-2/) | ⭐ 4.7 | 0 | `clawhub install circleci-orb-composer-2` |
 | [CircleCI Orb Pipeline Composer](../../skills/circleci-orb-pipeline-composer-2/) | ⭐ 4.7 | 0 | `clawhub install circleci-orb-pipeline-composer-2` |
+| [CircleCI Orb Validator](../../skills/circleci-orb-validator-agent/) | ⭐ 4.7 | 0 | `clawhub install circleci-orb-validator-agent` |
 | [CircleCI Workflow Analyzer](../../skills/circleci-workflow-analyzer/) | ⭐ 4.7 | 0 | `clawhub install circleci-workflow-analyzer` |
 | [CircleCI Workflow Builder](../../skills/circleci-workflow-builder/) | ⭐ 4.7 | 0 | `clawhub install circleci-workflow-builder` |
 | [Docker Build Cache Optimizer](../../skills/docker-build-cache-optimizer-3/) | ⭐ 4.7 | 0 | `clawhub install docker-build-cache-optimizer-3` |
@@ -255,6 +258,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [GitHub Actions Matrix Builder](../../skills/github-actions-matrix-builder-4/) | ⭐ 4.0 | 0 | `clawhub install github-actions-matrix-builder-4` |
 | [GitLab CI Pipeline Dependency Tracer](../../skills/gitlab-ci-pipeline-dependency-tracer/) | ⭐ 4.0 | 0 | `clawhub install gitlab-ci-pipeline-dependency-tracer` |
 | [GitLab CI Pipeline Optimizer](../../skills/gitlab-ci-pipeline-optimizer-6/) | ⭐ 4.0 | 0 | `clawhub install gitlab-ci-pipeline-optimizer-6` |
+| [Jenkins Shared Library Auditor](../../skills/jenkins-shared-library-auditor-agent/) | ⭐ 4.0 | 0 | `clawhub install jenkins-shared-library-auditor-agent` |
 | [Tekton Pipeline Task Generator](../../skills/tekton-pipeline-task-generator/) | ⭐ 4.0 | 0 | `clawhub install tekton-pipeline-task-generator` |
 | [Terraform Plan Validator](../../skills/terraform-plan-validator/) | ⭐ 4.0 | 0 | `clawhub install terraform-plan-validator` |
 
@@ -279,8 +283,8 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 ## Related Categories
 
-- 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (182 skills)
-- ✅ [Code Quality & Review](../code-quality-review/) (143 skills)
+- 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (186 skills)
+- ✅ [Code Quality & Review](../code-quality-review/) (147 skills)
 - 🛠️ [Developer Tools](../developer-tools/) (126 skills)
 - 📚 [Library & API Reference](../library-api-reference/) (119 skills)
 
