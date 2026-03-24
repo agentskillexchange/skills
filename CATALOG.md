@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1508 skills** across **17 categories** · Updated 2026-03-24 01:07 UTC
+> **1520 skills** across **17 categories** · Updated 2026-03-24 02:07 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -10,7 +10,7 @@
 
 | Metric | Value |
 |--------|-------|
-| Total Skills | **1508** |
+| Total Skills | **1520** |
 | Categories | **17** |
 | Frameworks | **11** |
 | Verification | All skills **Verified Metadata** or higher |
@@ -725,7 +725,7 @@
 | [MinIO Object Storage](skills/minio-object-storage/) | ⭐ 4.0 | 0 | `clawhub install minio-object-storage` |
 | [Together AI MCP Server](skills/together-ai-mcp-server/) | ⭐ 4.0 | 0 | `clawhub install together-ai-mcp-server` |
 
-### 📚 Library & API Reference (111 skills)
+### 📚 Library & API Reference (115 skills)
 
 | Skill | Rating | Reviews | Install |
 |-------|:------:|:-------:|---------|
@@ -740,6 +740,7 @@
 | [MDN Web Docs Fetcher](skills/mdn-web-docs-fetcher/) | ⭐ 4.9 | 0 | `clawhub install mdn-web-docs-fetcher` |
 | [NPM Package Vulnerability Runbook](skills/npm-package-vulnerability-runbook/) | ⭐ 4.9 | 0 | `clawhub install npm-package-vulnerability-runbook` |
 | [NPM Package Vulnerability Scanner](skills/npm-package-vulnerability-scanner-2/) | ⭐ 4.9 | 0 | `clawhub install npm-package-vulnerability-scanner-2` |
+| [OpenAPI SDK Generator Pipeline](skills/openapi-sdk-generator-pipeline/) | ⭐ 4.9 | 0 | `clawhub install openapi-sdk-generator-pipeline` |
 | [OpenAPI Spec Reference Generator](skills/openapi-spec-reference-generator/) | ⭐ 4.9 | 0 | `clawhub install openapi-spec-reference-generator` |
 | [OpenAPI Spec Validator &#038; Linter](skills/openapi-spec-validator-linter/) | ⭐ 4.9 | 0 | `clawhub install openapi-spec-validator-linter` |
 | [Python Package Dependency Graph Mapper](skills/python-package-dependency-graph-mapper/) | ⭐ 4.9 | 0 | `clawhub install python-package-dependency-graph-mapper` |
@@ -751,6 +752,7 @@
 | [API Versioning Manager](skills/api-versioning-manager/) | ⭐ 4.8 | 0 | `clawhub install api-versioning-manager` |
 | [AWS SDK Method Resolver](skills/aws-sdk-method-resolver/) | ⭐ 4.8 | 0 | `clawhub install aws-sdk-method-resolver` |
 | [Confluence Knowledge Base Builder](skills/confluence-knowledge-base-builder-2/) | ⭐ 4.8 | 0 | `clawhub install confluence-knowledge-base-builder-2` |
+| [GraphQL Schema Stitching &#038; Federation Agent](skills/graphql-schema-stitching-federation-agent/) | ⭐ 4.8 | 0 | `clawhub install graphql-schema-stitching-federation-agent` |
 | [NPM Package Analyzer](skills/npm-package-analyzer/) | ⭐ 4.8 | 0 | `clawhub install npm-package-analyzer` |
 | [NPM Package Vulnerability Scanner](skills/npm-package-vulnerability-scanner/) | ⭐ 4.8 | 0 | `clawhub install npm-package-vulnerability-scanner` |
 | [OpenAPI Spec Changelog Generator](skills/openapi-spec-changelog-generator/) | ⭐ 4.8 | 0 | `clawhub install openapi-spec-changelog-generator` |
@@ -820,8 +822,10 @@
 | [npm Registry Analyzer](skills/npm-registry-analyzer/) | ⭐ 4.3 | 0 | `clawhub install npm-registry-analyzer` |
 | [OpenAPI Spec Reference Indexer](skills/openapi-spec-reference-indexer/) | ⭐ 4.3 | 0 | `clawhub install openapi-spec-reference-indexer` |
 | [OpenTelemetry Trace Context Propagator](skills/opentelemetry-trace-context-propagator/) | ⭐ 4.3 | 0 | `clawhub install opentelemetry-trace-context-propagator` |
+| [Protobuf &#038; gRPC Stub Generator](skills/protobuf-grpc-stub-generator/) | ⭐ 4.3 | 0 | `clawhub install protobuf-grpc-stub-generator` |
 | [Python Type Stub Generator](skills/python-type-stub-generator-3/) | ⭐ 4.3 | 0 | `clawhub install python-type-stub-generator-3` |
 | [Python Type Stub Generator](skills/python-type-stub-generator-2/) | ⭐ 4.3 | 0 | `clawhub install python-type-stub-generator-2` |
+| [Swagger UI Documentation Deployer](skills/swagger-ui-documentation-deployer/) | ⭐ 4.3 | 0 | `clawhub install swagger-ui-documentation-deployer` |
 | [OpenAPI Spec Compliance Checker](skills/openapi-spec-compliance-checker/) | ⭐ 4.2 | 0 | `clawhub install openapi-spec-compliance-checker` |
 | [Plaid Financial Data Aggregator &#038; Budget Classifier](skills/plaid-financial-data-aggregator/) | ⭐ 4.2 | 0 | `clawhub install plaid-financial-data-aggregator` |
 | [Prisma Schema Migrator](skills/prisma-schema-migrator/) | ⭐ 4.2 | 0 | `clawhub install prisma-schema-migrator` |
@@ -943,7 +947,7 @@
 | [Metrics Dashboard Builder](skills/metrics-dashboard-builder/) | ⭐ 4.0 | 0 | `clawhub install metrics-dashboard-builder` |
 | [Service Degradation Runbook](skills/service-degradation-runbook/) | ⭐ 4.0 | 0 | `clawhub install service-degradation-runbook` |
 
-### 🔒 Security & Verification (92 skills)
+### 🔒 Security & Verification (96 skills)
 
 | Skill | Rating | Reviews | Install |
 |-------|:------:|:-------:|---------|
@@ -973,8 +977,10 @@
 | [Open Policy Agent (OPA)](skills/open-policy-agent-opa/) | ⭐ 4.8 | 0 | `clawhub install open-policy-agent-opa` |
 | [OpenClaw Security Suite (ClawSec)](skills/openclaw-security-suite-clawsec/) | ⭐ 4.8 | 0 | `clawhub install openclaw-security-suite-clawsec` |
 | [OWASP ZAP Scanner Agent](skills/owasp-zap-scanner-agent/) | ⭐ 4.8 | 0 | `clawhub install owasp-zap-scanner-agent` |
+| [OWASP ZAP Security Scanner Agent](skills/owasp-zap-security-scanner-agent/) | ⭐ 4.8 | 0 | `clawhub install owasp-zap-security-scanner-agent` |
 | [Snyk Container Vulnerability Agent](skills/snyk-container-vulnerability-agent/) | ⭐ 4.8 | 0 | `clawhub install snyk-container-vulnerability-agent` |
 | [Terrascan Policy Scanner](skills/terrascan-policy-scanner/) | ⭐ 4.8 | 0 | `clawhub install terrascan-policy-scanner` |
+| [HashiCorp Vault Secrets Rotation Agent](skills/hashicorp-vault-secrets-rotation-agent-3/) | ⭐ 4.7 | 0 | `clawhub install hashicorp-vault-secrets-rotation-agent-3` |
 | [KICS IaC Linter](skills/kics-iac-linter/) | ⭐ 4.7 | 0 | `clawhub install kics-iac-linter` |
 | [OWASP ZAP API Fuzzer](skills/owasp-zap-api-fuzzer/) | ⭐ 4.7 | 0 | `clawhub install owasp-zap-api-fuzzer` |
 | [SAST Rule Compiler for Semgrep](skills/sast-rule-compiler-semgrep/) | ⭐ 4.7 | 0 | `clawhub install sast-rule-compiler-semgrep` |
@@ -989,6 +995,7 @@
 | [Grype Vulnerability Scanner](skills/grype-vulnerability-scanner/) | ⭐ 4.6 | 0 | `clawhub install grype-vulnerability-scanner` |
 | [Healthcheck Security Hardening](skills/healthcheck-security-hardening/) | ⭐ 4.6 | 0 | `clawhub install healthcheck-security-hardening` |
 | [NPM Audit Deep Scanner](skills/npm-audit-deep-scanner/) | ⭐ 4.6 | 0 | `clawhub install npm-audit-deep-scanner` |
+| [Sigstore Cosign Verification Pipeline](skills/sigstore-cosign-verification-pipeline/) | ⭐ 4.6 | 0 | `clawhub install sigstore-cosign-verification-pipeline` |
 | [Trivy Container Image Vulnerability Scanner](skills/trivy-container-image-vulnerability-scanner/) | ⭐ 4.6 | 0 | `clawhub install trivy-container-image-vulnerability-scanner` |
 | [Trivy Container Scanner](skills/trivy-container-scanner/) | ⭐ 4.6 | 0 | `clawhub install trivy-container-scanner` |
 | [TruffleHog Secret Scanner](skills/trufflehog-secret-scanner/) | ⭐ 4.6 | 0 | `clawhub install trufflehog-secret-scanner` |
@@ -1025,6 +1032,7 @@
 | [SBOM Generator and CVE Matcher](skills/sbom-generator-cve-matcher/) | ⭐ 4.2 | 0 | `clawhub install sbom-generator-cve-matcher` |
 | [Snyk Dependency Audit Skill](skills/snyk-dependency-audit-skill/) | ⭐ 4.2 | 0 | `clawhub install snyk-dependency-audit-skill` |
 | [Snyk License Compliance Checker](skills/snyk-license-compliance-checker/) | ⭐ 4.2 | 0 | `clawhub install snyk-license-compliance-checker` |
+| [Trivy Container &#038; IaC Vulnerability Scanner](skills/trivy-container-iac-vulnerability-scanner/) | ⭐ 4.2 | 0 | `clawhub install trivy-container-iac-vulnerability-scanner` |
 | [Trivy Container Security Scanner](skills/trivy-container-security-scanner/) | ⭐ 4.2 | 0 | `clawhub install trivy-container-security-scanner` |
 | [Trivy Container Vulnerability Scanner](skills/trivy-container-vulnerability-scanner/) | ⭐ 4.2 | 0 | `clawhub install trivy-container-vulnerability-scanner` |
 | [Vault Secrets Rotator](skills/vault-secrets-rotator/) | ⭐ 4.2 | 0 | `clawhub install vault-secrets-rotator` |
@@ -1135,7 +1143,7 @@
 | [Parquet Column Statistics Profiler](skills/parquet-column-statistics-profiler/) | ⭐ 4.0 | 0 | `clawhub install parquet-column-statistics-profiler` |
 | [Weaviate MCP Server](skills/weaviate-mcp-server/) | ⭐ 4.0 | 0 | `clawhub install weaviate-mcp-server` |
 
-### 📄 Templates & Workflows (84 skills)
+### 📄 Templates & Workflows (88 skills)
 
 | Skill | Rating | Reviews | Install |
 |-------|:------:|:-------:|---------|
@@ -1144,6 +1152,7 @@
 | [Cookiecutter Project Builder](skills/cookiecutter-project-builder/) | ⭐ 4.9 | 0 | `clawhub install cookiecutter-project-builder` |
 | [DigitalOcean Droplet Manager](skills/digitalocean-droplet-manager/) | ⭐ 4.9 | 0 | `clawhub install digitalocean-droplet-manager` |
 | [Docker Compose Service Blueprint Creator](skills/docker-compose-service-blueprint-creator/) | ⭐ 4.9 | 0 | `clawhub install docker-compose-service-blueprint-creator` |
+| [GitHub Actions Workflow Composer](skills/github-actions-workflow-composer-2/) | ⭐ 4.9 | 0 | `clawhub install github-actions-workflow-composer-2` |
 | [Helm Chart Boilerplate Builder](skills/helm-chart-boilerplate-builder/) | ⭐ 4.9 | 0 | `clawhub install helm-chart-boilerplate-builder` |
 | [Helm Chart Template Scaffolder](skills/helm-chart-template-scaffolder/) | ⭐ 4.9 | 0 | `clawhub install helm-chart-template-scaffolder` |
 | [Incident Response Template Generator](skills/incident-response-template-generator/) | ⭐ 4.9 | 0 | `clawhub install incident-response-template-generator` |
@@ -1196,6 +1205,7 @@
 | [Cloudflare Workers Deployer](skills/cloudflare-workers-deployer/) | ⭐ 4.5 | 0 | `clawhub install cloudflare-workers-deployer` |
 | [Cookiecutter Project Scaffolder](skills/cookiecutter-project-scaffolder/) | ⭐ 4.5 | 0 | `clawhub install cookiecutter-project-scaffolder` |
 | [GitHub Actions Workflow Generator](skills/github-actions-workflow-generator-4/) | ⭐ 4.5 | 0 | `clawhub install github-actions-workflow-generator-4` |
+| [Kubernetes Helm Chart Scaffold Builder](skills/kubernetes-helm-chart-scaffold-builder/) | ⭐ 4.5 | 0 | `clawhub install kubernetes-helm-chart-scaffold-builder` |
 | [Nx Workspace Generator](skills/nx-workspace-generator/) | ⭐ 4.5 | 0 | `clawhub install nx-workspace-generator` |
 | [Postmortem Template Generator](skills/postmortem-template-generator/) | ⭐ 4.5 | 0 | `clawhub install postmortem-template-generator` |
 | [Prefect Workflow Agent](skills/prefect-workflow-agent/) | ⭐ 4.5 | 0 | `clawhub install prefect-workflow-agent` |
@@ -1205,6 +1215,7 @@
 | [Intercom MCP Server](skills/intercom-mcp-server/) | ⭐ 4.4 | 0 | `clawhub install intercom-mcp-server` |
 | [Makefile Workflow Generator](skills/makefile-workflow-generator/) | ⭐ 4.4 | 0 | `clawhub install makefile-workflow-generator` |
 | [Terraform Module Scaffolder](skills/terraform-module-scaffolder-3/) | ⭐ 4.4 | 0 | `clawhub install terraform-module-scaffolder-3` |
+| [Terraform Module Template Generator](skills/terraform-module-template-generator-2/) | ⭐ 4.4 | 0 | `clawhub install terraform-module-template-generator-2` |
 | [Fly.io Deployment Helper](skills/fly-io-deployment-helper/) | ⭐ 4.3 | 0 | `clawhub install fly-io-deployment-helper` |
 | [Plop.js Micro-Generator](skills/plopjs-micro-generator-2/) | ⭐ 4.3 | 0 | `clawhub install plopjs-micro-generator-2` |
 | [Ansible Playbook Template Library](skills/ansible-playbook-template-library/) | ⭐ 4.2 | 0 | `clawhub install ansible-playbook-template-library` |
@@ -1214,6 +1225,7 @@
 | [Vercel Deployment Agent](skills/vercel-deployment-agent/) | ⭐ 4.2 | 0 | `clawhub install vercel-deployment-agent` |
 | [Yeoman Workflow Orchestrator](skills/yeoman-workflow-orchestrator/) | ⭐ 4.2 | 0 | `clawhub install yeoman-workflow-orchestrator` |
 | [Bubble.io Stripe Subscription Portal Builder](skills/bubble-stripe-subscription-portal/) | ⭐ 4.1 | 0 | `clawhub install bubble-stripe-subscription-portal` |
+| [Cookiecutter Project Bootstrapper](skills/cookiecutter-project-bootstrapper/) | ⭐ 4.1 | 0 | `clawhub install cookiecutter-project-bootstrapper` |
 | [Cookiecutter Project Scaffolding Agent](skills/cookiecutter-project-scaffolding-agent/) | ⭐ 4.1 | 0 | `clawhub install cookiecutter-project-scaffolding-agent` |
 | [GitHub Actions Workflow Composer](skills/github-actions-workflow-composer/) | ⭐ 4.1 | 0 | `clawhub install github-actions-workflow-composer` |
 | [Mustache Template Renderer](skills/mustache-template-renderer-agent/) | ⭐ 4.1 | 0 | `clawhub install mustache-template-renderer-agent` |

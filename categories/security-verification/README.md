@@ -1,6 +1,6 @@
 # 🔒 Security & Verification
 
-> **92 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=security-verification)
+> **96 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=security-verification)
 
 Auth setup, vulnerability scanning, compliance checks, and security automation.
 
@@ -36,8 +36,10 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Open Policy Agent (OPA)](../../skills/open-policy-agent-opa/) | ⭐ 4.8 | 0 | `clawhub install open-policy-agent-opa` |
 | [OpenClaw Security Suite (ClawSec)](../../skills/openclaw-security-suite-clawsec/) | ⭐ 4.8 | 0 | `clawhub install openclaw-security-suite-clawsec` |
 | [OWASP ZAP Scanner Agent](../../skills/owasp-zap-scanner-agent/) | ⭐ 4.8 | 0 | `clawhub install owasp-zap-scanner-agent` |
+| [OWASP ZAP Security Scanner Agent](../../skills/owasp-zap-security-scanner-agent/) | ⭐ 4.8 | 0 | `clawhub install owasp-zap-security-scanner-agent` |
 | [Snyk Container Vulnerability Agent](../../skills/snyk-container-vulnerability-agent/) | ⭐ 4.8 | 0 | `clawhub install snyk-container-vulnerability-agent` |
 | [Terrascan Policy Scanner](../../skills/terrascan-policy-scanner/) | ⭐ 4.8 | 0 | `clawhub install terrascan-policy-scanner` |
+| [HashiCorp Vault Secrets Rotation Agent](../../skills/hashicorp-vault-secrets-rotation-agent-3/) | ⭐ 4.7 | 0 | `clawhub install hashicorp-vault-secrets-rotation-agent-3` |
 | [KICS IaC Linter](../../skills/kics-iac-linter/) | ⭐ 4.7 | 0 | `clawhub install kics-iac-linter` |
 | [OWASP ZAP API Fuzzer](../../skills/owasp-zap-api-fuzzer/) | ⭐ 4.7 | 0 | `clawhub install owasp-zap-api-fuzzer` |
 | [SAST Rule Compiler for Semgrep](../../skills/sast-rule-compiler-semgrep/) | ⭐ 4.7 | 0 | `clawhub install sast-rule-compiler-semgrep` |
@@ -52,6 +54,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Grype Vulnerability Scanner](../../skills/grype-vulnerability-scanner/) | ⭐ 4.6 | 0 | `clawhub install grype-vulnerability-scanner` |
 | [Healthcheck Security Hardening](../../skills/healthcheck-security-hardening/) | ⭐ 4.6 | 0 | `clawhub install healthcheck-security-hardening` |
 | [NPM Audit Deep Scanner](../../skills/npm-audit-deep-scanner/) | ⭐ 4.6 | 0 | `clawhub install npm-audit-deep-scanner` |
+| [Sigstore Cosign Verification Pipeline](../../skills/sigstore-cosign-verification-pipeline/) | ⭐ 4.6 | 0 | `clawhub install sigstore-cosign-verification-pipeline` |
 | [Trivy Container Image Vulnerability Scanner](../../skills/trivy-container-image-vulnerability-scanner/) | ⭐ 4.6 | 0 | `clawhub install trivy-container-image-vulnerability-scanner` |
 | [Trivy Container Scanner](../../skills/trivy-container-scanner/) | ⭐ 4.6 | 0 | `clawhub install trivy-container-scanner` |
 | [TruffleHog Secret Scanner](../../skills/trufflehog-secret-scanner/) | ⭐ 4.6 | 0 | `clawhub install trufflehog-secret-scanner` |
@@ -88,6 +91,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [SBOM Generator and CVE Matcher](../../skills/sbom-generator-cve-matcher/) | ⭐ 4.2 | 0 | `clawhub install sbom-generator-cve-matcher` |
 | [Snyk Dependency Audit Skill](../../skills/snyk-dependency-audit-skill/) | ⭐ 4.2 | 0 | `clawhub install snyk-dependency-audit-skill` |
 | [Snyk License Compliance Checker](../../skills/snyk-license-compliance-checker/) | ⭐ 4.2 | 0 | `clawhub install snyk-license-compliance-checker` |
+| [Trivy Container &#038; IaC Vulnerability Scanner](../../skills/trivy-container-iac-vulnerability-scanner/) | ⭐ 4.2 | 0 | `clawhub install trivy-container-iac-vulnerability-scanner` |
 | [Trivy Container Security Scanner](../../skills/trivy-container-security-scanner/) | ⭐ 4.2 | 0 | `clawhub install trivy-container-security-scanner` |
 | [Trivy Container Vulnerability Scanner](../../skills/trivy-container-vulnerability-scanner/) | ⭐ 4.2 | 0 | `clawhub install trivy-container-vulnerability-scanner` |
 | [Vault Secrets Rotator](../../skills/vault-secrets-rotator/) | ⭐ 4.2 | 0 | `clawhub install vault-secrets-rotator` |

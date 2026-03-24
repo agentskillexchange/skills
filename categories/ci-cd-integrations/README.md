@@ -278,7 +278,7 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (178 skills)
 - ✅ [Code Quality & Review](../code-quality-review/) (139 skills)
 - 🛠️ [Developer Tools](../developer-tools/) (126 skills)
-- 📚 [Library & API Reference](../library-api-reference/) (111 skills)
+- 📚 [Library & API Reference](../library-api-reference/) (115 skills)
 
 ---
 

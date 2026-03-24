@@ -1,6 +1,6 @@
 # 📚 Library & API Reference
 
-> **111 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=library-api-reference)
+> **115 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=library-api-reference)
 
 SDK documentation, API guides, framework reference material, and library usage patterns.
 
@@ -21,6 +21,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [MDN Web Docs Fetcher](../../skills/mdn-web-docs-fetcher/) | ⭐ 4.9 | 0 | `clawhub install mdn-web-docs-fetcher` |
 | [NPM Package Vulnerability Runbook](../../skills/npm-package-vulnerability-runbook/) | ⭐ 4.9 | 0 | `clawhub install npm-package-vulnerability-runbook` |
 | [NPM Package Vulnerability Scanner](../../skills/npm-package-vulnerability-scanner-2/) | ⭐ 4.9 | 0 | `clawhub install npm-package-vulnerability-scanner-2` |
+| [OpenAPI SDK Generator Pipeline](../../skills/openapi-sdk-generator-pipeline/) | ⭐ 4.9 | 0 | `clawhub install openapi-sdk-generator-pipeline` |
 | [OpenAPI Spec Reference Generator](../../skills/openapi-spec-reference-generator/) | ⭐ 4.9 | 0 | `clawhub install openapi-spec-reference-generator` |
 | [OpenAPI Spec Validator &#038; Linter](../../skills/openapi-spec-validator-linter/) | ⭐ 4.9 | 0 | `clawhub install openapi-spec-validator-linter` |
 | [Python Package Dependency Graph Mapper](../../skills/python-package-dependency-graph-mapper/) | ⭐ 4.9 | 0 | `clawhub install python-package-dependency-graph-mapper` |
@@ -32,6 +33,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [API Versioning Manager](../../skills/api-versioning-manager/) | ⭐ 4.8 | 0 | `clawhub install api-versioning-manager` |
 | [AWS SDK Method Resolver](../../skills/aws-sdk-method-resolver/) | ⭐ 4.8 | 0 | `clawhub install aws-sdk-method-resolver` |
 | [Confluence Knowledge Base Builder](../../skills/confluence-knowledge-base-builder-2/) | ⭐ 4.8 | 0 | `clawhub install confluence-knowledge-base-builder-2` |
+| [GraphQL Schema Stitching &#038; Federation Agent](../../skills/graphql-schema-stitching-federation-agent/) | ⭐ 4.8 | 0 | `clawhub install graphql-schema-stitching-federation-agent` |
 | [NPM Package Analyzer](../../skills/npm-package-analyzer/) | ⭐ 4.8 | 0 | `clawhub install npm-package-analyzer` |
 | [NPM Package Vulnerability Scanner](../../skills/npm-package-vulnerability-scanner/) | ⭐ 4.8 | 0 | `clawhub install npm-package-vulnerability-scanner` |
 | [OpenAPI Spec Changelog Generator](../../skills/openapi-spec-changelog-generator/) | ⭐ 4.8 | 0 | `clawhub install openapi-spec-changelog-generator` |
@@ -101,8 +103,10 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [npm Registry Analyzer](../../skills/npm-registry-analyzer/) | ⭐ 4.3 | 0 | `clawhub install npm-registry-analyzer` |
 | [OpenAPI Spec Reference Indexer](../../skills/openapi-spec-reference-indexer/) | ⭐ 4.3 | 0 | `clawhub install openapi-spec-reference-indexer` |
 | [OpenTelemetry Trace Context Propagator](../../skills/opentelemetry-trace-context-propagator/) | ⭐ 4.3 | 0 | `clawhub install opentelemetry-trace-context-propagator` |
+| [Protobuf &#038; gRPC Stub Generator](../../skills/protobuf-grpc-stub-generator/) | ⭐ 4.3 | 0 | `clawhub install protobuf-grpc-stub-generator` |
 | [Python Type Stub Generator](../../skills/python-type-stub-generator-3/) | ⭐ 4.3 | 0 | `clawhub install python-type-stub-generator-3` |
 | [Python Type Stub Generator](../../skills/python-type-stub-generator-2/) | ⭐ 4.3 | 0 | `clawhub install python-type-stub-generator-2` |
+| [Swagger UI Documentation Deployer](../../skills/swagger-ui-documentation-deployer/) | ⭐ 4.3 | 0 | `clawhub install swagger-ui-documentation-deployer` |
 | [OpenAPI Spec Compliance Checker](../../skills/openapi-spec-compliance-checker/) | ⭐ 4.2 | 0 | `clawhub install openapi-spec-compliance-checker` |
 | [Plaid Financial Data Aggregator &#038; Budget Classifier](../../skills/plaid-financial-data-aggregator/) | ⭐ 4.2 | 0 | `clawhub install plaid-financial-data-aggregator` |
 | [Prisma Schema Migrator](../../skills/prisma-schema-migrator/) | ⭐ 4.2 | 0 | `clawhub install prisma-schema-migrator` |
