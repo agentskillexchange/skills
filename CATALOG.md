@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1580 skills** across **17 categories** · Updated 2026-03-24 07:06 UTC
+> **1592 skills** across **17 categories** · Updated 2026-03-24 08:05 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -10,7 +10,7 @@
 
 | Metric | Value |
 |--------|-------|
-| Total Skills | **1580** |
+| Total Skills | **1592** |
 | Categories | **17** |
 | Frameworks | **11** |
 | Verification | All skills **Verified Metadata** or higher |
@@ -1418,7 +1418,7 @@
 | [Puppeteer Web Scraping Pipeline](skills/puppeteer-web-scraping-pipeline-2/) | ⭐ 4.0 | 0 | `clawhub install puppeteer-web-scraping-pipeline-2` |
 | [Selenium Grid Parallel Test Runner](skills/selenium-grid-parallel-test-runner/) | ⭐ 4.0 | 0 | `clawhub install selenium-grid-parallel-test-runner` |
 
-### 🎨 Image & Creative Automation (51 skills)
+### 🎨 Image & Creative Automation (55 skills)
 
 | Skill | Rating | Reviews | Install |
 |-------|:------:|:-------:|---------|
@@ -1431,8 +1431,10 @@
 | [Midjourney Prompt Engineering Suite](skills/midjourney-prompt-engineering-suite/) | ⭐ 4.9 | 0 | `clawhub install midjourney-prompt-engineering-suite` |
 | [Stable Diffusion ControlNet Compositor](skills/stable-diffusion-controlnet-compositor/) | ⭐ 4.9 | 0 | `clawhub install stable-diffusion-controlnet-compositor` |
 | [Stable Diffusion Prompt Optimizer](skills/stable-diffusion-prompt-optimizer/) | ⭐ 4.9 | 0 | `clawhub install stable-diffusion-prompt-optimizer` |
+| [Stable Diffusion XL LoRA Trainer](skills/stable-diffusion-xl-lora-trainer/) | ⭐ 4.9 | 0 | `clawhub install stable-diffusion-xl-lora-trainer` |
 | [Bannerbear Dynamic Image API](skills/bannerbear-dynamic-image-api/) | ⭐ 4.8 | 0 | `clawhub install bannerbear-dynamic-image-api` |
 | [Figma REST API Asset Exporter](skills/figma-rest-api-asset-exporter/) | ⭐ 4.8 | 0 | `clawhub install figma-rest-api-asset-exporter` |
+| [Midjourney Prompt Optimizer](skills/midjourney-prompt-optimizer-skill/) | ⭐ 4.8 | 0 | `clawhub install midjourney-prompt-optimizer-skill` |
 | [Sharp Image Transform Pipeline](skills/sharp-image-transform-pipeline/) | ⭐ 4.8 | 0 | `clawhub install sharp-image-transform-pipeline` |
 | [Stable Diffusion XL Pipeline](skills/stable-diffusion-xl-pipeline/) | ⭐ 4.8 | 0 | `clawhub install stable-diffusion-xl-pipeline` |
 | [Stable Diffusion XL Pipeline Builder](skills/stable-diffusion-xl-pipeline-builder/) | ⭐ 4.8 | 0 | `clawhub install stable-diffusion-xl-pipeline-builder` |
@@ -1450,6 +1452,7 @@
 | [DALL-E Image Variation Pipeline](skills/dalle-image-variation-pipeline/) | ⭐ 4.5 | 0 | `clawhub install dalle-image-variation-pipeline` |
 | [Sharp Image Pipeline Processor](skills/sharp-image-pipeline-processor/) | ⭐ 4.5 | 0 | `clawhub install sharp-image-pipeline-processor` |
 | [Stable Diffusion ComfyUI Workflow Runner](skills/stable-diffusion-comfyui-workflow-runner-2/) | ⭐ 4.5 | 0 | `clawhub install stable-diffusion-comfyui-workflow-runner-2` |
+| [Cloudinary DAM Pipeline](skills/cloudinary-dam-pipeline-skill/) | ⭐ 4.4 | 0 | `clawhub install cloudinary-dam-pipeline-skill` |
 | [DALL-E Variation Generator](skills/dalle-variation-generator/) | ⭐ 4.4 | 0 | `clawhub install dalle-variation-generator` |
 | [DALL-E Variations Pipeline](skills/dalle-variations-pipeline/) | ⭐ 4.4 | 0 | `clawhub install dalle-variations-pipeline` |
 | [FFmpeg Intelligent Media Processor](skills/ffmpeg-intelligent-media-processor/) | ⭐ 4.4 | 0 | `clawhub install ffmpeg-intelligent-media-processor` |
@@ -1462,6 +1465,7 @@
 | [FFmpeg Video Processing Pipeline](skills/ffmpeg-video-processing-pipeline/) | ⭐ 4.3 | 0 | `clawhub install ffmpeg-video-processing-pipeline` |
 | [Figma Design Token Exporter](skills/figma-design-token-exporter/) | ⭐ 4.3 | 0 | `clawhub install figma-design-token-exporter` |
 | [Pexels API Stock Photo Curator](skills/pexels-api-stock-photo-curator/) | ⭐ 4.3 | 0 | `clawhub install pexels-api-stock-photo-curator` |
+| [RunPod Serverless GPU Inference](skills/runpod-serverless-gpu-inference/) | ⭐ 4.3 | 0 | `clawhub install runpod-serverless-gpu-inference` |
 | [Stable Diffusion ComfyUI Workflow Runner](skills/stable-diffusion-comfyui-workflow-runner/) | ⭐ 4.3 | 0 | `clawhub install stable-diffusion-comfyui-workflow-runner` |
 | [DALL-E Prompt Engineering Kit](skills/dall-e-prompt-engineering-kit/) | ⭐ 4.2 | 0 | `clawhub install dall-e-prompt-engineering-kit` |
 | [FFmpeg Media Transcoder](skills/ffmpeg-media-transcoder/) | ⭐ 4.2 | 0 | `clawhub install ffmpeg-media-transcoder` |
@@ -1473,6 +1477,60 @@
 | [OpenAI Image Gen](skills/openai-image-gen/) | ⭐ 4.1 | 0 | `clawhub install openai-image-gen` |
 | [Stable Diffusion LoRA Training Pipeline](skills/stable-diffusion-lora-training-pipeline/) | ⭐ 4.1 | 0 | `clawhub install stable-diffusion-lora-training-pipeline` |
 | [SVG Animation Builder](skills/svg-animation-builder/) | ⭐ 4.0 | 0 | `clawhub install svg-animation-builder` |
+
+### 🔗 Integrations & Connectors (49 skills)
+
+| Skill | Rating | Reviews | Install |
+|-------|:------:|:-------:|---------|
+| [Linear Issue Triage &#038; Sprint Planner](skills/linear-issue-triage-sprint-planner-2/) | ⭐ 4.9 | 0 | `clawhub install linear-issue-triage-sprint-planner-2` |
+| [SageMaker Pipeline Orchestrator](skills/sagemaker-pipeline-orchestrator/) | ⭐ 4.9 | 0 | `clawhub install sagemaker-pipeline-orchestrator` |
+| [Stripe Connect Marketplace Sync](skills/stripe-connect-marketplace-sync/) | ⭐ 4.9 | 0 | `clawhub install stripe-connect-marketplace-sync` |
+| [Stripe Revenue Reconciliation Agent](skills/stripe-revenue-reconciliation-agent-2/) | ⭐ 4.9 | 0 | `clawhub install stripe-revenue-reconciliation-agent-2` |
+| [Terraform Cloud Run Inspector](skills/terraform-cloud-run-inspector-2/) | ⭐ 4.9 | 0 | `clawhub install terraform-cloud-run-inspector-2` |
+| [Zapier Webhook Integration Builder](skills/zapier-webhook-integration-builder/) | ⭐ 4.9 | 0 | `clawhub install zapier-webhook-integration-builder` |
+| [ArgoCD Sync Status Monitor](skills/argocd-sync-status-monitor-5/) | ⭐ 4.8 | 0 | `clawhub install argocd-sync-status-monitor-5` |
+| [ClawHub Skill Discovery &#038; Publishing](skills/clawhub-skill-discovery-publishing/) | ⭐ 4.8 | 0 | `clawhub install clawhub-skill-discovery-publishing` |
+| [GitHub Discussions Community Digest](skills/github-discussions-community-digest/) | ⭐ 4.8 | 0 | `clawhub install github-discussions-community-digest` |
+| [Plaid Financial Data Connector](skills/plaid-financial-data-connector-2/) | ⭐ 4.8 | 0 | `clawhub install plaid-financial-data-connector-2` |
+| [SendGrid Transactional Email Router](skills/sendgrid-transactional-email-router/) | ⭐ 4.8 | 0 | `clawhub install sendgrid-transactional-email-router` |
+| [Stripe Connect Integration](skills/stripe-connect-integration/) | ⭐ 4.8 | 0 | `clawhub install stripe-connect-integration` |
+| [Twilio Programmable SMS Gateway](skills/twilio-programmable-sms-gateway/) | ⭐ 4.8 | 0 | `clawhub install twilio-programmable-sms-gateway` |
+| [Xero Accounting Agent](skills/xero-accounting-agent/) | ⭐ 4.8 | 0 | `clawhub install xero-accounting-agent` |
+| [Zapier Multi-Step Lead Enrichment Workflow](skills/zapier-lead-enrichment-workflow/) | ⭐ 4.8 | 0 | `clawhub install zapier-lead-enrichment-workflow` |
+| [GitHub Actions Workflow Debugger](skills/github-actions-workflow-debugger-2/) | ⭐ 4.7 | 0 | `clawhub install github-actions-workflow-debugger-2` |
+| [Make.com Airtable-to-Shopify Inventory Sync](skills/make-airtable-shopify-inventory-sync/) | ⭐ 4.7 | 0 | `clawhub install make-airtable-shopify-inventory-sync` |
+| [Neon Serverless Postgres MCP](skills/neon-serverless-postgres-mcp/) | ⭐ 4.7 | 0 | `clawhub install neon-serverless-postgres-mcp` |
+| [Stripe Reporting Agent](skills/stripe-reporting-agent/) | ⭐ 4.7 | 0 | `clawhub install stripe-reporting-agent` |
+| [Stripe Revenue Reconciliation Agent](skills/stripe-revenue-reconciliation-agent/) | ⭐ 4.7 | 0 | `clawhub install stripe-revenue-reconciliation-agent` |
+| [Twilio Programmable Voice Router](skills/twilio-programmable-voice-router/) | ⭐ 4.7 | 0 | `clawhub install twilio-programmable-voice-router` |
+| [Twilio SMS &#038; Voice Bridge](skills/twilio-sms-voice-bridge/) | ⭐ 4.7 | 0 | `clawhub install twilio-sms-voice-bridge` |
+| [Google Drive MCP Server](skills/google-drive-mcp-server/) | ⭐ 4.6 | 0 | `clawhub install google-drive-mcp-server` |
+| [Notion Database Sync &#038; Page Generator](skills/notion-database-sync-page-generator/) | ⭐ 4.6 | 0 | `clawhub install notion-database-sync-page-generator` |
+| [Twilio MCP Server](skills/twilio-mcp-server/) | ⭐ 4.6 | 0 | `clawhub install twilio-mcp-server` |
+| [Plaid Financial Data](skills/plaid-financial-data/) | ⭐ 4.5 | 0 | `clawhub install plaid-financial-data` |
+| [Stripe Payment Flow Connector](skills/stripe-payment-flow-connector/) | ⭐ 4.5 | 0 | `clawhub install stripe-payment-flow-connector` |
+| [AWS S3 &#038; SQS Pipeline Connector](skills/aws-s3-sqs-pipeline-connector/) | ⭐ 4.4 | 0 | `clawhub install aws-s3-sqs-pipeline-connector` |
+| [GitLab CI Pipeline Optimizer](skills/gitlab-ci-pipeline-optimizer-5/) | ⭐ 4.4 | 0 | `clawhub install gitlab-ci-pipeline-optimizer-5` |
+| [HubSpot MCP Server](skills/hubspot-mcp-server/) | ⭐ 4.4 | 0 | `clawhub install hubspot-mcp-server` |
+| [SendGrid MCP Server](skills/sendgrid-mcp-server/) | ⭐ 4.4 | 0 | `clawhub install sendgrid-mcp-server` |
+| [Stripe Payments Connector](skills/stripe-payments-connector/) | ⭐ 4.4 | 0 | `clawhub install stripe-payments-connector` |
+| [ArgoCD Sync Status Monitor](skills/argocd-sync-status-monitor-4/) | ⭐ 4.3 | 0 | `clawhub install argocd-sync-status-monitor-4` |
+| [AssemblyAI Real-Time Call Intelligence](skills/assemblyai-realtime-call-intelligence/) | ⭐ 4.3 | 0 | `clawhub install assemblyai-realtime-call-intelligence` |
+| [Notion Database Sync &#038; Page Generator](skills/notion-database-sync-page-generator-2/) | ⭐ 4.3 | 0 | `clawhub install notion-database-sync-page-generator-2` |
+| [Plaid Financial Data Connector](skills/plaid-financial-data-connector/) | ⭐ 4.3 | 0 | `clawhub install plaid-financial-data-connector` |
+| [Slack Channel Summarizer &#038; Triage Bot](skills/slack-channel-summarizer-triage-2/) | ⭐ 4.3 | 0 | `clawhub install slack-channel-summarizer-triage-2` |
+| [Stripe Connect Platform Bridge](skills/stripe-connect-platform-bridge/) | ⭐ 4.3 | 0 | `clawhub install stripe-connect-platform-bridge` |
+| [Stripe MCP Server](skills/stripe-mcp-server/) | ⭐ 4.3 | 0 | `clawhub install stripe-mcp-server` |
+| [Terraform Cloud Run Inspector](skills/terraform-cloud-run-inspector/) | ⭐ 4.3 | 0 | `clawhub install terraform-cloud-run-inspector` |
+| [GitHub Actions Workflow Debugger](skills/github-actions-workflow-debugger-3/) | ⭐ 4.2 | 0 | `clawhub install github-actions-workflow-debugger-3` |
+| [GitLab CI Pipeline Optimizer](skills/gitlab-ci-pipeline-optimizer-4/) | ⭐ 4.2 | 0 | `clawhub install gitlab-ci-pipeline-optimizer-4` |
+| [Salesforce CRM Sync Agent](skills/salesforce-crm-sync-agent/) | ⭐ 4.2 | 0 | `clawhub install salesforce-crm-sync-agent` |
+| [Slack Channel Summarizer &#038; Triage Bot](skills/slack-channel-summarizer-triage/) | ⭐ 4.2 | 0 | `clawhub install slack-channel-summarizer-triage` |
+| [Datadog Integration Connector](skills/datadog-integration-connector-agent/) | ⭐ 4.1 | 0 | `clawhub install datadog-integration-connector-agent` |
+| [QuickBooks Data Extractor](skills/quickbooks-data-extractor/) | ⭐ 4.1 | 0 | `clawhub install quickbooks-data-extractor` |
+| [Salesforce Bulk API Sync Agent](skills/salesforce-bulk-api-sync-agent/) | ⭐ 4.1 | 0 | `clawhub install salesforce-bulk-api-sync-agent` |
+| [Salesforce MCP Server](skills/salesforce-mcp-server/) | ⭐ 4.1 | 0 | `clawhub install salesforce-mcp-server` |
+| [Linear Issue Triage &#038; Sprint Planner](skills/linear-issue-triage-sprint-planner/) | ⭐ 4.0 | 0 | `clawhub install linear-issue-triage-sprint-planner` |
 
 ### 🔍 Research & Scraping (46 skills)
 
@@ -1525,56 +1583,6 @@
 | [Crawlee Smart Crawler Agent](skills/crawlee-smart-crawler-agent/) | ⭐ 4.1 | 0 | `clawhub install crawlee-smart-crawler-agent` |
 | [ScrapingBee API Data Harvester](skills/scrapingbee-api-data-harvester/) | ⭐ 4.0 | 0 | `clawhub install scrapingbee-api-data-harvester` |
 
-### 🔗 Integrations & Connectors (45 skills)
-
-| Skill | Rating | Reviews | Install |
-|-------|:------:|:-------:|---------|
-| [Linear Issue Triage &#038; Sprint Planner](skills/linear-issue-triage-sprint-planner-2/) | ⭐ 4.9 | 0 | `clawhub install linear-issue-triage-sprint-planner-2` |
-| [SageMaker Pipeline Orchestrator](skills/sagemaker-pipeline-orchestrator/) | ⭐ 4.9 | 0 | `clawhub install sagemaker-pipeline-orchestrator` |
-| [Stripe Revenue Reconciliation Agent](skills/stripe-revenue-reconciliation-agent-2/) | ⭐ 4.9 | 0 | `clawhub install stripe-revenue-reconciliation-agent-2` |
-| [Terraform Cloud Run Inspector](skills/terraform-cloud-run-inspector-2/) | ⭐ 4.9 | 0 | `clawhub install terraform-cloud-run-inspector-2` |
-| [Zapier Webhook Integration Builder](skills/zapier-webhook-integration-builder/) | ⭐ 4.9 | 0 | `clawhub install zapier-webhook-integration-builder` |
-| [ArgoCD Sync Status Monitor](skills/argocd-sync-status-monitor-5/) | ⭐ 4.8 | 0 | `clawhub install argocd-sync-status-monitor-5` |
-| [ClawHub Skill Discovery &#038; Publishing](skills/clawhub-skill-discovery-publishing/) | ⭐ 4.8 | 0 | `clawhub install clawhub-skill-discovery-publishing` |
-| [GitHub Discussions Community Digest](skills/github-discussions-community-digest/) | ⭐ 4.8 | 0 | `clawhub install github-discussions-community-digest` |
-| [SendGrid Transactional Email Router](skills/sendgrid-transactional-email-router/) | ⭐ 4.8 | 0 | `clawhub install sendgrid-transactional-email-router` |
-| [Stripe Connect Integration](skills/stripe-connect-integration/) | ⭐ 4.8 | 0 | `clawhub install stripe-connect-integration` |
-| [Twilio Programmable SMS Gateway](skills/twilio-programmable-sms-gateway/) | ⭐ 4.8 | 0 | `clawhub install twilio-programmable-sms-gateway` |
-| [Xero Accounting Agent](skills/xero-accounting-agent/) | ⭐ 4.8 | 0 | `clawhub install xero-accounting-agent` |
-| [Zapier Multi-Step Lead Enrichment Workflow](skills/zapier-lead-enrichment-workflow/) | ⭐ 4.8 | 0 | `clawhub install zapier-lead-enrichment-workflow` |
-| [GitHub Actions Workflow Debugger](skills/github-actions-workflow-debugger-2/) | ⭐ 4.7 | 0 | `clawhub install github-actions-workflow-debugger-2` |
-| [Make.com Airtable-to-Shopify Inventory Sync](skills/make-airtable-shopify-inventory-sync/) | ⭐ 4.7 | 0 | `clawhub install make-airtable-shopify-inventory-sync` |
-| [Neon Serverless Postgres MCP](skills/neon-serverless-postgres-mcp/) | ⭐ 4.7 | 0 | `clawhub install neon-serverless-postgres-mcp` |
-| [Stripe Reporting Agent](skills/stripe-reporting-agent/) | ⭐ 4.7 | 0 | `clawhub install stripe-reporting-agent` |
-| [Stripe Revenue Reconciliation Agent](skills/stripe-revenue-reconciliation-agent/) | ⭐ 4.7 | 0 | `clawhub install stripe-revenue-reconciliation-agent` |
-| [Twilio SMS &#038; Voice Bridge](skills/twilio-sms-voice-bridge/) | ⭐ 4.7 | 0 | `clawhub install twilio-sms-voice-bridge` |
-| [Google Drive MCP Server](skills/google-drive-mcp-server/) | ⭐ 4.6 | 0 | `clawhub install google-drive-mcp-server` |
-| [Notion Database Sync &#038; Page Generator](skills/notion-database-sync-page-generator/) | ⭐ 4.6 | 0 | `clawhub install notion-database-sync-page-generator` |
-| [Twilio MCP Server](skills/twilio-mcp-server/) | ⭐ 4.6 | 0 | `clawhub install twilio-mcp-server` |
-| [Plaid Financial Data](skills/plaid-financial-data/) | ⭐ 4.5 | 0 | `clawhub install plaid-financial-data` |
-| [Stripe Payment Flow Connector](skills/stripe-payment-flow-connector/) | ⭐ 4.5 | 0 | `clawhub install stripe-payment-flow-connector` |
-| [AWS S3 &#038; SQS Pipeline Connector](skills/aws-s3-sqs-pipeline-connector/) | ⭐ 4.4 | 0 | `clawhub install aws-s3-sqs-pipeline-connector` |
-| [GitLab CI Pipeline Optimizer](skills/gitlab-ci-pipeline-optimizer-5/) | ⭐ 4.4 | 0 | `clawhub install gitlab-ci-pipeline-optimizer-5` |
-| [HubSpot MCP Server](skills/hubspot-mcp-server/) | ⭐ 4.4 | 0 | `clawhub install hubspot-mcp-server` |
-| [SendGrid MCP Server](skills/sendgrid-mcp-server/) | ⭐ 4.4 | 0 | `clawhub install sendgrid-mcp-server` |
-| [Stripe Payments Connector](skills/stripe-payments-connector/) | ⭐ 4.4 | 0 | `clawhub install stripe-payments-connector` |
-| [ArgoCD Sync Status Monitor](skills/argocd-sync-status-monitor-4/) | ⭐ 4.3 | 0 | `clawhub install argocd-sync-status-monitor-4` |
-| [AssemblyAI Real-Time Call Intelligence](skills/assemblyai-realtime-call-intelligence/) | ⭐ 4.3 | 0 | `clawhub install assemblyai-realtime-call-intelligence` |
-| [Notion Database Sync &#038; Page Generator](skills/notion-database-sync-page-generator-2/) | ⭐ 4.3 | 0 | `clawhub install notion-database-sync-page-generator-2` |
-| [Plaid Financial Data Connector](skills/plaid-financial-data-connector/) | ⭐ 4.3 | 0 | `clawhub install plaid-financial-data-connector` |
-| [Slack Channel Summarizer &#038; Triage Bot](skills/slack-channel-summarizer-triage-2/) | ⭐ 4.3 | 0 | `clawhub install slack-channel-summarizer-triage-2` |
-| [Stripe Connect Platform Bridge](skills/stripe-connect-platform-bridge/) | ⭐ 4.3 | 0 | `clawhub install stripe-connect-platform-bridge` |
-| [Stripe MCP Server](skills/stripe-mcp-server/) | ⭐ 4.3 | 0 | `clawhub install stripe-mcp-server` |
-| [Terraform Cloud Run Inspector](skills/terraform-cloud-run-inspector/) | ⭐ 4.3 | 0 | `clawhub install terraform-cloud-run-inspector` |
-| [GitHub Actions Workflow Debugger](skills/github-actions-workflow-debugger-3/) | ⭐ 4.2 | 0 | `clawhub install github-actions-workflow-debugger-3` |
-| [GitLab CI Pipeline Optimizer](skills/gitlab-ci-pipeline-optimizer-4/) | ⭐ 4.2 | 0 | `clawhub install gitlab-ci-pipeline-optimizer-4` |
-| [Salesforce CRM Sync Agent](skills/salesforce-crm-sync-agent/) | ⭐ 4.2 | 0 | `clawhub install salesforce-crm-sync-agent` |
-| [Slack Channel Summarizer &#038; Triage Bot](skills/slack-channel-summarizer-triage/) | ⭐ 4.2 | 0 | `clawhub install slack-channel-summarizer-triage` |
-| [Datadog Integration Connector](skills/datadog-integration-connector-agent/) | ⭐ 4.1 | 0 | `clawhub install datadog-integration-connector-agent` |
-| [QuickBooks Data Extractor](skills/quickbooks-data-extractor/) | ⭐ 4.1 | 0 | `clawhub install quickbooks-data-extractor` |
-| [Salesforce MCP Server](skills/salesforce-mcp-server/) | ⭐ 4.1 | 0 | `clawhub install salesforce-mcp-server` |
-| [Linear Issue Triage &#038; Sprint Planner](skills/linear-issue-triage-sprint-planner/) | ⭐ 4.0 | 0 | `clawhub install linear-issue-triage-sprint-planner` |
-
 ### ✍️ Content Writing & SEO (39 skills)
 
 | Skill | Rating | Reviews | Install |
@@ -1619,10 +1627,11 @@
 | [Schema Markup Generator for SEO](skills/schema-markup-generator-seo/) | ⭐ 4.0 | 0 | `clawhub install schema-markup-generator-seo` |
 | [WordPress Content Optimizer](skills/wordpress-content-optimizer-yoast-rest/) | ⭐ 4.0 | 0 | `clawhub install wordpress-content-optimizer-yoast-rest` |
 
-### 🎙️ Media & Transcription (31 skills)
+### 🎙️ Media & Transcription (35 skills)
 
 | Skill | Rating | Reviews | Install |
 |-------|:------:|:-------:|---------|
+| [AssemblyAI Audio Intelligence Agent](skills/assemblyai-audio-intelligence-agent/) | ⭐ 4.9 | 0 | `clawhub install assemblyai-audio-intelligence-agent` |
 | [Audio Fingerprint Identifier](skills/audio-fingerprint-identifier-agent/) | ⭐ 4.9 | 0 | `clawhub install audio-fingerprint-identifier-agent` |
 | [Summarize](skills/summarize/) | ⭐ 4.9 | 0 | `clawhub install summarize` |
 | [Whisper.cpp Real-Time Transcription Pipeline](skills/whisper-cpp-realtime-transcription-pipeline/) | ⭐ 4.9 | 0 | `clawhub install whisper-cpp-realtime-transcription-pipeline` |
@@ -1632,12 +1641,14 @@
 | [FFmpeg Audio Transcoder](skills/ffmpeg-audio-transcoder/) | ⭐ 4.8 | 0 | `clawhub install ffmpeg-audio-transcoder` |
 | [Podcast RSS Feed Builder](skills/podcast-rss-feed-builder/) | ⭐ 4.8 | 0 | `clawhub install podcast-rss-feed-builder` |
 | [Whisper Diarization Post-Processor](skills/whisper-diarization-post-processor/) | ⭐ 4.8 | 0 | `clawhub install whisper-diarization-post-processor` |
+| [ElevenLabs Voice Cloning Agent](skills/elevenlabs-voice-cloning-agent/) | ⭐ 4.7 | 0 | `clawhub install elevenlabs-voice-cloning-agent` |
 | [FFmpeg Audio Normalization Pipeline](skills/ffmpeg-audio-normalization-pipeline/) | ⭐ 4.7 | 0 | `clawhub install ffmpeg-audio-normalization-pipeline` |
 | [FFmpeg Clip Extractor](skills/ffmpeg-clip-extractor-agent/) | ⭐ 4.7 | 0 | `clawhub install ffmpeg-clip-extractor-agent` |
 | [Live Stream Clip Extractor](skills/live-stream-clip-extractor-agent/) | ⭐ 4.7 | 0 | `clawhub install live-stream-clip-extractor-agent` |
 | [Video Frames Extractor](skills/video-frames-extractor/) | ⭐ 4.7 | 0 | `clawhub install video-frames-extractor` |
 | [Dolby.io Media Enhancer](skills/dolby-io-media-enhancer-agent/) | ⭐ 4.6 | 0 | `clawhub install dolby-io-media-enhancer-agent` |
 | [MediaInfo Metadata Extractor](skills/mediainfo-metadata-extractor/) | ⭐ 4.6 | 0 | `clawhub install mediainfo-metadata-extractor` |
+| [FFmpeg Batch Transcoder](skills/ffmpeg-batch-transcoder-skill/) | ⭐ 4.5 | 0 | `clawhub install ffmpeg-batch-transcoder-skill` |
 | [OpenAI Whisper API Transcription](skills/openai-whisper-api-transcription/) | ⭐ 4.5 | 0 | `clawhub install openai-whisper-api-transcription` |
 | [Podcast Transcription Pipeline](skills/podcast-transcription-pipeline-agent/) | ⭐ 4.5 | 0 | `clawhub install podcast-transcription-pipeline-agent` |
 | [Whisper Subtitle Generator](skills/whisper-subtitle-generator/) | ⭐ 4.5 | 0 | `clawhub install whisper-subtitle-generator` |
@@ -1648,6 +1659,7 @@
 | [AssemblyAI LeMUR Summarizer](skills/assemblyai-lemur-summarizer-agent/) | ⭐ 4.3 | 0 | `clawhub install assemblyai-lemur-summarizer-agent` |
 | [Podcast RSS Feed Audio Normalizer](skills/podcast-rss-feed-audio-normalizer/) | ⭐ 4.3 | 0 | `clawhub install podcast-rss-feed-audio-normalizer` |
 | [SoX Audio Processing Toolkit](skills/sox-audio-processing-toolkit/) | ⭐ 4.3 | 0 | `clawhub install sox-audio-processing-toolkit` |
+| [Deepgram Nova STT Pipeline](skills/deepgram-nova-stt-pipeline/) | ⭐ 4.1 | 0 | `clawhub install deepgram-nova-stt-pipeline` |
 | [Deepgram Nova Transcriber](skills/deepgram-nova-transcriber-agent/) | ⭐ 4.1 | 0 | `clawhub install deepgram-nova-transcriber-agent` |
 | [Deepgram Real-Time Transcription Connector](skills/deepgram-realtime-transcription-connector/) | ⭐ 4.1 | 0 | `clawhub install deepgram-realtime-transcription-connector` |
 | [GStreamer Live Stream Transcoder](skills/gstreamer-live-stream-transcoder/) | ⭐ 4.1 | 0 | `clawhub install gstreamer-live-stream-transcoder` |

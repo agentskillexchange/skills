@@ -1,6 +1,6 @@
 # 🔗 Integrations & Connectors
 
-> **45 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=integrations-connectors)
+> **49 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=integrations-connectors)
 
 Third-party API bridges, webhook handlers, service connectors, and platform integrations.
 
@@ -12,12 +12,14 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 |-------|:------:|:-------:|---------|
 | [Linear Issue Triage &#038; Sprint Planner](../../skills/linear-issue-triage-sprint-planner-2/) | ⭐ 4.9 | 0 | `clawhub install linear-issue-triage-sprint-planner-2` |
 | [SageMaker Pipeline Orchestrator](../../skills/sagemaker-pipeline-orchestrator/) | ⭐ 4.9 | 0 | `clawhub install sagemaker-pipeline-orchestrator` |
+| [Stripe Connect Marketplace Sync](../../skills/stripe-connect-marketplace-sync/) | ⭐ 4.9 | 0 | `clawhub install stripe-connect-marketplace-sync` |
 | [Stripe Revenue Reconciliation Agent](../../skills/stripe-revenue-reconciliation-agent-2/) | ⭐ 4.9 | 0 | `clawhub install stripe-revenue-reconciliation-agent-2` |
 | [Terraform Cloud Run Inspector](../../skills/terraform-cloud-run-inspector-2/) | ⭐ 4.9 | 0 | `clawhub install terraform-cloud-run-inspector-2` |
 | [Zapier Webhook Integration Builder](../../skills/zapier-webhook-integration-builder/) | ⭐ 4.9 | 0 | `clawhub install zapier-webhook-integration-builder` |
 | [ArgoCD Sync Status Monitor](../../skills/argocd-sync-status-monitor-5/) | ⭐ 4.8 | 0 | `clawhub install argocd-sync-status-monitor-5` |
 | [ClawHub Skill Discovery &#038; Publishing](../../skills/clawhub-skill-discovery-publishing/) | ⭐ 4.8 | 0 | `clawhub install clawhub-skill-discovery-publishing` |
 | [GitHub Discussions Community Digest](../../skills/github-discussions-community-digest/) | ⭐ 4.8 | 0 | `clawhub install github-discussions-community-digest` |
+| [Plaid Financial Data Connector](../../skills/plaid-financial-data-connector-2/) | ⭐ 4.8 | 0 | `clawhub install plaid-financial-data-connector-2` |
 | [SendGrid Transactional Email Router](../../skills/sendgrid-transactional-email-router/) | ⭐ 4.8 | 0 | `clawhub install sendgrid-transactional-email-router` |
 | [Stripe Connect Integration](../../skills/stripe-connect-integration/) | ⭐ 4.8 | 0 | `clawhub install stripe-connect-integration` |
 | [Twilio Programmable SMS Gateway](../../skills/twilio-programmable-sms-gateway/) | ⭐ 4.8 | 0 | `clawhub install twilio-programmable-sms-gateway` |
@@ -28,6 +30,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Neon Serverless Postgres MCP](../../skills/neon-serverless-postgres-mcp/) | ⭐ 4.7 | 0 | `clawhub install neon-serverless-postgres-mcp` |
 | [Stripe Reporting Agent](../../skills/stripe-reporting-agent/) | ⭐ 4.7 | 0 | `clawhub install stripe-reporting-agent` |
 | [Stripe Revenue Reconciliation Agent](../../skills/stripe-revenue-reconciliation-agent/) | ⭐ 4.7 | 0 | `clawhub install stripe-revenue-reconciliation-agent` |
+| [Twilio Programmable Voice Router](../../skills/twilio-programmable-voice-router/) | ⭐ 4.7 | 0 | `clawhub install twilio-programmable-voice-router` |
 | [Twilio SMS &#038; Voice Bridge](../../skills/twilio-sms-voice-bridge/) | ⭐ 4.7 | 0 | `clawhub install twilio-sms-voice-bridge` |
 | [Google Drive MCP Server](../../skills/google-drive-mcp-server/) | ⭐ 4.6 | 0 | `clawhub install google-drive-mcp-server` |
 | [Notion Database Sync &#038; Page Generator](../../skills/notion-database-sync-page-generator/) | ⭐ 4.6 | 0 | `clawhub install notion-database-sync-page-generator` |
@@ -53,6 +56,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Slack Channel Summarizer &#038; Triage Bot](../../skills/slack-channel-summarizer-triage/) | ⭐ 4.2 | 0 | `clawhub install slack-channel-summarizer-triage` |
 | [Datadog Integration Connector](../../skills/datadog-integration-connector-agent/) | ⭐ 4.1 | 0 | `clawhub install datadog-integration-connector-agent` |
 | [QuickBooks Data Extractor](../../skills/quickbooks-data-extractor/) | ⭐ 4.1 | 0 | `clawhub install quickbooks-data-extractor` |
+| [Salesforce Bulk API Sync Agent](../../skills/salesforce-bulk-api-sync-agent/) | ⭐ 4.1 | 0 | `clawhub install salesforce-bulk-api-sync-agent` |
 | [Salesforce MCP Server](../../skills/salesforce-mcp-server/) | ⭐ 4.1 | 0 | `clawhub install salesforce-mcp-server` |
 | [Linear Issue Triage &#038; Sprint Planner](../../skills/linear-issue-triage-sprint-planner/) | ⭐ 4.0 | 0 | `clawhub install linear-issue-triage-sprint-planner` |
 

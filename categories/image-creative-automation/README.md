@@ -1,6 +1,6 @@
 # 🎨 Image & Creative Automation
 
-> **51 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=image-creative-automation)
+> **55 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=image-creative-automation)
 
 Image generation, asset processing, design automation, and creative tooling.
 
@@ -19,8 +19,10 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Midjourney Prompt Engineering Suite](../../skills/midjourney-prompt-engineering-suite/) | ⭐ 4.9 | 0 | `clawhub install midjourney-prompt-engineering-suite` |
 | [Stable Diffusion ControlNet Compositor](../../skills/stable-diffusion-controlnet-compositor/) | ⭐ 4.9 | 0 | `clawhub install stable-diffusion-controlnet-compositor` |
 | [Stable Diffusion Prompt Optimizer](../../skills/stable-diffusion-prompt-optimizer/) | ⭐ 4.9 | 0 | `clawhub install stable-diffusion-prompt-optimizer` |
+| [Stable Diffusion XL LoRA Trainer](../../skills/stable-diffusion-xl-lora-trainer/) | ⭐ 4.9 | 0 | `clawhub install stable-diffusion-xl-lora-trainer` |
 | [Bannerbear Dynamic Image API](../../skills/bannerbear-dynamic-image-api/) | ⭐ 4.8 | 0 | `clawhub install bannerbear-dynamic-image-api` |
 | [Figma REST API Asset Exporter](../../skills/figma-rest-api-asset-exporter/) | ⭐ 4.8 | 0 | `clawhub install figma-rest-api-asset-exporter` |
+| [Midjourney Prompt Optimizer](../../skills/midjourney-prompt-optimizer-skill/) | ⭐ 4.8 | 0 | `clawhub install midjourney-prompt-optimizer-skill` |
 | [Sharp Image Transform Pipeline](../../skills/sharp-image-transform-pipeline/) | ⭐ 4.8 | 0 | `clawhub install sharp-image-transform-pipeline` |
 | [Stable Diffusion XL Pipeline](../../skills/stable-diffusion-xl-pipeline/) | ⭐ 4.8 | 0 | `clawhub install stable-diffusion-xl-pipeline` |
 | [Stable Diffusion XL Pipeline Builder](../../skills/stable-diffusion-xl-pipeline-builder/) | ⭐ 4.8 | 0 | `clawhub install stable-diffusion-xl-pipeline-builder` |
@@ -38,6 +40,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [DALL-E Image Variation Pipeline](../../skills/dalle-image-variation-pipeline/) | ⭐ 4.5 | 0 | `clawhub install dalle-image-variation-pipeline` |
 | [Sharp Image Pipeline Processor](../../skills/sharp-image-pipeline-processor/) | ⭐ 4.5 | 0 | `clawhub install sharp-image-pipeline-processor` |
 | [Stable Diffusion ComfyUI Workflow Runner](../../skills/stable-diffusion-comfyui-workflow-runner-2/) | ⭐ 4.5 | 0 | `clawhub install stable-diffusion-comfyui-workflow-runner-2` |
+| [Cloudinary DAM Pipeline](../../skills/cloudinary-dam-pipeline-skill/) | ⭐ 4.4 | 0 | `clawhub install cloudinary-dam-pipeline-skill` |
 | [DALL-E Variation Generator](../../skills/dalle-variation-generator/) | ⭐ 4.4 | 0 | `clawhub install dalle-variation-generator` |
 | [DALL-E Variations Pipeline](../../skills/dalle-variations-pipeline/) | ⭐ 4.4 | 0 | `clawhub install dalle-variations-pipeline` |
 | [FFmpeg Intelligent Media Processor](../../skills/ffmpeg-intelligent-media-processor/) | ⭐ 4.4 | 0 | `clawhub install ffmpeg-intelligent-media-processor` |
@@ -50,6 +53,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [FFmpeg Video Processing Pipeline](../../skills/ffmpeg-video-processing-pipeline/) | ⭐ 4.3 | 0 | `clawhub install ffmpeg-video-processing-pipeline` |
 | [Figma Design Token Exporter](../../skills/figma-design-token-exporter/) | ⭐ 4.3 | 0 | `clawhub install figma-design-token-exporter` |
 | [Pexels API Stock Photo Curator](../../skills/pexels-api-stock-photo-curator/) | ⭐ 4.3 | 0 | `clawhub install pexels-api-stock-photo-curator` |
+| [RunPod Serverless GPU Inference](../../skills/runpod-serverless-gpu-inference/) | ⭐ 4.3 | 0 | `clawhub install runpod-serverless-gpu-inference` |
 | [Stable Diffusion ComfyUI Workflow Runner](../../skills/stable-diffusion-comfyui-workflow-runner/) | ⭐ 4.3 | 0 | `clawhub install stable-diffusion-comfyui-workflow-runner` |
 | [DALL-E Prompt Engineering Kit](../../skills/dall-e-prompt-engineering-kit/) | ⭐ 4.2 | 0 | `clawhub install dall-e-prompt-engineering-kit` |
 | [FFmpeg Media Transcoder](../../skills/ffmpeg-media-transcoder/) | ⭐ 4.2 | 0 | `clawhub install ffmpeg-media-transcoder` |

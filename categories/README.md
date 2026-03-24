@@ -2,7 +2,7 @@
 
 Browse skills by category. Each category contains a curated list of verified skills.
 
-> **1580 skills** across **17 categories**
+> **1592 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
@@ -17,11 +17,11 @@ Browse skills by category. Each category contains a curated list of verified ski
 | 🔄 | [**Data Extraction & Transformation**](data-extraction-transformation/) | **90** | Parsing, ETL pipelines, format conversion, data wrangling, a... |
 | 📅 | [**Calendar, Email & Productivity**](calendar-email-productivity/) | **72** | Email automation, calendar management, task coordination, an... |
 | 🌐 | [**Browser Automation**](browser-automation/) | **61** | Web scraping, UI testing, headless browser control, and brow... |
-| 🎨 | [**Image & Creative Automation**](image-creative-automation/) | **51** | Image generation, asset processing, design automation, and c... |
+| 🎨 | [**Image & Creative Automation**](image-creative-automation/) | **55** | Image generation, asset processing, design automation, and c... |
+| 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **49** | Third-party API bridges, webhook handlers, service connector... |
 | 🔍 | [**Research & Scraping**](research-scraping/) | **46** | Web research, data collection, content aggregation, and info... |
-| 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **45** | Third-party API bridges, webhook handlers, service connector... |
 | ✍️ | [**Content Writing & SEO**](content-writing-seo/) | **39** | Blog posts, SEO optimization, content strategy, and writing ... |
-| 🎙️ | [**Media & Transcription**](media-transcription/) | **31** | Audio/video processing, speech-to-text, media conversion, an... |
+| 🎙️ | [**Media & Transcription**](media-transcription/) | **35** | Audio/video processing, speech-to-text, media conversion, an... |
 | 📰 | [**WordPress & CMS**](wordpress-cms/) | **24** | Theme/plugin development, WP-CLI automation, CMS management,... |
 
 ---
