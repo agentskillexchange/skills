@@ -1,6 +1,6 @@
 # 🔧 CI/CD Integrations
 
-> **251 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=ci-cd-integrations)
+> **144 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=ci-cd-integrations)
 
 Pipeline configs, deployment automation, build tooling, and continuous integration/delivery skills.
 
@@ -10,257 +10,150 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 
 | Skill | Rating | Reviews | Install |
 |-------|:------:|:-------:|---------|
-| [ArgoCD Application Deployer](../../skills/argocd-application-deployer/) | ⭐ 4.9 | 0 | `clawhub install argocd-application-deployer` |
-| [ArgoCD Sync Manager](../../skills/argocd-sync-manager-skill/) | ⭐ 4.9 | 0 | `clawhub install argocd-sync-manager-skill` |
-| [ArgoCD Sync Status Monitor](../../skills/argocd-sync-status-monitor-6/) | ⭐ 4.9 | 0 | `clawhub install argocd-sync-status-monitor-6` |
-| [ArgoCD Sync Status Monitor](../../skills/argocd-sync-status-monitor-7/) | ⭐ 4.9 | 0 | `clawhub install argocd-sync-status-monitor-7` |
-| [ArgoCD Sync Wave Planner](../../skills/argocd-sync-wave-planner/) | ⭐ 4.9 | 0 | `clawhub install argocd-sync-wave-planner` |
-| [Buildkite Pipeline Optimizer](../../skills/buildkite-pipeline-optimizer-agent/) | ⭐ 4.9 | 0 | `clawhub install buildkite-pipeline-optimizer-agent` |
-| [CircleCI Orb Builder and Publisher](../../skills/circleci-orb-builder-publisher/) | ⭐ 4.9 | 0 | `clawhub install circleci-orb-builder-publisher` |
-| [CircleCI Orb Composer](../../skills/circleci-orb-composer-10/) | ⭐ 4.9 | 0 | `clawhub install circleci-orb-composer-10` |
-| [CircleCI Orb Composer](../../skills/circleci-orb-composer-7/) | ⭐ 4.9 | 0 | `clawhub install circleci-orb-composer-7` |
-| [CircleCI Orb Composition Engine](../../skills/circleci-orb-composition-engine-2/) | ⭐ 4.9 | 0 | `clawhub install circleci-orb-composition-engine-2` |
-| [CircleCI Orb Debugger](../../skills/circleci-orb-debugger/) | ⭐ 4.9 | 0 | `clawhub install circleci-orb-debugger` |
-| [CircleCI Orb Dependency Auditor](../../skills/circleci-orb-dependency-auditor/) | ⭐ 4.9 | 0 | `clawhub install circleci-orb-dependency-auditor` |
-| [CircleCI Orb Dependency Checker](../../skills/circleci-orb-dependency-checker/) | ⭐ 4.9 | 0 | `clawhub install circleci-orb-dependency-checker` |
-| [CircleCI Orb Pipeline Debugger](../../skills/circleci-orb-pipeline-debugger/) | ⭐ 4.9 | 0 | `clawhub install circleci-orb-pipeline-debugger` |
-| [CircleCI Pipeline Optimizer](../../skills/circleci-pipeline-optimizer/) | ⭐ 4.9 | 0 | `clawhub install circleci-pipeline-optimizer` |
-| [Docker Image Layer Inspector](../../skills/docker-image-layer-inspector/) | ⭐ 4.9 | 0 | `clawhub install docker-image-layer-inspector` |
-| [GitHub Actions Matrix Builder](../../skills/github-actions-matrix-builder/) | ⭐ 4.9 | 0 | `clawhub install github-actions-matrix-builder` |
-| [GitHub Actions Matrix Builder](../../skills/github-actions-matrix-builder-2/) | ⭐ 4.9 | 0 | `clawhub install github-actions-matrix-builder-2` |
-| [GitHub Actions Matrix Builder](../../skills/github-actions-matrix-builder-7/) | ⭐ 4.9 | 0 | `clawhub install github-actions-matrix-builder-7` |
-| [GitHub Actions Matrix Optimizer](../../skills/github-actions-matrix-optimizer-5/) | ⭐ 4.9 | 0 | `clawhub install github-actions-matrix-optimizer-5` |
-| [GitHub Actions Matrix Strategy Builder](../../skills/github-actions-matrix-strategy-builder/) | ⭐ 4.9 | 0 | `clawhub install github-actions-matrix-strategy-builder` |
-| [GitHub Actions OIDC Token Validator](../../skills/github-actions-oidc-token-validator/) | ⭐ 4.9 | 0 | `clawhub install github-actions-oidc-token-validator` |
-| [GitHub Actions Workflow Generator](../../skills/github-actions-workflow-generator-2/) | ⭐ 4.9 | 0 | `clawhub install github-actions-workflow-generator-2` |
-| [GitHub Actions Workflow Generator](../../skills/github-actions-workflow-generator-3/) | ⭐ 4.9 | 0 | `clawhub install github-actions-workflow-generator-3` |
-| [GitHub Actions Workflow Linter](../../skills/github-actions-workflow-linter-2/) | ⭐ 4.9 | 0 | `clawhub install github-actions-workflow-linter-2` |
-| [GitLab CI Pipeline Generator](../../skills/gitlab-ci-pipeline-generator/) | ⭐ 4.9 | 0 | `clawhub install gitlab-ci-pipeline-generator` |
-| [GitLab CI Pipeline Linter](../../skills/gitlab-ci-pipeline-linter/) | ⭐ 4.9 | 0 | `clawhub install gitlab-ci-pipeline-linter` |
-| [GitLab CI Template Generator](../../skills/gitlab-ci-template-generator/) | ⭐ 4.9 | 0 | `clawhub install gitlab-ci-template-generator` |
-| [GitLab Pipeline Bottleneck Profiler](../../skills/gitlab-pipeline-bottleneck-profiler/) | ⭐ 4.9 | 0 | `clawhub install gitlab-pipeline-bottleneck-profiler` |
-| [GitLab Pipeline Optimizer](../../skills/gitlab-pipeline-optimizer-2/) | ⭐ 4.9 | 0 | `clawhub install gitlab-pipeline-optimizer-2` |
-| [Jenkins Groovy Shared Library Auditor](../../skills/jenkins-groovy-shared-library-auditor/) | ⭐ 4.9 | 0 | `clawhub install jenkins-groovy-shared-library-auditor` |
-| [Jenkins Pipeline Linter](../../skills/jenkins-pipeline-linter-4/) | ⭐ 4.9 | 0 | `clawhub install jenkins-pipeline-linter-4` |
-| [Jenkins Pipeline Linter](../../skills/jenkins-pipeline-linter-6/) | ⭐ 4.9 | 0 | `clawhub install jenkins-pipeline-linter-6` |
-| [Jenkins Pipeline Orchestrator](../../skills/jenkins-pipeline-orchestrator/) | ⭐ 4.9 | 0 | `clawhub install jenkins-pipeline-orchestrator` |
-| [Jenkins Pipeline Orchestrator](../../skills/jenkins-pipeline-orchestrator-3/) | ⭐ 4.9 | 0 | `clawhub install jenkins-pipeline-orchestrator-3` |
-| [npm Audit Dependency Report Generator](../../skills/npm-audit-dependency-report-generator/) | ⭐ 4.9 | 0 | `clawhub install npm-audit-dependency-report-generator` |
-| [Tekton Pipeline Composer](../../skills/tekton-pipeline-composer-2/) | ⭐ 4.9 | 0 | `clawhub install tekton-pipeline-composer-2` |
-| [Tekton Pipeline Debugger](../../skills/tekton-pipeline-debugger/) | ⭐ 4.9 | 0 | `clawhub install tekton-pipeline-debugger` |
-| [Tekton Pipeline Generator](../../skills/tekton-pipeline-generator-2/) | ⭐ 4.9 | 0 | `clawhub install tekton-pipeline-generator-2` |
-| [Tekton Pipeline Task Assembler](../../skills/tekton-pipeline-task-assembler/) | ⭐ 4.9 | 0 | `clawhub install tekton-pipeline-task-assembler` |
-| [Tekton Pipeline Validator](../../skills/tekton-pipeline-validator/) | ⭐ 4.9 | 0 | `clawhub install tekton-pipeline-validator` |
-| [Terraform Cloud Orchestrator](../../skills/terraform-cloud-orchestrator-skill/) | ⭐ 4.9 | 0 | `clawhub install terraform-cloud-orchestrator-skill` |
-| [Terraform Drift Detector](../../skills/terraform-drift-detector-2/) | ⭐ 4.9 | 0 | `clawhub install terraform-drift-detector-2` |
-| [Terraform Plan Analyzer](../../skills/terraform-plan-analyzer-agent/) | ⭐ 4.9 | 0 | `clawhub install terraform-plan-analyzer-agent` |
-| [Terraform Plan Diff Analyzer](../../skills/terraform-plan-diff-analyzer-2/) | ⭐ 4.9 | 0 | `clawhub install terraform-plan-diff-analyzer-2` |
-| [Terraform Plan Reviewer](../../skills/terraform-plan-reviewer-4/) | ⭐ 4.9 | 0 | `clawhub install terraform-plan-reviewer-4` |
-| [Terraform Plan Reviewer](../../skills/terraform-plan-reviewer-5/) | ⭐ 4.9 | 0 | `clawhub install terraform-plan-reviewer-5` |
-| [ArgoCD Sync Status Monitor](../../skills/argocd-sync-status-monitor-2/) | ⭐ 4.8 | 0 | `clawhub install argocd-sync-status-monitor-2` |
-| [AWS CodePipeline Orchestrator](../../skills/aws-codepipeline-orchestrator/) | ⭐ 4.8 | 0 | `clawhub install aws-codepipeline-orchestrator` |
-| [Buildkite Dynamic Pipeline Architect](../../skills/buildkite-dynamic-pipeline-architect/) | ⭐ 4.8 | 0 | `clawhub install buildkite-dynamic-pipeline-architect` |
-| [CircleCI Flaky Test Detector](../../skills/circleci-flaky-test-detector-2/) | ⭐ 4.8 | 0 | `clawhub install circleci-flaky-test-detector-2` |
-| [CircleCI Orb Composer](../../skills/circleci-orb-composer-8/) | ⭐ 4.8 | 0 | `clawhub install circleci-orb-composer-8` |
-| [CircleCI Orb Composer](../../skills/circleci-orb-composer-6/) | ⭐ 4.8 | 0 | `clawhub install circleci-orb-composer-6` |
-| [CircleCI Orb Composition Engine](../../skills/circleci-orb-composition-engine-3/) | ⭐ 4.8 | 0 | `clawhub install circleci-orb-composition-engine-3` |
-| [CircleCI Orb Dependency Analyzer](../../skills/circleci-orb-dependency-analyzer/) | ⭐ 4.8 | 0 | `clawhub install circleci-orb-dependency-analyzer` |
-| [CircleCI Orb Dependency Auditor](../../skills/circleci-orb-dependency-auditor-4/) | ⭐ 4.8 | 0 | `clawhub install circleci-orb-dependency-auditor-4` |
-| [CircleCI Orb Pipeline Agent](../../skills/circleci-orb-pipeline-agent/) | ⭐ 4.8 | 0 | `clawhub install circleci-orb-pipeline-agent` |
-| [CircleCI Pipeline Manager](../../skills/circleci-pipeline-manager/) | ⭐ 4.8 | 0 | `clawhub install circleci-pipeline-manager` |
-| [GitHub Actions Matrix Builder](../../skills/github-actions-matrix-builder-8/) | ⭐ 4.8 | 0 | `clawhub install github-actions-matrix-builder-8` |
-| [GitHub Actions Matrix Builder](../../skills/github-actions-matrix-builder-18/) | ⭐ 4.8 | 0 | `clawhub install github-actions-matrix-builder-18` |
-| [GitHub Actions Matrix Builder](../../skills/github-actions-matrix-builder-13/) | ⭐ 4.8 | 0 | `clawhub install github-actions-matrix-builder-13` |
-| [GitHub Actions Matrix Builder](../../skills/github-actions-matrix-builder-15/) | ⭐ 4.8 | 0 | `clawhub install github-actions-matrix-builder-15` |
-| [GitHub Actions Matrix Optimizer](../../skills/github-actions-matrix-optimizer-7/) | ⭐ 4.8 | 0 | `clawhub install github-actions-matrix-optimizer-7` |
-| [GitHub Actions Matrix Optimizer](../../skills/github-actions-matrix-optimizer-2/) | ⭐ 4.8 | 0 | `clawhub install github-actions-matrix-optimizer-2` |
-| [GitHub Actions Pipeline Validator](../../skills/github-actions-pipeline-validator/) | ⭐ 4.8 | 0 | `clawhub install github-actions-pipeline-validator` |
-| [GitHub Actions Workflow Generator](../../skills/github-actions-workflow-generator/) | ⭐ 4.8 | 0 | `clawhub install github-actions-workflow-generator` |
-| [GitLab CI Auto DevOps Configurator](../../skills/gitlab-ci-auto-devops-configurator/) | ⭐ 4.8 | 0 | `clawhub install gitlab-ci-auto-devops-configurator` |
-| [GitLab CI Cache Optimizer](../../skills/gitlab-ci-cache-optimizer-agent/) | ⭐ 4.8 | 0 | `clawhub install gitlab-ci-cache-optimizer-agent` |
-| [GitLab CI Pipeline Optimizer](../../skills/gitlab-ci-pipeline-optimizer/) | ⭐ 4.8 | 0 | `clawhub install gitlab-ci-pipeline-optimizer` |
-| [GitLab CI Pipeline Optimizer](../../skills/gitlab-ci-pipeline-optimizer-2/) | ⭐ 4.8 | 0 | `clawhub install gitlab-ci-pipeline-optimizer-2` |
-| [GitLab CI Pipeline Validator](../../skills/gitlab-ci-pipeline-validator/) | ⭐ 4.8 | 0 | `clawhub install gitlab-ci-pipeline-validator` |
-| [GitLab Pipeline Orchestrator](../../skills/gitlab-pipeline-orchestrator/) | ⭐ 4.8 | 0 | `clawhub install gitlab-pipeline-orchestrator` |
-| [Jenkins Declarative Pipeline Generator](../../skills/jenkins-declarative-pipeline-generator/) | ⭐ 4.8 | 0 | `clawhub install jenkins-declarative-pipeline-generator` |
-| [Jenkins Pipeline Debugger](../../skills/jenkins-pipeline-debugger-skill/) | ⭐ 4.8 | 0 | `clawhub install jenkins-pipeline-debugger-skill` |
-| [Jenkins Pipeline DSL Generator](../../skills/jenkins-pipeline-dsl-generator/) | ⭐ 4.8 | 0 | `clawhub install jenkins-pipeline-dsl-generator` |
-| [Jenkins Pipeline DSL Generator](../../skills/jenkins-pipeline-dsl-generator-2/) | ⭐ 4.8 | 0 | `clawhub install jenkins-pipeline-dsl-generator-2` |
-| [Jenkins Pipeline Generator](../../skills/jenkins-pipeline-generator/) | ⭐ 4.8 | 0 | `clawhub install jenkins-pipeline-generator` |
-| [Jenkins Pipeline Lint Agent](../../skills/jenkins-pipeline-lint-agent/) | ⭐ 4.8 | 0 | `clawhub install jenkins-pipeline-lint-agent` |
-| [Jenkins Pipeline Linter](../../skills/jenkins-pipeline-linter-3/) | ⭐ 4.8 | 0 | `clawhub install jenkins-pipeline-linter-3` |
-| [Jenkins Pipeline Linter](../../skills/jenkins-pipeline-linter-5/) | ⭐ 4.8 | 0 | `clawhub install jenkins-pipeline-linter-5` |
-| [Jenkins Pipeline Linter Pro](../../skills/jenkins-pipeline-linter-pro/) | ⭐ 4.8 | 0 | `clawhub install jenkins-pipeline-linter-pro` |
-| [Jenkins Pipeline Orchestrator](../../skills/jenkins-pipeline-orchestrator-2/) | ⭐ 4.8 | 0 | `clawhub install jenkins-pipeline-orchestrator-2` |
-| [Tekton Pipeline Resource Optimizer](../../skills/tekton-pipeline-resource-optimizer/) | ⭐ 4.8 | 0 | `clawhub install tekton-pipeline-resource-optimizer` |
-| [Tekton Pipeline Scaffolder](../../skills/tekton-pipeline-scaffolder/) | ⭐ 4.8 | 0 | `clawhub install tekton-pipeline-scaffolder` |
-| [Terraform Plan &#038; Apply Automation](../../skills/terraform-plan-apply-automation/) | ⭐ 4.8 | 0 | `clawhub install terraform-plan-apply-automation` |
-| [Terraform Plan Analyzer](../../skills/terraform-plan-analyzer-2/) | ⭐ 4.8 | 0 | `clawhub install terraform-plan-analyzer-2` |
-| [Argo Workflows Linter](../../skills/argo-workflows-linter/) | ⭐ 4.7 | 0 | `clawhub install argo-workflows-linter` |
-| [ArgoCD Application Sync Manager](../../skills/argocd-application-sync-manager/) | ⭐ 4.7 | 0 | `clawhub install argocd-application-sync-manager` |
-| [ArgoCD Deployment Sync Skill](../../skills/argocd-deployment-sync-skill/) | ⭐ 4.7 | 0 | `clawhub install argocd-deployment-sync-skill` |
-| [CircleCI Orb Composer](../../skills/circleci-orb-composer-5/) | ⭐ 4.7 | 0 | `clawhub install circleci-orb-composer-5` |
-| [CircleCI Orb Composer](../../skills/circleci-orb-composer-2/) | ⭐ 4.7 | 0 | `clawhub install circleci-orb-composer-2` |
-| [CircleCI Orb Pipeline Composer](../../skills/circleci-orb-pipeline-composer-2/) | ⭐ 4.7 | 0 | `clawhub install circleci-orb-pipeline-composer-2` |
-| [CircleCI Orb Validator](../../skills/circleci-orb-validator-agent/) | ⭐ 4.7 | 0 | `clawhub install circleci-orb-validator-agent` |
-| [CircleCI Workflow Analyzer](../../skills/circleci-workflow-analyzer/) | ⭐ 4.7 | 0 | `clawhub install circleci-workflow-analyzer` |
-| [CircleCI Workflow Builder](../../skills/circleci-workflow-builder/) | ⭐ 4.7 | 0 | `clawhub install circleci-workflow-builder` |
-| [Docker Build Cache Optimizer](../../skills/docker-build-cache-optimizer-3/) | ⭐ 4.7 | 0 | `clawhub install docker-build-cache-optimizer-3` |
-| [Docker Build Cache Optimizer](../../skills/docker-build-cache-optimizer-2/) | ⭐ 4.7 | 0 | `clawhub install docker-build-cache-optimizer-2` |
-| [GitHub Actions Matrix Builder](../../skills/github-actions-matrix-builder-10/) | ⭐ 4.7 | 0 | `clawhub install github-actions-matrix-builder-10` |
-| [GitHub Actions Matrix Builder](../../skills/github-actions-matrix-builder-3/) | ⭐ 4.7 | 0 | `clawhub install github-actions-matrix-builder-3` |
-| [GitHub Actions Matrix Optimizer](../../skills/github-actions-matrix-optimizer-4/) | ⭐ 4.7 | 0 | `clawhub install github-actions-matrix-optimizer-4` |
-| [GitHub Actions Matrix Optimizer](../../skills/github-actions-matrix-optimizer-3/) | ⭐ 4.7 | 0 | `clawhub install github-actions-matrix-optimizer-3` |
-| [GitLab CI Pipeline Optimizer](../../skills/gitlab-ci-pipeline-optimizer-9/) | ⭐ 4.7 | 0 | `clawhub install gitlab-ci-pipeline-optimizer-9` |
-| [GitLab CI Pipeline Profiler](../../skills/gitlab-ci-pipeline-profiler/) | ⭐ 4.7 | 0 | `clawhub install gitlab-ci-pipeline-profiler` |
-| [GitLab Pipeline DAG Optimizer](../../skills/gitlab-pipeline-dag-optimizer/) | ⭐ 4.7 | 0 | `clawhub install gitlab-pipeline-dag-optimizer` |
-| [Helm Chart Diff &#038; Upgrade Manager](../../skills/helm-chart-diff-upgrade-manager/) | ⭐ 4.7 | 0 | `clawhub install helm-chart-diff-upgrade-manager` |
-| [Jenkins Pipeline Declarative Generator](../../skills/jenkins-pipeline-declarative-generator/) | ⭐ 4.7 | 0 | `clawhub install jenkins-pipeline-declarative-generator` |
-| [Jenkins Pipeline Health Monitor](../../skills/jenkins-pipeline-health-monitor/) | ⭐ 4.7 | 0 | `clawhub install jenkins-pipeline-health-monitor` |
-| [Jenkins Pipeline Linter](../../skills/jenkins-pipeline-linter-wave48/) | ⭐ 4.7 | 0 | `clawhub install jenkins-pipeline-linter-wave48` |
-| [Jenkins Pipeline Linter Agent](../../skills/jenkins-pipeline-linter-agent-3/) | ⭐ 4.7 | 0 | `clawhub install jenkins-pipeline-linter-agent-3` |
-| [Jenkins Pipeline Shared Library Linter](../../skills/jenkins-pipeline-shared-library-linter/) | ⭐ 4.7 | 0 | `clawhub install jenkins-pipeline-shared-library-linter` |
-| [Tekton Pipeline Chain Validator](../../skills/tekton-pipeline-chain-validator/) | ⭐ 4.7 | 0 | `clawhub install tekton-pipeline-chain-validator` |
-| [Tekton Pipeline Generator](../../skills/tekton-pipeline-generator/) | ⭐ 4.7 | 0 | `clawhub install tekton-pipeline-generator` |
-| [Tekton Pipeline Template Generator](../../skills/tekton-pipeline-template-generator/) | ⭐ 4.7 | 0 | `clawhub install tekton-pipeline-template-generator` |
-| [Terraform Cloud Pipeline Agent](../../skills/terraform-cloud-pipeline-agent/) | ⭐ 4.7 | 0 | `clawhub install terraform-cloud-pipeline-agent` |
-| [Terraform Plan Analyzer](../../skills/terraform-plan-analyzer/) | ⭐ 4.7 | 0 | `clawhub install terraform-plan-analyzer` |
-| [Terraform Plan Reviewer](../../skills/terraform-plan-reviewer-2/) | ⭐ 4.7 | 0 | `clawhub install terraform-plan-reviewer-2` |
-| [ArgoCD Deployment Monitor](../../skills/argocd-deployment-monitor/) | ⭐ 4.6 | 0 | `clawhub install argocd-deployment-monitor` |
-| [ArgoCD Sync Status Monitor](../../skills/argocd-sync-status-monitor/) | ⭐ 4.6 | 0 | `clawhub install argocd-sync-status-monitor` |
-| [Buildkite Dynamic Pipeline Agent](../../skills/buildkite-dynamic-pipeline-agent/) | ⭐ 4.6 | 0 | `clawhub install buildkite-dynamic-pipeline-agent` |
-| [CircleCI Orb Composer](../../skills/circleci-orb-composer-11/) | ⭐ 4.6 | 0 | `clawhub install circleci-orb-composer-11` |
-| [CircleCI Orb Configurator](../../skills/circleci-orb-configurator-2/) | ⭐ 4.6 | 0 | `clawhub install circleci-orb-configurator-2` |
-| [CircleCI Orb Dependency Scanner](../../skills/circleci-orb-dependency-scanner/) | ⭐ 4.6 | 0 | `clawhub install circleci-orb-dependency-scanner` |
-| [CircleCI Workflow Cost Auditor](../../skills/circleci-workflow-cost-auditor/) | ⭐ 4.6 | 0 | `clawhub install circleci-workflow-cost-auditor` |
-| [Docker Image Vulnerability Triage](../../skills/docker-image-vulnerability-triage-2/) | ⭐ 4.6 | 0 | `clawhub install docker-image-vulnerability-triage-2` |
-| [GitHub Actions CI Pipeline Builder](../../skills/github-actions-ci-pipeline-builder-2/) | ⭐ 4.6 | 0 | `clawhub install github-actions-ci-pipeline-builder-2` |
-| [GitHub Actions Matrix Build Optimizer](../../skills/github-actions-matrix-build-optimizer/) | ⭐ 4.6 | 0 | `clawhub install github-actions-matrix-build-optimizer` |
-| [GitHub Actions Matrix Builder](../../skills/github-actions-matrix-builder-16/) | ⭐ 4.6 | 0 | `clawhub install github-actions-matrix-builder-16` |
-| [GitHub Actions Matrix Builder](../../skills/github-actions-matrix-builder-19/) | ⭐ 4.6 | 0 | `clawhub install github-actions-matrix-builder-19` |
-| [GitHub Actions Matrix Builder](../../skills/github-actions-matrix-builder-6/) | ⭐ 4.6 | 0 | `clawhub install github-actions-matrix-builder-6` |
-| [GitHub Actions Workflow Debugger](../../skills/github-actions-workflow-debugger/) | ⭐ 4.6 | 0 | `clawhub install github-actions-workflow-debugger` |
-| [GitLab CI Merge Train Optimizer](../../skills/gitlab-ci-merge-train-optimizer/) | ⭐ 4.6 | 0 | `clawhub install gitlab-ci-merge-train-optimizer` |
-| [GitLab CI Pipeline Cost Calculator](../../skills/gitlab-ci-pipeline-cost-calculator/) | ⭐ 4.6 | 0 | `clawhub install gitlab-ci-pipeline-cost-calculator` |
-| [GitLab CI Pipeline Debugger](../../skills/gitlab-ci-pipeline-debugger/) | ⭐ 4.6 | 0 | `clawhub install gitlab-ci-pipeline-debugger` |
-| [GitLab CI Pipeline Optimizer](../../skills/gitlab-ci-pipeline-optimizer-8/) | ⭐ 4.6 | 0 | `clawhub install gitlab-ci-pipeline-optimizer-8` |
-| [Jenkins Declarative Pipeline Generator](../../skills/jenkins-declarative-pipeline-generator-2/) | ⭐ 4.6 | 0 | `clawhub install jenkins-declarative-pipeline-generator-2` |
-| [Jenkins Pipeline Debugger](../../skills/jenkins-pipeline-debugger/) | ⭐ 4.6 | 0 | `clawhub install jenkins-pipeline-debugger` |
-| [Jenkins Pipeline Linter Agent](../../skills/jenkins-pipeline-linter-agent/) | ⭐ 4.6 | 0 | `clawhub install jenkins-pipeline-linter-agent` |
-| [Jenkins Shared Library Builder](../../skills/jenkins-shared-library-builder/) | ⭐ 4.6 | 0 | `clawhub install jenkins-shared-library-builder` |
-| [Jenkins Shared Library Manager](../../skills/jenkins-shared-library-manager/) | ⭐ 4.6 | 0 | `clawhub install jenkins-shared-library-manager` |
-| [Playwright Test Report to Slack](../../skills/playwright-test-report-to-slack/) | ⭐ 4.6 | 0 | `clawhub install playwright-test-report-to-slack` |
-| [Spinnaker Delivery Platform](../../skills/spinnaker-delivery-platform/) | ⭐ 4.6 | 0 | `clawhub install spinnaker-delivery-platform` |
-| [Tekton Pipeline Scaffolder](../../skills/tekton-pipeline-scaffolder-2/) | ⭐ 4.6 | 0 | `clawhub install tekton-pipeline-scaffolder-2` |
-| [Terraform Cloud Run Trigger](../../skills/terraform-cloud-run-trigger/) | ⭐ 4.6 | 0 | `clawhub install terraform-cloud-run-trigger` |
-| [Terraform Plan Reviewer Agent](../../skills/terraform-plan-reviewer-agent/) | ⭐ 4.6 | 0 | `clawhub install terraform-plan-reviewer-agent` |
-| [Terraform State Drift Detector](../../skills/terraform-state-drift-detector-2/) | ⭐ 4.6 | 0 | `clawhub install terraform-state-drift-detector-2` |
-| [AWS CloudWatch Alarm Builder](../../skills/aws-cloudwatch-alarm-builder/) | ⭐ 4.5 | 0 | `clawhub install aws-cloudwatch-alarm-builder` |
-| [CircleCI Orb Builder](../../skills/circleci-orb-builder/) | ⭐ 4.5 | 0 | `clawhub install circleci-orb-builder` |
-| [CircleCI Orb Composer](../../skills/circleci-orb-composer-9/) | ⭐ 4.5 | 0 | `clawhub install circleci-orb-composer-9` |
-| [GitHub Actions Matrix Builder](../../skills/github-actions-matrix-builder-11/) | ⭐ 4.5 | 0 | `clawhub install github-actions-matrix-builder-11` |
-| [GitHub Actions Matrix Optimizer](../../skills/github-actions-matrix-optimizer-8/) | ⭐ 4.5 | 0 | `clawhub install github-actions-matrix-optimizer-8` |
-| [GitHub Actions Workflow Builder](../../skills/github-actions-workflow-builder/) | ⭐ 4.5 | 0 | `clawhub install github-actions-workflow-builder` |
-| [GitHub Actions Workflow Debugger](../../skills/github-actions-workflow-debugger-5/) | ⭐ 4.5 | 0 | `clawhub install github-actions-workflow-debugger-5` |
-| [GitLab CI Pipeline Cost Estimator](../../skills/gitlab-ci-pipeline-cost-estimator/) | ⭐ 4.5 | 0 | `clawhub install gitlab-ci-pipeline-cost-estimator` |
-| [GitLab CI Pipeline Migrator](../../skills/gitlab-ci-pipeline-migrator/) | ⭐ 4.5 | 0 | `clawhub install gitlab-ci-pipeline-migrator` |
-| [GitLab CI Template Library](../../skills/gitlab-ci-template-library/) | ⭐ 4.5 | 0 | `clawhub install gitlab-ci-template-library` |
-| [GitLab Pipeline Optimizer](../../skills/gitlab-pipeline-optimizer/) | ⭐ 4.5 | 0 | `clawhub install gitlab-pipeline-optimizer` |
-| [Heroku Release Rollback Assistant](../../skills/heroku-release-rollback-assistant/) | ⭐ 4.5 | 0 | `clawhub install heroku-release-rollback-assistant` |
-| [Heroku Release Rollback Assistant](../../skills/heroku-release-rollback-assistant-2/) | ⭐ 4.5 | 0 | `clawhub install heroku-release-rollback-assistant-2` |
-| [Jenkins Pipeline Linter Agent](../../skills/jenkins-pipeline-linter-agent-2/) | ⭐ 4.5 | 0 | `clawhub install jenkins-pipeline-linter-agent-2` |
-| [Terraform Plan Diff Reviewer](../../skills/terraform-plan-diff-reviewer-2/) | ⭐ 4.5 | 0 | `clawhub install terraform-plan-diff-reviewer-2` |
-| [Argo Workflows Deployer](../../skills/argo-workflows-deployer/) | ⭐ 4.4 | 0 | `clawhub install argo-workflows-deployer` |
-| [ArgoCD Application Sync Manager](../../skills/argocd-application-sync-manager-2/) | ⭐ 4.4 | 0 | `clawhub install argocd-application-sync-manager-2` |
-| [ArgoCD GitOps Sync Controller](../../skills/argocd-gitops-sync-controller/) | ⭐ 4.4 | 0 | `clawhub install argocd-gitops-sync-controller` |
-| [ArgoCD Sync Drift Detector](../../skills/argocd-sync-drift-detector/) | ⭐ 4.4 | 0 | `clawhub install argocd-sync-drift-detector` |
-| [Bitbucket Pipelines Integration](../../skills/bitbucket-pipelines-integration-2/) | ⭐ 4.4 | 0 | `clawhub install bitbucket-pipelines-integration-2` |
-| [Buildkite Agent Monitor](../../skills/buildkite-agent-monitor/) | ⭐ 4.4 | 0 | `clawhub install buildkite-agent-monitor` |
-| [CircleCI Orb Composer](../../skills/circleci-orb-composer-4/) | ⭐ 4.4 | 0 | `clawhub install circleci-orb-composer-4` |
-| [CircleCI Orb Dependency Scanner](../../skills/circleci-orb-dependency-scanner-4/) | ⭐ 4.4 | 0 | `clawhub install circleci-orb-dependency-scanner-4` |
-| [CircleCI Orb Dependency Scanner](../../skills/circleci-orb-dependency-scanner-3/) | ⭐ 4.4 | 0 | `clawhub install circleci-orb-dependency-scanner-3` |
-| [CircleCI Orb Validator](../../skills/circleci-orb-validator/) | ⭐ 4.4 | 0 | `clawhub install circleci-orb-validator` |
-| [Docker Image Vulnerability Triage](../../skills/docker-image-vulnerability-triage/) | ⭐ 4.4 | 0 | `clawhub install docker-image-vulnerability-triage` |
-| [Drone CI Integration](../../skills/drone-ci-integration/) | ⭐ 4.4 | 0 | `clawhub install drone-ci-integration` |
-| [GitHub Actions CI Builder](../../skills/github-actions-ci-builder/) | ⭐ 4.4 | 0 | `clawhub install github-actions-ci-builder` |
-| [GitHub Actions Matrix Builder](../../skills/github-actions-matrix-builder-20/) | ⭐ 4.4 | 0 | `clawhub install github-actions-matrix-builder-20` |
-| [GitHub Actions Workflow Optimizer](../../skills/github-actions-workflow-optimizer/) | ⭐ 4.4 | 0 | `clawhub install github-actions-workflow-optimizer` |
-| [GitLab CI Integration](../../skills/gitlab-ci-integration-2/) | ⭐ 4.4 | 0 | `clawhub install gitlab-ci-integration-2` |
-| [Jenkins Pipeline Failure Analyzer](../../skills/jenkins-pipeline-failure-analyzer/) | ⭐ 4.4 | 0 | `clawhub install jenkins-pipeline-failure-analyzer` |
-| [Jenkins Pipeline Monitor](../../skills/jenkins-pipeline-monitor/) | ⭐ 4.4 | 0 | `clawhub install jenkins-pipeline-monitor` |
-| [Terraform Plan Reviewer](../../skills/terraform-plan-reviewer-3/) | ⭐ 4.4 | 0 | `clawhub install terraform-plan-reviewer-3` |
-| [ArgoCD GitOps Sync Manager](../../skills/argocd-gitops-sync-manager/) | ⭐ 4.3 | 0 | `clawhub install argocd-gitops-sync-manager` |
-| [CircleCI Config Validator](../../skills/circleci-config-validator/) | ⭐ 4.3 | 0 | `clawhub install circleci-config-validator` |
-| [CircleCI Orb Composer](../../skills/circleci-orb-composer-3/) | ⭐ 4.3 | 0 | `clawhub install circleci-orb-composer-3` |
-| [CircleCI Orb Dependency Scanner](../../skills/circleci-orb-dependency-scanner-2/) | ⭐ 4.3 | 0 | `clawhub install circleci-orb-dependency-scanner-2` |
-| [CircleCI Orb Linter](../../skills/circleci-orb-linter/) | ⭐ 4.3 | 0 | `clawhub install circleci-orb-linter` |
-| [CircleCI Orb Pipeline Composer](../../skills/circleci-orb-pipeline-composer/) | ⭐ 4.3 | 0 | `clawhub install circleci-orb-pipeline-composer` |
-| [GitHub Actions Matrix Builder](../../skills/github-actions-matrix-builder-14/) | ⭐ 4.3 | 0 | `clawhub install github-actions-matrix-builder-14` |
-| [GitHub Actions Matrix Optimizer](../../skills/github-actions-matrix-optimizer-6/) | ⭐ 4.3 | 0 | `clawhub install github-actions-matrix-optimizer-6` |
-| [GitHub Actions Matrix Optimizer](../../skills/github-actions-matrix-optimizer/) | ⭐ 4.3 | 0 | `clawhub install github-actions-matrix-optimizer` |
-| [GitHub Actions OIDC Token Verifier](../../skills/github-actions-oidc-token-verifier/) | ⭐ 4.3 | 0 | `clawhub install github-actions-oidc-token-verifier` |
-| [GitHub Actions Pipeline Debugger](../../skills/github-actions-pipeline-debugger/) | ⭐ 4.3 | 0 | `clawhub install github-actions-pipeline-debugger` |
-| [GitHub Actions Workflow Builder](../../skills/github-actions-workflow-builder-skill/) | ⭐ 4.3 | 0 | `clawhub install github-actions-workflow-builder-skill` |
-| [GitHub Actions Workflow Linter](../../skills/github-actions-workflow-linter/) | ⭐ 4.3 | 0 | `clawhub install github-actions-workflow-linter` |
-| [GitLab CI Pipeline Optimizer](../../skills/gitlab-ci-pipeline-optimizer-7/) | ⭐ 4.3 | 0 | `clawhub install gitlab-ci-pipeline-optimizer-7` |
-| [GitLab CI/CD Pipeline Optimizer](../../skills/gitlab-cicd-pipeline-optimizer/) | ⭐ 4.3 | 0 | `clawhub install gitlab-cicd-pipeline-optimizer` |
-| [Harness CI/CD Platform](../../skills/harness-ci-cd-platform/) | ⭐ 4.3 | 0 | `clawhub install harness-ci-cd-platform` |
-| [Jenkins Pipeline DSL Generator](../../skills/jenkins-pipeline-dsl-generator-3/) | ⭐ 4.3 | 0 | `clawhub install jenkins-pipeline-dsl-generator-3` |
-| [Jenkins Pipeline Linter](../../skills/jenkins-pipeline-linter/) | ⭐ 4.3 | 0 | `clawhub install jenkins-pipeline-linter` |
-| [Jenkins Pipeline Linter &#038; Fixer](../../skills/jenkins-pipeline-linter-fixer/) | ⭐ 4.3 | 0 | `clawhub install jenkins-pipeline-linter-fixer` |
-| [Terraform Plan Validator Agent](../../skills/terraform-plan-validator-agent/) | ⭐ 4.3 | 0 | `clawhub install terraform-plan-validator-agent` |
-| [ArgoCD Sync Wave Orchestrator](../../skills/argocd-sync-wave-orchestrator-wave48/) | ⭐ 4.2 | 0 | `clawhub install argocd-sync-wave-orchestrator-wave48` |
-| [CircleCI Orb Composer](../../skills/circleci-orb-composer/) | ⭐ 4.2 | 0 | `clawhub install circleci-orb-composer` |
-| [CircleCI Orb Composition Engine](../../skills/circleci-orb-composition-engine/) | ⭐ 4.2 | 0 | `clawhub install circleci-orb-composition-engine` |
-| [CircleCI Orb Configuration Manager](../../skills/circleci-orb-configuration-manager/) | ⭐ 4.2 | 0 | `clawhub install circleci-orb-configuration-manager` |
-| [CircleCI Orb Debugger](../../skills/circleci-orb-debugger-2/) | ⭐ 4.2 | 0 | `clawhub install circleci-orb-debugger-2` |
-| [CircleCI Orb Dependency Auditor](../../skills/circleci-orb-dependency-auditor-3/) | ⭐ 4.2 | 0 | `clawhub install circleci-orb-dependency-auditor-3` |
-| [CircleCI Orb Dependency Scanner](../../skills/circleci-orb-dependency-scanner-5/) | ⭐ 4.2 | 0 | `clawhub install circleci-orb-dependency-scanner-5` |
-| [GitHub Actions Matrix Builder](../../skills/github-actions-matrix-builder-17/) | ⭐ 4.2 | 0 | `clawhub install github-actions-matrix-builder-17` |
-| [GitHub Actions Matrix Builder](../../skills/github-actions-matrix-builder-12/) | ⭐ 4.2 | 0 | `clawhub install github-actions-matrix-builder-12` |
-| [GitHub Actions Matrix Builder](../../skills/github-actions-matrix-builder-5/) | ⭐ 4.2 | 0 | `clawhub install github-actions-matrix-builder-5` |
-| [GitHub Actions Workflow Debugger](../../skills/github-actions-workflow-debugger-4/) | ⭐ 4.2 | 0 | `clawhub install github-actions-workflow-debugger-4` |
-| [GitLab CI Pipeline Debugger](../../skills/gitlab-ci-pipeline-debugger-2/) | ⭐ 4.2 | 0 | `clawhub install gitlab-ci-pipeline-debugger-2` |
-| [Hugging Face Model Deployer](../../skills/huggingface-model-deployer/) | ⭐ 4.2 | 0 | `clawhub install huggingface-model-deployer` |
-| [Jenkins Pipeline Linter](../../skills/jenkins-pipeline-linter-2/) | ⭐ 4.2 | 0 | `clawhub install jenkins-pipeline-linter-2` |
-| [Jenkins Shared Library Linter](../../skills/jenkins-shared-library-linter/) | ⭐ 4.2 | 0 | `clawhub install jenkins-shared-library-linter` |
-| [Tekton Pipeline Scaffolder](../../skills/tekton-pipeline-scaffolder-3/) | ⭐ 4.2 | 0 | `clawhub install tekton-pipeline-scaffolder-3` |
-| [Terraform Plan Analyzer](../../skills/terraform-plan-analyzer-3/) | ⭐ 4.2 | 0 | `clawhub install terraform-plan-analyzer-3` |
-| [ArgoCD Application Sync Monitor](../../skills/argocd-application-sync-monitor/) | ⭐ 4.1 | 0 | `clawhub install argocd-application-sync-monitor` |
-| [ArgoCD GitOps Sync Automator](../../skills/argocd-gitops-sync-automator/) | ⭐ 4.1 | 0 | `clawhub install argocd-gitops-sync-automator` |
-| [ArgoCD GitOps Sync Monitor](../../skills/argocd-gitops-sync-monitor/) | ⭐ 4.1 | 0 | `clawhub install argocd-gitops-sync-monitor` |
-| [ArgoCD Sync Orchestrator](../../skills/argocd-sync-orchestrator/) | ⭐ 4.1 | 0 | `clawhub install argocd-sync-orchestrator` |
-| [ArgoCD Sync Troubleshooter](../../skills/argocd-sync-troubleshooter/) | ⭐ 4.1 | 0 | `clawhub install argocd-sync-troubleshooter` |
-| [Buildkite Agent Fleet Scaler](../../skills/buildkite-agent-fleet-scaler/) | ⭐ 4.1 | 0 | `clawhub install buildkite-agent-fleet-scaler` |
-| [Buildkite Pipeline Agent](../../skills/buildkite-pipeline-agent/) | ⭐ 4.1 | 0 | `clawhub install buildkite-pipeline-agent` |
-| [Buildkite Pipeline Profiler](../../skills/buildkite-pipeline-profiler/) | ⭐ 4.1 | 0 | `clawhub install buildkite-pipeline-profiler` |
-| [CircleCI Orb Configurator](../../skills/circleci-orb-configurator/) | ⭐ 4.1 | 0 | `clawhub install circleci-orb-configurator` |
-| [CircleCI Orb Dependency Auditor](../../skills/circleci-orb-dependency-auditor-2/) | ⭐ 4.1 | 0 | `clawhub install circleci-orb-dependency-auditor-2` |
-| [Docker Image Layer Size Analyzer](../../skills/docker-image-layer-size-analyzer/) | ⭐ 4.1 | 0 | `clawhub install docker-image-layer-size-analyzer` |
-| [GitHub Actions CI Pipeline Builder](../../skills/github-actions-ci-pipeline-builder/) | ⭐ 4.1 | 0 | `clawhub install github-actions-ci-pipeline-builder` |
-| [GitHub Actions Matrix Builder](../../skills/github-actions-matrix-builder-9/) | ⭐ 4.1 | 0 | `clawhub install github-actions-matrix-builder-9` |
-| [GitHub Actions Matrix Builder](../../skills/github-actions-matrix-builder-21/) | ⭐ 4.1 | 0 | `clawhub install github-actions-matrix-builder-21` |
-| [GitHub Actions Matrix Orchestrator](../../skills/github-actions-matrix-orchestrator/) | ⭐ 4.1 | 0 | `clawhub install github-actions-matrix-orchestrator` |
-| [GitHub Actions Pipeline Debugger](../../skills/github-actions-pipeline-debugger-2/) | ⭐ 4.1 | 0 | `clawhub install github-actions-pipeline-debugger-2` |
-| [GitLab CI Integration](../../skills/gitlab-ci-integration/) | ⭐ 4.1 | 0 | `clawhub install gitlab-ci-integration` |
-| [GitLab CI Pipeline Optimizer](../../skills/gitlab-ci-pipeline-optimizer-3/) | ⭐ 4.1 | 0 | `clawhub install gitlab-ci-pipeline-optimizer-3` |
-| [GitLab CI/CD Pipeline Orchestrator](../../skills/gitlab-cicd-pipeline-orchestrator/) | ⭐ 4.1 | 0 | `clawhub install gitlab-cicd-pipeline-orchestrator` |
-| [Jenkins Pipeline Log Parser](../../skills/jenkins-pipeline-log-parser/) | ⭐ 4.1 | 0 | `clawhub install jenkins-pipeline-log-parser` |
-| [Tekton Pipeline Composer](../../skills/tekton-pipeline-composer/) | ⭐ 4.1 | 0 | `clawhub install tekton-pipeline-composer` |
-| [Terraform Plan Diff Analyzer](../../skills/terraform-plan-diff-analyzer/) | ⭐ 4.1 | 0 | `clawhub install terraform-plan-diff-analyzer` |
-| [Terraform Plan Reviewer](../../skills/terraform-plan-reviewer-6/) | ⭐ 4.1 | 0 | `clawhub install terraform-plan-reviewer-6` |
-| [ArgoCD Sync Status Monitor](../../skills/argocd-sync-status-monitor-3/) | ⭐ 4.0 | 0 | `clawhub install argocd-sync-status-monitor-3` |
-| [Bitbucket Pipelines Integration](../../skills/bitbucket-pipelines-integration/) | ⭐ 4.0 | 0 | `clawhub install bitbucket-pipelines-integration` |
-| [CircleCI Flaky Test Detector](../../skills/circleci-flaky-test-detector/) | ⭐ 4.0 | 0 | `clawhub install circleci-flaky-test-detector` |
-| [CircleCI Orb Auditor](../../skills/circleci-orb-auditor/) | ⭐ 4.0 | 0 | `clawhub install circleci-orb-auditor` |
-| [CircleCI Orb Composer](../../skills/circleci-orb-composer-12/) | ⭐ 4.0 | 0 | `clawhub install circleci-orb-composer-12` |
-| [GitHub Actions CI/CD Pipeline Manager](../../skills/github-actions-cicd-pipeline-manager/) | ⭐ 4.0 | 0 | `clawhub install github-actions-cicd-pipeline-manager` |
-| [GitHub Actions Matrix Builder](../../skills/github-actions-matrix-builder-4/) | ⭐ 4.0 | 0 | `clawhub install github-actions-matrix-builder-4` |
-| [GitLab CI Pipeline Dependency Tracer](../../skills/gitlab-ci-pipeline-dependency-tracer/) | ⭐ 4.0 | 0 | `clawhub install gitlab-ci-pipeline-dependency-tracer` |
-| [GitLab CI Pipeline Optimizer](../../skills/gitlab-ci-pipeline-optimizer-6/) | ⭐ 4.0 | 0 | `clawhub install gitlab-ci-pipeline-optimizer-6` |
-| [Jenkins Shared Library Auditor](../../skills/jenkins-shared-library-auditor-agent/) | ⭐ 4.0 | 0 | `clawhub install jenkins-shared-library-auditor-agent` |
-| [Tekton Pipeline Task Generator](../../skills/tekton-pipeline-task-generator/) | ⭐ 4.0 | 0 | `clawhub install tekton-pipeline-task-generator` |
-| [Terraform Plan Validator](../../skills/terraform-plan-validator/) | ⭐ 4.0 | 0 | `clawhub install terraform-plan-validator` |
+| [Argo Workflows Deployer](../../skills/argo-workflows-deployer/) | ⭐ 0 | 0 | `clawhub install argo-workflows-deployer` |
+| [Argo Workflows Linter](../../skills/argo-workflows-linter/) | ⭐ 0 | 0 | `clawhub install argo-workflows-linter` |
+| [ArgoCD Application Deployer](../../skills/argocd-application-deployer/) | ⭐ 0 | 0 | `clawhub install argocd-application-deployer` |
+| [ArgoCD Application Sync Manager](../../skills/argocd-application-sync-manager-2/) | ⭐ 0 | 0 | `clawhub install argocd-application-sync-manager-2` |
+| [ArgoCD Application Sync Monitor](../../skills/argocd-application-sync-monitor/) | ⭐ 0 | 0 | `clawhub install argocd-application-sync-monitor` |
+| [ArgoCD Deployment Monitor](../../skills/argocd-deployment-monitor/) | ⭐ 0 | 0 | `clawhub install argocd-deployment-monitor` |
+| [ArgoCD Deployment Sync Skill](../../skills/argocd-deployment-sync-skill/) | ⭐ 0 | 0 | `clawhub install argocd-deployment-sync-skill` |
+| [ArgoCD GitOps Sync Automator](../../skills/argocd-gitops-sync-automator/) | ⭐ 0 | 0 | `clawhub install argocd-gitops-sync-automator` |
+| [ArgoCD GitOps Sync Controller](../../skills/argocd-gitops-sync-controller/) | ⭐ 0 | 0 | `clawhub install argocd-gitops-sync-controller` |
+| [ArgoCD GitOps Sync Manager](../../skills/argocd-gitops-sync-manager/) | ⭐ 0 | 0 | `clawhub install argocd-gitops-sync-manager` |
+| [ArgoCD GitOps Sync Monitor](../../skills/argocd-gitops-sync-monitor/) | ⭐ 0 | 0 | `clawhub install argocd-gitops-sync-monitor` |
+| [ArgoCD Sync Drift Detector](../../skills/argocd-sync-drift-detector/) | ⭐ 0 | 0 | `clawhub install argocd-sync-drift-detector` |
+| [ArgoCD Sync Manager](../../skills/argocd-sync-manager-skill/) | ⭐ 0 | 0 | `clawhub install argocd-sync-manager-skill` |
+| [ArgoCD Sync Orchestrator](../../skills/argocd-sync-orchestrator/) | ⭐ 0 | 0 | `clawhub install argocd-sync-orchestrator` |
+| [ArgoCD Sync Status Monitor](../../skills/argocd-sync-status-monitor-7/) | ⭐ 0 | 0 | `clawhub install argocd-sync-status-monitor-7` |
+| [ArgoCD Sync Troubleshooter](../../skills/argocd-sync-troubleshooter/) | ⭐ 0 | 0 | `clawhub install argocd-sync-troubleshooter` |
+| [ArgoCD Sync Wave Orchestrator](../../skills/argocd-sync-wave-orchestrator-wave48/) | ⭐ 0 | 0 | `clawhub install argocd-sync-wave-orchestrator-wave48` |
+| [ArgoCD Sync Wave Planner](../../skills/argocd-sync-wave-planner/) | ⭐ 0 | 0 | `clawhub install argocd-sync-wave-planner` |
+| [AWS CloudWatch Alarm Builder](../../skills/aws-cloudwatch-alarm-builder/) | ⭐ 0 | 0 | `clawhub install aws-cloudwatch-alarm-builder` |
+| [AWS CodePipeline Orchestrator](../../skills/aws-codepipeline-orchestrator/) | ⭐ 0 | 0 | `clawhub install aws-codepipeline-orchestrator` |
+| [Bitbucket Pipelines Integration](../../skills/bitbucket-pipelines-integration-2/) | ⭐ 0 | 0 | `clawhub install bitbucket-pipelines-integration-2` |
+| [Buildkite Agent Fleet Scaler](../../skills/buildkite-agent-fleet-scaler/) | ⭐ 0 | 0 | `clawhub install buildkite-agent-fleet-scaler` |
+| [Buildkite Agent Monitor](../../skills/buildkite-agent-monitor/) | ⭐ 0 | 0 | `clawhub install buildkite-agent-monitor` |
+| [Buildkite Dynamic Pipeline Agent](../../skills/buildkite-dynamic-pipeline-agent/) | ⭐ 0 | 0 | `clawhub install buildkite-dynamic-pipeline-agent` |
+| [Buildkite Dynamic Pipeline Architect](../../skills/buildkite-dynamic-pipeline-architect/) | ⭐ 0 | 0 | `clawhub install buildkite-dynamic-pipeline-architect` |
+| [Buildkite Pipeline Agent](../../skills/buildkite-pipeline-agent/) | ⭐ 0 | 0 | `clawhub install buildkite-pipeline-agent` |
+| [Buildkite Pipeline Optimizer](../../skills/buildkite-pipeline-optimizer-agent/) | ⭐ 0 | 0 | `clawhub install buildkite-pipeline-optimizer-agent` |
+| [Buildkite Pipeline Profiler](../../skills/buildkite-pipeline-profiler/) | ⭐ 0 | 0 | `clawhub install buildkite-pipeline-profiler` |
+| [CircleCI Config Validator](../../skills/circleci-config-validator/) | ⭐ 0 | 0 | `clawhub install circleci-config-validator` |
+| [CircleCI Flaky Test Detector](../../skills/circleci-flaky-test-detector-2/) | ⭐ 0 | 0 | `clawhub install circleci-flaky-test-detector-2` |
+| [CircleCI Orb Auditor](../../skills/circleci-orb-auditor/) | ⭐ 0 | 0 | `clawhub install circleci-orb-auditor` |
+| [CircleCI Orb Builder](../../skills/circleci-orb-builder/) | ⭐ 0 | 0 | `clawhub install circleci-orb-builder` |
+| [CircleCI Orb Builder and Publisher](../../skills/circleci-orb-builder-publisher/) | ⭐ 0 | 0 | `clawhub install circleci-orb-builder-publisher` |
+| [CircleCI Orb Composer](../../skills/circleci-orb-composer-7/) | ⭐ 0 | 0 | `clawhub install circleci-orb-composer-7` |
+| [CircleCI Orb Composition Engine](../../skills/circleci-orb-composition-engine/) | ⭐ 0 | 0 | `clawhub install circleci-orb-composition-engine` |
+| [CircleCI Orb Configuration Manager](../../skills/circleci-orb-configuration-manager/) | ⭐ 0 | 0 | `clawhub install circleci-orb-configuration-manager` |
+| [CircleCI Orb Configurator](../../skills/circleci-orb-configurator-2/) | ⭐ 0 | 0 | `clawhub install circleci-orb-configurator-2` |
+| [CircleCI Orb Debugger](../../skills/circleci-orb-debugger/) | ⭐ 0 | 0 | `clawhub install circleci-orb-debugger` |
+| [CircleCI Orb Dependency Analyzer](../../skills/circleci-orb-dependency-analyzer/) | ⭐ 0 | 0 | `clawhub install circleci-orb-dependency-analyzer` |
+| [CircleCI Orb Dependency Auditor](../../skills/circleci-orb-dependency-auditor-4/) | ⭐ 0 | 0 | `clawhub install circleci-orb-dependency-auditor-4` |
+| [CircleCI Orb Dependency Checker](../../skills/circleci-orb-dependency-checker/) | ⭐ 0 | 0 | `clawhub install circleci-orb-dependency-checker` |
+| [CircleCI Orb Dependency Scanner](../../skills/circleci-orb-dependency-scanner-4/) | ⭐ 0 | 0 | `clawhub install circleci-orb-dependency-scanner-4` |
+| [CircleCI Orb Linter](../../skills/circleci-orb-linter/) | ⭐ 0 | 0 | `clawhub install circleci-orb-linter` |
+| [CircleCI Orb Pipeline Agent](../../skills/circleci-orb-pipeline-agent/) | ⭐ 0 | 0 | `clawhub install circleci-orb-pipeline-agent` |
+| [CircleCI Orb Pipeline Composer](../../skills/circleci-orb-pipeline-composer-2/) | ⭐ 0 | 0 | `clawhub install circleci-orb-pipeline-composer-2` |
+| [CircleCI Orb Pipeline Debugger](../../skills/circleci-orb-pipeline-debugger/) | ⭐ 0 | 0 | `clawhub install circleci-orb-pipeline-debugger` |
+| [CircleCI Orb Validator](../../skills/circleci-orb-validator/) | ⭐ 0 | 0 | `clawhub install circleci-orb-validator` |
+| [CircleCI Pipeline Manager](../../skills/circleci-pipeline-manager/) | ⭐ 0 | 0 | `clawhub install circleci-pipeline-manager` |
+| [CircleCI Pipeline Optimizer](../../skills/circleci-pipeline-optimizer/) | ⭐ 0 | 0 | `clawhub install circleci-pipeline-optimizer` |
+| [CircleCI Workflow Analyzer](../../skills/circleci-workflow-analyzer/) | ⭐ 0 | 0 | `clawhub install circleci-workflow-analyzer` |
+| [CircleCI Workflow Builder](../../skills/circleci-workflow-builder/) | ⭐ 0 | 0 | `clawhub install circleci-workflow-builder` |
+| [CircleCI Workflow Cost Auditor](../../skills/circleci-workflow-cost-auditor/) | ⭐ 0 | 0 | `clawhub install circleci-workflow-cost-auditor` |
+| [Docker Image Layer Inspector](../../skills/docker-image-layer-inspector/) | ⭐ 0 | 0 | `clawhub install docker-image-layer-inspector` |
+| [Docker Image Layer Size Analyzer](../../skills/docker-image-layer-size-analyzer/) | ⭐ 0 | 0 | `clawhub install docker-image-layer-size-analyzer` |
+| [Docker Image Vulnerability Triage](../../skills/docker-image-vulnerability-triage/) | ⭐ 0 | 0 | `clawhub install docker-image-vulnerability-triage` |
+| [Drone CI Integration](../../skills/drone-ci-integration/) | ⭐ 0 | 0 | `clawhub install drone-ci-integration` |
+| [GitHub Actions CI Builder](../../skills/github-actions-ci-builder/) | ⭐ 0 | 0 | `clawhub install github-actions-ci-builder` |
+| [GitHub Actions CI Pipeline Builder](../../skills/github-actions-ci-pipeline-builder/) | ⭐ 0 | 0 | `clawhub install github-actions-ci-pipeline-builder` |
+| [GitHub Actions CI/CD Pipeline Manager](../../skills/github-actions-cicd-pipeline-manager/) | ⭐ 0 | 0 | `clawhub install github-actions-cicd-pipeline-manager` |
+| [GitHub Actions Matrix Build Optimizer](../../skills/github-actions-matrix-build-optimizer/) | ⭐ 0 | 0 | `clawhub install github-actions-matrix-build-optimizer` |
+| [GitHub Actions Matrix Builder](../../skills/github-actions-matrix-builder-13/) | ⭐ 0 | 0 | `clawhub install github-actions-matrix-builder-13` |
+| [GitHub Actions Matrix Optimizer](../../skills/github-actions-matrix-optimizer-2/) | ⭐ 0 | 0 | `clawhub install github-actions-matrix-optimizer-2` |
+| [GitHub Actions Matrix Orchestrator](../../skills/github-actions-matrix-orchestrator/) | ⭐ 0 | 0 | `clawhub install github-actions-matrix-orchestrator` |
+| [GitHub Actions Matrix Strategy Builder](../../skills/github-actions-matrix-strategy-builder/) | ⭐ 0 | 0 | `clawhub install github-actions-matrix-strategy-builder` |
+| [GitHub Actions OIDC Token Validator](../../skills/github-actions-oidc-token-validator/) | ⭐ 0 | 0 | `clawhub install github-actions-oidc-token-validator` |
+| [GitHub Actions OIDC Token Verifier](../../skills/github-actions-oidc-token-verifier/) | ⭐ 0 | 0 | `clawhub install github-actions-oidc-token-verifier` |
+| [GitHub Actions Pipeline Debugger](../../skills/github-actions-pipeline-debugger-2/) | ⭐ 0 | 0 | `clawhub install github-actions-pipeline-debugger-2` |
+| [GitHub Actions Pipeline Validator](../../skills/github-actions-pipeline-validator/) | ⭐ 0 | 0 | `clawhub install github-actions-pipeline-validator` |
+| [GitHub Actions Workflow Builder](../../skills/github-actions-workflow-builder-skill/) | ⭐ 0 | 0 | `clawhub install github-actions-workflow-builder-skill` |
+| [GitHub Actions Workflow Debugger](../../skills/github-actions-workflow-debugger/) | ⭐ 0 | 0 | `clawhub install github-actions-workflow-debugger` |
+| [GitHub Actions Workflow Generator](../../skills/github-actions-workflow-generator-3/) | ⭐ 0 | 0 | `clawhub install github-actions-workflow-generator-3` |
+| [GitHub Actions Workflow Linter](../../skills/github-actions-workflow-linter-2/) | ⭐ 0 | 0 | `clawhub install github-actions-workflow-linter-2` |
+| [GitHub Actions Workflow Optimizer](../../skills/github-actions-workflow-optimizer/) | ⭐ 0 | 0 | `clawhub install github-actions-workflow-optimizer` |
+| [GitLab CI Auto DevOps Configurator](../../skills/gitlab-ci-auto-devops-configurator/) | ⭐ 0 | 0 | `clawhub install gitlab-ci-auto-devops-configurator` |
+| [GitLab CI Cache Optimizer](../../skills/gitlab-ci-cache-optimizer-agent/) | ⭐ 0 | 0 | `clawhub install gitlab-ci-cache-optimizer-agent` |
+| [GitLab CI Integration](../../skills/gitlab-ci-integration-2/) | ⭐ 0 | 0 | `clawhub install gitlab-ci-integration-2` |
+| [GitLab CI Merge Train Optimizer](../../skills/gitlab-ci-merge-train-optimizer/) | ⭐ 0 | 0 | `clawhub install gitlab-ci-merge-train-optimizer` |
+| [GitLab CI Pipeline Cost Calculator](../../skills/gitlab-ci-pipeline-cost-calculator/) | ⭐ 0 | 0 | `clawhub install gitlab-ci-pipeline-cost-calculator` |
+| [GitLab CI Pipeline Cost Estimator](../../skills/gitlab-ci-pipeline-cost-estimator/) | ⭐ 0 | 0 | `clawhub install gitlab-ci-pipeline-cost-estimator` |
+| [GitLab CI Pipeline Debugger](../../skills/gitlab-ci-pipeline-debugger/) | ⭐ 0 | 0 | `clawhub install gitlab-ci-pipeline-debugger` |
+| [GitLab CI Pipeline Dependency Tracer](../../skills/gitlab-ci-pipeline-dependency-tracer/) | ⭐ 0 | 0 | `clawhub install gitlab-ci-pipeline-dependency-tracer` |
+| [GitLab CI Pipeline Generator](../../skills/gitlab-ci-pipeline-generator/) | ⭐ 0 | 0 | `clawhub install gitlab-ci-pipeline-generator` |
+| [GitLab CI Pipeline Linter](../../skills/gitlab-ci-pipeline-linter/) | ⭐ 0 | 0 | `clawhub install gitlab-ci-pipeline-linter` |
+| [GitLab CI Pipeline Migrator](../../skills/gitlab-ci-pipeline-migrator/) | ⭐ 0 | 0 | `clawhub install gitlab-ci-pipeline-migrator` |
+| [GitLab CI Pipeline Optimizer](../../skills/gitlab-ci-pipeline-optimizer-8/) | ⭐ 0 | 0 | `clawhub install gitlab-ci-pipeline-optimizer-8` |
+| [GitLab CI Pipeline Profiler](../../skills/gitlab-ci-pipeline-profiler/) | ⭐ 0 | 0 | `clawhub install gitlab-ci-pipeline-profiler` |
+| [GitLab CI Pipeline Validator](../../skills/gitlab-ci-pipeline-validator/) | ⭐ 0 | 0 | `clawhub install gitlab-ci-pipeline-validator` |
+| [GitLab CI Template Generator](../../skills/gitlab-ci-template-generator/) | ⭐ 0 | 0 | `clawhub install gitlab-ci-template-generator` |
+| [GitLab CI Template Library](../../skills/gitlab-ci-template-library/) | ⭐ 0 | 0 | `clawhub install gitlab-ci-template-library` |
+| [GitLab CI/CD Pipeline Optimizer](../../skills/gitlab-cicd-pipeline-optimizer/) | ⭐ 0 | 0 | `clawhub install gitlab-cicd-pipeline-optimizer` |
+| [GitLab CI/CD Pipeline Orchestrator](../../skills/gitlab-cicd-pipeline-orchestrator/) | ⭐ 0 | 0 | `clawhub install gitlab-cicd-pipeline-orchestrator` |
+| [GitLab Pipeline Bottleneck Profiler](../../skills/gitlab-pipeline-bottleneck-profiler/) | ⭐ 0 | 0 | `clawhub install gitlab-pipeline-bottleneck-profiler` |
+| [GitLab Pipeline DAG Optimizer](../../skills/gitlab-pipeline-dag-optimizer/) | ⭐ 0 | 0 | `clawhub install gitlab-pipeline-dag-optimizer` |
+| [GitLab Pipeline Optimizer](../../skills/gitlab-pipeline-optimizer/) | ⭐ 0 | 0 | `clawhub install gitlab-pipeline-optimizer` |
+| [GitLab Pipeline Orchestrator](../../skills/gitlab-pipeline-orchestrator/) | ⭐ 0 | 0 | `clawhub install gitlab-pipeline-orchestrator` |
+| [Harness CI/CD Platform](../../skills/harness-ci-cd-platform/) | ⭐ 0 | 0 | `clawhub install harness-ci-cd-platform` |
+| [Helm Chart Diff &#038; Upgrade Manager](../../skills/helm-chart-diff-upgrade-manager/) | ⭐ 0 | 0 | `clawhub install helm-chart-diff-upgrade-manager` |
+| [Heroku Release Rollback Assistant](../../skills/heroku-release-rollback-assistant-2/) | ⭐ 0 | 0 | `clawhub install heroku-release-rollback-assistant-2` |
+| [Hugging Face Model Deployer](../../skills/huggingface-model-deployer/) | ⭐ 0 | 0 | `clawhub install huggingface-model-deployer` |
+| [Jenkins Declarative Pipeline Generator](../../skills/jenkins-declarative-pipeline-generator-2/) | ⭐ 0 | 0 | `clawhub install jenkins-declarative-pipeline-generator-2` |
+| [Jenkins Groovy Shared Library Auditor](../../skills/jenkins-groovy-shared-library-auditor/) | ⭐ 0 | 0 | `clawhub install jenkins-groovy-shared-library-auditor` |
+| [Jenkins Pipeline Debugger](../../skills/jenkins-pipeline-debugger/) | ⭐ 0 | 0 | `clawhub install jenkins-pipeline-debugger` |
+| [Jenkins Pipeline Declarative Generator](../../skills/jenkins-pipeline-declarative-generator/) | ⭐ 0 | 0 | `clawhub install jenkins-pipeline-declarative-generator` |
+| [Jenkins Pipeline DSL Generator](../../skills/jenkins-pipeline-dsl-generator/) | ⭐ 0 | 0 | `clawhub install jenkins-pipeline-dsl-generator` |
+| [Jenkins Pipeline Failure Analyzer](../../skills/jenkins-pipeline-failure-analyzer/) | ⭐ 0 | 0 | `clawhub install jenkins-pipeline-failure-analyzer` |
+| [Jenkins Pipeline Generator](../../skills/jenkins-pipeline-generator/) | ⭐ 0 | 0 | `clawhub install jenkins-pipeline-generator` |
+| [Jenkins Pipeline Health Monitor](../../skills/jenkins-pipeline-health-monitor/) | ⭐ 0 | 0 | `clawhub install jenkins-pipeline-health-monitor` |
+| [Jenkins Pipeline Lint Agent](../../skills/jenkins-pipeline-lint-agent/) | ⭐ 0 | 0 | `clawhub install jenkins-pipeline-lint-agent` |
+| [Jenkins Pipeline Linter](../../skills/jenkins-pipeline-linter-6/) | ⭐ 0 | 0 | `clawhub install jenkins-pipeline-linter-6` |
+| [Jenkins Pipeline Linter &#038; Fixer](../../skills/jenkins-pipeline-linter-fixer/) | ⭐ 0 | 0 | `clawhub install jenkins-pipeline-linter-fixer` |
+| [Jenkins Pipeline Linter Agent](../../skills/jenkins-pipeline-linter-agent-2/) | ⭐ 0 | 0 | `clawhub install jenkins-pipeline-linter-agent-2` |
+| [Jenkins Pipeline Linter Pro](../../skills/jenkins-pipeline-linter-pro/) | ⭐ 0 | 0 | `clawhub install jenkins-pipeline-linter-pro` |
+| [Jenkins Pipeline Log Parser](../../skills/jenkins-pipeline-log-parser/) | ⭐ 0 | 0 | `clawhub install jenkins-pipeline-log-parser` |
+| [Jenkins Pipeline Monitor](../../skills/jenkins-pipeline-monitor/) | ⭐ 0 | 0 | `clawhub install jenkins-pipeline-monitor` |
+| [Jenkins Pipeline Orchestrator](../../skills/jenkins-pipeline-orchestrator-3/) | ⭐ 0 | 0 | `clawhub install jenkins-pipeline-orchestrator-3` |
+| [Jenkins Pipeline Shared Library Linter](../../skills/jenkins-pipeline-shared-library-linter/) | ⭐ 0 | 0 | `clawhub install jenkins-pipeline-shared-library-linter` |
+| [Jenkins Shared Library Auditor](../../skills/jenkins-shared-library-auditor-agent/) | ⭐ 0 | 0 | `clawhub install jenkins-shared-library-auditor-agent` |
+| [Jenkins Shared Library Builder](../../skills/jenkins-shared-library-builder/) | ⭐ 0 | 0 | `clawhub install jenkins-shared-library-builder` |
+| [Jenkins Shared Library Linter](../../skills/jenkins-shared-library-linter/) | ⭐ 0 | 0 | `clawhub install jenkins-shared-library-linter` |
+| [Jenkins Shared Library Manager](../../skills/jenkins-shared-library-manager/) | ⭐ 0 | 0 | `clawhub install jenkins-shared-library-manager` |
+| [npm Audit Dependency Report Generator](../../skills/npm-audit-dependency-report-generator/) | ⭐ 0 | 0 | `clawhub install npm-audit-dependency-report-generator` |
+| [Playwright Test Report to Slack](../../skills/playwright-test-report-to-slack/) | ⭐ 0 | 0 | `clawhub install playwright-test-report-to-slack` |
+| [Spinnaker Delivery Platform](../../skills/spinnaker-delivery-platform/) | ⭐ 0 | 0 | `clawhub install spinnaker-delivery-platform` |
+| [Tekton Pipeline Chain Validator](../../skills/tekton-pipeline-chain-validator/) | ⭐ 0 | 0 | `clawhub install tekton-pipeline-chain-validator` |
+| [Tekton Pipeline Composer](../../skills/tekton-pipeline-composer/) | ⭐ 0 | 0 | `clawhub install tekton-pipeline-composer` |
+| [Tekton Pipeline Debugger](../../skills/tekton-pipeline-debugger/) | ⭐ 0 | 0 | `clawhub install tekton-pipeline-debugger` |
+| [Tekton Pipeline Generator](../../skills/tekton-pipeline-generator/) | ⭐ 0 | 0 | `clawhub install tekton-pipeline-generator` |
+| [Tekton Pipeline Resource Optimizer](../../skills/tekton-pipeline-resource-optimizer/) | ⭐ 0 | 0 | `clawhub install tekton-pipeline-resource-optimizer` |
+| [Tekton Pipeline Scaffolder](../../skills/tekton-pipeline-scaffolder/) | ⭐ 0 | 0 | `clawhub install tekton-pipeline-scaffolder` |
+| [Tekton Pipeline Task Assembler](../../skills/tekton-pipeline-task-assembler/) | ⭐ 0 | 0 | `clawhub install tekton-pipeline-task-assembler` |
+| [Tekton Pipeline Task Generator](../../skills/tekton-pipeline-task-generator/) | ⭐ 0 | 0 | `clawhub install tekton-pipeline-task-generator` |
+| [Tekton Pipeline Template Generator](../../skills/tekton-pipeline-template-generator/) | ⭐ 0 | 0 | `clawhub install tekton-pipeline-template-generator` |
+| [Tekton Pipeline Validator](../../skills/tekton-pipeline-validator/) | ⭐ 0 | 0 | `clawhub install tekton-pipeline-validator` |
+| [Terraform Cloud Orchestrator](../../skills/terraform-cloud-orchestrator-skill/) | ⭐ 0 | 0 | `clawhub install terraform-cloud-orchestrator-skill` |
+| [Terraform Cloud Pipeline Agent](../../skills/terraform-cloud-pipeline-agent/) | ⭐ 0 | 0 | `clawhub install terraform-cloud-pipeline-agent` |
+| [Terraform Cloud Run Trigger](../../skills/terraform-cloud-run-trigger/) | ⭐ 0 | 0 | `clawhub install terraform-cloud-run-trigger` |
+| [Terraform Drift Detector](../../skills/terraform-drift-detector-2/) | ⭐ 0 | 0 | `clawhub install terraform-drift-detector-2` |
+| [Terraform Plan &#038; Apply Automation](../../skills/terraform-plan-apply-automation/) | ⭐ 0 | 0 | `clawhub install terraform-plan-apply-automation` |
+| [Terraform Plan Analyzer](../../skills/terraform-plan-analyzer-agent/) | ⭐ 0 | 0 | `clawhub install terraform-plan-analyzer-agent` |
+| [Terraform Plan Diff Analyzer](../../skills/terraform-plan-diff-analyzer/) | ⭐ 0 | 0 | `clawhub install terraform-plan-diff-analyzer` |
+| [Terraform Plan Reviewer](../../skills/terraform-plan-reviewer-4/) | ⭐ 0 | 0 | `clawhub install terraform-plan-reviewer-4` |
+| [Terraform Plan Reviewer Agent](../../skills/terraform-plan-reviewer-agent/) | ⭐ 0 | 0 | `clawhub install terraform-plan-reviewer-agent` |
+| [Terraform Plan Validator](../../skills/terraform-plan-validator/) | ⭐ 0 | 0 | `clawhub install terraform-plan-validator` |
+| [Terraform Plan Validator Agent](../../skills/terraform-plan-validator-agent/) | ⭐ 0 | 0 | `clawhub install terraform-plan-validator-agent` |
 
 ---
 
@@ -283,10 +176,10 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 ## Related Categories
 
-- 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (186 skills)
-- ✅ [Code Quality & Review](../code-quality-review/) (147 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (126 skills)
-- 📚 [Library & API Reference](../library-api-reference/) (119 skills)
+- 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (122 skills)
+- 🛠️ [Developer Tools](../developer-tools/) (120 skills)
+- 📚 [Library & API Reference](../library-api-reference/) (102 skills)
+- ✅ [Code Quality & Review](../code-quality-review/) (88 skills)
 
 ---
 
