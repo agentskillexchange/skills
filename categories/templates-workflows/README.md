@@ -18,7 +18,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 
 | Skill | Tier | Signal | Install |
 |---|---|---:|---|
-| [Plop.js Code Generator](../../skills/plopjs-code-generator/) | Security Reviewed | ⭐ 244.1k | `clawhub install plopjs-code-generator` |
+| [Plop.js Code Generator](../../skills/plopjs-code-generator/) | Security Reviewed | ⭐ 244.2k | `clawhub install plopjs-code-generator` |
 | [Argo Workflows DAG Pipeline Builder](../../skills/argo-workflows-dag-pipeline-builder/) | Security Reviewed | ⭐ 121.3k | `clawhub install argo-workflows-dag-pipeline-builder` |
 | [DigitalOcean Droplet Manager](../../skills/digitalocean-droplet-manager/) | Security Reviewed | ⭐ 121.3k | `clawhub install digitalocean-droplet-manager` |
 | [Jinja2 Infrastructure Template Engine](../../skills/jinja2-infrastructure-template-engine/) | Security Reviewed | ⭐ 121.3k | `clawhub install jinja2-infrastructure-template-engine` |
@@ -57,7 +57,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 
 | Skill | Tier | GitHub Stars | npm Downloads | Install |
 |---|---|---:|---:|---|
-| [Plop.js Code Generator](../../skills/plopjs-code-generator/) | Security Reviewed | 244.1k | 104.8M/wk | `clawhub install plopjs-code-generator` |
+| [Plop.js Code Generator](../../skills/plopjs-code-generator/) | Security Reviewed | 244.2k | 104.8M/wk | `clawhub install plopjs-code-generator` |
 | [Argo Workflows DAG Pipeline Builder](../../skills/argo-workflows-dag-pipeline-builder/) | Security Reviewed | 121.3k | — | `clawhub install argo-workflows-dag-pipeline-builder` |
 | [DigitalOcean Droplet Manager](../../skills/digitalocean-droplet-manager/) | Security Reviewed | 121.3k | — | `clawhub install digitalocean-droplet-manager` |
 | [Jinja2 Infrastructure Template Engine](../../skills/jinja2-infrastructure-template-engine/) | Security Reviewed | 121.3k | — | `clawhub install jinja2-infrastructure-template-engine` |
@@ -92,7 +92,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Fly.io Deployment Helper](../../skills/fly-io-deployment-helper/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install fly-io-deployment-helper` |
 | [Railway App Deployer](../../skills/railway-app-deployer/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install railway-app-deployer` |
 | [Vercel Deployment Agent](../../skills/vercel-deployment-agent/) | Security Reviewed | 15.1k | 2.1M/wk | `clawhub install vercel-deployment-agent` |
-| [Semgrep Custom Rule Runner](../../skills/semgrep-custom-rule-runner-2/) | Security Reviewed | 14.5k | — | `clawhub install semgrep-custom-rule-runner-2` |
+| [Semgrep Custom Rule Runner](../../skills/semgrep-custom-rule-runner-2/) | Security Reviewed | 14.6k | — | `clawhub install semgrep-custom-rule-runner-2` |
 | [SonarQube Gate Checker](../../skills/sonarqube-gate-checker-2/) | Verified Metadata | 10.4k | — | `clawhub install sonarqube-gate-checker-2` |
 | [Incident Response Template Generator](../../skills/incident-response-template-generator/) | Security Reviewed | 5.6k | 1.1M/wk | `clawhub install incident-response-template-generator` |
 | [Notion to PDF Knowledge Exporter](../../skills/notion-to-pdf-knowledge-exporter/) | Security Reviewed | 5.6k | 1.1M/wk | `clawhub install notion-to-pdf-knowledge-exporter` |
@@ -143,7 +143,7 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (137 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
 - 📚 [Library & API Reference](../library-api-reference/) (89 skills)
-- 🔒 [Security & Verification](../security-verification/) (88 skills)
+- 🔒 [Security & Verification](../security-verification/) (89 skills)
 
 ---
 

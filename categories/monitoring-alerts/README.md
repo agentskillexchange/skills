@@ -111,23 +111,23 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [New Relic NRQL Query Agent](../../skills/new-relic-nrql-query-agent/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install new-relic-nrql-query-agent` |
 | [New Relic SLO Compliance Monitor](../../skills/new-relic-slo-compliance-monitor/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install new-relic-slo-compliance-monitor` |
 | [Cloudflare Analytics Health Monitor](../../skills/cloudflare-analytics-health-monitor/) | Security Reviewed | 1.9k | 1M/wk | `clawhub install cloudflare-analytics-health-monitor` |
-| [Datadog Anomaly Alert Router](../../skills/datadog-anomaly-alert-router/) | Security Reviewed | 787 | 6M/wk | `clawhub install datadog-anomaly-alert-router` |
-| [Datadog Anomaly Detection Agent](../../skills/datadog-anomaly-detection-agent-2/) | Security Reviewed | 787 | 6M/wk | `clawhub install datadog-anomaly-detection-agent-2` |
-| [Datadog Anomaly Detector](../../skills/datadog-anomaly-detector/) | Security Reviewed | 787 | 6M/wk | `clawhub install datadog-anomaly-detector` |
-| [Datadog APM Anomaly Detector](../../skills/datadog-apm-anomaly-detector/) | Security Reviewed | 787 | 6M/wk | `clawhub install datadog-apm-anomaly-detector` |
-| [Datadog APM Trace Analyzer](../../skills/datadog-apm-trace-analyzer-2/) | Security Reviewed | 787 | 6M/wk | `clawhub install datadog-apm-trace-analyzer-2` |
-| [Datadog APM Trace Query Agent](../../skills/datadog-apm-trace-query-agent/) | Security Reviewed | 787 | 6M/wk | `clawhub install datadog-apm-trace-query-agent` |
-| [Datadog MCP Server](../../skills/datadog-mcp-server/) | Security Reviewed | 787 | 6M/wk | `clawhub install datadog-mcp-server` |
-| [Datadog Metric Exporter](../../skills/datadog-metric-exporter/) | Security Reviewed | 787 | 6M/wk | `clawhub install datadog-metric-exporter` |
-| [Datadog Monitor Blueprint Generator](../../skills/datadog-monitor-blueprint-generator/) | Security Reviewed | 787 | 6M/wk | `clawhub install datadog-monitor-blueprint-generator` |
-| [Datadog Monitor Configuration Agent](../../skills/datadog-monitor-configuration-agent-2/) | Security Reviewed | 787 | 6M/wk | `clawhub install datadog-monitor-configuration-agent-2` |
-| [Datadog Monitor Configuration Engine](../../skills/datadog-monitor-configuration-engine/) | Security Reviewed | 787 | 6M/wk | `clawhub install datadog-monitor-configuration-engine` |
-| [Datadog Monitor Configurator](../../skills/datadog-monitor-configurator-2/) | Security Reviewed | 787 | 6M/wk | `clawhub install datadog-monitor-configurator-2` |
-| [Datadog Monitor Sync](../../skills/datadog-monitor-sync/) | Security Reviewed | 787 | 6M/wk | `clawhub install datadog-monitor-sync` |
-| [Datadog Monitors Skill](../../skills/datadog-monitors-skill/) | Security Reviewed | 787 | 6M/wk | `clawhub install datadog-monitors-skill` |
-| [Datadog SLO Monitor](../../skills/datadog-slo-monitor/) | Security Reviewed | 787 | 6M/wk | `clawhub install datadog-slo-monitor` |
-| [Metrics Dashboard Builder](../../skills/metrics-dashboard-builder/) | Security Reviewed | 787 | 6M/wk | `clawhub install metrics-dashboard-builder` |
-| [StatsD Metrics Aggregation Pipeline](../../skills/statsd-metrics-aggregation-pipeline/) | Security Reviewed | 787 | 6M/wk | `clawhub install statsd-metrics-aggregation-pipeline` |
+| [Datadog Anomaly Alert Router](../../skills/datadog-anomaly-alert-router/) | Security Reviewed | 789 | 6M/wk | `clawhub install datadog-anomaly-alert-router` |
+| [Datadog Anomaly Detection Agent](../../skills/datadog-anomaly-detection-agent-2/) | Security Reviewed | 789 | 6M/wk | `clawhub install datadog-anomaly-detection-agent-2` |
+| [Datadog Anomaly Detector](../../skills/datadog-anomaly-detector/) | Security Reviewed | 789 | 6M/wk | `clawhub install datadog-anomaly-detector` |
+| [Datadog APM Anomaly Detector](../../skills/datadog-apm-anomaly-detector/) | Security Reviewed | 789 | 6M/wk | `clawhub install datadog-apm-anomaly-detector` |
+| [Datadog APM Trace Analyzer](../../skills/datadog-apm-trace-analyzer-2/) | Security Reviewed | 789 | 6M/wk | `clawhub install datadog-apm-trace-analyzer-2` |
+| [Datadog APM Trace Query Agent](../../skills/datadog-apm-trace-query-agent/) | Security Reviewed | 789 | 6M/wk | `clawhub install datadog-apm-trace-query-agent` |
+| [Datadog MCP Server](../../skills/datadog-mcp-server/) | Security Reviewed | 789 | 6M/wk | `clawhub install datadog-mcp-server` |
+| [Datadog Metric Exporter](../../skills/datadog-metric-exporter/) | Security Reviewed | 789 | 6M/wk | `clawhub install datadog-metric-exporter` |
+| [Datadog Monitor Blueprint Generator](../../skills/datadog-monitor-blueprint-generator/) | Security Reviewed | 789 | 6M/wk | `clawhub install datadog-monitor-blueprint-generator` |
+| [Datadog Monitor Configuration Agent](../../skills/datadog-monitor-configuration-agent-2/) | Security Reviewed | 789 | 6M/wk | `clawhub install datadog-monitor-configuration-agent-2` |
+| [Datadog Monitor Configuration Engine](../../skills/datadog-monitor-configuration-engine/) | Security Reviewed | 789 | 6M/wk | `clawhub install datadog-monitor-configuration-engine` |
+| [Datadog Monitor Configurator](../../skills/datadog-monitor-configurator-2/) | Security Reviewed | 789 | 6M/wk | `clawhub install datadog-monitor-configurator-2` |
+| [Datadog Monitor Sync](../../skills/datadog-monitor-sync/) | Security Reviewed | 789 | 6M/wk | `clawhub install datadog-monitor-sync` |
+| [Datadog Monitors Skill](../../skills/datadog-monitors-skill/) | Security Reviewed | 789 | 6M/wk | `clawhub install datadog-monitors-skill` |
+| [Datadog SLO Monitor](../../skills/datadog-slo-monitor/) | Security Reviewed | 789 | 6M/wk | `clawhub install datadog-slo-monitor` |
+| [Metrics Dashboard Builder](../../skills/metrics-dashboard-builder/) | Security Reviewed | 789 | 6M/wk | `clawhub install metrics-dashboard-builder` |
+| [StatsD Metrics Aggregation Pipeline](../../skills/statsd-metrics-aggregation-pipeline/) | Security Reviewed | 789 | 6M/wk | `clawhub install statsd-metrics-aggregation-pipeline` |
 | [PagerDuty Incident Escalator](../../skills/pagerduty-incident-escalator/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install pagerduty-incident-escalator` |
 | [PagerDuty Incident Orchestrator](../../skills/pagerduty-incident-orchestrator-2/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install pagerduty-incident-orchestrator-2` |
 | [PagerDuty Incident Runbook Linker](../../skills/pagerduty-incident-runbook-linker/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install pagerduty-incident-runbook-linker` |
@@ -159,7 +159,7 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (137 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
 - 📚 [Library & API Reference](../library-api-reference/) (89 skills)
-- 🔒 [Security & Verification](../security-verification/) (88 skills)
+- 🔒 [Security & Verification](../security-verification/) (89 skills)
 
 ---
 

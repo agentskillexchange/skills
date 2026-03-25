@@ -18,7 +18,7 @@ Image generation, asset processing, design automation, and creative tooling.
 
 | Skill | Tier | Signal | Install |
 |---|---|---:|---|
-| [Rive Runtime Animation Controller](../../skills/rive-runtime-animation-controller/) | Security Reviewed | ⭐ 244.1k | `clawhub install rive-runtime-animation-controller` |
+| [Rive Runtime Animation Controller](../../skills/rive-runtime-animation-controller/) | Security Reviewed | ⭐ 244.2k | `clawhub install rive-runtime-animation-controller` |
 | [SVG Animation Builder](../../skills/svg-animation-builder/) | Security Reviewed | ⭐ 93.9k | `clawhub install svg-animation-builder` |
 | [Figma Design Token Extractor](../../skills/figma-design-token-extractor-3/) | Security Reviewed | ⭐ 89.5k | `clawhub install figma-design-token-extractor-3` |
 | [RunPod Serverless GPU Inference](../../skills/runpod-serverless-gpu-inference/) | Security Reviewed | ⭐ 71.6k | `clawhub install runpod-serverless-gpu-inference` |
@@ -57,7 +57,7 @@ Image generation, asset processing, design automation, and creative tooling.
 
 | Skill | Tier | GitHub Stars | npm Downloads | Install |
 |---|---|---:|---:|---|
-| [Rive Runtime Animation Controller](../../skills/rive-runtime-animation-controller/) | Security Reviewed | 244.1k | 104.8M/wk | `clawhub install rive-runtime-animation-controller` |
+| [Rive Runtime Animation Controller](../../skills/rive-runtime-animation-controller/) | Security Reviewed | 244.2k | 104.8M/wk | `clawhub install rive-runtime-animation-controller` |
 | [SVG Animation Builder](../../skills/svg-animation-builder/) | Security Reviewed | 93.9k | 8.7M/wk | `clawhub install svg-animation-builder` |
 | [Figma Design Token Extractor](../../skills/figma-design-token-extractor-3/) | Security Reviewed | 89.5k | 13M/wk | `clawhub install figma-design-token-extractor-3` |
 | [RunPod Serverless GPU Inference](../../skills/runpod-serverless-gpu-inference/) | Security Reviewed | 71.6k | — | `clawhub install runpod-serverless-gpu-inference` |
@@ -134,7 +134,7 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (137 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
 - 📚 [Library & API Reference](../library-api-reference/) (89 skills)
-- 🔒 [Security & Verification](../security-verification/) (88 skills)
+- 🔒 [Security & Verification](../security-verification/) (89 skills)
 
 ---
 

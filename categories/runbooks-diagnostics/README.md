@@ -141,9 +141,9 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [AWS Systems Manager Runbook](../../skills/aws-ssm-runbook-executor/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-ssm-runbook-executor` |
 | [AWS Systems Manager Runbook Engine](../../skills/aws-ssm-runbook-engine/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-ssm-runbook-engine` |
 | [AWS CloudFormation Stack Diagnostics](../../skills/aws-cloudformation-stack-diagnostics/) | Security Reviewed | 2.6k | 9.2M/wk | `clawhub install aws-cloudformation-stack-diagnostics` |
-| [Datadog Incident Runbook Runner](../../skills/datadog-incident-runbook-runner-2/) | Security Reviewed | 787 | 6M/wk | `clawhub install datadog-incident-runbook-runner-2` |
-| [Datadog Synthetics Failure Triage Skill](../../skills/datadog-synthetics-failure-triage-skill/) | Security Reviewed | 787 | 6M/wk | `clawhub install datadog-synthetics-failure-triage-skill` |
-| [Datadog Triage Playbook](../../skills/datadog-triage-playbook/) | Security Reviewed | 787 | 6M/wk | `clawhub install datadog-triage-playbook` |
+| [Datadog Incident Runbook Runner](../../skills/datadog-incident-runbook-runner-2/) | Security Reviewed | 789 | 6M/wk | `clawhub install datadog-incident-runbook-runner-2` |
+| [Datadog Synthetics Failure Triage Skill](../../skills/datadog-synthetics-failure-triage-skill/) | Security Reviewed | 789 | 6M/wk | `clawhub install datadog-synthetics-failure-triage-skill` |
+| [Datadog Triage Playbook](../../skills/datadog-triage-playbook/) | Security Reviewed | 789 | 6M/wk | `clawhub install datadog-triage-playbook` |
 | [Incident Postmortem Generator](../../skills/incident-postmortem-generator/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install incident-postmortem-generator` |
 | [Incident Response Checklist Engine](../../skills/incident-response-checklist-engine/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install incident-response-checklist-engine` |
 | [PagerDuty Event Orchestration Runbook](../../skills/pagerduty-event-orchestration-runbook/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install pagerduty-event-orchestration-runbook` |
@@ -194,8 +194,8 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (137 skills)
 - 📚 [Library & API Reference](../library-api-reference/) (89 skills)
-- 🔒 [Security & Verification](../security-verification/) (88 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (83 skills)
+- 🔒 [Security & Verification](../security-verification/) (89 skills)
+- 🛠️ [Developer Tools](../developer-tools/) (85 skills)
 
 ---
 

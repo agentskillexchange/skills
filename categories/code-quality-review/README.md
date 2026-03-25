@@ -10,7 +10,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 
 - **Top Starred:** 6 visible with GitHub signal data
 - **Top Downloaded:** 6 visible with npm signal data
-- **Security Reviewed:** 71 skills
+- **Security Reviewed:** 78 skills
 
 ---
 
@@ -18,12 +18,12 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 
 | Skill | Tier | Signal | Install |
 |---|---|---:|---|
+| [Polaris Kubernetes Best Practices Validator](../../skills/polaris-kubernetes-best-practices-validator/) | Security Reviewed | ⭐ 121.3k | `clawhub install polaris-kubernetes-best-practices-validator` |
 | [Storybook Component Tester](../../skills/storybook-component-tester/) | Security Reviewed | ⭐ 89.5k | `clawhub install storybook-component-tester` |
 | [Playwright Test Recorder](../../skills/playwright-test-recorder/) | Security Reviewed | ⭐ 84.9k | `clawhub install playwright-test-recorder` |
 | [Docker Build Cache Optimizer](../../skills/docker-build-cache-optimizer/) | Security Reviewed | ⭐ 71.6k | `clawhub install docker-build-cache-optimizer` |
 | [Git Bisect Automation Agent](../../skills/git-bisect-automation-agent/) | Security Reviewed | ⭐ 71.6k | `clawhub install git-bisect-automation-agent` |
-| [Codecov Coverage Analyzer](../../skills/codecov-coverage-analyzer/) | Security Reviewed | ⭐ 45.3k | `clawhub install codecov-coverage-analyzer` |
-| [Jest Unit Test Scaffolder](../../skills/jest-unit-test-scaffolder/) | Security Reviewed | ⭐ 45.3k | `clawhub install jest-unit-test-scaffolder` |
+| [ShellCheck Shell Script Static Analyzer](../../skills/shellcheck-shell-script-static-analyzer/) | Security Reviewed | ⭐ 71.6k | `clawhub install shellcheck-shell-script-static-analyzer` |
 
 ---
 
@@ -44,12 +44,12 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 
 | Skill | Tier | Signal | Install |
 |---|---|---:|---|
+| [Polaris Kubernetes Best Practices Validator](../../skills/polaris-kubernetes-best-practices-validator/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install polaris-kubernetes-best-practices-validator` |
 | [Storybook Component Tester](../../skills/storybook-component-tester/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install storybook-component-tester` |
 | [Playwright Test Recorder](../../skills/playwright-test-recorder/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install playwright-test-recorder` |
 | [Docker Build Cache Optimizer](../../skills/docker-build-cache-optimizer/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install docker-build-cache-optimizer` |
 | [Git Bisect Automation Agent](../../skills/git-bisect-automation-agent/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install git-bisect-automation-agent` |
-| [Codecov Coverage Analyzer](../../skills/codecov-coverage-analyzer/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install codecov-coverage-analyzer` |
-| [Jest Unit Test Scaffolder](../../skills/jest-unit-test-scaffolder/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install jest-unit-test-scaffolder` |
+| [ShellCheck Shell Script Static Analyzer](../../skills/shellcheck-shell-script-static-analyzer/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install shellcheck-shell-script-static-analyzer` |
 
 ---
 
@@ -57,10 +57,12 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 
 | Skill | Tier | GitHub Stars | npm Downloads | Install |
 |---|---|---:|---:|---|
+| [Polaris Kubernetes Best Practices Validator](../../skills/polaris-kubernetes-best-practices-validator/) | Security Reviewed | 121.3k | — | `clawhub install polaris-kubernetes-best-practices-validator` |
 | [Storybook Component Tester](../../skills/storybook-component-tester/) | Security Reviewed | 89.5k | 13M/wk | `clawhub install storybook-component-tester` |
 | [Playwright Test Recorder](../../skills/playwright-test-recorder/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-test-recorder` |
 | [Docker Build Cache Optimizer](../../skills/docker-build-cache-optimizer/) | Security Reviewed | 71.6k | — | `clawhub install docker-build-cache-optimizer` |
 | [Git Bisect Automation Agent](../../skills/git-bisect-automation-agent/) | Security Reviewed | 71.6k | — | `clawhub install git-bisect-automation-agent` |
+| [ShellCheck Shell Script Static Analyzer](../../skills/shellcheck-shell-script-static-analyzer/) | Security Reviewed | 71.6k | — | `clawhub install shellcheck-shell-script-static-analyzer` |
 | [Codecov Coverage Analyzer](../../skills/codecov-coverage-analyzer/) | Security Reviewed | 45.3k | 45.5M/wk | `clawhub install codecov-coverage-analyzer` |
 | [Jest Unit Test Scaffolder](../../skills/jest-unit-test-scaffolder/) | Security Reviewed | 45.3k | 45.5M/wk | `clawhub install jest-unit-test-scaffolder` |
 | [ESLint Auto-Fix Agent](../../skills/eslint-auto-fix-agent/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-auto-fix-agent` |
@@ -83,28 +85,31 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [ESLint Rule Enforcer Agent](../../skills/eslint-rule-enforcer-agent/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-rule-enforcer-agent` |
 | [ESLint Rule Impact Analyzer](../../skills/eslint-rule-impact-analyzer-2/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-rule-impact-analyzer-2` |
 | [ESLint Rule Violation Summarizer](../../skills/eslint-rule-violation-summarizer-2/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-rule-violation-summarizer-2` |
+| [Knip Unused Code and Dependency Finder](../../skills/knip-unused-code-dependency-finder/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install knip-unused-code-dependency-finder` |
+| [Oxlint High-Performance JavaScript Linter](../../skills/oxlint-high-performance-javascript-linter/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install oxlint-high-performance-javascript-linter` |
 | [Prettier Config Conflict Resolver](../../skills/prettier-config-conflict-resolver/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install prettier-config-conflict-resolver` |
 | [Jenkins Pipeline Code Review Agent](../../skills/jenkins-pipeline-code-review-agent/) | Security Reviewed | 25.1k | — | `clawhub install jenkins-pipeline-code-review-agent` |
 | [CodeClimate Diff Analyzer](../../skills/codeclimate-diff-analyzer-2/) | Security Reviewed | 24.3k | — | `clawhub install codeclimate-diff-analyzer-2` |
 | [PHPStan Static Analyzer Agent](../../skills/phpstan-static-analyzer-agent/) | Security Reviewed | 21k | — | `clawhub install phpstan-static-analyzer-agent` |
 | [Prettier Format Enforcement Bot](../../skills/prettier-format-enforcement-bot/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install prettier-format-enforcement-bot` |
 | [Pull Request Size Analyzer](../../skills/pull-request-size-analyzer-agent/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install pull-request-size-analyzer-agent` |
-| [Semgrep Code Pattern Scanner](../../skills/semgrep-code-pattern-scanner-2/) | Verified Metadata | 14.5k | — | `clawhub install semgrep-code-pattern-scanner-2` |
-| [Semgrep Code Scanner](../../skills/semgrep-code-scanner/) | Verified Metadata | 14.5k | — | `clawhub install semgrep-code-scanner` |
-| [Semgrep Custom Pattern Builder](../../skills/semgrep-custom-pattern-builder/) | Security Reviewed | 14.5k | — | `clawhub install semgrep-custom-pattern-builder` |
-| [Semgrep Custom Pattern Generator](../../skills/semgrep-custom-pattern-generator/) | Security Reviewed | 14.5k | — | `clawhub install semgrep-custom-pattern-generator` |
-| [Semgrep Custom Pattern Library](../../skills/semgrep-custom-pattern-library/) | Security Reviewed | 14.5k | — | `clawhub install semgrep-custom-pattern-library` |
-| [Semgrep Custom Rule Builder](../../skills/semgrep-custom-rule-builder-3/) | Security Reviewed | 14.5k | — | `clawhub install semgrep-custom-rule-builder-3` |
-| [Semgrep Pattern Matching Analyzer](../../skills/semgrep-pattern-matching-analyzer/) | Security Reviewed | 14.5k | — | `clawhub install semgrep-pattern-matching-analyzer` |
-| [Semgrep Pattern Matching Auditor](../../skills/semgrep-pattern-matching-auditor/) | Security Reviewed | 14.5k | — | `clawhub install semgrep-pattern-matching-auditor` |
-| [Semgrep Pattern Scanner](../../skills/semgrep-pattern-scanner/) | Security Reviewed | 14.5k | — | `clawhub install semgrep-pattern-scanner` |
-| [Semgrep Rule Author](../../skills/semgrep-rule-author/) | Security Reviewed | 14.5k | — | `clawhub install semgrep-rule-author` |
-| [Semgrep Rule Engine](../../skills/semgrep-rule-engine/) | Security Reviewed | 14.5k | — | `clawhub install semgrep-rule-engine` |
-| [Semgrep Rule Runner](../../skills/semgrep-rule-runner/) | Security Reviewed | 14.5k | — | `clawhub install semgrep-rule-runner` |
-| [Semgrep SAST Scanner](../../skills/semgrep-sast-scanner-skill/) | Security Reviewed | 14.5k | — | `clawhub install semgrep-sast-scanner-skill` |
-| [Semgrep Security Review Agent](../../skills/semgrep-security-review-agent/) | Security Reviewed | 14.5k | — | `clawhub install semgrep-security-review-agent` |
-| [Semgrep Security Scanner](../../skills/semgrep-security-scanner-2/) | Security Reviewed | 14.5k | — | `clawhub install semgrep-security-scanner-2` |
+| [Semgrep Code Pattern Scanner](../../skills/semgrep-code-pattern-scanner-2/) | Verified Metadata | 14.6k | — | `clawhub install semgrep-code-pattern-scanner-2` |
+| [Semgrep Code Scanner](../../skills/semgrep-code-scanner/) | Verified Metadata | 14.6k | — | `clawhub install semgrep-code-scanner` |
+| [Semgrep Custom Pattern Builder](../../skills/semgrep-custom-pattern-builder/) | Security Reviewed | 14.6k | — | `clawhub install semgrep-custom-pattern-builder` |
+| [Semgrep Custom Pattern Generator](../../skills/semgrep-custom-pattern-generator/) | Security Reviewed | 14.6k | — | `clawhub install semgrep-custom-pattern-generator` |
+| [Semgrep Custom Pattern Library](../../skills/semgrep-custom-pattern-library/) | Security Reviewed | 14.6k | — | `clawhub install semgrep-custom-pattern-library` |
+| [Semgrep Custom Rule Builder](../../skills/semgrep-custom-rule-builder-3/) | Security Reviewed | 14.6k | — | `clawhub install semgrep-custom-rule-builder-3` |
+| [Semgrep Pattern Matching Analyzer](../../skills/semgrep-pattern-matching-analyzer/) | Security Reviewed | 14.6k | — | `clawhub install semgrep-pattern-matching-analyzer` |
+| [Semgrep Pattern Matching Auditor](../../skills/semgrep-pattern-matching-auditor/) | Security Reviewed | 14.6k | — | `clawhub install semgrep-pattern-matching-auditor` |
+| [Semgrep Pattern Scanner](../../skills/semgrep-pattern-scanner/) | Security Reviewed | 14.6k | — | `clawhub install semgrep-pattern-scanner` |
+| [Semgrep Rule Author](../../skills/semgrep-rule-author/) | Security Reviewed | 14.6k | — | `clawhub install semgrep-rule-author` |
+| [Semgrep Rule Engine](../../skills/semgrep-rule-engine/) | Security Reviewed | 14.6k | — | `clawhub install semgrep-rule-engine` |
+| [Semgrep Rule Runner](../../skills/semgrep-rule-runner/) | Security Reviewed | 14.6k | — | `clawhub install semgrep-rule-runner` |
+| [Semgrep SAST Scanner](../../skills/semgrep-sast-scanner-skill/) | Security Reviewed | 14.6k | — | `clawhub install semgrep-sast-scanner-skill` |
+| [Semgrep Security Review Agent](../../skills/semgrep-security-review-agent/) | Security Reviewed | 14.6k | — | `clawhub install semgrep-security-review-agent` |
+| [Semgrep Security Scanner](../../skills/semgrep-security-scanner-2/) | Security Reviewed | 14.6k | — | `clawhub install semgrep-security-scanner-2` |
 | [Pytest Fixture Generator](../../skills/pytest-fixture-generator/) | Security Reviewed | 13.7k | — | `clawhub install pytest-fixture-generator` |
+| [SQLFluff SQL Linter and Auto-Formatter](../../skills/sqlfluff-sql-linter-auto-formatter/) | Security Reviewed | 12.5k | — | `clawhub install sqlfluff-sql-linter-auto-formatter` |
 | [SonarQube Analysis Agent](../../skills/sonarqube-analysis-agent/) | Security Reviewed | 10.4k | — | `clawhub install sonarqube-analysis-agent` |
 | [SonarQube Analysis Runner](../../skills/sonarqube-analysis-runner/) | Security Reviewed | 10.4k | — | `clawhub install sonarqube-analysis-runner` |
 | [SonarQube Code Quality Scanner](../../skills/sonarqube-code-quality-scanner/) | Security Reviewed | 10.4k | — | `clawhub install sonarqube-code-quality-scanner` |
@@ -120,15 +125,12 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [SonarQube Scanner Skill](../../skills/sonarqube-scanner-skill/) | Security Reviewed | 10.4k | — | `clawhub install sonarqube-scanner-skill` |
 | [CodeClimate Maintainability Tracker](../../skills/codeclimate-maintainability-tracker-7/) | Security Reviewed | 3.1k | 3.3M/wk | `clawhub install codeclimate-maintainability-tracker-7` |
 | [Codecov Coverage Report Analyzer](../../skills/codecov-coverage-report-analyzer/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install codecov-coverage-report-analyzer` |
-| [ast-grep Structural Code Search and Rewrite](../../skills/ast-grep-structural-code-search-rewrite/) | Verified Metadata | — | — | `clawhub install ast-grep-structural-code-search-rewrite` |
+| [Great Expectations Data Validation Pipeline](../../skills/great-expectations-data-validation-pipeline/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install great-expectations-data-validation-pipeline` |
+| [ast-grep Structural Code Search and Rewrite](../../skills/ast-grep-structural-code-search-rewrite/) | Security Reviewed | — | — | `clawhub install ast-grep-structural-code-search-rewrite` |
 | [Codecov Coverage Diff Analyzer](../../skills/codecov-coverage-diff-analyzer-2/) | Security Reviewed | — | — | `clawhub install codecov-coverage-diff-analyzer-2` |
 | [Codecov Coverage Tracker](../../skills/codecov-coverage-tracker-skill/) | Security Reviewed | — | — | `clawhub install codecov-coverage-tracker-skill` |
 | [Codecov Coverage Tracker Agent](../../skills/codecov-coverage-tracker-agent/) | Security Reviewed | — | — | `clawhub install codecov-coverage-tracker-agent` |
 | [Complexity Trend Tracker](../../skills/complexity-trend-tracker-agent/) | Security Reviewed | — | — | `clawhub install complexity-trend-tracker-agent` |
-| [Great Expectations Data Validation Pipeline](../../skills/great-expectations-data-validation-pipeline/) | Verified Metadata | — | — | `clawhub install great-expectations-data-validation-pipeline` |
-| [Knip Unused Code and Dependency Finder](../../skills/knip-unused-code-dependency-finder/) | Verified Metadata | — | — | `clawhub install knip-unused-code-dependency-finder` |
-| [Oxlint High-Performance JavaScript Linter](../../skills/oxlint-high-performance-javascript-linter/) | Verified Metadata | — | — | `clawhub install oxlint-high-performance-javascript-linter` |
-| [Polaris Kubernetes Best Practices Validator](../../skills/polaris-kubernetes-best-practices-validator/) | Verified Metadata | — | — | `clawhub install polaris-kubernetes-best-practices-validator` |
 | [Prettier Config Harmonizer](../../skills/prettier-config-harmonizer-2/) | Security Reviewed | — | — | `clawhub install prettier-config-harmonizer-2` |
 | [Pylint Baseline Manager](../../skills/pylint-baseline-manager-wave48/) | Security Reviewed | — | — | `clawhub install pylint-baseline-manager-wave48` |
 | [Pylint Code Review Assistant](../../skills/pylint-code-review-assistant/) | Security Reviewed | — | — | `clawhub install pylint-code-review-assistant` |
@@ -136,8 +138,6 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Ruff Linter and Formatter](../../skills/ruff-linter-formatter-agent/) | Security Reviewed | — | — | `clawhub install ruff-linter-formatter-agent` |
 | [Ruff Linter Configuration Architect](../../skills/ruff-linter-configuration-architect/) | Security Reviewed | — | — | `clawhub install ruff-linter-configuration-architect` |
 | [Ruff Python Linter Configurator](../../skills/ruff-python-linter-configurator/) | Security Reviewed | — | — | `clawhub install ruff-python-linter-configurator` |
-| [ShellCheck Shell Script Static Analyzer](../../skills/shellcheck-shell-script-static-analyzer/) | Verified Metadata | — | — | `clawhub install shellcheck-shell-script-static-analyzer` |
-| [SQLFluff SQL Linter and Auto-Formatter](../../skills/sqlfluff-sql-linter-auto-formatter/) | Verified Metadata | — | — | `clawhub install sqlfluff-sql-linter-auto-formatter` |
 
 ---
 
@@ -163,7 +163,7 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (137 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
 - 📚 [Library & API Reference](../library-api-reference/) (89 skills)
-- 🔒 [Security & Verification](../security-verification/) (88 skills)
+- 🔒 [Security & Verification](../security-verification/) (89 skills)
 
 ---
 

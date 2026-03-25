@@ -10,7 +10,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 
 - **Top Starred:** 6 visible with GitHub signal data
 - **Top Downloaded:** 6 visible with npm signal data
-- **Security Reviewed:** 37 skills
+- **Security Reviewed:** 38 skills
 
 ---
 
@@ -21,9 +21,9 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Terraform Cloud Run Inspector](../../skills/terraform-cloud-run-inspector-2/) | Security Reviewed | ⭐ 48k | `clawhub install terraform-cloud-run-inspector-2` |
 | [Linear Issue Triage &amp; Sprint Planner](../../skills/linear-issue-triage-sprint-planner-2/) | Security Reviewed | ⭐ 20.3k | `clawhub install linear-issue-triage-sprint-planner-2` |
 | [Shopify Admin GraphQL Sync Agent](../../skills/shopify-admin-graphql-sync-agent/) | Security Reviewed | ⭐ 20.3k | `clawhub install shopify-admin-graphql-sync-agent` |
+| [Ingestr Cross-Database Data Copier](../../skills/ingestr-cross-database-data-copier/) | Security Reviewed | ⭐ 5.6k | `clawhub install ingestr-cross-database-data-copier` |
 | [Notion Database Sync &amp; Page Generator](../../skills/notion-database-sync-page-generator-2/) | Security Reviewed | ⭐ 5.6k | `clawhub install notion-database-sync-page-generator-2` |
 | [Stripe Connect Account Provisioner](../../skills/stripe-connect-account-provisioner/) | Security Reviewed | ⭐ 4.4k | `clawhub install stripe-connect-account-provisioner` |
-| [Stripe Connect Integration](../../skills/stripe-connect-integration/) | Security Reviewed | ⭐ 4.4k | `clawhub install stripe-connect-integration` |
 
 ---
 
@@ -33,10 +33,10 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 |---|---|---:|---|
 | [Linear Issue Triage &amp; Sprint Planner](../../skills/linear-issue-triage-sprint-planner-2/) | Security Reviewed | ⬇ 32M/wk | `clawhub install linear-issue-triage-sprint-planner-2` |
 | [Shopify Admin GraphQL Sync Agent](../../skills/shopify-admin-graphql-sync-agent/) | Security Reviewed | ⬇ 32M/wk | `clawhub install shopify-admin-graphql-sync-agent` |
+| [Ingestr Cross-Database Data Copier](../../skills/ingestr-cross-database-data-copier/) | Security Reviewed | ⬇ 1.1M/wk | `clawhub install ingestr-cross-database-data-copier` |
 | [Notion Database Sync &amp; Page Generator](../../skills/notion-database-sync-page-generator-2/) | Security Reviewed | ⬇ 1.1M/wk | `clawhub install notion-database-sync-page-generator-2` |
 | [Stripe Connect Account Provisioner](../../skills/stripe-connect-account-provisioner/) | Security Reviewed | ⬇ 8.4M/wk | `clawhub install stripe-connect-account-provisioner` |
 | [Stripe Connect Integration](../../skills/stripe-connect-integration/) | Security Reviewed | ⬇ 8.4M/wk | `clawhub install stripe-connect-integration` |
-| [Stripe Connect Marketplace Sync](../../skills/stripe-connect-marketplace-sync/) | Security Reviewed | ⬇ 8.4M/wk | `clawhub install stripe-connect-marketplace-sync` |
 
 ---
 
@@ -47,9 +47,9 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Terraform Cloud Run Inspector](../../skills/terraform-cloud-run-inspector-2/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install terraform-cloud-run-inspector-2` |
 | [Linear Issue Triage &amp; Sprint Planner](../../skills/linear-issue-triage-sprint-planner-2/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install linear-issue-triage-sprint-planner-2` |
 | [Shopify Admin GraphQL Sync Agent](../../skills/shopify-admin-graphql-sync-agent/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install shopify-admin-graphql-sync-agent` |
+| [Ingestr Cross-Database Data Copier](../../skills/ingestr-cross-database-data-copier/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install ingestr-cross-database-data-copier` |
 | [Notion Database Sync &amp; Page Generator](../../skills/notion-database-sync-page-generator-2/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install notion-database-sync-page-generator-2` |
 | [Stripe Connect Account Provisioner](../../skills/stripe-connect-account-provisioner/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install stripe-connect-account-provisioner` |
-| [Stripe Connect Integration](../../skills/stripe-connect-integration/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install stripe-connect-integration` |
 
 ---
 
@@ -60,6 +60,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Terraform Cloud Run Inspector](../../skills/terraform-cloud-run-inspector-2/) | Security Reviewed | 48k | — | `clawhub install terraform-cloud-run-inspector-2` |
 | [Linear Issue Triage &amp; Sprint Planner](../../skills/linear-issue-triage-sprint-planner-2/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install linear-issue-triage-sprint-planner-2` |
 | [Shopify Admin GraphQL Sync Agent](../../skills/shopify-admin-graphql-sync-agent/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install shopify-admin-graphql-sync-agent` |
+| [Ingestr Cross-Database Data Copier](../../skills/ingestr-cross-database-data-copier/) | Security Reviewed | 5.6k | 1.1M/wk | `clawhub install ingestr-cross-database-data-copier` |
 | [Notion Database Sync &amp; Page Generator](../../skills/notion-database-sync-page-generator-2/) | Security Reviewed | 5.6k | 1.1M/wk | `clawhub install notion-database-sync-page-generator-2` |
 | [Stripe Connect Account Provisioner](../../skills/stripe-connect-account-provisioner/) | Security Reviewed | 4.4k | 8.4M/wk | `clawhub install stripe-connect-account-provisioner` |
 | [Stripe Connect Integration](../../skills/stripe-connect-integration/) | Security Reviewed | 4.4k | 8.4M/wk | `clawhub install stripe-connect-integration` |
@@ -86,12 +87,11 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Salesforce Bulk API Sync Agent](../../skills/salesforce-bulk-api-sync-agent/) | Security Reviewed | 1.5k | 804.8k/wk | `clawhub install salesforce-bulk-api-sync-agent` |
 | [Salesforce CRM Sync Agent](../../skills/salesforce-crm-sync-agent/) | Security Reviewed | 1.5k | 804.8k/wk | `clawhub install salesforce-crm-sync-agent` |
 | [Salesforce MCP Server](../../skills/salesforce-mcp-server/) | Security Reviewed | 1.5k | 804.8k/wk | `clawhub install salesforce-mcp-server` |
-| [Datadog Integration Connector](../../skills/datadog-integration-connector-agent/) | Security Reviewed | 787 | 6M/wk | `clawhub install datadog-integration-connector-agent` |
+| [Datadog Integration Connector](../../skills/datadog-integration-connector-agent/) | Security Reviewed | 789 | 6M/wk | `clawhub install datadog-integration-connector-agent` |
 | [HubSpot CRM Contact Enrichment Pipeline](../../skills/hubspot-crm-contact-enrichment-pipeline/) | Security Reviewed | 391 | 905.6k/wk | `clawhub install hubspot-crm-contact-enrichment-pipeline` |
 | [HubSpot MCP Server](../../skills/hubspot-mcp-server/) | Security Reviewed | 391 | 905.6k/wk | `clawhub install hubspot-mcp-server` |
 | [Zapier Multi-Step Lead Enrichment Workflow](../../skills/zapier-lead-enrichment-workflow/) | Security Reviewed | 391 | 905.6k/wk | `clawhub install zapier-lead-enrichment-workflow` |
 | [Neon Serverless Postgres MCP](../../skills/neon-serverless-postgres-mcp/) | Security Reviewed | — | 21.4M/wk | `clawhub install neon-serverless-postgres-mcp` |
-| [Ingestr Cross-Database Data Copier](../../skills/ingestr-cross-database-data-copier/) | Verified Metadata | — | — | `clawhub install ingestr-cross-database-data-copier` |
 | [n8n Workflow Webhook Bridge](../../skills/n8n-workflow-webhook-bridge/) | Security Reviewed | — | — | `clawhub install n8n-workflow-webhook-bridge` |
 | [Plaid Financial Data Connector](../../skills/plaid-financial-data-connector/) | Security Reviewed | — | — | `clawhub install plaid-financial-data-connector` |
 | [Zapier Webhook Integration Builder](../../skills/zapier-webhook-integration-builder/) | Security Reviewed | — | — | `clawhub install zapier-webhook-integration-builder` |
@@ -120,7 +120,7 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (137 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
 - 📚 [Library & API Reference](../library-api-reference/) (89 skills)
-- 🔒 [Security & Verification](../security-verification/) (88 skills)
+- 🔒 [Security & Verification](../security-verification/) (89 skills)
 
 ---
 

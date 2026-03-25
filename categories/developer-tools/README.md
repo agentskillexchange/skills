@@ -1,6 +1,6 @@
 # 🛠️ Developer Tools
 
-> **83 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools)
+> **85 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools)
 
 CLI helpers, dev environment setup, productivity utilities, and developer workflows.
 
@@ -10,7 +10,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 
 - **Top Starred:** 6 visible with GitHub signal data
 - **Top Downloaded:** 6 visible with npm signal data
-- **Security Reviewed:** 66 skills
+- **Security Reviewed:** 82 skills
 
 ---
 
@@ -18,12 +18,12 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 
 | Skill | Tier | Signal | Install |
 |---|---|---:|---|
+| [Changesets Version and Changelog Manager](../../skills/changesets-version-changelog-manager/) | Security Reviewed | ⭐ 244.2k | `clawhub install changesets-version-changelog-manager` |
 | [Kubernetes MCP Server](../../skills/kubernetes-mcp-server/) | Security Reviewed | ⭐ 121.3k | `clawhub install kubernetes-mcp-server` |
 | [Kubernetes Pod Crash Diagnostics](../../skills/kubernetes-pod-crash-diagnostics-3/) | Security Reviewed | ⭐ 121.3k | `clawhub install kubernetes-pod-crash-diagnostics-3` |
 | [Supabase MCP Server](../../skills/supabase-mcp-server/) | Security Reviewed | ⭐ 99.5k | `clawhub install supabase-mcp-server` |
 | [Puppeteer DevTools Protocol Recorder](../../skills/puppeteer-devtools-protocol-recorder/) | Security Reviewed | ⭐ 93.9k | `clawhub install puppeteer-devtools-protocol-recorder` |
 | [Playwright E2E Test Generator](../../skills/playwright-e2e-test-generator/) | Security Reviewed | ⭐ 84.9k | `clawhub install playwright-e2e-test-generator` |
-| [Vite Plugin Hot Module Analyzer](../../skills/vite-plugin-hmr-analyzer/) | Security Reviewed | ⭐ 79.3k | `clawhub install vite-plugin-hmr-analyzer` |
 
 ---
 
@@ -31,12 +31,12 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 
 | Skill | Tier | Signal | Install |
 |---|---|---:|---|
+| [Changesets Version and Changelog Manager](../../skills/changesets-version-changelog-manager/) | Security Reviewed | ⬇ 104.8M/wk | `clawhub install changesets-version-changelog-manager` |
 | [Supabase MCP Server](../../skills/supabase-mcp-server/) | Security Reviewed | ⬇ 14.6M/wk | `clawhub install supabase-mcp-server` |
 | [Puppeteer DevTools Protocol Recorder](../../skills/puppeteer-devtools-protocol-recorder/) | Security Reviewed | ⬇ 8.7M/wk | `clawhub install puppeteer-devtools-protocol-recorder` |
 | [Playwright E2E Test Generator](../../skills/playwright-e2e-test-generator/) | Security Reviewed | ⬇ 39.8M/wk | `clawhub install playwright-e2e-test-generator` |
 | [Vite Plugin Hot Module Analyzer](../../skills/vite-plugin-hmr-analyzer/) | Security Reviewed | ⬇ 76.3M/wk | `clawhub install vite-plugin-hmr-analyzer` |
 | [Redis MCP Server](../../skills/redis-mcp-server/) | Security Reviewed | ⬇ 8.2M/wk | `clawhub install redis-mcp-server` |
-| [VS Code Extension Scaffolder](../../skills/vscode-extension-scaffolder-agent/) | Security Reviewed | ⬇ 44.8M/wk | `clawhub install vscode-extension-scaffolder-agent` |
 
 ---
 
@@ -44,12 +44,12 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 
 | Skill | Tier | Signal | Install |
 |---|---|---:|---|
+| [Changesets Version and Changelog Manager](../../skills/changesets-version-changelog-manager/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install changesets-version-changelog-manager` |
 | [Kubernetes MCP Server](../../skills/kubernetes-mcp-server/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install kubernetes-mcp-server` |
 | [Kubernetes Pod Crash Diagnostics](../../skills/kubernetes-pod-crash-diagnostics-3/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install kubernetes-pod-crash-diagnostics-3` |
 | [Supabase MCP Server](../../skills/supabase-mcp-server/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install supabase-mcp-server` |
 | [Puppeteer DevTools Protocol Recorder](../../skills/puppeteer-devtools-protocol-recorder/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install puppeteer-devtools-protocol-recorder` |
 | [Playwright E2E Test Generator](../../skills/playwright-e2e-test-generator/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install playwright-e2e-test-generator` |
-| [Vite Plugin Hot Module Analyzer](../../skills/vite-plugin-hmr-analyzer/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install vite-plugin-hmr-analyzer` |
 
 ---
 
@@ -57,6 +57,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 
 | Skill | Tier | GitHub Stars | npm Downloads | Install |
 |---|---|---:|---:|---|
+| [Changesets Version and Changelog Manager](../../skills/changesets-version-changelog-manager/) | Security Reviewed | 244.2k | 104.8M/wk | `clawhub install changesets-version-changelog-manager` |
 | [Kubernetes MCP Server](../../skills/kubernetes-mcp-server/) | Security Reviewed | 121.3k | — | `clawhub install kubernetes-mcp-server` |
 | [Kubernetes Pod Crash Diagnostics](../../skills/kubernetes-pod-crash-diagnostics-3/) | Security Reviewed | 121.3k | — | `clawhub install kubernetes-pod-crash-diagnostics-3` |
 | [Supabase MCP Server](../../skills/supabase-mcp-server/) | Security Reviewed | 99.5k | 14.6M/wk | `clawhub install supabase-mcp-server` |
@@ -72,8 +73,11 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Docker Compose Stack Analyzer](../../skills/docker-compose-stack-analyzer/) | Security Reviewed | 71.6k | — | `clawhub install docker-compose-stack-analyzer` |
 | [Docker Compose Stack Builder](../../skills/docker-compose-stack-builder-sdk/) | Security Reviewed | 71.6k | — | `clawhub install docker-compose-stack-builder-sdk` |
 | [Docker MCP Server](../../skills/docker-mcp-server/) | Security Reviewed | 71.6k | — | `clawhub install docker-mcp-server` |
+| [Lefthook Git Hooks Manager](../../skills/lefthook-git-hooks-manager/) | Security Reviewed | 71.6k | — | `clawhub install lefthook-git-hooks-manager` |
+| [uv Ultra-Fast Python Package and Project Manager](../../skills/uv-ultra-fast-python-package-project-manager/) | Security Reviewed | 71.6k | — | `clawhub install uv-ultra-fast-python-package-project-manager` |
 | [VS Code Extension Scaffolder](../../skills/vscode-extension-scaffolder-agent/) | Security Reviewed | 66k | 44.8M/wk | `clawhub install vscode-extension-scaffolder-agent` |
 | [Webpack Bundle Analyzer Agent](../../skills/webpack-bundle-analyzer-agent/) | Security Reviewed | 66k | 44.8M/wk | `clawhub install webpack-bundle-analyzer-agent` |
+| [Mise Dev Tool Version Manager](../../skills/mise-dev-tool-version-manager/) | Security Reviewed | 48k | — | `clawhub install mise-dev-tool-version-manager` |
 | [Terraform Cloud MCP Server](../../skills/terraform-cloud-mcp-server/) | Security Reviewed | 48k | — | `clawhub install terraform-cloud-mcp-server` |
 | [Terraform Module Scaffolder](../../skills/terraform-module-scaffolder-hcl-sdk/) | Security Reviewed | 48k | — | `clawhub install terraform-module-scaffolder-hcl-sdk` |
 | [LlamaIndex Agent](../../skills/llamaindex-agent/) | Security Reviewed | 47.9k | 125.7k/wk | `clawhub install llamaindex-agent` |
@@ -92,11 +96,13 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Git Branch Analyzer](../../skills/git-branch-analyzer-libgit2/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install git-branch-analyzer-libgit2` |
 | [Linear Issue Manager](../../skills/linear-issue-manager/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install linear-issue-manager` |
 | [LangChain MCP Server](../../skills/langchain-mcp-server/) | Security Reviewed | 17.3k | 2.1M/wk | `clawhub install langchain-mcp-server` |
+| [Turborepo Monorepo Build System](../../skills/turborepo-monorepo-build-system/) | Security Reviewed | 15.1k | 2.1M/wk | `clawhub install turborepo-monorepo-build-system` |
 | [OpenAPI Spec Validator](../../skills/openapi-spec-validator-agent/) | Security Reviewed | 14.9k | — | `clawhub install openapi-spec-validator-agent` |
 | [Regex Pattern Test Suite Generator](../../skills/regex-pattern-test-suite-generator/) | Security Reviewed | 13.7k | — | `clawhub install regex-pattern-test-suite-generator` |
 | [OpenAI MCP Server](../../skills/openai-mcp-server/) | Security Reviewed | 10.8k | 16.3M/wk | `clawhub install openai-mcp-server` |
 | [SonarQube Code Analysis](../../skills/sonarqube-code-analysis/) | Security Reviewed | 10.4k | — | `clawhub install sonarqube-code-analysis` |
 | [MongoDB MCP Server](../../skills/mongodb-mcp-server/) | Security Reviewed | 10.2k | 10.9M/wk | `clawhub install mongodb-mcp-server` |
+| [Atuin Shell History Database and Sync](../../skills/atuin-shell-history-database-sync/) | Security Reviewed | 7k | 5M/wk | `clawhub install atuin-shell-history-database-sync` |
 | [SQLite Analyst](../../skills/sqlite-analyst/) | Security Reviewed | 7k | 5M/wk | `clawhub install sqlite-analyst` |
 | [Notion Workspace Agent](../../skills/notion-workspace-agent/) | Security Reviewed | 5.6k | 1.1M/wk | `clawhub install notion-workspace-agent` |
 | [Webhook Debugger](../../skills/webhook-debugger/) | Security Reviewed | 4.4k | 8.4M/wk | `clawhub install webhook-debugger` |
@@ -106,38 +112,34 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Cloud Cost Analysis](../../skills/cloud-cost-analysis/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install cloud-cost-analysis` |
 | [DynamoDB Manager](../../skills/dynamodb-manager/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install dynamodb-manager` |
 | [CircleCI MCP Server](../../skills/circleci-mcp-server/) | Security Reviewed | 842 | — | `clawhub install circleci-mcp-server` |
+| [pgroll PostgreSQL Zero-Downtime Schema Migration](../../skills/pgroll-postgresql-zero-downtime-schema-migration/) | Security Reviewed | — | 21.4M/wk | `clawhub install pgroll-postgresql-zero-downtime-schema-migration` |
 | [PostgreSQL Query Optimizer Agent](../../skills/postgresql-query-optimizer-explain-api/) | Security Reviewed | — | 21.4M/wk | `clawhub install postgresql-query-optimizer-explain-api` |
 | [PostgreSQL Query Plan Analyzer](../../skills/postgresql-query-plan-analyzer-2/) | Security Reviewed | — | 21.4M/wk | `clawhub install postgresql-query-plan-analyzer-2` |
-| [Atuin Shell History Database and Sync](../../skills/atuin-shell-history-database-sync/) | Verified Metadata | — | — | `clawhub install atuin-shell-history-database-sync` |
-| [bat Syntax-Highlighting Cat Replacement](../../skills/bat-syntax-highlighting-cat-replacement/) | Verified Metadata | — | — | `clawhub install bat-syntax-highlighting-cat-replacement` |
+| [sqlc Type-Safe SQL Code Generator](../../skills/sqlc-type-safe-sql-code-generator/) | Security Reviewed | — | 21.4M/wk | `clawhub install sqlc-type-safe-sql-code-generator` |
+| [bat Syntax-Highlighting Cat Replacement](../../skills/bat-syntax-highlighting-cat-replacement/) | Security Reviewed | — | — | `clawhub install bat-syntax-highlighting-cat-replacement` |
 | [Bazel Build Graph Analyzer](../../skills/bazel-build-graph-analyzer/) | Security Reviewed | — | — | `clawhub install bazel-build-graph-analyzer` |
 | [Bun Shell Script Executor](../../skills/bun-shell-script-executor/) | Security Reviewed | — | — | `clawhub install bun-shell-script-executor` |
-| [Changesets Version and Changelog Manager](../../skills/changesets-version-changelog-manager/) | Verified Metadata | — | — | `clawhub install changesets-version-changelog-manager` |
 | [Claude Code MCP Bridge](../../skills/claude-code-mcp-bridge/) | Security Reviewed | — | — | `clawhub install claude-code-mcp-bridge` |
 | [E2B Code Execution MCP](../../skills/e2b-code-execution-mcp/) | Security Reviewed | — | — | `clawhub install e2b-code-execution-mcp` |
 | [Frontend Design Guidance Skill](../../skills/frontend-design-guidance-skill/) | Security Reviewed | — | — | `clawhub install frontend-design-guidance-skill` |
-| [fzf Command-Line Fuzzy Finder](../../skills/fzf-command-line-fuzzy-finder/) | Verified Metadata | — | — | `clawhub install fzf-command-line-fuzzy-finder` |
+| [fzf Command-Line Fuzzy Finder](../../skills/fzf-command-line-fuzzy-finder/) | Security Reviewed | — | — | `clawhub install fzf-command-line-fuzzy-finder` |
 | [Git Bisect Automator](../../skills/git-bisect-automator/) | Security Reviewed | — | — | `clawhub install git-bisect-automator` |
 | [Git Diff Complexity Analyzer](../../skills/git-diff-complexity-analyzer/) | Security Reviewed | — | — | `clawhub install git-diff-complexity-analyzer` |
-| [Gum Interactive Shell Script Toolkit](../../skills/gum-interactive-shell-script-toolkit/) | Verified Metadata | — | — | `clawhub install gum-interactive-shell-script-toolkit` |
-| [Hyperfine Command-Line Benchmarking Tool](../../skills/hyperfine-command-line-benchmarking-tool/) | Verified Metadata | — | — | `clawhub install hyperfine-command-line-benchmarking-tool` |
+| [Gum Interactive Shell Script Toolkit](../../skills/gum-interactive-shell-script-toolkit/) | Security Reviewed | — | — | `clawhub install gum-interactive-shell-script-toolkit` |
+| [Hyperfine Command-Line Benchmarking Tool](../../skills/hyperfine-command-line-benchmarking-tool/) | Security Reviewed | — | — | `clawhub install hyperfine-command-line-benchmarking-tool` |
 | [Jira Advanced Query Agent](../../skills/jira-advanced-query-agent/) | Security Reviewed | — | — | `clawhub install jira-advanced-query-agent` |
-| [Just Command Runner](../../skills/just-command-runner/) | Verified Metadata | — | — | `clawhub install just-command-runner` |
-| [lazygit Terminal UI for Git Operations](../../skills/lazygit-terminal-ui-git-operations/) | Verified Metadata | — | — | `clawhub install lazygit-terminal-ui-git-operations` |
-| [Lefthook Git Hooks Manager](../../skills/lefthook-git-hooks-manager/) | Verified Metadata | — | — | `clawhub install lefthook-git-hooks-manager` |
+| [Just Command Runner](../../skills/just-command-runner/) | Security Reviewed | — | — | `clawhub install just-command-runner` |
+| [lazygit Terminal UI for Git Operations](../../skills/lazygit-terminal-ui-git-operations/) | Security Reviewed | — | — | `clawhub install lazygit-terminal-ui-git-operations` |
 | [LLDB Debug Session Automator](../../skills/lldb-debug-session-automator/) | Security Reviewed | — | — | `clawhub install lldb-debug-session-automator` |
 | [Makefile Dependency Auditor](../../skills/makefile-dependency-auditor/) | Security Reviewed | — | — | `clawhub install makefile-dependency-auditor` |
-| [Mise Dev Tool Version Manager](../../skills/mise-dev-tool-version-manager/) | Verified Metadata | — | — | `clawhub install mise-dev-tool-version-manager` |
 | [n8n GitHub Issue-to-Jira Ticket Automator](../../skills/n8n-github-jira-ticket-automator/) | Verified Metadata | — | — | `clawhub install n8n-github-jira-ticket-automator` |
 | [Nix Flake Configuration Builder](../../skills/nix-flake-configuration-builder/) | Security Reviewed | — | — | `clawhub install nix-flake-configuration-builder` |
 | [NPM Package Auditor](../../skills/npm-package-auditor-registry-api/) | Security Reviewed | — | — | `clawhub install npm-package-auditor-registry-api` |
+| [Nushell Structured Data Shell](../../skills/nushell-structured-data-shell/) | Verified Metadata | — | — | `clawhub install nushell-structured-data-shell` |
 | [Package Vulnerability Scanner](../../skills/package-vuln-scanner-osv-api/) | Security Reviewed | — | — | `clawhub install package-vuln-scanner-osv-api` |
-| [pgroll PostgreSQL Zero-Downtime Schema Migration](../../skills/pgroll-postgresql-zero-downtime-schema-migration/) | Verified Metadata | — | — | `clawhub install pgroll-postgresql-zero-downtime-schema-migration` |
-| [Repomix Codebase Context Packer for LLMs](../../skills/repomix-codebase-context-packer-llm/) | Verified Metadata | — | — | `clawhub install repomix-codebase-context-packer-llm` |
-| [ripgrep Recursive Regex Search Tool](../../skills/ripgrep-recursive-regex-search-tool/) | Verified Metadata | — | — | `clawhub install ripgrep-recursive-regex-search-tool` |
-| [sqlc Type-Safe SQL Code Generator](../../skills/sqlc-type-safe-sql-code-generator/) | Verified Metadata | — | — | `clawhub install sqlc-type-safe-sql-code-generator` |
-| [Turborepo Monorepo Build System](../../skills/turborepo-monorepo-build-system/) | Verified Metadata | — | — | `clawhub install turborepo-monorepo-build-system` |
-| [uv Ultra-Fast Python Package and Project Manager](../../skills/uv-ultra-fast-python-package-project-manager/) | Verified Metadata | — | — | `clawhub install uv-ultra-fast-python-package-project-manager` |
+| [Posting Terminal API Client](../../skills/posting-terminal-api-client/) | Verified Metadata | — | — | `clawhub install posting-terminal-api-client` |
+| [Repomix Codebase Context Packer for LLMs](../../skills/repomix-codebase-context-packer-llm/) | Security Reviewed | — | — | `clawhub install repomix-codebase-context-packer-llm` |
+| [ripgrep Recursive Regex Search Tool](../../skills/ripgrep-recursive-regex-search-tool/) | Security Reviewed | — | — | `clawhub install ripgrep-recursive-regex-search-tool` |
 | [VS Code Extension Debugger](../../skills/vscode-extension-debugger-dap-protocol/) | Security Reviewed | — | — | `clawhub install vscode-extension-debugger-dap-protocol` |
 | [WASM Component Model Linker](../../skills/wasm-component-model-linker/) | Security Reviewed | — | — | `clawhub install wasm-component-model-linker` |
 
@@ -165,7 +167,7 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (137 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
 - 📚 [Library & API Reference](../library-api-reference/) (89 skills)
-- 🔒 [Security & Verification](../security-verification/) (88 skills)
+- 🔒 [Security & Verification](../security-verification/) (89 skills)
 
 ---
 

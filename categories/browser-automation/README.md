@@ -101,7 +101,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Selenium Grid Session Manager](../../skills/selenium-grid-session-manager/) | Security Reviewed | 34.2k | 2M/wk | `clawhub install selenium-grid-session-manager` |
 | [Selenium Grid Session Router](../../skills/selenium-grid-session-router/) | Security Reviewed | 34.2k | 2M/wk | `clawhub install selenium-grid-session-router` |
 | [Selenium Grid Test Orchestrator](../../skills/selenium-grid-test-orchestrator-2/) | Security Reviewed | 34.2k | 2M/wk | `clawhub install selenium-grid-test-orchestrator-2` |
-| [CDP Network Interception Logger](../../skills/cdp-network-interception-logger/) | Verified Metadata | 787 | 6M/wk | `clawhub install cdp-network-interception-logger` |
+| [CDP Network Interception Logger](../../skills/cdp-network-interception-logger/) | Verified Metadata | 789 | 6M/wk | `clawhub install cdp-network-interception-logger` |
 
 ---
 
@@ -127,7 +127,7 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (137 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
 - 📚 [Library & API Reference](../library-api-reference/) (89 skills)
-- 🔒 [Security & Verification](../security-verification/) (88 skills)
+- 🔒 [Security & Verification](../security-verification/) (89 skills)
 
 ---
 

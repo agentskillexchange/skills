@@ -18,12 +18,12 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 
 | Skill | Tier | Signal | Install |
 |---|---|---:|---|
-| [OpenAI Whisper API Transcription](../../skills/openai-whisper-api-transcription/) | Security Reviewed | ⭐ 96.5k | `clawhub install openai-whisper-api-transcription` |
-| [OpenAI Whisper Batch Transcription Pipeline](../../skills/whisper-batch-transcription-pipeline/) | Security Reviewed | ⭐ 96.5k | `clawhub install whisper-batch-transcription-pipeline` |
-| [OpenAI Whisper Transcription](../../skills/openai-whisper-transcription/) | Security Reviewed | ⭐ 96.5k | `clawhub install openai-whisper-transcription` |
-| [Podcast Transcription Pipeline](../../skills/podcast-transcription-pipeline-agent/) | Security Reviewed | ⭐ 96.5k | `clawhub install podcast-transcription-pipeline-agent` |
-| [Whisper Diarization Post-Processor](../../skills/whisper-diarization-post-processor/) | Security Reviewed | ⭐ 96.5k | `clawhub install whisper-diarization-post-processor` |
-| [Whisper Subtitle Generator](../../skills/whisper-subtitle-generator/) | Security Reviewed | ⭐ 96.5k | `clawhub install whisper-subtitle-generator` |
+| [OpenAI Whisper API Transcription](../../skills/openai-whisper-api-transcription/) | Security Reviewed | ⭐ 96.6k | `clawhub install openai-whisper-api-transcription` |
+| [OpenAI Whisper Batch Transcription Pipeline](../../skills/whisper-batch-transcription-pipeline/) | Security Reviewed | ⭐ 96.6k | `clawhub install whisper-batch-transcription-pipeline` |
+| [OpenAI Whisper Transcription](../../skills/openai-whisper-transcription/) | Security Reviewed | ⭐ 96.6k | `clawhub install openai-whisper-transcription` |
+| [Podcast Transcription Pipeline](../../skills/podcast-transcription-pipeline-agent/) | Security Reviewed | ⭐ 96.6k | `clawhub install podcast-transcription-pipeline-agent` |
+| [Whisper Diarization Post-Processor](../../skills/whisper-diarization-post-processor/) | Security Reviewed | ⭐ 96.6k | `clawhub install whisper-diarization-post-processor` |
+| [Whisper Subtitle Generator](../../skills/whisper-subtitle-generator/) | Security Reviewed | ⭐ 96.6k | `clawhub install whisper-subtitle-generator` |
 
 ---
 
@@ -57,16 +57,16 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 
 | Skill | Tier | GitHub Stars | npm Downloads | Install |
 |---|---|---:|---:|---|
-| [OpenAI Whisper API Transcription](../../skills/openai-whisper-api-transcription/) | Security Reviewed | 96.5k | 16.3M/wk | `clawhub install openai-whisper-api-transcription` |
-| [OpenAI Whisper Batch Transcription Pipeline](../../skills/whisper-batch-transcription-pipeline/) | Security Reviewed | 96.5k | 16.3M/wk | `clawhub install whisper-batch-transcription-pipeline` |
-| [OpenAI Whisper Transcription](../../skills/openai-whisper-transcription/) | Security Reviewed | 96.5k | 16.3M/wk | `clawhub install openai-whisper-transcription` |
-| [Podcast Transcription Pipeline](../../skills/podcast-transcription-pipeline-agent/) | Security Reviewed | 96.5k | 16.3M/wk | `clawhub install podcast-transcription-pipeline-agent` |
-| [Whisper Diarization Post-Processor](../../skills/whisper-diarization-post-processor/) | Security Reviewed | 96.5k | 16.3M/wk | `clawhub install whisper-diarization-post-processor` |
-| [Whisper Subtitle Generator](../../skills/whisper-subtitle-generator/) | Security Reviewed | 96.5k | 16.3M/wk | `clawhub install whisper-subtitle-generator` |
-| [Whisper.cpp Local Transcription Engine](../../skills/whisper-cpp-local-transcription-engine/) | Security Reviewed | 96.5k | 16.3M/wk | `clawhub install whisper-cpp-local-transcription-engine` |
-| [YouTube Chapters Generator with Whisper](../../skills/youtube-chapters-generator-whisper/) | Security Reviewed | 96.5k | 16.3M/wk | `clawhub install youtube-chapters-generator-whisper` |
-| [Podcast RSS Feed Transcriber](../../skills/podcast-rss-feed-transcriber/) | Security Reviewed | 96.5k | — | `clawhub install podcast-rss-feed-transcriber` |
-| [Whisper.cpp Real-Time Transcription Pipeline](../../skills/whisper-cpp-realtime-transcription-pipeline/) | Security Reviewed | 96.5k | — | `clawhub install whisper-cpp-realtime-transcription-pipeline` |
+| [OpenAI Whisper API Transcription](../../skills/openai-whisper-api-transcription/) | Security Reviewed | 96.6k | 16.3M/wk | `clawhub install openai-whisper-api-transcription` |
+| [OpenAI Whisper Batch Transcription Pipeline](../../skills/whisper-batch-transcription-pipeline/) | Security Reviewed | 96.6k | 16.3M/wk | `clawhub install whisper-batch-transcription-pipeline` |
+| [OpenAI Whisper Transcription](../../skills/openai-whisper-transcription/) | Security Reviewed | 96.6k | 16.3M/wk | `clawhub install openai-whisper-transcription` |
+| [Podcast Transcription Pipeline](../../skills/podcast-transcription-pipeline-agent/) | Security Reviewed | 96.6k | 16.3M/wk | `clawhub install podcast-transcription-pipeline-agent` |
+| [Whisper Diarization Post-Processor](../../skills/whisper-diarization-post-processor/) | Security Reviewed | 96.6k | 16.3M/wk | `clawhub install whisper-diarization-post-processor` |
+| [Whisper Subtitle Generator](../../skills/whisper-subtitle-generator/) | Security Reviewed | 96.6k | 16.3M/wk | `clawhub install whisper-subtitle-generator` |
+| [Whisper.cpp Local Transcription Engine](../../skills/whisper-cpp-local-transcription-engine/) | Security Reviewed | 96.6k | 16.3M/wk | `clawhub install whisper-cpp-local-transcription-engine` |
+| [YouTube Chapters Generator with Whisper](../../skills/youtube-chapters-generator-whisper/) | Security Reviewed | 96.6k | 16.3M/wk | `clawhub install youtube-chapters-generator-whisper` |
+| [Podcast RSS Feed Transcriber](../../skills/podcast-rss-feed-transcriber/) | Security Reviewed | 96.6k | — | `clawhub install podcast-rss-feed-transcriber` |
+| [Whisper.cpp Real-Time Transcription Pipeline](../../skills/whisper-cpp-realtime-transcription-pipeline/) | Security Reviewed | 96.6k | — | `clawhub install whisper-cpp-realtime-transcription-pipeline` |
 | [GStreamer Live Stream Transcoder](../../skills/gstreamer-live-stream-transcoder/) | Security Reviewed | 63.3k | 5.3M/wk | `clawhub install gstreamer-live-stream-transcoder` |
 | [Audio Stem Separator with Demucs](../../skills/audio-stem-separator-demucs/) | Security Reviewed | 58.3k | — | `clawhub install audio-stem-separator-demucs` |
 | [Deepgram Nova STT Pipeline](../../skills/deepgram-nova-stt-pipeline/) | Security Reviewed | 58.3k | — | `clawhub install deepgram-nova-stt-pipeline` |
@@ -122,7 +122,7 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (137 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
 - 📚 [Library & API Reference](../library-api-reference/) (89 skills)
-- 🔒 [Security & Verification](../security-verification/) (88 skills)
+- 🔒 [Security & Verification](../security-verification/) (89 skills)
 
 ---
 

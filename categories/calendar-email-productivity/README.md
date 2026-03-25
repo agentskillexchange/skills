@@ -84,7 +84,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Slack Workflow Bot](../../skills/slack-workflow-bot-bolt-sdk/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install slack-workflow-bot-bolt-sdk` |
 | [Slack Workflow Bot Builder](../../skills/slack-workflow-bot-builder/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install slack-workflow-bot-builder` |
 | [Slack Workflow Builder Agent](../../skills/slack-workflow-builder-agent/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install slack-workflow-builder-agent` |
-| [Microsoft Graph Mail Triage Agent](../../skills/microsoft-graph-mail-triage-agent/) | Security Reviewed | 787 | 6M/wk | `clawhub install microsoft-graph-mail-triage-agent` |
+| [Microsoft Graph Mail Triage Agent](../../skills/microsoft-graph-mail-triage-agent/) | Security Reviewed | 789 | 6M/wk | `clawhub install microsoft-graph-mail-triage-agent` |
 | [Atlassian Rovo MCP Server](../../skills/atlassian-rovo-mcp-server/) | Security Reviewed | — | — | `clawhub install atlassian-rovo-mcp-server` |
 | [Gmail API Thread Label Triage](../../skills/gmail-api-thread-label-triage/) | Security Reviewed | — | — | `clawhub install gmail-api-thread-label-triage` |
 | [Gmail Thread Summarizer and Action Extractor](../../skills/gmail-thread-summarizer-action-extractor/) | Security Reviewed | — | — | `clawhub install gmail-thread-summarizer-action-extractor` |
@@ -132,7 +132,7 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (137 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
 - 📚 [Library & API Reference](../library-api-reference/) (89 skills)
-- 🔒 [Security & Verification](../security-verification/) (88 skills)
+- 🔒 [Security & Verification](../security-verification/) (89 skills)
 
 ---
 
