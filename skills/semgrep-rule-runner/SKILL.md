@@ -3,7 +3,7 @@ name: "Semgrep Rule Runner"
 description: "Executes Semgrep static analysis using the semgrep CLI with custom YAML rule packs. Supports –config auto for community rules, parses JSON output via –json flag, and integrates with Semgrep App API for centralized findings management and triage workflows."
 category: "Code Quality & Review"
 framework: "Gemini"
-verification: security_reviewed  # security_reviewed or listed
+verification: security_reviewed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
@@ -12,7 +12,7 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/semgrep-rule-runner/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "semgrep"  # from ase_tool_match
-  github_stars: 14543  # from ase_github_stars (integer, not string)
+  github_stars: 14551  # from ase_github_stars (integer, not string)
   github_repo: "semgrep/semgrep"  # from ase_github_repo
   license: "LGPL-2.1"  # from ase_tool_license
   maintained: true  # from ase_tool_maintained

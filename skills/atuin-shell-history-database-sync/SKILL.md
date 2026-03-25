@@ -3,16 +3,27 @@ name: "Atuin Shell History Database and Sync"
 description: "Atuin replaces your existing shell history with a SQLite database that records additional context like exit codes, session IDs, working directories, and command durations. It provides encrypted cross-machine sync and a full-screen fuzzy search UI bound to Ctrl-R."
 category: "Developer Tools"
 framework: "Claude Code"
-verification: listed  # security_reviewed or listed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/atuin-shell-history-database-sync/"
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "sqlite"  # from ase_tool_match
+  github_stars: 7043  # from ase_github_stars (integer, not string)
+  npm_weekly_downloads: 4960915  # from ase_npm_downloads
+  github_repo: "WiseLibs/better-sqlite3"  # from ase_github_repo
+  license: "MIT"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Atuin Shell History Database and Sync
+
+Atuin replaces your existing shell history with a SQLite database that records additional context like exit codes, session IDs, working directories, and command durations. It provides encrypted cross-machine sync and a full-screen fuzzy search UI bound to Ctrl-R.
+
+## Overview
 
 Atuin is a Rust-based shell history tool that stores every command you run in a local SQLite database along with metadata that standard shell history files discard. Each entry captures the command text, exit code, duration, working directory, hostname, and session identifier. This structured storage enables queries that traditional history files cannot support.
 
@@ -23,7 +34,6 @@ Atuin’s sync feature uses end-to-end encryption to replicate history across ma
 Advanced queries use the atuin search subcommand with flags for exit code filtering (–exit 0), time ranges (–after “yesterday 3pm”), and text patterns. The atuin stats command calculates usage statistics like most-run commands and total command counts. Import from existing history files is handled by atuin import auto, which detects and migrates from bash_history, zsh_history, fish_history, and other formats.
 
 Atuin is distributed through its install script, Homebrew, cargo, pacman, and Nix. The project has an active community on Discord and a dedicated forum at forum.atuin.sh. It is licensed under MIT.
-
 
 ## Installation
 
@@ -56,3 +66,7 @@ npx skills add agentskillexchange/skills --skill atuin-shell-history-database-sy
 ```bash
 clawhub install atuin-shell-history-database-sync
 ```
+
+## Source
+
+- Marketplace: https://agentskillexchange.com/skills/atuin-shell-history-database-sync/

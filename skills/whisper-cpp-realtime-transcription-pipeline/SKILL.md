@@ -3,7 +3,7 @@ name: "Whisper.cpp Real-Time Transcription Pipeline"
 description: "Streams audio from PulseAudio or ALSA devices into whisper.cpp for real-time speech-to-text with word-level timestamps. Outputs SRT/VTT subtitles and JSON transcripts simultaneously."
 category: "Media & Transcription"
 framework: "Claude Code"
-verification: security_reviewed  # security_reviewed or listed
+verification: security_reviewed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
@@ -12,7 +12,7 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/whisper-cpp-realtime-transcription-pipeline/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "whisper"  # from ase_tool_match
-  github_stars: 96530  # from ase_github_stars (integer, not string)
+  github_stars: 96570  # from ase_github_stars (integer, not string)
   github_repo: "openai/whisper"  # from ase_github_repo
   license: "MIT"  # from ase_tool_license
   maintained: true  # from ase_tool_maintained

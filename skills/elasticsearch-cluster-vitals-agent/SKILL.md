@@ -3,7 +3,7 @@ name: "ElasticSearch Cluster Vitals Agent"
 description: "Polls Elasticsearch _cluster/health, _nodes/stats, and _cat/shards APIs to detect node drops, unassigned shards, and JVM heap pressure. Forwards anomalies to Opsgenie Alert API for on-call routing."
 category: "Monitoring & Alerts"
 framework: "Claude Agents"
-verification: security_reviewed  # security_reviewed or listed
+verification: security_reviewed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
@@ -12,7 +12,7 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/elasticsearch-cluster-vitals-agent/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "elasticsearch"  # from ase_tool_match
-  github_stars: 76387  # from ase_github_stars (integer, not string)
+  github_stars: 76393  # from ase_github_stars (integer, not string)
   npm_weekly_downloads: 1893773  # from ase_npm_downloads
   github_repo: "elastic/elasticsearch"  # from ase_github_repo
   license: "NOASSERTION"  # from ase_tool_license

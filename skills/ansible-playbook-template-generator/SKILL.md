@@ -3,7 +3,7 @@ name: "Ansible Playbook Template Generator"
 description: "Generates Ansible playbook YAML with proper module usage, handler chains, and role structures using ansible-core built-in modules. Supports Jinja2 template rendering and vault-encrypted variable files."
 category: "Templates & Workflows"
 framework: "OpenClaw"
-verification: security_reviewed  # security_reviewed or listed
+verification: security_reviewed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
@@ -12,7 +12,7 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/ansible-playbook-template-generator/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "ansible"  # from ase_tool_match
-  github_stars: 68365  # from ase_github_stars (integer, not string)
+  github_stars: 68377  # from ase_github_stars (integer, not string)
   github_repo: "ansible/ansible"  # from ase_github_repo
   license: "GPL-3.0"  # from ase_tool_license
   maintained: true  # from ase_tool_maintained

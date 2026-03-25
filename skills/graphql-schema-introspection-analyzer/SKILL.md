@@ -3,7 +3,7 @@ name: "GraphQL Schema Introspection Analyzer"
 description: "Introspects GraphQL APIs via the standard __schema query and analyzes type systems using graphql-js utilities (buildClientSchema, printSchema). Detects N+1 patterns, circular types, deprecated field usage, and missing nullability annotations."
 category: "Library & API Reference"
 framework: "MCP-compatible"
-verification: security_reviewed  # security_reviewed or listed
+verification: security_reviewed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
@@ -12,7 +12,7 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/graphql-schema-introspection-analyzer/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "graphql"  # from ase_tool_match
-  github_stars: 20335  # from ase_github_stars (integer, not string)
+  github_stars: 20332  # from ase_github_stars (integer, not string)
   npm_weekly_downloads: 32010306  # from ase_npm_downloads
   github_repo: "graphql/graphql-js"  # from ase_github_repo
   license: "MIT"  # from ase_tool_license

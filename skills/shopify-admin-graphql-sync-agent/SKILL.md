@@ -3,7 +3,7 @@ name: "Shopify Admin GraphQL Sync Agent"
 description: "Coordinates Shopify data syncs with the Admin GraphQL API, including `bulkOperationRunQuery`, node connections, and webhook-assisted delta updates. Useful for product, inventory, and order pipelines that need higher throughput than ad hoc REST polling."
 category: "Integrations & Connectors"
 framework: "ChatGPT Agents"
-verification: security_reviewed  # security_reviewed or listed
+verification: security_reviewed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
@@ -12,7 +12,7 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/shopify-admin-graphql-sync-agent/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "graphql"  # from ase_tool_match
-  github_stars: 20335  # from ase_github_stars (integer, not string)
+  github_stars: 20332  # from ase_github_stars (integer, not string)
   npm_weekly_downloads: 32010306  # from ase_npm_downloads
   github_repo: "graphql/graphql-js"  # from ase_github_repo
   license: "MIT"  # from ase_tool_license

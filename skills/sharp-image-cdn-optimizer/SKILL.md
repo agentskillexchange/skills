@@ -3,7 +3,7 @@ name: "Sharp Image CDN Optimizer"
 description: "On-the-fly image optimization using Sharp (libvips Node.js bindings) with CDN-aware caching headers. Supports responsive srcset generation, AVIF/WebP transcoding, and blur placeholder (LQIP) creation."
 category: "Image & Creative Automation"
 framework: "Custom Agents"
-verification: listed  # security_reviewed or listed
+verification: security_reviewed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
@@ -12,7 +12,7 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/sharp-image-cdn-optimizer/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "sharp"  # from ase_tool_match
-  github_stars: 32068  # from ase_github_stars (integer, not string)
+  github_stars: 32074  # from ase_github_stars (integer, not string)
   npm_weekly_downloads: 54450041  # from ase_npm_downloads
   github_repo: "lovell/sharp"  # from ase_github_repo
   license: "Apache-2.0"  # from ase_tool_license
@@ -25,11 +25,19 @@ On-the-fly image optimization using Sharp (libvips Node.js bindings) with CDN-aw
 
 ## Overview
 
-The Sharp Image CDN Optimizer provides production-grade image optimization using Sharp, the high-performance Node.js bindings for libvips. It processes images on-the-fly or in batch mode, generating optimized variants for web delivery with proper CDN cache headers (Cache-Control, ETag, Vary: Accept).
+**Sharp Image CDN Optimizer** is built around Sharp image processing library powered by libvips. The underlying ecosystem is represented by `lovell/sharp` (32,068+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like resize, format conversion, AVIF/WebP, metadata, pipelines, buffers and preserving the operational context that matters for real tasks.
 
-Core capabilities include responsive image generation with automatic srcset creation at configurable breakpoints (320w, 640w, 1024w, 1920w), format transcoding to AVIF (sharp.avif({quality: 50})) and WebP (sharp.webp({effort: 6})) with Accept header-based content negotiation, and Low Quality Image Placeholder (LQIP) generation using sharp.blur(20).resize(20) for progressive loading.
+In practice, the skill gives an agent a stable interface to sharp so it can inspect state, run the right operation, and produce a result that fits into a larger engineering or operations pipeline. The original use case is clear: On-the-fly image optimization using Sharp (libvips Node.js bindings) with CDN-aware caching headers. Supports responsive srcset generation, AVIF/WebP transcoding, and blur placeholder (LQIP) creation. The implementation typically relies on resize, format conversion, AVIF/WebP, metadata, pipelines, buffers, with configuration passed through environment variables, connection strings, service tokens, or workspace config depending on the upstream platform.
 
-The skill handles advanced transformations including smart cropping with sharp.resize({fit: ‘cover’, position: sharp.strategy.attention}), color space conversion, animated GIF/WebP processing, and SVG rasterization. It integrates with S3-compatible storage for origin serving, supports Cloudflare/Fastly cache purge APIs on source updates, and generates image processing manifests tracking all variants. Performance monitoring includes processing time histograms and cache hit ratio tracking.
+Accesses resize, format conversion, AVIF/WebP, metadata, pipelines, buffers instead of scraping a UI, which makes runs easier to audit and retry.
+
+Supports structured inputs and outputs so another tool, agent, or CI step can consume the result.
+
+Can be wired into cron jobs, webhook handlers, MCP transports, or local CLI workflows depending on the skill format.
+
+Fits into broader integration points such as image optimization, CDN transforms, placeholders, and responsive assets.
+
+Key integration points include image optimization, CDN transforms, placeholders, and responsive assets. In a real environment that usually means passing credentials through env vars or app config, respecting rate limits and permission scopes, and returning structured artifacts that can be attached to tickets, pull requests, dashboards, or follow-up automations.
 
 ## Installation
 

@@ -3,7 +3,7 @@ name: "Git Bisect Automation Agent"
 description: "Automates git bisect workflows to find regression-introducing commits using custom test scripts and the git bisect run interface. Supports containerized test execution via Docker to ensure reproducible bisect environments."
 category: "Code Quality & Review"
 framework: "Custom Agents"
-verification: security_reviewed  # security_reviewed or listed
+verification: security_reviewed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

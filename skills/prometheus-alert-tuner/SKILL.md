@@ -3,7 +3,7 @@ name: "Prometheus Alert Tuner"
 description: "Tunes Prometheus alerting rules using the Prometheus HTTP API and PromQL query analysis. Reduces alert fatigue by analyzing firing history, adjusting thresholds via histogram_quantile, and configuring inhibition rules."
 category: "Runbooks & Diagnostics"
 framework: "Gemini"
-verification: security_reviewed  # security_reviewed or listed
+verification: security_reviewed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
@@ -12,7 +12,7 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/prometheus-alert-tuner/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "prometheus"  # from ase_tool_match
-  github_stars: 63278  # from ase_github_stars (integer, not string)
+  github_stars: 63289  # from ase_github_stars (integer, not string)
   npm_weekly_downloads: 5319832  # from ase_npm_downloads
   github_repo: "prometheus/prometheus"  # from ase_github_repo
   license: "Apache-2.0"  # from ase_tool_license

@@ -3,7 +3,7 @@ name: "Nginx Error Log Runbook Agent"
 description: "Automates Nginx error diagnosis using nginx -T configuration dump, error.log pattern matching, and the Nginx Plus REST API /api/8/http/upstreams endpoint. Resolves 502 Bad Gateway, SSL handshake failures, and upstream timeout issues."
 category: "Runbooks & Diagnostics"
 framework: "ChatGPT Agents"
-verification: security_reviewed  # security_reviewed or listed
+verification: security_reviewed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
@@ -12,7 +12,7 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/nginx-error-log-runbook-agent/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "nginx"  # from ase_tool_match
-  github_stars: 29762  # from ase_github_stars (integer, not string)
+  github_stars: 29767  # from ase_github_stars (integer, not string)
   github_repo: "nginx/nginx"  # from ase_github_repo
   license: "BSD-2-Clause"  # from ase_tool_license
   maintained: true  # from ase_tool_maintained

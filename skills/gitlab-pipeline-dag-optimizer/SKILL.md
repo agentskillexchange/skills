@@ -3,7 +3,7 @@ name: "GitLab Pipeline DAG Optimizer"
 description: "Analyzes GitLab CI/CD pipeline YAML using the GitLab Pipelines API to detect bottlenecks and restructure directed acyclic graph (DAG) dependencies. Integrates with gitlab-runner exec and the Merge Request Approvals API for automated gate checks."
 category: "CI/CD Integrations"
 framework: "OpenClaw"
-verification: security_reviewed  # security_reviewed or listed
+verification: security_reviewed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
@@ -12,7 +12,7 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/gitlab-pipeline-dag-optimizer/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "gitlab"  # from ase_tool_match
-  github_stars: 24276  # from ase_github_stars (integer, not string)
+  github_stars: 24278  # from ase_github_stars (integer, not string)
   github_repo: "gitlabhq/gitlabhq"  # from ase_github_repo
   license: "NOASSERTION"  # from ase_tool_license
   maintained: true  # from ase_tool_maintained

@@ -3,7 +3,7 @@ name: "Grafana Dashboard Template Generator"
 description: "Programmatically creates Grafana dashboard JSON models using the Grafana HTTP API and grafonnet-lib. Supports templated variables, panel linking, and multi-datasource layouts for Prometheus, Loki, and Tempo."
 category: "Monitoring & Alerts"
 framework: "Cursor"
-verification: security_reviewed  # security_reviewed or listed
+verification: security_reviewed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
@@ -12,7 +12,7 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/grafana-dashboard-template-generator/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "grafana"  # from ase_tool_match
-  github_stars: 72784  # from ase_github_stars (integer, not string)
+  github_stars: 72796  # from ase_github_stars (integer, not string)
   github_repo: "grafana/grafana"  # from ase_github_repo
   license: "AGPL-3.0"  # from ase_tool_license
   maintained: true  # from ase_tool_maintained

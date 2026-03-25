@@ -3,7 +3,7 @@ name: "Notion Database Sync Bridge"
 description: "Synchronizes data between Notion databases and external sources using the Notion API v2022-06-28 with cursor-based pagination. Handles property type mapping for select, multi-select, relation, and formula fields with conflict resolution via last-write-wins strategy."
 category: "Calendar, Email & Productivity"
 framework: "Claude Agents"
-verification: security_reviewed  # security_reviewed or listed
+verification: security_reviewed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

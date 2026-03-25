@@ -3,7 +3,7 @@ name: "VS Code Extension Debugger"
 description: "Debugs VS Code extensions using the Debug Adapter Protocol (DAP) with breakpoint management and variable inspection. Integrates with VS Code Extension API for webview debugging and uses Chrome DevTools Protocol for renderer process analysis."
 category: "Developer Tools"
 framework: "Claude Code"
-verification: security_reviewed  # security_reviewed or listed
+verification: security_reviewed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

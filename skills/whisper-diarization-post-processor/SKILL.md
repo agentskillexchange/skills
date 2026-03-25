@@ -3,7 +3,7 @@ name: "Whisper Diarization Post-Processor"
 description: "Enhances OpenAI Whisper transcription output with speaker diarization using pyannote.audio pipeline and speechbrain embeddings. Aligns word-level timestamps from whisper-timestamped with speaker segments for multi-speaker meeting transcript generation."
 category: "Media & Transcription"
 framework: "Claude Code"
-verification: security_reviewed  # security_reviewed or listed
+verification: security_reviewed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
@@ -12,7 +12,7 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/whisper-diarization-post-processor/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "whisper"  # from ase_tool_match
-  github_stars: 96530  # from ase_github_stars (integer, not string)
+  github_stars: 96570  # from ase_github_stars (integer, not string)
   npm_weekly_downloads: 16275389  # from ase_npm_downloads
   github_repo: "openai/whisper"  # from ase_github_repo
   license: "MIT"  # from ase_tool_license

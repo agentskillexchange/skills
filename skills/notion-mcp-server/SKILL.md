@@ -1,9 +1,9 @@
 ---
 name: "Notion MCP Server"
-description: "Use this skill when you need to read or write Notion pages, create database entries, search across a workspace, or update properties from your AI agent. It connects agents to Notion as a knowledge base and project management system for seamless information retrieval and creation."
+description: "Notion MCP Server is built around Notion workspace and database platform. The underlying ecosystem is represented by makenotion/notion-sdk-js (5,562+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like pages, databases.query, blocks.children, properties, relations, pagination and preserving the operational […]"
 category: "Calendar, Email & Productivity"
 framework: "MCP-compatible"
-verification: listed  # security_reviewed or listed
+verification: security_reviewed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
@@ -21,11 +21,23 @@ tool_ecosystem:  # ONLY if real signals exist in meta
 
 # Notion MCP Server
 
-Use this skill when you need to read or write Notion pages, create database entries, search across a workspace, or update properties from your AI agent. It connects agents to Notion as a knowledge base and project management system for seamless information retrieval and creation.
+Notion MCP Server is built around Notion workspace and database platform. The underlying ecosystem is represented by makenotion/notion-sdk-js (5,562+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like pages, databases.query, blocks.children, properties, relations, pagination and preserving the operational […]
 
 ## Overview
 
-Use this skill when you need to read or write Notion pages, create database entries, search across a workspace, or update properties from your AI agent. It connects agents to Notion as a knowledge base and project management system for seamless information retrieval and creation.
+**Notion MCP Server** is built around Notion workspace and database platform. The underlying ecosystem is represented by `makenotion/notion-sdk-js` (5,562+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like pages, databases.query, blocks.children, properties, relations, pagination and preserving the operational context that matters for real tasks.
+
+In practice, the skill gives an agent a stable interface to notion so it can inspect state, run the right operation, and produce a result that fits into a larger engineering or operations pipeline. The implementation typically relies on pages, databases.query, blocks.children, properties, relations, pagination, with configuration passed through environment variables, connection strings, service tokens, or workspace config depending on the upstream platform.
+
+Accesses pages, databases.query, blocks.children, properties, relations, pagination instead of scraping a UI, which makes runs easier to audit and retry.
+
+Supports structured inputs and outputs so another tool, agent, or CI step can consume the result.
+
+Can be wired into cron jobs, webhook handlers, MCP transports, or local CLI workflows depending on the skill format.
+
+Fits into broader integration points such as knowledge bases, task tracking, content sync, and structured note workflows.
+
+Because this is exposed as an MCP skill, the tool surface is designed for agent-safe, structured calls instead of free-form shell usage. That means models can inspect schemas, call a narrow set of operations, and keep context across a longer workflow without re-implementing credentials or connection logic on every step. Key integration points include knowledge bases, task tracking, content sync, and structured note workflows. In a real environment that usually means passing credentials through env vars or app config, respecting rate limits and permission scopes, and returning structured artifacts that can be attached to tickets, pull requests, dashboards, or follow-up automations.
 
 ## Installation
 

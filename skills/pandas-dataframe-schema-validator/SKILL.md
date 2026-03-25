@@ -3,7 +3,7 @@ name: "Pandas DataFrame Schema Validator"
 description: "Validates Pandas DataFrame structures using the pandera library API and pa.DataFrameSchema definitions. Enforces column types, nullable constraints, and custom check functions via pandera.Check."
 category: "Data Extraction & Transformation"
 framework: "OpenClaw"
-verification: security_reviewed  # security_reviewed or listed
+verification: security_reviewed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
@@ -12,7 +12,7 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/pandas-dataframe-schema-validator/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "pandas"  # from ase_tool_match
-  github_stars: 48224  # from ase_github_stars (integer, not string)
+  github_stars: 48239  # from ase_github_stars (integer, not string)
   github_repo: "pandas-dev/pandas"  # from ase_github_repo
   license: "BSD-3-Clause"  # from ase_tool_license
   maintained: true  # from ase_tool_maintained

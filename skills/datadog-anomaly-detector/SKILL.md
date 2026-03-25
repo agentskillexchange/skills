@@ -3,7 +3,7 @@ name: "Datadog Anomaly Detector"
 description: "Leverages the Datadog API v2 metrics and events endpoints to detect anomalous patterns. Uses the Datadog Monitors API to create dynamic thresholds and sends escalations via OpsGenie REST API."
 category: "Monitoring & Alerts"
 framework: "Gemini"
-verification: security_reviewed  # security_reviewed or listed
+verification: security_reviewed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
@@ -12,7 +12,7 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/datadog-anomaly-detector/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "datadog"  # from ase_tool_match
-  github_stars: 787  # from ase_github_stars (integer, not string)
+  github_stars: 789  # from ase_github_stars (integer, not string)
   npm_weekly_downloads: 6043057  # from ase_npm_downloads
   github_repo: "DataDog/dd-trace-js"  # from ase_github_repo
   license: "NOASSERTION"  # from ase_tool_license

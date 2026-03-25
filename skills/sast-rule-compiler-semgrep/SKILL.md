@@ -3,7 +3,7 @@ name: "SAST Rule Compiler for Semgrep"
 description: "Compiles and validates custom Semgrep SAST rules using the semgrep-core engine. Tests pattern matching against sample codebases and generates rule performance benchmarks with p/ci rulesets."
 category: "Security & Verification"
 framework: "Codex"
-verification: security_reviewed  # security_reviewed or listed
+verification: security_reviewed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
@@ -12,7 +12,7 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/sast-rule-compiler-semgrep/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "semgrep"  # from ase_tool_match
-  github_stars: 14543  # from ase_github_stars (integer, not string)
+  github_stars: 14551  # from ase_github_stars (integer, not string)
   github_repo: "semgrep/semgrep"  # from ase_github_repo
   license: "LGPL-2.1"  # from ase_tool_license
   maintained: true  # from ase_tool_maintained

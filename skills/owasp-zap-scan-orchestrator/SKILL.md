@@ -3,7 +3,7 @@ name: "OWASP ZAP Scan Orchestrator"
 description: "Orchestrates OWASP ZAP active and passive scans via the ZAP API, automating spider crawls, AJAX spidering with Selenium, and generating SARIF-format vulnerability reports."
 category: "Security & Verification"
 framework: "Codex"
-verification: security_reviewed  # security_reviewed or listed
+verification: security_reviewed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
@@ -12,7 +12,7 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/owasp-zap-scan-orchestrator/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "owasp"  # from ase_tool_match
-  github_stars: 14896  # from ase_github_stars (integer, not string)
+  github_stars: 14900  # from ase_github_stars (integer, not string)
   github_repo: "zaproxy/zaproxy"  # from ase_github_repo
   license: "Apache-2.0"  # from ase_tool_license
   maintained: true  # from ase_tool_maintained

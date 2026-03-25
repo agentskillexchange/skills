@@ -3,7 +3,7 @@ name: "Playwright Cross-Browser Test Runner"
 description: "Runs end-to-end browser tests using Playwright Test with page.goto, page.locator, and expect assertions. Supports Chromium, Firefox, and WebKit with parallel execution and trace recording via trace.zip artifacts."
 category: "Browser Automation"
 framework: "ChatGPT Agents"
-verification: security_reviewed  # security_reviewed or listed
+verification: security_reviewed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
@@ -12,7 +12,7 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/playwright-cross-browser-test-runner/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "playwright"  # from ase_tool_match
-  github_stars: 84874  # from ase_github_stars (integer, not string)
+  github_stars: 84938  # from ase_github_stars (integer, not string)
   npm_weekly_downloads: 39806814  # from ase_npm_downloads
   github_repo: "microsoft/playwright"  # from ase_github_repo
   license: "Apache-2.0"  # from ase_tool_license

@@ -3,7 +3,7 @@ name: "Datadog Monitor Configuration Engine"
 description: "Interfaces with the Datadog API v2 monitors and dashboards endpoints to programmatically create and manage monitors. Uses DogStatsD protocol for custom metric submission and Datadog Terraform provider for IaC."
 category: "Monitoring & Alerts"
 framework: "ChatGPT Agents"
-verification: security_reviewed  # security_reviewed or listed
+verification: security_reviewed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
@@ -12,7 +12,7 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/datadog-monitor-configuration-engine/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "datadog"  # from ase_tool_match
-  github_stars: 787  # from ase_github_stars (integer, not string)
+  github_stars: 789  # from ase_github_stars (integer, not string)
   npm_weekly_downloads: 6043057  # from ase_npm_downloads
   github_repo: "DataDog/dd-trace-js"  # from ase_github_repo
   license: "NOASSERTION"  # from ase_tool_license

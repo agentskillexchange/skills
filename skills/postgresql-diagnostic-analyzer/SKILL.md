@@ -3,7 +3,7 @@ name: "PostgreSQL Diagnostic Analyzer"
 description: "Runs diagnostic queries against PostgreSQL using pg_stat_statements, pg_stat_activity, and pg_locks system views. Identifies slow queries, lock contention, and bloat using pgstattuple and pg_repack extension analysis."
 category: "Runbooks & Diagnostics"
 framework: "Gemini"
-verification: listed  # security_reviewed or listed
+verification: security_reviewed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
@@ -21,11 +21,19 @@ Runs diagnostic queries against PostgreSQL using pg_stat_statements, pg_stat_act
 
 ## Overview
 
-The PostgreSQL Diagnostic Analyzer skill performs comprehensive database health assessments by querying PostgreSQL system catalogs and extension views. It connects via the standard libpq protocol and runs a battery of diagnostic queries against pg_stat_statements to identify top resource-consuming queries by total time, mean time, and calls.
+**PostgreSQL Diagnostic Analyzer** is built around PostgreSQL relational database. It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like SQL, pg_stat_statements, EXPLAIN ANALYZE, locks, indexes, extensions and preserving the operational context that matters for real tasks.
 
-The skill analyzes active sessions through pg_stat_activity to detect long-running transactions, idle-in-transaction connections, and waiting queries. It examines pg_locks to identify lock contention patterns, deadlock risks, and blocking chains. Table and index bloat analysis uses pgstattuple extension functions to calculate dead tuple ratios and recommend VACUUM or pg_repack operations.
+The skill is especially useful when an agent needs to translate a natural-language request into concrete postgresql-level queries, run them safely, and then explain the result in operational terms rather than returning raw output. The original use case is clear: Runs diagnostic queries against PostgreSQL using pg_stat_statements, pg_stat_activity, and pg_locks system views. Identifies slow queries, lock contention, and bloat using pgstattuple and pg_repack extension analysis. The implementation typically relies on SQL, pg_stat_statements, EXPLAIN ANALYZE, locks, indexes, extensions, with configuration passed through environment variables, connection strings, service tokens, or workspace config depending on the upstream platform.
 
-Additional diagnostics include checking replication lag via pg_stat_replication, analyzing checkpoint frequency through pg_stat_bgwriter, evaluating cache hit ratios from pg_stat_user_tables, and reviewing connection pool utilization. The skill generates structured reports with prioritized recommendations, including specific index creation suggestions based on seq_scan counts and estimated performance impact.
+Accesses SQL, pg_stat_statements, EXPLAIN ANALYZE, locks, indexes, extensions instead of scraping a UI, which makes runs easier to audit and retry.
+
+Supports structured inputs and outputs so another tool, agent, or CI step can consume the result.
+
+Can be wired into cron jobs, webhook handlers, MCP transports, or local CLI workflows depending on the skill format.
+
+Fits into broader integration points such as query analysis, diagnostics, warehouses, and application backends.
+
+As a runbook-style skill, the value is not just tool access but operational sequencing: check the right signals first, reduce alert noise, and produce a summary that another engineer can act on immediately. Key integration points include query analysis, diagnostics, warehouses, and application backends. In a real environment that usually means passing credentials through env vars or app config, respecting rate limits and permission scopes, and returning structured artifacts that can be attached to tickets, pull requests, dashboards, or follow-up automations.
 
 ## Installation
 

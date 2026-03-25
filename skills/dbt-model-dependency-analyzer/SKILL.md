@@ -3,7 +3,7 @@ name: "dbt Model Dependency Analyzer"
 description: "Analyzes dbt project DAGs using the dbt manifest.json artifact and the dbt Cloud API. Detects circular dependencies, orphaned models, and generates lineage visualizations."
 category: "Data Extraction & Transformation"
 framework: "Claude Code"
-verification: security_reviewed  # security_reviewed or listed
+verification: security_reviewed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
@@ -12,7 +12,7 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/dbt-model-dependency-analyzer/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "dbt"  # from ase_tool_match
-  github_stars: 12457  # from ase_github_stars (integer, not string)
+  github_stars: 12460  # from ase_github_stars (integer, not string)
   github_repo: "dbt-labs/dbt-core"  # from ase_github_repo
   license: "NOASSERTION"  # from ase_tool_license
   maintained: true  # from ase_tool_maintained

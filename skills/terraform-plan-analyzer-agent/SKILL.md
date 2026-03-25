@@ -3,7 +3,7 @@ name: "Terraform Plan Analyzer"
 description: "Analyzes Terraform plan output using the terraform show -json command and HCL2 parser library. Detects destructive changes, cost implications via Infracost API, and policy violations against Open Policy Agent (OPA) rules."
 category: "CI/CD Integrations"
 framework: "Claude Code"
-verification: security_reviewed  # security_reviewed or listed
+verification: security_reviewed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
@@ -12,7 +12,7 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/terraform-plan-analyzer-agent/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "terraform"  # from ase_tool_match
-  github_stars: 47996  # from ase_github_stars (integer, not string)
+  github_stars: 48003  # from ase_github_stars (integer, not string)
   github_repo: "hashicorp/terraform"  # from ase_github_repo
   license: "NOASSERTION"  # from ase_tool_license
   maintained: true  # from ase_tool_maintained

@@ -3,7 +3,7 @@ name: "ESLint Rule Composer"
 description: "Creates custom ESLint rules using the ESLint RuleTester API and AST Explorer patterns. Generates rule implementations with auto-fix suggestions based on estree node types and scope analysis."
 category: "Code Quality & Review"
 framework: "Custom Agents"
-verification: security_reviewed  # security_reviewed or listed
+verification: security_reviewed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
@@ -12,7 +12,7 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/eslint-rule-composer/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "eslint"  # from ase_tool_match
-  github_stars: 27186  # from ase_github_stars (integer, not string)
+  github_stars: 27185  # from ase_github_stars (integer, not string)
   npm_weekly_downloads: 109028697  # from ase_npm_downloads
   github_repo: "eslint/eslint"  # from ase_github_repo
   license: "MIT"  # from ase_tool_license

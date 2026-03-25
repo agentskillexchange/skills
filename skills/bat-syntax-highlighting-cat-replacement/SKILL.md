@@ -3,16 +3,20 @@ name: "bat Syntax-Highlighting Cat Replacement"
 description: "bat is a cat(1) clone written in Rust that adds syntax highlighting for over 200 languages, Git integration showing file modifications, automatic paging, and line numbering. It serves as a drop-in replacement for cat with enhanced readability for code and configuration files."
 category: "Developer Tools"
 framework: "Claude Code"
-verification: listed  # security_reviewed or listed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/bat-syntax-highlighting-cat-replacement/"
 ---
 
 # bat Syntax-Highlighting Cat Replacement
+
+bat is a cat(1) clone written in Rust that adds syntax highlighting for over 200 languages, Git integration showing file modifications, automatic paging, and line numbering. It serves as a drop-in replacement for cat with enhanced readability for code and configuration files.
+
+## Overview
 
 bat is a command-line file viewer created by David Peter (sharkdp) and written in Rust. It reads files and prints their contents to the terminal with syntax highlighting, line numbers, Git change markers, and automatic paging. When piped to another command or redirected to a file, bat falls back to plain text output identical to cat, making it safe to use as an alias.
 
@@ -23,7 +27,6 @@ Git integration is built in. A left-side gutter shows lines that have been added
 bat automatically detects non-interactive terminals and disables paging and color when output goes to a pipe. The –paging flag controls this explicitly (always, never, auto). The -A/–show-all flag renders non-printable characters like tabs, newlines, and Unicode control characters as visible symbols, useful for debugging whitespace issues in configuration files.
 
 The tool integrates with fzf as a preview command (fzf –preview “bat –color=always {}”), with ripgrep through batgrep for highlighted search results, and with git diff through delta which uses bat’s syntax themes. bat is available via Homebrew, apt, pacman, Scoop, cargo, and GitHub releases for Linux, macOS, and Windows. It is licensed under MIT/Apache-2.0.
-
 
 ## Installation
 
@@ -56,3 +59,7 @@ npx skills add agentskillexchange/skills --skill bat-syntax-highlighting-cat-rep
 ```bash
 clawhub install bat-syntax-highlighting-cat-replacement
 ```
+
+## Source
+
+- Marketplace: https://agentskillexchange.com/skills/bat-syntax-highlighting-cat-replacement/

@@ -3,7 +3,7 @@ name: "Nginx Error Log Analyzer and Fixer"
 description: "Parses Nginx error logs and access logs to diagnose 502, 504, and 413 errors. Uses GoAccess for real-time log visualization and integrates with nginx -t for configuration validation."
 category: "Runbooks & Diagnostics"
 framework: "Claude Agents"
-verification: security_reviewed  # security_reviewed or listed
+verification: security_reviewed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
@@ -12,7 +12,7 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/nginx-error-log-analyzer-fixer/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "nginx"  # from ase_tool_match
-  github_stars: 29762  # from ase_github_stars (integer, not string)
+  github_stars: 29767  # from ase_github_stars (integer, not string)
   github_repo: "nginx/nginx"  # from ase_github_repo
   license: "BSD-2-Clause"  # from ase_tool_license
   maintained: true  # from ase_tool_maintained

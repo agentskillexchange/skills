@@ -3,16 +3,20 @@ name: "fzf Command-Line Fuzzy Finder"
 description: "fzf is a general-purpose command-line fuzzy finder written in Go. It works as an interactive filter for any list — files, command history, processes, git branches, bookmarks — using a fuzzy matching algorithm that tolerates omitted characters and typos."
 category: "Developer Tools"
 framework: "Claude Code"
-verification: listed  # security_reviewed or listed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/fzf-command-line-fuzzy-finder/"
 ---
 
 # fzf Command-Line Fuzzy Finder
+
+fzf is a general-purpose command-line fuzzy finder written in Go. It works as an interactive filter for any list — files, command history, processes, git branches, bookmarks — using a fuzzy matching algorithm that tolerates omitted characters and typos.
+
+## Overview
 
 fzf is an interactive Unix filter program created by Junegunn Choi and written in Go. Given any list piped to its stdin, fzf presents a full-screen or inline finder interface where the user types a query and sees matching results ranked by relevance in real time. The fuzzy matching algorithm handles character transpositions and omissions, making it fast to locate items without typing exact strings.
 
@@ -23,7 +27,6 @@ fzf supports several search syntaxes beyond simple fuzzy matching. Prefixing a t
 The –tmux flag (fzf 0.56+) renders the finder as a tmux popup instead of consuming the full terminal. The –height flag renders inline within the current terminal, preserving visible context. The –bind flag maps keys to actions like execute, reload, preview-scroll, and toggle-preview, enabling complex interactive workflows. Environment variables FZF_DEFAULT_COMMAND and FZF_DEFAULT_OPTS customize the default file source and options globally.
 
 fzf is distributed as a single static binary via Homebrew, apt, pacman, Chocolatey, and GitHub releases. It includes a Vim plugin (fzf.vim) and a Neovim integration (fzf-lua). The project is licensed under MIT and has extensive documentation in its README and wiki.
-
 
 ## Installation
 
@@ -56,3 +59,7 @@ npx skills add agentskillexchange/skills --skill fzf-command-line-fuzzy-finder -
 ```bash
 clawhub install fzf-command-line-fuzzy-finder
 ```
+
+## Source
+
+- Marketplace: https://agentskillexchange.com/skills/fzf-command-line-fuzzy-finder/

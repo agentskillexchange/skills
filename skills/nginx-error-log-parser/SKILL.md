@@ -2,8 +2,8 @@
 name: "Nginx Error Log Parser"
 description: "Parses nginx error.log and access.log files using pattern matching for 5xx status codes, upstream timeouts, and SSL handshake failures. Correlates error spikes with nginx -T configuration dumps to identify misconfigured proxy_pass and keepalive settings."
 category: "Developer Tools"
-framework: "Cursor"
-verification: listed  # security_reviewed or listed
+framework: "Custom Agents"
+verification: security_reviewed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
@@ -12,7 +12,7 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/nginx-error-log-parser/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "nginx"  # from ase_tool_match
-  github_stars: 29762  # from ase_github_stars (integer, not string)
+  github_stars: 29767  # from ase_github_stars (integer, not string)
   github_repo: "nginx/nginx"  # from ase_github_repo
   license: "BSD-2-Clause"  # from ase_tool_license
   maintained: true  # from ase_tool_maintained
@@ -24,7 +24,19 @@ Parses nginx error.log and access.log files using pattern matching for 5xx statu
 
 ## Overview
 
-The Nginx Error Log Parser skill provides systematic web server diagnostics by analyzing nginx log files and configuration. It parses error.log entries to categorize issues by type including upstream connection failures, SSL errors, client errors, and worker-level issues. The skill processes access.log to identify 5xx response patterns, calculating error rates per upstream backend, per URI path, and per time window. It runs nginx -T to dump the effective configuration and cross-references error patterns with timeout settings, worker_connections, keepalive directives, and upstream server weights. The skill detects common misconfigurations including missing proxy_set_header Host, incorrect proxy_pass trailing slashes changing URI behavior, and buffer size mismatches causing upstream response truncation. Output includes error frequency analysis, configuration fix recommendations, and nginx reload commands.
+**Nginx Error Log Parser** is built around NGINX web server and reverse proxy. The underlying ecosystem is represented by `nginx/nginx` (29,762+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like error.log, access.log, upstreams, proxy_pass, TLS, keepalive, config dump and preserving the operational context that matters for real tasks.
+
+In practice, the skill gives an agent a stable interface to nginx so it can inspect state, run the right operation, and produce a result that fits into a larger engineering or operations pipeline. The original use case is clear: Parses nginx error.log and access.log files using pattern matching for 5xx status codes, upstream timeouts, and SSL handshake failures. Correlates error spikes with nginx -T configuration dumps to identify misconfigured proxy_pass and keepalive settings. The implementation typically relies on error.log, access.log, upstreams, proxy_pass, TLS, keepalive, config dump, with configuration passed through environment variables, connection strings, service tokens, or workspace config depending on the upstream platform.
+
+Accesses error.log, access.log, upstreams, proxy_pass, TLS, keepalive, config dump instead of scraping a UI, which makes runs easier to audit and retry.
+
+Supports structured inputs and outputs so another tool, agent, or CI step can consume the result.
+
+Can be wired into cron jobs, webhook handlers, MCP transports, or local CLI workflows depending on the skill format.
+
+Fits into broader integration points such as traffic routing, HTTP diagnostics, and edge/server troubleshooting.
+
+As a runbook-style skill, the value is not just tool access but operational sequencing: check the right signals first, reduce alert noise, and produce a summary that another engineer can act on immediately. Key integration points include traffic routing, HTTP diagnostics, and edge/server troubleshooting. In a real environment that usually means passing credentials through env vars or app config, respecting rate limits and permission scopes, and returning structured artifacts that can be attached to tickets, pull requests, dashboards, or follow-up automations.
 
 ## Installation
 

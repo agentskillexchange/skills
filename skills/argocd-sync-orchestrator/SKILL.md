@@ -3,7 +3,7 @@ name: "ArgoCD Sync Orchestrator"
 description: "Manages ArgoCD application syncs using the argocd CLI and the Argo CD REST API (v1alpha1). Supports progressive delivery with Argo Rollouts integration and automated health checks via Kubernetes readiness probes."
 category: "CI/CD Integrations"
 framework: "ChatGPT Agents"
-verification: security_reviewed  # security_reviewed or listed
+verification: security_reviewed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
@@ -12,7 +12,7 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/argocd-sync-orchestrator/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "argocd"  # from ase_tool_match
-  github_stars: 22391  # from ase_github_stars (integer, not string)
+  github_stars: 22398  # from ase_github_stars (integer, not string)
   github_repo: "argoproj/argo-cd"  # from ase_github_repo
   license: "Apache-2.0"  # from ase_tool_license
   maintained: true  # from ase_tool_maintained

@@ -2,24 +2,37 @@
 name: "Meltano Declarative ELT Data Integration Engine"
 description: "Meltano is an open-source, CLI-first ELT platform built on the Singer specification. It provides declarative, code-first data integration with 600+ connectors through Singer taps and targets, orchestrating data movement from APIs, databases, and files to warehouses and lakes."
 category: "Data Extraction & Transformation"
-framework: ""
-verification: listed  # security_reviewed or listed
-rating: 0
-reviews: 0
-creator: ""
+framework: "Custom Agents"
+verification: security_reviewed  # one of: security_reviewed, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
-creator_verified: true
+creator_verified: false
 source: "https://agentskillexchange.com/skills/meltano-declarative-elt-data-integration-engine/"
+tool_ecosystem:  # ONLY if real signals exist in meta
+  tool: "docker"  # from ase_tool_match
+  github_stars: 71560  # from ase_github_stars (integer, not string)
+  github_repo: "moby/moby"  # from ase_github_repo
+  license: "Apache-2.0"  # from ase_tool_license
+  maintained: true  # from ase_tool_maintained
 ---
 
 # Meltano Declarative ELT Data Integration Engine
 
-Meltano (github.com/meltano/meltano) is an open-source, declarative data integration engine maintained by an active community. It follows the Singer specification for data extraction and loading, which standardizes how data connectors (called taps and targets) exchange data through a well-defined JSON protocol over stdout/stdin.
-The platform provides a CLI that manages the full lifecycle of data pipelines: initializing projects, adding and configuring plugins, running extraction and loading jobs, and scheduling pipeline executions. Meltano projects are defined through a meltano.yml configuration file that specifies which taps (data sources) and targets (destinations) to use, along with their configuration parameters. This code-first approach means entire pipeline definitions can be version-controlled, reviewed, and deployed through standard Git workflows.
-The Meltano Hub (hub.meltano.com) serves as the central registry for discovering connectors. It hosts hundreds of Singer taps and targets covering APIs like Salesforce, Stripe, and GitHub, databases like PostgreSQL, MySQL, and MongoDB, and file formats like CSV and Parquet. When a connector is not available, the Meltano Singer SDK provides a Python framework for building custom taps and targets with minimal boilerplate code.
-Meltano handles plugin isolation through separate Python virtual environments for each connector, preventing dependency conflicts between different taps and targets. It provides Docker images (slim and full variants) for containerized deployment, and supports integration with dbt for data transformation, making it a complete ELT solution. The engine also includes built-in job scheduling, state management for incremental replication, and catalog-based schema selection.
-Available on PyPI and Docker Hub, Meltano is licensed under MIT and backed by a community of over 2,500 data professionals on Slack. It represents a shift toward declarative, GitOps-style data integration where pipelines are defined as code rather than configured through visual interfaces.
+Meltano is an open-source, CLI-first ELT platform built on the Singer specification. It provides declarative, code-first data integration with 600+ connectors through Singer taps and targets, orchestrating data movement from APIs, databases, and files to warehouses and lakes.
 
+## Overview
+
+Meltano (github.com/meltano/meltano) is an open-source, declarative data integration engine maintained by an active community. It follows the Singer specification for data extraction and loading, which standardizes how data connectors (called taps and targets) exchange data through a well-defined JSON protocol over stdout/stdin.
+
+The platform provides a CLI that manages the full lifecycle of data pipelines: initializing projects, adding and configuring plugins, running extraction and loading jobs, and scheduling pipeline executions. Meltano projects are defined through a meltano.yml configuration file that specifies which taps (data sources) and targets (destinations) to use, along with their configuration parameters. This code-first approach means entire pipeline definitions can be version-controlled, reviewed, and deployed through standard Git workflows.
+
+The Meltano Hub (hub.meltano.com) serves as the central registry for discovering connectors. It hosts hundreds of Singer taps and targets covering APIs like Salesforce, Stripe, and GitHub, databases like PostgreSQL, MySQL, and MongoDB, and file formats like CSV and Parquet. When a connector is not available, the Meltano Singer SDK provides a Python framework for building custom taps and targets with minimal boilerplate code.
+
+Meltano handles plugin isolation through separate Python virtual environments for each connector, preventing dependency conflicts between different taps and targets. It provides Docker images (slim and full variants) for containerized deployment, and supports integration with dbt for data transformation, making it a complete ELT solution. The engine also includes built-in job scheduling, state management for incremental replication, and catalog-based schema selection.
+
+Available on PyPI and Docker Hub, Meltano is licensed under MIT and backed by a community of over 2,500 data professionals on Slack. It represents a shift toward declarative, GitOps-style data integration where pipelines are defined as code rather than configured through visual interfaces.
 
 ## Installation
 
@@ -52,3 +65,7 @@ npx skills add agentskillexchange/skills --skill meltano-declarative-elt-data-in
 ```bash
 clawhub install meltano-declarative-elt-data-integration-engine
 ```
+
+## Source
+
+- Marketplace: https://agentskillexchange.com/skills/meltano-declarative-elt-data-integration-engine/

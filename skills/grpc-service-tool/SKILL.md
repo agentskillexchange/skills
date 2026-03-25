@@ -1,9 +1,9 @@
 ---
 name: "gRPC Service Tool"
-description: "Interacts with gRPC services for debugging, testing, and documentation. Supports service reflection, proto file loading, unary and streaming calls, and human-readable response formatting."
+description: "gRPC Service Tool is built around gRPC remote procedure call framework. The underlying ecosystem is represented by grpc/grpc-node (4,816+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like Protocol Buffers, unary and streaming RPCs, reflection, deadlines, interceptors and […]"
 category: "Library & API Reference"
 framework: "Custom Agents"
-verification: listed  # security_reviewed or listed
+verification: listed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
@@ -21,11 +21,23 @@ tool_ecosystem:  # ONLY if real signals exist in meta
 
 # gRPC Service Tool
 
-Interacts with gRPC services for debugging, testing, and documentation. Supports service reflection, proto file loading, unary and streaming calls, and human-readable response formatting.
+gRPC Service Tool is built around gRPC remote procedure call framework. The underlying ecosystem is represented by grpc/grpc-node (4,816+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like Protocol Buffers, unary and streaming RPCs, reflection, deadlines, interceptors and […]
 
 ## Overview
 
-Interacts with gRPC services for debugging, testing, and documentation. Supports service reflection, proto file loading, unary and streaming calls, and human-readable response formatting.
+**gRPC Service Tool** is built around gRPC remote procedure call framework. The underlying ecosystem is represented by `grpc/grpc-node` (4,816+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like Protocol Buffers, unary and streaming RPCs, reflection, deadlines, interceptors and preserving the operational context that matters for real tasks.
+
+In practice, the skill gives an agent a stable interface to grpc so it can inspect state, run the right operation, and produce a result that fits into a larger engineering or operations pipeline. The implementation typically relies on Protocol Buffers, unary and streaming RPCs, reflection, deadlines, interceptors, with configuration passed through environment variables, connection strings, service tokens, or workspace config depending on the upstream platform.
+
+Accesses Protocol Buffers, unary and streaming RPCs, reflection, deadlines, interceptors instead of scraping a UI, which makes runs easier to audit and retry.
+
+Supports structured inputs and outputs so another tool, agent, or CI step can consume the result.
+
+Can be wired into cron jobs, webhook handlers, MCP transports, or local CLI workflows depending on the skill format.
+
+Fits into broader integration points such as service-to-service APIs, typed contracts, and high-performance internal tooling.
+
+Key integration points include service-to-service APIs, typed contracts, and high-performance internal tooling. In a real environment that usually means passing credentials through env vars or app config, respecting rate limits and permission scopes, and returning structured artifacts that can be attached to tickets, pull requests, dashboards, or follow-up automations.
 
 ## Installation
 

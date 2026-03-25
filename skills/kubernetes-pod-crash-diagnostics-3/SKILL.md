@@ -2,8 +2,8 @@
 name: "Kubernetes Pod Crash Diagnostics"
 description: "Runs kubectl describe pod, kubectl logs –previous, and kubectl get events to diagnose CrashLoopBackOff and OOMKilled pods. Parses container exit codes, resource limits, and liveness probe configurations for root cause analysis."
 category: "Developer Tools"
-framework: "Codex"
-verification: listed  # security_reviewed or listed
+framework: "Custom Agents"
+verification: security_reviewed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
@@ -12,7 +12,7 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/kubernetes-pod-crash-diagnostics-3/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "kubernetes"  # from ase_tool_match
-  github_stars: 121313  # from ase_github_stars (integer, not string)
+  github_stars: 121334  # from ase_github_stars (integer, not string)
   github_repo: "kubernetes/kubernetes"  # from ase_github_repo
   license: "Apache-2.0"  # from ase_tool_license
   maintained: true  # from ase_tool_maintained
@@ -24,7 +24,19 @@ Runs kubectl describe pod, kubectl logs –previous, and kubectl get events to d
 
 ## Overview
 
-The Kubernetes Pod Crash Diagnostics skill provides structured troubleshooting for failing Kubernetes workloads. It executes a diagnostic sequence starting with kubectl get pods to identify unhealthy pods by status including CrashLoopBackOff, Error, OOMKilled, and ImagePullBackOff. It then runs kubectl describe pod to extract event history, container states, and restart counts. For crashed containers, it retrieves previous container logs to identify application-level errors. The skill analyzes container exit codes (137 for OOMKill, 1 for application error, 143 for SIGTERM) and cross-references with resource requests and limits from the pod spec. It examines liveness and readiness probe configurations for misconfigured timeouts, incorrect paths, or port mismatches. Output is a structured diagnostic report with root cause classification and remediation steps.
+**Kubernetes Pod Crash Diagnostics** is built around Kubernetes orchestration platform. The underlying ecosystem is represented by `kubernetes/kubernetes` (121,313+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like kubectl, API server, pods, deployments, events, logs, probes, RBAC and preserving the operational context that matters for real tasks.
+
+In practice, the skill gives an agent a stable interface to kubernetes so it can inspect state, run the right operation, and produce a result that fits into a larger engineering or operations pipeline. The original use case is clear: Runs kubectl describe pod, kubectl logs –previous, and kubectl get events to diagnose CrashLoopBackOff and OOMKilled pods. Parses container exit codes, resource limits, and liveness probe configurations for root cause analysis. The implementation typically relies on kubectl, API server, pods, deployments, events, logs, probes, RBAC, with configuration passed through environment variables, connection strings, service tokens, or workspace config depending on the upstream platform.
+
+Accesses kubectl, API server, pods, deployments, events, logs, probes, RBAC instead of scraping a UI, which makes runs easier to audit and retry.
+
+Supports structured inputs and outputs so another tool, agent, or CI step can consume the result.
+
+Can be wired into cron jobs, webhook handlers, MCP transports, or local CLI workflows depending on the skill format.
+
+Fits into broader integration points such as cluster operations, workload health, scaling, and production troubleshooting.
+
+As a runbook-style skill, the value is not just tool access but operational sequencing: check the right signals first, reduce alert noise, and produce a summary that another engineer can act on immediately. Key integration points include cluster operations, workload health, scaling, and production troubleshooting. In a real environment that usually means passing credentials through env vars or app config, respecting rate limits and permission scopes, and returning structured artifacts that can be attached to tickets, pull requests, dashboards, or follow-up automations.
 
 ## Installation
 

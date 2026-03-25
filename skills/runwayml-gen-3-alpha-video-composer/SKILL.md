@@ -3,7 +3,7 @@ name: "RunwayML Gen-3 Alpha Video Composer"
 description: "Composes AI-generated video clips using the RunwayML Gen-3 Alpha API with text-to-video and image-to-video modes. Manages generation tasks, polling, and output stitching via FFmpeg."
 category: "42"
 framework: "33"
-verification: security_reviewed  # security_reviewed or listed
+verification: security_reviewed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
@@ -12,7 +12,7 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/runwayml-gen-3-alpha-video-composer/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "ffmpeg"  # from ase_tool_match
-  github_stars: 58257  # from ase_github_stars (integer, not string)
+  github_stars: 58283  # from ase_github_stars (integer, not string)
   github_repo: "FFmpeg/FFmpeg"  # from ase_github_repo
   license: "NOASSERTION"  # from ase_tool_license
   maintained: true  # from ase_tool_maintained

@@ -2,8 +2,8 @@
 name: "Terraform Cloud Run Inspector"
 description: "Queries the Terraform Cloud API to inspect plan outputs, apply logs, and state file changes. Analyzes resource diffs including module-level changes, provider version constraints, and Sentinel policy evaluation results."
 category: "Integrations & Connectors"
-framework: "OpenClaw"
-verification: listed  # security_reviewed or listed
+framework: "MCP-compatible"
+verification: security_reviewed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
@@ -12,7 +12,7 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/terraform-cloud-run-inspector-2/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "terraform"  # from ase_tool_match
-  github_stars: 47996  # from ase_github_stars (integer, not string)
+  github_stars: 48003  # from ase_github_stars (integer, not string)
   github_repo: "hashicorp/terraform"  # from ase_github_repo
   license: "NOASSERTION"  # from ase_tool_license
   maintained: true  # from ase_tool_maintained
@@ -24,7 +24,19 @@ Queries the Terraform Cloud API to inspect plan outputs, apply logs, and state f
 
 ## Overview
 
-The Terraform Cloud Run Inspector skill connects to HashiCorp Terraform Cloud or Terraform Enterprise API to provide detailed infrastructure change analysis. It authenticates via team or user API tokens and queries workspace runs to fetch plan summaries, structured plan output in JSON, and apply logs. The skill parses terraform plan output to categorize changes by resource type, identify destructive operations like force replacements and deletions, and highlight sensitive attribute modifications. It analyzes module dependency graphs to trace how upstream module changes cascade to dependent resources, checks provider version constraints for compatibility issues, and reviews Sentinel policy check results for governance compliance. Supports VCS-driven and CLI-driven workflow analysis with cost estimation integration.
+**Terraform Cloud Run Inspector** is built around Terraform infrastructure as code. The underlying ecosystem is represented by `hashicorp/terraform` (47,996+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like plans, applies, state, workspaces, providers, Sentinel, cloud runs and preserving the operational context that matters for real tasks.
+
+In practice, the skill gives an agent a stable interface to terraform so it can inspect state, run the right operation, and produce a result that fits into a larger engineering or operations pipeline. The original use case is clear: Queries the Terraform Cloud API to inspect plan outputs, apply logs, and state file changes. Analyzes resource diffs including module-level changes, provider version constraints, and Sentinel policy evaluation results. The implementation typically relies on plans, applies, state, workspaces, providers, Sentinel, cloud runs, with configuration passed through environment variables, connection strings, service tokens, or workspace config depending on the upstream platform.
+
+Accesses plans, applies, state, workspaces, providers, Sentinel, cloud runs instead of scraping a UI, which makes runs easier to audit and retry.
+
+Supports structured inputs and outputs so another tool, agent, or CI step can consume the result.
+
+Can be wired into cron jobs, webhook handlers, MCP transports, or local CLI workflows depending on the skill format.
+
+Fits into broader integration points such as cloud provisioning, diff review, policy checks, and infra CI/CD.
+
+Key integration points include cloud provisioning, diff review, policy checks, and infra CI/CD. In a real environment that usually means passing credentials through env vars or app config, respecting rate limits and permission scopes, and returning structured artifacts that can be attached to tickets, pull requests, dashboards, or follow-up automations.
 
 ## Installation
 

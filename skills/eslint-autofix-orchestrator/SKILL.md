@@ -3,7 +3,7 @@ name: "ESLint Auto-Fix Orchestrator"
 description: "Runs ESLint with auto-fix capabilities using the ESLint Node.js API and flat config system. Supports custom rule sets, TypeScript via typescript-eslint, and Prettier integration."
 category: "Code Quality & Review"
 framework: "Claude Code"
-verification: security_reviewed  # security_reviewed or listed
+verification: security_reviewed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
@@ -12,7 +12,7 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/eslint-autofix-orchestrator/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "eslint"  # from ase_tool_match
-  github_stars: 27186  # from ase_github_stars (integer, not string)
+  github_stars: 27185  # from ase_github_stars (integer, not string)
   npm_weekly_downloads: 109028697  # from ase_npm_downloads
   github_repo: "eslint/eslint"  # from ase_github_repo
   license: "MIT"  # from ase_tool_license

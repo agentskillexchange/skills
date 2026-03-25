@@ -3,7 +3,7 @@ name: "FFmpeg Audio Transcoder"
 description: "Transcodes and processes audio files using the FFmpeg CLI and libavcodec library. Supports batch format conversion, loudness normalization via EBU R128, and metadata extraction with ffprobe."
 category: "Media & Transcription"
 framework: "Cursor"
-verification: listed  # security_reviewed or listed
+verification: security_reviewed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
@@ -12,7 +12,7 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/ffmpeg-audio-transcoder/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "ffmpeg"  # from ase_tool_match
-  github_stars: 58257  # from ase_github_stars (integer, not string)
+  github_stars: 58283  # from ase_github_stars (integer, not string)
   github_repo: "FFmpeg/FFmpeg"  # from ase_github_repo
   license: "NOASSERTION"  # from ase_tool_license
   maintained: true  # from ase_tool_maintained
@@ -24,11 +24,19 @@ Transcodes and processes audio files using the FFmpeg CLI and libavcodec library
 
 ## Overview
 
-The FFmpeg Audio Transcoder skill provides professional-grade audio processing through the FFmpeg command-line toolkit and its underlying libavcodec/libavformat libraries. It handles format conversion, quality optimization, and batch processing for audio files across all major codecs.
+**FFmpeg Audio Transcoder** is built around FFmpeg media processing toolkit. The underlying ecosystem is represented by `FFmpeg/FFmpeg` (58,257+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like ffmpeg filters, ffprobe metadata, codecs, transcodes, frame extraction, packaging and preserving the operational context that matters for real tasks.
 
-Core transcoding capabilities include converting between formats like WAV, FLAC, MP3 (via LAME encoder), AAC (via libfdk_aac), OGG Vorbis, and Opus with precise bitrate and sample rate control. The skill implements EBU R128 loudness normalization using the loudnorm filter, ensuring consistent perceived volume across audio files — critical for podcast production and broadcast compliance. Two-pass loudness analysis provides accurate integrated loudness, loudness range, and true peak measurements.
+In practice, the skill gives an agent a stable interface to ffmpeg so it can inspect state, run the right operation, and produce a result that fits into a larger engineering or operations pipeline. The original use case is clear: Transcodes and processes audio files using the FFmpeg CLI and libavcodec library. Supports batch format conversion, loudness normalization via EBU R128, and metadata extraction with ffprobe. The implementation typically relies on ffmpeg filters, ffprobe metadata, codecs, transcodes, frame extraction, packaging, with configuration passed through environment variables, connection strings, service tokens, or workspace config depending on the upstream platform.
 
-The skill leverages ffprobe for detailed metadata extraction including codec parameters, channel layout, duration, and embedded artwork. Batch processing handles directory-level operations with parallel execution using GNU parallel or xargs. Audio manipulation features include silence detection/removal via the silencedetect filter, audio splitting at chapter markers, crossfade generation between tracks, and sample rate conversion using the soxr resampler for high-quality output. It also supports extracting audio streams from video containers with codec copy for lossless extraction.
+Accesses ffmpeg filters, ffprobe metadata, codecs, transcodes, frame extraction, packaging instead of scraping a UI, which makes runs easier to audit and retry.
+
+Supports structured inputs and outputs so another tool, agent, or CI step can consume the result.
+
+Can be wired into cron jobs, webhook handlers, MCP transports, or local CLI workflows depending on the skill format.
+
+Fits into broader integration points such as audio/video pipelines, thumbnails, HLS, normalization, and format conversion.
+
+Key integration points include audio/video pipelines, thumbnails, HLS, normalization, and format conversion. In a real environment that usually means passing credentials through env vars or app config, respecting rate limits and permission scopes, and returning structured artifacts that can be attached to tickets, pull requests, dashboards, or follow-up automations.
 
 ## Installation
 

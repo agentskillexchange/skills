@@ -3,7 +3,7 @@ name: "ACF Custom Fields REST Exposer"
 description: "Exposes Advanced Custom Fields data through the WordPress REST API using register_rest_field and acf_format_value. Handles repeater fields, flexible content layouts, and gallery fields with proper serialization."
 category: "WordPress & CMS"
 framework: "Cursor"
-verification: security_reviewed  # security_reviewed or listed
+verification: security_reviewed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
@@ -12,7 +12,7 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/acf-custom-fields-rest-exposer/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "wordpress"  # from ase_tool_match
-  github_stars: 20973  # from ase_github_stars (integer, not string)
+  github_stars: 20976  # from ase_github_stars (integer, not string)
   github_repo: "WordPress/WordPress"  # from ase_github_repo
   license: "NOASSERTION"  # from ase_tool_license
   maintained: true  # from ase_tool_maintained

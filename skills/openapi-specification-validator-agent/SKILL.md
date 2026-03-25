@@ -3,7 +3,7 @@ name: "OpenAPI Specification Validator"
 description: "Validates and lints OpenAPI 3.x specifications using swagger-parser, spectral, and openapi-typescript. Generates type-safe client SDKs and detects breaking API changes via oasdiff."
 category: "Library & API Reference"
 framework: "Cursor"
-verification: security_reviewed  # security_reviewed or listed
+verification: security_reviewed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
@@ -12,7 +12,7 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/openapi-specification-validator-agent/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "swagger"  # from ase_tool_match
-  github_stars: 28702  # from ase_github_stars (integer, not string)
+  github_stars: 28703  # from ase_github_stars (integer, not string)
   npm_weekly_downloads: 3219093  # from ase_npm_downloads
   github_repo: "swagger-api/swagger-ui"  # from ase_github_repo
   license: "Apache-2.0"  # from ase_tool_license

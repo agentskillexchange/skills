@@ -3,7 +3,7 @@ name: "Playwright Multi-Browser Test Suite"
 description: "Generates end-to-end test suites using the Playwright Test Runner API with cross-browser coverage on Chromium, Firefox, and WebKit. Implements visual regression testing via the Playwright Screenshots API and network mocking."
 category: "Browser Automation"
 framework: "Cursor"
-verification: security_reviewed  # security_reviewed or listed
+verification: security_reviewed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
@@ -12,7 +12,7 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/playwright-multi-browser-test-suite/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "playwright"  # from ase_tool_match
-  github_stars: 84874  # from ase_github_stars (integer, not string)
+  github_stars: 84938  # from ase_github_stars (integer, not string)
   npm_weekly_downloads: 39806814  # from ase_npm_downloads
   github_repo: "microsoft/playwright"  # from ase_github_repo
   license: "Apache-2.0"  # from ase_tool_license

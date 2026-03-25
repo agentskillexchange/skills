@@ -3,7 +3,7 @@ name: "Tekton Pipeline Template Generator"
 description: "Scaffolds Tekton Pipeline and Task CRDs using the Tekton Hub API for reusable task resolution. Leverages tkn CLI for local testing and integrates with Sigstore cosign for supply chain artifact signing and SLSA provenance attestation."
 category: "CI/CD Integrations"
 framework: "MCP-compatible"
-verification: security_reviewed  # security_reviewed or listed
+verification: security_reviewed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
@@ -12,7 +12,7 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/tekton-pipeline-template-generator/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "tekton"  # from ase_tool_match
-  github_stars: 8920  # from ase_github_stars (integer, not string)
+  github_stars: 8923  # from ase_github_stars (integer, not string)
   github_repo: "tektoncd/pipeline"  # from ase_github_repo
   license: "Apache-2.0"  # from ase_tool_license
   maintained: true  # from ase_tool_maintained

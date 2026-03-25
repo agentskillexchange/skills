@@ -1,9 +1,9 @@
 ---
 name: "Snowflake MCP Server"
-description: "Use this skill to query Snowflake data warehouses, inspect schemas, monitor job execution, and manage Snowflake resources through MCP. It enables agents to access enterprise data warehouse capabilities for analytics, reporting, and data pipeline management. Trigger when you need to run analytical queries, check data pipeline status, or interact with Snowflake programmatically."
+description: "Snowflake MCP Server is built around Snowflake cloud data warehouse. It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like SQL, warehouses, stages, tasks, streams, Snowpark, query history and preserving the operational context that matters for real tasks. In practice, the […]"
 category: "Data Extraction & Transformation"
 framework: "MCP-compatible"
-verification: listed  # security_reviewed or listed
+verification: security_reviewed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
@@ -16,11 +16,23 @@ tool_ecosystem:  # ONLY if real signals exist in meta
 
 # Snowflake MCP Server
 
-Use this skill to query Snowflake data warehouses, inspect schemas, monitor job execution, and manage Snowflake resources through MCP. It enables agents to access enterprise data warehouse capabilities for analytics, reporting, and data pipeline management. Trigger when you need to run analytical queries, check data pipeline status, or interact with Snowflake programmatically.
+Snowflake MCP Server is built around Snowflake cloud data warehouse. It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like SQL, warehouses, stages, tasks, streams, Snowpark, query history and preserving the operational context that matters for real tasks. In practice, the […]
 
 ## Overview
 
-Use this skill to query Snowflake data warehouses, inspect schemas, monitor job execution, and manage Snowflake resources through MCP. It enables agents to access enterprise data warehouse capabilities for analytics, reporting, and data pipeline management. Trigger when you need to run analytical queries, check data pipeline status, or interact with Snowflake programmatically.
+**Snowflake MCP Server** is built around Snowflake cloud data warehouse. It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like SQL, warehouses, stages, tasks, streams, Snowpark, query history and preserving the operational context that matters for real tasks.
+
+In practice, the skill gives an agent a stable interface to snowflake so it can inspect state, run the right operation, and produce a result that fits into a larger engineering or operations pipeline. The implementation typically relies on SQL, warehouses, stages, tasks, streams, Snowpark, query history, with configuration passed through environment variables, connection strings, service tokens, or workspace config depending on the upstream platform.
+
+Accesses SQL, warehouses, stages, tasks, streams, Snowpark, query history instead of scraping a UI, which makes runs easier to audit and retry.
+
+Supports structured inputs and outputs so another tool, agent, or CI step can consume the result.
+
+Can be wired into cron jobs, webhook handlers, MCP transports, or local CLI workflows depending on the skill format.
+
+Fits into broader integration points such as analytics engineering, ELT, cost-aware compute, and reporting pipelines.
+
+Because this is exposed as an MCP skill, the tool surface is designed for agent-safe, structured calls instead of free-form shell usage. That means models can inspect schemas, call a narrow set of operations, and keep context across a longer workflow without re-implementing credentials or connection logic on every step. Key integration points include analytics engineering, ELT, cost-aware compute, and reporting pipelines. In a real environment that usually means passing credentials through env vars or app config, respecting rate limits and permission scopes, and returning structured artifacts that can be attached to tickets, pull requests, dashboards, or follow-up automations.
 
 ## Installation
 

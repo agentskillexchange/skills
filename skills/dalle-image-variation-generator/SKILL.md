@@ -3,7 +3,7 @@ name: "DALL-E Image Variation Generator"
 description: "Generates image variations and edits using the OpenAI Images API v1 with DALL-E 3 model selection. Supports inpainting via base64-encoded mask uploads, handles 1024×1024/1792×1024 aspect ratios, and implements content policy pre-screening with the Moderation API."
 category: "Image & Creative Automation"
 framework: "ChatGPT Agents"
-verification: security_reviewed  # security_reviewed or listed
+verification: security_reviewed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
@@ -12,7 +12,7 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/dalle-image-variation-generator/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "openai"  # from ase_tool_match
-  github_stars: 10761  # from ase_github_stars (integer, not string)
+  github_stars: 10765  # from ase_github_stars (integer, not string)
   npm_weekly_downloads: 16275389  # from ase_npm_downloads
   github_repo: "openai/openai-node"  # from ase_github_repo
   license: "Apache-2.0"  # from ase_tool_license

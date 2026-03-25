@@ -3,7 +3,7 @@ name: "OAuth2 Token Introspection Agent"
 description: "Validates OAuth2 tokens using RFC 7662 introspection endpoints. Integrates with Keycloak, Auth0, and Okta token introspection APIs to verify token claims, scopes, and expiration in real time."
 category: "Security & Verification"
 framework: "OpenClaw"
-verification: listed  # security_reviewed or listed
+verification: security_reviewed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
@@ -25,7 +25,19 @@ Validates OAuth2 tokens using RFC 7662 introspection endpoints. Integrates with 
 
 ## Overview
 
-A comprehensive security agent that validates OAuth2 access tokens and refresh tokens using the RFC 7662 Token Introspection specification. Connects to identity providers including Keycloak, Auth0, and Okta via their introspection endpoints. Verifies token claims such as issuer, audience, scope, and expiration. Supports both opaque and JWT tokens with automatic format detection. Includes rate limiting to prevent introspection endpoint abuse, configurable caching of introspection results for performance, and detailed audit logging of all validation decisions. Can be chained with API gateway middleware to enforce token policies before requests reach backend services. Supports multi-tenant configurations with provider-specific introspection endpoint routing.
+**OAuth2 Token Introspection Agent** is built around OAuth2 and identity platform integrations. The underlying ecosystem is represented by `auth0/node-auth0` (676+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like OIDC flows, token introspection, JWKS, RBAC claims, refresh tokens and preserving the operational context that matters for real tasks.
+
+In practice, the skill gives an agent a stable interface to auth0 so it can inspect state, run the right operation, and produce a result that fits into a larger engineering or operations pipeline. The original use case is clear: Validates OAuth2 tokens using RFC 7662 introspection endpoints. Integrates with Keycloak, Auth0, and Okta token introspection APIs to verify token claims, scopes, and expiration in real time. The implementation typically relies on OIDC flows, token introspection, JWKS, RBAC claims, refresh tokens, with configuration passed through environment variables, connection strings, service tokens, or workspace config depending on the upstream platform.
+
+Accesses OIDC flows, token introspection, JWKS, RBAC claims, refresh tokens instead of scraping a UI, which makes runs easier to audit and retry.
+
+Supports structured inputs and outputs so another tool, agent, or CI step can consume the result.
+
+Can be wired into cron jobs, webhook handlers, MCP transports, or local CLI workflows depending on the skill format.
+
+Fits into broader integration points such as Auth0, Okta, Keycloak, and standards-based auth pipelines.
+
+Key integration points include Auth0, Okta, Keycloak, and standards-based auth pipelines. In a real environment that usually means passing credentials through env vars or app config, respecting rate limits and permission scopes, and returning structured artifacts that can be attached to tickets, pull requests, dashboards, or follow-up automations.
 
 ## Installation
 

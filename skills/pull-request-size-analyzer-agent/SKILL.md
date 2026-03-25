@@ -3,7 +3,7 @@ name: "Pull Request Size Analyzer"
 description: "Analyzes PR size and reviewability using the GitHub GraphQL API and git diff-stat. Enforces size limits, suggests PR splitting strategies, and tracks team review velocity metrics via GitHub Checks API."
 category: "Code Quality & Review"
 framework: "OpenClaw"
-verification: security_reviewed  # security_reviewed or listed
+verification: security_reviewed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
@@ -12,7 +12,7 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/pull-request-size-analyzer-agent/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "graphql"  # from ase_tool_match
-  github_stars: 20335  # from ase_github_stars (integer, not string)
+  github_stars: 20332  # from ase_github_stars (integer, not string)
   npm_weekly_downloads: 32010306  # from ase_npm_downloads
   github_repo: "graphql/graphql-js"  # from ase_github_repo
   license: "MIT"  # from ase_tool_license

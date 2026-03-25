@@ -3,7 +3,7 @@ name: "Codecov Coverage Tracker"
 description: "Monitors test coverage trends using the Codecov API v2 /repos/{owner}/{repo}/commits endpoint. Compares branch coverage against base, generates diff-coverage reports, and flags untested code paths in PR comments via GitHub REST API."
 category: "Code Quality & Review"
 framework: "ChatGPT Agents"
-verification: security_reviewed  # security_reviewed or listed
+verification: security_reviewed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

@@ -3,7 +3,7 @@ name: "WooCommerce REST Sync Agent"
 description: "Synchronizes WooCommerce product data bidirectionally using the WC REST API v3 and wc/v3/products endpoints. Handles batch create/update/delete with OAuth 1.0a authentication and rate-limit backoff."
 category: "WordPress & CMS"
 framework: "Codex"
-verification: security_reviewed  # security_reviewed or listed
+verification: security_reviewed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
@@ -12,7 +12,7 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/woocommerce-rest-sync-agent/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "sqlite"  # from ase_tool_match
-  github_stars: 7041  # from ase_github_stars (integer, not string)
+  github_stars: 7043  # from ase_github_stars (integer, not string)
   npm_weekly_downloads: 4960915  # from ase_npm_downloads
   github_repo: "WiseLibs/better-sqlite3"  # from ase_github_repo
   license: "MIT"  # from ase_tool_license

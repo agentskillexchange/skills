@@ -3,7 +3,7 @@ name: "Slack Status API PTO Sync Assistant"
 description: "Syncs away-state updates through Slack users.profile APIs, status fields, and directory lookups so agents can keep status text aligned with calendar-based time off. Useful for teams that want cleaner presence signals without manually editing every Slack profile."
 category: "Calendar, Email & Productivity"
 framework: "Custom Agents"
-verification: security_reviewed  # security_reviewed or listed
+verification: security_reviewed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
@@ -12,7 +12,7 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/slack-status-api-pto-sync-assistant/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "slack"  # from ase_tool_match
-  github_stars: 2900  # from ase_github_stars (integer, not string)
+  github_stars: 2899  # from ase_github_stars (integer, not string)
   npm_weekly_downloads: 2433529  # from ase_npm_downloads
   github_repo: "slackapi/bolt-js"  # from ase_github_repo
   license: "MIT"  # from ase_tool_license

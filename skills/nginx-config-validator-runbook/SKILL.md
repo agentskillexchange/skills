@@ -3,7 +3,7 @@ name: "Nginx Config Validator Runbook"
 description: "Validates Nginx configurations using nginx -t syntax checking, the crossplane Python parser for structural analysis, and gixy security analyzer. Detects misconfigurations, SSL issues, and security vulnerabilities."
 category: "Runbooks & Diagnostics"
 framework: "Claude Agents"
-verification: security_reviewed  # security_reviewed or listed
+verification: security_reviewed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
@@ -12,7 +12,7 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/nginx-config-validator-runbook/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "nginx"  # from ase_tool_match
-  github_stars: 29762  # from ase_github_stars (integer, not string)
+  github_stars: 29767  # from ase_github_stars (integer, not string)
   github_repo: "nginx/nginx"  # from ase_github_repo
   license: "BSD-2-Clause"  # from ase_tool_license
   maintained: true  # from ase_tool_maintained

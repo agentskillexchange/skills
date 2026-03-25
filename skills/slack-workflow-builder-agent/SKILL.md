@@ -3,7 +3,7 @@ name: "Slack Workflow Builder Agent"
 description: "Creates and manages Slack workflows using @slack/bolt and @slack/web-api. Builds interactive modals with Block Kit, handles slash commands, and orchestrates multi-step approval flows via Slack Events API."
 category: "Calendar, Email & Productivity"
 framework: "Cursor"
-verification: security_reviewed  # security_reviewed or listed
+verification: security_reviewed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
@@ -12,7 +12,7 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/slack-workflow-builder-agent/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "slack"  # from ase_tool_match
-  github_stars: 2900  # from ase_github_stars (integer, not string)
+  github_stars: 2899  # from ase_github_stars (integer, not string)
   npm_weekly_downloads: 2433529  # from ase_npm_downloads
   github_repo: "slackapi/bolt-js"  # from ase_github_repo
   license: "MIT"  # from ase_tool_license

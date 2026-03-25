@@ -3,7 +3,7 @@ name: "Puppeteer Cookie Consent Handler"
 description: "Detects and dismisses cookie consent banners across websites using Puppeteer page.evaluate selectors and the CMP (Consent Management Platform) protocol. Supports IAB TCF v2.0 consent strings and GDPR/CCPA banner patterns."
 category: "Browser Automation"
 framework: "Claude Code"
-verification: security_reviewed  # security_reviewed or listed
+verification: security_reviewed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
@@ -12,7 +12,7 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/puppeteer-cookie-consent-handler-3/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "puppeteer"  # from ase_tool_match
-  github_stars: 93912  # from ase_github_stars (integer, not string)
+  github_stars: 93932  # from ase_github_stars (integer, not string)
   npm_weekly_downloads: 8696130  # from ase_npm_downloads
   github_repo: "puppeteer/puppeteer"  # from ase_github_repo
   license: "Apache-2.0"  # from ase_tool_license

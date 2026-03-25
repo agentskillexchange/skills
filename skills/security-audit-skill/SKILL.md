@@ -1,9 +1,9 @@
 ---
 name: "Security Audit Skill"
-description: "Use this skill to perform automated security audits covering OWASP Top 10 vulnerabilities and dependency CVE scanning on codebases and projects. It identifies SQL injection risks, XSS vulnerabilities, insecure configurations, and known vulnerable dependencies. Trigger when preparing for security review, before deployments, or when assessing new codebases for vulnerabilities."
+description: "Security Audit Skill is built around OWASP security tooling ecosystem. The underlying ecosystem is represented by zaproxy/zaproxy (14,896+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like ZAP scanning, passive/active checks, auth contexts, alerts, HTTP spidering and preserving […]"
 category: "Security & Verification"
 framework: "Custom Agents"
-verification: listed  # security_reviewed or listed
+verification: listed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
@@ -12,7 +12,7 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/security-audit-skill/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "owasp"  # from ase_tool_match
-  github_stars: 14896  # from ase_github_stars (integer, not string)
+  github_stars: 14900  # from ase_github_stars (integer, not string)
   github_repo: "zaproxy/zaproxy"  # from ase_github_repo
   license: "Apache-2.0"  # from ase_tool_license
   maintained: true  # from ase_tool_maintained
@@ -20,11 +20,23 @@ tool_ecosystem:  # ONLY if real signals exist in meta
 
 # Security Audit Skill
 
-Use this skill to perform automated security audits covering OWASP Top 10 vulnerabilities and dependency CVE scanning on codebases and projects. It identifies SQL injection risks, XSS vulnerabilities, insecure configurations, and known vulnerable dependencies. Trigger when preparing for security review, before deployments, or when assessing new codebases for vulnerabilities.
+Security Audit Skill is built around OWASP security tooling ecosystem. The underlying ecosystem is represented by zaproxy/zaproxy (14,896+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like ZAP scanning, passive/active checks, auth contexts, alerts, HTTP spidering and preserving […]
 
 ## Overview
 
-Use this skill to perform automated security audits covering OWASP Top 10 vulnerabilities and dependency CVE scanning on codebases and projects. It identifies SQL injection risks, XSS vulnerabilities, insecure configurations, and known vulnerable dependencies. Trigger when preparing for security review, before deployments, or when assessing new codebases for vulnerabilities.
+**Security Audit Skill** is built around OWASP security tooling ecosystem. The underlying ecosystem is represented by `zaproxy/zaproxy` (14,896+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like ZAP scanning, passive/active checks, auth contexts, alerts, HTTP spidering and preserving the operational context that matters for real tasks.
+
+In practice, the skill gives an agent a stable interface to owasp so it can inspect state, run the right operation, and produce a result that fits into a larger engineering or operations pipeline. The implementation typically relies on ZAP scanning, passive/active checks, auth contexts, alerts, HTTP spidering, with configuration passed through environment variables, connection strings, service tokens, or workspace config depending on the upstream platform.
+
+Accesses ZAP scanning, passive/active checks, auth contexts, alerts, HTTP spidering instead of scraping a UI, which makes runs easier to audit and retry.
+
+Supports structured inputs and outputs so another tool, agent, or CI step can consume the result.
+
+Can be wired into cron jobs, webhook handlers, MCP transports, or local CLI workflows depending on the skill format.
+
+Fits into broader integration points such as web app security review, DAST, and verification workflows.
+
+In security-oriented usage, the skill emphasizes read-only discovery, evidence capture, and machine-readable output such as SARIF, JSON, or structured findings so results can flow into existing review pipelines. Key integration points include web app security review, DAST, and verification workflows. In a real environment that usually means passing credentials through env vars or app config, respecting rate limits and permission scopes, and returning structured artifacts that can be attached to tickets, pull requests, dashboards, or follow-up automations.
 
 ## Installation
 

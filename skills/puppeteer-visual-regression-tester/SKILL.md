@@ -3,7 +3,7 @@ name: "Puppeteer Visual Regression Tester"
 description: "Automates visual regression testing using Puppeteer page.screenshot() with pixelmatch diffing. Captures full-page screenshots at multiple viewport sizes and generates HTML diff reports with highlighted change regions."
 category: "Browser Automation"
 framework: "Cursor"
-verification: listed  # security_reviewed or listed
+verification: listed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
@@ -12,7 +12,7 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/puppeteer-visual-regression-tester/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "puppeteer"  # from ase_tool_match
-  github_stars: 93912  # from ase_github_stars (integer, not string)
+  github_stars: 93932  # from ase_github_stars (integer, not string)
   npm_weekly_downloads: 8696130  # from ase_npm_downloads
   github_repo: "puppeteer/puppeteer"  # from ase_github_repo
   license: "Apache-2.0"  # from ase_tool_license
@@ -25,11 +25,19 @@ Automates visual regression testing using Puppeteer page.screenshot() with pixel
 
 ## Overview
 
-This skill automates visual regression testing for web applications using Puppeteer and the pixelmatch image comparison library. It captures full-page screenshots using page.screenshot({ fullPage: true }) at configurable viewport sizes and compares them against baseline images to detect unintended visual changes.
+**Puppeteer Visual Regression Tester** is built around Puppeteer Chrome automation library. The underlying ecosystem is represented by `puppeteer/puppeteer` (93,912+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like page.screenshot, tracing, DevTools protocol, PDF, viewport control and preserving the operational context that matters for real tasks.
 
-The skill supports multiple viewport configurations (mobile, tablet, desktop, ultrawide) and handles dynamic content by injecting CSS to hide animations, carousels, and timestamp elements before capture. It uses page.evaluate() to scroll through lazy-loaded content and wait for all network requests to settle via page.waitForNetworkIdle().
+For testing and review work, the skill wraps the normal puppeteer commands into a repeatable analysis loop that can produce summaries, prioritized findings, and CI-friendly output instead of a wall of raw logs. The original use case is clear: Automates visual regression testing using Puppeteer page.screenshot() with pixelmatch diffing. Captures full-page screenshots at multiple viewport sizes and generates HTML diff reports with highlighted change regions. The implementation typically relies on page.screenshot, tracing, DevTools protocol, PDF, viewport control, with configuration passed through environment variables, connection strings, service tokens, or workspace config depending on the upstream platform.
 
-Diff reports are generated as interactive HTML files with side-by-side comparisons, overlay mode, and highlighted change regions. Configurable threshold settings allow teams to tune sensitivity for different page sections, ignoring sub-pixel rendering differences while catching layout shifts.
+Accesses page.screenshot, tracing, DevTools protocol, PDF, viewport control instead of scraping a UI, which makes runs easier to audit and retry.
+
+Supports structured inputs and outputs so another tool, agent, or CI step can consume the result.
+
+Can be wired into cron jobs, webhook handlers, MCP transports, or local CLI workflows depending on the skill format.
+
+Fits into broader integration points such as browser automation, screenshots, and visual regression testing.
+
+Key integration points include browser automation, screenshots, and visual regression testing. In a real environment that usually means passing credentials through env vars or app config, respecting rate limits and permission scopes, and returning structured artifacts that can be attached to tickets, pull requests, dashboards, or follow-up automations.
 
 ## Installation
 

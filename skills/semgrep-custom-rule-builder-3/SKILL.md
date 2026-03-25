@@ -3,7 +3,7 @@ name: "Semgrep Custom Rule Builder"
 description: "Creates custom Semgrep SAST rules using the semgrep CLI and rule schema YAML format. Supports pattern-either, metavariable-regex, and taint-mode tracking for detecting framework-specific vulnerabilities in Python, Go, and JavaScript."
 category: "Code Quality & Review"
 framework: "MCP-compatible"
-verification: security_reviewed  # security_reviewed or listed
+verification: security_reviewed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
@@ -12,7 +12,7 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/semgrep-custom-rule-builder-3/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "semgrep"  # from ase_tool_match
-  github_stars: 14543  # from ase_github_stars (integer, not string)
+  github_stars: 14551  # from ase_github_stars (integer, not string)
   github_repo: "semgrep/semgrep"  # from ase_github_repo
   license: "LGPL-2.1"  # from ase_tool_license
   maintained: true  # from ase_tool_maintained

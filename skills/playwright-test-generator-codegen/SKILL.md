@@ -3,7 +3,7 @@ name: "Playwright Test Generator with Codegen"
 description: "Records and generates end-to-end test scripts using Playwright Codegen with multi-browser targeting. Produces TypeScript test files compatible with Playwright Test runner, handles visual regression via playwright-visual-regression plugin, and integrates with Allure reporting."
 category: "Research & Scraping"
 framework: "Cursor"
-verification: security_reviewed  # security_reviewed or listed
+verification: security_reviewed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
@@ -12,7 +12,7 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/playwright-test-generator-codegen/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "playwright"  # from ase_tool_match
-  github_stars: 84874  # from ase_github_stars (integer, not string)
+  github_stars: 84938  # from ase_github_stars (integer, not string)
   npm_weekly_downloads: 39806814  # from ase_npm_downloads
   github_repo: "microsoft/playwright"  # from ase_github_repo
   license: "Apache-2.0"  # from ase_tool_license

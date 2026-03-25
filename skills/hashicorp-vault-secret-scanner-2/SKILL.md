@@ -3,7 +3,7 @@ name: "HashiCorp Vault Secret Scanner"
 description: "Scans codebases for hardcoded secrets using HashiCorp Vault SDK and truffleHog patterns. Integrates with Vault Transit engine for automatic secret rotation and re-encryption of detected credentials."
 category: "Security & Verification"
 framework: "Claude Code"
-verification: security_reviewed  # security_reviewed or listed
+verification: security_reviewed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
@@ -12,7 +12,7 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/hashicorp-vault-secret-scanner-2/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "vault"  # from ase_tool_match
-  github_stars: 35266  # from ase_github_stars (integer, not string)
+  github_stars: 35275  # from ase_github_stars (integer, not string)
   github_repo: "hashicorp/vault"  # from ase_github_repo
   license: "NOASSERTION"  # from ase_tool_license
   maintained: true  # from ase_tool_maintained

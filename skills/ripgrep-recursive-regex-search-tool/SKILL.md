@@ -3,16 +3,20 @@ name: "ripgrep Recursive Regex Search Tool"
 description: "ripgrep (rg) is a line-oriented search tool that recursively searches directories for regex patterns while respecting .gitignore rules. Written in Rust, it outperforms grep, ag, and ack on large codebases by significant margins and supports Unicode by default."
 category: "Developer Tools"
 framework: "Claude Code"
-verification: listed  # security_reviewed or listed
-rating: 0
-reviews: 0
-creator: ""
+verification: security_reviewed  # one of: security_reviewed, listed
+rating: 0  # real rating only, 0 if none
+reviews: 0  # real reviews only, 0 if none
+creator: ""  # real creator only, empty if none
 creator_handle: ""
 creator_verified: false
 source: "https://agentskillexchange.com/skills/ripgrep-recursive-regex-search-tool/"
 ---
 
 # ripgrep Recursive Regex Search Tool
+
+ripgrep (rg) is a line-oriented search tool that recursively searches directories for regex patterns while respecting .gitignore rules. Written in Rust, it outperforms grep, ag, and ack on large codebases by significant margins and supports Unicode by default.
+
+## Overview
 
 ripgrep is a command-line search utility written in Rust by Andrew Galloway (BurntSushi). It searches the current directory tree for lines matching a regular expression pattern, printing file names, line numbers, and matched text. By default it skips files listed in .gitignore, hidden directories, and binary files — behavior that can be disabled with the -uuu flag for unrestricted searching.
 
@@ -23,7 +27,6 @@ The tool supports Perl-compatible regex syntax through the regex crate, with ful
 ripgrep outputs results in a format compatible with grep, so it integrates with existing tool chains. The –json flag emits structured JSON output for programmatic consumption. The –vimgrep flag formats output for Vim’s quickfix list. Color output is automatic when writing to a terminal and disabled when piping to another command.
 
 The tool is distributed via GitHub releases as static binaries for Linux, macOS, and Windows. It is also available through Homebrew, cargo, apt, pacman, Chocolatey, and Scoop. ripgrep is dual-licensed under MIT and the Unlicense.
-
 
 ## Installation
 
@@ -56,3 +59,7 @@ npx skills add agentskillexchange/skills --skill ripgrep-recursive-regex-search-
 ```bash
 clawhub install ripgrep-recursive-regex-search-tool
 ```
+
+## Source
+
+- Marketplace: https://agentskillexchange.com/skills/ripgrep-recursive-regex-search-tool/

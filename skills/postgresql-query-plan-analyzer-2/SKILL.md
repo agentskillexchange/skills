@@ -2,8 +2,8 @@
 name: "PostgreSQL Query Plan Analyzer"
 description: "Executes EXPLAIN ANALYZE BUFFERS on slow PostgreSQL queries and parses the plan tree for sequential scans, nested loop joins, and sort spills. Integrates with pg_stat_statements for identifying top resource-consuming queries."
 category: "Developer Tools"
-framework: "Claude Code"
-verification: listed  # security_reviewed or listed
+framework: "MCP-compatible"
+verification: security_reviewed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
@@ -21,7 +21,19 @@ Executes EXPLAIN ANALYZE BUFFERS on slow PostgreSQL queries and parses the plan 
 
 ## Overview
 
-The PostgreSQL Query Plan Analyzer skill provides deep query performance diagnostics for PostgreSQL databases. It executes EXPLAIN with ANALYZE, BUFFERS, and FORMAT JSON on target queries to capture actual execution times, row estimates vs actuals, and buffer hit ratios. The skill parses the JSON plan tree to identify performance anti-patterns including sequential scans on large tables, nested loop joins with high row multipliers, hash joins exceeding work_mem, and sort operations overflowing to temporary files. It queries pg_stat_statements to rank queries by total execution time, calls count, and mean latency. The skill analyzes index usage via pg_stat_user_indexes to detect unused indexes and suggests covering indexes for frequent query patterns. Output includes visual plan tree annotation, index recommendations, and configuration tuning suggestions.
+**PostgreSQL Query Plan Analyzer** is built around PostgreSQL relational database. It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like SQL, pg_stat_statements, EXPLAIN ANALYZE, locks, indexes, extensions and preserving the operational context that matters for real tasks.
+
+The skill is especially useful when an agent needs to translate a natural-language request into concrete postgresql-level queries, run them safely, and then explain the result in operational terms rather than returning raw output. The original use case is clear: Executes EXPLAIN ANALYZE BUFFERS on slow PostgreSQL queries and parses the plan tree for sequential scans, nested loop joins, and sort spills. Integrates with pg_stat_statements for identifying top resource-consuming queries. The implementation typically relies on SQL, pg_stat_statements, EXPLAIN ANALYZE, locks, indexes, extensions, with configuration passed through environment variables, connection strings, service tokens, or workspace config depending on the upstream platform.
+
+Accesses SQL, pg_stat_statements, EXPLAIN ANALYZE, locks, indexes, extensions instead of scraping a UI, which makes runs easier to audit and retry.
+
+Supports structured inputs and outputs so another tool, agent, or CI step can consume the result.
+
+Can be wired into cron jobs, webhook handlers, MCP transports, or local CLI workflows depending on the skill format.
+
+Fits into broader integration points such as query analysis, diagnostics, warehouses, and application backends.
+
+As a runbook-style skill, the value is not just tool access but operational sequencing: check the right signals first, reduce alert noise, and produce a summary that another engineer can act on immediately. Key integration points include query analysis, diagnostics, warehouses, and application backends. In a real environment that usually means passing credentials through env vars or app config, respecting rate limits and permission scopes, and returning structured artifacts that can be attached to tickets, pull requests, dashboards, or follow-up automations.
 
 ## Installation
 

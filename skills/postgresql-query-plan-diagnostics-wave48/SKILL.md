@@ -3,7 +3,7 @@ name: "PostgreSQL Query Plan Diagnostics"
 description: "Analyzes PostgreSQL query execution plans using EXPLAIN (ANALYZE, BUFFERS, FORMAT JSON) and the pg_stat_statements extension. Identifies sequential scans, nested loop inefficiencies, and index recommendations for slow queries."
 category: "Runbooks & Diagnostics"
 framework: "Claude Code"
-verification: listed  # security_reviewed or listed
+verification: listed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

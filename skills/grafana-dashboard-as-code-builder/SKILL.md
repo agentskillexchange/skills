@@ -3,7 +3,7 @@ name: "Grafana Dashboard as Code Builder"
 description: "Builds Grafana dashboards programmatically using grafonnet-lib (Jsonnet) and the Grafana HTTP API. Generates panel JSON for time series, stat, table, and heatmap visualizations with PromQL/LogQL queries."
 category: "Monitoring & Alerts"
 framework: "Claude Code"
-verification: security_reviewed  # security_reviewed or listed
+verification: security_reviewed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
@@ -12,7 +12,7 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/grafana-dashboard-as-code-builder/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "grafana"  # from ase_tool_match
-  github_stars: 72784  # from ase_github_stars (integer, not string)
+  github_stars: 72796  # from ase_github_stars (integer, not string)
   github_repo: "grafana/grafana"  # from ase_github_repo
   license: "AGPL-3.0"  # from ase_tool_license
   maintained: true  # from ase_tool_maintained

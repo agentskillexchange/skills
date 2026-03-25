@@ -3,7 +3,7 @@ name: "Surfer SEO SERP Analyzer"
 description: "Uses Surfer SEO Content Editor API to pull SERP analysis data including word count benchmarks, heading structure patterns, and NLP entity recommendations. Generates content briefs with target keyword clusters from Surfer Audit endpoints."
 category: "Content Writing & SEO"
 framework: "Cursor"
-verification: security_reviewed  # security_reviewed or listed
+verification: security_reviewed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

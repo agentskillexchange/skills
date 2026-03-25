@@ -3,7 +3,7 @@ name: "ESLint Rule Enforcer Agent"
 description: "Runs ESLint with custom rulesets via the ESLint Node.js API and eslint-plugin-import to enforce project-specific code standards. Parses AST violations, groups by severity, and generates fix-ready patches using eslint –fix output diffs."
 category: "Code Quality & Review"
 framework: "OpenClaw"
-verification: security_reviewed  # security_reviewed or listed
+verification: security_reviewed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
@@ -12,7 +12,7 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/eslint-rule-enforcer-agent/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "eslint"  # from ase_tool_match
-  github_stars: 27186  # from ase_github_stars (integer, not string)
+  github_stars: 27185  # from ase_github_stars (integer, not string)
   npm_weekly_downloads: 109028697  # from ase_npm_downloads
   github_repo: "eslint/eslint"  # from ase_github_repo
   license: "MIT"  # from ase_tool_license

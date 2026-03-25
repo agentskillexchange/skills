@@ -3,7 +3,7 @@ name: "Cheerio DOM Scraping Toolkit"
 description: "Parses static HTML using Cheerio’s jQuery-like API for fast server-side DOM traversal and data extraction. Generates extraction patterns with CSS selectors optimized for resilience to layout changes."
 category: "Research & Scraping"
 framework: "Cursor"
-verification: security_reviewed  # security_reviewed or listed
+verification: security_reviewed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
@@ -12,7 +12,7 @@ creator_verified: false
 source: "https://agentskillexchange.com/skills/cheerio-dom-scraping-toolkit/"
 tool_ecosystem:  # ONLY if real signals exist in meta
   tool: "cheerio"  # from ase_tool_match
-  github_stars: 30229  # from ase_github_stars (integer, not string)
+  github_stars: 30231  # from ase_github_stars (integer, not string)
   npm_weekly_downloads: 18512628  # from ase_npm_downloads
   github_repo: "cheeriojs/cheerio"  # from ase_github_repo
   license: "MIT"  # from ase_tool_license

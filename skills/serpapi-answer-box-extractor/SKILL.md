@@ -3,7 +3,7 @@ name: "SerpAPI Answer Box Extractor"
 description: "Extracts high-signal SERP features from SerpAPI responses, including `answer_box`, `knowledge_graph`, `related_questions`, and `organic_results`. Useful for research agents that need structured search intelligence rather than raw HTML scraping."
 category: "Research & Scraping"
 framework: "Gemini"
-verification: security_reviewed  # security_reviewed or listed
+verification: security_reviewed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

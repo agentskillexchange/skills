@@ -3,7 +3,7 @@ name: "Midjourney Prompt Optimizer"
 description: "Analyze and optimize Midjourney prompts using parameter tuning for –ar, –stylize, –chaos, and –weird flags. Generates prompt variations with style references (–sref) and character references (–cref) for consistent image output."
 category: "Image & Creative Automation"
 framework: "Gemini"
-verification: listed  # security_reviewed or listed
+verification: security_reviewed  # one of: security_reviewed, listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
@@ -20,15 +20,19 @@ Analyze and optimize Midjourney prompts using parameter tuning for –ar, –sty
 
 ## Overview
 
-Optimize image generation prompts for Midjourney with systematic parameter tuning and variation generation. This skill analyzes prompt structure and suggests improvements for better output quality and consistency.
+**Midjourney Prompt Optimizer** is built around Midjourney prompt engineering workflow. It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like parameter tuning, style references, aspect ratio, chaos, stylize, version flags and preserving the operational context that matters for real tasks.
 
-The prompt analyzer breaks down input prompts into subject, style, lighting, composition, and technical parameter components. It evaluates prompt weight syntax (::weight), multi-prompt separators, and negative prompts (–no) for effectiveness.
+In practice, the skill gives an agent a stable interface to midjourney so it can inspect state, run the right operation, and produce a result that fits into a larger engineering or operations pipeline. The original use case is clear: Analyze and optimize Midjourney prompts using parameter tuning for –ar, –stylize, –chaos, and –weird flags. Generates prompt variations with style references (–sref) and character references (–cref) for consistent image output. The implementation typically relies on parameter tuning, style references, aspect ratio, chaos, stylize, version flags, with configuration passed through environment variables, connection strings, service tokens, or workspace config depending on the upstream platform.
 
-Parameter optimization covers aspect ratio (–ar) selection based on intended use case, stylize values (–stylize 0-1000) for controlling artistic interpretation, chaos values (–chaos 0-100) for variation diversity, and weird values (–weird 0-3000) for unconventional aesthetics.
+Accesses parameter tuning, style references, aspect ratio, chaos, stylize, version flags instead of scraping a UI, which makes runs easier to audit and retry.
 
-Advanced features include style reference URLs (–sref) for maintaining visual consistency across generations, character references (–cref) for preserving character identity, and seed locking (–seed) for reproducible results. The skill generates batch prompt sets with systematic parameter sweeps for A/B testing.
+Supports structured inputs and outputs so another tool, agent, or CI step can consume the result.
 
-Version-specific optimization handles differences between Midjourney v5.2, v6, and v6.1 model capabilities, adjusting prompt strategies and available parameters for each version. Output includes formatted prompt text ready for Discord bot submission.
+Can be wired into cron jobs, webhook handlers, MCP transports, or local CLI workflows depending on the skill format.
+
+Fits into broader integration points such as iterative image generation, style consistency, and creative prompt chains.
+
+Key integration points include iterative image generation, style consistency, and creative prompt chains. In a real environment that usually means passing credentials through env vars or app config, respecting rate limits and permission scopes, and returning structured artifacts that can be attached to tickets, pull requests, dashboards, or follow-up automations.
 
 ## Installation
 
