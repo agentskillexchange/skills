@@ -3,20 +3,14 @@ name: "SerpAPI Search Aggregator"
 description: "Aggregates search results from Google, Bing, and DuckDuckGo via the SerpAPI REST endpoint. Parses organic results, knowledge panels, and People Also Ask data into structured JSON for downstream analysis."
 category: "Research & Scraping"
 framework: "OpenClaw"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/serpapi-search-aggregator/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "redis"  # from ase_tool_match
-  github_stars: 73523  # from ase_github_stars (integer, not string)
-  npm_weekly_downloads: 8224050  # from ase_npm_downloads
-  github_repo: "redis/redis"  # from ase_github_repo
-  license: "NOASSERTION"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "redis"
+  github_stars: 73523
+  npm_weekly_downloads: 8224050
+  github_repo: "redis/redis"
+  maintained: true
 ---
 
 # SerpAPI Search Aggregator

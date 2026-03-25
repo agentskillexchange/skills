@@ -3,19 +3,13 @@ name: "Terraform State Surgery Kit"
 description: "Performs safe Terraform state operations using the terraform CLI state subcommands and the Terraform Cloud API. Handles state imports, resource moves, and taint operations with automatic backup and rollback."
 category: "Runbooks & Diagnostics"
 framework: "Claude Code"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/terraform-state-surgery-kit/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "terraform"  # from ase_tool_match
-  github_stars: 48003  # from ase_github_stars (integer, not string)
-  github_repo: "hashicorp/terraform"  # from ase_github_repo
-  license: "NOASSERTION"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "terraform"
+  github_stars: 48003
+  github_repo: "hashicorp/terraform"
+  maintained: true
 ---
 
 # Terraform State Surgery Kit

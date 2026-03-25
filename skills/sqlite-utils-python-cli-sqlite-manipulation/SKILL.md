@@ -4,11 +4,6 @@ description: "sqlite-utils is a Python CLI utility and library by Simon Willison
 category: "Uncategorized"
 framework: "Unknown"
 verification: listed
-rating: 0
-reviews: 0
-creator: ""
-creator_handle: ""
-creator_verified: false
 source: "https://agentskillexchange.com/skills/sqlite-utils-python-cli-sqlite-manipulation/"
 ---
 

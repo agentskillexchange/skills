@@ -3,19 +3,13 @@ name: "ComfyUI Workflow Executor"
 description: "Executes ComfyUI image generation workflows via the /prompt REST API endpoint with WebSocket progress tracking. Manages node graph JSON payloads, KSampler scheduler configurations (euler_ancestral, dpmpp_2m_sde), and output image retrieval from the /view endpoint."
 category: "Image & Creative Automation"
 framework: "Codex"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/comfyui-workflow-executor/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "vault"  # from ase_tool_match
-  github_stars: 35275  # from ase_github_stars (integer, not string)
-  github_repo: "hashicorp/vault"  # from ase_github_repo
-  license: "NOASSERTION"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "vault"
+  github_stars: 35275
+  github_repo: "hashicorp/vault"
+  maintained: true
 ---
 
 # ComfyUI Workflow Executor

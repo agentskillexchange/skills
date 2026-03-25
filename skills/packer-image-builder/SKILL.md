@@ -3,19 +3,14 @@ name: "Packer Image Builder"
 description: "Packer Image Builder is built around Docker container platform. The underlying ecosystem is represented by moby/moby (71,560+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like Docker Engine API, Dockerfiles, docker compose, image builds, registries and preserving the […]"
 category: "Templates & Workflows"
 framework: "Custom Agents"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/packer-image-builder/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "docker"  # from ase_tool_match
-  github_stars: 71560  # from ase_github_stars (integer, not string)
-  github_repo: "moby/moby"  # from ase_github_repo
-  license: "Apache-2.0"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "docker"
+  github_stars: 71560
+  github_repo: "moby/moby"
+  license: "Apache-2.0"
+  maintained: true
 ---
 
 # Packer Image Builder

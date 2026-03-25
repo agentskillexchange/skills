@@ -3,20 +3,15 @@ name: "Playwright Test Report to Slack"
 description: "Parses Playwright HTML and JSON test reports and posts structured summaries to Slack using the Slack Web API. Reads test results from the playwright-report directory, extracts pass/fail/flaky counts using the @playwright/test reporter API, and posts rich Block Kit messages with test suite breakdowns via chat.postMessage."
 category: "CI/CD Integrations"
 framework: "ChatGPT Agents"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/playwright-test-report-to-slack/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "playwright"  # from ase_tool_match
-  github_stars: 84938  # from ase_github_stars (integer, not string)
-  npm_weekly_downloads: 39806814  # from ase_npm_downloads
-  github_repo: "microsoft/playwright"  # from ase_github_repo
-  license: "Apache-2.0"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "playwright"
+  github_stars: 84938
+  npm_weekly_downloads: 39806814
+  github_repo: "microsoft/playwright"
+  license: "Apache-2.0"
+  maintained: true
 ---
 
 # Playwright Test Report to Slack

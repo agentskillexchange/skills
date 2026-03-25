@@ -3,20 +3,15 @@ name: "REST API Testing Reference Kit"
 description: "Comprehensive REST API testing reference using Postman Collection SDK v2.1 and Newman CLI. Includes assertion libraries for JSON Schema validation with Ajv, response time benchmarking, and contract testing patterns."
 category: "Library & API Reference"
 framework: "Cursor"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/rest-api-testing-reference-kit/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "swagger"  # from ase_tool_match
-  github_stars: 28703  # from ase_github_stars (integer, not string)
-  npm_weekly_downloads: 3219093  # from ase_npm_downloads
-  github_repo: "swagger-api/swagger-ui"  # from ase_github_repo
-  license: "Apache-2.0"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "swagger"
+  github_stars: 28703
+  npm_weekly_downloads: 3219093
+  github_repo: "swagger-api/swagger-ui"
+  license: "Apache-2.0"
+  maintained: true
 ---
 
 # REST API Testing Reference Kit

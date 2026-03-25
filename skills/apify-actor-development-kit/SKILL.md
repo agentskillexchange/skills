@@ -3,20 +3,15 @@ name: "Apify Actor Development Kit"
 description: "Builds Apify Actors for scalable cloud scraping with automatic proxy management and storage. Uses the Apify SDK (Actor, Dataset, KeyValueStore, RequestQueue) and Crawlee library for robust crawling."
 category: "Research & Scraping"
 framework: "Claude Code"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/apify-actor-development-kit/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "apify"  # from ase_tool_match
-  github_stars: 172  # from ase_github_stars (integer, not string)
-  npm_weekly_downloads: 44900  # from ase_npm_downloads
-  github_repo: "apify/apify-sdk-js"  # from ase_github_repo
-  license: "Apache-2.0"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "apify"
+  github_stars: 172
+  npm_weekly_downloads: 44900
+  github_repo: "apify/apify-sdk-js"
+  license: "Apache-2.0"
+  maintained: true
 ---
 
 # Apify Actor Development Kit

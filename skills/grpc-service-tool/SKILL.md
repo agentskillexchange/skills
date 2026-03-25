@@ -3,20 +3,15 @@ name: "gRPC Service Tool"
 description: "gRPC Service Tool is built around gRPC remote procedure call framework. The underlying ecosystem is represented by grpc/grpc-node (4,816+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like Protocol Buffers, unary and streaming RPCs, reflection, deadlines, interceptors and […]"
 category: "Library & API Reference"
 framework: "Custom Agents"
-verification: listed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: listed
 source: "https://agentskillexchange.com/skills/grpc-service-tool/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "grpc"  # from ase_tool_match
-  github_stars: 4816  # from ase_github_stars (integer, not string)
-  npm_weekly_downloads: 30883690  # from ase_npm_downloads
-  github_repo: "grpc/grpc-node"  # from ase_github_repo
-  license: "Apache-2.0"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "grpc"
+  github_stars: 4816
+  npm_weekly_downloads: 30883690
+  github_repo: "grpc/grpc-node"
+  license: "Apache-2.0"
+  maintained: true
 ---
 
 # gRPC Service Tool

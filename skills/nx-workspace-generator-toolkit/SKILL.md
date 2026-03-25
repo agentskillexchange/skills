@@ -3,20 +3,15 @@ name: "Nx Workspace Generator Toolkit"
 description: "Creates and manages custom Nx workspace generators using @nrwl/devkit with TypeTree file generation and schema.json validation. Automates monorepo library and app scaffolding with dependency graph awareness."
 category: "Templates & Workflows"
 framework: "Cursor"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/nx-workspace-generator-toolkit/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "playwright"  # from ase_tool_match
-  github_stars: 84938  # from ase_github_stars (integer, not string)
-  npm_weekly_downloads: 39806814  # from ase_npm_downloads
-  github_repo: "microsoft/playwright"  # from ase_github_repo
-  license: "Apache-2.0"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "playwright"
+  github_stars: 84938
+  npm_weekly_downloads: 39806814
+  github_repo: "microsoft/playwright"
+  license: "Apache-2.0"
+  maintained: true
 ---
 
 # Nx Workspace Generator Toolkit

@@ -3,19 +3,14 @@ name: "Grafana Loki Log Correlation Agent"
 description: "Queries Grafana Loki via the LogQL API to correlate log streams across services. Builds cross-service trace-to-log mappings using Tempo integration and generates alert rule suggestions."
 category: "Monitoring & Alerts"
 framework: "ChatGPT Agents"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/grafana-loki-log-correlation-agent-2/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "loki"  # from ase_tool_match
-  github_stars: 27858  # from ase_github_stars (integer, not string)
-  github_repo: "grafana/loki"  # from ase_github_repo
-  license: "AGPL-3.0"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "loki"
+  github_stars: 27858
+  github_repo: "grafana/loki"
+  license: "AGPL-3.0"
+  maintained: true
 ---
 
 # Grafana Loki Log Correlation Agent

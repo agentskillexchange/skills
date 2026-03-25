@@ -3,20 +3,15 @@ name: "HubSpot MCP Server"
 description: "HubSpot MCP Server is built around HubSpot CRM and marketing APIs. The underlying ecosystem is represented by HubSpot/hubspot-api-nodejs (391+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like contacts, companies, deals, forms, workflows, search API, associations and preserving […]"
 category: "Integrations & Connectors"
 framework: "MCP-compatible"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/hubspot-mcp-server/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "hubspot"  # from ase_tool_match
-  github_stars: 391  # from ase_github_stars (integer, not string)
-  npm_weekly_downloads: 905578  # from ase_npm_downloads
-  github_repo: "HubSpot/hubspot-api-nodejs"  # from ase_github_repo
-  license: "Apache-2.0"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "hubspot"
+  github_stars: 391
+  npm_weekly_downloads: 905578
+  github_repo: "HubSpot/hubspot-api-nodejs"
+  license: "Apache-2.0"
+  maintained: true
 ---
 
 # HubSpot MCP Server

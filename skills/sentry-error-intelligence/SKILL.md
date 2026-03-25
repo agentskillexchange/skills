@@ -3,20 +3,14 @@ name: "Sentry Error Intelligence"
 description: "Connects to the Sentry API v0 to analyze error trends, group similar stack traces using fingerprinting rules, and auto-assigns issues to code owners via GitHub CODEOWNERS integration."
 category: "Monitoring & Alerts"
 framework: "Claude Code"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/sentry-error-intelligence/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "sentry"  # from ase_tool_match
-  github_stars: 43437  # from ase_github_stars (integer, not string)
-  npm_weekly_downloads: 16379655  # from ase_npm_downloads
-  github_repo: "getsentry/sentry"  # from ase_github_repo
-  license: "NOASSERTION"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "sentry"
+  github_stars: 43437
+  npm_weekly_downloads: 16379655
+  github_repo: "getsentry/sentry"
+  maintained: true
 ---
 
 # Sentry Error Intelligence

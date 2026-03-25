@@ -3,16 +3,11 @@ name: "PostgreSQL Query Plan Explainer"
 description: "Interprets PostgreSQL EXPLAIN ANALYZE output using pg_stat_statements and auto_explain module data. Identifies sequential scan bottlenecks, index recommendations via HypoPG, and buffer cache hit ratios."
 category: "Runbooks & Diagnostics"
 framework: "Gemini"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/postgresql-query-plan-explainer/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "postgresql"  # from ase_tool_match
-  npm_weekly_downloads: 21413502  # from ase_npm_downloads
+tool_ecosystem:
+  tool: "postgresql"
+  npm_weekly_downloads: 21413502
 ---
 
 # PostgreSQL Query Plan Explainer

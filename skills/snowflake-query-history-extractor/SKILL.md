@@ -3,15 +3,10 @@ name: "Snowflake Query History Extractor"
 description: "Extracts query history and performance metadata from Snowflake using the Snowflake Python Connector and INFORMATION_SCHEMA.QUERY_HISTORY view. Identifies expensive queries by credits consumed, data scanned, and spillage to remote storage. Exports results to a Pandas DataFrame for downstream analysis or Slack reporting."
 category: "Data Extraction & Transformation"
 framework: "ChatGPT Agents"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/snowflake-query-history-extractor/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "snowflake"  # from ase_tool_match
+tool_ecosystem:
+  tool: "snowflake"
 ---
 
 # Snowflake Query History Extractor

@@ -3,19 +3,13 @@ name: "Podcast RSS Feed Audio Normalizer"
 description: "Parses podcast RSS feeds with feedparser and normalizes audio loudness to -16 LUFS broadcast standard using ffmpeg loudnorm filter with dual-pass EBU R128 analysis. Integrates with Podbean API and Buzzsprout API for automated episode re-upload."
 category: "Media & Transcription"
 framework: "MCP-compatible"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/podcast-rss-feed-audio-normalizer/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "ffmpeg"  # from ase_tool_match
-  github_stars: 58283  # from ase_github_stars (integer, not string)
-  github_repo: "FFmpeg/FFmpeg"  # from ase_github_repo
-  license: "NOASSERTION"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "ffmpeg"
+  github_stars: 58283
+  github_repo: "FFmpeg/FFmpeg"
+  maintained: true
 ---
 
 # Podcast RSS Feed Audio Normalizer

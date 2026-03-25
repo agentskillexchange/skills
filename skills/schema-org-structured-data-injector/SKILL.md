@@ -3,19 +3,13 @@ name: "Schema.org Structured Data Injector"
 description: "Generates and validates JSON-LD structured data markup for articles, products, FAQs, and HowTo content types following Schema.org specifications. Integrates with Google’s Rich Results Test API and validates against the Schema.org vocabulary using the sdtt validator."
 category: "Content Writing & SEO"
 framework: "ChatGPT Agents"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/schema-org-structured-data-injector/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "wordpress"  # from ase_tool_match
-  github_stars: 20976  # from ase_github_stars (integer, not string)
-  github_repo: "WordPress/WordPress"  # from ase_github_repo
-  license: "NOASSERTION"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "wordpress"
+  github_stars: 20976
+  github_repo: "WordPress/WordPress"
+  maintained: true
 ---
 
 # Schema.org Structured Data Injector

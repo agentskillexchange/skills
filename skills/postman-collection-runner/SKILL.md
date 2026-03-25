@@ -3,19 +3,13 @@ name: "Postman Collection Runner"
 description: "Postman Collection Runner is built around Postman API testing platform. The underlying ecosystem is represented by postmanlabs/postman-app-support (5,996+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like collections, environments, Newman, scripts, assertions, monitors and preserving the operational context […]"
 category: "Library & API Reference"
 framework: "Custom Agents"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/postman-collection-runner/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "postman"  # from ase_tool_match
-  github_stars: 5996  # from ase_github_stars (integer, not string)
-  github_repo: "postmanlabs/postman-app-support"  # from ase_github_repo
-  license: "Unknown"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "postman"
+  github_stars: 5996
+  github_repo: "postmanlabs/postman-app-support"
+  maintained: true
 ---
 
 # Postman Collection Runner

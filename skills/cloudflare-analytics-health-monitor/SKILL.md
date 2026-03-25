@@ -3,20 +3,15 @@ name: "Cloudflare Analytics Health Monitor"
 description: "Monitors Cloudflare zone analytics via the Cloudflare API v4 GraphQL Analytics endpoint, tracking request rates, cache hit ratios, and WAF event spikes. Sends alerts through PagerDuty Events API v2 when thresholds are breached."
 category: "Monitoring & Alerts"
 framework: "OpenClaw"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/cloudflare-analytics-health-monitor/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "cloudflare"  # from ase_tool_match
-  github_stars: 1946  # from ase_github_stars (integer, not string)
-  npm_weekly_downloads: 1035304  # from ase_npm_downloads
-  github_repo: "cloudflare/cloudflare-go"  # from ase_github_repo
-  license: "Apache-2.0"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "cloudflare"
+  github_stars: 1946
+  npm_weekly_downloads: 1035304
+  github_repo: "cloudflare/cloudflare-go"
+  license: "Apache-2.0"
+  maintained: true
 ---
 
 # Cloudflare Analytics Health Monitor

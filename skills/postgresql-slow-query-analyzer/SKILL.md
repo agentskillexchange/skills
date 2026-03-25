@@ -3,16 +3,11 @@ name: "PostgreSQL Slow Query Analyzer"
 description: "Queries pg_stat_statements and pg_stat_activity to surface the top slow queries by total execution time, mean latency, and call frequency. Runs EXPLAIN ANALYZE on worst offenders and suggests index additions, rewrite candidates, or vacuum triggers. Works on RDS and Supabase."
 category: "Runbooks & Diagnostics"
 framework: "MCP-compatible"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/postgresql-slow-query-analyzer/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "postgresql"  # from ase_tool_match
-  npm_weekly_downloads: 21413502  # from ase_npm_downloads
+tool_ecosystem:
+  tool: "postgresql"
+  npm_weekly_downloads: 21413502
 ---
 
 # PostgreSQL Slow Query Analyzer

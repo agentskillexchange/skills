@@ -3,19 +3,14 @@ name: "Nginx Config Validator and Optimizer"
 description: "Parses nginx.conf and included config files using the crossplane Python library and nginx -t test command. Identifies misconfigurations, duplicate server blocks, SSL/TLS weaknesses via Mozilla SSL Configuration Generator recommendations."
 category: "Runbooks & Diagnostics"
 framework: "MCP-compatible"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/nginx-config-validator-optimizer/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "nginx"  # from ase_tool_match
-  github_stars: 29767  # from ase_github_stars (integer, not string)
-  github_repo: "nginx/nginx"  # from ase_github_repo
-  license: "BSD-2-Clause"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "nginx"
+  github_stars: 29767
+  github_repo: "nginx/nginx"
+  license: "BSD-2-Clause"
+  maintained: true
 ---
 
 # Nginx Config Validator and Optimizer

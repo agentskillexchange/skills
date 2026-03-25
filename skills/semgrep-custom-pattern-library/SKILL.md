@@ -3,19 +3,14 @@ name: "Semgrep Custom Pattern Library"
 description: "Builds custom Semgrep rules using the semgrep YAML rule syntax with metavariable-pattern, pattern-either, and taint-mode analysis. Generates rule packs for OWASP Top 10 detection across Python, JavaScript, and Go codebases."
 category: "Code Quality & Review"
 framework: "Claude Agents"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/semgrep-custom-pattern-library/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "semgrep"  # from ase_tool_match
-  github_stars: 14551  # from ase_github_stars (integer, not string)
-  github_repo: "semgrep/semgrep"  # from ase_github_repo
-  license: "LGPL-2.1"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "semgrep"
+  github_stars: 14551
+  github_repo: "semgrep/semgrep"
+  license: "LGPL-2.1"
+  maintained: true
 ---
 
 # Semgrep Custom Pattern Library

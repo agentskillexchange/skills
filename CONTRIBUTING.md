@@ -1,14 +1,10 @@
 # Contributing to Agent Skill Exchange
 
-Thanks for your interest in contributing. Whether you're submitting a new skill, improving an existing one, or reporting issues — this guide covers what you need to know.
+Whether you're submitting a new skill, improving an existing one, or reporting issues — this guide covers what you need to know.
 
 ## Ways to Contribute
 
-### 1. Submit a Skill via the Website (Recommended)
-
-The easiest way is through our [Create Skill](https://agentskillexchange.com/create-skill/) page. It walks you through the format and publishes directly to the marketplace. Skills submitted this way are automatically synced to this repo.
-
-### 2. Submit a Skill via Pull Request
+### 1. Submit a Skill via Pull Request
 
 Fork this repo, create a skill directory, and open a PR.
 
@@ -19,9 +15,9 @@ cd skills
 
 # Create your skill
 mkdir -p skills/my-skill-name
+cp template/SKILL.md skills/my-skill-name/SKILL.md
 
-# Write the SKILL.md
-# (see format spec below)
+# Edit the SKILL.md (see format below)
 
 # Open a PR
 git add skills/my-skill-name/
@@ -29,15 +25,19 @@ git commit -m "Add my-skill-name"
 git push origin main
 ```
 
+### 2. Submit via the Website
+
+Use the [Create Skill](https://agentskillexchange.com/create-skill/) page. Skills submitted this way are automatically synced to this repo.
+
 ### 3. Improve an Existing Skill
 
-Found a typo, outdated info, or a way to make a skill better? Open a PR with the fix. We appreciate corrections to descriptions, install commands, and API references.
+Found a typo, outdated info, or a way to make a skill better? Open a PR with the fix.
 
 ### 4. Report Issues
 
 Use [GitHub Issues](https://github.com/agentskillexchange/skills/issues) for:
 - Skills with incorrect or outdated content
-- Missing or broken install commands
+- Broken install commands
 - Category or framework misclassification
 - General repo improvements
 
@@ -54,16 +54,11 @@ Every skill lives in `skills/<slug>/SKILL.md`. The file has two parts: YAML fron
 ```yaml
 ---
 name: "Human-Readable Skill Name"
-description: "One-paragraph description of what this skill does and when to use it. Be specific about APIs, tools, and techniques involved."
+description: "What this skill does and when to use it. Be specific about APIs, tools, and techniques."
 category: "Developer Tools"
 framework: "Claude Code"
 verification: listed
-rating: 4.5
-reviews: 12
-creator: "Your Name"
-creator_handle: "your-github-handle"
-creator_verified: false
-source: "https://agentskillexchange.com/skill/your-skill-slug/"
+source: "https://agentskillexchange.com/skills/your-skill-slug/"
 ---
 ```
 
@@ -73,15 +68,11 @@ source: "https://agentskillexchange.com/skill/your-skill-slug/"
 |-------|------|----------|-------------|
 | `name` | string | ✅ | Display name of the skill |
 | `description` | string | ✅ | What the skill does, when to use it. Reference real APIs and tools. |
-| `category` | string | ✅ | One of the 17 marketplace categories (see below) |
-| `framework` | string | ✅ | Primary framework: Claude Code, Cursor, Codex, OpenClaw, Gemini, etc. |
-| `verification` | string | ✅ | `listed`, `verified_metadata`, or `security_reviewed` |
-| `rating` | number | ❌ | Community rating (1.0–5.0). Set by marketplace, not by contributor. |
-| `reviews` | number | ❌ | Review count. Set by marketplace. |
-| `creator` | string | ✅ | Creator display name |
-| `creator_handle` | string | ❌ | GitHub handle or marketplace handle |
-| `creator_verified` | boolean | ❌ | Whether the creator is verified on the marketplace |
+| `category` | string | ✅ | One of the 17 categories (see below) |
+| `framework` | string | ✅ | Primary framework: Claude Code, Cursor, Codex, OpenClaw, etc. |
+| `verification` | string | ✅ | `listed` or `security_reviewed` |
 | `source` | string | ❌ | Link to the skill on agentskillexchange.com |
+| `tool_ecosystem` | object | ❌ | Real tool signals — only if backed by a verifiable tool (see [spec](spec/SKILL_SPEC.md)) |
 
 ### Valid Categories
 
@@ -112,9 +103,8 @@ Claude Code, Cursor, Codex, OpenClaw, Gemini, Claude Agents, ChatGPT Agents, Cus
 After the frontmatter, include:
 
 1. **Heading** matching the skill name
-2. **Description paragraph** — what it does and when to use it
+2. **Description** — what it does and when to use it (100+ words with technical detail)
 3. **Installation section** — commands for each supported agent
-4. **Creator attribution** (optional)
 
 Example:
 
@@ -125,7 +115,7 @@ Description of what this skill does...
 
 ## Installation
 
-### Any agent (npx skills)
+### Any Agent
 
 \`\`\`bash
 npx skills add agentskillexchange/skills --skill my-skill-name
@@ -148,47 +138,39 @@ clawhub install my-skill-name
 
 ## Quality Standards
 
-Skills in this repo should:
+Skills should:
 
-- **Reference real APIs, tools, and techniques** — no placeholder or made-up API names
+- **Reference real APIs, tools, and techniques** — no placeholder or made-up names
 - **Have a clear use case** — the description should explain *when* to use this skill
-- **Include working install commands** — test them before submitting
-- **Use proper English** — clear, concise, no filler language
-- **Fit a valid category** — don't invent new categories; pick the closest match
+- **Include working install commands**
+- **Be backed by a real tool** — a GitHub repo, npm package, or documented API
 - **Be original** — don't duplicate existing skills without adding clear value
-
-Skills that don't meet these standards will be asked to revise during PR review.
+- **Have 100+ words** of real technical content
 
 ---
 
-## Verification Process
+## Trust Model
 
-All new skills enter at the **Listed** tier. They can advance through verification:
+| Tier | Meaning |
+|------|---------|
+| 📋 **Listed** | Published — backed by a real tool, repo, or package |
+| 🛡️ **Security Reviewed** | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
-| Tier | What It Means |
-|------|---------------|
-| **Listed** | Published and indexed in the marketplace |
-| **Verified Metadata** | Frontmatter, source links, and install instructions have been reviewed and confirmed accurate |
-| **Security Reviewed** | Content scanned and manually reviewed for prompt injection, data exfiltration, credential harvesting, and malicious patterns |
-
-Verification is handled by the marketplace team. You don't need to request it — skills are reviewed in batches. Higher-quality submissions get reviewed faster.
+New skills enter as **Listed**. Security review is handled by the marketplace team in batches — higher-quality submissions get reviewed faster.
 
 ---
 
 ## PR Review Process
 
 1. Open a PR with your new or updated skill
-2. Automated checks validate the SKILL.md format
+2. Automated checks validate the SKILL.md format and scan for security concerns
 3. A reviewer checks the content for quality and accuracy
 4. If approved, it merges to `main` and syncs to the marketplace within the hour
-5. The skill enters the verification pipeline
-
-Typical review time: 1–3 business days.
 
 ---
 
 ## Questions?
 
-- Browse the [marketplace](https://agentskillexchange.com) to see how existing skills look
-- Check our [blog](https://agentskillexchange.com/blog/) for guides and announcements
+- Browse the [catalog](CATALOG.md) to see how existing skills look
+- Check the [spec](spec/SKILL_SPEC.md) for the full format reference
 - Open an [issue](https://github.com/agentskillexchange/skills/issues) if something isn't clear

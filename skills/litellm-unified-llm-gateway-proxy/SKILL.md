@@ -4,11 +4,6 @@ description: "LiteLLM is an open-source Python SDK and proxy server that provide
 category: "Uncategorized"
 framework: "Unknown"
 verification: listed
-rating: 0
-reviews: 0
-creator: ""
-creator_handle: ""
-creator_verified: false
 source: "https://agentskillexchange.com/skills/litellm-unified-llm-gateway-proxy/"
 ---
 

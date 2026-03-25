@@ -3,20 +3,15 @@ name: "ESLint Code Review"
 description: "ESLint Code Review is built around ESLint static analysis for JavaScript and TypeScript. The underlying ecosystem is represented by eslint/eslint (27,186+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like eslint CLI, flat config, plugins, formatters, autofix, rule […]"
 category: "Developer Tools"
 framework: "Claude Code"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/eslint-code-review/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "eslint"  # from ase_tool_match
-  github_stars: 27185  # from ase_github_stars (integer, not string)
-  npm_weekly_downloads: 109028697  # from ase_npm_downloads
-  github_repo: "eslint/eslint"  # from ase_github_repo
-  license: "MIT"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "eslint"
+  github_stars: 27185
+  npm_weekly_downloads: 109028697
+  github_repo: "eslint/eslint"
+  license: "MIT"
+  maintained: true
 ---
 
 # ESLint Code Review

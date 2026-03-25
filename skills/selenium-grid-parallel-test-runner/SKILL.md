@@ -3,20 +3,15 @@ name: "Selenium Grid Parallel Test Runner"
 description: "Orchestrates distributed browser tests across Selenium Grid 4 nodes with dynamic scaling. Uses selenium-webdriver RemoteWebDriver with W3C WebDriver protocol and Zalenium-style video recording."
 category: "Browser Automation"
 framework: "Cursor"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/selenium-grid-parallel-test-runner/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "selenium"  # from ase_tool_match
-  github_stars: 34174  # from ase_github_stars (integer, not string)
-  npm_weekly_downloads: 2000657  # from ase_npm_downloads
-  github_repo: "SeleniumHQ/selenium"  # from ase_github_repo
-  license: "Apache-2.0"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "selenium"
+  github_stars: 34174
+  npm_weekly_downloads: 2000657
+  github_repo: "SeleniumHQ/selenium"
+  license: "Apache-2.0"
+  maintained: true
 ---
 
 # Selenium Grid Parallel Test Runner

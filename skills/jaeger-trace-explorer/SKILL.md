@@ -3,19 +3,14 @@ name: "Jaeger Trace Explorer"
 description: "Jaeger Trace Explorer is built around Jaeger distributed tracing platform. The underlying ecosystem is represented by jaegertracing/jaeger (22,608+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like trace search, spans, service graph, latency timelines, baggage, sampling and preserving […]"
 category: "Monitoring & Alerts"
 framework: "MCP-compatible"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/jaeger-trace-explorer/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "jaeger"  # from ase_tool_match
-  github_stars: 22608  # from ase_github_stars (integer, not string)
-  github_repo: "jaegertracing/jaeger"  # from ase_github_repo
-  license: "Apache-2.0"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "jaeger"
+  github_stars: 22608
+  github_repo: "jaegertracing/jaeger"
+  license: "Apache-2.0"
+  maintained: true
 ---
 
 # Jaeger Trace Explorer

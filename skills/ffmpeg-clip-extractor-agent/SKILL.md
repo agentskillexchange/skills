@@ -3,19 +3,13 @@ name: "FFmpeg Clip Extractor"
 description: "Extracts video clips and segments using FFmpeg libavformat and libavcodec APIs. Supports keyframe-accurate cutting with -ss/-to flags, stream copy mode, and re-encoding via libx264/libx265 presets."
 category: "Media & Transcription"
 framework: "Claude Code"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/ffmpeg-clip-extractor-agent/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "ffmpeg"  # from ase_tool_match
-  github_stars: 58283  # from ase_github_stars (integer, not string)
-  github_repo: "FFmpeg/FFmpeg"  # from ase_github_repo
-  license: "NOASSERTION"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "ffmpeg"
+  github_stars: 58283
+  github_repo: "FFmpeg/FFmpeg"
+  maintained: true
 ---
 
 # FFmpeg Clip Extractor

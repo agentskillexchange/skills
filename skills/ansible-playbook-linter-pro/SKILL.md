@@ -3,19 +3,14 @@ name: "Ansible Playbook Linter Pro"
 description: "Validates Ansible playbooks using ansible-lint with custom rule plugins and the Ansible Collections API. Checks for deprecated modules, missing handlers, insecure variable practices, and role dependency conflicts."
 category: "Runbooks & Diagnostics"
 framework: "MCP-compatible"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/ansible-playbook-linter-pro/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "ansible"  # from ase_tool_match
-  github_stars: 68377  # from ase_github_stars (integer, not string)
-  github_repo: "ansible/ansible"  # from ase_github_repo
-  license: "GPL-3.0"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "ansible"
+  github_stars: 68377
+  github_repo: "ansible/ansible"
+  license: "GPL-3.0"
+  maintained: true
 ---
 
 # Ansible Playbook Linter Pro

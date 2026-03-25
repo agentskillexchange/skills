@@ -4,11 +4,6 @@ description: "Crawl4AI is an open-source web crawler that converts any website i
 category: "Uncategorized"
 framework: "Unknown"
 verification: listed
-rating: 0
-reviews: 0
-creator: ""
-creator_handle: ""
-creator_verified: false
 source: "https://agentskillexchange.com/skills/crawl4ai-llm-web-crawler-scraper/"
 ---
 

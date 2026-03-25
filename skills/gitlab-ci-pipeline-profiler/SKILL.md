@@ -3,19 +3,13 @@ name: "GitLab CI Pipeline Profiler"
 description: "Profiles GitLab CI/CD pipeline execution times using the GitLab REST API v4 /projects/:id/pipelines endpoint. Identifies slow jobs, inefficient artifact passing, and cache miss patterns across pipeline history."
 category: "CI/CD Integrations"
 framework: "Custom Agents"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/gitlab-ci-pipeline-profiler/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "gitlab"  # from ase_tool_match
-  github_stars: 24278  # from ase_github_stars (integer, not string)
-  github_repo: "gitlabhq/gitlabhq"  # from ase_github_repo
-  license: "NOASSERTION"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "gitlab"
+  github_stars: 24278
+  github_repo: "gitlabhq/gitlabhq"
+  maintained: true
 ---
 
 # GitLab CI Pipeline Profiler

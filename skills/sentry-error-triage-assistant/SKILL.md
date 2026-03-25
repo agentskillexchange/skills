@@ -3,20 +3,14 @@ name: "Sentry Error Triage Assistant"
 description: "Triages application errors using the Sentry Web API (/api/0/issues/) and Sentry SDK breadcrumb data. Groups issues by stack trace similarity using Sentry fingerprinting rules and queries release health via the /api/0/organizations/{org}/releases/ endpoint."
 category: "Runbooks & Diagnostics"
 framework: "Claude Agents"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/sentry-error-triage-assistant/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "sentry"  # from ase_tool_match
-  github_stars: 43437  # from ase_github_stars (integer, not string)
-  npm_weekly_downloads: 16379655  # from ase_npm_downloads
-  github_repo: "getsentry/sentry"  # from ase_github_repo
-  license: "NOASSERTION"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "sentry"
+  github_stars: 43437
+  npm_weekly_downloads: 16379655
+  github_repo: "getsentry/sentry"
+  maintained: true
 ---
 
 # Sentry Error Triage Assistant

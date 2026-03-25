@@ -3,19 +3,14 @@ name: "SonarQube Gate Checker"
 description: "Queries the SonarQube Web API (/api/qualitygates/project_status) to evaluate quality gate conditions before merge. Reports code smells, coverage thresholds, and duplications against configurable SonarQube quality profiles."
 category: "Templates & Workflows"
 framework: "Claude Code"
-verification: listed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: listed
 source: "https://agentskillexchange.com/skills/sonarqube-gate-checker-2/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "sonarqube"  # from ase_tool_match
-  github_stars: 10358  # from ase_github_stars (integer, not string)
-  github_repo: "SonarSource/sonarqube"  # from ase_github_repo
-  license: "LGPL-3.0"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "sonarqube"
+  github_stars: 10358
+  github_repo: "SonarSource/sonarqube"
+  license: "LGPL-3.0"
+  maintained: true
 ---
 
 # SonarQube Gate Checker

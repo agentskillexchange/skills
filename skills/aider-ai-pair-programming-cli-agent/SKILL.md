@@ -4,11 +4,6 @@ description: "Aider is an open-source AI pair programming tool that runs in your
 category: "Uncategorized"
 framework: "Unknown"
 verification: listed
-rating: 0
-reviews: 0
-creator: ""
-creator_handle: ""
-creator_verified: false
 source: "https://agentskillexchange.com/skills/aider-ai-pair-programming-cli-agent/"
 ---
 

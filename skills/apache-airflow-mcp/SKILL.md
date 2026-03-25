@@ -3,19 +3,14 @@ name: "Apache Airflow MCP"
 description: "Apache Airflow MCP is built around Apache Airflow workflow orchestration. The underlying ecosystem is represented by apache/airflow (44,767+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like Airflow REST API, DAGs, task instances, schedulers and preserving the operational […]"
 category: "Data Extraction & Transformation"
 framework: "MCP-compatible"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/apache-airflow-mcp/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "airflow"  # from ase_tool_match
-  github_stars: 44767  # from ase_github_stars (integer, not string)
-  github_repo: "apache/airflow"  # from ase_github_repo
-  license: "Apache-2.0"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "airflow"
+  github_stars: 44767
+  github_repo: "apache/airflow"
+  license: "Apache-2.0"
+  maintained: true
 ---
 
 # Apache Airflow MCP

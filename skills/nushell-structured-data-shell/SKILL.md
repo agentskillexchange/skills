@@ -3,12 +3,7 @@ name: "Nushell Structured Data Shell"
 description: "A modern shell that treats all input as structured data rather than plain text streams. Nushell provides built-in support for JSON, YAML, TOML, CSV, SQLite, and Excel, with typed pipelines that enable safe filtering, sorting, and transformation without string parsing."
 category: "Developer Tools"
 framework: "Custom Agents"
-verification: listed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: listed
 source: "https://agentskillexchange.com/skills/nushell-structured-data-shell/"
 ---
 

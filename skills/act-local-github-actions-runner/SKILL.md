@@ -3,12 +3,7 @@ name: "act Local GitHub Actions Runner"
 description: "act is an open-source CLI tool that runs GitHub Actions workflows locally using Docker, enabling fast feedback on workflow changes without pushing to GitHub. With 57,000+ stars on GitHub, it is the standard tool for local Actions development and testing."
 category: "CI/CD Integrations"
 framework: "Claude Code"
-verification: listed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: listed
 source: "https://agentskillexchange.com/skills/act-local-github-actions-runner/"
 ---
 

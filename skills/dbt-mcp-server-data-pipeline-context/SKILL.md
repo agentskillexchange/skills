@@ -3,19 +3,13 @@ name: "dbt MCP Server for Data Pipeline Context"
 description: "The official dbt MCP Server by dbt Labs provides Model Context Protocol tools for AI agents to interact with dbt projects, query the Semantic Layer, execute SQL, generate SQL from natural language, and explore data model lineage across dbt Core, Fusion, and Platform environments."
 category: "Data Extraction & Transformation"
 framework: "MCP-compatible"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/dbt-mcp-server-data-pipeline-context/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "dbt"  # from ase_tool_match
-  github_stars: 12460  # from ase_github_stars (integer, not string)
-  github_repo: "dbt-labs/dbt-core"  # from ase_github_repo
-  license: "NOASSERTION"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "dbt"
+  github_stars: 12460
+  github_repo: "dbt-labs/dbt-core"
+  maintained: true
 ---
 
 # dbt MCP Server for Data Pipeline Context

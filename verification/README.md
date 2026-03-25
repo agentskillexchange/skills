@@ -31,13 +31,6 @@ The skill's content has been scanned for potentially malicious patterns:
 - No obfuscated or encoded payloads
 - No reverse shells or crypto mining
 
-## Current Distribution
-
-| Tier | Skills |
-|------|-------:|
-| 📋 Listed | **1,149** |
-| 🛡️ Security Reviewed | **1,100** |
-
 ## Checking a Skill's Status
 
 Each skill's `SKILL.md` frontmatter includes a `verification` field:
@@ -53,10 +46,11 @@ Valid values:
 
 | Value | Meaning |
 |-------|---------|
-| `listed` | Published and indexed — backed by a real tool |
+| `listed` | Published — backed by a real tool |
 | `security_reviewed` | Content scanned for malicious patterns — safe to use |
 
 ## More Information
 
+- [Verification Criteria](CRITERIA.md) — detailed requirements for each tier
 - [Security Patterns](SECURITY_PATTERNS.md) — patterns checked during security review
 - [Browse Skills](https://agentskillexchange.com/browse-skills/) — explore the full catalog

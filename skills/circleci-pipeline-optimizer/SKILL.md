@@ -3,19 +3,13 @@ name: "CircleCI Pipeline Optimizer"
 description: "Interfaces with CircleCI API v2 /pipeline and /workflow endpoints to analyze build performance. Identifies slow jobs via timing data, recommends Docker layer caching, and generates optimized .circleci/config.yml with parallelism settings."
 category: "CI/CD Integrations"
 framework: "ChatGPT Agents"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/circleci-pipeline-optimizer/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "circleci"  # from ase_tool_match
-  github_stars: 842  # from ase_github_stars (integer, not string)
-  github_repo: "circleci/circleci-docs"  # from ase_github_repo
-  license: "Unknown"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "circleci"
+  github_stars: 842
+  github_repo: "circleci/circleci-docs"
+  maintained: true
 ---
 
 # CircleCI Pipeline Optimizer

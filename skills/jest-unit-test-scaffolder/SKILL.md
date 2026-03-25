@@ -3,20 +3,15 @@ name: "Jest Unit Test Scaffolder"
 description: "Jest Unit Test Scaffolder is built around Jest JavaScript test framework. The underlying ecosystem is represented by jestjs/jest (45,332+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like test runners, snapshots, mocks, coverage, watch mode, reporters and preserving […]"
 category: "Code Quality & Review"
 framework: "Custom Agents"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/jest-unit-test-scaffolder/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "jest"  # from ase_tool_match
-  github_stars: 45332  # from ase_github_stars (integer, not string)
-  npm_weekly_downloads: 45503384  # from ase_npm_downloads
-  github_repo: "jestjs/jest"  # from ase_github_repo
-  license: "MIT"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "jest"
+  github_stars: 45332
+  npm_weekly_downloads: 45503384
+  github_repo: "jestjs/jest"
+  license: "MIT"
+  maintained: true
 ---
 
 # Jest Unit Test Scaffolder

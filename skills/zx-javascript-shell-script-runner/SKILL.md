@@ -3,12 +3,7 @@ name: "zx JavaScript Shell Script Runner"
 description: "Write better shell scripts in JavaScript using Google’s zx. Provides cross-platform wrappers around child_process with argument escaping, sensible defaults, and access to the full npm ecosystem for automation tasks."
 category: "Developer Tools"
 framework: "Claude Code"
-verification: listed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: listed
 source: "https://agentskillexchange.com/skills/zx-javascript-shell-script-runner/"
 ---
 

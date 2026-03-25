@@ -3,20 +3,15 @@ name: "Cloudflare Workers Deployer"
 description: "Cloudflare Workers Deployer is built around Cloudflare developer platform. The underlying ecosystem is represented by cloudflare/cloudflare-go (1,946+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like Workers API, R2, KV, DNS, Pages, Zero Trust, signed URLs and preserving […]"
 category: "Templates & Workflows"
 framework: "Custom Agents"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/cloudflare-workers-deployer/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "cloudflare"  # from ase_tool_match
-  github_stars: 1946  # from ase_github_stars (integer, not string)
-  npm_weekly_downloads: 1035304  # from ase_npm_downloads
-  github_repo: "cloudflare/cloudflare-go"  # from ase_github_repo
-  license: "Apache-2.0"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "cloudflare"
+  github_stars: 1946
+  npm_weekly_downloads: 1035304
+  github_repo: "cloudflare/cloudflare-go"
+  license: "Apache-2.0"
+  maintained: true
 ---
 
 # Cloudflare Workers Deployer

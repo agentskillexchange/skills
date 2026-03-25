@@ -3,20 +3,15 @@ name: "SQLite Analyst"
 description: "SQLite Analyst is built around SQLite embedded database. The underlying ecosystem is represented by WiseLibs/better-sqlite3 (7,041+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like local .db files, SQL queries, schema inspection, FTS, WAL, query plans and preserving […]"
 category: "Developer Tools"
 framework: "MCP-compatible"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/sqlite-analyst/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "sqlite"  # from ase_tool_match
-  github_stars: 7043  # from ase_github_stars (integer, not string)
-  npm_weekly_downloads: 4960915  # from ase_npm_downloads
-  github_repo: "WiseLibs/better-sqlite3"  # from ase_github_repo
-  license: "MIT"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "sqlite"
+  github_stars: 7043
+  npm_weekly_downloads: 4960915
+  github_repo: "WiseLibs/better-sqlite3"
+  license: "MIT"
+  maintained: true
 ---
 
 # SQLite Analyst

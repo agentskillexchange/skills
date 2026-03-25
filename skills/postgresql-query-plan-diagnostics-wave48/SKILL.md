@@ -3,16 +3,11 @@ name: "PostgreSQL Query Plan Diagnostics"
 description: "Analyzes PostgreSQL query execution plans using EXPLAIN (ANALYZE, BUFFERS, FORMAT JSON) and the pg_stat_statements extension. Identifies sequential scans, nested loop inefficiencies, and index recommendations for slow queries."
 category: "Runbooks & Diagnostics"
 framework: "Claude Code"
-verification: listed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: listed
 source: "https://agentskillexchange.com/skills/postgresql-query-plan-diagnostics-wave48/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "postgresql"  # from ase_tool_match
-  npm_weekly_downloads: 21413502  # from ase_npm_downloads
+tool_ecosystem:
+  tool: "postgresql"
+  npm_weekly_downloads: 21413502
 ---
 
 # PostgreSQL Query Plan Diagnostics

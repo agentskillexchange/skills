@@ -3,20 +3,15 @@ name: "Hacker News Deep Thread Analyzer"
 description: "Scrapes and analyzes Hacker News threads using the official HN Firebase API and BeautifulSoup. Extracts sentiment trends, expertise signals, and generates structured summaries with key arguments mapped."
 category: "Research & Scraping"
 framework: "Custom Agents"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/hacker-news-deep-thread-analyzer/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "firebase"  # from ase_tool_match
-  github_stars: 1726  # from ase_github_stars (integer, not string)
-  npm_weekly_downloads: 4837581  # from ase_npm_downloads
-  github_repo: "firebase/firebase-admin-node"  # from ase_github_repo
-  license: "Apache-2.0"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "firebase"
+  github_stars: 1726
+  npm_weekly_downloads: 4837581
+  github_repo: "firebase/firebase-admin-node"
+  license: "Apache-2.0"
+  maintained: true
 ---
 
 # Hacker News Deep Thread Analyzer

@@ -3,20 +3,15 @@ name: "SendGrid Transactional Email Builder"
 description: "Constructs and sends transactional emails using the SendGrid v3 Mail Send API. Builds dynamic templates with Handlebars substitutions, manages suppression groups, and tracks delivery via Event Webhook parsing."
 category: "Integrations & Connectors"
 framework: "MCP-compatible"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/sendgrid-transactional-email-builder/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "sendgrid"  # from ase_tool_match
-  github_stars: 3054  # from ase_github_stars (integer, not string)
-  npm_weekly_downloads: 3287627  # from ase_npm_downloads
-  github_repo: "sendgrid/sendgrid-nodejs"  # from ase_github_repo
-  license: "MIT"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "sendgrid"
+  github_stars: 3054
+  npm_weekly_downloads: 3287627
+  github_repo: "sendgrid/sendgrid-nodejs"
+  license: "MIT"
+  maintained: true
 ---
 
 # SendGrid Transactional Email Builder

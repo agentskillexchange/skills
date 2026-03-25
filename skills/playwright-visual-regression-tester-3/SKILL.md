@@ -3,20 +3,15 @@ name: "Playwright Visual Regression Tester"
 description: "Automates visual regression testing using the Playwright screenshot comparison API and pixelmatch diffing library. Captures baseline snapshots, detects pixel-level UI changes across viewport sizes, and generates HTML diff reports with threshold-based pass/fail results."
 category: "Browser Automation"
 framework: "OpenClaw"
-verification: listed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: listed
 source: "https://agentskillexchange.com/skills/playwright-visual-regression-tester-3/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "playwright"  # from ase_tool_match
-  github_stars: 84938  # from ase_github_stars (integer, not string)
-  npm_weekly_downloads: 39806814  # from ase_npm_downloads
-  github_repo: "microsoft/playwright"  # from ase_github_repo
-  license: "Apache-2.0"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "playwright"
+  github_stars: 84938
+  npm_weekly_downloads: 39806814
+  github_repo: "microsoft/playwright"
+  license: "Apache-2.0"
+  maintained: true
 ---
 
 # Playwright Visual Regression Tester

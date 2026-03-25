@@ -3,19 +3,14 @@ name: "Docker Compose Service Blueprint Creator"
 description: "Creates Docker Compose YAML service definitions using the Compose Specification. Configures multi-service stacks with proper network isolation, volume mounts, health checks, and dependency ordering via depends_on conditions."
 category: "Templates & Workflows"
 framework: "MCP-compatible"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/docker-compose-service-blueprint-creator/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "docker"  # from ase_tool_match
-  github_stars: 71560  # from ase_github_stars (integer, not string)
-  github_repo: "moby/moby"  # from ase_github_repo
-  license: "Apache-2.0"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "docker"
+  github_stars: 71560
+  github_repo: "moby/moby"
+  license: "Apache-2.0"
+  maintained: true
 ---
 
 # Docker Compose Service Blueprint Creator

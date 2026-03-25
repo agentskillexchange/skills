@@ -3,20 +3,15 @@ name: "Puppeteer Stealth Web Scraper"
 description: "Uses puppeteer-extra with stealth plugin to bypass bot detection for web scraping. Integrates with Cheerio for HTML parsing, rotating residential proxies via Bright Data API, and p-queue for concurrency control."
 category: "Research & Scraping"
 framework: "Cursor"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/puppeteer-stealth-web-scraper/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "puppeteer"  # from ase_tool_match
-  github_stars: 93932  # from ase_github_stars (integer, not string)
-  npm_weekly_downloads: 8696130  # from ase_npm_downloads
-  github_repo: "puppeteer/puppeteer"  # from ase_github_repo
-  license: "Apache-2.0"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "puppeteer"
+  github_stars: 93932
+  npm_weekly_downloads: 8696130
+  github_repo: "puppeteer/puppeteer"
+  license: "Apache-2.0"
+  maintained: true
 ---
 
 # Puppeteer Stealth Web Scraper

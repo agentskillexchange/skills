@@ -3,20 +3,15 @@ name: "CloudWatch Log Anomaly Detector"
 description: "Detects anomalous patterns in AWS CloudWatch Logs using CloudWatch Logs Insights queries and Anomaly Detection APIs. Surfaces error rate spikes and latency regressions with contextual log samples."
 category: "Monitoring & Alerts"
 framework: "Gemini"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/cloudwatch-log-anomaly-detector/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "aws"  # from ase_tool_match
-  github_stars: 3594  # from ase_github_stars (integer, not string)
-  npm_weekly_downloads: 9204385  # from ase_npm_downloads
-  github_repo: "aws/aws-sdk-js-v3"  # from ase_github_repo
-  license: "Apache-2.0"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "aws"
+  github_stars: 3594
+  npm_weekly_downloads: 9204385
+  github_repo: "aws/aws-sdk-js-v3"
+  license: "Apache-2.0"
+  maintained: true
 ---
 
 # CloudWatch Log Anomaly Detector

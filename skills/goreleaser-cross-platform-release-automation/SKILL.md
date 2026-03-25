@@ -3,12 +3,7 @@ name: "GoReleaser Cross-Platform Release Automation"
 description: "Automate software releases with GoReleaser — build cross-platform binaries, create Docker images, generate changelogs, and publish to GitHub/GitLab/Gitea in a single command. Works for Go projects and beyond."
 category: "CI/CD Integrations"
 framework: "Claude Code"
-verification: listed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: listed
 source: "https://agentskillexchange.com/skills/goreleaser-cross-platform-release-automation/"
 ---
 

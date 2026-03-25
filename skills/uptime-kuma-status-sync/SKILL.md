@@ -3,20 +3,15 @@ name: "Uptime Kuma Status Sync"
 description: "Interfaces with the Uptime Kuma Socket.IO API to monitor service health checks. Syncs status page data to Statuspage.io via Atlassian REST API and triggers incident workflows in Rootly."
 category: "Monitoring & Alerts"
 framework: "Claude Agents"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/uptime-kuma-status-sync/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "sendgrid"  # from ase_tool_match
-  github_stars: 3054  # from ase_github_stars (integer, not string)
-  npm_weekly_downloads: 3287627  # from ase_npm_downloads
-  github_repo: "sendgrid/sendgrid-nodejs"  # from ase_github_repo
-  license: "MIT"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "sendgrid"
+  github_stars: 3054
+  npm_weekly_downloads: 3287627
+  github_repo: "sendgrid/sendgrid-nodejs"
+  license: "MIT"
+  maintained: true
 ---
 
 # Uptime Kuma Status Sync

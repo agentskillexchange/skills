@@ -1,4 +1,4 @@
-# Agent Skill Specification v1.0
+# Agent Skill Specification v1.1
 
 This document defines the format for skills in the Agent Skill Exchange.
 
@@ -29,13 +29,15 @@ name: string            # Required — display name
 description: string     # Required — what the skill does and when to use it
 category: string        # Required — one of the valid categories
 framework: string       # Required — primary framework
-verification: string    # Required — verification tier
-rating: number          # Optional — community rating (1.0–5.0)
-reviews: number         # Optional — number of reviews
-creator: string         # Required — creator display name
-creator_handle: string  # Optional — GitHub or marketplace handle
-creator_verified: bool  # Optional — whether creator is verified
+verification: string    # Required — listed or security_reviewed
 source: string          # Optional — URL to skill on agentskillexchange.com
+tool_ecosystem:         # Optional — only if backed by a real tool
+  tool: string          # Tool identifier
+  github_stars: number  # Stars on the tool's repo
+  npm_weekly_downloads: number  # npm weekly downloads
+  github_repo: string   # owner/repo
+  license: string       # SPDX license identifier
+  maintained: boolean   # Whether the tool is actively maintained
 ---
 ```
 
@@ -97,37 +99,22 @@ The primary framework this skill targets. Valid values:
 
 #### `verification` (required, string)
 
-The verification tier of the skill. Set by the marketplace, not by contributors.
+The trust tier of the skill.
 
 | Value | Meaning |
 |-------|---------|
-| `listed` | Published and indexed. Basic format validation only. |
-| `verified_metadata` | Frontmatter, source links, and install instructions confirmed accurate. |
-| `security_reviewed` | Content reviewed for prompt injection, data exfiltration, and malicious patterns. |
+| `listed` | Published — backed by a real tool, repo, or package |
+| `security_reviewed` | Content scanned for malicious patterns — safe to use |
 
-#### `rating` (optional, number)
-
-Community rating from 1.0 to 5.0. Set by the marketplace based on user reviews. Contributors should not set this field.
-
-#### `reviews` (optional, number)
-
-Total number of user reviews. Set by the marketplace.
-
-#### `creator` (required, string)
-
-Display name of the skill creator.
-
-#### `creator_handle` (optional, string)
-
-GitHub username or marketplace handle of the creator.
-
-#### `creator_verified` (optional, boolean)
-
-Whether the creator has been verified on the marketplace. Default: `false`.
+New skills enter as `listed`. Security review is handled by the marketplace team in batches.
 
 #### `source` (optional, string)
 
-URL to the skill's page on agentskillexchange.com.
+URL to the skill's page on agentskillexchange.com. Uses `/skills/` path.
+
+#### `tool_ecosystem` (optional, object)
+
+Only include if the skill is backed by a real tool with verifiable signals. All sub-fields are optional — include only those with real data.
 
 ## Markdown Body
 
@@ -136,7 +123,6 @@ The body follows the frontmatter and contains:
 1. **Title** — H1 heading matching the skill name
 2. **Description** — One or more paragraphs explaining the skill
 3. **Installation** — Commands for supported agents
-4. **Creator** (optional) — Attribution line
 
 ### Example
 
@@ -148,7 +134,7 @@ replay attacks and forged events. Supports both test and live mode keys.
 
 ## Installation
 
-### Any agent (npx skills)
+### Any Agent
 
 \`\`\`bash
 npx skills add agentskillexchange/skills --skill stripe-webhook-verifier
@@ -165,10 +151,6 @@ npx skills add agentskillexchange/skills --skill stripe-webhook-verifier -a clau
 \`\`\`bash
 clawhub install stripe-webhook-verifier
 \`\`\`
-
----
-
-*Created by [Creator Name](https://agentskillexchange.com/creator/handle)*
 ```
 
 ## Validation Rules
@@ -176,15 +158,14 @@ clawhub install stripe-webhook-verifier
 A valid SKILL.md must:
 
 1. Have valid YAML frontmatter between `---` delimiters
-2. Include all required fields (`name`, `description`, `category`, `framework`, `verification`, `creator`)
+2. Include all required fields (`name`, `description`, `category`, `framework`, `verification`)
 3. Use a valid category from the list above
 4. Use a valid framework from the list above
-5. Use a valid verification tier (`listed`, `verified_metadata`, `security_reviewed`)
-6. Have `rating` between 1.0 and 5.0 if present
-7. Have a markdown body with at least a title and description
+5. Use a valid verification tier (`listed` or `security_reviewed`)
+6. Have a markdown body with at least a title and description
 
 ## Versioning
 
-This spec follows semantic versioning. The current version is **1.0**.
+This spec follows semantic versioning. The current version is **1.1**.
 
 Changes to required fields or validation rules increment the major version. New optional fields increment the minor version.

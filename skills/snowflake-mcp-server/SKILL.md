@@ -3,15 +3,10 @@ name: "Snowflake MCP Server"
 description: "Snowflake MCP Server is built around Snowflake cloud data warehouse. It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like SQL, warehouses, stages, tasks, streams, Snowpark, query history and preserving the operational context that matters for real tasks. In practice, the […]"
 category: "Data Extraction & Transformation"
 framework: "MCP-compatible"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/snowflake-mcp-server/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "snowflake"  # from ase_tool_match
+tool_ecosystem:
+  tool: "snowflake"
 ---
 
 # Snowflake MCP Server

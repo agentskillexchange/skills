@@ -3,19 +3,13 @@ name: "CircleCI Orb Builder"
 description: "Creates reusable CircleCI Orbs using the CircleCI Orb SDK and circleci/orb-tools@12 pipeline. Packages commands, executors, and jobs into publishable orbs with automated semantic versioning via the CircleCI CLI."
 category: "CI/CD Integrations"
 framework: "Claude Code"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/circleci-orb-builder/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "circleci"  # from ase_tool_match
-  github_stars: 842  # from ase_github_stars (integer, not string)
-  github_repo: "circleci/circleci-docs"  # from ase_github_repo
-  license: "Unknown"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "circleci"
+  github_stars: 842
+  github_repo: "circleci/circleci-docs"
+  maintained: true
 ---
 
 # CircleCI Orb Builder

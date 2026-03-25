@@ -3,20 +3,15 @@ name: "GraphQL Schema Drift Detector"
 description: "Detects breaking changes in GraphQL schemas using graphql-inspector and the GraphQL introspection query. Compares schema versions, identifies removed fields, changed types, and deprecated directive usage."
 category: "Library & API Reference"
 framework: "MCP-compatible"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/graphql-schema-drift-detector/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "graphql"  # from ase_tool_match
-  github_stars: 20332  # from ase_github_stars (integer, not string)
-  npm_weekly_downloads: 32010306  # from ase_npm_downloads
-  github_repo: "graphql/graphql-js"  # from ase_github_repo
-  license: "MIT"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "graphql"
+  github_stars: 20332
+  npm_weekly_downloads: 32010306
+  github_repo: "graphql/graphql-js"
+  license: "MIT"
+  maintained: true
 ---
 
 # GraphQL Schema Drift Detector

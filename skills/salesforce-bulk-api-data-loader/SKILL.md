@@ -3,20 +3,15 @@ name: "Salesforce Bulk API Data Loader"
 description: "Performs high-volume data operations using the Salesforce Bulk API 2.0. Creates ingest jobs with createJob(), uploads CSV batches, and monitors job status via getJobInfo() for millions of records."
 category: "Data Extraction & Transformation"
 framework: "Claude Code"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/salesforce-bulk-api-data-loader/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "salesforce"  # from ase_tool_match
-  github_stars: 1452  # from ase_github_stars (integer, not string)
-  npm_weekly_downloads: 804753  # from ase_npm_downloads
-  github_repo: "jsforce/jsforce"  # from ase_github_repo
-  license: "MIT"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "salesforce"
+  github_stars: 1452
+  npm_weekly_downloads: 804753
+  github_repo: "jsforce/jsforce"
+  license: "MIT"
+  maintained: true
 ---
 
 # Salesforce Bulk API Data Loader

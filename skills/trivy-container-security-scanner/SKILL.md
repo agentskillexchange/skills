@@ -3,19 +3,14 @@ name: "Trivy Container Security Scanner"
 description: "Integrates Aqua Security Trivy CLI for comprehensive container image vulnerability scanning. Detects OS package CVEs, language-specific dependency vulnerabilities, and IaC misconfigurations with SARIF output format for CI/CD pipeline integration."
 category: "Security & Verification"
 framework: "Codex"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/trivy-container-security-scanner/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "trivy"  # from ase_tool_match
-  github_stars: 34053  # from ase_github_stars (integer, not string)
-  github_repo: "aquasecurity/trivy"  # from ase_github_repo
-  license: "Apache-2.0"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "trivy"
+  github_stars: 34053
+  github_repo: "aquasecurity/trivy"
+  license: "Apache-2.0"
+  maintained: true
 ---
 
 # Trivy Container Security Scanner

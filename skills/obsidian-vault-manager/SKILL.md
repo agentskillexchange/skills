@@ -3,19 +3,13 @@ name: "Obsidian Vault Manager"
 description: "Obsidian Vault Manager is built around HashiCorp Vault secrets platform. The underlying ecosystem is represented by hashicorp/vault (35,266+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like KV v2, policies, leases, tokens, transit, dynamic secrets and preserving the […]"
 category: "Developer Tools"
 framework: "Custom Agents"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/obsidian-vault-manager/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "vault"  # from ase_tool_match
-  github_stars: 35275  # from ase_github_stars (integer, not string)
-  github_repo: "hashicorp/vault"  # from ase_github_repo
-  license: "NOASSERTION"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "vault"
+  github_stars: 35275
+  github_repo: "hashicorp/vault"
+  maintained: true
 ---
 
 # Obsidian Vault Manager

@@ -3,19 +3,14 @@ name: "Kubernetes Pod Diagnostics Runner"
 description: "Runs automated diagnostic sequences on Kubernetes pods using kubectl exec, kubectl logs, and the Kubernetes API /api/v1/pods endpoint. Captures OOMKilled events, CrashLoopBackOff analysis, and resource utilization via metrics-server."
 category: "Runbooks & Diagnostics"
 framework: "Cursor"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/kubernetes-pod-diagnostics-runner-2/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "kubernetes"  # from ase_tool_match
-  github_stars: 121334  # from ase_github_stars (integer, not string)
-  github_repo: "kubernetes/kubernetes"  # from ase_github_repo
-  license: "Apache-2.0"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "kubernetes"
+  github_stars: 121334
+  github_repo: "kubernetes/kubernetes"
+  license: "Apache-2.0"
+  maintained: true
 ---
 
 # Kubernetes Pod Diagnostics Runner

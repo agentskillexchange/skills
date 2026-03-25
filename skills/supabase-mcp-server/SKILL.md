@@ -3,20 +3,15 @@ name: "Supabase MCP Server"
 description: "Supabase MCP Server is built around Supabase developer platform. The underlying ecosystem is represented by supabase/supabase (99,546+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like PostgREST, Auth, Storage, Realtime, Edge Functions, RLS and preserving the operational context […]"
 category: "Developer Tools"
 framework: "MCP-compatible"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/supabase-mcp-server/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "supabase"  # from ase_tool_match
-  github_stars: 99546  # from ase_github_stars (integer, not string)
-  npm_weekly_downloads: 14597348  # from ase_npm_downloads
-  github_repo: "supabase/supabase"  # from ase_github_repo
-  license: "Apache-2.0"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "supabase"
+  github_stars: 99546
+  npm_weekly_downloads: 14597348
+  github_repo: "supabase/supabase"
+  license: "Apache-2.0"
+  maintained: true
 ---
 
 # Supabase MCP Server

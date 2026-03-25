@@ -24,15 +24,12 @@ Agent skills are instructions that AI agents follow. A malicious skill could ins
 
 If a skill does any of these things — whether intentionally or accidentally — report it.
 
-## Our Verification Pipeline
-
-Every skill in this repo goes through a verification pipeline:
+## Trust Model
 
 | Tier | Description |
 |------|-------------|
-| **Listed** | Published and indexed. Basic format validation only. |
-| **Verified Metadata** | Frontmatter, source links, and install instructions reviewed for accuracy. |
-| **Security Reviewed** | Content manually reviewed and scanned for prompt injection, data exfiltration, credential harvesting, and malicious patterns. Cleared for production use. |
+| **Listed** | Published — backed by a real tool, repo, or package. Basic format validation. |
+| **Security Reviewed** | Content scanned for prompt injection, data exfiltration, credential harvesting, and malicious patterns. Cleared for production use. |
 
 Skills that fail security review are either fixed or removed from the marketplace and this repo.
 

@@ -3,19 +3,13 @@ name: "ImageMagick Batch Converter CLI"
 description: "Automates bulk image conversion using ImageMagick’s convert and mogrify commands with geometry expressions. Supports -density, -colorspace, and -profile flags for print-quality output."
 category: "Image & Creative Automation"
 framework: "OpenClaw"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/imagemagick-batch-converter-cli/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "imagemagick"  # from ase_tool_match
-  github_stars: 15996  # from ase_github_stars (integer, not string)
-  github_repo: "ImageMagick/ImageMagick"  # from ase_github_repo
-  license: "NOASSERTION"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "imagemagick"
+  github_stars: 15996
+  github_repo: "ImageMagick/ImageMagick"
+  maintained: true
 ---
 
 # ImageMagick Batch Converter CLI

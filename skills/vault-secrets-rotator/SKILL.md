@@ -3,19 +3,13 @@ name: "Vault Secrets Rotator"
 description: "Manages secret lifecycle through the HashiCorp Vault HTTP API v1. Rotates database credentials via Vault dynamic secrets engine and syncs to Kubernetes via External Secrets Operator CRDs."
 category: "Security & Verification"
 framework: "MCP-compatible"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/vault-secrets-rotator/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "vault"  # from ase_tool_match
-  github_stars: 35275  # from ase_github_stars (integer, not string)
-  github_repo: "hashicorp/vault"  # from ase_github_repo
-  license: "NOASSERTION"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "vault"
+  github_stars: 35275
+  github_repo: "hashicorp/vault"
+  maintained: true
 ---
 
 # Vault Secrets Rotator

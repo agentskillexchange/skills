@@ -3,20 +3,15 @@ name: "Linear Issue Manager"
 description: "Linear Issue Manager is built around GraphQL API ecosystem. The underlying ecosystem is represented by graphql/graphql-js (20,335+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like queries, mutations, schema introspection, fragments, pagination, subscriptions and preserving the operational context […]"
 category: "Developer Tools"
 framework: "Custom Agents"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/linear-issue-manager/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "graphql"  # from ase_tool_match
-  github_stars: 20332  # from ase_github_stars (integer, not string)
-  npm_weekly_downloads: 32010306  # from ase_npm_downloads
-  github_repo: "graphql/graphql-js"  # from ase_github_repo
-  license: "MIT"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "graphql"
+  github_stars: 20332
+  npm_weekly_downloads: 32010306
+  github_repo: "graphql/graphql-js"
+  license: "MIT"
+  maintained: true
 ---
 
 # Linear Issue Manager

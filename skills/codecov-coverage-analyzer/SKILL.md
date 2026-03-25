@@ -3,20 +3,15 @@ name: "Codecov Coverage Analyzer"
 description: "Analyzes test coverage using the Codecov API v2 and codecov-cli uploader. Fetches per-file coverage from /api/v2/repos/{owner}/{repo}/report, computes diff coverage via /api/v2/repos/{owner}/{repo}/pulls/{pull}, and enforces configurable thresholds in CI pipelines."
 category: "Code Quality & Review"
 framework: "Codex"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/codecov-coverage-analyzer/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "jest"  # from ase_tool_match
-  github_stars: 45332  # from ase_github_stars (integer, not string)
-  npm_weekly_downloads: 45503384  # from ase_npm_downloads
-  github_repo: "jestjs/jest"  # from ase_github_repo
-  license: "MIT"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "jest"
+  github_stars: 45332
+  npm_weekly_downloads: 45503384
+  github_repo: "jestjs/jest"
+  license: "MIT"
+  maintained: true
 ---
 
 # Codecov Coverage Analyzer

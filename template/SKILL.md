@@ -4,8 +4,7 @@ description: "A clear description of what this skill does and when to use it. Re
 category: "Developer Tools"
 framework: "Claude Code"
 verification: listed
-creator: "Your Name"
-creator_handle: "your-github-handle"
+source: "https://agentskillexchange.com/skills/your-skill-slug/"
 ---
 
 # Your Skill Name
@@ -17,7 +16,7 @@ Explain the problem it solves and who benefits from it.
 
 ## Installation
 
-### Any agent (npx skills)
+### Any Agent
 
 ```bash
 npx skills add agentskillexchange/skills --skill your-skill-slug
@@ -46,7 +45,3 @@ npx skills add agentskillexchange/skills --skill your-skill-slug -a codex
 ```bash
 clawhub install your-skill-slug
 ```
-
----
-
-*Created by [Your Name](https://agentskillexchange.com)*

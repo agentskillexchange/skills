@@ -3,15 +3,10 @@ name: "n8n GitHub Issue-to-Jira Ticket Automator"
 description: "Deploys an n8n workflow via the n8n REST API using the GitHub Trigger node to capture new issue events and transform them into Jira tickets via the Jira Cloud REST API. Labels, priority mappings, and assignee routing rules are configured using n8n’s Function node with custom JavaScript."
 category: "Developer Tools"
 framework: "Codex"
-verification: listed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: listed
 source: "https://agentskillexchange.com/skills/n8n-github-jira-ticket-automator/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "jira"  # from ase_tool_match
+tool_ecosystem:
+  tool: "jira"
 ---
 
 # n8n GitHub Issue-to-Jira Ticket Automator

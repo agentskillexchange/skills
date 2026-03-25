@@ -3,19 +3,14 @@ name: "uv Ultra-Fast Python Package and Project Manager"
 description: "uv is an extremely fast Python package and project manager written in Rust by Astral (creators of Ruff). It replaces pip, pip-tools, pipx, poetry, pyenv, virtualenv, and twine with a single tool that resolves and installs packages 10-100x faster."
 category: "Developer Tools"
 framework: "Claude Code"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/uv-ultra-fast-python-package-project-manager/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "docker"  # from ase_tool_match
-  github_stars: 71560  # from ase_github_stars (integer, not string)
-  github_repo: "moby/moby"  # from ase_github_repo
-  license: "Apache-2.0"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "docker"
+  github_stars: 71560
+  github_repo: "moby/moby"
+  license: "Apache-2.0"
+  maintained: true
 ---
 
 # uv Ultra-Fast Python Package and Project Manager

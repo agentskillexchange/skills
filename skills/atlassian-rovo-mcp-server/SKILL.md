@@ -3,15 +3,10 @@ name: "Atlassian Rovo MCP Server"
 description: "The Atlassian Rovo MCP Server bridges your Atlassian Cloud workspace with any MCP-compatible client. Search and summarize Jira issues, create tickets from natural language, update Confluence pages, and query Compass services."
 category: "Calendar, Email & Productivity"
 framework: "MCP-compatible"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/atlassian-rovo-mcp-server/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "jira"  # from ase_tool_match
+tool_ecosystem:
+  tool: "jira"
 ---
 
 # Atlassian Rovo MCP Server

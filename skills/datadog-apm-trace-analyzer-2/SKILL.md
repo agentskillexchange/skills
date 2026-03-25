@@ -3,20 +3,14 @@ name: "Datadog APM Trace Analyzer"
 description: "Queries Datadog APM trace data via the Datadog Tracing API v2 to identify latency bottlenecks and error hotspots. Generates flame graph summaries and service dependency impact reports."
 category: "Monitoring & Alerts"
 framework: "Claude Agents"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/datadog-apm-trace-analyzer-2/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "datadog"  # from ase_tool_match
-  github_stars: 789  # from ase_github_stars (integer, not string)
-  npm_weekly_downloads: 6043057  # from ase_npm_downloads
-  github_repo: "DataDog/dd-trace-js"  # from ase_github_repo
-  license: "NOASSERTION"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "datadog"
+  github_stars: 789
+  npm_weekly_downloads: 6043057
+  github_repo: "DataDog/dd-trace-js"
+  maintained: true
 ---
 
 # Datadog APM Trace Analyzer

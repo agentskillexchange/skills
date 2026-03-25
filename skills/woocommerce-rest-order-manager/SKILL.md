@@ -3,20 +3,15 @@ name: "WooCommerce REST Order Manager"
 description: "Queries and updates WooCommerce orders via the WooCommerce REST API v3 (/wp-json/wc/v3/orders), filters by status, date range, and customer, and bulk-updates fulfillment status. Generates order export CSVs with custom field mapping for 3PL handoff."
 category: "WordPress & CMS"
 framework: "Claude Code"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/woocommerce-rest-order-manager/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "stripe"  # from ase_tool_match
-  github_stars: 4377  # from ase_github_stars (integer, not string)
-  npm_weekly_downloads: 8442269  # from ase_npm_downloads
-  github_repo: "stripe/stripe-node"  # from ase_github_repo
-  license: "MIT"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "stripe"
+  github_stars: 4377
+  npm_weekly_downloads: 8442269
+  github_repo: "stripe/stripe-node"
+  license: "MIT"
+  maintained: true
 ---
 
 # WooCommerce REST Order Manager

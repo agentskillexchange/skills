@@ -3,20 +3,15 @@ name: "Scrapy Spider Data Pipeline"
 description: "Builds and manages Scrapy web scraping spiders with custom item pipelines. Supports Splash rendering for JavaScript pages, rotating proxies via scrapy-rotating-proxies, and export to MongoDB or Elasticsearch."
 category: "Data Extraction & Transformation"
 framework: "Cursor"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/scrapy-spider-data-pipeline/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "scrapy"  # from ase_tool_match
-  github_stars: 60923  # from ase_github_stars (integer, not string)
-  npm_weekly_downloads: 39806814  # from ase_npm_downloads
-  github_repo: "scrapy/scrapy"  # from ase_github_repo
-  license: "BSD-3-Clause"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "scrapy"
+  github_stars: 60923
+  npm_weekly_downloads: 39806814
+  github_repo: "scrapy/scrapy"
+  license: "BSD-3-Clause"
+  maintained: true
 ---
 
 # Scrapy Spider Data Pipeline

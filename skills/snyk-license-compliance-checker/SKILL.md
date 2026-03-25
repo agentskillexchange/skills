@@ -3,20 +3,14 @@ name: "Snyk License Compliance Checker"
 description: "Uses the Snyk CLI and REST API to audit open-source dependencies for license compliance across npm, PyPI, Maven, and Go modules. Generates SPDX license reports and flags copyleft violations."
 category: "Security & Verification"
 framework: "Cursor"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/snyk-license-compliance-checker/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "snyk"  # from ase_tool_match
-  github_stars: 5458  # from ase_github_stars (integer, not string)
-  npm_weekly_downloads: 601684  # from ase_npm_downloads
-  github_repo: "snyk/cli"  # from ase_github_repo
-  license: "NOASSERTION"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "snyk"
+  github_stars: 5458
+  npm_weekly_downloads: 601684
+  github_repo: "snyk/cli"
+  maintained: true
 ---
 
 # Snyk License Compliance Checker

@@ -3,20 +3,15 @@ name: "Apache Kafka Schema Registry Validator"
 description: "Validates Avro, Protobuf, and JSON Schema compatibility against Confluent Schema Registry using the REST API. Enforces backward/forward/full compatibility modes and detects breaking schema evolution changes."
 category: "Data Extraction & Transformation"
 framework: "Claude Agents"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/kafka-schema-registry-validator/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "kafka"  # from ase_tool_match
-  github_stars: 3988  # from ase_github_stars (integer, not string)
-  npm_weekly_downloads: 2396148  # from ase_npm_downloads
-  github_repo: "tulios/kafkajs"  # from ase_github_repo
-  license: "MIT"  # from ase_tool_license
-  maintained: false  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "kafka"
+  github_stars: 3988
+  npm_weekly_downloads: 2396148
+  github_repo: "tulios/kafkajs"
+  license: "MIT"
+  maintained: false
 ---
 
 # Apache Kafka Schema Registry Validator

@@ -3,20 +3,15 @@ name: "OAuth2 Token Introspection Agent"
 description: "Validates OAuth2 tokens using RFC 7662 introspection endpoints. Integrates with Keycloak, Auth0, and Okta token introspection APIs to verify token claims, scopes, and expiration in real time."
 category: "Security & Verification"
 framework: "OpenClaw"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/oauth2-token-introspection-agent/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "auth0"  # from ase_tool_match
-  github_stars: 676  # from ase_github_stars (integer, not string)
-  npm_weekly_downloads: 1226704  # from ase_npm_downloads
-  github_repo: "auth0/node-auth0"  # from ase_github_repo
-  license: "MIT"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "auth0"
+  github_stars: 676
+  npm_weekly_downloads: 1226704
+  github_repo: "auth0/node-auth0"
+  license: "MIT"
+  maintained: true
 ---
 
 # OAuth2 Token Introspection Agent

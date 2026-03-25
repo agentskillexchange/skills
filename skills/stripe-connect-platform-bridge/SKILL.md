@@ -3,20 +3,15 @@ name: "Stripe Connect Platform Bridge"
 description: "Manages Stripe Connect onboarding flows using the stripe-node SDK. Handles account creation, capability requests, OAuth redirects, and payout scheduling via the Stripe Accounts API."
 category: "Integrations & Connectors"
 framework: "Claude Agents"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/stripe-connect-platform-bridge/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "stripe"  # from ase_tool_match
-  github_stars: 4377  # from ase_github_stars (integer, not string)
-  npm_weekly_downloads: 8442269  # from ase_npm_downloads
-  github_repo: "stripe/stripe-node"  # from ase_github_repo
-  license: "MIT"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "stripe"
+  github_stars: 4377
+  npm_weekly_downloads: 8442269
+  github_repo: "stripe/stripe-node"
+  license: "MIT"
+  maintained: true
 ---
 
 # Stripe Connect Platform Bridge

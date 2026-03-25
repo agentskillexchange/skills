@@ -3,19 +3,13 @@ name: "GitLab CI/CD Pipeline Optimizer"
 description: "Optimizes GitLab CI/CD pipelines using the .gitlab-ci.yml specification and GitLab API v4. Implements DAG pipelines, parallel testing, and dynamic child pipelines."
 category: "CI/CD Integrations"
 framework: "ChatGPT Agents"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/gitlab-cicd-pipeline-optimizer/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "gitlab"  # from ase_tool_match
-  github_stars: 24278  # from ase_github_stars (integer, not string)
-  github_repo: "gitlabhq/gitlabhq"  # from ase_github_repo
-  license: "NOASSERTION"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "gitlab"
+  github_stars: 24278
+  github_repo: "gitlabhq/gitlabhq"
+  maintained: true
 ---
 
 # GitLab CI/CD Pipeline Optimizer

@@ -4,11 +4,6 @@ description: "MetaMCP is an open-source MCP proxy that aggregates multiple MCP s
 category: "Uncategorized"
 framework: "Unknown"
 verification: listed
-rating: 0
-reviews: 0
-creator: ""
-creator_handle: ""
-creator_verified: false
 source: "https://agentskillexchange.com/skills/metamcp-unified-mcp-server-aggregator-gateway/"
 ---
 

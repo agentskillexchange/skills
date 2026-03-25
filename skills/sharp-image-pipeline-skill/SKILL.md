@@ -3,20 +3,15 @@ name: "Sharp Image Pipeline Skill"
 description: "Processes images using the Sharp npm library (libvips). Supports batch resize, format conversion (WebP/AVIF/JPEG XL), watermarking, and metadata extraction. Generates responsive image sets with srcset dimensions."
 category: "Image & Creative Automation"
 framework: "Claude Code"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/sharp-image-pipeline-skill/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "sharp"  # from ase_tool_match
-  github_stars: 32074  # from ase_github_stars (integer, not string)
-  npm_weekly_downloads: 54450041  # from ase_npm_downloads
-  github_repo: "lovell/sharp"  # from ase_github_repo
-  license: "Apache-2.0"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "sharp"
+  github_stars: 32074
+  npm_weekly_downloads: 54450041
+  github_repo: "lovell/sharp"
+  license: "Apache-2.0"
+  maintained: true
 ---
 
 # Sharp Image Pipeline Skill

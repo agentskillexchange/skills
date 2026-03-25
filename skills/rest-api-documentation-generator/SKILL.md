@@ -3,20 +3,15 @@ name: "REST API Documentation Generator"
 description: "Generates interactive API documentation from code annotations using swagger-jsdoc for Express.js routes and the Redoc (@redocly/cli) renderer. Supports OpenAPI 3.1 output with JSON Schema $ref resolution via @apidevtools/json-schema-ref-parser."
 category: "Library & API Reference"
 framework: "Claude Code"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/rest-api-documentation-generator/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "express"  # from ase_tool_match
-  github_stars: 68883  # from ase_github_stars (integer, not string)
-  npm_weekly_downloads: 91687881  # from ase_npm_downloads
-  github_repo: "expressjs/express"  # from ase_github_repo
-  license: "MIT"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "express"
+  github_stars: 68883
+  npm_weekly_downloads: 91687881
+  github_repo: "expressjs/express"
+  license: "MIT"
+  maintained: true
 ---
 
 # REST API Documentation Generator

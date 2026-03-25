@@ -3,16 +3,11 @@ name: "sqlc Type-Safe SQL Code Generator"
 description: "sqlc is a SQL compiler that generates type-safe Go, Python, Kotlin, and TypeScript code from plain SQL queries. You write SQL, run sqlc, and get fully typed data access functions with compile-time safety — no ORM, no reflection, no runtime query building."
 category: "Developer Tools"
 framework: "Claude Code"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/sqlc-type-safe-sql-code-generator/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "postgresql"  # from ase_tool_match
-  npm_weekly_downloads: 21413502  # from ase_npm_downloads
+tool_ecosystem:
+  tool: "postgresql"
+  npm_weekly_downloads: 21413502
 ---
 
 # sqlc Type-Safe SQL Code Generator

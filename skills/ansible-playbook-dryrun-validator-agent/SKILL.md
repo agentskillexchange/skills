@@ -3,20 +3,15 @@ name: "Ansible Playbook Dry-Run Validator"
 description: "Validates Ansible playbooks in check mode using ansible-playbook –check –diff and the Ansible Python API. Detects idempotency issues, undefined variables, and unreachable hosts before production runs."
 category: "Runbooks & Diagnostics"
 framework: "Cursor"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/ansible-playbook-dryrun-validator-agent/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "ansible"  # from ase_tool_match
-  github_stars: 68377  # from ase_github_stars (integer, not string)
-  npm_weekly_downloads: 9204385  # from ase_npm_downloads
-  github_repo: "ansible/ansible"  # from ase_github_repo
-  license: "GPL-3.0"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "ansible"
+  github_stars: 68377
+  npm_weekly_downloads: 9204385
+  github_repo: "ansible/ansible"
+  license: "GPL-3.0"
+  maintained: true
 ---
 
 # Ansible Playbook Dry-Run Validator

@@ -3,19 +3,14 @@ name: "Nginx Error Log Analyzer"
 description: "Parses and diagnoses Nginx error logs and access logs using pattern matching against known error signatures. Integrates with the Nginx Plus REST API /api/8/ endpoints for real-time upstream health, connection metrics, and SSL certificate expiration monitoring."
 category: "Runbooks & Diagnostics"
 framework: "ChatGPT Agents"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/nginx-error-log-analyzer/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "nginx"  # from ase_tool_match
-  github_stars: 29767  # from ase_github_stars (integer, not string)
-  github_repo: "nginx/nginx"  # from ase_github_repo
-  license: "BSD-2-Clause"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "nginx"
+  github_stars: 29767
+  github_repo: "nginx/nginx"
+  license: "BSD-2-Clause"
+  maintained: true
 ---
 
 # Nginx Error Log Analyzer

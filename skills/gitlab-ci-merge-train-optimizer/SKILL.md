@@ -3,19 +3,13 @@ name: "GitLab CI Merge Train Optimizer"
 description: "Optimizes GitLab CI/CD merge trains via the GitLab REST API v4 (/api/v4/projects/{id}/merge_trains). Analyzes pipeline durations, identifies bottleneck stages, and recommends DAG-based job dependencies for parallel execution."
 category: "CI/CD Integrations"
 framework: "Codex"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/gitlab-ci-merge-train-optimizer/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "gitlab"  # from ase_tool_match
-  github_stars: 24278  # from ase_github_stars (integer, not string)
-  github_repo: "gitlabhq/gitlabhq"  # from ase_github_repo
-  license: "NOASSERTION"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "gitlab"
+  github_stars: 24278
+  github_repo: "gitlabhq/gitlabhq"
+  maintained: true
 ---
 
 # GitLab CI Merge Train Optimizer

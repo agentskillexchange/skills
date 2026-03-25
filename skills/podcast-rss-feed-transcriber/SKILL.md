@@ -3,19 +3,14 @@ name: "Podcast RSS Feed Transcriber"
 description: "Automatically fetches podcast episodes from RSS feeds using feedparser, downloads audio enclosures, and transcribes them through OpenAI Whisper API or local faster-whisper models. Generates timestamped SRT files and searchable markdown transcripts with speaker diarization via pyannote.audio."
 category: "Media & Transcription"
 framework: "OpenClaw"
-verification: security_reviewed  # one of: security_reviewed, listed
-rating: 0  # real rating only, 0 if none
-reviews: 0  # real reviews only, 0 if none
-creator: ""  # real creator only, empty if none
-creator_handle: ""
-creator_verified: false
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/podcast-rss-feed-transcriber/"
-tool_ecosystem:  # ONLY if real signals exist in meta
-  tool: "whisper"  # from ase_tool_match
-  github_stars: 96570  # from ase_github_stars (integer, not string)
-  github_repo: "openai/whisper"  # from ase_github_repo
-  license: "MIT"  # from ase_tool_license
-  maintained: true  # from ase_tool_maintained
+tool_ecosystem:
+  tool: "whisper"
+  github_stars: 96570
+  github_repo: "openai/whisper"
+  license: "MIT"
+  maintained: true
 ---
 
 # Podcast RSS Feed Transcriber
