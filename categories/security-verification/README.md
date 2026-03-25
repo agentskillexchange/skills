@@ -1,6 +1,6 @@
 # 🔒 Security & Verification
 
-> **90 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification)
+> **91 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification)
 
 Auth setup, vulnerability scanning, compliance checks, and security automation.
 
@@ -131,6 +131,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [age Modern File Encryption Tool](../../skills/age-modern-file-encryption-tool/) | Verified Metadata | — | — | `clawhub install age-modern-file-encryption-tool` |
 | [CSP Policy Analyzer](../../skills/csp-policy-analyzer/) | Security Reviewed | — | — | `clawhub install csp-policy-analyzer` |
 | [CycloneDX SBOM Generator](../../skills/cyclonedx-sbom-generator/) | Security Reviewed | — | — | `clawhub install cyclonedx-sbom-generator` |
+| [Gitleaks Git Repository Secret Scanner](../../skills/gitleaks-git-secret-scanner/) | Verified Metadata | — | — | `clawhub install gitleaks-git-secret-scanner` |
 | [GPG Encryption and Key Management Agent](../../skills/gpg-encryption-key-management-agent/) | Security Reviewed | — | — | `clawhub install gpg-encryption-key-management-agent` |
 | [Heisenberg Supply Chain Health Checker](../../skills/heisenberg-supply-chain-health-checker/) | Verified Metadata | — | — | `clawhub install heisenberg-supply-chain-health-checker` |
 | [NPM Audit Deep Scanner](../../skills/npm-audit-deep-scanner/) | Security Reviewed | — | — | `clawhub install npm-audit-deep-scanner` |
@@ -169,9 +170,9 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 ## Related Categories
 
-- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (138 skills)
+- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (139 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (97 skills)
+- 🛠️ [Developer Tools](../developer-tools/) (101 skills)
 - 📚 [Library & API Reference](../library-api-reference/) (89 skills)
 
 ---

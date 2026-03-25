@@ -1,6 +1,6 @@
 # 🔧 CI/CD Integrations
 
-> **138 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations)
+> **139 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations)
 
 Pipeline configs, deployment automation, build tooling, and continuous integration/delivery skills.
 
@@ -182,6 +182,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [CircleCI Workflow Analyzer](../../skills/circleci-workflow-analyzer/) | Security Reviewed | 842 | — | `clawhub install circleci-workflow-analyzer` |
 | [CircleCI Workflow Builder](../../skills/circleci-workflow-builder/) | Security Reviewed | 842 | — | `clawhub install circleci-workflow-builder` |
 | [CircleCI Workflow Cost Auditor](../../skills/circleci-workflow-cost-auditor/) | Security Reviewed | 842 | — | `clawhub install circleci-workflow-cost-auditor` |
+| [act Local GitHub Actions Runner](../../skills/act-local-github-actions-runner/) | Verified Metadata | — | — | `clawhub install act-local-github-actions-runner` |
 | [GitHub Actions CI Builder](../../skills/github-actions-ci-builder/) | Security Reviewed | — | — | `clawhub install github-actions-ci-builder` |
 | [GitHub Actions CI Pipeline Builder](../../skills/github-actions-ci-pipeline-builder/) | Security Reviewed | — | — | `clawhub install github-actions-ci-pipeline-builder` |
 | [GitHub Actions Matrix Build Optimizer](../../skills/github-actions-matrix-build-optimizer/) | Security Reviewed | — | — | `clawhub install github-actions-matrix-build-optimizer` |
@@ -218,8 +219,8 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 ## Related Categories
 
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (97 skills)
-- 🔒 [Security & Verification](../security-verification/) (90 skills)
+- 🛠️ [Developer Tools](../developer-tools/) (101 skills)
+- 🔒 [Security & Verification](../security-verification/) (91 skills)
 - 📚 [Library & API Reference](../library-api-reference/) (89 skills)
 
 ---

@@ -1,6 +1,6 @@
 # 🛠️ Developer Tools
 
-> **97 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools)
+> **101 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools)
 
 CLI helpers, dev environment setup, productivity utilities, and developer workflows.
 
@@ -129,11 +129,15 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [fzf Command-Line Fuzzy Finder](../../skills/fzf-command-line-fuzzy-finder/) | Security Reviewed | — | — | `clawhub install fzf-command-line-fuzzy-finder` |
 | [Git Bisect Automator](../../skills/git-bisect-automator/) | Security Reviewed | — | — | `clawhub install git-bisect-automator` |
 | [Git Diff Complexity Analyzer](../../skills/git-diff-complexity-analyzer/) | Security Reviewed | — | — | `clawhub install git-diff-complexity-analyzer` |
+| [GitUI Blazing Fast Terminal Git Interface](../../skills/gitui-terminal-git-interface/) | Verified Metadata | — | — | `clawhub install gitui-terminal-git-interface` |
 | [grpcurl Command-Line gRPC Client](../../skills/grpcurl-command-line-grpc-client/) | Verified Metadata | — | — | `clawhub install grpcurl-command-line-grpc-client` |
 | [Gum Interactive Shell Script Toolkit](../../skills/gum-interactive-shell-script-toolkit/) | Security Reviewed | — | — | `clawhub install gum-interactive-shell-script-toolkit` |
+| [Hoppscotch Open Source API Development Ecosystem](../../skills/hoppscotch-api-development-ecosystem/) | Verified Metadata | — | — | `clawhub install hoppscotch-api-development-ecosystem` |
 | [Hyperfine Command-Line Benchmarking Tool](../../skills/hyperfine-command-line-benchmarking-tool/) | Security Reviewed | — | — | `clawhub install hyperfine-command-line-benchmarking-tool` |
 | [Jira Advanced Query Agent](../../skills/jira-advanced-query-agent/) | Security Reviewed | — | — | `clawhub install jira-advanced-query-agent` |
 | [Just Command Runner](../../skills/just-command-runner/) | Security Reviewed | — | — | `clawhub install just-command-runner` |
+| [K9s Kubernetes Terminal Dashboard](../../skills/k9s-kubernetes-terminal-dashboard/) | Verified Metadata | — | — | `clawhub install k9s-kubernetes-terminal-dashboard` |
+| [LazyDocker Terminal UI for Docker Management](../../skills/lazydocker-terminal-docker-management/) | Verified Metadata | — | — | `clawhub install lazydocker-terminal-docker-management` |
 | [lazygit Terminal UI for Git Operations](../../skills/lazygit-terminal-ui-git-operations/) | Security Reviewed | — | — | `clawhub install lazygit-terminal-ui-git-operations` |
 | [LLDB Debug Session Automator](../../skills/lldb-debug-session-automator/) | Security Reviewed | — | — | `clawhub install lldb-debug-session-automator` |
 | [Makefile Dependency Auditor](../../skills/makefile-dependency-auditor/) | Security Reviewed | — | — | `clawhub install makefile-dependency-auditor` |
@@ -176,9 +180,9 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 ## Related Categories
 
-- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (138 skills)
+- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (139 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
-- 🔒 [Security & Verification](../security-verification/) (90 skills)
+- 🔒 [Security & Verification](../security-verification/) (91 skills)
 - 📚 [Library & API Reference](../library-api-reference/) (89 skills)
 
 ---

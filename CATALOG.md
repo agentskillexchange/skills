@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1185 skills** across **20 categories** · Updated 2026-03-25 12:15 UTC
+> **1191 skills** across **20 categories** · Updated 2026-03-25 13:17 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -10,12 +10,12 @@
 
 | Metric | Value |
 |--------|-------|
-| Total Skills | **1185** |
+| Total Skills | **1191** |
 | Categories | **20** |
 | Frameworks | **20** |
 | Skills with live signal data | **915** |
 | Security Reviewed | **1138** |
-| Verified Metadata | **47** |
+| Verified Metadata | **53** |
 | Listed | **0** |
 
 > These verification counts are **final-state buckets**, not cumulative stages.
@@ -24,7 +24,7 @@
 
 ## Skills by Category
 
-### 🔧 CI/CD Integrations (138 skills)
+### 🔧 CI/CD Integrations (139 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&sort=downloads)
 
@@ -155,6 +155,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [CircleCI Workflow Analyzer](skills/circleci-workflow-analyzer/) | Security Reviewed | 842 | — | `clawhub install circleci-workflow-analyzer` |
 | [CircleCI Workflow Builder](skills/circleci-workflow-builder/) | Security Reviewed | 842 | — | `clawhub install circleci-workflow-builder` |
 | [CircleCI Workflow Cost Auditor](skills/circleci-workflow-cost-auditor/) | Security Reviewed | 842 | — | `clawhub install circleci-workflow-cost-auditor` |
+| [act Local GitHub Actions Runner](skills/act-local-github-actions-runner/) | Verified Metadata | — | — | `clawhub install act-local-github-actions-runner` |
 | [GitHub Actions CI Builder](skills/github-actions-ci-builder/) | Security Reviewed | — | — | `clawhub install github-actions-ci-builder` |
 | [GitHub Actions CI Pipeline Builder](skills/github-actions-ci-pipeline-builder/) | Security Reviewed | — | — | `clawhub install github-actions-ci-pipeline-builder` |
 | [GitHub Actions Matrix Build Optimizer](skills/github-actions-matrix-build-optimizer/) | Security Reviewed | — | — | `clawhub install github-actions-matrix-build-optimizer` |
@@ -291,7 +292,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Systemd Service Recovery Playbook](skills/systemd-service-recovery-playbook-2/) | Security Reviewed | — | — | `clawhub install systemd-service-recovery-playbook-2` |
 
 
-### 🛠️ Developer Tools (97 skills)
+### 🛠️ Developer Tools (101 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -369,11 +370,15 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [fzf Command-Line Fuzzy Finder](skills/fzf-command-line-fuzzy-finder/) | Security Reviewed | — | — | `clawhub install fzf-command-line-fuzzy-finder` |
 | [Git Bisect Automator](skills/git-bisect-automator/) | Security Reviewed | — | — | `clawhub install git-bisect-automator` |
 | [Git Diff Complexity Analyzer](skills/git-diff-complexity-analyzer/) | Security Reviewed | — | — | `clawhub install git-diff-complexity-analyzer` |
+| [GitUI Blazing Fast Terminal Git Interface](skills/gitui-terminal-git-interface/) | Verified Metadata | — | — | `clawhub install gitui-terminal-git-interface` |
 | [grpcurl Command-Line gRPC Client](skills/grpcurl-command-line-grpc-client/) | Verified Metadata | — | — | `clawhub install grpcurl-command-line-grpc-client` |
 | [Gum Interactive Shell Script Toolkit](skills/gum-interactive-shell-script-toolkit/) | Security Reviewed | — | — | `clawhub install gum-interactive-shell-script-toolkit` |
+| [Hoppscotch Open Source API Development Ecosystem](skills/hoppscotch-api-development-ecosystem/) | Verified Metadata | — | — | `clawhub install hoppscotch-api-development-ecosystem` |
 | [Hyperfine Command-Line Benchmarking Tool](skills/hyperfine-command-line-benchmarking-tool/) | Security Reviewed | — | — | `clawhub install hyperfine-command-line-benchmarking-tool` |
 | [Jira Advanced Query Agent](skills/jira-advanced-query-agent/) | Security Reviewed | — | — | `clawhub install jira-advanced-query-agent` |
 | [Just Command Runner](skills/just-command-runner/) | Security Reviewed | — | — | `clawhub install just-command-runner` |
+| [K9s Kubernetes Terminal Dashboard](skills/k9s-kubernetes-terminal-dashboard/) | Verified Metadata | — | — | `clawhub install k9s-kubernetes-terminal-dashboard` |
+| [LazyDocker Terminal UI for Docker Management](skills/lazydocker-terminal-docker-management/) | Verified Metadata | — | — | `clawhub install lazydocker-terminal-docker-management` |
 | [lazygit Terminal UI for Git Operations](skills/lazygit-terminal-ui-git-operations/) | Security Reviewed | — | — | `clawhub install lazygit-terminal-ui-git-operations` |
 | [LLDB Debug Session Automator](skills/lldb-debug-session-automator/) | Security Reviewed | — | — | `clawhub install lldb-debug-session-automator` |
 | [Makefile Dependency Auditor](skills/makefile-dependency-auditor/) | Security Reviewed | — | — | `clawhub install makefile-dependency-auditor` |
@@ -396,7 +401,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [zx JavaScript Shell Script Runner](skills/zx-javascript-shell-script-runner/) | Verified Metadata | — | — | `clawhub install zx-javascript-shell-script-runner` |
 
 
-### 🔒 Security & Verification (90 skills)
+### 🔒 Security & Verification (91 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -476,6 +481,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [age Modern File Encryption Tool](skills/age-modern-file-encryption-tool/) | Verified Metadata | — | — | `clawhub install age-modern-file-encryption-tool` |
 | [CSP Policy Analyzer](skills/csp-policy-analyzer/) | Security Reviewed | — | — | `clawhub install csp-policy-analyzer` |
 | [CycloneDX SBOM Generator](skills/cyclonedx-sbom-generator/) | Security Reviewed | — | — | `clawhub install cyclonedx-sbom-generator` |
+| [Gitleaks Git Repository Secret Scanner](skills/gitleaks-git-secret-scanner/) | Verified Metadata | — | — | `clawhub install gitleaks-git-secret-scanner` |
 | [GPG Encryption and Key Management Agent](skills/gpg-encryption-key-management-agent/) | Security Reviewed | — | — | `clawhub install gpg-encryption-key-management-agent` |
 | [Heisenberg Supply Chain Health Checker](skills/heisenberg-supply-chain-health-checker/) | Verified Metadata | — | — | `clawhub install heisenberg-supply-chain-health-checker` |
 | [NPM Audit Deep Scanner](skills/npm-audit-deep-scanner/) | Security Reviewed | — | — | `clawhub install npm-audit-deep-scanner` |
