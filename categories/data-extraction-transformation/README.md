@@ -1,6 +1,6 @@
 # 🔄 Data Extraction & Transformation
 
-> **75 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation)
+> **79 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation)
 
 Parsing, ETL pipelines, format conversion, data wrangling, and transformation utilities.
 
@@ -122,15 +122,19 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Camelot PDF Stream Parser](../../skills/camelot-pdf-stream-parser/) | Security Reviewed | — | — | `clawhub install camelot-pdf-stream-parser` |
 | [CSV Schema Validator &#038; Auto-Fixer](../../skills/csv-schema-validator-auto-fixer/) | Security Reviewed | — | — | `clawhub install csv-schema-validator-auto-fixer` |
 | [Dagster Data Pipeline Orchestrator](../../skills/dagster-data-pipeline-orchestrator/) | Verified Metadata | — | — | `clawhub install dagster-data-pipeline-orchestrator` |
+| [Dasel Multi-Format Data Selector and Modifier](../../skills/dasel-multi-format-data-selector-modifier/) | Verified Metadata | — | — | `clawhub install dasel-multi-format-data-selector-modifier` |
+| [dbt MCP Server for Data Pipeline Context](../../skills/dbt-mcp-server-data-pipeline-context/) | Verified Metadata | — | — | `clawhub install dbt-mcp-server-data-pipeline-context` |
 | [DuckDB SQL Analytics Agent](../../skills/duckdb-sql-analytics-agent/) | Verified Metadata | — | — | `clawhub install duckdb-sql-analytics-agent` |
 | [Ingestr Cross-Database Data Copier](../../skills/ingestr-cross-database-data-copier/) | Verified Metadata | — | — | `clawhub install ingestr-cross-database-data-copier` |
 | [jq Pipeline Builder Agent](../../skills/jq-pipeline-builder-agent/) | Security Reviewed | — | — | `clawhub install jq-pipeline-builder-agent` |
+| [Miller CSV TSV JSON Data Processor](../../skills/miller-csv-tsv-json-data-processor/) | Verified Metadata | — | — | `clawhub install miller-csv-tsv-json-data-processor` |
 | [Snowflake MCP](../../skills/snowflake-mcp/) | Security Reviewed | — | — | `clawhub install snowflake-mcp` |
 | [Snowflake MCP Server](../../skills/snowflake-mcp-server/) | Security Reviewed | — | — | `clawhub install snowflake-mcp-server` |
 | [Snowflake Query History Extractor](../../skills/snowflake-query-history-extractor/) | Security Reviewed | — | — | `clawhub install snowflake-query-history-extractor` |
 | [Snowflake Query Optimizer Agent](../../skills/snowflake-query-optimizer-agent/) | Security Reviewed | — | — | `clawhub install snowflake-query-optimizer-agent` |
 | [Snowflake Query Profiler](../../skills/snowflake-query-profiler/) | Security Reviewed | — | — | `clawhub install snowflake-query-profiler` |
 | [XML XSLT Transform Pipeline](../../skills/xml-xslt-transform-pipeline/) | Security Reviewed | — | — | `clawhub install xml-xslt-transform-pipeline` |
+| [xsv High-Performance CSV Toolkit](../../skills/xsv-high-performance-csv-toolkit/) | Verified Metadata | — | — | `clawhub install xsv-high-performance-csv-toolkit` |
 | [yq YAML and Structured Data Processor](../../skills/yq-yaml-structured-data-processor/) | Verified Metadata | — | — | `clawhub install yq-yaml-structured-data-processor` |
 
 ---

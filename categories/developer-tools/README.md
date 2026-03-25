@@ -1,6 +1,6 @@
 # 🛠️ Developer Tools
 
-> **71 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools)
+> **73 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools)
 
 CLI helpers, dev environment setup, productivity utilities, and developer workflows.
 
@@ -116,8 +116,10 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Frontend Design Guidance Skill](../../skills/frontend-design-guidance-skill/) | Security Reviewed | — | — | `clawhub install frontend-design-guidance-skill` |
 | [Git Bisect Automator](../../skills/git-bisect-automator/) | Security Reviewed | — | — | `clawhub install git-bisect-automator` |
 | [Git Diff Complexity Analyzer](../../skills/git-diff-complexity-analyzer/) | Security Reviewed | — | — | `clawhub install git-diff-complexity-analyzer` |
+| [Gum Interactive Shell Script Toolkit](../../skills/gum-interactive-shell-script-toolkit/) | Verified Metadata | — | — | `clawhub install gum-interactive-shell-script-toolkit` |
 | [Hyperfine Command-Line Benchmarking Tool](../../skills/hyperfine-command-line-benchmarking-tool/) | Verified Metadata | — | — | `clawhub install hyperfine-command-line-benchmarking-tool` |
 | [Jira Advanced Query Agent](../../skills/jira-advanced-query-agent/) | Security Reviewed | — | — | `clawhub install jira-advanced-query-agent` |
+| [Just Command Runner](../../skills/just-command-runner/) | Verified Metadata | — | — | `clawhub install just-command-runner` |
 | [LLDB Debug Session Automator](../../skills/lldb-debug-session-automator/) | Security Reviewed | — | — | `clawhub install lldb-debug-session-automator` |
 | [Makefile Dependency Auditor](../../skills/makefile-dependency-auditor/) | Security Reviewed | — | — | `clawhub install makefile-dependency-auditor` |
 | [Mise Dev Tool Version Manager](../../skills/mise-dev-tool-version-manager/) | Verified Metadata | — | — | `clawhub install mise-dev-tool-version-manager` |
