@@ -10,7 +10,7 @@
 [![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-1%2C100-10b981?style=for-the-badge)](https://agentskillexchange.com/browse-skills/?verification=security_reviewed)
 [![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)
 
-**[Browse Skills](https://agentskillexchange.com/browse-skills/) · [Categories](https://github.com/agentskillexchange/skills/tree/main/categories) · [Create a Skill](https://agentskillexchange.com/create-skill/)**
+**[Browse Skills](https://agentskillexchange.com/browse-skills/) · [Categories](https://github.com/agentskillexchange/skills/tree/main/categories) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Create a Skill](https://agentskillexchange.com/create-skill/)**
 
 *Updated hourly · Real ecosystem signals · Multi-framework*
 
@@ -44,8 +44,8 @@ clawhub install <slug>
 ## Start Here
 
 - **Browse by category:** [categories/](categories/)
-- **Top starred:** <https://agentskillexchange.com/browse-skills/?sort=stars>
-- **Top downloaded:** <https://agentskillexchange.com/browse-skills/?sort=downloads>
+- **Top starred:** [TOP-STARS.md](TOP-STARS.md) · [live](https://agentskillexchange.com/browse-skills/?sort=stars)
+- **Top downloaded:** [TOP-DOWNLOADS.md](TOP-DOWNLOADS.md) · [live](https://agentskillexchange.com/browse-skills/?sort=downloads)
 - **Security reviewed:** <https://agentskillexchange.com/browse-skills/?verification=security_reviewed>
 - **Full catalog:** [CATALOG.md](CATALOG.md)
 
@@ -100,9 +100,9 @@ More: [verification/](verification/) — how trust & safety works
 
 ## Browse by Signal
 
-- By stars: <https://agentskillexchange.com/browse-skills/?sort=stars>
-- By downloads: <https://agentskillexchange.com/browse-skills/?sort=downloads>
-- Security reviewed only: <https://agentskillexchange.com/browse-skills/?verification=security_reviewed>
+- ⭐ By stars: [TOP-STARS.md](TOP-STARS.md) · [live](https://agentskillexchange.com/browse-skills/?sort=stars)
+- 🔥 By downloads: [TOP-DOWNLOADS.md](TOP-DOWNLOADS.md) · [live](https://agentskillexchange.com/browse-skills/?sort=downloads)
+- 🛡️ Security reviewed: <https://agentskillexchange.com/browse-skills/?verification=security_reviewed>
 
 ---
 
