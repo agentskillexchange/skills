@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1126 skills** across **20 categories** · Updated 2026-03-25 00:13 UTC
+> **1132 skills** across **20 categories** · Updated 2026-03-25 01:13 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -10,13 +10,13 @@
 
 | Metric | Value |
 |--------|-------|
-| Total Skills | **1126** |
+| Total Skills | **1132** |
 | Categories | **20** |
 | Frameworks | **20** |
 | Skills with live signal data | **890** |
 | Security Reviewed | **954** |
 | Verified Metadata | **10** |
-| Listed | **162** |
+| Listed | **168** |
 
 > These verification counts are **final-state buckets**, not cumulative stages.
 
@@ -564,7 +564,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [OpsGenie MCP Server](skills/opsgenie-mcp-server/) | Listed | 24 | 9.1k/wk | `clawhub install opsgenie-mcp-server` |
 
 
-### ✅ Code Quality & Review (74 skills)
+### ✅ Code Quality & Review (77 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -633,10 +633,13 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [SonarQube Scanner Skill](skills/sonarqube-scanner-skill/) | Security Reviewed | 10.4k | — | `clawhub install sonarqube-scanner-skill` |
 | [CodeClimate Maintainability Tracker](skills/codeclimate-maintainability-tracker-7/) | Security Reviewed | 3.1k | 3.3M/wk | `clawhub install codeclimate-maintainability-tracker-7` |
 | [Codecov Coverage Report Analyzer](skills/codecov-coverage-report-analyzer/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install codecov-coverage-report-analyzer` |
+| [ast-grep Structural Code Search and Rewrite](skills/ast-grep-structural-code-search-rewrite/) | Listed | — | — | `clawhub install ast-grep-structural-code-search-rewrite` |
 | [Codecov Coverage Diff Analyzer](skills/codecov-coverage-diff-analyzer-2/) | Security Reviewed | — | — | `clawhub install codecov-coverage-diff-analyzer-2` |
 | [Codecov Coverage Tracker](skills/codecov-coverage-tracker-skill/) | Security Reviewed | — | — | `clawhub install codecov-coverage-tracker-skill` |
 | [Codecov Coverage Tracker Agent](skills/codecov-coverage-tracker-agent/) | Security Reviewed | — | — | `clawhub install codecov-coverage-tracker-agent` |
 | [Complexity Trend Tracker](skills/complexity-trend-tracker-agent/) | Security Reviewed | — | — | `clawhub install complexity-trend-tracker-agent` |
+| [Knip Unused Code and Dependency Finder](skills/knip-unused-code-dependency-finder/) | Listed | — | — | `clawhub install knip-unused-code-dependency-finder` |
+| [Oxlint High-Performance JavaScript Linter](skills/oxlint-high-performance-javascript-linter/) | Listed | — | — | `clawhub install oxlint-high-performance-javascript-linter` |
 | [Prettier Config Harmonizer](skills/prettier-config-harmonizer-2/) | Security Reviewed | — | — | `clawhub install prettier-config-harmonizer-2` |
 | [Pylint Baseline Manager](skills/pylint-baseline-manager-wave48/) | Security Reviewed | — | — | `clawhub install pylint-baseline-manager-wave48` |
 | [Pylint Code Review Assistant](skills/pylint-code-review-assistant/) | Security Reviewed | — | — | `clawhub install pylint-code-review-assistant` |
@@ -725,7 +728,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [XML XSLT Transform Pipeline](skills/xml-xslt-transform-pipeline/) | Security Reviewed | — | — | `clawhub install xml-xslt-transform-pipeline` |
 
 
-### 🛠️ Developer Tools (67 skills)
+### 🛠️ Developer Tools (70 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -784,6 +787,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [PostgreSQL Query Plan Analyzer](skills/postgresql-query-plan-analyzer-2/) | Listed | — | 21.4M/wk | `clawhub install postgresql-query-plan-analyzer-2` |
 | [Bazel Build Graph Analyzer](skills/bazel-build-graph-analyzer/) | Security Reviewed | — | — | `clawhub install bazel-build-graph-analyzer` |
 | [Bun Shell Script Executor](skills/bun-shell-script-executor/) | Security Reviewed | — | — | `clawhub install bun-shell-script-executor` |
+| [Changesets Version and Changelog Manager](skills/changesets-version-changelog-manager/) | Listed | — | — | `clawhub install changesets-version-changelog-manager` |
 | [Claude Code MCP Bridge](skills/claude-code-mcp-bridge/) | Security Reviewed | — | — | `clawhub install claude-code-mcp-bridge` |
 | [E2B Code Execution MCP](skills/e2b-code-execution-mcp/) | Security Reviewed | — | — | `clawhub install e2b-code-execution-mcp` |
 | [Frontend Design Guidance Skill](skills/frontend-design-guidance-skill/) | Security Reviewed | — | — | `clawhub install frontend-design-guidance-skill` |
@@ -792,10 +796,12 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Jira Advanced Query Agent](skills/jira-advanced-query-agent/) | Listed | — | — | `clawhub install jira-advanced-query-agent` |
 | [LLDB Debug Session Automator](skills/lldb-debug-session-automator/) | Security Reviewed | — | — | `clawhub install lldb-debug-session-automator` |
 | [Makefile Dependency Auditor](skills/makefile-dependency-auditor/) | Security Reviewed | — | — | `clawhub install makefile-dependency-auditor` |
+| [Mise Dev Tool Version Manager](skills/mise-dev-tool-version-manager/) | Listed | — | — | `clawhub install mise-dev-tool-version-manager` |
 | [n8n GitHub Issue-to-Jira Ticket Automator](skills/n8n-github-jira-ticket-automator/) | Listed | — | — | `clawhub install n8n-github-jira-ticket-automator` |
 | [Nix Flake Configuration Builder](skills/nix-flake-configuration-builder/) | Security Reviewed | — | — | `clawhub install nix-flake-configuration-builder` |
 | [NPM Package Auditor](skills/npm-package-auditor-registry-api/) | Security Reviewed | — | — | `clawhub install npm-package-auditor-registry-api` |
 | [Package Vulnerability Scanner](skills/package-vuln-scanner-osv-api/) | Security Reviewed | — | — | `clawhub install package-vuln-scanner-osv-api` |
+| [Turborepo Monorepo Build System](skills/turborepo-monorepo-build-system/) | Listed | — | — | `clawhub install turborepo-monorepo-build-system` |
 | [VS Code Extension Debugger](skills/vscode-extension-debugger-dap-protocol/) | Security Reviewed | — | — | `clawhub install vscode-extension-debugger-dap-protocol` |
 | [WASM Component Model Linker](skills/wasm-component-model-linker/) | Security Reviewed | — | — | `clawhub install wasm-component-model-linker` |
 

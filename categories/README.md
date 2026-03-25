@@ -2,7 +2,7 @@
 
 Categories are the **top-level map** of the catalog. For live sorting by stars, downloads, and verification, jump into ASE Browse from any category.
 
-> **1126 skills** across **20 categories**
+> **1132 skills** across **20 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
@@ -11,9 +11,9 @@ Categories are the **top-level map** of the catalog. For live sorting by stars, 
 | 📚 | [**Library & API Reference**](library-api-reference/) | **89** | SDK documentation, API guides, framework reference material, and libr... |
 | 🔒 | [**Security & Verification**](security-verification/) | **84** | Auth setup, vulnerability scanning, compliance checks, and security a... |
 | 📊 | [**Monitoring & Alerts**](monitoring-alerts/) | **77** | Metrics collection, alerting rules, observability setup, and system m... |
-| ✅ | [**Code Quality & Review**](code-quality-review/) | **74** | Linting rules, review checklists, code standards enforcement, and qua... |
+| ✅ | [**Code Quality & Review**](code-quality-review/) | **77** | Linting rules, review checklists, code standards enforcement, and qua... |
 | 🔄 | [**Data Extraction & Transformation**](data-extraction-transformation/) | **71** | Parsing, ETL pipelines, format conversion, data wrangling, and transf... |
-| 🛠️ | [**Developer Tools**](developer-tools/) | **67** | CLI helpers, dev environment setup, productivity utilities, and devel... |
+| 🛠️ | [**Developer Tools**](developer-tools/) | **70** | CLI helpers, dev environment setup, productivity utilities, and devel... |
 | 📄 | [**Templates & Workflows**](templates-workflows/) | **61** | Project scaffolding, boilerplate generators, workflow templates, and ... |
 | 🎨 | [**Image & Creative Automation**](image-creative-automation/) | **52** | Image generation, asset processing, design automation, and creative t... |
 | 📅 | [**Calendar, Email & Productivity**](calendar-email-productivity/) | **50** | Email automation, calendar management, task coordination, and product... |

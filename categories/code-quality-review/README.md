@@ -1,6 +1,6 @@
 # ✅ Code Quality & Review
 
-> **74 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review)
+> **77 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review)
 
 Linting rules, review checklists, code standards enforcement, and quality gates.
 
@@ -120,10 +120,13 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [SonarQube Scanner Skill](../../skills/sonarqube-scanner-skill/) | Security Reviewed | 10.4k | — | `clawhub install sonarqube-scanner-skill` |
 | [CodeClimate Maintainability Tracker](../../skills/codeclimate-maintainability-tracker-7/) | Security Reviewed | 3.1k | 3.3M/wk | `clawhub install codeclimate-maintainability-tracker-7` |
 | [Codecov Coverage Report Analyzer](../../skills/codecov-coverage-report-analyzer/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install codecov-coverage-report-analyzer` |
+| [ast-grep Structural Code Search and Rewrite](../../skills/ast-grep-structural-code-search-rewrite/) | Listed | — | — | `clawhub install ast-grep-structural-code-search-rewrite` |
 | [Codecov Coverage Diff Analyzer](../../skills/codecov-coverage-diff-analyzer-2/) | Security Reviewed | — | — | `clawhub install codecov-coverage-diff-analyzer-2` |
 | [Codecov Coverage Tracker](../../skills/codecov-coverage-tracker-skill/) | Security Reviewed | — | — | `clawhub install codecov-coverage-tracker-skill` |
 | [Codecov Coverage Tracker Agent](../../skills/codecov-coverage-tracker-agent/) | Security Reviewed | — | — | `clawhub install codecov-coverage-tracker-agent` |
 | [Complexity Trend Tracker](../../skills/complexity-trend-tracker-agent/) | Security Reviewed | — | — | `clawhub install complexity-trend-tracker-agent` |
+| [Knip Unused Code and Dependency Finder](../../skills/knip-unused-code-dependency-finder/) | Listed | — | — | `clawhub install knip-unused-code-dependency-finder` |
+| [Oxlint High-Performance JavaScript Linter](../../skills/oxlint-high-performance-javascript-linter/) | Listed | — | — | `clawhub install oxlint-high-performance-javascript-linter` |
 | [Prettier Config Harmonizer](../../skills/prettier-config-harmonizer-2/) | Security Reviewed | — | — | `clawhub install prettier-config-harmonizer-2` |
 | [Pylint Baseline Manager](../../skills/pylint-baseline-manager-wave48/) | Security Reviewed | — | — | `clawhub install pylint-baseline-manager-wave48` |
 | [Pylint Code Review Assistant](../../skills/pylint-code-review-assistant/) | Security Reviewed | — | — | `clawhub install pylint-code-review-assistant` |
