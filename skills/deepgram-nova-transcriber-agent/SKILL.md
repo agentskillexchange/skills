@@ -3,7 +3,7 @@ name: "Deepgram Nova Transcriber"
 description: "Transcribes audio using the Deepgram Nova-2 API with diarization, punctuation, and smart formatting. Supports streaming via WebSocket and batch via REST with pre-recorded endpoint and callback URLs."
 category: "Media & Transcription"
 framework: "OpenClaw"
-verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+verification: security_reviewed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

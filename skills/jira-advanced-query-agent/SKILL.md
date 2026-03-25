@@ -3,7 +3,7 @@ name: "Jira Advanced Query Agent"
 description: "Execute complex Jira Query Language (JQL) queries, create and update issues, manage sprints, and generate workload reports through an AI agent. Supports custom field mapping and bulk operations for large project datasets."
 category: "Developer Tools"
 framework: "Custom Agents"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

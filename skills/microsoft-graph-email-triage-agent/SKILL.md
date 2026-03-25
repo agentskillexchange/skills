@@ -3,7 +3,7 @@ name: "Microsoft Graph Email Triage Agent"
 description: "Automates email triage using Microsoft Graph API v1.0 with delegated permissions. Classifies emails by urgency using NLP, applies Outlook rules, and surfaces action items to Microsoft To Do via Graph Tasks API."
 category: "Calendar, Email & Productivity"
 framework: "Claude Code"
-verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+verification: security_reviewed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

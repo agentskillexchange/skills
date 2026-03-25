@@ -3,7 +3,7 @@ name: "Python Docstring Linter"
 description: "Validates and auto-generates Python docstrings using the ast module and pydocstyle conventions. Supports NumPy, Google, and Sphinx docstring formats with type stub integration."
 category: "Library & API Reference"
 framework: "Codex"
-verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+verification: security_reviewed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

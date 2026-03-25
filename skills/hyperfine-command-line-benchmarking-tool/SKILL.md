@@ -3,7 +3,7 @@ name: "Hyperfine Command-Line Benchmarking Tool"
 description: "Benchmark command-line programs with statistical rigor using Hyperfine. Performs warmup runs, detects outliers, exports results in JSON/CSV/Markdown, and supports parameterized benchmarks for comparis"
 category: "Developer Tools"
 framework: "Claude Code"
-verification: verified_metadata
+verification: listed
 rating: 0
 reviews: 0
 creator: ""

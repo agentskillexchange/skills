@@ -3,7 +3,7 @@ name: "Conftest Policy Tester"
 description: "Tests configuration files (Kubernetes manifests, Terraform, Dockerfiles, Helm charts) against OPA Rego policies using Conftest. Integrates into CI/CD to prevent policy violations from reaching production."
 category: "Security & Verification"
 framework: "Custom Agents"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

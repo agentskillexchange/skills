@@ -3,7 +3,7 @@ name: "dbt Cloud MCP"
 description: "Connect AI agents directly to dbt Cloud via the Model Context Protocol, enabling natural-language querying of dbt models, lineage graphs, and job run status. Trigger dbt job runs, inspect model documentation, and retrieve compiled SQL from within any MCP-compatible agent workflow."
 category: "Data Extraction & Transformation"
 framework: "MCP-compatible"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

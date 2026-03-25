@@ -3,7 +3,7 @@ name: "MySQL Query Agent"
 description: "AI agent skill for querying, analyzing, and managing MySQL databases. Supports query generation, execution plan analysis, index recommendations, and schema inspection across MySQL 5.7+ and MariaDB."
 category: "Developer Tools"
 framework: "MCP-compatible"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

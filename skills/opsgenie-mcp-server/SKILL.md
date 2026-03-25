@@ -3,7 +3,7 @@ name: "OpsGenie MCP Server"
 description: "Use this skill when you need to list, acknowledge, or close OpsGenie alerts, check on-call rotations, or create incidents from your AI agent. It integrates OpsGenie’s alert management into agent workflows for faster incident response."
 category: "Monitoring & Alerts"
 framework: "MCP-compatible"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

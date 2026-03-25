@@ -3,7 +3,7 @@ name: "Open Policy Agent (OPA)"
 description: "Implements policy-as-code using Open Policy Agent and Rego language. Enforces admission control in Kubernetes, API authorization policies, and infrastructure compliance checks across cloud resources."
 category: "Security & Verification"
 framework: "Custom Agents"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

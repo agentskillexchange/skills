@@ -3,7 +3,7 @@ name: "Kubernetes Helm Chart Scaffold Builder"
 description: "Generates Helm v3 chart scaffolds with templated deployments, services, ingress rules, and values.yaml schemas. Validates charts against Helm lint and Kubeval for Kubernetes API version compatibility."
 category: "Templates & Workflows"
 framework: "MCP-compatible"
-verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+verification: security_reviewed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

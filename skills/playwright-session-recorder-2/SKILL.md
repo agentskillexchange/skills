@@ -3,7 +3,7 @@ name: "Playwright Session Recorder"
 description: "Records browser sessions using Playwright codegen and exports replayable test scripts. Captures network HAR files alongside DOM snapshots for full session fidelity."
 category: "Browser Automation"
 framework: "Claude Code"
-verification: verified_metadata  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

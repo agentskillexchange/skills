@@ -3,7 +3,7 @@ name: "Prometheus Rule Evaluator"
 description: "Validates and tests Prometheus alerting rules against historical metrics data using the Prometheus HTTP API /api/v1/query_range endpoint. Runs rule simulations with configurable time windows and threshold testing."
 category: "Monitoring & Alerts"
 framework: "Claude Agents"
-verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+verification: security_reviewed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

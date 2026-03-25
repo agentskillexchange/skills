@@ -3,7 +3,7 @@ name: "Supabase MCP Server"
 description: "MCP server for Supabase — query PostgreSQL tables, manage rows, invoke Edge Functions, interact with Storage buckets, and inspect Realtime subscriptions via AI agents without direct DB credentials."
 category: "Developer Tools"
 framework: "MCP-compatible"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

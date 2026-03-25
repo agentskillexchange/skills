@@ -3,7 +3,7 @@ name: "Salesforce MCP Server"
 description: "Use this skill when you need to query, create, or update Salesforce objects like leads, opportunities, accounts, and cases from your AI agent. It gives agents SOQL query access and DML operations against Salesforce orgs for CRM automation and sales process intelligence."
 category: "Integrations & Connectors"
 framework: "MCP-compatible"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

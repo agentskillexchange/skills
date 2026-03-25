@@ -3,7 +3,7 @@ name: "DALL-E Image Variation Pipeline"
 description: "Manages OpenAI DALL-E 3 API workflows for brand-consistent image generation with style references, aspect ratio control, and automated prompt refinement using GPT-4 Vision feedback loops."
 category: "Image & Creative Automation"
 framework: "Custom Agents"
-verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+verification: security_reviewed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

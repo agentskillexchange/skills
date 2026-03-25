@@ -3,7 +3,7 @@ name: "Apache Spark Job Manager"
 description: "Submit, monitor, and cancel Apache Spark jobs on YARN, Kubernetes, or Databricks runtimes through an AI agent interface. Retrieve application logs, executor metrics, and stage-level performance data to diagnose bottlenecks without accessing cluster UIs directly."
 category: "Data Extraction & Transformation"
 framework: "Custom Agents"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

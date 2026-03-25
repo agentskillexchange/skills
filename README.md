@@ -2,12 +2,12 @@
 
 # Agent Skill Exchange
 
-### Open catalog of AI agent skills with live trust and ecosystem signals
+### Open catalog of AI agent skills — real tools, real signals, security-scanned
 
-[![Skills](https://img.shields.io/badge/skills-1%2C288-6366f1?style=for-the-badge)](https://agentskillexchange.com/browse-skills/)
+[![Skills](https://img.shields.io/badge/skills-1%2C100%2B-6366f1?style=for-the-badge)](https://agentskillexchange.com/browse-skills/)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](https://github.com/agentskillexchange/skills/tree/main/categories)
 [![Frameworks](https://img.shields.io/badge/frameworks-11-8b5cf6?style=for-the-badge)](https://agentskillexchange.com/browse-skills/)
-[![Signal%20Coverage](https://img.shields.io/badge/signal_coverage-842-14b8a6?style=for-the-badge)](https://agentskillexchange.com/browse-skills/?sort=stars)
+[![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-1%2C100-10b981?style=for-the-badge)](https://agentskillexchange.com/browse-skills/?verification=security_reviewed)
 [![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)
 
 **[Browse Skills](https://agentskillexchange.com/browse-skills/) · [Categories](https://github.com/agentskillexchange/skills/tree/main/categories) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Create a Skill](https://agentskillexchange.com/create-skill/)**
@@ -43,8 +43,6 @@ clawhub install <slug>
 
 ## Start Here
 
-If you're new to the repo, use these entry points first:
-
 - **Browse by category:** [categories/](categories/)
 - **Top Starred:** [TOP-STARS.md](TOP-STARS.md)
 - **Top Downloaded:** [TOP-DOWNLOADS.md](TOP-DOWNLOADS.md)
@@ -58,15 +56,11 @@ If you're new to the repo, use these entry points first:
 |---|---|---|
 | ⭐ **Top Starred** | Skills with the strongest GitHub traction | [TOP-STARS.md](TOP-STARS.md) |
 | 🔥 **Top Downloaded** | Skills tied to widely-used npm ecosystems | [TOP-DOWNLOADS.md](TOP-DOWNLOADS.md) |
-| 🛡️ **Security Reviewed** | Highest trust tier in ASE | [verification/security_reviewed.md](verification/security_reviewed.md) |
-
-These are the repo-native equivalents of the strongest ASE homepage discovery sections.
+| 🛡️ **Security Reviewed** | Skills scanned for safety | [verification/security_reviewed.md](verification/security_reviewed.md) |
 
 ---
 
 ## Categories
-
-Categories are the best way to understand the shape of the catalog. For live sorting by stars, downloads, and verification, jump from a category into the ASE browse surface.
 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
@@ -96,41 +90,25 @@ Full listing: [CATALOG.md](CATALOG.md) · Browse by category: [categories/](cate
 
 | Metric | Count |
 |--------|------:|
-| Total skills | **1,312** |
+| Total skills | **1,149** |
 | Categories | **17** |
 | Frameworks | **11** |
-| Skills with live signal data | **842** |
 
-### Trust tiers (cumulative)
+### Trust & Safety
+
+Every skill in this catalog is backed by a real tool, repo, or package. Skills go through a discovery pipeline that requires real provenance before listing.
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 Listed | **1,312** | All published skills |
-| ✅ Verified | **960** | Metadata + technical references checked |
-| 🛡️ Security Reviewed | **950** | Scanned for malicious patterns — highest trust |
-
-> Trust increases from Listed → Verified → Security Reviewed. Each tier includes all checks from the tiers below it.
-
----
-
-## Verification Tiers
-
-ASE uses these exact verification values:
-
-| Tier | What it means |
-|------|---|
-| 📋 Listed | Published in the catalog with basic format validation — every skill starts here |
-| ✅ Verified | Metadata, install commands, and technical references checked |
-| 🛡️ Security Reviewed | Scanned for malicious patterns, prompt injection, and unsafe instructions — highest trust |
-
-More: [verification/README.md](verification/README.md)
+| 📋 **Listed** | **1,149** | Published in the catalog — backed by a real tool or project |
+| 🛡️ **Security Reviewed** | **1,100** | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 ---
 
 ## Browse by Signal
 
-- [TOP-STARS.md](TOP-STARS.md) — highest GitHub stars where ASE has a matched source
-- [TOP-DOWNLOADS.md](TOP-DOWNLOADS.md) — highest npm weekly downloads where ASE has a matched package
+- [TOP-STARS.md](TOP-STARS.md) — highest GitHub stars
+- [TOP-DOWNLOADS.md](TOP-DOWNLOADS.md) — highest npm weekly downloads
 - Live browse by stars: <https://agentskillexchange.com/browse-skills/?sort=stars>
 - Live browse by downloads: <https://agentskillexchange.com/browse-skills/?sort=downloads>
 
@@ -142,7 +120,6 @@ Skills are managed via [agentskillexchange.com](https://agentskillexchange.com/c
 
 - **[Submit a skill](https://agentskillexchange.com/create-skill/)** — publish your agent skill
 - **[Browse skills](https://agentskillexchange.com/browse-skills/)** — explore the full catalog
-- **[Verification](verification/README.md)** — learn how trust tiers work
 
 ---
 

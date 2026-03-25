@@ -3,7 +3,7 @@ name: "Playwright Visual Regression Tester"
 description: "Automates visual regression testing using the Playwright screenshot comparison API and pixelmatch diffing library. Captures baseline snapshots, detects pixel-level UI changes across viewport sizes, and generates HTML diff reports with threshold-based pass/fail results."
 category: "Browser Automation"
 framework: "OpenClaw"
-verification: verified_metadata  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

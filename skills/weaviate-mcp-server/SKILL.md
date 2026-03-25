@@ -3,7 +3,7 @@ name: "Weaviate MCP Server"
 description: "Use this skill to perform vector database operations in Weaviate, manage schemas, and run semantic and hybrid searches through MCP. It enables agents to leverage Weaviate’s multi-modal vector capabilities and GraphQL interface. Trigger when you need semantic search with structured filtering, multi-modal search, or open-source vector database operations."
 category: "Data Extraction & Transformation"
 framework: "MCP-compatible"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

@@ -3,7 +3,7 @@ name: "AWS S3 MCP Server"
 description: "Use this skill when you need to list, upload, download, or manage files in AWS S3 buckets from your AI agent. It enables agents to interact with S3 as a file store — reading config files, uploading artifacts, and checking bucket contents without direct AWS console access."
 category: "Developer Tools"
 framework: "MCP-compatible"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

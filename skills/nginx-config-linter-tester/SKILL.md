@@ -3,7 +3,7 @@ name: "Nginx Config Linter and Tester"
 description: "Validates nginx.conf files using the gixy static analyzer and crossplane parser library. Tests configuration for security misconfigs, HTTP header issues, and performs dry-run validation via nginx -t subprocess invocation."
 category: "Runbooks & Diagnostics"
 framework: "ChatGPT Agents"
-verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+verification: security_reviewed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

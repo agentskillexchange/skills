@@ -3,7 +3,7 @@ name: "Swagger / OpenAPI Validator"
 description: "Validates OpenAPI 2.0 and 3.x specifications for correctness, completeness, and best practices. Identifies broken references, missing response schemas, inconsistent auth definitions, and deprecated patterns."
 category: "Library & API Reference"
 framework: "Claude Code"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

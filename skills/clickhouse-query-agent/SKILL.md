@@ -3,7 +3,7 @@ name: "ClickHouse Query Agent"
 description: "Execute analytical SQL queries against ClickHouse clusters, inspect table schemas, and monitor query performance through an AI agent interface. Supports materialized view management and partition-level operations for high-volume time-series data."
 category: "Data Extraction & Transformation"
 framework: "Custom Agents"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

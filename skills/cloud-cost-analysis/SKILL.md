@@ -3,7 +3,7 @@ name: "Cloud Cost Analysis"
 description: "Use this skill when you need to analyze cloud spending across AWS, GCP, or Azure accounts and identify optimization opportunities. It queries cost and usage data, surfaces top spending services, highlights anomalies, and recommends rightsizing or reserved instance strategies."
 category: "Developer Tools"
 framework: "Claude Agents"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

@@ -3,7 +3,7 @@ name: "ElevenLabs Voiceover Generator for Long-Form Content"
 description: "Splits blog posts or scripts into optimal chunks under ElevenLabs character limits, synthesizes each chunk using the v2 Multilingual model, and stitches MP3 segments together with pydub. Supports custom voice cloning via stored Voice IDs with per-segment stability and similarity tuning. Final audio is uploaded to Cloudflare R2 and a signed URL is returned."
 category: "Media & Transcription"
 framework: "Claude Code"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

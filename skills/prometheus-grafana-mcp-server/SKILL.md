@@ -3,7 +3,7 @@ name: "Prometheus / Grafana MCP Server"
 description: "Use this skill when you need to query Prometheus metrics with PromQL, inspect Grafana dashboards, or check alerting rules via AI. It enables agents to fetch time-series data, investigate metric anomalies, and verify alert states without direct access to the monitoring stack."
 category: "Monitoring & Alerts"
 framework: "MCP-compatible"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

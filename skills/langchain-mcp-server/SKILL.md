@@ -3,7 +3,7 @@ name: "LangChain MCP Server"
 description: "Use this skill to build and execute LangChain chains, access LangChain’s agent tools ecosystem, and manage memory and conversation history through MCP. It enables agents to leverage LangChain’s extensive tool library and chain-building capabilities. Trigger when you need to compose multi-step AI workflows, use LangChain-specific tools, or manage conversation memory across sessions."
 category: "Developer Tools"
 framework: "MCP-compatible"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

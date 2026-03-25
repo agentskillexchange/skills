@@ -3,7 +3,7 @@ name: "Metrics Dashboard Builder"
 description: "Use this skill when you need to generate a metrics dashboard definition (Grafana JSON, Datadog dashboard, or CloudWatch) based on a description of what you want to monitor. It creates dashboard configs from natural language requirements, covering chart types, metric queries, and threshold lines."
 category: "Monitoring & Alerts"
 framework: "Claude Agents"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

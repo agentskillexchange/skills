@@ -3,7 +3,7 @@ name: "Elastic / Kibana MCP Server"
 description: "Use this skill when you need to query Elasticsearch indices, search logs in Kibana, or analyze data stored in the Elastic Stack via AI. It allows agents to run KQL or Lucene queries, retrieve log data, and investigate application events without direct Kibana access."
 category: "Monitoring & Alerts"
 framework: "MCP-compatible"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

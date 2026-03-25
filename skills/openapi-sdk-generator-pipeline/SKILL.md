@@ -3,7 +3,7 @@ name: "OpenAPI SDK Generator Pipeline"
 description: "Generates typed client SDKs from OpenAPI 3.x specifications using openapi-generator-cli. Produces TypeScript, Python, and Go clients with proper authentication interceptors and retry logic."
 category: "Library & API Reference"
 framework: "Custom Agents"
-verification: verified_metadata  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

@@ -3,7 +3,7 @@ name: "Redis MCP Server"
 description: "MCP server exposing Redis operations to AI agents — get/set/del, hash operations, list/set/sorted set commands, pub/sub, streams, and keyspace exploration. Supports Redis Cluster and Sentinel."
 category: "Developer Tools"
 framework: "MCP-compatible"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

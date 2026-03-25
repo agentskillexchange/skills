@@ -3,7 +3,7 @@ name: "Nginx Error Pattern Analyzer"
 description: "Analyzes Nginx error logs using GoAccess and custom regex parsers to identify recurring 502/503 patterns. Correlates upstream timeout errors with backend service health via Prometheus PromQL queries."
 category: "Runbooks & Diagnostics"
 framework: "Custom Agents"
-verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+verification: security_reviewed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

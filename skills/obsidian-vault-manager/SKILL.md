@@ -3,7 +3,7 @@ name: "Obsidian Vault Manager"
 description: "Manage Obsidian markdown vaults through the Obsidian Local REST API plugin, enabling AI agents to read, create, and update notes, search by content, and traverse backlinks programmatically. Supports daily note generation and template application."
 category: "Developer Tools"
 framework: "Custom Agents"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

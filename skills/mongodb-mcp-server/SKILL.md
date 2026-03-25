@@ -3,7 +3,7 @@ name: "MongoDB MCP Server"
 description: "MCP server for MongoDB that enables AI agents to query collections, manage documents, create indexes, run aggregation pipelines, and inspect schema metadata without writing MongoDB driver code."
 category: "Developer Tools"
 framework: "MCP-compatible"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

@@ -3,7 +3,7 @@ name: "Patent Landscape Analyzer"
 description: "Searches the USPTO PatentsView API and European Patent Office OPS (Open Patent Services) API for patent grants, applications, and family relationships. Generates technology landscape maps with IPC classification clustering."
 category: "Research & Scraping"
 framework: "OpenClaw"
-verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+verification: security_reviewed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

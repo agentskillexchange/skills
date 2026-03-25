@@ -3,7 +3,7 @@ name: "dbt Model Lineage Extractor"
 description: "Extracts and visualizes dbt model dependency lineage using the dbt Core manifest.json artifact API. Parses ref() and source() calls to build DAG representations via the dbt Cloud API v2."
 category: "Data Extraction & Transformation"
 framework: "Claude Code"
-verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+verification: security_reviewed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

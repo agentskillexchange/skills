@@ -3,7 +3,7 @@ name: "Jest Unit Test Scaffolder"
 description: "Generate Jest unit test files, mock factories, and test utilities from existing TypeScript or JavaScript source files through an AI agent. Supports snapshot testing setup, module mocking patterns, and coverage threshold configuration."
 category: "Code Quality & Review"
 framework: "Custom Agents"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

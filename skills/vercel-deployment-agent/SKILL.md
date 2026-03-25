@@ -3,7 +3,7 @@ name: "Vercel Deployment Agent"
 description: "Manage Vercel deployments, environment variables, and domain configurations through an AI agent using the Vercel CLI and REST API. Supports preview deployment promotion, edge config management, and deployment webhook configuration."
 category: "Templates & Workflows"
 framework: "Custom Agents"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

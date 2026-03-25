@@ -3,7 +3,7 @@ name: "CI Pipeline Generator Skill"
 description: "Use this skill to automatically generate CI/CD pipeline configurations for GitHub Actions, CircleCI, or GitLab CI based on project type, testing requirements, and deployment targets. It creates pipelines with build, test, lint, and deploy stages. Trigger when setting up CI for a new project or migrating between CI platforms."
 category: "Developer Tools"
 framework: "Custom Agents"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

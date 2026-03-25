@@ -3,7 +3,7 @@ name: "Datadog MCP Server"
 description: "Use this skill when you need to query Datadog metrics, search logs, inspect dashboards, or manage monitors and alerts via AI. It enables agents to perform observability tasks like investigating incidents, pulling metric data, and checking service health without leaving the AI interface."
 category: "Monitoring & Alerts"
 framework: "MCP-compatible"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

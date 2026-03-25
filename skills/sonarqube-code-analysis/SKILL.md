@@ -3,7 +3,7 @@ name: "SonarQube Code Analysis"
 description: "Use this skill when you need to trigger a SonarQube scan, retrieve quality gate results, or inspect code smell and vulnerability reports for a project. It interfaces with SonarQube’s Web API to surface technical debt, security hotspots, and coverage metrics in AI-readable form."
 category: "Developer Tools"
 framework: "Claude Code"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

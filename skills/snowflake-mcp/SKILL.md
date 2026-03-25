@@ -3,7 +3,7 @@ name: "Snowflake MCP"
 description: "Expose Snowflake databases, schemas, and query execution to AI agents via the Model Context Protocol, enabling natural-language SQL generation, query history inspection, and warehouse cost analysis. Supports role-based access control passthrough."
 category: "Data Extraction & Transformation"
 framework: "MCP-compatible"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

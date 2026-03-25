@@ -3,7 +3,7 @@ name: "Pod CrashLoop Runbook"
 description: "Kubernetes-specific runbook for diagnosing and resolving CrashLoopBackOff pod states. Systematic approach to identify root cause across configuration, resource limits, health checks, and application errors."
 category: "Runbooks & Diagnostics"
 framework: "Custom Agents"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

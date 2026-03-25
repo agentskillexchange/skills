@@ -3,7 +3,7 @@ name: "WordPress Content Optimizer"
 description: "Optimizes WordPress posts for SEO using the Yoast SEO REST API fields alongside WP REST API v2 for content updates. Analyzes readability via textstat Python library and generates meta descriptions with Claude API prompt chains."
 category: "Content Writing & SEO"
 framework: "Codex"
-verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+verification: security_reviewed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

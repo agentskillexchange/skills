@@ -3,7 +3,7 @@ name: "Playwright Test Recorder"
 description: "Record, generate, and optimize Playwright test scripts through an AI agent, including locator recommendations, page object model scaffolding, and visual comparison baseline creation. Supports multi-browser and multi-device configuration for comprehensive test coverage."
 category: "Code Quality & Review"
 framework: "Custom Agents"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

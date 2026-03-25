@@ -3,7 +3,7 @@ name: "LlamaIndex MCP Server"
 description: "Use this skill to index documents, build RAG (Retrieval-Augmented Generation) pipelines, and run semantic queries over large document corpora through MCP. It provides agents with powerful document understanding and retrieval capabilities. Trigger when you need to search over private documents, build knowledge bases, or answer questions from specific document sets."
 category: "Developer Tools"
 framework: "MCP-compatible"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

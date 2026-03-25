@@ -3,7 +3,7 @@ name: "Stripe MCP Server"
 description: "Use this skill when you need to query Stripe customers, charges, subscriptions, invoices, or payment intents from your AI agent. It enables agents to look up payment data, issue refunds, create payment links, and investigate failed charges without accessing the Stripe dashboard."
 category: "Integrations & Connectors"
 framework: "MCP-compatible"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

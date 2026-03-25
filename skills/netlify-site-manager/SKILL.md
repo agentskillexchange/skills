@@ -3,7 +3,7 @@ name: "Netlify Site Manager"
 description: "Deploy, configure, and manage Netlify sites, build hooks, redirects, and environment variables through an AI agent using the Netlify CLI and API. Supports split testing, form submissions management, and identity provider configuration."
 category: "Templates & Workflows"
 framework: "Custom Agents"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

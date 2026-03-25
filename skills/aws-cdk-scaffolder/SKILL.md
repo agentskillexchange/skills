@@ -3,7 +3,7 @@ name: "AWS CDK Scaffolder"
 description: "Generate AWS CDK stack definitions, construct libraries, and deployment pipelines through an AI agent. Supports TypeScript, Python, and Java CDK apps with opinionated best practices for VPC, IAM, and observability construct patterns."
 category: "Templates & Workflows"
 framework: "Custom Agents"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

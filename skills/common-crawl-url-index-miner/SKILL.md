@@ -3,7 +3,7 @@ name: "Common Crawl URL Index Miner"
 description: "Queries the Common Crawl Index API and CC-MAIN collections to surface historical URL coverage, MIME types, and crawl snapshots at scale. Handy for research workflows that need broad web recall without building a full crawler from scratch."
 category: "Research & Scraping"
 framework: "MCP-compatible"
-verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+verification: security_reviewed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

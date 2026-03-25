@@ -3,7 +3,7 @@ name: "Discord Bot Manager"
 description: "Create, deploy, and manage Discord bots including slash command registration, event handler setup, and webhook configuration through an AI agent. Supports discord.py and discord.js frameworks with automated permission scoping and OAuth2 bot invite link generation."
 category: "Calendar, Email & Productivity"
 framework: "Custom Agents"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

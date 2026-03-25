@@ -3,7 +3,7 @@ name: "WPGraphQL Schema Extension Builder"
 description: "Builds and documents WPGraphQL extensions with hooks such as `graphql_register_types`, `register_graphql_field`, and `register_graphql_object_type`. Ideal for exposing custom fields, computed properties, and relationships in a way that stays aligned with WordPress data models and client queries."
 category: "WordPress & CMS"
 framework: "Claude Code"
-verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+verification: security_reviewed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

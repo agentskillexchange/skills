@@ -3,7 +3,7 @@ name: "GraphQL Schema Explorer"
 description: "Introspects GraphQL endpoints to explore types, queries, mutations, and subscriptions. Generates documentation, type definitions, and sample queries. Helps understand unfamiliar GraphQL APIs quickly."
 category: "Library & API Reference"
 framework: "Claude Code"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

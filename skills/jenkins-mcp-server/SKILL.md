@@ -3,7 +3,7 @@ name: "Jenkins MCP Server"
 description: "Use this skill when you need to trigger Jenkins builds, check pipeline status, view build logs, or manage Jenkins jobs via an AI agent. Connect to your Jenkins instance to automate CI/CD workflows, monitor build health, and respond to build failures without leaving your AI interface."
 category: "Developer Tools"
 framework: "MCP-compatible"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

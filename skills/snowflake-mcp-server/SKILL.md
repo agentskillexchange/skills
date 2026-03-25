@@ -3,7 +3,7 @@ name: "Snowflake MCP Server"
 description: "Use this skill to query Snowflake data warehouses, inspect schemas, monitor job execution, and manage Snowflake resources through MCP. It enables agents to access enterprise data warehouse capabilities for analytics, reporting, and data pipeline management. Trigger when you need to run analytical queries, check data pipeline status, or interact with Snowflake programmatically."
 category: "Data Extraction & Transformation"
 framework: "MCP-compatible"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

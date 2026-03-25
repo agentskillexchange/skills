@@ -3,7 +3,7 @@ name: "Notion AI Document Summarizer & Action Item Extractor"
 description: "Uses the Notion SDK and Notion AI’s /v1/pages and /v1/blocks/children endpoints to retrieve page content and invoke AI-powered summarization. Extracted action items are appended as a structured database entry via databases.query and pages.create."
 category: "Calendar, Email & Productivity"
 framework: "Claude Code"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

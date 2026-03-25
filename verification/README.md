@@ -1,55 +1,44 @@
-# Verification Framework
+# Trust & Safety
 
-The Agent Skill Exchange uses a **3-tier verification system** to ensure skills are safe, accurate, and production-ready.
+Every skill in the Agent Skill Exchange is backed by a real tool, repo, or package. New skills go through a discovery pipeline that requires real provenance before listing.
 
-## Verification Tiers
+## How It Works
 
 ```
-📝 Listed                  Base marketplace listing
+📋 Listed                  Published — real tool, real provenance
      ↓
-✅ Verified Metadata       Frontmatter and metadata reviewed
-     ↓
-🛡️ Security Reviewed      Content scanned for malicious patterns
+🛡️ Security Reviewed      Scanned for safety — highest trust
 ```
 
-### 📝 Tier 1: Listed
+### 📋 Listed
 
-The skill has been published to the marketplace with a valid `SKILL.md` file.
+The skill is published in the catalog. To be listed, a skill must:
 
-- Valid YAML frontmatter with required fields
-- Non-empty content body
-- Assigned to a valid category and framework
-- Has a creator attribution
+- Be backed by a real tool, repo, or package
+- Have a valid `SKILL.md` with required frontmatter
+- Be assigned to a valid category and framework
+- Have substantive content (100+ words with technical references)
+- Pass deduplication checks against existing skills
 
-### ✅ Tier 2: Verified Metadata
+### 🛡️ Security Reviewed
 
-A reviewer has confirmed the skill's metadata is accurate and complete.
-
-- Category and framework assignments match the skill's actual purpose
-- Source links are valid and point to real pages
-- Install commands work for the specified frameworks
-- Naming is consistent with marketplace conventions
-- Description accurately reflects the skill's functionality
-
-### 🛡️ Tier 3: Security Reviewed
-
-The skill's content has been scanned for potentially malicious patterns.
+The skill's content has been scanned for potentially malicious patterns:
 
 - No prompt injection attempts
 - No data exfiltration patterns (unauthorized network calls)
-- No destructive commands (`rm -rf`, disk formatting, etc.)
-- No credential harvesting
+- No destructive commands (`rm -rf /`, disk formatting, etc.)
+- No credential harvesting instructions
 - No obfuscated or encoded payloads
+- No reverse shells or crypto mining
 
 ## Current Distribution
 
-| Tier | Skills | Percentage |
-|------|-------:|-----------:|
-| 🛡️ Security Reviewed | **810** | 51% |
-| ✅ Verified Metadata | **379** | 24% |
-| 📝 Listed | **391** | 25% |
+| Tier | Skills |
+|------|-------:|
+| 📋 Listed | **1,149** |
+| 🛡️ Security Reviewed | **1,100** |
 
-## Checking a Skill's Verification Status
+## Checking a Skill's Status
 
 Each skill's `SKILL.md` frontmatter includes a `verification` field:
 
@@ -62,14 +51,12 @@ verification: security_reviewed
 
 Valid values:
 
-| Value | Tier | Meaning |
-|-------|------|---------|
-| `listed` | 📝 Tier 1 | Published and indexed — basic format validation |
-| `verified_metadata` | ✅ Tier 2 | Frontmatter, links, and installs confirmed accurate |
-| `security_reviewed` | 🛡️ Tier 3 | Content scanned for malicious patterns — production safe |
+| Value | Meaning |
+|-------|---------|
+| `listed` | Published and indexed — backed by a real tool |
+| `security_reviewed` | Content scanned for malicious patterns — safe to use |
 
 ## More Information
 
-- [Verification Criteria](CRITERIA.md) — detailed requirements for each tier
 - [Security Patterns](SECURITY_PATTERNS.md) — patterns checked during security review
-- [Live Verified Skills](https://agentskillexchange.com/verified-skills/) — browse verified skills on the marketplace
+- [Browse Skills](https://agentskillexchange.com/browse-skills/) — explore the full catalog

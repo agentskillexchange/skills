@@ -3,7 +3,7 @@ name: "Figma Design Token Exporter"
 description: "Extracts design tokens from Figma files using the Figma REST API v1 and transforms them into platform-specific formats via Style Dictionary. Supports CSS custom properties, Tailwind config, and iOS/Android native tokens."
 category: "Image & Creative Automation"
 framework: "Claude Code"
-verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+verification: security_reviewed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

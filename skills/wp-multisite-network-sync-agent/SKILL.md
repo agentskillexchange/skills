@@ -3,7 +3,7 @@ name: "WP Multisite Network Sync Agent"
 description: "Synchronizes content, users, and plugin configurations across WordPress Multisite networks using the WP_Site_Query API and switch_to_blog(). Automates bulk site provisioning via wp_insert_site() with REST endpoint monitoring."
 category: "WordPress & CMS"
 framework: "OpenClaw"
-verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+verification: security_reviewed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

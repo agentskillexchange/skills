@@ -3,7 +3,7 @@ name: "Cron Job Manager"
 description: "Use this skill when you need to list, create, modify, or debug cron jobs on a system or in a cloud scheduler (AWS EventBridge, GCP Cloud Scheduler). It validates cron expressions, explains schedules in plain language, and checks job execution history for failures."
 category: "Templates & Workflows"
 framework: "Claude Code"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

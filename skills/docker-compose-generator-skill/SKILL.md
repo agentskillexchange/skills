@@ -3,7 +3,7 @@ name: "Docker Compose Generator Skill"
 description: "Use this skill to generate docker-compose.yml files with proper service definitions, networking, volumes, and environment configuration based on the application services and dependencies. It creates production-ready compose files with health checks, restart policies, and resource limits. Trigger when containerizing a multi-service application or needing a local development compose setup."
 category: "Developer Tools"
 framework: "Custom Agents"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

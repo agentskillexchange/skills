@@ -3,7 +3,7 @@ name: "Twilio MCP Server"
 description: "Use this skill when you need to send SMS/MMS messages, make calls, or query Twilio logs from your AI agent. It lets agents trigger communication workflows — sending notifications, verifying phone numbers, and checking message delivery status through Twilio’s APIs."
 category: "Integrations & Connectors"
 framework: "MCP-compatible"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

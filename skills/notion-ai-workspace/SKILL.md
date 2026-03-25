@@ -3,7 +3,7 @@ name: "Notion AI Workspace"
 description: "Leverage Notion AI capabilities alongside the Notion API through an AI agent to generate content, summarize pages, and create structured database records from unstructured input. Supports automated knowledge base population and meeting notes processing workflows."
 category: "Calendar, Email & Productivity"
 framework: "Custom Agents"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

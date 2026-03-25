@@ -3,7 +3,7 @@ name: "Nginx Error Log Analyzer"
 description: "Parses and diagnoses Nginx error logs and access logs using pattern matching against known error signatures. Integrates with the Nginx Plus REST API /api/8/ endpoints for real-time upstream health, connection metrics, and SSL certificate expiration monitoring."
 category: "Runbooks & Diagnostics"
 framework: "ChatGPT Agents"
-verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+verification: security_reviewed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

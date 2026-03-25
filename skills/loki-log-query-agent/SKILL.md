@@ -3,7 +3,7 @@ name: "Loki Log Query Agent"
 description: "AI agent skill for Grafana Loki — generates LogQL queries, explores log streams, creates log-based alerting rules, and correlates logs with Prometheus metrics for full-stack observability."
 category: "Monitoring & Alerts"
 framework: "MCP-compatible"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

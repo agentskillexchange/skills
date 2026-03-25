@@ -3,7 +3,7 @@ name: "PostgreSQL MCP Server"
 description: "Agent access to PostgreSQL data and queries through MCP."
 category: "Data Extraction & Transformation"
 framework: "Claude Code"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

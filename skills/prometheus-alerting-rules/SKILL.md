@@ -3,7 +3,7 @@ name: "Prometheus Alerting Rules"
 description: "Generates, validates, and manages Prometheus alerting rules and recording rules. Creates well-structured alert files with appropriate severity levels, annotations, labels, and runbook links for common infrastructure and application metrics."
 category: "Monitoring & Alerts"
 framework: "MCP-compatible"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

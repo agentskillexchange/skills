@@ -3,7 +3,7 @@ name: "Stripe Reporting Agent"
 description: "AI agent skill for Stripe — query charges, subscriptions, invoices, refunds, and payment intents. Generates revenue reports, churn analysis, MRR calculations, and dispute summaries without leaving your workflow."
 category: "Integrations & Connectors"
 framework: "Custom Agents"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

@@ -3,7 +3,7 @@ name: "Terraform Module Scaffolder"
 description: "Scaffolds Terraform modules using the HCL SDK with provider schema introspection and automatic variable extraction. Generates documentation via terraform-docs API, validates with tflint rules, and publishes to Terraform Registry via API."
 category: "Developer Tools"
 framework: "Custom Agents"
-verification: security_reviewed  # one of: security_reviewed, verified_metadata, listed
+verification: security_reviewed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

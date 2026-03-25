@@ -3,7 +3,7 @@ name: "Checkov IaC Scanner"
 description: "Scans Terraform, CloudFormation, Kubernetes manifests, ARM templates, and Dockerfiles for security misconfigurations and compliance violations. Maps findings to CIS benchmarks and SOC2 controls."
 category: "Security & Verification"
 framework: "Custom Agents"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

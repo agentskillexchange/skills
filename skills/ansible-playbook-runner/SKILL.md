@@ -3,7 +3,7 @@ name: "Ansible Playbook Runner"
 description: "Execute and manage Ansible playbooks, inventories, and roles through an AI agent interface. Supports dynamic inventory generation, vault secret decryption, and playbook dry-run mode for safe infrastructure automation across SSH-accessible hosts."
 category: "Templates & Workflows"
 framework: "Custom Agents"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

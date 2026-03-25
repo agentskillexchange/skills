@@ -3,7 +3,7 @@ name: "Railway App Deployer"
 description: "Deploy and manage Railway applications, services, and databases through the Railway CLI and GraphQL API. Enables AI agents to create projects, link GitHub repos, manage environment variables, and monitor deployment status and logs."
 category: "Templates & Workflows"
 framework: "Custom Agents"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

@@ -3,7 +3,7 @@ name: "Kubernetes MCP Server"
 description: "Use this skill when you need to inspect Kubernetes cluster state, list pods, check deployment status, view logs, or apply manifest changes from your AI agent. It gives agents kubectl-like capabilities to manage workloads and diagnose cluster issues without direct cluster access."
 category: "Developer Tools"
 framework: "MCP-compatible"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

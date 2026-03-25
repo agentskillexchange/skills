@@ -3,7 +3,7 @@ name: "Falco Runtime Security"
 description: "Deploys and manages Falco rules for kernel-level runtime security monitoring in Kubernetes. Detects anomalous behavior, privilege escalations, unexpected network connections, and file system access violations."
 category: "Security & Verification"
 framework: "Custom Agents"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

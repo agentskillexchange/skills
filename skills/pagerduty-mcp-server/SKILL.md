@@ -3,7 +3,7 @@ name: "PagerDuty MCP Server"
 description: "Use this skill when you need to acknowledge, resolve, or escalate PagerDuty incidents, list on-call schedules, or create new incidents from your AI agent. It lets agents participate in incident response workflows directly through PagerDuty’s API."
 category: "Monitoring & Alerts"
 framework: "MCP-compatible"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

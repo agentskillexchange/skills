@@ -3,7 +3,7 @@ name: "Elasticsearch MCP"
 description: "Query Elasticsearch indices, manage index mappings, and run aggregation pipelines through an AI agent via MCP. Supports natural-language search query generation, index health monitoring, and snapshot lifecycle management."
 category: "Data Extraction & Transformation"
 framework: "MCP-compatible"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

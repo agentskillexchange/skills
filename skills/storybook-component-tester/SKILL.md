@@ -3,7 +3,7 @@ name: "Storybook Component Tester"
 description: "Generate Storybook stories, interaction tests, and accessibility checks for UI components through an AI agent. Automates story creation from component prop types, configures Storybook Test Runner for CI, and integrates with Chromatic for visual regression testing."
 category: "Code Quality & Review"
 framework: "Custom Agents"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

@@ -3,7 +3,7 @@ name: "TruffleHog Credential Leak Scanner"
 description: "Find, verify, and analyze leaked credentials across Git repositories, Slack, Jira, Docker images, and more using TruffleHog. Classifies 800+ secret types and validates whether discovered credentials a"
 category: "Security &amp; Verification"
 framework: "Claude Code"
-verification: verified_metadata
+verification: listed
 rating: 0
 reviews: 0
 creator: ""

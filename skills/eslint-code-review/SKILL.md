@@ -3,7 +3,7 @@ name: "ESLint Code Review"
 description: "Use this skill when you need to run ESLint analysis on JavaScript or TypeScript code and get structured lint results with fix suggestions. It runs ESLint with your project config, parses the output, and presents actionable findings grouped by severity and rule."
 category: "Developer Tools"
 framework: "Claude Code"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

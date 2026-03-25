@@ -3,7 +3,7 @@ name: "Terrascan Policy Scanner"
 description: "Tenable Terrascan scans Terraform, Kubernetes, Helm, and CloudFormation for security vulnerabilities and compliance violations. Maps findings to NIST, CIS, and GDPR controls with fix guidance."
 category: "Security & Verification"
 framework: "Custom Agents"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

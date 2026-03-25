@@ -3,7 +3,7 @@ name: "Kubernetes Troubleshooting Runbook"
 description: "Use this skill to systematically diagnose and resolve Kubernetes issues including pod failures, CrashLoopBackOff errors, OOMKills, and resource constraints. It guides agents through kubectl commands and diagnostic steps to identify root causes. Trigger when Kubernetes workloads are failing, pods are restarting, or cluster resources are being exhausted."
 category: "Monitoring & Alerts"
 framework: "Custom Agents"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

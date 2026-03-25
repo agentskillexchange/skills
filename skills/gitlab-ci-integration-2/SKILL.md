@@ -3,7 +3,7 @@ name: "GitLab CI Integration"
 description: "Comprehensive skill for building, optimizing, and debugging GitLab CI/CD pipelines. Covers .gitlab-ci.yml authoring, caching strategies, parallel jobs, artifacts, environments, and GitLab-specific runner configuration."
 category: "CI/CD Integrations"
 framework: "Claude Code"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

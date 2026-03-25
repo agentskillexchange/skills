@@ -3,7 +3,7 @@ name: "Queue Backup Runbook"
 description: "Runbook for resolving message queue backup incidents. Covers consumer lag diagnosis, poison pill message handling, dead letter queue analysis, and throughput restoration for SQS, Kafka, RabbitMQ, and similar systems."
 category: "Runbooks & Diagnostics"
 framework: "Custom Agents"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none

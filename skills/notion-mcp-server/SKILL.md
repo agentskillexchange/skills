@@ -3,7 +3,7 @@ name: "Notion MCP Server"
 description: "Use this skill when you need to read or write Notion pages, create database entries, search across a workspace, or update properties from your AI agent. It connects agents to Notion as a knowledge base and project management system for seamless information retrieval and creation."
 category: "Calendar, Email & Productivity"
 framework: "MCP-compatible"
-verification: listed  # one of: security_reviewed, verified_metadata, listed
+verification: listed  # security_reviewed or listed
 rating: 0  # real rating only, 0 if none
 reviews: 0  # real reviews only, 0 if none
 creator: ""  # real creator only, empty if none
