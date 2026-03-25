@@ -10,7 +10,7 @@
 [![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-1%2C100-10b981?style=for-the-badge)](https://agentskillexchange.com/browse-skills/?verification=security_reviewed)
 [![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)
 
-**[Browse Skills](https://agentskillexchange.com/browse-skills/) · [Categories](https://github.com/agentskillexchange/skills/tree/main/categories) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Create a Skill](https://agentskillexchange.com/create-skill/)**
+**[Browse Skills](https://agentskillexchange.com/browse-skills/) · [Categories](https://github.com/agentskillexchange/skills/tree/main/categories) · [Create a Skill](https://agentskillexchange.com/create-skill/)**
 
 *Updated hourly · Real ecosystem signals · Multi-framework*
 
@@ -44,19 +44,10 @@ clawhub install <slug>
 ## Start Here
 
 - **Browse by category:** [categories/](categories/)
-- **Top Starred:** [TOP-STARS.md](TOP-STARS.md)
-- **Top Downloaded:** [TOP-DOWNLOADS.md](TOP-DOWNLOADS.md)
-- **Live marketplace browse:** <https://agentskillexchange.com/browse-skills/>
-
----
-
-## Featured Paths
-
-| Section | Best for | Link |
-|---|---|---|
-| ⭐ **Top Starred** | Skills with the strongest GitHub traction | [TOP-STARS.md](TOP-STARS.md) |
-| 🔥 **Top Downloaded** | Skills tied to widely-used npm ecosystems | [TOP-DOWNLOADS.md](TOP-DOWNLOADS.md) |
-| 🛡️ **Security Reviewed** | Skills scanned for safety | [verification/security_reviewed.md](verification/security_reviewed.md) |
+- **Top starred:** <https://agentskillexchange.com/browse-skills/?sort=stars>
+- **Top downloaded:** <https://agentskillexchange.com/browse-skills/?sort=downloads>
+- **Security reviewed:** <https://agentskillexchange.com/browse-skills/?verification=security_reviewed>
+- **Full catalog:** [CATALOG.md](CATALOG.md)
 
 ---
 
@@ -82,7 +73,7 @@ clawhub install <slug>
 | 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | **40** | Third-party API bridges, webhooks, service connectors |
 | 📰 | [**WordPress & CMS**](categories/wordpress-cms/) | **28** | Theme/plugin dev, WP-CLI automation, CMS management |
 
-Full listing: [CATALOG.md](CATALOG.md) · Browse by category: [categories/](categories/) · Live browse: <https://agentskillexchange.com/browse-skills/>
+Browse by category: [categories/](categories/) · Full listing: [CATALOG.md](CATALOG.md) · Live browse: <https://agentskillexchange.com/browse-skills/>
 
 ---
 
@@ -103,14 +94,15 @@ Every skill in this catalog is backed by a real tool, repo, or package. Skills g
 | 📋 **Listed** | **1,149** | Published in the catalog — backed by a real tool or project |
 | 🛡️ **Security Reviewed** | **1,100** | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
+More: [verification/](verification/) — how trust & safety works
+
 ---
 
 ## Browse by Signal
 
-- [TOP-STARS.md](TOP-STARS.md) — highest GitHub stars
-- [TOP-DOWNLOADS.md](TOP-DOWNLOADS.md) — highest npm weekly downloads
-- Live browse by stars: <https://agentskillexchange.com/browse-skills/?sort=stars>
-- Live browse by downloads: <https://agentskillexchange.com/browse-skills/?sort=downloads>
+- By stars: <https://agentskillexchange.com/browse-skills/?sort=stars>
+- By downloads: <https://agentskillexchange.com/browse-skills/?sort=downloads>
+- Security reviewed only: <https://agentskillexchange.com/browse-skills/?verification=security_reviewed>
 
 ---
 
