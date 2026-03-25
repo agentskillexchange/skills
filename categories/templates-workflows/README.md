@@ -10,7 +10,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 
 - **Top Starred:** 6 visible with GitHub signal data
 - **Top Downloaded:** 6 visible with npm signal data
-- **Security Reviewed:** 45 skills
+- **Security Reviewed:** 60 skills
 
 ---
 
@@ -20,10 +20,10 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 |---|---|---:|---|
 | [Plop.js Code Generator](../../skills/plopjs-code-generator/) | Security Reviewed | ⭐ 244.1k | `clawhub install plopjs-code-generator` |
 | [Argo Workflows DAG Pipeline Builder](../../skills/argo-workflows-dag-pipeline-builder/) | Security Reviewed | ⭐ 121.3k | `clawhub install argo-workflows-dag-pipeline-builder` |
-| [DigitalOcean Droplet Manager](../../skills/digitalocean-droplet-manager/) | Listed | ⭐ 121.3k | `clawhub install digitalocean-droplet-manager` |
+| [DigitalOcean Droplet Manager](../../skills/digitalocean-droplet-manager/) | Security Reviewed | ⭐ 121.3k | `clawhub install digitalocean-droplet-manager` |
 | [Jinja2 Infrastructure Template Engine](../../skills/jinja2-infrastructure-template-engine/) | Security Reviewed | ⭐ 121.3k | `clawhub install jinja2-infrastructure-template-engine` |
 | [Nx Workspace Generator Toolkit](../../skills/nx-workspace-generator-toolkit/) | Security Reviewed | ⭐ 84.9k | `clawhub install nx-workspace-generator-toolkit` |
-| [Twitter/X Trend Monitor &#038; Thread Publisher](../../skills/twitter-x-trend-monitor-thread-publisher/) | Listed | ⭐ 73.5k | `clawhub install twitter-x-trend-monitor-thread-publisher` |
+| [Twitter/X Trend Monitor &amp; Thread Publisher](../../skills/twitter-x-trend-monitor-thread-publisher/) | Security Reviewed | ⭐ 73.5k | `clawhub install twitter-x-trend-monitor-thread-publisher` |
 
 ---
 
@@ -33,7 +33,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 |---|---|---:|---|
 | [Plop.js Code Generator](../../skills/plopjs-code-generator/) | Security Reviewed | ⬇ 104.8M/wk | `clawhub install plopjs-code-generator` |
 | [Nx Workspace Generator Toolkit](../../skills/nx-workspace-generator-toolkit/) | Security Reviewed | ⬇ 39.8M/wk | `clawhub install nx-workspace-generator-toolkit` |
-| [Twitter/X Trend Monitor &#038; Thread Publisher](../../skills/twitter-x-trend-monitor-thread-publisher/) | Listed | ⬇ 8.2M/wk | `clawhub install twitter-x-trend-monitor-thread-publisher` |
+| [Twitter/X Trend Monitor &amp; Thread Publisher](../../skills/twitter-x-trend-monitor-thread-publisher/) | Security Reviewed | ⬇ 8.2M/wk | `clawhub install twitter-x-trend-monitor-thread-publisher` |
 | [Ansible Playbook Template Library](../../skills/ansible-playbook-template-library/) | Security Reviewed | ⬇ 9.2M/wk | `clawhub install ansible-playbook-template-library` |
 | [Swagger Codegen Orchestrator](../../skills/swagger-codegen-orchestrator/) | Security Reviewed | ⬇ 3.2M/wk | `clawhub install swagger-codegen-orchestrator` |
 | [Yeoman Enterprise Generator Suite](../../skills/yeoman-enterprise-generator-suite/) | Security Reviewed | ⬇ 109M/wk | `clawhub install yeoman-enterprise-generator-suite` |
@@ -46,10 +46,10 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 |---|---|---:|---|
 | [Plop.js Code Generator](../../skills/plopjs-code-generator/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install plopjs-code-generator` |
 | [Argo Workflows DAG Pipeline Builder](../../skills/argo-workflows-dag-pipeline-builder/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install argo-workflows-dag-pipeline-builder` |
+| [DigitalOcean Droplet Manager](../../skills/digitalocean-droplet-manager/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install digitalocean-droplet-manager` |
 | [Jinja2 Infrastructure Template Engine](../../skills/jinja2-infrastructure-template-engine/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install jinja2-infrastructure-template-engine` |
 | [Nx Workspace Generator Toolkit](../../skills/nx-workspace-generator-toolkit/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install nx-workspace-generator-toolkit` |
-| [Cookiecutter Project Scaffold Generator](../../skills/cookiecutter-project-scaffold-generator/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install cookiecutter-project-scaffold-generator` |
-| [Cookiecutter Project Scaffolding Agent](../../skills/cookiecutter-project-scaffolding-agent/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install cookiecutter-project-scaffolding-agent` |
+| [Twitter/X Trend Monitor &amp; Thread Publisher](../../skills/twitter-x-trend-monitor-thread-publisher/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install twitter-x-trend-monitor-thread-publisher` |
 
 ---
 
@@ -59,21 +59,21 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 |---|---|---:|---:|---|
 | [Plop.js Code Generator](../../skills/plopjs-code-generator/) | Security Reviewed | 244.1k | 104.8M/wk | `clawhub install plopjs-code-generator` |
 | [Argo Workflows DAG Pipeline Builder](../../skills/argo-workflows-dag-pipeline-builder/) | Security Reviewed | 121.3k | — | `clawhub install argo-workflows-dag-pipeline-builder` |
-| [DigitalOcean Droplet Manager](../../skills/digitalocean-droplet-manager/) | Listed | 121.3k | — | `clawhub install digitalocean-droplet-manager` |
+| [DigitalOcean Droplet Manager](../../skills/digitalocean-droplet-manager/) | Security Reviewed | 121.3k | — | `clawhub install digitalocean-droplet-manager` |
 | [Jinja2 Infrastructure Template Engine](../../skills/jinja2-infrastructure-template-engine/) | Security Reviewed | 121.3k | — | `clawhub install jinja2-infrastructure-template-engine` |
 | [Nx Workspace Generator Toolkit](../../skills/nx-workspace-generator-toolkit/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install nx-workspace-generator-toolkit` |
-| [Twitter/X Trend Monitor &#038; Thread Publisher](../../skills/twitter-x-trend-monitor-thread-publisher/) | Listed | 73.5k | 8.2M/wk | `clawhub install twitter-x-trend-monitor-thread-publisher` |
+| [Twitter/X Trend Monitor &amp; Thread Publisher](../../skills/twitter-x-trend-monitor-thread-publisher/) | Security Reviewed | 73.5k | 8.2M/wk | `clawhub install twitter-x-trend-monitor-thread-publisher` |
 | [Cookiecutter Project Scaffold Generator](../../skills/cookiecutter-project-scaffold-generator/) | Security Reviewed | 71.6k | — | `clawhub install cookiecutter-project-scaffold-generator` |
 | [Cookiecutter Project Scaffolding Agent](../../skills/cookiecutter-project-scaffolding-agent/) | Security Reviewed | 71.6k | — | `clawhub install cookiecutter-project-scaffolding-agent` |
 | [Docker Compose Service Blueprint Creator](../../skills/docker-compose-service-blueprint-creator/) | Security Reviewed | 71.6k | — | `clawhub install docker-compose-service-blueprint-creator` |
 | [Docker Compose Test Harness](../../skills/docker-compose-test-harness/) | Security Reviewed | 71.6k | — | `clawhub install docker-compose-test-harness` |
 | [Makefile Workflow Generator](../../skills/makefile-workflow-generator/) | Security Reviewed | 71.6k | — | `clawhub install makefile-workflow-generator` |
-| [Packer Image Builder](../../skills/packer-image-builder/) | Listed | 71.6k | — | `clawhub install packer-image-builder` |
+| [Packer Image Builder](../../skills/packer-image-builder/) | Security Reviewed | 71.6k | — | `clawhub install packer-image-builder` |
 | [Ansible Playbook Template Library](../../skills/ansible-playbook-template-library/) | Security Reviewed | 68.4k | 9.2M/wk | `clawhub install ansible-playbook-template-library` |
 | [Ansible Playbook Linter](../../skills/ansible-playbook-linter-2/) | Security Reviewed | 68.4k | — | `clawhub install ansible-playbook-linter-2` |
-| [Ansible Playbook Runner](../../skills/ansible-playbook-runner/) | Listed | 68.4k | — | `clawhub install ansible-playbook-runner` |
+| [Ansible Playbook Runner](../../skills/ansible-playbook-runner/) | Security Reviewed | 68.4k | — | `clawhub install ansible-playbook-runner` |
 | [Ansible Playbook Template Generator](../../skills/ansible-playbook-template-generator/) | Security Reviewed | 68.4k | — | `clawhub install ansible-playbook-template-generator` |
-| [Terraform Module Registry](../../skills/terraform-module-registry/) | Listed | 48k | — | `clawhub install terraform-module-registry` |
+| [Terraform Module Registry](../../skills/terraform-module-registry/) | Security Reviewed | 48k | — | `clawhub install terraform-module-registry` |
 | [Terraform Module Registry Browser](../../skills/terraform-module-registry-browser/) | Security Reviewed | 48k | — | `clawhub install terraform-module-registry-browser` |
 | [Terraform Module Scaffold Generator](../../skills/terraform-module-scaffold-generator/) | Security Reviewed | 48k | — | `clawhub install terraform-module-scaffold-generator` |
 | [Terraform Module Template Engine](../../skills/terraform-module-template-engine/) | Security Reviewed | 48k | — | `clawhub install terraform-module-template-engine` |
@@ -89,18 +89,18 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Backstage Software Catalog Sync](../../skills/backstage-software-catalog-sync/) | Security Reviewed | 24.3k | — | `clawhub install backstage-software-catalog-sync` |
 | [Cookiecutter Project Bootstrap](../../skills/cookiecutter-project-bootstrap/) | Security Reviewed | 24.3k | — | `clawhub install cookiecutter-project-bootstrap` |
 | [Cookiecutter Project Builder](../../skills/cookiecutter-project-builder/) | Security Reviewed | 24.3k | — | `clawhub install cookiecutter-project-builder` |
-| [Fly.io Deployment Helper](../../skills/fly-io-deployment-helper/) | Listed | 20.3k | 32M/wk | `clawhub install fly-io-deployment-helper` |
-| [Railway App Deployer](../../skills/railway-app-deployer/) | Listed | 20.3k | 32M/wk | `clawhub install railway-app-deployer` |
-| [Vercel Deployment Agent](../../skills/vercel-deployment-agent/) | Listed | 15.1k | 2.1M/wk | `clawhub install vercel-deployment-agent` |
-| [Semgrep Custom Rule Runner](../../skills/semgrep-custom-rule-runner-2/) | Listed | 14.5k | — | `clawhub install semgrep-custom-rule-runner-2` |
-| [SonarQube Gate Checker](../../skills/sonarqube-gate-checker-2/) | Listed | 10.4k | — | `clawhub install sonarqube-gate-checker-2` |
+| [Fly.io Deployment Helper](../../skills/fly-io-deployment-helper/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install fly-io-deployment-helper` |
+| [Railway App Deployer](../../skills/railway-app-deployer/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install railway-app-deployer` |
+| [Vercel Deployment Agent](../../skills/vercel-deployment-agent/) | Security Reviewed | 15.1k | 2.1M/wk | `clawhub install vercel-deployment-agent` |
+| [Semgrep Custom Rule Runner](../../skills/semgrep-custom-rule-runner-2/) | Security Reviewed | 14.5k | — | `clawhub install semgrep-custom-rule-runner-2` |
+| [SonarQube Gate Checker](../../skills/sonarqube-gate-checker-2/) | Verified Metadata | 10.4k | — | `clawhub install sonarqube-gate-checker-2` |
 | [Incident Response Template Generator](../../skills/incident-response-template-generator/) | Security Reviewed | 5.6k | 1.1M/wk | `clawhub install incident-response-template-generator` |
-| [Notion to PDF Knowledge Exporter](../../skills/notion-to-pdf-knowledge-exporter/) | Listed | 5.6k | 1.1M/wk | `clawhub install notion-to-pdf-knowledge-exporter` |
-| [Bubble.io Stripe Subscription Portal Builder](../../skills/bubble-stripe-subscription-portal/) | Listed | 4.4k | 8.4M/wk | `clawhub install bubble-stripe-subscription-portal` |
-| [AWS CDK Scaffolder](../../skills/aws-cdk-scaffolder/) | Listed | 3.6k | 9.2M/wk | `clawhub install aws-cdk-scaffolder` |
-| [Cron Job Manager](../../skills/cron-job-manager/) | Listed | 3.6k | 9.2M/wk | `clawhub install cron-job-manager` |
-| [Cloudflare Workers Deployer](../../skills/cloudflare-workers-deployer/) | Listed | 1.9k | 1M/wk | `clawhub install cloudflare-workers-deployer` |
-| [Netlify Site Manager](../../skills/netlify-site-manager/) | Listed | 1.8k | 383.7k/wk | `clawhub install netlify-site-manager` |
+| [Notion to PDF Knowledge Exporter](../../skills/notion-to-pdf-knowledge-exporter/) | Security Reviewed | 5.6k | 1.1M/wk | `clawhub install notion-to-pdf-knowledge-exporter` |
+| [Bubble.io Stripe Subscription Portal Builder](../../skills/bubble-stripe-subscription-portal/) | Security Reviewed | 4.4k | 8.4M/wk | `clawhub install bubble-stripe-subscription-portal` |
+| [AWS CDK Scaffolder](../../skills/aws-cdk-scaffolder/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-cdk-scaffolder` |
+| [Cron Job Manager](../../skills/cron-job-manager/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install cron-job-manager` |
+| [Cloudflare Workers Deployer](../../skills/cloudflare-workers-deployer/) | Security Reviewed | 1.9k | 1M/wk | `clawhub install cloudflare-workers-deployer` |
+| [Netlify Site Manager](../../skills/netlify-site-manager/) | Security Reviewed | 1.8k | 383.7k/wk | `clawhub install netlify-site-manager` |
 | [Backstage Software Template Composer](../../skills/backstage-software-template-composer/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install backstage-software-template-composer` |
 | [Argo Workflows DAG Optimizer](../../skills/argo-workflows-dag-optimizer/) | Security Reviewed | — | — | `clawhub install argo-workflows-dag-optimizer` |
 | [Cookiecutter Project Bootstrapper](../../skills/cookiecutter-project-bootstrapper/) | Security Reviewed | — | — | `clawhub install cookiecutter-project-bootstrapper` |
@@ -143,7 +143,7 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (137 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
 - 📚 [Library & API Reference](../library-api-reference/) (89 skills)
-- 🔒 [Security & Verification](../security-verification/) (84 skills)
+- 🔒 [Security & Verification](../security-verification/) (86 skills)
 
 ---
 

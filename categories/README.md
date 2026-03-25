@@ -2,18 +2,18 @@
 
 Categories are the **top-level map** of the catalog. For live sorting by stars, downloads, and verification, jump into ASE Browse from any category.
 
-> **1137 skills** across **20 categories**
+> **1143 skills** across **20 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
 | 🔧 | [**CI/CD Integrations**](ci-cd-integrations/) | **137** | Pipeline configs, deployment automation, build tooling, and continuou... |
 | 📋 | [**Runbooks & Diagnostics**](runbooks-diagnostics/) | **113** | Incident response, troubleshooting guides, system diagnostics, and op... |
 | 📚 | [**Library & API Reference**](library-api-reference/) | **89** | SDK documentation, API guides, framework reference material, and libr... |
-| 🔒 | [**Security & Verification**](security-verification/) | **84** | Auth setup, vulnerability scanning, compliance checks, and security a... |
-| ✅ | [**Code Quality & Review**](code-quality-review/) | **79** | Linting rules, review checklists, code standards enforcement, and qua... |
+| 🔒 | [**Security & Verification**](security-verification/) | **86** | Auth setup, vulnerability scanning, compliance checks, and security a... |
+| ✅ | [**Code Quality & Review**](code-quality-review/) | **81** | Linting rules, review checklists, code standards enforcement, and qua... |
 | 📊 | [**Monitoring & Alerts**](monitoring-alerts/) | **77** | Metrics collection, alerting rules, observability setup, and system m... |
-| 🔄 | [**Data Extraction & Transformation**](data-extraction-transformation/) | **74** | Parsing, ETL pipelines, format conversion, data wrangling, and transf... |
-| 🛠️ | [**Developer Tools**](developer-tools/) | **70** | CLI helpers, dev environment setup, productivity utilities, and devel... |
+| 🔄 | [**Data Extraction & Transformation**](data-extraction-transformation/) | **75** | Parsing, ETL pipelines, format conversion, data wrangling, and transf... |
+| 🛠️ | [**Developer Tools**](developer-tools/) | **71** | CLI helpers, dev environment setup, productivity utilities, and devel... |
 | 📄 | [**Templates & Workflows**](templates-workflows/) | **61** | Project scaffolding, boilerplate generators, workflow templates, and ... |
 | 🎨 | [**Image & Creative Automation**](image-creative-automation/) | **52** | Image generation, asset processing, design automation, and creative t... |
 | 📅 | [**Calendar, Email & Productivity**](calendar-email-productivity/) | **50** | Email automation, calendar management, task coordination, and product... |

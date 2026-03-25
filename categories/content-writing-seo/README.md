@@ -10,7 +10,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 
 - **Top Starred:** 6 visible with GitHub signal data
 - **Top Downloaded:** 6 visible with npm signal data
-- **Security Reviewed:** 35 skills
+- **Security Reviewed:** 37 skills
 
 ---
 
@@ -22,7 +22,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [AI Content Readability Optimizer](../../skills/ai-content-readability-optimizer/) | Security Reviewed | ⭐ 21k | `clawhub install ai-content-readability-optimizer` |
 | [Internal Link Builder](../../skills/internal-link-builder-seo-agent/) | Security Reviewed | ⭐ 21k | `clawhub install internal-link-builder-seo-agent` |
 | [Internal Link Graph Optimizer](../../skills/internal-link-graph-optimizer/) | Security Reviewed | ⭐ 21k | `clawhub install internal-link-graph-optimizer` |
-| [Jasper AI Long-Form Blog Post Generator](../../skills/jasper-longform-blog-generator/) | Listed | ⭐ 21k | `clawhub install jasper-longform-blog-generator` |
+| [Jasper AI Long-Form Blog Post Generator](../../skills/jasper-longform-blog-generator/) | Security Reviewed | ⭐ 21k | `clawhub install jasper-longform-blog-generator` |
 | [Keyword Cannibalization Detector](../../skills/keyword-cannibalization-detector/) | Security Reviewed | ⭐ 21k | `clawhub install keyword-cannibalization-detector` |
 
 ---
@@ -48,8 +48,8 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [AI Content Readability Optimizer](../../skills/ai-content-readability-optimizer/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install ai-content-readability-optimizer` |
 | [Internal Link Builder](../../skills/internal-link-builder-seo-agent/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install internal-link-builder-seo-agent` |
 | [Internal Link Graph Optimizer](../../skills/internal-link-graph-optimizer/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install internal-link-graph-optimizer` |
+| [Jasper AI Long-Form Blog Post Generator](../../skills/jasper-longform-blog-generator/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install jasper-longform-blog-generator` |
 | [Keyword Cannibalization Detector](../../skills/keyword-cannibalization-detector/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install keyword-cannibalization-detector` |
-| [Schema.org Structured Data Injector](../../skills/schema-org-structured-data-injector/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install schema-org-structured-data-injector` |
 
 ---
 
@@ -61,7 +61,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [AI Content Readability Optimizer](../../skills/ai-content-readability-optimizer/) | Security Reviewed | 21k | — | `clawhub install ai-content-readability-optimizer` |
 | [Internal Link Builder](../../skills/internal-link-builder-seo-agent/) | Security Reviewed | 21k | — | `clawhub install internal-link-builder-seo-agent` |
 | [Internal Link Graph Optimizer](../../skills/internal-link-graph-optimizer/) | Security Reviewed | 21k | — | `clawhub install internal-link-graph-optimizer` |
-| [Jasper AI Long-Form Blog Post Generator](../../skills/jasper-longform-blog-generator/) | Listed | 21k | — | `clawhub install jasper-longform-blog-generator` |
+| [Jasper AI Long-Form Blog Post Generator](../../skills/jasper-longform-blog-generator/) | Security Reviewed | 21k | — | `clawhub install jasper-longform-blog-generator` |
 | [Keyword Cannibalization Detector](../../skills/keyword-cannibalization-detector/) | Security Reviewed | 21k | — | `clawhub install keyword-cannibalization-detector` |
 | [Schema.org Structured Data Injector](../../skills/schema-org-structured-data-injector/) | Security Reviewed | 21k | — | `clawhub install schema-org-structured-data-injector` |
 | [SEO Meta Tag Optimizer](../../skills/seo-meta-tag-optimizer-agent/) | Security Reviewed | 21k | — | `clawhub install seo-meta-tag-optimizer-agent` |
@@ -72,7 +72,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [Content Readability Analyzer](../../skills/content-readability-analyzer-agent/) | Security Reviewed | 10.8k | 16.3M/wk | `clawhub install content-readability-analyzer-agent` |
 | [Content Brief Architect](../../skills/content-brief-architect-agent/) | Security Reviewed | 5.6k | 1.1M/wk | `clawhub install content-brief-architect-agent` |
 | [Keyword Cluster Generator](../../skills/keyword-cluster-generator-agent/) | Security Reviewed | 5.6k | 1.1M/wk | `clawhub install keyword-cluster-generator-agent` |
-| [Copy.ai Sales Email Sequence Builder](../../skills/copyai-sales-email-sequence/) | Listed | 391 | 905.6k/wk | `clawhub install copyai-sales-email-sequence` |
+| [Copy.ai Sales Email Sequence Builder](../../skills/copyai-sales-email-sequence/) | Security Reviewed | 391 | 905.6k/wk | `clawhub install copyai-sales-email-sequence` |
 | [Ahrefs Backlink Content Planner](../../skills/ahrefs-backlink-content-planner/) | Security Reviewed | — | — | `clawhub install ahrefs-backlink-content-planner` |
 | [Ahrefs Content Gap Finder](../../skills/ahrefs-content-gap-finder-agent/) | Security Reviewed | — | — | `clawhub install ahrefs-content-gap-finder-agent` |
 | [Ahrefs Keyword Gap Analysis Skill](../../skills/ahrefs-keyword-gap-analysis-skill/) | Security Reviewed | — | — | `clawhub install ahrefs-keyword-gap-analysis-skill` |
@@ -119,7 +119,7 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (137 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
 - 📚 [Library & API Reference](../library-api-reference/) (89 skills)
-- 🔒 [Security & Verification](../security-verification/) (84 skills)
+- 🔒 [Security & Verification](../security-verification/) (86 skills)
 
 ---
 

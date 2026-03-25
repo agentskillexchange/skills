@@ -10,7 +10,7 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 
 - **Top Starred:** 6 visible with GitHub signal data
 - **Top Downloaded:** 6 visible with npm signal data
-- **Security Reviewed:** 29 skills
+- **Security Reviewed:** 32 skills
 
 ---
 
@@ -66,14 +66,14 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [Gutenberg Block Pattern Generator](../../skills/gutenberg-block-pattern-generator/) | Security Reviewed | 21k | — | `clawhub install gutenberg-block-pattern-generator` |
 | [WordPress ACF Field Group Auditor](../../skills/wordpress-acf-field-group-auditor/) | Security Reviewed | 21k | — | `clawhub install wordpress-acf-field-group-auditor` |
 | [WordPress Block Theme Scaffolder](../../skills/wordpress-block-theme-scaffolder/) | Security Reviewed | 21k | — | `clawhub install wordpress-block-theme-scaffolder` |
-| [WordPress Content Publisher](../../skills/wordpress-content-publisher/) | Listed | 21k | — | `clawhub install wordpress-content-publisher` |
+| [WordPress Content Publisher](../../skills/wordpress-content-publisher/) | Security Reviewed | 21k | — | `clawhub install wordpress-content-publisher` |
 | [WordPress Gutenberg Block Generator](../../skills/wordpress-gutenberg-block-generator/) | Security Reviewed | 21k | — | `clawhub install wordpress-gutenberg-block-generator` |
 | [WordPress Gutenberg Block Scaffolder](../../skills/wordpress-gutenberg-block-scaffolder/) | Security Reviewed | 21k | — | `clawhub install wordpress-gutenberg-block-scaffolder` |
 | [WordPress Multisite Network Sync](../../skills/wordpress-multisite-network-sync/) | Security Reviewed | 21k | — | `clawhub install wordpress-multisite-network-sync` |
 | [WordPress Multisite Provisioner](../../skills/wp-multisite-provisioner-agent/) | Security Reviewed | 21k | — | `clawhub install wp-multisite-provisioner-agent` |
-| [WordPress REST API Builder](../../skills/wordpress-rest-api-builder/) | Listed | 21k | — | `clawhub install wordpress-rest-api-builder` |
+| [WordPress REST API Builder](../../skills/wordpress-rest-api-builder/) | Security Reviewed | 21k | — | `clawhub install wordpress-rest-api-builder` |
 | [WordPress REST API Content Sync](../../skills/wordpress-rest-api-content-sync/) | Security Reviewed | 21k | — | `clawhub install wordpress-rest-api-content-sync` |
-| [WordPress Router](../../skills/wordpress-router/) | Listed | 21k | — | `clawhub install wordpress-router` |
+| [WordPress Router](../../skills/wordpress-router/) | Security Reviewed | 21k | — | `clawhub install wordpress-router` |
 | [WordPress Theme.json Design Token Manager](../../skills/wp-theme-json-design-token-manager/) | Security Reviewed | 21k | — | `clawhub install wp-theme-json-design-token-manager` |
 | [WP Abilities API](../../skills/wp-abilities-api/) | Security Reviewed | 21k | — | `clawhub install wp-abilities-api` |
 | [WP Multisite Network Sync Agent](../../skills/wp-multisite-network-sync-agent/) | Security Reviewed | 21k | — | `clawhub install wp-multisite-network-sync-agent` |
@@ -114,7 +114,7 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (137 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
 - 📚 [Library & API Reference](../library-api-reference/) (89 skills)
-- 🔒 [Security & Verification](../security-verification/) (84 skills)
+- 🔒 [Security & Verification](../security-verification/) (86 skills)
 
 ---
 

@@ -10,7 +10,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 
 - **Top Starred:** 6 visible with GitHub signal data
 - **Top Downloaded:** 6 visible with npm signal data
-- **Security Reviewed:** 82 skills
+- **Security Reviewed:** 86 skills
 
 ---
 
@@ -72,7 +72,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [OpenAPI Specification Validator](../../skills/openapi-specification-validator-agent/) | Security Reviewed | 28.7k | 3.2M/wk | `clawhub install openapi-specification-validator-agent` |
 | [REST API Reference Generator](../../skills/rest-api-reference-generator/) | Security Reviewed | 28.7k | 3.2M/wk | `clawhub install rest-api-reference-generator` |
 | [REST API Testing Reference Kit](../../skills/rest-api-testing-reference-kit/) | Security Reviewed | 28.7k | 3.2M/wk | `clawhub install rest-api-testing-reference-kit` |
-| [Swagger / OpenAPI Validator](../../skills/swagger-openapi-validator/) | Listed | 28.7k | 3.2M/wk | `clawhub install swagger-openapi-validator` |
+| [Swagger / OpenAPI Validator](../../skills/swagger-openapi-validator/) | Security Reviewed | 28.7k | 3.2M/wk | `clawhub install swagger-openapi-validator` |
 | [Swagger Codegen API Client Builder](../../skills/swagger-codegen-api-client-builder/) | Security Reviewed | 28.7k | 3.2M/wk | `clawhub install swagger-codegen-api-client-builder` |
 | [Swagger Codegen Template Customizer](../../skills/swagger-codegen-template-customizer/) | Security Reviewed | 28.7k | 3.2M/wk | `clawhub install swagger-codegen-template-customizer` |
 | [Swagger OpenAPI Schema Validator](../../skills/swagger-openapi-schema-validator/) | Security Reviewed | 28.7k | 3.2M/wk | `clawhub install swagger-openapi-schema-validator` |
@@ -82,7 +82,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [GraphQL Schema Documentation Builder](../../skills/graphql-schema-documentation-builder/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install graphql-schema-documentation-builder` |
 | [GraphQL Schema Documentation Generator](../../skills/graphql-schema-documentation-generator/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install graphql-schema-documentation-generator` |
 | [GraphQL Schema Drift Detector](../../skills/graphql-schema-drift-detector/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install graphql-schema-drift-detector` |
-| [GraphQL Schema Explorer](../../skills/graphql-schema-explorer/) | Listed | 20.3k | 32M/wk | `clawhub install graphql-schema-explorer` |
+| [GraphQL Schema Explorer](../../skills/graphql-schema-explorer/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install graphql-schema-explorer` |
 | [GraphQL Schema Introspection Analyzer](../../skills/graphql-schema-introspection-analyzer/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install graphql-schema-introspection-analyzer` |
 | [GraphQL Schema Introspector](../../skills/graphql-schema-introspector/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install graphql-schema-introspector` |
 | [GraphQL Schema Registry](../../skills/graphql-schema-registry/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install graphql-schema-registry` |
@@ -93,11 +93,11 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [NPM Package Audit Analyzer](../../skills/npm-package-audit-analyzer/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install npm-package-audit-analyzer` |
 | [OpenAPI Spec Reference Generator](../../skills/openapi-spec-reference-generator/) | Security Reviewed | 6k | — | `clawhub install openapi-spec-reference-generator` |
 | [OpenAPI Spec Validator &#038; Mock Server](../../skills/openapi-spec-validator-mock-server-2/) | Security Reviewed | 6k | — | `clawhub install openapi-spec-validator-mock-server-2` |
-| [Postman Collection Runner](../../skills/postman-collection-runner/) | Listed | 6k | — | `clawhub install postman-collection-runner` |
+| [Postman Collection Runner](../../skills/postman-collection-runner/) | Security Reviewed | 6k | — | `clawhub install postman-collection-runner` |
 | [REST API Test Suite Generator](../../skills/rest-api-test-suite-generator/) | Security Reviewed | 6k | — | `clawhub install rest-api-test-suite-generator` |
 | [NPM Package Explorer](../../skills/npm-package-explorer-registry-api/) | Security Reviewed | 5.5k | 601.7k/wk | `clawhub install npm-package-explorer-registry-api` |
 | [Buf Protobuf Linter](../../skills/buf-protobuf-linter/) | Security Reviewed | 4.8k | 30.9M/wk | `clawhub install buf-protobuf-linter` |
-| [gRPC Service Tool](../../skills/grpc-service-tool/) | Listed | 4.8k | 30.9M/wk | `clawhub install grpc-service-tool` |
+| [gRPC Service Tool](../../skills/grpc-service-tool/) | Verified Metadata | 4.8k | 30.9M/wk | `clawhub install grpc-service-tool` |
 | [Protobuf &#038; gRPC Stub Generator](../../skills/protobuf-grpc-stub-generator/) | Security Reviewed | 4.8k | 30.9M/wk | `clawhub install protobuf-grpc-stub-generator` |
 | [Protobuf Documentation Generator](../../skills/protobuf-documentation-generator/) | Security Reviewed | 4.8k | 30.9M/wk | `clawhub install protobuf-documentation-generator` |
 | [Protobuf Schema Registry Manager](../../skills/protobuf-schema-registry-manager/) | Security Reviewed | 4.8k | 30.9M/wk | `clawhub install protobuf-schema-registry-manager` |
@@ -109,7 +109,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [AWS SDK Method Resolver](../../skills/aws-sdk-method-resolver/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-sdk-method-resolver` |
 | [OpenTelemetry Trace Context Propagator](../../skills/opentelemetry-trace-context-propagator/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install opentelemetry-trace-context-propagator` |
 | [REST API Changelog Tracker](../../skills/rest-api-changelog-tracker/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install rest-api-changelog-tracker` |
-| [Plaid Financial Data Aggregator &#038; Budget Classifier](../../skills/plaid-financial-data-aggregator/) | Listed | — | 21.4M/wk | `clawhub install plaid-financial-data-aggregator` |
+| [Plaid Financial Data Aggregator &amp; Budget Classifier](../../skills/plaid-financial-data-aggregator/) | Security Reviewed | — | 21.4M/wk | `clawhub install plaid-financial-data-aggregator` |
 | [Doxygen Cross-Reference Indexer](../../skills/doxygen-cross-reference-indexer/) | Security Reviewed | — | — | `clawhub install doxygen-cross-reference-indexer` |
 | [GitHub REST API Paginator Library](../../skills/github-rest-api-paginator-library/) | Security Reviewed | — | — | `clawhub install github-rest-api-paginator-library` |
 | [JSDoc Type Definition Extractor](../../skills/jsdoc-type-definition-extractor/) | Security Reviewed | — | — | `clawhub install jsdoc-type-definition-extractor` |
@@ -170,8 +170,8 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (137 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
-- 🔒 [Security & Verification](../security-verification/) (84 skills)
-- ✅ [Code Quality & Review](../code-quality-review/) (79 skills)
+- 🔒 [Security & Verification](../security-verification/) (86 skills)
+- ✅ [Code Quality & Review](../code-quality-review/) (81 skills)
 
 ---
 

@@ -10,7 +10,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 
 - **Top Starred:** 6 visible with GitHub signal data
 - **Top Downloaded:** 6 visible with npm signal data
-- **Security Reviewed:** 66 skills
+- **Security Reviewed:** 76 skills
 
 ---
 
@@ -19,10 +19,10 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | Skill | Tier | Signal | Install |
 |---|---|---:|---|
 | [Kubernetes Event Stream Analyzer](../../skills/kubernetes-event-stream-analyzer/) | Security Reviewed | ⭐ 121.3k | `clawhub install kubernetes-event-stream-analyzer` |
-| [Kubernetes Troubleshooting Runbook](../../skills/kubernetes-troubleshooting-runbook/) | Listed | ⭐ 121.3k | `clawhub install kubernetes-troubleshooting-runbook` |
+| [Kubernetes Troubleshooting Runbook](../../skills/kubernetes-troubleshooting-runbook/) | Security Reviewed | ⭐ 121.3k | `clawhub install kubernetes-troubleshooting-runbook` |
 | [OpenTelemetry Collector Pipeline Designer](../../skills/otel-collector-pipeline-designer/) | Security Reviewed | ⭐ 121.3k | `clawhub install otel-collector-pipeline-designer` |
 | [OpenTelemetry Trace Aggregator](../../skills/opentelemetry-trace-aggregator/) | Security Reviewed | ⭐ 121.3k | `clawhub install opentelemetry-trace-aggregator` |
-| [Elastic / Kibana MCP Server](../../skills/elastic-kibana-mcp-server/) | Listed | ⭐ 76.4k | `clawhub install elastic-kibana-mcp-server` |
+| [Elastic / Kibana MCP Server](../../skills/elastic-kibana-mcp-server/) | Security Reviewed | ⭐ 76.4k | `clawhub install elastic-kibana-mcp-server` |
 | [ElasticSearch Cluster Vitals Agent](../../skills/elasticsearch-cluster-vitals-agent/) | Security Reviewed | ⭐ 76.4k | `clawhub install elasticsearch-cluster-vitals-agent` |
 
 ---
@@ -31,7 +31,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 
 | Skill | Tier | Signal | Install |
 |---|---|---:|---|
-| [Elastic / Kibana MCP Server](../../skills/elastic-kibana-mcp-server/) | Listed | ⬇ 1.9M/wk | `clawhub install elastic-kibana-mcp-server` |
+| [Elastic / Kibana MCP Server](../../skills/elastic-kibana-mcp-server/) | Security Reviewed | ⬇ 1.9M/wk | `clawhub install elastic-kibana-mcp-server` |
 | [ElasticSearch Cluster Vitals Agent](../../skills/elasticsearch-cluster-vitals-agent/) | Security Reviewed | ⬇ 1.9M/wk | `clawhub install elasticsearch-cluster-vitals-agent` |
 | [Prometheus Alert Router](../../skills/prometheus-alert-router/) | Security Reviewed | ⬇ 5.3M/wk | `clawhub install prometheus-alert-router` |
 | [Prometheus Alert Rule Builder](../../skills/prometheus-alert-rule-builder/) | Security Reviewed | ⬇ 5.3M/wk | `clawhub install prometheus-alert-rule-builder` |
@@ -45,11 +45,11 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | Skill | Tier | Signal | Install |
 |---|---|---:|---|
 | [Kubernetes Event Stream Analyzer](../../skills/kubernetes-event-stream-analyzer/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install kubernetes-event-stream-analyzer` |
+| [Kubernetes Troubleshooting Runbook](../../skills/kubernetes-troubleshooting-runbook/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install kubernetes-troubleshooting-runbook` |
 | [OpenTelemetry Collector Pipeline Designer](../../skills/otel-collector-pipeline-designer/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install otel-collector-pipeline-designer` |
 | [OpenTelemetry Trace Aggregator](../../skills/opentelemetry-trace-aggregator/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install opentelemetry-trace-aggregator` |
+| [Elastic / Kibana MCP Server](../../skills/elastic-kibana-mcp-server/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install elastic-kibana-mcp-server` |
 | [ElasticSearch Cluster Vitals Agent](../../skills/elasticsearch-cluster-vitals-agent/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install elasticsearch-cluster-vitals-agent` |
-| [Grafana Alert Router](../../skills/grafana-alert-router/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install grafana-alert-router` |
-| [Grafana Dashboard as Code Builder](../../skills/grafana-dashboard-as-code-builder/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install grafana-dashboard-as-code-builder` |
 
 ---
 
@@ -58,10 +58,10 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | Skill | Tier | GitHub Stars | npm Downloads | Install |
 |---|---|---:|---:|---|
 | [Kubernetes Event Stream Analyzer](../../skills/kubernetes-event-stream-analyzer/) | Security Reviewed | 121.3k | — | `clawhub install kubernetes-event-stream-analyzer` |
-| [Kubernetes Troubleshooting Runbook](../../skills/kubernetes-troubleshooting-runbook/) | Listed | 121.3k | — | `clawhub install kubernetes-troubleshooting-runbook` |
+| [Kubernetes Troubleshooting Runbook](../../skills/kubernetes-troubleshooting-runbook/) | Security Reviewed | 121.3k | — | `clawhub install kubernetes-troubleshooting-runbook` |
 | [OpenTelemetry Collector Pipeline Designer](../../skills/otel-collector-pipeline-designer/) | Security Reviewed | 121.3k | — | `clawhub install otel-collector-pipeline-designer` |
 | [OpenTelemetry Trace Aggregator](../../skills/opentelemetry-trace-aggregator/) | Security Reviewed | 121.3k | — | `clawhub install opentelemetry-trace-aggregator` |
-| [Elastic / Kibana MCP Server](../../skills/elastic-kibana-mcp-server/) | Listed | 76.4k | 1.9M/wk | `clawhub install elastic-kibana-mcp-server` |
+| [Elastic / Kibana MCP Server](../../skills/elastic-kibana-mcp-server/) | Security Reviewed | 76.4k | 1.9M/wk | `clawhub install elastic-kibana-mcp-server` |
 | [ElasticSearch Cluster Vitals Agent](../../skills/elasticsearch-cluster-vitals-agent/) | Security Reviewed | 76.4k | 1.9M/wk | `clawhub install elasticsearch-cluster-vitals-agent` |
 | [Grafana Alert Router](../../skills/grafana-alert-router/) | Security Reviewed | 72.8k | — | `clawhub install grafana-alert-router` |
 | [Grafana Dashboard as Code Builder](../../skills/grafana-dashboard-as-code-builder/) | Security Reviewed | 72.8k | — | `clawhub install grafana-dashboard-as-code-builder` |
@@ -77,12 +77,12 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Grafana Loki Log Query Agent](../../skills/grafana-loki-log-query-agent/) | Security Reviewed | 72.8k | — | `clawhub install grafana-loki-log-query-agent` |
 | [Grafana OnCall Escalation Chain Manager](../../skills/grafana-oncall-escalation-chain-manager/) | Security Reviewed | 72.8k | — | `clawhub install grafana-oncall-escalation-chain-manager` |
 | [Grafana Unified Alerting Manager](../../skills/grafana-unified-alerting-manager/) | Security Reviewed | 72.8k | — | `clawhub install grafana-unified-alerting-manager` |
-| [Prometheus / Grafana MCP Server](../../skills/prometheus-grafana-mcp-server/) | Listed | 72.8k | — | `clawhub install prometheus-grafana-mcp-server` |
+| [Prometheus / Grafana MCP Server](../../skills/prometheus-grafana-mcp-server/) | Security Reviewed | 72.8k | — | `clawhub install prometheus-grafana-mcp-server` |
 | [Prometheus Alert Router](../../skills/prometheus-alert-router/) | Security Reviewed | 63.3k | 5.3M/wk | `clawhub install prometheus-alert-router` |
 | [Prometheus Alert Rule Builder](../../skills/prometheus-alert-rule-builder/) | Security Reviewed | 63.3k | 5.3M/wk | `clawhub install prometheus-alert-rule-builder` |
 | [Prometheus Alert Rule Generator](../../skills/prometheus-alert-rule-generator-2/) | Security Reviewed | 63.3k | 5.3M/wk | `clawhub install prometheus-alert-rule-generator-2` |
 | [Prometheus Alert Rule Synthesizer](../../skills/prometheus-alert-rule-synthesizer/) | Security Reviewed | 63.3k | 5.3M/wk | `clawhub install prometheus-alert-rule-synthesizer` |
-| [Prometheus Alerting Rules](../../skills/prometheus-alerting-rules/) | Listed | 63.3k | 5.3M/wk | `clawhub install prometheus-alerting-rules` |
+| [Prometheus Alerting Rules](../../skills/prometheus-alerting-rules/) | Security Reviewed | 63.3k | 5.3M/wk | `clawhub install prometheus-alerting-rules` |
 | [Prometheus Alertmanager Bridge](../../skills/prometheus-alertmanager-bridge-2/) | Security Reviewed | 63.3k | 5.3M/wk | `clawhub install prometheus-alertmanager-bridge-2` |
 | [Prometheus AlertManager Bridge](../../skills/prometheus-alertmanager-bridge/) | Security Reviewed | 63.3k | 5.3M/wk | `clawhub install prometheus-alertmanager-bridge` |
 | [Prometheus AlertManager Configurator](../../skills/prometheus-alertmanager-configurator/) | Security Reviewed | 63.3k | 5.3M/wk | `clawhub install prometheus-alertmanager-configurator` |
@@ -98,8 +98,8 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Sentry Error Intelligence](../../skills/sentry-error-intelligence/) | Security Reviewed | 43.4k | 16.4M/wk | `clawhub install sentry-error-intelligence` |
 | [Sentry MCP Server](../../skills/sentry-mcp-server/) | Security Reviewed | 43.4k | 16.4M/wk | `clawhub install sentry-mcp-server` |
 | [Grafana Loki Log Correlation Agent](../../skills/grafana-loki-log-correlation-agent-2/) | Security Reviewed | 27.9k | — | `clawhub install grafana-loki-log-correlation-agent-2` |
-| [Loki Log Query Agent](../../skills/loki-log-query-agent/) | Listed | 27.9k | — | `clawhub install loki-log-query-agent` |
-| [Jaeger Trace Explorer](../../skills/jaeger-trace-explorer/) | Listed | 22.6k | — | `clawhub install jaeger-trace-explorer` |
+| [Loki Log Query Agent](../../skills/loki-log-query-agent/) | Security Reviewed | 27.9k | — | `clawhub install loki-log-query-agent` |
+| [Jaeger Trace Explorer](../../skills/jaeger-trace-explorer/) | Security Reviewed | 22.6k | — | `clawhub install jaeger-trace-explorer` |
 | [AWS CloudWatch Anomaly Detector](../../skills/aws-cloudwatch-anomaly-detector/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-cloudwatch-anomaly-detector` |
 | [AWS CloudWatch Composite Alarm Builder](../../skills/aws-cloudwatch-composite-alarm-builder/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-cloudwatch-composite-alarm-builder` |
 | [AWS CloudWatch Insights Agent](../../skills/aws-cloudwatch-insights-agent/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-cloudwatch-insights-agent` |
@@ -117,7 +117,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Datadog APM Anomaly Detector](../../skills/datadog-apm-anomaly-detector/) | Security Reviewed | 787 | 6M/wk | `clawhub install datadog-apm-anomaly-detector` |
 | [Datadog APM Trace Analyzer](../../skills/datadog-apm-trace-analyzer-2/) | Security Reviewed | 787 | 6M/wk | `clawhub install datadog-apm-trace-analyzer-2` |
 | [Datadog APM Trace Query Agent](../../skills/datadog-apm-trace-query-agent/) | Security Reviewed | 787 | 6M/wk | `clawhub install datadog-apm-trace-query-agent` |
-| [Datadog MCP Server](../../skills/datadog-mcp-server/) | Listed | 787 | 6M/wk | `clawhub install datadog-mcp-server` |
+| [Datadog MCP Server](../../skills/datadog-mcp-server/) | Security Reviewed | 787 | 6M/wk | `clawhub install datadog-mcp-server` |
 | [Datadog Metric Exporter](../../skills/datadog-metric-exporter/) | Security Reviewed | 787 | 6M/wk | `clawhub install datadog-metric-exporter` |
 | [Datadog Monitor Blueprint Generator](../../skills/datadog-monitor-blueprint-generator/) | Security Reviewed | 787 | 6M/wk | `clawhub install datadog-monitor-blueprint-generator` |
 | [Datadog Monitor Configuration Agent](../../skills/datadog-monitor-configuration-agent-2/) | Security Reviewed | 787 | 6M/wk | `clawhub install datadog-monitor-configuration-agent-2` |
@@ -126,14 +126,14 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Datadog Monitor Sync](../../skills/datadog-monitor-sync/) | Security Reviewed | 787 | 6M/wk | `clawhub install datadog-monitor-sync` |
 | [Datadog Monitors Skill](../../skills/datadog-monitors-skill/) | Security Reviewed | 787 | 6M/wk | `clawhub install datadog-monitors-skill` |
 | [Datadog SLO Monitor](../../skills/datadog-slo-monitor/) | Security Reviewed | 787 | 6M/wk | `clawhub install datadog-slo-monitor` |
-| [Metrics Dashboard Builder](../../skills/metrics-dashboard-builder/) | Listed | 787 | 6M/wk | `clawhub install metrics-dashboard-builder` |
+| [Metrics Dashboard Builder](../../skills/metrics-dashboard-builder/) | Security Reviewed | 787 | 6M/wk | `clawhub install metrics-dashboard-builder` |
 | [StatsD Metrics Aggregation Pipeline](../../skills/statsd-metrics-aggregation-pipeline/) | Security Reviewed | 787 | 6M/wk | `clawhub install statsd-metrics-aggregation-pipeline` |
 | [PagerDuty Incident Escalator](../../skills/pagerduty-incident-escalator/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install pagerduty-incident-escalator` |
 | [PagerDuty Incident Orchestrator](../../skills/pagerduty-incident-orchestrator-2/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install pagerduty-incident-orchestrator-2` |
 | [PagerDuty Incident Runbook Linker](../../skills/pagerduty-incident-runbook-linker/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install pagerduty-incident-runbook-linker` |
-| [PagerDuty MCP Server](../../skills/pagerduty-mcp-server/) | Listed | 69 | 210.8k/wk | `clawhub install pagerduty-mcp-server` |
+| [PagerDuty MCP Server](../../skills/pagerduty-mcp-server/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install pagerduty-mcp-server` |
 | [Uptime Robot Multi-Check Coordinator](../../skills/uptime-robot-multi-check-coordinator/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install uptime-robot-multi-check-coordinator` |
-| [OpsGenie MCP Server](../../skills/opsgenie-mcp-server/) | Listed | 24 | 9.1k/wk | `clawhub install opsgenie-mcp-server` |
+| [OpsGenie MCP Server](../../skills/opsgenie-mcp-server/) | Security Reviewed | 24 | 9.1k/wk | `clawhub install opsgenie-mcp-server` |
 
 ---
 
@@ -159,7 +159,7 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (137 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
 - 📚 [Library & API Reference](../library-api-reference/) (89 skills)
-- 🔒 [Security & Verification](../security-verification/) (84 skills)
+- 🔒 [Security & Verification](../security-verification/) (86 skills)
 
 ---
 

@@ -10,7 +10,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 
 - **Top Starred:** 6 visible with GitHub signal data
 - **Top Downloaded:** 6 visible with npm signal data
-- **Security Reviewed:** 37 skills
+- **Security Reviewed:** 39 skills
 
 ---
 
@@ -64,18 +64,18 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Puppeteer PDF Renderer](../../skills/puppeteer-pdf-renderer/) | Security Reviewed | 93.9k | 8.7M/wk | `clawhub install puppeteer-pdf-renderer` |
 | [Puppeteer Screenshot Diff Engine](../../skills/puppeteer-screenshot-diff-engine/) | Security Reviewed | 93.9k | 8.7M/wk | `clawhub install puppeteer-screenshot-diff-engine` |
 | [Puppeteer Stealth Scraper](../../skills/puppeteer-stealth-scraper-agent/) | Verified Metadata | 93.9k | 8.7M/wk | `clawhub install puppeteer-stealth-scraper-agent` |
-| [Puppeteer Visual Regression Tester](../../skills/puppeteer-visual-regression-tester/) | Listed | 93.9k | 8.7M/wk | `clawhub install puppeteer-visual-regression-tester` |
+| [Puppeteer Visual Regression Tester](../../skills/puppeteer-visual-regression-tester/) | Verified Metadata | 93.9k | 8.7M/wk | `clawhub install puppeteer-visual-regression-tester` |
 | [Puppeteer Visual Regression Testing](../../skills/puppeteer-visual-regression-testing/) | Security Reviewed | 93.9k | 8.7M/wk | `clawhub install puppeteer-visual-regression-testing` |
 | [Puppeteer Web Scraping Pipeline](../../skills/puppeteer-web-scraping-pipeline/) | Security Reviewed | 93.9k | 8.7M/wk | `clawhub install puppeteer-web-scraping-pipeline` |
 | [Agent Browser Operator](../../skills/agent-browser-operator/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install agent-browser-operator` |
 | [Playwright Accessibility Audit Runner](../../skills/playwright-accessibility-audit-runner/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-accessibility-audit-runner` |
 | [Playwright Cross-Browser Test Runner](../../skills/playwright-cross-browser-test-runner/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-cross-browser-test-runner` |
-| [Playwright MCP Browser Automation](../../skills/playwright-mcp-browser-automation/) | Listed | 84.9k | 39.8M/wk | `clawhub install playwright-mcp-browser-automation` |
+| [Playwright MCP Browser Automation](../../skills/playwright-mcp-browser-automation/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-mcp-browser-automation` |
 | [Playwright Multi-Browser Test Generator](../../skills/playwright-multi-browser-test-generator/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-multi-browser-test-generator` |
 | [Playwright Multi-Browser Test Suite](../../skills/playwright-multi-browser-test-suite/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-multi-browser-test-suite` |
 | [Playwright Multi-Tab Session Manager](../../skills/playwright-multi-tab-session-manager-2/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-multi-tab-session-manager-2` |
 | [Playwright Network HAR Recorder](../../skills/playwright-network-har-recorder/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-network-har-recorder` |
-| [Playwright Parallel Tab Manager](../../skills/playwright-parallel-tab-manager/) | Listed | 84.9k | 39.8M/wk | `clawhub install playwright-parallel-tab-manager` |
+| [Playwright Parallel Tab Manager](../../skills/playwright-parallel-tab-manager/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-parallel-tab-manager` |
 | [Playwright PDF Export Automation](../../skills/playwright-pdf-export-automation/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-pdf-export-automation` |
 | [Playwright Session Recorder](../../skills/playwright-session-recorder-2/) | Verified Metadata | 84.9k | 39.8M/wk | `clawhub install playwright-session-recorder-2` |
 | [Playwright Visual Regression Suite](../../skills/playwright-visual-regression-suite/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-visual-regression-suite` |
@@ -127,7 +127,7 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (137 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
 - 📚 [Library & API Reference](../library-api-reference/) (89 skills)
-- 🔒 [Security & Verification](../security-verification/) (84 skills)
+- 🔒 [Security & Verification](../security-verification/) (86 skills)
 
 ---
 

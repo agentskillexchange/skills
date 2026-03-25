@@ -1,6 +1,6 @@
 # 🔒 Security & Verification
 
-> **84 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification)
+> **86 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification)
 
 Auth setup, vulnerability scanning, compliance checks, and security automation.
 
@@ -10,7 +10,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 
 - **Top Starred:** 6 visible with GitHub signal data
 - **Top Downloaded:** 6 visible with npm signal data
-- **Security Reviewed:** 71 skills
+- **Security Reviewed:** 76 skills
 
 ---
 
@@ -18,12 +18,12 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 
 | Skill | Tier | Signal | Install |
 |---|---|---:|---|
-| [Checkov IaC Scanner](../../skills/checkov-iac-scanner/) | Listed | ⭐ 121.3k | `clawhub install checkov-iac-scanner` |
-| [Conftest Policy Tester](../../skills/conftest-policy-tester/) | Listed | ⭐ 121.3k | `clawhub install conftest-policy-tester` |
+| [Checkov IaC Scanner](../../skills/checkov-iac-scanner/) | Verified Metadata | ⭐ 121.3k | `clawhub install checkov-iac-scanner` |
+| [Conftest Policy Tester](../../skills/conftest-policy-tester/) | Verified Metadata | ⭐ 121.3k | `clawhub install conftest-policy-tester` |
 | [Cosign Artifact Signature Verifier](../../skills/cosign-artifact-signature-verifier/) | Security Reviewed | ⭐ 121.3k | `clawhub install cosign-artifact-signature-verifier` |
-| [Falco Runtime Security](../../skills/falco-runtime-security/) | Listed | ⭐ 121.3k | `clawhub install falco-runtime-security` |
+| [Falco Runtime Security](../../skills/falco-runtime-security/) | Verified Metadata | ⭐ 121.3k | `clawhub install falco-runtime-security` |
 | [Falco Runtime Security Monitor](../../skills/falco-runtime-security-monitor/) | Security Reviewed | ⭐ 121.3k | `clawhub install falco-runtime-security-monitor` |
-| [KICS IaC Linter](../../skills/kics-iac-linter/) | Listed | ⭐ 121.3k | `clawhub install kics-iac-linter` |
+| [KICS IaC Linter](../../skills/kics-iac-linter/) | Security Reviewed | ⭐ 121.3k | `clawhub install kics-iac-linter` |
 
 ---
 
@@ -31,9 +31,9 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 
 | Skill | Tier | Signal | Install |
 |---|---|---:|---|
-| [Sentry for AI](../../skills/sentry-for-ai/) | Listed | ⬇ 16.4M/wk | `clawhub install sentry-for-ai` |
+| [Sentry for AI](../../skills/sentry-for-ai/) | Security Reviewed | ⬇ 16.4M/wk | `clawhub install sentry-for-ai` |
 | [Vault Secrets Rotation Orchestrator](../../skills/vault-secrets-rotation-orchestrator/) | Security Reviewed | ⬇ 9.2M/wk | `clawhub install vault-secrets-rotation-orchestrator` |
-| [Discord Moderation Bot with AI Classification](../../skills/discord-moderation-ai-classification/) | Listed | ⬇ 508.8k/wk | `clawhub install discord-moderation-ai-classification` |
+| [Discord Moderation Bot with AI Classification](../../skills/discord-moderation-ai-classification/) | Security Reviewed | ⬇ 508.8k/wk | `clawhub install discord-moderation-ai-classification` |
 | [npm Dependency Audit Scanner](../../skills/npm-dependency-audit-scanner/) | Security Reviewed | ⬇ 32M/wk | `clawhub install npm-dependency-audit-scanner` |
 | [Dependency Vulnerability Scanner](../../skills/dependency-vulnerability-scanner-agent/) | Security Reviewed | ⬇ 601.7k/wk | `clawhub install dependency-vulnerability-scanner-agent` |
 | [NPM Package Supply Chain Auditor](../../skills/npm-package-supply-chain-auditor/) | Security Reviewed | ⬇ 601.7k/wk | `clawhub install npm-package-supply-chain-auditor` |
@@ -46,10 +46,10 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 |---|---|---:|---|
 | [Cosign Artifact Signature Verifier](../../skills/cosign-artifact-signature-verifier/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install cosign-artifact-signature-verifier` |
 | [Falco Runtime Security Monitor](../../skills/falco-runtime-security-monitor/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install falco-runtime-security-monitor` |
+| [KICS IaC Linter](../../skills/kics-iac-linter/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install kics-iac-linter` |
 | [Sigstore Cosign Container Verifier](../../skills/sigstore-cosign-container-verifier/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install sigstore-cosign-container-verifier` |
 | [Sigstore Cosign Verification Pipeline](../../skills/sigstore-cosign-verification-pipeline/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install sigstore-cosign-verification-pipeline` |
 | [Container Image Vulnerability Scanner](../../skills/container-image-vulnerability-scanner/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install container-image-vulnerability-scanner` |
-| [Container Runtime Security Monitor](../../skills/container-runtime-security-monitor/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install container-runtime-security-monitor` |
 
 ---
 
@@ -57,20 +57,20 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 
 | Skill | Tier | GitHub Stars | npm Downloads | Install |
 |---|---|---:|---:|---|
-| [Checkov IaC Scanner](../../skills/checkov-iac-scanner/) | Listed | 121.3k | — | `clawhub install checkov-iac-scanner` |
-| [Conftest Policy Tester](../../skills/conftest-policy-tester/) | Listed | 121.3k | — | `clawhub install conftest-policy-tester` |
+| [Checkov IaC Scanner](../../skills/checkov-iac-scanner/) | Verified Metadata | 121.3k | — | `clawhub install checkov-iac-scanner` |
+| [Conftest Policy Tester](../../skills/conftest-policy-tester/) | Verified Metadata | 121.3k | — | `clawhub install conftest-policy-tester` |
 | [Cosign Artifact Signature Verifier](../../skills/cosign-artifact-signature-verifier/) | Security Reviewed | 121.3k | — | `clawhub install cosign-artifact-signature-verifier` |
-| [Falco Runtime Security](../../skills/falco-runtime-security/) | Listed | 121.3k | — | `clawhub install falco-runtime-security` |
+| [Falco Runtime Security](../../skills/falco-runtime-security/) | Verified Metadata | 121.3k | — | `clawhub install falco-runtime-security` |
 | [Falco Runtime Security Monitor](../../skills/falco-runtime-security-monitor/) | Security Reviewed | 121.3k | — | `clawhub install falco-runtime-security-monitor` |
-| [KICS IaC Linter](../../skills/kics-iac-linter/) | Listed | 121.3k | — | `clawhub install kics-iac-linter` |
-| [Open Policy Agent (OPA)](../../skills/open-policy-agent-opa/) | Listed | 121.3k | — | `clawhub install open-policy-agent-opa` |
+| [KICS IaC Linter](../../skills/kics-iac-linter/) | Security Reviewed | 121.3k | — | `clawhub install kics-iac-linter` |
+| [Open Policy Agent (OPA)](../../skills/open-policy-agent-opa/) | Verified Metadata | 121.3k | — | `clawhub install open-policy-agent-opa` |
 | [Sigstore Cosign Container Verifier](../../skills/sigstore-cosign-container-verifier/) | Security Reviewed | 121.3k | — | `clawhub install sigstore-cosign-container-verifier` |
 | [Sigstore Cosign Verification Pipeline](../../skills/sigstore-cosign-verification-pipeline/) | Security Reviewed | 121.3k | — | `clawhub install sigstore-cosign-verification-pipeline` |
-| [Terrascan Policy Scanner](../../skills/terrascan-policy-scanner/) | Listed | 121.3k | — | `clawhub install terrascan-policy-scanner` |
+| [Terrascan Policy Scanner](../../skills/terrascan-policy-scanner/) | Verified Metadata | 121.3k | — | `clawhub install terrascan-policy-scanner` |
 | [Container Image Vulnerability Scanner](../../skills/container-image-vulnerability-scanner/) | Security Reviewed | 71.6k | — | `clawhub install container-image-vulnerability-scanner` |
 | [Container Runtime Security Monitor](../../skills/container-runtime-security-monitor/) | Security Reviewed | 71.6k | — | `clawhub install container-runtime-security-monitor` |
 | [SBOM Vulnerability Scanner](../../skills/sbom-vulnerability-scanner/) | Security Reviewed | 71.6k | — | `clawhub install sbom-vulnerability-scanner` |
-| [Sentry for AI](../../skills/sentry-for-ai/) | Listed | 43.4k | 16.4M/wk | `clawhub install sentry-for-ai` |
+| [Sentry for AI](../../skills/sentry-for-ai/) | Security Reviewed | 43.4k | 16.4M/wk | `clawhub install sentry-for-ai` |
 | [Vault Secrets Rotation Orchestrator](../../skills/vault-secrets-rotation-orchestrator/) | Security Reviewed | 35.3k | 9.2M/wk | `clawhub install vault-secrets-rotation-orchestrator` |
 | [HashiCorp Vault MCP Server](../../skills/hashicorp-vault-mcp-server/) | Security Reviewed | 35.3k | — | `clawhub install hashicorp-vault-mcp-server` |
 | [HashiCorp Vault Secret Rotation Agent](../../skills/hashicorp-vault-secret-rotation-agent-2/) | Security Reviewed | 35.3k | — | `clawhub install hashicorp-vault-secret-rotation-agent-2` |
@@ -84,7 +84,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Trivy Container Security Scanner](../../skills/trivy-container-security-scanner/) | Security Reviewed | 33.9k | — | `clawhub install trivy-container-security-scanner` |
 | [Trivy Container Vulnerability Scanner](../../skills/trivy-container-vulnerability-scanner/) | Security Reviewed | 33.9k | — | `clawhub install trivy-container-vulnerability-scanner` |
 | [Trivy Vulnerability Scanner Pipeline](../../skills/trivy-vulnerability-scanner-pipeline/) | Security Reviewed | 33.9k | — | `clawhub install trivy-vulnerability-scanner-pipeline` |
-| [Discord Moderation Bot with AI Classification](../../skills/discord-moderation-ai-classification/) | Listed | 26.6k | 508.8k/wk | `clawhub install discord-moderation-ai-classification` |
+| [Discord Moderation Bot with AI Classification](../../skills/discord-moderation-ai-classification/) | Security Reviewed | 26.6k | 508.8k/wk | `clawhub install discord-moderation-ai-classification` |
 | [npm Dependency Audit Scanner](../../skills/npm-dependency-audit-scanner/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install npm-dependency-audit-scanner` |
 | [OWASP ZAP Active Scanner Agent](../../skills/owasp-zap-active-scanner-agent/) | Security Reviewed | 14.9k | — | `clawhub install owasp-zap-active-scanner-agent` |
 | [OWASP ZAP API Fuzzer](../../skills/owasp-zap-api-fuzzer/) | Security Reviewed | 14.9k | — | `clawhub install owasp-zap-api-fuzzer` |
@@ -94,11 +94,11 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [OWASP ZAP Automated Pen Testing Agent](../../skills/owasp-zap-automated-pen-testing-agent/) | Security Reviewed | 14.9k | — | `clawhub install owasp-zap-automated-pen-testing-agent` |
 | [OWASP ZAP Automated Scan Orchestrator](../../skills/owasp-zap-automated-scan-orchestrator/) | Security Reviewed | 14.9k | — | `clawhub install owasp-zap-automated-scan-orchestrator` |
 | [OWASP ZAP Scan Orchestrator](../../skills/owasp-zap-scan-orchestrator/) | Security Reviewed | 14.9k | — | `clawhub install owasp-zap-scan-orchestrator` |
-| [OWASP ZAP Scanner](../../skills/owasp-zap-scanner/) | Listed | 14.9k | — | `clawhub install owasp-zap-scanner` |
+| [OWASP ZAP Scanner](../../skills/owasp-zap-scanner/) | Verified Metadata | 14.9k | — | `clawhub install owasp-zap-scanner` |
 | [OWASP ZAP Scanner Agent](../../skills/owasp-zap-scanner-agent/) | Security Reviewed | 14.9k | — | `clawhub install owasp-zap-scanner-agent` |
 | [OWASP ZAP Security Audit Skill](../../skills/owasp-zap-security-audit-skill/) | Security Reviewed | 14.9k | — | `clawhub install owasp-zap-security-audit-skill` |
 | [OWASP ZAP Security Scanner Agent](../../skills/owasp-zap-security-scanner-agent/) | Security Reviewed | 14.9k | — | `clawhub install owasp-zap-security-scanner-agent` |
-| [Security Audit Skill](../../skills/security-audit-skill/) | Listed | 14.9k | — | `clawhub install security-audit-skill` |
+| [Security Audit Skill](../../skills/security-audit-skill/) | Verified Metadata | 14.9k | — | `clawhub install security-audit-skill` |
 | [ZAP Automated Security Scan Orchestrator](../../skills/zap-automated-security-scan-orchestrator/) | Security Reviewed | 14.9k | — | `clawhub install zap-automated-security-scan-orchestrator` |
 | [SAST Pipeline Scanner](../../skills/sast-pipeline-scanner/) | Security Reviewed | 14.5k | — | `clawhub install sast-pipeline-scanner` |
 | [SAST Rule Compiler for Semgrep](../../skills/sast-rule-compiler-semgrep/) | Security Reviewed | 14.5k | — | `clawhub install sast-rule-compiler-semgrep` |
@@ -118,16 +118,17 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Git Secrets Pre-Commit Scanner](../../skills/git-secrets-precommit-scanner/) | Security Reviewed | 4.4k | 8.4M/wk | `clawhub install git-secrets-precommit-scanner` |
 | [Stripe Webhook Signature Verifier](../../skills/stripe-webhook-signature-verifier/) | Security Reviewed | 4.4k | 8.4M/wk | `clawhub install stripe-webhook-signature-verifier` |
 | [AWS CloudTrail Log Normalizer](../../skills/aws-cloudtrail-log-normalizer/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-cloudtrail-log-normalizer` |
-| [AWS IAM Privilege Escalation Audit](../../skills/aws-iam-privilege-escalation-audit/) | Listed | 3.6k | 9.2M/wk | `clawhub install aws-iam-privilege-escalation-audit` |
+| [AWS IAM Privilege Escalation Audit](../../skills/aws-iam-privilege-escalation-audit/) | Verified Metadata | 3.6k | 9.2M/wk | `clawhub install aws-iam-privilege-escalation-audit` |
 | [Checkov Infrastructure Policy Scanner](../../skills/checkov-infrastructure-policy-scanner/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install checkov-infrastructure-policy-scanner` |
 | [CloudTrail Anomaly Detection Agent](../../skills/cloudtrail-anomaly-detection-agent/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install cloudtrail-anomaly-detection-agent` |
 | [SSL Certificate Auditor](../../skills/ssl-certificate-auditor-agent/) | Security Reviewed | 3.1k | 3.3M/wk | `clawhub install ssl-certificate-auditor-agent` |
 | [TLS Certificate Chain Analyzer](../../skills/tls-certificate-chain-analyzer/) | Security Reviewed | 1.9k | 1M/wk | `clawhub install tls-certificate-chain-analyzer` |
-| [DocuSign Contract Auto-Sender with Conditional Logic](../../skills/docusign-contract-auto-sender/) | Listed | 1.5k | 804.8k/wk | `clawhub install docusign-contract-auto-sender` |
-| [OAuth2 Token Introspection Agent](../../skills/oauth2-token-introspection-agent/) | Listed | 676 | 1.2M/wk | `clawhub install oauth2-token-introspection-agent` |
+| [DocuSign Contract Auto-Sender with Conditional Logic](../../skills/docusign-contract-auto-sender/) | Security Reviewed | 1.5k | 804.8k/wk | `clawhub install docusign-contract-auto-sender` |
+| [OAuth2 Token Introspection Agent](../../skills/oauth2-token-introspection-agent/) | Security Reviewed | 676 | 1.2M/wk | `clawhub install oauth2-token-introspection-agent` |
 | [CSP Policy Analyzer](../../skills/csp-policy-analyzer/) | Security Reviewed | — | — | `clawhub install csp-policy-analyzer` |
 | [CycloneDX SBOM Generator](../../skills/cyclonedx-sbom-generator/) | Security Reviewed | — | — | `clawhub install cyclonedx-sbom-generator` |
 | [GPG Encryption and Key Management Agent](../../skills/gpg-encryption-key-management-agent/) | Security Reviewed | — | — | `clawhub install gpg-encryption-key-management-agent` |
+| [Grype Container and SBOM Vulnerability Scanner](../../skills/grype-container-sbom-vulnerability-scanner/) | Verified Metadata | — | — | `clawhub install grype-container-sbom-vulnerability-scanner` |
 | [NPM Audit Deep Scanner](../../skills/npm-audit-deep-scanner/) | Security Reviewed | — | — | `clawhub install npm-audit-deep-scanner` |
 | [npm Dependency Audit Resolver](../../skills/npm-dependency-audit-resolver/) | Security Reviewed | — | — | `clawhub install npm-dependency-audit-resolver` |
 | [Nuclei Vulnerability Template Runner](../../skills/nuclei-vulnerability-template-runner/) | Security Reviewed | — | — | `clawhub install nuclei-vulnerability-template-runner` |
@@ -141,6 +142,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [SSL Certificate Chain Validator](../../skills/ssl-certificate-chain-validator-2/) | Security Reviewed | — | — | `clawhub install ssl-certificate-chain-validator-2` |
 | [SSL/TLS Certificate Validator and Monitor](../../skills/ssl-tls-certificate-validator-monitor/) | Security Reviewed | — | — | `clawhub install ssl-tls-certificate-validator-monitor` |
 | [TLS Certificate Chain Validator](../../skills/tls-certificate-chain-validator/) | Security Reviewed | — | — | `clawhub install tls-certificate-chain-validator` |
+| [TruffleHog Credential Leak Scanner](../../skills/trufflehog-credential-leak-scanner/) | Verified Metadata | — | — | `clawhub install trufflehog-credential-leak-scanner` |
 
 ---
 
@@ -166,7 +168,7 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (137 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
 - 📚 [Library & API Reference](../library-api-reference/) (89 skills)
-- ✅ [Code Quality & Review](../code-quality-review/) (79 skills)
+- ✅ [Code Quality & Review](../code-quality-review/) (81 skills)
 
 ---
 

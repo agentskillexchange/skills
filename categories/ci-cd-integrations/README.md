@@ -10,7 +10,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 
 - **Top Starred:** 6 visible with GitHub signal data
 - **Top Downloaded:** 6 visible with npm signal data
-- **Security Reviewed:** 131 skills
+- **Security Reviewed:** 136 skills
 
 ---
 
@@ -65,20 +65,20 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Buildkite Pipeline Profiler](../../skills/buildkite-pipeline-profiler/) | Security Reviewed | 71.6k | — | `clawhub install buildkite-pipeline-profiler` |
 | [Docker Image Layer Inspector](../../skills/docker-image-layer-inspector/) | Security Reviewed | 71.6k | — | `clawhub install docker-image-layer-inspector` |
 | [Docker Image Layer Size Analyzer](../../skills/docker-image-layer-size-analyzer/) | Security Reviewed | 71.6k | — | `clawhub install docker-image-layer-size-analyzer` |
-| [Docker Image Vulnerability Triage](../../skills/docker-image-vulnerability-triage/) | Listed | 71.6k | — | `clawhub install docker-image-vulnerability-triage` |
-| [Hugging Face Model Deployer](../../skills/huggingface-model-deployer/) | Listed | 71.6k | — | `clawhub install huggingface-model-deployer` |
+| [Docker Image Vulnerability Triage](../../skills/docker-image-vulnerability-triage/) | Verified Metadata | 71.6k | — | `clawhub install docker-image-vulnerability-triage` |
+| [Hugging Face Model Deployer](../../skills/huggingface-model-deployer/) | Security Reviewed | 71.6k | — | `clawhub install huggingface-model-deployer` |
 | [Terraform Cloud Orchestrator](../../skills/terraform-cloud-orchestrator-skill/) | Security Reviewed | 48k | — | `clawhub install terraform-cloud-orchestrator-skill` |
 | [Terraform Cloud Pipeline Agent](../../skills/terraform-cloud-pipeline-agent/) | Security Reviewed | 48k | — | `clawhub install terraform-cloud-pipeline-agent` |
 | [Terraform Cloud Run Trigger](../../skills/terraform-cloud-run-trigger/) | Security Reviewed | 48k | — | `clawhub install terraform-cloud-run-trigger` |
 | [Terraform Drift Detector](../../skills/terraform-drift-detector-2/) | Security Reviewed | 48k | — | `clawhub install terraform-drift-detector-2` |
-| [Terraform Plan &#038; Apply Automation](../../skills/terraform-plan-apply-automation/) | Listed | 48k | — | `clawhub install terraform-plan-apply-automation` |
+| [Terraform Plan &amp; Apply Automation](../../skills/terraform-plan-apply-automation/) | Security Reviewed | 48k | — | `clawhub install terraform-plan-apply-automation` |
 | [Terraform Plan Analyzer](../../skills/terraform-plan-analyzer-agent/) | Security Reviewed | 48k | — | `clawhub install terraform-plan-analyzer-agent` |
 | [Terraform Plan Diff Analyzer](../../skills/terraform-plan-diff-analyzer/) | Security Reviewed | 48k | — | `clawhub install terraform-plan-diff-analyzer` |
 | [Terraform Plan Reviewer](../../skills/terraform-plan-reviewer-4/) | Security Reviewed | 48k | — | `clawhub install terraform-plan-reviewer-4` |
 | [Terraform Plan Reviewer Agent](../../skills/terraform-plan-reviewer-agent/) | Security Reviewed | 48k | — | `clawhub install terraform-plan-reviewer-agent` |
 | [Terraform Plan Validator](../../skills/terraform-plan-validator/) | Security Reviewed | 48k | — | `clawhub install terraform-plan-validator` |
 | [Terraform Plan Validator Agent](../../skills/terraform-plan-validator-agent/) | Security Reviewed | 48k | — | `clawhub install terraform-plan-validator-agent` |
-| [Helm Chart Diff &#038; Upgrade Manager](../../skills/helm-chart-diff-upgrade-manager/) | Listed | 29.6k | — | `clawhub install helm-chart-diff-upgrade-manager` |
+| [Helm Chart Diff &amp; Upgrade Manager](../../skills/helm-chart-diff-upgrade-manager/) | Security Reviewed | 29.6k | — | `clawhub install helm-chart-diff-upgrade-manager` |
 | [Jenkins Declarative Pipeline Generator](../../skills/jenkins-declarative-pipeline-generator-2/) | Security Reviewed | 25.1k | — | `clawhub install jenkins-declarative-pipeline-generator-2` |
 | [Jenkins Groovy Shared Library Auditor](../../skills/jenkins-groovy-shared-library-auditor/) | Security Reviewed | 25.1k | — | `clawhub install jenkins-groovy-shared-library-auditor` |
 | [Jenkins Pipeline Debugger](../../skills/jenkins-pipeline-debugger/) | Security Reviewed | 25.1k | — | `clawhub install jenkins-pipeline-debugger` |
@@ -102,7 +102,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Jenkins Shared Library Manager](../../skills/jenkins-shared-library-manager/) | Security Reviewed | 25.1k | — | `clawhub install jenkins-shared-library-manager` |
 | [GitLab CI Auto DevOps Configurator](../../skills/gitlab-ci-auto-devops-configurator/) | Security Reviewed | 24.3k | — | `clawhub install gitlab-ci-auto-devops-configurator` |
 | [GitLab CI Cache Optimizer](../../skills/gitlab-ci-cache-optimizer-agent/) | Security Reviewed | 24.3k | — | `clawhub install gitlab-ci-cache-optimizer-agent` |
-| [GitLab CI Integration](../../skills/gitlab-ci-integration-2/) | Listed | 24.3k | — | `clawhub install gitlab-ci-integration-2` |
+| [GitLab CI Integration](../../skills/gitlab-ci-integration-2/) | Security Reviewed | 24.3k | — | `clawhub install gitlab-ci-integration-2` |
 | [GitLab CI Merge Train Optimizer](../../skills/gitlab-ci-merge-train-optimizer/) | Security Reviewed | 24.3k | — | `clawhub install gitlab-ci-merge-train-optimizer` |
 | [GitLab CI Pipeline Cost Calculator](../../skills/gitlab-ci-pipeline-cost-calculator/) | Security Reviewed | 24.3k | — | `clawhub install gitlab-ci-pipeline-cost-calculator` |
 | [GitLab CI Pipeline Cost Estimator](../../skills/gitlab-ci-pipeline-cost-estimator/) | Security Reviewed | 24.3k | — | `clawhub install gitlab-ci-pipeline-cost-estimator` |
@@ -159,7 +159,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [GitHub Actions OIDC Token Validator](../../skills/github-actions-oidc-token-validator/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install github-actions-oidc-token-validator` |
 | [GitHub Actions OIDC Token Verifier](../../skills/github-actions-oidc-token-verifier/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install github-actions-oidc-token-verifier` |
 | [CircleCI Config Validator](../../skills/circleci-config-validator/) | Security Reviewed | 842 | — | `clawhub install circleci-config-validator` |
-| [CircleCI Flaky Test Detector](../../skills/circleci-flaky-test-detector-2/) | Listed | 842 | — | `clawhub install circleci-flaky-test-detector-2` |
+| [CircleCI Flaky Test Detector](../../skills/circleci-flaky-test-detector-2/) | Security Reviewed | 842 | — | `clawhub install circleci-flaky-test-detector-2` |
 | [CircleCI Orb Auditor](../../skills/circleci-orb-auditor/) | Security Reviewed | 842 | — | `clawhub install circleci-orb-auditor` |
 | [CircleCI Orb Builder](../../skills/circleci-orb-builder/) | Security Reviewed | 842 | — | `clawhub install circleci-orb-builder` |
 | [CircleCI Orb Builder and Publisher](../../skills/circleci-orb-builder-publisher/) | Security Reviewed | 842 | — | `clawhub install circleci-orb-builder-publisher` |
@@ -218,8 +218,8 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
 - 📚 [Library & API Reference](../library-api-reference/) (89 skills)
-- 🔒 [Security & Verification](../security-verification/) (84 skills)
-- ✅ [Code Quality & Review](../code-quality-review/) (79 skills)
+- 🔒 [Security & Verification](../security-verification/) (86 skills)
+- ✅ [Code Quality & Review](../code-quality-review/) (81 skills)
 
 ---
 

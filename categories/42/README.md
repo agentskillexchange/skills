@@ -10,7 +10,7 @@ Skills in this category.
 
 - **Top Starred:** 2 visible with GitHub signal data
 - **Top Downloaded:** 1 visible with npm signal data
-- **Security Reviewed:** 3 skills
+- **Security Reviewed:** 4 skills
 
 ---
 
@@ -37,6 +37,7 @@ Skills in this category.
 |---|---|---:|---|
 | [RunwayML Gen-3 Alpha Video Composer](../../skills/runwayml-gen-3-alpha-video-composer/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install runwayml-gen-3-alpha-video-composer` |
 | [DALL-E 3 Brand Asset Batch Generator](../../skills/dall-e-3-brand-asset-batch-generator/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install dall-e-3-brand-asset-batch-generator` |
+| [Midjourney Prompt Chain Builder](../../skills/midjourney-prompt-chain-builder/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install midjourney-prompt-chain-builder` |
 | [Stable Diffusion ControlNet Pose Pipeline](../../skills/stable-diffusion-controlnet-pose-pipeline/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install stable-diffusion-controlnet-pose-pipeline` |
 
 ---
@@ -47,7 +48,7 @@ Skills in this category.
 |---|---|---:|---:|---|
 | [RunwayML Gen-3 Alpha Video Composer](../../skills/runwayml-gen-3-alpha-video-composer/) | Security Reviewed | 58.3k | — | `clawhub install runwayml-gen-3-alpha-video-composer` |
 | [DALL-E 3 Brand Asset Batch Generator](../../skills/dall-e-3-brand-asset-batch-generator/) | Security Reviewed | 10.8k | 16.3M/wk | `clawhub install dall-e-3-brand-asset-batch-generator` |
-| [Midjourney Prompt Chain Builder](../../skills/midjourney-prompt-chain-builder/) | Listed | — | — | `clawhub install midjourney-prompt-chain-builder` |
+| [Midjourney Prompt Chain Builder](../../skills/midjourney-prompt-chain-builder/) | Security Reviewed | — | — | `clawhub install midjourney-prompt-chain-builder` |
 | [Stable Diffusion ControlNet Pose Pipeline](../../skills/stable-diffusion-controlnet-pose-pipeline/) | Security Reviewed | — | — | `clawhub install stable-diffusion-controlnet-pose-pipeline` |
 
 ---
@@ -74,7 +75,7 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (137 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
 - 📚 [Library & API Reference](../library-api-reference/) (89 skills)
-- 🔒 [Security & Verification](../security-verification/) (84 skills)
+- 🔒 [Security & Verification](../security-verification/) (86 skills)
 
 ---
 

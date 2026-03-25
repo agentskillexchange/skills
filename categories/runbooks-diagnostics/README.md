@@ -10,7 +10,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 
 - **Top Starred:** 6 visible with GitHub signal data
 - **Top Downloaded:** 6 visible with npm signal data
-- **Security Reviewed:** 103 skills
+- **Security Reviewed:** 112 skills
 
 ---
 
@@ -32,7 +32,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | Skill | Tier | Signal | Install |
 |---|---|---:|---|
 | [Ansible Playbook Dry-Run Validator](../../skills/ansible-playbook-dryrun-validator-agent/) | Security Reviewed | ⬇ 9.2M/wk | `clawhub install ansible-playbook-dryrun-validator-agent` |
-| [Ansible Playbook Runner with Vault Secrets](../../skills/ansible-playbook-vault-runner/) | Listed | ⬇ 9.2M/wk | `clawhub install ansible-playbook-vault-runner` |
+| [Ansible Playbook Runner with Vault Secrets](../../skills/ansible-playbook-vault-runner/) | Security Reviewed | ⬇ 9.2M/wk | `clawhub install ansible-playbook-vault-runner` |
 | [Prometheus Alert Resolver](../../skills/prometheus-alert-resolver-skill/) | Security Reviewed | ⬇ 5.3M/wk | `clawhub install prometheus-alert-resolver-skill` |
 | [Prometheus Alert Rule Tester](../../skills/prometheus-alert-rule-tester/) | Security Reviewed | ⬇ 5.3M/wk | `clawhub install prometheus-alert-rule-tester` |
 | [Prometheus Alert Runbook](../../skills/prometheus-alert-runbook/) | Security Reviewed | ⬇ 5.3M/wk | `clawhub install prometheus-alert-runbook` |
@@ -80,14 +80,14 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Kubernetes Runbook Executor](../../skills/kubernetes-runbook-executor-2/) | Security Reviewed | 121.3k | — | `clawhub install kubernetes-runbook-executor-2` |
 | [Kubernetes Runbook Generator](../../skills/kubernetes-runbook-generator/) | Security Reviewed | 121.3k | — | `clawhub install kubernetes-runbook-generator` |
 | [Kubernetes Troubleshoot Analyzer](../../skills/kubernetes-troubleshoot-analyzer/) | Security Reviewed | 121.3k | — | `clawhub install kubernetes-troubleshoot-analyzer` |
-| [Pod CrashLoop Runbook](../../skills/pod-crashloop-runbook/) | Listed | 121.3k | — | `clawhub install pod-crashloop-runbook` |
+| [Pod CrashLoop Runbook](../../skills/pod-crashloop-runbook/) | Security Reviewed | 121.3k | — | `clawhub install pod-crashloop-runbook` |
 | [Docker Compose Health Checker](../../skills/docker-compose-health-checker/) | Security Reviewed | 71.6k | — | `clawhub install docker-compose-health-checker` |
 | [Docker Compose Health Monitor](../../skills/docker-compose-health-monitor/) | Security Reviewed | 71.6k | — | `clawhub install docker-compose-health-monitor` |
 | [Docker Container Health Check Runbook](../../skills/docker-container-health-check-runbook/) | Security Reviewed | 71.6k | — | `clawhub install docker-container-health-check-runbook` |
 | [Docker Container Health Inspector](../../skills/docker-container-health-inspector/) | Security Reviewed | 71.6k | — | `clawhub install docker-container-health-inspector` |
 | [Dockerfile Security Hardening Advisor](../../skills/dockerfile-security-hardening-advisor/) | Security Reviewed | 71.6k | — | `clawhub install dockerfile-security-hardening-advisor` |
 | [Ansible Playbook Dry-Run Validator](../../skills/ansible-playbook-dryrun-validator-agent/) | Security Reviewed | 68.4k | 9.2M/wk | `clawhub install ansible-playbook-dryrun-validator-agent` |
-| [Ansible Playbook Runner with Vault Secrets](../../skills/ansible-playbook-vault-runner/) | Listed | 68.4k | 9.2M/wk | `clawhub install ansible-playbook-vault-runner` |
+| [Ansible Playbook Runner with Vault Secrets](../../skills/ansible-playbook-vault-runner/) | Security Reviewed | 68.4k | 9.2M/wk | `clawhub install ansible-playbook-vault-runner` |
 | [Ansible Playbook Debugger](../../skills/ansible-playbook-debugger/) | Security Reviewed | 68.4k | — | `clawhub install ansible-playbook-debugger` |
 | [Ansible Playbook Diagnostics Runner](../../skills/ansible-playbook-diagnostics-runner/) | Security Reviewed | 68.4k | — | `clawhub install ansible-playbook-diagnostics-runner` |
 | [Ansible Playbook Dry Run Validator](../../skills/ansible-playbook-dry-run-validator/) | Security Reviewed | 68.4k | — | `clawhub install ansible-playbook-dry-run-validator` |
@@ -118,12 +118,12 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Nginx Error Log Runbook Agent](../../skills/nginx-error-log-runbook-agent/) | Security Reviewed | 29.8k | — | `clawhub install nginx-error-log-runbook-agent` |
 | [Nginx Error Pattern Analyzer](../../skills/nginx-error-pattern-analyzer-agent/) | Security Reviewed | 29.8k | — | `clawhub install nginx-error-pattern-analyzer-agent` |
 | [Jenkins Build Log Analyzer](../../skills/jenkins-build-log-analyzer/) | Security Reviewed | 25.1k | — | `clawhub install jenkins-build-log-analyzer` |
-| [Pulumi Drift Detector &#038; Reconciler](../../skills/pulumi-drift-detector-reconciler/) | Listed | 24.9k | 1.5M/wk | `clawhub install pulumi-drift-detector-reconciler` |
+| [Pulumi Drift Detector &amp; Reconciler](../../skills/pulumi-drift-detector-reconciler/) | Security Reviewed | 24.9k | 1.5M/wk | `clawhub install pulumi-drift-detector-reconciler` |
 | [ArgoCD Application Health Runbook](../../skills/argocd-application-health-runbook/) | Security Reviewed | 22.4k | — | `clawhub install argocd-application-health-runbook` |
 | [ArgoCD Deployment Runbook Agent](../../skills/argocd-deployment-runbook-agent/) | Security Reviewed | 22.4k | — | `clawhub install argocd-deployment-runbook-agent` |
 | [Incident Timeline Builder](../../skills/incident-timeline-builder/) | Security Reviewed | 5.6k | 1.1M/wk | `clawhub install incident-timeline-builder` |
 | [Apache Kafka Consumer Lag Runbook](../../skills/apache-kafka-consumer-lag-runbook/) | Security Reviewed | 4k | 2.4M/wk | `clawhub install apache-kafka-consumer-lag-runbook` |
-| [Queue Backup Runbook](../../skills/queue-backup-runbook/) | Listed | 4k | 2.4M/wk | `clawhub install queue-backup-runbook` |
+| [Queue Backup Runbook](../../skills/queue-backup-runbook/) | Security Reviewed | 4k | 2.4M/wk | `clawhub install queue-backup-runbook` |
 | [AWS CloudFormation Drift Detector](../../skills/aws-cloudformation-drift-detector-4/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-cloudformation-drift-detector-4` |
 | [AWS CloudWatch Alarm Diagnostic](../../skills/aws-cloudwatch-alarm-diagnostic/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-cloudwatch-alarm-diagnostic` |
 | [AWS CloudWatch Alarm Runbook](../../skills/aws-cloudwatch-alarm-runbook-wave48/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-cloudwatch-alarm-runbook-wave48` |
@@ -141,7 +141,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [AWS Systems Manager Runbook](../../skills/aws-ssm-runbook-executor/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-ssm-runbook-executor` |
 | [AWS Systems Manager Runbook Engine](../../skills/aws-ssm-runbook-engine/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-ssm-runbook-engine` |
 | [AWS CloudFormation Stack Diagnostics](../../skills/aws-cloudformation-stack-diagnostics/) | Security Reviewed | 2.6k | 9.2M/wk | `clawhub install aws-cloudformation-stack-diagnostics` |
-| [Datadog Incident Runbook Runner](../../skills/datadog-incident-runbook-runner-2/) | Listed | 787 | 6M/wk | `clawhub install datadog-incident-runbook-runner-2` |
+| [Datadog Incident Runbook Runner](../../skills/datadog-incident-runbook-runner-2/) | Security Reviewed | 787 | 6M/wk | `clawhub install datadog-incident-runbook-runner-2` |
 | [Datadog Synthetics Failure Triage Skill](../../skills/datadog-synthetics-failure-triage-skill/) | Security Reviewed | 787 | 6M/wk | `clawhub install datadog-synthetics-failure-triage-skill` |
 | [Datadog Triage Playbook](../../skills/datadog-triage-playbook/) | Security Reviewed | 787 | 6M/wk | `clawhub install datadog-triage-playbook` |
 | [Incident Postmortem Generator](../../skills/incident-postmortem-generator/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install incident-postmortem-generator` |
@@ -151,9 +151,9 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [PagerDuty Incident Runbook Automator](../../skills/pagerduty-incident-runbook-automator/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install pagerduty-incident-runbook-automator` |
 | [PagerDuty Incident Runbook Engine](../../skills/pagerduty-incident-runbook-engine/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install pagerduty-incident-runbook-engine` |
 | [PagerDuty Incident Runbook Executor](../../skills/pagerduty-incident-runbook-executor/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install pagerduty-incident-runbook-executor` |
-| [PagerDuty On-Call Escalation Checker](../../skills/pagerduty-on-call-escalation-checker-2/) | Listed | 69 | 210.8k/wk | `clawhub install pagerduty-on-call-escalation-checker-2` |
+| [PagerDuty On-Call Escalation Checker](../../skills/pagerduty-on-call-escalation-checker-2/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install pagerduty-on-call-escalation-checker-2` |
 | [Database Migration Validator](../../skills/database-migration-validator/) | Security Reviewed | — | 21.4M/wk | `clawhub install database-migration-validator` |
-| [PostgreSQL Diagnostic Analyzer](../../skills/postgresql-diagnostic-analyzer/) | Listed | — | 21.4M/wk | `clawhub install postgresql-diagnostic-analyzer` |
+| [PostgreSQL Diagnostic Analyzer](../../skills/postgresql-diagnostic-analyzer/) | Security Reviewed | — | 21.4M/wk | `clawhub install postgresql-diagnostic-analyzer` |
 | [PostgreSQL Diagnostic Runbook](../../skills/postgresql-diagnostic-runbook/) | Security Reviewed | — | 21.4M/wk | `clawhub install postgresql-diagnostic-runbook` |
 | [PostgreSQL Health Diagnostics Agent](../../skills/postgresql-health-diagnostics-agent/) | Security Reviewed | — | 21.4M/wk | `clawhub install postgresql-health-diagnostics-agent` |
 | [PostgreSQL Performance Diagnostic Suite](../../skills/postgresql-performance-diagnostic-suite/) | Security Reviewed | — | 21.4M/wk | `clawhub install postgresql-performance-diagnostic-suite` |
@@ -162,8 +162,8 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [PostgreSQL Query Analyzer](../../skills/postgresql-query-analyzer/) | Security Reviewed | — | 21.4M/wk | `clawhub install postgresql-query-analyzer` |
 | [PostgreSQL Query Diagnostics](../../skills/postgresql-query-diagnostics/) | Security Reviewed | — | 21.4M/wk | `clawhub install postgresql-query-diagnostics` |
 | [PostgreSQL Query Plan Diagnostics](../../skills/postgresql-query-plan-diagnostics-wave48/) | Verified Metadata | — | 21.4M/wk | `clawhub install postgresql-query-plan-diagnostics-wave48` |
-| [PostgreSQL Query Plan Explainer](../../skills/postgresql-query-plan-explainer/) | Listed | — | 21.4M/wk | `clawhub install postgresql-query-plan-explainer` |
-| [PostgreSQL Slow Query Analyzer](../../skills/postgresql-slow-query-analyzer/) | Listed | — | 21.4M/wk | `clawhub install postgresql-slow-query-analyzer` |
+| [PostgreSQL Query Plan Explainer](../../skills/postgresql-query-plan-explainer/) | Security Reviewed | — | 21.4M/wk | `clawhub install postgresql-query-plan-explainer` |
+| [PostgreSQL Slow Query Analyzer](../../skills/postgresql-slow-query-analyzer/) | Security Reviewed | — | 21.4M/wk | `clawhub install postgresql-slow-query-analyzer` |
 | [PostgreSQL Slow Query Runbook](../../skills/postgresql-slow-query-runbook-agent/) | Security Reviewed | — | 21.4M/wk | `clawhub install postgresql-slow-query-runbook-agent` |
 | [PostgreSQL Vacuum Deadlock Runbook](../../skills/postgresql-vacuum-deadlock-runbook/) | Security Reviewed | — | 21.4M/wk | `clawhub install postgresql-vacuum-deadlock-runbook` |
 | [Incident Response Playbook Runner](../../skills/incident-response-playbook-runner/) | Security Reviewed | — | — | `clawhub install incident-response-playbook-runner` |
@@ -194,8 +194,8 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (137 skills)
 - 📚 [Library & API Reference](../library-api-reference/) (89 skills)
-- 🔒 [Security & Verification](../security-verification/) (84 skills)
-- ✅ [Code Quality & Review](../code-quality-review/) (79 skills)
+- 🔒 [Security & Verification](../security-verification/) (86 skills)
+- ✅ [Code Quality & Review](../code-quality-review/) (81 skills)
 
 ---
 
