@@ -1,6 +1,6 @@
 # 🌐 Browser Automation
 
-> **45 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation)
+> **46 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation)
 
 Web scraping, UI testing, headless browser control, and browser-based automation.
 
@@ -102,6 +102,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Selenium Grid Session Router](../../skills/selenium-grid-session-router/) | Security Reviewed | 34.2k | 2M/wk | `clawhub install selenium-grid-session-router` |
 | [Selenium Grid Test Orchestrator](../../skills/selenium-grid-test-orchestrator-2/) | Security Reviewed | 34.2k | 2M/wk | `clawhub install selenium-grid-test-orchestrator-2` |
 | [CDP Network Interception Logger](../../skills/cdp-network-interception-logger/) | Verified Metadata | 789 | 6M/wk | `clawhub install cdp-network-interception-logger` |
+| [Playwright MCP Server for Browser Automation](../../skills/playwright-mcp-server-browser-automation/) | Verified Metadata | — | — | `clawhub install playwright-mcp-server-browser-automation` |
 
 ---
 
@@ -126,7 +127,7 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (140 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (102 skills)
+- 🛠️ [Developer Tools](../developer-tools/) (105 skills)
 - 🔒 [Security & Verification](../security-verification/) (93 skills)
 
 ---

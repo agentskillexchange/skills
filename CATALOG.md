@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1197 skills** across **20 categories** · Updated 2026-03-25 17:12 UTC
+> **1204 skills** across **20 categories** · Updated 2026-03-25 18:15 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -10,12 +10,12 @@
 
 | Metric | Value |
 |--------|-------|
-| Total Skills | **1197** |
+| Total Skills | **1204** |
 | Categories | **20** |
 | Frameworks | **20** |
 | Skills with live signal data | **915** |
 | Security Reviewed | **1138** |
-| Verified Metadata | **59** |
+| Verified Metadata | **66** |
 | Listed | **0** |
 
 > These verification counts are **final-state buckets**, not cumulative stages.
@@ -293,7 +293,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Systemd Service Recovery Playbook](skills/systemd-service-recovery-playbook-2/) | Security Reviewed | — | — | `clawhub install systemd-service-recovery-playbook-2` |
 
 
-### 🛠️ Developer Tools (102 skills)
+### 🛠️ Developer Tools (105 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -396,9 +396,12 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [ripgrep Recursive Regex Search Tool](skills/ripgrep-recursive-regex-search-tool/) | Security Reviewed | — | — | `clawhub install ripgrep-recursive-regex-search-tool` |
 | [Starship Cross-Shell Prompt Configurator](skills/starship-cross-shell-prompt-configurator/) | Verified Metadata | — | — | `clawhub install starship-cross-shell-prompt-configurator` |
 | [Task Taskfile Build Automation Runner](skills/task-taskfile-build-automation-runner/) | Verified Metadata | — | — | `clawhub install task-taskfile-build-automation-runner` |
+| [Terraform MCP Server for Infrastructure as Code](skills/terraform-mcp-server-infrastructure-as-code/) | Verified Metadata | — | — | `clawhub install terraform-mcp-server-infrastructure-as-code` |
 | [VHS Terminal Session Recorder and GIF Generator](skills/vhs-terminal-session-recorder-gif-generator/) | Verified Metadata | — | — | `clawhub install vhs-terminal-session-recorder-gif-generator` |
 | [VS Code Extension Debugger](skills/vscode-extension-debugger-dap-protocol/) | Security Reviewed | — | — | `clawhub install vscode-extension-debugger-dap-protocol` |
 | [WASM Component Model Linker](skills/wasm-component-model-linker/) | Security Reviewed | — | — | `clawhub install wasm-component-model-linker` |
+| [Yazi Async Terminal File Manager](skills/yazi-async-terminal-file-manager/) | Verified Metadata | — | — | `clawhub install yazi-async-terminal-file-manager` |
+| [Zellij Terminal Workspace and Multiplexer](skills/zellij-terminal-workspace-multiplexer/) | Verified Metadata | — | — | `clawhub install zellij-terminal-workspace-multiplexer` |
 | [zoxide Smart Directory Navigation CLI](skills/zoxide-smart-directory-navigation-cli/) | Verified Metadata | — | — | `clawhub install zoxide-smart-directory-navigation-cli` |
 | [zx JavaScript Shell Script Runner](skills/zx-javascript-shell-script-runner/) | Verified Metadata | — | — | `clawhub install zx-javascript-shell-script-runner` |
 
@@ -786,7 +789,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [tokei Code Statistics Counter](skills/tokei-code-statistics-counter/) | Verified Metadata | — | — | `clawhub install tokei-code-statistics-counter` |
 
 
-### 📊 Monitoring & Alerts (77 skills)
+### 📊 Monitoring & Alerts (78 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=downloads)
 
@@ -869,6 +872,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [PagerDuty MCP Server](skills/pagerduty-mcp-server/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install pagerduty-mcp-server` |
 | [Uptime Robot Multi-Check Coordinator](skills/uptime-robot-multi-check-coordinator/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install uptime-robot-multi-check-coordinator` |
 | [OpsGenie MCP Server](skills/opsgenie-mcp-server/) | Security Reviewed | 24 | 9.1k/wk | `clawhub install opsgenie-mcp-server` |
+| [Sentry MCP Server for Error Tracking and Performance](skills/sentry-mcp-server-error-tracking-performance/) | Verified Metadata | — | — | `clawhub install sentry-mcp-server-error-tracking-performance` |
 
 
 ### 📄 Templates & Workflows (61 skills)
@@ -1114,7 +1118,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Shodan Network Reconnaissance Agent](skills/shodan-network-reconnaissance-agent/) | Security Reviewed | — | — | `clawhub install shodan-network-reconnaissance-agent` |
 
 
-### 🌐 Browser Automation (45 skills)
+### 🌐 Browser Automation (46 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=downloads)
 
@@ -1165,6 +1169,55 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Selenium Grid Session Router](skills/selenium-grid-session-router/) | Security Reviewed | 34.2k | 2M/wk | `clawhub install selenium-grid-session-router` |
 | [Selenium Grid Test Orchestrator](skills/selenium-grid-test-orchestrator-2/) | Security Reviewed | 34.2k | 2M/wk | `clawhub install selenium-grid-test-orchestrator-2` |
 | [CDP Network Interception Logger](skills/cdp-network-interception-logger/) | Verified Metadata | 789 | 6M/wk | `clawhub install cdp-network-interception-logger` |
+| [Playwright MCP Server for Browser Automation](skills/playwright-mcp-server-browser-automation/) | Verified Metadata | — | — | `clawhub install playwright-mcp-server-browser-automation` |
+
+
+### 🔗 Integrations & Connectors (40 skills)
+
+Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
+
+| Skill | Tier | GitHub Stars | npm Downloads | Install |
+|---|---|---:|---:|---|
+| [Terraform Cloud Run Inspector](skills/terraform-cloud-run-inspector-2/) | Security Reviewed | 48k | — | `clawhub install terraform-cloud-run-inspector-2` |
+| [Linear Issue Triage &amp; Sprint Planner](skills/linear-issue-triage-sprint-planner-2/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install linear-issue-triage-sprint-planner-2` |
+| [Shopify Admin GraphQL Sync Agent](skills/shopify-admin-graphql-sync-agent/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install shopify-admin-graphql-sync-agent` |
+| [Ingestr Cross-Database Data Copier](skills/ingestr-cross-database-data-copier/) | Security Reviewed | 5.6k | 1.1M/wk | `clawhub install ingestr-cross-database-data-copier` |
+| [Notion Database Sync &amp; Page Generator](skills/notion-database-sync-page-generator-2/) | Security Reviewed | 5.6k | 1.1M/wk | `clawhub install notion-database-sync-page-generator-2` |
+| [Stripe Connect Account Provisioner](skills/stripe-connect-account-provisioner/) | Security Reviewed | 4.4k | 8.4M/wk | `clawhub install stripe-connect-account-provisioner` |
+| [Stripe Connect Integration](skills/stripe-connect-integration/) | Security Reviewed | 4.4k | 8.4M/wk | `clawhub install stripe-connect-integration` |
+| [Stripe Connect Marketplace Sync](skills/stripe-connect-marketplace-sync/) | Security Reviewed | 4.4k | 8.4M/wk | `clawhub install stripe-connect-marketplace-sync` |
+| [Stripe Connect Platform Bridge](skills/stripe-connect-platform-bridge/) | Security Reviewed | 4.4k | 8.4M/wk | `clawhub install stripe-connect-platform-bridge` |
+| [Stripe MCP Server](skills/stripe-mcp-server/) | Security Reviewed | 4.4k | 8.4M/wk | `clawhub install stripe-mcp-server` |
+| [Stripe Payment Flow Connector](skills/stripe-payment-flow-connector/) | Security Reviewed | 4.4k | 8.4M/wk | `clawhub install stripe-payment-flow-connector` |
+| [Stripe Payments Connector](skills/stripe-payments-connector/) | Security Reviewed | 4.4k | 8.4M/wk | `clawhub install stripe-payments-connector` |
+| [Stripe Reporting Agent](skills/stripe-reporting-agent/) | Security Reviewed | 4.4k | 8.4M/wk | `clawhub install stripe-reporting-agent` |
+| [Stripe Revenue Reconciliation Agent](skills/stripe-revenue-reconciliation-agent/) | Security Reviewed | 4.4k | 8.4M/wk | `clawhub install stripe-revenue-reconciliation-agent` |
+| [AWS S3 &#038; SQS Pipeline Connector](skills/aws-s3-sqs-pipeline-connector/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-s3-sqs-pipeline-connector` |
+| [GitHub Discussions Community Digest](skills/github-discussions-community-digest/) | Security Reviewed | 3.1k | 3.3M/wk | `clawhub install github-discussions-community-digest` |
+| [SendGrid MCP Server](skills/sendgrid-mcp-server/) | Security Reviewed | 3.1k | 3.3M/wk | `clawhub install sendgrid-mcp-server` |
+| [SendGrid Transactional Email Builder](skills/sendgrid-transactional-email-builder/) | Security Reviewed | 3.1k | 3.3M/wk | `clawhub install sendgrid-transactional-email-builder` |
+| [SendGrid Transactional Email Router](skills/sendgrid-transactional-email-router/) | Security Reviewed | 3.1k | 3.3M/wk | `clawhub install sendgrid-transactional-email-router` |
+| [Slack Bolt Event Subscription Debugger](skills/slack-bolt-event-subscription-debugger/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install slack-bolt-event-subscription-debugger` |
+| [Slack Channel Summarizer &amp; Triage Bot](skills/slack-channel-summarizer-triage/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install slack-channel-summarizer-triage` |
+| [Zapier Webhooks by Zapier Router](skills/zapier-webhooks-by-zapier-router/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install zapier-webhooks-by-zapier-router` |
+| [AssemblyAI Real-Time Call Intelligence](skills/assemblyai-realtime-call-intelligence/) | Security Reviewed | 1.5k | 3.8M/wk | `clawhub install assemblyai-realtime-call-intelligence` |
+| [Twilio MCP Server](skills/twilio-mcp-server/) | Security Reviewed | 1.5k | 3.8M/wk | `clawhub install twilio-mcp-server` |
+| [Twilio Programmable SMS Gateway](skills/twilio-programmable-sms-gateway/) | Security Reviewed | 1.5k | 3.8M/wk | `clawhub install twilio-programmable-sms-gateway` |
+| [Twilio Programmable Voice Router](skills/twilio-programmable-voice-router-2/) | Security Reviewed | 1.5k | 3.8M/wk | `clawhub install twilio-programmable-voice-router-2` |
+| [Twilio SMS &#038; Voice Bridge](skills/twilio-sms-voice-bridge/) | Security Reviewed | 1.5k | 3.8M/wk | `clawhub install twilio-sms-voice-bridge` |
+| [Salesforce Bulk API Sync Agent](skills/salesforce-bulk-api-sync-agent/) | Security Reviewed | 1.5k | 804.8k/wk | `clawhub install salesforce-bulk-api-sync-agent` |
+| [Salesforce CRM Sync Agent](skills/salesforce-crm-sync-agent/) | Security Reviewed | 1.5k | 804.8k/wk | `clawhub install salesforce-crm-sync-agent` |
+| [Salesforce MCP Server](skills/salesforce-mcp-server/) | Security Reviewed | 1.5k | 804.8k/wk | `clawhub install salesforce-mcp-server` |
+| [Datadog Integration Connector](skills/datadog-integration-connector-agent/) | Security Reviewed | 789 | 6M/wk | `clawhub install datadog-integration-connector-agent` |
+| [HubSpot CRM Contact Enrichment Pipeline](skills/hubspot-crm-contact-enrichment-pipeline/) | Security Reviewed | 391 | 905.6k/wk | `clawhub install hubspot-crm-contact-enrichment-pipeline` |
+| [HubSpot MCP Server](skills/hubspot-mcp-server/) | Security Reviewed | 391 | 905.6k/wk | `clawhub install hubspot-mcp-server` |
+| [Zapier Multi-Step Lead Enrichment Workflow](skills/zapier-lead-enrichment-workflow/) | Security Reviewed | 391 | 905.6k/wk | `clawhub install zapier-lead-enrichment-workflow` |
+| [Neon Serverless Postgres MCP](skills/neon-serverless-postgres-mcp/) | Security Reviewed | — | 21.4M/wk | `clawhub install neon-serverless-postgres-mcp` |
+| [AWS MCP Servers for Cloud Service Integration](skills/aws-mcp-servers-cloud-service-integration/) | Verified Metadata | — | — | `clawhub install aws-mcp-servers-cloud-service-integration` |
+| [MongoDB MCP Server for Database and Atlas Management](skills/mongodb-mcp-server-database-atlas-management/) | Verified Metadata | — | — | `clawhub install mongodb-mcp-server-database-atlas-management` |
+| [n8n Workflow Webhook Bridge](skills/n8n-workflow-webhook-bridge/) | Security Reviewed | — | — | `clawhub install n8n-workflow-webhook-bridge` |
+| [Plaid Financial Data Connector](skills/plaid-financial-data-connector/) | Security Reviewed | — | — | `clawhub install plaid-financial-data-connector` |
+| [Zapier Webhook Integration Builder](skills/zapier-webhook-integration-builder/) | Security Reviewed | — | — | `clawhub install zapier-webhook-integration-builder` |
 
 
 ### 🎙️ Media & Transcription (40 skills)
@@ -1213,52 +1266,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Medi
 | [GStreamer Pipeline Graph Optimizer](skills/gstreamer-pipeline-graph-optimizer/) | Security Reviewed | — | — | `clawhub install gstreamer-pipeline-graph-optimizer` |
 | [Podcast RSS Feed Builder](skills/podcast-rss-feed-builder/) | Security Reviewed | — | — | `clawhub install podcast-rss-feed-builder` |
 | [YouTube Chapter Generator from Transcripts](skills/youtube-chapter-generator-transcripts/) | Security Reviewed | — | — | `clawhub install youtube-chapter-generator-transcripts` |
-
-
-### 🔗 Integrations & Connectors (38 skills)
-
-Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
-
-| Skill | Tier | GitHub Stars | npm Downloads | Install |
-|---|---|---:|---:|---|
-| [Terraform Cloud Run Inspector](skills/terraform-cloud-run-inspector-2/) | Security Reviewed | 48k | — | `clawhub install terraform-cloud-run-inspector-2` |
-| [Linear Issue Triage &amp; Sprint Planner](skills/linear-issue-triage-sprint-planner-2/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install linear-issue-triage-sprint-planner-2` |
-| [Shopify Admin GraphQL Sync Agent](skills/shopify-admin-graphql-sync-agent/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install shopify-admin-graphql-sync-agent` |
-| [Ingestr Cross-Database Data Copier](skills/ingestr-cross-database-data-copier/) | Security Reviewed | 5.6k | 1.1M/wk | `clawhub install ingestr-cross-database-data-copier` |
-| [Notion Database Sync &amp; Page Generator](skills/notion-database-sync-page-generator-2/) | Security Reviewed | 5.6k | 1.1M/wk | `clawhub install notion-database-sync-page-generator-2` |
-| [Stripe Connect Account Provisioner](skills/stripe-connect-account-provisioner/) | Security Reviewed | 4.4k | 8.4M/wk | `clawhub install stripe-connect-account-provisioner` |
-| [Stripe Connect Integration](skills/stripe-connect-integration/) | Security Reviewed | 4.4k | 8.4M/wk | `clawhub install stripe-connect-integration` |
-| [Stripe Connect Marketplace Sync](skills/stripe-connect-marketplace-sync/) | Security Reviewed | 4.4k | 8.4M/wk | `clawhub install stripe-connect-marketplace-sync` |
-| [Stripe Connect Platform Bridge](skills/stripe-connect-platform-bridge/) | Security Reviewed | 4.4k | 8.4M/wk | `clawhub install stripe-connect-platform-bridge` |
-| [Stripe MCP Server](skills/stripe-mcp-server/) | Security Reviewed | 4.4k | 8.4M/wk | `clawhub install stripe-mcp-server` |
-| [Stripe Payment Flow Connector](skills/stripe-payment-flow-connector/) | Security Reviewed | 4.4k | 8.4M/wk | `clawhub install stripe-payment-flow-connector` |
-| [Stripe Payments Connector](skills/stripe-payments-connector/) | Security Reviewed | 4.4k | 8.4M/wk | `clawhub install stripe-payments-connector` |
-| [Stripe Reporting Agent](skills/stripe-reporting-agent/) | Security Reviewed | 4.4k | 8.4M/wk | `clawhub install stripe-reporting-agent` |
-| [Stripe Revenue Reconciliation Agent](skills/stripe-revenue-reconciliation-agent/) | Security Reviewed | 4.4k | 8.4M/wk | `clawhub install stripe-revenue-reconciliation-agent` |
-| [AWS S3 &#038; SQS Pipeline Connector](skills/aws-s3-sqs-pipeline-connector/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-s3-sqs-pipeline-connector` |
-| [GitHub Discussions Community Digest](skills/github-discussions-community-digest/) | Security Reviewed | 3.1k | 3.3M/wk | `clawhub install github-discussions-community-digest` |
-| [SendGrid MCP Server](skills/sendgrid-mcp-server/) | Security Reviewed | 3.1k | 3.3M/wk | `clawhub install sendgrid-mcp-server` |
-| [SendGrid Transactional Email Builder](skills/sendgrid-transactional-email-builder/) | Security Reviewed | 3.1k | 3.3M/wk | `clawhub install sendgrid-transactional-email-builder` |
-| [SendGrid Transactional Email Router](skills/sendgrid-transactional-email-router/) | Security Reviewed | 3.1k | 3.3M/wk | `clawhub install sendgrid-transactional-email-router` |
-| [Slack Bolt Event Subscription Debugger](skills/slack-bolt-event-subscription-debugger/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install slack-bolt-event-subscription-debugger` |
-| [Slack Channel Summarizer &amp; Triage Bot](skills/slack-channel-summarizer-triage/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install slack-channel-summarizer-triage` |
-| [Zapier Webhooks by Zapier Router](skills/zapier-webhooks-by-zapier-router/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install zapier-webhooks-by-zapier-router` |
-| [AssemblyAI Real-Time Call Intelligence](skills/assemblyai-realtime-call-intelligence/) | Security Reviewed | 1.5k | 3.8M/wk | `clawhub install assemblyai-realtime-call-intelligence` |
-| [Twilio MCP Server](skills/twilio-mcp-server/) | Security Reviewed | 1.5k | 3.8M/wk | `clawhub install twilio-mcp-server` |
-| [Twilio Programmable SMS Gateway](skills/twilio-programmable-sms-gateway/) | Security Reviewed | 1.5k | 3.8M/wk | `clawhub install twilio-programmable-sms-gateway` |
-| [Twilio Programmable Voice Router](skills/twilio-programmable-voice-router-2/) | Security Reviewed | 1.5k | 3.8M/wk | `clawhub install twilio-programmable-voice-router-2` |
-| [Twilio SMS &#038; Voice Bridge](skills/twilio-sms-voice-bridge/) | Security Reviewed | 1.5k | 3.8M/wk | `clawhub install twilio-sms-voice-bridge` |
-| [Salesforce Bulk API Sync Agent](skills/salesforce-bulk-api-sync-agent/) | Security Reviewed | 1.5k | 804.8k/wk | `clawhub install salesforce-bulk-api-sync-agent` |
-| [Salesforce CRM Sync Agent](skills/salesforce-crm-sync-agent/) | Security Reviewed | 1.5k | 804.8k/wk | `clawhub install salesforce-crm-sync-agent` |
-| [Salesforce MCP Server](skills/salesforce-mcp-server/) | Security Reviewed | 1.5k | 804.8k/wk | `clawhub install salesforce-mcp-server` |
-| [Datadog Integration Connector](skills/datadog-integration-connector-agent/) | Security Reviewed | 789 | 6M/wk | `clawhub install datadog-integration-connector-agent` |
-| [HubSpot CRM Contact Enrichment Pipeline](skills/hubspot-crm-contact-enrichment-pipeline/) | Security Reviewed | 391 | 905.6k/wk | `clawhub install hubspot-crm-contact-enrichment-pipeline` |
-| [HubSpot MCP Server](skills/hubspot-mcp-server/) | Security Reviewed | 391 | 905.6k/wk | `clawhub install hubspot-mcp-server` |
-| [Zapier Multi-Step Lead Enrichment Workflow](skills/zapier-lead-enrichment-workflow/) | Security Reviewed | 391 | 905.6k/wk | `clawhub install zapier-lead-enrichment-workflow` |
-| [Neon Serverless Postgres MCP](skills/neon-serverless-postgres-mcp/) | Security Reviewed | — | 21.4M/wk | `clawhub install neon-serverless-postgres-mcp` |
-| [n8n Workflow Webhook Bridge](skills/n8n-workflow-webhook-bridge/) | Security Reviewed | — | — | `clawhub install n8n-workflow-webhook-bridge` |
-| [Plaid Financial Data Connector](skills/plaid-financial-data-connector/) | Security Reviewed | — | — | `clawhub install plaid-financial-data-connector` |
-| [Zapier Webhook Integration Builder](skills/zapier-webhook-integration-builder/) | Security Reviewed | — | — | `clawhub install zapier-webhook-integration-builder` |
 
 
 ### ✍️ Content Writing & SEO (37 skills)
