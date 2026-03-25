@@ -1,6 +1,6 @@
 # 🔄 Data Extraction & Transformation
 
-> **85 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation)
+> **86 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation)
 
 Parsing, ETL pipelines, format conversion, data wrangling, and transformation utilities.
 
@@ -123,6 +123,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Parquet to PostgreSQL Loader](../../skills/parquet-to-postgresql-loader/) | Security Reviewed | 387 | 146.9k/wk | `clawhub install parquet-to-postgresql-loader` |
 | [Metabase Dashboard Snapshot &amp; Alerting](../../skills/metabase-dashboard-snapshot-alerting-2/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install metabase-dashboard-snapshot-alerting-2` |
 | [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | Security Reviewed | — | 21.4M/wk | `clawhub install postgresql-mcp-server` |
+| [Anyquery Universal SQL Engine with MCP Integration](../../skills/anyquery-universal-sql-engine-mcp-integration/) | Verified Metadata | — | — | `clawhub install anyquery-universal-sql-engine-mcp-integration` |
 | [Apache Tika Content Extraction Hub](../../skills/apache-tika-content-extraction-hub/) | Security Reviewed | — | — | `clawhub install apache-tika-content-extraction-hub` |
 | [Apache Tika Document Extractor](../../skills/apache-tika-document-extractor/) | Security Reviewed | — | — | `clawhub install apache-tika-document-extractor` |
 | [Apache Tika Document Parser](../../skills/apache-tika-document-parser/) | Security Reviewed | — | — | `clawhub install apache-tika-document-parser` |
@@ -164,10 +165,10 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 ## Related Categories
 
-- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (139 skills)
+- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (140 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (101 skills)
-- 🔒 [Security & Verification](../security-verification/) (91 skills)
+- 🛠️ [Developer Tools](../developer-tools/) (102 skills)
+- 🔒 [Security & Verification](../security-verification/) (93 skills)
 
 ---
 

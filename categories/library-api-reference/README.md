@@ -1,6 +1,6 @@
 # 📚 Library & API Reference
 
-> **89 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference)
+> **90 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference)
 
 SDK documentation, API guides, framework reference material, and library usage patterns.
 
@@ -110,6 +110,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [OpenTelemetry Trace Context Propagator](../../skills/opentelemetry-trace-context-propagator/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install opentelemetry-trace-context-propagator` |
 | [REST API Changelog Tracker](../../skills/rest-api-changelog-tracker/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install rest-api-changelog-tracker` |
 | [Plaid Financial Data Aggregator &amp; Budget Classifier](../../skills/plaid-financial-data-aggregator/) | Security Reviewed | — | 21.4M/wk | `clawhub install plaid-financial-data-aggregator` |
+| [Context7 MCP Documentation Server for LLM Code Editors](../../skills/context7-mcp-documentation-server-llm-code-editors/) | Verified Metadata | — | — | `clawhub install context7-mcp-documentation-server-llm-code-editors` |
 | [Doxygen Cross-Reference Indexer](../../skills/doxygen-cross-reference-indexer/) | Security Reviewed | — | — | `clawhub install doxygen-cross-reference-indexer` |
 | [GitHub REST API Paginator Library](../../skills/github-rest-api-paginator-library/) | Security Reviewed | — | — | `clawhub install github-rest-api-paginator-library` |
 | [JSDoc Type Definition Extractor](../../skills/jsdoc-type-definition-extractor/) | Security Reviewed | — | — | `clawhub install jsdoc-type-definition-extractor` |
@@ -168,10 +169,10 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 ## Related Categories
 
-- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (139 skills)
+- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (140 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (101 skills)
-- 🔒 [Security & Verification](../security-verification/) (91 skills)
+- 🛠️ [Developer Tools](../developer-tools/) (102 skills)
+- 🔒 [Security & Verification](../security-verification/) (93 skills)
 
 ---
 

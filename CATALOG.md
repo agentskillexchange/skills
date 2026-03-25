@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1191 skills** across **20 categories** · Updated 2026-03-25 13:17 UTC
+> **1197 skills** across **20 categories** · Updated 2026-03-25 14:13 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -10,12 +10,12 @@
 
 | Metric | Value |
 |--------|-------|
-| Total Skills | **1191** |
+| Total Skills | **1197** |
 | Categories | **20** |
 | Frameworks | **20** |
 | Skills with live signal data | **915** |
 | Security Reviewed | **1138** |
-| Verified Metadata | **53** |
+| Verified Metadata | **59** |
 | Listed | **0** |
 
 > These verification counts are **final-state buckets**, not cumulative stages.
@@ -24,7 +24,7 @@
 
 ## Skills by Category
 
-### 🔧 CI/CD Integrations (139 skills)
+### 🔧 CI/CD Integrations (140 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&sort=downloads)
 
@@ -168,6 +168,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [GitHub Actions Workflow Linter](skills/github-actions-workflow-linter-2/) | Security Reviewed | — | — | `clawhub install github-actions-workflow-linter-2` |
 | [GitHub Actions Workflow Optimizer](skills/github-actions-workflow-optimizer/) | Security Reviewed | — | — | `clawhub install github-actions-workflow-optimizer` |
 | [GoReleaser Cross-Platform Release Automation](skills/goreleaser-cross-platform-release-automation/) | Verified Metadata | — | — | `clawhub install goreleaser-cross-platform-release-automation` |
+| [Harden-Runner CI/CD Security Agent for GitHub Actions](skills/harden-runner-cicd-security-agent-github-actions/) | Verified Metadata | — | — | `clawhub install harden-runner-cicd-security-agent-github-actions` |
 | [npm Audit Dependency Report Generator](skills/npm-audit-dependency-report-generator/) | Security Reviewed | — | — | `clawhub install npm-audit-dependency-report-generator` |
 
 
@@ -292,7 +293,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Systemd Service Recovery Playbook](skills/systemd-service-recovery-playbook-2/) | Security Reviewed | — | — | `clawhub install systemd-service-recovery-playbook-2` |
 
 
-### 🛠️ Developer Tools (101 skills)
+### 🛠️ Developer Tools (102 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -370,6 +371,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [fzf Command-Line Fuzzy Finder](skills/fzf-command-line-fuzzy-finder/) | Security Reviewed | — | — | `clawhub install fzf-command-line-fuzzy-finder` |
 | [Git Bisect Automator](skills/git-bisect-automator/) | Security Reviewed | — | — | `clawhub install git-bisect-automator` |
 | [Git Diff Complexity Analyzer](skills/git-diff-complexity-analyzer/) | Security Reviewed | — | — | `clawhub install git-diff-complexity-analyzer` |
+| [GitHub MCP Server for AI-Powered Repository Management](skills/github-mcp-server-ai-repository-management/) | Verified Metadata | — | — | `clawhub install github-mcp-server-ai-repository-management` |
 | [GitUI Blazing Fast Terminal Git Interface](skills/gitui-terminal-git-interface/) | Verified Metadata | — | — | `clawhub install gitui-terminal-git-interface` |
 | [grpcurl Command-Line gRPC Client](skills/grpcurl-command-line-grpc-client/) | Verified Metadata | — | — | `clawhub install grpcurl-command-line-grpc-client` |
 | [Gum Interactive Shell Script Toolkit](skills/gum-interactive-shell-script-toolkit/) | Security Reviewed | — | — | `clawhub install gum-interactive-shell-script-toolkit` |
@@ -401,7 +403,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [zx JavaScript Shell Script Runner](skills/zx-javascript-shell-script-runner/) | Verified Metadata | — | — | `clawhub install zx-javascript-shell-script-runner` |
 
 
-### 🔒 Security & Verification (91 skills)
+### 🔒 Security & Verification (93 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -479,6 +481,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [DocuSign Contract Auto-Sender with Conditional Logic](skills/docusign-contract-auto-sender/) | Security Reviewed | 1.5k | 804.8k/wk | `clawhub install docusign-contract-auto-sender` |
 | [OAuth2 Token Introspection Agent](skills/oauth2-token-introspection-agent/) | Security Reviewed | 676 | 1.2M/wk | `clawhub install oauth2-token-introspection-agent` |
 | [age Modern File Encryption Tool](skills/age-modern-file-encryption-tool/) | Verified Metadata | — | — | `clawhub install age-modern-file-encryption-tool` |
+| [Bearer CLI SAST Code Security and Privacy Scanner](skills/bearer-cli-sast-code-security-privacy-scanner/) | Verified Metadata | — | — | `clawhub install bearer-cli-sast-code-security-privacy-scanner` |
 | [CSP Policy Analyzer](skills/csp-policy-analyzer/) | Security Reviewed | — | — | `clawhub install csp-policy-analyzer` |
 | [CycloneDX SBOM Generator](skills/cyclonedx-sbom-generator/) | Security Reviewed | — | — | `clawhub install cyclonedx-sbom-generator` |
 | [Gitleaks Git Repository Secret Scanner](skills/gitleaks-git-secret-scanner/) | Verified Metadata | — | — | `clawhub install gitleaks-git-secret-scanner` |
@@ -497,10 +500,11 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [SLSA Verifier Build Provenance Checker](skills/slsa-verifier-build-provenance-checker/) | Security Reviewed | — | — | `clawhub install slsa-verifier-build-provenance-checker` |
 | [SSL Certificate Chain Validator](skills/ssl-certificate-chain-validator-2/) | Security Reviewed | — | — | `clawhub install ssl-certificate-chain-validator-2` |
 | [SSL/TLS Certificate Validator and Monitor](skills/ssl-tls-certificate-validator-monitor/) | Security Reviewed | — | — | `clawhub install ssl-tls-certificate-validator-monitor` |
+| [Syft SBOM Generator for Containers and Filesystems](skills/syft-sbom-generator-containers-filesystems/) | Verified Metadata | — | — | `clawhub install syft-sbom-generator-containers-filesystems` |
 | [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | Security Reviewed | — | — | `clawhub install tls-certificate-chain-validator` |
 
 
-### 📚 Library & API Reference (89 skills)
+### 📚 Library & API Reference (90 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference&sort=downloads)
 
@@ -559,6 +563,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [OpenTelemetry Trace Context Propagator](skills/opentelemetry-trace-context-propagator/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install opentelemetry-trace-context-propagator` |
 | [REST API Changelog Tracker](skills/rest-api-changelog-tracker/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install rest-api-changelog-tracker` |
 | [Plaid Financial Data Aggregator &amp; Budget Classifier](skills/plaid-financial-data-aggregator/) | Security Reviewed | — | 21.4M/wk | `clawhub install plaid-financial-data-aggregator` |
+| [Context7 MCP Documentation Server for LLM Code Editors](skills/context7-mcp-documentation-server-llm-code-editors/) | Verified Metadata | — | — | `clawhub install context7-mcp-documentation-server-llm-code-editors` |
 | [Doxygen Cross-Reference Indexer](skills/doxygen-cross-reference-indexer/) | Security Reviewed | — | — | `clawhub install doxygen-cross-reference-indexer` |
 | [GitHub REST API Paginator Library](skills/github-rest-api-paginator-library/) | Security Reviewed | — | — | `clawhub install github-rest-api-paginator-library` |
 | [JSDoc Type Definition Extractor](skills/jsdoc-type-definition-extractor/) | Security Reviewed | — | — | `clawhub install jsdoc-type-definition-extractor` |
@@ -597,7 +602,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Zod Schema Generator](skills/zod-schema-generator/) | Security Reviewed | — | — | `clawhub install zod-schema-generator` |
 
 
-### 🔄 Data Extraction & Transformation (85 skills)
+### 🔄 Data Extraction & Transformation (86 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -669,6 +674,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Parquet to PostgreSQL Loader](skills/parquet-to-postgresql-loader/) | Security Reviewed | 387 | 146.9k/wk | `clawhub install parquet-to-postgresql-loader` |
 | [Metabase Dashboard Snapshot &amp; Alerting](skills/metabase-dashboard-snapshot-alerting-2/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install metabase-dashboard-snapshot-alerting-2` |
 | [PostgreSQL MCP Server](skills/postgresql-mcp-server/) | Security Reviewed | — | 21.4M/wk | `clawhub install postgresql-mcp-server` |
+| [Anyquery Universal SQL Engine with MCP Integration](skills/anyquery-universal-sql-engine-mcp-integration/) | Verified Metadata | — | — | `clawhub install anyquery-universal-sql-engine-mcp-integration` |
 | [Apache Tika Content Extraction Hub](skills/apache-tika-content-extraction-hub/) | Security Reviewed | — | — | `clawhub install apache-tika-content-extraction-hub` |
 | [Apache Tika Document Extractor](skills/apache-tika-document-extractor/) | Security Reviewed | — | — | `clawhub install apache-tika-document-extractor` |
 | [Apache Tika Document Parser](skills/apache-tika-document-parser/) | Security Reviewed | — | — | `clawhub install apache-tika-document-parser` |

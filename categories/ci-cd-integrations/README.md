@@ -1,6 +1,6 @@
 # 🔧 CI/CD Integrations
 
-> **139 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations)
+> **140 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations)
 
 Pipeline configs, deployment automation, build tooling, and continuous integration/delivery skills.
 
@@ -195,6 +195,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [GitHub Actions Workflow Linter](../../skills/github-actions-workflow-linter-2/) | Security Reviewed | — | — | `clawhub install github-actions-workflow-linter-2` |
 | [GitHub Actions Workflow Optimizer](../../skills/github-actions-workflow-optimizer/) | Security Reviewed | — | — | `clawhub install github-actions-workflow-optimizer` |
 | [GoReleaser Cross-Platform Release Automation](../../skills/goreleaser-cross-platform-release-automation/) | Verified Metadata | — | — | `clawhub install goreleaser-cross-platform-release-automation` |
+| [Harden-Runner CI/CD Security Agent for GitHub Actions](../../skills/harden-runner-cicd-security-agent-github-actions/) | Verified Metadata | — | — | `clawhub install harden-runner-cicd-security-agent-github-actions` |
 | [npm Audit Dependency Report Generator](../../skills/npm-audit-dependency-report-generator/) | Security Reviewed | — | — | `clawhub install npm-audit-dependency-report-generator` |
 
 ---
@@ -219,9 +220,9 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 ## Related Categories
 
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (101 skills)
-- 🔒 [Security & Verification](../security-verification/) (91 skills)
-- 📚 [Library & API Reference](../library-api-reference/) (89 skills)
+- 🛠️ [Developer Tools](../developer-tools/) (102 skills)
+- 🔒 [Security & Verification](../security-verification/) (93 skills)
+- 📚 [Library & API Reference](../library-api-reference/) (90 skills)
 
 ---
 
