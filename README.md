@@ -10,7 +10,7 @@
 [![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-1%2C100-10b981?style=for-the-badge)](https://agentskillexchange.com/browse-skills/?verification=security_reviewed)
 [![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)
 
-**[Browse Skills](https://agentskillexchange.com/browse-skills/) · [Categories](https://github.com/agentskillexchange/skills/tree/main/categories) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Create a Skill](https://agentskillexchange.com/create-skill/)**
+**[Browse Skills](https://agentskillexchange.com/browse-skills/) · [Categories](categories/) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md)**
 
 *Updated hourly · Real ecosystem signals · Multi-framework*
 
@@ -44,9 +44,8 @@ clawhub install <slug>
 ## Start Here
 
 - **Browse by category:** [categories/](categories/)
-- **Top starred:** [TOP-STARS.md](TOP-STARS.md) · [live](https://agentskillexchange.com/browse-skills/?sort=stars)
-- **Top downloaded:** [TOP-DOWNLOADS.md](TOP-DOWNLOADS.md) · [live](https://agentskillexchange.com/browse-skills/?sort=downloads)
-- **Security reviewed:** <https://agentskillexchange.com/browse-skills/?verification=security_reviewed>
+- **Top starred:** [TOP-STARS.md](TOP-STARS.md)
+- **Top downloaded:** [TOP-DOWNLOADS.md](TOP-DOWNLOADS.md)
 - **Full catalog:** [CATALOG.md](CATALOG.md)
 
 ---
@@ -73,8 +72,6 @@ clawhub install <slug>
 | 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | **40** | Third-party API bridges, webhooks, service connectors |
 | 📰 | [**WordPress & CMS**](categories/wordpress-cms/) | **28** | Theme/plugin dev, WP-CLI automation, CMS management |
 
-Browse by category: [categories/](categories/) · Full listing: [CATALOG.md](CATALOG.md) · Live browse: <https://agentskillexchange.com/browse-skills/>
-
 ---
 
 ## At a Glance
@@ -87,36 +84,33 @@ Browse by category: [categories/](categories/) · Full listing: [CATALOG.md](CAT
 
 ### Trust & Safety
 
-Every skill in this catalog is backed by a real tool, repo, or package. Skills go through a discovery pipeline that requires real provenance before listing.
+Every skill is backed by a real tool, repo, or package. New skills require real provenance before listing.
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Listed** | **1,149** | Published in the catalog — backed by a real tool or project |
+| 📋 **Listed** | **1,149** | Published — backed by a real tool or project |
 | 🛡️ **Security Reviewed** | **1,100** | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
-More: [verification/](verification/) — how trust & safety works
+More: [verification/](verification/)
 
 ---
 
 ## Browse by Signal
 
-- ⭐ By stars: [TOP-STARS.md](TOP-STARS.md) · [live](https://agentskillexchange.com/browse-skills/?sort=stars)
-- 🔥 By downloads: [TOP-DOWNLOADS.md](TOP-DOWNLOADS.md) · [live](https://agentskillexchange.com/browse-skills/?sort=downloads)
-- 🛡️ Security reviewed: <https://agentskillexchange.com/browse-skills/?verification=security_reviewed>
+- ⭐ By stars: [TOP-STARS.md](TOP-STARS.md)
+- 🔥 By downloads: [TOP-DOWNLOADS.md](TOP-DOWNLOADS.md)
 
 ---
 
 ## Contributing
 
-Skills are managed via [agentskillexchange.com](https://agentskillexchange.com/create-skill/). The repository is updated automatically when skills are published or updated.
-
-- **[Submit a skill](https://agentskillexchange.com/create-skill/)** — publish your agent skill
-- **[Browse skills](https://agentskillexchange.com/browse-skills/)** — explore the full catalog
+- **[Submit a skill](https://agentskillexchange.com/create-skill/)**
+- **[Browse the catalog](https://agentskillexchange.com/browse-skills/)**
 
 ---
 
 <div align="center">
 
-*Built by the [Agent Skill Exchange](https://agentskillexchange.com/) community*
+*[Agent Skill Exchange](https://agentskillexchange.com/)*
 
 </div>
