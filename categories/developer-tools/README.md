@@ -1,6 +1,6 @@
 # 🛠️ Developer Tools
 
-> **114 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools)
+> **115 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools)
 
 CLI helpers, dev environment setup, productivity utilities, and developer workflows.
 
@@ -146,6 +146,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [K9s Kubernetes Terminal Dashboard](../../skills/k9s-kubernetes-terminal-dashboard/) | Verified Metadata | — | — | `clawhub install k9s-kubernetes-terminal-dashboard` |
 | [LazyDocker Terminal UI for Docker Management](../../skills/lazydocker-terminal-docker-management/) | Verified Metadata | — | — | `clawhub install lazydocker-terminal-docker-management` |
 | [lazygit Terminal UI for Git Operations](../../skills/lazygit-terminal-ui-git-operations/) | Security Reviewed | — | — | `clawhub install lazygit-terminal-ui-git-operations` |
+| [libSQL Edge-Ready SQLite Fork by Turso](../../skills/libsql-edge-sqlite-fork-turso/) | Verified Metadata | — | — | `clawhub install libsql-edge-sqlite-fork-turso` |
 | [LLDB Debug Session Automator](../../skills/lldb-debug-session-automator/) | Security Reviewed | — | — | `clawhub install lldb-debug-session-automator` |
 | [Makefile Dependency Auditor](../../skills/makefile-dependency-auditor/) | Security Reviewed | — | — | `clawhub install makefile-dependency-auditor` |
 | [Mastra TypeScript AI Agent Framework](../../skills/mastra-typescript-ai-agent-framework/) | Verified Metadata | — | — | `clawhub install mastra-typescript-ai-agent-framework` |
@@ -195,8 +196,8 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (140 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
-- 🔒 [Security & Verification](../security-verification/) (93 skills)
-- 🔄 [Data Extraction & Transformation](../data-extraction-transformation/) (91 skills)
+- 🔒 [Security & Verification](../security-verification/) (94 skills)
+- 🔄 [Data Extraction & Transformation](../data-extraction-transformation/) (92 skills)
 
 ---
 

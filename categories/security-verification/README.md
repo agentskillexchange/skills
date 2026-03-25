@@ -1,6 +1,6 @@
 # 🔒 Security & Verification
 
-> **93 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification)
+> **94 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification)
 
 Auth setup, vulnerability scanning, compliance checks, and security automation.
 
@@ -135,6 +135,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Gitleaks Git Repository Secret Scanner](../../skills/gitleaks-git-secret-scanner/) | Verified Metadata | — | — | `clawhub install gitleaks-git-secret-scanner` |
 | [GPG Encryption and Key Management Agent](../../skills/gpg-encryption-key-management-agent/) | Security Reviewed | — | — | `clawhub install gpg-encryption-key-management-agent` |
 | [Heisenberg Supply Chain Health Checker](../../skills/heisenberg-supply-chain-health-checker/) | Verified Metadata | — | — | `clawhub install heisenberg-supply-chain-health-checker` |
+| [Infisical Open-Source Secret Management Platform](../../skills/infisical-secret-management-platform/) | Verified Metadata | — | — | `clawhub install infisical-secret-management-platform` |
 | [NPM Audit Deep Scanner](../../skills/npm-audit-deep-scanner/) | Security Reviewed | — | — | `clawhub install npm-audit-deep-scanner` |
 | [npm Dependency Audit Resolver](../../skills/npm-dependency-audit-resolver/) | Security Reviewed | — | — | `clawhub install npm-dependency-audit-resolver` |
 | [Nuclei Vulnerability Template Runner](../../skills/nuclei-vulnerability-template-runner/) | Security Reviewed | — | — | `clawhub install nuclei-vulnerability-template-runner` |
@@ -173,9 +174,9 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 ## Related Categories
 
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (140 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (114 skills)
+- 🛠️ [Developer Tools](../developer-tools/) (115 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
-- 🔄 [Data Extraction & Transformation](../data-extraction-transformation/) (91 skills)
+- 🔄 [Data Extraction & Transformation](../data-extraction-transformation/) (92 skills)
 
 ---
 

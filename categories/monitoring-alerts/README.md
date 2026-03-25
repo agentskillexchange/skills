@@ -1,6 +1,6 @@
 # 📊 Monitoring & Alerts
 
-> **78 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts)
+> **79 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts)
 
 Metrics collection, alerting rules, observability setup, and system monitoring.
 
@@ -134,6 +134,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [PagerDuty MCP Server](../../skills/pagerduty-mcp-server/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install pagerduty-mcp-server` |
 | [Uptime Robot Multi-Check Coordinator](../../skills/uptime-robot-multi-check-coordinator/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install uptime-robot-multi-check-coordinator` |
 | [OpsGenie MCP Server](../../skills/opsgenie-mcp-server/) | Security Reviewed | 24 | 9.1k/wk | `clawhub install opsgenie-mcp-server` |
+| [Grafana Alloy OpenTelemetry Collector Distribution](../../skills/grafana-alloy-opentelemetry-collector/) | Verified Metadata | — | — | `clawhub install grafana-alloy-opentelemetry-collector` |
 | [Sentry MCP Server for Error Tracking and Performance](../../skills/sentry-mcp-server-error-tracking-performance/) | Verified Metadata | — | — | `clawhub install sentry-mcp-server-error-tracking-performance` |
 
 ---
@@ -158,9 +159,9 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 ## Related Categories
 
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (140 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (114 skills)
+- 🛠️ [Developer Tools](../developer-tools/) (115 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
-- 🔒 [Security & Verification](../security-verification/) (93 skills)
+- 🔒 [Security & Verification](../security-verification/) (94 skills)
 
 ---
 

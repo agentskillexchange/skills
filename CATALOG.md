@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1222 skills** across **20 categories** · Updated 2026-03-25 21:13 UTC
+> **1228 skills** across **20 categories** · Updated 2026-03-25 22:15 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -10,12 +10,12 @@
 
 | Metric | Value |
 |--------|-------|
-| Total Skills | **1222** |
+| Total Skills | **1228** |
 | Categories | **20** |
 | Frameworks | **20** |
 | Skills with live signal data | **915** |
 | Security Reviewed | **1138** |
-| Verified Metadata | **84** |
+| Verified Metadata | **90** |
 | Listed | **0** |
 
 > These verification counts are **final-state buckets**, not cumulative stages.
@@ -172,7 +172,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [npm Audit Dependency Report Generator](skills/npm-audit-dependency-report-generator/) | Security Reviewed | — | — | `clawhub install npm-audit-dependency-report-generator` |
 
 
-### 🛠️ Developer Tools (114 skills)
+### 🛠️ Developer Tools (115 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -267,6 +267,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [K9s Kubernetes Terminal Dashboard](skills/k9s-kubernetes-terminal-dashboard/) | Verified Metadata | — | — | `clawhub install k9s-kubernetes-terminal-dashboard` |
 | [LazyDocker Terminal UI for Docker Management](skills/lazydocker-terminal-docker-management/) | Verified Metadata | — | — | `clawhub install lazydocker-terminal-docker-management` |
 | [lazygit Terminal UI for Git Operations](skills/lazygit-terminal-ui-git-operations/) | Security Reviewed | — | — | `clawhub install lazygit-terminal-ui-git-operations` |
+| [libSQL Edge-Ready SQLite Fork by Turso](skills/libsql-edge-sqlite-fork-turso/) | Verified Metadata | — | — | `clawhub install libsql-edge-sqlite-fork-turso` |
 | [LLDB Debug Session Automator](skills/lldb-debug-session-automator/) | Security Reviewed | — | — | `clawhub install lldb-debug-session-automator` |
 | [Makefile Dependency Auditor](skills/makefile-dependency-auditor/) | Security Reviewed | — | — | `clawhub install makefile-dependency-auditor` |
 | [Mastra TypeScript AI Agent Framework](skills/mastra-typescript-ai-agent-framework/) | Verified Metadata | — | — | `clawhub install mastra-typescript-ai-agent-framework` |
@@ -415,7 +416,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Systemd Service Recovery Playbook](skills/systemd-service-recovery-playbook-2/) | Security Reviewed | — | — | `clawhub install systemd-service-recovery-playbook-2` |
 
 
-### 🔒 Security & Verification (93 skills)
+### 🔒 Security & Verification (94 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -499,6 +500,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Gitleaks Git Repository Secret Scanner](skills/gitleaks-git-secret-scanner/) | Verified Metadata | — | — | `clawhub install gitleaks-git-secret-scanner` |
 | [GPG Encryption and Key Management Agent](skills/gpg-encryption-key-management-agent/) | Security Reviewed | — | — | `clawhub install gpg-encryption-key-management-agent` |
 | [Heisenberg Supply Chain Health Checker](skills/heisenberg-supply-chain-health-checker/) | Verified Metadata | — | — | `clawhub install heisenberg-supply-chain-health-checker` |
+| [Infisical Open-Source Secret Management Platform](skills/infisical-secret-management-platform/) | Verified Metadata | — | — | `clawhub install infisical-secret-management-platform` |
 | [NPM Audit Deep Scanner](skills/npm-audit-deep-scanner/) | Security Reviewed | — | — | `clawhub install npm-audit-deep-scanner` |
 | [npm Dependency Audit Resolver](skills/npm-dependency-audit-resolver/) | Security Reviewed | — | — | `clawhub install npm-dependency-audit-resolver` |
 | [Nuclei Vulnerability Template Runner](skills/nuclei-vulnerability-template-runner/) | Security Reviewed | — | — | `clawhub install nuclei-vulnerability-template-runner` |
@@ -516,7 +518,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | Security Reviewed | — | — | `clawhub install tls-certificate-chain-validator` |
 
 
-### 🔄 Data Extraction & Transformation (91 skills)
+### 🔄 Data Extraction & Transformation (92 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -603,6 +605,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [jq Pipeline Builder Agent](skills/jq-pipeline-builder-agent/) | Security Reviewed | — | — | `clawhub install jq-pipeline-builder-agent` |
 | [Marker PDF-to-Markdown Converter](skills/marker-pdf-to-markdown-converter/) | Security Reviewed | — | — | `clawhub install marker-pdf-to-markdown-converter` |
 | [MinerU PDF-to-Markdown Document Parser](skills/mineru-pdf-to-markdown-document-parser/) | Verified Metadata | — | — | `clawhub install mineru-pdf-to-markdown-document-parser` |
+| [Polars Blazing-Fast DataFrame Query Engine](skills/polars-dataframe-query-engine/) | Verified Metadata | — | — | `clawhub install polars-dataframe-query-engine` |
 | [qsv Blazing-Fast CSV Data Wrangling Toolkit](skills/qsv-blazing-fast-csv-data-wrangling-toolkit/) | Verified Metadata | — | — | `clawhub install qsv-blazing-fast-csv-data-wrangling-toolkit` |
 | [Snowflake MCP](skills/snowflake-mcp/) | Security Reviewed | — | — | `clawhub install snowflake-mcp` |
 | [Snowflake MCP Server](skills/snowflake-mcp-server/) | Security Reviewed | — | — | `clawhub install snowflake-mcp-server` |
@@ -713,7 +716,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Zod Schema Generator](skills/zod-schema-generator/) | Security Reviewed | — | — | `clawhub install zod-schema-generator` |
 
 
-### ✅ Code Quality & Review (82 skills)
+### ✅ Code Quality & Review (83 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -801,9 +804,10 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Ruff Linter Configuration Architect](skills/ruff-linter-configuration-architect/) | Security Reviewed | — | — | `clawhub install ruff-linter-configuration-architect` |
 | [Ruff Python Linter Configurator](skills/ruff-python-linter-configurator/) | Security Reviewed | — | — | `clawhub install ruff-python-linter-configurator` |
 | [tokei Code Statistics Counter](skills/tokei-code-statistics-counter/) | Verified Metadata | — | — | `clawhub install tokei-code-statistics-counter` |
+| [Vale Prose Linter for Technical Documentation](skills/vale-prose-linter-technical-docs/) | Verified Metadata | — | — | `clawhub install vale-prose-linter-technical-docs` |
 
 
-### 📊 Monitoring & Alerts (78 skills)
+### 📊 Monitoring & Alerts (79 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=downloads)
 
@@ -886,6 +890,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [PagerDuty MCP Server](skills/pagerduty-mcp-server/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install pagerduty-mcp-server` |
 | [Uptime Robot Multi-Check Coordinator](skills/uptime-robot-multi-check-coordinator/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install uptime-robot-multi-check-coordinator` |
 | [OpsGenie MCP Server](skills/opsgenie-mcp-server/) | Security Reviewed | 24 | 9.1k/wk | `clawhub install opsgenie-mcp-server` |
+| [Grafana Alloy OpenTelemetry Collector Distribution](skills/grafana-alloy-opentelemetry-collector/) | Verified Metadata | — | — | `clawhub install grafana-alloy-opentelemetry-collector` |
 | [Sentry MCP Server for Error Tracking and Performance](skills/sentry-mcp-server-error-tracking-performance/) | Verified Metadata | — | — | `clawhub install sentry-mcp-server-error-tracking-performance` |
 
 
@@ -1188,7 +1193,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Stagehand AI Browser Automation Framework](skills/stagehand-ai-browser-automation-framework/) | Verified Metadata | — | — | `clawhub install stagehand-ai-browser-automation-framework` |
 
 
-### 🔗 Integrations & Connectors (42 skills)
+### 🔗 Integrations & Connectors (43 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
 
@@ -1234,6 +1239,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [MetaMCP Unified MCP Server Aggregator and Gateway](skills/metamcp-unified-mcp-server-aggregator-gateway/) | Verified Metadata | — | — | `clawhub install metamcp-unified-mcp-server-aggregator-gateway` |
 | [MongoDB MCP Server for Database and Atlas Management](skills/mongodb-mcp-server-database-atlas-management/) | Verified Metadata | — | — | `clawhub install mongodb-mcp-server-database-atlas-management` |
 | [n8n Workflow Webhook Bridge](skills/n8n-workflow-webhook-bridge/) | Security Reviewed | — | — | `clawhub install n8n-workflow-webhook-bridge` |
+| [Neon MCP Server for Serverless Postgres Management](skills/neon-mcp-server-serverless-postgres/) | Verified Metadata | — | — | `clawhub install neon-mcp-server-serverless-postgres` |
 | [Plaid Financial Data Connector](skills/plaid-financial-data-connector/) | Security Reviewed | — | — | `clawhub install plaid-financial-data-connector` |
 | [Zapier Webhook Integration Builder](skills/zapier-webhook-integration-builder/) | Security Reviewed | — | — | `clawhub install zapier-webhook-integration-builder` |
 

@@ -1,6 +1,6 @@
 # 🔄 Data Extraction & Transformation
 
-> **91 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation)
+> **92 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation)
 
 Parsing, ETL pipelines, format conversion, data wrangling, and transformation utilities.
 
@@ -138,6 +138,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [jq Pipeline Builder Agent](../../skills/jq-pipeline-builder-agent/) | Security Reviewed | — | — | `clawhub install jq-pipeline-builder-agent` |
 | [Marker PDF-to-Markdown Converter](../../skills/marker-pdf-to-markdown-converter/) | Security Reviewed | — | — | `clawhub install marker-pdf-to-markdown-converter` |
 | [MinerU PDF-to-Markdown Document Parser](../../skills/mineru-pdf-to-markdown-document-parser/) | Verified Metadata | — | — | `clawhub install mineru-pdf-to-markdown-document-parser` |
+| [Polars Blazing-Fast DataFrame Query Engine](../../skills/polars-dataframe-query-engine/) | Verified Metadata | — | — | `clawhub install polars-dataframe-query-engine` |
 | [qsv Blazing-Fast CSV Data Wrangling Toolkit](../../skills/qsv-blazing-fast-csv-data-wrangling-toolkit/) | Verified Metadata | — | — | `clawhub install qsv-blazing-fast-csv-data-wrangling-toolkit` |
 | [Snowflake MCP](../../skills/snowflake-mcp/) | Security Reviewed | — | — | `clawhub install snowflake-mcp` |
 | [Snowflake MCP Server](../../skills/snowflake-mcp-server/) | Security Reviewed | — | — | `clawhub install snowflake-mcp-server` |
@@ -171,9 +172,9 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 ## Related Categories
 
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (140 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (114 skills)
+- 🛠️ [Developer Tools](../developer-tools/) (115 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
-- 🔒 [Security & Verification](../security-verification/) (93 skills)
+- 🔒 [Security & Verification](../security-verification/) (94 skills)
 
 ---
 

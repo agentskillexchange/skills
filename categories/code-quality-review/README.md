@@ -1,6 +1,6 @@
 # ✅ Code Quality & Review
 
-> **82 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review)
+> **83 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review)
 
 Linting rules, review checklists, code standards enforcement, and quality gates.
 
@@ -139,6 +139,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Ruff Linter Configuration Architect](../../skills/ruff-linter-configuration-architect/) | Security Reviewed | — | — | `clawhub install ruff-linter-configuration-architect` |
 | [Ruff Python Linter Configurator](../../skills/ruff-python-linter-configurator/) | Security Reviewed | — | — | `clawhub install ruff-python-linter-configurator` |
 | [tokei Code Statistics Counter](../../skills/tokei-code-statistics-counter/) | Verified Metadata | — | — | `clawhub install tokei-code-statistics-counter` |
+| [Vale Prose Linter for Technical Documentation](../../skills/vale-prose-linter-technical-docs/) | Verified Metadata | — | — | `clawhub install vale-prose-linter-technical-docs` |
 
 ---
 
@@ -162,9 +163,9 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 ## Related Categories
 
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (140 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (114 skills)
+- 🛠️ [Developer Tools](../developer-tools/) (115 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
-- 🔒 [Security & Verification](../security-verification/) (93 skills)
+- 🔒 [Security & Verification](../security-verification/) (94 skills)
 
 ---
 

@@ -1,6 +1,6 @@
 # 🔗 Integrations & Connectors
 
-> **42 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors)
+> **43 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors)
 
 Third-party API bridges, webhook handlers, service connectors, and platform integrations.
 
@@ -97,6 +97,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [MetaMCP Unified MCP Server Aggregator and Gateway](../../skills/metamcp-unified-mcp-server-aggregator-gateway/) | Verified Metadata | — | — | `clawhub install metamcp-unified-mcp-server-aggregator-gateway` |
 | [MongoDB MCP Server for Database and Atlas Management](../../skills/mongodb-mcp-server-database-atlas-management/) | Verified Metadata | — | — | `clawhub install mongodb-mcp-server-database-atlas-management` |
 | [n8n Workflow Webhook Bridge](../../skills/n8n-workflow-webhook-bridge/) | Security Reviewed | — | — | `clawhub install n8n-workflow-webhook-bridge` |
+| [Neon MCP Server for Serverless Postgres Management](../../skills/neon-mcp-server-serverless-postgres/) | Verified Metadata | — | — | `clawhub install neon-mcp-server-serverless-postgres` |
 | [Plaid Financial Data Connector](../../skills/plaid-financial-data-connector/) | Security Reviewed | — | — | `clawhub install plaid-financial-data-connector` |
 | [Zapier Webhook Integration Builder](../../skills/zapier-webhook-integration-builder/) | Security Reviewed | — | — | `clawhub install zapier-webhook-integration-builder` |
 
@@ -122,9 +123,9 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 ## Related Categories
 
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (140 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (114 skills)
+- 🛠️ [Developer Tools](../developer-tools/) (115 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
-- 🔒 [Security & Verification](../security-verification/) (93 skills)
+- 🔒 [Security & Verification](../security-verification/) (94 skills)
 
 ---
 
