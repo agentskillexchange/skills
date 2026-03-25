@@ -2,7 +2,7 @@
 name: "Terraform MCP Server for Infrastructure as Code"
 description: "The official HashiCorp Terraform MCP server integrates with the Terraform Registry and HCP Terraform, enabling AI agents to browse providers, discover modules, manage workspaces, and validate infrastructure configurations through the Model Context Protocol."
 category: "Developer Tools"
-framework: "MCP"
+framework: "MCP-compatible"
 verification: listed
 source: "https://agentskillexchange.com/skills/terraform-mcp-server-infrastructure-as-code/"
 ---

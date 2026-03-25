@@ -1,8 +1,8 @@
 ---
 name: "sqlite-utils Python CLI for SQLite Database Manipulation"
 description: "sqlite-utils is a Python CLI utility and library by Simon Willison for manipulating SQLite databases. It lets you pipe JSON, CSV, or TSV data directly into SQLite, run in-memory SQL queries against..."
-category: "Uncategorized"
-framework: "Unknown"
+category: "Data Extraction & Transformation"
+framework: "Custom Agents"
 verification: listed
 source: "https://agentskillexchange.com/skills/sqlite-utils-python-cli-sqlite-manipulation/"
 ---

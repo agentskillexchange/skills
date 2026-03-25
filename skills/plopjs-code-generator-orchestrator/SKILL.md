@@ -1,7 +1,7 @@
 ---
 name: "Plop.js Code Generator Orchestrator"
 description: "Manages Plop.js micro-generators to scaffold components, modules, and boilerplate files using Handlebars templates. Drives plopfile.js configuration with custom actions and dynamic prompts."
-category: "41"
+category: "Templates & Workflows"
 framework: "24"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/plopjs-code-generator-orchestrator/"

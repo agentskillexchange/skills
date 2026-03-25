@@ -6,7 +6,7 @@ Automation tooling for the Agent Skill Exchange repository.
 
 ### `validate-skill.sh`
 
-Validates a `SKILL.md` file against the Agent Skill Exchange format specification.
+Validates a `SKILL.md` file against the skill spec.
 
 ```bash
 ./scripts/validate-skill.sh path/to/SKILL.md
@@ -16,7 +16,7 @@ Validates a `SKILL.md` file against the Agent Skill Exchange format specificatio
 - File exists and is non-empty
 - YAML frontmatter is present (delimited by `---`)
 - Required fields exist: `name`, `description`, `category`, `framework`, `verification`
-- Verification value is `listed` or `security_reviewed`
+- Verification is a valid value (`listed` or `security_reviewed`)
 - Body contains an H1 heading (`# `)
 
 **Exit codes:** `0` on pass, `1` on fail with descriptive error messages.
@@ -52,12 +52,3 @@ Regenerates per-category `README.md` files in the `categories/` directory.
 - Handles HTML entity decoding
 
 **Requirements:** `curl`, `jq`
-
-## Usage in CI/Cron
-
-These scripts are called by the GitHub sync cron job:
-
-```bash
-./scripts/generate-catalog.sh /path/to/repo
-./scripts/generate-categories.sh /path/to/repo
-```

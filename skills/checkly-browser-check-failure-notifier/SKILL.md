@@ -1,8 +1,8 @@
 ---
 name: "Checkly Browser Check Failure Notifier"
 description: "Monitors Checkly browser checks via the Checkly Management API and notifies teams on Playwright test failures. Extracts failure screenshots, trace URLs, and degraded check results."
-category: "40"
-framework: "33"
+category: "Monitoring & Alerts"
+framework: "Claude Code"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/checkly-browser-check-failure-notifier/"
 tool_ecosystem:

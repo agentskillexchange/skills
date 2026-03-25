@@ -1,8 +1,8 @@
 ---
 name: "MetaMCP Unified MCP Server Aggregator and Gateway"
 description: "MetaMCP is an open-source MCP proxy that aggregates multiple MCP servers into a single unified endpoint with a GUI management interface. It supports namespacing, middleware, rate limiting, OIDC aut..."
-category: "Uncategorized"
-framework: "Unknown"
+category: "Integrations & Connectors"
+framework: "Custom Agents"
 verification: listed
 source: "https://agentskillexchange.com/skills/metamcp-unified-mcp-server-aggregator-gateway/"
 ---
