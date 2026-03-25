@@ -1,6 +1,6 @@
 # 🔄 Data Extraction & Transformation
 
-> **71 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation)
+> **74 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation)
 
 Parsing, ETL pipelines, format conversion, data wrangling, and transformation utilities.
 
@@ -121,6 +121,9 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Apache Tika Document Parser Agent](../../skills/apache-tika-document-parser-agent/) | Security Reviewed | — | — | `clawhub install apache-tika-document-parser-agent` |
 | [Camelot PDF Stream Parser](../../skills/camelot-pdf-stream-parser/) | Security Reviewed | — | — | `clawhub install camelot-pdf-stream-parser` |
 | [CSV Schema Validator &#038; Auto-Fixer](../../skills/csv-schema-validator-auto-fixer/) | Security Reviewed | — | — | `clawhub install csv-schema-validator-auto-fixer` |
+| [Dagster Data Pipeline Orchestrator](../../skills/dagster-data-pipeline-orchestrator/) | Verified Metadata | — | — | `clawhub install dagster-data-pipeline-orchestrator` |
+| [DuckDB SQL Analytics Agent](../../skills/duckdb-sql-analytics-agent/) | Verified Metadata | — | — | `clawhub install duckdb-sql-analytics-agent` |
+| [Ingestr Cross-Database Data Copier](../../skills/ingestr-cross-database-data-copier/) | Verified Metadata | — | — | `clawhub install ingestr-cross-database-data-copier` |
 | [jq Pipeline Builder Agent](../../skills/jq-pipeline-builder-agent/) | Security Reviewed | — | — | `clawhub install jq-pipeline-builder-agent` |
 | [Snowflake MCP](../../skills/snowflake-mcp/) | Listed | — | — | `clawhub install snowflake-mcp` |
 | [Snowflake MCP Server](../../skills/snowflake-mcp-server/) | Listed | — | — | `clawhub install snowflake-mcp-server` |

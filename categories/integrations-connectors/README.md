@@ -1,6 +1,6 @@
 # 🔗 Integrations & Connectors
 
-> **37 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors)
+> **38 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors)
 
 Third-party API bridges, webhook handlers, service connectors, and platform integrations.
 
@@ -91,6 +91,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [HubSpot MCP Server](../../skills/hubspot-mcp-server/) | Listed | 391 | 905.6k/wk | `clawhub install hubspot-mcp-server` |
 | [Zapier Multi-Step Lead Enrichment Workflow](../../skills/zapier-lead-enrichment-workflow/) | Listed | 391 | 905.6k/wk | `clawhub install zapier-lead-enrichment-workflow` |
 | [Neon Serverless Postgres MCP](../../skills/neon-serverless-postgres-mcp/) | Security Reviewed | — | 21.4M/wk | `clawhub install neon-serverless-postgres-mcp` |
+| [Ingestr Cross-Database Data Copier](../../skills/ingestr-cross-database-data-copier/) | Verified Metadata | — | — | `clawhub install ingestr-cross-database-data-copier` |
 | [n8n Workflow Webhook Bridge](../../skills/n8n-workflow-webhook-bridge/) | Security Reviewed | — | — | `clawhub install n8n-workflow-webhook-bridge` |
 | [Plaid Financial Data Connector](../../skills/plaid-financial-data-connector/) | Security Reviewed | — | — | `clawhub install plaid-financial-data-connector` |
 | [Zapier Webhook Integration Builder](../../skills/zapier-webhook-integration-builder/) | Security Reviewed | — | — | `clawhub install zapier-webhook-integration-builder` |

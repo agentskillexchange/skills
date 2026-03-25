@@ -110,7 +110,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [PostgreSQL Query Plan Analyzer](../../skills/postgresql-query-plan-analyzer-2/) | Listed | — | 21.4M/wk | `clawhub install postgresql-query-plan-analyzer-2` |
 | [Bazel Build Graph Analyzer](../../skills/bazel-build-graph-analyzer/) | Security Reviewed | — | — | `clawhub install bazel-build-graph-analyzer` |
 | [Bun Shell Script Executor](../../skills/bun-shell-script-executor/) | Security Reviewed | — | — | `clawhub install bun-shell-script-executor` |
-| [Changesets Version and Changelog Manager](../../skills/changesets-version-changelog-manager/) | Listed | — | — | `clawhub install changesets-version-changelog-manager` |
+| [Changesets Version and Changelog Manager](../../skills/changesets-version-changelog-manager/) | Verified Metadata | — | — | `clawhub install changesets-version-changelog-manager` |
 | [Claude Code MCP Bridge](../../skills/claude-code-mcp-bridge/) | Security Reviewed | — | — | `clawhub install claude-code-mcp-bridge` |
 | [E2B Code Execution MCP](../../skills/e2b-code-execution-mcp/) | Security Reviewed | — | — | `clawhub install e2b-code-execution-mcp` |
 | [Frontend Design Guidance Skill](../../skills/frontend-design-guidance-skill/) | Security Reviewed | — | — | `clawhub install frontend-design-guidance-skill` |
@@ -119,12 +119,12 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Jira Advanced Query Agent](../../skills/jira-advanced-query-agent/) | Listed | — | — | `clawhub install jira-advanced-query-agent` |
 | [LLDB Debug Session Automator](../../skills/lldb-debug-session-automator/) | Security Reviewed | — | — | `clawhub install lldb-debug-session-automator` |
 | [Makefile Dependency Auditor](../../skills/makefile-dependency-auditor/) | Security Reviewed | — | — | `clawhub install makefile-dependency-auditor` |
-| [Mise Dev Tool Version Manager](../../skills/mise-dev-tool-version-manager/) | Listed | — | — | `clawhub install mise-dev-tool-version-manager` |
+| [Mise Dev Tool Version Manager](../../skills/mise-dev-tool-version-manager/) | Verified Metadata | — | — | `clawhub install mise-dev-tool-version-manager` |
 | [n8n GitHub Issue-to-Jira Ticket Automator](../../skills/n8n-github-jira-ticket-automator/) | Listed | — | — | `clawhub install n8n-github-jira-ticket-automator` |
 | [Nix Flake Configuration Builder](../../skills/nix-flake-configuration-builder/) | Security Reviewed | — | — | `clawhub install nix-flake-configuration-builder` |
 | [NPM Package Auditor](../../skills/npm-package-auditor-registry-api/) | Security Reviewed | — | — | `clawhub install npm-package-auditor-registry-api` |
 | [Package Vulnerability Scanner](../../skills/package-vuln-scanner-osv-api/) | Security Reviewed | — | — | `clawhub install package-vuln-scanner-osv-api` |
-| [Turborepo Monorepo Build System](../../skills/turborepo-monorepo-build-system/) | Listed | — | — | `clawhub install turborepo-monorepo-build-system` |
+| [Turborepo Monorepo Build System](../../skills/turborepo-monorepo-build-system/) | Verified Metadata | — | — | `clawhub install turborepo-monorepo-build-system` |
 | [VS Code Extension Debugger](../../skills/vscode-extension-debugger-dap-protocol/) | Security Reviewed | — | — | `clawhub install vscode-extension-debugger-dap-protocol` |
 | [WASM Component Model Linker](../../skills/wasm-component-model-linker/) | Security Reviewed | — | — | `clawhub install wasm-component-model-linker` |
 
