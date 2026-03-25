@@ -3,7 +3,7 @@ name: "Turborepo Monorepo Build System"
 description: "Use Turborepo to orchestrate builds, tests, and tasks across JavaScript and TypeScript monorepos with intelligent caching, parallel execution, and remote cache sharing via Vercel."
 category: "Developer Tools"
 framework: "Claude Code"
-verification: listed
+verification: listed  # security_reviewed or listed
 rating: 0
 reviews: 0
 creator: ""
@@ -18,27 +18,32 @@ Use Turborepo to orchestrate builds, tests, and tasks across JavaScript and Type
 
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
-npx skills add turborepo-monorepo-build-system
+npx skills add agentskillexchange/skills --skill turborepo-monorepo-build-system
 ```
 
 ### Claude Code
+
 ```bash
-npx skills add turborepo-monorepo-build-system --claude-code
+npx skills add agentskillexchange/skills --skill turborepo-monorepo-build-system -a claude-code
 ```
 
 ### Cursor
+
 ```bash
-npx skills add turborepo-monorepo-build-system --cursor
+npx skills add agentskillexchange/skills --skill turborepo-monorepo-build-system -a cursor
 ```
 
 ### Codex
+
 ```bash
-npx skills add turborepo-monorepo-build-system --codex
+npx skills add agentskillexchange/skills --skill turborepo-monorepo-build-system -a codex
 ```
 
 ### OpenClaw
+
 ```bash
 clawhub install turborepo-monorepo-build-system
 ```

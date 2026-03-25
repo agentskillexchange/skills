@@ -3,7 +3,7 @@ name: "Meltano Declarative ELT Data Integration Engine"
 description: "Meltano is an open-source, CLI-first ELT platform built on the Singer specification. It provides declarative, code-first data integration with 600+ connectors through Singer taps and targets, orchestrating data movement from APIs, databases, and files to warehouses and lakes."
 category: "Data Extraction & Transformation"
 framework: ""
-verification: listed
+verification: listed  # security_reviewed or listed
 rating: 0
 reviews: 0
 creator: ""
@@ -23,27 +23,32 @@ Available on PyPI and Docker Hub, Meltano is licensed under MIT and backed by a 
 
 ## Installation
 
-### Claude Code
+### Any Agent
+
 ```bash
-npx skills add meltano-declarative-elt-data-integration-engine
+npx skills add agentskillexchange/skills --skill meltano-declarative-elt-data-integration-engine
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill meltano-declarative-elt-data-integration-engine -a claude-code
 ```
 
 ### Cursor
+
 ```bash
-npx skills add meltano-declarative-elt-data-integration-engine
+npx skills add agentskillexchange/skills --skill meltano-declarative-elt-data-integration-engine -a cursor
 ```
 
 ### Codex
+
 ```bash
-npx skills add meltano-declarative-elt-data-integration-engine
+npx skills add agentskillexchange/skills --skill meltano-declarative-elt-data-integration-engine -a codex
 ```
 
 ### OpenClaw
+
 ```bash
 clawhub install meltano-declarative-elt-data-integration-engine
-```
-
-### Any Agent
-```bash
-npx skills add meltano-declarative-elt-data-integration-engine
 ```

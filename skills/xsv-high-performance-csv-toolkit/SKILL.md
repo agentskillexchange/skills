@@ -3,7 +3,7 @@ name: "xsv High-Performance CSV Toolkit"
 description: "xsv is a fast CSV command-line toolkit written in Rust by Andrew Gallant (BurntSushi). It provides indexing, slicing, analyzing, splitting, joining, searching, sampling, and statistics operations on CSV files with exceptional speed and memory efficiency."
 category: "Data Extraction & Transformation"
 framework: "Claude Code"
-verification: listed
+verification: listed  # security_reviewed or listed
 rating: 0
 reviews: 0
 creator: ""
@@ -23,22 +23,32 @@ Installation is available via cargo install xsv, Homebrew, and prebuilt binaries
 
 ## Installation
 
-### Any / Claude Code
+### Any Agent
+
 ```bash
-npx skills add xsv-high-performance-csv-toolkit
+npx skills add agentskillexchange/skills --skill xsv-high-performance-csv-toolkit
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill xsv-high-performance-csv-toolkit -a claude-code
 ```
 
 ### Cursor
+
 ```bash
-npx skills add xsv-high-performance-csv-toolkit --cursor
+npx skills add agentskillexchange/skills --skill xsv-high-performance-csv-toolkit -a cursor
 ```
 
 ### Codex
+
 ```bash
-npx skills add xsv-high-performance-csv-toolkit --codex
+npx skills add agentskillexchange/skills --skill xsv-high-performance-csv-toolkit -a codex
 ```
 
 ### OpenClaw
+
 ```bash
 clawhub install xsv-high-performance-csv-toolkit
 ```

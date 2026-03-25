@@ -3,7 +3,7 @@ name: "Changesets Version and Changelog Manager"
 description: "Use Changesets to manage package versioning and changelogs in monorepos and single-package repositories. Automates semver bumps, changelog generation, and npm publishing with a PR-based workflow."
 category: "Developer Tools"
 framework: "Claude Code"
-verification: listed
+verification: listed  # security_reviewed or listed
 rating: 0
 reviews: 0
 creator: ""
@@ -18,27 +18,32 @@ Use Changesets to manage package versioning and changelogs in monorepos and sing
 
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
-npx skills add changesets-version-changelog-manager
+npx skills add agentskillexchange/skills --skill changesets-version-changelog-manager
 ```
 
 ### Claude Code
+
 ```bash
-npx skills add changesets-version-changelog-manager --claude-code
+npx skills add agentskillexchange/skills --skill changesets-version-changelog-manager -a claude-code
 ```
 
 ### Cursor
+
 ```bash
-npx skills add changesets-version-changelog-manager --cursor
+npx skills add agentskillexchange/skills --skill changesets-version-changelog-manager -a cursor
 ```
 
 ### Codex
+
 ```bash
-npx skills add changesets-version-changelog-manager --codex
+npx skills add agentskillexchange/skills --skill changesets-version-changelog-manager -a codex
 ```
 
 ### OpenClaw
+
 ```bash
 clawhub install changesets-version-changelog-manager
 ```

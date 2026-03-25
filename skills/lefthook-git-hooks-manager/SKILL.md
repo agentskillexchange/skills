@@ -3,7 +3,7 @@ name: "Lefthook Git Hooks Manager"
 description: "Lefthook is a fast, dependency-free Git hooks manager written in Go that runs pre-commit, pre-push, and custom hook commands in parallel. It integrates with Node.js, Ruby, Python, and any other project type through a simple YAML configuration."
 category: "Developer Tools"
 framework: ""
-verification: listed
+verification: listed  # security_reviewed or listed
 rating: 0
 reviews: 0
 creator: ""
@@ -23,27 +23,32 @@ The tool integrates with CI/CD by supporting direct invocation via “lefthook r
 
 ## Installation
 
-### Claude Code
+### Any Agent
+
 ```bash
-npx skills add lefthook-git-hooks-manager
+npx skills add agentskillexchange/skills --skill lefthook-git-hooks-manager
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill lefthook-git-hooks-manager -a claude-code
 ```
 
 ### Cursor
+
 ```bash
-npx skills add lefthook-git-hooks-manager
+npx skills add agentskillexchange/skills --skill lefthook-git-hooks-manager -a cursor
 ```
 
 ### Codex
+
 ```bash
-npx skills add lefthook-git-hooks-manager
+npx skills add agentskillexchange/skills --skill lefthook-git-hooks-manager -a codex
 ```
 
 ### OpenClaw
+
 ```bash
 clawhub install lefthook-git-hooks-manager
-```
-
-### Any Agent
-```bash
-npx skills add lefthook-git-hooks-manager
 ```

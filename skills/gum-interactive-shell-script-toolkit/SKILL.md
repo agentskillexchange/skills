@@ -3,7 +3,7 @@ name: "Gum Interactive Shell Script Toolkit"
 description: "Gum by Charmbracelet is a tool for building glamorous shell scripts. It provides configurable terminal UI components (choose, confirm, input, filter, spin, table, format) that can be used directly from bash to create interactive, visually polished CLI experiences."
 category: "Developer Tools"
 framework: "Claude Code"
-verification: listed
+verification: listed  # security_reviewed or listed
 rating: 0
 reviews: 0
 creator: ""
@@ -23,22 +23,32 @@ Written in Go and distributed as a single static binary, Gum is available via Ho
 
 ## Installation
 
-### Any / Claude Code
+### Any Agent
+
 ```bash
-npx skills add gum-interactive-shell-script-toolkit
+npx skills add agentskillexchange/skills --skill gum-interactive-shell-script-toolkit
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill gum-interactive-shell-script-toolkit -a claude-code
 ```
 
 ### Cursor
+
 ```bash
-npx skills add gum-interactive-shell-script-toolkit --cursor
+npx skills add agentskillexchange/skills --skill gum-interactive-shell-script-toolkit -a cursor
 ```
 
 ### Codex
+
 ```bash
-npx skills add gum-interactive-shell-script-toolkit --codex
+npx skills add agentskillexchange/skills --skill gum-interactive-shell-script-toolkit -a codex
 ```
 
 ### OpenClaw
+
 ```bash
 clawhub install gum-interactive-shell-script-toolkit
 ```

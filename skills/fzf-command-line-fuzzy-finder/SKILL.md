@@ -3,7 +3,7 @@ name: "fzf Command-Line Fuzzy Finder"
 description: "fzf is a general-purpose command-line fuzzy finder written in Go. It works as an interactive filter for any list — files, command history, processes, git branches, bookmarks — using a fuzzy matching algorithm that tolerates omitted characters and typos."
 category: "Developer Tools"
 framework: "Claude Code"
-verification: listed
+verification: listed  # security_reviewed or listed
 rating: 0
 reviews: 0
 creator: ""
@@ -27,27 +27,32 @@ fzf is distributed as a single static binary via Homebrew, apt, pacman, Chocolat
 
 ## Installation
 
-### Claude Code
+### Any Agent
+
 ```bash
-npx skills add fzf-command-line-fuzzy-finder
+npx skills add agentskillexchange/skills --skill fzf-command-line-fuzzy-finder
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill fzf-command-line-fuzzy-finder -a claude-code
 ```
 
 ### Cursor
+
 ```bash
-npx skills add fzf-command-line-fuzzy-finder
+npx skills add agentskillexchange/skills --skill fzf-command-line-fuzzy-finder -a cursor
 ```
 
 ### Codex
+
 ```bash
-npx skills add fzf-command-line-fuzzy-finder
+npx skills add agentskillexchange/skills --skill fzf-command-line-fuzzy-finder -a codex
 ```
 
 ### OpenClaw
+
 ```bash
 clawhub install fzf-command-line-fuzzy-finder
-```
-
-### Any Agent
-```bash
-npx skills add fzf-command-line-fuzzy-finder
 ```

@@ -3,7 +3,7 @@ name: "bat Syntax-Highlighting Cat Replacement"
 description: "bat is a cat(1) clone written in Rust that adds syntax highlighting for over 200 languages, Git integration showing file modifications, automatic paging, and line numbering. It serves as a drop-in replacement for cat with enhanced readability for code and configuration files."
 category: "Developer Tools"
 framework: "Claude Code"
-verification: listed
+verification: listed  # security_reviewed or listed
 rating: 0
 reviews: 0
 creator: ""
@@ -27,27 +27,32 @@ The tool integrates with fzf as a preview command (fzf –preview “bat –colo
 
 ## Installation
 
-### Claude Code
+### Any Agent
+
 ```bash
-npx skills add bat-syntax-highlighting-cat-replacement
+npx skills add agentskillexchange/skills --skill bat-syntax-highlighting-cat-replacement
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill bat-syntax-highlighting-cat-replacement -a claude-code
 ```
 
 ### Cursor
+
 ```bash
-npx skills add bat-syntax-highlighting-cat-replacement
+npx skills add agentskillexchange/skills --skill bat-syntax-highlighting-cat-replacement -a cursor
 ```
 
 ### Codex
+
 ```bash
-npx skills add bat-syntax-highlighting-cat-replacement
+npx skills add agentskillexchange/skills --skill bat-syntax-highlighting-cat-replacement -a codex
 ```
 
 ### OpenClaw
+
 ```bash
 clawhub install bat-syntax-highlighting-cat-replacement
-```
-
-### Any Agent
-```bash
-npx skills add bat-syntax-highlighting-cat-replacement
 ```

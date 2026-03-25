@@ -3,7 +3,7 @@ name: "Great Expectations Data Validation Pipeline"
 description: "Validate data quality using the Great Expectations Python library. Define expectations as unit tests for your data, run validation suites, and generate human-readable data quality reports."
 category: "Code Quality & Review"
 framework: "Claude Code"
-verification: listed
+verification: listed  # security_reviewed or listed
 rating: 0
 reviews: 0
 creator: ""
@@ -22,27 +22,32 @@ Integration points include dbt for post-transformation validation, Airflow and D
 
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
-npx @anthropic/skills add great-expectations-data-validation-pipeline
+npx skills add agentskillexchange/skills --skill great-expectations-data-validation-pipeline
 ```
 
 ### Claude Code
+
 ```bash
-npx @anthropic/skills add great-expectations-data-validation-pipeline --target claude-code
+npx skills add agentskillexchange/skills --skill great-expectations-data-validation-pipeline -a claude-code
 ```
 
 ### Cursor
+
 ```bash
-npx @anthropic/skills add great-expectations-data-validation-pipeline --target cursor
+npx skills add agentskillexchange/skills --skill great-expectations-data-validation-pipeline -a cursor
 ```
 
 ### Codex
+
 ```bash
-npx @anthropic/skills add great-expectations-data-validation-pipeline --target codex
+npx skills add agentskillexchange/skills --skill great-expectations-data-validation-pipeline -a codex
 ```
 
 ### OpenClaw
+
 ```bash
 clawhub install great-expectations-data-validation-pipeline
 ```

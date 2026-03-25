@@ -3,7 +3,7 @@ name: "Miller CSV TSV JSON Data Processor"
 description: "Miller (mlr) is a command-line tool for querying, shaping, and reformatting name-indexed data such as CSV, TSV, JSON, and JSON Lines. It combines the functionality of awk, sed, cut, join, and sort into a single tool purpose-built for structured data processing."
 category: "Data Extraction & Transformation"
 framework: "Claude Code"
-verification: listed
+verification: listed  # security_reviewed or listed
 rating: 0
 reviews: 0
 creator: ""
@@ -23,22 +23,32 @@ The tool is available via package managers on Linux (apt, yum, snap), macOS (bre
 
 ## Installation
 
-### Any / Claude Code
+### Any Agent
+
 ```bash
-npx skills add miller-csv-tsv-json-data-processor
+npx skills add agentskillexchange/skills --skill miller-csv-tsv-json-data-processor
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill miller-csv-tsv-json-data-processor -a claude-code
 ```
 
 ### Cursor
+
 ```bash
-npx skills add miller-csv-tsv-json-data-processor --cursor
+npx skills add agentskillexchange/skills --skill miller-csv-tsv-json-data-processor -a cursor
 ```
 
 ### Codex
+
 ```bash
-npx skills add miller-csv-tsv-json-data-processor --codex
+npx skills add agentskillexchange/skills --skill miller-csv-tsv-json-data-processor -a codex
 ```
 
 ### OpenClaw
+
 ```bash
 clawhub install miller-csv-tsv-json-data-processor
 ```

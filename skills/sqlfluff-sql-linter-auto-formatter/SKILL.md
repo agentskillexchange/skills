@@ -3,7 +3,7 @@ name: "SQLFluff SQL Linter and Auto-Formatter"
 description: "Lint and auto-format SQL code across 30+ dialects using SQLFluff. Enforces consistent style, catches syntax issues, and supports Jinja/dbt templating for ELT workflows."
 category: "Code Quality & Review"
 framework: "Claude Code"
-verification: listed
+verification: listed  # security_reviewed or listed
 rating: 0
 reviews: 0
 creator: ""
@@ -22,27 +22,32 @@ The skill integrates with CI/CD pipelines through GitHub Actions, pre-commit hoo
 
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
-npx @anthropic/skills add sqlfluff-sql-linter-auto-formatter
+npx skills add agentskillexchange/skills --skill sqlfluff-sql-linter-auto-formatter
 ```
 
 ### Claude Code
+
 ```bash
-npx @anthropic/skills add sqlfluff-sql-linter-auto-formatter --target claude-code
+npx skills add agentskillexchange/skills --skill sqlfluff-sql-linter-auto-formatter -a claude-code
 ```
 
 ### Cursor
+
 ```bash
-npx @anthropic/skills add sqlfluff-sql-linter-auto-formatter --target cursor
+npx skills add agentskillexchange/skills --skill sqlfluff-sql-linter-auto-formatter -a cursor
 ```
 
 ### Codex
+
 ```bash
-npx @anthropic/skills add sqlfluff-sql-linter-auto-formatter --target codex
+npx skills add agentskillexchange/skills --skill sqlfluff-sql-linter-auto-formatter -a codex
 ```
 
 ### OpenClaw
+
 ```bash
 clawhub install sqlfluff-sql-linter-auto-formatter
 ```

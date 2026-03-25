@@ -3,7 +3,7 @@ name: "dbt MCP Server for Data Pipeline Context"
 description: "The official dbt MCP Server by dbt Labs provides Model Context Protocol tools for AI agents to interact with dbt projects, query the Semantic Layer, execute SQL, generate SQL from natural language, and explore data model lineage across dbt Core, Fusion, and Platform environments."
 category: "Data Extraction & Transformation"
 framework: "MCP-compatible"
-verification: listed
+verification: listed  # security_reviewed or listed
 rating: 0
 reviews: 0
 creator: ""
@@ -23,22 +23,32 @@ This server is particularly valuable for data teams using dbt who want to give A
 
 ## Installation
 
-### Any / Claude Code
+### Any Agent
+
 ```bash
-npx skills add dbt-mcp-server-data-pipeline-context
+npx skills add agentskillexchange/skills --skill dbt-mcp-server-data-pipeline-context
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill dbt-mcp-server-data-pipeline-context -a claude-code
 ```
 
 ### Cursor
+
 ```bash
-npx skills add dbt-mcp-server-data-pipeline-context --cursor
+npx skills add agentskillexchange/skills --skill dbt-mcp-server-data-pipeline-context -a cursor
 ```
 
 ### Codex
+
 ```bash
-npx skills add dbt-mcp-server-data-pipeline-context --codex
+npx skills add agentskillexchange/skills --skill dbt-mcp-server-data-pipeline-context -a codex
 ```
 
 ### OpenClaw
+
 ```bash
 clawhub install dbt-mcp-server-data-pipeline-context
 ```

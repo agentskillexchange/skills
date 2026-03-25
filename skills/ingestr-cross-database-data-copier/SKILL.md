@@ -3,7 +3,7 @@ name: "Ingestr Cross-Database Data Copier"
 description: "Copy data between any databases with a single CLI command using Ingestr. Supports 50+ sources and destinations including PostgreSQL, MySQL, BigQuery, Snowflake, DuckDB, MongoDB, and S3."
 category: "Data Extraction & Transformation"
 framework: "Claude Code"
-verification: listed
+verification: listed  # security_reviewed or listed
 rating: 0
 reviews: 0
 creator: ""
@@ -22,27 +22,32 @@ Key technical features include automatic type mapping across database systems, c
 
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
-npx @anthropic/skills add ingestr-cross-database-data-copier
+npx skills add agentskillexchange/skills --skill ingestr-cross-database-data-copier
 ```
 
 ### Claude Code
+
 ```bash
-npx @anthropic/skills add ingestr-cross-database-data-copier --target claude-code
+npx skills add agentskillexchange/skills --skill ingestr-cross-database-data-copier -a claude-code
 ```
 
 ### Cursor
+
 ```bash
-npx @anthropic/skills add ingestr-cross-database-data-copier --target cursor
+npx skills add agentskillexchange/skills --skill ingestr-cross-database-data-copier -a cursor
 ```
 
 ### Codex
+
 ```bash
-npx @anthropic/skills add ingestr-cross-database-data-copier --target codex
+npx skills add agentskillexchange/skills --skill ingestr-cross-database-data-copier -a codex
 ```
 
 ### OpenClaw
+
 ```bash
 clawhub install ingestr-cross-database-data-copier
 ```

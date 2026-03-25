@@ -3,7 +3,7 @@ name: "sqlc Type-Safe SQL Code Generator"
 description: "sqlc is a SQL compiler that generates type-safe Go, Python, Kotlin, and TypeScript code from plain SQL queries. You write SQL, run sqlc, and get fully typed data access functions with compile-time safety — no ORM, no reflection, no runtime query building."
 category: "Developer Tools"
 framework: ""
-verification: listed
+verification: listed  # security_reviewed or listed
 rating: 0
 reviews: 0
 creator: ""
@@ -23,27 +23,32 @@ Configuration is managed through a sqlc.yaml file that specifies database engine
 
 ## Installation
 
-### Claude Code
+### Any Agent
+
 ```bash
-npx skills add sqlc-type-safe-sql-code-generator
+npx skills add agentskillexchange/skills --skill sqlc-type-safe-sql-code-generator
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill sqlc-type-safe-sql-code-generator -a claude-code
 ```
 
 ### Cursor
+
 ```bash
-npx skills add sqlc-type-safe-sql-code-generator
+npx skills add agentskillexchange/skills --skill sqlc-type-safe-sql-code-generator -a cursor
 ```
 
 ### Codex
+
 ```bash
-npx skills add sqlc-type-safe-sql-code-generator
+npx skills add agentskillexchange/skills --skill sqlc-type-safe-sql-code-generator -a codex
 ```
 
 ### OpenClaw
+
 ```bash
 clawhub install sqlc-type-safe-sql-code-generator
-```
-
-### Any Agent
-```bash
-npx skills add sqlc-type-safe-sql-code-generator
 ```

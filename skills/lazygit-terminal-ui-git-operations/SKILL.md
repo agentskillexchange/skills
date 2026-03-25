@@ -3,7 +3,7 @@ name: "lazygit Terminal UI for Git Operations"
 description: "A simple terminal user interface for git commands built with Go. lazygit provides interactive staging, rebasing, conflict resolution, and branch management through an intuitive TUI that replaces arcane git command sequences with keyboard-driven workflows."
 category: "Developer Tools"
 framework: "Claude Code"
-verification: listed
+verification: listed  # security_reviewed or listed
 rating: 0
 reviews: 0
 creator: ""
@@ -27,27 +27,32 @@ Output includes real-time diff views, commit graphs, and status indicators. lazy
 
 ## Installation
 
-### Claude Code
+### Any Agent
+
 ```bash
-npx skills add lazygit-terminal-ui-git-operations
+npx skills add agentskillexchange/skills --skill lazygit-terminal-ui-git-operations
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill lazygit-terminal-ui-git-operations -a claude-code
 ```
 
 ### Cursor
+
 ```bash
-npx skills add lazygit-terminal-ui-git-operations
+npx skills add agentskillexchange/skills --skill lazygit-terminal-ui-git-operations -a cursor
 ```
 
 ### Codex
+
 ```bash
-npx skills add lazygit-terminal-ui-git-operations
+npx skills add agentskillexchange/skills --skill lazygit-terminal-ui-git-operations -a codex
 ```
 
 ### OpenClaw
+
 ```bash
 clawhub install lazygit-terminal-ui-git-operations
-```
-
-### Any Agent
-```bash
-npx skills add lazygit-terminal-ui-git-operations
 ```

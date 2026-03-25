@@ -3,7 +3,7 @@ name: "DuckDB SQL Analytics Agent"
 description: "Run analytical SQL queries on local files (CSV, Parquet, JSON) using the DuckDB in-process database engine. Enables fast OLAP-style analysis without a server, directly from flat files on disk."
 category: "Data Extraction & Transformation"
 framework: "Claude Code"
-verification: listed
+verification: listed  # security_reviewed or listed
 rating: 0
 reviews: 0
 creator: ""
@@ -22,27 +22,32 @@ Key capabilities: in-process OLAP execution, zero-copy Parquet scanning, cross-f
 
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
-npx @anthropic/skills add duckdb-sql-analytics-agent
+npx skills add agentskillexchange/skills --skill duckdb-sql-analytics-agent
 ```
 
 ### Claude Code
+
 ```bash
-npx @anthropic/skills add duckdb-sql-analytics-agent --target claude-code
+npx skills add agentskillexchange/skills --skill duckdb-sql-analytics-agent -a claude-code
 ```
 
 ### Cursor
+
 ```bash
-npx @anthropic/skills add duckdb-sql-analytics-agent --target cursor
+npx skills add agentskillexchange/skills --skill duckdb-sql-analytics-agent -a cursor
 ```
 
 ### Codex
+
 ```bash
-npx @anthropic/skills add duckdb-sql-analytics-agent --target codex
+npx skills add agentskillexchange/skills --skill duckdb-sql-analytics-agent -a codex
 ```
 
 ### OpenClaw
+
 ```bash
 clawhub install duckdb-sql-analytics-agent
 ```

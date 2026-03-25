@@ -3,7 +3,7 @@ name: "Dagster Data Pipeline Orchestrator"
 description: "Orchestrate data pipelines using Dagster, the cloud-native data orchestration platform. Define data assets as Python functions with automatic lineage tracking, scheduling, and observability."
 category: "Data Extraction & Transformation"
 framework: "Claude Code"
-verification: listed
+verification: listed  # security_reviewed or listed
 rating: 0
 reviews: 0
 creator: ""
@@ -22,27 +22,32 @@ Key outputs include materialized data assets, run logs with detailed step timing
 
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
-npx @anthropic/skills add dagster-data-pipeline-orchestrator
+npx skills add agentskillexchange/skills --skill dagster-data-pipeline-orchestrator
 ```
 
 ### Claude Code
+
 ```bash
-npx @anthropic/skills add dagster-data-pipeline-orchestrator --target claude-code
+npx skills add agentskillexchange/skills --skill dagster-data-pipeline-orchestrator -a claude-code
 ```
 
 ### Cursor
+
 ```bash
-npx @anthropic/skills add dagster-data-pipeline-orchestrator --target cursor
+npx skills add agentskillexchange/skills --skill dagster-data-pipeline-orchestrator -a cursor
 ```
 
 ### Codex
+
 ```bash
-npx @anthropic/skills add dagster-data-pipeline-orchestrator --target codex
+npx skills add agentskillexchange/skills --skill dagster-data-pipeline-orchestrator -a codex
 ```
 
 ### OpenClaw
+
 ```bash
 clawhub install dagster-data-pipeline-orchestrator
 ```

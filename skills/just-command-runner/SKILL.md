@@ -3,7 +3,7 @@ name: "Just Command Runner"
 description: "Just is a command runner written in Rust that provides a convenient way to save and run project-specific commands. It uses a justfile syntax inspired by Make but focused on running commands rather than building targets, with support for parameters, dependencies, and multi-language recipes."
 category: "Developer Tools"
 framework: "Claude Code"
-verification: listed
+verification: listed  # security_reviewed or listed
 rating: 0
 reviews: 0
 creator: ""
@@ -23,22 +23,32 @@ Installation is available via cargo install just, Homebrew, apt, pacman, conda, 
 
 ## Installation
 
-### Any / Claude Code
+### Any Agent
+
 ```bash
-npx skills add just-command-runner
+npx skills add agentskillexchange/skills --skill just-command-runner
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill just-command-runner -a claude-code
 ```
 
 ### Cursor
+
 ```bash
-npx skills add just-command-runner --cursor
+npx skills add agentskillexchange/skills --skill just-command-runner -a cursor
 ```
 
 ### Codex
+
 ```bash
-npx skills add just-command-runner --codex
+npx skills add agentskillexchange/skills --skill just-command-runner -a codex
 ```
 
 ### OpenClaw
+
 ```bash
 clawhub install just-command-runner
 ```

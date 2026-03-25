@@ -3,7 +3,7 @@ name: "TruffleHog Credential Leak Scanner"
 description: "Find, verify, and analyze leaked credentials across Git repositories, Slack, Jira, Docker images, and more using TruffleHog. Classifies 800+ secret types and validates whether discovered credentials a"
 category: "Security &amp; Verification"
 framework: "Claude Code"
-verification: listed
+verification: listed  # security_reviewed or listed
 rating: 0
 reviews: 0
 creator: ""
@@ -16,16 +16,34 @@ source: "https://agentskillexchange.com/skills/trufflehog-credential-leak-scanne
 
 Find, verify, and analyze leaked credentials across Git repositories, Slack, Jira, Docker images, and more using TruffleHog. Classifies 800+ secret types and validates whether discovered credentials are live.
 
-## Install
+## Installation
 
-**Any / Claude Code / Cursor / Codex:**
+### Any Agent
+
 ```bash
-npx skills add trufflehog-credential-leak-scanner
+npx skills add agentskillexchange/skills --skill trufflehog-credential-leak-scanner
 ```
 
-**OpenClaw:**
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill trufflehog-credential-leak-scanner -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill trufflehog-credential-leak-scanner -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill trufflehog-credential-leak-scanner -a codex
+```
+
+### OpenClaw
+
 ```bash
 clawhub install trufflehog-credential-leak-scanner
 ```
-
-[View on Agent Skill Exchange](https://agentskillexchange.com/skills/trufflehog-credential-leak-scanner/)

@@ -3,7 +3,7 @@ name: "Atuin Shell History Database and Sync"
 description: "Atuin replaces your existing shell history with a SQLite database that records additional context like exit codes, session IDs, working directories, and command durations. It provides encrypted cross-machine sync and a full-screen fuzzy search UI bound to Ctrl-R."
 category: "Developer Tools"
 framework: "Claude Code"
-verification: listed
+verification: listed  # security_reviewed or listed
 rating: 0
 reviews: 0
 creator: ""
@@ -27,27 +27,32 @@ Atuin is distributed through its install script, Homebrew, cargo, pacman, and Ni
 
 ## Installation
 
-### Claude Code
+### Any Agent
+
 ```bash
-npx skills add atuin-shell-history-database-sync
+npx skills add agentskillexchange/skills --skill atuin-shell-history-database-sync
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill atuin-shell-history-database-sync -a claude-code
 ```
 
 ### Cursor
+
 ```bash
-npx skills add atuin-shell-history-database-sync
+npx skills add agentskillexchange/skills --skill atuin-shell-history-database-sync -a cursor
 ```
 
 ### Codex
+
 ```bash
-npx skills add atuin-shell-history-database-sync
+npx skills add agentskillexchange/skills --skill atuin-shell-history-database-sync -a codex
 ```
 
 ### OpenClaw
+
 ```bash
 clawhub install atuin-shell-history-database-sync
-```
-
-### Any Agent
-```bash
-npx skills add atuin-shell-history-database-sync
 ```

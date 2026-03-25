@@ -142,8 +142,8 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Listed** | 1,149 | Published — backed by a real tool or project |
-| 🛡️ **Security Reviewed** | 1,100 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
+| 📋 **Listed** | 1,164 | Published — backed by a real tool or project |
+| 🛡️ **Security Reviewed** | 950 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)
 
