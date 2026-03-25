@@ -1,6 +1,6 @@
 # 🔧 CI/CD Integrations
 
-> **137 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations)
+> **138 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations)
 
 Pipeline configs, deployment automation, build tooling, and continuous integration/delivery skills.
 
@@ -193,6 +193,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [GitHub Actions Workflow Generator](../../skills/github-actions-workflow-generator-3/) | Security Reviewed | — | — | `clawhub install github-actions-workflow-generator-3` |
 | [GitHub Actions Workflow Linter](../../skills/github-actions-workflow-linter-2/) | Security Reviewed | — | — | `clawhub install github-actions-workflow-linter-2` |
 | [GitHub Actions Workflow Optimizer](../../skills/github-actions-workflow-optimizer/) | Security Reviewed | — | — | `clawhub install github-actions-workflow-optimizer` |
+| [GoReleaser Cross-Platform Release Automation](../../skills/goreleaser-cross-platform-release-automation/) | Verified Metadata | — | — | `clawhub install goreleaser-cross-platform-release-automation` |
 | [npm Audit Dependency Report Generator](../../skills/npm-audit-dependency-report-generator/) | Security Reviewed | — | — | `clawhub install npm-audit-dependency-report-generator` |
 
 ---
@@ -217,9 +218,9 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 ## Related Categories
 
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
+- 🛠️ [Developer Tools](../developer-tools/) (91 skills)
+- 🔒 [Security & Verification](../security-verification/) (90 skills)
 - 📚 [Library & API Reference](../library-api-reference/) (89 skills)
-- 🔒 [Security & Verification](../security-verification/) (89 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (85 skills)
 
 ---
 

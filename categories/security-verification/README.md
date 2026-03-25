@@ -1,6 +1,6 @@
 # 🔒 Security & Verification
 
-> **89 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification)
+> **90 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification)
 
 Auth setup, vulnerability scanning, compliance checks, and security automation.
 
@@ -128,6 +128,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [TLS Certificate Chain Analyzer](../../skills/tls-certificate-chain-analyzer/) | Security Reviewed | 1.9k | 1M/wk | `clawhub install tls-certificate-chain-analyzer` |
 | [DocuSign Contract Auto-Sender with Conditional Logic](../../skills/docusign-contract-auto-sender/) | Security Reviewed | 1.5k | 804.8k/wk | `clawhub install docusign-contract-auto-sender` |
 | [OAuth2 Token Introspection Agent](../../skills/oauth2-token-introspection-agent/) | Security Reviewed | 676 | 1.2M/wk | `clawhub install oauth2-token-introspection-agent` |
+| [age Modern File Encryption Tool](../../skills/age-modern-file-encryption-tool/) | Verified Metadata | — | — | `clawhub install age-modern-file-encryption-tool` |
 | [CSP Policy Analyzer](../../skills/csp-policy-analyzer/) | Security Reviewed | — | — | `clawhub install csp-policy-analyzer` |
 | [CycloneDX SBOM Generator](../../skills/cyclonedx-sbom-generator/) | Security Reviewed | — | — | `clawhub install cyclonedx-sbom-generator` |
 | [GPG Encryption and Key Management Agent](../../skills/gpg-encryption-key-management-agent/) | Security Reviewed | — | — | `clawhub install gpg-encryption-key-management-agent` |
@@ -168,10 +169,10 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 ## Related Categories
 
-- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (137 skills)
+- 🔧 [CI/CD Integrations](../ci-cd-integrations/) (138 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
+- 🛠️ [Developer Tools](../developer-tools/) (91 skills)
 - 📚 [Library & API Reference](../library-api-reference/) (89 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (85 skills)
 
 ---
 
