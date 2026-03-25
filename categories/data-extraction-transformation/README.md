@@ -1,6 +1,6 @@
 # 🔄 Data Extraction & Transformation
 
-> **86 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation)
+> **88 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation)
 
 Parsing, ETL pipelines, format conversion, data wrangling, and transformation utilities.
 
@@ -132,6 +132,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [CSV Schema Validator &#038; Auto-Fixer](../../skills/csv-schema-validator-auto-fixer/) | Security Reviewed | — | — | `clawhub install csv-schema-validator-auto-fixer` |
 | [Dasel Multi-Format Data Selector and Modifier](../../skills/dasel-multi-format-data-selector-modifier/) | Security Reviewed | — | — | `clawhub install dasel-multi-format-data-selector-modifier` |
 | [dlt Python Data Load Tool](../../skills/dlt-python-data-load-tool/) | Verified Metadata | — | — | `clawhub install dlt-python-data-load-tool` |
+| [Documind AI-Powered Structured Data Extraction from Documents](../../skills/documind-ai-structured-data-extraction/) | Verified Metadata | — | — | `clawhub install documind-ai-structured-data-extraction` |
 | [jq Pipeline Builder Agent](../../skills/jq-pipeline-builder-agent/) | Security Reviewed | — | — | `clawhub install jq-pipeline-builder-agent` |
 | [Marker PDF-to-Markdown Converter](../../skills/marker-pdf-to-markdown-converter/) | Security Reviewed | — | — | `clawhub install marker-pdf-to-markdown-converter` |
 | [MinerU PDF-to-Markdown Document Parser](../../skills/mineru-pdf-to-markdown-document-parser/) | Verified Metadata | — | — | `clawhub install mineru-pdf-to-markdown-document-parser` |
@@ -140,6 +141,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Snowflake Query History Extractor](../../skills/snowflake-query-history-extractor/) | Security Reviewed | — | — | `clawhub install snowflake-query-history-extractor` |
 | [Snowflake Query Optimizer Agent](../../skills/snowflake-query-optimizer-agent/) | Security Reviewed | — | — | `clawhub install snowflake-query-optimizer-agent` |
 | [Snowflake Query Profiler](../../skills/snowflake-query-profiler/) | Security Reviewed | — | — | `clawhub install snowflake-query-profiler` |
+| [sqlite-utils Python CLI for SQLite Database Manipulation](../../skills/sqlite-utils-python-cli-sqlite-manipulation/) | Verified Metadata | — | — | `clawhub install sqlite-utils-python-cli-sqlite-manipulation` |
 | [Steampipe Zero-ETL SQL Cloud API Query Engine](../../skills/steampipe-zero-etl-sql-cloud-api-query-engine/) | Verified Metadata | — | — | `clawhub install steampipe-zero-etl-sql-cloud-api-query-engine` |
 | [XML XSLT Transform Pipeline](../../skills/xml-xslt-transform-pipeline/) | Security Reviewed | — | — | `clawhub install xml-xslt-transform-pipeline` |
 | [xsv High-Performance CSV Toolkit](../../skills/xsv-high-performance-csv-toolkit/) | Security Reviewed | — | — | `clawhub install xsv-high-performance-csv-toolkit` |
@@ -167,7 +169,7 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (140 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (105 skills)
+- 🛠️ [Developer Tools](../developer-tools/) (106 skills)
 - 🔒 [Security & Verification](../security-verification/) (93 skills)
 
 ---

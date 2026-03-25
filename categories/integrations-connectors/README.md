@@ -1,6 +1,6 @@
 # 🔗 Integrations & Connectors
 
-> **40 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors)
+> **42 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors)
 
 Third-party API bridges, webhook handlers, service connectors, and platform integrations.
 
@@ -93,6 +93,8 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Zapier Multi-Step Lead Enrichment Workflow](../../skills/zapier-lead-enrichment-workflow/) | Security Reviewed | 391 | 905.6k/wk | `clawhub install zapier-lead-enrichment-workflow` |
 | [Neon Serverless Postgres MCP](../../skills/neon-serverless-postgres-mcp/) | Security Reviewed | — | 21.4M/wk | `clawhub install neon-serverless-postgres-mcp` |
 | [AWS MCP Servers for Cloud Service Integration](../../skills/aws-mcp-servers-cloud-service-integration/) | Verified Metadata | — | — | `clawhub install aws-mcp-servers-cloud-service-integration` |
+| [LiteLLM Unified LLM Gateway and Proxy Server](../../skills/litellm-unified-llm-gateway-proxy/) | Verified Metadata | — | — | `clawhub install litellm-unified-llm-gateway-proxy` |
+| [MetaMCP Unified MCP Server Aggregator and Gateway](../../skills/metamcp-unified-mcp-server-aggregator-gateway/) | Verified Metadata | — | — | `clawhub install metamcp-unified-mcp-server-aggregator-gateway` |
 | [MongoDB MCP Server for Database and Atlas Management](../../skills/mongodb-mcp-server-database-atlas-management/) | Verified Metadata | — | — | `clawhub install mongodb-mcp-server-database-atlas-management` |
 | [n8n Workflow Webhook Bridge](../../skills/n8n-workflow-webhook-bridge/) | Security Reviewed | — | — | `clawhub install n8n-workflow-webhook-bridge` |
 | [Plaid Financial Data Connector](../../skills/plaid-financial-data-connector/) | Security Reviewed | — | — | `clawhub install plaid-financial-data-connector` |
@@ -121,7 +123,7 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (140 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (105 skills)
+- 🛠️ [Developer Tools](../developer-tools/) (106 skills)
 - 🔒 [Security & Verification](../security-verification/) (93 skills)
 
 ---

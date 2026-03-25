@@ -1,6 +1,6 @@
 # 🛠️ Developer Tools
 
-> **105 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools)
+> **106 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools)
 
 CLI helpers, dev environment setup, productivity utilities, and developer workflows.
 
@@ -116,6 +116,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [PostgreSQL Query Optimizer Agent](../../skills/postgresql-query-optimizer-explain-api/) | Security Reviewed | — | 21.4M/wk | `clawhub install postgresql-query-optimizer-explain-api` |
 | [PostgreSQL Query Plan Analyzer](../../skills/postgresql-query-plan-analyzer-2/) | Security Reviewed | — | 21.4M/wk | `clawhub install postgresql-query-plan-analyzer-2` |
 | [sqlc Type-Safe SQL Code Generator](../../skills/sqlc-type-safe-sql-code-generator/) | Security Reviewed | — | 21.4M/wk | `clawhub install sqlc-type-safe-sql-code-generator` |
+| [Aider AI Pair Programming CLI Agent](../../skills/aider-ai-pair-programming-cli-agent/) | Verified Metadata | — | — | `clawhub install aider-ai-pair-programming-cli-agent` |
 | [bat Syntax-Highlighting Cat Replacement](../../skills/bat-syntax-highlighting-cat-replacement/) | Security Reviewed | — | — | `clawhub install bat-syntax-highlighting-cat-replacement` |
 | [Bazel Build Graph Analyzer](../../skills/bazel-build-graph-analyzer/) | Security Reviewed | — | — | `clawhub install bazel-build-graph-analyzer` |
 | [Bun Shell Script Executor](../../skills/bun-shell-script-executor/) | Security Reviewed | — | — | `clawhub install bun-shell-script-executor` |

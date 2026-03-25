@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1204 skills** across **20 categories** · Updated 2026-03-25 18:15 UTC
+> **1210 skills** across **20 categories** · Updated 2026-03-25 19:13 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -10,12 +10,12 @@
 
 | Metric | Value |
 |--------|-------|
-| Total Skills | **1204** |
+| Total Skills | **1210** |
 | Categories | **20** |
 | Frameworks | **20** |
 | Skills with live signal data | **915** |
 | Security Reviewed | **1138** |
-| Verified Metadata | **66** |
+| Verified Metadata | **72** |
 | Listed | **0** |
 
 > These verification counts are **final-state buckets**, not cumulative stages.
@@ -293,7 +293,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Systemd Service Recovery Playbook](skills/systemd-service-recovery-playbook-2/) | Security Reviewed | — | — | `clawhub install systemd-service-recovery-playbook-2` |
 
 
-### 🛠️ Developer Tools (105 skills)
+### 🛠️ Developer Tools (106 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -358,6 +358,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [PostgreSQL Query Optimizer Agent](skills/postgresql-query-optimizer-explain-api/) | Security Reviewed | — | 21.4M/wk | `clawhub install postgresql-query-optimizer-explain-api` |
 | [PostgreSQL Query Plan Analyzer](skills/postgresql-query-plan-analyzer-2/) | Security Reviewed | — | 21.4M/wk | `clawhub install postgresql-query-plan-analyzer-2` |
 | [sqlc Type-Safe SQL Code Generator](skills/sqlc-type-safe-sql-code-generator/) | Security Reviewed | — | 21.4M/wk | `clawhub install sqlc-type-safe-sql-code-generator` |
+| [Aider AI Pair Programming CLI Agent](skills/aider-ai-pair-programming-cli-agent/) | Verified Metadata | — | — | `clawhub install aider-ai-pair-programming-cli-agent` |
 | [bat Syntax-Highlighting Cat Replacement](skills/bat-syntax-highlighting-cat-replacement/) | Security Reviewed | — | — | `clawhub install bat-syntax-highlighting-cat-replacement` |
 | [Bazel Build Graph Analyzer](skills/bazel-build-graph-analyzer/) | Security Reviewed | — | — | `clawhub install bazel-build-graph-analyzer` |
 | [Bun Shell Script Executor](skills/bun-shell-script-executor/) | Security Reviewed | — | — | `clawhub install bun-shell-script-executor` |
@@ -605,7 +606,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Zod Schema Generator](skills/zod-schema-generator/) | Security Reviewed | — | — | `clawhub install zod-schema-generator` |
 
 
-### 🔄 Data Extraction & Transformation (86 skills)
+### 🔄 Data Extraction & Transformation (88 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -686,6 +687,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [CSV Schema Validator &#038; Auto-Fixer](skills/csv-schema-validator-auto-fixer/) | Security Reviewed | — | — | `clawhub install csv-schema-validator-auto-fixer` |
 | [Dasel Multi-Format Data Selector and Modifier](skills/dasel-multi-format-data-selector-modifier/) | Security Reviewed | — | — | `clawhub install dasel-multi-format-data-selector-modifier` |
 | [dlt Python Data Load Tool](skills/dlt-python-data-load-tool/) | Verified Metadata | — | — | `clawhub install dlt-python-data-load-tool` |
+| [Documind AI-Powered Structured Data Extraction from Documents](skills/documind-ai-structured-data-extraction/) | Verified Metadata | — | — | `clawhub install documind-ai-structured-data-extraction` |
 | [jq Pipeline Builder Agent](skills/jq-pipeline-builder-agent/) | Security Reviewed | — | — | `clawhub install jq-pipeline-builder-agent` |
 | [Marker PDF-to-Markdown Converter](skills/marker-pdf-to-markdown-converter/) | Security Reviewed | — | — | `clawhub install marker-pdf-to-markdown-converter` |
 | [MinerU PDF-to-Markdown Document Parser](skills/mineru-pdf-to-markdown-document-parser/) | Verified Metadata | — | — | `clawhub install mineru-pdf-to-markdown-document-parser` |
@@ -694,6 +696,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Snowflake Query History Extractor](skills/snowflake-query-history-extractor/) | Security Reviewed | — | — | `clawhub install snowflake-query-history-extractor` |
 | [Snowflake Query Optimizer Agent](skills/snowflake-query-optimizer-agent/) | Security Reviewed | — | — | `clawhub install snowflake-query-optimizer-agent` |
 | [Snowflake Query Profiler](skills/snowflake-query-profiler/) | Security Reviewed | — | — | `clawhub install snowflake-query-profiler` |
+| [sqlite-utils Python CLI for SQLite Database Manipulation](skills/sqlite-utils-python-cli-sqlite-manipulation/) | Verified Metadata | — | — | `clawhub install sqlite-utils-python-cli-sqlite-manipulation` |
 | [Steampipe Zero-ETL SQL Cloud API Query Engine](skills/steampipe-zero-etl-sql-cloud-api-query-engine/) | Verified Metadata | — | — | `clawhub install steampipe-zero-etl-sql-cloud-api-query-engine` |
 | [XML XSLT Transform Pipeline](skills/xml-xslt-transform-pipeline/) | Security Reviewed | — | — | `clawhub install xml-xslt-transform-pipeline` |
 | [xsv High-Performance CSV Toolkit](skills/xsv-high-performance-csv-toolkit/) | Security Reviewed | — | — | `clawhub install xsv-high-performance-csv-toolkit` |
@@ -1062,7 +1065,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Todoist Sync API Task Orchestrator](skills/todoist-sync-api-task-orchestrator/) | Security Reviewed | — | — | `clawhub install todoist-sync-api-task-orchestrator` |
 
 
-### 🔍 Research & Scraping (48 skills)
+### 🔍 Research & Scraping (49 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=downloads)
 
@@ -1101,6 +1104,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Browserless Scraping Agent](skills/browserless-scraping-agent/) | Security Reviewed | — | — | `clawhub install browserless-scraping-agent` |
 | [Common Crawl Index Query Agent](skills/common-crawl-index-query-agent/) | Security Reviewed | — | — | `clawhub install common-crawl-index-query-agent` |
 | [Common Crawl URL Index Miner](skills/common-crawl-url-index-miner/) | Security Reviewed | — | — | `clawhub install common-crawl-url-index-miner` |
+| [Crawl4AI LLM-Ready Web Crawler and Scraper](skills/crawl4ai-llm-web-crawler-scraper/) | Verified Metadata | — | — | `clawhub install crawl4ai-llm-web-crawler-scraper` |
 | [Crawlee Smart Crawler Agent](skills/crawlee-smart-crawler-agent/) | Security Reviewed | — | — | `clawhub install crawlee-smart-crawler-agent` |
 | [Diffbot Article Extraction Verifier](skills/diffbot-article-extraction-verifier/) | Security Reviewed | — | — | `clawhub install diffbot-article-extraction-verifier` |
 | [Diffbot Knowledge Graph Extractor](skills/diffbot-knowledge-graph-extractor/) | Security Reviewed | — | — | `clawhub install diffbot-knowledge-graph-extractor` |
@@ -1172,7 +1176,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Playwright MCP Server for Browser Automation](skills/playwright-mcp-server-browser-automation/) | Verified Metadata | — | — | `clawhub install playwright-mcp-server-browser-automation` |
 
 
-### 🔗 Integrations & Connectors (40 skills)
+### 🔗 Integrations & Connectors (42 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
 
@@ -1214,6 +1218,8 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Zapier Multi-Step Lead Enrichment Workflow](skills/zapier-lead-enrichment-workflow/) | Security Reviewed | 391 | 905.6k/wk | `clawhub install zapier-lead-enrichment-workflow` |
 | [Neon Serverless Postgres MCP](skills/neon-serverless-postgres-mcp/) | Security Reviewed | — | 21.4M/wk | `clawhub install neon-serverless-postgres-mcp` |
 | [AWS MCP Servers for Cloud Service Integration](skills/aws-mcp-servers-cloud-service-integration/) | Verified Metadata | — | — | `clawhub install aws-mcp-servers-cloud-service-integration` |
+| [LiteLLM Unified LLM Gateway and Proxy Server](skills/litellm-unified-llm-gateway-proxy/) | Verified Metadata | — | — | `clawhub install litellm-unified-llm-gateway-proxy` |
+| [MetaMCP Unified MCP Server Aggregator and Gateway](skills/metamcp-unified-mcp-server-aggregator-gateway/) | Verified Metadata | — | — | `clawhub install metamcp-unified-mcp-server-aggregator-gateway` |
 | [MongoDB MCP Server for Database and Atlas Management](skills/mongodb-mcp-server-database-atlas-management/) | Verified Metadata | — | — | `clawhub install mongodb-mcp-server-database-atlas-management` |
 | [n8n Workflow Webhook Bridge](skills/n8n-workflow-webhook-bridge/) | Security Reviewed | — | — | `clawhub install n8n-workflow-webhook-bridge` |
 | [Plaid Financial Data Connector](skills/plaid-financial-data-connector/) | Security Reviewed | — | — | `clawhub install plaid-financial-data-connector` |
