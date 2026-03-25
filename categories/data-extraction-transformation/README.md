@@ -1,6 +1,6 @@
 # 🔄 Data Extraction & Transformation
 
-> **88 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation)
+> **90 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation)
 
 Parsing, ETL pipelines, format conversion, data wrangling, and transformation utilities.
 
@@ -133,6 +133,8 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Dasel Multi-Format Data Selector and Modifier](../../skills/dasel-multi-format-data-selector-modifier/) | Security Reviewed | — | — | `clawhub install dasel-multi-format-data-selector-modifier` |
 | [dlt Python Data Load Tool](../../skills/dlt-python-data-load-tool/) | Verified Metadata | — | — | `clawhub install dlt-python-data-load-tool` |
 | [Documind AI-Powered Structured Data Extraction from Documents](../../skills/documind-ai-structured-data-extraction/) | Verified Metadata | — | — | `clawhub install documind-ai-structured-data-extraction` |
+| [Evidence BI-as-Code SQL and Markdown Analytics Framework](../../skills/evidence-bi-as-code-sql-markdown-analytics/) | Verified Metadata | — | — | `clawhub install evidence-bi-as-code-sql-markdown-analytics` |
+| [Instructor Structured Data Extraction from LLMs](../../skills/instructor-structured-data-extraction-llms/) | Verified Metadata | — | — | `clawhub install instructor-structured-data-extraction-llms` |
 | [jq Pipeline Builder Agent](../../skills/jq-pipeline-builder-agent/) | Security Reviewed | — | — | `clawhub install jq-pipeline-builder-agent` |
 | [Marker PDF-to-Markdown Converter](../../skills/marker-pdf-to-markdown-converter/) | Security Reviewed | — | — | `clawhub install marker-pdf-to-markdown-converter` |
 | [MinerU PDF-to-Markdown Document Parser](../../skills/mineru-pdf-to-markdown-document-parser/) | Verified Metadata | — | — | `clawhub install mineru-pdf-to-markdown-document-parser` |
@@ -169,7 +171,7 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (140 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (106 skills)
+- 🛠️ [Developer Tools](../developer-tools/) (110 skills)
 - 🔒 [Security & Verification](../security-verification/) (93 skills)
 
 ---

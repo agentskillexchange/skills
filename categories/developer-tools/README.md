@@ -1,6 +1,6 @@
 # 🛠️ Developer Tools
 
-> **106 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools)
+> **110 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools)
 
 CLI helpers, dev environment setup, productivity utilities, and developer workflows.
 
@@ -119,6 +119,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Aider AI Pair Programming CLI Agent](../../skills/aider-ai-pair-programming-cli-agent/) | Verified Metadata | — | — | `clawhub install aider-ai-pair-programming-cli-agent` |
 | [bat Syntax-Highlighting Cat Replacement](../../skills/bat-syntax-highlighting-cat-replacement/) | Security Reviewed | — | — | `clawhub install bat-syntax-highlighting-cat-replacement` |
 | [Bazel Build Graph Analyzer](../../skills/bazel-build-graph-analyzer/) | Security Reviewed | — | — | `clawhub install bazel-build-graph-analyzer` |
+| [Bruno Git-Native API Client for Testing and Exploration](../../skills/bruno-git-native-api-client-testing-exploration/) | Verified Metadata | — | — | `clawhub install bruno-git-native-api-client-testing-exploration` |
 | [Bun Shell Script Executor](../../skills/bun-shell-script-executor/) | Security Reviewed | — | — | `clawhub install bun-shell-script-executor` |
 | [Claude Code MCP Bridge](../../skills/claude-code-mcp-bridge/) | Security Reviewed | — | — | `clawhub install claude-code-mcp-bridge` |
 | [delta Syntax-Highlighting Git Diff Pager](../../skills/delta-syntax-highlighting-git-diff-pager/) | Verified Metadata | — | — | `clawhub install delta-syntax-highlighting-git-diff-pager` |
@@ -130,11 +131,13 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [fzf Command-Line Fuzzy Finder](../../skills/fzf-command-line-fuzzy-finder/) | Security Reviewed | — | — | `clawhub install fzf-command-line-fuzzy-finder` |
 | [Git Bisect Automator](../../skills/git-bisect-automator/) | Security Reviewed | — | — | `clawhub install git-bisect-automator` |
 | [Git Diff Complexity Analyzer](../../skills/git-diff-complexity-analyzer/) | Security Reviewed | — | — | `clawhub install git-diff-complexity-analyzer` |
+| [GitButler Virtual Branch Git Client](../../skills/gitbutler-virtual-branch-git-client/) | Verified Metadata | — | — | `clawhub install gitbutler-virtual-branch-git-client` |
 | [GitHub MCP Server for AI-Powered Repository Management](../../skills/github-mcp-server-ai-repository-management/) | Verified Metadata | — | — | `clawhub install github-mcp-server-ai-repository-management` |
 | [GitUI Blazing Fast Terminal Git Interface](../../skills/gitui-terminal-git-interface/) | Verified Metadata | — | — | `clawhub install gitui-terminal-git-interface` |
 | [grpcurl Command-Line gRPC Client](../../skills/grpcurl-command-line-grpc-client/) | Verified Metadata | — | — | `clawhub install grpcurl-command-line-grpc-client` |
 | [Gum Interactive Shell Script Toolkit](../../skills/gum-interactive-shell-script-toolkit/) | Security Reviewed | — | — | `clawhub install gum-interactive-shell-script-toolkit` |
 | [Hoppscotch Open Source API Development Ecosystem](../../skills/hoppscotch-api-development-ecosystem/) | Verified Metadata | — | — | `clawhub install hoppscotch-api-development-ecosystem` |
+| [HTTPie CLI API Testing and Debugging Client](../../skills/httpie-cli-api-testing-debugging-client/) | Verified Metadata | — | — | `clawhub install httpie-cli-api-testing-debugging-client` |
 | [Hyperfine Command-Line Benchmarking Tool](../../skills/hyperfine-command-line-benchmarking-tool/) | Security Reviewed | — | — | `clawhub install hyperfine-command-line-benchmarking-tool` |
 | [Jira Advanced Query Agent](../../skills/jira-advanced-query-agent/) | Security Reviewed | — | — | `clawhub install jira-advanced-query-agent` |
 | [Just Command Runner](../../skills/just-command-runner/) | Security Reviewed | — | — | `clawhub install just-command-runner` |
@@ -153,6 +156,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [procs Modern Process Viewer CLI](../../skills/procs-modern-process-viewer-cli/) | Verified Metadata | — | — | `clawhub install procs-modern-process-viewer-cli` |
 | [Repomix Codebase Context Packer for LLMs](../../skills/repomix-codebase-context-packer-llm/) | Security Reviewed | — | — | `clawhub install repomix-codebase-context-packer-llm` |
 | [ripgrep Recursive Regex Search Tool](../../skills/ripgrep-recursive-regex-search-tool/) | Security Reviewed | — | — | `clawhub install ripgrep-recursive-regex-search-tool` |
+| [Slidev Markdown Presentation Slides for Developers](../../skills/slidev-markdown-presentation-slides-developers/) | Verified Metadata | — | — | `clawhub install slidev-markdown-presentation-slides-developers` |
 | [Starship Cross-Shell Prompt Configurator](../../skills/starship-cross-shell-prompt-configurator/) | Verified Metadata | — | — | `clawhub install starship-cross-shell-prompt-configurator` |
 | [Task Taskfile Build Automation Runner](../../skills/task-taskfile-build-automation-runner/) | Verified Metadata | — | — | `clawhub install task-taskfile-build-automation-runner` |
 | [Terraform MCP Server for Infrastructure as Code](../../skills/terraform-mcp-server-infrastructure-as-code/) | Verified Metadata | — | — | `clawhub install terraform-mcp-server-infrastructure-as-code` |
