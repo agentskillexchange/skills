@@ -1,6 +1,6 @@
 # 🛠️ Developer Tools
 
-> **76 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools)
+> **81 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools)
 
 CLI helpers, dev environment setup, productivity utilities, and developer workflows.
 
@@ -108,18 +108,22 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [CircleCI MCP Server](../../skills/circleci-mcp-server/) | Security Reviewed | 842 | — | `clawhub install circleci-mcp-server` |
 | [PostgreSQL Query Optimizer Agent](../../skills/postgresql-query-optimizer-explain-api/) | Security Reviewed | — | 21.4M/wk | `clawhub install postgresql-query-optimizer-explain-api` |
 | [PostgreSQL Query Plan Analyzer](../../skills/postgresql-query-plan-analyzer-2/) | Security Reviewed | — | 21.4M/wk | `clawhub install postgresql-query-plan-analyzer-2` |
+| [Atuin Shell History Database and Sync](../../skills/atuin-shell-history-database-sync/) | Verified Metadata | — | — | `clawhub install atuin-shell-history-database-sync` |
+| [bat Syntax-Highlighting Cat Replacement](../../skills/bat-syntax-highlighting-cat-replacement/) | Verified Metadata | — | — | `clawhub install bat-syntax-highlighting-cat-replacement` |
 | [Bazel Build Graph Analyzer](../../skills/bazel-build-graph-analyzer/) | Security Reviewed | — | — | `clawhub install bazel-build-graph-analyzer` |
 | [Bun Shell Script Executor](../../skills/bun-shell-script-executor/) | Security Reviewed | — | — | `clawhub install bun-shell-script-executor` |
 | [Changesets Version and Changelog Manager](../../skills/changesets-version-changelog-manager/) | Verified Metadata | — | — | `clawhub install changesets-version-changelog-manager` |
 | [Claude Code MCP Bridge](../../skills/claude-code-mcp-bridge/) | Security Reviewed | — | — | `clawhub install claude-code-mcp-bridge` |
 | [E2B Code Execution MCP](../../skills/e2b-code-execution-mcp/) | Security Reviewed | — | — | `clawhub install e2b-code-execution-mcp` |
 | [Frontend Design Guidance Skill](../../skills/frontend-design-guidance-skill/) | Security Reviewed | — | — | `clawhub install frontend-design-guidance-skill` |
+| [fzf Command-Line Fuzzy Finder](../../skills/fzf-command-line-fuzzy-finder/) | Verified Metadata | — | — | `clawhub install fzf-command-line-fuzzy-finder` |
 | [Git Bisect Automator](../../skills/git-bisect-automator/) | Security Reviewed | — | — | `clawhub install git-bisect-automator` |
 | [Git Diff Complexity Analyzer](../../skills/git-diff-complexity-analyzer/) | Security Reviewed | — | — | `clawhub install git-diff-complexity-analyzer` |
 | [Gum Interactive Shell Script Toolkit](../../skills/gum-interactive-shell-script-toolkit/) | Verified Metadata | — | — | `clawhub install gum-interactive-shell-script-toolkit` |
 | [Hyperfine Command-Line Benchmarking Tool](../../skills/hyperfine-command-line-benchmarking-tool/) | Verified Metadata | — | — | `clawhub install hyperfine-command-line-benchmarking-tool` |
 | [Jira Advanced Query Agent](../../skills/jira-advanced-query-agent/) | Security Reviewed | — | — | `clawhub install jira-advanced-query-agent` |
 | [Just Command Runner](../../skills/just-command-runner/) | Verified Metadata | — | — | `clawhub install just-command-runner` |
+| [lazygit Terminal UI for Git Operations](../../skills/lazygit-terminal-ui-git-operations/) | Verified Metadata | — | — | `clawhub install lazygit-terminal-ui-git-operations` |
 | [LLDB Debug Session Automator](../../skills/lldb-debug-session-automator/) | Security Reviewed | — | — | `clawhub install lldb-debug-session-automator` |
 | [Makefile Dependency Auditor](../../skills/makefile-dependency-auditor/) | Security Reviewed | — | — | `clawhub install makefile-dependency-auditor` |
 | [Mise Dev Tool Version Manager](../../skills/mise-dev-tool-version-manager/) | Verified Metadata | — | — | `clawhub install mise-dev-tool-version-manager` |
@@ -129,6 +133,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Package Vulnerability Scanner](../../skills/package-vuln-scanner-osv-api/) | Security Reviewed | — | — | `clawhub install package-vuln-scanner-osv-api` |
 | [pgroll PostgreSQL Zero-Downtime Schema Migration](../../skills/pgroll-postgresql-zero-downtime-schema-migration/) | Verified Metadata | — | — | `clawhub install pgroll-postgresql-zero-downtime-schema-migration` |
 | [Repomix Codebase Context Packer for LLMs](../../skills/repomix-codebase-context-packer-llm/) | Verified Metadata | — | — | `clawhub install repomix-codebase-context-packer-llm` |
+| [ripgrep Recursive Regex Search Tool](../../skills/ripgrep-recursive-regex-search-tool/) | Verified Metadata | — | — | `clawhub install ripgrep-recursive-regex-search-tool` |
 | [Turborepo Monorepo Build System](../../skills/turborepo-monorepo-build-system/) | Verified Metadata | — | — | `clawhub install turborepo-monorepo-build-system` |
 | [uv Ultra-Fast Python Package and Project Manager](../../skills/uv-ultra-fast-python-package-project-manager/) | Verified Metadata | — | — | `clawhub install uv-ultra-fast-python-package-project-manager` |
 | [VS Code Extension Debugger](../../skills/vscode-extension-debugger-dap-protocol/) | Security Reviewed | — | — | `clawhub install vscode-extension-debugger-dap-protocol` |
