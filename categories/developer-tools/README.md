@@ -1,6 +1,6 @@
 # 🛠️ Developer Tools
 
-> **110 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools)
+> **114 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools)
 
 CLI helpers, dev environment setup, productivity utilities, and developer workflows.
 
@@ -122,10 +122,12 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Bruno Git-Native API Client for Testing and Exploration](../../skills/bruno-git-native-api-client-testing-exploration/) | Verified Metadata | — | — | `clawhub install bruno-git-native-api-client-testing-exploration` |
 | [Bun Shell Script Executor](../../skills/bun-shell-script-executor/) | Security Reviewed | — | — | `clawhub install bun-shell-script-executor` |
 | [Claude Code MCP Bridge](../../skills/claude-code-mcp-bridge/) | Security Reviewed | — | — | `clawhub install claude-code-mcp-bridge` |
+| [dbmate Lightweight Database Migration CLI](../../skills/dbmate-lightweight-database-migration-cli/) | Verified Metadata | — | — | `clawhub install dbmate-lightweight-database-migration-cli` |
 | [delta Syntax-Highlighting Git Diff Pager](../../skills/delta-syntax-highlighting-git-diff-pager/) | Verified Metadata | — | — | `clawhub install delta-syntax-highlighting-git-diff-pager` |
 | [dust Intuitive Disk Usage Analyzer CLI](../../skills/dust-intuitive-disk-usage-analyzer-cli/) | Verified Metadata | — | — | `clawhub install dust-intuitive-disk-usage-analyzer-cli` |
 | [E2B Code Execution MCP](../../skills/e2b-code-execution-mcp/) | Security Reviewed | — | — | `clawhub install e2b-code-execution-mcp` |
 | [eza Modern File Listing CLI](../../skills/eza-modern-file-listing-cli/) | Verified Metadata | — | — | `clawhub install eza-modern-file-listing-cli` |
+| [Fabric AI Prompt Pattern Framework](../../skills/fabric-ai-prompt-pattern-framework/) | Verified Metadata | — | — | `clawhub install fabric-ai-prompt-pattern-framework` |
 | [fd Fast File Finder CLI](../../skills/fd-fast-file-finder-cli/) | Verified Metadata | — | — | `clawhub install fd-fast-file-finder-cli` |
 | [Frontend Design Guidance Skill](../../skills/frontend-design-guidance-skill/) | Security Reviewed | — | — | `clawhub install frontend-design-guidance-skill` |
 | [fzf Command-Line Fuzzy Finder](../../skills/fzf-command-line-fuzzy-finder/) | Security Reviewed | — | — | `clawhub install fzf-command-line-fuzzy-finder` |
@@ -146,6 +148,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [lazygit Terminal UI for Git Operations](../../skills/lazygit-terminal-ui-git-operations/) | Security Reviewed | — | — | `clawhub install lazygit-terminal-ui-git-operations` |
 | [LLDB Debug Session Automator](../../skills/lldb-debug-session-automator/) | Security Reviewed | — | — | `clawhub install lldb-debug-session-automator` |
 | [Makefile Dependency Auditor](../../skills/makefile-dependency-auditor/) | Security Reviewed | — | — | `clawhub install makefile-dependency-auditor` |
+| [Mastra TypeScript AI Agent Framework](../../skills/mastra-typescript-ai-agent-framework/) | Verified Metadata | — | — | `clawhub install mastra-typescript-ai-agent-framework` |
 | [n8n GitHub Issue-to-Jira Ticket Automator](../../skills/n8n-github-jira-ticket-automator/) | Verified Metadata | — | — | `clawhub install n8n-github-jira-ticket-automator` |
 | [navi Interactive CLI Cheatsheet Tool](../../skills/navi-interactive-cli-cheatsheet-tool/) | Verified Metadata | — | — | `clawhub install navi-interactive-cli-cheatsheet-tool` |
 | [Nix Flake Configuration Builder](../../skills/nix-flake-configuration-builder/) | Security Reviewed | — | — | `clawhub install nix-flake-configuration-builder` |
@@ -157,6 +160,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Repomix Codebase Context Packer for LLMs](../../skills/repomix-codebase-context-packer-llm/) | Security Reviewed | — | — | `clawhub install repomix-codebase-context-packer-llm` |
 | [ripgrep Recursive Regex Search Tool](../../skills/ripgrep-recursive-regex-search-tool/) | Security Reviewed | — | — | `clawhub install ripgrep-recursive-regex-search-tool` |
 | [Slidev Markdown Presentation Slides for Developers](../../skills/slidev-markdown-presentation-slides-developers/) | Verified Metadata | — | — | `clawhub install slidev-markdown-presentation-slides-developers` |
+| [sqlite-vec Vector Search Extension for SQLite](../../skills/sqlite-vec-vector-search-extension-sqlite/) | Verified Metadata | — | — | `clawhub install sqlite-vec-vector-search-extension-sqlite` |
 | [Starship Cross-Shell Prompt Configurator](../../skills/starship-cross-shell-prompt-configurator/) | Verified Metadata | — | — | `clawhub install starship-cross-shell-prompt-configurator` |
 | [Task Taskfile Build Automation Runner](../../skills/task-taskfile-build-automation-runner/) | Verified Metadata | — | — | `clawhub install task-taskfile-build-automation-runner` |
 | [Terraform MCP Server for Infrastructure as Code](../../skills/terraform-mcp-server-infrastructure-as-code/) | Verified Metadata | — | — | `clawhub install terraform-mcp-server-infrastructure-as-code` |
@@ -192,7 +196,7 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (140 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
 - 🔒 [Security & Verification](../security-verification/) (93 skills)
-- 📚 [Library & API Reference](../library-api-reference/) (90 skills)
+- 🔄 [Data Extraction & Transformation](../data-extraction-transformation/) (91 skills)
 
 ---
 
