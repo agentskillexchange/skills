@@ -1204,7 +1204,7 @@
         "Image & Creative Automation"
       ],
       "framework": [
-        "38"
+        "Custom Agents"
       ],
       "verification": "security_reviewed",
       "signals": {
@@ -1235,7 +1235,7 @@
         "Templates & Workflows"
       ],
       "framework": [
-        "24"
+        "ChatGPT Agents"
       ],
       "verification": "security_reviewed"
     },
@@ -1289,7 +1289,7 @@
         "Monitoring & Alerts"
       ],
       "framework": [
-        "32"
+        "MCP-compatible"
       ],
       "verification": "security_reviewed",
       "signals": {
@@ -1306,7 +1306,7 @@
         "Monitoring & Alerts"
       ],
       "framework": [
-        "23"
+        "Claude Agents"
       ],
       "verification": "security_reviewed",
       "signals": {
@@ -6909,8 +6909,7 @@
         "Security & Verification"
       ],
       "framework": [
-        "Multi-Framework",
-        "OpenClaw"
+        "Custom Agents"
       ],
       "verification": "security_reviewed",
       "signals": {
