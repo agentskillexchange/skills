@@ -1,6 +1,6 @@
 # 🛠️ Developer Tools
 
-> **73 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools)
+> **76 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools)
 
 CLI helpers, dev environment setup, productivity utilities, and developer workflows.
 
@@ -127,7 +127,10 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Nix Flake Configuration Builder](../../skills/nix-flake-configuration-builder/) | Security Reviewed | — | — | `clawhub install nix-flake-configuration-builder` |
 | [NPM Package Auditor](../../skills/npm-package-auditor-registry-api/) | Security Reviewed | — | — | `clawhub install npm-package-auditor-registry-api` |
 | [Package Vulnerability Scanner](../../skills/package-vuln-scanner-osv-api/) | Security Reviewed | — | — | `clawhub install package-vuln-scanner-osv-api` |
+| [pgroll PostgreSQL Zero-Downtime Schema Migration](../../skills/pgroll-postgresql-zero-downtime-schema-migration/) | Verified Metadata | — | — | `clawhub install pgroll-postgresql-zero-downtime-schema-migration` |
+| [Repomix Codebase Context Packer for LLMs](../../skills/repomix-codebase-context-packer-llm/) | Verified Metadata | — | — | `clawhub install repomix-codebase-context-packer-llm` |
 | [Turborepo Monorepo Build System](../../skills/turborepo-monorepo-build-system/) | Verified Metadata | — | — | `clawhub install turborepo-monorepo-build-system` |
+| [uv Ultra-Fast Python Package and Project Manager](../../skills/uv-ultra-fast-python-package-project-manager/) | Verified Metadata | — | — | `clawhub install uv-ultra-fast-python-package-project-manager` |
 | [VS Code Extension Debugger](../../skills/vscode-extension-debugger-dap-protocol/) | Security Reviewed | — | — | `clawhub install vscode-extension-debugger-dap-protocol` |
 | [WASM Component Model Linker](../../skills/wasm-component-model-linker/) | Security Reviewed | — | — | `clawhub install wasm-component-model-linker` |
 

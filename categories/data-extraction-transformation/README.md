@@ -1,6 +1,6 @@
 # 🔄 Data Extraction & Transformation
 
-> **79 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation)
+> **81 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation)
 
 Parsing, ETL pipelines, format conversion, data wrangling, and transformation utilities.
 
@@ -124,9 +124,11 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Dagster Data Pipeline Orchestrator](../../skills/dagster-data-pipeline-orchestrator/) | Verified Metadata | — | — | `clawhub install dagster-data-pipeline-orchestrator` |
 | [Dasel Multi-Format Data Selector and Modifier](../../skills/dasel-multi-format-data-selector-modifier/) | Verified Metadata | — | — | `clawhub install dasel-multi-format-data-selector-modifier` |
 | [dbt MCP Server for Data Pipeline Context](../../skills/dbt-mcp-server-data-pipeline-context/) | Verified Metadata | — | — | `clawhub install dbt-mcp-server-data-pipeline-context` |
+| [Docling AI Document Intelligence Pipeline](../../skills/docling-ai-document-intelligence-pipeline/) | Verified Metadata | — | — | `clawhub install docling-ai-document-intelligence-pipeline` |
 | [DuckDB SQL Analytics Agent](../../skills/duckdb-sql-analytics-agent/) | Verified Metadata | — | — | `clawhub install duckdb-sql-analytics-agent` |
 | [Ingestr Cross-Database Data Copier](../../skills/ingestr-cross-database-data-copier/) | Verified Metadata | — | — | `clawhub install ingestr-cross-database-data-copier` |
 | [jq Pipeline Builder Agent](../../skills/jq-pipeline-builder-agent/) | Security Reviewed | — | — | `clawhub install jq-pipeline-builder-agent` |
+| [Marker PDF-to-Markdown Converter](../../skills/marker-pdf-to-markdown-converter/) | Verified Metadata | — | — | `clawhub install marker-pdf-to-markdown-converter` |
 | [Miller CSV TSV JSON Data Processor](../../skills/miller-csv-tsv-json-data-processor/) | Verified Metadata | — | — | `clawhub install miller-csv-tsv-json-data-processor` |
 | [Snowflake MCP](../../skills/snowflake-mcp/) | Security Reviewed | — | — | `clawhub install snowflake-mcp` |
 | [Snowflake MCP Server](../../skills/snowflake-mcp-server/) | Security Reviewed | — | — | `clawhub install snowflake-mcp-server` |

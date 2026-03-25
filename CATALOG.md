@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1149 skills** across **20 categories** · Updated 2026-03-25 04:12 UTC
+> **1154 skills** across **20 categories** · Updated 2026-03-25 05:13 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -10,12 +10,12 @@
 
 | Metric | Value |
 |--------|-------|
-| Total Skills | **1149** |
+| Total Skills | **1154** |
 | Categories | **20** |
 | Frameworks | **20** |
 | Skills with live signal data | **890** |
 | Security Reviewed | **1100** |
-| Verified Metadata | **49** |
+| Verified Metadata | **54** |
 | Listed | **0** |
 
 > These verification counts are **final-state buckets**, not cumulative stages.
@@ -570,7 +570,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [SQLFluff SQL Linter and Auto-Formatter](skills/sqlfluff-sql-linter-auto-formatter/) | Verified Metadata | — | — | `clawhub install sqlfluff-sql-linter-auto-formatter` |
 
 
-### 🔄 Data Extraction & Transformation (79 skills)
+### 🔄 Data Extraction & Transformation (81 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -643,9 +643,11 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Dagster Data Pipeline Orchestrator](skills/dagster-data-pipeline-orchestrator/) | Verified Metadata | — | — | `clawhub install dagster-data-pipeline-orchestrator` |
 | [Dasel Multi-Format Data Selector and Modifier](skills/dasel-multi-format-data-selector-modifier/) | Verified Metadata | — | — | `clawhub install dasel-multi-format-data-selector-modifier` |
 | [dbt MCP Server for Data Pipeline Context](skills/dbt-mcp-server-data-pipeline-context/) | Verified Metadata | — | — | `clawhub install dbt-mcp-server-data-pipeline-context` |
+| [Docling AI Document Intelligence Pipeline](skills/docling-ai-document-intelligence-pipeline/) | Verified Metadata | — | — | `clawhub install docling-ai-document-intelligence-pipeline` |
 | [DuckDB SQL Analytics Agent](skills/duckdb-sql-analytics-agent/) | Verified Metadata | — | — | `clawhub install duckdb-sql-analytics-agent` |
 | [Ingestr Cross-Database Data Copier](skills/ingestr-cross-database-data-copier/) | Verified Metadata | — | — | `clawhub install ingestr-cross-database-data-copier` |
 | [jq Pipeline Builder Agent](skills/jq-pipeline-builder-agent/) | Security Reviewed | — | — | `clawhub install jq-pipeline-builder-agent` |
+| [Marker PDF-to-Markdown Converter](skills/marker-pdf-to-markdown-converter/) | Verified Metadata | — | — | `clawhub install marker-pdf-to-markdown-converter` |
 | [Miller CSV TSV JSON Data Processor](skills/miller-csv-tsv-json-data-processor/) | Verified Metadata | — | — | `clawhub install miller-csv-tsv-json-data-processor` |
 | [Snowflake MCP](skills/snowflake-mcp/) | Security Reviewed | — | — | `clawhub install snowflake-mcp` |
 | [Snowflake MCP Server](skills/snowflake-mcp-server/) | Security Reviewed | — | — | `clawhub install snowflake-mcp-server` |
@@ -742,7 +744,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [OpsGenie MCP Server](skills/opsgenie-mcp-server/) | Security Reviewed | 24 | 9.1k/wk | `clawhub install opsgenie-mcp-server` |
 
 
-### 🛠️ Developer Tools (73 skills)
+### 🛠️ Developer Tools (76 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -818,7 +820,10 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Nix Flake Configuration Builder](skills/nix-flake-configuration-builder/) | Security Reviewed | — | — | `clawhub install nix-flake-configuration-builder` |
 | [NPM Package Auditor](skills/npm-package-auditor-registry-api/) | Security Reviewed | — | — | `clawhub install npm-package-auditor-registry-api` |
 | [Package Vulnerability Scanner](skills/package-vuln-scanner-osv-api/) | Security Reviewed | — | — | `clawhub install package-vuln-scanner-osv-api` |
+| [pgroll PostgreSQL Zero-Downtime Schema Migration](skills/pgroll-postgresql-zero-downtime-schema-migration/) | Verified Metadata | — | — | `clawhub install pgroll-postgresql-zero-downtime-schema-migration` |
+| [Repomix Codebase Context Packer for LLMs](skills/repomix-codebase-context-packer-llm/) | Verified Metadata | — | — | `clawhub install repomix-codebase-context-packer-llm` |
 | [Turborepo Monorepo Build System](skills/turborepo-monorepo-build-system/) | Verified Metadata | — | — | `clawhub install turborepo-monorepo-build-system` |
+| [uv Ultra-Fast Python Package and Project Manager](skills/uv-ultra-fast-python-package-project-manager/) | Verified Metadata | — | — | `clawhub install uv-ultra-fast-python-package-project-manager` |
 | [VS Code Extension Debugger](skills/vscode-extension-debugger-dap-protocol/) | Security Reviewed | — | — | `clawhub install vscode-extension-debugger-dap-protocol` |
 | [WASM Component Model Linker](skills/wasm-component-model-linker/) | Security Reviewed | — | — | `clawhub install wasm-component-model-linker` |
 
