@@ -1,6 +1,6 @@
 # 🔒 Security & Verification
 
-> **86 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification)
+> **88 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification)
 
 Auth setup, vulnerability scanning, compliance checks, and security automation.
 
@@ -135,10 +135,12 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [OAuth2 Flow Debugger](../../skills/oauth2-flow-debugger/) | Security Reviewed | — | — | `clawhub install oauth2-flow-debugger` |
 | [OPA Rego Policy Bundle Tester](../../skills/opa-rego-policy-bundle-tester/) | Security Reviewed | — | — | `clawhub install opa-rego-policy-bundle-tester` |
 | [OpenClaw Security Suite (ClawSec)](../../skills/openclaw-security-suite-clawsec/) | Security Reviewed | — | — | `clawhub install openclaw-security-suite-clawsec` |
+| [OSV-Scanner Dependency Vulnerability Detector](../../skills/osv-scanner-dependency-vulnerability-detector/) | Verified Metadata | — | — | `clawhub install osv-scanner-dependency-vulnerability-detector` |
 | [SBOM Generator and CVE Matcher](../../skills/sbom-generator-cve-matcher/) | Security Reviewed | — | — | `clawhub install sbom-generator-cve-matcher` |
 | [SBOM Generator with CycloneDX](../../skills/sbom-generator-cyclonedx/) | Security Reviewed | — | — | `clawhub install sbom-generator-cyclonedx` |
 | [Sigstore Cosign Container Signature Checker](../../skills/sigstore-cosign-container-signature-checker/) | Security Reviewed | — | — | `clawhub install sigstore-cosign-container-signature-checker` |
 | [Sigstore Cosign Verifier](../../skills/sigstore-cosign-verifier-2/) | Security Reviewed | — | — | `clawhub install sigstore-cosign-verifier-2` |
+| [SLSA Verifier Build Provenance Checker](../../skills/slsa-verifier-build-provenance-checker/) | Verified Metadata | — | — | `clawhub install slsa-verifier-build-provenance-checker` |
 | [SSL Certificate Chain Validator](../../skills/ssl-certificate-chain-validator-2/) | Security Reviewed | — | — | `clawhub install ssl-certificate-chain-validator-2` |
 | [SSL/TLS Certificate Validator and Monitor](../../skills/ssl-tls-certificate-validator-monitor/) | Security Reviewed | — | — | `clawhub install ssl-tls-certificate-validator-monitor` |
 | [TLS Certificate Chain Validator](../../skills/tls-certificate-chain-validator/) | Security Reviewed | — | — | `clawhub install tls-certificate-chain-validator` |
@@ -168,7 +170,7 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (137 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
 - 📚 [Library & API Reference](../library-api-reference/) (89 skills)
-- ✅ [Code Quality & Review](../code-quality-review/) (81 skills)
+- 🛠️ [Developer Tools](../developer-tools/) (83 skills)
 
 ---
 

@@ -1,6 +1,6 @@
 # 🛠️ Developer Tools
 
-> **81 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools)
+> **83 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools)
 
 CLI helpers, dev environment setup, productivity utilities, and developer workflows.
 
@@ -124,6 +124,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Jira Advanced Query Agent](../../skills/jira-advanced-query-agent/) | Security Reviewed | — | — | `clawhub install jira-advanced-query-agent` |
 | [Just Command Runner](../../skills/just-command-runner/) | Verified Metadata | — | — | `clawhub install just-command-runner` |
 | [lazygit Terminal UI for Git Operations](../../skills/lazygit-terminal-ui-git-operations/) | Verified Metadata | — | — | `clawhub install lazygit-terminal-ui-git-operations` |
+| [Lefthook Git Hooks Manager](../../skills/lefthook-git-hooks-manager/) | Verified Metadata | — | — | `clawhub install lefthook-git-hooks-manager` |
 | [LLDB Debug Session Automator](../../skills/lldb-debug-session-automator/) | Security Reviewed | — | — | `clawhub install lldb-debug-session-automator` |
 | [Makefile Dependency Auditor](../../skills/makefile-dependency-auditor/) | Security Reviewed | — | — | `clawhub install makefile-dependency-auditor` |
 | [Mise Dev Tool Version Manager](../../skills/mise-dev-tool-version-manager/) | Verified Metadata | — | — | `clawhub install mise-dev-tool-version-manager` |
@@ -134,6 +135,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [pgroll PostgreSQL Zero-Downtime Schema Migration](../../skills/pgroll-postgresql-zero-downtime-schema-migration/) | Verified Metadata | — | — | `clawhub install pgroll-postgresql-zero-downtime-schema-migration` |
 | [Repomix Codebase Context Packer for LLMs](../../skills/repomix-codebase-context-packer-llm/) | Verified Metadata | — | — | `clawhub install repomix-codebase-context-packer-llm` |
 | [ripgrep Recursive Regex Search Tool](../../skills/ripgrep-recursive-regex-search-tool/) | Verified Metadata | — | — | `clawhub install ripgrep-recursive-regex-search-tool` |
+| [sqlc Type-Safe SQL Code Generator](../../skills/sqlc-type-safe-sql-code-generator/) | Verified Metadata | — | — | `clawhub install sqlc-type-safe-sql-code-generator` |
 | [Turborepo Monorepo Build System](../../skills/turborepo-monorepo-build-system/) | Verified Metadata | — | — | `clawhub install turborepo-monorepo-build-system` |
 | [uv Ultra-Fast Python Package and Project Manager](../../skills/uv-ultra-fast-python-package-project-manager/) | Verified Metadata | — | — | `clawhub install uv-ultra-fast-python-package-project-manager` |
 | [VS Code Extension Debugger](../../skills/vscode-extension-debugger-dap-protocol/) | Security Reviewed | — | — | `clawhub install vscode-extension-debugger-dap-protocol` |
@@ -163,7 +165,7 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (137 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
 - 📚 [Library & API Reference](../library-api-reference/) (89 skills)
-- 🔒 [Security & Verification](../security-verification/) (86 skills)
+- 🔒 [Security & Verification](../security-verification/) (88 skills)
 
 ---
 

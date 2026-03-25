@@ -1,6 +1,6 @@
 # 🔄 Data Extraction & Transformation
 
-> **81 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation)
+> **82 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation)
 
 Parsing, ETL pipelines, format conversion, data wrangling, and transformation utilities.
 
@@ -129,6 +129,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Ingestr Cross-Database Data Copier](../../skills/ingestr-cross-database-data-copier/) | Verified Metadata | — | — | `clawhub install ingestr-cross-database-data-copier` |
 | [jq Pipeline Builder Agent](../../skills/jq-pipeline-builder-agent/) | Security Reviewed | — | — | `clawhub install jq-pipeline-builder-agent` |
 | [Marker PDF-to-Markdown Converter](../../skills/marker-pdf-to-markdown-converter/) | Verified Metadata | — | — | `clawhub install marker-pdf-to-markdown-converter` |
+| [Meltano Declarative ELT Data Integration Engine](../../skills/meltano-declarative-elt-data-integration-engine/) | Verified Metadata | — | — | `clawhub install meltano-declarative-elt-data-integration-engine` |
 | [Miller CSV TSV JSON Data Processor](../../skills/miller-csv-tsv-json-data-processor/) | Verified Metadata | — | — | `clawhub install miller-csv-tsv-json-data-processor` |
 | [Snowflake MCP](../../skills/snowflake-mcp/) | Security Reviewed | — | — | `clawhub install snowflake-mcp` |
 | [Snowflake MCP Server](../../skills/snowflake-mcp-server/) | Security Reviewed | — | — | `clawhub install snowflake-mcp-server` |
@@ -163,7 +164,7 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (137 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
 - 📚 [Library & API Reference](../library-api-reference/) (89 skills)
-- 🔒 [Security & Verification](../security-verification/) (86 skills)
+- 🔒 [Security & Verification](../security-verification/) (88 skills)
 
 ---
 
