@@ -1,6 +1,6 @@
 # 🛠️ Developer Tools
 
-> **91 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools)
+> **97 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools)
 
 CLI helpers, dev environment setup, productivity utilities, and developer workflows.
 
@@ -121,7 +121,10 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Bun Shell Script Executor](../../skills/bun-shell-script-executor/) | Security Reviewed | — | — | `clawhub install bun-shell-script-executor` |
 | [Claude Code MCP Bridge](../../skills/claude-code-mcp-bridge/) | Security Reviewed | — | — | `clawhub install claude-code-mcp-bridge` |
 | [delta Syntax-Highlighting Git Diff Pager](../../skills/delta-syntax-highlighting-git-diff-pager/) | Verified Metadata | — | — | `clawhub install delta-syntax-highlighting-git-diff-pager` |
+| [dust Intuitive Disk Usage Analyzer CLI](../../skills/dust-intuitive-disk-usage-analyzer-cli/) | Verified Metadata | — | — | `clawhub install dust-intuitive-disk-usage-analyzer-cli` |
 | [E2B Code Execution MCP](../../skills/e2b-code-execution-mcp/) | Security Reviewed | — | — | `clawhub install e2b-code-execution-mcp` |
+| [eza Modern File Listing CLI](../../skills/eza-modern-file-listing-cli/) | Verified Metadata | — | — | `clawhub install eza-modern-file-listing-cli` |
+| [fd Fast File Finder CLI](../../skills/fd-fast-file-finder-cli/) | Verified Metadata | — | — | `clawhub install fd-fast-file-finder-cli` |
 | [Frontend Design Guidance Skill](../../skills/frontend-design-guidance-skill/) | Security Reviewed | — | — | `clawhub install frontend-design-guidance-skill` |
 | [fzf Command-Line Fuzzy Finder](../../skills/fzf-command-line-fuzzy-finder/) | Security Reviewed | — | — | `clawhub install fzf-command-line-fuzzy-finder` |
 | [Git Bisect Automator](../../skills/git-bisect-automator/) | Security Reviewed | — | — | `clawhub install git-bisect-automator` |
@@ -141,12 +144,15 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Nushell Structured Data Shell](../../skills/nushell-structured-data-shell/) | Verified Metadata | — | — | `clawhub install nushell-structured-data-shell` |
 | [Package Vulnerability Scanner](../../skills/package-vuln-scanner-osv-api/) | Security Reviewed | — | — | `clawhub install package-vuln-scanner-osv-api` |
 | [Posting Terminal API Client](../../skills/posting-terminal-api-client/) | Verified Metadata | — | — | `clawhub install posting-terminal-api-client` |
+| [procs Modern Process Viewer CLI](../../skills/procs-modern-process-viewer-cli/) | Verified Metadata | — | — | `clawhub install procs-modern-process-viewer-cli` |
 | [Repomix Codebase Context Packer for LLMs](../../skills/repomix-codebase-context-packer-llm/) | Security Reviewed | — | — | `clawhub install repomix-codebase-context-packer-llm` |
 | [ripgrep Recursive Regex Search Tool](../../skills/ripgrep-recursive-regex-search-tool/) | Security Reviewed | — | — | `clawhub install ripgrep-recursive-regex-search-tool` |
+| [Starship Cross-Shell Prompt Configurator](../../skills/starship-cross-shell-prompt-configurator/) | Verified Metadata | — | — | `clawhub install starship-cross-shell-prompt-configurator` |
 | [Task Taskfile Build Automation Runner](../../skills/task-taskfile-build-automation-runner/) | Verified Metadata | — | — | `clawhub install task-taskfile-build-automation-runner` |
 | [VHS Terminal Session Recorder and GIF Generator](../../skills/vhs-terminal-session-recorder-gif-generator/) | Verified Metadata | — | — | `clawhub install vhs-terminal-session-recorder-gif-generator` |
 | [VS Code Extension Debugger](../../skills/vscode-extension-debugger-dap-protocol/) | Security Reviewed | — | — | `clawhub install vscode-extension-debugger-dap-protocol` |
 | [WASM Component Model Linker](../../skills/wasm-component-model-linker/) | Security Reviewed | — | — | `clawhub install wasm-component-model-linker` |
+| [zoxide Smart Directory Navigation CLI](../../skills/zoxide-smart-directory-navigation-cli/) | Verified Metadata | — | — | `clawhub install zoxide-smart-directory-navigation-cli` |
 | [zx JavaScript Shell Script Runner](../../skills/zx-javascript-shell-script-runner/) | Verified Metadata | — | — | `clawhub install zx-javascript-shell-script-runner` |
 
 ---
