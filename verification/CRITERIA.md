@@ -4,9 +4,9 @@ Detailed criteria for each trust tier in the Agent Skill Exchange.
 
 ---
 
-## 📋 Tier 1: Listed
+## 📋 Tier 1: Published
 
-A skill receives **Listed** status when it meets the requirements for publication.
+A skill receives **Published** status when it meets the requirements for publication.
 
 ### Requirements
 

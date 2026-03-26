@@ -1,18 +1,18 @@
 # Trust & Safety
 
-Every skill in the Agent Skill Exchange is backed by a real tool, repo, or package. New skills go through a discovery pipeline that requires real provenance before listing.
+Every skill in the Agent Skill Exchange is backed by a real tool, repo, or package. New skills go through a discovery pipeline that requires real provenance before publishing.
 
 ## How It Works
 
 ```
-📋 Listed                  Published — real tool, real provenance
+📋 Published               In the catalog — real tool, real provenance
      ↓
 🛡️ Security Reviewed      Scanned for safety — highest trust
 ```
 
-### 📋 Listed
+### 📋 Published
 
-The skill is published in the catalog. To be listed, a skill must:
+The skill is published in the catalog. To be published, a skill must:
 
 - Be backed by a real tool, repo, or package
 - Have a valid `SKILL.md` with required frontmatter
@@ -44,10 +44,10 @@ verification: security_reviewed
 
 Valid values:
 
-| Value | Meaning |
-|-------|---------|
-| `listed` | Published — backed by a real tool |
-| `security_reviewed` | Content scanned for malicious patterns — safe to use |
+| Value | User-facing label | Meaning |
+|-------|-------------------|---------|
+| `listed` | Published | In the catalog — backed by a real tool |
+| `security_reviewed` | Security Reviewed | Content scanned for malicious patterns — safe to use |
 
 ## More Information
 
