@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1298 published skills** across **20 categories** · 1277 security reviewed · Updated 2026-03-26 13:14 UTC
+> **1302 published skills** across **17 categories** · 1277 security reviewed · Updated 2026-03-26 15:15 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -117,7 +117,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Claude Code MCP Bridge](skills/claude-code-mcp-bridge/) | Run Claude Code as a one-shot MCP tool so other agents and editors can delegate coding tasks to it. An… | Security Reviewed | — | — |
 | [Desktop Commander MCP Server for Terminal and File Control](skills/desktop-commander-mcp-terminal-file-control/) | Desktop Commander is an MCP server that gives AI assistants terminal command execution, file system search,… | Published | — | — |
 | [dust Intuitive Disk Usage Analyzer CLI](skills/dust-intuitive-disk-usage-analyzer-cli/) | A more intuitive version of the du command, written in Rust. dust instantly visualizes which directories consume the… | Security Reviewed | — | — |
-| [E2B Code Execution MCP](skills/e2b-code-execution-mcp/) | Add sandboxed code execution to any MCP AI client. E2B gives agents access to secure, internet-connected… | Security Reviewed | — | — |
+| [E2B Code Execution MCP](skills/e2b-code-execution-mcp/) | Add sandboxed code execution to any MCP-compatible AI client. E2B gives agents access to secure, internet-connected… | Security Reviewed | — | — |
 | [eza Modern File Listing CLI](skills/eza-modern-file-listing-cli/) | A modern, maintained replacement for the ls command, written in Rust. eza provides colorized output, Git… | Security Reviewed | — | — |
 | [FastMCP Python MCP Server and Client Framework](skills/fastmcp-python-mcp-server-client-framework/) | FastMCP is the standard Python framework for building Model Context Protocol servers, clients, and applications. It… | Published | — | — |
 | [fd Fast File Finder CLI](skills/fd-fast-file-finder-cli/) | A fast and user-friendly alternative to the find command, written in Rust. fd provides intuitive syntax, regex and… | Security Reviewed | — | — |
@@ -429,7 +429,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Systemd Service Recovery Playbook](skills/systemd-service-recovery-playbook-2/) | Diagnoses and recovers failed systemd services using journalctl, systemctl status, and D-Bus… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (102 skills)
+### 🔄 Data Extraction & Transformation (103 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -524,6 +524,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [dlt Python Data Load Tool](skills/dlt-python-data-load-tool/) | An open-source Python library that makes loading data from APIs, databases, and files into structured datasets… | Security Reviewed | — | — |
 | [Evidence BI-as-Code SQL and Markdown Analytics Framework](skills/evidence-bi-as-code-sql-markdown-analytics/) | Evidence is an open-source framework for building data products with SQL and Markdown. It generates interactive… | Security Reviewed | — | — |
 | [fx Terminal JSON Viewer and Processor](skills/fx-terminal-json-viewer-processor/) | fx is a terminal-based JSON viewer and processor that provides an interactive TUI for navigating, filtering, and… | Security Reviewed | — | — |
+| [gallery-dl Image Gallery and Collection Downloader](skills/gallery-dl-image-gallery-collection-downloader/) | gallery-dl is a command-line tool for downloading image galleries and collections from dozens of hosting sites… | Published | — | — |
 | [gron Greppable JSON Flattener](skills/gron-greppable-json-flattener/) | gron transforms JSON into discrete assignment statements, making it possible to grep through complex JSON structures… | Security Reviewed | — | — |
 | [jq Pipeline Builder Agent](skills/jq-pipeline-builder-agent/) | Constructs complex jq filter pipelines from natural language queries against JSON/NDJSON data streams. Uses jq… | Security Reviewed | — | — |
 | [LangExtract LLM-Powered Structured Text Extraction](skills/langextract-llm-structured-text-extraction/) | LangExtract by Google is a Python library for extracting structured information from unstructured text using LLMs… | Published | — | — |
@@ -844,7 +845,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Vale Prose Linter for Technical Documentation](skills/vale-prose-linter-technical-docs/) | Vale is an open-source, markup-aware prose linter that enforces editorial style guides on technical documentation.… | Security Reviewed | — | — |
 
 
-### 📊 Monitoring & Alerts (79 skills)
+### 📊 Monitoring & Alerts (83 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=downloads)
 
@@ -854,7 +855,9 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Kubernetes Troubleshooting Runbook](skills/kubernetes-troubleshooting-runbook/) | Kubernetes Troubleshooting Runbook is built around Kubernetes orchestration platform. The underlying ecosystem is… | Security Reviewed | 121.4k | — |
 | [OpenTelemetry Collector Pipeline Designer](skills/otel-collector-pipeline-designer/) | Designs OpenTelemetry Collector pipeline configurations with receivers (otlp, prometheus, filelog), processors… | Security Reviewed | 121.4k | — |
 | [OpenTelemetry Trace Aggregator](skills/opentelemetry-trace-aggregator/) | Aggregates OpenTelemetry trace spans from Jaeger and Zipkin backends into unified flame graphs. Uses the OTLP gRPC… | Security Reviewed | 121.4k | — |
+| [Checkly Browser Check Failure Notifier](skills/checkly-browser-check-failure-notifier/) | Monitors Checkly browser checks via the Checkly Management API and notifies teams on Playwright test failures.… | Security Reviewed | 85k | 40.1M/wk |
 | [Elastic / Kibana MCP Server](skills/elastic-kibana-mcp-server/) | Elastic / Kibana MCP Server is built around Elasticsearch search and analytics engine. The underlying ecosystem is… | Security Reviewed | 76.4k | 1.9M/wk |
+| [Elastic APM Transaction Anomaly Spotter](skills/elastic-apm-transaction-anomaly-spotter/) | Queries Elastic APM transaction data through the Elasticsearch REST API to surface latency anomalies and throughput… | Security Reviewed | 76.4k | 1.9M/wk |
 | [ElasticSearch Cluster Vitals Agent](skills/elasticsearch-cluster-vitals-agent/) | Polls Elasticsearch _cluster/health, _nodes/stats, and _cat/shards APIs to detect node drops, unassigned shards, and… | Security Reviewed | 76.4k | 1.9M/wk |
 | [Grafana Alert Router](skills/grafana-alert-router/) | Routes Grafana alerting webhook payloads to Slack, PagerDuty, and OpsGenie channels based on label matching rules.… | Security Reviewed | 72.8k | — |
 | [Grafana Alloy OpenTelemetry Collector Distribution](skills/grafana-alloy-opentelemetry-collector/) | Grafana Alloy is an open-source OpenTelemetry Collector distribution with programmable pipelines for metrics, logs,… | Security Reviewed | 72.8k | — |
@@ -890,6 +893,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Prometheus PromQL Alert Builder](skills/prometheus-promql-alert-builder/) | Constructs Prometheus alerting rules using PromQL expressions with proper label matchers, aggregation operators, and… | Security Reviewed | 63.3k | 5.3M/wk |
 | [Prometheus Rule Evaluator](skills/prometheus-rule-evaluator/) | Validates and tests Prometheus alerting rules against historical metrics data using the Prometheus HTTP API… | Security Reviewed | 63.3k | 5.3M/wk |
 | [Sentry Error Intelligence](skills/sentry-error-intelligence/) | Connects to the Sentry API v0 to analyze error trends, group similar stack traces using fingerprinting rules, and… | Security Reviewed | 43.4k | 16.4M/wk |
+| [Sentry Issue Spike Detection Agent](skills/sentry-issue-spike-detection-agent/) | Analyzes Sentry project event streams via the Sentry Issues API to detect sudden spikes in error frequency. Computes… | Security Reviewed | 43.4k | 16.4M/wk |
 | [Sentry MCP Server](skills/sentry-mcp-server/) | Sentry's official MCP server connects your error monitoring stack to any MCP client. Search issues, analyze stack… | Security Reviewed | 43.4k | 16.4M/wk |
 | [Sentry MCP Server for Error Tracking and Performance](skills/sentry-mcp-server-error-tracking-performance/) | The official Sentry MCP server gives AI agents access to Sentry error tracking, issue management, and performance… | Security Reviewed | 43.4k | 16.4M/wk |
 | [Grafana Loki Log Correlation Agent](skills/grafana-loki-log-correlation-agent-2/) | Queries Grafana Loki via the LogQL API to correlate log streams across services. Builds cross-service trace-to-log… | Security Reviewed | 27.9k | — |
@@ -928,10 +932,11 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [PagerDuty Incident Runbook Linker](skills/pagerduty-incident-runbook-linker/) | Automatically links PagerDuty incidents to relevant runbooks using the PagerDuty Events API v2 and service… | Security Reviewed | 69 | 207.4k/wk |
 | [PagerDuty MCP Server](skills/pagerduty-mcp-server/) | PagerDuty MCP Server is built around PagerDuty incident response platform. The underlying ecosystem is represented… | Security Reviewed | 69 | 207.4k/wk |
 | [Uptime Robot Multi-Check Coordinator](skills/uptime-robot-multi-check-coordinator/) | Manages bulk uptime monitoring via the Uptime Robot API v2. Creates HTTP, keyword, and port monitors with alert… | Security Reviewed | 69 | 207.4k/wk |
+| [Uptime Robot Status Page Webhook Alerter](skills/uptime-robot-status-page-webhook-alerter/) | Integrates with the Uptime Robot API to monitor status page changes and push webhook alerts to Slack or PagerDuty.… | Security Reviewed | 69 | 207.4k/wk |
 | [OpsGenie MCP Server](skills/opsgenie-mcp-server/) | OpsGenie MCP Server is built around Opsgenie incident and on-call platform. The underlying ecosystem is represented… | Security Reviewed | 24 | 9.1k/wk |
 
 
-### 📄 Templates & Workflows (61 skills)
+### 📄 Templates & Workflows (65 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -953,6 +958,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Ansible Playbook Linter](skills/ansible-playbook-linter-2/) | Validates Ansible playbooks and roles using ansible-lint and yamllint APIs. Enforces best practices for idempotency,… | Security Reviewed | 68.4k | — |
 | [Ansible Playbook Runner](skills/ansible-playbook-runner/) | Ansible Playbook Runner is built around Ansible automation engine. The underlying ecosystem is represented by… | Security Reviewed | 68.4k | — |
 | [Ansible Playbook Template Generator](skills/ansible-playbook-template-generator/) | Generates Ansible playbook YAML with proper module usage, handler chains, and role structures using ansible-core… | Security Reviewed | 68.4k | — |
+| [Terraform Module Boilerplate Assembler](skills/terraform-module-boilerplate-assembler/) | Generates Terraform module scaffolds with variables.tf, outputs.tf, and provider configurations from a module… | Security Reviewed | 48k | — |
 | [Terraform Module Registry](skills/terraform-module-registry/) | Terraform Module Registry is built around Terraform infrastructure as code. The underlying ecosystem is represented… | Security Reviewed | 48k | — |
 | [Terraform Module Registry Browser](skills/terraform-module-registry-browser/) | Searches and evaluates Terraform modules from the HashiCorp Registry API and private registries. Uses hcl2json… | Security Reviewed | 48k | — |
 | [Terraform Module Scaffold Generator](skills/terraform-module-scaffold-generator/) | Generates production-ready Terraform module scaffolds with variables.tf, outputs.tf, and provider blocks using the… | Security Reviewed | 48k | — |
@@ -987,6 +993,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Cookiecutter Project Scaffold](skills/cookiecutter-project-scaffold/) | Generates project boilerplate from Cookiecutter templates with Jinja2 variable injection. Supports custom hooks for… | Security Reviewed | — | — |
 | [Cookiecutter Project Scaffolder](skills/cookiecutter-project-scaffolder-3/) | Scaffolds project templates using the Cookiecutter engine with Jinja2 templating and pre/post generation hooks.… | Security Reviewed | — | — |
 | [Cookiecutter Project Template Engine](skills/cookiecutter-project-template-engine/) | Manages and instantiates Cookiecutter project templates with dynamic Jinja2 variable substitution and… | Security Reviewed | — | — |
+| [Cookiecutter Project Template Scaffolder](skills/cookiecutter-project-template-scaffolder/) | Generates project scaffolds using Cookiecutter templates from GitHub repositories or local directories. Automates… | Security Reviewed | — | — |
 | [Cookiecutter Template Generator](skills/cookiecutter-template-generator/) | Generates project scaffolding using the Cookiecutter CLI with Jinja2 templating. Supports custom template… | Security Reviewed | — | — |
 | [GitHub Actions Workflow Composer](skills/github-actions-workflow-composer-2/) | Composes GitHub Actions workflow YAML files from modular job templates, resolving action version pins and secret… | Security Reviewed | — | — |
 | [Jinja2 Template Engine](skills/jinja2-template-engine-agent/) | Renders Jinja2 templates with variable injection, macro expansion, and template inheritance. Integrates with the… | Security Reviewed | — | — |
@@ -994,9 +1001,11 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Mustache Template Renderer](skills/mustache-template-renderer-agent/) | Renders Mustache logic-less templates with partials resolution and lambda support. Uses the mustache.js library for… | Security Reviewed | — | — |
 | [Nx Monorepo Workflow Orchestrator](skills/nx-monorepo-workflow-orchestrator/) | Manages Nx workspace task orchestration using nx.json configuration and @nrwl/devkit executors. Automates dependency… | Security Reviewed | — | — |
 | [Nx Workspace Generator](skills/nx-workspace-generator/) | Creates and manages Nx monorepo workspace generators using @nx/devkit and the Nx plugin API. Generates libraries,… | Security Reviewed | — | — |
+| [Plop.js Code Generator Orchestrator](skills/plopjs-code-generator-orchestrator/) | Manages Plop.js micro-generators to scaffold components, modules, and boilerplate files using Handlebars templates.… | Security Reviewed | — | — |
 | [Self-Improvement / Learnings Capture](skills/self-improvement-learnings-capture/) | Capture failures, corrections, and repeatable lessons so important operational knowledge persists across sessions. | Security Reviewed | — | — |
 | [Yeoman Generator Builder](skills/yeoman-generator-builder/) | Creates custom Yeoman generators using the yeoman-generator API and yo CLI. Scaffolds generator packages with… | Security Reviewed | — | — |
 | [Yeoman Scaffold Runner](skills/yeoman-scaffold-runner/) | Executes Yeoman generators via the yo CLI and yeoman-environment API to scaffold applications, components, and… | Security Reviewed | — | — |
+| [Yeoman Sub-Generator Composition Builder](skills/yeoman-sub-generator-composition-builder/) | Orchestrates Yeoman generator composition by chaining sub-generators via the Yeoman Environment API. Manages yo run… | Security Reviewed | — | — |
 | [Yeoman Workflow Orchestrator](skills/yeoman-workflow-orchestrator/) | Orchestrates Yeoman generator workflows with composable sub-generators and mem-fs-editor file transformations.… | Security Reviewed | — | — |
 
 
@@ -1065,6 +1074,70 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Zapier Webhook Integration Builder](skills/zapier-webhook-integration-builder/) | Creates and manages Zapier integrations using the Zapier Platform CLI and REST Hooks API. Builds custom triggers,… | Security Reviewed | — | — |
 
 
+### 🎨 Image & Creative Automation (56 skills)
+
+Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=downloads)
+
+| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
+|---|---|---|---:|---:|
+| [Rive Runtime Animation Controller](skills/rive-runtime-animation-controller/) | Controls Rive (.riv) interactive animations at runtime using @rive-app/canvas-advanced, manages state machine… | Security Reviewed | 244.2k | 105.7M/wk |
+| [SVG Animation Builder](skills/svg-animation-builder/) | Creates animated SVGs using GSAP (GreenSock Animation Platform) and the SVG DOM API. Generates timeline-based… | Security Reviewed | 93.9k | 8.7M/wk |
+| [Figma Design Token Extractor](skills/figma-design-token-extractor-3/) | Extracts design tokens from Figma files using the Figma REST API and style-dictionary. Generates CSS custom… | Security Reviewed | 89.5k | 13M/wk |
+| [RunPod Serverless GPU Inference](skills/runpod-serverless-gpu-inference/) | Deploy and manage GPU inference endpoints on RunPod Serverless using their REST API. Handles endpoint creation, cold… | Security Reviewed | 71.6k | — |
+| [FFmpeg Thumbnail Grid Generator](skills/ffmpeg-thumbnail-grid-generator/) | Generates contact-sheet-style thumbnail grids from video files using FFmpeg tile filter and libvips. Supports… | Security Reviewed | 58.3k | 9.2M/wk |
+| [FFmpeg Intelligent Media Processor](skills/ffmpeg-intelligent-media-processor/) | Orchestrates complex video and audio processing pipelines using FFmpeg and FFprobe with scene detection via… | Security Reviewed | 58.3k | — |
+| [FFmpeg Media Transcoder](skills/ffmpeg-media-transcoder/) | Automated video and audio transcoding using FFmpeg with hardware-accelerated encoding via NVENC/VAAPI, HLS adaptive… | Security Reviewed | 58.3k | — |
+| [FFmpeg Thumbnail Mosaic Generator](skills/ffmpeg-thumbnail-mosaic-generator/) | Creates video thumbnail mosaics and sprite sheets using FFmpeg filters and the fluent-ffmpeg Node.js wrapper.… | Security Reviewed | 58.3k | — |
+| [FFmpeg Video Processing Pipeline](skills/ffmpeg-video-processing-pipeline/) | Builds complex FFmpeg filtergraph chains for batch video transcoding, thumbnail sprite generation, and HLS adaptive… | Security Reviewed | 58.3k | — |
+| [RunwayML Gen-3 Alpha Video Composer](skills/runwayml-gen-3-alpha-video-composer/) | Composes AI-generated video clips using the RunwayML Gen-3 Alpha API with text-to-video and image-to-video modes.… | Security Reviewed | 58.3k | — |
+| [ComfyUI Workflow Executor](skills/comfyui-workflow-executor/) | Executes ComfyUI image generation workflows via the /prompt REST API endpoint with WebSocket progress tracking.… | Security Reviewed | 35.3k | — |
+| [Sharp Image CDN Optimizer](skills/sharp-image-cdn-optimizer/) | On-the-fly image optimization using Sharp (libvips Node.js bindings) with CDN-aware caching headers. Supports… | Security Reviewed | 32.1k | 54.4M/wk |
+| [Sharp Image Pipeline Processor](skills/sharp-image-pipeline-processor-2/) | Builds composable image transformation pipelines using the Sharp library with operations like resize(), composite(),… | Security Reviewed | 32.1k | 54.4M/wk |
+| [Sharp Image Pipeline Skill](skills/sharp-image-pipeline-skill/) | Processes images using the Sharp npm library (libvips). Supports batch resize, format conversion (WebP/AVIF/JPEG… | Security Reviewed | 32.1k | 54.4M/wk |
+| [Sharp Image Transform Pipeline](skills/sharp-image-transform-pipeline/) | Builds composable image processing pipelines using the Sharp library with libvips bindings for Node.js. Chains… | Security Reviewed | 32.1k | 54.4M/wk |
+| [ImageMagick Batch Converter CLI](skills/imagemagick-batch-converter-cli/) | Automates bulk image conversion using ImageMagick's convert and mogrify commands with geometry expressions. Supports… | Security Reviewed | 16k | — |
+| [ImageMagick Batch Processor](skills/imagemagick-batch-processor/) | Batch image processing using ImageMagick's convert and mogrify commands with support for resize, crop, watermark,… | Security Reviewed | 16k | — |
+| [ImageMagick Batch Transform Agent](skills/imagemagick-batch-transform-agent/) | Automates ImageMagick convert and mogrify operations for bulk image processing including responsive srcset… | Security Reviewed | 16k | — |
+| [DALL-E 3 Batch Asset Generator](skills/dalle-3-batch-asset-generator/) | Generates multiple image variations from a single brief using the OpenAI Images API (POST /v1/images/generations)… | Security Reviewed | 10.8k | 16.2M/wk |
+| [DALL-E 3 Brand Asset Batch Generator](skills/dall-e-3-brand-asset-batch-generator/) | Batch-generates brand assets using the OpenAI Images API with DALL-E 3. Manages prompt engineering for consistent… | Security Reviewed | 10.8k | 16.2M/wk |
+| [DALL-E Batch Image Generator](skills/dalle-batch-image-generator/) | Generates and manages batch image creation jobs using the OpenAI Images API /v1/images/generations endpoint.… | Security Reviewed | 10.8k | 16.2M/wk |
+| [DALL-E Image Variation Generator](skills/dalle-image-variation-generator/) | Generates image variations and edits using the OpenAI Images API v1 with DALL-E 3 model selection. Supports… | Security Reviewed | 10.8k | 16.2M/wk |
+| [DALL-E Image Variation Pipeline](skills/dalle-image-variation-pipeline/) | Manages OpenAI DALL-E 3 API workflows for brand-consistent image generation with style references, aspect ratio… | Security Reviewed | 10.8k | 16.2M/wk |
+| [DALL-E Prompt Chain Generator](skills/dalle-prompt-chain-generator/) | Generates and iterates DALL-E 3 image prompts using the OpenAI Images API with size, quality, and style parameters.… | Security Reviewed | 10.8k | 16.2M/wk |
+| [DALL-E Prompt Engineering Kit](skills/dall-e-prompt-engineering-kit/) | Structured prompt generation for OpenAI's DALL-E 3 API (images/generations endpoint) with style modifiers, aspect… | Security Reviewed | 10.8k | 16.2M/wk |
+| [DALL-E Variation Generator](skills/dalle-variation-generator/) | Generates image variations and edits using OpenAI's DALL-E 3 API with mask-based inpainting, style consistency… | Security Reviewed | 10.8k | 16.2M/wk |
+| [DALL-E Variations Pipeline](skills/dalle-variations-pipeline/) | Generates image variations and edits using the OpenAI Images API (DALL-E 3 and gpt-image-1). Manages prompt… | Security Reviewed | 10.8k | 16.2M/wk |
+| [OpenAI Image Gen](skills/openai-image-gen/) | Batch-generate images through the OpenAI Images API with a prompt sampler and gallery output. | Security Reviewed | 10.8k | 16.2M/wk |
+| [Pexels API Stock Photo Curator](skills/pexels-api-stock-photo-curator/) | Searches and downloads royalty-free images from Pexels API with smart filtering by orientation, color, and size.… | Security Reviewed | 7k | 4.9M/wk |
+| [Adobe Firefly API Batch Image Generator](skills/adobe-firefly-api-batch-image-generator/) | Calls Adobe Firefly's text-to-image and generative fill APIs for batch asset creation. Manages Adobe IMS OAuth… | Security Reviewed | — | — |
+| [Adobe Photoshop API Batch Processor](skills/adobe-photoshop-api-batch-processor/) | Automates image editing workflows via the Adobe Photoshop API (Firefly Services). Supports smart object replacement,… | Security Reviewed | — | — |
+| [Bannerbear Dynamic Image API](skills/bannerbear-dynamic-image-api/) | Generates social media graphics and OG images dynamically via Bannerbear REST API. Manages template modifications,… | Security Reviewed | — | — |
+| [Blender Geometry Nodes Script Generator](skills/blender-geometry-nodes-script-generator/) | Generates Blender Python (bpy) scripts that programmatically create Geometry Nodes modifier trees, using the… | Security Reviewed | — | — |
+| [Cloudinary Asset Optimization Agent](skills/cloudinary-asset-optimization-agent/) | Manages image and video assets using the Cloudinary Node.js SDK and Upload API. Applies automatic format selection,… | Security Reviewed | — | — |
+| [Cloudinary DAM Pipeline](skills/cloudinary-dam-pipeline-skill/) | Manage digital assets through the Cloudinary Upload, Admin, and Transformation APIs. Automates image optimization… | Security Reviewed | — | — |
+| [Cloudinary Media Optimization Agent](skills/cloudinary-media-optimization-agent/) | Automates image and video optimization workflows via the Cloudinary Upload and Admin APIs. Applies responsive… | Security Reviewed | — | — |
+| [Cloudinary Media Transform Skill](skills/cloudinary-media-transform-skill/) | Manages image and video assets through the Cloudinary Upload and Admin APIs. Applies on-the-fly transformations,… | Security Reviewed | — | — |
+| [Figma Design Token Exporter](skills/figma-design-token-exporter/) | Extracts design tokens from Figma files using the Figma REST API v1 and transforms them into platform-specific… | Security Reviewed | — | — |
+| [Figma Export Automator](skills/figma-export-automator/) | Exports assets from Figma files using the Figma REST API v1. Extracts component sets, design tokens (colors,… | Security Reviewed | — | — |
+| [Figma REST API Asset Exporter](skills/figma-rest-api-asset-exporter/) | Exports design assets from Figma files using the GET /v1/files/:key and /v1/images/:key endpoints. Supports SVG,… | Security Reviewed | — | — |
+| [Gemini Image Style Transfer Agent](skills/gemini-image-style-transfer-agent/) | Uses the Gemini Imagen 3 API (imagegeneration endpoint) to apply stylistic transformations to uploaded images,… | Security Reviewed | — | — |
+| [Lottie Animation Optimizer](skills/lottie-animation-optimizer/) | Analyzes and optimizes Lottie JSON animation files using lottie-web parser internals, reduces file size via keyframe… | Security Reviewed | — | — |
+| [Midjourney Prompt Chain Builder](skills/midjourney-prompt-chain-builder/) | Constructs and manages Midjourney prompt chains for iterative image refinement. Automates parameter tuning for --ar,… | Security Reviewed | — | — |
+| [Midjourney Prompt Engineering Suite](skills/midjourney-prompt-engineering-suite/) | Generates and optimizes Midjourney prompts using the Midjourney API with automatic parameter tuning for aspect… | Security Reviewed | — | — |
+| [Midjourney Prompt Optimizer](skills/midjourney-prompt-optimizer-skill/) | Analyze and optimize Midjourney prompts using parameter tuning for --ar, --stylize, --chaos, and --weird flags.… | Security Reviewed | — | — |
+| [OpenEXR HDR Compositing Pipeline](skills/openexr-hdr-compositing-pipeline/) | Processes OpenEXR high dynamic range images using the OpenImageIO (oiiotool) CLI and Imath library for multi-layer… | Security Reviewed | — | — |
+| [Photoshop Batch Action Automator](skills/photoshop-batch-action-automator/) | Automates Adobe Photoshop batch processing via the UXP Scripting API and CEP ExtendScript. Handles bulk resize,… | Security Reviewed | — | — |
+| [Stable Diffusion ComfyUI Workflow Runner](skills/stable-diffusion-comfyui-workflow-runner-2/) | Executes ComfyUI workflow JSON files against a local or remote ComfyUI server via its REST API. Supports LoRA… | Security Reviewed | — | — |
+| [Stable Diffusion ControlNet Compositor](skills/stable-diffusion-controlnet-compositor/) | Orchestrates Stable Diffusion XL with ControlNet preprocessors (Canny, Depth, OpenPose) for guided image generation.… | Security Reviewed | — | — |
+| [Stable Diffusion ControlNet Pipeline](skills/stable-diffusion-controlnet-pipeline/) | Automates image generation workflows using Stability AI ControlNet API with depth maps, edge detection, and pose… | Security Reviewed | — | — |
+| [Stable Diffusion ControlNet Pose Pipeline](skills/stable-diffusion-controlnet-pose-pipeline/) | Orchestrates Stable Diffusion image generation with ControlNet pose conditioning via the Automatic1111 API. Chains… | Security Reviewed | — | — |
+| [Stable Diffusion LoRA Training Pipeline](skills/stable-diffusion-lora-training-pipeline/) | Orchestrates LoRA fine-tuning for Stable Diffusion XL using the diffusers library and Kohya ss-scripts. Manages… | Security Reviewed | — | — |
+| [Stable Diffusion Prompt Optimizer](skills/stable-diffusion-prompt-optimizer/) | Analyzes and enhances Stable Diffusion prompts using the Automatic1111 WebUI API /sdapi/v1/txt2img endpoint. Applies… | Security Reviewed | — | — |
+| [Stable Diffusion XL LoRA Trainer](skills/stable-diffusion-xl-lora-trainer/) | Fine-tune Stable Diffusion XL models with LoRA adapters using the diffusers library and Kohya-ss training scripts.… | Security Reviewed | — | — |
+| [Stable Diffusion XL Pipeline](skills/stable-diffusion-xl-pipeline/) | Orchestrates SDXL image generation via the Stability AI REST API with ControlNet conditioning, IP-Adapter style… | Security Reviewed | — | — |
+| [Stable Diffusion XL Pipeline Builder](skills/stable-diffusion-xl-pipeline-builder/) | Constructs and executes SDXL image generation pipelines using diffusers library and ComfyUI API. Supports LoRA… | Security Reviewed | — | — |
+
+
 ### 📅 Calendar, Email & Productivity (52 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=downloads)
@@ -1099,7 +1172,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Slack Workflow Bot Builder](skills/slack-workflow-bot-builder/) | Creates interactive Slack workflows using Block Kit UI components and the Bolt.js framework. Implements slash… | Security Reviewed | 2.9k | 2.2M/wk |
 | [Slack Workflow Builder Agent](skills/slack-workflow-builder-agent/) | Creates and manages Slack workflows using @slack/bolt and @slack/web-api. Builds interactive modals with Block Kit,… | Security Reviewed | 2.9k | 2.2M/wk |
 | [Microsoft Graph Mail Triage Agent](skills/microsoft-graph-mail-triage-agent/) | Triages Outlook emails using the Microsoft Graph API /me/messages endpoint with $filter OData queries and… | Security Reviewed | 789 | 6M/wk |
-| [Atlassian Rovo MCP Server](skills/atlassian-rovo-mcp-server/) | The Atlassian Rovo MCP Server bridges your Atlassian Cloud workspace with any MCP client. Search and… | Security Reviewed | — | — |
+| [Atlassian Rovo MCP Server](skills/atlassian-rovo-mcp-server/) | The Atlassian Rovo MCP Server bridges your Atlassian Cloud workspace with any MCP-compatible client. Search and… | Security Reviewed | — | — |
 | [Gmail API Thread Label Triage](skills/gmail-api-thread-label-triage/) | Triage inbox backlog with the Gmail API’s `users.threads`, `users.messages`, and `users.labels` methods so agents… | Security Reviewed | — | — |
 | [Gmail Thread Summarizer and Action Extractor](skills/gmail-thread-summarizer-action-extractor/) | Fetches Gmail threads via the Gmail API (users.threads.get), extracts full message content, and produces a… | Security Reviewed | — | — |
 | [Google Calendar Conflict Detector](skills/google-calendar-conflict-detector/) | Detects scheduling conflicts across multiple Google Calendars using the Google Calendar API v3 and the freebusy… | Security Reviewed | — | — |
@@ -1123,66 +1196,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Todoist GTD Workflow Engine](skills/todoist-gtd-workflow-engine/) | Implements Getting Things Done methodology on Todoist using the Sync API v9. Automates weekly reviews, context… | Security Reviewed | — | — |
 | [Todoist Project Automator](skills/todoist-project-automator-api-v2/) | Automates Todoist project management using the Todoist REST API v2 and Sync API. Creates task templates, manages… | Security Reviewed | — | — |
 | [Todoist Sync API Task Orchestrator](skills/todoist-sync-api-task-orchestrator/) | Orchestrates complex task workflows using the Todoist Sync API v9 with incremental sync via sync_token. Uses… | Security Reviewed | — | — |
-
-
-### 🎨 Image & Creative Automation (52 skills)
-
-Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=downloads)
-
-| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
-|---|---|---|---:|---:|
-| [Rive Runtime Animation Controller](skills/rive-runtime-animation-controller/) | Controls Rive (.riv) interactive animations at runtime using @rive-app/canvas-advanced, manages state machine… | Security Reviewed | 244.2k | 105.7M/wk |
-| [SVG Animation Builder](skills/svg-animation-builder/) | Creates animated SVGs using GSAP (GreenSock Animation Platform) and the SVG DOM API. Generates timeline-based… | Security Reviewed | 93.9k | 8.7M/wk |
-| [Figma Design Token Extractor](skills/figma-design-token-extractor-3/) | Extracts design tokens from Figma files using the Figma REST API and style-dictionary. Generates CSS custom… | Security Reviewed | 89.5k | 13M/wk |
-| [RunPod Serverless GPU Inference](skills/runpod-serverless-gpu-inference/) | Deploy and manage GPU inference endpoints on RunPod Serverless using their REST API. Handles endpoint creation, cold… | Security Reviewed | 71.6k | — |
-| [FFmpeg Thumbnail Grid Generator](skills/ffmpeg-thumbnail-grid-generator/) | Generates contact-sheet-style thumbnail grids from video files using FFmpeg tile filter and libvips. Supports… | Security Reviewed | 58.3k | 9.2M/wk |
-| [FFmpeg Intelligent Media Processor](skills/ffmpeg-intelligent-media-processor/) | Orchestrates complex video and audio processing pipelines using FFmpeg and FFprobe with scene detection via… | Security Reviewed | 58.3k | — |
-| [FFmpeg Media Transcoder](skills/ffmpeg-media-transcoder/) | Automated video and audio transcoding using FFmpeg with hardware-accelerated encoding via NVENC/VAAPI, HLS adaptive… | Security Reviewed | 58.3k | — |
-| [FFmpeg Thumbnail Mosaic Generator](skills/ffmpeg-thumbnail-mosaic-generator/) | Creates video thumbnail mosaics and sprite sheets using FFmpeg filters and the fluent-ffmpeg Node.js wrapper.… | Security Reviewed | 58.3k | — |
-| [FFmpeg Video Processing Pipeline](skills/ffmpeg-video-processing-pipeline/) | Builds complex FFmpeg filtergraph chains for batch video transcoding, thumbnail sprite generation, and HLS adaptive… | Security Reviewed | 58.3k | — |
-| [ComfyUI Workflow Executor](skills/comfyui-workflow-executor/) | Executes ComfyUI image generation workflows via the /prompt REST API endpoint with WebSocket progress tracking.… | Security Reviewed | 35.3k | — |
-| [Sharp Image CDN Optimizer](skills/sharp-image-cdn-optimizer/) | On-the-fly image optimization using Sharp (libvips Node.js bindings) with CDN-aware caching headers. Supports… | Security Reviewed | 32.1k | 54.4M/wk |
-| [Sharp Image Pipeline Processor](skills/sharp-image-pipeline-processor-2/) | Builds composable image transformation pipelines using the Sharp library with operations like resize(), composite(),… | Security Reviewed | 32.1k | 54.4M/wk |
-| [Sharp Image Pipeline Skill](skills/sharp-image-pipeline-skill/) | Processes images using the Sharp npm library (libvips). Supports batch resize, format conversion (WebP/AVIF/JPEG… | Security Reviewed | 32.1k | 54.4M/wk |
-| [Sharp Image Transform Pipeline](skills/sharp-image-transform-pipeline/) | Builds composable image processing pipelines using the Sharp library with libvips bindings for Node.js. Chains… | Security Reviewed | 32.1k | 54.4M/wk |
-| [ImageMagick Batch Converter CLI](skills/imagemagick-batch-converter-cli/) | Automates bulk image conversion using ImageMagick's convert and mogrify commands with geometry expressions. Supports… | Security Reviewed | 16k | — |
-| [ImageMagick Batch Processor](skills/imagemagick-batch-processor/) | Batch image processing using ImageMagick's convert and mogrify commands with support for resize, crop, watermark,… | Security Reviewed | 16k | — |
-| [ImageMagick Batch Transform Agent](skills/imagemagick-batch-transform-agent/) | Automates ImageMagick convert and mogrify operations for bulk image processing including responsive srcset… | Security Reviewed | 16k | — |
-| [DALL-E 3 Batch Asset Generator](skills/dalle-3-batch-asset-generator/) | Generates multiple image variations from a single brief using the OpenAI Images API (POST /v1/images/generations)… | Security Reviewed | 10.8k | 16.2M/wk |
-| [DALL-E Batch Image Generator](skills/dalle-batch-image-generator/) | Generates and manages batch image creation jobs using the OpenAI Images API /v1/images/generations endpoint.… | Security Reviewed | 10.8k | 16.2M/wk |
-| [DALL-E Image Variation Generator](skills/dalle-image-variation-generator/) | Generates image variations and edits using the OpenAI Images API v1 with DALL-E 3 model selection. Supports… | Security Reviewed | 10.8k | 16.2M/wk |
-| [DALL-E Image Variation Pipeline](skills/dalle-image-variation-pipeline/) | Manages OpenAI DALL-E 3 API workflows for brand-consistent image generation with style references, aspect ratio… | Security Reviewed | 10.8k | 16.2M/wk |
-| [DALL-E Prompt Chain Generator](skills/dalle-prompt-chain-generator/) | Generates and iterates DALL-E 3 image prompts using the OpenAI Images API with size, quality, and style parameters.… | Security Reviewed | 10.8k | 16.2M/wk |
-| [DALL-E Prompt Engineering Kit](skills/dall-e-prompt-engineering-kit/) | Structured prompt generation for OpenAI's DALL-E 3 API (images/generations endpoint) with style modifiers, aspect… | Security Reviewed | 10.8k | 16.2M/wk |
-| [DALL-E Variation Generator](skills/dalle-variation-generator/) | Generates image variations and edits using OpenAI's DALL-E 3 API with mask-based inpainting, style consistency… | Security Reviewed | 10.8k | 16.2M/wk |
-| [DALL-E Variations Pipeline](skills/dalle-variations-pipeline/) | Generates image variations and edits using the OpenAI Images API (DALL-E 3 and gpt-image-1). Manages prompt… | Security Reviewed | 10.8k | 16.2M/wk |
-| [OpenAI Image Gen](skills/openai-image-gen/) | Batch-generate images through the OpenAI Images API with a prompt sampler and gallery output. | Security Reviewed | 10.8k | 16.2M/wk |
-| [Pexels API Stock Photo Curator](skills/pexels-api-stock-photo-curator/) | Searches and downloads royalty-free images from Pexels API with smart filtering by orientation, color, and size.… | Security Reviewed | 7k | 4.9M/wk |
-| [Adobe Firefly API Batch Image Generator](skills/adobe-firefly-api-batch-image-generator/) | Calls Adobe Firefly's text-to-image and generative fill APIs for batch asset creation. Manages Adobe IMS OAuth… | Security Reviewed | — | — |
-| [Adobe Photoshop API Batch Processor](skills/adobe-photoshop-api-batch-processor/) | Automates image editing workflows via the Adobe Photoshop API (Firefly Services). Supports smart object replacement,… | Security Reviewed | — | — |
-| [Bannerbear Dynamic Image API](skills/bannerbear-dynamic-image-api/) | Generates social media graphics and OG images dynamically via Bannerbear REST API. Manages template modifications,… | Security Reviewed | — | — |
-| [Blender Geometry Nodes Script Generator](skills/blender-geometry-nodes-script-generator/) | Generates Blender Python (bpy) scripts that programmatically create Geometry Nodes modifier trees, using the… | Security Reviewed | — | — |
-| [Cloudinary Asset Optimization Agent](skills/cloudinary-asset-optimization-agent/) | Manages image and video assets using the Cloudinary Node.js SDK and Upload API. Applies automatic format selection,… | Security Reviewed | — | — |
-| [Cloudinary DAM Pipeline](skills/cloudinary-dam-pipeline-skill/) | Manage digital assets through the Cloudinary Upload, Admin, and Transformation APIs. Automates image optimization… | Security Reviewed | — | — |
-| [Cloudinary Media Optimization Agent](skills/cloudinary-media-optimization-agent/) | Automates image and video optimization workflows via the Cloudinary Upload and Admin APIs. Applies responsive… | Security Reviewed | — | — |
-| [Cloudinary Media Transform Skill](skills/cloudinary-media-transform-skill/) | Manages image and video assets through the Cloudinary Upload and Admin APIs. Applies on-the-fly transformations,… | Security Reviewed | — | — |
-| [Figma Design Token Exporter](skills/figma-design-token-exporter/) | Extracts design tokens from Figma files using the Figma REST API v1 and transforms them into platform-specific… | Security Reviewed | — | — |
-| [Figma Export Automator](skills/figma-export-automator/) | Exports assets from Figma files using the Figma REST API v1. Extracts component sets, design tokens (colors,… | Security Reviewed | — | — |
-| [Figma REST API Asset Exporter](skills/figma-rest-api-asset-exporter/) | Exports design assets from Figma files using the GET /v1/files/:key and /v1/images/:key endpoints. Supports SVG,… | Security Reviewed | — | — |
-| [Gemini Image Style Transfer Agent](skills/gemini-image-style-transfer-agent/) | Uses the Gemini Imagen 3 API (imagegeneration endpoint) to apply stylistic transformations to uploaded images,… | Security Reviewed | — | — |
-| [Lottie Animation Optimizer](skills/lottie-animation-optimizer/) | Analyzes and optimizes Lottie JSON animation files using lottie-web parser internals, reduces file size via keyframe… | Security Reviewed | — | — |
-| [Midjourney Prompt Engineering Suite](skills/midjourney-prompt-engineering-suite/) | Generates and optimizes Midjourney prompts using the Midjourney API with automatic parameter tuning for aspect… | Security Reviewed | — | — |
-| [Midjourney Prompt Optimizer](skills/midjourney-prompt-optimizer-skill/) | Analyze and optimize Midjourney prompts using parameter tuning for --ar, --stylize, --chaos, and --weird flags.… | Security Reviewed | — | — |
-| [OpenEXR HDR Compositing Pipeline](skills/openexr-hdr-compositing-pipeline/) | Processes OpenEXR high dynamic range images using the OpenImageIO (oiiotool) CLI and Imath library for multi-layer… | Security Reviewed | — | — |
-| [Photoshop Batch Action Automator](skills/photoshop-batch-action-automator/) | Automates Adobe Photoshop batch processing via the UXP Scripting API and CEP ExtendScript. Handles bulk resize,… | Security Reviewed | — | — |
-| [Stable Diffusion ComfyUI Workflow Runner](skills/stable-diffusion-comfyui-workflow-runner-2/) | Executes ComfyUI workflow JSON files against a local or remote ComfyUI server via its REST API. Supports LoRA… | Security Reviewed | — | — |
-| [Stable Diffusion ControlNet Compositor](skills/stable-diffusion-controlnet-compositor/) | Orchestrates Stable Diffusion XL with ControlNet preprocessors (Canny, Depth, OpenPose) for guided image generation.… | Security Reviewed | — | — |
-| [Stable Diffusion ControlNet Pipeline](skills/stable-diffusion-controlnet-pipeline/) | Automates image generation workflows using Stability AI ControlNet API with depth maps, edge detection, and pose… | Security Reviewed | — | — |
-| [Stable Diffusion LoRA Training Pipeline](skills/stable-diffusion-lora-training-pipeline/) | Orchestrates LoRA fine-tuning for Stable Diffusion XL using the diffusers library and Kohya ss-scripts. Manages… | Security Reviewed | — | — |
-| [Stable Diffusion Prompt Optimizer](skills/stable-diffusion-prompt-optimizer/) | Analyzes and enhances Stable Diffusion prompts using the Automatic1111 WebUI API /sdapi/v1/txt2img endpoint. Applies… | Security Reviewed | — | — |
-| [Stable Diffusion XL LoRA Trainer](skills/stable-diffusion-xl-lora-trainer/) | Fine-tune Stable Diffusion XL models with LoRA adapters using the diffusers library and Kohya-ss training scripts.… | Security Reviewed | — | — |
-| [Stable Diffusion XL Pipeline](skills/stable-diffusion-xl-pipeline/) | Orchestrates SDXL image generation via the Stability AI REST API with ControlNet conditioning, IP-Adapter style… | Security Reviewed | — | — |
-| [Stable Diffusion XL Pipeline Builder](skills/stable-diffusion-xl-pipeline-builder/) | Constructs and executes SDXL image generation pipelines using diffusers library and ComfyUI API. Supports LoRA… | Security Reviewed | — | — |
 
 
 ### 🔍 Research & Scraping (50 skills)
@@ -1298,7 +1311,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [CDP Network Interception Logger](skills/cdp-network-interception-logger/) | Uses Chrome DevTools Protocol Fetch.requestPaused and Network.responseReceived events to intercept, log, and modify… | Security Reviewed | 789 | 6M/wk |
 
 
-### 🎙️ Media & Transcription (40 skills)
+### 🎙️ Media & Transcription (41 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&sort=downloads)
 
@@ -1344,6 +1357,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Medi
 | [GStreamer Pipeline Graph Optimizer](skills/gstreamer-pipeline-graph-optimizer/) | Analyzes and optimizes GStreamer media pipelines by parsing DOT graph dumps from GST_DEBUG_DUMP_DOT_DIR, profiling… | Security Reviewed | — | — |
 | [Podcast RSS Feed Builder](skills/podcast-rss-feed-builder/) | Generates and validates podcast RSS feeds compliant with the Apple Podcasts and Spotify specification. Uses the… | Security Reviewed | — | — |
 | [YouTube Chapter Generator from Transcripts](skills/youtube-chapter-generator-transcripts/) | Extracts YouTube video transcripts via the youtube-transcript-api Python library and generates semantic chapter… | Security Reviewed | — | — |
+| [yt-dlp Feature-Rich Audio and Video Downloader CLI](skills/yt-dlp-feature-rich-audio-video-downloader-cli/) | yt-dlp is a powerful command-line tool for downloading audio and video from thousands of websites including YouTube,… | Published | — | — |
 
 
 ### ✍️ Content Writing & SEO (37 skills)
@@ -1391,7 +1405,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cont
 | [Technical SEO Audit Crawler](skills/technical-seo-audit-crawler/) | Crawls websites for technical SEO issues using Screaming Frog CLI, Lighthouse CI API, and PageSpeed Insights v5.… | Security Reviewed | — | — |
 
 
-### 📰 WordPress & CMS (32 skills)
+### 📰 WordPress & CMS (34 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS&sort=downloads)
 
@@ -1425,46 +1439,12 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Word
 | [WooCommerce REST Sync Agent](skills/woocommerce-rest-sync-agent/) | Synchronizes WooCommerce product data bidirectionally using the WC REST API v3 and wc/v3/products endpoints. Handles… | Security Reviewed | 7k | 4.9M/wk |
 | [WooCommerce REST Order Manager](skills/woocommerce-rest-order-manager/) | Queries and updates WooCommerce orders via the WooCommerce REST API v3 (/wp-json/wc/v3/orders), filters by status,… | Security Reviewed | 4.4k | 8.4M/wk |
 | [WP Cron Health Monitor](skills/wp-cron-health-monitor/) | Monitors WordPress wp-cron scheduled events using the WP_Cron API and Action Scheduler library. Detects stuck,… | Security Reviewed | 69 | 207.4k/wk |
+| [Directus Open-Source Headless CMS and Backend Platform](skills/directus-open-source-headless-cms-backend-platform/) | Directus is an open-source headless CMS that wraps any SQL database with instant REST and GraphQL APIs, a no-code… | Published | — | — |
 | [WooCommerce Order Sync Agent](skills/woocommerce-order-sync-agent/) | Synchronizes WooCommerce orders with external ERPs using the WooCommerce REST API v3 and wp_schedule_event. Handles… | Security Reviewed | — | — |
 | [WooCommerce REST Inventory Sync](skills/woocommerce-rest-inventory-sync/) | Synchronizes WooCommerce product inventory across multiple channels using the WooCommerce REST API v3 and… | Security Reviewed | — | — |
 | [WooCommerce Webhook Delivery Inspector](skills/woocommerce-webhook-delivery-inspector/) | Inspects WooCommerce webhook reliability through the `WC_Webhook` model, Action Scheduler queues, and REST endpoints… | Security Reviewed | — | — |
 | [WooCommerce Webhook Orchestrator](skills/woocommerce-webhook-orchestrator/) | Manages WooCommerce webhook lifecycles using the wc/v3/webhooks REST API and WC_Webhook class. Handles order,… | Security Reviewed | — | — |
-
-
-### 📦 40 (4 skills)
-
-Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=40) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=40&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=40&sort=downloads)
-
-| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
-|---|---|---|---:|---:|
-| [Checkly Browser Check Failure Notifier](skills/checkly-browser-check-failure-notifier/) | Monitors Checkly browser checks via the Checkly Management API and notifies teams on Playwright test failures.… | Security Reviewed | 85k | 40.1M/wk |
-| [Elastic APM Transaction Anomaly Spotter](skills/elastic-apm-transaction-anomaly-spotter/) | Queries Elastic APM transaction data through the Elasticsearch REST API to surface latency anomalies and throughput… | Security Reviewed | 76.4k | 1.9M/wk |
-| [Sentry Issue Spike Detection Agent](skills/sentry-issue-spike-detection-agent/) | Analyzes Sentry project event streams via the Sentry Issues API to detect sudden spikes in error frequency. Computes… | Security Reviewed | 43.4k | 16.4M/wk |
-| [Uptime Robot Status Page Webhook Alerter](skills/uptime-robot-status-page-webhook-alerter/) | Integrates with the Uptime Robot API to monitor status page changes and push webhook alerts to Slack or PagerDuty.… | Security Reviewed | 69 | 207.4k/wk |
-
-
-### 📦 41 (4 skills)
-
-Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=41) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=41&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=41&sort=downloads)
-
-| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
-|---|---|---|---:|---:|
-| [Terraform Module Boilerplate Assembler](skills/terraform-module-boilerplate-assembler/) | Generates Terraform module scaffolds with variables.tf, outputs.tf, and provider configurations from a module… | Security Reviewed | 48k | — |
-| [Cookiecutter Project Template Scaffolder](skills/cookiecutter-project-template-scaffolder/) | Generates project scaffolds using Cookiecutter templates from GitHub repositories or local directories. Automates… | Security Reviewed | — | — |
-| [Plop.js Code Generator Orchestrator](skills/plopjs-code-generator-orchestrator/) | Manages Plop.js micro-generators to scaffold components, modules, and boilerplate files using Handlebars templates.… | Security Reviewed | — | — |
-| [Yeoman Sub-Generator Composition Builder](skills/yeoman-sub-generator-composition-builder/) | Orchestrates Yeoman generator composition by chaining sub-generators via the Yeoman Environment API. Manages yo run… | Security Reviewed | — | — |
-
-
-### 📦 42 (4 skills)
-
-Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=42) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=42&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=42&sort=downloads)
-
-| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
-|---|---|---|---:|---:|
-| [RunwayML Gen-3 Alpha Video Composer](skills/runwayml-gen-3-alpha-video-composer/) | Composes AI-generated video clips using the RunwayML Gen-3 Alpha API with text-to-video and image-to-video modes.… | Security Reviewed | 58.3k | — |
-| [DALL-E 3 Brand Asset Batch Generator](skills/dall-e-3-brand-asset-batch-generator/) | Batch-generates brand assets using the OpenAI Images API with DALL-E 3. Manages prompt engineering for consistent… | Security Reviewed | 10.8k | 16.2M/wk |
-| [Midjourney Prompt Chain Builder](skills/midjourney-prompt-chain-builder/) | Constructs and manages Midjourney prompt chains for iterative image refinement. Automates parameter tuning for --ar,… | Security Reviewed | — | — |
-| [Stable Diffusion ControlNet Pose Pipeline](skills/stable-diffusion-controlnet-pose-pipeline/) | Orchestrates Stable Diffusion image generation with ControlNet pose conditioning via the Automatic1111 API. Chains… | Security Reviewed | — | — |
+| [WPScan WordPress Security Vulnerability Scanner](skills/wpscan-wordpress-security-vulnerability-scanner/) | WPScan is an open-source WordPress security scanner that detects vulnerabilities in plugins, themes, and core… | Published | — | — |
 
 
 ---

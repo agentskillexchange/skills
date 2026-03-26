@@ -1,6 +1,6 @@
 # 📄 Templates & Workflows
 
-> **61 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows)
+> **65 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows)
 
 Project scaffolding, boilerplate generators, workflow templates, and starter kits.
 
@@ -10,7 +10,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 
 - **Top Starred:** 6 visible with GitHub signal data
 - **Top Downloaded:** 6 visible with npm signal data
-- **Security Reviewed:** 61 skills
+- **Security Reviewed:** 65 skills
 
 ---
 
@@ -73,6 +73,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Ansible Playbook Linter](../../skills/ansible-playbook-linter-2/) | Security Reviewed | 68.4k | — | `clawhub install ansible-playbook-linter-2` |
 | [Ansible Playbook Runner](../../skills/ansible-playbook-runner/) | Security Reviewed | 68.4k | — | `clawhub install ansible-playbook-runner` |
 | [Ansible Playbook Template Generator](../../skills/ansible-playbook-template-generator/) | Security Reviewed | 68.4k | — | `clawhub install ansible-playbook-template-generator` |
+| [Terraform Module Boilerplate Assembler](../../skills/terraform-module-boilerplate-assembler/) | Security Reviewed | 48k | — | `clawhub install terraform-module-boilerplate-assembler` |
 | [Terraform Module Registry](../../skills/terraform-module-registry/) | Security Reviewed | 48k | — | `clawhub install terraform-module-registry` |
 | [Terraform Module Registry Browser](../../skills/terraform-module-registry-browser/) | Security Reviewed | 48k | — | `clawhub install terraform-module-registry-browser` |
 | [Terraform Module Scaffold Generator](../../skills/terraform-module-scaffold-generator/) | Security Reviewed | 48k | — | `clawhub install terraform-module-scaffold-generator` |
@@ -107,6 +108,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Cookiecutter Project Scaffold](../../skills/cookiecutter-project-scaffold/) | Security Reviewed | — | — | `clawhub install cookiecutter-project-scaffold` |
 | [Cookiecutter Project Scaffolder](../../skills/cookiecutter-project-scaffolder-3/) | Security Reviewed | — | — | `clawhub install cookiecutter-project-scaffolder-3` |
 | [Cookiecutter Project Template Engine](../../skills/cookiecutter-project-template-engine/) | Security Reviewed | — | — | `clawhub install cookiecutter-project-template-engine` |
+| [Cookiecutter Project Template Scaffolder](../../skills/cookiecutter-project-template-scaffolder/) | Security Reviewed | — | — | `clawhub install cookiecutter-project-template-scaffolder` |
 | [Cookiecutter Template Generator](../../skills/cookiecutter-template-generator/) | Security Reviewed | — | — | `clawhub install cookiecutter-template-generator` |
 | [GitHub Actions Workflow Composer](../../skills/github-actions-workflow-composer-2/) | Security Reviewed | — | — | `clawhub install github-actions-workflow-composer-2` |
 | [Jinja2 Template Engine](../../skills/jinja2-template-engine-agent/) | Security Reviewed | — | — | `clawhub install jinja2-template-engine-agent` |
@@ -114,9 +116,11 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Mustache Template Renderer](../../skills/mustache-template-renderer-agent/) | Security Reviewed | — | — | `clawhub install mustache-template-renderer-agent` |
 | [Nx Monorepo Workflow Orchestrator](../../skills/nx-monorepo-workflow-orchestrator/) | Security Reviewed | — | — | `clawhub install nx-monorepo-workflow-orchestrator` |
 | [Nx Workspace Generator](../../skills/nx-workspace-generator/) | Security Reviewed | — | — | `clawhub install nx-workspace-generator` |
+| [Plop.js Code Generator Orchestrator](../../skills/plopjs-code-generator-orchestrator/) | Security Reviewed | — | — | `clawhub install plopjs-code-generator-orchestrator` |
 | [Self-Improvement / Learnings Capture](../../skills/self-improvement-learnings-capture/) | Security Reviewed | — | — | `clawhub install self-improvement-learnings-capture` |
 | [Yeoman Generator Builder](../../skills/yeoman-generator-builder/) | Security Reviewed | — | — | `clawhub install yeoman-generator-builder` |
 | [Yeoman Scaffold Runner](../../skills/yeoman-scaffold-runner/) | Security Reviewed | — | — | `clawhub install yeoman-scaffold-runner` |
+| [Yeoman Sub-Generator Composition Builder](../../skills/yeoman-sub-generator-composition-builder/) | Security Reviewed | — | — | `clawhub install yeoman-sub-generator-composition-builder` |
 | [Yeoman Workflow Orchestrator](../../skills/yeoman-workflow-orchestrator/) | Security Reviewed | — | — | `clawhub install yeoman-workflow-orchestrator` |
 
 ---
@@ -143,7 +147,7 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 - 🛠️ [Developer Tools](../developer-tools/) (144 skills)
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (140 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
-- 🔄 [Data Extraction & Transformation](../data-extraction-transformation/) (102 skills)
+- 🔄 [Data Extraction & Transformation](../data-extraction-transformation/) (103 skills)
 
 ---
 

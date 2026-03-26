@@ -1,6 +1,6 @@
 # 🎙️ Media & Transcription
 
-> **40 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription)
+> **41 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription)
 
 Audio/video processing, speech-to-text, media conversion, and transcription.
 
@@ -97,6 +97,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [GStreamer Pipeline Graph Optimizer](../../skills/gstreamer-pipeline-graph-optimizer/) | Security Reviewed | — | — | `clawhub install gstreamer-pipeline-graph-optimizer` |
 | [Podcast RSS Feed Builder](../../skills/podcast-rss-feed-builder/) | Security Reviewed | — | — | `clawhub install podcast-rss-feed-builder` |
 | [YouTube Chapter Generator from Transcripts](../../skills/youtube-chapter-generator-transcripts/) | Security Reviewed | — | — | `clawhub install youtube-chapter-generator-transcripts` |
+| [yt-dlp Feature-Rich Audio and Video Downloader CLI](../../skills/yt-dlp-feature-rich-audio-video-downloader-cli/) | Verified Metadata | — | — | `clawhub install yt-dlp-feature-rich-audio-video-downloader-cli` |
 
 ---
 
@@ -122,7 +123,7 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 - 🛠️ [Developer Tools](../developer-tools/) (144 skills)
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (140 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
-- 🔄 [Data Extraction & Transformation](../data-extraction-transformation/) (102 skills)
+- 🔄 [Data Extraction & Transformation](../data-extraction-transformation/) (103 skills)
 
 ---
 

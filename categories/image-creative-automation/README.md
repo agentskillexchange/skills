@@ -1,6 +1,6 @@
 # 🎨 Image & Creative Automation
 
-> **52 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation)
+> **56 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation)
 
 Image generation, asset processing, design automation, and creative tooling.
 
@@ -10,7 +10,7 @@ Image generation, asset processing, design automation, and creative tooling.
 
 - **Top Starred:** 6 visible with GitHub signal data
 - **Top Downloaded:** 6 visible with npm signal data
-- **Security Reviewed:** 52 skills
+- **Security Reviewed:** 56 skills
 
 ---
 
@@ -66,6 +66,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [FFmpeg Media Transcoder](../../skills/ffmpeg-media-transcoder/) | Security Reviewed | 58.3k | — | `clawhub install ffmpeg-media-transcoder` |
 | [FFmpeg Thumbnail Mosaic Generator](../../skills/ffmpeg-thumbnail-mosaic-generator/) | Security Reviewed | 58.3k | — | `clawhub install ffmpeg-thumbnail-mosaic-generator` |
 | [FFmpeg Video Processing Pipeline](../../skills/ffmpeg-video-processing-pipeline/) | Security Reviewed | 58.3k | — | `clawhub install ffmpeg-video-processing-pipeline` |
+| [RunwayML Gen-3 Alpha Video Composer](../../skills/runwayml-gen-3-alpha-video-composer/) | Security Reviewed | 58.3k | — | `clawhub install runwayml-gen-3-alpha-video-composer` |
 | [ComfyUI Workflow Executor](../../skills/comfyui-workflow-executor/) | Security Reviewed | 35.3k | — | `clawhub install comfyui-workflow-executor` |
 | [Sharp Image CDN Optimizer](../../skills/sharp-image-cdn-optimizer/) | Security Reviewed | 32.1k | 54.4M/wk | `clawhub install sharp-image-cdn-optimizer` |
 | [Sharp Image Pipeline Processor](../../skills/sharp-image-pipeline-processor-2/) | Security Reviewed | 32.1k | 54.4M/wk | `clawhub install sharp-image-pipeline-processor-2` |
@@ -75,6 +76,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [ImageMagick Batch Processor](../../skills/imagemagick-batch-processor/) | Security Reviewed | 16k | — | `clawhub install imagemagick-batch-processor` |
 | [ImageMagick Batch Transform Agent](../../skills/imagemagick-batch-transform-agent/) | Security Reviewed | 16k | — | `clawhub install imagemagick-batch-transform-agent` |
 | [DALL-E 3 Batch Asset Generator](../../skills/dalle-3-batch-asset-generator/) | Security Reviewed | 10.8k | 16.2M/wk | `clawhub install dalle-3-batch-asset-generator` |
+| [DALL-E 3 Brand Asset Batch Generator](../../skills/dall-e-3-brand-asset-batch-generator/) | Security Reviewed | 10.8k | 16.2M/wk | `clawhub install dall-e-3-brand-asset-batch-generator` |
 | [DALL-E Batch Image Generator](../../skills/dalle-batch-image-generator/) | Security Reviewed | 10.8k | 16.2M/wk | `clawhub install dalle-batch-image-generator` |
 | [DALL-E Image Variation Generator](../../skills/dalle-image-variation-generator/) | Security Reviewed | 10.8k | 16.2M/wk | `clawhub install dalle-image-variation-generator` |
 | [DALL-E Image Variation Pipeline](../../skills/dalle-image-variation-pipeline/) | Security Reviewed | 10.8k | 16.2M/wk | `clawhub install dalle-image-variation-pipeline` |
@@ -97,6 +99,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Figma REST API Asset Exporter](../../skills/figma-rest-api-asset-exporter/) | Security Reviewed | — | — | `clawhub install figma-rest-api-asset-exporter` |
 | [Gemini Image Style Transfer Agent](../../skills/gemini-image-style-transfer-agent/) | Security Reviewed | — | — | `clawhub install gemini-image-style-transfer-agent` |
 | [Lottie Animation Optimizer](../../skills/lottie-animation-optimizer/) | Security Reviewed | — | — | `clawhub install lottie-animation-optimizer` |
+| [Midjourney Prompt Chain Builder](../../skills/midjourney-prompt-chain-builder/) | Security Reviewed | — | — | `clawhub install midjourney-prompt-chain-builder` |
 | [Midjourney Prompt Engineering Suite](../../skills/midjourney-prompt-engineering-suite/) | Security Reviewed | — | — | `clawhub install midjourney-prompt-engineering-suite` |
 | [Midjourney Prompt Optimizer](../../skills/midjourney-prompt-optimizer-skill/) | Security Reviewed | — | — | `clawhub install midjourney-prompt-optimizer-skill` |
 | [OpenEXR HDR Compositing Pipeline](../../skills/openexr-hdr-compositing-pipeline/) | Security Reviewed | — | — | `clawhub install openexr-hdr-compositing-pipeline` |
@@ -104,6 +107,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Stable Diffusion ComfyUI Workflow Runner](../../skills/stable-diffusion-comfyui-workflow-runner-2/) | Security Reviewed | — | — | `clawhub install stable-diffusion-comfyui-workflow-runner-2` |
 | [Stable Diffusion ControlNet Compositor](../../skills/stable-diffusion-controlnet-compositor/) | Security Reviewed | — | — | `clawhub install stable-diffusion-controlnet-compositor` |
 | [Stable Diffusion ControlNet Pipeline](../../skills/stable-diffusion-controlnet-pipeline/) | Security Reviewed | — | — | `clawhub install stable-diffusion-controlnet-pipeline` |
+| [Stable Diffusion ControlNet Pose Pipeline](../../skills/stable-diffusion-controlnet-pose-pipeline/) | Security Reviewed | — | — | `clawhub install stable-diffusion-controlnet-pose-pipeline` |
 | [Stable Diffusion LoRA Training Pipeline](../../skills/stable-diffusion-lora-training-pipeline/) | Security Reviewed | — | — | `clawhub install stable-diffusion-lora-training-pipeline` |
 | [Stable Diffusion Prompt Optimizer](../../skills/stable-diffusion-prompt-optimizer/) | Security Reviewed | — | — | `clawhub install stable-diffusion-prompt-optimizer` |
 | [Stable Diffusion XL LoRA Trainer](../../skills/stable-diffusion-xl-lora-trainer/) | Security Reviewed | — | — | `clawhub install stable-diffusion-xl-lora-trainer` |
@@ -134,7 +138,7 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 - 🛠️ [Developer Tools](../developer-tools/) (144 skills)
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (140 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
-- 🔄 [Data Extraction & Transformation](../data-extraction-transformation/) (102 skills)
+- 🔄 [Data Extraction & Transformation](../data-extraction-transformation/) (103 skills)
 
 ---
 

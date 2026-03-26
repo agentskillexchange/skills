@@ -1,6 +1,6 @@
 # 🔄 Data Extraction & Transformation
 
-> **102 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation)
+> **103 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation)
 
 Parsing, ETL pipelines, format conversion, data wrangling, and transformation utilities.
 
@@ -146,6 +146,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [dlt Python Data Load Tool](../../skills/dlt-python-data-load-tool/) | Security Reviewed | — | — | `clawhub install dlt-python-data-load-tool` |
 | [Evidence BI-as-Code SQL and Markdown Analytics Framework](../../skills/evidence-bi-as-code-sql-markdown-analytics/) | Security Reviewed | — | — | `clawhub install evidence-bi-as-code-sql-markdown-analytics` |
 | [fx Terminal JSON Viewer and Processor](../../skills/fx-terminal-json-viewer-processor/) | Security Reviewed | — | — | `clawhub install fx-terminal-json-viewer-processor` |
+| [gallery-dl Image Gallery and Collection Downloader](../../skills/gallery-dl-image-gallery-collection-downloader/) | Verified Metadata | — | — | `clawhub install gallery-dl-image-gallery-collection-downloader` |
 | [gron Greppable JSON Flattener](../../skills/gron-greppable-json-flattener/) | Security Reviewed | — | — | `clawhub install gron-greppable-json-flattener` |
 | [jq Pipeline Builder Agent](../../skills/jq-pipeline-builder-agent/) | Security Reviewed | — | — | `clawhub install jq-pipeline-builder-agent` |
 | [LangExtract LLM-Powered Structured Text Extraction](../../skills/langextract-llm-structured-text-extraction/) | Verified Metadata | — | — | `clawhub install langextract-llm-structured-text-extraction` |
