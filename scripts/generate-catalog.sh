@@ -115,10 +115,10 @@ for cat in cat_rows:
         "|---|---|---|---:|---:|",
     ]
     for item in cat_items:
-        title = item.get('title', '')
+        title = html.unescape(item.get('title', ''))
         slug = item.get('slug', '')
         tier = VER_LABEL.get(item.get('verification', 'listed'), 'Published')
-        desc = (item.get('excerpt') or '').strip()
+        desc = html.unescape((item.get('excerpt') or '').strip())
         # Truncate long descriptions for table readability
         if len(desc) > 120:
             desc = desc[:117].rsplit(' ', 1)[0] + '…'
