@@ -1,6 +1,6 @@
 # 🛠️ Developer Tools
 
-> **134 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools)
+> **139 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools)
 
 CLI helpers, dev environment setup, productivity utilities, and developer workflows.
 
@@ -137,10 +137,14 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [fzf Command-Line Fuzzy Finder](../../skills/fzf-command-line-fuzzy-finder/) | Security Reviewed | — | — | `clawhub install fzf-command-line-fuzzy-finder` |
 | [Git Bisect Automator](../../skills/git-bisect-automator/) | Security Reviewed | — | — | `clawhub install git-bisect-automator` |
 | [Git Diff Complexity Analyzer](../../skills/git-diff-complexity-analyzer/) | Security Reviewed | — | — | `clawhub install git-diff-complexity-analyzer` |
+| [git-absorb Automatic Fixup Commit Generator](../../skills/git-absorb-automatic-fixup-commit-generator/) | Verified Metadata | — | — | `clawhub install git-absorb-automatic-fixup-commit-generator` |
 | [GitButler Virtual Branch Git Client](../../skills/gitbutler-virtual-branch-git-client/) | Verified Metadata | — | — | `clawhub install gitbutler-virtual-branch-git-client` |
 | [GitHub MCP Server for AI-Powered Repository Management](../../skills/github-mcp-server-ai-repository-management/) | Verified Metadata | — | — | `clawhub install github-mcp-server-ai-repository-management` |
+| [Gitoxide Pure Rust Git Implementation and Library](../../skills/gitoxide-pure-rust-git-implementation/) | Verified Metadata | — | — | `clawhub install gitoxide-pure-rust-git-implementation` |
+| [gitu Magit-Inspired Terminal Git Interface](../../skills/gitu-magit-inspired-terminal-git-interface/) | Verified Metadata | — | — | `clawhub install gitu-magit-inspired-terminal-git-interface` |
 | [GitUI Blazing Fast Terminal Git Interface](../../skills/gitui-terminal-git-interface/) | Verified Metadata | — | — | `clawhub install gitui-terminal-git-interface` |
 | [Glow Terminal Markdown Renderer](../../skills/glow-terminal-markdown-renderer/) | Verified Metadata | — | — | `clawhub install glow-terminal-markdown-renderer` |
+| [Goose Extensible AI Coding Agent by Block](../../skills/goose-extensible-ai-coding-agent-block/) | Verified Metadata | — | — | `clawhub install goose-extensible-ai-coding-agent-block` |
 | [grex Regular Expression Generator from Test Cases](../../skills/grex-regex-generator-from-test-cases/) | Verified Metadata | — | — | `clawhub install grex-regex-generator-from-test-cases` |
 | [grpcurl Command-Line gRPC Client](../../skills/grpcurl-command-line-grpc-client/) | Verified Metadata | — | — | `clawhub install grpcurl-command-line-grpc-client` |
 | [Gum Interactive Shell Script Toolkit](../../skills/gum-interactive-shell-script-toolkit/) | Security Reviewed | — | — | `clawhub install gum-interactive-shell-script-toolkit` |
@@ -166,6 +170,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Nix Flake Configuration Builder](../../skills/nix-flake-configuration-builder/) | Security Reviewed | — | — | `clawhub install nix-flake-configuration-builder` |
 | [NPM Package Auditor](../../skills/npm-package-auditor-registry-api/) | Security Reviewed | — | — | `clawhub install npm-package-auditor-registry-api` |
 | [Nushell Structured Data Shell](../../skills/nushell-structured-data-shell/) | Verified Metadata | — | — | `clawhub install nushell-structured-data-shell` |
+| [OpenCode Multi-Model AI Coding Agent CLI](../../skills/opencode-multi-model-ai-coding-agent-cli/) | Verified Metadata | — | — | `clawhub install opencode-multi-model-ai-coding-agent-cli` |
 | [Package Vulnerability Scanner](../../skills/package-vuln-scanner-osv-api/) | Security Reviewed | — | — | `clawhub install package-vuln-scanner-osv-api` |
 | [pgcli Interactive PostgreSQL Client with Autocompletion](../../skills/pgcli-interactive-postgresql-client/) | Verified Metadata | — | — | `clawhub install pgcli-interactive-postgresql-client` |
 | [pnpm Fast Disk-Efficient Package Manager](../../skills/pnpm-fast-disk-efficient-package-manager/) | Verified Metadata | — | — | `clawhub install pnpm-fast-disk-efficient-package-manager` |

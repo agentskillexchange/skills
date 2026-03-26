@@ -1,6 +1,6 @@
 # 🔗 Integrations & Connectors
 
-> **50 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors)
+> **51 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors)
 
 Third-party API bridges, webhook handlers, service connectors, and platform integrations.
 
@@ -95,6 +95,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [AWS MCP Servers for Cloud Service Integration](../../skills/aws-mcp-servers-cloud-service-integration/) | Verified Metadata | — | — | `clawhub install aws-mcp-servers-cloud-service-integration` |
 | [Chroma MCP Server for Embedding Database Operations](../../skills/chroma-mcp-server-embedding-database-operations/) | Verified Metadata | — | — | `clawhub install chroma-mcp-server-embedding-database-operations` |
 | [Cloudflare MCP Servers for Workers, Security, and Observability](../../skills/cloudflare-mcp-servers-workers-security-observability/) | Verified Metadata | — | — | `clawhub install cloudflare-mcp-servers-workers-security-observability` |
+| [Docker MCP Server for Container Lifecycle Management](../../skills/docker-mcp-server-container-lifecycle-management/) | Verified Metadata | — | — | `clawhub install docker-mcp-server-container-lifecycle-management` |
 | [Linear MCP Server for Issue Tracking and Project Management](../../skills/linear-mcp-server-issue-tracking-project-management/) | Verified Metadata | — | — | `clawhub install linear-mcp-server-issue-tracking-project-management` |
 | [LiteLLM Unified LLM Gateway and Proxy Server](../../skills/litellm-unified-llm-gateway-proxy/) | Verified Metadata | — | — | `clawhub install litellm-unified-llm-gateway-proxy` |
 | [MetaMCP Unified MCP Server Aggregator and Gateway](../../skills/metamcp-unified-mcp-server-aggregator-gateway/) | Verified Metadata | — | — | `clawhub install metamcp-unified-mcp-server-aggregator-gateway` |
@@ -130,7 +131,7 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 ## Related Categories
 
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (140 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (134 skills)
+- 🛠️ [Developer Tools](../developer-tools/) (139 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
 - 🔄 [Data Extraction & Transformation](../data-extraction-transformation/) (99 skills)
 
