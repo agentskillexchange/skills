@@ -3,7 +3,7 @@ name: "Fabric AI Prompt Pattern Framework"
 description: "Fabric is an open-source framework for augmenting humans using AI. It provides a modular system of crowdsourced prompt patterns that solve specific problems — from summarizing content to extracting wisdom to analyzing security threats — all usable from the command line."
 category: "Developer Tools"
 framework: "Custom Agents"
-verification: listed
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/fabric-ai-prompt-pattern-framework/"
 ---
 

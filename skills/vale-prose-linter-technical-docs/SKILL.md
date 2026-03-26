@@ -3,7 +3,7 @@ name: "Vale Prose Linter for Technical Documentation"
 description: "Vale is an open-source, markup-aware prose linter that enforces editorial style guides on technical documentation. This skill enables agents to run Vale against Markdown, AsciiDoc, reStructuredText, and HTML to catch style, grammar, and terminology issues."
 category: "Code Quality & Review"
 framework: "Custom Agents"
-verification: listed
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/vale-prose-linter-technical-docs/"
 ---
 

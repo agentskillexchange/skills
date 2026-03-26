@@ -3,7 +3,7 @@ name: "typos Source Code Spell Checker"
 description: "A blazing-fast source code spell checker written in Rust that finds and corrects typos across entire codebases. Designed to run on monorepos with minimal false positives, typos integrates into CI/CD pipelines, pre-commit hooks, and editor workflows."
 category: "Code Quality & Review"
 framework: "Claude Code"
-verification: listed
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/typos-source-code-spell-checker/"
 ---
 

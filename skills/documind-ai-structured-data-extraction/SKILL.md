@@ -3,7 +3,7 @@ name: "Documind AI-Powered Structured Data Extraction from Documents"
 description: "Documind is an open-source Node.js tool that uses AI to extract structured JSON data from PDFs and other documents. Define a custom schema for what you need, and Documind returns clean, typed data ..."
 category: "Data Extraction & Transformation"
 framework: "Custom Agents"
-verification: listed
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/documind-ai-structured-data-extraction/"
 ---
 

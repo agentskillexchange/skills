@@ -3,7 +3,7 @@ name: "Starship Cross-Shell Prompt Configurator"
 description: "The minimal, blazing-fast, and infinitely customizable prompt for any shell. Starship is written in Rust and works across bash, zsh, fish, PowerShell, Ion, Elvish, Tcsh, Nushell, and Xonsh."
 category: "Developer Tools"
 framework: "Claude Code"
-verification: listed
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/starship-cross-shell-prompt-configurator/"
 ---
 

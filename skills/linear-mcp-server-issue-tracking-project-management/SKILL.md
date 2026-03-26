@@ -3,7 +3,7 @@ name: "Linear MCP Server for Issue Tracking and Project Management"
 description: "An MCP server that integrates Linear project management with AI assistants. Enables creating, searching, updating, and commenting on Linear issues, managing projects and teams, and querying workflows through the Model Context Protocol."
 category: "Integrations & Connectors"
 framework: "MCP"
-verification: listed
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/linear-mcp-server-issue-tracking-project-management/"
 ---
 
