@@ -1,6 +1,6 @@
 # 🔍 Research & Scraping
 
-> **50 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping)
+> **51 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping)
 
 Web research, data collection, content aggregation, and information gathering.
 
@@ -107,6 +107,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [SerpAPI Search Intelligence Aggregator](../../skills/serpapi-search-intelligence-aggregator/) | Security Reviewed | — | — | `clawhub install serpapi-search-intelligence-aggregator` |
 | [SerpAPI Search Results Aggregator](../../skills/serpapi-search-results-aggregator/) | Security Reviewed | — | — | `clawhub install serpapi-search-results-aggregator` |
 | [Shodan Network Reconnaissance Agent](../../skills/shodan-network-reconnaissance-agent/) | Security Reviewed | — | — | `clawhub install shodan-network-reconnaissance-agent` |
+| [Tavily MCP Server for AI-Powered Web Search and Extraction](../../skills/tavily-mcp-server-ai-web-search-extraction/) | Verified Metadata | — | — | `clawhub install tavily-mcp-server-ai-web-search-extraction` |
 
 ---
 
@@ -129,7 +130,7 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 ## Related Categories
 
-- 🛠️ [Developer Tools](../developer-tools/) (144 skills)
+- 🛠️ [Developer Tools](../developer-tools/) (146 skills)
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (140 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
 - 🔄 [Data Extraction & Transformation](../data-extraction-transformation/) (103 skills)

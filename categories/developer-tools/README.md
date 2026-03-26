@@ -1,6 +1,6 @@
 # 🛠️ Developer Tools
 
-> **144 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools)
+> **146 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools)
 
 CLI helpers, dev environment setup, productivity utilities, and developer workflows.
 
@@ -159,6 +159,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Bun Shell Script Executor](../../skills/bun-shell-script-executor/) | Security Reviewed | — | — | `clawhub install bun-shell-script-executor` |
 | [Claude Code MCP Bridge](../../skills/claude-code-mcp-bridge/) | Security Reviewed | — | — | `clawhub install claude-code-mcp-bridge` |
 | [Desktop Commander MCP Server for Terminal and File Control](../../skills/desktop-commander-mcp-terminal-file-control/) | Verified Metadata | — | — | `clawhub install desktop-commander-mcp-terminal-file-control` |
+| [devenv Declarative Developer Environments with Nix](../../skills/devenv-declarative-developer-environments-nix/) | Verified Metadata | — | — | `clawhub install devenv-declarative-developer-environments-nix` |
 | [dust Intuitive Disk Usage Analyzer CLI](../../skills/dust-intuitive-disk-usage-analyzer-cli/) | Security Reviewed | — | — | `clawhub install dust-intuitive-disk-usage-analyzer-cli` |
 | [E2B Code Execution MCP](../../skills/e2b-code-execution-mcp/) | Security Reviewed | — | — | `clawhub install e2b-code-execution-mcp` |
 | [eza Modern File Listing CLI](../../skills/eza-modern-file-listing-cli/) | Security Reviewed | — | — | `clawhub install eza-modern-file-listing-cli` |
@@ -189,6 +190,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Nix Flake Configuration Builder](../../skills/nix-flake-configuration-builder/) | Security Reviewed | — | — | `clawhub install nix-flake-configuration-builder` |
 | [NPM Package Auditor](../../skills/npm-package-auditor-registry-api/) | Security Reviewed | — | — | `clawhub install npm-package-auditor-registry-api` |
 | [Package Vulnerability Scanner](../../skills/package-vuln-scanner-osv-api/) | Security Reviewed | — | — | `clawhub install package-vuln-scanner-osv-api` |
+| [Pixi Cross-Platform Package Manager Built on Conda](../../skills/pixi-cross-platform-package-manager-conda-rust/) | Verified Metadata | — | — | `clawhub install pixi-cross-platform-package-manager-conda-rust` |
 | [Postgres MCP Pro Server for Database Analysis and Tuning](../../skills/postgres-mcp-pro-database-analysis-tuning/) | Verified Metadata | — | — | `clawhub install postgres-mcp-pro-database-analysis-tuning` |
 | [Repomix Codebase Context Packer for LLMs](../../skills/repomix-codebase-context-packer-llm/) | Security Reviewed | — | — | `clawhub install repomix-codebase-context-packer-llm` |
 | [Restic Fast Encrypted Backup Program](../../skills/restic-encrypted-backup-tool/) | Security Reviewed | — | — | `clawhub install restic-encrypted-backup-tool` |
