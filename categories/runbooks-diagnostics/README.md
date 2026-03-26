@@ -10,7 +10,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 
 - **Top Starred:** 6 visible with GitHub signal data
 - **Top Downloaded:** 6 visible with npm signal data
-- **Security Reviewed:** 112 skills
+- **Security Reviewed:** 113 skills
 
 ---
 
@@ -161,7 +161,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [PostgreSQL Performance Runbook](../../skills/postgresql-performance-runbook/) | Security Reviewed | — | 21.4M/wk | `clawhub install postgresql-performance-runbook` |
 | [PostgreSQL Query Analyzer](../../skills/postgresql-query-analyzer/) | Security Reviewed | — | 21.4M/wk | `clawhub install postgresql-query-analyzer` |
 | [PostgreSQL Query Diagnostics](../../skills/postgresql-query-diagnostics/) | Security Reviewed | — | 21.4M/wk | `clawhub install postgresql-query-diagnostics` |
-| [PostgreSQL Query Plan Diagnostics](../../skills/postgresql-query-plan-diagnostics-wave48/) | Verified Metadata | — | 21.4M/wk | `clawhub install postgresql-query-plan-diagnostics-wave48` |
+| [PostgreSQL Query Plan Diagnostics](../../skills/postgresql-query-plan-diagnostics-wave48/) | Security Reviewed | — | 21.4M/wk | `clawhub install postgresql-query-plan-diagnostics-wave48` |
 | [PostgreSQL Query Plan Explainer](../../skills/postgresql-query-plan-explainer/) | Security Reviewed | — | 21.4M/wk | `clawhub install postgresql-query-plan-explainer` |
 | [PostgreSQL Slow Query Analyzer](../../skills/postgresql-slow-query-analyzer/) | Security Reviewed | — | 21.4M/wk | `clawhub install postgresql-slow-query-analyzer` |
 | [PostgreSQL Slow Query Runbook](../../skills/postgresql-slow-query-runbook-agent/) | Security Reviewed | — | 21.4M/wk | `clawhub install postgresql-slow-query-runbook-agent` |
@@ -193,8 +193,8 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 ## Related Categories
 
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (140 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (139 skills)
-- 🔄 [Data Extraction & Transformation](../data-extraction-transformation/) (99 skills)
+- 🛠️ [Developer Tools](../developer-tools/) (140 skills)
+- 🔄 [Data Extraction & Transformation](../data-extraction-transformation/) (100 skills)
 - 🔒 [Security & Verification](../security-verification/) (96 skills)
 
 ---

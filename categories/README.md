@@ -2,21 +2,21 @@
 
 Categories are the **top-level map** of the catalog. For live sorting by stars, downloads, and verification, jump into ASE Browse from any category.
 
-> **1274 skills** across **20 categories**
+> **1280 skills** across **20 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
 | 🔧 | [**CI/CD Integrations**](ci-cd-integrations/) | **140** | Pipeline configs, deployment automation, build tooling, and continuou... |
-| 🛠️ | [**Developer Tools**](developer-tools/) | **139** | CLI helpers, dev environment setup, productivity utilities, and devel... |
+| 🛠️ | [**Developer Tools**](developer-tools/) | **140** | CLI helpers, dev environment setup, productivity utilities, and devel... |
 | 📋 | [**Runbooks & Diagnostics**](runbooks-diagnostics/) | **113** | Incident response, troubleshooting guides, system diagnostics, and op... |
-| 🔄 | [**Data Extraction & Transformation**](data-extraction-transformation/) | **99** | Parsing, ETL pipelines, format conversion, data wrangling, and transf... |
+| 🔄 | [**Data Extraction & Transformation**](data-extraction-transformation/) | **100** | Parsing, ETL pipelines, format conversion, data wrangling, and transf... |
 | 🔒 | [**Security & Verification**](security-verification/) | **96** | Auth setup, vulnerability scanning, compliance checks, and security a... |
-| 📚 | [**Library & API Reference**](library-api-reference/) | **90** | SDK documentation, API guides, framework reference material, and libr... |
-| ✅ | [**Code Quality & Review**](code-quality-review/) | **88** | Linting rules, review checklists, code standards enforcement, and qua... |
+| 📚 | [**Library & API Reference**](library-api-reference/) | **91** | SDK documentation, API guides, framework reference material, and libr... |
+| ✅ | [**Code Quality & Review**](code-quality-review/) | **89** | Linting rules, review checklists, code standards enforcement, and qua... |
 | 📊 | [**Monitoring & Alerts**](monitoring-alerts/) | **79** | Metrics collection, alerting rules, observability setup, and system m... |
 | 📄 | [**Templates & Workflows**](templates-workflows/) | **61** | Project scaffolding, boilerplate generators, workflow templates, and ... |
+| 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **53** | Third-party API bridges, webhook handlers, service connectors, and pl... |
 | 🎨 | [**Image & Creative Automation**](image-creative-automation/) | **52** | Image generation, asset processing, design automation, and creative t... |
-| 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **51** | Third-party API bridges, webhook handlers, service connectors, and pl... |
 | 📅 | [**Calendar, Email & Productivity**](calendar-email-productivity/) | **50** | Email automation, calendar management, task coordination, and product... |
 | 🔍 | [**Research & Scraping**](research-scraping/) | **49** | Web research, data collection, content aggregation, and information g... |
 | 🌐 | [**Browser Automation**](browser-automation/) | **47** | Web scraping, UI testing, headless browser control, and browser-based... |

@@ -10,7 +10,7 @@ Image generation, asset processing, design automation, and creative tooling.
 
 - **Top Starred:** 6 visible with GitHub signal data
 - **Top Downloaded:** 6 visible with npm signal data
-- **Security Reviewed:** 51 skills
+- **Security Reviewed:** 52 skills
 
 ---
 
@@ -87,7 +87,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Adobe Firefly API Batch Image Generator](../../skills/adobe-firefly-api-batch-image-generator/) | Security Reviewed | — | — | `clawhub install adobe-firefly-api-batch-image-generator` |
 | [Adobe Photoshop API Batch Processor](../../skills/adobe-photoshop-api-batch-processor/) | Security Reviewed | — | — | `clawhub install adobe-photoshop-api-batch-processor` |
 | [Bannerbear Dynamic Image API](../../skills/bannerbear-dynamic-image-api/) | Security Reviewed | — | — | `clawhub install bannerbear-dynamic-image-api` |
-| [Blender Geometry Nodes Script Generator](../../skills/blender-geometry-nodes-script-generator/) | Verified Metadata | — | — | `clawhub install blender-geometry-nodes-script-generator` |
+| [Blender Geometry Nodes Script Generator](../../skills/blender-geometry-nodes-script-generator/) | Security Reviewed | — | — | `clawhub install blender-geometry-nodes-script-generator` |
 | [Cloudinary Asset Optimization Agent](../../skills/cloudinary-asset-optimization-agent/) | Security Reviewed | — | — | `clawhub install cloudinary-asset-optimization-agent` |
 | [Cloudinary DAM Pipeline](../../skills/cloudinary-dam-pipeline-skill/) | Security Reviewed | — | — | `clawhub install cloudinary-dam-pipeline-skill` |
 | [Cloudinary Media Optimization Agent](../../skills/cloudinary-media-optimization-agent/) | Security Reviewed | — | — | `clawhub install cloudinary-media-optimization-agent` |
@@ -132,9 +132,9 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 ## Related Categories
 
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (140 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (139 skills)
+- 🛠️ [Developer Tools](../developer-tools/) (140 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
-- 🔄 [Data Extraction & Transformation](../data-extraction-transformation/) (99 skills)
+- 🔄 [Data Extraction & Transformation](../data-extraction-transformation/) (100 skills)
 
 ---
 

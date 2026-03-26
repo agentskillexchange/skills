@@ -10,7 +10,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 
 - **Top Starred:** 6 visible with GitHub signal data
 - **Top Downloaded:** 6 visible with npm signal data
-- **Security Reviewed:** 60 skills
+- **Security Reviewed:** 61 skills
 
 ---
 
@@ -93,7 +93,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Railway App Deployer](../../skills/railway-app-deployer/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install railway-app-deployer` |
 | [Vercel Deployment Agent](../../skills/vercel-deployment-agent/) | Security Reviewed | 15.1k | 2.1M/wk | `clawhub install vercel-deployment-agent` |
 | [Semgrep Custom Rule Runner](../../skills/semgrep-custom-rule-runner-2/) | Security Reviewed | 14.6k | — | `clawhub install semgrep-custom-rule-runner-2` |
-| [SonarQube Gate Checker](../../skills/sonarqube-gate-checker-2/) | Verified Metadata | 10.4k | — | `clawhub install sonarqube-gate-checker-2` |
+| [SonarQube Gate Checker](../../skills/sonarqube-gate-checker-2/) | Security Reviewed | 10.4k | — | `clawhub install sonarqube-gate-checker-2` |
 | [Incident Response Template Generator](../../skills/incident-response-template-generator/) | Security Reviewed | 5.6k | 1.1M/wk | `clawhub install incident-response-template-generator` |
 | [Notion to PDF Knowledge Exporter](../../skills/notion-to-pdf-knowledge-exporter/) | Security Reviewed | 5.6k | 1.1M/wk | `clawhub install notion-to-pdf-knowledge-exporter` |
 | [Bubble.io Stripe Subscription Portal Builder](../../skills/bubble-stripe-subscription-portal/) | Security Reviewed | 4.4k | 8.4M/wk | `clawhub install bubble-stripe-subscription-portal` |
@@ -141,9 +141,9 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 ## Related Categories
 
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (140 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (139 skills)
+- 🛠️ [Developer Tools](../developer-tools/) (140 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
-- 🔄 [Data Extraction & Transformation](../data-extraction-transformation/) (99 skills)
+- 🔄 [Data Extraction & Transformation](../data-extraction-transformation/) (100 skills)
 
 ---
 

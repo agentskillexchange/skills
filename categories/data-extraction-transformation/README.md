@@ -1,6 +1,6 @@
 # 🔄 Data Extraction & Transformation
 
-> **99 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation)
+> **100 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation)
 
 Parsing, ETL pipelines, format conversion, data wrangling, and transformation utilities.
 
@@ -10,7 +10,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 
 - **Top Starred:** 6 visible with GitHub signal data
 - **Top Downloaded:** 6 visible with npm signal data
-- **Security Reviewed:** 82 skills
+- **Security Reviewed:** 97 skills
 
 ---
 
@@ -116,44 +116,45 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Weights &amp; Biases Run Monitor](../../skills/wandb-run-monitor/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install wandb-run-monitor` |
 | [Salesforce Bulk API Data Loader](../../skills/salesforce-bulk-api-data-loader/) | Security Reviewed | 1.5k | 804.8k/wk | `clawhub install salesforce-bulk-api-data-loader` |
 | [DuckDB SQL Analytics Agent](../../skills/duckdb-sql-analytics-agent/) | Security Reviewed | 387 | 146.9k/wk | `clawhub install duckdb-sql-analytics-agent` |
-| [Parquet Column Mapper](../../skills/parquet-column-mapper/) | Security Reviewed | 387 | 146.9k/wk | `clawhub install parquet-column-mapper` |
+| [Parquet Column Mapper](../../skills/parquet-column-mapper/) | Listed | 387 | 146.9k/wk | `clawhub install parquet-column-mapper` |
 | [Parquet Column Pruning Optimizer](../../skills/parquet-column-pruning-optimizer/) | Security Reviewed | 387 | 146.9k/wk | `clawhub install parquet-column-pruning-optimizer` |
 | [Parquet Column Statistics Profiler](../../skills/parquet-column-statistics-profiler/) | Security Reviewed | 387 | 146.9k/wk | `clawhub install parquet-column-statistics-profiler` |
 | [Parquet Schema Extractor for S3](../../skills/parquet-schema-extractor-for-s3/) | Security Reviewed | 387 | 146.9k/wk | `clawhub install parquet-schema-extractor-for-s3` |
-| [Parquet to PostgreSQL Loader](../../skills/parquet-to-postgresql-loader/) | Security Reviewed | 387 | 146.9k/wk | `clawhub install parquet-to-postgresql-loader` |
+| [Parquet to PostgreSQL Loader](../../skills/parquet-to-postgresql-loader/) | Listed | 387 | 146.9k/wk | `clawhub install parquet-to-postgresql-loader` |
 | [Metabase Dashboard Snapshot &amp; Alerting](../../skills/metabase-dashboard-snapshot-alerting-2/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install metabase-dashboard-snapshot-alerting-2` |
 | [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | Security Reviewed | — | 21.4M/wk | `clawhub install postgresql-mcp-server` |
-| [Anyquery Universal SQL Engine with MCP Integration](../../skills/anyquery-universal-sql-engine-mcp-integration/) | Verified Metadata | — | — | `clawhub install anyquery-universal-sql-engine-mcp-integration` |
+| [Anyquery Universal SQL Engine with MCP Integration](../../skills/anyquery-universal-sql-engine-mcp-integration/) | Security Reviewed | — | — | `clawhub install anyquery-universal-sql-engine-mcp-integration` |
 | [Apache Tika Content Extraction Hub](../../skills/apache-tika-content-extraction-hub/) | Security Reviewed | — | — | `clawhub install apache-tika-content-extraction-hub` |
 | [Apache Tika Document Extractor](../../skills/apache-tika-document-extractor/) | Security Reviewed | — | — | `clawhub install apache-tika-document-extractor` |
 | [Apache Tika Document Parser](../../skills/apache-tika-document-parser/) | Security Reviewed | — | — | `clawhub install apache-tika-document-parser` |
 | [Apache Tika Document Parser Agent](../../skills/apache-tika-document-parser-agent/) | Security Reviewed | — | — | `clawhub install apache-tika-document-parser-agent` |
 | [Camelot PDF Stream Parser](../../skills/camelot-pdf-stream-parser/) | Security Reviewed | — | — | `clawhub install camelot-pdf-stream-parser` |
 | [CSV Schema Validator &#038; Auto-Fixer](../../skills/csv-schema-validator-auto-fixer/) | Security Reviewed | — | — | `clawhub install csv-schema-validator-auto-fixer` |
-| [csvkit Python CSV Utility Suite](../../skills/csvkit-python-csv-utility-suite/) | Verified Metadata | — | — | `clawhub install csvkit-python-csv-utility-suite` |
+| [csvkit Python CSV Utility Suite](../../skills/csvkit-python-csv-utility-suite/) | Security Reviewed | — | — | `clawhub install csvkit-python-csv-utility-suite` |
 | [Dasel Multi-Format Data Selector and Modifier](../../skills/dasel-multi-format-data-selector-modifier/) | Security Reviewed | — | — | `clawhub install dasel-multi-format-data-selector-modifier` |
-| [Datasette Data Exploration and Publishing Tool](../../skills/datasette-data-exploration-publishing-tool/) | Verified Metadata | — | — | `clawhub install datasette-data-exploration-publishing-tool` |
-| [dlt Python Data Load Tool](../../skills/dlt-python-data-load-tool/) | Verified Metadata | — | — | `clawhub install dlt-python-data-load-tool` |
-| [Documind AI-Powered Structured Data Extraction from Documents](../../skills/documind-ai-structured-data-extraction/) | Verified Metadata | — | — | `clawhub install documind-ai-structured-data-extraction` |
-| [Evidence BI-as-Code SQL and Markdown Analytics Framework](../../skills/evidence-bi-as-code-sql-markdown-analytics/) | Verified Metadata | — | — | `clawhub install evidence-bi-as-code-sql-markdown-analytics` |
-| [fx Terminal JSON Viewer and Processor](../../skills/fx-terminal-json-viewer-processor/) | Verified Metadata | — | — | `clawhub install fx-terminal-json-viewer-processor` |
-| [gron Greppable JSON Flattener](../../skills/gron-greppable-json-flattener/) | Verified Metadata | — | — | `clawhub install gron-greppable-json-flattener` |
-| [Instructor Structured Data Extraction from LLMs](../../skills/instructor-structured-data-extraction-llms/) | Verified Metadata | — | — | `clawhub install instructor-structured-data-extraction-llms` |
-| [jnv Interactive JSON Navigator and jq Filter Editor](../../skills/jnv-interactive-json-navigator/) | Verified Metadata | — | — | `clawhub install jnv-interactive-json-navigator` |
+| [Datasette Data Exploration and Publishing Tool](../../skills/datasette-data-exploration-publishing-tool/) | Security Reviewed | — | — | `clawhub install datasette-data-exploration-publishing-tool` |
+| [dlt Python Data Load Tool](../../skills/dlt-python-data-load-tool/) | Security Reviewed | — | — | `clawhub install dlt-python-data-load-tool` |
+| [Documind AI-Powered Structured Data Extraction from Documents](../../skills/documind-ai-structured-data-extraction/) | Security Reviewed | — | — | `clawhub install documind-ai-structured-data-extraction` |
+| [Evidence BI-as-Code SQL and Markdown Analytics Framework](../../skills/evidence-bi-as-code-sql-markdown-analytics/) | Security Reviewed | — | — | `clawhub install evidence-bi-as-code-sql-markdown-analytics` |
+| [fx Terminal JSON Viewer and Processor](../../skills/fx-terminal-json-viewer-processor/) | Security Reviewed | — | — | `clawhub install fx-terminal-json-viewer-processor` |
+| [gron Greppable JSON Flattener](../../skills/gron-greppable-json-flattener/) | Security Reviewed | — | — | `clawhub install gron-greppable-json-flattener` |
+| [Instructor Structured Data Extraction from LLMs](../../skills/instructor-structured-data-extraction-llms/) | Security Reviewed | — | — | `clawhub install instructor-structured-data-extraction-llms` |
+| [jnv Interactive JSON Navigator and jq Filter Editor](../../skills/jnv-interactive-json-navigator/) | Security Reviewed | — | — | `clawhub install jnv-interactive-json-navigator` |
 | [jq Pipeline Builder Agent](../../skills/jq-pipeline-builder-agent/) | Security Reviewed | — | — | `clawhub install jq-pipeline-builder-agent` |
 | [Marker PDF-to-Markdown Converter](../../skills/marker-pdf-to-markdown-converter/) | Security Reviewed | — | — | `clawhub install marker-pdf-to-markdown-converter` |
-| [MinerU PDF-to-Markdown Document Parser](../../skills/mineru-pdf-to-markdown-document-parser/) | Verified Metadata | — | — | `clawhub install mineru-pdf-to-markdown-document-parser` |
-| [Polars Blazing-Fast DataFrame Query Engine](../../skills/polars-dataframe-query-engine/) | Verified Metadata | — | — | `clawhub install polars-dataframe-query-engine` |
-| [qsv Blazing-Fast CSV Data Wrangling Toolkit](../../skills/qsv-blazing-fast-csv-data-wrangling-toolkit/) | Verified Metadata | — | — | `clawhub install qsv-blazing-fast-csv-data-wrangling-toolkit` |
-| [Redpanda Connect Declarative Stream Processor](../../skills/redpanda-connect-declarative-stream-processor/) | Verified Metadata | — | — | `clawhub install redpanda-connect-declarative-stream-processor` |
+| [MinerU PDF-to-Markdown Document Parser](../../skills/mineru-pdf-to-markdown-document-parser/) | Security Reviewed | — | — | `clawhub install mineru-pdf-to-markdown-document-parser` |
+| [Polars Blazing-Fast DataFrame Query Engine](../../skills/polars-dataframe-query-engine/) | Security Reviewed | — | — | `clawhub install polars-dataframe-query-engine` |
+| [qsv Blazing-Fast CSV Data Wrangling Toolkit](../../skills/qsv-blazing-fast-csv-data-wrangling-toolkit/) | Security Reviewed | — | — | `clawhub install qsv-blazing-fast-csv-data-wrangling-toolkit` |
+| [Redpanda Connect Declarative Stream Processor](../../skills/redpanda-connect-declarative-stream-processor/) | Security Reviewed | — | — | `clawhub install redpanda-connect-declarative-stream-processor` |
 | [Snowflake MCP](../../skills/snowflake-mcp/) | Security Reviewed | — | — | `clawhub install snowflake-mcp` |
 | [Snowflake MCP Server](../../skills/snowflake-mcp-server/) | Security Reviewed | — | — | `clawhub install snowflake-mcp-server` |
 | [Snowflake Query History Extractor](../../skills/snowflake-query-history-extractor/) | Security Reviewed | — | — | `clawhub install snowflake-query-history-extractor` |
 | [Snowflake Query Optimizer Agent](../../skills/snowflake-query-optimizer-agent/) | Security Reviewed | — | — | `clawhub install snowflake-query-optimizer-agent` |
 | [Snowflake Query Profiler](../../skills/snowflake-query-profiler/) | Security Reviewed | — | — | `clawhub install snowflake-query-profiler` |
-| [sqlite-utils Python CLI for SQLite Database Manipulation](../../skills/sqlite-utils-python-cli-sqlite-manipulation/) | Verified Metadata | — | — | `clawhub install sqlite-utils-python-cli-sqlite-manipulation` |
-| [Steampipe Zero-ETL SQL Cloud API Query Engine](../../skills/steampipe-zero-etl-sql-cloud-api-query-engine/) | Verified Metadata | — | — | `clawhub install steampipe-zero-etl-sql-cloud-api-query-engine` |
-| [trdsql SQL Query Engine for CSV JSON and YAML Files](../../skills/trdsql-sql-query-engine-csv-json-yaml-files/) | Verified Metadata | — | — | `clawhub install trdsql-sql-query-engine-csv-json-yaml-files` |
+| [sqlite-utils Python CLI for SQLite Database Manipulation](../../skills/sqlite-utils-python-cli-sqlite-manipulation/) | Security Reviewed | — | — | `clawhub install sqlite-utils-python-cli-sqlite-manipulation` |
+| [Steampipe Zero-ETL SQL Cloud API Query Engine](../../skills/steampipe-zero-etl-sql-cloud-api-query-engine/) | Security Reviewed | — | — | `clawhub install steampipe-zero-etl-sql-cloud-api-query-engine` |
+| [trdsql SQL Query Engine for CSV JSON and YAML Files](../../skills/trdsql-sql-query-engine-csv-json-yaml-files/) | Security Reviewed | — | — | `clawhub install trdsql-sql-query-engine-csv-json-yaml-files` |
+| [Typesense Typo-Tolerant Search Engine](../../skills/typesense-typo-tolerant-search-engine/) | Verified Metadata | — | — | `clawhub install typesense-typo-tolerant-search-engine` |
 | [XML XSLT Transform Pipeline](../../skills/xml-xslt-transform-pipeline/) | Security Reviewed | — | — | `clawhub install xml-xslt-transform-pipeline` |
 | [xsv High-Performance CSV Toolkit](../../skills/xsv-high-performance-csv-toolkit/) | Security Reviewed | — | — | `clawhub install xsv-high-performance-csv-toolkit` |
 
@@ -179,7 +180,7 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 ## Related Categories
 
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (140 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (139 skills)
+- 🛠️ [Developer Tools](../developer-tools/) (140 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
 - 🔒 [Security & Verification](../security-verification/) (96 skills)
 

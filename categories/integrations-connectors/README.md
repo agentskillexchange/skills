@@ -1,6 +1,6 @@
 # 🔗 Integrations & Connectors
 
-> **51 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors)
+> **53 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors)
 
 Third-party API bridges, webhook handlers, service connectors, and platform integrations.
 
@@ -10,7 +10,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 
 - **Top Starred:** 6 visible with GitHub signal data
 - **Top Downloaded:** 6 visible with npm signal data
-- **Security Reviewed:** 38 skills
+- **Security Reviewed:** 51 skills
 
 ---
 
@@ -92,21 +92,23 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [HubSpot MCP Server](../../skills/hubspot-mcp-server/) | Security Reviewed | 391 | 905.6k/wk | `clawhub install hubspot-mcp-server` |
 | [Zapier Multi-Step Lead Enrichment Workflow](../../skills/zapier-lead-enrichment-workflow/) | Security Reviewed | 391 | 905.6k/wk | `clawhub install zapier-lead-enrichment-workflow` |
 | [Neon Serverless Postgres MCP](../../skills/neon-serverless-postgres-mcp/) | Security Reviewed | — | 21.4M/wk | `clawhub install neon-serverless-postgres-mcp` |
-| [AWS MCP Servers for Cloud Service Integration](../../skills/aws-mcp-servers-cloud-service-integration/) | Verified Metadata | — | — | `clawhub install aws-mcp-servers-cloud-service-integration` |
-| [Chroma MCP Server for Embedding Database Operations](../../skills/chroma-mcp-server-embedding-database-operations/) | Verified Metadata | — | — | `clawhub install chroma-mcp-server-embedding-database-operations` |
-| [Cloudflare MCP Servers for Workers, Security, and Observability](../../skills/cloudflare-mcp-servers-workers-security-observability/) | Verified Metadata | — | — | `clawhub install cloudflare-mcp-servers-workers-security-observability` |
-| [Docker MCP Server for Container Lifecycle Management](../../skills/docker-mcp-server-container-lifecycle-management/) | Verified Metadata | — | — | `clawhub install docker-mcp-server-container-lifecycle-management` |
-| [Linear MCP Server for Issue Tracking and Project Management](../../skills/linear-mcp-server-issue-tracking-project-management/) | Verified Metadata | — | — | `clawhub install linear-mcp-server-issue-tracking-project-management` |
-| [LiteLLM Unified LLM Gateway and Proxy Server](../../skills/litellm-unified-llm-gateway-proxy/) | Verified Metadata | — | — | `clawhub install litellm-unified-llm-gateway-proxy` |
-| [MetaMCP Unified MCP Server Aggregator and Gateway](../../skills/metamcp-unified-mcp-server-aggregator-gateway/) | Verified Metadata | — | — | `clawhub install metamcp-unified-mcp-server-aggregator-gateway` |
-| [MongoDB MCP Server for Database and Atlas Management](../../skills/mongodb-mcp-server-database-atlas-management/) | Verified Metadata | — | — | `clawhub install mongodb-mcp-server-database-atlas-management` |
+| [Activepieces Open Source Workflow Automation](../../skills/activepieces-open-source-workflow-automation/) | Verified Metadata | — | — | `clawhub install activepieces-open-source-workflow-automation` |
+| [AWS MCP Servers for Cloud Service Integration](../../skills/aws-mcp-servers-cloud-service-integration/) | Security Reviewed | — | — | `clawhub install aws-mcp-servers-cloud-service-integration` |
+| [Chroma MCP Server for Embedding Database Operations](../../skills/chroma-mcp-server-embedding-database-operations/) | Security Reviewed | — | — | `clawhub install chroma-mcp-server-embedding-database-operations` |
+| [Cloudflare MCP Servers for Workers, Security, and Observability](../../skills/cloudflare-mcp-servers-workers-security-observability/) | Security Reviewed | — | — | `clawhub install cloudflare-mcp-servers-workers-security-observability` |
+| [Docker MCP Server for Container Lifecycle Management](../../skills/docker-mcp-server-container-lifecycle-management/) | Security Reviewed | — | — | `clawhub install docker-mcp-server-container-lifecycle-management` |
+| [Linear MCP Server for Issue Tracking and Project Management](../../skills/linear-mcp-server-issue-tracking-project-management/) | Security Reviewed | — | — | `clawhub install linear-mcp-server-issue-tracking-project-management` |
+| [LiteLLM Unified LLM Gateway and Proxy Server](../../skills/litellm-unified-llm-gateway-proxy/) | Security Reviewed | — | — | `clawhub install litellm-unified-llm-gateway-proxy` |
+| [MetaMCP Unified MCP Server Aggregator and Gateway](../../skills/metamcp-unified-mcp-server-aggregator-gateway/) | Security Reviewed | — | — | `clawhub install metamcp-unified-mcp-server-aggregator-gateway` |
+| [MongoDB MCP Server for Database and Atlas Management](../../skills/mongodb-mcp-server-database-atlas-management/) | Security Reviewed | — | — | `clawhub install mongodb-mcp-server-database-atlas-management` |
 | [n8n Workflow Webhook Bridge](../../skills/n8n-workflow-webhook-bridge/) | Security Reviewed | — | — | `clawhub install n8n-workflow-webhook-bridge` |
-| [Neon MCP Server for Serverless Postgres Management](../../skills/neon-mcp-server-serverless-postgres/) | Verified Metadata | — | — | `clawhub install neon-mcp-server-serverless-postgres` |
-| [Notion MCP Server for AI Workspace Integration](../../skills/notion-mcp-server-ai-workspace-integration/) | Verified Metadata | — | — | `clawhub install notion-mcp-server-ai-workspace-integration` |
+| [Nango Open Source API Integration Platform](../../skills/nango-open-source-api-integration-platform/) | Verified Metadata | — | — | `clawhub install nango-open-source-api-integration-platform` |
+| [Neon MCP Server for Serverless Postgres Management](../../skills/neon-mcp-server-serverless-postgres/) | Security Reviewed | — | — | `clawhub install neon-mcp-server-serverless-postgres` |
+| [Notion MCP Server for AI Workspace Integration](../../skills/notion-mcp-server-ai-workspace-integration/) | Security Reviewed | — | — | `clawhub install notion-mcp-server-ai-workspace-integration` |
 | [Plaid Financial Data Connector](../../skills/plaid-financial-data-connector/) | Security Reviewed | — | — | `clawhub install plaid-financial-data-connector` |
-| [Qdrant MCP Server for Vector Search and Semantic Memory](../../skills/qdrant-mcp-server-vector-search-semantic-memory/) | Verified Metadata | — | — | `clawhub install qdrant-mcp-server-vector-search-semantic-memory` |
-| [Supabase MCP Server for Database and Project Management](../../skills/supabase-mcp-server-database-project-management/) | Verified Metadata | — | — | `clawhub install supabase-mcp-server-database-project-management` |
-| [Upstash MCP Server for Redis and QStash Management](../../skills/upstash-mcp-server-redis-qstash-management/) | Verified Metadata | — | — | `clawhub install upstash-mcp-server-redis-qstash-management` |
+| [Qdrant MCP Server for Vector Search and Semantic Memory](../../skills/qdrant-mcp-server-vector-search-semantic-memory/) | Security Reviewed | — | — | `clawhub install qdrant-mcp-server-vector-search-semantic-memory` |
+| [Supabase MCP Server for Database and Project Management](../../skills/supabase-mcp-server-database-project-management/) | Security Reviewed | — | — | `clawhub install supabase-mcp-server-database-project-management` |
+| [Upstash MCP Server for Redis and QStash Management](../../skills/upstash-mcp-server-redis-qstash-management/) | Security Reviewed | — | — | `clawhub install upstash-mcp-server-redis-qstash-management` |
 | [Zapier Webhook Integration Builder](../../skills/zapier-webhook-integration-builder/) | Security Reviewed | — | — | `clawhub install zapier-webhook-integration-builder` |
 
 ---
@@ -131,9 +133,9 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 ## Related Categories
 
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (140 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (139 skills)
+- 🛠️ [Developer Tools](../developer-tools/) (140 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
-- 🔄 [Data Extraction & Transformation](../data-extraction-transformation/) (99 skills)
+- 🔄 [Data Extraction & Transformation](../data-extraction-transformation/) (100 skills)
 
 ---
 

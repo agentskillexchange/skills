@@ -10,7 +10,7 @@ Web research, data collection, content aggregation, and information gathering.
 
 - **Top Starred:** 6 visible with GitHub signal data
 - **Top Downloaded:** 6 visible with npm signal data
-- **Security Reviewed:** 48 skills
+- **Security Reviewed:** 49 skills
 
 ---
 
@@ -90,7 +90,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Browserless Scraping Agent](../../skills/browserless-scraping-agent/) | Security Reviewed | — | — | `clawhub install browserless-scraping-agent` |
 | [Common Crawl Index Query Agent](../../skills/common-crawl-index-query-agent/) | Security Reviewed | — | — | `clawhub install common-crawl-index-query-agent` |
 | [Common Crawl URL Index Miner](../../skills/common-crawl-url-index-miner/) | Security Reviewed | — | — | `clawhub install common-crawl-url-index-miner` |
-| [Crawl4AI LLM-Ready Web Crawler and Scraper](../../skills/crawl4ai-llm-web-crawler-scraper/) | Verified Metadata | — | — | `clawhub install crawl4ai-llm-web-crawler-scraper` |
+| [Crawl4AI LLM-Ready Web Crawler and Scraper](../../skills/crawl4ai-llm-web-crawler-scraper/) | Security Reviewed | — | — | `clawhub install crawl4ai-llm-web-crawler-scraper` |
 | [Crawlee Smart Crawler Agent](../../skills/crawlee-smart-crawler-agent/) | Security Reviewed | — | — | `clawhub install crawlee-smart-crawler-agent` |
 | [Diffbot Article Extraction Verifier](../../skills/diffbot-article-extraction-verifier/) | Security Reviewed | — | — | `clawhub install diffbot-article-extraction-verifier` |
 | [Diffbot Knowledge Graph Extractor](../../skills/diffbot-knowledge-graph-extractor/) | Security Reviewed | — | — | `clawhub install diffbot-knowledge-graph-extractor` |
@@ -129,9 +129,9 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 ## Related Categories
 
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (140 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (139 skills)
+- 🛠️ [Developer Tools](../developer-tools/) (140 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
-- 🔄 [Data Extraction & Transformation](../data-extraction-transformation/) (99 skills)
+- 🔄 [Data Extraction & Transformation](../data-extraction-transformation/) (100 skills)
 
 ---
 

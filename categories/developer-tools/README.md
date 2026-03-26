@@ -1,6 +1,6 @@
 # 🛠️ Developer Tools
 
-> **139 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools)
+> **140 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools)
 
 CLI helpers, dev environment setup, productivity utilities, and developer workflows.
 
@@ -10,7 +10,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 
 - **Top Starred:** 6 visible with GitHub signal data
 - **Top Downloaded:** 6 visible with npm signal data
-- **Security Reviewed:** 82 skills
+- **Security Reviewed:** 138 skills
 
 ---
 
@@ -77,7 +77,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [uv Ultra-Fast Python Package and Project Manager](../../skills/uv-ultra-fast-python-package-project-manager/) | Security Reviewed | 71.6k | — | `clawhub install uv-ultra-fast-python-package-project-manager` |
 | [VS Code Extension Scaffolder](../../skills/vscode-extension-scaffolder-agent/) | Security Reviewed | 66k | 44.8M/wk | `clawhub install vscode-extension-scaffolder-agent` |
 | [Webpack Bundle Analyzer Agent](../../skills/webpack-bundle-analyzer-agent/) | Security Reviewed | 66k | 44.8M/wk | `clawhub install webpack-bundle-analyzer-agent` |
-| [Mise Dev Tool Version Manager](../../skills/mise-dev-tool-version-manager/) | Security Reviewed | 48k | — | `clawhub install mise-dev-tool-version-manager` |
+| [Mise Dev Tool Version Manager](../../skills/mise-dev-tool-version-manager/) | Verified Metadata | 48k | — | `clawhub install mise-dev-tool-version-manager` |
 | [Terraform Cloud MCP Server](../../skills/terraform-cloud-mcp-server/) | Security Reviewed | 48k | — | `clawhub install terraform-cloud-mcp-server` |
 | [Terraform Module Scaffolder](../../skills/terraform-module-scaffolder-hcl-sdk/) | Security Reviewed | 48k | — | `clawhub install terraform-module-scaffolder-hcl-sdk` |
 | [LlamaIndex Agent](../../skills/llamaindex-agent/) | Security Reviewed | 47.9k | 125.7k/wk | `clawhub install llamaindex-agent` |
@@ -116,86 +116,87 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [PostgreSQL Query Optimizer Agent](../../skills/postgresql-query-optimizer-explain-api/) | Security Reviewed | — | 21.4M/wk | `clawhub install postgresql-query-optimizer-explain-api` |
 | [PostgreSQL Query Plan Analyzer](../../skills/postgresql-query-plan-analyzer-2/) | Security Reviewed | — | 21.4M/wk | `clawhub install postgresql-query-plan-analyzer-2` |
 | [sqlc Type-Safe SQL Code Generator](../../skills/sqlc-type-safe-sql-code-generator/) | Security Reviewed | — | 21.4M/wk | `clawhub install sqlc-type-safe-sql-code-generator` |
-| [Aider AI Pair Programming CLI Agent](../../skills/aider-ai-pair-programming-cli-agent/) | Verified Metadata | — | — | `clawhub install aider-ai-pair-programming-cli-agent` |
+| [Aider AI Pair Programming CLI Agent](../../skills/aider-ai-pair-programming-cli-agent/) | Security Reviewed | — | — | `clawhub install aider-ai-pair-programming-cli-agent` |
 | [bat Syntax-Highlighting Cat Replacement](../../skills/bat-syntax-highlighting-cat-replacement/) | Security Reviewed | — | — | `clawhub install bat-syntax-highlighting-cat-replacement` |
 | [Bazel Build Graph Analyzer](../../skills/bazel-build-graph-analyzer/) | Security Reviewed | — | — | `clawhub install bazel-build-graph-analyzer` |
-| [Bruno Git-Native API Client for Testing and Exploration](../../skills/bruno-git-native-api-client-testing-exploration/) | Verified Metadata | — | — | `clawhub install bruno-git-native-api-client-testing-exploration` |
+| [Bruno Git-Native API Client for Testing and Exploration](../../skills/bruno-git-native-api-client-testing-exploration/) | Security Reviewed | — | — | `clawhub install bruno-git-native-api-client-testing-exploration` |
 | [Bun Shell Script Executor](../../skills/bun-shell-script-executor/) | Security Reviewed | — | — | `clawhub install bun-shell-script-executor` |
-| [chezmoi Cross-Machine Dotfiles Manager](../../skills/chezmoi-dotfiles-manager/) | Verified Metadata | — | — | `clawhub install chezmoi-dotfiles-manager` |
+| [chezmoi Cross-Machine Dotfiles Manager](../../skills/chezmoi-dotfiles-manager/) | Security Reviewed | — | — | `clawhub install chezmoi-dotfiles-manager` |
 | [Claude Code MCP Bridge](../../skills/claude-code-mcp-bridge/) | Security Reviewed | — | — | `clawhub install claude-code-mcp-bridge` |
-| [dbmate Lightweight Database Migration CLI](../../skills/dbmate-lightweight-database-migration-cli/) | Verified Metadata | — | — | `clawhub install dbmate-lightweight-database-migration-cli` |
-| [delta Syntax-Highlighting Git Diff Pager](../../skills/delta-syntax-highlighting-git-diff-pager/) | Verified Metadata | — | — | `clawhub install delta-syntax-highlighting-git-diff-pager` |
-| [Drizzle ORM TypeScript SQL Database Toolkit](../../skills/drizzle-orm-typescript-sql-database-toolkit/) | Verified Metadata | — | — | `clawhub install drizzle-orm-typescript-sql-database-toolkit` |
-| [dust Intuitive Disk Usage Analyzer CLI](../../skills/dust-intuitive-disk-usage-analyzer-cli/) | Verified Metadata | — | — | `clawhub install dust-intuitive-disk-usage-analyzer-cli` |
+| [dbmate Lightweight Database Migration CLI](../../skills/dbmate-lightweight-database-migration-cli/) | Security Reviewed | — | — | `clawhub install dbmate-lightweight-database-migration-cli` |
+| [delta Syntax-Highlighting Git Diff Pager](../../skills/delta-syntax-highlighting-git-diff-pager/) | Security Reviewed | — | — | `clawhub install delta-syntax-highlighting-git-diff-pager` |
+| [Drizzle ORM TypeScript SQL Database Toolkit](../../skills/drizzle-orm-typescript-sql-database-toolkit/) | Security Reviewed | — | — | `clawhub install drizzle-orm-typescript-sql-database-toolkit` |
+| [dust Intuitive Disk Usage Analyzer CLI](../../skills/dust-intuitive-disk-usage-analyzer-cli/) | Security Reviewed | — | — | `clawhub install dust-intuitive-disk-usage-analyzer-cli` |
 | [E2B Code Execution MCP](../../skills/e2b-code-execution-mcp/) | Security Reviewed | — | — | `clawhub install e2b-code-execution-mcp` |
-| [esbuild Ultra-Fast JavaScript Bundler](../../skills/esbuild-ultra-fast-javascript-bundler/) | Verified Metadata | — | — | `clawhub install esbuild-ultra-fast-javascript-bundler` |
-| [eza Modern File Listing CLI](../../skills/eza-modern-file-listing-cli/) | Verified Metadata | — | — | `clawhub install eza-modern-file-listing-cli` |
-| [Fabric AI Prompt Pattern Framework](../../skills/fabric-ai-prompt-pattern-framework/) | Verified Metadata | — | — | `clawhub install fabric-ai-prompt-pattern-framework` |
-| [fd Fast File Finder CLI](../../skills/fd-fast-file-finder-cli/) | Verified Metadata | — | — | `clawhub install fd-fast-file-finder-cli` |
-| [Freeze Code and Terminal Screenshot Generator](../../skills/freeze-code-terminal-screenshot-generator/) | Verified Metadata | — | — | `clawhub install freeze-code-terminal-screenshot-generator` |
+| [esbuild Ultra-Fast JavaScript Bundler](../../skills/esbuild-ultra-fast-javascript-bundler/) | Security Reviewed | — | — | `clawhub install esbuild-ultra-fast-javascript-bundler` |
+| [eza Modern File Listing CLI](../../skills/eza-modern-file-listing-cli/) | Security Reviewed | — | — | `clawhub install eza-modern-file-listing-cli` |
+| [Fabric AI Prompt Pattern Framework](../../skills/fabric-ai-prompt-pattern-framework/) | Security Reviewed | — | — | `clawhub install fabric-ai-prompt-pattern-framework` |
+| [fd Fast File Finder CLI](../../skills/fd-fast-file-finder-cli/) | Security Reviewed | — | — | `clawhub install fd-fast-file-finder-cli` |
+| [Freeze Code and Terminal Screenshot Generator](../../skills/freeze-code-terminal-screenshot-generator/) | Security Reviewed | — | — | `clawhub install freeze-code-terminal-screenshot-generator` |
 | [Frontend Design Guidance Skill](../../skills/frontend-design-guidance-skill/) | Security Reviewed | — | — | `clawhub install frontend-design-guidance-skill` |
 | [fzf Command-Line Fuzzy Finder](../../skills/fzf-command-line-fuzzy-finder/) | Security Reviewed | — | — | `clawhub install fzf-command-line-fuzzy-finder` |
 | [Git Bisect Automator](../../skills/git-bisect-automator/) | Security Reviewed | — | — | `clawhub install git-bisect-automator` |
 | [Git Diff Complexity Analyzer](../../skills/git-diff-complexity-analyzer/) | Security Reviewed | — | — | `clawhub install git-diff-complexity-analyzer` |
-| [git-absorb Automatic Fixup Commit Generator](../../skills/git-absorb-automatic-fixup-commit-generator/) | Verified Metadata | — | — | `clawhub install git-absorb-automatic-fixup-commit-generator` |
-| [GitButler Virtual Branch Git Client](../../skills/gitbutler-virtual-branch-git-client/) | Verified Metadata | — | — | `clawhub install gitbutler-virtual-branch-git-client` |
-| [GitHub MCP Server for AI-Powered Repository Management](../../skills/github-mcp-server-ai-repository-management/) | Verified Metadata | — | — | `clawhub install github-mcp-server-ai-repository-management` |
-| [Gitoxide Pure Rust Git Implementation and Library](../../skills/gitoxide-pure-rust-git-implementation/) | Verified Metadata | — | — | `clawhub install gitoxide-pure-rust-git-implementation` |
-| [gitu Magit-Inspired Terminal Git Interface](../../skills/gitu-magit-inspired-terminal-git-interface/) | Verified Metadata | — | — | `clawhub install gitu-magit-inspired-terminal-git-interface` |
-| [GitUI Blazing Fast Terminal Git Interface](../../skills/gitui-terminal-git-interface/) | Verified Metadata | — | — | `clawhub install gitui-terminal-git-interface` |
-| [Glow Terminal Markdown Renderer](../../skills/glow-terminal-markdown-renderer/) | Verified Metadata | — | — | `clawhub install glow-terminal-markdown-renderer` |
-| [Goose Extensible AI Coding Agent by Block](../../skills/goose-extensible-ai-coding-agent-block/) | Verified Metadata | — | — | `clawhub install goose-extensible-ai-coding-agent-block` |
-| [grex Regular Expression Generator from Test Cases](../../skills/grex-regex-generator-from-test-cases/) | Verified Metadata | — | — | `clawhub install grex-regex-generator-from-test-cases` |
-| [grpcurl Command-Line gRPC Client](../../skills/grpcurl-command-line-grpc-client/) | Verified Metadata | — | — | `clawhub install grpcurl-command-line-grpc-client` |
+| [git-absorb Automatic Fixup Commit Generator](../../skills/git-absorb-automatic-fixup-commit-generator/) | Security Reviewed | — | — | `clawhub install git-absorb-automatic-fixup-commit-generator` |
+| [GitButler Virtual Branch Git Client](../../skills/gitbutler-virtual-branch-git-client/) | Security Reviewed | — | — | `clawhub install gitbutler-virtual-branch-git-client` |
+| [GitHub MCP Server for AI-Powered Repository Management](../../skills/github-mcp-server-ai-repository-management/) | Security Reviewed | — | — | `clawhub install github-mcp-server-ai-repository-management` |
+| [Gitoxide Pure Rust Git Implementation and Library](../../skills/gitoxide-pure-rust-git-implementation/) | Security Reviewed | — | — | `clawhub install gitoxide-pure-rust-git-implementation` |
+| [gitu Magit-Inspired Terminal Git Interface](../../skills/gitu-magit-inspired-terminal-git-interface/) | Security Reviewed | — | — | `clawhub install gitu-magit-inspired-terminal-git-interface` |
+| [GitUI Blazing Fast Terminal Git Interface](../../skills/gitui-terminal-git-interface/) | Security Reviewed | — | — | `clawhub install gitui-terminal-git-interface` |
+| [Glow Terminal Markdown Renderer](../../skills/glow-terminal-markdown-renderer/) | Security Reviewed | — | — | `clawhub install glow-terminal-markdown-renderer` |
+| [Goose Extensible AI Coding Agent by Block](../../skills/goose-extensible-ai-coding-agent-block/) | Security Reviewed | — | — | `clawhub install goose-extensible-ai-coding-agent-block` |
+| [grex Regular Expression Generator from Test Cases](../../skills/grex-regex-generator-from-test-cases/) | Security Reviewed | — | — | `clawhub install grex-regex-generator-from-test-cases` |
+| [grpcurl Command-Line gRPC Client](../../skills/grpcurl-command-line-grpc-client/) | Security Reviewed | — | — | `clawhub install grpcurl-command-line-grpc-client` |
 | [Gum Interactive Shell Script Toolkit](../../skills/gum-interactive-shell-script-toolkit/) | Security Reviewed | — | — | `clawhub install gum-interactive-shell-script-toolkit` |
-| [Hoppscotch Open Source API Development Ecosystem](../../skills/hoppscotch-api-development-ecosystem/) | Verified Metadata | — | — | `clawhub install hoppscotch-api-development-ecosystem` |
-| [HTTPie CLI API Testing and Debugging Client](../../skills/httpie-cli-api-testing-debugging-client/) | Verified Metadata | — | — | `clawhub install httpie-cli-api-testing-debugging-client` |
-| [Hurl Declarative HTTP Request Runner and Tester](../../skills/hurl-declarative-http-request-runner-tester/) | Verified Metadata | — | — | `clawhub install hurl-declarative-http-request-runner-tester` |
+| [Hoppscotch Open Source API Development Ecosystem](../../skills/hoppscotch-api-development-ecosystem/) | Security Reviewed | — | — | `clawhub install hoppscotch-api-development-ecosystem` |
+| [HTTPie CLI API Testing and Debugging Client](../../skills/httpie-cli-api-testing-debugging-client/) | Security Reviewed | — | — | `clawhub install httpie-cli-api-testing-debugging-client` |
+| [Hurl Declarative HTTP Request Runner and Tester](../../skills/hurl-declarative-http-request-runner-tester/) | Security Reviewed | — | — | `clawhub install hurl-declarative-http-request-runner-tester` |
 | [Hyperfine Command-Line Benchmarking Tool](../../skills/hyperfine-command-line-benchmarking-tool/) | Security Reviewed | — | — | `clawhub install hyperfine-command-line-benchmarking-tool` |
 | [Jira Advanced Query Agent](../../skills/jira-advanced-query-agent/) | Security Reviewed | — | — | `clawhub install jira-advanced-query-agent` |
-| [Jujutsu Git-Compatible Version Control System](../../skills/jujutsu-jj-git-compatible-vcs/) | Verified Metadata | — | — | `clawhub install jujutsu-jj-git-compatible-vcs` |
+| [Jujutsu Git-Compatible Version Control System](../../skills/jujutsu-jj-git-compatible-vcs/) | Security Reviewed | — | — | `clawhub install jujutsu-jj-git-compatible-vcs` |
 | [Just Command Runner](../../skills/just-command-runner/) | Security Reviewed | — | — | `clawhub install just-command-runner` |
-| [k6 Load Testing and Performance Benchmarking Tool](../../skills/k6-load-testing-performance-benchmarking-tool/) | Verified Metadata | — | — | `clawhub install k6-load-testing-performance-benchmarking-tool` |
-| [K9s Kubernetes Terminal Dashboard](../../skills/k9s-kubernetes-terminal-dashboard/) | Verified Metadata | — | — | `clawhub install k9s-kubernetes-terminal-dashboard` |
-| [LazyDocker Terminal UI for Docker Management](../../skills/lazydocker-terminal-docker-management/) | Verified Metadata | — | — | `clawhub install lazydocker-terminal-docker-management` |
+| [k6 Load Testing and Performance Benchmarking Tool](../../skills/k6-load-testing-performance-benchmarking-tool/) | Security Reviewed | — | — | `clawhub install k6-load-testing-performance-benchmarking-tool` |
+| [K9s Kubernetes Terminal Dashboard](../../skills/k9s-kubernetes-terminal-dashboard/) | Security Reviewed | — | — | `clawhub install k9s-kubernetes-terminal-dashboard` |
+| [LazyDocker Terminal UI for Docker Management](../../skills/lazydocker-terminal-docker-management/) | Security Reviewed | — | — | `clawhub install lazydocker-terminal-docker-management` |
 | [lazygit Terminal UI for Git Operations](../../skills/lazygit-terminal-ui-git-operations/) | Security Reviewed | — | — | `clawhub install lazygit-terminal-ui-git-operations` |
-| [libSQL Edge-Ready SQLite Fork by Turso](../../skills/libsql-edge-sqlite-fork-turso/) | Verified Metadata | — | — | `clawhub install libsql-edge-sqlite-fork-turso` |
-| [Litestream SQLite Streaming Replication](../../skills/litestream-sqlite-streaming-replication/) | Verified Metadata | — | — | `clawhub install litestream-sqlite-streaming-replication` |
+| [libSQL Edge-Ready SQLite Fork by Turso](../../skills/libsql-edge-sqlite-fork-turso/) | Security Reviewed | — | — | `clawhub install libsql-edge-sqlite-fork-turso` |
+| [Litestream SQLite Streaming Replication](../../skills/litestream-sqlite-streaming-replication/) | Security Reviewed | — | — | `clawhub install litestream-sqlite-streaming-replication` |
 | [LLDB Debug Session Automator](../../skills/lldb-debug-session-automator/) | Security Reviewed | — | — | `clawhub install lldb-debug-session-automator` |
-| [lsd Next-Generation ls Directory Listing Tool](../../skills/lsd-next-gen-ls-directory-listing/) | Verified Metadata | — | — | `clawhub install lsd-next-gen-ls-directory-listing` |
+| [lsd Next-Generation ls Directory Listing Tool](../../skills/lsd-next-gen-ls-directory-listing/) | Security Reviewed | — | — | `clawhub install lsd-next-gen-ls-directory-listing` |
 | [Makefile Dependency Auditor](../../skills/makefile-dependency-auditor/) | Security Reviewed | — | — | `clawhub install makefile-dependency-auditor` |
-| [Mastra TypeScript AI Agent Framework](../../skills/mastra-typescript-ai-agent-framework/) | Verified Metadata | — | — | `clawhub install mastra-typescript-ai-agent-framework` |
-| [n8n GitHub Issue-to-Jira Ticket Automator](../../skills/n8n-github-jira-ticket-automator/) | Verified Metadata | — | — | `clawhub install n8n-github-jira-ticket-automator` |
-| [navi Interactive CLI Cheatsheet Tool](../../skills/navi-interactive-cli-cheatsheet-tool/) | Verified Metadata | — | — | `clawhub install navi-interactive-cli-cheatsheet-tool` |
+| [Mastra TypeScript AI Agent Framework](../../skills/mastra-typescript-ai-agent-framework/) | Security Reviewed | — | — | `clawhub install mastra-typescript-ai-agent-framework` |
+| [n8n GitHub Issue-to-Jira Ticket Automator](../../skills/n8n-github-jira-ticket-automator/) | Security Reviewed | — | — | `clawhub install n8n-github-jira-ticket-automator` |
+| [navi Interactive CLI Cheatsheet Tool](../../skills/navi-interactive-cli-cheatsheet-tool/) | Security Reviewed | — | — | `clawhub install navi-interactive-cli-cheatsheet-tool` |
 | [Nix Flake Configuration Builder](../../skills/nix-flake-configuration-builder/) | Security Reviewed | — | — | `clawhub install nix-flake-configuration-builder` |
 | [NPM Package Auditor](../../skills/npm-package-auditor-registry-api/) | Security Reviewed | — | — | `clawhub install npm-package-auditor-registry-api` |
-| [Nushell Structured Data Shell](../../skills/nushell-structured-data-shell/) | Verified Metadata | — | — | `clawhub install nushell-structured-data-shell` |
-| [OpenCode Multi-Model AI Coding Agent CLI](../../skills/opencode-multi-model-ai-coding-agent-cli/) | Verified Metadata | — | — | `clawhub install opencode-multi-model-ai-coding-agent-cli` |
+| [Nushell Structured Data Shell](../../skills/nushell-structured-data-shell/) | Security Reviewed | — | — | `clawhub install nushell-structured-data-shell` |
+| [OpenCode Multi-Model AI Coding Agent CLI](../../skills/opencode-multi-model-ai-coding-agent-cli/) | Security Reviewed | — | — | `clawhub install opencode-multi-model-ai-coding-agent-cli` |
 | [Package Vulnerability Scanner](../../skills/package-vuln-scanner-osv-api/) | Security Reviewed | — | — | `clawhub install package-vuln-scanner-osv-api` |
-| [pgcli Interactive PostgreSQL Client with Autocompletion](../../skills/pgcli-interactive-postgresql-client/) | Verified Metadata | — | — | `clawhub install pgcli-interactive-postgresql-client` |
-| [pnpm Fast Disk-Efficient Package Manager](../../skills/pnpm-fast-disk-efficient-package-manager/) | Verified Metadata | — | — | `clawhub install pnpm-fast-disk-efficient-package-manager` |
-| [Posting Terminal API Client](../../skills/posting-terminal-api-client/) | Verified Metadata | — | — | `clawhub install posting-terminal-api-client` |
-| [procs Modern Process Viewer CLI](../../skills/procs-modern-process-viewer-cli/) | Verified Metadata | — | — | `clawhub install procs-modern-process-viewer-cli` |
-| [quicktype JSON Schema to Typed Code Generator](../../skills/quicktype-json-schema-code-generator/) | Verified Metadata | — | — | `clawhub install quicktype-json-schema-code-generator` |
+| [pgcli Interactive PostgreSQL Client with Autocompletion](../../skills/pgcli-interactive-postgresql-client/) | Security Reviewed | — | — | `clawhub install pgcli-interactive-postgresql-client` |
+| [pnpm Fast Disk-Efficient Package Manager](../../skills/pnpm-fast-disk-efficient-package-manager/) | Security Reviewed | — | — | `clawhub install pnpm-fast-disk-efficient-package-manager` |
+| [Posting Terminal API Client](../../skills/posting-terminal-api-client/) | Security Reviewed | — | — | `clawhub install posting-terminal-api-client` |
+| [procs Modern Process Viewer CLI](../../skills/procs-modern-process-viewer-cli/) | Security Reviewed | — | — | `clawhub install procs-modern-process-viewer-cli` |
+| [quicktype JSON Schema to Typed Code Generator](../../skills/quicktype-json-schema-code-generator/) | Security Reviewed | — | — | `clawhub install quicktype-json-schema-code-generator` |
 | [Repomix Codebase Context Packer for LLMs](../../skills/repomix-codebase-context-packer-llm/) | Security Reviewed | — | — | `clawhub install repomix-codebase-context-packer-llm` |
-| [Restic Fast Encrypted Backup Program](../../skills/restic-encrypted-backup-tool/) | Verified Metadata | — | — | `clawhub install restic-encrypted-backup-tool` |
+| [Restic Fast Encrypted Backup Program](../../skills/restic-encrypted-backup-tool/) | Security Reviewed | — | — | `clawhub install restic-encrypted-backup-tool` |
 | [ripgrep Recursive Regex Search Tool](../../skills/ripgrep-recursive-regex-search-tool/) | Security Reviewed | — | — | `clawhub install ripgrep-recursive-regex-search-tool` |
-| [Slidev Markdown Presentation Slides for Developers](../../skills/slidev-markdown-presentation-slides-developers/) | Verified Metadata | — | — | `clawhub install slidev-markdown-presentation-slides-developers` |
-| [sqlite-vec Vector Search Extension for SQLite](../../skills/sqlite-vec-vector-search-extension-sqlite/) | Verified Metadata | — | — | `clawhub install sqlite-vec-vector-search-extension-sqlite` |
-| [Starship Cross-Shell Prompt Configurator](../../skills/starship-cross-shell-prompt-configurator/) | Verified Metadata | — | — | `clawhub install starship-cross-shell-prompt-configurator` |
-| [Task Taskfile Build Automation Runner](../../skills/task-taskfile-build-automation-runner/) | Verified Metadata | — | — | `clawhub install task-taskfile-build-automation-runner` |
-| [Terraform MCP Server for Infrastructure as Code](../../skills/terraform-mcp-server-infrastructure-as-code/) | Verified Metadata | — | — | `clawhub install terraform-mcp-server-infrastructure-as-code` |
-| [Topgrade Universal System Package Updater](../../skills/topgrade-universal-system-package-updater/) | Verified Metadata | — | — | `clawhub install topgrade-universal-system-package-updater` |
-| [tRPC End-to-End Typesafe API Framework](../../skills/trpc-end-to-end-typesafe-api-framework/) | Verified Metadata | — | — | `clawhub install trpc-end-to-end-typesafe-api-framework` |
-| [VHS Terminal Session Recorder and GIF Generator](../../skills/vhs-terminal-session-recorder-gif-generator/) | Verified Metadata | — | — | `clawhub install vhs-terminal-session-recorder-gif-generator` |
-| [Volta JavaScript Toolchain Version Manager](../../skills/volta-javascript-toolchain-manager/) | Verified Metadata | — | — | `clawhub install volta-javascript-toolchain-manager` |
+| [Slidev Markdown Presentation Slides for Developers](../../skills/slidev-markdown-presentation-slides-developers/) | Security Reviewed | — | — | `clawhub install slidev-markdown-presentation-slides-developers` |
+| [sqlite-vec Vector Search Extension for SQLite](../../skills/sqlite-vec-vector-search-extension-sqlite/) | Security Reviewed | — | — | `clawhub install sqlite-vec-vector-search-extension-sqlite` |
+| [Starship Cross-Shell Prompt Configurator](../../skills/starship-cross-shell-prompt-configurator/) | Security Reviewed | — | — | `clawhub install starship-cross-shell-prompt-configurator` |
+| [Task Taskfile Build Automation Runner](../../skills/task-taskfile-build-automation-runner/) | Security Reviewed | — | — | `clawhub install task-taskfile-build-automation-runner` |
+| [Terraform MCP Server for Infrastructure as Code](../../skills/terraform-mcp-server-infrastructure-as-code/) | Security Reviewed | — | — | `clawhub install terraform-mcp-server-infrastructure-as-code` |
+| [Topgrade Universal System Package Updater](../../skills/topgrade-universal-system-package-updater/) | Security Reviewed | — | — | `clawhub install topgrade-universal-system-package-updater` |
+| [Trigger.dev TypeScript Background Jobs Platform](../../skills/trigger-dev-typescript-background-jobs-platform/) | Verified Metadata | — | — | `clawhub install trigger-dev-typescript-background-jobs-platform` |
+| [tRPC End-to-End Typesafe API Framework](../../skills/trpc-end-to-end-typesafe-api-framework/) | Security Reviewed | — | — | `clawhub install trpc-end-to-end-typesafe-api-framework` |
+| [VHS Terminal Session Recorder and GIF Generator](../../skills/vhs-terminal-session-recorder-gif-generator/) | Security Reviewed | — | — | `clawhub install vhs-terminal-session-recorder-gif-generator` |
+| [Volta JavaScript Toolchain Version Manager](../../skills/volta-javascript-toolchain-manager/) | Security Reviewed | — | — | `clawhub install volta-javascript-toolchain-manager` |
 | [VS Code Extension Debugger](../../skills/vscode-extension-debugger-dap-protocol/) | Security Reviewed | — | — | `clawhub install vscode-extension-debugger-dap-protocol` |
 | [WASM Component Model Linker](../../skills/wasm-component-model-linker/) | Security Reviewed | — | — | `clawhub install wasm-component-model-linker` |
-| [watchexec File Watcher and Command Re-Runner](../../skills/watchexec-file-watcher-command-rerunner/) | Verified Metadata | — | — | `clawhub install watchexec-file-watcher-command-rerunner` |
-| [Yazi Async Terminal File Manager](../../skills/yazi-async-terminal-file-manager/) | Verified Metadata | — | — | `clawhub install yazi-async-terminal-file-manager` |
-| [Zellij Terminal Workspace and Multiplexer](../../skills/zellij-terminal-workspace-multiplexer/) | Verified Metadata | — | — | `clawhub install zellij-terminal-workspace-multiplexer` |
-| [zoxide Smart Directory Navigation CLI](../../skills/zoxide-smart-directory-navigation-cli/) | Verified Metadata | — | — | `clawhub install zoxide-smart-directory-navigation-cli` |
-| [zx JavaScript Shell Script Runner](../../skills/zx-javascript-shell-script-runner/) | Verified Metadata | — | — | `clawhub install zx-javascript-shell-script-runner` |
+| [watchexec File Watcher and Command Re-Runner](../../skills/watchexec-file-watcher-command-rerunner/) | Security Reviewed | — | — | `clawhub install watchexec-file-watcher-command-rerunner` |
+| [Yazi Async Terminal File Manager](../../skills/yazi-async-terminal-file-manager/) | Security Reviewed | — | — | `clawhub install yazi-async-terminal-file-manager` |
+| [Zellij Terminal Workspace and Multiplexer](../../skills/zellij-terminal-workspace-multiplexer/) | Security Reviewed | — | — | `clawhub install zellij-terminal-workspace-multiplexer` |
+| [zoxide Smart Directory Navigation CLI](../../skills/zoxide-smart-directory-navigation-cli/) | Security Reviewed | — | — | `clawhub install zoxide-smart-directory-navigation-cli` |
+| [zx JavaScript Shell Script Runner](../../skills/zx-javascript-shell-script-runner/) | Security Reviewed | — | — | `clawhub install zx-javascript-shell-script-runner` |
 
 ---
 
@@ -220,7 +221,7 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (140 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
-- 🔄 [Data Extraction & Transformation](../data-extraction-transformation/) (99 skills)
+- 🔄 [Data Extraction & Transformation](../data-extraction-transformation/) (100 skills)
 - 🔒 [Security & Verification](../security-verification/) (96 skills)
 
 ---

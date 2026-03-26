@@ -10,7 +10,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 
 - **Top Starred:** 6 visible with GitHub signal data
 - **Top Downloaded:** 6 visible with npm signal data
-- **Security Reviewed:** 136 skills
+- **Security Reviewed:** 140 skills
 
 ---
 
@@ -65,7 +65,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Buildkite Pipeline Profiler](../../skills/buildkite-pipeline-profiler/) | Security Reviewed | 71.6k | — | `clawhub install buildkite-pipeline-profiler` |
 | [Docker Image Layer Inspector](../../skills/docker-image-layer-inspector/) | Security Reviewed | 71.6k | — | `clawhub install docker-image-layer-inspector` |
 | [Docker Image Layer Size Analyzer](../../skills/docker-image-layer-size-analyzer/) | Security Reviewed | 71.6k | — | `clawhub install docker-image-layer-size-analyzer` |
-| [Docker Image Vulnerability Triage](../../skills/docker-image-vulnerability-triage/) | Verified Metadata | 71.6k | — | `clawhub install docker-image-vulnerability-triage` |
+| [Docker Image Vulnerability Triage](../../skills/docker-image-vulnerability-triage/) | Security Reviewed | 71.6k | — | `clawhub install docker-image-vulnerability-triage` |
 | [Hugging Face Model Deployer](../../skills/huggingface-model-deployer/) | Security Reviewed | 71.6k | — | `clawhub install huggingface-model-deployer` |
 | [Terraform Cloud Orchestrator](../../skills/terraform-cloud-orchestrator-skill/) | Security Reviewed | 48k | — | `clawhub install terraform-cloud-orchestrator-skill` |
 | [Terraform Cloud Pipeline Agent](../../skills/terraform-cloud-pipeline-agent/) | Security Reviewed | 48k | — | `clawhub install terraform-cloud-pipeline-agent` |
@@ -182,7 +182,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [CircleCI Workflow Analyzer](../../skills/circleci-workflow-analyzer/) | Security Reviewed | 842 | — | `clawhub install circleci-workflow-analyzer` |
 | [CircleCI Workflow Builder](../../skills/circleci-workflow-builder/) | Security Reviewed | 842 | — | `clawhub install circleci-workflow-builder` |
 | [CircleCI Workflow Cost Auditor](../../skills/circleci-workflow-cost-auditor/) | Security Reviewed | 842 | — | `clawhub install circleci-workflow-cost-auditor` |
-| [act Local GitHub Actions Runner](../../skills/act-local-github-actions-runner/) | Verified Metadata | — | — | `clawhub install act-local-github-actions-runner` |
+| [act Local GitHub Actions Runner](../../skills/act-local-github-actions-runner/) | Security Reviewed | — | — | `clawhub install act-local-github-actions-runner` |
 | [GitHub Actions CI Builder](../../skills/github-actions-ci-builder/) | Security Reviewed | — | — | `clawhub install github-actions-ci-builder` |
 | [GitHub Actions CI Pipeline Builder](../../skills/github-actions-ci-pipeline-builder/) | Security Reviewed | — | — | `clawhub install github-actions-ci-pipeline-builder` |
 | [GitHub Actions Matrix Build Optimizer](../../skills/github-actions-matrix-build-optimizer/) | Security Reviewed | — | — | `clawhub install github-actions-matrix-build-optimizer` |
@@ -194,8 +194,8 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [GitHub Actions Workflow Generator](../../skills/github-actions-workflow-generator-3/) | Security Reviewed | — | — | `clawhub install github-actions-workflow-generator-3` |
 | [GitHub Actions Workflow Linter](../../skills/github-actions-workflow-linter-2/) | Security Reviewed | — | — | `clawhub install github-actions-workflow-linter-2` |
 | [GitHub Actions Workflow Optimizer](../../skills/github-actions-workflow-optimizer/) | Security Reviewed | — | — | `clawhub install github-actions-workflow-optimizer` |
-| [GoReleaser Cross-Platform Release Automation](../../skills/goreleaser-cross-platform-release-automation/) | Verified Metadata | — | — | `clawhub install goreleaser-cross-platform-release-automation` |
-| [Harden-Runner CI/CD Security Agent for GitHub Actions](../../skills/harden-runner-cicd-security-agent-github-actions/) | Verified Metadata | — | — | `clawhub install harden-runner-cicd-security-agent-github-actions` |
+| [GoReleaser Cross-Platform Release Automation](../../skills/goreleaser-cross-platform-release-automation/) | Security Reviewed | — | — | `clawhub install goreleaser-cross-platform-release-automation` |
+| [Harden-Runner CI/CD Security Agent for GitHub Actions](../../skills/harden-runner-cicd-security-agent-github-actions/) | Security Reviewed | — | — | `clawhub install harden-runner-cicd-security-agent-github-actions` |
 | [npm Audit Dependency Report Generator](../../skills/npm-audit-dependency-report-generator/) | Security Reviewed | — | — | `clawhub install npm-audit-dependency-report-generator` |
 
 ---
@@ -219,9 +219,9 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 ## Related Categories
 
-- 🛠️ [Developer Tools](../developer-tools/) (139 skills)
+- 🛠️ [Developer Tools](../developer-tools/) (140 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
-- 🔄 [Data Extraction & Transformation](../data-extraction-transformation/) (99 skills)
+- 🔄 [Data Extraction & Transformation](../data-extraction-transformation/) (100 skills)
 - 🔒 [Security & Verification](../security-verification/) (96 skills)
 
 ---

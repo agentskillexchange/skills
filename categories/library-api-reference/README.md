@@ -1,6 +1,6 @@
 # 📚 Library & API Reference
 
-> **90 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference)
+> **91 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference)
 
 SDK documentation, API guides, framework reference material, and library usage patterns.
 
@@ -10,7 +10,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 
 - **Top Starred:** 6 visible with GitHub signal data
 - **Top Downloaded:** 6 visible with npm signal data
-- **Security Reviewed:** 86 skills
+- **Security Reviewed:** 90 skills
 
 ---
 
@@ -97,7 +97,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [REST API Test Suite Generator](../../skills/rest-api-test-suite-generator/) | Security Reviewed | 6k | — | `clawhub install rest-api-test-suite-generator` |
 | [NPM Package Explorer](../../skills/npm-package-explorer-registry-api/) | Security Reviewed | 5.5k | 601.7k/wk | `clawhub install npm-package-explorer-registry-api` |
 | [Buf Protobuf Linter](../../skills/buf-protobuf-linter/) | Security Reviewed | 4.8k | 30.9M/wk | `clawhub install buf-protobuf-linter` |
-| [gRPC Service Tool](../../skills/grpc-service-tool/) | Verified Metadata | 4.8k | 30.9M/wk | `clawhub install grpc-service-tool` |
+| [gRPC Service Tool](../../skills/grpc-service-tool/) | Security Reviewed | 4.8k | 30.9M/wk | `clawhub install grpc-service-tool` |
 | [Protobuf &#038; gRPC Stub Generator](../../skills/protobuf-grpc-stub-generator/) | Security Reviewed | 4.8k | 30.9M/wk | `clawhub install protobuf-grpc-stub-generator` |
 | [Protobuf Documentation Generator](../../skills/protobuf-documentation-generator/) | Security Reviewed | 4.8k | 30.9M/wk | `clawhub install protobuf-documentation-generator` |
 | [Protobuf Schema Registry Manager](../../skills/protobuf-schema-registry-manager/) | Security Reviewed | 4.8k | 30.9M/wk | `clawhub install protobuf-schema-registry-manager` |
@@ -105,12 +105,12 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Stripe API Reference Navigator](../../skills/stripe-api-reference-navigator/) | Security Reviewed | 4.4k | 8.4M/wk | `clawhub install stripe-api-reference-navigator` |
 | [AsyncAPI Event Catalog Builder](../../skills/asyncapi-event-catalog-builder/) | Security Reviewed | 4k | 2.4M/wk | `clawhub install asyncapi-event-catalog-builder` |
 | [AsyncAPI Event Catalog Generator](../../skills/asyncapi-event-catalog-generator/) | Security Reviewed | 4k | 2.4M/wk | `clawhub install asyncapi-event-catalog-generator` |
-| [Anthropic SDK Token Usage Logger](../../skills/anthropic-sdk-token-usage-logger/) | Verified Metadata | 3.6k | 9.2M/wk | `clawhub install anthropic-sdk-token-usage-logger` |
+| [Anthropic SDK Token Usage Logger](../../skills/anthropic-sdk-token-usage-logger/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install anthropic-sdk-token-usage-logger` |
 | [AWS SDK Method Resolver](../../skills/aws-sdk-method-resolver/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-sdk-method-resolver` |
 | [OpenTelemetry Trace Context Propagator](../../skills/opentelemetry-trace-context-propagator/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install opentelemetry-trace-context-propagator` |
 | [REST API Changelog Tracker](../../skills/rest-api-changelog-tracker/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install rest-api-changelog-tracker` |
 | [Plaid Financial Data Aggregator &amp; Budget Classifier](../../skills/plaid-financial-data-aggregator/) | Security Reviewed | — | 21.4M/wk | `clawhub install plaid-financial-data-aggregator` |
-| [Context7 MCP Documentation Server for LLM Code Editors](../../skills/context7-mcp-documentation-server-llm-code-editors/) | Verified Metadata | — | — | `clawhub install context7-mcp-documentation-server-llm-code-editors` |
+| [Context7 MCP Documentation Server for LLM Code Editors](../../skills/context7-mcp-documentation-server-llm-code-editors/) | Security Reviewed | — | — | `clawhub install context7-mcp-documentation-server-llm-code-editors` |
 | [Doxygen Cross-Reference Indexer](../../skills/doxygen-cross-reference-indexer/) | Security Reviewed | — | — | `clawhub install doxygen-cross-reference-indexer` |
 | [GitHub REST API Paginator Library](../../skills/github-rest-api-paginator-library/) | Security Reviewed | — | — | `clawhub install github-rest-api-paginator-library` |
 | [JSDoc Type Definition Extractor](../../skills/jsdoc-type-definition-extractor/) | Security Reviewed | — | — | `clawhub install jsdoc-type-definition-extractor` |
@@ -127,7 +127,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [NPM Package Vulnerability Scanner](../../skills/npm-package-vulnerability-scanner/) | Security Reviewed | — | — | `clawhub install npm-package-vulnerability-scanner` |
 | [npm Registry Analyzer](../../skills/npm-registry-analyzer/) | Security Reviewed | — | — | `clawhub install npm-registry-analyzer` |
 | [npm Registry Explorer](../../skills/npm-registry-explorer/) | Security Reviewed | — | — | `clawhub install npm-registry-explorer` |
-| [OpenAPI SDK Generator Pipeline](../../skills/openapi-sdk-generator-pipeline/) | Verified Metadata | — | — | `clawhub install openapi-sdk-generator-pipeline` |
+| [OpenAPI SDK Generator Pipeline](../../skills/openapi-sdk-generator-pipeline/) | Security Reviewed | — | — | `clawhub install openapi-sdk-generator-pipeline` |
 | [OpenAPI Spec Validator &#038; Linter](../../skills/openapi-spec-validator-linter-2/) | Security Reviewed | — | — | `clawhub install openapi-spec-validator-linter-2` |
 | [PyPI Package Inspector](../../skills/pypi-package-inspector/) | Security Reviewed | — | — | `clawhub install pypi-package-inspector` |
 | [Python Dependency Graph Resolver](../../skills/python-dependency-graph-resolver/) | Security Reviewed | — | — | `clawhub install python-dependency-graph-resolver` |
@@ -139,6 +139,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Python Package Docs Fetcher](../../skills/python-package-docs-fetcher/) | Security Reviewed | — | — | `clawhub install python-package-docs-fetcher` |
 | [Python PyPI Dependency Resolver](../../skills/python-pypi-dependency-resolver/) | Security Reviewed | — | — | `clawhub install python-pypi-dependency-resolver` |
 | [Python PyPI Package Reference Indexer](../../skills/python-pypi-package-reference-indexer/) | Security Reviewed | — | — | `clawhub install python-pypi-package-reference-indexer` |
+| [Redoc OpenAPI Documentation Renderer](../../skills/redoc-openapi-documentation-renderer/) | Verified Metadata | — | — | `clawhub install redoc-openapi-documentation-renderer` |
 | [REST API Response Schema Validator](../../skills/rest-api-response-schema-validator/) | Security Reviewed | — | — | `clawhub install rest-api-response-schema-validator` |
 | [Rust Crate Analyzer](../../skills/rust-crate-analyzer/) | Security Reviewed | — | — | `clawhub install rust-crate-analyzer` |
 | [Rust Crate Docs Scanner](../../skills/rust-crate-docs-scanner/) | Security Reviewed | — | — | `clawhub install rust-crate-docs-scanner` |
@@ -170,9 +171,9 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 ## Related Categories
 
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (140 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (139 skills)
+- 🛠️ [Developer Tools](../developer-tools/) (140 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
-- 🔄 [Data Extraction & Transformation](../data-extraction-transformation/) (99 skills)
+- 🔄 [Data Extraction & Transformation](../data-extraction-transformation/) (100 skills)
 
 ---
 

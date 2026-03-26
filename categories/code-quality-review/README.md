@@ -1,6 +1,6 @@
 # ✅ Code Quality & Review
 
-> **88 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review)
+> **89 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review)
 
 Linting rules, review checklists, code standards enforcement, and quality gates.
 
@@ -10,7 +10,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 
 - **Top Starred:** 6 visible with GitHub signal data
 - **Top Downloaded:** 6 visible with npm signal data
-- **Security Reviewed:** 78 skills
+- **Security Reviewed:** 88 skills
 
 ---
 
@@ -93,8 +93,8 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [PHPStan Static Analyzer Agent](../../skills/phpstan-static-analyzer-agent/) | Security Reviewed | 21k | — | `clawhub install phpstan-static-analyzer-agent` |
 | [Prettier Format Enforcement Bot](../../skills/prettier-format-enforcement-bot/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install prettier-format-enforcement-bot` |
 | [Pull Request Size Analyzer](../../skills/pull-request-size-analyzer-agent/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install pull-request-size-analyzer-agent` |
-| [Semgrep Code Pattern Scanner](../../skills/semgrep-code-pattern-scanner-2/) | Verified Metadata | 14.6k | — | `clawhub install semgrep-code-pattern-scanner-2` |
-| [Semgrep Code Scanner](../../skills/semgrep-code-scanner/) | Verified Metadata | 14.6k | — | `clawhub install semgrep-code-scanner` |
+| [Semgrep Code Pattern Scanner](../../skills/semgrep-code-pattern-scanner-2/) | Security Reviewed | 14.6k | — | `clawhub install semgrep-code-pattern-scanner-2` |
+| [Semgrep Code Scanner](../../skills/semgrep-code-scanner/) | Security Reviewed | 14.6k | — | `clawhub install semgrep-code-scanner` |
 | [Semgrep Custom Pattern Builder](../../skills/semgrep-custom-pattern-builder/) | Security Reviewed | 14.6k | — | `clawhub install semgrep-custom-pattern-builder` |
 | [Semgrep Custom Pattern Generator](../../skills/semgrep-custom-pattern-generator/) | Security Reviewed | 14.6k | — | `clawhub install semgrep-custom-pattern-generator` |
 | [Semgrep Custom Pattern Library](../../skills/semgrep-custom-pattern-library/) | Security Reviewed | 14.6k | — | `clawhub install semgrep-custom-pattern-library` |
@@ -119,7 +119,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [SonarQube Quality Gate Agent](../../skills/sonarqube-quality-gate-agent/) | Security Reviewed | 10.4k | — | `clawhub install sonarqube-quality-gate-agent` |
 | [SonarQube Quality Gate Checker](../../skills/sonarqube-quality-gate-checker/) | Security Reviewed | 10.4k | — | `clawhub install sonarqube-quality-gate-checker` |
 | [SonarQube Quality Gate Enforcer](../../skills/sonarqube-quality-gate-enforcer-14/) | Security Reviewed | 10.4k | — | `clawhub install sonarqube-quality-gate-enforcer-14` |
-| [SonarQube Quality Gate Explainer](../../skills/sonarqube-quality-gate-explainer/) | Verified Metadata | 10.4k | — | `clawhub install sonarqube-quality-gate-explainer` |
+| [SonarQube Quality Gate Explainer](../../skills/sonarqube-quality-gate-explainer/) | Security Reviewed | 10.4k | — | `clawhub install sonarqube-quality-gate-explainer` |
 | [SonarQube Quality Gate Monitor](../../skills/sonarqube-quality-gate-monitor-3/) | Security Reviewed | 10.4k | — | `clawhub install sonarqube-quality-gate-monitor-3` |
 | [SonarQube Rule Enforcement Agent](../../skills/sonarqube-rule-enforcement-agent/) | Security Reviewed | 10.4k | — | `clawhub install sonarqube-rule-enforcement-agent` |
 | [SonarQube Scanner Skill](../../skills/sonarqube-scanner-skill/) | Security Reviewed | 10.4k | — | `clawhub install sonarqube-scanner-skill` |
@@ -130,9 +130,9 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Codecov Coverage Diff Analyzer](../../skills/codecov-coverage-diff-analyzer-2/) | Security Reviewed | — | — | `clawhub install codecov-coverage-diff-analyzer-2` |
 | [Codecov Coverage Tracker](../../skills/codecov-coverage-tracker-skill/) | Security Reviewed | — | — | `clawhub install codecov-coverage-tracker-skill` |
 | [Codecov Coverage Tracker Agent](../../skills/codecov-coverage-tracker-agent/) | Security Reviewed | — | — | `clawhub install codecov-coverage-tracker-agent` |
-| [commitlint Conventional Commit Message Linter](../../skills/commitlint-conventional-commit-message-linter/) | Verified Metadata | — | — | `clawhub install commitlint-conventional-commit-message-linter` |
+| [commitlint Conventional Commit Message Linter](../../skills/commitlint-conventional-commit-message-linter/) | Security Reviewed | — | — | `clawhub install commitlint-conventional-commit-message-linter` |
 | [Complexity Trend Tracker](../../skills/complexity-trend-tracker-agent/) | Security Reviewed | — | — | `clawhub install complexity-trend-tracker-agent` |
-| [Difftastic Structural Syntax-Aware Diff Tool](../../skills/difftastic-structural-syntax-diff/) | Verified Metadata | — | — | `clawhub install difftastic-structural-syntax-diff` |
+| [Difftastic Structural Syntax-Aware Diff Tool](../../skills/difftastic-structural-syntax-diff/) | Security Reviewed | — | — | `clawhub install difftastic-structural-syntax-diff` |
 | [Prettier Config Harmonizer](../../skills/prettier-config-harmonizer-2/) | Security Reviewed | — | — | `clawhub install prettier-config-harmonizer-2` |
 | [Pylint Baseline Manager](../../skills/pylint-baseline-manager-wave48/) | Security Reviewed | — | — | `clawhub install pylint-baseline-manager-wave48` |
 | [Pylint Code Review Assistant](../../skills/pylint-code-review-assistant/) | Security Reviewed | — | — | `clawhub install pylint-code-review-assistant` |
@@ -140,11 +140,12 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Ruff Linter and Formatter](../../skills/ruff-linter-formatter-agent/) | Security Reviewed | — | — | `clawhub install ruff-linter-formatter-agent` |
 | [Ruff Linter Configuration Architect](../../skills/ruff-linter-configuration-architect/) | Security Reviewed | — | — | `clawhub install ruff-linter-configuration-architect` |
 | [Ruff Python Linter Configurator](../../skills/ruff-python-linter-configurator/) | Security Reviewed | — | — | `clawhub install ruff-python-linter-configurator` |
-| [sqruff High-Performance SQL Linter and Formatter](../../skills/sqruff-sql-linter-formatter/) | Verified Metadata | — | — | `clawhub install sqruff-sql-linter-formatter` |
-| [tokei Code Statistics Counter](../../skills/tokei-code-statistics-counter/) | Verified Metadata | — | — | `clawhub install tokei-code-statistics-counter` |
-| [ty Ultra-Fast Python Type Checker and Language Server](../../skills/ty-python-type-checker/) | Verified Metadata | — | — | `clawhub install ty-python-type-checker` |
-| [typos Source Code Spell Checker](../../skills/typos-source-code-spell-checker/) | Verified Metadata | — | — | `clawhub install typos-source-code-spell-checker` |
-| [Vale Prose Linter for Technical Documentation](../../skills/vale-prose-linter-technical-docs/) | Verified Metadata | — | — | `clawhub install vale-prose-linter-technical-docs` |
+| [Spectral OpenAPI and AsyncAPI Linter](../../skills/spectral-openapi-asyncapi-linter/) | Verified Metadata | — | — | `clawhub install spectral-openapi-asyncapi-linter` |
+| [sqruff High-Performance SQL Linter and Formatter](../../skills/sqruff-sql-linter-formatter/) | Security Reviewed | — | — | `clawhub install sqruff-sql-linter-formatter` |
+| [tokei Code Statistics Counter](../../skills/tokei-code-statistics-counter/) | Security Reviewed | — | — | `clawhub install tokei-code-statistics-counter` |
+| [ty Ultra-Fast Python Type Checker and Language Server](../../skills/ty-python-type-checker/) | Security Reviewed | — | — | `clawhub install ty-python-type-checker` |
+| [typos Source Code Spell Checker](../../skills/typos-source-code-spell-checker/) | Security Reviewed | — | — | `clawhub install typos-source-code-spell-checker` |
+| [Vale Prose Linter for Technical Documentation](../../skills/vale-prose-linter-technical-docs/) | Security Reviewed | — | — | `clawhub install vale-prose-linter-technical-docs` |
 
 ---
 
@@ -168,9 +169,9 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 ## Related Categories
 
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (140 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (139 skills)
+- 🛠️ [Developer Tools](../developer-tools/) (140 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
-- 🔄 [Data Extraction & Transformation](../data-extraction-transformation/) (99 skills)
+- 🔄 [Data Extraction & Transformation](../data-extraction-transformation/) (100 skills)
 
 ---
 

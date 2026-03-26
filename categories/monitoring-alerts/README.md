@@ -10,7 +10,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 
 - **Top Starred:** 6 visible with GitHub signal data
 - **Top Downloaded:** 6 visible with npm signal data
-- **Security Reviewed:** 76 skills
+- **Security Reviewed:** 79 skills
 
 ---
 
@@ -70,7 +70,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Grafana Dashboard JSON Assembler](../../skills/grafana-dashboard-json-assembler/) | Security Reviewed | 72.8k | — | `clawhub install grafana-dashboard-json-assembler` |
 | [Grafana Dashboard JSON Migrator](../../skills/grafana-dashboard-json-migrator/) | Security Reviewed | 72.8k | — | `clawhub install grafana-dashboard-json-migrator` |
 | [Grafana Dashboard Scaffolder](../../skills/grafana-dashboard-scaffolder/) | Security Reviewed | 72.8k | — | `clawhub install grafana-dashboard-scaffolder` |
-| [Grafana Dashboard Snapshot Exporter](../../skills/grafana-dashboard-snapshot-exporter/) | Verified Metadata | 72.8k | — | `clawhub install grafana-dashboard-snapshot-exporter` |
+| [Grafana Dashboard Snapshot Exporter](../../skills/grafana-dashboard-snapshot-exporter/) | Security Reviewed | 72.8k | — | `clawhub install grafana-dashboard-snapshot-exporter` |
 | [Grafana Dashboard Sync Agent](../../skills/grafana-dashboard-sync-agent/) | Security Reviewed | 72.8k | — | `clawhub install grafana-dashboard-sync-agent` |
 | [Grafana Dashboard Template Generator](../../skills/grafana-dashboard-template-generator/) | Security Reviewed | 72.8k | — | `clawhub install grafana-dashboard-template-generator` |
 | [Grafana Loki Log Aggregation Agent](../../skills/grafana-loki-log-aggregation-agent/) | Security Reviewed | 72.8k | — | `clawhub install grafana-loki-log-aggregation-agent` |
@@ -134,8 +134,8 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [PagerDuty MCP Server](../../skills/pagerduty-mcp-server/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install pagerduty-mcp-server` |
 | [Uptime Robot Multi-Check Coordinator](../../skills/uptime-robot-multi-check-coordinator/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install uptime-robot-multi-check-coordinator` |
 | [OpsGenie MCP Server](../../skills/opsgenie-mcp-server/) | Security Reviewed | 24 | 9.1k/wk | `clawhub install opsgenie-mcp-server` |
-| [Grafana Alloy OpenTelemetry Collector Distribution](../../skills/grafana-alloy-opentelemetry-collector/) | Verified Metadata | — | — | `clawhub install grafana-alloy-opentelemetry-collector` |
-| [Sentry MCP Server for Error Tracking and Performance](../../skills/sentry-mcp-server-error-tracking-performance/) | Verified Metadata | — | — | `clawhub install sentry-mcp-server-error-tracking-performance` |
+| [Grafana Alloy OpenTelemetry Collector Distribution](../../skills/grafana-alloy-opentelemetry-collector/) | Security Reviewed | — | — | `clawhub install grafana-alloy-opentelemetry-collector` |
+| [Sentry MCP Server for Error Tracking and Performance](../../skills/sentry-mcp-server-error-tracking-performance/) | Security Reviewed | — | — | `clawhub install sentry-mcp-server-error-tracking-performance` |
 
 ---
 
@@ -159,9 +159,9 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 ## Related Categories
 
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (140 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (139 skills)
+- 🛠️ [Developer Tools](../developer-tools/) (140 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
-- 🔄 [Data Extraction & Transformation](../data-extraction-transformation/) (99 skills)
+- 🔄 [Data Extraction & Transformation](../data-extraction-transformation/) (100 skills)
 
 ---
 
