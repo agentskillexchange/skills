@@ -2,15 +2,15 @@
 
 Categories are the **top-level map** of the catalog. For live sorting by stars, downloads, and verification, jump into ASE Browse from any category.
 
-> **1233 skills** across **20 categories**
+> **1239 skills** across **20 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
 | 🔧 | [**CI/CD Integrations**](ci-cd-integrations/) | **140** | Pipeline configs, deployment automation, build tooling, and continuou... |
-| 🛠️ | [**Developer Tools**](developer-tools/) | **119** | CLI helpers, dev environment setup, productivity utilities, and devel... |
+| 🛠️ | [**Developer Tools**](developer-tools/) | **120** | CLI helpers, dev environment setup, productivity utilities, and devel... |
 | 📋 | [**Runbooks & Diagnostics**](runbooks-diagnostics/) | **113** | Incident response, troubleshooting guides, system diagnostics, and op... |
+| 🔄 | [**Data Extraction & Transformation**](data-extraction-transformation/) | **97** | Parsing, ETL pipelines, format conversion, data wrangling, and transf... |
 | 🔒 | [**Security & Verification**](security-verification/) | **94** | Auth setup, vulnerability scanning, compliance checks, and security a... |
-| 🔄 | [**Data Extraction & Transformation**](data-extraction-transformation/) | **92** | Parsing, ETL pipelines, format conversion, data wrangling, and transf... |
 | 📚 | [**Library & API Reference**](library-api-reference/) | **90** | SDK documentation, API guides, framework reference material, and libr... |
 | ✅ | [**Code Quality & Review**](code-quality-review/) | **84** | Linting rules, review checklists, code standards enforcement, and qua... |
 | 📊 | [**Monitoring & Alerts**](monitoring-alerts/) | **79** | Metrics collection, alerting rules, observability setup, and system m... |

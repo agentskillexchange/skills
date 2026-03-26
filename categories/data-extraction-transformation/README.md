@@ -1,6 +1,6 @@
 # 🔄 Data Extraction & Transformation
 
-> **92 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation)
+> **97 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation)
 
 Parsing, ETL pipelines, format conversion, data wrangling, and transformation utilities.
 
@@ -130,16 +130,21 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Apache Tika Document Parser Agent](../../skills/apache-tika-document-parser-agent/) | Security Reviewed | — | — | `clawhub install apache-tika-document-parser-agent` |
 | [Camelot PDF Stream Parser](../../skills/camelot-pdf-stream-parser/) | Security Reviewed | — | — | `clawhub install camelot-pdf-stream-parser` |
 | [CSV Schema Validator &#038; Auto-Fixer](../../skills/csv-schema-validator-auto-fixer/) | Security Reviewed | — | — | `clawhub install csv-schema-validator-auto-fixer` |
+| [csvkit Python CSV Utility Suite](../../skills/csvkit-python-csv-utility-suite/) | Verified Metadata | — | — | `clawhub install csvkit-python-csv-utility-suite` |
 | [Dasel Multi-Format Data Selector and Modifier](../../skills/dasel-multi-format-data-selector-modifier/) | Security Reviewed | — | — | `clawhub install dasel-multi-format-data-selector-modifier` |
+| [Datasette Data Exploration and Publishing Tool](../../skills/datasette-data-exploration-publishing-tool/) | Verified Metadata | — | — | `clawhub install datasette-data-exploration-publishing-tool` |
 | [dlt Python Data Load Tool](../../skills/dlt-python-data-load-tool/) | Verified Metadata | — | — | `clawhub install dlt-python-data-load-tool` |
 | [Documind AI-Powered Structured Data Extraction from Documents](../../skills/documind-ai-structured-data-extraction/) | Verified Metadata | — | — | `clawhub install documind-ai-structured-data-extraction` |
 | [Evidence BI-as-Code SQL and Markdown Analytics Framework](../../skills/evidence-bi-as-code-sql-markdown-analytics/) | Verified Metadata | — | — | `clawhub install evidence-bi-as-code-sql-markdown-analytics` |
+| [fx Terminal JSON Viewer and Processor](../../skills/fx-terminal-json-viewer-processor/) | Verified Metadata | — | — | `clawhub install fx-terminal-json-viewer-processor` |
+| [gron Greppable JSON Flattener](../../skills/gron-greppable-json-flattener/) | Verified Metadata | — | — | `clawhub install gron-greppable-json-flattener` |
 | [Instructor Structured Data Extraction from LLMs](../../skills/instructor-structured-data-extraction-llms/) | Verified Metadata | — | — | `clawhub install instructor-structured-data-extraction-llms` |
 | [jq Pipeline Builder Agent](../../skills/jq-pipeline-builder-agent/) | Security Reviewed | — | — | `clawhub install jq-pipeline-builder-agent` |
 | [Marker PDF-to-Markdown Converter](../../skills/marker-pdf-to-markdown-converter/) | Security Reviewed | — | — | `clawhub install marker-pdf-to-markdown-converter` |
 | [MinerU PDF-to-Markdown Document Parser](../../skills/mineru-pdf-to-markdown-document-parser/) | Verified Metadata | — | — | `clawhub install mineru-pdf-to-markdown-document-parser` |
 | [Polars Blazing-Fast DataFrame Query Engine](../../skills/polars-dataframe-query-engine/) | Verified Metadata | — | — | `clawhub install polars-dataframe-query-engine` |
 | [qsv Blazing-Fast CSV Data Wrangling Toolkit](../../skills/qsv-blazing-fast-csv-data-wrangling-toolkit/) | Verified Metadata | — | — | `clawhub install qsv-blazing-fast-csv-data-wrangling-toolkit` |
+| [Redpanda Connect Declarative Stream Processor](../../skills/redpanda-connect-declarative-stream-processor/) | Verified Metadata | — | — | `clawhub install redpanda-connect-declarative-stream-processor` |
 | [Snowflake MCP](../../skills/snowflake-mcp/) | Security Reviewed | — | — | `clawhub install snowflake-mcp` |
 | [Snowflake MCP Server](../../skills/snowflake-mcp-server/) | Security Reviewed | — | — | `clawhub install snowflake-mcp-server` |
 | [Snowflake Query History Extractor](../../skills/snowflake-query-history-extractor/) | Security Reviewed | — | — | `clawhub install snowflake-query-history-extractor` |
@@ -172,7 +177,7 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 ## Related Categories
 
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (140 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (119 skills)
+- 🛠️ [Developer Tools](../developer-tools/) (120 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
 - 🔒 [Security & Verification](../security-verification/) (94 skills)
 
