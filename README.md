@@ -50,7 +50,7 @@ A hand-picked selection across categories. See [TOP-STARS.md](TOP-STARS.md) and 
 |-------|------|--------:|----------|
 | [Supabase MCP Server](skills/supabase-mcp-server/) | supabase | 99.5k | Developer Tools |
 | [Whisper Subtitle Generator](skills/whisper-subtitle-generator/) | whisper | 96.6k | Media & Transcription |
-| [Playwright Multi-Tab Session Manager](skills/playwright-multi-tab-session-manager/) | playwright | 84.9k | Browser Automation |
+| [Playwright MCP Browser Automation](skills/playwright-mcp-browser-automation/) | playwright | 84.9k | Browser Automation |
 | [Grafana OnCall Escalation Chain Manager](skills/grafana-oncall-escalation-chain-manager/) | grafana | 72.8k | Monitoring & Alerts |
 | [Ansible Playbook Dry-Run Validator](skills/ansible-playbook-dryrun-validator-agent/) | ansible | 68.4k | Runbooks & Diagnostics |
 | [Scrapy Spider Architect](skills/scrapy-spider-architect/) | scrapy | 60.9k | Research & Scraping |
