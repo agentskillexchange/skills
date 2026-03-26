@@ -1,0 +1,43 @@
+---
+name: "Volta JavaScript Toolchain Version Manager"
+description: "Volta is a JavaScript toolchain manager written in Rust that pins Node.js, npm, and yarn versions per project. It provides fast, seamless tool switching without shims or shell hooks, ensuring every team member runs the exact same tool versions."
+category: "Developer Tools"
+framework: "Custom Agents"
+verification: listed
+source: "https://agentskillexchange.com/skills/volta-javascript-toolchain-manager/"
+---
+
+# Volta JavaScript Toolchain Version Manager
+
+Volta is a JavaScript toolchain manager written in Rust that pins Node.js, npm, and yarn versions per project. It provides fast, seamless tool switching without shims or shell hooks, ensuring every team member runs the exact same tool versions.
+
+## Installation
+
+### Claude Code
+```bash
+npx skills add volta-javascript-toolchain-manager
+```
+
+### Cursor
+```bash
+npx skills add volta-javascript-toolchain-manager
+```
+
+### Codex
+```bash
+npx skills add volta-javascript-toolchain-manager
+```
+
+### OpenClaw
+```bash
+clawhub install volta-javascript-toolchain-manager
+```
+
+### Any Agent
+```bash
+npx skills add volta-javascript-toolchain-manager
+```
+
+## Source
+
+[View on Agent Skill Exchange](https://agentskillexchange.com/skills/volta-javascript-toolchain-manager/)
