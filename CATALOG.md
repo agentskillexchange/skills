@@ -1,24 +1,8 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1274 skills** across **20 categories** · Updated 2026-03-26 06:14 UTC
+> **1280 published skills** across **20 categories** · 1271 security reviewed · Updated 2026-03-26 07:03 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
-
----
-
-## Summary
-
-| Metric | Value |
-|--------|-------|
-| Total Skills | **1274** |
-| Categories | **20** |
-| Frameworks | **20** |
-| Skills with live signal data | **915** |
-| Security Reviewed | **1138** |
-| Verified Metadata | **136** |
-| Listed | **0** |
-
-> These verification counts are **final-state buckets**, not cumulative stages.
 
 ---
 
@@ -28,1435 +12,1441 @@
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&sort=downloads)
 
-| Skill | Tier | GitHub Stars | npm Downloads | Install |
-|---|---|---:|---:|---|
-| [Argo Workflows Deployer](skills/argo-workflows-deployer/) | Security Reviewed | 121.3k | — | `clawhub install argo-workflows-deployer` |
-| [Argo Workflows Linter](skills/argo-workflows-linter/) | Security Reviewed | 121.3k | — | `clawhub install argo-workflows-linter` |
-| [Buildkite Agent Fleet Scaler](skills/buildkite-agent-fleet-scaler/) | Security Reviewed | 121.3k | — | `clawhub install buildkite-agent-fleet-scaler` |
-| [Playwright Test Report to Slack](skills/playwright-test-report-to-slack/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-test-report-to-slack` |
-| [Buildkite Dynamic Pipeline Architect](skills/buildkite-dynamic-pipeline-architect/) | Security Reviewed | 71.6k | — | `clawhub install buildkite-dynamic-pipeline-architect` |
-| [Buildkite Pipeline Profiler](skills/buildkite-pipeline-profiler/) | Security Reviewed | 71.6k | — | `clawhub install buildkite-pipeline-profiler` |
-| [Docker Image Layer Inspector](skills/docker-image-layer-inspector/) | Security Reviewed | 71.6k | — | `clawhub install docker-image-layer-inspector` |
-| [Docker Image Layer Size Analyzer](skills/docker-image-layer-size-analyzer/) | Security Reviewed | 71.6k | — | `clawhub install docker-image-layer-size-analyzer` |
-| [Docker Image Vulnerability Triage](skills/docker-image-vulnerability-triage/) | Verified Metadata | 71.6k | — | `clawhub install docker-image-vulnerability-triage` |
-| [Hugging Face Model Deployer](skills/huggingface-model-deployer/) | Security Reviewed | 71.6k | — | `clawhub install huggingface-model-deployer` |
-| [Terraform Cloud Orchestrator](skills/terraform-cloud-orchestrator-skill/) | Security Reviewed | 48k | — | `clawhub install terraform-cloud-orchestrator-skill` |
-| [Terraform Cloud Pipeline Agent](skills/terraform-cloud-pipeline-agent/) | Security Reviewed | 48k | — | `clawhub install terraform-cloud-pipeline-agent` |
-| [Terraform Cloud Run Trigger](skills/terraform-cloud-run-trigger/) | Security Reviewed | 48k | — | `clawhub install terraform-cloud-run-trigger` |
-| [Terraform Drift Detector](skills/terraform-drift-detector-2/) | Security Reviewed | 48k | — | `clawhub install terraform-drift-detector-2` |
-| [Terraform Plan &amp; Apply Automation](skills/terraform-plan-apply-automation/) | Security Reviewed | 48k | — | `clawhub install terraform-plan-apply-automation` |
-| [Terraform Plan Analyzer](skills/terraform-plan-analyzer-agent/) | Security Reviewed | 48k | — | `clawhub install terraform-plan-analyzer-agent` |
-| [Terraform Plan Diff Analyzer](skills/terraform-plan-diff-analyzer/) | Security Reviewed | 48k | — | `clawhub install terraform-plan-diff-analyzer` |
-| [Terraform Plan Reviewer](skills/terraform-plan-reviewer-4/) | Security Reviewed | 48k | — | `clawhub install terraform-plan-reviewer-4` |
-| [Terraform Plan Reviewer Agent](skills/terraform-plan-reviewer-agent/) | Security Reviewed | 48k | — | `clawhub install terraform-plan-reviewer-agent` |
-| [Terraform Plan Validator](skills/terraform-plan-validator/) | Security Reviewed | 48k | — | `clawhub install terraform-plan-validator` |
-| [Terraform Plan Validator Agent](skills/terraform-plan-validator-agent/) | Security Reviewed | 48k | — | `clawhub install terraform-plan-validator-agent` |
-| [Helm Chart Diff &amp; Upgrade Manager](skills/helm-chart-diff-upgrade-manager/) | Security Reviewed | 29.6k | — | `clawhub install helm-chart-diff-upgrade-manager` |
-| [Jenkins Declarative Pipeline Generator](skills/jenkins-declarative-pipeline-generator-2/) | Security Reviewed | 25.1k | — | `clawhub install jenkins-declarative-pipeline-generator-2` |
-| [Jenkins Groovy Shared Library Auditor](skills/jenkins-groovy-shared-library-auditor/) | Security Reviewed | 25.1k | — | `clawhub install jenkins-groovy-shared-library-auditor` |
-| [Jenkins Pipeline Debugger](skills/jenkins-pipeline-debugger/) | Security Reviewed | 25.1k | — | `clawhub install jenkins-pipeline-debugger` |
-| [Jenkins Pipeline Declarative Generator](skills/jenkins-pipeline-declarative-generator/) | Security Reviewed | 25.1k | — | `clawhub install jenkins-pipeline-declarative-generator` |
-| [Jenkins Pipeline DSL Generator](skills/jenkins-pipeline-dsl-generator/) | Security Reviewed | 25.1k | — | `clawhub install jenkins-pipeline-dsl-generator` |
-| [Jenkins Pipeline Failure Analyzer](skills/jenkins-pipeline-failure-analyzer/) | Security Reviewed | 25.1k | — | `clawhub install jenkins-pipeline-failure-analyzer` |
-| [Jenkins Pipeline Generator](skills/jenkins-pipeline-generator/) | Security Reviewed | 25.1k | — | `clawhub install jenkins-pipeline-generator` |
-| [Jenkins Pipeline Health Monitor](skills/jenkins-pipeline-health-monitor/) | Security Reviewed | 25.1k | — | `clawhub install jenkins-pipeline-health-monitor` |
-| [Jenkins Pipeline Lint Agent](skills/jenkins-pipeline-lint-agent/) | Security Reviewed | 25.1k | — | `clawhub install jenkins-pipeline-lint-agent` |
-| [Jenkins Pipeline Linter](skills/jenkins-pipeline-linter-6/) | Security Reviewed | 25.1k | — | `clawhub install jenkins-pipeline-linter-6` |
-| [Jenkins Pipeline Linter &#038; Fixer](skills/jenkins-pipeline-linter-fixer/) | Security Reviewed | 25.1k | — | `clawhub install jenkins-pipeline-linter-fixer` |
-| [Jenkins Pipeline Linter Agent](skills/jenkins-pipeline-linter-agent-2/) | Security Reviewed | 25.1k | — | `clawhub install jenkins-pipeline-linter-agent-2` |
-| [Jenkins Pipeline Linter Pro](skills/jenkins-pipeline-linter-pro/) | Security Reviewed | 25.1k | — | `clawhub install jenkins-pipeline-linter-pro` |
-| [Jenkins Pipeline Log Parser](skills/jenkins-pipeline-log-parser/) | Security Reviewed | 25.1k | — | `clawhub install jenkins-pipeline-log-parser` |
-| [Jenkins Pipeline Monitor](skills/jenkins-pipeline-monitor/) | Security Reviewed | 25.1k | — | `clawhub install jenkins-pipeline-monitor` |
-| [Jenkins Pipeline Orchestrator](skills/jenkins-pipeline-orchestrator-3/) | Security Reviewed | 25.1k | — | `clawhub install jenkins-pipeline-orchestrator-3` |
-| [Jenkins Pipeline Shared Library Linter](skills/jenkins-pipeline-shared-library-linter/) | Security Reviewed | 25.1k | — | `clawhub install jenkins-pipeline-shared-library-linter` |
-| [Jenkins Shared Library Auditor](skills/jenkins-shared-library-auditor-agent/) | Security Reviewed | 25.1k | — | `clawhub install jenkins-shared-library-auditor-agent` |
-| [Jenkins Shared Library Builder](skills/jenkins-shared-library-builder/) | Security Reviewed | 25.1k | — | `clawhub install jenkins-shared-library-builder` |
-| [Jenkins Shared Library Linter](skills/jenkins-shared-library-linter/) | Security Reviewed | 25.1k | — | `clawhub install jenkins-shared-library-linter` |
-| [Jenkins Shared Library Manager](skills/jenkins-shared-library-manager/) | Security Reviewed | 25.1k | — | `clawhub install jenkins-shared-library-manager` |
-| [GitLab CI Auto DevOps Configurator](skills/gitlab-ci-auto-devops-configurator/) | Security Reviewed | 24.3k | — | `clawhub install gitlab-ci-auto-devops-configurator` |
-| [GitLab CI Cache Optimizer](skills/gitlab-ci-cache-optimizer-agent/) | Security Reviewed | 24.3k | — | `clawhub install gitlab-ci-cache-optimizer-agent` |
-| [GitLab CI Integration](skills/gitlab-ci-integration-2/) | Security Reviewed | 24.3k | — | `clawhub install gitlab-ci-integration-2` |
-| [GitLab CI Merge Train Optimizer](skills/gitlab-ci-merge-train-optimizer/) | Security Reviewed | 24.3k | — | `clawhub install gitlab-ci-merge-train-optimizer` |
-| [GitLab CI Pipeline Cost Calculator](skills/gitlab-ci-pipeline-cost-calculator/) | Security Reviewed | 24.3k | — | `clawhub install gitlab-ci-pipeline-cost-calculator` |
-| [GitLab CI Pipeline Cost Estimator](skills/gitlab-ci-pipeline-cost-estimator/) | Security Reviewed | 24.3k | — | `clawhub install gitlab-ci-pipeline-cost-estimator` |
-| [GitLab CI Pipeline Debugger](skills/gitlab-ci-pipeline-debugger/) | Security Reviewed | 24.3k | — | `clawhub install gitlab-ci-pipeline-debugger` |
-| [GitLab CI Pipeline Dependency Tracer](skills/gitlab-ci-pipeline-dependency-tracer/) | Security Reviewed | 24.3k | — | `clawhub install gitlab-ci-pipeline-dependency-tracer` |
-| [GitLab CI Pipeline Generator](skills/gitlab-ci-pipeline-generator/) | Security Reviewed | 24.3k | — | `clawhub install gitlab-ci-pipeline-generator` |
-| [GitLab CI Pipeline Linter](skills/gitlab-ci-pipeline-linter/) | Security Reviewed | 24.3k | — | `clawhub install gitlab-ci-pipeline-linter` |
-| [GitLab CI Pipeline Migrator](skills/gitlab-ci-pipeline-migrator/) | Security Reviewed | 24.3k | — | `clawhub install gitlab-ci-pipeline-migrator` |
-| [GitLab CI Pipeline Optimizer](skills/gitlab-ci-pipeline-optimizer-8/) | Security Reviewed | 24.3k | — | `clawhub install gitlab-ci-pipeline-optimizer-8` |
-| [GitLab CI Pipeline Profiler](skills/gitlab-ci-pipeline-profiler/) | Security Reviewed | 24.3k | — | `clawhub install gitlab-ci-pipeline-profiler` |
-| [GitLab CI Pipeline Validator](skills/gitlab-ci-pipeline-validator/) | Security Reviewed | 24.3k | — | `clawhub install gitlab-ci-pipeline-validator` |
-| [GitLab CI Template Generator](skills/gitlab-ci-template-generator/) | Security Reviewed | 24.3k | — | `clawhub install gitlab-ci-template-generator` |
-| [GitLab CI Template Library](skills/gitlab-ci-template-library/) | Security Reviewed | 24.3k | — | `clawhub install gitlab-ci-template-library` |
-| [GitLab CI/CD Pipeline Optimizer](skills/gitlab-cicd-pipeline-optimizer/) | Security Reviewed | 24.3k | — | `clawhub install gitlab-cicd-pipeline-optimizer` |
-| [GitLab CI/CD Pipeline Orchestrator](skills/gitlab-cicd-pipeline-orchestrator/) | Security Reviewed | 24.3k | — | `clawhub install gitlab-cicd-pipeline-orchestrator` |
-| [GitLab Pipeline Bottleneck Profiler](skills/gitlab-pipeline-bottleneck-profiler/) | Security Reviewed | 24.3k | — | `clawhub install gitlab-pipeline-bottleneck-profiler` |
-| [GitLab Pipeline DAG Optimizer](skills/gitlab-pipeline-dag-optimizer/) | Security Reviewed | 24.3k | — | `clawhub install gitlab-pipeline-dag-optimizer` |
-| [GitLab Pipeline Optimizer](skills/gitlab-pipeline-optimizer/) | Security Reviewed | 24.3k | — | `clawhub install gitlab-pipeline-optimizer` |
-| [GitLab Pipeline Orchestrator](skills/gitlab-pipeline-orchestrator/) | Security Reviewed | 24.3k | — | `clawhub install gitlab-pipeline-orchestrator` |
-| [ArgoCD Application Deployer](skills/argocd-application-deployer/) | Security Reviewed | 22.4k | — | `clawhub install argocd-application-deployer` |
-| [ArgoCD Application Sync Manager](skills/argocd-application-sync-manager-2/) | Security Reviewed | 22.4k | — | `clawhub install argocd-application-sync-manager-2` |
-| [ArgoCD Application Sync Monitor](skills/argocd-application-sync-monitor/) | Security Reviewed | 22.4k | — | `clawhub install argocd-application-sync-monitor` |
-| [ArgoCD Deployment Monitor](skills/argocd-deployment-monitor/) | Security Reviewed | 22.4k | — | `clawhub install argocd-deployment-monitor` |
-| [ArgoCD Deployment Sync Skill](skills/argocd-deployment-sync-skill/) | Security Reviewed | 22.4k | — | `clawhub install argocd-deployment-sync-skill` |
-| [ArgoCD GitOps Sync Automator](skills/argocd-gitops-sync-automator/) | Security Reviewed | 22.4k | — | `clawhub install argocd-gitops-sync-automator` |
-| [ArgoCD GitOps Sync Controller](skills/argocd-gitops-sync-controller/) | Security Reviewed | 22.4k | — | `clawhub install argocd-gitops-sync-controller` |
-| [ArgoCD GitOps Sync Manager](skills/argocd-gitops-sync-manager/) | Security Reviewed | 22.4k | — | `clawhub install argocd-gitops-sync-manager` |
-| [ArgoCD GitOps Sync Monitor](skills/argocd-gitops-sync-monitor/) | Security Reviewed | 22.4k | — | `clawhub install argocd-gitops-sync-monitor` |
-| [ArgoCD Sync Drift Detector](skills/argocd-sync-drift-detector/) | Security Reviewed | 22.4k | — | `clawhub install argocd-sync-drift-detector` |
-| [ArgoCD Sync Manager](skills/argocd-sync-manager-skill/) | Security Reviewed | 22.4k | — | `clawhub install argocd-sync-manager-skill` |
-| [ArgoCD Sync Orchestrator](skills/argocd-sync-orchestrator/) | Security Reviewed | 22.4k | — | `clawhub install argocd-sync-orchestrator` |
-| [ArgoCD Sync Status Monitor](skills/argocd-sync-status-monitor-7/) | Security Reviewed | 22.4k | — | `clawhub install argocd-sync-status-monitor-7` |
-| [ArgoCD Sync Troubleshooter](skills/argocd-sync-troubleshooter/) | Security Reviewed | 22.4k | — | `clawhub install argocd-sync-troubleshooter` |
-| [ArgoCD Sync Wave Orchestrator](skills/argocd-sync-wave-orchestrator-wave48/) | Security Reviewed | 22.4k | — | `clawhub install argocd-sync-wave-orchestrator-wave48` |
-| [ArgoCD Sync Wave Planner](skills/argocd-sync-wave-planner/) | Security Reviewed | 22.4k | — | `clawhub install argocd-sync-wave-planner` |
-| [Buildkite Agent Monitor](skills/buildkite-agent-monitor/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install buildkite-agent-monitor` |
-| [Buildkite Dynamic Pipeline Agent](skills/buildkite-dynamic-pipeline-agent/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install buildkite-dynamic-pipeline-agent` |
-| [Buildkite Pipeline Optimizer](skills/buildkite-pipeline-optimizer-agent/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install buildkite-pipeline-optimizer-agent` |
-| [GitHub Actions CI/CD Pipeline Manager](skills/github-actions-cicd-pipeline-manager/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install github-actions-cicd-pipeline-manager` |
-| [GitHub Actions Workflow Debugger](skills/github-actions-workflow-debugger/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install github-actions-workflow-debugger` |
-| [Tekton Pipeline Chain Validator](skills/tekton-pipeline-chain-validator/) | Security Reviewed | 8.9k | — | `clawhub install tekton-pipeline-chain-validator` |
-| [Tekton Pipeline Composer](skills/tekton-pipeline-composer/) | Security Reviewed | 8.9k | — | `clawhub install tekton-pipeline-composer` |
-| [Tekton Pipeline Debugger](skills/tekton-pipeline-debugger/) | Security Reviewed | 8.9k | — | `clawhub install tekton-pipeline-debugger` |
-| [Tekton Pipeline Generator](skills/tekton-pipeline-generator/) | Security Reviewed | 8.9k | — | `clawhub install tekton-pipeline-generator` |
-| [Tekton Pipeline Resource Optimizer](skills/tekton-pipeline-resource-optimizer/) | Security Reviewed | 8.9k | — | `clawhub install tekton-pipeline-resource-optimizer` |
-| [Tekton Pipeline Scaffolder](skills/tekton-pipeline-scaffolder/) | Security Reviewed | 8.9k | — | `clawhub install tekton-pipeline-scaffolder` |
-| [Tekton Pipeline Task Assembler](skills/tekton-pipeline-task-assembler/) | Security Reviewed | 8.9k | — | `clawhub install tekton-pipeline-task-assembler` |
-| [Tekton Pipeline Task Generator](skills/tekton-pipeline-task-generator/) | Security Reviewed | 8.9k | — | `clawhub install tekton-pipeline-task-generator` |
-| [Tekton Pipeline Template Generator](skills/tekton-pipeline-template-generator/) | Security Reviewed | 8.9k | — | `clawhub install tekton-pipeline-template-generator` |
-| [Tekton Pipeline Validator](skills/tekton-pipeline-validator/) | Security Reviewed | 8.9k | — | `clawhub install tekton-pipeline-validator` |
-| [AWS CloudWatch Alarm Builder](skills/aws-cloudwatch-alarm-builder/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-cloudwatch-alarm-builder` |
-| [AWS CodePipeline Orchestrator](skills/aws-codepipeline-orchestrator/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-codepipeline-orchestrator` |
-| [GitHub Actions Matrix Orchestrator](skills/github-actions-matrix-orchestrator/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install github-actions-matrix-orchestrator` |
-| [GitHub Actions OIDC Token Validator](skills/github-actions-oidc-token-validator/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install github-actions-oidc-token-validator` |
-| [GitHub Actions OIDC Token Verifier](skills/github-actions-oidc-token-verifier/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install github-actions-oidc-token-verifier` |
-| [CircleCI Config Validator](skills/circleci-config-validator/) | Security Reviewed | 842 | — | `clawhub install circleci-config-validator` |
-| [CircleCI Flaky Test Detector](skills/circleci-flaky-test-detector-2/) | Security Reviewed | 842 | — | `clawhub install circleci-flaky-test-detector-2` |
-| [CircleCI Orb Auditor](skills/circleci-orb-auditor/) | Security Reviewed | 842 | — | `clawhub install circleci-orb-auditor` |
-| [CircleCI Orb Builder](skills/circleci-orb-builder/) | Security Reviewed | 842 | — | `clawhub install circleci-orb-builder` |
-| [CircleCI Orb Builder and Publisher](skills/circleci-orb-builder-publisher/) | Security Reviewed | 842 | — | `clawhub install circleci-orb-builder-publisher` |
-| [CircleCI Orb Composer](skills/circleci-orb-composer-7/) | Security Reviewed | 842 | — | `clawhub install circleci-orb-composer-7` |
-| [CircleCI Orb Composition Engine](skills/circleci-orb-composition-engine/) | Security Reviewed | 842 | — | `clawhub install circleci-orb-composition-engine` |
-| [CircleCI Orb Configuration Manager](skills/circleci-orb-configuration-manager/) | Security Reviewed | 842 | — | `clawhub install circleci-orb-configuration-manager` |
-| [CircleCI Orb Configurator](skills/circleci-orb-configurator-2/) | Security Reviewed | 842 | — | `clawhub install circleci-orb-configurator-2` |
-| [CircleCI Orb Debugger](skills/circleci-orb-debugger/) | Security Reviewed | 842 | — | `clawhub install circleci-orb-debugger` |
-| [CircleCI Orb Dependency Analyzer](skills/circleci-orb-dependency-analyzer/) | Security Reviewed | 842 | — | `clawhub install circleci-orb-dependency-analyzer` |
-| [CircleCI Orb Dependency Auditor](skills/circleci-orb-dependency-auditor-4/) | Security Reviewed | 842 | — | `clawhub install circleci-orb-dependency-auditor-4` |
-| [CircleCI Orb Dependency Checker](skills/circleci-orb-dependency-checker/) | Security Reviewed | 842 | — | `clawhub install circleci-orb-dependency-checker` |
-| [CircleCI Orb Dependency Scanner](skills/circleci-orb-dependency-scanner-4/) | Security Reviewed | 842 | — | `clawhub install circleci-orb-dependency-scanner-4` |
-| [CircleCI Orb Linter](skills/circleci-orb-linter/) | Security Reviewed | 842 | — | `clawhub install circleci-orb-linter` |
-| [CircleCI Orb Pipeline Agent](skills/circleci-orb-pipeline-agent/) | Security Reviewed | 842 | — | `clawhub install circleci-orb-pipeline-agent` |
-| [CircleCI Orb Pipeline Composer](skills/circleci-orb-pipeline-composer-2/) | Security Reviewed | 842 | — | `clawhub install circleci-orb-pipeline-composer-2` |
-| [CircleCI Orb Pipeline Debugger](skills/circleci-orb-pipeline-debugger/) | Security Reviewed | 842 | — | `clawhub install circleci-orb-pipeline-debugger` |
-| [CircleCI Orb Validator](skills/circleci-orb-validator/) | Security Reviewed | 842 | — | `clawhub install circleci-orb-validator` |
-| [CircleCI Pipeline Manager](skills/circleci-pipeline-manager/) | Security Reviewed | 842 | — | `clawhub install circleci-pipeline-manager` |
-| [CircleCI Pipeline Optimizer](skills/circleci-pipeline-optimizer/) | Security Reviewed | 842 | — | `clawhub install circleci-pipeline-optimizer` |
-| [CircleCI Workflow Analyzer](skills/circleci-workflow-analyzer/) | Security Reviewed | 842 | — | `clawhub install circleci-workflow-analyzer` |
-| [CircleCI Workflow Builder](skills/circleci-workflow-builder/) | Security Reviewed | 842 | — | `clawhub install circleci-workflow-builder` |
-| [CircleCI Workflow Cost Auditor](skills/circleci-workflow-cost-auditor/) | Security Reviewed | 842 | — | `clawhub install circleci-workflow-cost-auditor` |
-| [act Local GitHub Actions Runner](skills/act-local-github-actions-runner/) | Verified Metadata | — | — | `clawhub install act-local-github-actions-runner` |
-| [GitHub Actions CI Builder](skills/github-actions-ci-builder/) | Security Reviewed | — | — | `clawhub install github-actions-ci-builder` |
-| [GitHub Actions CI Pipeline Builder](skills/github-actions-ci-pipeline-builder/) | Security Reviewed | — | — | `clawhub install github-actions-ci-pipeline-builder` |
-| [GitHub Actions Matrix Build Optimizer](skills/github-actions-matrix-build-optimizer/) | Security Reviewed | — | — | `clawhub install github-actions-matrix-build-optimizer` |
-| [GitHub Actions Matrix Builder](skills/github-actions-matrix-builder-13/) | Security Reviewed | — | — | `clawhub install github-actions-matrix-builder-13` |
-| [GitHub Actions Matrix Optimizer](skills/github-actions-matrix-optimizer-2/) | Security Reviewed | — | — | `clawhub install github-actions-matrix-optimizer-2` |
-| [GitHub Actions Matrix Strategy Builder](skills/github-actions-matrix-strategy-builder/) | Security Reviewed | — | — | `clawhub install github-actions-matrix-strategy-builder` |
-| [GitHub Actions Pipeline Validator](skills/github-actions-pipeline-validator/) | Security Reviewed | — | — | `clawhub install github-actions-pipeline-validator` |
-| [GitHub Actions Workflow Builder](skills/github-actions-workflow-builder-skill/) | Security Reviewed | — | — | `clawhub install github-actions-workflow-builder-skill` |
-| [GitHub Actions Workflow Generator](skills/github-actions-workflow-generator-3/) | Security Reviewed | — | — | `clawhub install github-actions-workflow-generator-3` |
-| [GitHub Actions Workflow Linter](skills/github-actions-workflow-linter-2/) | Security Reviewed | — | — | `clawhub install github-actions-workflow-linter-2` |
-| [GitHub Actions Workflow Optimizer](skills/github-actions-workflow-optimizer/) | Security Reviewed | — | — | `clawhub install github-actions-workflow-optimizer` |
-| [GoReleaser Cross-Platform Release Automation](skills/goreleaser-cross-platform-release-automation/) | Verified Metadata | — | — | `clawhub install goreleaser-cross-platform-release-automation` |
-| [Harden-Runner CI/CD Security Agent for GitHub Actions](skills/harden-runner-cicd-security-agent-github-actions/) | Verified Metadata | — | — | `clawhub install harden-runner-cicd-security-agent-github-actions` |
-| [npm Audit Dependency Report Generator](skills/npm-audit-dependency-report-generator/) | Security Reviewed | — | — | `clawhub install npm-audit-dependency-report-generator` |
+| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
+|---|---|---|---:|---:|
+| [Argo Workflows Deployer](skills/argo-workflows-deployer/) | Orchestrates deployment pipelines using the Argo Workflows Engine API and Argo CD ApplicationSet controller.… | Security Reviewed | 121.3k | — |
+| [Argo Workflows Linter](skills/argo-workflows-linter/) | Lints and validates Argo Workflows templates using the argo CLI and Argo Server REST API. Detects DAG dependency… | Security Reviewed | 121.3k | — |
+| [Buildkite Agent Fleet Scaler](skills/buildkite-agent-fleet-scaler/) | Auto-scales Buildkite agent fleets based on queue depth and job wait times using the Buildkite GraphQL API. Manages… | Security Reviewed | 121.3k | — |
+| [Playwright Test Report to Slack](skills/playwright-test-report-to-slack/) | Parses Playwright HTML and JSON test reports and posts structured summaries to Slack using the Slack Web API. Reads… | Security Reviewed | 84.9k | 39.8M/wk |
+| [Buildkite Dynamic Pipeline Architect](skills/buildkite-dynamic-pipeline-architect/) | Creates dynamic Buildkite pipelines using the Buildkite REST API and pipeline upload mechanism. Implements… | Security Reviewed | 71.6k | — |
+| [Buildkite Pipeline Profiler](skills/buildkite-pipeline-profiler/) | Profiles Buildkite pipeline performance using the Buildkite REST API and GraphQL API. Analyzes step durations, agent… | Security Reviewed | 71.6k | — |
+| [Docker Image Layer Inspector](skills/docker-image-layer-inspector/) | Analyzes Docker image layers using the Docker Registry HTTP API v2 and Dive CLI. Identifies wasted space, duplicate… | Security Reviewed | 71.6k | — |
+| [Docker Image Layer Size Analyzer](skills/docker-image-layer-size-analyzer/) | Analyzes Docker image layers using the Docker Registry HTTP API v2 and dive CLI tool. Identifies bloated layers,… | Security Reviewed | 71.6k | — |
+| [Docker Image Vulnerability Triage](skills/docker-image-vulnerability-triage/) | Runs Trivy against a Docker image and produces a prioritized CVE list grouped by severity with fix availability.… | Security Reviewed | 71.6k | — |
+| [Hugging Face Model Deployer](skills/huggingface-model-deployer/) | Deploys models from Hugging Face Hub to Inference Endpoints using the huggingface_hub client and REST API. Monitors… | Security Reviewed | 71.6k | — |
+| [Terraform Cloud Orchestrator](skills/terraform-cloud-orchestrator-skill/) | Orchestrates Terraform Cloud runs via the TFC API v2 /runs endpoint with plan-only and auto-apply modes. Manages… | Security Reviewed | 48k | — |
+| [Terraform Cloud Pipeline Agent](skills/terraform-cloud-pipeline-agent/) | Orchestrates Terraform Cloud run pipelines via the TFC API v2 and tfe provider. Manages workspace variables,… | Security Reviewed | 48k | — |
+| [Terraform Cloud Run Trigger](skills/terraform-cloud-run-trigger/) | Automates Terraform Cloud workspace runs using the TFC API v2. Creates runs via POST /api/v2/runs with plan-only or… | Security Reviewed | 48k | — |
+| [Terraform Drift Detector](skills/terraform-drift-detector-2/) | Detect infrastructure drift by comparing Terraform state with live cloud resources using terraform plan and the… | Security Reviewed | 48k | — |
+| [Terraform Plan &amp; Apply Automation](skills/terraform-plan-apply-automation/) | Runs terraform plan against changed modules, posts a structured diff as a PR comment via GitHub API, and gates… | Security Reviewed | 48k | — |
+| [Terraform Plan Analyzer](skills/terraform-plan-analyzer-agent/) | Analyzes Terraform plan output using the terraform show -json command and HCL2 parser library. Detects destructive… | Security Reviewed | 48k | — |
+| [Terraform Plan Diff Analyzer](skills/terraform-plan-diff-analyzer/) | Parses Terraform plan JSON output to summarize resource changes, detect destructive actions, and flag policy… | Security Reviewed | 48k | — |
+| [Terraform Plan Reviewer](skills/terraform-plan-reviewer-4/) | Parses Terraform plan JSON output from terraform show -json and the hashicorp/terraform-exec Go SDK. Identifies… | Security Reviewed | 48k | — |
+| [Terraform Plan Reviewer Agent](skills/terraform-plan-reviewer-agent/) | Parses terraform plan -json output and queries the Terraform Cloud API /runs endpoint to review infrastructure… | Security Reviewed | 48k | — |
+| [Terraform Plan Validator](skills/terraform-plan-validator/) | Parses terraform plan JSON output via the Terraform CLI (terraform show -json) to validate infrastructure changes… | Security Reviewed | 48k | — |
+| [Terraform Plan Validator Agent](skills/terraform-plan-validator-agent/) | Validates Terraform plans using terraform CLI, tfsec, and Checkov. Detects infrastructure misconfigurations, cost… | Security Reviewed | 48k | — |
+| [Helm Chart Diff &amp; Upgrade Manager](skills/helm-chart-diff-upgrade-manager/) | Uses helm-diff to compute a human-readable diff between deployed and candidate chart versions before upgrade.… | Security Reviewed | 29.6k | — |
+| [Jenkins Declarative Pipeline Generator](skills/jenkins-declarative-pipeline-generator-2/) | Generates Jenkins Declarative Pipelines using the Pipeline Model Definition Plugin API and Jenkins shared library… | Security Reviewed | 25.1k | — |
+| [Jenkins Groovy Shared Library Auditor](skills/jenkins-groovy-shared-library-auditor/) | Audits Jenkins shared library Groovy scripts for security anti-patterns using the Script Security Plugin API.… | Security Reviewed | 25.1k | — |
+| [Jenkins Pipeline Debugger](skills/jenkins-pipeline-debugger/) | Connects to Jenkins via the Jenkins REST API and Blue Ocean API to debug Declarative and Scripted pipelines.… | Security Reviewed | 25.1k | — |
+| [Jenkins Pipeline Declarative Generator](skills/jenkins-pipeline-declarative-generator/) | Creates Jenkins Declarative Pipeline Jenkinsfiles using jenkins-pipeline-syntax and jenkins-shared-libraries.… | Security Reviewed | 25.1k | — |
+| [Jenkins Pipeline DSL Generator](skills/jenkins-pipeline-dsl-generator/) | Generates Jenkins Declarative and Scripted Pipeline DSL using the Jenkins REST API and Job DSL plugin. Creates… | Security Reviewed | 25.1k | — |
+| [Jenkins Pipeline Failure Analyzer](skills/jenkins-pipeline-failure-analyzer/) | Queries the Jenkins REST API /job/{name}/lastFailedBuild/api/json and /consoleText to diagnose pipeline failures.… | Security Reviewed | 25.1k | — |
+| [Jenkins Pipeline Generator](skills/jenkins-pipeline-generator/) | Generates declarative Jenkins pipeline scripts using the Jenkins Pipeline Syntax reference and shared library… | Security Reviewed | 25.1k | — |
+| [Jenkins Pipeline Health Monitor](skills/jenkins-pipeline-health-monitor/) | Monitors Jenkins pipelines using the Jenkins REST API and Blue Ocean API, detecting flaky tests, build queue… | Security Reviewed | 25.1k | — |
+| [Jenkins Pipeline Lint Agent](skills/jenkins-pipeline-lint-agent/) | Validates Jenkinsfile declarative and scripted pipelines using the Jenkins Pipeline Linter API endpoint. Checks for… | Security Reviewed | 25.1k | — |
+| [Jenkins Pipeline Linter](skills/jenkins-pipeline-linter-6/) | Validates Jenkinsfile declarative and scripted pipelines using the Jenkins Pipeline Linter HTTP API… | Security Reviewed | 25.1k | — |
+| [Jenkins Pipeline Linter &#038; Fixer](skills/jenkins-pipeline-linter-fixer/) | Validates Jenkinsfile declarative pipelines using the Jenkins Pipeline Linter API endpoint… | Security Reviewed | 25.1k | — |
+| [Jenkins Pipeline Linter Agent](skills/jenkins-pipeline-linter-agent-2/) | Validates Jenkinsfile syntax using the Jenkins Pipeline Linter REST API before commits. Integrates with… | Security Reviewed | 25.1k | — |
+| [Jenkins Pipeline Linter Pro](skills/jenkins-pipeline-linter-pro/) | Validates Jenkinsfile syntax and best practices using the Jenkins Pipeline Model Definition API and jenkins-cli.jar… | Security Reviewed | 25.1k | — |
+| [Jenkins Pipeline Log Parser](skills/jenkins-pipeline-log-parser/) | Extracts and analyzes Jenkins Pipeline build logs using the Jenkins REST API and Blue Ocean API. Identifies stage… | Security Reviewed | 25.1k | — |
+| [Jenkins Pipeline Monitor](skills/jenkins-pipeline-monitor/) | Monitors Jenkins CI pipelines via the Jenkins REST API (/api/json) and Blue Ocean REST endpoints. Tracks build queue… | Security Reviewed | 25.1k | — |
+| [Jenkins Pipeline Orchestrator](skills/jenkins-pipeline-orchestrator-3/) | Automates Jenkins CI/CD pipeline configuration using the Jenkins REST API and Jenkinsfile DSL. Manages multi-branch… | Security Reviewed | 25.1k | — |
+| [Jenkins Pipeline Shared Library Linter](skills/jenkins-pipeline-shared-library-linter/) | Lints Jenkins Declarative and Scripted pipeline syntax using the Jenkins REST API and the Jenkins CLI jar. Checks… | Security Reviewed | 25.1k | — |
+| [Jenkins Shared Library Auditor](skills/jenkins-shared-library-auditor-agent/) | Audits Jenkins shared libraries for security vulnerabilities using the Jenkins Script Console API and Groovy AST… | Security Reviewed | 25.1k | — |
+| [Jenkins Shared Library Builder](skills/jenkins-shared-library-builder/) | Scaffolds and tests Jenkins Shared Libraries using the jenkins-pipeline-unit framework (JenkinsPipelineUnit).… | Security Reviewed | 25.1k | — |
+| [Jenkins Shared Library Linter](skills/jenkins-shared-library-linter/) | Validates Jenkins Shared Library Groovy code using the Jenkins Pipeline Model Definition API and Groovy AST parser.… | Security Reviewed | 25.1k | — |
+| [Jenkins Shared Library Manager](skills/jenkins-shared-library-manager/) | Manages Jenkins Shared Libraries with proper vars/ and src/ structure using the Jenkins Pipeline Shared Groovy… | Security Reviewed | 25.1k | — |
+| [GitLab CI Auto DevOps Configurator](skills/gitlab-ci-auto-devops-configurator/) | Configures GitLab CI/CD pipelines using .gitlab-ci.yml with Auto DevOps templates, includes, and the GitLab… | Security Reviewed | 24.3k | — |
+| [GitLab CI Cache Optimizer](skills/gitlab-ci-cache-optimizer-agent/) | Optimizes GitLab CI/CD cache configurations using the GitLab Pipelines API v4 and cache:key:files directive… | Security Reviewed | 24.3k | — |
+| [GitLab CI Integration](skills/gitlab-ci-integration-2/) | GitLab CI Integration is built around GitLab DevSecOps platform. The underlying ecosystem is represented by… | Security Reviewed | 24.3k | — |
+| [GitLab CI Merge Train Optimizer](skills/gitlab-ci-merge-train-optimizer/) | Optimizes GitLab CI/CD merge trains via the GitLab REST API v4 (/api/v4/projects/{id}/merge_trains). Analyzes… | Security Reviewed | 24.3k | — |
+| [GitLab CI Pipeline Cost Calculator](skills/gitlab-ci-pipeline-cost-calculator/) | Calculates CI/CD spend using the GitLab REST API v4 pipelines and jobs endpoints. Tracks runner minutes by project,… | Security Reviewed | 24.3k | — |
+| [GitLab CI Pipeline Cost Estimator](skills/gitlab-ci-pipeline-cost-estimator/) | Estimates CI/CD pipeline costs by querying the GitLab REST API v4 for job durations, runner types, and compute… | Security Reviewed | 24.3k | — |
+| [GitLab CI Pipeline Debugger](skills/gitlab-ci-pipeline-debugger/) | Debugs failed GitLab CI/CD pipelines by parsing .gitlab-ci.yml and fetching job logs via GitLab REST API v4.… | Security Reviewed | 24.3k | — |
+| [GitLab CI Pipeline Dependency Tracer](skills/gitlab-ci-pipeline-dependency-tracer/) | Traces job dependency chains in GitLab CI pipelines using the GitLab Jobs API and pipeline graph endpoints. Detects… | Security Reviewed | 24.3k | — |
+| [GitLab CI Pipeline Generator](skills/gitlab-ci-pipeline-generator/) | Creates and manages GitLab CI/CD pipelines via the GitLab REST API v4. Generates .gitlab-ci.yml with multi-stage… | Security Reviewed | 24.3k | — |
+| [GitLab CI Pipeline Linter](skills/gitlab-ci-pipeline-linter/) | Validates and optimizes .gitlab-ci.yml configurations using the GitLab CI Lint API (/api/v4/ci/lint). Checks for DAG… | Security Reviewed | 24.3k | — |
+| [GitLab CI Pipeline Migrator](skills/gitlab-ci-pipeline-migrator/) | Converts GitLab CI .gitlab-ci.yml pipelines to GitHub Actions workflows using the gitlab-ci-local parser and YAML… | Security Reviewed | 24.3k | — |
+| [GitLab CI Pipeline Optimizer](skills/gitlab-ci-pipeline-optimizer-8/) | Optimizes GitLab CI/CD pipelines using the GitLab Pipelines API and DAG keyword configurations. Analyzes job… | Security Reviewed | 24.3k | — |
+| [GitLab CI Pipeline Profiler](skills/gitlab-ci-pipeline-profiler/) | Profiles GitLab CI/CD pipeline execution times using the GitLab REST API v4 /projects/:id/pipelines endpoint.… | Security Reviewed | 24.3k | — |
+| [GitLab CI Pipeline Validator](skills/gitlab-ci-pipeline-validator/) | Validates .gitlab-ci.yml files against GitLab CI/CD schema using the gitlab-ci-lint API endpoint. Catches stage… | Security Reviewed | 24.3k | — |
+| [GitLab CI Template Generator](skills/gitlab-ci-template-generator/) | Creates GitLab CI/CD pipeline templates using Auto DevOps components, Kaniko for container builds, and SAST/DAST… | Security Reviewed | 24.3k | — |
+| [GitLab CI Template Library](skills/gitlab-ci-template-library/) | Creates reusable GitLab CI/CD template libraries using include:template and extends keywords. Manages pipeline… | Security Reviewed | 24.3k | — |
+| [GitLab CI/CD Pipeline Optimizer](skills/gitlab-cicd-pipeline-optimizer/) | Optimizes GitLab CI/CD pipelines using the .gitlab-ci.yml specification and GitLab API v4. Implements DAG pipelines,… | Security Reviewed | 24.3k | — |
+| [GitLab CI/CD Pipeline Orchestrator](skills/gitlab-cicd-pipeline-orchestrator/) | Build and manage GitLab CI/CD pipelines using .gitlab-ci.yml and the GitLab REST API v4. Supports multi-project… | Security Reviewed | 24.3k | — |
+| [GitLab Pipeline Bottleneck Profiler](skills/gitlab-pipeline-bottleneck-profiler/) | Profiles GitLab CI/CD pipeline execution using the GitLab Pipelines API and Job Artifacts API. Identifies stage… | Security Reviewed | 24.3k | — |
+| [GitLab Pipeline DAG Optimizer](skills/gitlab-pipeline-dag-optimizer/) | Analyzes GitLab CI/CD pipeline YAML using the GitLab Pipelines API to detect bottlenecks and restructure directed… | Security Reviewed | 24.3k | — |
+| [GitLab Pipeline Optimizer](skills/gitlab-pipeline-optimizer/) | Analyzes and optimizes GitLab CI/CD pipelines using the GitLab REST API v4 and .gitlab-ci.yml schema. Reduces… | Security Reviewed | 24.3k | — |
+| [GitLab Pipeline Orchestrator](skills/gitlab-pipeline-orchestrator/) | Automates GitLab CI/CD pipeline creation using the GitLab Pipelines API and .gitlab-ci.yml DSL. Manages multi-stage… | Security Reviewed | 24.3k | — |
+| [ArgoCD Application Deployer](skills/argocd-application-deployer/) | Manages ArgoCD application deployments via the ArgoCD REST API and argocd CLI. Configures GitOps sync policies,… | Security Reviewed | 22.4k | — |
+| [ArgoCD Application Sync Manager](skills/argocd-application-sync-manager-2/) | Manages ArgoCD application synchronization using the ArgoCD REST API and argocd CLI. Handles sync waves, hooks, and… | Security Reviewed | 22.4k | — |
+| [ArgoCD Application Sync Monitor](skills/argocd-application-sync-monitor/) | Monitors ArgoCD application sync status via the ArgoCD REST API and argocd CLI. Detects OutOfSync conditions, tracks… | Security Reviewed | 22.4k | — |
+| [ArgoCD Deployment Monitor](skills/argocd-deployment-monitor/) | Monitors ArgoCD application deployments using the ArgoCD REST API and gRPC interface. Tracks sync status, health… | Security Reviewed | 22.4k | — |
+| [ArgoCD Deployment Sync Skill](skills/argocd-deployment-sync-skill/) | Manages GitOps deployments via the ArgoCD REST API and argocd CLI. Triggers application syncs through… | Security Reviewed | 22.4k | — |
+| [ArgoCD GitOps Sync Automator](skills/argocd-gitops-sync-automator/) | Automates ArgoCD application synchronization using the ArgoCD gRPC/REST API and argocd-autopilot CLI. Manages… | Security Reviewed | 22.4k | — |
+| [ArgoCD GitOps Sync Controller](skills/argocd-gitops-sync-controller/) | Manages ArgoCD Application and ApplicationSet resources for Kubernetes GitOps deployments. Uses the ArgoCD REST API… | Security Reviewed | 22.4k | — |
+| [ArgoCD GitOps Sync Manager](skills/argocd-gitops-sync-manager/) | Manages ArgoCD application sync operations with intelligent drift detection and rollback strategies. Uses the ArgoCD… | Security Reviewed | 22.4k | — |
+| [ArgoCD GitOps Sync Monitor](skills/argocd-gitops-sync-monitor/) | Monitors ArgoCD application sync status using the ArgoCD REST API /api/v1/applications endpoint. Detects drift… | Security Reviewed | 22.4k | — |
+| [ArgoCD Sync Drift Detector](skills/argocd-sync-drift-detector/) | Monitors ArgoCD applications for configuration drift using the ArgoCD REST API and grpc-gateway. Compares live… | Security Reviewed | 22.4k | — |
+| [ArgoCD Sync Manager](skills/argocd-sync-manager-skill/) | Manages ArgoCD application syncs via the ArgoCD REST API /api/v1/applications/{name}/sync endpoint. Monitors sync… | Security Reviewed | 22.4k | — |
+| [ArgoCD Sync Orchestrator](skills/argocd-sync-orchestrator/) | Manages ArgoCD application syncs using the argocd CLI and the Argo CD REST API (v1alpha1). Supports progressive… | Security Reviewed | 22.4k | — |
+| [ArgoCD Sync Status Monitor](skills/argocd-sync-status-monitor-7/) | Monitors ArgoCD application sync status via the ArgoCD REST API and gRPC gateway. Detects drift between desired and… | Security Reviewed | 22.4k | — |
+| [ArgoCD Sync Troubleshooter](skills/argocd-sync-troubleshooter/) | Diagnoses ArgoCD application sync failures using the ArgoCD REST API and Kubernetes resource diff analysis.… | Security Reviewed | 22.4k | — |
+| [ArgoCD Sync Wave Orchestrator](skills/argocd-sync-wave-orchestrator-wave48/) | Manages ArgoCD application sync waves and hooks using the ArgoCD API and argocd CLI. Coordinates multi-application… | Security Reviewed | 22.4k | — |
+| [ArgoCD Sync Wave Planner](skills/argocd-sync-wave-planner/) | Manages ArgoCD Application sync waves and hooks through the ArgoCD REST API and Kubernetes custom resources. Uses… | Security Reviewed | 22.4k | — |
+| [Buildkite Agent Monitor](skills/buildkite-agent-monitor/) | Monitors Buildkite agent pools via the Buildkite REST API v3 and GraphQL API. Tracks agent connectivity, queue… | Security Reviewed | 20.3k | 32M/wk |
+| [Buildkite Dynamic Pipeline Agent](skills/buildkite-dynamic-pipeline-agent/) | Creates Buildkite pipelines dynamically using the Buildkite REST API and pipeline upload commands. Manages agent… | Security Reviewed | 20.3k | 32M/wk |
+| [Buildkite Pipeline Optimizer](skills/buildkite-pipeline-optimizer-agent/) | Analyzes Buildkite pipeline YAML and optimizes parallelism using the Buildkite REST API v2 and GraphQL API. Reduces… | Security Reviewed | 20.3k | 32M/wk |
+| [GitHub Actions CI/CD Pipeline Manager](skills/github-actions-cicd-pipeline-manager/) | Automates GitHub Actions workflow creation, runner management, and artifact caching using the GitHub REST API and… | Security Reviewed | 20.3k | 32M/wk |
+| [GitHub Actions Workflow Debugger](skills/github-actions-workflow-debugger/) | Diagnoses failing GitHub Actions workflows using the GitHub REST API v3 /actions/runs and /actions/jobs endpoints.… | Security Reviewed | 20.3k | 32M/wk |
+| [Tekton Pipeline Chain Validator](skills/tekton-pipeline-chain-validator/) | Validates Tekton pipeline supply chain security using Sigstore cosign verification and SLSA provenance checks.… | Security Reviewed | 8.9k | — |
+| [Tekton Pipeline Composer](skills/tekton-pipeline-composer/) | Builds Tekton CI/CD pipelines on Kubernetes using the Tekton Pipelines API and tkn CLI. Composes Tasks,… | Security Reviewed | 8.9k | — |
+| [Tekton Pipeline Debugger](skills/tekton-pipeline-debugger/) | Debugs Tekton pipeline failures by querying TaskRun and PipelineRun status via kubectl and the Tekton Results API.… | Security Reviewed | 8.9k | — |
+| [Tekton Pipeline Generator](skills/tekton-pipeline-generator/) | Scaffolds Tekton CI/CD pipelines and tasks using the Tekton Hub API and kubectl. Generates PipelineRun manifests… | Security Reviewed | 8.9k | — |
+| [Tekton Pipeline Resource Optimizer](skills/tekton-pipeline-resource-optimizer/) | Analyzes Tekton Pipeline and Task resource definitions using the Tekton Results API. Recommends CPU/memory request… | Security Reviewed | 8.9k | — |
+| [Tekton Pipeline Scaffolder](skills/tekton-pipeline-scaffolder/) | Scaffolds Kubernetes-native CI/CD pipelines using Tekton Pipelines CRDs (Tasks, Pipelines, PipelineRuns) and the… | Security Reviewed | 8.9k | — |
+| [Tekton Pipeline Task Assembler](skills/tekton-pipeline-task-assembler/) | Assembles Tekton CI/CD pipelines from reusable Task and ClusterTask definitions using tkn CLI and Tekton Hub… | Security Reviewed | 8.9k | — |
+| [Tekton Pipeline Task Generator](skills/tekton-pipeline-task-generator/) | Generates Tekton CI/CD pipeline tasks and PipelineRun manifests using the Tekton Pipelines API. Integrates with… | Security Reviewed | 8.9k | — |
+| [Tekton Pipeline Template Generator](skills/tekton-pipeline-template-generator/) | Scaffolds Tekton Pipeline and Task CRDs using the Tekton Hub API for reusable task resolution. Leverages tkn CLI for… | Security Reviewed | 8.9k | — |
+| [Tekton Pipeline Validator](skills/tekton-pipeline-validator/) | Validates Tekton Pipeline YAML manifests against the Tekton Pipelines API schema. Uses tkn CLI and Kubernetes… | Security Reviewed | 8.9k | — |
+| [AWS CloudWatch Alarm Builder](skills/aws-cloudwatch-alarm-builder/) | Creates and manages CloudWatch alarms using the AWS SDK for JavaScript v3 (@aws-sdk/client-cloudwatch). Configures… | Security Reviewed | 3.6k | 9.2M/wk |
+| [AWS CodePipeline Orchestrator](skills/aws-codepipeline-orchestrator/) | Manages AWS CodePipeline stages and actions using AWS SDK for JavaScript (CodePipeline, CodeBuild, CodeDeploy APIs).… | Security Reviewed | 3.6k | 9.2M/wk |
+| [GitHub Actions Matrix Orchestrator](skills/github-actions-matrix-orchestrator/) | Dynamically generates GitHub Actions matrix strategies using the GitHub REST API and workflow dispatch events.… | Security Reviewed | 3.6k | 9.2M/wk |
+| [GitHub Actions OIDC Token Validator](skills/github-actions-oidc-token-validator/) | Validates GitHub Actions OIDC tokens for secure, secretless deployments. Uses the GitHub Actions id-token API and… | Security Reviewed | 3.6k | 9.2M/wk |
+| [GitHub Actions OIDC Token Verifier](skills/github-actions-oidc-token-verifier/) | Verifies GitHub Actions OIDC tokens against the GitHub OIDC provider JWKS endpoint. Validates subject claims,… | Security Reviewed | 3.6k | 9.2M/wk |
+| [CircleCI Config Validator](skills/circleci-config-validator/) | Validates and optimizes CircleCI configuration files using the CircleCI v2 API and circleci config validate CLI.… | Security Reviewed | 842 | — |
+| [CircleCI Flaky Test Detector](skills/circleci-flaky-test-detector-2/) | Queries CircleCI Insights API to identify test cases that flip between pass and fail across recent runs. Produces a… | Security Reviewed | 842 | — |
+| [CircleCI Orb Auditor](skills/circleci-orb-auditor/) | Audits CircleCI orb versions and configurations using the CircleCI v2 API. Flags deprecated orbs, provides pinning… | Security Reviewed | 842 | — |
+| [CircleCI Orb Builder](skills/circleci-orb-builder/) | Creates reusable CircleCI Orbs using the CircleCI Orb SDK and circleci/orb-tools@12 pipeline. Packages commands,… | Security Reviewed | 842 | — |
+| [CircleCI Orb Builder and Publisher](skills/circleci-orb-builder-publisher/) | Creates, validates, and publishes CircleCI Orbs using the CircleCI CLI and Orb Registry API. Handles semantic… | Security Reviewed | 842 | — |
+| [CircleCI Orb Composer](skills/circleci-orb-composer-7/) | Composes and validates CircleCI Orbs using the circleci/circleci-cli and circleci/orb-tools-orb SDK. Automates orb… | Security Reviewed | 842 | — |
+| [CircleCI Orb Composition Engine](skills/circleci-orb-composition-engine/) | Composes and publishes CircleCI Orbs using the circleci CLI with orb pack, orb validate, and semantic versioning.… | Security Reviewed | 842 | — |
+| [CircleCI Orb Configuration Manager](skills/circleci-orb-configuration-manager/) | Manages CircleCI pipeline configurations using orbs like circleci/node, circleci/docker, and circleci/aws-s3.… | Security Reviewed | 842 | — |
+| [CircleCI Orb Configurator](skills/circleci-orb-configurator-2/) | Builds and validates CircleCI orb configurations using the CircleCI CLI and Orb Development Kit. Supports orb… | Security Reviewed | 842 | — |
+| [CircleCI Orb Debugger](skills/circleci-orb-debugger/) | Diagnoses and fixes CircleCI orb configuration errors using the CircleCI v2 API and circleci config validate CLI.… | Security Reviewed | 842 | — |
+| [CircleCI Orb Dependency Analyzer](skills/circleci-orb-dependency-analyzer/) | Analyzes CircleCI orb dependencies using the CircleCI v2 API and Orb Registry API. Maps orb version trees, detects… | Security Reviewed | 842 | — |
+| [CircleCI Orb Dependency Auditor](skills/circleci-orb-dependency-auditor-4/) | Audits CircleCI orb dependencies using the CircleCI v2 API and orb registry. Detects outdated orb versions,… | Security Reviewed | 842 | — |
+| [CircleCI Orb Dependency Checker](skills/circleci-orb-dependency-checker/) | Scans CircleCI config.yml for orb version conflicts and breaking changes using the CircleCI Orbs Registry API.… | Security Reviewed | 842 | — |
+| [CircleCI Orb Dependency Scanner](skills/circleci-orb-dependency-scanner-4/) | Scans CircleCI config.yml for outdated orb versions using the CircleCI Orbs Registry API. Reports CVEs linked to orb… | Security Reviewed | 842 | — |
+| [CircleCI Orb Linter](skills/circleci-orb-linter/) | Validates CircleCI configuration files and custom Orbs using the CircleCI CLI (circleci config validate) and Orb… | Security Reviewed | 842 | — |
+| [CircleCI Orb Pipeline Agent](skills/circleci-orb-pipeline-agent/) | Builds and manages CircleCI pipelines using config.yml v2.1, CircleCI API v2, and reusable Orbs. Supports dynamic… | Security Reviewed | 842 | — |
+| [CircleCI Orb Pipeline Composer](skills/circleci-orb-pipeline-composer-2/) | Composes multi-stage CircleCI pipelines using reusable Orbs and the CircleCI v2 API. Supports dynamic config… | Security Reviewed | 842 | — |
+| [CircleCI Orb Pipeline Debugger](skills/circleci-orb-pipeline-debugger/) | Diagnoses CircleCI orb configuration errors and pipeline failures using the CircleCI v2 API. Parses orb YAML… | Security Reviewed | 842 | — |
+| [CircleCI Orb Validator](skills/circleci-orb-validator/) | Validates and lints CircleCI orb configurations using the CircleCI CLI and circleci-config-sdk. Checks for… | Security Reviewed | 842 | — |
+| [CircleCI Pipeline Manager](skills/circleci-pipeline-manager/) | Configure and trigger CircleCI pipelines using the CircleCI v2 API and config.yml orbs. Manages pipeline parameters,… | Security Reviewed | 842 | — |
+| [CircleCI Pipeline Optimizer](skills/circleci-pipeline-optimizer/) | Interfaces with CircleCI API v2 /pipeline and /workflow endpoints to analyze build performance. Identifies slow jobs… | Security Reviewed | 842 | — |
+| [CircleCI Workflow Analyzer](skills/circleci-workflow-analyzer/) | Analyzes and optimizes CircleCI workflows using the CircleCI v2 API. Identifies bottlenecks in job dependency… | Security Reviewed | 842 | — |
+| [CircleCI Workflow Builder](skills/circleci-workflow-builder/) | Generates CircleCI config.yml workflows using the CircleCI Orbs SDK and Workflows API. Supports parallelism tuning… | Security Reviewed | 842 | — |
+| [CircleCI Workflow Cost Auditor](skills/circleci-workflow-cost-auditor/) | Audits CircleCI workflow spend using the CircleCI Insights API and machine-type pricing tables. Identifies jobs… | Security Reviewed | 842 | — |
+| [act Local GitHub Actions Runner](skills/act-local-github-actions-runner/) | act is an open-source CLI tool that runs GitHub Actions workflows locally using Docker, enabling fast feedback on… | Security Reviewed | — | — |
+| [GitHub Actions CI Builder](skills/github-actions-ci-builder/) | Generate and manage GitHub Actions workflow YAML files using the GitHub Actions REST API and workflow_dispatch… | Security Reviewed | — | — |
+| [GitHub Actions CI Pipeline Builder](skills/github-actions-ci-pipeline-builder/) | Generates and manages GitHub Actions workflows using the Workflow YAML syntax and GitHub REST API. Supports matrix… | Security Reviewed | — | — |
+| [GitHub Actions Matrix Build Optimizer](skills/github-actions-matrix-build-optimizer/) | Analyzes GitHub Actions workflow YAML files and optimizes matrix strategies using the actions/setup-node and… | Security Reviewed | — | — |
+| [GitHub Actions Matrix Builder](skills/github-actions-matrix-builder-13/) | Generates dynamic GitHub Actions CI/CD matrix strategies using the GitHub REST API and YAML AST parsing via js-yaml.… | Security Reviewed | — | — |
+| [GitHub Actions Matrix Optimizer](skills/github-actions-matrix-optimizer-2/) | Analyzes GitHub Actions workflow matrix strategies using the GitHub REST API v3 workflow runs endpoint. Identifies… | Security Reviewed | — | — |
+| [GitHub Actions Matrix Strategy Builder](skills/github-actions-matrix-strategy-builder/) | Generates optimized GitHub Actions workflow matrices using the actions/setup-node, actions/cache, and… | Security Reviewed | — | — |
+| [GitHub Actions Pipeline Validator](skills/github-actions-pipeline-validator/) | Validates GitHub Actions workflow YAML files against the Actions schema, checks for deprecated action versions, and… | Security Reviewed | — | — |
+| [GitHub Actions Workflow Builder](skills/github-actions-workflow-builder-skill/) | Generates and validates GitHub Actions YAML workflows using the actions/toolkit SDK and workflow_dispatch event… | Security Reviewed | — | — |
+| [GitHub Actions Workflow Generator](skills/github-actions-workflow-generator-3/) | Generates GitHub Actions workflow YAML files using the GitHub REST API v3 and Actions API. Supports matrix builds,… | Security Reviewed | — | — |
+| [GitHub Actions Workflow Linter](skills/github-actions-workflow-linter-2/) | Validates GitHub Actions YAML workflows using actionlint and the GitHub Actions REST API. Detects invalid step… | Security Reviewed | — | — |
+| [GitHub Actions Workflow Optimizer](skills/github-actions-workflow-optimizer/) | Analyzes GitHub Actions YAML workflows to identify redundant steps, optimize caching strategies, and reduce CI… | Security Reviewed | — | — |
+| [GoReleaser Cross-Platform Release Automation](skills/goreleaser-cross-platform-release-automation/) | Automate software releases with GoReleaser — build cross-platform binaries, create Docker images, generate… | Security Reviewed | — | — |
+| [Harden-Runner CI/CD Security Agent for GitHub Actions](skills/harden-runner-cicd-security-agent-github-actions/) | Harden-Runner by StepSecurity is a CI/CD security agent that works like an EDR for GitHub Actions runners. It… | Security Reviewed | — | — |
+| [npm Audit Dependency Report Generator](skills/npm-audit-dependency-report-generator/) | Generates comprehensive vulnerability reports from npm audit JSON output and the OSV (Open Source Vulnerabilities)… | Security Reviewed | — | — |
 
 
-### 🛠️ Developer Tools (139 skills)
+### 🛠️ Developer Tools (140 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
-| Skill | Tier | GitHub Stars | npm Downloads | Install |
-|---|---|---:|---:|---|
-| [Changesets Version and Changelog Manager](skills/changesets-version-changelog-manager/) | Security Reviewed | 244.2k | 104.8M/wk | `clawhub install changesets-version-changelog-manager` |
-| [Kubernetes MCP Server](skills/kubernetes-mcp-server/) | Security Reviewed | 121.3k | — | `clawhub install kubernetes-mcp-server` |
-| [Kubernetes Pod Crash Diagnostics](skills/kubernetes-pod-crash-diagnostics-3/) | Security Reviewed | 121.3k | — | `clawhub install kubernetes-pod-crash-diagnostics-3` |
-| [Supabase MCP Server](skills/supabase-mcp-server/) | Security Reviewed | 99.5k | 14.6M/wk | `clawhub install supabase-mcp-server` |
-| [Puppeteer DevTools Protocol Recorder](skills/puppeteer-devtools-protocol-recorder/) | Security Reviewed | 93.9k | 8.7M/wk | `clawhub install puppeteer-devtools-protocol-recorder` |
-| [Playwright E2E Test Generator](skills/playwright-e2e-test-generator/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-e2e-test-generator` |
-| [Vite Plugin Hot Module Analyzer](skills/vite-plugin-hmr-analyzer/) | Security Reviewed | 79.3k | 76.3M/wk | `clawhub install vite-plugin-hmr-analyzer` |
-| [Redis MCP Server](skills/redis-mcp-server/) | Security Reviewed | 73.5k | 8.2M/wk | `clawhub install redis-mcp-server` |
-| [Devcontainer Setup Agent](skills/devcontainer-setup-agent/) | Security Reviewed | 71.6k | — | `clawhub install devcontainer-setup-agent` |
-| [Devcontainer Specification Builder](skills/devcontainer-specification-builder/) | Security Reviewed | 71.6k | — | `clawhub install devcontainer-specification-builder` |
-| [Docker Compose Generator Skill](skills/docker-compose-generator-skill/) | Security Reviewed | 71.6k | — | `clawhub install docker-compose-generator-skill` |
-| [Docker Compose Orchestrator](skills/docker-compose-orchestrator-v2/) | Security Reviewed | 71.6k | — | `clawhub install docker-compose-orchestrator-v2` |
-| [Docker Compose Service Graph Visualizer](skills/docker-compose-service-graph-visualizer/) | Security Reviewed | 71.6k | — | `clawhub install docker-compose-service-graph-visualizer` |
-| [Docker Compose Stack Analyzer](skills/docker-compose-stack-analyzer/) | Security Reviewed | 71.6k | — | `clawhub install docker-compose-stack-analyzer` |
-| [Docker Compose Stack Builder](skills/docker-compose-stack-builder-sdk/) | Security Reviewed | 71.6k | — | `clawhub install docker-compose-stack-builder-sdk` |
-| [Docker MCP Server](skills/docker-mcp-server/) | Security Reviewed | 71.6k | — | `clawhub install docker-mcp-server` |
-| [Lefthook Git Hooks Manager](skills/lefthook-git-hooks-manager/) | Security Reviewed | 71.6k | — | `clawhub install lefthook-git-hooks-manager` |
-| [uv Ultra-Fast Python Package and Project Manager](skills/uv-ultra-fast-python-package-project-manager/) | Security Reviewed | 71.6k | — | `clawhub install uv-ultra-fast-python-package-project-manager` |
-| [VS Code Extension Scaffolder](skills/vscode-extension-scaffolder-agent/) | Security Reviewed | 66k | 44.8M/wk | `clawhub install vscode-extension-scaffolder-agent` |
-| [Webpack Bundle Analyzer Agent](skills/webpack-bundle-analyzer-agent/) | Security Reviewed | 66k | 44.8M/wk | `clawhub install webpack-bundle-analyzer-agent` |
-| [Mise Dev Tool Version Manager](skills/mise-dev-tool-version-manager/) | Security Reviewed | 48k | — | `clawhub install mise-dev-tool-version-manager` |
-| [Terraform Cloud MCP Server](skills/terraform-cloud-mcp-server/) | Security Reviewed | 48k | — | `clawhub install terraform-cloud-mcp-server` |
-| [Terraform Module Scaffolder](skills/terraform-module-scaffolder-hcl-sdk/) | Security Reviewed | 48k | — | `clawhub install terraform-module-scaffolder-hcl-sdk` |
-| [LlamaIndex Agent](skills/llamaindex-agent/) | Security Reviewed | 47.9k | 125.7k/wk | `clawhub install llamaindex-agent` |
-| [LlamaIndex MCP Server](skills/llamaindex-mcp-server/) | Security Reviewed | 47.9k | 125.7k/wk | `clawhub install llamaindex-mcp-server` |
-| [Obsidian Vault Manager](skills/obsidian-vault-manager/) | Security Reviewed | 35.3k | — | `clawhub install obsidian-vault-manager` |
-| [Nginx Error Log Parser](skills/nginx-error-log-parser/) | Security Reviewed | 29.8k | — | `clawhub install nginx-error-log-parser` |
-| [API Client Generator Skill](skills/api-client-generator-skill/) | Security Reviewed | 28.7k | 3.2M/wk | `clawhub install api-client-generator-skill` |
-| [Biome Lint Migration Toolkit](skills/biome-lint-migration-toolkit/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install biome-lint-migration-toolkit` |
-| [ESLint Code Review](skills/eslint-code-review/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-code-review` |
-| [ESLint Rule Generator Agent](skills/eslint-rule-generator-agent/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-rule-generator-agent` |
-| [TypeScript AST Refactor](skills/typescript-ast-refactor-ts-morph/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install typescript-ast-refactor-ts-morph` |
-| [Jenkins MCP Server](skills/jenkins-mcp-server/) | Security Reviewed | 25.1k | — | `clawhub install jenkins-mcp-server` |
-| [Pulumi MCP Server](skills/pulumi-mcp-server/) | Security Reviewed | 24.9k | 1.5M/wk | `clawhub install pulumi-mcp-server` |
-| [CI Pipeline Generator Skill](skills/ci-pipeline-generator-skill/) | Security Reviewed | 24.3k | — | `clawhub install ci-pipeline-generator-skill` |
-| [ArgoCD MCP Server](skills/argocd-mcp-server/) | Security Reviewed | 22.4k | — | `clawhub install argocd-mcp-server` |
-| [Git Branch Analyzer](skills/git-branch-analyzer-libgit2/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install git-branch-analyzer-libgit2` |
-| [Linear Issue Manager](skills/linear-issue-manager/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install linear-issue-manager` |
-| [LangChain MCP Server](skills/langchain-mcp-server/) | Security Reviewed | 17.3k | 2.1M/wk | `clawhub install langchain-mcp-server` |
-| [Turborepo Monorepo Build System](skills/turborepo-monorepo-build-system/) | Security Reviewed | 15.1k | 2.1M/wk | `clawhub install turborepo-monorepo-build-system` |
-| [OpenAPI Spec Validator](skills/openapi-spec-validator-agent/) | Security Reviewed | 14.9k | — | `clawhub install openapi-spec-validator-agent` |
-| [Regex Pattern Test Suite Generator](skills/regex-pattern-test-suite-generator/) | Security Reviewed | 13.7k | — | `clawhub install regex-pattern-test-suite-generator` |
-| [OpenAI MCP Server](skills/openai-mcp-server/) | Security Reviewed | 10.8k | 16.3M/wk | `clawhub install openai-mcp-server` |
-| [SonarQube Code Analysis](skills/sonarqube-code-analysis/) | Security Reviewed | 10.4k | — | `clawhub install sonarqube-code-analysis` |
-| [MongoDB MCP Server](skills/mongodb-mcp-server/) | Security Reviewed | 10.2k | 10.9M/wk | `clawhub install mongodb-mcp-server` |
-| [Atuin Shell History Database and Sync](skills/atuin-shell-history-database-sync/) | Security Reviewed | 7k | 5M/wk | `clawhub install atuin-shell-history-database-sync` |
-| [SQLite Analyst](skills/sqlite-analyst/) | Security Reviewed | 7k | 5M/wk | `clawhub install sqlite-analyst` |
-| [Notion Workspace Agent](skills/notion-workspace-agent/) | Security Reviewed | 5.6k | 1.1M/wk | `clawhub install notion-workspace-agent` |
-| [Webhook Debugger](skills/webhook-debugger/) | Security Reviewed | 4.4k | 8.4M/wk | `clawhub install webhook-debugger` |
-| [MySQL Query Agent](skills/mysql-query-agent/) | Security Reviewed | 4.3k | 8.7M/wk | `clawhub install mysql-query-agent` |
-| [AWS Lambda MCP Server](skills/aws-lambda-mcp-server/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-lambda-mcp-server` |
-| [AWS S3 MCP Server](skills/aws-s3-mcp-server/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-s3-mcp-server` |
-| [Cloud Cost Analysis](skills/cloud-cost-analysis/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install cloud-cost-analysis` |
-| [DynamoDB Manager](skills/dynamodb-manager/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install dynamodb-manager` |
-| [CircleCI MCP Server](skills/circleci-mcp-server/) | Security Reviewed | 842 | — | `clawhub install circleci-mcp-server` |
-| [pgroll PostgreSQL Zero-Downtime Schema Migration](skills/pgroll-postgresql-zero-downtime-schema-migration/) | Security Reviewed | — | 21.4M/wk | `clawhub install pgroll-postgresql-zero-downtime-schema-migration` |
-| [PostgreSQL Query Optimizer Agent](skills/postgresql-query-optimizer-explain-api/) | Security Reviewed | — | 21.4M/wk | `clawhub install postgresql-query-optimizer-explain-api` |
-| [PostgreSQL Query Plan Analyzer](skills/postgresql-query-plan-analyzer-2/) | Security Reviewed | — | 21.4M/wk | `clawhub install postgresql-query-plan-analyzer-2` |
-| [sqlc Type-Safe SQL Code Generator](skills/sqlc-type-safe-sql-code-generator/) | Security Reviewed | — | 21.4M/wk | `clawhub install sqlc-type-safe-sql-code-generator` |
-| [Aider AI Pair Programming CLI Agent](skills/aider-ai-pair-programming-cli-agent/) | Verified Metadata | — | — | `clawhub install aider-ai-pair-programming-cli-agent` |
-| [bat Syntax-Highlighting Cat Replacement](skills/bat-syntax-highlighting-cat-replacement/) | Security Reviewed | — | — | `clawhub install bat-syntax-highlighting-cat-replacement` |
-| [Bazel Build Graph Analyzer](skills/bazel-build-graph-analyzer/) | Security Reviewed | — | — | `clawhub install bazel-build-graph-analyzer` |
-| [Bruno Git-Native API Client for Testing and Exploration](skills/bruno-git-native-api-client-testing-exploration/) | Verified Metadata | — | — | `clawhub install bruno-git-native-api-client-testing-exploration` |
-| [Bun Shell Script Executor](skills/bun-shell-script-executor/) | Security Reviewed | — | — | `clawhub install bun-shell-script-executor` |
-| [chezmoi Cross-Machine Dotfiles Manager](skills/chezmoi-dotfiles-manager/) | Verified Metadata | — | — | `clawhub install chezmoi-dotfiles-manager` |
-| [Claude Code MCP Bridge](skills/claude-code-mcp-bridge/) | Security Reviewed | — | — | `clawhub install claude-code-mcp-bridge` |
-| [dbmate Lightweight Database Migration CLI](skills/dbmate-lightweight-database-migration-cli/) | Verified Metadata | — | — | `clawhub install dbmate-lightweight-database-migration-cli` |
-| [delta Syntax-Highlighting Git Diff Pager](skills/delta-syntax-highlighting-git-diff-pager/) | Verified Metadata | — | — | `clawhub install delta-syntax-highlighting-git-diff-pager` |
-| [Drizzle ORM TypeScript SQL Database Toolkit](skills/drizzle-orm-typescript-sql-database-toolkit/) | Verified Metadata | — | — | `clawhub install drizzle-orm-typescript-sql-database-toolkit` |
-| [dust Intuitive Disk Usage Analyzer CLI](skills/dust-intuitive-disk-usage-analyzer-cli/) | Verified Metadata | — | — | `clawhub install dust-intuitive-disk-usage-analyzer-cli` |
-| [E2B Code Execution MCP](skills/e2b-code-execution-mcp/) | Security Reviewed | — | — | `clawhub install e2b-code-execution-mcp` |
-| [esbuild Ultra-Fast JavaScript Bundler](skills/esbuild-ultra-fast-javascript-bundler/) | Verified Metadata | — | — | `clawhub install esbuild-ultra-fast-javascript-bundler` |
-| [eza Modern File Listing CLI](skills/eza-modern-file-listing-cli/) | Verified Metadata | — | — | `clawhub install eza-modern-file-listing-cli` |
-| [Fabric AI Prompt Pattern Framework](skills/fabric-ai-prompt-pattern-framework/) | Verified Metadata | — | — | `clawhub install fabric-ai-prompt-pattern-framework` |
-| [fd Fast File Finder CLI](skills/fd-fast-file-finder-cli/) | Verified Metadata | — | — | `clawhub install fd-fast-file-finder-cli` |
-| [Freeze Code and Terminal Screenshot Generator](skills/freeze-code-terminal-screenshot-generator/) | Verified Metadata | — | — | `clawhub install freeze-code-terminal-screenshot-generator` |
-| [Frontend Design Guidance Skill](skills/frontend-design-guidance-skill/) | Security Reviewed | — | — | `clawhub install frontend-design-guidance-skill` |
-| [fzf Command-Line Fuzzy Finder](skills/fzf-command-line-fuzzy-finder/) | Security Reviewed | — | — | `clawhub install fzf-command-line-fuzzy-finder` |
-| [Git Bisect Automator](skills/git-bisect-automator/) | Security Reviewed | — | — | `clawhub install git-bisect-automator` |
-| [Git Diff Complexity Analyzer](skills/git-diff-complexity-analyzer/) | Security Reviewed | — | — | `clawhub install git-diff-complexity-analyzer` |
-| [git-absorb Automatic Fixup Commit Generator](skills/git-absorb-automatic-fixup-commit-generator/) | Verified Metadata | — | — | `clawhub install git-absorb-automatic-fixup-commit-generator` |
-| [GitButler Virtual Branch Git Client](skills/gitbutler-virtual-branch-git-client/) | Verified Metadata | — | — | `clawhub install gitbutler-virtual-branch-git-client` |
-| [GitHub MCP Server for AI-Powered Repository Management](skills/github-mcp-server-ai-repository-management/) | Verified Metadata | — | — | `clawhub install github-mcp-server-ai-repository-management` |
-| [Gitoxide Pure Rust Git Implementation and Library](skills/gitoxide-pure-rust-git-implementation/) | Verified Metadata | — | — | `clawhub install gitoxide-pure-rust-git-implementation` |
-| [gitu Magit-Inspired Terminal Git Interface](skills/gitu-magit-inspired-terminal-git-interface/) | Verified Metadata | — | — | `clawhub install gitu-magit-inspired-terminal-git-interface` |
-| [GitUI Blazing Fast Terminal Git Interface](skills/gitui-terminal-git-interface/) | Verified Metadata | — | — | `clawhub install gitui-terminal-git-interface` |
-| [Glow Terminal Markdown Renderer](skills/glow-terminal-markdown-renderer/) | Verified Metadata | — | — | `clawhub install glow-terminal-markdown-renderer` |
-| [Goose Extensible AI Coding Agent by Block](skills/goose-extensible-ai-coding-agent-block/) | Verified Metadata | — | — | `clawhub install goose-extensible-ai-coding-agent-block` |
-| [grex Regular Expression Generator from Test Cases](skills/grex-regex-generator-from-test-cases/) | Verified Metadata | — | — | `clawhub install grex-regex-generator-from-test-cases` |
-| [grpcurl Command-Line gRPC Client](skills/grpcurl-command-line-grpc-client/) | Verified Metadata | — | — | `clawhub install grpcurl-command-line-grpc-client` |
-| [Gum Interactive Shell Script Toolkit](skills/gum-interactive-shell-script-toolkit/) | Security Reviewed | — | — | `clawhub install gum-interactive-shell-script-toolkit` |
-| [Hoppscotch Open Source API Development Ecosystem](skills/hoppscotch-api-development-ecosystem/) | Verified Metadata | — | — | `clawhub install hoppscotch-api-development-ecosystem` |
-| [HTTPie CLI API Testing and Debugging Client](skills/httpie-cli-api-testing-debugging-client/) | Verified Metadata | — | — | `clawhub install httpie-cli-api-testing-debugging-client` |
-| [Hurl Declarative HTTP Request Runner and Tester](skills/hurl-declarative-http-request-runner-tester/) | Verified Metadata | — | — | `clawhub install hurl-declarative-http-request-runner-tester` |
-| [Hyperfine Command-Line Benchmarking Tool](skills/hyperfine-command-line-benchmarking-tool/) | Security Reviewed | — | — | `clawhub install hyperfine-command-line-benchmarking-tool` |
-| [Jira Advanced Query Agent](skills/jira-advanced-query-agent/) | Security Reviewed | — | — | `clawhub install jira-advanced-query-agent` |
-| [Jujutsu Git-Compatible Version Control System](skills/jujutsu-jj-git-compatible-vcs/) | Verified Metadata | — | — | `clawhub install jujutsu-jj-git-compatible-vcs` |
-| [Just Command Runner](skills/just-command-runner/) | Security Reviewed | — | — | `clawhub install just-command-runner` |
-| [k6 Load Testing and Performance Benchmarking Tool](skills/k6-load-testing-performance-benchmarking-tool/) | Verified Metadata | — | — | `clawhub install k6-load-testing-performance-benchmarking-tool` |
-| [K9s Kubernetes Terminal Dashboard](skills/k9s-kubernetes-terminal-dashboard/) | Verified Metadata | — | — | `clawhub install k9s-kubernetes-terminal-dashboard` |
-| [LazyDocker Terminal UI for Docker Management](skills/lazydocker-terminal-docker-management/) | Verified Metadata | — | — | `clawhub install lazydocker-terminal-docker-management` |
-| [lazygit Terminal UI for Git Operations](skills/lazygit-terminal-ui-git-operations/) | Security Reviewed | — | — | `clawhub install lazygit-terminal-ui-git-operations` |
-| [libSQL Edge-Ready SQLite Fork by Turso](skills/libsql-edge-sqlite-fork-turso/) | Verified Metadata | — | — | `clawhub install libsql-edge-sqlite-fork-turso` |
-| [Litestream SQLite Streaming Replication](skills/litestream-sqlite-streaming-replication/) | Verified Metadata | — | — | `clawhub install litestream-sqlite-streaming-replication` |
-| [LLDB Debug Session Automator](skills/lldb-debug-session-automator/) | Security Reviewed | — | — | `clawhub install lldb-debug-session-automator` |
-| [lsd Next-Generation ls Directory Listing Tool](skills/lsd-next-gen-ls-directory-listing/) | Verified Metadata | — | — | `clawhub install lsd-next-gen-ls-directory-listing` |
-| [Makefile Dependency Auditor](skills/makefile-dependency-auditor/) | Security Reviewed | — | — | `clawhub install makefile-dependency-auditor` |
-| [Mastra TypeScript AI Agent Framework](skills/mastra-typescript-ai-agent-framework/) | Verified Metadata | — | — | `clawhub install mastra-typescript-ai-agent-framework` |
-| [n8n GitHub Issue-to-Jira Ticket Automator](skills/n8n-github-jira-ticket-automator/) | Verified Metadata | — | — | `clawhub install n8n-github-jira-ticket-automator` |
-| [navi Interactive CLI Cheatsheet Tool](skills/navi-interactive-cli-cheatsheet-tool/) | Verified Metadata | — | — | `clawhub install navi-interactive-cli-cheatsheet-tool` |
-| [Nix Flake Configuration Builder](skills/nix-flake-configuration-builder/) | Security Reviewed | — | — | `clawhub install nix-flake-configuration-builder` |
-| [NPM Package Auditor](skills/npm-package-auditor-registry-api/) | Security Reviewed | — | — | `clawhub install npm-package-auditor-registry-api` |
-| [Nushell Structured Data Shell](skills/nushell-structured-data-shell/) | Verified Metadata | — | — | `clawhub install nushell-structured-data-shell` |
-| [OpenCode Multi-Model AI Coding Agent CLI](skills/opencode-multi-model-ai-coding-agent-cli/) | Verified Metadata | — | — | `clawhub install opencode-multi-model-ai-coding-agent-cli` |
-| [Package Vulnerability Scanner](skills/package-vuln-scanner-osv-api/) | Security Reviewed | — | — | `clawhub install package-vuln-scanner-osv-api` |
-| [pgcli Interactive PostgreSQL Client with Autocompletion](skills/pgcli-interactive-postgresql-client/) | Verified Metadata | — | — | `clawhub install pgcli-interactive-postgresql-client` |
-| [pnpm Fast Disk-Efficient Package Manager](skills/pnpm-fast-disk-efficient-package-manager/) | Verified Metadata | — | — | `clawhub install pnpm-fast-disk-efficient-package-manager` |
-| [Posting Terminal API Client](skills/posting-terminal-api-client/) | Verified Metadata | — | — | `clawhub install posting-terminal-api-client` |
-| [procs Modern Process Viewer CLI](skills/procs-modern-process-viewer-cli/) | Verified Metadata | — | — | `clawhub install procs-modern-process-viewer-cli` |
-| [quicktype JSON Schema to Typed Code Generator](skills/quicktype-json-schema-code-generator/) | Verified Metadata | — | — | `clawhub install quicktype-json-schema-code-generator` |
-| [Repomix Codebase Context Packer for LLMs](skills/repomix-codebase-context-packer-llm/) | Security Reviewed | — | — | `clawhub install repomix-codebase-context-packer-llm` |
-| [Restic Fast Encrypted Backup Program](skills/restic-encrypted-backup-tool/) | Verified Metadata | — | — | `clawhub install restic-encrypted-backup-tool` |
-| [ripgrep Recursive Regex Search Tool](skills/ripgrep-recursive-regex-search-tool/) | Security Reviewed | — | — | `clawhub install ripgrep-recursive-regex-search-tool` |
-| [Slidev Markdown Presentation Slides for Developers](skills/slidev-markdown-presentation-slides-developers/) | Verified Metadata | — | — | `clawhub install slidev-markdown-presentation-slides-developers` |
-| [sqlite-vec Vector Search Extension for SQLite](skills/sqlite-vec-vector-search-extension-sqlite/) | Verified Metadata | — | — | `clawhub install sqlite-vec-vector-search-extension-sqlite` |
-| [Starship Cross-Shell Prompt Configurator](skills/starship-cross-shell-prompt-configurator/) | Verified Metadata | — | — | `clawhub install starship-cross-shell-prompt-configurator` |
-| [Task Taskfile Build Automation Runner](skills/task-taskfile-build-automation-runner/) | Verified Metadata | — | — | `clawhub install task-taskfile-build-automation-runner` |
-| [Terraform MCP Server for Infrastructure as Code](skills/terraform-mcp-server-infrastructure-as-code/) | Verified Metadata | — | — | `clawhub install terraform-mcp-server-infrastructure-as-code` |
-| [Topgrade Universal System Package Updater](skills/topgrade-universal-system-package-updater/) | Verified Metadata | — | — | `clawhub install topgrade-universal-system-package-updater` |
-| [tRPC End-to-End Typesafe API Framework](skills/trpc-end-to-end-typesafe-api-framework/) | Verified Metadata | — | — | `clawhub install trpc-end-to-end-typesafe-api-framework` |
-| [VHS Terminal Session Recorder and GIF Generator](skills/vhs-terminal-session-recorder-gif-generator/) | Verified Metadata | — | — | `clawhub install vhs-terminal-session-recorder-gif-generator` |
-| [Volta JavaScript Toolchain Version Manager](skills/volta-javascript-toolchain-manager/) | Verified Metadata | — | — | `clawhub install volta-javascript-toolchain-manager` |
-| [VS Code Extension Debugger](skills/vscode-extension-debugger-dap-protocol/) | Security Reviewed | — | — | `clawhub install vscode-extension-debugger-dap-protocol` |
-| [WASM Component Model Linker](skills/wasm-component-model-linker/) | Security Reviewed | — | — | `clawhub install wasm-component-model-linker` |
-| [watchexec File Watcher and Command Re-Runner](skills/watchexec-file-watcher-command-rerunner/) | Verified Metadata | — | — | `clawhub install watchexec-file-watcher-command-rerunner` |
-| [Yazi Async Terminal File Manager](skills/yazi-async-terminal-file-manager/) | Verified Metadata | — | — | `clawhub install yazi-async-terminal-file-manager` |
-| [Zellij Terminal Workspace and Multiplexer](skills/zellij-terminal-workspace-multiplexer/) | Verified Metadata | — | — | `clawhub install zellij-terminal-workspace-multiplexer` |
-| [zoxide Smart Directory Navigation CLI](skills/zoxide-smart-directory-navigation-cli/) | Verified Metadata | — | — | `clawhub install zoxide-smart-directory-navigation-cli` |
-| [zx JavaScript Shell Script Runner](skills/zx-javascript-shell-script-runner/) | Verified Metadata | — | — | `clawhub install zx-javascript-shell-script-runner` |
+| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
+|---|---|---|---:|---:|
+| [Changesets Version and Changelog Manager](skills/changesets-version-changelog-manager/) | Use Changesets to manage package versioning and changelogs in monorepos and single-package repositories. Automates… | Security Reviewed | 244.2k | 104.8M/wk |
+| [Kubernetes MCP Server](skills/kubernetes-mcp-server/) | Kubernetes MCP Server is built around Kubernetes orchestration platform. The underlying ecosystem is represented by… | Security Reviewed | 121.3k | — |
+| [Kubernetes Pod Crash Diagnostics](skills/kubernetes-pod-crash-diagnostics-3/) | Runs kubectl describe pod, kubectl logs --previous, and kubectl get events to diagnose CrashLoopBackOff and… | Security Reviewed | 121.3k | — |
+| [Supabase MCP Server](skills/supabase-mcp-server/) | Supabase MCP Server is built around Supabase developer platform. The underlying ecosystem is represented by… | Security Reviewed | 99.5k | 14.6M/wk |
+| [Puppeteer DevTools Protocol Recorder](skills/puppeteer-devtools-protocol-recorder/) | Records and replays Chrome DevTools Protocol (CDP) sessions via Puppeteer's CDPSession API, captures Network,… | Security Reviewed | 93.9k | 8.7M/wk |
+| [Playwright E2E Test Generator](skills/playwright-e2e-test-generator/) | Generates Playwright test suites from natural language descriptions using the Playwright Test API. Supports… | Security Reviewed | 84.9k | 39.8M/wk |
+| [Vite Plugin Hot Module Analyzer](skills/vite-plugin-hmr-analyzer/) | Monitors and analyzes Vite HMR (Hot Module Replacement) update chains using the vite.config.ts plugin API and ws… | Security Reviewed | 79.3k | 76.3M/wk |
+| [Redis MCP Server](skills/redis-mcp-server/) | Redis MCP Server is built around Redis in-memory datastore. The underlying ecosystem is represented by redis/redis… | Security Reviewed | 73.5k | 8.2M/wk |
+| [Devcontainer Setup Agent](skills/devcontainer-setup-agent/) | Devcontainer Setup Agent is built around Docker container platform. The underlying ecosystem is represented by… | Security Reviewed | 71.6k | — |
+| [Devcontainer Specification Builder](skills/devcontainer-specification-builder/) | Generates dev container specifications with feature composition and lifecycle hooks. Uses the Dev Container… | Security Reviewed | 71.6k | — |
+| [Docker Compose Generator Skill](skills/docker-compose-generator-skill/) | Docker Compose Generator Skill is built around Docker container platform. The underlying ecosystem is represented by… | Security Reviewed | 71.6k | — |
+| [Docker Compose Orchestrator](skills/docker-compose-orchestrator-v2/) | Manages multi-service Docker Compose environments using the Compose V2 Go API and Docker Engine SDK. Handles health… | Security Reviewed | 71.6k | — |
+| [Docker Compose Service Graph Visualizer](skills/docker-compose-service-graph-visualizer/) | Parses docker-compose.yml files using PyYAML and generates interactive dependency graphs with Graphviz and D3.js.… | Security Reviewed | 71.6k | — |
+| [Docker Compose Stack Analyzer](skills/docker-compose-stack-analyzer/) | Analyzes Docker Compose configurations for security, networking, and resource optimization using the Docker Engine… | Security Reviewed | 71.6k | — |
+| [Docker Compose Stack Builder](skills/docker-compose-stack-builder-sdk/) | Builds multi-service Docker Compose stacks using Docker Engine SDK for Python with automatic health check… | Security Reviewed | 71.6k | — |
+| [Docker MCP Server](skills/docker-mcp-server/) | Docker MCP Server is built around Docker container platform. The underlying ecosystem is represented by moby/moby… | Security Reviewed | 71.6k | — |
+| [Lefthook Git Hooks Manager](skills/lefthook-git-hooks-manager/) | Lefthook is a fast, dependency-free Git hooks manager written in Go that runs pre-commit, pre-push, and custom hook… | Security Reviewed | 71.6k | — |
+| [uv Ultra-Fast Python Package and Project Manager](skills/uv-ultra-fast-python-package-project-manager/) | uv is an extremely fast Python package and project manager written in Rust by Astral (creators of Ruff). It replaces… | Security Reviewed | 71.6k | — |
+| [VS Code Extension Scaffolder](skills/vscode-extension-scaffolder-agent/) | Scaffolds VS Code extensions using the vscode-extension API with TypeScript, including commands, webview panels,… | Security Reviewed | 66k | 44.8M/wk |
+| [Webpack Bundle Analyzer Agent](skills/webpack-bundle-analyzer-agent/) | Analyzes webpack bundle composition using webpack-bundle-analyzer and source-map-explorer APIs. Identifies duplicate… | Security Reviewed | 66k | 44.8M/wk |
+| [Mise Dev Tool Version Manager](skills/mise-dev-tool-version-manager/) | Use mise (mise-en-place) to manage development tool versions, environment variables, and task running from a single… | Published | 48k | — |
+| [Terraform Cloud MCP Server](skills/terraform-cloud-mcp-server/) | Terraform Cloud MCP Server is built around Terraform infrastructure as code. The underlying ecosystem is represented… | Security Reviewed | 48k | — |
+| [Terraform Module Scaffolder](skills/terraform-module-scaffolder-hcl-sdk/) | Scaffolds Terraform modules using the HCL SDK with provider schema introspection and automatic variable extraction.… | Security Reviewed | 48k | — |
+| [LlamaIndex Agent](skills/llamaindex-agent/) | LlamaIndex Agent is built around LlamaIndex framework for LLM data access. The underlying ecosystem is represented… | Security Reviewed | 47.9k | 125.7k/wk |
+| [LlamaIndex MCP Server](skills/llamaindex-mcp-server/) | LlamaIndex MCP Server is built around LlamaIndex framework for LLM data access. The underlying ecosystem is… | Security Reviewed | 47.9k | 125.7k/wk |
+| [Obsidian Vault Manager](skills/obsidian-vault-manager/) | Obsidian Vault Manager is built around HashiCorp Vault secrets platform. The underlying ecosystem is represented by… | Security Reviewed | 35.3k | — |
+| [Nginx Error Log Parser](skills/nginx-error-log-parser/) | Parses nginx error.log and access.log files using pattern matching for 5xx status codes, upstream timeouts, and SSL… | Security Reviewed | 29.8k | — |
+| [API Client Generator Skill](skills/api-client-generator-skill/) | API Client Generator Skill is built around Swagger/OpenAPI tooling. The underlying ecosystem is represented by… | Security Reviewed | 28.7k | 3.2M/wk |
+| [Biome Lint Migration Toolkit](skills/biome-lint-migration-toolkit/) | Automates migration from ESLint and Prettier to Biome (formerly Rome) by parsing .eslintrc and .prettierrc configs,… | Security Reviewed | 27.2k | 109M/wk |
+| [ESLint Code Review](skills/eslint-code-review/) | ESLint Code Review is built around ESLint static analysis for JavaScript and TypeScript. The underlying ecosystem is… | Security Reviewed | 27.2k | 109M/wk |
+| [ESLint Rule Generator Agent](skills/eslint-rule-generator-agent/) | Generates custom ESLint rules from natural language descriptions using the ESLint RuleTester API and AST selectors.… | Security Reviewed | 27.2k | 109M/wk |
+| [TypeScript AST Refactor](skills/typescript-ast-refactor-ts-morph/) | Performs automated TypeScript refactoring using ts-morph and the TypeScript Compiler API. Handles rename operations,… | Security Reviewed | 27.2k | 109M/wk |
+| [Jenkins MCP Server](skills/jenkins-mcp-server/) | Jenkins MCP Server is built around Jenkins automation server. The underlying ecosystem is represented by… | Security Reviewed | 25.1k | — |
+| [Pulumi MCP Server](skills/pulumi-mcp-server/) | Pulumi MCP Server is built around Pulumi infrastructure as code platform. The underlying ecosystem is represented by… | Security Reviewed | 24.9k | 1.5M/wk |
+| [CI Pipeline Generator Skill](skills/ci-pipeline-generator-skill/) | CI Pipeline Generator Skill is built around GitLab DevSecOps platform. The underlying ecosystem is represented by… | Security Reviewed | 24.3k | — |
+| [ArgoCD MCP Server](skills/argocd-mcp-server/) | ArgoCD MCP Server is built around Argo CD GitOps deployment controller for Kubernetes. The underlying ecosystem is… | Security Reviewed | 22.4k | — |
+| [Git Branch Analyzer](skills/git-branch-analyzer-libgit2/) | Analyzes Git repository branch topology using libgit2 bindings and git-log parsing. Identifies stale branches, merge… | Security Reviewed | 20.3k | 32M/wk |
+| [Linear Issue Manager](skills/linear-issue-manager/) | Linear Issue Manager is built around GraphQL API ecosystem. The underlying ecosystem is represented by… | Security Reviewed | 20.3k | 32M/wk |
+| [LangChain MCP Server](skills/langchain-mcp-server/) | LangChain MCP Server is built around LangChain framework for LLM applications. The underlying ecosystem is… | Security Reviewed | 17.3k | 2.1M/wk |
+| [Turborepo Monorepo Build System](skills/turborepo-monorepo-build-system/) | Use Turborepo to orchestrate builds, tests, and tasks across JavaScript and TypeScript monorepos with intelligent… | Security Reviewed | 15.1k | 2.1M/wk |
+| [OpenAPI Spec Validator](skills/openapi-spec-validator-agent/) | Validates and lints OpenAPI 3.0/3.1 specifications using Spectral CLI rules and the Swagger Parser library. Detects… | Security Reviewed | 14.9k | — |
+| [Regex Pattern Test Suite Generator](skills/regex-pattern-test-suite-generator/) | Generates comprehensive test suites for regular expressions using Hypothesis property-based testing and re2 for safe… | Security Reviewed | 13.7k | — |
+| [OpenAI MCP Server](skills/openai-mcp-server/) | OpenAI MCP Server is built around OpenAI API platform. The underlying ecosystem is represented by openai/openai-node… | Security Reviewed | 10.8k | 16.3M/wk |
+| [SonarQube Code Analysis](skills/sonarqube-code-analysis/) | SonarQube Code Analysis is built around SonarQube code quality platform. The underlying ecosystem is represented by… | Security Reviewed | 10.4k | — |
+| [MongoDB MCP Server](skills/mongodb-mcp-server/) | MongoDB MCP Server is built around MongoDB document database. The underlying ecosystem is represented by… | Security Reviewed | 10.2k | 10.9M/wk |
+| [Atuin Shell History Database and Sync](skills/atuin-shell-history-database-sync/) | Atuin replaces your existing shell history with a SQLite database that records additional context like exit codes,… | Security Reviewed | 7k | 5M/wk |
+| [SQLite Analyst](skills/sqlite-analyst/) | SQLite Analyst is built around SQLite embedded database. The underlying ecosystem is represented by… | Security Reviewed | 7k | 5M/wk |
+| [Notion Workspace Agent](skills/notion-workspace-agent/) | Notion Workspace Agent is built around Notion workspace and database platform. The underlying ecosystem is… | Security Reviewed | 5.6k | 1.1M/wk |
+| [Webhook Debugger](skills/webhook-debugger/) | Webhook Debugger is built around Stripe payments platform. The underlying ecosystem is represented by… | Security Reviewed | 4.4k | 8.4M/wk |
+| [MySQL Query Agent](skills/mysql-query-agent/) | MySQL Query Agent is built around MySQL relational database. The underlying ecosystem is represented by… | Security Reviewed | 4.3k | 8.7M/wk |
+| [AWS Lambda MCP Server](skills/aws-lambda-mcp-server/) | AWS Lambda MCP Server is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by… | Security Reviewed | 3.6k | 9.2M/wk |
+| [AWS S3 MCP Server](skills/aws-s3-mcp-server/) | AWS S3 MCP Server is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by… | Security Reviewed | 3.6k | 9.2M/wk |
+| [Cloud Cost Analysis](skills/cloud-cost-analysis/) | Cloud Cost Analysis is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by… | Security Reviewed | 3.6k | 9.2M/wk |
+| [DynamoDB Manager](skills/dynamodb-manager/) | DynamoDB Manager is built around Amazon DynamoDB NoSQL database. The underlying ecosystem is represented by… | Security Reviewed | 3.6k | 9.2M/wk |
+| [CircleCI MCP Server](skills/circleci-mcp-server/) | CircleCI MCP Server is built around CircleCI continuous integration platform. The underlying ecosystem is… | Security Reviewed | 842 | — |
+| [pgroll PostgreSQL Zero-Downtime Schema Migration](skills/pgroll-postgresql-zero-downtime-schema-migration/) | pgroll is an open-source CLI tool by Xata that performs zero-downtime, reversible schema migrations for PostgreSQL.… | Security Reviewed | — | 21.4M/wk |
+| [PostgreSQL Query Optimizer Agent](skills/postgresql-query-optimizer-explain-api/) | Optimizes PostgreSQL queries using EXPLAIN ANALYZE output parsing with pg_stat_statements extension data. Suggests… | Security Reviewed | — | 21.4M/wk |
+| [PostgreSQL Query Plan Analyzer](skills/postgresql-query-plan-analyzer-2/) | Executes EXPLAIN ANALYZE BUFFERS on slow PostgreSQL queries and parses the plan tree for sequential scans, nested… | Security Reviewed | — | 21.4M/wk |
+| [sqlc Type-Safe SQL Code Generator](skills/sqlc-type-safe-sql-code-generator/) | sqlc is a SQL compiler that generates type-safe Go, Python, Kotlin, and TypeScript code from plain SQL queries. You… | Security Reviewed | — | 21.4M/wk |
+| [Aider AI Pair Programming CLI Agent](skills/aider-ai-pair-programming-cli-agent/) | Aider is an open-source AI pair programming tool that runs in your terminal, letting you collaborate with LLMs to… | Security Reviewed | — | — |
+| [bat Syntax-Highlighting Cat Replacement](skills/bat-syntax-highlighting-cat-replacement/) | bat is a cat(1) clone written in Rust that adds syntax highlighting for over 200 languages, Git integration showing… | Security Reviewed | — | — |
+| [Bazel Build Graph Analyzer](skills/bazel-build-graph-analyzer/) | Analyzes Bazel build dependency graphs to identify bottlenecks and optimize build times. Uses the Bazel Query… | Security Reviewed | — | — |
+| [Bruno Git-Native API Client for Testing and Exploration](skills/bruno-git-native-api-client-testing-exploration/) | Bruno is an open-source, offline-first API client that stores collections as plain-text .bru files on your… | Security Reviewed | — | — |
+| [Bun Shell Script Executor](skills/bun-shell-script-executor/) | Leverages Bun's built-in $ shell API (Bun.Shell) to orchestrate cross-platform shell scripts from TypeScript with… | Security Reviewed | — | — |
+| [chezmoi Cross-Machine Dotfiles Manager](skills/chezmoi-dotfiles-manager/) | chezmoi manages dotfiles across multiple machines securely using a Git-backed source-of-truth model with templates,… | Security Reviewed | — | — |
+| [Claude Code MCP Bridge](skills/claude-code-mcp-bridge/) | Run Claude Code as a one-shot MCP tool so other agents and editors can delegate coding tasks to it. An… | Security Reviewed | — | — |
+| [dbmate Lightweight Database Migration CLI](skills/dbmate-lightweight-database-migration-cli/) | dbmate is a standalone, framework-agnostic database migration tool that uses plain SQL files. It supports… | Security Reviewed | — | — |
+| [delta Syntax-Highlighting Git Diff Pager](skills/delta-syntax-highlighting-git-diff-pager/) | A syntax-highlighting pager for git diff, grep, and blame output built in Rust. Provides word-level diff… | Security Reviewed | — | — |
+| [Drizzle ORM TypeScript SQL Database Toolkit](skills/drizzle-orm-typescript-sql-database-toolkit/) | Drizzle ORM is a lightweight TypeScript ORM that provides type-safe SQL schema declarations, relational and SQL-like… | Security Reviewed | — | — |
+| [dust Intuitive Disk Usage Analyzer CLI](skills/dust-intuitive-disk-usage-analyzer-cli/) | A more intuitive version of the du command, written in Rust. dust instantly visualizes which directories consume the… | Security Reviewed | — | — |
+| [E2B Code Execution MCP](skills/e2b-code-execution-mcp/) | Add sandboxed code execution to any MCP-compatible AI client. E2B gives agents access to secure, internet-connected… | Security Reviewed | — | — |
+| [esbuild Ultra-Fast JavaScript Bundler](skills/esbuild-ultra-fast-javascript-bundler/) | esbuild is an extremely fast JavaScript and TypeScript bundler written in Go that delivers 10-100x faster build… | Security Reviewed | — | — |
+| [eza Modern File Listing CLI](skills/eza-modern-file-listing-cli/) | A modern, maintained replacement for the ls command, written in Rust. eza provides colorized output, Git… | Security Reviewed | — | — |
+| [Fabric AI Prompt Pattern Framework](skills/fabric-ai-prompt-pattern-framework/) | Fabric is an open-source framework for augmenting humans using AI. It provides a modular system of crowdsourced… | Security Reviewed | — | — |
+| [fd Fast File Finder CLI](skills/fd-fast-file-finder-cli/) | A fast and user-friendly alternative to the find command, written in Rust. fd provides intuitive syntax, regex and… | Security Reviewed | — | — |
+| [Freeze Code and Terminal Screenshot Generator](skills/freeze-code-terminal-screenshot-generator/) | Freeze by Charmbracelet generates polished PNG and SVG images of code snippets and terminal output. It supports… | Security Reviewed | — | — |
+| [Frontend Design Guidance Skill](skills/frontend-design-guidance-skill/) | Practical frontend design guidance for landing pages, dashboards, and UI implementation work. | Security Reviewed | — | — |
+| [fzf Command-Line Fuzzy Finder](skills/fzf-command-line-fuzzy-finder/) | fzf is a general-purpose command-line fuzzy finder written in Go. It works as an interactive filter for any list —… | Security Reviewed | — | — |
+| [Git Bisect Automator](skills/git-bisect-automator/) | Automates git bisect workflows with custom test scripts and CI pipeline integration. Uses the Git CLI and GitHub… | Security Reviewed | — | — |
+| [Git Diff Complexity Analyzer](skills/git-diff-complexity-analyzer/) | Analyzes git diffs using libgit2 and radon to compute cyclomatic complexity changes per function. Flags complexity… | Security Reviewed | — | — |
+| [git-absorb Automatic Fixup Commit Generator](skills/git-absorb-automatic-fixup-commit-generator/) | Automatically generates fixup commits by analyzing staged changes and matching them to the correct ancestor commits.… | Security Reviewed | — | — |
+| [GitButler Virtual Branch Git Client](skills/gitbutler-virtual-branch-git-client/) | GitButler is a modern Git client built in Rust and Svelte that introduces virtual branches, allowing developers to… | Security Reviewed | — | — |
+| [GitHub MCP Server for AI-Powered Repository Management](skills/github-mcp-server-ai-repository-management/) | GitHub's official Model Context Protocol (MCP) server that connects AI agents, assistants, and chatbots directly to… | Security Reviewed | — | — |
+| [Gitoxide Pure Rust Git Implementation and Library](skills/gitoxide-pure-rust-git-implementation/) | A complete, idiomatic Git implementation written in pure Rust, providing both a library (gix crate) for building… | Security Reviewed | — | — |
+| [gitu Magit-Inspired Terminal Git Interface](skills/gitu-magit-inspired-terminal-git-interface/) | A fast terminal user interface for Git inspired by Emacs Magit, written in Rust. gitu provides keyboard-driven… | Security Reviewed | — | — |
+| [GitUI Blazing Fast Terminal Git Interface](skills/gitui-terminal-git-interface/) | GitUI is a fast terminal-based user interface for Git written in Rust. It provides keyboard-driven staging,… | Security Reviewed | — | — |
+| [Glow Terminal Markdown Renderer](skills/glow-terminal-markdown-renderer/) | Glow is a terminal-based markdown reader by Charm that renders markdown files with syntax highlighting, word… | Security Reviewed | — | — |
+| [Goose Extensible AI Coding Agent by Block](skills/goose-extensible-ai-coding-agent-block/) | An open-source, extensible AI agent from Block (formerly Square) that goes beyond code suggestions to install… | Security Reviewed | — | — |
+| [grex Regular Expression Generator from Test Cases](skills/grex-regex-generator-from-test-cases/) | grex is a command-line tool and library that automatically generates regular expressions from user-provided test… | Security Reviewed | — | — |
+| [grpcurl Command-Line gRPC Client](skills/grpcurl-command-line-grpc-client/) | Like cURL but for gRPC servers. A command-line tool for interacting with gRPC services using server reflection or… | Security Reviewed | — | — |
+| [Gum Interactive Shell Script Toolkit](skills/gum-interactive-shell-script-toolkit/) | Gum by Charmbracelet is a tool for building glamorous shell scripts. It provides configurable terminal UI components… | Security Reviewed | — | — |
+| [Hoppscotch Open Source API Development Ecosystem](skills/hoppscotch-api-development-ecosystem/) | Hoppscotch is a lightweight, open-source API development platform that serves as an alternative to Postman and… | Security Reviewed | — | — |
+| [HTTPie CLI API Testing and Debugging Client](skills/httpie-cli-api-testing-debugging-client/) | HTTPie is a modern, user-friendly command-line HTTP client designed for testing, debugging, and interacting with… | Security Reviewed | — | — |
+| [Hurl Declarative HTTP Request Runner and Tester](skills/hurl-declarative-http-request-runner-tester/) | Hurl is a command-line tool for running and testing HTTP requests defined in plain text files. Built on libcurl, it… | Security Reviewed | — | — |
+| [Hyperfine Command-Line Benchmarking Tool](skills/hyperfine-command-line-benchmarking-tool/) | Benchmark command-line programs with statistical rigor using Hyperfine. Performs warmup runs, detects outliers,… | Security Reviewed | — | — |
+| [Jira Advanced Query Agent](skills/jira-advanced-query-agent/) | Jira Advanced Query Agent is built around Jira issue tracking platform. It gives an agent a more technical and… | Security Reviewed | — | — |
+| [Jujutsu Git-Compatible Version Control System](skills/jujutsu-jj-git-compatible-vcs/) | Jujutsu (jj) is a powerful Git-compatible version control system that reimagines VCS workflows with automatic… | Security Reviewed | — | — |
+| [Just Command Runner](skills/just-command-runner/) | Just is a command runner written in Rust that provides a convenient way to save and run project-specific commands.… | Security Reviewed | — | — |
+| [k6 Load Testing and Performance Benchmarking Tool](skills/k6-load-testing-performance-benchmarking-tool/) | A modern open-source load testing tool from Grafana Labs, written in Go with JavaScript scripting. Enables… | Security Reviewed | — | — |
+| [K9s Kubernetes Terminal Dashboard](skills/k9s-kubernetes-terminal-dashboard/) | K9s is a terminal-based UI for managing Kubernetes clusters, providing real-time observation of resources, log… | Security Reviewed | — | — |
+| [LazyDocker Terminal UI for Docker Management](skills/lazydocker-terminal-docker-management/) | LazyDocker is a terminal UI for Docker and Docker Compose that provides container management, log viewing, resource… | Security Reviewed | — | — |
+| [lazygit Terminal UI for Git Operations](skills/lazygit-terminal-ui-git-operations/) | A simple terminal user interface for git commands built with Go. lazygit provides interactive staging, rebasing,… | Security Reviewed | — | — |
+| [libSQL Edge-Ready SQLite Fork by Turso](skills/libsql-edge-sqlite-fork-turso/) | libSQL is an open-source, open-contribution fork of SQLite by Turso that adds embedded replicas, server mode, and… | Security Reviewed | — | — |
+| [Litestream SQLite Streaming Replication](skills/litestream-sqlite-streaming-replication/) | Litestream is a streaming replication tool for SQLite databases that continuously replicates changes to S3, Azure,… | Security Reviewed | — | — |
+| [LLDB Debug Session Automator](skills/lldb-debug-session-automator/) | Automates LLDB debugging sessions with scripted breakpoint management and expression evaluation. Uses the LLDB… | Security Reviewed | — | — |
+| [lsd Next-Generation ls Directory Listing Tool](skills/lsd-next-gen-ls-directory-listing/) | lsd (LSDeluxe) is a modern rewrite of the classic ls command written in Rust, adding color coding, file-type icons… | Security Reviewed | — | — |
+| [Makefile Dependency Auditor](skills/makefile-dependency-auditor/) | Parses GNU Makefiles using pymake and builds complete dependency DAGs. Detects circular dependencies, unreachable… | Security Reviewed | — | — |
+| [Mastra TypeScript AI Agent Framework](skills/mastra-typescript-ai-agent-framework/) | Mastra is an open-source TypeScript framework for building AI-powered applications and agents. Created by the team… | Security Reviewed | — | — |
+| [n8n GitHub Issue-to-Jira Ticket Automator](skills/n8n-github-jira-ticket-automator/) | Deploys an n8n workflow via the n8n REST API using the GitHub Trigger node to capture new issue events and transform… | Security Reviewed | — | — |
+| [navi Interactive CLI Cheatsheet Tool](skills/navi-interactive-cli-cheatsheet-tool/) | An interactive cheatsheet tool for the command line that lets you browse through commands and fill in argument… | Security Reviewed | — | — |
+| [Nix Flake Configuration Builder](skills/nix-flake-configuration-builder/) | Generates reproducible Nix flake configurations with devShell environments and package overlays. Uses the Nix Flakes… | Security Reviewed | — | — |
+| [NPM Package Auditor](skills/npm-package-auditor-registry-api/) | Audits NPM packages using the NPM Registry API with dependency tree resolution and vulnerability scanning via… | Security Reviewed | — | — |
+| [Nushell Structured Data Shell](skills/nushell-structured-data-shell/) | A modern shell that treats all input as structured data rather than plain text streams. Nushell provides built-in… | Security Reviewed | — | — |
+| [OpenCode Multi-Model AI Coding Agent CLI](skills/opencode-multi-model-ai-coding-agent-cli/) | An open-source terminal-native AI coding agent written in Go that supports 75+ LLMs including Claude, GPT, Gemini,… | Security Reviewed | — | — |
+| [Package Vulnerability Scanner](skills/package-vuln-scanner-osv-api/) | Scans npm, PyPI, and Go module dependencies for known vulnerabilities using the OSV.dev API and GitHub Advisory… | Security Reviewed | — | — |
+| [pgcli Interactive PostgreSQL Client with Autocompletion](skills/pgcli-interactive-postgresql-client/) | pgcli is an interactive PostgreSQL CLI with context-aware autocompletion, syntax highlighting, and multi-line query… | Security Reviewed | — | — |
+| [pnpm Fast Disk-Efficient Package Manager](skills/pnpm-fast-disk-efficient-package-manager/) | pnpm is a fast, disk space efficient package manager for Node.js that uses a content-addressable storage and hard… | Security Reviewed | — | — |
+| [Posting Terminal API Client](skills/posting-terminal-api-client/) | A modern, open-source HTTP client built as a terminal UI application. Posting provides a Postman-like experience… | Security Reviewed | — | — |
+| [procs Modern Process Viewer CLI](skills/procs-modern-process-viewer-cli/) | A modern replacement for ps written in Rust. procs provides colorized, human-readable process listings with… | Security Reviewed | — | — |
+| [quicktype JSON Schema to Typed Code Generator](skills/quicktype-json-schema-code-generator/) | Generate strongly-typed models and serializers from JSON, JSON Schema, TypeScript, and GraphQL queries in 20+… | Security Reviewed | — | — |
+| [Repomix Codebase Context Packer for LLMs](skills/repomix-codebase-context-packer-llm/) | Repomix packs an entire code repository into a single AI-friendly file optimized for LLM consumption. It provides… | Security Reviewed | — | — |
+| [Restic Fast Encrypted Backup Program](skills/restic-encrypted-backup-tool/) | Restic is a fast, secure, and efficient backup program supporting local, SFTP, S3, Azure, GCS, and many other… | Security Reviewed | — | — |
+| [ripgrep Recursive Regex Search Tool](skills/ripgrep-recursive-regex-search-tool/) | ripgrep (rg) is a line-oriented search tool that recursively searches directories for regex patterns while… | Security Reviewed | — | — |
+| [Slidev Markdown Presentation Slides for Developers](skills/slidev-markdown-presentation-slides-developers/) | Slidev is a web-based presentation tool built for developers that turns Markdown files into interactive slide decks… | Security Reviewed | — | — |
+| [sqlite-vec Vector Search Extension for SQLite](skills/sqlite-vec-vector-search-extension-sqlite/) | sqlite-vec is a lightweight SQLite extension for vector similarity search. Written in pure C with zero dependencies,… | Security Reviewed | — | — |
+| [Starship Cross-Shell Prompt Configurator](skills/starship-cross-shell-prompt-configurator/) | The minimal, blazing-fast, and infinitely customizable prompt for any shell. Starship is written in Rust and works… | Security Reviewed | — | — |
+| [Task Taskfile Build Automation Runner](skills/task-taskfile-build-automation-runner/) | Automate build workflows with Task (go-task), a modern cross-platform task runner that uses YAML-based Taskfiles.… | Security Reviewed | — | — |
+| [Terraform MCP Server for Infrastructure as Code](skills/terraform-mcp-server-infrastructure-as-code/) | The official HashiCorp Terraform MCP server integrates with the Terraform Registry and HCP Terraform, enabling AI… | Security Reviewed | — | — |
+| [Topgrade Universal System Package Updater](skills/topgrade-universal-system-package-updater/) | Topgrade is a CLI tool written in Rust that detects all package managers and updatable sources on your system and… | Security Reviewed | — | — |
+| [Trigger.dev TypeScript Background Jobs Platform](skills/trigger-dev-typescript-background-jobs-platform/) | Trigger.dev is an open-source platform for building and deploying long-running background tasks, AI agents, and… | Published | — | — |
+| [tRPC End-to-End Typesafe API Framework](skills/trpc-end-to-end-typesafe-api-framework/) | tRPC enables developers to build fully typesafe APIs in TypeScript without schemas, code generation, or runtime… | Security Reviewed | — | — |
+| [VHS Terminal Session Recorder and GIF Generator](skills/vhs-terminal-session-recorder-gif-generator/) | Create terminal session recordings as GIFs, videos, or images using VHS (charmbracelet/vhs). Write declarative .tape… | Security Reviewed | — | — |
+| [Volta JavaScript Toolchain Version Manager](skills/volta-javascript-toolchain-manager/) | Volta is a JavaScript toolchain manager written in Rust that pins Node.js, npm, and yarn versions per project. It… | Security Reviewed | — | — |
+| [VS Code Extension Debugger](skills/vscode-extension-debugger-dap-protocol/) | Debugs VS Code extensions using the Debug Adapter Protocol (DAP) with breakpoint management and variable inspection.… | Security Reviewed | — | — |
+| [WASM Component Model Linker](skills/wasm-component-model-linker/) | Compiles and links WebAssembly components using the WASI Preview 2 Component Model, wasm-tools CLI for component… | Security Reviewed | — | — |
+| [watchexec File Watcher and Command Re-Runner](skills/watchexec-file-watcher-command-rerunner/) | watchexec is a standalone file-watching tool written in Rust that automatically executes commands when it detects… | Security Reviewed | — | — |
+| [Yazi Async Terminal File Manager](skills/yazi-async-terminal-file-manager/) | Yazi is a blazing-fast terminal file manager written in Rust with async I/O, image previews, Vim keybindings, and a… | Security Reviewed | — | — |
+| [Zellij Terminal Workspace and Multiplexer](skills/zellij-terminal-workspace-multiplexer/) | Zellij is a Rust-powered terminal workspace and multiplexer with floating panes, WebAssembly plugins, layout… | Security Reviewed | — | — |
+| [zoxide Smart Directory Navigation CLI](skills/zoxide-smart-directory-navigation-cli/) | A smarter cd command written in Rust, inspired by z and autojump. zoxide learns your most-used directories and lets… | Security Reviewed | — | — |
+| [zx JavaScript Shell Script Runner](skills/zx-javascript-shell-script-runner/) | Write better shell scripts in JavaScript using Google's zx. Provides cross-platform wrappers around child_process… | Security Reviewed | — | — |
 
 
 ### 📋 Runbooks & Diagnostics (113 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=downloads)
 
-| Skill | Tier | GitHub Stars | npm Downloads | Install |
-|---|---|---:|---:|---|
-| [Kubernetes CrashLoop Diagnoser](skills/kubernetes-crashloop-diagnoser-agent/) | Security Reviewed | 121.3k | — | `clawhub install kubernetes-crashloop-diagnoser-agent` |
-| [Kubernetes Crashloop Diagnostic Runbook](skills/kubernetes-crashloop-diagnostic-runbook/) | Security Reviewed | 121.3k | — | `clawhub install kubernetes-crashloop-diagnostic-runbook` |
-| [Kubernetes CrashLoop Diagnostician](skills/kubernetes-crashloop-diagnostician/) | Security Reviewed | 121.3k | — | `clawhub install kubernetes-crashloop-diagnostician` |
-| [Kubernetes CrashLoopBackOff Diagnoser](skills/k8s-crashloopbackoff-diagnoser/) | Security Reviewed | 121.3k | — | `clawhub install k8s-crashloopbackoff-diagnoser` |
-| [Kubernetes CrashLoopBackOff Resolver](skills/kubernetes-crashloopbackoff-resolver/) | Security Reviewed | 121.3k | — | `clawhub install kubernetes-crashloopbackoff-resolver` |
-| [Kubernetes Diagnostic Runbook](skills/kubernetes-diagnostic-runbook/) | Security Reviewed | 121.3k | — | `clawhub install kubernetes-diagnostic-runbook` |
-| [Kubernetes Diagnostics Agent](skills/kubernetes-diagnostics-agent/) | Security Reviewed | 121.3k | — | `clawhub install kubernetes-diagnostics-agent` |
-| [Kubernetes Events API CrashLoop Investigator](skills/kubernetes-events-api-crashloop-investigator/) | Security Reviewed | 121.3k | — | `clawhub install kubernetes-events-api-crashloop-investigator` |
-| [Kubernetes Incident Runbook](skills/kubernetes-incident-runbook/) | Security Reviewed | 121.3k | — | `clawhub install kubernetes-incident-runbook` |
-| [Kubernetes Pod Crash Analyzer](skills/kubernetes-pod-crash-analyzer-3/) | Security Reviewed | 121.3k | — | `clawhub install kubernetes-pod-crash-analyzer-3` |
-| [Kubernetes Pod Crash Diagnostician](skills/kubernetes-pod-crash-diagnostician/) | Security Reviewed | 121.3k | — | `clawhub install kubernetes-pod-crash-diagnostician` |
-| [Kubernetes Pod Crash Investigator](skills/kubernetes-pod-crash-investigator-3/) | Security Reviewed | 121.3k | — | `clawhub install kubernetes-pod-crash-investigator-3` |
-| [Kubernetes Pod Crash Loop Analyzer](skills/kubernetes-pod-crash-loop-analyzer/) | Security Reviewed | 121.3k | — | `clawhub install kubernetes-pod-crash-loop-analyzer` |
-| [Kubernetes Pod Crashloop Runbook](skills/kubernetes-pod-crashloop-runbook/) | Security Reviewed | 121.3k | — | `clawhub install kubernetes-pod-crashloop-runbook` |
-| [Kubernetes Pod Diagnostic Agent](skills/kubernetes-pod-diagnostic-agent/) | Security Reviewed | 121.3k | — | `clawhub install kubernetes-pod-diagnostic-agent` |
-| [Kubernetes Pod Diagnostic Runbook](skills/kubernetes-pod-diagnostic-runbook/) | Security Reviewed | 121.3k | — | `clawhub install kubernetes-pod-diagnostic-runbook` |
-| [Kubernetes Pod Diagnostics](skills/kubernetes-pod-diagnostics-skill/) | Security Reviewed | 121.3k | — | `clawhub install kubernetes-pod-diagnostics-skill` |
-| [Kubernetes Pod Diagnostics Runbook](skills/kubernetes-pod-diagnostics-runbook/) | Security Reviewed | 121.3k | — | `clawhub install kubernetes-pod-diagnostics-runbook` |
-| [Kubernetes Pod Diagnostics Runner](skills/kubernetes-pod-diagnostics-runner-2/) | Security Reviewed | 121.3k | — | `clawhub install kubernetes-pod-diagnostics-runner-2` |
-| [Kubernetes Rollback Runbook](skills/kubernetes-rollback-runbook-3/) | Security Reviewed | 121.3k | — | `clawhub install kubernetes-rollback-runbook-3` |
-| [Kubernetes Runbook Executor](skills/kubernetes-runbook-executor-2/) | Security Reviewed | 121.3k | — | `clawhub install kubernetes-runbook-executor-2` |
-| [Kubernetes Runbook Generator](skills/kubernetes-runbook-generator/) | Security Reviewed | 121.3k | — | `clawhub install kubernetes-runbook-generator` |
-| [Kubernetes Troubleshoot Analyzer](skills/kubernetes-troubleshoot-analyzer/) | Security Reviewed | 121.3k | — | `clawhub install kubernetes-troubleshoot-analyzer` |
-| [Pod CrashLoop Runbook](skills/pod-crashloop-runbook/) | Security Reviewed | 121.3k | — | `clawhub install pod-crashloop-runbook` |
-| [Docker Compose Health Checker](skills/docker-compose-health-checker/) | Security Reviewed | 71.6k | — | `clawhub install docker-compose-health-checker` |
-| [Docker Compose Health Monitor](skills/docker-compose-health-monitor/) | Security Reviewed | 71.6k | — | `clawhub install docker-compose-health-monitor` |
-| [Docker Container Health Check Runbook](skills/docker-container-health-check-runbook/) | Security Reviewed | 71.6k | — | `clawhub install docker-container-health-check-runbook` |
-| [Docker Container Health Inspector](skills/docker-container-health-inspector/) | Security Reviewed | 71.6k | — | `clawhub install docker-container-health-inspector` |
-| [Dockerfile Security Hardening Advisor](skills/dockerfile-security-hardening-advisor/) | Security Reviewed | 71.6k | — | `clawhub install dockerfile-security-hardening-advisor` |
-| [Ansible Playbook Dry-Run Validator](skills/ansible-playbook-dryrun-validator-agent/) | Security Reviewed | 68.4k | 9.2M/wk | `clawhub install ansible-playbook-dryrun-validator-agent` |
-| [Ansible Playbook Runner with Vault Secrets](skills/ansible-playbook-vault-runner/) | Security Reviewed | 68.4k | 9.2M/wk | `clawhub install ansible-playbook-vault-runner` |
-| [Ansible Playbook Debugger](skills/ansible-playbook-debugger/) | Security Reviewed | 68.4k | — | `clawhub install ansible-playbook-debugger` |
-| [Ansible Playbook Diagnostics Runner](skills/ansible-playbook-diagnostics-runner/) | Security Reviewed | 68.4k | — | `clawhub install ansible-playbook-diagnostics-runner` |
-| [Ansible Playbook Dry Run Validator](skills/ansible-playbook-dry-run-validator/) | Security Reviewed | 68.4k | — | `clawhub install ansible-playbook-dry-run-validator` |
-| [Ansible Playbook Dry-Run Analyzer](skills/ansible-playbook-dry-run-analyzer/) | Security Reviewed | 68.4k | — | `clawhub install ansible-playbook-dry-run-analyzer` |
-| [Ansible Playbook Linter Pro](skills/ansible-playbook-linter-pro/) | Security Reviewed | 68.4k | — | `clawhub install ansible-playbook-linter-pro` |
-| [Ansible Runbook Executor](skills/ansible-runbook-executor/) | Security Reviewed | 68.4k | — | `clawhub install ansible-runbook-executor` |
-| [Prometheus Alert Resolver](skills/prometheus-alert-resolver-skill/) | Security Reviewed | 63.3k | 5.3M/wk | `clawhub install prometheus-alert-resolver-skill` |
-| [Prometheus Alert Rule Tester](skills/prometheus-alert-rule-tester/) | Security Reviewed | 63.3k | 5.3M/wk | `clawhub install prometheus-alert-rule-tester` |
-| [Prometheus Alert Runbook](skills/prometheus-alert-runbook/) | Security Reviewed | 63.3k | 5.3M/wk | `clawhub install prometheus-alert-runbook` |
-| [Prometheus Alert Runbook Agent](skills/prometheus-alert-runbook-agent/) | Security Reviewed | 63.3k | 5.3M/wk | `clawhub install prometheus-alert-runbook-agent` |
-| [Prometheus Alert Runbook Linker](skills/prometheus-alert-runbook-linker/) | Security Reviewed | 63.3k | 5.3M/wk | `clawhub install prometheus-alert-runbook-linker` |
-| [Prometheus Alert Tuner](skills/prometheus-alert-tuner/) | Security Reviewed | 63.3k | 5.3M/wk | `clawhub install prometheus-alert-tuner` |
-| [Terraform Drift Detection Runbook](skills/terraform-drift-detection-runbook/) | Security Reviewed | 48k | — | `clawhub install terraform-drift-detection-runbook` |
-| [Terraform Plan Diff Reviewer](skills/terraform-plan-diff-reviewer/) | Security Reviewed | 48k | — | `clawhub install terraform-plan-diff-reviewer` |
-| [Terraform State Diagnostics](skills/terraform-state-diagnostics/) | Security Reviewed | 48k | — | `clawhub install terraform-state-diagnostics` |
-| [Terraform State Drift Detector](skills/terraform-state-drift-detector/) | Security Reviewed | 48k | — | `clawhub install terraform-state-drift-detector` |
-| [Terraform State Forensics Tool](skills/terraform-state-forensics-tool/) | Security Reviewed | 48k | — | `clawhub install terraform-state-forensics-tool` |
-| [Terraform State Inspector](skills/terraform-state-inspector/) | Security Reviewed | 48k | — | `clawhub install terraform-state-inspector` |
-| [Terraform State Surgery Kit](skills/terraform-state-surgery-kit/) | Security Reviewed | 48k | — | `clawhub install terraform-state-surgery-kit` |
-| [Sentry Error Triage Assistant](skills/sentry-error-triage-assistant/) | Security Reviewed | 43.4k | 16.4M/wk | `clawhub install sentry-error-triage-assistant` |
-| [Nginx Config Linter and Tester](skills/nginx-config-linter-tester/) | Security Reviewed | 29.8k | — | `clawhub install nginx-config-linter-tester` |
-| [Nginx Config Validator and Optimizer](skills/nginx-config-validator-optimizer/) | Security Reviewed | 29.8k | — | `clawhub install nginx-config-validator-optimizer` |
-| [Nginx Config Validator Runbook](skills/nginx-config-validator-runbook/) | Security Reviewed | 29.8k | — | `clawhub install nginx-config-validator-runbook` |
-| [Nginx Error Log Analyzer](skills/nginx-error-log-analyzer/) | Security Reviewed | 29.8k | — | `clawhub install nginx-error-log-analyzer` |
-| [Nginx Error Log Analyzer and Fixer](skills/nginx-error-log-analyzer-fixer/) | Security Reviewed | 29.8k | — | `clawhub install nginx-error-log-analyzer-fixer` |
-| [Nginx Error Log Classifier](skills/nginx-error-log-classifier/) | Security Reviewed | 29.8k | — | `clawhub install nginx-error-log-classifier` |
-| [Nginx Error Log Pattern Analyzer](skills/nginx-error-log-pattern-analyzer/) | Security Reviewed | 29.8k | — | `clawhub install nginx-error-log-pattern-analyzer` |
-| [Nginx Error Log Runbook Agent](skills/nginx-error-log-runbook-agent/) | Security Reviewed | 29.8k | — | `clawhub install nginx-error-log-runbook-agent` |
-| [Nginx Error Pattern Analyzer](skills/nginx-error-pattern-analyzer-agent/) | Security Reviewed | 29.8k | — | `clawhub install nginx-error-pattern-analyzer-agent` |
-| [Jenkins Build Log Analyzer](skills/jenkins-build-log-analyzer/) | Security Reviewed | 25.1k | — | `clawhub install jenkins-build-log-analyzer` |
-| [Pulumi Drift Detector &amp; Reconciler](skills/pulumi-drift-detector-reconciler/) | Security Reviewed | 24.9k | 1.5M/wk | `clawhub install pulumi-drift-detector-reconciler` |
-| [ArgoCD Application Health Runbook](skills/argocd-application-health-runbook/) | Security Reviewed | 22.4k | — | `clawhub install argocd-application-health-runbook` |
-| [ArgoCD Deployment Runbook Agent](skills/argocd-deployment-runbook-agent/) | Security Reviewed | 22.4k | — | `clawhub install argocd-deployment-runbook-agent` |
-| [Incident Timeline Builder](skills/incident-timeline-builder/) | Security Reviewed | 5.6k | 1.1M/wk | `clawhub install incident-timeline-builder` |
-| [Apache Kafka Consumer Lag Runbook](skills/apache-kafka-consumer-lag-runbook/) | Security Reviewed | 4k | 2.4M/wk | `clawhub install apache-kafka-consumer-lag-runbook` |
-| [Queue Backup Runbook](skills/queue-backup-runbook/) | Security Reviewed | 4k | 2.4M/wk | `clawhub install queue-backup-runbook` |
-| [AWS CloudFormation Drift Detector](skills/aws-cloudformation-drift-detector-4/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-cloudformation-drift-detector-4` |
-| [AWS CloudWatch Alarm Diagnostic](skills/aws-cloudwatch-alarm-diagnostic/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-cloudwatch-alarm-diagnostic` |
-| [AWS CloudWatch Alarm Runbook](skills/aws-cloudwatch-alarm-runbook-wave48/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-cloudwatch-alarm-runbook-wave48` |
-| [AWS CloudWatch Alarm Runbook Generator](skills/aws-cloudwatch-alarm-runbook-generator/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-cloudwatch-alarm-runbook-generator` |
-| [AWS CloudWatch Alarm Triage](skills/aws-cloudwatch-alarm-triage-5/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-cloudwatch-alarm-triage-5` |
-| [AWS CloudWatch Alarm Triage Agent](skills/aws-cloudwatch-alarm-triage-agent/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-cloudwatch-alarm-triage-agent` |
-| [AWS CloudWatch Alarm Triager](skills/aws-cloudwatch-alarm-triager/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-cloudwatch-alarm-triager` |
-| [AWS CloudWatch Anomaly Investigator](skills/aws-cloudwatch-anomaly-investigator/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-cloudwatch-anomaly-investigator` |
-| [AWS CloudWatch Anomaly Runbook](skills/aws-cloudwatch-anomaly-runbook/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-cloudwatch-anomaly-runbook` |
-| [AWS CloudWatch Log Analyzer](skills/aws-cloudwatch-log-analyzer/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-cloudwatch-log-analyzer` |
-| [AWS CloudWatch Log Anomaly Investigator](skills/aws-cloudwatch-log-anomaly-investigator/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-cloudwatch-log-anomaly-investigator` |
-| [AWS CloudWatch Log Anomaly Scanner](skills/aws-cloudwatch-log-anomaly-scanner/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-cloudwatch-log-anomaly-scanner` |
-| [AWS CloudWatch Runbook Agent](skills/aws-cloudwatch-runbook-agent/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-cloudwatch-runbook-agent` |
-| [AWS Systems Manager Automation Incident Guide](skills/aws-systems-manager-automation-incident-guide/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-systems-manager-automation-incident-guide` |
-| [AWS Systems Manager Runbook](skills/aws-ssm-runbook-executor/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-ssm-runbook-executor` |
-| [AWS Systems Manager Runbook Engine](skills/aws-ssm-runbook-engine/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-ssm-runbook-engine` |
-| [AWS CloudFormation Stack Diagnostics](skills/aws-cloudformation-stack-diagnostics/) | Security Reviewed | 2.6k | 9.2M/wk | `clawhub install aws-cloudformation-stack-diagnostics` |
-| [Datadog Incident Runbook Runner](skills/datadog-incident-runbook-runner-2/) | Security Reviewed | 789 | 6M/wk | `clawhub install datadog-incident-runbook-runner-2` |
-| [Datadog Synthetics Failure Triage Skill](skills/datadog-synthetics-failure-triage-skill/) | Security Reviewed | 789 | 6M/wk | `clawhub install datadog-synthetics-failure-triage-skill` |
-| [Datadog Triage Playbook](skills/datadog-triage-playbook/) | Security Reviewed | 789 | 6M/wk | `clawhub install datadog-triage-playbook` |
-| [Incident Postmortem Generator](skills/incident-postmortem-generator/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install incident-postmortem-generator` |
-| [Incident Response Checklist Engine](skills/incident-response-checklist-engine/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install incident-response-checklist-engine` |
-| [PagerDuty Event Orchestration Runbook](skills/pagerduty-event-orchestration-runbook/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install pagerduty-event-orchestration-runbook` |
-| [PagerDuty Incident Runbook](skills/pagerduty-incident-runbook/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install pagerduty-incident-runbook` |
-| [PagerDuty Incident Runbook Automator](skills/pagerduty-incident-runbook-automator/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install pagerduty-incident-runbook-automator` |
-| [PagerDuty Incident Runbook Engine](skills/pagerduty-incident-runbook-engine/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install pagerduty-incident-runbook-engine` |
-| [PagerDuty Incident Runbook Executor](skills/pagerduty-incident-runbook-executor/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install pagerduty-incident-runbook-executor` |
-| [PagerDuty On-Call Escalation Checker](skills/pagerduty-on-call-escalation-checker-2/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install pagerduty-on-call-escalation-checker-2` |
-| [Database Migration Validator](skills/database-migration-validator/) | Security Reviewed | — | 21.4M/wk | `clawhub install database-migration-validator` |
-| [PostgreSQL Diagnostic Analyzer](skills/postgresql-diagnostic-analyzer/) | Security Reviewed | — | 21.4M/wk | `clawhub install postgresql-diagnostic-analyzer` |
-| [PostgreSQL Diagnostic Runbook](skills/postgresql-diagnostic-runbook/) | Security Reviewed | — | 21.4M/wk | `clawhub install postgresql-diagnostic-runbook` |
-| [PostgreSQL Health Diagnostics Agent](skills/postgresql-health-diagnostics-agent/) | Security Reviewed | — | 21.4M/wk | `clawhub install postgresql-health-diagnostics-agent` |
-| [PostgreSQL Performance Diagnostic Suite](skills/postgresql-performance-diagnostic-suite/) | Security Reviewed | — | 21.4M/wk | `clawhub install postgresql-performance-diagnostic-suite` |
-| [PostgreSQL Performance Diagnostics](skills/postgresql-performance-diagnostics/) | Security Reviewed | — | 21.4M/wk | `clawhub install postgresql-performance-diagnostics` |
-| [PostgreSQL Performance Runbook](skills/postgresql-performance-runbook/) | Security Reviewed | — | 21.4M/wk | `clawhub install postgresql-performance-runbook` |
-| [PostgreSQL Query Analyzer](skills/postgresql-query-analyzer/) | Security Reviewed | — | 21.4M/wk | `clawhub install postgresql-query-analyzer` |
-| [PostgreSQL Query Diagnostics](skills/postgresql-query-diagnostics/) | Security Reviewed | — | 21.4M/wk | `clawhub install postgresql-query-diagnostics` |
-| [PostgreSQL Query Plan Diagnostics](skills/postgresql-query-plan-diagnostics-wave48/) | Verified Metadata | — | 21.4M/wk | `clawhub install postgresql-query-plan-diagnostics-wave48` |
-| [PostgreSQL Query Plan Explainer](skills/postgresql-query-plan-explainer/) | Security Reviewed | — | 21.4M/wk | `clawhub install postgresql-query-plan-explainer` |
-| [PostgreSQL Slow Query Analyzer](skills/postgresql-slow-query-analyzer/) | Security Reviewed | — | 21.4M/wk | `clawhub install postgresql-slow-query-analyzer` |
-| [PostgreSQL Slow Query Runbook](skills/postgresql-slow-query-runbook-agent/) | Security Reviewed | — | 21.4M/wk | `clawhub install postgresql-slow-query-runbook-agent` |
-| [PostgreSQL Vacuum Deadlock Runbook](skills/postgresql-vacuum-deadlock-runbook/) | Security Reviewed | — | 21.4M/wk | `clawhub install postgresql-vacuum-deadlock-runbook` |
-| [Incident Response Playbook Runner](skills/incident-response-playbook-runner/) | Security Reviewed | — | — | `clawhub install incident-response-playbook-runner` |
-| [Systemd Service Debugger](skills/systemd-service-debugger/) | Security Reviewed | — | — | `clawhub install systemd-service-debugger` |
-| [Systemd Service Diagnostics](skills/systemd-service-diagnostics/) | Security Reviewed | — | — | `clawhub install systemd-service-diagnostics` |
-| [Systemd Service Recovery Playbook](skills/systemd-service-recovery-playbook-2/) | Security Reviewed | — | — | `clawhub install systemd-service-recovery-playbook-2` |
+| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
+|---|---|---|---:|---:|
+| [Kubernetes CrashLoop Diagnoser](skills/kubernetes-crashloop-diagnoser-agent/) | Diagnoses CrashLoopBackOff pods using kubectl and the Kubernetes API /api/v1/namespaces/{ns}/pods/{pod}/log… | Security Reviewed | 121.3k | — |
+| [Kubernetes Crashloop Diagnostic Runbook](skills/kubernetes-crashloop-diagnostic-runbook/) | Diagnoses CrashLoopBackOff pods in Kubernetes clusters using kubectl and the Kubernetes API. Fetches pod events,… | Security Reviewed | 121.3k | — |
+| [Kubernetes CrashLoop Diagnostician](skills/kubernetes-crashloop-diagnostician/) | Diagnoses CrashLoopBackOff pods using the Kubernetes client-go API and kubectl debug. Analyzes container exit codes,… | Security Reviewed | 121.3k | — |
+| [Kubernetes CrashLoopBackOff Diagnoser](skills/k8s-crashloopbackoff-diagnoser/) | Diagnoses CrashLoopBackOff pods using kubectl and the Kubernetes API. Inspects container logs, exit codes, OOMKilled… | Security Reviewed | 121.3k | — |
+| [Kubernetes CrashLoopBackOff Resolver](skills/kubernetes-crashloopbackoff-resolver/) | Diagnoses CrashLoopBackOff pods using the Kubernetes API /api/v1/pods endpoint, kubectl logs --previous, and… | Security Reviewed | 121.3k | — |
+| [Kubernetes Diagnostic Runbook](skills/kubernetes-diagnostic-runbook/) | Executes diagnostic workflows against Kubernetes clusters using kubectl and the Kubernetes Python client… | Security Reviewed | 121.3k | — |
+| [Kubernetes Diagnostics Agent](skills/kubernetes-diagnostics-agent/) | Performs deep cluster troubleshooting using the Kubernetes API server /debug/pprof endpoints and kubectl-debug… | Security Reviewed | 121.3k | — |
+| [Kubernetes Events API CrashLoop Investigator](skills/kubernetes-events-api-crashloop-investigator/) | Diagnoses restart storms with the Kubernetes Events API, Pod status conditions, and the Metrics API to explain why… | Security Reviewed | 121.3k | — |
+| [Kubernetes Incident Runbook](skills/kubernetes-incident-runbook/) | Executes structured incident response procedures for Kubernetes clusters using kubectl, kube-state-metrics, and the… | Security Reviewed | 121.3k | — |
+| [Kubernetes Pod Crash Analyzer](skills/kubernetes-pod-crash-analyzer-3/) | Investigates CrashLoopBackOff and OOMKilled pod failures using kubectl and the Kubernetes API. Correlates container… | Security Reviewed | 121.3k | — |
+| [Kubernetes Pod Crash Diagnostician](skills/kubernetes-pod-crash-diagnostician/) | Diagnoses Kubernetes pod crash loops by analyzing events, logs, and resource quotas via the Kubernetes API and… | Security Reviewed | 121.3k | — |
+| [Kubernetes Pod Crash Investigator](skills/kubernetes-pod-crash-investigator-3/) | Diagnoses CrashLoopBackOff and OOMKilled pod failures using the Kubernetes API via kubectl and the official… | Security Reviewed | 121.3k | — |
+| [Kubernetes Pod Crash Loop Analyzer](skills/kubernetes-pod-crash-loop-analyzer/) | Diagnoses CrashLoopBackOff pods using kubectl describe, container exit code analysis, and the Kubernetes Events API.… | Security Reviewed | 121.3k | — |
+| [Kubernetes Pod Crashloop Runbook](skills/kubernetes-pod-crashloop-runbook/) | Automates diagnosis of CrashLoopBackOff pods using kubectl commands wrapped via the Kubernetes API server. Fetches… | Security Reviewed | 121.3k | — |
+| [Kubernetes Pod Diagnostic Agent](skills/kubernetes-pod-diagnostic-agent/) | Diagnoses Kubernetes pod failures using kubectl and the Kubernetes API server endpoints. Analyzes CrashLoopBackOff,… | Security Reviewed | 121.3k | — |
+| [Kubernetes Pod Diagnostic Runbook](skills/kubernetes-pod-diagnostic-runbook/) | Automated K8s pod troubleshooting using kubectl, crictl, and the Kubernetes API. Runs diagnostic sequences for… | Security Reviewed | 121.3k | — |
+| [Kubernetes Pod Diagnostics](skills/kubernetes-pod-diagnostics-skill/) | Diagnoses Kubernetes pod failures using kubectl describe, logs --previous, and the Kubernetes API… | Security Reviewed | 121.3k | — |
+| [Kubernetes Pod Diagnostics Runbook](skills/kubernetes-pod-diagnostics-runbook/) | Automates Kubernetes troubleshooting using kubectl and the Kubernetes Python client to diagnose CrashLoopBackOff,… | Security Reviewed | 121.3k | — |
+| [Kubernetes Pod Diagnostics Runner](skills/kubernetes-pod-diagnostics-runner-2/) | Runs automated diagnostic sequences on Kubernetes pods using kubectl exec, kubectl logs, and the Kubernetes API… | Security Reviewed | 121.3k | — |
+| [Kubernetes Rollback Runbook](skills/kubernetes-rollback-runbook-3/) | Executes structured Kubernetes rollback procedures using kubectl and the kubernetes/client-go library. Monitors… | Security Reviewed | 121.3k | — |
+| [Kubernetes Runbook Executor](skills/kubernetes-runbook-executor-2/) | Executes diagnostic runbooks against Kubernetes clusters using the official kubernetes/client-go SDK and kubectl… | Security Reviewed | 121.3k | — |
+| [Kubernetes Runbook Generator](skills/kubernetes-runbook-generator/) | Auto-generates operational runbooks from Kubernetes cluster state using kubectl and the Kubernetes API. Produces… | Security Reviewed | 121.3k | — |
+| [Kubernetes Troubleshoot Analyzer](skills/kubernetes-troubleshoot-analyzer/) | Runs diagnostic analysis on Kubernetes clusters using kubectl, k9s terminal UI data, and the Troubleshoot.sh… | Security Reviewed | 121.3k | — |
+| [Pod CrashLoop Runbook](skills/pod-crashloop-runbook/) | Pod CrashLoop Runbook is built around Kubernetes orchestration platform. The underlying ecosystem is represented by… | Security Reviewed | 121.3k | — |
+| [Docker Compose Health Checker](skills/docker-compose-health-checker/) | Validates docker-compose.yml files against the Compose Specification, checks image vulnerability status via Docker… | Security Reviewed | 71.6k | — |
+| [Docker Compose Health Monitor](skills/docker-compose-health-monitor/) | Monitors Docker Compose service health using the Docker Engine API (/containers/{id}/json) and docker-compose ps… | Security Reviewed | 71.6k | — |
+| [Docker Container Health Check Runbook](skills/docker-container-health-check-runbook/) | Runs systematic health diagnostics on Docker containers using docker inspect, docker stats, and the Docker Engine… | Security Reviewed | 71.6k | — |
+| [Docker Container Health Inspector](skills/docker-container-health-inspector/) | Inspects Docker container health using the Docker Engine API v1.45 /containers/{id}/json and /containers/{id}/stats… | Security Reviewed | 71.6k | — |
+| [Dockerfile Security Hardening Advisor](skills/dockerfile-security-hardening-advisor/) | Audits Dockerfiles for security vulnerabilities using Hadolint and Trivy container scanner. Recommends hardening… | Security Reviewed | 71.6k | — |
+| [Ansible Playbook Dry-Run Validator](skills/ansible-playbook-dryrun-validator-agent/) | Validates Ansible playbooks in check mode using ansible-playbook --check --diff and the Ansible Python API. Detects… | Security Reviewed | 68.4k | 9.2M/wk |
+| [Ansible Playbook Runner with Vault Secrets](skills/ansible-playbook-vault-runner/) | Executes Ansible playbooks against dynamic inventories from AWS EC2 or Azure, decrypting Ansible Vault secrets via… | Security Reviewed | 68.4k | 9.2M/wk |
+| [Ansible Playbook Debugger](skills/ansible-playbook-debugger/) | Diagnoses Ansible playbook failures using ansible-playbook --check --diff mode, ansible-lint, and the Ansible… | Security Reviewed | 68.4k | — |
+| [Ansible Playbook Diagnostics Runner](skills/ansible-playbook-diagnostics-runner/) | Runs Ansible diagnostic playbooks using ansible-runner and the Ansible Collections ecosystem (ansible.builtin,… | Security Reviewed | 68.4k | — |
+| [Ansible Playbook Dry Run Validator](skills/ansible-playbook-dry-run-validator/) | Validates Ansible playbooks using ansible-lint and the Ansible Galaxy API. Performs check-mode dry runs, validates… | Security Reviewed | 68.4k | — |
+| [Ansible Playbook Dry-Run Analyzer](skills/ansible-playbook-dry-run-analyzer/) | Executes ansible-playbook --check --diff mode and parses the JSON callback output using the ansible.posix.json… | Security Reviewed | 68.4k | — |
+| [Ansible Playbook Linter Pro](skills/ansible-playbook-linter-pro/) | Validates Ansible playbooks using ansible-lint with custom rule plugins and the Ansible Collections API. Checks for… | Security Reviewed | 68.4k | — |
+| [Ansible Runbook Executor](skills/ansible-runbook-executor/) | Executes Ansible playbooks for server diagnostics and remediation using ansible-runner Python SDK. Supports… | Security Reviewed | 68.4k | — |
+| [Prometheus Alert Resolver](skills/prometheus-alert-resolver-skill/) | Resolves Prometheus alerts by querying the /api/v1/alerts and /api/v1/query_range endpoints for metric time series… | Security Reviewed | 63.3k | 5.3M/wk |
+| [Prometheus Alert Rule Tester](skills/prometheus-alert-rule-tester/) | Tests Prometheus alerting rules against historical metrics using promtool and the Prometheus HTTP API query_range… | Security Reviewed | 63.3k | 5.3M/wk |
+| [Prometheus Alert Runbook](skills/prometheus-alert-runbook/) | Execute structured runbook procedures triggered by Prometheus AlertManager webhooks. Queries PromQL metrics via the… | Security Reviewed | 63.3k | 5.3M/wk |
+| [Prometheus Alert Runbook Agent](skills/prometheus-alert-runbook-agent/) | Automates incident response for Prometheus alerts using PromQL queries, Alertmanager API, and Grafana dashboards.… | Security Reviewed | 63.3k | 5.3M/wk |
+| [Prometheus Alert Runbook Linker](skills/prometheus-alert-runbook-linker/) | Links Prometheus alerting rules to operational runbooks by parsing AlertManager configurations and PrometheusRule… | Security Reviewed | 63.3k | 5.3M/wk |
+| [Prometheus Alert Tuner](skills/prometheus-alert-tuner/) | Tunes Prometheus alerting rules using the Prometheus HTTP API and PromQL query analysis. Reduces alert fatigue by… | Security Reviewed | 63.3k | 5.3M/wk |
+| [Terraform Drift Detection Runbook](skills/terraform-drift-detection-runbook/) | Detects infrastructure drift using terraform plan -detailed-exitcode and the Terraform Cloud API. Compares state… | Security Reviewed | 48k | — |
+| [Terraform Plan Diff Reviewer](skills/terraform-plan-diff-reviewer/) | Parses terraform plan JSON output to identify destructive changes, security group modifications, and IAM policy… | Security Reviewed | 48k | — |
+| [Terraform State Diagnostics](skills/terraform-state-diagnostics/) | Diagnoses Terraform state issues using terraform state commands, the Terraform Cloud API, and HCL parser. Detects… | Security Reviewed | 48k | — |
+| [Terraform State Drift Detector](skills/terraform-state-drift-detector/) | Detects infrastructure drift by running terraform plan -detailed-exitcode and parsing the JSON output via terraform… | Security Reviewed | 48k | — |
+| [Terraform State Forensics Tool](skills/terraform-state-forensics-tool/) | Analyzes Terraform state files and plan outputs to detect drift, orphaned resources, and dependency cycles. Uses the… | Security Reviewed | 48k | — |
+| [Terraform State Inspector](skills/terraform-state-inspector/) | Inspects and diagnoses Terraform state files using terraform CLI commands and the Terraform Cloud API v2. Detects… | Security Reviewed | 48k | — |
+| [Terraform State Surgery Kit](skills/terraform-state-surgery-kit/) | Performs safe Terraform state operations using the terraform CLI state subcommands and the Terraform Cloud API.… | Security Reviewed | 48k | — |
+| [Sentry Error Triage Assistant](skills/sentry-error-triage-assistant/) | Triages application errors using the Sentry Web API (/api/0/issues/) and Sentry SDK breadcrumb data. Groups issues… | Security Reviewed | 43.4k | 16.4M/wk |
+| [Nginx Config Linter and Tester](skills/nginx-config-linter-tester/) | Validates nginx.conf files using the gixy static analyzer and crossplane parser library. Tests configuration for… | Security Reviewed | 29.8k | — |
+| [Nginx Config Validator and Optimizer](skills/nginx-config-validator-optimizer/) | Parses nginx.conf and included config files using the crossplane Python library and nginx -t test command.… | Security Reviewed | 29.8k | — |
+| [Nginx Config Validator Runbook](skills/nginx-config-validator-runbook/) | Validates Nginx configurations using nginx -t syntax checking, the crossplane Python parser for structural analysis,… | Security Reviewed | 29.8k | — |
+| [Nginx Error Log Analyzer](skills/nginx-error-log-analyzer/) | Parses and diagnoses Nginx error logs and access logs using pattern matching against known error signatures.… | Security Reviewed | 29.8k | — |
+| [Nginx Error Log Analyzer and Fixer](skills/nginx-error-log-analyzer-fixer/) | Parses Nginx error logs and access logs to diagnose 502, 504, and 413 errors. Uses GoAccess for real-time log… | Security Reviewed | 29.8k | — |
+| [Nginx Error Log Classifier](skills/nginx-error-log-classifier/) | Classifies and prioritizes Nginx error log entries using pattern matching against known error signatures and the… | Security Reviewed | 29.8k | — |
+| [Nginx Error Log Pattern Analyzer](skills/nginx-error-log-pattern-analyzer/) | Parses Nginx error logs using configurable regex patterns and the GoAccess real-time log analyzer API. Clusters… | Security Reviewed | 29.8k | — |
+| [Nginx Error Log Runbook Agent](skills/nginx-error-log-runbook-agent/) | Automates Nginx error diagnosis using nginx -T configuration dump, error.log pattern matching, and the Nginx Plus… | Security Reviewed | 29.8k | — |
+| [Nginx Error Pattern Analyzer](skills/nginx-error-pattern-analyzer-agent/) | Analyzes Nginx error logs using GoAccess and custom regex parsers to identify recurring 502/503 patterns. Correlates… | Security Reviewed | 29.8k | — |
+| [Jenkins Build Log Analyzer](skills/jenkins-build-log-analyzer/) | Parses Jenkins build console logs via the Jenkins Remote Access API to extract failure patterns, stack traces, and… | Security Reviewed | 25.1k | — |
+| [Pulumi Drift Detector &amp; Reconciler](skills/pulumi-drift-detector-reconciler/) | Runs pulumi refresh on schedule to detect drift between live cloud resources and Pulumi state. Classifies drift by… | Security Reviewed | 24.9k | 1.5M/wk |
+| [ArgoCD Application Health Runbook](skills/argocd-application-health-runbook/) | Diagnoses ArgoCD application sync failures and degraded states using the ArgoCD REST API and argocd CLI. Queries… | Security Reviewed | 22.4k | — |
+| [ArgoCD Deployment Runbook Agent](skills/argocd-deployment-runbook-agent/) | Manages GitOps deployments using ArgoCD API, argocd CLI, and Kustomize overlays. Automates sync operations, rollback… | Security Reviewed | 22.4k | — |
+| [Incident Timeline Builder](skills/incident-timeline-builder/) | Constructs incident timelines from PagerDuty Events API v2, Datadog Monitors API, and Slack message archives.… | Security Reviewed | 5.6k | 1.1M/wk |
+| [Apache Kafka Consumer Lag Runbook](skills/apache-kafka-consumer-lag-runbook/) | Diagnoses Kafka consumer group lag using the Kafka AdminClient API and JMX metrics exposed via the Confluent Metrics… | Security Reviewed | 4k | 2.4M/wk |
+| [Queue Backup Runbook](skills/queue-backup-runbook/) | Queue Backup Runbook is built around Apache Kafka event streaming platform. The underlying ecosystem is represented… | Security Reviewed | 4k | 2.4M/wk |
+| [AWS CloudFormation Drift Detector](skills/aws-cloudformation-drift-detector-4/) | Monitors AWS CloudFormation stacks for configuration drift using the AWS SDK DetectStackDrift and… | Security Reviewed | 3.6k | 9.2M/wk |
+| [AWS CloudWatch Alarm Diagnostic](skills/aws-cloudwatch-alarm-diagnostic/) | Diagnoses firing AWS CloudWatch alarms by querying CloudWatch Metrics, alarm history, and related AWS Config… | Security Reviewed | 3.6k | 9.2M/wk |
+| [AWS CloudWatch Alarm Runbook](skills/aws-cloudwatch-alarm-runbook-wave48/) | Automates incident response for AWS CloudWatch alarms using boto3, the CloudWatch GetMetricData API, and AWS Systems… | Security Reviewed | 3.6k | 9.2M/wk |
+| [AWS CloudWatch Alarm Runbook Generator](skills/aws-cloudwatch-alarm-runbook-generator/) | Generates structured incident runbooks from AWS CloudWatch alarm configurations using the CloudWatch DescribeAlarms… | Security Reviewed | 3.6k | 9.2M/wk |
+| [AWS CloudWatch Alarm Triage](skills/aws-cloudwatch-alarm-triage-5/) | Triages AWS CloudWatch alarms using boto3 CloudWatch.describe_alarms, CloudWatch Logs Insights queries, and AWS… | Security Reviewed | 3.6k | 9.2M/wk |
+| [AWS CloudWatch Alarm Triage Agent](skills/aws-cloudwatch-alarm-triage-agent/) | Triages AWS CloudWatch alarms using the CloudWatch DescribeAlarms API, GetMetricData for historical analysis, and… | Security Reviewed | 3.6k | 9.2M/wk |
+| [AWS CloudWatch Alarm Triager](skills/aws-cloudwatch-alarm-triager/) | Triages AWS CloudWatch alarms by correlating alarm state changes with CloudTrail events and EC2 instance health… | Security Reviewed | 3.6k | 9.2M/wk |
+| [AWS CloudWatch Anomaly Investigator](skills/aws-cloudwatch-anomaly-investigator/) | Investigates CloudWatch metric anomalies using the AWS SDK CloudWatch.getMetricData and Logs.filterLogEvents APIs.… | Security Reviewed | 3.6k | 9.2M/wk |
+| [AWS CloudWatch Anomaly Runbook](skills/aws-cloudwatch-anomaly-runbook/) | Executes structured diagnostic runbooks when CloudWatch Anomaly Detection triggers alarms. Uses the AWS SDK… | Security Reviewed | 3.6k | 9.2M/wk |
+| [AWS CloudWatch Log Analyzer](skills/aws-cloudwatch-log-analyzer/) | Analyzes AWS CloudWatch Logs using the CloudWatch Logs API and Logs Insights query syntax. Identifies error… | Security Reviewed | 3.6k | 9.2M/wk |
+| [AWS CloudWatch Log Anomaly Investigator](skills/aws-cloudwatch-log-anomaly-investigator/) | Investigates anomalous patterns in AWS CloudWatch Logs using the CloudWatch Logs Insights API and CloudWatch Anomaly… | Security Reviewed | 3.6k | 9.2M/wk |
+| [AWS CloudWatch Log Anomaly Scanner](skills/aws-cloudwatch-log-anomaly-scanner/) | Scans AWS CloudWatch Logs using the CloudWatch Logs Insights API and CloudWatch Anomaly Detection API. Identifies… | Security Reviewed | 3.6k | 9.2M/wk |
+| [AWS CloudWatch Runbook Agent](skills/aws-cloudwatch-runbook-agent/) | Uses AWS SDK CloudWatchClient GetMetricData and CloudWatch Logs Insights StartQueryExecution to automate incident… | Security Reviewed | 3.6k | 9.2M/wk |
+| [AWS Systems Manager Automation Incident Guide](skills/aws-systems-manager-automation-incident-guide/) | Coordinates remediation playbooks with AWS Systems Manager Automation, Incident Manager, and CloudWatch alarm… | Security Reviewed | 3.6k | 9.2M/wk |
+| [AWS Systems Manager Runbook](skills/aws-ssm-runbook-executor/) | Execute AWS Systems Manager Automation runbooks and Run Command documents using the SSM API and boto3. Supports… | Security Reviewed | 3.6k | 9.2M/wk |
+| [AWS Systems Manager Runbook Engine](skills/aws-ssm-runbook-engine/) | Executes automated diagnostics using the AWS Systems Manager Automation API and SSM Documents. Collects system… | Security Reviewed | 3.6k | 9.2M/wk |
+| [AWS CloudFormation Stack Diagnostics](skills/aws-cloudformation-stack-diagnostics/) | Diagnoses failed AWS CloudFormation stack operations using the AWS CLI (aws cloudformation describe-stack-events)… | Security Reviewed | 2.6k | 9.2M/wk |
+| [Datadog Incident Runbook Runner](skills/datadog-incident-runbook-runner-2/) | Fetches an active Datadog incident, retrieves associated monitors and dashboards, pulls the last 30 minutes of… | Security Reviewed | 789 | 6M/wk |
+| [Datadog Synthetics Failure Triage Skill](skills/datadog-synthetics-failure-triage-skill/) | Investigates broken checks with the Datadog Synthetics API, Monitors API, and Logs Search API to connect failed… | Security Reviewed | 789 | 6M/wk |
+| [Datadog Triage Playbook](skills/datadog-triage-playbook/) | Automates alert triage using the Datadog Monitors API v2 and Notebooks API. Correlates metrics with traces via the… | Security Reviewed | 789 | 6M/wk |
+| [Incident Postmortem Generator](skills/incident-postmortem-generator/) | Generates structured incident postmortems by aggregating data from PagerDuty incidents API, Slack channel history,… | Security Reviewed | 69 | 210.8k/wk |
+| [Incident Response Checklist Engine](skills/incident-response-checklist-engine/) | Generates and tracks incident response checklists using PagerDuty Incident Workflows API and Statuspage.io API.… | Security Reviewed | 69 | 210.8k/wk |
+| [PagerDuty Event Orchestration Runbook](skills/pagerduty-event-orchestration-runbook/) | Builds incident runbooks around the PagerDuty Events API v2, Incidents API, and Response Plays so agents can… | Security Reviewed | 69 | 210.8k/wk |
+| [PagerDuty Incident Runbook](skills/pagerduty-incident-runbook/) | Responds to PagerDuty incidents via the PagerDuty Events API v2 and REST API. Automatically executes diagnostic… | Security Reviewed | 69 | 210.8k/wk |
+| [PagerDuty Incident Runbook Automator](skills/pagerduty-incident-runbook-automator/) | Automates incident response runbooks using the PagerDuty Events API v2 and REST API. Manages incident creation,… | Security Reviewed | 69 | 210.8k/wk |
+| [PagerDuty Incident Runbook Engine](skills/pagerduty-incident-runbook-engine/) | Generates automated incident response runbooks triggered by PagerDuty webhooks via the PagerDuty Events API v2.… | Security Reviewed | 69 | 210.8k/wk |
+| [PagerDuty Incident Runbook Executor](skills/pagerduty-incident-runbook-executor/) | Automatically executes diagnostic runbooks when PagerDuty incidents trigger, using the PagerDuty Events v2 API and… | Security Reviewed | 69 | 210.8k/wk |
+| [PagerDuty On-Call Escalation Checker](skills/pagerduty-on-call-escalation-checker-2/) | Queries PagerDuty to show who is currently on-call for each escalation policy, surfaces unacknowledged incidents,… | Security Reviewed | 69 | 210.8k/wk |
+| [Database Migration Validator](skills/database-migration-validator/) | Validates SQL database migrations for safety using pg_stat_statements analysis and pt-online-schema-change dry-run… | Security Reviewed | — | 21.4M/wk |
+| [PostgreSQL Diagnostic Analyzer](skills/postgresql-diagnostic-analyzer/) | Runs diagnostic queries against PostgreSQL using pg_stat_statements, pg_stat_activity, and pg_locks system views.… | Security Reviewed | — | 21.4M/wk |
+| [PostgreSQL Diagnostic Runbook](skills/postgresql-diagnostic-runbook/) | Diagnoses PostgreSQL performance issues using pg_stat_statements, pg_stat_activity, and the pgbadger log analyzer.… | Security Reviewed | — | 21.4M/wk |
+| [PostgreSQL Health Diagnostics Agent](skills/postgresql-health-diagnostics-agent/) | Queries PostgreSQL system catalogs pg_stat_activity, pg_stat_user_tables, and pg_locks to diagnose performance… | Security Reviewed | — | 21.4M/wk |
+| [PostgreSQL Performance Diagnostic Suite](skills/postgresql-performance-diagnostic-suite/) | Diagnoses PostgreSQL performance issues using pg_stat_statements, pg_stat_activity, and EXPLAIN ANALYZE. Integrates… | Security Reviewed | — | 21.4M/wk |
+| [PostgreSQL Performance Diagnostics](skills/postgresql-performance-diagnostics/) | Analyzes PostgreSQL query performance using pg_stat_statements, pg_stat_user_tables, and EXPLAIN ANALYZE output.… | Security Reviewed | — | 21.4M/wk |
+| [PostgreSQL Performance Runbook](skills/postgresql-performance-runbook/) | Executes diagnostic queries against PostgreSQL using pg_stat_statements, pg_stat_activity, and pg_locks system… | Security Reviewed | — | 21.4M/wk |
+| [PostgreSQL Query Analyzer](skills/postgresql-query-analyzer/) | Analyzes PostgreSQL slow queries using EXPLAIN (ANALYZE, BUFFERS, FORMAT JSON) output and pg_stat_statements views.… | Security Reviewed | — | 21.4M/wk |
+| [PostgreSQL Query Diagnostics](skills/postgresql-query-diagnostics/) | Diagnoses slow PostgreSQL queries using pg_stat_statements, pg_stat_activity, and EXPLAIN ANALYZE output parsing.… | Security Reviewed | — | 21.4M/wk |
+| [PostgreSQL Query Plan Diagnostics](skills/postgresql-query-plan-diagnostics-wave48/) | Analyzes PostgreSQL query execution plans using EXPLAIN (ANALYZE, BUFFERS, FORMAT JSON) and the pg_stat_statements… | Security Reviewed | — | 21.4M/wk |
+| [PostgreSQL Query Plan Explainer](skills/postgresql-query-plan-explainer/) | Interprets PostgreSQL EXPLAIN ANALYZE output using pg_stat_statements and auto_explain module data. Identifies… | Security Reviewed | — | 21.4M/wk |
+| [PostgreSQL Slow Query Analyzer](skills/postgresql-slow-query-analyzer/) | Queries pg_stat_statements and pg_stat_activity to surface the top slow queries by total execution time, mean… | Security Reviewed | — | 21.4M/wk |
+| [PostgreSQL Slow Query Runbook](skills/postgresql-slow-query-runbook-agent/) | Diagnoses PostgreSQL slow queries using pg_stat_statements extension, EXPLAIN ANALYZE output parsing, and… | Security Reviewed | — | 21.4M/wk |
+| [PostgreSQL Vacuum Deadlock Runbook](skills/postgresql-vacuum-deadlock-runbook/) | Automates PostgreSQL vacuum and autovacuum troubleshooting via pg_stat_user_tables, pg_locks, and pg_stat_activity… | Security Reviewed | — | 21.4M/wk |
+| [Incident Response Playbook Runner](skills/incident-response-playbook-runner/) | Executes structured incident response playbooks using PagerDuty Events API v2 for alerting, Slack Web API for… | Security Reviewed | — | — |
+| [Systemd Service Debugger](skills/systemd-service-debugger/) | Debugs failed systemd services using journalctl, systemctl, and the systemd D-Bus API. Analyzes unit dependencies,… | Security Reviewed | — | — |
+| [Systemd Service Diagnostics](skills/systemd-service-diagnostics/) | Diagnoses systemd service failures using journalctl structured JSON output and systemctl show properties. Analyzes… | Security Reviewed | — | — |
+| [Systemd Service Recovery Playbook](skills/systemd-service-recovery-playbook-2/) | Diagnoses and recovers failed systemd services using journalctl, systemctl status, and D-Bus… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (99 skills)
+### 🔄 Data Extraction & Transformation (100 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
-| Skill | Tier | GitHub Stars | npm Downloads | Install |
-|---|---|---:|---:|---|
-| [yq YAML and Structured Data Processor](skills/yq-yaml-structured-data-processor/) | Security Reviewed | 121.3k | — | `clawhub install yq-yaml-structured-data-processor` |
-| [Elasticsearch MCP](skills/elasticsearch-mcp/) | Security Reviewed | 76.4k | 1.9M/wk | `clawhub install elasticsearch-mcp` |
-| [Crawl4AI MCP Server](skills/crawl4ai-mcp-server/) | Security Reviewed | 71.6k | — | `clawhub install crawl4ai-mcp-server` |
-| [Dagster Data Pipeline Orchestrator](skills/dagster-data-pipeline-orchestrator/) | Security Reviewed | 71.6k | — | `clawhub install dagster-data-pipeline-orchestrator` |
-| [Meltano Declarative ELT Data Integration Engine](skills/meltano-declarative-elt-data-integration-engine/) | Security Reviewed | 71.6k | — | `clawhub install meltano-declarative-elt-data-integration-engine` |
-| [Postgres MCP Pro](skills/postgres-mcp-pro/) | Security Reviewed | 71.6k | — | `clawhub install postgres-mcp-pro` |
-| [Scrapy Spider Data Pipeline](skills/scrapy-spider-data-pipeline/) | Security Reviewed | 60.9k | 39.8M/wk | `clawhub install scrapy-spider-data-pipeline` |
-| [Camelot Advanced PDF Table Intelligence](skills/camelot-advanced-pdf-table-intelligence/) | Security Reviewed | 48.2k | — | `clawhub install camelot-advanced-pdf-table-intelligence` |
-| [Miller CSV TSV JSON Data Processor](skills/miller-csv-tsv-json-data-processor/) | Security Reviewed | 48.2k | — | `clawhub install miller-csv-tsv-json-data-processor` |
-| [Pandas DataFrame Pipeline Builder](skills/pandas-dataframe-pipeline-builder/) | Security Reviewed | 48.2k | — | `clawhub install pandas-dataframe-pipeline-builder` |
-| [Pandas DataFrame Pipeline Orchestrator](skills/pandas-dataframe-pipeline-orchestrator/) | Security Reviewed | 48.2k | — | `clawhub install pandas-dataframe-pipeline-orchestrator` |
-| [Pandas DataFrame Schema Enforcer](skills/pandas-dataframe-schema-enforcer/) | Security Reviewed | 48.2k | — | `clawhub install pandas-dataframe-schema-enforcer` |
-| [Pandas DataFrame Schema Validator](skills/pandas-dataframe-schema-validator/) | Security Reviewed | 48.2k | — | `clawhub install pandas-dataframe-schema-validator` |
-| [Pandas Profiling Report Generator](skills/pandas-profiling-report-generator/) | Security Reviewed | 48.2k | — | `clawhub install pandas-profiling-report-generator` |
-| [PDF Table Extraction with Camelot](skills/pdf-table-extraction-camelot/) | Security Reviewed | 48.2k | — | `clawhub install pdf-table-extraction-camelot` |
-| [Tabula PDF Table Extraction Agent](skills/tabula-pdf-table-extraction-agent/) | Security Reviewed | 48.2k | — | `clawhub install tabula-pdf-table-extraction-agent` |
-| [Tabula PDF Table Extractor](skills/tabula-pdf-table-extractor/) | Security Reviewed | 48.2k | — | `clawhub install tabula-pdf-table-extractor` |
-| [Tesseract OCR Data Extractor](skills/tesseract-ocr-data-extractor/) | Security Reviewed | 48.2k | — | `clawhub install tesseract-ocr-data-extractor` |
-| [Tesseract OCR Document Extractor](skills/tesseract-ocr-document-extractor/) | Security Reviewed | 48.2k | — | `clawhub install tesseract-ocr-document-extractor` |
-| [Airbyte Connector Config Generator](skills/airbyte-connector-config-generator/) | Security Reviewed | 48k | — | `clawhub install airbyte-connector-config-generator` |
-| [ClickHouse Query Agent](skills/clickhouse-query-agent/) | Security Reviewed | 46.5k | 1.5M/wk | `clawhub install clickhouse-query-agent` |
-| [Apache Airflow MCP](skills/apache-airflow-mcp/) | Security Reviewed | 44.8k | — | `clawhub install apache-airflow-mcp` |
-| [Apache Spark DataFrame ETL Pipeline](skills/spark-dataframe-etl-pipeline/) | Security Reviewed | 43k | 9.2M/wk | `clawhub install spark-dataframe-etl-pipeline` |
-| [Apache Spark Job Manager](skills/apache-spark-job-manager/) | Security Reviewed | 43k | — | `clawhub install apache-spark-job-manager` |
-| [Cheerio DOM Extraction Pipeline](skills/cheerio-dom-extraction-pipeline/) | Security Reviewed | 30.2k | 18.5M/wk | `clawhub install cheerio-dom-extraction-pipeline` |
-| [GraphQL Data Federation Agent](skills/graphql-data-federation-agent/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install graphql-data-federation-agent` |
-| [GraphQL Schema Introspection Mapper](skills/graphql-schema-introspection-mapper/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install graphql-schema-introspection-mapper` |
-| [Weaviate MCP Server](skills/weaviate-mcp-server/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install weaviate-mcp-server` |
-| [Docling AI Document Intelligence Pipeline](skills/docling-ai-document-intelligence-pipeline/) | Security Reviewed | 17.3k | 2.1M/wk | `clawhub install docling-ai-document-intelligence-pipeline` |
-| [dbt Cloud MCP](skills/dbt-cloud-mcp/) | Security Reviewed | 12.5k | — | `clawhub install dbt-cloud-mcp` |
-| [dbt Data Transform Orchestrator](skills/dbt-data-transform-orchestrator/) | Security Reviewed | 12.5k | — | `clawhub install dbt-data-transform-orchestrator` |
-| [dbt Data Transformation Orchestrator](skills/dbt-data-transformation-orchestrator/) | Security Reviewed | 12.5k | — | `clawhub install dbt-data-transformation-orchestrator` |
-| [dbt MCP Server](skills/dbt-mcp-server/) | Security Reviewed | 12.5k | — | `clawhub install dbt-mcp-server` |
-| [dbt MCP Server for Data Pipeline Context](skills/dbt-mcp-server-data-pipeline-context/) | Security Reviewed | 12.5k | — | `clawhub install dbt-mcp-server-data-pipeline-context` |
-| [dbt Model Dependency Analyzer](skills/dbt-model-dependency-analyzer/) | Security Reviewed | 12.5k | — | `clawhub install dbt-model-dependency-analyzer` |
-| [dbt Model Dependency Resolver](skills/dbt-model-dependency-resolver-2/) | Security Reviewed | 12.5k | — | `clawhub install dbt-model-dependency-resolver-2` |
-| [dbt Model Lineage &amp; Test Coverage Checker](skills/dbt-model-lineage-test-coverage-2/) | Security Reviewed | 12.5k | — | `clawhub install dbt-model-lineage-test-coverage-2` |
-| [dbt Model Lineage Analyzer](skills/dbt-model-lineage-analyzer/) | Security Reviewed | 12.5k | — | `clawhub install dbt-model-lineage-analyzer` |
-| [dbt Model Lineage Extractor](skills/dbt-model-lineage-extractor-2/) | Security Reviewed | 12.5k | — | `clawhub install dbt-model-lineage-extractor-2` |
-| [dbt Model Lineage Mapper](skills/dbt-model-lineage-mapper/) | Security Reviewed | 12.5k | — | `clawhub install dbt-model-lineage-mapper` |
-| [dbt Model Transformation Architect](skills/dbt-model-transformation-architect/) | Security Reviewed | 12.5k | — | `clawhub install dbt-model-transformation-architect` |
-| [SQLite MCP Server](skills/sqlite-mcp-server/) | Security Reviewed | 7k | 5M/wk | `clawhub install sqlite-mcp-server` |
-| [Ingestr Cross-Database Data Copier](skills/ingestr-cross-database-data-copier/) | Security Reviewed | 5.6k | 1.1M/wk | `clawhub install ingestr-cross-database-data-copier` |
-| [Protocol Buffer Schema Generator](skills/protobuf-schema-generator-from-json/) | Security Reviewed | 4.8k | 30.9M/wk | `clawhub install protobuf-schema-generator-from-json` |
-| [Stripe Revenue Analytics Dashboard Builder](skills/stripe-revenue-analytics-dashboard/) | Security Reviewed | 4.4k | 8.4M/wk | `clawhub install stripe-revenue-analytics-dashboard` |
-| [Apache Avro Schema Evolution Agent](skills/apache-avro-schema-evolution-agent/) | Security Reviewed | 4k | 2.4M/wk | `clawhub install apache-avro-schema-evolution-agent` |
-| [Apache Camel Route Data Mapper](skills/apache-camel-route-data-mapper/) | Security Reviewed | 4k | 2.4M/wk | `clawhub install apache-camel-route-data-mapper` |
-| [Apache Kafka Schema Extractor](skills/apache-kafka-schema-extractor/) | Security Reviewed | 4k | 2.4M/wk | `clawhub install apache-kafka-schema-extractor` |
-| [Apache Kafka Schema Registry Extractor](skills/kafka-schema-registry-extractor/) | Security Reviewed | 4k | 2.4M/wk | `clawhub install kafka-schema-registry-extractor` |
-| [Apache Kafka Schema Registry Validator](skills/kafka-schema-registry-validator/) | Security Reviewed | 4k | 2.4M/wk | `clawhub install kafka-schema-registry-validator` |
-| [Apache Kafka Stream Processor](skills/apache-kafka-stream-processor/) | Security Reviewed | 4k | 2.4M/wk | `clawhub install apache-kafka-stream-processor` |
-| [Apache Kafka Stream Transformer](skills/apache-kafka-stream-transformer-2/) | Security Reviewed | 4k | 2.4M/wk | `clawhub install apache-kafka-stream-transformer-2` |
-| [JSON-to-Avro Schema Transformer](skills/json-to-avro-schema-transformer/) | Security Reviewed | 4k | 2.4M/wk | `clawhub install json-to-avro-schema-transformer` |
-| [jq JSON Stream Transformer](skills/jq-json-stream-transformer/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install jq-json-stream-transformer` |
-| [QuickBooks Online Invoice Reconciliation Agent](skills/quickbooks-invoice-reconciliation/) | Security Reviewed | 3.1k | 3.3M/wk | `clawhub install quickbooks-invoice-reconciliation` |
-| [Reddit Subreddit Sentiment Tracker](skills/reddit-subreddit-sentiment-tracker/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install reddit-subreddit-sentiment-tracker` |
-| [Weights &amp; Biases Run Monitor](skills/wandb-run-monitor/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install wandb-run-monitor` |
-| [Salesforce Bulk API Data Loader](skills/salesforce-bulk-api-data-loader/) | Security Reviewed | 1.5k | 804.8k/wk | `clawhub install salesforce-bulk-api-data-loader` |
-| [DuckDB SQL Analytics Agent](skills/duckdb-sql-analytics-agent/) | Security Reviewed | 387 | 146.9k/wk | `clawhub install duckdb-sql-analytics-agent` |
-| [Parquet Column Mapper](skills/parquet-column-mapper/) | Security Reviewed | 387 | 146.9k/wk | `clawhub install parquet-column-mapper` |
-| [Parquet Column Pruning Optimizer](skills/parquet-column-pruning-optimizer/) | Security Reviewed | 387 | 146.9k/wk | `clawhub install parquet-column-pruning-optimizer` |
-| [Parquet Column Statistics Profiler](skills/parquet-column-statistics-profiler/) | Security Reviewed | 387 | 146.9k/wk | `clawhub install parquet-column-statistics-profiler` |
-| [Parquet Schema Extractor for S3](skills/parquet-schema-extractor-for-s3/) | Security Reviewed | 387 | 146.9k/wk | `clawhub install parquet-schema-extractor-for-s3` |
-| [Parquet to PostgreSQL Loader](skills/parquet-to-postgresql-loader/) | Security Reviewed | 387 | 146.9k/wk | `clawhub install parquet-to-postgresql-loader` |
-| [Metabase Dashboard Snapshot &amp; Alerting](skills/metabase-dashboard-snapshot-alerting-2/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install metabase-dashboard-snapshot-alerting-2` |
-| [PostgreSQL MCP Server](skills/postgresql-mcp-server/) | Security Reviewed | — | 21.4M/wk | `clawhub install postgresql-mcp-server` |
-| [Anyquery Universal SQL Engine with MCP Integration](skills/anyquery-universal-sql-engine-mcp-integration/) | Verified Metadata | — | — | `clawhub install anyquery-universal-sql-engine-mcp-integration` |
-| [Apache Tika Content Extraction Hub](skills/apache-tika-content-extraction-hub/) | Security Reviewed | — | — | `clawhub install apache-tika-content-extraction-hub` |
-| [Apache Tika Document Extractor](skills/apache-tika-document-extractor/) | Security Reviewed | — | — | `clawhub install apache-tika-document-extractor` |
-| [Apache Tika Document Parser](skills/apache-tika-document-parser/) | Security Reviewed | — | — | `clawhub install apache-tika-document-parser` |
-| [Apache Tika Document Parser Agent](skills/apache-tika-document-parser-agent/) | Security Reviewed | — | — | `clawhub install apache-tika-document-parser-agent` |
-| [Camelot PDF Stream Parser](skills/camelot-pdf-stream-parser/) | Security Reviewed | — | — | `clawhub install camelot-pdf-stream-parser` |
-| [CSV Schema Validator &#038; Auto-Fixer](skills/csv-schema-validator-auto-fixer/) | Security Reviewed | — | — | `clawhub install csv-schema-validator-auto-fixer` |
-| [csvkit Python CSV Utility Suite](skills/csvkit-python-csv-utility-suite/) | Verified Metadata | — | — | `clawhub install csvkit-python-csv-utility-suite` |
-| [Dasel Multi-Format Data Selector and Modifier](skills/dasel-multi-format-data-selector-modifier/) | Security Reviewed | — | — | `clawhub install dasel-multi-format-data-selector-modifier` |
-| [Datasette Data Exploration and Publishing Tool](skills/datasette-data-exploration-publishing-tool/) | Verified Metadata | — | — | `clawhub install datasette-data-exploration-publishing-tool` |
-| [dlt Python Data Load Tool](skills/dlt-python-data-load-tool/) | Verified Metadata | — | — | `clawhub install dlt-python-data-load-tool` |
-| [Documind AI-Powered Structured Data Extraction from Documents](skills/documind-ai-structured-data-extraction/) | Verified Metadata | — | — | `clawhub install documind-ai-structured-data-extraction` |
-| [Evidence BI-as-Code SQL and Markdown Analytics Framework](skills/evidence-bi-as-code-sql-markdown-analytics/) | Verified Metadata | — | — | `clawhub install evidence-bi-as-code-sql-markdown-analytics` |
-| [fx Terminal JSON Viewer and Processor](skills/fx-terminal-json-viewer-processor/) | Verified Metadata | — | — | `clawhub install fx-terminal-json-viewer-processor` |
-| [gron Greppable JSON Flattener](skills/gron-greppable-json-flattener/) | Verified Metadata | — | — | `clawhub install gron-greppable-json-flattener` |
-| [Instructor Structured Data Extraction from LLMs](skills/instructor-structured-data-extraction-llms/) | Verified Metadata | — | — | `clawhub install instructor-structured-data-extraction-llms` |
-| [jnv Interactive JSON Navigator and jq Filter Editor](skills/jnv-interactive-json-navigator/) | Verified Metadata | — | — | `clawhub install jnv-interactive-json-navigator` |
-| [jq Pipeline Builder Agent](skills/jq-pipeline-builder-agent/) | Security Reviewed | — | — | `clawhub install jq-pipeline-builder-agent` |
-| [Marker PDF-to-Markdown Converter](skills/marker-pdf-to-markdown-converter/) | Security Reviewed | — | — | `clawhub install marker-pdf-to-markdown-converter` |
-| [MinerU PDF-to-Markdown Document Parser](skills/mineru-pdf-to-markdown-document-parser/) | Verified Metadata | — | — | `clawhub install mineru-pdf-to-markdown-document-parser` |
-| [Polars Blazing-Fast DataFrame Query Engine](skills/polars-dataframe-query-engine/) | Verified Metadata | — | — | `clawhub install polars-dataframe-query-engine` |
-| [qsv Blazing-Fast CSV Data Wrangling Toolkit](skills/qsv-blazing-fast-csv-data-wrangling-toolkit/) | Verified Metadata | — | — | `clawhub install qsv-blazing-fast-csv-data-wrangling-toolkit` |
-| [Redpanda Connect Declarative Stream Processor](skills/redpanda-connect-declarative-stream-processor/) | Verified Metadata | — | — | `clawhub install redpanda-connect-declarative-stream-processor` |
-| [Snowflake MCP](skills/snowflake-mcp/) | Security Reviewed | — | — | `clawhub install snowflake-mcp` |
-| [Snowflake MCP Server](skills/snowflake-mcp-server/) | Security Reviewed | — | — | `clawhub install snowflake-mcp-server` |
-| [Snowflake Query History Extractor](skills/snowflake-query-history-extractor/) | Security Reviewed | — | — | `clawhub install snowflake-query-history-extractor` |
-| [Snowflake Query Optimizer Agent](skills/snowflake-query-optimizer-agent/) | Security Reviewed | — | — | `clawhub install snowflake-query-optimizer-agent` |
-| [Snowflake Query Profiler](skills/snowflake-query-profiler/) | Security Reviewed | — | — | `clawhub install snowflake-query-profiler` |
-| [sqlite-utils Python CLI for SQLite Database Manipulation](skills/sqlite-utils-python-cli-sqlite-manipulation/) | Verified Metadata | — | — | `clawhub install sqlite-utils-python-cli-sqlite-manipulation` |
-| [Steampipe Zero-ETL SQL Cloud API Query Engine](skills/steampipe-zero-etl-sql-cloud-api-query-engine/) | Verified Metadata | — | — | `clawhub install steampipe-zero-etl-sql-cloud-api-query-engine` |
-| [trdsql SQL Query Engine for CSV JSON and YAML Files](skills/trdsql-sql-query-engine-csv-json-yaml-files/) | Verified Metadata | — | — | `clawhub install trdsql-sql-query-engine-csv-json-yaml-files` |
-| [XML XSLT Transform Pipeline](skills/xml-xslt-transform-pipeline/) | Security Reviewed | — | — | `clawhub install xml-xslt-transform-pipeline` |
-| [xsv High-Performance CSV Toolkit](skills/xsv-high-performance-csv-toolkit/) | Security Reviewed | — | — | `clawhub install xsv-high-performance-csv-toolkit` |
+| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
+|---|---|---|---:|---:|
+| [yq YAML and Structured Data Processor](skills/yq-yaml-structured-data-processor/) | Process, query, and transform YAML, JSON, XML, CSV, TOML, and properties files from the command line using yq.… | Security Reviewed | 121.3k | — |
+| [Elasticsearch MCP](skills/elasticsearch-mcp/) | Elasticsearch MCP is built around Elasticsearch search and analytics engine. The underlying ecosystem is represented… | Security Reviewed | 76.4k | 1.9M/wk |
+| [Crawl4AI MCP Server](skills/crawl4ai-mcp-server/) | Self-hosted web crawling and content extraction exposed as MCP tools. Scrape pages, crawl sites with depth control,… | Security Reviewed | 71.6k | — |
+| [Dagster Data Pipeline Orchestrator](skills/dagster-data-pipeline-orchestrator/) | Orchestrate data pipelines using Dagster, the cloud-native data orchestration platform. Define data assets as Python… | Security Reviewed | 71.6k | — |
+| [Meltano Declarative ELT Data Integration Engine](skills/meltano-declarative-elt-data-integration-engine/) | Meltano is an open-source, CLI-first ELT platform built on the Singer specification. It provides declarative,… | Security Reviewed | 71.6k | — |
+| [Postgres MCP Pro](skills/postgres-mcp-pro/) | Query, analyze, and tune PostgreSQL databases through your AI agent with safe access controls. Beyond basic SQL… | Security Reviewed | 71.6k | — |
+| [Scrapy Spider Data Pipeline](skills/scrapy-spider-data-pipeline/) | Builds and manages Scrapy web scraping spiders with custom item pipelines. Supports Splash rendering for JavaScript… | Security Reviewed | 60.9k | 39.8M/wk |
+| [Camelot Advanced PDF Table Intelligence](skills/camelot-advanced-pdf-table-intelligence/) | Intelligent PDF table detection and extraction using Camelot-py with OpenCV-based lattice detection and… | Security Reviewed | 48.2k | — |
+| [Miller CSV TSV JSON Data Processor](skills/miller-csv-tsv-json-data-processor/) | Miller (mlr) is a command-line tool for querying, shaping, and reformatting name-indexed data such as CSV, TSV,… | Security Reviewed | 48.2k | — |
+| [Pandas DataFrame Pipeline Builder](skills/pandas-dataframe-pipeline-builder/) | Constructs data transformation pipelines using Pandas and the pipe() method chain pattern. Integrates with… | Security Reviewed | 48.2k | — |
+| [Pandas DataFrame Pipeline Orchestrator](skills/pandas-dataframe-pipeline-orchestrator/) | Chains pandas DataFrame transformations into reproducible pipelines using pipe() method composition. Handles missing… | Security Reviewed | 48.2k | — |
+| [Pandas DataFrame Schema Enforcer](skills/pandas-dataframe-schema-enforcer/) | Validates and transforms Pandas DataFrames using Pandera schema definitions with column-level dtype, nullable, and… | Security Reviewed | 48.2k | — |
+| [Pandas DataFrame Schema Validator](skills/pandas-dataframe-schema-validator/) | Validates Pandas DataFrame structures using the pandera library API and pa.DataFrameSchema definitions. Enforces… | Security Reviewed | 48.2k | — |
+| [Pandas Profiling Report Generator](skills/pandas-profiling-report-generator/) | Generates comprehensive data quality reports using ydata-profiling (formerly pandas-profiling) with correlation… | Security Reviewed | 48.2k | — |
+| [PDF Table Extraction with Camelot](skills/pdf-table-extraction-camelot/) | Extracts structured tables from PDF documents using Camelot's lattice and stream parsing algorithms. Handles merged… | Security Reviewed | 48.2k | — |
+| [Tabula PDF Table Extraction Agent](skills/tabula-pdf-table-extraction-agent/) | Uses Tabula Java library via tabula-py bindings to detect and extract tables from PDF documents. Supports both… | Security Reviewed | 48.2k | — |
+| [Tabula PDF Table Extractor](skills/tabula-pdf-table-extractor/) | Extracts structured tables from PDF documents using Tabula-java with lattice and stream detection modes. Outputs to… | Security Reviewed | 48.2k | — |
+| [Tesseract OCR Data Extractor](skills/tesseract-ocr-data-extractor/) | Extracts structured data from scanned documents using Tesseract OCR engine with LSTM models. Supports table… | Security Reviewed | 48.2k | — |
+| [Tesseract OCR Document Extractor](skills/tesseract-ocr-document-extractor/) | Extracts structured text from scanned documents and images using Tesseract OCR with custom LSTM training data.… | Security Reviewed | 48.2k | — |
+| [Airbyte Connector Config Generator](skills/airbyte-connector-config-generator/) | Generates Airbyte source and destination connector configurations using the Airbyte API /v1/sources/create and… | Security Reviewed | 48k | — |
+| [ClickHouse Query Agent](skills/clickhouse-query-agent/) | ClickHouse Query Agent is built around ClickHouse columnar analytics database. The underlying ecosystem is… | Security Reviewed | 46.5k | 1.5M/wk |
+| [Apache Airflow MCP](skills/apache-airflow-mcp/) | Apache Airflow MCP is built around Apache Airflow workflow orchestration. The underlying ecosystem is represented by… | Security Reviewed | 44.8k | — |
+| [Apache Spark DataFrame ETL Pipeline](skills/spark-dataframe-etl-pipeline/) | Automates PySpark DataFrame transformations including schema inference, partition pruning, and Delta Lake merge… | Security Reviewed | 43k | 9.2M/wk |
+| [Apache Spark Job Manager](skills/apache-spark-job-manager/) | Apache Spark Job Manager is built around Apache Spark distributed compute engine. The underlying ecosystem is… | Security Reviewed | 43k | — |
+| [Cheerio DOM Extraction Pipeline](skills/cheerio-dom-extraction-pipeline/) | Builds configurable data extraction pipelines using Cheerio for server-side DOM parsing with CSS selector chains.… | Security Reviewed | 30.2k | 18.5M/wk |
+| [GraphQL Data Federation Agent](skills/graphql-data-federation-agent/) | Federates data from multiple GraphQL and REST APIs using Apollo Federation gateway. Implements schema stitching with… | Security Reviewed | 20.3k | 32M/wk |
+| [GraphQL Schema Introspection Mapper](skills/graphql-schema-introspection-mapper/) | Introspects GraphQL APIs via the __schema query and maps type relationships, deprecated fields, and circular… | Security Reviewed | 20.3k | 32M/wk |
+| [Weaviate MCP Server](skills/weaviate-mcp-server/) | Weaviate MCP Server is built around GraphQL API ecosystem. The underlying ecosystem is represented by… | Security Reviewed | 20.3k | 32M/wk |
+| [Docling AI Document Intelligence Pipeline](skills/docling-ai-document-intelligence-pipeline/) | Docling is an IBM-backed open-source toolkit that converts PDF, DOCX, PPTX, XLSX, HTML, images, audio, and LaTeX… | Security Reviewed | 17.3k | 2.1M/wk |
+| [dbt Cloud MCP](skills/dbt-cloud-mcp/) | dbt Cloud MCP is built around dbt transformation framework. The underlying ecosystem is represented by… | Security Reviewed | 12.5k | — |
+| [dbt Data Transform Orchestrator](skills/dbt-data-transform-orchestrator/) | Integrates with dbt Cloud Administrative API v2 to trigger and monitor data transformation jobs. Manages model runs,… | Security Reviewed | 12.5k | — |
+| [dbt Data Transformation Orchestrator](skills/dbt-data-transformation-orchestrator/) | Manages dbt Core and dbt Cloud API workflows for SQL-based data transformations. Handles model lineage, incremental… | Security Reviewed | 12.5k | — |
+| [dbt MCP Server](skills/dbt-mcp-server/) | dbt MCP Server is built around dbt transformation framework. The underlying ecosystem is represented by… | Security Reviewed | 12.5k | — |
+| [dbt MCP Server for Data Pipeline Context](skills/dbt-mcp-server-data-pipeline-context/) | The official dbt MCP Server by dbt Labs provides Model Context Protocol tools for AI agents to interact with dbt… | Security Reviewed | 12.5k | — |
+| [dbt Model Dependency Analyzer](skills/dbt-model-dependency-analyzer/) | Analyzes dbt project DAGs using the dbt manifest.json artifact and the dbt Cloud API. Detects circular dependencies,… | Security Reviewed | 12.5k | — |
+| [dbt Model Dependency Resolver](skills/dbt-model-dependency-resolver-2/) | Analyzes dbt project DAGs to identify circular references, orphaned models, and suboptimal materialization… | Security Reviewed | 12.5k | — |
+| [dbt Model Lineage &amp; Test Coverage Checker](skills/dbt-model-lineage-test-coverage-2/) | Parses dbt project artifacts (manifest.json and catalog.json) to build a lineage graph and identify models with no… | Security Reviewed | 12.5k | — |
+| [dbt Model Lineage Analyzer](skills/dbt-model-lineage-analyzer/) | Parses dbt project manifests and catalog artifacts to build complete data lineage graphs. Uses the dbt Cloud API v2… | Security Reviewed | 12.5k | — |
+| [dbt Model Lineage Extractor](skills/dbt-model-lineage-extractor-2/) | Extracts and visualizes dbt model dependency lineage using the dbt Core manifest.json artifact API. Parses ref() and… | Security Reviewed | 12.5k | — |
+| [dbt Model Lineage Mapper](skills/dbt-model-lineage-mapper/) | Parses dbt manifest.json and catalog.json to extract full model lineage graphs using the dbt Core artifact API.… | Security Reviewed | 12.5k | — |
+| [dbt Model Transformation Architect](skills/dbt-model-transformation-architect/) | Generates and validates dbt (data build tool) models, tests, and documentation for Snowflake, BigQuery, and… | Security Reviewed | 12.5k | — |
+| [SQLite MCP Server](skills/sqlite-mcp-server/) | Lightweight local database access for agent tasks. | Security Reviewed | 7k | 5M/wk |
+| [Ingestr Cross-Database Data Copier](skills/ingestr-cross-database-data-copier/) | Copy data between any databases with a single CLI command using Ingestr. Supports 50+ sources and destinations… | Security Reviewed | 5.6k | 1.1M/wk |
+| [Protocol Buffer Schema Generator](skills/protobuf-schema-generator-from-json/) | Infers Protocol Buffer (.proto) definitions from JSON samples using protobuf-compiler and grpcio-tools. Generates… | Security Reviewed | 4.8k | 30.9M/wk |
+| [Stripe Revenue Analytics Dashboard Builder](skills/stripe-revenue-analytics-dashboard/) | Pulls MRR, churn, and LTV metrics from the Stripe Data API using the stripe Node.js SDK and transforms the data… | Security Reviewed | 4.4k | 8.4M/wk |
+| [Apache Avro Schema Evolution Agent](skills/apache-avro-schema-evolution-agent/) | Manages Apache Avro schema evolution with compatibility checking via Confluent Schema Registry API. Validates… | Security Reviewed | 4k | 2.4M/wk |
+| [Apache Camel Route Data Mapper](skills/apache-camel-route-data-mapper/) | Maps and transforms data between systems using Apache Camel route definitions and the Camel Component API. Supports… | Security Reviewed | 4k | 2.4M/wk |
+| [Apache Kafka Schema Extractor](skills/apache-kafka-schema-extractor/) | Extracts and transforms Avro, Protobuf, and JSON Schema definitions from Confluent Schema Registry. Generates typed… | Security Reviewed | 4k | 2.4M/wk |
+| [Apache Kafka Schema Registry Extractor](skills/kafka-schema-registry-extractor/) | Extracts and transforms Avro/Protobuf schemas from Confluent Schema Registry using the REST API. Generates… | Security Reviewed | 4k | 2.4M/wk |
+| [Apache Kafka Schema Registry Validator](skills/kafka-schema-registry-validator/) | Validates Avro, Protobuf, and JSON Schema compatibility against Confluent Schema Registry using the REST API.… | Security Reviewed | 4k | 2.4M/wk |
+| [Apache Kafka Stream Processor](skills/apache-kafka-stream-processor/) | Apache Kafka Stream Processor is built around Apache Kafka event streaming platform. The underlying ecosystem is… | Security Reviewed | 4k | 2.4M/wk |
+| [Apache Kafka Stream Transformer](skills/apache-kafka-stream-transformer-2/) | Processes real-time event streams using KafkaJS consumer groups and transforms messages with configurable schemas.… | Security Reviewed | 4k | 2.4M/wk |
+| [JSON-to-Avro Schema Transformer](skills/json-to-avro-schema-transformer/) | Transforms JSON Schema definitions into Apache Avro schema format using the jsonschema and fastavro Python… | Security Reviewed | 4k | 2.4M/wk |
+| [jq JSON Stream Transformer](skills/jq-json-stream-transformer/) | Constructs complex jq filter expressions for transforming JSON/NDJSON streams, including recursive descent, object… | Security Reviewed | 3.6k | 9.2M/wk |
+| [QuickBooks Online Invoice Reconciliation Agent](skills/quickbooks-invoice-reconciliation/) | Connects to the QuickBooks Online Accounting API using OAuth 2.0 via the intuit-oauth Node.js SDK to fetch unpaid… | Security Reviewed | 3.1k | 3.3M/wk |
+| [Reddit Subreddit Sentiment Tracker](skills/reddit-subreddit-sentiment-tracker/) | Uses the Reddit OAuth2 API via PRAW to collect top posts and comments from subreddits on a rolling 24-hour window,… | Security Reviewed | 2.9k | 2.4M/wk |
+| [Weights &amp; Biases Run Monitor](skills/wandb-run-monitor/) | Uses the W&amp;B Python SDK and Public API to stream live training metrics, system stats, and gradients from active… | Security Reviewed | 2.9k | 2.4M/wk |
+| [Salesforce Bulk API Data Loader](skills/salesforce-bulk-api-data-loader/) | Performs high-volume data operations using the Salesforce Bulk API 2.0. Creates ingest jobs with createJob(),… | Security Reviewed | 1.5k | 804.8k/wk |
+| [DuckDB SQL Analytics Agent](skills/duckdb-sql-analytics-agent/) | Run analytical SQL queries on local files (CSV, Parquet, JSON) using the DuckDB in-process database engine. Enables… | Security Reviewed | 387 | 146.9k/wk |
+| [Parquet Column Mapper](skills/parquet-column-mapper/) | Reads and transforms Apache Parquet file metadata and column statistics using PyArrow and the Parquet Thrift… | Published | 387 | 146.9k/wk |
+| [Parquet Column Pruning Optimizer](skills/parquet-column-pruning-optimizer/) | Optimizes Apache Parquet file reads using PyArrow column pruning and predicate pushdown. Analyzes query patterns to… | Security Reviewed | 387 | 146.9k/wk |
+| [Parquet Column Statistics Profiler](skills/parquet-column-statistics-profiler/) | Profiles Apache Parquet files using pyarrow metadata APIs to extract column statistics, row group distributions, and… | Security Reviewed | 387 | 146.9k/wk |
+| [Parquet Schema Extractor for S3](skills/parquet-schema-extractor-for-s3/) | Extracts and validates Parquet file schemas from Amazon S3 using the PyArrow library and AWS S3 SDK (boto3).… | Security Reviewed | 387 | 146.9k/wk |
+| [Parquet to PostgreSQL Loader](skills/parquet-to-postgresql-loader/) | Reads Apache Parquet files using PyArrow and bulk-loads them into PostgreSQL via psycopg2 COPY protocol. Handles… | Published | 387 | 146.9k/wk |
+| [Metabase Dashboard Snapshot &amp; Alerting](skills/metabase-dashboard-snapshot-alerting-2/) | Uses the Metabase REST API to export question results as CSV and render dashboard PNGs on schedule. Compares key… | Security Reviewed | 69 | 210.8k/wk |
+| [PostgreSQL MCP Server](skills/postgresql-mcp-server/) | Agent access to PostgreSQL data and queries through MCP. | Security Reviewed | — | 21.4M/wk |
+| [Anyquery Universal SQL Engine with MCP Integration](skills/anyquery-universal-sql-engine-mcp-integration/) | Anyquery is a SQL query engine that lets you run SQL against 40+ apps, files, and databases including GitHub,… | Security Reviewed | — | — |
+| [Apache Tika Content Extraction Hub](skills/apache-tika-content-extraction-hub/) | Extracts text and metadata from 1400+ file formats via Apache Tika Server REST API. Handles PDF, DOCX, PPTX, email… | Security Reviewed | — | — |
+| [Apache Tika Document Extractor](skills/apache-tika-document-extractor/) | Wraps Apache Tika Server REST API for extracting structured text from PDFs, DOCX, PPTX, and 1,200+ file formats.… | Security Reviewed | — | — |
+| [Apache Tika Document Parser](skills/apache-tika-document-parser/) | Extracts structured text, metadata, and embedded objects from PDFs, Office documents, and 1000+ file formats using… | Security Reviewed | — | — |
+| [Apache Tika Document Parser Agent](skills/apache-tika-document-parser-agent/) | Extracts text and metadata from 1000+ file formats using Apache Tika server REST API. Handles PDF OCR via Tesseract… | Security Reviewed | — | — |
+| [Camelot PDF Stream Parser](skills/camelot-pdf-stream-parser/) | Implements Camelot library for advanced PDF table detection using lattice and stream parsing algorithms. Processes… | Security Reviewed | — | — |
+| [CSV Schema Validator &#038; Auto-Fixer](skills/csv-schema-validator-auto-fixer/) | Validates CSV files against JSON Schema definitions using AJV and csv-parse. Automatically detects and repairs type… | Security Reviewed | — | — |
+| [csvkit Python CSV Utility Suite](skills/csvkit-python-csv-utility-suite/) | csvkit is a suite of Python command-line utilities for converting to, working with, and analyzing CSV files. It… | Security Reviewed | — | — |
+| [Dasel Multi-Format Data Selector and Modifier](skills/dasel-multi-format-data-selector-modifier/) | Dasel (Data-Select) is a command-line tool and Go library for querying, modifying, and transforming structured data… | Security Reviewed | — | — |
+| [Datasette Data Exploration and Publishing Tool](skills/datasette-data-exploration-publishing-tool/) | Datasette is an open-source Python tool for exploring and publishing data. It turns any SQLite database into an… | Security Reviewed | — | — |
+| [dlt Python Data Load Tool](skills/dlt-python-data-load-tool/) | An open-source Python library that makes loading data from APIs, databases, and files into structured datasets… | Security Reviewed | — | — |
+| [Documind AI-Powered Structured Data Extraction from Documents](skills/documind-ai-structured-data-extraction/) | Documind is an open-source Node.js tool that uses AI to extract structured JSON data from PDFs and other documents.… | Security Reviewed | — | — |
+| [Evidence BI-as-Code SQL and Markdown Analytics Framework](skills/evidence-bi-as-code-sql-markdown-analytics/) | Evidence is an open-source framework for building data products with SQL and Markdown. It generates interactive… | Security Reviewed | — | — |
+| [fx Terminal JSON Viewer and Processor](skills/fx-terminal-json-viewer-processor/) | fx is a terminal-based JSON viewer and processor that provides an interactive TUI for navigating, filtering, and… | Security Reviewed | — | — |
+| [gron Greppable JSON Flattener](skills/gron-greppable-json-flattener/) | gron transforms JSON into discrete assignment statements, making it possible to grep through complex JSON structures… | Security Reviewed | — | — |
+| [Instructor Structured Data Extraction from LLMs](skills/instructor-structured-data-extraction-llms/) | Instructor is a multi-language library for extracting structured, validated data from LLM outputs. It patches LLM… | Security Reviewed | — | — |
+| [jnv Interactive JSON Navigator and jq Filter Editor](skills/jnv-interactive-json-navigator/) | A terminal-based interactive JSON viewer and jq filter editor written in Rust. jnv lets developers navigate complex… | Security Reviewed | — | — |
+| [jq Pipeline Builder Agent](skills/jq-pipeline-builder-agent/) | Constructs complex jq filter pipelines from natural language queries against JSON/NDJSON data streams. Uses jq… | Security Reviewed | — | — |
+| [Marker PDF-to-Markdown Converter](skills/marker-pdf-to-markdown-converter/) | Marker converts PDF, DOCX, PPTX, and image files to clean Markdown, JSON, and HTML with high accuracy. It handles… | Security Reviewed | — | — |
+| [MinerU PDF-to-Markdown Document Parser](skills/mineru-pdf-to-markdown-document-parser/) | Transforms complex PDFs into LLM-ready markdown and JSON using MinerU, a high-accuracy document intelligence… | Security Reviewed | — | — |
+| [Polars Blazing-Fast DataFrame Query Engine](skills/polars-dataframe-query-engine/) | Polars is an extremely fast DataFrame library written in Rust with Python, Node.js, and R bindings. This skill… | Security Reviewed | — | — |
+| [qsv Blazing-Fast CSV Data Wrangling Toolkit](skills/qsv-blazing-fast-csv-data-wrangling-toolkit/) | qsv is a high-performance command-line toolkit for querying, transforming, validating, and analyzing CSV and tabular… | Security Reviewed | — | — |
+| [Redpanda Connect Declarative Stream Processor](skills/redpanda-connect-declarative-stream-processor/) | Redpanda Connect (formerly Benthos) is a high-performance stream processor that connects data sources and sinks… | Security Reviewed | — | — |
+| [Snowflake MCP](skills/snowflake-mcp/) | Snowflake MCP is built around Snowflake cloud data warehouse. It gives an agent a more technical and reliable way to… | Security Reviewed | — | — |
+| [Snowflake MCP Server](skills/snowflake-mcp-server/) | Snowflake MCP Server is built around Snowflake cloud data warehouse. It gives an agent a more technical and reliable… | Security Reviewed | — | — |
+| [Snowflake Query History Extractor](skills/snowflake-query-history-extractor/) | Extracts query history and performance metadata from Snowflake using the Snowflake Python Connector and… | Security Reviewed | — | — |
+| [Snowflake Query Optimizer Agent](skills/snowflake-query-optimizer-agent/) | Analyzes and optimizes Snowflake SQL queries using the QUERY_HISTORY and ACCESS_HISTORY views in ACCOUNT_USAGE.… | Security Reviewed | — | — |
+| [Snowflake Query Profiler](skills/snowflake-query-profiler/) | Profiles and optimizes Snowflake SQL queries using the Snowflake Information Schema and Query History views.… | Security Reviewed | — | — |
+| [sqlite-utils Python CLI for SQLite Database Manipulation](skills/sqlite-utils-python-cli-sqlite-manipulation/) | sqlite-utils is a Python CLI utility and library by Simon Willison for manipulating SQLite databases. It lets you… | Security Reviewed | — | — |
+| [Steampipe Zero-ETL SQL Cloud API Query Engine](skills/steampipe-zero-etl-sql-cloud-api-query-engine/) | Query cloud APIs, SaaS services, and infrastructure with standard SQL using Steampipe. Maps over 150 data sources… | Security Reviewed | — | — |
+| [trdsql SQL Query Engine for CSV JSON and YAML Files](skills/trdsql-sql-query-engine-csv-json-yaml-files/) | trdsql is a CLI tool that executes SQL queries directly on CSV, LTSV, JSON, YAML, and TBLN files. It supports… | Security Reviewed | — | — |
+| [Typesense Typo-Tolerant Search Engine](skills/typesense-typo-tolerant-search-engine/) | Typesense is an open-source, typo-tolerant search engine built in C++ for building fast, relevant search… | Published | — | — |
+| [XML XSLT Transform Pipeline](skills/xml-xslt-transform-pipeline/) | Applies chained XSLT transformations to XML documents using lxml and Saxon-JS. Supports XSLT 3.0 streaming, XPath… | Security Reviewed | — | — |
+| [xsv High-Performance CSV Toolkit](skills/xsv-high-performance-csv-toolkit/) | xsv is a fast CSV command-line toolkit written in Rust by Andrew Gallant (BurntSushi). It provides indexing,… | Security Reviewed | — | — |
 
 
 ### 🔒 Security & Verification (96 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
-| Skill | Tier | GitHub Stars | npm Downloads | Install |
-|---|---|---:|---:|---|
-| [Checkov IaC Scanner](skills/checkov-iac-scanner/) | Verified Metadata | 121.3k | — | `clawhub install checkov-iac-scanner` |
-| [Conftest Policy Tester](skills/conftest-policy-tester/) | Verified Metadata | 121.3k | — | `clawhub install conftest-policy-tester` |
-| [Cosign Artifact Signature Verifier](skills/cosign-artifact-signature-verifier/) | Security Reviewed | 121.3k | — | `clawhub install cosign-artifact-signature-verifier` |
-| [Falco Runtime Security](skills/falco-runtime-security/) | Verified Metadata | 121.3k | — | `clawhub install falco-runtime-security` |
-| [Falco Runtime Security Monitor](skills/falco-runtime-security-monitor/) | Security Reviewed | 121.3k | — | `clawhub install falco-runtime-security-monitor` |
-| [KICS IaC Linter](skills/kics-iac-linter/) | Security Reviewed | 121.3k | — | `clawhub install kics-iac-linter` |
-| [Open Policy Agent (OPA)](skills/open-policy-agent-opa/) | Verified Metadata | 121.3k | — | `clawhub install open-policy-agent-opa` |
-| [Sigstore Cosign Container Verifier](skills/sigstore-cosign-container-verifier/) | Security Reviewed | 121.3k | — | `clawhub install sigstore-cosign-container-verifier` |
-| [Sigstore Cosign Verification Pipeline](skills/sigstore-cosign-verification-pipeline/) | Security Reviewed | 121.3k | — | `clawhub install sigstore-cosign-verification-pipeline` |
-| [Terrascan Policy Scanner](skills/terrascan-policy-scanner/) | Verified Metadata | 121.3k | — | `clawhub install terrascan-policy-scanner` |
-| [Container Image Vulnerability Scanner](skills/container-image-vulnerability-scanner/) | Security Reviewed | 71.6k | — | `clawhub install container-image-vulnerability-scanner` |
-| [Container Runtime Security Monitor](skills/container-runtime-security-monitor/) | Security Reviewed | 71.6k | — | `clawhub install container-runtime-security-monitor` |
-| [Grype Container and SBOM Vulnerability Scanner](skills/grype-container-sbom-vulnerability-scanner/) | Security Reviewed | 71.6k | — | `clawhub install grype-container-sbom-vulnerability-scanner` |
-| [SBOM Vulnerability Scanner](skills/sbom-vulnerability-scanner/) | Security Reviewed | 71.6k | — | `clawhub install sbom-vulnerability-scanner` |
-| [TruffleHog Credential Leak Scanner](skills/trufflehog-credential-leak-scanner/) | Security Reviewed | 71.6k | — | `clawhub install trufflehog-credential-leak-scanner` |
-| [Sentry for AI](skills/sentry-for-ai/) | Security Reviewed | 43.4k | 16.4M/wk | `clawhub install sentry-for-ai` |
-| [Vault Secrets Rotation Orchestrator](skills/vault-secrets-rotation-orchestrator/) | Security Reviewed | 35.3k | 9.2M/wk | `clawhub install vault-secrets-rotation-orchestrator` |
-| [HashiCorp Vault MCP Server](skills/hashicorp-vault-mcp-server/) | Security Reviewed | 35.3k | — | `clawhub install hashicorp-vault-mcp-server` |
-| [HashiCorp Vault Secret Rotation Agent](skills/hashicorp-vault-secret-rotation-agent-2/) | Security Reviewed | 35.3k | — | `clawhub install hashicorp-vault-secret-rotation-agent-2` |
-| [HashiCorp Vault Secret Scanner](skills/hashicorp-vault-secret-scanner-2/) | Security Reviewed | 35.3k | — | `clawhub install hashicorp-vault-secret-scanner-2` |
-| [HashiCorp Vault Secrets Rotation Agent](skills/hashicorp-vault-secrets-rotation-agent-2/) | Security Reviewed | 35.3k | — | `clawhub install hashicorp-vault-secrets-rotation-agent-2` |
-| [Vault Secrets Rotator](skills/vault-secrets-rotator/) | Security Reviewed | 35.3k | — | `clawhub install vault-secrets-rotator` |
-| [Vault Transit Secrets Envelope Verifier](skills/vault-transit-secrets-envelope-verifier/) | Security Reviewed | 35.3k | — | `clawhub install vault-transit-secrets-envelope-verifier` |
-| [Trivy Container &#038; IaC Vulnerability Scanner](skills/trivy-container-iac-vulnerability-scanner/) | Security Reviewed | 34.1k | — | `clawhub install trivy-container-iac-vulnerability-scanner` |
-| [Trivy Container Image Vulnerability Scanner](skills/trivy-container-image-vulnerability-scanner/) | Security Reviewed | 34.1k | — | `clawhub install trivy-container-image-vulnerability-scanner` |
-| [Trivy Container Scanner](skills/trivy-container-scanner-2/) | Security Reviewed | 34.1k | — | `clawhub install trivy-container-scanner-2` |
-| [Trivy Container Security Scanner](skills/trivy-container-security-scanner/) | Security Reviewed | 34.1k | — | `clawhub install trivy-container-security-scanner` |
-| [Trivy Container Vulnerability Scanner](skills/trivy-container-vulnerability-scanner/) | Security Reviewed | 34.1k | — | `clawhub install trivy-container-vulnerability-scanner` |
-| [Trivy Vulnerability Scanner Pipeline](skills/trivy-vulnerability-scanner-pipeline/) | Security Reviewed | 34.1k | — | `clawhub install trivy-vulnerability-scanner-pipeline` |
-| [Discord Moderation Bot with AI Classification](skills/discord-moderation-ai-classification/) | Security Reviewed | 26.6k | 508.8k/wk | `clawhub install discord-moderation-ai-classification` |
-| [npm Dependency Audit Scanner](skills/npm-dependency-audit-scanner/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install npm-dependency-audit-scanner` |
-| [OWASP ZAP Active Scanner Agent](skills/owasp-zap-active-scanner-agent/) | Security Reviewed | 14.9k | — | `clawhub install owasp-zap-active-scanner-agent` |
-| [OWASP ZAP API Fuzzer](skills/owasp-zap-api-fuzzer/) | Security Reviewed | 14.9k | — | `clawhub install owasp-zap-api-fuzzer` |
-| [OWASP ZAP API Security Auditor](skills/owasp-zap-api-security-auditor/) | Security Reviewed | 14.9k | — | `clawhub install owasp-zap-api-security-auditor` |
-| [OWASP ZAP API Security Scanner](skills/owasp-zap-api-security-scanner/) | Security Reviewed | 14.9k | — | `clawhub install owasp-zap-api-security-scanner` |
-| [OWASP ZAP API Security Tester](skills/owasp-zap-api-security-tester/) | Security Reviewed | 14.9k | — | `clawhub install owasp-zap-api-security-tester` |
-| [OWASP ZAP Automated Pen Testing Agent](skills/owasp-zap-automated-pen-testing-agent/) | Security Reviewed | 14.9k | — | `clawhub install owasp-zap-automated-pen-testing-agent` |
-| [OWASP ZAP Automated Scan Orchestrator](skills/owasp-zap-automated-scan-orchestrator/) | Security Reviewed | 14.9k | — | `clawhub install owasp-zap-automated-scan-orchestrator` |
-| [OWASP ZAP Scan Orchestrator](skills/owasp-zap-scan-orchestrator/) | Security Reviewed | 14.9k | — | `clawhub install owasp-zap-scan-orchestrator` |
-| [OWASP ZAP Scanner](skills/owasp-zap-scanner/) | Verified Metadata | 14.9k | — | `clawhub install owasp-zap-scanner` |
-| [OWASP ZAP Scanner Agent](skills/owasp-zap-scanner-agent/) | Security Reviewed | 14.9k | — | `clawhub install owasp-zap-scanner-agent` |
-| [OWASP ZAP Security Audit Skill](skills/owasp-zap-security-audit-skill/) | Security Reviewed | 14.9k | — | `clawhub install owasp-zap-security-audit-skill` |
-| [OWASP ZAP Security Scanner Agent](skills/owasp-zap-security-scanner-agent/) | Security Reviewed | 14.9k | — | `clawhub install owasp-zap-security-scanner-agent` |
-| [Security Audit Skill](skills/security-audit-skill/) | Verified Metadata | 14.9k | — | `clawhub install security-audit-skill` |
-| [ZAP Automated Security Scan Orchestrator](skills/zap-automated-security-scan-orchestrator/) | Security Reviewed | 14.9k | — | `clawhub install zap-automated-security-scan-orchestrator` |
-| [SAST Pipeline Scanner](skills/sast-pipeline-scanner/) | Security Reviewed | 14.6k | — | `clawhub install sast-pipeline-scanner` |
-| [SAST Rule Compiler for Semgrep](skills/sast-rule-compiler-semgrep/) | Security Reviewed | 14.6k | — | `clawhub install sast-rule-compiler-semgrep` |
-| [Semgrep Supply Chain Rule Pack Runner](skills/semgrep-supply-chain-rule-pack-runner/) | Security Reviewed | 14.6k | — | `clawhub install semgrep-supply-chain-rule-pack-runner` |
-| [Dependency Vulnerability Scanner](skills/dependency-vulnerability-scanner-agent/) | Security Reviewed | 5.5k | 601.7k/wk | `clawhub install dependency-vulnerability-scanner-agent` |
-| [NPM Package Supply Chain Auditor](skills/npm-package-supply-chain-auditor/) | Security Reviewed | 5.5k | 601.7k/wk | `clawhub install npm-package-supply-chain-auditor` |
-| [OSV-Scanner Dependency Vulnerability Detector](skills/osv-scanner-dependency-vulnerability-detector/) | Security Reviewed | 5.5k | 601.7k/wk | `clawhub install osv-scanner-dependency-vulnerability-detector` |
-| [Snyk Agent Scan](skills/snyk-agent-scan/) | Security Reviewed | 5.5k | 601.7k/wk | `clawhub install snyk-agent-scan` |
-| [Snyk Container Image Analyzer](skills/snyk-container-image-analyzer/) | Security Reviewed | 5.5k | 601.7k/wk | `clawhub install snyk-container-image-analyzer` |
-| [Snyk Container Vulnerability Agent](skills/snyk-container-vulnerability-agent/) | Security Reviewed | 5.5k | 601.7k/wk | `clawhub install snyk-container-vulnerability-agent` |
-| [Snyk Dependency Audit Skill](skills/snyk-dependency-audit-skill/) | Security Reviewed | 5.5k | 601.7k/wk | `clawhub install snyk-dependency-audit-skill` |
-| [Snyk Dependency Vulnerability Auditor](skills/snyk-dependency-vulnerability-auditor/) | Security Reviewed | 5.5k | 601.7k/wk | `clawhub install snyk-dependency-vulnerability-auditor` |
-| [Snyk License Compliance Checker](skills/snyk-license-compliance-checker/) | Security Reviewed | 5.5k | 601.7k/wk | `clawhub install snyk-license-compliance-checker` |
-| [Snyk Open Source Dependency Auditor](skills/snyk-open-source-dependency-auditor/) | Security Reviewed | 5.5k | 601.7k/wk | `clawhub install snyk-open-source-dependency-auditor` |
-| [Snyk Vulnerability Scanner Agent](skills/snyk-vulnerability-scanner-agent/) | Security Reviewed | 5.5k | 601.7k/wk | `clawhub install snyk-vulnerability-scanner-agent` |
-| [Git Secret Scanner](skills/git-secret-scanner/) | Security Reviewed | 4.4k | 8.4M/wk | `clawhub install git-secret-scanner` |
-| [Git Secret Scanner with Gitleaks](skills/git-secret-scanner-gitleaks/) | Security Reviewed | 4.4k | 8.4M/wk | `clawhub install git-secret-scanner-gitleaks` |
-| [Git Secrets Pre-Commit Scanner](skills/git-secrets-precommit-scanner/) | Security Reviewed | 4.4k | 8.4M/wk | `clawhub install git-secrets-precommit-scanner` |
-| [Stripe Webhook Signature Verifier](skills/stripe-webhook-signature-verifier/) | Security Reviewed | 4.4k | 8.4M/wk | `clawhub install stripe-webhook-signature-verifier` |
-| [AWS CloudTrail Log Normalizer](skills/aws-cloudtrail-log-normalizer/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-cloudtrail-log-normalizer` |
-| [AWS IAM Privilege Escalation Audit](skills/aws-iam-privilege-escalation-audit/) | Verified Metadata | 3.6k | 9.2M/wk | `clawhub install aws-iam-privilege-escalation-audit` |
-| [Checkov Infrastructure Policy Scanner](skills/checkov-infrastructure-policy-scanner/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install checkov-infrastructure-policy-scanner` |
-| [CloudTrail Anomaly Detection Agent](skills/cloudtrail-anomaly-detection-agent/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install cloudtrail-anomaly-detection-agent` |
-| [SSL Certificate Auditor](skills/ssl-certificate-auditor-agent/) | Security Reviewed | 3.1k | 3.3M/wk | `clawhub install ssl-certificate-auditor-agent` |
-| [TLS Certificate Chain Analyzer](skills/tls-certificate-chain-analyzer/) | Security Reviewed | 1.9k | 1M/wk | `clawhub install tls-certificate-chain-analyzer` |
-| [DocuSign Contract Auto-Sender with Conditional Logic](skills/docusign-contract-auto-sender/) | Security Reviewed | 1.5k | 804.8k/wk | `clawhub install docusign-contract-auto-sender` |
-| [OAuth2 Token Introspection Agent](skills/oauth2-token-introspection-agent/) | Security Reviewed | 676 | 1.2M/wk | `clawhub install oauth2-token-introspection-agent` |
-| [age Modern File Encryption Tool](skills/age-modern-file-encryption-tool/) | Verified Metadata | — | — | `clawhub install age-modern-file-encryption-tool` |
-| [Bearer CLI SAST Code Security and Privacy Scanner](skills/bearer-cli-sast-code-security-privacy-scanner/) | Verified Metadata | — | — | `clawhub install bearer-cli-sast-code-security-privacy-scanner` |
-| [Betterleaks Next-Generation Secrets Scanner](skills/betterleaks-secrets-scanner/) | Verified Metadata | — | — | `clawhub install betterleaks-secrets-scanner` |
-| [CSP Policy Analyzer](skills/csp-policy-analyzer/) | Security Reviewed | — | — | `clawhub install csp-policy-analyzer` |
-| [CycloneDX SBOM Generator](skills/cyclonedx-sbom-generator/) | Security Reviewed | — | — | `clawhub install cyclonedx-sbom-generator` |
-| [Gitleaks Git Repository Secret Scanner](skills/gitleaks-git-secret-scanner/) | Verified Metadata | — | — | `clawhub install gitleaks-git-secret-scanner` |
-| [Gitxray GitHub Repository Security X-Ray](skills/gitxray-github-repository-security-xray/) | Verified Metadata | — | — | `clawhub install gitxray-github-repository-security-xray` |
-| [GPG Encryption and Key Management Agent](skills/gpg-encryption-key-management-agent/) | Security Reviewed | — | — | `clawhub install gpg-encryption-key-management-agent` |
-| [Heisenberg Supply Chain Health Checker](skills/heisenberg-supply-chain-health-checker/) | Verified Metadata | — | — | `clawhub install heisenberg-supply-chain-health-checker` |
-| [Infisical Open-Source Secret Management Platform](skills/infisical-secret-management-platform/) | Verified Metadata | — | — | `clawhub install infisical-secret-management-platform` |
-| [NPM Audit Deep Scanner](skills/npm-audit-deep-scanner/) | Security Reviewed | — | — | `clawhub install npm-audit-deep-scanner` |
-| [npm Dependency Audit Resolver](skills/npm-dependency-audit-resolver/) | Security Reviewed | — | — | `clawhub install npm-dependency-audit-resolver` |
-| [Nuclei Vulnerability Template Runner](skills/nuclei-vulnerability-template-runner/) | Security Reviewed | — | — | `clawhub install nuclei-vulnerability-template-runner` |
-| [OAuth2 Flow Debugger](skills/oauth2-flow-debugger/) | Security Reviewed | — | — | `clawhub install oauth2-flow-debugger` |
-| [OPA Rego Policy Bundle Tester](skills/opa-rego-policy-bundle-tester/) | Security Reviewed | — | — | `clawhub install opa-rego-policy-bundle-tester` |
-| [OpenClaw Security Suite (ClawSec)](skills/openclaw-security-suite-clawsec/) | Security Reviewed | — | — | `clawhub install openclaw-security-suite-clawsec` |
-| [SBOM Generator and CVE Matcher](skills/sbom-generator-cve-matcher/) | Security Reviewed | — | — | `clawhub install sbom-generator-cve-matcher` |
-| [SBOM Generator with CycloneDX](skills/sbom-generator-cyclonedx/) | Security Reviewed | — | — | `clawhub install sbom-generator-cyclonedx` |
-| [Sigstore Cosign Container Signature Checker](skills/sigstore-cosign-container-signature-checker/) | Security Reviewed | — | — | `clawhub install sigstore-cosign-container-signature-checker` |
-| [Sigstore Cosign Verifier](skills/sigstore-cosign-verifier-2/) | Security Reviewed | — | — | `clawhub install sigstore-cosign-verifier-2` |
-| [SLSA Verifier Build Provenance Checker](skills/slsa-verifier-build-provenance-checker/) | Security Reviewed | — | — | `clawhub install slsa-verifier-build-provenance-checker` |
-| [SSL Certificate Chain Validator](skills/ssl-certificate-chain-validator-2/) | Security Reviewed | — | — | `clawhub install ssl-certificate-chain-validator-2` |
-| [SSL/TLS Certificate Validator and Monitor](skills/ssl-tls-certificate-validator-monitor/) | Security Reviewed | — | — | `clawhub install ssl-tls-certificate-validator-monitor` |
-| [Syft SBOM Generator for Containers and Filesystems](skills/syft-sbom-generator-containers-filesystems/) | Verified Metadata | — | — | `clawhub install syft-sbom-generator-containers-filesystems` |
-| [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | Security Reviewed | — | — | `clawhub install tls-certificate-chain-validator` |
+| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
+|---|---|---|---:|---:|
+| [Checkov IaC Scanner](skills/checkov-iac-scanner/) | Checkov IaC Scanner is built around Kubernetes orchestration platform. The underlying ecosystem is represented by… | Security Reviewed | 121.3k | — |
+| [Conftest Policy Tester](skills/conftest-policy-tester/) | Conftest Policy Tester is built around Kubernetes orchestration platform. The underlying ecosystem is represented by… | Security Reviewed | 121.3k | — |
+| [Cosign Artifact Signature Verifier](skills/cosign-artifact-signature-verifier/) | Validates container image and artifact signatures using Sigstore Cosign with keyless verification via Fulcio and… | Security Reviewed | 121.3k | — |
+| [Falco Runtime Security](skills/falco-runtime-security/) | Falco Runtime Security is built around Kubernetes orchestration platform. The underlying ecosystem is represented by… | Security Reviewed | 121.3k | — |
+| [Falco Runtime Security Monitor](skills/falco-runtime-security-monitor/) | Monitors container runtime events using Falco sysdig libraries and sends alerts on suspicious syscall patterns.… | Security Reviewed | 121.3k | — |
+| [KICS IaC Linter](skills/kics-iac-linter/) | KICS IaC Linter is built around Kubernetes orchestration platform. The underlying ecosystem is represented by… | Security Reviewed | 121.3k | — |
+| [Open Policy Agent (OPA)](skills/open-policy-agent-opa/) | Open Policy Agent (OPA) is built around Kubernetes orchestration platform. The underlying ecosystem is represented… | Security Reviewed | 121.3k | — |
+| [Sigstore Cosign Container Verifier](skills/sigstore-cosign-container-verifier/) | Verifies container image signatures and provenance using Sigstore Cosign and Rekor transparency log. Enforces supply… | Security Reviewed | 121.3k | — |
+| [Sigstore Cosign Verification Pipeline](skills/sigstore-cosign-verification-pipeline/) | Verifies container image signatures and SBOMs using Sigstore Cosign and Rekor transparency log. Enforces supply… | Security Reviewed | 121.3k | — |
+| [Terrascan Policy Scanner](skills/terrascan-policy-scanner/) | Terrascan Policy Scanner is built around Kubernetes orchestration platform. The underlying ecosystem is represented… | Security Reviewed | 121.3k | — |
+| [Container Image Vulnerability Scanner](skills/container-image-vulnerability-scanner/) | Scans Docker and OCI container images for vulnerabilities using Trivy JSON output and the Docker Hub API v2 for… | Security Reviewed | 71.6k | — |
+| [Container Runtime Security Monitor](skills/container-runtime-security-monitor/) | Monitors container runtime behavior using Falco rules and the Docker Engine API. Detects anomalous syscalls,… | Security Reviewed | 71.6k | — |
+| [Grype Container and SBOM Vulnerability Scanner](skills/grype-container-sbom-vulnerability-scanner/) | Scan container images, filesystems, and SBOMs for known vulnerabilities using Anchore Grype. Supports major OS… | Security Reviewed | 71.6k | — |
+| [SBOM Vulnerability Scanner](skills/sbom-vulnerability-scanner/) | Generates Software Bill of Materials using Syft and scans for CVEs with Grype. Cross-references findings against the… | Security Reviewed | 71.6k | — |
+| [TruffleHog Credential Leak Scanner](skills/trufflehog-credential-leak-scanner/) | Find, verify, and analyze leaked credentials across Git repositories, Slack, Jira, Docker images, and more using… | Security Reviewed | 71.6k | — |
+| [Sentry for AI](skills/sentry-for-ai/) | Observability and debugging support for AI-assisted application workflows. | Security Reviewed | 43.4k | 16.4M/wk |
+| [Vault Secrets Rotation Orchestrator](skills/vault-secrets-rotation-orchestrator/) | Automates HashiCorp Vault secret rotation using the Vault HTTP API and dynamic secrets engines. Manages database… | Security Reviewed | 35.3k | 9.2M/wk |
+| [HashiCorp Vault MCP Server](skills/hashicorp-vault-mcp-server/) | The official HashiCorp Vault MCP server lets AI assistants read, write, list, and delete secrets in Vault's KV… | Security Reviewed | 35.3k | — |
+| [HashiCorp Vault Secret Rotation Agent](skills/hashicorp-vault-secret-rotation-agent-2/) | Connects to HashiCorp Vault HTTP API for automated secret rotation workflows. Manages dynamic database credentials… | Security Reviewed | 35.3k | — |
+| [HashiCorp Vault Secret Scanner](skills/hashicorp-vault-secret-scanner-2/) | Scans codebases for hardcoded secrets using HashiCorp Vault SDK and truffleHog patterns. Integrates with Vault… | Security Reviewed | 35.3k | — |
+| [HashiCorp Vault Secrets Rotation Agent](skills/hashicorp-vault-secrets-rotation-agent-2/) | Automates secret rotation in HashiCorp Vault using the Vault API and dynamic secrets engines. Manages database… | Security Reviewed | 35.3k | — |
+| [Vault Secrets Rotator](skills/vault-secrets-rotator/) | Manages secret lifecycle through the HashiCorp Vault HTTP API v1. Rotates database credentials via Vault dynamic… | Security Reviewed | 35.3k | — |
+| [Vault Transit Secrets Envelope Verifier](skills/vault-transit-secrets-envelope-verifier/) | Verifies encryption workflows with HashiCorp Vault Transit endpoints like `/encrypt`, `/decrypt`, and `/rewrap`,… | Security Reviewed | 35.3k | — |
+| [Trivy Container &#038; IaC Vulnerability Scanner](skills/trivy-container-iac-vulnerability-scanner/) | Runs Aqua Security Trivy against container images, filesystem paths, and Terraform/CloudFormation templates.… | Security Reviewed | 34.1k | — |
+| [Trivy Container Image Vulnerability Scanner](skills/trivy-container-image-vulnerability-scanner/) | Scans Docker and OCI container images with Aqua Trivy for CVEs in OS packages and language dependencies. Outputs… | Security Reviewed | 34.1k | — |
+| [Trivy Container Scanner](skills/trivy-container-scanner-2/) | Wraps the Trivy CLI for comprehensive container image vulnerability scanning. Outputs results in SARIF format for… | Security Reviewed | 34.1k | — |
+| [Trivy Container Security Scanner](skills/trivy-container-security-scanner/) | Integrates Aqua Security Trivy CLI for comprehensive container image vulnerability scanning. Detects OS package… | Security Reviewed | 34.1k | — |
+| [Trivy Container Vulnerability Scanner](skills/trivy-container-vulnerability-scanner/) | Automates Aqua Security Trivy scans against Docker images and OCI artifacts to detect CVEs, misconfigurations, and… | Security Reviewed | 34.1k | — |
+| [Trivy Vulnerability Scanner Pipeline](skills/trivy-vulnerability-scanner-pipeline/) | Scans container images, IaC templates, and SBOM artifacts using Aqua Trivy CLI. Generates CycloneDX and SPDX reports… | Security Reviewed | 34.1k | — |
+| [Discord Moderation Bot with AI Classification](skills/discord-moderation-ai-classification/) | Listens to Discord gateway events, passing flagged messages to the OpenAI Moderation API and a custom classifier to… | Security Reviewed | 26.6k | 508.8k/wk |
+| [npm Dependency Audit Scanner](skills/npm-dependency-audit-scanner/) | Scans Node.js projects for vulnerable dependencies using npm audit and the OSV.dev REST API. Cross-references CVE… | Security Reviewed | 20.3k | 32M/wk |
+| [OWASP ZAP Active Scanner Agent](skills/owasp-zap-active-scanner-agent/) | Runs OWASP ZAP active security scans via the ZAP API daemon with custom scan policies. Generates SARIF reports… | Security Reviewed | 14.9k | — |
+| [OWASP ZAP API Fuzzer](skills/owasp-zap-api-fuzzer/) | Automates REST API security testing using the OWASP ZAP Python SDK. Runs active scans, SQL injection probes, and XSS… | Security Reviewed | 14.9k | — |
+| [OWASP ZAP API Security Auditor](skills/owasp-zap-api-security-auditor/) | Orchestrates OWASP ZAP active and passive scans against REST and GraphQL endpoints using ZAP's Python API client.… | Security Reviewed | 14.9k | — |
+| [OWASP ZAP API Security Scanner](skills/owasp-zap-api-security-scanner/) | Automates OWASP ZAP scans against REST APIs using the ZAP Python API client. Imports OpenAPI/Swagger specs for… | Security Reviewed | 14.9k | — |
+| [OWASP ZAP API Security Tester](skills/owasp-zap-api-security-tester/) | Runs automated DAST scans against REST and GraphQL APIs using OWASP ZAP daemon API. Detects injection flaws, broken… | Security Reviewed | 14.9k | — |
+| [OWASP ZAP Automated Pen Testing Agent](skills/owasp-zap-automated-pen-testing-agent/) | Runs automated penetration tests using OWASP ZAP API with spider crawling, active scanning, and AJAX-aware testing.… | Security Reviewed | 14.9k | — |
+| [OWASP ZAP Automated Scan Orchestrator](skills/owasp-zap-automated-scan-orchestrator/) | Runs OWASP ZAP active and passive scans against target URLs using the ZAP Docker API. Parses JSON reports to flag… | Security Reviewed | 14.9k | — |
+| [OWASP ZAP Scan Orchestrator](skills/owasp-zap-scan-orchestrator/) | Orchestrates OWASP ZAP active and passive scans via the ZAP API, automating spider crawls, AJAX spidering with… | Security Reviewed | 14.9k | — |
+| [OWASP ZAP Scanner](skills/owasp-zap-scanner/) | OWASP ZAP Scanner is built around OWASP security tooling ecosystem. The underlying ecosystem is represented by… | Security Reviewed | 14.9k | — |
+| [OWASP ZAP Scanner Agent](skills/owasp-zap-scanner-agent/) | Integrates the OWASP ZAP API to run automated DAST scans against web applications. Parses ZAP JSON reports, triages… | Security Reviewed | 14.9k | — |
+| [OWASP ZAP Security Audit Skill](skills/owasp-zap-security-audit-skill/) | Wraps OWASP ZAP API for automated web application security testing including active scan, spider crawl, and ajax… | Security Reviewed | 14.9k | — |
+| [OWASP ZAP Security Scanner Agent](skills/owasp-zap-security-scanner-agent/) | Automates OWASP ZAP active and passive scanning against web applications, parsing alerts into structured… | Security Reviewed | 14.9k | — |
+| [Security Audit Skill](skills/security-audit-skill/) | Security Audit Skill is built around OWASP security tooling ecosystem. The underlying ecosystem is represented by… | Security Reviewed | 14.9k | — |
+| [ZAP Automated Security Scan Orchestrator](skills/zap-automated-security-scan-orchestrator/) | Orchestrates OWASP ZAP security scans via the ZAP API with automated spider, active scanner, and authentication… | Security Reviewed | 14.9k | — |
+| [SAST Pipeline Scanner](skills/sast-pipeline-scanner/) | Runs static application security testing using Semgrep rules and CodeQL queries against pull request diffs. Supports… | Security Reviewed | 14.6k | — |
+| [SAST Rule Compiler for Semgrep](skills/sast-rule-compiler-semgrep/) | Compiles and validates custom Semgrep SAST rules using the semgrep-core engine. Tests pattern matching against… | Security Reviewed | 14.6k | — |
+| [Semgrep Supply Chain Rule Pack Runner](skills/semgrep-supply-chain-rule-pack-runner/) | Runs Semgrep code and supply-chain checks with `semgrep scan`, registry rule packs, and dependency-aware findings to… | Security Reviewed | 14.6k | — |
+| [Dependency Vulnerability Scanner](skills/dependency-vulnerability-scanner-agent/) | Scans project dependencies using OSV.dev API and Snyk CLI for known CVEs across npm, PyPI, Maven, and Go modules.… | Security Reviewed | 5.5k | 601.7k/wk |
+| [NPM Package Supply Chain Auditor](skills/npm-package-supply-chain-auditor/) | Audits npm dependencies for supply chain risks using npm audit, Socket.dev API, and Snyk vulnerability database.… | Security Reviewed | 5.5k | 601.7k/wk |
+| [OSV-Scanner Dependency Vulnerability Detector](skills/osv-scanner-dependency-vulnerability-detector/) | OSV-Scanner is Google's open-source vulnerability scanner that checks project dependencies against the OSV.dev… | Security Reviewed | 5.5k | 601.7k/wk |
+| [Snyk Agent Scan](skills/snyk-agent-scan/) | Scan your AI agents, MCP servers, and skills for security vulnerabilities from the command line. Snyk Agent Scan… | Security Reviewed | 5.5k | 601.7k/wk |
+| [Snyk Container Image Analyzer](skills/snyk-container-image-analyzer/) | Scans Docker and OCI container images for OS and application vulnerabilities using Snyk Container API.… | Security Reviewed | 5.5k | 601.7k/wk |
+| [Snyk Container Vulnerability Agent](skills/snyk-container-vulnerability-agent/) | Scans Docker images for OS and application vulnerabilities using the Snyk Container API. Generates fix PRs with… | Security Reviewed | 5.5k | 601.7k/wk |
+| [Snyk Dependency Audit Skill](skills/snyk-dependency-audit-skill/) | Uses the Snyk CLI and REST API v1 to scan package manifests for known CVEs. Cross-references findings with the… | Security Reviewed | 5.5k | 601.7k/wk |
+| [Snyk Dependency Vulnerability Auditor](skills/snyk-dependency-vulnerability-auditor/) | Audits npm, pip, and Go module dependencies using the Snyk CLI and REST API. Generates SBOM reports and auto-patches… | Security Reviewed | 5.5k | 601.7k/wk |
+| [Snyk License Compliance Checker](skills/snyk-license-compliance-checker/) | Uses the Snyk CLI and REST API to audit open-source dependencies for license compliance across npm, PyPI, Maven, and… | Security Reviewed | 5.5k | 601.7k/wk |
+| [Snyk Open Source Dependency Auditor](skills/snyk-open-source-dependency-auditor/) | Performs deep dependency analysis using the Snyk CLI and REST API to detect vulnerable transitive packages.… | Security Reviewed | 5.5k | 601.7k/wk |
+| [Snyk Vulnerability Scanner Agent](skills/snyk-vulnerability-scanner-agent/) | Uses Snyk REST API v1 to scan project dependencies for known CVEs and license compliance issues. Integrates with… | Security Reviewed | 5.5k | 601.7k/wk |
+| [Git Secret Scanner](skills/git-secret-scanner/) | Detects leaked secrets in Git repositories using pattern-based scanning with Gitleaks rule definitions and the… | Security Reviewed | 4.4k | 8.4M/wk |
+| [Git Secret Scanner with Gitleaks](skills/git-secret-scanner-gitleaks/) | Scans Git repositories for leaked secrets using Gitleaks, TruffleHog, and custom regex patterns. Detects API keys,… | Security Reviewed | 4.4k | 8.4M/wk |
+| [Git Secrets Pre-Commit Scanner](skills/git-secrets-precommit-scanner/) | Scans git diffs for exposed secrets using truffleHog entropy detection and custom regex patterns. Integrates with… | Security Reviewed | 4.4k | 8.4M/wk |
+| [Stripe Webhook Signature Verifier](skills/stripe-webhook-signature-verifier/) | Verifies Stripe webhook payload signatures using the Stripe.js SDK and the stripe.webhooks.constructEvent method.… | Security Reviewed | 4.4k | 8.4M/wk |
+| [AWS CloudTrail Log Normalizer](skills/aws-cloudtrail-log-normalizer/) | Normalizes and enriches AWS CloudTrail JSON logs into OCSF (Open Cybersecurity Schema Framework) format. Maps… | Security Reviewed | 3.6k | 9.2M/wk |
+| [AWS IAM Privilege Escalation Audit](skills/aws-iam-privilege-escalation-audit/) | Uses boto3 and the AWS IAM Access Analyzer API to enumerate all roles, policies, and users, then flags permission… | Security Reviewed | 3.6k | 9.2M/wk |
+| [Checkov Infrastructure Policy Scanner](skills/checkov-infrastructure-policy-scanner/) | Scans IaC files with Bridgecrew Checkov for policy violations across Terraform, CloudFormation, Kubernetes, and… | Security Reviewed | 3.6k | 9.2M/wk |
+| [CloudTrail Anomaly Detection Agent](skills/cloudtrail-anomaly-detection-agent/) | Analyzes AWS CloudTrail event logs via the Lookup Events API to detect anomalous IAM activity. Uses statistical… | Security Reviewed | 3.6k | 9.2M/wk |
+| [SSL Certificate Auditor](skills/ssl-certificate-auditor-agent/) | Audits TLS/SSL configurations using sslyze Python library and SSL Labs API v3. Checks certificate chain validity,… | Security Reviewed | 3.1k | 3.3M/wk |
+| [TLS Certificate Chain Analyzer](skills/tls-certificate-chain-analyzer/) | Analyzes TLS certificate chains using OpenSSL s_client and the crt.sh Certificate Transparency API. Detects weak… | Security Reviewed | 1.9k | 1M/wk |
+| [DocuSign Contract Auto-Sender with Conditional Logic](skills/docusign-contract-auto-sender/) | Uses the DocuSign eSignature REST API SDK to programmatically create envelope definitions with conditional routing… | Security Reviewed | 1.5k | 804.8k/wk |
+| [OAuth2 Token Introspection Agent](skills/oauth2-token-introspection-agent/) | Validates OAuth2 tokens using RFC 7662 introspection endpoints. Integrates with Keycloak, Auth0, and Okta token… | Security Reviewed | 676 | 1.2M/wk |
+| [age Modern File Encryption Tool](skills/age-modern-file-encryption-tool/) | Encrypt and decrypt files with age (FiloSottile/age), a simple, modern encryption tool with small explicit keys,… | Security Reviewed | — | — |
+| [Bearer CLI SAST Code Security and Privacy Scanner](skills/bearer-cli-sast-code-security-privacy-scanner/) | Bearer CLI is an open-source static application security testing (SAST) tool that scans source code to identify,… | Security Reviewed | — | — |
+| [Betterleaks Next-Generation Secrets Scanner](skills/betterleaks-secrets-scanner/) | A fast, configurable secrets scanner built by the creator of Gitleaks and backed by Aikido Security. Betterleaks… | Security Reviewed | — | — |
+| [CSP Policy Analyzer](skills/csp-policy-analyzer/) | Parses and evaluates Content Security Policy headers using csp-parse and csp-evaluator libraries. Identifies overly… | Security Reviewed | — | — |
+| [CycloneDX SBOM Generator](skills/cyclonedx-sbom-generator/) | Generates Software Bill of Materials in CycloneDX format using cdxgen and Syft. Scans npm, pip, and Go modules for… | Security Reviewed | — | — |
+| [Gitleaks Git Repository Secret Scanner](skills/gitleaks-git-secret-scanner/) | Gitleaks is an open-source SAST tool for detecting hardcoded secrets like passwords, API keys, and tokens in Git… | Security Reviewed | — | — |
+| [Gitxray GitHub Repository Security X-Ray](skills/gitxray-github-repository-security-xray/) | A multifaceted OSINT and forensics tool for GitHub repositories that detects fake stargazers, tampered commits,… | Security Reviewed | — | — |
+| [GPG Encryption and Key Management Agent](skills/gpg-encryption-key-management-agent/) | Manages GPG key lifecycle and file encryption operations using GnuPG CLI and GPGME library. Handles keyserver… | Security Reviewed | — | — |
+| [Heisenberg Supply Chain Health Checker](skills/heisenberg-supply-chain-health-checker/) | An open-source software supply chain health check tool that analyzes dependencies using deps.dev, SBOMs, and… | Security Reviewed | — | — |
+| [Infisical Open-Source Secret Management Platform](skills/infisical-secret-management-platform/) | Infisical is an open-source platform for managing application secrets, environment variables, and certificates… | Security Reviewed | — | — |
+| [NPM Audit Deep Scanner](skills/npm-audit-deep-scanner/) | Extends npm audit with deep transitive dependency analysis using the npm Registry API. Generates fix PRs via GitHub… | Security Reviewed | — | — |
+| [npm Dependency Audit Resolver](skills/npm-dependency-audit-resolver/) | Resolves npm audit vulnerabilities by analyzing the npm registry API for patched versions, generating targeted… | Security Reviewed | — | — |
+| [Nuclei Vulnerability Template Runner](skills/nuclei-vulnerability-template-runner/) | Executes ProjectDiscovery Nuclei security scanning templates against target URLs. Supports custom YAML template… | Security Reviewed | — | — |
+| [OAuth2 Flow Debugger](skills/oauth2-flow-debugger/) | Inspects and debugs OAuth 2.0 authorization flows including PKCE, client credentials, and device code grants. Uses… | Security Reviewed | — | — |
+| [OPA Rego Policy Bundle Tester](skills/opa-rego-policy-bundle-tester/) | Tests authorization and policy bundles with the Open Policy Agent `/v1/data` and `/v1/compile` APIs plus `opa test`… | Security Reviewed | — | — |
+| [OpenClaw Security Suite (ClawSec)](skills/openclaw-security-suite-clawsec/) | Agent-layer security monitoring, drift detection, and integrity verification for OpenClaw environments. Protects… | Security Reviewed | — | — |
+| [SBOM Generator and CVE Matcher](skills/sbom-generator-cve-matcher/) | Generates Software Bill of Materials using Syft for container images and matches components against the NVD CVE… | Security Reviewed | — | — |
+| [SBOM Generator with CycloneDX](skills/sbom-generator-cyclonedx/) | Generates Software Bill of Materials in CycloneDX 1.5 format using cdxgen and syft. Enriches component data with… | Security Reviewed | — | — |
+| [Sigstore Cosign Container Signature Checker](skills/sigstore-cosign-container-signature-checker/) | Checks container trust with `cosign verify`, Rekor transparency log lookups, and OCI image reference inspection.… | Security Reviewed | — | — |
+| [Sigstore Cosign Verifier](skills/sigstore-cosign-verifier-2/) | Automates container image signature verification using Cosign CLI and the Rekor transparency log API. Validates SLSA… | Security Reviewed | — | — |
+| [SLSA Verifier Build Provenance Checker](skills/slsa-verifier-build-provenance-checker/) | SLSA Verifier is the official tool from the SLSA framework for verifying build provenance attestations generated by… | Security Reviewed | — | — |
+| [SSL Certificate Chain Validator](skills/ssl-certificate-chain-validator-2/) | Performs deep TLS certificate chain validation using OpenSSL and Certificate Transparency logs. Monitors expiration… | Security Reviewed | — | — |
+| [SSL/TLS Certificate Validator and Monitor](skills/ssl-tls-certificate-validator-monitor/) | Validates SSL/TLS certificates using OpenSSL s_client, checks OCSP stapling status, and monitors expiry dates.… | Security Reviewed | — | — |
+| [Syft SBOM Generator for Containers and Filesystems](skills/syft-sbom-generator-containers-filesystems/) | Syft by Anchore is a CLI tool for generating Software Bills of Materials (SBOMs) from container images and… | Security Reviewed | — | — |
+| [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates… | Security Reviewed | — | — |
 
 
-### 📚 Library & API Reference (90 skills)
+### 📚 Library & API Reference (91 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference&sort=downloads)
 
-| Skill | Tier | GitHub Stars | npm Downloads | Install |
-|---|---|---:|---:|---|
-| [OpenAPI Spec Compliance Checker](skills/openapi-spec-compliance-checker/) | Security Reviewed | 96.5k | — | `clawhub install openapi-spec-compliance-checker` |
-| [OpenTelemetry Trace Analyzer](skills/opentelemetry-trace-analyzer/) | Security Reviewed | 72.8k | — | `clawhub install opentelemetry-trace-analyzer` |
-| [Docker Image Layer Analyzer](skills/docker-image-layer-analyzer/) | Security Reviewed | 71.6k | — | `clawhub install docker-image-layer-analyzer` |
-| [REST API Documentation Generator](skills/rest-api-documentation-generator/) | Security Reviewed | 68.9k | 91.7M/wk | `clawhub install rest-api-documentation-generator` |
-| [Terraform Provider Schema Explorer](skills/terraform-provider-schema-explorer/) | Security Reviewed | 48k | — | `clawhub install terraform-provider-schema-explorer` |
-| [Prisma Schema Migrator](skills/prisma-schema-migrator/) | Security Reviewed | 45.6k | 9.4M/wk | `clawhub install prisma-schema-migrator` |
-| [API Documentation Indexer](skills/api-documentation-indexer/) | Security Reviewed | 28.7k | 3.2M/wk | `clawhub install api-documentation-indexer` |
-| [OpenAPI Spec Changelog Generator](skills/openapi-spec-changelog-generator/) | Security Reviewed | 28.7k | 3.2M/wk | `clawhub install openapi-spec-changelog-generator` |
-| [OpenAPI Spec Linter &#038; Docs Generator](skills/openapi-spec-linter-docs-generator/) | Security Reviewed | 28.7k | 3.2M/wk | `clawhub install openapi-spec-linter-docs-generator` |
-| [OpenAPI Spec Navigator](skills/openapi-spec-navigator/) | Security Reviewed | 28.7k | 3.2M/wk | `clawhub install openapi-spec-navigator` |
-| [OpenAPI Spec Reference Indexer](skills/openapi-spec-reference-indexer/) | Security Reviewed | 28.7k | 3.2M/wk | `clawhub install openapi-spec-reference-indexer` |
-| [OpenAPI Spec Validator &#038; Docs Generator](skills/openapi-spec-validator-docs-generator/) | Security Reviewed | 28.7k | 3.2M/wk | `clawhub install openapi-spec-validator-docs-generator` |
-| [OpenAPI Specification Validator](skills/openapi-specification-validator-agent/) | Security Reviewed | 28.7k | 3.2M/wk | `clawhub install openapi-specification-validator-agent` |
-| [REST API Reference Generator](skills/rest-api-reference-generator/) | Security Reviewed | 28.7k | 3.2M/wk | `clawhub install rest-api-reference-generator` |
-| [REST API Testing Reference Kit](skills/rest-api-testing-reference-kit/) | Security Reviewed | 28.7k | 3.2M/wk | `clawhub install rest-api-testing-reference-kit` |
-| [Swagger / OpenAPI Validator](skills/swagger-openapi-validator/) | Security Reviewed | 28.7k | 3.2M/wk | `clawhub install swagger-openapi-validator` |
-| [Swagger Codegen API Client Builder](skills/swagger-codegen-api-client-builder/) | Security Reviewed | 28.7k | 3.2M/wk | `clawhub install swagger-codegen-api-client-builder` |
-| [Swagger Codegen Template Customizer](skills/swagger-codegen-template-customizer/) | Security Reviewed | 28.7k | 3.2M/wk | `clawhub install swagger-codegen-template-customizer` |
-| [Swagger OpenAPI Schema Validator](skills/swagger-openapi-schema-validator/) | Security Reviewed | 28.7k | 3.2M/wk | `clawhub install swagger-openapi-schema-validator` |
-| [Swagger UI Documentation Deployer](skills/swagger-ui-documentation-deployer/) | Security Reviewed | 28.7k | 3.2M/wk | `clawhub install swagger-ui-documentation-deployer` |
-| [GraphQL Introspection Documenter](skills/graphql-introspection-documenter/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install graphql-introspection-documenter` |
-| [GraphQL Schema Analyzer](skills/graphql-schema-analyzer/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install graphql-schema-analyzer` |
-| [GraphQL Schema Documentation Builder](skills/graphql-schema-documentation-builder/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install graphql-schema-documentation-builder` |
-| [GraphQL Schema Documentation Generator](skills/graphql-schema-documentation-generator/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install graphql-schema-documentation-generator` |
-| [GraphQL Schema Drift Detector](skills/graphql-schema-drift-detector/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install graphql-schema-drift-detector` |
-| [GraphQL Schema Explorer](skills/graphql-schema-explorer/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install graphql-schema-explorer` |
-| [GraphQL Schema Introspection Analyzer](skills/graphql-schema-introspection-analyzer/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install graphql-schema-introspection-analyzer` |
-| [GraphQL Schema Introspector](skills/graphql-schema-introspector/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install graphql-schema-introspector` |
-| [GraphQL Schema Registry](skills/graphql-schema-registry/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install graphql-schema-registry` |
-| [GraphQL Schema Registry Agent](skills/graphql-schema-registry-agent/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install graphql-schema-registry-agent` |
-| [GraphQL Schema Registry Client](skills/graphql-schema-registry-client/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install graphql-schema-registry-client` |
-| [GraphQL Schema Stitcher](skills/graphql-schema-stitcher/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install graphql-schema-stitcher` |
-| [GraphQL Schema Stitching &#038; Federation Agent](skills/graphql-schema-stitching-federation-agent/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install graphql-schema-stitching-federation-agent` |
-| [NPM Package Audit Analyzer](skills/npm-package-audit-analyzer/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install npm-package-audit-analyzer` |
-| [OpenAPI Spec Reference Generator](skills/openapi-spec-reference-generator/) | Security Reviewed | 6k | — | `clawhub install openapi-spec-reference-generator` |
-| [OpenAPI Spec Validator &#038; Mock Server](skills/openapi-spec-validator-mock-server-2/) | Security Reviewed | 6k | — | `clawhub install openapi-spec-validator-mock-server-2` |
-| [Postman Collection Runner](skills/postman-collection-runner/) | Security Reviewed | 6k | — | `clawhub install postman-collection-runner` |
-| [REST API Test Suite Generator](skills/rest-api-test-suite-generator/) | Security Reviewed | 6k | — | `clawhub install rest-api-test-suite-generator` |
-| [NPM Package Explorer](skills/npm-package-explorer-registry-api/) | Security Reviewed | 5.5k | 601.7k/wk | `clawhub install npm-package-explorer-registry-api` |
-| [Buf Protobuf Linter](skills/buf-protobuf-linter/) | Security Reviewed | 4.8k | 30.9M/wk | `clawhub install buf-protobuf-linter` |
-| [gRPC Service Tool](skills/grpc-service-tool/) | Verified Metadata | 4.8k | 30.9M/wk | `clawhub install grpc-service-tool` |
-| [Protobuf &#038; gRPC Stub Generator](skills/protobuf-grpc-stub-generator/) | Security Reviewed | 4.8k | 30.9M/wk | `clawhub install protobuf-grpc-stub-generator` |
-| [Protobuf Documentation Generator](skills/protobuf-documentation-generator/) | Security Reviewed | 4.8k | 30.9M/wk | `clawhub install protobuf-documentation-generator` |
-| [Protobuf Schema Registry Manager](skills/protobuf-schema-registry-manager/) | Security Reviewed | 4.8k | 30.9M/wk | `clawhub install protobuf-schema-registry-manager` |
-| [Protocol Buffers Documentation Compiler](skills/protobuf-documentation-compiler/) | Security Reviewed | 4.8k | 30.9M/wk | `clawhub install protobuf-documentation-compiler` |
-| [Stripe API Reference Navigator](skills/stripe-api-reference-navigator/) | Security Reviewed | 4.4k | 8.4M/wk | `clawhub install stripe-api-reference-navigator` |
-| [AsyncAPI Event Catalog Builder](skills/asyncapi-event-catalog-builder/) | Security Reviewed | 4k | 2.4M/wk | `clawhub install asyncapi-event-catalog-builder` |
-| [AsyncAPI Event Catalog Generator](skills/asyncapi-event-catalog-generator/) | Security Reviewed | 4k | 2.4M/wk | `clawhub install asyncapi-event-catalog-generator` |
-| [Anthropic SDK Token Usage Logger](skills/anthropic-sdk-token-usage-logger/) | Verified Metadata | 3.6k | 9.2M/wk | `clawhub install anthropic-sdk-token-usage-logger` |
-| [AWS SDK Method Resolver](skills/aws-sdk-method-resolver/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-sdk-method-resolver` |
-| [OpenTelemetry Trace Context Propagator](skills/opentelemetry-trace-context-propagator/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install opentelemetry-trace-context-propagator` |
-| [REST API Changelog Tracker](skills/rest-api-changelog-tracker/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install rest-api-changelog-tracker` |
-| [Plaid Financial Data Aggregator &amp; Budget Classifier](skills/plaid-financial-data-aggregator/) | Security Reviewed | — | 21.4M/wk | `clawhub install plaid-financial-data-aggregator` |
-| [Context7 MCP Documentation Server for LLM Code Editors](skills/context7-mcp-documentation-server-llm-code-editors/) | Verified Metadata | — | — | `clawhub install context7-mcp-documentation-server-llm-code-editors` |
-| [Doxygen Cross-Reference Indexer](skills/doxygen-cross-reference-indexer/) | Security Reviewed | — | — | `clawhub install doxygen-cross-reference-indexer` |
-| [GitHub REST API Paginator Library](skills/github-rest-api-paginator-library/) | Security Reviewed | — | — | `clawhub install github-rest-api-paginator-library` |
-| [JSDoc Type Definition Extractor](skills/jsdoc-type-definition-extractor/) | Security Reviewed | — | — | `clawhub install jsdoc-type-definition-extractor` |
-| [MDN Web API Reference Fetcher](skills/mdn-web-api-reference-fetcher/) | Security Reviewed | — | — | `clawhub install mdn-web-api-reference-fetcher` |
-| [MDN Web Docs Fetcher](skills/mdn-web-docs-fetcher/) | Security Reviewed | — | — | `clawhub install mdn-web-docs-fetcher` |
-| [NPM Package Analyzer](skills/npm-package-analyzer/) | Security Reviewed | — | — | `clawhub install npm-package-analyzer` |
-| [NPM Package API Surface Extractor](skills/npm-package-api-surface-extractor/) | Security Reviewed | — | — | `clawhub install npm-package-api-surface-extractor` |
-| [NPM Package Audit &#038; License Checker](skills/npm-package-audit-license-checker/) | Security Reviewed | — | — | `clawhub install npm-package-audit-license-checker` |
-| [NPM Package Audit Reference](skills/npm-package-audit-reference/) | Security Reviewed | — | — | `clawhub install npm-package-audit-reference` |
-| [NPM Package Changelog Analyzer](skills/npm-package-changelog-analyzer/) | Security Reviewed | — | — | `clawhub install npm-package-changelog-analyzer` |
-| [NPM Package Dependency Analyzer](skills/npm-package-dependency-analyzer/) | Security Reviewed | — | — | `clawhub install npm-package-dependency-analyzer` |
-| [NPM Package Dependency Auditor](skills/npm-package-dependency-auditor/) | Security Reviewed | — | — | `clawhub install npm-package-dependency-auditor` |
-| [NPM Package Vulnerability Runbook](skills/npm-package-vulnerability-runbook/) | Security Reviewed | — | — | `clawhub install npm-package-vulnerability-runbook` |
-| [NPM Package Vulnerability Scanner](skills/npm-package-vulnerability-scanner/) | Security Reviewed | — | — | `clawhub install npm-package-vulnerability-scanner` |
-| [npm Registry Analyzer](skills/npm-registry-analyzer/) | Security Reviewed | — | — | `clawhub install npm-registry-analyzer` |
-| [npm Registry Explorer](skills/npm-registry-explorer/) | Security Reviewed | — | — | `clawhub install npm-registry-explorer` |
-| [OpenAPI SDK Generator Pipeline](skills/openapi-sdk-generator-pipeline/) | Verified Metadata | — | — | `clawhub install openapi-sdk-generator-pipeline` |
-| [OpenAPI Spec Validator &#038; Linter](skills/openapi-spec-validator-linter-2/) | Security Reviewed | — | — | `clawhub install openapi-spec-validator-linter-2` |
-| [PyPI Package Inspector](skills/pypi-package-inspector/) | Security Reviewed | — | — | `clawhub install pypi-package-inspector` |
-| [Python Dependency Graph Resolver](skills/python-dependency-graph-resolver/) | Security Reviewed | — | — | `clawhub install python-dependency-graph-resolver` |
-| [Python Docstring Extractor](skills/python-docstring-extractor/) | Security Reviewed | — | — | `clawhub install python-docstring-extractor` |
-| [Python Docstring Linter](skills/python-docstring-linter-ast-pydocstyle/) | Security Reviewed | — | — | `clawhub install python-docstring-linter-ast-pydocstyle` |
-| [Python Library Reference Builder](skills/python-library-reference-builder/) | Security Reviewed | — | — | `clawhub install python-library-reference-builder` |
-| [Python Package API Surface Mapper](skills/python-package-api-surface-mapper/) | Security Reviewed | — | — | `clawhub install python-package-api-surface-mapper` |
-| [Python Package Dependency Graph Mapper](skills/python-package-dependency-graph-mapper/) | Security Reviewed | — | — | `clawhub install python-package-dependency-graph-mapper` |
-| [Python Package Docs Fetcher](skills/python-package-docs-fetcher/) | Security Reviewed | — | — | `clawhub install python-package-docs-fetcher` |
-| [Python PyPI Dependency Resolver](skills/python-pypi-dependency-resolver/) | Security Reviewed | — | — | `clawhub install python-pypi-dependency-resolver` |
-| [Python PyPI Package Reference Indexer](skills/python-pypi-package-reference-indexer/) | Security Reviewed | — | — | `clawhub install python-pypi-package-reference-indexer` |
-| [REST API Response Schema Validator](skills/rest-api-response-schema-validator/) | Security Reviewed | — | — | `clawhub install rest-api-response-schema-validator` |
-| [Rust Crate Analyzer](skills/rust-crate-analyzer/) | Security Reviewed | — | — | `clawhub install rust-crate-analyzer` |
-| [Rust Crate Docs Scanner](skills/rust-crate-docs-scanner/) | Security Reviewed | — | — | `clawhub install rust-crate-docs-scanner` |
-| [Rust Crate Documentation Extractor](skills/rust-crate-documentation-extractor/) | Security Reviewed | — | — | `clawhub install rust-crate-documentation-extractor` |
-| [Rust Crate Documentation Indexer](skills/rust-crate-documentation-indexer-2/) | Security Reviewed | — | — | `clawhub install rust-crate-documentation-indexer-2` |
-| [Rust Crates.io Explorer](skills/rust-crates-io-explorer/) | Security Reviewed | — | — | `clawhub install rust-crates-io-explorer` |
-| [TypeDoc Symbol Resolver](skills/typedoc-symbol-resolver/) | Security Reviewed | — | — | `clawhub install typedoc-symbol-resolver` |
-| [Zod Schema Generator](skills/zod-schema-generator/) | Security Reviewed | — | — | `clawhub install zod-schema-generator` |
+| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
+|---|---|---|---:|---:|
+| [OpenAPI Spec Compliance Checker](skills/openapi-spec-compliance-checker/) | Validates REST APIs against their OpenAPI 3.x specifications using swagger-parser and Spectral linter rules. Checks… | Security Reviewed | 96.5k | — |
+| [OpenTelemetry Trace Analyzer](skills/opentelemetry-trace-analyzer/) | Queries distributed traces from Jaeger and Tempo via their gRPC and HTTP APIs. Identifies latency bottlenecks using… | Security Reviewed | 72.8k | — |
+| [Docker Image Layer Analyzer](skills/docker-image-layer-analyzer/) | Analyzes Docker image layers using the Docker Registry HTTP API v2 and dive CLI tool. Calculates layer sizes,… | Security Reviewed | 71.6k | — |
+| [REST API Documentation Generator](skills/rest-api-documentation-generator/) | Generates interactive API documentation from code annotations using swagger-jsdoc for Express.js routes and the… | Security Reviewed | 68.9k | 91.7M/wk |
+| [Terraform Provider Schema Explorer](skills/terraform-provider-schema-explorer/) | Explores HashiCorp Terraform provider schemas using terraform providers schema -json output. Maps resource… | Security Reviewed | 48k | — |
+| [Prisma Schema Migrator](skills/prisma-schema-migrator/) | Automates Prisma ORM schema evolution and migration planning using prisma migrate and prisma db commands. Validates… | Security Reviewed | 45.6k | 9.4M/wk |
+| [API Documentation Indexer](skills/api-documentation-indexer/) | Indexes and searches API documentation from OpenAPI 3.0 specs using swagger-parser and lunr.js. Builds searchable… | Security Reviewed | 28.7k | 3.2M/wk |
+| [OpenAPI Spec Changelog Generator](skills/openapi-spec-changelog-generator/) | Compares OpenAPI 3.x specification files using the oasdiff library to detect breaking changes, deprecated endpoints,… | Security Reviewed | 28.7k | 3.2M/wk |
+| [OpenAPI Spec Linter &#038; Docs Generator](skills/openapi-spec-linter-docs-generator/) | Validates OpenAPI 3.x specifications using Spectral rulesets and generates interactive API documentation with Redoc… | Security Reviewed | 28.7k | 3.2M/wk |
+| [OpenAPI Spec Navigator](skills/openapi-spec-navigator/) | Parses and navigates OpenAPI 3.1 specifications using swagger-parser and @apidevtools/json-schema-ref-parser.… | Security Reviewed | 28.7k | 3.2M/wk |
+| [OpenAPI Spec Reference Indexer](skills/openapi-spec-reference-indexer/) | Indexes and cross-references OpenAPI 3.x specifications using swagger-parser and Redocly CLI. Builds searchable… | Security Reviewed | 28.7k | 3.2M/wk |
+| [OpenAPI Spec Validator &#038; Docs Generator](skills/openapi-spec-validator-docs-generator/) | Validates OpenAPI 3.0/3.1 specifications using Spectral linting rules and generates interactive API documentation… | Security Reviewed | 28.7k | 3.2M/wk |
+| [OpenAPI Specification Validator](skills/openapi-specification-validator-agent/) | Validates and lints OpenAPI 3.x specifications using swagger-parser, spectral, and openapi-typescript. Generates… | Security Reviewed | 28.7k | 3.2M/wk |
+| [REST API Reference Generator](skills/rest-api-reference-generator/) | Generates interactive API reference documentation from OpenAPI 3.x specs using Swagger Parser and Redoc. Validates… | Security Reviewed | 28.7k | 3.2M/wk |
+| [REST API Testing Reference Kit](skills/rest-api-testing-reference-kit/) | Comprehensive REST API testing reference using Postman Collection SDK v2.1 and Newman CLI. Includes assertion… | Security Reviewed | 28.7k | 3.2M/wk |
+| [Swagger / OpenAPI Validator](skills/swagger-openapi-validator/) | Swagger / OpenAPI Validator is built around Swagger/OpenAPI tooling. The underlying ecosystem is represented by… | Security Reviewed | 28.7k | 3.2M/wk |
+| [Swagger Codegen API Client Builder](skills/swagger-codegen-api-client-builder/) | Generates typed API client libraries from OpenAPI 3.x specifications using swagger-codegen and… | Security Reviewed | 28.7k | 3.2M/wk |
+| [Swagger Codegen Template Customizer](skills/swagger-codegen-template-customizer/) | Extends Swagger Codegen and OpenAPI Generator with custom Mustache templates for client SDK generation. Supports… | Security Reviewed | 28.7k | 3.2M/wk |
+| [Swagger OpenAPI Schema Validator](skills/swagger-openapi-schema-validator/) | Validates and lints OpenAPI 3.1 specifications using Spectral ruleset engine and swagger-parser. Detects breaking… | Security Reviewed | 28.7k | 3.2M/wk |
+| [Swagger UI Documentation Deployer](skills/swagger-ui-documentation-deployer/) | Deploys interactive Swagger UI documentation sites from OpenAPI specs with custom branding, authentication presets,… | Security Reviewed | 28.7k | 3.2M/wk |
+| [GraphQL Introspection Documenter](skills/graphql-introspection-documenter/) | Introspects GraphQL endpoints using the __schema query and generates structured API documentation. Uses graphql-js… | Security Reviewed | 20.3k | 32M/wk |
+| [GraphQL Schema Analyzer](skills/graphql-schema-analyzer/) | Analyzes GraphQL schemas using graphql-js introspection and @graphql-tools/utils. Maps type relationships, detects… | Security Reviewed | 20.3k | 32M/wk |
+| [GraphQL Schema Documentation Builder](skills/graphql-schema-documentation-builder/) | Generates interactive API documentation from GraphQL schemas using graphql-js introspection queries and SpectaQL.… | Security Reviewed | 20.3k | 32M/wk |
+| [GraphQL Schema Documentation Generator](skills/graphql-schema-documentation-generator/) | Generates interactive API documentation from GraphQL schemas using graphql-js introspection queries and SpectaQL.… | Security Reviewed | 20.3k | 32M/wk |
+| [GraphQL Schema Drift Detector](skills/graphql-schema-drift-detector/) | Detects breaking changes in GraphQL schemas using graphql-inspector and the GraphQL introspection query. Compares… | Security Reviewed | 20.3k | 32M/wk |
+| [GraphQL Schema Explorer](skills/graphql-schema-explorer/) | GraphQL Schema Explorer is built around GraphQL API ecosystem. The underlying ecosystem is represented by… | Security Reviewed | 20.3k | 32M/wk |
+| [GraphQL Schema Introspection Analyzer](skills/graphql-schema-introspection-analyzer/) | Introspects GraphQL APIs via the standard __schema query and analyzes type systems using graphql-js utilities… | Security Reviewed | 20.3k | 32M/wk |
+| [GraphQL Schema Introspector](skills/graphql-schema-introspector/) | Performs GraphQL schema introspection using the graphql-js reference implementation and Apollo Client devtools… | Security Reviewed | 20.3k | 32M/wk |
+| [GraphQL Schema Registry](skills/graphql-schema-registry/) | Manages GraphQL schema evolution using graphql-inspector for breaking change detection and Apollo Rover CLI for… | Security Reviewed | 20.3k | 32M/wk |
+| [GraphQL Schema Registry Agent](skills/graphql-schema-registry-agent/) | Manages federated GraphQL schemas using Apollo Studio API and Hive Schema Registry. Validates schema composition,… | Security Reviewed | 20.3k | 32M/wk |
+| [GraphQL Schema Registry Client](skills/graphql-schema-registry-client/) | Manages GraphQL schema versions using Apollo Schema Registry API and graphql-inspector. Performs schema diffing,… | Security Reviewed | 20.3k | 32M/wk |
+| [GraphQL Schema Stitcher](skills/graphql-schema-stitcher/) | Merges multiple GraphQL schemas into a unified federated gateway using Apollo Federation v2 and graphql-tools… | Security Reviewed | 20.3k | 32M/wk |
+| [GraphQL Schema Stitching &#038; Federation Agent](skills/graphql-schema-stitching-federation-agent/) | Manages Apollo Federation v2 supergraph composition from subgraph schemas, validating composition rules and… | Security Reviewed | 20.3k | 32M/wk |
+| [NPM Package Audit Analyzer](skills/npm-package-audit-analyzer/) | Analyzes npm package security advisories using npm audit, the npm Registry API, and the GitHub Advisory Database… | Security Reviewed | 20.3k | 32M/wk |
+| [OpenAPI Spec Reference Generator](skills/openapi-spec-reference-generator/) | Converts OpenAPI 3.x specification files into browsable API reference documentation using swagger-parser and… | Security Reviewed | 6k | — |
+| [OpenAPI Spec Validator &#038; Mock Server](skills/openapi-spec-validator-mock-server-2/) | Validates OpenAPI 3.x specifications using the swagger-parser library and generates Prism mock servers. Detects… | Security Reviewed | 6k | — |
+| [Postman Collection Runner](skills/postman-collection-runner/) | Postman Collection Runner is built around Postman API testing platform. The underlying ecosystem is represented by… | Security Reviewed | 6k | — |
+| [REST API Test Suite Generator](skills/rest-api-test-suite-generator/) | Generates comprehensive API test suites from OpenAPI specs using Postman Collection SDK and Newman CLI. Creates… | Security Reviewed | 6k | — |
+| [NPM Package Explorer](skills/npm-package-explorer-registry-api/) | Explores the npm registry using the Registry API and npms.io scoring API. Analyzes package quality, dependency… | Security Reviewed | 5.5k | 601.7k/wk |
+| [Buf Protobuf Linter](skills/buf-protobuf-linter/) | Lints Protocol Buffer definitions using the Buf CLI ruleset and validates gRPC service contracts. Detects breaking… | Security Reviewed | 4.8k | 30.9M/wk |
+| [gRPC Service Tool](skills/grpc-service-tool/) | gRPC Service Tool is built around gRPC remote procedure call framework. The underlying ecosystem is represented by… | Security Reviewed | 4.8k | 30.9M/wk |
+| [Protobuf &#038; gRPC Stub Generator](skills/protobuf-grpc-stub-generator/) | Compiles Protocol Buffer definitions into language-specific gRPC client and server stubs using buf CLI and protoc… | Security Reviewed | 4.8k | 30.9M/wk |
+| [Protobuf Documentation Generator](skills/protobuf-documentation-generator/) | Generates API documentation from Protocol Buffer definitions using protoc-gen-doc and buf build toolchain. Produces… | Security Reviewed | 4.8k | 30.9M/wk |
+| [Protobuf Schema Registry Manager](skills/protobuf-schema-registry-manager/) | Manages Protocol Buffer schema evolution using buf CLI with breaking change detection and Confluent Schema Registry… | Security Reviewed | 4.8k | 30.9M/wk |
+| [Protocol Buffers Documentation Compiler](skills/protobuf-documentation-compiler/) | Compiles Protocol Buffer .proto files using protoc and generates API documentation with protoc-gen-doc. Validates… | Security Reviewed | 4.8k | 30.9M/wk |
+| [Stripe API Reference Navigator](skills/stripe-api-reference-navigator/) | Navigates and queries the Stripe REST API documentation using stripe-node SDK methods. Resolves payment intent… | Security Reviewed | 4.4k | 8.4M/wk |
+| [AsyncAPI Event Catalog Builder](skills/asyncapi-event-catalog-builder/) | Generates event-driven architecture documentation from AsyncAPI 3.0 specifications. Uses the AsyncAPI parser-js… | Security Reviewed | 4k | 2.4M/wk |
+| [AsyncAPI Event Catalog Generator](skills/asyncapi-event-catalog-generator/) | Parses AsyncAPI 2.x/3.x specifications to generate event-driven architecture catalogs using the AsyncAPI Generator.… | Security Reviewed | 4k | 2.4M/wk |
+| [Anthropic SDK Token Usage Logger](skills/anthropic-sdk-token-usage-logger/) | Instruments Anthropic API calls to log token usage, latency, and cost per request using the Anthropic TypeScript… | Security Reviewed | 3.6k | 9.2M/wk |
+| [AWS SDK Method Resolver](skills/aws-sdk-method-resolver/) | Resolves AWS SDK v3 client commands and service endpoint signatures using @aws-sdk/client-* packages. Maps IAM… | Security Reviewed | 3.6k | 9.2M/wk |
+| [OpenTelemetry Trace Context Propagator](skills/opentelemetry-trace-context-propagator/) | Implements W3C TraceContext and Baggage propagation using the OpenTelemetry JS SDK and @opentelemetry/api. Injects… | Security Reviewed | 3.6k | 9.2M/wk |
+| [REST API Changelog Tracker](skills/rest-api-changelog-tracker/) | Tracks breaking changes across REST API versions by diffing OpenAPI specs with oasdiff and monitoring endpoint… | Security Reviewed | 2.9k | 2.4M/wk |
+| [Plaid Financial Data Aggregator &amp; Budget Classifier](skills/plaid-financial-data-aggregator/) | Integrates with the Plaid Transactions API using the plaid Python SDK to pull 90 days of transaction history across… | Security Reviewed | — | 21.4M/wk |
+| [Context7 MCP Documentation Server for LLM Code Editors](skills/context7-mcp-documentation-server-llm-code-editors/) | Context7 by Upstash injects up-to-date, version-specific library documentation and code examples directly into AI… | Security Reviewed | — | — |
+| [Doxygen Cross-Reference Indexer](skills/doxygen-cross-reference-indexer/) | Builds searchable cross-reference indexes from Doxygen XML output using doxyparse and doxygen-awesome-css themes.… | Security Reviewed | — | — |
+| [GitHub REST API Paginator Library](skills/github-rest-api-paginator-library/) | Provides a typed pagination wrapper for the GitHub REST API using Octokit.js and the @octokit/plugin-paginate-rest… | Security Reviewed | — | — |
+| [JSDoc Type Definition Extractor](skills/jsdoc-type-definition-extractor/) | Extracts and indexes JSDoc type annotations from JavaScript codebases using the jsdoc-api parser. Generates… | Security Reviewed | — | — |
+| [MDN Web API Reference Fetcher](skills/mdn-web-api-reference-fetcher/) | Fetches and indexes Mozilla Developer Network Web API documentation using the MDN Yari content API. Provides… | Security Reviewed | — | — |
+| [MDN Web Docs Fetcher](skills/mdn-web-docs-fetcher/) | Queries the MDN Web Docs content API (Yari) and the MDN search index to retrieve browser compatibility data, Web API… | Security Reviewed | — | — |
+| [NPM Package Analyzer](skills/npm-package-analyzer/) | Deep analysis of npm packages using npm-registry-fetch and pacote. Evaluates bundle size via bundlephobia API,… | Security Reviewed | — | — |
+| [NPM Package API Surface Extractor](skills/npm-package-api-surface-extractor/) | Extracts and documents public API surfaces from NPM packages using TypeScript Compiler API (ts.createProgram) and… | Security Reviewed | — | — |
+| [NPM Package Audit &#038; License Checker](skills/npm-package-audit-license-checker/) | Audits npm dependencies using npm audit, license-checker-rspack, and the npm registry API (registry.npmjs.org).… | Security Reviewed | — | — |
+| [NPM Package Audit Reference](skills/npm-package-audit-reference/) | Provides deep dependency analysis using npm audit, socket.dev API for supply chain risk scoring, and bundlephobia… | Security Reviewed | — | — |
+| [NPM Package Changelog Analyzer](skills/npm-package-changelog-analyzer/) | Analyzes NPM package changelogs and release notes using the NPM Registry API and GitHub Releases API. Detects… | Security Reviewed | — | — |
+| [NPM Package Dependency Analyzer](skills/npm-package-dependency-analyzer/) | Analyzes npm package dependency trees using npm-registry-fetch, pacote, and arborist APIs. Detects circular… | Security Reviewed | — | — |
+| [NPM Package Dependency Auditor](skills/npm-package-dependency-auditor/) | Deep-audits npm package dependency trees using the npm Registry API and Socket.dev security intelligence. Identifies… | Security Reviewed | — | — |
+| [NPM Package Vulnerability Runbook](skills/npm-package-vulnerability-runbook/) | Automates vulnerability triage for Node.js projects using the npm Audit API and OSV.dev API. Generates step-by-step… | Security Reviewed | — | — |
+| [NPM Package Vulnerability Scanner](skills/npm-package-vulnerability-scanner/) | Scans npm dependencies for known vulnerabilities using the npm audit JSON API and the OSV.dev REST API… | Security Reviewed | — | — |
+| [npm Registry Analyzer](skills/npm-registry-analyzer/) | Queries the npm registry API and npms.io scoring endpoint to evaluate package quality, maintenance scores, and… | Security Reviewed | — | — |
+| [npm Registry Explorer](skills/npm-registry-explorer/) | Queries the npm registry API and npms.io search API for package discovery, dependency analysis, and quality scoring.… | Security Reviewed | — | — |
+| [OpenAPI SDK Generator Pipeline](skills/openapi-sdk-generator-pipeline/) | Generates typed client SDKs from OpenAPI 3.x specifications using openapi-generator-cli. Produces TypeScript,… | Security Reviewed | — | — |
+| [OpenAPI Spec Validator &#038; Linter](skills/openapi-spec-validator-linter-2/) | Validates OpenAPI 3.0/3.1 specifications using the @readme/openapi-parser and Spectral linter with custom rulesets.… | Security Reviewed | — | — |
+| [PyPI Package Inspector](skills/pypi-package-inspector/) | Queries the PyPI JSON API and the libraries.io API to analyze Python package metadata, dependency trees, and version… | Security Reviewed | — | — |
+| [Python Dependency Graph Resolver](skills/python-dependency-graph-resolver/) | Resolves and visualizes Python package dependency graphs using pip, pipdeptree, and the PyPI JSON API. Detects… | Security Reviewed | — | — |
+| [Python Docstring Extractor](skills/python-docstring-extractor/) | Extracts and indexes Python module documentation using ast.parse and docstring_parser library. Supports Google,… | Security Reviewed | — | — |
+| [Python Docstring Linter](skills/python-docstring-linter-ast-pydocstyle/) | Validates and auto-generates Python docstrings using the ast module and pydocstyle conventions. Supports NumPy,… | Security Reviewed | — | — |
+| [Python Library Reference Builder](skills/python-library-reference-builder/) | Generates searchable Python library references using ast module for source parsing and Sphinx autodoc integration.… | Security Reviewed | — | — |
+| [Python Package API Surface Mapper](skills/python-package-api-surface-mapper/) | Maps the public API surface of Python packages using ast module parsing and importlib introspection. Generates… | Security Reviewed | — | — |
+| [Python Package Dependency Graph Mapper](skills/python-package-dependency-graph-mapper/) | Builds dependency graphs for Python packages using the PyPI JSON API and pipdeptree library. Visualizes transitive… | Security Reviewed | — | — |
+| [Python Package Docs Fetcher](skills/python-package-docs-fetcher/) | Retrieves and indexes Python package documentation from PyPI metadata API and Read the Docs API. Uses ast module… | Security Reviewed | — | — |
+| [Python PyPI Dependency Resolver](skills/python-pypi-dependency-resolver/) | Resolves Python package dependencies using the PyPI JSON API and pip resolver algorithm. Generates locked… | Security Reviewed | — | — |
+| [Python PyPI Package Reference Indexer](skills/python-pypi-package-reference-indexer/) | Indexes Python package documentation using the PyPI JSON API and Read the Docs API. Builds searchable reference… | Security Reviewed | — | — |
+| [Redoc OpenAPI Documentation Renderer](skills/redoc-openapi-documentation-renderer/) | Redoc is an open-source tool by Redocly for generating beautiful, three-panel API reference documentation from… | Published | — | — |
+| [REST API Response Schema Validator](skills/rest-api-response-schema-validator/) | Validates live API responses against JSON Schema definitions using Ajv (Another JSON Schema Validator). Supports… | Security Reviewed | — | — |
+| [Rust Crate Analyzer](skills/rust-crate-analyzer/) | Fetches crate metadata from the crates.io API and docs.rs API for Rust package discovery. Analyzes feature flags,… | Security Reviewed | — | — |
+| [Rust Crate Docs Scanner](skills/rust-crate-docs-scanner/) | Scans Rust crate documentation using rustdoc JSON output and cargo-doc metadata. Indexes public API surfaces… | Security Reviewed | — | — |
+| [Rust Crate Documentation Extractor](skills/rust-crate-documentation-extractor/) | Extracts and indexes Rust crate documentation using cargo-doc, docs.rs API, and syn for AST parsing. Generates… | Security Reviewed | — | — |
+| [Rust Crate Documentation Indexer](skills/rust-crate-documentation-indexer-2/) | Indexes Rust crate documentation from docs.rs using rustdoc JSON output and cargo-doc. Extracts trait… | Security Reviewed | — | — |
+| [Rust Crates.io Explorer](skills/rust-crates-io-explorer/) | Searches the crates.io REST API for Rust crate metadata, version diffs, and feature flag documentation. Integrates… | Security Reviewed | — | — |
+| [TypeDoc Symbol Resolver](skills/typedoc-symbol-resolver/) | Resolves TypeScript symbols and generates API documentation using the TypeDoc compiler API and ts-morph for AST… | Security Reviewed | — | — |
+| [Zod Schema Generator](skills/zod-schema-generator/) | Converts JSON samples, TypeScript interfaces, and OpenAPI specs into Zod validation schemas. Uses ts-morph for AST… | Security Reviewed | — | — |
 
 
-### ✅ Code Quality & Review (88 skills)
+### ✅ Code Quality & Review (89 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
-| Skill | Tier | GitHub Stars | npm Downloads | Install |
-|---|---|---:|---:|---|
-| [Polaris Kubernetes Best Practices Validator](skills/polaris-kubernetes-best-practices-validator/) | Security Reviewed | 121.3k | — | `clawhub install polaris-kubernetes-best-practices-validator` |
-| [Storybook Component Tester](skills/storybook-component-tester/) | Security Reviewed | 89.5k | 13M/wk | `clawhub install storybook-component-tester` |
-| [Playwright Test Recorder](skills/playwright-test-recorder/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-test-recorder` |
-| [Docker Build Cache Optimizer](skills/docker-build-cache-optimizer/) | Security Reviewed | 71.6k | — | `clawhub install docker-build-cache-optimizer` |
-| [Git Bisect Automation Agent](skills/git-bisect-automation-agent/) | Security Reviewed | 71.6k | — | `clawhub install git-bisect-automation-agent` |
-| [ShellCheck Shell Script Static Analyzer](skills/shellcheck-shell-script-static-analyzer/) | Security Reviewed | 71.6k | — | `clawhub install shellcheck-shell-script-static-analyzer` |
-| [Codecov Coverage Analyzer](skills/codecov-coverage-analyzer/) | Security Reviewed | 45.3k | 45.5M/wk | `clawhub install codecov-coverage-analyzer` |
-| [Jest Unit Test Scaffolder](skills/jest-unit-test-scaffolder/) | Security Reviewed | 45.3k | 45.5M/wk | `clawhub install jest-unit-test-scaffolder` |
-| [ESLint Auto-Fix Agent](skills/eslint-auto-fix-agent/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-auto-fix-agent` |
-| [ESLint Auto-Fix Orchestrator](skills/eslint-autofix-orchestrator/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-autofix-orchestrator` |
-| [ESLint Auto-Fix Pipeline](skills/eslint-autofix-pipeline/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-autofix-pipeline` |
-| [ESLint Auto-Fixer](skills/eslint-auto-fixer/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-auto-fixer` |
-| [ESLint Config Enforcer](skills/eslint-config-enforcer/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-config-enforcer` |
-| [ESLint Custom Rule Builder](skills/eslint-custom-rule-builder/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-custom-rule-builder` |
-| [ESLint Custom Rule Generator](skills/eslint-custom-rule-generator/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-custom-rule-generator` |
-| [ESLint Rule Analyzer](skills/eslint-rule-analyzer/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-rule-analyzer` |
-| [ESLint Rule Analyzer and Fixer](skills/eslint-rule-analyzer-fixer/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-rule-analyzer-fixer` |
-| [ESLint Rule Architect](skills/eslint-rule-architect-2/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-rule-architect-2` |
-| [ESLint Rule Auditor](skills/eslint-rule-auditor-3/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-rule-auditor-3` |
-| [ESLint Rule Composer](skills/eslint-rule-composer/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-rule-composer` |
-| [ESLint Rule Configurator](skills/eslint-rule-configurator/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-rule-configurator` |
-| [ESLint Rule Conflict Detector](skills/eslint-rule-conflict-detector-2/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-rule-conflict-detector-2` |
-| [ESLint Rule Conflict Resolver](skills/eslint-rule-conflict-resolver/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-rule-conflict-resolver` |
-| [ESLint Rule Enforcement Agent](skills/eslint-rule-enforcement-agent/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-rule-enforcement-agent` |
-| [ESLint Rule Enforcer](skills/eslint-rule-enforcer/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-rule-enforcer` |
-| [ESLint Rule Enforcer Agent](skills/eslint-rule-enforcer-agent/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-rule-enforcer-agent` |
-| [ESLint Rule Impact Analyzer](skills/eslint-rule-impact-analyzer-2/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-rule-impact-analyzer-2` |
-| [ESLint Rule Violation Summarizer](skills/eslint-rule-violation-summarizer-2/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install eslint-rule-violation-summarizer-2` |
-| [Knip Unused Code and Dependency Finder](skills/knip-unused-code-dependency-finder/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install knip-unused-code-dependency-finder` |
-| [Oxlint High-Performance JavaScript Linter](skills/oxlint-high-performance-javascript-linter/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install oxlint-high-performance-javascript-linter` |
-| [Prettier Config Conflict Resolver](skills/prettier-config-conflict-resolver/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install prettier-config-conflict-resolver` |
-| [Jenkins Pipeline Code Review Agent](skills/jenkins-pipeline-code-review-agent/) | Security Reviewed | 25.1k | — | `clawhub install jenkins-pipeline-code-review-agent` |
-| [CodeClimate Diff Analyzer](skills/codeclimate-diff-analyzer-2/) | Security Reviewed | 24.3k | — | `clawhub install codeclimate-diff-analyzer-2` |
-| [PHPStan Static Analyzer Agent](skills/phpstan-static-analyzer-agent/) | Security Reviewed | 21k | — | `clawhub install phpstan-static-analyzer-agent` |
-| [Prettier Format Enforcement Bot](skills/prettier-format-enforcement-bot/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install prettier-format-enforcement-bot` |
-| [Pull Request Size Analyzer](skills/pull-request-size-analyzer-agent/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install pull-request-size-analyzer-agent` |
-| [Semgrep Code Pattern Scanner](skills/semgrep-code-pattern-scanner-2/) | Verified Metadata | 14.6k | — | `clawhub install semgrep-code-pattern-scanner-2` |
-| [Semgrep Code Scanner](skills/semgrep-code-scanner/) | Verified Metadata | 14.6k | — | `clawhub install semgrep-code-scanner` |
-| [Semgrep Custom Pattern Builder](skills/semgrep-custom-pattern-builder/) | Security Reviewed | 14.6k | — | `clawhub install semgrep-custom-pattern-builder` |
-| [Semgrep Custom Pattern Generator](skills/semgrep-custom-pattern-generator/) | Security Reviewed | 14.6k | — | `clawhub install semgrep-custom-pattern-generator` |
-| [Semgrep Custom Pattern Library](skills/semgrep-custom-pattern-library/) | Security Reviewed | 14.6k | — | `clawhub install semgrep-custom-pattern-library` |
-| [Semgrep Custom Rule Builder](skills/semgrep-custom-rule-builder-3/) | Security Reviewed | 14.6k | — | `clawhub install semgrep-custom-rule-builder-3` |
-| [Semgrep Pattern Matching Analyzer](skills/semgrep-pattern-matching-analyzer/) | Security Reviewed | 14.6k | — | `clawhub install semgrep-pattern-matching-analyzer` |
-| [Semgrep Pattern Matching Auditor](skills/semgrep-pattern-matching-auditor/) | Security Reviewed | 14.6k | — | `clawhub install semgrep-pattern-matching-auditor` |
-| [Semgrep Pattern Scanner](skills/semgrep-pattern-scanner/) | Security Reviewed | 14.6k | — | `clawhub install semgrep-pattern-scanner` |
-| [Semgrep Rule Author](skills/semgrep-rule-author/) | Security Reviewed | 14.6k | — | `clawhub install semgrep-rule-author` |
-| [Semgrep Rule Engine](skills/semgrep-rule-engine/) | Security Reviewed | 14.6k | — | `clawhub install semgrep-rule-engine` |
-| [Semgrep Rule Runner](skills/semgrep-rule-runner/) | Security Reviewed | 14.6k | — | `clawhub install semgrep-rule-runner` |
-| [Semgrep SAST Scanner](skills/semgrep-sast-scanner-skill/) | Security Reviewed | 14.6k | — | `clawhub install semgrep-sast-scanner-skill` |
-| [Semgrep Security Review Agent](skills/semgrep-security-review-agent/) | Security Reviewed | 14.6k | — | `clawhub install semgrep-security-review-agent` |
-| [Semgrep Security Scanner](skills/semgrep-security-scanner-2/) | Security Reviewed | 14.6k | — | `clawhub install semgrep-security-scanner-2` |
-| [Pytest Fixture Generator](skills/pytest-fixture-generator/) | Security Reviewed | 13.7k | — | `clawhub install pytest-fixture-generator` |
-| [SQLFluff SQL Linter and Auto-Formatter](skills/sqlfluff-sql-linter-auto-formatter/) | Security Reviewed | 12.5k | — | `clawhub install sqlfluff-sql-linter-auto-formatter` |
-| [SonarQube Analysis Agent](skills/sonarqube-analysis-agent/) | Security Reviewed | 10.4k | — | `clawhub install sonarqube-analysis-agent` |
-| [SonarQube Analysis Runner](skills/sonarqube-analysis-runner/) | Security Reviewed | 10.4k | — | `clawhub install sonarqube-analysis-runner` |
-| [SonarQube Code Quality Scanner](skills/sonarqube-code-quality-scanner/) | Security Reviewed | 10.4k | — | `clawhub install sonarqube-code-quality-scanner` |
-| [SonarQube Code Scanner Agent](skills/sonarqube-code-scanner-agent/) | Security Reviewed | 10.4k | — | `clawhub install sonarqube-code-scanner-agent` |
-| [SonarQube Gate Enforcer](skills/sonarqube-gate-enforcer/) | Security Reviewed | 10.4k | — | `clawhub install sonarqube-gate-enforcer` |
-| [SonarQube PR Gate](skills/sonarqube-pr-gate-skill/) | Security Reviewed | 10.4k | — | `clawhub install sonarqube-pr-gate-skill` |
-| [SonarQube Quality Gate Agent](skills/sonarqube-quality-gate-agent/) | Security Reviewed | 10.4k | — | `clawhub install sonarqube-quality-gate-agent` |
-| [SonarQube Quality Gate Checker](skills/sonarqube-quality-gate-checker/) | Security Reviewed | 10.4k | — | `clawhub install sonarqube-quality-gate-checker` |
-| [SonarQube Quality Gate Enforcer](skills/sonarqube-quality-gate-enforcer-14/) | Security Reviewed | 10.4k | — | `clawhub install sonarqube-quality-gate-enforcer-14` |
-| [SonarQube Quality Gate Explainer](skills/sonarqube-quality-gate-explainer/) | Verified Metadata | 10.4k | — | `clawhub install sonarqube-quality-gate-explainer` |
-| [SonarQube Quality Gate Monitor](skills/sonarqube-quality-gate-monitor-3/) | Security Reviewed | 10.4k | — | `clawhub install sonarqube-quality-gate-monitor-3` |
-| [SonarQube Rule Enforcement Agent](skills/sonarqube-rule-enforcement-agent/) | Security Reviewed | 10.4k | — | `clawhub install sonarqube-rule-enforcement-agent` |
-| [SonarQube Scanner Skill](skills/sonarqube-scanner-skill/) | Security Reviewed | 10.4k | — | `clawhub install sonarqube-scanner-skill` |
-| [CodeClimate Maintainability Tracker](skills/codeclimate-maintainability-tracker-7/) | Security Reviewed | 3.1k | 3.3M/wk | `clawhub install codeclimate-maintainability-tracker-7` |
-| [Codecov Coverage Report Analyzer](skills/codecov-coverage-report-analyzer/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install codecov-coverage-report-analyzer` |
-| [Great Expectations Data Validation Pipeline](skills/great-expectations-data-validation-pipeline/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install great-expectations-data-validation-pipeline` |
-| [ast-grep Structural Code Search and Rewrite](skills/ast-grep-structural-code-search-rewrite/) | Security Reviewed | — | — | `clawhub install ast-grep-structural-code-search-rewrite` |
-| [Codecov Coverage Diff Analyzer](skills/codecov-coverage-diff-analyzer-2/) | Security Reviewed | — | — | `clawhub install codecov-coverage-diff-analyzer-2` |
-| [Codecov Coverage Tracker](skills/codecov-coverage-tracker-skill/) | Security Reviewed | — | — | `clawhub install codecov-coverage-tracker-skill` |
-| [Codecov Coverage Tracker Agent](skills/codecov-coverage-tracker-agent/) | Security Reviewed | — | — | `clawhub install codecov-coverage-tracker-agent` |
-| [commitlint Conventional Commit Message Linter](skills/commitlint-conventional-commit-message-linter/) | Verified Metadata | — | — | `clawhub install commitlint-conventional-commit-message-linter` |
-| [Complexity Trend Tracker](skills/complexity-trend-tracker-agent/) | Security Reviewed | — | — | `clawhub install complexity-trend-tracker-agent` |
-| [Difftastic Structural Syntax-Aware Diff Tool](skills/difftastic-structural-syntax-diff/) | Verified Metadata | — | — | `clawhub install difftastic-structural-syntax-diff` |
-| [Prettier Config Harmonizer](skills/prettier-config-harmonizer-2/) | Security Reviewed | — | — | `clawhub install prettier-config-harmonizer-2` |
-| [Pylint Baseline Manager](skills/pylint-baseline-manager-wave48/) | Security Reviewed | — | — | `clawhub install pylint-baseline-manager-wave48` |
-| [Pylint Code Review Assistant](skills/pylint-code-review-assistant/) | Security Reviewed | — | — | `clawhub install pylint-code-review-assistant` |
-| [Python Type Coverage Analyzer](skills/python-type-coverage-analyzer/) | Security Reviewed | — | — | `clawhub install python-type-coverage-analyzer` |
-| [Ruff Linter and Formatter](skills/ruff-linter-formatter-agent/) | Security Reviewed | — | — | `clawhub install ruff-linter-formatter-agent` |
-| [Ruff Linter Configuration Architect](skills/ruff-linter-configuration-architect/) | Security Reviewed | — | — | `clawhub install ruff-linter-configuration-architect` |
-| [Ruff Python Linter Configurator](skills/ruff-python-linter-configurator/) | Security Reviewed | — | — | `clawhub install ruff-python-linter-configurator` |
-| [sqruff High-Performance SQL Linter and Formatter](skills/sqruff-sql-linter-formatter/) | Verified Metadata | — | — | `clawhub install sqruff-sql-linter-formatter` |
-| [tokei Code Statistics Counter](skills/tokei-code-statistics-counter/) | Verified Metadata | — | — | `clawhub install tokei-code-statistics-counter` |
-| [ty Ultra-Fast Python Type Checker and Language Server](skills/ty-python-type-checker/) | Verified Metadata | — | — | `clawhub install ty-python-type-checker` |
-| [typos Source Code Spell Checker](skills/typos-source-code-spell-checker/) | Verified Metadata | — | — | `clawhub install typos-source-code-spell-checker` |
-| [Vale Prose Linter for Technical Documentation](skills/vale-prose-linter-technical-docs/) | Verified Metadata | — | — | `clawhub install vale-prose-linter-technical-docs` |
+| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
+|---|---|---|---:|---:|
+| [Polaris Kubernetes Best Practices Validator](skills/polaris-kubernetes-best-practices-validator/) | Validate Kubernetes resource configurations against best practice policies using Fairwinds Polaris. Runs as a CLI… | Security Reviewed | 121.3k | — |
+| [Storybook Component Tester](skills/storybook-component-tester/) | Storybook Component Tester is built around Storybook component workshop. The underlying ecosystem is represented by… | Security Reviewed | 89.5k | 13M/wk |
+| [Playwright Test Recorder](skills/playwright-test-recorder/) | Playwright Test Recorder is built around Playwright browser automation framework. The underlying ecosystem is… | Security Reviewed | 84.9k | 39.8M/wk |
+| [Docker Build Cache Optimizer](skills/docker-build-cache-optimizer/) | Optimizes Docker build performance using BuildKit cache mount analysis, docker history layer inspection, and… | Security Reviewed | 71.6k | — |
+| [Git Bisect Automation Agent](skills/git-bisect-automation-agent/) | Automates git bisect workflows to find regression-introducing commits using custom test scripts and the git bisect… | Security Reviewed | 71.6k | — |
+| [ShellCheck Shell Script Static Analyzer](skills/shellcheck-shell-script-static-analyzer/) | Run static analysis on bash and shell scripts using ShellCheck to detect syntax errors, semantic pitfalls, and… | Security Reviewed | 71.6k | — |
+| [Codecov Coverage Analyzer](skills/codecov-coverage-analyzer/) | Analyzes test coverage using the Codecov API v2 and codecov-cli uploader. Fetches per-file coverage from… | Security Reviewed | 45.3k | 45.5M/wk |
+| [Jest Unit Test Scaffolder](skills/jest-unit-test-scaffolder/) | Jest Unit Test Scaffolder is built around Jest JavaScript test framework. The underlying ecosystem is represented by… | Security Reviewed | 45.3k | 45.5M/wk |
+| [ESLint Auto-Fix Agent](skills/eslint-auto-fix-agent/) | Automatically detect and fix JavaScript/TypeScript linting issues using ESLint v9 flat config and the ESLint Node.js… | Security Reviewed | 27.2k | 109M/wk |
+| [ESLint Auto-Fix Orchestrator](skills/eslint-autofix-orchestrator/) | Runs ESLint with auto-fix capabilities using the ESLint Node.js API and flat config system. Supports custom rule… | Security Reviewed | 27.2k | 109M/wk |
+| [ESLint Auto-Fix Pipeline](skills/eslint-autofix-pipeline/) | Runs ESLint with the --fix flag across JavaScript and TypeScript codebases, applying auto-fixable rules from… | Security Reviewed | 27.2k | 109M/wk |
+| [ESLint Auto-Fixer](skills/eslint-auto-fixer/) | Applies ESLint fixes automatically using the ESLint Node.js API with flat config support. Handles rule conflicts… | Security Reviewed | 27.2k | 109M/wk |
+| [ESLint Config Enforcer](skills/eslint-config-enforcer/) | Enforces consistent ESLint configurations across monorepo packages using eslint-config-inspector and flat config… | Security Reviewed | 27.2k | 109M/wk |
+| [ESLint Custom Rule Builder](skills/eslint-custom-rule-builder/) | Scaffolds and tests custom ESLint rules using the RuleTester API and AST Explorer patterns. Generates rule… | Security Reviewed | 27.2k | 109M/wk |
+| [ESLint Custom Rule Generator](skills/eslint-custom-rule-generator/) | Generates custom ESLint rules from natural language descriptions using the ESLint RuleTester API and AST Explorer… | Security Reviewed | 27.2k | 109M/wk |
+| [ESLint Rule Analyzer](skills/eslint-rule-analyzer/) | Analyzes ESLint configurations using the ESLint Node.js API (new ESLint().calculateConfigForFile) and flat config… | Security Reviewed | 27.2k | 109M/wk |
+| [ESLint Rule Analyzer and Fixer](skills/eslint-rule-analyzer-fixer/) | Performs deep ESLint configuration analysis using the ESLint Node.js API and flat config system. Auto-fixes rule… | Security Reviewed | 27.2k | 109M/wk |
+| [ESLint Rule Architect](skills/eslint-rule-architect-2/) | Creates custom ESLint rules and shareable configs using the ESLint RuleTester API and @typescript-eslint/utils.… | Security Reviewed | 27.2k | 109M/wk |
+| [ESLint Rule Auditor](skills/eslint-rule-auditor-3/) | Audits ESLint configurations using @eslint/eslintrc and @eslint/js flat config APIs. Detects conflicting rules,… | Security Reviewed | 27.2k | 109M/wk |
+| [ESLint Rule Composer](skills/eslint-rule-composer/) | Creates custom ESLint rules using the ESLint RuleTester API and AST Explorer patterns. Generates rule… | Security Reviewed | 27.2k | 109M/wk |
+| [ESLint Rule Configurator](skills/eslint-rule-configurator/) | Generates optimized ESLint flat config files using @eslint/js, typescript-eslint, and eslint-plugin-import. Provides… | Security Reviewed | 27.2k | 109M/wk |
+| [ESLint Rule Conflict Detector](skills/eslint-rule-conflict-detector-2/) | Analyzes .eslintrc configurations and extended rulesets using the ESLint Node.js API and eslint-config-inspector.… | Security Reviewed | 27.2k | 109M/wk |
+| [ESLint Rule Conflict Resolver](skills/eslint-rule-conflict-resolver/) | Detects and resolves conflicting ESLint rules across .eslintrc configurations using the ESLint Node.js API. Analyzes… | Security Reviewed | 27.2k | 109M/wk |
+| [ESLint Rule Enforcement Agent](skills/eslint-rule-enforcement-agent/) | Automates ESLint configuration and rule enforcement using the ESLint Node.js API and @typescript-eslint/parser.… | Security Reviewed | 27.2k | 109M/wk |
+| [ESLint Rule Enforcer](skills/eslint-rule-enforcer/) | Automates ESLint v9 flat config enforcement across monorepos using eslint-plugin-unicorn and… | Security Reviewed | 27.2k | 109M/wk |
+| [ESLint Rule Enforcer Agent](skills/eslint-rule-enforcer-agent/) | Runs ESLint with custom rulesets via the ESLint Node.js API and eslint-plugin-import to enforce project-specific… | Security Reviewed | 27.2k | 109M/wk |
+| [ESLint Rule Impact Analyzer](skills/eslint-rule-impact-analyzer-2/) | Measures the impact of enabling new ESLint rules across a codebase using the ESLint Node.js API and… | Security Reviewed | 27.2k | 109M/wk |
+| [ESLint Rule Violation Summarizer](skills/eslint-rule-violation-summarizer-2/) | Runs ESLint against a JS/TS codebase, groups violations by rule and file, and produces a prioritized fix plan.… | Security Reviewed | 27.2k | 109M/wk |
+| [Knip Unused Code and Dependency Finder](skills/knip-unused-code-dependency-finder/) | Run Knip to find and remove unused files, dependencies, and exports in JavaScript and TypeScript projects. Reduces… | Security Reviewed | 27.2k | 109M/wk |
+| [Oxlint High-Performance JavaScript Linter](skills/oxlint-high-performance-javascript-linter/) | Run Oxlint from the Oxc toolchain to lint JavaScript and TypeScript codebases at extreme speed. Written in Rust,… | Security Reviewed | 27.2k | 109M/wk |
+| [Prettier Config Conflict Resolver](skills/prettier-config-conflict-resolver/) | Detects and resolves conflicts between Prettier, ESLint, and EditorConfig formatting rules using the Prettier… | Security Reviewed | 27.2k | 109M/wk |
+| [Jenkins Pipeline Code Review Agent](skills/jenkins-pipeline-code-review-agent/) | Reviews Jenkinsfile and Groovy pipeline scripts for anti-patterns, security issues, and performance bottlenecks… | Security Reviewed | 25.1k | — |
+| [CodeClimate Diff Analyzer](skills/codeclimate-diff-analyzer-2/) | Runs CodeClimate analysis on pull request diffs using the CLI engine and reports new issues inline. Calculates… | Security Reviewed | 24.3k | — |
+| [PHPStan Static Analyzer Agent](skills/phpstan-static-analyzer-agent/) | Performs PHP static analysis using PHPStan CLI at rule levels 0-9 with custom extensions. Detects type errors, dead… | Security Reviewed | 21k | — |
+| [Prettier Format Enforcement Bot](skills/prettier-format-enforcement-bot/) | Enforces code formatting standards using the Prettier API (prettier.format(), prettier.check()) and… | Security Reviewed | 20.3k | 32M/wk |
+| [Pull Request Size Analyzer](skills/pull-request-size-analyzer-agent/) | Analyzes PR size and reviewability using the GitHub GraphQL API and git diff-stat. Enforces size limits, suggests PR… | Security Reviewed | 20.3k | 32M/wk |
+| [Semgrep Code Pattern Scanner](skills/semgrep-code-pattern-scanner-2/) | Runs Semgrep against a codebase using official or custom rule registries and outputs a grouped report of security… | Security Reviewed | 14.6k | — |
+| [Semgrep Code Scanner](skills/semgrep-code-scanner/) | Semgrep Code Scanner is built around Semgrep static analysis engine. The underlying ecosystem is represented by… | Security Reviewed | 14.6k | — |
+| [Semgrep Custom Pattern Builder](skills/semgrep-custom-pattern-builder/) | Builds custom Semgrep rules using the Semgrep pattern syntax and semgrep CLI. Generates YAML rule files with… | Security Reviewed | 14.6k | — |
+| [Semgrep Custom Pattern Generator](skills/semgrep-custom-pattern-generator/) | Generates Semgrep SAST rules from vulnerability descriptions using the Semgrep CLI and semgrep-rules YAML schema.… | Security Reviewed | 14.6k | — |
+| [Semgrep Custom Pattern Library](skills/semgrep-custom-pattern-library/) | Builds custom Semgrep rules using the semgrep YAML rule syntax with metavariable-pattern, pattern-either, and… | Security Reviewed | 14.6k | — |
+| [Semgrep Custom Rule Builder](skills/semgrep-custom-rule-builder-3/) | Creates custom Semgrep SAST rules using the semgrep CLI and rule schema YAML format. Supports pattern-either,… | Security Reviewed | 14.6k | — |
+| [Semgrep Pattern Matching Analyzer](skills/semgrep-pattern-matching-analyzer/) | Writes and deploys custom Semgrep rules using pattern, pattern-either, and metavariable-regex operators for… | Security Reviewed | 14.6k | — |
+| [Semgrep Pattern Matching Auditor](skills/semgrep-pattern-matching-auditor/) | Leverages the Semgrep OSS engine and semgrep-rules registry to perform deep static analysis across 30+ languages.… | Security Reviewed | 14.6k | — |
+| [Semgrep Pattern Scanner](skills/semgrep-pattern-scanner/) | Executes Semgrep CLI with custom YAML rules and the Semgrep Registry API to detect anti-patterns, vulnerabilities,… | Security Reviewed | 14.6k | — |
+| [Semgrep Rule Author](skills/semgrep-rule-author/) | Generates custom Semgrep rules from natural language descriptions of vulnerability patterns. Uses semgrep --validate… | Security Reviewed | 14.6k | — |
+| [Semgrep Rule Engine](skills/semgrep-rule-engine/) | Executes Semgrep static analysis using the semgrep CLI with custom YAML rule definitions. Supports taint tracking,… | Security Reviewed | 14.6k | — |
+| [Semgrep Rule Runner](skills/semgrep-rule-runner/) | Executes Semgrep static analysis using the semgrep CLI with custom YAML rule packs. Supports --config auto for… | Security Reviewed | 14.6k | — |
+| [Semgrep SAST Scanner](skills/semgrep-sast-scanner-skill/) | Runs Semgrep static analysis with custom rule packs targeting OWASP Top 10 patterns. Uses semgrep CLI with… | Security Reviewed | 14.6k | — |
+| [Semgrep Security Review Agent](skills/semgrep-security-review-agent/) | Performs SAST scanning using Semgrep CLI and Semgrep Registry rules. Detects OWASP Top 10 vulnerabilities, injection… | Security Reviewed | 14.6k | — |
+| [Semgrep Security Scanner](skills/semgrep-security-scanner-2/) | Scan codebases for security vulnerabilities and anti-patterns using Semgrep OSS rules and the Semgrep CLI. Supports… | Security Reviewed | 14.6k | — |
+| [Pytest Fixture Generator](skills/pytest-fixture-generator/) | Pytest Fixture Generator is built around pytest Python testing framework. The underlying ecosystem is represented by… | Security Reviewed | 13.7k | — |
+| [SQLFluff SQL Linter and Auto-Formatter](skills/sqlfluff-sql-linter-auto-formatter/) | Lint and auto-format SQL code across 30+ dialects using SQLFluff. Enforces consistent style, catches syntax issues,… | Security Reviewed | 12.5k | — |
+| [SonarQube Analysis Agent](skills/sonarqube-analysis-agent/) | Integrates with the SonarQube REST API to run static code analysis scans, retrieve quality gate results, and flag… | Security Reviewed | 10.4k | — |
+| [SonarQube Analysis Runner](skills/sonarqube-analysis-runner/) | Run SonarQube static analysis scans via the SonarQube Web API and sonar-scanner CLI. Detects code smells, bugs, and… | Security Reviewed | 10.4k | — |
+| [SonarQube Code Quality Scanner](skills/sonarqube-code-quality-scanner/) | Runs SonarQube static analysis via the SonarQube Web API and sonar-scanner CLI. Detects code smells, bugs, and… | Security Reviewed | 10.4k | — |
+| [SonarQube Code Scanner Agent](skills/sonarqube-code-scanner-agent/) | Automated code quality scanning using SonarQube REST API and SonarScanner CLI. Detects code smells, bugs, and… | Security Reviewed | 10.4k | — |
+| [SonarQube Gate Enforcer](skills/sonarqube-gate-enforcer/) | Enforces SonarQube quality gate conditions in CI pipelines using the SonarQube Web API… | Security Reviewed | 10.4k | — |
+| [SonarQube PR Gate](skills/sonarqube-pr-gate-skill/) | Integrates SonarQube quality gates into pull request workflows via the SonarQube Web API… | Security Reviewed | 10.4k | — |
+| [SonarQube Quality Gate Agent](skills/sonarqube-quality-gate-agent/) | Monitors SonarQube quality gate status via the SonarQube Web API and enforces code quality thresholds. Parses… | Security Reviewed | 10.4k | — |
+| [SonarQube Quality Gate Checker](skills/sonarqube-quality-gate-checker/) | Queries SonarQube Web API for project quality gate status, code coverage metrics, and technical debt analysis.… | Security Reviewed | 10.4k | — |
+| [SonarQube Quality Gate Enforcer](skills/sonarqube-quality-gate-enforcer-14/) | Enforces SonarQube quality gates in pull request workflows using the SonarQube Web API and ce/task endpoint. Blocks… | Security Reviewed | 10.4k | — |
+| [SonarQube Quality Gate Explainer](skills/sonarqube-quality-gate-explainer/) | Fetches the latest SonarQube project analysis result, explains why the Quality Gate failed in plain English, and… | Security Reviewed | 10.4k | — |
+| [SonarQube Quality Gate Monitor](skills/sonarqube-quality-gate-monitor-3/) | Monitors SonarQube project quality gates via the Web API and blocks CI deployments when thresholds fail. Tracks… | Security Reviewed | 10.4k | — |
+| [SonarQube Rule Enforcement Agent](skills/sonarqube-rule-enforcement-agent/) | Integrates with SonarQube Web API and sonar-scanner CLI to enforce code quality gates across pull requests.… | Security Reviewed | 10.4k | — |
+| [SonarQube Scanner Skill](skills/sonarqube-scanner-skill/) | Integrates SonarQube static analysis via the sonar-scanner CLI and SonarQube Web API. Fetches quality gate results… | Security Reviewed | 10.4k | — |
+| [CodeClimate Maintainability Tracker](skills/codeclimate-maintainability-tracker-7/) | Tracks Code Climate maintainability scores over time using the Code Climate v1 API. Identifies technical debt… | Security Reviewed | 3.1k | 3.3M/wk |
+| [Codecov Coverage Report Analyzer](skills/codecov-coverage-report-analyzer/) | Integrates with the Codecov API v2 and codecov-cli to upload coverage reports, analyze coverage deltas, and enforce… | Security Reviewed | 2.9k | 2.4M/wk |
+| [Great Expectations Data Validation Pipeline](skills/great-expectations-data-validation-pipeline/) | Validate data quality using the Great Expectations Python library. Define expectations as unit tests for your data,… | Security Reviewed | 69 | 210.8k/wk |
+| [ast-grep Structural Code Search and Rewrite](skills/ast-grep-structural-code-search-rewrite/) | Use ast-grep (sg) to search, lint, and rewrite code across large codebases using AST pattern matching. A… | Security Reviewed | — | — |
+| [Codecov Coverage Diff Analyzer](skills/codecov-coverage-diff-analyzer-2/) | Analyzes code coverage diffs on pull requests using the Codecov API v2 /repos/{owner}/{repo}/commits endpoint.… | Security Reviewed | — | — |
+| [Codecov Coverage Tracker](skills/codecov-coverage-tracker-skill/) | Monitors test coverage trends using the Codecov API v2 /repos/{owner}/{repo}/commits endpoint. Compares branch… | Security Reviewed | — | — |
+| [Codecov Coverage Tracker Agent](skills/codecov-coverage-tracker-agent/) | Tracks and enforces code coverage using Codecov API, lcov, and Istanbul/nyc. Generates coverage reports, detects… | Security Reviewed | — | — |
+| [commitlint Conventional Commit Message Linter](skills/commitlint-conventional-commit-message-linter/) | commitlint checks whether git commit messages meet the Conventional Commits specification, enforcing structured… | Security Reviewed | — | — |
+| [Complexity Trend Tracker](skills/complexity-trend-tracker-agent/) | Tracks cyclomatic and cognitive complexity trends using lizard CLI and radon for Python analysis. Generates weekly… | Security Reviewed | — | — |
+| [Difftastic Structural Syntax-Aware Diff Tool](skills/difftastic-structural-syntax-diff/) | Difftastic is a structural diff tool that compares files based on their syntax rather than line-by-line text.… | Security Reviewed | — | — |
+| [Prettier Config Harmonizer](skills/prettier-config-harmonizer-2/) | Resolves Prettier formatting conflicts across monorepo packages using the Prettier API and @prettier/plugin-xml.… | Security Reviewed | — | — |
+| [Pylint Baseline Manager](skills/pylint-baseline-manager-wave48/) | Manages Pylint baseline files for gradual code quality improvement using pylint --output-format=json and the… | Security Reviewed | — | — |
+| [Pylint Code Review Assistant](skills/pylint-code-review-assistant/) | Perform automated Python code reviews using Pylint programmatic API and pylint-json2html for report generation.… | Security Reviewed | — | — |
+| [Python Type Coverage Analyzer](skills/python-type-coverage-analyzer/) | Measures and improves Python type annotation coverage using mypy --html-report and pyright type completeness… | Security Reviewed | — | — |
+| [Ruff Linter and Formatter](skills/ruff-linter-formatter-agent/) | Ultra-fast Python linting and formatting using Ruff CLI with pyproject.toml configuration. Supports auto-fix, import… | Security Reviewed | — | — |
+| [Ruff Linter Configuration Architect](skills/ruff-linter-configuration-architect/) | Configures and optimizes Ruff Python linter settings using the ruff CLI and pyproject.toml schema. Migrates from… | Security Reviewed | — | — |
+| [Ruff Python Linter Configurator](skills/ruff-python-linter-configurator/) | Generates optimized Ruff configuration from existing Flake8, isort, and Black setups. Migrates pyproject.toml rules… | Security Reviewed | — | — |
+| [Spectral OpenAPI and AsyncAPI Linter](skills/spectral-openapi-asyncapi-linter/) | Spectral is an open-source JSON/YAML linter by Stoplight with built-in support for OpenAPI 3.x, Swagger 2.0,… | Published | — | — |
+| [sqruff High-Performance SQL Linter and Formatter](skills/sqruff-sql-linter-formatter/) | A fast SQL linter and formatter written in Rust by Quary Labs. sqruff provides advanced configurable linting and… | Security Reviewed | — | — |
+| [tokei Code Statistics Counter](skills/tokei-code-statistics-counter/) | Fast and accurate code statistics tool written in Rust. Counts lines of code, comments, and blanks across 200+… | Security Reviewed | — | — |
+| [ty Ultra-Fast Python Type Checker and Language Server](skills/ty-python-type-checker/) | ty is an extremely fast Python type checker and language server written in Rust by Astral, the creators of Ruff and… | Security Reviewed | — | — |
+| [typos Source Code Spell Checker](skills/typos-source-code-spell-checker/) | A blazing-fast source code spell checker written in Rust that finds and corrects typos across entire codebases.… | Security Reviewed | — | — |
+| [Vale Prose Linter for Technical Documentation](skills/vale-prose-linter-technical-docs/) | Vale is an open-source, markup-aware prose linter that enforces editorial style guides on technical documentation.… | Security Reviewed | — | — |
 
 
 ### 📊 Monitoring & Alerts (79 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=downloads)
 
-| Skill | Tier | GitHub Stars | npm Downloads | Install |
-|---|---|---:|---:|---|
-| [Kubernetes Event Stream Analyzer](skills/kubernetes-event-stream-analyzer/) | Security Reviewed | 121.3k | — | `clawhub install kubernetes-event-stream-analyzer` |
-| [Kubernetes Troubleshooting Runbook](skills/kubernetes-troubleshooting-runbook/) | Security Reviewed | 121.3k | — | `clawhub install kubernetes-troubleshooting-runbook` |
-| [OpenTelemetry Collector Pipeline Designer](skills/otel-collector-pipeline-designer/) | Security Reviewed | 121.3k | — | `clawhub install otel-collector-pipeline-designer` |
-| [OpenTelemetry Trace Aggregator](skills/opentelemetry-trace-aggregator/) | Security Reviewed | 121.3k | — | `clawhub install opentelemetry-trace-aggregator` |
-| [Elastic / Kibana MCP Server](skills/elastic-kibana-mcp-server/) | Security Reviewed | 76.4k | 1.9M/wk | `clawhub install elastic-kibana-mcp-server` |
-| [ElasticSearch Cluster Vitals Agent](skills/elasticsearch-cluster-vitals-agent/) | Security Reviewed | 76.4k | 1.9M/wk | `clawhub install elasticsearch-cluster-vitals-agent` |
-| [Grafana Alert Router](skills/grafana-alert-router/) | Security Reviewed | 72.8k | — | `clawhub install grafana-alert-router` |
-| [Grafana Dashboard as Code Builder](skills/grafana-dashboard-as-code-builder/) | Security Reviewed | 72.8k | — | `clawhub install grafana-dashboard-as-code-builder` |
-| [Grafana Dashboard as Code Generator](skills/grafana-dashboard-as-code-generator/) | Security Reviewed | 72.8k | — | `clawhub install grafana-dashboard-as-code-generator` |
-| [Grafana Dashboard Generator](skills/grafana-dashboard-generator-3/) | Security Reviewed | 72.8k | — | `clawhub install grafana-dashboard-generator-3` |
-| [Grafana Dashboard JSON Assembler](skills/grafana-dashboard-json-assembler/) | Security Reviewed | 72.8k | — | `clawhub install grafana-dashboard-json-assembler` |
-| [Grafana Dashboard JSON Migrator](skills/grafana-dashboard-json-migrator/) | Security Reviewed | 72.8k | — | `clawhub install grafana-dashboard-json-migrator` |
-| [Grafana Dashboard Scaffolder](skills/grafana-dashboard-scaffolder/) | Security Reviewed | 72.8k | — | `clawhub install grafana-dashboard-scaffolder` |
-| [Grafana Dashboard Snapshot Exporter](skills/grafana-dashboard-snapshot-exporter/) | Verified Metadata | 72.8k | — | `clawhub install grafana-dashboard-snapshot-exporter` |
-| [Grafana Dashboard Sync Agent](skills/grafana-dashboard-sync-agent/) | Security Reviewed | 72.8k | — | `clawhub install grafana-dashboard-sync-agent` |
-| [Grafana Dashboard Template Generator](skills/grafana-dashboard-template-generator/) | Security Reviewed | 72.8k | — | `clawhub install grafana-dashboard-template-generator` |
-| [Grafana Loki Log Aggregation Agent](skills/grafana-loki-log-aggregation-agent/) | Security Reviewed | 72.8k | — | `clawhub install grafana-loki-log-aggregation-agent` |
-| [Grafana Loki Log Query Agent](skills/grafana-loki-log-query-agent/) | Security Reviewed | 72.8k | — | `clawhub install grafana-loki-log-query-agent` |
-| [Grafana OnCall Escalation Chain Manager](skills/grafana-oncall-escalation-chain-manager/) | Security Reviewed | 72.8k | — | `clawhub install grafana-oncall-escalation-chain-manager` |
-| [Grafana Unified Alerting Manager](skills/grafana-unified-alerting-manager/) | Security Reviewed | 72.8k | — | `clawhub install grafana-unified-alerting-manager` |
-| [Prometheus / Grafana MCP Server](skills/prometheus-grafana-mcp-server/) | Security Reviewed | 72.8k | — | `clawhub install prometheus-grafana-mcp-server` |
-| [Prometheus Alert Router](skills/prometheus-alert-router/) | Security Reviewed | 63.3k | 5.3M/wk | `clawhub install prometheus-alert-router` |
-| [Prometheus Alert Rule Builder](skills/prometheus-alert-rule-builder/) | Security Reviewed | 63.3k | 5.3M/wk | `clawhub install prometheus-alert-rule-builder` |
-| [Prometheus Alert Rule Generator](skills/prometheus-alert-rule-generator-2/) | Security Reviewed | 63.3k | 5.3M/wk | `clawhub install prometheus-alert-rule-generator-2` |
-| [Prometheus Alert Rule Synthesizer](skills/prometheus-alert-rule-synthesizer/) | Security Reviewed | 63.3k | 5.3M/wk | `clawhub install prometheus-alert-rule-synthesizer` |
-| [Prometheus Alerting Rules](skills/prometheus-alerting-rules/) | Security Reviewed | 63.3k | 5.3M/wk | `clawhub install prometheus-alerting-rules` |
-| [Prometheus Alertmanager Bridge](skills/prometheus-alertmanager-bridge-2/) | Security Reviewed | 63.3k | 5.3M/wk | `clawhub install prometheus-alertmanager-bridge-2` |
-| [Prometheus AlertManager Bridge](skills/prometheus-alertmanager-bridge/) | Security Reviewed | 63.3k | 5.3M/wk | `clawhub install prometheus-alertmanager-bridge` |
-| [Prometheus AlertManager Configurator](skills/prometheus-alertmanager-configurator/) | Security Reviewed | 63.3k | 5.3M/wk | `clawhub install prometheus-alertmanager-configurator` |
-| [Prometheus AlertManager Router](skills/prometheus-alertmanager-router/) | Security Reviewed | 63.3k | 5.3M/wk | `clawhub install prometheus-alertmanager-router` |
-| [Prometheus Alertmanager Rule Auditor](skills/prometheus-alertmanager-rule-auditor/) | Security Reviewed | 63.3k | 5.3M/wk | `clawhub install prometheus-alertmanager-rule-auditor` |
-| [Prometheus AlertManager Rule Builder](skills/prometheus-alertmanager-rule-builder/) | Security Reviewed | 63.3k | 5.3M/wk | `clawhub install prometheus-alertmanager-rule-builder` |
-| [Prometheus AlertManager Rule Generator](skills/prometheus-alertmanager-rule-generator/) | Security Reviewed | 63.3k | 5.3M/wk | `clawhub install prometheus-alertmanager-rule-generator` |
-| [Prometheus AlertManager Rule Optimizer](skills/prometheus-alertmanager-rule-optimizer/) | Security Reviewed | 63.3k | 5.3M/wk | `clawhub install prometheus-alertmanager-rule-optimizer` |
-| [Prometheus AlertManager Rules Engine](skills/prometheus-alertmanager-rules-engine/) | Security Reviewed | 63.3k | 5.3M/wk | `clawhub install prometheus-alertmanager-rules-engine` |
-| [Prometheus Custom Exporter Builder](skills/prometheus-custom-exporter-builder/) | Security Reviewed | 63.3k | 5.3M/wk | `clawhub install prometheus-custom-exporter-builder` |
-| [Prometheus PromQL Alert Builder](skills/prometheus-promql-alert-builder/) | Security Reviewed | 63.3k | 5.3M/wk | `clawhub install prometheus-promql-alert-builder` |
-| [Prometheus Rule Evaluator](skills/prometheus-rule-evaluator/) | Security Reviewed | 63.3k | 5.3M/wk | `clawhub install prometheus-rule-evaluator` |
-| [Sentry Error Intelligence](skills/sentry-error-intelligence/) | Security Reviewed | 43.4k | 16.4M/wk | `clawhub install sentry-error-intelligence` |
-| [Sentry MCP Server](skills/sentry-mcp-server/) | Security Reviewed | 43.4k | 16.4M/wk | `clawhub install sentry-mcp-server` |
-| [Grafana Loki Log Correlation Agent](skills/grafana-loki-log-correlation-agent-2/) | Security Reviewed | 27.9k | — | `clawhub install grafana-loki-log-correlation-agent-2` |
-| [Loki Log Query Agent](skills/loki-log-query-agent/) | Security Reviewed | 27.9k | — | `clawhub install loki-log-query-agent` |
-| [Jaeger Trace Explorer](skills/jaeger-trace-explorer/) | Security Reviewed | 22.6k | — | `clawhub install jaeger-trace-explorer` |
-| [AWS CloudWatch Anomaly Detector](skills/aws-cloudwatch-anomaly-detector/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-cloudwatch-anomaly-detector` |
-| [AWS CloudWatch Composite Alarm Builder](skills/aws-cloudwatch-composite-alarm-builder/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-cloudwatch-composite-alarm-builder` |
-| [AWS CloudWatch Insights Agent](skills/aws-cloudwatch-insights-agent/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-cloudwatch-insights-agent` |
-| [AWS CloudWatch Insights Query Builder](skills/aws-cloudwatch-insights-query-builder/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-cloudwatch-insights-query-builder` |
-| [CloudWatch Anomaly Detector](skills/cloudwatch-anomaly-detector/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install cloudwatch-anomaly-detector` |
-| [CloudWatch Intelligent Alarms](skills/cloudwatch-intelligent-alarms/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install cloudwatch-intelligent-alarms` |
-| [CloudWatch Log Anomaly Detector](skills/cloudwatch-log-anomaly-detector/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install cloudwatch-log-anomaly-detector` |
-| [Uptime Kuma Status Sync](skills/uptime-kuma-status-sync/) | Security Reviewed | 3.1k | 3.3M/wk | `clawhub install uptime-kuma-status-sync` |
-| [New Relic NRQL Query Agent](skills/new-relic-nrql-query-agent/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install new-relic-nrql-query-agent` |
-| [New Relic SLO Compliance Monitor](skills/new-relic-slo-compliance-monitor/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install new-relic-slo-compliance-monitor` |
-| [Cloudflare Analytics Health Monitor](skills/cloudflare-analytics-health-monitor/) | Security Reviewed | 1.9k | 1M/wk | `clawhub install cloudflare-analytics-health-monitor` |
-| [Datadog Anomaly Alert Router](skills/datadog-anomaly-alert-router/) | Security Reviewed | 789 | 6M/wk | `clawhub install datadog-anomaly-alert-router` |
-| [Datadog Anomaly Detection Agent](skills/datadog-anomaly-detection-agent-2/) | Security Reviewed | 789 | 6M/wk | `clawhub install datadog-anomaly-detection-agent-2` |
-| [Datadog Anomaly Detector](skills/datadog-anomaly-detector/) | Security Reviewed | 789 | 6M/wk | `clawhub install datadog-anomaly-detector` |
-| [Datadog APM Anomaly Detector](skills/datadog-apm-anomaly-detector/) | Security Reviewed | 789 | 6M/wk | `clawhub install datadog-apm-anomaly-detector` |
-| [Datadog APM Trace Analyzer](skills/datadog-apm-trace-analyzer-2/) | Security Reviewed | 789 | 6M/wk | `clawhub install datadog-apm-trace-analyzer-2` |
-| [Datadog APM Trace Query Agent](skills/datadog-apm-trace-query-agent/) | Security Reviewed | 789 | 6M/wk | `clawhub install datadog-apm-trace-query-agent` |
-| [Datadog MCP Server](skills/datadog-mcp-server/) | Security Reviewed | 789 | 6M/wk | `clawhub install datadog-mcp-server` |
-| [Datadog Metric Exporter](skills/datadog-metric-exporter/) | Security Reviewed | 789 | 6M/wk | `clawhub install datadog-metric-exporter` |
-| [Datadog Monitor Blueprint Generator](skills/datadog-monitor-blueprint-generator/) | Security Reviewed | 789 | 6M/wk | `clawhub install datadog-monitor-blueprint-generator` |
-| [Datadog Monitor Configuration Agent](skills/datadog-monitor-configuration-agent-2/) | Security Reviewed | 789 | 6M/wk | `clawhub install datadog-monitor-configuration-agent-2` |
-| [Datadog Monitor Configuration Engine](skills/datadog-monitor-configuration-engine/) | Security Reviewed | 789 | 6M/wk | `clawhub install datadog-monitor-configuration-engine` |
-| [Datadog Monitor Configurator](skills/datadog-monitor-configurator-2/) | Security Reviewed | 789 | 6M/wk | `clawhub install datadog-monitor-configurator-2` |
-| [Datadog Monitor Sync](skills/datadog-monitor-sync/) | Security Reviewed | 789 | 6M/wk | `clawhub install datadog-monitor-sync` |
-| [Datadog Monitors Skill](skills/datadog-monitors-skill/) | Security Reviewed | 789 | 6M/wk | `clawhub install datadog-monitors-skill` |
-| [Datadog SLO Monitor](skills/datadog-slo-monitor/) | Security Reviewed | 789 | 6M/wk | `clawhub install datadog-slo-monitor` |
-| [Metrics Dashboard Builder](skills/metrics-dashboard-builder/) | Security Reviewed | 789 | 6M/wk | `clawhub install metrics-dashboard-builder` |
-| [StatsD Metrics Aggregation Pipeline](skills/statsd-metrics-aggregation-pipeline/) | Security Reviewed | 789 | 6M/wk | `clawhub install statsd-metrics-aggregation-pipeline` |
-| [PagerDuty Incident Escalator](skills/pagerduty-incident-escalator/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install pagerduty-incident-escalator` |
-| [PagerDuty Incident Orchestrator](skills/pagerduty-incident-orchestrator-2/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install pagerduty-incident-orchestrator-2` |
-| [PagerDuty Incident Runbook Linker](skills/pagerduty-incident-runbook-linker/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install pagerduty-incident-runbook-linker` |
-| [PagerDuty MCP Server](skills/pagerduty-mcp-server/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install pagerduty-mcp-server` |
-| [Uptime Robot Multi-Check Coordinator](skills/uptime-robot-multi-check-coordinator/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install uptime-robot-multi-check-coordinator` |
-| [OpsGenie MCP Server](skills/opsgenie-mcp-server/) | Security Reviewed | 24 | 9.1k/wk | `clawhub install opsgenie-mcp-server` |
-| [Grafana Alloy OpenTelemetry Collector Distribution](skills/grafana-alloy-opentelemetry-collector/) | Verified Metadata | — | — | `clawhub install grafana-alloy-opentelemetry-collector` |
-| [Sentry MCP Server for Error Tracking and Performance](skills/sentry-mcp-server-error-tracking-performance/) | Verified Metadata | — | — | `clawhub install sentry-mcp-server-error-tracking-performance` |
+| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
+|---|---|---|---:|---:|
+| [Kubernetes Event Stream Analyzer](skills/kubernetes-event-stream-analyzer/) | Watches Kubernetes event streams via the Watch API and correlates pod lifecycle events with resource metrics from… | Security Reviewed | 121.3k | — |
+| [Kubernetes Troubleshooting Runbook](skills/kubernetes-troubleshooting-runbook/) | Kubernetes Troubleshooting Runbook is built around Kubernetes orchestration platform. The underlying ecosystem is… | Security Reviewed | 121.3k | — |
+| [OpenTelemetry Collector Pipeline Designer](skills/otel-collector-pipeline-designer/) | Designs OpenTelemetry Collector pipeline configurations with receivers (otlp, prometheus, filelog), processors… | Security Reviewed | 121.3k | — |
+| [OpenTelemetry Trace Aggregator](skills/opentelemetry-trace-aggregator/) | Aggregates OpenTelemetry trace spans from Jaeger and Zipkin backends into unified flame graphs. Uses the OTLP gRPC… | Security Reviewed | 121.3k | — |
+| [Elastic / Kibana MCP Server](skills/elastic-kibana-mcp-server/) | Elastic / Kibana MCP Server is built around Elasticsearch search and analytics engine. The underlying ecosystem is… | Security Reviewed | 76.4k | 1.9M/wk |
+| [ElasticSearch Cluster Vitals Agent](skills/elasticsearch-cluster-vitals-agent/) | Polls Elasticsearch _cluster/health, _nodes/stats, and _cat/shards APIs to detect node drops, unassigned shards, and… | Security Reviewed | 76.4k | 1.9M/wk |
+| [Grafana Alert Router](skills/grafana-alert-router/) | Routes Grafana alerting webhook payloads to Slack, PagerDuty, and OpsGenie channels based on label matching rules.… | Security Reviewed | 72.8k | — |
+| [Grafana Dashboard as Code Builder](skills/grafana-dashboard-as-code-builder/) | Builds Grafana dashboards programmatically using grafonnet-lib (Jsonnet) and the Grafana HTTP API. Generates panel… | Security Reviewed | 72.8k | — |
+| [Grafana Dashboard as Code Generator](skills/grafana-dashboard-as-code-generator/) | Generates Grafana dashboards programmatically using Grafonnet (jsonnet), the Grafana HTTP API, and grafana-toolkit.… | Security Reviewed | 72.8k | — |
+| [Grafana Dashboard Generator](skills/grafana-dashboard-generator-3/) | Programmatically generates Grafana dashboards from service definitions using the Grafana HTTP API /api/dashboards/db… | Security Reviewed | 72.8k | — |
+| [Grafana Dashboard JSON Assembler](skills/grafana-dashboard-json-assembler/) | Assembles Grafana dashboard JSON models using panel types like timeseries, stat, table, and heatmap. Configures… | Security Reviewed | 72.8k | — |
+| [Grafana Dashboard JSON Migrator](skills/grafana-dashboard-json-migrator/) | Migrates Grafana dashboards between instances using the Grafana HTTP API. Transforms datasource UIDs, folder… | Security Reviewed | 72.8k | — |
+| [Grafana Dashboard Scaffolder](skills/grafana-dashboard-scaffolder/) | Generates Grafana dashboard JSON using the Grafana HTTP API /api/dashboards/db endpoint. Creates panels with… | Security Reviewed | 72.8k | — |
+| [Grafana Dashboard Snapshot Exporter](skills/grafana-dashboard-snapshot-exporter/) | Exports Grafana dashboards as shareable snapshots using the Grafana HTTP API /api/snapshots endpoint. Captures panel… | Security Reviewed | 72.8k | — |
+| [Grafana Dashboard Sync Agent](skills/grafana-dashboard-sync-agent/) | Synchronizes Grafana dashboards between instances using the Grafana HTTP API v5. Handles provisioning, folder… | Security Reviewed | 72.8k | — |
+| [Grafana Dashboard Template Generator](skills/grafana-dashboard-template-generator/) | Programmatically creates Grafana dashboard JSON models using the Grafana HTTP API and grafonnet-lib. Supports… | Security Reviewed | 72.8k | — |
+| [Grafana Loki Log Aggregation Agent](skills/grafana-loki-log-aggregation-agent/) | Configures Grafana Loki log pipelines with Promtail collectors and LogQL queries. Supports multi-tenant log routing,… | Security Reviewed | 72.8k | — |
+| [Grafana Loki Log Query Agent](skills/grafana-loki-log-query-agent/) | Queries Grafana Loki log aggregation system using LogQL via the Loki HTTP API. Filters log streams by labels, parses… | Security Reviewed | 72.8k | — |
+| [Grafana OnCall Escalation Chain Manager](skills/grafana-oncall-escalation-chain-manager/) | Configures Grafana OnCall escalation chains, notification policies, and on-call schedules via the Grafana OnCall… | Security Reviewed | 72.8k | — |
+| [Grafana Unified Alerting Manager](skills/grafana-unified-alerting-manager/) | Manages Grafana Unified Alerting rules, contact points, and notification policies via the Grafana HTTP API. Supports… | Security Reviewed | 72.8k | — |
+| [Prometheus / Grafana MCP Server](skills/prometheus-grafana-mcp-server/) | Prometheus / Grafana MCP Server is built around Grafana visualization and alerting platform. The underlying… | Security Reviewed | 72.8k | — |
+| [Prometheus Alert Router](skills/prometheus-alert-router/) | Routes and escalates Prometheus AlertManager notifications based on severity and label matchers. Integrates with… | Security Reviewed | 63.3k | 5.3M/wk |
+| [Prometheus Alert Rule Builder](skills/prometheus-alert-rule-builder/) | Creates and validates Prometheus alerting rules using PromQL expressions and the Prometheus HTTP API. Configures… | Security Reviewed | 63.3k | 5.3M/wk |
+| [Prometheus Alert Rule Generator](skills/prometheus-alert-rule-generator-2/) | Generates and validates Prometheus alerting rules from natural language descriptions using the Prometheus HTTP API… | Security Reviewed | 63.3k | 5.3M/wk |
+| [Prometheus Alert Rule Synthesizer](skills/prometheus-alert-rule-synthesizer/) | Uses the Prometheus HTTP API v1 and PromQL to auto-generate alerting rules from metric baselines. Integrates with… | Security Reviewed | 63.3k | 5.3M/wk |
+| [Prometheus Alerting Rules](skills/prometheus-alerting-rules/) | Prometheus Alerting Rules is built around Prometheus metrics and alerting system. The underlying ecosystem is… | Security Reviewed | 63.3k | 5.3M/wk |
+| [Prometheus Alertmanager Bridge](skills/prometheus-alertmanager-bridge-2/) | Bridges Prometheus Alertmanager notifications to Microsoft Teams, Discord, and Telegram using adaptive card… | Security Reviewed | 63.3k | 5.3M/wk |
+| [Prometheus AlertManager Bridge](skills/prometheus-alertmanager-bridge/) | Connects to Prometheus AlertManager API to query active alerts, silences, and alert groups. Parses PromQL alert… | Security Reviewed | 63.3k | 5.3M/wk |
+| [Prometheus AlertManager Configurator](skills/prometheus-alertmanager-configurator/) | Generates Prometheus AlertManager configurations with routing trees, inhibition rules, and receiver integrations for… | Security Reviewed | 63.3k | 5.3M/wk |
+| [Prometheus AlertManager Router](skills/prometheus-alertmanager-router/) | Configures and manages Prometheus AlertManager routing trees and silences via the AlertManager HTTP API. Supports… | Security Reviewed | 63.3k | 5.3M/wk |
+| [Prometheus Alertmanager Rule Auditor](skills/prometheus-alertmanager-rule-auditor/) | Validates Prometheus recording and alerting rules using promtool check rules, analyzes Alertmanager routing trees… | Security Reviewed | 63.3k | 5.3M/wk |
+| [Prometheus AlertManager Rule Builder](skills/prometheus-alertmanager-rule-builder/) | Generates Prometheus alerting rules and AlertManager routing configs using PromQL validation via the Prometheus HTTP… | Security Reviewed | 63.3k | 5.3M/wk |
+| [Prometheus AlertManager Rule Generator](skills/prometheus-alertmanager-rule-generator/) | Generates Prometheus alerting rules and AlertManager routing configs from natural language descriptions. Leverages… | Security Reviewed | 63.3k | 5.3M/wk |
+| [Prometheus AlertManager Rule Optimizer](skills/prometheus-alertmanager-rule-optimizer/) | Analyzes Prometheus alerting rules and AlertManager configuration to reduce alert fatigue. Uses PromQL query… | Security Reviewed | 63.3k | 5.3M/wk |
+| [Prometheus AlertManager Rules Engine](skills/prometheus-alertmanager-rules-engine/) | Generates and validates Prometheus alerting rules and AlertManager routing configurations using the Prometheus HTTP… | Security Reviewed | 63.3k | 5.3M/wk |
+| [Prometheus Custom Exporter Builder](skills/prometheus-custom-exporter-builder/) | Builds custom Prometheus exporters using the prometheus_client Python SDK and Go client_golang library. Exposes… | Security Reviewed | 63.3k | 5.3M/wk |
+| [Prometheus PromQL Alert Builder](skills/prometheus-promql-alert-builder/) | Constructs Prometheus alerting rules using PromQL expressions with proper label matchers, aggregation operators, and… | Security Reviewed | 63.3k | 5.3M/wk |
+| [Prometheus Rule Evaluator](skills/prometheus-rule-evaluator/) | Validates and tests Prometheus alerting rules against historical metrics data using the Prometheus HTTP API… | Security Reviewed | 63.3k | 5.3M/wk |
+| [Sentry Error Intelligence](skills/sentry-error-intelligence/) | Connects to the Sentry API v0 to analyze error trends, group similar stack traces using fingerprinting rules, and… | Security Reviewed | 43.4k | 16.4M/wk |
+| [Sentry MCP Server](skills/sentry-mcp-server/) | Sentry's official MCP server connects your error monitoring stack to any MCP client. Search issues, analyze stack… | Security Reviewed | 43.4k | 16.4M/wk |
+| [Grafana Loki Log Correlation Agent](skills/grafana-loki-log-correlation-agent-2/) | Queries Grafana Loki via the LogQL API to correlate log streams across services. Builds cross-service trace-to-log… | Security Reviewed | 27.9k | — |
+| [Loki Log Query Agent](skills/loki-log-query-agent/) | Loki Log Query Agent is built around Grafana Loki log aggregation system. The underlying ecosystem is represented by… | Security Reviewed | 27.9k | — |
+| [Jaeger Trace Explorer](skills/jaeger-trace-explorer/) | Jaeger Trace Explorer is built around Jaeger distributed tracing platform. The underlying ecosystem is represented… | Security Reviewed | 22.6k | — |
+| [AWS CloudWatch Anomaly Detector](skills/aws-cloudwatch-anomaly-detector/) | Uses AWS CloudWatch SDK (boto3) to configure anomaly detection bands on metrics via PutAnomalyDetector API.… | Security Reviewed | 3.6k | 9.2M/wk |
+| [AWS CloudWatch Composite Alarm Builder](skills/aws-cloudwatch-composite-alarm-builder/) | Creates and manages AWS CloudWatch composite alarms using the CloudWatch PutCompositeAlarm API. Builds alarm rule… | Security Reviewed | 3.6k | 9.2M/wk |
+| [AWS CloudWatch Insights Agent](skills/aws-cloudwatch-insights-agent/) | Runs CloudWatch Logs Insights queries via AWS SDK for JavaScript v3. Analyzes Lambda cold starts, API Gateway… | Security Reviewed | 3.6k | 9.2M/wk |
+| [AWS CloudWatch Insights Query Builder](skills/aws-cloudwatch-insights-query-builder/) | Builds CloudWatch Logs Insights queries and metric alarms using AWS SDK v3 (@aws-sdk/client-cloudwatch-logs,… | Security Reviewed | 3.6k | 9.2M/wk |
+| [CloudWatch Anomaly Detector](skills/cloudwatch-anomaly-detector/) | Creates and manages CloudWatch Anomaly Detection bands using AWS SDK PutAnomalyDetector and GetMetricData APIs.… | Security Reviewed | 3.6k | 9.2M/wk |
+| [CloudWatch Intelligent Alarms](skills/cloudwatch-intelligent-alarms/) | Uses AWS CloudWatch SDK (boto3) to create composite alarms with ML-powered anomaly detection bands. Integrates with… | Security Reviewed | 3.6k | 9.2M/wk |
+| [CloudWatch Log Anomaly Detector](skills/cloudwatch-log-anomaly-detector/) | Detects anomalous patterns in AWS CloudWatch Logs using CloudWatch Logs Insights queries and Anomaly Detection APIs.… | Security Reviewed | 3.6k | 9.2M/wk |
+| [Uptime Kuma Status Sync](skills/uptime-kuma-status-sync/) | Interfaces with the Uptime Kuma Socket.IO API to monitor service health checks. Syncs status page data to… | Security Reviewed | 3.1k | 3.3M/wk |
+| [New Relic NRQL Query Agent](skills/new-relic-nrql-query-agent/) | Executes NRQL queries against New Relic's GraphQL NerdGraph API for application performance monitoring. Generates… | Security Reviewed | 2.9k | 2.4M/wk |
+| [New Relic SLO Compliance Monitor](skills/new-relic-slo-compliance-monitor/) | Tracks SLO compliance using the New Relic NerdGraph GraphQL API and NRQL queries. Calculates error budgets, burn… | Security Reviewed | 2.9k | 2.4M/wk |
+| [Cloudflare Analytics Health Monitor](skills/cloudflare-analytics-health-monitor/) | Monitors Cloudflare zone analytics via the Cloudflare API v4 GraphQL Analytics endpoint, tracking request rates,… | Security Reviewed | 1.9k | 1M/wk |
+| [Datadog Anomaly Alert Router](skills/datadog-anomaly-alert-router/) | Routes Datadog anomaly detection alerts to appropriate response channels using the Datadog Events API v2 and… | Security Reviewed | 789 | 6M/wk |
+| [Datadog Anomaly Detection Agent](skills/datadog-anomaly-detection-agent-2/) | Monitors Datadog metric streams using the Datadog API v2 and applies ML-based anomaly detection to alert on… | Security Reviewed | 789 | 6M/wk |
+| [Datadog Anomaly Detector](skills/datadog-anomaly-detector/) | Leverages the Datadog API v2 metrics and events endpoints to detect anomalous patterns. Uses the Datadog Monitors… | Security Reviewed | 789 | 6M/wk |
+| [Datadog APM Anomaly Detector](skills/datadog-apm-anomaly-detector/) | Detects performance anomalies in Datadog APM traces using the Datadog API v2 metrics endpoint. Applies DBSCAN… | Security Reviewed | 789 | 6M/wk |
+| [Datadog APM Trace Analyzer](skills/datadog-apm-trace-analyzer-2/) | Queries Datadog APM trace data via the Datadog Tracing API v2 to identify latency bottlenecks and error hotspots.… | Security Reviewed | 789 | 6M/wk |
+| [Datadog APM Trace Query Agent](skills/datadog-apm-trace-query-agent/) | Queries distributed traces from Datadog APM using the Trace Search API with faceted filtering. Analyzes p99 latency… | Security Reviewed | 789 | 6M/wk |
+| [Datadog MCP Server](skills/datadog-mcp-server/) | Datadog MCP Server is built around Datadog observability platform. The underlying ecosystem is represented by… | Security Reviewed | 789 | 6M/wk |
+| [Datadog Metric Exporter](skills/datadog-metric-exporter/) | Exports custom metrics and traces to Datadog using the DogStatsD protocol and Datadog API v2. Supports histogram… | Security Reviewed | 789 | 6M/wk |
+| [Datadog Monitor Blueprint Generator](skills/datadog-monitor-blueprint-generator/) | Creates Datadog monitor definitions using the Datadog API v2 with metric, log, APM trace, and composite monitor… | Security Reviewed | 789 | 6M/wk |
+| [Datadog Monitor Configuration Agent](skills/datadog-monitor-configuration-agent-2/) | Creates and manages Datadog monitors using the datadog-api-client SDK. Configures metric, log, APM trace, and… | Security Reviewed | 789 | 6M/wk |
+| [Datadog Monitor Configuration Engine](skills/datadog-monitor-configuration-engine/) | Interfaces with the Datadog API v2 monitors and dashboards endpoints to programmatically create and manage monitors.… | Security Reviewed | 789 | 6M/wk |
+| [Datadog Monitor Configurator](skills/datadog-monitor-configurator-2/) | Manages Datadog monitors and dashboards via the Datadog REST API v2. Creates metric, log, and APM monitors with… | Security Reviewed | 789 | 6M/wk |
+| [Datadog Monitor Sync](skills/datadog-monitor-sync/) | Synchronizes Datadog monitor definitions between environments using the Datadog API v2 monitors endpoint. Supports… | Security Reviewed | 789 | 6M/wk |
+| [Datadog Monitors Skill](skills/datadog-monitors-skill/) | Manages Datadog monitors and dashboards via the Datadog API v2. Lists triggered monitors, mutes/unmutes alert… | Security Reviewed | 789 | 6M/wk |
+| [Datadog SLO Monitor](skills/datadog-slo-monitor/) | Monitors Datadog Service Level Objectives and burn rate alerts via the Datadog API v2. Generates SLO compliance… | Security Reviewed | 789 | 6M/wk |
+| [Metrics Dashboard Builder](skills/metrics-dashboard-builder/) | Metrics Dashboard Builder is built around Datadog observability platform. The underlying ecosystem is represented by… | Security Reviewed | 789 | 6M/wk |
+| [StatsD Metrics Aggregation Pipeline](skills/statsd-metrics-aggregation-pipeline/) | Configures StatsD metric collection with custom aggregation rules and flush intervals. Routes metrics to Graphite… | Security Reviewed | 789 | 6M/wk |
+| [PagerDuty Incident Escalator](skills/pagerduty-incident-escalator/) | Manages PagerDuty incident lifecycle using the PagerDuty REST API v2 /incidents endpoint. Automates escalation… | Security Reviewed | 69 | 210.8k/wk |
+| [PagerDuty Incident Orchestrator](skills/pagerduty-incident-orchestrator-2/) | Manages PagerDuty incident lifecycle using the PagerDuty Events API v2 and REST API. Automates escalation policies,… | Security Reviewed | 69 | 210.8k/wk |
+| [PagerDuty Incident Runbook Linker](skills/pagerduty-incident-runbook-linker/) | Automatically links PagerDuty incidents to relevant runbooks using the PagerDuty Events API v2 and service… | Security Reviewed | 69 | 210.8k/wk |
+| [PagerDuty MCP Server](skills/pagerduty-mcp-server/) | PagerDuty MCP Server is built around PagerDuty incident response platform. The underlying ecosystem is represented… | Security Reviewed | 69 | 210.8k/wk |
+| [Uptime Robot Multi-Check Coordinator](skills/uptime-robot-multi-check-coordinator/) | Manages bulk uptime monitoring via the Uptime Robot API v2. Creates HTTP, keyword, and port monitors with alert… | Security Reviewed | 69 | 210.8k/wk |
+| [OpsGenie MCP Server](skills/opsgenie-mcp-server/) | OpsGenie MCP Server is built around Opsgenie incident and on-call platform. The underlying ecosystem is represented… | Security Reviewed | 24 | 9.1k/wk |
+| [Grafana Alloy OpenTelemetry Collector Distribution](skills/grafana-alloy-opentelemetry-collector/) | Grafana Alloy is an open-source OpenTelemetry Collector distribution with programmable pipelines for metrics, logs,… | Security Reviewed | — | — |
+| [Sentry MCP Server for Error Tracking and Performance](skills/sentry-mcp-server-error-tracking-performance/) | The official Sentry MCP server gives AI agents access to Sentry error tracking, issue management, and performance… | Security Reviewed | — | — |
 
 
 ### 📄 Templates & Workflows (61 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
-| Skill | Tier | GitHub Stars | npm Downloads | Install |
-|---|---|---:|---:|---|
-| [Plop.js Code Generator](skills/plopjs-code-generator/) | Security Reviewed | 244.2k | 104.8M/wk | `clawhub install plopjs-code-generator` |
-| [Argo Workflows DAG Pipeline Builder](skills/argo-workflows-dag-pipeline-builder/) | Security Reviewed | 121.3k | — | `clawhub install argo-workflows-dag-pipeline-builder` |
-| [DigitalOcean Droplet Manager](skills/digitalocean-droplet-manager/) | Security Reviewed | 121.3k | — | `clawhub install digitalocean-droplet-manager` |
-| [Jinja2 Infrastructure Template Engine](skills/jinja2-infrastructure-template-engine/) | Security Reviewed | 121.3k | — | `clawhub install jinja2-infrastructure-template-engine` |
-| [Nx Workspace Generator Toolkit](skills/nx-workspace-generator-toolkit/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install nx-workspace-generator-toolkit` |
-| [Twitter/X Trend Monitor &amp; Thread Publisher](skills/twitter-x-trend-monitor-thread-publisher/) | Security Reviewed | 73.5k | 8.2M/wk | `clawhub install twitter-x-trend-monitor-thread-publisher` |
-| [Cookiecutter Project Scaffold Generator](skills/cookiecutter-project-scaffold-generator/) | Security Reviewed | 71.6k | — | `clawhub install cookiecutter-project-scaffold-generator` |
-| [Cookiecutter Project Scaffolding Agent](skills/cookiecutter-project-scaffolding-agent/) | Security Reviewed | 71.6k | — | `clawhub install cookiecutter-project-scaffolding-agent` |
-| [Docker Compose Service Blueprint Creator](skills/docker-compose-service-blueprint-creator/) | Security Reviewed | 71.6k | — | `clawhub install docker-compose-service-blueprint-creator` |
-| [Docker Compose Test Harness](skills/docker-compose-test-harness/) | Security Reviewed | 71.6k | — | `clawhub install docker-compose-test-harness` |
-| [Makefile Workflow Generator](skills/makefile-workflow-generator/) | Security Reviewed | 71.6k | — | `clawhub install makefile-workflow-generator` |
-| [Packer Image Builder](skills/packer-image-builder/) | Security Reviewed | 71.6k | — | `clawhub install packer-image-builder` |
-| [Ansible Playbook Template Library](skills/ansible-playbook-template-library/) | Security Reviewed | 68.4k | 9.2M/wk | `clawhub install ansible-playbook-template-library` |
-| [Ansible Playbook Linter](skills/ansible-playbook-linter-2/) | Security Reviewed | 68.4k | — | `clawhub install ansible-playbook-linter-2` |
-| [Ansible Playbook Runner](skills/ansible-playbook-runner/) | Security Reviewed | 68.4k | — | `clawhub install ansible-playbook-runner` |
-| [Ansible Playbook Template Generator](skills/ansible-playbook-template-generator/) | Security Reviewed | 68.4k | — | `clawhub install ansible-playbook-template-generator` |
-| [Terraform Module Registry](skills/terraform-module-registry/) | Security Reviewed | 48k | — | `clawhub install terraform-module-registry` |
-| [Terraform Module Registry Browser](skills/terraform-module-registry-browser/) | Security Reviewed | 48k | — | `clawhub install terraform-module-registry-browser` |
-| [Terraform Module Scaffold Generator](skills/terraform-module-scaffold-generator/) | Security Reviewed | 48k | — | `clawhub install terraform-module-scaffold-generator` |
-| [Terraform Module Template Engine](skills/terraform-module-template-engine/) | Security Reviewed | 48k | — | `clawhub install terraform-module-template-engine` |
-| [Terraform Module Template Generator](skills/terraform-module-template-generator/) | Security Reviewed | 48k | — | `clawhub install terraform-module-template-generator` |
-| [Terraform Module Testing Framework](skills/terraform-module-testing-framework/) | Security Reviewed | 48k | — | `clawhub install terraform-module-testing-framework` |
-| [Helm Chart Boilerplate Builder](skills/helm-chart-boilerplate-builder/) | Security Reviewed | 29.6k | — | `clawhub install helm-chart-boilerplate-builder` |
-| [Helm Chart Template Scaffolder](skills/helm-chart-template-scaffolder/) | Security Reviewed | 29.6k | — | `clawhub install helm-chart-template-scaffolder` |
-| [Helm Chart Templater](skills/helm-chart-templater/) | Security Reviewed | 29.6k | — | `clawhub install helm-chart-templater` |
-| [Kubernetes Helm Chart Scaffold Builder](skills/kubernetes-helm-chart-scaffold-builder/) | Security Reviewed | 29.6k | — | `clawhub install kubernetes-helm-chart-scaffold-builder` |
-| [Swagger Codegen Orchestrator](skills/swagger-codegen-orchestrator/) | Security Reviewed | 28.7k | 3.2M/wk | `clawhub install swagger-codegen-orchestrator` |
-| [Yeoman Enterprise Generator Suite](skills/yeoman-enterprise-generator-suite/) | Security Reviewed | 27.2k | 109M/wk | `clawhub install yeoman-enterprise-generator-suite` |
-| [Pulumi Infrastructure Stack Templater](skills/pulumi-infrastructure-stack-templater/) | Security Reviewed | 24.9k | 1.5M/wk | `clawhub install pulumi-infrastructure-stack-templater` |
-| [Backstage Software Catalog Sync](skills/backstage-software-catalog-sync/) | Security Reviewed | 24.3k | — | `clawhub install backstage-software-catalog-sync` |
-| [Cookiecutter Project Bootstrap](skills/cookiecutter-project-bootstrap/) | Security Reviewed | 24.3k | — | `clawhub install cookiecutter-project-bootstrap` |
-| [Cookiecutter Project Builder](skills/cookiecutter-project-builder/) | Security Reviewed | 24.3k | — | `clawhub install cookiecutter-project-builder` |
-| [Fly.io Deployment Helper](skills/fly-io-deployment-helper/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install fly-io-deployment-helper` |
-| [Railway App Deployer](skills/railway-app-deployer/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install railway-app-deployer` |
-| [Vercel Deployment Agent](skills/vercel-deployment-agent/) | Security Reviewed | 15.1k | 2.1M/wk | `clawhub install vercel-deployment-agent` |
-| [Semgrep Custom Rule Runner](skills/semgrep-custom-rule-runner-2/) | Security Reviewed | 14.6k | — | `clawhub install semgrep-custom-rule-runner-2` |
-| [SonarQube Gate Checker](skills/sonarqube-gate-checker-2/) | Verified Metadata | 10.4k | — | `clawhub install sonarqube-gate-checker-2` |
-| [Incident Response Template Generator](skills/incident-response-template-generator/) | Security Reviewed | 5.6k | 1.1M/wk | `clawhub install incident-response-template-generator` |
-| [Notion to PDF Knowledge Exporter](skills/notion-to-pdf-knowledge-exporter/) | Security Reviewed | 5.6k | 1.1M/wk | `clawhub install notion-to-pdf-knowledge-exporter` |
-| [Bubble.io Stripe Subscription Portal Builder](skills/bubble-stripe-subscription-portal/) | Security Reviewed | 4.4k | 8.4M/wk | `clawhub install bubble-stripe-subscription-portal` |
-| [AWS CDK Scaffolder](skills/aws-cdk-scaffolder/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-cdk-scaffolder` |
-| [Cron Job Manager](skills/cron-job-manager/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install cron-job-manager` |
-| [Cloudflare Workers Deployer](skills/cloudflare-workers-deployer/) | Security Reviewed | 1.9k | 1M/wk | `clawhub install cloudflare-workers-deployer` |
-| [Netlify Site Manager](skills/netlify-site-manager/) | Security Reviewed | 1.8k | 383.7k/wk | `clawhub install netlify-site-manager` |
-| [Backstage Software Template Composer](skills/backstage-software-template-composer/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install backstage-software-template-composer` |
-| [Argo Workflows DAG Optimizer](skills/argo-workflows-dag-optimizer/) | Security Reviewed | — | — | `clawhub install argo-workflows-dag-optimizer` |
-| [Cookiecutter Project Bootstrapper](skills/cookiecutter-project-bootstrapper/) | Security Reviewed | — | — | `clawhub install cookiecutter-project-bootstrapper` |
-| [Cookiecutter Project Scaffold](skills/cookiecutter-project-scaffold/) | Security Reviewed | — | — | `clawhub install cookiecutter-project-scaffold` |
-| [Cookiecutter Project Scaffolder](skills/cookiecutter-project-scaffolder-3/) | Security Reviewed | — | — | `clawhub install cookiecutter-project-scaffolder-3` |
-| [Cookiecutter Project Template Engine](skills/cookiecutter-project-template-engine/) | Security Reviewed | — | — | `clawhub install cookiecutter-project-template-engine` |
-| [Cookiecutter Template Generator](skills/cookiecutter-template-generator/) | Security Reviewed | — | — | `clawhub install cookiecutter-template-generator` |
-| [GitHub Actions Workflow Composer](skills/github-actions-workflow-composer-2/) | Security Reviewed | — | — | `clawhub install github-actions-workflow-composer-2` |
-| [Jinja2 Template Engine](skills/jinja2-template-engine-agent/) | Security Reviewed | — | — | `clawhub install jinja2-template-engine-agent` |
-| [Makedown Task Runner](skills/makedown-task-runner/) | Security Reviewed | — | — | `clawhub install makedown-task-runner` |
-| [Mustache Template Renderer](skills/mustache-template-renderer-agent/) | Security Reviewed | — | — | `clawhub install mustache-template-renderer-agent` |
-| [Nx Monorepo Workflow Orchestrator](skills/nx-monorepo-workflow-orchestrator/) | Security Reviewed | — | — | `clawhub install nx-monorepo-workflow-orchestrator` |
-| [Nx Workspace Generator](skills/nx-workspace-generator/) | Security Reviewed | — | — | `clawhub install nx-workspace-generator` |
-| [Self-Improvement / Learnings Capture](skills/self-improvement-learnings-capture/) | Security Reviewed | — | — | `clawhub install self-improvement-learnings-capture` |
-| [Yeoman Generator Builder](skills/yeoman-generator-builder/) | Security Reviewed | — | — | `clawhub install yeoman-generator-builder` |
-| [Yeoman Scaffold Runner](skills/yeoman-scaffold-runner/) | Security Reviewed | — | — | `clawhub install yeoman-scaffold-runner` |
-| [Yeoman Workflow Orchestrator](skills/yeoman-workflow-orchestrator/) | Security Reviewed | — | — | `clawhub install yeoman-workflow-orchestrator` |
+| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
+|---|---|---|---:|---:|
+| [Plop.js Code Generator](skills/plopjs-code-generator/) | Creates Plop.js generators with Handlebars templates and custom action types for scaffolding React components, API… | Security Reviewed | 244.2k | 104.8M/wk |
+| [Argo Workflows DAG Pipeline Builder](skills/argo-workflows-dag-pipeline-builder/) | Constructs Kubernetes-native workflow DAGs using Argo Workflows CRDs with configurable retry strategies, artifact… | Security Reviewed | 121.3k | — |
+| [DigitalOcean Droplet Manager](skills/digitalocean-droplet-manager/) | DigitalOcean Droplet Manager is built around Kubernetes orchestration platform. The underlying ecosystem is… | Security Reviewed | 121.3k | — |
+| [Jinja2 Infrastructure Template Engine](skills/jinja2-infrastructure-template-engine/) | Generates infrastructure-as-code configurations from Jinja2 templates with variable inheritance. Produces Terraform… | Security Reviewed | 121.3k | — |
+| [Nx Workspace Generator Toolkit](skills/nx-workspace-generator-toolkit/) | Creates and manages custom Nx workspace generators using @nrwl/devkit with TypeTree file generation and schema.json… | Security Reviewed | 84.9k | 39.8M/wk |
+| [Twitter/X Trend Monitor &amp; Thread Publisher](skills/twitter-x-trend-monitor-thread-publisher/) | Polls the X API v2 trending topics endpoint every 15 minutes and compares against a keyword watchlist stored in… | Security Reviewed | 73.5k | 8.2M/wk |
+| [Cookiecutter Project Scaffold Generator](skills/cookiecutter-project-scaffold-generator/) | Generates project scaffolds from Cookiecutter templates with Jinja2 variable interpolation. Supports post-generation… | Security Reviewed | 71.6k | — |
+| [Cookiecutter Project Scaffolding Agent](skills/cookiecutter-project-scaffolding-agent/) | Generates project boilerplate from Cookiecutter templates with interactive variable prompts. Supports custom Jinja2… | Security Reviewed | 71.6k | — |
+| [Docker Compose Service Blueprint Creator](skills/docker-compose-service-blueprint-creator/) | Creates Docker Compose YAML service definitions using the Compose Specification. Configures multi-service stacks… | Security Reviewed | 71.6k | — |
+| [Docker Compose Test Harness](skills/docker-compose-test-harness/) | Scaffolds integration test environments using Docker Compose v2 CLI, testcontainers-python library, and the… | Security Reviewed | 71.6k | — |
+| [Makefile Workflow Generator](skills/makefile-workflow-generator/) | Generates project Makefiles with standard targets using GNU Make syntax, autodeps pattern rules, and integration… | Security Reviewed | 71.6k | — |
+| [Packer Image Builder](skills/packer-image-builder/) | Packer Image Builder is built around Docker container platform. The underlying ecosystem is represented by moby/moby… | Security Reviewed | 71.6k | — |
+| [Ansible Playbook Template Library](skills/ansible-playbook-template-library/) | Generates and validates Ansible playbooks from infrastructure requirements. Uses ansible-lint for validation and… | Security Reviewed | 68.4k | 9.2M/wk |
+| [Ansible Playbook Linter](skills/ansible-playbook-linter-2/) | Validates Ansible playbooks and roles using ansible-lint and yamllint APIs. Enforces best practices for idempotency,… | Security Reviewed | 68.4k | — |
+| [Ansible Playbook Runner](skills/ansible-playbook-runner/) | Ansible Playbook Runner is built around Ansible automation engine. The underlying ecosystem is represented by… | Security Reviewed | 68.4k | — |
+| [Ansible Playbook Template Generator](skills/ansible-playbook-template-generator/) | Generates Ansible playbook YAML with proper module usage, handler chains, and role structures using ansible-core… | Security Reviewed | 68.4k | — |
+| [Terraform Module Registry](skills/terraform-module-registry/) | Terraform Module Registry is built around Terraform infrastructure as code. The underlying ecosystem is represented… | Security Reviewed | 48k | — |
+| [Terraform Module Registry Browser](skills/terraform-module-registry-browser/) | Searches and evaluates Terraform modules from the HashiCorp Registry API and private registries. Uses hcl2json… | Security Reviewed | 48k | — |
+| [Terraform Module Scaffold Generator](skills/terraform-module-scaffold-generator/) | Generates production-ready Terraform module scaffolds with variables.tf, outputs.tf, and provider blocks using the… | Security Reviewed | 48k | — |
+| [Terraform Module Template Engine](skills/terraform-module-template-engine/) | Scaffolds production-ready Terraform modules using HCL templates with automated variable documentation via… | Security Reviewed | 48k | — |
+| [Terraform Module Template Generator](skills/terraform-module-template-generator/) | Scaffolds production-ready Terraform modules with HCL templates, variable definitions, and output blocks. Uses the… | Security Reviewed | 48k | — |
+| [Terraform Module Testing Framework](skills/terraform-module-testing-framework/) | Tests Terraform modules using Terratest Go library and terraform test native framework. Validates plan output,… | Security Reviewed | 48k | — |
+| [Helm Chart Boilerplate Builder](skills/helm-chart-boilerplate-builder/) | Scaffolds Kubernetes Helm charts with values.yaml templating, ingress configuration, and HPA definitions. Uses… | Security Reviewed | 29.6k | — |
+| [Helm Chart Template Scaffolder](skills/helm-chart-template-scaffolder/) | Scaffolds Helm 3 chart templates with Go templating best practices. Uses helm-unittest for test generation and… | Security Reviewed | 29.6k | — |
+| [Helm Chart Templater](skills/helm-chart-templater/) | Generates and validates Kubernetes Helm charts using helm template and helm lint APIs. Supports values schema… | Security Reviewed | 29.6k | — |
+| [Kubernetes Helm Chart Scaffold Builder](skills/kubernetes-helm-chart-scaffold-builder/) | Generates Helm v3 chart scaffolds with templated deployments, services, ingress rules, and values.yaml schemas.… | Security Reviewed | 29.6k | — |
+| [Swagger Codegen Orchestrator](skills/swagger-codegen-orchestrator/) | Orchestrates OpenAPI 3.x code generation using swagger-codegen-cli and openapi-generator. Produces typed client SDKs… | Security Reviewed | 28.7k | 3.2M/wk |
+| [Yeoman Enterprise Generator Suite](skills/yeoman-enterprise-generator-suite/) | Manages Yeoman generators for enterprise application scaffolding with custom sub-generators. Handles Angular module… | Security Reviewed | 27.2k | 109M/wk |
+| [Pulumi Infrastructure Stack Templater](skills/pulumi-infrastructure-stack-templater/) | Generates Pulumi infrastructure-as-code stacks in TypeScript and Python using @pulumi/aws, @pulumi/azure-native, and… | Security Reviewed | 24.9k | 1.5M/wk |
+| [Backstage Software Catalog Sync](skills/backstage-software-catalog-sync/) | Synchronizes service metadata into Spotify Backstage catalog using catalog-info.yaml generation and the Backstage… | Security Reviewed | 24.3k | — |
+| [Cookiecutter Project Bootstrap](skills/cookiecutter-project-bootstrap/) | Bootstraps new projects from Cookiecutter templates with variable substitution and post-generation hooks. Supports… | Security Reviewed | 24.3k | — |
+| [Cookiecutter Project Builder](skills/cookiecutter-project-builder/) | Creates project scaffolds from Cookiecutter templates with interactive variable resolution. Integrates with cruft… | Security Reviewed | 24.3k | — |
+| [Fly.io Deployment Helper](skills/fly-io-deployment-helper/) | Fly.io Deployment Helper is built around GraphQL API ecosystem. The underlying ecosystem is represented by… | Security Reviewed | 20.3k | 32M/wk |
+| [Railway App Deployer](skills/railway-app-deployer/) | Railway App Deployer is built around GraphQL API ecosystem. The underlying ecosystem is represented by… | Security Reviewed | 20.3k | 32M/wk |
+| [Vercel Deployment Agent](skills/vercel-deployment-agent/) | Vercel Deployment Agent is built around Vercel deployment platform. The underlying ecosystem is represented by… | Security Reviewed | 15.1k | 2.1M/wk |
+| [Semgrep Custom Rule Runner](skills/semgrep-custom-rule-runner-2/) | Executes Semgrep OSS with custom YAML rule files for project-specific static analysis patterns. Supports semgrep… | Security Reviewed | 14.6k | — |
+| [SonarQube Gate Checker](skills/sonarqube-gate-checker-2/) | Queries the SonarQube Web API (/api/qualitygates/project_status) to evaluate quality gate conditions before merge.… | Security Reviewed | 10.4k | — |
+| [Incident Response Template Generator](skills/incident-response-template-generator/) | Creates structured incident response templates using the PagerDuty Events API v2, Jira REST API for ticket creation,… | Security Reviewed | 5.6k | 1.1M/wk |
+| [Notion to PDF Knowledge Exporter](skills/notion-to-pdf-knowledge-exporter/) | Queries Notion databases and pages via the Notion API v1, then renders content blocks into PDF via WeasyPrint.… | Security Reviewed | 5.6k | 1.1M/wk |
+| [Bubble.io Stripe Subscription Portal Builder](skills/bubble-stripe-subscription-portal/) | Uses Bubble's Plugin API and the Stripe.js SDK to embed a self-service subscription management portal inside a… | Security Reviewed | 4.4k | 8.4M/wk |
+| [AWS CDK Scaffolder](skills/aws-cdk-scaffolder/) | AWS CDK Scaffolder is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by… | Security Reviewed | 3.6k | 9.2M/wk |
+| [Cron Job Manager](skills/cron-job-manager/) | Cron Job Manager is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by… | Security Reviewed | 3.6k | 9.2M/wk |
+| [Cloudflare Workers Deployer](skills/cloudflare-workers-deployer/) | Cloudflare Workers Deployer is built around Cloudflare developer platform. The underlying ecosystem is represented… | Security Reviewed | 1.9k | 1M/wk |
+| [Netlify Site Manager](skills/netlify-site-manager/) | Netlify Site Manager is built around Netlify deployment platform. The underlying ecosystem is represented by… | Security Reviewed | 1.8k | 383.7k/wk |
+| [Backstage Software Template Composer](skills/backstage-software-template-composer/) | Creates Spotify Backstage software templates using template.yaml definitions with Scaffolder actions including… | Security Reviewed | 69 | 210.8k/wk |
+| [Argo Workflows DAG Optimizer](skills/argo-workflows-dag-optimizer/) | Analyzes Argo Workflows DAG templates to identify parallelization opportunities. Uses the Argo Server API to fetch… | Security Reviewed | — | — |
+| [Cookiecutter Project Bootstrapper](skills/cookiecutter-project-bootstrapper/) | Bootstraps project repositories from Cookiecutter templates with Jinja2 variable substitution and post-generation… | Security Reviewed | — | — |
+| [Cookiecutter Project Scaffold](skills/cookiecutter-project-scaffold/) | Generates project boilerplate from Cookiecutter templates with Jinja2 variable injection. Supports custom hooks for… | Security Reviewed | — | — |
+| [Cookiecutter Project Scaffolder](skills/cookiecutter-project-scaffolder-3/) | Scaffolds project templates using the Cookiecutter engine with Jinja2 templating and pre/post generation hooks.… | Security Reviewed | — | — |
+| [Cookiecutter Project Template Engine](skills/cookiecutter-project-template-engine/) | Manages and instantiates Cookiecutter project templates with dynamic Jinja2 variable substitution and… | Security Reviewed | — | — |
+| [Cookiecutter Template Generator](skills/cookiecutter-template-generator/) | Generates project scaffolding using the Cookiecutter CLI with Jinja2 templating. Supports custom template… | Security Reviewed | — | — |
+| [GitHub Actions Workflow Composer](skills/github-actions-workflow-composer-2/) | Composes GitHub Actions workflow YAML files from modular job templates, resolving action version pins and secret… | Security Reviewed | — | — |
+| [Jinja2 Template Engine](skills/jinja2-template-engine-agent/) | Renders Jinja2 templates with variable injection, macro expansion, and template inheritance. Integrates with the… | Security Reviewed | — | — |
+| [Makedown Task Runner](skills/makedown-task-runner/) | Extracts executable task definitions from Markdown files and runs them as shell pipelines. Parses fenced code blocks… | Security Reviewed | — | — |
+| [Mustache Template Renderer](skills/mustache-template-renderer-agent/) | Renders Mustache logic-less templates with partials resolution and lambda support. Uses the mustache.js library for… | Security Reviewed | — | — |
+| [Nx Monorepo Workflow Orchestrator](skills/nx-monorepo-workflow-orchestrator/) | Manages Nx workspace task orchestration using nx.json configuration and @nrwl/devkit executors. Automates dependency… | Security Reviewed | — | — |
+| [Nx Workspace Generator](skills/nx-workspace-generator/) | Creates and manages Nx monorepo workspace generators using @nx/devkit and the Nx plugin API. Generates libraries,… | Security Reviewed | — | — |
+| [Self-Improvement / Learnings Capture](skills/self-improvement-learnings-capture/) | Capture failures, corrections, and repeatable lessons so important operational knowledge persists across sessions. | Security Reviewed | — | — |
+| [Yeoman Generator Builder](skills/yeoman-generator-builder/) | Creates custom Yeoman generators using the yeoman-generator API and yo CLI. Scaffolds generator packages with… | Security Reviewed | — | — |
+| [Yeoman Scaffold Runner](skills/yeoman-scaffold-runner/) | Executes Yeoman generators via the yo CLI and yeoman-environment API to scaffold applications, components, and… | Security Reviewed | — | — |
+| [Yeoman Workflow Orchestrator](skills/yeoman-workflow-orchestrator/) | Orchestrates Yeoman generator workflows with composable sub-generators and mem-fs-editor file transformations.… | Security Reviewed | — | — |
+
+
+### 🔗 Integrations & Connectors (53 skills)
+
+Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
+
+| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
+|---|---|---|---:|---:|
+| [Terraform Cloud Run Inspector](skills/terraform-cloud-run-inspector-2/) | Queries the Terraform Cloud API to inspect plan outputs, apply logs, and state file changes. Analyzes resource diffs… | Security Reviewed | 48k | — |
+| [Linear Issue Triage &amp; Sprint Planner](skills/linear-issue-triage-sprint-planner-2/) | Queries the Linear GraphQL API to list open issues by team, priority, and cycle, then applies configurable triage… | Security Reviewed | 20.3k | 32M/wk |
+| [Shopify Admin GraphQL Sync Agent](skills/shopify-admin-graphql-sync-agent/) | Coordinates Shopify data syncs with the Admin GraphQL API, including `bulkOperationRunQuery`, node connections, and… | Security Reviewed | 20.3k | 32M/wk |
+| [Ingestr Cross-Database Data Copier](skills/ingestr-cross-database-data-copier/) | Copy data between any databases with a single CLI command using Ingestr. Supports 50+ sources and destinations… | Security Reviewed | 5.6k | 1.1M/wk |
+| [Notion Database Sync &amp; Page Generator](skills/notion-database-sync-page-generator-2/) | Reads from and writes to Notion databases using the official Notion API v1, supporting filtered queries, property… | Security Reviewed | 5.6k | 1.1M/wk |
+| [Stripe Connect Account Provisioner](skills/stripe-connect-account-provisioner/) | Automates Stripe Connect onboarding by provisioning connected accounts via the Stripe API. Handles account creation,… | Security Reviewed | 4.4k | 8.4M/wk |
+| [Stripe Connect Integration](skills/stripe-connect-integration/) | Manages Stripe Connect accounts and payment flows using the Stripe Node.js SDK (stripe@14.x). Handles onboarding via… | Security Reviewed | 4.4k | 8.4M/wk |
+| [Stripe Connect Marketplace Sync](skills/stripe-connect-marketplace-sync/) | Synchronize marketplace transactions using the Stripe Connect API with automatic payout splitting, transfer… | Security Reviewed | 4.4k | 8.4M/wk |
+| [Stripe Connect Platform Bridge](skills/stripe-connect-platform-bridge/) | Manages Stripe Connect onboarding flows using the stripe-node SDK. Handles account creation, capability requests,… | Security Reviewed | 4.4k | 8.4M/wk |
+| [Stripe MCP Server](skills/stripe-mcp-server/) | Stripe MCP Server is built around Stripe payments platform. The underlying ecosystem is represented by… | Security Reviewed | 4.4k | 8.4M/wk |
+| [Stripe Payment Flow Connector](skills/stripe-payment-flow-connector/) | Integrates Stripe payment processing using stripe-node SDK including PaymentIntents, Checkout Sessions, Billing… | Security Reviewed | 4.4k | 8.4M/wk |
+| [Stripe Payments Connector](skills/stripe-payments-connector/) | Full Stripe API integration using the stripe-node SDK. Creates PaymentIntents via stripe.paymentIntents.create(),… | Security Reviewed | 4.4k | 8.4M/wk |
+| [Stripe Reporting Agent](skills/stripe-reporting-agent/) | Stripe Reporting Agent is built around Stripe payments platform. The underlying ecosystem is represented by… | Security Reviewed | 4.4k | 8.4M/wk |
+| [Stripe Revenue Reconciliation Agent](skills/stripe-revenue-reconciliation-agent/) | Uses the Stripe API to pull charge, refund, dispute, and payout records within a configurable date window and… | Security Reviewed | 4.4k | 8.4M/wk |
+| [AWS S3 &#038; SQS Pipeline Connector](skills/aws-s3-sqs-pipeline-connector/) | Orchestrates AWS data pipelines using @aws-sdk/client-s3 and @aws-sdk/client-sqs. Manages S3 object lifecycle with… | Security Reviewed | 3.6k | 9.2M/wk |
+| [GitHub Discussions Community Digest](skills/github-discussions-community-digest/) | Queries GitHub GraphQL API for new and unanswered Discussions, ranks them by reaction count and recency, and drafts… | Security Reviewed | 3.1k | 3.3M/wk |
+| [SendGrid MCP Server](skills/sendgrid-mcp-server/) | SendGrid MCP Server is built around SendGrid email delivery platform. The underlying ecosystem is represented by… | Security Reviewed | 3.1k | 3.3M/wk |
+| [SendGrid Transactional Email Builder](skills/sendgrid-transactional-email-builder/) | Constructs and sends transactional emails using the SendGrid v3 Mail Send API. Builds dynamic templates with… | Security Reviewed | 3.1k | 3.3M/wk |
+| [SendGrid Transactional Email Router](skills/sendgrid-transactional-email-router/) | Manages transactional email delivery via SendGrid v3 Mail Send API with dynamic template rendering. Handles bounce… | Security Reviewed | 3.1k | 3.3M/wk |
+| [Slack Bolt Event Subscription Debugger](skills/slack-bolt-event-subscription-debugger/) | Debugs Slack app event flows with the Bolt SDK, signature verification, `app.event()` handlers, and `ack()` timing.… | Security Reviewed | 2.9k | 2.4M/wk |
+| [Slack Channel Summarizer &amp; Triage Bot](skills/slack-channel-summarizer-triage/) | Connects to the Slack Web API to fetch unread messages across specified channels and surfaces a prioritized digest… | Security Reviewed | 2.9k | 2.4M/wk |
+| [Zapier Webhooks by Zapier Router](skills/zapier-webhooks-by-zapier-router/) | Routes and validates inbound automation traffic built around Webhooks by Zapier endpoints such as… | Security Reviewed | 2.9k | 2.4M/wk |
+| [AssemblyAI Real-Time Call Intelligence](skills/assemblyai-realtime-call-intelligence/) | Streams audio from Twilio Media Streams over WebSocket to AssemblyAI real-time transcription, extracting… | Security Reviewed | 1.5k | 3.8M/wk |
+| [Twilio MCP Server](skills/twilio-mcp-server/) | Twilio MCP Server is built around Twilio communications APIs. The underlying ecosystem is represented by… | Security Reviewed | 1.5k | 3.8M/wk |
+| [Twilio Programmable SMS Gateway](skills/twilio-programmable-sms-gateway/) | Sends and receives SMS/MMS messages via Twilio REST API with webhook handler generation. Supports message… | Security Reviewed | 1.5k | 3.8M/wk |
+| [Twilio Programmable Voice Router](skills/twilio-programmable-voice-router-2/) | Builds intelligent voice routing flows using the Twilio Programmable Voice API. Generates TwiML responses with , ,… | Security Reviewed | 1.5k | 3.8M/wk |
+| [Twilio SMS &#038; Voice Bridge](skills/twilio-sms-voice-bridge/) | Connects to Twilio REST API via the twilio-node SDK for programmable messaging and voice. Sends SMS with… | Security Reviewed | 1.5k | 3.8M/wk |
+| [Salesforce Bulk API Sync Agent](skills/salesforce-bulk-api-sync-agent/) | Perform high-volume data synchronization with Salesforce using the Bulk API 2.0 for CSV-based upsert, delete, and… | Security Reviewed | 1.5k | 804.8k/wk |
+| [Salesforce CRM Sync Agent](skills/salesforce-crm-sync-agent/) | Bidirectional Salesforce integration using jsforce library and the Salesforce REST API. Performs SOQL queries via… | Security Reviewed | 1.5k | 804.8k/wk |
+| [Salesforce MCP Server](skills/salesforce-mcp-server/) | Salesforce MCP Server is built around Salesforce CRM platform. The underlying ecosystem is represented by… | Security Reviewed | 1.5k | 804.8k/wk |
+| [Datadog Integration Connector](skills/datadog-integration-connector-agent/) | Connects applications to Datadog monitoring using the Datadog API v2 for metrics submission, log forwarding, APM… | Security Reviewed | 789 | 6M/wk |
+| [HubSpot CRM Contact Enrichment Pipeline](skills/hubspot-crm-contact-enrichment-pipeline/) | Enriches HubSpot CRM contacts using the v3 Contacts API with batch read/update operations. Cross-references company… | Security Reviewed | 391 | 905.6k/wk |
+| [HubSpot MCP Server](skills/hubspot-mcp-server/) | HubSpot MCP Server is built around HubSpot CRM and marketing APIs. The underlying ecosystem is represented by… | Security Reviewed | 391 | 905.6k/wk |
+| [Zapier Multi-Step Lead Enrichment Workflow](skills/zapier-lead-enrichment-workflow/) | Builds a Zapier automation using the Zapier NLA API to trigger on new HubSpot form submissions and enrich contact… | Security Reviewed | 391 | 905.6k/wk |
+| [Neon Serverless Postgres MCP](skills/neon-serverless-postgres-mcp/) | Neon's official MCP server translates natural language requests into Neon API calls, letting AI agents create… | Security Reviewed | — | 21.4M/wk |
+| [Activepieces Open Source Workflow Automation](skills/activepieces-open-source-workflow-automation/) | Activepieces is an open-source, self-hostable workflow automation platform with 200+ integrations. It provides a… | Published | — | — |
+| [AWS MCP Servers for Cloud Service Integration](skills/aws-mcp-servers-cloud-service-integration/) | The official AWS Labs MCP server collection provides AI agents with structured access to AWS documentation, service… | Security Reviewed | — | — |
+| [Chroma MCP Server for Embedding Database Operations](skills/chroma-mcp-server-embedding-database-operations/) | An official MCP server for the Chroma open-source embedding database. Enables AI agents to create collections, add… | Security Reviewed | — | — |
+| [Cloudflare MCP Servers for Workers, Security, and Observability](skills/cloudflare-mcp-servers-workers-security-observability/) | Official Cloudflare MCP servers that enable AI assistants to manage Workers applications, debug logs, analyze Radar… | Security Reviewed | — | — |
+| [Docker MCP Server for Container Lifecycle Management](skills/docker-mcp-server-container-lifecycle-management/) | An MCP server that enables AI agents to manage Docker containers, images, volumes, and networks through natural… | Security Reviewed | — | — |
+| [Linear MCP Server for Issue Tracking and Project Management](skills/linear-mcp-server-issue-tracking-project-management/) | An MCP server that integrates Linear project management with AI assistants. Enables creating, searching, updating,… | Security Reviewed | — | — |
+| [LiteLLM Unified LLM Gateway and Proxy Server](skills/litellm-unified-llm-gateway-proxy/) | LiteLLM is an open-source Python SDK and proxy server that provides a unified OpenAI-compatible interface to call… | Security Reviewed | — | — |
+| [MetaMCP Unified MCP Server Aggregator and Gateway](skills/metamcp-unified-mcp-server-aggregator-gateway/) | MetaMCP is an open-source MCP proxy that aggregates multiple MCP servers into a single unified endpoint with a GUI… | Security Reviewed | — | — |
+| [MongoDB MCP Server for Database and Atlas Management](skills/mongodb-mcp-server-database-atlas-management/) | The official MongoDB MCP server connects AI agents to MongoDB databases and Atlas clusters through the Model Context… | Security Reviewed | — | — |
+| [n8n Workflow Webhook Bridge](skills/n8n-workflow-webhook-bridge/) | Builds integration handoffs around n8n primitives like the Webhook node, HTTP Request node, and execution data… | Security Reviewed | — | — |
+| [Nango Open Source API Integration Platform](skills/nango-open-source-api-integration-platform/) | Nango is an open-source platform for building product integrations with 700+ APIs. It handles OAuth, token… | Published | — | — |
+| [Neon MCP Server for Serverless Postgres Management](skills/neon-mcp-server-serverless-postgres/) | The Neon MCP Server enables AI agents to manage serverless PostgreSQL databases through natural language via the… | Security Reviewed | — | — |
+| [Notion MCP Server for AI Workspace Integration](skills/notion-mcp-server-ai-workspace-integration/) | The official Notion MCP Server enables AI agents to interact with Notion workspaces through the Model Context… | Security Reviewed | — | — |
+| [Plaid Financial Data Connector](skills/plaid-financial-data-connector/) | Connects to bank accounts via Plaid Link SDK and retrieves transaction data using the Plaid Transactions API.… | Security Reviewed | — | — |
+| [Qdrant MCP Server for Vector Search and Semantic Memory](skills/qdrant-mcp-server-vector-search-semantic-memory/) | An official Qdrant MCP server implementation that provides semantic memory capabilities for AI agents. Enables… | Security Reviewed | — | — |
+| [Supabase MCP Server for Database and Project Management](skills/supabase-mcp-server-database-project-management/) | An official MCP server that connects Supabase projects to AI assistants like Claude, Cursor, and Windsurf. Enables… | Security Reviewed | — | — |
+| [Upstash MCP Server for Redis and QStash Management](skills/upstash-mcp-server-redis-qstash-management/) | An official MCP server from Upstash that lets AI agents manage Redis databases, QStash message queues, and Vector… | Security Reviewed | — | — |
+| [Zapier Webhook Integration Builder](skills/zapier-webhook-integration-builder/) | Creates and manages Zapier integrations using the Zapier Platform CLI and REST Hooks API. Builds custom triggers,… | Security Reviewed | — | — |
 
 
 ### 🎨 Image & Creative Automation (52 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=downloads)
 
-| Skill | Tier | GitHub Stars | npm Downloads | Install |
-|---|---|---:|---:|---|
-| [Rive Runtime Animation Controller](skills/rive-runtime-animation-controller/) | Security Reviewed | 244.2k | 104.8M/wk | `clawhub install rive-runtime-animation-controller` |
-| [SVG Animation Builder](skills/svg-animation-builder/) | Security Reviewed | 93.9k | 8.7M/wk | `clawhub install svg-animation-builder` |
-| [Figma Design Token Extractor](skills/figma-design-token-extractor-3/) | Security Reviewed | 89.5k | 13M/wk | `clawhub install figma-design-token-extractor-3` |
-| [RunPod Serverless GPU Inference](skills/runpod-serverless-gpu-inference/) | Security Reviewed | 71.6k | — | `clawhub install runpod-serverless-gpu-inference` |
-| [FFmpeg Thumbnail Grid Generator](skills/ffmpeg-thumbnail-grid-generator/) | Security Reviewed | 58.3k | 9.2M/wk | `clawhub install ffmpeg-thumbnail-grid-generator` |
-| [FFmpeg Intelligent Media Processor](skills/ffmpeg-intelligent-media-processor/) | Security Reviewed | 58.3k | — | `clawhub install ffmpeg-intelligent-media-processor` |
-| [FFmpeg Media Transcoder](skills/ffmpeg-media-transcoder/) | Security Reviewed | 58.3k | — | `clawhub install ffmpeg-media-transcoder` |
-| [FFmpeg Thumbnail Mosaic Generator](skills/ffmpeg-thumbnail-mosaic-generator/) | Security Reviewed | 58.3k | — | `clawhub install ffmpeg-thumbnail-mosaic-generator` |
-| [FFmpeg Video Processing Pipeline](skills/ffmpeg-video-processing-pipeline/) | Security Reviewed | 58.3k | — | `clawhub install ffmpeg-video-processing-pipeline` |
-| [ComfyUI Workflow Executor](skills/comfyui-workflow-executor/) | Security Reviewed | 35.3k | — | `clawhub install comfyui-workflow-executor` |
-| [Sharp Image CDN Optimizer](skills/sharp-image-cdn-optimizer/) | Security Reviewed | 32.1k | 54.5M/wk | `clawhub install sharp-image-cdn-optimizer` |
-| [Sharp Image Pipeline Processor](skills/sharp-image-pipeline-processor-2/) | Security Reviewed | 32.1k | 54.5M/wk | `clawhub install sharp-image-pipeline-processor-2` |
-| [Sharp Image Pipeline Skill](skills/sharp-image-pipeline-skill/) | Security Reviewed | 32.1k | 54.5M/wk | `clawhub install sharp-image-pipeline-skill` |
-| [Sharp Image Transform Pipeline](skills/sharp-image-transform-pipeline/) | Security Reviewed | 32.1k | 54.5M/wk | `clawhub install sharp-image-transform-pipeline` |
-| [ImageMagick Batch Converter CLI](skills/imagemagick-batch-converter-cli/) | Security Reviewed | 16k | — | `clawhub install imagemagick-batch-converter-cli` |
-| [ImageMagick Batch Processor](skills/imagemagick-batch-processor/) | Security Reviewed | 16k | — | `clawhub install imagemagick-batch-processor` |
-| [ImageMagick Batch Transform Agent](skills/imagemagick-batch-transform-agent/) | Security Reviewed | 16k | — | `clawhub install imagemagick-batch-transform-agent` |
-| [DALL-E 3 Batch Asset Generator](skills/dalle-3-batch-asset-generator/) | Security Reviewed | 10.8k | 16.3M/wk | `clawhub install dalle-3-batch-asset-generator` |
-| [DALL-E Batch Image Generator](skills/dalle-batch-image-generator/) | Security Reviewed | 10.8k | 16.3M/wk | `clawhub install dalle-batch-image-generator` |
-| [DALL-E Image Variation Generator](skills/dalle-image-variation-generator/) | Security Reviewed | 10.8k | 16.3M/wk | `clawhub install dalle-image-variation-generator` |
-| [DALL-E Image Variation Pipeline](skills/dalle-image-variation-pipeline/) | Security Reviewed | 10.8k | 16.3M/wk | `clawhub install dalle-image-variation-pipeline` |
-| [DALL-E Prompt Chain Generator](skills/dalle-prompt-chain-generator/) | Security Reviewed | 10.8k | 16.3M/wk | `clawhub install dalle-prompt-chain-generator` |
-| [DALL-E Prompt Engineering Kit](skills/dall-e-prompt-engineering-kit/) | Security Reviewed | 10.8k | 16.3M/wk | `clawhub install dall-e-prompt-engineering-kit` |
-| [DALL-E Variation Generator](skills/dalle-variation-generator/) | Security Reviewed | 10.8k | 16.3M/wk | `clawhub install dalle-variation-generator` |
-| [DALL-E Variations Pipeline](skills/dalle-variations-pipeline/) | Security Reviewed | 10.8k | 16.3M/wk | `clawhub install dalle-variations-pipeline` |
-| [OpenAI Image Gen](skills/openai-image-gen/) | Security Reviewed | 10.8k | 16.3M/wk | `clawhub install openai-image-gen` |
-| [Pexels API Stock Photo Curator](skills/pexels-api-stock-photo-curator/) | Security Reviewed | 7k | 5M/wk | `clawhub install pexels-api-stock-photo-curator` |
-| [Adobe Firefly API Batch Image Generator](skills/adobe-firefly-api-batch-image-generator/) | Security Reviewed | — | — | `clawhub install adobe-firefly-api-batch-image-generator` |
-| [Adobe Photoshop API Batch Processor](skills/adobe-photoshop-api-batch-processor/) | Security Reviewed | — | — | `clawhub install adobe-photoshop-api-batch-processor` |
-| [Bannerbear Dynamic Image API](skills/bannerbear-dynamic-image-api/) | Security Reviewed | — | — | `clawhub install bannerbear-dynamic-image-api` |
-| [Blender Geometry Nodes Script Generator](skills/blender-geometry-nodes-script-generator/) | Verified Metadata | — | — | `clawhub install blender-geometry-nodes-script-generator` |
-| [Cloudinary Asset Optimization Agent](skills/cloudinary-asset-optimization-agent/) | Security Reviewed | — | — | `clawhub install cloudinary-asset-optimization-agent` |
-| [Cloudinary DAM Pipeline](skills/cloudinary-dam-pipeline-skill/) | Security Reviewed | — | — | `clawhub install cloudinary-dam-pipeline-skill` |
-| [Cloudinary Media Optimization Agent](skills/cloudinary-media-optimization-agent/) | Security Reviewed | — | — | `clawhub install cloudinary-media-optimization-agent` |
-| [Cloudinary Media Transform Skill](skills/cloudinary-media-transform-skill/) | Security Reviewed | — | — | `clawhub install cloudinary-media-transform-skill` |
-| [Figma Design Token Exporter](skills/figma-design-token-exporter/) | Security Reviewed | — | — | `clawhub install figma-design-token-exporter` |
-| [Figma Export Automator](skills/figma-export-automator/) | Security Reviewed | — | — | `clawhub install figma-export-automator` |
-| [Figma REST API Asset Exporter](skills/figma-rest-api-asset-exporter/) | Security Reviewed | — | — | `clawhub install figma-rest-api-asset-exporter` |
-| [Gemini Image Style Transfer Agent](skills/gemini-image-style-transfer-agent/) | Security Reviewed | — | — | `clawhub install gemini-image-style-transfer-agent` |
-| [Lottie Animation Optimizer](skills/lottie-animation-optimizer/) | Security Reviewed | — | — | `clawhub install lottie-animation-optimizer` |
-| [Midjourney Prompt Engineering Suite](skills/midjourney-prompt-engineering-suite/) | Security Reviewed | — | — | `clawhub install midjourney-prompt-engineering-suite` |
-| [Midjourney Prompt Optimizer](skills/midjourney-prompt-optimizer-skill/) | Security Reviewed | — | — | `clawhub install midjourney-prompt-optimizer-skill` |
-| [OpenEXR HDR Compositing Pipeline](skills/openexr-hdr-compositing-pipeline/) | Security Reviewed | — | — | `clawhub install openexr-hdr-compositing-pipeline` |
-| [Photoshop Batch Action Automator](skills/photoshop-batch-action-automator/) | Security Reviewed | — | — | `clawhub install photoshop-batch-action-automator` |
-| [Stable Diffusion ComfyUI Workflow Runner](skills/stable-diffusion-comfyui-workflow-runner-2/) | Security Reviewed | — | — | `clawhub install stable-diffusion-comfyui-workflow-runner-2` |
-| [Stable Diffusion ControlNet Compositor](skills/stable-diffusion-controlnet-compositor/) | Security Reviewed | — | — | `clawhub install stable-diffusion-controlnet-compositor` |
-| [Stable Diffusion ControlNet Pipeline](skills/stable-diffusion-controlnet-pipeline/) | Security Reviewed | — | — | `clawhub install stable-diffusion-controlnet-pipeline` |
-| [Stable Diffusion LoRA Training Pipeline](skills/stable-diffusion-lora-training-pipeline/) | Security Reviewed | — | — | `clawhub install stable-diffusion-lora-training-pipeline` |
-| [Stable Diffusion Prompt Optimizer](skills/stable-diffusion-prompt-optimizer/) | Security Reviewed | — | — | `clawhub install stable-diffusion-prompt-optimizer` |
-| [Stable Diffusion XL LoRA Trainer](skills/stable-diffusion-xl-lora-trainer/) | Security Reviewed | — | — | `clawhub install stable-diffusion-xl-lora-trainer` |
-| [Stable Diffusion XL Pipeline](skills/stable-diffusion-xl-pipeline/) | Security Reviewed | — | — | `clawhub install stable-diffusion-xl-pipeline` |
-| [Stable Diffusion XL Pipeline Builder](skills/stable-diffusion-xl-pipeline-builder/) | Security Reviewed | — | — | `clawhub install stable-diffusion-xl-pipeline-builder` |
-
-
-### 🔗 Integrations & Connectors (51 skills)
-
-Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
-
-| Skill | Tier | GitHub Stars | npm Downloads | Install |
-|---|---|---:|---:|---|
-| [Terraform Cloud Run Inspector](skills/terraform-cloud-run-inspector-2/) | Security Reviewed | 48k | — | `clawhub install terraform-cloud-run-inspector-2` |
-| [Linear Issue Triage &amp; Sprint Planner](skills/linear-issue-triage-sprint-planner-2/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install linear-issue-triage-sprint-planner-2` |
-| [Shopify Admin GraphQL Sync Agent](skills/shopify-admin-graphql-sync-agent/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install shopify-admin-graphql-sync-agent` |
-| [Ingestr Cross-Database Data Copier](skills/ingestr-cross-database-data-copier/) | Security Reviewed | 5.6k | 1.1M/wk | `clawhub install ingestr-cross-database-data-copier` |
-| [Notion Database Sync &amp; Page Generator](skills/notion-database-sync-page-generator-2/) | Security Reviewed | 5.6k | 1.1M/wk | `clawhub install notion-database-sync-page-generator-2` |
-| [Stripe Connect Account Provisioner](skills/stripe-connect-account-provisioner/) | Security Reviewed | 4.4k | 8.4M/wk | `clawhub install stripe-connect-account-provisioner` |
-| [Stripe Connect Integration](skills/stripe-connect-integration/) | Security Reviewed | 4.4k | 8.4M/wk | `clawhub install stripe-connect-integration` |
-| [Stripe Connect Marketplace Sync](skills/stripe-connect-marketplace-sync/) | Security Reviewed | 4.4k | 8.4M/wk | `clawhub install stripe-connect-marketplace-sync` |
-| [Stripe Connect Platform Bridge](skills/stripe-connect-platform-bridge/) | Security Reviewed | 4.4k | 8.4M/wk | `clawhub install stripe-connect-platform-bridge` |
-| [Stripe MCP Server](skills/stripe-mcp-server/) | Security Reviewed | 4.4k | 8.4M/wk | `clawhub install stripe-mcp-server` |
-| [Stripe Payment Flow Connector](skills/stripe-payment-flow-connector/) | Security Reviewed | 4.4k | 8.4M/wk | `clawhub install stripe-payment-flow-connector` |
-| [Stripe Payments Connector](skills/stripe-payments-connector/) | Security Reviewed | 4.4k | 8.4M/wk | `clawhub install stripe-payments-connector` |
-| [Stripe Reporting Agent](skills/stripe-reporting-agent/) | Security Reviewed | 4.4k | 8.4M/wk | `clawhub install stripe-reporting-agent` |
-| [Stripe Revenue Reconciliation Agent](skills/stripe-revenue-reconciliation-agent/) | Security Reviewed | 4.4k | 8.4M/wk | `clawhub install stripe-revenue-reconciliation-agent` |
-| [AWS S3 &#038; SQS Pipeline Connector](skills/aws-s3-sqs-pipeline-connector/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-s3-sqs-pipeline-connector` |
-| [GitHub Discussions Community Digest](skills/github-discussions-community-digest/) | Security Reviewed | 3.1k | 3.3M/wk | `clawhub install github-discussions-community-digest` |
-| [SendGrid MCP Server](skills/sendgrid-mcp-server/) | Security Reviewed | 3.1k | 3.3M/wk | `clawhub install sendgrid-mcp-server` |
-| [SendGrid Transactional Email Builder](skills/sendgrid-transactional-email-builder/) | Security Reviewed | 3.1k | 3.3M/wk | `clawhub install sendgrid-transactional-email-builder` |
-| [SendGrid Transactional Email Router](skills/sendgrid-transactional-email-router/) | Security Reviewed | 3.1k | 3.3M/wk | `clawhub install sendgrid-transactional-email-router` |
-| [Slack Bolt Event Subscription Debugger](skills/slack-bolt-event-subscription-debugger/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install slack-bolt-event-subscription-debugger` |
-| [Slack Channel Summarizer &amp; Triage Bot](skills/slack-channel-summarizer-triage/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install slack-channel-summarizer-triage` |
-| [Zapier Webhooks by Zapier Router](skills/zapier-webhooks-by-zapier-router/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install zapier-webhooks-by-zapier-router` |
-| [AssemblyAI Real-Time Call Intelligence](skills/assemblyai-realtime-call-intelligence/) | Security Reviewed | 1.5k | 3.8M/wk | `clawhub install assemblyai-realtime-call-intelligence` |
-| [Twilio MCP Server](skills/twilio-mcp-server/) | Security Reviewed | 1.5k | 3.8M/wk | `clawhub install twilio-mcp-server` |
-| [Twilio Programmable SMS Gateway](skills/twilio-programmable-sms-gateway/) | Security Reviewed | 1.5k | 3.8M/wk | `clawhub install twilio-programmable-sms-gateway` |
-| [Twilio Programmable Voice Router](skills/twilio-programmable-voice-router-2/) | Security Reviewed | 1.5k | 3.8M/wk | `clawhub install twilio-programmable-voice-router-2` |
-| [Twilio SMS &#038; Voice Bridge](skills/twilio-sms-voice-bridge/) | Security Reviewed | 1.5k | 3.8M/wk | `clawhub install twilio-sms-voice-bridge` |
-| [Salesforce Bulk API Sync Agent](skills/salesforce-bulk-api-sync-agent/) | Security Reviewed | 1.5k | 804.8k/wk | `clawhub install salesforce-bulk-api-sync-agent` |
-| [Salesforce CRM Sync Agent](skills/salesforce-crm-sync-agent/) | Security Reviewed | 1.5k | 804.8k/wk | `clawhub install salesforce-crm-sync-agent` |
-| [Salesforce MCP Server](skills/salesforce-mcp-server/) | Security Reviewed | 1.5k | 804.8k/wk | `clawhub install salesforce-mcp-server` |
-| [Datadog Integration Connector](skills/datadog-integration-connector-agent/) | Security Reviewed | 789 | 6M/wk | `clawhub install datadog-integration-connector-agent` |
-| [HubSpot CRM Contact Enrichment Pipeline](skills/hubspot-crm-contact-enrichment-pipeline/) | Security Reviewed | 391 | 905.6k/wk | `clawhub install hubspot-crm-contact-enrichment-pipeline` |
-| [HubSpot MCP Server](skills/hubspot-mcp-server/) | Security Reviewed | 391 | 905.6k/wk | `clawhub install hubspot-mcp-server` |
-| [Zapier Multi-Step Lead Enrichment Workflow](skills/zapier-lead-enrichment-workflow/) | Security Reviewed | 391 | 905.6k/wk | `clawhub install zapier-lead-enrichment-workflow` |
-| [Neon Serverless Postgres MCP](skills/neon-serverless-postgres-mcp/) | Security Reviewed | — | 21.4M/wk | `clawhub install neon-serverless-postgres-mcp` |
-| [AWS MCP Servers for Cloud Service Integration](skills/aws-mcp-servers-cloud-service-integration/) | Verified Metadata | — | — | `clawhub install aws-mcp-servers-cloud-service-integration` |
-| [Chroma MCP Server for Embedding Database Operations](skills/chroma-mcp-server-embedding-database-operations/) | Verified Metadata | — | — | `clawhub install chroma-mcp-server-embedding-database-operations` |
-| [Cloudflare MCP Servers for Workers, Security, and Observability](skills/cloudflare-mcp-servers-workers-security-observability/) | Verified Metadata | — | — | `clawhub install cloudflare-mcp-servers-workers-security-observability` |
-| [Docker MCP Server for Container Lifecycle Management](skills/docker-mcp-server-container-lifecycle-management/) | Verified Metadata | — | — | `clawhub install docker-mcp-server-container-lifecycle-management` |
-| [Linear MCP Server for Issue Tracking and Project Management](skills/linear-mcp-server-issue-tracking-project-management/) | Verified Metadata | — | — | `clawhub install linear-mcp-server-issue-tracking-project-management` |
-| [LiteLLM Unified LLM Gateway and Proxy Server](skills/litellm-unified-llm-gateway-proxy/) | Verified Metadata | — | — | `clawhub install litellm-unified-llm-gateway-proxy` |
-| [MetaMCP Unified MCP Server Aggregator and Gateway](skills/metamcp-unified-mcp-server-aggregator-gateway/) | Verified Metadata | — | — | `clawhub install metamcp-unified-mcp-server-aggregator-gateway` |
-| [MongoDB MCP Server for Database and Atlas Management](skills/mongodb-mcp-server-database-atlas-management/) | Verified Metadata | — | — | `clawhub install mongodb-mcp-server-database-atlas-management` |
-| [n8n Workflow Webhook Bridge](skills/n8n-workflow-webhook-bridge/) | Security Reviewed | — | — | `clawhub install n8n-workflow-webhook-bridge` |
-| [Neon MCP Server for Serverless Postgres Management](skills/neon-mcp-server-serverless-postgres/) | Verified Metadata | — | — | `clawhub install neon-mcp-server-serverless-postgres` |
-| [Notion MCP Server for AI Workspace Integration](skills/notion-mcp-server-ai-workspace-integration/) | Verified Metadata | — | — | `clawhub install notion-mcp-server-ai-workspace-integration` |
-| [Plaid Financial Data Connector](skills/plaid-financial-data-connector/) | Security Reviewed | — | — | `clawhub install plaid-financial-data-connector` |
-| [Qdrant MCP Server for Vector Search and Semantic Memory](skills/qdrant-mcp-server-vector-search-semantic-memory/) | Verified Metadata | — | — | `clawhub install qdrant-mcp-server-vector-search-semantic-memory` |
-| [Supabase MCP Server for Database and Project Management](skills/supabase-mcp-server-database-project-management/) | Verified Metadata | — | — | `clawhub install supabase-mcp-server-database-project-management` |
-| [Upstash MCP Server for Redis and QStash Management](skills/upstash-mcp-server-redis-qstash-management/) | Verified Metadata | — | — | `clawhub install upstash-mcp-server-redis-qstash-management` |
-| [Zapier Webhook Integration Builder](skills/zapier-webhook-integration-builder/) | Security Reviewed | — | — | `clawhub install zapier-webhook-integration-builder` |
+| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
+|---|---|---|---:|---:|
+| [Rive Runtime Animation Controller](skills/rive-runtime-animation-controller/) | Controls Rive (.riv) interactive animations at runtime using @rive-app/canvas-advanced, manages state machine… | Security Reviewed | 244.2k | 104.8M/wk |
+| [SVG Animation Builder](skills/svg-animation-builder/) | Creates animated SVGs using GSAP (GreenSock Animation Platform) and the SVG DOM API. Generates timeline-based… | Security Reviewed | 93.9k | 8.7M/wk |
+| [Figma Design Token Extractor](skills/figma-design-token-extractor-3/) | Extracts design tokens from Figma files using the Figma REST API and style-dictionary. Generates CSS custom… | Security Reviewed | 89.5k | 13M/wk |
+| [RunPod Serverless GPU Inference](skills/runpod-serverless-gpu-inference/) | Deploy and manage GPU inference endpoints on RunPod Serverless using their REST API. Handles endpoint creation, cold… | Security Reviewed | 71.6k | — |
+| [FFmpeg Thumbnail Grid Generator](skills/ffmpeg-thumbnail-grid-generator/) | Generates contact-sheet-style thumbnail grids from video files using FFmpeg tile filter and libvips. Supports… | Security Reviewed | 58.3k | 9.2M/wk |
+| [FFmpeg Intelligent Media Processor](skills/ffmpeg-intelligent-media-processor/) | Orchestrates complex video and audio processing pipelines using FFmpeg and FFprobe with scene detection via… | Security Reviewed | 58.3k | — |
+| [FFmpeg Media Transcoder](skills/ffmpeg-media-transcoder/) | Automated video and audio transcoding using FFmpeg with hardware-accelerated encoding via NVENC/VAAPI, HLS adaptive… | Security Reviewed | 58.3k | — |
+| [FFmpeg Thumbnail Mosaic Generator](skills/ffmpeg-thumbnail-mosaic-generator/) | Creates video thumbnail mosaics and sprite sheets using FFmpeg filters and the fluent-ffmpeg Node.js wrapper.… | Security Reviewed | 58.3k | — |
+| [FFmpeg Video Processing Pipeline](skills/ffmpeg-video-processing-pipeline/) | Builds complex FFmpeg filtergraph chains for batch video transcoding, thumbnail sprite generation, and HLS adaptive… | Security Reviewed | 58.3k | — |
+| [ComfyUI Workflow Executor](skills/comfyui-workflow-executor/) | Executes ComfyUI image generation workflows via the /prompt REST API endpoint with WebSocket progress tracking.… | Security Reviewed | 35.3k | — |
+| [Sharp Image CDN Optimizer](skills/sharp-image-cdn-optimizer/) | On-the-fly image optimization using Sharp (libvips Node.js bindings) with CDN-aware caching headers. Supports… | Security Reviewed | 32.1k | 54.5M/wk |
+| [Sharp Image Pipeline Processor](skills/sharp-image-pipeline-processor-2/) | Builds composable image transformation pipelines using the Sharp library with operations like resize(), composite(),… | Security Reviewed | 32.1k | 54.5M/wk |
+| [Sharp Image Pipeline Skill](skills/sharp-image-pipeline-skill/) | Processes images using the Sharp npm library (libvips). Supports batch resize, format conversion (WebP/AVIF/JPEG… | Security Reviewed | 32.1k | 54.5M/wk |
+| [Sharp Image Transform Pipeline](skills/sharp-image-transform-pipeline/) | Builds composable image processing pipelines using the Sharp library with libvips bindings for Node.js. Chains… | Security Reviewed | 32.1k | 54.5M/wk |
+| [ImageMagick Batch Converter CLI](skills/imagemagick-batch-converter-cli/) | Automates bulk image conversion using ImageMagick's convert and mogrify commands with geometry expressions. Supports… | Security Reviewed | 16k | — |
+| [ImageMagick Batch Processor](skills/imagemagick-batch-processor/) | Batch image processing using ImageMagick's convert and mogrify commands with support for resize, crop, watermark,… | Security Reviewed | 16k | — |
+| [ImageMagick Batch Transform Agent](skills/imagemagick-batch-transform-agent/) | Automates ImageMagick convert and mogrify operations for bulk image processing including responsive srcset… | Security Reviewed | 16k | — |
+| [DALL-E 3 Batch Asset Generator](skills/dalle-3-batch-asset-generator/) | Generates multiple image variations from a single brief using the OpenAI Images API (POST /v1/images/generations)… | Security Reviewed | 10.8k | 16.3M/wk |
+| [DALL-E Batch Image Generator](skills/dalle-batch-image-generator/) | Generates and manages batch image creation jobs using the OpenAI Images API /v1/images/generations endpoint.… | Security Reviewed | 10.8k | 16.3M/wk |
+| [DALL-E Image Variation Generator](skills/dalle-image-variation-generator/) | Generates image variations and edits using the OpenAI Images API v1 with DALL-E 3 model selection. Supports… | Security Reviewed | 10.8k | 16.3M/wk |
+| [DALL-E Image Variation Pipeline](skills/dalle-image-variation-pipeline/) | Manages OpenAI DALL-E 3 API workflows for brand-consistent image generation with style references, aspect ratio… | Security Reviewed | 10.8k | 16.3M/wk |
+| [DALL-E Prompt Chain Generator](skills/dalle-prompt-chain-generator/) | Generates and iterates DALL-E 3 image prompts using the OpenAI Images API with size, quality, and style parameters.… | Security Reviewed | 10.8k | 16.3M/wk |
+| [DALL-E Prompt Engineering Kit](skills/dall-e-prompt-engineering-kit/) | Structured prompt generation for OpenAI's DALL-E 3 API (images/generations endpoint) with style modifiers, aspect… | Security Reviewed | 10.8k | 16.3M/wk |
+| [DALL-E Variation Generator](skills/dalle-variation-generator/) | Generates image variations and edits using OpenAI's DALL-E 3 API with mask-based inpainting, style consistency… | Security Reviewed | 10.8k | 16.3M/wk |
+| [DALL-E Variations Pipeline](skills/dalle-variations-pipeline/) | Generates image variations and edits using the OpenAI Images API (DALL-E 3 and gpt-image-1). Manages prompt… | Security Reviewed | 10.8k | 16.3M/wk |
+| [OpenAI Image Gen](skills/openai-image-gen/) | Batch-generate images through the OpenAI Images API with a prompt sampler and gallery output. | Security Reviewed | 10.8k | 16.3M/wk |
+| [Pexels API Stock Photo Curator](skills/pexels-api-stock-photo-curator/) | Searches and downloads royalty-free images from Pexels API with smart filtering by orientation, color, and size.… | Security Reviewed | 7k | 5M/wk |
+| [Adobe Firefly API Batch Image Generator](skills/adobe-firefly-api-batch-image-generator/) | Calls Adobe Firefly's text-to-image and generative fill APIs for batch asset creation. Manages Adobe IMS OAuth… | Security Reviewed | — | — |
+| [Adobe Photoshop API Batch Processor](skills/adobe-photoshop-api-batch-processor/) | Automates image editing workflows via the Adobe Photoshop API (Firefly Services). Supports smart object replacement,… | Security Reviewed | — | — |
+| [Bannerbear Dynamic Image API](skills/bannerbear-dynamic-image-api/) | Generates social media graphics and OG images dynamically via Bannerbear REST API. Manages template modifications,… | Security Reviewed | — | — |
+| [Blender Geometry Nodes Script Generator](skills/blender-geometry-nodes-script-generator/) | Generates Blender Python (bpy) scripts that programmatically create Geometry Nodes modifier trees, using the… | Security Reviewed | — | — |
+| [Cloudinary Asset Optimization Agent](skills/cloudinary-asset-optimization-agent/) | Manages image and video assets using the Cloudinary Node.js SDK and Upload API. Applies automatic format selection,… | Security Reviewed | — | — |
+| [Cloudinary DAM Pipeline](skills/cloudinary-dam-pipeline-skill/) | Manage digital assets through the Cloudinary Upload, Admin, and Transformation APIs. Automates image optimization… | Security Reviewed | — | — |
+| [Cloudinary Media Optimization Agent](skills/cloudinary-media-optimization-agent/) | Automates image and video optimization workflows via the Cloudinary Upload and Admin APIs. Applies responsive… | Security Reviewed | — | — |
+| [Cloudinary Media Transform Skill](skills/cloudinary-media-transform-skill/) | Manages image and video assets through the Cloudinary Upload and Admin APIs. Applies on-the-fly transformations,… | Security Reviewed | — | — |
+| [Figma Design Token Exporter](skills/figma-design-token-exporter/) | Extracts design tokens from Figma files using the Figma REST API v1 and transforms them into platform-specific… | Security Reviewed | — | — |
+| [Figma Export Automator](skills/figma-export-automator/) | Exports assets from Figma files using the Figma REST API v1. Extracts component sets, design tokens (colors,… | Security Reviewed | — | — |
+| [Figma REST API Asset Exporter](skills/figma-rest-api-asset-exporter/) | Exports design assets from Figma files using the GET /v1/files/:key and /v1/images/:key endpoints. Supports SVG,… | Security Reviewed | — | — |
+| [Gemini Image Style Transfer Agent](skills/gemini-image-style-transfer-agent/) | Uses the Gemini Imagen 3 API (imagegeneration endpoint) to apply stylistic transformations to uploaded images,… | Security Reviewed | — | — |
+| [Lottie Animation Optimizer](skills/lottie-animation-optimizer/) | Analyzes and optimizes Lottie JSON animation files using lottie-web parser internals, reduces file size via keyframe… | Security Reviewed | — | — |
+| [Midjourney Prompt Engineering Suite](skills/midjourney-prompt-engineering-suite/) | Generates and optimizes Midjourney prompts using the Midjourney API with automatic parameter tuning for aspect… | Security Reviewed | — | — |
+| [Midjourney Prompt Optimizer](skills/midjourney-prompt-optimizer-skill/) | Analyze and optimize Midjourney prompts using parameter tuning for --ar, --stylize, --chaos, and --weird flags.… | Security Reviewed | — | — |
+| [OpenEXR HDR Compositing Pipeline](skills/openexr-hdr-compositing-pipeline/) | Processes OpenEXR high dynamic range images using the OpenImageIO (oiiotool) CLI and Imath library for multi-layer… | Security Reviewed | — | — |
+| [Photoshop Batch Action Automator](skills/photoshop-batch-action-automator/) | Automates Adobe Photoshop batch processing via the UXP Scripting API and CEP ExtendScript. Handles bulk resize,… | Security Reviewed | — | — |
+| [Stable Diffusion ComfyUI Workflow Runner](skills/stable-diffusion-comfyui-workflow-runner-2/) | Executes ComfyUI workflow JSON files against a local or remote ComfyUI server via its REST API. Supports LoRA… | Security Reviewed | — | — |
+| [Stable Diffusion ControlNet Compositor](skills/stable-diffusion-controlnet-compositor/) | Orchestrates Stable Diffusion XL with ControlNet preprocessors (Canny, Depth, OpenPose) for guided image generation.… | Security Reviewed | — | — |
+| [Stable Diffusion ControlNet Pipeline](skills/stable-diffusion-controlnet-pipeline/) | Automates image generation workflows using Stability AI ControlNet API with depth maps, edge detection, and pose… | Security Reviewed | — | — |
+| [Stable Diffusion LoRA Training Pipeline](skills/stable-diffusion-lora-training-pipeline/) | Orchestrates LoRA fine-tuning for Stable Diffusion XL using the diffusers library and Kohya ss-scripts. Manages… | Security Reviewed | — | — |
+| [Stable Diffusion Prompt Optimizer](skills/stable-diffusion-prompt-optimizer/) | Analyzes and enhances Stable Diffusion prompts using the Automatic1111 WebUI API /sdapi/v1/txt2img endpoint. Applies… | Security Reviewed | — | — |
+| [Stable Diffusion XL LoRA Trainer](skills/stable-diffusion-xl-lora-trainer/) | Fine-tune Stable Diffusion XL models with LoRA adapters using the diffusers library and Kohya-ss training scripts.… | Security Reviewed | — | — |
+| [Stable Diffusion XL Pipeline](skills/stable-diffusion-xl-pipeline/) | Orchestrates SDXL image generation via the Stability AI REST API with ControlNet conditioning, IP-Adapter style… | Security Reviewed | — | — |
+| [Stable Diffusion XL Pipeline Builder](skills/stable-diffusion-xl-pipeline-builder/) | Constructs and executes SDXL image generation pipelines using diffusers library and ComfyUI API. Supports LoRA… | Security Reviewed | — | — |
 
 
 ### 📅 Calendar, Email & Productivity (50 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=downloads)
 
-| Skill | Tier | GitHub Stars | npm Downloads | Install |
-|---|---|---:|---:|---|
-| [Todoist Natural Language Task Parser](skills/todoist-natural-language-task-parser/) | Security Reviewed | 35.3k | — | `clawhub install todoist-natural-language-task-parser` |
-| [Discord Bot Manager](skills/discord-bot-manager/) | Security Reviewed | 26.6k | 508.8k/wk | `clawhub install discord-bot-manager` |
-| [Linear Sprint Planner](skills/linear-sprint-planner/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install linear-sprint-planner` |
-| [Microsoft Graph Email Triage Assistant](skills/microsoft-graph-email-triage-assistant/) | Security Reviewed | 7k | 5M/wk | `clawhub install microsoft-graph-email-triage-assistant` |
-| [Outlook Email Automation](skills/outlook-email-automation/) | Security Reviewed | 7k | 5M/wk | `clawhub install outlook-email-automation` |
-| [Notion AI Document Summarizer &amp; Action Item Extractor](skills/notion-ai-doc-summarizer/) | Security Reviewed | 5.6k | 1.1M/wk | `clawhub install notion-ai-doc-summarizer` |
-| [Notion AI Workspace](skills/notion-ai-workspace/) | Security Reviewed | 5.6k | 1.1M/wk | `clawhub install notion-ai-workspace` |
-| [Notion Database Sync Agent](skills/notion-database-sync-agent/) | Security Reviewed | 5.6k | 1.1M/wk | `clawhub install notion-database-sync-agent` |
-| [Notion Database Sync Bridge](skills/notion-database-sync-bridge/) | Security Reviewed | 5.6k | 1.1M/wk | `clawhub install notion-database-sync-bridge` |
-| [Notion MCP Server](skills/notion-mcp-server/) | Security Reviewed | 5.6k | 1.1M/wk | `clawhub install notion-mcp-server` |
-| [Notion Task Board Automation](skills/notion-task-board-automation-agent/) | Security Reviewed | 5.6k | 1.1M/wk | `clawhub install notion-task-board-automation-agent` |
-| [Notion Task Sync Bridge](skills/notion-task-sync-bridge/) | Security Reviewed | 5.6k | 1.1M/wk | `clawhub install notion-task-sync-bridge` |
-| [Notion Workspace Automation Hub](skills/notion-workspace-automation-hub/) | Security Reviewed | 5.6k | 1.1M/wk | `clawhub install notion-workspace-automation-hub` |
-| [Notion Workspace Automator](skills/notion-workspace-automator-api-v1/) | Security Reviewed | 5.6k | 1.1M/wk | `clawhub install notion-workspace-automator-api-v1` |
-| [Notion Workspace Sync Agent](skills/notion-workspace-sync-agent/) | Security Reviewed | 5.6k | 1.1M/wk | `clawhub install notion-workspace-sync-agent` |
-| [Notion Workspace Sync Engine](skills/notion-workspace-sync-engine-2/) | Security Reviewed | 5.6k | 1.1M/wk | `clawhub install notion-workspace-sync-engine-2` |
-| [Todoist GTD Workflow Automator](skills/todoist-gtd-workflow-automator/) | Security Reviewed | 5.6k | 1.1M/wk | `clawhub install todoist-gtd-workflow-automator` |
-| [Slack Channel Summarizer](skills/slack-channel-summarizer-bolt-sdk/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install slack-channel-summarizer-bolt-sdk` |
-| [Slack Digest and Task Router](skills/slack-digest-and-task-router/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install slack-digest-and-task-router` |
-| [Slack MCP Server](skills/slack-mcp-server/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install slack-mcp-server` |
-| [Slack Standup Automator](skills/slack-standup-automator/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install slack-standup-automator` |
-| [Slack Standup Summarizer](skills/slack-standup-summarizer/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install slack-standup-summarizer` |
-| [Slack Status API PTO Sync Assistant](skills/slack-status-api-pto-sync-assistant/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install slack-status-api-pto-sync-assistant` |
-| [Slack Workflow Automation Builder](skills/slack-workflow-automation-builder/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install slack-workflow-automation-builder` |
-| [Slack Workflow Bot](skills/slack-workflow-bot-bolt-sdk/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install slack-workflow-bot-bolt-sdk` |
-| [Slack Workflow Bot Builder](skills/slack-workflow-bot-builder/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install slack-workflow-bot-builder` |
-| [Slack Workflow Builder Agent](skills/slack-workflow-builder-agent/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install slack-workflow-builder-agent` |
-| [Microsoft Graph Mail Triage Agent](skills/microsoft-graph-mail-triage-agent/) | Security Reviewed | 789 | 6M/wk | `clawhub install microsoft-graph-mail-triage-agent` |
-| [Atlassian Rovo MCP Server](skills/atlassian-rovo-mcp-server/) | Security Reviewed | — | — | `clawhub install atlassian-rovo-mcp-server` |
-| [Gmail API Thread Label Triage](skills/gmail-api-thread-label-triage/) | Security Reviewed | — | — | `clawhub install gmail-api-thread-label-triage` |
-| [Gmail Thread Summarizer and Action Extractor](skills/gmail-thread-summarizer-action-extractor/) | Security Reviewed | — | — | `clawhub install gmail-thread-summarizer-action-extractor` |
-| [Google Calendar Conflict Detector](skills/google-calendar-conflict-detector/) | Security Reviewed | — | — | `clawhub install google-calendar-conflict-detector` |
-| [Google Calendar Conflict Resolver](skills/google-calendar-conflict-resolver-2/) | Security Reviewed | — | — | `clawhub install google-calendar-conflict-resolver-2` |
-| [Google Calendar FreeBusy Scheduler Bridge](skills/google-calendar-freebusy-scheduler-bridge/) | Security Reviewed | — | — | `clawhub install google-calendar-freebusy-scheduler-bridge` |
-| [Google Calendar Smart Scheduler](skills/google-calendar-smart-scheduler-2/) | Security Reviewed | — | — | `clawhub install google-calendar-smart-scheduler-2` |
-| [Google Calendar Sync &#038; Conflict Resolver](skills/google-calendar-sync-conflict-resolver/) | Security Reviewed | — | — | `clawhub install google-calendar-sync-conflict-resolver` |
-| [Google Calendar Sync Agent](skills/google-calendar-sync-agent-2/) | Security Reviewed | — | — | `clawhub install google-calendar-sync-agent-2` |
-| [IMAP Email Classifier](skills/imap-email-classifier-ml/) | Security Reviewed | — | — | `clawhub install imap-email-classifier-ml` |
-| [IMAP Inbox Triage Agent](skills/imap-inbox-triage-agent/) | Security Reviewed | — | — | `clawhub install imap-inbox-triage-agent` |
-| [Microsoft Graph Calendar Conflict Resolver](skills/microsoft-graph-calendar-conflict-resolver/) | Security Reviewed | — | — | `clawhub install microsoft-graph-calendar-conflict-resolver` |
-| [Microsoft Graph Email Digest Builder](skills/microsoft-graph-email-digest-builder/) | Security Reviewed | — | — | `clawhub install microsoft-graph-email-digest-builder` |
-| [Microsoft Graph Email Triage Agent](skills/microsoft-graph-email-triage-agent/) | Security Reviewed | — | — | `clawhub install microsoft-graph-email-triage-agent` |
-| [Microsoft Outlook Calendar Sync Agent](skills/ms-outlook-calendar-sync-agent/) | Security Reviewed | — | — | `clawhub install ms-outlook-calendar-sync-agent` |
-| [Microsoft Outlook Mail Sorter](skills/ms-outlook-mail-sorter/) | Security Reviewed | — | — | `clawhub install ms-outlook-mail-sorter` |
-| [Outlook Mail Triage Assistant](skills/outlook-mail-triage-assistant/) | Security Reviewed | — | — | `clawhub install outlook-mail-triage-assistant` |
-| [Outlook Mail Triage Skill](skills/outlook-mail-triage-microsoft-graph/) | Security Reviewed | — | — | `clawhub install outlook-mail-triage-microsoft-graph` |
-| [Outlook Rule Automation Manager](skills/outlook-rule-automation-manager/) | Security Reviewed | — | — | `clawhub install outlook-rule-automation-manager` |
-| [Todoist GTD Workflow Engine](skills/todoist-gtd-workflow-engine/) | Security Reviewed | — | — | `clawhub install todoist-gtd-workflow-engine` |
-| [Todoist Project Automator](skills/todoist-project-automator-api-v2/) | Security Reviewed | — | — | `clawhub install todoist-project-automator-api-v2` |
-| [Todoist Sync API Task Orchestrator](skills/todoist-sync-api-task-orchestrator/) | Security Reviewed | — | — | `clawhub install todoist-sync-api-task-orchestrator` |
+| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
+|---|---|---|---:|---:|
+| [Todoist Natural Language Task Parser](skills/todoist-natural-language-task-parser/) | Parses natural language task descriptions into structured Todoist API v2 task objects with due dates, priority… | Security Reviewed | 35.3k | — |
+| [Discord Bot Manager](skills/discord-bot-manager/) | Discord Bot Manager is built around Discord bot and moderation platform. The underlying ecosystem is represented by… | Security Reviewed | 26.6k | 508.8k/wk |
+| [Linear Sprint Planner](skills/linear-sprint-planner/) | Linear Sprint Planner is built around GraphQL API ecosystem. The underlying ecosystem is represented by… | Security Reviewed | 20.3k | 32M/wk |
+| [Microsoft Graph Email Triage Assistant](skills/microsoft-graph-email-triage-assistant/) | Triages Outlook inboxes via Microsoft Graph API with delta query for incremental sync. Applies classification rules,… | Security Reviewed | 7k | 5M/wk |
+| [Outlook Email Automation](skills/outlook-email-automation/) | Authenticates to Microsoft Graph API using MSAL with Mail.ReadWrite and Calendars.ReadWrite permissions. Reads,… | Security Reviewed | 7k | 5M/wk |
+| [Notion AI Document Summarizer &amp; Action Item Extractor](skills/notion-ai-doc-summarizer/) | Uses the Notion SDK and Notion AI's /v1/pages and /v1/blocks/children endpoints to retrieve page content and invoke… | Security Reviewed | 5.6k | 1.1M/wk |
+| [Notion AI Workspace](skills/notion-ai-workspace/) | Notion AI Workspace is built around Notion workspace and database platform. The underlying ecosystem is represented… | Security Reviewed | 5.6k | 1.1M/wk |
+| [Notion Database Sync Agent](skills/notion-database-sync-agent/) | Syncs records between Notion databases and external sources using the Notion API (POST /v1/databases/{id}/query),… | Security Reviewed | 5.6k | 1.1M/wk |
+| [Notion Database Sync Bridge](skills/notion-database-sync-bridge/) | Synchronizes data between Notion databases and external sources using the Notion API v2022-06-28 with cursor-based… | Security Reviewed | 5.6k | 1.1M/wk |
+| [Notion MCP Server](skills/notion-mcp-server/) | Notion MCP Server is built around Notion workspace and database platform. The underlying ecosystem is represented by… | Security Reviewed | 5.6k | 1.1M/wk |
+| [Notion Task Board Automation](skills/notion-task-board-automation-agent/) | Automates Notion database workflows using the Notion API databases.query and pages.create endpoints. Builds filtered… | Security Reviewed | 5.6k | 1.1M/wk |
+| [Notion Task Sync Bridge](skills/notion-task-sync-bridge/) | Bidirectionally syncs tasks between Notion databases and external project management tools using the Notion API… | Security Reviewed | 5.6k | 1.1M/wk |
+| [Notion Workspace Automation Hub](skills/notion-workspace-automation-hub/) | Orchestrates Notion workspace workflows using Notion API v2 with database queries, page creation, and relation… | Security Reviewed | 5.6k | 1.1M/wk |
+| [Notion Workspace Automator](skills/notion-workspace-automator-api-v1/) | Automates Notion workspace management through the Notion API v1 with database query filters, page creation, and… | Security Reviewed | 5.6k | 1.1M/wk |
+| [Notion Workspace Sync Agent](skills/notion-workspace-sync-agent/) | Bidirectionally syncs project data between Notion databases and external tools using the Notion API v2022-06-28.… | Security Reviewed | 5.6k | 1.1M/wk |
+| [Notion Workspace Sync Engine](skills/notion-workspace-sync-engine-2/) | Bidirectionally syncs Notion databases with external tools via the Notion API and webhooks. Maps page properties to… | Security Reviewed | 5.6k | 1.1M/wk |
+| [Todoist GTD Workflow Automator](skills/todoist-gtd-workflow-automator/) | Implements Getting Things Done methodology on Todoist using the Todoist Sync API v9. Automates inbox processing,… | Security Reviewed | 5.6k | 1.1M/wk |
+| [Slack Channel Summarizer](skills/slack-channel-summarizer-bolt-sdk/) | Generates channel summaries using Slack Bolt SDK with conversations.history and conversations.replies endpoints.… | Security Reviewed | 2.9k | 2.4M/wk |
+| [Slack Digest and Task Router](skills/slack-digest-and-task-router/) | Reads unread Slack messages from specified channels using the conversations.history API, extracts action items and… | Security Reviewed | 2.9k | 2.4M/wk |
+| [Slack MCP Server](skills/slack-mcp-server/) | Agent access to Slack conversations and workspace workflows. | Security Reviewed | 2.9k | 2.4M/wk |
+| [Slack Standup Automator](skills/slack-standup-automator/) | Automates daily standup collection and reporting in Slack using the Slack Web API chat.postMessage and… | Security Reviewed | 2.9k | 2.4M/wk |
+| [Slack Standup Summarizer](skills/slack-standup-summarizer/) | Collects daily standup updates from Slack channels using the Web API and generates team summaries with blockers… | Security Reviewed | 2.9k | 2.4M/wk |
+| [Slack Status API PTO Sync Assistant](skills/slack-status-api-pto-sync-assistant/) | Syncs away-state updates through Slack users.profile APIs, status fields, and directory lookups so agents can keep… | Security Reviewed | 2.9k | 2.4M/wk |
+| [Slack Workflow Automation Builder](skills/slack-workflow-automation-builder/) | Creates Slack Workflow Builder automations using the Slack Web API and Block Kit. Builds approval flows, standup… | Security Reviewed | 2.9k | 2.4M/wk |
+| [Slack Workflow Bot](skills/slack-workflow-bot-bolt-sdk/) | Builds interactive Slack workflows using the Bolt SDK for JavaScript and Block Kit Builder API. Handles modal forms,… | Security Reviewed | 2.9k | 2.4M/wk |
+| [Slack Workflow Bot Builder](skills/slack-workflow-bot-builder/) | Creates interactive Slack workflows using Block Kit UI components and the Bolt.js framework. Implements slash… | Security Reviewed | 2.9k | 2.4M/wk |
+| [Slack Workflow Builder Agent](skills/slack-workflow-builder-agent/) | Creates and manages Slack workflows using @slack/bolt and @slack/web-api. Builds interactive modals with Block Kit,… | Security Reviewed | 2.9k | 2.4M/wk |
+| [Microsoft Graph Mail Triage Agent](skills/microsoft-graph-mail-triage-agent/) | Triages Outlook emails using the Microsoft Graph API /me/messages endpoint with $filter OData queries and… | Security Reviewed | 789 | 6M/wk |
+| [Atlassian Rovo MCP Server](skills/atlassian-rovo-mcp-server/) | The Atlassian Rovo MCP Server bridges your Atlassian Cloud workspace with any MCP-compatible client. Search and… | Security Reviewed | — | — |
+| [Gmail API Thread Label Triage](skills/gmail-api-thread-label-triage/) | Triage inbox backlog with the Gmail API’s `users.threads`, `users.messages`, and `users.labels` methods so agents… | Security Reviewed | — | — |
+| [Gmail Thread Summarizer and Action Extractor](skills/gmail-thread-summarizer-action-extractor/) | Fetches Gmail threads via the Gmail API (users.threads.get), extracts full message content, and produces a… | Security Reviewed | — | — |
+| [Google Calendar Conflict Detector](skills/google-calendar-conflict-detector/) | Detects scheduling conflicts across multiple Google Calendars using the Google Calendar API v3 and the freebusy… | Security Reviewed | — | — |
+| [Google Calendar Conflict Resolver](skills/google-calendar-conflict-resolver-2/) | Detects and resolves scheduling conflicts across multiple Google Calendar accounts using the Google Calendar API v3… | Security Reviewed | — | — |
+| [Google Calendar FreeBusy Scheduler Bridge](skills/google-calendar-freebusy-scheduler-bridge/) | Coordinates meeting suggestions with the Google Calendar `freeBusy` endpoint, Events resource, and conferenceData… | Security Reviewed | — | — |
+| [Google Calendar Smart Scheduler](skills/google-calendar-smart-scheduler-2/) | Optimizes meeting scheduling using the Google Calendar API v3 and FreeBusy queries. Applies time-zone-aware slot… | Security Reviewed | — | — |
+| [Google Calendar Sync &#038; Conflict Resolver](skills/google-calendar-sync-conflict-resolver/) | Bidirectional calendar synchronization using Google Calendar API v3 with OAuth 2.0. Detects scheduling conflicts… | Security Reviewed | — | — |
+| [Google Calendar Sync Agent](skills/google-calendar-sync-agent-2/) | Synchronizes events across multiple Google Calendar accounts using the Calendar API v3 and OAuth 2.0. Handles… | Security Reviewed | — | — |
+| [IMAP Email Classifier](skills/imap-email-classifier-ml/) | Classifies and organizes emails from IMAP servers using imaplib and scikit-learn text classification. Supports… | Security Reviewed | — | — |
+| [IMAP Inbox Triage Agent](skills/imap-inbox-triage-agent/) | Connects to IMAP email servers to classify, prioritize, and auto-label incoming messages using rule-based and… | Security Reviewed | — | — |
+| [Microsoft Graph Calendar Conflict Resolver](skills/microsoft-graph-calendar-conflict-resolver/) | Resolves scheduling collisions with Microsoft Graph Calendar endpoints like `/me/events`, `/calendarView`, and… | Security Reviewed | — | — |
+| [Microsoft Graph Email Digest Builder](skills/microsoft-graph-email-digest-builder/) | Generates daily email digests from Microsoft 365 mailboxes using the Microsoft Graph API /me/messages endpoint.… | Security Reviewed | — | — |
+| [Microsoft Graph Email Triage Agent](skills/microsoft-graph-email-triage-agent/) | Automates email triage using Microsoft Graph API v1.0 with delegated permissions. Classifies emails by urgency using… | Security Reviewed | — | — |
+| [Microsoft Outlook Calendar Sync Agent](skills/ms-outlook-calendar-sync-agent/) | Synchronizes calendar events bidirectionally using the Microsoft Graph API /me/calendar/events endpoint. Handles… | Security Reviewed | — | — |
+| [Microsoft Outlook Mail Sorter](skills/ms-outlook-mail-sorter/) | Automatically triages Microsoft Outlook emails using the Microsoft Graph API /me/messages endpoint. Applies… | Security Reviewed | — | — |
+| [Outlook Mail Triage Assistant](skills/outlook-mail-triage-assistant/) | Automated email triage using Microsoft Graph API and @azure/msal-node for OAuth. Classifies messages with zero-shot… | Security Reviewed | — | — |
+| [Outlook Mail Triage Skill](skills/outlook-mail-triage-microsoft-graph/) | Triages Outlook inboxes using Microsoft Graph API v1.0 with delta query support for incremental mail sync. Applies… | Security Reviewed | — | — |
+| [Outlook Rule Automation Manager](skills/outlook-rule-automation-manager/) | Creates and manages Outlook email rules programmatically using the Microsoft Graph API… | Security Reviewed | — | — |
+| [Todoist GTD Workflow Engine](skills/todoist-gtd-workflow-engine/) | Implements Getting Things Done methodology on Todoist using the Sync API v9. Automates weekly reviews, context… | Security Reviewed | — | — |
+| [Todoist Project Automator](skills/todoist-project-automator-api-v2/) | Automates Todoist project management using the Todoist REST API v2 and Sync API. Creates task templates, manages… | Security Reviewed | — | — |
+| [Todoist Sync API Task Orchestrator](skills/todoist-sync-api-task-orchestrator/) | Orchestrates complex task workflows using the Todoist Sync API v9 with incremental sync via sync_token. Uses… | Security Reviewed | — | — |
 
 
 ### 🔍 Research & Scraping (49 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=downloads)
 
-| Skill | Tier | GitHub Stars | npm Downloads | Install |
-|---|---|---:|---:|---|
-| [Puppeteer Scraping Framework](skills/puppeteer-scraping-framework-2/) | Security Reviewed | 93.9k | 8.7M/wk | `clawhub install puppeteer-scraping-framework-2` |
-| [Puppeteer Stealth Web Scraper](skills/puppeteer-stealth-web-scraper/) | Security Reviewed | 93.9k | 8.7M/wk | `clawhub install puppeteer-stealth-web-scraper` |
-| [Puppeteer Web Scraper](skills/puppeteer-web-scraper/) | Security Reviewed | 93.9k | 8.7M/wk | `clawhub install puppeteer-web-scraper` |
-| [PuppeteerSharp Web Scraping Pipeline](skills/puppeteersharp-web-scraping-pipeline/) | Security Reviewed | 93.9k | 8.7M/wk | `clawhub install puppeteersharp-web-scraping-pipeline` |
-| [Playwright Network Interceptor](skills/playwright-network-interceptor/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-network-interceptor` |
-| [Playwright Page Data Extractor](skills/playwright-page-data-extractor/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-page-data-extractor` |
-| [Playwright Test Generator with Codegen](skills/playwright-test-generator-codegen/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-test-generator-codegen` |
-| [SerpAPI Search Aggregator](skills/serpapi-search-aggregator/) | Security Reviewed | 73.5k | 8.2M/wk | `clawhub install serpapi-search-aggregator` |
-| [Scrapy Pipeline Data Extractor](skills/scrapy-pipeline-data-extractor/) | Security Reviewed | 60.9k | 39.8M/wk | `clawhub install scrapy-pipeline-data-extractor` |
-| [Scrapy Spider Architect](skills/scrapy-spider-architect/) | Security Reviewed | 60.9k | 39.8M/wk | `clawhub install scrapy-spider-architect` |
-| [Scrapy Pipeline Manager](skills/scrapy-pipeline-manager/) | Security Reviewed | 60.9k | 10.9M/wk | `clawhub install scrapy-pipeline-manager` |
-| [Scrapy Spider Generator](skills/scrapy-spider-generator/) | Security Reviewed | 60.9k | 10.9M/wk | `clawhub install scrapy-spider-generator` |
-| [Scrapy Distributed Crawler Framework](skills/scrapy-distributed-crawler-framework/) | Security Reviewed | 60.9k | 8.2M/wk | `clawhub install scrapy-distributed-crawler-framework` |
-| [ScrapyCloud Job Manager](skills/scrapycloud-job-manager/) | Security Reviewed | 60.9k | — | `clawhub install scrapycloud-job-manager` |
-| [SEC EDGAR Filing Scraper &#038; Analyzer](skills/sec-edgar-filing-scraper-analyzer/) | Security Reviewed | 48.2k | — | `clawhub install sec-edgar-filing-scraper-analyzer` |
-| [PubMed Literature Mining Agent](skills/pubmed-literature-mining-agent/) | Security Reviewed | 45.6k | 9.4M/wk | `clawhub install pubmed-literature-mining-agent` |
-| [Cheerio DOM Scraping Toolkit](skills/cheerio-dom-scraping-toolkit/) | Security Reviewed | 30.2k | 18.5M/wk | `clawhub install cheerio-dom-scraping-toolkit` |
-| [Cheerio Product Price Tracker](skills/cheerio-product-price-tracker/) | Security Reviewed | 30.2k | 18.5M/wk | `clawhub install cheerio-product-price-tracker` |
-| [SerpAPI Research Pipeline](skills/serpapi-research-pipeline/) | Security Reviewed | 7k | 5M/wk | `clawhub install serpapi-research-pipeline` |
-| [SerpAPI Search Pipeline](skills/serpapi-search-pipeline/) | Security Reviewed | 7k | 5M/wk | `clawhub install serpapi-search-pipeline` |
-| [Hacker News Deep Thread Analyzer](skills/hacker-news-deep-thread-analyzer/) | Security Reviewed | 1.7k | 4.8M/wk | `clawhub install hacker-news-deep-thread-analyzer` |
-| [Crunchbase Company Intelligence Scraper](skills/crunchbase-company-intelligence-scraper/) | Security Reviewed | 391 | 905.6k/wk | `clawhub install crunchbase-company-intelligence-scraper` |
-| [Apify Actor Development Kit](skills/apify-actor-development-kit/) | Security Reviewed | 172 | 44.9k/wk | `clawhub install apify-actor-development-kit` |
-| [Apify Actor Runner](skills/apify-actor-runner/) | Security Reviewed | 172 | 44.9k/wk | `clawhub install apify-actor-runner` |
-| [Apify Actor Web Crawler](skills/apify-actor-web-crawler/) | Security Reviewed | 172 | 44.9k/wk | `clawhub install apify-actor-web-crawler` |
-| [Apify Actor Web Intelligence Agent](skills/apify-actor-web-intelligence-agent/) | Security Reviewed | 172 | 44.9k/wk | `clawhub install apify-actor-web-intelligence-agent` |
-| [Apify Web Scraper Orchestrator](skills/apify-web-scraper-orchestrator-3/) | Security Reviewed | 172 | 44.9k/wk | `clawhub install apify-web-scraper-orchestrator-3` |
-| [Censys Attack Surface Monitor](skills/censys-attack-surface-monitor/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install censys-attack-surface-monitor` |
-| [Academic Paper Citation Network Mapper](skills/academic-paper-citation-network-mapper/) | Security Reviewed | — | — | `clawhub install academic-paper-citation-network-mapper` |
-| [Beautiful Soup Academic Paper Parser](skills/beautifulsoup-academic-paper-parser/) | Security Reviewed | — | — | `clawhub install beautifulsoup-academic-paper-parser` |
-| [Browserless Scraping Agent](skills/browserless-scraping-agent/) | Security Reviewed | — | — | `clawhub install browserless-scraping-agent` |
-| [Common Crawl Index Query Agent](skills/common-crawl-index-query-agent/) | Security Reviewed | — | — | `clawhub install common-crawl-index-query-agent` |
-| [Common Crawl URL Index Miner](skills/common-crawl-url-index-miner/) | Security Reviewed | — | — | `clawhub install common-crawl-url-index-miner` |
-| [Crawl4AI LLM-Ready Web Crawler and Scraper](skills/crawl4ai-llm-web-crawler-scraper/) | Verified Metadata | — | — | `clawhub install crawl4ai-llm-web-crawler-scraper` |
-| [Crawlee Smart Crawler Agent](skills/crawlee-smart-crawler-agent/) | Security Reviewed | — | — | `clawhub install crawlee-smart-crawler-agent` |
-| [Diffbot Article Extraction Verifier](skills/diffbot-article-extraction-verifier/) | Security Reviewed | — | — | `clawhub install diffbot-article-extraction-verifier` |
-| [Diffbot Knowledge Graph Extractor](skills/diffbot-knowledge-graph-extractor/) | Security Reviewed | — | — | `clawhub install diffbot-knowledge-graph-extractor` |
-| [Firecrawl Markdown Capture Pipeline](skills/firecrawl-markdown-capture-pipeline/) | Security Reviewed | — | — | `clawhub install firecrawl-markdown-capture-pipeline` |
-| [Jina Reader API Skill](skills/jina-reader-api-skill/) | Security Reviewed | — | — | `clawhub install jina-reader-api-skill` |
-| [OSINT Domain Intelligence Scanner](skills/osint-domain-intelligence-scanner/) | Security Reviewed | — | — | `clawhub install osint-domain-intelligence-scanner` |
-| [Patent Landscape Analyzer](skills/patent-landscape-analyzer/) | Security Reviewed | — | — | `clawhub install patent-landscape-analyzer` |
-| [Product Review Sentiment Aggregator](skills/product-review-sentiment-aggregator/) | Security Reviewed | — | — | `clawhub install product-review-sentiment-aggregator` |
-| [ScrapingBee API Data Harvester](skills/scrapingbee-api-data-harvester/) | Security Reviewed | — | — | `clawhub install scrapingbee-api-data-harvester` |
-| [SEC EDGAR Financial Filing Parser](skills/sec-edgar-financial-filing-parser/) | Security Reviewed | — | — | `clawhub install sec-edgar-financial-filing-parser` |
-| [SerpAPI Answer Box Extractor](skills/serpapi-answer-box-extractor/) | Security Reviewed | — | — | `clawhub install serpapi-answer-box-extractor` |
-| [SerpAPI Scholar Agent](skills/serpapi-scholar-agent/) | Security Reviewed | — | — | `clawhub install serpapi-scholar-agent` |
-| [SerpAPI Search Intelligence Aggregator](skills/serpapi-search-intelligence-aggregator/) | Security Reviewed | — | — | `clawhub install serpapi-search-intelligence-aggregator` |
-| [SerpAPI Search Results Aggregator](skills/serpapi-search-results-aggregator/) | Security Reviewed | — | — | `clawhub install serpapi-search-results-aggregator` |
-| [Shodan Network Reconnaissance Agent](skills/shodan-network-reconnaissance-agent/) | Security Reviewed | — | — | `clawhub install shodan-network-reconnaissance-agent` |
+| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
+|---|---|---|---:|---:|
+| [Puppeteer Scraping Framework](skills/puppeteer-scraping-framework-2/) | Headless Chrome scraping using Puppeteer with stealth plugin, request interception via… | Security Reviewed | 93.9k | 8.7M/wk |
+| [Puppeteer Stealth Web Scraper](skills/puppeteer-stealth-web-scraper/) | Uses puppeteer-extra with stealth plugin to bypass bot detection for web scraping. Integrates with Cheerio for HTML… | Security Reviewed | 93.9k | 8.7M/wk |
+| [Puppeteer Web Scraper](skills/puppeteer-web-scraper/) | Headless Chrome scraping via Puppeteer with automatic cookie handling, JavaScript rendering, and Cheerio-based DOM… | Security Reviewed | 93.9k | 8.7M/wk |
+| [PuppeteerSharp Web Scraping Pipeline](skills/puppeteersharp-web-scraping-pipeline/) | Builds headless Chrome scraping pipelines using PuppeteerSharp for .NET environments. Handles JavaScript-rendered… | Security Reviewed | 93.9k | 8.7M/wk |
+| [Playwright Network Interceptor](skills/playwright-network-interceptor/) | Intercepts and analyzes network traffic using Playwright route handlers for API response capture and modification.… | Security Reviewed | 84.9k | 39.8M/wk |
+| [Playwright Page Data Extractor](skills/playwright-page-data-extractor/) | Uses Microsoft Playwright's Node.js API to navigate dynamic web applications, intercept network requests, and… | Security Reviewed | 84.9k | 39.8M/wk |
+| [Playwright Test Generator with Codegen](skills/playwright-test-generator-codegen/) | Records and generates end-to-end test scripts using Playwright Codegen with multi-browser targeting. Produces… | Security Reviewed | 84.9k | 39.8M/wk |
+| [SerpAPI Search Aggregator](skills/serpapi-search-aggregator/) | Aggregates search results from Google, Bing, and DuckDuckGo via the SerpAPI REST endpoint. Parses organic results,… | Security Reviewed | 73.5k | 8.2M/wk |
+| [Scrapy Pipeline Data Extractor](skills/scrapy-pipeline-data-extractor/) | Builds production Scrapy spiders with custom Item Pipelines for data cleaning and storage. Uses… | Security Reviewed | 60.9k | 39.8M/wk |
+| [Scrapy Spider Architect](skills/scrapy-spider-architect/) | Generates Scrapy spider classes with CSS/XPath selectors, item pipelines, and middleware configurations for… | Security Reviewed | 60.9k | 39.8M/wk |
+| [Scrapy Pipeline Manager](skills/scrapy-pipeline-manager/) | Manages Scrapy spider deployments via Scrapyd API with custom item pipelines for MongoDB ingestion, deduplication… | Security Reviewed | 60.9k | 10.9M/wk |
+| [Scrapy Spider Generator](skills/scrapy-spider-generator/) | Generates production-ready Scrapy spiders with middleware configuration and item pipeline setup. Uses the Scrapy… | Security Reviewed | 60.9k | 10.9M/wk |
+| [Scrapy Distributed Crawler Framework](skills/scrapy-distributed-crawler-framework/) | Orchestrates large-scale web crawling using Scrapy with scrapy-redis for distributed job queuing. Integrates Splash… | Security Reviewed | 60.9k | 8.2M/wk |
+| [ScrapyCloud Job Manager](skills/scrapycloud-job-manager/) | Manages Scrapy spider deployments and job scheduling on ScrapyCloud via the Scrapinghub API. Handles spider argument… | Security Reviewed | 60.9k | — |
+| [SEC EDGAR Filing Scraper &#038; Analyzer](skills/sec-edgar-filing-scraper-analyzer/) | Downloads and parses SEC EDGAR filings (10-K, 10-Q, 8-K) using the EDGAR full-text search API and python-xbrl.… | Security Reviewed | 48.2k | — |
+| [PubMed Literature Mining Agent](skills/pubmed-literature-mining-agent/) | Queries the NCBI E-utilities API (esearch, efetch, elink) to retrieve PubMed biomedical literature, extracting MeSH… | Security Reviewed | 45.6k | 9.4M/wk |
+| [Cheerio DOM Scraping Toolkit](skills/cheerio-dom-scraping-toolkit/) | Parses static HTML using Cheerio's jQuery-like API for fast server-side DOM traversal and data extraction. Generates… | Security Reviewed | 30.2k | 18.5M/wk |
+| [Cheerio Product Price Tracker](skills/cheerio-product-price-tracker/) | Monitors e-commerce product prices using Cheerio.js for server-side DOM parsing with got-scraping for stealth HTTP… | Security Reviewed | 30.2k | 18.5M/wk |
+| [SerpAPI Research Pipeline](skills/serpapi-research-pipeline/) | Builds structured research datasets by querying SerpAPI Google Search, Google Scholar, and Google News endpoints.… | Security Reviewed | 7k | 5M/wk |
+| [SerpAPI Search Pipeline](skills/serpapi-search-pipeline/) | Automates multi-engine searches via SerpAPI (Google, Bing, DuckDuckGo) with structured JSON extraction. Supports… | Security Reviewed | 7k | 5M/wk |
+| [Hacker News Deep Thread Analyzer](skills/hacker-news-deep-thread-analyzer/) | Scrapes and analyzes Hacker News threads using the official HN Firebase API and BeautifulSoup. Extracts sentiment… | Security Reviewed | 1.7k | 4.8M/wk |
+| [Crunchbase Company Intelligence Scraper](skills/crunchbase-company-intelligence-scraper/) | Extracts company profiles, funding rounds, and investor data using the Crunchbase Enterprise API v4 with… | Security Reviewed | 391 | 905.6k/wk |
+| [Apify Actor Development Kit](skills/apify-actor-development-kit/) | Builds Apify Actors for scalable cloud scraping with automatic proxy management and storage. Uses the Apify SDK… | Security Reviewed | 172 | 44.9k/wk |
+| [Apify Actor Runner](skills/apify-actor-runner/) | Executes Apify cloud actors for structured web scraping with automatic dataset export to S3. Supports actor input… | Security Reviewed | 172 | 44.9k/wk |
+| [Apify Actor Web Crawler](skills/apify-actor-web-crawler/) | Deploys custom Apify Actors via the Apify API v2 for large-scale web crawling using CrawleeJS. Leverages Apify… | Security Reviewed | 172 | 44.9k/wk |
+| [Apify Actor Web Intelligence Agent](skills/apify-actor-web-intelligence-agent/) | Deploys intelligent web scraping actors on the Apify platform using the Apify SDK with RequestQueue and Dataset… | Security Reviewed | 172 | 44.9k/wk |
+| [Apify Web Scraper Orchestrator](skills/apify-web-scraper-orchestrator-3/) | Orchestrates Apify actors for large-scale web scraping via the Apify Client SDK. Manages actor runs, dataset… | Security Reviewed | 172 | 44.9k/wk |
+| [Censys Attack Surface Monitor](skills/censys-attack-surface-monitor/) | Monitors internet-facing assets using Censys Search API v2 for host discovery and certificate enumeration. Tracks… | Security Reviewed | 69 | 210.8k/wk |
+| [Academic Paper Citation Network Mapper](skills/academic-paper-citation-network-mapper/) | Builds citation networks from Semantic Scholar API and CrossRef DOI metadata. Visualizes paper influence graphs… | Security Reviewed | — | — |
+| [Beautiful Soup Academic Paper Parser](skills/beautifulsoup-academic-paper-parser/) | Extracts structured citation data from academic repositories using BeautifulSoup4 with lxml parser. Parses DOI… | Security Reviewed | — | — |
+| [Browserless Scraping Agent](skills/browserless-scraping-agent/) | Drives headless Chrome via the Browserless.io API for scraping dynamic SPAs. Uses /content, /screenshot, and /pdf… | Security Reviewed | — | — |
+| [Common Crawl Index Query Agent](skills/common-crawl-index-query-agent/) | Queries the Common Crawl Index API for large-scale web archive research and data extraction. Uses the CDX Server… | Security Reviewed | — | — |
+| [Common Crawl URL Index Miner](skills/common-crawl-url-index-miner/) | Queries the Common Crawl Index API and CC-MAIN collections to surface historical URL coverage, MIME types, and crawl… | Security Reviewed | — | — |
+| [Crawl4AI LLM-Ready Web Crawler and Scraper](skills/crawl4ai-llm-web-crawler-scraper/) | Crawl4AI is an open-source web crawler that converts any website into clean, LLM-ready Markdown for RAG pipelines,… | Security Reviewed | — | — |
+| [Crawlee Smart Crawler Agent](skills/crawlee-smart-crawler-agent/) | Implements intelligent web crawling using the Crawlee framework with adaptive request routing between CheerioCrawler… | Security Reviewed | — | — |
+| [Diffbot Article Extraction Verifier](skills/diffbot-article-extraction-verifier/) | Validates article extraction quality using the Diffbot Article API and Analyze API, checking fields like `title`,… | Security Reviewed | — | — |
+| [Diffbot Knowledge Graph Extractor](skills/diffbot-knowledge-graph-extractor/) | Extracts structured entities from web pages using the Diffbot Extraction API and Knowledge Graph. Supports article,… | Security Reviewed | — | — |
+| [Firecrawl Markdown Capture Pipeline](skills/firecrawl-markdown-capture-pipeline/) | Captures clean site content through Firecrawl endpoints like `/v1/scrape`, `/v1/map`, and `/v1/crawl`, with Markdown… | Security Reviewed | — | — |
+| [Jina Reader API Skill](skills/jina-reader-api-skill/) | Extracts clean markdown content from any URL using the Jina Reader API (r.jina.ai). Handles JavaScript-rendered… | Security Reviewed | — | — |
+| [OSINT Domain Intelligence Scanner](skills/osint-domain-intelligence-scanner/) | Performs deep OSINT analysis on domains using Shodan API, SecurityTrails DNS history, and WHOIS RDAP lookups.… | Security Reviewed | — | — |
+| [Patent Landscape Analyzer](skills/patent-landscape-analyzer/) | Searches the USPTO PatentsView API and European Patent Office OPS (Open Patent Services) API for patent grants,… | Security Reviewed | — | — |
+| [Product Review Sentiment Aggregator](skills/product-review-sentiment-aggregator/) | Collects and analyzes product reviews from Amazon Product API and Google Shopping via SerpAPI. Uses spaCy NER and… | Security Reviewed | — | — |
+| [ScrapingBee API Data Harvester](skills/scrapingbee-api-data-harvester/) | Interfaces with the ScrapingBee REST API for JavaScript rendering and Google SERP extraction. Uses custom_google… | Security Reviewed | — | — |
+| [SEC EDGAR Financial Filing Parser](skills/sec-edgar-financial-filing-parser/) | Retrieves and parses SEC EDGAR filings (10-K, 10-Q, 8-K) using the EDGAR Full-Text Search API and company filing… | Security Reviewed | — | — |
+| [SerpAPI Answer Box Extractor](skills/serpapi-answer-box-extractor/) | Extracts high-signal SERP features from SerpAPI responses, including `answer_box`, `knowledge_graph`,… | Security Reviewed | — | — |
+| [SerpAPI Scholar Agent](skills/serpapi-scholar-agent/) | Automates academic research using the SerpAPI Google Scholar endpoint. Extracts citation graphs, h-index data, and… | Security Reviewed | — | — |
+| [SerpAPI Search Intelligence Aggregator](skills/serpapi-search-intelligence-aggregator/) | Connects to SerpAPI endpoints for Google, Bing, YouTube, and Google Scholar search result extraction. Uses the… | Security Reviewed | — | — |
+| [SerpAPI Search Results Aggregator](skills/serpapi-search-results-aggregator/) | Queries Google, Bing, and DuckDuckGo search APIs through SerpAPI to collect SERP features, Knowledge Graph data, and… | Security Reviewed | — | — |
+| [Shodan Network Reconnaissance Agent](skills/shodan-network-reconnaissance-agent/) | Performs network reconnaissance using the Shodan REST API and Shodan InternetDB. Discovers exposed services, CVE… | Security Reviewed | — | — |
 
 
 ### 🌐 Browser Automation (47 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=downloads)
 
-| Skill | Tier | GitHub Stars | npm Downloads | Install |
-|---|---|---:|---:|---|
-| [Browser Session Replay Analyzer](skills/browser-session-replay-analyzer/) | Security Reviewed | 93.9k | 8.7M/wk | `clawhub install browser-session-replay-analyzer` |
-| [Puppeteer Cookie Consent Automator](skills/puppeteer-cookie-consent-automator/) | Security Reviewed | 93.9k | 8.7M/wk | `clawhub install puppeteer-cookie-consent-automator` |
-| [Puppeteer Cookie Consent Handler](skills/puppeteer-cookie-consent-handler-3/) | Security Reviewed | 93.9k | 8.7M/wk | `clawhub install puppeteer-cookie-consent-handler-3` |
-| [Puppeteer Multi-Tab Session Manager](skills/puppeteer-multi-tab-session-manager/) | Security Reviewed | 93.9k | 8.7M/wk | `clawhub install puppeteer-multi-tab-session-manager` |
-| [Puppeteer PDF Renderer](skills/puppeteer-pdf-renderer/) | Security Reviewed | 93.9k | 8.7M/wk | `clawhub install puppeteer-pdf-renderer` |
-| [Puppeteer Screenshot Diff Engine](skills/puppeteer-screenshot-diff-engine/) | Security Reviewed | 93.9k | 8.7M/wk | `clawhub install puppeteer-screenshot-diff-engine` |
-| [Puppeteer Stealth Scraper](skills/puppeteer-stealth-scraper-agent/) | Verified Metadata | 93.9k | 8.7M/wk | `clawhub install puppeteer-stealth-scraper-agent` |
-| [Puppeteer Visual Regression Tester](skills/puppeteer-visual-regression-tester/) | Verified Metadata | 93.9k | 8.7M/wk | `clawhub install puppeteer-visual-regression-tester` |
-| [Puppeteer Visual Regression Testing](skills/puppeteer-visual-regression-testing/) | Security Reviewed | 93.9k | 8.7M/wk | `clawhub install puppeteer-visual-regression-testing` |
-| [Puppeteer Web Scraping Pipeline](skills/puppeteer-web-scraping-pipeline/) | Security Reviewed | 93.9k | 8.7M/wk | `clawhub install puppeteer-web-scraping-pipeline` |
-| [Agent Browser Operator](skills/agent-browser-operator/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install agent-browser-operator` |
-| [Playwright Accessibility Audit Runner](skills/playwright-accessibility-audit-runner/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-accessibility-audit-runner` |
-| [Playwright Cross-Browser Test Runner](skills/playwright-cross-browser-test-runner/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-cross-browser-test-runner` |
-| [Playwright MCP Browser Automation](skills/playwright-mcp-browser-automation/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-mcp-browser-automation` |
-| [Playwright Multi-Browser Test Generator](skills/playwright-multi-browser-test-generator/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-multi-browser-test-generator` |
-| [Playwright Multi-Browser Test Suite](skills/playwright-multi-browser-test-suite/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-multi-browser-test-suite` |
-| [Playwright Multi-Tab Session Manager](skills/playwright-multi-tab-session-manager-2/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-multi-tab-session-manager-2` |
-| [Playwright Network HAR Recorder](skills/playwright-network-har-recorder/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-network-har-recorder` |
-| [Playwright Parallel Tab Manager](skills/playwright-parallel-tab-manager/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-parallel-tab-manager` |
-| [Playwright PDF Export Automation](skills/playwright-pdf-export-automation/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-pdf-export-automation` |
-| [Playwright Session Recorder](skills/playwright-session-recorder-2/) | Verified Metadata | 84.9k | 39.8M/wk | `clawhub install playwright-session-recorder-2` |
-| [Playwright Visual Regression Suite](skills/playwright-visual-regression-suite/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-visual-regression-suite` |
-| [Playwright Visual Regression Tester](skills/playwright-visual-regression-tester-3/) | Verified Metadata | 84.9k | 39.8M/wk | `clawhub install playwright-visual-regression-tester-3` |
-| [Cypress Component Test Generator](skills/cypress-component-test-generator/) | Security Reviewed | 49.6k | 7.4M/wk | `clawhub install cypress-component-test-generator` |
-| [Cypress Component Testing Framework](skills/cypress-component-testing-framework-2/) | Security Reviewed | 49.6k | 7.4M/wk | `clawhub install cypress-component-testing-framework-2` |
-| [Cypress Component Testing Suite](skills/cypress-component-testing-suite/) | Security Reviewed | 49.6k | 7.4M/wk | `clawhub install cypress-component-testing-suite` |
-| [Cypress Component Testing Toolkit](skills/cypress-component-testing-toolkit/) | Security Reviewed | 49.6k | 7.4M/wk | `clawhub install cypress-component-testing-toolkit` |
-| [Cypress E2E API Intercept Skill](skills/cypress-e2e-api-intercept-skill/) | Security Reviewed | 49.6k | 7.4M/wk | `clawhub install cypress-e2e-api-intercept-skill` |
-| [Cypress E2E Test Generator](skills/cypress-e2e-test-generator-3/) | Security Reviewed | 49.6k | 7.4M/wk | `clawhub install cypress-e2e-test-generator-3` |
-| [Cypress Network Stub Generator](skills/cypress-network-stub-generator/) | Verified Metadata | 49.6k | 7.4M/wk | `clawhub install cypress-network-stub-generator` |
-| [Cypress Visual Regression Runner](skills/cypress-visual-regression-runner/) | Security Reviewed | 49.6k | 7.4M/wk | `clawhub install cypress-visual-regression-runner` |
-| [Cypress Visual Regression Testing Suite](skills/cypress-visual-regression-testing-suite/) | Security Reviewed | 49.6k | 7.4M/wk | `clawhub install cypress-visual-regression-testing-suite` |
-| [Selenium Grid Auto-Scaling Orchestrator](skills/selenium-grid-auto-scaling-orchestrator/) | Security Reviewed | 34.2k | 2M/wk | `clawhub install selenium-grid-auto-scaling-orchestrator` |
-| [Selenium Grid Cloud Executor](skills/selenium-grid-cloud-executor/) | Security Reviewed | 34.2k | 2M/wk | `clawhub install selenium-grid-cloud-executor` |
-| [Selenium Grid Load Balancer](skills/selenium-grid-load-balancer/) | Security Reviewed | 34.2k | 2M/wk | `clawhub install selenium-grid-load-balancer` |
-| [Selenium Grid Multi-Browser Test Runner](skills/selenium-grid-multi-browser-test-runner/) | Security Reviewed | 34.2k | 2M/wk | `clawhub install selenium-grid-multi-browser-test-runner` |
-| [Selenium Grid Orchestrator](skills/selenium-grid-orchestrator/) | Security Reviewed | 34.2k | 2M/wk | `clawhub install selenium-grid-orchestrator` |
-| [Selenium Grid Parallel Execution Manager](skills/selenium-grid-parallel-execution-manager/) | Security Reviewed | 34.2k | 2M/wk | `clawhub install selenium-grid-parallel-execution-manager` |
-| [Selenium Grid Parallel Executor](skills/selenium-grid-parallel-executor/) | Security Reviewed | 34.2k | 2M/wk | `clawhub install selenium-grid-parallel-executor` |
-| [Selenium Grid Parallel Test Runner](skills/selenium-grid-parallel-test-runner/) | Security Reviewed | 34.2k | 2M/wk | `clawhub install selenium-grid-parallel-test-runner` |
-| [Selenium Grid Session Distributor](skills/selenium-grid-session-distributor/) | Security Reviewed | 34.2k | 2M/wk | `clawhub install selenium-grid-session-distributor` |
-| [Selenium Grid Session Manager](skills/selenium-grid-session-manager/) | Security Reviewed | 34.2k | 2M/wk | `clawhub install selenium-grid-session-manager` |
-| [Selenium Grid Session Router](skills/selenium-grid-session-router/) | Security Reviewed | 34.2k | 2M/wk | `clawhub install selenium-grid-session-router` |
-| [Selenium Grid Test Orchestrator](skills/selenium-grid-test-orchestrator-2/) | Security Reviewed | 34.2k | 2M/wk | `clawhub install selenium-grid-test-orchestrator-2` |
-| [CDP Network Interception Logger](skills/cdp-network-interception-logger/) | Verified Metadata | 789 | 6M/wk | `clawhub install cdp-network-interception-logger` |
-| [Playwright MCP Server for Browser Automation](skills/playwright-mcp-server-browser-automation/) | Verified Metadata | — | — | `clawhub install playwright-mcp-server-browser-automation` |
-| [Stagehand AI Browser Automation Framework](skills/stagehand-ai-browser-automation-framework/) | Verified Metadata | — | — | `clawhub install stagehand-ai-browser-automation-framework` |
+| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
+|---|---|---|---:|---:|
+| [Browser Session Replay Analyzer](skills/browser-session-replay-analyzer/) | Records and replays browser sessions using rrweb recording library with DOM mutation serialization. Integrates with… | Security Reviewed | 93.9k | 8.7M/wk |
+| [Puppeteer Cookie Consent Automator](skills/puppeteer-cookie-consent-automator/) | Automatically detects and handles cookie consent banners across websites using Puppeteer CDP protocol and a trained… | Security Reviewed | 93.9k | 8.7M/wk |
+| [Puppeteer Cookie Consent Handler](skills/puppeteer-cookie-consent-handler-3/) | Detects and dismisses cookie consent banners across websites using Puppeteer page.evaluate selectors and the CMP… | Security Reviewed | 93.9k | 8.7M/wk |
+| [Puppeteer Multi-Tab Session Manager](skills/puppeteer-multi-tab-session-manager/) | Manages concurrent Puppeteer browser tabs with shared cookie jars and session persistence using Chrome DevTools… | Security Reviewed | 93.9k | 8.7M/wk |
+| [Puppeteer PDF Renderer](skills/puppeteer-pdf-renderer/) | Generates pixel-perfect PDFs from web pages using Puppeteer with custom headers, footers, and page breaks. Supports… | Security Reviewed | 93.9k | 8.7M/wk |
+| [Puppeteer Screenshot Diff Engine](skills/puppeteer-screenshot-diff-engine/) | Visual regression testing using Puppeteer page.screenshot() with pixelmatch comparison. Leverages CDP sessions via… | Security Reviewed | 93.9k | 8.7M/wk |
+| [Puppeteer Stealth Scraper](skills/puppeteer-stealth-scraper-agent/) | Anti-detection web scraping using puppeteer-extra-plugin-stealth with residential proxy rotation. Implements Canvas… | Security Reviewed | 93.9k | 8.7M/wk |
+| [Puppeteer Visual Regression Tester](skills/puppeteer-visual-regression-tester/) | Automates visual regression testing using Puppeteer page.screenshot() with pixelmatch diffing. Captures full-page… | Security Reviewed | 93.9k | 8.7M/wk |
+| [Puppeteer Visual Regression Testing](skills/puppeteer-visual-regression-testing/) | Runs pixel-level visual regression tests using Puppeteer page.screenshot() and pixelmatch diffing library. Compares… | Security Reviewed | 93.9k | 8.7M/wk |
+| [Puppeteer Web Scraping Pipeline](skills/puppeteer-web-scraping-pipeline/) | Builds web scraping pipelines with Puppeteer using page.evaluate, page.waitForSelector, and browser.newPage. Handles… | Security Reviewed | 93.9k | 8.7M/wk |
+| [Agent Browser Operator](skills/agent-browser-operator/) | Interactive browser skill for logged-in flows, dynamic pages, and session-aware site operations. | Security Reviewed | 84.9k | 39.8M/wk |
+| [Playwright Accessibility Audit Runner](skills/playwright-accessibility-audit-runner/) | Runs automated WCAG 2.1 AA/AAA accessibility audits using Playwright with axe-core integration. Generates detailed… | Security Reviewed | 84.9k | 39.8M/wk |
+| [Playwright Cross-Browser Test Runner](skills/playwright-cross-browser-test-runner/) | Runs end-to-end browser tests using Playwright Test with page.goto, page.locator, and expect assertions. Supports… | Security Reviewed | 84.9k | 39.8M/wk |
+| [Playwright MCP Browser Automation](skills/playwright-mcp-browser-automation/) | Official Playwright-powered browser control for agent workflows. | Security Reviewed | 84.9k | 39.8M/wk |
+| [Playwright Multi-Browser Test Generator](skills/playwright-multi-browser-test-generator/) | Generates Playwright test scripts for Chromium, Firefox, and WebKit from natural language descriptions. Uses the… | Security Reviewed | 84.9k | 39.8M/wk |
+| [Playwright Multi-Browser Test Suite](skills/playwright-multi-browser-test-suite/) | Generates end-to-end test suites using the Playwright Test Runner API with cross-browser coverage on Chromium,… | Security Reviewed | 84.9k | 39.8M/wk |
+| [Playwright Multi-Tab Session Manager](skills/playwright-multi-tab-session-manager-2/) | Manages concurrent Playwright browser contexts with tab isolation and cookie partitioning. Uses Playwright… | Security Reviewed | 84.9k | 39.8M/wk |
+| [Playwright Network HAR Recorder](skills/playwright-network-har-recorder/) | Records and replays HTTP Archive (HAR) files using Playwright routeFromHAR API for deterministic test environments.… | Security Reviewed | 84.9k | 39.8M/wk |
+| [Playwright Parallel Tab Manager](skills/playwright-parallel-tab-manager/) | Manages concurrent Playwright browser contexts with tab pooling and automatic resource cleanup. Integrates with… | Security Reviewed | 84.9k | 39.8M/wk |
+| [Playwright PDF Export Automation](skills/playwright-pdf-export-automation/) | Automates headless PDF generation from web pages using the Playwright chromium.launch() API with custom page.pdf()… | Security Reviewed | 84.9k | 39.8M/wk |
+| [Playwright Session Recorder](skills/playwright-session-recorder-2/) | Records browser sessions using Playwright codegen and exports replayable test scripts. Captures network HAR files… | Security Reviewed | 84.9k | 39.8M/wk |
+| [Playwright Visual Regression Suite](skills/playwright-visual-regression-suite/) | Automated visual regression testing using Playwright's screenshot comparison API (page.screenshot with… | Security Reviewed | 84.9k | 39.8M/wk |
+| [Playwright Visual Regression Tester](skills/playwright-visual-regression-tester-3/) | Automates visual regression testing using the Playwright screenshot comparison API and pixelmatch diffing library.… | Security Reviewed | 84.9k | 39.8M/wk |
+| [Cypress Component Test Generator](skills/cypress-component-test-generator/) | Auto-generates Cypress component tests from React and Vue source files using AST parsing. Produces mount,… | Security Reviewed | 49.6k | 7.4M/wk |
+| [Cypress Component Testing Framework](skills/cypress-component-testing-framework-2/) | Scaffolds Cypress component tests for React, Vue, and Angular apps using the Cypress CT mount API. Configures… | Security Reviewed | 49.6k | 7.4M/wk |
+| [Cypress Component Testing Suite](skills/cypress-component-testing-suite/) | Implements component and E2E tests using Cypress with cy.mount, cy.intercept, and cy.get selectors. Configures… | Security Reviewed | 49.6k | 7.4M/wk |
+| [Cypress Component Testing Toolkit](skills/cypress-component-testing-toolkit/) | Creates component and integration tests using the Cypress Testing Library API and cy.intercept for network stubbing.… | Security Reviewed | 49.6k | 7.4M/wk |
+| [Cypress E2E API Intercept Skill](skills/cypress-e2e-api-intercept-skill/) | Creates end-to-end tests with Cypress cy.intercept() for API mocking and cy.wait() for request assertion. Uses… | Security Reviewed | 49.6k | 7.4M/wk |
+| [Cypress E2E Test Generator](skills/cypress-e2e-test-generator-3/) | Generates Cypress end-to-end test suites from user flow recordings. Uses the Cypress Real Events plugin and… | Security Reviewed | 49.6k | 7.4M/wk |
+| [Cypress Network Stub Generator](skills/cypress-network-stub-generator/) | Generates cy.intercept() stubs from recorded HAR files for deterministic E2E tests. Uses cy.session() for… | Security Reviewed | 49.6k | 7.4M/wk |
+| [Cypress Visual Regression Runner](skills/cypress-visual-regression-runner/) | Runs visual regression tests comparing screenshots captured via Cypress cy.screenshot() against baseline images… | Security Reviewed | 49.6k | 7.4M/wk |
+| [Cypress Visual Regression Testing Suite](skills/cypress-visual-regression-testing-suite/) | Automates pixel-level visual regression testing using Cypress with cypress-image-snapshot plugin. Compares… | Security Reviewed | 49.6k | 7.4M/wk |
+| [Selenium Grid Auto-Scaling Orchestrator](skills/selenium-grid-auto-scaling-orchestrator/) | Orchestrates Selenium Grid 4 node scaling based on test queue depth using the Grid GraphQL API. Manages Docker… | Security Reviewed | 34.2k | 2M/wk |
+| [Selenium Grid Cloud Executor](skills/selenium-grid-cloud-executor/) | Distributes browser test suites across Selenium Grid 4 nodes using RemoteWebDriver and the W3C WebDriver protocol.… | Security Reviewed | 34.2k | 2M/wk |
+| [Selenium Grid Load Balancer](skills/selenium-grid-load-balancer/) | Distributes browser automation workloads across Selenium Grid 4 nodes using the Grid REST API and session queue… | Security Reviewed | 34.2k | 2M/wk |
+| [Selenium Grid Multi-Browser Test Runner](skills/selenium-grid-multi-browser-test-runner/) | Orchestrates parallel cross-browser testing across Selenium Grid nodes using WebDriver RemoteConnection API.… | Security Reviewed | 34.2k | 2M/wk |
+| [Selenium Grid Orchestrator](skills/selenium-grid-orchestrator/) | Manages Selenium Grid 4 hub and node registration for cross-browser parallel testing. Configures Chrome, Firefox,… | Security Reviewed | 34.2k | 2M/wk |
+| [Selenium Grid Parallel Execution Manager](skills/selenium-grid-parallel-execution-manager/) | Orchestrates distributed browser testing across Selenium Grid 4 nodes using the Grid REST API. Manages session… | Security Reviewed | 34.2k | 2M/wk |
+| [Selenium Grid Parallel Executor](skills/selenium-grid-parallel-executor/) | Orchestrates parallel browser automation across Selenium Grid nodes using RemoteWebDriver, DesiredCapabilities, and… | Security Reviewed | 34.2k | 2M/wk |
+| [Selenium Grid Parallel Test Runner](skills/selenium-grid-parallel-test-runner/) | Orchestrates distributed browser tests across Selenium Grid 4 nodes with dynamic scaling. Uses selenium-webdriver… | Security Reviewed | 34.2k | 2M/wk |
+| [Selenium Grid Session Distributor](skills/selenium-grid-session-distributor/) | Manages browser session allocation across Selenium Grid 4 nodes using the GraphQL status endpoint and… | Security Reviewed | 34.2k | 2M/wk |
+| [Selenium Grid Session Manager](skills/selenium-grid-session-manager/) | Manages distributed browser sessions on Selenium Grid 4 via the GraphQL API and /status endpoint. Handles node… | Security Reviewed | 34.2k | 2M/wk |
+| [Selenium Grid Session Router](skills/selenium-grid-session-router/) | Routes browser automation sessions across Selenium Grid 4 nodes using the /status and /session endpoints. Configures… | Security Reviewed | 34.2k | 2M/wk |
+| [Selenium Grid Test Orchestrator](skills/selenium-grid-test-orchestrator-2/) | Orchestrates distributed browser testing across Selenium Grid 4 nodes using the Grid API. Manages session queuing,… | Security Reviewed | 34.2k | 2M/wk |
+| [CDP Network Interception Logger](skills/cdp-network-interception-logger/) | Uses Chrome DevTools Protocol Fetch.requestPaused and Network.responseReceived events to intercept, log, and modify… | Security Reviewed | 789 | 6M/wk |
+| [Playwright MCP Server for Browser Automation](skills/playwright-mcp-server-browser-automation/) | The official Microsoft Playwright MCP server provides browser automation capabilities through the Model Context… | Security Reviewed | — | — |
+| [Stagehand AI Browser Automation Framework](skills/stagehand-ai-browser-automation-framework/) | Stagehand is an open-source browser automation framework that combines natural language instructions with code for… | Security Reviewed | — | — |
 
 
 ### 🎙️ Media & Transcription (40 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&sort=downloads)
 
-| Skill | Tier | GitHub Stars | npm Downloads | Install |
-|---|---|---:|---:|---|
-| [OpenAI Whisper API Transcription](skills/openai-whisper-api-transcription/) | Security Reviewed | 96.6k | 16.3M/wk | `clawhub install openai-whisper-api-transcription` |
-| [OpenAI Whisper Batch Transcription Pipeline](skills/whisper-batch-transcription-pipeline/) | Security Reviewed | 96.6k | 16.3M/wk | `clawhub install whisper-batch-transcription-pipeline` |
-| [OpenAI Whisper Transcription](skills/openai-whisper-transcription/) | Security Reviewed | 96.6k | 16.3M/wk | `clawhub install openai-whisper-transcription` |
-| [Podcast Transcription Pipeline](skills/podcast-transcription-pipeline-agent/) | Security Reviewed | 96.6k | 16.3M/wk | `clawhub install podcast-transcription-pipeline-agent` |
-| [Whisper Diarization Post-Processor](skills/whisper-diarization-post-processor/) | Security Reviewed | 96.6k | 16.3M/wk | `clawhub install whisper-diarization-post-processor` |
-| [Whisper Subtitle Generator](skills/whisper-subtitle-generator/) | Security Reviewed | 96.6k | 16.3M/wk | `clawhub install whisper-subtitle-generator` |
-| [Whisper.cpp Local Transcription Engine](skills/whisper-cpp-local-transcription-engine/) | Security Reviewed | 96.6k | 16.3M/wk | `clawhub install whisper-cpp-local-transcription-engine` |
-| [YouTube Chapters Generator with Whisper](skills/youtube-chapters-generator-whisper/) | Security Reviewed | 96.6k | 16.3M/wk | `clawhub install youtube-chapters-generator-whisper` |
-| [Podcast RSS Feed Transcriber](skills/podcast-rss-feed-transcriber/) | Security Reviewed | 96.6k | — | `clawhub install podcast-rss-feed-transcriber` |
-| [Whisper.cpp Real-Time Transcription Pipeline](skills/whisper-cpp-realtime-transcription-pipeline/) | Security Reviewed | 96.6k | — | `clawhub install whisper-cpp-realtime-transcription-pipeline` |
-| [GStreamer Live Stream Transcoder](skills/gstreamer-live-stream-transcoder/) | Security Reviewed | 63.3k | 5.3M/wk | `clawhub install gstreamer-live-stream-transcoder` |
-| [Audio Stem Separator with Demucs](skills/audio-stem-separator-demucs/) | Security Reviewed | 58.3k | — | `clawhub install audio-stem-separator-demucs` |
-| [Deepgram Nova STT Pipeline](skills/deepgram-nova-stt-pipeline/) | Security Reviewed | 58.3k | — | `clawhub install deepgram-nova-stt-pipeline` |
-| [FFmpeg Audio Normalization Pipeline](skills/ffmpeg-audio-normalization-pipeline/) | Security Reviewed | 58.3k | — | `clawhub install ffmpeg-audio-normalization-pipeline` |
-| [FFmpeg Audio Transcoder](skills/ffmpeg-audio-transcoder/) | Security Reviewed | 58.3k | — | `clawhub install ffmpeg-audio-transcoder` |
-| [FFmpeg Batch Transcode Pipeline](skills/ffmpeg-batch-transcode-pipeline/) | Security Reviewed | 58.3k | — | `clawhub install ffmpeg-batch-transcode-pipeline` |
-| [FFmpeg Batch Transcoder](skills/ffmpeg-batch-transcoder-skill/) | Security Reviewed | 58.3k | — | `clawhub install ffmpeg-batch-transcoder-skill` |
-| [FFmpeg Clip Extractor](skills/ffmpeg-clip-extractor-agent/) | Security Reviewed | 58.3k | — | `clawhub install ffmpeg-clip-extractor-agent` |
-| [Live Stream Audio Monitor](skills/live-stream-audio-monitor/) | Security Reviewed | 58.3k | — | `clawhub install live-stream-audio-monitor` |
-| [Live Stream Clip Extractor](skills/live-stream-clip-extractor-agent/) | Security Reviewed | 58.3k | — | `clawhub install live-stream-clip-extractor-agent` |
-| [Podcast RSS Feed Audio Normalizer](skills/podcast-rss-feed-audio-normalizer/) | Security Reviewed | 58.3k | — | `clawhub install podcast-rss-feed-audio-normalizer` |
-| [Video Frames Extractor](skills/video-frames-extractor/) | Security Reviewed | 58.3k | — | `clawhub install video-frames-extractor` |
-| [Video Subtitle Auto-Translator](skills/video-subtitle-auto-translator-agent/) | Security Reviewed | 58.3k | — | `clawhub install video-subtitle-auto-translator-agent` |
-| [Video Subtitle Translator Agent](skills/video-subtitle-translator-agent/) | Security Reviewed | 58.3k | — | `clawhub install video-subtitle-translator-agent` |
-| [MediaInfo Metadata Extractor](skills/mediainfo-metadata-extractor/) | Security Reviewed | 7k | 5M/wk | `clawhub install mediainfo-metadata-extractor` |
-| [Deepgram Podcast Chapter Generator](skills/deepgram-podcast-chapter-generator/) | Security Reviewed | 5.6k | 1.1M/wk | `clawhub install deepgram-podcast-chapter-generator` |
-| [ElevenLabs Voiceover Generator for Long-Form Content](skills/elevenlabs-voiceover-longform/) | Security Reviewed | 1.9k | 1M/wk | `clawhub install elevenlabs-voiceover-longform` |
-| [Audio Fingerprint Identifier](skills/audio-fingerprint-identifier-agent/) | Security Reviewed | — | 21.4M/wk | `clawhub install audio-fingerprint-identifier-agent` |
-| [AssemblyAI Audio Intelligence Agent](skills/assemblyai-audio-intelligence-agent/) | Security Reviewed | — | — | `clawhub install assemblyai-audio-intelligence-agent` |
-| [AssemblyAI LeMUR Summarizer](skills/assemblyai-lemur-summarizer-agent/) | Security Reviewed | — | — | `clawhub install assemblyai-lemur-summarizer-agent` |
-| [AssemblyAI Summarization &#038; Chapters Skill](skills/assemblyai-summarization-chapters-skill/) | Security Reviewed | — | — | `clawhub install assemblyai-summarization-chapters-skill` |
-| [Core Audio Unit v3 Debugger](skills/core-audio-unit-v3-debugger/) | Security Reviewed | — | — | `clawhub install core-audio-unit-v3-debugger` |
-| [Deepgram Nova Transcriber](skills/deepgram-nova-transcriber-agent/) | Security Reviewed | — | — | `clawhub install deepgram-nova-transcriber-agent` |
-| [Deepgram Real-Time Transcription Connector](skills/deepgram-realtime-transcription-connector/) | Security Reviewed | — | — | `clawhub install deepgram-realtime-transcription-connector` |
-| [Dolby Atmos ADM-BWF Metadata Extractor](skills/dolby-atmos-adm-bwf-metadata-extractor/) | Security Reviewed | — | — | `clawhub install dolby-atmos-adm-bwf-metadata-extractor` |
-| [Dolby.io Media Enhancer](skills/dolby-io-media-enhancer-agent/) | Security Reviewed | — | — | `clawhub install dolby-io-media-enhancer-agent` |
-| [ElevenLabs Voice Cloning Agent](skills/elevenlabs-voice-cloning-agent/) | Security Reviewed | — | — | `clawhub install elevenlabs-voice-cloning-agent` |
-| [GStreamer Pipeline Graph Optimizer](skills/gstreamer-pipeline-graph-optimizer/) | Security Reviewed | — | — | `clawhub install gstreamer-pipeline-graph-optimizer` |
-| [Podcast RSS Feed Builder](skills/podcast-rss-feed-builder/) | Security Reviewed | — | — | `clawhub install podcast-rss-feed-builder` |
-| [YouTube Chapter Generator from Transcripts](skills/youtube-chapter-generator-transcripts/) | Security Reviewed | — | — | `clawhub install youtube-chapter-generator-transcripts` |
+| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
+|---|---|---|---:|---:|
+| [OpenAI Whisper API Transcription](skills/openai-whisper-api-transcription/) | API-based speech-to-text transcription through OpenAI. No local model downloads, no GPU, no Python ML stack — just… | Security Reviewed | 96.6k | 16.3M/wk |
+| [OpenAI Whisper Batch Transcription Pipeline](skills/whisper-batch-transcription-pipeline/) | Processes audio files from an S3 bucket using Whisper large-v3, splitting recordings into 30-second chunks with… | Security Reviewed | 96.6k | 16.3M/wk |
+| [OpenAI Whisper Transcription](skills/openai-whisper-transcription/) | Local speech-to-text transcription without relying on an API. | Security Reviewed | 96.6k | 16.3M/wk |
+| [Podcast Transcription Pipeline](skills/podcast-transcription-pipeline-agent/) | Transcribes podcast episodes using OpenAI Whisper API with speaker diarization via pyannote.audio. Exports formatted… | Security Reviewed | 96.6k | 16.3M/wk |
+| [Whisper Diarization Post-Processor](skills/whisper-diarization-post-processor/) | Enhances OpenAI Whisper transcription output with speaker diarization using pyannote.audio pipeline and speechbrain… | Security Reviewed | 96.6k | 16.3M/wk |
+| [Whisper Subtitle Generator](skills/whisper-subtitle-generator/) | Generates accurate subtitles and captions using OpenAI Whisper API with word-level timestamps. Outputs SRT, VTT, and… | Security Reviewed | 96.6k | 16.3M/wk |
+| [Whisper.cpp Local Transcription Engine](skills/whisper-cpp-local-transcription-engine/) | Runs OpenAI Whisper models locally via whisper.cpp with GGML quantized weights for CPU-efficient transcription.… | Security Reviewed | 96.6k | 16.3M/wk |
+| [YouTube Chapters Generator with Whisper](skills/youtube-chapters-generator-whisper/) | Downloads YouTube audio via yt-dlp, transcribes with Whisper, and uses NLP topic segmentation via TextTiling… | Security Reviewed | 96.6k | 16.3M/wk |
+| [Podcast RSS Feed Transcriber](skills/podcast-rss-feed-transcriber/) | Automatically fetches podcast episodes from RSS feeds using feedparser, downloads audio enclosures, and transcribes… | Security Reviewed | 96.6k | — |
+| [Whisper.cpp Real-Time Transcription Pipeline](skills/whisper-cpp-realtime-transcription-pipeline/) | Streams audio from PulseAudio or ALSA devices into whisper.cpp for real-time speech-to-text with word-level… | Security Reviewed | 96.6k | — |
+| [GStreamer Live Stream Transcoder](skills/gstreamer-live-stream-transcoder/) | Builds GStreamer pipelines for real-time video transcoding with NVENC/VA-API hardware acceleration. Supports… | Security Reviewed | 63.3k | 5.3M/wk |
+| [Audio Stem Separator with Demucs](skills/audio-stem-separator-demucs/) | Separates audio tracks into individual stems (vocals, drums, bass, other) using Meta's Demucs neural network model… | Security Reviewed | 58.3k | — |
+| [Deepgram Nova STT Pipeline](skills/deepgram-nova-stt-pipeline/) | Real-time speech-to-text using Deepgram Nova-2 API with streaming WebSocket connections. Supports diarization,… | Security Reviewed | 58.3k | — |
+| [FFmpeg Audio Normalization Pipeline](skills/ffmpeg-audio-normalization-pipeline/) | Normalizes audio loudness to broadcast standards using FFmpeg loudnorm filter with EBU R128 two-pass analysis.… | Security Reviewed | 58.3k | — |
+| [FFmpeg Audio Transcoder](skills/ffmpeg-audio-transcoder/) | Transcodes and processes audio files using the FFmpeg CLI and libavcodec library. Supports batch format conversion,… | Security Reviewed | 58.3k | — |
+| [FFmpeg Batch Transcode Pipeline](skills/ffmpeg-batch-transcode-pipeline/) | Orchestrates parallel FFmpeg transcoding jobs with hardware-accelerated encoding via NVENC, VAAPI, or VideoToolbox.… | Security Reviewed | 58.3k | — |
+| [FFmpeg Batch Transcoder](skills/ffmpeg-batch-transcoder-skill/) | Batch transcode media files using FFmpeg CLI with preset profiles for web, mobile, and broadcast delivery. Supports… | Security Reviewed | 58.3k | — |
+| [FFmpeg Clip Extractor](skills/ffmpeg-clip-extractor-agent/) | Extracts video clips and segments using FFmpeg libavformat and libavcodec APIs. Supports keyframe-accurate cutting… | Security Reviewed | 58.3k | — |
+| [Live Stream Audio Monitor](skills/live-stream-audio-monitor/) | Monitors live audio streams from RTMP, HLS, or Icecast sources using FFmpeg stream capture and real-time chunked… | Security Reviewed | 58.3k | — |
+| [Live Stream Clip Extractor](skills/live-stream-clip-extractor-agent/) | Extracts highlight clips from live streams using Twitch Helix API, YouTube Live Streaming API, and FFmpeg segment… | Security Reviewed | 58.3k | — |
+| [Podcast RSS Feed Audio Normalizer](skills/podcast-rss-feed-audio-normalizer/) | Parses podcast RSS feeds with feedparser and normalizes audio loudness to -16 LUFS broadcast standard using ffmpeg… | Security Reviewed | 58.3k | — |
+| [Video Frames Extractor](skills/video-frames-extractor/) | Extract frames and short clips from videos. Core Capabilities Process audio and video files using ffmpeg for… | Security Reviewed | 58.3k | — |
+| [Video Subtitle Auto-Translator](skills/video-subtitle-auto-translator-agent/) | Translates video subtitles across 100+ languages using DeepL API and Google Cloud Translation v3. Handles SRT/VTT… | Security Reviewed | 58.3k | — |
+| [Video Subtitle Translator Agent](skills/video-subtitle-translator-agent/) | Extracts embedded subtitles from video containers using FFmpeg's subtitle stream extraction, translates SRT/VTT… | Security Reviewed | 58.3k | — |
+| [MediaInfo Metadata Extractor](skills/mediainfo-metadata-extractor/) | Extracts comprehensive media metadata using the MediaInfo library and pymediainfo Python bindings. Analyzes… | Security Reviewed | 7k | 5M/wk |
+| [Deepgram Podcast Chapter Generator](skills/deepgram-podcast-chapter-generator/) | Submits podcast MP3 URLs to Deepgram Nova-2 with paragraph and summarize features, then clusters returned timestamps… | Security Reviewed | 5.6k | 1.1M/wk |
+| [ElevenLabs Voiceover Generator for Long-Form Content](skills/elevenlabs-voiceover-longform/) | Splits blog posts or scripts into optimal chunks under ElevenLabs character limits, synthesizes each chunk using the… | Security Reviewed | 1.9k | 1M/wk |
+| [Audio Fingerprint Identifier](skills/audio-fingerprint-identifier-agent/) | Identifies audio content using Chromaprint/AcoustID fingerprinting, Shazam API recognition, and ACRCloud monitoring.… | Security Reviewed | — | 21.4M/wk |
+| [AssemblyAI Audio Intelligence Agent](skills/assemblyai-audio-intelligence-agent/) | Extract structured intelligence from audio using the AssemblyAI API with sentiment analysis, entity detection, topic… | Security Reviewed | — | — |
+| [AssemblyAI LeMUR Summarizer](skills/assemblyai-lemur-summarizer-agent/) | Summarizes audio content using AssemblyAI's LeMUR (Large Language Model for Audio Understanding) API. Chains the… | Security Reviewed | — | — |
+| [AssemblyAI Summarization &#038; Chapters Skill](skills/assemblyai-summarization-chapters-skill/) | Transcribes audio and generates auto-chapters with summaries using AssemblyAI's /v2/transcript endpoint with… | Security Reviewed | — | — |
+| [Core Audio Unit v3 Debugger](skills/core-audio-unit-v3-debugger/) | Debugs and profiles Apple Audio Unit v3 (AUv3) plugins using auval validation tool, the AUAudioUnit Swift API, and… | Security Reviewed | — | — |
+| [Deepgram Nova Transcriber](skills/deepgram-nova-transcriber-agent/) | Transcribes audio using the Deepgram Nova-2 API with diarization, punctuation, and smart formatting. Supports… | Security Reviewed | — | — |
+| [Deepgram Real-Time Transcription Connector](skills/deepgram-realtime-transcription-connector/) | Streams live audio to Deepgram's WebSocket API at wss://api.deepgram.com/v1/listen for real-time speech-to-text.… | Security Reviewed | — | — |
+| [Dolby Atmos ADM-BWF Metadata Extractor](skills/dolby-atmos-adm-bwf-metadata-extractor/) | Extracts and validates Audio Definition Model (ADM) metadata from Broadcast Wave Format (BWF) files using the libadm… | Security Reviewed | — | — |
+| [Dolby.io Media Enhancer](skills/dolby-io-media-enhancer-agent/) | Enhances audio and video quality using the Dolby.io Media Processing API. Applies noise reduction, loudness… | Security Reviewed | — | — |
+| [ElevenLabs Voice Cloning Agent](skills/elevenlabs-voice-cloning-agent/) | Clone and synthesize custom voices using the ElevenLabs API v2 with instant voice cloning. Manages voice library… | Security Reviewed | — | — |
+| [GStreamer Pipeline Graph Optimizer](skills/gstreamer-pipeline-graph-optimizer/) | Analyzes and optimizes GStreamer media pipelines by parsing DOT graph dumps from GST_DEBUG_DUMP_DOT_DIR, profiling… | Security Reviewed | — | — |
+| [Podcast RSS Feed Builder](skills/podcast-rss-feed-builder/) | Generates and validates podcast RSS feeds compliant with the Apple Podcasts and Spotify specification. Uses the… | Security Reviewed | — | — |
+| [YouTube Chapter Generator from Transcripts](skills/youtube-chapter-generator-transcripts/) | Extracts YouTube video transcripts via the youtube-transcript-api Python library and generates semantic chapter… | Security Reviewed | — | — |
 
 
 ### ✍️ Content Writing & SEO (37 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=downloads)
 
-| Skill | Tier | GitHub Stars | npm Downloads | Install |
-|---|---|---:|---:|---|
-| [Surfer SEO Content Optimizer](skills/surfer-seo-content-optimizer/) | Security Reviewed | 30.2k | 18.5M/wk | `clawhub install surfer-seo-content-optimizer` |
-| [AI Content Readability Optimizer](skills/ai-content-readability-optimizer/) | Security Reviewed | 21k | — | `clawhub install ai-content-readability-optimizer` |
-| [Internal Link Builder](skills/internal-link-builder-seo-agent/) | Security Reviewed | 21k | — | `clawhub install internal-link-builder-seo-agent` |
-| [Internal Link Graph Optimizer](skills/internal-link-graph-optimizer/) | Security Reviewed | 21k | — | `clawhub install internal-link-graph-optimizer` |
-| [Jasper AI Long-Form Blog Post Generator](skills/jasper-longform-blog-generator/) | Security Reviewed | 21k | — | `clawhub install jasper-longform-blog-generator` |
-| [Keyword Cannibalization Detector](skills/keyword-cannibalization-detector/) | Security Reviewed | 21k | — | `clawhub install keyword-cannibalization-detector` |
-| [Schema.org Structured Data Injector](skills/schema-org-structured-data-injector/) | Security Reviewed | 21k | — | `clawhub install schema-org-structured-data-injector` |
-| [SEO Meta Tag Optimizer](skills/seo-meta-tag-optimizer-agent/) | Security Reviewed | 21k | — | `clawhub install seo-meta-tag-optimizer-agent` |
-| [SEO Schema Markup Generator](skills/seo-schema-markup-generator-agent/) | Security Reviewed | 21k | — | `clawhub install seo-schema-markup-generator-agent` |
-| [WordPress Content Optimizer](skills/wordpress-content-optimizer-yoast-rest/) | Security Reviewed | 21k | — | `clawhub install wordpress-content-optimizer-yoast-rest` |
-| [AI Meta Description Generator](skills/ai-meta-description-generator/) | Security Reviewed | 10.8k | 16.3M/wk | `clawhub install ai-meta-description-generator` |
-| [AI-Powered Meta Description Writer](skills/ai-powered-meta-description-writer/) | Security Reviewed | 10.8k | 16.3M/wk | `clawhub install ai-powered-meta-description-writer` |
-| [Content Readability Analyzer](skills/content-readability-analyzer-agent/) | Security Reviewed | 10.8k | 16.3M/wk | `clawhub install content-readability-analyzer-agent` |
-| [Content Brief Architect](skills/content-brief-architect-agent/) | Security Reviewed | 5.6k | 1.1M/wk | `clawhub install content-brief-architect-agent` |
-| [Keyword Cluster Generator](skills/keyword-cluster-generator-agent/) | Security Reviewed | 5.6k | 1.1M/wk | `clawhub install keyword-cluster-generator-agent` |
-| [Copy.ai Sales Email Sequence Builder](skills/copyai-sales-email-sequence/) | Security Reviewed | 391 | 905.6k/wk | `clawhub install copyai-sales-email-sequence` |
-| [Ahrefs Backlink Content Planner](skills/ahrefs-backlink-content-planner/) | Security Reviewed | — | — | `clawhub install ahrefs-backlink-content-planner` |
-| [Ahrefs Content Gap Finder](skills/ahrefs-content-gap-finder-agent/) | Security Reviewed | — | — | `clawhub install ahrefs-content-gap-finder-agent` |
-| [Ahrefs Keyword Gap Analysis Skill](skills/ahrefs-keyword-gap-analysis-skill/) | Security Reviewed | — | — | `clawhub install ahrefs-keyword-gap-analysis-skill` |
-| [Clearscope NLP Grading Pipeline](skills/clearscope-nlp-grading-pipeline/) | Security Reviewed | — | — | `clawhub install clearscope-nlp-grading-pipeline` |
-| [Content Cannibalization Detector](skills/content-cannibalization-detector/) | Security Reviewed | — | — | `clawhub install content-cannibalization-detector` |
-| [Content Readability Optimizer](skills/content-readability-optimizer/) | Security Reviewed | — | — | `clawhub install content-readability-optimizer` |
-| [Google Search Console Insights Agent](skills/gsc-insights-agent/) | Security Reviewed | — | — | `clawhub install gsc-insights-agent` |
-| [Google Search Console Performance Analyzer](skills/gsc-performance-analyzer-skill/) | Security Reviewed | — | — | `clawhub install gsc-performance-analyzer-skill` |
-| [Hemingway Readability Analyzer API](skills/hemingway-readability-analyzer-api/) | Security Reviewed | — | — | `clawhub install hemingway-readability-analyzer-api` |
-| [Internal Link Optimizer](skills/internal-link-optimizer-seo/) | Security Reviewed | — | — | `clawhub install internal-link-optimizer-seo` |
-| [Markdown-to-AMP Article Converter](skills/markdown-to-amp-article-converter/) | Security Reviewed | — | — | `clawhub install markdown-to-amp-article-converter` |
-| [Schema Markup Generator for SEO](skills/schema-markup-generator-seo/) | Security Reviewed | — | — | `clawhub install schema-markup-generator-seo` |
-| [Schema.org Markup Generator](skills/schema-org-markup-generator-agent/) | Security Reviewed | — | — | `clawhub install schema-org-markup-generator-agent` |
-| [Schema.org Structured Data Generator](skills/schema-org-structured-data-generator/) | Security Reviewed | — | — | `clawhub install schema-org-structured-data-generator` |
-| [SEMrush Content Optimizer Agent](skills/semrush-content-optimizer-agent/) | Security Reviewed | — | — | `clawhub install semrush-content-optimizer-agent` |
-| [SEMrush Keyword Research Agent](skills/semrush-keyword-research-agent-api-v3/) | Security Reviewed | — | — | `clawhub install semrush-keyword-research-agent-api-v3` |
-| [SEO Content Cluster Generator](skills/seo-content-cluster-generator/) | Security Reviewed | — | — | `clawhub install seo-content-cluster-generator` |
-| [SEO Keyword Research Automator](skills/seo-keyword-research-automator/) | Security Reviewed | — | — | `clawhub install seo-keyword-research-automator` |
-| [Surfer SEO Content Optimizer Integration](skills/surfer-seo-content-optimizer-integration/) | Security Reviewed | — | — | `clawhub install surfer-seo-content-optimizer-integration` |
-| [Surfer SEO SERP Analyzer](skills/surfer-seo-serp-analyzer/) | Security Reviewed | — | — | `clawhub install surfer-seo-serp-analyzer` |
-| [Technical SEO Audit Crawler](skills/technical-seo-audit-crawler/) | Security Reviewed | — | — | `clawhub install technical-seo-audit-crawler` |
+| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
+|---|---|---|---:|---:|
+| [Surfer SEO Content Optimizer](skills/surfer-seo-content-optimizer/) | Analyzes top SERP competitors using DataForSEO API and generates content optimization briefs with target word count,… | Security Reviewed | 30.2k | 18.5M/wk |
+| [AI Content Readability Optimizer](skills/ai-content-readability-optimizer/) | Analyzes and optimizes content readability using Flesch-Kincaid scoring, Hemingway Editor API integration, and… | Security Reviewed | 21k | — |
+| [Internal Link Builder](skills/internal-link-builder-seo-agent/) | Analyzes site content graph using Screaming Frog SEO Spider API and builds internal linking recommendations.… | Security Reviewed | 21k | — |
+| [Internal Link Graph Optimizer](skills/internal-link-graph-optimizer/) | Analyzes internal linking structure by crawling sitemaps with Screaming Frog or Sitebulb, computing PageRank… | Security Reviewed | 21k | — |
+| [Jasper AI Long-Form Blog Post Generator](skills/jasper-longform-blog-generator/) | Connects to Jasper's /v1/content/generate REST endpoint to produce SEO-optimized long-form blog posts using the Boss… | Security Reviewed | 21k | — |
+| [Keyword Cannibalization Detector](skills/keyword-cannibalization-detector/) | Detects keyword cannibalization issues using Google Search Console API performance data and Semrush keyword… | Security Reviewed | 21k | — |
+| [Schema.org Structured Data Injector](skills/schema-org-structured-data-injector/) | Generates and validates JSON-LD structured data markup for articles, products, FAQs, and HowTo content types… | Security Reviewed | 21k | — |
+| [SEO Meta Tag Optimizer](skills/seo-meta-tag-optimizer-agent/) | Generates optimized title tags, meta descriptions, and Open Graph markup using Google NLP API for entity salience… | Security Reviewed | 21k | — |
+| [SEO Schema Markup Generator](skills/seo-schema-markup-generator-agent/) | Generates JSON-LD structured data for articles, products, FAQs, and local business schemas using Schema.org… | Security Reviewed | 21k | — |
+| [WordPress Content Optimizer](skills/wordpress-content-optimizer-yoast-rest/) | Optimizes WordPress posts for SEO using the Yoast SEO REST API fields alongside WP REST API v2 for content updates.… | Security Reviewed | 21k | — |
+| [AI Meta Description Generator](skills/ai-meta-description-generator/) | Bulk-generates SEO meta descriptions from page content using OpenAI's GPT-4o API with custom system prompts tuned… | Security Reviewed | 10.8k | 16.3M/wk |
+| [AI-Powered Meta Description Writer](skills/ai-powered-meta-description-writer/) | Generates optimized meta descriptions using OpenAI Chat Completions API with token-aware truncation. Integrates with… | Security Reviewed | 10.8k | 16.3M/wk |
+| [Content Readability Analyzer](skills/content-readability-analyzer-agent/) | Scores content using Flesch-Kincaid, Gunning Fog, and SMOG readability indices via textstat Python library. Provides… | Security Reviewed | 10.8k | 16.3M/wk |
+| [Content Brief Architect](skills/content-brief-architect-agent/) | Creates detailed SEO content briefs using Ahrefs API keyword data, SurferSEO NLP analysis, and Clearscope content… | Security Reviewed | 5.6k | 1.1M/wk |
+| [Keyword Cluster Generator](skills/keyword-cluster-generator-agent/) | Groups keywords into topical clusters using sentence-transformers all-MiniLM-L6-v2 embeddings with HDBSCAN… | Security Reviewed | 5.6k | 1.1M/wk |
+| [Copy.ai Sales Email Sequence Builder](skills/copyai-sales-email-sequence/) | Leverages Copy.ai's Workflows API to generate multi-step cold outreach sequences with persona-specific messaging.… | Security Reviewed | 391 | 905.6k/wk |
+| [Ahrefs Backlink Content Planner](skills/ahrefs-backlink-content-planner/) | Leverages Ahrefs REST API v3 to identify content gap opportunities through competing domain analysis. Pulls… | Security Reviewed | — | — |
+| [Ahrefs Content Gap Finder](skills/ahrefs-content-gap-finder-agent/) | Identifies content gaps using the Ahrefs API v3 /site-explorer/organic-keywords endpoint. Compares competitor… | Security Reviewed | — | — |
+| [Ahrefs Keyword Gap Analysis Skill](skills/ahrefs-keyword-gap-analysis-skill/) | Identifies keyword opportunities by comparing competitor rankings using Ahrefs' /v3/site-explorer/organic-keywords… | Security Reviewed | — | — |
+| [Clearscope NLP Grading Pipeline](skills/clearscope-nlp-grading-pipeline/) | Connects to Clearscope API to generate content grades based on NLP term frequency analysis. Automates keyword… | Security Reviewed | — | — |
+| [Content Cannibalization Detector](skills/content-cannibalization-detector/) | Identifies keyword cannibalization across site pages by analyzing Google Search Console Performance API data,… | Security Reviewed | — | — |
+| [Content Readability Optimizer](skills/content-readability-optimizer/) | Analyzes and optimizes content readability using textstat Python library and Hemingway API patterns. Computes… | Security Reviewed | — | — |
+| [Google Search Console Insights Agent](skills/gsc-insights-agent/) | Extracts search performance data via the Google Search Console API v1 /searchAnalytics/query endpoint. Analyzes CTR,… | Security Reviewed | — | — |
+| [Google Search Console Performance Analyzer](skills/gsc-performance-analyzer-skill/) | Pulls search analytics from Google Search Console's /searchanalytics/query API to identify declining pages and… | Security Reviewed | — | — |
+| [Hemingway Readability Analyzer API](skills/hemingway-readability-analyzer-api/) | Scores content readability using textstat library metrics (Flesch-Kincaid, Gunning Fog, SMOG, Coleman-Liau).… | Security Reviewed | — | — |
+| [Internal Link Optimizer](skills/internal-link-optimizer-seo/) | Optimizes internal linking structure using Screaming Frog SEO Spider XML exports and NetworkX graph analysis.… | Security Reviewed | — | — |
+| [Markdown-to-AMP Article Converter](skills/markdown-to-amp-article-converter/) | Converts Markdown files to valid AMP HTML articles using unified/remark/rehype pipeline. Validates output against… | Security Reviewed | — | — |
+| [Schema Markup Generator for SEO](skills/schema-markup-generator-seo/) | Generates JSON-LD structured data using schema-dts TypeScript definitions and Google Rich Results Test API… | Security Reviewed | — | — |
+| [Schema.org Markup Generator](skills/schema-org-markup-generator-agent/) | Generates structured data markup using Schema.org vocabulary in JSON-LD format. Supports Article, Product, FAQPage,… | Security Reviewed | — | — |
+| [Schema.org Structured Data Generator](skills/schema-org-structured-data-generator/) | Generates JSON-LD structured data markup for articles, products, FAQs, and how-to pages using Schema.org vocabulary.… | Security Reviewed | — | — |
+| [SEMrush Content Optimizer Agent](skills/semrush-content-optimizer-agent/) | Integrates with SEMrush Writing Assistant API to analyze content against top-10 SERP competitors. Provides real-time… | Security Reviewed | — | — |
+| [SEMrush Keyword Research Agent](skills/semrush-keyword-research-agent-api-v3/) | Performs keyword research using SEMrush API v3 with domain analytics, keyword difficulty scoring, and SERP feature… | Security Reviewed | — | — |
+| [SEO Content Cluster Generator](skills/seo-content-cluster-generator/) | Builds topical authority clusters using SEMrush Keyword Magic API, Ahrefs Content Explorer, and Google Search… | Security Reviewed | — | — |
+| [SEO Keyword Research Automator](skills/seo-keyword-research-automator/) | Automated keyword research using DataForSEO API and Google Search Console API. Performs SERP analysis, keyword… | Security Reviewed | — | — |
+| [Surfer SEO Content Optimizer Integration](skills/surfer-seo-content-optimizer-integration/) | Optimizes content against Surfer SEO's NLP-based recommendations via the Surfer API /v1/content_editors endpoint.… | Security Reviewed | — | — |
+| [Surfer SEO SERP Analyzer](skills/surfer-seo-serp-analyzer/) | Uses Surfer SEO Content Editor API to pull SERP analysis data including word count benchmarks, heading structure… | Security Reviewed | — | — |
+| [Technical SEO Audit Crawler](skills/technical-seo-audit-crawler/) | Crawls websites for technical SEO issues using Screaming Frog CLI, Lighthouse CI API, and PageSpeed Insights v5.… | Security Reviewed | — | — |
 
 
 ### 📰 WordPress & CMS (32 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS&sort=downloads)
 
-| Skill | Tier | GitHub Stars | npm Downloads | Install |
-|---|---|---:|---:|---|
-| [WP Multisite Domain Mapping Agent](skills/wp-multisite-domain-mapping-agent/) | Security Reviewed | 32.9k | — | `clawhub install wp-multisite-domain-mapping-agent` |
-| [Gutenberg Block Scaffolder](skills/gutenberg-block-scaffolder-agent/) | Security Reviewed | 21k | 44.8M/wk | `clawhub install gutenberg-block-scaffolder-agent` |
-| [Gutenberg Custom Block Builder](skills/gutenberg-custom-block-builder/) | Security Reviewed | 21k | 44.8M/wk | `clawhub install gutenberg-custom-block-builder` |
-| [ACF Custom Fields REST Exposer](skills/acf-custom-fields-rest-exposer/) | Security Reviewed | 21k | — | `clawhub install acf-custom-fields-rest-exposer` |
-| [ACF to Gutenberg Block Migrator](skills/acf-to-gutenberg-block-migrator/) | Security Reviewed | 21k | — | `clawhub install acf-to-gutenberg-block-migrator` |
-| [Advanced Custom Fields REST Schema Mapper](skills/advanced-custom-fields-rest-schema-mapper/) | Security Reviewed | 21k | — | `clawhub install advanced-custom-fields-rest-schema-mapper` |
-| [Gutenberg Block Pattern Generator](skills/gutenberg-block-pattern-generator/) | Security Reviewed | 21k | — | `clawhub install gutenberg-block-pattern-generator` |
-| [WordPress ACF Field Group Auditor](skills/wordpress-acf-field-group-auditor/) | Security Reviewed | 21k | — | `clawhub install wordpress-acf-field-group-auditor` |
-| [WordPress Block Theme Scaffolder](skills/wordpress-block-theme-scaffolder/) | Security Reviewed | 21k | — | `clawhub install wordpress-block-theme-scaffolder` |
-| [WordPress Content Publisher](skills/wordpress-content-publisher/) | Security Reviewed | 21k | — | `clawhub install wordpress-content-publisher` |
-| [WordPress Gutenberg Block Generator](skills/wordpress-gutenberg-block-generator/) | Security Reviewed | 21k | — | `clawhub install wordpress-gutenberg-block-generator` |
-| [WordPress Gutenberg Block Scaffolder](skills/wordpress-gutenberg-block-scaffolder/) | Security Reviewed | 21k | — | `clawhub install wordpress-gutenberg-block-scaffolder` |
-| [WordPress Multisite Network Sync](skills/wordpress-multisite-network-sync/) | Security Reviewed | 21k | — | `clawhub install wordpress-multisite-network-sync` |
-| [WordPress Multisite Provisioner](skills/wp-multisite-provisioner-agent/) | Security Reviewed | 21k | — | `clawhub install wp-multisite-provisioner-agent` |
-| [WordPress REST API Builder](skills/wordpress-rest-api-builder/) | Security Reviewed | 21k | — | `clawhub install wordpress-rest-api-builder` |
-| [WordPress REST API Content Sync](skills/wordpress-rest-api-content-sync/) | Security Reviewed | 21k | — | `clawhub install wordpress-rest-api-content-sync` |
-| [WordPress Router](skills/wordpress-router/) | Security Reviewed | 21k | — | `clawhub install wordpress-router` |
-| [WordPress Theme.json Design Token Manager](skills/wp-theme-json-design-token-manager/) | Security Reviewed | 21k | — | `clawhub install wp-theme-json-design-token-manager` |
-| [WP Abilities API](skills/wp-abilities-api/) | Security Reviewed | 21k | — | `clawhub install wp-abilities-api` |
-| [WP Multisite Network Sync Agent](skills/wp-multisite-network-sync-agent/) | Security Reviewed | 21k | — | `clawhub install wp-multisite-network-sync-agent` |
-| [WP-CLI Bulk Content Migrator](skills/wp-cli-bulk-content-migrator/) | Security Reviewed | 21k | — | `clawhub install wp-cli-bulk-content-migrator` |
-| [WP-CLI Content Drift Auditor](skills/wp-cli-content-drift-auditor/) | Security Reviewed | 21k | — | `clawhub install wp-cli-content-drift-auditor` |
-| [WP-CLI Site Migration Automator](skills/wp-cli-site-migration-automator/) | Security Reviewed | 21k | — | `clawhub install wp-cli-site-migration-automator` |
-| [WPGraphQL Schema Extension Builder](skills/wpgraphql-schema-extension-builder/) | Security Reviewed | 21k | — | `clawhub install wpgraphql-schema-extension-builder` |
-| [Headless CMS GraphQL Connector](skills/headless-cms-graphql-connector/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install headless-cms-graphql-connector` |
-| [WooCommerce REST Sync Agent](skills/woocommerce-rest-sync-agent/) | Security Reviewed | 7k | 5M/wk | `clawhub install woocommerce-rest-sync-agent` |
-| [WooCommerce REST Order Manager](skills/woocommerce-rest-order-manager/) | Security Reviewed | 4.4k | 8.4M/wk | `clawhub install woocommerce-rest-order-manager` |
-| [WP Cron Health Monitor](skills/wp-cron-health-monitor/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install wp-cron-health-monitor` |
-| [WooCommerce Order Sync Agent](skills/woocommerce-order-sync-agent/) | Security Reviewed | — | — | `clawhub install woocommerce-order-sync-agent` |
-| [WooCommerce REST Inventory Sync](skills/woocommerce-rest-inventory-sync/) | Security Reviewed | — | — | `clawhub install woocommerce-rest-inventory-sync` |
-| [WooCommerce Webhook Delivery Inspector](skills/woocommerce-webhook-delivery-inspector/) | Security Reviewed | — | — | `clawhub install woocommerce-webhook-delivery-inspector` |
-| [WooCommerce Webhook Orchestrator](skills/woocommerce-webhook-orchestrator/) | Security Reviewed | — | — | `clawhub install woocommerce-webhook-orchestrator` |
+| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
+|---|---|---|---:|---:|
+| [WP Multisite Domain Mapping Agent](skills/wp-multisite-domain-mapping-agent/) | Manages domain mapping configurations across WordPress Multisite networks using the sunrise.php drop-in and WP-CLI's… | Security Reviewed | 32.9k | — |
+| [Gutenberg Block Scaffolder](skills/gutenberg-block-scaffolder-agent/) | Generates custom Gutenberg blocks using @wordpress/create-block and the Block API v3 schema. Produces edit.js,… | Security Reviewed | 21k | 44.8M/wk |
+| [Gutenberg Custom Block Builder](skills/gutenberg-custom-block-builder/) | Scaffolds and builds custom Gutenberg blocks using @wordpress/create-block and the Block API registerBlockType().… | Security Reviewed | 21k | 44.8M/wk |
+| [ACF Custom Fields REST Exposer](skills/acf-custom-fields-rest-exposer/) | Exposes Advanced Custom Fields data through the WordPress REST API using register_rest_field and acf_format_value.… | Security Reviewed | 21k | — |
+| [ACF to Gutenberg Block Migrator](skills/acf-to-gutenberg-block-migrator/) | Converts Advanced Custom Fields field groups into native Gutenberg blocks using the ACF Block API v2 and… | Security Reviewed | 21k | — |
+| [Advanced Custom Fields REST Schema Mapper](skills/advanced-custom-fields-rest-schema-mapper/) | Maps ACF field groups into predictable REST responses using `acf_add_local_field_group`, `get_field_objects`, and… | Security Reviewed | 21k | — |
+| [Gutenberg Block Pattern Generator](skills/gutenberg-block-pattern-generator/) | Generates custom WordPress Gutenberg block patterns using register_block_pattern() and the Block Editor API. Creates… | Security Reviewed | 21k | — |
+| [WordPress ACF Field Group Auditor](skills/wordpress-acf-field-group-auditor/) | Fetches all Advanced Custom Fields field groups and their field definitions via the ACF REST API (/wp-json/acf/v3/),… | Security Reviewed | 21k | — |
+| [WordPress Block Theme Scaffolder](skills/wordpress-block-theme-scaffolder/) | Generates complete WordPress block theme structures using theme.json v3, block patterns via… | Security Reviewed | 21k | — |
+| [WordPress Content Publisher](skills/wordpress-content-publisher/) | Structured publishing workflow for WordPress drafts, metadata, and content operations. | Security Reviewed | 21k | — |
+| [WordPress Gutenberg Block Generator](skills/wordpress-gutenberg-block-generator/) | Scaffolds custom Gutenberg blocks using the @wordpress/create-block CLI and block.json schema, then registers them… | Security Reviewed | 21k | — |
+| [WordPress Gutenberg Block Scaffolder](skills/wordpress-gutenberg-block-scaffolder/) | Generates custom Gutenberg blocks using @wordpress/create-block and the Block API v2. Configures block.json… | Security Reviewed | 21k | — |
+| [WordPress Multisite Network Sync](skills/wordpress-multisite-network-sync/) | Synchronizes plugin settings and theme mods across a WordPress Multisite network using the Network Admin REST… | Security Reviewed | 21k | — |
+| [WordPress Multisite Provisioner](skills/wp-multisite-provisioner-agent/) | Automates WordPress Multisite network site creation using wp_insert_site() and the Sites REST API. Configures… | Security Reviewed | 21k | — |
+| [WordPress REST API Builder](skills/wordpress-rest-api-builder/) | Build and debug WordPress REST endpoints with a specialized skill. | Security Reviewed | 21k | — |
+| [WordPress REST API Content Sync](skills/wordpress-rest-api-content-sync/) | Synchronizes content between WordPress multisite installations using the WP REST API /wp/v2/posts endpoint with… | Security Reviewed | 21k | — |
+| [WordPress Router](skills/wordpress-router/) | Route WordPress tasks to the right workflow fast. Core Capabilities Manage WordPress sites using WP-CLI and the… | Security Reviewed | 21k | — |
+| [WordPress Theme.json Design Token Manager](skills/wp-theme-json-design-token-manager/) | Manages WordPress theme.json design tokens including color palettes, typography presets, and spacing scales. Uses… | Security Reviewed | 21k | — |
+| [WP Abilities API](skills/wp-abilities-api/) | Specialized support for defining, exposing, and debugging WordPress abilities through the Abilities API. | Security Reviewed | 21k | — |
+| [WP Multisite Network Sync Agent](skills/wp-multisite-network-sync-agent/) | Synchronizes content, users, and plugin configurations across WordPress Multisite networks using the WP_Site_Query… | Security Reviewed | 21k | — |
+| [WP-CLI Bulk Content Migrator](skills/wp-cli-bulk-content-migrator/) | Automates large-scale WordPress content migrations using WP-CLI wp post create and wp term set commands. Handles… | Security Reviewed | 21k | — |
+| [WP-CLI Content Drift Auditor](skills/wp-cli-content-drift-auditor/) | Audits WordPress content drift by comparing live posts, revisions, and key options using WP-CLI commands like `wp… | Security Reviewed | 21k | — |
+| [WP-CLI Site Migration Automator](skills/wp-cli-site-migration-automator/) | Automates full WordPress site migrations using WP-CLI search-replace, wp db export, and rsync. Handles serialized… | Security Reviewed | 21k | — |
+| [WPGraphQL Schema Extension Builder](skills/wpgraphql-schema-extension-builder/) | Builds and documents WPGraphQL extensions with hooks such as `graphql_register_types`, `register_graphql_field`, and… | Security Reviewed | 21k | — |
+| [Headless CMS GraphQL Connector](skills/headless-cms-graphql-connector/) | Connects headless CMS backends (WordPress WPGraphQL, Strapi, Contentful) to frontend frameworks using Apollo Client… | Security Reviewed | 20.3k | 32M/wk |
+| [WooCommerce REST Sync Agent](skills/woocommerce-rest-sync-agent/) | Synchronizes WooCommerce product data bidirectionally using the WC REST API v3 and wc/v3/products endpoints. Handles… | Security Reviewed | 7k | 5M/wk |
+| [WooCommerce REST Order Manager](skills/woocommerce-rest-order-manager/) | Queries and updates WooCommerce orders via the WooCommerce REST API v3 (/wp-json/wc/v3/orders), filters by status,… | Security Reviewed | 4.4k | 8.4M/wk |
+| [WP Cron Health Monitor](skills/wp-cron-health-monitor/) | Monitors WordPress wp-cron scheduled events using the WP_Cron API and Action Scheduler library. Detects stuck,… | Security Reviewed | 69 | 210.8k/wk |
+| [WooCommerce Order Sync Agent](skills/woocommerce-order-sync-agent/) | Synchronizes WooCommerce orders with external ERPs using the WooCommerce REST API v3 and wp_schedule_event. Handles… | Security Reviewed | — | — |
+| [WooCommerce REST Inventory Sync](skills/woocommerce-rest-inventory-sync/) | Synchronizes WooCommerce product inventory across multiple channels using the WooCommerce REST API v3 and… | Security Reviewed | — | — |
+| [WooCommerce Webhook Delivery Inspector](skills/woocommerce-webhook-delivery-inspector/) | Inspects WooCommerce webhook reliability through the `WC_Webhook` model, Action Scheduler queues, and REST endpoints… | Security Reviewed | — | — |
+| [WooCommerce Webhook Orchestrator](skills/woocommerce-webhook-orchestrator/) | Manages WooCommerce webhook lifecycles using the wc/v3/webhooks REST API and WC_Webhook class. Handles order,… | Security Reviewed | — | — |
 
 
 ### 📦 40 (4 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=40) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=40&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=40&sort=downloads)
 
-| Skill | Tier | GitHub Stars | npm Downloads | Install |
-|---|---|---:|---:|---|
-| [Checkly Browser Check Failure Notifier](skills/checkly-browser-check-failure-notifier/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install checkly-browser-check-failure-notifier` |
-| [Elastic APM Transaction Anomaly Spotter](skills/elastic-apm-transaction-anomaly-spotter/) | Security Reviewed | 76.4k | 1.9M/wk | `clawhub install elastic-apm-transaction-anomaly-spotter` |
-| [Sentry Issue Spike Detection Agent](skills/sentry-issue-spike-detection-agent/) | Security Reviewed | 43.4k | 16.4M/wk | `clawhub install sentry-issue-spike-detection-agent` |
-| [Uptime Robot Status Page Webhook Alerter](skills/uptime-robot-status-page-webhook-alerter/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install uptime-robot-status-page-webhook-alerter` |
+| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
+|---|---|---|---:|---:|
+| [Checkly Browser Check Failure Notifier](skills/checkly-browser-check-failure-notifier/) | Monitors Checkly browser checks via the Checkly Management API and notifies teams on Playwright test failures.… | Security Reviewed | 84.9k | 39.8M/wk |
+| [Elastic APM Transaction Anomaly Spotter](skills/elastic-apm-transaction-anomaly-spotter/) | Queries Elastic APM transaction data through the Elasticsearch REST API to surface latency anomalies and throughput… | Security Reviewed | 76.4k | 1.9M/wk |
+| [Sentry Issue Spike Detection Agent](skills/sentry-issue-spike-detection-agent/) | Analyzes Sentry project event streams via the Sentry Issues API to detect sudden spikes in error frequency. Computes… | Security Reviewed | 43.4k | 16.4M/wk |
+| [Uptime Robot Status Page Webhook Alerter](skills/uptime-robot-status-page-webhook-alerter/) | Integrates with the Uptime Robot API to monitor status page changes and push webhook alerts to Slack or PagerDuty.… | Security Reviewed | 69 | 210.8k/wk |
 
 
 ### 📦 41 (4 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=41) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=41&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=41&sort=downloads)
 
-| Skill | Tier | GitHub Stars | npm Downloads | Install |
-|---|---|---:|---:|---|
-| [Terraform Module Boilerplate Assembler](skills/terraform-module-boilerplate-assembler/) | Security Reviewed | 48k | — | `clawhub install terraform-module-boilerplate-assembler` |
-| [Cookiecutter Project Template Scaffolder](skills/cookiecutter-project-template-scaffolder/) | Security Reviewed | — | — | `clawhub install cookiecutter-project-template-scaffolder` |
-| [Plop.js Code Generator Orchestrator](skills/plopjs-code-generator-orchestrator/) | Security Reviewed | — | — | `clawhub install plopjs-code-generator-orchestrator` |
-| [Yeoman Sub-Generator Composition Builder](skills/yeoman-sub-generator-composition-builder/) | Security Reviewed | — | — | `clawhub install yeoman-sub-generator-composition-builder` |
+| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
+|---|---|---|---:|---:|
+| [Terraform Module Boilerplate Assembler](skills/terraform-module-boilerplate-assembler/) | Generates Terraform module scaffolds with variables.tf, outputs.tf, and provider configurations from a module… | Security Reviewed | 48k | — |
+| [Cookiecutter Project Template Scaffolder](skills/cookiecutter-project-template-scaffolder/) | Generates project scaffolds using Cookiecutter templates from GitHub repositories or local directories. Automates… | Security Reviewed | — | — |
+| [Plop.js Code Generator Orchestrator](skills/plopjs-code-generator-orchestrator/) | Manages Plop.js micro-generators to scaffold components, modules, and boilerplate files using Handlebars templates.… | Security Reviewed | — | — |
+| [Yeoman Sub-Generator Composition Builder](skills/yeoman-sub-generator-composition-builder/) | Orchestrates Yeoman generator composition by chaining sub-generators via the Yeoman Environment API. Manages yo run… | Security Reviewed | — | — |
 
 
 ### 📦 42 (4 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=42) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=42&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=42&sort=downloads)
 
-| Skill | Tier | GitHub Stars | npm Downloads | Install |
-|---|---|---:|---:|---|
-| [RunwayML Gen-3 Alpha Video Composer](skills/runwayml-gen-3-alpha-video-composer/) | Security Reviewed | 58.3k | — | `clawhub install runwayml-gen-3-alpha-video-composer` |
-| [DALL-E 3 Brand Asset Batch Generator](skills/dall-e-3-brand-asset-batch-generator/) | Security Reviewed | 10.8k | 16.3M/wk | `clawhub install dall-e-3-brand-asset-batch-generator` |
-| [Midjourney Prompt Chain Builder](skills/midjourney-prompt-chain-builder/) | Security Reviewed | — | — | `clawhub install midjourney-prompt-chain-builder` |
-| [Stable Diffusion ControlNet Pose Pipeline](skills/stable-diffusion-controlnet-pose-pipeline/) | Security Reviewed | — | — | `clawhub install stable-diffusion-controlnet-pose-pipeline` |
+| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
+|---|---|---|---:|---:|
+| [RunwayML Gen-3 Alpha Video Composer](skills/runwayml-gen-3-alpha-video-composer/) | Composes AI-generated video clips using the RunwayML Gen-3 Alpha API with text-to-video and image-to-video modes.… | Security Reviewed | 58.3k | — |
+| [DALL-E 3 Brand Asset Batch Generator](skills/dall-e-3-brand-asset-batch-generator/) | Batch-generates brand assets using the OpenAI Images API with DALL-E 3. Manages prompt engineering for consistent… | Security Reviewed | 10.8k | 16.3M/wk |
+| [Midjourney Prompt Chain Builder](skills/midjourney-prompt-chain-builder/) | Constructs and manages Midjourney prompt chains for iterative image refinement. Automates parameter tuning for --ar,… | Security Reviewed | — | — |
+| [Stable Diffusion ControlNet Pose Pipeline](skills/stable-diffusion-controlnet-pose-pipeline/) | Orchestrates Stable Diffusion image generation with ControlNet pose conditioning via the Automatic1111 API. Chains… | Security Reviewed | — | — |
 
 
 ---

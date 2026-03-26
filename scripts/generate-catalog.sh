@@ -42,8 +42,8 @@ CAT_EMOJI = {
     "WordPress & CMS": "📰",
 }
 VER_LABEL = {
-    "listed": "Listed",
-    "verified_metadata": "Verified Metadata",
+    "listed": "Published",
+    "verified_metadata": "Published",
     "security_reviewed": "Security Reviewed",
 }
 
@@ -89,25 +89,9 @@ signal_count = sum(1 for i in items if int(i.get("github_stars") or 0) > 0 or in
 lines = [
     "# Agent Skill Exchange — Full Catalog",
     "",
-    f"> **{len(items)} skills** across **{len(cat_rows)} categories** · Updated {dt.datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC')}",
+    f"> **{len(items)} published skills** across **{len(cat_rows)} categories** · {ver['security_reviewed']} security reviewed · Updated {dt.datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC')}",
     ">",
     "> Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.",
-    "",
-    "---",
-    "",
-    "## Summary",
-    "",
-    "| Metric | Value |",
-    "|--------|-------|",
-    f"| Total Skills | **{len(items)}** |",
-    f"| Categories | **{len(cat_rows)}** |",
-    f"| Frameworks | **{framework_count}** |",
-    f"| Skills with live signal data | **{signal_count}** |",
-    f"| Security Reviewed | **{ver['security_reviewed']}** |",
-    f"| Verified Metadata | **{ver['verified_metadata']}** |",
-    f"| Listed | **{ver['listed']}** |",
-    "",
-    "> These verification counts are **final-state buckets**, not cumulative stages.",
     "",
     "---",
     "",
@@ -127,14 +111,20 @@ for cat in cat_rows:
         "",
         f"Live views: [Browse]({browse_url}) · [Top Starred]({browse_url}&sort=stars) · [Top Downloaded]({browse_url}&sort=downloads)",
         "",
-        "| Skill | Tier | GitHub Stars | npm Downloads | Install |",
-        "|---|---|---:|---:|---|",
+        "| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |",
+        "|---|---|---|---:|---:|",
     ]
     for item in cat_items:
         title = item.get('title', '')
         slug = item.get('slug', '')
-        tier = VER_LABEL.get(item.get('verification', 'listed'), 'Listed')
-        lines.append(f"| [{title}](skills/{slug}/) | {tier} | {fmt_num(item.get('github_stars') or 0)} | {downloads_str(item.get('npm_downloads') or 0)} | `clawhub install {slug}` |")
+        tier = VER_LABEL.get(item.get('verification', 'listed'), 'Published')
+        desc = (item.get('excerpt') or '').strip()
+        # Truncate long descriptions for table readability
+        if len(desc) > 120:
+            desc = desc[:117].rsplit(' ', 1)[0] + '…'
+        # Escape pipe characters in description
+        desc = desc.replace('|', '\\|')
+        lines.append(f"| [{title}](skills/{slug}/) | {desc} | {tier} | {fmt_num(item.get('github_stars') or 0)} | {downloads_str(item.get('npm_downloads') or 0)} |")
     lines += ["", ""]
 
 lines += [
