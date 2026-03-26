@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1252 skills** across **20 categories** · Updated 2026-03-26 02:14 UTC
+> **1257 skills** across **20 categories** · Updated 2026-03-26 03:14 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -10,12 +10,12 @@
 
 | Metric | Value |
 |--------|-------|
-| Total Skills | **1252** |
+| Total Skills | **1257** |
 | Categories | **20** |
 | Frameworks | **20** |
 | Skills with live signal data | **915** |
 | Security Reviewed | **1138** |
-| Verified Metadata | **114** |
+| Verified Metadata | **119** |
 | Listed | **0** |
 
 > These verification counts are **final-state buckets**, not cumulative stages.
@@ -172,7 +172,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [npm Audit Dependency Report Generator](skills/npm-audit-dependency-report-generator/) | Security Reviewed | — | — | `clawhub install npm-audit-dependency-report-generator` |
 
 
-### 🛠️ Developer Tools (122 skills)
+### 🛠️ Developer Tools (126 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -252,6 +252,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [eza Modern File Listing CLI](skills/eza-modern-file-listing-cli/) | Verified Metadata | — | — | `clawhub install eza-modern-file-listing-cli` |
 | [Fabric AI Prompt Pattern Framework](skills/fabric-ai-prompt-pattern-framework/) | Verified Metadata | — | — | `clawhub install fabric-ai-prompt-pattern-framework` |
 | [fd Fast File Finder CLI](skills/fd-fast-file-finder-cli/) | Verified Metadata | — | — | `clawhub install fd-fast-file-finder-cli` |
+| [Freeze Code and Terminal Screenshot Generator](skills/freeze-code-terminal-screenshot-generator/) | Verified Metadata | — | — | `clawhub install freeze-code-terminal-screenshot-generator` |
 | [Frontend Design Guidance Skill](skills/frontend-design-guidance-skill/) | Security Reviewed | — | — | `clawhub install frontend-design-guidance-skill` |
 | [fzf Command-Line Fuzzy Finder](skills/fzf-command-line-fuzzy-finder/) | Security Reviewed | — | — | `clawhub install fzf-command-line-fuzzy-finder` |
 | [Git Bisect Automator](skills/git-bisect-automator/) | Security Reviewed | — | — | `clawhub install git-bisect-automator` |
@@ -273,6 +274,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [lazygit Terminal UI for Git Operations](skills/lazygit-terminal-ui-git-operations/) | Security Reviewed | — | — | `clawhub install lazygit-terminal-ui-git-operations` |
 | [libSQL Edge-Ready SQLite Fork by Turso](skills/libsql-edge-sqlite-fork-turso/) | Verified Metadata | — | — | `clawhub install libsql-edge-sqlite-fork-turso` |
 | [LLDB Debug Session Automator](skills/lldb-debug-session-automator/) | Security Reviewed | — | — | `clawhub install lldb-debug-session-automator` |
+| [lsd Next-Generation ls Directory Listing Tool](skills/lsd-next-gen-ls-directory-listing/) | Verified Metadata | — | — | `clawhub install lsd-next-gen-ls-directory-listing` |
 | [Makefile Dependency Auditor](skills/makefile-dependency-auditor/) | Security Reviewed | — | — | `clawhub install makefile-dependency-auditor` |
 | [Mastra TypeScript AI Agent Framework](skills/mastra-typescript-ai-agent-framework/) | Verified Metadata | — | — | `clawhub install mastra-typescript-ai-agent-framework` |
 | [n8n GitHub Issue-to-Jira Ticket Automator](skills/n8n-github-jira-ticket-automator/) | Verified Metadata | — | — | `clawhub install n8n-github-jira-ticket-automator` |
@@ -294,8 +296,10 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Terraform MCP Server for Infrastructure as Code](skills/terraform-mcp-server-infrastructure-as-code/) | Verified Metadata | — | — | `clawhub install terraform-mcp-server-infrastructure-as-code` |
 | [tRPC End-to-End Typesafe API Framework](skills/trpc-end-to-end-typesafe-api-framework/) | Verified Metadata | — | — | `clawhub install trpc-end-to-end-typesafe-api-framework` |
 | [VHS Terminal Session Recorder and GIF Generator](skills/vhs-terminal-session-recorder-gif-generator/) | Verified Metadata | — | — | `clawhub install vhs-terminal-session-recorder-gif-generator` |
+| [Volta JavaScript Toolchain Version Manager](skills/volta-javascript-toolchain-manager/) | Verified Metadata | — | — | `clawhub install volta-javascript-toolchain-manager` |
 | [VS Code Extension Debugger](skills/vscode-extension-debugger-dap-protocol/) | Security Reviewed | — | — | `clawhub install vscode-extension-debugger-dap-protocol` |
 | [WASM Component Model Linker](skills/wasm-component-model-linker/) | Security Reviewed | — | — | `clawhub install wasm-component-model-linker` |
+| [watchexec File Watcher and Command Re-Runner](skills/watchexec-file-watcher-command-rerunner/) | Verified Metadata | — | — | `clawhub install watchexec-file-watcher-command-rerunner` |
 | [Yazi Async Terminal File Manager](skills/yazi-async-terminal-file-manager/) | Verified Metadata | — | — | `clawhub install yazi-async-terminal-file-manager` |
 | [Zellij Terminal Workspace and Multiplexer](skills/zellij-terminal-workspace-multiplexer/) | Verified Metadata | — | — | `clawhub install zellij-terminal-workspace-multiplexer` |
 | [zoxide Smart Directory Navigation CLI](skills/zoxide-smart-directory-navigation-cli/) | Verified Metadata | — | — | `clawhub install zoxide-smart-directory-navigation-cli` |
@@ -731,7 +735,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Zod Schema Generator](skills/zod-schema-generator/) | Security Reviewed | — | — | `clawhub install zod-schema-generator` |
 
 
-### ✅ Code Quality & Review (86 skills)
+### ✅ Code Quality & Review (87 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -821,6 +825,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Ruff Python Linter Configurator](skills/ruff-python-linter-configurator/) | Security Reviewed | — | — | `clawhub install ruff-python-linter-configurator` |
 | [sqruff High-Performance SQL Linter and Formatter](skills/sqruff-sql-linter-formatter/) | Verified Metadata | — | — | `clawhub install sqruff-sql-linter-formatter` |
 | [tokei Code Statistics Counter](skills/tokei-code-statistics-counter/) | Verified Metadata | — | — | `clawhub install tokei-code-statistics-counter` |
+| [ty Ultra-Fast Python Type Checker and Language Server](skills/ty-python-type-checker/) | Verified Metadata | — | — | `clawhub install ty-python-type-checker` |
 | [typos Source Code Spell Checker](skills/typos-source-code-spell-checker/) | Verified Metadata | — | — | `clawhub install typos-source-code-spell-checker` |
 | [Vale Prose Linter for Technical Documentation](skills/vale-prose-linter-technical-docs/) | Verified Metadata | — | — | `clawhub install vale-prose-linter-technical-docs` |
 
