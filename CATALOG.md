@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1262 skills** across **20 categories** · Updated 2026-03-26 04:16 UTC
+> **1268 skills** across **20 categories** · Updated 2026-03-26 05:15 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -10,12 +10,12 @@
 
 | Metric | Value |
 |--------|-------|
-| Total Skills | **1262** |
+| Total Skills | **1268** |
 | Categories | **20** |
 | Frameworks | **20** |
 | Skills with live signal data | **915** |
 | Security Reviewed | **1138** |
-| Verified Metadata | **124** |
+| Verified Metadata | **130** |
 | Listed | **0** |
 
 > These verification counts are **final-state buckets**, not cumulative stages.
@@ -172,7 +172,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [npm Audit Dependency Report Generator](skills/npm-audit-dependency-report-generator/) | Security Reviewed | — | — | `clawhub install npm-audit-dependency-report-generator` |
 
 
-### 🛠️ Developer Tools (129 skills)
+### 🛠️ Developer Tools (134 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -242,6 +242,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Bazel Build Graph Analyzer](skills/bazel-build-graph-analyzer/) | Security Reviewed | — | — | `clawhub install bazel-build-graph-analyzer` |
 | [Bruno Git-Native API Client for Testing and Exploration](skills/bruno-git-native-api-client-testing-exploration/) | Verified Metadata | — | — | `clawhub install bruno-git-native-api-client-testing-exploration` |
 | [Bun Shell Script Executor](skills/bun-shell-script-executor/) | Security Reviewed | — | — | `clawhub install bun-shell-script-executor` |
+| [chezmoi Cross-Machine Dotfiles Manager](skills/chezmoi-dotfiles-manager/) | Verified Metadata | — | — | `clawhub install chezmoi-dotfiles-manager` |
 | [Claude Code MCP Bridge](skills/claude-code-mcp-bridge/) | Security Reviewed | — | — | `clawhub install claude-code-mcp-bridge` |
 | [dbmate Lightweight Database Migration CLI](skills/dbmate-lightweight-database-migration-cli/) | Verified Metadata | — | — | `clawhub install dbmate-lightweight-database-migration-cli` |
 | [delta Syntax-Highlighting Git Diff Pager](skills/delta-syntax-highlighting-git-diff-pager/) | Verified Metadata | — | — | `clawhub install delta-syntax-highlighting-git-diff-pager` |
@@ -269,12 +270,14 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Hurl Declarative HTTP Request Runner and Tester](skills/hurl-declarative-http-request-runner-tester/) | Verified Metadata | — | — | `clawhub install hurl-declarative-http-request-runner-tester` |
 | [Hyperfine Command-Line Benchmarking Tool](skills/hyperfine-command-line-benchmarking-tool/) | Security Reviewed | — | — | `clawhub install hyperfine-command-line-benchmarking-tool` |
 | [Jira Advanced Query Agent](skills/jira-advanced-query-agent/) | Security Reviewed | — | — | `clawhub install jira-advanced-query-agent` |
+| [Jujutsu Git-Compatible Version Control System](skills/jujutsu-jj-git-compatible-vcs/) | Verified Metadata | — | — | `clawhub install jujutsu-jj-git-compatible-vcs` |
 | [Just Command Runner](skills/just-command-runner/) | Security Reviewed | — | — | `clawhub install just-command-runner` |
 | [k6 Load Testing and Performance Benchmarking Tool](skills/k6-load-testing-performance-benchmarking-tool/) | Verified Metadata | — | — | `clawhub install k6-load-testing-performance-benchmarking-tool` |
 | [K9s Kubernetes Terminal Dashboard](skills/k9s-kubernetes-terminal-dashboard/) | Verified Metadata | — | — | `clawhub install k9s-kubernetes-terminal-dashboard` |
 | [LazyDocker Terminal UI for Docker Management](skills/lazydocker-terminal-docker-management/) | Verified Metadata | — | — | `clawhub install lazydocker-terminal-docker-management` |
 | [lazygit Terminal UI for Git Operations](skills/lazygit-terminal-ui-git-operations/) | Security Reviewed | — | — | `clawhub install lazygit-terminal-ui-git-operations` |
 | [libSQL Edge-Ready SQLite Fork by Turso](skills/libsql-edge-sqlite-fork-turso/) | Verified Metadata | — | — | `clawhub install libsql-edge-sqlite-fork-turso` |
+| [Litestream SQLite Streaming Replication](skills/litestream-sqlite-streaming-replication/) | Verified Metadata | — | — | `clawhub install litestream-sqlite-streaming-replication` |
 | [LLDB Debug Session Automator](skills/lldb-debug-session-automator/) | Security Reviewed | — | — | `clawhub install lldb-debug-session-automator` |
 | [lsd Next-Generation ls Directory Listing Tool](skills/lsd-next-gen-ls-directory-listing/) | Verified Metadata | — | — | `clawhub install lsd-next-gen-ls-directory-listing` |
 | [Makefile Dependency Auditor](skills/makefile-dependency-auditor/) | Security Reviewed | — | — | `clawhub install makefile-dependency-auditor` |
@@ -285,11 +288,13 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [NPM Package Auditor](skills/npm-package-auditor-registry-api/) | Security Reviewed | — | — | `clawhub install npm-package-auditor-registry-api` |
 | [Nushell Structured Data Shell](skills/nushell-structured-data-shell/) | Verified Metadata | — | — | `clawhub install nushell-structured-data-shell` |
 | [Package Vulnerability Scanner](skills/package-vuln-scanner-osv-api/) | Security Reviewed | — | — | `clawhub install package-vuln-scanner-osv-api` |
+| [pgcli Interactive PostgreSQL Client with Autocompletion](skills/pgcli-interactive-postgresql-client/) | Verified Metadata | — | — | `clawhub install pgcli-interactive-postgresql-client` |
 | [pnpm Fast Disk-Efficient Package Manager](skills/pnpm-fast-disk-efficient-package-manager/) | Verified Metadata | — | — | `clawhub install pnpm-fast-disk-efficient-package-manager` |
 | [Posting Terminal API Client](skills/posting-terminal-api-client/) | Verified Metadata | — | — | `clawhub install posting-terminal-api-client` |
 | [procs Modern Process Viewer CLI](skills/procs-modern-process-viewer-cli/) | Verified Metadata | — | — | `clawhub install procs-modern-process-viewer-cli` |
 | [quicktype JSON Schema to Typed Code Generator](skills/quicktype-json-schema-code-generator/) | Verified Metadata | — | — | `clawhub install quicktype-json-schema-code-generator` |
 | [Repomix Codebase Context Packer for LLMs](skills/repomix-codebase-context-packer-llm/) | Security Reviewed | — | — | `clawhub install repomix-codebase-context-packer-llm` |
+| [Restic Fast Encrypted Backup Program](skills/restic-encrypted-backup-tool/) | Verified Metadata | — | — | `clawhub install restic-encrypted-backup-tool` |
 | [ripgrep Recursive Regex Search Tool](skills/ripgrep-recursive-regex-search-tool/) | Security Reviewed | — | — | `clawhub install ripgrep-recursive-regex-search-tool` |
 | [Slidev Markdown Presentation Slides for Developers](skills/slidev-markdown-presentation-slides-developers/) | Verified Metadata | — | — | `clawhub install slidev-markdown-presentation-slides-developers` |
 | [sqlite-vec Vector Search Extension for SQLite](skills/sqlite-vec-vector-search-extension-sqlite/) | Verified Metadata | — | — | `clawhub install sqlite-vec-vector-search-extension-sqlite` |
@@ -739,7 +744,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Zod Schema Generator](skills/zod-schema-generator/) | Security Reviewed | — | — | `clawhub install zod-schema-generator` |
 
 
-### ✅ Code Quality & Review (87 skills)
+### ✅ Code Quality & Review (88 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -820,6 +825,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Codecov Coverage Tracker Agent](skills/codecov-coverage-tracker-agent/) | Security Reviewed | — | — | `clawhub install codecov-coverage-tracker-agent` |
 | [commitlint Conventional Commit Message Linter](skills/commitlint-conventional-commit-message-linter/) | Verified Metadata | — | — | `clawhub install commitlint-conventional-commit-message-linter` |
 | [Complexity Trend Tracker](skills/complexity-trend-tracker-agent/) | Security Reviewed | — | — | `clawhub install complexity-trend-tracker-agent` |
+| [Difftastic Structural Syntax-Aware Diff Tool](skills/difftastic-structural-syntax-diff/) | Verified Metadata | — | — | `clawhub install difftastic-structural-syntax-diff` |
 | [Prettier Config Harmonizer](skills/prettier-config-harmonizer-2/) | Security Reviewed | — | — | `clawhub install prettier-config-harmonizer-2` |
 | [Pylint Baseline Manager](skills/pylint-baseline-manager-wave48/) | Security Reviewed | — | — | `clawhub install pylint-baseline-manager-wave48` |
 | [Pylint Code Review Assistant](skills/pylint-code-review-assistant/) | Security Reviewed | — | — | `clawhub install pylint-code-review-assistant` |
