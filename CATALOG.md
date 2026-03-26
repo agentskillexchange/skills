@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1286 published skills** across **20 categories** · 1277 security reviewed · Updated 2026-03-26 09:14 UTC
+> **1292 published skills** across **20 categories** · 1277 security reviewed · Updated 2026-03-26 11:14 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -426,7 +426,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Systemd Service Recovery Playbook](skills/systemd-service-recovery-playbook-2/) | Diagnoses and recovers failed systemd services using journalctl, systemctl status, and D-Bus… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (100 skills)
+### 🔄 Data Extraction & Transformation (102 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -523,7 +523,9 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [fx Terminal JSON Viewer and Processor](skills/fx-terminal-json-viewer-processor/) | fx is a terminal-based JSON viewer and processor that provides an interactive TUI for navigating, filtering, and… | Security Reviewed | — | — |
 | [gron Greppable JSON Flattener](skills/gron-greppable-json-flattener/) | gron transforms JSON into discrete assignment statements, making it possible to grep through complex JSON structures… | Security Reviewed | — | — |
 | [jq Pipeline Builder Agent](skills/jq-pipeline-builder-agent/) | Constructs complex jq filter pipelines from natural language queries against JSON/NDJSON data streams. Uses jq… | Security Reviewed | — | — |
+| [LangExtract LLM-Powered Structured Text Extraction](skills/langextract-llm-structured-text-extraction/) | LangExtract by Google is a Python library for extracting structured information from unstructured text using LLMs… | Published | — | — |
 | [Marker PDF-to-Markdown Converter](skills/marker-pdf-to-markdown-converter/) | Marker converts PDF, DOCX, PPTX, and image files to clean Markdown, JSON, and HTML with high accuracy. It handles… | Security Reviewed | — | — |
+| [Maxun No-Code Web Data Extraction Platform](skills/maxun-no-code-web-data-extraction/) | Maxun is an open-source no-code web data platform for turning any website into structured, reliable data. It… | Published | — | — |
 | [MinerU PDF-to-Markdown Document Parser](skills/mineru-pdf-to-markdown-document-parser/) | Transforms complex PDFs into LLM-ready markdown and JSON using MinerU, a high-accuracy document intelligence… | Security Reviewed | — | — |
 | [Snowflake MCP](skills/snowflake-mcp/) | Snowflake MCP is built around Snowflake cloud data warehouse. It gives an agent a more technical and reliable way to… | Security Reviewed | — | — |
 | [Snowflake MCP Server](skills/snowflake-mcp-server/) | Snowflake MCP Server is built around Snowflake cloud data warehouse. It gives an agent a more technical and reliable… | Security Reviewed | — | — |
@@ -534,7 +536,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [xsv High-Performance CSV Toolkit](skills/xsv-high-performance-csv-toolkit/) | xsv is a fast CSV command-line toolkit written in Rust by Andrew Gallant (BurntSushi). It provides indexing,… | Security Reviewed | — | — |
 
 
-### 🔒 Security & Verification (96 skills)
+### 🔒 Security & Verification (98 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -624,6 +626,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [GPG Encryption and Key Management Agent](skills/gpg-encryption-key-management-agent/) | Manages GPG key lifecycle and file encryption operations using GnuPG CLI and GPGME library. Handles keyserver… | Security Reviewed | — | — |
 | [NPM Audit Deep Scanner](skills/npm-audit-deep-scanner/) | Extends npm audit with deep transitive dependency analysis using the npm Registry API. Generates fix PRs via GitHub… | Security Reviewed | — | — |
 | [npm Dependency Audit Resolver](skills/npm-dependency-audit-resolver/) | Resolves npm audit vulnerabilities by analyzing the npm registry API for patched versions, generating targeted… | Security Reviewed | — | — |
+| [Nuclei Template-Based Vulnerability Scanner](skills/nuclei-template-vulnerability-scanner/) | Nuclei is a high-performance vulnerability scanner by ProjectDiscovery that uses simple YAML-based templates to… | Published | — | — |
 | [Nuclei Vulnerability Template Runner](skills/nuclei-vulnerability-template-runner/) | Executes ProjectDiscovery Nuclei security scanning templates against target URLs. Supports custom YAML template… | Security Reviewed | — | — |
 | [OAuth2 Flow Debugger](skills/oauth2-flow-debugger/) | Inspects and debugs OAuth 2.0 authorization flows including PKCE, client credentials, and device code grants. Uses… | Security Reviewed | — | — |
 | [OPA Rego Policy Bundle Tester](skills/opa-rego-policy-bundle-tester/) | Tests authorization and policy bundles with the Open Policy Agent `/v1/data` and `/v1/compile` APIs plus `opa test`… | Security Reviewed | — | — |
@@ -633,12 +636,13 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Sigstore Cosign Container Signature Checker](skills/sigstore-cosign-container-signature-checker/) | Checks container trust with `cosign verify`, Rekor transparency log lookups, and OCI image reference inspection.… | Security Reviewed | — | — |
 | [Sigstore Cosign Verifier](skills/sigstore-cosign-verifier-2/) | Automates container image signature verification using Cosign CLI and the Rekor transparency log API. Validates SLSA… | Security Reviewed | — | — |
 | [SLSA Verifier Build Provenance Checker](skills/slsa-verifier-build-provenance-checker/) | SLSA Verifier is the official tool from the SLSA framework for verifying build provenance attestations generated by… | Security Reviewed | — | — |
+| [Snyk Agent Scan MCP and Skill Security Scanner](skills/snyk-agent-scan-mcp-skill-security-scanner/) | Snyk Agent Scan automatically discovers and scans AI agent components including MCP servers, agent skills, and agent… | Published | — | — |
 | [SSL Certificate Chain Validator](skills/ssl-certificate-chain-validator-2/) | Performs deep TLS certificate chain validation using OpenSSL and Certificate Transparency logs. Monitors expiration… | Security Reviewed | — | — |
 | [SSL/TLS Certificate Validator and Monitor](skills/ssl-tls-certificate-validator-monitor/) | Validates SSL/TLS certificates using OpenSSL s_client, checks OCSP stapling status, and monitors expiry dates.… | Security Reviewed | — | — |
 | [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates… | Security Reviewed | — | — |
 
 
-### 📚 Library & API Reference (92 skills)
+### 📚 Library & API Reference (94 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference&sort=downloads)
 
@@ -702,6 +706,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [DevDocs Unified API Documentation Browser](skills/devdocs-unified-api-documentation-browser/) | DevDocs aggregates 500+ API documentation sets into a single searchable interface with instant fuzzy search, offline… | Published | — | — |
 | [Doxygen Cross-Reference Indexer](skills/doxygen-cross-reference-indexer/) | Builds searchable cross-reference indexes from Doxygen XML output using doxyparse and doxygen-awesome-css themes.… | Security Reviewed | — | — |
 | [GitHub REST API Paginator Library](skills/github-rest-api-paginator-library/) | Provides a typed pagination wrapper for the GitHub REST API using Octokit.js and the @octokit/plugin-paginate-rest… | Security Reviewed | — | — |
+| [JSDoc JavaScript API Documentation Generator](skills/jsdoc-javascript-api-documentation-generator/) | JSDoc is the standard API documentation generator for JavaScript. It parses specially-formatted comments in… | Published | — | — |
 | [JSDoc Type Definition Extractor](skills/jsdoc-type-definition-extractor/) | Extracts and indexes JSDoc type annotations from JavaScript codebases using the jsdoc-api parser. Generates… | Security Reviewed | — | — |
 | [MDN Web API Reference Fetcher](skills/mdn-web-api-reference-fetcher/) | Fetches and indexes Mozilla Developer Network Web API documentation using the MDN Yari content API. Provides… | Security Reviewed | — | — |
 | [MDN Web Docs Fetcher](skills/mdn-web-docs-fetcher/) | Queries the MDN Web Docs content API (Yari) and the MDN search index to retrieve browser compatibility data, Web API… | Security Reviewed | — | — |
@@ -735,6 +740,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Rust Crate Documentation Indexer](skills/rust-crate-documentation-indexer-2/) | Indexes Rust crate documentation from docs.rs using rustdoc JSON output and cargo-doc. Extracts trait… | Security Reviewed | — | — |
 | [Rust Crates.io Explorer](skills/rust-crates-io-explorer/) | Searches the crates.io REST API for Rust crate metadata, version diffs, and feature flag documentation. Integrates… | Security Reviewed | — | — |
 | [TypeDoc Symbol Resolver](skills/typedoc-symbol-resolver/) | Resolves TypeScript symbols and generates API documentation using the TypeDoc compiler API and ts-morph for AST… | Security Reviewed | — | — |
+| [TypeDoc TypeScript API Documentation Generator](skills/typedoc-typescript-api-documentation-generator/) | TypeDoc is the standard documentation generator for TypeScript projects. It reads TypeScript source code and JSDoc… | Published | — | — |
 | [Zod Schema Generator](skills/zod-schema-generator/) | Converts JSON samples, TypeScript interfaces, and OpenAPI specs into Zod validation schemas. Uses ts-morph for AST… | Security Reviewed | — | — |
 
 

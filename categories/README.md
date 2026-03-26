@@ -2,16 +2,16 @@
 
 Categories are the **top-level map** of the catalog. For live sorting by stars, downloads, and verification, jump into ASE Browse from any category.
 
-> **1286 skills** across **20 categories**
+> **1292 skills** across **20 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
 | 🛠️ | [**Developer Tools**](developer-tools/) | **141** | CLI helpers, dev environment setup, productivity utilities, and devel... |
 | 🔧 | [**CI/CD Integrations**](ci-cd-integrations/) | **140** | Pipeline configs, deployment automation, build tooling, and continuou... |
 | 📋 | [**Runbooks & Diagnostics**](runbooks-diagnostics/) | **113** | Incident response, troubleshooting guides, system diagnostics, and op... |
-| 🔄 | [**Data Extraction & Transformation**](data-extraction-transformation/) | **100** | Parsing, ETL pipelines, format conversion, data wrangling, and transf... |
-| 🔒 | [**Security & Verification**](security-verification/) | **96** | Auth setup, vulnerability scanning, compliance checks, and security a... |
-| 📚 | [**Library & API Reference**](library-api-reference/) | **92** | SDK documentation, API guides, framework reference material, and libr... |
+| 🔄 | [**Data Extraction & Transformation**](data-extraction-transformation/) | **102** | Parsing, ETL pipelines, format conversion, data wrangling, and transf... |
+| 🔒 | [**Security & Verification**](security-verification/) | **98** | Auth setup, vulnerability scanning, compliance checks, and security a... |
+| 📚 | [**Library & API Reference**](library-api-reference/) | **94** | SDK documentation, API guides, framework reference material, and libr... |
 | ✅ | [**Code Quality & Review**](code-quality-review/) | **89** | Linting rules, review checklists, code standards enforcement, and qua... |
 | 📊 | [**Monitoring & Alerts**](monitoring-alerts/) | **79** | Metrics collection, alerting rules, observability setup, and system m... |
 | 📄 | [**Templates & Workflows**](templates-workflows/) | **61** | Project scaffolding, boilerplate generators, workflow templates, and ... |

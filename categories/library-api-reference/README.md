@@ -1,6 +1,6 @@
 # 📚 Library & API Reference
 
-> **92 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference)
+> **94 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference)
 
 SDK documentation, API guides, framework reference material, and library usage patterns.
 
@@ -115,6 +115,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [DevDocs Unified API Documentation Browser](../../skills/devdocs-unified-api-documentation-browser/) | Verified Metadata | — | — | `clawhub install devdocs-unified-api-documentation-browser` |
 | [Doxygen Cross-Reference Indexer](../../skills/doxygen-cross-reference-indexer/) | Security Reviewed | — | — | `clawhub install doxygen-cross-reference-indexer` |
 | [GitHub REST API Paginator Library](../../skills/github-rest-api-paginator-library/) | Security Reviewed | — | — | `clawhub install github-rest-api-paginator-library` |
+| [JSDoc JavaScript API Documentation Generator](../../skills/jsdoc-javascript-api-documentation-generator/) | Verified Metadata | — | — | `clawhub install jsdoc-javascript-api-documentation-generator` |
 | [JSDoc Type Definition Extractor](../../skills/jsdoc-type-definition-extractor/) | Security Reviewed | — | — | `clawhub install jsdoc-type-definition-extractor` |
 | [MDN Web API Reference Fetcher](../../skills/mdn-web-api-reference-fetcher/) | Security Reviewed | — | — | `clawhub install mdn-web-api-reference-fetcher` |
 | [MDN Web Docs Fetcher](../../skills/mdn-web-docs-fetcher/) | Security Reviewed | — | — | `clawhub install mdn-web-docs-fetcher` |
@@ -148,6 +149,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Rust Crate Documentation Indexer](../../skills/rust-crate-documentation-indexer-2/) | Security Reviewed | — | — | `clawhub install rust-crate-documentation-indexer-2` |
 | [Rust Crates.io Explorer](../../skills/rust-crates-io-explorer/) | Security Reviewed | — | — | `clawhub install rust-crates-io-explorer` |
 | [TypeDoc Symbol Resolver](../../skills/typedoc-symbol-resolver/) | Security Reviewed | — | — | `clawhub install typedoc-symbol-resolver` |
+| [TypeDoc TypeScript API Documentation Generator](../../skills/typedoc-typescript-api-documentation-generator/) | Verified Metadata | — | — | `clawhub install typedoc-typescript-api-documentation-generator` |
 | [Zod Schema Generator](../../skills/zod-schema-generator/) | Security Reviewed | — | — | `clawhub install zod-schema-generator` |
 
 ---
@@ -174,7 +176,7 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 - 🛠️ [Developer Tools](../developer-tools/) (141 skills)
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (140 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
-- 🔄 [Data Extraction & Transformation](../data-extraction-transformation/) (100 skills)
+- 🔄 [Data Extraction & Transformation](../data-extraction-transformation/) (102 skills)
 
 ---
 

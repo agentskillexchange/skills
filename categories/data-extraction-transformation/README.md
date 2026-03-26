@@ -1,6 +1,6 @@
 # 🔄 Data Extraction & Transformation
 
-> **100 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation)
+> **102 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation)
 
 Parsing, ETL pipelines, format conversion, data wrangling, and transformation utilities.
 
@@ -148,7 +148,9 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [fx Terminal JSON Viewer and Processor](../../skills/fx-terminal-json-viewer-processor/) | Security Reviewed | — | — | `clawhub install fx-terminal-json-viewer-processor` |
 | [gron Greppable JSON Flattener](../../skills/gron-greppable-json-flattener/) | Security Reviewed | — | — | `clawhub install gron-greppable-json-flattener` |
 | [jq Pipeline Builder Agent](../../skills/jq-pipeline-builder-agent/) | Security Reviewed | — | — | `clawhub install jq-pipeline-builder-agent` |
+| [LangExtract LLM-Powered Structured Text Extraction](../../skills/langextract-llm-structured-text-extraction/) | Verified Metadata | — | — | `clawhub install langextract-llm-structured-text-extraction` |
 | [Marker PDF-to-Markdown Converter](../../skills/marker-pdf-to-markdown-converter/) | Security Reviewed | — | — | `clawhub install marker-pdf-to-markdown-converter` |
+| [Maxun No-Code Web Data Extraction Platform](../../skills/maxun-no-code-web-data-extraction/) | Verified Metadata | — | — | `clawhub install maxun-no-code-web-data-extraction` |
 | [MinerU PDF-to-Markdown Document Parser](../../skills/mineru-pdf-to-markdown-document-parser/) | Security Reviewed | — | — | `clawhub install mineru-pdf-to-markdown-document-parser` |
 | [Snowflake MCP](../../skills/snowflake-mcp/) | Security Reviewed | — | — | `clawhub install snowflake-mcp` |
 | [Snowflake MCP Server](../../skills/snowflake-mcp-server/) | Security Reviewed | — | — | `clawhub install snowflake-mcp-server` |
@@ -182,7 +184,7 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 - 🛠️ [Developer Tools](../developer-tools/) (141 skills)
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (140 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
-- 🔒 [Security & Verification](../security-verification/) (96 skills)
+- 🔒 [Security & Verification](../security-verification/) (98 skills)
 
 ---
 
