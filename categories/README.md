@@ -2,12 +2,12 @@
 
 Categories are the **top-level map** of the catalog. For live sorting by stars, downloads, and verification, jump into ASE Browse from any category.
 
-> **1239 skills** across **20 categories**
+> **1246 skills** across **20 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
 | 🔧 | [**CI/CD Integrations**](ci-cd-integrations/) | **140** | Pipeline configs, deployment automation, build tooling, and continuou... |
-| 🛠️ | [**Developer Tools**](developer-tools/) | **120** | CLI helpers, dev environment setup, productivity utilities, and devel... |
+| 🛠️ | [**Developer Tools**](developer-tools/) | **121** | CLI helpers, dev environment setup, productivity utilities, and devel... |
 | 📋 | [**Runbooks & Diagnostics**](runbooks-diagnostics/) | **113** | Incident response, troubleshooting guides, system diagnostics, and op... |
 | 🔄 | [**Data Extraction & Transformation**](data-extraction-transformation/) | **97** | Parsing, ETL pipelines, format conversion, data wrangling, and transf... |
 | 🔒 | [**Security & Verification**](security-verification/) | **94** | Auth setup, vulnerability scanning, compliance checks, and security a... |
@@ -18,8 +18,8 @@ Categories are the **top-level map** of the catalog. For live sorting by stars, 
 | 🎨 | [**Image & Creative Automation**](image-creative-automation/) | **52** | Image generation, asset processing, design automation, and creative t... |
 | 📅 | [**Calendar, Email & Productivity**](calendar-email-productivity/) | **50** | Email automation, calendar management, task coordination, and product... |
 | 🔍 | [**Research & Scraping**](research-scraping/) | **49** | Web research, data collection, content aggregation, and information g... |
+| 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **49** | Third-party API bridges, webhook handlers, service connectors, and pl... |
 | 🌐 | [**Browser Automation**](browser-automation/) | **47** | Web scraping, UI testing, headless browser control, and browser-based... |
-| 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **43** | Third-party API bridges, webhook handlers, service connectors, and pl... |
 | 🎙️ | [**Media & Transcription**](media-transcription/) | **40** | Audio/video processing, speech-to-text, media conversion, and transcr... |
 | ✍️ | [**Content Writing & SEO**](content-writing-seo/) | **37** | Blog posts, SEO optimization, content strategy, and writing assistance. |
 | 📰 | [**WordPress & CMS**](wordpress-cms/) | **32** | Theme/plugin development, WP-CLI automation, CMS management, and Word... |

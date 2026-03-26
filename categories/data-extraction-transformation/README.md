@@ -177,7 +177,7 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 ## Related Categories
 
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (140 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (120 skills)
+- 🛠️ [Developer Tools](../developer-tools/) (121 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
 - 🔒 [Security & Verification](../security-verification/) (94 skills)
 
