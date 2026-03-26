@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1305 published skills** across **17 categories** · 1277 security reviewed · Updated 2026-03-26 17:15 UTC
+> **1319 published skills** across **17 categories** · 1277 security reviewed · Updated 2026-03-26 23:15 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1314,7 +1314,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [CDP Network Interception Logger](skills/cdp-network-interception-logger/) | Uses Chrome DevTools Protocol Fetch.requestPaused and Network.responseReceived events to intercept, log, and modify… | Security Reviewed | 789 | 6M/wk |
 
 
-### 🎙️ Media & Transcription (41 skills)
+### 🎙️ Media & Transcription (46 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&sort=downloads)
 
@@ -1351,6 +1351,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Medi
 | [AssemblyAI Audio Intelligence Agent](skills/assemblyai-audio-intelligence-agent/) | Extract structured intelligence from audio using the AssemblyAI API with sentiment analysis, entity detection, topic… | Security Reviewed | — | — |
 | [AssemblyAI LeMUR Summarizer](skills/assemblyai-lemur-summarizer-agent/) | Summarizes audio content using AssemblyAI's LeMUR (Large Language Model for Audio Understanding) API. Chains the… | Security Reviewed | — | — |
 | [AssemblyAI Summarization & Chapters Skill](skills/assemblyai-summarization-chapters-skill/) | Transcribes audio and generates auto-chapters with summaries using AssemblyAI's /v2/transcript endpoint with… | Security Reviewed | — | — |
+| [audiowaveform Audio Waveform Data Generator and Image Renderer](skills/audiowaveform-bbc-waveform-generator/) | audiowaveform is a BBC open-source C++ CLI tool that generates waveform data from MP3, WAV, FLAC, Ogg Vorbis, and… | Published | — | — |
 | [Core Audio Unit v3 Debugger](skills/core-audio-unit-v3-debugger/) | Debugs and profiles Apple Audio Unit v3 (AUv3) plugins using auval validation tool, the AUAudioUnit Swift API, and… | Security Reviewed | — | — |
 | [Deepgram Nova Transcriber](skills/deepgram-nova-transcriber-agent/) | Transcribes audio using the Deepgram Nova-2 API with diarization, punctuation, and smart formatting. Supports… | Security Reviewed | — | — |
 | [Deepgram Real-Time Transcription Connector](skills/deepgram-realtime-transcription-connector/) | Streams live audio to Deepgram's WebSocket API at wss://api.deepgram.com/v1/listen for real-time speech-to-text.… | Security Reviewed | — | — |
@@ -1358,9 +1359,59 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Medi
 | [Dolby.io Media Enhancer](skills/dolby-io-media-enhancer-agent/) | Enhances audio and video quality using the Dolby.io Media Processing API. Applies noise reduction, loudness… | Security Reviewed | — | — |
 | [ElevenLabs Voice Cloning Agent](skills/elevenlabs-voice-cloning-agent/) | Clone and synthesize custom voices using the ElevenLabs API v2 with instant voice cloning. Manages voice library… | Security Reviewed | — | — |
 | [GStreamer Pipeline Graph Optimizer](skills/gstreamer-pipeline-graph-optimizer/) | Analyzes and optimizes GStreamer media pipelines by parsing DOT graph dumps from GST_DEBUG_DUMP_DOT_DIR, profiling… | Security Reviewed | — | — |
+| [LosslessCut FFmpeg-Powered Media Editor](skills/losslesscut-ffmpeg-powered-media-editor/) | Perform ultra-fast lossless trimming, cutting, and merging of video and audio files with LosslessCut. Built on… | Published | — | — |
+| [Piper Local Neural Text-to-Speech Engine](skills/piper-local-neural-tts-engine/) | Run fast, high-quality neural text-to-speech locally with Piper. Supports 20+ languages with compact ONNX voice… | Published | — | — |
 | [Podcast RSS Feed Builder](skills/podcast-rss-feed-builder/) | Generates and validates podcast RSS feeds compliant with the Apple Podcasts and Spotify specification. Uses the… | Security Reviewed | — | — |
+| [Remotion Programmatic Video Creator](skills/remotion-programmatic-video-creator/) | Create videos programmatically using React components with Remotion. Leverage web technologies like CSS, Canvas,… | Published | — | — |
+| [Vosk Offline Speech Recognition Toolkit](skills/vosk-offline-speech-recognition-toolkit/) | Perform offline speech recognition across 20+ languages with Vosk. Provides compact models, zero-latency streaming… | Published | — | — |
 | [YouTube Chapter Generator from Transcripts](skills/youtube-chapter-generator-transcripts/) | Extracts YouTube video transcripts via the youtube-transcript-api Python library and generates semantic chapter… | Security Reviewed | — | — |
 | [yt-dlp Feature-Rich Audio and Video Downloader CLI](skills/yt-dlp-feature-rich-audio-video-downloader-cli/) | yt-dlp is a powerful command-line tool for downloading audio and video from thousands of websites including YouTube,… | Published | — | — |
+
+
+### 📰 WordPress & CMS (38 skills)
+
+Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS&sort=downloads)
+
+| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
+|---|---|---|---:|---:|
+| [WP Multisite Domain Mapping Agent](skills/wp-multisite-domain-mapping-agent/) | Manages domain mapping configurations across WordPress Multisite networks using the sunrise.php drop-in and WP-CLI's… | Security Reviewed | 32.9k | — |
+| [Gutenberg Block Scaffolder](skills/gutenberg-block-scaffolder-agent/) | Generates custom Gutenberg blocks using @wordpress/create-block and the Block API v3 schema. Produces edit.js,… | Security Reviewed | 21k | 44.8M/wk |
+| [Gutenberg Custom Block Builder](skills/gutenberg-custom-block-builder/) | Scaffolds and builds custom Gutenberg blocks using @wordpress/create-block and the Block API registerBlockType().… | Security Reviewed | 21k | 44.8M/wk |
+| [ACF Custom Fields REST Exposer](skills/acf-custom-fields-rest-exposer/) | Exposes Advanced Custom Fields data through the WordPress REST API using register_rest_field and acf_format_value.… | Security Reviewed | 21k | — |
+| [ACF to Gutenberg Block Migrator](skills/acf-to-gutenberg-block-migrator/) | Converts Advanced Custom Fields field groups into native Gutenberg blocks using the ACF Block API v2 and… | Security Reviewed | 21k | — |
+| [Advanced Custom Fields REST Schema Mapper](skills/advanced-custom-fields-rest-schema-mapper/) | Maps ACF field groups into predictable REST responses using `acf_add_local_field_group`, `get_field_objects`, and… | Security Reviewed | 21k | — |
+| [Gutenberg Block Pattern Generator](skills/gutenberg-block-pattern-generator/) | Generates custom WordPress Gutenberg block patterns using register_block_pattern() and the Block Editor API. Creates… | Security Reviewed | 21k | — |
+| [WordPress ACF Field Group Auditor](skills/wordpress-acf-field-group-auditor/) | Fetches all Advanced Custom Fields field groups and their field definitions via the ACF REST API (/wp-json/acf/v3/),… | Security Reviewed | 21k | — |
+| [WordPress Block Theme Scaffolder](skills/wordpress-block-theme-scaffolder/) | Generates complete WordPress block theme structures using theme.json v3, block patterns via… | Security Reviewed | 21k | — |
+| [WordPress Content Publisher](skills/wordpress-content-publisher/) | Structured publishing workflow for WordPress drafts, metadata, and content operations. | Security Reviewed | 21k | — |
+| [WordPress Gutenberg Block Generator](skills/wordpress-gutenberg-block-generator/) | Scaffolds custom Gutenberg blocks using the @wordpress/create-block CLI and block.json schema, then registers them… | Security Reviewed | 21k | — |
+| [WordPress Gutenberg Block Scaffolder](skills/wordpress-gutenberg-block-scaffolder/) | Generates custom Gutenberg blocks using @wordpress/create-block and the Block API v2. Configures block.json… | Security Reviewed | 21k | — |
+| [WordPress Multisite Network Sync](skills/wordpress-multisite-network-sync/) | Synchronizes plugin settings and theme mods across a WordPress Multisite network using the Network Admin REST… | Security Reviewed | 21k | — |
+| [WordPress Multisite Provisioner](skills/wp-multisite-provisioner-agent/) | Automates WordPress Multisite network site creation using wp_insert_site() and the Sites REST API. Configures… | Security Reviewed | 21k | — |
+| [WordPress REST API Builder](skills/wordpress-rest-api-builder/) | Build and debug WordPress REST endpoints with a specialized skill. | Security Reviewed | 21k | — |
+| [WordPress REST API Content Sync](skills/wordpress-rest-api-content-sync/) | Synchronizes content between WordPress multisite installations using the WP REST API /wp/v2/posts endpoint with… | Security Reviewed | 21k | — |
+| [WordPress Router](skills/wordpress-router/) | Route WordPress tasks to the right workflow fast. Core Capabilities Manage WordPress sites using WP-CLI and the… | Security Reviewed | 21k | — |
+| [WordPress Theme.json Design Token Manager](skills/wp-theme-json-design-token-manager/) | Manages WordPress theme.json design tokens including color palettes, typography presets, and spacing scales. Uses… | Security Reviewed | 21k | — |
+| [WP Abilities API](skills/wp-abilities-api/) | Specialized support for defining, exposing, and debugging WordPress abilities through the Abilities API. | Security Reviewed | 21k | — |
+| [WP Multisite Network Sync Agent](skills/wp-multisite-network-sync-agent/) | Synchronizes content, users, and plugin configurations across WordPress Multisite networks using the WP_Site_Query… | Security Reviewed | 21k | — |
+| [WP-CLI Bulk Content Migrator](skills/wp-cli-bulk-content-migrator/) | Automates large-scale WordPress content migrations using WP-CLI wp post create and wp term set commands. Handles… | Security Reviewed | 21k | — |
+| [WP-CLI Content Drift Auditor](skills/wp-cli-content-drift-auditor/) | Audits WordPress content drift by comparing live posts, revisions, and key options using WP-CLI commands like `wp… | Security Reviewed | 21k | — |
+| [WP-CLI Site Migration Automator](skills/wp-cli-site-migration-automator/) | Automates full WordPress site migrations using WP-CLI search-replace, wp db export, and rsync. Handles serialized… | Security Reviewed | 21k | — |
+| [WPGraphQL Schema Extension Builder](skills/wpgraphql-schema-extension-builder/) | Builds and documents WPGraphQL extensions with hooks such as `graphql_register_types`, `register_graphql_field`, and… | Security Reviewed | 21k | — |
+| [Headless CMS GraphQL Connector](skills/headless-cms-graphql-connector/) | Connects headless CMS backends (WordPress WPGraphQL, Strapi, Contentful) to frontend frameworks using Apollo Client… | Security Reviewed | 20.3k | 32M/wk |
+| [WooCommerce REST Sync Agent](skills/woocommerce-rest-sync-agent/) | Synchronizes WooCommerce product data bidirectionally using the WC REST API v3 and wc/v3/products endpoints. Handles… | Security Reviewed | 7k | 4.9M/wk |
+| [WooCommerce REST Order Manager](skills/woocommerce-rest-order-manager/) | Queries and updates WooCommerce orders via the WooCommerce REST API v3 (/wp-json/wc/v3/orders), filters by status,… | Security Reviewed | 4.4k | 8.4M/wk |
+| [WP Cron Health Monitor](skills/wp-cron-health-monitor/) | Monitors WordPress wp-cron scheduled events using the WP_Cron API and Action Scheduler library. Detects stuck,… | Security Reviewed | 69 | 207.4k/wk |
+| [Directus Open-Source Headless CMS and Backend Platform](skills/directus-open-source-headless-cms-backend-platform/) | Directus is an open-source headless CMS that wraps any SQL database with instant REST and GraphQL APIs, a no-code… | Published | — | — |
+| [Payload CMS Next.js-Native Headless CMS and Application Framework](skills/payload-cms-nextjs-headless-framework/) | Payload is an open-source, TypeScript-first headless CMS that installs directly into a Next.js application. It… | Published | — | — |
+| [Strapi Open Source Headless CMS with REST and GraphQL APIs](skills/strapi-headless-cms-rest-graphql/) | Strapi is the leading open-source headless CMS built with Node.js and TypeScript. It auto-generates REST and GraphQL… | Published | — | — |
+| [WooCommerce Order Sync Agent](skills/woocommerce-order-sync-agent/) | Synchronizes WooCommerce orders with external ERPs using the WooCommerce REST API v3 and wp_schedule_event. Handles… | Security Reviewed | — | — |
+| [WooCommerce REST Inventory Sync](skills/woocommerce-rest-inventory-sync/) | Synchronizes WooCommerce product inventory across multiple channels using the WooCommerce REST API v3 and… | Security Reviewed | — | — |
+| [WooCommerce Webhook Delivery Inspector](skills/woocommerce-webhook-delivery-inspector/) | Inspects WooCommerce webhook reliability through the `WC_Webhook` model, Action Scheduler queues, and REST endpoints… | Security Reviewed | — | — |
+| [WooCommerce Webhook Orchestrator](skills/woocommerce-webhook-orchestrator/) | Manages WooCommerce webhook lifecycles using the wc/v3/webhooks REST API and WC_Webhook class. Handles order,… | Security Reviewed | — | — |
+| [WordPress Playground WebAssembly Runtime for In-Browser WordPress](skills/wordpress-playground-wasm-runtime/) | WordPress Playground runs a full WordPress instance entirely in the browser using WebAssembly-compiled PHP. It… | Published | — | — |
+| [wp-env Zero-Config WordPress Development Environment](skills/wp-env-wordpress-dev-environment/) | The @wordpress/env package (wp-env) provides a zero-configuration, Docker-based local WordPress environment for… | Published | — | — |
+| [WPScan WordPress Security Vulnerability Scanner](skills/wpscan-wordpress-security-vulnerability-scanner/) | WPScan is an open-source WordPress security scanner that detects vulnerabilities in plugins, themes, and core… | Published | — | — |
 
 
 ### ✍️ Content Writing & SEO (37 skills)
@@ -1406,48 +1457,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cont
 | [Surfer SEO Content Optimizer Integration](skills/surfer-seo-content-optimizer-integration/) | Optimizes content against Surfer SEO's NLP-based recommendations via the Surfer API /v1/content_editors endpoint.… | Security Reviewed | — | — |
 | [Surfer SEO SERP Analyzer](skills/surfer-seo-serp-analyzer/) | Uses Surfer SEO Content Editor API to pull SERP analysis data including word count benchmarks, heading structure… | Security Reviewed | — | — |
 | [Technical SEO Audit Crawler](skills/technical-seo-audit-crawler/) | Crawls websites for technical SEO issues using Screaming Frog CLI, Lighthouse CI API, and PageSpeed Insights v5.… | Security Reviewed | — | — |
-
-
-### 📰 WordPress & CMS (34 skills)
-
-Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS&sort=downloads)
-
-| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
-|---|---|---|---:|---:|
-| [WP Multisite Domain Mapping Agent](skills/wp-multisite-domain-mapping-agent/) | Manages domain mapping configurations across WordPress Multisite networks using the sunrise.php drop-in and WP-CLI's… | Security Reviewed | 32.9k | — |
-| [Gutenberg Block Scaffolder](skills/gutenberg-block-scaffolder-agent/) | Generates custom Gutenberg blocks using @wordpress/create-block and the Block API v3 schema. Produces edit.js,… | Security Reviewed | 21k | 44.8M/wk |
-| [Gutenberg Custom Block Builder](skills/gutenberg-custom-block-builder/) | Scaffolds and builds custom Gutenberg blocks using @wordpress/create-block and the Block API registerBlockType().… | Security Reviewed | 21k | 44.8M/wk |
-| [ACF Custom Fields REST Exposer](skills/acf-custom-fields-rest-exposer/) | Exposes Advanced Custom Fields data through the WordPress REST API using register_rest_field and acf_format_value.… | Security Reviewed | 21k | — |
-| [ACF to Gutenberg Block Migrator](skills/acf-to-gutenberg-block-migrator/) | Converts Advanced Custom Fields field groups into native Gutenberg blocks using the ACF Block API v2 and… | Security Reviewed | 21k | — |
-| [Advanced Custom Fields REST Schema Mapper](skills/advanced-custom-fields-rest-schema-mapper/) | Maps ACF field groups into predictable REST responses using `acf_add_local_field_group`, `get_field_objects`, and… | Security Reviewed | 21k | — |
-| [Gutenberg Block Pattern Generator](skills/gutenberg-block-pattern-generator/) | Generates custom WordPress Gutenberg block patterns using register_block_pattern() and the Block Editor API. Creates… | Security Reviewed | 21k | — |
-| [WordPress ACF Field Group Auditor](skills/wordpress-acf-field-group-auditor/) | Fetches all Advanced Custom Fields field groups and their field definitions via the ACF REST API (/wp-json/acf/v3/),… | Security Reviewed | 21k | — |
-| [WordPress Block Theme Scaffolder](skills/wordpress-block-theme-scaffolder/) | Generates complete WordPress block theme structures using theme.json v3, block patterns via… | Security Reviewed | 21k | — |
-| [WordPress Content Publisher](skills/wordpress-content-publisher/) | Structured publishing workflow for WordPress drafts, metadata, and content operations. | Security Reviewed | 21k | — |
-| [WordPress Gutenberg Block Generator](skills/wordpress-gutenberg-block-generator/) | Scaffolds custom Gutenberg blocks using the @wordpress/create-block CLI and block.json schema, then registers them… | Security Reviewed | 21k | — |
-| [WordPress Gutenberg Block Scaffolder](skills/wordpress-gutenberg-block-scaffolder/) | Generates custom Gutenberg blocks using @wordpress/create-block and the Block API v2. Configures block.json… | Security Reviewed | 21k | — |
-| [WordPress Multisite Network Sync](skills/wordpress-multisite-network-sync/) | Synchronizes plugin settings and theme mods across a WordPress Multisite network using the Network Admin REST… | Security Reviewed | 21k | — |
-| [WordPress Multisite Provisioner](skills/wp-multisite-provisioner-agent/) | Automates WordPress Multisite network site creation using wp_insert_site() and the Sites REST API. Configures… | Security Reviewed | 21k | — |
-| [WordPress REST API Builder](skills/wordpress-rest-api-builder/) | Build and debug WordPress REST endpoints with a specialized skill. | Security Reviewed | 21k | — |
-| [WordPress REST API Content Sync](skills/wordpress-rest-api-content-sync/) | Synchronizes content between WordPress multisite installations using the WP REST API /wp/v2/posts endpoint with… | Security Reviewed | 21k | — |
-| [WordPress Router](skills/wordpress-router/) | Route WordPress tasks to the right workflow fast. Core Capabilities Manage WordPress sites using WP-CLI and the… | Security Reviewed | 21k | — |
-| [WordPress Theme.json Design Token Manager](skills/wp-theme-json-design-token-manager/) | Manages WordPress theme.json design tokens including color palettes, typography presets, and spacing scales. Uses… | Security Reviewed | 21k | — |
-| [WP Abilities API](skills/wp-abilities-api/) | Specialized support for defining, exposing, and debugging WordPress abilities through the Abilities API. | Security Reviewed | 21k | — |
-| [WP Multisite Network Sync Agent](skills/wp-multisite-network-sync-agent/) | Synchronizes content, users, and plugin configurations across WordPress Multisite networks using the WP_Site_Query… | Security Reviewed | 21k | — |
-| [WP-CLI Bulk Content Migrator](skills/wp-cli-bulk-content-migrator/) | Automates large-scale WordPress content migrations using WP-CLI wp post create and wp term set commands. Handles… | Security Reviewed | 21k | — |
-| [WP-CLI Content Drift Auditor](skills/wp-cli-content-drift-auditor/) | Audits WordPress content drift by comparing live posts, revisions, and key options using WP-CLI commands like `wp… | Security Reviewed | 21k | — |
-| [WP-CLI Site Migration Automator](skills/wp-cli-site-migration-automator/) | Automates full WordPress site migrations using WP-CLI search-replace, wp db export, and rsync. Handles serialized… | Security Reviewed | 21k | — |
-| [WPGraphQL Schema Extension Builder](skills/wpgraphql-schema-extension-builder/) | Builds and documents WPGraphQL extensions with hooks such as `graphql_register_types`, `register_graphql_field`, and… | Security Reviewed | 21k | — |
-| [Headless CMS GraphQL Connector](skills/headless-cms-graphql-connector/) | Connects headless CMS backends (WordPress WPGraphQL, Strapi, Contentful) to frontend frameworks using Apollo Client… | Security Reviewed | 20.3k | 32M/wk |
-| [WooCommerce REST Sync Agent](skills/woocommerce-rest-sync-agent/) | Synchronizes WooCommerce product data bidirectionally using the WC REST API v3 and wc/v3/products endpoints. Handles… | Security Reviewed | 7k | 4.9M/wk |
-| [WooCommerce REST Order Manager](skills/woocommerce-rest-order-manager/) | Queries and updates WooCommerce orders via the WooCommerce REST API v3 (/wp-json/wc/v3/orders), filters by status,… | Security Reviewed | 4.4k | 8.4M/wk |
-| [WP Cron Health Monitor](skills/wp-cron-health-monitor/) | Monitors WordPress wp-cron scheduled events using the WP_Cron API and Action Scheduler library. Detects stuck,… | Security Reviewed | 69 | 207.4k/wk |
-| [Directus Open-Source Headless CMS and Backend Platform](skills/directus-open-source-headless-cms-backend-platform/) | Directus is an open-source headless CMS that wraps any SQL database with instant REST and GraphQL APIs, a no-code… | Published | — | — |
-| [WooCommerce Order Sync Agent](skills/woocommerce-order-sync-agent/) | Synchronizes WooCommerce orders with external ERPs using the WooCommerce REST API v3 and wp_schedule_event. Handles… | Security Reviewed | — | — |
-| [WooCommerce REST Inventory Sync](skills/woocommerce-rest-inventory-sync/) | Synchronizes WooCommerce product inventory across multiple channels using the WooCommerce REST API v3 and… | Security Reviewed | — | — |
-| [WooCommerce Webhook Delivery Inspector](skills/woocommerce-webhook-delivery-inspector/) | Inspects WooCommerce webhook reliability through the `WC_Webhook` model, Action Scheduler queues, and REST endpoints… | Security Reviewed | — | — |
-| [WooCommerce Webhook Orchestrator](skills/woocommerce-webhook-orchestrator/) | Manages WooCommerce webhook lifecycles using the wc/v3/webhooks REST API and WC_Webhook class. Handles order,… | Security Reviewed | — | — |
-| [WPScan WordPress Security Vulnerability Scanner](skills/wpscan-wordpress-security-vulnerability-scanner/) | WPScan is an open-source WordPress security scanner that detects vulnerabilities in plugins, themes, and core… | Published | — | — |
 
 
 ---

@@ -1,6 +1,6 @@
 # 📰 WordPress & CMS
 
-> **34 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS)
+> **38 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS)
 
 Theme/plugin development, WP-CLI automation, CMS management, and WordPress skills.
 
@@ -86,10 +86,14 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [WooCommerce REST Order Manager](../../skills/woocommerce-rest-order-manager/) | Security Reviewed | 4.4k | 8.4M/wk | `clawhub install woocommerce-rest-order-manager` |
 | [WP Cron Health Monitor](../../skills/wp-cron-health-monitor/) | Security Reviewed | 69 | 207.4k/wk | `clawhub install wp-cron-health-monitor` |
 | [Directus Open-Source Headless CMS and Backend Platform](../../skills/directus-open-source-headless-cms-backend-platform/) | Verified Metadata | — | — | `clawhub install directus-open-source-headless-cms-backend-platform` |
+| [Payload CMS Next.js-Native Headless CMS and Application Framework](../../skills/payload-cms-nextjs-headless-framework/) | Verified Metadata | — | — | `clawhub install payload-cms-nextjs-headless-framework` |
+| [Strapi Open Source Headless CMS with REST and GraphQL APIs](../../skills/strapi-headless-cms-rest-graphql/) | Verified Metadata | — | — | `clawhub install strapi-headless-cms-rest-graphql` |
 | [WooCommerce Order Sync Agent](../../skills/woocommerce-order-sync-agent/) | Security Reviewed | — | — | `clawhub install woocommerce-order-sync-agent` |
 | [WooCommerce REST Inventory Sync](../../skills/woocommerce-rest-inventory-sync/) | Security Reviewed | — | — | `clawhub install woocommerce-rest-inventory-sync` |
 | [WooCommerce Webhook Delivery Inspector](../../skills/woocommerce-webhook-delivery-inspector/) | Security Reviewed | — | — | `clawhub install woocommerce-webhook-delivery-inspector` |
 | [WooCommerce Webhook Orchestrator](../../skills/woocommerce-webhook-orchestrator/) | Security Reviewed | — | — | `clawhub install woocommerce-webhook-orchestrator` |
+| [WordPress Playground WebAssembly Runtime for In-Browser WordPress](../../skills/wordpress-playground-wasm-runtime/) | Verified Metadata | — | — | `clawhub install wordpress-playground-wasm-runtime` |
+| [wp-env Zero-Config WordPress Development Environment](../../skills/wp-env-wordpress-dev-environment/) | Verified Metadata | — | — | `clawhub install wp-env-wordpress-dev-environment` |
 | [WPScan WordPress Security Vulnerability Scanner](../../skills/wpscan-wordpress-security-vulnerability-scanner/) | Verified Metadata | — | — | `clawhub install wpscan-wordpress-security-vulnerability-scanner` |
 
 ---

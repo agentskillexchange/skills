@@ -1,6 +1,6 @@
 # 🎙️ Media & Transcription
 
-> **41 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription)
+> **46 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription)
 
 Audio/video processing, speech-to-text, media conversion, and transcription.
 
@@ -88,6 +88,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [AssemblyAI Audio Intelligence Agent](../../skills/assemblyai-audio-intelligence-agent/) | Security Reviewed | — | — | `clawhub install assemblyai-audio-intelligence-agent` |
 | [AssemblyAI LeMUR Summarizer](../../skills/assemblyai-lemur-summarizer-agent/) | Security Reviewed | — | — | `clawhub install assemblyai-lemur-summarizer-agent` |
 | [AssemblyAI Summarization &#038; Chapters Skill](../../skills/assemblyai-summarization-chapters-skill/) | Security Reviewed | — | — | `clawhub install assemblyai-summarization-chapters-skill` |
+| [audiowaveform Audio Waveform Data Generator and Image Renderer](../../skills/audiowaveform-bbc-waveform-generator/) | Verified Metadata | — | — | `clawhub install audiowaveform-bbc-waveform-generator` |
 | [Core Audio Unit v3 Debugger](../../skills/core-audio-unit-v3-debugger/) | Security Reviewed | — | — | `clawhub install core-audio-unit-v3-debugger` |
 | [Deepgram Nova Transcriber](../../skills/deepgram-nova-transcriber-agent/) | Security Reviewed | — | — | `clawhub install deepgram-nova-transcriber-agent` |
 | [Deepgram Real-Time Transcription Connector](../../skills/deepgram-realtime-transcription-connector/) | Security Reviewed | — | — | `clawhub install deepgram-realtime-transcription-connector` |
@@ -95,7 +96,11 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [Dolby.io Media Enhancer](../../skills/dolby-io-media-enhancer-agent/) | Security Reviewed | — | — | `clawhub install dolby-io-media-enhancer-agent` |
 | [ElevenLabs Voice Cloning Agent](../../skills/elevenlabs-voice-cloning-agent/) | Security Reviewed | — | — | `clawhub install elevenlabs-voice-cloning-agent` |
 | [GStreamer Pipeline Graph Optimizer](../../skills/gstreamer-pipeline-graph-optimizer/) | Security Reviewed | — | — | `clawhub install gstreamer-pipeline-graph-optimizer` |
+| [LosslessCut FFmpeg-Powered Media Editor](../../skills/losslesscut-ffmpeg-powered-media-editor/) | Verified Metadata | — | — | `clawhub install losslesscut-ffmpeg-powered-media-editor` |
+| [Piper Local Neural Text-to-Speech Engine](../../skills/piper-local-neural-tts-engine/) | Verified Metadata | — | — | `clawhub install piper-local-neural-tts-engine` |
 | [Podcast RSS Feed Builder](../../skills/podcast-rss-feed-builder/) | Security Reviewed | — | — | `clawhub install podcast-rss-feed-builder` |
+| [Remotion Programmatic Video Creator](../../skills/remotion-programmatic-video-creator/) | Verified Metadata | — | — | `clawhub install remotion-programmatic-video-creator` |
+| [Vosk Offline Speech Recognition Toolkit](../../skills/vosk-offline-speech-recognition-toolkit/) | Verified Metadata | — | — | `clawhub install vosk-offline-speech-recognition-toolkit` |
 | [YouTube Chapter Generator from Transcripts](../../skills/youtube-chapter-generator-transcripts/) | Security Reviewed | — | — | `clawhub install youtube-chapter-generator-transcripts` |
 | [yt-dlp Feature-Rich Audio and Video Downloader CLI](../../skills/yt-dlp-feature-rich-audio-video-downloader-cli/) | Verified Metadata | — | — | `clawhub install yt-dlp-feature-rich-audio-video-downloader-cli` |
 
