@@ -1,6 +1,6 @@
 # 📅 Calendar, Email & Productivity
 
-> **51 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity)
+> **52 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity)
 
 Email automation, calendar management, task coordination, and productivity tools.
 
@@ -94,6 +94,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Google Calendar Smart Scheduler](../../skills/google-calendar-smart-scheduler-2/) | Security Reviewed | — | — | `clawhub install google-calendar-smart-scheduler-2` |
 | [Google Calendar Sync &#038; Conflict Resolver](../../skills/google-calendar-sync-conflict-resolver/) | Security Reviewed | — | — | `clawhub install google-calendar-sync-conflict-resolver` |
 | [Google Calendar Sync Agent](../../skills/google-calendar-sync-agent-2/) | Security Reviewed | — | — | `clawhub install google-calendar-sync-agent-2` |
+| [Google Workspace MCP Server for Gmail Calendar and Drive](../../skills/google-workspace-mcp-server-gmail-calendar-drive/) | Verified Metadata | — | — | `clawhub install google-workspace-mcp-server-gmail-calendar-drive` |
 | [IMAP Email Classifier](../../skills/imap-email-classifier-ml/) | Security Reviewed | — | — | `clawhub install imap-email-classifier-ml` |
 | [IMAP Inbox Triage Agent](../../skills/imap-inbox-triage-agent/) | Security Reviewed | — | — | `clawhub install imap-inbox-triage-agent` |
 | [Inbox Zero AI Email Assistant](../../skills/inbox-zero-ai-email-assistant/) | Verified Metadata | — | — | `clawhub install inbox-zero-ai-email-assistant` |
@@ -130,7 +131,7 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 ## Related Categories
 
-- 🛠️ [Developer Tools](../developer-tools/) (141 skills)
+- 🛠️ [Developer Tools](../developer-tools/) (144 skills)
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (140 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
 - 🔄 [Data Extraction & Transformation](../data-extraction-transformation/) (102 skills)

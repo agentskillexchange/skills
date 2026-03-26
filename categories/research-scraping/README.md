@@ -1,6 +1,6 @@
 # 🔍 Research & Scraping
 
-> **49 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping)
+> **50 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping)
 
 Web research, data collection, content aggregation, and information gathering.
 
@@ -88,6 +88,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Censys Attack Surface Monitor](../../skills/censys-attack-surface-monitor/) | Security Reviewed | 69 | 207.4k/wk | `clawhub install censys-attack-surface-monitor` |
 | [Academic Paper Citation Network Mapper](../../skills/academic-paper-citation-network-mapper/) | Security Reviewed | — | — | `clawhub install academic-paper-citation-network-mapper` |
 | [Beautiful Soup Academic Paper Parser](../../skills/beautifulsoup-academic-paper-parser/) | Security Reviewed | — | — | `clawhub install beautifulsoup-academic-paper-parser` |
+| [Brave Search MCP Server for AI Web Search](../../skills/brave-search-mcp-server-ai-web-search/) | Verified Metadata | — | — | `clawhub install brave-search-mcp-server-ai-web-search` |
 | [Browserless Scraping Agent](../../skills/browserless-scraping-agent/) | Security Reviewed | — | — | `clawhub install browserless-scraping-agent` |
 | [Common Crawl Index Query Agent](../../skills/common-crawl-index-query-agent/) | Security Reviewed | — | — | `clawhub install common-crawl-index-query-agent` |
 | [Common Crawl URL Index Miner](../../skills/common-crawl-url-index-miner/) | Security Reviewed | — | — | `clawhub install common-crawl-url-index-miner` |
@@ -128,7 +129,7 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 ## Related Categories
 
-- 🛠️ [Developer Tools](../developer-tools/) (141 skills)
+- 🛠️ [Developer Tools](../developer-tools/) (144 skills)
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (140 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
 - 🔄 [Data Extraction & Transformation](../data-extraction-transformation/) (102 skills)

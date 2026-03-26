@@ -1,6 +1,6 @@
 # 🔗 Integrations & Connectors
 
-> **56 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors)
+> **57 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors)
 
 Third-party API bridges, webhook handlers, service connectors, and platform integrations.
 
@@ -105,6 +105,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Neon MCP Server for Serverless Postgres Management](../../skills/neon-mcp-server-serverless-postgres/) | Security Reviewed | — | 21.4M/wk | `clawhub install neon-mcp-server-serverless-postgres` |
 | [Neon Serverless Postgres MCP](../../skills/neon-serverless-postgres-mcp/) | Security Reviewed | — | 21.4M/wk | `clawhub install neon-serverless-postgres-mcp` |
 | [Airbyte Open Source Data Integration Platform](../../skills/airbyte-open-source-data-integration-platform/) | Verified Metadata | — | — | `clawhub install airbyte-open-source-data-integration-platform` |
+| [Atlassian MCP Server for Jira and Confluence](../../skills/atlassian-mcp-server-jira-confluence/) | Verified Metadata | — | — | `clawhub install atlassian-mcp-server-jira-confluence` |
 | [Composio Agent Tool Integration Platform](../../skills/composio-agent-tool-integration-platform/) | Verified Metadata | — | — | `clawhub install composio-agent-tool-integration-platform` |
 | [Linear MCP Server for Issue Tracking and Project Management](../../skills/linear-mcp-server-issue-tracking-project-management/) | Security Reviewed | — | — | `clawhub install linear-mcp-server-issue-tracking-project-management` |
 | [n8n Workflow Webhook Bridge](../../skills/n8n-workflow-webhook-bridge/) | Security Reviewed | — | — | `clawhub install n8n-workflow-webhook-bridge` |
@@ -135,7 +136,7 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 ## Related Categories
 
-- 🛠️ [Developer Tools](../developer-tools/) (141 skills)
+- 🛠️ [Developer Tools](../developer-tools/) (144 skills)
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (140 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
 - 🔄 [Data Extraction & Transformation](../data-extraction-transformation/) (102 skills)
