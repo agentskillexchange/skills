@@ -18,7 +18,7 @@ Skills in this category.
 
 | Skill | Tier | Signal | Install |
 |---|---|---:|---|
-| [Checkly Browser Check Failure Notifier](../../skills/checkly-browser-check-failure-notifier/) | Security Reviewed | ⭐ 84.9k | `clawhub install checkly-browser-check-failure-notifier` |
+| [Checkly Browser Check Failure Notifier](../../skills/checkly-browser-check-failure-notifier/) | Security Reviewed | ⭐ 85k | `clawhub install checkly-browser-check-failure-notifier` |
 | [Elastic APM Transaction Anomaly Spotter](../../skills/elastic-apm-transaction-anomaly-spotter/) | Security Reviewed | ⭐ 76.4k | `clawhub install elastic-apm-transaction-anomaly-spotter` |
 | [Sentry Issue Spike Detection Agent](../../skills/sentry-issue-spike-detection-agent/) | Security Reviewed | ⭐ 43.4k | `clawhub install sentry-issue-spike-detection-agent` |
 | [Uptime Robot Status Page Webhook Alerter](../../skills/uptime-robot-status-page-webhook-alerter/) | Security Reviewed | ⭐ 69 | `clawhub install uptime-robot-status-page-webhook-alerter` |
@@ -29,10 +29,10 @@ Skills in this category.
 
 | Skill | Tier | Signal | Install |
 |---|---|---:|---|
-| [Checkly Browser Check Failure Notifier](../../skills/checkly-browser-check-failure-notifier/) | Security Reviewed | ⬇ 39.8M/wk | `clawhub install checkly-browser-check-failure-notifier` |
+| [Checkly Browser Check Failure Notifier](../../skills/checkly-browser-check-failure-notifier/) | Security Reviewed | ⬇ 40.1M/wk | `clawhub install checkly-browser-check-failure-notifier` |
 | [Elastic APM Transaction Anomaly Spotter](../../skills/elastic-apm-transaction-anomaly-spotter/) | Security Reviewed | ⬇ 1.9M/wk | `clawhub install elastic-apm-transaction-anomaly-spotter` |
 | [Sentry Issue Spike Detection Agent](../../skills/sentry-issue-spike-detection-agent/) | Security Reviewed | ⬇ 16.4M/wk | `clawhub install sentry-issue-spike-detection-agent` |
-| [Uptime Robot Status Page Webhook Alerter](../../skills/uptime-robot-status-page-webhook-alerter/) | Security Reviewed | ⬇ 210.8k/wk | `clawhub install uptime-robot-status-page-webhook-alerter` |
+| [Uptime Robot Status Page Webhook Alerter](../../skills/uptime-robot-status-page-webhook-alerter/) | Security Reviewed | ⬇ 207.4k/wk | `clawhub install uptime-robot-status-page-webhook-alerter` |
 
 ---
 
@@ -51,10 +51,10 @@ Skills in this category.
 
 | Skill | Tier | GitHub Stars | npm Downloads | Install |
 |---|---|---:|---:|---|
-| [Checkly Browser Check Failure Notifier](../../skills/checkly-browser-check-failure-notifier/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install checkly-browser-check-failure-notifier` |
+| [Checkly Browser Check Failure Notifier](../../skills/checkly-browser-check-failure-notifier/) | Security Reviewed | 85k | 40.1M/wk | `clawhub install checkly-browser-check-failure-notifier` |
 | [Elastic APM Transaction Anomaly Spotter](../../skills/elastic-apm-transaction-anomaly-spotter/) | Security Reviewed | 76.4k | 1.9M/wk | `clawhub install elastic-apm-transaction-anomaly-spotter` |
 | [Sentry Issue Spike Detection Agent](../../skills/sentry-issue-spike-detection-agent/) | Security Reviewed | 43.4k | 16.4M/wk | `clawhub install sentry-issue-spike-detection-agent` |
-| [Uptime Robot Status Page Webhook Alerter](../../skills/uptime-robot-status-page-webhook-alerter/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install uptime-robot-status-page-webhook-alerter` |
+| [Uptime Robot Status Page Webhook Alerter](../../skills/uptime-robot-status-page-webhook-alerter/) | Security Reviewed | 69 | 207.4k/wk | `clawhub install uptime-robot-status-page-webhook-alerter` |
 
 ---
 
@@ -77,8 +77,8 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 ## Related Categories
 
+- 🛠️ [Developer Tools](../developer-tools/) (141 skills)
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (140 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (140 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
 - 🔄 [Data Extraction & Transformation](../data-extraction-transformation/) (100 skills)
 

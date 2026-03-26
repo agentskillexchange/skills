@@ -81,7 +81,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [Video Frames Extractor](../../skills/video-frames-extractor/) | Security Reviewed | 58.3k | — | `clawhub install video-frames-extractor` |
 | [Video Subtitle Auto-Translator](../../skills/video-subtitle-auto-translator-agent/) | Security Reviewed | 58.3k | — | `clawhub install video-subtitle-auto-translator-agent` |
 | [Video Subtitle Translator Agent](../../skills/video-subtitle-translator-agent/) | Security Reviewed | 58.3k | — | `clawhub install video-subtitle-translator-agent` |
-| [MediaInfo Metadata Extractor](../../skills/mediainfo-metadata-extractor/) | Security Reviewed | 7k | 5M/wk | `clawhub install mediainfo-metadata-extractor` |
+| [MediaInfo Metadata Extractor](../../skills/mediainfo-metadata-extractor/) | Security Reviewed | 7k | 4.9M/wk | `clawhub install mediainfo-metadata-extractor` |
 | [Deepgram Podcast Chapter Generator](../../skills/deepgram-podcast-chapter-generator/) | Security Reviewed | 5.6k | 1.1M/wk | `clawhub install deepgram-podcast-chapter-generator` |
 | [ElevenLabs Voiceover Generator for Long-Form Content](../../skills/elevenlabs-voiceover-longform/) | Security Reviewed | 1.9k | 1M/wk | `clawhub install elevenlabs-voiceover-longform` |
 | [Audio Fingerprint Identifier](../../skills/audio-fingerprint-identifier-agent/) | Security Reviewed | — | 21.4M/wk | `clawhub install audio-fingerprint-identifier-agent` |
@@ -119,8 +119,8 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 ## Related Categories
 
+- 🛠️ [Developer Tools](../developer-tools/) (141 skills)
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (140 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (140 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
 - 🔄 [Data Extraction & Transformation](../data-extraction-transformation/) (100 skills)
 

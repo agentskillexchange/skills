@@ -67,19 +67,21 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Puppeteer Visual Regression Tester](../../skills/puppeteer-visual-regression-tester/) | Security Reviewed | 93.9k | 8.7M/wk | `clawhub install puppeteer-visual-regression-tester` |
 | [Puppeteer Visual Regression Testing](../../skills/puppeteer-visual-regression-testing/) | Security Reviewed | 93.9k | 8.7M/wk | `clawhub install puppeteer-visual-regression-testing` |
 | [Puppeteer Web Scraping Pipeline](../../skills/puppeteer-web-scraping-pipeline/) | Security Reviewed | 93.9k | 8.7M/wk | `clawhub install puppeteer-web-scraping-pipeline` |
-| [Agent Browser Operator](../../skills/agent-browser-operator/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install agent-browser-operator` |
-| [Playwright Accessibility Audit Runner](../../skills/playwright-accessibility-audit-runner/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-accessibility-audit-runner` |
-| [Playwright Cross-Browser Test Runner](../../skills/playwright-cross-browser-test-runner/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-cross-browser-test-runner` |
-| [Playwright MCP Browser Automation](../../skills/playwright-mcp-browser-automation/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-mcp-browser-automation` |
-| [Playwright Multi-Browser Test Generator](../../skills/playwright-multi-browser-test-generator/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-multi-browser-test-generator` |
-| [Playwright Multi-Browser Test Suite](../../skills/playwright-multi-browser-test-suite/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-multi-browser-test-suite` |
-| [Playwright Multi-Tab Session Manager](../../skills/playwright-multi-tab-session-manager-2/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-multi-tab-session-manager-2` |
-| [Playwright Network HAR Recorder](../../skills/playwright-network-har-recorder/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-network-har-recorder` |
-| [Playwright Parallel Tab Manager](../../skills/playwright-parallel-tab-manager/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-parallel-tab-manager` |
-| [Playwright PDF Export Automation](../../skills/playwright-pdf-export-automation/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-pdf-export-automation` |
-| [Playwright Session Recorder](../../skills/playwright-session-recorder-2/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-session-recorder-2` |
-| [Playwright Visual Regression Suite](../../skills/playwright-visual-regression-suite/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-visual-regression-suite` |
-| [Playwright Visual Regression Tester](../../skills/playwright-visual-regression-tester-3/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-visual-regression-tester-3` |
+| [Agent Browser Operator](../../skills/agent-browser-operator/) | Security Reviewed | 85k | 40.1M/wk | `clawhub install agent-browser-operator` |
+| [Playwright Accessibility Audit Runner](../../skills/playwright-accessibility-audit-runner/) | Security Reviewed | 85k | 40.1M/wk | `clawhub install playwright-accessibility-audit-runner` |
+| [Playwright Cross-Browser Test Runner](../../skills/playwright-cross-browser-test-runner/) | Security Reviewed | 85k | 40.1M/wk | `clawhub install playwright-cross-browser-test-runner` |
+| [Playwright MCP Browser Automation](../../skills/playwright-mcp-browser-automation/) | Security Reviewed | 85k | 40.1M/wk | `clawhub install playwright-mcp-browser-automation` |
+| [Playwright MCP Server for Browser Automation](../../skills/playwright-mcp-server-browser-automation/) | Security Reviewed | 85k | 40.1M/wk | `clawhub install playwright-mcp-server-browser-automation` |
+| [Playwright Multi-Browser Test Generator](../../skills/playwright-multi-browser-test-generator/) | Security Reviewed | 85k | 40.1M/wk | `clawhub install playwright-multi-browser-test-generator` |
+| [Playwright Multi-Browser Test Suite](../../skills/playwright-multi-browser-test-suite/) | Security Reviewed | 85k | 40.1M/wk | `clawhub install playwright-multi-browser-test-suite` |
+| [Playwright Multi-Tab Session Manager](../../skills/playwright-multi-tab-session-manager-2/) | Security Reviewed | 85k | 40.1M/wk | `clawhub install playwright-multi-tab-session-manager-2` |
+| [Playwright Network HAR Recorder](../../skills/playwright-network-har-recorder/) | Security Reviewed | 85k | 40.1M/wk | `clawhub install playwright-network-har-recorder` |
+| [Playwright Parallel Tab Manager](../../skills/playwright-parallel-tab-manager/) | Security Reviewed | 85k | 40.1M/wk | `clawhub install playwright-parallel-tab-manager` |
+| [Playwright PDF Export Automation](../../skills/playwright-pdf-export-automation/) | Security Reviewed | 85k | 40.1M/wk | `clawhub install playwright-pdf-export-automation` |
+| [Playwright Session Recorder](../../skills/playwright-session-recorder-2/) | Security Reviewed | 85k | 40.1M/wk | `clawhub install playwright-session-recorder-2` |
+| [Playwright Visual Regression Suite](../../skills/playwright-visual-regression-suite/) | Security Reviewed | 85k | 40.1M/wk | `clawhub install playwright-visual-regression-suite` |
+| [Playwright Visual Regression Tester](../../skills/playwright-visual-regression-tester-3/) | Security Reviewed | 85k | 40.1M/wk | `clawhub install playwright-visual-regression-tester-3` |
+| [Stagehand AI Browser Automation Framework](../../skills/stagehand-ai-browser-automation-framework/) | Security Reviewed | 85k | 40.1M/wk | `clawhub install stagehand-ai-browser-automation-framework` |
 | [Cypress Component Test Generator](../../skills/cypress-component-test-generator/) | Security Reviewed | 49.6k | 7.4M/wk | `clawhub install cypress-component-test-generator` |
 | [Cypress Component Testing Framework](../../skills/cypress-component-testing-framework-2/) | Security Reviewed | 49.6k | 7.4M/wk | `clawhub install cypress-component-testing-framework-2` |
 | [Cypress Component Testing Suite](../../skills/cypress-component-testing-suite/) | Security Reviewed | 49.6k | 7.4M/wk | `clawhub install cypress-component-testing-suite` |
@@ -102,8 +104,6 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Selenium Grid Session Router](../../skills/selenium-grid-session-router/) | Security Reviewed | 34.2k | 2M/wk | `clawhub install selenium-grid-session-router` |
 | [Selenium Grid Test Orchestrator](../../skills/selenium-grid-test-orchestrator-2/) | Security Reviewed | 34.2k | 2M/wk | `clawhub install selenium-grid-test-orchestrator-2` |
 | [CDP Network Interception Logger](../../skills/cdp-network-interception-logger/) | Security Reviewed | 789 | 6M/wk | `clawhub install cdp-network-interception-logger` |
-| [Playwright MCP Server for Browser Automation](../../skills/playwright-mcp-server-browser-automation/) | Security Reviewed | — | — | `clawhub install playwright-mcp-server-browser-automation` |
-| [Stagehand AI Browser Automation Framework](../../skills/stagehand-ai-browser-automation-framework/) | Security Reviewed | — | — | `clawhub install stagehand-ai-browser-automation-framework` |
 
 ---
 
@@ -126,8 +126,8 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 ## Related Categories
 
+- 🛠️ [Developer Tools](../developer-tools/) (141 skills)
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (140 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (140 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
 - 🔄 [Data Extraction & Transformation](../data-extraction-transformation/) (100 skills)
 

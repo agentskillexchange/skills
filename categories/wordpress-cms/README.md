@@ -34,9 +34,9 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [Gutenberg Block Scaffolder](../../skills/gutenberg-block-scaffolder-agent/) | Security Reviewed | ⬇ 44.8M/wk | `clawhub install gutenberg-block-scaffolder-agent` |
 | [Gutenberg Custom Block Builder](../../skills/gutenberg-custom-block-builder/) | Security Reviewed | ⬇ 44.8M/wk | `clawhub install gutenberg-custom-block-builder` |
 | [Headless CMS GraphQL Connector](../../skills/headless-cms-graphql-connector/) | Security Reviewed | ⬇ 32M/wk | `clawhub install headless-cms-graphql-connector` |
-| [WooCommerce REST Sync Agent](../../skills/woocommerce-rest-sync-agent/) | Security Reviewed | ⬇ 5M/wk | `clawhub install woocommerce-rest-sync-agent` |
+| [WooCommerce REST Sync Agent](../../skills/woocommerce-rest-sync-agent/) | Security Reviewed | ⬇ 4.9M/wk | `clawhub install woocommerce-rest-sync-agent` |
 | [WooCommerce REST Order Manager](../../skills/woocommerce-rest-order-manager/) | Security Reviewed | ⬇ 8.4M/wk | `clawhub install woocommerce-rest-order-manager` |
-| [WP Cron Health Monitor](../../skills/wp-cron-health-monitor/) | Security Reviewed | ⬇ 210.8k/wk | `clawhub install wp-cron-health-monitor` |
+| [WP Cron Health Monitor](../../skills/wp-cron-health-monitor/) | Security Reviewed | ⬇ 207.4k/wk | `clawhub install wp-cron-health-monitor` |
 
 ---
 
@@ -82,9 +82,9 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [WP-CLI Site Migration Automator](../../skills/wp-cli-site-migration-automator/) | Security Reviewed | 21k | — | `clawhub install wp-cli-site-migration-automator` |
 | [WPGraphQL Schema Extension Builder](../../skills/wpgraphql-schema-extension-builder/) | Security Reviewed | 21k | — | `clawhub install wpgraphql-schema-extension-builder` |
 | [Headless CMS GraphQL Connector](../../skills/headless-cms-graphql-connector/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install headless-cms-graphql-connector` |
-| [WooCommerce REST Sync Agent](../../skills/woocommerce-rest-sync-agent/) | Security Reviewed | 7k | 5M/wk | `clawhub install woocommerce-rest-sync-agent` |
+| [WooCommerce REST Sync Agent](../../skills/woocommerce-rest-sync-agent/) | Security Reviewed | 7k | 4.9M/wk | `clawhub install woocommerce-rest-sync-agent` |
 | [WooCommerce REST Order Manager](../../skills/woocommerce-rest-order-manager/) | Security Reviewed | 4.4k | 8.4M/wk | `clawhub install woocommerce-rest-order-manager` |
-| [WP Cron Health Monitor](../../skills/wp-cron-health-monitor/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install wp-cron-health-monitor` |
+| [WP Cron Health Monitor](../../skills/wp-cron-health-monitor/) | Security Reviewed | 69 | 207.4k/wk | `clawhub install wp-cron-health-monitor` |
 | [WooCommerce Order Sync Agent](../../skills/woocommerce-order-sync-agent/) | Security Reviewed | — | — | `clawhub install woocommerce-order-sync-agent` |
 | [WooCommerce REST Inventory Sync](../../skills/woocommerce-rest-inventory-sync/) | Security Reviewed | — | — | `clawhub install woocommerce-rest-inventory-sync` |
 | [WooCommerce Webhook Delivery Inspector](../../skills/woocommerce-webhook-delivery-inspector/) | Security Reviewed | — | — | `clawhub install woocommerce-webhook-delivery-inspector` |
@@ -111,8 +111,8 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 ## Related Categories
 
+- 🛠️ [Developer Tools](../developer-tools/) (141 skills)
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (140 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (140 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
 - 🔄 [Data Extraction & Transformation](../data-extraction-transformation/) (100 skills)
 

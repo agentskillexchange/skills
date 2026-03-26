@@ -18,12 +18,12 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 
 | Skill | Tier | Signal | Install |
 |---|---|---:|---|
-| [Argo Workflows Deployer](../../skills/argo-workflows-deployer/) | Security Reviewed | ⭐ 121.3k | `clawhub install argo-workflows-deployer` |
-| [Argo Workflows Linter](../../skills/argo-workflows-linter/) | Security Reviewed | ⭐ 121.3k | `clawhub install argo-workflows-linter` |
-| [Buildkite Agent Fleet Scaler](../../skills/buildkite-agent-fleet-scaler/) | Security Reviewed | ⭐ 121.3k | `clawhub install buildkite-agent-fleet-scaler` |
-| [Playwright Test Report to Slack](../../skills/playwright-test-report-to-slack/) | Security Reviewed | ⭐ 84.9k | `clawhub install playwright-test-report-to-slack` |
+| [Argo Workflows Deployer](../../skills/argo-workflows-deployer/) | Security Reviewed | ⭐ 121.4k | `clawhub install argo-workflows-deployer` |
+| [Argo Workflows Linter](../../skills/argo-workflows-linter/) | Security Reviewed | ⭐ 121.4k | `clawhub install argo-workflows-linter` |
+| [Buildkite Agent Fleet Scaler](../../skills/buildkite-agent-fleet-scaler/) | Security Reviewed | ⭐ 121.4k | `clawhub install buildkite-agent-fleet-scaler` |
+| [Playwright Test Report to Slack](../../skills/playwright-test-report-to-slack/) | Security Reviewed | ⭐ 85k | `clawhub install playwright-test-report-to-slack` |
+| [act Local GitHub Actions Runner](../../skills/act-local-github-actions-runner/) | Security Reviewed | ⭐ 71.6k | `clawhub install act-local-github-actions-runner` |
 | [Buildkite Dynamic Pipeline Architect](../../skills/buildkite-dynamic-pipeline-architect/) | Security Reviewed | ⭐ 71.6k | `clawhub install buildkite-dynamic-pipeline-architect` |
-| [Buildkite Pipeline Profiler](../../skills/buildkite-pipeline-profiler/) | Security Reviewed | ⭐ 71.6k | `clawhub install buildkite-pipeline-profiler` |
 
 ---
 
@@ -31,7 +31,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 
 | Skill | Tier | Signal | Install |
 |---|---|---:|---|
-| [Playwright Test Report to Slack](../../skills/playwright-test-report-to-slack/) | Security Reviewed | ⬇ 39.8M/wk | `clawhub install playwright-test-report-to-slack` |
+| [Playwright Test Report to Slack](../../skills/playwright-test-report-to-slack/) | Security Reviewed | ⬇ 40.1M/wk | `clawhub install playwright-test-report-to-slack` |
 | [Buildkite Agent Monitor](../../skills/buildkite-agent-monitor/) | Security Reviewed | ⬇ 32M/wk | `clawhub install buildkite-agent-monitor` |
 | [Buildkite Dynamic Pipeline Agent](../../skills/buildkite-dynamic-pipeline-agent/) | Security Reviewed | ⬇ 32M/wk | `clawhub install buildkite-dynamic-pipeline-agent` |
 | [Buildkite Pipeline Optimizer](../../skills/buildkite-pipeline-optimizer-agent/) | Security Reviewed | ⬇ 32M/wk | `clawhub install buildkite-pipeline-optimizer-agent` |
@@ -48,8 +48,8 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Argo Workflows Linter](../../skills/argo-workflows-linter/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install argo-workflows-linter` |
 | [Buildkite Agent Fleet Scaler](../../skills/buildkite-agent-fleet-scaler/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install buildkite-agent-fleet-scaler` |
 | [Playwright Test Report to Slack](../../skills/playwright-test-report-to-slack/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install playwright-test-report-to-slack` |
+| [act Local GitHub Actions Runner](../../skills/act-local-github-actions-runner/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install act-local-github-actions-runner` |
 | [Buildkite Dynamic Pipeline Architect](../../skills/buildkite-dynamic-pipeline-architect/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install buildkite-dynamic-pipeline-architect` |
-| [Buildkite Pipeline Profiler](../../skills/buildkite-pipeline-profiler/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install buildkite-pipeline-profiler` |
 
 ---
 
@@ -57,15 +57,17 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 
 | Skill | Tier | GitHub Stars | npm Downloads | Install |
 |---|---|---:|---:|---|
-| [Argo Workflows Deployer](../../skills/argo-workflows-deployer/) | Security Reviewed | 121.3k | — | `clawhub install argo-workflows-deployer` |
-| [Argo Workflows Linter](../../skills/argo-workflows-linter/) | Security Reviewed | 121.3k | — | `clawhub install argo-workflows-linter` |
-| [Buildkite Agent Fleet Scaler](../../skills/buildkite-agent-fleet-scaler/) | Security Reviewed | 121.3k | — | `clawhub install buildkite-agent-fleet-scaler` |
-| [Playwright Test Report to Slack](../../skills/playwright-test-report-to-slack/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-test-report-to-slack` |
+| [Argo Workflows Deployer](../../skills/argo-workflows-deployer/) | Security Reviewed | 121.4k | — | `clawhub install argo-workflows-deployer` |
+| [Argo Workflows Linter](../../skills/argo-workflows-linter/) | Security Reviewed | 121.4k | — | `clawhub install argo-workflows-linter` |
+| [Buildkite Agent Fleet Scaler](../../skills/buildkite-agent-fleet-scaler/) | Security Reviewed | 121.4k | — | `clawhub install buildkite-agent-fleet-scaler` |
+| [Playwright Test Report to Slack](../../skills/playwright-test-report-to-slack/) | Security Reviewed | 85k | 40.1M/wk | `clawhub install playwright-test-report-to-slack` |
+| [act Local GitHub Actions Runner](../../skills/act-local-github-actions-runner/) | Security Reviewed | 71.6k | — | `clawhub install act-local-github-actions-runner` |
 | [Buildkite Dynamic Pipeline Architect](../../skills/buildkite-dynamic-pipeline-architect/) | Security Reviewed | 71.6k | — | `clawhub install buildkite-dynamic-pipeline-architect` |
 | [Buildkite Pipeline Profiler](../../skills/buildkite-pipeline-profiler/) | Security Reviewed | 71.6k | — | `clawhub install buildkite-pipeline-profiler` |
 | [Docker Image Layer Inspector](../../skills/docker-image-layer-inspector/) | Security Reviewed | 71.6k | — | `clawhub install docker-image-layer-inspector` |
 | [Docker Image Layer Size Analyzer](../../skills/docker-image-layer-size-analyzer/) | Security Reviewed | 71.6k | — | `clawhub install docker-image-layer-size-analyzer` |
 | [Docker Image Vulnerability Triage](../../skills/docker-image-vulnerability-triage/) | Security Reviewed | 71.6k | — | `clawhub install docker-image-vulnerability-triage` |
+| [GoReleaser Cross-Platform Release Automation](../../skills/goreleaser-cross-platform-release-automation/) | Security Reviewed | 71.6k | — | `clawhub install goreleaser-cross-platform-release-automation` |
 | [Hugging Face Model Deployer](../../skills/huggingface-model-deployer/) | Security Reviewed | 71.6k | — | `clawhub install huggingface-model-deployer` |
 | [Terraform Cloud Orchestrator](../../skills/terraform-cloud-orchestrator-skill/) | Security Reviewed | 48k | — | `clawhub install terraform-cloud-orchestrator-skill` |
 | [Terraform Cloud Pipeline Agent](../../skills/terraform-cloud-pipeline-agent/) | Security Reviewed | 48k | — | `clawhub install terraform-cloud-pipeline-agent` |
@@ -78,6 +80,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Terraform Plan Reviewer Agent](../../skills/terraform-plan-reviewer-agent/) | Security Reviewed | 48k | — | `clawhub install terraform-plan-reviewer-agent` |
 | [Terraform Plan Validator](../../skills/terraform-plan-validator/) | Security Reviewed | 48k | — | `clawhub install terraform-plan-validator` |
 | [Terraform Plan Validator Agent](../../skills/terraform-plan-validator-agent/) | Security Reviewed | 48k | — | `clawhub install terraform-plan-validator-agent` |
+| [Harden-Runner CI/CD Security Agent for GitHub Actions](../../skills/harden-runner-cicd-security-agent-github-actions/) | Security Reviewed | 34.1k | — | `clawhub install harden-runner-cicd-security-agent-github-actions` |
 | [Helm Chart Diff &amp; Upgrade Manager](../../skills/helm-chart-diff-upgrade-manager/) | Security Reviewed | 29.6k | — | `clawhub install helm-chart-diff-upgrade-manager` |
 | [Jenkins Declarative Pipeline Generator](../../skills/jenkins-declarative-pipeline-generator-2/) | Security Reviewed | 25.1k | — | `clawhub install jenkins-declarative-pipeline-generator-2` |
 | [Jenkins Groovy Shared Library Auditor](../../skills/jenkins-groovy-shared-library-auditor/) | Security Reviewed | 25.1k | — | `clawhub install jenkins-groovy-shared-library-auditor` |
@@ -153,11 +156,11 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Tekton Pipeline Task Generator](../../skills/tekton-pipeline-task-generator/) | Security Reviewed | 8.9k | — | `clawhub install tekton-pipeline-task-generator` |
 | [Tekton Pipeline Template Generator](../../skills/tekton-pipeline-template-generator/) | Security Reviewed | 8.9k | — | `clawhub install tekton-pipeline-template-generator` |
 | [Tekton Pipeline Validator](../../skills/tekton-pipeline-validator/) | Security Reviewed | 8.9k | — | `clawhub install tekton-pipeline-validator` |
-| [AWS CloudWatch Alarm Builder](../../skills/aws-cloudwatch-alarm-builder/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-cloudwatch-alarm-builder` |
-| [AWS CodePipeline Orchestrator](../../skills/aws-codepipeline-orchestrator/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install aws-codepipeline-orchestrator` |
-| [GitHub Actions Matrix Orchestrator](../../skills/github-actions-matrix-orchestrator/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install github-actions-matrix-orchestrator` |
-| [GitHub Actions OIDC Token Validator](../../skills/github-actions-oidc-token-validator/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install github-actions-oidc-token-validator` |
-| [GitHub Actions OIDC Token Verifier](../../skills/github-actions-oidc-token-verifier/) | Security Reviewed | 3.6k | 9.2M/wk | `clawhub install github-actions-oidc-token-verifier` |
+| [AWS CloudWatch Alarm Builder](../../skills/aws-cloudwatch-alarm-builder/) | Security Reviewed | 3.6k | 9.1M/wk | `clawhub install aws-cloudwatch-alarm-builder` |
+| [AWS CodePipeline Orchestrator](../../skills/aws-codepipeline-orchestrator/) | Security Reviewed | 3.6k | 9.1M/wk | `clawhub install aws-codepipeline-orchestrator` |
+| [GitHub Actions Matrix Orchestrator](../../skills/github-actions-matrix-orchestrator/) | Security Reviewed | 3.6k | 9.1M/wk | `clawhub install github-actions-matrix-orchestrator` |
+| [GitHub Actions OIDC Token Validator](../../skills/github-actions-oidc-token-validator/) | Security Reviewed | 3.6k | 9.1M/wk | `clawhub install github-actions-oidc-token-validator` |
+| [GitHub Actions OIDC Token Verifier](../../skills/github-actions-oidc-token-verifier/) | Security Reviewed | 3.6k | 9.1M/wk | `clawhub install github-actions-oidc-token-verifier` |
 | [CircleCI Config Validator](../../skills/circleci-config-validator/) | Security Reviewed | 842 | — | `clawhub install circleci-config-validator` |
 | [CircleCI Flaky Test Detector](../../skills/circleci-flaky-test-detector-2/) | Security Reviewed | 842 | — | `clawhub install circleci-flaky-test-detector-2` |
 | [CircleCI Orb Auditor](../../skills/circleci-orb-auditor/) | Security Reviewed | 842 | — | `clawhub install circleci-orb-auditor` |
@@ -182,7 +185,6 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [CircleCI Workflow Analyzer](../../skills/circleci-workflow-analyzer/) | Security Reviewed | 842 | — | `clawhub install circleci-workflow-analyzer` |
 | [CircleCI Workflow Builder](../../skills/circleci-workflow-builder/) | Security Reviewed | 842 | — | `clawhub install circleci-workflow-builder` |
 | [CircleCI Workflow Cost Auditor](../../skills/circleci-workflow-cost-auditor/) | Security Reviewed | 842 | — | `clawhub install circleci-workflow-cost-auditor` |
-| [act Local GitHub Actions Runner](../../skills/act-local-github-actions-runner/) | Security Reviewed | — | — | `clawhub install act-local-github-actions-runner` |
 | [GitHub Actions CI Builder](../../skills/github-actions-ci-builder/) | Security Reviewed | — | — | `clawhub install github-actions-ci-builder` |
 | [GitHub Actions CI Pipeline Builder](../../skills/github-actions-ci-pipeline-builder/) | Security Reviewed | — | — | `clawhub install github-actions-ci-pipeline-builder` |
 | [GitHub Actions Matrix Build Optimizer](../../skills/github-actions-matrix-build-optimizer/) | Security Reviewed | — | — | `clawhub install github-actions-matrix-build-optimizer` |
@@ -194,8 +196,6 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [GitHub Actions Workflow Generator](../../skills/github-actions-workflow-generator-3/) | Security Reviewed | — | — | `clawhub install github-actions-workflow-generator-3` |
 | [GitHub Actions Workflow Linter](../../skills/github-actions-workflow-linter-2/) | Security Reviewed | — | — | `clawhub install github-actions-workflow-linter-2` |
 | [GitHub Actions Workflow Optimizer](../../skills/github-actions-workflow-optimizer/) | Security Reviewed | — | — | `clawhub install github-actions-workflow-optimizer` |
-| [GoReleaser Cross-Platform Release Automation](../../skills/goreleaser-cross-platform-release-automation/) | Security Reviewed | — | — | `clawhub install goreleaser-cross-platform-release-automation` |
-| [Harden-Runner CI/CD Security Agent for GitHub Actions](../../skills/harden-runner-cicd-security-agent-github-actions/) | Security Reviewed | — | — | `clawhub install harden-runner-cicd-security-agent-github-actions` |
 | [npm Audit Dependency Report Generator](../../skills/npm-audit-dependency-report-generator/) | Security Reviewed | — | — | `clawhub install npm-audit-dependency-report-generator` |
 
 ---
@@ -219,7 +219,7 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 ## Related Categories
 
-- 🛠️ [Developer Tools](../developer-tools/) (140 skills)
+- 🛠️ [Developer Tools](../developer-tools/) (141 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
 - 🔄 [Data Extraction & Transformation](../data-extraction-transformation/) (100 skills)
 - 🔒 [Security & Verification](../security-verification/) (96 skills)

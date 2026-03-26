@@ -27,7 +27,7 @@ Skills in this category.
 
 | Skill | Tier | Signal | Install |
 |---|---|---:|---|
-| [DALL-E 3 Brand Asset Batch Generator](../../skills/dall-e-3-brand-asset-batch-generator/) | Security Reviewed | ⬇ 16.3M/wk | `clawhub install dall-e-3-brand-asset-batch-generator` |
+| [DALL-E 3 Brand Asset Batch Generator](../../skills/dall-e-3-brand-asset-batch-generator/) | Security Reviewed | ⬇ 16.2M/wk | `clawhub install dall-e-3-brand-asset-batch-generator` |
 
 ---
 
@@ -47,7 +47,7 @@ Skills in this category.
 | Skill | Tier | GitHub Stars | npm Downloads | Install |
 |---|---|---:|---:|---|
 | [RunwayML Gen-3 Alpha Video Composer](../../skills/runwayml-gen-3-alpha-video-composer/) | Security Reviewed | 58.3k | — | `clawhub install runwayml-gen-3-alpha-video-composer` |
-| [DALL-E 3 Brand Asset Batch Generator](../../skills/dall-e-3-brand-asset-batch-generator/) | Security Reviewed | 10.8k | 16.3M/wk | `clawhub install dall-e-3-brand-asset-batch-generator` |
+| [DALL-E 3 Brand Asset Batch Generator](../../skills/dall-e-3-brand-asset-batch-generator/) | Security Reviewed | 10.8k | 16.2M/wk | `clawhub install dall-e-3-brand-asset-batch-generator` |
 | [Midjourney Prompt Chain Builder](../../skills/midjourney-prompt-chain-builder/) | Security Reviewed | — | — | `clawhub install midjourney-prompt-chain-builder` |
 | [Stable Diffusion ControlNet Pose Pipeline](../../skills/stable-diffusion-controlnet-pose-pipeline/) | Security Reviewed | — | — | `clawhub install stable-diffusion-controlnet-pose-pipeline` |
 
@@ -72,8 +72,8 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 ## Related Categories
 
+- 🛠️ [Developer Tools](../developer-tools/) (141 skills)
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (140 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (140 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
 - 🔄 [Data Extraction & Transformation](../data-extraction-transformation/) (100 skills)
 

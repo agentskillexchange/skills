@@ -32,9 +32,9 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | Skill | Tier | Signal | Install |
 |---|---|---:|---|
 | [Surfer SEO Content Optimizer](../../skills/surfer-seo-content-optimizer/) | Security Reviewed | ⬇ 18.5M/wk | `clawhub install surfer-seo-content-optimizer` |
-| [AI Meta Description Generator](../../skills/ai-meta-description-generator/) | Security Reviewed | ⬇ 16.3M/wk | `clawhub install ai-meta-description-generator` |
-| [AI-Powered Meta Description Writer](../../skills/ai-powered-meta-description-writer/) | Security Reviewed | ⬇ 16.3M/wk | `clawhub install ai-powered-meta-description-writer` |
-| [Content Readability Analyzer](../../skills/content-readability-analyzer-agent/) | Security Reviewed | ⬇ 16.3M/wk | `clawhub install content-readability-analyzer-agent` |
+| [AI Meta Description Generator](../../skills/ai-meta-description-generator/) | Security Reviewed | ⬇ 16.2M/wk | `clawhub install ai-meta-description-generator` |
+| [AI-Powered Meta Description Writer](../../skills/ai-powered-meta-description-writer/) | Security Reviewed | ⬇ 16.2M/wk | `clawhub install ai-powered-meta-description-writer` |
+| [Content Readability Analyzer](../../skills/content-readability-analyzer-agent/) | Security Reviewed | ⬇ 16.2M/wk | `clawhub install content-readability-analyzer-agent` |
 | [Content Brief Architect](../../skills/content-brief-architect-agent/) | Security Reviewed | ⬇ 1.1M/wk | `clawhub install content-brief-architect-agent` |
 | [Keyword Cluster Generator](../../skills/keyword-cluster-generator-agent/) | Security Reviewed | ⬇ 1.1M/wk | `clawhub install keyword-cluster-generator-agent` |
 
@@ -67,12 +67,12 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [SEO Meta Tag Optimizer](../../skills/seo-meta-tag-optimizer-agent/) | Security Reviewed | 21k | — | `clawhub install seo-meta-tag-optimizer-agent` |
 | [SEO Schema Markup Generator](../../skills/seo-schema-markup-generator-agent/) | Security Reviewed | 21k | — | `clawhub install seo-schema-markup-generator-agent` |
 | [WordPress Content Optimizer](../../skills/wordpress-content-optimizer-yoast-rest/) | Security Reviewed | 21k | — | `clawhub install wordpress-content-optimizer-yoast-rest` |
-| [AI Meta Description Generator](../../skills/ai-meta-description-generator/) | Security Reviewed | 10.8k | 16.3M/wk | `clawhub install ai-meta-description-generator` |
-| [AI-Powered Meta Description Writer](../../skills/ai-powered-meta-description-writer/) | Security Reviewed | 10.8k | 16.3M/wk | `clawhub install ai-powered-meta-description-writer` |
-| [Content Readability Analyzer](../../skills/content-readability-analyzer-agent/) | Security Reviewed | 10.8k | 16.3M/wk | `clawhub install content-readability-analyzer-agent` |
+| [AI Meta Description Generator](../../skills/ai-meta-description-generator/) | Security Reviewed | 10.8k | 16.2M/wk | `clawhub install ai-meta-description-generator` |
+| [AI-Powered Meta Description Writer](../../skills/ai-powered-meta-description-writer/) | Security Reviewed | 10.8k | 16.2M/wk | `clawhub install ai-powered-meta-description-writer` |
+| [Content Readability Analyzer](../../skills/content-readability-analyzer-agent/) | Security Reviewed | 10.8k | 16.2M/wk | `clawhub install content-readability-analyzer-agent` |
 | [Content Brief Architect](../../skills/content-brief-architect-agent/) | Security Reviewed | 5.6k | 1.1M/wk | `clawhub install content-brief-architect-agent` |
 | [Keyword Cluster Generator](../../skills/keyword-cluster-generator-agent/) | Security Reviewed | 5.6k | 1.1M/wk | `clawhub install keyword-cluster-generator-agent` |
-| [Copy.ai Sales Email Sequence Builder](../../skills/copyai-sales-email-sequence/) | Security Reviewed | 391 | 905.6k/wk | `clawhub install copyai-sales-email-sequence` |
+| [Copy.ai Sales Email Sequence Builder](../../skills/copyai-sales-email-sequence/) | Security Reviewed | 391 | 908.3k/wk | `clawhub install copyai-sales-email-sequence` |
 | [Ahrefs Backlink Content Planner](../../skills/ahrefs-backlink-content-planner/) | Security Reviewed | — | — | `clawhub install ahrefs-backlink-content-planner` |
 | [Ahrefs Content Gap Finder](../../skills/ahrefs-content-gap-finder-agent/) | Security Reviewed | — | — | `clawhub install ahrefs-content-gap-finder-agent` |
 | [Ahrefs Keyword Gap Analysis Skill](../../skills/ahrefs-keyword-gap-analysis-skill/) | Security Reviewed | — | — | `clawhub install ahrefs-keyword-gap-analysis-skill` |
@@ -116,8 +116,8 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 ## Related Categories
 
+- 🛠️ [Developer Tools](../developer-tools/) (141 skills)
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (140 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (140 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
 - 🔄 [Data Extraction & Transformation](../data-extraction-transformation/) (100 skills)
 

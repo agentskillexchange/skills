@@ -22,8 +22,8 @@ Web research, data collection, content aggregation, and information gathering.
 | [Puppeteer Stealth Web Scraper](../../skills/puppeteer-stealth-web-scraper/) | Security Reviewed | ⭐ 93.9k | `clawhub install puppeteer-stealth-web-scraper` |
 | [Puppeteer Web Scraper](../../skills/puppeteer-web-scraper/) | Security Reviewed | ⭐ 93.9k | `clawhub install puppeteer-web-scraper` |
 | [PuppeteerSharp Web Scraping Pipeline](../../skills/puppeteersharp-web-scraping-pipeline/) | Security Reviewed | ⭐ 93.9k | `clawhub install puppeteersharp-web-scraping-pipeline` |
-| [Playwright Network Interceptor](../../skills/playwright-network-interceptor/) | Security Reviewed | ⭐ 84.9k | `clawhub install playwright-network-interceptor` |
-| [Playwright Page Data Extractor](../../skills/playwright-page-data-extractor/) | Security Reviewed | ⭐ 84.9k | `clawhub install playwright-page-data-extractor` |
+| [Crawl4AI LLM-Ready Web Crawler and Scraper](../../skills/crawl4ai-llm-web-crawler-scraper/) | Security Reviewed | ⭐ 85k | `clawhub install crawl4ai-llm-web-crawler-scraper` |
+| [Playwright Network Interceptor](../../skills/playwright-network-interceptor/) | Security Reviewed | ⭐ 85k | `clawhub install playwright-network-interceptor` |
 
 ---
 
@@ -35,8 +35,8 @@ Web research, data collection, content aggregation, and information gathering.
 | [Puppeteer Stealth Web Scraper](../../skills/puppeteer-stealth-web-scraper/) | Security Reviewed | ⬇ 8.7M/wk | `clawhub install puppeteer-stealth-web-scraper` |
 | [Puppeteer Web Scraper](../../skills/puppeteer-web-scraper/) | Security Reviewed | ⬇ 8.7M/wk | `clawhub install puppeteer-web-scraper` |
 | [PuppeteerSharp Web Scraping Pipeline](../../skills/puppeteersharp-web-scraping-pipeline/) | Security Reviewed | ⬇ 8.7M/wk | `clawhub install puppeteersharp-web-scraping-pipeline` |
-| [Playwright Network Interceptor](../../skills/playwright-network-interceptor/) | Security Reviewed | ⬇ 39.8M/wk | `clawhub install playwright-network-interceptor` |
-| [Playwright Page Data Extractor](../../skills/playwright-page-data-extractor/) | Security Reviewed | ⬇ 39.8M/wk | `clawhub install playwright-page-data-extractor` |
+| [Crawl4AI LLM-Ready Web Crawler and Scraper](../../skills/crawl4ai-llm-web-crawler-scraper/) | Security Reviewed | ⬇ 40.1M/wk | `clawhub install crawl4ai-llm-web-crawler-scraper` |
+| [Playwright Network Interceptor](../../skills/playwright-network-interceptor/) | Security Reviewed | ⬇ 40.1M/wk | `clawhub install playwright-network-interceptor` |
 
 ---
 
@@ -48,8 +48,8 @@ Web research, data collection, content aggregation, and information gathering.
 | [Puppeteer Stealth Web Scraper](../../skills/puppeteer-stealth-web-scraper/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install puppeteer-stealth-web-scraper` |
 | [Puppeteer Web Scraper](../../skills/puppeteer-web-scraper/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install puppeteer-web-scraper` |
 | [PuppeteerSharp Web Scraping Pipeline](../../skills/puppeteersharp-web-scraping-pipeline/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install puppeteersharp-web-scraping-pipeline` |
+| [Crawl4AI LLM-Ready Web Crawler and Scraper](../../skills/crawl4ai-llm-web-crawler-scraper/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install crawl4ai-llm-web-crawler-scraper` |
 | [Playwright Network Interceptor](../../skills/playwright-network-interceptor/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install playwright-network-interceptor` |
-| [Playwright Page Data Extractor](../../skills/playwright-page-data-extractor/) | Security Reviewed | 🛡️ Security Reviewed | `clawhub install playwright-page-data-extractor` |
 
 ---
 
@@ -61,10 +61,11 @@ Web research, data collection, content aggregation, and information gathering.
 | [Puppeteer Stealth Web Scraper](../../skills/puppeteer-stealth-web-scraper/) | Security Reviewed | 93.9k | 8.7M/wk | `clawhub install puppeteer-stealth-web-scraper` |
 | [Puppeteer Web Scraper](../../skills/puppeteer-web-scraper/) | Security Reviewed | 93.9k | 8.7M/wk | `clawhub install puppeteer-web-scraper` |
 | [PuppeteerSharp Web Scraping Pipeline](../../skills/puppeteersharp-web-scraping-pipeline/) | Security Reviewed | 93.9k | 8.7M/wk | `clawhub install puppeteersharp-web-scraping-pipeline` |
-| [Playwright Network Interceptor](../../skills/playwright-network-interceptor/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-network-interceptor` |
-| [Playwright Page Data Extractor](../../skills/playwright-page-data-extractor/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-page-data-extractor` |
-| [Playwright Test Generator with Codegen](../../skills/playwright-test-generator-codegen/) | Security Reviewed | 84.9k | 39.8M/wk | `clawhub install playwright-test-generator-codegen` |
-| [SerpAPI Search Aggregator](../../skills/serpapi-search-aggregator/) | Security Reviewed | 73.5k | 8.2M/wk | `clawhub install serpapi-search-aggregator` |
+| [Crawl4AI LLM-Ready Web Crawler and Scraper](../../skills/crawl4ai-llm-web-crawler-scraper/) | Security Reviewed | 85k | 40.1M/wk | `clawhub install crawl4ai-llm-web-crawler-scraper` |
+| [Playwright Network Interceptor](../../skills/playwright-network-interceptor/) | Security Reviewed | 85k | 40.1M/wk | `clawhub install playwright-network-interceptor` |
+| [Playwright Page Data Extractor](../../skills/playwright-page-data-extractor/) | Security Reviewed | 85k | 40.1M/wk | `clawhub install playwright-page-data-extractor` |
+| [Playwright Test Generator with Codegen](../../skills/playwright-test-generator-codegen/) | Security Reviewed | 85k | 40.1M/wk | `clawhub install playwright-test-generator-codegen` |
+| [SerpAPI Search Aggregator](../../skills/serpapi-search-aggregator/) | Security Reviewed | 73.6k | 8.2M/wk | `clawhub install serpapi-search-aggregator` |
 | [Scrapy Pipeline Data Extractor](../../skills/scrapy-pipeline-data-extractor/) | Security Reviewed | 60.9k | 39.8M/wk | `clawhub install scrapy-pipeline-data-extractor` |
 | [Scrapy Spider Architect](../../skills/scrapy-spider-architect/) | Security Reviewed | 60.9k | 39.8M/wk | `clawhub install scrapy-spider-architect` |
 | [Scrapy Pipeline Manager](../../skills/scrapy-pipeline-manager/) | Security Reviewed | 60.9k | 10.9M/wk | `clawhub install scrapy-pipeline-manager` |
@@ -75,22 +76,21 @@ Web research, data collection, content aggregation, and information gathering.
 | [PubMed Literature Mining Agent](../../skills/pubmed-literature-mining-agent/) | Security Reviewed | 45.6k | 9.4M/wk | `clawhub install pubmed-literature-mining-agent` |
 | [Cheerio DOM Scraping Toolkit](../../skills/cheerio-dom-scraping-toolkit/) | Security Reviewed | 30.2k | 18.5M/wk | `clawhub install cheerio-dom-scraping-toolkit` |
 | [Cheerio Product Price Tracker](../../skills/cheerio-product-price-tracker/) | Security Reviewed | 30.2k | 18.5M/wk | `clawhub install cheerio-product-price-tracker` |
-| [SerpAPI Research Pipeline](../../skills/serpapi-research-pipeline/) | Security Reviewed | 7k | 5M/wk | `clawhub install serpapi-research-pipeline` |
-| [SerpAPI Search Pipeline](../../skills/serpapi-search-pipeline/) | Security Reviewed | 7k | 5M/wk | `clawhub install serpapi-search-pipeline` |
+| [SerpAPI Research Pipeline](../../skills/serpapi-research-pipeline/) | Security Reviewed | 7k | 4.9M/wk | `clawhub install serpapi-research-pipeline` |
+| [SerpAPI Search Pipeline](../../skills/serpapi-search-pipeline/) | Security Reviewed | 7k | 4.9M/wk | `clawhub install serpapi-search-pipeline` |
 | [Hacker News Deep Thread Analyzer](../../skills/hacker-news-deep-thread-analyzer/) | Security Reviewed | 1.7k | 4.8M/wk | `clawhub install hacker-news-deep-thread-analyzer` |
-| [Crunchbase Company Intelligence Scraper](../../skills/crunchbase-company-intelligence-scraper/) | Security Reviewed | 391 | 905.6k/wk | `clawhub install crunchbase-company-intelligence-scraper` |
+| [Crunchbase Company Intelligence Scraper](../../skills/crunchbase-company-intelligence-scraper/) | Security Reviewed | 391 | 908.3k/wk | `clawhub install crunchbase-company-intelligence-scraper` |
 | [Apify Actor Development Kit](../../skills/apify-actor-development-kit/) | Security Reviewed | 172 | 44.9k/wk | `clawhub install apify-actor-development-kit` |
 | [Apify Actor Runner](../../skills/apify-actor-runner/) | Security Reviewed | 172 | 44.9k/wk | `clawhub install apify-actor-runner` |
 | [Apify Actor Web Crawler](../../skills/apify-actor-web-crawler/) | Security Reviewed | 172 | 44.9k/wk | `clawhub install apify-actor-web-crawler` |
 | [Apify Actor Web Intelligence Agent](../../skills/apify-actor-web-intelligence-agent/) | Security Reviewed | 172 | 44.9k/wk | `clawhub install apify-actor-web-intelligence-agent` |
 | [Apify Web Scraper Orchestrator](../../skills/apify-web-scraper-orchestrator-3/) | Security Reviewed | 172 | 44.9k/wk | `clawhub install apify-web-scraper-orchestrator-3` |
-| [Censys Attack Surface Monitor](../../skills/censys-attack-surface-monitor/) | Security Reviewed | 69 | 210.8k/wk | `clawhub install censys-attack-surface-monitor` |
+| [Censys Attack Surface Monitor](../../skills/censys-attack-surface-monitor/) | Security Reviewed | 69 | 207.4k/wk | `clawhub install censys-attack-surface-monitor` |
 | [Academic Paper Citation Network Mapper](../../skills/academic-paper-citation-network-mapper/) | Security Reviewed | — | — | `clawhub install academic-paper-citation-network-mapper` |
 | [Beautiful Soup Academic Paper Parser](../../skills/beautifulsoup-academic-paper-parser/) | Security Reviewed | — | — | `clawhub install beautifulsoup-academic-paper-parser` |
 | [Browserless Scraping Agent](../../skills/browserless-scraping-agent/) | Security Reviewed | — | — | `clawhub install browserless-scraping-agent` |
 | [Common Crawl Index Query Agent](../../skills/common-crawl-index-query-agent/) | Security Reviewed | — | — | `clawhub install common-crawl-index-query-agent` |
 | [Common Crawl URL Index Miner](../../skills/common-crawl-url-index-miner/) | Security Reviewed | — | — | `clawhub install common-crawl-url-index-miner` |
-| [Crawl4AI LLM-Ready Web Crawler and Scraper](../../skills/crawl4ai-llm-web-crawler-scraper/) | Security Reviewed | — | — | `clawhub install crawl4ai-llm-web-crawler-scraper` |
 | [Crawlee Smart Crawler Agent](../../skills/crawlee-smart-crawler-agent/) | Security Reviewed | — | — | `clawhub install crawlee-smart-crawler-agent` |
 | [Diffbot Article Extraction Verifier](../../skills/diffbot-article-extraction-verifier/) | Security Reviewed | — | — | `clawhub install diffbot-article-extraction-verifier` |
 | [Diffbot Knowledge Graph Extractor](../../skills/diffbot-knowledge-graph-extractor/) | Security Reviewed | — | — | `clawhub install diffbot-knowledge-graph-extractor` |
@@ -128,8 +128,8 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 ## Related Categories
 
+- 🛠️ [Developer Tools](../developer-tools/) (141 skills)
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (140 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (140 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
 - 🔄 [Data Extraction & Transformation](../data-extraction-transformation/) (100 skills)
 

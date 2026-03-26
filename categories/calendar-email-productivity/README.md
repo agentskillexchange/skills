@@ -1,6 +1,6 @@
 # 📅 Calendar, Email & Productivity
 
-> **50 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity)
+> **51 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity)
 
 Email automation, calendar management, task coordination, and productivity tools.
 
@@ -33,8 +33,8 @@ Email automation, calendar management, task coordination, and productivity tools
 |---|---|---:|---|
 | [Discord Bot Manager](../../skills/discord-bot-manager/) | Security Reviewed | ⬇ 508.8k/wk | `clawhub install discord-bot-manager` |
 | [Linear Sprint Planner](../../skills/linear-sprint-planner/) | Security Reviewed | ⬇ 32M/wk | `clawhub install linear-sprint-planner` |
-| [Microsoft Graph Email Triage Assistant](../../skills/microsoft-graph-email-triage-assistant/) | Security Reviewed | ⬇ 5M/wk | `clawhub install microsoft-graph-email-triage-assistant` |
-| [Outlook Email Automation](../../skills/outlook-email-automation/) | Security Reviewed | ⬇ 5M/wk | `clawhub install outlook-email-automation` |
+| [Microsoft Graph Email Triage Assistant](../../skills/microsoft-graph-email-triage-assistant/) | Security Reviewed | ⬇ 4.9M/wk | `clawhub install microsoft-graph-email-triage-assistant` |
+| [Outlook Email Automation](../../skills/outlook-email-automation/) | Security Reviewed | ⬇ 4.9M/wk | `clawhub install outlook-email-automation` |
 | [Notion AI Document Summarizer &amp; Action Item Extractor](../../skills/notion-ai-doc-summarizer/) | Security Reviewed | ⬇ 1.1M/wk | `clawhub install notion-ai-doc-summarizer` |
 | [Notion AI Workspace](../../skills/notion-ai-workspace/) | Security Reviewed | ⬇ 1.1M/wk | `clawhub install notion-ai-workspace` |
 
@@ -60,8 +60,8 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Todoist Natural Language Task Parser](../../skills/todoist-natural-language-task-parser/) | Security Reviewed | 35.3k | — | `clawhub install todoist-natural-language-task-parser` |
 | [Discord Bot Manager](../../skills/discord-bot-manager/) | Security Reviewed | 26.6k | 508.8k/wk | `clawhub install discord-bot-manager` |
 | [Linear Sprint Planner](../../skills/linear-sprint-planner/) | Security Reviewed | 20.3k | 32M/wk | `clawhub install linear-sprint-planner` |
-| [Microsoft Graph Email Triage Assistant](../../skills/microsoft-graph-email-triage-assistant/) | Security Reviewed | 7k | 5M/wk | `clawhub install microsoft-graph-email-triage-assistant` |
-| [Outlook Email Automation](../../skills/outlook-email-automation/) | Security Reviewed | 7k | 5M/wk | `clawhub install outlook-email-automation` |
+| [Microsoft Graph Email Triage Assistant](../../skills/microsoft-graph-email-triage-assistant/) | Security Reviewed | 7k | 4.9M/wk | `clawhub install microsoft-graph-email-triage-assistant` |
+| [Outlook Email Automation](../../skills/outlook-email-automation/) | Security Reviewed | 7k | 4.9M/wk | `clawhub install outlook-email-automation` |
 | [Notion AI Document Summarizer &amp; Action Item Extractor](../../skills/notion-ai-doc-summarizer/) | Security Reviewed | 5.6k | 1.1M/wk | `clawhub install notion-ai-doc-summarizer` |
 | [Notion AI Workspace](../../skills/notion-ai-workspace/) | Security Reviewed | 5.6k | 1.1M/wk | `clawhub install notion-ai-workspace` |
 | [Notion Database Sync Agent](../../skills/notion-database-sync-agent/) | Security Reviewed | 5.6k | 1.1M/wk | `clawhub install notion-database-sync-agent` |
@@ -74,16 +74,16 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Notion Workspace Sync Agent](../../skills/notion-workspace-sync-agent/) | Security Reviewed | 5.6k | 1.1M/wk | `clawhub install notion-workspace-sync-agent` |
 | [Notion Workspace Sync Engine](../../skills/notion-workspace-sync-engine-2/) | Security Reviewed | 5.6k | 1.1M/wk | `clawhub install notion-workspace-sync-engine-2` |
 | [Todoist GTD Workflow Automator](../../skills/todoist-gtd-workflow-automator/) | Security Reviewed | 5.6k | 1.1M/wk | `clawhub install todoist-gtd-workflow-automator` |
-| [Slack Channel Summarizer](../../skills/slack-channel-summarizer-bolt-sdk/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install slack-channel-summarizer-bolt-sdk` |
-| [Slack Digest and Task Router](../../skills/slack-digest-and-task-router/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install slack-digest-and-task-router` |
-| [Slack MCP Server](../../skills/slack-mcp-server/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install slack-mcp-server` |
-| [Slack Standup Automator](../../skills/slack-standup-automator/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install slack-standup-automator` |
-| [Slack Standup Summarizer](../../skills/slack-standup-summarizer/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install slack-standup-summarizer` |
-| [Slack Status API PTO Sync Assistant](../../skills/slack-status-api-pto-sync-assistant/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install slack-status-api-pto-sync-assistant` |
-| [Slack Workflow Automation Builder](../../skills/slack-workflow-automation-builder/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install slack-workflow-automation-builder` |
-| [Slack Workflow Bot](../../skills/slack-workflow-bot-bolt-sdk/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install slack-workflow-bot-bolt-sdk` |
-| [Slack Workflow Bot Builder](../../skills/slack-workflow-bot-builder/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install slack-workflow-bot-builder` |
-| [Slack Workflow Builder Agent](../../skills/slack-workflow-builder-agent/) | Security Reviewed | 2.9k | 2.4M/wk | `clawhub install slack-workflow-builder-agent` |
+| [Slack Channel Summarizer](../../skills/slack-channel-summarizer-bolt-sdk/) | Security Reviewed | 2.9k | 2.2M/wk | `clawhub install slack-channel-summarizer-bolt-sdk` |
+| [Slack Digest and Task Router](../../skills/slack-digest-and-task-router/) | Security Reviewed | 2.9k | 2.2M/wk | `clawhub install slack-digest-and-task-router` |
+| [Slack MCP Server](../../skills/slack-mcp-server/) | Security Reviewed | 2.9k | 2.2M/wk | `clawhub install slack-mcp-server` |
+| [Slack Standup Automator](../../skills/slack-standup-automator/) | Security Reviewed | 2.9k | 2.2M/wk | `clawhub install slack-standup-automator` |
+| [Slack Standup Summarizer](../../skills/slack-standup-summarizer/) | Security Reviewed | 2.9k | 2.2M/wk | `clawhub install slack-standup-summarizer` |
+| [Slack Status API PTO Sync Assistant](../../skills/slack-status-api-pto-sync-assistant/) | Security Reviewed | 2.9k | 2.2M/wk | `clawhub install slack-status-api-pto-sync-assistant` |
+| [Slack Workflow Automation Builder](../../skills/slack-workflow-automation-builder/) | Security Reviewed | 2.9k | 2.2M/wk | `clawhub install slack-workflow-automation-builder` |
+| [Slack Workflow Bot](../../skills/slack-workflow-bot-bolt-sdk/) | Security Reviewed | 2.9k | 2.2M/wk | `clawhub install slack-workflow-bot-bolt-sdk` |
+| [Slack Workflow Bot Builder](../../skills/slack-workflow-bot-builder/) | Security Reviewed | 2.9k | 2.2M/wk | `clawhub install slack-workflow-bot-builder` |
+| [Slack Workflow Builder Agent](../../skills/slack-workflow-builder-agent/) | Security Reviewed | 2.9k | 2.2M/wk | `clawhub install slack-workflow-builder-agent` |
 | [Microsoft Graph Mail Triage Agent](../../skills/microsoft-graph-mail-triage-agent/) | Security Reviewed | 789 | 6M/wk | `clawhub install microsoft-graph-mail-triage-agent` |
 | [Atlassian Rovo MCP Server](../../skills/atlassian-rovo-mcp-server/) | Security Reviewed | — | — | `clawhub install atlassian-rovo-mcp-server` |
 | [Gmail API Thread Label Triage](../../skills/gmail-api-thread-label-triage/) | Security Reviewed | — | — | `clawhub install gmail-api-thread-label-triage` |
@@ -96,6 +96,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Google Calendar Sync Agent](../../skills/google-calendar-sync-agent-2/) | Security Reviewed | — | — | `clawhub install google-calendar-sync-agent-2` |
 | [IMAP Email Classifier](../../skills/imap-email-classifier-ml/) | Security Reviewed | — | — | `clawhub install imap-email-classifier-ml` |
 | [IMAP Inbox Triage Agent](../../skills/imap-inbox-triage-agent/) | Security Reviewed | — | — | `clawhub install imap-inbox-triage-agent` |
+| [Inbox Zero AI Email Assistant](../../skills/inbox-zero-ai-email-assistant/) | Verified Metadata | — | — | `clawhub install inbox-zero-ai-email-assistant` |
 | [Microsoft Graph Calendar Conflict Resolver](../../skills/microsoft-graph-calendar-conflict-resolver/) | Security Reviewed | — | — | `clawhub install microsoft-graph-calendar-conflict-resolver` |
 | [Microsoft Graph Email Digest Builder](../../skills/microsoft-graph-email-digest-builder/) | Security Reviewed | — | — | `clawhub install microsoft-graph-email-digest-builder` |
 | [Microsoft Graph Email Triage Agent](../../skills/microsoft-graph-email-triage-agent/) | Security Reviewed | — | — | `clawhub install microsoft-graph-email-triage-agent` |
@@ -129,8 +130,8 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 ## Related Categories
 
+- 🛠️ [Developer Tools](../developer-tools/) (141 skills)
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (140 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (140 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
 - 🔄 [Data Extraction & Transformation](../data-extraction-transformation/) (100 skills)
 

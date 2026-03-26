@@ -31,12 +31,12 @@ Image generation, asset processing, design automation, and creative tooling.
 
 | Skill | Tier | Signal | Install |
 |---|---|---:|---|
-| [Rive Runtime Animation Controller](../../skills/rive-runtime-animation-controller/) | Security Reviewed | ⬇ 104.8M/wk | `clawhub install rive-runtime-animation-controller` |
+| [Rive Runtime Animation Controller](../../skills/rive-runtime-animation-controller/) | Security Reviewed | ⬇ 105.7M/wk | `clawhub install rive-runtime-animation-controller` |
 | [SVG Animation Builder](../../skills/svg-animation-builder/) | Security Reviewed | ⬇ 8.7M/wk | `clawhub install svg-animation-builder` |
 | [Figma Design Token Extractor](../../skills/figma-design-token-extractor-3/) | Security Reviewed | ⬇ 13M/wk | `clawhub install figma-design-token-extractor-3` |
 | [FFmpeg Thumbnail Grid Generator](../../skills/ffmpeg-thumbnail-grid-generator/) | Security Reviewed | ⬇ 9.2M/wk | `clawhub install ffmpeg-thumbnail-grid-generator` |
-| [Sharp Image CDN Optimizer](../../skills/sharp-image-cdn-optimizer/) | Security Reviewed | ⬇ 54.5M/wk | `clawhub install sharp-image-cdn-optimizer` |
-| [Sharp Image Pipeline Processor](../../skills/sharp-image-pipeline-processor-2/) | Security Reviewed | ⬇ 54.5M/wk | `clawhub install sharp-image-pipeline-processor-2` |
+| [Sharp Image CDN Optimizer](../../skills/sharp-image-cdn-optimizer/) | Security Reviewed | ⬇ 54.4M/wk | `clawhub install sharp-image-cdn-optimizer` |
+| [Sharp Image Pipeline Processor](../../skills/sharp-image-pipeline-processor-2/) | Security Reviewed | ⬇ 54.4M/wk | `clawhub install sharp-image-pipeline-processor-2` |
 
 ---
 
@@ -57,7 +57,7 @@ Image generation, asset processing, design automation, and creative tooling.
 
 | Skill | Tier | GitHub Stars | npm Downloads | Install |
 |---|---|---:|---:|---|
-| [Rive Runtime Animation Controller](../../skills/rive-runtime-animation-controller/) | Security Reviewed | 244.2k | 104.8M/wk | `clawhub install rive-runtime-animation-controller` |
+| [Rive Runtime Animation Controller](../../skills/rive-runtime-animation-controller/) | Security Reviewed | 244.2k | 105.7M/wk | `clawhub install rive-runtime-animation-controller` |
 | [SVG Animation Builder](../../skills/svg-animation-builder/) | Security Reviewed | 93.9k | 8.7M/wk | `clawhub install svg-animation-builder` |
 | [Figma Design Token Extractor](../../skills/figma-design-token-extractor-3/) | Security Reviewed | 89.5k | 13M/wk | `clawhub install figma-design-token-extractor-3` |
 | [RunPod Serverless GPU Inference](../../skills/runpod-serverless-gpu-inference/) | Security Reviewed | 71.6k | — | `clawhub install runpod-serverless-gpu-inference` |
@@ -67,23 +67,23 @@ Image generation, asset processing, design automation, and creative tooling.
 | [FFmpeg Thumbnail Mosaic Generator](../../skills/ffmpeg-thumbnail-mosaic-generator/) | Security Reviewed | 58.3k | — | `clawhub install ffmpeg-thumbnail-mosaic-generator` |
 | [FFmpeg Video Processing Pipeline](../../skills/ffmpeg-video-processing-pipeline/) | Security Reviewed | 58.3k | — | `clawhub install ffmpeg-video-processing-pipeline` |
 | [ComfyUI Workflow Executor](../../skills/comfyui-workflow-executor/) | Security Reviewed | 35.3k | — | `clawhub install comfyui-workflow-executor` |
-| [Sharp Image CDN Optimizer](../../skills/sharp-image-cdn-optimizer/) | Security Reviewed | 32.1k | 54.5M/wk | `clawhub install sharp-image-cdn-optimizer` |
-| [Sharp Image Pipeline Processor](../../skills/sharp-image-pipeline-processor-2/) | Security Reviewed | 32.1k | 54.5M/wk | `clawhub install sharp-image-pipeline-processor-2` |
-| [Sharp Image Pipeline Skill](../../skills/sharp-image-pipeline-skill/) | Security Reviewed | 32.1k | 54.5M/wk | `clawhub install sharp-image-pipeline-skill` |
-| [Sharp Image Transform Pipeline](../../skills/sharp-image-transform-pipeline/) | Security Reviewed | 32.1k | 54.5M/wk | `clawhub install sharp-image-transform-pipeline` |
+| [Sharp Image CDN Optimizer](../../skills/sharp-image-cdn-optimizer/) | Security Reviewed | 32.1k | 54.4M/wk | `clawhub install sharp-image-cdn-optimizer` |
+| [Sharp Image Pipeline Processor](../../skills/sharp-image-pipeline-processor-2/) | Security Reviewed | 32.1k | 54.4M/wk | `clawhub install sharp-image-pipeline-processor-2` |
+| [Sharp Image Pipeline Skill](../../skills/sharp-image-pipeline-skill/) | Security Reviewed | 32.1k | 54.4M/wk | `clawhub install sharp-image-pipeline-skill` |
+| [Sharp Image Transform Pipeline](../../skills/sharp-image-transform-pipeline/) | Security Reviewed | 32.1k | 54.4M/wk | `clawhub install sharp-image-transform-pipeline` |
 | [ImageMagick Batch Converter CLI](../../skills/imagemagick-batch-converter-cli/) | Security Reviewed | 16k | — | `clawhub install imagemagick-batch-converter-cli` |
 | [ImageMagick Batch Processor](../../skills/imagemagick-batch-processor/) | Security Reviewed | 16k | — | `clawhub install imagemagick-batch-processor` |
 | [ImageMagick Batch Transform Agent](../../skills/imagemagick-batch-transform-agent/) | Security Reviewed | 16k | — | `clawhub install imagemagick-batch-transform-agent` |
-| [DALL-E 3 Batch Asset Generator](../../skills/dalle-3-batch-asset-generator/) | Security Reviewed | 10.8k | 16.3M/wk | `clawhub install dalle-3-batch-asset-generator` |
-| [DALL-E Batch Image Generator](../../skills/dalle-batch-image-generator/) | Security Reviewed | 10.8k | 16.3M/wk | `clawhub install dalle-batch-image-generator` |
-| [DALL-E Image Variation Generator](../../skills/dalle-image-variation-generator/) | Security Reviewed | 10.8k | 16.3M/wk | `clawhub install dalle-image-variation-generator` |
-| [DALL-E Image Variation Pipeline](../../skills/dalle-image-variation-pipeline/) | Security Reviewed | 10.8k | 16.3M/wk | `clawhub install dalle-image-variation-pipeline` |
-| [DALL-E Prompt Chain Generator](../../skills/dalle-prompt-chain-generator/) | Security Reviewed | 10.8k | 16.3M/wk | `clawhub install dalle-prompt-chain-generator` |
-| [DALL-E Prompt Engineering Kit](../../skills/dall-e-prompt-engineering-kit/) | Security Reviewed | 10.8k | 16.3M/wk | `clawhub install dall-e-prompt-engineering-kit` |
-| [DALL-E Variation Generator](../../skills/dalle-variation-generator/) | Security Reviewed | 10.8k | 16.3M/wk | `clawhub install dalle-variation-generator` |
-| [DALL-E Variations Pipeline](../../skills/dalle-variations-pipeline/) | Security Reviewed | 10.8k | 16.3M/wk | `clawhub install dalle-variations-pipeline` |
-| [OpenAI Image Gen](../../skills/openai-image-gen/) | Security Reviewed | 10.8k | 16.3M/wk | `clawhub install openai-image-gen` |
-| [Pexels API Stock Photo Curator](../../skills/pexels-api-stock-photo-curator/) | Security Reviewed | 7k | 5M/wk | `clawhub install pexels-api-stock-photo-curator` |
+| [DALL-E 3 Batch Asset Generator](../../skills/dalle-3-batch-asset-generator/) | Security Reviewed | 10.8k | 16.2M/wk | `clawhub install dalle-3-batch-asset-generator` |
+| [DALL-E Batch Image Generator](../../skills/dalle-batch-image-generator/) | Security Reviewed | 10.8k | 16.2M/wk | `clawhub install dalle-batch-image-generator` |
+| [DALL-E Image Variation Generator](../../skills/dalle-image-variation-generator/) | Security Reviewed | 10.8k | 16.2M/wk | `clawhub install dalle-image-variation-generator` |
+| [DALL-E Image Variation Pipeline](../../skills/dalle-image-variation-pipeline/) | Security Reviewed | 10.8k | 16.2M/wk | `clawhub install dalle-image-variation-pipeline` |
+| [DALL-E Prompt Chain Generator](../../skills/dalle-prompt-chain-generator/) | Security Reviewed | 10.8k | 16.2M/wk | `clawhub install dalle-prompt-chain-generator` |
+| [DALL-E Prompt Engineering Kit](../../skills/dall-e-prompt-engineering-kit/) | Security Reviewed | 10.8k | 16.2M/wk | `clawhub install dall-e-prompt-engineering-kit` |
+| [DALL-E Variation Generator](../../skills/dalle-variation-generator/) | Security Reviewed | 10.8k | 16.2M/wk | `clawhub install dalle-variation-generator` |
+| [DALL-E Variations Pipeline](../../skills/dalle-variations-pipeline/) | Security Reviewed | 10.8k | 16.2M/wk | `clawhub install dalle-variations-pipeline` |
+| [OpenAI Image Gen](../../skills/openai-image-gen/) | Security Reviewed | 10.8k | 16.2M/wk | `clawhub install openai-image-gen` |
+| [Pexels API Stock Photo Curator](../../skills/pexels-api-stock-photo-curator/) | Security Reviewed | 7k | 4.9M/wk | `clawhub install pexels-api-stock-photo-curator` |
 | [Adobe Firefly API Batch Image Generator](../../skills/adobe-firefly-api-batch-image-generator/) | Security Reviewed | — | — | `clawhub install adobe-firefly-api-batch-image-generator` |
 | [Adobe Photoshop API Batch Processor](../../skills/adobe-photoshop-api-batch-processor/) | Security Reviewed | — | — | `clawhub install adobe-photoshop-api-batch-processor` |
 | [Bannerbear Dynamic Image API](../../skills/bannerbear-dynamic-image-api/) | Security Reviewed | — | — | `clawhub install bannerbear-dynamic-image-api` |
@@ -131,8 +131,8 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 ## Related Categories
 
+- 🛠️ [Developer Tools](../developer-tools/) (141 skills)
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (140 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (140 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
 - 🔄 [Data Extraction & Transformation](../data-extraction-transformation/) (100 skills)
 
