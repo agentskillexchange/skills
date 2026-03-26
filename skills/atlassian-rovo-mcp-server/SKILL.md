@@ -1,8 +1,8 @@
 ---
 name: "Atlassian Rovo MCP Server"
-description: "The Atlassian Rovo MCP Server bridges your Atlassian Cloud workspace with any MCP-compatible client. Search and summarize Jira issues, create tickets from natural language, update Confluence pages, and query Compass services."
+description: "The Atlassian Rovo MCP Server bridges your Atlassian Cloud workspace with any MCP client. Search and summarize Jira issues, create tickets from natural language, update Confluence pages, and query Compass services."
 category: "Calendar, Email & Productivity"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/atlassian-rovo-mcp-server/"
 tool_ecosystem:
@@ -11,11 +11,11 @@ tool_ecosystem:
 
 # Atlassian Rovo MCP Server
 
-The Atlassian Rovo MCP Server bridges your Atlassian Cloud workspace with any MCP-compatible client. Search and summarize Jira issues, create tickets from natural language, update Confluence pages, and query Compass services.
+The Atlassian Rovo MCP Server bridges your Atlassian Cloud workspace with any MCP client. Search and summarize Jira issues, create tickets from natural language, update Confluence pages, and query Compass services.
 
 ## Overview
 
-The Atlassian Rovo MCP Server is maintained by Atlassian and provides a cloud-based bridge between your Atlassian Cloud site and MCP-compatible tools including Claude Code, Cursor, VS Code, GitHub Copilot CLI, Gemini CLI, and more.
+The Atlassian Rovo MCP Server is maintained by Atlassian and provides a cloud-based bridge between your Atlassian Cloud site and MCP tools including Claude Code, Cursor, VS Code, GitHub Copilot CLI, Gemini CLI, and more.
 
 Best for
 

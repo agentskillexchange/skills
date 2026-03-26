@@ -2,7 +2,7 @@
 name: "Snyk Agent Scan"
 description: "Scan your AI agents, MCP servers, and skills for security vulnerabilities from the command line. Snyk Agent Scan discovers and audits every agent component on your machine — detecting prompt injections, tool poisoning, toxic flows, malware payloads, and credential handling issues across 15+ distinct risk categories."
 category: "Security & Verification"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/snyk-agent-scan/"
 tool_ecosystem:
@@ -19,7 +19,7 @@ Scan your AI agents, MCP servers, and skills for security vulnerabilities from t
 
 ## Overview
 
-Snyk Agent Scan (formerly Invariant Labs MCP-Scan) is a command-line security scanner purpose-built for the AI agent supply chain. It auto-discovers agent configurations for Claude Code, Claude Desktop, Cursor, Windsurf, Gemini CLI, and other MCP-compatible platforms, then runs a comprehensive vulnerability assessment against every discovered component.
+Snyk Agent Scan (formerly Invariant Labs MCP-Scan) is a command-line security scanner purpose-built for the AI agent supply chain. It auto-discovers agent configurations for Claude Code, Claude Desktop, Cursor, Windsurf, Gemini CLI, and other MCP platforms, then runs a comprehensive vulnerability assessment against every discovered component.
 
 Best for
 

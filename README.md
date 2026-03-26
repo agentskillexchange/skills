@@ -110,7 +110,7 @@ A hand-picked selection across categories. See [TOP-STARS.md](TOP-STARS.md) and 
   "name": "Playwright MCP Browser Automation",
   "description": "Official Playwright-powered browser control for agent workflows.",
   "category": ["Browser Automation"],
-  "framework": ["Claude Code", "Cursor", "MCP-compatible", "OpenClaw"],
+  "framework": ["Claude Code", "Cursor", "MCP", "OpenClaw"],
   "verification": "security_reviewed",
   "signals": {
     "tool": "playwright",

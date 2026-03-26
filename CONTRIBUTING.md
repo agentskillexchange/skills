@@ -96,7 +96,7 @@ source: "https://agentskillexchange.com/skills/your-skill-slug/"
 
 ### Valid Frameworks
 
-Claude Code, Cursor, Codex, OpenClaw, Gemini, Claude Agents, ChatGPT Agents, Custom Agents, MCP-compatible, WordPress, Google Workspace
+Claude Code, Cursor, Codex, OpenClaw, Gemini, Claude Agents, ChatGPT Agents, Custom Agents, MCP, WordPress, Google Workspace
 
 ### Markdown Body
 

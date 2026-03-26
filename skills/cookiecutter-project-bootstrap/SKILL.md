@@ -2,7 +2,7 @@
 name: "Cookiecutter Project Bootstrap"
 description: "Bootstraps new projects from Cookiecutter templates with variable substitution and post-generation hooks. Supports remote template repositories via the cookiecutter CLI and Jinja2 rendering engine."
 category: "Templates & Workflows"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/cookiecutter-project-bootstrap/"
 tool_ecosystem:

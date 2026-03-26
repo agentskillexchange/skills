@@ -93,7 +93,7 @@ The primary framework this skill targets. Valid values:
 - `Custom Agents`
 - `Gemini`
 - `Google Workspace`
-- `MCP-compatible`
+- `MCP`
 - `OpenClaw`
 - `WordPress`
 

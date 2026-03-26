@@ -2,7 +2,7 @@
 name: "Common Crawl URL Index Miner"
 description: "Queries the Common Crawl Index API and CC-MAIN collections to surface historical URL coverage, MIME types, and crawl snapshots at scale. Handy for research workflows that need broad web recall without building a full crawler from scratch."
 category: "Research & Scraping"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/common-crawl-url-index-miner/"
 ---

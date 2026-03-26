@@ -287,7 +287,7 @@
         "Runbooks & Diagnostics"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -371,7 +371,7 @@
         "Data Extraction & Transformation"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "listed"
     },
@@ -383,7 +383,7 @@
         "Data Extraction & Transformation"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -395,7 +395,7 @@
         "Data Extraction & Transformation"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -623,7 +623,7 @@
         "Templates & Workflows"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -743,7 +743,7 @@
         "CI/CD Integrations"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -755,7 +755,7 @@
         "CI/CD Integrations"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -791,7 +791,7 @@
         "Developer Tools"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -863,7 +863,7 @@
         "CI/CD Integrations"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -887,7 +887,7 @@
         "Media & Transcription"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -966,12 +966,12 @@
     {
       "slug": "atlassian-rovo-mcp-server",
       "name": "Atlassian Rovo MCP Server",
-      "description": "The Atlassian Rovo MCP Server bridges your Atlassian Cloud workspace with any MCP-compatible client. Search and summarize Jira issues, create tickets from natural language, update Confluence pages, an…",
+      "description": "The Atlassian Rovo MCP Server bridges your Atlassian Cloud workspace with any MCP client. Search and summarize Jira issues, create tickets from natural language, update Confluence pages, an…",
       "category": [
         "Calendar, Email & Productivity"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -1007,7 +1007,7 @@
         "Media & Transcription"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -1151,7 +1151,7 @@
         "Monitoring & Alerts"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -1271,7 +1271,7 @@
         "CI/CD Integrations"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -1295,7 +1295,7 @@
         "Developer Tools"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -1307,7 +1307,7 @@
         "Data Extraction & Transformation"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "listed"
     },
@@ -1319,7 +1319,7 @@
         "Developer Tools"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -1331,7 +1331,7 @@
         "Integrations & Connectors"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -1439,7 +1439,7 @@
         "Developer Tools"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -1463,7 +1463,7 @@
         "Research & Scraping"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -1619,7 +1619,7 @@
         "CI/CD Integrations"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -1811,7 +1811,7 @@
         "CI/CD Integrations"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -1823,7 +1823,7 @@
         "Developer Tools"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -1943,7 +1943,7 @@
         "CI/CD Integrations"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -2339,7 +2339,7 @@
         "Code Quality & Review"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -2399,7 +2399,7 @@
         "Research & Scraping"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -2411,7 +2411,7 @@
         "Code Quality & Review"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -2459,7 +2459,7 @@
         "Content Writing & SEO"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -2495,7 +2495,7 @@
         "Content Writing & SEO"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -2507,7 +2507,7 @@
         "Library & API Reference"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "listed"
     },
@@ -2519,7 +2519,7 @@
         "Templates & Workflows"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -2687,7 +2687,7 @@
         "Data Extraction & Transformation"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -2795,7 +2795,7 @@
         "Browser Automation"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -2807,7 +2807,7 @@
         "Browser Automation"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -3035,7 +3035,7 @@
         "Monitoring & Alerts"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -3095,7 +3095,7 @@
         "Monitoring & Alerts"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -3131,7 +3131,7 @@
         "Monitoring & Alerts"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -3251,7 +3251,7 @@
         "Runbooks & Diagnostics"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -3287,7 +3287,7 @@
         "Data Extraction & Transformation"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -3323,7 +3323,7 @@
         "Data Extraction & Transformation"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -3335,7 +3335,7 @@
         "Data Extraction & Transformation"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -3467,7 +3467,7 @@
         "Media & Transcription"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -3491,7 +3491,7 @@
         "Security & Verification"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -3623,7 +3623,7 @@
         "Runbooks & Diagnostics"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -3635,7 +3635,7 @@
         "Runbooks & Diagnostics"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -3659,7 +3659,7 @@
         "Templates & Workflows"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -3707,7 +3707,7 @@
         "Templates & Workflows"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -3731,7 +3731,7 @@
         "Runbooks & Diagnostics"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -3791,7 +3791,7 @@
         "Developer Tools"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -3930,12 +3930,12 @@
     {
       "slug": "e2b-code-execution-mcp",
       "name": "E2B Code Execution MCP",
-      "description": "Add sandboxed code execution to any MCP-compatible AI client. E2B gives agents access to secure, internet-connected Linux environments for running Python, JavaScript, and shell commands without touchi…",
+      "description": "Add sandboxed code execution to any MCP AI client. E2B gives agents access to secure, internet-connected Linux environments for running Python, JavaScript, and shell commands without touchi…",
       "category": [
         "Developer Tools"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -3947,7 +3947,7 @@
         "Monitoring & Alerts"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -3959,7 +3959,7 @@
         "Monitoring & Alerts"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -3983,7 +3983,7 @@
         "Data Extraction & Transformation"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -4475,7 +4475,7 @@
         "Image & Creative Automation"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -4643,7 +4643,7 @@
         "Developer Tools"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -4907,7 +4907,7 @@
         "Integrations & Connectors"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -4919,7 +4919,7 @@
         "Developer Tools"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "listed"
     },
@@ -5123,7 +5123,7 @@
         "CI/CD Integrations"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -5363,7 +5363,7 @@
         "Monitoring & Alerts"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -5519,7 +5519,7 @@
         "Monitoring & Alerts"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -5603,7 +5603,7 @@
         "Library & API Reference"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -5615,7 +5615,7 @@
         "Library & API Reference"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -5639,7 +5639,7 @@
         "Library & API Reference"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -5663,7 +5663,7 @@
         "Library & API Reference"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -5711,7 +5711,7 @@
         "Library & API Reference"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -5915,7 +5915,7 @@
         "Security & Verification"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -5927,7 +5927,7 @@
         "Security & Verification"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -5951,7 +5951,7 @@
         "Security & Verification"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -5999,7 +5999,7 @@
         "CI/CD Integrations"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -6083,7 +6083,7 @@
         "Integrations & Connectors"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -6131,7 +6131,7 @@
         "Image & Creative Automation"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -6203,7 +6203,7 @@
         "Runbooks & Diagnostics"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -6311,7 +6311,7 @@
         "Monitoring & Alerts"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -6371,7 +6371,7 @@
         "Developer Tools"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -6611,7 +6611,7 @@
         "CI/CD Integrations"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -6683,7 +6683,7 @@
         "Data Extraction & Transformation"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -6707,7 +6707,7 @@
         "Library & API Reference"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -6815,7 +6815,7 @@
         "Content Writing & SEO"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -6935,7 +6935,7 @@
         "Runbooks & Diagnostics"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -6947,7 +6947,7 @@
         "Templates & Workflows"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -6971,7 +6971,7 @@
         "Developer Tools"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -7175,7 +7175,7 @@
         "Developer Tools"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -7331,7 +7331,7 @@
         "Developer Tools"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -7355,7 +7355,7 @@
         "Monitoring & Alerts"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -7667,7 +7667,7 @@
         "Developer Tools"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -7679,7 +7679,7 @@
         "Data Extraction & Transformation"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "listed"
     },
@@ -7727,7 +7727,7 @@
         "Developer Tools"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -7787,7 +7787,7 @@
         "Integrations & Connectors"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -7847,7 +7847,7 @@
         "Runbooks & Diagnostics"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -8015,7 +8015,7 @@
         "Integrations & Connectors"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -8027,7 +8027,7 @@
         "Calendar, Email & Productivity"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -8243,7 +8243,7 @@
         "Developer Tools"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -8279,7 +8279,7 @@
         "Library & API Reference"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -8315,7 +8315,7 @@
         "Library & API Reference"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -8339,7 +8339,7 @@
         "Library & API Reference"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -8495,7 +8495,7 @@
         "Developer Tools"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -8603,7 +8603,7 @@
         "Library & API Reference"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -8627,7 +8627,7 @@
         "Library & API Reference"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -8735,7 +8735,7 @@
         "Monitoring & Alerts"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -9035,7 +9035,7 @@
         "Monitoring & Alerts"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -9107,7 +9107,7 @@
         "Monitoring & Alerts"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -9191,7 +9191,7 @@
         "Data Extraction & Transformation"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -9395,7 +9395,7 @@
         "Browser Automation"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "listed"
     },
@@ -9623,7 +9623,7 @@
         "Media & Transcription"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -9695,7 +9695,7 @@
         "Data Extraction & Transformation"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -9731,7 +9731,7 @@
         "Runbooks & Diagnostics"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -9755,7 +9755,7 @@
         "Runbooks & Diagnostics"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -9767,7 +9767,7 @@
         "Runbooks & Diagnostics"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -9827,7 +9827,7 @@
         "Developer Tools"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -9863,7 +9863,7 @@
         "Runbooks & Diagnostics"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -10019,7 +10019,7 @@
         "Monitoring & Alerts"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -10067,7 +10067,7 @@
         "Runbooks & Diagnostics"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -10115,7 +10115,7 @@
         "Monitoring & Alerts"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -10247,7 +10247,7 @@
         "Monitoring & Alerts"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -10259,7 +10259,7 @@
         "Monitoring & Alerts"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -10391,7 +10391,7 @@
         "Developer Tools"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -10679,7 +10679,7 @@
         "Library & API Reference"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -10703,7 +10703,7 @@
         "Library & API Reference"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -10811,7 +10811,7 @@
         "Developer Tools"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -11111,7 +11111,7 @@
         "Integrations & Connectors"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -11195,7 +11195,7 @@
         "Content Writing & SEO"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -11243,7 +11243,7 @@
         "Research & Scraping"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -11555,7 +11555,7 @@
         "Code Quality & Review"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -11579,7 +11579,7 @@
         "Code Quality & Review"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -11747,7 +11747,7 @@
         "Integrations & Connectors"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -11759,7 +11759,7 @@
         "Integrations & Connectors"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -11831,7 +11831,7 @@
         "Monitoring & Alerts"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -11843,7 +11843,7 @@
         "Monitoring & Alerts"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "listed"
     },
@@ -12083,7 +12083,7 @@
         "Security & Verification"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -12131,7 +12131,7 @@
         "Calendar, Email & Productivity"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -12227,7 +12227,7 @@
         "Calendar, Email & Productivity"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -12239,7 +12239,7 @@
         "Calendar, Email & Productivity"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -12287,7 +12287,7 @@
         "Data Extraction & Transformation"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -12299,7 +12299,7 @@
         "Data Extraction & Transformation"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -12347,7 +12347,7 @@
         "Security & Verification"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -12563,7 +12563,7 @@
         "Code Quality & Review"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -12659,7 +12659,7 @@
         "Developer Tools"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -12743,7 +12743,7 @@
         "Image & Creative Automation"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -12971,7 +12971,7 @@
         "Integrations & Connectors"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -13019,7 +13019,7 @@
         "Data Extraction & Transformation"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -13055,7 +13055,7 @@
         "Developer Tools"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -13247,7 +13247,7 @@
         "Data Extraction & Transformation"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -13259,7 +13259,7 @@
         "Data Extraction & Transformation"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -13391,7 +13391,7 @@
         "CI/CD Integrations"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -13415,7 +13415,7 @@
         "Developer Tools"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -13451,7 +13451,7 @@
         "Integrations & Connectors"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -13475,7 +13475,7 @@
         "Runbooks & Diagnostics"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -13499,7 +13499,7 @@
         "Developer Tools"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "listed"
     },
@@ -13535,7 +13535,7 @@
         "Templates & Workflows"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -13679,7 +13679,7 @@
         "CI/CD Integrations"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -13811,7 +13811,7 @@
         "Security & Verification"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -13847,7 +13847,7 @@
         "Calendar, Email & Productivity"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -13859,7 +13859,7 @@
         "Calendar, Email & Productivity"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -14015,7 +14015,7 @@
         "Integrations & Connectors"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -14171,7 +14171,7 @@
         "Security & Verification"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -14183,7 +14183,7 @@
         "Security & Verification"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -14327,7 +14327,7 @@
         "Data Extraction & Transformation"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -14591,7 +14591,7 @@
         "WordPress & CMS"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },
@@ -14879,7 +14879,7 @@
         "Integrations & Connectors"
       ],
       "framework": [
-        "MCP-compatible"
+        "MCP"
       ],
       "verification": "security_reviewed"
     },

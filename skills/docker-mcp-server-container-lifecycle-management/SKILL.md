@@ -2,7 +2,7 @@
 name: "Docker MCP Server for Container Lifecycle Management"
 description: "An MCP server that enables AI agents to manage Docker containers, images, volumes, and networks through natural language. Supports local and remote Docker engines for container lifecycle operations via the Model Context Protocol."
 category: "Integrations & Connectors"
-framework: "MCP-compatible"
+framework: "MCP"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/docker-mcp-server-container-lifecycle-management/"
 ---
@@ -25,7 +25,7 @@ Container management includes listing, creating, starting, stopping, restarting,
 
 ### Integration Points
 
-The server works with any MCP-compatible client including Claude Desktop, Cursor, Cline, and other AI coding tools. Configuration requires only a Docker socket path or remote Docker host URL. It installs via pip (pip install mcp-server-docker) or runs directly with uvx. Standard MCP configuration in Claude Desktop or other clients enables automatic server discovery and tool registration.
+The server works with any MCP client including Claude Desktop, Cursor, Cline, and other AI coding tools. Configuration requires only a Docker socket path or remote Docker host URL. It installs via pip (pip install mcp-server-docker) or runs directly with uvx. Standard MCP configuration in Claude Desktop or other clients enables automatic server discovery and tool registration.
 
 ### Output
 
