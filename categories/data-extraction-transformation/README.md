@@ -1,6 +1,6 @@
 # 🔄 Data Extraction & Transformation
 
-> **98 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation)
+> **99 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation)
 
 Parsing, ETL pipelines, format conversion, data wrangling, and transformation utilities.
 
@@ -153,6 +153,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Snowflake Query Profiler](../../skills/snowflake-query-profiler/) | Security Reviewed | — | — | `clawhub install snowflake-query-profiler` |
 | [sqlite-utils Python CLI for SQLite Database Manipulation](../../skills/sqlite-utils-python-cli-sqlite-manipulation/) | Verified Metadata | — | — | `clawhub install sqlite-utils-python-cli-sqlite-manipulation` |
 | [Steampipe Zero-ETL SQL Cloud API Query Engine](../../skills/steampipe-zero-etl-sql-cloud-api-query-engine/) | Verified Metadata | — | — | `clawhub install steampipe-zero-etl-sql-cloud-api-query-engine` |
+| [trdsql SQL Query Engine for CSV JSON and YAML Files](../../skills/trdsql-sql-query-engine-csv-json-yaml-files/) | Verified Metadata | — | — | `clawhub install trdsql-sql-query-engine-csv-json-yaml-files` |
 | [XML XSLT Transform Pipeline](../../skills/xml-xslt-transform-pipeline/) | Security Reviewed | — | — | `clawhub install xml-xslt-transform-pipeline` |
 | [xsv High-Performance CSV Toolkit](../../skills/xsv-high-performance-csv-toolkit/) | Security Reviewed | — | — | `clawhub install xsv-high-performance-csv-toolkit` |
 
@@ -178,7 +179,7 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 ## Related Categories
 
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (140 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (126 skills)
+- 🛠️ [Developer Tools](../developer-tools/) (129 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
 - 🔒 [Security & Verification](../security-verification/) (96 skills)
 
