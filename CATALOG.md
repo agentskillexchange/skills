@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1246 skills** across **20 categories** · Updated 2026-03-26 01:13 UTC
+> **1252 skills** across **20 categories** · Updated 2026-03-26 02:14 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -10,12 +10,12 @@
 
 | Metric | Value |
 |--------|-------|
-| Total Skills | **1246** |
+| Total Skills | **1252** |
 | Categories | **20** |
 | Frameworks | **20** |
 | Skills with live signal data | **915** |
 | Security Reviewed | **1138** |
-| Verified Metadata | **108** |
+| Verified Metadata | **114** |
 | Listed | **0** |
 
 > These verification counts are **final-state buckets**, not cumulative stages.
@@ -172,7 +172,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [npm Audit Dependency Report Generator](skills/npm-audit-dependency-report-generator/) | Security Reviewed | — | — | `clawhub install npm-audit-dependency-report-generator` |
 
 
-### 🛠️ Developer Tools (121 skills)
+### 🛠️ Developer Tools (122 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -284,6 +284,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [pnpm Fast Disk-Efficient Package Manager](skills/pnpm-fast-disk-efficient-package-manager/) | Verified Metadata | — | — | `clawhub install pnpm-fast-disk-efficient-package-manager` |
 | [Posting Terminal API Client](skills/posting-terminal-api-client/) | Verified Metadata | — | — | `clawhub install posting-terminal-api-client` |
 | [procs Modern Process Viewer CLI](skills/procs-modern-process-viewer-cli/) | Verified Metadata | — | — | `clawhub install procs-modern-process-viewer-cli` |
+| [quicktype JSON Schema to Typed Code Generator](skills/quicktype-json-schema-code-generator/) | Verified Metadata | — | — | `clawhub install quicktype-json-schema-code-generator` |
 | [Repomix Codebase Context Packer for LLMs](skills/repomix-codebase-context-packer-llm/) | Security Reviewed | — | — | `clawhub install repomix-codebase-context-packer-llm` |
 | [ripgrep Recursive Regex Search Tool](skills/ripgrep-recursive-regex-search-tool/) | Security Reviewed | — | — | `clawhub install ripgrep-recursive-regex-search-tool` |
 | [Slidev Markdown Presentation Slides for Developers](skills/slidev-markdown-presentation-slides-developers/) | Verified Metadata | — | — | `clawhub install slidev-markdown-presentation-slides-developers` |
@@ -422,7 +423,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Systemd Service Recovery Playbook](skills/systemd-service-recovery-playbook-2/) | Security Reviewed | — | — | `clawhub install systemd-service-recovery-playbook-2` |
 
 
-### 🔄 Data Extraction & Transformation (97 skills)
+### 🔄 Data Extraction & Transformation (98 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -510,6 +511,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [fx Terminal JSON Viewer and Processor](skills/fx-terminal-json-viewer-processor/) | Verified Metadata | — | — | `clawhub install fx-terminal-json-viewer-processor` |
 | [gron Greppable JSON Flattener](skills/gron-greppable-json-flattener/) | Verified Metadata | — | — | `clawhub install gron-greppable-json-flattener` |
 | [Instructor Structured Data Extraction from LLMs](skills/instructor-structured-data-extraction-llms/) | Verified Metadata | — | — | `clawhub install instructor-structured-data-extraction-llms` |
+| [jnv Interactive JSON Navigator and jq Filter Editor](skills/jnv-interactive-json-navigator/) | Verified Metadata | — | — | `clawhub install jnv-interactive-json-navigator` |
 | [jq Pipeline Builder Agent](skills/jq-pipeline-builder-agent/) | Security Reviewed | — | — | `clawhub install jq-pipeline-builder-agent` |
 | [Marker PDF-to-Markdown Converter](skills/marker-pdf-to-markdown-converter/) | Security Reviewed | — | — | `clawhub install marker-pdf-to-markdown-converter` |
 | [MinerU PDF-to-Markdown Document Parser](skills/mineru-pdf-to-markdown-document-parser/) | Verified Metadata | — | — | `clawhub install mineru-pdf-to-markdown-document-parser` |
@@ -527,7 +529,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [xsv High-Performance CSV Toolkit](skills/xsv-high-performance-csv-toolkit/) | Security Reviewed | — | — | `clawhub install xsv-high-performance-csv-toolkit` |
 
 
-### 🔒 Security & Verification (94 skills)
+### 🔒 Security & Verification (96 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -606,9 +608,11 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [OAuth2 Token Introspection Agent](skills/oauth2-token-introspection-agent/) | Security Reviewed | 676 | 1.2M/wk | `clawhub install oauth2-token-introspection-agent` |
 | [age Modern File Encryption Tool](skills/age-modern-file-encryption-tool/) | Verified Metadata | — | — | `clawhub install age-modern-file-encryption-tool` |
 | [Bearer CLI SAST Code Security and Privacy Scanner](skills/bearer-cli-sast-code-security-privacy-scanner/) | Verified Metadata | — | — | `clawhub install bearer-cli-sast-code-security-privacy-scanner` |
+| [Betterleaks Next-Generation Secrets Scanner](skills/betterleaks-secrets-scanner/) | Verified Metadata | — | — | `clawhub install betterleaks-secrets-scanner` |
 | [CSP Policy Analyzer](skills/csp-policy-analyzer/) | Security Reviewed | — | — | `clawhub install csp-policy-analyzer` |
 | [CycloneDX SBOM Generator](skills/cyclonedx-sbom-generator/) | Security Reviewed | — | — | `clawhub install cyclonedx-sbom-generator` |
 | [Gitleaks Git Repository Secret Scanner](skills/gitleaks-git-secret-scanner/) | Verified Metadata | — | — | `clawhub install gitleaks-git-secret-scanner` |
+| [Gitxray GitHub Repository Security X-Ray](skills/gitxray-github-repository-security-xray/) | Verified Metadata | — | — | `clawhub install gitxray-github-repository-security-xray` |
 | [GPG Encryption and Key Management Agent](skills/gpg-encryption-key-management-agent/) | Security Reviewed | — | — | `clawhub install gpg-encryption-key-management-agent` |
 | [Heisenberg Supply Chain Health Checker](skills/heisenberg-supply-chain-health-checker/) | Verified Metadata | — | — | `clawhub install heisenberg-supply-chain-health-checker` |
 | [Infisical Open-Source Secret Management Platform](skills/infisical-secret-management-platform/) | Verified Metadata | — | — | `clawhub install infisical-secret-management-platform` |
@@ -727,7 +731,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Zod Schema Generator](skills/zod-schema-generator/) | Security Reviewed | — | — | `clawhub install zod-schema-generator` |
 
 
-### ✅ Code Quality & Review (84 skills)
+### ✅ Code Quality & Review (86 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -815,7 +819,9 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Ruff Linter and Formatter](skills/ruff-linter-formatter-agent/) | Security Reviewed | — | — | `clawhub install ruff-linter-formatter-agent` |
 | [Ruff Linter Configuration Architect](skills/ruff-linter-configuration-architect/) | Security Reviewed | — | — | `clawhub install ruff-linter-configuration-architect` |
 | [Ruff Python Linter Configurator](skills/ruff-python-linter-configurator/) | Security Reviewed | — | — | `clawhub install ruff-python-linter-configurator` |
+| [sqruff High-Performance SQL Linter and Formatter](skills/sqruff-sql-linter-formatter/) | Verified Metadata | — | — | `clawhub install sqruff-sql-linter-formatter` |
 | [tokei Code Statistics Counter](skills/tokei-code-statistics-counter/) | Verified Metadata | — | — | `clawhub install tokei-code-statistics-counter` |
+| [typos Source Code Spell Checker](skills/typos-source-code-spell-checker/) | Verified Metadata | — | — | `clawhub install typos-source-code-spell-checker` |
 | [Vale Prose Linter for Technical Documentation](skills/vale-prose-linter-technical-docs/) | Verified Metadata | — | — | `clawhub install vale-prose-linter-technical-docs` |
 
 

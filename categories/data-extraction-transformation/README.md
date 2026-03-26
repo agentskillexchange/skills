@@ -1,6 +1,6 @@
 # 🔄 Data Extraction & Transformation
 
-> **97 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation)
+> **98 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation)
 
 Parsing, ETL pipelines, format conversion, data wrangling, and transformation utilities.
 
@@ -139,6 +139,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [fx Terminal JSON Viewer and Processor](../../skills/fx-terminal-json-viewer-processor/) | Verified Metadata | — | — | `clawhub install fx-terminal-json-viewer-processor` |
 | [gron Greppable JSON Flattener](../../skills/gron-greppable-json-flattener/) | Verified Metadata | — | — | `clawhub install gron-greppable-json-flattener` |
 | [Instructor Structured Data Extraction from LLMs](../../skills/instructor-structured-data-extraction-llms/) | Verified Metadata | — | — | `clawhub install instructor-structured-data-extraction-llms` |
+| [jnv Interactive JSON Navigator and jq Filter Editor](../../skills/jnv-interactive-json-navigator/) | Verified Metadata | — | — | `clawhub install jnv-interactive-json-navigator` |
 | [jq Pipeline Builder Agent](../../skills/jq-pipeline-builder-agent/) | Security Reviewed | — | — | `clawhub install jq-pipeline-builder-agent` |
 | [Marker PDF-to-Markdown Converter](../../skills/marker-pdf-to-markdown-converter/) | Security Reviewed | — | — | `clawhub install marker-pdf-to-markdown-converter` |
 | [MinerU PDF-to-Markdown Document Parser](../../skills/mineru-pdf-to-markdown-document-parser/) | Verified Metadata | — | — | `clawhub install mineru-pdf-to-markdown-document-parser` |
@@ -177,9 +178,9 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 ## Related Categories
 
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (140 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (121 skills)
+- 🛠️ [Developer Tools](../developer-tools/) (122 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
-- 🔒 [Security & Verification](../security-verification/) (94 skills)
+- 🔒 [Security & Verification](../security-verification/) (96 skills)
 
 ---
 

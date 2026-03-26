@@ -1,6 +1,6 @@
 # ✅ Code Quality & Review
 
-> **84 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review)
+> **86 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review)
 
 Linting rules, review checklists, code standards enforcement, and quality gates.
 
@@ -139,7 +139,9 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Ruff Linter and Formatter](../../skills/ruff-linter-formatter-agent/) | Security Reviewed | — | — | `clawhub install ruff-linter-formatter-agent` |
 | [Ruff Linter Configuration Architect](../../skills/ruff-linter-configuration-architect/) | Security Reviewed | — | — | `clawhub install ruff-linter-configuration-architect` |
 | [Ruff Python Linter Configurator](../../skills/ruff-python-linter-configurator/) | Security Reviewed | — | — | `clawhub install ruff-python-linter-configurator` |
+| [sqruff High-Performance SQL Linter and Formatter](../../skills/sqruff-sql-linter-formatter/) | Verified Metadata | — | — | `clawhub install sqruff-sql-linter-formatter` |
 | [tokei Code Statistics Counter](../../skills/tokei-code-statistics-counter/) | Verified Metadata | — | — | `clawhub install tokei-code-statistics-counter` |
+| [typos Source Code Spell Checker](../../skills/typos-source-code-spell-checker/) | Verified Metadata | — | — | `clawhub install typos-source-code-spell-checker` |
 | [Vale Prose Linter for Technical Documentation](../../skills/vale-prose-linter-technical-docs/) | Verified Metadata | — | — | `clawhub install vale-prose-linter-technical-docs` |
 
 ---
@@ -164,9 +166,9 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 ## Related Categories
 
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (140 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (121 skills)
+- 🛠️ [Developer Tools](../developer-tools/) (122 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
-- 🔄 [Data Extraction & Transformation](../data-extraction-transformation/) (97 skills)
+- 🔄 [Data Extraction & Transformation](../data-extraction-transformation/) (98 skills)
 
 ---
 

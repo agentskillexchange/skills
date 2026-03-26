@@ -1,6 +1,6 @@
 # 🔒 Security & Verification
 
-> **94 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification)
+> **96 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification)
 
 Auth setup, vulnerability scanning, compliance checks, and security automation.
 
@@ -130,9 +130,11 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [OAuth2 Token Introspection Agent](../../skills/oauth2-token-introspection-agent/) | Security Reviewed | 676 | 1.2M/wk | `clawhub install oauth2-token-introspection-agent` |
 | [age Modern File Encryption Tool](../../skills/age-modern-file-encryption-tool/) | Verified Metadata | — | — | `clawhub install age-modern-file-encryption-tool` |
 | [Bearer CLI SAST Code Security and Privacy Scanner](../../skills/bearer-cli-sast-code-security-privacy-scanner/) | Verified Metadata | — | — | `clawhub install bearer-cli-sast-code-security-privacy-scanner` |
+| [Betterleaks Next-Generation Secrets Scanner](../../skills/betterleaks-secrets-scanner/) | Verified Metadata | — | — | `clawhub install betterleaks-secrets-scanner` |
 | [CSP Policy Analyzer](../../skills/csp-policy-analyzer/) | Security Reviewed | — | — | `clawhub install csp-policy-analyzer` |
 | [CycloneDX SBOM Generator](../../skills/cyclonedx-sbom-generator/) | Security Reviewed | — | — | `clawhub install cyclonedx-sbom-generator` |
 | [Gitleaks Git Repository Secret Scanner](../../skills/gitleaks-git-secret-scanner/) | Verified Metadata | — | — | `clawhub install gitleaks-git-secret-scanner` |
+| [Gitxray GitHub Repository Security X-Ray](../../skills/gitxray-github-repository-security-xray/) | Verified Metadata | — | — | `clawhub install gitxray-github-repository-security-xray` |
 | [GPG Encryption and Key Management Agent](../../skills/gpg-encryption-key-management-agent/) | Security Reviewed | — | — | `clawhub install gpg-encryption-key-management-agent` |
 | [Heisenberg Supply Chain Health Checker](../../skills/heisenberg-supply-chain-health-checker/) | Verified Metadata | — | — | `clawhub install heisenberg-supply-chain-health-checker` |
 | [Infisical Open-Source Secret Management Platform](../../skills/infisical-secret-management-platform/) | Verified Metadata | — | — | `clawhub install infisical-secret-management-platform` |
@@ -174,9 +176,9 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 ## Related Categories
 
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (140 skills)
-- 🛠️ [Developer Tools](../developer-tools/) (121 skills)
+- 🛠️ [Developer Tools](../developer-tools/) (122 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
-- 🔄 [Data Extraction & Transformation](../data-extraction-transformation/) (97 skills)
+- 🔄 [Data Extraction & Transformation](../data-extraction-transformation/) (98 skills)
 
 ---
 

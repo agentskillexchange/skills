@@ -1,6 +1,6 @@
 # 🛠️ Developer Tools
 
-> **121 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools)
+> **122 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools)
 
 CLI helpers, dev environment setup, productivity utilities, and developer workflows.
 
@@ -163,6 +163,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [pnpm Fast Disk-Efficient Package Manager](../../skills/pnpm-fast-disk-efficient-package-manager/) | Verified Metadata | — | — | `clawhub install pnpm-fast-disk-efficient-package-manager` |
 | [Posting Terminal API Client](../../skills/posting-terminal-api-client/) | Verified Metadata | — | — | `clawhub install posting-terminal-api-client` |
 | [procs Modern Process Viewer CLI](../../skills/procs-modern-process-viewer-cli/) | Verified Metadata | — | — | `clawhub install procs-modern-process-viewer-cli` |
+| [quicktype JSON Schema to Typed Code Generator](../../skills/quicktype-json-schema-code-generator/) | Verified Metadata | — | — | `clawhub install quicktype-json-schema-code-generator` |
 | [Repomix Codebase Context Packer for LLMs](../../skills/repomix-codebase-context-packer-llm/) | Security Reviewed | — | — | `clawhub install repomix-codebase-context-packer-llm` |
 | [ripgrep Recursive Regex Search Tool](../../skills/ripgrep-recursive-regex-search-tool/) | Security Reviewed | — | — | `clawhub install ripgrep-recursive-regex-search-tool` |
 | [Slidev Markdown Presentation Slides for Developers](../../skills/slidev-markdown-presentation-slides-developers/) | Verified Metadata | — | — | `clawhub install slidev-markdown-presentation-slides-developers` |
@@ -202,8 +203,8 @@ npx skills add agentskillexchange/skills --skill <slug> -a codex
 
 - 🔧 [CI/CD Integrations](../ci-cd-integrations/) (140 skills)
 - 📋 [Runbooks & Diagnostics](../runbooks-diagnostics/) (113 skills)
-- 🔄 [Data Extraction & Transformation](../data-extraction-transformation/) (97 skills)
-- 🔒 [Security & Verification](../security-verification/) (94 skills)
+- 🔄 [Data Extraction & Transformation](../data-extraction-transformation/) (98 skills)
+- 🔒 [Security & Verification](../security-verification/) (96 skills)
 
 ---
 
