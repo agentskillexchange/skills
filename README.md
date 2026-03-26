@@ -49,17 +49,17 @@ A hand-picked selection across categories. See [TOP-STARS.md](TOP-STARS.md) and 
 | Skill | Tool | ⭐ Stars | Category |
 |-------|------|--------:|----------|
 | [Supabase MCP Server](skills/supabase-mcp-server/) | supabase | 99.5k | Developer Tools |
-| [Kubernetes CrashLoop Investigator](skills/kubernetes-events-api-crashloop-investigator/) | kubernetes | 121.3k | Runbooks & Diagnostics |
-| [Playwright Browser Automation](skills/playwright-mcp-browser-automation/) | playwright | 84.9k | Browser Automation |
-| [Grafana OnCall Escalation Manager](skills/grafana-oncall-escalation-chain-manager/) | grafana | 72.8k | Monitoring & Alerts |
-| [Podcast RSS Feed Transcriber](skills/podcast-rss-feed-transcriber/) | whisper | 96.5k | Media & Transcription |
-| [OpenAPI Spec Compliance Checker](skills/openapi-spec-compliance-checker/) | fastapi | 96.5k | Library & API Reference |
-| [Cypress Network Stub Generator](skills/cypress-network-stub-generator/) | cypress | 49.6k | Browser Automation |
-| [SerpAPI Search Aggregator](skills/serpapi-search-aggregator/) | redis | 73.5k | Research & Scraping |
-| [WordPress Content Publisher](skills/wordpress-content-publisher/) | wordpress | 21.0k | WordPress & CMS |
-| [Datadog MCP Server](skills/datadog-mcp-server/) | datadog | 7.4k | Monitoring & Alerts |
-| [Sentry Issue Spike Detection](skills/sentry-issue-spike-detection-agent/) | sentry | 45.9k | Monitoring & Alerts |
-| [Snyk Agent Scan](skills/snyk-agent-scan/) | snyk | 4.9k | Security & Verification |
+| [Whisper Subtitle Generator](skills/whisper-subtitle-generator/) | whisper | 96.6k | Media & Transcription |
+| [Playwright Multi-Tab Session Manager](skills/playwright-multi-tab-session-manager/) | playwright | 84.9k | Browser Automation |
+| [Grafana OnCall Escalation Chain Manager](skills/grafana-oncall-escalation-chain-manager/) | grafana | 72.8k | Monitoring & Alerts |
+| [Ansible Playbook Dry-Run Validator](skills/ansible-playbook-dryrun-validator-agent/) | ansible | 68.4k | Runbooks & Diagnostics |
+| [Scrapy Spider Architect](skills/scrapy-spider-architect/) | scrapy | 60.9k | Research & Scraping |
+| [Pandas DataFrame Pipeline Orchestrator](skills/pandas-dataframe-pipeline-orchestrator/) | pandas | 48.2k | Data Extraction & Transformation |
+| [Terraform State Forensics Tool](skills/terraform-state-forensics-tool/) | terraform | 48.0k | Runbooks & Diagnostics |
+| [Prisma Schema Migrator](skills/prisma-schema-migrator/) | prisma | 45.6k | Library & API Reference |
+| [Jest Unit Test Scaffolder](skills/jest-unit-test-scaffolder/) | jest | 45.3k | Code Quality & Review |
+| [Vault Transit Secrets Envelope Verifier](skills/vault-transit-secrets-envelope-verifier/) | vault | 35.3k | Security & Verification |
+| [Docker Compose Service Blueprint Creator](skills/docker-compose-service-blueprint-creator/) | docker | 71.6k | Templates & Workflows |
 
 ---
 
