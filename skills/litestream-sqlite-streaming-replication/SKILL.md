@@ -3,7 +3,7 @@ name: "Litestream SQLite Streaming Replication"
 description: "Litestream is a streaming replication tool for SQLite databases that continuously replicates changes to S3, Azure, GCS, SFTP, or local storage. Written in Go with 13k+ GitHub stars, it enables SQLite to be used as a production database with disaster recovery."
 category: "Developer Tools"
 framework: "Custom Agents"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/litestream-sqlite-streaming-replication/"
 ---
 

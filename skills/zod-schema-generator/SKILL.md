@@ -3,7 +3,7 @@ name: "Zod Schema Generator"
 description: "Converts JSON samples, TypeScript interfaces, and OpenAPI specs into Zod validation schemas. Uses ts-morph for AST parsing and zod-to-json-schema for bidirectional conversion."
 category: "Library & API Reference"
 framework: "Cursor"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/zod-schema-generator/"
 ---
 

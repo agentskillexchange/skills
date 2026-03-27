@@ -3,7 +3,7 @@ name: "Jaeger Trace Explorer"
 description: "Jaeger Trace Explorer is built around Jaeger distributed tracing platform. The underlying ecosystem is represented by jaegertracing/jaeger (22,608+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like trace search, spans, service graph, latency timelines, baggage, sampling and preserving […]"
 category: "Monitoring & Alerts"
 framework: "MCP"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/jaeger-trace-explorer/"
 tool_ecosystem:
   tool: jaeger

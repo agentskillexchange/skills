@@ -3,7 +3,7 @@ name: "Posting Terminal API Client"
 description: "A modern, open-source HTTP client built as a terminal UI application. Posting provides a Postman-like experience entirely in the terminal, with keyboard-centric workflows, environment variables, syntax highlighting, and YAML-based request storage for version control."
 category: "Developer Tools"
 framework: "Custom Agents"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/posting-terminal-api-client/"
 ---
 

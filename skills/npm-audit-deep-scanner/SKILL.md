@@ -3,7 +3,7 @@ name: "NPM Audit Deep Scanner"
 description: "Extends npm audit with deep transitive dependency analysis using the npm Registry API. Generates fix PRs via GitHub API and cross-checks advisories against the OSV.dev vulnerability database."
 category: "Security & Verification"
 framework: "Custom Agents"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/npm-audit-deep-scanner/"
 ---
 

@@ -3,7 +3,7 @@ name: "WP Abilities API"
 description: "Specialized support for defining, exposing, and debugging WordPress abilities through the Abilities API."
 category: "WordPress & CMS"
 framework: "OpenClaw"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/wp-abilities-api/"
 tool_ecosystem:
   tool: wordpress

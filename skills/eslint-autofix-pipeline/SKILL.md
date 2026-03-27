@@ -3,7 +3,7 @@ name: "ESLint Auto-Fix Pipeline"
 description: "Runs ESLint with the –fix flag across JavaScript and TypeScript codebases, applying auto-fixable rules from eslint-config-airbnb and @typescript-eslint/recommended. Generates diff reports for manual review of remaining issues."
 category: "Code Quality & Review"
 framework: "Claude Agents"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/eslint-autofix-pipeline/"
 tool_ecosystem:
   tool: eslint

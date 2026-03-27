@@ -3,7 +3,7 @@ name: "CodeClimate Diff Analyzer"
 description: "Runs CodeClimate analysis on pull request diffs using the CLI engine and reports new issues inline. Calculates maintainability impact scores per changed file."
 category: "Code Quality & Review"
 framework: "Claude Code"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/codeclimate-diff-analyzer-2/"
 tool_ecosystem:
   tool: gitlab

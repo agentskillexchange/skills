@@ -3,7 +3,7 @@ name: "FFmpeg Media Transcoder"
 description: "Automated video and audio transcoding using FFmpeg with hardware-accelerated encoding via NVENC/VAAPI, HLS adaptive streaming output, and MediaInfo-based quality validation."
 category: "Image & Creative Automation"
 framework: "Claude Code"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/ffmpeg-media-transcoder/"
 tool_ecosystem:
   tool: ffmpeg

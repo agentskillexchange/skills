@@ -3,7 +3,7 @@ name: "GraphQL Schema Documentation Generator"
 description: "Generates interactive API documentation from GraphQL schemas using graphql-js introspection queries and SpectaQL. Annotates fields with usage analytics from Apollo Studio API."
 category: "Library & API Reference"
 framework: "MCP"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/graphql-schema-documentation-generator/"
 tool_ecosystem:
   tool: graphql

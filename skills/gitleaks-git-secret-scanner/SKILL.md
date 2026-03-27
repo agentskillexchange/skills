@@ -3,7 +3,7 @@ name: "Gitleaks Git Repository Secret Scanner"
 description: "Gitleaks is an open-source SAST tool for detecting hardcoded secrets like passwords, API keys, and tokens in Git repositories, files, and directories. With 24,000+ GitHub stars and 20 million Docker downloads, it is the most widely adopted open-source secret scanner."
 category: "Security & Verification"
 framework: "Claude Code"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/gitleaks-git-secret-scanner/"
 ---
 

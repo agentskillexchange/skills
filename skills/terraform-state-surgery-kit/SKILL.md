@@ -3,7 +3,7 @@ name: "Terraform State Surgery Kit"
 description: "Performs safe Terraform state operations using the terraform CLI state subcommands and the Terraform Cloud API. Handles state imports, resource moves, and taint operations with automatic backup and rollback."
 category: "Runbooks & Diagnostics"
 framework: "Claude Code"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/terraform-state-surgery-kit/"
 tool_ecosystem:
   tool: terraform

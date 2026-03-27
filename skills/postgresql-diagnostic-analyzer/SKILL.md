@@ -3,7 +3,7 @@ name: "PostgreSQL Diagnostic Analyzer"
 description: "Runs diagnostic queries against PostgreSQL using pg_stat_statements, pg_stat_activity, and pg_locks system views. Identifies slow queries, lock contention, and bloat using pgstattuple and pg_repack extension analysis."
 category: "Runbooks & Diagnostics"
 framework: "Gemini"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/postgresql-diagnostic-analyzer/"
 tool_ecosystem:
   tool: postgresql

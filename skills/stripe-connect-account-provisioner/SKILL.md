@@ -3,7 +3,7 @@ name: "Stripe Connect Account Provisioner"
 description: "Automates Stripe Connect onboarding by provisioning connected accounts via the Stripe API. Handles account creation, KYC link generation with stripe.accountLinks.create(), and webhook verification for account.updated events."
 category: "Integrations & Connectors"
 framework: "OpenClaw"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/stripe-connect-account-provisioner/"
 tool_ecosystem:
   tool: stripe

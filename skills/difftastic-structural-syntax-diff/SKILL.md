@@ -3,7 +3,7 @@ name: "Difftastic Structural Syntax-Aware Diff Tool"
 description: "Difftastic is a structural diff tool that compares files based on their syntax rather than line-by-line text. Written in Rust with 24k+ GitHub stars, it understands 30+ programming languages and integrates directly with Git and Mercurial."
 category: "Code Quality & Review"
 framework: "Custom Agents"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/difftastic-structural-syntax-diff/"
 ---
 

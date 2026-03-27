@@ -3,7 +3,7 @@ name: "Slack MCP Server"
 description: "Agent access to Slack conversations and workspace workflows."
 category: "Calendar, Email & Productivity"
 framework: "Claude Code"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/slack-mcp-server/"
 tool_ecosystem:
   tool: slack

@@ -3,7 +3,7 @@ name: "Kubernetes CrashLoop Diagnoser"
 description: "Diagnoses CrashLoopBackOff pods using kubectl and the Kubernetes API /api/v1/namespaces/{ns}/pods/{pod}/log endpoint. Correlates container exit codes with OOM kills, readiness probe failures, and config errors."
 category: "Runbooks & Diagnostics"
 framework: "Gemini"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/kubernetes-crashloop-diagnoser-agent/"
 tool_ecosystem:
   tool: kubernetes

@@ -3,7 +3,7 @@ name: "ESLint Rule Configurator"
 description: "Generates optimized ESLint flat config files using @eslint/js, typescript-eslint, and eslint-plugin-import. Provides project-specific rule recommendations based on codebase analysis."
 category: "Code Quality & Review"
 framework: "Custom Agents"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/eslint-rule-configurator/"
 tool_ecosystem:
   tool: eslint

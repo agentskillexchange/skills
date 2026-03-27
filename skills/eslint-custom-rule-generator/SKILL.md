@@ -3,7 +3,7 @@ name: "ESLint Custom Rule Generator"
 description: "Generates custom ESLint rules from natural language descriptions using the ESLint RuleTester API and AST Explorer patterns. Produces complete rule modules with meta schemas, fixers, and comprehensive test suites."
 category: "Code Quality & Review"
 framework: "Claude Code"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/eslint-custom-rule-generator/"
 tool_ecosystem:
   tool: eslint

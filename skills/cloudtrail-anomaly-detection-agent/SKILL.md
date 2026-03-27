@@ -3,7 +3,7 @@ name: "CloudTrail Anomaly Detection Agent"
 description: "Analyzes AWS CloudTrail event logs via the Lookup Events API to detect anomalous IAM activity. Uses statistical baselining of API call patterns and flags unusual AssumeRole chains, console logins from new IPs, and privilege escalation attempts."
 category: "Security & Verification"
 framework: "ChatGPT Agents"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/cloudtrail-anomaly-detection-agent/"
 tool_ecosystem:
   tool: aws

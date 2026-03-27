@@ -3,7 +3,7 @@ name: "Datadog Integration Connector"
 description: "Connects applications to Datadog monitoring using the Datadog API v2 for metrics submission, log forwarding, APM trace ingestion, and dashboard JSON template management."
 category: "Integrations & Connectors"
 framework: "Gemini"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/datadog-integration-connector-agent/"
 tool_ecosystem:
   tool: datadog

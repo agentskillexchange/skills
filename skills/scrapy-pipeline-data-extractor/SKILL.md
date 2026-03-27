@@ -3,7 +3,7 @@ name: "Scrapy Pipeline Data Extractor"
 description: "Builds production Scrapy spiders with custom Item Pipelines for data cleaning and storage. Uses scrapy.linkextractors.LinkExtractor for crawl scoping and ItemLoader with MapCompose processors for field normalization."
 category: "Research & Scraping"
 framework: "Gemini"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/scrapy-pipeline-data-extractor/"
 tool_ecosystem:
   tool: scrapy

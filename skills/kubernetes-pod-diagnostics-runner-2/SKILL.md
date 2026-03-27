@@ -3,7 +3,7 @@ name: "Kubernetes Pod Diagnostics Runner"
 description: "Runs automated diagnostic sequences on Kubernetes pods using kubectl exec, kubectl logs, and the Kubernetes API /api/v1/pods endpoint. Captures OOMKilled events, CrashLoopBackOff analysis, and resource utilization via metrics-server."
 category: "Runbooks & Diagnostics"
 framework: "Cursor"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/kubernetes-pod-diagnostics-runner-2/"
 tool_ecosystem:
   tool: kubernetes

@@ -3,7 +3,7 @@ name: "Playwright Multi-Browser Test Generator"
 description: "Generates Playwright test scripts for Chromium, Firefox, and WebKit from natural language descriptions. Uses the Playwright codegen recorder API and assertion library for reliable E2E tests."
 category: "Browser Automation"
 framework: "Codex"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/playwright-multi-browser-test-generator/"
 tool_ecosystem:
   tool: playwright

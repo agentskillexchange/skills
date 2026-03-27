@@ -3,7 +3,7 @@ name: "Agent Browser Operator"
 description: "Interactive browser skill for logged-in flows, dynamic pages, and session-aware site operations."
 category: "Browser Automation"
 framework: "Custom Agents"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/agent-browser-operator/"
 tool_ecosystem:
   tool: playwright

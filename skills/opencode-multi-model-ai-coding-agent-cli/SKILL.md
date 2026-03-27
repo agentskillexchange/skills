@@ -3,7 +3,7 @@ name: "OpenCode Multi-Model AI Coding Agent CLI"
 description: "An open-source terminal-native AI coding agent written in Go that supports 75+ LLMs including Claude, GPT, Gemini, and local models. Provides file editing, code generation, shell command execution, and project understanding without subscription fees."
 category: "Developer Tools"
 framework: "Custom Agents"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/opencode-multi-model-ai-coding-agent-cli/"
 ---
 

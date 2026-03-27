@@ -3,7 +3,7 @@ name: "WordPress Content Optimizer"
 description: "Optimizes WordPress posts for SEO using the Yoast SEO REST API fields alongside WP REST API v2 for content updates. Analyzes readability via textstat Python library and generates meta descriptions with Claude API prompt chains."
 category: "Content Writing & SEO"
 framework: "Codex"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/wordpress-content-optimizer-yoast-rest/"
 tool_ecosystem:
   tool: wordpress

@@ -3,7 +3,7 @@ name: "grpcurl Command-Line gRPC Client"
 description: "Like cURL but for gRPC servers. A command-line tool for interacting with gRPC services using server reflection or proto files, supporting unary calls, streaming, TLS, and metadata headers."
 category: "Developer Tools"
 framework: "Claude Code"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/grpcurl-command-line-grpc-client/"
 ---
 

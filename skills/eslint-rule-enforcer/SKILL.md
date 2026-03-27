@@ -3,7 +3,7 @@ name: "ESLint Rule Enforcer"
 description: "Automates ESLint v9 flat config enforcement across monorepos using eslint-plugin-unicorn and @typescript-eslint/parser. Scans changed files via git diff, applies auto-fixable rules, and generates per-package lint reports with violation severity breakdowns."
 category: "Code Quality & Review"
 framework: "Claude Code"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/eslint-rule-enforcer/"
 tool_ecosystem:
   tool: eslint

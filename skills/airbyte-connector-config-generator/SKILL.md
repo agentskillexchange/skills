@@ -3,7 +3,7 @@ name: "Airbyte Connector Config Generator"
 description: "Generates Airbyte source and destination connector configurations using the Airbyte API /v1/sources/create and /v1/destinations/create endpoints. Validates connection specs against the Airbyte Protocol."
 category: "Data Extraction & Transformation"
 framework: "Cursor"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/airbyte-connector-config-generator/"
 tool_ecosystem:
   tool: terraform

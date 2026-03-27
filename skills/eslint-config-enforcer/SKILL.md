@@ -3,7 +3,7 @@ name: "ESLint Config Enforcer"
 description: "Enforces consistent ESLint configurations across monorepo packages using eslint-config-inspector and flat config merging. Detects rule conflicts between shared configs, auto-generates override files, and reports compliance gaps via eslint –inspect-config."
 category: "Code Quality & Review"
 framework: "Claude Code"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/eslint-config-enforcer/"
 tool_ecosystem:
   tool: eslint

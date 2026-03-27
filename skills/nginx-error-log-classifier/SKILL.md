@@ -3,7 +3,7 @@ name: "Nginx Error Log Classifier"
 description: "Classifies and prioritizes Nginx error log entries using pattern matching against known error signatures and the GoAccess real-time log analyzer. Maps upstream timeout patterns to specific backend service degradation."
 category: "Runbooks & Diagnostics"
 framework: "Cursor"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/nginx-error-log-classifier/"
 tool_ecosystem:
   tool: nginx

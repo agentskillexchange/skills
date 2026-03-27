@@ -3,7 +3,7 @@ name: "Figma Design Token Extractor"
 description: "Extracts design tokens from Figma files using the Figma REST API and style-dictionary. Generates CSS custom properties, Tailwind configs, and Swift/Kotlin theme files from Figma components."
 category: "Image & Creative Automation"
 framework: "Cursor"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/figma-design-token-extractor-3/"
 tool_ecosystem:
   tool: storybook

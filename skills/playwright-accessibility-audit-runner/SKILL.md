@@ -3,7 +3,7 @@ name: "Playwright Accessibility Audit Runner"
 description: "Runs automated WCAG 2.1 AA/AAA accessibility audits using Playwright with axe-core integration. Generates detailed violation reports with CSS selectors, ARIA role analysis, and remediation suggestions."
 category: "Browser Automation"
 framework: "Cursor"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/playwright-accessibility-audit-runner/"
 tool_ecosystem:
   tool: playwright

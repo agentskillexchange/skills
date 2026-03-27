@@ -3,7 +3,7 @@ name: "OWASP ZAP API Security Tester"
 description: "Runs automated DAST scans against REST and GraphQL APIs using OWASP ZAP daemon API. Detects injection flaws, broken auth, and CORS misconfigurations with detailed remediation steps."
 category: "Security & Verification"
 framework: "Codex"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/owasp-zap-api-security-tester/"
 tool_ecosystem:
   tool: owasp

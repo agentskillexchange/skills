@@ -3,7 +3,7 @@ name: "Chroma MCP Server for Embedding Database Operations"
 description: "An official MCP server for the Chroma open-source embedding database. Enables AI agents to create collections, add documents, perform vector search, full-text search, and metadata filtering through the Model Context Protocol."
 category: "Integrations & Connectors"
 framework: "MCP"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/chroma-mcp-server-embedding-database-operations/"
 ---
 

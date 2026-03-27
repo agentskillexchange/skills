@@ -3,7 +3,7 @@ name: "Redpanda Connect Declarative Stream Processor"
 description: "Redpanda Connect (formerly Benthos) is a high-performance stream processor that connects data sources and sinks through declarative YAML pipelines. It supports hundreds of connectors and a built-in mapping language called Bloblang for data transformation."
 category: "Data Extraction & Transformation"
 framework: "Multi-Framework"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/redpanda-connect-declarative-stream-processor/"
 ---
 

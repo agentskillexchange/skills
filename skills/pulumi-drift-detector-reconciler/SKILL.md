@@ -3,7 +3,7 @@ name: "Pulumi Drift Detector & Reconciler"
 description: "Runs pulumi refresh on schedule to detect drift between live cloud resources and Pulumi state. Classifies drift by severity and opens a Jira ticket for destructive changes. Non-destructive drift is auto-reconciled via pulumi up –target for specific resources."
 category: "Runbooks & Diagnostics"
 framework: "Codex"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/pulumi-drift-detector-reconciler/"
 tool_ecosystem:
   tool: pulumi

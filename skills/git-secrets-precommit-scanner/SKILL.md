@@ -3,7 +3,7 @@ name: "Git Secrets Pre-Commit Scanner"
 description: "Scans git diffs for exposed secrets using truffleHog entropy detection and custom regex patterns. Integrates with pre-commit hooks and GitHub push protection API for real-time blocking."
 category: "Security & Verification"
 framework: "OpenClaw"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/git-secrets-precommit-scanner/"
 tool_ecosystem:
   tool: stripe

@@ -3,7 +3,7 @@ name: "Ansible Playbook Debugger"
 description: "Diagnoses Ansible playbook failures using ansible-playbook –check –diff mode, ansible-lint, and the Ansible callback plugin API. Parses task execution results and suggests fixes for common module errors in ansible.builtin and community collections."
 category: "Runbooks & Diagnostics"
 framework: "OpenClaw"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/ansible-playbook-debugger/"
 tool_ecosystem:
   tool: ansible

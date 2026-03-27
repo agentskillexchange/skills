@@ -3,7 +3,7 @@ name: "Nginx Error Log Pattern Analyzer"
 description: "Parses Nginx error logs using configurable regex patterns and the GoAccess real-time log analyzer API. Clusters recurring 502/504 errors and correlates with upstream health check failures."
 category: "Runbooks & Diagnostics"
 framework: "Gemini"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/nginx-error-log-pattern-analyzer/"
 tool_ecosystem:
   tool: nginx

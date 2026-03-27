@@ -3,7 +3,7 @@ name: "ArgoCD Sync Status Monitor"
 description: "Monitors ArgoCD application sync status via the ArgoCD REST API and gRPC gateway. Detects drift between desired and live Kubernetes manifests and triggers Slack notifications through the Slack Bolt SDK."
 category: "CI/CD Integrations"
 framework: "Claude Agents"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/argocd-sync-status-monitor-7/"
 tool_ecosystem:
   tool: argocd

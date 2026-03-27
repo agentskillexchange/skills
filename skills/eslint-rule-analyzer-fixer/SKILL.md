@@ -3,7 +3,7 @@ name: "ESLint Rule Analyzer and Fixer"
 description: "Performs deep ESLint configuration analysis using the ESLint Node.js API and flat config system. Auto-fixes rule conflicts, generates shareable configs, and produces code quality trend reports."
 category: "Code Quality & Review"
 framework: "Claude Agents"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/eslint-rule-analyzer-fixer/"
 tool_ecosystem:
   tool: eslint

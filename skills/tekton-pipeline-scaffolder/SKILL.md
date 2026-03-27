@@ -3,7 +3,7 @@ name: "Tekton Pipeline Scaffolder"
 description: "Scaffolds Kubernetes-native CI/CD pipelines using Tekton Pipelines CRDs (Tasks, Pipelines, PipelineRuns) and the Tekton Hub API. Generates YAML manifests with proper workspace bindings, result passing, and when expressions."
 category: "CI/CD Integrations"
 framework: "Gemini"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/tekton-pipeline-scaffolder/"
 tool_ecosystem:
   tool: tekton

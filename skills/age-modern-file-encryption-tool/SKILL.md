@@ -3,7 +3,7 @@ name: "age Modern File Encryption Tool"
 description: "Encrypt and decrypt files with age (FiloSottile/age), a simple, modern encryption tool with small explicit keys, post-quantum support, no config options, and UNIX-style composability. A practical replacement for GPG in most workflows."
 category: "Security & Verification"
 framework: "Claude Code"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/age-modern-file-encryption-tool/"
 ---
 

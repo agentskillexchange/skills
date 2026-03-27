@@ -3,7 +3,7 @@ name: "Stripe Connect Platform Bridge"
 description: "Manages Stripe Connect onboarding flows using the stripe-node SDK. Handles account creation, capability requests, OAuth redirects, and payout scheduling via the Stripe Accounts API."
 category: "Integrations & Connectors"
 framework: "Claude Agents"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/stripe-connect-platform-bridge/"
 tool_ecosystem:
   tool: stripe

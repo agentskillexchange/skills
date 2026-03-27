@@ -3,7 +3,7 @@ name: "FFmpeg Intelligent Media Processor"
 description: "Orchestrates complex video and audio processing pipelines using FFmpeg and FFprobe with scene detection via PySceneDetect. Handles format conversion, thumbnail generation, HLS packaging, and loudness normalization per EBU R128."
 category: "Image & Creative Automation"
 framework: "OpenClaw"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/ffmpeg-intelligent-media-processor/"
 tool_ecosystem:
   tool: ffmpeg

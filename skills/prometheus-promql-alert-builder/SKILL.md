@@ -3,7 +3,7 @@ name: "Prometheus PromQL Alert Builder"
 description: "Constructs Prometheus alerting rules using PromQL expressions with proper label matchers, aggregation operators, and for-duration thresholds. Integrates with Alertmanager routing trees for notification dispatch."
 category: "Monitoring & Alerts"
 framework: "MCP"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/prometheus-promql-alert-builder/"
 tool_ecosystem:
   tool: prometheus

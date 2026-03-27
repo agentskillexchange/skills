@@ -3,7 +3,7 @@ name: "Datadog Triage Playbook"
 description: "Automates alert triage using the Datadog Monitors API v2 and Notebooks API. Correlates metrics with traces via the Datadog APM Trace Search API and generates RCA timelines from the Events Stream API."
 category: "Runbooks & Diagnostics"
 framework: "MCP"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/datadog-triage-playbook/"
 tool_ecosystem:
   tool: datadog

@@ -3,7 +3,7 @@ name: "ArgoCD Sync Wave Orchestrator"
 description: "Manages ArgoCD application sync waves and hooks using the ArgoCD API and argocd CLI. Coordinates multi-application deployment ordering with sync-wave annotations, health checks, and progressive rollout gates."
 category: "CI/CD Integrations"
 framework: "MCP"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/argocd-sync-wave-orchestrator-wave48/"
 tool_ecosystem:
   tool: argocd

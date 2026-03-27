@@ -3,7 +3,7 @@ name: "Sentry Issue Spike Detection Agent"
 description: "Analyzes Sentry project event streams via the Sentry Issues API to detect sudden spikes in error frequency. Computes rolling baselines and triggers alerts through configurable notification channels."
 category: "Monitoring & Alerts"
 framework: "Claude Agents"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/sentry-issue-spike-detection-agent/"
 tool_ecosystem:
   tool: sentry

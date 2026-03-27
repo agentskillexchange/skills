@@ -3,7 +3,7 @@ name: "FFmpeg Clip Extractor"
 description: "Extracts video clips and segments using FFmpeg libavformat and libavcodec APIs. Supports keyframe-accurate cutting with -ss/-to flags, stream copy mode, and re-encoding via libx264/libx265 presets."
 category: "Media & Transcription"
 framework: "Claude Code"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/ffmpeg-clip-extractor-agent/"
 tool_ecosystem:
   tool: ffmpeg

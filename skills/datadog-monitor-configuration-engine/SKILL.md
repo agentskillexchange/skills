@@ -3,7 +3,7 @@ name: "Datadog Monitor Configuration Engine"
 description: "Interfaces with the Datadog API v2 monitors and dashboards endpoints to programmatically create and manage monitors. Uses DogStatsD protocol for custom metric submission and Datadog Terraform provider for IaC."
 category: "Monitoring & Alerts"
 framework: "ChatGPT Agents"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/datadog-monitor-configuration-engine/"
 tool_ecosystem:
   tool: datadog

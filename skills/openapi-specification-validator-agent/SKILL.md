@@ -3,7 +3,7 @@ name: "OpenAPI Specification Validator"
 description: "Validates and lints OpenAPI 3.x specifications using swagger-parser, spectral, and openapi-typescript. Generates type-safe client SDKs and detects breaking API changes via oasdiff."
 category: "Library & API Reference"
 framework: "Cursor"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/openapi-specification-validator-agent/"
 tool_ecosystem:
   tool: swagger

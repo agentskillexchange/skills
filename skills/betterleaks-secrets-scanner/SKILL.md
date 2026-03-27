@@ -3,7 +3,7 @@ name: "Betterleaks Next-Generation Secrets Scanner"
 description: "A fast, configurable secrets scanner built by the creator of Gitleaks and backed by Aikido Security. Betterleaks detects leaked passwords, API keys, and tokens in git repositories, directories, and stdin with CEL-based validation and parallelized scanning."
 category: "Security & Verification"
 framework: "Claude Code"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/betterleaks-secrets-scanner/"
 ---
 

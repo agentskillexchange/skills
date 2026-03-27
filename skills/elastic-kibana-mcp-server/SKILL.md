@@ -3,7 +3,7 @@ name: "Elastic / Kibana MCP Server"
 description: "Elastic / Kibana MCP Server is built around Elasticsearch search and analytics engine. The underlying ecosystem is represented by elastic/elasticsearch (76,387+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like Query DSL, aggregations, indices, shards, mappings, cluster health […]"
 category: "Monitoring & Alerts"
 framework: "MCP"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/elastic-kibana-mcp-server/"
 tool_ecosystem:
   tool: elasticsearch

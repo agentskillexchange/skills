@@ -3,7 +3,7 @@ name: "QuickBooks Online Invoice Reconciliation Agent"
 description: "Connects to the QuickBooks Online Accounting API using OAuth 2.0 via the intuit-oauth Node.js SDK to fetch unpaid invoices and match them against bank transaction records. Discrepancies are flagged and a reconciliation report is generated as a PDF using PDFKit, then emailed via SendGrid."
 category: "Data Extraction & Transformation"
 framework: "Claude Code"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/quickbooks-invoice-reconciliation/"
 tool_ecosystem:
   tool: sendgrid

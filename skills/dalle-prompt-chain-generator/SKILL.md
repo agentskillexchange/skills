@@ -3,7 +3,7 @@ name: "DALL-E Prompt Chain Generator"
 description: "Generates and iterates DALL-E 3 image prompts using the OpenAI Images API with size, quality, and style parameters. Chains edits via the images/edits endpoint with mask-based inpainting."
 category: "Image & Creative Automation"
 framework: "ChatGPT Agents"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/dalle-prompt-chain-generator/"
 tool_ecosystem:
   tool: openai

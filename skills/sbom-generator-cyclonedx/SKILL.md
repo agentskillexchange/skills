@@ -3,7 +3,7 @@ name: "SBOM Generator with CycloneDX"
 description: "Generates Software Bill of Materials in CycloneDX 1.5 format using cdxgen and syft. Enriches component data with license detection from clearlydefined.io and vulnerability cross-referencing via OSV.dev."
 category: "Security & Verification"
 framework: "Gemini"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/sbom-generator-cyclonedx/"
 ---
 

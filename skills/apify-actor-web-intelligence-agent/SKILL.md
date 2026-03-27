@@ -3,7 +3,7 @@ name: "Apify Actor Web Intelligence Agent"
 description: "Deploys intelligent web scraping actors on the Apify platform using the Apify SDK with RequestQueue and Dataset APIs. Handles dynamic content via Apify CheerioCrawler and PlaywrightCrawler with automatic scaling."
 category: "Research & Scraping"
 framework: "Custom Agents"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/apify-actor-web-intelligence-agent/"
 tool_ecosystem:
   tool: apify

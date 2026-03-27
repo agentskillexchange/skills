@@ -3,7 +3,7 @@ name: "Neon MCP Server for Serverless Postgres Management"
 description: "The Neon MCP Server enables AI agents to manage serverless PostgreSQL databases through natural language via the Model Context Protocol. Create projects, run queries, manage branches, and perform database migrations conversationally."
 category: "Integrations & Connectors"
 framework: "MCP"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/neon-mcp-server-serverless-postgres/"
 ---
 

@@ -3,7 +3,7 @@ name: "Tekton Pipeline Debugger"
 description: "Debugs Tekton pipeline failures by querying TaskRun and PipelineRun status via kubectl and the Tekton Results API. Extracts step container logs, identifies parameter resolution errors, and suggests workspace volume fixes."
 category: "CI/CD Integrations"
 framework: "Custom Agents"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/tekton-pipeline-debugger/"
 tool_ecosystem:
   tool: tekton

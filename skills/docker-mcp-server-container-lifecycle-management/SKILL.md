@@ -3,7 +3,7 @@ name: "Docker MCP Server for Container Lifecycle Management"
 description: "An MCP server that enables AI agents to manage Docker containers, images, volumes, and networks through natural language. Supports local and remote Docker engines for container lifecycle operations via the Model Context Protocol."
 category: "Integrations & Connectors"
 framework: "MCP"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/docker-mcp-server-container-lifecycle-management/"
 ---
 

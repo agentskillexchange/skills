@@ -3,7 +3,7 @@ name: "Glow Terminal Markdown Renderer"
 description: "Glow is a terminal-based markdown reader by Charm that renders markdown files with syntax highlighting, word wrapping, and styled formatting directly in the CLI. It includes a TUI for browsing local markdown files and discovering documentation."
 category: "Developer Tools"
 framework: "Multi-Framework"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/glow-terminal-markdown-renderer/"
 ---
 

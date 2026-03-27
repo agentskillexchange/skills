@@ -3,7 +3,7 @@ name: "ACF Custom Fields REST Exposer"
 description: "Exposes Advanced Custom Fields data through the WordPress REST API using register_rest_field and acf_format_value. Handles repeater fields, flexible content layouts, and gallery fields with proper serialization."
 category: "WordPress & CMS"
 framework: "Cursor"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/acf-custom-fields-rest-exposer/"
 tool_ecosystem:
   tool: wordpress

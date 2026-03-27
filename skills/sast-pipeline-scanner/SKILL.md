@@ -3,7 +3,7 @@ name: "SAST Pipeline Scanner"
 description: "Runs static application security testing using Semgrep rules and CodeQL queries against pull request diffs. Supports SARIF output format and integrates with GitHub Advanced Security for findings management."
 category: "Security & Verification"
 framework: "Claude Code"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/sast-pipeline-scanner/"
 tool_ecosystem:
   tool: semgrep

@@ -3,7 +3,7 @@ name: "GitLab CI Pipeline Cost Calculator"
 description: "Calculates CI/CD spend using the GitLab REST API v4 pipelines and jobs endpoints. Tracks runner minutes by project, estimates cost per pipeline via GitLab compute minute pricing, and identifies expensive jobs for optimization."
 category: "CI/CD Integrations"
 framework: "Custom Agents"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/gitlab-ci-pipeline-cost-calculator/"
 tool_ecosystem:
   tool: gitlab

@@ -3,7 +3,7 @@ name: "Grafana Loki Log Aggregation Agent"
 description: "Configures Grafana Loki log pipelines with Promtail collectors and LogQL queries. Supports multi-tenant log routing, retention policies, and correlation with Grafana Tempo traces."
 category: "Monitoring & Alerts"
 framework: "Gemini"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/grafana-loki-log-aggregation-agent/"
 tool_ecosystem:
   tool: grafana

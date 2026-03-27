@@ -3,7 +3,7 @@ name: "Puppeteer Cookie Consent Automator"
 description: "Automatically detects and handles cookie consent banners across websites using Puppeteer CDP protocol and a trained classifier. Supports OneTrust, Cookiebot, and TrustArc consent management platforms."
 category: "Browser Automation"
 framework: "Custom Agents"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/puppeteer-cookie-consent-automator/"
 tool_ecosystem:
   tool: puppeteer

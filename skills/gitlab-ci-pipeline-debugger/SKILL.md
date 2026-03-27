@@ -3,7 +3,7 @@ name: "GitLab CI Pipeline Debugger"
 description: "Debugs failed GitLab CI/CD pipelines by parsing .gitlab-ci.yml and fetching job logs via GitLab REST API v4. Identifies runner misconfigurations, artifact dependency issues, and suggests targeted fixes."
 category: "CI/CD Integrations"
 framework: "Claude Code"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/gitlab-ci-pipeline-debugger/"
 tool_ecosystem:
   tool: gitlab

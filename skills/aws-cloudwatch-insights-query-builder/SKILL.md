@@ -3,7 +3,7 @@ name: "AWS CloudWatch Insights Query Builder"
 description: "Builds CloudWatch Logs Insights queries and metric alarms using AWS SDK v3 (@aws-sdk/client-cloudwatch-logs, @aws-sdk/client-cloudwatch). Generates cross-account observability dashboards with CloudWatch Metrics Insights."
 category: "Monitoring & Alerts"
 framework: "Codex"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/aws-cloudwatch-insights-query-builder/"
 tool_ecosystem:
   tool: aws

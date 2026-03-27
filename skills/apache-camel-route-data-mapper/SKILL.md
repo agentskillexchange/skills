@@ -3,7 +3,7 @@ name: "Apache Camel Route Data Mapper"
 description: "Maps and transforms data between systems using Apache Camel route definitions and the Camel Component API. Supports XSLT, JSONPath, and DataFormat transformations via camel-core SDK."
 category: "Data Extraction & Transformation"
 framework: "Custom Agents"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/apache-camel-route-data-mapper/"
 tool_ecosystem:
   tool: kafka

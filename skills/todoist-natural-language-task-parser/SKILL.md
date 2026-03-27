@@ -3,7 +3,7 @@ name: "Todoist Natural Language Task Parser"
 description: "Parses natural language task descriptions into structured Todoist API v2 task objects with due dates, priority levels, and project assignments. Uses the Todoist Sync API for batch task creation and supports recurring date patterns via the RRule specification."
 category: "Calendar, Email & Productivity"
 framework: "MCP"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/todoist-natural-language-task-parser/"
 tool_ecosystem:
   tool: vault

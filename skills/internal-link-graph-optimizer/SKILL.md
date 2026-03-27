@@ -3,7 +3,7 @@ name: "Internal Link Graph Optimizer"
 description: "Analyzes internal linking structure by crawling sitemaps with Screaming Frog or Sitebulb, computing PageRank distribution via NetworkX graph algorithms, and identifying orphan pages. Recommends contextual link insertions using BM25 text matching against existing content inventory."
 category: "Content Writing & SEO"
 framework: "Cursor"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/internal-link-graph-optimizer/"
 tool_ecosystem:
   tool: wordpress

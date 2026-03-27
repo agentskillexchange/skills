@@ -3,7 +3,7 @@ name: "Scrapy Spider Architect"
 description: "Generates Scrapy spider classes with CSS/XPath selectors, item pipelines, and middleware configurations for structured web scraping. Includes Scrapy-Splash integration for JavaScript-rendered content."
 category: "Research & Scraping"
 framework: "Custom Agents"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/scrapy-spider-architect/"
 tool_ecosystem:
   tool: scrapy

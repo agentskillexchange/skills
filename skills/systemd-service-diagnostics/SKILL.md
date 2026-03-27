@@ -3,7 +3,7 @@ name: "Systemd Service Diagnostics"
 description: "Diagnoses systemd service failures using journalctl structured JSON output and systemctl show properties. Analyzes unit file configurations with systemd-analyze verify and detects dependency ordering issues via systemd-analyze dot."
 category: "Runbooks & Diagnostics"
 framework: "OpenClaw"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/systemd-service-diagnostics/"
 ---
 

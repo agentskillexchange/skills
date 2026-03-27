@@ -3,7 +3,7 @@ name: "Live Stream Audio Monitor"
 description: "Monitors live audio streams from RTMP, HLS, or Icecast sources using FFmpeg stream capture and real-time chunked transcription via Deepgram’s streaming API or Whisper.cpp. Detects silence gaps, audio clipping, and loudness deviations from EBU R128 targets using pyloudnorm."
 category: "Media & Transcription"
 framework: "Claude Code"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/live-stream-audio-monitor/"
 tool_ecosystem:
   tool: ffmpeg

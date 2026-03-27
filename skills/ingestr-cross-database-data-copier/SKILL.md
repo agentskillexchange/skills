@@ -3,7 +3,7 @@ name: "Ingestr Cross-Database Data Copier"
 description: "Copy data between any databases with a single CLI command using Ingestr. Supports 50+ sources and destinations including PostgreSQL, MySQL, BigQuery, Snowflake, DuckDB, MongoDB, and S3."
 category: "Data Extraction & Transformation"
 framework: "Claude Code"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/ingestr-cross-database-data-copier/"
 tool_ecosystem:
   tool: notion

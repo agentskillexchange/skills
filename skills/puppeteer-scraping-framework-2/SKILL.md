@@ -3,7 +3,7 @@ name: "Puppeteer Scraping Framework"
 description: "Headless Chrome scraping using Puppeteer with stealth plugin, request interception via page.setRequestInterception(), and automatic CAPTCHA detection. Supports CDP sessions for advanced protocol access."
 category: "Research & Scraping"
 framework: "Claude Code"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/puppeteer-scraping-framework-2/"
 tool_ecosystem:
   tool: puppeteer

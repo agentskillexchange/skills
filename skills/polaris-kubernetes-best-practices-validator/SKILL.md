@@ -3,7 +3,7 @@ name: "Polaris Kubernetes Best Practices Validator"
 description: "Validate Kubernetes resource configurations against best practice policies using Fairwinds Polaris. Runs as a CLI for CI/CD, a dashboard for cluster-wide audits, or a validating webhook for admission control."
 category: "Code Quality & Review"
 framework: "Codex"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/polaris-kubernetes-best-practices-validator/"
 tool_ecosystem:
   tool: kubernetes
