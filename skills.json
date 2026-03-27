@@ -1,8 +1,116 @@
 {
   "version": "2.0",
-  "total": 1327,
+  "total": 1336,
   "generated": "2026-03-27",
   "skills": [
+    {
+      "slug": "trellis-wordpress-lemp-ansible-provisioner-roots",
+      "name": "Trellis WordPress LEMP Stack Provisioner by Roots",
+      "description": "Trellis is a collection of Ansible playbooks for provisioning and deploying WordPress LEMP stack servers. It automates Nginx, PHP, MariaDB, Let's Encrypt SSL, fail2ban,…",
+      "category": [
+        "WordPress & CMS"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "bedrock-wordpress-composer-boilerplate-roots",
+      "name": "Bedrock Modern WordPress Project Boilerplate by Roots",
+      "description": "Bedrock is a WordPress boilerplate with Composer-based dependency management, environment-specific configuration via .env files, and an improved folder structure. It separates WordPress core from…",
+      "category": [
+        "WordPress & CMS"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "moviepy-python-video-editing-library",
+      "name": "MoviePy Python Video Editing Library",
+      "description": "MoviePy is a Python library for video editing — cuts, concatenations, title insertions, compositing, and custom effects. It reads and writes all common audio…",
+      "category": [
+        "Media & Transcription"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "pedalboard-spotify-audio-effects-python",
+      "name": "Pedalboard Python Audio Effects Library by Spotify",
+      "description": "Pedalboard is a Python library built by Spotify for working with audio: reading, writing, rendering, and adding studio-quality effects. It supports VST3 and Audio…",
+      "category": [
+        "Media & Transcription"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "handbrake-open-source-video-transcoder",
+      "name": "HandBrake Open-Source Video Transcoder",
+      "description": "HandBrake is a widely-used open-source video transcoder that converts video files between formats for playback on phones, tablets, TVs, game consoles, and web browsers.…",
+      "category": [
+        "Media & Transcription"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "pydanticai-type-safe-ai-agent-framework",
+      "name": "PydanticAI Type-Safe AI Agent Framework",
+      "description": "PydanticAI is an AI agent framework built by the Pydantic team that brings FastAPI-style ergonomics to GenAI development. It provides type-safe, model-agnostic agent construction…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "agno-multi-modal-agent-runtime-platform",
+      "name": "Agno Multi-Modal Agent Runtime Platform",
+      "description": "Agno is a high-performance Python framework for building, running, and managing agentic software at scale. It provides a three-layer architecture — framework, runtime, and…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "smolagents-code-first-ai-agent-library",
+      "name": "smolagents Code-First AI Agent Library",
+      "description": "smolagents is HuggingFace's barebones Python library for building AI agents that think in code rather than JSON. Agents write and execute Python code as…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "crewai-multi-agent-orchestration-framework",
+      "name": "CrewAI Multi-Agent Orchestration Framework",
+      "description": "CrewAI is a lean, lightning-fast Python framework for orchestrating role-playing autonomous AI agents. It enables developers to define agents with specific roles, goals, and…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "liquidsoap-audio-video-streaming-language",
       "name": "Liquidsoap Audio and Video Streaming Language",

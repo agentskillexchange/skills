@@ -81,8 +81,11 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [ElevenLabs Voice Cloning Agent](../../skills/elevenlabs-voice-cloning-agent/) | — | — |
 | [faster-whisper High-Performance Speech Transcription Engine](../../skills/faster-whisper-high-performance-speech-transcription/) | — | — |
 | [GStreamer Pipeline Graph Optimizer](../../skills/gstreamer-pipeline-graph-optimizer/) | — | — |
+| [HandBrake Open-Source Video Transcoder](../../skills/handbrake-open-source-video-transcoder/) | — | — |
 | [Liquidsoap Audio and Video Streaming Language](../../skills/liquidsoap-audio-video-streaming-language/) | — | — |
 | [LosslessCut FFmpeg-Powered Media Editor](../../skills/losslesscut-ffmpeg-powered-media-editor/) | — | — |
+| [MoviePy Python Video Editing Library](../../skills/moviepy-python-video-editing-library/) | — | — |
+| [Pedalboard Python Audio Effects Library by Spotify](../../skills/pedalboard-spotify-audio-effects-python/) | — | — |
 | [Piper Local Neural Text-to-Speech Engine](../../skills/piper-local-neural-tts-engine/) | — | — |
 | [Podcast RSS Feed Builder](../../skills/podcast-rss-feed-builder/) | — | — |
 | [Remotion Programmatic Video Creator](../../skills/remotion-programmatic-video-creator/) | — | — |

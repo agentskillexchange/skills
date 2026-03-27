@@ -137,10 +137,12 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [PostgreSQL Query Optimizer Agent](../../skills/postgresql-query-optimizer-explain-api/) | — | 21.4M/wk |
 | [PostgreSQL Query Plan Analyzer](../../skills/postgresql-query-plan-analyzer-2/) | — | 21.4M/wk |
 | [sqlc Type-Safe SQL Code Generator](../../skills/sqlc-type-safe-sql-code-generator/) | — | 21.4M/wk |
+| [Agno Multi-Modal Agent Runtime Platform](../../skills/agno-multi-modal-agent-runtime-platform/) | — | — |
 | [bat Syntax-Highlighting Cat Replacement](../../skills/bat-syntax-highlighting-cat-replacement/) | — | — |
 | [Bazel Build Graph Analyzer](../../skills/bazel-build-graph-analyzer/) | — | — |
 | [Bun Shell Script Executor](../../skills/bun-shell-script-executor/) | — | — |
 | [Claude Code MCP Bridge](../../skills/claude-code-mcp-bridge/) | — | — |
+| [CrewAI Multi-Agent Orchestration Framework](../../skills/crewai-multi-agent-orchestration-framework/) | — | — |
 | [Desktop Commander MCP Server for Terminal and File Control](../../skills/desktop-commander-mcp-terminal-file-control/) | — | — |
 | [devenv Declarative Developer Environments with Nix](../../skills/devenv-declarative-developer-environments-nix/) | — | — |
 | [dust Intuitive Disk Usage Analyzer CLI](../../skills/dust-intuitive-disk-usage-analyzer-cli/) | — | — |
@@ -175,9 +177,11 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Package Vulnerability Scanner](../../skills/package-vuln-scanner-osv-api/) | — | — |
 | [Pixi Cross-Platform Package Manager Built on Conda](../../skills/pixi-cross-platform-package-manager-conda-rust/) | — | — |
 | [Postgres MCP Pro Server for Database Analysis and Tuning](../../skills/postgres-mcp-pro-database-analysis-tuning/) | — | — |
+| [PydanticAI Type-Safe AI Agent Framework](../../skills/pydanticai-type-safe-ai-agent-framework/) | — | — |
 | [Repomix Codebase Context Packer for LLMs](../../skills/repomix-codebase-context-packer-llm/) | — | — |
 | [Restic Fast Encrypted Backup Program](../../skills/restic-encrypted-backup-tool/) | — | — |
 | [ripgrep Recursive Regex Search Tool](../../skills/ripgrep-recursive-regex-search-tool/) | — | — |
+| [smolagents Code-First AI Agent Library](../../skills/smolagents-code-first-ai-agent-library/) | — | — |
 | [Supergateway MCP Transport Bridge](../../skills/supergateway-mcp-transport-bridge/) | — | — |
 | [VS Code Extension Debugger](../../skills/vscode-extension-debugger-dap-protocol/) | — | — |
 | [WASM Component Model Linker](../../skills/wasm-component-model-linker/) | — | — |

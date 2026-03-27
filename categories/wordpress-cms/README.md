@@ -64,9 +64,11 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [WooCommerce REST Sync Agent](../../skills/woocommerce-rest-sync-agent/) | 7k | 4.9M/wk |
 | [WooCommerce REST Order Manager](../../skills/woocommerce-rest-order-manager/) | 4.4k | 8.4M/wk |
 | [WP Cron Health Monitor](../../skills/wp-cron-health-monitor/) | 69 | 207.4k/wk |
+| [Bedrock Modern WordPress Project Boilerplate by Roots](../../skills/bedrock-wordpress-composer-boilerplate-roots/) | — | — |
 | [Directus Open-Source Headless CMS and Backend Platform](../../skills/directus-open-source-headless-cms-backend-platform/) | — | — |
 | [Payload CMS Next.js-Native Headless CMS and Application Framework](../../skills/payload-cms-nextjs-headless-framework/) | — | — |
 | [Strapi Open Source Headless CMS with REST and GraphQL APIs](../../skills/strapi-headless-cms-rest-graphql/) | — | — |
+| [Trellis WordPress LEMP Stack Provisioner by Roots](../../skills/trellis-wordpress-lemp-ansible-provisioner-roots/) | — | — |
 | [WooCommerce Order Sync Agent](../../skills/woocommerce-order-sync-agent/) | — | — |
 | [WooCommerce REST Inventory Sync](../../skills/woocommerce-rest-inventory-sync/) | — | — |
 | [WooCommerce Webhook Delivery Inspector](../../skills/woocommerce-webhook-delivery-inspector/) | — | — |

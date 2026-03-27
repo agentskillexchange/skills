@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1327 published skills** across **17 categories** · 1277 security reviewed · Updated 2026-03-27 04:35 UTC
+> **1336 published skills** across **17 categories** · 1277 security reviewed · Updated 2026-03-27 07:21 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (146 skills)
+### 🛠️ Developer Tools (150 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -111,10 +111,12 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [PostgreSQL Query Optimizer Agent](skills/postgresql-query-optimizer-explain-api/) | Optimizes PostgreSQL queries using EXPLAIN ANALYZE output parsing with pg_stat_statements extension data. Suggests… | Security Reviewed | — | 21.4M/wk |
 | [PostgreSQL Query Plan Analyzer](skills/postgresql-query-plan-analyzer-2/) | Executes EXPLAIN ANALYZE BUFFERS on slow PostgreSQL queries and parses the plan tree for sequential scans, nested… | Security Reviewed | — | 21.4M/wk |
 | [sqlc Type-Safe SQL Code Generator](skills/sqlc-type-safe-sql-code-generator/) | sqlc is a SQL compiler that generates type-safe Go, Python, Kotlin, and TypeScript code from plain SQL queries. You… | Security Reviewed | — | 21.4M/wk |
+| [Agno Multi-Modal Agent Runtime Platform](skills/agno-multi-modal-agent-runtime-platform/) | Agno is a high-performance Python framework for building, running, and managing agentic software at scale. It… | Published | — | — |
 | [bat Syntax-Highlighting Cat Replacement](skills/bat-syntax-highlighting-cat-replacement/) | bat is a cat(1) clone written in Rust that adds syntax highlighting for over 200 languages, Git integration showing… | Security Reviewed | — | — |
 | [Bazel Build Graph Analyzer](skills/bazel-build-graph-analyzer/) | Analyzes Bazel build dependency graphs to identify bottlenecks and optimize build times. Uses the Bazel Query… | Security Reviewed | — | — |
 | [Bun Shell Script Executor](skills/bun-shell-script-executor/) | Leverages Bun's built-in $ shell API (Bun.Shell) to orchestrate cross-platform shell scripts from TypeScript with… | Security Reviewed | — | — |
 | [Claude Code MCP Bridge](skills/claude-code-mcp-bridge/) | Run Claude Code as a one-shot MCP tool so other agents and editors can delegate coding tasks to it. An… | Security Reviewed | — | — |
+| [CrewAI Multi-Agent Orchestration Framework](skills/crewai-multi-agent-orchestration-framework/) | CrewAI is a lean, lightning-fast Python framework for orchestrating role-playing autonomous AI agents. It enables… | Published | — | — |
 | [Desktop Commander MCP Server for Terminal and File Control](skills/desktop-commander-mcp-terminal-file-control/) | Desktop Commander is an MCP server that gives AI assistants terminal command execution, file system search,… | Published | — | — |
 | [devenv Declarative Developer Environments with Nix](skills/devenv-declarative-developer-environments-nix/) | A fast, declarative, and reproducible developer environment tool built on Nix. devenv lets teams define project… | Published | — | — |
 | [dust Intuitive Disk Usage Analyzer CLI](skills/dust-intuitive-disk-usage-analyzer-cli/) | A more intuitive version of the du command, written in Rust. dust instantly visualizes which directories consume the… | Security Reviewed | — | — |
@@ -149,9 +151,11 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Package Vulnerability Scanner](skills/package-vuln-scanner-osv-api/) | Scans npm, PyPI, and Go module dependencies for known vulnerabilities using the OSV.dev API and GitHub Advisory… | Security Reviewed | — | — |
 | [Pixi Cross-Platform Package Manager Built on Conda](skills/pixi-cross-platform-package-manager-conda-rust/) | A blazing-fast, cross-platform package manager and workflow tool written in Rust. Pixi builds on the Conda ecosystem… | Published | — | — |
 | [Postgres MCP Pro Server for Database Analysis and Tuning](skills/postgres-mcp-pro-database-analysis-tuning/) | Postgres MCP Pro is an open-source MCP server that provides AI agents with PostgreSQL database health analysis,… | Published | — | — |
+| [PydanticAI Type-Safe AI Agent Framework](skills/pydanticai-type-safe-ai-agent-framework/) | PydanticAI is an AI agent framework built by the Pydantic team that brings FastAPI-style ergonomics to GenAI… | Published | — | — |
 | [Repomix Codebase Context Packer for LLMs](skills/repomix-codebase-context-packer-llm/) | Repomix packs an entire code repository into a single AI-friendly file optimized for LLM consumption. It provides… | Security Reviewed | — | — |
 | [Restic Fast Encrypted Backup Program](skills/restic-encrypted-backup-tool/) | Restic is a fast, secure, and efficient backup program supporting local, SFTP, S3, Azure, GCS, and many other… | Security Reviewed | — | — |
 | [ripgrep Recursive Regex Search Tool](skills/ripgrep-recursive-regex-search-tool/) | ripgrep (rg) is a line-oriented search tool that recursively searches directories for regex patterns while… | Security Reviewed | — | — |
+| [smolagents Code-First AI Agent Library](skills/smolagents-code-first-ai-agent-library/) | smolagents is HuggingFace's barebones Python library for building AI agents that think in code rather than JSON.… | Published | — | — |
 | [Supergateway MCP Transport Bridge](skills/supergateway-mcp-transport-bridge/) | Supergateway enables running MCP stdio-based servers over SSE, WebSockets, or Streamable HTTP with a single command.… | Published | — | — |
 | [VS Code Extension Debugger](skills/vscode-extension-debugger-dap-protocol/) | Debugs VS Code extensions using the Debug Adapter Protocol (DAP) with breakpoint management and variable inspection.… | Security Reviewed | — | — |
 | [WASM Component Model Linker](skills/wasm-component-model-linker/) | Compiles and links WebAssembly components using the WASI Preview 2 Component Model, wasm-tools CLI for component… | Security Reviewed | — | — |
@@ -1140,6 +1144,66 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [Stable Diffusion XL Pipeline Builder](skills/stable-diffusion-xl-pipeline-builder/) | Constructs and executes SDXL image generation pipelines using diffusers library and ComfyUI API. Supports LoRA… | Security Reviewed | — | — |
 
 
+### 🎙️ Media & Transcription (52 skills)
+
+Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&sort=downloads)
+
+| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
+|---|---|---|---:|---:|
+| [OpenAI Whisper API Transcription](skills/openai-whisper-api-transcription/) | API-based speech-to-text transcription through OpenAI. No local model downloads, no GPU, no Python ML stack — just… | Security Reviewed | 96.6k | 16.3M/wk |
+| [OpenAI Whisper Batch Transcription Pipeline](skills/whisper-batch-transcription-pipeline/) | Processes audio files from an S3 bucket using Whisper large-v3, splitting recordings into 30-second chunks with… | Security Reviewed | 96.6k | 16.3M/wk |
+| [OpenAI Whisper Transcription](skills/openai-whisper-transcription/) | Local speech-to-text transcription without relying on an API. | Security Reviewed | 96.6k | 16.3M/wk |
+| [Podcast Transcription Pipeline](skills/podcast-transcription-pipeline-agent/) | Transcribes podcast episodes using OpenAI Whisper API with speaker diarization via pyannote.audio. Exports formatted… | Security Reviewed | 96.6k | 16.3M/wk |
+| [Whisper Diarization Post-Processor](skills/whisper-diarization-post-processor/) | Enhances OpenAI Whisper transcription output with speaker diarization using pyannote.audio pipeline and speechbrain… | Security Reviewed | 96.6k | 16.3M/wk |
+| [Whisper Subtitle Generator](skills/whisper-subtitle-generator/) | Generates accurate subtitles and captions using OpenAI Whisper API with word-level timestamps. Outputs SRT, VTT, and… | Security Reviewed | 96.6k | 16.3M/wk |
+| [Whisper.cpp Local Transcription Engine](skills/whisper-cpp-local-transcription-engine/) | Runs OpenAI Whisper models locally via whisper.cpp with GGML quantized weights for CPU-efficient transcription.… | Security Reviewed | 96.6k | 16.3M/wk |
+| [YouTube Chapters Generator with Whisper](skills/youtube-chapters-generator-whisper/) | Downloads YouTube audio via yt-dlp, transcribes with Whisper, and uses NLP topic segmentation via TextTiling… | Security Reviewed | 96.6k | 16.3M/wk |
+| [Podcast RSS Feed Transcriber](skills/podcast-rss-feed-transcriber/) | Automatically fetches podcast episodes from RSS feeds using feedparser, downloads audio enclosures, and transcribes… | Security Reviewed | 96.6k | — |
+| [Whisper.cpp Real-Time Transcription Pipeline](skills/whisper-cpp-realtime-transcription-pipeline/) | Streams audio from PulseAudio or ALSA devices into whisper.cpp for real-time speech-to-text with word-level… | Security Reviewed | 96.6k | — |
+| [GStreamer Live Stream Transcoder](skills/gstreamer-live-stream-transcoder/) | Builds GStreamer pipelines for real-time video transcoding with NVENC/VA-API hardware acceleration. Supports… | Security Reviewed | 63.3k | 5.3M/wk |
+| [Audio Stem Separator with Demucs](skills/audio-stem-separator-demucs/) | Separates audio tracks into individual stems (vocals, drums, bass, other) using Meta's Demucs neural network model… | Security Reviewed | 58.3k | — |
+| [Deepgram Nova STT Pipeline](skills/deepgram-nova-stt-pipeline/) | Real-time speech-to-text using Deepgram Nova-2 API with streaming WebSocket connections. Supports diarization,… | Security Reviewed | 58.3k | — |
+| [FFmpeg Audio Normalization Pipeline](skills/ffmpeg-audio-normalization-pipeline/) | Normalizes audio loudness to broadcast standards using FFmpeg loudnorm filter with EBU R128 two-pass analysis.… | Security Reviewed | 58.3k | — |
+| [FFmpeg Audio Transcoder](skills/ffmpeg-audio-transcoder/) | Transcodes and processes audio files using the FFmpeg CLI and libavcodec library. Supports batch format conversion,… | Security Reviewed | 58.3k | — |
+| [FFmpeg Batch Transcode Pipeline](skills/ffmpeg-batch-transcode-pipeline/) | Orchestrates parallel FFmpeg transcoding jobs with hardware-accelerated encoding via NVENC, VAAPI, or VideoToolbox.… | Security Reviewed | 58.3k | — |
+| [FFmpeg Batch Transcoder](skills/ffmpeg-batch-transcoder-skill/) | Batch transcode media files using FFmpeg CLI with preset profiles for web, mobile, and broadcast delivery. Supports… | Security Reviewed | 58.3k | — |
+| [FFmpeg Clip Extractor](skills/ffmpeg-clip-extractor-agent/) | Extracts video clips and segments using FFmpeg libavformat and libavcodec APIs. Supports keyframe-accurate cutting… | Security Reviewed | 58.3k | — |
+| [Live Stream Audio Monitor](skills/live-stream-audio-monitor/) | Monitors live audio streams from RTMP, HLS, or Icecast sources using FFmpeg stream capture and real-time chunked… | Security Reviewed | 58.3k | — |
+| [Live Stream Clip Extractor](skills/live-stream-clip-extractor-agent/) | Extracts highlight clips from live streams using Twitch Helix API, YouTube Live Streaming API, and FFmpeg segment… | Security Reviewed | 58.3k | — |
+| [Podcast RSS Feed Audio Normalizer](skills/podcast-rss-feed-audio-normalizer/) | Parses podcast RSS feeds with feedparser and normalizes audio loudness to -16 LUFS broadcast standard using ffmpeg… | Security Reviewed | 58.3k | — |
+| [Video Frames Extractor](skills/video-frames-extractor/) | Extract frames and short clips from videos. Core Capabilities Process audio and video files using ffmpeg for… | Security Reviewed | 58.3k | — |
+| [Video Subtitle Auto-Translator](skills/video-subtitle-auto-translator-agent/) | Translates video subtitles across 100+ languages using DeepL API and Google Cloud Translation v3. Handles SRT/VTT… | Security Reviewed | 58.3k | — |
+| [Video Subtitle Translator Agent](skills/video-subtitle-translator-agent/) | Extracts embedded subtitles from video containers using FFmpeg's subtitle stream extraction, translates SRT/VTT… | Security Reviewed | 58.3k | — |
+| [MediaInfo Metadata Extractor](skills/mediainfo-metadata-extractor/) | Extracts comprehensive media metadata using the MediaInfo library and pymediainfo Python bindings. Analyzes… | Security Reviewed | 7k | 4.9M/wk |
+| [Deepgram Podcast Chapter Generator](skills/deepgram-podcast-chapter-generator/) | Submits podcast MP3 URLs to Deepgram Nova-2 with paragraph and summarize features, then clusters returned timestamps… | Security Reviewed | 5.6k | 1.1M/wk |
+| [ElevenLabs Voiceover Generator for Long-Form Content](skills/elevenlabs-voiceover-longform/) | Splits blog posts or scripts into optimal chunks under ElevenLabs character limits, synthesizes each chunk using the… | Security Reviewed | 1.9k | 1M/wk |
+| [Audio Fingerprint Identifier](skills/audio-fingerprint-identifier-agent/) | Identifies audio content using Chromaprint/AcoustID fingerprinting, Shazam API recognition, and ACRCloud monitoring.… | Security Reviewed | — | 21.4M/wk |
+| [AssemblyAI Audio Intelligence Agent](skills/assemblyai-audio-intelligence-agent/) | Extract structured intelligence from audio using the AssemblyAI API with sentiment analysis, entity detection, topic… | Security Reviewed | — | — |
+| [AssemblyAI LeMUR Summarizer](skills/assemblyai-lemur-summarizer-agent/) | Summarizes audio content using AssemblyAI's LeMUR (Large Language Model for Audio Understanding) API. Chains the… | Security Reviewed | — | — |
+| [AssemblyAI Summarization & Chapters Skill](skills/assemblyai-summarization-chapters-skill/) | Transcribes audio and generates auto-chapters with summaries using AssemblyAI's /v2/transcript endpoint with… | Security Reviewed | — | — |
+| [audiowaveform Audio Waveform Data Generator and Image Renderer](skills/audiowaveform-bbc-waveform-generator/) | audiowaveform is a BBC open-source C++ CLI tool that generates waveform data from MP3, WAV, FLAC, Ogg Vorbis, and… | Published | — | — |
+| [Beets Music Library Manager and Tagger](skills/beets-music-library-manager-tagger/) | Manage and tag music libraries with beets, the Python-based CLI tool that auto-tags audio files using MusicBrainz… | Published | — | — |
+| [Core Audio Unit v3 Debugger](skills/core-audio-unit-v3-debugger/) | Debugs and profiles Apple Audio Unit v3 (AUv3) plugins using auval validation tool, the AUAudioUnit Swift API, and… | Security Reviewed | — | — |
+| [Deepgram Nova Transcriber](skills/deepgram-nova-transcriber-agent/) | Transcribes audio using the Deepgram Nova-2 API with diarization, punctuation, and smart formatting. Supports… | Security Reviewed | — | — |
+| [Deepgram Real-Time Transcription Connector](skills/deepgram-realtime-transcription-connector/) | Streams live audio to Deepgram's WebSocket API at wss://api.deepgram.com/v1/listen for real-time speech-to-text.… | Security Reviewed | — | — |
+| [Dolby Atmos ADM-BWF Metadata Extractor](skills/dolby-atmos-adm-bwf-metadata-extractor/) | Extracts and validates Audio Definition Model (ADM) metadata from Broadcast Wave Format (BWF) files using the libadm… | Security Reviewed | — | — |
+| [Dolby.io Media Enhancer](skills/dolby-io-media-enhancer-agent/) | Enhances audio and video quality using the Dolby.io Media Processing API. Applies noise reduction, loudness… | Security Reviewed | — | — |
+| [ElevenLabs Voice Cloning Agent](skills/elevenlabs-voice-cloning-agent/) | Clone and synthesize custom voices using the ElevenLabs API v2 with instant voice cloning. Manages voice library… | Security Reviewed | — | — |
+| [faster-whisper High-Performance Speech Transcription Engine](skills/faster-whisper-high-performance-speech-transcription/) | faster-whisper is a reimplementation of OpenAI's Whisper model using CTranslate2 that delivers up to 4x faster… | Published | — | — |
+| [GStreamer Pipeline Graph Optimizer](skills/gstreamer-pipeline-graph-optimizer/) | Analyzes and optimizes GStreamer media pipelines by parsing DOT graph dumps from GST_DEBUG_DUMP_DOT_DIR, profiling… | Security Reviewed | — | — |
+| [HandBrake Open-Source Video Transcoder](skills/handbrake-open-source-video-transcoder/) | HandBrake is a widely-used open-source video transcoder that converts video files between formats for playback on… | Published | — | — |
+| [Liquidsoap Audio and Video Streaming Language](skills/liquidsoap-audio-video-streaming-language/) | Build audio and video streaming pipelines with Liquidsoap, a statically typed scripting language purpose-built for… | Published | — | — |
+| [LosslessCut FFmpeg-Powered Media Editor](skills/losslesscut-ffmpeg-powered-media-editor/) | Perform ultra-fast lossless trimming, cutting, and merging of video and audio files with LosslessCut. Built on… | Published | — | — |
+| [MoviePy Python Video Editing Library](skills/moviepy-python-video-editing-library/) | MoviePy is a Python library for video editing — cuts, concatenations, title insertions, compositing, and custom… | Published | — | — |
+| [Pedalboard Python Audio Effects Library by Spotify](skills/pedalboard-spotify-audio-effects-python/) | Pedalboard is a Python library built by Spotify for working with audio: reading, writing, rendering, and adding… | Published | — | — |
+| [Piper Local Neural Text-to-Speech Engine](skills/piper-local-neural-tts-engine/) | Run fast, high-quality neural text-to-speech locally with Piper. Supports 20+ languages with compact ONNX voice… | Published | — | — |
+| [Podcast RSS Feed Builder](skills/podcast-rss-feed-builder/) | Generates and validates podcast RSS feeds compliant with the Apple Podcasts and Spotify specification. Uses the… | Security Reviewed | — | — |
+| [Remotion Programmatic Video Creator](skills/remotion-programmatic-video-creator/) | Create videos programmatically using React components with Remotion. Leverage web technologies like CSS, Canvas,… | Published | — | — |
+| [Vosk Offline Speech Recognition Toolkit](skills/vosk-offline-speech-recognition-toolkit/) | Perform offline speech recognition across 20+ languages with Vosk. Provides compact models, zero-latency streaming… | Published | — | — |
+| [YouTube Chapter Generator from Transcripts](skills/youtube-chapter-generator-transcripts/) | Extracts YouTube video transcripts via the youtube-transcript-api Python library and generates semantic chapter… | Security Reviewed | — | — |
+| [yt-dlp Feature-Rich Audio and Video Downloader CLI](skills/yt-dlp-feature-rich-audio-video-downloader-cli/) | yt-dlp is a powerful command-line tool for downloading audio and video from thousands of websites including YouTube,… | Published | — | — |
+
+
 ### 📅 Calendar, Email & Productivity (52 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=downloads)
@@ -1259,63 +1323,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Tavily MCP Server for AI-Powered Web Search and Extraction](skills/tavily-mcp-server-ai-web-search-extraction/) | An official MCP server from Tavily that provides AI agents with real-time web search, page extraction, site mapping,… | Published | — | — |
 
 
-### 🎙️ Media & Transcription (49 skills)
-
-Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&sort=downloads)
-
-| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
-|---|---|---|---:|---:|
-| [OpenAI Whisper API Transcription](skills/openai-whisper-api-transcription/) | API-based speech-to-text transcription through OpenAI. No local model downloads, no GPU, no Python ML stack — just… | Security Reviewed | 96.6k | 16.3M/wk |
-| [OpenAI Whisper Batch Transcription Pipeline](skills/whisper-batch-transcription-pipeline/) | Processes audio files from an S3 bucket using Whisper large-v3, splitting recordings into 30-second chunks with… | Security Reviewed | 96.6k | 16.3M/wk |
-| [OpenAI Whisper Transcription](skills/openai-whisper-transcription/) | Local speech-to-text transcription without relying on an API. | Security Reviewed | 96.6k | 16.3M/wk |
-| [Podcast Transcription Pipeline](skills/podcast-transcription-pipeline-agent/) | Transcribes podcast episodes using OpenAI Whisper API with speaker diarization via pyannote.audio. Exports formatted… | Security Reviewed | 96.6k | 16.3M/wk |
-| [Whisper Diarization Post-Processor](skills/whisper-diarization-post-processor/) | Enhances OpenAI Whisper transcription output with speaker diarization using pyannote.audio pipeline and speechbrain… | Security Reviewed | 96.6k | 16.3M/wk |
-| [Whisper Subtitle Generator](skills/whisper-subtitle-generator/) | Generates accurate subtitles and captions using OpenAI Whisper API with word-level timestamps. Outputs SRT, VTT, and… | Security Reviewed | 96.6k | 16.3M/wk |
-| [Whisper.cpp Local Transcription Engine](skills/whisper-cpp-local-transcription-engine/) | Runs OpenAI Whisper models locally via whisper.cpp with GGML quantized weights for CPU-efficient transcription.… | Security Reviewed | 96.6k | 16.3M/wk |
-| [YouTube Chapters Generator with Whisper](skills/youtube-chapters-generator-whisper/) | Downloads YouTube audio via yt-dlp, transcribes with Whisper, and uses NLP topic segmentation via TextTiling… | Security Reviewed | 96.6k | 16.3M/wk |
-| [Podcast RSS Feed Transcriber](skills/podcast-rss-feed-transcriber/) | Automatically fetches podcast episodes from RSS feeds using feedparser, downloads audio enclosures, and transcribes… | Security Reviewed | 96.6k | — |
-| [Whisper.cpp Real-Time Transcription Pipeline](skills/whisper-cpp-realtime-transcription-pipeline/) | Streams audio from PulseAudio or ALSA devices into whisper.cpp for real-time speech-to-text with word-level… | Security Reviewed | 96.6k | — |
-| [GStreamer Live Stream Transcoder](skills/gstreamer-live-stream-transcoder/) | Builds GStreamer pipelines for real-time video transcoding with NVENC/VA-API hardware acceleration. Supports… | Security Reviewed | 63.3k | 5.3M/wk |
-| [Audio Stem Separator with Demucs](skills/audio-stem-separator-demucs/) | Separates audio tracks into individual stems (vocals, drums, bass, other) using Meta's Demucs neural network model… | Security Reviewed | 58.3k | — |
-| [Deepgram Nova STT Pipeline](skills/deepgram-nova-stt-pipeline/) | Real-time speech-to-text using Deepgram Nova-2 API with streaming WebSocket connections. Supports diarization,… | Security Reviewed | 58.3k | — |
-| [FFmpeg Audio Normalization Pipeline](skills/ffmpeg-audio-normalization-pipeline/) | Normalizes audio loudness to broadcast standards using FFmpeg loudnorm filter with EBU R128 two-pass analysis.… | Security Reviewed | 58.3k | — |
-| [FFmpeg Audio Transcoder](skills/ffmpeg-audio-transcoder/) | Transcodes and processes audio files using the FFmpeg CLI and libavcodec library. Supports batch format conversion,… | Security Reviewed | 58.3k | — |
-| [FFmpeg Batch Transcode Pipeline](skills/ffmpeg-batch-transcode-pipeline/) | Orchestrates parallel FFmpeg transcoding jobs with hardware-accelerated encoding via NVENC, VAAPI, or VideoToolbox.… | Security Reviewed | 58.3k | — |
-| [FFmpeg Batch Transcoder](skills/ffmpeg-batch-transcoder-skill/) | Batch transcode media files using FFmpeg CLI with preset profiles for web, mobile, and broadcast delivery. Supports… | Security Reviewed | 58.3k | — |
-| [FFmpeg Clip Extractor](skills/ffmpeg-clip-extractor-agent/) | Extracts video clips and segments using FFmpeg libavformat and libavcodec APIs. Supports keyframe-accurate cutting… | Security Reviewed | 58.3k | — |
-| [Live Stream Audio Monitor](skills/live-stream-audio-monitor/) | Monitors live audio streams from RTMP, HLS, or Icecast sources using FFmpeg stream capture and real-time chunked… | Security Reviewed | 58.3k | — |
-| [Live Stream Clip Extractor](skills/live-stream-clip-extractor-agent/) | Extracts highlight clips from live streams using Twitch Helix API, YouTube Live Streaming API, and FFmpeg segment… | Security Reviewed | 58.3k | — |
-| [Podcast RSS Feed Audio Normalizer](skills/podcast-rss-feed-audio-normalizer/) | Parses podcast RSS feeds with feedparser and normalizes audio loudness to -16 LUFS broadcast standard using ffmpeg… | Security Reviewed | 58.3k | — |
-| [Video Frames Extractor](skills/video-frames-extractor/) | Extract frames and short clips from videos. Core Capabilities Process audio and video files using ffmpeg for… | Security Reviewed | 58.3k | — |
-| [Video Subtitle Auto-Translator](skills/video-subtitle-auto-translator-agent/) | Translates video subtitles across 100+ languages using DeepL API and Google Cloud Translation v3. Handles SRT/VTT… | Security Reviewed | 58.3k | — |
-| [Video Subtitle Translator Agent](skills/video-subtitle-translator-agent/) | Extracts embedded subtitles from video containers using FFmpeg's subtitle stream extraction, translates SRT/VTT… | Security Reviewed | 58.3k | — |
-| [MediaInfo Metadata Extractor](skills/mediainfo-metadata-extractor/) | Extracts comprehensive media metadata using the MediaInfo library and pymediainfo Python bindings. Analyzes… | Security Reviewed | 7k | 4.9M/wk |
-| [Deepgram Podcast Chapter Generator](skills/deepgram-podcast-chapter-generator/) | Submits podcast MP3 URLs to Deepgram Nova-2 with paragraph and summarize features, then clusters returned timestamps… | Security Reviewed | 5.6k | 1.1M/wk |
-| [ElevenLabs Voiceover Generator for Long-Form Content](skills/elevenlabs-voiceover-longform/) | Splits blog posts or scripts into optimal chunks under ElevenLabs character limits, synthesizes each chunk using the… | Security Reviewed | 1.9k | 1M/wk |
-| [Audio Fingerprint Identifier](skills/audio-fingerprint-identifier-agent/) | Identifies audio content using Chromaprint/AcoustID fingerprinting, Shazam API recognition, and ACRCloud monitoring.… | Security Reviewed | — | 21.4M/wk |
-| [AssemblyAI Audio Intelligence Agent](skills/assemblyai-audio-intelligence-agent/) | Extract structured intelligence from audio using the AssemblyAI API with sentiment analysis, entity detection, topic… | Security Reviewed | — | — |
-| [AssemblyAI LeMUR Summarizer](skills/assemblyai-lemur-summarizer-agent/) | Summarizes audio content using AssemblyAI's LeMUR (Large Language Model for Audio Understanding) API. Chains the… | Security Reviewed | — | — |
-| [AssemblyAI Summarization & Chapters Skill](skills/assemblyai-summarization-chapters-skill/) | Transcribes audio and generates auto-chapters with summaries using AssemblyAI's /v2/transcript endpoint with… | Security Reviewed | — | — |
-| [audiowaveform Audio Waveform Data Generator and Image Renderer](skills/audiowaveform-bbc-waveform-generator/) | audiowaveform is a BBC open-source C++ CLI tool that generates waveform data from MP3, WAV, FLAC, Ogg Vorbis, and… | Published | — | — |
-| [Beets Music Library Manager and Tagger](skills/beets-music-library-manager-tagger/) | Manage and tag music libraries with beets, the Python-based CLI tool that auto-tags audio files using MusicBrainz… | Published | — | — |
-| [Core Audio Unit v3 Debugger](skills/core-audio-unit-v3-debugger/) | Debugs and profiles Apple Audio Unit v3 (AUv3) plugins using auval validation tool, the AUAudioUnit Swift API, and… | Security Reviewed | — | — |
-| [Deepgram Nova Transcriber](skills/deepgram-nova-transcriber-agent/) | Transcribes audio using the Deepgram Nova-2 API with diarization, punctuation, and smart formatting. Supports… | Security Reviewed | — | — |
-| [Deepgram Real-Time Transcription Connector](skills/deepgram-realtime-transcription-connector/) | Streams live audio to Deepgram's WebSocket API at wss://api.deepgram.com/v1/listen for real-time speech-to-text.… | Security Reviewed | — | — |
-| [Dolby Atmos ADM-BWF Metadata Extractor](skills/dolby-atmos-adm-bwf-metadata-extractor/) | Extracts and validates Audio Definition Model (ADM) metadata from Broadcast Wave Format (BWF) files using the libadm… | Security Reviewed | — | — |
-| [Dolby.io Media Enhancer](skills/dolby-io-media-enhancer-agent/) | Enhances audio and video quality using the Dolby.io Media Processing API. Applies noise reduction, loudness… | Security Reviewed | — | — |
-| [ElevenLabs Voice Cloning Agent](skills/elevenlabs-voice-cloning-agent/) | Clone and synthesize custom voices using the ElevenLabs API v2 with instant voice cloning. Manages voice library… | Security Reviewed | — | — |
-| [faster-whisper High-Performance Speech Transcription Engine](skills/faster-whisper-high-performance-speech-transcription/) | faster-whisper is a reimplementation of OpenAI's Whisper model using CTranslate2 that delivers up to 4x faster… | Published | — | — |
-| [GStreamer Pipeline Graph Optimizer](skills/gstreamer-pipeline-graph-optimizer/) | Analyzes and optimizes GStreamer media pipelines by parsing DOT graph dumps from GST_DEBUG_DUMP_DOT_DIR, profiling… | Security Reviewed | — | — |
-| [Liquidsoap Audio and Video Streaming Language](skills/liquidsoap-audio-video-streaming-language/) | Build audio and video streaming pipelines with Liquidsoap, a statically typed scripting language purpose-built for… | Published | — | — |
-| [LosslessCut FFmpeg-Powered Media Editor](skills/losslesscut-ffmpeg-powered-media-editor/) | Perform ultra-fast lossless trimming, cutting, and merging of video and audio files with LosslessCut. Built on… | Published | — | — |
-| [Piper Local Neural Text-to-Speech Engine](skills/piper-local-neural-tts-engine/) | Run fast, high-quality neural text-to-speech locally with Piper. Supports 20+ languages with compact ONNX voice… | Published | — | — |
-| [Podcast RSS Feed Builder](skills/podcast-rss-feed-builder/) | Generates and validates podcast RSS feeds compliant with the Apple Podcasts and Spotify specification. Uses the… | Security Reviewed | — | — |
-| [Remotion Programmatic Video Creator](skills/remotion-programmatic-video-creator/) | Create videos programmatically using React components with Remotion. Leverage web technologies like CSS, Canvas,… | Published | — | — |
-| [Vosk Offline Speech Recognition Toolkit](skills/vosk-offline-speech-recognition-toolkit/) | Perform offline speech recognition across 20+ languages with Vosk. Provides compact models, zero-latency streaming… | Published | — | — |
-| [YouTube Chapter Generator from Transcripts](skills/youtube-chapter-generator-transcripts/) | Extracts YouTube video transcripts via the youtube-transcript-api Python library and generates semantic chapter… | Security Reviewed | — | — |
-| [yt-dlp Feature-Rich Audio and Video Downloader CLI](skills/yt-dlp-feature-rich-audio-video-downloader-cli/) | yt-dlp is a powerful command-line tool for downloading audio and video from thousands of websites including YouTube,… | Published | — | — |
-
-
 ### 🌐 Browser Automation (47 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=downloads)
@@ -1420,7 +1427,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cont
 | [textlint Pluggable Natural Language Linter](skills/textlint-pluggable-natural-language-linter/) | Lint natural language text with textlint, the pluggable linting framework inspired by ESLint. Install community… | Published | — | — |
 
 
-### 📰 WordPress & CMS (39 skills)
+### 📰 WordPress & CMS (41 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS&sort=downloads)
 
@@ -1454,9 +1461,11 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Word
 | [WooCommerce REST Sync Agent](skills/woocommerce-rest-sync-agent/) | Synchronizes WooCommerce product data bidirectionally using the WC REST API v3 and wc/v3/products endpoints. Handles… | Security Reviewed | 7k | 4.9M/wk |
 | [WooCommerce REST Order Manager](skills/woocommerce-rest-order-manager/) | Queries and updates WooCommerce orders via the WooCommerce REST API v3 (/wp-json/wc/v3/orders), filters by status,… | Security Reviewed | 4.4k | 8.4M/wk |
 | [WP Cron Health Monitor](skills/wp-cron-health-monitor/) | Monitors WordPress wp-cron scheduled events using the WP_Cron API and Action Scheduler library. Detects stuck,… | Security Reviewed | 69 | 207.4k/wk |
+| [Bedrock Modern WordPress Project Boilerplate by Roots](skills/bedrock-wordpress-composer-boilerplate-roots/) | Bedrock is a WordPress boilerplate with Composer-based dependency management, environment-specific configuration via… | Published | — | — |
 | [Directus Open-Source Headless CMS and Backend Platform](skills/directus-open-source-headless-cms-backend-platform/) | Directus is an open-source headless CMS that wraps any SQL database with instant REST and GraphQL APIs, a no-code… | Published | — | — |
 | [Payload CMS Next.js-Native Headless CMS and Application Framework](skills/payload-cms-nextjs-headless-framework/) | Payload is an open-source, TypeScript-first headless CMS that installs directly into a Next.js application. It… | Published | — | — |
 | [Strapi Open Source Headless CMS with REST and GraphQL APIs](skills/strapi-headless-cms-rest-graphql/) | Strapi is the leading open-source headless CMS built with Node.js and TypeScript. It auto-generates REST and GraphQL… | Published | — | — |
+| [Trellis WordPress LEMP Stack Provisioner by Roots](skills/trellis-wordpress-lemp-ansible-provisioner-roots/) | Trellis is a collection of Ansible playbooks for provisioning and deploying WordPress LEMP stack servers. It… | Published | — | — |
 | [WooCommerce Order Sync Agent](skills/woocommerce-order-sync-agent/) | Synchronizes WooCommerce orders with external ERPs using the WooCommerce REST API v3 and wp_schedule_event. Handles… | Security Reviewed | — | — |
 | [WooCommerce REST Inventory Sync](skills/woocommerce-rest-inventory-sync/) | Synchronizes WooCommerce product inventory across multiple channels using the WooCommerce REST API v3 and… | Security Reviewed | — | — |
 | [WooCommerce Webhook Delivery Inspector](skills/woocommerce-webhook-delivery-inspector/) | Inspects WooCommerce webhook reliability through the `WC_Webhook` model, Action Scheduler queues, and REST endpoints… | Security Reviewed | — | — |
