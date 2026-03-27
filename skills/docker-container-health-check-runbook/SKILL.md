@@ -3,13 +3,13 @@ name: "Docker Container Health Check Runbook"
 description: "Runs systematic health diagnostics on Docker containers using docker inspect, docker stats, and the Docker Engine API. Checks resource limits, network connectivity, and volume mount integrity."
 category: "Runbooks & Diagnostics"
 framework: "Cursor"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/docker-container-health-check-runbook/"
 tool_ecosystem:
-  tool: "docker"
+  tool: docker
   github_stars: 71560
-  github_repo: "moby/moby"
-  license: "Apache-2.0"
+  github_repo: moby/moby
+  license: Apache-2.0
   maintained: true
 ---
 

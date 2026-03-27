@@ -3,14 +3,14 @@ name: "OpenAI Whisper Transcription"
 description: "Local speech-to-text transcription without relying on an API."
 category: "Media & Transcription"
 framework: "OpenClaw"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/openai-whisper-transcription/"
 tool_ecosystem:
-  tool: "whisper"
+  tool: whisper
   github_stars: 96570
   npm_weekly_downloads: 16275389
-  github_repo: "openai/whisper"
-  license: "MIT"
+  github_repo: openai/whisper
+  license: MIT
   maintained: true
 ---
 

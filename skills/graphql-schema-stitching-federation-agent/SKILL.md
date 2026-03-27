@@ -3,14 +3,14 @@ name: "GraphQL Schema Stitching & Federation Agent"
 description: "Manages Apollo Federation v2 supergraph composition from subgraph schemas, validating composition rules and generating rover CLI deployment manifests. Handles @key, @shareable, and @override directives."
 category: "Library & API Reference"
 framework: "Claude Code"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/graphql-schema-stitching-federation-agent/"
 tool_ecosystem:
-  tool: "graphql"
+  tool: graphql
   github_stars: 20332
   npm_weekly_downloads: 32010306
-  github_repo: "graphql/graphql-js"
-  license: "MIT"
+  github_repo: graphql/graphql-js
+  license: MIT
   maintained: true
 ---
 

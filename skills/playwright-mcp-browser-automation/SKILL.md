@@ -3,14 +3,14 @@ name: "Playwright MCP Browser Automation"
 description: "Official Playwright-powered browser control for agent workflows."
 category: "Browser Automation"
 framework: "Claude Code"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/playwright-mcp-browser-automation/"
 tool_ecosystem:
-  tool: "playwright"
+  tool: playwright
   github_stars: 84938
   npm_weekly_downloads: 39806814
-  github_repo: "microsoft/playwright"
-  license: "Apache-2.0"
+  github_repo: microsoft/playwright
+  license: Apache-2.0
   maintained: true
 ---
 

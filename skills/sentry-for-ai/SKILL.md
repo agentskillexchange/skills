@@ -3,13 +3,13 @@ name: "Sentry for AI"
 description: "Observability and debugging support for AI-assisted application workflows."
 category: "Security & Verification"
 framework: "Claude Code"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sentry-for-ai/"
 tool_ecosystem:
-  tool: "sentry"
+  tool: sentry
   github_stars: 43437
   npm_weekly_downloads: 16379655
-  github_repo: "getsentry/sentry"
+  github_repo: getsentry/sentry
   maintained: true
 ---
 

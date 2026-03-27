@@ -3,7 +3,7 @@ name: "MetaMCP Unified MCP Server Aggregator and Gateway"
 description: "MetaMCP is an open-source MCP proxy that aggregates multiple MCP servers into a single unified endpoint with a GUI management interface. It supports namespacing, middleware, rate limiting, OIDC aut..."
 category: "Integrations & Connectors"
 framework: "Custom Agents"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/metamcp-unified-mcp-server-aggregator-gateway/"
 ---
 
@@ -13,27 +13,32 @@ MetaMCP is an open-source MCP proxy that aggregates multiple MCP servers into a 
 
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
-npx @anthropic/skills add metamcp-unified-mcp-server-aggregator-gateway
+npx skills add agentskillexchange/skills --skill metamcp-unified-mcp-server-aggregator-gateway
 ```
 
 ### Claude Code
+
 ```bash
-npx @anthropic/skills add metamcp-unified-mcp-server-aggregator-gateway
+npx skills add agentskillexchange/skills --skill metamcp-unified-mcp-server-aggregator-gateway -a claude-code
 ```
 
 ### Cursor
+
 ```bash
-npx @anthropic/skills add metamcp-unified-mcp-server-aggregator-gateway
+npx skills add agentskillexchange/skills --skill metamcp-unified-mcp-server-aggregator-gateway -a cursor
 ```
 
 ### Codex
+
 ```bash
-npx @anthropic/skills add metamcp-unified-mcp-server-aggregator-gateway
+npx skills add agentskillexchange/skills --skill metamcp-unified-mcp-server-aggregator-gateway -a codex
 ```
 
 ### OpenClaw
+
 ```bash
 clawhub install metamcp-unified-mcp-server-aggregator-gateway
 ```

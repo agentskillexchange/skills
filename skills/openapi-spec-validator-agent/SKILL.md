@@ -3,13 +3,13 @@ name: "OpenAPI Spec Validator"
 description: "Validates and lints OpenAPI 3.0/3.1 specifications using Spectral CLI rules and the Swagger Parser library. Detects breaking changes between spec versions and generates migration guides."
 category: "Developer Tools"
 framework: "Custom Agents"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/openapi-spec-validator-agent/"
 tool_ecosystem:
-  tool: "owasp"
+  tool: owasp
   github_stars: 14900
-  github_repo: "zaproxy/zaproxy"
-  license: "Apache-2.0"
+  github_repo: zaproxy/zaproxy
+  license: Apache-2.0
   maintained: true
 ---
 

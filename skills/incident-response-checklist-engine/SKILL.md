@@ -3,14 +3,14 @@ name: "Incident Response Checklist Engine"
 description: "Generates and tracks incident response checklists using PagerDuty Incident Workflows API and Statuspage.io API. Automates severity classification, stakeholder notification, and post-incident review scheduling with Jira Service Management integration."
 category: "Runbooks & Diagnostics"
 framework: "Claude Agents"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/incident-response-checklist-engine/"
 tool_ecosystem:
-  tool: "pagerduty"
+  tool: pagerduty
   github_stars: 69
   npm_weekly_downloads: 210829
-  github_repo: "PagerDuty/pdjs"
-  license: "Apache-2.0"
+  github_repo: PagerDuty/pdjs
+  license: Apache-2.0
   maintained: false
 ---
 

@@ -3,13 +3,13 @@ name: "Devcontainer Specification Builder"
 description: "Generates dev container specifications with feature composition and lifecycle hooks. Uses the Dev Container Specification API, OCI feature registry, and devcontainer CLI for container-based development environments."
 category: "Developer Tools"
 framework: "Claude Agents"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/devcontainer-specification-builder/"
 tool_ecosystem:
-  tool: "docker"
+  tool: docker
   github_stars: 71560
-  github_repo: "moby/moby"
-  license: "Apache-2.0"
+  github_repo: moby/moby
+  license: Apache-2.0
   maintained: true
 ---
 

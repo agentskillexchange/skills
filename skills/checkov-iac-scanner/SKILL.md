@@ -3,13 +3,13 @@ name: "Checkov IaC Scanner"
 description: "Checkov IaC Scanner is built around Kubernetes orchestration platform. The underlying ecosystem is represented by kubernetes/kubernetes (121,313+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like kubectl, API server, pods, deployments, events, logs, probes, RBAC and preserving the […]"
 category: "Security & Verification"
 framework: "Custom Agents"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/checkov-iac-scanner/"
 tool_ecosystem:
-  tool: "kubernetes"
+  tool: kubernetes
   github_stars: 121334
-  github_repo: "kubernetes/kubernetes"
-  license: "Apache-2.0"
+  github_repo: kubernetes/kubernetes
+  license: Apache-2.0
   maintained: true
 ---
 

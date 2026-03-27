@@ -3,12 +3,12 @@ name: "WordPress REST API Builder"
 description: "Build and debug WordPress REST endpoints with a specialized skill."
 category: "WordPress & CMS"
 framework: "OpenClaw"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/wordpress-rest-api-builder/"
 tool_ecosystem:
-  tool: "wordpress"
+  tool: wordpress
   github_stars: 20976
-  github_repo: "WordPress/WordPress"
+  github_repo: WordPress/WordPress
   maintained: true
 ---
 

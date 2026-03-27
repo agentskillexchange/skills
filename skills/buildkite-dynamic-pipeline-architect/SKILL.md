@@ -3,13 +3,13 @@ name: "Buildkite Dynamic Pipeline Architect"
 description: "Creates dynamic Buildkite pipelines using the Buildkite REST API and pipeline upload mechanism. Implements conditional step generation based on file change detection via git diff."
 category: "CI/CD Integrations"
 framework: "Cursor"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/buildkite-dynamic-pipeline-architect/"
 tool_ecosystem:
-  tool: "docker"
+  tool: docker
   github_stars: 71560
-  github_repo: "moby/moby"
-  license: "Apache-2.0"
+  github_repo: moby/moby
+  license: Apache-2.0
   maintained: true
 ---
 

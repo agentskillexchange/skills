@@ -3,7 +3,7 @@ name: "Tavily MCP Server for AI-Powered Web Search and Extraction"
 description: "An official MCP server from Tavily that provides AI agents with real-time web search, page extraction, site mapping, and web crawling capabilities. Connects to Tavily's search API to deliver structured, relevant results optimized for LLM consumption."
 category: "Research & Scraping"
 framework: "MCP"
-verification: listed
+verification: "listed"
 source: "https://agentskillexchange.com/skills/tavily-mcp-server-ai-web-search-extraction/"
 ---
 
@@ -13,29 +13,34 @@ An official MCP server from Tavily that provides AI agents with real-time web se
 
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
-npx skills add "tavily-mcp-server-ai-web-search-extraction"
+npx skills add agentskillexchange/skills --skill tavily-mcp-server-ai-web-search-extraction
 ```
 
 ### Claude Code
+
 ```bash
-npx skills add "tavily-mcp-server-ai-web-search-extraction" --claude
+npx skills add agentskillexchange/skills --skill tavily-mcp-server-ai-web-search-extraction -a claude-code
 ```
 
 ### Cursor
+
 ```bash
-npx skills add "tavily-mcp-server-ai-web-search-extraction" --cursor
+npx skills add agentskillexchange/skills --skill tavily-mcp-server-ai-web-search-extraction -a cursor
 ```
 
 ### Codex
+
 ```bash
-npx skills add "tavily-mcp-server-ai-web-search-extraction" --codex
+npx skills add agentskillexchange/skills --skill tavily-mcp-server-ai-web-search-extraction -a codex
 ```
 
 ### OpenClaw
+
 ```bash
-clawhub install "tavily-mcp-server-ai-web-search-extraction"
+clawhub install tavily-mcp-server-ai-web-search-extraction
 ```
 
 ## Overview

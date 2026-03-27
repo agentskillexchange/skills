@@ -3,14 +3,14 @@ name: "SendGrid Transactional Email Router"
 description: "Manages transactional email delivery via SendGrid v3 Mail Send API with dynamic template rendering. Handles bounce processing, suppression group management, and event webhook parsing."
 category: "Integrations & Connectors"
 framework: "Cursor"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sendgrid-transactional-email-router/"
 tool_ecosystem:
-  tool: "sendgrid"
+  tool: sendgrid
   github_stars: 3054
   npm_weekly_downloads: 3287627
-  github_repo: "sendgrid/sendgrid-nodejs"
-  license: "MIT"
+  github_repo: sendgrid/sendgrid-nodejs
+  license: MIT
   maintained: true
 ---
 

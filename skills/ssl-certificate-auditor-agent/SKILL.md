@@ -3,14 +3,14 @@ name: "SSL Certificate Auditor"
 description: "Audits TLS/SSL configurations using sslyze Python library and SSL Labs API v3. Checks certificate chain validity, HSTS headers, and OCSP stapling status with Certificate Transparency log verification."
 category: "Security & Verification"
 framework: "OpenClaw"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ssl-certificate-auditor-agent/"
 tool_ecosystem:
-  tool: "sendgrid"
+  tool: sendgrid
   github_stars: 3054
   npm_weekly_downloads: 3287627
-  github_repo: "sendgrid/sendgrid-nodejs"
-  license: "MIT"
+  github_repo: sendgrid/sendgrid-nodejs
+  license: MIT
   maintained: true
 ---
 

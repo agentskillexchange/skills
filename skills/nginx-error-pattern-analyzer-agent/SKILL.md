@@ -3,13 +3,13 @@ name: "Nginx Error Pattern Analyzer"
 description: "Analyzes Nginx error logs using GoAccess and custom regex parsers to identify recurring 502/503 patterns. Correlates upstream timeout errors with backend service health via Prometheus PromQL queries."
 category: "Runbooks & Diagnostics"
 framework: "Custom Agents"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/nginx-error-pattern-analyzer-agent/"
 tool_ecosystem:
-  tool: "nginx"
+  tool: nginx
   github_stars: 29767
-  github_repo: "nginx/nginx"
-  license: "BSD-2-Clause"
+  github_repo: nginx/nginx
+  license: BSD-2-Clause
   maintained: true
 ---
 

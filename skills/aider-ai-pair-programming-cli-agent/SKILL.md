@@ -3,7 +3,7 @@ name: "Aider AI Pair Programming CLI Agent"
 description: "Aider is an open-source AI pair programming tool that runs in your terminal, letting you collaborate with LLMs to edit code across your entire codebase. With 42k+ GitHub stars and 15 billion tokens..."
 category: "Developer Tools"
 framework: "Custom Agents"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/aider-ai-pair-programming-cli-agent/"
 ---
 
@@ -13,27 +13,32 @@ Aider is an open-source AI pair programming tool that runs in your terminal, let
 
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
-npx @anthropic/skills add aider-ai-pair-programming-cli-agent
+npx skills add agentskillexchange/skills --skill aider-ai-pair-programming-cli-agent
 ```
 
 ### Claude Code
+
 ```bash
-npx @anthropic/skills add aider-ai-pair-programming-cli-agent
+npx skills add agentskillexchange/skills --skill aider-ai-pair-programming-cli-agent -a claude-code
 ```
 
 ### Cursor
+
 ```bash
-npx @anthropic/skills add aider-ai-pair-programming-cli-agent
+npx skills add agentskillexchange/skills --skill aider-ai-pair-programming-cli-agent -a cursor
 ```
 
 ### Codex
+
 ```bash
-npx @anthropic/skills add aider-ai-pair-programming-cli-agent
+npx skills add agentskillexchange/skills --skill aider-ai-pair-programming-cli-agent -a codex
 ```
 
 ### OpenClaw
+
 ```bash
 clawhub install aider-ai-pair-programming-cli-agent
 ```

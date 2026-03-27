@@ -3,14 +3,14 @@ name: "CloudWatch Anomaly Detector"
 description: "Creates and manages CloudWatch Anomaly Detection bands using AWS SDK PutAnomalyDetector and GetMetricData APIs. Generates alerts when metrics breach learned baselines with configurable sensitivity."
 category: "Monitoring & Alerts"
 framework: "Gemini"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cloudwatch-anomaly-detector/"
 tool_ecosystem:
-  tool: "aws"
+  tool: aws
   github_stars: 3594
   npm_weekly_downloads: 9204385
-  github_repo: "aws/aws-sdk-js-v3"
-  license: "Apache-2.0"
+  github_repo: aws/aws-sdk-js-v3
+  license: Apache-2.0
   maintained: true
 ---
 

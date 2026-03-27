@@ -3,14 +3,14 @@ name: "Notion Task Board Automation"
 description: "Automates Notion database workflows using the Notion API databases.query and pages.create endpoints. Builds filtered views with compound filter objects, manages status property transitions, and syncs with external project trackers."
 category: "Calendar, Email & Productivity"
 framework: "Cursor"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/notion-task-board-automation-agent/"
 tool_ecosystem:
-  tool: "notion"
+  tool: notion
   github_stars: 5562
   npm_weekly_downloads: 1084242
-  github_repo: "makenotion/notion-sdk-js"
-  license: "MIT"
+  github_repo: makenotion/notion-sdk-js
+  license: MIT
   maintained: true
 ---
 

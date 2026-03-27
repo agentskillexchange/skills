@@ -3,13 +3,13 @@ name: "OpenTelemetry Collector Pipeline Designer"
 description: "Designs OpenTelemetry Collector pipeline configurations with receivers (otlp, prometheus, filelog), processors (batch, attributes, tail_sampling), and exporters (otlphttp, jaeger, elasticsearch)."
 category: "Monitoring & Alerts"
 framework: "OpenClaw"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/otel-collector-pipeline-designer/"
 tool_ecosystem:
-  tool: "kubernetes"
+  tool: kubernetes
   github_stars: 121334
-  github_repo: "kubernetes/kubernetes"
-  license: "Apache-2.0"
+  github_repo: kubernetes/kubernetes
+  license: Apache-2.0
   maintained: true
 ---
 

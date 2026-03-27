@@ -3,14 +3,14 @@ name: "Cloud Cost Analysis"
 description: "Cloud Cost Analysis is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by aws/aws-sdk-js-v3 (3,594+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like AWS SDK, IAM, STS, S3, Lambda, CloudWatch, DynamoDB, EC2 and […]"
 category: "Developer Tools"
 framework: "Claude Agents"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cloud-cost-analysis/"
 tool_ecosystem:
-  tool: "aws"
+  tool: aws
   github_stars: 3594
   npm_weekly_downloads: 9204385
-  github_repo: "aws/aws-sdk-js-v3"
-  license: "Apache-2.0"
+  github_repo: aws/aws-sdk-js-v3
+  license: Apache-2.0
   maintained: true
 ---
 

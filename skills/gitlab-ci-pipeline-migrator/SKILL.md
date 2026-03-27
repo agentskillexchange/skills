@@ -3,12 +3,12 @@ name: "GitLab CI Pipeline Migrator"
 description: "Converts GitLab CI .gitlab-ci.yml pipelines to GitHub Actions workflows using the gitlab-ci-local parser and YAML AST transformations. Maps GitLab stages, services, and artifacts to equivalent GitHub Actions syntax."
 category: "CI/CD Integrations"
 framework: "Claude Code"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/gitlab-ci-pipeline-migrator/"
 tool_ecosystem:
-  tool: "gitlab"
+  tool: gitlab
   github_stars: 24278
-  github_repo: "gitlabhq/gitlabhq"
+  github_repo: gitlabhq/gitlabhq
   maintained: true
 ---
 

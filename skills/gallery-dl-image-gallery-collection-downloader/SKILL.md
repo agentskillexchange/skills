@@ -3,7 +3,7 @@ name: "gallery-dl Image Gallery and Collection Downloader"
 description: "gallery-dl is a command-line tool for downloading image galleries and collections from dozens of hosting sites including Pixiv, DeviantArt, Twitter, Reddit, Instagram, and Danbooru. It supports authen"
 category: "Data Extraction & Transformation"
 framework: "Multi-Framework"
-verification: listed
+verification: "listed"
 source: "https://agentskillexchange.com/skills/gallery-dl-image-gallery-collection-downloader/"
 ---
 
@@ -13,27 +13,32 @@ gallery-dl is a command-line tool for downloading image galleries and collection
 
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
-npx skills add gallery-dl-image-gallery-collection-downloader
+npx skills add agentskillexchange/skills --skill gallery-dl-image-gallery-collection-downloader
 ```
 
 ### Claude Code
+
 ```bash
-npx skills add gallery-dl-image-gallery-collection-downloader --claude-code
+npx skills add agentskillexchange/skills --skill gallery-dl-image-gallery-collection-downloader -a claude-code
 ```
 
 ### Cursor
+
 ```bash
-npx skills add gallery-dl-image-gallery-collection-downloader --cursor
+npx skills add agentskillexchange/skills --skill gallery-dl-image-gallery-collection-downloader -a cursor
 ```
 
 ### Codex
+
 ```bash
-npx skills add gallery-dl-image-gallery-collection-downloader --codex
+npx skills add agentskillexchange/skills --skill gallery-dl-image-gallery-collection-downloader -a codex
 ```
 
 ### OpenClaw
+
 ```bash
 clawhub install gallery-dl-image-gallery-collection-downloader
 ```

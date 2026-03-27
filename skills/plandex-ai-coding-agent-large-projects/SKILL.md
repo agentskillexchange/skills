@@ -1,8 +1,9 @@
 ---
 name: "Plandex AI Coding Agent for Large Projects"
 description: "Plandex is an open-source terminal-based AI coding agent designed for large projects and complex tasks. It handles up to 2M tokens of context, uses a diff sandbox for safe changes, and supports multi-model workflows across Anthropic, OpenAI, and Google providers."
+category: ""
 framework: "Multi-Framework"
-verification: listed
+verification: "listed"
 source: "https://agentskillexchange.com/skills/plandex-ai-coding-agent-large-projects/"
 ---
 
@@ -12,27 +13,32 @@ Plandex is an open-source terminal-based AI coding agent designed for large proj
 
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
-npx skills add plandex-ai-coding-agent-large-projects
+npx skills add agentskillexchange/skills --skill plandex-ai-coding-agent-large-projects
 ```
 
 ### Claude Code
+
 ```bash
-npx skills add plandex-ai-coding-agent-large-projects --claude
+npx skills add agentskillexchange/skills --skill plandex-ai-coding-agent-large-projects -a claude-code
 ```
 
 ### Cursor
+
 ```bash
-npx skills add plandex-ai-coding-agent-large-projects --cursor
+npx skills add agentskillexchange/skills --skill plandex-ai-coding-agent-large-projects -a cursor
 ```
 
 ### Codex
+
 ```bash
-npx skills add plandex-ai-coding-agent-large-projects --codex
+npx skills add agentskillexchange/skills --skill plandex-ai-coding-agent-large-projects -a codex
 ```
 
 ### OpenClaw
+
 ```bash
 clawhub install plandex-ai-coding-agent-large-projects
 ```

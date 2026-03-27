@@ -3,14 +3,14 @@ name: "Keyword Cluster Generator"
 description: "Groups keywords into topical clusters using sentence-transformers all-MiniLM-L6-v2 embeddings with HDBSCAN clustering. Pulls search volume data from Google Ads API and SEMrush API."
 category: "Content Writing & SEO"
 framework: "MCP"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/keyword-cluster-generator-agent/"
 tool_ecosystem:
-  tool: "notion"
+  tool: notion
   github_stars: 5562
   npm_weekly_downloads: 1084242
-  github_repo: "makenotion/notion-sdk-js"
-  license: "MIT"
+  github_repo: makenotion/notion-sdk-js
+  license: MIT
   maintained: true
 ---
 

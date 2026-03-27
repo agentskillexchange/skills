@@ -3,14 +3,14 @@ name: "Playwright Session Recorder"
 description: "Records browser sessions using Playwright codegen and exports replayable test scripts. Captures network HAR files alongside DOM snapshots for full session fidelity."
 category: "Browser Automation"
 framework: "Claude Code"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/playwright-session-recorder-2/"
 tool_ecosystem:
-  tool: "playwright"
+  tool: playwright
   github_stars: 84938
   npm_weekly_downloads: 39806814
-  github_repo: "microsoft/playwright"
-  license: "Apache-2.0"
+  github_repo: microsoft/playwright
+  license: Apache-2.0
   maintained: true
 ---
 

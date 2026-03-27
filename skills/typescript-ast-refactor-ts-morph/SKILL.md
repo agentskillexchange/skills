@@ -3,14 +3,14 @@ name: "TypeScript AST Refactor"
 description: "Performs automated TypeScript refactoring using ts-morph and the TypeScript Compiler API. Handles rename operations, extract-function, and dead code elimination across large codebases."
 category: "Developer Tools"
 framework: "Cursor"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/typescript-ast-refactor-ts-morph/"
 tool_ecosystem:
-  tool: "eslint"
+  tool: eslint
   github_stars: 27185
   npm_weekly_downloads: 109028697
-  github_repo: "eslint/eslint"
-  license: "MIT"
+  github_repo: eslint/eslint
+  license: MIT
   maintained: true
 ---
 

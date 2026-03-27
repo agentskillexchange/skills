@@ -3,13 +3,13 @@ name: "OWASP ZAP Automated Scan Orchestrator"
 description: "Runs OWASP ZAP active and passive scans against target URLs using the ZAP Docker API. Parses JSON reports to flag XSS, SQLi, and CSRF vulnerabilities with severity scoring."
 category: "Security & Verification"
 framework: "OpenClaw"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/owasp-zap-automated-scan-orchestrator/"
 tool_ecosystem:
-  tool: "owasp"
+  tool: owasp
   github_stars: 14900
-  github_repo: "zaproxy/zaproxy"
-  license: "Apache-2.0"
+  github_repo: zaproxy/zaproxy
+  license: Apache-2.0
   maintained: true
 ---
 

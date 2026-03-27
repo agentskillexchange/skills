@@ -3,7 +3,7 @@ name: "fx Terminal JSON Viewer and Processor"
 description: "fx is a terminal-based JSON viewer and processor that provides an interactive TUI for navigating, filtering, and transforming JSON, YAML, and TOML data. Built in Go with support for JavaScript/Python expressions, it replaces piping through jq for quick data exploration."
 category: "Data Extraction & Transformation"
 framework: "Multi-Framework"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/fx-terminal-json-viewer-processor/"
 ---
 
@@ -45,3 +45,35 @@ The interactive TUI mode lets developers navigate deeply nested JSON structures 
 In processing mode, fx accepts JavaScript or Python expressions as arguments, enabling quick transformations without writing separate scripts. Developers can pipe data through fx with expressions like fx .users[0].name to extract specific values, or chain multiple transformations. This makes it a lightweight alternative to jq for teams that prefer JavaScript-style syntax over jq filter language.
 fx integrates into standard Unix pipelines: curl https://api.example.com | fx opens the response in the interactive viewer, while curl https://api.example.com | fx .data.items extracts and outputs a specific field. It is available via Homebrew, npm, snap, and standalone binaries for Linux, macOS, and Windows.
 With over 20,000 GitHub stars and an MIT license, fx is one of the most popular terminal JSON tools in the ecosystem. Key integration points include shell aliases, editor terminal panels, CI/CD log inspection, and API development workflows where rapid data exploration reduces iteration time.
+
+## Installation
+
+### Any Agent
+
+```bash
+npx skills add agentskillexchange/skills --skill fx-terminal-json-viewer-processor
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill fx-terminal-json-viewer-processor -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill fx-terminal-json-viewer-processor -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill fx-terminal-json-viewer-processor -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install fx-terminal-json-viewer-processor
+```

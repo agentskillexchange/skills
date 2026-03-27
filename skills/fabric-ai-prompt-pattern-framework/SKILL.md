@@ -3,7 +3,7 @@ name: "Fabric AI Prompt Pattern Framework"
 description: "Fabric is an open-source framework for augmenting humans using AI. It provides a modular system of crowdsourced prompt patterns that solve specific problems — from summarizing content to extracting wisdom to analyzing security threats — all usable from the command line."
 category: "Developer Tools"
 framework: "Custom Agents"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/fabric-ai-prompt-pattern-framework/"
 ---
 
@@ -13,27 +13,32 @@ Fabric is an open-source framework for augmenting humans using AI. It provides a
 
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
-npx @anthropic/skills add fabric-ai-prompt-pattern-framework
+npx skills add agentskillexchange/skills --skill fabric-ai-prompt-pattern-framework
 ```
 
 ### Claude Code
+
 ```bash
-npx @anthropic/skills add fabric-ai-prompt-pattern-framework
+npx skills add agentskillexchange/skills --skill fabric-ai-prompt-pattern-framework -a claude-code
 ```
 
 ### Cursor
+
 ```bash
-npx @anthropic/skills add fabric-ai-prompt-pattern-framework
+npx skills add agentskillexchange/skills --skill fabric-ai-prompt-pattern-framework -a cursor
 ```
 
 ### Codex
+
 ```bash
-npx @anthropic/skills add fabric-ai-prompt-pattern-framework
+npx skills add agentskillexchange/skills --skill fabric-ai-prompt-pattern-framework -a codex
 ```
 
 ### OpenClaw
+
 ```bash
 clawhub install fabric-ai-prompt-pattern-framework
 ```

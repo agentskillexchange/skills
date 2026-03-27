@@ -3,13 +3,13 @@ name: "Docker Container Health Inspector"
 description: "Inspects Docker container health using the Docker Engine API v1.45 /containers/{id}/json and /containers/{id}/stats endpoints. Diagnoses OOM kills, restart loops, and network connectivity issues with automated log analysis via /containers/{id}/logs streaming."
 category: "Runbooks & Diagnostics"
 framework: "MCP"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/docker-container-health-inspector/"
 tool_ecosystem:
-  tool: "docker"
+  tool: docker
   github_stars: 71560
-  github_repo: "moby/moby"
-  license: "Apache-2.0"
+  github_repo: moby/moby
+  license: Apache-2.0
   maintained: true
 ---
 

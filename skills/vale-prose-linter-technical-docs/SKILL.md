@@ -3,7 +3,7 @@ name: "Vale Prose Linter for Technical Documentation"
 description: "Vale is an open-source, markup-aware prose linter that enforces editorial style guides on technical documentation. This skill enables agents to run Vale against Markdown, AsciiDoc, reStructuredText, and HTML to catch style, grammar, and terminology issues."
 category: "Code Quality & Review"
 framework: "Custom Agents"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/vale-prose-linter-technical-docs/"
 ---
 
@@ -13,27 +13,32 @@ Vale is an open-source, markup-aware prose linter that enforces editorial style 
 
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
-npx skills add "vale-prose-linter-technical-docs"
+npx skills add agentskillexchange/skills --skill vale-prose-linter-technical-docs
 ```
 
 ### Claude Code
+
 ```bash
-npx skills add "vale-prose-linter-technical-docs" --claude
+npx skills add agentskillexchange/skills --skill vale-prose-linter-technical-docs -a claude-code
 ```
 
 ### Cursor
+
 ```bash
-npx skills add "vale-prose-linter-technical-docs" --cursor
+npx skills add agentskillexchange/skills --skill vale-prose-linter-technical-docs -a cursor
 ```
 
 ### Codex
+
 ```bash
-npx skills add "vale-prose-linter-technical-docs" --codex
+npx skills add agentskillexchange/skills --skill vale-prose-linter-technical-docs -a codex
 ```
 
 ### OpenClaw
+
 ```bash
-clawhub install "vale-prose-linter-technical-docs"
+clawhub install vale-prose-linter-technical-docs
 ```

@@ -3,14 +3,14 @@ name: "Apache Spark DataFrame ETL Pipeline"
 description: "Automates PySpark DataFrame transformations including schema inference, partition pruning, and Delta Lake merge operations. Integrates with AWS Glue Data Catalog and Apache Iceberg table formats for lakehouse architectures."
 category: "Data Extraction & Transformation"
 framework: "OpenClaw"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/spark-dataframe-etl-pipeline/"
 tool_ecosystem:
-  tool: "spark"
+  tool: spark
   github_stars: 43027
   npm_weekly_downloads: 9204385
-  github_repo: "apache/spark"
-  license: "Apache-2.0"
+  github_repo: apache/spark
+  license: Apache-2.0
   maintained: true
 ---
 

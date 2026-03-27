@@ -3,14 +3,14 @@ name: "AWS CloudWatch Anomaly Detector"
 description: "Uses AWS CloudWatch SDK (boto3) to configure anomaly detection bands on metrics via PutAnomalyDetector API. Integrates with SNS for notifications and CloudWatch Synthetics for canary-based uptime monitoring."
 category: "Monitoring & Alerts"
 framework: "MCP"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/aws-cloudwatch-anomaly-detector/"
 tool_ecosystem:
-  tool: "aws"
+  tool: aws
   github_stars: 3594
   npm_weekly_downloads: 9204385
-  github_repo: "aws/aws-sdk-js-v3"
-  license: "Apache-2.0"
+  github_repo: aws/aws-sdk-js-v3
+  license: Apache-2.0
   maintained: true
 ---
 

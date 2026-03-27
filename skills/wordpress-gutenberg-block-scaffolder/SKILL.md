@@ -3,12 +3,12 @@ name: "WordPress Gutenberg Block Scaffolder"
 description: "Generates custom Gutenberg blocks using @wordpress/create-block and the Block API v2. Configures block.json metadata, InspectorControls, and server-side render callbacks with register_block_type."
 category: "WordPress & CMS"
 framework: "Claude Code"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/wordpress-gutenberg-block-scaffolder/"
 tool_ecosystem:
-  tool: "wordpress"
+  tool: wordpress
   github_stars: 20976
-  github_repo: "WordPress/WordPress"
+  github_repo: WordPress/WordPress
   maintained: true
 ---
 

@@ -3,33 +3,38 @@ name: "LanguageTool Grammar and Style Checker"
 description: "Check grammar, style, and spelling across 25+ languages with LanguageTool. This open-source proofreading engine can run as a local Java server or via its public API, providing detailed error reports with correction suggestions for any text content."
 category: "Content Writing & SEO"
 framework: "Multi-Framework"
-verification: listed
+verification: "listed"
 source: "https://agentskillexchange.com/skills/languagetool-grammar-style-checker/"
 ---
 
 ## Installation
 
-### Any AI Agent (npx)
+### Any Agent
+
 ```bash
-npx @anthropic/agent-skills add languagetool-grammar-style-checker
+npx skills add agentskillexchange/skills --skill languagetool-grammar-style-checker
 ```
 
 ### Claude Code
+
 ```bash
-npx @anthropic/agent-skills add languagetool-grammar-style-checker --target claude
+npx skills add agentskillexchange/skills --skill languagetool-grammar-style-checker -a claude-code
 ```
 
 ### Cursor
+
 ```bash
-npx @anthropic/agent-skills add languagetool-grammar-style-checker --target cursor
+npx skills add agentskillexchange/skills --skill languagetool-grammar-style-checker -a cursor
 ```
 
 ### Codex
+
 ```bash
-npx @anthropic/agent-skills add languagetool-grammar-style-checker --target codex
+npx skills add agentskillexchange/skills --skill languagetool-grammar-style-checker -a codex
 ```
 
 ### OpenClaw
+
 ```bash
 clawhub install languagetool-grammar-style-checker
 ```

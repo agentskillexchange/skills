@@ -3,12 +3,12 @@ name: "Terraform Module Template Engine"
 description: "Scaffolds production-ready Terraform modules using HCL templates with automated variable documentation via terraform-docs. Includes Terratest boilerplate and GitHub Actions CI workflow generation."
 category: "Templates & Workflows"
 framework: "Gemini"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/terraform-module-template-engine/"
 tool_ecosystem:
-  tool: "terraform"
+  tool: terraform
   github_stars: 48003
-  github_repo: "hashicorp/terraform"
+  github_repo: hashicorp/terraform
   maintained: true
 ---
 

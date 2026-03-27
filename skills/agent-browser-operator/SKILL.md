@@ -3,14 +3,14 @@ name: "Agent Browser Operator"
 description: "Interactive browser skill for logged-in flows, dynamic pages, and session-aware site operations."
 category: "Browser Automation"
 framework: "Custom Agents"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/agent-browser-operator/"
 tool_ecosystem:
-  tool: "playwright"
+  tool: playwright
   github_stars: 84938
   npm_weekly_downloads: 39806814
-  github_repo: "microsoft/playwright"
-  license: "Apache-2.0"
+  github_repo: microsoft/playwright
+  license: Apache-2.0
   maintained: true
 ---
 

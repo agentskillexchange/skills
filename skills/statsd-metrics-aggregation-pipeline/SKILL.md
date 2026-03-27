@@ -3,13 +3,13 @@ name: "StatsD Metrics Aggregation Pipeline"
 description: "Configures StatsD metric collection with custom aggregation rules and flush intervals. Routes metrics to Graphite Carbon, InfluxDB Line Protocol, or Datadog DogStatsD endpoints with tag-based dimensional routing."
 category: "Monitoring & Alerts"
 framework: "Custom Agents"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/statsd-metrics-aggregation-pipeline/"
 tool_ecosystem:
-  tool: "datadog"
+  tool: datadog
   github_stars: 789
   npm_weekly_downloads: 6043057
-  github_repo: "DataDog/dd-trace-js"
+  github_repo: DataDog/dd-trace-js
   maintained: true
 ---
 

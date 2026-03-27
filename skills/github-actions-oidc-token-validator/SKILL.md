@@ -3,14 +3,14 @@ name: "GitHub Actions OIDC Token Validator"
 description: "Validates GitHub Actions OIDC tokens for secure, secretless deployments. Uses the GitHub Actions id-token API and the jose JWT library to verify audience, issuer, and subject claims. Integrates with AWS STS AssumeRoleWithWebIdentity and GCP Workload Identity Federation for cloud access."
 category: "CI/CD Integrations"
 framework: "Claude Code"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/github-actions-oidc-token-validator/"
 tool_ecosystem:
-  tool: "aws"
+  tool: aws
   github_stars: 3594
   npm_weekly_downloads: 9204385
-  github_repo: "aws/aws-sdk-js-v3"
-  license: "Apache-2.0"
+  github_repo: aws/aws-sdk-js-v3
+  license: Apache-2.0
   maintained: true
 ---
 

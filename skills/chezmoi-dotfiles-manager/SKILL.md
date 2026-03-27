@@ -3,7 +3,7 @@ name: "chezmoi Cross-Machine Dotfiles Manager"
 description: "chezmoi manages dotfiles across multiple machines securely using a Git-backed source-of-truth model with templates, encryption, and cross-platform support. Written in Go with 18k+ GitHub stars, it handles machine-specific configs, secrets, and one-command bootstrap."
 category: "Developer Tools"
 framework: "Custom Agents"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/chezmoi-dotfiles-manager/"
 ---
 
@@ -14,27 +14,32 @@ chezmoi manages dotfiles across multiple machines securely using a Git-backed so
 
 ## Installation
 
-### Any AI Agent (npx)
+### Any Agent
+
 ```bash
-npx @anthropic/skills add chezmoi-dotfiles-manager
+npx skills add agentskillexchange/skills --skill chezmoi-dotfiles-manager
 ```
 
 ### Claude Code
+
 ```bash
-npx @anthropic/skills add chezmoi-dotfiles-manager
+npx skills add agentskillexchange/skills --skill chezmoi-dotfiles-manager -a claude-code
 ```
 
 ### Cursor
+
 ```bash
-npx @anthropic/skills add chezmoi-dotfiles-manager
+npx skills add agentskillexchange/skills --skill chezmoi-dotfiles-manager -a cursor
 ```
 
 ### Codex
+
 ```bash
-npx @anthropic/skills add chezmoi-dotfiles-manager
+npx skills add agentskillexchange/skills --skill chezmoi-dotfiles-manager -a codex
 ```
 
 ### OpenClaw
+
 ```bash
 clawhub install chezmoi-dotfiles-manager
 ```

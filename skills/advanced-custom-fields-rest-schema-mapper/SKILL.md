@@ -3,12 +3,12 @@ name: "Advanced Custom Fields REST Schema Mapper"
 description: "Maps ACF field groups into predictable REST responses using `acf_add_local_field_group`, `get_field_objects`, and `register_rest_field`. Useful when you need cleaner payloads than the default ACF exposure and want WordPress clients to consume structured field data safely."
 category: "WordPress & CMS"
 framework: "Cursor"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/advanced-custom-fields-rest-schema-mapper/"
 tool_ecosystem:
-  tool: "wordpress"
+  tool: wordpress
   github_stars: 20976
-  github_repo: "WordPress/WordPress"
+  github_repo: WordPress/WordPress
   maintained: true
 ---
 

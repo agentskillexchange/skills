@@ -3,14 +3,14 @@ name: "DuckDB SQL Analytics Agent"
 description: "Run analytical SQL queries on local files (CSV, Parquet, JSON) using the DuckDB in-process database engine. Enables fast OLAP-style analysis without a server, directly from flat files on disk."
 category: "Data Extraction & Transformation"
 framework: "Claude Code"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/duckdb-sql-analytics-agent/"
 tool_ecosystem:
-  tool: "parquet"
+  tool: parquet
   github_stars: 387
   npm_weekly_downloads: 146943
-  github_repo: "ironSource/parquetjs"
-  license: "MIT"
+  github_repo: ironSource/parquetjs
+  license: MIT
   maintained: false
 ---
 

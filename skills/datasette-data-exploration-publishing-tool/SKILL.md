@@ -3,7 +3,7 @@ name: "Datasette Data Exploration and Publishing Tool"
 description: "Datasette is an open-source Python tool for exploring and publishing data. It turns any SQLite database into an interactive web interface with a JSON API, enabling data journalists, researchers, and developers to share datasets without writing application code."
 category: "Data Extraction & Transformation"
 framework: "Multi-Framework"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/datasette-data-exploration-publishing-tool/"
 ---
 
@@ -45,3 +45,35 @@ Running datasette serve database.db starts a local web server that provides a br
 Datasette supports one-command deployment to cloud platforms. datasette publish heroku database.db or datasette publish cloudrun database.db packages the database and application into a Docker container and deploys it, giving you a public URL in minutes. This publish workflow has made Datasette popular in newsrooms and government agencies for releasing open data.
 The plugin ecosystem extends Datasette with capabilities like full-text search, map visualizations, chart rendering, authentication, and write APIs. The companion tool sqlite-utils provides a CLI and Python library for creating SQLite databases from CSV, JSON, and other formats, making Datasette part of a broader data pipeline. Datasette also integrates with GitHub Codespaces for cloud-based data exploration.
 With over 10,000 GitHub stars, an Apache 2.0 license, and active development since 2017, Datasette has become a foundational tool in the data publishing ecosystem. It is available via pip, Homebrew, and Docker, and requires Python 3.8 or higher.
+
+## Installation
+
+### Any Agent
+
+```bash
+npx skills add agentskillexchange/skills --skill datasette-data-exploration-publishing-tool
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill datasette-data-exploration-publishing-tool -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill datasette-data-exploration-publishing-tool -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill datasette-data-exploration-publishing-tool -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install datasette-data-exploration-publishing-tool
+```

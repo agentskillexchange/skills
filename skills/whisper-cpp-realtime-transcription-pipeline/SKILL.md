@@ -3,13 +3,13 @@ name: "Whisper.cpp Real-Time Transcription Pipeline"
 description: "Streams audio from PulseAudio or ALSA devices into whisper.cpp for real-time speech-to-text with word-level timestamps. Outputs SRT/VTT subtitles and JSON transcripts simultaneously."
 category: "Media & Transcription"
 framework: "Claude Code"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/whisper-cpp-realtime-transcription-pipeline/"
 tool_ecosystem:
-  tool: "whisper"
+  tool: whisper
   github_stars: 96570
-  github_repo: "openai/whisper"
-  license: "MIT"
+  github_repo: openai/whisper
+  license: MIT
   maintained: true
 ---
 

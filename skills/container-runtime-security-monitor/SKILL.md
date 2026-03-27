@@ -3,13 +3,13 @@ name: "Container Runtime Security Monitor"
 description: "Monitors container runtime behavior using Falco rules and the Docker Engine API. Detects anomalous syscalls, privilege escalations, and unexpected network connections in real time."
 category: "Security & Verification"
 framework: "Gemini"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/container-runtime-security-monitor/"
 tool_ecosystem:
-  tool: "docker"
+  tool: docker
   github_stars: 71560
-  github_repo: "moby/moby"
-  license: "Apache-2.0"
+  github_repo: moby/moby
+  license: Apache-2.0
   maintained: true
 ---
 

@@ -3,10 +3,10 @@ name: "Jira Advanced Query Agent"
 description: "Jira Advanced Query Agent is built around Jira issue tracking platform. It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like JQL, issues, workflows, comments, transitions, custom fields, sprint APIs and preserving the operational context that matters for real tasks. The […]"
 category: "Developer Tools"
 framework: "Custom Agents"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jira-advanced-query-agent/"
 tool_ecosystem:
-  tool: "jira"
+  tool: jira
 ---
 
 # Jira Advanced Query Agent

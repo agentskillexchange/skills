@@ -3,13 +3,13 @@ name: "Semgrep Rule Author"
 description: "Generates custom Semgrep rules from natural language descriptions of vulnerability patterns. Uses semgrep –validate to verify rule syntax and semgrep –test to run against sample code fixtures automatically."
 category: "Code Quality & Review"
 framework: "OpenClaw"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/semgrep-rule-author/"
 tool_ecosystem:
-  tool: "semgrep"
+  tool: semgrep
   github_stars: 14551
-  github_repo: "semgrep/semgrep"
-  license: "LGPL-2.1"
+  github_repo: semgrep/semgrep
+  license: LGPL-2.1
   maintained: true
 ---
 

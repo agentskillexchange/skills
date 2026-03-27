@@ -3,13 +3,13 @@ name: "Kubernetes Runbook Generator"
 description: "Auto-generates operational runbooks from Kubernetes cluster state using kubectl and the Kubernetes API. Produces step-by-step troubleshooting guides for common pod failure modes."
 category: "Runbooks & Diagnostics"
 framework: "OpenClaw"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/kubernetes-runbook-generator/"
 tool_ecosystem:
-  tool: "kubernetes"
+  tool: kubernetes
   github_stars: 121334
-  github_repo: "kubernetes/kubernetes"
-  license: "Apache-2.0"
+  github_repo: kubernetes/kubernetes
+  license: Apache-2.0
   maintained: true
 ---
 

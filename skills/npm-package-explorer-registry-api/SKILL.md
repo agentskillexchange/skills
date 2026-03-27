@@ -3,13 +3,13 @@ name: "NPM Package Explorer"
 description: "Explores the npm registry using the Registry API and npms.io scoring API. Analyzes package quality, dependency trees, and bundle sizes via bundlephobia API."
 category: "Library & API Reference"
 framework: "Cursor"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/npm-package-explorer-registry-api/"
 tool_ecosystem:
-  tool: "snyk"
+  tool: snyk
   github_stars: 5458
   npm_weekly_downloads: 601684
-  github_repo: "snyk/cli"
+  github_repo: snyk/cli
   maintained: true
 ---
 

@@ -3,14 +3,14 @@ name: "GitHub Actions CI/CD Pipeline Manager"
 description: "Automates GitHub Actions workflow creation, runner management, and artifact caching using the GitHub REST API and YAML generation. Supports matrix builds, reusable workflows, and environment-specific deployment gates."
 category: "CI/CD Integrations"
 framework: "OpenClaw"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/github-actions-cicd-pipeline-manager/"
 tool_ecosystem:
-  tool: "graphql"
+  tool: graphql
   github_stars: 20332
   npm_weekly_downloads: 32010306
-  github_repo: "graphql/graphql-js"
-  license: "MIT"
+  github_repo: graphql/graphql-js
+  license: MIT
   maintained: true
 ---
 

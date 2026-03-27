@@ -3,13 +3,13 @@ name: "yq YAML and Structured Data Processor"
 description: "Process, query, and transform YAML, JSON, XML, CSV, TOML, and properties files from the command line using yq. Supports jq-like expressions for reading, updating, and converting between formats."
 category: "Data Extraction & Transformation"
 framework: "Claude Code"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/yq-yaml-structured-data-processor/"
 tool_ecosystem:
-  tool: "kubernetes"
+  tool: kubernetes
   github_stars: 121334
-  github_repo: "kubernetes/kubernetes"
-  license: "Apache-2.0"
+  github_repo: kubernetes/kubernetes
+  license: Apache-2.0
   maintained: true
 ---
 

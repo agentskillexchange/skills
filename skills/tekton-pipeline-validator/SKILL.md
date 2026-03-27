@@ -3,13 +3,13 @@ name: "Tekton Pipeline Validator"
 description: "Validates Tekton Pipeline YAML manifests against the Tekton Pipelines API schema. Uses tkn CLI and Kubernetes admission webhooks to catch misconfigurations before deployment. Supports PipelineRun, TaskRun, and Trigger resource types."
 category: "CI/CD Integrations"
 framework: "OpenClaw"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/tekton-pipeline-validator/"
 tool_ecosystem:
-  tool: "tekton"
+  tool: tekton
   github_stars: 8923
-  github_repo: "tektoncd/pipeline"
-  license: "Apache-2.0"
+  github_repo: tektoncd/pipeline
+  license: Apache-2.0
   maintained: true
 ---
 

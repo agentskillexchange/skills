@@ -3,14 +3,14 @@ name: "Cypress Network Stub Generator"
 description: "Generates cy.intercept() stubs from recorded HAR files for deterministic E2E tests. Uses cy.session() for authentication caching and cy.origin() for cross-origin testing workflows."
 category: "Browser Automation"
 framework: "Codex"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cypress-network-stub-generator/"
 tool_ecosystem:
-  tool: "cypress"
+  tool: cypress
   github_stars: 49611
   npm_weekly_downloads: 7404178
-  github_repo: "cypress-io/cypress"
-  license: "MIT"
+  github_repo: cypress-io/cypress
+  license: MIT
   maintained: true
 ---
 

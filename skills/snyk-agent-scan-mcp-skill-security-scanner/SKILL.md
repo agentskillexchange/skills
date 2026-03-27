@@ -3,7 +3,7 @@ name: "Snyk Agent Scan MCP and Skill Security Scanner"
 description: "Snyk Agent Scan automatically discovers and scans AI agent components including MCP servers, agent skills, and agent harnesses for security vulnerabilities like prompt injections, tool poisoning, t..."
 category: "Security & Verification"
 framework: "MCP"
-verification: listed
+verification: "listed"
 source: "https://agentskillexchange.com/skills/snyk-agent-scan-mcp-skill-security-scanner/"
 ---
 
@@ -13,27 +13,32 @@ Snyk Agent Scan automatically discovers and scans AI agent components including 
 
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
-npx skills add snyk-agent-scan-mcp-skill-security-scanner
+npx skills add agentskillexchange/skills --skill snyk-agent-scan-mcp-skill-security-scanner
 ```
 
 ### Claude Code
+
 ```bash
-npx skills add snyk-agent-scan-mcp-skill-security-scanner --claude-code
+npx skills add agentskillexchange/skills --skill snyk-agent-scan-mcp-skill-security-scanner -a claude-code
 ```
 
 ### Cursor
+
 ```bash
-npx skills add snyk-agent-scan-mcp-skill-security-scanner --cursor
+npx skills add agentskillexchange/skills --skill snyk-agent-scan-mcp-skill-security-scanner -a cursor
 ```
 
 ### Codex
+
 ```bash
-npx skills add snyk-agent-scan-mcp-skill-security-scanner --codex
+npx skills add agentskillexchange/skills --skill snyk-agent-scan-mcp-skill-security-scanner -a codex
 ```
 
 ### OpenClaw
+
 ```bash
 clawhub install snyk-agent-scan-mcp-skill-security-scanner
 ```

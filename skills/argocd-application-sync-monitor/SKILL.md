@@ -3,13 +3,13 @@ name: "ArgoCD Application Sync Monitor"
 description: "Monitors ArgoCD application sync status via the ArgoCD REST API and argocd CLI. Detects OutOfSync conditions, tracks sync wave progress, and alerts on failed sync operations with detailed resource diff analysis using argocd app diff."
 category: "CI/CD Integrations"
 framework: "Claude Code"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/argocd-application-sync-monitor/"
 tool_ecosystem:
-  tool: "argocd"
+  tool: argocd
   github_stars: 22398
-  github_repo: "argoproj/argo-cd"
-  license: "Apache-2.0"
+  github_repo: argoproj/argo-cd
+  license: Apache-2.0
   maintained: true
 ---
 

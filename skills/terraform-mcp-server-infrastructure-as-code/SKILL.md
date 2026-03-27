@@ -3,7 +3,7 @@ name: "Terraform MCP Server for Infrastructure as Code"
 description: "The official HashiCorp Terraform MCP server integrates with the Terraform Registry and HCP Terraform, enabling AI agents to browse providers, discover modules, manage workspaces, and validate infrastructure configurations through the Model Context Protocol."
 category: "Developer Tools"
 framework: "MCP"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/terraform-mcp-server-infrastructure-as-code/"
 ---
 
@@ -25,27 +25,32 @@ With over 1,280 GitHub stars and active maintenance by HashiCorp, this server re
 
 ## Installation
 
-### Claude Code
+### Any Agent
+
 ```bash
-npx skills add agentskillexchange/skills/skills/terraform-mcp-server-infrastructure-as-code
+npx skills add agentskillexchange/skills --skill terraform-mcp-server-infrastructure-as-code
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill terraform-mcp-server-infrastructure-as-code -a claude-code
 ```
 
 ### Cursor
+
 ```bash
-npx skills add agentskillexchange/skills/skills/terraform-mcp-server-infrastructure-as-code
+npx skills add agentskillexchange/skills --skill terraform-mcp-server-infrastructure-as-code -a cursor
 ```
 
 ### Codex
+
 ```bash
-npx skills add agentskillexchange/skills/skills/terraform-mcp-server-infrastructure-as-code
+npx skills add agentskillexchange/skills --skill terraform-mcp-server-infrastructure-as-code -a codex
 ```
 
 ### OpenClaw
+
 ```bash
 clawhub install terraform-mcp-server-infrastructure-as-code
-```
-
-### Any Agent (npx)
-```bash
-npx skills add agentskillexchange/skills/skills/terraform-mcp-server-infrastructure-as-code
 ```

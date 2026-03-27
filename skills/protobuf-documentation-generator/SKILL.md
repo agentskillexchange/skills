@@ -3,14 +3,14 @@ name: "Protobuf Documentation Generator"
 description: "Generates API documentation from Protocol Buffer definitions using protoc-gen-doc and buf build toolchain. Produces Markdown, HTML, and DocJSON output with cross-linked message and service references."
 category: "Library & API Reference"
 framework: "Gemini"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/protobuf-documentation-generator/"
 tool_ecosystem:
-  tool: "grpc"
+  tool: grpc
   github_stars: 4816
   npm_weekly_downloads: 30883690
-  github_repo: "grpc/grpc-node"
-  license: "Apache-2.0"
+  github_repo: grpc/grpc-node
+  license: Apache-2.0
   maintained: true
 ---
 

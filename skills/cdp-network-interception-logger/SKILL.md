@@ -3,13 +3,13 @@ name: "CDP Network Interception Logger"
 description: "Uses Chrome DevTools Protocol Fetch.requestPaused and Network.responseReceived events to intercept, log, and modify HTTP traffic during browser automation. Exports HAR files compatible with Charles Proxy and supports request/response body modification."
 category: "Browser Automation"
 framework: "Codex"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cdp-network-interception-logger/"
 tool_ecosystem:
-  tool: "datadog"
+  tool: datadog
   github_stars: 789
   npm_weekly_downloads: 6043057
-  github_repo: "DataDog/dd-trace-js"
+  github_repo: DataDog/dd-trace-js
   maintained: true
 ---
 

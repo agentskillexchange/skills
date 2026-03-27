@@ -1,8 +1,9 @@
 ---
 name: "Atlassian MCP Server for Jira and Confluence"
 description: "mcp-atlassian is a Model Context Protocol server that connects AI assistants to Atlassian Jira and Confluence. It enables searching and managing Jira issues, reading and editing Confluence pages, and performing project management tasks through natural language via any MCP client."
+category: "Integrations & Connectors"
 framework: "MCP"
-verification: listed
+verification: "listed"
 source: "https://agentskillexchange.com/skills/atlassian-mcp-server-jira-confluence/"
 ---
 
@@ -12,29 +13,34 @@ mcp-atlassian is a Model Context Protocol server that connects AI assistants to 
 
 ## Installation
 
-### Claude Code
+### Any Agent
+
 ```bash
-npx skills add atlassian-mcp-server-jira-confluence
+npx skills add agentskillexchange/skills --skill atlassian-mcp-server-jira-confluence
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill atlassian-mcp-server-jira-confluence -a claude-code
 ```
 
 ### Cursor
+
 ```bash
-npx skills add atlassian-mcp-server-jira-confluence
+npx skills add agentskillexchange/skills --skill atlassian-mcp-server-jira-confluence -a cursor
 ```
 
 ### Codex
+
 ```bash
-npx skills add atlassian-mcp-server-jira-confluence
+npx skills add agentskillexchange/skills --skill atlassian-mcp-server-jira-confluence -a codex
 ```
 
 ### OpenClaw
+
 ```bash
 clawhub install atlassian-mcp-server-jira-confluence
-```
-
-### Any Agent
-```bash
-npx skills add atlassian-mcp-server-jira-confluence
 ```
 
 ## Source

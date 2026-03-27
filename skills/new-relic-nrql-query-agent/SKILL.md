@@ -3,14 +3,14 @@ name: "New Relic NRQL Query Agent"
 description: "Executes NRQL queries against New Relic’s GraphQL NerdGraph API for application performance monitoring. Generates automated SLA reports with percentile latency breakdowns and error budget calculations."
 category: "Monitoring & Alerts"
 framework: "Custom Agents"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/new-relic-nrql-query-agent/"
 tool_ecosystem:
-  tool: "slack"
+  tool: slack
   github_stars: 2899
   npm_weekly_downloads: 2433529
-  github_repo: "slackapi/bolt-js"
-  license: "MIT"
+  github_repo: slackapi/bolt-js
+  license: MIT
   maintained: true
 ---
 

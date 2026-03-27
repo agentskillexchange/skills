@@ -3,13 +3,13 @@ name: "ArgoCD Sync Manager"
 description: "Manages ArgoCD application syncs via the ArgoCD REST API /api/v1/applications/{name}/sync endpoint. Monitors sync status, handles rollback operations, and validates Kubernetes manifest health using argocd CLI diff commands."
 category: "CI/CD Integrations"
 framework: "Claude Agents"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/argocd-sync-manager-skill/"
 tool_ecosystem:
-  tool: "argocd"
+  tool: argocd
   github_stars: 22398
-  github_repo: "argoproj/argo-cd"
-  license: "Apache-2.0"
+  github_repo: argoproj/argo-cd
+  license: Apache-2.0
   maintained: true
 ---
 

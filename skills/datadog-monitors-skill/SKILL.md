@@ -3,13 +3,13 @@ name: "Datadog Monitors Skill"
 description: "Manages Datadog monitors and dashboards via the Datadog API v2. Lists triggered monitors, mutes/unmutes alert groups, and queries metric timeseries. Supports composite monitors and SLO tracking."
 category: "Monitoring & Alerts"
 framework: "Codex"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/datadog-monitors-skill/"
 tool_ecosystem:
-  tool: "datadog"
+  tool: datadog
   github_stars: 789
   npm_weekly_downloads: 6043057
-  github_repo: "DataDog/dd-trace-js"
+  github_repo: DataDog/dd-trace-js
   maintained: true
 ---
 

@@ -3,14 +3,14 @@ name: "ESLint Rule Auditor"
 description: "Audits ESLint configurations using @eslint/eslintrc and @eslint/js flat config APIs. Detects conflicting rules, deprecated configs, and generates migration paths from eslintrc to eslint.config.js flat config format."
 category: "Code Quality & Review"
 framework: "Cursor"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/eslint-rule-auditor-3/"
 tool_ecosystem:
-  tool: "eslint"
+  tool: eslint
   github_stars: 27185
   npm_weekly_downloads: 109028697
-  github_repo: "eslint/eslint"
-  license: "MIT"
+  github_repo: eslint/eslint
+  license: MIT
   maintained: true
 ---
 

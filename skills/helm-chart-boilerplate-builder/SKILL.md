@@ -3,13 +3,13 @@ name: "Helm Chart Boilerplate Builder"
 description: "Scaffolds Kubernetes Helm charts with values.yaml templating, ingress configuration, and HPA definitions. Uses helm-unittest for test generation and Chart Testing (ct) lint integration."
 category: "Templates & Workflows"
 framework: "Custom Agents"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/helm-chart-boilerplate-builder/"
 tool_ecosystem:
-  tool: "helm"
+  tool: helm
   github_stars: 29610
-  github_repo: "helm/helm"
-  license: "Apache-2.0"
+  github_repo: helm/helm
+  license: Apache-2.0
   maintained: true
 ---
 

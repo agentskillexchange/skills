@@ -3,7 +3,7 @@ name: "devenv Declarative Developer Environments with Nix"
 description: "A fast, declarative, and reproducible developer environment tool built on Nix. devenv lets teams define project dependencies, services, scripts, and language toolchains in a single configuration file, ensuring consistent environments across machines."
 category: "Developer Tools"
 framework: "Multi-Framework"
-verification: listed
+verification: "listed"
 source: "https://agentskillexchange.com/skills/devenv-declarative-developer-environments-nix/"
 ---
 
@@ -13,29 +13,34 @@ A fast, declarative, and reproducible developer environment tool built on Nix. d
 
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
-npx skills add "devenv-declarative-developer-environments-nix"
+npx skills add agentskillexchange/skills --skill devenv-declarative-developer-environments-nix
 ```
 
 ### Claude Code
+
 ```bash
-npx skills add "devenv-declarative-developer-environments-nix" --claude
+npx skills add agentskillexchange/skills --skill devenv-declarative-developer-environments-nix -a claude-code
 ```
 
 ### Cursor
+
 ```bash
-npx skills add "devenv-declarative-developer-environments-nix" --cursor
+npx skills add agentskillexchange/skills --skill devenv-declarative-developer-environments-nix -a cursor
 ```
 
 ### Codex
+
 ```bash
-npx skills add "devenv-declarative-developer-environments-nix" --codex
+npx skills add agentskillexchange/skills --skill devenv-declarative-developer-environments-nix -a codex
 ```
 
 ### OpenClaw
+
 ```bash
-clawhub install "devenv-declarative-developer-environments-nix"
+clawhub install devenv-declarative-developer-environments-nix
 ```
 
 ## Overview

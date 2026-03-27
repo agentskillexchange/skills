@@ -3,33 +3,38 @@ name: "textlint Pluggable Natural Language Linter"
 description: "Lint natural language text with textlint, the pluggable linting framework inspired by ESLint. Install community rules from npm to enforce writing standards, catch grammar issues, and maintain consistent documentation style across your project."
 category: "Content Writing & SEO"
 framework: "Multi-Framework"
-verification: listed
+verification: "listed"
 source: "https://agentskillexchange.com/skills/textlint-pluggable-natural-language-linter/"
 ---
 
 ## Installation
 
-### Any AI Agent (npx)
+### Any Agent
+
 ```bash
-npx @anthropic/agent-skills add textlint-pluggable-natural-language-linter
+npx skills add agentskillexchange/skills --skill textlint-pluggable-natural-language-linter
 ```
 
 ### Claude Code
+
 ```bash
-npx @anthropic/agent-skills add textlint-pluggable-natural-language-linter --target claude
+npx skills add agentskillexchange/skills --skill textlint-pluggable-natural-language-linter -a claude-code
 ```
 
 ### Cursor
+
 ```bash
-npx @anthropic/agent-skills add textlint-pluggable-natural-language-linter --target cursor
+npx skills add agentskillexchange/skills --skill textlint-pluggable-natural-language-linter -a cursor
 ```
 
 ### Codex
+
 ```bash
-npx @anthropic/agent-skills add textlint-pluggable-natural-language-linter --target codex
+npx skills add agentskillexchange/skills --skill textlint-pluggable-natural-language-linter -a codex
 ```
 
 ### OpenClaw
+
 ```bash
 clawhub install textlint-pluggable-natural-language-linter
 ```

@@ -3,13 +3,13 @@ name: "SonarQube Quality Gate Monitor"
 description: "Monitors SonarQube project quality gates via the Web API and blocks CI deployments when thresholds fail. Tracks technical debt trends across releases."
 category: "Code Quality & Review"
 framework: "OpenClaw"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sonarqube-quality-gate-monitor-3/"
 tool_ecosystem:
-  tool: "sonarqube"
+  tool: sonarqube
   github_stars: 10358
-  github_repo: "SonarSource/sonarqube"
-  license: "LGPL-3.0"
+  github_repo: SonarSource/sonarqube
+  license: LGPL-3.0
   maintained: true
 ---
 

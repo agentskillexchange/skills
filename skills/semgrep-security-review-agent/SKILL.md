@@ -3,13 +3,13 @@ name: "Semgrep Security Review Agent"
 description: "Performs SAST scanning using Semgrep CLI and Semgrep Registry rules. Detects OWASP Top 10 vulnerabilities, injection flaws, and insecure patterns with custom rule YAML authoring."
 category: "Code Quality & Review"
 framework: "Claude Agents"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/semgrep-security-review-agent/"
 tool_ecosystem:
-  tool: "semgrep"
+  tool: semgrep
   github_stars: 14551
-  github_repo: "semgrep/semgrep"
-  license: "LGPL-2.1"
+  github_repo: semgrep/semgrep
+  license: LGPL-2.1
   maintained: true
 ---
 

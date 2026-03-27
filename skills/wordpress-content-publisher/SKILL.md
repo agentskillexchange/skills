@@ -3,12 +3,12 @@ name: "WordPress Content Publisher"
 description: "Structured publishing workflow for WordPress drafts, metadata, and content operations."
 category: "WordPress & CMS"
 framework: "OpenClaw"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/wordpress-content-publisher/"
 tool_ecosystem:
-  tool: "wordpress"
+  tool: wordpress
   github_stars: 20976
-  github_repo: "WordPress/WordPress"
+  github_repo: WordPress/WordPress
   maintained: true
 ---
 

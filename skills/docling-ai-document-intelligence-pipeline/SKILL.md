@@ -3,14 +3,14 @@ name: "Docling AI Document Intelligence Pipeline"
 description: "Docling is an IBM-backed open-source toolkit that converts PDF, DOCX, PPTX, XLSX, HTML, images, audio, and LaTeX files into structured formats for gen AI workflows. It features advanced PDF layout understanding, OCR, table extraction, and integrations with LangChain, LlamaIndex, and CrewAI."
 category: "Data Extraction & Transformation"
 framework: "Claude Code"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/docling-ai-document-intelligence-pipeline/"
 tool_ecosystem:
-  tool: "langchain"
+  tool: langchain
   github_stars: 17323
   npm_weekly_downloads: 2137497
-  github_repo: "langchain-ai/langchainjs"
-  license: "MIT"
+  github_repo: langchain-ai/langchainjs
+  license: MIT
   maintained: true
 ---
 

@@ -3,14 +3,14 @@ name: "OpenAPI Spec Navigator"
 description: "Parses and navigates OpenAPI 3.1 specifications using swagger-parser and @apidevtools/json-schema-ref-parser. Resolves $ref chains, extracts endpoint signatures, and generates typed client stubs."
 category: "Library & API Reference"
 framework: "Cursor"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/openapi-spec-navigator/"
 tool_ecosystem:
-  tool: "swagger"
+  tool: swagger
   github_stars: 28703
   npm_weekly_downloads: 3219093
-  github_repo: "swagger-api/swagger-ui"
-  license: "Apache-2.0"
+  github_repo: swagger-api/swagger-ui
+  license: Apache-2.0
   maintained: true
 ---
 

@@ -3,14 +3,14 @@ name: "Podcast Transcription Pipeline"
 description: "Transcribes podcast episodes using OpenAI Whisper API with speaker diarization via pyannote.audio. Exports formatted transcripts to SRT, VTT, and searchable JSON with timestamped segments."
 category: "Media & Transcription"
 framework: "Codex"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/podcast-transcription-pipeline-agent/"
 tool_ecosystem:
-  tool: "whisper"
+  tool: whisper
   github_stars: 96570
   npm_weekly_downloads: 16275389
-  github_repo: "openai/whisper"
-  license: "MIT"
+  github_repo: openai/whisper
+  license: MIT
   maintained: true
 ---
 

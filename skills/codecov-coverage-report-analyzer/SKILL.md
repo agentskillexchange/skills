@@ -3,14 +3,14 @@ name: "Codecov Coverage Report Analyzer"
 description: "Integrates with the Codecov API v2 and codecov-cli to upload coverage reports, analyze coverage deltas, and enforce minimum thresholds. Supports lcov, cobertura, and jacoco report formats."
 category: "Code Quality & Review"
 framework: "Cursor"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/codecov-coverage-report-analyzer/"
 tool_ecosystem:
-  tool: "slack"
+  tool: slack
   github_stars: 2899
   npm_weekly_downloads: 2433529
-  github_repo: "slackapi/bolt-js"
-  license: "MIT"
+  github_repo: slackapi/bolt-js
+  license: MIT
   maintained: true
 ---
 

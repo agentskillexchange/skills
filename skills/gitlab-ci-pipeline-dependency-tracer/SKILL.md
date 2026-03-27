@@ -3,12 +3,12 @@ name: "GitLab CI Pipeline Dependency Tracer"
 description: "Traces job dependency chains in GitLab CI pipelines using the GitLab Jobs API and pipeline graph endpoints. Detects bottleneck stages that block parallel execution and suggests DAG refactoring. Integrates with the GitLab Merge Requests API to post optimization reports as MR comments."
 category: "CI/CD Integrations"
 framework: "Codex"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/gitlab-ci-pipeline-dependency-tracer/"
 tool_ecosystem:
-  tool: "gitlab"
+  tool: gitlab
   github_stars: 24278
-  github_repo: "gitlabhq/gitlabhq"
+  github_repo: gitlabhq/gitlabhq
   maintained: true
 ---
 

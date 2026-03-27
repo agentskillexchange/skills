@@ -3,7 +3,7 @@ name: "Cloudflare MCP Servers for Workers, Security, and Observability"
 description: "Official Cloudflare MCP servers that enable AI assistants to manage Workers applications, debug logs, analyze Radar traffic data, configure security settings, and interact with the full Cloudflare platform through natural language via the Model Context Protocol."
 category: "Integrations & Connectors"
 framework: "MCP"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cloudflare-mcp-servers-workers-security-observability/"
 ---
 
@@ -13,27 +13,32 @@ Official Cloudflare MCP servers that enable AI assistants to manage Workers appl
 
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
-npx skills add "cloudflare-mcp-servers-workers-security-observability"
+npx skills add agentskillexchange/skills --skill cloudflare-mcp-servers-workers-security-observability
 ```
 
 ### Claude Code
+
 ```bash
-npx skills add "cloudflare-mcp-servers-workers-security-observability" --claude
+npx skills add agentskillexchange/skills --skill cloudflare-mcp-servers-workers-security-observability -a claude-code
 ```
 
 ### Cursor
+
 ```bash
-npx skills add "cloudflare-mcp-servers-workers-security-observability" --cursor
+npx skills add agentskillexchange/skills --skill cloudflare-mcp-servers-workers-security-observability -a cursor
 ```
 
 ### Codex
+
 ```bash
-npx skills add "cloudflare-mcp-servers-workers-security-observability" --codex
+npx skills add agentskillexchange/skills --skill cloudflare-mcp-servers-workers-security-observability -a codex
 ```
 
 ### OpenClaw
+
 ```bash
-clawhub install "cloudflare-mcp-servers-workers-security-observability"
+clawhub install cloudflare-mcp-servers-workers-security-observability
 ```

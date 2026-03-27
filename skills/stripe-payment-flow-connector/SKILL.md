@@ -3,14 +3,14 @@ name: "Stripe Payment Flow Connector"
 description: "Integrates Stripe payment processing using stripe-node SDK including PaymentIntents, Checkout Sessions, Billing Portal, and webhook event verification with stripe.webhooks.constructEvent."
 category: "Integrations & Connectors"
 framework: "Cursor"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/stripe-payment-flow-connector/"
 tool_ecosystem:
-  tool: "stripe"
+  tool: stripe
   github_stars: 4377
   npm_weekly_downloads: 8442269
-  github_repo: "stripe/stripe-node"
-  license: "MIT"
+  github_repo: stripe/stripe-node
+  license: MIT
   maintained: true
 ---
 

@@ -3,10 +3,10 @@ name: "Stable Diffusion XL LoRA Trainer"
 description: "Fine-tune Stable Diffusion XL models with LoRA adapters using the diffusers library and Kohya-ss training scripts. Manages dataset preparation, training configuration, and checkpoint merging for custom image generation."
 category: "Image & Creative Automation"
 framework: "Custom Agents"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/stable-diffusion-xl-lora-trainer/"
 tool_ecosystem:
-  tool: "stable.diffusion"
+  tool: stable.diffusion
 ---
 
 # Stable Diffusion XL LoRA Trainer

@@ -3,7 +3,7 @@ name: "Infisical Open-Source Secret Management Platform"
 description: "Infisical is an open-source platform for managing application secrets, environment variables, and certificates across teams and infrastructure. This skill enables agents to sync secrets, rotate credentials, and manage PKI using the Infisical CLI and API."
 category: "Security & Verification"
 framework: "Custom Agents"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/infisical-secret-management-platform/"
 ---
 
@@ -13,27 +13,32 @@ Infisical is an open-source platform for managing application secrets, environme
 
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
-npx skills add "infisical-secret-management-platform"
+npx skills add agentskillexchange/skills --skill infisical-secret-management-platform
 ```
 
 ### Claude Code
+
 ```bash
-npx skills add "infisical-secret-management-platform" --claude
+npx skills add agentskillexchange/skills --skill infisical-secret-management-platform -a claude-code
 ```
 
 ### Cursor
+
 ```bash
-npx skills add "infisical-secret-management-platform" --cursor
+npx skills add agentskillexchange/skills --skill infisical-secret-management-platform -a cursor
 ```
 
 ### Codex
+
 ```bash
-npx skills add "infisical-secret-management-platform" --codex
+npx skills add agentskillexchange/skills --skill infisical-secret-management-platform -a codex
 ```
 
 ### OpenClaw
+
 ```bash
-clawhub install "infisical-secret-management-platform"
+clawhub install infisical-secret-management-platform
 ```

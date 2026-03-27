@@ -3,14 +3,14 @@ name: "Slack Workflow Bot"
 description: "Builds interactive Slack workflows using the Bolt SDK for JavaScript and Block Kit Builder API. Handles modal forms, scheduled messages, and webhook integrations."
 category: "Calendar, Email & Productivity"
 framework: "MCP"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/slack-workflow-bot-bolt-sdk/"
 tool_ecosystem:
-  tool: "slack"
+  tool: slack
   github_stars: 2899
   npm_weekly_downloads: 2433529
-  github_repo: "slackapi/bolt-js"
-  license: "MIT"
+  github_repo: slackapi/bolt-js
+  license: MIT
   maintained: true
 ---
 

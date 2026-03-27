@@ -3,7 +3,7 @@ name: "gron Greppable JSON Flattener"
 description: "gron transforms JSON into discrete assignment statements, making it possible to grep through complex JSON structures using standard Unix tools. It reverses the process with ungron, turning filtered assignments back into valid JSON."
 category: "Data Extraction & Transformation"
 framework: "Multi-Framework"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/gron-greppable-json-flattener/"
 ---
 
@@ -45,3 +45,35 @@ The core idea is straightforward: given a JSON object, gron outputs each value a
 gron also works in reverse. The --ungron flag (commonly aliased as ungron) takes filtered assignment lines and reconstructs valid JSON. This enables a pattern where you pipe JSON through gron, grep for the fields you need, and ungron the result back into a clean JSON subset. Developers use this for extracting specific branches from configuration files, comparing JSON diffs, and building ad-hoc data pipelines without writing code.
 The output is valid JavaScript, meaning you can also use it in scripting contexts. gron supports colorized output, monochrome mode for piping, and a JSON stream output format via --json. It ships as a single Go binary with no runtime dependencies, available through Homebrew, Go install, and prebuilt releases for Linux, macOS, Windows, and FreeBSD.
 With over 14,000 GitHub stars and an MIT license, gron has become a standard tool in the developer toolkit. It fills a gap between simple cat/grep workflows and full-featured JSON processors like jq, offering a zero-learning-curve approach to JSON exploration that works with existing shell knowledge.
+
+## Installation
+
+### Any Agent
+
+```bash
+npx skills add agentskillexchange/skills --skill gron-greppable-json-flattener
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill gron-greppable-json-flattener -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill gron-greppable-json-flattener -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill gron-greppable-json-flattener -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install gron-greppable-json-flattener
+```

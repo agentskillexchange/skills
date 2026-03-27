@@ -3,14 +3,14 @@ name: "Puppeteer PDF Renderer"
 description: "Generates pixel-perfect PDFs from web pages using Puppeteer with custom headers, footers, and page breaks. Supports authenticated pages via cookie injection."
 category: "Browser Automation"
 framework: "Cursor"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/puppeteer-pdf-renderer/"
 tool_ecosystem:
-  tool: "puppeteer"
+  tool: puppeteer
   github_stars: 93932
   npm_weekly_downloads: 8696130
-  github_repo: "puppeteer/puppeteer"
-  license: "Apache-2.0"
+  github_repo: puppeteer/puppeteer
+  license: Apache-2.0
   maintained: true
 ---
 

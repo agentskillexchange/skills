@@ -3,14 +3,14 @@ name: "PubMed Literature Mining Agent"
 description: "Queries the NCBI E-utilities API (esearch, efetch, elink) to retrieve PubMed biomedical literature, extracting MeSH terms, citation networks, and full-text links from PubMed Central via the PMC OAI-PMH service."
 category: "Research & Scraping"
 framework: "Gemini"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/pubmed-literature-mining-agent/"
 tool_ecosystem:
-  tool: "prisma"
+  tool: prisma
   github_stars: 45592
   npm_weekly_downloads: 9355280
-  github_repo: "prisma/prisma"
-  license: "Apache-2.0"
+  github_repo: prisma/prisma
+  license: Apache-2.0
   maintained: true
 ---
 

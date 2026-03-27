@@ -3,14 +3,14 @@ name: "ClickHouse Query Agent"
 description: "ClickHouse Query Agent is built around ClickHouse columnar analytics database. The underlying ecosystem is represented by ClickHouse/ClickHouse (46,508+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like SQL queries, MergeTree tables, materialized views, HTTP and native clients and […]"
 category: "Data Extraction & Transformation"
 framework: "Custom Agents"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/clickhouse-query-agent/"
 tool_ecosystem:
-  tool: "clickhouse"
+  tool: clickhouse
   github_stars: 46508
   npm_weekly_downloads: 1471334
-  github_repo: "ClickHouse/ClickHouse"
-  license: "Apache-2.0"
+  github_repo: ClickHouse/ClickHouse
+  license: Apache-2.0
   maintained: true
 ---
 

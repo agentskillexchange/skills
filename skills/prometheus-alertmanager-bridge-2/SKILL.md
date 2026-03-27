@@ -3,14 +3,14 @@ name: "Prometheus Alertmanager Bridge"
 description: "Bridges Prometheus Alertmanager notifications to Microsoft Teams, Discord, and Telegram using adaptive card templates and PromQL-based alert correlation."
 category: "Monitoring & Alerts"
 framework: "ChatGPT Agents"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/prometheus-alertmanager-bridge-2/"
 tool_ecosystem:
-  tool: "prometheus"
+  tool: prometheus
   github_stars: 63289
   npm_weekly_downloads: 5319832
-  github_repo: "prometheus/prometheus"
-  license: "Apache-2.0"
+  github_repo: prometheus/prometheus
+  license: Apache-2.0
   maintained: true
 ---
 

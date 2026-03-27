@@ -3,7 +3,7 @@ name: "Jujutsu Git-Compatible Version Control System"
 description: "Jujutsu (jj) is a powerful Git-compatible version control system that reimagines VCS workflows with automatic rebasing, first-class conflict tracking, and operation-log undo. Built in Rust with 27k+ GitHub stars, it works directly on existing Git repositories."
 category: "Developer Tools"
 framework: "Custom Agents"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jujutsu-jj-git-compatible-vcs/"
 ---
 
@@ -14,27 +14,32 @@ Jujutsu (jj) is a powerful Git-compatible version control system that reimagines
 
 ## Installation
 
-### Any AI Agent (npx)
+### Any Agent
+
 ```bash
-npx @anthropic/skills add jujutsu-jj-git-compatible-vcs
+npx skills add agentskillexchange/skills --skill jujutsu-jj-git-compatible-vcs
 ```
 
 ### Claude Code
+
 ```bash
-npx @anthropic/skills add jujutsu-jj-git-compatible-vcs
+npx skills add agentskillexchange/skills --skill jujutsu-jj-git-compatible-vcs -a claude-code
 ```
 
 ### Cursor
+
 ```bash
-npx @anthropic/skills add jujutsu-jj-git-compatible-vcs
+npx skills add agentskillexchange/skills --skill jujutsu-jj-git-compatible-vcs -a cursor
 ```
 
 ### Codex
+
 ```bash
-npx @anthropic/skills add jujutsu-jj-git-compatible-vcs
+npx skills add agentskillexchange/skills --skill jujutsu-jj-git-compatible-vcs -a codex
 ```
 
 ### OpenClaw
+
 ```bash
 clawhub install jujutsu-jj-git-compatible-vcs
 ```

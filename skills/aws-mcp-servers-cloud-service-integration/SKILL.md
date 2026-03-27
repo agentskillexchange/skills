@@ -3,7 +3,7 @@ name: "AWS MCP Servers for Cloud Service Integration"
 description: "The official AWS Labs MCP server collection provides AI agents with structured access to AWS documentation, service APIs, billing data, and infrastructure metadata through the Model Context Protocol, built and maintained by AWS for secure cloud automation workflows."
 category: "Data Extraction & Transformation"
 framework: "MCP"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/aws-mcp-servers-cloud-service-integration/"
 ---
 
@@ -25,27 +25,32 @@ Key use cases include infrastructure planning with current AWS best practices, t
 
 ## Installation
 
-### Claude Code
+### Any Agent
+
 ```bash
-npx skills add agentskillexchange/skills/skills/aws-mcp-servers-cloud-service-integration
+npx skills add agentskillexchange/skills --skill aws-mcp-servers-cloud-service-integration
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill aws-mcp-servers-cloud-service-integration -a claude-code
 ```
 
 ### Cursor
+
 ```bash
-npx skills add agentskillexchange/skills/skills/aws-mcp-servers-cloud-service-integration
+npx skills add agentskillexchange/skills --skill aws-mcp-servers-cloud-service-integration -a cursor
 ```
 
 ### Codex
+
 ```bash
-npx skills add agentskillexchange/skills/skills/aws-mcp-servers-cloud-service-integration
+npx skills add agentskillexchange/skills --skill aws-mcp-servers-cloud-service-integration -a codex
 ```
 
 ### OpenClaw
+
 ```bash
 clawhub install aws-mcp-servers-cloud-service-integration
-```
-
-### Any Agent (npx)
-```bash
-npx skills add agentskillexchange/skills/skills/aws-mcp-servers-cloud-service-integration
 ```

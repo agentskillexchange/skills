@@ -3,14 +3,14 @@ name: "Salesforce MCP Server"
 description: "Salesforce MCP Server is built around Salesforce CRM platform. The underlying ecosystem is represented by jsforce/jsforce (1,452+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like SOQL, REST API, objects, workflows, envelopes, records, sync and preserving the operational […]"
 category: "Integrations & Connectors"
 framework: "MCP"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/salesforce-mcp-server/"
 tool_ecosystem:
-  tool: "salesforce"
+  tool: salesforce
   github_stars: 1452
   npm_weekly_downloads: 804753
-  github_repo: "jsforce/jsforce"
-  license: "MIT"
+  github_repo: jsforce/jsforce
+  license: MIT
   maintained: true
 ---
 

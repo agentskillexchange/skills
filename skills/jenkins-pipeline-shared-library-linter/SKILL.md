@@ -3,13 +3,13 @@ name: "Jenkins Pipeline Shared Library Linter"
 description: "Lints Jenkins Declarative and Scripted pipeline syntax using the Jenkins REST API and the Jenkins CLI jar. Checks Jenkinsfile syntax against a live or sandbox Jenkins controller using the /pipeline-model-converter/validate endpoint. Reports errors with line numbers and suggested fixes."
 category: "CI/CD Integrations"
 framework: "Codex"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jenkins-pipeline-shared-library-linter/"
 tool_ecosystem:
-  tool: "jenkins"
+  tool: jenkins
   github_stars: 25122
-  github_repo: "jenkinsci/jenkins"
-  license: "MIT"
+  github_repo: jenkinsci/jenkins
+  license: MIT
   maintained: true
 ---
 

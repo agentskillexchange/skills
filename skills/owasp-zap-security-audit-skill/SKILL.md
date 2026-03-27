@@ -3,13 +3,13 @@ name: "OWASP ZAP Security Audit Skill"
 description: "Wraps OWASP ZAP API for automated web application security testing including active scan, spider crawl, and ajax spider endpoints. Generates structured findings reports with CWE classifications and OWASP Top 10 category mapping."
 category: "Security & Verification"
 framework: "Claude Code"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/owasp-zap-security-audit-skill/"
 tool_ecosystem:
-  tool: "owasp"
+  tool: owasp
   github_stars: 14900
-  github_repo: "zaproxy/zaproxy"
-  license: "Apache-2.0"
+  github_repo: zaproxy/zaproxy
+  license: Apache-2.0
   maintained: true
 ---
 

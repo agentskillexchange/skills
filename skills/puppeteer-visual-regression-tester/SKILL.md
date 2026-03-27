@@ -3,14 +3,14 @@ name: "Puppeteer Visual Regression Tester"
 description: "Automates visual regression testing using Puppeteer page.screenshot() with pixelmatch diffing. Captures full-page screenshots at multiple viewport sizes and generates HTML diff reports with highlighted change regions."
 category: "Browser Automation"
 framework: "Cursor"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/puppeteer-visual-regression-tester/"
 tool_ecosystem:
-  tool: "puppeteer"
+  tool: puppeteer
   github_stars: 93932
   npm_weekly_downloads: 8696130
-  github_repo: "puppeteer/puppeteer"
-  license: "Apache-2.0"
+  github_repo: puppeteer/puppeteer
+  license: Apache-2.0
   maintained: true
 ---
 

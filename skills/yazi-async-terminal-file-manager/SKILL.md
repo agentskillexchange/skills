@@ -3,7 +3,7 @@ name: "Yazi Async Terminal File Manager"
 description: "Yazi is a blazing-fast terminal file manager written in Rust with async I/O, image previews, Vim keybindings, and a Lua plugin system. It integrates with ripgrep, fd, fzf, and zoxide for a seamless developer workflow in the terminal."
 category: "Developer Tools"
 framework: "Custom Agents"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/yazi-async-terminal-file-manager/"
 ---
 
@@ -25,27 +25,32 @@ The output includes directory listings with metadata, file previews with syntax 
 
 ## Installation
 
-### Claude Code
+### Any Agent
+
 ```bash
-npx skills add agentskillexchange/skills/skills/yazi-async-terminal-file-manager
+npx skills add agentskillexchange/skills --skill yazi-async-terminal-file-manager
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill yazi-async-terminal-file-manager -a claude-code
 ```
 
 ### Cursor
+
 ```bash
-npx skills add agentskillexchange/skills/skills/yazi-async-terminal-file-manager
+npx skills add agentskillexchange/skills --skill yazi-async-terminal-file-manager -a cursor
 ```
 
 ### Codex
+
 ```bash
-npx skills add agentskillexchange/skills/skills/yazi-async-terminal-file-manager
+npx skills add agentskillexchange/skills --skill yazi-async-terminal-file-manager -a codex
 ```
 
 ### OpenClaw
+
 ```bash
 clawhub install yazi-async-terminal-file-manager
-```
-
-### Any Agent (npx)
-```bash
-npx skills add agentskillexchange/skills/skills/yazi-async-terminal-file-manager
 ```

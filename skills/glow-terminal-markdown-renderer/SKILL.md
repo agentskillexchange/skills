@@ -3,7 +3,7 @@ name: "Glow Terminal Markdown Renderer"
 description: "Glow is a terminal-based markdown reader by Charm that renders markdown files with syntax highlighting, word wrapping, and styled formatting directly in the CLI. It includes a TUI for browsing local markdown files and discovering documentation."
 category: "Developer Tools"
 framework: "Multi-Framework"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/glow-terminal-markdown-renderer/"
 ---
 
@@ -45,3 +45,35 @@ The simplest usage is glow README.md, which renders the file with styled output 
 The TUI mode, activated by running glow without arguments, provides a file browser that discovers markdown files in the current directory and subdirectories. It also detects Git repositories and shows their documentation. Users can navigate between files, search content, and read documentation without leaving the terminal. This is useful for browsing project documentation, changelogs, and internal wikis from the command line.
 Glow can read from stdin (cat doc.md | glow), local files, and URLs (glow https://raw.githubusercontent.com/...). It supports line numbers, mouse wheel scrolling in TUI mode, and can be configured via a YAML config file at ~/.config/glow/glow.yml. The --pager flag enables the built-in pager for long documents.
 With nearly 24,000 GitHub stars and an MIT license, Glow is one of the most popular CLI tools from the Charmbracelet ecosystem. It is available via Homebrew, apt, pacman, snap, Chocolatey, Scoop, Winget, and standalone binaries for Linux, macOS, Windows, FreeBSD, and Android (Termux).
+
+## Installation
+
+### Any Agent
+
+```bash
+npx skills add agentskillexchange/skills --skill glow-terminal-markdown-renderer
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill glow-terminal-markdown-renderer -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill glow-terminal-markdown-renderer -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill glow-terminal-markdown-renderer -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install glow-terminal-markdown-renderer
+```

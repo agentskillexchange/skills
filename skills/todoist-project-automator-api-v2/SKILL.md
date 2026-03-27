@@ -3,10 +3,10 @@ name: "Todoist Project Automator"
 description: "Automates Todoist project management using the Todoist REST API v2 and Sync API. Creates task templates, manages recurring workflows, and syncs with external project trackers."
 category: "Calendar, Email & Productivity"
 framework: "Gemini"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/todoist-project-automator-api-v2/"
 tool_ecosystem:
-  tool: "jira"
+  tool: jira
 ---
 
 # Todoist Project Automator

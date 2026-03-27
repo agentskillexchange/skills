@@ -3,13 +3,13 @@ name: "Semgrep Pattern Scanner"
 description: "Executes Semgrep CLI with custom YAML rules and the Semgrep Registry API to detect anti-patterns, vulnerabilities, and taint tracking violations. Outputs SARIF-formatted results for GitHub Security tab integration."
 category: "Code Quality & Review"
 framework: "Claude Code"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/semgrep-pattern-scanner/"
 tool_ecosystem:
-  tool: "semgrep"
+  tool: semgrep
   github_stars: 14551
-  github_repo: "semgrep/semgrep"
-  license: "LGPL-2.1"
+  github_repo: semgrep/semgrep
+  license: LGPL-2.1
   maintained: true
 ---
 

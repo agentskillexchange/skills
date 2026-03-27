@@ -3,14 +3,14 @@ name: "Puppeteer DevTools Protocol Recorder"
 description: "Records and replays Chrome DevTools Protocol (CDP) sessions via Puppeteer’s CDPSession API, captures Network, Performance, and Accessibility domain events, and exports HAR-compatible traces for CI regression testing."
 category: "Developer Tools"
 framework: "Cursor"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/puppeteer-devtools-protocol-recorder/"
 tool_ecosystem:
-  tool: "puppeteer"
+  tool: puppeteer
   github_stars: 93932
   npm_weekly_downloads: 8696130
-  github_repo: "puppeteer/puppeteer"
-  license: "Apache-2.0"
+  github_repo: puppeteer/puppeteer
+  license: Apache-2.0
   maintained: true
 ---
 

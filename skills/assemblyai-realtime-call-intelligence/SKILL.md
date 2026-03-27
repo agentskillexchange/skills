@@ -3,14 +3,14 @@ name: "AssemblyAI Real-Time Call Intelligence"
 description: "Streams audio from Twilio Media Streams over WebSocket to AssemblyAI real-time transcription, extracting speaker-diarized transcripts with word-level timestamps. Triggers entity detection and sentiment analysis via AssemblyAI LeMUR on completed call segments. Results are pushed to HubSpot or Salesforce contact records via their REST APIs."
 category: "Integrations & Connectors"
 framework: "Custom Agents"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/assemblyai-realtime-call-intelligence/"
 tool_ecosystem:
-  tool: "twilio"
+  tool: twilio
   github_stars: 1523
   npm_weekly_downloads: 3810383
-  github_repo: "twilio/twilio-node"
-  license: "MIT"
+  github_repo: twilio/twilio-node
+  license: MIT
   maintained: true
 ---
 

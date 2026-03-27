@@ -3,7 +3,7 @@ name: "Piper Local Neural Text-to-Speech Engine"
 description: "Run fast, high-quality neural text-to-speech locally with Piper. Supports 20+ languages with compact ONNX voice models, no cloud API required, and produces natural-sounding speech on CPUs including Raspberry Pi"
 category: "Media & Transcription"
 framework: "Custom Agents"
-verification: listed
+verification: "listed"
 source: "https://agentskillexchange.com/skills/piper-local-neural-tts-engine/"
 ---
 
@@ -13,27 +13,32 @@ Run fast, high-quality neural text-to-speech locally with Piper. Supports 20+ la
 
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
-npx skills add piper-local-neural-tts-engine
+npx skills add agentskillexchange/skills --skill piper-local-neural-tts-engine
 ```
 
 ### Claude Code
+
 ```bash
-npx skills add piper-local-neural-tts-engine --claude
+npx skills add agentskillexchange/skills --skill piper-local-neural-tts-engine -a claude-code
 ```
 
 ### Cursor
+
 ```bash
-npx skills add piper-local-neural-tts-engine --cursor
+npx skills add agentskillexchange/skills --skill piper-local-neural-tts-engine -a cursor
 ```
 
 ### Codex
+
 ```bash
-npx skills add piper-local-neural-tts-engine --codex
+npx skills add agentskillexchange/skills --skill piper-local-neural-tts-engine -a codex
 ```
 
 ### OpenClaw
+
 ```bash
 clawhub install piper-local-neural-tts-engine
 ```

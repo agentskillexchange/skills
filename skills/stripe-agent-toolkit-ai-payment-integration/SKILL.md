@@ -2,7 +2,8 @@
 name: "Stripe Agent Toolkit for AI Payment Integration"
 description: "The official Stripe Agent Toolkit provides Python and TypeScript libraries plus a hosted MCP server for integrating Stripe payment APIs with AI agent frameworks. Supports OpenAI, LangChain, CrewAI, and Vercel AI SDK through function calling with granular API key permissions."
 category: "Integrations & Connectors"
-verification: listed
+framework: "MCP"
+verification: "listed"
 source: "https://agentskillexchange.com/skills/stripe-agent-toolkit-ai-payment-integration/"
 ---
 
@@ -12,12 +13,32 @@ The official Stripe Agent Toolkit provides Python and TypeScript libraries plus 
 
 ## Installation
 
-### Any AI Agent / Claude Code / Cursor / Codex
+### Any Agent
+
 ```bash
-npx skills add stripe-agent-toolkit-ai-payment-integration
+npx skills add agentskillexchange/skills --skill stripe-agent-toolkit-ai-payment-integration
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill stripe-agent-toolkit-ai-payment-integration -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill stripe-agent-toolkit-ai-payment-integration -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill stripe-agent-toolkit-ai-payment-integration -a codex
 ```
 
 ### OpenClaw
+
 ```bash
 clawhub install stripe-agent-toolkit-ai-payment-integration
 ```

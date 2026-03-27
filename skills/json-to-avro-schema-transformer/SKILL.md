@@ -3,14 +3,14 @@ name: "JSON-to-Avro Schema Transformer"
 description: "Transforms JSON Schema definitions into Apache Avro schema format using the jsonschema and fastavro Python libraries. Handles nested objects, arrays, optional fields, and $ref resolution. Registers the resulting Avro schema to Confluent Schema Registry via the Schema Registry REST API."
 category: "Data Extraction & Transformation"
 framework: "OpenClaw"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/json-to-avro-schema-transformer/"
 tool_ecosystem:
-  tool: "kafka"
+  tool: kafka
   github_stars: 3988
   npm_weekly_downloads: 2396148
-  github_repo: "tulios/kafkajs"
-  license: "MIT"
+  github_repo: tulios/kafkajs
+  license: MIT
   maintained: false
 ---
 

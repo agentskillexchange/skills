@@ -3,7 +3,7 @@ name: "Playwright MCP Server for Browser Automation"
 description: "The official Microsoft Playwright MCP server provides browser automation capabilities through the Model Context Protocol, enabling LLMs to interact with web pages via structured accessibility snapshots without requiring vision models or screenshots."
 category: "Browser Automation"
 framework: "MCP"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/playwright-mcp-server-browser-automation/"
 ---
 
@@ -25,27 +25,32 @@ For coding agents that need high-throughput browser interaction, Microsoft also 
 
 ## Installation
 
-### Claude Code
+### Any Agent
+
 ```bash
-npx skills add agentskillexchange/skills/skills/playwright-mcp-server-browser-automation
+npx skills add agentskillexchange/skills --skill playwright-mcp-server-browser-automation
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill playwright-mcp-server-browser-automation -a claude-code
 ```
 
 ### Cursor
+
 ```bash
-npx skills add agentskillexchange/skills/skills/playwright-mcp-server-browser-automation
+npx skills add agentskillexchange/skills --skill playwright-mcp-server-browser-automation -a cursor
 ```
 
 ### Codex
+
 ```bash
-npx skills add agentskillexchange/skills/skills/playwright-mcp-server-browser-automation
+npx skills add agentskillexchange/skills --skill playwright-mcp-server-browser-automation -a codex
 ```
 
 ### OpenClaw
+
 ```bash
 clawhub install playwright-mcp-server-browser-automation
-```
-
-### Any Agent (npx)
-```bash
-npx skills add agentskillexchange/skills/skills/playwright-mcp-server-browser-automation
 ```

@@ -2,7 +2,8 @@
 name: "Supergateway MCP Transport Bridge"
 description: "Supergateway enables running MCP stdio-based servers over SSE, WebSockets, or Streamable HTTP with a single command. Essential infrastructure for remote MCP server access, debugging, and connecting clients across network boundaries with Docker and OAuth support."
 category: "Developer Tools"
-verification: listed
+framework: "MCP"
+verification: "listed"
 source: "https://agentskillexchange.com/skills/supergateway-mcp-transport-bridge/"
 ---
 
@@ -12,12 +13,32 @@ Supergateway enables running MCP stdio-based servers over SSE, WebSockets, or St
 
 ## Installation
 
-### Any AI Agent / Claude Code / Cursor / Codex
+### Any Agent
+
 ```bash
-npx skills add supergateway-mcp-transport-bridge
+npx skills add agentskillexchange/skills --skill supergateway-mcp-transport-bridge
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill supergateway-mcp-transport-bridge -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill supergateway-mcp-transport-bridge -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill supergateway-mcp-transport-bridge -a codex
 ```
 
 ### OpenClaw
+
 ```bash
 clawhub install supergateway-mcp-transport-bridge
 ```

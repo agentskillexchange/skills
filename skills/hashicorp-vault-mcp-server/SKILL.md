@@ -3,12 +3,12 @@ name: "HashiCorp Vault MCP Server"
 description: "The official HashiCorp Vault MCP server lets AI assistants read, write, list, and delete secrets in Vault’s KV engine through a safe, auditable MCP interface. Supports both stdio and HTTP transports, TLS encryption, and CORS controls."
 category: "Security & Verification"
 framework: "MCP"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/hashicorp-vault-mcp-server/"
 tool_ecosystem:
-  tool: "vault"
+  tool: vault
   github_stars: 35275
-  github_repo: "hashicorp/vault"
+  github_repo: hashicorp/vault
   maintained: true
 ---
 

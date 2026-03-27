@@ -3,33 +3,38 @@ name: "Beets Music Library Manager and Tagger"
 description: "Manage and tag music libraries with beets, the Python-based CLI tool that auto-tags audio files using MusicBrainz metadata. Import, organize, deduplicate, and query your music collection with a powerful plugin system and flexible query language."
 category: "Media & Transcription"
 framework: "Custom Agents"
-verification: listed
+verification: "listed"
 source: "https://agentskillexchange.com/skills/beets-music-library-manager-tagger/"
 ---
 
 ## Installation
 
-### Any AI Agent (npx)
+### Any Agent
+
 ```bash
-npx @anthropic/agent-skills add beets-music-library-manager-tagger
+npx skills add agentskillexchange/skills --skill beets-music-library-manager-tagger
 ```
 
 ### Claude Code
+
 ```bash
-npx @anthropic/agent-skills add beets-music-library-manager-tagger --target claude
+npx skills add agentskillexchange/skills --skill beets-music-library-manager-tagger -a claude-code
 ```
 
 ### Cursor
+
 ```bash
-npx @anthropic/agent-skills add beets-music-library-manager-tagger --target cursor
+npx skills add agentskillexchange/skills --skill beets-music-library-manager-tagger -a cursor
 ```
 
 ### Codex
+
 ```bash
-npx @anthropic/agent-skills add beets-music-library-manager-tagger --target codex
+npx skills add agentskillexchange/skills --skill beets-music-library-manager-tagger -a codex
 ```
 
 ### OpenClaw
+
 ```bash
 clawhub install beets-music-library-manager-tagger
 ```

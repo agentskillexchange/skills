@@ -3,14 +3,14 @@ name: "Crunchbase Company Intelligence Scraper"
 description: "Extracts company profiles, funding rounds, and investor data using the Crunchbase Enterprise API v4 with autocomplete, search, and entity lookup endpoints. Builds competitive landscape maps with funding timeline visualizations."
 category: "Research & Scraping"
 framework: "Custom Agents"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/crunchbase-company-intelligence-scraper/"
 tool_ecosystem:
-  tool: "hubspot"
+  tool: hubspot
   github_stars: 391
   npm_weekly_downloads: 905578
-  github_repo: "HubSpot/hubspot-api-nodejs"
-  license: "Apache-2.0"
+  github_repo: HubSpot/hubspot-api-nodejs
+  license: Apache-2.0
   maintained: true
 ---
 

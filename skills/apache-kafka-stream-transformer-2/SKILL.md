@@ -3,14 +3,14 @@ name: "Apache Kafka Stream Transformer"
 description: "Processes real-time event streams using KafkaJS consumer groups and transforms messages with configurable schemas. Handles partition rebalancing, offset commits, and dead-letter queue routing for failed transformations."
 category: "Data Extraction & Transformation"
 framework: "Cursor"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/apache-kafka-stream-transformer-2/"
 tool_ecosystem:
-  tool: "kafka"
+  tool: kafka
   github_stars: 3988
   npm_weekly_downloads: 2396148
-  github_repo: "tulios/kafkajs"
-  license: "MIT"
+  github_repo: tulios/kafkajs
+  license: MIT
   maintained: false
 ---
 

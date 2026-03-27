@@ -3,14 +3,14 @@ name: "VS Code Extension Scaffolder"
 description: "Scaffolds VS Code extensions using the vscode-extension API with TypeScript, including commands, webview panels, language servers via LSP, and custom tree view providers."
 category: "Developer Tools"
 framework: "Cursor"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/vscode-extension-scaffolder-agent/"
 tool_ecosystem:
-  tool: "webpack"
+  tool: webpack
   github_stars: 66013
   npm_weekly_downloads: 44849699
-  github_repo: "webpack/webpack"
-  license: "MIT"
+  github_repo: webpack/webpack
+  license: MIT
   maintained: true
 ---
 

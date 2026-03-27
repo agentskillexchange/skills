@@ -3,14 +3,14 @@ name: "PagerDuty Event Orchestration Runbook"
 description: "Builds incident runbooks around the PagerDuty Events API v2, Incidents API, and Response Plays so agents can classify alerts, enrich context, and drive consistent handoffs. Useful when noisy monitoring signals need a repeatable escalation flow instead of ad hoc human triage."
 category: "Runbooks & Diagnostics"
 framework: "OpenClaw"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/pagerduty-event-orchestration-runbook/"
 tool_ecosystem:
-  tool: "pagerduty"
+  tool: pagerduty
   github_stars: 69
   npm_weekly_downloads: 210829
-  github_repo: "PagerDuty/pdjs"
-  license: "Apache-2.0"
+  github_repo: PagerDuty/pdjs
+  license: Apache-2.0
   maintained: false
 ---
 

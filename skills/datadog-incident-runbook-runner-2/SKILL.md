@@ -3,13 +3,13 @@ name: "Datadog Incident Runbook Runner"
 description: "Fetches an active Datadog incident, retrieves associated monitors and dashboards, pulls the last 30 minutes of metric data, and walks through a runbook checklist with automated triage steps. Reduces mean time to diagnosis by surfacing signal without dashboard navigation."
 category: "Runbooks & Diagnostics"
 framework: "OpenClaw"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/datadog-incident-runbook-runner-2/"
 tool_ecosystem:
-  tool: "datadog"
+  tool: datadog
   github_stars: 789
   npm_weekly_downloads: 6043057
-  github_repo: "DataDog/dd-trace-js"
+  github_repo: DataDog/dd-trace-js
   maintained: true
 ---
 

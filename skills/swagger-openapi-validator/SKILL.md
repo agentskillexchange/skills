@@ -3,14 +3,14 @@ name: "Swagger / OpenAPI Validator"
 description: "Swagger / OpenAPI Validator is built around Swagger/OpenAPI tooling. The underlying ecosystem is represented by swagger-api/swagger-ui (28,702+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like spec validation, schemas, client generation, Swagger UI, examples, refs and preserving the […]"
 category: "Library & API Reference"
 framework: "Claude Code"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/swagger-openapi-validator/"
 tool_ecosystem:
-  tool: "swagger"
+  tool: swagger
   github_stars: 28703
   npm_weekly_downloads: 3219093
-  github_repo: "swagger-api/swagger-ui"
-  license: "Apache-2.0"
+  github_repo: swagger-api/swagger-ui
+  license: Apache-2.0
   maintained: true
 ---
 

@@ -3,7 +3,7 @@ name: "Restic Fast Encrypted Backup Program"
 description: "Restic is a fast, secure, and efficient backup program supporting local, SFTP, S3, Azure, GCS, and many other storage backends. Written in Go with 32k+ GitHub stars, it features deduplication, encryption, and snapshot-based incremental backups."
 category: "Developer Tools"
 framework: "Custom Agents"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/restic-encrypted-backup-tool/"
 ---
 
@@ -14,27 +14,32 @@ Restic is a fast, secure, and efficient backup program supporting local, SFTP, S
 
 ## Installation
 
-### Any AI Agent (npx)
+### Any Agent
+
 ```bash
-npx @anthropic/skills add restic-encrypted-backup-tool
+npx skills add agentskillexchange/skills --skill restic-encrypted-backup-tool
 ```
 
 ### Claude Code
+
 ```bash
-npx @anthropic/skills add restic-encrypted-backup-tool
+npx skills add agentskillexchange/skills --skill restic-encrypted-backup-tool -a claude-code
 ```
 
 ### Cursor
+
 ```bash
-npx @anthropic/skills add restic-encrypted-backup-tool
+npx skills add agentskillexchange/skills --skill restic-encrypted-backup-tool -a cursor
 ```
 
 ### Codex
+
 ```bash
-npx @anthropic/skills add restic-encrypted-backup-tool
+npx skills add agentskillexchange/skills --skill restic-encrypted-backup-tool -a codex
 ```
 
 ### OpenClaw
+
 ```bash
 clawhub install restic-encrypted-backup-tool
 ```

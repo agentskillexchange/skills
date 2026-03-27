@@ -3,13 +3,13 @@ name: "Jenkins Declarative Pipeline Generator"
 description: "Generates Jenkins Declarative Pipelines using the Pipeline Model Definition Plugin API and Jenkins shared library conventions. Integrates with the Jenkins REST API for job provisioning and credentials management."
 category: "CI/CD Integrations"
 framework: "OpenClaw"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jenkins-declarative-pipeline-generator-2/"
 tool_ecosystem:
-  tool: "jenkins"
+  tool: jenkins
   github_stars: 25122
-  github_repo: "jenkinsci/jenkins"
-  license: "MIT"
+  github_repo: jenkinsci/jenkins
+  license: MIT
   maintained: true
 ---
 

@@ -3,14 +3,14 @@ name: "OpenAPI Spec Changelog Generator"
 description: "Compares OpenAPI 3.x specification files using the oasdiff library to detect breaking changes, deprecated endpoints, and schema modifications. Outputs structured changelogs in Markdown or JSON."
 category: "Library & API Reference"
 framework: "Cursor"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/openapi-spec-changelog-generator/"
 tool_ecosystem:
-  tool: "swagger"
+  tool: swagger
   github_stars: 28703
   npm_weekly_downloads: 3219093
-  github_repo: "swagger-api/swagger-ui"
-  license: "Apache-2.0"
+  github_repo: swagger-api/swagger-ui
+  license: Apache-2.0
   maintained: true
 ---
 

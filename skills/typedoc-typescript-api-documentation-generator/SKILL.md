@@ -3,7 +3,7 @@ name: "TypeDoc TypeScript API Documentation Generator"
 description: "TypeDoc is the standard documentation generator for TypeScript projects. It reads TypeScript source code and JSDoc comments to produce structured HTML documentation or JSON models. With 8,000+ GitH..."
 category: "Library & API Reference"
 framework: "Custom Agents"
-verification: listed
+verification: "listed"
 source: "https://agentskillexchange.com/skills/typedoc-typescript-api-documentation-generator/"
 ---
 
@@ -13,27 +13,32 @@ TypeDoc is the standard documentation generator for TypeScript projects. It read
 
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
-npx skills add typedoc-typescript-api-documentation-generator
+npx skills add agentskillexchange/skills --skill typedoc-typescript-api-documentation-generator
 ```
 
 ### Claude Code
+
 ```bash
-npx skills add typedoc-typescript-api-documentation-generator --claude-code
+npx skills add agentskillexchange/skills --skill typedoc-typescript-api-documentation-generator -a claude-code
 ```
 
 ### Cursor
+
 ```bash
-npx skills add typedoc-typescript-api-documentation-generator --cursor
+npx skills add agentskillexchange/skills --skill typedoc-typescript-api-documentation-generator -a cursor
 ```
 
 ### Codex
+
 ```bash
-npx skills add typedoc-typescript-api-documentation-generator --codex
+npx skills add agentskillexchange/skills --skill typedoc-typescript-api-documentation-generator -a codex
 ```
 
 ### OpenClaw
+
 ```bash
 clawhub install typedoc-typescript-api-documentation-generator
 ```

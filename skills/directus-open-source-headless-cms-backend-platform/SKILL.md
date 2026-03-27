@@ -1,9 +1,9 @@
 ---
 name: "Directus Open-Source Headless CMS and Backend Platform"
-description: "Directus is an open-source headless CMS that wraps any SQL database with instant REST and GraphQL APIs, a no-code admin panel, and granular role-based access control. It turns existing databases into "
+description: "Directus is an open-source headless CMS that wraps any SQL database with instant REST and GraphQL APIs, a no-code admin panel, and granular role-based access control. It turns existing databases into"
 category: "WordPress & CMS"
 framework: "Multi-Framework"
-verification: listed
+verification: "listed"
 source: "https://agentskillexchange.com/skills/directus-open-source-headless-cms-backend-platform/"
 ---
 
@@ -13,27 +13,32 @@ Directus is an open-source headless CMS that wraps any SQL database with instant
 
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
-npx skills add directus-open-source-headless-cms-backend-platform
+npx skills add agentskillexchange/skills --skill directus-open-source-headless-cms-backend-platform
 ```
 
 ### Claude Code
+
 ```bash
-npx skills add directus-open-source-headless-cms-backend-platform --claude-code
+npx skills add agentskillexchange/skills --skill directus-open-source-headless-cms-backend-platform -a claude-code
 ```
 
 ### Cursor
+
 ```bash
-npx skills add directus-open-source-headless-cms-backend-platform --cursor
+npx skills add agentskillexchange/skills --skill directus-open-source-headless-cms-backend-platform -a cursor
 ```
 
 ### Codex
+
 ```bash
-npx skills add directus-open-source-headless-cms-backend-platform --codex
+npx skills add agentskillexchange/skills --skill directus-open-source-headless-cms-backend-platform -a codex
 ```
 
 ### OpenClaw
+
 ```bash
 clawhub install directus-open-source-headless-cms-backend-platform
 ```

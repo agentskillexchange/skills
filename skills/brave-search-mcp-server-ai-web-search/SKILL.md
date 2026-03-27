@@ -1,8 +1,9 @@
 ---
 name: "Brave Search MCP Server for AI Web Search"
 description: "The official Brave Search MCP server integrates the Brave Search API with AI assistants, providing comprehensive web search, local business search, image search, video search, news search, and AI-powered summarization capabilities through the Model Context Protocol."
+category: "Research & Scraping"
 framework: "MCP"
-verification: listed
+verification: "listed"
 source: "https://agentskillexchange.com/skills/brave-search-mcp-server-ai-web-search/"
 ---
 
@@ -12,29 +13,34 @@ The official Brave Search MCP server integrates the Brave Search API with AI ass
 
 ## Installation
 
-### Claude Code
+### Any Agent
+
 ```bash
-npx skills add brave-search-mcp-server-ai-web-search
+npx skills add agentskillexchange/skills --skill brave-search-mcp-server-ai-web-search
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill brave-search-mcp-server-ai-web-search -a claude-code
 ```
 
 ### Cursor
+
 ```bash
-npx skills add brave-search-mcp-server-ai-web-search
+npx skills add agentskillexchange/skills --skill brave-search-mcp-server-ai-web-search -a cursor
 ```
 
 ### Codex
+
 ```bash
-npx skills add brave-search-mcp-server-ai-web-search
+npx skills add agentskillexchange/skills --skill brave-search-mcp-server-ai-web-search -a codex
 ```
 
 ### OpenClaw
+
 ```bash
 clawhub install brave-search-mcp-server-ai-web-search
-```
-
-### Any Agent
-```bash
-npx skills add brave-search-mcp-server-ai-web-search
 ```
 
 ## Source

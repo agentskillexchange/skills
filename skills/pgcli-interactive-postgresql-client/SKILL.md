@@ -3,7 +3,7 @@ name: "pgcli Interactive PostgreSQL Client with Autocompletion"
 description: "pgcli is an interactive PostgreSQL CLI with context-aware autocompletion, syntax highlighting, and multi-line query editing. Part of the dbcli project with 13k+ GitHub stars, it makes database exploration and query writing dramatically more productive."
 category: "Developer Tools"
 framework: "Custom Agents"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/pgcli-interactive-postgresql-client/"
 ---
 
@@ -14,27 +14,32 @@ pgcli is an interactive PostgreSQL CLI with context-aware autocompletion, syntax
 
 ## Installation
 
-### Any AI Agent (npx)
+### Any Agent
+
 ```bash
-npx @anthropic/skills add pgcli-interactive-postgresql-client
+npx skills add agentskillexchange/skills --skill pgcli-interactive-postgresql-client
 ```
 
 ### Claude Code
+
 ```bash
-npx @anthropic/skills add pgcli-interactive-postgresql-client
+npx skills add agentskillexchange/skills --skill pgcli-interactive-postgresql-client -a claude-code
 ```
 
 ### Cursor
+
 ```bash
-npx @anthropic/skills add pgcli-interactive-postgresql-client
+npx skills add agentskillexchange/skills --skill pgcli-interactive-postgresql-client -a cursor
 ```
 
 ### Codex
+
 ```bash
-npx @anthropic/skills add pgcli-interactive-postgresql-client
+npx skills add agentskillexchange/skills --skill pgcli-interactive-postgresql-client -a codex
 ```
 
 ### OpenClaw
+
 ```bash
 clawhub install pgcli-interactive-postgresql-client
 ```

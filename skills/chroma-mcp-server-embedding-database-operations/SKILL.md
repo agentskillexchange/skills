@@ -3,7 +3,7 @@ name: "Chroma MCP Server for Embedding Database Operations"
 description: "An official MCP server for the Chroma open-source embedding database. Enables AI agents to create collections, add documents, perform vector search, full-text search, and metadata filtering through the Model Context Protocol."
 category: "Integrations & Connectors"
 framework: "MCP"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/chroma-mcp-server-embedding-database-operations/"
 ---
 
@@ -13,27 +13,32 @@ An official MCP server for the Chroma open-source embedding database. Enables AI
 
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
-npx skills add "chroma-mcp-server-embedding-database-operations"
+npx skills add agentskillexchange/skills --skill chroma-mcp-server-embedding-database-operations
 ```
 
 ### Claude Code
+
 ```bash
-npx skills add "chroma-mcp-server-embedding-database-operations" --claude
+npx skills add agentskillexchange/skills --skill chroma-mcp-server-embedding-database-operations -a claude-code
 ```
 
 ### Cursor
+
 ```bash
-npx skills add "chroma-mcp-server-embedding-database-operations" --cursor
+npx skills add agentskillexchange/skills --skill chroma-mcp-server-embedding-database-operations -a cursor
 ```
 
 ### Codex
+
 ```bash
-npx skills add "chroma-mcp-server-embedding-database-operations" --codex
+npx skills add agentskillexchange/skills --skill chroma-mcp-server-embedding-database-operations -a codex
 ```
 
 ### OpenClaw
+
 ```bash
-clawhub install "chroma-mcp-server-embedding-database-operations"
+clawhub install chroma-mcp-server-embedding-database-operations
 ```

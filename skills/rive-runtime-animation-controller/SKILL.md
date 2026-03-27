@@ -3,14 +3,14 @@ name: "Rive Runtime Animation Controller"
 description: "Controls Rive (.riv) interactive animations at runtime using @rive-app/canvas-advanced, manages state machine inputs, and synchronizes animation states with application data via the Rive WASM runtime."
 category: "Image & Creative Automation"
 framework: "ChatGPT Agents"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/rive-runtime-animation-controller/"
 tool_ecosystem:
-  tool: "react"
+  tool: react
   github_stars: 244163
   npm_weekly_downloads: 104796073
-  github_repo: "facebook/react"
-  license: "MIT"
+  github_repo: facebook/react
+  license: MIT
   maintained: true
 ---
 

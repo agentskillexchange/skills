@@ -3,14 +3,14 @@ name: "AsyncAPI Event Catalog Builder"
 description: "Generates event-driven architecture documentation from AsyncAPI 3.0 specifications. Uses the AsyncAPI parser-js library to extract channels, message schemas, and server bindings for Kafka and RabbitMQ."
 category: "Library & API Reference"
 framework: "Gemini"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/asyncapi-event-catalog-builder/"
 tool_ecosystem:
-  tool: "kafka"
+  tool: kafka
   github_stars: 3988
   npm_weekly_downloads: 2396148
-  github_repo: "tulios/kafkajs"
-  license: "MIT"
+  github_repo: tulios/kafkajs
+  license: MIT
   maintained: false
 ---
 

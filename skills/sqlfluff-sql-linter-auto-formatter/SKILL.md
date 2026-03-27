@@ -3,12 +3,12 @@ name: "SQLFluff SQL Linter and Auto-Formatter"
 description: "Lint and auto-format SQL code across 30+ dialects using SQLFluff. Enforces consistent style, catches syntax issues, and supports Jinja/dbt templating for ELT workflows."
 category: "Code Quality & Review"
 framework: "Claude Code"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sqlfluff-sql-linter-auto-formatter/"
 tool_ecosystem:
-  tool: "dbt"
+  tool: dbt
   github_stars: 12460
-  github_repo: "dbt-labs/dbt-core"
+  github_repo: dbt-labs/dbt-core
   maintained: true
 ---
 

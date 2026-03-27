@@ -3,7 +3,7 @@ name: "sqlite-vec Vector Search Extension for SQLite"
 description: "sqlite-vec is a lightweight SQLite extension for vector similarity search. Written in pure C with zero dependencies, it runs anywhere SQLite runs — Linux, macOS, Windows, WASM in browsers, and Raspberry Pis — and supports float, int8, and binary vector storage."
 category: "Developer Tools"
 framework: "Custom Agents"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sqlite-vec-vector-search-extension-sqlite/"
 ---
 
@@ -13,27 +13,32 @@ sqlite-vec is a lightweight SQLite extension for vector similarity search. Writt
 
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
-npx @anthropic/skills add sqlite-vec-vector-search-extension-sqlite
+npx skills add agentskillexchange/skills --skill sqlite-vec-vector-search-extension-sqlite
 ```
 
 ### Claude Code
+
 ```bash
-npx @anthropic/skills add sqlite-vec-vector-search-extension-sqlite
+npx skills add agentskillexchange/skills --skill sqlite-vec-vector-search-extension-sqlite -a claude-code
 ```
 
 ### Cursor
+
 ```bash
-npx @anthropic/skills add sqlite-vec-vector-search-extension-sqlite
+npx skills add agentskillexchange/skills --skill sqlite-vec-vector-search-extension-sqlite -a cursor
 ```
 
 ### Codex
+
 ```bash
-npx @anthropic/skills add sqlite-vec-vector-search-extension-sqlite
+npx skills add agentskillexchange/skills --skill sqlite-vec-vector-search-extension-sqlite -a codex
 ```
 
 ### OpenClaw
+
 ```bash
 clawhub install sqlite-vec-vector-search-extension-sqlite
 ```

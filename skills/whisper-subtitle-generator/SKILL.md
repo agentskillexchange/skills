@@ -3,14 +3,14 @@ name: "Whisper Subtitle Generator"
 description: "Generates accurate subtitles and captions using OpenAI Whisper API with word-level timestamps. Outputs SRT, VTT, and ASS formats with configurable line length and speaker diarization via pyannote."
 category: "Media & Transcription"
 framework: "Gemini"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/whisper-subtitle-generator/"
 tool_ecosystem:
-  tool: "whisper"
+  tool: whisper
   github_stars: 96570
   npm_weekly_downloads: 16275389
-  github_repo: "openai/whisper"
-  license: "MIT"
+  github_repo: openai/whisper
+  license: MIT
   maintained: true
 ---
 

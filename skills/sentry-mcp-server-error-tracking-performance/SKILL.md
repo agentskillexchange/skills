@@ -3,7 +3,7 @@ name: "Sentry MCP Server for Error Tracking and Performance"
 description: "The official Sentry MCP server gives AI agents access to Sentry error tracking, issue management, and performance telemetry through the Model Context Protocol, enabling automated incident triage, error analysis, and release monitoring workflows."
 category: "Monitoring & Alerts"
 framework: "MCP"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sentry-mcp-server-error-tracking-performance/"
 ---
 
@@ -25,27 +25,32 @@ With over 600 GitHub stars and active development from the Sentry engineering te
 
 ## Installation
 
-### Claude Code
+### Any Agent
+
 ```bash
-npx skills add agentskillexchange/skills/skills/sentry-mcp-server-error-tracking-performance
+npx skills add agentskillexchange/skills --skill sentry-mcp-server-error-tracking-performance
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill sentry-mcp-server-error-tracking-performance -a claude-code
 ```
 
 ### Cursor
+
 ```bash
-npx skills add agentskillexchange/skills/skills/sentry-mcp-server-error-tracking-performance
+npx skills add agentskillexchange/skills --skill sentry-mcp-server-error-tracking-performance -a cursor
 ```
 
 ### Codex
+
 ```bash
-npx skills add agentskillexchange/skills/skills/sentry-mcp-server-error-tracking-performance
+npx skills add agentskillexchange/skills --skill sentry-mcp-server-error-tracking-performance -a codex
 ```
 
 ### OpenClaw
+
 ```bash
 clawhub install sentry-mcp-server-error-tracking-performance
-```
-
-### Any Agent (npx)
-```bash
-npx skills add agentskillexchange/skills/skills/sentry-mcp-server-error-tracking-performance
 ```

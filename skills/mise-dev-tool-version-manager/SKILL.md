@@ -3,12 +3,12 @@ name: "Mise Dev Tool Version Manager"
 description: "Use mise (mise-en-place) to manage development tool versions, environment variables, and task running from a single configuration file. Replaces asdf, nvm, pyenv, rbenv, and direnv in one tool."
 category: "Developer Tools"
 framework: "Claude Code"
-verification: listed
+verification: "listed"
 source: "https://agentskillexchange.com/skills/mise-dev-tool-version-manager/"
 tool_ecosystem:
-  tool: "terraform"
+  tool: terraform
   github_stars: 48003
-  github_repo: "hashicorp/terraform"
+  github_repo: hashicorp/terraform
   maintained: true
 ---
 

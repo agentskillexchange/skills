@@ -3,13 +3,13 @@ name: "Helm Chart Diff & Upgrade Manager"
 description: "Uses helm-diff to compute a human-readable diff between deployed and candidate chart versions before upgrade. Automatically bumps image tags by querying the OCI registry, then executes helm upgrade –atomic with configurable rollback timeouts. Sends upgrade status to PagerDuty or Datadog."
 category: "CI/CD Integrations"
 framework: "MCP"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/helm-chart-diff-upgrade-manager/"
 tool_ecosystem:
-  tool: "helm"
+  tool: helm
   github_stars: 29610
-  github_repo: "helm/helm"
-  license: "Apache-2.0"
+  github_repo: helm/helm
+  license: Apache-2.0
   maintained: true
 ---
 

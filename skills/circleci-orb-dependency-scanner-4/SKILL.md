@@ -3,12 +3,12 @@ name: "CircleCI Orb Dependency Scanner"
 description: "Scans CircleCI config.yml for outdated orb versions using the CircleCI Orbs Registry API. Reports CVEs linked to orb dependencies via Snyk vulnerability database lookups."
 category: "CI/CD Integrations"
 framework: "Claude Code"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/circleci-orb-dependency-scanner-4/"
 tool_ecosystem:
-  tool: "circleci"
+  tool: circleci
   github_stars: 842
-  github_repo: "circleci/circleci-docs"
+  github_repo: circleci/circleci-docs
   maintained: true
 ---
 

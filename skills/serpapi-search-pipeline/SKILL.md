@@ -3,14 +3,14 @@ name: "SerpAPI Search Pipeline"
 description: "Automates multi-engine searches via SerpAPI (Google, Bing, DuckDuckGo) with structured JSON extraction. Supports pagination, location targeting, and result deduplication using MinHash LSH."
 category: "Research & Scraping"
 framework: "OpenClaw"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/serpapi-search-pipeline/"
 tool_ecosystem:
-  tool: "sqlite"
+  tool: sqlite
   github_stars: 7043
   npm_weekly_downloads: 4960915
-  github_repo: "WiseLibs/better-sqlite3"
-  license: "MIT"
+  github_repo: WiseLibs/better-sqlite3
+  license: MIT
   maintained: true
 ---
 

@@ -3,14 +3,14 @@ name: "SQLite MCP Server"
 description: "Lightweight local database access for agent tasks."
 category: "Data Extraction & Transformation"
 framework: "Claude Code"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sqlite-mcp-server/"
 tool_ecosystem:
-  tool: "sqlite"
+  tool: sqlite
   github_stars: 7043
   npm_weekly_downloads: 4960915
-  github_repo: "WiseLibs/better-sqlite3"
-  license: "MIT"
+  github_repo: WiseLibs/better-sqlite3
+  license: MIT
   maintained: true
 ---
 

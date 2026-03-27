@@ -3,14 +3,14 @@ name: "TLS Certificate Chain Analyzer"
 description: "Analyzes TLS certificate chains using OpenSSL s_client and the crt.sh Certificate Transparency API. Detects weak algorithms, expiring intermediates, and CT log compliance issues."
 category: "Security & Verification"
 framework: "MCP"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/tls-certificate-chain-analyzer/"
 tool_ecosystem:
-  tool: "cloudflare"
+  tool: cloudflare
   github_stars: 1946
   npm_weekly_downloads: 1035304
-  github_repo: "cloudflare/cloudflare-go"
-  license: "Apache-2.0"
+  github_repo: cloudflare/cloudflare-go
+  license: Apache-2.0
   maintained: true
 ---
 

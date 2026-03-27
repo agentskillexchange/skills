@@ -3,14 +3,14 @@ name: "Surfer SEO Content Optimizer"
 description: "Analyzes top SERP competitors using DataForSEO API and generates content optimization briefs with target word count, NLP entity coverage, heading structure, and internal linking recommendations."
 category: "Content Writing & SEO"
 framework: "ChatGPT Agents"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/surfer-seo-content-optimizer/"
 tool_ecosystem:
-  tool: "cheerio"
+  tool: cheerio
   github_stars: 30231
   npm_weekly_downloads: 18512628
-  github_repo: "cheeriojs/cheerio"
-  license: "MIT"
+  github_repo: cheeriojs/cheerio
+  license: MIT
   maintained: true
 ---
 

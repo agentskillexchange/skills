@@ -3,13 +3,13 @@ name: "SonarQube Analysis Runner"
 description: "Run SonarQube static analysis scans via the SonarQube Web API and sonar-scanner CLI. Detects code smells, bugs, and security vulnerabilities with configurable quality gates and branch analysis support."
 category: "Code Quality & Review"
 framework: "OpenClaw"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sonarqube-analysis-runner/"
 tool_ecosystem:
-  tool: "sonarqube"
+  tool: sonarqube
   github_stars: 10358
-  github_repo: "SonarSource/sonarqube"
-  license: "LGPL-3.0"
+  github_repo: SonarSource/sonarqube
+  license: LGPL-3.0
   maintained: true
 ---
 

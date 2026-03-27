@@ -3,7 +3,7 @@ name: "Nango Open Source API Integration Platform"
 description: "Nango is an open-source platform for building product integrations with 700+ APIs. It handles OAuth, token management, API proxying, and execution of custom TypeScript sync and action logic on managed infrastructure."
 category: "Integrations & Connectors"
 framework: "Custom Agents"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/nango-open-source-api-integration-platform/"
 ---
 
@@ -13,27 +13,32 @@ Nango is an open-source platform for building product integrations with 700+ API
 
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
-npx @anthropic/skills add nango-open-source-api-integration-platform
+npx skills add agentskillexchange/skills --skill nango-open-source-api-integration-platform
 ```
 
 ### Claude Code
+
 ```bash
-npx @anthropic/skills add nango-open-source-api-integration-platform
+npx skills add agentskillexchange/skills --skill nango-open-source-api-integration-platform -a claude-code
 ```
 
 ### Cursor
+
 ```bash
-npx @anthropic/skills add nango-open-source-api-integration-platform
+npx skills add agentskillexchange/skills --skill nango-open-source-api-integration-platform -a cursor
 ```
 
 ### Codex
+
 ```bash
-npx @anthropic/skills add nango-open-source-api-integration-platform
+npx skills add agentskillexchange/skills --skill nango-open-source-api-integration-platform -a codex
 ```
 
 ### OpenClaw
+
 ```bash
 clawhub install nango-open-source-api-integration-platform
 ```

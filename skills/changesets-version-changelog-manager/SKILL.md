@@ -3,14 +3,14 @@ name: "Changesets Version and Changelog Manager"
 description: "Use Changesets to manage package versioning and changelogs in monorepos and single-package repositories. Automates semver bumps, changelog generation, and npm publishing with a PR-based workflow."
 category: "Developer Tools"
 framework: "Claude Code"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/changesets-version-changelog-manager/"
 tool_ecosystem:
-  tool: "react"
+  tool: react
   github_stars: 244163
   npm_weekly_downloads: 104796073
-  github_repo: "facebook/react"
-  license: "MIT"
+  github_repo: facebook/react
+  license: MIT
   maintained: true
 ---
 

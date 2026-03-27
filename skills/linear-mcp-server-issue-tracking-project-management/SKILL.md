@@ -3,7 +3,7 @@ name: "Linear MCP Server for Issue Tracking and Project Management"
 description: "An MCP server that integrates Linear project management with AI assistants. Enables creating, searching, updating, and commenting on Linear issues, managing projects and teams, and querying workflows through the Model Context Protocol."
 category: "Integrations & Connectors"
 framework: "MCP"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/linear-mcp-server-issue-tracking-project-management/"
 ---
 
@@ -13,27 +13,32 @@ An MCP server that integrates Linear project management with AI assistants. Enab
 
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
-npx skills add "linear-mcp-server-issue-tracking-project-management"
+npx skills add agentskillexchange/skills --skill linear-mcp-server-issue-tracking-project-management
 ```
 
 ### Claude Code
+
 ```bash
-npx skills add "linear-mcp-server-issue-tracking-project-management" --claude
+npx skills add agentskillexchange/skills --skill linear-mcp-server-issue-tracking-project-management -a claude-code
 ```
 
 ### Cursor
+
 ```bash
-npx skills add "linear-mcp-server-issue-tracking-project-management" --cursor
+npx skills add agentskillexchange/skills --skill linear-mcp-server-issue-tracking-project-management -a cursor
 ```
 
 ### Codex
+
 ```bash
-npx skills add "linear-mcp-server-issue-tracking-project-management" --codex
+npx skills add agentskillexchange/skills --skill linear-mcp-server-issue-tracking-project-management -a codex
 ```
 
 ### OpenClaw
+
 ```bash
-clawhub install "linear-mcp-server-issue-tracking-project-management"
+clawhub install linear-mcp-server-issue-tracking-project-management
 ```

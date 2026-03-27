@@ -3,12 +3,12 @@ name: "dbt Data Transformation Orchestrator"
 description: "Manages dbt Core and dbt Cloud API workflows for SQL-based data transformations. Handles model lineage, incremental builds, and data quality tests with Great Expectations integration."
 category: "Data Extraction & Transformation"
 framework: "Claude Code"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/dbt-data-transformation-orchestrator/"
 tool_ecosystem:
-  tool: "dbt"
+  tool: dbt
   github_stars: 12460
-  github_repo: "dbt-labs/dbt-core"
+  github_repo: dbt-labs/dbt-core
   maintained: true
 ---
 

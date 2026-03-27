@@ -3,7 +3,7 @@ name: "Typesense Typo-Tolerant Search Engine"
 description: "Typesense is an open-source, typo-tolerant search engine built in C++ for building fast, relevant search experiences. It serves as a self-hostable alternative to Algolia with support for vector search, geo-search, and faceted filtering."
 category: "Data Extraction & Transformation"
 framework: "Custom Agents"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/typesense-typo-tolerant-search-engine/"
 ---
 
@@ -13,27 +13,32 @@ Typesense is an open-source, typo-tolerant search engine built in C++ for buildi
 
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
-npx @anthropic/skills add typesense-typo-tolerant-search-engine
+npx skills add agentskillexchange/skills --skill typesense-typo-tolerant-search-engine
 ```
 
 ### Claude Code
+
 ```bash
-npx @anthropic/skills add typesense-typo-tolerant-search-engine
+npx skills add agentskillexchange/skills --skill typesense-typo-tolerant-search-engine -a claude-code
 ```
 
 ### Cursor
+
 ```bash
-npx @anthropic/skills add typesense-typo-tolerant-search-engine
+npx skills add agentskillexchange/skills --skill typesense-typo-tolerant-search-engine -a cursor
 ```
 
 ### Codex
+
 ```bash
-npx @anthropic/skills add typesense-typo-tolerant-search-engine
+npx skills add agentskillexchange/skills --skill typesense-typo-tolerant-search-engine -a codex
 ```
 
 ### OpenClaw
+
 ```bash
 clawhub install typesense-typo-tolerant-search-engine
 ```

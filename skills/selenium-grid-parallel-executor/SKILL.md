@@ -3,14 +3,14 @@ name: "Selenium Grid Parallel Executor"
 description: "Orchestrates parallel browser automation across Selenium Grid nodes using RemoteWebDriver, DesiredCapabilities, and WebDriverWait. Manages session distribution, retry policies, and HTML test reports via ExtentReports."
 category: "Browser Automation"
 framework: "Custom Agents"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/selenium-grid-parallel-executor/"
 tool_ecosystem:
-  tool: "selenium"
+  tool: selenium
   github_stars: 34174
   npm_weekly_downloads: 2000657
-  github_repo: "SeleniumHQ/selenium"
-  license: "Apache-2.0"
+  github_repo: SeleniumHQ/selenium
+  license: Apache-2.0
   maintained: true
 ---
 

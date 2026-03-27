@@ -3,14 +3,14 @@ name: "Storybook Component Tester"
 description: "Storybook Component Tester is built around Storybook component workshop. The underlying ecosystem is represented by storybookjs/storybook (89,504+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like stories, controls, test runner, interaction tests, snapshots, addons and preserving the operational […]"
 category: "Code Quality & Review"
 framework: "Custom Agents"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/storybook-component-tester/"
 tool_ecosystem:
-  tool: "storybook"
+  tool: storybook
   github_stars: 89504
   npm_weekly_downloads: 13033154
-  github_repo: "storybookjs/storybook"
-  license: "MIT"
+  github_repo: storybookjs/storybook
+  license: MIT
   maintained: true
 ---
 

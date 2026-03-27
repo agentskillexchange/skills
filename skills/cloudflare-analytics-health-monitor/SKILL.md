@@ -3,14 +3,14 @@ name: "Cloudflare Analytics Health Monitor"
 description: "Monitors Cloudflare zone analytics via the Cloudflare API v4 GraphQL Analytics endpoint, tracking request rates, cache hit ratios, and WAF event spikes. Sends alerts through PagerDuty Events API v2 when thresholds are breached."
 category: "Monitoring & Alerts"
 framework: "OpenClaw"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cloudflare-analytics-health-monitor/"
 tool_ecosystem:
-  tool: "cloudflare"
+  tool: cloudflare
   github_stars: 1946
   npm_weekly_downloads: 1035304
-  github_repo: "cloudflare/cloudflare-go"
-  license: "Apache-2.0"
+  github_repo: cloudflare/cloudflare-go
+  license: Apache-2.0
   maintained: true
 ---
 

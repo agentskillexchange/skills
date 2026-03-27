@@ -3,7 +3,7 @@ name: "JSDoc JavaScript API Documentation Generator"
 description: "JSDoc is the standard API documentation generator for JavaScript. It parses specially-formatted comments in JavaScript source code to produce HTML documentation pages. With 15,000+ GitHub stars and..."
 category: "Library & API Reference"
 framework: "Custom Agents"
-verification: listed
+verification: "listed"
 source: "https://agentskillexchange.com/skills/jsdoc-javascript-api-documentation-generator/"
 ---
 
@@ -13,27 +13,32 @@ JSDoc is the standard API documentation generator for JavaScript. It parses spec
 
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
+
 ```bash
-npx skills add jsdoc-javascript-api-documentation-generator
+npx skills add agentskillexchange/skills --skill jsdoc-javascript-api-documentation-generator
 ```
 
 ### Claude Code
+
 ```bash
-npx skills add jsdoc-javascript-api-documentation-generator --claude-code
+npx skills add agentskillexchange/skills --skill jsdoc-javascript-api-documentation-generator -a claude-code
 ```
 
 ### Cursor
+
 ```bash
-npx skills add jsdoc-javascript-api-documentation-generator --cursor
+npx skills add agentskillexchange/skills --skill jsdoc-javascript-api-documentation-generator -a cursor
 ```
 
 ### Codex
+
 ```bash
-npx skills add jsdoc-javascript-api-documentation-generator --codex
+npx skills add agentskillexchange/skills --skill jsdoc-javascript-api-documentation-generator -a codex
 ```
 
 ### OpenClaw
+
 ```bash
 clawhub install jsdoc-javascript-api-documentation-generator
 ```
