@@ -50,21 +50,21 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Puppeteer Visual Regression Tester](../../skills/puppeteer-visual-regression-tester/) | 93.9k | 8.7M/wk |
 | [Puppeteer Visual Regression Testing](../../skills/puppeteer-visual-regression-testing/) | 93.9k | 8.7M/wk |
 | [Puppeteer Web Scraping Pipeline](../../skills/puppeteer-web-scraping-pipeline/) | 93.9k | 8.7M/wk |
-| [Agent Browser Operator](../../skills/agent-browser-operator/) | 85k | 40.1M/wk |
-| [Playwright Accessibility Audit Runner](../../skills/playwright-accessibility-audit-runner/) | 85k | 40.1M/wk |
-| [Playwright Cross-Browser Test Runner](../../skills/playwright-cross-browser-test-runner/) | 85k | 40.1M/wk |
-| [Playwright MCP Browser Automation](../../skills/playwright-mcp-browser-automation/) | 85k | 40.1M/wk |
-| [Playwright MCP Server for Browser Automation](../../skills/playwright-mcp-server-browser-automation/) | 85k | 40.1M/wk |
-| [Playwright Multi-Browser Test Generator](../../skills/playwright-multi-browser-test-generator/) | 85k | 40.1M/wk |
-| [Playwright Multi-Browser Test Suite](../../skills/playwright-multi-browser-test-suite/) | 85k | 40.1M/wk |
-| [Playwright Multi-Tab Session Manager](../../skills/playwright-multi-tab-session-manager-2/) | 85k | 40.1M/wk |
-| [Playwright Network HAR Recorder](../../skills/playwright-network-har-recorder/) | 85k | 40.1M/wk |
-| [Playwright Parallel Tab Manager](../../skills/playwright-parallel-tab-manager/) | 85k | 40.1M/wk |
-| [Playwright PDF Export Automation](../../skills/playwright-pdf-export-automation/) | 85k | 40.1M/wk |
-| [Playwright Session Recorder](../../skills/playwright-session-recorder-2/) | 85k | 40.1M/wk |
-| [Playwright Visual Regression Suite](../../skills/playwright-visual-regression-suite/) | 85k | 40.1M/wk |
-| [Playwright Visual Regression Tester](../../skills/playwright-visual-regression-tester-3/) | 85k | 40.1M/wk |
-| [Stagehand AI Browser Automation Framework](../../skills/stagehand-ai-browser-automation-framework/) | 85k | 40.1M/wk |
+| [Agent Browser Operator](../../skills/agent-browser-operator/) | 85.1k | 40.4M/wk |
+| [Playwright Accessibility Audit Runner](../../skills/playwright-accessibility-audit-runner/) | 85.1k | 40.4M/wk |
+| [Playwright Cross-Browser Test Runner](../../skills/playwright-cross-browser-test-runner/) | 85.1k | 40.4M/wk |
+| [Playwright MCP Browser Automation](../../skills/playwright-mcp-browser-automation/) | 85.1k | 40.4M/wk |
+| [Playwright MCP Server for Browser Automation](../../skills/playwright-mcp-server-browser-automation/) | 85.1k | 40.4M/wk |
+| [Playwright Multi-Browser Test Generator](../../skills/playwright-multi-browser-test-generator/) | 85.1k | 40.4M/wk |
+| [Playwright Multi-Browser Test Suite](../../skills/playwright-multi-browser-test-suite/) | 85.1k | 40.4M/wk |
+| [Playwright Multi-Tab Session Manager](../../skills/playwright-multi-tab-session-manager-2/) | 85.1k | 40.4M/wk |
+| [Playwright Network HAR Recorder](../../skills/playwright-network-har-recorder/) | 85.1k | 40.4M/wk |
+| [Playwright Parallel Tab Manager](../../skills/playwright-parallel-tab-manager/) | 85.1k | 40.4M/wk |
+| [Playwright PDF Export Automation](../../skills/playwright-pdf-export-automation/) | 85.1k | 40.4M/wk |
+| [Playwright Session Recorder](../../skills/playwright-session-recorder-2/) | 85.1k | 40.4M/wk |
+| [Playwright Visual Regression Suite](../../skills/playwright-visual-regression-suite/) | 85.1k | 40.4M/wk |
+| [Playwright Visual Regression Tester](../../skills/playwright-visual-regression-tester-3/) | 85.1k | 40.4M/wk |
+| [Stagehand AI Browser Automation Framework](../../skills/stagehand-ai-browser-automation-framework/) | 85.1k | 40.4M/wk |
 | [Cypress Component Test Generator](../../skills/cypress-component-test-generator/) | 49.6k | 7.4M/wk |
 | [Cypress Component Testing Framework](../../skills/cypress-component-testing-framework-2/) | 49.6k | 7.4M/wk |
 | [Cypress Component Testing Suite](../../skills/cypress-component-testing-suite/) | 49.6k | 7.4M/wk |
@@ -86,7 +86,8 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Selenium Grid Session Manager](../../skills/selenium-grid-session-manager/) | 34.2k | 2M/wk |
 | [Selenium Grid Session Router](../../skills/selenium-grid-session-router/) | 34.2k | 2M/wk |
 | [Selenium Grid Test Orchestrator](../../skills/selenium-grid-test-orchestrator-2/) | 34.2k | 2M/wk |
-| [CDP Network Interception Logger](../../skills/cdp-network-interception-logger/) | 789 | 6M/wk |
+| [CDP Network Interception Logger](../../skills/cdp-network-interception-logger/) | 790 | 5.9M/wk |
+| [Browser Use AI Browser Automation Library](../../skills/browser-use-ai-browser-automation-library/) | — | — |
 
 ---
 

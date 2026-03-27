@@ -9,7 +9,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Argo Workflows Deployer](../../skills/argo-workflows-deployer/) | ⭐ 121.4k |
 | [Argo Workflows Linter](../../skills/argo-workflows-linter/) | ⭐ 121.4k |
 | [Buildkite Agent Fleet Scaler](../../skills/buildkite-agent-fleet-scaler/) | ⭐ 121.4k |
-| [Playwright Test Report to Slack](../../skills/playwright-test-report-to-slack/) | ⭐ 85k |
+| [Playwright Test Report to Slack](../../skills/playwright-test-report-to-slack/) | ⭐ 85.1k |
 | [act Local GitHub Actions Runner](../../skills/act-local-github-actions-runner/) | ⭐ 71.6k |
 | [Buildkite Dynamic Pipeline Architect](../../skills/buildkite-dynamic-pipeline-architect/) | ⭐ 71.6k |
 | [Buildkite Pipeline Profiler](../../skills/buildkite-pipeline-profiler/) | ⭐ 71.6k |
@@ -23,12 +23,12 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 
 | Skill | Downloads |
 |---|---:|
-| [Playwright Test Report to Slack](../../skills/playwright-test-report-to-slack/) | ⬇ 40.1M/wk |
-| [Buildkite Agent Monitor](../../skills/buildkite-agent-monitor/) | ⬇ 32M/wk |
-| [Buildkite Dynamic Pipeline Agent](../../skills/buildkite-dynamic-pipeline-agent/) | ⬇ 32M/wk |
-| [Buildkite Pipeline Optimizer](../../skills/buildkite-pipeline-optimizer-agent/) | ⬇ 32M/wk |
-| [GitHub Actions CI/CD Pipeline Manager](../../skills/github-actions-cicd-pipeline-manager/) | ⬇ 32M/wk |
-| [GitHub Actions Workflow Debugger](../../skills/github-actions-workflow-debugger/) | ⬇ 32M/wk |
+| [Playwright Test Report to Slack](../../skills/playwright-test-report-to-slack/) | ⬇ 40.4M/wk |
+| [Buildkite Agent Monitor](../../skills/buildkite-agent-monitor/) | ⬇ 32.3M/wk |
+| [Buildkite Dynamic Pipeline Agent](../../skills/buildkite-dynamic-pipeline-agent/) | ⬇ 32.3M/wk |
+| [Buildkite Pipeline Optimizer](../../skills/buildkite-pipeline-optimizer-agent/) | ⬇ 32.3M/wk |
+| [GitHub Actions CI/CD Pipeline Manager](../../skills/github-actions-cicd-pipeline-manager/) | ⬇ 32.3M/wk |
+| [GitHub Actions Workflow Debugger](../../skills/github-actions-workflow-debugger/) | ⬇ 32.3M/wk |
 | [AWS CloudWatch Alarm Builder](../../skills/aws-cloudwatch-alarm-builder/) | ⬇ 9.1M/wk |
 | [AWS CodePipeline Orchestrator](../../skills/aws-codepipeline-orchestrator/) | ⬇ 9.1M/wk |
 | [GitHub Actions Matrix Orchestrator](../../skills/github-actions-matrix-orchestrator/) | ⬇ 9.1M/wk |
@@ -43,7 +43,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Argo Workflows Deployer](../../skills/argo-workflows-deployer/) | 121.4k | — |
 | [Argo Workflows Linter](../../skills/argo-workflows-linter/) | 121.4k | — |
 | [Buildkite Agent Fleet Scaler](../../skills/buildkite-agent-fleet-scaler/) | 121.4k | — |
-| [Playwright Test Report to Slack](../../skills/playwright-test-report-to-slack/) | 85k | 40.1M/wk |
+| [Playwright Test Report to Slack](../../skills/playwright-test-report-to-slack/) | 85.1k | 40.4M/wk |
 | [act Local GitHub Actions Runner](../../skills/act-local-github-actions-runner/) | 71.6k | — |
 | [Buildkite Dynamic Pipeline Architect](../../skills/buildkite-dynamic-pipeline-architect/) | 71.6k | — |
 | [Buildkite Pipeline Profiler](../../skills/buildkite-pipeline-profiler/) | 71.6k | — |
@@ -63,7 +63,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Terraform Plan Reviewer Agent](../../skills/terraform-plan-reviewer-agent/) | 48k | — |
 | [Terraform Plan Validator](../../skills/terraform-plan-validator/) | 48k | — |
 | [Terraform Plan Validator Agent](../../skills/terraform-plan-validator-agent/) | 48k | — |
-| [Harden-Runner CI/CD Security Agent for GitHub Actions](../../skills/harden-runner-cicd-security-agent-github-actions/) | 34.1k | — |
+| [Harden-Runner CI/CD Security Agent for GitHub Actions](../../skills/harden-runner-cicd-security-agent-github-actions/) | 34.2k | — |
 | [Helm Chart Diff &amp; Upgrade Manager](../../skills/helm-chart-diff-upgrade-manager/) | 29.6k | — |
 | [Jenkins Declarative Pipeline Generator](../../skills/jenkins-declarative-pipeline-generator-2/) | 25.1k | — |
 | [Jenkins Groovy Shared Library Auditor](../../skills/jenkins-groovy-shared-library-auditor/) | 25.1k | — |
@@ -124,11 +124,11 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [ArgoCD Sync Troubleshooter](../../skills/argocd-sync-troubleshooter/) | 22.4k | — |
 | [ArgoCD Sync Wave Orchestrator](../../skills/argocd-sync-wave-orchestrator-wave48/) | 22.4k | — |
 | [ArgoCD Sync Wave Planner](../../skills/argocd-sync-wave-planner/) | 22.4k | — |
-| [Buildkite Agent Monitor](../../skills/buildkite-agent-monitor/) | 20.3k | 32M/wk |
-| [Buildkite Dynamic Pipeline Agent](../../skills/buildkite-dynamic-pipeline-agent/) | 20.3k | 32M/wk |
-| [Buildkite Pipeline Optimizer](../../skills/buildkite-pipeline-optimizer-agent/) | 20.3k | 32M/wk |
-| [GitHub Actions CI/CD Pipeline Manager](../../skills/github-actions-cicd-pipeline-manager/) | 20.3k | 32M/wk |
-| [GitHub Actions Workflow Debugger](../../skills/github-actions-workflow-debugger/) | 20.3k | 32M/wk |
+| [Buildkite Agent Monitor](../../skills/buildkite-agent-monitor/) | 20.3k | 32.3M/wk |
+| [Buildkite Dynamic Pipeline Agent](../../skills/buildkite-dynamic-pipeline-agent/) | 20.3k | 32.3M/wk |
+| [Buildkite Pipeline Optimizer](../../skills/buildkite-pipeline-optimizer-agent/) | 20.3k | 32.3M/wk |
+| [GitHub Actions CI/CD Pipeline Manager](../../skills/github-actions-cicd-pipeline-manager/) | 20.3k | 32.3M/wk |
+| [GitHub Actions Workflow Debugger](../../skills/github-actions-workflow-debugger/) | 20.3k | 32.3M/wk |
 | [Tekton Pipeline Chain Validator](../../skills/tekton-pipeline-chain-validator/) | 8.9k | — |
 | [Tekton Pipeline Composer](../../skills/tekton-pipeline-composer/) | 8.9k | — |
 | [Tekton Pipeline Debugger](../../skills/tekton-pipeline-debugger/) | 8.9k | — |

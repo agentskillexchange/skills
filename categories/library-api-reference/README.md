@@ -7,15 +7,15 @@ SDK documentation, API guides, framework reference material, and library usage p
 | Skill | Stars |
 |---|---:|
 | [Redoc OpenAPI Documentation Renderer](../../skills/redoc-openapi-documentation-renderer/) | ⭐ 244.2k |
-| [OpenAPI Spec Compliance Checker](../../skills/openapi-spec-compliance-checker/) | ⭐ 96.5k |
+| [OpenAPI Spec Compliance Checker](../../skills/openapi-spec-compliance-checker/) | ⭐ 96.6k |
 | [OpenTelemetry Trace Analyzer](../../skills/opentelemetry-trace-analyzer/) | ⭐ 72.8k |
+| [DevDocs Unified API Documentation Browser](../../skills/devdocs-unified-api-documentation-browser/) | ⭐ 71.6k |
 | [Docker Image Layer Analyzer](../../skills/docker-image-layer-analyzer/) | ⭐ 71.6k |
 | [REST API Documentation Generator](../../skills/rest-api-documentation-generator/) | ⭐ 68.9k |
 | [Terraform Provider Schema Explorer](../../skills/terraform-provider-schema-explorer/) | ⭐ 48k |
 | [Prisma Schema Migrator](../../skills/prisma-schema-migrator/) | ⭐ 45.6k |
 | [API Documentation Indexer](../../skills/api-documentation-indexer/) | ⭐ 28.7k |
 | [OpenAPI Spec Changelog Generator](../../skills/openapi-spec-changelog-generator/) | ⭐ 28.7k |
-| [OpenAPI Spec Linter &#038; Docs Generator](../../skills/openapi-spec-linter-docs-generator/) | ⭐ 28.7k |
 
 ---
 
@@ -23,9 +23,9 @@ SDK documentation, API guides, framework reference material, and library usage p
 
 | Skill | Downloads |
 |---|---:|
-| [Redoc OpenAPI Documentation Renderer](../../skills/redoc-openapi-documentation-renderer/) | ⬇ 105.7M/wk |
+| [Redoc OpenAPI Documentation Renderer](../../skills/redoc-openapi-documentation-renderer/) | ⬇ 108.4M/wk |
 | [REST API Documentation Generator](../../skills/rest-api-documentation-generator/) | ⬇ 91.7M/wk |
-| [Prisma Schema Migrator](../../skills/prisma-schema-migrator/) | ⬇ 9.4M/wk |
+| [Prisma Schema Migrator](../../skills/prisma-schema-migrator/) | ⬇ 9.5M/wk |
 | [API Documentation Indexer](../../skills/api-documentation-indexer/) | ⬇ 3.2M/wk |
 | [OpenAPI Spec Changelog Generator](../../skills/openapi-spec-changelog-generator/) | ⬇ 3.2M/wk |
 | [OpenAPI Spec Linter &#038; Docs Generator](../../skills/openapi-spec-linter-docs-generator/) | ⬇ 3.2M/wk |
@@ -40,13 +40,14 @@ SDK documentation, API guides, framework reference material, and library usage p
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
-| [Redoc OpenAPI Documentation Renderer](../../skills/redoc-openapi-documentation-renderer/) | 244.2k | 105.7M/wk |
-| [OpenAPI Spec Compliance Checker](../../skills/openapi-spec-compliance-checker/) | 96.5k | — |
+| [Redoc OpenAPI Documentation Renderer](../../skills/redoc-openapi-documentation-renderer/) | 244.2k | 108.4M/wk |
+| [OpenAPI Spec Compliance Checker](../../skills/openapi-spec-compliance-checker/) | 96.6k | — |
 | [OpenTelemetry Trace Analyzer](../../skills/opentelemetry-trace-analyzer/) | 72.8k | — |
+| [DevDocs Unified API Documentation Browser](../../skills/devdocs-unified-api-documentation-browser/) | 71.6k | — |
 | [Docker Image Layer Analyzer](../../skills/docker-image-layer-analyzer/) | 71.6k | — |
 | [REST API Documentation Generator](../../skills/rest-api-documentation-generator/) | 68.9k | 91.7M/wk |
 | [Terraform Provider Schema Explorer](../../skills/terraform-provider-schema-explorer/) | 48k | — |
-| [Prisma Schema Migrator](../../skills/prisma-schema-migrator/) | 45.6k | 9.4M/wk |
+| [Prisma Schema Migrator](../../skills/prisma-schema-migrator/) | 45.6k | 9.5M/wk |
 | [API Documentation Indexer](../../skills/api-documentation-indexer/) | 28.7k | 3.2M/wk |
 | [OpenAPI Spec Changelog Generator](../../skills/openapi-spec-changelog-generator/) | 28.7k | 3.2M/wk |
 | [OpenAPI Spec Linter &#038; Docs Generator](../../skills/openapi-spec-linter-docs-generator/) | 28.7k | 3.2M/wk |
@@ -61,41 +62,40 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Swagger Codegen Template Customizer](../../skills/swagger-codegen-template-customizer/) | 28.7k | 3.2M/wk |
 | [Swagger OpenAPI Schema Validator](../../skills/swagger-openapi-schema-validator/) | 28.7k | 3.2M/wk |
 | [Swagger UI Documentation Deployer](../../skills/swagger-ui-documentation-deployer/) | 28.7k | 3.2M/wk |
-| [GraphQL Introspection Documenter](../../skills/graphql-introspection-documenter/) | 20.3k | 32M/wk |
-| [GraphQL Schema Analyzer](../../skills/graphql-schema-analyzer/) | 20.3k | 32M/wk |
-| [GraphQL Schema Documentation Builder](../../skills/graphql-schema-documentation-builder/) | 20.3k | 32M/wk |
-| [GraphQL Schema Documentation Generator](../../skills/graphql-schema-documentation-generator/) | 20.3k | 32M/wk |
-| [GraphQL Schema Drift Detector](../../skills/graphql-schema-drift-detector/) | 20.3k | 32M/wk |
-| [GraphQL Schema Explorer](../../skills/graphql-schema-explorer/) | 20.3k | 32M/wk |
-| [GraphQL Schema Introspection Analyzer](../../skills/graphql-schema-introspection-analyzer/) | 20.3k | 32M/wk |
-| [GraphQL Schema Introspector](../../skills/graphql-schema-introspector/) | 20.3k | 32M/wk |
-| [GraphQL Schema Registry](../../skills/graphql-schema-registry/) | 20.3k | 32M/wk |
-| [GraphQL Schema Registry Agent](../../skills/graphql-schema-registry-agent/) | 20.3k | 32M/wk |
-| [GraphQL Schema Registry Client](../../skills/graphql-schema-registry-client/) | 20.3k | 32M/wk |
-| [GraphQL Schema Stitcher](../../skills/graphql-schema-stitcher/) | 20.3k | 32M/wk |
-| [GraphQL Schema Stitching &#038; Federation Agent](../../skills/graphql-schema-stitching-federation-agent/) | 20.3k | 32M/wk |
-| [NPM Package Audit Analyzer](../../skills/npm-package-audit-analyzer/) | 20.3k | 32M/wk |
+| [GraphQL Introspection Documenter](../../skills/graphql-introspection-documenter/) | 20.3k | 32.3M/wk |
+| [GraphQL Schema Analyzer](../../skills/graphql-schema-analyzer/) | 20.3k | 32.3M/wk |
+| [GraphQL Schema Documentation Builder](../../skills/graphql-schema-documentation-builder/) | 20.3k | 32.3M/wk |
+| [GraphQL Schema Documentation Generator](../../skills/graphql-schema-documentation-generator/) | 20.3k | 32.3M/wk |
+| [GraphQL Schema Drift Detector](../../skills/graphql-schema-drift-detector/) | 20.3k | 32.3M/wk |
+| [GraphQL Schema Explorer](../../skills/graphql-schema-explorer/) | 20.3k | 32.3M/wk |
+| [GraphQL Schema Introspection Analyzer](../../skills/graphql-schema-introspection-analyzer/) | 20.3k | 32.3M/wk |
+| [GraphQL Schema Introspector](../../skills/graphql-schema-introspector/) | 20.3k | 32.3M/wk |
+| [GraphQL Schema Registry](../../skills/graphql-schema-registry/) | 20.3k | 32.3M/wk |
+| [GraphQL Schema Registry Agent](../../skills/graphql-schema-registry-agent/) | 20.3k | 32.3M/wk |
+| [GraphQL Schema Registry Client](../../skills/graphql-schema-registry-client/) | 20.3k | 32.3M/wk |
+| [GraphQL Schema Stitcher](../../skills/graphql-schema-stitcher/) | 20.3k | 32.3M/wk |
+| [GraphQL Schema Stitching &#038; Federation Agent](../../skills/graphql-schema-stitching-federation-agent/) | 20.3k | 32.3M/wk |
+| [NPM Package Audit Analyzer](../../skills/npm-package-audit-analyzer/) | 20.3k | 32.3M/wk |
 | [OpenAPI Spec Reference Generator](../../skills/openapi-spec-reference-generator/) | 6k | — |
 | [OpenAPI Spec Validator &#038; Mock Server](../../skills/openapi-spec-validator-mock-server-2/) | 6k | — |
 | [Postman Collection Runner](../../skills/postman-collection-runner/) | 6k | — |
 | [REST API Test Suite Generator](../../skills/rest-api-test-suite-generator/) | 6k | — |
-| [NPM Package Explorer](../../skills/npm-package-explorer-registry-api/) | 5.5k | 604.2k/wk |
-| [Buf Protobuf Linter](../../skills/buf-protobuf-linter/) | 4.8k | 30.9M/wk |
-| [gRPC Service Tool](../../skills/grpc-service-tool/) | 4.8k | 30.9M/wk |
-| [Protobuf &#038; gRPC Stub Generator](../../skills/protobuf-grpc-stub-generator/) | 4.8k | 30.9M/wk |
-| [Protobuf Documentation Generator](../../skills/protobuf-documentation-generator/) | 4.8k | 30.9M/wk |
-| [Protobuf Schema Registry Manager](../../skills/protobuf-schema-registry-manager/) | 4.8k | 30.9M/wk |
-| [Protocol Buffers Documentation Compiler](../../skills/protobuf-documentation-compiler/) | 4.8k | 30.9M/wk |
-| [Stripe API Reference Navigator](../../skills/stripe-api-reference-navigator/) | 4.4k | 8.4M/wk |
+| [NPM Package Explorer](../../skills/npm-package-explorer-registry-api/) | 5.5k | 608k/wk |
+| [Buf Protobuf Linter](../../skills/buf-protobuf-linter/) | 4.8k | 31M/wk |
+| [gRPC Service Tool](../../skills/grpc-service-tool/) | 4.8k | 31M/wk |
+| [Protobuf &#038; gRPC Stub Generator](../../skills/protobuf-grpc-stub-generator/) | 4.8k | 31M/wk |
+| [Protobuf Documentation Generator](../../skills/protobuf-documentation-generator/) | 4.8k | 31M/wk |
+| [Protobuf Schema Registry Manager](../../skills/protobuf-schema-registry-manager/) | 4.8k | 31M/wk |
+| [Protocol Buffers Documentation Compiler](../../skills/protobuf-documentation-compiler/) | 4.8k | 31M/wk |
+| [Stripe API Reference Navigator](../../skills/stripe-api-reference-navigator/) | 4.4k | 8.5M/wk |
 | [AsyncAPI Event Catalog Builder](../../skills/asyncapi-event-catalog-builder/) | 4k | 2.4M/wk |
 | [AsyncAPI Event Catalog Generator](../../skills/asyncapi-event-catalog-generator/) | 4k | 2.4M/wk |
 | [Anthropic SDK Token Usage Logger](../../skills/anthropic-sdk-token-usage-logger/) | 3.6k | 9.1M/wk |
 | [AWS SDK Method Resolver](../../skills/aws-sdk-method-resolver/) | 3.6k | 9.1M/wk |
 | [OpenTelemetry Trace Context Propagator](../../skills/opentelemetry-trace-context-propagator/) | 3.6k | 9.1M/wk |
-| [REST API Changelog Tracker](../../skills/rest-api-changelog-tracker/) | 2.9k | 2.2M/wk |
-| [Context7 MCP Documentation Server for LLM Code Editors](../../skills/context7-mcp-documentation-server-llm-code-editors/) | 1.9k | 1M/wk |
-| [Plaid Financial Data Aggregator &amp; Budget Classifier](../../skills/plaid-financial-data-aggregator/) | — | 21.4M/wk |
-| [DevDocs Unified API Documentation Browser](../../skills/devdocs-unified-api-documentation-browser/) | — | — |
+| [REST API Changelog Tracker](../../skills/rest-api-changelog-tracker/) | 2.9k | 2M/wk |
+| [Context7 MCP Documentation Server for LLM Code Editors](../../skills/context7-mcp-documentation-server-llm-code-editors/) | 1.9k | 1.1M/wk |
+| [Plaid Financial Data Aggregator &amp; Budget Classifier](../../skills/plaid-financial-data-aggregator/) | — | 21.5M/wk |
 | [Doxygen Cross-Reference Indexer](../../skills/doxygen-cross-reference-indexer/) | — | — |
 | [GitHub REST API Paginator Library](../../skills/github-rest-api-paginator-library/) | — | — |
 | [JSDoc JavaScript API Documentation Generator](../../skills/jsdoc-javascript-api-documentation-generator/) | — | — |
