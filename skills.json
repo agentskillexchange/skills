@@ -1,8 +1,56 @@
 {
   "version": "2.0",
-  "total": 1358,
+  "total": 1362,
   "generated": "2026-03-27",
   "skills": [
+    {
+      "slug": "navidrome-self-hosted-music-streaming-subsonic-api",
+      "name": "Navidrome Self-Hosted Music Streaming Server and Subsonic API",
+      "description": "Integrate Navidrome's self-hosted music server into AI agent workflows. Agents can manage music libraries, create playlists, control playback, and search collections through the Subsonic-compatible…",
+      "category": [
+        "Media & Transcription"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "audiobookshelf-self-hosted-audiobook-podcast-server-api",
+      "name": "Audiobookshelf Self-Hosted Audiobook and Podcast Server API",
+      "description": "Integrate Audiobookshelf's self-hosted audiobook and podcast server into AI agent workflows. Agents can manage libraries, track listening progress, search metadata, and automate podcast episode…",
+      "category": [
+        "Media & Transcription"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "memos-self-hosted-note-capture-knowledge-api",
+      "name": "Memos Self-Hosted Note Capture and Knowledge API",
+      "description": "Enable AI agents to interact with Memos, an open-source self-hosted note-taking tool with REST and gRPC APIs. Agents can create, search, tag, and retrieve…",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "cal-com-open-source-scheduling-infrastructure-api",
+      "name": "Cal.com Open Source Scheduling Infrastructure and API",
+      "description": "Integrate Cal.com's open-source scheduling platform into AI agent workflows. Agents can programmatically create event types, check availability, book meetings, and manage scheduling infrastructure through…",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "siteone-crawler-technical-seo-and-site-audit",
       "name": "SiteOne Crawler Technical SEO and Site Audit",
