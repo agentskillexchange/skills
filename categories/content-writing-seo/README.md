@@ -1,6 +1,6 @@
 # ✍️ Content Writing & SEO
 
-> **38 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO)
+> **41 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO)
 
 Blog posts, SEO optimization, content strategy, and writing assistance.
 
@@ -76,6 +76,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [Ahrefs Backlink Content Planner](../../skills/ahrefs-backlink-content-planner/) | Security Reviewed | — | — | `clawhub install ahrefs-backlink-content-planner` |
 | [Ahrefs Content Gap Finder](../../skills/ahrefs-content-gap-finder-agent/) | Security Reviewed | — | — | `clawhub install ahrefs-content-gap-finder-agent` |
 | [Ahrefs Keyword Gap Analysis Skill](../../skills/ahrefs-keyword-gap-analysis-skill/) | Security Reviewed | — | — | `clawhub install ahrefs-keyword-gap-analysis-skill` |
+| [alex Inclusive Writing Linter](../../skills/alex-inclusive-writing-linter/) | Verified Metadata | — | — | `clawhub install alex-inclusive-writing-linter` |
 | [Clearscope NLP Grading Pipeline](../../skills/clearscope-nlp-grading-pipeline/) | Security Reviewed | — | — | `clawhub install clearscope-nlp-grading-pipeline` |
 | [Content Cannibalization Detector](../../skills/content-cannibalization-detector/) | Security Reviewed | — | — | `clawhub install content-cannibalization-detector` |
 | [Content Readability Optimizer](../../skills/content-readability-optimizer/) | Security Reviewed | — | — | `clawhub install content-readability-optimizer` |
@@ -83,6 +84,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [Google Search Console Performance Analyzer](../../skills/gsc-performance-analyzer-skill/) | Security Reviewed | — | — | `clawhub install gsc-performance-analyzer-skill` |
 | [Hemingway Readability Analyzer API](../../skills/hemingway-readability-analyzer-api/) | Security Reviewed | — | — | `clawhub install hemingway-readability-analyzer-api` |
 | [Internal Link Optimizer](../../skills/internal-link-optimizer-seo/) | Security Reviewed | — | — | `clawhub install internal-link-optimizer-seo` |
+| [LanguageTool Grammar and Style Checker](../../skills/languagetool-grammar-style-checker/) | Verified Metadata | — | — | `clawhub install languagetool-grammar-style-checker` |
 | [lychee Async Broken Link Checker for Websites and Documentation](../../skills/lychee-async-broken-link-checker/) | Verified Metadata | — | — | `clawhub install lychee-async-broken-link-checker` |
 | [Markdown-to-AMP Article Converter](../../skills/markdown-to-amp-article-converter/) | Security Reviewed | — | — | `clawhub install markdown-to-amp-article-converter` |
 | [Schema Markup Generator for SEO](../../skills/schema-markup-generator-seo/) | Security Reviewed | — | — | `clawhub install schema-markup-generator-seo` |
@@ -95,6 +97,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [Surfer SEO Content Optimizer Integration](../../skills/surfer-seo-content-optimizer-integration/) | Security Reviewed | — | — | `clawhub install surfer-seo-content-optimizer-integration` |
 | [Surfer SEO SERP Analyzer](../../skills/surfer-seo-serp-analyzer/) | Security Reviewed | — | — | `clawhub install surfer-seo-serp-analyzer` |
 | [Technical SEO Audit Crawler](../../skills/technical-seo-audit-crawler/) | Security Reviewed | — | — | `clawhub install technical-seo-audit-crawler` |
+| [textlint Pluggable Natural Language Linter](../../skills/textlint-pluggable-natural-language-linter/) | Verified Metadata | — | — | `clawhub install textlint-pluggable-natural-language-linter` |
 
 ---
 

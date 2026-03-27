@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1322 published skills** across **17 categories** · 1277 security reviewed · Updated 2026-03-27 01:15 UTC
+> **1327 published skills** across **17 categories** · 1277 security reviewed · Updated 2026-03-27 03:14 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1259,7 +1259,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Tavily MCP Server for AI-Powered Web Search and Extraction](skills/tavily-mcp-server-ai-web-search-extraction/) | An official MCP server from Tavily that provides AI agents with real-time web search, page extraction, site mapping,… | Published | — | — |
 
 
-### 🎙️ Media & Transcription (47 skills)
+### 🎙️ Media & Transcription (49 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&sort=downloads)
 
@@ -1297,6 +1297,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Medi
 | [AssemblyAI LeMUR Summarizer](skills/assemblyai-lemur-summarizer-agent/) | Summarizes audio content using AssemblyAI's LeMUR (Large Language Model for Audio Understanding) API. Chains the… | Security Reviewed | — | — |
 | [AssemblyAI Summarization & Chapters Skill](skills/assemblyai-summarization-chapters-skill/) | Transcribes audio and generates auto-chapters with summaries using AssemblyAI's /v2/transcript endpoint with… | Security Reviewed | — | — |
 | [audiowaveform Audio Waveform Data Generator and Image Renderer](skills/audiowaveform-bbc-waveform-generator/) | audiowaveform is a BBC open-source C++ CLI tool that generates waveform data from MP3, WAV, FLAC, Ogg Vorbis, and… | Published | — | — |
+| [Beets Music Library Manager and Tagger](skills/beets-music-library-manager-tagger/) | Manage and tag music libraries with beets, the Python-based CLI tool that auto-tags audio files using MusicBrainz… | Published | — | — |
 | [Core Audio Unit v3 Debugger](skills/core-audio-unit-v3-debugger/) | Debugs and profiles Apple Audio Unit v3 (AUv3) plugins using auval validation tool, the AUAudioUnit Swift API, and… | Security Reviewed | — | — |
 | [Deepgram Nova Transcriber](skills/deepgram-nova-transcriber-agent/) | Transcribes audio using the Deepgram Nova-2 API with diarization, punctuation, and smart formatting. Supports… | Security Reviewed | — | — |
 | [Deepgram Real-Time Transcription Connector](skills/deepgram-realtime-transcription-connector/) | Streams live audio to Deepgram's WebSocket API at wss://api.deepgram.com/v1/listen for real-time speech-to-text.… | Security Reviewed | — | — |
@@ -1305,6 +1306,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Medi
 | [ElevenLabs Voice Cloning Agent](skills/elevenlabs-voice-cloning-agent/) | Clone and synthesize custom voices using the ElevenLabs API v2 with instant voice cloning. Manages voice library… | Security Reviewed | — | — |
 | [faster-whisper High-Performance Speech Transcription Engine](skills/faster-whisper-high-performance-speech-transcription/) | faster-whisper is a reimplementation of OpenAI's Whisper model using CTranslate2 that delivers up to 4x faster… | Published | — | — |
 | [GStreamer Pipeline Graph Optimizer](skills/gstreamer-pipeline-graph-optimizer/) | Analyzes and optimizes GStreamer media pipelines by parsing DOT graph dumps from GST_DEBUG_DUMP_DOT_DIR, profiling… | Security Reviewed | — | — |
+| [Liquidsoap Audio and Video Streaming Language](skills/liquidsoap-audio-video-streaming-language/) | Build audio and video streaming pipelines with Liquidsoap, a statically typed scripting language purpose-built for… | Published | — | — |
 | [LosslessCut FFmpeg-Powered Media Editor](skills/losslesscut-ffmpeg-powered-media-editor/) | Perform ultra-fast lossless trimming, cutting, and merging of video and audio files with LosslessCut. Built on… | Published | — | — |
 | [Piper Local Neural Text-to-Speech Engine](skills/piper-local-neural-tts-engine/) | Run fast, high-quality neural text-to-speech locally with Piper. Supports 20+ languages with compact ONNX voice… | Published | — | — |
 | [Podcast RSS Feed Builder](skills/podcast-rss-feed-builder/) | Generates and validates podcast RSS feeds compliant with the Apple Podcasts and Spotify specification. Uses the… | Security Reviewed | — | — |
@@ -1369,6 +1371,55 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [CDP Network Interception Logger](skills/cdp-network-interception-logger/) | Uses Chrome DevTools Protocol Fetch.requestPaused and Network.responseReceived events to intercept, log, and modify… | Security Reviewed | 789 | 6M/wk |
 
 
+### ✍️ Content Writing & SEO (41 skills)
+
+Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=downloads)
+
+| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
+|---|---|---|---:|---:|
+| [Surfer SEO Content Optimizer](skills/surfer-seo-content-optimizer/) | Analyzes top SERP competitors using DataForSEO API and generates content optimization briefs with target word count,… | Security Reviewed | 30.2k | 18.5M/wk |
+| [AI Content Readability Optimizer](skills/ai-content-readability-optimizer/) | Analyzes and optimizes content readability using Flesch-Kincaid scoring, Hemingway Editor API integration, and… | Security Reviewed | 21k | — |
+| [Internal Link Builder](skills/internal-link-builder-seo-agent/) | Analyzes site content graph using Screaming Frog SEO Spider API and builds internal linking recommendations.… | Security Reviewed | 21k | — |
+| [Internal Link Graph Optimizer](skills/internal-link-graph-optimizer/) | Analyzes internal linking structure by crawling sitemaps with Screaming Frog or Sitebulb, computing PageRank… | Security Reviewed | 21k | — |
+| [Jasper AI Long-Form Blog Post Generator](skills/jasper-longform-blog-generator/) | Connects to Jasper's /v1/content/generate REST endpoint to produce SEO-optimized long-form blog posts using the Boss… | Security Reviewed | 21k | — |
+| [Keyword Cannibalization Detector](skills/keyword-cannibalization-detector/) | Detects keyword cannibalization issues using Google Search Console API performance data and Semrush keyword… | Security Reviewed | 21k | — |
+| [Schema.org Structured Data Injector](skills/schema-org-structured-data-injector/) | Generates and validates JSON-LD structured data markup for articles, products, FAQs, and HowTo content types… | Security Reviewed | 21k | — |
+| [SEO Meta Tag Optimizer](skills/seo-meta-tag-optimizer-agent/) | Generates optimized title tags, meta descriptions, and Open Graph markup using Google NLP API for entity salience… | Security Reviewed | 21k | — |
+| [SEO Schema Markup Generator](skills/seo-schema-markup-generator-agent/) | Generates JSON-LD structured data for articles, products, FAQs, and local business schemas using Schema.org… | Security Reviewed | 21k | — |
+| [WordPress Content Optimizer](skills/wordpress-content-optimizer-yoast-rest/) | Optimizes WordPress posts for SEO using the Yoast SEO REST API fields alongside WP REST API v2 for content updates.… | Security Reviewed | 21k | — |
+| [AI Meta Description Generator](skills/ai-meta-description-generator/) | Bulk-generates SEO meta descriptions from page content using OpenAI's GPT-4o API with custom system prompts tuned… | Security Reviewed | 10.8k | 16.2M/wk |
+| [AI-Powered Meta Description Writer](skills/ai-powered-meta-description-writer/) | Generates optimized meta descriptions using OpenAI Chat Completions API with token-aware truncation. Integrates with… | Security Reviewed | 10.8k | 16.2M/wk |
+| [Content Readability Analyzer](skills/content-readability-analyzer-agent/) | Scores content using Flesch-Kincaid, Gunning Fog, and SMOG readability indices via textstat Python library. Provides… | Security Reviewed | 10.8k | 16.2M/wk |
+| [Content Brief Architect](skills/content-brief-architect-agent/) | Creates detailed SEO content briefs using Ahrefs API keyword data, SurferSEO NLP analysis, and Clearscope content… | Security Reviewed | 5.6k | 1.1M/wk |
+| [Keyword Cluster Generator](skills/keyword-cluster-generator-agent/) | Groups keywords into topical clusters using sentence-transformers all-MiniLM-L6-v2 embeddings with HDBSCAN… | Security Reviewed | 5.6k | 1.1M/wk |
+| [Copy.ai Sales Email Sequence Builder](skills/copyai-sales-email-sequence/) | Leverages Copy.ai's Workflows API to generate multi-step cold outreach sequences with persona-specific messaging.… | Security Reviewed | 391 | 908.3k/wk |
+| [Ahrefs Backlink Content Planner](skills/ahrefs-backlink-content-planner/) | Leverages Ahrefs REST API v3 to identify content gap opportunities through competing domain analysis. Pulls… | Security Reviewed | — | — |
+| [Ahrefs Content Gap Finder](skills/ahrefs-content-gap-finder-agent/) | Identifies content gaps using the Ahrefs API v3 /site-explorer/organic-keywords endpoint. Compares competitor… | Security Reviewed | — | — |
+| [Ahrefs Keyword Gap Analysis Skill](skills/ahrefs-keyword-gap-analysis-skill/) | Identifies keyword opportunities by comparing competitor rankings using Ahrefs' /v3/site-explorer/organic-keywords… | Security Reviewed | — | — |
+| [alex Inclusive Writing Linter](skills/alex-inclusive-writing-linter/) | Catch insensitive, inconsiderate writing with alex. This CLI tool and Node.js library scans Markdown and plain text… | Published | — | — |
+| [Clearscope NLP Grading Pipeline](skills/clearscope-nlp-grading-pipeline/) | Connects to Clearscope API to generate content grades based on NLP term frequency analysis. Automates keyword… | Security Reviewed | — | — |
+| [Content Cannibalization Detector](skills/content-cannibalization-detector/) | Identifies keyword cannibalization across site pages by analyzing Google Search Console Performance API data,… | Security Reviewed | — | — |
+| [Content Readability Optimizer](skills/content-readability-optimizer/) | Analyzes and optimizes content readability using textstat Python library and Hemingway API patterns. Computes… | Security Reviewed | — | — |
+| [Google Search Console Insights Agent](skills/gsc-insights-agent/) | Extracts search performance data via the Google Search Console API v1 /searchAnalytics/query endpoint. Analyzes CTR,… | Security Reviewed | — | — |
+| [Google Search Console Performance Analyzer](skills/gsc-performance-analyzer-skill/) | Pulls search analytics from Google Search Console's /searchanalytics/query API to identify declining pages and… | Security Reviewed | — | — |
+| [Hemingway Readability Analyzer API](skills/hemingway-readability-analyzer-api/) | Scores content readability using textstat library metrics (Flesch-Kincaid, Gunning Fog, SMOG, Coleman-Liau).… | Security Reviewed | — | — |
+| [Internal Link Optimizer](skills/internal-link-optimizer-seo/) | Optimizes internal linking structure using Screaming Frog SEO Spider XML exports and NetworkX graph analysis.… | Security Reviewed | — | — |
+| [LanguageTool Grammar and Style Checker](skills/languagetool-grammar-style-checker/) | Check grammar, style, and spelling across 25+ languages with LanguageTool. This open-source proofreading engine can… | Published | — | — |
+| [lychee Async Broken Link Checker for Websites and Documentation](skills/lychee-async-broken-link-checker/) | lychee is a fast, async, stream-based link checker written in Rust that finds broken URLs and mail addresses inside… | Published | — | — |
+| [Markdown-to-AMP Article Converter](skills/markdown-to-amp-article-converter/) | Converts Markdown files to valid AMP HTML articles using unified/remark/rehype pipeline. Validates output against… | Security Reviewed | — | — |
+| [Schema Markup Generator for SEO](skills/schema-markup-generator-seo/) | Generates JSON-LD structured data using schema-dts TypeScript definitions and Google Rich Results Test API… | Security Reviewed | — | — |
+| [Schema.org Markup Generator](skills/schema-org-markup-generator-agent/) | Generates structured data markup using Schema.org vocabulary in JSON-LD format. Supports Article, Product, FAQPage,… | Security Reviewed | — | — |
+| [Schema.org Structured Data Generator](skills/schema-org-structured-data-generator/) | Generates JSON-LD structured data markup for articles, products, FAQs, and how-to pages using Schema.org vocabulary.… | Security Reviewed | — | — |
+| [SEMrush Content Optimizer Agent](skills/semrush-content-optimizer-agent/) | Integrates with SEMrush Writing Assistant API to analyze content against top-10 SERP competitors. Provides real-time… | Security Reviewed | — | — |
+| [SEMrush Keyword Research Agent](skills/semrush-keyword-research-agent-api-v3/) | Performs keyword research using SEMrush API v3 with domain analytics, keyword difficulty scoring, and SERP feature… | Security Reviewed | — | — |
+| [SEO Content Cluster Generator](skills/seo-content-cluster-generator/) | Builds topical authority clusters using SEMrush Keyword Magic API, Ahrefs Content Explorer, and Google Search… | Security Reviewed | — | — |
+| [SEO Keyword Research Automator](skills/seo-keyword-research-automator/) | Automated keyword research using DataForSEO API and Google Search Console API. Performs SERP analysis, keyword… | Security Reviewed | — | — |
+| [Surfer SEO Content Optimizer Integration](skills/surfer-seo-content-optimizer-integration/) | Optimizes content against Surfer SEO's NLP-based recommendations via the Surfer API /v1/content_editors endpoint.… | Security Reviewed | — | — |
+| [Surfer SEO SERP Analyzer](skills/surfer-seo-serp-analyzer/) | Uses Surfer SEO Content Editor API to pull SERP analysis data including word count benchmarks, heading structure… | Security Reviewed | — | — |
+| [Technical SEO Audit Crawler](skills/technical-seo-audit-crawler/) | Crawls websites for technical SEO issues using Screaming Frog CLI, Lighthouse CI API, and PageSpeed Insights v5.… | Security Reviewed | — | — |
+| [textlint Pluggable Natural Language Linter](skills/textlint-pluggable-natural-language-linter/) | Lint natural language text with textlint, the pluggable linting framework inspired by ESLint. Install community… | Published | — | — |
+
+
 ### 📰 WordPress & CMS (39 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS&sort=downloads)
@@ -1414,52 +1465,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Word
 | [WordPress Playground WebAssembly Runtime for In-Browser WordPress](skills/wordpress-playground-wasm-runtime/) | WordPress Playground runs a full WordPress instance entirely in the browser using WebAssembly-compiled PHP. It… | Published | — | — |
 | [wp-env Zero-Config WordPress Development Environment](skills/wp-env-wordpress-dev-environment/) | The @wordpress/env package (wp-env) provides a zero-configuration, Docker-based local WordPress environment for… | Published | — | — |
 | [WPScan WordPress Security Vulnerability Scanner](skills/wpscan-wordpress-security-vulnerability-scanner/) | WPScan is an open-source WordPress security scanner that detects vulnerabilities in plugins, themes, and core… | Published | — | — |
-
-
-### ✍️ Content Writing & SEO (38 skills)
-
-Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=downloads)
-
-| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
-|---|---|---|---:|---:|
-| [Surfer SEO Content Optimizer](skills/surfer-seo-content-optimizer/) | Analyzes top SERP competitors using DataForSEO API and generates content optimization briefs with target word count,… | Security Reviewed | 30.2k | 18.5M/wk |
-| [AI Content Readability Optimizer](skills/ai-content-readability-optimizer/) | Analyzes and optimizes content readability using Flesch-Kincaid scoring, Hemingway Editor API integration, and… | Security Reviewed | 21k | — |
-| [Internal Link Builder](skills/internal-link-builder-seo-agent/) | Analyzes site content graph using Screaming Frog SEO Spider API and builds internal linking recommendations.… | Security Reviewed | 21k | — |
-| [Internal Link Graph Optimizer](skills/internal-link-graph-optimizer/) | Analyzes internal linking structure by crawling sitemaps with Screaming Frog or Sitebulb, computing PageRank… | Security Reviewed | 21k | — |
-| [Jasper AI Long-Form Blog Post Generator](skills/jasper-longform-blog-generator/) | Connects to Jasper's /v1/content/generate REST endpoint to produce SEO-optimized long-form blog posts using the Boss… | Security Reviewed | 21k | — |
-| [Keyword Cannibalization Detector](skills/keyword-cannibalization-detector/) | Detects keyword cannibalization issues using Google Search Console API performance data and Semrush keyword… | Security Reviewed | 21k | — |
-| [Schema.org Structured Data Injector](skills/schema-org-structured-data-injector/) | Generates and validates JSON-LD structured data markup for articles, products, FAQs, and HowTo content types… | Security Reviewed | 21k | — |
-| [SEO Meta Tag Optimizer](skills/seo-meta-tag-optimizer-agent/) | Generates optimized title tags, meta descriptions, and Open Graph markup using Google NLP API for entity salience… | Security Reviewed | 21k | — |
-| [SEO Schema Markup Generator](skills/seo-schema-markup-generator-agent/) | Generates JSON-LD structured data for articles, products, FAQs, and local business schemas using Schema.org… | Security Reviewed | 21k | — |
-| [WordPress Content Optimizer](skills/wordpress-content-optimizer-yoast-rest/) | Optimizes WordPress posts for SEO using the Yoast SEO REST API fields alongside WP REST API v2 for content updates.… | Security Reviewed | 21k | — |
-| [AI Meta Description Generator](skills/ai-meta-description-generator/) | Bulk-generates SEO meta descriptions from page content using OpenAI's GPT-4o API with custom system prompts tuned… | Security Reviewed | 10.8k | 16.2M/wk |
-| [AI-Powered Meta Description Writer](skills/ai-powered-meta-description-writer/) | Generates optimized meta descriptions using OpenAI Chat Completions API with token-aware truncation. Integrates with… | Security Reviewed | 10.8k | 16.2M/wk |
-| [Content Readability Analyzer](skills/content-readability-analyzer-agent/) | Scores content using Flesch-Kincaid, Gunning Fog, and SMOG readability indices via textstat Python library. Provides… | Security Reviewed | 10.8k | 16.2M/wk |
-| [Content Brief Architect](skills/content-brief-architect-agent/) | Creates detailed SEO content briefs using Ahrefs API keyword data, SurferSEO NLP analysis, and Clearscope content… | Security Reviewed | 5.6k | 1.1M/wk |
-| [Keyword Cluster Generator](skills/keyword-cluster-generator-agent/) | Groups keywords into topical clusters using sentence-transformers all-MiniLM-L6-v2 embeddings with HDBSCAN… | Security Reviewed | 5.6k | 1.1M/wk |
-| [Copy.ai Sales Email Sequence Builder](skills/copyai-sales-email-sequence/) | Leverages Copy.ai's Workflows API to generate multi-step cold outreach sequences with persona-specific messaging.… | Security Reviewed | 391 | 908.3k/wk |
-| [Ahrefs Backlink Content Planner](skills/ahrefs-backlink-content-planner/) | Leverages Ahrefs REST API v3 to identify content gap opportunities through competing domain analysis. Pulls… | Security Reviewed | — | — |
-| [Ahrefs Content Gap Finder](skills/ahrefs-content-gap-finder-agent/) | Identifies content gaps using the Ahrefs API v3 /site-explorer/organic-keywords endpoint. Compares competitor… | Security Reviewed | — | — |
-| [Ahrefs Keyword Gap Analysis Skill](skills/ahrefs-keyword-gap-analysis-skill/) | Identifies keyword opportunities by comparing competitor rankings using Ahrefs' /v3/site-explorer/organic-keywords… | Security Reviewed | — | — |
-| [Clearscope NLP Grading Pipeline](skills/clearscope-nlp-grading-pipeline/) | Connects to Clearscope API to generate content grades based on NLP term frequency analysis. Automates keyword… | Security Reviewed | — | — |
-| [Content Cannibalization Detector](skills/content-cannibalization-detector/) | Identifies keyword cannibalization across site pages by analyzing Google Search Console Performance API data,… | Security Reviewed | — | — |
-| [Content Readability Optimizer](skills/content-readability-optimizer/) | Analyzes and optimizes content readability using textstat Python library and Hemingway API patterns. Computes… | Security Reviewed | — | — |
-| [Google Search Console Insights Agent](skills/gsc-insights-agent/) | Extracts search performance data via the Google Search Console API v1 /searchAnalytics/query endpoint. Analyzes CTR,… | Security Reviewed | — | — |
-| [Google Search Console Performance Analyzer](skills/gsc-performance-analyzer-skill/) | Pulls search analytics from Google Search Console's /searchanalytics/query API to identify declining pages and… | Security Reviewed | — | — |
-| [Hemingway Readability Analyzer API](skills/hemingway-readability-analyzer-api/) | Scores content readability using textstat library metrics (Flesch-Kincaid, Gunning Fog, SMOG, Coleman-Liau).… | Security Reviewed | — | — |
-| [Internal Link Optimizer](skills/internal-link-optimizer-seo/) | Optimizes internal linking structure using Screaming Frog SEO Spider XML exports and NetworkX graph analysis.… | Security Reviewed | — | — |
-| [lychee Async Broken Link Checker for Websites and Documentation](skills/lychee-async-broken-link-checker/) | lychee is a fast, async, stream-based link checker written in Rust that finds broken URLs and mail addresses inside… | Published | — | — |
-| [Markdown-to-AMP Article Converter](skills/markdown-to-amp-article-converter/) | Converts Markdown files to valid AMP HTML articles using unified/remark/rehype pipeline. Validates output against… | Security Reviewed | — | — |
-| [Schema Markup Generator for SEO](skills/schema-markup-generator-seo/) | Generates JSON-LD structured data using schema-dts TypeScript definitions and Google Rich Results Test API… | Security Reviewed | — | — |
-| [Schema.org Markup Generator](skills/schema-org-markup-generator-agent/) | Generates structured data markup using Schema.org vocabulary in JSON-LD format. Supports Article, Product, FAQPage,… | Security Reviewed | — | — |
-| [Schema.org Structured Data Generator](skills/schema-org-structured-data-generator/) | Generates JSON-LD structured data markup for articles, products, FAQs, and how-to pages using Schema.org vocabulary.… | Security Reviewed | — | — |
-| [SEMrush Content Optimizer Agent](skills/semrush-content-optimizer-agent/) | Integrates with SEMrush Writing Assistant API to analyze content against top-10 SERP competitors. Provides real-time… | Security Reviewed | — | — |
-| [SEMrush Keyword Research Agent](skills/semrush-keyword-research-agent-api-v3/) | Performs keyword research using SEMrush API v3 with domain analytics, keyword difficulty scoring, and SERP feature… | Security Reviewed | — | — |
-| [SEO Content Cluster Generator](skills/seo-content-cluster-generator/) | Builds topical authority clusters using SEMrush Keyword Magic API, Ahrefs Content Explorer, and Google Search… | Security Reviewed | — | — |
-| [SEO Keyword Research Automator](skills/seo-keyword-research-automator/) | Automated keyword research using DataForSEO API and Google Search Console API. Performs SERP analysis, keyword… | Security Reviewed | — | — |
-| [Surfer SEO Content Optimizer Integration](skills/surfer-seo-content-optimizer-integration/) | Optimizes content against Surfer SEO's NLP-based recommendations via the Surfer API /v1/content_editors endpoint.… | Security Reviewed | — | — |
-| [Surfer SEO SERP Analyzer](skills/surfer-seo-serp-analyzer/) | Uses Surfer SEO Content Editor API to pull SERP analysis data including word count benchmarks, heading structure… | Security Reviewed | — | — |
-| [Technical SEO Audit Crawler](skills/technical-seo-audit-crawler/) | Crawls websites for technical SEO issues using Screaming Frog CLI, Lighthouse CI API, and PageSpeed Insights v5.… | Security Reviewed | — | — |
 
 
 ---

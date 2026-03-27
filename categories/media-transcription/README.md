@@ -1,6 +1,6 @@
 # 🎙️ Media & Transcription
 
-> **47 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription)
+> **49 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription)
 
 Audio/video processing, speech-to-text, media conversion, and transcription.
 
@@ -89,6 +89,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [AssemblyAI LeMUR Summarizer](../../skills/assemblyai-lemur-summarizer-agent/) | Security Reviewed | — | — | `clawhub install assemblyai-lemur-summarizer-agent` |
 | [AssemblyAI Summarization &#038; Chapters Skill](../../skills/assemblyai-summarization-chapters-skill/) | Security Reviewed | — | — | `clawhub install assemblyai-summarization-chapters-skill` |
 | [audiowaveform Audio Waveform Data Generator and Image Renderer](../../skills/audiowaveform-bbc-waveform-generator/) | Verified Metadata | — | — | `clawhub install audiowaveform-bbc-waveform-generator` |
+| [Beets Music Library Manager and Tagger](../../skills/beets-music-library-manager-tagger/) | Verified Metadata | — | — | `clawhub install beets-music-library-manager-tagger` |
 | [Core Audio Unit v3 Debugger](../../skills/core-audio-unit-v3-debugger/) | Security Reviewed | — | — | `clawhub install core-audio-unit-v3-debugger` |
 | [Deepgram Nova Transcriber](../../skills/deepgram-nova-transcriber-agent/) | Security Reviewed | — | — | `clawhub install deepgram-nova-transcriber-agent` |
 | [Deepgram Real-Time Transcription Connector](../../skills/deepgram-realtime-transcription-connector/) | Security Reviewed | — | — | `clawhub install deepgram-realtime-transcription-connector` |
@@ -97,6 +98,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [ElevenLabs Voice Cloning Agent](../../skills/elevenlabs-voice-cloning-agent/) | Security Reviewed | — | — | `clawhub install elevenlabs-voice-cloning-agent` |
 | [faster-whisper High-Performance Speech Transcription Engine](../../skills/faster-whisper-high-performance-speech-transcription/) | Verified Metadata | — | — | `clawhub install faster-whisper-high-performance-speech-transcription` |
 | [GStreamer Pipeline Graph Optimizer](../../skills/gstreamer-pipeline-graph-optimizer/) | Security Reviewed | — | — | `clawhub install gstreamer-pipeline-graph-optimizer` |
+| [Liquidsoap Audio and Video Streaming Language](../../skills/liquidsoap-audio-video-streaming-language/) | Verified Metadata | — | — | `clawhub install liquidsoap-audio-video-streaming-language` |
 | [LosslessCut FFmpeg-Powered Media Editor](../../skills/losslesscut-ffmpeg-powered-media-editor/) | Verified Metadata | — | — | `clawhub install losslesscut-ffmpeg-powered-media-editor` |
 | [Piper Local Neural Text-to-Speech Engine](../../skills/piper-local-neural-tts-engine/) | Verified Metadata | — | — | `clawhub install piper-local-neural-tts-engine` |
 | [Podcast RSS Feed Builder](../../skills/podcast-rss-feed-builder/) | Security Reviewed | — | — | `clawhub install podcast-rss-feed-builder` |
