@@ -82,6 +82,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Google Calendar Sync Agent](../../skills/google-calendar-sync-agent-2/) | — | — |
 | [IMAP Email Classifier](../../skills/imap-email-classifier-ml/) | — | — |
 | [IMAP Inbox Triage Agent](../../skills/imap-inbox-triage-agent/) | — | — |
+| [Listmonk Self-Hosted Newsletter and Mailing List Manager](../../skills/listmonk-self-hosted-newsletter-mailing-list/) | — | — |
 | [Mailpit SMTP Testing and Email Capture Workbench](../../skills/mailpit-smtp-testing-email-capture-workbench/) | — | — |
 | [Memos Self-Hosted Note Capture and Knowledge API](../../skills/memos-self-hosted-note-capture-knowledge-api/) | — | — |
 | [Microsoft Graph Calendar Conflict Resolver](../../skills/microsoft-graph-calendar-conflict-resolver/) | — | — |

@@ -149,6 +149,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Bazel Build Graph Analyzer](../../skills/bazel-build-graph-analyzer/) | — | — |
 | [Bun Shell Script Executor](../../skills/bun-shell-script-executor/) | — | — |
 | [Claude Code MCP Bridge](../../skills/claude-code-mcp-bridge/) | — | — |
+| [Coolify Self-Hosted PaaS Deployment Platform](../../skills/coolify-self-hosted-paas-deployment/) | — | — |
 | [Desktop Commander MCP Server for Terminal and File Control](../../skills/desktop-commander-mcp-terminal-file-control/) | — | — |
 | [dust Intuitive Disk Usage Analyzer CLI](../../skills/dust-intuitive-disk-usage-analyzer-cli/) | — | — |
 | [E2B Code Execution MCP](../../skills/e2b-code-execution-mcp/) | — | — |
@@ -175,6 +176,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [LLDB Debug Session Automator](../../skills/lldb-debug-session-automator/) | — | — |
 | [lsd Next-Generation ls Directory Listing Tool](../../skills/lsd-next-gen-ls-directory-listing/) | — | — |
 | [Makefile Dependency Auditor](../../skills/makefile-dependency-auditor/) | — | — |
+| [Meilisearch MCP Server for AI-Powered Search Integration](../../skills/meilisearch-mcp-server-ai-search/) | — | — |
 | [n8n GitHub Issue-to-Jira Ticket Automator](../../skills/n8n-github-jira-ticket-automator/) | — | — |
 | [Nix Flake Configuration Builder](../../skills/nix-flake-configuration-builder/) | — | — |
 | [NPM Package Auditor](../../skills/npm-package-auditor-registry-api/) | — | — |

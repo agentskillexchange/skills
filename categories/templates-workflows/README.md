@@ -101,6 +101,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Nx Workspace Generator](../../skills/nx-workspace-generator/) | — | — |
 | [Plop.js Code Generator Orchestrator](../../skills/plopjs-code-generator-orchestrator/) | — | — |
 | [Self-Improvement / Learnings Capture](../../skills/self-improvement-learnings-capture/) | — | — |
+| [Windmill Open-Source Workflow Engine and Developer Platform](../../skills/windmill-workflow-engine-developer-platform/) | — | — |
 | [Yeoman Generator Builder](../../skills/yeoman-generator-builder/) | — | — |
 | [Yeoman Scaffold Runner](../../skills/yeoman-scaffold-runner/) | — | — |
 | [Yeoman Sub-Generator Composition Builder](../../skills/yeoman-sub-generator-composition-builder/) | — | — |

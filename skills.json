@@ -1,8 +1,56 @@
 {
   "version": "2.0",
-  "total": 1366,
+  "total": 1370,
   "generated": "2026-03-27",
   "skills": [
+    {
+      "slug": "listmonk-self-hosted-newsletter-mailing-list",
+      "name": "Listmonk Self-Hosted Newsletter and Mailing List Manager",
+      "description": "High-performance, self-hosted newsletter and mailing list manager packed into a single binary. Manages millions of subscribers with templated campaigns, analytics, and a REST API…",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "windmill-workflow-engine-developer-platform",
+      "name": "Windmill Open-Source Workflow Engine and Developer Platform",
+      "description": "Open-source developer platform to turn scripts into webhooks, workflows, and UIs. Self-hostable alternative to Retool and Temporal, supporting Python, TypeScript, Go, Bash, SQL, and…",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "coolify-self-hosted-paas-deployment",
+      "name": "Coolify Self-Hosted PaaS Deployment Platform",
+      "description": "Open-source, self-hostable alternative to Vercel, Heroku, and Netlify that deploys static sites, databases, full-stack applications, and 280+ one-click services on your own servers. Manages…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "meilisearch-mcp-server-ai-search",
+      "name": "Meilisearch MCP Server for AI-Powered Search Integration",
+      "description": "Official Model Context Protocol server that connects LLMs to Meilisearch for lightning-fast search, index management, and document operations via natural language. Enables AI agents…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "MCP"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "seonaut-open-source-technical-seo-audit",
       "name": "SEOnaut Open Source Technical SEO Audit Tool",

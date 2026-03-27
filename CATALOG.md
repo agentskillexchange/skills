@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1366 published skills** across **17 categories** · 1328 security reviewed · Updated 2026-03-27 21:15 UTC
+> **1370 published skills** across **17 categories** · 1328 security reviewed · Updated 2026-03-27 23:17 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (150 skills)
+### 🛠️ Developer Tools (152 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -123,6 +123,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Bazel Build Graph Analyzer](skills/bazel-build-graph-analyzer/) | Analyzes Bazel build dependency graphs to identify bottlenecks and optimize build times. Uses the Bazel Query… | Security Reviewed | — | — |
 | [Bun Shell Script Executor](skills/bun-shell-script-executor/) | Leverages Bun's built-in $ shell API (Bun.Shell) to orchestrate cross-platform shell scripts from TypeScript with… | Security Reviewed | — | — |
 | [Claude Code MCP Bridge](skills/claude-code-mcp-bridge/) | Run Claude Code as a one-shot MCP tool so other agents and editors can delegate coding tasks to it. An… | Security Reviewed | — | — |
+| [Coolify Self-Hosted PaaS Deployment Platform](skills/coolify-self-hosted-paas-deployment/) | Open-source, self-hostable alternative to Vercel, Heroku, and Netlify that deploys static sites, databases,… | Published | — | — |
 | [Desktop Commander MCP Server for Terminal and File Control](skills/desktop-commander-mcp-terminal-file-control/) | Desktop Commander is an MCP server that gives AI assistants terminal command execution, file system search,… | Security Reviewed | — | — |
 | [dust Intuitive Disk Usage Analyzer CLI](skills/dust-intuitive-disk-usage-analyzer-cli/) | A more intuitive version of the du command, written in Rust. dust instantly visualizes which directories consume the… | Security Reviewed | — | — |
 | [E2B Code Execution MCP](skills/e2b-code-execution-mcp/) | Add sandboxed code execution to any MCP-compatible AI client. E2B gives agents access to secure, internet-connected… | Security Reviewed | — | — |
@@ -149,6 +150,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [LLDB Debug Session Automator](skills/lldb-debug-session-automator/) | Automates LLDB debugging sessions with scripted breakpoint management and expression evaluation. Uses the LLDB… | Security Reviewed | — | — |
 | [lsd Next-Generation ls Directory Listing Tool](skills/lsd-next-gen-ls-directory-listing/) | lsd (LSDeluxe) is a modern rewrite of the classic ls command written in Rust, adding color coding, file-type icons… | Security Reviewed | — | — |
 | [Makefile Dependency Auditor](skills/makefile-dependency-auditor/) | Parses GNU Makefiles using pymake and builds complete dependency DAGs. Detects circular dependencies, unreachable… | Security Reviewed | — | — |
+| [Meilisearch MCP Server for AI-Powered Search Integration](skills/meilisearch-mcp-server-ai-search/) | Official Model Context Protocol server that connects LLMs to Meilisearch for lightning-fast search, index… | Published | — | — |
 | [n8n GitHub Issue-to-Jira Ticket Automator](skills/n8n-github-jira-ticket-automator/) | Deploys an n8n workflow via the n8n REST API using the GitHub Trigger node to capture new issue events and transform… | Security Reviewed | — | — |
 | [Nix Flake Configuration Builder](skills/nix-flake-configuration-builder/) | Generates reproducible Nix flake configurations with devShell environments and package overlays. Uses the Nix Flakes… | Security Reviewed | — | — |
 | [NPM Package Auditor](skills/npm-package-auditor-registry-api/) | Audits NPM packages using the NPM Registry API with dependency tree resolution and vulnerability scanning via… | Security Reviewed | — | — |
@@ -944,7 +946,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [PostHog Product Analytics and Feature Flags SDK](skills/posthog-product-analytics-and-feature-flags-sdk/) | Use PostHog to capture product analytics events, identify users, evaluate feature flags, and route experimentation… | Published | — | — |
 
 
-### 📄 Templates & Workflows (65 skills)
+### 📄 Templates & Workflows (66 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -1011,6 +1013,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Nx Workspace Generator](skills/nx-workspace-generator/) | Creates and manages Nx monorepo workspace generators using @nx/devkit and the Nx plugin API. Generates libraries,… | Security Reviewed | — | — |
 | [Plop.js Code Generator Orchestrator](skills/plopjs-code-generator-orchestrator/) | Manages Plop.js micro-generators to scaffold components, modules, and boilerplate files using Handlebars templates.… | Security Reviewed | — | — |
 | [Self-Improvement / Learnings Capture](skills/self-improvement-learnings-capture/) | Capture failures, corrections, and repeatable lessons so important operational knowledge persists across sessions. | Security Reviewed | — | — |
+| [Windmill Open-Source Workflow Engine and Developer Platform](skills/windmill-workflow-engine-developer-platform/) | Open-source developer platform to turn scripts into webhooks, workflows, and UIs. Self-hostable alternative to… | Published | — | — |
 | [Yeoman Generator Builder](skills/yeoman-generator-builder/) | Creates custom Yeoman generators using the yeoman-generator API and yo CLI. Scaffolds generator packages with… | Security Reviewed | — | — |
 | [Yeoman Scaffold Runner](skills/yeoman-scaffold-runner/) | Executes Yeoman generators via the yo CLI and yeoman-environment API to scaffold applications, components, and… | Security Reviewed | — | — |
 | [Yeoman Sub-Generator Composition Builder](skills/yeoman-sub-generator-composition-builder/) | Orchestrates Yeoman generator composition by chaining sub-generators via the Yeoman Environment API. Manages yo run… | Security Reviewed | — | — |
@@ -1082,6 +1085,70 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Zapier Webhook Integration Builder](skills/zapier-webhook-integration-builder/) | Creates and manages Zapier integrations using the Zapier Platform CLI and REST Hooks API. Builds custom triggers,… | Security Reviewed | — | — |
 
 
+### 📅 Calendar, Email & Productivity (56 skills)
+
+Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=downloads)
+
+| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
+|---|---|---|---:|---:|
+| [Inbox Zero AI Email Assistant](skills/inbox-zero-ai-email-assistant/) | Inbox Zero is an open-source AI email assistant with over 10,000 GitHub stars that auto-triages your inbox,… | Security Reviewed | 73.6k | 8.4M/wk |
+| [Google Workspace MCP Server for Gmail Calendar and Drive](skills/google-workspace-mcp-server-gmail-calendar-drive/) | The Google Workspace MCP Server provides comprehensive natural language control over Gmail, Google Calendar, Drive,… | Security Reviewed | 71.6k | — |
+| [Todoist Natural Language Task Parser](skills/todoist-natural-language-task-parser/) | Parses natural language task descriptions into structured Todoist API v2 task objects with due dates, priority… | Security Reviewed | 35.3k | — |
+| [Discord Bot Manager](skills/discord-bot-manager/) | Discord Bot Manager is built around Discord bot and moderation platform. The underlying ecosystem is represented by… | Security Reviewed | 26.6k | 524.1k/wk |
+| [Linear Sprint Planner](skills/linear-sprint-planner/) | Linear Sprint Planner is built around GraphQL API ecosystem. The underlying ecosystem is represented by… | Security Reviewed | 20.3k | 32.3M/wk |
+| [Microsoft Graph Email Triage Assistant](skills/microsoft-graph-email-triage-assistant/) | Triages Outlook inboxes via Microsoft Graph API with delta query for incremental sync. Applies classification rules,… | Security Reviewed | 7k | 4.9M/wk |
+| [Outlook Email Automation](skills/outlook-email-automation/) | Authenticates to Microsoft Graph API using MSAL with Mail.ReadWrite and Calendars.ReadWrite permissions. Reads,… | Security Reviewed | 7k | 4.9M/wk |
+| [Notion AI Document Summarizer & Action Item Extractor](skills/notion-ai-doc-summarizer/) | Uses the Notion SDK and Notion AI's /v1/pages and /v1/blocks/children endpoints to retrieve page content and invoke… | Security Reviewed | 5.6k | 1.1M/wk |
+| [Notion AI Workspace](skills/notion-ai-workspace/) | Notion AI Workspace is built around Notion workspace and database platform. The underlying ecosystem is represented… | Security Reviewed | 5.6k | 1.1M/wk |
+| [Notion Database Sync Agent](skills/notion-database-sync-agent/) | Syncs records between Notion databases and external sources using the Notion API (POST /v1/databases/{id}/query),… | Security Reviewed | 5.6k | 1.1M/wk |
+| [Notion Database Sync Bridge](skills/notion-database-sync-bridge/) | Synchronizes data between Notion databases and external sources using the Notion API v2022-06-28 with cursor-based… | Security Reviewed | 5.6k | 1.1M/wk |
+| [Notion MCP Server](skills/notion-mcp-server/) | Notion MCP Server is built around Notion workspace and database platform. The underlying ecosystem is represented by… | Security Reviewed | 5.6k | 1.1M/wk |
+| [Notion Task Board Automation](skills/notion-task-board-automation-agent/) | Automates Notion database workflows using the Notion API databases.query and pages.create endpoints. Builds filtered… | Security Reviewed | 5.6k | 1.1M/wk |
+| [Notion Task Sync Bridge](skills/notion-task-sync-bridge/) | Bidirectionally syncs tasks between Notion databases and external project management tools using the Notion API… | Security Reviewed | 5.6k | 1.1M/wk |
+| [Notion Workspace Automation Hub](skills/notion-workspace-automation-hub/) | Orchestrates Notion workspace workflows using Notion API v2 with database queries, page creation, and relation… | Security Reviewed | 5.6k | 1.1M/wk |
+| [Notion Workspace Automator](skills/notion-workspace-automator-api-v1/) | Automates Notion workspace management through the Notion API v1 with database query filters, page creation, and… | Security Reviewed | 5.6k | 1.1M/wk |
+| [Notion Workspace Sync Agent](skills/notion-workspace-sync-agent/) | Bidirectionally syncs project data between Notion databases and external tools using the Notion API v2022-06-28.… | Security Reviewed | 5.6k | 1.1M/wk |
+| [Notion Workspace Sync Engine](skills/notion-workspace-sync-engine-2/) | Bidirectionally syncs Notion databases with external tools via the Notion API and webhooks. Maps page properties to… | Security Reviewed | 5.6k | 1.1M/wk |
+| [Todoist GTD Workflow Automator](skills/todoist-gtd-workflow-automator/) | Implements Getting Things Done methodology on Todoist using the Todoist Sync API v9. Automates inbox processing,… | Security Reviewed | 5.6k | 1.1M/wk |
+| [Slack Channel Summarizer](skills/slack-channel-summarizer-bolt-sdk/) | Generates channel summaries using Slack Bolt SDK with conversations.history and conversations.replies endpoints.… | Security Reviewed | 2.9k | 2M/wk |
+| [Slack Digest and Task Router](skills/slack-digest-and-task-router/) | Reads unread Slack messages from specified channels using the conversations.history API, extracts action items and… | Security Reviewed | 2.9k | 2M/wk |
+| [Slack MCP Server](skills/slack-mcp-server/) | Agent access to Slack conversations and workspace workflows. | Security Reviewed | 2.9k | 2M/wk |
+| [Slack Standup Automator](skills/slack-standup-automator/) | Automates daily standup collection and reporting in Slack using the Slack Web API chat.postMessage and… | Security Reviewed | 2.9k | 2M/wk |
+| [Slack Standup Summarizer](skills/slack-standup-summarizer/) | Collects daily standup updates from Slack channels using the Web API and generates team summaries with blockers… | Security Reviewed | 2.9k | 2M/wk |
+| [Slack Status API PTO Sync Assistant](skills/slack-status-api-pto-sync-assistant/) | Syncs away-state updates through Slack users.profile APIs, status fields, and directory lookups so agents can keep… | Security Reviewed | 2.9k | 2M/wk |
+| [Slack Workflow Automation Builder](skills/slack-workflow-automation-builder/) | Creates Slack Workflow Builder automations using the Slack Web API and Block Kit. Builds approval flows, standup… | Security Reviewed | 2.9k | 2M/wk |
+| [Slack Workflow Bot](skills/slack-workflow-bot-bolt-sdk/) | Builds interactive Slack workflows using the Bolt SDK for JavaScript and Block Kit Builder API. Handles modal forms,… | Security Reviewed | 2.9k | 2M/wk |
+| [Slack Workflow Bot Builder](skills/slack-workflow-bot-builder/) | Creates interactive Slack workflows using Block Kit UI components and the Bolt.js framework. Implements slash… | Security Reviewed | 2.9k | 2M/wk |
+| [Slack Workflow Builder Agent](skills/slack-workflow-builder-agent/) | Creates and manages Slack workflows using @slack/bolt and @slack/web-api. Builds interactive modals with Block Kit,… | Security Reviewed | 2.9k | 2M/wk |
+| [Microsoft Graph Mail Triage Agent](skills/microsoft-graph-mail-triage-agent/) | Triages Outlook emails using the Microsoft Graph API /me/messages endpoint with $filter OData queries and… | Security Reviewed | 790 | 5.9M/wk |
+| [Atlassian Rovo MCP Server](skills/atlassian-rovo-mcp-server/) | The Atlassian Rovo MCP Server bridges your Atlassian Cloud workspace with any MCP-compatible client. Search and… | Security Reviewed | — | — |
+| [Cal.com Open Source Scheduling Infrastructure and API](skills/cal-com-open-source-scheduling-infrastructure-api/) | Integrate Cal.com's open-source scheduling platform into AI agent workflows. Agents can programmatically create… | Published | — | — |
+| [Gmail API Thread Label Triage](skills/gmail-api-thread-label-triage/) | Triage inbox backlog with the Gmail API’s `users.threads`, `users.messages`, and `users.labels` methods so agents… | Security Reviewed | — | — |
+| [Gmail Thread Summarizer and Action Extractor](skills/gmail-thread-summarizer-action-extractor/) | Fetches Gmail threads via the Gmail API (users.threads.get), extracts full message content, and produces a… | Security Reviewed | — | — |
+| [Google Calendar Conflict Detector](skills/google-calendar-conflict-detector/) | Detects scheduling conflicts across multiple Google Calendars using the Google Calendar API v3 and the freebusy… | Security Reviewed | — | — |
+| [Google Calendar Conflict Resolver](skills/google-calendar-conflict-resolver-2/) | Detects and resolves scheduling conflicts across multiple Google Calendar accounts using the Google Calendar API v3… | Security Reviewed | — | — |
+| [Google Calendar FreeBusy Scheduler Bridge](skills/google-calendar-freebusy-scheduler-bridge/) | Coordinates meeting suggestions with the Google Calendar `freeBusy` endpoint, Events resource, and conferenceData… | Security Reviewed | — | — |
+| [Google Calendar Smart Scheduler](skills/google-calendar-smart-scheduler-2/) | Optimizes meeting scheduling using the Google Calendar API v3 and FreeBusy queries. Applies time-zone-aware slot… | Security Reviewed | — | — |
+| [Google Calendar Sync & Conflict Resolver](skills/google-calendar-sync-conflict-resolver/) | Bidirectional calendar synchronization using Google Calendar API v3 with OAuth 2.0. Detects scheduling conflicts… | Security Reviewed | — | — |
+| [Google Calendar Sync Agent](skills/google-calendar-sync-agent-2/) | Synchronizes events across multiple Google Calendar accounts using the Calendar API v3 and OAuth 2.0. Handles… | Security Reviewed | — | — |
+| [IMAP Email Classifier](skills/imap-email-classifier-ml/) | Classifies and organizes emails from IMAP servers using imaplib and scikit-learn text classification. Supports… | Security Reviewed | — | — |
+| [IMAP Inbox Triage Agent](skills/imap-inbox-triage-agent/) | Connects to IMAP email servers to classify, prioritize, and auto-label incoming messages using rule-based and… | Security Reviewed | — | — |
+| [Listmonk Self-Hosted Newsletter and Mailing List Manager](skills/listmonk-self-hosted-newsletter-mailing-list/) | High-performance, self-hosted newsletter and mailing list manager packed into a single binary. Manages millions of… | Published | — | — |
+| [Mailpit SMTP Testing and Email Capture Workbench](skills/mailpit-smtp-testing-email-capture-workbench/) | This skill uses Mailpit as a safe SMTP sink for development, QA, and automated test runs. It helps teams capture,… | Published | — | — |
+| [Memos Self-Hosted Note Capture and Knowledge API](skills/memos-self-hosted-note-capture-knowledge-api/) | Enable AI agents to interact with Memos, an open-source self-hosted note-taking tool with REST and gRPC APIs. Agents… | Published | — | — |
+| [Microsoft Graph Calendar Conflict Resolver](skills/microsoft-graph-calendar-conflict-resolver/) | Resolves scheduling collisions with Microsoft Graph Calendar endpoints like `/me/events`, `/calendarView`, and… | Security Reviewed | — | — |
+| [Microsoft Graph Email Digest Builder](skills/microsoft-graph-email-digest-builder/) | Generates daily email digests from Microsoft 365 mailboxes using the Microsoft Graph API /me/messages endpoint.… | Security Reviewed | — | — |
+| [Microsoft Graph Email Triage Agent](skills/microsoft-graph-email-triage-agent/) | Automates email triage using Microsoft Graph API v1.0 with delegated permissions. Classifies emails by urgency using… | Security Reviewed | — | — |
+| [Microsoft Outlook Calendar Sync Agent](skills/ms-outlook-calendar-sync-agent/) | Synchronizes calendar events bidirectionally using the Microsoft Graph API /me/calendar/events endpoint. Handles… | Security Reviewed | — | — |
+| [Microsoft Outlook Mail Sorter](skills/ms-outlook-mail-sorter/) | Automatically triages Microsoft Outlook emails using the Microsoft Graph API /me/messages endpoint. Applies… | Security Reviewed | — | — |
+| [Outlook Mail Triage Assistant](skills/outlook-mail-triage-assistant/) | Automated email triage using Microsoft Graph API and @azure/msal-node for OAuth. Classifies messages with zero-shot… | Security Reviewed | — | — |
+| [Outlook Mail Triage Skill](skills/outlook-mail-triage-microsoft-graph/) | Triages Outlook inboxes using Microsoft Graph API v1.0 with delta query support for incremental mail sync. Applies… | Security Reviewed | — | — |
+| [Outlook Rule Automation Manager](skills/outlook-rule-automation-manager/) | Creates and manages Outlook email rules programmatically using the Microsoft Graph API… | Security Reviewed | — | — |
+| [Todoist GTD Workflow Engine](skills/todoist-gtd-workflow-engine/) | Implements Getting Things Done methodology on Todoist using the Sync API v9. Automates weekly reviews, context… | Security Reviewed | — | — |
+| [Todoist Project Automator](skills/todoist-project-automator-api-v2/) | Automates Todoist project management using the Todoist REST API v2 and Sync API. Creates task templates, manages… | Security Reviewed | — | — |
+| [Todoist Sync API Task Orchestrator](skills/todoist-sync-api-task-orchestrator/) | Orchestrates complex task workflows using the Todoist Sync API v9 with incremental sync via sync_token. Uses… | Security Reviewed | — | — |
+
+
 ### 🎨 Image & Creative Automation (56 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=downloads)
@@ -1144,69 +1211,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [Stable Diffusion XL LoRA Trainer](skills/stable-diffusion-xl-lora-trainer/) | Fine-tune Stable Diffusion XL models with LoRA adapters using the diffusers library and Kohya-ss training scripts.… | Security Reviewed | — | — |
 | [Stable Diffusion XL Pipeline](skills/stable-diffusion-xl-pipeline/) | Orchestrates SDXL image generation via the Stability AI REST API with ControlNet conditioning, IP-Adapter style… | Security Reviewed | — | — |
 | [Stable Diffusion XL Pipeline Builder](skills/stable-diffusion-xl-pipeline-builder/) | Constructs and executes SDXL image generation pipelines using diffusers library and ComfyUI API. Supports LoRA… | Security Reviewed | — | — |
-
-
-### 📅 Calendar, Email & Productivity (55 skills)
-
-Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=downloads)
-
-| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
-|---|---|---|---:|---:|
-| [Inbox Zero AI Email Assistant](skills/inbox-zero-ai-email-assistant/) | Inbox Zero is an open-source AI email assistant with over 10,000 GitHub stars that auto-triages your inbox,… | Security Reviewed | 73.6k | 8.4M/wk |
-| [Google Workspace MCP Server for Gmail Calendar and Drive](skills/google-workspace-mcp-server-gmail-calendar-drive/) | The Google Workspace MCP Server provides comprehensive natural language control over Gmail, Google Calendar, Drive,… | Security Reviewed | 71.6k | — |
-| [Todoist Natural Language Task Parser](skills/todoist-natural-language-task-parser/) | Parses natural language task descriptions into structured Todoist API v2 task objects with due dates, priority… | Security Reviewed | 35.3k | — |
-| [Discord Bot Manager](skills/discord-bot-manager/) | Discord Bot Manager is built around Discord bot and moderation platform. The underlying ecosystem is represented by… | Security Reviewed | 26.6k | 524.1k/wk |
-| [Linear Sprint Planner](skills/linear-sprint-planner/) | Linear Sprint Planner is built around GraphQL API ecosystem. The underlying ecosystem is represented by… | Security Reviewed | 20.3k | 32.3M/wk |
-| [Microsoft Graph Email Triage Assistant](skills/microsoft-graph-email-triage-assistant/) | Triages Outlook inboxes via Microsoft Graph API with delta query for incremental sync. Applies classification rules,… | Security Reviewed | 7k | 4.9M/wk |
-| [Outlook Email Automation](skills/outlook-email-automation/) | Authenticates to Microsoft Graph API using MSAL with Mail.ReadWrite and Calendars.ReadWrite permissions. Reads,… | Security Reviewed | 7k | 4.9M/wk |
-| [Notion AI Document Summarizer & Action Item Extractor](skills/notion-ai-doc-summarizer/) | Uses the Notion SDK and Notion AI's /v1/pages and /v1/blocks/children endpoints to retrieve page content and invoke… | Security Reviewed | 5.6k | 1.1M/wk |
-| [Notion AI Workspace](skills/notion-ai-workspace/) | Notion AI Workspace is built around Notion workspace and database platform. The underlying ecosystem is represented… | Security Reviewed | 5.6k | 1.1M/wk |
-| [Notion Database Sync Agent](skills/notion-database-sync-agent/) | Syncs records between Notion databases and external sources using the Notion API (POST /v1/databases/{id}/query),… | Security Reviewed | 5.6k | 1.1M/wk |
-| [Notion Database Sync Bridge](skills/notion-database-sync-bridge/) | Synchronizes data between Notion databases and external sources using the Notion API v2022-06-28 with cursor-based… | Security Reviewed | 5.6k | 1.1M/wk |
-| [Notion MCP Server](skills/notion-mcp-server/) | Notion MCP Server is built around Notion workspace and database platform. The underlying ecosystem is represented by… | Security Reviewed | 5.6k | 1.1M/wk |
-| [Notion Task Board Automation](skills/notion-task-board-automation-agent/) | Automates Notion database workflows using the Notion API databases.query and pages.create endpoints. Builds filtered… | Security Reviewed | 5.6k | 1.1M/wk |
-| [Notion Task Sync Bridge](skills/notion-task-sync-bridge/) | Bidirectionally syncs tasks between Notion databases and external project management tools using the Notion API… | Security Reviewed | 5.6k | 1.1M/wk |
-| [Notion Workspace Automation Hub](skills/notion-workspace-automation-hub/) | Orchestrates Notion workspace workflows using Notion API v2 with database queries, page creation, and relation… | Security Reviewed | 5.6k | 1.1M/wk |
-| [Notion Workspace Automator](skills/notion-workspace-automator-api-v1/) | Automates Notion workspace management through the Notion API v1 with database query filters, page creation, and… | Security Reviewed | 5.6k | 1.1M/wk |
-| [Notion Workspace Sync Agent](skills/notion-workspace-sync-agent/) | Bidirectionally syncs project data between Notion databases and external tools using the Notion API v2022-06-28.… | Security Reviewed | 5.6k | 1.1M/wk |
-| [Notion Workspace Sync Engine](skills/notion-workspace-sync-engine-2/) | Bidirectionally syncs Notion databases with external tools via the Notion API and webhooks. Maps page properties to… | Security Reviewed | 5.6k | 1.1M/wk |
-| [Todoist GTD Workflow Automator](skills/todoist-gtd-workflow-automator/) | Implements Getting Things Done methodology on Todoist using the Todoist Sync API v9. Automates inbox processing,… | Security Reviewed | 5.6k | 1.1M/wk |
-| [Slack Channel Summarizer](skills/slack-channel-summarizer-bolt-sdk/) | Generates channel summaries using Slack Bolt SDK with conversations.history and conversations.replies endpoints.… | Security Reviewed | 2.9k | 2M/wk |
-| [Slack Digest and Task Router](skills/slack-digest-and-task-router/) | Reads unread Slack messages from specified channels using the conversations.history API, extracts action items and… | Security Reviewed | 2.9k | 2M/wk |
-| [Slack MCP Server](skills/slack-mcp-server/) | Agent access to Slack conversations and workspace workflows. | Security Reviewed | 2.9k | 2M/wk |
-| [Slack Standup Automator](skills/slack-standup-automator/) | Automates daily standup collection and reporting in Slack using the Slack Web API chat.postMessage and… | Security Reviewed | 2.9k | 2M/wk |
-| [Slack Standup Summarizer](skills/slack-standup-summarizer/) | Collects daily standup updates from Slack channels using the Web API and generates team summaries with blockers… | Security Reviewed | 2.9k | 2M/wk |
-| [Slack Status API PTO Sync Assistant](skills/slack-status-api-pto-sync-assistant/) | Syncs away-state updates through Slack users.profile APIs, status fields, and directory lookups so agents can keep… | Security Reviewed | 2.9k | 2M/wk |
-| [Slack Workflow Automation Builder](skills/slack-workflow-automation-builder/) | Creates Slack Workflow Builder automations using the Slack Web API and Block Kit. Builds approval flows, standup… | Security Reviewed | 2.9k | 2M/wk |
-| [Slack Workflow Bot](skills/slack-workflow-bot-bolt-sdk/) | Builds interactive Slack workflows using the Bolt SDK for JavaScript and Block Kit Builder API. Handles modal forms,… | Security Reviewed | 2.9k | 2M/wk |
-| [Slack Workflow Bot Builder](skills/slack-workflow-bot-builder/) | Creates interactive Slack workflows using Block Kit UI components and the Bolt.js framework. Implements slash… | Security Reviewed | 2.9k | 2M/wk |
-| [Slack Workflow Builder Agent](skills/slack-workflow-builder-agent/) | Creates and manages Slack workflows using @slack/bolt and @slack/web-api. Builds interactive modals with Block Kit,… | Security Reviewed | 2.9k | 2M/wk |
-| [Microsoft Graph Mail Triage Agent](skills/microsoft-graph-mail-triage-agent/) | Triages Outlook emails using the Microsoft Graph API /me/messages endpoint with $filter OData queries and… | Security Reviewed | 790 | 5.9M/wk |
-| [Atlassian Rovo MCP Server](skills/atlassian-rovo-mcp-server/) | The Atlassian Rovo MCP Server bridges your Atlassian Cloud workspace with any MCP-compatible client. Search and… | Security Reviewed | — | — |
-| [Cal.com Open Source Scheduling Infrastructure and API](skills/cal-com-open-source-scheduling-infrastructure-api/) | Integrate Cal.com's open-source scheduling platform into AI agent workflows. Agents can programmatically create… | Published | — | — |
-| [Gmail API Thread Label Triage](skills/gmail-api-thread-label-triage/) | Triage inbox backlog with the Gmail API’s `users.threads`, `users.messages`, and `users.labels` methods so agents… | Security Reviewed | — | — |
-| [Gmail Thread Summarizer and Action Extractor](skills/gmail-thread-summarizer-action-extractor/) | Fetches Gmail threads via the Gmail API (users.threads.get), extracts full message content, and produces a… | Security Reviewed | — | — |
-| [Google Calendar Conflict Detector](skills/google-calendar-conflict-detector/) | Detects scheduling conflicts across multiple Google Calendars using the Google Calendar API v3 and the freebusy… | Security Reviewed | — | — |
-| [Google Calendar Conflict Resolver](skills/google-calendar-conflict-resolver-2/) | Detects and resolves scheduling conflicts across multiple Google Calendar accounts using the Google Calendar API v3… | Security Reviewed | — | — |
-| [Google Calendar FreeBusy Scheduler Bridge](skills/google-calendar-freebusy-scheduler-bridge/) | Coordinates meeting suggestions with the Google Calendar `freeBusy` endpoint, Events resource, and conferenceData… | Security Reviewed | — | — |
-| [Google Calendar Smart Scheduler](skills/google-calendar-smart-scheduler-2/) | Optimizes meeting scheduling using the Google Calendar API v3 and FreeBusy queries. Applies time-zone-aware slot… | Security Reviewed | — | — |
-| [Google Calendar Sync & Conflict Resolver](skills/google-calendar-sync-conflict-resolver/) | Bidirectional calendar synchronization using Google Calendar API v3 with OAuth 2.0. Detects scheduling conflicts… | Security Reviewed | — | — |
-| [Google Calendar Sync Agent](skills/google-calendar-sync-agent-2/) | Synchronizes events across multiple Google Calendar accounts using the Calendar API v3 and OAuth 2.0. Handles… | Security Reviewed | — | — |
-| [IMAP Email Classifier](skills/imap-email-classifier-ml/) | Classifies and organizes emails from IMAP servers using imaplib and scikit-learn text classification. Supports… | Security Reviewed | — | — |
-| [IMAP Inbox Triage Agent](skills/imap-inbox-triage-agent/) | Connects to IMAP email servers to classify, prioritize, and auto-label incoming messages using rule-based and… | Security Reviewed | — | — |
-| [Mailpit SMTP Testing and Email Capture Workbench](skills/mailpit-smtp-testing-email-capture-workbench/) | This skill uses Mailpit as a safe SMTP sink for development, QA, and automated test runs. It helps teams capture,… | Published | — | — |
-| [Memos Self-Hosted Note Capture and Knowledge API](skills/memos-self-hosted-note-capture-knowledge-api/) | Enable AI agents to interact with Memos, an open-source self-hosted note-taking tool with REST and gRPC APIs. Agents… | Published | — | — |
-| [Microsoft Graph Calendar Conflict Resolver](skills/microsoft-graph-calendar-conflict-resolver/) | Resolves scheduling collisions with Microsoft Graph Calendar endpoints like `/me/events`, `/calendarView`, and… | Security Reviewed | — | — |
-| [Microsoft Graph Email Digest Builder](skills/microsoft-graph-email-digest-builder/) | Generates daily email digests from Microsoft 365 mailboxes using the Microsoft Graph API /me/messages endpoint.… | Security Reviewed | — | — |
-| [Microsoft Graph Email Triage Agent](skills/microsoft-graph-email-triage-agent/) | Automates email triage using Microsoft Graph API v1.0 with delegated permissions. Classifies emails by urgency using… | Security Reviewed | — | — |
-| [Microsoft Outlook Calendar Sync Agent](skills/ms-outlook-calendar-sync-agent/) | Synchronizes calendar events bidirectionally using the Microsoft Graph API /me/calendar/events endpoint. Handles… | Security Reviewed | — | — |
-| [Microsoft Outlook Mail Sorter](skills/ms-outlook-mail-sorter/) | Automatically triages Microsoft Outlook emails using the Microsoft Graph API /me/messages endpoint. Applies… | Security Reviewed | — | — |
-| [Outlook Mail Triage Assistant](skills/outlook-mail-triage-assistant/) | Automated email triage using Microsoft Graph API and @azure/msal-node for OAuth. Classifies messages with zero-shot… | Security Reviewed | — | — |
-| [Outlook Mail Triage Skill](skills/outlook-mail-triage-microsoft-graph/) | Triages Outlook inboxes using Microsoft Graph API v1.0 with delta query support for incremental mail sync. Applies… | Security Reviewed | — | — |
-| [Outlook Rule Automation Manager](skills/outlook-rule-automation-manager/) | Creates and manages Outlook email rules programmatically using the Microsoft Graph API… | Security Reviewed | — | — |
-| [Todoist GTD Workflow Engine](skills/todoist-gtd-workflow-engine/) | Implements Getting Things Done methodology on Todoist using the Sync API v9. Automates weekly reviews, context… | Security Reviewed | — | — |
-| [Todoist Project Automator](skills/todoist-project-automator-api-v2/) | Automates Todoist project management using the Todoist REST API v2 and Sync API. Creates task templates, manages… | Security Reviewed | — | — |
-| [Todoist Sync API Task Orchestrator](skills/todoist-sync-api-task-orchestrator/) | Orchestrates complex task workflows using the Todoist Sync API v9 with incremental sync via sync_token. Uses… | Security Reviewed | — | — |
 
 
 ### 🎙️ Media & Transcription (54 skills)
