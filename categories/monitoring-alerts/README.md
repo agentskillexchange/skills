@@ -123,6 +123,8 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Uptime Robot Multi-Check Coordinator](../../skills/uptime-robot-multi-check-coordinator/) | 69 | 202.6k/wk |
 | [Uptime Robot Status Page Webhook Alerter](../../skills/uptime-robot-status-page-webhook-alerter/) | 69 | 202.6k/wk |
 | [OpsGenie MCP Server](../../skills/opsgenie-mcp-server/) | 24 | 9.1k/wk |
+| [Langfuse LLM Observability Platform and SDK](../../skills/langfuse-llm-observability-platform-and-sdk/) | — | — |
+| [PostHog Product Analytics and Feature Flags SDK](../../skills/posthog-product-analytics-and-feature-flags-sdk/) | — | — |
 
 ---
 

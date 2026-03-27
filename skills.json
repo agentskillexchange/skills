@@ -1,8 +1,128 @@
 {
   "version": "2.0",
-  "total": 1344,
+  "total": 1354,
   "generated": "2026-03-27",
   "skills": [
+    {
+      "slug": "posthog-product-analytics-and-feature-flags-sdk",
+      "name": "PostHog Product Analytics and Feature Flags SDK",
+      "description": "Use PostHog to capture product analytics events, identify users, evaluate feature flags, and route experimentation data into agent or application workflows. This skill gives…",
+      "category": [
+        "Monitoring & Alerts"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "langfuse-llm-observability-platform-and-sdk",
+      "name": "Langfuse LLM Observability Platform and SDK",
+      "description": "Use Langfuse to capture prompts, traces, generations, evaluations, and cost telemetry for LLM applications and agent workflows. This skill turns Langfuse from a generic…",
+      "category": [
+        "Monitoring & Alerts"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "storyblok-management-api-and-javascript-client",
+      "name": "Storyblok Management API and JavaScript Client",
+      "description": "Use Storyblok’s Management API and JavaScript client to automate stories, components, assets, spaces, and editorial workflows in a headless CMS stack. This skill is…",
+      "category": [
+        "WordPress & CMS"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "contentful-management-api-and-javascript-sdk",
+      "name": "Contentful Management API and JavaScript SDK",
+      "description": "Use the Contentful Management API and JavaScript SDK to create, update, validate, and publish entries, assets, content models, and environments in a headless CMS…",
+      "category": [
+        "WordPress & CMS"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "browserbase-session-automation-api-and-sdk",
+      "name": "Browserbase Session Automation API and SDK",
+      "description": "Use Browserbase when an agent needs hosted browser sessions, remote automation, session recording, and scalable browser infrastructure without managing Chromium fleets directly. This skill…",
+      "category": [
+        "Browser Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "browser-use-browser-automation-framework",
+      "name": "browser-use Browser Automation Framework",
+      "description": "Use browser-use to turn natural-language web tasks into repeatable browser automation backed by Playwright and agent loops. This skill helps an agent open sites,…",
+      "category": [
+        "Browser Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "ghost-admin-api-headless-publishing-cms-automation",
+      "name": "Ghost Admin API Headless Publishing and CMS Automation",
+      "description": "The Ghost Admin API exposes authenticated operations for posts, pages, tags, members, offers, and newsletter publishing. This skill gives agents a concrete workflow for…",
+      "category": [
+        "WordPress & CMS"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "sanity-structured-content-studio-content-lake",
+      "name": "Sanity Structured Content Studio and Content Lake",
+      "description": "Sanity combines a customizable content studio with a real-time content backend and GROQ-powered querying. This skill helps agents model schemas, manage content operations, and…",
+      "category": [
+        "WordPress & CMS"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "unlighthouse-site-wide-lighthouse-seo-auditing",
+      "name": "Unlighthouse Site-Wide Lighthouse and SEO Auditing",
+      "description": "Unlighthouse runs Google Lighthouse across an entire site instead of just a single page. This skill gives agents a repeatable way to crawl URLs,…",
+      "category": [
+        "Content Writing & SEO"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "browserable-self-hostable-browser-automation-ai-agents",
+      "name": "Browserable Self-Hostable Browser Automation for AI Agents",
+      "description": "Browserable is an open-source, self-hostable browser automation library built for AI agents. This skill turns Browserable into a repeatable workflow for navigation, form filling,…",
+      "category": [
+        "Browser Automation"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "write-good-english-prose-linting-technical-content",
       "name": "write-good English Prose Linting for Technical Content",

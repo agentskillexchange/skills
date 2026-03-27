@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1344 published skills** across **17 categories** · 1328 security reviewed · Updated 2026-03-27 11:12 UTC
+> **1354 published skills** across **17 categories** · 1328 security reviewed · Updated 2026-03-27 15:15 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -851,7 +851,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Vale Prose Linter for Technical Documentation](skills/vale-prose-linter-technical-docs/) | Vale is an open-source, markup-aware prose linter that enforces editorial style guides on technical documentation.… | Security Reviewed | — | — |
 
 
-### 📊 Monitoring & Alerts (83 skills)
+### 📊 Monitoring & Alerts (85 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=downloads)
 
@@ -940,6 +940,8 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Uptime Robot Multi-Check Coordinator](skills/uptime-robot-multi-check-coordinator/) | Manages bulk uptime monitoring via the Uptime Robot API v2. Creates HTTP, keyword, and port monitors with alert… | Security Reviewed | 69 | 202.6k/wk |
 | [Uptime Robot Status Page Webhook Alerter](skills/uptime-robot-status-page-webhook-alerter/) | Integrates with the Uptime Robot API to monitor status page changes and push webhook alerts to Slack or PagerDuty.… | Security Reviewed | 69 | 202.6k/wk |
 | [OpsGenie MCP Server](skills/opsgenie-mcp-server/) | OpsGenie MCP Server is built around Opsgenie incident and on-call platform. The underlying ecosystem is represented… | Security Reviewed | 24 | 9.1k/wk |
+| [Langfuse LLM Observability Platform and SDK](skills/langfuse-llm-observability-platform-and-sdk/) | Use Langfuse to capture prompts, traces, generations, evaluations, and cost telemetry for LLM applications and agent… | Published | — | — |
+| [PostHog Product Analytics and Feature Flags SDK](skills/posthog-product-analytics-and-feature-flags-sdk/) | Use PostHog to capture product analytics events, identify users, evaluate feature flags, and route experimentation… | Published | — | — |
 
 
 ### 📄 Templates & Workflows (65 skills)
@@ -1265,6 +1267,66 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Medi
 | [YouTube Chapter Generator from Transcripts](skills/youtube-chapter-generator-transcripts/) | Extracts YouTube video transcripts via the youtube-transcript-api Python library and generates semantic chapter… | Security Reviewed | — | — |
 
 
+### 🌐 Browser Automation (52 skills)
+
+Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=downloads)
+
+| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
+|---|---|---|---:|---:|
+| [Browser Session Replay Analyzer](skills/browser-session-replay-analyzer/) | Records and replays browser sessions using rrweb recording library with DOM mutation serialization. Integrates with… | Security Reviewed | 93.9k | 8.7M/wk |
+| [Puppeteer Cookie Consent Automator](skills/puppeteer-cookie-consent-automator/) | Automatically detects and handles cookie consent banners across websites using Puppeteer CDP protocol and a trained… | Security Reviewed | 93.9k | 8.7M/wk |
+| [Puppeteer Cookie Consent Handler](skills/puppeteer-cookie-consent-handler-3/) | Detects and dismisses cookie consent banners across websites using Puppeteer page.evaluate selectors and the CMP… | Security Reviewed | 93.9k | 8.7M/wk |
+| [Puppeteer Multi-Tab Session Manager](skills/puppeteer-multi-tab-session-manager/) | Manages concurrent Puppeteer browser tabs with shared cookie jars and session persistence using Chrome DevTools… | Security Reviewed | 93.9k | 8.7M/wk |
+| [Puppeteer PDF Renderer](skills/puppeteer-pdf-renderer/) | Generates pixel-perfect PDFs from web pages using Puppeteer with custom headers, footers, and page breaks. Supports… | Security Reviewed | 93.9k | 8.7M/wk |
+| [Puppeteer Screenshot Diff Engine](skills/puppeteer-screenshot-diff-engine/) | Visual regression testing using Puppeteer page.screenshot() with pixelmatch comparison. Leverages CDP sessions via… | Security Reviewed | 93.9k | 8.7M/wk |
+| [Puppeteer Stealth Scraper](skills/puppeteer-stealth-scraper-agent/) | Anti-detection web scraping using puppeteer-extra-plugin-stealth with residential proxy rotation. Implements Canvas… | Security Reviewed | 93.9k | 8.7M/wk |
+| [Puppeteer Visual Regression Tester](skills/puppeteer-visual-regression-tester/) | Automates visual regression testing using Puppeteer page.screenshot() with pixelmatch diffing. Captures full-page… | Security Reviewed | 93.9k | 8.7M/wk |
+| [Puppeteer Visual Regression Testing](skills/puppeteer-visual-regression-testing/) | Runs pixel-level visual regression tests using Puppeteer page.screenshot() and pixelmatch diffing library. Compares… | Security Reviewed | 93.9k | 8.7M/wk |
+| [Puppeteer Web Scraping Pipeline](skills/puppeteer-web-scraping-pipeline/) | Builds web scraping pipelines with Puppeteer using page.evaluate, page.waitForSelector, and browser.newPage. Handles… | Security Reviewed | 93.9k | 8.7M/wk |
+| [Agent Browser Operator](skills/agent-browser-operator/) | Interactive browser skill for logged-in flows, dynamic pages, and session-aware site operations. | Security Reviewed | 85.1k | 40.4M/wk |
+| [Playwright Accessibility Audit Runner](skills/playwright-accessibility-audit-runner/) | Runs automated WCAG 2.1 AA/AAA accessibility audits using Playwright with axe-core integration. Generates detailed… | Security Reviewed | 85.1k | 40.4M/wk |
+| [Playwright Cross-Browser Test Runner](skills/playwright-cross-browser-test-runner/) | Runs end-to-end browser tests using Playwright Test with page.goto, page.locator, and expect assertions. Supports… | Security Reviewed | 85.1k | 40.4M/wk |
+| [Playwright MCP Browser Automation](skills/playwright-mcp-browser-automation/) | Official Playwright-powered browser control for agent workflows. | Security Reviewed | 85.1k | 40.4M/wk |
+| [Playwright MCP Server for Browser Automation](skills/playwright-mcp-server-browser-automation/) | The official Microsoft Playwright MCP server provides browser automation capabilities through the Model Context… | Security Reviewed | 85.1k | 40.4M/wk |
+| [Playwright Multi-Browser Test Generator](skills/playwright-multi-browser-test-generator/) | Generates Playwright test scripts for Chromium, Firefox, and WebKit from natural language descriptions. Uses the… | Security Reviewed | 85.1k | 40.4M/wk |
+| [Playwright Multi-Browser Test Suite](skills/playwright-multi-browser-test-suite/) | Generates end-to-end test suites using the Playwright Test Runner API with cross-browser coverage on Chromium,… | Security Reviewed | 85.1k | 40.4M/wk |
+| [Playwright Multi-Tab Session Manager](skills/playwright-multi-tab-session-manager-2/) | Manages concurrent Playwright browser contexts with tab isolation and cookie partitioning. Uses Playwright… | Security Reviewed | 85.1k | 40.4M/wk |
+| [Playwright Network HAR Recorder](skills/playwright-network-har-recorder/) | Records and replays HTTP Archive (HAR) files using Playwright routeFromHAR API for deterministic test environments.… | Security Reviewed | 85.1k | 40.4M/wk |
+| [Playwright Parallel Tab Manager](skills/playwright-parallel-tab-manager/) | Manages concurrent Playwright browser contexts with tab pooling and automatic resource cleanup. Integrates with… | Security Reviewed | 85.1k | 40.4M/wk |
+| [Playwright PDF Export Automation](skills/playwright-pdf-export-automation/) | Automates headless PDF generation from web pages using the Playwright chromium.launch() API with custom page.pdf()… | Security Reviewed | 85.1k | 40.4M/wk |
+| [Playwright Session Recorder](skills/playwright-session-recorder-2/) | Records browser sessions using Playwright codegen and exports replayable test scripts. Captures network HAR files… | Security Reviewed | 85.1k | 40.4M/wk |
+| [Playwright Visual Regression Suite](skills/playwright-visual-regression-suite/) | Automated visual regression testing using Playwright's screenshot comparison API (page.screenshot with… | Security Reviewed | 85.1k | 40.4M/wk |
+| [Playwright Visual Regression Tester](skills/playwright-visual-regression-tester-3/) | Automates visual regression testing using the Playwright screenshot comparison API and pixelmatch diffing library.… | Security Reviewed | 85.1k | 40.4M/wk |
+| [Stagehand AI Browser Automation Framework](skills/stagehand-ai-browser-automation-framework/) | Stagehand is an open-source browser automation framework that combines natural language instructions with code for… | Security Reviewed | 85.1k | 40.4M/wk |
+| [Cypress Component Test Generator](skills/cypress-component-test-generator/) | Auto-generates Cypress component tests from React and Vue source files using AST parsing. Produces mount,… | Security Reviewed | 49.6k | 7.4M/wk |
+| [Cypress Component Testing Framework](skills/cypress-component-testing-framework-2/) | Scaffolds Cypress component tests for React, Vue, and Angular apps using the Cypress CT mount API. Configures… | Security Reviewed | 49.6k | 7.4M/wk |
+| [Cypress Component Testing Suite](skills/cypress-component-testing-suite/) | Implements component and E2E tests using Cypress with cy.mount, cy.intercept, and cy.get selectors. Configures… | Security Reviewed | 49.6k | 7.4M/wk |
+| [Cypress Component Testing Toolkit](skills/cypress-component-testing-toolkit/) | Creates component and integration tests using the Cypress Testing Library API and cy.intercept for network stubbing.… | Security Reviewed | 49.6k | 7.4M/wk |
+| [Cypress E2E API Intercept Skill](skills/cypress-e2e-api-intercept-skill/) | Creates end-to-end tests with Cypress cy.intercept() for API mocking and cy.wait() for request assertion. Uses… | Security Reviewed | 49.6k | 7.4M/wk |
+| [Cypress E2E Test Generator](skills/cypress-e2e-test-generator-3/) | Generates Cypress end-to-end test suites from user flow recordings. Uses the Cypress Real Events plugin and… | Security Reviewed | 49.6k | 7.4M/wk |
+| [Cypress Network Stub Generator](skills/cypress-network-stub-generator/) | Generates cy.intercept() stubs from recorded HAR files for deterministic E2E tests. Uses cy.session() for… | Security Reviewed | 49.6k | 7.4M/wk |
+| [Cypress Visual Regression Runner](skills/cypress-visual-regression-runner/) | Runs visual regression tests comparing screenshots captured via Cypress cy.screenshot() against baseline images… | Security Reviewed | 49.6k | 7.4M/wk |
+| [Cypress Visual Regression Testing Suite](skills/cypress-visual-regression-testing-suite/) | Automates pixel-level visual regression testing using Cypress with cypress-image-snapshot plugin. Compares… | Security Reviewed | 49.6k | 7.4M/wk |
+| [Selenium Grid Auto-Scaling Orchestrator](skills/selenium-grid-auto-scaling-orchestrator/) | Orchestrates Selenium Grid 4 node scaling based on test queue depth using the Grid GraphQL API. Manages Docker… | Security Reviewed | 34.2k | 2M/wk |
+| [Selenium Grid Cloud Executor](skills/selenium-grid-cloud-executor/) | Distributes browser test suites across Selenium Grid 4 nodes using RemoteWebDriver and the W3C WebDriver protocol.… | Security Reviewed | 34.2k | 2M/wk |
+| [Selenium Grid Load Balancer](skills/selenium-grid-load-balancer/) | Distributes browser automation workloads across Selenium Grid 4 nodes using the Grid REST API and session queue… | Security Reviewed | 34.2k | 2M/wk |
+| [Selenium Grid Multi-Browser Test Runner](skills/selenium-grid-multi-browser-test-runner/) | Orchestrates parallel cross-browser testing across Selenium Grid nodes using WebDriver RemoteConnection API.… | Security Reviewed | 34.2k | 2M/wk |
+| [Selenium Grid Orchestrator](skills/selenium-grid-orchestrator/) | Manages Selenium Grid 4 hub and node registration for cross-browser parallel testing. Configures Chrome, Firefox,… | Security Reviewed | 34.2k | 2M/wk |
+| [Selenium Grid Parallel Execution Manager](skills/selenium-grid-parallel-execution-manager/) | Orchestrates distributed browser testing across Selenium Grid 4 nodes using the Grid REST API. Manages session… | Security Reviewed | 34.2k | 2M/wk |
+| [Selenium Grid Parallel Executor](skills/selenium-grid-parallel-executor/) | Orchestrates parallel browser automation across Selenium Grid nodes using RemoteWebDriver, DesiredCapabilities, and… | Security Reviewed | 34.2k | 2M/wk |
+| [Selenium Grid Parallel Test Runner](skills/selenium-grid-parallel-test-runner/) | Orchestrates distributed browser tests across Selenium Grid 4 nodes with dynamic scaling. Uses selenium-webdriver… | Security Reviewed | 34.2k | 2M/wk |
+| [Selenium Grid Session Distributor](skills/selenium-grid-session-distributor/) | Manages browser session allocation across Selenium Grid 4 nodes using the GraphQL status endpoint and… | Security Reviewed | 34.2k | 2M/wk |
+| [Selenium Grid Session Manager](skills/selenium-grid-session-manager/) | Manages distributed browser sessions on Selenium Grid 4 via the GraphQL API and /status endpoint. Handles node… | Security Reviewed | 34.2k | 2M/wk |
+| [Selenium Grid Session Router](skills/selenium-grid-session-router/) | Routes browser automation sessions across Selenium Grid 4 nodes using the /status and /session endpoints. Configures… | Security Reviewed | 34.2k | 2M/wk |
+| [Selenium Grid Test Orchestrator](skills/selenium-grid-test-orchestrator-2/) | Orchestrates distributed browser testing across Selenium Grid 4 nodes using the Grid API. Manages session queuing,… | Security Reviewed | 34.2k | 2M/wk |
+| [CDP Network Interception Logger](skills/cdp-network-interception-logger/) | Uses Chrome DevTools Protocol Fetch.requestPaused and Network.responseReceived events to intercept, log, and modify… | Security Reviewed | 790 | 5.9M/wk |
+| [Browser Use AI Browser Automation Library](skills/browser-use-ai-browser-automation-library/) | Automates browser tasks with Browser Use, the open-source library that connects LLM reasoning to Playwright-driven… | Published | — | — |
+| [browser-use Browser Automation Framework](skills/browser-use-browser-automation-framework/) | Use browser-use to turn natural-language web tasks into repeatable browser automation backed by Playwright and agent… | Published | — | — |
+| [Browserable Self-Hostable Browser Automation for AI Agents](skills/browserable-self-hostable-browser-automation-ai-agents/) | Browserable is an open-source, self-hostable browser automation library built for AI agents. This skill turns… | Published | — | — |
+| [Browserbase Session Automation API and SDK](skills/browserbase-session-automation-api-and-sdk/) | Use Browserbase when an agent needs hosted browser sessions, remote automation, session recording, and scalable… | Published | — | — |
+| [chromedp Go Browser Automation with Chrome DevTools Protocol](skills/chromedp-go-browser-automation-chrome-devtools-protocol/) | This skill turns chromedp into a repeatable browser automation workflow for Go teams. It covers navigation, DOM… | Published | — | — |
+
+
 ### 🔍 Research & Scraping (52 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=downloads)
@@ -1325,64 +1387,62 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Tavily MCP Server for AI-Powered Web Search and Extraction](skills/tavily-mcp-server-ai-web-search-extraction/) | An official MCP server from Tavily that provides AI agents with real-time web search, page extraction, site mapping,… | Security Reviewed | — | — |
 
 
-### 🌐 Browser Automation (49 skills)
+### 📰 WordPress & CMS (47 skills)
 
-Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=downloads)
+Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS&sort=downloads)
 
 | Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
 |---|---|---|---:|---:|
-| [Browser Session Replay Analyzer](skills/browser-session-replay-analyzer/) | Records and replays browser sessions using rrweb recording library with DOM mutation serialization. Integrates with… | Security Reviewed | 93.9k | 8.7M/wk |
-| [Puppeteer Cookie Consent Automator](skills/puppeteer-cookie-consent-automator/) | Automatically detects and handles cookie consent banners across websites using Puppeteer CDP protocol and a trained… | Security Reviewed | 93.9k | 8.7M/wk |
-| [Puppeteer Cookie Consent Handler](skills/puppeteer-cookie-consent-handler-3/) | Detects and dismisses cookie consent banners across websites using Puppeteer page.evaluate selectors and the CMP… | Security Reviewed | 93.9k | 8.7M/wk |
-| [Puppeteer Multi-Tab Session Manager](skills/puppeteer-multi-tab-session-manager/) | Manages concurrent Puppeteer browser tabs with shared cookie jars and session persistence using Chrome DevTools… | Security Reviewed | 93.9k | 8.7M/wk |
-| [Puppeteer PDF Renderer](skills/puppeteer-pdf-renderer/) | Generates pixel-perfect PDFs from web pages using Puppeteer with custom headers, footers, and page breaks. Supports… | Security Reviewed | 93.9k | 8.7M/wk |
-| [Puppeteer Screenshot Diff Engine](skills/puppeteer-screenshot-diff-engine/) | Visual regression testing using Puppeteer page.screenshot() with pixelmatch comparison. Leverages CDP sessions via… | Security Reviewed | 93.9k | 8.7M/wk |
-| [Puppeteer Stealth Scraper](skills/puppeteer-stealth-scraper-agent/) | Anti-detection web scraping using puppeteer-extra-plugin-stealth with residential proxy rotation. Implements Canvas… | Security Reviewed | 93.9k | 8.7M/wk |
-| [Puppeteer Visual Regression Tester](skills/puppeteer-visual-regression-tester/) | Automates visual regression testing using Puppeteer page.screenshot() with pixelmatch diffing. Captures full-page… | Security Reviewed | 93.9k | 8.7M/wk |
-| [Puppeteer Visual Regression Testing](skills/puppeteer-visual-regression-testing/) | Runs pixel-level visual regression tests using Puppeteer page.screenshot() and pixelmatch diffing library. Compares… | Security Reviewed | 93.9k | 8.7M/wk |
-| [Puppeteer Web Scraping Pipeline](skills/puppeteer-web-scraping-pipeline/) | Builds web scraping pipelines with Puppeteer using page.evaluate, page.waitForSelector, and browser.newPage. Handles… | Security Reviewed | 93.9k | 8.7M/wk |
-| [Agent Browser Operator](skills/agent-browser-operator/) | Interactive browser skill for logged-in flows, dynamic pages, and session-aware site operations. | Security Reviewed | 85.1k | 40.4M/wk |
-| [Playwright Accessibility Audit Runner](skills/playwright-accessibility-audit-runner/) | Runs automated WCAG 2.1 AA/AAA accessibility audits using Playwright with axe-core integration. Generates detailed… | Security Reviewed | 85.1k | 40.4M/wk |
-| [Playwright Cross-Browser Test Runner](skills/playwright-cross-browser-test-runner/) | Runs end-to-end browser tests using Playwright Test with page.goto, page.locator, and expect assertions. Supports… | Security Reviewed | 85.1k | 40.4M/wk |
-| [Playwright MCP Browser Automation](skills/playwright-mcp-browser-automation/) | Official Playwright-powered browser control for agent workflows. | Security Reviewed | 85.1k | 40.4M/wk |
-| [Playwright MCP Server for Browser Automation](skills/playwright-mcp-server-browser-automation/) | The official Microsoft Playwright MCP server provides browser automation capabilities through the Model Context… | Security Reviewed | 85.1k | 40.4M/wk |
-| [Playwright Multi-Browser Test Generator](skills/playwright-multi-browser-test-generator/) | Generates Playwright test scripts for Chromium, Firefox, and WebKit from natural language descriptions. Uses the… | Security Reviewed | 85.1k | 40.4M/wk |
-| [Playwright Multi-Browser Test Suite](skills/playwright-multi-browser-test-suite/) | Generates end-to-end test suites using the Playwright Test Runner API with cross-browser coverage on Chromium,… | Security Reviewed | 85.1k | 40.4M/wk |
-| [Playwright Multi-Tab Session Manager](skills/playwright-multi-tab-session-manager-2/) | Manages concurrent Playwright browser contexts with tab isolation and cookie partitioning. Uses Playwright… | Security Reviewed | 85.1k | 40.4M/wk |
-| [Playwright Network HAR Recorder](skills/playwright-network-har-recorder/) | Records and replays HTTP Archive (HAR) files using Playwright routeFromHAR API for deterministic test environments.… | Security Reviewed | 85.1k | 40.4M/wk |
-| [Playwright Parallel Tab Manager](skills/playwright-parallel-tab-manager/) | Manages concurrent Playwright browser contexts with tab pooling and automatic resource cleanup. Integrates with… | Security Reviewed | 85.1k | 40.4M/wk |
-| [Playwright PDF Export Automation](skills/playwright-pdf-export-automation/) | Automates headless PDF generation from web pages using the Playwright chromium.launch() API with custom page.pdf()… | Security Reviewed | 85.1k | 40.4M/wk |
-| [Playwright Session Recorder](skills/playwright-session-recorder-2/) | Records browser sessions using Playwright codegen and exports replayable test scripts. Captures network HAR files… | Security Reviewed | 85.1k | 40.4M/wk |
-| [Playwright Visual Regression Suite](skills/playwright-visual-regression-suite/) | Automated visual regression testing using Playwright's screenshot comparison API (page.screenshot with… | Security Reviewed | 85.1k | 40.4M/wk |
-| [Playwright Visual Regression Tester](skills/playwright-visual-regression-tester-3/) | Automates visual regression testing using the Playwright screenshot comparison API and pixelmatch diffing library.… | Security Reviewed | 85.1k | 40.4M/wk |
-| [Stagehand AI Browser Automation Framework](skills/stagehand-ai-browser-automation-framework/) | Stagehand is an open-source browser automation framework that combines natural language instructions with code for… | Security Reviewed | 85.1k | 40.4M/wk |
-| [Cypress Component Test Generator](skills/cypress-component-test-generator/) | Auto-generates Cypress component tests from React and Vue source files using AST parsing. Produces mount,… | Security Reviewed | 49.6k | 7.4M/wk |
-| [Cypress Component Testing Framework](skills/cypress-component-testing-framework-2/) | Scaffolds Cypress component tests for React, Vue, and Angular apps using the Cypress CT mount API. Configures… | Security Reviewed | 49.6k | 7.4M/wk |
-| [Cypress Component Testing Suite](skills/cypress-component-testing-suite/) | Implements component and E2E tests using Cypress with cy.mount, cy.intercept, and cy.get selectors. Configures… | Security Reviewed | 49.6k | 7.4M/wk |
-| [Cypress Component Testing Toolkit](skills/cypress-component-testing-toolkit/) | Creates component and integration tests using the Cypress Testing Library API and cy.intercept for network stubbing.… | Security Reviewed | 49.6k | 7.4M/wk |
-| [Cypress E2E API Intercept Skill](skills/cypress-e2e-api-intercept-skill/) | Creates end-to-end tests with Cypress cy.intercept() for API mocking and cy.wait() for request assertion. Uses… | Security Reviewed | 49.6k | 7.4M/wk |
-| [Cypress E2E Test Generator](skills/cypress-e2e-test-generator-3/) | Generates Cypress end-to-end test suites from user flow recordings. Uses the Cypress Real Events plugin and… | Security Reviewed | 49.6k | 7.4M/wk |
-| [Cypress Network Stub Generator](skills/cypress-network-stub-generator/) | Generates cy.intercept() stubs from recorded HAR files for deterministic E2E tests. Uses cy.session() for… | Security Reviewed | 49.6k | 7.4M/wk |
-| [Cypress Visual Regression Runner](skills/cypress-visual-regression-runner/) | Runs visual regression tests comparing screenshots captured via Cypress cy.screenshot() against baseline images… | Security Reviewed | 49.6k | 7.4M/wk |
-| [Cypress Visual Regression Testing Suite](skills/cypress-visual-regression-testing-suite/) | Automates pixel-level visual regression testing using Cypress with cypress-image-snapshot plugin. Compares… | Security Reviewed | 49.6k | 7.4M/wk |
-| [Selenium Grid Auto-Scaling Orchestrator](skills/selenium-grid-auto-scaling-orchestrator/) | Orchestrates Selenium Grid 4 node scaling based on test queue depth using the Grid GraphQL API. Manages Docker… | Security Reviewed | 34.2k | 2M/wk |
-| [Selenium Grid Cloud Executor](skills/selenium-grid-cloud-executor/) | Distributes browser test suites across Selenium Grid 4 nodes using RemoteWebDriver and the W3C WebDriver protocol.… | Security Reviewed | 34.2k | 2M/wk |
-| [Selenium Grid Load Balancer](skills/selenium-grid-load-balancer/) | Distributes browser automation workloads across Selenium Grid 4 nodes using the Grid REST API and session queue… | Security Reviewed | 34.2k | 2M/wk |
-| [Selenium Grid Multi-Browser Test Runner](skills/selenium-grid-multi-browser-test-runner/) | Orchestrates parallel cross-browser testing across Selenium Grid nodes using WebDriver RemoteConnection API.… | Security Reviewed | 34.2k | 2M/wk |
-| [Selenium Grid Orchestrator](skills/selenium-grid-orchestrator/) | Manages Selenium Grid 4 hub and node registration for cross-browser parallel testing. Configures Chrome, Firefox,… | Security Reviewed | 34.2k | 2M/wk |
-| [Selenium Grid Parallel Execution Manager](skills/selenium-grid-parallel-execution-manager/) | Orchestrates distributed browser testing across Selenium Grid 4 nodes using the Grid REST API. Manages session… | Security Reviewed | 34.2k | 2M/wk |
-| [Selenium Grid Parallel Executor](skills/selenium-grid-parallel-executor/) | Orchestrates parallel browser automation across Selenium Grid nodes using RemoteWebDriver, DesiredCapabilities, and… | Security Reviewed | 34.2k | 2M/wk |
-| [Selenium Grid Parallel Test Runner](skills/selenium-grid-parallel-test-runner/) | Orchestrates distributed browser tests across Selenium Grid 4 nodes with dynamic scaling. Uses selenium-webdriver… | Security Reviewed | 34.2k | 2M/wk |
-| [Selenium Grid Session Distributor](skills/selenium-grid-session-distributor/) | Manages browser session allocation across Selenium Grid 4 nodes using the GraphQL status endpoint and… | Security Reviewed | 34.2k | 2M/wk |
-| [Selenium Grid Session Manager](skills/selenium-grid-session-manager/) | Manages distributed browser sessions on Selenium Grid 4 via the GraphQL API and /status endpoint. Handles node… | Security Reviewed | 34.2k | 2M/wk |
-| [Selenium Grid Session Router](skills/selenium-grid-session-router/) | Routes browser automation sessions across Selenium Grid 4 nodes using the /status and /session endpoints. Configures… | Security Reviewed | 34.2k | 2M/wk |
-| [Selenium Grid Test Orchestrator](skills/selenium-grid-test-orchestrator-2/) | Orchestrates distributed browser testing across Selenium Grid 4 nodes using the Grid API. Manages session queuing,… | Security Reviewed | 34.2k | 2M/wk |
-| [CDP Network Interception Logger](skills/cdp-network-interception-logger/) | Uses Chrome DevTools Protocol Fetch.requestPaused and Network.responseReceived events to intercept, log, and modify… | Security Reviewed | 790 | 5.9M/wk |
-| [Browser Use AI Browser Automation Library](skills/browser-use-ai-browser-automation-library/) | Automates browser tasks with Browser Use, the open-source library that connects LLM reasoning to Playwright-driven… | Published | — | — |
-| [chromedp Go Browser Automation with Chrome DevTools Protocol](skills/chromedp-go-browser-automation-chrome-devtools-protocol/) | This skill turns chromedp into a repeatable browser automation workflow for Go teams. It covers navigation, DOM… | Published | — | — |
+| [Strapi Open Source Headless CMS with REST and GraphQL APIs](skills/strapi-headless-cms-rest-graphql/) | Strapi is the leading open-source headless CMS built with Node.js and TypeScript. It auto-generates REST and GraphQL… | Security Reviewed | 71.7k | 150.8k/wk |
+| [WP Multisite Domain Mapping Agent](skills/wp-multisite-domain-mapping-agent/) | Manages domain mapping configurations across WordPress Multisite networks using the sunrise.php drop-in and WP-CLI's… | Security Reviewed | 32.9k | — |
+| [Gutenberg Block Scaffolder](skills/gutenberg-block-scaffolder-agent/) | Generates custom Gutenberg blocks using @wordpress/create-block and the Block API v3 schema. Produces edit.js,… | Security Reviewed | 21k | 44.8M/wk |
+| [Gutenberg Custom Block Builder](skills/gutenberg-custom-block-builder/) | Scaffolds and builds custom Gutenberg blocks using @wordpress/create-block and the Block API registerBlockType().… | Security Reviewed | 21k | 44.8M/wk |
+| [ACF Custom Fields REST Exposer](skills/acf-custom-fields-rest-exposer/) | Exposes Advanced Custom Fields data through the WordPress REST API using register_rest_field and acf_format_value.… | Security Reviewed | 21k | — |
+| [ACF to Gutenberg Block Migrator](skills/acf-to-gutenberg-block-migrator/) | Converts Advanced Custom Fields field groups into native Gutenberg blocks using the ACF Block API v2 and… | Security Reviewed | 21k | — |
+| [Advanced Custom Fields REST Schema Mapper](skills/advanced-custom-fields-rest-schema-mapper/) | Maps ACF field groups into predictable REST responses using `acf_add_local_field_group`, `get_field_objects`, and… | Security Reviewed | 21k | — |
+| [Bedrock Modern WordPress Project Boilerplate by Roots](skills/bedrock-wordpress-composer-boilerplate-roots/) | Bedrock is a WordPress boilerplate with Composer-based dependency management, environment-specific configuration via… | Security Reviewed | 21k | — |
+| [Gutenberg Block Pattern Generator](skills/gutenberg-block-pattern-generator/) | Generates custom WordPress Gutenberg block patterns using register_block_pattern() and the Block Editor API. Creates… | Security Reviewed | 21k | — |
+| [Trellis WordPress LEMP Stack Provisioner by Roots](skills/trellis-wordpress-lemp-ansible-provisioner-roots/) | Trellis is a collection of Ansible playbooks for provisioning and deploying WordPress LEMP stack servers. It… | Security Reviewed | 21k | — |
+| [WordOps High-Performance WordPress Server Stack Manager](skills/wordops-high-performance-wordpress-server-stack/) | WordOps is an open-source CLI tool that installs and manages a complete high-performance WordPress server stack with… | Security Reviewed | 21k | — |
+| [WordPress ACF Field Group Auditor](skills/wordpress-acf-field-group-auditor/) | Fetches all Advanced Custom Fields field groups and their field definitions via the ACF REST API (/wp-json/acf/v3/),… | Security Reviewed | 21k | — |
+| [WordPress Block Theme Scaffolder](skills/wordpress-block-theme-scaffolder/) | Generates complete WordPress block theme structures using theme.json v3, block patterns via… | Security Reviewed | 21k | — |
+| [WordPress Content Publisher](skills/wordpress-content-publisher/) | Structured publishing workflow for WordPress drafts, metadata, and content operations. | Security Reviewed | 21k | — |
+| [WordPress Gutenberg Block Generator](skills/wordpress-gutenberg-block-generator/) | Scaffolds custom Gutenberg blocks using the @wordpress/create-block CLI and block.json schema, then registers them… | Security Reviewed | 21k | — |
+| [WordPress Gutenberg Block Scaffolder](skills/wordpress-gutenberg-block-scaffolder/) | Generates custom Gutenberg blocks using @wordpress/create-block and the Block API v2. Configures block.json… | Security Reviewed | 21k | — |
+| [WordPress Multisite Network Sync](skills/wordpress-multisite-network-sync/) | Synchronizes plugin settings and theme mods across a WordPress Multisite network using the Network Admin REST… | Security Reviewed | 21k | — |
+| [WordPress Multisite Provisioner](skills/wp-multisite-provisioner-agent/) | Automates WordPress Multisite network site creation using wp_insert_site() and the Sites REST API. Configures… | Security Reviewed | 21k | — |
+| [WordPress Playground WebAssembly Runtime for In-Browser WordPress](skills/wordpress-playground-wasm-runtime/) | WordPress Playground runs a full WordPress instance entirely in the browser using WebAssembly-compiled PHP. It… | Security Reviewed | 21k | — |
+| [WordPress REST API Builder](skills/wordpress-rest-api-builder/) | Build and debug WordPress REST endpoints with a specialized skill. | Security Reviewed | 21k | — |
+| [WordPress REST API Content Sync](skills/wordpress-rest-api-content-sync/) | Synchronizes content between WordPress multisite installations using the WP REST API /wp/v2/posts endpoint with… | Security Reviewed | 21k | — |
+| [WordPress Router](skills/wordpress-router/) | Route WordPress tasks to the right workflow fast. Core Capabilities Manage WordPress sites using WP-CLI and the… | Security Reviewed | 21k | — |
+| [WordPress Theme.json Design Token Manager](skills/wp-theme-json-design-token-manager/) | Manages WordPress theme.json design tokens including color palettes, typography presets, and spacing scales. Uses… | Security Reviewed | 21k | — |
+| [WP Abilities API](skills/wp-abilities-api/) | Specialized support for defining, exposing, and debugging WordPress abilities through the Abilities API. | Security Reviewed | 21k | — |
+| [WP Multisite Network Sync Agent](skills/wp-multisite-network-sync-agent/) | Synchronizes content, users, and plugin configurations across WordPress Multisite networks using the WP_Site_Query… | Security Reviewed | 21k | — |
+| [WP-CLI Bulk Content Migrator](skills/wp-cli-bulk-content-migrator/) | Automates large-scale WordPress content migrations using WP-CLI wp post create and wp term set commands. Handles… | Security Reviewed | 21k | — |
+| [WP-CLI Content Drift Auditor](skills/wp-cli-content-drift-auditor/) | Audits WordPress content drift by comparing live posts, revisions, and key options using WP-CLI commands like `wp… | Security Reviewed | 21k | — |
+| [WP-CLI Site Migration Automator](skills/wp-cli-site-migration-automator/) | Automates full WordPress site migrations using WP-CLI search-replace, wp db export, and rsync. Handles serialized… | Security Reviewed | 21k | — |
+| [wp-env Zero-Config WordPress Development Environment](skills/wp-env-wordpress-dev-environment/) | The @wordpress/env package (wp-env) provides a zero-configuration, Docker-based local WordPress environment for… | Security Reviewed | 21k | — |
+| [WPGraphQL Schema Extension Builder](skills/wpgraphql-schema-extension-builder/) | Builds and documents WPGraphQL extensions with hooks such as `graphql_register_types`, `register_graphql_field`, and… | Security Reviewed | 21k | — |
+| [WPScan WordPress Security Vulnerability Scanner](skills/wpscan-wordpress-security-vulnerability-scanner/) | WPScan is an open-source WordPress security scanner that detects vulnerabilities in plugins, themes, and core… | Security Reviewed | 21k | — |
+| [Directus Open-Source Headless CMS and Backend Platform](skills/directus-open-source-headless-cms-backend-platform/) | Directus is an open-source headless CMS that wraps any SQL database with instant REST and GraphQL APIs, a no-code… | Security Reviewed | 20.3k | 32.3M/wk |
+| [Headless CMS GraphQL Connector](skills/headless-cms-graphql-connector/) | Connects headless CMS backends (WordPress WPGraphQL, Strapi, Contentful) to frontend frameworks using Apollo Client… | Security Reviewed | 20.3k | 32.3M/wk |
+| [Payload CMS Next.js-Native Headless CMS and Application Framework](skills/payload-cms-nextjs-headless-framework/) | Payload is an open-source, TypeScript-first headless CMS that installs directly into a Next.js application. It… | Security Reviewed | 10.2k | 10.8M/wk |
+| [WooCommerce REST Sync Agent](skills/woocommerce-rest-sync-agent/) | Synchronizes WooCommerce product data bidirectionally using the WC REST API v3 and wc/v3/products endpoints. Handles… | Security Reviewed | 7k | 4.9M/wk |
+| [WooCommerce REST Order Manager](skills/woocommerce-rest-order-manager/) | Queries and updates WooCommerce orders via the WooCommerce REST API v3 (/wp-json/wc/v3/orders), filters by status,… | Security Reviewed | 4.4k | 8.5M/wk |
+| [WP Cron Health Monitor](skills/wp-cron-health-monitor/) | Monitors WordPress wp-cron scheduled events using the WP_Cron API and Action Scheduler library. Detects stuck,… | Security Reviewed | 69 | 202.6k/wk |
+| [Contentful Management API and JavaScript SDK](skills/contentful-management-api-and-javascript-sdk/) | Use the Contentful Management API and JavaScript SDK to create, update, validate, and publish entries, assets,… | Published | — | — |
+| [Ghost Admin API Headless Publishing and CMS Automation](skills/ghost-admin-api-headless-publishing-cms-automation/) | The Ghost Admin API exposes authenticated operations for posts, pages, tags, members, offers, and newsletter… | Published | — | — |
+| [Sanity Structured Content Studio and Content Lake](skills/sanity-structured-content-studio-content-lake/) | Sanity combines a customizable content studio with a real-time content backend and GROQ-powered querying. This skill… | Published | — | — |
+| [Storyblok Management API and JavaScript Client](skills/storyblok-management-api-and-javascript-client/) | Use Storyblok’s Management API and JavaScript client to automate stories, components, assets, spaces, and editorial… | Published | — | — |
+| [WooCommerce Order Sync Agent](skills/woocommerce-order-sync-agent/) | Synchronizes WooCommerce orders with external ERPs using the WooCommerce REST API v3 and wp_schedule_event. Handles… | Security Reviewed | — | — |
+| [WooCommerce REST Inventory Sync](skills/woocommerce-rest-inventory-sync/) | Synchronizes WooCommerce product inventory across multiple channels using the WooCommerce REST API v3 and… | Security Reviewed | — | — |
+| [WooCommerce Webhook Delivery Inspector](skills/woocommerce-webhook-delivery-inspector/) | Inspects WooCommerce webhook reliability through the `WC_Webhook` model, Action Scheduler queues, and REST endpoints… | Security Reviewed | — | — |
+| [WooCommerce Webhook Orchestrator](skills/woocommerce-webhook-orchestrator/) | Manages WooCommerce webhook lifecycles using the wc/v3/webhooks REST API and WC_Webhook class. Handles order,… | Security Reviewed | — | — |
+| [WP-CLI Command-Line Interface for WordPress](skills/wp-cli-command-line-interface-wordpress/) | Builds repeatable WordPress maintenance and content workflows around WP-CLI, the official command-line interface for… | Published | — | — |
+| [WPGraphQL GraphQL API for WordPress](skills/wpgraphql-graphql-api-wordpress/) | Builds headless WordPress workflows around WPGraphQL, the open-source GraphQL API plugin for WordPress. Useful for… | Published | — | — |
 
 
-### ✍️ Content Writing & SEO (43 skills)
+### ✍️ Content Writing & SEO (44 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=downloads)
 
@@ -1430,58 +1490,8 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cont
 | [Surfer SEO Content Optimizer Integration](skills/surfer-seo-content-optimizer-integration/) | Optimizes content against Surfer SEO's NLP-based recommendations via the Surfer API /v1/content_editors endpoint.… | Security Reviewed | — | — |
 | [Surfer SEO SERP Analyzer](skills/surfer-seo-serp-analyzer/) | Uses Surfer SEO Content Editor API to pull SERP analysis data including word count benchmarks, heading structure… | Security Reviewed | — | — |
 | [Technical SEO Audit Crawler](skills/technical-seo-audit-crawler/) | Crawls websites for technical SEO issues using Screaming Frog CLI, Lighthouse CI API, and PageSpeed Insights v5.… | Security Reviewed | — | — |
+| [Unlighthouse Site-Wide Lighthouse and SEO Auditing](skills/unlighthouse-site-wide-lighthouse-seo-auditing/) | Unlighthouse runs Google Lighthouse across an entire site instead of just a single page. This skill gives agents a… | Published | — | — |
 | [write-good English Prose Linting for Technical Content](skills/write-good-english-prose-linting-technical-content/) | This skill uses write-good to flag vague, wordy, or hard-to-read English prose in documentation and content drafts.… | Published | — | — |
-
-
-### 📰 WordPress & CMS (43 skills)
-
-Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS&sort=downloads)
-
-| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
-|---|---|---|---:|---:|
-| [Strapi Open Source Headless CMS with REST and GraphQL APIs](skills/strapi-headless-cms-rest-graphql/) | Strapi is the leading open-source headless CMS built with Node.js and TypeScript. It auto-generates REST and GraphQL… | Security Reviewed | 71.7k | 150.8k/wk |
-| [WP Multisite Domain Mapping Agent](skills/wp-multisite-domain-mapping-agent/) | Manages domain mapping configurations across WordPress Multisite networks using the sunrise.php drop-in and WP-CLI's… | Security Reviewed | 32.9k | — |
-| [Gutenberg Block Scaffolder](skills/gutenberg-block-scaffolder-agent/) | Generates custom Gutenberg blocks using @wordpress/create-block and the Block API v3 schema. Produces edit.js,… | Security Reviewed | 21k | 44.8M/wk |
-| [Gutenberg Custom Block Builder](skills/gutenberg-custom-block-builder/) | Scaffolds and builds custom Gutenberg blocks using @wordpress/create-block and the Block API registerBlockType().… | Security Reviewed | 21k | 44.8M/wk |
-| [ACF Custom Fields REST Exposer](skills/acf-custom-fields-rest-exposer/) | Exposes Advanced Custom Fields data through the WordPress REST API using register_rest_field and acf_format_value.… | Security Reviewed | 21k | — |
-| [ACF to Gutenberg Block Migrator](skills/acf-to-gutenberg-block-migrator/) | Converts Advanced Custom Fields field groups into native Gutenberg blocks using the ACF Block API v2 and… | Security Reviewed | 21k | — |
-| [Advanced Custom Fields REST Schema Mapper](skills/advanced-custom-fields-rest-schema-mapper/) | Maps ACF field groups into predictable REST responses using `acf_add_local_field_group`, `get_field_objects`, and… | Security Reviewed | 21k | — |
-| [Bedrock Modern WordPress Project Boilerplate by Roots](skills/bedrock-wordpress-composer-boilerplate-roots/) | Bedrock is a WordPress boilerplate with Composer-based dependency management, environment-specific configuration via… | Security Reviewed | 21k | — |
-| [Gutenberg Block Pattern Generator](skills/gutenberg-block-pattern-generator/) | Generates custom WordPress Gutenberg block patterns using register_block_pattern() and the Block Editor API. Creates… | Security Reviewed | 21k | — |
-| [Trellis WordPress LEMP Stack Provisioner by Roots](skills/trellis-wordpress-lemp-ansible-provisioner-roots/) | Trellis is a collection of Ansible playbooks for provisioning and deploying WordPress LEMP stack servers. It… | Security Reviewed | 21k | — |
-| [WordOps High-Performance WordPress Server Stack Manager](skills/wordops-high-performance-wordpress-server-stack/) | WordOps is an open-source CLI tool that installs and manages a complete high-performance WordPress server stack with… | Security Reviewed | 21k | — |
-| [WordPress ACF Field Group Auditor](skills/wordpress-acf-field-group-auditor/) | Fetches all Advanced Custom Fields field groups and their field definitions via the ACF REST API (/wp-json/acf/v3/),… | Security Reviewed | 21k | — |
-| [WordPress Block Theme Scaffolder](skills/wordpress-block-theme-scaffolder/) | Generates complete WordPress block theme structures using theme.json v3, block patterns via… | Security Reviewed | 21k | — |
-| [WordPress Content Publisher](skills/wordpress-content-publisher/) | Structured publishing workflow for WordPress drafts, metadata, and content operations. | Security Reviewed | 21k | — |
-| [WordPress Gutenberg Block Generator](skills/wordpress-gutenberg-block-generator/) | Scaffolds custom Gutenberg blocks using the @wordpress/create-block CLI and block.json schema, then registers them… | Security Reviewed | 21k | — |
-| [WordPress Gutenberg Block Scaffolder](skills/wordpress-gutenberg-block-scaffolder/) | Generates custom Gutenberg blocks using @wordpress/create-block and the Block API v2. Configures block.json… | Security Reviewed | 21k | — |
-| [WordPress Multisite Network Sync](skills/wordpress-multisite-network-sync/) | Synchronizes plugin settings and theme mods across a WordPress Multisite network using the Network Admin REST… | Security Reviewed | 21k | — |
-| [WordPress Multisite Provisioner](skills/wp-multisite-provisioner-agent/) | Automates WordPress Multisite network site creation using wp_insert_site() and the Sites REST API. Configures… | Security Reviewed | 21k | — |
-| [WordPress Playground WebAssembly Runtime for In-Browser WordPress](skills/wordpress-playground-wasm-runtime/) | WordPress Playground runs a full WordPress instance entirely in the browser using WebAssembly-compiled PHP. It… | Security Reviewed | 21k | — |
-| [WordPress REST API Builder](skills/wordpress-rest-api-builder/) | Build and debug WordPress REST endpoints with a specialized skill. | Security Reviewed | 21k | — |
-| [WordPress REST API Content Sync](skills/wordpress-rest-api-content-sync/) | Synchronizes content between WordPress multisite installations using the WP REST API /wp/v2/posts endpoint with… | Security Reviewed | 21k | — |
-| [WordPress Router](skills/wordpress-router/) | Route WordPress tasks to the right workflow fast. Core Capabilities Manage WordPress sites using WP-CLI and the… | Security Reviewed | 21k | — |
-| [WordPress Theme.json Design Token Manager](skills/wp-theme-json-design-token-manager/) | Manages WordPress theme.json design tokens including color palettes, typography presets, and spacing scales. Uses… | Security Reviewed | 21k | — |
-| [WP Abilities API](skills/wp-abilities-api/) | Specialized support for defining, exposing, and debugging WordPress abilities through the Abilities API. | Security Reviewed | 21k | — |
-| [WP Multisite Network Sync Agent](skills/wp-multisite-network-sync-agent/) | Synchronizes content, users, and plugin configurations across WordPress Multisite networks using the WP_Site_Query… | Security Reviewed | 21k | — |
-| [WP-CLI Bulk Content Migrator](skills/wp-cli-bulk-content-migrator/) | Automates large-scale WordPress content migrations using WP-CLI wp post create and wp term set commands. Handles… | Security Reviewed | 21k | — |
-| [WP-CLI Content Drift Auditor](skills/wp-cli-content-drift-auditor/) | Audits WordPress content drift by comparing live posts, revisions, and key options using WP-CLI commands like `wp… | Security Reviewed | 21k | — |
-| [WP-CLI Site Migration Automator](skills/wp-cli-site-migration-automator/) | Automates full WordPress site migrations using WP-CLI search-replace, wp db export, and rsync. Handles serialized… | Security Reviewed | 21k | — |
-| [wp-env Zero-Config WordPress Development Environment](skills/wp-env-wordpress-dev-environment/) | The @wordpress/env package (wp-env) provides a zero-configuration, Docker-based local WordPress environment for… | Security Reviewed | 21k | — |
-| [WPGraphQL Schema Extension Builder](skills/wpgraphql-schema-extension-builder/) | Builds and documents WPGraphQL extensions with hooks such as `graphql_register_types`, `register_graphql_field`, and… | Security Reviewed | 21k | — |
-| [WPScan WordPress Security Vulnerability Scanner](skills/wpscan-wordpress-security-vulnerability-scanner/) | WPScan is an open-source WordPress security scanner that detects vulnerabilities in plugins, themes, and core… | Security Reviewed | 21k | — |
-| [Directus Open-Source Headless CMS and Backend Platform](skills/directus-open-source-headless-cms-backend-platform/) | Directus is an open-source headless CMS that wraps any SQL database with instant REST and GraphQL APIs, a no-code… | Security Reviewed | 20.3k | 32.3M/wk |
-| [Headless CMS GraphQL Connector](skills/headless-cms-graphql-connector/) | Connects headless CMS backends (WordPress WPGraphQL, Strapi, Contentful) to frontend frameworks using Apollo Client… | Security Reviewed | 20.3k | 32.3M/wk |
-| [Payload CMS Next.js-Native Headless CMS and Application Framework](skills/payload-cms-nextjs-headless-framework/) | Payload is an open-source, TypeScript-first headless CMS that installs directly into a Next.js application. It… | Security Reviewed | 10.2k | 10.8M/wk |
-| [WooCommerce REST Sync Agent](skills/woocommerce-rest-sync-agent/) | Synchronizes WooCommerce product data bidirectionally using the WC REST API v3 and wc/v3/products endpoints. Handles… | Security Reviewed | 7k | 4.9M/wk |
-| [WooCommerce REST Order Manager](skills/woocommerce-rest-order-manager/) | Queries and updates WooCommerce orders via the WooCommerce REST API v3 (/wp-json/wc/v3/orders), filters by status,… | Security Reviewed | 4.4k | 8.5M/wk |
-| [WP Cron Health Monitor](skills/wp-cron-health-monitor/) | Monitors WordPress wp-cron scheduled events using the WP_Cron API and Action Scheduler library. Detects stuck,… | Security Reviewed | 69 | 202.6k/wk |
-| [WooCommerce Order Sync Agent](skills/woocommerce-order-sync-agent/) | Synchronizes WooCommerce orders with external ERPs using the WooCommerce REST API v3 and wp_schedule_event. Handles… | Security Reviewed | — | — |
-| [WooCommerce REST Inventory Sync](skills/woocommerce-rest-inventory-sync/) | Synchronizes WooCommerce product inventory across multiple channels using the WooCommerce REST API v3 and… | Security Reviewed | — | — |
-| [WooCommerce Webhook Delivery Inspector](skills/woocommerce-webhook-delivery-inspector/) | Inspects WooCommerce webhook reliability through the `WC_Webhook` model, Action Scheduler queues, and REST endpoints… | Security Reviewed | — | — |
-| [WooCommerce Webhook Orchestrator](skills/woocommerce-webhook-orchestrator/) | Manages WooCommerce webhook lifecycles using the wc/v3/webhooks REST API and WC_Webhook class. Handles order,… | Security Reviewed | — | — |
-| [WP-CLI Command-Line Interface for WordPress](skills/wp-cli-command-line-interface-wordpress/) | Builds repeatable WordPress maintenance and content workflows around WP-CLI, the official command-line interface for… | Published | — | — |
-| [WPGraphQL GraphQL API for WordPress](skills/wpgraphql-graphql-api-wordpress/) | Builds headless WordPress workflows around WPGraphQL, the open-source GraphQL API plugin for WordPress. Useful for… | Published | — | — |
 
 
 ---
