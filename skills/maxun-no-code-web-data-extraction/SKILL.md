@@ -3,7 +3,7 @@ name: "Maxun No-Code Web Data Extraction Platform"
 description: "Maxun is an open-source no-code web data platform for turning any website into structured, reliable data. It supports extraction via recorder mode and LLM-powered natural language mode, plus crawli..."
 category: "Data Extraction & Transformation"
 framework: "Custom Agents"
-verification: "listed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/maxun-no-code-web-data-extraction/"
 ---
 

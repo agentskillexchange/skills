@@ -3,7 +3,7 @@ name: "textlint Pluggable Natural Language Linter"
 description: "Lint natural language text with textlint, the pluggable linting framework inspired by ESLint. Install community rules from npm to enforce writing standards, catch grammar issues, and maintain consistent documentation style across your project."
 category: "Content Writing & SEO"
 framework: "Multi-Framework"
-verification: "listed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/textlint-pluggable-natural-language-linter/"
 ---
 

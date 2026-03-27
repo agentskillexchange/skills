@@ -3,7 +3,7 @@ name: "TypeDoc TypeScript API Documentation Generator"
 description: "TypeDoc is the standard documentation generator for TypeScript projects. It reads TypeScript source code and JSDoc comments to produce structured HTML documentation or JSON models. With 8,000+ GitH..."
 category: "Library & API Reference"
 framework: "Custom Agents"
-verification: "listed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/typedoc-typescript-api-documentation-generator/"
 ---
 

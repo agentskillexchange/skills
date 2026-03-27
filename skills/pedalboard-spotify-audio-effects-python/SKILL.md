@@ -3,7 +3,7 @@ name: "Pedalboard Python Audio Effects Library by Spotify"
 description: "Pedalboard is a Python library built by Spotify for working with audio: reading, writing, rendering, and adding studio-quality effects. It supports VST3 and Audio Unit plugins and runs on macOS, Windows, and Linux with high performance."
 category: "Media & Transcription"
 framework: "Multi-Framework"
-verification: "listed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/pedalboard-spotify-audio-effects-python/"
 ---
 

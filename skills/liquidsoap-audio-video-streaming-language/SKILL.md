@@ -3,7 +3,7 @@ name: "Liquidsoap Audio and Video Streaming Language"
 description: "Build audio and video streaming pipelines with Liquidsoap, a statically typed scripting language purpose-built for media automation. Create internet radio stations, live stream processors, and automated playout systems with a composable operator model."
 category: "Media & Transcription"
 framework: "Custom Agents"
-verification: "listed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/liquidsoap-audio-video-streaming-language/"
 ---
 

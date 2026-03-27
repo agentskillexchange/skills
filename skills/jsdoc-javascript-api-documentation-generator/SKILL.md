@@ -3,7 +3,7 @@ name: "JSDoc JavaScript API Documentation Generator"
 description: "JSDoc is the standard API documentation generator for JavaScript. It parses specially-formatted comments in JavaScript source code to produce HTML documentation pages. With 15,000+ GitHub stars and..."
 category: "Library & API Reference"
 framework: "Custom Agents"
-verification: "listed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/jsdoc-javascript-api-documentation-generator/"
 ---
 

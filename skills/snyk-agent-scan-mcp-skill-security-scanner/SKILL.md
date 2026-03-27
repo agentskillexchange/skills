@@ -3,7 +3,7 @@ name: "Snyk Agent Scan MCP and Skill Security Scanner"
 description: "Snyk Agent Scan automatically discovers and scans AI agent components including MCP servers, agent skills, and agent harnesses for security vulnerabilities like prompt injections, tool poisoning, t..."
 category: "Security & Verification"
 framework: "MCP"
-verification: "listed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/snyk-agent-scan-mcp-skill-security-scanner/"
 ---
 

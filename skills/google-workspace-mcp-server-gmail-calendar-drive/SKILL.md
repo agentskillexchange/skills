@@ -3,7 +3,7 @@ name: "Google Workspace MCP Server for Gmail Calendar and Drive"
 description: "The Google Workspace MCP Server provides comprehensive natural language control over Gmail, Google Calendar, Drive, Docs, Sheets, Slides, Forms, Tasks, Contacts, and Chat through any MCP AI assistant. It supports OAuth 2.1 multi-user authentication and includes a CLI for coding agents."
 category: "Calendar, Email & Productivity"
 framework: "MCP"
-verification: "listed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/google-workspace-mcp-server-gmail-calendar-drive/"
 ---
 
