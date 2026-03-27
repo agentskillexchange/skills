@@ -88,6 +88,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Selenium Grid Test Orchestrator](../../skills/selenium-grid-test-orchestrator-2/) | 34.2k | 2M/wk |
 | [CDP Network Interception Logger](../../skills/cdp-network-interception-logger/) | 790 | 5.9M/wk |
 | [Browser Use AI Browser Automation Library](../../skills/browser-use-ai-browser-automation-library/) | — | — |
+| [chromedp Go Browser Automation with Chrome DevTools Protocol](../../skills/chromedp-go-browser-automation-chrome-devtools-protocol/) | — | — |
 
 ---
 

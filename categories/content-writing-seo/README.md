@@ -69,6 +69,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [Internal Link Optimizer](../../skills/internal-link-optimizer-seo/) | — | — |
 | [LanguageTool Grammar and Style Checker](../../skills/languagetool-grammar-style-checker/) | — | — |
 | [Markdown-to-AMP Article Converter](../../skills/markdown-to-amp-article-converter/) | — | — |
+| [markdownlint-cli2 Markdown Linting for Docs and Repos](../../skills/markdownlint-cli2-markdown-linting-docs-repos/) | — | — |
 | [Schema Markup Generator for SEO](../../skills/schema-markup-generator-seo/) | — | — |
 | [Schema.org Markup Generator](../../skills/schema-org-markup-generator-agent/) | — | — |
 | [Schema.org Structured Data Generator](../../skills/schema-org-structured-data-generator/) | — | — |
@@ -79,6 +80,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [Surfer SEO Content Optimizer Integration](../../skills/surfer-seo-content-optimizer-integration/) | — | — |
 | [Surfer SEO SERP Analyzer](../../skills/surfer-seo-serp-analyzer/) | — | — |
 | [Technical SEO Audit Crawler](../../skills/technical-seo-audit-crawler/) | — | — |
+| [write-good English Prose Linting for Technical Content](../../skills/write-good-english-prose-linting-technical-content/) | — | — |
 
 ---
 

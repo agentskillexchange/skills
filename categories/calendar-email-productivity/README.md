@@ -81,6 +81,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Google Calendar Sync Agent](../../skills/google-calendar-sync-agent-2/) | — | — |
 | [IMAP Email Classifier](../../skills/imap-email-classifier-ml/) | — | — |
 | [IMAP Inbox Triage Agent](../../skills/imap-inbox-triage-agent/) | — | — |
+| [Mailpit SMTP Testing and Email Capture Workbench](../../skills/mailpit-smtp-testing-email-capture-workbench/) | — | — |
 | [Microsoft Graph Calendar Conflict Resolver](../../skills/microsoft-graph-calendar-conflict-resolver/) | — | — |
 | [Microsoft Graph Email Digest Builder](../../skills/microsoft-graph-email-digest-builder/) | — | — |
 | [Microsoft Graph Email Triage Agent](../../skills/microsoft-graph-email-triage-agent/) | — | — |

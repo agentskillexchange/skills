@@ -1,8 +1,56 @@
 {
   "version": "2.0",
-  "total": 1340,
+  "total": 1344,
   "generated": "2026-03-27",
   "skills": [
+    {
+      "slug": "write-good-english-prose-linting-technical-content",
+      "name": "write-good English Prose Linting for Technical Content",
+      "description": "This skill uses write-good to flag vague, wordy, or hard-to-read English prose in documentation and content drafts. It is useful when a team wants…",
+      "category": [
+        "Content Writing & SEO"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "markdownlint-cli2-markdown-linting-docs-repos",
+      "name": "markdownlint-cli2 Markdown Linting for Docs and Repos",
+      "description": "This skill uses markdownlint-cli2 to enforce consistent Markdown quality across docs, READMEs, and content repositories. It is built for local authoring, pull-request checks, and…",
+      "category": [
+        "Content Writing & SEO"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "mailpit-smtp-testing-email-capture-workbench",
+      "name": "Mailpit SMTP Testing and Email Capture Workbench",
+      "description": "This skill uses Mailpit as a safe SMTP sink for development, QA, and automated test runs. It helps teams capture, inspect, search, and validate…",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "chromedp-go-browser-automation-chrome-devtools-protocol",
+      "name": "chromedp Go Browser Automation with Chrome DevTools Protocol",
+      "description": "This skill turns chromedp into a repeatable browser automation workflow for Go teams. It covers navigation, DOM queries, screenshots, PDF capture, network-aware waits, and…",
+      "category": [
+        "Browser Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "crawlee-web-crawling-browser-automation-library",
       "name": "Crawlee Web Crawling and Browser Automation Library",
