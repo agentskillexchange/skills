@@ -1,8 +1,56 @@
 {
   "version": "2.0",
-  "total": 1354,
+  "total": 1358,
   "generated": "2026-03-27",
   "skills": [
+    {
+      "slug": "siteone-crawler-technical-seo-and-site-audit",
+      "name": "SiteOne Crawler Technical SEO and Site Audit",
+      "description": "SiteOne Crawler is a real website crawler and analyzer for technical SEO, accessibility, security, and performance checks. This skill uses the upstream SiteOne Crawler…",
+      "category": [
+        "Content Writing & SEO"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "yoast-seo-wordpress-optimization-toolkit",
+      "name": "Yoast SEO WordPress Optimization Toolkit",
+      "description": "Yoast SEO is one of the most widely deployed WordPress SEO plugins, and this skill turns its real analysis surface into a practical workflow…",
+      "category": [
+        "WordPress & CMS"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "pa11y-accessibility-testing-cli-and-ci",
+      "name": "Pa11y Accessibility Testing CLI and CI",
+      "description": "Pa11y is a real open-source accessibility testing tool that lets agents audit pages for WCAG issues from the command line or in CI. This…",
+      "category": [
+        "Browser Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "backstopjs-visual-regression-testing-automation",
+      "name": "BackstopJS Visual Regression Testing Automation",
+      "description": "BackstopJS gives agents a repeatable way to capture reference screenshots, compare UI states, and flag visual regressions before changes ship. This skill centers on…",
+      "category": [
+        "Browser Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "posthog-product-analytics-and-feature-flags-sdk",
       "name": "PostHog Product Analytics and Feature Flags SDK",

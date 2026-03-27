@@ -86,6 +86,7 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [WooCommerce Webhook Orchestrator](../../skills/woocommerce-webhook-orchestrator/) | — | — |
 | [WP-CLI Command-Line Interface for WordPress](../../skills/wp-cli-command-line-interface-wordpress/) | — | — |
 | [WPGraphQL GraphQL API for WordPress](../../skills/wpgraphql-graphql-api-wordpress/) | — | — |
+| [Yoast SEO WordPress Optimization Toolkit](../../skills/yoast-seo-wordpress-optimization-toolkit/) | — | — |
 
 ---
 

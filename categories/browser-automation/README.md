@@ -87,11 +87,13 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Selenium Grid Session Router](../../skills/selenium-grid-session-router/) | 34.2k | 2M/wk |
 | [Selenium Grid Test Orchestrator](../../skills/selenium-grid-test-orchestrator-2/) | 34.2k | 2M/wk |
 | [CDP Network Interception Logger](../../skills/cdp-network-interception-logger/) | 790 | 5.9M/wk |
+| [BackstopJS Visual Regression Testing Automation](../../skills/backstopjs-visual-regression-testing-automation/) | — | — |
 | [Browser Use AI Browser Automation Library](../../skills/browser-use-ai-browser-automation-library/) | — | — |
 | [browser-use Browser Automation Framework](../../skills/browser-use-browser-automation-framework/) | — | — |
 | [Browserable Self-Hostable Browser Automation for AI Agents](../../skills/browserable-self-hostable-browser-automation-ai-agents/) | — | — |
 | [Browserbase Session Automation API and SDK](../../skills/browserbase-session-automation-api-and-sdk/) | — | — |
 | [chromedp Go Browser Automation with Chrome DevTools Protocol](../../skills/chromedp-go-browser-automation-chrome-devtools-protocol/) | — | — |
+| [Pa11y Accessibility Testing CLI and CI](../../skills/pa11y-accessibility-testing-cli-and-ci/) | — | — |
 
 ---
 
