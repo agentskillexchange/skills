@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "name": "agent-skill-exchange",
   "display_name": "Agent Skill Exchange",
-  "description": "1,100+ security-scanned agent skills for Codex \u2014 the largest open skills collection with real ecosystem signals.",
+  "description": "1,300+ security-scanned agent skills for Codex \u2014 the largest open skills collection with real ecosystem signals.",
   "version": "1.0.0",
   "homepage": "https://agentskillexchange.com",
   "skills_directory": "skills/",

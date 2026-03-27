@@ -4,14 +4,14 @@
 
 ### The open catalog of AI agent skills
 
-[![Published](https://img.shields.io/badge/published-1%2C280-6366f1?style=for-the-badge)](skills/)
+[![Published](https://img.shields.io/badge/published-1%2C327-6366f1?style=for-the-badge)](skills/)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/)
-[![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-1%2C271-10b981?style=for-the-badge)](verification/)
+[![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-1%2C277-10b981?style=for-the-badge)](verification/)
 [![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)
 
 **[Categories](categories/) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md) · [Submit a Skill](#submit-a-skill)**
 
-*1,280 published skills · 17 categories · Real ecosystem signals · Updated hourly*
+*1,327 published skills · 17 categories · Real ecosystem signals · Updated hourly*
 
 </div>
 
@@ -48,18 +48,18 @@ A hand-picked selection across categories. See [TOP-STARS.md](TOP-STARS.md) and 
 
 | Skill | Tool | ⭐ Stars | Category |
 |-------|------|--------:|----------|
-| [Supabase MCP Server](skills/supabase-mcp-server/) | supabase | 99.5k | Developer Tools |
-| [Whisper Subtitle Generator](skills/whisper-subtitle-generator/) | whisper | 96.6k | Media & Transcription |
-| [Playwright MCP Browser Automation](skills/playwright-mcp-browser-automation/) | playwright | 84.9k | Browser Automation |
-| [Grafana OnCall Escalation Chain Manager](skills/grafana-oncall-escalation-chain-manager/) | grafana | 72.8k | Monitoring & Alerts |
-| [Ansible Playbook Dry-Run Validator](skills/ansible-playbook-dryrun-validator-agent/) | ansible | 68.4k | Runbooks & Diagnostics |
-| [Scrapy Spider Architect](skills/scrapy-spider-architect/) | scrapy | 60.9k | Research & Scraping |
-| [Pandas DataFrame Pipeline Orchestrator](skills/pandas-dataframe-pipeline-orchestrator/) | pandas | 48.2k | Data Extraction & Transformation |
-| [Terraform State Forensics Tool](skills/terraform-state-forensics-tool/) | terraform | 48.0k | Runbooks & Diagnostics |
-| [Prisma Schema Migrator](skills/prisma-schema-migrator/) | prisma | 45.6k | Library & API Reference |
-| [Jest Unit Test Scaffolder](skills/jest-unit-test-scaffolder/) | jest | 45.3k | Code Quality & Review |
-| [Vault Transit Secrets Envelope Verifier](skills/vault-transit-secrets-envelope-verifier/) | vault | 35.3k | Security & Verification |
-| [Docker Compose Service Blueprint Creator](skills/docker-compose-service-blueprint-creator/) | docker | 71.6k | Templates & Workflows |
+| [Redoc OpenAPI Documentation Renderer](skills/redoc-openapi-documentation-renderer/) | react | 244.2k | Library & API Reference |
+| [K9s Kubernetes Terminal Dashboard](skills/k9s-kubernetes-terminal-dashboard/) | kubernetes | 121.4k | Developer Tools |
+| [commitlint Conventional Commit Message Linter](skills/commitlint-conventional-commit-message-linter/) | angular | 100.1k | Code Quality & Review |
+| [Supabase MCP Server for Database and Project Management](skills/supabase-mcp-server-database-project-management/) | supabase | 99.6k | Integrations & Connectors |
+| [Podcast RSS Feed Transcriber](skills/podcast-rss-feed-transcriber/) | whisper | 96.6k | Media & Transcription |
+| [OpenAPI Spec Compliance Checker](skills/openapi-spec-compliance-checker/) | fastapi | 96.5k | Library & API Reference |
+| [Puppeteer DevTools Protocol Recorder](skills/puppeteer-devtools-protocol-recorder/) | puppeteer | 93.9k | Developer Tools |
+| [Figma Design Token Extractor](skills/figma-design-token-extractor-3/) | storybook | 89.5k | Image & Creative Automation |
+| [Stagehand AI Browser Automation Framework](skills/stagehand-ai-browser-automation-framework/) | playwright | 85k | Browser Automation |
+| [Elastic APM Transaction Anomaly Spotter](skills/elastic-apm-transaction-anomaly-spotter/) | elasticsearch | 76.4k | Monitoring & Alerts |
+| [Upstash MCP Server for Redis and QStash Management](skills/upstash-mcp-server-redis-qstash-management/) | redis | 73.6k | Integrations & Connectors |
+| [Grafana Alloy OpenTelemetry Collector Distribution](skills/grafana-alloy-opentelemetry-collector/) | grafana | 72.8k | Monitoring & Alerts |
 
 ---
 
@@ -67,23 +67,23 @@ A hand-picked selection across categories. See [TOP-STARS.md](TOP-STARS.md) and 
 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
+| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 146 | CLI tools, scaffolders, dev environment setup |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 140 | Pipeline configs, deployment automation, build tooling |
-| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 140 | CLI tools, scaffolders, dev environment setup |
 | 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 113 | Incident response, troubleshooting, system diagnostics |
-| 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 100 | ETL pipelines, parsing, format conversion |
-| 🔒 | [**Security & Verification**](categories/security-verification/) | 96 | Vulnerability scanning, auth setup, compliance |
-| 📚 | [**Library & API Reference**](categories/library-api-reference/) | 91 | SDK docs, API parsers, symbol resolvers |
+| 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 103 | ETL pipelines, parsing, format conversion |
+| 🔒 | [**Security & Verification**](categories/security-verification/) | 98 | Vulnerability scanning, auth setup, compliance |
+| 📚 | [**Library & API Reference**](categories/library-api-reference/) | 94 | SDK docs, API parsers, symbol resolvers |
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 89 | Linting, code review, test generators, coverage |
-| 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 79 | Metrics, alerting rules, observability |
-| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 61 | Scaffolders, boilerplate generators, workflow templates |
-| 🔗 | [**Integrations**](categories/integrations-connectors/) | 53 | Third-party API bridges, webhooks, service connectors |
-| 🎨 | [**Image & Creative**](categories/image-creative-automation/) | 52 | Image generation, asset processing, design automation |
-| 📅 | [**Calendar & Productivity**](categories/calendar-email-productivity/) | 50 | Email automation, calendar management, task coordination |
-| 🔍 | [**Research & Scraping**](categories/research-scraping/) | 49 | Web research, content discovery, data collection |
+| 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 83 | Metrics, alerting rules, observability |
+| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 65 | Scaffolders, boilerplate generators, workflow templates |
+| 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 57 | Third-party API bridges, webhooks, service connectors |
+| 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 56 | Image generation, asset processing, design automation |
+| 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 52 | Email automation, calendar management, task coordination |
+| 🔍 | [**Research & Scraping**](categories/research-scraping/) | 51 | Web research, content discovery, data collection |
+| 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 49 | Audio/video processing, speech-to-text |
 | 🌐 | [**Browser Automation**](categories/browser-automation/) | 47 | Web scraping, UI testing, headless browser control |
-| 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 40 | Audio/video processing, speech-to-text |
-| ✍️ | [**Content & SEO**](categories/content-writing-seo/) | 37 | SEO content, blog automation, editorial workflows |
-| 📰 | [**WordPress & CMS**](categories/wordpress-cms/) | 32 | Theme/plugin dev, WP-CLI automation, CMS management |
+| ✍️ | [**Content Writing & SEO**](categories/content-writing-seo/) | 41 | SEO content, blog automation, editorial workflows |
+| 📰 | [**WordPress & CMS**](categories/wordpress-cms/) | 39 | Theme/plugin dev, WP-CLI automation, CMS management |
 
 ---
 
@@ -142,8 +142,8 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 1,280 | In the catalog — every skill is backed by a real tool, repo, or package |
-| 🛡️ **Security Reviewed** | 1,271 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
+| 📋 **Published** | 1,327 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 🛡️ **Security Reviewed** | 1,277 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)
 
