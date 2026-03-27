@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1362 published skills** across **17 categories** · 1328 security reviewed · Updated 2026-03-27 19:13 UTC
+> **1366 published skills** across **17 categories** · 1328 security reviewed · Updated 2026-03-27 21:15 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1333,7 +1333,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Pa11y Accessibility Testing CLI and CI](skills/pa11y-accessibility-testing-cli-and-ci/) | Pa11y is a real open-source accessibility testing tool that lets agents audit pages for WCAG issues from the command… | Published | — | — |
 
 
-### 🔍 Research & Scraping (52 skills)
+### 🔍 Research & Scraping (54 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=downloads)
 
@@ -1372,6 +1372,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Academic Paper Citation Network Mapper](skills/academic-paper-citation-network-mapper/) | Builds citation networks from Semantic Scholar API and CrossRef DOI metadata. Visualizes paper influence graphs… | Security Reviewed | — | — |
 | [Beautiful Soup Academic Paper Parser](skills/beautifulsoup-academic-paper-parser/) | Extracts structured citation data from academic repositories using BeautifulSoup4 with lxml parser. Parses DOI… | Security Reviewed | — | — |
 | [Browserless Scraping Agent](skills/browserless-scraping-agent/) | Drives headless Chrome via the Browserless.io API for scraping dynamic SPAs. Uses /content, /screenshot, and /pdf… | Security Reviewed | — | — |
+| [changedetection.io Self-Hosted Website Change Monitoring Platform](skills/changedetection-io-website-change-monitor/) | changedetection.io is an open-source, self-hosted tool for monitoring websites for content changes, price drops,… | Published | — | — |
 | [Common Crawl Index Query Agent](skills/common-crawl-index-query-agent/) | Queries the Common Crawl Index API for large-scale web archive research and data extraction. Uses the CDX Server… | Security Reviewed | — | — |
 | [Common Crawl URL Index Miner](skills/common-crawl-url-index-miner/) | Queries the Common Crawl Index API and CC-MAIN collections to surface historical URL coverage, MIME types, and crawl… | Security Reviewed | — | — |
 | [Crawlee Smart Crawler Agent](skills/crawlee-smart-crawler-agent/) | Implements intelligent web crawling using the Crawlee framework with adaptive request routing between CheerioCrawler… | Security Reviewed | — | — |
@@ -1390,10 +1391,11 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [SerpAPI Search Intelligence Aggregator](skills/serpapi-search-intelligence-aggregator/) | Connects to SerpAPI endpoints for Google, Bing, YouTube, and Google Scholar search result extraction. Uses the… | Security Reviewed | — | — |
 | [SerpAPI Search Results Aggregator](skills/serpapi-search-results-aggregator/) | Queries Google, Bing, and DuckDuckGo search APIs through SerpAPI to collect SERP features, Knowledge Graph data, and… | Security Reviewed | — | — |
 | [Shodan Network Reconnaissance Agent](skills/shodan-network-reconnaissance-agent/) | Performs network reconnaissance using the Shodan REST API and Shodan InternetDB. Discovers exposed services, CVE… | Security Reviewed | — | — |
+| [SpiderFoot Open Source Intelligence Automation Framework](skills/spiderfoot-osint-automation-framework/) | SpiderFoot is an open-source OSINT automation tool that queries over 200 data sources to gather intelligence about… | Published | — | — |
 | [Tavily MCP Server for AI-Powered Web Search and Extraction](skills/tavily-mcp-server-ai-web-search-extraction/) | An official MCP server from Tavily that provides AI agents with real-time web search, page extraction, site mapping,… | Security Reviewed | — | — |
 
 
-### 📰 WordPress & CMS (48 skills)
+### 📰 WordPress & CMS (49 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS&sort=downloads)
 
@@ -1440,6 +1442,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Word
 | [Ghost Admin API Headless Publishing and CMS Automation](skills/ghost-admin-api-headless-publishing-cms-automation/) | The Ghost Admin API exposes authenticated operations for posts, pages, tags, members, offers, and newsletter… | Published | — | — |
 | [Sanity Structured Content Studio and Content Lake](skills/sanity-structured-content-studio-content-lake/) | Sanity combines a customizable content studio with a real-time content backend and GROQ-powered querying. This skill… | Published | — | — |
 | [Storyblok Management API and JavaScript Client](skills/storyblok-management-api-and-javascript-client/) | Use Storyblok’s Management API and JavaScript client to automate stories, components, assets, spaces, and editorial… | Published | — | — |
+| [TinaCMS Git-Backed Headless CMS with Visual Editing](skills/tinacms-git-backed-headless-cms-visual-editing/) | TinaCMS is a fully open-source headless CMS backed by Git that supports Markdown, MDX, JSON, and YAML content. It… | Published | — | — |
 | [WooCommerce Order Sync Agent](skills/woocommerce-order-sync-agent/) | Synchronizes WooCommerce orders with external ERPs using the WooCommerce REST API v3 and wp_schedule_event. Handles… | Security Reviewed | — | — |
 | [WooCommerce REST Inventory Sync](skills/woocommerce-rest-inventory-sync/) | Synchronizes WooCommerce product inventory across multiple channels using the WooCommerce REST API v3 and… | Security Reviewed | — | — |
 | [WooCommerce Webhook Delivery Inspector](skills/woocommerce-webhook-delivery-inspector/) | Inspects WooCommerce webhook reliability through the `WC_Webhook` model, Action Scheduler queues, and REST endpoints… | Security Reviewed | — | — |
@@ -1449,7 +1452,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Word
 | [Yoast SEO WordPress Optimization Toolkit](skills/yoast-seo-wordpress-optimization-toolkit/) | Yoast SEO is one of the most widely deployed WordPress SEO plugins, and this skill turns its real analysis surface… | Published | — | — |
 
 
-### ✍️ Content Writing & SEO (45 skills)
+### ✍️ Content Writing & SEO (46 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=downloads)
 
@@ -1494,6 +1497,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cont
 | [SEMrush Keyword Research Agent](skills/semrush-keyword-research-agent-api-v3/) | Performs keyword research using SEMrush API v3 with domain analytics, keyword difficulty scoring, and SERP feature… | Security Reviewed | — | — |
 | [SEO Content Cluster Generator](skills/seo-content-cluster-generator/) | Builds topical authority clusters using SEMrush Keyword Magic API, Ahrefs Content Explorer, and Google Search… | Security Reviewed | — | — |
 | [SEO Keyword Research Automator](skills/seo-keyword-research-automator/) | Automated keyword research using DataForSEO API and Google Search Console API. Performs SERP analysis, keyword… | Security Reviewed | — | — |
+| [SEOnaut Open Source Technical SEO Audit Tool](skills/seonaut-open-source-technical-seo-audit/) | SEOnaut is an open-source SEO auditing tool built with Go that crawls websites and generates detailed reports on… | Published | — | — |
 | [SiteOne Crawler Technical SEO and Site Audit](skills/siteone-crawler-technical-seo-and-site-audit/) | SiteOne Crawler is a real website crawler and analyzer for technical SEO, accessibility, security, and performance… | Published | — | — |
 | [Surfer SEO Content Optimizer Integration](skills/surfer-seo-content-optimizer-integration/) | Optimizes content against Surfer SEO's NLP-based recommendations via the Surfer API /v1/content_editors endpoint.… | Security Reviewed | — | — |
 | [Surfer SEO SERP Analyzer](skills/surfer-seo-serp-analyzer/) | Uses Surfer SEO Content Editor API to pull SERP analysis data including word count benchmarks, heading structure… | Security Reviewed | — | — |

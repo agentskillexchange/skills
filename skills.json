@@ -1,8 +1,56 @@
 {
   "version": "2.0",
-  "total": 1362,
+  "total": 1366,
   "generated": "2026-03-27",
   "skills": [
+    {
+      "slug": "seonaut-open-source-technical-seo-audit",
+      "name": "SEOnaut Open Source Technical SEO Audit Tool",
+      "description": "SEOnaut is an open-source SEO auditing tool built with Go that crawls websites and generates detailed reports on technical SEO issues. It detects broken…",
+      "category": [
+        "Content Writing & SEO"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "tinacms-git-backed-headless-cms-visual-editing",
+      "name": "TinaCMS Git-Backed Headless CMS with Visual Editing",
+      "description": "TinaCMS is a fully open-source headless CMS backed by Git that supports Markdown, MDX, JSON, and YAML content. It provides a GraphQL API for…",
+      "category": [
+        "WordPress & CMS"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "spiderfoot-osint-automation-framework",
+      "name": "SpiderFoot Open Source Intelligence Automation Framework",
+      "description": "SpiderFoot is an open-source OSINT automation tool that queries over 200 data sources to gather intelligence about IP addresses, domain names, email addresses, and…",
+      "category": [
+        "Research & Scraping"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "changedetection-io-website-change-monitor",
+      "name": "changedetection.io Self-Hosted Website Change Monitoring Platform",
+      "description": "changedetection.io is an open-source, self-hosted tool for monitoring websites for content changes, price drops, restock alerts, and defacement detection. It supports visual selectors, browser…",
+      "category": [
+        "Research & Scraping"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "navidrome-self-hosted-music-streaming-subsonic-api",
       "name": "Navidrome Self-Hosted Music Streaming Server and Subsonic API",

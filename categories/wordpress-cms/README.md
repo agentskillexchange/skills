@@ -80,6 +80,7 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [Ghost Admin API Headless Publishing and CMS Automation](../../skills/ghost-admin-api-headless-publishing-cms-automation/) | — | — |
 | [Sanity Structured Content Studio and Content Lake](../../skills/sanity-structured-content-studio-content-lake/) | — | — |
 | [Storyblok Management API and JavaScript Client](../../skills/storyblok-management-api-and-javascript-client/) | — | — |
+| [TinaCMS Git-Backed Headless CMS with Visual Editing](../../skills/tinacms-git-backed-headless-cms-visual-editing/) | — | — |
 | [WooCommerce Order Sync Agent](../../skills/woocommerce-order-sync-agent/) | — | — |
 | [WooCommerce REST Inventory Sync](../../skills/woocommerce-rest-inventory-sync/) | — | — |
 | [WooCommerce Webhook Delivery Inspector](../../skills/woocommerce-webhook-delivery-inspector/) | — | — |

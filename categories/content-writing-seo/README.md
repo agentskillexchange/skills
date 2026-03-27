@@ -77,6 +77,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [SEMrush Keyword Research Agent](../../skills/semrush-keyword-research-agent-api-v3/) | — | — |
 | [SEO Content Cluster Generator](../../skills/seo-content-cluster-generator/) | — | — |
 | [SEO Keyword Research Automator](../../skills/seo-keyword-research-automator/) | — | — |
+| [SEOnaut Open Source Technical SEO Audit Tool](../../skills/seonaut-open-source-technical-seo-audit/) | — | — |
 | [SiteOne Crawler Technical SEO and Site Audit](../../skills/siteone-crawler-technical-seo-and-site-audit/) | — | — |
 | [Surfer SEO Content Optimizer Integration](../../skills/surfer-seo-content-optimizer-integration/) | — | — |
 | [Surfer SEO SERP Analyzer](../../skills/surfer-seo-serp-analyzer/) | — | — |
