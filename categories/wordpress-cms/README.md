@@ -1,6 +1,6 @@
 # 📰 WordPress & CMS
 
-> **38 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS)
+> **39 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS)
 
 Theme/plugin development, WP-CLI automation, CMS management, and WordPress skills.
 
@@ -92,6 +92,7 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [WooCommerce REST Inventory Sync](../../skills/woocommerce-rest-inventory-sync/) | Security Reviewed | — | — | `clawhub install woocommerce-rest-inventory-sync` |
 | [WooCommerce Webhook Delivery Inspector](../../skills/woocommerce-webhook-delivery-inspector/) | Security Reviewed | — | — | `clawhub install woocommerce-webhook-delivery-inspector` |
 | [WooCommerce Webhook Orchestrator](../../skills/woocommerce-webhook-orchestrator/) | Security Reviewed | — | — | `clawhub install woocommerce-webhook-orchestrator` |
+| [WordOps High-Performance WordPress Server Stack Manager](../../skills/wordops-high-performance-wordpress-server-stack/) | Verified Metadata | — | — | `clawhub install wordops-high-performance-wordpress-server-stack` |
 | [WordPress Playground WebAssembly Runtime for In-Browser WordPress](../../skills/wordpress-playground-wasm-runtime/) | Verified Metadata | — | — | `clawhub install wordpress-playground-wasm-runtime` |
 | [wp-env Zero-Config WordPress Development Environment](../../skills/wp-env-wordpress-dev-environment/) | Verified Metadata | — | — | `clawhub install wp-env-wordpress-dev-environment` |
 | [WPScan WordPress Security Vulnerability Scanner](../../skills/wpscan-wordpress-security-vulnerability-scanner/) | Verified Metadata | — | — | `clawhub install wpscan-wordpress-security-vulnerability-scanner` |

@@ -1,6 +1,6 @@
 # ✍️ Content Writing & SEO
 
-> **37 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO)
+> **38 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO)
 
 Blog posts, SEO optimization, content strategy, and writing assistance.
 
@@ -83,6 +83,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [Google Search Console Performance Analyzer](../../skills/gsc-performance-analyzer-skill/) | Security Reviewed | — | — | `clawhub install gsc-performance-analyzer-skill` |
 | [Hemingway Readability Analyzer API](../../skills/hemingway-readability-analyzer-api/) | Security Reviewed | — | — | `clawhub install hemingway-readability-analyzer-api` |
 | [Internal Link Optimizer](../../skills/internal-link-optimizer-seo/) | Security Reviewed | — | — | `clawhub install internal-link-optimizer-seo` |
+| [lychee Async Broken Link Checker for Websites and Documentation](../../skills/lychee-async-broken-link-checker/) | Verified Metadata | — | — | `clawhub install lychee-async-broken-link-checker` |
 | [Markdown-to-AMP Article Converter](../../skills/markdown-to-amp-article-converter/) | Security Reviewed | — | — | `clawhub install markdown-to-amp-article-converter` |
 | [Schema Markup Generator for SEO](../../skills/schema-markup-generator-seo/) | Security Reviewed | — | — | `clawhub install schema-markup-generator-seo` |
 | [Schema.org Markup Generator](../../skills/schema-org-markup-generator-agent/) | Security Reviewed | — | — | `clawhub install schema-org-markup-generator-agent` |

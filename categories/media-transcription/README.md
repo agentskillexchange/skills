@@ -1,6 +1,6 @@
 # 🎙️ Media & Transcription
 
-> **46 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription)
+> **47 skills** · [Browse on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription)
 
 Audio/video processing, speech-to-text, media conversion, and transcription.
 
@@ -95,6 +95,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [Dolby Atmos ADM-BWF Metadata Extractor](../../skills/dolby-atmos-adm-bwf-metadata-extractor/) | Security Reviewed | — | — | `clawhub install dolby-atmos-adm-bwf-metadata-extractor` |
 | [Dolby.io Media Enhancer](../../skills/dolby-io-media-enhancer-agent/) | Security Reviewed | — | — | `clawhub install dolby-io-media-enhancer-agent` |
 | [ElevenLabs Voice Cloning Agent](../../skills/elevenlabs-voice-cloning-agent/) | Security Reviewed | — | — | `clawhub install elevenlabs-voice-cloning-agent` |
+| [faster-whisper High-Performance Speech Transcription Engine](../../skills/faster-whisper-high-performance-speech-transcription/) | Verified Metadata | — | — | `clawhub install faster-whisper-high-performance-speech-transcription` |
 | [GStreamer Pipeline Graph Optimizer](../../skills/gstreamer-pipeline-graph-optimizer/) | Security Reviewed | — | — | `clawhub install gstreamer-pipeline-graph-optimizer` |
 | [LosslessCut FFmpeg-Powered Media Editor](../../skills/losslesscut-ffmpeg-powered-media-editor/) | Verified Metadata | — | — | `clawhub install losslesscut-ffmpeg-powered-media-editor` |
 | [Piper Local Neural Text-to-Speech Engine](../../skills/piper-local-neural-tts-engine/) | Verified Metadata | — | — | `clawhub install piper-local-neural-tts-engine` |

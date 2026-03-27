@@ -2,7 +2,7 @@
 
 Categories are the **top-level map** of the catalog. For live sorting by stars, downloads, and verification, jump into ASE Browse from any category.
 
-> **1319 skills** across **17 categories**
+> **1322 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
@@ -19,10 +19,10 @@ Categories are the **top-level map** of the catalog. For live sorting by stars, 
 | 🎨 | [**Image & Creative Automation**](image-creative-automation/) | **56** | Image generation, asset processing, design automation, and creative t... |
 | 📅 | [**Calendar, Email & Productivity**](calendar-email-productivity/) | **52** | Email automation, calendar management, task coordination, and product... |
 | 🔍 | [**Research & Scraping**](research-scraping/) | **51** | Web research, data collection, content aggregation, and information g... |
+| 🎙️ | [**Media & Transcription**](media-transcription/) | **47** | Audio/video processing, speech-to-text, media conversion, and transcr... |
 | 🌐 | [**Browser Automation**](browser-automation/) | **47** | Web scraping, UI testing, headless browser control, and browser-based... |
-| 🎙️ | [**Media & Transcription**](media-transcription/) | **46** | Audio/video processing, speech-to-text, media conversion, and transcr... |
-| 📰 | [**WordPress & CMS**](wordpress-cms/) | **38** | Theme/plugin development, WP-CLI automation, CMS management, and Word... |
-| ✍️ | [**Content Writing & SEO**](content-writing-seo/) | **37** | Blog posts, SEO optimization, content strategy, and writing assistance. |
+| 📰 | [**WordPress & CMS**](wordpress-cms/) | **39** | Theme/plugin development, WP-CLI automation, CMS management, and Word... |
+| ✍️ | [**Content Writing & SEO**](content-writing-seo/) | **38** | Blog posts, SEO optimization, content strategy, and writing assistance. |
 
 ---
 
