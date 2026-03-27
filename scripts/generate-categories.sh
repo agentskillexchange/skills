@@ -61,12 +61,6 @@ CAT_DESC = {
     "WordPress & CMS": "Theme/plugin development, WP-CLI automation, CMS management, and WordPress skills.",
 }
 
-VER_LABEL = {
-    "listed": "Listed",
-    "verified_metadata": "Verified Metadata",
-    "security_reviewed": "Security Reviewed",
-}
-
 def fetch_json(url: str):
     req = urllib.request.Request(url, headers={"User-Agent": "OpenClaw ASE Repo Generator"})
     with urllib.request.urlopen(req, timeout=60) as resp:
@@ -112,11 +106,9 @@ for item in items:
 
 CATEGORIES_DIR.mkdir(parents=True, exist_ok=True)
 
-# categories/README.md
+# categories/README.md (index)
 root_lines = [
     "# Skill Categories",
-    "",
-    "Categories are the **top-level map** of the catalog. For live sorting by stars, downloads, and verification, jump into ASE Browse from any category.",
     "",
     f"> **{len(items)} skills** across **{len(cat_rows)} categories**",
     "",
@@ -127,121 +119,87 @@ for cat in cat_rows:
     emoji = CAT_EMOJI.get(cat['name'], '📦')
     desc = CAT_DESC.get(cat['name'], 'Skills in this category.')
     short_desc = desc if len(desc) <= 72 else desc[:69] + '...'
-    browse_url = "https://agentskillexchange.com/browse-skills/?category=" + urllib.parse.quote(cat['name'], safe='')
     root_lines.append(f"| {emoji} | [**{cat['name']}**]({cat['slug']}/) | **{cat['count']}** | {short_desc} |")
 root_lines += [
     "",
     "---",
     "",
-    "<div align=\"center\">",
-    "",
-    "**[Browse all skills on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/)**",
-    "",
-    "</div>",
+    "[Browse all skills on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/)",
     "",
 ]
 (CATEGORIES_DIR / "README.md").write_text("\n".join(root_lines), encoding="utf-8")
 
-# per-category README
-for idx, cat in enumerate(cat_rows):
+# per-category README — clean format
+for cat in cat_rows:
     cat_dir = CATEGORIES_DIR / cat["slug"]
     cat_dir.mkdir(parents=True, exist_ok=True)
     cat_name = cat["name"]
-    cat_slug = cat["slug"]
     emoji = CAT_EMOJI.get(cat_name, "📦")
     desc = CAT_DESC.get(cat_name, "Skills in this category.")
     cat_items = [i for i in items if cat_name in i.get("categories", [])]
     cat_items.sort(key=lambda i: (-int(i.get("github_stars") or 0), -int(i.get("npm_downloads") or 0), i.get("title", "").lower()))
 
-    related = [c for c in cat_rows if c["slug"] != cat_slug][:4]
-    browse_base = "https://agentskillexchange.com/browse-skills/?category=" + urllib.parse.quote(cat_name, safe='')
-    top_starred = [i for i in cat_items if int(i.get('github_stars') or 0) > 0][:6]
-    top_downloaded = [i for i in cat_items if int(i.get('npm_downloads') or 0) > 0][:6]
-    top_security = [i for i in cat_items if i.get('verification') == 'security_reviewed'][:6]
-
-    def add_section(title, section_items, stat_kind):
-        if not section_items:
-            return []
-        out = [f"## {title}", "", "| Skill | Tier | Signal | Install |", "|---|---|---:|---|"]
-        for item in section_items:
-            skill_title = item.get('title', '')
-            slug = item.get('slug', '')
-            tier = VER_LABEL.get(item.get('verification', 'listed'), 'Listed')
-            if stat_kind == 'stars':
-                signal = '⭐ ' + fmt_num(item.get('github_stars') or 0)
-            elif stat_kind == 'downloads':
-                signal = '⬇ ' + downloads_str(item.get('npm_downloads') or 0)
-            else:
-                signal = '🛡️ ' + tier
-            out.append(f"| [{skill_title}](../../skills/{slug}/) | {tier} | {signal} | `clawhub install {slug}` |")
-        out += ["", "---", ""]
-        return out
+    top_starred = [i for i in cat_items if int(i.get('github_stars') or 0) > 0][:10]
+    top_downloaded = [i for i in cat_items if int(i.get('npm_downloads') or 0) > 0][:10]
 
     lines = [
         f"# {emoji} {cat_name}",
         "",
-        f"> **{cat['count']} skills** · [Browse on agentskillexchange.com →]({browse_base})",
-        "",
         desc,
-        "",
-        f"**Live views:** [Top Starred]({browse_base}&sort=stars) · [Top Downloaded]({browse_base}&sort=downloads) · [Security Reviewed]({browse_base}&verification=security_reviewed)",
-        "",
-        "## At a Glance",
-        "",
-        f"- **Top Starred:** {len(top_starred)} visible with GitHub signal data",
-        f"- **Top Downloaded:** {len(top_downloaded)} visible with npm signal data",
-        f"- **Security Reviewed:** {sum(1 for i in cat_items if i.get('verification') == 'security_reviewed')} skills",
-        "",
-        "---",
         "",
     ]
 
-    lines += add_section('⭐ Top Starred', top_starred, 'stars')
-    lines += add_section('🔥 Top Downloaded', top_downloaded, 'downloads')
-    lines += add_section('🛡️ Security Reviewed', top_security, 'security')
+    # Top Starred
+    if top_starred:
+        lines += [
+            "## ⭐ Top Starred",
+            "",
+            "| Skill | Stars |",
+            "|---|---:|",
+        ]
+        for item in top_starred:
+            title = item.get('title', '')
+            slug = item.get('slug', '')
+            stars = fmt_num(item.get('github_stars') or 0)
+            lines.append(f"| [{title}](../../skills/{slug}/) | ⭐ {stars} |")
+        lines += ["", "---", ""]
+
+    # Top Downloaded
+    if top_downloaded:
+        lines += [
+            "## 📦 Top Downloaded",
+            "",
+            "| Skill | Downloads |",
+            "|---|---:|",
+        ]
+        for item in top_downloaded:
+            title = item.get('title', '')
+            slug = item.get('slug', '')
+            downloads = downloads_str(item.get('npm_downloads') or 0)
+            lines.append(f"| [{title}](../../skills/{slug}/) | ⬇ {downloads} |")
+        lines += ["", "---", ""]
+
+    # Full Skill List
     lines += [
         "## Full Skill List",
         "",
-        "| Skill | Tier | GitHub Stars | npm Downloads | Install |",
-        "|---|---|---:|---:|---|",
+        "| Skill | Stars | Downloads |",
+        "|---|---:|---:|",
     ]
-
     for item in cat_items:
         title = item.get("title", "")
         slug = item.get("slug", "")
-        tier = VER_LABEL.get(item.get("verification", "listed"), "Listed")
         stars = fmt_num(item.get("github_stars") or 0)
         downloads = downloads_str(item.get("npm_downloads") or 0)
-        lines.append(f"| [{title}](../../skills/{slug}/) | {tier} | {stars} | {downloads} | `clawhub install {slug}` |")
+        lines.append(f"| [{title}](../../skills/{slug}/) | {stars} | {downloads} |")
 
     lines += [
         "",
         "---",
         "",
-        "## Quick Install",
-        "",
-        "```bash",
-        "# Install any skill from this category",
-        "clawhub install <slug>",
-        "",
-        "# Or using npx",
-        "npx skills add agentskillexchange/skills --skill <slug>",
-        "",
-        "# For a specific agent",
-        "npx skills add agentskillexchange/skills --skill <slug> -a claude-code",
-        "npx skills add agentskillexchange/skills --skill <slug> -a cursor",
-        "npx skills add agentskillexchange/skills --skill <slug> -a codex",
-        "```",
-        "",
-        "---",
-        "",
-        "## Related Categories",
+        "[← Back to all categories](../)",
         "",
     ]
-    for rel in related:
-        rel_emoji = CAT_EMOJI.get(rel['name'], '📦')
-        lines.append(f"- {rel_emoji} [{rel['name']}](../{rel['slug']}/) ({rel['count']} skills)")
-    lines += ["", "---", "", "[← Back to all categories](../)", ""]
     (cat_dir / "README.md").write_text("\n".join(lines), encoding="utf-8")
 
 print(f"Generated {len(cat_rows)} category READMEs from live browse data.")

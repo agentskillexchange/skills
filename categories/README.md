@@ -1,7 +1,5 @@
 # Skill Categories
 
-Categories are the **top-level map** of the catalog. For live sorting by stars, downloads, and verification, jump into ASE Browse from any category.
-
 > **1327 skills** across **17 categories**
 
 | | Category | Skills | Description |
@@ -26,8 +24,4 @@ Categories are the **top-level map** of the catalog. For live sorting by stars, 
 
 ---
 
-<div align="center">
-
-**[Browse all skills on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/)**
-
-</div>
+[Browse all skills on agentskillexchange.com →](https://agentskillexchange.com/browse-skills/)
