@@ -85,12 +85,14 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Figma Export Automator](../../skills/figma-export-automator/) | — | — |
 | [Figma REST API Asset Exporter](../../skills/figma-rest-api-asset-exporter/) | — | — |
 | [Gemini Image Style Transfer Agent](../../skills/gemini-image-style-transfer-agent/) | — | — |
+| [libvips High-Performance Image Processing Library and CLI](../../skills/libvips-high-performance-image-processing-library-cli/) | — | — |
 | [Lottie Animation Optimizer](../../skills/lottie-animation-optimizer/) | — | — |
 | [Midjourney Prompt Chain Builder](../../skills/midjourney-prompt-chain-builder/) | — | — |
 | [Midjourney Prompt Engineering Suite](../../skills/midjourney-prompt-engineering-suite/) | — | — |
 | [Midjourney Prompt Optimizer](../../skills/midjourney-prompt-optimizer-skill/) | — | — |
 | [OpenEXR HDR Compositing Pipeline](../../skills/openexr-hdr-compositing-pipeline/) | — | — |
 | [Photoshop Batch Action Automator](../../skills/photoshop-batch-action-automator/) | — | — |
+| [rembg AI Background Removal CLI and Python Library](../../skills/rembg-ai-background-removal-cli/) | — | — |
 | [Stable Diffusion ComfyUI Workflow Runner](../../skills/stable-diffusion-comfyui-workflow-runner-2/) | — | — |
 | [Stable Diffusion ControlNet Compositor](../../skills/stable-diffusion-controlnet-compositor/) | — | — |
 | [Stable Diffusion ControlNet Pipeline](../../skills/stable-diffusion-controlnet-pipeline/) | — | — |
@@ -100,6 +102,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Stable Diffusion XL LoRA Trainer](../../skills/stable-diffusion-xl-lora-trainer/) | — | — |
 | [Stable Diffusion XL Pipeline](../../skills/stable-diffusion-xl-pipeline/) | — | — |
 | [Stable Diffusion XL Pipeline Builder](../../skills/stable-diffusion-xl-pipeline-builder/) | — | — |
+| [Upscayl Open Source AI Image Upscaler](../../skills/upscayl-open-source-ai-image-upscaler/) | — | — |
 
 ---
 

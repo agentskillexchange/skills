@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1418,
+  "total": 1421,
   "generated": "2026-03-28",
   "skills": [
+    {
+      "slug": "libvips-high-performance-image-processing-library-cli",
+      "name": "libvips High-Performance Image Processing Library and CLI",
+      "description": "libvips is a demand-driven, horizontally threaded image processing library with over 300 operations. It processes images faster and with less memory than alternatives like…",
+      "category": [
+        "Image & Creative Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "upscayl-open-source-ai-image-upscaler",
+      "name": "Upscayl Open Source AI Image Upscaler",
+      "description": "Upscayl is a free, open-source AI image upscaler for Linux, macOS, and Windows. It uses Real-ESRGAN models with Vulkan GPU acceleration to enhance low-resolution…",
+      "category": [
+        "Image & Creative Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "rembg-ai-background-removal-cli",
+      "name": "rembg AI Background Removal CLI and Python Library",
+      "description": "rembg is a Python tool for automatic image background removal powered by AI models like U2-Net and SAM. It works as a CLI, Python…",
+      "category": [
+        "Image & Creative Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "mlt-multimedia-framework-video-editing-processing",
       "name": "MLT Multimedia Framework for Video Editing and Processing",
