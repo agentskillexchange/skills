@@ -1,8 +1,80 @@
 {
   "version": "2.0",
-  "total": 1375,
+  "total": 1381,
   "generated": "2026-03-28",
   "skills": [
+    {
+      "slug": "front-matter-cms-vscode-headless-cms",
+      "name": "Front Matter CMS Visual Studio Code Headless CMS",
+      "description": "An agent skill built on Front Matter CMS, the headless content management system that runs directly inside Visual Studio Code. Manages content for static…",
+      "category": [
+        "WordPress & CMS"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "decap-cms-git-based-content-management-static-sites",
+      "name": "Decap CMS Git-Based Content Management for Static Sites",
+      "description": "An agent skill built on Decap CMS (formerly Netlify CMS), the open-source Git-based content management system for static site generators. Provides a visual editing…",
+      "category": [
+        "WordPress & CMS"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "svgo-svg-optimization-tool",
+      "name": "SVGO SVG Optimization Tool",
+      "description": "An agent skill built on SVGO (SVG Optimizer), the Node.js tool for optimizing SVG files by applying a configurable set of transformation plugins. Removes…",
+      "category": [
+        "Image & Creative Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "blurhash-compact-image-placeholder-encoder",
+      "name": "BlurHash Compact Image Placeholder Encoder",
+      "description": "An agent skill that uses BlurHash, the compact image placeholder representation algorithm by Wolt, to generate and decode tiny hash strings that represent blurred…",
+      "category": [
+        "Image & Creative Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "imgproxy-high-performance-image-processing-proxy",
+      "name": "imgproxy High-Performance Image Processing Proxy",
+      "description": "An agent skill built on imgproxy, the high-performance Go-based image processing server, enabling on-the-fly image resizing, cropping, format conversion, and optimization through URL-based transformations.…",
+      "category": [
+        "Image & Creative Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "thumbor-smart-image-processing-service",
+      "name": "Thumbor Smart Image Processing Service",
+      "description": "An agent skill that leverages Thumbor, the open-source smart image processing service by Globo.com, to perform on-demand image cropping, resizing, and filtering with intelligent…",
+      "category": [
+        "Image & Creative Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "khal-cli-calendar-application-caldav",
       "name": "khal Standards-Based CLI Calendar Application",

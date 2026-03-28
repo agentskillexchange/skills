@@ -1,6 +1,6 @@
 # Skill Categories
 
-> **1375 skills** across **17 categories**
+> **1381 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
@@ -13,13 +13,13 @@
 | ✅ | [**Code Quality & Review**](code-quality-review/) | **89** | Linting rules, review checklists, code standards enforcement, and qua... |
 | 📊 | [**Monitoring & Alerts**](monitoring-alerts/) | **85** | Metrics collection, alerting rules, observability setup, and system m... |
 | 📄 | [**Templates & Workflows**](templates-workflows/) | **66** | Project scaffolding, boilerplate generators, workflow templates, and ... |
+| 🎨 | [**Image & Creative Automation**](image-creative-automation/) | **60** | Image generation, asset processing, design automation, and creative t... |
 | 📅 | [**Calendar, Email & Productivity**](calendar-email-productivity/) | **58** | Email automation, calendar management, task coordination, and product... |
 | 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **57** | Third-party API bridges, webhook handlers, service connectors, and pl... |
-| 🎨 | [**Image & Creative Automation**](image-creative-automation/) | **56** | Image generation, asset processing, design automation, and creative t... |
 | 🔍 | [**Research & Scraping**](research-scraping/) | **56** | Web research, data collection, content aggregation, and information g... |
 | 🎙️ | [**Media & Transcription**](media-transcription/) | **55** | Audio/video processing, speech-to-text, media conversion, and transcr... |
 | 🌐 | [**Browser Automation**](browser-automation/) | **54** | Web scraping, UI testing, headless browser control, and browser-based... |
-| 📰 | [**WordPress & CMS**](wordpress-cms/) | **49** | Theme/plugin development, WP-CLI automation, CMS management, and Word... |
+| 📰 | [**WordPress & CMS**](wordpress-cms/) | **51** | Theme/plugin development, WP-CLI automation, CMS management, and Word... |
 | ✍️ | [**Content Writing & SEO**](content-writing-seo/) | **46** | Blog posts, SEO optimization, content strategy, and writing assistance. |
 
 ---
