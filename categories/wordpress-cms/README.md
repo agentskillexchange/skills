@@ -87,6 +87,7 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [Faust.js Headless WordPress Toolkit for Next.js](../../skills/faustjs-headless-wordpress-toolkit-nextjs/) | — | — |
 | [Front Matter CMS Visual Studio Code Headless CMS](../../skills/front-matter-cms-vscode-headless-cms/) | — | — |
 | [Ghost Admin API Headless Publishing and CMS Automation](../../skills/ghost-admin-api-headless-publishing-cms-automation/) | — | — |
+| [Query Monitor WordPress Developer Tools Panel](../../skills/query-monitor-wordpress-developer-tools-panel/) | — | — |
 | [Sanity Structured Content Studio and Content Lake](../../skills/sanity-structured-content-studio-content-lake/) | — | — |
 | [Storyblok Management API and JavaScript Client](../../skills/storyblok-management-api-and-javascript-client/) | — | — |
 | [WooCommerce Order Sync Agent](../../skills/woocommerce-order-sync-agent/) | — | — |

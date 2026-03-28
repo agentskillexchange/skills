@@ -1,8 +1,56 @@
 {
   "version": "2.0",
-  "total": 1414,
+  "total": 1418,
   "generated": "2026-03-28",
   "skills": [
+    {
+      "slug": "mlt-multimedia-framework-video-editing-processing",
+      "name": "MLT Multimedia Framework for Video Editing and Processing",
+      "description": "MLT is an open-source LGPL multimedia framework designed for video editing. It provides a toolkit and the melt command-line tool for non-linear video editing,…",
+      "category": [
+        "Media & Transcription"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "taskwarrior-command-line-task-management-system",
+      "name": "Taskwarrior Command-Line Task Management System",
+      "description": "Taskwarrior is a command-line task list management utility with rich features including priorities, tags, projects, due dates, recurrence, dependencies, annotations, and a sync protocol.…",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "radicale-self-hosted-caldav-carddav-server",
+      "name": "Radicale Self-Hosted CalDAV and CardDAV Server",
+      "description": "Radicale is a lightweight, self-hosted CalDAV and CardDAV server written in Python. It shares calendars, to-do lists, journal entries, and contacts over standard protocols…",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "query-monitor-wordpress-developer-tools-panel",
+      "name": "Query Monitor WordPress Developer Tools Panel",
+      "description": "Query Monitor is the developer tools panel for WordPress and WooCommerce. It enables debugging of database queries, PHP errors, hooks and actions, block editor…",
+      "category": [
+        "WordPress & CMS"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "wp-browser-wordpress-integration-testing-codeception",
       "name": "wp-browser WordPress Integration Testing with Codeception",

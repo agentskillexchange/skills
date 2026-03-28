@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1414 published skills** across **17 categories** · 1382 security reviewed · Updated 2026-03-28 19:14 UTC
+> **1418 published skills** across **17 categories** · 1382 security reviewed · Updated 2026-03-28 21:14 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1023,7 +1023,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Yeoman Workflow Orchestrator](skills/yeoman-workflow-orchestrator/) | Orchestrates Yeoman generator workflows with composable sub-generators and mem-fs-editor file transformations.… | Security Reviewed | — | — |
 
 
-### 📅 Calendar, Email & Productivity (62 skills)
+### 📅 Calendar, Email & Productivity (64 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=downloads)
 
@@ -1086,14 +1086,16 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Outlook Mail Triage Assistant](skills/outlook-mail-triage-assistant/) | Automated email triage using Microsoft Graph API and @azure/msal-node for OAuth. Classifies messages with zero-shot… | Security Reviewed | — | — |
 | [Outlook Mail Triage Skill](skills/outlook-mail-triage-microsoft-graph/) | Triages Outlook inboxes using Microsoft Graph API v1.0 with delta query support for incremental mail sync. Applies… | Security Reviewed | — | — |
 | [Outlook Rule Automation Manager](skills/outlook-rule-automation-manager/) | Creates and manages Outlook email rules programmatically using the Microsoft Graph API… | Security Reviewed | — | — |
+| [Radicale Self-Hosted CalDAV and CardDAV Server](skills/radicale-self-hosted-caldav-carddav-server/) | Radicale is a lightweight, self-hosted CalDAV and CardDAV server written in Python. It shares calendars, to-do… | Published | — | — |
 | [Rallly Open-Source Group Scheduling and Meeting Poll Platform](skills/rallly-group-scheduling-meeting-poll/) | Rallly is an open-source scheduling and collaboration tool that makes organizing group meetings effortless. Create… | Published | — | — |
+| [Taskwarrior Command-Line Task Management System](skills/taskwarrior-command-line-task-management-system/) | Taskwarrior is a command-line task list management utility with rich features including priorities, tags, projects,… | Published | — | — |
 | [Todoist GTD Workflow Engine](skills/todoist-gtd-workflow-engine/) | Implements Getting Things Done methodology on Todoist using the Sync API v9. Automates weekly reviews, context… | Security Reviewed | — | — |
 | [Todoist Project Automator](skills/todoist-project-automator-api-v2/) | Automates Todoist project management using the Todoist REST API v2 and Sync API. Creates task templates, manages… | Security Reviewed | — | — |
 | [Todoist Sync API Task Orchestrator](skills/todoist-sync-api-task-orchestrator/) | Orchestrates complex task workflows using the Todoist Sync API v9 with incremental sync via sync_token. Uses… | Security Reviewed | — | — |
 | [vdirsyncer CalDAV and CardDAV Calendar and Contact Synchronizer](skills/vdirsyncer-caldav-carddav-sync/) | vdirsyncer is a command-line tool for synchronizing calendars and addressbooks between servers and the local… | Published | — | — |
 
 
-### 🎙️ Media & Transcription (61 skills)
+### 🎙️ Media & Transcription (62 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&sort=downloads)
 
@@ -1155,6 +1157,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Medi
 | [eSpeak NG Multilingual Speech Synthesizer](skills/espeak-ng-multilingual-speech-synthesizer/) | An agent skill built on eSpeak NG, the open-source formant-based speech synthesizer supporting over 100 languages… | Security Reviewed | — | — |
 | [GStreamer Pipeline Graph Optimizer](skills/gstreamer-pipeline-graph-optimizer/) | Analyzes and optimizes GStreamer media pipelines by parsing DOT graph dumps from GST_DEBUG_DUMP_DOT_DIR, profiling… | Security Reviewed | — | — |
 | [librosa Python Audio and Music Analysis Library](skills/librosa-python-audio-music-analysis-library/) | librosa is a Python library for audio and music analysis. It provides tools for feature extraction, spectral… | Published | — | — |
+| [MLT Multimedia Framework for Video Editing and Processing](skills/mlt-multimedia-framework-video-editing-processing/) | MLT is an open-source LGPL multimedia framework designed for video editing. It provides a toolkit and the melt… | Published | — | — |
 | [Pedalboard Python Audio Effects Library by Spotify](skills/pedalboard-spotify-audio-effects-python/) | Pedalboard is a Python library built by Spotify for working with audio: reading, writing, rendering, and adding… | Security Reviewed | — | — |
 | [Podcast RSS Feed Builder](skills/podcast-rss-feed-builder/) | Generates and validates podcast RSS feeds compliant with the Apple Podcasts and Spotify specification. Uses the… | Security Reviewed | — | — |
 | [pydub Python Audio Manipulation Library](skills/pydub-python-audio-manipulation-library/) | pydub is a Python library that provides a simple, high-level interface for manipulating audio files. It supports… | Published | — | — |
@@ -1432,7 +1435,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Rod Go Chrome DevTools Protocol Driver for Web Automation](skills/rod-go-cdp-browser-automation/) | Rod is a high-level Go library built directly on the Chrome DevTools Protocol for web automation and scraping. It… | Published | — | — |
 
 
-### 📰 WordPress & CMS (54 skills)
+### 📰 WordPress & CMS (55 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS&sort=downloads)
 
@@ -1485,6 +1488,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Word
 | [Faust.js Headless WordPress Toolkit for Next.js](skills/faustjs-headless-wordpress-toolkit-nextjs/) | Faust.js by WP Engine is a JavaScript framework and WordPress plugin that streamlines building headless WordPress… | Published | — | — |
 | [Front Matter CMS Visual Studio Code Headless CMS](skills/front-matter-cms-vscode-headless-cms/) | An agent skill built on Front Matter CMS, the headless content management system that runs directly inside Visual… | Security Reviewed | — | — |
 | [Ghost Admin API Headless Publishing and CMS Automation](skills/ghost-admin-api-headless-publishing-cms-automation/) | The Ghost Admin API exposes authenticated operations for posts, pages, tags, members, offers, and newsletter… | Security Reviewed | — | — |
+| [Query Monitor WordPress Developer Tools Panel](skills/query-monitor-wordpress-developer-tools-panel/) | Query Monitor is the developer tools panel for WordPress and WooCommerce. It enables debugging of database queries,… | Published | — | — |
 | [Sanity Structured Content Studio and Content Lake](skills/sanity-structured-content-studio-content-lake/) | Sanity combines a customizable content studio with a real-time content backend and GROQ-powered querying. This skill… | Security Reviewed | — | — |
 | [Storyblok Management API and JavaScript Client](skills/storyblok-management-api-and-javascript-client/) | Use Storyblok’s Management API and JavaScript client to automate stories, components, assets, spaces, and editorial… | Security Reviewed | — | — |
 | [WooCommerce Order Sync Agent](skills/woocommerce-order-sync-agent/) | Synchronizes WooCommerce orders with external ERPs using the WooCommerce REST API v3 and wp_schedule_event. Handles… | Security Reviewed | — | — |

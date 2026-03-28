@@ -97,7 +97,9 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Outlook Mail Triage Assistant](../../skills/outlook-mail-triage-assistant/) | — | — |
 | [Outlook Mail Triage Skill](../../skills/outlook-mail-triage-microsoft-graph/) | — | — |
 | [Outlook Rule Automation Manager](../../skills/outlook-rule-automation-manager/) | — | — |
+| [Radicale Self-Hosted CalDAV and CardDAV Server](../../skills/radicale-self-hosted-caldav-carddav-server/) | — | — |
 | [Rallly Open-Source Group Scheduling and Meeting Poll Platform](../../skills/rallly-group-scheduling-meeting-poll/) | — | — |
+| [Taskwarrior Command-Line Task Management System](../../skills/taskwarrior-command-line-task-management-system/) | — | — |
 | [Todoist GTD Workflow Engine](../../skills/todoist-gtd-workflow-engine/) | — | — |
 | [Todoist Project Automator](../../skills/todoist-project-automator-api-v2/) | — | — |
 | [Todoist Sync API Task Orchestrator](../../skills/todoist-sync-api-task-orchestrator/) | — | — |
