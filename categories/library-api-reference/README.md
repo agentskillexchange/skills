@@ -24,15 +24,15 @@ SDK documentation, API guides, framework reference material, and library usage p
 | Skill | Downloads |
 |---|---:|
 | [Redoc OpenAPI Documentation Renderer](../../skills/redoc-openapi-documentation-renderer/) | ⬇ 108.4M/wk |
-| [REST API Documentation Generator](../../skills/rest-api-documentation-generator/) | ⬇ 91.7M/wk |
+| [REST API Documentation Generator](../../skills/rest-api-documentation-generator/) | ⬇ 94.3M/wk |
 | [Prisma Schema Migrator](../../skills/prisma-schema-migrator/) | ⬇ 9.5M/wk |
-| [API Documentation Indexer](../../skills/api-documentation-indexer/) | ⬇ 3.2M/wk |
-| [OpenAPI Spec Changelog Generator](../../skills/openapi-spec-changelog-generator/) | ⬇ 3.2M/wk |
-| [OpenAPI Spec Linter &#038; Docs Generator](../../skills/openapi-spec-linter-docs-generator/) | ⬇ 3.2M/wk |
-| [OpenAPI Spec Navigator](../../skills/openapi-spec-navigator/) | ⬇ 3.2M/wk |
-| [OpenAPI Spec Reference Indexer](../../skills/openapi-spec-reference-indexer/) | ⬇ 3.2M/wk |
-| [OpenAPI Spec Validator &#038; Docs Generator](../../skills/openapi-spec-validator-docs-generator/) | ⬇ 3.2M/wk |
-| [OpenAPI Specification Validator](../../skills/openapi-specification-validator-agent/) | ⬇ 3.2M/wk |
+| [API Documentation Indexer](../../skills/api-documentation-indexer/) | ⬇ 3.4M/wk |
+| [OpenAPI Spec Changelog Generator](../../skills/openapi-spec-changelog-generator/) | ⬇ 3.4M/wk |
+| [OpenAPI Spec Linter &#038; Docs Generator](../../skills/openapi-spec-linter-docs-generator/) | ⬇ 3.4M/wk |
+| [OpenAPI Spec Navigator](../../skills/openapi-spec-navigator/) | ⬇ 3.4M/wk |
+| [OpenAPI Spec Reference Indexer](../../skills/openapi-spec-reference-indexer/) | ⬇ 3.4M/wk |
+| [OpenAPI Spec Validator &#038; Docs Generator](../../skills/openapi-spec-validator-docs-generator/) | ⬇ 3.4M/wk |
+| [OpenAPI Specification Validator](../../skills/openapi-specification-validator-agent/) | ⬇ 3.4M/wk |
 
 ---
 
@@ -45,23 +45,23 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [OpenTelemetry Trace Analyzer](../../skills/opentelemetry-trace-analyzer/) | 72.8k | — |
 | [DevDocs Unified API Documentation Browser](../../skills/devdocs-unified-api-documentation-browser/) | 71.6k | — |
 | [Docker Image Layer Analyzer](../../skills/docker-image-layer-analyzer/) | 71.6k | — |
-| [REST API Documentation Generator](../../skills/rest-api-documentation-generator/) | 68.9k | 91.7M/wk |
+| [REST API Documentation Generator](../../skills/rest-api-documentation-generator/) | 68.9k | 94.3M/wk |
 | [Terraform Provider Schema Explorer](../../skills/terraform-provider-schema-explorer/) | 48k | — |
 | [Prisma Schema Migrator](../../skills/prisma-schema-migrator/) | 45.6k | 9.5M/wk |
-| [API Documentation Indexer](../../skills/api-documentation-indexer/) | 28.7k | 3.2M/wk |
-| [OpenAPI Spec Changelog Generator](../../skills/openapi-spec-changelog-generator/) | 28.7k | 3.2M/wk |
-| [OpenAPI Spec Linter &#038; Docs Generator](../../skills/openapi-spec-linter-docs-generator/) | 28.7k | 3.2M/wk |
-| [OpenAPI Spec Navigator](../../skills/openapi-spec-navigator/) | 28.7k | 3.2M/wk |
-| [OpenAPI Spec Reference Indexer](../../skills/openapi-spec-reference-indexer/) | 28.7k | 3.2M/wk |
-| [OpenAPI Spec Validator &#038; Docs Generator](../../skills/openapi-spec-validator-docs-generator/) | 28.7k | 3.2M/wk |
-| [OpenAPI Specification Validator](../../skills/openapi-specification-validator-agent/) | 28.7k | 3.2M/wk |
-| [REST API Reference Generator](../../skills/rest-api-reference-generator/) | 28.7k | 3.2M/wk |
-| [REST API Testing Reference Kit](../../skills/rest-api-testing-reference-kit/) | 28.7k | 3.2M/wk |
-| [Swagger / OpenAPI Validator](../../skills/swagger-openapi-validator/) | 28.7k | 3.2M/wk |
-| [Swagger Codegen API Client Builder](../../skills/swagger-codegen-api-client-builder/) | 28.7k | 3.2M/wk |
-| [Swagger Codegen Template Customizer](../../skills/swagger-codegen-template-customizer/) | 28.7k | 3.2M/wk |
-| [Swagger OpenAPI Schema Validator](../../skills/swagger-openapi-schema-validator/) | 28.7k | 3.2M/wk |
-| [Swagger UI Documentation Deployer](../../skills/swagger-ui-documentation-deployer/) | 28.7k | 3.2M/wk |
+| [API Documentation Indexer](../../skills/api-documentation-indexer/) | 28.7k | 3.4M/wk |
+| [OpenAPI Spec Changelog Generator](../../skills/openapi-spec-changelog-generator/) | 28.7k | 3.4M/wk |
+| [OpenAPI Spec Linter &#038; Docs Generator](../../skills/openapi-spec-linter-docs-generator/) | 28.7k | 3.4M/wk |
+| [OpenAPI Spec Navigator](../../skills/openapi-spec-navigator/) | 28.7k | 3.4M/wk |
+| [OpenAPI Spec Reference Indexer](../../skills/openapi-spec-reference-indexer/) | 28.7k | 3.4M/wk |
+| [OpenAPI Spec Validator &#038; Docs Generator](../../skills/openapi-spec-validator-docs-generator/) | 28.7k | 3.4M/wk |
+| [OpenAPI Specification Validator](../../skills/openapi-specification-validator-agent/) | 28.7k | 3.4M/wk |
+| [REST API Reference Generator](../../skills/rest-api-reference-generator/) | 28.7k | 3.4M/wk |
+| [REST API Testing Reference Kit](../../skills/rest-api-testing-reference-kit/) | 28.7k | 3.4M/wk |
+| [Swagger / OpenAPI Validator](../../skills/swagger-openapi-validator/) | 28.7k | 3.4M/wk |
+| [Swagger Codegen API Client Builder](../../skills/swagger-codegen-api-client-builder/) | 28.7k | 3.4M/wk |
+| [Swagger Codegen Template Customizer](../../skills/swagger-codegen-template-customizer/) | 28.7k | 3.4M/wk |
+| [Swagger OpenAPI Schema Validator](../../skills/swagger-openapi-schema-validator/) | 28.7k | 3.4M/wk |
+| [Swagger UI Documentation Deployer](../../skills/swagger-ui-documentation-deployer/) | 28.7k | 3.4M/wk |
 | [GraphQL Introspection Documenter](../../skills/graphql-introspection-documenter/) | 20.3k | 32.3M/wk |
 | [GraphQL Schema Analyzer](../../skills/graphql-schema-analyzer/) | 20.3k | 32.3M/wk |
 | [GraphQL Schema Documentation Builder](../../skills/graphql-schema-documentation-builder/) | 20.3k | 32.3M/wk |

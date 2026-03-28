@@ -117,7 +117,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [SSL Certificate Auditor](../../skills/ssl-certificate-auditor-agent/) | 3.1k | 3.3M/wk |
 | [TLS Certificate Chain Analyzer](../../skills/tls-certificate-chain-analyzer/) | 1.9k | 1.1M/wk |
 | [DocuSign Contract Auto-Sender with Conditional Logic](../../skills/docusign-contract-auto-sender/) | 1.5k | 823.7k/wk |
-| [OAuth2 Token Introspection Agent](../../skills/oauth2-token-introspection-agent/) | 676 | 1.2M/wk |
+| [OAuth2 Token Introspection Agent](../../skills/oauth2-token-introspection-agent/) | 677 | 1.3M/wk |
 | [age Modern File Encryption Tool](../../skills/age-modern-file-encryption-tool/) | — | — |
 | [CSP Policy Analyzer](../../skills/csp-policy-analyzer/) | — | — |
 | [CycloneDX SBOM Generator](../../skills/cyclonedx-sbom-generator/) | — | — |

@@ -8,14 +8,14 @@ Email automation, calendar management, task coordination, and productivity tools
 |---|---:|
 | [Inbox Zero AI Email Assistant](../../skills/inbox-zero-ai-email-assistant/) | ⭐ 73.6k |
 | [Google Workspace MCP Server for Gmail Calendar and Drive](../../skills/google-workspace-mcp-server-gmail-calendar-drive/) | ⭐ 71.6k |
+| [Listmonk Self-Hosted Newsletter and Mailing List Manager](../../skills/listmonk-self-hosted-newsletter-mailing-list/) | ⭐ 71.6k |
+| [Mailpit SMTP Testing and Email Capture Workbench](../../skills/mailpit-smtp-testing-email-capture-workbench/) | ⭐ 71.6k |
+| [Memos Self-Hosted Note Capture and Knowledge API](../../skills/memos-self-hosted-note-capture-knowledge-api/) | ⭐ 71.6k |
 | [Todoist Natural Language Task Parser](../../skills/todoist-natural-language-task-parser/) | ⭐ 35.3k |
 | [Discord Bot Manager](../../skills/discord-bot-manager/) | ⭐ 26.6k |
 | [Linear Sprint Planner](../../skills/linear-sprint-planner/) | ⭐ 20.3k |
 | [Microsoft Graph Email Triage Assistant](../../skills/microsoft-graph-email-triage-assistant/) | ⭐ 7k |
 | [Outlook Email Automation](../../skills/outlook-email-automation/) | ⭐ 7k |
-| [Notion AI Document Summarizer &amp; Action Item Extractor](../../skills/notion-ai-doc-summarizer/) | ⭐ 5.6k |
-| [Notion AI Workspace](../../skills/notion-ai-workspace/) | ⭐ 5.6k |
-| [Notion Database Sync Agent](../../skills/notion-database-sync-agent/) | ⭐ 5.6k |
 
 ---
 
@@ -42,6 +42,9 @@ Email automation, calendar management, task coordination, and productivity tools
 |---|---:|---:|
 | [Inbox Zero AI Email Assistant](../../skills/inbox-zero-ai-email-assistant/) | 73.6k | 8.4M/wk |
 | [Google Workspace MCP Server for Gmail Calendar and Drive](../../skills/google-workspace-mcp-server-gmail-calendar-drive/) | 71.6k | — |
+| [Listmonk Self-Hosted Newsletter and Mailing List Manager](../../skills/listmonk-self-hosted-newsletter-mailing-list/) | 71.6k | — |
+| [Mailpit SMTP Testing and Email Capture Workbench](../../skills/mailpit-smtp-testing-email-capture-workbench/) | 71.6k | — |
+| [Memos Self-Hosted Note Capture and Knowledge API](../../skills/memos-self-hosted-note-capture-knowledge-api/) | 71.6k | — |
 | [Todoist Natural Language Task Parser](../../skills/todoist-natural-language-task-parser/) | 35.3k | — |
 | [Discord Bot Manager](../../skills/discord-bot-manager/) | 26.6k | 524.1k/wk |
 | [Linear Sprint Planner](../../skills/linear-sprint-planner/) | 20.3k | 32.3M/wk |
@@ -59,6 +62,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Notion Workspace Sync Agent](../../skills/notion-workspace-sync-agent/) | 5.6k | 1.1M/wk |
 | [Notion Workspace Sync Engine](../../skills/notion-workspace-sync-engine-2/) | 5.6k | 1.1M/wk |
 | [Todoist GTD Workflow Automator](../../skills/todoist-gtd-workflow-automator/) | 5.6k | 1.1M/wk |
+| [Cal.com Open Source Scheduling Infrastructure and API](../../skills/cal-com-open-source-scheduling-infrastructure-api/) | 4.4k | 8.5M/wk |
 | [Slack Channel Summarizer](../../skills/slack-channel-summarizer-bolt-sdk/) | 2.9k | 2M/wk |
 | [Slack Digest and Task Router](../../skills/slack-digest-and-task-router/) | 2.9k | 2M/wk |
 | [Slack MCP Server](../../skills/slack-mcp-server/) | 2.9k | 2M/wk |
@@ -71,7 +75,6 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Slack Workflow Builder Agent](../../skills/slack-workflow-builder-agent/) | 2.9k | 2M/wk |
 | [Microsoft Graph Mail Triage Agent](../../skills/microsoft-graph-mail-triage-agent/) | 790 | 5.9M/wk |
 | [Atlassian Rovo MCP Server](../../skills/atlassian-rovo-mcp-server/) | — | — |
-| [Cal.com Open Source Scheduling Infrastructure and API](../../skills/cal-com-open-source-scheduling-infrastructure-api/) | — | — |
 | [Gmail API Thread Label Triage](../../skills/gmail-api-thread-label-triage/) | — | — |
 | [Gmail Thread Summarizer and Action Extractor](../../skills/gmail-thread-summarizer-action-extractor/) | — | — |
 | [Google Calendar Conflict Detector](../../skills/google-calendar-conflict-detector/) | — | — |
@@ -84,9 +87,6 @@ Email automation, calendar management, task coordination, and productivity tools
 | [IMAP Email Classifier](../../skills/imap-email-classifier-ml/) | — | — |
 | [IMAP Inbox Triage Agent](../../skills/imap-inbox-triage-agent/) | — | — |
 | [khal Standards-Based CLI Calendar Application](../../skills/khal-cli-calendar-application-caldav/) | — | — |
-| [Listmonk Self-Hosted Newsletter and Mailing List Manager](../../skills/listmonk-self-hosted-newsletter-mailing-list/) | — | — |
-| [Mailpit SMTP Testing and Email Capture Workbench](../../skills/mailpit-smtp-testing-email-capture-workbench/) | — | — |
-| [Memos Self-Hosted Note Capture and Knowledge API](../../skills/memos-self-hosted-note-capture-knowledge-api/) | — | — |
 | [Microsoft Graph Calendar Conflict Resolver](../../skills/microsoft-graph-calendar-conflict-resolver/) | — | — |
 | [Microsoft Graph Email Digest Builder](../../skills/microsoft-graph-email-digest-builder/) | — | — |
 | [Microsoft Graph Email Triage Agent](../../skills/microsoft-graph-email-triage-agent/) | — | — |

@@ -6,16 +6,16 @@ Image generation, asset processing, design automation, and creative tooling.
 
 | Skill | Stars |
 |---|---:|
+| [BlurHash Compact Image Placeholder Encoder](../../skills/blurhash-compact-image-placeholder-encoder/) | ⭐ 244.2k |
 | [Rive Runtime Animation Controller](../../skills/rive-runtime-animation-controller/) | ⭐ 244.2k |
 | [SVG Animation Builder](../../skills/svg-animation-builder/) | ⭐ 93.9k |
-| [Figma Design Token Extractor](../../skills/figma-design-token-extractor-3/) | ⭐ 89.5k |
+| [Figma Design Token Extractor](../../skills/figma-design-token-extractor-3/) | ⭐ 89.6k |
+| [imgproxy High-Performance Image Processing Proxy](../../skills/imgproxy-high-performance-image-processing-proxy/) | ⭐ 71.6k |
 | [RunPod Serverless GPU Inference](../../skills/runpod-serverless-gpu-inference/) | ⭐ 71.6k |
+| [Thumbor Smart Image Processing Service](../../skills/thumbor-smart-image-processing-service/) | ⭐ 71.6k |
+| [SVGO SVG Optimization Tool](../../skills/svgo-svg-optimization-tool/) | ⭐ 66k |
 | [FFmpeg Thumbnail Grid Generator](../../skills/ffmpeg-thumbnail-grid-generator/) | ⭐ 58.4k |
 | [FFmpeg Intelligent Media Processor](../../skills/ffmpeg-intelligent-media-processor/) | ⭐ 58.4k |
-| [FFmpeg Media Transcoder](../../skills/ffmpeg-media-transcoder/) | ⭐ 58.4k |
-| [FFmpeg Thumbnail Mosaic Generator](../../skills/ffmpeg-thumbnail-mosaic-generator/) | ⭐ 58.4k |
-| [FFmpeg Video Processing Pipeline](../../skills/ffmpeg-video-processing-pipeline/) | ⭐ 58.4k |
-| [RunwayML Gen-3 Alpha Video Composer](../../skills/runwayml-gen-3-alpha-video-composer/) | ⭐ 58.4k |
 
 ---
 
@@ -23,16 +23,16 @@ Image generation, asset processing, design automation, and creative tooling.
 
 | Skill | Downloads |
 |---|---:|
+| [BlurHash Compact Image Placeholder Encoder](../../skills/blurhash-compact-image-placeholder-encoder/) | ⬇ 108.4M/wk |
 | [Rive Runtime Animation Controller](../../skills/rive-runtime-animation-controller/) | ⬇ 108.4M/wk |
 | [SVG Animation Builder](../../skills/svg-animation-builder/) | ⬇ 8.7M/wk |
-| [Figma Design Token Extractor](../../skills/figma-design-token-extractor-3/) | ⬇ 13M/wk |
+| [Figma Design Token Extractor](../../skills/figma-design-token-extractor-3/) | ⬇ 13.5M/wk |
+| [SVGO SVG Optimization Tool](../../skills/svgo-svg-optimization-tool/) | ⬇ 44.6M/wk |
 | [FFmpeg Thumbnail Grid Generator](../../skills/ffmpeg-thumbnail-grid-generator/) | ⬇ 9.2M/wk |
 | [Sharp Image CDN Optimizer](../../skills/sharp-image-cdn-optimizer/) | ⬇ 53.4M/wk |
 | [Sharp Image Pipeline Processor](../../skills/sharp-image-pipeline-processor-2/) | ⬇ 53.4M/wk |
 | [Sharp Image Pipeline Skill](../../skills/sharp-image-pipeline-skill/) | ⬇ 53.4M/wk |
 | [Sharp Image Transform Pipeline](../../skills/sharp-image-transform-pipeline/) | ⬇ 53.4M/wk |
-| [DALL-E 3 Batch Asset Generator](../../skills/dalle-3-batch-asset-generator/) | ⬇ 16.1M/wk |
-| [DALL-E 3 Brand Asset Batch Generator](../../skills/dall-e-3-brand-asset-batch-generator/) | ⬇ 16.1M/wk |
 
 ---
 
@@ -40,10 +40,14 @@ Image generation, asset processing, design automation, and creative tooling.
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
+| [BlurHash Compact Image Placeholder Encoder](../../skills/blurhash-compact-image-placeholder-encoder/) | 244.2k | 108.4M/wk |
 | [Rive Runtime Animation Controller](../../skills/rive-runtime-animation-controller/) | 244.2k | 108.4M/wk |
 | [SVG Animation Builder](../../skills/svg-animation-builder/) | 93.9k | 8.7M/wk |
-| [Figma Design Token Extractor](../../skills/figma-design-token-extractor-3/) | 89.5k | 13M/wk |
+| [Figma Design Token Extractor](../../skills/figma-design-token-extractor-3/) | 89.6k | 13.5M/wk |
+| [imgproxy High-Performance Image Processing Proxy](../../skills/imgproxy-high-performance-image-processing-proxy/) | 71.6k | — |
 | [RunPod Serverless GPU Inference](../../skills/runpod-serverless-gpu-inference/) | 71.6k | — |
+| [Thumbor Smart Image Processing Service](../../skills/thumbor-smart-image-processing-service/) | 71.6k | — |
+| [SVGO SVG Optimization Tool](../../skills/svgo-svg-optimization-tool/) | 66k | 44.6M/wk |
 | [FFmpeg Thumbnail Grid Generator](../../skills/ffmpeg-thumbnail-grid-generator/) | 58.4k | 9.2M/wk |
 | [FFmpeg Intelligent Media Processor](../../skills/ffmpeg-intelligent-media-processor/) | 58.4k | — |
 | [FFmpeg Media Transcoder](../../skills/ffmpeg-media-transcoder/) | 58.4k | — |
@@ -73,7 +77,6 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Adobe Photoshop API Batch Processor](../../skills/adobe-photoshop-api-batch-processor/) | — | — |
 | [Bannerbear Dynamic Image API](../../skills/bannerbear-dynamic-image-api/) | — | — |
 | [Blender Geometry Nodes Script Generator](../../skills/blender-geometry-nodes-script-generator/) | — | — |
-| [BlurHash Compact Image Placeholder Encoder](../../skills/blurhash-compact-image-placeholder-encoder/) | — | — |
 | [Cloudinary Asset Optimization Agent](../../skills/cloudinary-asset-optimization-agent/) | — | — |
 | [Cloudinary DAM Pipeline](../../skills/cloudinary-dam-pipeline-skill/) | — | — |
 | [Cloudinary Media Optimization Agent](../../skills/cloudinary-media-optimization-agent/) | — | — |
@@ -82,7 +85,6 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Figma Export Automator](../../skills/figma-export-automator/) | — | — |
 | [Figma REST API Asset Exporter](../../skills/figma-rest-api-asset-exporter/) | — | — |
 | [Gemini Image Style Transfer Agent](../../skills/gemini-image-style-transfer-agent/) | — | — |
-| [imgproxy High-Performance Image Processing Proxy](../../skills/imgproxy-high-performance-image-processing-proxy/) | — | — |
 | [Lottie Animation Optimizer](../../skills/lottie-animation-optimizer/) | — | — |
 | [Midjourney Prompt Chain Builder](../../skills/midjourney-prompt-chain-builder/) | — | — |
 | [Midjourney Prompt Engineering Suite](../../skills/midjourney-prompt-engineering-suite/) | — | — |
@@ -98,8 +100,6 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Stable Diffusion XL LoRA Trainer](../../skills/stable-diffusion-xl-lora-trainer/) | — | — |
 | [Stable Diffusion XL Pipeline](../../skills/stable-diffusion-xl-pipeline/) | — | — |
 | [Stable Diffusion XL Pipeline Builder](../../skills/stable-diffusion-xl-pipeline-builder/) | — | — |
-| [SVGO SVG Optimization Tool](../../skills/svgo-svg-optimization-tool/) | — | — |
-| [Thumbor Smart Image Processing Service](../../skills/thumbor-smart-image-processing-service/) | — | — |
 
 ---
 

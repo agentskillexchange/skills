@@ -7,15 +7,15 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | Skill | Stars |
 |---|---:|
 | [lychee Async Broken Link Checker for Websites and Documentation](../../skills/lychee-async-broken-link-checker/) | ⭐ 71.6k |
+| [OpenSEO Self-Hosted Keyword Research and SEO Analysis Platform](../../skills/openseo-self-hosted-keyword-research-seo-analysis/) | ⭐ 71.6k |
+| [SEOnaut Open Source Technical SEO Audit Tool](../../skills/seonaut-open-source-technical-seo-audit/) | ⭐ 71.6k |
 | [Surfer SEO Content Optimizer](../../skills/surfer-seo-content-optimizer/) | ⭐ 30.2k |
 | [textlint Pluggable Natural Language Linter](../../skills/textlint-pluggable-natural-language-linter/) | ⭐ 27.2k |
 | [AI Content Readability Optimizer](../../skills/ai-content-readability-optimizer/) | ⭐ 21k |
+| [Harper Offline Privacy-First Grammar Checker by Automattic](../../skills/harper-offline-grammar-checker-automattic/) | ⭐ 21k |
 | [Internal Link Builder](../../skills/internal-link-builder-seo-agent/) | ⭐ 21k |
 | [Internal Link Graph Optimizer](../../skills/internal-link-graph-optimizer/) | ⭐ 21k |
 | [Jasper AI Long-Form Blog Post Generator](../../skills/jasper-longform-blog-generator/) | ⭐ 21k |
-| [Keyword Cannibalization Detector](../../skills/keyword-cannibalization-detector/) | ⭐ 21k |
-| [Schema.org Structured Data Injector](../../skills/schema-org-structured-data-injector/) | ⭐ 21k |
-| [SEO Meta Tag Optimizer](../../skills/seo-meta-tag-optimizer-agent/) | ⭐ 21k |
 
 ---
 
@@ -23,7 +23,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 
 | Skill | Downloads |
 |---|---:|
-| [Surfer SEO Content Optimizer](../../skills/surfer-seo-content-optimizer/) | ⬇ 18.5M/wk |
+| [Surfer SEO Content Optimizer](../../skills/surfer-seo-content-optimizer/) | ⬇ 18.8M/wk |
 | [textlint Pluggable Natural Language Linter](../../skills/textlint-pluggable-natural-language-linter/) | ⬇ 111.6M/wk |
 | [AI Meta Description Generator](../../skills/ai-meta-description-generator/) | ⬇ 16.1M/wk |
 | [AI-Powered Meta Description Writer](../../skills/ai-powered-meta-description-writer/) | ⬇ 16.1M/wk |
@@ -39,9 +39,12 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | Skill | Stars | Downloads |
 |---|---:|---:|
 | [lychee Async Broken Link Checker for Websites and Documentation](../../skills/lychee-async-broken-link-checker/) | 71.6k | — |
-| [Surfer SEO Content Optimizer](../../skills/surfer-seo-content-optimizer/) | 30.2k | 18.5M/wk |
+| [OpenSEO Self-Hosted Keyword Research and SEO Analysis Platform](../../skills/openseo-self-hosted-keyword-research-seo-analysis/) | 71.6k | — |
+| [SEOnaut Open Source Technical SEO Audit Tool](../../skills/seonaut-open-source-technical-seo-audit/) | 71.6k | — |
+| [Surfer SEO Content Optimizer](../../skills/surfer-seo-content-optimizer/) | 30.2k | 18.8M/wk |
 | [textlint Pluggable Natural Language Linter](../../skills/textlint-pluggable-natural-language-linter/) | 27.2k | 111.6M/wk |
 | [AI Content Readability Optimizer](../../skills/ai-content-readability-optimizer/) | 21k | — |
+| [Harper Offline Privacy-First Grammar Checker by Automattic](../../skills/harper-offline-grammar-checker-automattic/) | 21k | — |
 | [Internal Link Builder](../../skills/internal-link-builder-seo-agent/) | 21k | — |
 | [Internal Link Graph Optimizer](../../skills/internal-link-graph-optimizer/) | 21k | — |
 | [Jasper AI Long-Form Blog Post Generator](../../skills/jasper-longform-blog-generator/) | 21k | — |
@@ -65,13 +68,11 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [Content Readability Optimizer](../../skills/content-readability-optimizer/) | — | — |
 | [Google Search Console Insights Agent](../../skills/gsc-insights-agent/) | — | — |
 | [Google Search Console Performance Analyzer](../../skills/gsc-performance-analyzer-skill/) | — | — |
-| [Harper Offline Privacy-First Grammar Checker by Automattic](../../skills/harper-offline-grammar-checker-automattic/) | — | — |
 | [Hemingway Readability Analyzer API](../../skills/hemingway-readability-analyzer-api/) | — | — |
 | [Internal Link Optimizer](../../skills/internal-link-optimizer-seo/) | — | — |
 | [LanguageTool Grammar and Style Checker](../../skills/languagetool-grammar-style-checker/) | — | — |
 | [Markdown-to-AMP Article Converter](../../skills/markdown-to-amp-article-converter/) | — | — |
 | [markdownlint-cli2 Markdown Linting for Docs and Repos](../../skills/markdownlint-cli2-markdown-linting-docs-repos/) | — | — |
-| [OpenSEO Self-Hosted Keyword Research and SEO Analysis Platform](../../skills/openseo-self-hosted-keyword-research-seo-analysis/) | — | — |
 | [retext Natural Language Processor with Unified Plugin Ecosystem](../../skills/retext-natural-language-processor-unified-plugins/) | — | — |
 | [Schema Markup Generator for SEO](../../skills/schema-markup-generator-seo/) | — | — |
 | [schema-dts TypeScript Types for Schema.org Structured Data](../../skills/schema-dts-typescript-types-schemaorg-structured-data/) | — | — |
@@ -81,7 +82,6 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [SEMrush Keyword Research Agent](../../skills/semrush-keyword-research-agent-api-v3/) | — | — |
 | [SEO Content Cluster Generator](../../skills/seo-content-cluster-generator/) | — | — |
 | [SEO Keyword Research Automator](../../skills/seo-keyword-research-automator/) | — | — |
-| [SEOnaut Open Source Technical SEO Audit Tool](../../skills/seonaut-open-source-technical-seo-audit/) | — | — |
 | [SiteOne Crawler Technical SEO and Site Audit](../../skills/siteone-crawler-technical-seo-and-site-audit/) | — | — |
 | [Surfer SEO Content Optimizer Integration](../../skills/surfer-seo-content-optimizer-integration/) | — | — |
 | [Surfer SEO SERP Analyzer](../../skills/surfer-seo-serp-analyzer/) | — | — |

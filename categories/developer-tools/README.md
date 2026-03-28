@@ -80,16 +80,16 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Webpack Bundle Analyzer Agent](../../skills/webpack-bundle-analyzer-agent/) | 66k | 44.6M/wk |
 | [VHS Terminal Session Recorder and GIF Generator](../../skills/vhs-terminal-session-recorder-gif-generator/) | 58.4k | — |
 | [Slidev Markdown Presentation Slides for Developers](../../skills/slidev-markdown-presentation-slides-developers/) | 53.3k | 10.6M/wk |
+| [LlamaIndex Agent](../../skills/llamaindex-agent/) | 48.1k | 126.8k/wk |
+| [LlamaIndex MCP Server](../../skills/llamaindex-mcp-server/) | 48.1k | 126.8k/wk |
 | [Mise Dev Tool Version Manager](../../skills/mise-dev-tool-version-manager/) | 48k | — |
 | [Terraform Cloud MCP Server](../../skills/terraform-cloud-mcp-server/) | 48k | — |
 | [Terraform MCP Server for Infrastructure as Code](../../skills/terraform-mcp-server-infrastructure-as-code/) | 48k | — |
 | [Terraform Module Scaffolder](../../skills/terraform-module-scaffolder-hcl-sdk/) | 48k | — |
-| [LlamaIndex Agent](../../skills/llamaindex-agent/) | 47.9k | 126.4k/wk |
-| [LlamaIndex MCP Server](../../skills/llamaindex-mcp-server/) | 47.9k | 126.4k/wk |
 | [chezmoi Cross-Machine Dotfiles Manager](../../skills/chezmoi-dotfiles-manager/) | 35.3k | — |
 | [Obsidian Vault Manager](../../skills/obsidian-vault-manager/) | 35.3k | — |
 | [Nginx Error Log Parser](../../skills/nginx-error-log-parser/) | 29.8k | — |
-| [API Client Generator Skill](../../skills/api-client-generator-skill/) | 28.7k | 3.2M/wk |
+| [API Client Generator Skill](../../skills/api-client-generator-skill/) | 28.7k | 3.4M/wk |
 | [Biome Lint Migration Toolkit](../../skills/biome-lint-migration-toolkit/) | 27.2k | 111.6M/wk |
 | [ESLint Code Review](../../skills/eslint-code-review/) | 27.2k | 111.6M/wk |
 | [ESLint Rule Generator Agent](../../skills/eslint-rule-generator-agent/) | 27.2k | 111.6M/wk |
@@ -114,6 +114,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [CrewAI Multi-Agent Orchestration Framework](../../skills/crewai-multi-agent-orchestration-framework/) | 10.8k | 16.1M/wk |
 | [Fabric AI Prompt Pattern Framework](../../skills/fabric-ai-prompt-pattern-framework/) | 10.8k | 16.1M/wk |
 | [Mastra TypeScript AI Agent Framework](../../skills/mastra-typescript-ai-agent-framework/) | 10.8k | 16.1M/wk |
+| [Meilisearch MCP Server for AI-Powered Search Integration](../../skills/meilisearch-mcp-server-ai-search/) | 10.8k | 16.1M/wk |
 | [OpenAI MCP Server](../../skills/openai-mcp-server/) | 10.8k | 16.1M/wk |
 | [OpenCode Multi-Model AI Coding Agent CLI](../../skills/opencode-multi-model-ai-coding-agent-cli/) | 10.8k | 16.1M/wk |
 | [PydanticAI Type-Safe AI Agent Framework](../../skills/pydanticai-type-safe-ai-agent-framework/) | 10.8k | 16.1M/wk |
@@ -149,7 +150,6 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Bazel Build Graph Analyzer](../../skills/bazel-build-graph-analyzer/) | — | — |
 | [Bun Shell Script Executor](../../skills/bun-shell-script-executor/) | — | — |
 | [Claude Code MCP Bridge](../../skills/claude-code-mcp-bridge/) | — | — |
-| [Coolify Self-Hosted PaaS Deployment Platform](../../skills/coolify-self-hosted-paas-deployment/) | — | — |
 | [Desktop Commander MCP Server for Terminal and File Control](../../skills/desktop-commander-mcp-terminal-file-control/) | — | — |
 | [dust Intuitive Disk Usage Analyzer CLI](../../skills/dust-intuitive-disk-usage-analyzer-cli/) | — | — |
 | [E2B Code Execution MCP](../../skills/e2b-code-execution-mcp/) | — | — |
@@ -176,7 +176,6 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [LLDB Debug Session Automator](../../skills/lldb-debug-session-automator/) | — | — |
 | [lsd Next-Generation ls Directory Listing Tool](../../skills/lsd-next-gen-ls-directory-listing/) | — | — |
 | [Makefile Dependency Auditor](../../skills/makefile-dependency-auditor/) | — | — |
-| [Meilisearch MCP Server for AI-Powered Search Integration](../../skills/meilisearch-mcp-server-ai-search/) | — | — |
 | [n8n GitHub Issue-to-Jira Ticket Automator](../../skills/n8n-github-jira-ticket-automator/) | — | — |
 | [Nix Flake Configuration Builder](../../skills/nix-flake-configuration-builder/) | — | — |
 | [NPM Package Auditor](../../skills/npm-package-auditor-registry-api/) | — | — |

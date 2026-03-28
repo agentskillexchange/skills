@@ -4,14 +4,14 @@
 
 ### The open catalog of AI agent skills
 
-[![Published](https://img.shields.io/badge/published-1%2C391-6366f1?style=for-the-badge)](skills/)
+[![Published](https://img.shields.io/badge/published-1%2C390-6366f1?style=for-the-badge)](skills/)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/)
-[![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-1%2C328-10b981?style=for-the-badge)](verification/)
+[![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-1%2C382-10b981?style=for-the-badge)](verification/)
 [![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)
 
 **[Categories](categories/) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md) · [Submit a Skill](#submit-a-skill)**
 
-*1,391 published skills · 17 categories · Real ecosystem signals · Updated hourly*
+*1,390 published skills · 17 categories · Real ecosystem signals · Updated hourly*
 
 </div>
 
@@ -48,18 +48,18 @@ A hand-picked selection across categories. See [TOP-STARS.md](TOP-STARS.md) and 
 
 | Skill | Tool | ⭐ Stars | Category |
 |-------|------|--------:|----------|
-| [Remotion Programmatic Video Creator](skills/remotion-programmatic-video-creator/) | react | 244.2k | Media & Transcription |
-| [smolagents Code-First AI Agent Library](skills/smolagents-code-first-ai-agent-library/) | huggingface | 158.5k | Developer Tools |
+| [Decap CMS Git-Based Content Management for Static Sites](skills/decap-cms-git-based-content-management-static-sites/) | react | 244.2k | WordPress & CMS |
+| [Trafilatura Web Text Extraction and Crawling Toolkit](skills/trafilatura-web-text-extraction-crawling/) | huggingface | 158.5k | Research & Scraping |
 | [K9s Kubernetes Terminal Dashboard](skills/k9s-kubernetes-terminal-dashboard/) | kubernetes | 121.4k | Developer Tools |
 | [commitlint Conventional Commit Message Linter](skills/commitlint-conventional-commit-message-linter/) | angular | 100.1k | Code Quality & Review |
 | [Supabase MCP Server for Database and Project Management](skills/supabase-mcp-server-database-project-management/) | supabase | 99.7k | Integrations & Connectors |
-| [faster-whisper High-Performance Speech Transcription Engine](skills/faster-whisper-high-performance-speech-transcription/) | whisper | 96.7k | Media & Transcription |
-| [OpenAPI Spec Compliance Checker](skills/openapi-spec-compliance-checker/) | fastapi | 96.6k | Library & API Reference |
+| [Coqui TTS Deep Learning Text-to-Speech Toolkit](skills/coqui-tts-deep-learning-text-to-speech-toolkit/) | pytorch | 98.6k | Media & Transcription |
+| [WhisperX Speech Recognition with Word-Level Timestamps and Diarization](skills/whisperx-speech-recognition-timestamps-diarization/) | whisper | 96.7k | Media & Transcription |
+| [FastMCP Python MCP Server and Client Framework](skills/fastmcp-python-mcp-server-client-framework/) | fastapi | 96.6k | Developer Tools |
 | [Browser Session Replay Analyzer](skills/browser-session-replay-analyzer/) | puppeteer | 93.9k | Browser Automation |
-| [Figma Design Token Extractor](skills/figma-design-token-extractor-3/) | storybook | 89.5k | Image & Creative Automation |
-| [Stagehand AI Browser Automation Framework](skills/stagehand-ai-browser-automation-framework/) | playwright | 85.1k | Browser Automation |
+| [Figma Design Token Extractor](skills/figma-design-token-extractor-3/) | storybook | 89.6k | Image & Creative Automation |
+| [Lightpanda Headless Browser for AI Automation](skills/lightpanda-headless-browser-ai-automation/) | playwright | 85.1k | Browser Automation |
 | [Elastic APM Transaction Anomaly Spotter](skills/elastic-apm-transaction-anomaly-spotter/) | elasticsearch | 76.4k | Monitoring & Alerts |
-| [Inbox Zero AI Email Assistant](skills/inbox-zero-ai-email-assistant/) | redis | 73.6k | Calendar, Email & Productivity |
 
 ---
 
@@ -67,7 +67,7 @@ A hand-picked selection across categories. See [TOP-STARS.md](TOP-STARS.md) and 
 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
-| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 152 | CLI tools, scaffolders, dev environment setup |
+| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 151 | CLI tools, scaffolders, dev environment setup |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 140 | Pipeline configs, deployment automation, build tooling |
 | 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 113 | Incident response, troubleshooting, system diagnostics |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 103 | ETL pipelines, parsing, format conversion |
@@ -142,8 +142,8 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 1,391 | In the catalog — every skill is backed by a real tool, repo, or package |
-| 🛡️ **Security Reviewed** | 1,328 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
+| 📋 **Published** | 1,390 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 🛡️ **Security Reviewed** | 1,382 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)
 

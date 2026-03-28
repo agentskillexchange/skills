@@ -27,7 +27,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Nx Workspace Generator Toolkit](../../skills/nx-workspace-generator-toolkit/) | ⬇ 40.4M/wk |
 | [Twitter/X Trend Monitor &amp; Thread Publisher](../../skills/twitter-x-trend-monitor-thread-publisher/) | ⬇ 8.4M/wk |
 | [Ansible Playbook Template Library](../../skills/ansible-playbook-template-library/) | ⬇ 9.2M/wk |
-| [Swagger Codegen Orchestrator](../../skills/swagger-codegen-orchestrator/) | ⬇ 3.2M/wk |
+| [Swagger Codegen Orchestrator](../../skills/swagger-codegen-orchestrator/) | ⬇ 3.4M/wk |
 | [Yeoman Enterprise Generator Suite](../../skills/yeoman-enterprise-generator-suite/) | ⬇ 111.6M/wk |
 | [Pulumi Infrastructure Stack Templater](../../skills/pulumi-infrastructure-stack-templater/) | ⬇ 1.5M/wk |
 | [Fly.io Deployment Helper](../../skills/fly-io-deployment-helper/) | ⬇ 32.3M/wk |
@@ -63,11 +63,12 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Terraform Module Template Engine](../../skills/terraform-module-template-engine/) | 48k | — |
 | [Terraform Module Template Generator](../../skills/terraform-module-template-generator/) | 48k | — |
 | [Terraform Module Testing Framework](../../skills/terraform-module-testing-framework/) | 48k | — |
+| [Windmill Open-Source Workflow Engine and Developer Platform](../../skills/windmill-workflow-engine-developer-platform/) | 44.8k | — |
 | [Helm Chart Boilerplate Builder](../../skills/helm-chart-boilerplate-builder/) | 29.6k | — |
 | [Helm Chart Template Scaffolder](../../skills/helm-chart-template-scaffolder/) | 29.6k | — |
 | [Helm Chart Templater](../../skills/helm-chart-templater/) | 29.6k | — |
 | [Kubernetes Helm Chart Scaffold Builder](../../skills/kubernetes-helm-chart-scaffold-builder/) | 29.6k | — |
-| [Swagger Codegen Orchestrator](../../skills/swagger-codegen-orchestrator/) | 28.7k | 3.2M/wk |
+| [Swagger Codegen Orchestrator](../../skills/swagger-codegen-orchestrator/) | 28.7k | 3.4M/wk |
 | [Yeoman Enterprise Generator Suite](../../skills/yeoman-enterprise-generator-suite/) | 27.2k | 111.6M/wk |
 | [Pulumi Infrastructure Stack Templater](../../skills/pulumi-infrastructure-stack-templater/) | 24.9k | 1.5M/wk |
 | [Backstage Software Catalog Sync](../../skills/backstage-software-catalog-sync/) | 24.3k | — |
@@ -101,7 +102,6 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Nx Workspace Generator](../../skills/nx-workspace-generator/) | — | — |
 | [Plop.js Code Generator Orchestrator](../../skills/plopjs-code-generator-orchestrator/) | — | — |
 | [Self-Improvement / Learnings Capture](../../skills/self-improvement-learnings-capture/) | — | — |
-| [Windmill Open-Source Workflow Engine and Developer Platform](../../skills/windmill-workflow-engine-developer-platform/) | — | — |
 | [Yeoman Generator Builder](../../skills/yeoman-generator-builder/) | — | — |
 | [Yeoman Scaffold Runner](../../skills/yeoman-scaffold-runner/) | — | — |
 | [Yeoman Sub-Generator Composition Builder](../../skills/yeoman-sub-generator-composition-builder/) | — | — |

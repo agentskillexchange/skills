@@ -15,7 +15,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Meltano Declarative ELT Data Integration Engine](../../skills/meltano-declarative-elt-data-integration-engine/) | ⭐ 71.6k |
 | [Postgres MCP Pro](../../skills/postgres-mcp-pro/) | ⭐ 71.6k |
 | [Typesense Typo-Tolerant Search Engine](../../skills/typesense-typo-tolerant-search-engine/) | ⭐ 71.6k |
-| [Scrapy Spider Data Pipeline](../../skills/scrapy-spider-data-pipeline/) | ⭐ 60.9k |
+| [Scrapy Spider Data Pipeline](../../skills/scrapy-spider-data-pipeline/) | ⭐ 61k |
 
 ---
 
@@ -25,9 +25,9 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 |---|---:|
 | [Elasticsearch MCP](../../skills/elasticsearch-mcp/) | ⬇ 1.9M/wk |
 | [Scrapy Spider Data Pipeline](../../skills/scrapy-spider-data-pipeline/) | ⬇ 39.8M/wk |
-| [ClickHouse Query Agent](../../skills/clickhouse-query-agent/) | ⬇ 1.5M/wk |
+| [ClickHouse Query Agent](../../skills/clickhouse-query-agent/) | ⬇ 1.2M/wk |
 | [Apache Spark DataFrame ETL Pipeline](../../skills/spark-dataframe-etl-pipeline/) | ⬇ 9.2M/wk |
-| [Cheerio DOM Extraction Pipeline](../../skills/cheerio-dom-extraction-pipeline/) | ⬇ 18.5M/wk |
+| [Cheerio DOM Extraction Pipeline](../../skills/cheerio-dom-extraction-pipeline/) | ⬇ 18.8M/wk |
 | [GraphQL Data Federation Agent](../../skills/graphql-data-federation-agent/) | ⬇ 32.3M/wk |
 | [GraphQL Schema Introspection Mapper](../../skills/graphql-schema-introspection-mapper/) | ⬇ 32.3M/wk |
 | [Weaviate MCP Server](../../skills/weaviate-mcp-server/) | ⬇ 32.3M/wk |
@@ -49,7 +49,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Meltano Declarative ELT Data Integration Engine](../../skills/meltano-declarative-elt-data-integration-engine/) | 71.6k | — |
 | [Postgres MCP Pro](../../skills/postgres-mcp-pro/) | 71.6k | — |
 | [Typesense Typo-Tolerant Search Engine](../../skills/typesense-typo-tolerant-search-engine/) | 71.6k | — |
-| [Scrapy Spider Data Pipeline](../../skills/scrapy-spider-data-pipeline/) | 60.9k | 39.8M/wk |
+| [Scrapy Spider Data Pipeline](../../skills/scrapy-spider-data-pipeline/) | 61k | 39.8M/wk |
 | [Camelot Advanced PDF Table Intelligence](../../skills/camelot-advanced-pdf-table-intelligence/) | 48.3k | — |
 | [Miller CSV TSV JSON Data Processor](../../skills/miller-csv-tsv-json-data-processor/) | 48.3k | — |
 | [Pandas DataFrame Pipeline Builder](../../skills/pandas-dataframe-pipeline-builder/) | 48.3k | — |
@@ -63,11 +63,11 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Tesseract OCR Data Extractor](../../skills/tesseract-ocr-data-extractor/) | 48.3k | — |
 | [Tesseract OCR Document Extractor](../../skills/tesseract-ocr-document-extractor/) | 48.3k | — |
 | [Airbyte Connector Config Generator](../../skills/airbyte-connector-config-generator/) | 48k | — |
-| [ClickHouse Query Agent](../../skills/clickhouse-query-agent/) | 46.5k | 1.5M/wk |
+| [ClickHouse Query Agent](../../skills/clickhouse-query-agent/) | 46.6k | 1.2M/wk |
 | [Apache Airflow MCP](../../skills/apache-airflow-mcp/) | 44.8k | — |
 | [Apache Spark DataFrame ETL Pipeline](../../skills/spark-dataframe-etl-pipeline/) | 43k | 9.2M/wk |
 | [Apache Spark Job Manager](../../skills/apache-spark-job-manager/) | 43k | — |
-| [Cheerio DOM Extraction Pipeline](../../skills/cheerio-dom-extraction-pipeline/) | 30.2k | 18.5M/wk |
+| [Cheerio DOM Extraction Pipeline](../../skills/cheerio-dom-extraction-pipeline/) | 30.2k | 18.8M/wk |
 | [GraphQL Data Federation Agent](../../skills/graphql-data-federation-agent/) | 20.3k | 32.3M/wk |
 | [GraphQL Schema Introspection Mapper](../../skills/graphql-schema-introspection-mapper/) | 20.3k | 32.3M/wk |
 | [Weaviate MCP Server](../../skills/weaviate-mcp-server/) | 20.3k | 32.3M/wk |

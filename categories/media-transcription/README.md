@@ -7,6 +7,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | Skill | Stars |
 |---|---:|
 | [Remotion Programmatic Video Creator](../../skills/remotion-programmatic-video-creator/) | ⭐ 244.2k |
+| [Coqui TTS Deep Learning Text-to-Speech Toolkit](../../skills/coqui-tts-deep-learning-text-to-speech-toolkit/) | ⭐ 98.6k |
 | [OpenAI Whisper API Transcription](../../skills/openai-whisper-api-transcription/) | ⭐ 96.7k |
 | [OpenAI Whisper Batch Transcription Pipeline](../../skills/whisper-batch-transcription-pipeline/) | ⭐ 96.7k |
 | [OpenAI Whisper Transcription](../../skills/openai-whisper-transcription/) | ⭐ 96.7k |
@@ -15,7 +16,6 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [Whisper Subtitle Generator](../../skills/whisper-subtitle-generator/) | ⭐ 96.7k |
 | [Whisper.cpp Local Transcription Engine](../../skills/whisper-cpp-local-transcription-engine/) | ⭐ 96.7k |
 | [YouTube Chapters Generator with Whisper](../../skills/youtube-chapters-generator-whisper/) | ⭐ 96.7k |
-| [faster-whisper High-Performance Speech Transcription Engine](../../skills/faster-whisper-high-performance-speech-transcription/) | ⭐ 96.7k |
 
 ---
 
@@ -41,6 +41,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | Skill | Stars | Downloads |
 |---|---:|---:|
 | [Remotion Programmatic Video Creator](../../skills/remotion-programmatic-video-creator/) | 244.2k | 108.4M/wk |
+| [Coqui TTS Deep Learning Text-to-Speech Toolkit](../../skills/coqui-tts-deep-learning-text-to-speech-toolkit/) | 98.6k | — |
 | [OpenAI Whisper API Transcription](../../skills/openai-whisper-api-transcription/) | 96.7k | 16.3M/wk |
 | [OpenAI Whisper Batch Transcription Pipeline](../../skills/whisper-batch-transcription-pipeline/) | 96.7k | 16.3M/wk |
 | [OpenAI Whisper Transcription](../../skills/openai-whisper-transcription/) | 96.7k | 16.3M/wk |
@@ -52,6 +53,9 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [faster-whisper High-Performance Speech Transcription Engine](../../skills/faster-whisper-high-performance-speech-transcription/) | 96.7k | — |
 | [Podcast RSS Feed Transcriber](../../skills/podcast-rss-feed-transcriber/) | 96.7k | — |
 | [Whisper.cpp Real-Time Transcription Pipeline](../../skills/whisper-cpp-realtime-transcription-pipeline/) | 96.7k | — |
+| [WhisperX Speech Recognition with Word-Level Timestamps and Diarization](../../skills/whisperx-speech-recognition-timestamps-diarization/) | 96.7k | — |
+| [Audiobookshelf Self-Hosted Audiobook and Podcast Server API](../../skills/audiobookshelf-self-hosted-audiobook-podcast-server-api/) | 71.6k | — |
+| [Navidrome Self-Hosted Music Streaming Server and Subsonic API](../../skills/navidrome-self-hosted-music-streaming-subsonic-api/) | 71.6k | — |
 | [Piper Local Neural Text-to-Speech Engine](../../skills/piper-local-neural-tts-engine/) | 71.6k | — |
 | [GStreamer Live Stream Transcoder](../../skills/gstreamer-live-stream-transcoder/) | 63.3k | 5.4M/wk |
 | [Audio Stem Separator with Demucs](../../skills/audio-stem-separator-demucs/) | 58.4k | — |
@@ -82,9 +86,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [AssemblyAI Audio Intelligence Agent](../../skills/assemblyai-audio-intelligence-agent/) | — | — |
 | [AssemblyAI LeMUR Summarizer](../../skills/assemblyai-lemur-summarizer-agent/) | — | — |
 | [AssemblyAI Summarization &#038; Chapters Skill](../../skills/assemblyai-summarization-chapters-skill/) | — | — |
-| [Audiobookshelf Self-Hosted Audiobook and Podcast Server API](../../skills/audiobookshelf-self-hosted-audiobook-podcast-server-api/) | — | — |
 | [Chatterbox State-of-the-Art Open Source Text-to-Speech](../../skills/chatterbox-sota-open-source-text-to-speech/) | — | — |
-| [Coqui TTS Deep Learning Text-to-Speech Toolkit](../../skills/coqui-tts-deep-learning-text-to-speech-toolkit/) | — | — |
 | [Core Audio Unit v3 Debugger](../../skills/core-audio-unit-v3-debugger/) | — | — |
 | [Deepgram Nova Transcriber](../../skills/deepgram-nova-transcriber-agent/) | — | — |
 | [Deepgram Real-Time Transcription Connector](../../skills/deepgram-realtime-transcription-connector/) | — | — |
@@ -93,10 +95,8 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [ElevenLabs Voice Cloning Agent](../../skills/elevenlabs-voice-cloning-agent/) | — | — |
 | [eSpeak NG Multilingual Speech Synthesizer](../../skills/espeak-ng-multilingual-speech-synthesizer/) | — | — |
 | [GStreamer Pipeline Graph Optimizer](../../skills/gstreamer-pipeline-graph-optimizer/) | — | — |
-| [Navidrome Self-Hosted Music Streaming Server and Subsonic API](../../skills/navidrome-self-hosted-music-streaming-subsonic-api/) | — | — |
 | [Pedalboard Python Audio Effects Library by Spotify](../../skills/pedalboard-spotify-audio-effects-python/) | — | — |
 | [Podcast RSS Feed Builder](../../skills/podcast-rss-feed-builder/) | — | — |
-| [WhisperX Speech Recognition with Word-Level Timestamps and Diarization](../../skills/whisperx-speech-recognition-timestamps-diarization/) | — | — |
 | [YouTube Chapter Generator from Transcripts](../../skills/youtube-chapter-generator-transcripts/) | — | — |
 
 ---
