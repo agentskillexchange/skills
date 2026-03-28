@@ -4,7 +4,7 @@ description: "ExifTool by Phil Harvey is a comprehensive Perl-based CLI tool for
 category: "Data Extraction & Transformation"
 framework: "Multi-Framework"
 verification: listed
-source: "https://agentskillexchange.com/skills/exiftool-metadata-reader-writer-images-files/"
+source: "https://github.com/exiftool/exiftool"
 ---
 
 # ExifTool Metadata Reader and Writer for Images and Files

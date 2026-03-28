@@ -4,7 +4,7 @@ description: "Orchestrates OWASP ZAP active and passive scans against REST and G
 category: "Security & Verification"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/owasp-zap-api-security-auditor/"
+source: "https://github.com/zaproxy/zaproxy"
 tool_ecosystem:
   tool: owasp
   github_stars: 14900

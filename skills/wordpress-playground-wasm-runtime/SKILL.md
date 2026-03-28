@@ -4,7 +4,7 @@ description: "WordPress Playground runs a full WordPress instance entirely in th
 category: "WordPress & CMS"
 framework: "Multi-Framework"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/wordpress-playground-wasm-runtime/"
+source: "https://github.com/WordPress/wordpress-playground"
 ---
 
 # WordPress Playground WebAssembly Runtime for In-Browser WordPress
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill wordpress-playground-wasm-runti
 ```bash
 clawhub install wordpress-playground-wasm-runtime
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/wordpress-playground-wasm-runtime/)

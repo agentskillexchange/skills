@@ -4,7 +4,7 @@ description: "Watches Kubernetes event streams via the Watch API and correlates 
 category: "Monitoring & Alerts"
 framework: "Gemini"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/kubernetes-event-stream-analyzer/"
+source: "https://github.com/kubernetes/kubernetes"
 tool_ecosystem:
   tool: kubernetes
   github_stars: 121334

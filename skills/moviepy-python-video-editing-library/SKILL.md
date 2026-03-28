@@ -4,7 +4,7 @@ description: "MoviePy is a Python library for video editing — cuts, concatenat
 category: "Media & Transcription"
 framework: "Multi-Framework"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/moviepy-python-video-editing-library/"
+source: "https://github.com/Zulko/moviepy"
 ---
 
 # MoviePy Python Video Editing Library
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill moviepy-python-video-editing-li
 ```bash
 clawhub install moviepy-python-video-editing-library
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/moviepy-python-video-editing-library/)

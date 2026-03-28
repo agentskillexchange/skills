@@ -4,7 +4,7 @@ description: "An agent skill built on schema-dts by Google, which provides compl
 category: "Content Writing & SEO"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/schema-dts-typescript-types-schemaorg-structured-data/"
+source: "https://github.com/google/schema-dts"
 ---
 
 # schema-dts TypeScript Types for Schema.org Structured Data
@@ -37,3 +37,7 @@ npx skills add schema-dts-typescript-types-schemaorg-structured-data --codex
 ```bash
 clawhub install schema-dts-typescript-types-schemaorg-structured-data
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/schema-dts-typescript-types-schemaorg-structured-data/)

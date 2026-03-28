@@ -4,7 +4,7 @@ description: "Fast and accurate code statistics tool written in Rust. Counts lin
 category: "Code Quality & Review"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/tokei-code-statistics-counter/"
+source: "https://github.com/XAMPPRocky/tokei"
 ---
 
 # tokei Code Statistics Counter

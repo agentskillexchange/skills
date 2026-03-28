@@ -4,7 +4,7 @@ description: "Context7 by Upstash injects up-to-date, version-specific library d
 category: "Library & API Reference"
 framework: "MCP"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/context7-mcp-documentation-server-llm-code-editors/"
+source: "https://github.com/upstash/context7"
 ---
 
 # Context7 MCP Documentation Server for LLM Code Editors

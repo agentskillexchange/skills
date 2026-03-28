@@ -4,7 +4,7 @@ description: "Integrates SonarQube quality gates into pull request workflows via
 category: "Code Quality & Review"
 framework: "Codex"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/sonarqube-pr-gate-skill/"
+source: "https://github.com/SonarSource/sonarqube"
 tool_ecosystem:
   tool: sonarqube
   github_stars: 10358

@@ -4,7 +4,7 @@ description: "csvkit is a suite of Python command-line utilities for converting 
 category: "Data Extraction & Transformation"
 framework: "Multi-Framework"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/csvkit-python-csv-utility-suite/"
+source: "https://github.com/wireservice/csvkit"
 ---
 
 # csvkit Python CSV Utility Suite
@@ -77,3 +77,7 @@ npx skills add agentskillexchange/skills --skill csvkit-python-csv-utility-suite
 ```bash
 clawhub install csvkit-python-csv-utility-suite
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/csvkit-python-csv-utility-suite/)

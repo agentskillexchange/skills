@@ -4,7 +4,7 @@ description: "Validates .gitlab-ci.yml files against GitLab CI/CD schema using t
 category: "CI/CD Integrations"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/gitlab-ci-pipeline-validator/"
+source: "https://github.com/gitlabhq/gitlabhq"
 tool_ecosystem:
   tool: gitlab
   github_stars: 24278

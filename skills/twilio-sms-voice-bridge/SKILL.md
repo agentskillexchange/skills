@@ -4,7 +4,7 @@ description: "Connects to Twilio REST API via the twilio-node SDK for programmab
 category: "Integrations & Connectors"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/twilio-sms-voice-bridge/"
+source: "https://github.com/twilio/twilio-node"
 tool_ecosystem:
   tool: twilio
   github_stars: 1523

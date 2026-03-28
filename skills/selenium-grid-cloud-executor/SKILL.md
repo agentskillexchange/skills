@@ -4,7 +4,7 @@ description: "Distributes browser test suites across Selenium Grid 4 nodes using
 category: "Browser Automation"
 framework: "Codex"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/selenium-grid-cloud-executor/"
+source: "https://github.com/SeleniumHQ/selenium"
 tool_ecosystem:
   tool: selenium
   github_stars: 34174

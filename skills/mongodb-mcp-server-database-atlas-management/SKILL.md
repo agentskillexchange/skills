@@ -4,7 +4,7 @@ description: "The official MongoDB MCP server connects AI agents to MongoDB data
 category: "Data Extraction & Transformation"
 framework: "MCP"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/mongodb-mcp-server-database-atlas-management/"
+source: "https://github.com/mongodb-js/mongodb-mcp-server"
 ---
 
 # MongoDB MCP Server for Database and Atlas Management
@@ -54,3 +54,7 @@ npx skills add agentskillexchange/skills --skill mongodb-mcp-server-database-atl
 ```bash
 clawhub install mongodb-mcp-server-database-atlas-management
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/mongodb-mcp-server-database-atlas-management/)

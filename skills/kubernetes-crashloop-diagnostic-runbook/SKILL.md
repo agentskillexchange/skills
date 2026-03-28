@@ -4,7 +4,7 @@ description: "Diagnoses CrashLoopBackOff pods in Kubernetes clusters using kubec
 category: "Runbooks & Diagnostics"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/kubernetes-crashloop-diagnostic-runbook/"
+source: "https://github.com/kubernetes/kubernetes"
 tool_ecosystem:
   tool: kubernetes
   github_stars: 121334

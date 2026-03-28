@@ -4,7 +4,7 @@ description: "Generates comprehensive data quality reports using ydata-profiling
 category: "Data Extraction & Transformation"
 framework: "Codex"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/pandas-profiling-report-generator/"
+source: "https://github.com/pandas-dev/pandas"
 tool_ecosystem:
   tool: pandas
   github_stars: 48239

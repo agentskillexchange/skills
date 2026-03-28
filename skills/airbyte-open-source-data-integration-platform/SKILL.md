@@ -4,7 +4,7 @@ description: "Airbyte is the leading open-source data integration platform provi
 category: "Integrations & Connectors"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/airbyte-open-source-data-integration-platform/"
+source: "https://github.com/airbytehq/airbyte"
 ---
 
 # Airbyte Open Source Data Integration Platform
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill airbyte-open-source-data-integr
 ```bash
 clawhub install airbyte-open-source-data-integration-platform
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/airbyte-open-source-data-integration-platform/)

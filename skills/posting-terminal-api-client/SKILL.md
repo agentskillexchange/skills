@@ -4,7 +4,7 @@ description: "A modern, open-source HTTP client built as a terminal UI applicati
 category: "Developer Tools"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/posting-terminal-api-client/"
+source: "https://github.com/darrenburns/posting"
 ---
 
 # Posting Terminal API Client

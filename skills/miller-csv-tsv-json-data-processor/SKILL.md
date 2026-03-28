@@ -4,7 +4,7 @@ description: "Miller (mlr) is a command-line tool for querying, shaping, and ref
 category: "Data Extraction & Transformation"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/miller-csv-tsv-json-data-processor/"
+source: "https://github.com/johnkerl/miller"
 tool_ecosystem:
   tool: pandas
   github_stars: 48239

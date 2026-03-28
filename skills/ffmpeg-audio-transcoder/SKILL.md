@@ -4,7 +4,7 @@ description: "Transcodes and processes audio files using the FFmpeg CLI and liba
 category: "Media & Transcription"
 framework: "Cursor"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/ffmpeg-audio-transcoder/"
+source: "https://github.com/FFmpeg/FFmpeg"
 tool_ecosystem:
   tool: ffmpeg
   github_stars: 58283

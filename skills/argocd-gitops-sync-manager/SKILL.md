@@ -4,7 +4,7 @@ description: "Manages ArgoCD application sync operations with intelligent drift 
 category: "CI/CD Integrations"
 framework: "Gemini"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/argocd-gitops-sync-manager/"
+source: "https://github.com/argoproj/argo-cd"
 tool_ecosystem:
   tool: argocd
   github_stars: 22398

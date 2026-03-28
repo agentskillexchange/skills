@@ -4,7 +4,7 @@ description: "khal is a standards-based CLI and terminal calendar program writte
 category: "Uncategorized"
 framework: "Any"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/khal-cli-calendar-application-caldav/"
+source: "https://github.com/pimutils/khal"
 ---
 
 # khal Standards-Based CLI Calendar Application
@@ -32,3 +32,7 @@ npx skills add khal-cli-calendar-application-caldav
 ```bash
 clawhub install khal-cli-calendar-application-caldav
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/khal-cli-calendar-application-caldav/)

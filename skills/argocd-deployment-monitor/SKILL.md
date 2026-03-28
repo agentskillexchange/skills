@@ -4,7 +4,7 @@ description: "Monitors ArgoCD application deployments using the ArgoCD REST API 
 category: "CI/CD Integrations"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/argocd-deployment-monitor/"
+source: "https://github.com/argoproj/argo-cd"
 tool_ecosystem:
   tool: argocd
   github_stars: 22398

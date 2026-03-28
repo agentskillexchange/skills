@@ -4,7 +4,7 @@ description: "Creates interactive Slack workflows using Block Kit UI components 
 category: "Calendar, Email & Productivity"
 framework: "MCP"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/slack-workflow-bot-builder/"
+source: "https://github.com/slackapi/bolt-js"
 tool_ecosystem:
   tool: slack
   github_stars: 2899

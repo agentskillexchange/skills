@@ -4,7 +4,7 @@ description: "Hurl is a command-line tool for running and testing HTTP requests 
 category: "Developer Tools"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/hurl-declarative-http-request-runner-tester/"
+source: "https://github.com/Orange-OpenSource/hurl"
 ---
 
 # Hurl Declarative HTTP Request Runner and Tester
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill hurl-declarative-http-request-r
 ```bash
 clawhub install hurl-declarative-http-request-runner-tester
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/hurl-declarative-http-request-runner-tester/)

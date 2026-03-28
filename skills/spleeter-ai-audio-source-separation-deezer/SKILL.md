@@ -4,7 +4,7 @@ description: "Spleeter is Deezer’s open-source audio source separation library
 category: "Media & Transcription"
 framework: "Multi-Framework"
 verification: listed
-source: "https://agentskillexchange.com/skills/spleeter-ai-audio-source-separation-deezer/"
+source: "https://github.com/deezer/spleeter"
 ---
 
 # Spleeter AI Audio Source Separation by Deezer

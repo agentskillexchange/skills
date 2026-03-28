@@ -4,7 +4,7 @@ description: "Harper is an offline, privacy-first grammar checker written in Rus
 category: "Content Writing & SEO"
 framework: "Multi-Framework"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/harper-offline-grammar-checker-automattic/"
+source: "https://github.com/Automattic/harper"
 ---
 
 # Harper Offline Privacy-First Grammar Checker by Automattic
@@ -54,3 +54,7 @@ npx skills add agentskillexchange/skills --skill harper-offline-grammar-checker-
 ```bash
 npx skills add agentskillexchange/skills --skill harper-offline-grammar-checker-automattic -a openclaw
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/harper-offline-grammar-checker-automattic/)

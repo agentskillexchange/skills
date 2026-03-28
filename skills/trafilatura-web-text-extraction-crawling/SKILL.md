@@ -4,7 +4,7 @@ description: "Trafilatura is a Python package and CLI tool for gathering text fr
 category: "Uncategorized"
 framework: "Any"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/trafilatura-web-text-extraction-crawling/"
+source: "https://github.com/adbar/trafilatura"
 ---
 
 # Trafilatura Web Text Extraction and Crawling Toolkit
@@ -32,3 +32,7 @@ npx skills add trafilatura-web-text-extraction-crawling
 ```bash
 clawhub install trafilatura-web-text-extraction-crawling
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/trafilatura-web-text-extraction-crawling/)

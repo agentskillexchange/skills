@@ -4,7 +4,7 @@ description: "Builds composable image transformation pipelines using the Sharp l
 category: "Image & Creative Automation"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/sharp-image-pipeline-processor-2/"
+source: "https://github.com/lovell/sharp"
 tool_ecosystem:
   tool: sharp
   github_stars: 32074

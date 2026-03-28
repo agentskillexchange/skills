@@ -4,7 +4,7 @@ description: "Normalizes and enriches AWS CloudTrail JSON logs into OCSF (Open C
 category: "Security & Verification"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/aws-cloudtrail-log-normalizer/"
+source: "https://github.com/aws/aws-sdk-js-v3"
 tool_ecosystem:
   tool: aws
   github_stars: 3594

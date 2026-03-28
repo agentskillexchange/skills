@@ -4,7 +4,7 @@ description: "Manages concurrent Playwright browser contexts with tab pooling an
 category: "Browser Automation"
 framework: "Cursor"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/playwright-parallel-tab-manager/"
+source: "https://github.com/microsoft/playwright"
 tool_ecosystem:
   tool: playwright
   github_stars: 84938

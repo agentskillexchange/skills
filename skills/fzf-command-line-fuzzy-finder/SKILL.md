@@ -4,7 +4,7 @@ description: "fzf is a general-purpose command-line fuzzy finder written in Go. 
 category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/fzf-command-line-fuzzy-finder/"
+source: "https://github.com/junegunn/fzf"
 ---
 
 # fzf Command-Line Fuzzy Finder

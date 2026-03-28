@@ -4,7 +4,7 @@ description: "Executes diagnostic workflows against Kubernetes clusters using ku
 category: "Runbooks & Diagnostics"
 framework: "Claude Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/kubernetes-diagnostic-runbook/"
+source: "https://github.com/kubernetes/kubernetes"
 tool_ecosystem:
   tool: kubernetes
   github_stars: 121334

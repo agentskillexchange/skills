@@ -4,7 +4,7 @@ description: "Orchestrates complex video and audio processing pipelines using FF
 category: "Image & Creative Automation"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/ffmpeg-intelligent-media-processor/"
+source: "https://github.com/FFmpeg/FFmpeg"
 tool_ecosystem:
   tool: ffmpeg
   github_stars: 58283

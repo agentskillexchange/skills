@@ -4,7 +4,7 @@ description: "Specialized support for defining, exposing, and debugging WordPres
 category: "WordPress & CMS"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/wp-abilities-api/"
+source: "https://github.com/openclaw/openclaw/tree/main/skills/wp-abilities-api"
 tool_ecosystem:
   tool: wordpress
   github_stars: 20976

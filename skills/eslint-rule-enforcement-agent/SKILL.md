@@ -4,7 +4,7 @@ description: "Automates ESLint configuration and rule enforcement using the ESLi
 category: "Code Quality & Review"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/eslint-rule-enforcement-agent/"
+source: "https://github.com/eslint/eslint"
 tool_ecosystem:
   tool: eslint
   github_stars: 27185

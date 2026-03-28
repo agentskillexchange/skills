@@ -4,7 +4,7 @@ description: "An agent skill built on Chatterbox by Resemble AI, a state-of-the-
 category: "Media & Transcription"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/chatterbox-sota-open-source-text-to-speech/"
+source: "https://github.com/resemble-ai/chatterbox"
 ---
 
 # Chatterbox State-of-the-Art Open Source Text-to-Speech
@@ -37,3 +37,7 @@ npx skills add chatterbox-sota-open-source-text-to-speech --codex
 ```bash
 clawhub install chatterbox-sota-open-source-text-to-speech
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/chatterbox-sota-open-source-text-to-speech/)

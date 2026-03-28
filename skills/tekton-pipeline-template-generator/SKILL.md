@@ -4,7 +4,7 @@ description: "Scaffolds Tekton Pipeline and Task CRDs using the Tekton Hub API f
 category: "CI/CD Integrations"
 framework: "MCP"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/tekton-pipeline-template-generator/"
+source: "https://github.com/tektoncd/pipeline"
 tool_ecosystem:
   tool: tekton
   github_stars: 8923

@@ -4,7 +4,7 @@ description: "A fast, declarative, and reproducible developer environment tool b
 category: "Developer Tools"
 framework: "Multi-Framework"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/devenv-declarative-developer-environments-nix/"
+source: "https://github.com/cachix/devenv"
 ---
 
 # devenv Declarative Developer Environments with Nix
@@ -52,3 +52,7 @@ The core workflow is simple: run devenv init to scaffold a project, edit devenv.
 Key features include: 50+ language integrations with built-in support for compilers, LSP servers, formatters, linters, and version selection across Python, Rust, Go, Node.js, Ruby, PHP, and more; service management via devenv up for PostgreSQL, MySQL, Redis, Elasticsearch, and other databases/services; process management for running development servers, watchers, and background tasks; pre-commit hooks with automatic git integration; and tasks for defining build steps and their dependencies.
 
 devenv pulls from the 100,000+ package Nixpkgs repository, supporting Linux (x64, ARM64), macOS (Intel, Apple Silicon), and WSL2. Every environment is hermetic and reproducible — the same devenv.nix produces the same environment on any machine.
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/devenv-declarative-developer-environments-nix/)

@@ -4,7 +4,7 @@ description: "Programmatically creates Grafana dashboard JSON models using the G
 category: "Monitoring & Alerts"
 framework: "Cursor"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/grafana-dashboard-template-generator/"
+source: "https://github.com/grafana/grafana"
 tool_ecosystem:
   tool: grafana
   github_stars: 72796

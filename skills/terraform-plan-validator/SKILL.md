@@ -4,7 +4,7 @@ description: "Parses terraform plan JSON output via the Terraform CLI (terraform
 category: "CI/CD Integrations"
 framework: "MCP"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/terraform-plan-validator/"
+source: "https://github.com/hashicorp/terraform"
 tool_ecosystem:
   tool: terraform
   github_stars: 48003

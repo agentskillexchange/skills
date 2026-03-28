@@ -4,7 +4,7 @@ description: "Diagnoses CrashLoopBackOff pods using the Kubernetes API /api/v1/p
 category: "Runbooks & Diagnostics"
 framework: "Cursor"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/kubernetes-crashloopbackoff-resolver/"
+source: "https://github.com/kubernetes/kubernetes"
 tool_ecosystem:
   tool: kubernetes
   github_stars: 121334

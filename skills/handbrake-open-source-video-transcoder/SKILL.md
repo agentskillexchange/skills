@@ -4,7 +4,7 @@ description: "HandBrake is a widely-used open-source video transcoder that conve
 category: "Media & Transcription"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/handbrake-open-source-video-transcoder/"
+source: "https://github.com/HandBrake/HandBrake"
 ---
 
 # HandBrake Open-Source Video Transcoder
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill handbrake-open-source-video-tra
 ```bash
 clawhub install handbrake-open-source-video-transcoder
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/handbrake-open-source-video-transcoder/)

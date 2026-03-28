@@ -4,7 +4,7 @@ description: "Integrates SonarQube static analysis via the sonar-scanner CLI and
 category: "Code Quality & Review"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/sonarqube-scanner-skill/"
+source: "https://github.com/SonarSource/sonarqube"
 tool_ecosystem:
   tool: sonarqube
   github_stars: 10358

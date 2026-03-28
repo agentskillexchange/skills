@@ -4,7 +4,7 @@ description: "Manages Selenium Grid 4 hub and node registration for cross-browse
 category: "Browser Automation"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/selenium-grid-orchestrator/"
+source: "https://github.com/SeleniumHQ/selenium"
 tool_ecosystem:
   tool: selenium
   github_stars: 34174

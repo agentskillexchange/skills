@@ -4,7 +4,7 @@ description: "Validates docker-compose.yml files against the Compose Specificati
 category: "Runbooks & Diagnostics"
 framework: "MCP"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/docker-compose-health-checker/"
+source: "https://github.com/moby/moby"
 tool_ecosystem:
   tool: docker
   github_stars: 71560

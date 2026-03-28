@@ -4,7 +4,7 @@ description: "Analyzes Nginx error logs using GoAccess and custom regex parsers 
 category: "Runbooks & Diagnostics"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/nginx-error-pattern-analyzer-agent/"
+source: "https://github.com/nginx/nginx"
 tool_ecosystem:
   tool: nginx
   github_stars: 29767

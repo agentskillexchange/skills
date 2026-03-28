@@ -4,7 +4,7 @@ description: "Listens to Discord gateway events, passing flagged messages to the
 category: "Security & Verification"
 framework: "Cursor"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/discord-moderation-ai-classification/"
+source: "https://github.com/discordjs/discord.js"
 tool_ecosystem:
   tool: discord
   github_stars: 26650

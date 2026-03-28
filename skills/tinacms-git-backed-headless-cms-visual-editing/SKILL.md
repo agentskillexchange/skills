@@ -4,7 +4,7 @@ description: "TinaCMS is a fully open-source headless CMS backed by Git that sup
 category: "WordPress & CMS"
 framework: "Multi-Framework"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/tinacms-git-backed-headless-cms-visual-editing/"
+source: "https://github.com/tinacms/tinacms"
 ---
 
 # TinaCMS Git-Backed Headless CMS with Visual Editing
@@ -65,3 +65,7 @@ AI agents can interact with TinaCMS through multiple surfaces: querying the Grap
 ### npm Package and CLI
 
 TinaCMS is distributed as an npm package (`tinacms`) and can be installed into existing projects. The CLI provides commands for local development, content indexing, schema generation, and deployment. The package ecosystem includes the core CMS, the GraphQL client, and framework-specific integrations.
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/tinacms-git-backed-headless-cms-visual-editing/)

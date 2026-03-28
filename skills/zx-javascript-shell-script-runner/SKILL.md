@@ -4,7 +4,7 @@ description: "Write better shell scripts in JavaScript using Google’s zx. Prov
 category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/zx-javascript-shell-script-runner/"
+source: "https://github.com/google/zx"
 ---
 
 # zx JavaScript Shell Script Runner

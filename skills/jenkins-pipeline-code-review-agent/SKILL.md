@@ -4,7 +4,7 @@ description: "Reviews Jenkinsfile and Groovy pipeline scripts for anti-patterns,
 category: "Code Quality & Review"
 framework: "Cursor"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/jenkins-pipeline-code-review-agent/"
+source: "https://github.com/jenkinsci/jenkins"
 tool_ecosystem:
   tool: jenkins
   github_stars: 25122

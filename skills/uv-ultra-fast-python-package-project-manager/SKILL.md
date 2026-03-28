@@ -4,7 +4,7 @@ description: "uv is an extremely fast Python package and project manager written
 category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/uv-ultra-fast-python-package-project-manager/"
+source: "https://github.com/astral-sh/uv"
 tool_ecosystem:
   tool: docker
   github_stars: 71560

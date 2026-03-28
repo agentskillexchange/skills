@@ -4,7 +4,7 @@ description: "Configures GitLab CI/CD pipelines using .gitlab-ci.yml with Auto D
 category: "CI/CD Integrations"
 framework: "Claude Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/gitlab-ci-auto-devops-configurator/"
+source: "https://github.com/gitlabhq/gitlabhq"
 tool_ecosystem:
   tool: gitlab
   github_stars: 24278

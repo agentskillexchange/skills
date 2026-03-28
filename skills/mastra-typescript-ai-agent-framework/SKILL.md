@@ -4,7 +4,7 @@ description: "Mastra is an open-source TypeScript framework for building AI-powe
 category: "Developer Tools"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/mastra-typescript-ai-agent-framework/"
+source: "https://github.com/mastra-ai/mastra"
 ---
 
 # Mastra TypeScript AI Agent Framework
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill mastra-typescript-ai-agent-fram
 ```bash
 clawhub install mastra-typescript-ai-agent-framework
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/mastra-typescript-ai-agent-framework/)

@@ -4,7 +4,7 @@ description: "A blazing-fast, cross-platform package manager and workflow tool w
 category: "Developer Tools"
 framework: "Multi-Framework"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/pixi-cross-platform-package-manager-conda-rust/"
+source: "https://github.com/prefix-dev/pixi"
 ---
 
 # Pixi Cross-Platform Package Manager Built on Conda
@@ -52,3 +52,7 @@ The core commands mirror familiar workflows: pixi init creates a new project, pi
 Key differentiators include: multi-language support for Python, C++, R, Fortran, CUDA, and system libraries from the conda-forge repository containing 30,000+ packages; cross-platform environments with native support for Linux, macOS (Intel and Apple Silicon), and Windows without containers; PyPI integration allowing mixed conda and pip dependencies in the same project; and global tool installation via pixi global install for system-wide CLI tools.
 
 Built on the rattler library, Pixi achieves fast dependency resolution through a SAT solver and parallel downloads. It supports conda channels, PyPI indices, and custom package repositories.
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/pixi-cross-platform-package-manager-conda-rust/)

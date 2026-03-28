@@ -4,7 +4,7 @@ description: "This skill uses markdownlint-cli2 to enforce consistent Markdown q
 category: "Content Writing & SEO"
 framework: "Multi-Framework"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/markdownlint-cli2-markdown-linting-docs-repos/"
+source: "https://github.com/DavidAnson/markdownlint-cli2"
 ---
 
 # markdownlint-cli2 Markdown Linting for Docs and Repos
@@ -37,3 +37,7 @@ npx skills add markdownlint-cli2-markdown-linting-docs-repos
 ```bash
 clawhub install markdownlint-cli2-markdown-linting-docs-repos
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/markdownlint-cli2-markdown-linting-docs-repos/)

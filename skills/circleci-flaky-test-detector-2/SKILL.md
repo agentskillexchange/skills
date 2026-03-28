@@ -4,7 +4,7 @@ description: "Queries CircleCI Insights API to identify test cases that flip bet
 category: "CI/CD Integrations"
 framework: "MCP"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/circleci-flaky-test-detector-2/"
+source: "https://github.com/circleci/circleci-docs"
 tool_ecosystem:
   tool: circleci
   github_stars: 842

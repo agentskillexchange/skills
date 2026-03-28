@@ -4,7 +4,7 @@ description: "Capture failures, corrections, and repeatable lessons so important
 category: "Templates & Workflows"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/self-improvement-learnings-capture/"
+source: "https://github.com/pskoett/pskoett-ai-skills/tree/main/skills/self-improvement"
 ---
 
 # Self-Improvement / Learnings Capture

@@ -4,7 +4,7 @@ description: "Profiles GitLab CI/CD pipeline execution using the GitLab Pipeline
 category: "CI/CD Integrations"
 framework: "Claude Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/gitlab-pipeline-bottleneck-profiler/"
+source: "https://github.com/gitlabhq/gitlabhq"
 tool_ecosystem:
   tool: gitlab
   github_stars: 24278

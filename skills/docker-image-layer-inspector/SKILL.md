@@ -4,7 +4,7 @@ description: "Analyzes Docker image layers using the Docker Registry HTTP API v2
 category: "CI/CD Integrations"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/docker-image-layer-inspector/"
+source: "https://github.com/moby/moby"
 tool_ecosystem:
   tool: docker
   github_stars: 71560

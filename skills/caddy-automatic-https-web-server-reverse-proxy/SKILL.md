@@ -4,7 +4,7 @@ description: "Caddy is a fast, extensible web server written in Go that provides
 category: "Developer Tools"
 framework: "Multi-Framework"
 verification: listed
-source: "https://agentskillexchange.com/skills/caddy-automatic-https-web-server-reverse-proxy/"
+source: "https://github.com/caddyserver/caddy"
 ---
 
 # Caddy Automatic HTTPS Web Server and Reverse Proxy

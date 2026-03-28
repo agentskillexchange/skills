@@ -4,7 +4,7 @@ description: "esbuild is an extremely fast JavaScript and TypeScript bundler wri
 category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/esbuild-ultra-fast-javascript-bundler/"
+source: "https://github.com/evanw/esbuild"
 ---
 
 # esbuild Ultra-Fast JavaScript Bundler
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill esbuild-ultra-fast-javascript-b
 ```bash
 clawhub install esbuild-ultra-fast-javascript-bundler
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/esbuild-ultra-fast-javascript-bundler/)

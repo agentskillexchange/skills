@@ -4,7 +4,7 @@ description: "Automated visual regression testing using Playwright’s screensho
 category: "Browser Automation"
 framework: "Codex"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/playwright-visual-regression-suite/"
+source: "https://github.com/microsoft/playwright"
 tool_ecosystem:
   tool: playwright
   github_stars: 84938

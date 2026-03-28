@@ -4,7 +4,7 @@ description: "Traces job dependency chains in GitLab CI pipelines using the GitL
 category: "CI/CD Integrations"
 framework: "Codex"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/gitlab-ci-pipeline-dependency-tracer/"
+source: "https://github.com/gitlabhq/gitlabhq"
 tool_ecosystem:
   tool: gitlab
   github_stars: 24278

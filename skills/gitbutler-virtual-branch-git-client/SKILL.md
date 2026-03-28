@@ -4,7 +4,7 @@ description: "GitButler is a modern Git client built in Rust and Svelte that int
 category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/gitbutler-virtual-branch-git-client/"
+source: "https://github.com/gitbutlerapp/gitbutler"
 ---
 
 # GitButler Virtual Branch Git Client
@@ -56,3 +56,7 @@ npx skills add agentskillexchange/skills --skill gitbutler-virtual-branch-git-cl
 ```bash
 clawhub install gitbutler-virtual-branch-git-client
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/gitbutler-virtual-branch-git-client/)

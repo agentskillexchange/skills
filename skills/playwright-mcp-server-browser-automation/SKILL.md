@@ -4,7 +4,7 @@ description: "The official Microsoft Playwright MCP server provides browser auto
 category: "Browser Automation"
 framework: "MCP"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/playwright-mcp-server-browser-automation/"
+source: "https://github.com/microsoft/playwright-mcp"
 ---
 
 # Playwright MCP Server for Browser Automation
@@ -54,3 +54,7 @@ npx skills add agentskillexchange/skills --skill playwright-mcp-server-browser-a
 ```bash
 clawhub install playwright-mcp-server-browser-automation
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/playwright-mcp-server-browser-automation/)

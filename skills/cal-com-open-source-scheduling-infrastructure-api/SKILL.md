@@ -4,7 +4,7 @@ description: "Integrate Cal.com’s open-source scheduling platform into AI agen
 category: "Calendar, Email & Productivity"
 framework: "Multi-Framework"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/cal-com-open-source-scheduling-infrastructure-api/"
+source: "https://github.com/calcom/cal.com"
 ---
 
 # Cal.com Open Source Scheduling Infrastructure and API
@@ -37,3 +37,7 @@ npx @anthropic/agent-skills add cal-com-open-source-scheduling-infrastructure-ap
 ```bash
 clawhub install cal-com-open-source-scheduling-infrastructure-api
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/cal-com-open-source-scheduling-infrastructure-api/)

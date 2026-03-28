@@ -4,7 +4,7 @@ description: "Automates Stripe Connect onboarding by provisioning connected acco
 category: "Integrations & Connectors"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/stripe-connect-account-provisioner/"
+source: "https://github.com/stripe/stripe-node"
 tool_ecosystem:
   tool: stripe
   github_stars: 4377

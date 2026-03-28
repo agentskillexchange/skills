@@ -4,7 +4,7 @@ description: "Investigates broken checks with the Datadog Synthetics API, Monito
 category: "Runbooks & Diagnostics"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/datadog-synthetics-failure-triage-skill/"
+source: "https://github.com/DataDog/dd-trace-js"
 tool_ecosystem:
   tool: datadog
   github_stars: 789

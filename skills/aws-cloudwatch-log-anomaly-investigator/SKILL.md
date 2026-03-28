@@ -4,7 +4,7 @@ description: "Investigates anomalous patterns in AWS CloudWatch Logs using the C
 category: "Runbooks & Diagnostics"
 framework: "ChatGPT Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/aws-cloudwatch-log-anomaly-investigator/"
+source: "https://github.com/aws/aws-sdk-js-v3"
 tool_ecosystem:
   tool: aws
   github_stars: 3594

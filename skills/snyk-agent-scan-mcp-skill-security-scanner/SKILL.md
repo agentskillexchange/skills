@@ -4,7 +4,7 @@ description: "Snyk Agent Scan automatically discovers and scans AI agent compone
 category: "Security & Verification"
 framework: "MCP"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/snyk-agent-scan-mcp-skill-security-scanner/"
+source: "https://github.com/snyk/agent-scan"
 ---
 
 # Snyk Agent Scan MCP and Skill Security Scanner
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill snyk-agent-scan-mcp-skill-secur
 ```bash
 clawhub install snyk-agent-scan-mcp-skill-security-scanner
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/snyk-agent-scan-mcp-skill-security-scanner/)

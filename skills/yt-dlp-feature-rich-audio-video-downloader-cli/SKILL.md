@@ -4,7 +4,7 @@ description: "yt-dlp is a powerful command-line tool for downloading audio and v
 category: "Media & Transcription"
 framework: "Multi-Framework"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/yt-dlp-feature-rich-audio-video-downloader-cli/"
+source: "https://github.com/yt-dlp/yt-dlp"
 ---
 
 # yt-dlp Feature-Rich Audio and Video Downloader CLI
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill yt-dlp-feature-rich-audio-video
 ```bash
 clawhub install yt-dlp-feature-rich-audio-video-downloader-cli
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/yt-dlp-feature-rich-audio-video-downloader-cli/)

@@ -4,7 +4,7 @@ description: "An agent skill built on Front Matter CMS, the headless content man
 category: "WordPress & CMS"
 framework: "Framework Agnostic"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/front-matter-cms-vscode-headless-cms/"
+source: "https://github.com/estruyf/vscode-front-matter"
 ---
 
 # Front Matter CMS Visual Studio Code Headless CMS

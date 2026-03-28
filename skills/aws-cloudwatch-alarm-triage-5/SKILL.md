@@ -4,7 +4,7 @@ description: "Triages AWS CloudWatch alarms using boto3 CloudWatch.describe_alar
 category: "Runbooks & Diagnostics"
 framework: "Gemini"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/aws-cloudwatch-alarm-triage-5/"
+source: "https://github.com/aws/aws-sdk-js-v3"
 tool_ecosystem:
   tool: aws
   github_stars: 3594

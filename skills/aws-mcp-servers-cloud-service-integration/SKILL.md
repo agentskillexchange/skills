@@ -4,7 +4,7 @@ description: "The official AWS Labs MCP server collection provides AI agents wit
 category: "Data Extraction & Transformation"
 framework: "MCP"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/aws-mcp-servers-cloud-service-integration/"
+source: "https://github.com/awslabs/mcp"
 ---
 
 # AWS MCP Servers for Cloud Service Integration
@@ -54,3 +54,7 @@ npx skills add agentskillexchange/skills --skill aws-mcp-servers-cloud-service-i
 ```bash
 clawhub install aws-mcp-servers-cloud-service-integration
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/aws-mcp-servers-cloud-service-integration/)

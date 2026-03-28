@@ -4,7 +4,7 @@ description: "An open-source Python library that makes loading data from APIs, d
 category: "Data Extraction & Transformation"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/dlt-python-data-load-tool/"
+source: "https://github.com/dlt-hub/dlt"
 ---
 
 # dlt Python Data Load Tool

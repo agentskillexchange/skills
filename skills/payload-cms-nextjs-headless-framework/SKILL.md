@@ -4,7 +4,7 @@ description: "Payload is an open-source, TypeScript-first headless CMS that inst
 category: "WordPress & CMS"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/payload-cms-nextjs-headless-framework/"
+source: "https://github.com/payloadcms/payload"
 ---
 
 # Payload CMS Next.js-Native Headless CMS and Application Framework
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill payload-cms-nextjs-headless-fra
 ```bash
 clawhub install payload-cms-nextjs-headless-framework
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/payload-cms-nextjs-headless-framework/)

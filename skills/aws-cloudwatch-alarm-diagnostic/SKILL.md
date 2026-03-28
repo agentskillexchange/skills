@@ -4,7 +4,7 @@ description: "Diagnoses firing AWS CloudWatch alarms by querying CloudWatch Metr
 category: "Runbooks & Diagnostics"
 framework: "Gemini"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/aws-cloudwatch-alarm-diagnostic/"
+source: "https://github.com/aws/aws-sdk-js-v3"
 tool_ecosystem:
   tool: aws
   github_stars: 3594

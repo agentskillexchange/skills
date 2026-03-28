@@ -4,7 +4,7 @@ description: "Integrates Stripe payment processing using stripe-node SDK includi
 category: "Integrations & Connectors"
 framework: "Cursor"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/stripe-payment-flow-connector/"
+source: "https://github.com/stripe/stripe-node"
 tool_ecosystem:
   tool: stripe
   github_stars: 4377

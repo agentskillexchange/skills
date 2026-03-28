@@ -4,7 +4,7 @@ description: "Generate strongly-typed models and serializers from JSON, JSON Sch
 category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/quicktype-json-schema-code-generator/"
+source: "https://github.com/glideapps/quicktype"
 ---
 
 # quicktype JSON Schema to Typed Code Generator
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill quicktype-json-schema-code-gene
 ```bash
 clawhub install quicktype-json-schema-code-generator
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/quicktype-json-schema-code-generator/)

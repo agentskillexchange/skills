@@ -4,7 +4,7 @@ description: "Find, verify, and analyze leaked credentials across Git repositori
 category: "Security & Verification"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/trufflehog-credential-leak-scanner/"
+source: "https://github.com/trufflesecurity/trufflehog"
 tool_ecosystem:
   tool: docker
   github_stars: 71560

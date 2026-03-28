@@ -4,7 +4,7 @@ description: "Create videos programmatically using React components with Remotio
 category: "Media & Transcription"
 framework: "Multi-Framework"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/remotion-programmatic-video-creator/"
+source: "https://github.com/remotion-dev/remotion"
 ---
 
 # Remotion Programmatic Video Creator
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill remotion-programmatic-video-cre
 ```bash
 clawhub install remotion-programmatic-video-creator
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/remotion-programmatic-video-creator/)

@@ -4,7 +4,7 @@ description: "A simple terminal user interface for git commands built with Go. l
 category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/lazygit-terminal-ui-git-operations/"
+source: "https://github.com/jesseduffield/lazygit"
 ---
 
 # lazygit Terminal UI for Git Operations

@@ -4,7 +4,7 @@ description: "Automatically detects and handles cookie consent banners across we
 category: "Browser Automation"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/puppeteer-cookie-consent-automator/"
+source: "https://github.com/puppeteer/puppeteer"
 tool_ecosystem:
   tool: puppeteer
   github_stars: 93932

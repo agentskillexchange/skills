@@ -4,7 +4,7 @@ description: "Batch-generate images through the OpenAI Images API with a prompt 
 category: "Image & Creative Automation"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/openai-image-gen/"
+source: "https://github.com/openclaw/openclaw/tree/main/skills/openai-image-gen"
 tool_ecosystem:
   tool: openai
   github_stars: 10765

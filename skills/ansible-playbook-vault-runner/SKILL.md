@@ -4,7 +4,7 @@ description: "Executes Ansible playbooks against dynamic inventories from AWS EC
 category: "Runbooks & Diagnostics"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/ansible-playbook-vault-runner/"
+source: "https://github.com/ansible/ansible"
 tool_ecosystem:
   tool: ansible
   github_stars: 68377

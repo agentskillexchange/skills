@@ -4,7 +4,7 @@ description: "Composio provides 1000+ pre-built toolkits with managed authentica
 category: "Integrations & Connectors"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/composio-agent-tool-integration-platform/"
+source: "https://github.com/ComposioHQ/composio"
 ---
 
 # Composio Agent Tool Integration Platform
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill composio-agent-tool-integration
 ```bash
 clawhub install composio-agent-tool-integration-platform
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/composio-agent-tool-integration-platform/)

@@ -4,7 +4,7 @@ description: "Just is a command runner written in Rust that provides a convenien
 category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/just-command-runner/"
+source: "https://github.com/casey/just"
 ---
 
 # Just Command Runner

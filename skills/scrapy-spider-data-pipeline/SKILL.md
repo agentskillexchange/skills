@@ -4,7 +4,7 @@ description: "Builds and manages Scrapy web scraping spiders with custom item pi
 category: "Data Extraction & Transformation"
 framework: "Cursor"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/scrapy-spider-data-pipeline/"
+source: "https://github.com/scrapy/scrapy"
 tool_ecosystem:
   tool: scrapy
   github_stars: 60923

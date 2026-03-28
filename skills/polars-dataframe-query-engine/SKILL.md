@@ -4,7 +4,7 @@ description: "Polars is an extremely fast DataFrame library written in Rust with
 category: "Data Extraction & Transformation"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/polars-dataframe-query-engine/"
+source: "https://github.com/pola-rs/polars"
 ---
 
 # Polars Blazing-Fast DataFrame Query Engine
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill polars-dataframe-query-engine -
 ```bash
 clawhub install polars-dataframe-query-engine
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/polars-dataframe-query-engine/)

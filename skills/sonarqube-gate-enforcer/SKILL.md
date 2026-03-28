@@ -4,7 +4,7 @@ description: "Enforces SonarQube quality gate conditions in CI pipelines using t
 category: "Code Quality & Review"
 framework: "Cursor"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/sonarqube-gate-enforcer/"
+source: "https://github.com/SonarSource/sonarqube"
 tool_ecosystem:
   tool: sonarqube
   github_stars: 10358

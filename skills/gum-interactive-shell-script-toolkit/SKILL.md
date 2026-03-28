@@ -4,7 +4,7 @@ description: "Gum by Charmbracelet is a tool for building glamorous shell script
 category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/gum-interactive-shell-script-toolkit/"
+source: "https://github.com/charmbracelet/gum"
 ---
 
 # Gum Interactive Shell Script Toolkit

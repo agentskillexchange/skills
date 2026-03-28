@@ -4,7 +4,7 @@ description: "Validates Ansible playbooks using ansible-lint and the Ansible Gal
 category: "Runbooks & Diagnostics"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/ansible-playbook-dry-run-validator/"
+source: "https://github.com/ansible/ansible"
 tool_ecosystem:
   tool: ansible
   github_stars: 68377

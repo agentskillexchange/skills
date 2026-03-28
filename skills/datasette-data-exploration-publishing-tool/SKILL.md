@@ -4,7 +4,7 @@ description: "Datasette is an open-source Python tool for exploring and publishi
 category: "Data Extraction & Transformation"
 framework: "Multi-Framework"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/datasette-data-exploration-publishing-tool/"
+source: "https://github.com/simonw/datasette"
 ---
 
 # Datasette Data Exploration and Publishing Tool
@@ -77,3 +77,7 @@ npx skills add agentskillexchange/skills --skill datasette-data-exploration-publ
 ```bash
 clawhub install datasette-data-exploration-publishing-tool
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/datasette-data-exploration-publishing-tool/)

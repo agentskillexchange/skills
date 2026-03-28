@@ -4,7 +4,7 @@ description: "Anyquery is a SQL query engine that lets you run SQL against 40+ a
 category: "Data Extraction & Transformation"
 framework: "MCP"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/anyquery-universal-sql-engine-mcp-integration/"
+source: "https://github.com/julien040/anyquery"
 ---
 
 # Anyquery Universal SQL Engine with MCP Integration

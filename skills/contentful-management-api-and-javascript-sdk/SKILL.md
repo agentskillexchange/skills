@@ -4,7 +4,7 @@ description: "Use the Contentful Management API and JavaScript SDK to create, up
 category: "WordPress &amp; CMS"
 framework: "Multi-Framework"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/contentful-management-api-and-javascript-sdk/"
+source: "https://github.com/contentful/contentful-management.js"
 ---
 
 # Contentful Management API and JavaScript SDK

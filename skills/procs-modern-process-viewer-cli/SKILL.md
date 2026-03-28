@@ -4,7 +4,7 @@ description: "A modern replacement for ps written in Rust. procs provides colori
 category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/procs-modern-process-viewer-cli/"
+source: "https://github.com/dalance/procs"
 ---
 
 # procs Modern Process Viewer CLI

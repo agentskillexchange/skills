@@ -4,7 +4,7 @@ description: "Browserable is an open-source, self-hostable browser automation li
 category: "Browser Automation"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/browserable-self-hostable-browser-automation-ai-agents/"
+source: "https://github.com/browserable/browserable"
 ---
 
 # Browserable Self-Hostable Browser Automation for AI Agents
@@ -37,3 +37,7 @@ npx skills add agentskillexchange/skills --skill browserable-self-hostable-brows
 ```bash
 clawhub install browserable-self-hostable-browser-automation-ai-agents
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/browserable-self-hostable-browser-automation-ai-agents/)

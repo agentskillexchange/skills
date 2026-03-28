@@ -4,7 +4,7 @@ description: "Nango is an open-source platform for building product integrations
 category: "Integrations & Connectors"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/nango-open-source-api-integration-platform/"
+source: "https://github.com/NangoHQ/nango"
 ---
 
 # Nango Open Source API Integration Platform
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill nango-open-source-api-integrati
 ```bash
 clawhub install nango-open-source-api-integration-platform
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/nango-open-source-api-integration-platform/)

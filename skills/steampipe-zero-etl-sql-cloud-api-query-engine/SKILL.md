@@ -4,7 +4,7 @@ description: "Query cloud APIs, SaaS services, and infrastructure with standard 
 category: "Data Extraction & Transformation"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/steampipe-zero-etl-sql-cloud-api-query-engine/"
+source: "https://github.com/turbot/steampipe"
 ---
 
 # Steampipe Zero-ETL SQL Cloud API Query Engine

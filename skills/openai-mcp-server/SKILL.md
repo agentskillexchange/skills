@@ -4,7 +4,7 @@ description: "OpenAI MCP Server is built around OpenAI API platform. The underly
 category: "Developer Tools"
 framework: "MCP"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/openai-mcp-server/"
+source: "https://github.com/openai/openai-node"
 tool_ecosystem:
   tool: openai
   github_stars: 10765

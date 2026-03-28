@@ -4,7 +4,7 @@ description: "The @wordpress/env package (wp-env) provides a zero-configuration,
 category: "WordPress & CMS"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/wp-env-wordpress-dev-environment/"
+source: "https://www.npmjs.com/package/@wordpress/env"
 ---
 
 # wp-env Zero-Config WordPress Development Environment
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill wp-env-wordpress-dev-environmen
 ```bash
 clawhub install wp-env-wordpress-dev-environment
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/wp-env-wordpress-dev-environment/)

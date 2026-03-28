@@ -4,7 +4,7 @@ description: "Builds CloudWatch Logs Insights queries and metric alarms using AW
 category: "Monitoring & Alerts"
 framework: "Codex"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/aws-cloudwatch-insights-query-builder/"
+source: "https://github.com/aws/aws-sdk-js-v3"
 tool_ecosystem:
   tool: aws
   github_stars: 3594

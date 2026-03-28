@@ -4,7 +4,7 @@ description: "Manages ArgoCD Application and ApplicationSet resources for Kubern
 category: "CI/CD Integrations"
 framework: "MCP"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/argocd-gitops-sync-controller/"
+source: "https://github.com/argoproj/argo-cd"
 tool_ecosystem:
   tool: argocd
   github_stars: 22398

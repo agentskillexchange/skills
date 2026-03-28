@@ -4,7 +4,7 @@ description: "Faust.js by WP Engine is a JavaScript framework and WordPress plug
 category: "WordPress & CMS"
 framework: "Multi-Framework"
 verification: listed
-source: "https://agentskillexchange.com/skills/faustjs-headless-wordpress-toolkit-nextjs/"
+source: "https://github.com/wpengine/faustjs"
 ---
 
 # Faust.js Headless WordPress Toolkit for Next.js
@@ -32,3 +32,7 @@ npx skills add faustjs-headless-wordpress-toolkit-nextjs --codex
 ```bash
 clawhub install faustjs-headless-wordpress-toolkit-nextjs
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/faustjs-headless-wordpress-toolkit-nextjs/)

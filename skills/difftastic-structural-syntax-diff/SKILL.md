@@ -4,7 +4,7 @@ description: "Difftastic is a structural diff tool that compares files based on 
 category: "Code Quality & Review"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/difftastic-structural-syntax-diff/"
+source: "https://github.com/Wilfred/difftastic"
 ---
 
 # Difftastic Structural Syntax-Aware Diff Tool
@@ -55,3 +55,7 @@ Difftastic supports over 30 programming languages out of the box, including Pyth
 Integration with Git is straightforward: set GIT_EXTERNAL_DIFF=difft or configure diff.external in your gitconfig, and every git diff, git log -p, and git show command uses structural diffing. Difftastic also works with Mercurial and can be integrated with editors like Emacs via the difftastic.el package.
 
 For AI agents performing code review, refactoring analysis, or change impact assessment, difftastic provides dramatically more accurate change descriptions than line-based diffs. An agent can use it to understand exactly which expressions, statements, or blocks were modified, making automated code review and change summarization far more reliable. The tool is available via cargo install difftastic, Homebrew, and most Linux package managers.
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/difftastic-structural-syntax-diff/)

@@ -4,7 +4,7 @@ description: "Freeze by Charmbracelet generates polished PNG and SVG images of c
 category: "Developer Tools"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/freeze-code-terminal-screenshot-generator/"
+source: "https://github.com/charmbracelet/freeze"
 ---
 
 # Freeze Code and Terminal Screenshot Generator

@@ -4,7 +4,7 @@ description: "Generates custom Semgrep rules from natural language descriptions 
 category: "Code Quality & Review"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/semgrep-rule-author/"
+source: "https://github.com/semgrep/semgrep"
 tool_ecosystem:
   tool: semgrep
   github_stars: 14551

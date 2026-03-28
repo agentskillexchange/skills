@@ -4,7 +4,7 @@ description: "Generates Playwright test suites from natural language description
 category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/playwright-e2e-test-generator/"
+source: "https://github.com/microsoft/playwright"
 tool_ecosystem:
   tool: playwright
   github_stars: 84938

@@ -4,7 +4,7 @@ description: "Fetches the latest SonarQube project analysis result, explains why
 category: "Code Quality & Review"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/sonarqube-quality-gate-explainer/"
+source: "https://github.com/SonarSource/sonarqube"
 tool_ecosystem:
   tool: sonarqube
   github_stars: 10358

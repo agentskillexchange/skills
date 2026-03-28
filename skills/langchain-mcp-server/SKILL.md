@@ -4,7 +4,7 @@ description: "LangChain MCP Server is built around LangChain framework for LLM a
 category: "Developer Tools"
 framework: "MCP"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/langchain-mcp-server/"
+source: "https://github.com/langchain-ai/langchainjs"
 tool_ecosystem:
   tool: langchain
   github_stars: 17323

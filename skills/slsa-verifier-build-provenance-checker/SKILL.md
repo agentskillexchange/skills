@@ -4,7 +4,7 @@ description: "SLSA Verifier is the official tool from the SLSA framework for ver
 category: "Security & Verification"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/slsa-verifier-build-provenance-checker/"
+source: "https://github.com/slsa-framework/slsa-verifier"
 ---
 
 # SLSA Verifier Build Provenance Checker

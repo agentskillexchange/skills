@@ -4,7 +4,7 @@ description: "commitlint checks whether git commit messages meet the Conventiona
 category: "Code Quality & Review"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/commitlint-conventional-commit-message-linter/"
+source: "https://github.com/conventional-changelog/commitlint"
 ---
 
 # commitlint Conventional Commit Message Linter
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill commitlint-conventional-commit-
 ```bash
 clawhub install commitlint-conventional-commit-message-linter
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/commitlint-conventional-commit-message-linter/)

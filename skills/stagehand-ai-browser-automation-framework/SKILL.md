@@ -4,7 +4,7 @@ description: "Stagehand is an open-source browser automation framework that comb
 category: "Browser Automation"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/stagehand-ai-browser-automation-framework/"
+source: "https://github.com/browserbase/stagehand"
 ---
 
 # Stagehand AI Browser Automation Framework
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill stagehand-ai-browser-automation
 ```bash
 clawhub install stagehand-ai-browser-automation-framework
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/stagehand-ai-browser-automation-framework/)

@@ -4,7 +4,7 @@ description: "Builds Tekton CI/CD pipelines on Kubernetes using the Tekton Pipel
 category: "CI/CD Integrations"
 framework: "Gemini"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/tekton-pipeline-composer/"
+source: "https://github.com/tektoncd/pipeline"
 tool_ecosystem:
   tool: tekton
   github_stars: 8923

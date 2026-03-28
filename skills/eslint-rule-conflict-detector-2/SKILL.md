@@ -4,7 +4,7 @@ description: "Analyzes .eslintrc configurations and extended rulesets using the 
 category: "Code Quality & Review"
 framework: "Codex"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/eslint-rule-conflict-detector-2/"
+source: "https://github.com/eslint/eslint"
 tool_ecosystem:
   tool: eslint
   github_stars: 27185

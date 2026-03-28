@@ -4,7 +4,7 @@ description: "Runs Semgrep against a codebase using official or custom rule regi
 category: "Code Quality & Review"
 framework: "Codex"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/semgrep-code-pattern-scanner-2/"
+source: "https://github.com/semgrep/semgrep"
 tool_ecosystem:
   tool: semgrep
   github_stars: 14551

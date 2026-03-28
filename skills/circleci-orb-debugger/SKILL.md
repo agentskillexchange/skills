@@ -4,7 +4,7 @@ description: "Diagnoses and fixes CircleCI orb configuration errors using the Ci
 category: "CI/CD Integrations"
 framework: "Claude Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/circleci-orb-debugger/"
+source: "https://github.com/circleci/circleci-docs"
 tool_ecosystem:
   tool: circleci
   github_stars: 842

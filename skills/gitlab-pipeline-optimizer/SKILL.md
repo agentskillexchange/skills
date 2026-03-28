@@ -4,7 +4,7 @@ description: "Analyzes and optimizes GitLab CI/CD pipelines using the GitLab RES
 category: "CI/CD Integrations"
 framework: "Claude Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/gitlab-pipeline-optimizer/"
+source: "https://github.com/gitlabhq/gitlabhq"
 tool_ecosystem:
   tool: gitlab
   github_stars: 24278

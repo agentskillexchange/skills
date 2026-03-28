@@ -4,7 +4,7 @@ description: "Synchronizes data between Notion databases and external sources us
 category: "Calendar, Email & Productivity"
 framework: "Claude Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/notion-database-sync-bridge/"
+source: "https://github.com/makenotion/notion-sdk-js"
 tool_ecosystem:
   tool: notion
   github_stars: 5562

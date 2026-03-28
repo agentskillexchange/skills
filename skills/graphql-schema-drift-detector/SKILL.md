@@ -4,7 +4,7 @@ description: "Detects breaking changes in GraphQL schemas using graphql-inspecto
 category: "Library & API Reference"
 framework: "MCP"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/graphql-schema-drift-detector/"
+source: "https://github.com/graphql/graphql-js"
 tool_ecosystem:
   tool: graphql
   github_stars: 20332

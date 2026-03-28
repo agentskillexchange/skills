@@ -4,7 +4,7 @@ description: "Synchronizes Datadog monitor definitions between environments usin
 category: "Monitoring & Alerts"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/datadog-monitor-sync/"
+source: "https://github.com/DataDog/dd-trace-js"
 tool_ecosystem:
   tool: datadog
   github_stars: 789

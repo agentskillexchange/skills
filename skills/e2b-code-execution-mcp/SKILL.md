@@ -4,7 +4,7 @@ description: "Add sandboxed code execution to any MCP AI client. E2B gives agent
 category: "Developer Tools"
 framework: "MCP"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/e2b-code-execution-mcp/"
+source: "https://github.com/e2b-dev/mcp-server"
 ---
 
 # E2B Code Execution MCP

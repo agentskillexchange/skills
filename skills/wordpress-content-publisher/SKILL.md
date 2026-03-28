@@ -4,7 +4,7 @@ description: "Structured publishing workflow for WordPress drafts, metadata, and
 category: "WordPress & CMS"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/wordpress-content-publisher/"
+source: "https://github.com/WordPress/WordPress"
 tool_ecosystem:
   tool: wordpress
   github_stars: 20976

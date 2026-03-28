@@ -4,7 +4,7 @@ description: "Uses Bubble’s Plugin API and the Stripe.js SDK to embed a self-s
 category: "Templates & Workflows"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/bubble-stripe-subscription-portal/"
+source: "https://github.com/stripe/stripe-node"
 tool_ecosystem:
   tool: stripe
   github_stars: 4377

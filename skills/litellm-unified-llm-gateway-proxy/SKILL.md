@@ -4,7 +4,7 @@ description: "LiteLLM is an open-source Python SDK and proxy server that provide
 category: "Integrations & Connectors"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/litellm-unified-llm-gateway-proxy/"
+source: "https://github.com/BerriAI/litellm"
 ---
 
 # LiteLLM Unified LLM Gateway and Proxy Server
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill litellm-unified-llm-gateway-pro
 ```bash
 clawhub install litellm-unified-llm-gateway-proxy
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/litellm-unified-llm-gateway-proxy/)

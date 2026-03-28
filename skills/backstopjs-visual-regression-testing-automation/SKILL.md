@@ -4,7 +4,7 @@ description: "BackstopJS gives agents a repeatable way to capture reference scre
 category: "Browser Automation"
 framework: "Multi-Framework"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/backstopjs-visual-regression-testing-automation/"
+source: "https://github.com/garris/BackstopJS"
 ---
 
 # BackstopJS Visual Regression Testing Automation

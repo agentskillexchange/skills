@@ -4,7 +4,7 @@ description: "Analyzes GitLab CI/CD pipeline YAML using the GitLab Pipelines API
 category: "CI/CD Integrations"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/gitlab-pipeline-dag-optimizer/"
+source: "https://github.com/gitlabhq/gitlabhq"
 tool_ecosystem:
   tool: gitlab
   github_stars: 24278

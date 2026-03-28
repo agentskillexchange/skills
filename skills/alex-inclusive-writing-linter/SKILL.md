@@ -4,7 +4,7 @@ description: "Catch insensitive, inconsiderate writing with alex. This CLI tool 
 category: "Content Writing & SEO"
 framework: "Multi-Framework"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/alex-inclusive-writing-linter/"
+source: "https://github.com/get-alex/alex"
 ---
 
 ## Installation
@@ -38,3 +38,7 @@ npx skills add agentskillexchange/skills --skill alex-inclusive-writing-linter -
 ```bash
 clawhub install alex-inclusive-writing-linter
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/alex-inclusive-writing-linter/)

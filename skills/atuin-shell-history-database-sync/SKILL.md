@@ -4,7 +4,7 @@ description: "Atuin replaces your existing shell history with a SQLite database 
 category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/atuin-shell-history-database-sync/"
+source: "https://github.com/atuinsh/atuin"
 tool_ecosystem:
   tool: sqlite
   github_stars: 7043

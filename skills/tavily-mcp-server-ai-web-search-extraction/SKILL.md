@@ -4,7 +4,7 @@ description: "An official MCP server from Tavily that provides AI agents with re
 category: "Research & Scraping"
 framework: "MCP"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/tavily-mcp-server-ai-web-search-extraction/"
+source: "https://github.com/tavily-ai/tavily-mcp"
 ---
 
 # Tavily MCP Server for AI-Powered Web Search and Extraction
@@ -52,3 +52,7 @@ The MCP server exposes four core tools: tavily-search for real-time web search w
 Installation is straightforward via npm (npx tavily-mcp) or through the remote MCP endpoint at mcp.tavily.com. The server supports both stdio and HTTP transport modes, making it compatible with Claude Code, Cursor, Windsurf, VS Code, and other MCP-compatible clients.
 
 Key technical features include configurable search depth, domain inclusion and exclusion filters, image result support, and customizable maximum result counts. The Tavily API key is required (available from tavily.com with a free tier).
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/tavily-mcp-server-ai-web-search-extraction/)

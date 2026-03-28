@@ -4,7 +4,7 @@ description: "Interactive browser skill for logged-in flows, dynamic pages, and 
 category: "Browser Automation"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/agent-browser-operator/"
+source: "https://docs.openclaw.ai/tools/browser"
 tool_ecosystem:
   tool: playwright
   github_stars: 84938

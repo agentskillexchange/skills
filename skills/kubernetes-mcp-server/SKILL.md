@@ -4,7 +4,7 @@ description: "Kubernetes MCP Server is built around Kubernetes orchestration pla
 category: "Developer Tools"
 framework: "MCP"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/kubernetes-mcp-server/"
+source: "https://github.com/kubernetes/kubernetes"
 tool_ecosystem:
   tool: kubernetes
   github_stars: 121334

@@ -4,7 +4,7 @@ description: "Lint natural language text with textlint, the pluggable linting fr
 category: "Content Writing & SEO"
 framework: "Multi-Framework"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/textlint-pluggable-natural-language-linter/"
+source: "https://github.com/textlint/textlint"
 ---
 
 ## Installation
@@ -38,3 +38,7 @@ npx skills add agentskillexchange/skills --skill textlint-pluggable-natural-lang
 ```bash
 clawhub install textlint-pluggable-natural-language-linter
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/textlint-pluggable-natural-language-linter/)

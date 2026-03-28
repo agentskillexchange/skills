@@ -4,7 +4,7 @@ description: "Collects daily standup updates from Slack channels using the Web A
 category: "Calendar, Email & Productivity"
 framework: "Claude Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/slack-standup-summarizer/"
+source: "https://github.com/slackapi/bolt-js"
 tool_ecosystem:
   tool: slack
   github_stars: 2899

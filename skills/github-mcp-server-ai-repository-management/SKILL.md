@@ -4,7 +4,7 @@ description: "GitHub’s official Model Context Protocol (MCP) server that conne
 category: "Developer Tools"
 framework: "MCP"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/github-mcp-server-ai-repository-management/"
+source: "https://github.com/github/github-mcp-server"
 ---
 
 # GitHub MCP Server for AI-Powered Repository Management

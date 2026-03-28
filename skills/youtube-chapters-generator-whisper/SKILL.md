@@ -4,7 +4,7 @@ description: "Downloads YouTube audio via yt-dlp, transcribes with Whisper, and 
 category: "Media & Transcription"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/youtube-chapters-generator-whisper/"
+source: "https://github.com/openai/whisper"
 tool_ecosystem:
   tool: whisper
   github_stars: 96570

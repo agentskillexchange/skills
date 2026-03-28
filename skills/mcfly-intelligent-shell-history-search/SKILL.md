@@ -4,7 +4,7 @@ description: "mcfly is a Rust-based shell history search tool that uses a small 
 category: ""
 framework: "Multi-Framework"
 verification: listed
-source: "https://agentskillexchange.com/skills/mcfly-intelligent-shell-history-search/"
+source: "https://github.com/cantino/mcfly"
 ---
 
 # mcfly Intelligent Shell History Search with Neural Network
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill mcfly-intelligent-shell-history
 ```bash
 clawhub install mcfly-intelligent-shell-history-search
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/mcfly-intelligent-shell-history-search/)

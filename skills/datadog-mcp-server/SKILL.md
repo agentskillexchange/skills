@@ -4,7 +4,7 @@ description: "Datadog MCP Server is built around Datadog observability platform.
 category: "Monitoring & Alerts"
 framework: "MCP"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/datadog-mcp-server/"
+source: "https://github.com/DataDog/dd-trace-js"
 tool_ecosystem:
   tool: datadog
   github_stars: 789

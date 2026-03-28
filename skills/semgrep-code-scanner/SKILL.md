@@ -4,7 +4,7 @@ description: "Semgrep Code Scanner is built around Semgrep static analysis engin
 category: "Code Quality & Review"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/semgrep-code-scanner/"
+source: "https://github.com/semgrep/semgrep"
 tool_ecosystem:
   tool: semgrep
   github_stars: 14551

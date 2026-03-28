@@ -4,7 +4,7 @@ description: "Redpanda Connect (formerly Benthos) is a high-performance stream p
 category: "Data Extraction & Transformation"
 framework: "Multi-Framework"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/redpanda-connect-declarative-stream-processor/"
+source: "https://github.com/redpanda-data/connect"
 ---
 
 # Redpanda Connect Declarative Stream Processor
@@ -77,3 +77,7 @@ npx skills add agentskillexchange/skills --skill redpanda-connect-declarative-st
 ```bash
 clawhub install redpanda-connect-declarative-stream-processor
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/redpanda-connect-declarative-stream-processor/)

@@ -4,7 +4,7 @@ description: "Manages Jenkins Shared Libraries with proper vars/ and src/ struct
 category: "CI/CD Integrations"
 framework: "MCP"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/jenkins-shared-library-manager/"
+source: "https://github.com/jenkinsci/jenkins"
 tool_ecosystem:
   tool: jenkins
   github_stars: 25122

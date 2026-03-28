@@ -4,7 +4,7 @@ description: "Performs deep dependency analysis using the Snyk CLI and REST API 
 category: "Security & Verification"
 framework: "Cursor"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/snyk-open-source-dependency-auditor/"
+source: "https://github.com/snyk/cli"
 tool_ecosystem:
   tool: snyk
   github_stars: 5458

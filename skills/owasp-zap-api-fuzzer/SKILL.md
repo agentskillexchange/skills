@@ -4,7 +4,7 @@ description: "Automates REST API security testing using the OWASP ZAP Python SDK
 category: "Security & Verification"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/owasp-zap-api-fuzzer/"
+source: "https://github.com/zaproxy/zaproxy"
 tool_ecosystem:
   tool: owasp
   github_stars: 14900

@@ -4,7 +4,7 @@ description: "Constructs data transformation pipelines using Pandas and the pipe
 category: "Data Extraction & Transformation"
 framework: "Cursor"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/pandas-dataframe-pipeline-builder/"
+source: "https://github.com/pandas-dev/pandas"
 tool_ecosystem:
   tool: pandas
   github_stars: 48239

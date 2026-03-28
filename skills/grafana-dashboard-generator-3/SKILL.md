@@ -4,7 +4,7 @@ description: "Programmatically generates Grafana dashboards from service definit
 category: "Monitoring & Alerts"
 framework: "Cursor"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/grafana-dashboard-generator-3/"
+source: "https://github.com/grafana/grafana"
 tool_ecosystem:
   tool: grafana
   github_stars: 72796

@@ -4,7 +4,7 @@ description: "An agent skill that uses BlurHash, the compact image placeholder r
 category: "Image & Creative Automation"
 framework: "Framework Agnostic"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/blurhash-compact-image-placeholder-encoder/"
+source: "https://github.com/woltapp/blurhash"
 ---
 
 # BlurHash Compact Image Placeholder Encoder

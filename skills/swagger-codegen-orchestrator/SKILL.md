@@ -4,7 +4,7 @@ description: "Orchestrates OpenAPI 3.x code generation using swagger-codegen-cli
 category: "Templates & Workflows"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/swagger-codegen-orchestrator/"
+source: "https://github.com/swagger-api/swagger-ui"
 tool_ecosystem:
   tool: swagger
   github_stars: 28703

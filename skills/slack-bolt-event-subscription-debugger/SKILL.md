@@ -4,7 +4,7 @@ description: "Debugs Slack app event flows with the Bolt SDK, signature verifica
 category: "Integrations & Connectors"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/slack-bolt-event-subscription-debugger/"
+source: "https://github.com/slackapi/bolt-js"
 tool_ecosystem:
   tool: slack
   github_stars: 2899

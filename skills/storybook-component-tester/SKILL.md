@@ -4,7 +4,7 @@ description: "Storybook Component Tester is built around Storybook component wor
 category: "Code Quality & Review"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/storybook-component-tester/"
+source: "https://github.com/storybookjs/storybook"
 tool_ecosystem:
   tool: storybook
   github_stars: 89504

@@ -4,7 +4,7 @@ description: "Crawl4AI is an open-source web crawler that converts any website i
 category: "Research & Scraping"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/crawl4ai-llm-web-crawler-scraper/"
+source: "https://github.com/unclecode/crawl4ai"
 ---
 
 # Crawl4AI LLM-Ready Web Crawler and Scraper
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill crawl4ai-llm-web-crawler-scrape
 ```bash
 clawhub install crawl4ai-llm-web-crawler-scraper
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/crawl4ai-llm-web-crawler-scraper/)

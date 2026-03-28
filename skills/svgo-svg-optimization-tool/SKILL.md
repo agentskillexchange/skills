@@ -4,7 +4,7 @@ description: "An agent skill built on SVGO (SVG Optimizer), the Node.js tool for
 category: "Image & Creative Automation"
 framework: "Framework Agnostic"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/svgo-svg-optimization-tool/"
+source: "https://github.com/svg/svgo"
 ---
 
 # SVGO SVG Optimization Tool

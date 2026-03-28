@@ -4,7 +4,7 @@ description: "Routes browser automation sessions across Selenium Grid 4 nodes us
 category: "Browser Automation"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/selenium-grid-session-router/"
+source: "https://github.com/SeleniumHQ/selenium"
 tool_ecosystem:
   tool: selenium
   github_stars: 34174

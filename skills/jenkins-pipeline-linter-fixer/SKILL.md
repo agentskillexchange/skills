@@ -4,7 +4,7 @@ description: "Validates Jenkinsfile declarative pipelines using the Jenkins Pipe
 category: "CI/CD Integrations"
 framework: "Cursor"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/jenkins-pipeline-linter-fixer/"
+source: "https://github.com/jenkinsci/jenkins"
 tool_ecosystem:
   tool: jenkins
   github_stars: 25122

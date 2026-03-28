@@ -4,7 +4,7 @@ description: "High-performance, self-hosted newsletter and mailing list manager 
 category: "Calendar, Email & Productivity"
 framework: "Multi-Framework"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/listmonk-self-hosted-newsletter-mailing-list/"
+source: "https://github.com/knadh/listmonk"
 ---
 
 # Listmonk Self-Hosted Newsletter and Mailing List Manager
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill listmonk-self-hosted-newsletter
 ```bash
 clawhub install listmonk-self-hosted-newsletter-mailing-list
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/listmonk-self-hosted-newsletter-mailing-list/)

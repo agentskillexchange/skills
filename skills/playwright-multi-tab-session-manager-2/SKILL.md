@@ -4,7 +4,7 @@ description: "Manages concurrent Playwright browser contexts with tab isolation 
 category: "Browser Automation"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/playwright-multi-tab-session-manager-2/"
+source: "https://github.com/microsoft/playwright"
 tool_ecosystem:
   tool: playwright
   github_stars: 84938

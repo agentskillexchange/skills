@@ -4,7 +4,7 @@ description: "Chains pandas DataFrame transformations into reproducible pipeline
 category: "Data Extraction & Transformation"
 framework: "ChatGPT Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/pandas-dataframe-pipeline-orchestrator/"
+source: "https://github.com/pandas-dev/pandas"
 tool_ecosystem:
   tool: pandas
   github_stars: 48239

@@ -4,7 +4,7 @@ description: "Uses the Stripe API to pull charge, refund, dispute, and payout re
 category: "Integrations & Connectors"
 framework: "Codex"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/stripe-revenue-reconciliation-agent/"
+source: "https://github.com/stripe/stripe-node"
 tool_ecosystem:
   tool: stripe
   github_stars: 4377

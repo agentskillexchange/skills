@@ -4,7 +4,7 @@ description: "Manages Datadog monitors and dashboards via the Datadog REST API v
 category: "Monitoring & Alerts"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/datadog-monitor-configurator-2/"
+source: "https://github.com/DataDog/dd-trace-js"
 tool_ecosystem:
   tool: datadog
   github_stars: 789

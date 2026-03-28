@@ -4,7 +4,7 @@ description: "An agent skill built on the official WordPress MCP Adapter plugin,
 category: "WordPress & CMS"
 framework: "MCP"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/wordpress-mcp-adapter-model-context-protocol-bridge/"
+source: "https://github.com/WordPress/mcp-adapter"
 ---
 
 # WordPress MCP Adapter Model Context Protocol Bridge
@@ -37,3 +37,7 @@ npx skills add wordpress-mcp-adapter-model-context-protocol-bridge --codex
 ```bash
 clawhub install wordpress-mcp-adapter-model-context-protocol-bridge
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/wordpress-mcp-adapter-model-context-protocol-bridge/)

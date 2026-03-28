@@ -4,7 +4,7 @@ description: "Monitors AWS CloudFormation stacks for configuration drift using t
 category: "Runbooks & Diagnostics"
 framework: "Gemini"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/aws-cloudformation-drift-detector-4/"
+source: "https://github.com/aws/aws-sdk-js-v3"
 tool_ecosystem:
   tool: aws
   github_stars: 3594

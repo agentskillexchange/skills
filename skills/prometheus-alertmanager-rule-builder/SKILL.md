@@ -4,7 +4,7 @@ description: "Generates Prometheus alerting rules and AlertManager routing confi
 category: "Monitoring & Alerts"
 framework: "ChatGPT Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/prometheus-alertmanager-rule-builder/"
+source: "https://github.com/prometheus/prometheus"
 tool_ecosystem:
   tool: prometheus
   github_stars: 63289

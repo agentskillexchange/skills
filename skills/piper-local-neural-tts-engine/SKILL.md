@@ -4,7 +4,7 @@ description: "Run fast, high-quality neural text-to-speech locally with Piper. S
 category: "Media & Transcription"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/piper-local-neural-tts-engine/"
+source: "https://github.com/rhasspy/piper"
 ---
 
 # Piper Local Neural Text-to-Speech Engine
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill piper-local-neural-tts-engine -
 ```bash
 clawhub install piper-local-neural-tts-engine
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/piper-local-neural-tts-engine/)

@@ -4,7 +4,7 @@ description: "Builds custom Semgrep rules using the Semgrep pattern syntax and s
 category: "Code Quality & Review"
 framework: "Codex"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/semgrep-custom-pattern-builder/"
+source: "https://github.com/semgrep/semgrep"
 tool_ecosystem:
   tool: semgrep
   github_stars: 14551

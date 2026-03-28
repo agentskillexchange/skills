@@ -4,7 +4,7 @@ description: "A blazing-fast source code spell checker written in Rust that find
 category: "Code Quality & Review"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/typos-source-code-spell-checker/"
+source: "https://github.com/crate-ci/typos"
 ---
 
 # typos Source Code Spell Checker
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill typos-source-code-spell-checker
 ```bash
 clawhub install typos-source-code-spell-checker
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/typos-source-code-spell-checker/)

@@ -4,7 +4,7 @@ description: "A fast SQL linter and formatter written in Rust by Quary Labs. sqr
 category: "Code Quality & Review"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/sqruff-sql-linter-formatter/"
+source: "https://github.com/quarylabs/sqruff"
 ---
 
 # sqruff High-Performance SQL Linter and Formatter
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill sqruff-sql-linter-formatter -a 
 ```bash
 clawhub install sqruff-sql-linter-formatter
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/sqruff-sql-linter-formatter/)

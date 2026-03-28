@@ -4,7 +4,7 @@ description: "Route WordPress tasks to the right workflow fast. Core Capabilitie
 category: "WordPress & CMS"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/wordpress-router/"
+source: "https://github.com/openclaw/openclaw/tree/main/skills"
 tool_ecosystem:
   tool: wordpress
   github_stars: 20976

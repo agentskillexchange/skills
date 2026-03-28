@@ -4,7 +4,7 @@ description: "Optimizes Apache Parquet file reads using PyArrow column pruning a
 category: "Data Extraction & Transformation"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/parquet-column-pruning-optimizer/"
+source: "https://github.com/ironSource/parquetjs"
 tool_ecosystem:
   tool: parquet
   github_stars: 387

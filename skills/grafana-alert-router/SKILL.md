@@ -4,7 +4,7 @@ description: "Routes Grafana alerting webhook payloads to Slack, PagerDuty, and 
 category: "Monitoring & Alerts"
 framework: "MCP"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/grafana-alert-router/"
+source: "https://github.com/grafana/grafana"
 tool_ecosystem:
   tool: grafana
   github_stars: 72796

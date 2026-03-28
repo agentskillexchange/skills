@@ -4,7 +4,7 @@ description: "onefetch is a Rust CLI tool that displays project information and 
 category: ""
 framework: "Multi-Framework"
 verification: listed
-source: "https://agentskillexchange.com/skills/onefetch-git-repository-info-statistics-cli/"
+source: "https://github.com/o2sh/onefetch"
 ---
 
 # onefetch Git Repository Information and Statistics CLI
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill onefetch-git-repository-info-st
 ```bash
 clawhub install onefetch-git-repository-info-statistics-cli
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/onefetch-git-repository-info-statistics-cli/)

@@ -4,7 +4,7 @@ description: "Trellis is a collection of Ansible playbooks for provisioning and 
 category: "WordPress & CMS"
 framework: "Multi-Framework"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/trellis-wordpress-lemp-ansible-provisioner-roots/"
+source: "https://github.com/roots/trellis"
 ---
 
 # Trellis WordPress LEMP Stack Provisioner by Roots
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill trellis-wordpress-lemp-ansible-
 ```bash
 clawhub install trellis-wordpress-lemp-ansible-provisioner-roots
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/trellis-wordpress-lemp-ansible-provisioner-roots/)

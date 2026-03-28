@@ -4,7 +4,7 @@ description: "Manages secret lifecycle through the HashiCorp Vault HTTP API v1. 
 category: "Security & Verification"
 framework: "MCP"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/vault-secrets-rotator/"
+source: "https://github.com/hashicorp/vault"
 tool_ecosystem:
   tool: vault
   github_stars: 35275

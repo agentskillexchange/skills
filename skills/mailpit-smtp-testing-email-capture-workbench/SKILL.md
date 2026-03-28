@@ -4,7 +4,7 @@ description: "This skill uses Mailpit as a safe SMTP sink for development, QA, a
 category: "Calendar, Email & Productivity"
 framework: "Multi-Framework"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/mailpit-smtp-testing-email-capture-workbench/"
+source: "https://mailpit.axllent.org/"
 ---
 
 # Mailpit SMTP Testing and Email Capture Workbench
@@ -37,3 +37,7 @@ npx skills add mailpit-smtp-testing-email-capture-workbench
 ```bash
 clawhub install mailpit-smtp-testing-email-capture-workbench
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/mailpit-smtp-testing-email-capture-workbench/)

@@ -4,7 +4,7 @@ description: "Litestream is a streaming replication tool for SQLite databases th
 category: "Developer Tools"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/litestream-sqlite-streaming-replication/"
+source: "https://github.com/benbjohnson/litestream"
 ---
 
 # Litestream SQLite Streaming Replication
@@ -55,3 +55,7 @@ Recovery is straightforward. The litestream restore command reconstructs a compl
 Litestream operates with minimal configuration. A simple YAML config file specifies the database path and replica destinations. The litestream replicate command starts continuous replication, and it can be managed as a systemd service for production deployments. Retention policies control how long historical WAL frames are kept, balancing storage costs against recovery flexibility.
 
 For AI agents managing applications that use SQLite as their primary database, Litestream provides automated disaster recovery without requiring a switch to a client-server database like PostgreSQL. An agent can configure replication to cloud storage, verify replica health with litestream snapshots, test recovery procedures, and monitor replication lag. The tool installs via Homebrew, apt, or standalone binary downloads.
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/litestream-sqlite-streaming-replication/)

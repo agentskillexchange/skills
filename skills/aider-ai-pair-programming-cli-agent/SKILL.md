@@ -4,7 +4,7 @@ description: "Aider is an open-source AI pair programming tool that runs in your
 category: "Developer Tools"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/aider-ai-pair-programming-cli-agent/"
+source: "https://github.com/Aider-AI/aider"
 ---
 
 # Aider AI Pair Programming CLI Agent
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill aider-ai-pair-programming-cli-a
 ```bash
 clawhub install aider-ai-pair-programming-cli-agent
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/aider-ai-pair-programming-cli-agent/)

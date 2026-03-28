@@ -4,7 +4,7 @@ description: "Executes structured incident response procedures for Kubernetes cl
 category: "Runbooks & Diagnostics"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/kubernetes-incident-runbook/"
+source: "https://github.com/kubernetes/kubernetes"
 tool_ecosystem:
   tool: kubernetes
   github_stars: 121334

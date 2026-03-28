@@ -4,7 +4,7 @@ description: "The official HashiCorp Terraform MCP server integrates with the Te
 category: "Developer Tools"
 framework: "MCP"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/terraform-mcp-server-infrastructure-as-code/"
+source: "https://github.com/hashicorp/terraform-mcp-server"
 ---
 
 # Terraform MCP Server for Infrastructure as Code
@@ -54,3 +54,7 @@ npx skills add agentskillexchange/skills --skill terraform-mcp-server-infrastruc
 ```bash
 clawhub install terraform-mcp-server-infrastructure-as-code
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-mcp-server-infrastructure-as-code/)

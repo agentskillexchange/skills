@@ -4,7 +4,7 @@ description: "JSDoc is the standard API documentation generator for JavaScript. 
 category: "Library & API Reference"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/jsdoc-javascript-api-documentation-generator/"
+source: "https://github.com/jsdoc/jsdoc"
 ---
 
 # JSDoc JavaScript API Documentation Generator
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill jsdoc-javascript-api-documentat
 ```bash
 clawhub install jsdoc-javascript-api-documentation-generator
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/jsdoc-javascript-api-documentation-generator/)

@@ -4,7 +4,7 @@ description: "An agent skill built on Coqui TTS, the open-source deep learning t
 category: "Media & Transcription"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/coqui-tts-deep-learning-text-to-speech-toolkit/"
+source: "https://github.com/coqui-ai/TTS"
 ---
 
 # Coqui TTS Deep Learning Text-to-Speech Toolkit
@@ -37,3 +37,7 @@ npx skills add coqui-tts-deep-learning-text-to-speech-toolkit --codex
 ```bash
 clawhub install coqui-tts-deep-learning-text-to-speech-toolkit
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/coqui-tts-deep-learning-text-to-speech-toolkit/)

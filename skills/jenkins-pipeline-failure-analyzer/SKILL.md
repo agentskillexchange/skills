@@ -4,7 +4,7 @@ description: "Queries the Jenkins REST API /job/{name}/lastFailedBuild/api/json 
 category: "CI/CD Integrations"
 framework: "Claude Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/jenkins-pipeline-failure-analyzer/"
+source: "https://github.com/jenkinsci/jenkins"
 tool_ecosystem:
   tool: jenkins
   github_stars: 25122

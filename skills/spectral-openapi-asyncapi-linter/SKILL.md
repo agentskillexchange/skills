@@ -4,7 +4,7 @@ description: "Spectral is an open-source JSON/YAML linter by Stoplight with buil
 category: "Code Quality & Review"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/spectral-openapi-asyncapi-linter/"
+source: "https://github.com/stoplightio/spectral"
 ---
 
 # Spectral OpenAPI and AsyncAPI Linter
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill spectral-openapi-asyncapi-linte
 ```bash
 clawhub install spectral-openapi-asyncapi-linter
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/spectral-openapi-asyncapi-linter/)

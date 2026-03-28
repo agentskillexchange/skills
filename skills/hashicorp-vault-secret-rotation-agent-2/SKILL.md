@@ -4,7 +4,7 @@ description: "Connects to HashiCorp Vault HTTP API for automated secret rotation
 category: "Security & Verification"
 framework: "MCP"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/hashicorp-vault-secret-rotation-agent-2/"
+source: "https://github.com/hashicorp/vault"
 tool_ecosystem:
   tool: vault
   github_stars: 35275

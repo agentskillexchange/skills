@@ -4,7 +4,7 @@ description: "Parses Nginx error logs using configurable regex patterns and the 
 category: "Runbooks & Diagnostics"
 framework: "Gemini"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/nginx-error-log-pattern-analyzer/"
+source: "https://github.com/nginx/nginx"
 tool_ecosystem:
   tool: nginx
   github_stars: 29767

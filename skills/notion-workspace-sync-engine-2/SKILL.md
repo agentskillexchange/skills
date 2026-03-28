@@ -4,7 +4,7 @@ description: "Bidirectionally syncs Notion databases with external tools via the
 category: "Calendar, Email & Productivity"
 framework: "Gemini"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/notion-workspace-sync-engine-2/"
+source: "https://github.com/makenotion/notion-sdk-js"
 tool_ecosystem:
   tool: notion
   github_stars: 5562

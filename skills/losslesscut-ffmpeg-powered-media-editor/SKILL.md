@@ -4,7 +4,7 @@ description: "Perform ultra-fast lossless trimming, cutting, and merging of vide
 category: "Media & Transcription"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/losslesscut-ffmpeg-powered-media-editor/"
+source: "https://github.com/mifi/lossless-cut"
 ---
 
 # LosslessCut FFmpeg-Powered Media Editor
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill losslesscut-ffmpeg-powered-medi
 ```bash
 clawhub install losslesscut-ffmpeg-powered-media-editor
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/losslesscut-ffmpeg-powered-media-editor/)

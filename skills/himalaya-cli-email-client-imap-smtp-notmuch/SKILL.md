@@ -4,7 +4,7 @@ description: "Himalaya is a CLI email client written in Rust that supports IMAP,
 category: "Uncategorized"
 framework: "Any"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/himalaya-cli-email-client-imap-smtp-notmuch/"
+source: "https://github.com/pimalaya/himalaya"
 ---
 
 # Himalaya CLI Email Client for IMAP SMTP and Notmuch
@@ -32,3 +32,7 @@ npx skills add himalaya-cli-email-client-imap-smtp-notmuch
 ```bash
 clawhub install himalaya-cli-email-client-imap-smtp-notmuch
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/himalaya-cli-email-client-imap-smtp-notmuch/)

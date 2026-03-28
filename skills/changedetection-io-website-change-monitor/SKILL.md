@@ -4,7 +4,7 @@ description: "changedetection.io is an open-source, self-hosted tool for monitor
 category: "Research & Scraping"
 framework: "Multi-Framework"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/changedetection-io-website-change-monitor/"
+source: "https://github.com/dgtlmoon/changedetection.io"
 ---
 
 # changedetection.io Self-Hosted Website Change Monitoring Platform
@@ -65,3 +65,7 @@ For AI agent workflows, changedetection.io exposes a REST API that allows progra
 ### Deployment
 
 The recommended deployment method is Docker, with a single command to get started. The platform stores data in a local datastore volume and runs a lightweight web UI for configuration and review. It can also be deployed alongside a Playwright fetcher container for full browser rendering support.
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/changedetection-io-website-change-monitor/)

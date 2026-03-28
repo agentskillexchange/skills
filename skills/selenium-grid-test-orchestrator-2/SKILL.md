@@ -4,7 +4,7 @@ description: "Orchestrates distributed browser testing across Selenium Grid 4 no
 category: "Browser Automation"
 framework: "ChatGPT Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/selenium-grid-test-orchestrator-2/"
+source: "https://github.com/SeleniumHQ/selenium"
 tool_ecosystem:
   tool: selenium
   github_stars: 34174

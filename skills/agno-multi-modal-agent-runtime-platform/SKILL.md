@@ -4,7 +4,7 @@ description: "Agno is a high-performance Python framework for building, running,
 category: "Developer Tools"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/agno-multi-modal-agent-runtime-platform/"
+source: "https://github.com/agno-agi/agno"
 ---
 
 # Agno Multi-Modal Agent Runtime Platform
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill agno-multi-modal-agent-runtime-
 ```bash
 clawhub install agno-multi-modal-agent-runtime-platform
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/agno-multi-modal-agent-runtime-platform/)

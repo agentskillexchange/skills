@@ -4,7 +4,7 @@ description: "LlamaIndex MCP Server is built around LlamaIndex framework for LLM
 category: "Developer Tools"
 framework: "MCP"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/llamaindex-mcp-server/"
+source: "https://github.com/run-llama/llama_index"
 tool_ecosystem:
   tool: llamaindex
   github_stars: 47942

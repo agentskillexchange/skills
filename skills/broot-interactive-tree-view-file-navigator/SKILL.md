@@ -4,7 +4,7 @@ description: "broot is a Rust-based terminal tool that provides a new way to see
 category: ""
 framework: "Multi-Framework"
 verification: listed
-source: "https://agentskillexchange.com/skills/broot-interactive-tree-view-file-navigator/"
+source: "https://github.com/Canop/broot"
 ---
 
 # broot Interactive Tree-View File Navigator
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill broot-interactive-tree-view-fil
 ```bash
 clawhub install broot-interactive-tree-view-file-navigator
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/broot-interactive-tree-view-file-navigator/)

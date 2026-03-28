@@ -4,7 +4,7 @@ description: "Automate software releases with GoReleaser — build cross-platfor
 category: "CI/CD Integrations"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/goreleaser-cross-platform-release-automation/"
+source: "https://github.com/goreleaser/goreleaser"
 ---
 
 # GoReleaser Cross-Platform Release Automation

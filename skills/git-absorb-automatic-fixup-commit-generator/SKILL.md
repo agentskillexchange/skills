@@ -4,7 +4,7 @@ description: "Automatically generates fixup commits by analyzing staged changes 
 category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/git-absorb-automatic-fixup-commit-generator/"
+source: "https://github.com/tummychow/git-absorb"
 ---
 
 # git-absorb Automatic Fixup Commit Generator

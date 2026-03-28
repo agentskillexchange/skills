@@ -4,7 +4,7 @@ description: "gron transforms JSON into discrete assignment statements, making i
 category: "Data Extraction & Transformation"
 framework: "Multi-Framework"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/gron-greppable-json-flattener/"
+source: "https://github.com/tomnomnom/gron"
 ---
 
 # gron Greppable JSON Flattener
@@ -77,3 +77,7 @@ npx skills add agentskillexchange/skills --skill gron-greppable-json-flattener -
 ```bash
 clawhub install gron-greppable-json-flattener
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/gron-greppable-json-flattener/)

@@ -4,7 +4,7 @@ description: "Monitors and analyzes Vite HMR (Hot Module Replacement) update cha
 category: "Developer Tools"
 framework: "Cursor"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/vite-plugin-hmr-analyzer/"
+source: "https://github.com/vitejs/vite"
 tool_ecosystem:
   tool: vite
   github_stars: 79330

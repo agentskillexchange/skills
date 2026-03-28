@@ -4,7 +4,7 @@ description: "Runs diagnostic analysis on Kubernetes clusters using kubectl, k9s
 category: "Runbooks & Diagnostics"
 framework: "ChatGPT Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/kubernetes-troubleshoot-analyzer/"
+source: "https://github.com/kubernetes/kubernetes"
 tool_ecosystem:
   tool: kubernetes
   github_stars: 121334

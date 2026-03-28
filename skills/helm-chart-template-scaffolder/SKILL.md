@@ -4,7 +4,7 @@ description: "Scaffolds Helm 3 chart templates with Go templating best practices
 category: "Templates & Workflows"
 framework: "Codex"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/helm-chart-template-scaffolder/"
+source: "https://github.com/helm/helm"
 tool_ecosystem:
   tool: helm
   github_stars: 29610

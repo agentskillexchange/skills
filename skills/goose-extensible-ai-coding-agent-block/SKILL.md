@@ -4,7 +4,7 @@ description: "An open-source, extensible AI agent from Block (formerly Square) t
 category: "Developer Tools"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/goose-extensible-ai-coding-agent-block/"
+source: "https://github.com/block/goose"
 ---
 
 # Goose Extensible AI Coding Agent by Block

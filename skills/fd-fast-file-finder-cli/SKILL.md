@@ -4,7 +4,7 @@ description: "A fast and user-friendly alternative to the find command, written 
 category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/fd-fast-file-finder-cli/"
+source: "https://github.com/sharkdp/fd"
 ---
 
 # fd Fast File Finder CLI

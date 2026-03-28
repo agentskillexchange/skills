@@ -4,7 +4,7 @@ description: "Use PostHog to capture product analytics events, identify users, e
 category: "Monitoring &amp; Alerts"
 framework: "Multi-Framework"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/posthog-product-analytics-and-feature-flags-sdk/"
+source: "https://github.com/PostHog/posthog-js"
 ---
 
 # PostHog Product Analytics and Feature Flags SDK

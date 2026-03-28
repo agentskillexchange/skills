@@ -4,7 +4,7 @@ description: "Integrates the OWASP ZAP API to run automated DAST scans against w
 category: "Security & Verification"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/owasp-zap-scanner-agent/"
+source: "https://github.com/zaproxy/zaproxy"
 tool_ecosystem:
   tool: owasp
   github_stars: 14900

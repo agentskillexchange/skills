@@ -4,7 +4,7 @@ description: "Introspects GraphQL APIs via the __schema query and maps type rela
 category: "Data Extraction & Transformation"
 framework: "Cursor"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/graphql-schema-introspection-mapper/"
+source: "https://github.com/graphql/graphql-js"
 tool_ecosystem:
   tool: graphql
   github_stars: 20332

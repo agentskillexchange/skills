@@ -4,7 +4,7 @@ description: "Salesforce MCP Server is built around Salesforce CRM platform. The
 category: "Integrations & Connectors"
 framework: "MCP"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/salesforce-mcp-server/"
+source: "https://github.com/jsforce/jsforce"
 tool_ecosystem:
   tool: salesforce
   github_stars: 1452

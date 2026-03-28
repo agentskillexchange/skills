@@ -4,7 +4,7 @@ description: "Directus is an open-source headless CMS that wraps any SQL databas
 category: "WordPress & CMS"
 framework: "Multi-Framework"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/directus-open-source-headless-cms-backend-platform/"
+source: "https://github.com/directus/directus"
 ---
 
 # Directus Open-Source Headless CMS and Backend Platform
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill directus-open-source-headless-c
 ```bash
 clawhub install directus-open-source-headless-cms-backend-platform
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/directus-open-source-headless-cms-backend-platform/)

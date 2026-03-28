@@ -4,7 +4,7 @@ description: "trdsql is a CLI tool that executes SQL queries directly on CSV, LT
 category: "Data Extraction & Transformation"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/trdsql-sql-query-engine-csv-json-yaml-files/"
+source: "https://github.com/noborus/trdsql"
 ---
 
 # trdsql SQL Query Engine for CSV JSON and YAML Files
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill trdsql-sql-query-engine-csv-jso
 ```bash
 clawhub install trdsql-sql-query-engine-csv-json-yaml-files
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/trdsql-sql-query-engine-csv-json-yaml-files/)

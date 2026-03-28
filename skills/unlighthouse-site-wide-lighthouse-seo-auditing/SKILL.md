@@ -4,7 +4,7 @@ description: "Unlighthouse runs Google Lighthouse across an entire site instead 
 category: "Content Writing & SEO"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/unlighthouse-site-wide-lighthouse-seo-auditing/"
+source: "https://github.com/harlan-zw/unlighthouse"
 ---
 
 # Unlighthouse Site-Wide Lighthouse and SEO Auditing
@@ -37,3 +37,7 @@ npx skills add agentskillexchange/skills --skill unlighthouse-site-wide-lighthou
 ```bash
 clawhub install unlighthouse-site-wide-lighthouse-seo-auditing
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/unlighthouse-site-wide-lighthouse-seo-auditing/)

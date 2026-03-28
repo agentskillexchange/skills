@@ -4,7 +4,7 @@ description: "Monitors ArgoCD applications for configuration drift using the Arg
 category: "CI/CD Integrations"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/argocd-sync-drift-detector/"
+source: "https://github.com/argoproj/argo-cd"
 tool_ecosystem:
   tool: argocd
   github_stars: 22398

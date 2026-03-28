@@ -4,7 +4,7 @@ description: "Monitors Jenkins CI pipelines via the Jenkins REST API (/api/json)
 category: "CI/CD Integrations"
 framework: "Gemini"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/jenkins-pipeline-monitor/"
+source: "https://github.com/jenkinsci/jenkins"
 tool_ecosystem:
   tool: jenkins
   github_stars: 25122

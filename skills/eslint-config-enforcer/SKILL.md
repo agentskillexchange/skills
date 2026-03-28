@@ -4,7 +4,7 @@ description: "Enforces consistent ESLint configurations across monorepo packages
 category: "Code Quality & Review"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/eslint-config-enforcer/"
+source: "https://github.com/eslint/eslint"
 tool_ecosystem:
   tool: eslint
   github_stars: 27185

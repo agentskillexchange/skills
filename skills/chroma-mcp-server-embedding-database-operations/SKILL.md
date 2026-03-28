@@ -4,7 +4,7 @@ description: "An official MCP server for the Chroma open-source embedding databa
 category: "Integrations & Connectors"
 framework: "MCP"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/chroma-mcp-server-embedding-database-operations/"
+source: "https://github.com/chroma-core/chroma-mcp"
 ---
 
 # Chroma MCP Server for Embedding Database Operations
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill chroma-mcp-server-embedding-dat
 ```bash
 clawhub install chroma-mcp-server-embedding-database-operations
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/chroma-mcp-server-embedding-database-operations/)

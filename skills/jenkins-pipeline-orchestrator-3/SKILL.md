@@ -4,7 +4,7 @@ description: "Automates Jenkins CI/CD pipeline configuration using the Jenkins R
 category: "CI/CD Integrations"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/jenkins-pipeline-orchestrator-3/"
+source: "https://github.com/jenkinsci/jenkins"
 tool_ecosystem:
   tool: jenkins
   github_stars: 25122

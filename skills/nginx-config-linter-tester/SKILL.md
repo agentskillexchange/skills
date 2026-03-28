@@ -4,7 +4,7 @@ description: "Validates nginx.conf files using the gixy static analyzer and cros
 category: "Runbooks & Diagnostics"
 framework: "ChatGPT Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/nginx-config-linter-tester/"
+source: "https://github.com/nginx/nginx"
 tool_ecosystem:
   tool: nginx
   github_stars: 29767

@@ -4,7 +4,7 @@ description: "Postgres MCP Pro is an open-source MCP server that provides AI age
 category: "Developer Tools"
 framework: "MCP"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/postgres-mcp-pro-database-analysis-tuning/"
+source: "https://github.com/crystaldba/postgres-mcp"
 ---
 
 # Postgres MCP Pro Server for Database Analysis and Tuning

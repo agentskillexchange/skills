@@ -4,7 +4,7 @@ description: "Syncs records between Notion databases and external sources using 
 category: "Calendar, Email & Productivity"
 framework: "Claude Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/notion-database-sync-agent/"
+source: "https://github.com/makenotion/notion-sdk-js"
 tool_ecosystem:
   tool: notion
   github_stars: 5562

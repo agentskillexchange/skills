@@ -4,7 +4,7 @@ description: "Bruno is an open-source, offline-first API client that stores coll
 category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/bruno-git-native-api-client-testing-exploration/"
+source: "https://github.com/usebruno/bruno"
 ---
 
 # Bruno Git-Native API Client for Testing and Exploration
@@ -56,3 +56,7 @@ npx skills add agentskillexchange/skills --skill bruno-git-native-api-client-tes
 ```bash
 clawhub install bruno-git-native-api-client-testing-exploration
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/bruno-git-native-api-client-testing-exploration/)

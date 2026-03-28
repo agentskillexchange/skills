@@ -4,7 +4,7 @@ description: "Manages dbt Core and dbt Cloud API workflows for SQL-based data tr
 category: "Data Extraction & Transformation"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/dbt-data-transformation-orchestrator/"
+source: "https://github.com/dbt-labs/dbt-core"
 tool_ecosystem:
   tool: dbt
   github_stars: 12460

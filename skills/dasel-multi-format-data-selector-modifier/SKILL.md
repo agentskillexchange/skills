@@ -4,7 +4,7 @@ description: "Dasel (Data-Select) is a command-line tool and Go library for quer
 category: "Data Extraction & Transformation"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/dasel-multi-format-data-selector-modifier/"
+source: "https://github.com/TomWright/dasel"
 ---
 
 # Dasel Multi-Format Data Selector and Modifier

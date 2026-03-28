@@ -4,7 +4,7 @@ description: "An official MCP server that connects Supabase projects to AI assis
 category: "Integrations & Connectors"
 framework: "MCP"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/supabase-mcp-server-database-project-management/"
+source: "https://github.com/supabase-community/supabase-mcp"
 ---
 
 # Supabase MCP Server for Database and Project Management
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill supabase-mcp-server-database-pr
 ```bash
 clawhub install supabase-mcp-server-database-project-management
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/supabase-mcp-server-database-project-management/)

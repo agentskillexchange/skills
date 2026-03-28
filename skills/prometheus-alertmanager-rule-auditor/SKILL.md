@@ -4,7 +4,7 @@ description: "Validates Prometheus recording and alerting rules using promtool c
 category: "Monitoring & Alerts"
 framework: "Gemini"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/prometheus-alertmanager-rule-auditor/"
+source: "https://github.com/prometheus/prometheus"
 tool_ecosystem:
   tool: prometheus
   github_stars: 63289

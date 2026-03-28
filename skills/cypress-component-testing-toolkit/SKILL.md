@@ -4,7 +4,7 @@ description: "Creates component and integration tests using the Cypress Testing 
 category: "Browser Automation"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/cypress-component-testing-toolkit/"
+source: "https://github.com/cypress-io/cypress"
 tool_ecosystem:
   tool: cypress
   github_stars: 49611

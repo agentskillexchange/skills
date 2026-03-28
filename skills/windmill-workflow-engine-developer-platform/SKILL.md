@@ -4,7 +4,7 @@ description: "Open-source developer platform to turn scripts into webhooks, work
 category: "Templates & Workflows"
 framework: "Multi-Framework"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/windmill-workflow-engine-developer-platform/"
+source: "https://github.com/windmill-labs/windmill"
 ---
 
 # Windmill Open-Source Workflow Engine and Developer Platform
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill windmill-workflow-engine-develo
 ```bash
 clawhub install windmill-workflow-engine-developer-platform
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/windmill-workflow-engine-developer-platform/)

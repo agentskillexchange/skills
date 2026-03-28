@@ -4,7 +4,7 @@ description: "Analyzes AWS CloudWatch Logs using the CloudWatch Logs API and Log
 category: "Runbooks & Diagnostics"
 framework: "ChatGPT Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/aws-cloudwatch-log-analyzer/"
+source: "https://github.com/aws/aws-sdk-js-v3"
 tool_ecosystem:
   tool: aws
   github_stars: 3594

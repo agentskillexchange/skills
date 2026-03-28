@@ -4,7 +4,7 @@ description: "A modern, maintained replacement for the ls command, written in Ru
 category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/eza-modern-file-listing-cli/"
+source: "https://github.com/eza-community/eza"
 ---
 
 # eza Modern File Listing CLI

@@ -4,7 +4,7 @@ description: "Generates cy.intercept() stubs from recorded HAR files for determi
 category: "Browser Automation"
 framework: "Codex"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/cypress-network-stub-generator/"
+source: "https://github.com/cypress-io/cypress"
 tool_ecosystem:
   tool: cypress
   github_stars: 49611

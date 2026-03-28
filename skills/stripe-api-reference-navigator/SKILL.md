@@ -4,7 +4,7 @@ description: "Navigates and queries the Stripe REST API documentation using stri
 category: "Library & API Reference"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/stripe-api-reference-navigator/"
+source: "https://github.com/stripe/stripe-node"
 tool_ecosystem:
   tool: stripe
   github_stars: 4377

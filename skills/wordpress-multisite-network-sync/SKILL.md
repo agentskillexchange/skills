@@ -4,7 +4,7 @@ description: "Synchronizes plugin settings and theme mods across a WordPress Mul
 category: "WordPress & CMS"
 framework: "Codex"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/wordpress-multisite-network-sync/"
+source: "https://github.com/WordPress/WordPress"
 tool_ecosystem:
   tool: wordpress
   github_stars: 20976

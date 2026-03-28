@@ -4,7 +4,7 @@ description: "A terminal-based interactive JSON viewer and jq filter editor writ
 category: "Data Extraction & Transformation"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/jnv-interactive-json-navigator/"
+source: "https://github.com/ynqa/jnv"
 ---
 
 # jnv Interactive JSON Navigator and jq Filter Editor
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill jnv-interactive-json-navigator 
 ```bash
 clawhub install jnv-interactive-json-navigator
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/jnv-interactive-json-navigator/)

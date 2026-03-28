@@ -4,7 +4,7 @@ description: "Runs end-to-end browser tests using Playwright Test with page.goto
 category: "Browser Automation"
 framework: "ChatGPT Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/playwright-cross-browser-test-runner/"
+source: "https://github.com/microsoft/playwright"
 tool_ecosystem:
   tool: playwright
   github_stars: 84938

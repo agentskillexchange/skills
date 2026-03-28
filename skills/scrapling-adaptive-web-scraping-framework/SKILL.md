@@ -4,7 +4,7 @@ description: "Scrapling is an adaptive Python web scraping framework that automa
 category: "Uncategorized"
 framework: "Any"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/scrapling-adaptive-web-scraping-framework/"
+source: "https://github.com/D4Vinci/Scrapling"
 ---
 
 # Scrapling Adaptive Web Scraping Framework
@@ -32,3 +32,7 @@ npx skills add scrapling-adaptive-web-scraping-framework
 ```bash
 clawhub install scrapling-adaptive-web-scraping-framework
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/scrapling-adaptive-web-scraping-framework/)

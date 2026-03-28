@@ -4,7 +4,7 @@ description: "fx is a terminal-based JSON viewer and processor that provides an 
 category: "Data Extraction & Transformation"
 framework: "Multi-Framework"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/fx-terminal-json-viewer-processor/"
+source: "https://github.com/antonmedv/fx"
 ---
 
 # fx Terminal JSON Viewer and Processor
@@ -77,3 +77,7 @@ npx skills add agentskillexchange/skills --skill fx-terminal-json-viewer-process
 ```bash
 clawhub install fx-terminal-json-viewer-processor
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/fx-terminal-json-viewer-processor/)

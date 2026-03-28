@@ -4,7 +4,7 @@ description: "Pedalboard is a Python library built by Spotify for working with a
 category: "Media & Transcription"
 framework: "Multi-Framework"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/pedalboard-spotify-audio-effects-python/"
+source: "https://github.com/spotify/pedalboard"
 ---
 
 # Pedalboard Python Audio Effects Library by Spotify
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill pedalboard-spotify-audio-effect
 ```bash
 clawhub install pedalboard-spotify-audio-effects-python
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/pedalboard-spotify-audio-effects-python/)

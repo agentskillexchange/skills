@@ -4,7 +4,7 @@ description: "The official Sentry MCP server gives AI agents access to Sentry er
 category: "Monitoring & Alerts"
 framework: "MCP"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/sentry-mcp-server-error-tracking-performance/"
+source: "https://github.com/getsentry/sentry-mcp"
 ---
 
 # Sentry MCP Server for Error Tracking and Performance
@@ -54,3 +54,7 @@ npx skills add agentskillexchange/skills --skill sentry-mcp-server-error-trackin
 ```bash
 clawhub install sentry-mcp-server-error-tracking-performance
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/sentry-mcp-server-error-tracking-performance/)

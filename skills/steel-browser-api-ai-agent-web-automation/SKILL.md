@@ -4,7 +4,7 @@ description: "Steel Browser is an open-source browser API that provides a batter
 category: "Browser Automation"
 framework: "Multi-Framework"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/steel-browser-api-ai-agent-web-automation/"
+source: "https://github.com/steel-dev/steel-browser"
 ---
 
 # Steel Browser Open Source API for AI Agent Web Automation
@@ -54,3 +54,7 @@ npx skills add agentskillexchange/skills --skill steel-browser-api-ai-agent-web-
 ```bash
 npx skills add agentskillexchange/skills --skill steel-browser-api-ai-agent-web-automation -a openclaw
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/steel-browser-api-ai-agent-web-automation/)

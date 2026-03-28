@@ -4,7 +4,7 @@ description: "sqlite-utils is a Python CLI utility and library by Simon Willison
 category: "Data Extraction & Transformation"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/sqlite-utils-python-cli-sqlite-manipulation/"
+source: "https://github.com/simonw/sqlite-utils"
 ---
 
 # sqlite-utils Python CLI for SQLite Database Manipulation
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill sqlite-utils-python-cli-sqlite-
 ```bash
 clawhub install sqlite-utils-python-cli-sqlite-manipulation
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/sqlite-utils-python-cli-sqlite-manipulation/)

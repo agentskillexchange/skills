@@ -4,7 +4,7 @@ description: "Validates Jenkinsfile syntax and best practices using the Jenkins 
 category: "CI/CD Integrations"
 framework: "ChatGPT Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/jenkins-pipeline-linter-pro/"
+source: "https://github.com/jenkinsci/jenkins"
 tool_ecosystem:
   tool: jenkins
   github_stars: 25122

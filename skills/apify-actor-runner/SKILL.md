@@ -4,7 +4,7 @@ description: "Executes Apify cloud actors for structured web scraping with autom
 category: "Research & Scraping"
 framework: "Codex"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/apify-actor-runner/"
+source: "https://github.com/apify/apify-sdk-js"
 tool_ecosystem:
   tool: apify
   github_stars: 172

@@ -4,7 +4,7 @@ description: "Enriches HubSpot CRM contacts using the v3 Contacts API with batch
 category: "Integrations & Connectors"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/hubspot-crm-contact-enrichment-pipeline/"
+source: "https://github.com/HubSpot/hubspot-api-nodejs"
 tool_ecosystem:
   tool: hubspot
   github_stars: 391

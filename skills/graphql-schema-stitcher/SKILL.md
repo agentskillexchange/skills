@@ -4,7 +4,7 @@ description: "Merges multiple GraphQL schemas into a unified federated gateway u
 category: "Library & API Reference"
 framework: "MCP"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/graphql-schema-stitcher/"
+source: "https://github.com/graphql/graphql-js"
 tool_ecosystem:
   tool: graphql
   github_stars: 20332

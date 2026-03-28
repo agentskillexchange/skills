@@ -4,7 +4,7 @@ description: "Infisical is an open-source platform for managing application secr
 category: "Security & Verification"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/infisical-secret-management-platform/"
+source: "https://github.com/Infisical/infisical"
 ---
 
 # Infisical Open-Source Secret Management Platform
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill infisical-secret-management-pla
 ```bash
 clawhub install infisical-secret-management-platform
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/infisical-secret-management-platform/)

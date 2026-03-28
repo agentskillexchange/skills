@@ -4,7 +4,7 @@ description: "Automates OWASP ZAP active and passive scanning against web applic
 category: "Security & Verification"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/owasp-zap-security-scanner-agent/"
+source: "https://github.com/zaproxy/zaproxy"
 tool_ecosystem:
   tool: owasp
   github_stars: 14900

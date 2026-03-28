@@ -4,7 +4,7 @@ description: "Automates bulk image conversion using ImageMagick’s convert and 
 category: "Image & Creative Automation"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/imagemagick-batch-converter-cli/"
+source: "https://github.com/ImageMagick/ImageMagick"
 tool_ecosystem:
   tool: imagemagick
   github_stars: 15996

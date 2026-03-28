@@ -4,7 +4,7 @@ description: "Build audio and video streaming pipelines with Liquidsoap, a stati
 category: "Media & Transcription"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/liquidsoap-audio-video-streaming-language/"
+source: "https://github.com/savonet/liquidsoap"
 ---
 
 ## Installation
@@ -38,3 +38,7 @@ npx skills add agentskillexchange/skills --skill liquidsoap-audio-video-streamin
 ```bash
 clawhub install liquidsoap-audio-video-streaming-language
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/liquidsoap-audio-video-streaming-language/)

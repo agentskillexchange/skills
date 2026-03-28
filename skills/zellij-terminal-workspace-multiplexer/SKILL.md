@@ -4,7 +4,7 @@ description: "Zellij is a Rust-powered terminal workspace and multiplexer with f
 category: "Developer Tools"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/zellij-terminal-workspace-multiplexer/"
+source: "https://github.com/zellij-org/zellij"
 ---
 
 # Zellij Terminal Workspace and Multiplexer
@@ -54,3 +54,7 @@ npx skills add agentskillexchange/skills --skill zellij-terminal-workspace-multi
 ```bash
 clawhub install zellij-terminal-workspace-multiplexer
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/zellij-terminal-workspace-multiplexer/)

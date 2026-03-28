@@ -4,7 +4,7 @@ description: "Grafana Alloy is an open-source OpenTelemetry Collector distributi
 category: "Monitoring & Alerts"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/grafana-alloy-opentelemetry-collector/"
+source: "https://github.com/grafana/alloy"
 ---
 
 # Grafana Alloy OpenTelemetry Collector Distribution
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill grafana-alloy-opentelemetry-col
 ```bash
 clawhub install grafana-alloy-opentelemetry-collector
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/grafana-alloy-opentelemetry-collector/)

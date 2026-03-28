@@ -4,7 +4,7 @@ description: "Automates browser tasks with Browser Use, the open-source library 
 category: "Browser Automation"
 framework: "Multi-Framework"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/browser-use-ai-browser-automation-library/"
+source: "https://github.com/browser-use/browser-use"
 ---
 
 # Browser Use AI Browser Automation Library
@@ -37,3 +37,7 @@ npx skills add browser-use-ai-browser-automation-library
 ```bash
 clawhub install browser-use-ai-browser-automation-library
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/browser-use-ai-browser-automation-library/)

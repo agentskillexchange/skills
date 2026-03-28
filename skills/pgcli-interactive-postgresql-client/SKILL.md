@@ -4,7 +4,7 @@ description: "pgcli is an interactive PostgreSQL CLI with context-aware autocomp
 category: "Developer Tools"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/pgcli-interactive-postgresql-client/"
+source: "https://github.com/dbcli/pgcli"
 ---
 
 # pgcli Interactive PostgreSQL Client with Autocompletion
@@ -55,3 +55,7 @@ Syntax highlighting makes complex queries easier to read directly in the termina
 pgcli supports all standard PostgreSQL connection methods including TCP, Unix sockets, and connection URIs. It handles SSL connections, multiple databases, and can output results in various formats including CSV, TSV, and formatted tables. Special commands like \dt for listing tables, \d+ for describing table structures, and \e for opening queries in an external editor are all supported.
 
 For AI agents that interact with PostgreSQL databases, pgcli provides a more informative and interactive interface than the default psql client. An agent can use it to explore database schemas with autocompletion, inspect table structures, run diagnostic queries, and export results. The tool installs via pip install pgcli or brew install pgcli and requires no additional configuration beyond a database connection string.
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/pgcli-interactive-postgresql-client/)

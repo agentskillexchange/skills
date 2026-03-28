@@ -4,7 +4,7 @@ description: "Perform offline speech recognition across 20+ languages with Vosk.
 category: "Media & Transcription"
 framework: "Multi-Framework"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/vosk-offline-speech-recognition-toolkit/"
+source: "https://github.com/alphacep/vosk-api"
 ---
 
 # Vosk Offline Speech Recognition Toolkit
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill vosk-offline-speech-recognition
 ```bash
 clawhub install vosk-offline-speech-recognition-toolkit
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/vosk-offline-speech-recognition-toolkit/)

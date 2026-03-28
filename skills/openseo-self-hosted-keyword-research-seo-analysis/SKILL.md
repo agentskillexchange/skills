@@ -4,7 +4,7 @@ description: "OpenSEO is an open-source, self-hostable SEO platform that provide
 category: "Content Writing & SEO"
 framework: "Multi-Framework"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/openseo-self-hosted-keyword-research-seo-analysis/"
+source: "https://github.com/every-app/open-seo"
 ---
 
 # OpenSEO Self-Hosted Keyword Research and SEO Analysis Platform
@@ -54,3 +54,7 @@ npx skills add agentskillexchange/skills --skill openseo-self-hosted-keyword-res
 ```bash
 npx skills add agentskillexchange/skills --skill openseo-self-hosted-keyword-research-seo-analysis -a openclaw
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/openseo-self-hosted-keyword-research-seo-analysis/)

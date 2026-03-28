@@ -4,7 +4,7 @@ description: "theHarvester is an open-source OSINT tool for gathering emails, su
 category: "Research & Scraping"
 framework: "Multi-Framework"
 verification: listed
-source: "https://agentskillexchange.com/skills/theharvester-osint-email-subdomain-intelligence/"
+source: "https://github.com/laramies/theHarvester"
 ---
 
 # theHarvester OSINT Email and Subdomain Intelligence Gatherer
@@ -32,3 +32,7 @@ npx skills add theharvester-osint-email-subdomain-intelligence --codex
 ```bash
 clawhub install theharvester-osint-email-subdomain-intelligence
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/theharvester-osint-email-subdomain-intelligence/)

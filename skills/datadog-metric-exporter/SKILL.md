@@ -4,7 +4,7 @@ description: "Exports custom metrics and traces to Datadog using the DogStatsD p
 category: "Monitoring & Alerts"
 framework: "Gemini"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/datadog-metric-exporter/"
+source: "https://github.com/DataDog/dd-trace-js"
 tool_ecosystem:
   tool: datadog
   github_stars: 789

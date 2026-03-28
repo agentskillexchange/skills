@@ -4,7 +4,7 @@ description: "Build and debug WordPress REST endpoints with a specialized skill.
 category: "WordPress & CMS"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/wordpress-rest-api-builder/"
+source: "https://github.com/openclaw/openclaw/tree/main/skills/wp-rest-api"
 tool_ecosystem:
   tool: wordpress
   github_stars: 20976

@@ -4,7 +4,7 @@ description: "This skill uses write-good to flag vague, wordy, or hard-to-read E
 category: "Content Writing & SEO"
 framework: "Multi-Framework"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/write-good-english-prose-linting-technical-content/"
+source: "https://github.com/btford/write-good"
 ---
 
 # write-good English Prose Linting for Technical Content
@@ -37,3 +37,7 @@ npx skills add write-good-english-prose-linting-technical-content
 ```bash
 clawhub install write-good-english-prose-linting-technical-content
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/write-good-english-prose-linting-technical-content/)

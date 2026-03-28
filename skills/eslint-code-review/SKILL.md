@@ -4,7 +4,7 @@ description: "ESLint Code Review is built around ESLint static analysis for Java
 category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/eslint-code-review/"
+source: "https://github.com/eslint/eslint"
 tool_ecosystem:
   tool: eslint
   github_stars: 27185

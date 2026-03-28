@@ -4,7 +4,7 @@ description: "Generates declarative Jenkins pipeline scripts using the Jenkins P
 category: "CI/CD Integrations"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/jenkins-pipeline-generator/"
+source: "https://github.com/jenkinsci/jenkins"
 tool_ecosystem:
   tool: jenkins
   github_stars: 25122

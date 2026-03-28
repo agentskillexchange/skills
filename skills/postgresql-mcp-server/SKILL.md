@@ -4,7 +4,7 @@ description: "Agent access to PostgreSQL data and queries through MCP."
 category: "Data Extraction & Transformation"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/postgresql-mcp-server/"
+source: "https://github.com/modelcontextprotocol/servers"
 tool_ecosystem:
   tool: postgresql
   npm_weekly_downloads: 21413502

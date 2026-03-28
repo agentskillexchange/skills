@@ -4,7 +4,7 @@ description: "A modern open-source load testing tool from Grafana Labs, written 
 category: "Developer Tools"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/k6-load-testing-performance-benchmarking-tool/"
+source: "https://github.com/grafana/k6"
 ---
 
 # k6 Load Testing and Performance Benchmarking Tool
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill k6-load-testing-performance-ben
 ```bash
 clawhub install k6-load-testing-performance-benchmarking-tool
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/k6-load-testing-performance-benchmarking-tool/)

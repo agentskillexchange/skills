@@ -4,7 +4,7 @@ description: "Manage and tag music libraries with beets, the Python-based CLI to
 category: "Media & Transcription"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/beets-music-library-manager-tagger/"
+source: "https://github.com/beetbox/beets"
 ---
 
 ## Installation
@@ -38,3 +38,7 @@ npx skills add agentskillexchange/skills --skill beets-music-library-manager-tag
 ```bash
 clawhub install beets-music-library-manager-tagger
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/beets-music-library-manager-tagger/)

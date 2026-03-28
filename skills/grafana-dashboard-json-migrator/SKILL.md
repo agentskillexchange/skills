@@ -4,7 +4,7 @@ description: "Migrates Grafana dashboards between instances using the Grafana HT
 category: "Monitoring & Alerts"
 framework: "Cursor"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/grafana-dashboard-json-migrator/"
+source: "https://github.com/grafana/grafana"
 tool_ecosystem:
   tool: grafana
   github_stars: 72796

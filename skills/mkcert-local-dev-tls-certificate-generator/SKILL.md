@@ -4,7 +4,7 @@ description: "mkcert is a zero-configuration CLI tool by Filippo Valsorda that c
 category: "Developer Tools"
 framework: "Multi-Framework"
 verification: listed
-source: "https://agentskillexchange.com/skills/mkcert-local-dev-tls-certificate-generator/"
+source: "https://github.com/FiloSottile/mkcert"
 ---
 
 # mkcert Zero-Config Local Development TLS Certificate Generator

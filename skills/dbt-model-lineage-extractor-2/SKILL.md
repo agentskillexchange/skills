@@ -4,7 +4,7 @@ description: "Extracts and visualizes dbt model dependency lineage using the dbt
 category: "Data Extraction & Transformation"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/dbt-model-lineage-extractor-2/"
+source: "https://github.com/dbt-labs/dbt-core"
 tool_ecosystem:
   tool: dbt
   github_stars: 12460

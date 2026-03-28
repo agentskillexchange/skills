@@ -4,7 +4,7 @@ description: "Integrates Aqua Security Trivy CLI for comprehensive container ima
 category: "Security & Verification"
 framework: "Codex"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/trivy-container-security-scanner/"
+source: "https://github.com/aquasecurity/trivy"
 tool_ecosystem:
   tool: trivy
   github_stars: 34053

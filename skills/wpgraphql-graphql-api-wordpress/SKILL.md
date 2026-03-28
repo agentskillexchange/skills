@@ -4,7 +4,7 @@ description: "Builds headless WordPress workflows around WPGraphQL, the open-sou
 category: "WordPress & CMS"
 framework: "Multi-Framework"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/wpgraphql-graphql-api-wordpress/"
+source: "https://github.com/wp-graphql/wp-graphql"
 ---
 
 # WPGraphQL GraphQL API for WordPress
@@ -37,3 +37,7 @@ npx skills add wpgraphql-graphql-api-wordpress
 ```bash
 clawhub install wpgraphql-graphql-api-wordpress
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/wpgraphql-graphql-api-wordpress/)

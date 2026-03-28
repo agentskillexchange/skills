@@ -4,7 +4,7 @@ description: "SpiderFoot is an open-source OSINT automation tool that queries ov
 category: "Research & Scraping"
 framework: "Multi-Framework"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/spiderfoot-osint-automation-framework/"
+source: "https://github.com/smicallef/spiderfoot"
 ---
 
 # SpiderFoot Open Source Intelligence Automation Framework
@@ -65,3 +65,7 @@ AI agents can leverage SpiderFoot for security reconnaissance (mapping an organi
 ### Deployment
 
 SpiderFoot can be installed via pip, run from source, or deployed as a Docker container. It stores scan data in a local SQLite database and requires no external infrastructure beyond optional API keys for premium data sources.
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/spiderfoot-osint-automation-framework/)

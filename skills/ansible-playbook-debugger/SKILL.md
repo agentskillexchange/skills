@@ -4,7 +4,7 @@ description: "Diagnoses Ansible playbook failures using ansible-playbook –chec
 category: "Runbooks & Diagnostics"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/ansible-playbook-debugger/"
+source: "https://github.com/ansible/ansible"
 tool_ecosystem:
   tool: ansible
   github_stars: 68377

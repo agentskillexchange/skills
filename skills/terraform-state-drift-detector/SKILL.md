@@ -4,7 +4,7 @@ description: "Detects infrastructure drift by running terraform plan -detailed-e
 category: "Runbooks & Diagnostics"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/terraform-state-drift-detector/"
+source: "https://github.com/hashicorp/terraform"
 tool_ecosystem:
   tool: terraform
   github_stars: 48003

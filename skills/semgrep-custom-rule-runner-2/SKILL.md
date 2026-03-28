@@ -4,7 +4,7 @@ description: "Executes Semgrep OSS with custom YAML rule files for project-speci
 category: "Templates & Workflows"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/semgrep-custom-rule-runner-2/"
+source: "https://github.com/semgrep/semgrep"
 tool_ecosystem:
   tool: semgrep
   github_stars: 14551

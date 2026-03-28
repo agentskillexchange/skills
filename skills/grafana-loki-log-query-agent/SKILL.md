@@ -4,7 +4,7 @@ description: "Queries Grafana Loki log aggregation system using LogQL via the Lo
 category: "Monitoring & Alerts"
 framework: "MCP"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/grafana-loki-log-query-agent/"
+source: "https://github.com/grafana/grafana"
 tool_ecosystem:
   tool: grafana
   github_stars: 72796

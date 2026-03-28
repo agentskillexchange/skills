@@ -4,7 +4,7 @@ description: "An official Qdrant MCP server implementation that provides semanti
 category: "Integrations & Connectors"
 framework: "MCP"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/qdrant-mcp-server-vector-search-semantic-memory/"
+source: "https://github.com/qdrant/mcp-server-qdrant"
 ---
 
 # Qdrant MCP Server for Vector Search and Semantic Memory
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill qdrant-mcp-server-vector-search
 ```bash
 clawhub install qdrant-mcp-server-vector-search-semantic-memory
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/qdrant-mcp-server-vector-search-semantic-memory/)

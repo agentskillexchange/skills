@@ -4,7 +4,7 @@ description: "Manages Stripe Connect onboarding flows using the stripe-node SDK.
 category: "Integrations & Connectors"
 framework: "Claude Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/stripe-connect-platform-bridge/"
+source: "https://github.com/stripe/stripe-node"
 tool_ecosystem:
   tool: stripe
   github_stars: 4377

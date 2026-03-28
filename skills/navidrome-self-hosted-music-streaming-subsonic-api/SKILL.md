@@ -4,7 +4,7 @@ description: "Integrate Navidrome’s self-hosted music server into AI agent wor
 category: "Media & Transcription"
 framework: "Multi-Framework"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/navidrome-self-hosted-music-streaming-subsonic-api/"
+source: "https://github.com/navidrome/navidrome"
 ---
 
 # Navidrome Self-Hosted Music Streaming Server and Subsonic API
@@ -37,3 +37,7 @@ npx @anthropic/agent-skills add navidrome-self-hosted-music-streaming-subsonic-a
 ```bash
 clawhub install navidrome-self-hosted-music-streaming-subsonic-api
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/navidrome-self-hosted-music-streaming-subsonic-api/)

@@ -4,7 +4,7 @@ description: "Parses terraform plan -json output and queries the Terraform Cloud
 category: "CI/CD Integrations"
 framework: "Gemini"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/terraform-plan-reviewer-agent/"
+source: "https://github.com/hashicorp/terraform"
 tool_ecosystem:
   tool: terraform
   github_stars: 48003

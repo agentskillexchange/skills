@@ -4,7 +4,7 @@ description: "Playwright Test Recorder is built around Playwright browser automa
 category: "Code Quality & Review"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/playwright-test-recorder/"
+source: "https://github.com/microsoft/playwright"
 tool_ecosystem:
   tool: playwright
   github_stars: 84938

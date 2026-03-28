@@ -4,7 +4,7 @@ description: "Automates Terraform Cloud workspace runs using the TFC API v2. Cre
 category: "CI/CD Integrations"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/terraform-cloud-run-trigger/"
+source: "https://github.com/hashicorp/terraform"
 tool_ecosystem:
   tool: terraform
   github_stars: 48003

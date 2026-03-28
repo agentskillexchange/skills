@@ -4,7 +4,7 @@ description: "Like cURL but for gRPC servers. A command-line tool for interactin
 category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/grpcurl-command-line-grpc-client/"
+source: "https://github.com/fullstorydev/grpcurl"
 ---
 
 # grpcurl Command-Line gRPC Client

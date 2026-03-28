@@ -4,7 +4,7 @@ description: "pgroll is an open-source CLI tool by Xata that performs zero-downt
 category: "Developer Tools"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/pgroll-postgresql-zero-downtime-schema-migration/"
+source: "https://github.com/xataio/pgroll"
 tool_ecosystem:
   tool: postgresql
   npm_weekly_downloads: 21413502

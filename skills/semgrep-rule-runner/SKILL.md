@@ -4,7 +4,7 @@ description: "Executes Semgrep static analysis using the semgrep CLI with custom
 category: "Code Quality & Review"
 framework: "Gemini"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/semgrep-rule-runner/"
+source: "https://github.com/semgrep/semgrep"
 tool_ecosystem:
   tool: semgrep
   github_stars: 14551

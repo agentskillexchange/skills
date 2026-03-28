@@ -4,7 +4,7 @@ description: "Creates Datadog monitor definitions using the Datadog API v2 with 
 category: "Monitoring & Alerts"
 framework: "Cursor"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/datadog-monitor-blueprint-generator/"
+source: "https://github.com/DataDog/dd-trace-js"
 tool_ecosystem:
   tool: datadog
   github_stars: 789

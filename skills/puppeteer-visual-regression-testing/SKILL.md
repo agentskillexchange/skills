@@ -4,7 +4,7 @@ description: "Runs pixel-level visual regression tests using Puppeteer page.scre
 category: "Browser Automation"
 framework: "Cursor"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/puppeteer-visual-regression-testing/"
+source: "https://github.com/puppeteer/puppeteer"
 tool_ecosystem:
   tool: puppeteer
   github_stars: 93932

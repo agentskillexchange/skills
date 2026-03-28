@@ -4,7 +4,7 @@ description: "Notion Workspace Agent is built around Notion workspace and databa
 category: "Developer Tools"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/notion-workspace-agent/"
+source: "https://github.com/makenotion/notion-sdk-js"
 tool_ecosystem:
   tool: notion
   github_stars: 5562

@@ -4,7 +4,7 @@ description: "Generates Grafana dashboards programmatically using Grafonnet (jso
 category: "Monitoring & Alerts"
 framework: "Cursor"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/grafana-dashboard-as-code-generator/"
+source: "https://github.com/grafana/grafana"
 tool_ecosystem:
   tool: grafana
   github_stars: 72796

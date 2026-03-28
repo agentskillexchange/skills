@@ -4,7 +4,7 @@ description: "An open-source terminal-native AI coding agent written in Go that 
 category: "Developer Tools"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/opencode-multi-model-ai-coding-agent-cli/"
+source: "https://github.com/opencode-ai/opencode"
 ---
 
 # OpenCode Multi-Model AI Coding Agent CLI

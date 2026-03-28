@@ -4,7 +4,7 @@ description: "An interactive cheatsheet tool for the command line that lets you 
 category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/navi-interactive-cli-cheatsheet-tool/"
+source: "https://github.com/denisidoro/navi"
 ---
 
 # navi Interactive CLI Cheatsheet Tool

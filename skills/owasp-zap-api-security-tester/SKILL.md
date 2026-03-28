@@ -4,7 +4,7 @@ description: "Runs automated DAST scans against REST and GraphQL APIs using OWAS
 category: "Security & Verification"
 framework: "Codex"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/owasp-zap-api-security-tester/"
+source: "https://github.com/zaproxy/zaproxy"
 tool_ecosystem:
   tool: owasp
   github_stars: 14900

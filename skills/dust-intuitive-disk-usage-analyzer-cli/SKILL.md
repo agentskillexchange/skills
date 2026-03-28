@@ -4,7 +4,7 @@ description: "A more intuitive version of the du command, written in Rust. dust 
 category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/dust-intuitive-disk-usage-analyzer-cli/"
+source: "https://github.com/bootandy/dust"
 ---
 
 # dust Intuitive Disk Usage Analyzer CLI

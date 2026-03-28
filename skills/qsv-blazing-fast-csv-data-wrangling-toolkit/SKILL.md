@@ -4,7 +4,7 @@ description: "qsv is a high-performance command-line toolkit for querying, trans
 category: "Data Extraction & Transformation"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/qsv-blazing-fast-csv-data-wrangling-toolkit/"
+source: "https://github.com/dathere/qsv"
 ---
 
 # qsv Blazing-Fast CSV Data Wrangling Toolkit
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill qsv-blazing-fast-csv-data-wrang
 ```bash
 clawhub install qsv-blazing-fast-csv-data-wrangling-toolkit
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/qsv-blazing-fast-csv-data-wrangling-toolkit/)

@@ -4,7 +4,7 @@ description: "Manages multi-service Docker Compose environments using the Compos
 category: "Developer Tools"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/docker-compose-orchestrator-v2/"
+source: "https://github.com/moby/moby"
 tool_ecosystem:
   tool: docker
   github_stars: 71560

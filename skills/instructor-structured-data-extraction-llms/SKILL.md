@@ -4,7 +4,7 @@ description: "Instructor is a multi-language library for extracting structured, 
 category: "Data Extraction & Transformation"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/instructor-structured-data-extraction-llms/"
+source: "https://github.com/567-labs/instructor"
 ---
 
 # Instructor Structured Data Extraction from LLMs
@@ -56,3 +56,7 @@ npx skills add agentskillexchange/skills --skill instructor-structured-data-extr
 ```bash
 clawhub install instructor-structured-data-extraction-llms
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/instructor-structured-data-extraction-llms/)

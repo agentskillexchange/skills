@@ -4,7 +4,7 @@ description: "Diagnoses CrashLoopBackOff pods using kubectl and the Kubernetes A
 category: "Runbooks & Diagnostics"
 framework: "Codex"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/k8s-crashloopbackoff-diagnoser/"
+source: "https://github.com/kubernetes/kubernetes"
 tool_ecosystem:
   tool: kubernetes
   github_stars: 121334

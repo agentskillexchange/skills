@@ -4,7 +4,7 @@ description: "Automates headless PDF generation from web pages using the Playwri
 category: "Browser Automation"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/playwright-pdf-export-automation/"
+source: "https://github.com/microsoft/playwright"
 tool_ecosystem:
   tool: playwright
   github_stars: 84938

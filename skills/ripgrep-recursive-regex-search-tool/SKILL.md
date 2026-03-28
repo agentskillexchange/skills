@@ -4,7 +4,7 @@ description: "ripgrep (rg) is a line-oriented search tool that recursively searc
 category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/ripgrep-recursive-regex-search-tool/"
+source: "https://github.com/BurntSushi/ripgrep"
 ---
 
 # ripgrep Recursive Regex Search Tool

@@ -4,7 +4,7 @@ description: "Queries SonarQube Web API for project quality gate status, code co
 category: "Code Quality & Review"
 framework: "Gemini"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/sonarqube-quality-gate-checker/"
+source: "https://github.com/SonarSource/sonarqube"
 tool_ecosystem:
   tool: sonarqube
   github_stars: 10358

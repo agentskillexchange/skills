@@ -4,7 +4,7 @@ description: "Headless Chrome scraping via Puppeteer with automatic cookie handl
 category: "Research & Scraping"
 framework: "Cursor"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/puppeteer-web-scraper/"
+source: "https://github.com/puppeteer/puppeteer"
 tool_ecosystem:
   tool: puppeteer
   github_stars: 93932

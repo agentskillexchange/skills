@@ -4,7 +4,7 @@ description: "An MCP server that enables AI agents to manage Docker containers, 
 category: "Integrations & Connectors"
 framework: "MCP"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/docker-mcp-server-container-lifecycle-management/"
+source: "https://github.com/ckreiling/mcp-server-docker"
 ---
 
 # Docker MCP Server for Container Lifecycle Management

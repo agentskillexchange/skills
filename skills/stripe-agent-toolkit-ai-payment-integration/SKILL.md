@@ -4,7 +4,7 @@ description: "The official Stripe Agent Toolkit provides Python and TypeScript l
 category: "Integrations & Connectors"
 framework: "MCP"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/stripe-agent-toolkit-ai-payment-integration/"
+source: "https://github.com/stripe/ai"
 ---
 
 # Stripe Agent Toolkit for AI Payment Integration
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill stripe-agent-toolkit-ai-payment
 ```bash
 clawhub install stripe-agent-toolkit-ai-payment-integration
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/stripe-agent-toolkit-ai-payment-integration/)

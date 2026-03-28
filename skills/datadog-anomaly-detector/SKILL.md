@@ -4,7 +4,7 @@ description: "Leverages the Datadog API v2 metrics and events endpoints to detec
 category: "Monitoring & Alerts"
 framework: "Gemini"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/datadog-anomaly-detector/"
+source: "https://github.com/DataDog/dd-trace-js"
 tool_ecosystem:
   tool: datadog
   github_stars: 789

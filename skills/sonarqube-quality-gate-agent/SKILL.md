@@ -4,7 +4,7 @@ description: "Monitors SonarQube quality gate status via the SonarQube Web API a
 category: "Code Quality & Review"
 framework: "ChatGPT Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/sonarqube-quality-gate-agent/"
+source: "https://github.com/SonarSource/sonarqube"
 tool_ecosystem:
   tool: sonarqube
   github_stars: 10358

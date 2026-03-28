@@ -4,7 +4,7 @@ description: "Use Langfuse to capture prompts, traces, generations, evaluations,
 category: "Monitoring &amp; Alerts"
 framework: "Multi-Framework"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/langfuse-llm-observability-platform-and-sdk/"
+source: "https://github.com/langfuse/langfuse"
 ---
 
 # Langfuse LLM Observability Platform and SDK

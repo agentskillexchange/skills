@@ -4,7 +4,7 @@ description: "Drizzle ORM is a lightweight TypeScript ORM that provides type-saf
 category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/drizzle-orm-typescript-sql-database-toolkit/"
+source: "https://github.com/drizzle-team/drizzle-orm"
 ---
 
 # Drizzle ORM TypeScript SQL Database Toolkit
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill drizzle-orm-typescript-sql-data
 ```bash
 clawhub install drizzle-orm-typescript-sql-database-toolkit
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/drizzle-orm-typescript-sql-database-toolkit/)

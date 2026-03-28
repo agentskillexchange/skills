@@ -4,7 +4,7 @@ description: "Transforms complex PDFs into LLM-ready markdown and JSON using Min
 category: "Data Extraction & Transformation"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/mineru-pdf-to-markdown-document-parser/"
+source: "https://github.com/opendatalab/MinerU"
 ---
 
 # MinerU PDF-to-Markdown Document Parser

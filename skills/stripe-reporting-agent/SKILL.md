@@ -4,7 +4,7 @@ description: "Stripe Reporting Agent is built around Stripe payments platform. T
 category: "Integrations & Connectors"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/stripe-reporting-agent/"
+source: "https://github.com/stripe/stripe-node"
 tool_ecosystem:
   tool: stripe
   github_stars: 4377

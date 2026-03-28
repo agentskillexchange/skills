@@ -4,7 +4,7 @@ description: "Observability and debugging support for AI-assisted application wo
 category: "Security & Verification"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/sentry-for-ai/"
+source: "https://github.com/getsentry/sentry-for-ai"
 tool_ecosystem:
   tool: sentry
   github_stars: 43437

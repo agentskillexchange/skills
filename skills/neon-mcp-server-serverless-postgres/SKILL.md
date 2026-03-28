@@ -4,7 +4,7 @@ description: "The Neon MCP Server enables AI agents to manage serverless Postgre
 category: "Integrations & Connectors"
 framework: "MCP"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/neon-mcp-server-serverless-postgres/"
+source: "https://github.com/neondatabase/mcp-server-neon"
 ---
 
 # Neon MCP Server for Serverless Postgres Management
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill neon-mcp-server-serverless-post
 ```bash
 clawhub install neon-mcp-server-serverless-postgres
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/neon-mcp-server-serverless-postgres/)

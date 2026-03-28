@@ -4,7 +4,7 @@ description: "Evidence is an open-source framework for building data products wi
 category: "Data Extraction & Transformation"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/evidence-bi-as-code-sql-markdown-analytics/"
+source: "https://github.com/evidence-dev/evidence"
 ---
 
 # Evidence BI-as-Code SQL and Markdown Analytics Framework
@@ -56,3 +56,7 @@ npx skills add agentskillexchange/skills --skill evidence-bi-as-code-sql-markdow
 ```bash
 clawhub install evidence-bi-as-code-sql-markdown-analytics
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/evidence-bi-as-code-sql-markdown-analytics/)

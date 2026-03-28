@@ -4,7 +4,7 @@ description: "Runs visual regression tests comparing screenshots captured via Cy
 category: "Browser Automation"
 framework: "Cursor"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/cypress-visual-regression-runner/"
+source: "https://github.com/cypress-io/cypress"
 tool_ecosystem:
   tool: cypress
   github_stars: 49611

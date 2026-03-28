@@ -4,7 +4,7 @@ description: "DevDocs aggregates 500+ API documentation sets into a single searc
 category: "Library & API Reference"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/devdocs-unified-api-documentation-browser/"
+source: "https://github.com/freeCodeCamp/devdocs"
 ---
 
 # DevDocs Unified API Documentation Browser
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill devdocs-unified-api-documentati
 ```bash
 clawhub install devdocs-unified-api-documentation-browser
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/devdocs-unified-api-documentation-browser/)

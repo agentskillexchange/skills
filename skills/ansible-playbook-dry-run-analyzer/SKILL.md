@@ -4,7 +4,7 @@ description: "Executes ansible-playbook –check –diff mode and parses the JSO
 category: "Runbooks & Diagnostics"
 framework: "Gemini"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/ansible-playbook-dry-run-analyzer/"
+source: "https://github.com/ansible/ansible"
 tool_ecosystem:
   tool: ansible
   github_stars: 68377

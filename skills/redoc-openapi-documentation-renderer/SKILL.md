@@ -4,7 +4,7 @@ description: "Redoc is an open-source tool by Redocly for generating beautiful, 
 category: "Library & API Reference"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/redoc-openapi-documentation-renderer/"
+source: "https://github.com/Redocly/redoc"
 ---
 
 # Redoc OpenAPI Documentation Renderer
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill redoc-openapi-documentation-ren
 ```bash
 clawhub install redoc-openapi-documentation-renderer
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/redoc-openapi-documentation-renderer/)

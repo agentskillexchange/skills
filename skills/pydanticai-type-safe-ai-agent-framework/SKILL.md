@@ -4,7 +4,7 @@ description: "PydanticAI is an AI agent framework built by the Pydantic team tha
 category: "Developer Tools"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/pydanticai-type-safe-ai-agent-framework/"
+source: "https://github.com/pydantic/pydantic-ai"
 ---
 
 # PydanticAI Type-Safe AI Agent Framework
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill pydanticai-type-safe-ai-agent-f
 ```bash
 clawhub install pydanticai-type-safe-ai-agent-framework
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/pydanticai-type-safe-ai-agent-framework/)

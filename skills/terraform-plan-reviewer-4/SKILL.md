@@ -4,7 +4,7 @@ description: "Parses Terraform plan JSON output from terraform show -json and th
 category: "CI/CD Integrations"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/terraform-plan-reviewer-4/"
+source: "https://github.com/hashicorp/terraform"
 tool_ecosystem:
   tool: terraform
   github_stars: 48003

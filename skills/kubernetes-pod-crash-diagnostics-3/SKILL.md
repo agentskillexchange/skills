@@ -4,7 +4,7 @@ description: "Runs kubectl describe pod, kubectl logs –previous, and kubectl g
 category: "Developer Tools"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/kubernetes-pod-crash-diagnostics-3/"
+source: "https://github.com/kubernetes/kubernetes"
 tool_ecosystem:
   tool: kubernetes
   github_stars: 121334

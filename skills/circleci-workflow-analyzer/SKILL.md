@@ -4,7 +4,7 @@ description: "Analyzes and optimizes CircleCI workflows using the CircleCI v2 AP
 category: "CI/CD Integrations"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/circleci-workflow-analyzer/"
+source: "https://github.com/circleci/circleci-docs"
 tool_ecosystem:
   tool: circleci
   github_stars: 842

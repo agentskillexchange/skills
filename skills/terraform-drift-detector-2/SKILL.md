@@ -4,7 +4,7 @@ description: "Detect infrastructure drift by comparing Terraform state with live
 category: "CI/CD Integrations"
 framework: "Gemini"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/terraform-drift-detector-2/"
+source: "https://github.com/hashicorp/terraform"
 tool_ecosystem:
   tool: terraform
   github_stars: 48003

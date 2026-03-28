@@ -4,7 +4,7 @@ description: "Fabric is an open-source framework for augmenting humans using AI.
 category: "Developer Tools"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/fabric-ai-prompt-pattern-framework/"
+source: "https://github.com/danielmiessler/fabric"
 ---
 
 # Fabric AI Prompt Pattern Framework
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill fabric-ai-prompt-pattern-framew
 ```bash
 clawhub install fabric-ai-prompt-pattern-framework
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/fabric-ai-prompt-pattern-framework/)

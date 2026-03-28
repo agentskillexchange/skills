@@ -4,7 +4,7 @@ description: "Sends and receives SMS/MMS messages via Twilio REST API with webho
 category: "Integrations & Connectors"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/twilio-programmable-sms-gateway/"
+source: "https://github.com/twilio/twilio-node"
 tool_ecosystem:
   tool: twilio
   github_stars: 1523

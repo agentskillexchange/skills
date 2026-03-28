@@ -4,7 +4,7 @@ description: "Manages browser session allocation across Selenium Grid 4 nodes us
 category: "Browser Automation"
 framework: "Cursor"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/selenium-grid-session-distributor/"
+source: "https://github.com/SeleniumHQ/selenium"
 tool_ecosystem:
   tool: selenium
   github_stars: 34174

@@ -3,7 +3,7 @@ name: "httpx Fast Multi-Purpose HTTP Probing Toolkit by ProjectDiscovery"
 description: "httpx by ProjectDiscovery is a fast, multi-purpose HTTP toolkit for running probes against lists of hosts. It detects live web servers, extracts response metadata, fingerprints technologies, and outputs structured results for security reconnaissance and monitoring pipelines."
 category: "Security & Verification"
 verification: listed
-source: "https://agentskillexchange.com/skills/httpx-http-probing-toolkit-projectdiscovery/"
+source: "https://github.com/projectdiscovery/httpx"
 ---
 
 # httpx Fast Multi-Purpose HTTP Probing Toolkit by ProjectDiscovery
@@ -36,3 +36,7 @@ npx skills add httpx-http-probing-toolkit-projectdiscovery --codex
 ```bash
 clawhub install httpx-http-probing-toolkit-projectdiscovery
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/httpx-http-probing-toolkit-projectdiscovery/)

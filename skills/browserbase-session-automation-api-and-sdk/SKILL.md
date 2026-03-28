@@ -4,7 +4,7 @@ description: "Use Browserbase when an agent needs hosted browser sessions, remot
 category: "Browser Automation"
 framework: "Multi-Framework"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/browserbase-session-automation-api-and-sdk/"
+source: "https://github.com/browserbase/sdk-node"
 ---
 
 # Browserbase Session Automation API and SDK

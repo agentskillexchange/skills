@@ -4,7 +4,7 @@ description: "Run Claude Code as a one-shot MCP tool so other agents and editors
 category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/claude-code-mcp-bridge/"
+source: "https://github.com/steipete/claude-code-mcp"
 ---
 
 # Claude Code MCP Bridge

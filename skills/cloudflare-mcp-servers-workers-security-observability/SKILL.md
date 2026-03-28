@@ -4,7 +4,7 @@ description: "Official Cloudflare MCP servers that enable AI assistants to manag
 category: "Integrations & Connectors"
 framework: "MCP"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/cloudflare-mcp-servers-workers-security-observability/"
+source: "https://github.com/cloudflare/mcp-server-cloudflare"
 ---
 
 # Cloudflare MCP Servers for Workers, Security, and Observability
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill cloudflare-mcp-servers-workers-
 ```bash
 clawhub install cloudflare-mcp-servers-workers-security-observability
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/cloudflare-mcp-servers-workers-security-observability/)

@@ -4,7 +4,7 @@ description: "Lightpanda is a headless browser built from scratch in Zig, purpos
 category: "Browser Automation"
 framework: "Multi-Framework"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/lightpanda-headless-browser-ai-automation/"
+source: "https://github.com/lightpanda-io/browser"
 ---
 
 # Lightpanda Headless Browser for AI Automation
@@ -54,3 +54,7 @@ npx skills add agentskillexchange/skills --skill lightpanda-headless-browser-ai-
 ```bash
 npx skills add agentskillexchange/skills --skill lightpanda-headless-browser-ai-automation -a openclaw
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/lightpanda-headless-browser-ai-automation/)

@@ -4,7 +4,7 @@ description: "Queries distributed traces from Datadog APM using the Trace Search
 category: "Monitoring & Alerts"
 framework: "MCP"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/datadog-apm-trace-query-agent/"
+source: "https://github.com/DataDog/dd-trace-js"
 tool_ecosystem:
   tool: datadog
   github_stars: 789

@@ -4,7 +4,7 @@ description: "Manages Scrapy spider deployments and job scheduling on ScrapyClou
 category: "Research & Scraping"
 framework: "ChatGPT Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/scrapycloud-job-manager/"
+source: "https://github.com/scrapy/scrapy"
 tool_ecosystem:
   tool: scrapy
   github_stars: 60923

@@ -4,7 +4,7 @@ description: "bat is a cat(1) clone written in Rust that adds syntax highlightin
 category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/bat-syntax-highlighting-cat-replacement/"
+source: "https://github.com/sharkdp/bat"
 ---
 
 # bat Syntax-Highlighting Cat Replacement

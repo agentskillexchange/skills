@@ -4,7 +4,7 @@ description: "Batch transcode media files using FFmpeg CLI with preset profiles 
 category: "Media & Transcription"
 framework: "Cursor"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/ffmpeg-batch-transcoder-skill/"
+source: "https://github.com/FFmpeg/FFmpeg"
 tool_ecosystem:
   tool: ffmpeg
   github_stars: 58283

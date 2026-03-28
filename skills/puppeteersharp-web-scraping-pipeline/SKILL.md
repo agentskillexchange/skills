@@ -4,7 +4,7 @@ description: "Builds headless Chrome scraping pipelines using PuppeteerSharp for
 category: "Research & Scraping"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/puppeteersharp-web-scraping-pipeline/"
+source: "https://github.com/puppeteer/puppeteer"
 tool_ecosystem:
   tool: puppeteer
   github_stars: 93932

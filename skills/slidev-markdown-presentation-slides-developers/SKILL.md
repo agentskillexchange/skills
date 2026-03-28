@@ -4,7 +4,7 @@ description: "Slidev is a web-based presentation tool built for developers that 
 category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/slidev-markdown-presentation-slides-developers/"
+source: "https://github.com/slidevjs/slidev"
 ---
 
 # Slidev Markdown Presentation Slides for Developers
@@ -56,3 +56,7 @@ npx skills add agentskillexchange/skills --skill slidev-markdown-presentation-sl
 ```bash
 clawhub install slidev-markdown-presentation-slides-developers
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/slidev-markdown-presentation-slides-developers/)

@@ -4,7 +4,7 @@ description: "retext is a natural language processor powered by plugins, part of
 category: "Content Writing & SEO"
 framework: "Multi-Framework"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/retext-natural-language-processor-unified-plugins/"
+source: "https://github.com/retextjs/retext"
 ---
 
 # retext Natural Language Processor with Unified Plugin Ecosystem
@@ -54,3 +54,7 @@ npx skills add agentskillexchange/skills --skill retext-natural-language-process
 ```bash
 npx skills add agentskillexchange/skills --skill retext-natural-language-processor-unified-plugins -a openclaw
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/retext-natural-language-processor-unified-plugins/)

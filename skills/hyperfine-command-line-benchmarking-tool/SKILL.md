@@ -4,7 +4,7 @@ description: "Benchmark command-line programs with statistical rigor using Hyper
 category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/hyperfine-command-line-benchmarking-tool/"
+source: "https://github.com/sharkdp/hyperfine"
 ---
 
 # Hyperfine Command-Line Benchmarking Tool

@@ -4,7 +4,7 @@ description: "Yazi is a blazing-fast terminal file manager written in Rust with 
 category: "Developer Tools"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/yazi-async-terminal-file-manager/"
+source: "https://github.com/sxyazi/yazi"
 ---
 
 # Yazi Async Terminal File Manager
@@ -54,3 +54,7 @@ npx skills add agentskillexchange/skills --skill yazi-async-terminal-file-manage
 ```bash
 clawhub install yazi-async-terminal-file-manager
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/yazi-async-terminal-file-manager/)

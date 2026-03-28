@@ -4,7 +4,7 @@ description: "Records and replays HTTP Archive (HAR) files using Playwright rout
 category: "Browser Automation"
 framework: "Codex"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/playwright-network-har-recorder/"
+source: "https://github.com/microsoft/playwright"
 tool_ecosystem:
   tool: playwright
   github_stars: 84938

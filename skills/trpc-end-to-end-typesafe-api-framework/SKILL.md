@@ -4,7 +4,7 @@ description: "tRPC enables developers to build fully typesafe APIs in TypeScript
 category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/trpc-end-to-end-typesafe-api-framework/"
+source: "https://github.com/trpc/trpc"
 ---
 
 # tRPC End-to-End Typesafe API Framework
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill trpc-end-to-end-typesafe-api-fr
 ```bash
 clawhub install trpc-end-to-end-typesafe-api-framework
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/trpc-end-to-end-typesafe-api-framework/)

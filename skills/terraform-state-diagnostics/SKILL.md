@@ -4,7 +4,7 @@ description: "Diagnoses Terraform state issues using terraform state commands, t
 category: "Runbooks & Diagnostics"
 framework: "ChatGPT Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/terraform-state-diagnostics/"
+source: "https://github.com/hashicorp/terraform"
 tool_ecosystem:
   tool: terraform
   github_stars: 48003

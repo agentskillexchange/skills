@@ -4,7 +4,7 @@ description: "An agent skill built on Decap CMS (formerly Netlify CMS), the open
 category: "WordPress & CMS"
 framework: "Framework Agnostic"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/decap-cms-git-based-content-management-static-sites/"
+source: "https://github.com/decaporg/decap-cms"
 ---
 
 # Decap CMS Git-Based Content Management for Static Sites

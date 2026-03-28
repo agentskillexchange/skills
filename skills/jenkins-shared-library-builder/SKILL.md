@@ -4,7 +4,7 @@ description: "Scaffolds and tests Jenkins Shared Libraries using the jenkins-pip
 category: "CI/CD Integrations"
 framework: "Gemini"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/jenkins-shared-library-builder/"
+source: "https://github.com/jenkinsci/jenkins"
 tool_ecosystem:
   tool: jenkins
   github_stars: 25122

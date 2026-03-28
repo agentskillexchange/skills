@@ -4,7 +4,7 @@ description: "An agent skill built on imgproxy, the high-performance Go-based im
 category: "Image & Creative Automation"
 framework: "Framework Agnostic"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/imgproxy-high-performance-image-processing-proxy/"
+source: "https://github.com/imgproxy/imgproxy"
 ---
 
 # imgproxy High-Performance Image Processing Proxy

@@ -4,7 +4,7 @@ description: "Trigger.dev is an open-source platform for building and deploying 
 category: "Developer Tools"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/trigger-dev-typescript-background-jobs-platform/"
+source: "https://github.com/triggerdotdev/trigger.dev"
 ---
 
 # Trigger.dev TypeScript Background Jobs Platform
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill trigger-dev-typescript-backgrou
 ```bash
 clawhub install trigger-dev-typescript-background-jobs-platform
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/trigger-dev-typescript-background-jobs-platform/)

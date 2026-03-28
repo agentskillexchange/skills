@@ -4,7 +4,7 @@ description: "Runs automated diagnostic sequences on Kubernetes pods using kubec
 category: "Runbooks & Diagnostics"
 framework: "Cursor"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/kubernetes-pod-diagnostics-runner-2/"
+source: "https://github.com/kubernetes/kubernetes"
 tool_ecosystem:
   tool: kubernetes
   github_stars: 121334

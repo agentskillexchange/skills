@@ -4,7 +4,7 @@ description: "Audits Jenkins shared libraries for security vulnerabilities using
 category: "CI/CD Integrations"
 framework: "Cursor"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/jenkins-shared-library-auditor-agent/"
+source: "https://github.com/jenkinsci/jenkins"
 tool_ecosystem:
   tool: jenkins
   github_stars: 25122

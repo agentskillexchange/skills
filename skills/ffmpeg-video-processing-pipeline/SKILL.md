@@ -4,7 +4,7 @@ description: "Builds complex FFmpeg filtergraph chains for batch video transcodi
 category: "Image & Creative Automation"
 framework: "MCP"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/ffmpeg-video-processing-pipeline/"
+source: "https://github.com/FFmpeg/FFmpeg"
 tool_ecosystem:
   tool: ffmpeg
   github_stars: 58283

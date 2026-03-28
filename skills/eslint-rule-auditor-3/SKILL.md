@@ -4,7 +4,7 @@ description: "Audits ESLint configurations using @eslint/eslintrc and @eslint/js
 category: "Code Quality & Review"
 framework: "Cursor"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/eslint-rule-auditor-3/"
+source: "https://github.com/eslint/eslint"
 tool_ecosystem:
   tool: eslint
   github_stars: 27185

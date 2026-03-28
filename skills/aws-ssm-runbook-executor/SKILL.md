@@ -4,7 +4,7 @@ description: "Execute AWS Systems Manager Automation runbooks and Run Command do
 category: "Runbooks & Diagnostics"
 framework: "Claude Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/aws-ssm-runbook-executor/"
+source: "https://github.com/aws/aws-sdk-js-v3"
 tool_ecosystem:
   tool: aws
   github_stars: 3594

@@ -4,7 +4,7 @@ description: "Generates Grafana dashboard JSON using the Grafana HTTP API /api/d
 category: "Monitoring & Alerts"
 framework: "Cursor"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/grafana-dashboard-scaffolder/"
+source: "https://github.com/grafana/grafana"
 tool_ecosystem:
   tool: grafana
   github_stars: 72796

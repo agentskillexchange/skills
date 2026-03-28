@@ -4,7 +4,7 @@ description: "duf is a modern disk usage/free utility written in Go that provide
 category: ""
 framework: "Multi-Framework"
 verification: listed
-source: "https://agentskillexchange.com/skills/duf-modern-disk-usage-free-utility/"
+source: "https://github.com/muesli/duf"
 ---
 
 # duf Modern Disk Usage and Free Utility
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill duf-modern-disk-usage-free-util
 ```bash
 clawhub install duf-modern-disk-usage-free-utility
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/duf-modern-disk-usage-free-utility/)

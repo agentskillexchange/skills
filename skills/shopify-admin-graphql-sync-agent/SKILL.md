@@ -4,7 +4,7 @@ description: "Coordinates Shopify data syncs with the Admin GraphQL API, includi
 category: "Integrations & Connectors"
 framework: "ChatGPT Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/shopify-admin-graphql-sync-agent/"
+source: "https://github.com/graphql/graphql-js"
 tool_ecosystem:
   tool: graphql
   github_stars: 20332

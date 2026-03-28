@@ -4,7 +4,7 @@ description: "Generates contact-sheet-style thumbnail grids from video files usi
 category: "Image & Creative Automation"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/ffmpeg-thumbnail-grid-generator/"
+source: "https://github.com/FFmpeg/FFmpeg"
 tool_ecosystem:
   tool: ffmpeg
   github_stars: 58283

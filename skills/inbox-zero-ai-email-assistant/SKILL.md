@@ -4,7 +4,7 @@ description: "Inbox Zero is an open-source AI email assistant with over 10,000 G
 category: "Calendar, Email & Productivity"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/inbox-zero-ai-email-assistant/"
+source: "https://github.com/elie222/inbox-zero"
 ---
 
 # Inbox Zero AI Email Assistant
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill inbox-zero-ai-email-assistant -
 ```bash
 clawhub install inbox-zero-ai-email-assistant
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/inbox-zero-ai-email-assistant/)

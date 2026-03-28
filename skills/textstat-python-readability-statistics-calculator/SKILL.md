@@ -4,7 +4,7 @@ description: "textstat is a Python package that calculates readability statistic
 category: "Content Writing & SEO"
 framework: "Multi-Framework"
 verification: listed
-source: "https://agentskillexchange.com/skills/textstat-python-readability-statistics-calculator/"
+source: "https://github.com/textstat/textstat"
 ---
 
 # textstat Python Readability Statistics Calculator
@@ -32,3 +32,7 @@ npx skills add textstat-python-readability-statistics-calculator --codex
 ```bash
 clawhub install textstat-python-readability-statistics-calculator
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/textstat-python-readability-statistics-calculator/)

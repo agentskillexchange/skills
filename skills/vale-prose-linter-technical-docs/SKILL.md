@@ -4,7 +4,7 @@ description: "Vale is an open-source, markup-aware prose linter that enforces ed
 category: "Code Quality & Review"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/vale-prose-linter-technical-docs/"
+source: "https://github.com/vale-cli/vale"
 ---
 
 # Vale Prose Linter for Technical Documentation
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill vale-prose-linter-technical-doc
 ```bash
 clawhub install vale-prose-linter-technical-docs
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/vale-prose-linter-technical-docs/)

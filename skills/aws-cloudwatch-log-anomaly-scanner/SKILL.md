@@ -4,7 +4,7 @@ description: "Scans AWS CloudWatch Logs using the CloudWatch Logs Insights API a
 category: "Runbooks & Diagnostics"
 framework: "Codex"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/aws-cloudwatch-log-anomaly-scanner/"
+source: "https://github.com/aws/aws-sdk-js-v3"
 tool_ecosystem:
   tool: aws
   github_stars: 3594

@@ -4,7 +4,7 @@ description: "Perform high-volume data synchronization with Salesforce using the
 category: "Integrations & Connectors"
 framework: "Codex"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/salesforce-bulk-api-sync-agent/"
+source: "https://github.com/jsforce/jsforce"
 tool_ecosystem:
   tool: salesforce
   github_stars: 1452

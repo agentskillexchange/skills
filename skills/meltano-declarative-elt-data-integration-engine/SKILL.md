@@ -4,7 +4,7 @@ description: "Meltano is an open-source, CLI-first ELT platform built on the Sin
 category: "Data Extraction & Transformation"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/meltano-declarative-elt-data-integration-engine/"
+source: "https://github.com/meltano/meltano"
 tool_ecosystem:
   tool: docker
   github_stars: 71560

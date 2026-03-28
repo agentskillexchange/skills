@@ -4,7 +4,7 @@ description: "Encrypt and decrypt files with age (FiloSottile/age), a simple, mo
 category: "Security & Verification"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/age-modern-file-encryption-tool/"
+source: "https://github.com/FiloSottile/age"
 ---
 
 # age Modern File Encryption Tool

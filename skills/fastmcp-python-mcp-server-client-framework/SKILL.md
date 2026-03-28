@@ -4,7 +4,7 @@ description: "FastMCP is the standard Python framework for building Model Contex
 category: "Developer Tools"
 framework: "MCP"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/fastmcp-python-mcp-server-client-framework/"
+source: "https://github.com/PrefectHQ/fastmcp"
 ---
 
 # FastMCP Python MCP Server and Client Framework

@@ -4,7 +4,7 @@ description: "Orchestrates Apify actors for large-scale web scraping via the Api
 category: "Research & Scraping"
 framework: "Cursor"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/apify-web-scraper-orchestrator-3/"
+source: "https://github.com/apify/apify-sdk-js"
 tool_ecosystem:
   tool: apify
   github_stars: 172

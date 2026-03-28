@@ -4,7 +4,7 @@ description: "A complete, idiomatic Git implementation written in pure Rust, pro
 category: "Developer Tools"
 framework: "Cursor"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/gitoxide-pure-rust-git-implementation/"
+source: "https://github.com/GitoxideLabs/gitoxide"
 ---
 
 # Gitoxide Pure Rust Git Implementation and Library

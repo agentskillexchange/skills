@@ -4,7 +4,7 @@ description: "lsd (LSDeluxe) is a modern rewrite of the classic ls command writt
 category: "Developer Tools"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/lsd-next-gen-ls-directory-listing/"
+source: "https://github.com/lsd-rs/lsd"
 ---
 
 # lsd Next-Generation ls Directory Listing Tool

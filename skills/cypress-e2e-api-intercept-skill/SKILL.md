@@ -4,7 +4,7 @@ description: "Creates end-to-end tests with Cypress cy.intercept() for API mocki
 category: "Browser Automation"
 framework: "Codex"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/cypress-e2e-api-intercept-skill/"
+source: "https://github.com/cypress-io/cypress"
 tool_ecosystem:
   tool: cypress
   github_stars: 49611

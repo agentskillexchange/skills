@@ -4,7 +4,7 @@ description: "Audits Jenkins shared library Groovy scripts for security anti-pat
 category: "CI/CD Integrations"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/jenkins-groovy-shared-library-auditor/"
+source: "https://github.com/jenkinsci/jenkins"
 tool_ecosystem:
   tool: jenkins
   github_stars: 25122

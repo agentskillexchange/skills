@@ -4,7 +4,7 @@ description: "Plandex is an open-source terminal-based AI coding agent designed 
 category: ""
 framework: "Multi-Framework"
 verification: listed
-source: "https://agentskillexchange.com/skills/plandex-ai-coding-agent-large-projects/"
+source: "https://github.com/plandex-ai/plandex"
 ---
 
 # Plandex AI Coding Agent for Large Projects
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill plandex-ai-coding-agent-large-p
 ```bash
 clawhub install plandex-ai-coding-agent-large-projects
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/plandex-ai-coding-agent-large-projects/)

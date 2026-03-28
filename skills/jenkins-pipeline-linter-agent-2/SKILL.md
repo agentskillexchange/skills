@@ -4,7 +4,7 @@ description: "Validates Jenkinsfile syntax using the Jenkins Pipeline Linter RES
 category: "CI/CD Integrations"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/jenkins-pipeline-linter-agent-2/"
+source: "https://github.com/jenkinsci/jenkins"
 tool_ecosystem:
   tool: jenkins
   github_stars: 25122

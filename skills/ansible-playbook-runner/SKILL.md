@@ -4,7 +4,7 @@ description: "Ansible Playbook Runner is built around Ansible automation engine.
 category: "Templates & Workflows"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/ansible-playbook-runner/"
+source: "https://github.com/ansible/ansible"
 tool_ecosystem:
   tool: ansible
   github_stars: 68377

@@ -4,7 +4,7 @@ description: "sqlite-vec is a lightweight SQLite extension for vector similarity
 category: "Developer Tools"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/sqlite-vec-vector-search-extension-sqlite/"
+source: "https://github.com/asg017/sqlite-vec"
 ---
 
 # sqlite-vec Vector Search Extension for SQLite
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill sqlite-vec-vector-search-extens
 ```bash
 clawhub install sqlite-vec-vector-search-extension-sqlite
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/sqlite-vec-vector-search-extension-sqlite/)

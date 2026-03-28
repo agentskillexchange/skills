@@ -4,7 +4,7 @@ description: "Processes audio files from an S3 bucket using Whisper large-v3, sp
 category: "Media & Transcription"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/whisper-batch-transcription-pipeline/"
+source: "https://github.com/openai/whisper"
 tool_ecosystem:
   tool: whisper
   github_stars: 96570

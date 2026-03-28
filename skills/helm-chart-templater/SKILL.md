@@ -4,7 +4,7 @@ description: "Generates and validates Kubernetes Helm charts using helm template
 category: "Templates & Workflows"
 framework: "Gemini"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/helm-chart-templater/"
+source: "https://github.com/helm/helm"
 tool_ecosystem:
   tool: helm
   github_stars: 29610

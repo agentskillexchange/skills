@@ -4,7 +4,7 @@ description: "Automatically detect and fix JavaScript/TypeScript linting issues 
 category: "Code Quality & Review"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/eslint-auto-fix-agent/"
+source: "https://github.com/eslint/eslint"
 tool_ecosystem:
   tool: eslint
   github_stars: 27185

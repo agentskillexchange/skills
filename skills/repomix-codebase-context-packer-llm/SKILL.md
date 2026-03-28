@@ -4,7 +4,7 @@ description: "Repomix packs an entire code repository into a single AI-friendly 
 category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/repomix-codebase-context-packer-llm/"
+source: "https://github.com/yamadashy/repomix"
 ---
 
 # Repomix Codebase Context Packer for LLMs

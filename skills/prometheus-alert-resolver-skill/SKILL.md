@@ -4,7 +4,7 @@ description: "Resolves Prometheus alerts by querying the /api/v1/alerts and /api
 category: "Runbooks & Diagnostics"
 framework: "Gemini"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/prometheus-alert-resolver-skill/"
+source: "https://github.com/prometheus/prometheus"
 tool_ecosystem:
   tool: prometheus
   github_stars: 63289

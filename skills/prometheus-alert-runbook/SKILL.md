@@ -4,7 +4,7 @@ description: "Execute structured runbook procedures triggered by Prometheus Aler
 category: "Runbooks & Diagnostics"
 framework: "MCP"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/prometheus-alert-runbook/"
+source: "https://github.com/prometheus/prometheus"
 tool_ecosystem:
   tool: prometheus
   github_stars: 63289

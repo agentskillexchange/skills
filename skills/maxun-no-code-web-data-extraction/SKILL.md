@@ -4,7 +4,7 @@ description: "Maxun is an open-source no-code web data platform for turning any 
 category: "Data Extraction & Transformation"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/maxun-no-code-web-data-extraction/"
+source: "https://github.com/getmaxun/maxun"
 ---
 
 # Maxun No-Code Web Data Extraction Platform
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill maxun-no-code-web-data-extracti
 ```bash
 clawhub install maxun-no-code-web-data-extraction
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/maxun-no-code-web-data-extraction/)

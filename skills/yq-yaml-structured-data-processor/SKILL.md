@@ -4,7 +4,7 @@ description: "Process, query, and transform YAML, JSON, XML, CSV, TOML, and prop
 category: "Data Extraction & Transformation"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/yq-yaml-structured-data-processor/"
+source: "https://github.com/mikefarah/yq"
 tool_ecosystem:
   tool: kubernetes
   github_stars: 121334

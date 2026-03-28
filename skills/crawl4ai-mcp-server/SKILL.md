@@ -4,7 +4,7 @@ description: "Self-hosted web crawling and content extraction exposed as MCP too
 category: "Data Extraction & Transformation"
 framework: "MCP"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/crawl4ai-mcp-server/"
+source: "https://github.com/sadiuysal/crawl4ai-mcp-server"
 tool_ecosystem:
   tool: docker
   github_stars: 71560

@@ -4,7 +4,7 @@ description: "Automate build workflows with Task (go-task), a modern cross-platf
 category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/task-taskfile-build-automation-runner/"
+source: "https://github.com/go-task/task"
 ---
 
 # Task Taskfile Build Automation Runner

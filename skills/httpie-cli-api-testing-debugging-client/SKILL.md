@@ -4,7 +4,7 @@ description: "HTTPie is a modern, user-friendly command-line HTTP client designe
 category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/httpie-cli-api-testing-debugging-client/"
+source: "https://github.com/httpie/cli"
 ---
 
 # HTTPie CLI API Testing and Debugging Client
@@ -56,3 +56,7 @@ npx skills add agentskillexchange/skills --skill httpie-cli-api-testing-debuggin
 ```bash
 clawhub install httpie-cli-api-testing-debugging-client
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/httpie-cli-api-testing-debugging-client/)

@@ -4,7 +4,7 @@ description: "Performs high-volume data operations using the Salesforce Bulk API
 category: "Data Extraction & Transformation"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/salesforce-bulk-api-data-loader/"
+source: "https://github.com/jsforce/jsforce"
 tool_ecosystem:
   tool: salesforce
   github_stars: 1452

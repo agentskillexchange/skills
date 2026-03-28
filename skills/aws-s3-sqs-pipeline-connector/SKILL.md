@@ -4,7 +4,7 @@ description: "Orchestrates AWS data pipelines using @aws-sdk/client-s3 and @aws-
 category: "Integrations & Connectors"
 framework: "MCP"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/aws-s3-sqs-pipeline-connector/"
+source: "https://github.com/aws/aws-sdk-js-v3"
 tool_ecosystem:
   tool: aws
   github_stars: 3594

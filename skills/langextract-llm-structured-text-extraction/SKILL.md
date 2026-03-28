@@ -4,7 +4,7 @@ description: "LangExtract by Google is a Python library for extracting structure
 category: "Data Extraction & Transformation"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/langextract-llm-structured-text-extraction/"
+source: "https://github.com/google/langextract"
 ---
 
 # LangExtract LLM-Powered Structured Text Extraction
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill langextract-llm-structured-text
 ```bash
 clawhub install langextract-llm-structured-text-extraction
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/langextract-llm-structured-text-extraction/)

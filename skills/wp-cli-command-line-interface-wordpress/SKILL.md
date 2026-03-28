@@ -4,7 +4,7 @@ description: "Builds repeatable WordPress maintenance and content workflows arou
 category: "WordPress & CMS"
 framework: "Multi-Framework"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/wp-cli-command-line-interface-wordpress/"
+source: "https://github.com/wp-cli/wp-cli"
 ---
 
 # WP-CLI Command-Line Interface for WordPress
@@ -37,3 +37,7 @@ npx skills add wp-cli-command-line-interface-wordpress
 ```bash
 clawhub install wp-cli-command-line-interface-wordpress
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/wp-cli-command-line-interface-wordpress/)

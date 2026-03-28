@@ -4,7 +4,7 @@ description: "Apache Airflow MCP is built around Apache Airflow workflow orchest
 category: "Data Extraction & Transformation"
 framework: "MCP"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/apache-airflow-mcp/"
+source: "https://github.com/apache/airflow"
 tool_ecosystem:
   tool: airflow
   github_stars: 44767

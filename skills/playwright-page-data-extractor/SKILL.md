@@ -4,7 +4,7 @@ description: "Uses Microsoft Playwright’s Node.js API to navigate dynamic web 
 category: "Research & Scraping"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/playwright-page-data-extractor/"
+source: "https://github.com/microsoft/playwright"
 tool_ecosystem:
   tool: playwright
   github_stars: 84938

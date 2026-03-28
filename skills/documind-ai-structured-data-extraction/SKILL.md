@@ -4,7 +4,7 @@ description: "Documind is an open-source Node.js tool that uses AI to extract st
 category: "Data Extraction & Transformation"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/documind-ai-structured-data-extraction/"
+source: "https://github.com/DocumindHQ/documind"
 ---
 
 # Documind AI-Powered Structured Data Extraction from Documents
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill documind-ai-structured-data-ext
 ```bash
 clawhub install documind-ai-structured-data-extraction
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/documind-ai-structured-data-extraction/)

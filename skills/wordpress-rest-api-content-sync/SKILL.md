@@ -4,7 +4,7 @@ description: "Synchronizes content between WordPress multisite installations usi
 category: "WordPress & CMS"
 framework: "MCP"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/wordpress-rest-api-content-sync/"
+source: "https://github.com/WordPress/WordPress"
 tool_ecosystem:
   tool: wordpress
   github_stars: 20976

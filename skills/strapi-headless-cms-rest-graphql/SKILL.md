@@ -4,7 +4,7 @@ description: "Strapi is the leading open-source headless CMS built with Node.js 
 category: "WordPress & CMS"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/strapi-headless-cms-rest-graphql/"
+source: "https://github.com/strapi/strapi"
 ---
 
 # Strapi Open Source Headless CMS with REST and GraphQL APIs
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill strapi-headless-cms-rest-graphq
 ```bash
 clawhub install strapi-headless-cms-rest-graphql
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/strapi-headless-cms-rest-graphql/)

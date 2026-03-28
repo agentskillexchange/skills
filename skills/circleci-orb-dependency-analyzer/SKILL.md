@@ -4,7 +4,7 @@ description: "Analyzes CircleCI orb dependencies using the CircleCI v2 API and O
 category: "CI/CD Integrations"
 framework: "Gemini"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/circleci-orb-dependency-analyzer/"
+source: "https://github.com/circleci/circleci-docs"
 tool_ecosystem:
   tool: circleci
   github_stars: 842

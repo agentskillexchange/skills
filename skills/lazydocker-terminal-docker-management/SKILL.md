@@ -4,7 +4,7 @@ description: "LazyDocker is a terminal UI for Docker and Docker Compose that pro
 category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/lazydocker-terminal-docker-management/"
+source: "https://github.com/jesseduffield/lazydocker"
 ---
 
 # LazyDocker Terminal UI for Docker Management

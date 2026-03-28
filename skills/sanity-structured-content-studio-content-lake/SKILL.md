@@ -4,7 +4,7 @@ description: "Sanity combines a customizable content studio with a real-time con
 category: "WordPress & CMS"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/sanity-structured-content-studio-content-lake/"
+source: "https://github.com/sanity-io/sanity"
 ---
 
 # Sanity Structured Content Studio and Content Lake
@@ -37,3 +37,7 @@ npx skills add agentskillexchange/skills --skill sanity-structured-content-studi
 ```bash
 clawhub install sanity-structured-content-studio-content-lake
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/sanity-structured-content-studio-content-lake/)

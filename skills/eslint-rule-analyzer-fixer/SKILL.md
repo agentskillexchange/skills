@@ -4,7 +4,7 @@ description: "Performs deep ESLint configuration analysis using the ESLint Node.
 category: "Code Quality & Review"
 framework: "Claude Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/eslint-rule-analyzer-fixer/"
+source: "https://github.com/eslint/eslint"
 tool_ecosystem:
   tool: eslint
   github_stars: 27185

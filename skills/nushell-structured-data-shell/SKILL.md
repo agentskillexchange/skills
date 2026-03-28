@@ -4,7 +4,7 @@ description: "A modern shell that treats all input as structured data rather tha
 category: "Developer Tools"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/nushell-structured-data-shell/"
+source: "https://github.com/nushell/nushell"
 ---
 
 # Nushell Structured Data Shell

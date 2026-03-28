@@ -4,7 +4,7 @@ description: "Manages GraphQL schema versions using Apollo Schema Registry API a
 category: "Library & API Reference"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/graphql-schema-registry-client/"
+source: "https://github.com/graphql/graphql-js"
 tool_ecosystem:
   tool: graphql
   github_stars: 20332

@@ -4,7 +4,7 @@ description: "Official Model Context Protocol server that connects LLMs to Meili
 category: "Developer Tools"
 framework: "Multi-Framework"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/meilisearch-mcp-server-ai-search/"
+source: "https://github.com/meilisearch/meilisearch-mcp"
 ---
 
 # Meilisearch MCP Server for AI-Powered Search Integration
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill meilisearch-mcp-server-ai-searc
 ```bash
 clawhub install meilisearch-mcp-server-ai-search
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/meilisearch-mcp-server-ai-search/)

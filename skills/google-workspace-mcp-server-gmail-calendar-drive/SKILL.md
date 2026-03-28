@@ -4,7 +4,7 @@ description: "The Google Workspace MCP Server provides comprehensive natural lan
 category: "Calendar, Email & Productivity"
 framework: "MCP"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/google-workspace-mcp-server-gmail-calendar-drive/"
+source: "https://github.com/taylorwilsdon/google_workspace_mcp"
 ---
 
 # Google Workspace MCP Server for Gmail Calendar and Drive

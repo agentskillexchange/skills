@@ -4,7 +4,7 @@ description: "Generates Cypress end-to-end test suites from user flow recordings
 category: "Browser Automation"
 framework: "Claude Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/cypress-e2e-test-generator-3/"
+source: "https://github.com/cypress-io/cypress"
 tool_ecosystem:
   tool: cypress
   github_stars: 49611

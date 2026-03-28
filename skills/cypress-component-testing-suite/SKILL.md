@@ -4,7 +4,7 @@ description: "Implements component and E2E tests using Cypress with cy.mount, cy
 category: "Browser Automation"
 framework: "MCP"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/cypress-component-testing-suite/"
+source: "https://github.com/cypress-io/cypress"
 tool_ecosystem:
   tool: cypress
   github_stars: 49611

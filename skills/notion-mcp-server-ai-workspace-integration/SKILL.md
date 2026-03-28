@@ -4,7 +4,7 @@ description: "The official Notion MCP Server enables AI agents to interact with 
 category: "Integrations & Connectors"
 framework: "MCP"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/notion-mcp-server-ai-workspace-integration/"
+source: "https://github.com/makenotion/notion-mcp-server"
 ---
 
 # Notion MCP Server for AI Workspace Integration
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill notion-mcp-server-ai-workspace-
 ```bash
 clawhub install notion-mcp-server-ai-workspace-integration
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/notion-mcp-server-ai-workspace-integration/)

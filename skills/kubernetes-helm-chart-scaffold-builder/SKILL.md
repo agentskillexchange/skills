@@ -4,7 +4,7 @@ description: "Generates Helm v3 chart scaffolds with templated deployments, serv
 category: "Templates & Workflows"
 framework: "MCP"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/kubernetes-helm-chart-scaffold-builder/"
+source: "https://github.com/helm/helm"
 tool_ecosystem:
   tool: helm
   github_stars: 29610

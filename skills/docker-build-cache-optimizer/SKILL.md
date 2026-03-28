@@ -4,7 +4,7 @@ description: "Optimizes Docker build performance using BuildKit cache mount anal
 category: "Code Quality & Review"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/docker-build-cache-optimizer/"
+source: "https://github.com/moby/moby"
 tool_ecosystem:
   tool: docker
   github_stars: 71560

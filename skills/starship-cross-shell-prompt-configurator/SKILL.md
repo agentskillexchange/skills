@@ -4,7 +4,7 @@ description: "The minimal, blazing-fast, and infinitely customizable prompt for 
 category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/starship-cross-shell-prompt-configurator/"
+source: "https://github.com/starship/starship"
 ---
 
 # Starship Cross-Shell Prompt Configurator

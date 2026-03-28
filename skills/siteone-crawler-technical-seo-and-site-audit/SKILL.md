@@ -4,7 +4,7 @@ description: "SiteOne Crawler is a real website crawler and analyzer for technic
 category: "Content Writing &amp; SEO"
 framework: "Multi-Framework"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/siteone-crawler-technical-seo-and-site-audit/"
+source: "https://github.com/janreges/siteone-crawler"
 ---
 
 # SiteOne Crawler Technical SEO and Site Audit

@@ -4,7 +4,7 @@ description: "Runs terraform plan against changed modules, posts a structured di
 category: "CI/CD Integrations"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/terraform-plan-apply-automation/"
+source: "https://github.com/hashicorp/terraform"
 tool_ecosystem:
   tool: terraform
   github_stars: 48003

@@ -4,7 +4,7 @@ description: "Analyzes Docker image layers using the Docker Registry HTTP API v2
 category: "Library & API Reference"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/docker-image-layer-analyzer/"
+source: "https://github.com/moby/moby"
 tool_ecosystem:
   tool: docker
   github_stars: 71560

@@ -4,7 +4,7 @@ description: "A fast terminal user interface for Git inspired by Emacs Magit, wr
 category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/gitu-magit-inspired-terminal-git-interface/"
+source: "https://github.com/altsem/gitu"
 ---
 
 # gitu Magit-Inspired Terminal Git Interface

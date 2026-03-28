@@ -4,7 +4,7 @@ description: "An MCP server that integrates Linear project management with AI as
 category: "Integrations & Connectors"
 framework: "MCP"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/linear-mcp-server-issue-tracking-project-management/"
+source: "https://github.com/jerhadf/linear-mcp-server"
 ---
 
 # Linear MCP Server for Issue Tracking and Project Management
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill linear-mcp-server-issue-trackin
 ```bash
 clawhub install linear-mcp-server-issue-tracking-project-management
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/linear-mcp-server-issue-tracking-project-management/)

@@ -4,7 +4,7 @@ description: "Performs SAST scanning using Semgrep CLI and Semgrep Registry rule
 category: "Code Quality & Review"
 framework: "Claude Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/semgrep-security-review-agent/"
+source: "https://github.com/semgrep/semgrep"
 tool_ecosystem:
   tool: semgrep
   github_stars: 14551

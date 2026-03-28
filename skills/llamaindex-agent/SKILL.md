@@ -4,7 +4,7 @@ description: "LlamaIndex Agent is built around LlamaIndex framework for LLM data
 category: "Developer Tools"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/llamaindex-agent/"
+source: "https://github.com/run-llama/llama_index"
 tool_ecosystem:
   tool: llamaindex
   github_stars: 47942

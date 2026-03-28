@@ -4,7 +4,7 @@ description: "This skill turns chromedp into a repeatable browser automation wor
 category: "Browser Automation"
 framework: "Multi-Framework"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/chromedp-go-browser-automation-chrome-devtools-protocol/"
+source: "https://github.com/chromedp/chromedp"
 ---
 
 # chromedp Go Browser Automation with Chrome DevTools Protocol
@@ -37,3 +37,7 @@ npx skills add chromedp-go-browser-automation-chrome-devtools-protocol
 ```bash
 clawhub install chromedp-go-browser-automation-chrome-devtools-protocol
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/chromedp-go-browser-automation-chrome-devtools-protocol/)

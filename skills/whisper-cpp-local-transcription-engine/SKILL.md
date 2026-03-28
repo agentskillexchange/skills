@@ -4,7 +4,7 @@ description: "Runs OpenAI Whisper models locally via whisper.cpp with GGML quant
 category: "Media & Transcription"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/whisper-cpp-local-transcription-engine/"
+source: "https://github.com/openai/whisper"
 tool_ecosystem:
   tool: whisper
   github_stars: 96570

@@ -4,7 +4,7 @@ description: "grex is a command-line tool and library that automatically generat
 category: "Developer Tools"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/grex-regex-generator-from-test-cases/"
+source: "https://github.com/pemistahl/grex"
 ---
 
 # grex Regular Expression Generator from Test Cases
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill grex-regex-generator-from-test-
 ```bash
 clawhub install grex-regex-generator-from-test-cases
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/grex-regex-generator-from-test-cases/)

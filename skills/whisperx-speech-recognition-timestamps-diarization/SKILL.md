@@ -4,7 +4,7 @@ description: "WhisperX extends OpenAI Whisper with batched inference for 70x rea
 category: "Uncategorized"
 framework: "Any"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/whisperx-speech-recognition-timestamps-diarization/"
+source: "https://github.com/m-bain/whisperX"
 ---
 
 # WhisperX Speech Recognition with Word-Level Timestamps and Diarization
@@ -32,3 +32,7 @@ npx skills add whisperx-speech-recognition-timestamps-diarization
 ```bash
 clawhub install whisperx-speech-recognition-timestamps-diarization
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/whisperx-speech-recognition-timestamps-diarization/)

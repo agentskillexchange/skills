@@ -4,7 +4,7 @@ description: "libSQL is an open-source, open-contribution fork of SQLite by Turs
 category: "Developer Tools"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/libsql-edge-sqlite-fork-turso/"
+source: "https://github.com/tursodatabase/libsql"
 ---
 
 # libSQL Edge-Ready SQLite Fork by Turso
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill libsql-edge-sqlite-fork-turso -
 ```bash
 clawhub install libsql-edge-sqlite-fork-turso
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/libsql-edge-sqlite-fork-turso/)

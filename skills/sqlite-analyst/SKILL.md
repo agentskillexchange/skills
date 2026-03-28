@@ -4,7 +4,7 @@ description: "SQLite Analyst is built around SQLite embedded database. The under
 category: "Developer Tools"
 framework: "MCP"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/sqlite-analyst/"
+source: "https://github.com/WiseLibs/better-sqlite3"
 tool_ecosystem:
   tool: sqlite
   github_stars: 7043

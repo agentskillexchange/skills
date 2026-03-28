@@ -4,7 +4,7 @@ description: "Enable AI agents to interact with Memos, an open-source self-hoste
 category: "Calendar, Email & Productivity"
 framework: "Multi-Framework"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/memos-self-hosted-note-capture-knowledge-api/"
+source: "https://github.com/usememos/memos"
 ---
 
 # Memos Self-Hosted Note Capture and Knowledge API
@@ -37,3 +37,7 @@ npx @anthropic/agent-skills add memos-self-hosted-note-capture-knowledge-api --a
 ```bash
 clawhub install memos-self-hosted-note-capture-knowledge-api
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/memos-self-hosted-note-capture-knowledge-api/)

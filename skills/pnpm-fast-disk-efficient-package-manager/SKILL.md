@@ -4,7 +4,7 @@ description: "pnpm is a fast, disk space efficient package manager for Node.js t
 category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/pnpm-fast-disk-efficient-package-manager/"
+source: "https://github.com/pnpm/pnpm"
 ---
 
 # pnpm Fast Disk-Efficient Package Manager
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill pnpm-fast-disk-efficient-packag
 ```bash
 clawhub install pnpm-fast-disk-efficient-package-manager
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/pnpm-fast-disk-efficient-package-manager/)

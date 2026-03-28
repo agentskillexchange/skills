@@ -4,7 +4,7 @@ description: "Parses nginx error.log and access.log files using pattern matching
 category: "Developer Tools"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/nginx-error-log-parser/"
+source: "https://github.com/nginx/nginx"
 tool_ecosystem:
   tool: nginx
   github_stars: 29767

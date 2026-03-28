@@ -4,7 +4,7 @@ description: "Use browser-use to turn natural-language web tasks into repeatable
 category: "Browser Automation"
 framework: "Multi-Framework"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/browser-use-browser-automation-framework/"
+source: "https://github.com/browser-use/browser-use"
 ---
 
 # browser-use Browser Automation Framework

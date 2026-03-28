@@ -4,7 +4,7 @@ description: "CrewAI is a lean, lightning-fast Python framework for orchestratin
 category: "Developer Tools"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/crewai-multi-agent-orchestration-framework/"
+source: "https://github.com/crewAIInc/crewAI"
 ---
 
 # CrewAI Multi-Agent Orchestration Framework
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill crewai-multi-agent-orchestratio
 ```bash
 clawhub install crewai-multi-agent-orchestration-framework
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/crewai-multi-agent-orchestration-framework/)

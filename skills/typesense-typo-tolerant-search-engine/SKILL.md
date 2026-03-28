@@ -4,7 +4,7 @@ description: "Typesense is an open-source, typo-tolerant search engine built in 
 category: "Data Extraction & Transformation"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/typesense-typo-tolerant-search-engine/"
+source: "https://github.com/typesense/typesense"
 ---
 
 # Typesense Typo-Tolerant Search Engine
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill typesense-typo-tolerant-search-
 ```bash
 clawhub install typesense-typo-tolerant-search-engine
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/typesense-typo-tolerant-search-engine/)

@@ -4,7 +4,7 @@ description: "Builds scalable web collection pipelines with Crawlee, Apify’s o
 category: "Research & Scraping"
 framework: "Multi-Framework"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/crawlee-web-crawling-browser-automation-library/"
+source: "https://github.com/apify/crawlee"
 ---
 
 # Crawlee Web Crawling and Browser Automation Library
@@ -37,3 +37,7 @@ npx skills add crawlee-web-crawling-browser-automation-library
 ```bash
 clawhub install crawlee-web-crawling-browser-automation-library
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/crawlee-web-crawling-browser-automation-library/)

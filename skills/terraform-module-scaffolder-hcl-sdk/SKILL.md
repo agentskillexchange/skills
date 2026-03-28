@@ -4,7 +4,7 @@ description: "Scaffolds Terraform modules using the HCL SDK with provider schema
 category: "Developer Tools"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/terraform-module-scaffolder-hcl-sdk/"
+source: "https://github.com/hashicorp/terraform"
 tool_ecosystem:
   tool: terraform
   github_stars: 48003

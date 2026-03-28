@@ -4,7 +4,7 @@ description: "Runs systematic health diagnostics on Docker containers using dock
 category: "Runbooks & Diagnostics"
 framework: "Cursor"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/docker-container-health-check-runbook/"
+source: "https://github.com/moby/moby"
 tool_ecosystem:
   tool: docker
   github_stars: 71560

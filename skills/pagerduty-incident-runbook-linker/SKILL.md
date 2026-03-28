@@ -4,7 +4,7 @@ description: "Automatically links PagerDuty incidents to relevant runbooks using
 category: "Monitoring & Alerts"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/pagerduty-incident-runbook-linker/"
+source: "https://github.com/PagerDuty/pdjs"
 tool_ecosystem:
   tool: pagerduty
   github_stars: 69

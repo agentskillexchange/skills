@@ -4,7 +4,7 @@ description: "Compiles and validates custom Semgrep SAST rules using the semgrep
 category: "Security & Verification"
 framework: "Codex"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/sast-rule-compiler-semgrep/"
+source: "https://github.com/semgrep/semgrep"
 tool_ecosystem:
   tool: semgrep
   github_stars: 14551

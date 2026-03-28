@@ -4,7 +4,7 @@ description: "dbt Cloud MCP is built around dbt transformation framework. The un
 category: "Data Extraction & Transformation"
 framework: "MCP"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/dbt-cloud-mcp/"
+source: "https://github.com/dbt-labs/dbt-core"
 tool_ecosystem:
   tool: dbt
   github_stars: 12460

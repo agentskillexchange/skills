@@ -4,7 +4,7 @@ description: "Introspects GraphQL endpoints using the __schema query and generat
 category: "Library & API Reference"
 framework: "Claude Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/graphql-introspection-documenter/"
+source: "https://github.com/graphql/graphql-js"
 tool_ecosystem:
   tool: graphql
   github_stars: 20332

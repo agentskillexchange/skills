@@ -4,7 +4,7 @@ description: "An official MCP server from Upstash that lets AI agents manage Red
 category: "Integrations & Connectors"
 framework: "MCP"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/upstash-mcp-server-redis-qstash-management/"
+source: "https://github.com/upstash/mcp-server"
 ---
 
 # Upstash MCP Server for Redis and QStash Management
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill upstash-mcp-server-redis-qstash
 ```bash
 clawhub install upstash-mcp-server-redis-qstash-management
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/upstash-mcp-server-redis-qstash-management/)

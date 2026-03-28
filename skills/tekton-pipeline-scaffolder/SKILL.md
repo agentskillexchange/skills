@@ -4,7 +4,7 @@ description: "Scaffolds Kubernetes-native CI/CD pipelines using Tekton Pipelines
 category: "CI/CD Integrations"
 framework: "Gemini"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/tekton-pipeline-scaffolder/"
+source: "https://github.com/tektoncd/pipeline"
 tool_ecosystem:
   tool: tekton
   github_stars: 8923

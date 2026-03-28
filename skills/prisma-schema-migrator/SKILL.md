@@ -4,7 +4,7 @@ description: "Automates Prisma ORM schema evolution and migration planning using
 category: "Library & API Reference"
 framework: "Codex"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/prisma-schema-migrator/"
+source: "https://github.com/prisma/prisma"
 tool_ecosystem:
   tool: prisma
   github_stars: 45592

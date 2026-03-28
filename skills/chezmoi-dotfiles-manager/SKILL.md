@@ -4,7 +4,7 @@ description: "chezmoi manages dotfiles across multiple machines securely using a
 category: "Developer Tools"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/chezmoi-dotfiles-manager/"
+source: "https://github.com/twpayne/chezmoi"
 ---
 
 # chezmoi Cross-Machine Dotfiles Manager
@@ -55,3 +55,7 @@ Templates are a first-class feature. chezmoi uses Go text/template syntax to gen
 Security is built in. chezmoi integrates with 1Password, Bitwarden, gopass, KeePassXC, LastPass, pass, Vault, and macOS Keychain for secret management. Encrypted files can be stored directly in the dotfiles repository using age or GPG encryption, so sensitive configuration like API keys and SSH configs can be version-controlled safely.
 
 For AI agents managing development environments, chezmoi provides a programmatic interface to inspect, modify, and apply dotfile changes. An agent can use chezmoi managed to list managed files, chezmoi data to inspect template variables, and chezmoi apply to deploy configuration changes. Bootstrap scripts enable one-command setup of new machines, making it ideal for automated provisioning workflows.
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/chezmoi-dotfiles-manager/)

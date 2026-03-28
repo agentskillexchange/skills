@@ -4,7 +4,7 @@ description: "Generates optimized ESLint flat config files using @eslint/js, typ
 category: "Code Quality & Review"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/eslint-rule-configurator/"
+source: "https://github.com/eslint/eslint"
 tool_ecosystem:
   tool: eslint
   github_stars: 27185

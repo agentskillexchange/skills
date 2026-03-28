@@ -4,7 +4,7 @@ description: "Run static analysis on bash and shell scripts using ShellCheck to 
 category: "Code Quality & Review"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/shellcheck-shell-script-static-analyzer/"
+source: "https://github.com/koalaman/shellcheck"
 tool_ecosystem:
   tool: docker
   github_stars: 71560

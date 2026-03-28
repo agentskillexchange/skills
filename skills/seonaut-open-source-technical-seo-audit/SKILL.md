@@ -4,7 +4,7 @@ description: "SEOnaut is an open-source SEO auditing tool built with Go that cra
 category: "Content Writing & SEO"
 framework: "Multi-Framework"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/seonaut-open-source-technical-seo-audit/"
+source: "https://github.com/StJudeWasHere/seonaut"
 ---
 
 # SEOnaut Open Source Technical SEO Audit Tool
@@ -65,3 +65,7 @@ For AI agent workflows, SEOnaut can be deployed as a self-hosted SEO analysis ba
 ### Comparison with Commercial Tools
 
 SEOnaut covers similar ground to commercial tools like Screaming Frog, Sitebulb, and Ahrefs Site Audit, but as a free, self-hosted, open-source solution it offers unlimited crawls with no page caps, full data ownership, and the ability to customize detection rules by modifying the Go source code.
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/seonaut-open-source-technical-seo-audit/)

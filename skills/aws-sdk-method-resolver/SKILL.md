@@ -4,7 +4,7 @@ description: "Resolves AWS SDK v3 client commands and service endpoint signature
 category: "Library & API Reference"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/aws-sdk-method-resolver/"
+source: "https://github.com/aws/aws-sdk-js-v3"
 tool_ecosystem:
   tool: aws
   github_stars: 3594

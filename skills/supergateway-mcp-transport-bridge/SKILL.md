@@ -4,7 +4,7 @@ description: "Supergateway enables running MCP stdio-based servers over SSE, Web
 category: "Developer Tools"
 framework: "MCP"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/supergateway-mcp-transport-bridge/"
+source: "https://github.com/supercorp-ai/supergateway"
 ---
 
 # Supergateway MCP Transport Bridge
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill supergateway-mcp-transport-brid
 ```bash
 clawhub install supergateway-mcp-transport-bridge
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/supergateway-mcp-transport-bridge/)

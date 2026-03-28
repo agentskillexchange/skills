@@ -4,7 +4,7 @@ description: "Responds to PagerDuty incidents via the PagerDuty Events API v2 an
 category: "Runbooks & Diagnostics"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/pagerduty-incident-runbook/"
+source: "https://github.com/PagerDuty/pdjs"
 tool_ecosystem:
   tool: pagerduty
   github_stars: 69

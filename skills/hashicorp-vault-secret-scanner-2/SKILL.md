@@ -4,7 +4,7 @@ description: "Scans codebases for hardcoded secrets using HashiCorp Vault SDK an
 category: "Security & Verification"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/hashicorp-vault-secret-scanner-2/"
+source: "https://github.com/hashicorp/vault"
 tool_ecosystem:
   tool: vault
   github_stars: 35275

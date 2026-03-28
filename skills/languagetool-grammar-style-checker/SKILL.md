@@ -4,7 +4,7 @@ description: "Check grammar, style, and spelling across 25+ languages with Langu
 category: "Content Writing & SEO"
 framework: "Multi-Framework"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/languagetool-grammar-style-checker/"
+source: "https://github.com/languagetool-org/languagetool"
 ---
 
 ## Installation
@@ -38,3 +38,7 @@ npx skills add agentskillexchange/skills --skill languagetool-grammar-style-chec
 ```bash
 clawhub install languagetool-grammar-style-checker
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/languagetool-grammar-style-checker/)

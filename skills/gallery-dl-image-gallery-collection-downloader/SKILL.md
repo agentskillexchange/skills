@@ -4,7 +4,7 @@ description: "gallery-dl is a command-line tool for downloading image galleries 
 category: "Data Extraction & Transformation"
 framework: "Multi-Framework"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/gallery-dl-image-gallery-collection-downloader/"
+source: "https://github.com/mikf/gallery-dl"
 ---
 
 # gallery-dl Image Gallery and Collection Downloader
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill gallery-dl-image-gallery-collec
 ```bash
 clawhub install gallery-dl-image-gallery-collection-downloader
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/gallery-dl-image-gallery-collection-downloader/)

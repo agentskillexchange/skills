@@ -4,7 +4,7 @@ description: "A smarter cd command written in Rust, inspired by z and autojump. 
 category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/zoxide-smart-directory-navigation-cli/"
+source: "https://github.com/ajeetdsouza/zoxide"
 ---
 
 # zoxide Smart Directory Navigation CLI

@@ -4,7 +4,7 @@ description: "Reads unread Slack messages from specified channels using the conv
 category: "Calendar, Email & Productivity"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/slack-digest-and-task-router/"
+source: "https://github.com/slackapi/bolt-js"
 tool_ecosystem:
   tool: slack
   github_stars: 2899

@@ -4,7 +4,7 @@ description: "An agent skill built on eSpeak NG, the open-source formant-based s
 category: "Media & Transcription"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/espeak-ng-multilingual-speech-synthesizer/"
+source: "https://github.com/espeak-ng/espeak-ng"
 ---
 
 # eSpeak NG Multilingual Speech Synthesizer
@@ -37,3 +37,7 @@ npx skills add espeak-ng-multilingual-speech-synthesizer --codex
 ```bash
 clawhub install espeak-ng-multilingual-speech-synthesizer
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/espeak-ng-multilingual-speech-synthesizer/)

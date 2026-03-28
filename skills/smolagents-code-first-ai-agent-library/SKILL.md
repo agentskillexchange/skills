@@ -4,7 +4,7 @@ description: "smolagents is HuggingFace’s barebones Python library for buildin
 category: "Developer Tools"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/smolagents-code-first-ai-agent-library/"
+source: "https://github.com/huggingface/smolagents"
 ---
 
 # smolagents Code-First AI Agent Library
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill smolagents-code-first-ai-agent-
 ```bash
 clawhub install smolagents-code-first-ai-agent-library
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/smolagents-code-first-ai-agent-library/)

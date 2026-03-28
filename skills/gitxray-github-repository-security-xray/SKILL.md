@@ -4,7 +4,7 @@ description: "A multifaceted OSINT and forensics tool for GitHub repositories th
 category: "Security & Verification"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/gitxray-github-repository-security-xray/"
+source: "https://github.com/kulkansecurity/gitxray"
 ---
 
 # Gitxray GitHub Repository Security X-Ray
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill gitxray-github-repository-secur
 ```bash
 clawhub install gitxray-github-repository-security-xray
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/gitxray-github-repository-security-xray/)

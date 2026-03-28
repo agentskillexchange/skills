@@ -4,7 +4,7 @@ description: "Executes Ansible playbooks for server diagnostics and remediation 
 category: "Runbooks & Diagnostics"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/ansible-runbook-executor/"
+source: "https://github.com/ansible/ansible"
 tool_ecosystem:
   tool: ansible
   github_stars: 68377

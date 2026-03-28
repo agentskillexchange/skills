@@ -4,7 +4,7 @@ description: "Topgrade is a CLI tool written in Rust that detects all package ma
 category: "Developer Tools"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/topgrade-universal-system-package-updater/"
+source: "https://github.com/topgrade-rs/topgrade"
 ---
 
 # Topgrade Universal System Package Updater
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill topgrade-universal-system-packa
 ```bash
 clawhub install topgrade-universal-system-package-updater
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/topgrade-universal-system-package-updater/)

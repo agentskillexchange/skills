@@ -4,7 +4,7 @@ description: "Lefthook is a fast, dependency-free Git hooks manager written in G
 category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/lefthook-git-hooks-manager/"
+source: "https://github.com/evilmartians/lefthook"
 tool_ecosystem:
   tool: docker
   github_stars: 71560

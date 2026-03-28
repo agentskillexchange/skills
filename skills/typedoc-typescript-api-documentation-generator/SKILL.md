@@ -4,7 +4,7 @@ description: "TypeDoc is the standard documentation generator for TypeScript pro
 category: "Library & API Reference"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/typedoc-typescript-api-documentation-generator/"
+source: "https://github.com/TypeStrong/typedoc"
 ---
 
 # TypeDoc TypeScript API Documentation Generator
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill typedoc-typescript-api-document
 ```bash
 clawhub install typedoc-typescript-api-documentation-generator
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/typedoc-typescript-api-documentation-generator/)

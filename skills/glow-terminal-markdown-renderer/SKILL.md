@@ -4,7 +4,7 @@ description: "Glow is a terminal-based markdown reader by Charm that renders mar
 category: "Developer Tools"
 framework: "Multi-Framework"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/glow-terminal-markdown-renderer/"
+source: "https://github.com/charmbracelet/glow"
 ---
 
 # Glow Terminal Markdown Renderer
@@ -77,3 +77,7 @@ npx skills add agentskillexchange/skills --skill glow-terminal-markdown-renderer
 ```bash
 clawhub install glow-terminal-markdown-renderer
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/glow-terminal-markdown-renderer/)

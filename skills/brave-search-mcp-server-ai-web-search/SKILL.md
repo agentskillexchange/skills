@@ -4,7 +4,7 @@ description: "The official Brave Search MCP server integrates the Brave Search A
 category: "Research & Scraping"
 framework: "MCP"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/brave-search-mcp-server-ai-web-search/"
+source: "https://github.com/brave/brave-search-mcp-server"
 ---
 
 # Brave Search MCP Server for AI Web Search

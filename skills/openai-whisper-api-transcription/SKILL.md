@@ -4,7 +4,7 @@ description: "API-based speech-to-text transcription through OpenAI. No local mo
 category: "Media & Transcription"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/openai-whisper-api-transcription/"
+source: "https://github.com/openclaw/openclaw/tree/main/skills/openai-whisper-api"
 tool_ecosystem:
   tool: whisper
   github_stars: 96570

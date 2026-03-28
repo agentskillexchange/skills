@@ -4,7 +4,7 @@ description: "Syft by Anchore is a CLI tool for generating Software Bills of Mat
 category: "Security & Verification"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/syft-sbom-generator-containers-filesystems/"
+source: "https://github.com/anchore/syft"
 ---
 
 # Syft SBOM Generator for Containers and Filesystems

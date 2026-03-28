@@ -4,7 +4,7 @@ description: "Create terminal session recordings as GIFs, videos, or images usin
 category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/vhs-terminal-session-recorder-gif-generator/"
+source: "https://github.com/charmbracelet/vhs"
 ---
 
 # VHS Terminal Session Recorder and GIF Generator

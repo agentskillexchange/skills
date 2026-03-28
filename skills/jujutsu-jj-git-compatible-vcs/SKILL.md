@@ -4,7 +4,7 @@ description: "Jujutsu (jj) is a powerful Git-compatible version control system t
 category: "Developer Tools"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/jujutsu-jj-git-compatible-vcs/"
+source: "https://github.com/jj-vcs/jj"
 ---
 
 # Jujutsu Git-Compatible Version Control System
@@ -55,3 +55,7 @@ Jujutsu introduces first-class conflict tracking, treating conflicts as objects 
 The operation log is another standout feature. Jujutsu records every operation performed on the repository including commits, pulls, pushes, and rebases, creating a complete audit trail. This makes it trivial to undo mistakes, debug repository state, and answer questions about how the repository reached its current state. The revset query language, inspired by Mercurial, provides powerful composable expressions for selecting commits.
 
 Because Jujutsu uses Git repositories as its storage backend, it works with GitHub, GitLab, and any Git forge. An AI agent can use jj to manage complex branching workflows, rebase stacks of changes, and resolve conflicts programmatically, all with simpler commands than equivalent Git operations. Installation is available via cargo, brew, and platform packages.
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/jujutsu-jj-git-compatible-vcs/)

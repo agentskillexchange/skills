@@ -4,7 +4,7 @@ description: "Practical frontend design guidance for landing pages, dashboards, 
 category: "Developer Tools"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/frontend-design-guidance-skill/"
+source: "https://superdesign.dev"
 ---
 
 # Frontend Design Guidance Skill

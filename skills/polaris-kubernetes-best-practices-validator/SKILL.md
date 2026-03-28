@@ -4,7 +4,7 @@ description: "Validate Kubernetes resource configurations against best practice 
 category: "Code Quality & Review"
 framework: "Codex"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/polaris-kubernetes-best-practices-validator/"
+source: "https://github.com/FairwindsOps/polaris"
 tool_ecosystem:
   tool: kubernetes
   github_stars: 121334

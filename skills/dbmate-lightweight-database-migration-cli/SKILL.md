@@ -4,7 +4,7 @@ description: "dbmate is a standalone, framework-agnostic database migration tool
 category: "Developer Tools"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/dbmate-lightweight-database-migration-cli/"
+source: "https://github.com/amacneil/dbmate"
 ---
 
 # dbmate Lightweight Database Migration CLI
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill dbmate-lightweight-database-mig
 ```bash
 clawhub install dbmate-lightweight-database-migration-cli
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/dbmate-lightweight-database-migration-cli/)

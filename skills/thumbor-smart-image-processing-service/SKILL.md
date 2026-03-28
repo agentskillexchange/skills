@@ -4,7 +4,7 @@ description: "An agent skill that leverages Thumbor, the open-source smart image
 category: "Image & Creative Automation"
 framework: "Framework Agnostic"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/thumbor-smart-image-processing-service/"
+source: "https://github.com/thumbor/thumbor"
 ---
 
 # Thumbor Smart Image Processing Service

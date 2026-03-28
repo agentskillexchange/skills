@@ -4,7 +4,7 @@ description: "Tunes Prometheus alerting rules using the Prometheus HTTP API and 
 category: "Runbooks & Diagnostics"
 framework: "Gemini"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/prometheus-alert-tuner/"
+source: "https://github.com/prometheus/prometheus"
 tool_ecosystem:
   tool: prometheus
   github_stars: 63289

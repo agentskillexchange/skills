@@ -4,7 +4,7 @@ description: "Validates and tests Prometheus alerting rules against historical m
 category: "Monitoring & Alerts"
 framework: "Claude Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/prometheus-rule-evaluator/"
+source: "https://github.com/prometheus/prometheus"
 tool_ecosystem:
   tool: prometheus
   github_stars: 63289

@@ -4,7 +4,7 @@ description: "Bedrock is a WordPress boilerplate with Composer-based dependency 
 category: "WordPress & CMS"
 framework: "Multi-Framework"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/bedrock-wordpress-composer-boilerplate-roots/"
+source: "https://github.com/roots/bedrock"
 ---
 
 # Bedrock Modern WordPress Project Boilerplate by Roots
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill bedrock-wordpress-composer-boil
 ```bash
 clawhub install bedrock-wordpress-composer-boilerplate-roots
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/bedrock-wordpress-composer-boilerplate-roots/)

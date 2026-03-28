@@ -4,7 +4,7 @@ description: "Extract frames and short clips from videos. Core Capabilities Proc
 category: "Media & Transcription"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/video-frames-extractor/"
+source: "https://github.com/openclaw/openclaw/tree/main/skills"
 tool_ecosystem:
   tool: ffmpeg
   github_stars: 58283

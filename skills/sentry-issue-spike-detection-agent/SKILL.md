@@ -4,7 +4,7 @@ description: "Analyzes Sentry project event streams via the Sentry Issues API to
 category: "Monitoring & Alerts"
 framework: "Claude Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/sentry-issue-spike-detection-agent/"
+source: "https://github.com/getsentry/sentry"
 tool_ecosystem:
   tool: sentry
   github_stars: 43437

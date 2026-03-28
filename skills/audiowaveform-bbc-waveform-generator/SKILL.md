@@ -4,7 +4,7 @@ description: "audiowaveform is a BBC open-source C++ CLI tool that generates wav
 category: "Media & Transcription"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/audiowaveform-bbc-waveform-generator/"
+source: "https://github.com/bbc/audiowaveform"
 ---
 
 # audiowaveform Audio Waveform Data Generator and Image Renderer
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill audiowaveform-bbc-waveform-gene
 ```bash
 clawhub install audiowaveform-bbc-waveform-generator
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/audiowaveform-bbc-waveform-generator/)

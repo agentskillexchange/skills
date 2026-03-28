@@ -4,7 +4,7 @@ description: "Integrate Audiobookshelf’s self-hosted audiobook and podcast ser
 category: "Media & Transcription"
 framework: "Multi-Framework"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/audiobookshelf-self-hosted-audiobook-podcast-server-api/"
+source: "https://github.com/advplyr/audiobookshelf"
 ---
 
 # Audiobookshelf Self-Hosted Audiobook and Podcast Server API
@@ -37,3 +37,7 @@ npx @anthropic/agent-skills add audiobookshelf-self-hosted-audiobook-podcast-ser
 ```bash
 clawhub install audiobookshelf-self-hosted-audiobook-podcast-server-api
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/audiobookshelf-self-hosted-audiobook-podcast-server-api/)

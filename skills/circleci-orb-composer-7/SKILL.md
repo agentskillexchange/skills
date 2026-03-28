@@ -4,7 +4,7 @@ description: "Composes and validates CircleCI Orbs using the circleci/circleci-c
 category: "CI/CD Integrations"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/circleci-orb-composer-7/"
+source: "https://github.com/circleci/circleci-docs"
 tool_ecosystem:
   tool: circleci
   github_stars: 842

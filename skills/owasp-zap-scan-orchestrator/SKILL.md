@@ -4,7 +4,7 @@ description: "Orchestrates OWASP ZAP active and passive scans via the ZAP API, a
 category: "Security & Verification"
 framework: "Codex"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/owasp-zap-scan-orchestrator/"
+source: "https://github.com/zaproxy/zaproxy"
 tool_ecosystem:
   tool: owasp
   github_stars: 14900

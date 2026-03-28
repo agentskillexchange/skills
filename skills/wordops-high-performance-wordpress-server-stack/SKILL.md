@@ -4,7 +4,7 @@ description: "WordOps is an open-source CLI tool that installs and manages a com
 category: "WordPress & CMS"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/wordops-high-performance-wordpress-server-stack/"
+source: "https://github.com/WordOps/WordOps"
 ---
 
 # WordOps High-Performance WordPress Server Stack Manager

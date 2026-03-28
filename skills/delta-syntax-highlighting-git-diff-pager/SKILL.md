@@ -4,7 +4,7 @@ description: "A syntax-highlighting pager for git diff, grep, and blame output b
 category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/delta-syntax-highlighting-git-diff-pager/"
+source: "https://github.com/dandavison/delta"
 ---
 
 # delta Syntax-Highlighting Git Diff Pager

@@ -4,7 +4,7 @@ description: "Runs OWASP ZAP active and passive scans against target URLs using 
 category: "Security & Verification"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/owasp-zap-automated-scan-orchestrator/"
+source: "https://github.com/zaproxy/zaproxy"
 tool_ecosystem:
   tool: owasp
   github_stars: 14900

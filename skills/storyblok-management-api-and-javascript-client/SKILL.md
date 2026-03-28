@@ -4,7 +4,7 @@ description: "Use Storyblok’s Management API and JavaScript client to automate
 category: "WordPress &amp; CMS"
 framework: "Multi-Framework"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/storyblok-management-api-and-javascript-client/"
+source: "https://github.com/storyblok/storyblok-js-client"
 ---
 
 # Storyblok Management API and JavaScript Client

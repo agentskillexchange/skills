@@ -4,7 +4,7 @@ description: "MetaMCP is an open-source MCP proxy that aggregates multiple MCP s
 category: "Integrations & Connectors"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/metamcp-unified-mcp-server-aggregator-gateway/"
+source: "https://github.com/metatool-ai/metamcp"
 ---
 
 # MetaMCP Unified MCP Server Aggregator and Gateway
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill metamcp-unified-mcp-server-aggr
 ```bash
 clawhub install metamcp-unified-mcp-server-aggregator-gateway
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/metamcp-unified-mcp-server-aggregator-gateway/)

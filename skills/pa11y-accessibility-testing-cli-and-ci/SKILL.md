@@ -4,7 +4,7 @@ description: "Pa11y is a real open-source accessibility testing tool that lets a
 category: "Browser Automation"
 framework: "Multi-Framework"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/pa11y-accessibility-testing-cli-and-ci/"
+source: "https://github.com/pa11y/pa11y"
 ---
 
 # Pa11y Accessibility Testing CLI and CI

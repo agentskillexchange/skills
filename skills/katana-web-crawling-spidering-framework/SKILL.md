@@ -3,7 +3,7 @@ name: "Katana Next-Generation Web Crawling and Spidering Framework"
 description: "Katana by ProjectDiscovery is a fast, configurable web crawling and spidering framework written in Go. It supports standard and headless browser modes, JavaScript parsing, automatic form filling, and structured output for feeding into security and data pipelines."
 category: "Research & Scraping"
 verification: listed
-source: "https://agentskillexchange.com/skills/katana-web-crawling-spidering-framework/"
+source: "https://github.com/projectdiscovery/katana"
 ---
 
 # Katana Next-Generation Web Crawling and Spidering Framework
@@ -36,3 +36,7 @@ npx skills add katana-web-crawling-spidering-framework --codex
 ```bash
 clawhub install katana-web-crawling-spidering-framework
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/katana-web-crawling-spidering-framework/)

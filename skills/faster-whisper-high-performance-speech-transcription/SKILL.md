@@ -4,7 +4,7 @@ description: "faster-whisper is a reimplementation of OpenAI’s Whisper model u
 category: "Media & Transcription"
 framework: "Multi-Framework"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/faster-whisper-high-performance-speech-transcription/"
+source: "https://github.com/SYSTRAN/faster-whisper"
 ---
 
 # faster-whisper High-Performance Speech Transcription Engine

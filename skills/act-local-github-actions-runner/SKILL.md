@@ -4,7 +4,7 @@ description: "act is an open-source CLI tool that runs GitHub Actions workflows 
 category: "CI/CD Integrations"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/act-local-github-actions-runner/"
+source: "https://github.com/nektos/act"
 ---
 
 # act Local GitHub Actions Runner

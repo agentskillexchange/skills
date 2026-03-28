@@ -4,7 +4,7 @@ description: "Uses boto3 and the AWS IAM Access Analyzer API to enumerate all ro
 category: "Security & Verification"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/aws-iam-privilege-escalation-audit/"
+source: "https://github.com/aws/aws-sdk-js-v3"
 tool_ecosystem:
   tool: aws
   github_stars: 3594

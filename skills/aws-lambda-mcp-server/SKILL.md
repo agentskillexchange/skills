@@ -4,7 +4,7 @@ description: "AWS Lambda MCP Server is built around Amazon Web Services cloud AP
 category: "Developer Tools"
 framework: "MCP"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/aws-lambda-mcp-server/"
+source: "https://github.com/aws/aws-sdk-js-v3"
 tool_ecosystem:
   tool: aws
   github_stars: 3594

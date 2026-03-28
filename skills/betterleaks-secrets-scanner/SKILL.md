@@ -4,7 +4,7 @@ description: "A fast, configurable secrets scanner built by the creator of Gitle
 category: "Security & Verification"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/betterleaks-secrets-scanner/"
+source: "https://github.com/betterleaks/betterleaks"
 ---
 
 # Betterleaks Next-Generation Secrets Scanner
@@ -42,3 +42,7 @@ npx skills add agentskillexchange/skills --skill betterleaks-secrets-scanner -a 
 ```bash
 clawhub install betterleaks-secrets-scanner
 ```
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/betterleaks-secrets-scanner/)

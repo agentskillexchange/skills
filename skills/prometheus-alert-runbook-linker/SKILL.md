@@ -4,7 +4,7 @@ description: "Links Prometheus alerting rules to operational runbooks by parsing
 category: "Runbooks & Diagnostics"
 framework: "Gemini"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/prometheus-alert-runbook-linker/"
+source: "https://github.com/prometheus/prometheus"
 tool_ecosystem:
   tool: prometheus
   github_stars: 63289

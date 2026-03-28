@@ -4,7 +4,7 @@ description: "GitUI is a fast terminal-based user interface for Git written in R
 category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/gitui-terminal-git-interface/"
+source: "https://github.com/gitui-org/gitui"
 ---
 
 # GitUI Blazing Fast Terminal Git Interface

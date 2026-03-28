@@ -4,7 +4,7 @@ description: "Discord Bot Manager is built around Discord bot and moderation pla
 category: "Calendar, Email & Productivity"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/discord-bot-manager/"
+source: "https://github.com/discordjs/discord.js"
 tool_ecosystem:
   tool: discord
   github_stars: 26650

@@ -4,7 +4,7 @@ description: "Connects applications to Datadog monitoring using the Datadog API 
 category: "Integrations & Connectors"
 framework: "Gemini"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/datadog-integration-connector-agent/"
+source: "https://github.com/DataDog/dd-trace-js"
 tool_ecosystem:
   tool: datadog
   github_stars: 789

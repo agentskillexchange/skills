@@ -4,7 +4,7 @@ description: "lychee is a fast, async, stream-based link checker written in Rust
 category: "Content Writing & SEO"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/lychee-async-broken-link-checker/"
+source: "https://github.com/lycheeverse/lychee"
 ---
 
 # lychee Async Broken Link Checker for Websites and Documentation

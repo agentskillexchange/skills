@@ -4,7 +4,7 @@ description: "Connects to the Slack Web API to fetch unread messages across spec
 category: "Integrations & Connectors"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/slack-channel-summarizer-triage/"
+source: "https://github.com/slackapi/bolt-js"
 tool_ecosystem:
   tool: slack
   github_stars: 2899

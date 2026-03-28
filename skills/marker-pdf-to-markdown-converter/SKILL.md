@@ -4,7 +4,7 @@ description: "Marker converts PDF, DOCX, PPTX, and image files to clean Markdown
 category: "Data Extraction & Transformation"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/marker-pdf-to-markdown-converter/"
+source: "https://github.com/datalab-to/marker"
 ---
 
 # Marker PDF-to-Markdown Converter

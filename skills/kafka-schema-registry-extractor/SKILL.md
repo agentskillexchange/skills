@@ -4,7 +4,7 @@ description: "Extracts and transforms Avro/Protobuf schemas from Confluent Schem
 category: "Data Extraction & Transformation"
 framework: "Claude Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/kafka-schema-registry-extractor/"
+source: "https://github.com/tulios/kafkajs"
 tool_ecosystem:
   tool: kafka
   github_stars: 3988
