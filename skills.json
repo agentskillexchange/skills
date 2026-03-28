@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1390,
+  "total": 1393,
   "generated": "2026-03-28",
   "skills": [
+    {
+      "slug": "faustjs-headless-wordpress-toolkit-nextjs",
+      "name": "Faust.js Headless WordPress Toolkit for Next.js",
+      "description": "Faust.js by WP Engine is a JavaScript framework and WordPress plugin that streamlines building headless WordPress sites with Next.js. It handles data fetching via…",
+      "category": [
+        "WordPress & CMS"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "textstat-python-readability-statistics-calculator",
+      "name": "textstat Python Readability Statistics Calculator",
+      "description": "textstat is a Python package that calculates readability statistics for text content, including Flesch Reading Ease, Gunning Fog Index, SMOG Index, Coleman-Liau Index, and…",
+      "category": [
+        "Content Writing & SEO"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "theharvester-osint-email-subdomain-intelligence",
+      "name": "theHarvester OSINT Email and Subdomain Intelligence Gatherer",
+      "description": "theHarvester is an open-source OSINT tool for gathering emails, subdomains, hosts, employee names, open ports, and banners from public sources. Used during reconnaissance in…",
+      "category": [
+        "Research & Scraping"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "retext-natural-language-processor-unified-plugins",
       "name": "retext Natural Language Processor with Unified Plugin Ecosystem",

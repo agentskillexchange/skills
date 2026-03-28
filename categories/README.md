@@ -1,6 +1,6 @@
 # Skill Categories
 
-> **1390 skills** across **17 categories**
+> **1393 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
@@ -17,10 +17,10 @@
 | 🎙️ | [**Media & Transcription**](media-transcription/) | **58** | Audio/video processing, speech-to-text, media conversion, and transcr... |
 | 📅 | [**Calendar, Email & Productivity**](calendar-email-productivity/) | **58** | Email automation, calendar management, task coordination, and product... |
 | 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **57** | Third-party API bridges, webhook handlers, service connectors, and pl... |
+| 🔍 | [**Research & Scraping**](research-scraping/) | **57** | Web research, data collection, content aggregation, and information g... |
 | 🌐 | [**Browser Automation**](browser-automation/) | **56** | Web scraping, UI testing, headless browser control, and browser-based... |
-| 🔍 | [**Research & Scraping**](research-scraping/) | **56** | Web research, data collection, content aggregation, and information g... |
-| 📰 | [**WordPress & CMS**](wordpress-cms/) | **52** | Theme/plugin development, WP-CLI automation, CMS management, and Word... |
-| ✍️ | [**Content Writing & SEO**](content-writing-seo/) | **50** | Blog posts, SEO optimization, content strategy, and writing assistance. |
+| 📰 | [**WordPress & CMS**](wordpress-cms/) | **53** | Theme/plugin development, WP-CLI automation, CMS management, and Word... |
+| ✍️ | [**Content Writing & SEO**](content-writing-seo/) | **51** | Blog posts, SEO optimization, content strategy, and writing assistance. |
 
 ---
 

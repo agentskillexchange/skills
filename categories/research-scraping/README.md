@@ -96,6 +96,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [SerpAPI Search Results Aggregator](../../skills/serpapi-search-results-aggregator/) | — | — |
 | [Shodan Network Reconnaissance Agent](../../skills/shodan-network-reconnaissance-agent/) | — | — |
 | [Tavily MCP Server for AI-Powered Web Search and Extraction](../../skills/tavily-mcp-server-ai-web-search-extraction/) | — | — |
+| [theHarvester OSINT Email and Subdomain Intelligence Gatherer](../../skills/theharvester-osint-email-subdomain-intelligence/) | — | — |
 
 ---
 
