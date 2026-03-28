@@ -13,7 +13,7 @@ Glow is a terminal-based markdown reader by Charm that renders markdown files wi
 
 ## Install
 
-### Any Agent (npx)
+### Any Agent
 ```bash
 npx skills add glow-terminal-markdown-renderer
 ```

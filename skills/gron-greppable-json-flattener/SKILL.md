@@ -13,7 +13,7 @@ gron transforms JSON into discrete assignment statements, making it possible to 
 
 ## Install
 
-### Any Agent (npx)
+### Any Agent
 ```bash
 npx skills add gron-greppable-json-flattener
 ```

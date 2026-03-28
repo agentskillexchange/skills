@@ -3,7 +3,7 @@ name: "write-good English Prose Linting for Technical Content"
 description: "This skill uses write-good to flag vague, wordy, or hard-to-read English prose in documentation and content drafts. It is useful when a team wants lightweight style feedback inside editors, scripts, or CI checks."
 category: "Content Writing & SEO"
 framework: "Multi-Framework"
-verification: listed
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/write-good-english-prose-linting-technical-content/"
 ---
 
@@ -13,7 +13,7 @@ This skill uses write-good to flag vague, wordy, or hard-to-read English prose i
 
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
 ```bash
 npx skills add write-good-english-prose-linting-technical-content
 ```

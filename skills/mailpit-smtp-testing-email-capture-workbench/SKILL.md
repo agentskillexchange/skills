@@ -3,7 +3,7 @@ name: "Mailpit SMTP Testing and Email Capture Workbench"
 description: "This skill uses Mailpit as a safe SMTP sink for development, QA, and automated test runs. It helps teams capture, inspect, search, and validate transactional email without sending anything to real inboxes."
 category: "Calendar, Email & Productivity"
 framework: "Multi-Framework"
-verification: listed
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/mailpit-smtp-testing-email-capture-workbench/"
 ---
 
@@ -13,7 +13,7 @@ This skill uses Mailpit as a safe SMTP sink for development, QA, and automated t
 
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
 ```bash
 npx skills add mailpit-smtp-testing-email-capture-workbench
 ```

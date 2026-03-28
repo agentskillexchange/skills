@@ -3,7 +3,7 @@ name: "changedetection.io Self-Hosted Website Change Monitoring Platform"
 description: "changedetection.io is an open-source, self-hosted tool for monitoring websites for content changes, price drops, restock alerts, and defacement detection. It supports visual selectors, browser automation via Playwright, and delivers notifications through Discord, Slack, Telegram, email, webhooks, an"
 category: "Research & Scraping"
 framework: "Multi-Framework"
-verification: listed
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/changedetection-io-website-change-monitor/"
 ---
 
@@ -15,7 +15,7 @@ changedetection.io is an open-source, self-hosted tool for monitoring websites f
 
 Install this skill using one of the following methods:
 
-### Any AI Agent (npx)
+### Any Agent
 ```bash
 npx @anthropic/agentskill add https://agentskillexchange.com/skills/changedetection-io-website-change-monitor/
 ```

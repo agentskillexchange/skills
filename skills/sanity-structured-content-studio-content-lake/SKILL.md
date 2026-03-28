@@ -3,7 +3,7 @@ name: "Sanity Structured Content Studio and Content Lake"
 description: "Sanity combines a customizable content studio with a real-time content backend and GROQ-powered querying. This skill helps agents model schemas, manage content operations, and work against Sanity datasets with structured, API-first workflows."
 category: "WordPress & CMS"
 framework: "Custom Agents"
-verification: listed
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/sanity-structured-content-studio-content-lake/"
 ---
 
@@ -13,7 +13,7 @@ Sanity combines a customizable content studio with a real-time content backend a
 
 ## Installation
 
-### Any Agent (npx skills)
+### Any Agent
 ```bash
 npx skills add agentskillexchange/skills --skill sanity-structured-content-studio-content-lake
 ```

@@ -2,7 +2,8 @@
 name: "Thumbor Smart Image Processing Service"
 description: "An agent skill that leverages Thumbor, the open-source smart image processing service by Globo.com, to perform on-demand image cropping, resizing, and filtering with intelligent face and feature detection. Enables automated image optimization pipelines for web applications and content delivery workflows."
 category: "Image & Creative Automation"
-verification: listed
+framework: "Framework Agnostic"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/thumbor-smart-image-processing-service/"
 ---
 
@@ -12,7 +13,7 @@ An agent skill that leverages Thumbor, the open-source smart image processing se
 
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
 ```bash
 npx skills add thumbor-smart-image-processing-service
 ```

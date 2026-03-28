@@ -3,7 +3,7 @@ name: "browser-use Browser Automation Framework"
 description: "Use browser-use to turn natural-language web tasks into repeatable browser automation backed by Playwright and agent loops. This skill helps an agent open sites, inspect page state, click, type, extract data, and recover from common UI changes with a real automation framework instead of brittle one-off scripts."
 category: "Browser Automation"
 framework: "Multi-Framework"
-verification: listed
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/browser-use-browser-automation-framework/"
 ---
 

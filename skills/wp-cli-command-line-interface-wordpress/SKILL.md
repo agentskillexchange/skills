@@ -3,7 +3,7 @@ name: "WP-CLI Command-Line Interface for WordPress"
 description: "Builds repeatable WordPress maintenance and content workflows around WP-CLI, the official command-line interface for WordPress. Useful for plugin management, database tasks, user administration, search-replace operations, and scripted publishing without living inside wp-admin."
 category: "WordPress & CMS"
 framework: "Multi-Framework"
-verification: listed
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/wp-cli-command-line-interface-wordpress/"
 ---
 
@@ -13,7 +13,7 @@ Builds repeatable WordPress maintenance and content workflows around WP-CLI, the
 
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
 ```bash
 npx skills add wp-cli-command-line-interface-wordpress
 ```

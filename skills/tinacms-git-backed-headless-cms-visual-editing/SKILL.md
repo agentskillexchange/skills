@@ -3,7 +3,7 @@ name: "TinaCMS Git-Backed Headless CMS with Visual Editing"
 description: "TinaCMS is a fully open-source headless CMS backed by Git that supports Markdown, MDX, JSON, and YAML content. It provides a GraphQL API for querying content, real-time visual editing for non-technical users, and seamless integration with static site generators and Next.js."
 category: "WordPress & CMS"
 framework: "Multi-Framework"
-verification: listed
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/tinacms-git-backed-headless-cms-visual-editing/"
 ---
 
@@ -15,7 +15,7 @@ TinaCMS is a fully open-source headless CMS backed by Git that supports Markdown
 
 Install this skill using one of the following methods:
 
-### Any AI Agent (npx)
+### Any Agent
 ```bash
 npx @anthropic/agentskill add https://agentskillexchange.com/skills/tinacms-git-backed-headless-cms-visual-editing/
 ```

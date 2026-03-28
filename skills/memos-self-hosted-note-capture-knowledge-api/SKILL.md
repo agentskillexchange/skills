@@ -3,7 +3,7 @@ name: "Memos Self-Hosted Note Capture and Knowledge API"
 description: "Enable AI agents to interact with Memos, an open-source self-hosted note-taking tool with REST and gRPC APIs. Agents can create, search, tag, and retrieve memos programmatically for knowledge management and quick capture workflows."
 category: "Calendar, Email & Productivity"
 framework: "Multi-Framework"
-verification: listed
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/memos-self-hosted-note-capture-knowledge-api/"
 ---
 
@@ -13,7 +13,7 @@ Enable AI agents to interact with Memos, an open-source self-hosted note-taking 
 
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
 ```bash
 npx @anthropic/agent-skills add memos-self-hosted-note-capture-knowledge-api
 ```

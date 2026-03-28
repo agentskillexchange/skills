@@ -3,7 +3,7 @@ name: "Langfuse LLM Observability Platform and SDK"
 description: "Use Langfuse to capture prompts, traces, generations, evaluations, and cost telemetry for LLM applications and agent workflows. This skill turns Langfuse from a generic observability brand into a concrete implementation pattern for tracing and analyzing model behavior."
 category: "Monitoring &amp; Alerts"
 framework: "Multi-Framework"
-verification: listed
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/langfuse-llm-observability-platform-and-sdk/"
 ---
 

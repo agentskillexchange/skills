@@ -3,7 +3,7 @@ name: "Unlighthouse Site-Wide Lighthouse and SEO Auditing"
 description: "Unlighthouse runs Google Lighthouse across an entire site instead of just a single page. This skill gives agents a repeatable way to crawl URLs, surface SEO and accessibility issues, and return prioritized audit findings for content and technical optimization work."
 category: "Content Writing & SEO"
 framework: "Custom Agents"
-verification: listed
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/unlighthouse-site-wide-lighthouse-seo-auditing/"
 ---
 
@@ -13,7 +13,7 @@ Unlighthouse runs Google Lighthouse across an entire site instead of just a sing
 
 ## Installation
 
-### Any Agent (npx skills)
+### Any Agent
 ```bash
 npx skills add agentskillexchange/skills --skill unlighthouse-site-wide-lighthouse-seo-auditing
 ```

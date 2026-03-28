@@ -3,7 +3,7 @@ name: "Audiobookshelf Self-Hosted Audiobook and Podcast Server API"
 description: "Integrate Audiobookshelf’s self-hosted audiobook and podcast server into AI agent workflows. Agents can manage libraries, track listening progress, search metadata, and automate podcast episode downloads through the comprehensive REST API."
 category: "Media & Transcription"
 framework: "Multi-Framework"
-verification: listed
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/audiobookshelf-self-hosted-audiobook-podcast-server-api/"
 ---
 
@@ -13,7 +13,7 @@ Integrate Audiobookshelf’s self-hosted audiobook and podcast server into AI ag
 
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
 ```bash
 npx @anthropic/agent-skills add audiobookshelf-self-hosted-audiobook-podcast-server-api
 ```

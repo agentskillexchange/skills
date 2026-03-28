@@ -3,7 +3,7 @@ name: "markdownlint-cli2 Markdown Linting for Docs and Repos"
 description: "This skill uses markdownlint-cli2 to enforce consistent Markdown quality across docs, READMEs, and content repositories. It is built for local authoring, pull-request checks, and CI enforcement with rule-based output."
 category: "Content Writing & SEO"
 framework: "Multi-Framework"
-verification: listed
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/markdownlint-cli2-markdown-linting-docs-repos/"
 ---
 
@@ -13,7 +13,7 @@ This skill uses markdownlint-cli2 to enforce consistent Markdown quality across 
 
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
 ```bash
 npx skills add markdownlint-cli2-markdown-linting-docs-repos
 ```

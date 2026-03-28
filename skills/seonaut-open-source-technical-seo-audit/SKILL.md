@@ -3,7 +3,7 @@ name: "SEOnaut Open Source Technical SEO Audit Tool"
 description: "SEOnaut is an open-source SEO auditing tool built with Go that crawls websites and generates detailed reports on technical SEO issues. It detects broken links, redirect chains, missing meta tags, duplicate titles, heading order problems, and other factors that impact search engine rankings."
 category: "Content Writing & SEO"
 framework: "Multi-Framework"
-verification: listed
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/seonaut-open-source-technical-seo-audit/"
 ---
 
@@ -15,7 +15,7 @@ SEOnaut is an open-source SEO auditing tool built with Go that crawls websites a
 
 Install this skill using one of the following methods:
 
-### Any AI Agent (npx)
+### Any Agent
 ```bash
 npx @anthropic/agentskill add https://agentskillexchange.com/skills/seonaut-open-source-technical-seo-audit/
 ```

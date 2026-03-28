@@ -13,7 +13,7 @@ fx is a terminal-based JSON viewer and processor that provides an interactive TU
 
 ## Install
 
-### Any Agent (npx)
+### Any Agent
 ```bash
 npx skills add fx-terminal-json-viewer-processor
 ```

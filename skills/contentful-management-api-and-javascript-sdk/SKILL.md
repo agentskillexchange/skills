@@ -3,7 +3,7 @@ name: "Contentful Management API and JavaScript SDK"
 description: "Use the Contentful Management API and JavaScript SDK to create, update, validate, and publish entries, assets, content models, and environments in a headless CMS workflow. This skill gives an agent a concrete path for operating Contentful programmatically rather than treating it like a generic CMS."
 category: "WordPress &amp; CMS"
 framework: "Multi-Framework"
-verification: listed
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/contentful-management-api-and-javascript-sdk/"
 ---
 

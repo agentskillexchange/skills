@@ -13,7 +13,7 @@ csvkit is a suite of Python command-line utilities for converting to, working wi
 
 ## Install
 
-### Any Agent (npx)
+### Any Agent
 ```bash
 npx skills add csvkit-python-csv-utility-suite
 ```

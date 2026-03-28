@@ -3,7 +3,7 @@ name: "WhisperX Speech Recognition with Word-Level Timestamps and Diarization"
 description: "WhisperX extends OpenAI Whisper with batched inference for 70x realtime transcription, phoneme-based word-level timestamp alignment via wav2vec2, voice activity detection, and speaker diarization. It produces accurate per-word timestamps and speaker labels from audio files."
 category: "Uncategorized"
 framework: "Any"
-verification: listed
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/whisperx-speech-recognition-timestamps-diarization/"
 ---
 
@@ -13,7 +13,7 @@ WhisperX extends OpenAI Whisper with batched inference for 70x realtime transcri
 
 ## Installation
 
-### Claude Code / Any Agent
+### Any Agent
 ```bash
 npx skills add whisperx-speech-recognition-timestamps-diarization
 ```

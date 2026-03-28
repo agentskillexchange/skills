@@ -2,7 +2,8 @@
 name: "Decap CMS Git-Based Content Management for Static Sites"
 description: "An agent skill built on Decap CMS (formerly Netlify CMS), the open-source Git-based content management system for static site generators. Provides a visual editing interface backed by Git commits, enabling content workflows for Hugo, Jekyll, Gatsby, Next.js, and other Jamstack frameworks."
 category: "WordPress & CMS"
-verification: listed
+framework: "Framework Agnostic"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/decap-cms-git-based-content-management-static-sites/"
 ---
 
@@ -12,7 +13,7 @@ An agent skill built on Decap CMS (formerly Netlify CMS), the open-source Git-ba
 
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
 ```bash
 npx skills add decap-cms-git-based-content-management-static-sites
 ```

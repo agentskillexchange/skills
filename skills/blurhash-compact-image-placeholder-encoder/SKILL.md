@@ -2,7 +2,8 @@
 name: "BlurHash Compact Image Placeholder Encoder"
 description: "An agent skill that uses BlurHash, the compact image placeholder representation algorithm by Wolt, to generate and decode tiny hash strings that represent blurred previews of images. Enables instant placeholder rendering in web and mobile applications while full images load."
 category: "Image & Creative Automation"
-verification: listed
+framework: "Framework Agnostic"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/blurhash-compact-image-placeholder-encoder/"
 ---
 
@@ -12,7 +13,7 @@ An agent skill that uses BlurHash, the compact image placeholder representation 
 
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
 ```bash
 npx skills add blurhash-compact-image-placeholder-encoder
 ```

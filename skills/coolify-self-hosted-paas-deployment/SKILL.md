@@ -3,7 +3,7 @@ name: "Coolify Self-Hosted PaaS Deployment Platform"
 description: "Open-source, self-hostable alternative to Vercel, Heroku, and Netlify that deploys static sites, databases, full-stack applications, and 280+ one-click services on your own servers. Manages VPS, bare metal, and Raspberry Pi via SSH."
 category: "Developer Tools"
 framework: "Multi-Framework"
-verification: listed
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/coolify-self-hosted-paas-deployment/"
 ---
 

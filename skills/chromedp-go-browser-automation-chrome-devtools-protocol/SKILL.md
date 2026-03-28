@@ -3,7 +3,7 @@ name: "chromedp Go Browser Automation with Chrome DevTools Protocol"
 description: "This skill turns chromedp into a repeatable browser automation workflow for Go teams. It covers navigation, DOM queries, screenshots, PDF capture, network-aware waits, and structured extraction through the Chrome DevTools Protocol."
 category: "Browser Automation"
 framework: "Multi-Framework"
-verification: listed
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/chromedp-go-browser-automation-chrome-devtools-protocol/"
 ---
 
@@ -13,7 +13,7 @@ This skill turns chromedp into a repeatable browser automation workflow for Go t
 
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
 ```bash
 npx skills add chromedp-go-browser-automation-chrome-devtools-protocol
 ```

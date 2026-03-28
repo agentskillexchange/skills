@@ -3,7 +3,7 @@ name: "Browser Use AI Browser Automation Library"
 description: "Automates browser tasks with Browser Use, the open-source library that connects LLM reasoning to Playwright-driven web actions. Useful for navigating sites, filling forms, extracting structured page data, and running agentic browser workflows with screenshots and stateful sessions."
 category: "Browser Automation"
 framework: "Multi-Framework"
-verification: listed
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/browser-use-ai-browser-automation-library/"
 ---
 
@@ -13,7 +13,7 @@ Automates browser tasks with Browser Use, the open-source library that connects 
 
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
 ```bash
 npx skills add browser-use-ai-browser-automation-library
 ```

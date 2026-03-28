@@ -2,7 +2,8 @@
 name: "imgproxy High-Performance Image Processing Proxy"
 description: "An agent skill built on imgproxy, the high-performance Go-based image processing server, enabling on-the-fly image resizing, cropping, format conversion, and optimization through URL-based transformations. Designed for production CDN pipelines and automated media workflows."
 category: "Image & Creative Automation"
-verification: listed
+framework: "Framework Agnostic"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/imgproxy-high-performance-image-processing-proxy/"
 ---
 
@@ -12,7 +13,7 @@ An agent skill built on imgproxy, the high-performance Go-based image processing
 
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
 ```bash
 npx skills add imgproxy-high-performance-image-processing-proxy
 ```

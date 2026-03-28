@@ -3,7 +3,7 @@ name: "Himalaya CLI Email Client for IMAP SMTP and Notmuch"
 description: "Himalaya is a CLI email client written in Rust that supports IMAP, Maildir, and Notmuch backends for reading mail, and SMTP and Sendmail for sending. It features multi-account configuration, PGP encryption, OAuth 2.0, system keyring integration, and JSON output for scripting and agent automation."
 category: "Uncategorized"
 framework: "Any"
-verification: listed
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/himalaya-cli-email-client-imap-smtp-notmuch/"
 ---
 
@@ -13,7 +13,7 @@ Himalaya is a CLI email client written in Rust that supports IMAP, Maildir, and 
 
 ## Installation
 
-### Claude Code / Any Agent
+### Any Agent
 ```bash
 npx skills add himalaya-cli-email-client-imap-smtp-notmuch
 ```

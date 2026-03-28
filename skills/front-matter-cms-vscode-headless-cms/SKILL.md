@@ -2,7 +2,8 @@
 name: "Front Matter CMS Visual Studio Code Headless CMS"
 description: "An agent skill built on Front Matter CMS, the headless content management system that runs directly inside Visual Studio Code. Manages content for static site generators like Hugo, Jekyll, Next.js, Gatsby, and Astro through an editor-native interface with taxonomy management, media handling, and content scaffolding."
 category: "WordPress & CMS"
-verification: listed
+framework: "Framework Agnostic"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/front-matter-cms-vscode-headless-cms/"
 ---
 
@@ -12,7 +13,7 @@ An agent skill built on Front Matter CMS, the headless content management system
 
 ## Installation
 
-### Any Agent (npx)
+### Any Agent
 ```bash
 npx skills add front-matter-cms-vscode-headless-cms
 ```

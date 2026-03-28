@@ -13,7 +13,7 @@ Datasette is an open-source Python tool for exploring and publishing data. It tu
 
 ## Install
 
-### Any Agent (npx)
+### Any Agent
 ```bash
 npx skills add datasette-data-exploration-publishing-tool
 ```

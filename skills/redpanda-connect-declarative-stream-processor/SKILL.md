@@ -13,7 +13,7 @@ Redpanda Connect (formerly Benthos) is a high-performance stream processor that 
 
 ## Install
 
-### Any Agent (npx)
+### Any Agent
 ```bash
 npx skills add redpanda-connect-declarative-stream-processor
 ```

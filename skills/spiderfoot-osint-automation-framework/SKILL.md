@@ -3,7 +3,7 @@ name: "SpiderFoot Open Source Intelligence Automation Framework"
 description: "SpiderFoot is an open-source OSINT automation tool that queries over 200 data sources to gather intelligence about IP addresses, domain names, email addresses, and other targets. Written in Python, it provides both a web UI and CLI for reconnaissance, threat intelligence, and attack surface mapping."
 category: "Research & Scraping"
 framework: "Multi-Framework"
-verification: listed
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/spiderfoot-osint-automation-framework/"
 ---
 
@@ -15,7 +15,7 @@ SpiderFoot is an open-source OSINT automation tool that queries over 200 data so
 
 Install this skill using one of the following methods:
 
-### Any AI Agent (npx)
+### Any Agent
 ```bash
 npx @anthropic/agentskill add https://agentskillexchange.com/skills/spiderfoot-osint-automation-framework/
 ```

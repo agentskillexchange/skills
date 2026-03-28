@@ -3,7 +3,7 @@ name: "Listmonk Self-Hosted Newsletter and Mailing List Manager"
 description: "High-performance, self-hosted newsletter and mailing list manager packed into a single binary. Manages millions of subscribers with templated campaigns, analytics, and a REST API for programmatic email automation."
 category: "Calendar, Email & Productivity"
 framework: "Multi-Framework"
-verification: listed
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/listmonk-self-hosted-newsletter-mailing-list/"
 ---
 
