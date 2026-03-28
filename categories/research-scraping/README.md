@@ -84,7 +84,10 @@ Web research, data collection, content aggregation, and information gathering.
 | [Diffbot Article Extraction Verifier](../../skills/diffbot-article-extraction-verifier/) | — | — |
 | [Diffbot Knowledge Graph Extractor](../../skills/diffbot-knowledge-graph-extractor/) | — | — |
 | [Firecrawl Markdown Capture Pipeline](../../skills/firecrawl-markdown-capture-pipeline/) | — | — |
+| [Instaloader Instagram Content and Metadata Downloader](../../skills/instaloader-instagram-content-metadata-downloader/) | — | — |
 | [Jina Reader API Skill](../../skills/jina-reader-api-skill/) | — | — |
+| [Katana Next-Generation Web Crawling and Spidering Framework](../../skills/katana-web-crawling-spidering-framework/) | — | — |
+| [Maigret OSINT Username Profiler Across 3000+ Sites](../../skills/maigret-osint-username-profiler/) | — | — |
 | [OSINT Domain Intelligence Scanner](../../skills/osint-domain-intelligence-scanner/) | — | — |
 | [Patent Landscape Analyzer](../../skills/patent-landscape-analyzer/) | — | — |
 | [Product Review Sentiment Aggregator](../../skills/product-review-sentiment-aggregator/) | — | — |
@@ -94,6 +97,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [SerpAPI Scholar Agent](../../skills/serpapi-scholar-agent/) | — | — |
 | [SerpAPI Search Intelligence Aggregator](../../skills/serpapi-search-intelligence-aggregator/) | — | — |
 | [SerpAPI Search Results Aggregator](../../skills/serpapi-search-results-aggregator/) | — | — |
+| [Sherlock Social Media Username Hunter Across 400+ Networks](../../skills/sherlock-social-media-username-hunter/) | — | — |
 | [Shodan Network Reconnaissance Agent](../../skills/shodan-network-reconnaissance-agent/) | — | — |
 | [Tavily MCP Server for AI-Powered Web Search and Extraction](../../skills/tavily-mcp-server-ai-web-search-extraction/) | — | — |
 | [theHarvester OSINT Email and Subdomain Intelligence Gatherer](../../skills/theharvester-osint-email-subdomain-intelligence/) | — | — |

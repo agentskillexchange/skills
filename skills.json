@@ -1,8 +1,68 @@
 {
   "version": "2.0",
-  "total": 1393,
+  "total": 1398,
   "generated": "2026-03-28",
   "skills": [
+    {
+      "slug": "instaloader-instagram-content-metadata-downloader",
+      "name": "Instaloader Instagram Content and Metadata Downloader",
+      "description": "Instaloader is a Python CLI tool and library that downloads Instagram photos, videos, stories, reels, highlights, and IGTV content along with captions, comments, geotags,…",
+      "category": [
+        "Research & Scraping"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "httpx-http-probing-toolkit-projectdiscovery",
+      "name": "httpx Fast Multi-Purpose HTTP Probing Toolkit by ProjectDiscovery",
+      "description": "httpx by ProjectDiscovery is a fast, multi-purpose HTTP toolkit for running probes against lists of hosts. It detects live web servers, extracts response metadata,…",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "katana-web-crawling-spidering-framework",
+      "name": "Katana Next-Generation Web Crawling and Spidering Framework",
+      "description": "Katana by ProjectDiscovery is a fast, configurable web crawling and spidering framework written in Go. It supports standard and headless browser modes, JavaScript parsing,…",
+      "category": [
+        "Research & Scraping"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "maigret-osint-username-profiler",
+      "name": "Maigret OSINT Username Profiler Across 3000+ Sites",
+      "description": "Maigret collects a dossier on a person by username only, checking for accounts on over 3000 sites and gathering available information from web pages.…",
+      "category": [
+        "Research & Scraping"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "sherlock-social-media-username-hunter",
+      "name": "Sherlock Social Media Username Hunter Across 400+ Networks",
+      "description": "Sherlock hunts down social media accounts by username across more than 400 social networks. It is the go-to OSINT CLI tool for verifying online…",
+      "category": [
+        "Research & Scraping"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "faustjs-headless-wordpress-toolkit-nextjs",
       "name": "Faust.js Headless WordPress Toolkit for Next.js",
