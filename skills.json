@@ -1,8 +1,56 @@
 {
   "version": "2.0",
-  "total": 1410,
+  "total": 1414,
   "generated": "2026-03-28",
   "skills": [
+    {
+      "slug": "wp-browser-wordpress-integration-testing-codeception",
+      "name": "wp-browser WordPress Integration Testing with Codeception",
+      "description": "wp-browser is a PHP library that provides Codeception modules for testing WordPress plugins and themes. It supports unit, integration, functional, and acceptance testing with…",
+      "category": [
+        "WordPress & CMS"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "librosa-python-audio-music-analysis-library",
+      "name": "librosa Python Audio and Music Analysis Library",
+      "description": "librosa is a Python library for audio and music analysis. It provides tools for feature extraction, spectral analysis, beat tracking, onset detection, and audio…",
+      "category": [
+        "Media & Transcription"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "pydub-python-audio-manipulation-library",
+      "name": "pydub Python Audio Manipulation Library",
+      "description": "pydub is a Python library that provides a simple, high-level interface for manipulating audio files. It supports slicing, concatenation, volume adjustment, crossfading, format conversion,…",
+      "category": [
+        "Media & Transcription"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "proselint-prose-linting-style-checker-cli",
+      "name": "proselint Prose Linting and Style Checker CLI",
+      "description": "proselint is a Python CLI tool that lints English prose for style and usage issues. It aggregates writing advice from renowned authors and editors…",
+      "category": [
+        "Content Writing & SEO"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "svix-enterprise-webhook-delivery-service",
       "name": "Svix Enterprise Webhook Delivery Service",

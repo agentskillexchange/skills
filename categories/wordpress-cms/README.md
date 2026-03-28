@@ -93,6 +93,7 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [WooCommerce REST Inventory Sync](../../skills/woocommerce-rest-inventory-sync/) | — | — |
 | [WooCommerce Webhook Delivery Inspector](../../skills/woocommerce-webhook-delivery-inspector/) | — | — |
 | [WooCommerce Webhook Orchestrator](../../skills/woocommerce-webhook-orchestrator/) | — | — |
+| [wp-browser WordPress Integration Testing with Codeception](../../skills/wp-browser-wordpress-integration-testing-codeception/) | — | — |
 
 ---
 

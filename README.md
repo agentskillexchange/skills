@@ -4,14 +4,14 @@
 
 ### The open catalog of AI agent skills
 
-[![Published](https://img.shields.io/badge/published-1%2C410-6366f1?style=for-the-badge)](skills/)
+[![Published](https://img.shields.io/badge/published-1%2C414-6366f1?style=for-the-badge)](skills/)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/)
 [![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-1%2C382-10b981?style=for-the-badge)](verification/)
 [![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)
 
 **[Categories](categories/) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md) · [Submit a Skill](#submit-a-skill)**
 
-*1,410 published skills · 17 categories · Real ecosystem signals · Updated hourly*
+*1,414 published skills · 17 categories · Real ecosystem signals · Updated hourly*
 
 </div>
 
@@ -77,13 +77,13 @@ A hand-picked selection across categories. See [TOP-STARS.md](TOP-STARS.md) and 
 | 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 85 | Metrics, alerting rules, observability |
 | 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 66 | Scaffolders, boilerplate generators, workflow templates |
 | 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 62 | Email automation, calendar management, task coordination |
+| 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 61 | Audio/video processing, speech-to-text |
 | 🔍 | [**Research & Scraping**](categories/research-scraping/) | 61 | Web research, content discovery, data collection |
 | 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 60 | Third-party API bridges, webhooks, service connectors |
 | 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 60 | Image generation, asset processing, design automation |
-| 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 59 | Audio/video processing, speech-to-text |
 | 🌐 | [**Browser Automation**](categories/browser-automation/) | 57 | Web scraping, UI testing, headless browser control |
-| 📰 | [**WordPress & CMS**](categories/wordpress-cms/) | 53 | Theme/plugin dev, WP-CLI automation, CMS management |
-| ✍️ | [**Content Writing & SEO**](categories/content-writing-seo/) | 51 | SEO content, blog automation, editorial workflows |
+| 📰 | [**WordPress & CMS**](categories/wordpress-cms/) | 54 | Theme/plugin dev, WP-CLI automation, CMS management |
+| ✍️ | [**Content Writing & SEO**](categories/content-writing-seo/) | 52 | SEO content, blog automation, editorial workflows |
 
 ---
 
@@ -142,7 +142,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 1,410 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 1,414 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 1,382 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

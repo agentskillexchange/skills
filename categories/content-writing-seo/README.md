@@ -73,6 +73,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [LanguageTool Grammar and Style Checker](../../skills/languagetool-grammar-style-checker/) | — | — |
 | [Markdown-to-AMP Article Converter](../../skills/markdown-to-amp-article-converter/) | — | — |
 | [markdownlint-cli2 Markdown Linting for Docs and Repos](../../skills/markdownlint-cli2-markdown-linting-docs-repos/) | — | — |
+| [proselint Prose Linting and Style Checker CLI](../../skills/proselint-prose-linting-style-checker-cli/) | — | — |
 | [retext Natural Language Processor with Unified Plugin Ecosystem](../../skills/retext-natural-language-processor-unified-plugins/) | — | — |
 | [Schema Markup Generator for SEO](../../skills/schema-markup-generator-seo/) | — | — |
 | [schema-dts TypeScript Types for Schema.org Structured Data](../../skills/schema-dts-typescript-types-schemaorg-structured-data/) | — | — |
