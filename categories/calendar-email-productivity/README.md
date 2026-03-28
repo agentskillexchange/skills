@@ -80,8 +80,10 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Google Calendar Smart Scheduler](../../skills/google-calendar-smart-scheduler-2/) | — | — |
 | [Google Calendar Sync &#038; Conflict Resolver](../../skills/google-calendar-sync-conflict-resolver/) | — | — |
 | [Google Calendar Sync Agent](../../skills/google-calendar-sync-agent-2/) | — | — |
+| [Himalaya CLI Email Client for IMAP SMTP and Notmuch](../../skills/himalaya-cli-email-client-imap-smtp-notmuch/) | — | — |
 | [IMAP Email Classifier](../../skills/imap-email-classifier-ml/) | — | — |
 | [IMAP Inbox Triage Agent](../../skills/imap-inbox-triage-agent/) | — | — |
+| [khal Standards-Based CLI Calendar Application](../../skills/khal-cli-calendar-application-caldav/) | — | — |
 | [Listmonk Self-Hosted Newsletter and Mailing List Manager](../../skills/listmonk-self-hosted-newsletter-mailing-list/) | — | — |
 | [Mailpit SMTP Testing and Email Capture Workbench](../../skills/mailpit-smtp-testing-email-capture-workbench/) | — | — |
 | [Memos Self-Hosted Note Capture and Knowledge API](../../skills/memos-self-hosted-note-capture-knowledge-api/) | — | — |

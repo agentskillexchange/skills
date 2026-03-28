@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1370 published skills** across **17 categories** · 1328 security reviewed · Updated 2026-03-27 23:17 UTC
+> **1375 published skills** across **17 categories** · 1328 security reviewed · Updated 2026-03-28 01:14 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1020,6 +1020,72 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Yeoman Workflow Orchestrator](skills/yeoman-workflow-orchestrator/) | Orchestrates Yeoman generator workflows with composable sub-generators and mem-fs-editor file transformations.… | Security Reviewed | — | — |
 
 
+### 📅 Calendar, Email & Productivity (58 skills)
+
+Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=downloads)
+
+| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
+|---|---|---|---:|---:|
+| [Inbox Zero AI Email Assistant](skills/inbox-zero-ai-email-assistant/) | Inbox Zero is an open-source AI email assistant with over 10,000 GitHub stars that auto-triages your inbox,… | Security Reviewed | 73.6k | 8.4M/wk |
+| [Google Workspace MCP Server for Gmail Calendar and Drive](skills/google-workspace-mcp-server-gmail-calendar-drive/) | The Google Workspace MCP Server provides comprehensive natural language control over Gmail, Google Calendar, Drive,… | Security Reviewed | 71.6k | — |
+| [Todoist Natural Language Task Parser](skills/todoist-natural-language-task-parser/) | Parses natural language task descriptions into structured Todoist API v2 task objects with due dates, priority… | Security Reviewed | 35.3k | — |
+| [Discord Bot Manager](skills/discord-bot-manager/) | Discord Bot Manager is built around Discord bot and moderation platform. The underlying ecosystem is represented by… | Security Reviewed | 26.6k | 524.1k/wk |
+| [Linear Sprint Planner](skills/linear-sprint-planner/) | Linear Sprint Planner is built around GraphQL API ecosystem. The underlying ecosystem is represented by… | Security Reviewed | 20.3k | 32.3M/wk |
+| [Microsoft Graph Email Triage Assistant](skills/microsoft-graph-email-triage-assistant/) | Triages Outlook inboxes via Microsoft Graph API with delta query for incremental sync. Applies classification rules,… | Security Reviewed | 7k | 4.9M/wk |
+| [Outlook Email Automation](skills/outlook-email-automation/) | Authenticates to Microsoft Graph API using MSAL with Mail.ReadWrite and Calendars.ReadWrite permissions. Reads,… | Security Reviewed | 7k | 4.9M/wk |
+| [Notion AI Document Summarizer & Action Item Extractor](skills/notion-ai-doc-summarizer/) | Uses the Notion SDK and Notion AI's /v1/pages and /v1/blocks/children endpoints to retrieve page content and invoke… | Security Reviewed | 5.6k | 1.1M/wk |
+| [Notion AI Workspace](skills/notion-ai-workspace/) | Notion AI Workspace is built around Notion workspace and database platform. The underlying ecosystem is represented… | Security Reviewed | 5.6k | 1.1M/wk |
+| [Notion Database Sync Agent](skills/notion-database-sync-agent/) | Syncs records between Notion databases and external sources using the Notion API (POST /v1/databases/{id}/query),… | Security Reviewed | 5.6k | 1.1M/wk |
+| [Notion Database Sync Bridge](skills/notion-database-sync-bridge/) | Synchronizes data between Notion databases and external sources using the Notion API v2022-06-28 with cursor-based… | Security Reviewed | 5.6k | 1.1M/wk |
+| [Notion MCP Server](skills/notion-mcp-server/) | Notion MCP Server is built around Notion workspace and database platform. The underlying ecosystem is represented by… | Security Reviewed | 5.6k | 1.1M/wk |
+| [Notion Task Board Automation](skills/notion-task-board-automation-agent/) | Automates Notion database workflows using the Notion API databases.query and pages.create endpoints. Builds filtered… | Security Reviewed | 5.6k | 1.1M/wk |
+| [Notion Task Sync Bridge](skills/notion-task-sync-bridge/) | Bidirectionally syncs tasks between Notion databases and external project management tools using the Notion API… | Security Reviewed | 5.6k | 1.1M/wk |
+| [Notion Workspace Automation Hub](skills/notion-workspace-automation-hub/) | Orchestrates Notion workspace workflows using Notion API v2 with database queries, page creation, and relation… | Security Reviewed | 5.6k | 1.1M/wk |
+| [Notion Workspace Automator](skills/notion-workspace-automator-api-v1/) | Automates Notion workspace management through the Notion API v1 with database query filters, page creation, and… | Security Reviewed | 5.6k | 1.1M/wk |
+| [Notion Workspace Sync Agent](skills/notion-workspace-sync-agent/) | Bidirectionally syncs project data between Notion databases and external tools using the Notion API v2022-06-28.… | Security Reviewed | 5.6k | 1.1M/wk |
+| [Notion Workspace Sync Engine](skills/notion-workspace-sync-engine-2/) | Bidirectionally syncs Notion databases with external tools via the Notion API and webhooks. Maps page properties to… | Security Reviewed | 5.6k | 1.1M/wk |
+| [Todoist GTD Workflow Automator](skills/todoist-gtd-workflow-automator/) | Implements Getting Things Done methodology on Todoist using the Todoist Sync API v9. Automates inbox processing,… | Security Reviewed | 5.6k | 1.1M/wk |
+| [Slack Channel Summarizer](skills/slack-channel-summarizer-bolt-sdk/) | Generates channel summaries using Slack Bolt SDK with conversations.history and conversations.replies endpoints.… | Security Reviewed | 2.9k | 2M/wk |
+| [Slack Digest and Task Router](skills/slack-digest-and-task-router/) | Reads unread Slack messages from specified channels using the conversations.history API, extracts action items and… | Security Reviewed | 2.9k | 2M/wk |
+| [Slack MCP Server](skills/slack-mcp-server/) | Agent access to Slack conversations and workspace workflows. | Security Reviewed | 2.9k | 2M/wk |
+| [Slack Standup Automator](skills/slack-standup-automator/) | Automates daily standup collection and reporting in Slack using the Slack Web API chat.postMessage and… | Security Reviewed | 2.9k | 2M/wk |
+| [Slack Standup Summarizer](skills/slack-standup-summarizer/) | Collects daily standup updates from Slack channels using the Web API and generates team summaries with blockers… | Security Reviewed | 2.9k | 2M/wk |
+| [Slack Status API PTO Sync Assistant](skills/slack-status-api-pto-sync-assistant/) | Syncs away-state updates through Slack users.profile APIs, status fields, and directory lookups so agents can keep… | Security Reviewed | 2.9k | 2M/wk |
+| [Slack Workflow Automation Builder](skills/slack-workflow-automation-builder/) | Creates Slack Workflow Builder automations using the Slack Web API and Block Kit. Builds approval flows, standup… | Security Reviewed | 2.9k | 2M/wk |
+| [Slack Workflow Bot](skills/slack-workflow-bot-bolt-sdk/) | Builds interactive Slack workflows using the Bolt SDK for JavaScript and Block Kit Builder API. Handles modal forms,… | Security Reviewed | 2.9k | 2M/wk |
+| [Slack Workflow Bot Builder](skills/slack-workflow-bot-builder/) | Creates interactive Slack workflows using Block Kit UI components and the Bolt.js framework. Implements slash… | Security Reviewed | 2.9k | 2M/wk |
+| [Slack Workflow Builder Agent](skills/slack-workflow-builder-agent/) | Creates and manages Slack workflows using @slack/bolt and @slack/web-api. Builds interactive modals with Block Kit,… | Security Reviewed | 2.9k | 2M/wk |
+| [Microsoft Graph Mail Triage Agent](skills/microsoft-graph-mail-triage-agent/) | Triages Outlook emails using the Microsoft Graph API /me/messages endpoint with $filter OData queries and… | Security Reviewed | 790 | 5.9M/wk |
+| [Atlassian Rovo MCP Server](skills/atlassian-rovo-mcp-server/) | The Atlassian Rovo MCP Server bridges your Atlassian Cloud workspace with any MCP-compatible client. Search and… | Security Reviewed | — | — |
+| [Cal.com Open Source Scheduling Infrastructure and API](skills/cal-com-open-source-scheduling-infrastructure-api/) | Integrate Cal.com's open-source scheduling platform into AI agent workflows. Agents can programmatically create… | Published | — | — |
+| [Gmail API Thread Label Triage](skills/gmail-api-thread-label-triage/) | Triage inbox backlog with the Gmail API’s `users.threads`, `users.messages`, and `users.labels` methods so agents… | Security Reviewed | — | — |
+| [Gmail Thread Summarizer and Action Extractor](skills/gmail-thread-summarizer-action-extractor/) | Fetches Gmail threads via the Gmail API (users.threads.get), extracts full message content, and produces a… | Security Reviewed | — | — |
+| [Google Calendar Conflict Detector](skills/google-calendar-conflict-detector/) | Detects scheduling conflicts across multiple Google Calendars using the Google Calendar API v3 and the freebusy… | Security Reviewed | — | — |
+| [Google Calendar Conflict Resolver](skills/google-calendar-conflict-resolver-2/) | Detects and resolves scheduling conflicts across multiple Google Calendar accounts using the Google Calendar API v3… | Security Reviewed | — | — |
+| [Google Calendar FreeBusy Scheduler Bridge](skills/google-calendar-freebusy-scheduler-bridge/) | Coordinates meeting suggestions with the Google Calendar `freeBusy` endpoint, Events resource, and conferenceData… | Security Reviewed | — | — |
+| [Google Calendar Smart Scheduler](skills/google-calendar-smart-scheduler-2/) | Optimizes meeting scheduling using the Google Calendar API v3 and FreeBusy queries. Applies time-zone-aware slot… | Security Reviewed | — | — |
+| [Google Calendar Sync & Conflict Resolver](skills/google-calendar-sync-conflict-resolver/) | Bidirectional calendar synchronization using Google Calendar API v3 with OAuth 2.0. Detects scheduling conflicts… | Security Reviewed | — | — |
+| [Google Calendar Sync Agent](skills/google-calendar-sync-agent-2/) | Synchronizes events across multiple Google Calendar accounts using the Calendar API v3 and OAuth 2.0. Handles… | Security Reviewed | — | — |
+| [Himalaya CLI Email Client for IMAP SMTP and Notmuch](skills/himalaya-cli-email-client-imap-smtp-notmuch/) | Himalaya is a CLI email client written in Rust that supports IMAP, Maildir, and Notmuch backends for reading mail,… | Published | — | — |
+| [IMAP Email Classifier](skills/imap-email-classifier-ml/) | Classifies and organizes emails from IMAP servers using imaplib and scikit-learn text classification. Supports… | Security Reviewed | — | — |
+| [IMAP Inbox Triage Agent](skills/imap-inbox-triage-agent/) | Connects to IMAP email servers to classify, prioritize, and auto-label incoming messages using rule-based and… | Security Reviewed | — | — |
+| [khal Standards-Based CLI Calendar Application](skills/khal-cli-calendar-application-caldav/) | khal is a standards-based CLI and terminal calendar program written in Python. It reads and writes iCalendar data to… | Published | — | — |
+| [Listmonk Self-Hosted Newsletter and Mailing List Manager](skills/listmonk-self-hosted-newsletter-mailing-list/) | High-performance, self-hosted newsletter and mailing list manager packed into a single binary. Manages millions of… | Published | — | — |
+| [Mailpit SMTP Testing and Email Capture Workbench](skills/mailpit-smtp-testing-email-capture-workbench/) | This skill uses Mailpit as a safe SMTP sink for development, QA, and automated test runs. It helps teams capture,… | Published | — | — |
+| [Memos Self-Hosted Note Capture and Knowledge API](skills/memos-self-hosted-note-capture-knowledge-api/) | Enable AI agents to interact with Memos, an open-source self-hosted note-taking tool with REST and gRPC APIs. Agents… | Published | — | — |
+| [Microsoft Graph Calendar Conflict Resolver](skills/microsoft-graph-calendar-conflict-resolver/) | Resolves scheduling collisions with Microsoft Graph Calendar endpoints like `/me/events`, `/calendarView`, and… | Security Reviewed | — | — |
+| [Microsoft Graph Email Digest Builder](skills/microsoft-graph-email-digest-builder/) | Generates daily email digests from Microsoft 365 mailboxes using the Microsoft Graph API /me/messages endpoint.… | Security Reviewed | — | — |
+| [Microsoft Graph Email Triage Agent](skills/microsoft-graph-email-triage-agent/) | Automates email triage using Microsoft Graph API v1.0 with delegated permissions. Classifies emails by urgency using… | Security Reviewed | — | — |
+| [Microsoft Outlook Calendar Sync Agent](skills/ms-outlook-calendar-sync-agent/) | Synchronizes calendar events bidirectionally using the Microsoft Graph API /me/calendar/events endpoint. Handles… | Security Reviewed | — | — |
+| [Microsoft Outlook Mail Sorter](skills/ms-outlook-mail-sorter/) | Automatically triages Microsoft Outlook emails using the Microsoft Graph API /me/messages endpoint. Applies… | Security Reviewed | — | — |
+| [Outlook Mail Triage Assistant](skills/outlook-mail-triage-assistant/) | Automated email triage using Microsoft Graph API and @azure/msal-node for OAuth. Classifies messages with zero-shot… | Security Reviewed | — | — |
+| [Outlook Mail Triage Skill](skills/outlook-mail-triage-microsoft-graph/) | Triages Outlook inboxes using Microsoft Graph API v1.0 with delta query support for incremental mail sync. Applies… | Security Reviewed | — | — |
+| [Outlook Rule Automation Manager](skills/outlook-rule-automation-manager/) | Creates and manages Outlook email rules programmatically using the Microsoft Graph API… | Security Reviewed | — | — |
+| [Todoist GTD Workflow Engine](skills/todoist-gtd-workflow-engine/) | Implements Getting Things Done methodology on Todoist using the Sync API v9. Automates weekly reviews, context… | Security Reviewed | — | — |
+| [Todoist Project Automator](skills/todoist-project-automator-api-v2/) | Automates Todoist project management using the Todoist REST API v2 and Sync API. Creates task templates, manages… | Security Reviewed | — | — |
+| [Todoist Sync API Task Orchestrator](skills/todoist-sync-api-task-orchestrator/) | Orchestrates complex task workflows using the Todoist Sync API v9 with incremental sync via sync_token. Uses… | Security Reviewed | — | — |
+
+
 ### 🔗 Integrations & Connectors (57 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
@@ -1083,70 +1149,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Plaid Financial Data Connector](skills/plaid-financial-data-connector/) | Connects to bank accounts via Plaid Link SDK and retrieves transaction data using the Plaid Transactions API.… | Security Reviewed | — | — |
 | [Qdrant MCP Server for Vector Search and Semantic Memory](skills/qdrant-mcp-server-vector-search-semantic-memory/) | An official Qdrant MCP server implementation that provides semantic memory capabilities for AI agents. Enables… | Security Reviewed | — | — |
 | [Zapier Webhook Integration Builder](skills/zapier-webhook-integration-builder/) | Creates and manages Zapier integrations using the Zapier Platform CLI and REST Hooks API. Builds custom triggers,… | Security Reviewed | — | — |
-
-
-### 📅 Calendar, Email & Productivity (56 skills)
-
-Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=downloads)
-
-| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
-|---|---|---|---:|---:|
-| [Inbox Zero AI Email Assistant](skills/inbox-zero-ai-email-assistant/) | Inbox Zero is an open-source AI email assistant with over 10,000 GitHub stars that auto-triages your inbox,… | Security Reviewed | 73.6k | 8.4M/wk |
-| [Google Workspace MCP Server for Gmail Calendar and Drive](skills/google-workspace-mcp-server-gmail-calendar-drive/) | The Google Workspace MCP Server provides comprehensive natural language control over Gmail, Google Calendar, Drive,… | Security Reviewed | 71.6k | — |
-| [Todoist Natural Language Task Parser](skills/todoist-natural-language-task-parser/) | Parses natural language task descriptions into structured Todoist API v2 task objects with due dates, priority… | Security Reviewed | 35.3k | — |
-| [Discord Bot Manager](skills/discord-bot-manager/) | Discord Bot Manager is built around Discord bot and moderation platform. The underlying ecosystem is represented by… | Security Reviewed | 26.6k | 524.1k/wk |
-| [Linear Sprint Planner](skills/linear-sprint-planner/) | Linear Sprint Planner is built around GraphQL API ecosystem. The underlying ecosystem is represented by… | Security Reviewed | 20.3k | 32.3M/wk |
-| [Microsoft Graph Email Triage Assistant](skills/microsoft-graph-email-triage-assistant/) | Triages Outlook inboxes via Microsoft Graph API with delta query for incremental sync. Applies classification rules,… | Security Reviewed | 7k | 4.9M/wk |
-| [Outlook Email Automation](skills/outlook-email-automation/) | Authenticates to Microsoft Graph API using MSAL with Mail.ReadWrite and Calendars.ReadWrite permissions. Reads,… | Security Reviewed | 7k | 4.9M/wk |
-| [Notion AI Document Summarizer & Action Item Extractor](skills/notion-ai-doc-summarizer/) | Uses the Notion SDK and Notion AI's /v1/pages and /v1/blocks/children endpoints to retrieve page content and invoke… | Security Reviewed | 5.6k | 1.1M/wk |
-| [Notion AI Workspace](skills/notion-ai-workspace/) | Notion AI Workspace is built around Notion workspace and database platform. The underlying ecosystem is represented… | Security Reviewed | 5.6k | 1.1M/wk |
-| [Notion Database Sync Agent](skills/notion-database-sync-agent/) | Syncs records between Notion databases and external sources using the Notion API (POST /v1/databases/{id}/query),… | Security Reviewed | 5.6k | 1.1M/wk |
-| [Notion Database Sync Bridge](skills/notion-database-sync-bridge/) | Synchronizes data between Notion databases and external sources using the Notion API v2022-06-28 with cursor-based… | Security Reviewed | 5.6k | 1.1M/wk |
-| [Notion MCP Server](skills/notion-mcp-server/) | Notion MCP Server is built around Notion workspace and database platform. The underlying ecosystem is represented by… | Security Reviewed | 5.6k | 1.1M/wk |
-| [Notion Task Board Automation](skills/notion-task-board-automation-agent/) | Automates Notion database workflows using the Notion API databases.query and pages.create endpoints. Builds filtered… | Security Reviewed | 5.6k | 1.1M/wk |
-| [Notion Task Sync Bridge](skills/notion-task-sync-bridge/) | Bidirectionally syncs tasks between Notion databases and external project management tools using the Notion API… | Security Reviewed | 5.6k | 1.1M/wk |
-| [Notion Workspace Automation Hub](skills/notion-workspace-automation-hub/) | Orchestrates Notion workspace workflows using Notion API v2 with database queries, page creation, and relation… | Security Reviewed | 5.6k | 1.1M/wk |
-| [Notion Workspace Automator](skills/notion-workspace-automator-api-v1/) | Automates Notion workspace management through the Notion API v1 with database query filters, page creation, and… | Security Reviewed | 5.6k | 1.1M/wk |
-| [Notion Workspace Sync Agent](skills/notion-workspace-sync-agent/) | Bidirectionally syncs project data between Notion databases and external tools using the Notion API v2022-06-28.… | Security Reviewed | 5.6k | 1.1M/wk |
-| [Notion Workspace Sync Engine](skills/notion-workspace-sync-engine-2/) | Bidirectionally syncs Notion databases with external tools via the Notion API and webhooks. Maps page properties to… | Security Reviewed | 5.6k | 1.1M/wk |
-| [Todoist GTD Workflow Automator](skills/todoist-gtd-workflow-automator/) | Implements Getting Things Done methodology on Todoist using the Todoist Sync API v9. Automates inbox processing,… | Security Reviewed | 5.6k | 1.1M/wk |
-| [Slack Channel Summarizer](skills/slack-channel-summarizer-bolt-sdk/) | Generates channel summaries using Slack Bolt SDK with conversations.history and conversations.replies endpoints.… | Security Reviewed | 2.9k | 2M/wk |
-| [Slack Digest and Task Router](skills/slack-digest-and-task-router/) | Reads unread Slack messages from specified channels using the conversations.history API, extracts action items and… | Security Reviewed | 2.9k | 2M/wk |
-| [Slack MCP Server](skills/slack-mcp-server/) | Agent access to Slack conversations and workspace workflows. | Security Reviewed | 2.9k | 2M/wk |
-| [Slack Standup Automator](skills/slack-standup-automator/) | Automates daily standup collection and reporting in Slack using the Slack Web API chat.postMessage and… | Security Reviewed | 2.9k | 2M/wk |
-| [Slack Standup Summarizer](skills/slack-standup-summarizer/) | Collects daily standup updates from Slack channels using the Web API and generates team summaries with blockers… | Security Reviewed | 2.9k | 2M/wk |
-| [Slack Status API PTO Sync Assistant](skills/slack-status-api-pto-sync-assistant/) | Syncs away-state updates through Slack users.profile APIs, status fields, and directory lookups so agents can keep… | Security Reviewed | 2.9k | 2M/wk |
-| [Slack Workflow Automation Builder](skills/slack-workflow-automation-builder/) | Creates Slack Workflow Builder automations using the Slack Web API and Block Kit. Builds approval flows, standup… | Security Reviewed | 2.9k | 2M/wk |
-| [Slack Workflow Bot](skills/slack-workflow-bot-bolt-sdk/) | Builds interactive Slack workflows using the Bolt SDK for JavaScript and Block Kit Builder API. Handles modal forms,… | Security Reviewed | 2.9k | 2M/wk |
-| [Slack Workflow Bot Builder](skills/slack-workflow-bot-builder/) | Creates interactive Slack workflows using Block Kit UI components and the Bolt.js framework. Implements slash… | Security Reviewed | 2.9k | 2M/wk |
-| [Slack Workflow Builder Agent](skills/slack-workflow-builder-agent/) | Creates and manages Slack workflows using @slack/bolt and @slack/web-api. Builds interactive modals with Block Kit,… | Security Reviewed | 2.9k | 2M/wk |
-| [Microsoft Graph Mail Triage Agent](skills/microsoft-graph-mail-triage-agent/) | Triages Outlook emails using the Microsoft Graph API /me/messages endpoint with $filter OData queries and… | Security Reviewed | 790 | 5.9M/wk |
-| [Atlassian Rovo MCP Server](skills/atlassian-rovo-mcp-server/) | The Atlassian Rovo MCP Server bridges your Atlassian Cloud workspace with any MCP-compatible client. Search and… | Security Reviewed | — | — |
-| [Cal.com Open Source Scheduling Infrastructure and API](skills/cal-com-open-source-scheduling-infrastructure-api/) | Integrate Cal.com's open-source scheduling platform into AI agent workflows. Agents can programmatically create… | Published | — | — |
-| [Gmail API Thread Label Triage](skills/gmail-api-thread-label-triage/) | Triage inbox backlog with the Gmail API’s `users.threads`, `users.messages`, and `users.labels` methods so agents… | Security Reviewed | — | — |
-| [Gmail Thread Summarizer and Action Extractor](skills/gmail-thread-summarizer-action-extractor/) | Fetches Gmail threads via the Gmail API (users.threads.get), extracts full message content, and produces a… | Security Reviewed | — | — |
-| [Google Calendar Conflict Detector](skills/google-calendar-conflict-detector/) | Detects scheduling conflicts across multiple Google Calendars using the Google Calendar API v3 and the freebusy… | Security Reviewed | — | — |
-| [Google Calendar Conflict Resolver](skills/google-calendar-conflict-resolver-2/) | Detects and resolves scheduling conflicts across multiple Google Calendar accounts using the Google Calendar API v3… | Security Reviewed | — | — |
-| [Google Calendar FreeBusy Scheduler Bridge](skills/google-calendar-freebusy-scheduler-bridge/) | Coordinates meeting suggestions with the Google Calendar `freeBusy` endpoint, Events resource, and conferenceData… | Security Reviewed | — | — |
-| [Google Calendar Smart Scheduler](skills/google-calendar-smart-scheduler-2/) | Optimizes meeting scheduling using the Google Calendar API v3 and FreeBusy queries. Applies time-zone-aware slot… | Security Reviewed | — | — |
-| [Google Calendar Sync & Conflict Resolver](skills/google-calendar-sync-conflict-resolver/) | Bidirectional calendar synchronization using Google Calendar API v3 with OAuth 2.0. Detects scheduling conflicts… | Security Reviewed | — | — |
-| [Google Calendar Sync Agent](skills/google-calendar-sync-agent-2/) | Synchronizes events across multiple Google Calendar accounts using the Calendar API v3 and OAuth 2.0. Handles… | Security Reviewed | — | — |
-| [IMAP Email Classifier](skills/imap-email-classifier-ml/) | Classifies and organizes emails from IMAP servers using imaplib and scikit-learn text classification. Supports… | Security Reviewed | — | — |
-| [IMAP Inbox Triage Agent](skills/imap-inbox-triage-agent/) | Connects to IMAP email servers to classify, prioritize, and auto-label incoming messages using rule-based and… | Security Reviewed | — | — |
-| [Listmonk Self-Hosted Newsletter and Mailing List Manager](skills/listmonk-self-hosted-newsletter-mailing-list/) | High-performance, self-hosted newsletter and mailing list manager packed into a single binary. Manages millions of… | Published | — | — |
-| [Mailpit SMTP Testing and Email Capture Workbench](skills/mailpit-smtp-testing-email-capture-workbench/) | This skill uses Mailpit as a safe SMTP sink for development, QA, and automated test runs. It helps teams capture,… | Published | — | — |
-| [Memos Self-Hosted Note Capture and Knowledge API](skills/memos-self-hosted-note-capture-knowledge-api/) | Enable AI agents to interact with Memos, an open-source self-hosted note-taking tool with REST and gRPC APIs. Agents… | Published | — | — |
-| [Microsoft Graph Calendar Conflict Resolver](skills/microsoft-graph-calendar-conflict-resolver/) | Resolves scheduling collisions with Microsoft Graph Calendar endpoints like `/me/events`, `/calendarView`, and… | Security Reviewed | — | — |
-| [Microsoft Graph Email Digest Builder](skills/microsoft-graph-email-digest-builder/) | Generates daily email digests from Microsoft 365 mailboxes using the Microsoft Graph API /me/messages endpoint.… | Security Reviewed | — | — |
-| [Microsoft Graph Email Triage Agent](skills/microsoft-graph-email-triage-agent/) | Automates email triage using Microsoft Graph API v1.0 with delegated permissions. Classifies emails by urgency using… | Security Reviewed | — | — |
-| [Microsoft Outlook Calendar Sync Agent](skills/ms-outlook-calendar-sync-agent/) | Synchronizes calendar events bidirectionally using the Microsoft Graph API /me/calendar/events endpoint. Handles… | Security Reviewed | — | — |
-| [Microsoft Outlook Mail Sorter](skills/ms-outlook-mail-sorter/) | Automatically triages Microsoft Outlook emails using the Microsoft Graph API /me/messages endpoint. Applies… | Security Reviewed | — | — |
-| [Outlook Mail Triage Assistant](skills/outlook-mail-triage-assistant/) | Automated email triage using Microsoft Graph API and @azure/msal-node for OAuth. Classifies messages with zero-shot… | Security Reviewed | — | — |
-| [Outlook Mail Triage Skill](skills/outlook-mail-triage-microsoft-graph/) | Triages Outlook inboxes using Microsoft Graph API v1.0 with delta query support for incremental mail sync. Applies… | Security Reviewed | — | — |
-| [Outlook Rule Automation Manager](skills/outlook-rule-automation-manager/) | Creates and manages Outlook email rules programmatically using the Microsoft Graph API… | Security Reviewed | — | — |
-| [Todoist GTD Workflow Engine](skills/todoist-gtd-workflow-engine/) | Implements Getting Things Done methodology on Todoist using the Sync API v9. Automates weekly reviews, context… | Security Reviewed | — | — |
-| [Todoist Project Automator](skills/todoist-project-automator-api-v2/) | Automates Todoist project management using the Todoist REST API v2 and Sync API. Creates task templates, manages… | Security Reviewed | — | — |
-| [Todoist Sync API Task Orchestrator](skills/todoist-sync-api-task-orchestrator/) | Orchestrates complex task workflows using the Todoist Sync API v9 with incremental sync via sync_token. Uses… | Security Reviewed | — | — |
 
 
 ### 🎨 Image & Creative Automation (56 skills)
@@ -1213,7 +1215,71 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [Stable Diffusion XL Pipeline Builder](skills/stable-diffusion-xl-pipeline-builder/) | Constructs and executes SDXL image generation pipelines using diffusers library and ComfyUI API. Supports LoRA… | Security Reviewed | — | — |
 
 
-### 🎙️ Media & Transcription (54 skills)
+### 🔍 Research & Scraping (56 skills)
+
+Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=downloads)
+
+| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
+|---|---|---|---:|---:|
+| [Puppeteer Scraping Framework](skills/puppeteer-scraping-framework-2/) | Headless Chrome scraping using Puppeteer with stealth plugin, request interception via… | Security Reviewed | 93.9k | 8.7M/wk |
+| [Puppeteer Stealth Web Scraper](skills/puppeteer-stealth-web-scraper/) | Uses puppeteer-extra with stealth plugin to bypass bot detection for web scraping. Integrates with Cheerio for HTML… | Security Reviewed | 93.9k | 8.7M/wk |
+| [Puppeteer Web Scraper](skills/puppeteer-web-scraper/) | Headless Chrome scraping via Puppeteer with automatic cookie handling, JavaScript rendering, and Cheerio-based DOM… | Security Reviewed | 93.9k | 8.7M/wk |
+| [PuppeteerSharp Web Scraping Pipeline](skills/puppeteersharp-web-scraping-pipeline/) | Builds headless Chrome scraping pipelines using PuppeteerSharp for .NET environments. Handles JavaScript-rendered… | Security Reviewed | 93.9k | 8.7M/wk |
+| [Crawl4AI LLM-Ready Web Crawler and Scraper](skills/crawl4ai-llm-web-crawler-scraper/) | Crawl4AI is an open-source web crawler that converts any website into clean, LLM-ready Markdown for RAG pipelines,… | Security Reviewed | 85.1k | 40.4M/wk |
+| [Playwright Network Interceptor](skills/playwright-network-interceptor/) | Intercepts and analyzes network traffic using Playwright route handlers for API response capture and modification.… | Security Reviewed | 85.1k | 40.4M/wk |
+| [Playwright Page Data Extractor](skills/playwright-page-data-extractor/) | Uses Microsoft Playwright's Node.js API to navigate dynamic web applications, intercept network requests, and… | Security Reviewed | 85.1k | 40.4M/wk |
+| [Playwright Test Generator with Codegen](skills/playwright-test-generator-codegen/) | Records and generates end-to-end test scripts using Playwright Codegen with multi-browser targeting. Produces… | Security Reviewed | 85.1k | 40.4M/wk |
+| [SerpAPI Search Aggregator](skills/serpapi-search-aggregator/) | Aggregates search results from Google, Bing, and DuckDuckGo via the SerpAPI REST endpoint. Parses organic results,… | Security Reviewed | 73.6k | 8.4M/wk |
+| [Brave Search MCP Server for AI Web Search](skills/brave-search-mcp-server-ai-web-search/) | The official Brave Search MCP server integrates the Brave Search API with AI assistants, providing comprehensive web… | Security Reviewed | 71.6k | — |
+| [Scrapy Pipeline Data Extractor](skills/scrapy-pipeline-data-extractor/) | Builds production Scrapy spiders with custom Item Pipelines for data cleaning and storage. Uses… | Security Reviewed | 60.9k | 39.8M/wk |
+| [Scrapy Spider Architect](skills/scrapy-spider-architect/) | Generates Scrapy spider classes with CSS/XPath selectors, item pipelines, and middleware configurations for… | Security Reviewed | 60.9k | 39.8M/wk |
+| [Scrapy Pipeline Manager](skills/scrapy-pipeline-manager/) | Manages Scrapy spider deployments via Scrapyd API with custom item pipelines for MongoDB ingestion, deduplication… | Security Reviewed | 60.9k | 10.9M/wk |
+| [Scrapy Spider Generator](skills/scrapy-spider-generator/) | Generates production-ready Scrapy spiders with middleware configuration and item pipeline setup. Uses the Scrapy… | Security Reviewed | 60.9k | 10.9M/wk |
+| [Scrapy Distributed Crawler Framework](skills/scrapy-distributed-crawler-framework/) | Orchestrates large-scale web crawling using Scrapy with scrapy-redis for distributed job queuing. Integrates Splash… | Security Reviewed | 60.9k | 8.2M/wk |
+| [ScrapyCloud Job Manager](skills/scrapycloud-job-manager/) | Manages Scrapy spider deployments and job scheduling on ScrapyCloud via the Scrapinghub API. Handles spider argument… | Security Reviewed | 60.9k | — |
+| [SEC EDGAR Filing Scraper & Analyzer](skills/sec-edgar-filing-scraper-analyzer/) | Downloads and parses SEC EDGAR filings (10-K, 10-Q, 8-K) using the EDGAR full-text search API and python-xbrl.… | Security Reviewed | 48.3k | — |
+| [PubMed Literature Mining Agent](skills/pubmed-literature-mining-agent/) | Queries the NCBI E-utilities API (esearch, efetch, elink) to retrieve PubMed biomedical literature, extracting MeSH… | Security Reviewed | 45.6k | 9.5M/wk |
+| [Cheerio DOM Scraping Toolkit](skills/cheerio-dom-scraping-toolkit/) | Parses static HTML using Cheerio's jQuery-like API for fast server-side DOM traversal and data extraction. Generates… | Security Reviewed | 30.2k | 18.5M/wk |
+| [Cheerio Product Price Tracker](skills/cheerio-product-price-tracker/) | Monitors e-commerce product prices using Cheerio.js for server-side DOM parsing with got-scraping for stealth HTTP… | Security Reviewed | 30.2k | 18.5M/wk |
+| [SerpAPI Research Pipeline](skills/serpapi-research-pipeline/) | Builds structured research datasets by querying SerpAPI Google Search, Google Scholar, and Google News endpoints.… | Security Reviewed | 7k | 4.9M/wk |
+| [SerpAPI Search Pipeline](skills/serpapi-search-pipeline/) | Automates multi-engine searches via SerpAPI (Google, Bing, DuckDuckGo) with structured JSON extraction. Supports… | Security Reviewed | 7k | 4.9M/wk |
+| [Hacker News Deep Thread Analyzer](skills/hacker-news-deep-thread-analyzer/) | Scrapes and analyzes Hacker News threads using the official HN Firebase API and BeautifulSoup. Extracts sentiment… | Security Reviewed | 1.7k | 4.8M/wk |
+| [Crunchbase Company Intelligence Scraper](skills/crunchbase-company-intelligence-scraper/) | Extracts company profiles, funding rounds, and investor data using the Crunchbase Enterprise API v4 with… | Security Reviewed | 391 | 917.8k/wk |
+| [Apify Actor Development Kit](skills/apify-actor-development-kit/) | Builds Apify Actors for scalable cloud scraping with automatic proxy management and storage. Uses the Apify SDK… | Security Reviewed | 172 | 46.8k/wk |
+| [Apify Actor Runner](skills/apify-actor-runner/) | Executes Apify cloud actors for structured web scraping with automatic dataset export to S3. Supports actor input… | Security Reviewed | 172 | 46.8k/wk |
+| [Apify Actor Web Crawler](skills/apify-actor-web-crawler/) | Deploys custom Apify Actors via the Apify API v2 for large-scale web crawling using CrawleeJS. Leverages Apify… | Security Reviewed | 172 | 46.8k/wk |
+| [Apify Actor Web Intelligence Agent](skills/apify-actor-web-intelligence-agent/) | Deploys intelligent web scraping actors on the Apify platform using the Apify SDK with RequestQueue and Dataset… | Security Reviewed | 172 | 46.8k/wk |
+| [Apify Web Scraper Orchestrator](skills/apify-web-scraper-orchestrator-3/) | Orchestrates Apify actors for large-scale web scraping via the Apify Client SDK. Manages actor runs, dataset… | Security Reviewed | 172 | 46.8k/wk |
+| [Censys Attack Surface Monitor](skills/censys-attack-surface-monitor/) | Monitors internet-facing assets using Censys Search API v2 for host discovery and certificate enumeration. Tracks… | Security Reviewed | 69 | 202.6k/wk |
+| [Academic Paper Citation Network Mapper](skills/academic-paper-citation-network-mapper/) | Builds citation networks from Semantic Scholar API and CrossRef DOI metadata. Visualizes paper influence graphs… | Security Reviewed | — | — |
+| [Beautiful Soup Academic Paper Parser](skills/beautifulsoup-academic-paper-parser/) | Extracts structured citation data from academic repositories using BeautifulSoup4 with lxml parser. Parses DOI… | Security Reviewed | — | — |
+| [Browserless Scraping Agent](skills/browserless-scraping-agent/) | Drives headless Chrome via the Browserless.io API for scraping dynamic SPAs. Uses /content, /screenshot, and /pdf… | Security Reviewed | — | — |
+| [changedetection.io Self-Hosted Website Change Monitoring Platform](skills/changedetection-io-website-change-monitor/) | changedetection.io is an open-source, self-hosted tool for monitoring websites for content changes, price drops,… | Published | — | — |
+| [Common Crawl Index Query Agent](skills/common-crawl-index-query-agent/) | Queries the Common Crawl Index API for large-scale web archive research and data extraction. Uses the CDX Server… | Security Reviewed | — | — |
+| [Common Crawl URL Index Miner](skills/common-crawl-url-index-miner/) | Queries the Common Crawl Index API and CC-MAIN collections to surface historical URL coverage, MIME types, and crawl… | Security Reviewed | — | — |
+| [Crawlee Smart Crawler Agent](skills/crawlee-smart-crawler-agent/) | Implements intelligent web crawling using the Crawlee framework with adaptive request routing between CheerioCrawler… | Security Reviewed | — | — |
+| [Crawlee Web Crawling and Browser Automation Library](skills/crawlee-web-crawling-browser-automation-library/) | Builds scalable web collection pipelines with Crawlee, Apify’s open-source crawling and browser automation library.… | Published | — | — |
+| [Diffbot Article Extraction Verifier](skills/diffbot-article-extraction-verifier/) | Validates article extraction quality using the Diffbot Article API and Analyze API, checking fields like `title`,… | Security Reviewed | — | — |
+| [Diffbot Knowledge Graph Extractor](skills/diffbot-knowledge-graph-extractor/) | Extracts structured entities from web pages using the Diffbot Extraction API and Knowledge Graph. Supports article,… | Security Reviewed | — | — |
+| [Firecrawl Markdown Capture Pipeline](skills/firecrawl-markdown-capture-pipeline/) | Captures clean site content through Firecrawl endpoints like `/v1/scrape`, `/v1/map`, and `/v1/crawl`, with Markdown… | Security Reviewed | — | — |
+| [Jina Reader API Skill](skills/jina-reader-api-skill/) | Extracts clean markdown content from any URL using the Jina Reader API (r.jina.ai). Handles JavaScript-rendered… | Security Reviewed | — | — |
+| [OSINT Domain Intelligence Scanner](skills/osint-domain-intelligence-scanner/) | Performs deep OSINT analysis on domains using Shodan API, SecurityTrails DNS history, and WHOIS RDAP lookups.… | Security Reviewed | — | — |
+| [Patent Landscape Analyzer](skills/patent-landscape-analyzer/) | Searches the USPTO PatentsView API and European Patent Office OPS (Open Patent Services) API for patent grants,… | Security Reviewed | — | — |
+| [Product Review Sentiment Aggregator](skills/product-review-sentiment-aggregator/) | Collects and analyzes product reviews from Amazon Product API and Google Shopping via SerpAPI. Uses spaCy NER and… | Security Reviewed | — | — |
+| [ScrapingBee API Data Harvester](skills/scrapingbee-api-data-harvester/) | Interfaces with the ScrapingBee REST API for JavaScript rendering and Google SERP extraction. Uses custom_google… | Security Reviewed | — | — |
+| [Scrapling Adaptive Web Scraping Framework](skills/scrapling-adaptive-web-scraping-framework/) | Scrapling is an adaptive Python web scraping framework that automatically handles website structure changes. Its… | Published | — | — |
+| [SEC EDGAR Financial Filing Parser](skills/sec-edgar-financial-filing-parser/) | Retrieves and parses SEC EDGAR filings (10-K, 10-Q, 8-K) using the EDGAR Full-Text Search API and company filing… | Security Reviewed | — | — |
+| [SerpAPI Answer Box Extractor](skills/serpapi-answer-box-extractor/) | Extracts high-signal SERP features from SerpAPI responses, including `answer_box`, `knowledge_graph`,… | Security Reviewed | — | — |
+| [SerpAPI Scholar Agent](skills/serpapi-scholar-agent/) | Automates academic research using the SerpAPI Google Scholar endpoint. Extracts citation graphs, h-index data, and… | Security Reviewed | — | — |
+| [SerpAPI Search Intelligence Aggregator](skills/serpapi-search-intelligence-aggregator/) | Connects to SerpAPI endpoints for Google, Bing, YouTube, and Google Scholar search result extraction. Uses the… | Security Reviewed | — | — |
+| [SerpAPI Search Results Aggregator](skills/serpapi-search-results-aggregator/) | Queries Google, Bing, and DuckDuckGo search APIs through SerpAPI to collect SERP features, Knowledge Graph data, and… | Security Reviewed | — | — |
+| [Shodan Network Reconnaissance Agent](skills/shodan-network-reconnaissance-agent/) | Performs network reconnaissance using the Shodan REST API and Shodan InternetDB. Discovers exposed services, CVE… | Security Reviewed | — | — |
+| [SpiderFoot Open Source Intelligence Automation Framework](skills/spiderfoot-osint-automation-framework/) | SpiderFoot is an open-source OSINT automation tool that queries over 200 data sources to gather intelligence about… | Published | — | — |
+| [Tavily MCP Server for AI-Powered Web Search and Extraction](skills/tavily-mcp-server-ai-web-search-extraction/) | An official MCP server from Tavily that provides AI agents with real-time web search, page extraction, site mapping,… | Security Reviewed | — | — |
+| [Trafilatura Web Text Extraction and Crawling Toolkit](skills/trafilatura-web-text-extraction-crawling/) | Trafilatura is a Python package and CLI tool for gathering text from the web. It handles crawling, downloading, and… | Published | — | — |
+
+
+### 🎙️ Media & Transcription (55 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&sort=downloads)
 
@@ -1272,6 +1338,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Medi
 | [Navidrome Self-Hosted Music Streaming Server and Subsonic API](skills/navidrome-self-hosted-music-streaming-subsonic-api/) | Integrate Navidrome's self-hosted music server into AI agent workflows. Agents can manage music libraries, create… | Published | — | — |
 | [Pedalboard Python Audio Effects Library by Spotify](skills/pedalboard-spotify-audio-effects-python/) | Pedalboard is a Python library built by Spotify for working with audio: reading, writing, rendering, and adding… | Security Reviewed | — | — |
 | [Podcast RSS Feed Builder](skills/podcast-rss-feed-builder/) | Generates and validates podcast RSS feeds compliant with the Apple Podcasts and Spotify specification. Uses the… | Security Reviewed | — | — |
+| [WhisperX Speech Recognition with Word-Level Timestamps and Diarization](skills/whisperx-speech-recognition-timestamps-diarization/) | WhisperX extends OpenAI Whisper with batched inference for 70x realtime transcription, phoneme-based word-level… | Published | — | — |
 | [YouTube Chapter Generator from Transcripts](skills/youtube-chapter-generator-transcripts/) | Extracts YouTube video transcripts via the youtube-transcript-api Python library and generates semantic chapter… | Security Reviewed | — | — |
 
 
@@ -1335,68 +1402,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Browserbase Session Automation API and SDK](skills/browserbase-session-automation-api-and-sdk/) | Use Browserbase when an agent needs hosted browser sessions, remote automation, session recording, and scalable… | Published | — | — |
 | [chromedp Go Browser Automation with Chrome DevTools Protocol](skills/chromedp-go-browser-automation-chrome-devtools-protocol/) | This skill turns chromedp into a repeatable browser automation workflow for Go teams. It covers navigation, DOM… | Published | — | — |
 | [Pa11y Accessibility Testing CLI and CI](skills/pa11y-accessibility-testing-cli-and-ci/) | Pa11y is a real open-source accessibility testing tool that lets agents audit pages for WCAG issues from the command… | Published | — | — |
-
-
-### 🔍 Research & Scraping (54 skills)
-
-Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=downloads)
-
-| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
-|---|---|---|---:|---:|
-| [Puppeteer Scraping Framework](skills/puppeteer-scraping-framework-2/) | Headless Chrome scraping using Puppeteer with stealth plugin, request interception via… | Security Reviewed | 93.9k | 8.7M/wk |
-| [Puppeteer Stealth Web Scraper](skills/puppeteer-stealth-web-scraper/) | Uses puppeteer-extra with stealth plugin to bypass bot detection for web scraping. Integrates with Cheerio for HTML… | Security Reviewed | 93.9k | 8.7M/wk |
-| [Puppeteer Web Scraper](skills/puppeteer-web-scraper/) | Headless Chrome scraping via Puppeteer with automatic cookie handling, JavaScript rendering, and Cheerio-based DOM… | Security Reviewed | 93.9k | 8.7M/wk |
-| [PuppeteerSharp Web Scraping Pipeline](skills/puppeteersharp-web-scraping-pipeline/) | Builds headless Chrome scraping pipelines using PuppeteerSharp for .NET environments. Handles JavaScript-rendered… | Security Reviewed | 93.9k | 8.7M/wk |
-| [Crawl4AI LLM-Ready Web Crawler and Scraper](skills/crawl4ai-llm-web-crawler-scraper/) | Crawl4AI is an open-source web crawler that converts any website into clean, LLM-ready Markdown for RAG pipelines,… | Security Reviewed | 85.1k | 40.4M/wk |
-| [Playwright Network Interceptor](skills/playwright-network-interceptor/) | Intercepts and analyzes network traffic using Playwright route handlers for API response capture and modification.… | Security Reviewed | 85.1k | 40.4M/wk |
-| [Playwright Page Data Extractor](skills/playwright-page-data-extractor/) | Uses Microsoft Playwright's Node.js API to navigate dynamic web applications, intercept network requests, and… | Security Reviewed | 85.1k | 40.4M/wk |
-| [Playwright Test Generator with Codegen](skills/playwright-test-generator-codegen/) | Records and generates end-to-end test scripts using Playwright Codegen with multi-browser targeting. Produces… | Security Reviewed | 85.1k | 40.4M/wk |
-| [SerpAPI Search Aggregator](skills/serpapi-search-aggregator/) | Aggregates search results from Google, Bing, and DuckDuckGo via the SerpAPI REST endpoint. Parses organic results,… | Security Reviewed | 73.6k | 8.4M/wk |
-| [Brave Search MCP Server for AI Web Search](skills/brave-search-mcp-server-ai-web-search/) | The official Brave Search MCP server integrates the Brave Search API with AI assistants, providing comprehensive web… | Security Reviewed | 71.6k | — |
-| [Scrapy Pipeline Data Extractor](skills/scrapy-pipeline-data-extractor/) | Builds production Scrapy spiders with custom Item Pipelines for data cleaning and storage. Uses… | Security Reviewed | 60.9k | 39.8M/wk |
-| [Scrapy Spider Architect](skills/scrapy-spider-architect/) | Generates Scrapy spider classes with CSS/XPath selectors, item pipelines, and middleware configurations for… | Security Reviewed | 60.9k | 39.8M/wk |
-| [Scrapy Pipeline Manager](skills/scrapy-pipeline-manager/) | Manages Scrapy spider deployments via Scrapyd API with custom item pipelines for MongoDB ingestion, deduplication… | Security Reviewed | 60.9k | 10.9M/wk |
-| [Scrapy Spider Generator](skills/scrapy-spider-generator/) | Generates production-ready Scrapy spiders with middleware configuration and item pipeline setup. Uses the Scrapy… | Security Reviewed | 60.9k | 10.9M/wk |
-| [Scrapy Distributed Crawler Framework](skills/scrapy-distributed-crawler-framework/) | Orchestrates large-scale web crawling using Scrapy with scrapy-redis for distributed job queuing. Integrates Splash… | Security Reviewed | 60.9k | 8.2M/wk |
-| [ScrapyCloud Job Manager](skills/scrapycloud-job-manager/) | Manages Scrapy spider deployments and job scheduling on ScrapyCloud via the Scrapinghub API. Handles spider argument… | Security Reviewed | 60.9k | — |
-| [SEC EDGAR Filing Scraper & Analyzer](skills/sec-edgar-filing-scraper-analyzer/) | Downloads and parses SEC EDGAR filings (10-K, 10-Q, 8-K) using the EDGAR full-text search API and python-xbrl.… | Security Reviewed | 48.3k | — |
-| [PubMed Literature Mining Agent](skills/pubmed-literature-mining-agent/) | Queries the NCBI E-utilities API (esearch, efetch, elink) to retrieve PubMed biomedical literature, extracting MeSH… | Security Reviewed | 45.6k | 9.5M/wk |
-| [Cheerio DOM Scraping Toolkit](skills/cheerio-dom-scraping-toolkit/) | Parses static HTML using Cheerio's jQuery-like API for fast server-side DOM traversal and data extraction. Generates… | Security Reviewed | 30.2k | 18.5M/wk |
-| [Cheerio Product Price Tracker](skills/cheerio-product-price-tracker/) | Monitors e-commerce product prices using Cheerio.js for server-side DOM parsing with got-scraping for stealth HTTP… | Security Reviewed | 30.2k | 18.5M/wk |
-| [SerpAPI Research Pipeline](skills/serpapi-research-pipeline/) | Builds structured research datasets by querying SerpAPI Google Search, Google Scholar, and Google News endpoints.… | Security Reviewed | 7k | 4.9M/wk |
-| [SerpAPI Search Pipeline](skills/serpapi-search-pipeline/) | Automates multi-engine searches via SerpAPI (Google, Bing, DuckDuckGo) with structured JSON extraction. Supports… | Security Reviewed | 7k | 4.9M/wk |
-| [Hacker News Deep Thread Analyzer](skills/hacker-news-deep-thread-analyzer/) | Scrapes and analyzes Hacker News threads using the official HN Firebase API and BeautifulSoup. Extracts sentiment… | Security Reviewed | 1.7k | 4.8M/wk |
-| [Crunchbase Company Intelligence Scraper](skills/crunchbase-company-intelligence-scraper/) | Extracts company profiles, funding rounds, and investor data using the Crunchbase Enterprise API v4 with… | Security Reviewed | 391 | 917.8k/wk |
-| [Apify Actor Development Kit](skills/apify-actor-development-kit/) | Builds Apify Actors for scalable cloud scraping with automatic proxy management and storage. Uses the Apify SDK… | Security Reviewed | 172 | 46.8k/wk |
-| [Apify Actor Runner](skills/apify-actor-runner/) | Executes Apify cloud actors for structured web scraping with automatic dataset export to S3. Supports actor input… | Security Reviewed | 172 | 46.8k/wk |
-| [Apify Actor Web Crawler](skills/apify-actor-web-crawler/) | Deploys custom Apify Actors via the Apify API v2 for large-scale web crawling using CrawleeJS. Leverages Apify… | Security Reviewed | 172 | 46.8k/wk |
-| [Apify Actor Web Intelligence Agent](skills/apify-actor-web-intelligence-agent/) | Deploys intelligent web scraping actors on the Apify platform using the Apify SDK with RequestQueue and Dataset… | Security Reviewed | 172 | 46.8k/wk |
-| [Apify Web Scraper Orchestrator](skills/apify-web-scraper-orchestrator-3/) | Orchestrates Apify actors for large-scale web scraping via the Apify Client SDK. Manages actor runs, dataset… | Security Reviewed | 172 | 46.8k/wk |
-| [Censys Attack Surface Monitor](skills/censys-attack-surface-monitor/) | Monitors internet-facing assets using Censys Search API v2 for host discovery and certificate enumeration. Tracks… | Security Reviewed | 69 | 202.6k/wk |
-| [Academic Paper Citation Network Mapper](skills/academic-paper-citation-network-mapper/) | Builds citation networks from Semantic Scholar API and CrossRef DOI metadata. Visualizes paper influence graphs… | Security Reviewed | — | — |
-| [Beautiful Soup Academic Paper Parser](skills/beautifulsoup-academic-paper-parser/) | Extracts structured citation data from academic repositories using BeautifulSoup4 with lxml parser. Parses DOI… | Security Reviewed | — | — |
-| [Browserless Scraping Agent](skills/browserless-scraping-agent/) | Drives headless Chrome via the Browserless.io API for scraping dynamic SPAs. Uses /content, /screenshot, and /pdf… | Security Reviewed | — | — |
-| [changedetection.io Self-Hosted Website Change Monitoring Platform](skills/changedetection-io-website-change-monitor/) | changedetection.io is an open-source, self-hosted tool for monitoring websites for content changes, price drops,… | Published | — | — |
-| [Common Crawl Index Query Agent](skills/common-crawl-index-query-agent/) | Queries the Common Crawl Index API for large-scale web archive research and data extraction. Uses the CDX Server… | Security Reviewed | — | — |
-| [Common Crawl URL Index Miner](skills/common-crawl-url-index-miner/) | Queries the Common Crawl Index API and CC-MAIN collections to surface historical URL coverage, MIME types, and crawl… | Security Reviewed | — | — |
-| [Crawlee Smart Crawler Agent](skills/crawlee-smart-crawler-agent/) | Implements intelligent web crawling using the Crawlee framework with adaptive request routing between CheerioCrawler… | Security Reviewed | — | — |
-| [Crawlee Web Crawling and Browser Automation Library](skills/crawlee-web-crawling-browser-automation-library/) | Builds scalable web collection pipelines with Crawlee, Apify’s open-source crawling and browser automation library.… | Published | — | — |
-| [Diffbot Article Extraction Verifier](skills/diffbot-article-extraction-verifier/) | Validates article extraction quality using the Diffbot Article API and Analyze API, checking fields like `title`,… | Security Reviewed | — | — |
-| [Diffbot Knowledge Graph Extractor](skills/diffbot-knowledge-graph-extractor/) | Extracts structured entities from web pages using the Diffbot Extraction API and Knowledge Graph. Supports article,… | Security Reviewed | — | — |
-| [Firecrawl Markdown Capture Pipeline](skills/firecrawl-markdown-capture-pipeline/) | Captures clean site content through Firecrawl endpoints like `/v1/scrape`, `/v1/map`, and `/v1/crawl`, with Markdown… | Security Reviewed | — | — |
-| [Jina Reader API Skill](skills/jina-reader-api-skill/) | Extracts clean markdown content from any URL using the Jina Reader API (r.jina.ai). Handles JavaScript-rendered… | Security Reviewed | — | — |
-| [OSINT Domain Intelligence Scanner](skills/osint-domain-intelligence-scanner/) | Performs deep OSINT analysis on domains using Shodan API, SecurityTrails DNS history, and WHOIS RDAP lookups.… | Security Reviewed | — | — |
-| [Patent Landscape Analyzer](skills/patent-landscape-analyzer/) | Searches the USPTO PatentsView API and European Patent Office OPS (Open Patent Services) API for patent grants,… | Security Reviewed | — | — |
-| [Product Review Sentiment Aggregator](skills/product-review-sentiment-aggregator/) | Collects and analyzes product reviews from Amazon Product API and Google Shopping via SerpAPI. Uses spaCy NER and… | Security Reviewed | — | — |
-| [ScrapingBee API Data Harvester](skills/scrapingbee-api-data-harvester/) | Interfaces with the ScrapingBee REST API for JavaScript rendering and Google SERP extraction. Uses custom_google… | Security Reviewed | — | — |
-| [SEC EDGAR Financial Filing Parser](skills/sec-edgar-financial-filing-parser/) | Retrieves and parses SEC EDGAR filings (10-K, 10-Q, 8-K) using the EDGAR Full-Text Search API and company filing… | Security Reviewed | — | — |
-| [SerpAPI Answer Box Extractor](skills/serpapi-answer-box-extractor/) | Extracts high-signal SERP features from SerpAPI responses, including `answer_box`, `knowledge_graph`,… | Security Reviewed | — | — |
-| [SerpAPI Scholar Agent](skills/serpapi-scholar-agent/) | Automates academic research using the SerpAPI Google Scholar endpoint. Extracts citation graphs, h-index data, and… | Security Reviewed | — | — |
-| [SerpAPI Search Intelligence Aggregator](skills/serpapi-search-intelligence-aggregator/) | Connects to SerpAPI endpoints for Google, Bing, YouTube, and Google Scholar search result extraction. Uses the… | Security Reviewed | — | — |
-| [SerpAPI Search Results Aggregator](skills/serpapi-search-results-aggregator/) | Queries Google, Bing, and DuckDuckGo search APIs through SerpAPI to collect SERP features, Knowledge Graph data, and… | Security Reviewed | — | — |
-| [Shodan Network Reconnaissance Agent](skills/shodan-network-reconnaissance-agent/) | Performs network reconnaissance using the Shodan REST API and Shodan InternetDB. Discovers exposed services, CVE… | Security Reviewed | — | — |
-| [SpiderFoot Open Source Intelligence Automation Framework](skills/spiderfoot-osint-automation-framework/) | SpiderFoot is an open-source OSINT automation tool that queries over 200 data sources to gather intelligence about… | Published | — | — |
-| [Tavily MCP Server for AI-Powered Web Search and Extraction](skills/tavily-mcp-server-ai-web-search-extraction/) | An official MCP server from Tavily that provides AI agents with real-time web search, page extraction, site mapping,… | Security Reviewed | — | — |
 
 
 ### 📰 WordPress & CMS (49 skills)

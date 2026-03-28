@@ -86,6 +86,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Patent Landscape Analyzer](../../skills/patent-landscape-analyzer/) | — | — |
 | [Product Review Sentiment Aggregator](../../skills/product-review-sentiment-aggregator/) | — | — |
 | [ScrapingBee API Data Harvester](../../skills/scrapingbee-api-data-harvester/) | — | — |
+| [Scrapling Adaptive Web Scraping Framework](../../skills/scrapling-adaptive-web-scraping-framework/) | — | — |
 | [SEC EDGAR Financial Filing Parser](../../skills/sec-edgar-financial-filing-parser/) | — | — |
 | [SerpAPI Answer Box Extractor](../../skills/serpapi-answer-box-extractor/) | — | — |
 | [SerpAPI Scholar Agent](../../skills/serpapi-scholar-agent/) | — | — |
@@ -94,6 +95,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Shodan Network Reconnaissance Agent](../../skills/shodan-network-reconnaissance-agent/) | — | — |
 | [SpiderFoot Open Source Intelligence Automation Framework](../../skills/spiderfoot-osint-automation-framework/) | — | — |
 | [Tavily MCP Server for AI-Powered Web Search and Extraction](../../skills/tavily-mcp-server-ai-web-search-extraction/) | — | — |
+| [Trafilatura Web Text Extraction and Crawling Toolkit](../../skills/trafilatura-web-text-extraction-crawling/) | — | — |
 
 ---
 

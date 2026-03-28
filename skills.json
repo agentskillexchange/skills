@@ -1,8 +1,68 @@
 {
   "version": "2.0",
-  "total": 1370,
-  "generated": "2026-03-27",
+  "total": 1375,
+  "generated": "2026-03-28",
   "skills": [
+    {
+      "slug": "khal-cli-calendar-application-caldav",
+      "name": "khal Standards-Based CLI Calendar Application",
+      "description": "khal is a standards-based CLI and terminal calendar program written in Python. It reads and writes iCalendar data to vdir format, synchronizes with CalDAV…",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "himalaya-cli-email-client-imap-smtp-notmuch",
+      "name": "Himalaya CLI Email Client for IMAP SMTP and Notmuch",
+      "description": "Himalaya is a CLI email client written in Rust that supports IMAP, Maildir, and Notmuch backends for reading mail, and SMTP and Sendmail for…",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "whisperx-speech-recognition-timestamps-diarization",
+      "name": "WhisperX Speech Recognition with Word-Level Timestamps and Diarization",
+      "description": "WhisperX extends OpenAI Whisper with batched inference for 70x realtime transcription, phoneme-based word-level timestamp alignment via wav2vec2, voice activity detection, and speaker diarization. It…",
+      "category": [
+        "Media & Transcription"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "scrapling-adaptive-web-scraping-framework",
+      "name": "Scrapling Adaptive Web Scraping Framework",
+      "description": "Scrapling is an adaptive Python web scraping framework that automatically handles website structure changes. Its parser learns from page updates and relocates elements, its…",
+      "category": [
+        "Research & Scraping"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "trafilatura-web-text-extraction-crawling",
+      "name": "Trafilatura Web Text Extraction and Crawling Toolkit",
+      "description": "Trafilatura is a Python package and CLI tool for gathering text from the web. It handles crawling, downloading, and extracting main text content, metadata,…",
+      "category": [
+        "Research & Scraping"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "listmonk-self-hosted-newsletter-mailing-list",
       "name": "Listmonk Self-Hosted Newsletter and Mailing List Manager",

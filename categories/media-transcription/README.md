@@ -93,6 +93,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [Navidrome Self-Hosted Music Streaming Server and Subsonic API](../../skills/navidrome-self-hosted-music-streaming-subsonic-api/) | — | — |
 | [Pedalboard Python Audio Effects Library by Spotify](../../skills/pedalboard-spotify-audio-effects-python/) | — | — |
 | [Podcast RSS Feed Builder](../../skills/podcast-rss-feed-builder/) | — | — |
+| [WhisperX Speech Recognition with Word-Level Timestamps and Diarization](../../skills/whisperx-speech-recognition-timestamps-diarization/) | — | — |
 | [YouTube Chapter Generator from Transcripts](../../skills/youtube-chapter-generator-transcripts/) | — | — |
 
 ---
