@@ -1,8 +1,68 @@
 {
   "version": "2.0",
-  "total": 1386,
+  "total": 1391,
   "generated": "2026-03-28",
   "skills": [
+    {
+      "slug": "retext-natural-language-processor-unified-plugins",
+      "name": "retext Natural Language Processor with Unified Plugin Ecosystem",
+      "description": "retext is a natural language processor powered by plugins, part of the unified.js collective. It parses Latin-script text into an AST (nlcst), enabling programmatic…",
+      "category": [
+        "Content Writing & SEO"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "harper-offline-grammar-checker-automattic",
+      "name": "Harper Offline Privacy-First Grammar Checker by Automattic",
+      "description": "Harper is an offline, privacy-first grammar checker written in Rust by Automattic. It runs locally with sub-10ms response times, supports LSP for editor integration,…",
+      "category": [
+        "Content Writing & SEO"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "openseo-self-hosted-keyword-research-seo-analysis",
+      "name": "OpenSEO Self-Hosted Keyword Research and SEO Analysis Platform",
+      "description": "OpenSEO is an open-source, self-hostable SEO platform that provides keyword research, domain insights, backlink analysis, and site audits. It serves as a pay-as-you-go alternative…",
+      "category": [
+        "Content Writing & SEO"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "steel-browser-api-ai-agent-web-automation",
+      "name": "Steel Browser Open Source API for AI Agent Web Automation",
+      "description": "Steel Browser is an open-source browser API that provides a batteries-included browser sandbox for AI agents and applications. It handles session management, proxy rotation,…",
+      "category": [
+        "Browser Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "lightpanda-headless-browser-ai-automation",
+      "name": "Lightpanda Headless Browser for AI Automation",
+      "description": "Lightpanda is a headless browser built from scratch in Zig, purpose-designed for AI agents and web automation. It delivers 11x faster page rendering and…",
+      "category": [
+        "Browser Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "espeak-ng-multilingual-speech-synthesizer",
       "name": "eSpeak NG Multilingual Speech Synthesizer",
