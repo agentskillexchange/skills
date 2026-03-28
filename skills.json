@@ -1,8 +1,56 @@
 {
   "version": "2.0",
-  "total": 1398,
+  "total": 1402,
   "generated": "2026-03-28",
   "skills": [
+    {
+      "slug": "exiftool-metadata-reader-writer-images-files",
+      "name": "ExifTool Metadata Reader and Writer for Images and Files",
+      "description": "ExifTool by Phil Harvey is a comprehensive Perl-based CLI tool for reading, writing, and editing metadata in over 400 file types. It extracts EXIF,…",
+      "category": [
+        "Data Extraction & Transformation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "caddy-automatic-https-web-server-reverse-proxy",
+      "name": "Caddy Automatic HTTPS Web Server and Reverse Proxy",
+      "description": "Caddy is a fast, extensible web server written in Go that provides automatic HTTPS via Let's Encrypt and ZeroSSL. It supports HTTP/1.1, HTTP/2, and…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "spleeter-ai-audio-source-separation-deezer",
+      "name": "Spleeter AI Audio Source Separation by Deezer",
+      "description": "Spleeter is Deezer's open-source audio source separation library with pretrained models. It can split audio into 2, 4, or 5 stems (vocals, drums, bass,…",
+      "category": [
+        "Media & Transcription"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "mkcert-local-dev-tls-certificate-generator",
+      "name": "mkcert Zero-Config Local Development TLS Certificate Generator",
+      "description": "mkcert is a zero-configuration CLI tool by Filippo Valsorda that creates locally-trusted development certificates. It automatically installs a local CA in the system root…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "instaloader-instagram-content-metadata-downloader",
       "name": "Instaloader Instagram Content and Metadata Downloader",
