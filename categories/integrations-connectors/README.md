@@ -94,8 +94,11 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Linear MCP Server for Issue Tracking and Project Management](../../skills/linear-mcp-server-issue-tracking-project-management/) | — | — |
 | [n8n Workflow Webhook Bridge](../../skills/n8n-workflow-webhook-bridge/) | — | — |
 | [Nango Open Source API Integration Platform](../../skills/nango-open-source-api-integration-platform/) | — | — |
+| [Novu Open-Source Notification Infrastructure Platform](../../skills/novu-open-source-notification-infrastructure-platform/) | — | — |
+| [ntfy Self-Hosted Push Notification Server](../../skills/ntfy-self-hosted-push-notification-server/) | — | — |
 | [Plaid Financial Data Connector](../../skills/plaid-financial-data-connector/) | — | — |
 | [Qdrant MCP Server for Vector Search and Semantic Memory](../../skills/qdrant-mcp-server-vector-search-semantic-memory/) | — | — |
+| [Svix Enterprise Webhook Delivery Service](../../skills/svix-enterprise-webhook-delivery-service/) | — | — |
 | [Zapier Webhook Integration Builder](../../skills/zapier-webhook-integration-builder/) | — | — |
 
 ---

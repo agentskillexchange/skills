@@ -1,6 +1,6 @@
 # Skill Categories
 
-> **1407 skills** across **17 categories**
+> **1410 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
@@ -15,9 +15,9 @@
 | 📄 | [**Templates & Workflows**](templates-workflows/) | **66** | Project scaffolding, boilerplate generators, workflow templates, and ... |
 | 📅 | [**Calendar, Email & Productivity**](calendar-email-productivity/) | **62** | Email automation, calendar management, task coordination, and product... |
 | 🔍 | [**Research & Scraping**](research-scraping/) | **61** | Web research, data collection, content aggregation, and information g... |
+| 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **60** | Third-party API bridges, webhook handlers, service connectors, and pl... |
 | 🎨 | [**Image & Creative Automation**](image-creative-automation/) | **60** | Image generation, asset processing, design automation, and creative t... |
 | 🎙️ | [**Media & Transcription**](media-transcription/) | **59** | Audio/video processing, speech-to-text, media conversion, and transcr... |
-| 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **57** | Third-party API bridges, webhook handlers, service connectors, and pl... |
 | 🌐 | [**Browser Automation**](browser-automation/) | **57** | Web scraping, UI testing, headless browser control, and browser-based... |
 | 📰 | [**WordPress & CMS**](wordpress-cms/) | **53** | Theme/plugin development, WP-CLI automation, CMS management, and Word... |
 | ✍️ | [**Content Writing & SEO**](content-writing-seo/) | **51** | Blog posts, SEO optimization, content strategy, and writing assistance. |

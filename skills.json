@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1407,
+  "total": 1410,
   "generated": "2026-03-28",
   "skills": [
+    {
+      "slug": "svix-enterprise-webhook-delivery-service",
+      "name": "Svix Enterprise Webhook Delivery Service",
+      "description": "Svix is an open-source enterprise-grade webhook delivery service written in Rust. It handles webhook sending, retries, signature verification, and delivery monitoring so developers can…",
+      "category": [
+        "Integrations & Connectors"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "novu-open-source-notification-infrastructure-platform",
+      "name": "Novu Open-Source Notification Infrastructure Platform",
+      "description": "Novu is an open-source notification infrastructure platform that provides a unified API for sending notifications across email, SMS, push, in-app inbox, and chat channels.…",
+      "category": [
+        "Integrations & Connectors"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "ntfy-self-hosted-push-notification-server",
+      "name": "ntfy Self-Hosted Push Notification Server",
+      "description": "ntfy is an open-source HTTP-based pub-sub notification service that lets you send push notifications to phones and desktops via simple PUT or POST requests.…",
+      "category": [
+        "Integrations & Connectors"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "gcalcli-google-calendar-cli",
       "name": "gcalcli Google Calendar Command Line Interface",
