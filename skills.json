@@ -1,8 +1,68 @@
 {
   "version": "2.0",
-  "total": 1381,
+  "total": 1386,
   "generated": "2026-03-28",
   "skills": [
+    {
+      "slug": "espeak-ng-multilingual-speech-synthesizer",
+      "name": "eSpeak NG Multilingual Speech Synthesizer",
+      "description": "An agent skill built on eSpeak NG, the open-source formant-based speech synthesizer supporting over 100 languages and accents. Provides fast, lightweight text-to-speech synthesis via…",
+      "category": [
+        "Media & Transcription"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "schema-dts-typescript-types-schemaorg-structured-data",
+      "name": "schema-dts TypeScript Types for Schema.org Structured Data",
+      "description": "An agent skill built on schema-dts by Google, which provides complete TypeScript type definitions for the Schema.org vocabulary. Enables type-safe generation and validation of…",
+      "category": [
+        "Content Writing & SEO"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "wordpress-mcp-adapter-model-context-protocol-bridge",
+      "name": "WordPress MCP Adapter Model Context Protocol Bridge",
+      "description": "An agent skill built on the official WordPress MCP Adapter plugin, which bridges the WordPress Abilities API to the Model Context Protocol. Enables MCP-compatible…",
+      "category": [
+        "WordPress & CMS"
+      ],
+      "framework": [
+        "MCP"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "chatterbox-sota-open-source-text-to-speech",
+      "name": "Chatterbox State-of-the-Art Open Source Text-to-Speech",
+      "description": "An agent skill built on Chatterbox by Resemble AI, a state-of-the-art open-source text-to-speech model with zero-shot voice cloning and multilingual synthesis. Generates natural-sounding speech…",
+      "category": [
+        "Media & Transcription"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "coqui-tts-deep-learning-text-to-speech-toolkit",
+      "name": "Coqui TTS Deep Learning Text-to-Speech Toolkit",
+      "description": "An agent skill built on Coqui TTS, the open-source deep learning toolkit for text-to-speech synthesis. Provides CLI and Python API access to multiple TTS…",
+      "category": [
+        "Media & Transcription"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "front-matter-cms-vscode-headless-cms",
       "name": "Front Matter CMS Visual Studio Code Headless CMS",

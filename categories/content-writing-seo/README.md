@@ -71,6 +71,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [Markdown-to-AMP Article Converter](../../skills/markdown-to-amp-article-converter/) | — | — |
 | [markdownlint-cli2 Markdown Linting for Docs and Repos](../../skills/markdownlint-cli2-markdown-linting-docs-repos/) | — | — |
 | [Schema Markup Generator for SEO](../../skills/schema-markup-generator-seo/) | — | — |
+| [schema-dts TypeScript Types for Schema.org Structured Data](../../skills/schema-dts-typescript-types-schemaorg-structured-data/) | — | — |
 | [Schema.org Markup Generator](../../skills/schema-org-markup-generator-agent/) | — | — |
 | [Schema.org Structured Data Generator](../../skills/schema-org-structured-data-generator/) | — | — |
 | [SEMrush Content Optimizer Agent](../../skills/semrush-content-optimizer-agent/) | — | — |

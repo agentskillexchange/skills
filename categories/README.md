@@ -1,6 +1,6 @@
 # Skill Categories
 
-> **1381 skills** across **17 categories**
+> **1386 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
@@ -14,13 +14,13 @@
 | 📊 | [**Monitoring & Alerts**](monitoring-alerts/) | **85** | Metrics collection, alerting rules, observability setup, and system m... |
 | 📄 | [**Templates & Workflows**](templates-workflows/) | **66** | Project scaffolding, boilerplate generators, workflow templates, and ... |
 | 🎨 | [**Image & Creative Automation**](image-creative-automation/) | **60** | Image generation, asset processing, design automation, and creative t... |
+| 🎙️ | [**Media & Transcription**](media-transcription/) | **58** | Audio/video processing, speech-to-text, media conversion, and transcr... |
 | 📅 | [**Calendar, Email & Productivity**](calendar-email-productivity/) | **58** | Email automation, calendar management, task coordination, and product... |
 | 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **57** | Third-party API bridges, webhook handlers, service connectors, and pl... |
 | 🔍 | [**Research & Scraping**](research-scraping/) | **56** | Web research, data collection, content aggregation, and information g... |
-| 🎙️ | [**Media & Transcription**](media-transcription/) | **55** | Audio/video processing, speech-to-text, media conversion, and transcr... |
 | 🌐 | [**Browser Automation**](browser-automation/) | **54** | Web scraping, UI testing, headless browser control, and browser-based... |
-| 📰 | [**WordPress & CMS**](wordpress-cms/) | **51** | Theme/plugin development, WP-CLI automation, CMS management, and Word... |
-| ✍️ | [**Content Writing & SEO**](content-writing-seo/) | **46** | Blog posts, SEO optimization, content strategy, and writing assistance. |
+| 📰 | [**WordPress & CMS**](wordpress-cms/) | **52** | Theme/plugin development, WP-CLI automation, CMS management, and Word... |
+| ✍️ | [**Content Writing & SEO**](content-writing-seo/) | **47** | Blog posts, SEO optimization, content strategy, and writing assistance. |
 
 ---
 
