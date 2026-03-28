@@ -96,6 +96,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [CDP Network Interception Logger](../../skills/cdp-network-interception-logger/) | 790 | 5.9M/wk |
 | [Browserable Self-Hostable Browser Automation for AI Agents](../../skills/browserable-self-hostable-browser-automation-ai-agents/) | — | — |
 | [Pa11y Accessibility Testing CLI and CI](../../skills/pa11y-accessibility-testing-cli-and-ci/) | — | — |
+| [Rod Go Chrome DevTools Protocol Driver for Web Automation](../../skills/rod-go-cdp-browser-automation/) | — | — |
 
 ---
 

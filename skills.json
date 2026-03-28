@@ -1,8 +1,68 @@
 {
   "version": "2.0",
-  "total": 1402,
+  "total": 1407,
   "generated": "2026-03-28",
   "skills": [
+    {
+      "slug": "gcalcli-google-calendar-cli",
+      "name": "gcalcli Google Calendar Command Line Interface",
+      "description": "gcalcli is a Python CLI that provides full access to Google Calendar from the command line. View agendas, search events, quick-add appointments, import ICS…",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "rod-go-cdp-browser-automation",
+      "name": "Rod Go Chrome DevTools Protocol Driver for Web Automation",
+      "description": "Rod is a high-level Go library built directly on the Chrome DevTools Protocol for web automation and scraping. It provides thread-safe, chained-context operations with…",
+      "category": [
+        "Browser Automation"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "vdirsyncer-caldav-carddav-sync",
+      "name": "vdirsyncer CalDAV and CardDAV Calendar and Contact Synchronizer",
+      "description": "vdirsyncer is a command-line tool for synchronizing calendars and addressbooks between servers and the local filesystem via CalDAV and CardDAV protocols. It bridges remote…",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "calcurse-text-calendar-scheduling",
+      "name": "calcurse Text-Based Calendar and Scheduling Application",
+      "description": "calcurse is a text-based calendar and scheduling application for the command line. It helps keep track of events, appointments, and everyday tasks with a…",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "rallly-group-scheduling-meeting-poll",
+      "name": "Rallly Open-Source Group Scheduling and Meeting Poll Platform",
+      "description": "Rallly is an open-source scheduling and collaboration tool that makes organizing group meetings effortless. Create meeting polls to find the best date and time…",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "exiftool-metadata-reader-writer-images-files",
       "name": "ExifTool Metadata Reader and Writer for Images and Files",

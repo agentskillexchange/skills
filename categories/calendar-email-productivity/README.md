@@ -75,6 +75,8 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Slack Workflow Builder Agent](../../skills/slack-workflow-builder-agent/) | 2.9k | 2M/wk |
 | [Microsoft Graph Mail Triage Agent](../../skills/microsoft-graph-mail-triage-agent/) | 790 | 5.9M/wk |
 | [Atlassian Rovo MCP Server](../../skills/atlassian-rovo-mcp-server/) | — | — |
+| [calcurse Text-Based Calendar and Scheduling Application](../../skills/calcurse-text-calendar-scheduling/) | — | — |
+| [gcalcli Google Calendar Command Line Interface](../../skills/gcalcli-google-calendar-cli/) | — | — |
 | [Gmail API Thread Label Triage](../../skills/gmail-api-thread-label-triage/) | — | — |
 | [Gmail Thread Summarizer and Action Extractor](../../skills/gmail-thread-summarizer-action-extractor/) | — | — |
 | [Google Calendar Conflict Detector](../../skills/google-calendar-conflict-detector/) | — | — |
@@ -95,9 +97,11 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Outlook Mail Triage Assistant](../../skills/outlook-mail-triage-assistant/) | — | — |
 | [Outlook Mail Triage Skill](../../skills/outlook-mail-triage-microsoft-graph/) | — | — |
 | [Outlook Rule Automation Manager](../../skills/outlook-rule-automation-manager/) | — | — |
+| [Rallly Open-Source Group Scheduling and Meeting Poll Platform](../../skills/rallly-group-scheduling-meeting-poll/) | — | — |
 | [Todoist GTD Workflow Engine](../../skills/todoist-gtd-workflow-engine/) | — | — |
 | [Todoist Project Automator](../../skills/todoist-project-automator-api-v2/) | — | — |
 | [Todoist Sync API Task Orchestrator](../../skills/todoist-sync-api-task-orchestrator/) | — | — |
+| [vdirsyncer CalDAV and CardDAV Calendar and Contact Synchronizer](../../skills/vdirsyncer-caldav-carddav-sync/) | — | — |
 
 ---
 
