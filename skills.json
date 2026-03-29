@@ -1,8 +1,56 @@
 {
   "version": "2.0",
-  "total": 1461,
+  "total": 1465,
   "generated": "2026-03-29",
   "skills": [
+    {
+      "slug": "skyvern-ai-browser-workflow-automation",
+      "name": "Skyvern AI Browser Workflow Automation with LLMs and Computer Vision",
+      "description": "Skyvern automates browser-based workflows using LLMs and computer vision. It provides a Playwright-compatible SDK that interacts with websites visually rather than via DOM selectors,…",
+      "category": [
+        "Browser Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "testcafe-e2e-browser-testing",
+      "name": "TestCafe Zero-Config End-to-End Browser Testing Framework",
+      "description": "TestCafe is a Node.js-based end-to-end browser testing framework by DevExpress that requires no WebDriver installation. It supports all major browsers, automatic waiting, live mode…",
+      "category": [
+        "Browser Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "insanely-fast-whisper-gpu-transcription",
+      "name": "Insanely Fast Whisper GPU-Accelerated Speech Transcription CLI",
+      "description": "Insanely Fast Whisper is a CLI tool that transcribes audio at extreme speeds using OpenAI Whisper models with Hugging Face Transformers, Flash Attention 2,…",
+      "category": [
+        "Media & Transcription"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "oxipng-png-compression-optimizer",
+      "name": "Oxipng Multithreaded Lossless PNG Compression Optimizer",
+      "description": "Oxipng is a multithreaded lossless PNG and APNG compression optimizer written in Rust. It reduces PNG file sizes without any quality loss using advanced…",
+      "category": [
+        "Image & Creative Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "caprover-self-hosted-paas-app-deployment",
       "name": "CapRover Self-Hosted PaaS for App Deployment and Server Management",

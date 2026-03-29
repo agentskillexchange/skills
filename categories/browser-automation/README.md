@@ -97,6 +97,8 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [CDP Network Interception Logger](../../skills/cdp-network-interception-logger/) | 790 | 6.2M/wk |
 | [Browserable Self-Hostable Browser Automation for AI Agents](../../skills/browserable-self-hostable-browser-automation-ai-agents/) | — | — |
 | [Pa11y Accessibility Testing CLI and CI](../../skills/pa11y-accessibility-testing-cli-and-ci/) | — | — |
+| [Skyvern AI Browser Workflow Automation with LLMs and Computer Vision](../../skills/skyvern-ai-browser-workflow-automation/) | — | — |
+| [TestCafe Zero-Config End-to-End Browser Testing Framework](../../skills/testcafe-e2e-browser-testing/) | — | — |
 
 ---
 
