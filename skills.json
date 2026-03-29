@@ -1,8 +1,32 @@
 {
   "version": "2.0",
-  "total": 1458,
+  "total": 1461,
   "generated": "2026-03-29",
   "skills": [
+    {
+      "slug": "caprover-self-hosted-paas-app-deployment",
+      "name": "CapRover Self-Hosted PaaS for App Deployment and Server Management",
+      "description": "CapRover is a self-hosted Platform-as-a-Service that automates Docker, Nginx, and LetsEncrypt to deploy applications and databases with minimal configuration. It provides a web GUI…",
+      "category": [],
+      "framework": [],
+      "verification": "listed"
+    },
+    {
+      "slug": "goaccess-real-time-web-log-analyzer",
+      "name": "GoAccess Real-Time Web Log Analyzer and Terminal Dashboard",
+      "description": "GoAccess is an open-source real-time web log analyzer that runs in a terminal or generates live HTML dashboards. It parses Apache, Nginx, CloudFront, S3,…",
+      "category": [],
+      "framework": [],
+      "verification": "listed"
+    },
+    {
+      "slug": "tldraw-infinite-canvas-whiteboard-sdk",
+      "name": "tldraw Infinite Canvas Whiteboard SDK for React",
+      "description": "tldraw is a feature-complete infinite canvas engine and whiteboard SDK for React. It provides drawing, diagramming, real-time multiplayer collaboration, and AI integrations out of…",
+      "category": [],
+      "framework": [],
+      "verification": "listed"
+    },
     {
       "slug": "sitespeed-io-web-performance-analysis",
       "name": "sitespeed.io Comprehensive Web Performance Analysis Toolkit",

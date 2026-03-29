@@ -1,6 +1,6 @@
 # Skill Categories
 
-> **1458 skills** across **17 categories**
+> **1461 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
