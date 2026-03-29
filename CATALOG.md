@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1431 published skills** across **17 categories** · 1382 security reviewed · Updated 2026-03-29 03:17 UTC
+> **1435 published skills** across **17 categories** · 1382 security reviewed · Updated 2026-03-29 07:15 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (155 skills)
+### 🛠️ Developer Tools (156 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -120,6 +120,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [PostgreSQL Query Optimizer Agent](skills/postgresql-query-optimizer-explain-api/) | Optimizes PostgreSQL queries using EXPLAIN ANALYZE output parsing with pg_stat_statements extension data. Suggests… | Security Reviewed | — | 21.5M/wk |
 | [PostgreSQL Query Plan Analyzer](skills/postgresql-query-plan-analyzer-2/) | Executes EXPLAIN ANALYZE BUFFERS on slow PostgreSQL queries and parses the plan tree for sequential scans, nested… | Security Reviewed | — | 21.5M/wk |
 | [sqlc Type-Safe SQL Code Generator](skills/sqlc-type-safe-sql-code-generator/) | sqlc is a SQL compiler that generates type-safe Go, Python, Kotlin, and TypeScript code from plain SQL queries. You… | Security Reviewed | — | 21.5M/wk |
+| [Astro Content-Driven Web Framework](skills/astro-content-driven-web-framework/) | Astro is a modern web framework for building content-driven websites. It ships zero JavaScript by default, supports… | Published | — | — |
 | [bat Syntax-Highlighting Cat Replacement](skills/bat-syntax-highlighting-cat-replacement/) | bat is a cat(1) clone written in Rust that adds syntax highlighting for over 200 languages, Git integration showing… | Security Reviewed | — | — |
 | [Bazel Build Graph Analyzer](skills/bazel-build-graph-analyzer/) | Analyzes Bazel build dependency graphs to identify bottlenecks and optimize build times. Uses the Bazel Query… | Security Reviewed | — | — |
 | [Bun Shell Script Executor](skills/bun-shell-script-executor/) | Leverages Bun's built-in $ shell API (Bun.Shell) to orchestrate cross-platform shell scripts from TypeScript with… | Security Reviewed | — | — |
@@ -1101,7 +1102,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [vdirsyncer CalDAV and CardDAV Calendar and Contact Synchronizer](skills/vdirsyncer-caldav-carddav-sync/) | vdirsyncer is a command-line tool for synchronizing calendars and addressbooks between servers and the local… | Published | — | — |
 
 
-### 🎨 Image & Creative Automation (63 skills)
+### 🎨 Image & Creative Automation (64 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=downloads)
 
@@ -1154,6 +1155,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [Gemini Image Style Transfer Agent](skills/gemini-image-style-transfer-agent/) | Uses the Gemini Imagen 3 API (imagegeneration endpoint) to apply stylistic transformations to uploaded images,… | Security Reviewed | — | — |
 | [libvips High-Performance Image Processing Library and CLI](skills/libvips-high-performance-image-processing-library-cli/) | libvips is a demand-driven, horizontally threaded image processing library with over 300 operations. It processes… | Published | — | — |
 | [Lottie Animation Optimizer](skills/lottie-animation-optimizer/) | Analyzes and optimizes Lottie JSON animation files using lottie-web parser internals, reduces file size via keyframe… | Security Reviewed | — | — |
+| [Mermaid CLI Diagram-as-Code Renderer](skills/mermaid-cli-diagram-as-code-renderer/) | Mermaid CLI (mmdc) is the command-line interface for the Mermaid diagramming library. It converts text-based diagram… | Published | — | — |
 | [Midjourney Prompt Chain Builder](skills/midjourney-prompt-chain-builder/) | Constructs and manages Midjourney prompt chains for iterative image refinement. Automates parameter tuning for --ar,… | Security Reviewed | — | — |
 | [Midjourney Prompt Engineering Suite](skills/midjourney-prompt-engineering-suite/) | Generates and optimizes Midjourney prompts using the Midjourney API with automatic parameter tuning for aspect… | Security Reviewed | — | — |
 | [Midjourney Prompt Optimizer](skills/midjourney-prompt-optimizer-skill/) | Analyze and optimize Midjourney prompts using parameter tuning for --ar, --stylize, --chaos, and --weird flags.… | Security Reviewed | — | — |
@@ -1242,7 +1244,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Medi
 | [YouTube Chapter Generator from Transcripts](skills/youtube-chapter-generator-transcripts/) | Extracts YouTube video transcripts via the youtube-transcript-api Python library and generates semantic chapter… | Security Reviewed | — | — |
 
 
-### 🔍 Research & Scraping (61 skills)
+### 🔍 Research & Scraping (62 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=downloads)
 
@@ -1297,6 +1299,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Katana Next-Generation Web Crawling and Spidering Framework](skills/katana-web-crawling-spidering-framework/) | Katana by ProjectDiscovery is a fast, configurable web crawling and spidering framework written in Go. It supports… | Published | — | — |
 | [Maigret OSINT Username Profiler Across 3000+ Sites](skills/maigret-osint-username-profiler/) | Maigret collects a dossier on a person by username only, checking for accounts on over 3000 sites and gathering… | Published | — | — |
 | [OSINT Domain Intelligence Scanner](skills/osint-domain-intelligence-scanner/) | Performs deep OSINT analysis on domains using Shodan API, SecurityTrails DNS history, and WHOIS RDAP lookups.… | Security Reviewed | — | — |
+| [Pagefind Static Low-Bandwidth Search Engine](skills/pagefind-static-low-bandwidth-search-engine/) | Pagefind is a static search library written in Rust that indexes your built site and adds a search bundle requiring… | Published | — | — |
 | [Patent Landscape Analyzer](skills/patent-landscape-analyzer/) | Searches the USPTO PatentsView API and European Patent Office OPS (Open Patent Services) API for patent grants,… | Security Reviewed | — | — |
 | [Product Review Sentiment Aggregator](skills/product-review-sentiment-aggregator/) | Collects and analyzes product reviews from Amazon Product API and Google Shopping via SerpAPI. Uses spaCy NER and… | Security Reviewed | — | — |
 | [ScrapingBee API Data Harvester](skills/scrapingbee-api-data-harvester/) | Interfaces with the ScrapingBee REST API for JavaScript rendering and Google SERP extraction. Uses custom_google… | Security Reviewed | — | — |
@@ -1379,6 +1382,71 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Zapier Webhook Integration Builder](skills/zapier-webhook-integration-builder/) | Creates and manages Zapier integrations using the Zapier Platform CLI and REST Hooks API. Builds custom triggers,… | Security Reviewed | — | — |
 
 
+### 📰 WordPress & CMS (57 skills)
+
+Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS&sort=downloads)
+
+| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
+|---|---|---|---:|---:|
+| [Decap CMS Git-Based Content Management for Static Sites](skills/decap-cms-git-based-content-management-static-sites/) | An agent skill built on Decap CMS (formerly Netlify CMS), the open-source Git-based content management system for… | Security Reviewed | 244.2k | 108.4M/wk |
+| [Strapi Open Source Headless CMS with REST and GraphQL APIs](skills/strapi-headless-cms-rest-graphql/) | Strapi is the leading open-source headless CMS built with Node.js and TypeScript. It auto-generates REST and GraphQL… | Security Reviewed | 71.7k | 150.8k/wk |
+| [WP Multisite Domain Mapping Agent](skills/wp-multisite-domain-mapping-agent/) | Manages domain mapping configurations across WordPress Multisite networks using the sunrise.php drop-in and WP-CLI's… | Security Reviewed | 32.9k | — |
+| [Gutenberg Block Scaffolder](skills/gutenberg-block-scaffolder-agent/) | Generates custom Gutenberg blocks using @wordpress/create-block and the Block API v3 schema. Produces edit.js,… | Security Reviewed | 21k | 44.8M/wk |
+| [Gutenberg Custom Block Builder](skills/gutenberg-custom-block-builder/) | Scaffolds and builds custom Gutenberg blocks using @wordpress/create-block and the Block API registerBlockType().… | Security Reviewed | 21k | 44.8M/wk |
+| [ACF Custom Fields REST Exposer](skills/acf-custom-fields-rest-exposer/) | Exposes Advanced Custom Fields data through the WordPress REST API using register_rest_field and acf_format_value.… | Security Reviewed | 21k | — |
+| [ACF to Gutenberg Block Migrator](skills/acf-to-gutenberg-block-migrator/) | Converts Advanced Custom Fields field groups into native Gutenberg blocks using the ACF Block API v2 and… | Security Reviewed | 21k | — |
+| [Advanced Custom Fields REST Schema Mapper](skills/advanced-custom-fields-rest-schema-mapper/) | Maps ACF field groups into predictable REST responses using `acf_add_local_field_group`, `get_field_objects`, and… | Security Reviewed | 21k | — |
+| [Bedrock Modern WordPress Project Boilerplate by Roots](skills/bedrock-wordpress-composer-boilerplate-roots/) | Bedrock is a WordPress boilerplate with Composer-based dependency management, environment-specific configuration via… | Security Reviewed | 21k | — |
+| [Gutenberg Block Pattern Generator](skills/gutenberg-block-pattern-generator/) | Generates custom WordPress Gutenberg block patterns using register_block_pattern() and the Block Editor API. Creates… | Security Reviewed | 21k | — |
+| [Trellis WordPress LEMP Stack Provisioner by Roots](skills/trellis-wordpress-lemp-ansible-provisioner-roots/) | Trellis is a collection of Ansible playbooks for provisioning and deploying WordPress LEMP stack servers. It… | Security Reviewed | 21k | — |
+| [WordOps High-Performance WordPress Server Stack Manager](skills/wordops-high-performance-wordpress-server-stack/) | WordOps is an open-source CLI tool that installs and manages a complete high-performance WordPress server stack with… | Security Reviewed | 21k | — |
+| [WordPress ACF Field Group Auditor](skills/wordpress-acf-field-group-auditor/) | Fetches all Advanced Custom Fields field groups and their field definitions via the ACF REST API (/wp-json/acf/v3/),… | Security Reviewed | 21k | — |
+| [WordPress Block Theme Scaffolder](skills/wordpress-block-theme-scaffolder/) | Generates complete WordPress block theme structures using theme.json v3, block patterns via… | Security Reviewed | 21k | — |
+| [WordPress Content Publisher](skills/wordpress-content-publisher/) | Structured publishing workflow for WordPress drafts, metadata, and content operations. | Security Reviewed | 21k | — |
+| [WordPress Gutenberg Block Generator](skills/wordpress-gutenberg-block-generator/) | Scaffolds custom Gutenberg blocks using the @wordpress/create-block CLI and block.json schema, then registers them… | Security Reviewed | 21k | — |
+| [WordPress Gutenberg Block Scaffolder](skills/wordpress-gutenberg-block-scaffolder/) | Generates custom Gutenberg blocks using @wordpress/create-block and the Block API v2. Configures block.json… | Security Reviewed | 21k | — |
+| [WordPress MCP Adapter Model Context Protocol Bridge](skills/wordpress-mcp-adapter-model-context-protocol-bridge/) | An agent skill built on the official WordPress MCP Adapter plugin, which bridges the WordPress Abilities API to the… | Security Reviewed | 21k | — |
+| [WordPress Multisite Network Sync](skills/wordpress-multisite-network-sync/) | Synchronizes plugin settings and theme mods across a WordPress Multisite network using the Network Admin REST… | Security Reviewed | 21k | — |
+| [WordPress Multisite Provisioner](skills/wp-multisite-provisioner-agent/) | Automates WordPress Multisite network site creation using wp_insert_site() and the Sites REST API. Configures… | Security Reviewed | 21k | — |
+| [WordPress Playground WebAssembly Runtime for In-Browser WordPress](skills/wordpress-playground-wasm-runtime/) | WordPress Playground runs a full WordPress instance entirely in the browser using WebAssembly-compiled PHP. It… | Security Reviewed | 21k | — |
+| [WordPress REST API Builder](skills/wordpress-rest-api-builder/) | Build and debug WordPress REST endpoints with a specialized skill. | Security Reviewed | 21k | — |
+| [WordPress REST API Content Sync](skills/wordpress-rest-api-content-sync/) | Synchronizes content between WordPress multisite installations using the WP REST API /wp/v2/posts endpoint with… | Security Reviewed | 21k | — |
+| [WordPress Router](skills/wordpress-router/) | Route WordPress tasks to the right workflow fast. Core Capabilities Manage WordPress sites using WP-CLI and the… | Security Reviewed | 21k | — |
+| [WordPress Theme.json Design Token Manager](skills/wp-theme-json-design-token-manager/) | Manages WordPress theme.json design tokens including color palettes, typography presets, and spacing scales. Uses… | Security Reviewed | 21k | — |
+| [WP Abilities API](skills/wp-abilities-api/) | Specialized support for defining, exposing, and debugging WordPress abilities through the Abilities API. | Security Reviewed | 21k | — |
+| [WP Multisite Network Sync Agent](skills/wp-multisite-network-sync-agent/) | Synchronizes content, users, and plugin configurations across WordPress Multisite networks using the WP_Site_Query… | Security Reviewed | 21k | — |
+| [WP-CLI Bulk Content Migrator](skills/wp-cli-bulk-content-migrator/) | Automates large-scale WordPress content migrations using WP-CLI wp post create and wp term set commands. Handles… | Security Reviewed | 21k | — |
+| [WP-CLI Command-Line Interface for WordPress](skills/wp-cli-command-line-interface-wordpress/) | Builds repeatable WordPress maintenance and content workflows around WP-CLI, the official command-line interface for… | Security Reviewed | 21k | — |
+| [WP-CLI Content Drift Auditor](skills/wp-cli-content-drift-auditor/) | Audits WordPress content drift by comparing live posts, revisions, and key options using WP-CLI commands like `wp… | Security Reviewed | 21k | — |
+| [WP-CLI Site Migration Automator](skills/wp-cli-site-migration-automator/) | Automates full WordPress site migrations using WP-CLI search-replace, wp db export, and rsync. Handles serialized… | Security Reviewed | 21k | — |
+| [wp-env Zero-Config WordPress Development Environment](skills/wp-env-wordpress-dev-environment/) | The @wordpress/env package (wp-env) provides a zero-configuration, Docker-based local WordPress environment for… | Security Reviewed | 21k | — |
+| [WPGraphQL GraphQL API for WordPress](skills/wpgraphql-graphql-api-wordpress/) | Builds headless WordPress workflows around WPGraphQL, the open-source GraphQL API plugin for WordPress. Useful for… | Security Reviewed | 21k | — |
+| [WPGraphQL Schema Extension Builder](skills/wpgraphql-schema-extension-builder/) | Builds and documents WPGraphQL extensions with hooks such as `graphql_register_types`, `register_graphql_field`, and… | Security Reviewed | 21k | — |
+| [WPScan WordPress Security Vulnerability Scanner](skills/wpscan-wordpress-security-vulnerability-scanner/) | WPScan is an open-source WordPress security scanner that detects vulnerabilities in plugins, themes, and core… | Security Reviewed | 21k | — |
+| [Yoast SEO WordPress Optimization Toolkit](skills/yoast-seo-wordpress-optimization-toolkit/) | Yoast SEO is one of the most widely deployed WordPress SEO plugins, and this skill turns its real analysis surface… | Security Reviewed | 21k | — |
+| [Directus Open-Source Headless CMS and Backend Platform](skills/directus-open-source-headless-cms-backend-platform/) | Directus is an open-source headless CMS that wraps any SQL database with instant REST and GraphQL APIs, a no-code… | Security Reviewed | 20.3k | 32.3M/wk |
+| [Headless CMS GraphQL Connector](skills/headless-cms-graphql-connector/) | Connects headless CMS backends (WordPress WPGraphQL, Strapi, Contentful) to frontend frameworks using Apollo Client… | Security Reviewed | 20.3k | 32.3M/wk |
+| [TinaCMS Git-Backed Headless CMS with Visual Editing](skills/tinacms-git-backed-headless-cms-visual-editing/) | TinaCMS is a fully open-source headless CMS backed by Git that supports Markdown, MDX, JSON, and YAML content. It… | Security Reviewed | 20.3k | 32.3M/wk |
+| [Payload CMS Next.js-Native Headless CMS and Application Framework](skills/payload-cms-nextjs-headless-framework/) | Payload is an open-source, TypeScript-first headless CMS that installs directly into a Next.js application. It… | Security Reviewed | 10.2k | 10.8M/wk |
+| [WooCommerce REST Sync Agent](skills/woocommerce-rest-sync-agent/) | Synchronizes WooCommerce product data bidirectionally using the WC REST API v3 and wc/v3/products endpoints. Handles… | Security Reviewed | 7k | 4.9M/wk |
+| [WooCommerce REST Order Manager](skills/woocommerce-rest-order-manager/) | Queries and updates WooCommerce orders via the WooCommerce REST API v3 (/wp-json/wc/v3/orders), filters by status,… | Security Reviewed | 4.4k | 8.5M/wk |
+| [Contentful Management API and JavaScript SDK](skills/contentful-management-api-and-javascript-sdk/) | Use the Contentful Management API and JavaScript SDK to create, update, validate, and publish entries, assets,… | Security Reviewed | 1.3k | 1.1M/wk |
+| [WP Cron Health Monitor](skills/wp-cron-health-monitor/) | Monitors WordPress wp-cron scheduled events using the WP_Cron API and Action Scheduler library. Detects stuck,… | Security Reviewed | 69 | 202.6k/wk |
+| [Faust.js Headless WordPress Toolkit for Next.js](skills/faustjs-headless-wordpress-toolkit-nextjs/) | Faust.js by WP Engine is a JavaScript framework and WordPress plugin that streamlines building headless WordPress… | Published | — | — |
+| [Front Matter CMS Visual Studio Code Headless CMS](skills/front-matter-cms-vscode-headless-cms/) | An agent skill built on Front Matter CMS, the headless content management system that runs directly inside Visual… | Security Reviewed | — | — |
+| [Ghost Admin API Headless Publishing and CMS Automation](skills/ghost-admin-api-headless-publishing-cms-automation/) | The Ghost Admin API exposes authenticated operations for posts, pages, tags, members, offers, and newsletter… | Security Reviewed | — | — |
+| [Hugo Fast Static Site Generator and CMS Framework](skills/hugo-static-site-generator-cms-framework/) | Hugo is the fastest static site generator written in Go, rendering complete websites in seconds. It offers advanced… | Published | — | — |
+| [Query Monitor WordPress Developer Tools Panel](skills/query-monitor-wordpress-developer-tools-panel/) | Query Monitor is the developer tools panel for WordPress and WooCommerce. It enables debugging of database queries,… | Published | — | — |
+| [Sage WordPress Starter Theme with Laravel Blade and Tailwind CSS](skills/sage-wordpress-starter-theme-laravel-blade/) | Sage by Roots is an advanced WordPress starter theme that brings Laravel Blade templating, Vite-powered front-end… | Published | — | — |
+| [Sanity Structured Content Studio and Content Lake](skills/sanity-structured-content-studio-content-lake/) | Sanity combines a customizable content studio with a real-time content backend and GROQ-powered querying. This skill… | Security Reviewed | — | — |
+| [Storyblok Management API and JavaScript Client](skills/storyblok-management-api-and-javascript-client/) | Use Storyblok’s Management API and JavaScript client to automate stories, components, assets, spaces, and editorial… | Security Reviewed | — | — |
+| [WooCommerce Order Sync Agent](skills/woocommerce-order-sync-agent/) | Synchronizes WooCommerce orders with external ERPs using the WooCommerce REST API v3 and wp_schedule_event. Handles… | Security Reviewed | — | — |
+| [WooCommerce REST Inventory Sync](skills/woocommerce-rest-inventory-sync/) | Synchronizes WooCommerce product inventory across multiple channels using the WooCommerce REST API v3 and… | Security Reviewed | — | — |
+| [WooCommerce Webhook Delivery Inspector](skills/woocommerce-webhook-delivery-inspector/) | Inspects WooCommerce webhook reliability through the `WC_Webhook` model, Action Scheduler queues, and REST endpoints… | Security Reviewed | — | — |
+| [WooCommerce Webhook Orchestrator](skills/woocommerce-webhook-orchestrator/) | Manages WooCommerce webhook lifecycles using the wc/v3/webhooks REST API and WC_Webhook class. Handles order,… | Security Reviewed | — | — |
+| [wp-browser WordPress Integration Testing with Codeception](skills/wp-browser-wordpress-integration-testing-codeception/) | wp-browser is a PHP library that provides Codeception modules for testing WordPress plugins and themes. It supports… | Published | — | — |
+
+
 ### 🌐 Browser Automation (57 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=downloads)
@@ -1442,70 +1510,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Browserable Self-Hostable Browser Automation for AI Agents](skills/browserable-self-hostable-browser-automation-ai-agents/) | Browserable is an open-source, self-hostable browser automation library built for AI agents. This skill turns… | Security Reviewed | — | — |
 | [Pa11y Accessibility Testing CLI and CI](skills/pa11y-accessibility-testing-cli-and-ci/) | Pa11y is a real open-source accessibility testing tool that lets agents audit pages for WCAG issues from the command… | Security Reviewed | — | — |
 | [Rod Go Chrome DevTools Protocol Driver for Web Automation](skills/rod-go-cdp-browser-automation/) | Rod is a high-level Go library built directly on the Chrome DevTools Protocol for web automation and scraping. It… | Published | — | — |
-
-
-### 📰 WordPress & CMS (56 skills)
-
-Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS&sort=downloads)
-
-| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
-|---|---|---|---:|---:|
-| [Decap CMS Git-Based Content Management for Static Sites](skills/decap-cms-git-based-content-management-static-sites/) | An agent skill built on Decap CMS (formerly Netlify CMS), the open-source Git-based content management system for… | Security Reviewed | 244.2k | 108.4M/wk |
-| [Strapi Open Source Headless CMS with REST and GraphQL APIs](skills/strapi-headless-cms-rest-graphql/) | Strapi is the leading open-source headless CMS built with Node.js and TypeScript. It auto-generates REST and GraphQL… | Security Reviewed | 71.7k | 150.8k/wk |
-| [WP Multisite Domain Mapping Agent](skills/wp-multisite-domain-mapping-agent/) | Manages domain mapping configurations across WordPress Multisite networks using the sunrise.php drop-in and WP-CLI's… | Security Reviewed | 32.9k | — |
-| [Gutenberg Block Scaffolder](skills/gutenberg-block-scaffolder-agent/) | Generates custom Gutenberg blocks using @wordpress/create-block and the Block API v3 schema. Produces edit.js,… | Security Reviewed | 21k | 44.8M/wk |
-| [Gutenberg Custom Block Builder](skills/gutenberg-custom-block-builder/) | Scaffolds and builds custom Gutenberg blocks using @wordpress/create-block and the Block API registerBlockType().… | Security Reviewed | 21k | 44.8M/wk |
-| [ACF Custom Fields REST Exposer](skills/acf-custom-fields-rest-exposer/) | Exposes Advanced Custom Fields data through the WordPress REST API using register_rest_field and acf_format_value.… | Security Reviewed | 21k | — |
-| [ACF to Gutenberg Block Migrator](skills/acf-to-gutenberg-block-migrator/) | Converts Advanced Custom Fields field groups into native Gutenberg blocks using the ACF Block API v2 and… | Security Reviewed | 21k | — |
-| [Advanced Custom Fields REST Schema Mapper](skills/advanced-custom-fields-rest-schema-mapper/) | Maps ACF field groups into predictable REST responses using `acf_add_local_field_group`, `get_field_objects`, and… | Security Reviewed | 21k | — |
-| [Bedrock Modern WordPress Project Boilerplate by Roots](skills/bedrock-wordpress-composer-boilerplate-roots/) | Bedrock is a WordPress boilerplate with Composer-based dependency management, environment-specific configuration via… | Security Reviewed | 21k | — |
-| [Gutenberg Block Pattern Generator](skills/gutenberg-block-pattern-generator/) | Generates custom WordPress Gutenberg block patterns using register_block_pattern() and the Block Editor API. Creates… | Security Reviewed | 21k | — |
-| [Trellis WordPress LEMP Stack Provisioner by Roots](skills/trellis-wordpress-lemp-ansible-provisioner-roots/) | Trellis is a collection of Ansible playbooks for provisioning and deploying WordPress LEMP stack servers. It… | Security Reviewed | 21k | — |
-| [WordOps High-Performance WordPress Server Stack Manager](skills/wordops-high-performance-wordpress-server-stack/) | WordOps is an open-source CLI tool that installs and manages a complete high-performance WordPress server stack with… | Security Reviewed | 21k | — |
-| [WordPress ACF Field Group Auditor](skills/wordpress-acf-field-group-auditor/) | Fetches all Advanced Custom Fields field groups and their field definitions via the ACF REST API (/wp-json/acf/v3/),… | Security Reviewed | 21k | — |
-| [WordPress Block Theme Scaffolder](skills/wordpress-block-theme-scaffolder/) | Generates complete WordPress block theme structures using theme.json v3, block patterns via… | Security Reviewed | 21k | — |
-| [WordPress Content Publisher](skills/wordpress-content-publisher/) | Structured publishing workflow for WordPress drafts, metadata, and content operations. | Security Reviewed | 21k | — |
-| [WordPress Gutenberg Block Generator](skills/wordpress-gutenberg-block-generator/) | Scaffolds custom Gutenberg blocks using the @wordpress/create-block CLI and block.json schema, then registers them… | Security Reviewed | 21k | — |
-| [WordPress Gutenberg Block Scaffolder](skills/wordpress-gutenberg-block-scaffolder/) | Generates custom Gutenberg blocks using @wordpress/create-block and the Block API v2. Configures block.json… | Security Reviewed | 21k | — |
-| [WordPress MCP Adapter Model Context Protocol Bridge](skills/wordpress-mcp-adapter-model-context-protocol-bridge/) | An agent skill built on the official WordPress MCP Adapter plugin, which bridges the WordPress Abilities API to the… | Security Reviewed | 21k | — |
-| [WordPress Multisite Network Sync](skills/wordpress-multisite-network-sync/) | Synchronizes plugin settings and theme mods across a WordPress Multisite network using the Network Admin REST… | Security Reviewed | 21k | — |
-| [WordPress Multisite Provisioner](skills/wp-multisite-provisioner-agent/) | Automates WordPress Multisite network site creation using wp_insert_site() and the Sites REST API. Configures… | Security Reviewed | 21k | — |
-| [WordPress Playground WebAssembly Runtime for In-Browser WordPress](skills/wordpress-playground-wasm-runtime/) | WordPress Playground runs a full WordPress instance entirely in the browser using WebAssembly-compiled PHP. It… | Security Reviewed | 21k | — |
-| [WordPress REST API Builder](skills/wordpress-rest-api-builder/) | Build and debug WordPress REST endpoints with a specialized skill. | Security Reviewed | 21k | — |
-| [WordPress REST API Content Sync](skills/wordpress-rest-api-content-sync/) | Synchronizes content between WordPress multisite installations using the WP REST API /wp/v2/posts endpoint with… | Security Reviewed | 21k | — |
-| [WordPress Router](skills/wordpress-router/) | Route WordPress tasks to the right workflow fast. Core Capabilities Manage WordPress sites using WP-CLI and the… | Security Reviewed | 21k | — |
-| [WordPress Theme.json Design Token Manager](skills/wp-theme-json-design-token-manager/) | Manages WordPress theme.json design tokens including color palettes, typography presets, and spacing scales. Uses… | Security Reviewed | 21k | — |
-| [WP Abilities API](skills/wp-abilities-api/) | Specialized support for defining, exposing, and debugging WordPress abilities through the Abilities API. | Security Reviewed | 21k | — |
-| [WP Multisite Network Sync Agent](skills/wp-multisite-network-sync-agent/) | Synchronizes content, users, and plugin configurations across WordPress Multisite networks using the WP_Site_Query… | Security Reviewed | 21k | — |
-| [WP-CLI Bulk Content Migrator](skills/wp-cli-bulk-content-migrator/) | Automates large-scale WordPress content migrations using WP-CLI wp post create and wp term set commands. Handles… | Security Reviewed | 21k | — |
-| [WP-CLI Command-Line Interface for WordPress](skills/wp-cli-command-line-interface-wordpress/) | Builds repeatable WordPress maintenance and content workflows around WP-CLI, the official command-line interface for… | Security Reviewed | 21k | — |
-| [WP-CLI Content Drift Auditor](skills/wp-cli-content-drift-auditor/) | Audits WordPress content drift by comparing live posts, revisions, and key options using WP-CLI commands like `wp… | Security Reviewed | 21k | — |
-| [WP-CLI Site Migration Automator](skills/wp-cli-site-migration-automator/) | Automates full WordPress site migrations using WP-CLI search-replace, wp db export, and rsync. Handles serialized… | Security Reviewed | 21k | — |
-| [wp-env Zero-Config WordPress Development Environment](skills/wp-env-wordpress-dev-environment/) | The @wordpress/env package (wp-env) provides a zero-configuration, Docker-based local WordPress environment for… | Security Reviewed | 21k | — |
-| [WPGraphQL GraphQL API for WordPress](skills/wpgraphql-graphql-api-wordpress/) | Builds headless WordPress workflows around WPGraphQL, the open-source GraphQL API plugin for WordPress. Useful for… | Security Reviewed | 21k | — |
-| [WPGraphQL Schema Extension Builder](skills/wpgraphql-schema-extension-builder/) | Builds and documents WPGraphQL extensions with hooks such as `graphql_register_types`, `register_graphql_field`, and… | Security Reviewed | 21k | — |
-| [WPScan WordPress Security Vulnerability Scanner](skills/wpscan-wordpress-security-vulnerability-scanner/) | WPScan is an open-source WordPress security scanner that detects vulnerabilities in plugins, themes, and core… | Security Reviewed | 21k | — |
-| [Yoast SEO WordPress Optimization Toolkit](skills/yoast-seo-wordpress-optimization-toolkit/) | Yoast SEO is one of the most widely deployed WordPress SEO plugins, and this skill turns its real analysis surface… | Security Reviewed | 21k | — |
-| [Directus Open-Source Headless CMS and Backend Platform](skills/directus-open-source-headless-cms-backend-platform/) | Directus is an open-source headless CMS that wraps any SQL database with instant REST and GraphQL APIs, a no-code… | Security Reviewed | 20.3k | 32.3M/wk |
-| [Headless CMS GraphQL Connector](skills/headless-cms-graphql-connector/) | Connects headless CMS backends (WordPress WPGraphQL, Strapi, Contentful) to frontend frameworks using Apollo Client… | Security Reviewed | 20.3k | 32.3M/wk |
-| [TinaCMS Git-Backed Headless CMS with Visual Editing](skills/tinacms-git-backed-headless-cms-visual-editing/) | TinaCMS is a fully open-source headless CMS backed by Git that supports Markdown, MDX, JSON, and YAML content. It… | Security Reviewed | 20.3k | 32.3M/wk |
-| [Payload CMS Next.js-Native Headless CMS and Application Framework](skills/payload-cms-nextjs-headless-framework/) | Payload is an open-source, TypeScript-first headless CMS that installs directly into a Next.js application. It… | Security Reviewed | 10.2k | 10.8M/wk |
-| [WooCommerce REST Sync Agent](skills/woocommerce-rest-sync-agent/) | Synchronizes WooCommerce product data bidirectionally using the WC REST API v3 and wc/v3/products endpoints. Handles… | Security Reviewed | 7k | 4.9M/wk |
-| [WooCommerce REST Order Manager](skills/woocommerce-rest-order-manager/) | Queries and updates WooCommerce orders via the WooCommerce REST API v3 (/wp-json/wc/v3/orders), filters by status,… | Security Reviewed | 4.4k | 8.5M/wk |
-| [Contentful Management API and JavaScript SDK](skills/contentful-management-api-and-javascript-sdk/) | Use the Contentful Management API and JavaScript SDK to create, update, validate, and publish entries, assets,… | Security Reviewed | 1.3k | 1.1M/wk |
-| [WP Cron Health Monitor](skills/wp-cron-health-monitor/) | Monitors WordPress wp-cron scheduled events using the WP_Cron API and Action Scheduler library. Detects stuck,… | Security Reviewed | 69 | 202.6k/wk |
-| [Faust.js Headless WordPress Toolkit for Next.js](skills/faustjs-headless-wordpress-toolkit-nextjs/) | Faust.js by WP Engine is a JavaScript framework and WordPress plugin that streamlines building headless WordPress… | Published | — | — |
-| [Front Matter CMS Visual Studio Code Headless CMS](skills/front-matter-cms-vscode-headless-cms/) | An agent skill built on Front Matter CMS, the headless content management system that runs directly inside Visual… | Security Reviewed | — | — |
-| [Ghost Admin API Headless Publishing and CMS Automation](skills/ghost-admin-api-headless-publishing-cms-automation/) | The Ghost Admin API exposes authenticated operations for posts, pages, tags, members, offers, and newsletter… | Security Reviewed | — | — |
-| [Query Monitor WordPress Developer Tools Panel](skills/query-monitor-wordpress-developer-tools-panel/) | Query Monitor is the developer tools panel for WordPress and WooCommerce. It enables debugging of database queries,… | Published | — | — |
-| [Sage WordPress Starter Theme with Laravel Blade and Tailwind CSS](skills/sage-wordpress-starter-theme-laravel-blade/) | Sage by Roots is an advanced WordPress starter theme that brings Laravel Blade templating, Vite-powered front-end… | Published | — | — |
-| [Sanity Structured Content Studio and Content Lake](skills/sanity-structured-content-studio-content-lake/) | Sanity combines a customizable content studio with a real-time content backend and GROQ-powered querying. This skill… | Security Reviewed | — | — |
-| [Storyblok Management API and JavaScript Client](skills/storyblok-management-api-and-javascript-client/) | Use Storyblok’s Management API and JavaScript client to automate stories, components, assets, spaces, and editorial… | Security Reviewed | — | — |
-| [WooCommerce Order Sync Agent](skills/woocommerce-order-sync-agent/) | Synchronizes WooCommerce orders with external ERPs using the WooCommerce REST API v3 and wp_schedule_event. Handles… | Security Reviewed | — | — |
-| [WooCommerce REST Inventory Sync](skills/woocommerce-rest-inventory-sync/) | Synchronizes WooCommerce product inventory across multiple channels using the WooCommerce REST API v3 and… | Security Reviewed | — | — |
-| [WooCommerce Webhook Delivery Inspector](skills/woocommerce-webhook-delivery-inspector/) | Inspects WooCommerce webhook reliability through the `WC_Webhook` model, Action Scheduler queues, and REST endpoints… | Security Reviewed | — | — |
-| [WooCommerce Webhook Orchestrator](skills/woocommerce-webhook-orchestrator/) | Manages WooCommerce webhook lifecycles using the wc/v3/webhooks REST API and WC_Webhook class. Handles order,… | Security Reviewed | — | — |
-| [wp-browser WordPress Integration Testing with Codeception](skills/wp-browser-wordpress-integration-testing-codeception/) | wp-browser is a PHP library that provides Codeception modules for testing WordPress plugins and themes. It supports… | Published | — | — |
 
 
 ### ✍️ Content Writing & SEO (55 skills)
