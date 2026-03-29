@@ -1,6 +1,6 @@
 # Skill Categories
 
-> **1452 skills** across **17 categories**
+> **1455 skills** across **19 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
@@ -21,6 +21,8 @@
 | 📰 | [**WordPress & CMS**](wordpress-cms/) | **57** | Theme/plugin development, WP-CLI automation, CMS management, and Word... |
 | 🌐 | [**Browser Automation**](browser-automation/) | **57** | Web scraping, UI testing, headless browser control, and browser-based... |
 | ✍️ | [**Content Writing & SEO**](content-writing-seo/) | **55** | Blog posts, SEO optimization, content strategy, and writing assistance. |
+| 📦 | [**29**](29/) | **2** | Skills in this category. |
+| 📦 | [**40**](40/) | **1** | Skills in this category. |
 
 ---
 

@@ -4,14 +4,14 @@
 
 ### The open catalog of AI agent skills
 
-[![Published](https://img.shields.io/badge/published-1%2C452-6366f1?style=for-the-badge)](skills/)
-[![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/)
+[![Published](https://img.shields.io/badge/published-1%2C455-6366f1?style=for-the-badge)](skills/)
+[![Categories](https://img.shields.io/badge/categories-19-0ea5e9?style=for-the-badge)](categories/)
 [![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-1%2C430-10b981?style=for-the-badge)](verification/)
 [![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)
 
 **[Categories](categories/) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md) · [Submit a Skill](#submit-a-skill)**
 
-*1,452 published skills · 17 categories · Real ecosystem signals · Updated hourly*
+*1,455 published skills · 19 categories · Real ecosystem signals · Updated hourly*
 
 </div>
 
@@ -84,6 +84,8 @@ A hand-picked selection across categories. See [TOP-STARS.md](TOP-STARS.md) and 
 | 📰 | [**WordPress & CMS**](categories/wordpress-cms/) | 57 | Theme/plugin dev, WP-CLI automation, CMS management |
 | 🌐 | [**Browser Automation**](categories/browser-automation/) | 57 | Web scraping, UI testing, headless browser control |
 | ✍️ | [**Content Writing & SEO**](categories/content-writing-seo/) | 55 | SEO content, blog automation, editorial workflows |
+| 📦 | [**29**](categories/29/) | 2 | Skills in this category |
+| 📦 | [**40**](categories/40/) | 1 | Skills in this category |
 
 ---
 
@@ -142,7 +144,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 1,452 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 1,455 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 1,430 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

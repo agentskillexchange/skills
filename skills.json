@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1452,
+  "total": 1455,
   "generated": "2026-03-29",
   "skills": [
+    {
+      "slug": "apprise-universal-push-notification-library-cli",
+      "name": "Apprise Universal Push Notification Library and CLI",
+      "description": "Apprise is a Python library and CLI that sends push notifications to over 100 services including Telegram, Discord, Slack, Amazon SNS, Gotify, email, and…",
+      "category": [
+        "40"
+      ],
+      "framework": [
+        "71"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "xq-command-line-xml-html-beautifier-content-extractor",
+      "name": "xq Command-Line XML and HTML Beautifier and Content Extractor",
+      "description": "xq is a command-line XML and HTML beautifier and content extractor written in Go. It provides syntax highlighting, automatic formatting, XPath and CSS selector…",
+      "category": [
+        "29"
+      ],
+      "framework": [
+        "71"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "htmlq-command-line-html-content-extractor-css-selectors",
+      "name": "htmlq Command-Line HTML Content Extractor with CSS Selectors",
+      "description": "htmlq is a command-line tool for extracting content from HTML using CSS selectors, functioning as the HTML equivalent of jq. Written in Rust, it…",
+      "category": [
+        "29"
+      ],
+      "framework": [
+        "71"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "pastel-command-line-color-tool",
       "name": "pastel Command-Line Color Generation Analysis and Manipulation Tool",

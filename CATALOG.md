@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1452 published skills** across **17 categories** · 1430 security reviewed · Updated 2026-03-29 15:15 UTC
+> **1455 published skills** across **19 categories** · 1430 security reviewed · Updated 2026-03-29 17:14 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1590,6 +1590,25 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cont
 | [textstat Python Readability Statistics Calculator](skills/textstat-python-readability-statistics-calculator/) | textstat is a Python package that calculates readability statistics for text content, including Flesch Reading Ease,… | Security Reviewed | — | — |
 | [Unlighthouse Site-Wide Lighthouse and SEO Auditing](skills/unlighthouse-site-wide-lighthouse-seo-auditing/) | Unlighthouse runs Google Lighthouse across an entire site instead of just a single page. This skill gives agents a… | Security Reviewed | — | — |
 | [write-good English Prose Linting for Technical Content](skills/write-good-english-prose-linting-technical-content/) | This skill uses write-good to flag vague, wordy, or hard-to-read English prose in documentation and content drafts.… | Security Reviewed | — | — |
+
+
+### 📦 29 (2 skills)
+
+Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=29) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=29&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=29&sort=downloads)
+
+| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
+|---|---|---|---:|---:|
+| [htmlq Command-Line HTML Content Extractor with CSS Selectors](skills/htmlq-command-line-html-content-extractor-css-selectors/) | htmlq is a command-line tool for extracting content from HTML using CSS selectors, functioning as the HTML… | Published | — | — |
+| [xq Command-Line XML and HTML Beautifier and Content Extractor](skills/xq-command-line-xml-html-beautifier-content-extractor/) | xq is a command-line XML and HTML beautifier and content extractor written in Go. It provides syntax highlighting,… | Published | — | — |
+
+
+### 📦 40 (1 skills)
+
+Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=40) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=40&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=40&sort=downloads)
+
+| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
+|---|---|---|---:|---:|
+| [Apprise Universal Push Notification Library and CLI](skills/apprise-universal-push-notification-library-cli/) | Apprise is a Python library and CLI that sends push notifications to over 100 services including Telegram, Discord,… | Published | — | — |
 
 
 ---
