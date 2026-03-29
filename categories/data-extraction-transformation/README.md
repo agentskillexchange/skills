@@ -23,16 +23,16 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 
 | Skill | Downloads |
 |---|---:|
-| [Elasticsearch MCP](../../skills/elasticsearch-mcp/) | ⬇ 1.9M/wk |
+| [Elasticsearch MCP](../../skills/elasticsearch-mcp/) | ⬇ 2M/wk |
 | [Scrapy Spider Data Pipeline](../../skills/scrapy-spider-data-pipeline/) | ⬇ 39.8M/wk |
 | [ClickHouse Query Agent](../../skills/clickhouse-query-agent/) | ⬇ 1.2M/wk |
 | [Apache Spark DataFrame ETL Pipeline](../../skills/spark-dataframe-etl-pipeline/) | ⬇ 9.2M/wk |
 | [Cheerio DOM Extraction Pipeline](../../skills/cheerio-dom-extraction-pipeline/) | ⬇ 18.8M/wk |
-| [GraphQL Data Federation Agent](../../skills/graphql-data-federation-agent/) | ⬇ 32.3M/wk |
-| [GraphQL Schema Introspection Mapper](../../skills/graphql-schema-introspection-mapper/) | ⬇ 32.3M/wk |
-| [Weaviate MCP Server](../../skills/weaviate-mcp-server/) | ⬇ 32.3M/wk |
-| [Docling AI Document Intelligence Pipeline](../../skills/docling-ai-document-intelligence-pipeline/) | ⬇ 2.3M/wk |
-| [Documind AI-Powered Structured Data Extraction from Documents](../../skills/documind-ai-structured-data-extraction/) | ⬇ 16.1M/wk |
+| [GraphQL Data Federation Agent](../../skills/graphql-data-federation-agent/) | ⬇ 33.3M/wk |
+| [GraphQL Schema Introspection Mapper](../../skills/graphql-schema-introspection-mapper/) | ⬇ 33.3M/wk |
+| [Weaviate MCP Server](../../skills/weaviate-mcp-server/) | ⬇ 33.3M/wk |
+| [Docling AI Document Intelligence Pipeline](../../skills/docling-ai-document-intelligence-pipeline/) | ⬇ 2.4M/wk |
+| [Documind AI-Powered Structured Data Extraction from Documents](../../skills/documind-ai-structured-data-extraction/) | ⬇ 16.4M/wk |
 
 ---
 
@@ -41,7 +41,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | Skill | Stars | Downloads |
 |---|---:|---:|
 | [yq YAML and Structured Data Processor](../../skills/yq-yaml-structured-data-processor/) | 121.4k | — |
-| [Elasticsearch MCP](../../skills/elasticsearch-mcp/) | 76.4k | 1.9M/wk |
+| [Elasticsearch MCP](../../skills/elasticsearch-mcp/) | 76.4k | 2M/wk |
 | [Crawl4AI MCP Server](../../skills/crawl4ai-mcp-server/) | 71.6k | — |
 | [Dagster Data Pipeline Orchestrator](../../skills/dagster-data-pipeline-orchestrator/) | 71.6k | — |
 | [jnv Interactive JSON Navigator and jq Filter Editor](../../skills/jnv-interactive-json-navigator/) | 71.6k | — |
@@ -68,10 +68,10 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Apache Spark DataFrame ETL Pipeline](../../skills/spark-dataframe-etl-pipeline/) | 43k | 9.2M/wk |
 | [Apache Spark Job Manager](../../skills/apache-spark-job-manager/) | 43k | — |
 | [Cheerio DOM Extraction Pipeline](../../skills/cheerio-dom-extraction-pipeline/) | 30.2k | 18.8M/wk |
-| [GraphQL Data Federation Agent](../../skills/graphql-data-federation-agent/) | 20.3k | 32.3M/wk |
-| [GraphQL Schema Introspection Mapper](../../skills/graphql-schema-introspection-mapper/) | 20.3k | 32.3M/wk |
-| [Weaviate MCP Server](../../skills/weaviate-mcp-server/) | 20.3k | 32.3M/wk |
-| [Docling AI Document Intelligence Pipeline](../../skills/docling-ai-document-intelligence-pipeline/) | 17.3k | 2.3M/wk |
+| [GraphQL Data Federation Agent](../../skills/graphql-data-federation-agent/) | 20.3k | 33.3M/wk |
+| [GraphQL Schema Introspection Mapper](../../skills/graphql-schema-introspection-mapper/) | 20.3k | 33.3M/wk |
+| [Weaviate MCP Server](../../skills/weaviate-mcp-server/) | 20.3k | 33.3M/wk |
+| [Docling AI Document Intelligence Pipeline](../../skills/docling-ai-document-intelligence-pipeline/) | 17.4k | 2.4M/wk |
 | [Polars Blazing-Fast DataFrame Query Engine](../../skills/polars-dataframe-query-engine/) | 16.6k | — |
 | [dbt Cloud MCP](../../skills/dbt-cloud-mcp/) | 12.5k | — |
 | [dbt Data Transform Orchestrator](../../skills/dbt-data-transform-orchestrator/) | 12.5k | — |
@@ -85,42 +85,43 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [dbt Model Lineage Extractor](../../skills/dbt-model-lineage-extractor-2/) | 12.5k | — |
 | [dbt Model Lineage Mapper](../../skills/dbt-model-lineage-mapper/) | 12.5k | — |
 | [dbt Model Transformation Architect](../../skills/dbt-model-transformation-architect/) | 12.5k | — |
-| [Documind AI-Powered Structured Data Extraction from Documents](../../skills/documind-ai-structured-data-extraction/) | 10.8k | 16.1M/wk |
-| [Instructor Structured Data Extraction from LLMs](../../skills/instructor-structured-data-extraction-llms/) | 10.8k | 16.1M/wk |
-| [LangExtract LLM-Powered Structured Text Extraction](../../skills/langextract-llm-structured-text-extraction/) | 10.8k | 16.1M/wk |
-| [csvkit Python CSV Utility Suite](../../skills/csvkit-python-csv-utility-suite/) | 7k | 4.9M/wk |
-| [Datasette Data Exploration and Publishing Tool](../../skills/datasette-data-exploration-publishing-tool/) | 7k | 4.9M/wk |
-| [SQLite MCP Server](../../skills/sqlite-mcp-server/) | 7k | 4.9M/wk |
-| [sqlite-utils Python CLI for SQLite Database Manipulation](../../skills/sqlite-utils-python-cli-sqlite-manipulation/) | 7k | 4.9M/wk |
-| [Ingestr Cross-Database Data Copier](../../skills/ingestr-cross-database-data-copier/) | 5.6k | 1.1M/wk |
-| [Protocol Buffer Schema Generator](../../skills/protobuf-schema-generator-from-json/) | 4.8k | 31M/wk |
-| [Stripe Revenue Analytics Dashboard Builder](../../skills/stripe-revenue-analytics-dashboard/) | 4.4k | 8.5M/wk |
-| [Anyquery Universal SQL Engine with MCP Integration](../../skills/anyquery-universal-sql-engine-mcp-integration/) | 4.3k | 8.8M/wk |
-| [Apache Avro Schema Evolution Agent](../../skills/apache-avro-schema-evolution-agent/) | 4k | 2.4M/wk |
-| [Apache Camel Route Data Mapper](../../skills/apache-camel-route-data-mapper/) | 4k | 2.4M/wk |
-| [Apache Kafka Schema Extractor](../../skills/apache-kafka-schema-extractor/) | 4k | 2.4M/wk |
-| [Apache Kafka Schema Registry Extractor](../../skills/kafka-schema-registry-extractor/) | 4k | 2.4M/wk |
-| [Apache Kafka Schema Registry Validator](../../skills/kafka-schema-registry-validator/) | 4k | 2.4M/wk |
-| [Apache Kafka Stream Processor](../../skills/apache-kafka-stream-processor/) | 4k | 2.4M/wk |
-| [Apache Kafka Stream Transformer](../../skills/apache-kafka-stream-transformer-2/) | 4k | 2.4M/wk |
-| [JSON-to-Avro Schema Transformer](../../skills/json-to-avro-schema-transformer/) | 4k | 2.4M/wk |
-| [Redpanda Connect Declarative Stream Processor](../../skills/redpanda-connect-declarative-stream-processor/) | 4k | 2.4M/wk |
-| [jq JSON Stream Transformer](../../skills/jq-json-stream-transformer/) | 3.6k | 9.1M/wk |
-| [Steampipe Zero-ETL SQL Cloud API Query Engine](../../skills/steampipe-zero-etl-sql-cloud-api-query-engine/) | 3.6k | 9.1M/wk |
-| [QuickBooks Online Invoice Reconciliation Agent](../../skills/quickbooks-invoice-reconciliation/) | 3.1k | 3.3M/wk |
-| [Reddit Subreddit Sentiment Tracker](../../skills/reddit-subreddit-sentiment-tracker/) | 2.9k | 2M/wk |
-| [Weights &amp; Biases Run Monitor](../../skills/wandb-run-monitor/) | 2.9k | 2M/wk |
+| [Documind AI-Powered Structured Data Extraction from Documents](../../skills/documind-ai-structured-data-extraction/) | 10.8k | 16.4M/wk |
+| [Instructor Structured Data Extraction from LLMs](../../skills/instructor-structured-data-extraction-llms/) | 10.8k | 16.4M/wk |
+| [LangExtract LLM-Powered Structured Text Extraction](../../skills/langextract-llm-structured-text-extraction/) | 10.8k | 16.4M/wk |
+| [csvkit Python CSV Utility Suite](../../skills/csvkit-python-csv-utility-suite/) | 7.1k | 5M/wk |
+| [Datasette Data Exploration and Publishing Tool](../../skills/datasette-data-exploration-publishing-tool/) | 7.1k | 5M/wk |
+| [Newsboat Terminal RSS and Atom Feed Reader](../../skills/newsboat-terminal-rss-atom-feed-reader/) | 7.1k | 5M/wk |
+| [SQLite MCP Server](../../skills/sqlite-mcp-server/) | 7.1k | 5M/wk |
+| [sqlite-utils Python CLI for SQLite Database Manipulation](../../skills/sqlite-utils-python-cli-sqlite-manipulation/) | 7.1k | 5M/wk |
+| [Ingestr Cross-Database Data Copier](../../skills/ingestr-cross-database-data-copier/) | 5.6k | 1.4M/wk |
+| [Protocol Buffer Schema Generator](../../skills/protobuf-schema-generator-from-json/) | 4.8k | 31.8M/wk |
+| [Stripe Revenue Analytics Dashboard Builder](../../skills/stripe-revenue-analytics-dashboard/) | 4.4k | 8.7M/wk |
+| [Anyquery Universal SQL Engine with MCP Integration](../../skills/anyquery-universal-sql-engine-mcp-integration/) | 4.3k | 8.9M/wk |
+| [Apache Avro Schema Evolution Agent](../../skills/apache-avro-schema-evolution-agent/) | 4k | 2.5M/wk |
+| [Apache Camel Route Data Mapper](../../skills/apache-camel-route-data-mapper/) | 4k | 2.5M/wk |
+| [Apache Kafka Schema Extractor](../../skills/apache-kafka-schema-extractor/) | 4k | 2.5M/wk |
+| [Apache Kafka Schema Registry Extractor](../../skills/kafka-schema-registry-extractor/) | 4k | 2.5M/wk |
+| [Apache Kafka Schema Registry Validator](../../skills/kafka-schema-registry-validator/) | 4k | 2.5M/wk |
+| [Apache Kafka Stream Processor](../../skills/apache-kafka-stream-processor/) | 4k | 2.5M/wk |
+| [Apache Kafka Stream Transformer](../../skills/apache-kafka-stream-transformer-2/) | 4k | 2.5M/wk |
+| [JSON-to-Avro Schema Transformer](../../skills/json-to-avro-schema-transformer/) | 4k | 2.5M/wk |
+| [Redpanda Connect Declarative Stream Processor](../../skills/redpanda-connect-declarative-stream-processor/) | 4k | 2.5M/wk |
+| [jq JSON Stream Transformer](../../skills/jq-json-stream-transformer/) | 3.6k | 9.3M/wk |
+| [Steampipe Zero-ETL SQL Cloud API Query Engine](../../skills/steampipe-zero-etl-sql-cloud-api-query-engine/) | 3.6k | 9.3M/wk |
+| [QuickBooks Online Invoice Reconciliation Agent](../../skills/quickbooks-invoice-reconciliation/) | 3.1k | 3.4M/wk |
+| [Reddit Subreddit Sentiment Tracker](../../skills/reddit-subreddit-sentiment-tracker/) | 2.9k | 1.7M/wk |
+| [Weights &amp; Biases Run Monitor](../../skills/wandb-run-monitor/) | 2.9k | 1.7M/wk |
 | [Salesforce Bulk API Data Loader](../../skills/salesforce-bulk-api-data-loader/) | 1.5k | 823.7k/wk |
-| [DuckDB SQL Analytics Agent](../../skills/duckdb-sql-analytics-agent/) | 387 | 139.7k/wk |
-| [Parquet Column Mapper](../../skills/parquet-column-mapper/) | 387 | 139.7k/wk |
-| [Parquet Column Pruning Optimizer](../../skills/parquet-column-pruning-optimizer/) | 387 | 139.7k/wk |
-| [Parquet Column Statistics Profiler](../../skills/parquet-column-statistics-profiler/) | 387 | 139.7k/wk |
-| [Parquet Schema Extractor for S3](../../skills/parquet-schema-extractor-for-s3/) | 387 | 139.7k/wk |
-| [Parquet to PostgreSQL Loader](../../skills/parquet-to-postgresql-loader/) | 387 | 139.7k/wk |
-| [qsv Blazing-Fast CSV Data Wrangling Toolkit](../../skills/qsv-blazing-fast-csv-data-wrangling-toolkit/) | 387 | 139.7k/wk |
-| [Metabase Dashboard Snapshot &amp; Alerting](../../skills/metabase-dashboard-snapshot-alerting-2/) | 69 | 202.6k/wk |
-| [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | — | 21.5M/wk |
-| [trdsql SQL Query Engine for CSV JSON and YAML Files](../../skills/trdsql-sql-query-engine-csv-json-yaml-files/) | — | 21.5M/wk |
+| [DuckDB SQL Analytics Agent](../../skills/duckdb-sql-analytics-agent/) | 387 | 144.7k/wk |
+| [Parquet Column Mapper](../../skills/parquet-column-mapper/) | 387 | 144.7k/wk |
+| [Parquet Column Pruning Optimizer](../../skills/parquet-column-pruning-optimizer/) | 387 | 144.7k/wk |
+| [Parquet Column Statistics Profiler](../../skills/parquet-column-statistics-profiler/) | 387 | 144.7k/wk |
+| [Parquet Schema Extractor for S3](../../skills/parquet-schema-extractor-for-s3/) | 387 | 144.7k/wk |
+| [Parquet to PostgreSQL Loader](../../skills/parquet-to-postgresql-loader/) | 387 | 144.7k/wk |
+| [qsv Blazing-Fast CSV Data Wrangling Toolkit](../../skills/qsv-blazing-fast-csv-data-wrangling-toolkit/) | 387 | 144.7k/wk |
+| [Metabase Dashboard Snapshot &amp; Alerting](../../skills/metabase-dashboard-snapshot-alerting-2/) | 69 | 212.2k/wk |
+| [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | — | 22M/wk |
+| [trdsql SQL Query Engine for CSV JSON and YAML Files](../../skills/trdsql-sql-query-engine-csv-json-yaml-files/) | — | 22M/wk |
 | [Apache Tika Content Extraction Hub](../../skills/apache-tika-content-extraction-hub/) | — | — |
 | [Apache Tika Document Extractor](../../skills/apache-tika-document-extractor/) | — | — |
 | [Apache Tika Document Parser](../../skills/apache-tika-document-parser/) | — | — |

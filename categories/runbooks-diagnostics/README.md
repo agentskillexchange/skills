@@ -25,14 +25,14 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 |---|---:|
 | [Ansible Playbook Dry-Run Validator](../../skills/ansible-playbook-dryrun-validator-agent/) | ⬇ 9.2M/wk |
 | [Ansible Playbook Runner with Vault Secrets](../../skills/ansible-playbook-vault-runner/) | ⬇ 9.2M/wk |
-| [Prometheus Alert Resolver](../../skills/prometheus-alert-resolver-skill/) | ⬇ 5.4M/wk |
-| [Prometheus Alert Rule Tester](../../skills/prometheus-alert-rule-tester/) | ⬇ 5.4M/wk |
-| [Prometheus Alert Runbook](../../skills/prometheus-alert-runbook/) | ⬇ 5.4M/wk |
-| [Prometheus Alert Runbook Agent](../../skills/prometheus-alert-runbook-agent/) | ⬇ 5.4M/wk |
-| [Prometheus Alert Runbook Linker](../../skills/prometheus-alert-runbook-linker/) | ⬇ 5.4M/wk |
-| [Prometheus Alert Tuner](../../skills/prometheus-alert-tuner/) | ⬇ 5.4M/wk |
-| [Sentry Error Triage Assistant](../../skills/sentry-error-triage-assistant/) | ⬇ 16.1M/wk |
-| [Pulumi Drift Detector &amp; Reconciler](../../skills/pulumi-drift-detector-reconciler/) | ⬇ 1.5M/wk |
+| [Prometheus Alert Resolver](../../skills/prometheus-alert-resolver-skill/) | ⬇ 5.6M/wk |
+| [Prometheus Alert Rule Tester](../../skills/prometheus-alert-rule-tester/) | ⬇ 5.6M/wk |
+| [Prometheus Alert Runbook](../../skills/prometheus-alert-runbook/) | ⬇ 5.6M/wk |
+| [Prometheus Alert Runbook Agent](../../skills/prometheus-alert-runbook-agent/) | ⬇ 5.6M/wk |
+| [Prometheus Alert Runbook Linker](../../skills/prometheus-alert-runbook-linker/) | ⬇ 5.6M/wk |
+| [Prometheus Alert Tuner](../../skills/prometheus-alert-tuner/) | ⬇ 5.6M/wk |
+| [Sentry Error Triage Assistant](../../skills/sentry-error-triage-assistant/) | ⬇ 16.7M/wk |
+| [Pulumi Drift Detector &amp; Reconciler](../../skills/pulumi-drift-detector-reconciler/) | ⬇ 1.6M/wk |
 
 ---
 
@@ -77,12 +77,12 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Ansible Playbook Dry-Run Analyzer](../../skills/ansible-playbook-dry-run-analyzer/) | 68.4k | — |
 | [Ansible Playbook Linter Pro](../../skills/ansible-playbook-linter-pro/) | 68.4k | — |
 | [Ansible Runbook Executor](../../skills/ansible-runbook-executor/) | 68.4k | — |
-| [Prometheus Alert Resolver](../../skills/prometheus-alert-resolver-skill/) | 63.3k | 5.4M/wk |
-| [Prometheus Alert Rule Tester](../../skills/prometheus-alert-rule-tester/) | 63.3k | 5.4M/wk |
-| [Prometheus Alert Runbook](../../skills/prometheus-alert-runbook/) | 63.3k | 5.4M/wk |
-| [Prometheus Alert Runbook Agent](../../skills/prometheus-alert-runbook-agent/) | 63.3k | 5.4M/wk |
-| [Prometheus Alert Runbook Linker](../../skills/prometheus-alert-runbook-linker/) | 63.3k | 5.4M/wk |
-| [Prometheus Alert Tuner](../../skills/prometheus-alert-tuner/) | 63.3k | 5.4M/wk |
+| [Prometheus Alert Resolver](../../skills/prometheus-alert-resolver-skill/) | 63.3k | 5.6M/wk |
+| [Prometheus Alert Rule Tester](../../skills/prometheus-alert-rule-tester/) | 63.3k | 5.6M/wk |
+| [Prometheus Alert Runbook](../../skills/prometheus-alert-runbook/) | 63.3k | 5.6M/wk |
+| [Prometheus Alert Runbook Agent](../../skills/prometheus-alert-runbook-agent/) | 63.3k | 5.6M/wk |
+| [Prometheus Alert Runbook Linker](../../skills/prometheus-alert-runbook-linker/) | 63.3k | 5.6M/wk |
+| [Prometheus Alert Tuner](../../skills/prometheus-alert-tuner/) | 63.3k | 5.6M/wk |
 | [Terraform Drift Detection Runbook](../../skills/terraform-drift-detection-runbook/) | 48k | — |
 | [Terraform Plan Diff Reviewer](../../skills/terraform-plan-diff-reviewer/) | 48k | — |
 | [Terraform State Diagnostics](../../skills/terraform-state-diagnostics/) | 48k | — |
@@ -90,7 +90,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Terraform State Forensics Tool](../../skills/terraform-state-forensics-tool/) | 48k | — |
 | [Terraform State Inspector](../../skills/terraform-state-inspector/) | 48k | — |
 | [Terraform State Surgery Kit](../../skills/terraform-state-surgery-kit/) | 48k | — |
-| [Sentry Error Triage Assistant](../../skills/sentry-error-triage-assistant/) | 43.5k | 16.1M/wk |
+| [Sentry Error Triage Assistant](../../skills/sentry-error-triage-assistant/) | 43.5k | 16.7M/wk |
 | [Nginx Config Linter and Tester](../../skills/nginx-config-linter-tester/) | 29.8k | — |
 | [Nginx Config Validator and Optimizer](../../skills/nginx-config-validator-optimizer/) | 29.8k | — |
 | [Nginx Config Validator Runbook](../../skills/nginx-config-validator-runbook/) | 29.8k | — |
@@ -101,54 +101,54 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Nginx Error Log Runbook Agent](../../skills/nginx-error-log-runbook-agent/) | 29.8k | — |
 | [Nginx Error Pattern Analyzer](../../skills/nginx-error-pattern-analyzer-agent/) | 29.8k | — |
 | [Jenkins Build Log Analyzer](../../skills/jenkins-build-log-analyzer/) | 25.1k | — |
-| [Pulumi Drift Detector &amp; Reconciler](../../skills/pulumi-drift-detector-reconciler/) | 24.9k | 1.5M/wk |
+| [Pulumi Drift Detector &amp; Reconciler](../../skills/pulumi-drift-detector-reconciler/) | 24.9k | 1.6M/wk |
 | [ArgoCD Application Health Runbook](../../skills/argocd-application-health-runbook/) | 22.4k | — |
 | [ArgoCD Deployment Runbook Agent](../../skills/argocd-deployment-runbook-agent/) | 22.4k | — |
-| [Incident Timeline Builder](../../skills/incident-timeline-builder/) | 5.6k | 1.1M/wk |
-| [Apache Kafka Consumer Lag Runbook](../../skills/apache-kafka-consumer-lag-runbook/) | 4k | 2.4M/wk |
-| [Queue Backup Runbook](../../skills/queue-backup-runbook/) | 4k | 2.4M/wk |
-| [AWS CloudFormation Drift Detector](../../skills/aws-cloudformation-drift-detector-4/) | 3.6k | 9.1M/wk |
-| [AWS CloudWatch Alarm Diagnostic](../../skills/aws-cloudwatch-alarm-diagnostic/) | 3.6k | 9.1M/wk |
-| [AWS CloudWatch Alarm Runbook](../../skills/aws-cloudwatch-alarm-runbook-wave48/) | 3.6k | 9.1M/wk |
-| [AWS CloudWatch Alarm Runbook Generator](../../skills/aws-cloudwatch-alarm-runbook-generator/) | 3.6k | 9.1M/wk |
-| [AWS CloudWatch Alarm Triage](../../skills/aws-cloudwatch-alarm-triage-5/) | 3.6k | 9.1M/wk |
-| [AWS CloudWatch Alarm Triage Agent](../../skills/aws-cloudwatch-alarm-triage-agent/) | 3.6k | 9.1M/wk |
-| [AWS CloudWatch Alarm Triager](../../skills/aws-cloudwatch-alarm-triager/) | 3.6k | 9.1M/wk |
-| [AWS CloudWatch Anomaly Investigator](../../skills/aws-cloudwatch-anomaly-investigator/) | 3.6k | 9.1M/wk |
-| [AWS CloudWatch Anomaly Runbook](../../skills/aws-cloudwatch-anomaly-runbook/) | 3.6k | 9.1M/wk |
-| [AWS CloudWatch Log Analyzer](../../skills/aws-cloudwatch-log-analyzer/) | 3.6k | 9.1M/wk |
-| [AWS CloudWatch Log Anomaly Investigator](../../skills/aws-cloudwatch-log-anomaly-investigator/) | 3.6k | 9.1M/wk |
-| [AWS CloudWatch Log Anomaly Scanner](../../skills/aws-cloudwatch-log-anomaly-scanner/) | 3.6k | 9.1M/wk |
-| [AWS CloudWatch Runbook Agent](../../skills/aws-cloudwatch-runbook-agent/) | 3.6k | 9.1M/wk |
-| [AWS Systems Manager Automation Incident Guide](../../skills/aws-systems-manager-automation-incident-guide/) | 3.6k | 9.1M/wk |
-| [AWS Systems Manager Runbook](../../skills/aws-ssm-runbook-executor/) | 3.6k | 9.1M/wk |
-| [AWS Systems Manager Runbook Engine](../../skills/aws-ssm-runbook-engine/) | 3.6k | 9.1M/wk |
+| [Incident Timeline Builder](../../skills/incident-timeline-builder/) | 5.6k | 1.4M/wk |
+| [Apache Kafka Consumer Lag Runbook](../../skills/apache-kafka-consumer-lag-runbook/) | 4k | 2.5M/wk |
+| [Queue Backup Runbook](../../skills/queue-backup-runbook/) | 4k | 2.5M/wk |
+| [AWS CloudFormation Drift Detector](../../skills/aws-cloudformation-drift-detector-4/) | 3.6k | 9.3M/wk |
+| [AWS CloudWatch Alarm Diagnostic](../../skills/aws-cloudwatch-alarm-diagnostic/) | 3.6k | 9.3M/wk |
+| [AWS CloudWatch Alarm Runbook](../../skills/aws-cloudwatch-alarm-runbook-wave48/) | 3.6k | 9.3M/wk |
+| [AWS CloudWatch Alarm Runbook Generator](../../skills/aws-cloudwatch-alarm-runbook-generator/) | 3.6k | 9.3M/wk |
+| [AWS CloudWatch Alarm Triage](../../skills/aws-cloudwatch-alarm-triage-5/) | 3.6k | 9.3M/wk |
+| [AWS CloudWatch Alarm Triage Agent](../../skills/aws-cloudwatch-alarm-triage-agent/) | 3.6k | 9.3M/wk |
+| [AWS CloudWatch Alarm Triager](../../skills/aws-cloudwatch-alarm-triager/) | 3.6k | 9.3M/wk |
+| [AWS CloudWatch Anomaly Investigator](../../skills/aws-cloudwatch-anomaly-investigator/) | 3.6k | 9.3M/wk |
+| [AWS CloudWatch Anomaly Runbook](../../skills/aws-cloudwatch-anomaly-runbook/) | 3.6k | 9.3M/wk |
+| [AWS CloudWatch Log Analyzer](../../skills/aws-cloudwatch-log-analyzer/) | 3.6k | 9.3M/wk |
+| [AWS CloudWatch Log Anomaly Investigator](../../skills/aws-cloudwatch-log-anomaly-investigator/) | 3.6k | 9.3M/wk |
+| [AWS CloudWatch Log Anomaly Scanner](../../skills/aws-cloudwatch-log-anomaly-scanner/) | 3.6k | 9.3M/wk |
+| [AWS CloudWatch Runbook Agent](../../skills/aws-cloudwatch-runbook-agent/) | 3.6k | 9.3M/wk |
+| [AWS Systems Manager Automation Incident Guide](../../skills/aws-systems-manager-automation-incident-guide/) | 3.6k | 9.3M/wk |
+| [AWS Systems Manager Runbook](../../skills/aws-ssm-runbook-executor/) | 3.6k | 9.3M/wk |
+| [AWS Systems Manager Runbook Engine](../../skills/aws-ssm-runbook-engine/) | 3.6k | 9.3M/wk |
 | [AWS CloudFormation Stack Diagnostics](../../skills/aws-cloudformation-stack-diagnostics/) | 2.6k | 9.2M/wk |
-| [Datadog Incident Runbook Runner](../../skills/datadog-incident-runbook-runner-2/) | 790 | 5.9M/wk |
-| [Datadog Synthetics Failure Triage Skill](../../skills/datadog-synthetics-failure-triage-skill/) | 790 | 5.9M/wk |
-| [Datadog Triage Playbook](../../skills/datadog-triage-playbook/) | 790 | 5.9M/wk |
-| [Incident Postmortem Generator](../../skills/incident-postmortem-generator/) | 69 | 202.6k/wk |
-| [Incident Response Checklist Engine](../../skills/incident-response-checklist-engine/) | 69 | 202.6k/wk |
-| [PagerDuty Event Orchestration Runbook](../../skills/pagerduty-event-orchestration-runbook/) | 69 | 202.6k/wk |
-| [PagerDuty Incident Runbook](../../skills/pagerduty-incident-runbook/) | 69 | 202.6k/wk |
-| [PagerDuty Incident Runbook Automator](../../skills/pagerduty-incident-runbook-automator/) | 69 | 202.6k/wk |
-| [PagerDuty Incident Runbook Engine](../../skills/pagerduty-incident-runbook-engine/) | 69 | 202.6k/wk |
-| [PagerDuty Incident Runbook Executor](../../skills/pagerduty-incident-runbook-executor/) | 69 | 202.6k/wk |
-| [PagerDuty On-Call Escalation Checker](../../skills/pagerduty-on-call-escalation-checker-2/) | 69 | 202.6k/wk |
-| [Database Migration Validator](../../skills/database-migration-validator/) | — | 21.5M/wk |
-| [PostgreSQL Diagnostic Analyzer](../../skills/postgresql-diagnostic-analyzer/) | — | 21.5M/wk |
-| [PostgreSQL Diagnostic Runbook](../../skills/postgresql-diagnostic-runbook/) | — | 21.5M/wk |
-| [PostgreSQL Health Diagnostics Agent](../../skills/postgresql-health-diagnostics-agent/) | — | 21.5M/wk |
-| [PostgreSQL Performance Diagnostic Suite](../../skills/postgresql-performance-diagnostic-suite/) | — | 21.5M/wk |
-| [PostgreSQL Performance Diagnostics](../../skills/postgresql-performance-diagnostics/) | — | 21.5M/wk |
-| [PostgreSQL Performance Runbook](../../skills/postgresql-performance-runbook/) | — | 21.5M/wk |
-| [PostgreSQL Query Analyzer](../../skills/postgresql-query-analyzer/) | — | 21.5M/wk |
-| [PostgreSQL Query Diagnostics](../../skills/postgresql-query-diagnostics/) | — | 21.5M/wk |
-| [PostgreSQL Query Plan Diagnostics](../../skills/postgresql-query-plan-diagnostics-wave48/) | — | 21.5M/wk |
-| [PostgreSQL Query Plan Explainer](../../skills/postgresql-query-plan-explainer/) | — | 21.5M/wk |
-| [PostgreSQL Slow Query Analyzer](../../skills/postgresql-slow-query-analyzer/) | — | 21.5M/wk |
-| [PostgreSQL Slow Query Runbook](../../skills/postgresql-slow-query-runbook-agent/) | — | 21.5M/wk |
-| [PostgreSQL Vacuum Deadlock Runbook](../../skills/postgresql-vacuum-deadlock-runbook/) | — | 21.5M/wk |
+| [Datadog Incident Runbook Runner](../../skills/datadog-incident-runbook-runner-2/) | 790 | 6.2M/wk |
+| [Datadog Synthetics Failure Triage Skill](../../skills/datadog-synthetics-failure-triage-skill/) | 790 | 6.2M/wk |
+| [Datadog Triage Playbook](../../skills/datadog-triage-playbook/) | 790 | 6.2M/wk |
+| [Incident Postmortem Generator](../../skills/incident-postmortem-generator/) | 69 | 212.2k/wk |
+| [Incident Response Checklist Engine](../../skills/incident-response-checklist-engine/) | 69 | 212.2k/wk |
+| [PagerDuty Event Orchestration Runbook](../../skills/pagerduty-event-orchestration-runbook/) | 69 | 212.2k/wk |
+| [PagerDuty Incident Runbook](../../skills/pagerduty-incident-runbook/) | 69 | 212.2k/wk |
+| [PagerDuty Incident Runbook Automator](../../skills/pagerduty-incident-runbook-automator/) | 69 | 212.2k/wk |
+| [PagerDuty Incident Runbook Engine](../../skills/pagerduty-incident-runbook-engine/) | 69 | 212.2k/wk |
+| [PagerDuty Incident Runbook Executor](../../skills/pagerduty-incident-runbook-executor/) | 69 | 212.2k/wk |
+| [PagerDuty On-Call Escalation Checker](../../skills/pagerduty-on-call-escalation-checker-2/) | 69 | 212.2k/wk |
+| [Database Migration Validator](../../skills/database-migration-validator/) | — | 22M/wk |
+| [PostgreSQL Diagnostic Analyzer](../../skills/postgresql-diagnostic-analyzer/) | — | 22M/wk |
+| [PostgreSQL Diagnostic Runbook](../../skills/postgresql-diagnostic-runbook/) | — | 22M/wk |
+| [PostgreSQL Health Diagnostics Agent](../../skills/postgresql-health-diagnostics-agent/) | — | 22M/wk |
+| [PostgreSQL Performance Diagnostic Suite](../../skills/postgresql-performance-diagnostic-suite/) | — | 22M/wk |
+| [PostgreSQL Performance Diagnostics](../../skills/postgresql-performance-diagnostics/) | — | 22M/wk |
+| [PostgreSQL Performance Runbook](../../skills/postgresql-performance-runbook/) | — | 22M/wk |
+| [PostgreSQL Query Analyzer](../../skills/postgresql-query-analyzer/) | — | 22M/wk |
+| [PostgreSQL Query Diagnostics](../../skills/postgresql-query-diagnostics/) | — | 22M/wk |
+| [PostgreSQL Query Plan Diagnostics](../../skills/postgresql-query-plan-diagnostics-wave48/) | — | 22M/wk |
+| [PostgreSQL Query Plan Explainer](../../skills/postgresql-query-plan-explainer/) | — | 22M/wk |
+| [PostgreSQL Slow Query Analyzer](../../skills/postgresql-slow-query-analyzer/) | — | 22M/wk |
+| [PostgreSQL Slow Query Runbook](../../skills/postgresql-slow-query-runbook-agent/) | — | 22M/wk |
+| [PostgreSQL Vacuum Deadlock Runbook](../../skills/postgresql-vacuum-deadlock-runbook/) | — | 22M/wk |
 | [Incident Response Playbook Runner](../../skills/incident-response-playbook-runner/) | — | — |
 | [Systemd Service Debugger](../../skills/systemd-service-debugger/) | — | — |
 | [Systemd Service Diagnostics](../../skills/systemd-service-diagnostics/) | — | — |

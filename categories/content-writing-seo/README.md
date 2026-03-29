@@ -9,13 +9,13 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [lychee Async Broken Link Checker for Websites and Documentation](../../skills/lychee-async-broken-link-checker/) | ⭐ 71.6k |
 | [OpenSEO Self-Hosted Keyword Research and SEO Analysis Platform](../../skills/openseo-self-hosted-keyword-research-seo-analysis/) | ⭐ 71.6k |
 | [SEOnaut Open Source Technical SEO Audit Tool](../../skills/seonaut-open-source-technical-seo-audit/) | ⭐ 71.6k |
+| [Typst Markup-Based Document Typesetting System](../../skills/typst-markup-typesetting-system/) | ⭐ 71.6k |
 | [Surfer SEO Content Optimizer](../../skills/surfer-seo-content-optimizer/) | ⭐ 30.2k |
 | [textlint Pluggable Natural Language Linter](../../skills/textlint-pluggable-natural-language-linter/) | ⭐ 27.2k |
 | [AI Content Readability Optimizer](../../skills/ai-content-readability-optimizer/) | ⭐ 21k |
 | [Harper Offline Privacy-First Grammar Checker by Automattic](../../skills/harper-offline-grammar-checker-automattic/) | ⭐ 21k |
 | [Internal Link Builder](../../skills/internal-link-builder-seo-agent/) | ⭐ 21k |
 | [Internal Link Graph Optimizer](../../skills/internal-link-graph-optimizer/) | ⭐ 21k |
-| [Jasper AI Long-Form Blog Post Generator](../../skills/jasper-longform-blog-generator/) | ⭐ 21k |
 
 ---
 
@@ -24,13 +24,15 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | Skill | Downloads |
 |---|---:|
 | [Surfer SEO Content Optimizer](../../skills/surfer-seo-content-optimizer/) | ⬇ 18.8M/wk |
-| [textlint Pluggable Natural Language Linter](../../skills/textlint-pluggable-natural-language-linter/) | ⬇ 111.6M/wk |
-| [AI Meta Description Generator](../../skills/ai-meta-description-generator/) | ⬇ 16.1M/wk |
-| [AI-Powered Meta Description Writer](../../skills/ai-powered-meta-description-writer/) | ⬇ 16.1M/wk |
-| [Content Readability Analyzer](../../skills/content-readability-analyzer-agent/) | ⬇ 16.1M/wk |
-| [Content Brief Architect](../../skills/content-brief-architect-agent/) | ⬇ 1.1M/wk |
-| [Keyword Cluster Generator](../../skills/keyword-cluster-generator-agent/) | ⬇ 1.1M/wk |
-| [Copy.ai Sales Email Sequence Builder](../../skills/copyai-sales-email-sequence/) | ⬇ 917.8k/wk |
+| [textlint Pluggable Natural Language Linter](../../skills/textlint-pluggable-natural-language-linter/) | ⬇ 120.3M/wk |
+| [AI Meta Description Generator](../../skills/ai-meta-description-generator/) | ⬇ 16.4M/wk |
+| [AI-Powered Meta Description Writer](../../skills/ai-powered-meta-description-writer/) | ⬇ 16.4M/wk |
+| [Content Readability Analyzer](../../skills/content-readability-analyzer-agent/) | ⬇ 16.4M/wk |
+| [Content Brief Architect](../../skills/content-brief-architect-agent/) | ⬇ 1.4M/wk |
+| [Keyword Cluster Generator](../../skills/keyword-cluster-generator-agent/) | ⬇ 1.4M/wk |
+| [Markdoc Markdown-Based Authoring Framework by Stripe](../../skills/markdoc-markdown-authoring-framework-stripe/) | ⬇ 8.7M/wk |
+| [Zola Fast Static Site Generator in a Single Binary](../../skills/zola-static-site-generator/) | ⬇ 1.1M/wk |
+| [Copy.ai Sales Email Sequence Builder](../../skills/copyai-sales-email-sequence/) | ⬇ 953.9k/wk |
 
 ---
 
@@ -41,8 +43,9 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [lychee Async Broken Link Checker for Websites and Documentation](../../skills/lychee-async-broken-link-checker/) | 71.6k | — |
 | [OpenSEO Self-Hosted Keyword Research and SEO Analysis Platform](../../skills/openseo-self-hosted-keyword-research-seo-analysis/) | 71.6k | — |
 | [SEOnaut Open Source Technical SEO Audit Tool](../../skills/seonaut-open-source-technical-seo-audit/) | 71.6k | — |
+| [Typst Markup-Based Document Typesetting System](../../skills/typst-markup-typesetting-system/) | 71.6k | — |
 | [Surfer SEO Content Optimizer](../../skills/surfer-seo-content-optimizer/) | 30.2k | 18.8M/wk |
-| [textlint Pluggable Natural Language Linter](../../skills/textlint-pluggable-natural-language-linter/) | 27.2k | 111.6M/wk |
+| [textlint Pluggable Natural Language Linter](../../skills/textlint-pluggable-natural-language-linter/) | 27.2k | 120.3M/wk |
 | [AI Content Readability Optimizer](../../skills/ai-content-readability-optimizer/) | 21k | — |
 | [Harper Offline Privacy-First Grammar Checker by Automattic](../../skills/harper-offline-grammar-checker-automattic/) | 21k | — |
 | [Internal Link Builder](../../skills/internal-link-builder-seo-agent/) | 21k | — |
@@ -53,12 +56,14 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [SEO Meta Tag Optimizer](../../skills/seo-meta-tag-optimizer-agent/) | 21k | — |
 | [SEO Schema Markup Generator](../../skills/seo-schema-markup-generator-agent/) | 21k | — |
 | [WordPress Content Optimizer](../../skills/wordpress-content-optimizer-yoast-rest/) | 21k | — |
-| [AI Meta Description Generator](../../skills/ai-meta-description-generator/) | 10.8k | 16.1M/wk |
-| [AI-Powered Meta Description Writer](../../skills/ai-powered-meta-description-writer/) | 10.8k | 16.1M/wk |
-| [Content Readability Analyzer](../../skills/content-readability-analyzer-agent/) | 10.8k | 16.1M/wk |
-| [Content Brief Architect](../../skills/content-brief-architect-agent/) | 5.6k | 1.1M/wk |
-| [Keyword Cluster Generator](../../skills/keyword-cluster-generator-agent/) | 5.6k | 1.1M/wk |
-| [Copy.ai Sales Email Sequence Builder](../../skills/copyai-sales-email-sequence/) | 391 | 917.8k/wk |
+| [AI Meta Description Generator](../../skills/ai-meta-description-generator/) | 10.8k | 16.4M/wk |
+| [AI-Powered Meta Description Writer](../../skills/ai-powered-meta-description-writer/) | 10.8k | 16.4M/wk |
+| [Content Readability Analyzer](../../skills/content-readability-analyzer-agent/) | 10.8k | 16.4M/wk |
+| [Content Brief Architect](../../skills/content-brief-architect-agent/) | 5.6k | 1.4M/wk |
+| [Keyword Cluster Generator](../../skills/keyword-cluster-generator-agent/) | 5.6k | 1.4M/wk |
+| [Markdoc Markdown-Based Authoring Framework by Stripe](../../skills/markdoc-markdown-authoring-framework-stripe/) | 4.4k | 8.7M/wk |
+| [Zola Fast Static Site Generator in a Single Binary](../../skills/zola-static-site-generator/) | 1.9k | 1.1M/wk |
+| [Copy.ai Sales Email Sequence Builder](../../skills/copyai-sales-email-sequence/) | 391 | 953.9k/wk |
 | [Ahrefs Backlink Content Planner](../../skills/ahrefs-backlink-content-planner/) | — | — |
 | [Ahrefs Content Gap Finder](../../skills/ahrefs-content-gap-finder-agent/) | — | — |
 | [Ahrefs Keyword Gap Analysis Skill](../../skills/ahrefs-keyword-gap-analysis-skill/) | — | — |
@@ -71,7 +76,6 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [Hemingway Readability Analyzer API](../../skills/hemingway-readability-analyzer-api/) | — | — |
 | [Internal Link Optimizer](../../skills/internal-link-optimizer-seo/) | — | — |
 | [LanguageTool Grammar and Style Checker](../../skills/languagetool-grammar-style-checker/) | — | — |
-| [Markdoc Markdown-Based Authoring Framework by Stripe](../../skills/markdoc-markdown-authoring-framework-stripe/) | — | — |
 | [Markdown-to-AMP Article Converter](../../skills/markdown-to-amp-article-converter/) | — | — |
 | [markdownlint-cli2 Markdown Linting for Docs and Repos](../../skills/markdownlint-cli2-markdown-linting-docs-repos/) | — | — |
 | [proselint Prose Linting and Style Checker CLI](../../skills/proselint-prose-linting-style-checker-cli/) | — | — |
@@ -89,10 +93,8 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [Surfer SEO SERP Analyzer](../../skills/surfer-seo-serp-analyzer/) | — | — |
 | [Technical SEO Audit Crawler](../../skills/technical-seo-audit-crawler/) | — | — |
 | [textstat Python Readability Statistics Calculator](../../skills/textstat-python-readability-statistics-calculator/) | — | — |
-| [Typst Markup-Based Document Typesetting System](../../skills/typst-markup-typesetting-system/) | — | — |
 | [Unlighthouse Site-Wide Lighthouse and SEO Auditing](../../skills/unlighthouse-site-wide-lighthouse-seo-auditing/) | — | — |
 | [write-good English Prose Linting for Technical Content](../../skills/write-good-english-prose-linting-technical-content/) | — | — |
-| [Zola Fast Static Site Generator in a Single Binary](../../skills/zola-static-site-generator/) | — | — |
 
 ---
 

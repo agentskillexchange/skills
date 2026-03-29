@@ -9,7 +9,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Argo Workflows Deployer](../../skills/argo-workflows-deployer/) | ⭐ 121.4k |
 | [Argo Workflows Linter](../../skills/argo-workflows-linter/) | ⭐ 121.4k |
 | [Buildkite Agent Fleet Scaler](../../skills/buildkite-agent-fleet-scaler/) | ⭐ 121.4k |
-| [Playwright Test Report to Slack](../../skills/playwright-test-report-to-slack/) | ⭐ 85.1k |
+| [Playwright Test Report to Slack](../../skills/playwright-test-report-to-slack/) | ⭐ 85.2k |
 | [act Local GitHub Actions Runner](../../skills/act-local-github-actions-runner/) | ⭐ 71.6k |
 | [Buildkite Dynamic Pipeline Architect](../../skills/buildkite-dynamic-pipeline-architect/) | ⭐ 71.6k |
 | [Buildkite Pipeline Profiler](../../skills/buildkite-pipeline-profiler/) | ⭐ 71.6k |
@@ -23,16 +23,16 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 
 | Skill | Downloads |
 |---|---:|
-| [Playwright Test Report to Slack](../../skills/playwright-test-report-to-slack/) | ⬇ 40.4M/wk |
-| [Buildkite Agent Monitor](../../skills/buildkite-agent-monitor/) | ⬇ 32.3M/wk |
-| [Buildkite Dynamic Pipeline Agent](../../skills/buildkite-dynamic-pipeline-agent/) | ⬇ 32.3M/wk |
-| [Buildkite Pipeline Optimizer](../../skills/buildkite-pipeline-optimizer-agent/) | ⬇ 32.3M/wk |
-| [GitHub Actions CI/CD Pipeline Manager](../../skills/github-actions-cicd-pipeline-manager/) | ⬇ 32.3M/wk |
-| [GitHub Actions Workflow Debugger](../../skills/github-actions-workflow-debugger/) | ⬇ 32.3M/wk |
-| [AWS CloudWatch Alarm Builder](../../skills/aws-cloudwatch-alarm-builder/) | ⬇ 9.1M/wk |
-| [AWS CodePipeline Orchestrator](../../skills/aws-codepipeline-orchestrator/) | ⬇ 9.1M/wk |
-| [GitHub Actions Matrix Orchestrator](../../skills/github-actions-matrix-orchestrator/) | ⬇ 9.1M/wk |
-| [GitHub Actions OIDC Token Validator](../../skills/github-actions-oidc-token-validator/) | ⬇ 9.1M/wk |
+| [Playwright Test Report to Slack](../../skills/playwright-test-report-to-slack/) | ⬇ 41.2M/wk |
+| [Buildkite Agent Monitor](../../skills/buildkite-agent-monitor/) | ⬇ 33.3M/wk |
+| [Buildkite Dynamic Pipeline Agent](../../skills/buildkite-dynamic-pipeline-agent/) | ⬇ 33.3M/wk |
+| [Buildkite Pipeline Optimizer](../../skills/buildkite-pipeline-optimizer-agent/) | ⬇ 33.3M/wk |
+| [GitHub Actions CI/CD Pipeline Manager](../../skills/github-actions-cicd-pipeline-manager/) | ⬇ 33.3M/wk |
+| [GitHub Actions Workflow Debugger](../../skills/github-actions-workflow-debugger/) | ⬇ 33.3M/wk |
+| [AWS CloudWatch Alarm Builder](../../skills/aws-cloudwatch-alarm-builder/) | ⬇ 9.3M/wk |
+| [AWS CodePipeline Orchestrator](../../skills/aws-codepipeline-orchestrator/) | ⬇ 9.3M/wk |
+| [GitHub Actions Matrix Orchestrator](../../skills/github-actions-matrix-orchestrator/) | ⬇ 9.3M/wk |
+| [GitHub Actions OIDC Token Validator](../../skills/github-actions-oidc-token-validator/) | ⬇ 9.3M/wk |
 
 ---
 
@@ -43,7 +43,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Argo Workflows Deployer](../../skills/argo-workflows-deployer/) | 121.4k | — |
 | [Argo Workflows Linter](../../skills/argo-workflows-linter/) | 121.4k | — |
 | [Buildkite Agent Fleet Scaler](../../skills/buildkite-agent-fleet-scaler/) | 121.4k | — |
-| [Playwright Test Report to Slack](../../skills/playwright-test-report-to-slack/) | 85.1k | 40.4M/wk |
+| [Playwright Test Report to Slack](../../skills/playwright-test-report-to-slack/) | 85.2k | 41.2M/wk |
 | [act Local GitHub Actions Runner](../../skills/act-local-github-actions-runner/) | 71.6k | — |
 | [Buildkite Dynamic Pipeline Architect](../../skills/buildkite-dynamic-pipeline-architect/) | 71.6k | — |
 | [Buildkite Pipeline Profiler](../../skills/buildkite-pipeline-profiler/) | 71.6k | — |
@@ -124,11 +124,11 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [ArgoCD Sync Troubleshooter](../../skills/argocd-sync-troubleshooter/) | 22.4k | — |
 | [ArgoCD Sync Wave Orchestrator](../../skills/argocd-sync-wave-orchestrator-wave48/) | 22.4k | — |
 | [ArgoCD Sync Wave Planner](../../skills/argocd-sync-wave-planner/) | 22.4k | — |
-| [Buildkite Agent Monitor](../../skills/buildkite-agent-monitor/) | 20.3k | 32.3M/wk |
-| [Buildkite Dynamic Pipeline Agent](../../skills/buildkite-dynamic-pipeline-agent/) | 20.3k | 32.3M/wk |
-| [Buildkite Pipeline Optimizer](../../skills/buildkite-pipeline-optimizer-agent/) | 20.3k | 32.3M/wk |
-| [GitHub Actions CI/CD Pipeline Manager](../../skills/github-actions-cicd-pipeline-manager/) | 20.3k | 32.3M/wk |
-| [GitHub Actions Workflow Debugger](../../skills/github-actions-workflow-debugger/) | 20.3k | 32.3M/wk |
+| [Buildkite Agent Monitor](../../skills/buildkite-agent-monitor/) | 20.3k | 33.3M/wk |
+| [Buildkite Dynamic Pipeline Agent](../../skills/buildkite-dynamic-pipeline-agent/) | 20.3k | 33.3M/wk |
+| [Buildkite Pipeline Optimizer](../../skills/buildkite-pipeline-optimizer-agent/) | 20.3k | 33.3M/wk |
+| [GitHub Actions CI/CD Pipeline Manager](../../skills/github-actions-cicd-pipeline-manager/) | 20.3k | 33.3M/wk |
+| [GitHub Actions Workflow Debugger](../../skills/github-actions-workflow-debugger/) | 20.3k | 33.3M/wk |
 | [Tekton Pipeline Chain Validator](../../skills/tekton-pipeline-chain-validator/) | 8.9k | — |
 | [Tekton Pipeline Composer](../../skills/tekton-pipeline-composer/) | 8.9k | — |
 | [Tekton Pipeline Debugger](../../skills/tekton-pipeline-debugger/) | 8.9k | — |
@@ -139,11 +139,11 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Tekton Pipeline Task Generator](../../skills/tekton-pipeline-task-generator/) | 8.9k | — |
 | [Tekton Pipeline Template Generator](../../skills/tekton-pipeline-template-generator/) | 8.9k | — |
 | [Tekton Pipeline Validator](../../skills/tekton-pipeline-validator/) | 8.9k | — |
-| [AWS CloudWatch Alarm Builder](../../skills/aws-cloudwatch-alarm-builder/) | 3.6k | 9.1M/wk |
-| [AWS CodePipeline Orchestrator](../../skills/aws-codepipeline-orchestrator/) | 3.6k | 9.1M/wk |
-| [GitHub Actions Matrix Orchestrator](../../skills/github-actions-matrix-orchestrator/) | 3.6k | 9.1M/wk |
-| [GitHub Actions OIDC Token Validator](../../skills/github-actions-oidc-token-validator/) | 3.6k | 9.1M/wk |
-| [GitHub Actions OIDC Token Verifier](../../skills/github-actions-oidc-token-verifier/) | 3.6k | 9.1M/wk |
+| [AWS CloudWatch Alarm Builder](../../skills/aws-cloudwatch-alarm-builder/) | 3.6k | 9.3M/wk |
+| [AWS CodePipeline Orchestrator](../../skills/aws-codepipeline-orchestrator/) | 3.6k | 9.3M/wk |
+| [GitHub Actions Matrix Orchestrator](../../skills/github-actions-matrix-orchestrator/) | 3.6k | 9.3M/wk |
+| [GitHub Actions OIDC Token Validator](../../skills/github-actions-oidc-token-validator/) | 3.6k | 9.3M/wk |
+| [GitHub Actions OIDC Token Verifier](../../skills/github-actions-oidc-token-verifier/) | 3.6k | 9.3M/wk |
 | [CircleCI Config Validator](../../skills/circleci-config-validator/) | 842 | — |
 | [CircleCI Flaky Test Detector](../../skills/circleci-flaky-test-detector-2/) | 842 | — |
 | [CircleCI Orb Auditor](../../skills/circleci-orb-auditor/) | 842 | — |

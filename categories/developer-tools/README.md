@@ -6,16 +6,16 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 
 | Skill | Stars |
 |---|---:|
+| [Astro Content-Driven Web Framework](../../skills/astro-content-driven-web-framework/) | ⭐ 244.2k |
 | [Changesets Version and Changelog Manager](../../skills/changesets-version-changelog-manager/) | ⭐ 244.2k |
 | [tRPC End-to-End Typesafe API Framework](../../skills/trpc-end-to-end-typesafe-api-framework/) | ⭐ 244.2k |
 | [smolagents Code-First AI Agent Library](../../skills/smolagents-code-first-ai-agent-library/) | ⭐ 158.5k |
 | [K9s Kubernetes Terminal Dashboard](../../skills/k9s-kubernetes-terminal-dashboard/) | ⭐ 121.4k |
 | [Kubernetes MCP Server](../../skills/kubernetes-mcp-server/) | ⭐ 121.4k |
 | [Kubernetes Pod Crash Diagnostics](../../skills/kubernetes-pod-crash-diagnostics-3/) | ⭐ 121.4k |
-| [Supabase MCP Server](../../skills/supabase-mcp-server/) | ⭐ 99.7k |
-| [FastMCP Python MCP Server and Client Framework](../../skills/fastmcp-python-mcp-server-client-framework/) | ⭐ 96.6k |
+| [Supabase MCP Server](../../skills/supabase-mcp-server/) | ⭐ 99.8k |
+| [FastMCP Python MCP Server and Client Framework](../../skills/fastmcp-python-mcp-server-client-framework/) | ⭐ 96.7k |
 | [Puppeteer DevTools Protocol Recorder](../../skills/puppeteer-devtools-protocol-recorder/) | ⭐ 93.9k |
-| [Playwright E2E Test Generator](../../skills/playwright-e2e-test-generator/) | ⭐ 85.1k |
 
 ---
 
@@ -23,16 +23,16 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 
 | Skill | Downloads |
 |---|---:|
-| [Changesets Version and Changelog Manager](../../skills/changesets-version-changelog-manager/) | ⬇ 108.4M/wk |
-| [tRPC End-to-End Typesafe API Framework](../../skills/trpc-end-to-end-typesafe-api-framework/) | ⬇ 108.4M/wk |
-| [Supabase MCP Server](../../skills/supabase-mcp-server/) | ⬇ 15.3M/wk |
-| [Puppeteer DevTools Protocol Recorder](../../skills/puppeteer-devtools-protocol-recorder/) | ⬇ 8.7M/wk |
-| [Playwright E2E Test Generator](../../skills/playwright-e2e-test-generator/) | ⬇ 40.4M/wk |
+| [Astro Content-Driven Web Framework](../../skills/astro-content-driven-web-framework/) | ⬇ 119.6M/wk |
+| [Changesets Version and Changelog Manager](../../skills/changesets-version-changelog-manager/) | ⬇ 119.6M/wk |
+| [tRPC End-to-End Typesafe API Framework](../../skills/trpc-end-to-end-typesafe-api-framework/) | ⬇ 119.6M/wk |
+| [Supabase MCP Server](../../skills/supabase-mcp-server/) | ⬇ 16.8M/wk |
+| [Puppeteer DevTools Protocol Recorder](../../skills/puppeteer-devtools-protocol-recorder/) | ⬇ 8.9M/wk |
+| [Playwright E2E Test Generator](../../skills/playwright-e2e-test-generator/) | ⬇ 41.2M/wk |
 | [Vite Plugin Hot Module Analyzer](../../skills/vite-plugin-hmr-analyzer/) | ⬇ 79.1M/wk |
-| [Redis MCP Server](../../skills/redis-mcp-server/) | ⬇ 8.4M/wk |
-| [esbuild Ultra-Fast JavaScript Bundler](../../skills/esbuild-ultra-fast-javascript-bundler/) | ⬇ 44.6M/wk |
-| [VS Code Extension Scaffolder](../../skills/vscode-extension-scaffolder-agent/) | ⬇ 44.6M/wk |
-| [Webpack Bundle Analyzer Agent](../../skills/webpack-bundle-analyzer-agent/) | ⬇ 44.6M/wk |
+| [Redis MCP Server](../../skills/redis-mcp-server/) | ⬇ 8.7M/wk |
+| [esbuild Ultra-Fast JavaScript Bundler](../../skills/esbuild-ultra-fast-javascript-bundler/) | ⬇ 45M/wk |
+| [VS Code Extension Scaffolder](../../skills/vscode-extension-scaffolder-agent/) | ⬇ 45M/wk |
 
 ---
 
@@ -40,18 +40,19 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
-| [Changesets Version and Changelog Manager](../../skills/changesets-version-changelog-manager/) | 244.2k | 108.4M/wk |
-| [tRPC End-to-End Typesafe API Framework](../../skills/trpc-end-to-end-typesafe-api-framework/) | 244.2k | 108.4M/wk |
+| [Astro Content-Driven Web Framework](../../skills/astro-content-driven-web-framework/) | 244.2k | 119.6M/wk |
+| [Changesets Version and Changelog Manager](../../skills/changesets-version-changelog-manager/) | 244.2k | 119.6M/wk |
+| [tRPC End-to-End Typesafe API Framework](../../skills/trpc-end-to-end-typesafe-api-framework/) | 244.2k | 119.6M/wk |
 | [smolagents Code-First AI Agent Library](../../skills/smolagents-code-first-ai-agent-library/) | 158.5k | — |
 | [K9s Kubernetes Terminal Dashboard](../../skills/k9s-kubernetes-terminal-dashboard/) | 121.4k | — |
 | [Kubernetes MCP Server](../../skills/kubernetes-mcp-server/) | 121.4k | — |
 | [Kubernetes Pod Crash Diagnostics](../../skills/kubernetes-pod-crash-diagnostics-3/) | 121.4k | — |
-| [Supabase MCP Server](../../skills/supabase-mcp-server/) | 99.7k | 15.3M/wk |
-| [FastMCP Python MCP Server and Client Framework](../../skills/fastmcp-python-mcp-server-client-framework/) | 96.6k | — |
-| [Puppeteer DevTools Protocol Recorder](../../skills/puppeteer-devtools-protocol-recorder/) | 93.9k | 8.7M/wk |
-| [Playwright E2E Test Generator](../../skills/playwright-e2e-test-generator/) | 85.1k | 40.4M/wk |
+| [Supabase MCP Server](../../skills/supabase-mcp-server/) | 99.8k | 16.8M/wk |
+| [FastMCP Python MCP Server and Client Framework](../../skills/fastmcp-python-mcp-server-client-framework/) | 96.7k | — |
+| [Puppeteer DevTools Protocol Recorder](../../skills/puppeteer-devtools-protocol-recorder/) | 93.9k | 8.9M/wk |
+| [Playwright E2E Test Generator](../../skills/playwright-e2e-test-generator/) | 85.2k | 41.2M/wk |
 | [Vite Plugin Hot Module Analyzer](../../skills/vite-plugin-hmr-analyzer/) | 79.4k | 79.1M/wk |
-| [Redis MCP Server](../../skills/redis-mcp-server/) | 73.6k | 8.4M/wk |
+| [Redis MCP Server](../../skills/redis-mcp-server/) | 73.6k | 8.7M/wk |
 | [k6 Load Testing and Performance Benchmarking Tool](../../skills/k6-load-testing-performance-benchmarking-tool/) | 72.8k | — |
 | [dbmate Lightweight Database Migration CLI](../../skills/dbmate-lightweight-database-migration-cli/) | 71.6k | — |
 | [Devcontainer Setup Agent](../../skills/devcontainer-setup-agent/) | 71.6k | — |
@@ -66,6 +67,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [GitHub MCP Server for AI-Powered Repository Management](../../skills/github-mcp-server-ai-repository-management/) | 71.6k | — |
 | [LazyDocker Terminal UI for Docker Management](../../skills/lazydocker-terminal-docker-management/) | 71.6k | — |
 | [Lefthook Git Hooks Manager](../../skills/lefthook-git-hooks-manager/) | 71.6k | — |
+| [mkcert Zero-Config Local Development TLS Certificate Generator](../../skills/mkcert-local-dev-tls-certificate-generator/) | 71.6k | — |
 | [navi Interactive CLI Cheatsheet Tool](../../skills/navi-interactive-cli-cheatsheet-tool/) | 71.6k | — |
 | [pnpm Fast Disk-Efficient Package Manager](../../skills/pnpm-fast-disk-efficient-package-manager/) | 71.6k | — |
 | [Postgres MCP Pro Server for Database Analysis and Tuning](../../skills/postgres-mcp-pro-database-analysis-tuning/) | 71.6k | — |
@@ -75,13 +77,13 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Task Taskfile Build Automation Runner](../../skills/task-taskfile-build-automation-runner/) | 71.6k | — |
 | [Topgrade Universal System Package Updater](../../skills/topgrade-universal-system-package-updater/) | 71.6k | — |
 | [uv Ultra-Fast Python Package and Project Manager](../../skills/uv-ultra-fast-python-package-project-manager/) | 71.6k | — |
-| [esbuild Ultra-Fast JavaScript Bundler](../../skills/esbuild-ultra-fast-javascript-bundler/) | 66k | 44.6M/wk |
-| [VS Code Extension Scaffolder](../../skills/vscode-extension-scaffolder-agent/) | 66k | 44.6M/wk |
-| [Webpack Bundle Analyzer Agent](../../skills/webpack-bundle-analyzer-agent/) | 66k | 44.6M/wk |
+| [esbuild Ultra-Fast JavaScript Bundler](../../skills/esbuild-ultra-fast-javascript-bundler/) | 66k | 45M/wk |
+| [VS Code Extension Scaffolder](../../skills/vscode-extension-scaffolder-agent/) | 66k | 45M/wk |
+| [Webpack Bundle Analyzer Agent](../../skills/webpack-bundle-analyzer-agent/) | 66k | 45M/wk |
 | [VHS Terminal Session Recorder and GIF Generator](../../skills/vhs-terminal-session-recorder-gif-generator/) | 58.4k | — |
-| [Slidev Markdown Presentation Slides for Developers](../../skills/slidev-markdown-presentation-slides-developers/) | 53.3k | 10.6M/wk |
-| [LlamaIndex Agent](../../skills/llamaindex-agent/) | 48.1k | 126.8k/wk |
-| [LlamaIndex MCP Server](../../skills/llamaindex-mcp-server/) | 48.1k | 126.8k/wk |
+| [Slidev Markdown Presentation Slides for Developers](../../skills/slidev-markdown-presentation-slides-developers/) | 53.3k | 11M/wk |
+| [LlamaIndex Agent](../../skills/llamaindex-agent/) | 48.1k | 131k/wk |
+| [LlamaIndex MCP Server](../../skills/llamaindex-mcp-server/) | 48.1k | 131k/wk |
 | [Mise Dev Tool Version Manager](../../skills/mise-dev-tool-version-manager/) | 48k | — |
 | [Terraform Cloud MCP Server](../../skills/terraform-cloud-mcp-server/) | 48k | — |
 | [Terraform MCP Server for Infrastructure as Code](../../skills/terraform-mcp-server-infrastructure-as-code/) | 48k | — |
@@ -90,63 +92,64 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Obsidian Vault Manager](../../skills/obsidian-vault-manager/) | 35.3k | — |
 | [Nginx Error Log Parser](../../skills/nginx-error-log-parser/) | 29.8k | — |
 | [API Client Generator Skill](../../skills/api-client-generator-skill/) | 28.7k | 3.4M/wk |
-| [Biome Lint Migration Toolkit](../../skills/biome-lint-migration-toolkit/) | 27.2k | 111.6M/wk |
-| [ESLint Code Review](../../skills/eslint-code-review/) | 27.2k | 111.6M/wk |
-| [ESLint Rule Generator Agent](../../skills/eslint-rule-generator-agent/) | 27.2k | 111.6M/wk |
-| [TypeScript AST Refactor](../../skills/typescript-ast-refactor-ts-morph/) | 27.2k | 111.6M/wk |
+| [Biome Lint Migration Toolkit](../../skills/biome-lint-migration-toolkit/) | 27.2k | 120.3M/wk |
+| [ESLint Code Review](../../skills/eslint-code-review/) | 27.2k | 120.3M/wk |
+| [ESLint Rule Generator Agent](../../skills/eslint-rule-generator-agent/) | 27.2k | 120.3M/wk |
+| [TypeScript AST Refactor](../../skills/typescript-ast-refactor-ts-morph/) | 27.2k | 120.3M/wk |
 | [Hurl Declarative HTTP Request Runner and Tester](../../skills/hurl-declarative-http-request-runner-tester/) | 25.1k | — |
 | [Jenkins MCP Server](../../skills/jenkins-mcp-server/) | 25.1k | — |
-| [Pulumi MCP Server](../../skills/pulumi-mcp-server/) | 24.9k | 1.5M/wk |
+| [Pulumi MCP Server](../../skills/pulumi-mcp-server/) | 24.9k | 1.6M/wk |
 | [CI Pipeline Generator Skill](../../skills/ci-pipeline-generator-skill/) | 24.3k | — |
 | [delta Syntax-Highlighting Git Diff Pager](../../skills/delta-syntax-highlighting-git-diff-pager/) | 24.3k | — |
 | [git-absorb Automatic Fixup Commit Generator](../../skills/git-absorb-automatic-fixup-commit-generator/) | 24.3k | — |
 | [Jujutsu Git-Compatible Version Control System](../../skills/jujutsu-jj-git-compatible-vcs/) | 24.3k | — |
 | [ArgoCD MCP Server](../../skills/argocd-mcp-server/) | 22.4k | — |
-| [Git Branch Analyzer](../../skills/git-branch-analyzer-libgit2/) | 20.3k | 32.3M/wk |
-| [Hoppscotch Open Source API Development Ecosystem](../../skills/hoppscotch-api-development-ecosystem/) | 20.3k | 32.3M/wk |
-| [Linear Issue Manager](../../skills/linear-issue-manager/) | 20.3k | 32.3M/wk |
-| [quicktype JSON Schema to Typed Code Generator](../../skills/quicktype-json-schema-code-generator/) | 20.3k | 32.3M/wk |
-| [LangChain MCP Server](../../skills/langchain-mcp-server/) | 17.3k | 2.3M/wk |
-| [Turborepo Monorepo Build System](../../skills/turborepo-monorepo-build-system/) | 15.1k | 2.1M/wk |
+| [Git Branch Analyzer](../../skills/git-branch-analyzer-libgit2/) | 20.3k | 33.3M/wk |
+| [Hoppscotch Open Source API Development Ecosystem](../../skills/hoppscotch-api-development-ecosystem/) | 20.3k | 33.3M/wk |
+| [Linear Issue Manager](../../skills/linear-issue-manager/) | 20.3k | 33.3M/wk |
+| [quicktype JSON Schema to Typed Code Generator](../../skills/quicktype-json-schema-code-generator/) | 20.3k | 33.3M/wk |
+| [LangChain MCP Server](../../skills/langchain-mcp-server/) | 17.4k | 2.4M/wk |
+| [Turborepo Monorepo Build System](../../skills/turborepo-monorepo-build-system/) | 15.2k | 2.1M/wk |
 | [OpenAPI Spec Validator](../../skills/openapi-spec-validator-agent/) | 14.9k | — |
 | [Regex Pattern Test Suite Generator](../../skills/regex-pattern-test-suite-generator/) | 13.7k | — |
-| [Aider AI Pair Programming CLI Agent](../../skills/aider-ai-pair-programming-cli-agent/) | 10.8k | 16.1M/wk |
-| [CrewAI Multi-Agent Orchestration Framework](../../skills/crewai-multi-agent-orchestration-framework/) | 10.8k | 16.1M/wk |
-| [Fabric AI Prompt Pattern Framework](../../skills/fabric-ai-prompt-pattern-framework/) | 10.8k | 16.1M/wk |
-| [Mastra TypeScript AI Agent Framework](../../skills/mastra-typescript-ai-agent-framework/) | 10.8k | 16.1M/wk |
-| [Meilisearch MCP Server for AI-Powered Search Integration](../../skills/meilisearch-mcp-server-ai-search/) | 10.8k | 16.1M/wk |
-| [OpenAI MCP Server](../../skills/openai-mcp-server/) | 10.8k | 16.1M/wk |
-| [OpenCode Multi-Model AI Coding Agent CLI](../../skills/opencode-multi-model-ai-coding-agent-cli/) | 10.8k | 16.1M/wk |
-| [PydanticAI Type-Safe AI Agent Framework](../../skills/pydanticai-type-safe-ai-agent-framework/) | 10.8k | 16.1M/wk |
+| [Aider AI Pair Programming CLI Agent](../../skills/aider-ai-pair-programming-cli-agent/) | 10.8k | 16.4M/wk |
+| [CrewAI Multi-Agent Orchestration Framework](../../skills/crewai-multi-agent-orchestration-framework/) | 10.8k | 16.4M/wk |
+| [Fabric AI Prompt Pattern Framework](../../skills/fabric-ai-prompt-pattern-framework/) | 10.8k | 16.4M/wk |
+| [Mastra TypeScript AI Agent Framework](../../skills/mastra-typescript-ai-agent-framework/) | 10.8k | 16.4M/wk |
+| [Meilisearch MCP Server for AI-Powered Search Integration](../../skills/meilisearch-mcp-server-ai-search/) | 10.8k | 16.4M/wk |
+| [Open Interpreter Natural Language Computer Interface](../../skills/open-interpreter-natural-language-computer-interface/) | 10.8k | 16.4M/wk |
+| [OpenAI MCP Server](../../skills/openai-mcp-server/) | 10.8k | 16.4M/wk |
+| [OpenCode Multi-Model AI Coding Agent CLI](../../skills/opencode-multi-model-ai-coding-agent-cli/) | 10.8k | 16.4M/wk |
+| [PydanticAI Type-Safe AI Agent Framework](../../skills/pydanticai-type-safe-ai-agent-framework/) | 10.8k | 16.4M/wk |
 | [SonarQube Code Analysis](../../skills/sonarqube-code-analysis/) | 10.4k | — |
-| [MongoDB MCP Server](../../skills/mongodb-mcp-server/) | 10.2k | 10.8M/wk |
-| [Atuin Shell History Database and Sync](../../skills/atuin-shell-history-database-sync/) | 7k | 4.9M/wk |
-| [libSQL Edge-Ready SQLite Fork by Turso](../../skills/libsql-edge-sqlite-fork-turso/) | 7k | 4.9M/wk |
-| [Litestream SQLite Streaming Replication](../../skills/litestream-sqlite-streaming-replication/) | 7k | 4.9M/wk |
-| [Nushell Structured Data Shell](../../skills/nushell-structured-data-shell/) | 7k | 4.9M/wk |
-| [SQLite Analyst](../../skills/sqlite-analyst/) | 7k | 4.9M/wk |
-| [sqlite-vec Vector Search Extension for SQLite](../../skills/sqlite-vec-vector-search-extension-sqlite/) | 7k | 4.9M/wk |
+| [MongoDB MCP Server](../../skills/mongodb-mcp-server/) | 10.2k | 11M/wk |
+| [Atuin Shell History Database and Sync](../../skills/atuin-shell-history-database-sync/) | 7.1k | 5M/wk |
+| [libSQL Edge-Ready SQLite Fork by Turso](../../skills/libsql-edge-sqlite-fork-turso/) | 7.1k | 5M/wk |
+| [Litestream SQLite Streaming Replication](../../skills/litestream-sqlite-streaming-replication/) | 7.1k | 5M/wk |
+| [Nushell Structured Data Shell](../../skills/nushell-structured-data-shell/) | 7.1k | 5M/wk |
+| [PocketBase Open Source Realtime Backend in a Single Binary](../../skills/pocketbase-open-source-realtime-backend-single-binary/) | 7.1k | 5M/wk |
+| [SQLite Analyst](../../skills/sqlite-analyst/) | 7.1k | 5M/wk |
+| [sqlite-vec Vector Search Extension for SQLite](../../skills/sqlite-vec-vector-search-extension-sqlite/) | 7.1k | 5M/wk |
 | [Bruno Git-Native API Client for Testing and Exploration](../../skills/bruno-git-native-api-client-testing-exploration/) | 6k | — |
 | [Posting Terminal API Client](../../skills/posting-terminal-api-client/) | 6k | — |
-| [Notion Workspace Agent](../../skills/notion-workspace-agent/) | 5.6k | 1.1M/wk |
-| [grpcurl Command-Line gRPC Client](../../skills/grpcurl-command-line-grpc-client/) | 4.8k | 31M/wk |
-| [Webhook Debugger](../../skills/webhook-debugger/) | 4.4k | 8.5M/wk |
-| [MySQL Query Agent](../../skills/mysql-query-agent/) | 4.3k | 8.8M/wk |
+| [Notion Workspace Agent](../../skills/notion-workspace-agent/) | 5.6k | 1.4M/wk |
+| [grpcurl Command-Line gRPC Client](../../skills/grpcurl-command-line-grpc-client/) | 4.8k | 31.8M/wk |
+| [Webhook Debugger](../../skills/webhook-debugger/) | 4.4k | 8.7M/wk |
+| [MySQL Query Agent](../../skills/mysql-query-agent/) | 4.3k | 8.9M/wk |
+| [AWS Lambda MCP Server](../../skills/aws-lambda-mcp-server/) | 3.6k | 9.3M/wk |
+| [AWS S3 MCP Server](../../skills/aws-s3-mcp-server/) | 3.6k | 9.3M/wk |
+| [Cloud Cost Analysis](../../skills/cloud-cost-analysis/) | 3.6k | 9.3M/wk |
+| [Trigger.dev TypeScript Background Jobs Platform](../../skills/trigger-dev-typescript-background-jobs-platform/) | 3.6k | 9.3M/wk |
 | [DynamoDB Manager](../../skills/dynamodb-manager/) | 3.6k | 9.2M/wk |
-| [AWS Lambda MCP Server](../../skills/aws-lambda-mcp-server/) | 3.6k | 9.1M/wk |
-| [AWS S3 MCP Server](../../skills/aws-s3-mcp-server/) | 3.6k | 9.1M/wk |
-| [Cloud Cost Analysis](../../skills/cloud-cost-analysis/) | 3.6k | 9.1M/wk |
-| [Trigger.dev TypeScript Background Jobs Platform](../../skills/trigger-dev-typescript-background-jobs-platform/) | 3.6k | 9.1M/wk |
 | [Drizzle ORM TypeScript SQL Database Toolkit](../../skills/drizzle-orm-typescript-sql-database-toolkit/) | 1.9k | 1.1M/wk |
-| [Volta JavaScript Toolchain Version Manager](../../skills/volta-javascript-toolchain-manager/) | 1.8k | 381k/wk |
+| [Volta JavaScript Toolchain Version Manager](../../skills/volta-javascript-toolchain-manager/) | 1.8k | 375.6k/wk |
 | [CircleCI MCP Server](../../skills/circleci-mcp-server/) | 842 | — |
-| [Agno Multi-Modal Agent Runtime Platform](../../skills/agno-multi-modal-agent-runtime-platform/) | — | 21.5M/wk |
-| [pgcli Interactive PostgreSQL Client with Autocompletion](../../skills/pgcli-interactive-postgresql-client/) | — | 21.5M/wk |
-| [pgroll PostgreSQL Zero-Downtime Schema Migration](../../skills/pgroll-postgresql-zero-downtime-schema-migration/) | — | 21.5M/wk |
-| [PostgreSQL Query Optimizer Agent](../../skills/postgresql-query-optimizer-explain-api/) | — | 21.5M/wk |
-| [PostgreSQL Query Plan Analyzer](../../skills/postgresql-query-plan-analyzer-2/) | — | 21.5M/wk |
-| [sqlc Type-Safe SQL Code Generator](../../skills/sqlc-type-safe-sql-code-generator/) | — | 21.5M/wk |
-| [Astro Content-Driven Web Framework](../../skills/astro-content-driven-web-framework/) | — | — |
+| [Agno Multi-Modal Agent Runtime Platform](../../skills/agno-multi-modal-agent-runtime-platform/) | — | 22M/wk |
+| [pgcli Interactive PostgreSQL Client with Autocompletion](../../skills/pgcli-interactive-postgresql-client/) | — | 22M/wk |
+| [pgroll PostgreSQL Zero-Downtime Schema Migration](../../skills/pgroll-postgresql-zero-downtime-schema-migration/) | — | 22M/wk |
+| [PostgreSQL Query Optimizer Agent](../../skills/postgresql-query-optimizer-explain-api/) | — | 22M/wk |
+| [PostgreSQL Query Plan Analyzer](../../skills/postgresql-query-plan-analyzer-2/) | — | 22M/wk |
+| [sqlc Type-Safe SQL Code Generator](../../skills/sqlc-type-safe-sql-code-generator/) | — | 22M/wk |
 | [bat Syntax-Highlighting Cat Replacement](../../skills/bat-syntax-highlighting-cat-replacement/) | — | — |
 | [Bazel Build Graph Analyzer](../../skills/bazel-build-graph-analyzer/) | — | — |
 | [Bun Shell Script Executor](../../skills/bun-shell-script-executor/) | — | — |
@@ -178,14 +181,11 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [LLDB Debug Session Automator](../../skills/lldb-debug-session-automator/) | — | — |
 | [lsd Next-Generation ls Directory Listing Tool](../../skills/lsd-next-gen-ls-directory-listing/) | — | — |
 | [Makefile Dependency Auditor](../../skills/makefile-dependency-auditor/) | — | — |
-| [mkcert Zero-Config Local Development TLS Certificate Generator](../../skills/mkcert-local-dev-tls-certificate-generator/) | — | — |
 | [n8n GitHub Issue-to-Jira Ticket Automator](../../skills/n8n-github-jira-ticket-automator/) | — | — |
 | [Nix Flake Configuration Builder](../../skills/nix-flake-configuration-builder/) | — | — |
 | [NPM Package Auditor](../../skills/npm-package-auditor-registry-api/) | — | — |
-| [Open Interpreter Natural Language Computer Interface](../../skills/open-interpreter-natural-language-computer-interface/) | — | — |
 | [Package Vulnerability Scanner](../../skills/package-vuln-scanner-osv-api/) | — | — |
 | [Pixi Cross-Platform Package Manager Built on Conda](../../skills/pixi-cross-platform-package-manager-conda-rust/) | — | — |
-| [PocketBase Open Source Realtime Backend in a Single Binary](../../skills/pocketbase-open-source-realtime-backend-single-binary/) | — | — |
 | [Repomix Codebase Context Packer for LLMs](../../skills/repomix-codebase-context-packer-llm/) | — | — |
 | [Restic Fast Encrypted Backup Program](../../skills/restic-encrypted-backup-tool/) | — | — |
 | [ripgrep Recursive Regex Search Tool](../../skills/ripgrep-recursive-regex-search-tool/) | — | — |
