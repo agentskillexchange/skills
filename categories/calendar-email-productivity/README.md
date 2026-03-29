@@ -91,18 +91,21 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Himalaya CLI Email Client for IMAP SMTP and Notmuch](../../skills/himalaya-cli-email-client-imap-smtp-notmuch/) | — | — |
 | [IMAP Email Classifier](../../skills/imap-email-classifier-ml/) | — | — |
 | [IMAP Inbox Triage Agent](../../skills/imap-inbox-triage-agent/) | — | — |
+| [jrnl Command-Line Journal and Note Capture Tool](../../skills/jrnl-command-line-journal-note-capture/) | — | — |
 | [khal Standards-Based CLI Calendar Application](../../skills/khal-cli-calendar-application-caldav/) | — | — |
 | [Microsoft Graph Calendar Conflict Resolver](../../skills/microsoft-graph-calendar-conflict-resolver/) | — | — |
 | [Microsoft Graph Email Digest Builder](../../skills/microsoft-graph-email-digest-builder/) | — | — |
 | [Microsoft Graph Email Triage Agent](../../skills/microsoft-graph-email-triage-agent/) | — | — |
 | [Microsoft Outlook Calendar Sync Agent](../../skills/ms-outlook-calendar-sync-agent/) | — | — |
 | [Microsoft Outlook Mail Sorter](../../skills/ms-outlook-mail-sorter/) | — | — |
+| [nb CLI Note-Taking Bookmarking and Knowledge Base Application](../../skills/nb-cli-note-taking-bookmarking-knowledge-base/) | — | — |
 | [NeoMutt Feature-Rich Terminal Email Client](../../skills/neomutt-terminal-email-client/) | — | — |
 | [Outlook Mail Triage Assistant](../../skills/outlook-mail-triage-assistant/) | — | — |
 | [Outlook Mail Triage Skill](../../skills/outlook-mail-triage-microsoft-graph/) | — | — |
 | [Outlook Rule Automation Manager](../../skills/outlook-rule-automation-manager/) | — | — |
 | [Radicale Self-Hosted CalDAV and CardDAV Server](../../skills/radicale-self-hosted-caldav-carddav-server/) | — | — |
 | [Taskwarrior Command-Line Task Management System](../../skills/taskwarrior-command-line-task-management-system/) | — | — |
+| [Timewarrior Command-Line Time Tracking and Reporting](../../skills/timewarrior-command-line-time-tracking-reporting/) | — | — |
 | [Todoist GTD Workflow Engine](../../skills/todoist-gtd-workflow-engine/) | — | — |
 | [Todoist Project Automator](../../skills/todoist-project-automator-api-v2/) | — | — |
 | [Todoist Sync API Task Orchestrator](../../skills/todoist-sync-api-task-orchestrator/) | — | — |

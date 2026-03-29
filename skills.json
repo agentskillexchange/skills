@@ -1,8 +1,68 @@
 {
   "version": "2.0",
-  "total": 1447,
+  "total": 1452,
   "generated": "2026-03-29",
   "skills": [
+    {
+      "slug": "pastel-command-line-color-tool",
+      "name": "pastel Command-Line Color Generation Analysis and Manipulation Tool",
+      "description": "pastel is a command-line tool for generating, analyzing, converting, and manipulating colors. Built in Rust by the creator of bat, fd, and hyperfine, it…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "timewarrior-command-line-time-tracking-reporting",
+      "name": "Timewarrior Command-Line Time Tracking and Reporting",
+      "description": "Timewarrior is a command-line time tracking tool from the Taskwarrior project. It records time intervals with tags, generates flexible reports, and integrates with Taskwarrior…",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "sonic-fast-lightweight-search-backend",
+      "name": "Sonic Fast Lightweight Schema-Less Search Backend",
+      "description": "Sonic is a fast, lightweight, and schema-less search backend written in Rust. It serves as a drop-in alternative to Elasticsearch that runs on just…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "nb-cli-note-taking-bookmarking-knowledge-base",
+      "name": "nb CLI Note-Taking Bookmarking and Knowledge Base Application",
+      "description": "nb is a command-line and local web note-taking, bookmarking, archiving, and knowledge base application. It stores everything as plain text with Git-backed versioning and…",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "jrnl-command-line-journal-note-capture",
+      "name": "jrnl Command-Line Journal and Note Capture Tool",
+      "description": "jrnl is a command-line journal application that lets you capture thoughts and notes without leaving the terminal. It stores entries as human-readable plain text…",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "opentofu-open-source-infrastructure-as-code",
       "name": "OpenTofu Open Source Infrastructure as Code Tool",

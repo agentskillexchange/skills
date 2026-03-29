@@ -189,11 +189,13 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [NPM Package Auditor](../../skills/npm-package-auditor-registry-api/) | — | — |
 | [OpenTofu Open Source Infrastructure as Code Tool](../../skills/opentofu-open-source-infrastructure-as-code/) | — | — |
 | [Package Vulnerability Scanner](../../skills/package-vuln-scanner-osv-api/) | — | — |
+| [pastel Command-Line Color Generation Analysis and Manipulation Tool](../../skills/pastel-command-line-color-tool/) | — | — |
 | [Pixi Cross-Platform Package Manager Built on Conda](../../skills/pixi-cross-platform-package-manager-conda-rust/) | — | — |
 | [Repomix Codebase Context Packer for LLMs](../../skills/repomix-codebase-context-packer-llm/) | — | — |
 | [Restic Fast Encrypted Backup Program](../../skills/restic-encrypted-backup-tool/) | — | — |
 | [ripgrep Recursive Regex Search Tool](../../skills/ripgrep-recursive-regex-search-tool/) | — | — |
 | [Soft Serve Self-Hosted Git Server with SSH TUI](../../skills/soft-serve-self-hosted-git-server-ssh-tui/) | — | — |
+| [Sonic Fast Lightweight Schema-Less Search Backend](../../skills/sonic-fast-lightweight-search-backend/) | — | — |
 | [VS Code Extension Debugger](../../skills/vscode-extension-debugger-dap-protocol/) | — | — |
 | [WASM Component Model Linker](../../skills/wasm-component-model-linker/) | — | — |
 | [watchexec File Watcher and Command Re-Runner](../../skills/watchexec-file-watcher-command-rerunner/) | — | — |

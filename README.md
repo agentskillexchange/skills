@@ -4,14 +4,14 @@
 
 ### The open catalog of AI agent skills
 
-[![Published](https://img.shields.io/badge/published-1%2C447-6366f1?style=for-the-badge)](skills/)
+[![Published](https://img.shields.io/badge/published-1%2C452-6366f1?style=for-the-badge)](skills/)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/)
 [![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-1%2C430-10b981?style=for-the-badge)](verification/)
 [![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)
 
 **[Categories](categories/) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md) · [Submit a Skill](#submit-a-skill)**
 
-*1,447 published skills · 17 categories · Real ecosystem signals · Updated hourly*
+*1,452 published skills · 17 categories · Real ecosystem signals · Updated hourly*
 
 </div>
 
@@ -52,14 +52,14 @@ A hand-picked selection across categories. See [TOP-STARS.md](TOP-STARS.md) and 
 | [Trafilatura Web Text Extraction and Crawling Toolkit](skills/trafilatura-web-text-extraction-crawling/) | huggingface | 158.5k | Research & Scraping |
 | [K9s Kubernetes Terminal Dashboard](skills/k9s-kubernetes-terminal-dashboard/) | kubernetes | 121.4k | Developer Tools |
 | [commitlint Conventional Commit Message Linter](skills/commitlint-conventional-commit-message-linter/) | angular | 100.1k | Code Quality & Review |
-| [Supabase MCP Server for Database and Project Management](skills/supabase-mcp-server-database-project-management/) | supabase | 99.8k | Integrations & Connectors |
 | [Coqui TTS Deep Learning Text-to-Speech Toolkit](skills/coqui-tts-deep-learning-text-to-speech-toolkit/) | pytorch | 98.6k | Media & Transcription |
-| [WhisperX Speech Recognition with Word-Level Timestamps and Diarization](skills/whisperx-speech-recognition-timestamps-diarization/) | whisper | 96.8k | Media & Transcription |
-| [OpenAPI Spec Compliance Checker](skills/openapi-spec-compliance-checker/) | fastapi | 96.7k | Library & API Reference |
-| [Browser Session Replay Analyzer](skills/browser-session-replay-analyzer/) | puppeteer | 93.9k | Browser Automation |
-| [Figma Design Token Extractor](skills/figma-design-token-extractor-3/) | storybook | 89.6k | Image & Creative Automation |
-| [Lightpanda Headless Browser for AI Automation](skills/lightpanda-headless-browser-ai-automation/) | playwright | 85.2k | Browser Automation |
-| [Elastic APM Transaction Anomaly Spotter](skills/elastic-apm-transaction-anomaly-spotter/) | elasticsearch | 76.4k | Monitoring & Alerts |
+| [OpenAI Whisper API Transcription](skills/openai-whisper-api-transcription/) | whisper | 96.8k | Media & Transcription |
+| [Puppeteer Cookie Consent Automator](skills/puppeteer-cookie-consent-automator/) | puppeteer | 93.9k | Browser Automation |
+| [Storybook Component Tester](skills/storybook-component-tester/) | storybook | 89.6k | Code Quality & Review |
+| [Playwright Accessibility Audit Runner](skills/playwright-accessibility-audit-runner/) | playwright | 85.2k | Browser Automation |
+| [ElasticSearch Cluster Vitals Agent](skills/elasticsearch-cluster-vitals-agent/) | elasticsearch | 76.4k | Monitoring & Alerts |
+| [Grafana Alert Router](skills/grafana-alert-router/) | grafana | 72.8k | Monitoring & Alerts |
+| [Strapi Open Source Headless CMS with REST and GraphQL APIs](skills/strapi-headless-cms-rest-graphql/) | strapi | 71.7k | WordPress & CMS |
 
 ---
 
@@ -67,7 +67,7 @@ A hand-picked selection across categories. See [TOP-STARS.md](TOP-STARS.md) and 
 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
-| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 161 | CLI tools, scaffolders, dev environment setup |
+| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 163 | CLI tools, scaffolders, dev environment setup |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 140 | Pipeline configs, deployment automation, build tooling |
 | 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 113 | Incident response, troubleshooting, system diagnostics |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 108 | ETL pipelines, parsing, format conversion |
@@ -75,7 +75,7 @@ A hand-picked selection across categories. See [TOP-STARS.md](TOP-STARS.md) and 
 | 📚 | [**Library & API Reference**](categories/library-api-reference/) | 94 | SDK docs, API parsers, symbol resolvers |
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 89 | Linting, code review, test generators, coverage |
 | 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 85 | Metrics, alerting rules, observability |
-| 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 66 | Email automation, calendar management, task coordination |
+| 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 69 | Email automation, calendar management, task coordination |
 | 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 66 | Scaffolders, boilerplate generators, workflow templates |
 | 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 65 | Image generation, asset processing, design automation |
 | 🔍 | [**Research & Scraping**](categories/research-scraping/) | 63 | Web research, content discovery, data collection |
@@ -142,7 +142,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 1,447 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 1,452 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 1,430 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

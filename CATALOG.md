@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1447 published skills** across **17 categories** · 1430 security reviewed · Updated 2026-03-29 13:15 UTC
+> **1452 published skills** across **17 categories** · 1430 security reviewed · Updated 2026-03-29 13:50 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (161 skills)
+### 🛠️ Developer Tools (163 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -163,11 +163,13 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [NPM Package Auditor](skills/npm-package-auditor-registry-api/) | Audits NPM packages using the NPM Registry API with dependency tree resolution and vulnerability scanning via… | Security Reviewed | — | — |
 | [OpenTofu Open Source Infrastructure as Code Tool](skills/opentofu-open-source-infrastructure-as-code/) | OpenTofu is an open-source infrastructure as code tool that lets you declaratively manage cloud and on-premises… | Published | — | — |
 | [Package Vulnerability Scanner](skills/package-vuln-scanner-osv-api/) | Scans npm, PyPI, and Go module dependencies for known vulnerabilities using the OSV.dev API and GitHub Advisory… | Security Reviewed | — | — |
+| [pastel Command-Line Color Generation Analysis and Manipulation Tool](skills/pastel-command-line-color-tool/) | pastel is a command-line tool for generating, analyzing, converting, and manipulating colors. Built in Rust by the… | Published | — | — |
 | [Pixi Cross-Platform Package Manager Built on Conda](skills/pixi-cross-platform-package-manager-conda-rust/) | A blazing-fast, cross-platform package manager and workflow tool written in Rust. Pixi builds on the Conda ecosystem… | Security Reviewed | — | — |
 | [Repomix Codebase Context Packer for LLMs](skills/repomix-codebase-context-packer-llm/) | Repomix packs an entire code repository into a single AI-friendly file optimized for LLM consumption. It provides… | Security Reviewed | — | — |
 | [Restic Fast Encrypted Backup Program](skills/restic-encrypted-backup-tool/) | Restic is a fast, secure, and efficient backup program supporting local, SFTP, S3, Azure, GCS, and many other… | Security Reviewed | — | — |
 | [ripgrep Recursive Regex Search Tool](skills/ripgrep-recursive-regex-search-tool/) | ripgrep (rg) is a line-oriented search tool that recursively searches directories for regex patterns while… | Security Reviewed | — | — |
 | [Soft Serve Self-Hosted Git Server with SSH TUI](skills/soft-serve-self-hosted-git-server-ssh-tui/) | Soft Serve is a self-hostable Git server by Charmbracelet that provides a beautiful terminal UI accessible over SSH.… | Published | — | — |
+| [Sonic Fast Lightweight Schema-Less Search Backend](skills/sonic-fast-lightweight-search-backend/) | Sonic is a fast, lightweight, and schema-less search backend written in Rust. It serves as a drop-in alternative to… | Published | — | — |
 | [VS Code Extension Debugger](skills/vscode-extension-debugger-dap-protocol/) | Debugs VS Code extensions using the Debug Adapter Protocol (DAP) with breakpoint management and variable inspection.… | Security Reviewed | — | — |
 | [WASM Component Model Linker](skills/wasm-component-model-linker/) | Compiles and links WebAssembly components using the WASI Preview 2 Component Model, wasm-tools CLI for component… | Security Reviewed | — | — |
 | [watchexec File Watcher and Command Re-Runner](skills/watchexec-file-watcher-command-rerunner/) | watchexec is a standalone file-watching tool written in Rust that automatically executes commands when it detects… | Security Reviewed | — | — |
@@ -963,7 +965,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [PostHog Product Analytics and Feature Flags SDK](skills/posthog-product-analytics-and-feature-flags-sdk/) | Use PostHog to capture product analytics events, identify users, evaluate feature flags, and route experimentation… | Security Reviewed | — | — |
 
 
-### 📅 Calendar, Email & Productivity (66 skills)
+### 📅 Calendar, Email & Productivity (69 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=downloads)
 
@@ -1020,18 +1022,21 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Himalaya CLI Email Client for IMAP SMTP and Notmuch](skills/himalaya-cli-email-client-imap-smtp-notmuch/) | Himalaya is a CLI email client written in Rust that supports IMAP, Maildir, and Notmuch backends for reading mail,… | Security Reviewed | — | — |
 | [IMAP Email Classifier](skills/imap-email-classifier-ml/) | Classifies and organizes emails from IMAP servers using imaplib and scikit-learn text classification. Supports… | Security Reviewed | — | — |
 | [IMAP Inbox Triage Agent](skills/imap-inbox-triage-agent/) | Connects to IMAP email servers to classify, prioritize, and auto-label incoming messages using rule-based and… | Security Reviewed | — | — |
+| [jrnl Command-Line Journal and Note Capture Tool](skills/jrnl-command-line-journal-note-capture/) | jrnl is a command-line journal application that lets you capture thoughts and notes without leaving the terminal. It… | Published | — | — |
 | [khal Standards-Based CLI Calendar Application](skills/khal-cli-calendar-application-caldav/) | khal is a standards-based CLI and terminal calendar program written in Python. It reads and writes iCalendar data to… | Security Reviewed | — | — |
 | [Microsoft Graph Calendar Conflict Resolver](skills/microsoft-graph-calendar-conflict-resolver/) | Resolves scheduling collisions with Microsoft Graph Calendar endpoints like `/me/events`, `/calendarView`, and… | Security Reviewed | — | — |
 | [Microsoft Graph Email Digest Builder](skills/microsoft-graph-email-digest-builder/) | Generates daily email digests from Microsoft 365 mailboxes using the Microsoft Graph API /me/messages endpoint.… | Security Reviewed | — | — |
 | [Microsoft Graph Email Triage Agent](skills/microsoft-graph-email-triage-agent/) | Automates email triage using Microsoft Graph API v1.0 with delegated permissions. Classifies emails by urgency using… | Security Reviewed | — | — |
 | [Microsoft Outlook Calendar Sync Agent](skills/ms-outlook-calendar-sync-agent/) | Synchronizes calendar events bidirectionally using the Microsoft Graph API /me/calendar/events endpoint. Handles… | Security Reviewed | — | — |
 | [Microsoft Outlook Mail Sorter](skills/ms-outlook-mail-sorter/) | Automatically triages Microsoft Outlook emails using the Microsoft Graph API /me/messages endpoint. Applies… | Security Reviewed | — | — |
+| [nb CLI Note-Taking Bookmarking and Knowledge Base Application](skills/nb-cli-note-taking-bookmarking-knowledge-base/) | nb is a command-line and local web note-taking, bookmarking, archiving, and knowledge base application. It stores… | Published | — | — |
 | [NeoMutt Feature-Rich Terminal Email Client](skills/neomutt-terminal-email-client/) | NeoMutt is an actively maintained fork of the classic Mutt email client that brings modern features to… | Security Reviewed | — | — |
 | [Outlook Mail Triage Assistant](skills/outlook-mail-triage-assistant/) | Automated email triage using Microsoft Graph API and @azure/msal-node for OAuth. Classifies messages with zero-shot… | Security Reviewed | — | — |
 | [Outlook Mail Triage Skill](skills/outlook-mail-triage-microsoft-graph/) | Triages Outlook inboxes using Microsoft Graph API v1.0 with delta query support for incremental mail sync. Applies… | Security Reviewed | — | — |
 | [Outlook Rule Automation Manager](skills/outlook-rule-automation-manager/) | Creates and manages Outlook email rules programmatically using the Microsoft Graph API… | Security Reviewed | — | — |
 | [Radicale Self-Hosted CalDAV and CardDAV Server](skills/radicale-self-hosted-caldav-carddav-server/) | Radicale is a lightweight, self-hosted CalDAV and CardDAV server written in Python. It shares calendars, to-do… | Security Reviewed | — | — |
 | [Taskwarrior Command-Line Task Management System](skills/taskwarrior-command-line-task-management-system/) | Taskwarrior is a command-line task list management utility with rich features including priorities, tags, projects,… | Security Reviewed | — | — |
+| [Timewarrior Command-Line Time Tracking and Reporting](skills/timewarrior-command-line-time-tracking-reporting/) | Timewarrior is a command-line time tracking tool from the Taskwarrior project. It records time intervals with tags,… | Published | — | — |
 | [Todoist GTD Workflow Engine](skills/todoist-gtd-workflow-engine/) | Implements Getting Things Done methodology on Todoist using the Sync API v9. Automates weekly reviews, context… | Security Reviewed | — | — |
 | [Todoist Project Automator](skills/todoist-project-automator-api-v2/) | Automates Todoist project management using the Todoist REST API v2 and Sync API. Creates task templates, manages… | Security Reviewed | — | — |
 | [Todoist Sync API Task Orchestrator](skills/todoist-sync-api-task-orchestrator/) | Orchestrates complex task workflows using the Todoist Sync API v9 with incremental sync via sync_token. Uses… | Security Reviewed | — | — |

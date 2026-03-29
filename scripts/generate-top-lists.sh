@@ -43,20 +43,38 @@ while True:
 for item in items:
     item["categories"] = [html.unescape(x) for x in item.get("categories", [])]
 
+# --- Shared: pick best representative per tool ---
+def best_per_tool(items_list, signal_key, limit):
+    """Deduplicate by tool_match, picking the best representative per tool.
+    Tiebreaker: prefer skill whose title/slug contains the tool name, then alphabetical title.
+    This matches the homepage PHP logic for consistency."""
+    valid = [i for i in items_list if int(i.get(signal_key) or 0) > 0]
+    # Group by tool
+    from collections import defaultdict
+    tool_groups = defaultdict(list)
+    for item in valid:
+        tool = (item.get("tool_match") or "").lower()
+        if not tool:
+            continue
+        tool_groups[tool].append(item)
+    # Pick best per tool
+    tool_best = []
+    for tool, group in tool_groups.items():
+        def sort_key(item):
+            title = item.get("title", "").lower()
+            slug = item.get("slug", "").lower()
+            title_match = 1 if tool in title else 0
+            slug_match = 1 if tool in slug else 0
+            return (-title_match, -slug_match, item.get("title", ""))
+        group.sort(key=sort_key)
+        best = group[0]
+        tool_best.append(best)
+    # Sort by signal descending
+    tool_best.sort(key=lambda i: -int(i.get(signal_key) or 0))
+    return tool_best[:limit]
+
 # --- TOP-STARS.md ---
-# Deduplicate by tool name, keep highest-starred representative
-starred = [i for i in items if int(i.get("github_stars") or 0) > 0]
-starred.sort(key=lambda i: -int(i.get("github_stars") or 0))
-seen_tools = set()
-top_stars = []
-for item in starred:
-    tool = (item.get("tool_match") or "").lower()
-    if not tool or tool in seen_tools:
-        continue
-    seen_tools.add(tool)
-    top_stars.append(item)
-    if len(top_stars) >= 50:
-        break
+top_stars = best_per_tool(items, "github_stars", 50)
 
 lines = [
     "# ⭐ Top Starred Skills",
@@ -79,18 +97,7 @@ lines += ["", "---", "", "[← Back to README](README.md)", ""]
 (REPO_DIR / "TOP-STARS.md").write_text("\n".join(lines), encoding="utf-8")
 
 # --- TOP-DOWNLOADS.md ---
-downloaded = [i for i in items if int(i.get("npm_downloads") or 0) > 0]
-downloaded.sort(key=lambda i: -int(i.get("npm_downloads") or 0))
-seen_tools = set()
-top_downloads = []
-for item in downloaded:
-    tool = (item.get("tool_match") or "").lower()
-    if not tool or tool in seen_tools:
-        continue
-    seen_tools.add(tool)
-    top_downloads.append(item)
-    if len(top_downloads) >= 50:
-        break
+top_downloads = best_per_tool(items, "npm_downloads", 50)
 
 lines = [
     "# 🔥 Top Downloaded Skills",

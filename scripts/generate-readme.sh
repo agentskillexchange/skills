@@ -90,20 +90,39 @@ for item in items:
 total = len(items)
 sec_reviewed = sum(1 for i in items if i.get("verification") == "security_reviewed")
 
-# Pick featured skills: highest-starred unique tools across diverse categories
-seen_tools = set()
+# Pick featured skills: highest-starred, one per tool, max 2 per category
+# Use title-relevance tiebreaker (matches homepage PHP and top-lists generator)
+from collections import defaultdict
+tool_groups = defaultdict(list)
+for item in items:
+    if int(item.get("github_stars") or 0) <= 0:
+        continue
+    tool = (item.get("tool_match") or "").lower()
+    if not tool:
+        continue
+    tool_groups[tool].append(item)
+
+# Pick best representative per tool (title contains tool name > slug contains > alphabetical)
+tool_best = []
+for tool, group in tool_groups.items():
+    def sort_key(item, t=tool):
+        title = item.get("title", "").lower()
+        slug = item.get("slug", "").lower()
+        title_match = 1 if t in title else 0
+        slug_match = 1 if t in slug else 0
+        return (-title_match, -slug_match, item.get("title", ""))
+    group.sort(key=sort_key)
+    tool_best.append(group[0])
+
+# Sort by stars descending, then apply category diversity (max 2 per cat)
+tool_best.sort(key=lambda i: -int(i.get("github_stars") or 0))
 featured = []
-for item in sorted(items, key=lambda i: -int(i.get("github_stars") or 0)):
-    tool = (item.get("tool_match") or item.get("slug", "")).lower()
+for item in tool_best:
     cats_list = item.get("categories", [])
     cat = cats_list[0] if cats_list else "Uncategorized"
-    if tool in seen_tools:
-        continue
-    # Skip if we already have 2 from this category
     if sum(1 for f in featured if f["cat"] == cat) >= 2:
         continue
-    seen_tools.add(tool)
-    featured.append({"title": item["title"], "slug": item["slug"], "tool": item.get("tool_match") or tool, "stars": int(item.get("github_stars") or 0), "cat": cat})
+    featured.append({"title": item["title"], "slug": item["slug"], "tool": item.get("tool_match") or (item.get("tool_match") or item.get("slug", "")).lower(), "stars": int(item.get("github_stars") or 0), "cat": cat})
     if len(featured) >= 12:
         break
 
