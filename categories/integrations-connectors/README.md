@@ -99,6 +99,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Nango Open Source API Integration Platform](../../skills/nango-open-source-api-integration-platform/) | — | — |
 | [Plaid Financial Data Connector](../../skills/plaid-financial-data-connector/) | — | — |
 | [Qdrant MCP Server for Vector Search and Semantic Memory](../../skills/qdrant-mcp-server-vector-search-semantic-memory/) | — | — |
+| [Rclone Cloud Storage Sync and Management CLI](../../skills/rclone-cloud-storage-sync-management-cli/) | — | — |
 | [Zapier Webhook Integration Builder](../../skills/zapier-webhook-integration-builder/) | — | — |
 
 ---

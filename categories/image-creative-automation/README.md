@@ -84,6 +84,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Cloudinary DAM Pipeline](../../skills/cloudinary-dam-pipeline-skill/) | — | — |
 | [Cloudinary Media Optimization Agent](../../skills/cloudinary-media-optimization-agent/) | — | — |
 | [Cloudinary Media Transform Skill](../../skills/cloudinary-media-transform-skill/) | — | — |
+| [Excalidraw Virtual Whiteboard and Diagram SDK](../../skills/excalidraw-virtual-whiteboard-diagram-sdk/) | — | — |
 | [Figma Design Token Exporter](../../skills/figma-design-token-exporter/) | — | — |
 | [Figma Export Automator](../../skills/figma-export-automator/) | — | — |
 | [Figma REST API Asset Exporter](../../skills/figma-rest-api-asset-exporter/) | — | — |

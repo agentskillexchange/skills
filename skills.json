@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1439,
+  "total": 1442,
   "generated": "2026-03-29",
   "skills": [
+    {
+      "slug": "rclone-cloud-storage-sync-management-cli",
+      "name": "Rclone Cloud Storage Sync and Management CLI",
+      "description": "Rclone is an open-source command-line program to sync files and directories to and from over 70 cloud storage providers including Google Drive, S3, Dropbox,…",
+      "category": [
+        "Integrations & Connectors"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "excalidraw-virtual-whiteboard-diagram-sdk",
+      "name": "Excalidraw Virtual Whiteboard and Diagram SDK",
+      "description": "Excalidraw is an open-source virtual whiteboard for creating hand-drawn style diagrams, wireframes, and sketches. With 103k+ GitHub stars, it provides an infinite canvas, real-time…",
+      "category": [
+        "Image & Creative Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "sops-encrypted-secrets-editor-manager",
+      "name": "SOPS Encrypted Secrets Editor and Manager",
+      "description": "SOPS (Secrets OPerationS) is an editor of encrypted files that supports YAML, JSON, ENV, INI, and BINARY formats. It encrypts with AWS KMS, GCP…",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "newsboat-terminal-rss-atom-feed-reader",
       "name": "Newsboat Terminal RSS and Atom Feed Reader",
