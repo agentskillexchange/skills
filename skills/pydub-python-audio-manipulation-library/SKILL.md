@@ -3,7 +3,7 @@ name: "pydub Python Audio Manipulation Library"
 description: "pydub is a Python library that provides a simple, high-level interface for manipulating audio files. It supports slicing, concatenation, volume adjustment, crossfading, format conversion, and effects processing across all formats supported by FFmpeg."
 category: "Media & Transcription"
 framework: "Multi-Framework"
-verification: listed
+verification: security_reviewed
 source: "https://github.com/jiaaro/pydub"
 ---
 # pydub Python Audio Manipulation Library

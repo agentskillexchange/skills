@@ -2,7 +2,7 @@
 name: "Sherlock Social Media Username Hunter Across 400+ Networks"
 description: "Sherlock hunts down social media accounts by username across more than 400 social networks. It is the go-to OSINT CLI tool for verifying online identities, finding connected accounts, and building digital footprints from a single username string."
 category: "Research & Scraping"
-verification: listed
+verification: security_reviewed
 source: "https://github.com/sherlock-project/sherlock"
 ---
 # Sherlock Social Media Username Hunter Across 400+ Networks

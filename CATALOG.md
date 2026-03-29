@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1442 published skills** across **17 categories** · 1430 security reviewed · Updated 2026-03-29 11:17 UTC
+> **1447 published skills** across **17 categories** · 1430 security reviewed · Updated 2026-03-29 13:15 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (156 skills)
+### 🛠️ Developer Tools (161 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -129,6 +129,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Bun Shell Script Executor](skills/bun-shell-script-executor/) | Leverages Bun's built-in $ shell API (Bun.Shell) to orchestrate cross-platform shell scripts from TypeScript with… | Security Reviewed | — | — |
 | [Caddy Automatic HTTPS Web Server and Reverse Proxy](skills/caddy-automatic-https-web-server-reverse-proxy/) | Caddy is a fast, extensible web server written in Go that provides automatic HTTPS via Let's Encrypt and ZeroSSL. It… | Security Reviewed | — | — |
 | [Claude Code MCP Bridge](skills/claude-code-mcp-bridge/) | Run Claude Code as a one-shot MCP tool so other agents and editors can delegate coding tasks to it. An… | Security Reviewed | — | — |
+| [D2 Modern Diagram Scripting Language and CLI](skills/d2-diagram-scripting-language-cli/) | D2 is a modern diagram scripting language that turns text into diagrams. It compiles declarative text files into… | Published | — | — |
 | [Desktop Commander MCP Server for Terminal and File Control](skills/desktop-commander-mcp-terminal-file-control/) | Desktop Commander is an MCP server that gives AI assistants terminal command execution, file system search,… | Security Reviewed | — | — |
 | [dust Intuitive Disk Usage Analyzer CLI](skills/dust-intuitive-disk-usage-analyzer-cli/) | A more intuitive version of the du command, written in Rust. dust instantly visualizes which directories consume the… | Security Reviewed | — | — |
 | [E2B Code Execution MCP](skills/e2b-code-execution-mcp/) | Add sandboxed code execution to any MCP-compatible AI client. E2B gives agents access to secure, internet-connected… | Security Reviewed | — | — |
@@ -137,6 +138,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Freeze Code and Terminal Screenshot Generator](skills/freeze-code-terminal-screenshot-generator/) | Freeze by Charmbracelet generates polished PNG and SVG images of code snippets and terminal output. It supports… | Security Reviewed | — | — |
 | [Frontend Design Guidance Skill](skills/frontend-design-guidance-skill/) | Practical frontend design guidance for landing pages, dashboards, and UI implementation work. | Security Reviewed | — | — |
 | [fzf Command-Line Fuzzy Finder](skills/fzf-command-line-fuzzy-finder/) | fzf is a general-purpose command-line fuzzy finder written in Go. It works as an interactive filter for any list —… | Security Reviewed | — | — |
+| [Ghostty Fast Native Terminal Emulator with GPU Acceleration](skills/ghostty-fast-native-terminal-emulator-gpu-acceleration/) | Ghostty is a fast, feature-rich, cross-platform terminal emulator that uses platform-native UI and GPU acceleration.… | Published | — | — |
 | [Git Bisect Automator](skills/git-bisect-automator/) | Automates git bisect workflows with custom test scripts and CI pipeline integration. Uses the Git CLI and GitHub… | Security Reviewed | — | — |
 | [Git Diff Complexity Analyzer](skills/git-diff-complexity-analyzer/) | Analyzes git diffs using libgit2 and radon to compute cyclomatic complexity changes per function. Flags complexity… | Security Reviewed | — | — |
 | [GitButler Virtual Branch Git Client](skills/gitbutler-virtual-branch-git-client/) | GitButler is a modern Git client built in Rust and Svelte that introduces virtual branches, allowing developers to… | Security Reviewed | — | — |
@@ -147,6 +149,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Goose Extensible AI Coding Agent by Block](skills/goose-extensible-ai-coding-agent-block/) | An open-source, extensible AI agent from Block (formerly Square) that goes beyond code suggestions to install… | Security Reviewed | — | — |
 | [grex Regular Expression Generator from Test Cases](skills/grex-regex-generator-from-test-cases/) | grex is a command-line tool and library that automatically generates regular expressions from user-provided test… | Security Reviewed | — | — |
 | [Gum Interactive Shell Script Toolkit](skills/gum-interactive-shell-script-toolkit/) | Gum by Charmbracelet is a tool for building glamorous shell scripts. It provides configurable terminal UI components… | Security Reviewed | — | — |
+| [Helix Post-Modern Modal Text Editor with LSP and Tree-sitter](skills/helix-post-modern-modal-text-editor-lsp-treesitter/) | Helix is a post-modern terminal-based modal text editor written in Rust. It features built-in language server… | Published | — | — |
 | [HTTPie CLI API Testing and Debugging Client](skills/httpie-cli-api-testing-debugging-client/) | HTTPie is a modern, user-friendly command-line HTTP client designed for testing, debugging, and interacting with… | Security Reviewed | — | — |
 | [Hyperfine Command-Line Benchmarking Tool](skills/hyperfine-command-line-benchmarking-tool/) | Benchmark command-line programs with statistical rigor using Hyperfine. Performs warmup runs, detects outliers,… | Security Reviewed | — | — |
 | [Jira Advanced Query Agent](skills/jira-advanced-query-agent/) | Jira Advanced Query Agent is built around Jira issue tracking platform. It gives an agent a more technical and… | Security Reviewed | — | — |
@@ -158,11 +161,13 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [n8n GitHub Issue-to-Jira Ticket Automator](skills/n8n-github-jira-ticket-automator/) | Deploys an n8n workflow via the n8n REST API using the GitHub Trigger node to capture new issue events and transform… | Security Reviewed | — | — |
 | [Nix Flake Configuration Builder](skills/nix-flake-configuration-builder/) | Generates reproducible Nix flake configurations with devShell environments and package overlays. Uses the Nix Flakes… | Security Reviewed | — | — |
 | [NPM Package Auditor](skills/npm-package-auditor-registry-api/) | Audits NPM packages using the NPM Registry API with dependency tree resolution and vulnerability scanning via… | Security Reviewed | — | — |
+| [OpenTofu Open Source Infrastructure as Code Tool](skills/opentofu-open-source-infrastructure-as-code/) | OpenTofu is an open-source infrastructure as code tool that lets you declaratively manage cloud and on-premises… | Published | — | — |
 | [Package Vulnerability Scanner](skills/package-vuln-scanner-osv-api/) | Scans npm, PyPI, and Go module dependencies for known vulnerabilities using the OSV.dev API and GitHub Advisory… | Security Reviewed | — | — |
 | [Pixi Cross-Platform Package Manager Built on Conda](skills/pixi-cross-platform-package-manager-conda-rust/) | A blazing-fast, cross-platform package manager and workflow tool written in Rust. Pixi builds on the Conda ecosystem… | Security Reviewed | — | — |
 | [Repomix Codebase Context Packer for LLMs](skills/repomix-codebase-context-packer-llm/) | Repomix packs an entire code repository into a single AI-friendly file optimized for LLM consumption. It provides… | Security Reviewed | — | — |
 | [Restic Fast Encrypted Backup Program](skills/restic-encrypted-backup-tool/) | Restic is a fast, secure, and efficient backup program supporting local, SFTP, S3, Azure, GCS, and many other… | Security Reviewed | — | — |
 | [ripgrep Recursive Regex Search Tool](skills/ripgrep-recursive-regex-search-tool/) | ripgrep (rg) is a line-oriented search tool that recursively searches directories for regex patterns while… | Security Reviewed | — | — |
+| [Soft Serve Self-Hosted Git Server with SSH TUI](skills/soft-serve-self-hosted-git-server-ssh-tui/) | Soft Serve is a self-hostable Git server by Charmbracelet that provides a beautiful terminal UI accessible over SSH.… | Published | — | — |
 | [VS Code Extension Debugger](skills/vscode-extension-debugger-dap-protocol/) | Debugs VS Code extensions using the Debug Adapter Protocol (DAP) with breakpoint management and variable inspection.… | Security Reviewed | — | — |
 | [WASM Component Model Linker](skills/wasm-component-model-linker/) | Compiles and links WebAssembly components using the WASI Preview 2 Component Model, wasm-tools CLI for component… | Security Reviewed | — | — |
 | [watchexec File Watcher and Command Re-Runner](skills/watchexec-file-watcher-command-rerunner/) | watchexec is a standalone file-watching tool written in Rust that automatically executes commands when it detects… | Security Reviewed | — | — |

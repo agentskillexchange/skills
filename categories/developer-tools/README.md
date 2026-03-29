@@ -155,6 +155,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Bun Shell Script Executor](../../skills/bun-shell-script-executor/) | — | — |
 | [Caddy Automatic HTTPS Web Server and Reverse Proxy](../../skills/caddy-automatic-https-web-server-reverse-proxy/) | — | — |
 | [Claude Code MCP Bridge](../../skills/claude-code-mcp-bridge/) | — | — |
+| [D2 Modern Diagram Scripting Language and CLI](../../skills/d2-diagram-scripting-language-cli/) | — | — |
 | [Desktop Commander MCP Server for Terminal and File Control](../../skills/desktop-commander-mcp-terminal-file-control/) | — | — |
 | [dust Intuitive Disk Usage Analyzer CLI](../../skills/dust-intuitive-disk-usage-analyzer-cli/) | — | — |
 | [E2B Code Execution MCP](../../skills/e2b-code-execution-mcp/) | — | — |
@@ -163,6 +164,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Freeze Code and Terminal Screenshot Generator](../../skills/freeze-code-terminal-screenshot-generator/) | — | — |
 | [Frontend Design Guidance Skill](../../skills/frontend-design-guidance-skill/) | — | — |
 | [fzf Command-Line Fuzzy Finder](../../skills/fzf-command-line-fuzzy-finder/) | — | — |
+| [Ghostty Fast Native Terminal Emulator with GPU Acceleration](../../skills/ghostty-fast-native-terminal-emulator-gpu-acceleration/) | — | — |
 | [Git Bisect Automator](../../skills/git-bisect-automator/) | — | — |
 | [Git Diff Complexity Analyzer](../../skills/git-diff-complexity-analyzer/) | — | — |
 | [GitButler Virtual Branch Git Client](../../skills/gitbutler-virtual-branch-git-client/) | — | — |
@@ -173,6 +175,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Goose Extensible AI Coding Agent by Block](../../skills/goose-extensible-ai-coding-agent-block/) | — | — |
 | [grex Regular Expression Generator from Test Cases](../../skills/grex-regex-generator-from-test-cases/) | — | — |
 | [Gum Interactive Shell Script Toolkit](../../skills/gum-interactive-shell-script-toolkit/) | — | — |
+| [Helix Post-Modern Modal Text Editor with LSP and Tree-sitter](../../skills/helix-post-modern-modal-text-editor-lsp-treesitter/) | — | — |
 | [HTTPie CLI API Testing and Debugging Client](../../skills/httpie-cli-api-testing-debugging-client/) | — | — |
 | [Hyperfine Command-Line Benchmarking Tool](../../skills/hyperfine-command-line-benchmarking-tool/) | — | — |
 | [Jira Advanced Query Agent](../../skills/jira-advanced-query-agent/) | — | — |
@@ -184,11 +187,13 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [n8n GitHub Issue-to-Jira Ticket Automator](../../skills/n8n-github-jira-ticket-automator/) | — | — |
 | [Nix Flake Configuration Builder](../../skills/nix-flake-configuration-builder/) | — | — |
 | [NPM Package Auditor](../../skills/npm-package-auditor-registry-api/) | — | — |
+| [OpenTofu Open Source Infrastructure as Code Tool](../../skills/opentofu-open-source-infrastructure-as-code/) | — | — |
 | [Package Vulnerability Scanner](../../skills/package-vuln-scanner-osv-api/) | — | — |
 | [Pixi Cross-Platform Package Manager Built on Conda](../../skills/pixi-cross-platform-package-manager-conda-rust/) | — | — |
 | [Repomix Codebase Context Packer for LLMs](../../skills/repomix-codebase-context-packer-llm/) | — | — |
 | [Restic Fast Encrypted Backup Program](../../skills/restic-encrypted-backup-tool/) | — | — |
 | [ripgrep Recursive Regex Search Tool](../../skills/ripgrep-recursive-regex-search-tool/) | — | — |
+| [Soft Serve Self-Hosted Git Server with SSH TUI](../../skills/soft-serve-self-hosted-git-server-ssh-tui/) | — | — |
 | [VS Code Extension Debugger](../../skills/vscode-extension-debugger-dap-protocol/) | — | — |
 | [WASM Component Model Linker](../../skills/wasm-component-model-linker/) | — | — |
 | [watchexec File Watcher and Command Re-Runner](../../skills/watchexec-file-watcher-command-rerunner/) | — | — |

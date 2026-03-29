@@ -1,8 +1,68 @@
 {
   "version": "2.0",
-  "total": 1442,
+  "total": 1447,
   "generated": "2026-03-29",
   "skills": [
+    {
+      "slug": "opentofu-open-source-infrastructure-as-code",
+      "name": "OpenTofu Open Source Infrastructure as Code Tool",
+      "description": "OpenTofu is an open-source infrastructure as code tool that lets you declaratively manage cloud and on-premises resources. A CNCF project and community-driven fork of…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "soft-serve-self-hosted-git-server-ssh-tui",
+      "name": "Soft Serve Self-Hosted Git Server with SSH TUI",
+      "description": "Soft Serve is a self-hostable Git server by Charmbracelet that provides a beautiful terminal UI accessible over SSH. It supports cloning over SSH, HTTP,…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "ghostty-fast-native-terminal-emulator-gpu-acceleration",
+      "name": "Ghostty Fast Native Terminal Emulator with GPU Acceleration",
+      "description": "Ghostty is a fast, feature-rich, cross-platform terminal emulator that uses platform-native UI and GPU acceleration. Created by Mitchell Hashimoto, it provides a native experience…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "helix-post-modern-modal-text-editor-lsp-treesitter",
+      "name": "Helix Post-Modern Modal Text Editor with LSP and Tree-sitter",
+      "description": "Helix is a post-modern terminal-based modal text editor written in Rust. It features built-in language server protocol (LSP) support, smart syntax highlighting and code…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "d2-diagram-scripting-language-cli",
+      "name": "D2 Modern Diagram Scripting Language and CLI",
+      "description": "D2 is a modern diagram scripting language that turns text into diagrams. It compiles declarative text files into SVG, PNG, and PDF outputs with…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "rclone-cloud-storage-sync-management-cli",
       "name": "Rclone Cloud Storage Sync and Management CLI",

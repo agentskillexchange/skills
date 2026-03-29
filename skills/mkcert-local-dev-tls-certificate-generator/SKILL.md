@@ -3,7 +3,7 @@ name: "mkcert Zero-Config Local Development TLS Certificate Generator"
 description: "mkcert is a zero-configuration CLI tool by Filippo Valsorda that creates locally-trusted development certificates. It automatically installs a local CA in the system root store and generates TLS certificates for localhost, custom domains, and IP addresses without manual PKI management."
 category: "Developer Tools"
 framework: "Multi-Framework"
-verification: listed
+verification: security_reviewed
 source: "https://github.com/FiloSottile/mkcert"
 ---
 # mkcert Zero-Config Local Development TLS Certificate Generator
