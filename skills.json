@@ -1,14 +1,50 @@
 {
   "version": "2.0",
-  "total": 1455,
+  "total": 1458,
   "generated": "2026-03-29",
   "skills": [
+    {
+      "slug": "sitespeed-io-web-performance-analysis",
+      "name": "sitespeed.io Comprehensive Web Performance Analysis Toolkit",
+      "description": "sitespeed.io is an open-source tool for comprehensive web performance analysis. It tests websites using real browsers, provides speed optimization feedback, and tracks performance over…",
+      "category": [
+        "Monitoring & Alerts"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "umami-privacy-focused-web-analytics",
+      "name": "Umami Privacy-Focused Web Analytics Platform",
+      "description": "Umami is a modern, privacy-focused, open-source web analytics platform and a self-hostable alternative to Google Analytics, Mixpanel, and Amplitude. It collects website traffic data…",
+      "category": [
+        "Monitoring & Alerts"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "serpbear-self-hosted-serp-rank-tracker",
+      "name": "SerpBear Self-Hosted Search Engine Rank Tracking App",
+      "description": "SerpBear is an open-source, self-hosted search engine position tracking application. It lets you monitor unlimited keyword rankings in Google with email notifications, a built-in…",
+      "category": [
+        "Content Writing & SEO"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "apprise-universal-push-notification-library-cli",
       "name": "Apprise Universal Push Notification Library and CLI",
       "description": "Apprise is a Python library and CLI that sends push notifications to over 100 services including Telegram, Discord, Slack, Amazon SNS, Gotify, email, and…",
       "category": [
-        "40"
+        "Monitoring & Alerts"
       ],
       "framework": [
         "71"
@@ -20,7 +56,7 @@
       "name": "xq Command-Line XML and HTML Beautifier and Content Extractor",
       "description": "xq is a command-line XML and HTML beautifier and content extractor written in Go. It provides syntax highlighting, automatic formatting, XPath and CSS selector…",
       "category": [
-        "29"
+        "Data Extraction & Transformation"
       ],
       "framework": [
         "71"
@@ -32,7 +68,7 @@
       "name": "htmlq Command-Line HTML Content Extractor with CSS Selectors",
       "description": "htmlq is a command-line tool for extracting content from HTML using CSS selectors, functioning as the HTML equivalent of jq. Written in Rust, it…",
       "category": [
-        "29"
+        "Data Extraction & Transformation"
       ],
       "framework": [
         "71"

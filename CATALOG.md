@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1455 published skills** across **19 categories** · 1430 security reviewed · Updated 2026-03-29 17:14 UTC
+> **1458 published skills** across **17 categories** · 1430 security reviewed · Updated 2026-03-29 17:51 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -448,7 +448,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Systemd Service Recovery Playbook](skills/systemd-service-recovery-playbook-2/) | Diagnoses and recovers failed systemd services using journalctl, systemctl status, and D-Bus… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (108 skills)
+### 🔄 Data Extraction & Transformation (110 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -550,6 +550,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [fx Terminal JSON Viewer and Processor](skills/fx-terminal-json-viewer-processor/) | fx is a terminal-based JSON viewer and processor that provides an interactive TUI for navigating, filtering, and… | Security Reviewed | — | — |
 | [gallery-dl Image Gallery and Collection Downloader](skills/gallery-dl-image-gallery-collection-downloader/) | gallery-dl is a command-line tool for downloading image galleries and collections from dozens of hosting sites… | Security Reviewed | — | — |
 | [gron Greppable JSON Flattener](skills/gron-greppable-json-flattener/) | gron transforms JSON into discrete assignment statements, making it possible to grep through complex JSON structures… | Security Reviewed | — | — |
+| [htmlq Command-Line HTML Content Extractor with CSS Selectors](skills/htmlq-command-line-html-content-extractor-css-selectors/) | htmlq is a command-line tool for extracting content from HTML using CSS selectors, functioning as the HTML… | Published | — | — |
 | [jq Pipeline Builder Agent](skills/jq-pipeline-builder-agent/) | Constructs complex jq filter pipelines from natural language queries against JSON/NDJSON data streams. Uses jq… | Security Reviewed | — | — |
 | [Marker PDF-to-Markdown Converter](skills/marker-pdf-to-markdown-converter/) | Marker converts PDF, DOCX, PPTX, and image files to clean Markdown, JSON, and HTML with high accuracy. It handles… | Security Reviewed | — | — |
 | [MinerU PDF-to-Markdown Document Parser](skills/mineru-pdf-to-markdown-document-parser/) | Transforms complex PDFs into LLM-ready markdown and JSON using MinerU, a high-accuracy document intelligence… | Security Reviewed | — | — |
@@ -561,6 +562,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Snowflake Query Profiler](skills/snowflake-query-profiler/) | Profiles and optimizes Snowflake SQL queries using the Snowflake Information Schema and Query History views.… | Security Reviewed | — | — |
 | [Surya Document OCR with Layout Analysis and Table Recognition](skills/surya-document-ocr-layout-analysis-table-recognition/) | Surya is a document OCR toolkit by Datalab that performs OCR in 90+ languages, line-level text detection, layout… | Security Reviewed | — | — |
 | [XML XSLT Transform Pipeline](skills/xml-xslt-transform-pipeline/) | Applies chained XSLT transformations to XML documents using lxml and Saxon-JS. Supports XSLT 3.0 streaming, XPath… | Security Reviewed | — | — |
+| [xq Command-Line XML and HTML Beautifier and Content Extractor](skills/xq-command-line-xml-html-beautifier-content-extractor/) | xq is a command-line XML and HTML beautifier and content extractor written in Go. It provides syntax highlighting,… | Published | — | — |
 | [xsv High-Performance CSV Toolkit](skills/xsv-high-performance-csv-toolkit/) | xsv is a fast CSV command-line toolkit written in Rust by Andrew Gallant (BurntSushi). It provides indexing,… | Security Reviewed | — | — |
 
 
@@ -872,7 +874,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Vale Prose Linter for Technical Documentation](skills/vale-prose-linter-technical-docs/) | Vale is an open-source, markup-aware prose linter that enforces editorial style guides on technical documentation.… | Security Reviewed | — | — |
 
 
-### 📊 Monitoring & Alerts (85 skills)
+### 📊 Monitoring & Alerts (88 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=downloads)
 
@@ -961,8 +963,11 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Uptime Robot Multi-Check Coordinator](skills/uptime-robot-multi-check-coordinator/) | Manages bulk uptime monitoring via the Uptime Robot API v2. Creates HTTP, keyword, and port monitors with alert… | Security Reviewed | 69 | 212.2k/wk |
 | [Uptime Robot Status Page Webhook Alerter](skills/uptime-robot-status-page-webhook-alerter/) | Integrates with the Uptime Robot API to monitor status page changes and push webhook alerts to Slack or PagerDuty.… | Security Reviewed | 69 | 212.2k/wk |
 | [OpsGenie MCP Server](skills/opsgenie-mcp-server/) | OpsGenie MCP Server is built around Opsgenie incident and on-call platform. The underlying ecosystem is represented… | Security Reviewed | 24 | 9.4k/wk |
+| [Apprise Universal Push Notification Library and CLI](skills/apprise-universal-push-notification-library-cli/) | Apprise is a Python library and CLI that sends push notifications to over 100 services including Telegram, Discord,… | Published | — | — |
 | [Langfuse LLM Observability Platform and SDK](skills/langfuse-llm-observability-platform-and-sdk/) | Use Langfuse to capture prompts, traces, generations, evaluations, and cost telemetry for LLM applications and agent… | Security Reviewed | — | — |
 | [PostHog Product Analytics and Feature Flags SDK](skills/posthog-product-analytics-and-feature-flags-sdk/) | Use PostHog to capture product analytics events, identify users, evaluate feature flags, and route experimentation… | Security Reviewed | — | — |
+| [sitespeed.io Comprehensive Web Performance Analysis Toolkit](skills/sitespeed-io-web-performance-analysis/) | sitespeed.io is an open-source tool for comprehensive web performance analysis. It tests websites using real… | Published | — | — |
+| [Umami Privacy-Focused Web Analytics Platform](skills/umami-privacy-focused-web-analytics/) | Umami is a modern, privacy-focused, open-source web analytics platform and a self-hostable alternative to Google… | Published | — | — |
 
 
 ### 📅 Calendar, Email & Productivity (69 skills)
@@ -1529,7 +1534,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Pa11y Accessibility Testing CLI and CI](skills/pa11y-accessibility-testing-cli-and-ci/) | Pa11y is a real open-source accessibility testing tool that lets agents audit pages for WCAG issues from the command… | Security Reviewed | — | — |
 
 
-### ✍️ Content Writing & SEO (55 skills)
+### ✍️ Content Writing & SEO (56 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=downloads)
 
@@ -1583,6 +1588,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cont
 | [SEMrush Keyword Research Agent](skills/semrush-keyword-research-agent-api-v3/) | Performs keyword research using SEMrush API v3 with domain analytics, keyword difficulty scoring, and SERP feature… | Security Reviewed | — | — |
 | [SEO Content Cluster Generator](skills/seo-content-cluster-generator/) | Builds topical authority clusters using SEMrush Keyword Magic API, Ahrefs Content Explorer, and Google Search… | Security Reviewed | — | — |
 | [SEO Keyword Research Automator](skills/seo-keyword-research-automator/) | Automated keyword research using DataForSEO API and Google Search Console API. Performs SERP analysis, keyword… | Security Reviewed | — | — |
+| [SerpBear Self-Hosted Search Engine Rank Tracking App](skills/serpbear-self-hosted-serp-rank-tracker/) | SerpBear is an open-source, self-hosted search engine position tracking application. It lets you monitor unlimited… | Published | — | — |
 | [SiteOne Crawler Technical SEO and Site Audit](skills/siteone-crawler-technical-seo-and-site-audit/) | SiteOne Crawler is a real website crawler and analyzer for technical SEO, accessibility, security, and performance… | Security Reviewed | — | — |
 | [Surfer SEO Content Optimizer Integration](skills/surfer-seo-content-optimizer-integration/) | Optimizes content against Surfer SEO's NLP-based recommendations via the Surfer API /v1/content_editors endpoint.… | Security Reviewed | — | — |
 | [Surfer SEO SERP Analyzer](skills/surfer-seo-serp-analyzer/) | Uses Surfer SEO Content Editor API to pull SERP analysis data including word count benchmarks, heading structure… | Security Reviewed | — | — |
@@ -1590,25 +1596,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cont
 | [textstat Python Readability Statistics Calculator](skills/textstat-python-readability-statistics-calculator/) | textstat is a Python package that calculates readability statistics for text content, including Flesch Reading Ease,… | Security Reviewed | — | — |
 | [Unlighthouse Site-Wide Lighthouse and SEO Auditing](skills/unlighthouse-site-wide-lighthouse-seo-auditing/) | Unlighthouse runs Google Lighthouse across an entire site instead of just a single page. This skill gives agents a… | Security Reviewed | — | — |
 | [write-good English Prose Linting for Technical Content](skills/write-good-english-prose-linting-technical-content/) | This skill uses write-good to flag vague, wordy, or hard-to-read English prose in documentation and content drafts.… | Security Reviewed | — | — |
-
-
-### 📦 29 (2 skills)
-
-Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=29) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=29&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=29&sort=downloads)
-
-| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
-|---|---|---|---:|---:|
-| [htmlq Command-Line HTML Content Extractor with CSS Selectors](skills/htmlq-command-line-html-content-extractor-css-selectors/) | htmlq is a command-line tool for extracting content from HTML using CSS selectors, functioning as the HTML… | Published | — | — |
-| [xq Command-Line XML and HTML Beautifier and Content Extractor](skills/xq-command-line-xml-html-beautifier-content-extractor/) | xq is a command-line XML and HTML beautifier and content extractor written in Go. It provides syntax highlighting,… | Published | — | — |
-
-
-### 📦 40 (1 skills)
-
-Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=40) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=40&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=40&sort=downloads)
-
-| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
-|---|---|---|---:|---:|
-| [Apprise Universal Push Notification Library and CLI](skills/apprise-universal-push-notification-library-cli/) | Apprise is a Python library and CLI that sends push notifications to over 100 services including Telegram, Discord,… | Published | — | — |
 
 
 ---

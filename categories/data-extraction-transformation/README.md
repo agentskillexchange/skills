@@ -136,6 +136,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [fx Terminal JSON Viewer and Processor](../../skills/fx-terminal-json-viewer-processor/) | — | — |
 | [gallery-dl Image Gallery and Collection Downloader](../../skills/gallery-dl-image-gallery-collection-downloader/) | — | — |
 | [gron Greppable JSON Flattener](../../skills/gron-greppable-json-flattener/) | — | — |
+| [htmlq Command-Line HTML Content Extractor with CSS Selectors](../../skills/htmlq-command-line-html-content-extractor-css-selectors/) | — | — |
 | [jq Pipeline Builder Agent](../../skills/jq-pipeline-builder-agent/) | — | — |
 | [Marker PDF-to-Markdown Converter](../../skills/marker-pdf-to-markdown-converter/) | — | — |
 | [MinerU PDF-to-Markdown Document Parser](../../skills/mineru-pdf-to-markdown-document-parser/) | — | — |
@@ -147,6 +148,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Snowflake Query Profiler](../../skills/snowflake-query-profiler/) | — | — |
 | [Surya Document OCR with Layout Analysis and Table Recognition](../../skills/surya-document-ocr-layout-analysis-table-recognition/) | — | — |
 | [XML XSLT Transform Pipeline](../../skills/xml-xslt-transform-pipeline/) | — | — |
+| [xq Command-Line XML and HTML Beautifier and Content Extractor](../../skills/xq-command-line-xml-html-beautifier-content-extractor/) | — | — |
 | [xsv High-Performance CSV Toolkit](../../skills/xsv-high-performance-csv-toolkit/) | — | — |
 
 ---
