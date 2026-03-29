@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1421 published skills** across **17 categories** · 1382 security reviewed · Updated 2026-03-28 23:15 UTC
+> **1426 published skills** across **17 categories** · 1382 security reviewed · Updated 2026-03-29 01:15 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (153 skills)
+### 🛠️ Developer Tools (155 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -155,8 +155,10 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [n8n GitHub Issue-to-Jira Ticket Automator](skills/n8n-github-jira-ticket-automator/) | Deploys an n8n workflow via the n8n REST API using the GitHub Trigger node to capture new issue events and transform… | Security Reviewed | — | — |
 | [Nix Flake Configuration Builder](skills/nix-flake-configuration-builder/) | Generates reproducible Nix flake configurations with devShell environments and package overlays. Uses the Nix Flakes… | Security Reviewed | — | — |
 | [NPM Package Auditor](skills/npm-package-auditor-registry-api/) | Audits NPM packages using the NPM Registry API with dependency tree resolution and vulnerability scanning via… | Security Reviewed | — | — |
+| [Open Interpreter Natural Language Computer Interface](skills/open-interpreter-natural-language-computer-interface/) | Open Interpreter lets LLMs run code locally (Python, JavaScript, Shell, and more) through a ChatGPT-like terminal… | Published | — | — |
 | [Package Vulnerability Scanner](skills/package-vuln-scanner-osv-api/) | Scans npm, PyPI, and Go module dependencies for known vulnerabilities using the OSV.dev API and GitHub Advisory… | Security Reviewed | — | — |
 | [Pixi Cross-Platform Package Manager Built on Conda](skills/pixi-cross-platform-package-manager-conda-rust/) | A blazing-fast, cross-platform package manager and workflow tool written in Rust. Pixi builds on the Conda ecosystem… | Security Reviewed | — | — |
+| [PocketBase Open Source Realtime Backend in a Single Binary](skills/pocketbase-open-source-realtime-backend-single-binary/) | PocketBase is an open-source Go backend that ships as a single portable executable. It includes an embedded SQLite… | Published | — | — |
 | [Repomix Codebase Context Packer for LLMs](skills/repomix-codebase-context-packer-llm/) | Repomix packs an entire code repository into a single AI-friendly file optimized for LLM consumption. It provides… | Security Reviewed | — | — |
 | [Restic Fast Encrypted Backup Program](skills/restic-encrypted-backup-tool/) | Restic is a fast, secure, and efficient backup program supporting local, SFTP, S3, Azure, GCS, and many other… | Security Reviewed | — | — |
 | [ripgrep Recursive Regex Search Tool](skills/ripgrep-recursive-regex-search-tool/) | ripgrep (rg) is a line-oriented search tool that recursively searches directories for regex patterns while… | Security Reviewed | — | — |
@@ -438,7 +440,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Systemd Service Recovery Playbook](skills/systemd-service-recovery-playbook-2/) | Diagnoses and recovers failed systemd services using journalctl, systemctl status, and D-Bus… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (104 skills)
+### 🔄 Data Extraction & Transformation (106 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -541,16 +543,18 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [jq Pipeline Builder Agent](skills/jq-pipeline-builder-agent/) | Constructs complex jq filter pipelines from natural language queries against JSON/NDJSON data streams. Uses jq… | Security Reviewed | — | — |
 | [Marker PDF-to-Markdown Converter](skills/marker-pdf-to-markdown-converter/) | Marker converts PDF, DOCX, PPTX, and image files to clean Markdown, JSON, and HTML with high accuracy. It handles… | Security Reviewed | — | — |
 | [MinerU PDF-to-Markdown Document Parser](skills/mineru-pdf-to-markdown-document-parser/) | Transforms complex PDFs into LLM-ready markdown and JSON using MinerU, a high-accuracy document intelligence… | Security Reviewed | — | — |
+| [PaddleOCR Multilingual Document OCR and Structured Data Toolkit](skills/paddleocr-multilingual-document-ocr-toolkit/) | PaddleOCR is a powerful, lightweight OCR toolkit developed by Baidu that converts documents and images into… | Published | — | — |
 | [Snowflake MCP](skills/snowflake-mcp/) | Snowflake MCP is built around Snowflake cloud data warehouse. It gives an agent a more technical and reliable way to… | Security Reviewed | — | — |
 | [Snowflake MCP Server](skills/snowflake-mcp-server/) | Snowflake MCP Server is built around Snowflake cloud data warehouse. It gives an agent a more technical and reliable… | Security Reviewed | — | — |
 | [Snowflake Query History Extractor](skills/snowflake-query-history-extractor/) | Extracts query history and performance metadata from Snowflake using the Snowflake Python Connector and… | Security Reviewed | — | — |
 | [Snowflake Query Optimizer Agent](skills/snowflake-query-optimizer-agent/) | Analyzes and optimizes Snowflake SQL queries using the QUERY_HISTORY and ACCESS_HISTORY views in ACCOUNT_USAGE.… | Security Reviewed | — | — |
 | [Snowflake Query Profiler](skills/snowflake-query-profiler/) | Profiles and optimizes Snowflake SQL queries using the Snowflake Information Schema and Query History views.… | Security Reviewed | — | — |
+| [Surya Document OCR with Layout Analysis and Table Recognition](skills/surya-document-ocr-layout-analysis-table-recognition/) | Surya is a document OCR toolkit by Datalab that performs OCR in 90+ languages, line-level text detection, layout… | Published | — | — |
 | [XML XSLT Transform Pipeline](skills/xml-xslt-transform-pipeline/) | Applies chained XSLT transformations to XML documents using lxml and Saxon-JS. Supports XSLT 3.0 streaming, XPath… | Security Reviewed | — | — |
 | [xsv High-Performance CSV Toolkit](skills/xsv-high-performance-csv-toolkit/) | xsv is a fast CSV command-line toolkit written in Rust by Andrew Gallant (BurntSushi). It provides indexing,… | Security Reviewed | — | — |
 
 
-### 🔒 Security & Verification (99 skills)
+### 🔒 Security & Verification (100 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -640,6 +644,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Gitxray GitHub Repository Security X-Ray](skills/gitxray-github-repository-security-xray/) | A multifaceted OSINT and forensics tool for GitHub repositories that detects fake stargazers, tampered commits,… | Security Reviewed | — | — |
 | [GPG Encryption and Key Management Agent](skills/gpg-encryption-key-management-agent/) | Manages GPG key lifecycle and file encryption operations using GnuPG CLI and GPGME library. Handles keyserver… | Security Reviewed | — | — |
 | [httpx Fast Multi-Purpose HTTP Probing Toolkit by ProjectDiscovery](skills/httpx-http-probing-toolkit-projectdiscovery/) | httpx by ProjectDiscovery is a fast, multi-purpose HTTP toolkit for running probes against lists of hosts. It… | Published | — | — |
+| [mitmproxy Interactive HTTPS Proxy for Debugging and Security Testing](skills/mitmproxy-interactive-https-proxy-debugging-security/) | mitmproxy is an interactive, SSL/TLS-capable intercepting HTTP proxy for penetration testers and software… | Published | — | — |
 | [NPM Audit Deep Scanner](skills/npm-audit-deep-scanner/) | Extends npm audit with deep transitive dependency analysis using the npm Registry API. Generates fix PRs via GitHub… | Security Reviewed | — | — |
 | [npm Dependency Audit Resolver](skills/npm-dependency-audit-resolver/) | Resolves npm audit vulnerabilities by analyzing the npm registry API for patched versions, generating targeted… | Security Reviewed | — | — |
 | [Nuclei Template-Based Vulnerability Scanner](skills/nuclei-template-vulnerability-scanner/) | Nuclei is a high-performance vulnerability scanner by ProjectDiscovery that uses simple YAML-based templates to… | Security Reviewed | — | — |

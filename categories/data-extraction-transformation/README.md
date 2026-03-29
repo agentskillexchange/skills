@@ -137,11 +137,13 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [jq Pipeline Builder Agent](../../skills/jq-pipeline-builder-agent/) | — | — |
 | [Marker PDF-to-Markdown Converter](../../skills/marker-pdf-to-markdown-converter/) | — | — |
 | [MinerU PDF-to-Markdown Document Parser](../../skills/mineru-pdf-to-markdown-document-parser/) | — | — |
+| [PaddleOCR Multilingual Document OCR and Structured Data Toolkit](../../skills/paddleocr-multilingual-document-ocr-toolkit/) | — | — |
 | [Snowflake MCP](../../skills/snowflake-mcp/) | — | — |
 | [Snowflake MCP Server](../../skills/snowflake-mcp-server/) | — | — |
 | [Snowflake Query History Extractor](../../skills/snowflake-query-history-extractor/) | — | — |
 | [Snowflake Query Optimizer Agent](../../skills/snowflake-query-optimizer-agent/) | — | — |
 | [Snowflake Query Profiler](../../skills/snowflake-query-profiler/) | — | — |
+| [Surya Document OCR with Layout Analysis and Table Recognition](../../skills/surya-document-ocr-layout-analysis-table-recognition/) | — | — |
 | [XML XSLT Transform Pipeline](../../skills/xml-xslt-transform-pipeline/) | — | — |
 | [xsv High-Performance CSV Toolkit](../../skills/xsv-high-performance-csv-toolkit/) | — | — |
 

@@ -1,8 +1,68 @@
 {
   "version": "2.0",
-  "total": 1421,
-  "generated": "2026-03-28",
+  "total": 1426,
+  "generated": "2026-03-29",
   "skills": [
+    {
+      "slug": "mitmproxy-interactive-https-proxy-debugging-security",
+      "name": "mitmproxy Interactive HTTPS Proxy for Debugging and Security Testing",
+      "description": "mitmproxy is an interactive, SSL/TLS-capable intercepting HTTP proxy for penetration testers and software developers. It supports HTTP/1, HTTP/2, HTTP/3, and WebSockets, offering console, command-line,…",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "pocketbase-open-source-realtime-backend-single-binary",
+      "name": "PocketBase Open Source Realtime Backend in a Single Binary",
+      "description": "PocketBase is an open-source Go backend that ships as a single portable executable. It includes an embedded SQLite database with realtime subscriptions, built-in file…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "open-interpreter-natural-language-computer-interface",
+      "name": "Open Interpreter Natural Language Computer Interface",
+      "description": "Open Interpreter lets LLMs run code locally (Python, JavaScript, Shell, and more) through a ChatGPT-like terminal interface. It provides a natural-language interface to your…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "surya-document-ocr-layout-analysis-table-recognition",
+      "name": "Surya Document OCR with Layout Analysis and Table Recognition",
+      "description": "Surya is a document OCR toolkit by Datalab that performs OCR in 90+ languages, line-level text detection, layout analysis, reading order detection, table recognition,…",
+      "category": [
+        "Data Extraction & Transformation"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "paddleocr-multilingual-document-ocr-toolkit",
+      "name": "PaddleOCR Multilingual Document OCR and Structured Data Toolkit",
+      "description": "PaddleOCR is a powerful, lightweight OCR toolkit developed by Baidu that converts documents and images into structured, AI-friendly data like JSON and Markdown. It…",
+      "category": [
+        "Data Extraction & Transformation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "libvips-high-performance-image-processing-library-cli",
       "name": "libvips High-Performance Image Processing Library and CLI",
