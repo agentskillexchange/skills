@@ -21,25 +21,25 @@ npx skills add agentskillexchange/skills --skill libvips-high-performance-image-
 ### Claude Code
 
 ```bash
-npx skills add libvips-high-performance-image-processing-library-cli
+npx skills add agentskillexchange/skills --skill libvips-high-performance-image-processing-library-cli -a claude-code
 ```
 
-### Goose
+### Cursor
 
 ```bash
-npx skills add libvips-high-performance-image-processing-library-cli --agent goose
+npx skills add agentskillexchange/skills --skill libvips-high-performance-image-processing-library-cli -a cursor
 ```
 
-### Cline / Roo Code
+### Codex
 
 ```bash
-npx skills add libvips-high-performance-image-processing-library-cli --agent cline
+npx skills add agentskillexchange/skills --skill libvips-high-performance-image-processing-library-cli -a codex
 ```
 
-### Custom Agent
+### OpenClaw
 
 ```bash
-npx skills add libvips-high-performance-image-processing-library-cli --agent your-agent
+clawhub install libvips-high-performance-image-processing-library-cli
 ```
 
 ## Source

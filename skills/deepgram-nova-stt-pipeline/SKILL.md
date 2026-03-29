@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: FFmpeg/FFmpeg
   maintained: true
 ---
-
 # Deepgram Nova STT Pipeline
 
 Real-time speech-to-text using Deepgram Nova-2 API with streaming WebSocket connections. Supports diarization, punctuation, and language detection via the Deepgram Python SDK for podcast and meeting transcription workflows.
@@ -60,4 +59,4 @@ clawhub install deepgram-nova-stt-pipeline
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/deepgram-nova-stt-pipeline/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/deepgram-nova-stt-pipeline/)

@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: hashicorp/terraform
   maintained: true
 ---
-
 # Terraform State Surgery Kit
 
 Performs safe Terraform state operations using the terraform CLI state subcommands and the Terraform Cloud API. Handles state imports, resource moves, and taint operations with automatic backup and rollback.
@@ -60,4 +59,4 @@ clawhub install terraform-state-surgery-kit
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/terraform-state-surgery-kit/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-state-surgery-kit/)

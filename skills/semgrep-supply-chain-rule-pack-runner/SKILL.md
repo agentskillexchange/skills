@@ -12,7 +12,6 @@ tool_ecosystem:
   license: LGPL-2.1
   maintained: true
 ---
-
 # Semgrep Supply Chain Rule Pack Runner
 
 Runs Semgrep code and supply-chain checks with `semgrep scan`, registry rule packs, and dependency-aware findings to surface risky patterns early. Useful when agents need to summarize security results in repo terms developers can act on immediately.
@@ -59,4 +58,4 @@ clawhub install semgrep-supply-chain-rule-pack-runner
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/semgrep-supply-chain-rule-pack-runner/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/semgrep-supply-chain-rule-pack-runner/)

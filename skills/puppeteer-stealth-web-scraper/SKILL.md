@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Puppeteer Stealth Web Scraper
 
 Uses puppeteer-extra with stealth plugin to bypass bot detection for web scraping. Integrates with Cheerio for HTML parsing, rotating residential proxies via Bright Data API, and p-queue for concurrency control.
@@ -56,4 +55,4 @@ clawhub install puppeteer-stealth-web-scraper
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/puppeteer-stealth-web-scraper/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/puppeteer-stealth-web-scraper/)

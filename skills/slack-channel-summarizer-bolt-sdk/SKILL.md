@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Slack Channel Summarizer
 
 Generates channel summaries using Slack Bolt SDK with conversations.history and conversations.replies endpoints. Leverages OpenAI GPT-4 API for abstractive summarization and delivers digests via Slack Block Kit interactive messages.
@@ -58,4 +57,4 @@ clawhub install slack-channel-summarizer-bolt-sdk
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/slack-channel-summarizer-bolt-sdk/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/slack-channel-summarizer-bolt-sdk/)

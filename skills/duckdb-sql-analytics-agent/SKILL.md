@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: false
 ---
-
 # DuckDB SQL Analytics Agent
 
 Run analytical SQL queries on local files (CSV, Parquet, JSON) using the DuckDB in-process database engine. Enables fast OLAP-style analysis without a server, directly from flat files on disk.
@@ -64,4 +63,4 @@ clawhub install duckdb-sql-analytics-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/duckdb-sql-analytics-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/duckdb-sql-analytics-agent/)

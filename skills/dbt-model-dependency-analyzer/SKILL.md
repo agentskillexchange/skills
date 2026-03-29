@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: dbt-labs/dbt-core
   maintained: true
 ---
-
 # dbt Model Dependency Analyzer
 
 Analyzes dbt project DAGs using the dbt manifest.json artifact and the dbt Cloud API. Detects circular dependencies, orphaned models, and generates lineage visualizations.
@@ -54,4 +53,4 @@ clawhub install dbt-model-dependency-analyzer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/dbt-model-dependency-analyzer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/dbt-model-dependency-analyzer/)

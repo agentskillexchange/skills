@@ -6,7 +6,6 @@ framework: "Custom Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/blender-geometry-nodes-script-generator/"
 ---
-
 # Blender Geometry Nodes Script Generator
 
 Generates Blender Python (bpy) scripts that programmatically create Geometry Nodes modifier trees, using the node_groups API and GeometryNodeTree interface for parametric 3D asset generation.
@@ -49,4 +48,4 @@ clawhub install blender-geometry-nodes-script-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/blender-geometry-nodes-script-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/blender-geometry-nodes-script-generator/)

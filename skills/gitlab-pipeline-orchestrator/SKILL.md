@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: gitlabhq/gitlabhq
   maintained: true
 ---
-
 # GitLab Pipeline Orchestrator
 
 Automates GitLab CI/CD pipeline creation using the GitLab Pipelines API and .gitlab-ci.yml DSL. Manages multi-stage builds with artifact caching via the GitLab Artifacts API and triggers downstream pipelines through bridge jobs.
@@ -54,4 +53,4 @@ clawhub install gitlab-pipeline-orchestrator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/gitlab-pipeline-orchestrator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/gitlab-pipeline-orchestrator/)

@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: hashicorp/vault
   maintained: true
 ---
-
 # HashiCorp Vault Secret Scanner
 
 Scans codebases for hardcoded secrets using HashiCorp Vault SDK and truffleHog patterns. Integrates with Vault Transit engine for automatic secret rotation and re-encryption of detected credentials.
@@ -56,4 +55,4 @@ clawhub install hashicorp-vault-secret-scanner-2
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/hashicorp-vault-secret-scanner-2/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/hashicorp-vault-secret-scanner-2/)

@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: gitlabhq/gitlabhq
   maintained: true
 ---
-
 # GitLab CI Pipeline Cost Estimator
 
 Estimates CI/CD pipeline costs by querying the GitLab REST API v4 for job durations, runner types, and compute minutes. Maps shared vs self-hosted runner usage against GitLab pricing tiers.
@@ -54,4 +53,4 @@ clawhub install gitlab-ci-pipeline-cost-estimator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/gitlab-ci-pipeline-cost-estimator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/gitlab-ci-pipeline-cost-estimator/)

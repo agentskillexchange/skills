@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # TruffleHog Credential Leak Scanner
 
 Find, verify, and analyze leaked credentials across Git repositories, Slack, Jira, Docker images, and more using TruffleHog. Classifies 800+ secret types and validates whether discovered credentials are live.
@@ -63,4 +62,4 @@ clawhub install trufflehog-credential-leak-scanner
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/trufflehog-credential-leak-scanner/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/trufflehog-credential-leak-scanner/)

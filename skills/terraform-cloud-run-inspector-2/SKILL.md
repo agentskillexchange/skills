@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: hashicorp/terraform
   maintained: true
 ---
-
 # Terraform Cloud Run Inspector
 
 Queries the Terraform Cloud API to inspect plan outputs, apply logs, and state file changes. Analyzes resource diffs including module-level changes, provider version constraints, and Sentinel policy evaluation results.
@@ -66,4 +65,4 @@ clawhub install terraform-cloud-run-inspector-2
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/terraform-cloud-run-inspector-2/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-cloud-run-inspector-2/)

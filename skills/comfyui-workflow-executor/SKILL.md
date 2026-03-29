@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: hashicorp/vault
   maintained: true
 ---
-
 # ComfyUI Workflow Executor
 
 Executes ComfyUI image generation workflows via the /prompt REST API endpoint with WebSocket progress tracking. Manages node graph JSON payloads, KSampler scheduler configurations (euler_ancestral, dpmpp_2m_sde), and output image retrieval from the /view endpoint.
@@ -56,4 +55,4 @@ clawhub install comfyui-workflow-executor
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/comfyui-workflow-executor/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/comfyui-workflow-executor/)

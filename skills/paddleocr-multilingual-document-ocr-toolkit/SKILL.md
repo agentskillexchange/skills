@@ -12,20 +12,35 @@ PaddleOCR is a powerful, lightweight OCR toolkit developed by Baidu that convert
 
 ## Installation
 
-Install this skill using one of the following methods:
+### Any Agent
 
-### OpenClaw CLI
 ```bash
-openclaw skills install paddleocr-multilingual-document-ocr-toolkit
+npx skills add agentskillexchange/skills --skill paddleocr-multilingual-document-ocr-toolkit
 ```
 
-### Clawhub CLI
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill paddleocr-multilingual-document-ocr-toolkit -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill paddleocr-multilingual-document-ocr-toolkit -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill paddleocr-multilingual-document-ocr-toolkit -a codex
+```
+
+### OpenClaw
+
 ```bash
 clawhub install paddleocr-multilingual-document-ocr-toolkit
 ```
-
-### Manual Installation
-Download from [Agent Skill Exchange](https://agentskillexchange.com/skills/paddleocr-multilingual-document-ocr-toolkit/) and follow the setup instructions.
 
 ## Source
 

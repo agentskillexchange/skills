@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # GitHub Actions OIDC Token Verifier
 
 Verifies GitHub Actions OIDC tokens against the GitHub OIDC provider JWKS endpoint. Validates subject claims, audience restrictions, and repository ownership for secure cloud deployments.
@@ -62,4 +61,4 @@ clawhub install github-actions-oidc-token-verifier
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/github-actions-oidc-token-verifier/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/github-actions-oidc-token-verifier/)

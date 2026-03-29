@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Protocol Buffers Documentation Compiler
 
 Compiles Protocol Buffer .proto files using protoc and generates API documentation with protoc-gen-doc. Validates proto style with buf lint and produces gRPC service client stubs for multiple languages.
@@ -56,4 +55,4 @@ clawhub install protobuf-documentation-compiler
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/protobuf-documentation-compiler/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/protobuf-documentation-compiler/)

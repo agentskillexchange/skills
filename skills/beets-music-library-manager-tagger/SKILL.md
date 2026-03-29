@@ -6,7 +6,6 @@ framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/beetbox/beets"
 ---
-
 ## Installation
 
 ### Any Agent

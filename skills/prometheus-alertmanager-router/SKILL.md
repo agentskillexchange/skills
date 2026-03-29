@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Prometheus AlertManager Router
 
 Configures and manages Prometheus AlertManager routing trees and silences via the AlertManager HTTP API. Supports PagerDuty, OpsGenie, and Slack receiver configuration with inhibition rules.
@@ -60,4 +59,4 @@ clawhub install prometheus-alertmanager-router
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/prometheus-alertmanager-router/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-alertmanager-router/)

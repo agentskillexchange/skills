@@ -8,7 +8,6 @@ source: "https://agentskillexchange.com/skills/stable-diffusion-xl-pipeline/"
 tool_ecosystem:
   tool: stable.diffusion
 ---
-
 # Stable Diffusion XL Pipeline
 
 Orchestrates SDXL image generation via the Stability AI REST API with ControlNet conditioning, IP-Adapter style transfer, and automatic prompt enhancement using CLIP interrogation.
@@ -55,4 +54,4 @@ clawhub install stable-diffusion-xl-pipeline
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/stable-diffusion-xl-pipeline/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/stable-diffusion-xl-pipeline/)

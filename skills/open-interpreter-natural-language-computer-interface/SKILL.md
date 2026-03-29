@@ -12,20 +12,35 @@ Open Interpreter lets LLMs run code locally (Python, JavaScript, Shell, and more
 
 ## Installation
 
-Install this skill using one of the following methods:
+### Any Agent
 
-### OpenClaw CLI
 ```bash
-openclaw skills install open-interpreter-natural-language-computer-interface
+npx skills add agentskillexchange/skills --skill open-interpreter-natural-language-computer-interface
 ```
 
-### Clawhub CLI
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill open-interpreter-natural-language-computer-interface -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill open-interpreter-natural-language-computer-interface -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill open-interpreter-natural-language-computer-interface -a codex
+```
+
+### OpenClaw
+
 ```bash
 clawhub install open-interpreter-natural-language-computer-interface
 ```
-
-### Manual Installation
-Download from [Agent Skill Exchange](https://agentskillexchange.com/skills/open-interpreter-natural-language-computer-interface/) and follow the setup instructions.
 
 ## Source
 

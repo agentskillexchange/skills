@@ -6,7 +6,6 @@ framework: "Gemini"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/python-type-coverage-analyzer/"
 ---
-
 # Python Type Coverage Analyzer
 
 Measures and improves Python type annotation coverage using mypy –html-report and pyright type completeness scoring. Identifies untyped function signatures, missing return types, and Any-typed parameters across codebases.
@@ -53,4 +52,4 @@ clawhub install python-type-coverage-analyzer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/python-type-coverage-analyzer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/python-type-coverage-analyzer/)

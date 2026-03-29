@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Cypress Network Stub Generator
 
 Generates cy.intercept() stubs from recorded HAR files for deterministic E2E tests. Uses cy.session() for authentication caching and cy.origin() for cross-origin testing workflows.
@@ -60,4 +59,4 @@ clawhub install cypress-network-stub-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/cypress-network-stub-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/cypress-network-stub-generator/)

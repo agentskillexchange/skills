@@ -6,7 +6,6 @@ framework: "Cursor"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/zod-schema-generator/"
 ---
-
 # Zod Schema Generator
 
 Converts JSON samples, TypeScript interfaces, and OpenAPI specs into Zod validation schemas. Uses ts-morph for AST parsing and zod-to-json-schema for bidirectional conversion.
@@ -49,4 +48,4 @@ clawhub install zod-schema-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/zod-schema-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/zod-schema-generator/)

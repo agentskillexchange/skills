@@ -12,24 +12,35 @@ wp-browser is a PHP library that provides Codeception modules for testing WordPr
 
 ## Installation
 
-Install this skill using one of the following methods:
+### Any Agent
 
-### OpenClaw CLI
 ```bash
-openclaw skills install wp-browser-wordpress-integration-testing-codeception
+npx skills add agentskillexchange/skills --skill wp-browser-wordpress-integration-testing-codeception
 ```
 
-### Claude Desktop (MCP)
-Add the skill server to your Claude Desktop configuration to use wp-browser WordPress Integration Testing with Codeception capabilities.
+### Claude Code
 
-### Cursor / Windsurf
-Add as an agent skill in your IDE settings for AI-assisted wordpress & cms workflows.
+```bash
+npx skills add agentskillexchange/skills --skill wp-browser-wordpress-integration-testing-codeception -a claude-code
+```
 
-### ChatGPT / Custom GPTs
-Import as an action or knowledge source in your GPT configuration.
+### Cursor
 
-### Direct Download
-Download the SKILL.md file and add it to your agent's skills directory.
+```bash
+npx skills add agentskillexchange/skills --skill wp-browser-wordpress-integration-testing-codeception -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill wp-browser-wordpress-integration-testing-codeception -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install wp-browser-wordpress-integration-testing-codeception
+```
 
 ## Source
 

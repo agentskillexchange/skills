@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: gitlabhq/gitlabhq
   maintained: true
 ---
-
 # GitLab CI Auto DevOps Configurator
 
 Configures GitLab CI/CD pipelines using .gitlab-ci.yml with Auto DevOps templates, includes, and the GitLab Container Registry. Manages multi-project pipelines and environment-specific deployments.
@@ -58,4 +57,4 @@ clawhub install gitlab-ci-auto-devops-configurator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/gitlab-ci-auto-devops-configurator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/gitlab-ci-auto-devops-configurator/)

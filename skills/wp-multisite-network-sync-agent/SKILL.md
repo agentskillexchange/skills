@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: WordPress/WordPress
   maintained: true
 ---
-
 # WP Multisite Network Sync Agent
 
 Synchronizes content, users, and plugin configurations across WordPress Multisite networks using the WP_Site_Query API and switch_to_blog(). Automates bulk site provisioning via wp_insert_site() with REST endpoint monitoring.
@@ -54,4 +53,4 @@ clawhub install wp-multisite-network-sync-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/wp-multisite-network-sync-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/wp-multisite-network-sync-agent/)

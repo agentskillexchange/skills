@@ -6,7 +6,6 @@ framework: "Gemini"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/sbom-generator-cyclonedx/"
 ---
-
 # SBOM Generator with CycloneDX
 
 Generates Software Bill of Materials in CycloneDX 1.5 format using cdxgen and syft. Enriches component data with license detection from clearlydefined.io and vulnerability cross-referencing via OSV.dev.
@@ -53,4 +52,4 @@ clawhub install sbom-generator-cyclonedx
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/sbom-generator-cyclonedx/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/sbom-generator-cyclonedx/)

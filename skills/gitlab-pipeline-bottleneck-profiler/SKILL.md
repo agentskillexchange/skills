@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: gitlabhq/gitlabhq
   maintained: true
 ---
-
 # GitLab Pipeline Bottleneck Profiler
 
 Profiles GitLab CI/CD pipeline execution using the GitLab Pipelines API and Job Artifacts API. Identifies stage bottlenecks and generates flame-graph visualizations of job dependencies.
@@ -60,4 +59,4 @@ clawhub install gitlab-pipeline-bottleneck-profiler
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/gitlab-pipeline-bottleneck-profiler/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/gitlab-pipeline-bottleneck-profiler/)

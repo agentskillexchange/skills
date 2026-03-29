@@ -6,7 +6,6 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/step-security/harden-runner"
 ---
-
 # Harden-Runner CI/CD Security Agent for GitHub Actions
 
 Harden-Runner by StepSecurity is a CI/CD security agent that works like an EDR for GitHub Actions runners. It monitors network egress, file integrity, and process activity in real-time, detecting supply chain attacks such as the tj-actions and Codecov compromises.
@@ -55,4 +54,4 @@ clawhub install harden-runner-cicd-security-agent-github-actions
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/harden-runner-cicd-security-agent-github-actions/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/harden-runner-cicd-security-agent-github-actions/)

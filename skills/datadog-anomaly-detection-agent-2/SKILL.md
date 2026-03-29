@@ -12,7 +12,6 @@ tool_ecosystem:
   github_repo: DataDog/dd-trace-js
   maintained: true
 ---
-
 # Datadog Anomaly Detection Agent
 
 Monitors Datadog metric streams using the Datadog API v2 and applies ML-based anomaly detection to alert on infrastructure drift. Integrates with PagerDuty and Slack webhooks for multi-channel incident routing.
@@ -59,4 +58,4 @@ clawhub install datadog-anomaly-detection-agent-2
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/datadog-anomaly-detection-agent-2/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/datadog-anomaly-detection-agent-2/)

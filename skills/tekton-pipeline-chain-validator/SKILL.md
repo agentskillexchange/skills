@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Tekton Pipeline Chain Validator
 
 Validates Tekton pipeline supply chain security using Sigstore cosign verification and SLSA provenance checks. Ensures all pipeline tasks have signed images and proper attestation metadata via the Tekton Results API.
@@ -55,4 +54,4 @@ clawhub install tekton-pipeline-chain-validator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/tekton-pipeline-chain-validator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/tekton-pipeline-chain-validator/)

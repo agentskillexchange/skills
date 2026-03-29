@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # AI-Powered Meta Description Writer
 
 Generates optimized meta descriptions using OpenAI Chat Completions API with token-aware truncation. Integrates with Yoast SEO REST API fields and Google SERP Preview validation for CTR optimization.
@@ -56,4 +55,4 @@ clawhub install ai-powered-meta-description-writer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/ai-powered-meta-description-writer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/ai-powered-meta-description-writer/)

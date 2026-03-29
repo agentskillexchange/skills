@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # SerpAPI Search Pipeline
 
 Automates multi-engine searches via SerpAPI (Google, Bing, DuckDuckGo) with structured JSON extraction. Supports pagination, location targeting, and result deduplication using MinHash LSH.
@@ -62,4 +61,4 @@ clawhub install serpapi-search-pipeline
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/serpapi-search-pipeline/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/serpapi-search-pipeline/)

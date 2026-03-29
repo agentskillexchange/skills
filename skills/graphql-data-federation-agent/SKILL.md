@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # GraphQL Data Federation Agent
 
 Federates data from multiple GraphQL and REST APIs using Apollo Federation gateway. Implements schema stitching with automatic type merging and the DataLoader pattern for N+1 prevention.
@@ -56,4 +55,4 @@ clawhub install graphql-data-federation-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/graphql-data-federation-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/graphql-data-federation-agent/)

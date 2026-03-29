@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Cypress Component Test Generator
 
 Auto-generates Cypress component tests from React and Vue source files using AST parsing. Produces mount, interaction, and accessibility test cases.
@@ -60,4 +59,4 @@ clawhub install cypress-component-test-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/cypress-component-test-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/cypress-component-test-generator/)

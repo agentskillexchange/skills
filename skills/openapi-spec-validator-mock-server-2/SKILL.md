@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: postmanlabs/postman-app-support
   maintained: true
 ---
-
 # OpenAPI Spec Validator & Mock Server
 
 Validates OpenAPI 3.x specifications using the swagger-parser library and generates Prism mock servers. Detects schema inconsistencies, missing examples, and generates SDK client stubs via openapi-generator.
@@ -54,4 +53,4 @@ clawhub install openapi-spec-validator-mock-server-2
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/openapi-spec-validator-mock-server-2/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/openapi-spec-validator-mock-server-2/)

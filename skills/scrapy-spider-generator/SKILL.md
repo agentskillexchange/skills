@@ -13,7 +13,6 @@ tool_ecosystem:
   license: BSD-3-Clause
   maintained: true
 ---
-
 # Scrapy Spider Generator
 
 Generates production-ready Scrapy spiders with middleware configuration and item pipeline setup. Uses the Scrapy Framework API, Selector (XPath/CSS), and Twisted reactor for concurrent crawling.
@@ -60,4 +59,4 @@ clawhub install scrapy-spider-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/scrapy-spider-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/scrapy-spider-generator/)

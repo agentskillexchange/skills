@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # CloudWatch Anomaly Detector
 
 Creates and manages CloudWatch Anomaly Detection bands using AWS SDK PutAnomalyDetector and GetMetricData APIs. Generates alerts when metrics breach learned baselines with configurable sensitivity.
@@ -60,4 +59,4 @@ clawhub install cloudwatch-anomaly-detector
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/cloudwatch-anomaly-detector/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/cloudwatch-anomaly-detector/)

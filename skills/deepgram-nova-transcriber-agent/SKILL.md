@@ -6,7 +6,6 @@ framework: "OpenClaw"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/deepgram-nova-transcriber-agent/"
 ---
-
 # Deepgram Nova Transcriber
 
 Transcribes audio using the Deepgram Nova-2 API with diarization, punctuation, and smart formatting. Supports streaming via WebSocket and batch via REST with pre-recorded endpoint and callback URLs.
@@ -53,4 +52,4 @@ clawhub install deepgram-nova-transcriber-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/deepgram-nova-transcriber-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/deepgram-nova-transcriber-agent/)

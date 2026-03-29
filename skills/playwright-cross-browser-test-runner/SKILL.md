@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Playwright Cross-Browser Test Runner
 
 Runs end-to-end browser tests using Playwright Test with page.goto, page.locator, and expect assertions. Supports Chromium, Firefox, and WebKit with parallel execution and trace recording via trace.zip artifacts.
@@ -56,4 +55,4 @@ clawhub install playwright-cross-browser-test-runner
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/playwright-cross-browser-test-runner/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/playwright-cross-browser-test-runner/)

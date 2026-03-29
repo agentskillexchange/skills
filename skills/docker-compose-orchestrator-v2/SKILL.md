@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Docker Compose Orchestrator
 
 Manages multi-service Docker Compose environments using the Compose V2 Go API and Docker Engine SDK. Handles health checks, dependency ordering, and rolling updates.
@@ -55,4 +54,4 @@ clawhub install docker-compose-orchestrator-v2
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/docker-compose-orchestrator-v2/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/docker-compose-orchestrator-v2/)

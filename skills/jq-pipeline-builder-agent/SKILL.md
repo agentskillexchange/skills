@@ -6,7 +6,6 @@ framework: "Gemini"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/jq-pipeline-builder-agent/"
 ---
-
 # jq Pipeline Builder Agent
 
 Constructs complex jq filter pipelines from natural language queries against JSON/NDJSON data streams. Uses jq built-in functions including path expressions, reduce, and SQL-style operators.
@@ -49,4 +48,4 @@ clawhub install jq-pipeline-builder-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/jq-pipeline-builder-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/jq-pipeline-builder-agent/)

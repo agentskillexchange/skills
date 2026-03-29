@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: false
 ---
-
 # Incident Response Checklist Engine
 
 Generates and tracks incident response checklists using PagerDuty Incident Workflows API and Statuspage.io API. Automates severity classification, stakeholder notification, and post-incident review scheduling with Jira Service Management integration.
@@ -62,4 +61,4 @@ clawhub install incident-response-checklist-engine
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/incident-response-checklist-engine/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/incident-response-checklist-engine/)

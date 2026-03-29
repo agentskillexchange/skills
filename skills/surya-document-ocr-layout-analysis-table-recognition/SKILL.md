@@ -12,20 +12,35 @@ Surya is a document OCR toolkit by Datalab that performs OCR in 90+ languages, l
 
 ## Installation
 
-Install this skill using one of the following methods:
+### Any Agent
 
-### OpenClaw CLI
 ```bash
-openclaw skills install surya-document-ocr-layout-analysis-table-recognition
+npx skills add agentskillexchange/skills --skill surya-document-ocr-layout-analysis-table-recognition
 ```
 
-### Clawhub CLI
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill surya-document-ocr-layout-analysis-table-recognition -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill surya-document-ocr-layout-analysis-table-recognition -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill surya-document-ocr-layout-analysis-table-recognition -a codex
+```
+
+### OpenClaw
+
 ```bash
 clawhub install surya-document-ocr-layout-analysis-table-recognition
 ```
-
-### Manual Installation
-Download from [Agent Skill Exchange](https://agentskillexchange.com/skills/surya-document-ocr-layout-analysis-table-recognition/) and follow the setup instructions.
 
 ## Source
 

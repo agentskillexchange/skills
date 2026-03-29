@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Swagger Codegen Orchestrator
 
 Orchestrates OpenAPI 3.x code generation using swagger-codegen-cli and openapi-generator. Produces typed client SDKs for TypeScript, Python, and Go with custom Mustache templates.
@@ -56,4 +55,4 @@ clawhub install swagger-codegen-orchestrator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/swagger-codegen-orchestrator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/swagger-codegen-orchestrator/)

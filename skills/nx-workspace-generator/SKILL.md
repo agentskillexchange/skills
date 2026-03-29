@@ -6,7 +6,6 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/nx-workspace-generator/"
 ---
-
 # Nx Workspace Generator
 
 Creates and manages Nx monorepo workspace generators using @nx/devkit and the Nx plugin API. Generates libraries, applications, and custom executors with automatic dependency graph updates via nx graph.
@@ -53,4 +52,4 @@ clawhub install nx-workspace-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/nx-workspace-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/nx-workspace-generator/)

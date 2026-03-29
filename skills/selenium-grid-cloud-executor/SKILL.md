@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Selenium Grid Cloud Executor
 
 Distributes browser test suites across Selenium Grid 4 nodes using RemoteWebDriver and the W3C WebDriver protocol. Supports parallel execution on BrowserStack and Sauce Labs with automatic capability negotiation.
@@ -60,4 +59,4 @@ clawhub install selenium-grid-cloud-executor
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/selenium-grid-cloud-executor/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/selenium-grid-cloud-executor/)

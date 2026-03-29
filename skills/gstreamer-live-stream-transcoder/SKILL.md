@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # GStreamer Live Stream Transcoder
 
 Builds GStreamer pipelines for real-time video transcoding with NVENC/VA-API hardware acceleration. Supports adaptive bitrate HLS/DASH output via GStreamer’s hlssink2 and dashsink elements.
@@ -56,4 +55,4 @@ clawhub install gstreamer-live-stream-transcoder
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/gstreamer-live-stream-transcoder/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/gstreamer-live-stream-transcoder/)

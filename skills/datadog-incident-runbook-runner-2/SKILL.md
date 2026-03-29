@@ -12,7 +12,6 @@ tool_ecosystem:
   github_repo: DataDog/dd-trace-js
   maintained: true
 ---
-
 # Datadog Incident Runbook Runner
 
 Fetches an active Datadog incident, retrieves associated monitors and dashboards, pulls the last 30 minutes of metric data, and walks through a runbook checklist with automated triage steps. Reduces mean time to diagnosis by surfacing signal without dashboard navigation.
@@ -67,4 +66,4 @@ clawhub install datadog-incident-runbook-runner-2
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/datadog-incident-runbook-runner-2/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/datadog-incident-runbook-runner-2/)

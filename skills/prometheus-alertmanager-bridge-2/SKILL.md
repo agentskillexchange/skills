@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Prometheus Alertmanager Bridge
 
 Bridges Prometheus Alertmanager notifications to Microsoft Teams, Discord, and Telegram using adaptive card templates and PromQL-based alert correlation.
@@ -60,4 +59,4 @@ clawhub install prometheus-alertmanager-bridge-2
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/prometheus-alertmanager-bridge-2/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-alertmanager-bridge-2/)

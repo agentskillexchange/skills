@@ -12,7 +12,6 @@ tool_ecosystem:
   github_repo: DataDog/dd-trace-js
   maintained: true
 ---
-
 # Datadog Anomaly Detector
 
 Leverages the Datadog API v2 metrics and events endpoints to detect anomalous patterns. Uses the Datadog Monitors API to create dynamic thresholds and sends escalations via OpsGenie REST API.
@@ -59,4 +58,4 @@ clawhub install datadog-anomaly-detector
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/datadog-anomaly-detector/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/datadog-anomaly-detector/)

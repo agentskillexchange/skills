@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Copy.ai Sales Email Sequence Builder
 
 Leverages Copy.ai’s Workflows API to generate multi-step cold outreach sequences with persona-specific messaging. Each sequence step is rendered using Copy.ai’s email-sequence template type and pushed to HubSpot CRM via the HubSpot Contacts and Emails API.
@@ -68,4 +67,4 @@ clawhub install copyai-sales-email-sequence
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/copyai-sales-email-sequence/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/copyai-sales-email-sequence/)

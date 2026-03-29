@@ -12,7 +12,6 @@ tool_ecosystem:
   license: BSD-2-Clause
   maintained: true
 ---
-
 # Nginx Error Log Runbook Agent
 
 Automates Nginx error diagnosis using nginx -T configuration dump, error.log pattern matching, and the Nginx Plus REST API /api/8/http/upstreams endpoint. Resolves 502 Bad Gateway, SSL handshake failures, and upstream timeout issues.
@@ -59,4 +58,4 @@ clawhub install nginx-error-log-runbook-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/nginx-error-log-runbook-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/nginx-error-log-runbook-agent/)

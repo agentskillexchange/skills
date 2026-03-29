@@ -8,7 +8,6 @@ source: "https://agentskillexchange.com/skills/stable-diffusion-prompt-optimizer
 tool_ecosystem:
   tool: stable.diffusion
 ---
-
 # Stable Diffusion Prompt Optimizer
 
 Analyzes and enhances Stable Diffusion prompts using the Automatic1111 WebUI API /sdapi/v1/txt2img endpoint. Applies prompt weighting, negative prompt generation, and A1111-specific syntax like (keyword:weight).
@@ -51,4 +50,4 @@ clawhub install stable-diffusion-prompt-optimizer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/stable-diffusion-prompt-optimizer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/stable-diffusion-prompt-optimizer/)

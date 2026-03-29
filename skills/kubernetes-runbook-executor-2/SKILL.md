@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Kubernetes Runbook Executor
 
 Executes diagnostic runbooks against Kubernetes clusters using the official kubernetes/client-go SDK and kubectl commands. Checks pod health via the /healthz and /readyz endpoints and analyzes events with the CoreV1 Events API.
@@ -61,4 +60,4 @@ clawhub install kubernetes-runbook-executor-2
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/kubernetes-runbook-executor-2/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-runbook-executor-2/)

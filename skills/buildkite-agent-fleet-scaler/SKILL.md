@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Buildkite Agent Fleet Scaler
 
 Auto-scales Buildkite agent fleets based on queue depth and job wait times using the Buildkite GraphQL API. Manages AWS EC2 spot instances and Kubernetes HPA configurations for elastic CI capacity.
@@ -55,4 +54,4 @@ clawhub install buildkite-agent-fleet-scaler
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/buildkite-agent-fleet-scaler/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/buildkite-agent-fleet-scaler/)

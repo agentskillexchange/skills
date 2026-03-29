@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # DALL-E Variation Generator
 
 Generates image variations and edits using OpenAI’s DALL-E 3 API with mask-based inpainting, style consistency scoring via CLIP embeddings, and automatic prompt refinement loops.
@@ -60,4 +59,4 @@ clawhub install dalle-variation-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/dalle-variation-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/dalle-variation-generator/)

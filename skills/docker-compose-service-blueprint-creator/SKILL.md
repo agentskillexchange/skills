@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Docker Compose Service Blueprint Creator
 
 Creates Docker Compose YAML service definitions using the Compose Specification. Configures multi-service stacks with proper network isolation, volume mounts, health checks, and dependency ordering via depends_on conditions.
@@ -55,4 +54,4 @@ clawhub install docker-compose-service-blueprint-creator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/docker-compose-service-blueprint-creator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/docker-compose-service-blueprint-creator/)

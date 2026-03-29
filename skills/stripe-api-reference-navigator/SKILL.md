@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Stripe API Reference Navigator
 
 Navigates and queries the Stripe REST API documentation using stripe-node SDK methods. Resolves payment intent lifecycle, webhook event schemas, and Connect platform payout structures with type-safe parameter validation.
@@ -56,4 +55,4 @@ clawhub install stripe-api-reference-navigator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/stripe-api-reference-navigator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/stripe-api-reference-navigator/)

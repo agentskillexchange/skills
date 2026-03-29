@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # ESLint Rule Conflict Resolver
 
 Detects and resolves conflicting ESLint rules across .eslintrc configurations using the ESLint Node.js API. Analyzes rule interactions between eslint-config-airbnb, eslint-config-prettier, and typescript-eslint plugins.
@@ -56,4 +55,4 @@ clawhub install eslint-rule-conflict-resolver
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/eslint-rule-conflict-resolver/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/eslint-rule-conflict-resolver/)

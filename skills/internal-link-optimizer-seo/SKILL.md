@@ -6,7 +6,6 @@ framework: "Custom Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/internal-link-optimizer-seo/"
 ---
-
 # Internal Link Optimizer
 
 Optimizes internal linking structure using Screaming Frog SEO Spider XML exports and NetworkX graph analysis. Identifies orphan pages, calculates PageRank distribution, and suggests anchor text improvements.
@@ -53,4 +52,4 @@ clawhub install internal-link-optimizer-seo
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/internal-link-optimizer-seo/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/internal-link-optimizer-seo/)

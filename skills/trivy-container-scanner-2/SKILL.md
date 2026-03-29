@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Trivy Container Scanner
 
 Wraps the Trivy CLI for comprehensive container image vulnerability scanning. Outputs results in SARIF format for GitHub Code Scanning API integration and generates OCI artifact attestations.
@@ -59,4 +58,4 @@ clawhub install trivy-container-scanner-2
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/trivy-container-scanner-2/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/trivy-container-scanner-2/)

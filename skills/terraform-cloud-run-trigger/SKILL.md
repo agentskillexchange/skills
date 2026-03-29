@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: hashicorp/terraform
   maintained: true
 ---
-
 # Terraform Cloud Run Trigger
 
 Automates Terraform Cloud workspace runs using the TFC API v2. Creates runs via POST /api/v2/runs with plan-only or auto-apply modes, streams plan output from /api/v2/plans/{id}/log, and manages workspace variables through /api/v2/workspaces/{id}/vars for infrastructure-as-code pipelines.
@@ -62,4 +61,4 @@ clawhub install terraform-cloud-run-trigger
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/terraform-cloud-run-trigger/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-cloud-run-trigger/)

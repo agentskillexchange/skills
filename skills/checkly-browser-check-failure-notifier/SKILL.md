@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Checkly Browser Check Failure Notifier
 
 Monitors Checkly browser checks via the Checkly Management API and notifies teams on Playwright test failures. Extracts failure screenshots, trace URLs, and degraded check results.
@@ -56,4 +55,4 @@ clawhub install checkly-browser-check-failure-notifier
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/checkly-browser-check-failure-notifier/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/checkly-browser-check-failure-notifier/)

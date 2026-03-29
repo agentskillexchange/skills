@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: gitlabhq/gitlabhq
   maintained: true
 ---
-
 # GitLab CI Pipeline Migrator
 
 Converts GitLab CI .gitlab-ci.yml pipelines to GitHub Actions workflows using the gitlab-ci-local parser and YAML AST transformations. Maps GitLab stages, services, and artifacts to equivalent GitHub Actions syntax.
@@ -60,4 +59,4 @@ clawhub install gitlab-ci-pipeline-migrator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/gitlab-ci-pipeline-migrator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/gitlab-ci-pipeline-migrator/)

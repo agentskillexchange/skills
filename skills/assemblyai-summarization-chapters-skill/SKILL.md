@@ -6,7 +6,6 @@ framework: "Claude Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/assemblyai-summarization-chapters-skill/"
 ---
-
 # AssemblyAI Summarization & Chapters Skill
 
 Transcribes audio and generates auto-chapters with summaries using AssemblyAI’s /v2/transcript endpoint with auto_chapters=true. Extracts key topics, sentiment analysis, and content safety labels via AssemblyAI SDK.
@@ -49,4 +48,4 @@ clawhub install assemblyai-summarization-chapters-skill
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/assemblyai-summarization-chapters-skill/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/assemblyai-summarization-chapters-skill/)

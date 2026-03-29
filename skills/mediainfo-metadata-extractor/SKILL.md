@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # MediaInfo Metadata Extractor
 
 Extracts comprehensive media metadata using the MediaInfo library and pymediainfo Python bindings. Analyzes video/audio codec parameters, container formats, and HDR metadata for media asset management.
@@ -60,4 +59,4 @@ clawhub install mediainfo-metadata-extractor
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/mediainfo-metadata-extractor/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/mediainfo-metadata-extractor/)

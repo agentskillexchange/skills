@@ -6,7 +6,6 @@ framework: "MCP"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/python-package-dependency-graph-mapper/"
 ---
-
 # Python Package Dependency Graph Mapper
 
 Builds dependency graphs for Python packages using the PyPI JSON API and pipdeptree library. Visualizes transitive dependency chains and identifies version conflict risks.
@@ -49,4 +48,4 @@ clawhub install python-package-dependency-graph-mapper
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/python-package-dependency-graph-mapper/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/python-package-dependency-graph-mapper/)

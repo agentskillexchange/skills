@@ -6,7 +6,6 @@ framework: "Custom Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/python-dependency-graph-resolver/"
 ---
-
 # Python Dependency Graph Resolver
 
 Resolves and visualizes Python package dependency graphs using pip, pipdeptree, and the PyPI JSON API. Detects version conflicts, circular dependencies, and vulnerable transitive dependencies.
@@ -53,4 +52,4 @@ clawhub install python-dependency-graph-resolver
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/python-dependency-graph-resolver/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/python-dependency-graph-resolver/)

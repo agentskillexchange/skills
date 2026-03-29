@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: WordPress/WordPress
   maintained: true
 ---
-
 # WP Abilities API
 
 Specialized support for defining, exposing, and debugging WordPress abilities through the Abilities API.
@@ -68,4 +67,4 @@ clawhub install wp-abilities-api
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/wp-abilities-api/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/wp-abilities-api/)

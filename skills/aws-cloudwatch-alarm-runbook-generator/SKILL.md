@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # AWS CloudWatch Alarm Runbook Generator
 
 Generates structured incident runbooks from AWS CloudWatch alarm configurations using the CloudWatch DescribeAlarms API and AWS Systems Manager documents. Links alarms to remediation procedures automatically.
@@ -56,4 +55,4 @@ clawhub install aws-cloudwatch-alarm-runbook-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/aws-cloudwatch-alarm-runbook-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/aws-cloudwatch-alarm-runbook-generator/)

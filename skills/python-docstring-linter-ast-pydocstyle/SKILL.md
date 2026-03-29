@@ -6,7 +6,6 @@ framework: "Codex"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/python-docstring-linter-ast-pydocstyle/"
 ---
-
 # Python Docstring Linter
 
 Validates and auto-generates Python docstrings using the ast module and pydocstyle conventions. Supports NumPy, Google, and Sphinx docstring formats with type stub integration.
@@ -49,4 +48,4 @@ clawhub install python-docstring-linter-ast-pydocstyle
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/python-docstring-linter-ast-pydocstyle/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/python-docstring-linter-ast-pydocstyle/)

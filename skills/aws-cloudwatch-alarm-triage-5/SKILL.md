@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # AWS CloudWatch Alarm Triage
 
 Triages AWS CloudWatch alarms using boto3 CloudWatch.describe_alarms, CloudWatch Logs Insights queries, and AWS X-Ray trace analysis via the xray-sdk. Correlates alarm triggers with deployment events.
@@ -56,4 +55,4 @@ clawhub install aws-cloudwatch-alarm-triage-5
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/aws-cloudwatch-alarm-triage-5/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/aws-cloudwatch-alarm-triage-5/)

@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # YouTube Chapters Generator with Whisper
 
 Downloads YouTube audio via yt-dlp, transcribes with Whisper, and uses NLP topic segmentation via TextTiling algorithm to auto-generate chapter markers with timestamps and titles.
@@ -56,4 +55,4 @@ clawhub install youtube-chapters-generator-whisper
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/youtube-chapters-generator-whisper/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/youtube-chapters-generator-whisper/)

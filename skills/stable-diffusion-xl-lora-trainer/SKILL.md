@@ -8,7 +8,6 @@ source: "https://agentskillexchange.com/skills/stable-diffusion-xl-lora-trainer/
 tool_ecosystem:
   tool: stable.diffusion
 ---
-
 # Stable Diffusion XL LoRA Trainer
 
 Fine-tune Stable Diffusion XL models with LoRA adapters using the diffusers library and Kohya-ss training scripts. Manages dataset preparation, training configuration, and checkpoint merging for custom image generation.
@@ -57,4 +56,4 @@ clawhub install stable-diffusion-xl-lora-trainer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/stable-diffusion-xl-lora-trainer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/stable-diffusion-xl-lora-trainer/)

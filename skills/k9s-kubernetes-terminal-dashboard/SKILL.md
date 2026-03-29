@@ -6,7 +6,6 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/derailed/k9s"
 ---
-
 # K9s Kubernetes Terminal Dashboard
 
 K9s is a terminal-based UI for managing Kubernetes clusters, providing real-time observation of resources, log tailing, pod shell access, and cluster navigation. Written in Go with over 28,000 GitHub stars, it replaces dozens of kubectl commands with an interactive interface.
@@ -57,4 +56,4 @@ clawhub install k9s-kubernetes-terminal-dashboard
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/k9s-kubernetes-terminal-dashboard/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/k9s-kubernetes-terminal-dashboard/)

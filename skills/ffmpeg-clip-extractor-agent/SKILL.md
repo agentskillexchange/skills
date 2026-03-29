@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: FFmpeg/FFmpeg
   maintained: true
 ---
-
 # FFmpeg Clip Extractor
 
 Extracts video clips and segments using FFmpeg libavformat and libavcodec APIs. Supports keyframe-accurate cutting with -ss/-to flags, stream copy mode, and re-encoding via libx264/libx265 presets.
@@ -58,4 +57,4 @@ clawhub install ffmpeg-clip-extractor-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/ffmpeg-clip-extractor-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/ffmpeg-clip-extractor-agent/)

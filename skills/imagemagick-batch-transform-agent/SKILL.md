@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: ImageMagick/ImageMagick
   maintained: true
 ---
-
 # ImageMagick Batch Transform Agent
 
 Automates ImageMagick convert and mogrify operations for bulk image processing including responsive srcset generation, WebP/AVIF conversion, and ICC color profile management with Little CMS integration.
@@ -58,4 +57,4 @@ clawhub install imagemagick-batch-transform-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/imagemagick-batch-transform-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/imagemagick-batch-transform-agent/)

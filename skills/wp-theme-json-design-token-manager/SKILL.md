@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: WordPress/WordPress
   maintained: true
 ---
-
 # WordPress Theme.json Design Token Manager
 
 Manages WordPress theme.json design tokens including color palettes, typography presets, and spacing scales. Uses the WP_Theme_JSON_Resolver class and wp_get_global_settings() for dynamic token resolution.
@@ -54,4 +53,4 @@ clawhub install wp-theme-json-design-token-manager
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/wp-theme-json-design-token-manager/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/wp-theme-json-design-token-manager/)

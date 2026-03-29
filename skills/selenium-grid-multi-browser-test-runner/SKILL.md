@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Selenium Grid Multi-Browser Test Runner
 
 Orchestrates parallel cross-browser testing across Selenium Grid nodes using WebDriver RemoteConnection API. Supports Chrome, Firefox, and Edge with configurable DesiredCapabilities for each browser matrix.
@@ -56,4 +55,4 @@ clawhub install selenium-grid-multi-browser-test-runner
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/selenium-grid-multi-browser-test-runner/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/selenium-grid-multi-browser-test-runner/)

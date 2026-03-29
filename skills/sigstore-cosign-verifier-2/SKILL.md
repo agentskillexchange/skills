@@ -6,7 +6,6 @@ framework: "Cursor"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/sigstore-cosign-verifier-2/"
 ---
-
 # Sigstore Cosign Verifier
 
 Automates container image signature verification using Cosign CLI and the Rekor transparency log API. Validates SLSA provenance attestations and checks Fulcio certificate chains for keyless signing.
@@ -53,4 +52,4 @@ clawhub install sigstore-cosign-verifier-2
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/sigstore-cosign-verifier-2/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/sigstore-cosign-verifier-2/)

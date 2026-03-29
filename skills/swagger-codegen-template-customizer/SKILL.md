@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Swagger Codegen Template Customizer
 
 Extends Swagger Codegen and OpenAPI Generator with custom Mustache templates for client SDK generation. Supports Java (OkHttp/Retrofit), TypeScript (Axios/Fetch), and Python (httpx) output targets.
@@ -60,4 +59,4 @@ clawhub install swagger-codegen-template-customizer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/swagger-codegen-template-customizer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/swagger-codegen-template-customizer/)

@@ -12,7 +12,6 @@ tool_ecosystem:
   license: AGPL-3.0
   maintained: true
 ---
-
 # Grafana Dashboard as Code Builder
 
 Builds Grafana dashboards programmatically using grafonnet-lib (Jsonnet) and the Grafana HTTP API. Generates panel JSON for time series, stat, table, and heatmap visualizations with PromQL/LogQL queries.
@@ -59,4 +58,4 @@ clawhub install grafana-dashboard-as-code-builder
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/grafana-dashboard-as-code-builder/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/grafana-dashboard-as-code-builder/)

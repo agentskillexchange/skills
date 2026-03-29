@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Puppeteer Multi-Tab Session Manager
 
 Manages concurrent Puppeteer browser tabs with shared cookie jars and session persistence using Chrome DevTools Protocol. Handles tab lifecycle, navigation queues, and automatic retry with exponential backoff via puppeteer-cluster.
@@ -62,4 +61,4 @@ clawhub install puppeteer-multi-tab-session-manager
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/puppeteer-multi-tab-session-manager/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/puppeteer-multi-tab-session-manager/)

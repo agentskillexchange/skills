@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # ArgoCD Deployment Monitor
 
 Monitors ArgoCD application deployments using the ArgoCD REST API and gRPC interface. Tracks sync status, health checks, and rollback history across Kubernetes namespaces.
@@ -55,4 +54,4 @@ clawhub install argocd-deployment-monitor
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/argocd-deployment-monitor/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/argocd-deployment-monitor/)

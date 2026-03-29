@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # OAuth2 Token Introspection Agent
 
 Validates OAuth2 tokens using RFC 7662 introspection endpoints. Integrates with Keycloak, Auth0, and Okta token introspection APIs to verify token claims, scopes, and expiration in real time.
@@ -68,4 +67,4 @@ clawhub install oauth2-token-introspection-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/oauth2-token-introspection-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/oauth2-token-introspection-agent/)

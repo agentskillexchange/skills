@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Fly.io Deployment Helper
 
 Fly.io Deployment Helper is built around GraphQL API ecosystem. The underlying ecosystem is represented by graphql/graphql-js (20,335+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like queries, mutations, schema introspection, fragments, pagination, subscriptions and preserving the operational context […]
@@ -68,4 +67,4 @@ clawhub install fly-io-deployment-helper
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/fly-io-deployment-helper/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/fly-io-deployment-helper/)

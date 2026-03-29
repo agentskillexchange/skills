@@ -13,7 +13,6 @@ tool_ecosystem:
   license: BSD-3-Clause
   maintained: true
 ---
-
 # Scrapy Distributed Crawler Framework
 
 Orchestrates large-scale web crawling using Scrapy with scrapy-redis for distributed job queuing. Integrates Splash for JavaScript rendering, stores results in MongoDB via scrapy-mongodb pipeline, and respects robots.txt with AutoThrottle.
@@ -60,4 +59,4 @@ clawhub install scrapy-distributed-crawler-framework
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/scrapy-distributed-crawler-framework/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/scrapy-distributed-crawler-framework/)

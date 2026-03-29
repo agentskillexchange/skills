@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Puppeteer PDF Renderer
 
 Generates pixel-perfect PDFs from web pages using Puppeteer with custom headers, footers, and page breaks. Supports authenticated pages via cookie injection.
@@ -60,4 +59,4 @@ clawhub install puppeteer-pdf-renderer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/puppeteer-pdf-renderer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/puppeteer-pdf-renderer/)

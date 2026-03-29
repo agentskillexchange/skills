@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Pexels API Stock Photo Curator
 
 Searches and downloads royalty-free images from Pexels API with smart filtering by orientation, color, and size. Generates attribution HTML and maintains a local deduplication index via SQLite.
@@ -56,4 +55,4 @@ clawhub install pexels-api-stock-photo-curator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/pexels-api-stock-photo-curator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/pexels-api-stock-photo-curator/)

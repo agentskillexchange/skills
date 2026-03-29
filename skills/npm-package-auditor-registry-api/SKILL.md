@@ -6,7 +6,6 @@ framework: "MCP"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/npm-package-auditor-registry-api/"
 ---
-
 # NPM Package Auditor
 
 Audits NPM packages using the NPM Registry API with dependency tree resolution and vulnerability scanning via OSV.dev API. Generates SBOM in CycloneDX format and checks license compliance against SPDX expression parser.
@@ -51,4 +50,4 @@ clawhub install npm-package-auditor-registry-api
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/npm-package-auditor-registry-api/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/npm-package-auditor-registry-api/)

@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Hugging Face Model Deployer
 
 Deploys models from Hugging Face Hub to Inference Endpoints using the huggingface_hub client and REST API. Monitors endpoint health and autoscaling status and streams logs to the terminal. Supports private repos with HF_TOKEN and custom Docker containers.
@@ -67,4 +66,4 @@ clawhub install huggingface-model-deployer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/huggingface-model-deployer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/huggingface-model-deployer/)

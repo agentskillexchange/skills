@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: hashicorp/terraform
   maintained: true
 ---
-
 # Terraform Plan Reviewer Agent
 
 Parses terraform plan -json output and queries the Terraform Cloud API /runs endpoint to review infrastructure changes. Detects destructive operations, estimates cost impact via Infracost API, and validates against OPA policies.
@@ -54,4 +53,4 @@ clawhub install terraform-plan-reviewer-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/terraform-plan-reviewer-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-plan-reviewer-agent/)

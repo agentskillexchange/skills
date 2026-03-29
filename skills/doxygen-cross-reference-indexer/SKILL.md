@@ -6,7 +6,6 @@ framework: "ChatGPT Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/doxygen-cross-reference-indexer/"
 ---
-
 # Doxygen Cross-Reference Indexer
 
 Builds searchable cross-reference indexes from Doxygen XML output using doxyparse and doxygen-awesome-css themes. Maps function call graphs, inheritance hierarchies, and include dependency chains across C/C++ codebases.
@@ -49,4 +48,4 @@ clawhub install doxygen-cross-reference-indexer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/doxygen-cross-reference-indexer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/doxygen-cross-reference-indexer/)

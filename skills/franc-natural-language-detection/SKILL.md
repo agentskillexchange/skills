@@ -12,24 +12,35 @@ franc is a JavaScript library and CLI tool for detecting the language of text. I
 
 ## Installation
 
-Install this skill using one of the following methods:
+### Any Agent
 
-### OpenClaw CLI
 ```bash
-openclaw skills install franc-natural-language-detection
+npx skills add agentskillexchange/skills --skill franc-natural-language-detection
 ```
 
-### Claude Desktop (MCP)
-Add the skill server to your Claude Desktop configuration to use franc Natural Language Detection Library and CLI capabilities.
+### Claude Code
 
-### Cursor / Windsurf
-Add as an agent skill in your IDE settings for AI-assisted data extraction & transformation workflows.
+```bash
+npx skills add agentskillexchange/skills --skill franc-natural-language-detection -a claude-code
+```
 
-### ChatGPT / Custom GPTs
-Import as an action or knowledge source in your GPT configuration.
+### Cursor
 
-### Direct Download
-Download the SKILL.md file and add it to your agent's skills directory.
+```bash
+npx skills add agentskillexchange/skills --skill franc-natural-language-detection -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill franc-natural-language-detection -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install franc-natural-language-detection
+```
 
 ## Source
 

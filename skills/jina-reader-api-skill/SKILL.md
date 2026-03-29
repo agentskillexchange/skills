@@ -6,7 +6,6 @@ framework: "Gemini"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/jina-reader-api-skill/"
 ---
-
 # Jina Reader API Skill
 
 Extracts clean markdown content from any URL using the Jina Reader API (r.jina.ai). Handles JavaScript-rendered pages, PDF extraction, and multi-page crawling with depth control. Returns structured LLM-ready text.
@@ -55,4 +54,4 @@ clawhub install jina-reader-api-skill
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/jina-reader-api-skill/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/jina-reader-api-skill/)

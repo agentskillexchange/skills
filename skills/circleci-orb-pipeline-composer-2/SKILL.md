@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: circleci/circleci-docs
   maintained: true
 ---
-
 # CircleCI Orb Pipeline Composer
 
 Composes multi-stage CircleCI pipelines using reusable Orbs and the CircleCI v2 API. Supports dynamic config generation with setup workflows and pipeline parameters for monorepo deployments.
@@ -54,4 +53,4 @@ clawhub install circleci-orb-pipeline-composer-2
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/circleci-orb-pipeline-composer-2/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-orb-pipeline-composer-2/)

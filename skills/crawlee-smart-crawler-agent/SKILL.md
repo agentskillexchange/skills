@@ -6,7 +6,6 @@ framework: "Cursor"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/crawlee-smart-crawler-agent/"
 ---
-
 # Crawlee Smart Crawler Agent
 
 Implements intelligent web crawling using the Crawlee framework with adaptive request routing between CheerioCrawler and PlaywrightCrawler. Manages request queues, handles anti-bot challenges, and exports structured data.
@@ -49,4 +48,4 @@ clawhub install crawlee-smart-crawler-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/crawlee-smart-crawler-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/crawlee-smart-crawler-agent/)

@@ -6,7 +6,6 @@ framework: "OpenClaw"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/gpg-encryption-key-management-agent/"
 ---
-
 # GPG Encryption and Key Management Agent
 
 Manages GPG key lifecycle and file encryption operations using GnuPG CLI and GPGME library. Handles keyserver synchronization, trust model management, and automated encrypted backup workflows.
@@ -55,4 +54,4 @@ clawhub install gpg-encryption-key-management-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/gpg-encryption-key-management-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/gpg-encryption-key-management-agent/)

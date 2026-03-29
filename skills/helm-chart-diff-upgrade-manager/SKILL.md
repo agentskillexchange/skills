@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Helm Chart Diff & Upgrade Manager
 
 Uses helm-diff to compute a human-readable diff between deployed and candidate chart versions before upgrade. Automatically bumps image tags by querying the OCI registry, then executes helm upgrade –atomic with configurable rollback timeouts. Sends upgrade status to PagerDuty or Datadog.
@@ -67,4 +66,4 @@ clawhub install helm-chart-diff-upgrade-manager
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/helm-chart-diff-upgrade-manager/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/helm-chart-diff-upgrade-manager/)

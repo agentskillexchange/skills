@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # GitHub Actions Workflow Debugger
 
 Diagnoses failing GitHub Actions workflows using the GitHub REST API v3 /actions/runs and /actions/jobs endpoints. Parses step logs, identifies YAML syntax errors, and suggests fixes for runner environment issues.
@@ -60,4 +59,4 @@ clawhub install github-actions-workflow-debugger
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/github-actions-workflow-debugger/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/github-actions-workflow-debugger/)

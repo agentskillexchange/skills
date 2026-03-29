@@ -6,7 +6,6 @@ framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/sxyazi/yazi"
 ---
-
 # Yazi Async Terminal File Manager
 
 Yazi is a blazing-fast terminal file manager written in Rust with async I/O, image previews, Vim keybindings, and a Lua plugin system. It integrates with ripgrep, fd, fzf, and zoxide for a seamless developer workflow in the terminal.

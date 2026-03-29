@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # ESLint Rule Impact Analyzer
 
 Measures the impact of enabling new ESLint rules across a codebase using the ESLint Node.js API and @typescript-eslint/parser. Generates violation heatmaps, estimates auto-fix coverage, and prioritizes rules by fix effort.
@@ -56,4 +55,4 @@ clawhub install eslint-rule-impact-analyzer-2
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/eslint-rule-impact-analyzer-2/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/eslint-rule-impact-analyzer-2/)

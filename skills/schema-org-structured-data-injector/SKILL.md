@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: WordPress/WordPress
   maintained: true
 ---
-
 # Schema.org Structured Data Injector
 
 Generates and validates JSON-LD structured data markup for articles, products, FAQs, and HowTo content types following Schema.org specifications. Integrates with Google’s Rich Results Test API and validates against the Schema.org vocabulary using the sdtt validator.
@@ -58,4 +57,4 @@ clawhub install schema-org-structured-data-injector
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/schema-org-structured-data-injector/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/schema-org-structured-data-injector/)

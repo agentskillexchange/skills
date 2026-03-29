@@ -12,7 +12,6 @@ tool_ecosystem:
   github_repo: redis/redis
   maintained: true
 ---
-
 # SerpAPI Search Aggregator
 
 Aggregates search results from Google, Bing, and DuckDuckGo via the SerpAPI REST endpoint. Parses organic results, knowledge panels, and People Also Ask data into structured JSON for downstream analysis.
@@ -59,4 +58,4 @@ clawhub install serpapi-search-aggregator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/serpapi-search-aggregator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/serpapi-search-aggregator/)

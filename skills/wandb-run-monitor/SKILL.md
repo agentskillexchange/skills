@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Weights & Biases Run Monitor
 
 Uses the W&B Python SDK and Public API to stream live training metrics, system stats, and gradients from active runs. Alerts on metric regressions by querying run history via wandb.Api().runs() and posts summaries to Slack. Supports artifact versioning and lineage tracking.
@@ -68,4 +67,4 @@ clawhub install wandb-run-monitor
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/wandb-run-monitor/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/wandb-run-monitor/)

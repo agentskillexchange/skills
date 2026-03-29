@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # OpenTelemetry Trace Aggregator
 
 Aggregates OpenTelemetry trace spans from Jaeger and Zipkin backends into unified flame graphs. Uses the OTLP gRPC exporter SDK to correlate distributed service calls across microservice boundaries.
@@ -55,4 +54,4 @@ clawhub install opentelemetry-trace-aggregator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/opentelemetry-trace-aggregator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/opentelemetry-trace-aggregator/)

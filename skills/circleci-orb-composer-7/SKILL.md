@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: circleci/circleci-docs
   maintained: true
 ---
-
 # CircleCI Orb Composer
 
 Composes and validates CircleCI Orbs using the circleci/circleci-cli and circleci/orb-tools-orb SDK. Automates orb packaging, semantic versioning with conventional-changelog, and publishing to the CircleCI Orb Registry.
@@ -58,4 +57,4 @@ clawhub install circleci-orb-composer-7
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/circleci-orb-composer-7/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-orb-composer-7/)

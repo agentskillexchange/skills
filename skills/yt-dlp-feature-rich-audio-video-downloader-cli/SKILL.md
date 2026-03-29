@@ -6,7 +6,6 @@ framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/yt-dlp/yt-dlp"
 ---
-
 # yt-dlp Feature-Rich Audio and Video Downloader CLI
 
 yt-dlp is a powerful command-line tool for downloading audio and video from thousands of websites including YouTube, Vimeo, and social media platforms. It supports format selection, subtitle extraction, metadata embedding, SponsorBlock integration, and batch processing with extensive post-processing options.

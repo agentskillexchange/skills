@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # AWS CloudTrail Log Normalizer
 
 Normalizes and enriches AWS CloudTrail JSON logs into OCSF (Open Cybersecurity Schema Framework) format. Maps eventSource/eventName pairs to MITRE ATT&CK technique IDs using the MITRE ATT&CK STIX API.
@@ -62,4 +61,4 @@ clawhub install aws-cloudtrail-log-normalizer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/aws-cloudtrail-log-normalizer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/aws-cloudtrail-log-normalizer/)

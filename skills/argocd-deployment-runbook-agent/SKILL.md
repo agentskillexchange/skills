@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # ArgoCD Deployment Runbook Agent
 
 Manages GitOps deployments using ArgoCD API, argocd CLI, and Kustomize overlays. Automates sync operations, rollback procedures, and application health monitoring.
@@ -61,4 +60,4 @@ clawhub install argocd-deployment-runbook-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/argocd-deployment-runbook-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/argocd-deployment-runbook-agent/)

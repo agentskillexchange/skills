@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # gRPC Service Tool
 
 gRPC Service Tool is built around gRPC remote procedure call framework. The underlying ecosystem is represented by grpc/grpc-node (4,816+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like Protocol Buffers, unary and streaming RPCs, reflection, deadlines, interceptors and […]
@@ -68,4 +67,4 @@ clawhub install grpc-service-tool
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/grpc-service-tool/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/grpc-service-tool/)

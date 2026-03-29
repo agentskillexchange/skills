@@ -6,7 +6,6 @@ framework: "Codex"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/rust-crate-analyzer/"
 ---
-
 # Rust Crate Analyzer
 
 Fetches crate metadata from the crates.io API and docs.rs API for Rust package discovery. Analyzes feature flags, dependency auditing via RustSec Advisory DB, and MSRV compatibility checking.
@@ -53,4 +52,4 @@ clawhub install rust-crate-analyzer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/rust-crate-analyzer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/rust-crate-analyzer/)

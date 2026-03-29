@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # SerpAPI Research Pipeline
 
 Builds structured research datasets by querying SerpAPI Google Search, Google Scholar, and Google News endpoints. Extracts entities via spaCy NER and stores results in SQLite with full-text search.
@@ -56,4 +55,4 @@ clawhub install serpapi-research-pipeline
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/serpapi-research-pipeline/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/serpapi-research-pipeline/)

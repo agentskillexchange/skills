@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: dbt-labs/dbt-core
   maintained: true
 ---
-
 # dbt Model Lineage & Test Coverage Checker
 
 Parses dbt project artifacts (manifest.json and catalog.json) to build a lineage graph and identify models with no tests, stale documentation, or missing uniqueness assertions. Integrates with dbt Cloud API to fetch latest run results and annotates each model with pass/fail status.
@@ -66,4 +65,4 @@ clawhub install dbt-model-lineage-test-coverage-2
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/dbt-model-lineage-test-coverage-2/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/dbt-model-lineage-test-coverage-2/)

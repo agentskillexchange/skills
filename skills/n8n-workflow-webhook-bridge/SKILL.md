@@ -6,7 +6,6 @@ framework: "OpenClaw"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/n8n-workflow-webhook-bridge/"
 ---
-
 # n8n Workflow Webhook Bridge
 
 Builds integration handoffs around n8n primitives like the Webhook node, HTTP Request node, and execution data inspection. Great for connecting event sources, transforming payloads, and making low-code workflows behave more like reliable integration middleware.
@@ -53,4 +52,4 @@ clawhub install n8n-workflow-webhook-bridge
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/n8n-workflow-webhook-bridge/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/n8n-workflow-webhook-bridge/)

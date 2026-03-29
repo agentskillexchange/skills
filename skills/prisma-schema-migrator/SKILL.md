@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Prisma Schema Migrator
 
 Automates Prisma ORM schema evolution and migration planning using prisma migrate and prisma db commands. Validates schema changes against existing data with dry-run introspection via prisma db pull.
@@ -56,4 +55,4 @@ clawhub install prisma-schema-migrator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/prisma-schema-migrator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/prisma-schema-migrator/)

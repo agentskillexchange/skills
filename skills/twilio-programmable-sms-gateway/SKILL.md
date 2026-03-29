@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Twilio Programmable SMS Gateway
 
 Sends and receives SMS/MMS messages via Twilio REST API with webhook handler generation. Supports message scheduling, delivery status callbacks, and Twilio Verify for OTP flows.
@@ -58,4 +57,4 @@ clawhub install twilio-programmable-sms-gateway
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/twilio-programmable-sms-gateway/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/twilio-programmable-sms-gateway/)

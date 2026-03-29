@@ -6,7 +6,6 @@ framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/get-alex/alex"
 ---
-
 ## Installation
 
 ### Any Agent

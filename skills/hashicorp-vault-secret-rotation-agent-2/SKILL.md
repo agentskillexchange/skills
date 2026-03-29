@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: hashicorp/vault
   maintained: true
 ---
-
 # HashiCorp Vault Secret Rotation Agent
 
 Connects to HashiCorp Vault HTTP API for automated secret rotation workflows. Manages dynamic database credentials via Vault database secrets engine, handles PKI certificate renewal, and implements lease lifecycle management with TTL monitoring.
@@ -72,4 +71,4 @@ clawhub install hashicorp-vault-secret-rotation-agent-2
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/hashicorp-vault-secret-rotation-agent-2/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/hashicorp-vault-secret-rotation-agent-2/)

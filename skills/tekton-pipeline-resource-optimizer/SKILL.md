@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Tekton Pipeline Resource Optimizer
 
 Analyzes Tekton Pipeline and Task resource definitions using the Tekton Results API. Recommends CPU/memory request adjustments based on historical TaskRun metrics from Prometheus.
@@ -61,4 +60,4 @@ clawhub install tekton-pipeline-resource-optimizer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/tekton-pipeline-resource-optimizer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/tekton-pipeline-resource-optimizer/)

@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # AWS CloudWatch Anomaly Detector
 
 Uses AWS CloudWatch SDK (boto3) to configure anomaly detection bands on metrics via PutAnomalyDetector API. Integrates with SNS for notifications and CloudWatch Synthetics for canary-based uptime monitoring.
@@ -56,4 +55,4 @@ clawhub install aws-cloudwatch-anomaly-detector
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/aws-cloudwatch-anomaly-detector/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/aws-cloudwatch-anomaly-detector/)

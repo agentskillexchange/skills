@@ -12,7 +12,6 @@ tool_ecosystem:
   github_repo: DataDog/dd-trace-js
   maintained: true
 ---
-
 # Datadog Triage Playbook
 
 Automates alert triage using the Datadog Monitors API v2 and Notebooks API. Correlates metrics with traces via the Datadog APM Trace Search API and generates RCA timelines from the Events Stream API.
@@ -55,4 +54,4 @@ clawhub install datadog-triage-playbook
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/datadog-triage-playbook/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/datadog-triage-playbook/)

@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Docker Container Health Check Runbook
 
 Runs systematic health diagnostics on Docker containers using docker inspect, docker stats, and the Docker Engine API. Checks resource limits, network connectivity, and volume mount integrity.
@@ -55,4 +54,4 @@ clawhub install docker-container-health-check-runbook
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/docker-container-health-check-runbook/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/docker-container-health-check-runbook/)

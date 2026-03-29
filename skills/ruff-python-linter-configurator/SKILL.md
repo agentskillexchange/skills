@@ -6,7 +6,6 @@ framework: "Custom Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/ruff-python-linter-configurator/"
 ---
-
 # Ruff Python Linter Configurator
 
 Generates optimized Ruff configuration from existing Flake8, isort, and Black setups. Migrates pyproject.toml rules with automatic conflict resolution.
@@ -53,4 +52,4 @@ clawhub install ruff-python-linter-configurator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/ruff-python-linter-configurator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/ruff-python-linter-configurator/)

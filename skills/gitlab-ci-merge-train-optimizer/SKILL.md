@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: gitlabhq/gitlabhq
   maintained: true
 ---
-
 # GitLab CI Merge Train Optimizer
 
 Optimizes GitLab CI/CD merge trains via the GitLab REST API v4 (/api/v4/projects/{id}/merge_trains). Analyzes pipeline durations, identifies bottleneck stages, and recommends DAG-based job dependencies for parallel execution.
@@ -58,4 +57,4 @@ clawhub install gitlab-ci-merge-train-optimizer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/gitlab-ci-merge-train-optimizer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/gitlab-ci-merge-train-optimizer/)

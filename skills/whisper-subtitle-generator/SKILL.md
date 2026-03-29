@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Whisper Subtitle Generator
 
 Generates accurate subtitles and captions using OpenAI Whisper API with word-level timestamps. Outputs SRT, VTT, and ASS formats with configurable line length and speaker diarization via pyannote.
@@ -60,4 +59,4 @@ clawhub install whisper-subtitle-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/whisper-subtitle-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/whisper-subtitle-generator/)

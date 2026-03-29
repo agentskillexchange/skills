@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Ingestr Cross-Database Data Copier
 
 Copy data between any databases with a single CLI command using Ingestr. Supports 50+ sources and destinations including PostgreSQL, MySQL, BigQuery, Snowflake, DuckDB, MongoDB, and S3.
@@ -64,4 +63,4 @@ clawhub install ingestr-cross-database-data-copier
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/ingestr-cross-database-data-copier/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/ingestr-cross-database-data-copier/)

@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # SVG Animation Builder
 
 Creates animated SVGs using GSAP (GreenSock Animation Platform) and the SVG DOM API. Generates timeline-based animations with morphing paths via flubber and scroll-triggered sequences using ScrollTrigger plugin.
@@ -56,4 +55,4 @@ clawhub install svg-animation-builder
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/svg-animation-builder/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/svg-animation-builder/)

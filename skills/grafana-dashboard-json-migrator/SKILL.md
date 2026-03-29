@@ -12,7 +12,6 @@ tool_ecosystem:
   license: AGPL-3.0
   maintained: true
 ---
-
 # Grafana Dashboard JSON Migrator
 
 Migrates Grafana dashboards between instances using the Grafana HTTP API. Transforms datasource UIDs, folder structures, and alert rule references for cross-environment promotion.
@@ -55,4 +54,4 @@ clawhub install grafana-dashboard-json-migrator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/grafana-dashboard-json-migrator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/grafana-dashboard-json-migrator/)

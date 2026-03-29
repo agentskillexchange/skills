@@ -6,7 +6,6 @@ framework: "Cursor"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/adobe-firefly-api-batch-image-generator/"
 ---
-
 # Adobe Firefly API Batch Image Generator
 
 Calls Adobe Firefly’s text-to-image and generative fill APIs for batch asset creation. Manages Adobe IMS OAuth tokens and enforces Content Credentials (C2PA) metadata on all outputs.
@@ -49,4 +48,4 @@ clawhub install adobe-firefly-api-batch-image-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/adobe-firefly-api-batch-image-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/adobe-firefly-api-batch-image-generator/)

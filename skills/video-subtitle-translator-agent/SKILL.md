@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: FFmpeg/FFmpeg
   maintained: true
 ---
-
 # Video Subtitle Translator Agent
 
 Extracts embedded subtitles from video containers using FFmpeg’s subtitle stream extraction, translates SRT/VTT files through DeepL API or Google Cloud Translation v3, and re-embeds localized subtitle tracks. Supports batch processing with language detection via langdetect and proper bidirectional text handling for RTL languages.
@@ -58,4 +57,4 @@ clawhub install video-subtitle-translator-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/video-subtitle-translator-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/video-subtitle-translator-agent/)

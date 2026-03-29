@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Puppeteer Web Scraping Pipeline
 
 Builds web scraping pipelines with Puppeteer using page.evaluate, page.waitForSelector, and browser.newPage. Handles infinite scroll, cookie consent banners, and anti-bot detection with stealth plugin.
@@ -56,4 +55,4 @@ clawhub install puppeteer-web-scraping-pipeline
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/puppeteer-web-scraping-pipeline/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/puppeteer-web-scraping-pipeline/)

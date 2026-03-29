@@ -6,7 +6,6 @@ framework: "ChatGPT Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/python-pypi-package-reference-indexer/"
 ---
-
 # Python PyPI Package Reference Indexer
 
 Indexes Python package documentation using the PyPI JSON API and Read the Docs API. Builds searchable reference catalogs with function signatures, type hints, and usage examples.
@@ -49,4 +48,4 @@ clawhub install python-pypi-package-reference-indexer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/python-pypi-package-reference-indexer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/python-pypi-package-reference-indexer/)

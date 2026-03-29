@@ -6,7 +6,6 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/core-audio-unit-v3-debugger/"
 ---
-
 # Core Audio Unit v3 Debugger
 
 Debugs and profiles Apple Audio Unit v3 (AUv3) plugins using auval validation tool, the AUAudioUnit Swift API, and Instruments AudioUnit trace template for latency measurement and buffer underrun detection.
@@ -49,4 +48,4 @@ clawhub install core-audio-unit-v3-debugger
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/core-audio-unit-v3-debugger/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/core-audio-unit-v3-debugger/)

@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Pulumi Infrastructure Stack Templater
 
 Generates Pulumi infrastructure-as-code stacks in TypeScript and Python using @pulumi/aws, @pulumi/azure-native, and @pulumi/gcp SDKs. Includes Pulumi Automation API integration for programmatic stack lifecycle management.
@@ -56,4 +55,4 @@ clawhub install pulumi-infrastructure-stack-templater
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/pulumi-infrastructure-stack-templater/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/pulumi-infrastructure-stack-templater/)

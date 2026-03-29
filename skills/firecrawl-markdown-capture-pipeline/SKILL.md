@@ -6,7 +6,6 @@ framework: "Codex"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/firecrawl-markdown-capture-pipeline/"
 ---
-
 # Firecrawl Markdown Capture Pipeline
 
 Captures clean site content through Firecrawl endpoints like `/v1/scrape`, `/v1/map`, and `/v1/crawl`, with Markdown output for downstream agents. Great for turning messy websites into reliable research corpora, docs snapshots, or retrieval-ready source material.
@@ -53,4 +52,4 @@ clawhub install firecrawl-markdown-capture-pipeline
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/firecrawl-markdown-capture-pipeline/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/firecrawl-markdown-capture-pipeline/)

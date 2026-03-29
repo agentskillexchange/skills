@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # GitHub Actions CI/CD Pipeline Manager
 
 Automates GitHub Actions workflow creation, runner management, and artifact caching using the GitHub REST API and YAML generation. Supports matrix builds, reusable workflows, and environment-specific deployment gates.
@@ -56,4 +55,4 @@ clawhub install github-actions-cicd-pipeline-manager
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/github-actions-cicd-pipeline-manager/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/github-actions-cicd-pipeline-manager/)

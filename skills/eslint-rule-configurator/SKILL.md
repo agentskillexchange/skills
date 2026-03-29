@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # ESLint Rule Configurator
 
 Generates optimized ESLint flat config files using @eslint/js, typescript-eslint, and eslint-plugin-import. Provides project-specific rule recommendations based on codebase analysis.
@@ -60,4 +59,4 @@ clawhub install eslint-rule-configurator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/eslint-rule-configurator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/eslint-rule-configurator/)

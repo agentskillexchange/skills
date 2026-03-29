@@ -6,7 +6,6 @@ framework: "Codex"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/npm-package-audit-reference/"
 ---
-
 # NPM Package Audit Reference
 
 Provides deep dependency analysis using npm audit, socket.dev API for supply chain risk scoring, and bundlephobia API for bundle size impact assessment. Generates license compliance reports via license-checker.
@@ -57,4 +56,4 @@ clawhub install npm-package-audit-reference
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/npm-package-audit-reference/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/npm-package-audit-reference/)

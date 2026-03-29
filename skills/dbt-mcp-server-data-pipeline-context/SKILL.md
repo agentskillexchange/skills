@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: dbt-labs/dbt-core
   maintained: true
 ---
-
 # dbt MCP Server for Data Pipeline Context
 
 The official dbt MCP Server by dbt Labs provides Model Context Protocol tools for AI agents to interact with dbt projects, query the Semantic Layer, execute SQL, generate SQL from natural language, and explore data model lineage across dbt Core, Fusion, and Platform environments.
@@ -62,4 +61,4 @@ clawhub install dbt-mcp-server-data-pipeline-context
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/dbt-mcp-server-data-pipeline-context/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/dbt-mcp-server-data-pipeline-context/)

@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # GraphQL Schema Analyzer
 
 Analyzes GraphQL schemas using graphql-js introspection and @graphql-tools/utils. Maps type relationships, detects N+1 query patterns, and generates DataLoader batching recommendations.
@@ -60,4 +59,4 @@ clawhub install graphql-schema-analyzer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/graphql-schema-analyzer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/graphql-schema-analyzer/)

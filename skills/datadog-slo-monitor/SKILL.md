@@ -12,7 +12,6 @@ tool_ecosystem:
   github_repo: DataDog/dd-trace-js
   maintained: true
 ---
-
 # Datadog SLO Monitor
 
 Monitors Datadog Service Level Objectives and burn rate alerts via the Datadog API v2. Generates SLO compliance reports and triggers remediation workflows when error budgets are exhausted.
@@ -55,4 +54,4 @@ clawhub install datadog-slo-monitor
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/datadog-slo-monitor/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/datadog-slo-monitor/)

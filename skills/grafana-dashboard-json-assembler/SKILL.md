@@ -12,7 +12,6 @@ tool_ecosystem:
   license: AGPL-3.0
   maintained: true
 ---
-
 # Grafana Dashboard JSON Assembler
 
 Assembles Grafana dashboard JSON models using panel types like timeseries, stat, table, and heatmap. Configures datasource references, template variables, and annotation queries for operational dashboards.
@@ -55,4 +54,4 @@ clawhub install grafana-dashboard-json-assembler
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/grafana-dashboard-json-assembler/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/grafana-dashboard-json-assembler/)

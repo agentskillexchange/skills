@@ -13,7 +13,6 @@ tool_ecosystem:
   license: GPL-3.0
   maintained: true
 ---
-
 # Ansible Playbook Template Library
 
 Generates and validates Ansible playbooks from infrastructure requirements. Uses ansible-lint for validation and queries Ansible Galaxy API for discovering certified roles and collections.
@@ -56,4 +55,4 @@ clawhub install ansible-playbook-template-library
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/ansible-playbook-template-library/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/ansible-playbook-template-library/)

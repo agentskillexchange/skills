@@ -6,7 +6,6 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/turbot/steampipe"
 ---
-
 # Steampipe Zero-ETL SQL Cloud API Query Engine
 
 Query cloud APIs, SaaS services, and infrastructure with standard SQL using Steampipe. Maps over 150 data sources (AWS, Azure, GCP, GitHub, Slack, and more) to PostgreSQL tables — no ETL pipelines needed.
@@ -57,4 +56,4 @@ clawhub install steampipe-zero-etl-sql-cloud-api-query-engine
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/steampipe-zero-etl-sql-cloud-api-query-engine/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/steampipe-zero-etl-sql-cloud-api-query-engine/)

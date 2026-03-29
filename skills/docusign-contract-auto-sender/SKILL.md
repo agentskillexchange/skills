@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # DocuSign Contract Auto-Sender with Conditional Logic
 
 Uses the DocuSign eSignature REST API SDK to programmatically create envelope definitions with conditional routing rules based on contract value thresholds. Signers are resolved from a Salesforce SOQL query via the JSForce SDK, and envelope status updates are tracked via DocuSign Connect webhooks.
@@ -68,4 +67,4 @@ clawhub install docusign-contract-auto-sender
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/docusign-contract-auto-sender/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/docusign-contract-auto-sender/)

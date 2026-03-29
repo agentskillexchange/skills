@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # OpenAPI Spec Reference Indexer
 
 Indexes and cross-references OpenAPI 3.x specifications using swagger-parser and Redocly CLI. Builds searchable endpoint catalogs with schema resolution, authentication flow mapping, and SDK generation metadata.
@@ -60,4 +59,4 @@ clawhub install openapi-spec-reference-indexer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/openapi-spec-reference-indexer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/openapi-spec-reference-indexer/)

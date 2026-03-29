@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # CloudTrail Anomaly Detection Agent
 
 Analyzes AWS CloudTrail event logs via the Lookup Events API to detect anomalous IAM activity. Uses statistical baselining of API call patterns and flags unusual AssumeRole chains, console logins from new IPs, and privilege escalation attempts.
@@ -60,4 +59,4 @@ clawhub install cloudtrail-anomaly-detection-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/cloudtrail-anomaly-detection-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/cloudtrail-anomaly-detection-agent/)

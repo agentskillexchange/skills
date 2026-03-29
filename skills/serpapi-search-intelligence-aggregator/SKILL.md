@@ -6,7 +6,6 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/serpapi-search-intelligence-aggregator/"
 ---
-
 # SerpAPI Search Intelligence Aggregator
 
 Connects to SerpAPI endpoints for Google, Bing, YouTube, and Google Scholar search result extraction. Uses the Locations API for geo-targeted queries and Searches Archive API for historical SERP tracking.
@@ -49,4 +48,4 @@ clawhub install serpapi-search-intelligence-aggregator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/serpapi-search-intelligence-aggregator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/serpapi-search-intelligence-aggregator/)

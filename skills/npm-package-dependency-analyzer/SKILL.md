@@ -6,7 +6,6 @@ framework: "Gemini"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/npm-package-dependency-analyzer/"
 ---
-
 # NPM Package Dependency Analyzer
 
 Analyzes npm package dependency trees using npm-registry-fetch, pacote, and arborist APIs. Detects circular dependencies, license conflicts, and bundle size impacts via bundlephobia API.
@@ -49,4 +48,4 @@ clawhub install npm-package-dependency-analyzer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/npm-package-dependency-analyzer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/npm-package-dependency-analyzer/)

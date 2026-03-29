@@ -6,7 +6,6 @@ framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/tinacms/tinacms"
 ---
-
 # TinaCMS Git-Backed Headless CMS with Visual Editing
 
 TinaCMS is a fully open-source headless CMS backed by Git that supports Markdown, MDX, JSON, and YAML content. It provides a GraphQL API for querying content, real-time visual editing for non-technical users, and seamless integration with static site generators and Next.js.

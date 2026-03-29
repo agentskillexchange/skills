@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Docker Compose Health Checker
 
 Validates docker-compose.yml files against the Compose Specification, checks image vulnerability status via Docker Scout API, and verifies healthcheck configurations.
@@ -59,4 +58,4 @@ clawhub install docker-compose-health-checker
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/docker-compose-health-checker/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/docker-compose-health-checker/)

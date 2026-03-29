@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # AWS CloudWatch Anomaly Investigator
 
 Investigates CloudWatch metric anomalies using the AWS SDK CloudWatch.getMetricData and Logs.filterLogEvents APIs. Correlates metric spikes with log patterns and deployment events from CodeDeploy.
@@ -60,4 +59,4 @@ clawhub install aws-cloudwatch-anomaly-investigator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/aws-cloudwatch-anomaly-investigator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/aws-cloudwatch-anomaly-investigator/)

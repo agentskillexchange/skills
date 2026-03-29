@@ -12,7 +12,6 @@ tool_ecosystem:
   license: BSD-3-Clause
   maintained: true
 ---
-
 # PDF Table Extraction with Camelot
 
 Extracts structured tables from PDF documents using Camelot’s lattice and stream parsing algorithms. Handles merged cells, multi-page tables, and outputs to pandas DataFrames, CSV, and JSON with column type inference.
@@ -59,4 +58,4 @@ clawhub install pdf-table-extraction-camelot
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/pdf-table-extraction-camelot/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/pdf-table-extraction-camelot/)

@@ -9,7 +9,6 @@ tool_ecosystem:
   tool: postgresql
   npm_weekly_downloads: 21413502
 ---
-
 # PostgreSQL Diagnostic Runbook
 
 Diagnoses PostgreSQL performance issues using pg_stat_statements, pg_stat_activity, and the pgbadger log analyzer. Identifies slow queries, lock contention, and bloat via pgstattuple extension.
@@ -52,4 +51,4 @@ clawhub install postgresql-diagnostic-runbook
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/postgresql-diagnostic-runbook/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/postgresql-diagnostic-runbook/)

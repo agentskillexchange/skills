@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # ArgoCD Deployment Sync Skill
 
 Manages GitOps deployments via the ArgoCD REST API and argocd CLI. Triggers application syncs through /api/v1/applications/{name}/sync, monitors health status via /api/v1/applications/{name}, and manages rollbacks using /api/v1/applications/{name}/rollback for Kubernetes workloads.
@@ -63,4 +62,4 @@ clawhub install argocd-deployment-sync-skill
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/argocd-deployment-sync-skill/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/argocd-deployment-sync-skill/)

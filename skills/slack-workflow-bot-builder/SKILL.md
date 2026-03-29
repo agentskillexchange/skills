@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Slack Workflow Bot Builder
 
 Creates interactive Slack workflows using Block Kit UI components and the Bolt.js framework. Implements slash commands, modal views via views.open(), and message shortcuts with action listeners.
@@ -60,4 +59,4 @@ clawhub install slack-workflow-bot-builder
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/slack-workflow-bot-builder/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/slack-workflow-bot-builder/)

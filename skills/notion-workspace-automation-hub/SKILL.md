@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Notion Workspace Automation Hub
 
 Orchestrates Notion workspace workflows using Notion API v2 with database queries, page creation, and relation property management. Automates sprint boards, meeting notes, and knowledge base maintenance.
@@ -62,4 +61,4 @@ clawhub install notion-workspace-automation-hub
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/notion-workspace-automation-hub/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/notion-workspace-automation-hub/)

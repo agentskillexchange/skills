@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Prometheus AlertManager Rule Optimizer
 
 Analyzes Prometheus alerting rules and AlertManager configuration to reduce alert fatigue. Uses PromQL query analysis and historical firing patterns to suggest rule consolidation and threshold adjustments.
@@ -60,4 +59,4 @@ clawhub install prometheus-alertmanager-rule-optimizer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/prometheus-alertmanager-rule-optimizer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-alertmanager-rule-optimizer/)

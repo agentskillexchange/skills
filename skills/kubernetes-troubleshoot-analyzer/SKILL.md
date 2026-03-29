@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Kubernetes Troubleshoot Analyzer
 
 Runs diagnostic analysis on Kubernetes clusters using kubectl, k9s terminal UI data, and the Troubleshoot.sh support-bundle collector framework. Generates remediation steps for common pod scheduling, networking, and storage failures.
@@ -59,4 +58,4 @@ clawhub install kubernetes-troubleshoot-analyzer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/kubernetes-troubleshoot-analyzer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-troubleshoot-analyzer/)

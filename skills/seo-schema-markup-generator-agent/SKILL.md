@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: WordPress/WordPress
   maintained: true
 ---
-
 # SEO Schema Markup Generator
 
 Generates JSON-LD structured data for articles, products, FAQs, and local business schemas using Schema.org vocabulary. Validates output against Google Rich Results Test API and Yoast SEO wp_head hooks.
@@ -54,4 +53,4 @@ clawhub install seo-schema-markup-generator-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/seo-schema-markup-generator-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/seo-schema-markup-generator-agent/)

@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Cheerio Product Price Tracker
 
 Monitors e-commerce product prices using Cheerio.js for server-side DOM parsing with got-scraping for stealth HTTP requests. Tracks price history in SQLite and triggers alerts via nodemailer when prices drop below thresholds.
@@ -60,4 +59,4 @@ clawhub install cheerio-product-price-tracker
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/cheerio-product-price-tracker/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/cheerio-product-price-tracker/)

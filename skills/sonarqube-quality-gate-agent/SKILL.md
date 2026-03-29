@@ -12,7 +12,6 @@ tool_ecosystem:
   license: LGPL-3.0
   maintained: true
 ---
-
 # SonarQube Quality Gate Agent
 
 Monitors SonarQube quality gate status via the SonarQube Web API and enforces code quality thresholds. Parses coverage reports from JaCoCo, Istanbul, and lcov formats for multi-language projects.
@@ -61,4 +60,4 @@ clawhub install sonarqube-quality-gate-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/sonarqube-quality-gate-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/sonarqube-quality-gate-agent/)

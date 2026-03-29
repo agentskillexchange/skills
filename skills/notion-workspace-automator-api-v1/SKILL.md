@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Notion Workspace Automator
 
 Automates Notion workspace management through the Notion API v1 with database query filters, page creation, and block manipulation. Supports template instantiation via Notion SDK for JavaScript and real-time change detection with polling.
@@ -58,4 +57,4 @@ clawhub install notion-workspace-automator-api-v1
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/notion-workspace-automator-api-v1/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/notion-workspace-automator-api-v1/)

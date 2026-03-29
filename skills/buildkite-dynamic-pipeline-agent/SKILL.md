@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Buildkite Dynamic Pipeline Agent
 
 Creates Buildkite pipelines dynamically using the Buildkite REST API and pipeline upload commands. Manages agent targeting with queue tags and implements automatic retry strategies for flaky tests.
@@ -56,4 +55,4 @@ clawhub install buildkite-dynamic-pipeline-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/buildkite-dynamic-pipeline-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/buildkite-dynamic-pipeline-agent/)

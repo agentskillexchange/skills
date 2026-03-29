@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Apify Actor Runner
 
 Executes Apify cloud actors for structured web scraping with automatic dataset export to S3. Supports actor input schema validation and webhook-based run completion notifications.
@@ -60,4 +59,4 @@ clawhub install apify-actor-runner
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/apify-actor-runner/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/apify-actor-runner/)

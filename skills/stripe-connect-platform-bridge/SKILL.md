@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Stripe Connect Platform Bridge
 
 Manages Stripe Connect onboarding flows using the stripe-node SDK. Handles account creation, capability requests, OAuth redirects, and payout scheduling via the Stripe Accounts API.
@@ -58,4 +57,4 @@ clawhub install stripe-connect-platform-bridge
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/stripe-connect-platform-bridge/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/stripe-connect-platform-bridge/)

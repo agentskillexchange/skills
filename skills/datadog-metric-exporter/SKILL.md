@@ -12,7 +12,6 @@ tool_ecosystem:
   github_repo: DataDog/dd-trace-js
   maintained: true
 ---
-
 # Datadog Metric Exporter
 
 Exports custom metrics and traces to Datadog using the DogStatsD protocol and Datadog API v2. Supports histogram aggregation, tag-based filtering, and SLO tracking.
@@ -59,4 +58,4 @@ clawhub install datadog-metric-exporter
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/datadog-metric-exporter/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/datadog-metric-exporter/)

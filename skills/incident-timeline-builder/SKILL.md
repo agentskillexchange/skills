@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Incident Timeline Builder
 
 Constructs incident timelines from PagerDuty Events API v2, Datadog Monitors API, and Slack message archives. Correlates alerts with deployment events for root cause analysis.
@@ -62,4 +61,4 @@ clawhub install incident-timeline-builder
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/incident-timeline-builder/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/incident-timeline-builder/)

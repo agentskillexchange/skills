@@ -12,7 +12,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Jenkins Shared Library Linter
 
 Validates Jenkins Shared Library Groovy code using the Jenkins Pipeline Model Definition API and Groovy AST parser. Catches syntax errors and anti-patterns before pipeline execution.
@@ -61,4 +60,4 @@ clawhub install jenkins-shared-library-linter
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/jenkins-shared-library-linter/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-shared-library-linter/)

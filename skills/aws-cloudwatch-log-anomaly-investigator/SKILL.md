@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # AWS CloudWatch Log Anomaly Investigator
 
 Investigates anomalous patterns in AWS CloudWatch Logs using the CloudWatch Logs Insights API and CloudWatch Anomaly Detection. Correlates log spikes with deployment events via AWS CodeDeploy API.
@@ -62,4 +61,4 @@ clawhub install aws-cloudwatch-log-anomaly-investigator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/aws-cloudwatch-log-anomaly-investigator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/aws-cloudwatch-log-anomaly-investigator/)

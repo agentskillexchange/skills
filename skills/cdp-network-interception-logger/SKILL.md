@@ -12,7 +12,6 @@ tool_ecosystem:
   github_repo: DataDog/dd-trace-js
   maintained: true
 ---
-
 # CDP Network Interception Logger
 
 Uses Chrome DevTools Protocol Fetch.requestPaused and Network.responseReceived events to intercept, log, and modify HTTP traffic during browser automation. Exports HAR files compatible with Charles Proxy and supports request/response body modification.
@@ -57,4 +56,4 @@ clawhub install cdp-network-interception-logger
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/cdp-network-interception-logger/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/cdp-network-interception-logger/)

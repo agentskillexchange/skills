@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Playwright Test Recorder
 
 Playwright Test Recorder is built around Playwright browser automation framework. The underlying ecosystem is represented by microsoft/playwright (84,874+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like browser contexts, locators, page actions, tracing, screenshots, test runner and preserving […]
@@ -68,4 +67,4 @@ clawhub install playwright-test-recorder
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/playwright-test-recorder/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/playwright-test-recorder/)

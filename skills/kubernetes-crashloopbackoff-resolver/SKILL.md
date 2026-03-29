@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Kubernetes CrashLoopBackOff Resolver
 
 Diagnoses CrashLoopBackOff pods using the Kubernetes API /api/v1/pods endpoint, kubectl logs –previous, and container runtime inspection via crictl. Identifies OOMKilled events, missing ConfigMaps, and image pull failures.
@@ -59,4 +58,4 @@ clawhub install kubernetes-crashloopbackoff-resolver
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/kubernetes-crashloopbackoff-resolver/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-crashloopbackoff-resolver/)

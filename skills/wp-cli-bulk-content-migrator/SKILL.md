@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: WordPress/WordPress
   maintained: true
 ---
-
 # WP-CLI Bulk Content Migrator
 
 Automates large-scale WordPress content migrations using WP-CLI wp post create and wp term set commands. Handles custom post types, ACF field mapping, and taxonomy reassignment with rollback support.
@@ -58,4 +57,4 @@ clawhub install wp-cli-bulk-content-migrator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/wp-cli-bulk-content-migrator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/wp-cli-bulk-content-migrator/)

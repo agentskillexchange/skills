@@ -12,7 +12,6 @@ tool_ecosystem:
   license: GPL-3.0
   maintained: true
 ---
-
 # Ansible Playbook Debugger
 
 Diagnoses Ansible playbook failures using ansible-playbook –check –diff mode, ansible-lint, and the Ansible callback plugin API. Parses task execution results and suggests fixes for common module errors in ansible.builtin and community collections.
@@ -61,4 +60,4 @@ clawhub install ansible-playbook-debugger
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/ansible-playbook-debugger/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/ansible-playbook-debugger/)

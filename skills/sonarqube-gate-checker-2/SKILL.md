@@ -12,7 +12,6 @@ tool_ecosystem:
   license: LGPL-3.0
   maintained: true
 ---
-
 # SonarQube Gate Checker
 
 Queries the SonarQube Web API (/api/qualitygates/project_status) to evaluate quality gate conditions before merge. Reports code smells, coverage thresholds, and duplications against configurable SonarQube quality profiles.
@@ -67,4 +66,4 @@ clawhub install sonarqube-gate-checker-2
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/sonarqube-gate-checker-2/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/sonarqube-gate-checker-2/)

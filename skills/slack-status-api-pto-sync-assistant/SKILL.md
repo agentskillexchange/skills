@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Slack Status API PTO Sync Assistant
 
 Syncs away-state updates through Slack users.profile APIs, status fields, and directory lookups so agents can keep status text aligned with calendar-based time off. Useful for teams that want cleaner presence signals without manually editing every Slack profile.
@@ -60,4 +59,4 @@ clawhub install slack-status-api-pto-sync-assistant
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/slack-status-api-pto-sync-assistant/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/slack-status-api-pto-sync-assistant/)

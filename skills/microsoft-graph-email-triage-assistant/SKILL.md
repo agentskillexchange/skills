@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Microsoft Graph Email Triage Assistant
 
 Triages Outlook inboxes via Microsoft Graph API with delta query for incremental sync. Applies classification rules, auto-folders messages, and drafts priority-ranked response summaries.
@@ -56,4 +55,4 @@ clawhub install microsoft-graph-email-triage-assistant
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/microsoft-graph-email-triage-assistant/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/microsoft-graph-email-triage-assistant/)

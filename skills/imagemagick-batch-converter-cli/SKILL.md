@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: ImageMagick/ImageMagick
   maintained: true
 ---
-
 # ImageMagick Batch Converter CLI
 
 Automates bulk image conversion using ImageMagick’s convert and mogrify commands with geometry expressions. Supports -density, -colorspace, and -profile flags for print-quality output.
@@ -58,4 +57,4 @@ clawhub install imagemagick-batch-converter-cli
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/imagemagick-batch-converter-cli/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/imagemagick-batch-converter-cli/)

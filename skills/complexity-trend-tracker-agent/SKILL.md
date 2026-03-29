@@ -6,7 +6,6 @@ framework: "MCP"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/complexity-trend-tracker-agent/"
 ---
-
 # Complexity Trend Tracker
 
 Tracks cyclomatic and cognitive complexity trends using lizard CLI and radon for Python analysis. Generates weekly complexity reports with git-integrated change attribution per module.
@@ -53,4 +52,4 @@ clawhub install complexity-trend-tracker-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/complexity-trend-tracker-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/complexity-trend-tracker-agent/)

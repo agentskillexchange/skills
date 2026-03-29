@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Selenium Grid Session Distributor
 
 Manages browser session allocation across Selenium Grid 4 nodes using the GraphQL status endpoint and SE_NODE_MAX_SESSIONS configuration. Implements weighted round-robin distribution with health-check-based failover for Chrome, Firefox, and Edge instances.
@@ -58,4 +57,4 @@ clawhub install selenium-grid-session-distributor
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/selenium-grid-session-distributor/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/selenium-grid-session-distributor/)

@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: dbt-labs/dbt-core
   maintained: true
 ---
-
 # dbt Model Lineage Extractor
 
 Extracts and visualizes dbt model dependency lineage using the dbt Core manifest.json artifact API. Parses ref() and source() calls to build DAG representations via the dbt Cloud API v2.
@@ -54,4 +53,4 @@ clawhub install dbt-model-lineage-extractor-2
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/dbt-model-lineage-extractor-2/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/dbt-model-lineage-extractor-2/)

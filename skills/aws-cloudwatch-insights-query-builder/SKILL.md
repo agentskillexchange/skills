@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # AWS CloudWatch Insights Query Builder
 
 Builds CloudWatch Logs Insights queries and metric alarms using AWS SDK v3 (@aws-sdk/client-cloudwatch-logs, @aws-sdk/client-cloudwatch). Generates cross-account observability dashboards with CloudWatch Metrics Insights.
@@ -56,4 +55,4 @@ clawhub install aws-cloudwatch-insights-query-builder
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/aws-cloudwatch-insights-query-builder/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/aws-cloudwatch-insights-query-builder/)

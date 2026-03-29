@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Prometheus Rule Evaluator
 
 Validates and tests Prometheus alerting rules against historical metrics data using the Prometheus HTTP API /api/v1/query_range endpoint. Runs rule simulations with configurable time windows and threshold testing.
@@ -56,4 +55,4 @@ clawhub install prometheus-rule-evaluator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/prometheus-rule-evaluator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-rule-evaluator/)

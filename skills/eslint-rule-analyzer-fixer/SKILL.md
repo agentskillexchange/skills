@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # ESLint Rule Analyzer and Fixer
 
 Performs deep ESLint configuration analysis using the ESLint Node.js API and flat config system. Auto-fixes rule conflicts, generates shareable configs, and produces code quality trend reports.
@@ -56,4 +55,4 @@ clawhub install eslint-rule-analyzer-fixer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/eslint-rule-analyzer-fixer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/eslint-rule-analyzer-fixer/)

@@ -6,25 +6,40 @@ framework: "Multi-Framework"
 verification: listed
 source: "https://github.com/svix/svix-webhooks"
 ---
-
 # Svix Enterprise Webhook Delivery Service
 
 Svix is an open-source enterprise-grade webhook delivery service written in Rust. It handles webhook sending, retries, signature verification, and delivery monitoring so developers can offer reliable webhooks to their users with a single API call.
 
 ## Installation
 
-Install this skill using one of the following methods:
+### Any Agent
 
 ```bash
-# ClawHub
+npx skills add agentskillexchange/skills --skill svix-enterprise-webhook-delivery-service
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill svix-enterprise-webhook-delivery-service -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill svix-enterprise-webhook-delivery-service -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill svix-enterprise-webhook-delivery-service -a codex
+```
+
+### OpenClaw
+
+```bash
 clawhub install svix-enterprise-webhook-delivery-service
-
-# Git
-git clone https://github.com/agentskillexchange/skills.git
-cp -r skills/skills/svix-enterprise-webhook-delivery-service ~/.openclaw/workspace/skills/
-
-# Manual
-# Copy SKILL.md to your agent skills directory
 ```
 
 ## Source

@@ -6,7 +6,6 @@ framework: "Gemini"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/cookiecutter-project-bootstrapper/"
 ---
-
 # Cookiecutter Project Bootstrapper
 
 Bootstraps project repositories from Cookiecutter templates with Jinja2 variable substitution and post-generation hooks. Supports remote template registries and custom extension plugins.
@@ -49,4 +48,4 @@ clawhub install cookiecutter-project-bootstrapper
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/cookiecutter-project-bootstrapper/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/cookiecutter-project-bootstrapper/)

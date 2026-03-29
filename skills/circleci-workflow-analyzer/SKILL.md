@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: circleci/circleci-docs
   maintained: true
 ---
-
 # CircleCI Workflow Analyzer
 
 Analyzes and optimizes CircleCI workflows using the CircleCI v2 API. Identifies bottlenecks in job dependency graphs, suggests parallelism improvements, and monitors pipeline credit usage.
@@ -58,4 +57,4 @@ clawhub install circleci-workflow-analyzer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/circleci-workflow-analyzer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-workflow-analyzer/)

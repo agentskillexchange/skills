@@ -9,7 +9,6 @@ tool_ecosystem:
   tool: postgresql
   npm_weekly_downloads: 21413502
 ---
-
 # PostgreSQL Slow Query Runbook
 
 Diagnoses PostgreSQL slow queries using pg_stat_statements extension, EXPLAIN ANALYZE output parsing, and pg_stat_user_indexes for index usage analysis. Identifies missing indexes, sequential scan bottlenecks, and lock contention issues.
@@ -56,4 +55,4 @@ clawhub install postgresql-slow-query-runbook-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/postgresql-slow-query-runbook-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/postgresql-slow-query-runbook-agent/)

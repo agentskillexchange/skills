@@ -6,7 +6,6 @@ framework: "Custom Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/outlook-rule-automation-manager/"
 ---
-
 # Outlook Rule Automation Manager
 
 Creates and manages Outlook email rules programmatically using the Microsoft Graph API /me/mailFolders/inbox/messageRules endpoint. Supports complex condition chains with action sequences for automated email triage.
@@ -49,4 +48,4 @@ clawhub install outlook-rule-automation-manager
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/outlook-rule-automation-manager/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/outlook-rule-automation-manager/)

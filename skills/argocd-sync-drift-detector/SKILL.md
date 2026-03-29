@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # ArgoCD Sync Drift Detector
 
 Monitors ArgoCD applications for configuration drift using the ArgoCD REST API and grpc-gateway. Compares live Kubernetes manifests against Git-declared state and generates remediation playbooks via kubectl diff.
@@ -61,4 +60,4 @@ clawhub install argocd-sync-drift-detector
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/argocd-sync-drift-detector/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/argocd-sync-drift-detector/)

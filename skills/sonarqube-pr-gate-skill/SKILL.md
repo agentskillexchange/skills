@@ -12,7 +12,6 @@ tool_ecosystem:
   license: LGPL-3.0
   maintained: true
 ---
-
 # SonarQube PR Gate
 
 Integrates SonarQube quality gates into pull request workflows via the SonarQube Web API /api/qualitygates/project_status. Blocks merges when code smells, duplications, or coverage thresholds fail and posts inline annotations using the GitHub Checks API.
@@ -79,4 +78,4 @@ clawhub install sonarqube-pr-gate-skill
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/sonarqube-pr-gate-skill/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/sonarqube-pr-gate-skill/)

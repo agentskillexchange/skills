@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: false
 ---
-
 # Parquet to PostgreSQL Loader
 
 Reads Apache Parquet files using PyArrow and bulk-loads them into PostgreSQL via psycopg2 COPY protocol. Handles schema mapping, partitioned datasets, and incremental upserts with conflict resolution.
@@ -56,4 +55,4 @@ clawhub install parquet-to-postgresql-loader
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/parquet-to-postgresql-loader/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/parquet-to-postgresql-loader/)

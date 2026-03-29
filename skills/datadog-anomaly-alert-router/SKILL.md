@@ -12,7 +12,6 @@ tool_ecosystem:
   github_repo: DataDog/dd-trace-js
   maintained: true
 ---
-
 # Datadog Anomaly Alert Router
 
 Routes Datadog anomaly detection alerts to appropriate response channels using the Datadog Events API v2 and Monitors API. Applies severity-based escalation rules with PagerDuty and Slack webhook integration.
@@ -55,4 +54,4 @@ clawhub install datadog-anomaly-alert-router
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/datadog-anomaly-alert-router/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/datadog-anomaly-alert-router/)

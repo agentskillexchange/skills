@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Deepgram Podcast Chapter Generator
 
 Submits podcast MP3 URLs to Deepgram Nova-2 with paragraph and summarize features, then clusters returned timestamps into logical chapters using a sliding-window topic boundary algorithm. Outputs YouTube-compatible chapter timestamps and an RSS-ready podcast:chapters JSON feed. Optionally posts chapters as a Notion database entry.
@@ -68,4 +67,4 @@ clawhub install deepgram-podcast-chapter-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/deepgram-podcast-chapter-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/deepgram-podcast-chapter-generator/)

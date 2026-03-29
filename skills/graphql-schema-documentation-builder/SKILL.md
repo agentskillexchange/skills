@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # GraphQL Schema Documentation Builder
 
 Generates interactive API documentation from GraphQL schemas using graphql-js introspection queries and SpectaQL. Produces type relationship diagrams, query examples, and deprecation notices from SDL files.
@@ -60,4 +59,4 @@ clawhub install graphql-schema-documentation-builder
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/graphql-schema-documentation-builder/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/graphql-schema-documentation-builder/)

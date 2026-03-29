@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # ESLint Auto-Fix Orchestrator
 
 Runs ESLint with auto-fix capabilities using the ESLint Node.js API and flat config system. Supports custom rule sets, TypeScript via typescript-eslint, and Prettier integration.
@@ -62,4 +61,4 @@ clawhub install eslint-autofix-orchestrator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/eslint-autofix-orchestrator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/eslint-autofix-orchestrator/)

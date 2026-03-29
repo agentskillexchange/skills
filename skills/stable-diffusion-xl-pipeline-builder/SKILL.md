@@ -8,7 +8,6 @@ source: "https://agentskillexchange.com/skills/stable-diffusion-xl-pipeline-buil
 tool_ecosystem:
   tool: stable.diffusion
 ---
-
 # Stable Diffusion XL Pipeline Builder
 
 Constructs and executes SDXL image generation pipelines using diffusers library and ComfyUI API. Supports LoRA loading, ControlNet conditioning, and batch prompt scheduling.
@@ -57,4 +56,4 @@ clawhub install stable-diffusion-xl-pipeline-builder
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/stable-diffusion-xl-pipeline-builder/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/stable-diffusion-xl-pipeline-builder/)

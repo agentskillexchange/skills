@@ -12,24 +12,35 @@ Zola is a fast static site generator written in Rust that ships as a single bina
 
 ## Installation
 
-Install this skill using one of the following methods:
+### Any Agent
 
-### OpenClaw CLI
 ```bash
-openclaw skills install zola-static-site-generator
+npx skills add agentskillexchange/skills --skill zola-static-site-generator
 ```
 
-### Claude Desktop (MCP)
-Add the skill server to your Claude Desktop configuration to use Zola Fast Static Site Generator in a Single Binary capabilities.
+### Claude Code
 
-### Cursor / Windsurf
-Add as an agent skill in your IDE settings for AI-assisted content writing & seo workflows.
+```bash
+npx skills add agentskillexchange/skills --skill zola-static-site-generator -a claude-code
+```
 
-### ChatGPT / Custom GPTs
-Import as an action or knowledge source in your GPT configuration.
+### Cursor
 
-### Direct Download
-Download the SKILL.md file and add it to your agent's skills directory.
+```bash
+npx skills add agentskillexchange/skills --skill zola-static-site-generator -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill zola-static-site-generator -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install zola-static-site-generator
+```
 
 ## Source
 

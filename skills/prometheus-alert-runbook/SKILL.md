@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Prometheus Alert Runbook
 
 Execute structured runbook procedures triggered by Prometheus AlertManager webhooks. Queries PromQL metrics via the Prometheus HTTP API for automated incident diagnosis and escalation.
@@ -56,4 +55,4 @@ clawhub install prometheus-alert-runbook
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/prometheus-alert-runbook/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-alert-runbook/)

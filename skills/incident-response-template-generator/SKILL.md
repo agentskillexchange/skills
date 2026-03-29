@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Incident Response Template Generator
 
 Creates structured incident response templates using the PagerDuty Events API v2, Jira REST API for ticket creation, and Statuspage.io API for public status updates. Generates runbook-linked response procedures.
@@ -56,4 +55,4 @@ clawhub install incident-response-template-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/incident-response-template-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/incident-response-template-generator/)

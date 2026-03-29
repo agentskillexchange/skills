@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Selenium Grid Session Manager
 
 Manages distributed browser sessions on Selenium Grid 4 via the GraphQL API and /status endpoint. Handles node scaling, session queuing, and capability matching for parallel test execution.
@@ -60,4 +59,4 @@ clawhub install selenium-grid-session-manager
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/selenium-grid-session-manager/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/selenium-grid-session-manager/)

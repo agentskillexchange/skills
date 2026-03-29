@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Puppeteer DevTools Protocol Recorder
 
 Records and replays Chrome DevTools Protocol (CDP) sessions via Puppeteer’s CDPSession API, captures Network, Performance, and Accessibility domain events, and exports HAR-compatible traces for CI regression testing.
@@ -56,4 +55,4 @@ clawhub install puppeteer-devtools-protocol-recorder
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/puppeteer-devtools-protocol-recorder/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/puppeteer-devtools-protocol-recorder/)

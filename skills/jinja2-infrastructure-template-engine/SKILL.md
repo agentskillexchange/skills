@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Jinja2 Infrastructure Template Engine
 
 Generates infrastructure-as-code configurations from Jinja2 templates with variable inheritance. Produces Terraform HCL, Ansible playbooks, and Kubernetes manifests from shared parameter files using hierarchical environment overlays.
@@ -59,4 +58,4 @@ clawhub install jinja2-infrastructure-template-engine
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/jinja2-infrastructure-template-engine/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/jinja2-infrastructure-template-engine/)

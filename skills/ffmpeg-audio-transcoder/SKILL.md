@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: FFmpeg/FFmpeg
   maintained: true
 ---
-
 # FFmpeg Audio Transcoder
 
 Transcodes and processes audio files using the FFmpeg CLI and libavcodec library. Supports batch format conversion, loudness normalization via EBU R128, and metadata extraction with ffprobe.
@@ -66,4 +65,4 @@ clawhub install ffmpeg-audio-transcoder
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/ffmpeg-audio-transcoder/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/ffmpeg-audio-transcoder/)

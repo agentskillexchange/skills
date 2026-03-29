@@ -6,7 +6,6 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/ruff-linter-formatter-agent/"
 ---
-
 # Ruff Linter and Formatter
 
 Ultra-fast Python linting and formatting using Ruff CLI with pyproject.toml configuration. Supports auto-fix, import sorting (isort-compatible), and rule selection from 800+ built-in rules.
@@ -49,4 +48,4 @@ clawhub install ruff-linter-formatter-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/ruff-linter-formatter-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/ruff-linter-formatter-agent/)

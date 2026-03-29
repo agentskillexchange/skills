@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Agent Browser Operator
 
 Interactive browser skill for logged-in flows, dynamic pages, and session-aware site operations.
@@ -74,4 +73,4 @@ clawhub install agent-browser-operator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/agent-browser-operator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/agent-browser-operator/)

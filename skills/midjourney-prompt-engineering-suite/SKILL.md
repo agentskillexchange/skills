@@ -8,7 +8,6 @@ source: "https://agentskillexchange.com/skills/midjourney-prompt-engineering-sui
 tool_ecosystem:
   tool: midjourney
 ---
-
 # Midjourney Prompt Engineering Suite
 
 Generates and optimizes Midjourney prompts using the Midjourney API with automatic parameter tuning for aspect ratios, stylize values, and chaos settings. Includes A/B testing workflows via Replicate prediction API.
@@ -55,4 +54,4 @@ clawhub install midjourney-prompt-engineering-suite
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/midjourney-prompt-engineering-suite/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/midjourney-prompt-engineering-suite/)

@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Prettier Format Enforcement Bot
 
 Enforces code formatting standards using the Prettier API (prettier.format(), prettier.check()) and prettier-plugin-organize-imports. Supports 20+ languages with .prettierrc configuration management.
@@ -60,4 +59,4 @@ clawhub install prettier-format-enforcement-bot
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/prettier-format-enforcement-bot/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/prettier-format-enforcement-bot/)

@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # OWASP ZAP API Fuzzer
 
 Automates REST API security testing using the OWASP ZAP Python SDK. Runs active scans, SQL injection probes, and XSS tests against OpenAPI specs with structured vulnerability reports.
@@ -57,4 +56,4 @@ clawhub install owasp-zap-api-fuzzer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/owasp-zap-api-fuzzer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/owasp-zap-api-fuzzer/)

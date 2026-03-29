@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # CloudWatch Intelligent Alarms
 
 Uses AWS CloudWatch SDK (boto3) to create composite alarms with ML-powered anomaly detection bands. Integrates with AWS SNS for notifications and EventBridge for automated remediation triggers.
@@ -60,4 +59,4 @@ clawhub install cloudwatch-intelligent-alarms
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/cloudwatch-intelligent-alarms/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/cloudwatch-intelligent-alarms/)

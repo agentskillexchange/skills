@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Vite Plugin Hot Module Analyzer
 
 Monitors and analyzes Vite HMR (Hot Module Replacement) update chains using the vite.config.ts plugin API and ws WebSocket events. Identifies slow module boundaries, circular dependency hot paths, and generates flamegraph-compatible output for Chrome DevTools Performance panel.
@@ -56,4 +55,4 @@ clawhub install vite-plugin-hmr-analyzer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/vite-plugin-hmr-analyzer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/vite-plugin-hmr-analyzer/)

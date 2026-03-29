@@ -12,7 +12,6 @@ tool_ecosystem:
   github_repo: DataDog/dd-trace-js
   maintained: true
 ---
-
 # Datadog Monitor Configurator
 
 Manages Datadog monitors and dashboards via the Datadog REST API v2. Creates metric, log, and APM monitors with composite conditions and configures notification routing through @-mention integrations.
@@ -59,4 +58,4 @@ clawhub install datadog-monitor-configurator-2
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/datadog-monitor-configurator-2/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/datadog-monitor-configurator-2/)

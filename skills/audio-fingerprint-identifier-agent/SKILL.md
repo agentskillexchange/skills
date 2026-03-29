@@ -9,7 +9,6 @@ tool_ecosystem:
   tool: postgresql
   npm_weekly_downloads: 21413502
 ---
-
 # Audio Fingerprint Identifier
 
 Identifies audio content using Chromaprint/AcoustID fingerprinting, Shazam API recognition, and ACRCloud monitoring. Matches music, speech, and ambient audio against fingerprint databases.
@@ -52,4 +51,4 @@ clawhub install audio-fingerprint-identifier-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/audio-fingerprint-identifier-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/audio-fingerprint-identifier-agent/)

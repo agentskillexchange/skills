@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Trivy Container Security Scanner
 
 Integrates Aqua Security Trivy CLI for comprehensive container image vulnerability scanning. Detects OS package CVEs, language-specific dependency vulnerabilities, and IaC misconfigurations with SARIF output format for CI/CD pipeline integration.
@@ -73,4 +72,4 @@ clawhub install trivy-container-security-scanner
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/trivy-container-security-scanner/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/trivy-container-security-scanner/)

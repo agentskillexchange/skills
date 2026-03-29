@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # AWS CloudWatch Insights Agent
 
 Runs CloudWatch Logs Insights queries via AWS SDK for JavaScript v3. Analyzes Lambda cold starts, API Gateway latency, and ECS container logs. Generates anomaly detection alarms with math expressions.
@@ -62,4 +61,4 @@ clawhub install aws-cloudwatch-insights-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/aws-cloudwatch-insights-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/aws-cloudwatch-insights-agent/)

@@ -13,7 +13,6 @@ tool_ecosystem:
   license: BSD-3-Clause
   maintained: true
 ---
-
 # Scrapy Spider Architect
 
 Generates Scrapy spider classes with CSS/XPath selectors, item pipelines, and middleware configurations for structured web scraping. Includes Scrapy-Splash integration for JavaScript-rendered content.
@@ -60,4 +59,4 @@ clawhub install scrapy-spider-architect
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/scrapy-spider-architect/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/scrapy-spider-architect/)

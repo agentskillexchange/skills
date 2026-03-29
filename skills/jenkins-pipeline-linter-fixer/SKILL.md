@@ -12,7 +12,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Jenkins Pipeline Linter & Fixer
 
 Validates Jenkinsfile declarative pipelines using the Jenkins Pipeline Linter API endpoint (/pipeline-model-converter/validate). Auto-fixes common syntax issues and stages missing agent directives.
@@ -61,4 +60,4 @@ clawhub install jenkins-pipeline-linter-fixer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/jenkins-pipeline-linter-fixer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-pipeline-linter-fixer/)

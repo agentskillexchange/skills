@@ -12,7 +12,6 @@ tool_ecosystem:
   github_repo: DataDog/dd-trace-js
   maintained: true
 ---
-
 # Datadog Monitor Blueprint Generator
 
 Creates Datadog monitor definitions using the Datadog API v2 with metric, log, APM trace, and composite monitor types. Generates Terraform datadog_monitor resources with threshold and anomaly detection.
@@ -59,4 +58,4 @@ clawhub install datadog-monitor-blueprint-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/datadog-monitor-blueprint-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/datadog-monitor-blueprint-generator/)

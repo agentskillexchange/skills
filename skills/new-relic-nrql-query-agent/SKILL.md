@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # New Relic NRQL Query Agent
 
 Executes NRQL queries against New Relic’s GraphQL NerdGraph API for application performance monitoring. Generates automated SLA reports with percentile latency breakdowns and error budget calculations.
@@ -60,4 +59,4 @@ clawhub install new-relic-nrql-query-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/new-relic-nrql-query-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/new-relic-nrql-query-agent/)

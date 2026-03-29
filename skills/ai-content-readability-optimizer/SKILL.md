@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: WordPress/WordPress
   maintained: true
 ---
-
 # AI Content Readability Optimizer
 
 Analyzes and optimizes content readability using Flesch-Kincaid scoring, Hemingway Editor API integration, and Grammarly Text API. Generates SEO-optimized rewrites targeting specific grade levels.
@@ -54,4 +53,4 @@ clawhub install ai-content-readability-optimizer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/ai-content-readability-optimizer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/ai-content-readability-optimizer/)

@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Tekton Pipeline Template Generator
 
 Scaffolds Tekton Pipeline and Task CRDs using the Tekton Hub API for reusable task resolution. Leverages tkn CLI for local testing and integrates with Sigstore cosign for supply chain artifact signing and SLSA provenance attestation.
@@ -65,4 +64,4 @@ clawhub install tekton-pipeline-template-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/tekton-pipeline-template-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/tekton-pipeline-template-generator/)

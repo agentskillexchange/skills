@@ -12,7 +12,6 @@ tool_ecosystem:
   license: LGPL-2.1
   maintained: true
 ---
-
 # SAST Rule Compiler for Semgrep
 
 Compiles and validates custom Semgrep SAST rules using the semgrep-core engine. Tests pattern matching against sample codebases and generates rule performance benchmarks with p/ci rulesets.
@@ -59,4 +58,4 @@ clawhub install sast-rule-compiler-semgrep
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/sast-rule-compiler-semgrep/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/sast-rule-compiler-semgrep/)

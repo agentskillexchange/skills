@@ -13,7 +13,6 @@ tool_ecosystem:
   license: GPL-3.0
   maintained: true
 ---
-
 # Ansible Playbook Dry-Run Validator
 
 Validates Ansible playbooks in check mode using ansible-playbook –check –diff and the Ansible Python API. Detects idempotency issues, undefined variables, and unreachable hosts before production runs.
@@ -60,4 +59,4 @@ clawhub install ansible-playbook-dryrun-validator-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/ansible-playbook-dryrun-validator-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/ansible-playbook-dryrun-validator-agent/)

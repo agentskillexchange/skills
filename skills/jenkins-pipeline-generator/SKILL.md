@@ -12,7 +12,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Jenkins Pipeline Generator
 
 Generates declarative Jenkins pipeline scripts using the Jenkins Pipeline Syntax reference and shared library patterns. Integrates with the Jenkins REST API (/api/json) for job configuration and the Blue Ocean API for pipeline visualization.
@@ -61,4 +60,4 @@ clawhub install jenkins-pipeline-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/jenkins-pipeline-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-pipeline-generator/)

@@ -12,7 +12,6 @@ tool_ecosystem:
   license: GPL-3.0
   maintained: true
 ---
-
 # Ansible Playbook Dry Run Validator
 
 Validates Ansible playbooks using ansible-lint and the Ansible Galaxy API. Performs check-mode dry runs, validates role dependencies, and detects deprecated module usage across collections.
@@ -55,4 +54,4 @@ clawhub install ansible-playbook-dry-run-validator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/ansible-playbook-dry-run-validator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/ansible-playbook-dry-run-validator/)

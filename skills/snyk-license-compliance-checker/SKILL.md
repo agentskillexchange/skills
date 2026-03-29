@@ -12,7 +12,6 @@ tool_ecosystem:
   github_repo: snyk/cli
   maintained: true
 ---
-
 # Snyk License Compliance Checker
 
 Uses the Snyk CLI and REST API to audit open-source dependencies for license compliance across npm, PyPI, Maven, and Go modules. Generates SPDX license reports and flags copyleft violations.
@@ -59,4 +58,4 @@ clawhub install snyk-license-compliance-checker
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/snyk-license-compliance-checker/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/snyk-license-compliance-checker/)

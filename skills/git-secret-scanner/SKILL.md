@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Git Secret Scanner
 
 Detects leaked secrets in Git repositories using pattern-based scanning with Gitleaks rule definitions and the GitHub Secret Scanning API. Identifies exposed API keys, tokens, and credentials across full commit history using git log –all -p analysis.
@@ -60,4 +59,4 @@ clawhub install git-secret-scanner
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/git-secret-scanner/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/git-secret-scanner/)

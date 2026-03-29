@@ -13,7 +13,6 @@ tool_ecosystem:
   license: BSD-3-Clause
   maintained: true
 ---
-
 # Scrapy Pipeline Manager
 
 Manages Scrapy spider deployments via Scrapyd API with custom item pipelines for MongoDB ingestion, deduplication via MinHash LSH, and rotating proxy middleware configuration.
@@ -60,4 +59,4 @@ clawhub install scrapy-pipeline-manager
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/scrapy-pipeline-manager/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/scrapy-pipeline-manager/)

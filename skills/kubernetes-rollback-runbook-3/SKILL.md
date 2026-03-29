@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Kubernetes Rollback Runbook
 
 Executes structured Kubernetes rollback procedures using kubectl and the kubernetes/client-go library. Monitors rollout status via the apps/v1 Deployment API and triggers PagerDuty incidents through the PagerDuty Events API v2.
@@ -59,4 +58,4 @@ clawhub install kubernetes-rollback-runbook-3
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/kubernetes-rollback-runbook-3/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-rollback-runbook-3/)

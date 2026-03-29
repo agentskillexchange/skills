@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Buf Protobuf Linter
 
 Lints Protocol Buffer definitions using the Buf CLI ruleset and validates gRPC service contracts. Detects breaking changes between proto revisions using buf breaking with git integration.
@@ -56,4 +55,4 @@ clawhub install buf-protobuf-linter
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/buf-protobuf-linter/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/buf-protobuf-linter/)

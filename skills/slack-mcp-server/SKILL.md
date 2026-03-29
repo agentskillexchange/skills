@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Slack MCP Server
 
 Agent access to Slack conversations and workspace workflows.
@@ -68,4 +67,4 @@ clawhub install slack-mcp-server
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/slack-mcp-server/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/slack-mcp-server/)

@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: false
 ---
-
 # PagerDuty Event Orchestration Runbook
 
 Builds incident runbooks around the PagerDuty Events API v2, Incidents API, and Response Plays so agents can classify alerts, enrich context, and drive consistent handoffs. Useful when noisy monitoring signals need a repeatable escalation flow instead of ad hoc human triage.
@@ -60,4 +59,4 @@ clawhub install pagerduty-event-orchestration-runbook
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/pagerduty-event-orchestration-runbook/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/pagerduty-event-orchestration-runbook/)

@@ -6,7 +6,6 @@ framework: "MCP"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/todoist-gtd-workflow-engine/"
 ---
-
 # Todoist GTD Workflow Engine
 
 Implements Getting Things Done methodology on Todoist using the Sync API v9. Automates weekly reviews, context tagging, and project decomposition into next actions.
@@ -53,4 +52,4 @@ clawhub install todoist-gtd-workflow-engine
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/todoist-gtd-workflow-engine/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/todoist-gtd-workflow-engine/)

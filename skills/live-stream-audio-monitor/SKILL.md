@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: FFmpeg/FFmpeg
   maintained: true
 ---
-
 # Live Stream Audio Monitor
 
 Monitors live audio streams from RTMP, HLS, or Icecast sources using FFmpeg stream capture and real-time chunked transcription via Deepgram’s streaming API or Whisper.cpp. Detects silence gaps, audio clipping, and loudness deviations from EBU R128 targets using pyloudnorm.
@@ -58,4 +57,4 @@ clawhub install live-stream-audio-monitor
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/live-stream-audio-monitor/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/live-stream-audio-monitor/)

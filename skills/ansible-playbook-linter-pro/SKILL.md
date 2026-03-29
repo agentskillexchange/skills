@@ -12,7 +12,6 @@ tool_ecosystem:
   license: GPL-3.0
   maintained: true
 ---
-
 # Ansible Playbook Linter Pro
 
 Validates Ansible playbooks using ansible-lint with custom rule plugins and the Ansible Collections API. Checks for deprecated modules, missing handlers, insecure variable practices, and role dependency conflicts.
@@ -61,4 +60,4 @@ clawhub install ansible-playbook-linter-pro
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/ansible-playbook-linter-pro/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/ansible-playbook-linter-pro/)

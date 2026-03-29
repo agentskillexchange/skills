@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: WordPress/WordPress
   maintained: true
 ---
-
 # Keyword Cannibalization Detector
 
 Detects keyword cannibalization issues using Google Search Console API performance data and Semrush keyword tracking. Maps URL-to-keyword overlaps and suggests content consolidation strategies.
@@ -54,4 +53,4 @@ clawhub install keyword-cannibalization-detector
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/keyword-cannibalization-detector/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/keyword-cannibalization-detector/)

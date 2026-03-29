@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # GitHub Actions OIDC Token Validator
 
 Validates GitHub Actions OIDC tokens for secure, secretless deployments. Uses the GitHub Actions id-token API and the jose JWT library to verify audience, issuer, and subject claims. Integrates with AWS STS AssumeRoleWithWebIdentity and GCP Workload Identity Federation for cloud access.
@@ -56,4 +55,4 @@ clawhub install github-actions-oidc-token-validator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/github-actions-oidc-token-validator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/github-actions-oidc-token-validator/)

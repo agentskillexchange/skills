@@ -12,7 +12,6 @@ tool_ecosystem:
   license: LGPL-3.0
   maintained: true
 ---
-
 # SonarQube Code Quality Scanner
 
 Runs SonarQube static analysis via the SonarQube Web API and sonar-scanner CLI. Detects code smells, bugs, and security vulnerabilities across 30+ languages with quality gate enforcement.
@@ -59,4 +58,4 @@ clawhub install sonarqube-code-quality-scanner
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/sonarqube-code-quality-scanner/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/sonarqube-code-quality-scanner/)

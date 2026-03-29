@@ -6,7 +6,6 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/FiloSottile/age"
 ---
-
 # age Modern File Encryption Tool
 
 Encrypt and decrypt files with age (FiloSottile/age), a simple, modern encryption tool with small explicit keys, post-quantum support, no config options, and UNIX-style composability. A practical replacement for GPG in most workflows.
@@ -57,4 +56,4 @@ clawhub install age-modern-file-encryption-tool
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/age-modern-file-encryption-tool/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/age-modern-file-encryption-tool/)

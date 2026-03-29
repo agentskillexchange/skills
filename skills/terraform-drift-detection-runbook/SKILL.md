@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: hashicorp/terraform
   maintained: true
 ---
-
 # Terraform Drift Detection Runbook
 
 Detects infrastructure drift using terraform plan -detailed-exitcode and the Terraform Cloud API. Compares state files against live resources across AWS, GCP, and Azure providers.
@@ -58,4 +57,4 @@ clawhub install terraform-drift-detection-runbook
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/terraform-drift-detection-runbook/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-drift-detection-runbook/)

@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # ESLint Rule Generator Agent
 
 Generates custom ESLint rules from natural language descriptions using the ESLint RuleTester API and AST selectors. Integrates with typescript-eslint parser for TypeScript-aware linting.
@@ -56,4 +55,4 @@ clawhub install eslint-rule-generator-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/eslint-rule-generator-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/eslint-rule-generator-agent/)

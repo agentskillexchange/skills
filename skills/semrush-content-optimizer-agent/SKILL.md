@@ -6,7 +6,6 @@ framework: "OpenClaw"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/semrush-content-optimizer-agent/"
 ---
-
 # SEMrush Content Optimizer Agent
 
 Integrates with SEMrush Writing Assistant API to analyze content against top-10 SERP competitors. Provides real-time readability scoring via Flesch-Kincaid, keyword density analysis, and semantic similarity checks using SEMrush Topic Research endpoints.
@@ -67,4 +66,4 @@ clawhub install semrush-content-optimizer-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/semrush-content-optimizer-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/semrush-content-optimizer-agent/)

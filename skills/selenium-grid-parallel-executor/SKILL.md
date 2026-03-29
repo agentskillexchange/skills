@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Selenium Grid Parallel Executor
 
 Orchestrates parallel browser automation across Selenium Grid nodes using RemoteWebDriver, DesiredCapabilities, and WebDriverWait. Manages session distribution, retry policies, and HTML test reports via ExtentReports.
@@ -56,4 +55,4 @@ clawhub install selenium-grid-parallel-executor
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/selenium-grid-parallel-executor/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/selenium-grid-parallel-executor/)

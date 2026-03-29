@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: WordPress/WordPress
   maintained: true
 ---
-
 # SEO Meta Tag Optimizer
 
 Generates optimized title tags, meta descriptions, and Open Graph markup using Google NLP API for entity salience scoring. Integrates with Yoast SEO REST API for WordPress deployments.
@@ -54,4 +53,4 @@ clawhub install seo-meta-tag-optimizer-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/seo-meta-tag-optimizer-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/seo-meta-tag-optimizer-agent/)

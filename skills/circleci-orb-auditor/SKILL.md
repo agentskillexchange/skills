@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: circleci/circleci-docs
   maintained: true
 ---
-
 # CircleCI Orb Auditor
 
 Audits CircleCI orb versions and configurations using the CircleCI v2 API. Flags deprecated orbs, provides pinning recommendations, and checks security advisories from the orb registry.
@@ -58,4 +57,4 @@ clawhub install circleci-orb-auditor
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/circleci-orb-auditor/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-orb-auditor/)

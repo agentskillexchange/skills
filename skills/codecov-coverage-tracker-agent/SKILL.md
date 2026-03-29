@@ -6,7 +6,6 @@ framework: "MCP"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/codecov-coverage-tracker-agent/"
 ---
-
 # Codecov Coverage Tracker Agent
 
 Tracks and enforces code coverage using Codecov API, lcov, and Istanbul/nyc. Generates coverage reports, detects regressions, and blocks PRs below threshold.
@@ -55,4 +54,4 @@ clawhub install codecov-coverage-tracker-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/codecov-coverage-tracker-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/codecov-coverage-tracker-agent/)

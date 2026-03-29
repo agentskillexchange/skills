@@ -6,7 +6,6 @@ framework: "Cursor"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/surfer-seo-serp-analyzer/"
 ---
-
 # Surfer SEO SERP Analyzer
 
 Uses Surfer SEO Content Editor API to pull SERP analysis data including word count benchmarks, heading structure patterns, and NLP entity recommendations. Generates content briefs with target keyword clusters from Surfer Audit endpoints.
@@ -67,4 +66,4 @@ clawhub install surfer-seo-serp-analyzer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/surfer-seo-serp-analyzer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/surfer-seo-serp-analyzer/)

@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # AWS CloudWatch Log Anomaly Scanner
 
 Scans AWS CloudWatch Logs using the CloudWatch Logs Insights API and CloudWatch Anomaly Detection API. Identifies unusual error patterns, latency spikes, and log volume anomalies across log groups.
@@ -56,4 +55,4 @@ clawhub install aws-cloudwatch-log-anomaly-scanner
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/aws-cloudwatch-log-anomaly-scanner/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/aws-cloudwatch-log-anomaly-scanner/)

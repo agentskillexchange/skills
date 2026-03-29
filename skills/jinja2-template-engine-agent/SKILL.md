@@ -6,7 +6,6 @@ framework: "Gemini"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/jinja2-template-engine-agent/"
 ---
-
 # Jinja2 Template Engine
 
 Renders Jinja2 templates with variable injection, macro expansion, and template inheritance. Integrates with the Jinja2 Environment API for sandboxed execution and custom filter registration.
@@ -55,4 +54,4 @@ clawhub install jinja2-template-engine-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/jinja2-template-engine-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/jinja2-template-engine-agent/)

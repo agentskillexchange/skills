@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # yq YAML and Structured Data Processor
 
 Process, query, and transform YAML, JSON, XML, CSV, TOML, and properties files from the command line using yq. Supports jq-like expressions for reading, updating, and converting between formats.
@@ -63,4 +62,4 @@ clawhub install yq-yaml-structured-data-processor
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/yq-yaml-structured-data-processor/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/yq-yaml-structured-data-processor/)

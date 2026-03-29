@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Playwright Multi-Browser Test Suite
 
 Generates end-to-end test suites using the Playwright Test Runner API with cross-browser coverage on Chromium, Firefox, and WebKit. Implements visual regression testing via the Playwright Screenshots API and network mocking.
@@ -56,4 +55,4 @@ clawhub install playwright-multi-browser-test-suite
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/playwright-multi-browser-test-suite/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/playwright-multi-browser-test-suite/)

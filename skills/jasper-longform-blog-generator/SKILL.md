@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: WordPress/WordPress
   maintained: true
 ---
-
 # Jasper AI Long-Form Blog Post Generator
 
 Connects to Jasper’s /v1/content/generate REST endpoint to produce SEO-optimized long-form blog posts using the Boss Mode workflow. Passes custom tone, keyword targets, and brand voice templates via the Jasper API SDK, then auto-publishes drafts to WordPress via the WP REST API.
@@ -66,4 +65,4 @@ clawhub install jasper-longform-blog-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/jasper-longform-blog-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/jasper-longform-blog-generator/)

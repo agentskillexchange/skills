@@ -6,7 +6,6 @@ framework: "ChatGPT Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/xml-xslt-transform-pipeline/"
 ---
-
 # XML XSLT Transform Pipeline
 
 Applies chained XSLT transformations to XML documents using lxml and Saxon-JS. Supports XSLT 3.0 streaming, XPath parameter injection, and multi-stage transform pipelines with intermediate validation.
@@ -49,4 +48,4 @@ clawhub install xml-xslt-transform-pipeline
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/xml-xslt-transform-pipeline/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/xml-xslt-transform-pipeline/)

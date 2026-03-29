@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Protobuf Schema Registry Manager
 
 Manages Protocol Buffer schema evolution using buf CLI with breaking change detection and Confluent Schema Registry integration. Enforces buf lint rules and generates gRPC service stubs via protoc-gen-go and protoc-gen-grpc-web.
@@ -56,4 +55,4 @@ clawhub install protobuf-schema-registry-manager
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/protobuf-schema-registry-manager/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/protobuf-schema-registry-manager/)

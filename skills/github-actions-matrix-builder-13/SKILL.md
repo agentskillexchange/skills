@@ -6,7 +6,6 @@ framework: "OpenClaw"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/github-actions-matrix-builder-13/"
 ---
-
 # GitHub Actions Matrix Builder
 
 Generates dynamic GitHub Actions CI/CD matrix strategies using the GitHub REST API and YAML AST parsing via js-yaml. Automatically detects language versions, OS targets, and dependency variations from repository configuration files.
@@ -55,4 +54,4 @@ clawhub install github-actions-matrix-builder-13
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/github-actions-matrix-builder-13/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/github-actions-matrix-builder-13/)

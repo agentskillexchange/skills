@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Notion Database Sync Bridge
 
 Synchronizes data between Notion databases and external sources using the Notion API v2022-06-28 with cursor-based pagination. Handles property type mapping for select, multi-select, relation, and formula fields with conflict resolution via last-write-wins strategy.
@@ -58,4 +57,4 @@ clawhub install notion-database-sync-bridge
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/notion-database-sync-bridge/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/notion-database-sync-bridge/)

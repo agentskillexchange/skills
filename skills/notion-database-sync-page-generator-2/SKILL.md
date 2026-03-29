@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Notion Database Sync & Page Generator
 
 Reads from and writes to Notion databases using the official Notion API v1, supporting filtered queries, property mapping, and bulk page creation from structured JSON input. Resolves relation and rollup properties automatically when generating linked records.
@@ -68,4 +67,4 @@ clawhub install notion-database-sync-page-generator-2
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/notion-database-sync-page-generator-2/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/notion-database-sync-page-generator-2/)

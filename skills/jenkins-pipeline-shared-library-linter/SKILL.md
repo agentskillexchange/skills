@@ -12,7 +12,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Jenkins Pipeline Shared Library Linter
 
 Lints Jenkins Declarative and Scripted pipeline syntax using the Jenkins REST API and the Jenkins CLI jar. Checks Jenkinsfile syntax against a live or sandbox Jenkins controller using the /pipeline-model-converter/validate endpoint. Reports errors with line numbers and suggested fixes.
@@ -55,4 +54,4 @@ clawhub install jenkins-pipeline-shared-library-linter
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/jenkins-pipeline-shared-library-linter/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-pipeline-shared-library-linter/)

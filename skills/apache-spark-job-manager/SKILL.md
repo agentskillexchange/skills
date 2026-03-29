@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Apache Spark Job Manager
 
 Apache Spark Job Manager is built around Apache Spark distributed compute engine. The underlying ecosystem is represented by apache/spark (43,027+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like Spark jobs, DataFrames, SQL, executors, stages, Structured Streaming and […]
@@ -67,4 +66,4 @@ clawhub install apache-spark-job-manager
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/apache-spark-job-manager/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/apache-spark-job-manager/)

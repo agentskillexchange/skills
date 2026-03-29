@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # OpenAPI Spec Validator
 
 Validates and lints OpenAPI 3.0/3.1 specifications using Spectral CLI rules and the Swagger Parser library. Detects breaking changes between spec versions and generates migration guides.
@@ -55,4 +54,4 @@ clawhub install openapi-spec-validator-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/openapi-spec-validator-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/openapi-spec-validator-agent/)

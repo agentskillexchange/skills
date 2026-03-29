@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: hashicorp/vault
   maintained: true
 ---
-
 # Vault Secrets Rotator
 
 Manages secret lifecycle through the HashiCorp Vault HTTP API v1. Rotates database credentials via Vault dynamic secrets engine and syncs to Kubernetes via External Secrets Operator CRDs.
@@ -58,4 +57,4 @@ clawhub install vault-secrets-rotator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/vault-secrets-rotator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/vault-secrets-rotator/)

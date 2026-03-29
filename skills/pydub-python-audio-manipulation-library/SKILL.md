@@ -12,24 +12,35 @@ pydub is a Python library that provides a simple, high-level interface for manip
 
 ## Installation
 
-Install this skill using one of the following methods:
+### Any Agent
 
-### OpenClaw CLI
 ```bash
-openclaw skills install pydub-python-audio-manipulation-library
+npx skills add agentskillexchange/skills --skill pydub-python-audio-manipulation-library
 ```
 
-### Claude Desktop (MCP)
-Add the skill server to your Claude Desktop configuration to use pydub Python Audio Manipulation Library capabilities.
+### Claude Code
 
-### Cursor / Windsurf
-Add as an agent skill in your IDE settings for AI-assisted media & transcription workflows.
+```bash
+npx skills add agentskillexchange/skills --skill pydub-python-audio-manipulation-library -a claude-code
+```
 
-### ChatGPT / Custom GPTs
-Import as an action or knowledge source in your GPT configuration.
+### Cursor
 
-### Direct Download
-Download the SKILL.md file and add it to your agent's skills directory.
+```bash
+npx skills add agentskillexchange/skills --skill pydub-python-audio-manipulation-library -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill pydub-python-audio-manipulation-library -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install pydub-python-audio-manipulation-library
+```
 
 ## Source
 

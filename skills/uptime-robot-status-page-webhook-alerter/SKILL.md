@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: false
 ---
-
 # Uptime Robot Status Page Webhook Alerter
 
 Integrates with the Uptime Robot API to monitor status page changes and push webhook alerts to Slack or PagerDuty. Uses the UptimeRobot getMonitors endpoint to detect downtime transitions.
@@ -56,4 +55,4 @@ clawhub install uptime-robot-status-page-webhook-alerter
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/uptime-robot-status-page-webhook-alerter/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/uptime-robot-status-page-webhook-alerter/)

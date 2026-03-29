@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: FFmpeg/FFmpeg
   maintained: true
 ---
-
 # Live Stream Clip Extractor
 
 Extracts highlight clips from live streams using Twitch Helix API, YouTube Live Streaming API, and FFmpeg segment detection. Identifies peak moments via chat velocity analysis and audio energy spikes.
@@ -54,4 +53,4 @@ clawhub install live-stream-clip-extractor-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/live-stream-clip-extractor-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/live-stream-clip-extractor-agent/)

@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Kubernetes CrashLoopBackOff Diagnoser
 
 Diagnoses CrashLoopBackOff pods using kubectl and the Kubernetes API. Inspects container logs, exit codes, OOMKilled events, and liveness probe configurations to generate actionable remediation steps.
@@ -59,4 +58,4 @@ clawhub install k8s-crashloopbackoff-diagnoser
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/k8s-crashloopbackoff-diagnoser/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/k8s-crashloopbackoff-diagnoser/)

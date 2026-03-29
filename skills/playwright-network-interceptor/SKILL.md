@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Playwright Network Interceptor
 
 Intercepts and analyzes network traffic using Playwright route handlers for API response capture and modification. Uses the Playwright page.route() API, HAR recording, and request/response event listeners.
@@ -60,4 +59,4 @@ clawhub install playwright-network-interceptor
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/playwright-network-interceptor/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/playwright-network-interceptor/)

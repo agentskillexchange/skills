@@ -12,7 +12,6 @@ tool_ecosystem:
   license: GPL-3.0
   maintained: true
 ---
-
 # Ansible Runbook Executor
 
 Executes Ansible playbooks for server diagnostics and remediation using ansible-runner Python SDK. Supports inventory parsing, vault-encrypted credentials, and real-time task output streaming.
@@ -59,4 +58,4 @@ clawhub install ansible-runbook-executor
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/ansible-runbook-executor/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/ansible-runbook-executor/)

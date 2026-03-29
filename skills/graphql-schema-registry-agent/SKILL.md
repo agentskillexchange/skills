@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # GraphQL Schema Registry Agent
 
 Manages federated GraphQL schemas using Apollo Studio API and Hive Schema Registry. Validates schema composition, detects breaking changes, and enforces naming conventions across subgraph services.
@@ -60,4 +59,4 @@ clawhub install graphql-schema-registry-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/graphql-schema-registry-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/graphql-schema-registry-agent/)

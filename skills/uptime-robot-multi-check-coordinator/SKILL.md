@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: false
 ---
-
 # Uptime Robot Multi-Check Coordinator
 
 Manages bulk uptime monitoring via the Uptime Robot API v2. Creates HTTP, keyword, and port monitors with alert contacts, maintenance windows, and status page synchronization.
@@ -56,4 +55,4 @@ clawhub install uptime-robot-multi-check-coordinator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/uptime-robot-multi-check-coordinator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/uptime-robot-multi-check-coordinator/)

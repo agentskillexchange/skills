@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: false
 ---
-
 # Parquet Column Mapper
 
 Reads and transforms Apache Parquet file metadata and column statistics using PyArrow and the Parquet Thrift specification. Maps column types across Delta Lake, Iceberg, and Hudi table formats.
@@ -56,4 +55,4 @@ clawhub install parquet-column-mapper
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/parquet-column-mapper/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/parquet-column-mapper/)

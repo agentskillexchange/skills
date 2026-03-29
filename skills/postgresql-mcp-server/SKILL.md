@@ -9,7 +9,6 @@ tool_ecosystem:
   tool: postgresql
   npm_weekly_downloads: 21413502
 ---
-
 # PostgreSQL MCP Server
 
 Agent access to PostgreSQL data and queries through MCP.
@@ -64,4 +63,4 @@ clawhub install postgresql-mcp-server
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/postgresql-mcp-server/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/postgresql-mcp-server/)

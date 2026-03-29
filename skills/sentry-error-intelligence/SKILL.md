@@ -12,7 +12,6 @@ tool_ecosystem:
   github_repo: getsentry/sentry
   maintained: true
 ---
-
 # Sentry Error Intelligence
 
 Connects to the Sentry API v0 to analyze error trends, group similar stack traces using fingerprinting rules, and auto-assigns issues to code owners via GitHub CODEOWNERS integration.
@@ -59,4 +58,4 @@ clawhub install sentry-error-intelligence
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/sentry-error-intelligence/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/sentry-error-intelligence/)

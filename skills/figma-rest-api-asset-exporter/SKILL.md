@@ -6,7 +6,6 @@ framework: "Custom Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/figma-rest-api-asset-exporter/"
 ---
-
 # Figma REST API Asset Exporter
 
 Exports design assets from Figma files using the GET /v1/files/:key and /v1/images/:key endpoints. Supports SVG, PNG, and PDF export with scale and format parameters.
@@ -53,4 +52,4 @@ clawhub install figma-rest-api-asset-exporter
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/figma-rest-api-asset-exporter/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/figma-rest-api-asset-exporter/)

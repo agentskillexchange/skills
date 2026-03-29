@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # PubMed Literature Mining Agent
 
 Queries the NCBI E-utilities API (esearch, efetch, elink) to retrieve PubMed biomedical literature, extracting MeSH terms, citation networks, and full-text links from PubMed Central via the PMC OAI-PMH service.
@@ -56,4 +55,4 @@ clawhub install pubmed-literature-mining-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/pubmed-literature-mining-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/pubmed-literature-mining-agent/)

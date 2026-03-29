@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Docker Image Layer Inspector
 
 Analyzes Docker image layers using the Docker Registry HTTP API v2 and Dive CLI. Identifies wasted space, duplicate files, and optimizes Dockerfile instructions for smaller builds.
@@ -55,4 +54,4 @@ clawhub install docker-image-layer-inspector
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/docker-image-layer-inspector/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/docker-image-layer-inspector/)

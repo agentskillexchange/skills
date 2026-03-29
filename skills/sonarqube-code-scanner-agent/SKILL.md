@@ -12,7 +12,6 @@ tool_ecosystem:
   license: LGPL-3.0
   maintained: true
 ---
-
 # SonarQube Code Scanner Agent
 
 Automated code quality scanning using SonarQube REST API and SonarScanner CLI. Detects code smells, bugs, and vulnerabilities across 30+ languages with configurable quality gates.
@@ -61,4 +60,4 @@ clawhub install sonarqube-code-scanner-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/sonarqube-code-scanner-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/sonarqube-code-scanner-agent/)

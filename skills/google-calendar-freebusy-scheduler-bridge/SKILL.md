@@ -6,7 +6,6 @@ framework: "Cursor"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/google-calendar-freebusy-scheduler-bridge/"
 ---
-
 # Google Calendar FreeBusy Scheduler Bridge
 
 Coordinates meeting suggestions with the Google Calendar `freeBusy` endpoint, Events resource, and conferenceData fields for cleaner scheduling handoffs. Great for agents that need to compare availability, hold windows, and meeting metadata before creating or moving events.
@@ -53,4 +52,4 @@ clawhub install google-calendar-freebusy-scheduler-bridge
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/google-calendar-freebusy-scheduler-bridge/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/google-calendar-freebusy-scheduler-bridge/)

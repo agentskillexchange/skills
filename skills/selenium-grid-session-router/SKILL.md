@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Selenium Grid Session Router
 
 Routes browser automation sessions across Selenium Grid 4 nodes using the /status and /session endpoints. Configures RemoteWebDriver with DesiredCapabilities for cross-browser parallel execution.
@@ -60,4 +59,4 @@ clawhub install selenium-grid-session-router
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/selenium-grid-session-router/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/selenium-grid-session-router/)

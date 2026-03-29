@@ -12,7 +12,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Regex Pattern Test Suite Generator
 
 Generates comprehensive test suites for regular expressions using Hypothesis property-based testing and re2 for safe evaluation. Creates positive/negative test cases, edge cases, and ReDoS vulnerability checks.
@@ -55,4 +54,4 @@ clawhub install regex-pattern-test-suite-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/regex-pattern-test-suite-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/regex-pattern-test-suite-generator/)

@@ -12,29 +12,35 @@ Pagefind is a static search library written in Rust that indexes your built site
 
 ## Installation
 
-Install this skill using one of the following methods:
+### Any Agent
 
-### OpenClaw CLI
 ```bash
-openclaw skills install pagefind-static-low-bandwidth-search-engine
+npx skills add agentskillexchange/skills --skill pagefind-static-low-bandwidth-search-engine
 ```
 
-### ClawHub CLI
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill pagefind-static-low-bandwidth-search-engine -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill pagefind-static-low-bandwidth-search-engine -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill pagefind-static-low-bandwidth-search-engine -a codex
+```
+
+### OpenClaw
+
 ```bash
 clawhub install pagefind-static-low-bandwidth-search-engine
 ```
-
-### Manual Installation
-Download from [Agent Skill Exchange](https://agentskillexchange.com/skills/pagefind-static-low-bandwidth-search-engine/) and follow the setup instructions.
-
-### Git Clone
-```bash
-git clone https://github.com/agentskillexchange/skills.git
-cp -r skills/skills/pagefind-static-low-bandwidth-search-engine ~/.openclaw/workspace/skills/
-```
-
-### Marketplace
-Browse and install from [Agent Skill Exchange](https://agentskillexchange.com/skills/pagefind-static-low-bandwidth-search-engine/)
 
 ## Source
 

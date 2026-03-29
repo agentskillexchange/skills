@@ -6,7 +6,6 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/goreleaser/goreleaser"
 ---
-
 # GoReleaser Cross-Platform Release Automation
 
 Automate software releases with GoReleaser — build cross-platform binaries, create Docker images, generate changelogs, and publish to GitHub/GitLab/Gitea in a single command. Works for Go projects and beyond.
@@ -57,4 +56,4 @@ clawhub install goreleaser-cross-platform-release-automation
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/goreleaser-cross-platform-release-automation/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/goreleaser-cross-platform-release-automation/)

@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Playwright E2E Test Generator
 
 Generates Playwright test suites from natural language descriptions using the Playwright Test API. Supports cross-browser testing with Chromium, Firefox, and WebKit via BrowserContext fixtures.
@@ -62,4 +61,4 @@ clawhub install playwright-e2e-test-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/playwright-e2e-test-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/playwright-e2e-test-generator/)

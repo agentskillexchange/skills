@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: dbt-labs/dbt-core
   maintained: true
 ---
-
 # dbt Model Dependency Resolver
 
 Analyzes dbt project DAGs to identify circular references, orphaned models, and suboptimal materialization strategies. Uses dbt-core manifest.json parsing with Jinja template resolution for accurate lineage tracking.
@@ -58,4 +57,4 @@ clawhub install dbt-model-dependency-resolver-2
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/dbt-model-dependency-resolver-2/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/dbt-model-dependency-resolver-2/)

@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: false
 ---
-
 # Apache Kafka Schema Extractor
 
 Extracts and transforms Avro, Protobuf, and JSON Schema definitions from Confluent Schema Registry. Generates typed data models and validates schema compatibility using the Schema Registry REST API.
@@ -56,4 +55,4 @@ clawhub install apache-kafka-schema-extractor
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/apache-kafka-schema-extractor/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/apache-kafka-schema-extractor/)

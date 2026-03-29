@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # OWASP ZAP API Security Scanner
 
 Automates OWASP ZAP scans against REST APIs using the ZAP Python API client. Imports OpenAPI/Swagger specs for targeted scanning and generates SARIF-format reports for GitHub Security tab integration.
@@ -55,4 +54,4 @@ clawhub install owasp-zap-api-security-scanner
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/owasp-zap-api-security-scanner/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/owasp-zap-api-security-scanner/)

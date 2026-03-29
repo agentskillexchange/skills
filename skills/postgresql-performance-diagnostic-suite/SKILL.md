@@ -9,7 +9,6 @@ tool_ecosystem:
   tool: postgresql
   npm_weekly_downloads: 21413502
 ---
-
 # PostgreSQL Performance Diagnostic Suite
 
 Diagnoses PostgreSQL performance issues using pg_stat_statements, pg_stat_activity, and EXPLAIN ANALYZE. Integrates with pgBadger for log analysis and pg_stat_user_tables for index recommendations.
@@ -52,4 +51,4 @@ clawhub install postgresql-performance-diagnostic-suite
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/postgresql-performance-diagnostic-suite/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/postgresql-performance-diagnostic-suite/)

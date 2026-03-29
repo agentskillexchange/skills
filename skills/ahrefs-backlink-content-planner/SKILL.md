@@ -6,7 +6,6 @@ framework: "Gemini"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/ahrefs-backlink-content-planner/"
 ---
-
 # Ahrefs Backlink Content Planner
 
 Leverages Ahrefs REST API v3 to identify content gap opportunities through competing domain analysis. Pulls referring domains data, anchor text distributions, and DR metrics to prioritize content creation for link-worthy topics.
@@ -67,4 +66,4 @@ clawhub install ahrefs-backlink-content-planner
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/ahrefs-backlink-content-planner/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/ahrefs-backlink-content-planner/)

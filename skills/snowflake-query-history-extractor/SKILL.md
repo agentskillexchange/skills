@@ -8,7 +8,6 @@ source: "https://agentskillexchange.com/skills/snowflake-query-history-extractor
 tool_ecosystem:
   tool: snowflake
 ---
-
 # Snowflake Query History Extractor
 
 Extracts query history and performance metadata from Snowflake using the Snowflake Python Connector and INFORMATION_SCHEMA.QUERY_HISTORY view. Identifies expensive queries by credits consumed, data scanned, and spillage to remote storage. Exports results to a Pandas DataFrame for downstream analysis or Slack reporting.
@@ -51,4 +50,4 @@ clawhub install snowflake-query-history-extractor
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/snowflake-query-history-extractor/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/snowflake-query-history-extractor/)

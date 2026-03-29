@@ -12,7 +12,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Jenkins Declarative Pipeline Generator
 
 Generates Jenkins Declarative Pipelines using the Pipeline Model Definition Plugin API and Jenkins shared library conventions. Integrates with the Jenkins REST API for job provisioning and credentials management.
@@ -55,4 +54,4 @@ clawhub install jenkins-declarative-pipeline-generator-2
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/jenkins-declarative-pipeline-generator-2/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-declarative-pipeline-generator-2/)

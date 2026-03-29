@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Polaris Kubernetes Best Practices Validator
 
 Validate Kubernetes resource configurations against best practice policies using Fairwinds Polaris. Runs as a CLI for CI/CD, a dashboard for cluster-wide audits, or a validating webhook for admission control.
@@ -63,4 +62,4 @@ clawhub install polaris-kubernetes-best-practices-validator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/polaris-kubernetes-best-practices-validator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/polaris-kubernetes-best-practices-validator/)

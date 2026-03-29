@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # CodeClimate Maintainability Tracker
 
 Tracks Code Climate maintainability scores over time using the Code Climate v1 API. Identifies technical debt hotspots, monitors churn-complexity coupling, and generates weekly maintainability digests via SendGrid.
@@ -56,4 +55,4 @@ clawhub install codeclimate-maintainability-tracker-7
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/codeclimate-maintainability-tracker-7/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/codeclimate-maintainability-tracker-7/)

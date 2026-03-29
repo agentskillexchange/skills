@@ -6,7 +6,6 @@ framework: "Custom Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/ssl-tls-certificate-validator-monitor/"
 ---
-
 # SSL/TLS Certificate Validator and Monitor
 
 Validates SSL/TLS certificates using OpenSSL s_client, checks OCSP stapling status, and monitors expiry dates. Integrates with crt.sh Certificate Transparency logs and SSLLabs API for grading.
@@ -49,4 +48,4 @@ clawhub install ssl-tls-certificate-validator-monitor
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/ssl-tls-certificate-validator-monitor/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/ssl-tls-certificate-validator-monitor/)

@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Playwright Accessibility Audit Runner
 
 Runs automated WCAG 2.1 AA/AAA accessibility audits using Playwright with axe-core integration. Generates detailed violation reports with CSS selectors, ARIA role analysis, and remediation suggestions.
@@ -62,4 +61,4 @@ clawhub install playwright-accessibility-audit-runner
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/playwright-accessibility-audit-runner/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/playwright-accessibility-audit-runner/)

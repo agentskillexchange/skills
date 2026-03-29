@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # ESLint Rule Enforcement Agent
 
 Automates ESLint configuration and rule enforcement using the ESLint Node.js API and @typescript-eslint/parser. Generates fix suggestions and auto-corrects violations across JavaScript and TypeScript codebases.
@@ -60,4 +59,4 @@ clawhub install eslint-rule-enforcement-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/eslint-rule-enforcement-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/eslint-rule-enforcement-agent/)

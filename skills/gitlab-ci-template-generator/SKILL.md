@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: gitlabhq/gitlabhq
   maintained: true
 ---
-
 # GitLab CI Template Generator
 
 Creates GitLab CI/CD pipeline templates using Auto DevOps components, Kaniko for container builds, and SAST/DAST security scanning. Supports multi-project pipelines with trigger and bridge jobs.
@@ -58,4 +57,4 @@ clawhub install gitlab-ci-template-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/gitlab-ci-template-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/gitlab-ci-template-generator/)

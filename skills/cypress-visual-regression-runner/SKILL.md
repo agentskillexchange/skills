@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Cypress Visual Regression Runner
 
 Runs visual regression tests comparing screenshots captured via Cypress cy.screenshot() against baseline images using pixelmatch diffing. Integrates with Percy SDK for cross-browser visual snapshots.
@@ -56,4 +55,4 @@ clawhub install cypress-visual-regression-runner
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/cypress-visual-regression-runner/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/cypress-visual-regression-runner/)

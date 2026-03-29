@@ -12,7 +12,6 @@ tool_ecosystem:
   license: LGPL-2.1
   maintained: true
 ---
-
 # Semgrep Rule Runner
 
 Executes Semgrep static analysis using the semgrep CLI with custom YAML rule packs. Supports –config auto for community rules, parses JSON output via –json flag, and integrates with Semgrep App API for centralized findings management and triage workflows.
@@ -61,4 +60,4 @@ clawhub install semgrep-rule-runner
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/semgrep-rule-runner/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/semgrep-rule-runner/)

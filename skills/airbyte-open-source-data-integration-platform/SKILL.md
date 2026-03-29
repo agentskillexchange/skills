@@ -6,7 +6,6 @@ framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/airbytehq/airbyte"
 ---
-
 # Airbyte Open Source Data Integration Platform
 
 Airbyte is the leading open-source data integration platform providing 600+ pre-built connectors for ELT pipelines from APIs, databases, and files to data warehouses, lakes, and lakehouses. It supports both self-hosted and cloud deployments with a no-code connector builder.

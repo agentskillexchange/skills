@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Kubernetes Runbook Generator
 
 Auto-generates operational runbooks from Kubernetes cluster state using kubectl and the Kubernetes API. Produces step-by-step troubleshooting guides for common pod failure modes.
@@ -61,4 +60,4 @@ clawhub install kubernetes-runbook-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/kubernetes-runbook-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-runbook-generator/)

@@ -9,7 +9,6 @@ tool_ecosystem:
   tool: postgresql
   npm_weekly_downloads: 21413502
 ---
-
 # Plaid Financial Data Aggregator & Budget Classifier
 
 Integrates with the Plaid Transactions API using the plaid Python SDK to pull 90 days of transaction history across linked bank accounts. Transactions are classified into budget categories using a fine-tuned classifier via the OpenAI Chat Completions API and stored in PostgreSQL using SQLAlchemy.
@@ -64,4 +63,4 @@ clawhub install plaid-financial-data-aggregator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/plaid-financial-data-aggregator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/plaid-financial-data-aggregator/)

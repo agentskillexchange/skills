@@ -6,7 +6,6 @@ framework: "Custom Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/apache-tika-content-extraction-hub/"
 ---
-
 # Apache Tika Content Extraction Hub
 
 Extracts text and metadata from 1400+ file formats via Apache Tika Server REST API. Handles PDF, DOCX, PPTX, email archives, and embedded document extraction with MIME type detection.
@@ -55,4 +54,4 @@ clawhub install apache-tika-content-extraction-hub
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/apache-tika-content-extraction-hub/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/apache-tika-content-extraction-hub/)

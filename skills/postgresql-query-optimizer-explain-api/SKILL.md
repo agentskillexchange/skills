@@ -9,7 +9,6 @@ tool_ecosystem:
   tool: postgresql
   npm_weekly_downloads: 21413502
 ---
-
 # PostgreSQL Query Optimizer Agent
 
 Optimizes PostgreSQL queries using EXPLAIN ANALYZE output parsing with pg_stat_statements extension data. Suggests index creation via HypoPG hypothetical index simulator and validates query plans against pg_hint_plan directives.
@@ -54,4 +53,4 @@ clawhub install postgresql-query-optimizer-explain-api
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/postgresql-query-optimizer-explain-api/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/postgresql-query-optimizer-explain-api/)

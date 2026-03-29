@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: gitlabhq/gitlabhq
   maintained: true
 ---
-
 # GitLab Pipeline Optimizer
 
 Analyzes and optimizes GitLab CI/CD pipelines using the GitLab REST API v4 and .gitlab-ci.yml schema. Reduces pipeline duration by identifying bottleneck stages, configuring DAG dependencies with needs keyword, and implementing rules-based job filtering.
@@ -58,4 +57,4 @@ clawhub install gitlab-pipeline-optimizer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/gitlab-pipeline-optimizer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/gitlab-pipeline-optimizer/)

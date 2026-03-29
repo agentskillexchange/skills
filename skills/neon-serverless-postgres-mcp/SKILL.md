@@ -9,7 +9,6 @@ tool_ecosystem:
   tool: postgresql
   npm_weekly_downloads: 21413502
 ---
-
 # Neon Serverless Postgres MCP
 
 Neon’s official MCP server translates natural language requests into Neon API calls, letting AI agents create projects, manage branches, run SQL queries, and perform database migrations on Neon’s serverless Postgres platform.
@@ -72,4 +71,4 @@ clawhub install neon-serverless-postgres-mcp
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/neon-serverless-postgres-mcp/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/neon-serverless-postgres-mcp/)

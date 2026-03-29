@@ -6,7 +6,6 @@ framework: "Claude Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/npm-registry-explorer/"
 ---
-
 # npm Registry Explorer
 
 Queries the npm registry API and npms.io search API for package discovery, dependency analysis, and quality scoring. Resolves semver ranges, detects deprecated packages, and checks bundle sizes via Bundlephobia API.
@@ -53,4 +52,4 @@ clawhub install npm-registry-explorer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/npm-registry-explorer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/npm-registry-explorer/)

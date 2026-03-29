@@ -12,7 +12,6 @@ tool_ecosystem:
   license: AGPL-3.0
   maintained: true
 ---
-
 # Grafana Dashboard Sync Agent
 
 Synchronizes Grafana dashboards between instances using the Grafana HTTP API v5. Handles provisioning, folder management, and datasource remapping for multi-environment observability setups.
@@ -55,4 +54,4 @@ clawhub install grafana-dashboard-sync-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/grafana-dashboard-sync-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/grafana-dashboard-sync-agent/)

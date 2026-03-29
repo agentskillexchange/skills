@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Cloudflare Analytics Health Monitor
 
 Monitors Cloudflare zone analytics via the Cloudflare API v4 GraphQL Analytics endpoint, tracking request rates, cache hit ratios, and WAF event spikes. Sends alerts through PagerDuty Events API v2 when thresholds are breached.
@@ -56,4 +55,4 @@ clawhub install cloudflare-analytics-health-monitor
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/cloudflare-analytics-health-monitor/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/cloudflare-analytics-health-monitor/)

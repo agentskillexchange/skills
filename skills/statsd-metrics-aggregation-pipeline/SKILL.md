@@ -12,7 +12,6 @@ tool_ecosystem:
   github_repo: DataDog/dd-trace-js
   maintained: true
 ---
-
 # StatsD Metrics Aggregation Pipeline
 
 Configures StatsD metric collection with custom aggregation rules and flush intervals. Routes metrics to Graphite Carbon, InfluxDB Line Protocol, or Datadog DogStatsD endpoints with tag-based dimensional routing.
@@ -59,4 +58,4 @@ clawhub install statsd-metrics-aggregation-pipeline
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/statsd-metrics-aggregation-pipeline/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/statsd-metrics-aggregation-pipeline/)

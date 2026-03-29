@@ -6,7 +6,6 @@ framework: "Codex"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/yeoman-sub-generator-composition-builder/"
 ---
-
 # Yeoman Sub-Generator Composition Builder
 
 Orchestrates Yeoman generator composition by chaining sub-generators via the Yeoman Environment API. Manages yo run loops, priority queues, and cross-generator dependency resolution.
@@ -49,4 +48,4 @@ clawhub install yeoman-sub-generator-composition-builder
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/yeoman-sub-generator-composition-builder/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/yeoman-sub-generator-composition-builder/)

@@ -12,29 +12,35 @@ Hugo is the fastest static site generator written in Go, rendering complete webs
 
 ## Installation
 
-Install this skill using one of the following methods:
+### Any Agent
 
-### OpenClaw CLI
 ```bash
-openclaw skills install hugo-static-site-generator-cms-framework
+npx skills add agentskillexchange/skills --skill hugo-static-site-generator-cms-framework
 ```
 
-### ClawHub CLI
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill hugo-static-site-generator-cms-framework -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill hugo-static-site-generator-cms-framework -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill hugo-static-site-generator-cms-framework -a codex
+```
+
+### OpenClaw
+
 ```bash
 clawhub install hugo-static-site-generator-cms-framework
 ```
-
-### Manual Installation
-Download from [Agent Skill Exchange](https://agentskillexchange.com/skills/hugo-static-site-generator-cms-framework/) and follow the setup instructions.
-
-### Git Clone
-```bash
-git clone https://github.com/agentskillexchange/skills.git
-cp -r skills/skills/hugo-static-site-generator-cms-framework ~/.openclaw/workspace/skills/
-```
-
-### Marketplace
-Browse and install from [Agent Skill Exchange](https://agentskillexchange.com/skills/hugo-static-site-generator-cms-framework/)
 
 ## Source
 

@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Docker Compose Service Graph Visualizer
 
 Parses docker-compose.yml files using PyYAML and generates interactive dependency graphs with Graphviz and D3.js. Shows port mappings, volume mounts, network topology, and health check status.
@@ -55,4 +54,4 @@ clawhub install docker-compose-service-graph-visualizer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/docker-compose-service-graph-visualizer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/docker-compose-service-graph-visualizer/)

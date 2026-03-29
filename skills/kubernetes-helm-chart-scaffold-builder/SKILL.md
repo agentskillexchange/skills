@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Kubernetes Helm Chart Scaffold Builder
 
 Generates Helm v3 chart scaffolds with templated deployments, services, ingress rules, and values.yaml schemas. Validates charts against Helm lint and Kubeval for Kubernetes API version compatibility.
@@ -55,4 +54,4 @@ clawhub install kubernetes-helm-chart-scaffold-builder
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/kubernetes-helm-chart-scaffold-builder/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-helm-chart-scaffold-builder/)

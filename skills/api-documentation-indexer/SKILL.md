@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # API Documentation Indexer
 
 Indexes and searches API documentation from OpenAPI 3.0 specs using swagger-parser and lunr.js. Builds searchable indexes of endpoints, parameters, and response schemas for quick reference.
@@ -60,4 +59,4 @@ clawhub install api-documentation-indexer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/api-documentation-indexer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/api-documentation-indexer/)

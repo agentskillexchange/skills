@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Postgres MCP Pro
 
 Query, analyze, and tune PostgreSQL databases through your AI agent with safe access controls. Beyond basic SQL execution, it provides index tuning recommendations, query plan analysis, database health monitoring, and schema intelligence.
@@ -75,4 +74,4 @@ clawhub install postgres-mcp-pro
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/postgres-mcp-pro/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/postgres-mcp-pro/)

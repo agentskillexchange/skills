@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # GraphQL Schema Stitching & Federation Agent
 
 Manages Apollo Federation v2 supergraph composition from subgraph schemas, validating composition rules and generating rover CLI deployment manifests. Handles @key, @shareable, and @override directives.
@@ -56,4 +55,4 @@ clawhub install graphql-schema-stitching-federation-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/graphql-schema-stitching-federation-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/graphql-schema-stitching-federation-agent/)

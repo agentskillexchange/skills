@@ -12,7 +12,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Jenkins Pipeline Code Review Agent
 
 Reviews Jenkinsfile and Groovy pipeline scripts for anti-patterns, security issues, and performance bottlenecks using Jenkins Pipeline Linter API and static analysis rules.
@@ -55,4 +54,4 @@ clawhub install jenkins-pipeline-code-review-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/jenkins-pipeline-code-review-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-pipeline-code-review-agent/)

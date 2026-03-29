@@ -9,7 +9,6 @@ tool_ecosystem:
   tool: postgresql
   npm_weekly_downloads: 21413502
 ---
-
 # PostgreSQL Vacuum Deadlock Runbook
 
 Automates PostgreSQL vacuum and autovacuum troubleshooting via pg_stat_user_tables, pg_locks, and pg_stat_activity views. Detects table bloat using pgstattuple extension and generates remediation SQL for long-running transaction conflicts.
@@ -62,4 +61,4 @@ clawhub install postgresql-vacuum-deadlock-runbook
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/postgresql-vacuum-deadlock-runbook/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/postgresql-vacuum-deadlock-runbook/)

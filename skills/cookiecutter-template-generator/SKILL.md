@@ -6,7 +6,6 @@ framework: "Codex"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/cookiecutter-template-generator/"
 ---
-
 # Cookiecutter Template Generator
 
 Generates project scaffolding using the Cookiecutter CLI with Jinja2 templating. Supports custom template registries, post-generation hooks via Python scripts, and integration with the GitHub template repository API.
@@ -53,4 +52,4 @@ clawhub install cookiecutter-template-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/cookiecutter-template-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/cookiecutter-template-generator/)

@@ -6,7 +6,6 @@ framework: "Gemini"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/pypi-package-inspector/"
 ---
-
 # PyPI Package Inspector
 
 Queries the PyPI JSON API and the libraries.io API to analyze Python package metadata, dependency trees, and version histories. Uses pip-audit for vulnerability scanning against the OSV database.
@@ -53,4 +52,4 @@ clawhub install pypi-package-inspector
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/pypi-package-inspector/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/pypi-package-inspector/)

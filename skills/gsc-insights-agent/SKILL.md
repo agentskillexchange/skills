@@ -6,7 +6,6 @@ framework: "Custom Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/gsc-insights-agent/"
 ---
-
 # Google Search Console Insights Agent
 
 Extracts search performance data via the Google Search Console API v1 /searchAnalytics/query endpoint. Analyzes CTR, impressions, and position trends with dimension filtering by page, query, device, and country.
@@ -53,4 +52,4 @@ clawhub install gsc-insights-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/gsc-insights-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/gsc-insights-agent/)

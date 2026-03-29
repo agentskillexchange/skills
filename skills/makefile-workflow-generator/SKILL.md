@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Makefile Workflow Generator
 
 Generates project Makefiles with standard targets using GNU Make syntax, autodeps pattern rules, and integration with package managers (npm scripts, Poetry tasks, Cargo commands). Produces .PHONY declarations and help targets.
@@ -55,4 +54,4 @@ clawhub install makefile-workflow-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/makefile-workflow-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/makefile-workflow-generator/)

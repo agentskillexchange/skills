@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: hashicorp/terraform
   maintained: true
 ---
-
 # Terraform State Diagnostics
 
 Diagnoses Terraform state issues using terraform state commands, the Terraform Cloud API, and HCL parser. Detects drift, orphaned resources, and state lock conflicts across workspaces.
@@ -58,4 +57,4 @@ clawhub install terraform-state-diagnostics
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/terraform-state-diagnostics/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-state-diagnostics/)

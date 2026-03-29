@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # ArgoCD Sync Troubleshooter
 
 Diagnoses ArgoCD application sync failures using the ArgoCD REST API and Kubernetes resource diff analysis. Identifies Helm value conflicts, Kustomize overlay errors, and resource health check failures.
@@ -61,4 +60,4 @@ clawhub install argocd-sync-troubleshooter
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/argocd-sync-troubleshooter/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/argocd-sync-troubleshooter/)

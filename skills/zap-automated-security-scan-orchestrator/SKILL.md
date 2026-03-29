@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # ZAP Automated Security Scan Orchestrator
 
 Orchestrates OWASP ZAP security scans via the ZAP API with automated spider, active scanner, and authentication sequence configuration. Generates compliance reports mapped to OWASP Top 10 and exports findings in SARIF and JUnit XML formats.
@@ -59,4 +58,4 @@ clawhub install zap-automated-security-scan-orchestrator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/zap-automated-security-scan-orchestrator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/zap-automated-security-scan-orchestrator/)

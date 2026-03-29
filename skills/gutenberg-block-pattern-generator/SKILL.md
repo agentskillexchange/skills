@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: WordPress/WordPress
   maintained: true
 ---
-
 # Gutenberg Block Pattern Generator
 
 Generates custom WordPress Gutenberg block patterns using register_block_pattern() and the Block Editor API. Creates reusable pattern categories with register_block_pattern_category() for organized content libraries.
@@ -54,4 +53,4 @@ clawhub install gutenberg-block-pattern-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/gutenberg-block-pattern-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/gutenberg-block-pattern-generator/)

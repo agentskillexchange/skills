@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Yeoman Enterprise Generator Suite
 
 Manages Yeoman generators for enterprise application scaffolding with custom sub-generators. Handles Angular module generation via generator-angular, Express API scaffolding, and composite generators with shared prompting and conflict resolution.
@@ -60,4 +59,4 @@ clawhub install yeoman-enterprise-generator-suite
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/yeoman-enterprise-generator-suite/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/yeoman-enterprise-generator-suite/)

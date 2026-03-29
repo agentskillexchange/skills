@@ -6,7 +6,6 @@ framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/wp-cli/wp-cli"
 ---
-
 # WP-CLI Command-Line Interface for WordPress
 
 Builds repeatable WordPress maintenance and content workflows around WP-CLI, the official command-line interface for WordPress. Useful for plugin management, database tasks, user administration, search-replace operations, and scripted publishing without living inside wp-admin.

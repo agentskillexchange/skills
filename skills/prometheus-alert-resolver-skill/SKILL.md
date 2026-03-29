@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Prometheus Alert Resolver
 
 Resolves Prometheus alerts by querying the /api/v1/alerts and /api/v1/query_range endpoints for metric time series analysis. Executes playbook steps for common alerts like HighCPUUsage and DiskSpaceLow, validates PromQL recording rules, and silences alerts via Alertmanager /api/v2/silences.
@@ -80,4 +79,4 @@ clawhub install prometheus-alert-resolver-skill
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/prometheus-alert-resolver-skill/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-alert-resolver-skill/)

@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # RunPod Serverless GPU Inference
 
 Deploy and manage GPU inference endpoints on RunPod Serverless using their REST API. Handles endpoint creation, cold start optimization, request queuing, and auto-scaling configuration for image generation models.
@@ -63,4 +62,4 @@ clawhub install runpod-serverless-gpu-inference
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/runpod-serverless-gpu-inference/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/runpod-serverless-gpu-inference/)

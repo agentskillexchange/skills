@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Apify Actor Development Kit
 
 Builds Apify Actors for scalable cloud scraping with automatic proxy management and storage. Uses the Apify SDK (Actor, Dataset, KeyValueStore, RequestQueue) and Crawlee library for robust crawling.
@@ -60,4 +59,4 @@ clawhub install apify-actor-development-kit
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/apify-actor-development-kit/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/apify-actor-development-kit/)

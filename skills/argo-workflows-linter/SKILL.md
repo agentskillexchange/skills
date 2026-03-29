@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Argo Workflows Linter
 
 Lints and validates Argo Workflows templates using the argo CLI and Argo Server REST API. Detects DAG dependency cycles, invalid artifact references, and parameter type mismatches across workflow steps.
@@ -59,4 +58,4 @@ clawhub install argo-workflows-linter
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/argo-workflows-linter/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/argo-workflows-linter/)

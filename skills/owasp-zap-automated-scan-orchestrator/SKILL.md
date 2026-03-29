@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # OWASP ZAP Automated Scan Orchestrator
 
 Runs OWASP ZAP active and passive scans against target URLs using the ZAP Docker API. Parses JSON reports to flag XSS, SQLi, and CSRF vulnerabilities with severity scoring.
@@ -55,4 +54,4 @@ clawhub install owasp-zap-automated-scan-orchestrator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/owasp-zap-automated-scan-orchestrator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/owasp-zap-automated-scan-orchestrator/)

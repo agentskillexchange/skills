@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: circleci/circleci-docs
   maintained: true
 ---
-
 # CircleCI Flaky Test Detector
 
 Queries CircleCI Insights API to identify test cases that flip between pass and fail across recent runs. Produces a ranked list by failure rate with quarantine strategies for Jest, pytest, RSpec, and JUnit.
@@ -66,4 +65,4 @@ clawhub install circleci-flaky-test-detector-2
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/circleci-flaky-test-detector-2/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-flaky-test-detector-2/)

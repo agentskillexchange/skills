@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # AWS S3 & SQS Pipeline Connector
 
 Orchestrates AWS data pipelines using @aws-sdk/client-s3 and @aws-sdk/client-sqs. Manages S3 object lifecycle with PutObjectCommand/GetObjectCommand, processes SQS message queues via ReceiveMessageCommand with long polling, and configures S3 event notifications to SQS for event-driven processing.
@@ -62,4 +61,4 @@ clawhub install aws-s3-sqs-pipeline-connector
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/aws-s3-sqs-pipeline-connector/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/aws-s3-sqs-pipeline-connector/)

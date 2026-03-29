@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Protobuf & gRPC Stub Generator
 
 Compiles Protocol Buffer definitions into language-specific gRPC client and server stubs using buf CLI and protoc plugins. Validates proto files against Buf lint rules and detects breaking changes.
@@ -56,4 +55,4 @@ clawhub install protobuf-grpc-stub-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/protobuf-grpc-stub-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/protobuf-grpc-stub-generator/)

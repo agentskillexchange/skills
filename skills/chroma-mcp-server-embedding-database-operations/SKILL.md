@@ -6,7 +6,6 @@ framework: "MCP"
 verification: security_reviewed
 source: "https://github.com/chroma-core/chroma-mcp"
 ---
-
 # Chroma MCP Server for Embedding Database Operations
 
 An official MCP server for the Chroma open-source embedding database. Enables AI agents to create collections, add documents, perform vector search, full-text search, and metadata filtering through the Model Context Protocol.

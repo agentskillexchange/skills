@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: false
 ---
-
 # Apache Camel Route Data Mapper
 
 Maps and transforms data between systems using Apache Camel route definitions and the Camel Component API. Supports XSLT, JSONPath, and DataFormat transformations via camel-core SDK.
@@ -56,4 +55,4 @@ clawhub install apache-camel-route-data-mapper
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/apache-camel-route-data-mapper/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/apache-camel-route-data-mapper/)

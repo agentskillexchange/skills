@@ -12,7 +12,6 @@ tool_ecosystem:
   license: AGPL-3.0
   maintained: true
 ---
-
 # Grafana Loki Log Aggregation Agent
 
 Configures Grafana Loki log pipelines with Promtail collectors and LogQL queries. Supports multi-tenant log routing, retention policies, and correlation with Grafana Tempo traces.
@@ -55,4 +54,4 @@ clawhub install grafana-loki-log-aggregation-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/grafana-loki-log-aggregation-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/grafana-loki-log-aggregation-agent/)

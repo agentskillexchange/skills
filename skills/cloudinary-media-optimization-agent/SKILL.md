@@ -6,7 +6,6 @@ framework: "Claude Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/cloudinary-media-optimization-agent/"
 ---
-
 # Cloudinary Media Optimization Agent
 
 Automates image and video optimization workflows via the Cloudinary Upload and Admin APIs. Applies responsive breakpoints, format negotiation, and intelligent cropping with gravity detection.
@@ -55,4 +54,4 @@ clawhub install cloudinary-media-optimization-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/cloudinary-media-optimization-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/cloudinary-media-optimization-agent/)

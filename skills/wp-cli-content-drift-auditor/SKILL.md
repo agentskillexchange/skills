@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: WordPress/WordPress
   maintained: true
 ---
-
 # WP-CLI Content Drift Auditor
 
 Audits WordPress content drift by comparing live posts, revisions, and key options using WP-CLI commands like `wp post list`, `wp post meta get`, and `wp option get`. Useful for catching accidental edits, stale templates, and mismatches between REST output and database state before they turn into site-wide regressions.
@@ -58,4 +57,4 @@ clawhub install wp-cli-content-drift-auditor
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/wp-cli-content-drift-auditor/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/wp-cli-content-drift-auditor/)

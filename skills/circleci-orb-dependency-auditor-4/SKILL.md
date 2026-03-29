@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: circleci/circleci-docs
   maintained: true
 ---
-
 # CircleCI Orb Dependency Auditor
 
 Audits CircleCI orb dependencies using the CircleCI v2 API and orb registry. Detects outdated orb versions, deprecated commands, and known CVEs in orb executor images via Trivy scanning.
@@ -60,4 +59,4 @@ clawhub install circleci-orb-dependency-auditor-4
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/circleci-orb-dependency-auditor-4/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-orb-dependency-auditor-4/)

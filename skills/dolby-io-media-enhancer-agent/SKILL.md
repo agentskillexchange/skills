@@ -6,7 +6,6 @@ framework: "Cursor"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/dolby-io-media-enhancer-agent/"
 ---
-
 # Dolby.io Media Enhancer
 
 Enhances audio and video quality using the Dolby.io Media Processing API. Applies noise reduction, loudness correction to EBU R128 standards, and dynamic range compression via the /media/enhance endpoint.
@@ -53,4 +52,4 @@ clawhub install dolby-io-media-enhancer-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/dolby-io-media-enhancer-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/dolby-io-media-enhancer-agent/)

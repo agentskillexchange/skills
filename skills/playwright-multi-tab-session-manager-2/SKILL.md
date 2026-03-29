@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Playwright Multi-Tab Session Manager
 
 Manages concurrent Playwright browser contexts with tab isolation and cookie partitioning. Uses Playwright BrowserContext API for parallel tab orchestration with SharedArrayBuffer synchronization.
@@ -56,4 +55,4 @@ clawhub install playwright-multi-tab-session-manager-2
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/playwright-multi-tab-session-manager-2/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/playwright-multi-tab-session-manager-2/)

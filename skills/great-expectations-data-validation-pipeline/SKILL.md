@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: false
 ---
-
 # Great Expectations Data Validation Pipeline
 
 Validate data quality using the Great Expectations Python library. Define expectations as unit tests for your data, run validation suites, and generate human-readable data quality reports.
@@ -64,4 +63,4 @@ clawhub install great-expectations-data-validation-pipeline
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/great-expectations-data-validation-pipeline/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/great-expectations-data-validation-pipeline/)

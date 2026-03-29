@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Docker Container Health Inspector
 
 Inspects Docker container health using the Docker Engine API v1.45 /containers/{id}/json and /containers/{id}/stats endpoints. Diagnoses OOM kills, restart loops, and network connectivity issues with automated log analysis via /containers/{id}/logs streaming.
@@ -59,4 +58,4 @@ clawhub install docker-container-health-inspector
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/docker-container-health-inspector/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/docker-container-health-inspector/)

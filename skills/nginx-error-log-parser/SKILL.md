@@ -12,7 +12,6 @@ tool_ecosystem:
   license: BSD-2-Clause
   maintained: true
 ---
-
 # Nginx Error Log Parser
 
 Parses nginx error.log and access.log files using pattern matching for 5xx status codes, upstream timeouts, and SSL handshake failures. Correlates error spikes with nginx -T configuration dumps to identify misconfigured proxy_pass and keepalive settings.
@@ -67,4 +66,4 @@ clawhub install nginx-error-log-parser
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/nginx-error-log-parser/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/nginx-error-log-parser/)

@@ -12,7 +12,6 @@ tool_ecosystem:
   github_repo: snyk/cli
   maintained: true
 ---
-
 # Snyk Container Image Analyzer
 
 Scans Docker and OCI container images for OS and application vulnerabilities using Snyk Container API. Cross-references findings against the Snyk vulnerability database with CVSS scoring and provides Dockerfile remediation suggestions.
@@ -59,4 +58,4 @@ clawhub install snyk-container-image-analyzer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/snyk-container-image-analyzer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/snyk-container-image-analyzer/)

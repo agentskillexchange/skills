@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # DALL-E Prompt Chain Generator
 
 Generates and iterates DALL-E 3 image prompts using the OpenAI Images API with size, quality, and style parameters. Chains edits via the images/edits endpoint with mask-based inpainting.
@@ -60,4 +59,4 @@ clawhub install dalle-prompt-chain-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/dalle-prompt-chain-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/dalle-prompt-chain-generator/)

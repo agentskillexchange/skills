@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # ESLint Custom Rule Builder
 
 Scaffolds and tests custom ESLint rules using the RuleTester API and AST Explorer patterns. Generates rule documentation with fixable autofix implementations.
@@ -60,4 +59,4 @@ clawhub install eslint-custom-rule-builder
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/eslint-custom-rule-builder/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/eslint-custom-rule-builder/)

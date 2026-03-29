@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: gitlabhq/gitlabhq
   maintained: true
 ---
-
 # GitLab CI Pipeline Dependency Tracer
 
 Traces job dependency chains in GitLab CI pipelines using the GitLab Jobs API and pipeline graph endpoints. Detects bottleneck stages that block parallel execution and suggests DAG refactoring. Integrates with the GitLab Merge Requests API to post optimization reports as MR comments.
@@ -54,4 +53,4 @@ clawhub install gitlab-ci-pipeline-dependency-tracer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/gitlab-ci-pipeline-dependency-tracer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/gitlab-ci-pipeline-dependency-tracer/)

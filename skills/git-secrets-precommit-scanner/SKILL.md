@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Git Secrets Pre-Commit Scanner
 
 Scans git diffs for exposed secrets using truffleHog entropy detection and custom regex patterns. Integrates with pre-commit hooks and GitHub push protection API for real-time blocking.
@@ -56,4 +55,4 @@ clawhub install git-secrets-precommit-scanner
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/git-secrets-precommit-scanner/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/git-secrets-precommit-scanner/)

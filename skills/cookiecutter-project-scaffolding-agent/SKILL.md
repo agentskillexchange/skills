@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Cookiecutter Project Scaffolding Agent
 
 Generates project boilerplate from Cookiecutter templates with interactive variable prompts. Supports custom Jinja2 hooks, post-generation scripts, and template composition from multiple cookiecutter.json sources for complex monorepo scaffolding.
@@ -59,4 +58,4 @@ clawhub install cookiecutter-project-scaffolding-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/cookiecutter-project-scaffolding-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/cookiecutter-project-scaffolding-agent/)

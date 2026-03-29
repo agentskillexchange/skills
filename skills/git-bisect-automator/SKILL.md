@@ -6,7 +6,6 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/git-bisect-automator/"
 ---
-
 # Git Bisect Automator
 
 Automates git bisect workflows with custom test scripts and CI pipeline integration. Uses the Git CLI and GitHub Actions API to identify regression-introducing commits across large repositories.
@@ -49,4 +48,4 @@ clawhub install git-bisect-automator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/git-bisect-automator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/git-bisect-automator/)

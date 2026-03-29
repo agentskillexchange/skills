@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # OpenAI Whisper Transcription
 
 Local speech-to-text transcription without relying on an API.
@@ -68,4 +67,4 @@ clawhub install openai-whisper-transcription
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/openai-whisper-transcription/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/openai-whisper-transcription/)

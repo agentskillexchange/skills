@@ -12,7 +12,6 @@ tool_ecosystem:
   license: LGPL-3.0
   maintained: true
 ---
-
 # SonarQube Quality Gate Checker
 
 Queries SonarQube Web API for project quality gate status, code coverage metrics, and technical debt analysis. Integrates with sonar-scanner CLI for on-demand analysis and pr-decoration via the SonarQube ALM integration API.
@@ -61,4 +60,4 @@ clawhub install sonarqube-quality-gate-checker
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/sonarqube-quality-gate-checker/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/sonarqube-quality-gate-checker/)

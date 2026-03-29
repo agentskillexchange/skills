@@ -12,7 +12,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Jenkins Shared Library Builder
 
 Scaffolds and tests Jenkins Shared Libraries using the jenkins-pipeline-unit framework (JenkinsPipelineUnit). Validates Groovy DSL syntax via CodeNarc static analysis and tests pipeline steps with JenkinsRule from jenkins-test-harness.
@@ -65,4 +64,4 @@ clawhub install jenkins-shared-library-builder
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/jenkins-shared-library-builder/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-shared-library-builder/)

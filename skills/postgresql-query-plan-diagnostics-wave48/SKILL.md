@@ -9,7 +9,6 @@ tool_ecosystem:
   tool: postgresql
   npm_weekly_downloads: 21413502
 ---
-
 # PostgreSQL Query Plan Diagnostics
 
 Analyzes PostgreSQL query execution plans using EXPLAIN (ANALYZE, BUFFERS, FORMAT JSON) and the pg_stat_statements extension. Identifies sequential scans, nested loop inefficiencies, and index recommendations for slow queries.
@@ -58,4 +57,4 @@ clawhub install postgresql-query-plan-diagnostics-wave48
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/postgresql-query-plan-diagnostics-wave48/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/postgresql-query-plan-diagnostics-wave48/)

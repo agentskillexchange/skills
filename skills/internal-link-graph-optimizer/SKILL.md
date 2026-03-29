@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: WordPress/WordPress
   maintained: true
 ---
-
 # Internal Link Graph Optimizer
 
 Analyzes internal linking structure by crawling sitemaps with Screaming Frog or Sitebulb, computing PageRank distribution via NetworkX graph algorithms, and identifying orphan pages. Recommends contextual link insertions using BM25 text matching against existing content inventory.
@@ -58,4 +57,4 @@ clawhub install internal-link-graph-optimizer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/internal-link-graph-optimizer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/internal-link-graph-optimizer/)

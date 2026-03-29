@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Git Branch Analyzer
 
 Analyzes Git repository branch topology using libgit2 bindings and git-log parsing. Identifies stale branches, merge conflicts, and divergence points via the GitHub GraphQL API.
@@ -56,4 +55,4 @@ clawhub install git-branch-analyzer-libgit2
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/git-branch-analyzer-libgit2/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/git-branch-analyzer-libgit2/)

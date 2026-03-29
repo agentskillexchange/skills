@@ -6,7 +6,6 @@ framework: "MCP"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/content-readability-optimizer/"
 ---
-
 # Content Readability Optimizer
 
 Analyzes and optimizes content readability using textstat Python library and Hemingway API patterns. Computes Flesch-Kincaid, Gunning Fog, and SMOG indices with automated rewriting suggestions.
@@ -53,4 +52,4 @@ clawhub install content-readability-optimizer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/content-readability-optimizer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/content-readability-optimizer/)

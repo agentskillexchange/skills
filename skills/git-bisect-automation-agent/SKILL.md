@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Git Bisect Automation Agent
 
 Automates git bisect workflows to find regression-introducing commits using custom test scripts and the git bisect run interface. Supports containerized test execution via Docker to ensure reproducible bisect environments.
@@ -59,4 +58,4 @@ clawhub install git-bisect-automation-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/git-bisect-automation-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/git-bisect-automation-agent/)

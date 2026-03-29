@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Apache Spark DataFrame ETL Pipeline
 
 Automates PySpark DataFrame transformations including schema inference, partition pruning, and Delta Lake merge operations. Integrates with AWS Glue Data Catalog and Apache Iceberg table formats for lakehouse architectures.
@@ -60,4 +59,4 @@ clawhub install spark-dataframe-etl-pipeline
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/spark-dataframe-etl-pipeline/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/spark-dataframe-etl-pipeline/)

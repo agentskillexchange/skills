@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # ArgoCD GitOps Sync Monitor
 
 Monitors ArgoCD application sync status using the ArgoCD REST API /api/v1/applications endpoint. Detects drift between Git manifests and live Kubernetes cluster state via the Kubernetes API.
@@ -55,4 +54,4 @@ clawhub install argocd-gitops-sync-monitor
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/argocd-gitops-sync-monitor/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/argocd-gitops-sync-monitor/)

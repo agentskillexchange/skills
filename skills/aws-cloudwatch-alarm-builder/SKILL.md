@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # AWS CloudWatch Alarm Builder
 
 Creates and manages CloudWatch alarms using the AWS SDK for JavaScript v3 (@aws-sdk/client-cloudwatch). Configures metric math expressions, composite alarms, and SNS notification routing via @aws-sdk/client-sns.
@@ -62,4 +61,4 @@ clawhub install aws-cloudwatch-alarm-builder
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/aws-cloudwatch-alarm-builder/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/aws-cloudwatch-alarm-builder/)

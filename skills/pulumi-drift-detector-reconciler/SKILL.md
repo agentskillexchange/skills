@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Pulumi Drift Detector & Reconciler
 
 Runs pulumi refresh on schedule to detect drift between live cloud resources and Pulumi state. Classifies drift by severity and opens a Jira ticket for destructive changes. Non-destructive drift is auto-reconciled via pulumi up –target for specific resources.
@@ -68,4 +67,4 @@ clawhub install pulumi-drift-detector-reconciler
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/pulumi-drift-detector-reconciler/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/pulumi-drift-detector-reconciler/)

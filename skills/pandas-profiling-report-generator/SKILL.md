@@ -12,7 +12,6 @@ tool_ecosystem:
   license: BSD-3-Clause
   maintained: true
 ---
-
 # Pandas Profiling Report Generator
 
 Generates comprehensive data quality reports using ydata-profiling (formerly pandas-profiling) with correlation analysis, missing value patterns, and cardinality detection. Exports interactive HTML dashboards and JSON summaries.
@@ -59,4 +58,4 @@ clawhub install pandas-profiling-report-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/pandas-profiling-report-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/pandas-profiling-report-generator/)

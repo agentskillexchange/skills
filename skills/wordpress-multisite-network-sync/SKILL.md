@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: WordPress/WordPress
   maintained: true
 ---
-
 # WordPress Multisite Network Sync
 
 Synchronizes plugin settings and theme mods across a WordPress Multisite network using the Network Admin REST endpoints and wp_get_sites() iteration. Propagates sitewide options, user role caps, and widget configurations from a primary site to subsites.
@@ -58,4 +57,4 @@ clawhub install wordpress-multisite-network-sync
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/wordpress-multisite-network-sync/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/wordpress-multisite-network-sync/)

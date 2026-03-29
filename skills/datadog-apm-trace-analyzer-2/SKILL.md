@@ -12,7 +12,6 @@ tool_ecosystem:
   github_repo: DataDog/dd-trace-js
   maintained: true
 ---
-
 # Datadog APM Trace Analyzer
 
 Queries Datadog APM trace data via the Datadog Tracing API v2 to identify latency bottlenecks and error hotspots. Generates flame graph summaries and service dependency impact reports.
@@ -55,4 +54,4 @@ clawhub install datadog-apm-trace-analyzer-2
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/datadog-apm-trace-analyzer-2/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/datadog-apm-trace-analyzer-2/)

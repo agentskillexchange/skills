@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # OpenAI Whisper Batch Transcription Pipeline
 
 Processes audio files from an S3 bucket using Whisper large-v3, splitting recordings into 30-second chunks with ffmpeg before transcription. Outputs timestamped SRT and VTT subtitle files plus plain-text transcripts, then uploads artifacts back to S3. Supports language auto-detection and translation to English.
@@ -68,4 +67,4 @@ clawhub install whisper-batch-transcription-pipeline
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/whisper-batch-transcription-pipeline/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/whisper-batch-transcription-pipeline/)

@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Changesets Version and Changelog Manager
 
 Use Changesets to manage package versioning and changelogs in monorepos and single-package repositories. Automates semver bumps, changelog generation, and npm publishing with a PR-based workflow.
@@ -70,4 +69,4 @@ clawhub install changesets-version-changelog-manager
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/changesets-version-changelog-manager/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/changesets-version-changelog-manager/)

@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Kubernetes Pod Crash Loop Analyzer
 
 Diagnoses CrashLoopBackOff pods using kubectl describe, container exit code analysis, and the Kubernetes Events API. Cross-references OOMKilled signals with Prometheus container_memory_rss metrics and cAdvisor stats for root cause identification.
@@ -65,4 +64,4 @@ clawhub install kubernetes-pod-crash-loop-analyzer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/kubernetes-pod-crash-loop-analyzer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-pod-crash-loop-analyzer/)

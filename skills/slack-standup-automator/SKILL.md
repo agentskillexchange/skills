@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Slack Standup Automator
 
 Automates daily standup collection and reporting in Slack using the Slack Web API chat.postMessage and conversations.history methods. Supports threaded responses and scheduled summaries via chat.scheduleMessage.
@@ -56,4 +55,4 @@ clawhub install slack-standup-automator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/slack-standup-automator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/slack-standup-automator/)

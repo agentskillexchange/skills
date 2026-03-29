@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Selenium Grid Orchestrator
 
 Manages Selenium Grid 4 hub and node registration for cross-browser parallel testing. Configures Chrome, Firefox, and Edge nodes with resource allocation policies.
@@ -60,4 +59,4 @@ clawhub install selenium-grid-orchestrator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/selenium-grid-orchestrator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/selenium-grid-orchestrator/)

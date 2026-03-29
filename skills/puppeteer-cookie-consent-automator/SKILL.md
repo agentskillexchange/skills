@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Puppeteer Cookie Consent Automator
 
 Automatically detects and handles cookie consent banners across websites using Puppeteer CDP protocol and a trained classifier. Supports OneTrust, Cookiebot, and TrustArc consent management platforms.
@@ -56,4 +55,4 @@ clawhub install puppeteer-cookie-consent-automator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/puppeteer-cookie-consent-automator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/puppeteer-cookie-consent-automator/)

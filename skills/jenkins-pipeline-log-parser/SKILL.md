@@ -12,7 +12,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Jenkins Pipeline Log Parser
 
 Extracts and analyzes Jenkins Pipeline build logs using the Jenkins REST API and Blue Ocean API. Identifies stage failures, flaky test patterns via JUnit XML parsing, and generates failure trend reports with node allocation insights.
@@ -61,4 +60,4 @@ clawhub install jenkins-pipeline-log-parser
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/jenkins-pipeline-log-parser/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-pipeline-log-parser/)

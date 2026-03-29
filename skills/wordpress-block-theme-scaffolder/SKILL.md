@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: WordPress/WordPress
   maintained: true
 ---
-
 # WordPress Block Theme Scaffolder
 
 Generates complete WordPress block theme structures using theme.json v3, block patterns via register_block_pattern(), and template parts. Produces FSE-ready themes with proper style variations, typography presets, and wp_enqueue_block_editor_assets integration.
@@ -58,4 +57,4 @@ clawhub install wordpress-block-theme-scaffolder
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/wordpress-block-theme-scaffolder/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/wordpress-block-theme-scaffolder/)

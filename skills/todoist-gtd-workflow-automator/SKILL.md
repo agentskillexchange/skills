@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Todoist GTD Workflow Automator
 
 Implements Getting Things Done methodology on Todoist using the Todoist Sync API v9. Automates inbox processing, context labeling, weekly reviews, and project-to-next-action extraction with natural language parsing.
@@ -60,4 +59,4 @@ clawhub install todoist-gtd-workflow-automator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/todoist-gtd-workflow-automator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/todoist-gtd-workflow-automator/)

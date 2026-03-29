@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: hashicorp/terraform
   maintained: true
 ---
-
 # Terraform Plan Validator
 
 Parses terraform plan JSON output via the Terraform CLI (terraform show -json) to validate infrastructure changes before apply. Detects destructive operations, cost estimate impacts via Infracost API, and drift from desired state.
@@ -58,4 +57,4 @@ clawhub install terraform-plan-validator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/terraform-plan-validator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-plan-validator/)

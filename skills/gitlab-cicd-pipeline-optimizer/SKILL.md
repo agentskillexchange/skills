@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: gitlabhq/gitlabhq
   maintained: true
 ---
-
 # GitLab CI/CD Pipeline Optimizer
 
 Optimizes GitLab CI/CD pipelines using the .gitlab-ci.yml specification and GitLab API v4. Implements DAG pipelines, parallel testing, and dynamic child pipelines.
@@ -60,4 +59,4 @@ clawhub install gitlab-cicd-pipeline-optimizer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/gitlab-cicd-pipeline-optimizer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/gitlab-cicd-pipeline-optimizer/)

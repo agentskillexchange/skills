@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: false
 ---
-
 # WP Cron Health Monitor
 
 Monitors WordPress wp-cron scheduled events using the WP_Cron API and Action Scheduler library. Detects stuck, overdue, or orphaned cron jobs and reports via WP REST API webhooks with configurable alert thresholds.
@@ -60,4 +59,4 @@ clawhub install wp-cron-health-monitor
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/wp-cron-health-monitor/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/wp-cron-health-monitor/)

@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Crunchbase Company Intelligence Scraper
 
 Extracts company profiles, funding rounds, and investor data using the Crunchbase Enterprise API v4 with autocomplete, search, and entity lookup endpoints. Builds competitive landscape maps with funding timeline visualizations.
@@ -56,4 +55,4 @@ clawhub install crunchbase-company-intelligence-scraper
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/crunchbase-company-intelligence-scraper/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/crunchbase-company-intelligence-scraper/)

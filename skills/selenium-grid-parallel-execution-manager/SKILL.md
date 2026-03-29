@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Selenium Grid Parallel Execution Manager
 
 Orchestrates distributed browser testing across Selenium Grid 4 nodes using the Grid REST API. Manages session allocation, node health monitoring, and parallel TestNG suite execution.
@@ -56,4 +55,4 @@ clawhub install selenium-grid-parallel-execution-manager
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/selenium-grid-parallel-execution-manager/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/selenium-grid-parallel-execution-manager/)

@@ -6,7 +6,6 @@ framework: "Codex"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/makefile-dependency-auditor/"
 ---
-
 # Makefile Dependency Auditor
 
 Parses GNU Makefiles using pymake and builds complete dependency DAGs. Detects circular dependencies, unreachable targets, missing prerequisites, and generates optimal parallel build orderings.
@@ -49,4 +48,4 @@ clawhub install makefile-dependency-auditor
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/makefile-dependency-auditor/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/makefile-dependency-auditor/)

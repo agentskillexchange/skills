@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: false
 ---
-
 # Apache Kafka Schema Registry Extractor
 
 Extracts and transforms Avro/Protobuf schemas from Confluent Schema Registry using the REST API. Generates TypeScript interfaces, JSON Schema, and data contract documentation from registered subjects.
@@ -60,4 +59,4 @@ clawhub install kafka-schema-registry-extractor
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/kafka-schema-registry-extractor/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/kafka-schema-registry-extractor/)

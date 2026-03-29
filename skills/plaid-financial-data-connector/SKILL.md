@@ -6,7 +6,6 @@ framework: "Gemini"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/plaid-financial-data-connector/"
 ---
-
 # Plaid Financial Data Connector
 
 Connects to bank accounts via Plaid Link SDK and retrieves transaction data using the Plaid Transactions API. Supports account balance polling, institution search, and webhook-driven sync.
@@ -51,4 +50,4 @@ clawhub install plaid-financial-data-connector
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/plaid-financial-data-connector/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/plaid-financial-data-connector/)

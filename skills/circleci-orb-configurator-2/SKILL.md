@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: circleci/circleci-docs
   maintained: true
 ---
-
 # CircleCI Orb Configurator
 
 Builds and validates CircleCI orb configurations using the CircleCI CLI and Orb Development Kit. Supports orb packing, linting with yamllint, and publishing to the CircleCI Orb Registry via circleci orb publish.
@@ -60,4 +59,4 @@ clawhub install circleci-orb-configurator-2
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/circleci-orb-configurator-2/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-orb-configurator-2/)

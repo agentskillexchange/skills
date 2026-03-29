@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: WordPress/WordPress
   maintained: true
 ---
-
 # WordPress Content Optimizer
 
 Optimizes WordPress posts for SEO using the Yoast SEO REST API fields alongside WP REST API v2 for content updates. Analyzes readability via textstat Python library and generates meta descriptions with Claude API prompt chains.
@@ -56,4 +55,4 @@ clawhub install wordpress-content-optimizer-yoast-rest
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/wordpress-content-optimizer-yoast-rest/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/wordpress-content-optimizer-yoast-rest/)

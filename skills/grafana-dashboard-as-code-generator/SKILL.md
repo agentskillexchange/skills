@@ -12,7 +12,6 @@ tool_ecosystem:
   license: AGPL-3.0
   maintained: true
 ---
-
 # Grafana Dashboard as Code Generator
 
 Generates Grafana dashboards programmatically using Grafonnet (jsonnet), the Grafana HTTP API, and grafana-toolkit. Supports multi-datasource panels with Prometheus, Loki, and Tempo queries.
@@ -55,4 +54,4 @@ clawhub install grafana-dashboard-as-code-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/grafana-dashboard-as-code-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/grafana-dashboard-as-code-generator/)

@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: hashicorp/terraform
   maintained: true
 ---
-
 # Terraform Plan & Apply Automation
 
 Runs terraform plan against changed modules, posts a structured diff as a PR comment via GitHub API, and gates terraform apply on reviewer approval. Supports S3 and GCS remote state backends with automatic workspace detection. Integrates with AWS STS and GCP Workload Identity for short-lived credential injection.
@@ -66,4 +65,4 @@ clawhub install terraform-plan-apply-automation
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/terraform-plan-apply-automation/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-plan-apply-automation/)

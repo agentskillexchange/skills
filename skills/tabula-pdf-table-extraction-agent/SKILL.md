@@ -12,7 +12,6 @@ tool_ecosystem:
   license: BSD-3-Clause
   maintained: true
 ---
-
 # Tabula PDF Table Extraction Agent
 
 Uses Tabula Java library via tabula-py bindings to detect and extract tables from PDF documents. Supports both lattice and stream extraction modes with configurable area coordinates and outputs to pandas DataFrames or CSV.
@@ -73,4 +72,4 @@ clawhub install tabula-pdf-table-extraction-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/tabula-pdf-table-extraction-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/tabula-pdf-table-extraction-agent/)

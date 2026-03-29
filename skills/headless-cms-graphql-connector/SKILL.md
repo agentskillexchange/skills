@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Headless CMS GraphQL Connector
 
 Connects headless CMS backends (WordPress WPGraphQL, Strapi, Contentful) to frontend frameworks using Apollo Client and urql. Handles content previews, ISR cache invalidation, and webhook-driven rebuilds.
@@ -60,4 +59,4 @@ clawhub install headless-cms-graphql-connector
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/headless-cms-graphql-connector/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/headless-cms-graphql-connector/)

@@ -6,7 +6,6 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/dandavison/delta"
 ---
-
 # delta Syntax-Highlighting Git Diff Pager
 
 A syntax-highlighting pager for git diff, grep, and blame output built in Rust. Provides word-level diff highlighting, side-by-side views, line numbering, and theme support using the same syntax themes as bat.
@@ -55,4 +54,4 @@ clawhub install delta-syntax-highlighting-git-diff-pager
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/delta-syntax-highlighting-git-diff-pager/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/delta-syntax-highlighting-git-diff-pager/)

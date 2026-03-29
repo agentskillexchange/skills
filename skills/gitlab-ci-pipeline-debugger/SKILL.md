@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: gitlabhq/gitlabhq
   maintained: true
 ---
-
 # GitLab CI Pipeline Debugger
 
 Debugs failed GitLab CI/CD pipelines by parsing .gitlab-ci.yml and fetching job logs via GitLab REST API v4. Identifies runner misconfigurations, artifact dependency issues, and suggests targeted fixes.
@@ -58,4 +57,4 @@ clawhub install gitlab-ci-pipeline-debugger
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/gitlab-ci-pipeline-debugger/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/gitlab-ci-pipeline-debugger/)

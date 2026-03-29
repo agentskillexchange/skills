@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: WordPress/WordPress
   maintained: true
 ---
-
 # WordPress Gutenberg Block Generator
 
 Scaffolds custom Gutenberg blocks using the @wordpress/create-block CLI and block.json schema, then registers them via register_block_type PHP API. Generates edit/save components with InspectorControls and useBlockProps. Outputs production-ready block plugin structure.
@@ -58,4 +57,4 @@ clawhub install wordpress-gutenberg-block-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/wordpress-gutenberg-block-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/wordpress-gutenberg-block-generator/)

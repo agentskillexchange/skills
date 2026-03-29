@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Prometheus AlertManager Rule Builder
 
 Generates Prometheus alerting rules and AlertManager routing configs using PromQL validation via the Prometheus HTTP API. Supports PagerDuty, OpsGenie, and Slack receiver configurations.
@@ -56,4 +55,4 @@ clawhub install prometheus-alertmanager-rule-builder
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/prometheus-alertmanager-rule-builder/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-alertmanager-rule-builder/)

@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # PuppeteerSharp Web Scraping Pipeline
 
 Builds headless Chrome scraping pipelines using PuppeteerSharp for .NET environments. Handles JavaScript-rendered SPAs, Cloudflare challenge bypass via stealth plugins, and exports structured data through Newtonsoft.Json serialization.
@@ -60,4 +59,4 @@ clawhub install puppeteersharp-web-scraping-pipeline
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/puppeteersharp-web-scraping-pipeline/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/puppeteersharp-web-scraping-pipeline/)

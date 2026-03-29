@@ -6,7 +6,6 @@ framework: "Codex"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/imap-inbox-triage-agent/"
 ---
-
 # IMAP Inbox Triage Agent
 
 Connects to IMAP email servers to classify, prioritize, and auto-label incoming messages using rule-based and ML-driven filtering. Supports Gmail, Outlook, and Fastmail.
@@ -53,4 +52,4 @@ clawhub install imap-inbox-triage-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/imap-inbox-triage-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/imap-inbox-triage-agent/)

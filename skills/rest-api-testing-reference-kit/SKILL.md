@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # REST API Testing Reference Kit
 
 Comprehensive REST API testing reference using Postman Collection SDK v2.1 and Newman CLI. Includes assertion libraries for JSON Schema validation with Ajv, response time benchmarking, and contract testing patterns.
@@ -60,4 +59,4 @@ clawhub install rest-api-testing-reference-kit
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/rest-api-testing-reference-kit/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/rest-api-testing-reference-kit/)

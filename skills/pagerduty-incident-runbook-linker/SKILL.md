@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: false
 ---
-
 # PagerDuty Incident Runbook Linker
 
 Automatically links PagerDuty incidents to relevant runbooks using the PagerDuty Events API v2 and service directory. Matches incident alerts to runbook tags via Elasticsearch fuzzy queries.
@@ -56,4 +55,4 @@ clawhub install pagerduty-incident-runbook-linker
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/pagerduty-incident-runbook-linker/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/pagerduty-incident-runbook-linker/)

@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: false
 ---
-
 # Censys Attack Surface Monitor
 
 Monitors internet-facing assets using Censys Search API v2 for host discovery and certificate enumeration. Tracks exposed services, TLS configurations, and new asset appearances with delta alerting via webhook integrations.
@@ -60,4 +59,4 @@ clawhub install censys-attack-surface-monitor
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/censys-attack-surface-monitor/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/censys-attack-surface-monitor/)

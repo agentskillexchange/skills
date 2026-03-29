@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: dbt-labs/dbt-core
   maintained: true
 ---
-
 # dbt Model Transformation Architect
 
 Generates and validates dbt (data build tool) models, tests, and documentation for Snowflake, BigQuery, and Redshift. Parses dbt manifest.json to analyze DAG lineage and detect circular dependencies.
@@ -58,4 +57,4 @@ clawhub install dbt-model-transformation-architect
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/dbt-model-transformation-architect/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/dbt-model-transformation-architect/)

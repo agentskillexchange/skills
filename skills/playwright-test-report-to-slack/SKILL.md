@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Playwright Test Report to Slack
 
 Parses Playwright HTML and JSON test reports and posts structured summaries to Slack using the Slack Web API. Reads test results from the playwright-report directory, extracts pass/fail/flaky counts using the @playwright/test reporter API, and posts rich Block Kit messages with test suite breakdowns via chat.postMessage.
@@ -56,4 +55,4 @@ clawhub install playwright-test-report-to-slack
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/playwright-test-report-to-slack/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/playwright-test-report-to-slack/)

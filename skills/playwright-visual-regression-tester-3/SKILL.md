@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Playwright Visual Regression Tester
 
 Automates visual regression testing using the Playwright screenshot comparison API and pixelmatch diffing library. Captures baseline snapshots, detects pixel-level UI changes across viewport sizes, and generates HTML diff reports with threshold-based pass/fail results.
@@ -58,4 +57,4 @@ clawhub install playwright-visual-regression-tester-3
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/playwright-visual-regression-tester-3/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/playwright-visual-regression-tester-3/)

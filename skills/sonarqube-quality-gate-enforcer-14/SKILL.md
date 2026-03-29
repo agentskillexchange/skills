@@ -12,7 +12,6 @@ tool_ecosystem:
   license: LGPL-3.0
   maintained: true
 ---
-
 # SonarQube Quality Gate Enforcer
 
 Enforces SonarQube quality gates in pull request workflows using the SonarQube Web API and ce/task endpoint. Blocks merges when code coverage drops, duplications exceed thresholds, or security hotspots are unreviewed.
@@ -55,4 +54,4 @@ clawhub install sonarqube-quality-gate-enforcer-14
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/sonarqube-quality-gate-enforcer-14/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/sonarqube-quality-gate-enforcer-14/)

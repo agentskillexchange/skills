@@ -6,7 +6,6 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/github-actions-matrix-strategy-builder/"
 ---
-
 # GitHub Actions Matrix Strategy Builder
 
 Generates optimized GitHub Actions workflow matrices using the actions/setup-node, actions/cache, and actions/upload-artifact APIs. Automatically detects language versions and OS combinations for maximum CI coverage.
@@ -49,4 +48,4 @@ clawhub install github-actions-matrix-strategy-builder
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/github-actions-matrix-strategy-builder/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/github-actions-matrix-strategy-builder/)

@@ -6,7 +6,6 @@ framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/contentful/contentful-management.js"
 ---
-
 # Contentful Management API and JavaScript SDK
 
 Use the Contentful Management API and JavaScript SDK to create, update, validate, and publish entries, assets, content models, and environments in a headless CMS workflow. This skill gives an agent a concrete path for operating Contentful programmatically rather than treating it like a generic CMS.
@@ -49,4 +48,4 @@ clawhub install contentful-management-api-and-javascript-sdk
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/contentful-management-api-and-javascript-sdk/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/contentful-management-api-and-javascript-sdk/)

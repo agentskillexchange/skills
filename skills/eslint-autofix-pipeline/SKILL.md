@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # ESLint Auto-Fix Pipeline
 
 Runs ESLint with the –fix flag across JavaScript and TypeScript codebases, applying auto-fixable rules from eslint-config-airbnb and @typescript-eslint/recommended. Generates diff reports for manual review of remaining issues.
@@ -60,4 +59,4 @@ clawhub install eslint-autofix-pipeline
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/eslint-autofix-pipeline/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/eslint-autofix-pipeline/)

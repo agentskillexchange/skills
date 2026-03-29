@@ -6,7 +6,6 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/npm-package-audit-license-checker/"
 ---
-
 # NPM Package Audit & License Checker
 
 Audits npm dependencies using npm audit, license-checker-rspack, and the npm registry API (registry.npmjs.org). Reports CVE vulnerabilities with CVSS scores, license compatibility matrices, and identifies abandoned packages via download trend analysis.
@@ -57,4 +56,4 @@ clawhub install npm-package-audit-license-checker
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/npm-package-audit-license-checker/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/npm-package-audit-license-checker/)

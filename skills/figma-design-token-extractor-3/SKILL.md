@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Figma Design Token Extractor
 
 Extracts design tokens from Figma files using the Figma REST API and style-dictionary. Generates CSS custom properties, Tailwind configs, and Swift/Kotlin theme files from Figma components.
@@ -60,4 +59,4 @@ clawhub install figma-design-token-extractor-3
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/figma-design-token-extractor-3/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/figma-design-token-extractor-3/)

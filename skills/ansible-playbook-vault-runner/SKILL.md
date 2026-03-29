@@ -13,7 +13,6 @@ tool_ecosystem:
   license: GPL-3.0
   maintained: true
 ---
-
 # Ansible Playbook Runner with Vault Secrets
 
 Executes Ansible playbooks against dynamic inventories from AWS EC2 or Azure, decrypting Ansible Vault secrets via HashiCorp Vault KV v2 API. Streams task output in real time and posts a per-host pass/fail summary to Slack. Supports –check mode for dry-run validation before live runs.
@@ -68,4 +67,4 @@ clawhub install ansible-playbook-vault-runner
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/ansible-playbook-vault-runner/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/ansible-playbook-vault-runner/)

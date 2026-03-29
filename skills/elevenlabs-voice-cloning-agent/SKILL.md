@@ -6,7 +6,6 @@ framework: "OpenClaw"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/elevenlabs-voice-cloning-agent/"
 ---
-
 # ElevenLabs Voice Cloning Agent
 
 Clone and synthesize custom voices using the ElevenLabs API v2 with instant voice cloning. Manages voice library operations, text-to-speech generation with SSML markup, and audio stream output via the elevenlabs-python SDK.
@@ -55,4 +54,4 @@ clawhub install elevenlabs-voice-cloning-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/elevenlabs-voice-cloning-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/elevenlabs-voice-cloning-agent/)

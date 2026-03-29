@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: hashicorp/terraform
   maintained: true
 ---
-
 # Terraform State Forensics Tool
 
 Analyzes Terraform state files and plan outputs to detect drift, orphaned resources, and dependency cycles. Uses the Terraform CLI state commands, tfsec for security scanning, and Infracost API for cost impact analysis.
@@ -58,4 +57,4 @@ clawhub install terraform-state-forensics-tool
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/terraform-state-forensics-tool/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-state-forensics-tool/)

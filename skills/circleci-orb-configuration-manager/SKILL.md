@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: circleci/circleci-docs
   maintained: true
 ---
-
 # CircleCI Orb Configuration Manager
 
 Manages CircleCI pipeline configurations using orbs like circleci/node, circleci/docker, and circleci/aws-s3. Handles workflow orchestration, parallelism, and resource class selection via .circleci/config.yml.
@@ -58,4 +57,4 @@ clawhub install circleci-orb-configuration-manager
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/circleci-orb-configuration-manager/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-orb-configuration-manager/)

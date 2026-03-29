@@ -6,7 +6,6 @@ framework: "Cursor"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/github-actions-workflow-builder-skill/"
 ---
-
 # GitHub Actions Workflow Builder
 
 Generates and validates GitHub Actions YAML workflows using the actions/toolkit SDK and workflow_dispatch event triggers. Supports matrix builds, reusable workflows with workflow_call, and composite actions with proper input/output schema definitions.
@@ -73,4 +72,4 @@ clawhub install github-actions-workflow-builder-skill
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/github-actions-workflow-builder-skill/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/github-actions-workflow-builder-skill/)

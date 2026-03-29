@@ -6,7 +6,6 @@ framework: "OpenClaw"
 verification: security_reviewed
 source: "https://superdesign.dev"
 ---
-
 # Frontend Design Guidance Skill
 
 Practical frontend design guidance for landing pages, dashboards, and UI implementation work.
@@ -63,4 +62,4 @@ clawhub install frontend-design-guidance-skill
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/frontend-design-guidance-skill/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/frontend-design-guidance-skill/)

@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Selenium Grid Test Orchestrator
 
 Orchestrates distributed browser testing across Selenium Grid 4 nodes using the Grid API. Manages session queuing, node health, and parallel test execution via the WebDriver protocol.
@@ -56,4 +55,4 @@ clawhub install selenium-grid-test-orchestrator-2
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/selenium-grid-test-orchestrator-2/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/selenium-grid-test-orchestrator-2/)

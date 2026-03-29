@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: circleci/circleci-docs
   maintained: true
 ---
-
 # CircleCI Orb Validator
 
 Validates and lints CircleCI orb configurations using the CircleCI CLI and circleci-config-sdk. Checks for deprecated keys, version constraints, and executor compatibility before publishing.
@@ -60,4 +59,4 @@ clawhub install circleci-orb-validator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/circleci-orb-validator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-orb-validator/)

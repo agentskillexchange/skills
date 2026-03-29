@@ -12,7 +12,6 @@ tool_ecosystem:
   github_repo: getsentry/sentry
   maintained: true
 ---
-
 # Sentry MCP Server
 
 Sentry’s official MCP server connects your error monitoring stack to any MCP client. Search issues, analyze stack traces, investigate performance bottlenecks, and get AI-powered root cause analysis — all without leaving your editor or agent session.
@@ -81,4 +80,4 @@ clawhub install sentry-mcp-server
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/sentry-mcp-server/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/sentry-mcp-server/)

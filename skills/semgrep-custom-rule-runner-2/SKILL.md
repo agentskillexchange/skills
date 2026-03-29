@@ -12,7 +12,6 @@ tool_ecosystem:
   license: LGPL-2.1
   maintained: true
 ---
-
 # Semgrep Custom Rule Runner
 
 Executes Semgrep OSS with custom YAML rule files for project-specific static analysis patterns. Supports semgrep –config and –pattern flags with metavariable constraints for detecting anti-patterns in Python, JavaScript, Go, and Java codebases.
@@ -67,4 +66,4 @@ clawhub install semgrep-custom-rule-runner-2
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/semgrep-custom-rule-runner-2/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/semgrep-custom-rule-runner-2/)

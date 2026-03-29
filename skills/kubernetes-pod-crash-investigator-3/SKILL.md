@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Kubernetes Pod Crash Investigator
 
 Diagnoses CrashLoopBackOff and OOMKilled pod failures using the Kubernetes API via kubectl and the official kubernetes-client/python SDK. Correlates container logs, resource limits, and node conditions for root cause analysis.
@@ -61,4 +60,4 @@ clawhub install kubernetes-pod-crash-investigator-3
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/kubernetes-pod-crash-investigator-3/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-pod-crash-investigator-3/)

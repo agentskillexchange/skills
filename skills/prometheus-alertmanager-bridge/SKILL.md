@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Prometheus AlertManager Bridge
 
 Connects to Prometheus AlertManager API to query active alerts, silences, and alert groups. Parses PromQL alert rules and suggests runbook actions. Integrates with PagerDuty escalation policies.
@@ -62,4 +61,4 @@ clawhub install prometheus-alertmanager-bridge
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/prometheus-alertmanager-bridge/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-alertmanager-bridge/)

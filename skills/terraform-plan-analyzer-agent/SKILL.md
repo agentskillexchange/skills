@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: hashicorp/terraform
   maintained: true
 ---
-
 # Terraform Plan Analyzer
 
 Analyzes Terraform plan output using the terraform show -json command and HCL2 parser library. Detects destructive changes, cost implications via Infracost API, and policy violations against Open Policy Agent (OPA) rules.
@@ -58,4 +57,4 @@ clawhub install terraform-plan-analyzer-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/terraform-plan-analyzer-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-plan-analyzer-agent/)

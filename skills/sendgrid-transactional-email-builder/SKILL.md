@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # SendGrid Transactional Email Builder
 
 Constructs and sends transactional emails using the SendGrid v3 Mail Send API. Builds dynamic templates with Handlebars substitutions, manages suppression groups, and tracks delivery via Event Webhook parsing.
@@ -60,4 +59,4 @@ clawhub install sendgrid-transactional-email-builder
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/sendgrid-transactional-email-builder/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/sendgrid-transactional-email-builder/)

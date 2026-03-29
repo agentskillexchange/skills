@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: false
 ---
-
 # Parquet Schema Extractor for S3
 
 Extracts and validates Parquet file schemas from Amazon S3 using the PyArrow library and AWS S3 SDK (boto3). Compares schemas across multiple partitions to detect schema drift and incompatible type changes. Outputs a schema diff report with partition paths and affected column details.
@@ -56,4 +55,4 @@ clawhub install parquet-schema-extractor-for-s3
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/parquet-schema-extractor-for-s3/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/parquet-schema-extractor-for-s3/)

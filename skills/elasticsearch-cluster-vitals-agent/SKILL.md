@@ -12,7 +12,6 @@ tool_ecosystem:
   github_repo: elastic/elasticsearch
   maintained: true
 ---
-
 # ElasticSearch Cluster Vitals Agent
 
 Polls Elasticsearch _cluster/health, _nodes/stats, and _cat/shards APIs to detect node drops, unassigned shards, and JVM heap pressure. Forwards anomalies to Opsgenie Alert API for on-call routing.
@@ -55,4 +54,4 @@ clawhub install elasticsearch-cluster-vitals-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/elasticsearch-cluster-vitals-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/elasticsearch-cluster-vitals-agent/)

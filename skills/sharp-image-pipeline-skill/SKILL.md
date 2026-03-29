@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Sharp Image Pipeline Skill
 
 Processes images using the Sharp npm library (libvips). Supports batch resize, format conversion (WebP/AVIF/JPEG XL), watermarking, and metadata extraction. Generates responsive image sets with srcset dimensions.
@@ -62,4 +61,4 @@ clawhub install sharp-image-pipeline-skill
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/sharp-image-pipeline-skill/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/sharp-image-pipeline-skill/)

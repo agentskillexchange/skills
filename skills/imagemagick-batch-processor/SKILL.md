@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: ImageMagick/ImageMagick
   maintained: true
 ---
-
 # ImageMagick Batch Processor
 
 Batch image processing using ImageMagick’s convert and mogrify commands with support for resize, crop, watermark, and format conversion. Integrates with libvips for high-performance thumbnail generation.
@@ -58,4 +57,4 @@ clawhub install imagemagick-batch-processor
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/imagemagick-batch-processor/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/imagemagick-batch-processor/)

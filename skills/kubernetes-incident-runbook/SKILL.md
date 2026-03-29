@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Kubernetes Incident Runbook
 
 Executes structured incident response procedures for Kubernetes clusters using kubectl, kube-state-metrics, and the Kubernetes Events API. Automates pod crash diagnosis, OOMKill analysis, and node pressure triage.
@@ -61,4 +60,4 @@ clawhub install kubernetes-incident-runbook
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/kubernetes-incident-runbook/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-incident-runbook/)

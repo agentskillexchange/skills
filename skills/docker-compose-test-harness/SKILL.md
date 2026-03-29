@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Docker Compose Test Harness
 
 Scaffolds integration test environments using Docker Compose v2 CLI, testcontainers-python library, and the docker-py SDK. Manages service dependencies, health checks, and test data seeding.
@@ -55,4 +54,4 @@ clawhub install docker-compose-test-harness
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/docker-compose-test-harness/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/docker-compose-test-harness/)

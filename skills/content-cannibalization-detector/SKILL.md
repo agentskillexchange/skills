@@ -6,7 +6,6 @@ framework: "Gemini"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/content-cannibalization-detector/"
 ---
-
 # Content Cannibalization Detector
 
 Identifies keyword cannibalization across site pages by analyzing Google Search Console Performance API data, extracting query-page pairings, and detecting overlap using TF-IDF cosine similarity scoring. Generates merge recommendations and 301 redirect maps via Screaming Frog exports.
@@ -53,4 +52,4 @@ clawhub install content-cannibalization-detector
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/content-cannibalization-detector/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/content-cannibalization-detector/)

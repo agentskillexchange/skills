@@ -12,7 +12,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Jenkins Pipeline Declarative Generator
 
 Creates Jenkins Declarative Pipeline Jenkinsfiles using jenkins-pipeline-syntax and jenkins-shared-libraries. Configures stages, parallel execution, and post-build actions with Blue Ocean compatibility.
@@ -59,4 +58,4 @@ clawhub install jenkins-pipeline-declarative-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/jenkins-pipeline-declarative-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-pipeline-declarative-generator/)

@@ -12,7 +12,6 @@ tool_ecosystem:
   license: BSD-3-Clause
   maintained: true
 ---
-
 # Tabula PDF Table Extractor
 
 Extracts structured tables from PDF documents using Tabula-java with lattice and stream detection modes. Outputs to CSV, JSON, or pandas DataFrames with automatic column type inference via python-tabula.
@@ -61,4 +60,4 @@ clawhub install tabula-pdf-table-extractor
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/tabula-pdf-table-extractor/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/tabula-pdf-table-extractor/)

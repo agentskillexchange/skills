@@ -12,7 +12,6 @@ tool_ecosystem:
   license: BSD-2-Clause
   maintained: true
 ---
-
 # Nginx Error Log Analyzer and Fixer
 
 Parses Nginx error logs and access logs to diagnose 502, 504, and 413 errors. Uses GoAccess for real-time log visualization and integrates with nginx -t for configuration validation.
@@ -55,4 +54,4 @@ clawhub install nginx-error-log-analyzer-fixer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/nginx-error-log-analyzer-fixer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/nginx-error-log-analyzer-fixer/)

@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Docker Image Layer Size Analyzer
 
 Analyzes Docker image layers using the Docker Registry HTTP API v2 and dive CLI tool. Identifies bloated layers, wasted space from deleted files, and suggests multi-stage build optimizations.
@@ -55,4 +54,4 @@ clawhub install docker-image-layer-size-analyzer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/docker-image-layer-size-analyzer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/docker-image-layer-size-analyzer/)

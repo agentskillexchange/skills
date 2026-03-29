@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Stripe Connect Marketplace Sync
 
 Synchronize marketplace transactions using the Stripe Connect API with automatic payout splitting, transfer reversals, and account onboarding via Stripe.js and the stripe-node SDK.
@@ -62,4 +61,4 @@ clawhub install stripe-connect-marketplace-sync
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/stripe-connect-marketplace-sync/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/stripe-connect-marketplace-sync/)

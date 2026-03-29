@@ -6,7 +6,6 @@ framework: "OpenClaw"
 verification: security_reviewed
 source: "https://github.com/prompt-security/clawsec"
 ---
-
 # OpenClaw Security Suite (ClawSec)
 
 Agent-layer security monitoring, drift detection, and integrity verification for OpenClaw environments. Protects cognitive architecture files, audits skill supply chains, and monitors CVE advisories.
@@ -69,4 +68,4 @@ clawhub install openclaw-security-suite-clawsec
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/openclaw-security-suite-clawsec/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/openclaw-security-suite-clawsec/)

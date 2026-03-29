@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Kubernetes Pod Crashloop Runbook
 
 Automates diagnosis of CrashLoopBackOff pods using kubectl commands wrapped via the Kubernetes API server. Fetches recent events, container logs, and resource quota status to identify root causes such as OOMKilled, misconfigured liveness probes, or missing ConfigMaps. Generates a step-by-step remediation runbook.
@@ -55,4 +54,4 @@ clawhub install kubernetes-pod-crashloop-runbook
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/kubernetes-pod-crashloop-runbook/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-pod-crashloop-runbook/)

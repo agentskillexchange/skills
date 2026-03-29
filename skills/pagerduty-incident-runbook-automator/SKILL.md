@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: false
 ---
-
 # PagerDuty Incident Runbook Automator
 
 Automates incident response runbooks using the PagerDuty Events API v2 and REST API. Manages incident creation, escalation policies, and automated diagnostics triggered by alert severity.
@@ -60,4 +59,4 @@ clawhub install pagerduty-incident-runbook-automator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/pagerduty-incident-runbook-automator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/pagerduty-incident-runbook-automator/)

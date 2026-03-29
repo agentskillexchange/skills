@@ -12,7 +12,6 @@ tool_ecosystem:
   license: LGPL-2.1
   maintained: true
 ---
-
 # Semgrep Custom Pattern Library
 
 Builds custom Semgrep rules using the semgrep YAML rule syntax with metavariable-pattern, pattern-either, and taint-mode analysis. Generates rule packs for OWASP Top 10 detection across Python, JavaScript, and Go codebases.
@@ -59,4 +58,4 @@ clawhub install semgrep-custom-pattern-library
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/semgrep-custom-pattern-library/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/semgrep-custom-pattern-library/)

@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: gitlabhq/gitlabhq
   maintained: true
 ---
-
 # GitLab CI Pipeline Cost Calculator
 
 Calculates CI/CD spend using the GitLab REST API v4 pipelines and jobs endpoints. Tracks runner minutes by project, estimates cost per pipeline via GitLab compute minute pricing, and identifies expensive jobs for optimization.
@@ -60,4 +59,4 @@ clawhub install gitlab-ci-pipeline-cost-calculator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/gitlab-ci-pipeline-cost-calculator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/gitlab-ci-pipeline-cost-calculator/)

@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Jest Unit Test Scaffolder
 
 Jest Unit Test Scaffolder is built around Jest JavaScript test framework. The underlying ecosystem is represented by jestjs/jest (45,332+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like test runners, snapshots, mocks, coverage, watch mode, reporters and preserving […]
@@ -68,4 +67,4 @@ clawhub install jest-unit-test-scaffolder
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/jest-unit-test-scaffolder/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/jest-unit-test-scaffolder/)

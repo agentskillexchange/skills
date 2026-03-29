@@ -12,7 +12,6 @@ tool_ecosystem:
   license: LGPL-2.1
   maintained: true
 ---
-
 # Semgrep Pattern Matching Analyzer
 
 Writes and deploys custom Semgrep rules using pattern, pattern-either, and metavariable-regex operators for multi-language SAST scanning. Manages rule bundles in semgrep.yml with autofix transformations.
@@ -59,4 +58,4 @@ clawhub install semgrep-pattern-matching-analyzer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/semgrep-pattern-matching-analyzer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/semgrep-pattern-matching-analyzer/)

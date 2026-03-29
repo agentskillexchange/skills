@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # AWS CloudWatch Alarm Diagnostic
 
 Diagnoses firing AWS CloudWatch alarms by querying CloudWatch Metrics, alarm history, and related AWS Config resource snapshots via the AWS SDK. Correlates metric anomalies with recent infrastructure changes to suggest root cause hypotheses. Outputs a structured incident summary with remediation options.
@@ -56,4 +55,4 @@ clawhub install aws-cloudwatch-alarm-diagnostic
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/aws-cloudwatch-alarm-diagnostic/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/aws-cloudwatch-alarm-diagnostic/)

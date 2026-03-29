@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # OWASP ZAP Security Audit Skill
 
 Wraps OWASP ZAP API for automated web application security testing including active scan, spider crawl, and ajax spider endpoints. Generates structured findings reports with CWE classifications and OWASP Top 10 category mapping.
@@ -73,4 +72,4 @@ clawhub install owasp-zap-security-audit-skill
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/owasp-zap-security-audit-skill/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/owasp-zap-security-audit-skill/)

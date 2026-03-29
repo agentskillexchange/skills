@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Bubble.io Stripe Subscription Portal Builder
 
 Uses Bubble’s Plugin API and the Stripe.js SDK to embed a self-service subscription management portal inside a Bubble application. Configures Bubble’s API Connector to call Stripe’s Billing Portal Sessions endpoint and handles webhook events for real-time plan change updates.
@@ -68,4 +67,4 @@ clawhub install bubble-stripe-subscription-portal
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/bubble-stripe-subscription-portal/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/bubble-stripe-subscription-portal/)

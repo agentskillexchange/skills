@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Sigstore Cosign Container Verifier
 
 Verifies container image signatures and provenance using Sigstore Cosign and Rekor transparency log. Enforces supply chain policies with OPA Gatekeeper admission rules.
@@ -61,4 +60,4 @@ clawhub install sigstore-cosign-container-verifier
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/sigstore-cosign-container-verifier/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/sigstore-cosign-container-verifier/)

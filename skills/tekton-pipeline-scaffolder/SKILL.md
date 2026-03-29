@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Tekton Pipeline Scaffolder
 
 Scaffolds Kubernetes-native CI/CD pipelines using Tekton Pipelines CRDs (Tasks, Pipelines, PipelineRuns) and the Tekton Hub API. Generates YAML manifests with proper workspace bindings, result passing, and when expressions.
@@ -61,4 +60,4 @@ clawhub install tekton-pipeline-scaffolder
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/tekton-pipeline-scaffolder/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/tekton-pipeline-scaffolder/)

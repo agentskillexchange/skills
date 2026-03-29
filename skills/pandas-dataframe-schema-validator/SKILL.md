@@ -12,7 +12,6 @@ tool_ecosystem:
   license: BSD-3-Clause
   maintained: true
 ---
-
 # Pandas DataFrame Schema Validator
 
 Validates Pandas DataFrame structures using the pandera library API and pa.DataFrameSchema definitions. Enforces column types, nullable constraints, and custom check functions via pandera.Check.
@@ -55,4 +54,4 @@ clawhub install pandas-dataframe-schema-validator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/pandas-dataframe-schema-validator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/pandas-dataframe-schema-validator/)

@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: circleci/circleci-docs
   maintained: true
 ---
-
 # CircleCI Orb Debugger
 
 Diagnoses and fixes CircleCI orb configuration errors using the CircleCI v2 API and circleci config validate CLI. Parses orb source YAML against the orb development kit schema for type mismatches and parameter validation failures.
@@ -60,4 +59,4 @@ clawhub install circleci-orb-debugger
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/circleci-orb-debugger/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-orb-debugger/)

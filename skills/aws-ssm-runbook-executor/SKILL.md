@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # AWS Systems Manager Runbook
 
 Execute AWS Systems Manager Automation runbooks and Run Command documents using the SSM API and boto3. Supports cross-account execution, rate controls, and parameter store integration.
@@ -56,4 +55,4 @@ clawhub install aws-ssm-runbook-executor
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/aws-ssm-runbook-executor/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/aws-ssm-runbook-executor/)

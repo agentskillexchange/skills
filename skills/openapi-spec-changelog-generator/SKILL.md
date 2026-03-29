@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # OpenAPI Spec Changelog Generator
 
 Compares OpenAPI 3.x specification files using the oasdiff library to detect breaking changes, deprecated endpoints, and schema modifications. Outputs structured changelogs in Markdown or JSON.
@@ -56,4 +55,4 @@ clawhub install openapi-spec-changelog-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/openapi-spec-changelog-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/openapi-spec-changelog-generator/)

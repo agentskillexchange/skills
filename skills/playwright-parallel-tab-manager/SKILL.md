@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Playwright Parallel Tab Manager
 
 Manages concurrent Playwright browser contexts with tab pooling and automatic resource cleanup. Integrates with Playwright BrowserContext API and chromium.launch() for parallel test execution across multiple viewports.
@@ -68,4 +67,4 @@ clawhub install playwright-parallel-tab-manager
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/playwright-parallel-tab-manager/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/playwright-parallel-tab-manager/)

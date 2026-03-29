@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Stripe Webhook Signature Verifier
 
 Verifies Stripe webhook payload signatures using the Stripe.js SDK and the stripe.webhooks.constructEvent method. Validates the Stripe-Signature header against the raw request body and a configured endpoint secret. Handles tolerance windows for replay attack prevention and logs verification failures to Datadog via the Datadog Logs API.
@@ -56,4 +55,4 @@ clawhub install stripe-webhook-signature-verifier
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/stripe-webhook-signature-verifier/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/stripe-webhook-signature-verifier/)

@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Argo Workflows Deployer
 
 Orchestrates deployment pipelines using the Argo Workflows Engine API and Argo CD ApplicationSet controller. Implements progressive delivery with Argo Rollouts canary and blue-green strategies.
@@ -55,4 +54,4 @@ clawhub install argo-workflows-deployer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/argo-workflows-deployer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/argo-workflows-deployer/)

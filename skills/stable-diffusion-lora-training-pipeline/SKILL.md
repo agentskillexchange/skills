@@ -8,7 +8,6 @@ source: "https://agentskillexchange.com/skills/stable-diffusion-lora-training-pi
 tool_ecosystem:
   tool: stable.diffusion
 ---
-
 # Stable Diffusion LoRA Training Pipeline
 
 Orchestrates LoRA fine-tuning for Stable Diffusion XL using the diffusers library and Kohya ss-scripts. Manages dataset preparation with BLIP-2 auto-captioning, configures AdaFactor optimizer parameters, and exports safetensors checkpoints with A1111 metadata embedding.
@@ -53,4 +52,4 @@ clawhub install stable-diffusion-lora-training-pipeline
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/stable-diffusion-lora-training-pipeline/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/stable-diffusion-lora-training-pipeline/)

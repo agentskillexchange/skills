@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # jq JSON Stream Transformer
 
 Constructs complex jq filter expressions for transforming JSON/NDJSON streams, including recursive descent, object construction, and reduce operations. Handles multi-gigabyte streams with jq’s streaming parser.
@@ -60,4 +59,4 @@ clawhub install jq-json-stream-transformer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/jq-json-stream-transformer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/jq-json-stream-transformer/)

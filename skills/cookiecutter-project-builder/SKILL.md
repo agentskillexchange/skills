@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: gitlabhq/gitlabhq
   maintained: true
 ---
-
 # Cookiecutter Project Builder
 
 Creates project scaffolds from Cookiecutter templates with interactive variable resolution. Integrates with cruft for template drift detection and copier for advanced multi-template composition.
@@ -54,4 +53,4 @@ clawhub install cookiecutter-project-builder
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/cookiecutter-project-builder/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/cookiecutter-project-builder/)

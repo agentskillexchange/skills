@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: hashicorp/terraform
   maintained: true
 ---
-
 # Terraform Module Boilerplate Assembler
 
 Generates Terraform module scaffolds with variables.tf, outputs.tf, and provider configurations from a module specification. Uses the Terraform Registry API to resolve provider schemas.
@@ -54,4 +53,4 @@ clawhub install terraform-module-boilerplate-assembler
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/terraform-module-boilerplate-assembler/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-module-boilerplate-assembler/)

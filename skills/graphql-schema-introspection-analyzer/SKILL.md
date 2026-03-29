@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # GraphQL Schema Introspection Analyzer
 
 Introspects GraphQL APIs via the standard __schema query and analyzes type systems using graphql-js utilities (buildClientSchema, printSchema). Detects N+1 patterns, circular types, deprecated field usage, and missing nullability annotations.
@@ -64,4 +63,4 @@ clawhub install graphql-schema-introspection-analyzer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/graphql-schema-introspection-analyzer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/graphql-schema-introspection-analyzer/)

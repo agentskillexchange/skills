@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Stripe Revenue Analytics Dashboard Builder
 
 Pulls MRR, churn, and LTV metrics from the Stripe Data API using the stripe Node.js SDK and transforms the data using Apache Arrow. Aggregated metrics are pushed to a Metabase dashboard via the Metabase API and refreshed nightly using a cron-triggered Lambda function.
@@ -68,4 +67,4 @@ clawhub install stripe-revenue-analytics-dashboard
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/stripe-revenue-analytics-dashboard/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/stripe-revenue-analytics-dashboard/)

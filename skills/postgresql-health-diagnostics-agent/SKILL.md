@@ -9,7 +9,6 @@ tool_ecosystem:
   tool: postgresql
   npm_weekly_downloads: 21413502
 ---
-
 # PostgreSQL Health Diagnostics Agent
 
 Queries PostgreSQL system catalogs pg_stat_activity, pg_stat_user_tables, and pg_locks to diagnose performance issues. Analyzes slow queries via pg_stat_statements and checks vacuum status through pg_stat_all_tables autovacuum columns.
@@ -52,4 +51,4 @@ clawhub install postgresql-health-diagnostics-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/postgresql-health-diagnostics-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/postgresql-health-diagnostics-agent/)

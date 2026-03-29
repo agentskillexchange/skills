@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Biome Lint Migration Toolkit
 
 Automates migration from ESLint and Prettier to Biome (formerly Rome) by parsing .eslintrc and .prettierrc configs, mapping rules to biome.json equivalents, and running biome check –apply for bulk reformatting.
@@ -56,4 +55,4 @@ clawhub install biome-lint-migration-toolkit
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/biome-lint-migration-toolkit/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/biome-lint-migration-toolkit/)

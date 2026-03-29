@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # OWASP ZAP Active Scanner Agent
 
 Runs OWASP ZAP active security scans via the ZAP API daemon with custom scan policies. Generates SARIF reports compatible with GitHub Advanced Security code scanning alerts.
@@ -55,4 +54,4 @@ clawhub install owasp-zap-active-scanner-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/owasp-zap-active-scanner-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/owasp-zap-active-scanner-agent/)

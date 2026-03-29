@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Browser Session Replay Analyzer
 
 Records and replays browser sessions using rrweb recording library with DOM mutation serialization. Integrates with LogRocket API and FullStory Data Export API for session analytics.
@@ -56,4 +55,4 @@ clawhub install browser-session-replay-analyzer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/browser-session-replay-analyzer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/browser-session-replay-analyzer/)

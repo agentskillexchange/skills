@@ -8,7 +8,6 @@ source: "https://agentskillexchange.com/skills/stable-diffusion-controlnet-compo
 tool_ecosystem:
   tool: stable.diffusion
 ---
-
 # Stable Diffusion ControlNet Compositor
 
 Orchestrates Stable Diffusion XL with ControlNet preprocessors (Canny, Depth, OpenPose) for guided image generation. Manages ComfyUI workflow JSON exports and A1111 API batch processing.
@@ -55,4 +54,4 @@ clawhub install stable-diffusion-controlnet-compositor
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/stable-diffusion-controlnet-compositor/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/stable-diffusion-controlnet-compositor/)

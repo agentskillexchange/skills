@@ -6,7 +6,6 @@ framework: "OpenClaw"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/github-actions-workflow-linter-2/"
 ---
-
 # GitHub Actions Workflow Linter
 
 Validates GitHub Actions YAML workflows using actionlint and the GitHub Actions REST API. Detects invalid step references, missing secrets declarations, and deprecated action versions before CI runs.
@@ -49,4 +48,4 @@ clawhub install github-actions-workflow-linter-2
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/github-actions-workflow-linter-2/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/github-actions-workflow-linter-2/)

@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Docker Build Cache Optimizer
 
 Optimizes Docker build performance using BuildKit cache mount analysis, docker history layer inspection, and Dockerfile linting via hadolint. Reduces build times by restructuring layer ordering and implementing multi-stage build patterns.
@@ -59,4 +58,4 @@ clawhub install docker-build-cache-optimizer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/docker-build-cache-optimizer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/docker-build-cache-optimizer/)

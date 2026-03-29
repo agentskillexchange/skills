@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Buildkite Agent Monitor
 
 Monitors Buildkite agent pools via the Buildkite REST API v3 and GraphQL API. Tracks agent connectivity, queue depth, job wait times, and dispatches Slack alerts for stalled or disconnected agents.
@@ -60,4 +59,4 @@ clawhub install buildkite-agent-monitor
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/buildkite-agent-monitor/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/buildkite-agent-monitor/)

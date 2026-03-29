@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Whisper.cpp Local Transcription Engine
 
 Runs OpenAI Whisper models locally via whisper.cpp with GGML quantized weights for CPU-efficient transcription. Supports beam search decoding, VAD-based segmentation, and SRT/VTT subtitle output formats.
@@ -56,4 +55,4 @@ clawhub install whisper-cpp-local-transcription-engine
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/whisper-cpp-local-transcription-engine/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/whisper-cpp-local-transcription-engine/)

@@ -6,7 +6,6 @@ framework: "Custom Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/argo-workflows-dag-optimizer/"
 ---
-
 # Argo Workflows DAG Optimizer
 
 Analyzes Argo Workflows DAG templates to identify parallelization opportunities. Uses the Argo Server API to fetch workflow execution history and critical path analysis.
@@ -49,4 +48,4 @@ clawhub install argo-workflows-dag-optimizer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/argo-workflows-dag-optimizer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/argo-workflows-dag-optimizer/)

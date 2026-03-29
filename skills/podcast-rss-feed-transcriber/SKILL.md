@@ -12,7 +12,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Podcast RSS Feed Transcriber
 
 Automatically fetches podcast episodes from RSS feeds using feedparser, downloads audio enclosures, and transcribes them through OpenAI Whisper API or local faster-whisper models. Generates timestamped SRT files and searchable markdown transcripts with speaker diarization via pyannote.audio.
@@ -59,4 +58,4 @@ clawhub install podcast-rss-feed-transcriber
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/podcast-rss-feed-transcriber/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/podcast-rss-feed-transcriber/)

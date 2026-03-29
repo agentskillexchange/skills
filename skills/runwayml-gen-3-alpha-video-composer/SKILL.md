@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: FFmpeg/FFmpeg
   maintained: true
 ---
-
 # RunwayML Gen-3 Alpha Video Composer
 
 Composes AI-generated video clips using the RunwayML Gen-3 Alpha API with text-to-video and image-to-video modes. Manages generation tasks, polling, and output stitching via FFmpeg.
@@ -54,4 +53,4 @@ clawhub install runwayml-gen-3-alpha-video-composer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/runwayml-gen-3-alpha-video-composer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/runwayml-gen-3-alpha-video-composer/)

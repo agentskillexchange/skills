@@ -12,7 +12,6 @@ tool_ecosystem:
   github_repo: DataDog/dd-trace-js
   maintained: true
 ---
-
 # Datadog Monitor Configuration Agent
 
 Creates and manages Datadog monitors using the datadog-api-client SDK. Configures metric, log, APM trace, and composite monitors with proper threshold types and notification routing.
@@ -55,4 +54,4 @@ clawhub install datadog-monitor-configuration-agent-2
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/datadog-monitor-configuration-agent-2/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/datadog-monitor-configuration-agent-2/)

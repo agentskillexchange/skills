@@ -12,24 +12,35 @@ Typst is a modern markup-based typesetting system designed to replace LaTeX with
 
 ## Installation
 
-Install this skill using one of the following methods:
+### Any Agent
 
-### OpenClaw CLI
 ```bash
-openclaw skills install typst-markup-typesetting-system
+npx skills add agentskillexchange/skills --skill typst-markup-typesetting-system
 ```
 
-### Claude Desktop (MCP)
-Add the skill server to your Claude Desktop configuration to use Typst Markup-Based Document Typesetting System capabilities.
+### Claude Code
 
-### Cursor / Windsurf
-Add as an agent skill in your IDE settings for AI-assisted content writing & seo workflows.
+```bash
+npx skills add agentskillexchange/skills --skill typst-markup-typesetting-system -a claude-code
+```
 
-### ChatGPT / Custom GPTs
-Import as an action or knowledge source in your GPT configuration.
+### Cursor
 
-### Direct Download
-Download the SKILL.md file and add it to your agent's skills directory.
+```bash
+npx skills add agentskillexchange/skills --skill typst-markup-typesetting-system -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill typst-markup-typesetting-system -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install typst-markup-typesetting-system
+```
 
 ## Source
 

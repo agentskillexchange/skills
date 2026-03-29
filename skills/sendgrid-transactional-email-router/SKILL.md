@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # SendGrid Transactional Email Router
 
 Manages transactional email delivery via SendGrid v3 Mail Send API with dynamic template rendering. Handles bounce processing, suppression group management, and event webhook parsing.
@@ -58,4 +57,4 @@ clawhub install sendgrid-transactional-email-router
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/sendgrid-transactional-email-router/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/sendgrid-transactional-email-router/)

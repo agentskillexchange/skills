@@ -9,7 +9,6 @@ tool_ecosystem:
   tool: postgresql
   npm_weekly_downloads: 21413502
 ---
-
 # PostgreSQL Query Plan Explainer
 
 Interprets PostgreSQL EXPLAIN ANALYZE output using pg_stat_statements and auto_explain module data. Identifies sequential scan bottlenecks, index recommendations via HypoPG, and buffer cache hit ratios.
@@ -64,4 +63,4 @@ clawhub install postgresql-query-plan-explainer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/postgresql-query-plan-explainer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/postgresql-query-plan-explainer/)

@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: hashicorp/vault
   maintained: true
 ---
-
 # Vault Transit Secrets Envelope Verifier
 
 Verifies encryption workflows with HashiCorp Vault Transit endpoints like `/encrypt`, `/decrypt`, and `/rewrap`, plus key metadata inspection. Useful for agents reviewing whether application secrets handling is actually using envelope encryption correctly instead of assuming the library setup is safe.
@@ -58,4 +57,4 @@ clawhub install vault-transit-secrets-envelope-verifier
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/vault-transit-secrets-envelope-verifier/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/vault-transit-secrets-envelope-verifier/)

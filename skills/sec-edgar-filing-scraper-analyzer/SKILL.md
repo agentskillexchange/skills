@@ -12,7 +12,6 @@ tool_ecosystem:
   license: BSD-3-Clause
   maintained: true
 ---
-
 # SEC EDGAR Filing Scraper & Analyzer
 
 Downloads and parses SEC EDGAR filings (10-K, 10-Q, 8-K) using the EDGAR full-text search API and python-xbrl. Extracts financial statements, risk factors, and executive compensation into structured datasets.
@@ -55,4 +54,4 @@ clawhub install sec-edgar-filing-scraper-analyzer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/sec-edgar-filing-scraper-analyzer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/sec-edgar-filing-scraper-analyzer/)

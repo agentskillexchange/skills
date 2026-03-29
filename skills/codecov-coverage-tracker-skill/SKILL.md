@@ -6,7 +6,6 @@ framework: "ChatGPT Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/codecov-coverage-tracker-skill/"
 ---
-
 # Codecov Coverage Tracker
 
 Monitors test coverage trends using the Codecov API v2 /repos/{owner}/{repo}/commits endpoint. Compares branch coverage against base, generates diff-coverage reports, and flags untested code paths in PR comments via GitHub REST API.
@@ -73,4 +72,4 @@ clawhub install codecov-coverage-tracker-skill
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/codecov-coverage-tracker-skill/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/codecov-coverage-tracker-skill/)

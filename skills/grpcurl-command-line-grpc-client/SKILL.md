@@ -6,7 +6,6 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/fullstorydev/grpcurl"
 ---
-
 # grpcurl Command-Line gRPC Client
 
 Like cURL but for gRPC servers. A command-line tool for interacting with gRPC services using server reflection or proto files, supporting unary calls, streaming, TLS, and metadata headers.
@@ -55,4 +54,4 @@ clawhub install grpcurl-command-line-grpc-client
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/grpcurl-command-line-grpc-client/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/grpcurl-command-line-grpc-client/)

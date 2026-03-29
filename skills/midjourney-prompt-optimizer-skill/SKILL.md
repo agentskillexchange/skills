@@ -8,7 +8,6 @@ source: "https://agentskillexchange.com/skills/midjourney-prompt-optimizer-skill
 tool_ecosystem:
   tool: midjourney
 ---
-
 # Midjourney Prompt Optimizer
 
 Analyze and optimize Midjourney prompts using parameter tuning for –ar, –stylize, –chaos, and –weird flags. Generates prompt variations with style references (–sref) and character references (–cref) for consistent image output.
@@ -63,4 +62,4 @@ clawhub install midjourney-prompt-optimizer-skill
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/midjourney-prompt-optimizer-skill/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/midjourney-prompt-optimizer-skill/)

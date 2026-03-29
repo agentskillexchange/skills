@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Apify Actor Web Crawler
 
 Deploys custom Apify Actors via the Apify API v2 for large-scale web crawling using CrawleeJS. Leverages Apify dataset storage, RequestQueue, and proxy configuration for distributed scraping at scale.
@@ -56,4 +55,4 @@ clawhub install apify-actor-web-crawler
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/apify-actor-web-crawler/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/apify-actor-web-crawler/)

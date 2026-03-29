@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: false
 ---
-
 # PagerDuty Incident Runbook Executor
 
 Automatically executes diagnostic runbooks when PagerDuty incidents trigger, using the PagerDuty Events v2 API and Rundeck API. Attaches diagnostic output as incident notes and suggests remediation actions.
@@ -56,4 +55,4 @@ clawhub install pagerduty-incident-runbook-executor
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/pagerduty-incident-runbook-executor/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/pagerduty-incident-runbook-executor/)

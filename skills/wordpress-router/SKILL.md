@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: WordPress/WordPress
   maintained: true
 ---
-
 # WordPress Router
 
 Route WordPress tasks to the right workflow fast. Core Capabilities Manage WordPress sites using WP-CLI and the WordPress REST API Automate plugin, theme, and core update workflows Handle content op
@@ -66,4 +65,4 @@ clawhub install wordpress-router
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/wordpress-router/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/wordpress-router/)

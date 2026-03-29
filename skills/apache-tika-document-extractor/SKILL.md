@@ -6,7 +6,6 @@ framework: "Codex"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/apache-tika-document-extractor/"
 ---
-
 # Apache Tika Document Extractor
 
 Wraps Apache Tika Server REST API for extracting structured text from PDFs, DOCX, PPTX, and 1,200+ file formats. Outputs clean markdown with metadata preservation using Tika /rmeta/text endpoint and recursive parsing mode.
@@ -67,4 +66,4 @@ clawhub install apache-tika-document-extractor
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/apache-tika-document-extractor/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/apache-tika-document-extractor/)

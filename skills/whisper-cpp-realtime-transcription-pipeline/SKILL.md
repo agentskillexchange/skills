@@ -12,7 +12,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Whisper.cpp Real-Time Transcription Pipeline
 
 Streams audio from PulseAudio or ALSA devices into whisper.cpp for real-time speech-to-text with word-level timestamps. Outputs SRT/VTT subtitles and JSON transcripts simultaneously.
@@ -55,4 +54,4 @@ clawhub install whisper-cpp-realtime-transcription-pipeline
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/whisper-cpp-realtime-transcription-pipeline/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/whisper-cpp-realtime-transcription-pipeline/)

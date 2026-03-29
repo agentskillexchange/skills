@@ -6,7 +6,6 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/github-actions-matrix-optimizer-2/"
 ---
-
 # GitHub Actions Matrix Optimizer
 
 Analyzes GitHub Actions workflow matrix strategies using the GitHub REST API v3 workflow runs endpoint. Identifies redundant matrix combinations and suggests fail-fast optimizations to reduce CI minutes.
@@ -49,4 +48,4 @@ clawhub install github-actions-matrix-optimizer-2
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/github-actions-matrix-optimizer-2/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/github-actions-matrix-optimizer-2/)

@@ -6,7 +6,6 @@ framework: "Custom Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/scrapingbee-api-data-harvester/"
 ---
-
 # ScrapingBee API Data Harvester
 
 Interfaces with the ScrapingBee REST API for JavaScript rendering and Google SERP extraction. Uses custom_google parameter for search result parsing and screenshot endpoint for visual page archiving.
@@ -49,4 +48,4 @@ clawhub install scrapingbee-api-data-harvester
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/scrapingbee-api-data-harvester/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/scrapingbee-api-data-harvester/)

@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: FFmpeg/FFmpeg
   maintained: true
 ---
-
 # Video Frames Extractor
 
 Extract frames and short clips from videos. Core Capabilities Process audio and video files using ffmpeg for transcription and analysis Extract text, timestamps, and speaker metadata from media cont
@@ -66,4 +65,4 @@ clawhub install video-frames-extractor
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/video-frames-extractor/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/video-frames-extractor/)

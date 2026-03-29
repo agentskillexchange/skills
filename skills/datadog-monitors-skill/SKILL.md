@@ -12,7 +12,6 @@ tool_ecosystem:
   github_repo: DataDog/dd-trace-js
   maintained: true
 ---
-
 # Datadog Monitors Skill
 
 Manages Datadog monitors and dashboards via the Datadog API v2. Lists triggered monitors, mutes/unmutes alert groups, and queries metric timeseries. Supports composite monitors and SLO tracking.
@@ -61,4 +60,4 @@ clawhub install datadog-monitors-skill
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/datadog-monitors-skill/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/datadog-monitors-skill/)

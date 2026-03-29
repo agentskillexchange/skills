@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # OpenAPI Spec Navigator
 
 Parses and navigates OpenAPI 3.1 specifications using swagger-parser and @apidevtools/json-schema-ref-parser. Resolves $ref chains, extracts endpoint signatures, and generates typed client stubs.
@@ -60,4 +59,4 @@ clawhub install openapi-spec-navigator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/openapi-spec-navigator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/openapi-spec-navigator/)

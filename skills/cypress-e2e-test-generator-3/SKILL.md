@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Cypress E2E Test Generator
 
 Generates Cypress end-to-end test suites from user flow recordings. Uses the Cypress Real Events plugin and cy.intercept() for network stubbing with automatic fixture generation.
@@ -56,4 +55,4 @@ clawhub install cypress-e2e-test-generator-3
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/cypress-e2e-test-generator-3/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/cypress-e2e-test-generator-3/)

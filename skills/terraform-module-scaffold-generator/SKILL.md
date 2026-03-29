@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: hashicorp/terraform
   maintained: true
 ---
-
 # Terraform Module Scaffold Generator
 
 Generates production-ready Terraform module scaffolds with variables.tf, outputs.tf, and provider blocks using the HashiCorp Configuration Language (HCL). Integrates with terraform-docs for automatic README generation and includes pre-configured .terraform-version files.
@@ -54,4 +53,4 @@ clawhub install terraform-module-scaffold-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/terraform-module-scaffold-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-module-scaffold-generator/)

@@ -12,7 +12,6 @@ tool_ecosystem:
   github_repo: WordPress/WordPress
   maintained: true
 ---
-
 # Gutenberg Custom Block Builder
 
 Scaffolds and builds custom Gutenberg blocks using @wordpress/create-block and the Block API registerBlockType(). Generates edit/save components with InspectorControls, RichText, and InnerBlocks support.
@@ -59,4 +58,4 @@ clawhub install gutenberg-custom-block-builder
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/gutenberg-custom-block-builder/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/gutenberg-custom-block-builder/)

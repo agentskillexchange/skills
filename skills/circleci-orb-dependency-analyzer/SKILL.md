@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: circleci/circleci-docs
   maintained: true
 ---
-
 # CircleCI Orb Dependency Analyzer
 
 Analyzes CircleCI orb dependencies using the CircleCI v2 API and Orb Registry API. Maps orb version trees, detects breaking changes, and generates upgrade paths for pinned orb references.
@@ -54,4 +53,4 @@ clawhub install circleci-orb-dependency-analyzer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/circleci-orb-dependency-analyzer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-orb-dependency-analyzer/)

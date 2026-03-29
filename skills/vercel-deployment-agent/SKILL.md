@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Vercel Deployment Agent
 
 Vercel Deployment Agent is built around Vercel deployment platform. The underlying ecosystem is represented by vercel/vercel (15,126+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like deployments, env vars, build logs, previews, edge runtime, project config and preserving […]
@@ -68,4 +67,4 @@ clawhub install vercel-deployment-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/vercel-deployment-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/vercel-deployment-agent/)

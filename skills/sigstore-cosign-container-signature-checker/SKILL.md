@@ -6,7 +6,6 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/sigstore-cosign-container-signature-checker/"
 ---
-
 # Sigstore Cosign Container Signature Checker
 
 Checks container trust with `cosign verify`, Rekor transparency log lookups, and OCI image reference inspection. Useful for agents that need to confirm whether an image was actually signed and recorded before it reaches a deployment pipeline.
@@ -53,4 +52,4 @@ clawhub install sigstore-cosign-container-signature-checker
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/sigstore-cosign-container-signature-checker/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/sigstore-cosign-container-signature-checker/)

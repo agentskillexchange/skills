@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # npm Dependency Audit Scanner
 
 Scans Node.js projects for vulnerable dependencies using npm audit and the OSV.dev REST API. Cross-references CVE databases via the National Vulnerability Database API v2.0 and generates SBOM documents in CycloneDX format.
@@ -60,4 +59,4 @@ clawhub install npm-dependency-audit-scanner
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/npm-dependency-audit-scanner/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/npm-dependency-audit-scanner/)

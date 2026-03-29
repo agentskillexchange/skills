@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: circleci/circleci-docs
   maintained: true
 ---
-
 # CircleCI Orb Linter
 
 Validates CircleCI configuration files and custom Orbs using the CircleCI CLI (circleci config validate) and Orb Development Kit. Checks for deprecated images, inefficient caching strategies, and security anti-patterns.
@@ -58,4 +57,4 @@ clawhub install circleci-orb-linter
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/circleci-orb-linter/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-orb-linter/)

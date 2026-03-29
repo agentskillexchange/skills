@@ -6,7 +6,6 @@ framework: "Claude Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/figma-export-automator/"
 ---
-
 # Figma Export Automator
 
 Exports assets from Figma files using the Figma REST API v1. Extracts component sets, design tokens (colors, typography, spacing), and renders frames as SVG/PNG. Generates CSS custom properties from styles.
@@ -55,4 +54,4 @@ clawhub install figma-export-automator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/figma-export-automator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/figma-export-automator/)

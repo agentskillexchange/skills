@@ -12,7 +12,6 @@ tool_ecosystem:
   license: LGPL-2.1
   maintained: true
 ---
-
 # SAST Pipeline Scanner
 
 Runs static application security testing using Semgrep rules and CodeQL queries against pull request diffs. Supports SARIF output format and integrates with GitHub Advanced Security for findings management.
@@ -59,4 +58,4 @@ clawhub install sast-pipeline-scanner
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/sast-pipeline-scanner/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/sast-pipeline-scanner/)

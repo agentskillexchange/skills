@@ -6,7 +6,6 @@ framework: "Gemini"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/serpapi-answer-box-extractor/"
 ---
-
 # SerpAPI Answer Box Extractor
 
 Extracts high-signal SERP features from SerpAPI responses, including `answer_box`, `knowledge_graph`, `related_questions`, and `organic_results`. Useful for research agents that need structured search intelligence rather than raw HTML scraping.
@@ -53,4 +52,4 @@ clawhub install serpapi-answer-box-extractor
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/serpapi-answer-box-extractor/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/serpapi-answer-box-extractor/)

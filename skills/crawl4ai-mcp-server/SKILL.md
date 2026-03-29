@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Crawl4AI MCP Server
 
 Self-hosted web crawling and content extraction exposed as MCP tools. Scrape pages, crawl sites with depth control, and extract clean markdown — all self-hosted and free.
@@ -73,4 +72,4 @@ clawhub install crawl4ai-mcp-server
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/crawl4ai-mcp-server/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/crawl4ai-mcp-server/)

@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # ESLint Rule Auditor
 
 Audits ESLint configurations using @eslint/eslintrc and @eslint/js flat config APIs. Detects conflicting rules, deprecated configs, and generates migration paths from eslintrc to eslint.config.js flat config format.
@@ -60,4 +59,4 @@ clawhub install eslint-rule-auditor-3
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/eslint-rule-auditor-3/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/eslint-rule-auditor-3/)

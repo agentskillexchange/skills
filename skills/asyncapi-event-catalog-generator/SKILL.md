@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: false
 ---
-
 # AsyncAPI Event Catalog Generator
 
 Parses AsyncAPI 2.x/3.x specifications to generate event-driven architecture catalogs using the AsyncAPI Generator. Produces channel documentation, message schema validators, and EventBridge rule templates.
@@ -56,4 +55,4 @@ clawhub install asyncapi-event-catalog-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/asyncapi-event-catalog-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/asyncapi-event-catalog-generator/)

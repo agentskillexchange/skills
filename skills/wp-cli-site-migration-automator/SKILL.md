@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: WordPress/WordPress
   maintained: true
 ---
-
 # WP-CLI Site Migration Automator
 
 Automates full WordPress site migrations using WP-CLI search-replace, wp db export, and rsync. Handles serialized data, multisite network moves, and DNS preflight checks via dig and curl health probes.
@@ -54,4 +53,4 @@ clawhub install wp-cli-site-migration-automator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/wp-cli-site-migration-automator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/wp-cli-site-migration-automator/)

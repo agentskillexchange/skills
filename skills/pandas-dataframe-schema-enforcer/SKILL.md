@@ -12,7 +12,6 @@ tool_ecosystem:
   license: BSD-3-Clause
   maintained: true
 ---
-
 # Pandas DataFrame Schema Enforcer
 
 Validates and transforms Pandas DataFrames using Pandera schema definitions with column-level dtype, nullable, and custom check constraints. Auto-generates Pandera schema code from sample DataFrames.
@@ -67,4 +66,4 @@ clawhub install pandas-dataframe-schema-enforcer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/pandas-dataframe-schema-enforcer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/pandas-dataframe-schema-enforcer/)

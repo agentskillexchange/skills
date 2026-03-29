@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # ArgoCD Sync Manager
 
 Manages ArgoCD application syncs via the ArgoCD REST API /api/v1/applications/{name}/sync endpoint. Monitors sync status, handles rollback operations, and validates Kubernetes manifest health using argocd CLI diff commands.
@@ -79,4 +78,4 @@ clawhub install argocd-sync-manager-skill
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/argocd-sync-manager-skill/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/argocd-sync-manager-skill/)

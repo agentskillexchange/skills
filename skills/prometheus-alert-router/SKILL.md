@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Prometheus Alert Router
 
 Routes and escalates Prometheus AlertManager notifications based on severity and label matchers. Integrates with PagerDuty, Opsgenie, and Slack webhook APIs for multi-channel incident routing.
@@ -56,4 +55,4 @@ clawhub install prometheus-alert-router
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/prometheus-alert-router/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-alert-router/)

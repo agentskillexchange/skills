@@ -6,7 +6,6 @@ framework: "Codex"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/schema-markup-generator-seo/"
 ---
-
 # Schema Markup Generator for SEO
 
 Generates JSON-LD structured data using schema-dts TypeScript definitions and Google Rich Results Test API validation. Supports Article, Product, FAQ, HowTo, and LocalBusiness schema types.
@@ -53,4 +52,4 @@ clawhub install schema-markup-generator-seo
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/schema-markup-generator-seo/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/schema-markup-generator-seo/)

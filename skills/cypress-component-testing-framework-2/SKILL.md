@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Cypress Component Testing Framework
 
 Scaffolds Cypress component tests for React, Vue, and Angular apps using the Cypress CT mount API. Configures webpack/vite dev servers and generates snapshot-based visual assertions.
@@ -56,4 +55,4 @@ clawhub install cypress-component-testing-framework-2
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/cypress-component-testing-framework-2/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/cypress-component-testing-framework-2/)

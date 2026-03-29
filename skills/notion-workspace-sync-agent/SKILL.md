@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Notion Workspace Sync Agent
 
 Bidirectionally syncs project data between Notion databases and external tools using the Notion API v2022-06-28. Connects Jira (REST API), Linear (GraphQL), and GitHub Issues for unified project tracking.
@@ -60,4 +59,4 @@ clawhub install notion-workspace-sync-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/notion-workspace-sync-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/notion-workspace-sync-agent/)

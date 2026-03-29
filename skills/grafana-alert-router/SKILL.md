@@ -12,7 +12,6 @@ tool_ecosystem:
   license: AGPL-3.0
   maintained: true
 ---
-
 # Grafana Alert Router
 
 Routes Grafana alerting webhook payloads to Slack, PagerDuty, and OpsGenie channels based on label matching rules. Supports alert grouping and silence management via the Grafana Alerting API.
@@ -59,4 +58,4 @@ clawhub install grafana-alert-router
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/grafana-alert-router/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/grafana-alert-router/)

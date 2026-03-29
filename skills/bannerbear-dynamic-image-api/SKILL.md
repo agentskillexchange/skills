@@ -6,7 +6,6 @@ framework: "Custom Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/bannerbear-dynamic-image-api/"
 ---
-
 # Bannerbear Dynamic Image API
 
 Generates social media graphics and OG images dynamically via Bannerbear REST API. Manages template modifications, font layers, and signed URL generation for on-the-fly image personalization.
@@ -49,4 +48,4 @@ clawhub install bannerbear-dynamic-image-api
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/bannerbear-dynamic-image-api/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/bannerbear-dynamic-image-api/)

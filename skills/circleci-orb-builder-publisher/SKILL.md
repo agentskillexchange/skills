@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: circleci/circleci-docs
   maintained: true
 ---
-
 # CircleCI Orb Builder and Publisher
 
 Creates, validates, and publishes CircleCI Orbs using the CircleCI CLI and Orb Registry API. Handles semantic versioning, namespace management, and orb dependency resolution.
@@ -54,4 +53,4 @@ clawhub install circleci-orb-builder-publisher
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/circleci-orb-builder-publisher/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-orb-builder-publisher/)

@@ -6,7 +6,6 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/altsem/gitu"
 ---
-
 # gitu Magit-Inspired Terminal Git Interface
 
 A fast terminal user interface for Git inspired by Emacs Magit, written in Rust. gitu provides keyboard-driven staging, committing, rebasing, stashing, and branch management with a discoverable which-key style help menu.
@@ -65,4 +64,4 @@ clawhub install gitu-magit-inspired-terminal-git-interface
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/gitu-magit-inspired-terminal-git-interface/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/gitu-magit-inspired-terminal-git-interface/)

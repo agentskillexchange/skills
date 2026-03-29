@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Kubernetes Pod Diagnostics Runner
 
 Runs automated diagnostic sequences on Kubernetes pods using kubectl exec, kubectl logs, and the Kubernetes API /api/v1/pods endpoint. Captures OOMKilled events, CrashLoopBackOff analysis, and resource utilization via metrics-server.
@@ -61,4 +60,4 @@ clawhub install kubernetes-pod-diagnostics-runner-2
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/kubernetes-pod-diagnostics-runner-2/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-pod-diagnostics-runner-2/)

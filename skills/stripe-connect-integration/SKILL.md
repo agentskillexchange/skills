@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Stripe Connect Integration
 
 Manages Stripe Connect accounts and payment flows using the Stripe Node.js SDK (stripe@14.x). Handles onboarding via Account Links API, creates PaymentIntents with application fees, and processes Connect webhooks.
@@ -60,4 +59,4 @@ clawhub install stripe-connect-integration
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/stripe-connect-integration/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/stripe-connect-integration/)

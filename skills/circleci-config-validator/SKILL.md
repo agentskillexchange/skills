@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: circleci/circleci-docs
   maintained: true
 ---
-
 # CircleCI Config Validator
 
 Validates and optimizes CircleCI configuration files using the CircleCI v2 API and circleci config validate CLI. Analyzes orb usage, parallelism settings, and resource class allocation.
@@ -54,4 +53,4 @@ clawhub install circleci-config-validator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/circleci-config-validator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-config-validator/)

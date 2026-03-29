@@ -12,7 +12,6 @@ tool_ecosystem:
   github_repo: DataDog/dd-trace-js
   maintained: true
 ---
-
 # Datadog APM Anomaly Detector
 
 Detects performance anomalies in Datadog APM traces using the Datadog API v2 metrics endpoint. Applies DBSCAN clustering on latency distributions to identify outlier service behaviors.
@@ -55,4 +54,4 @@ clawhub install datadog-apm-anomaly-detector
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/datadog-apm-anomaly-detector/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/datadog-apm-anomaly-detector/)

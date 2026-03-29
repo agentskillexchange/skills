@@ -8,7 +8,6 @@ source: "https://agentskillexchange.com/skills/todoist-project-automator-api-v2/
 tool_ecosystem:
   tool: jira
 ---
-
 # Todoist Project Automator
 
 Automates Todoist project management using the Todoist REST API v2 and Sync API. Creates task templates, manages recurring workflows, and syncs with external project trackers.
@@ -51,4 +50,4 @@ clawhub install todoist-project-automator-api-v2
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/todoist-project-automator-api-v2/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/todoist-project-automator-api-v2/)

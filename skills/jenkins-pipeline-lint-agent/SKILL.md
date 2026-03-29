@@ -12,7 +12,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Jenkins Pipeline Lint Agent
 
 Validates Jenkinsfile declarative and scripted pipelines using the Jenkins Pipeline Linter API endpoint. Checks for deprecated step usage, security anti-patterns, and Groovy sandbox violations.
@@ -55,4 +54,4 @@ clawhub install jenkins-pipeline-lint-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/jenkins-pipeline-lint-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-pipeline-lint-agent/)

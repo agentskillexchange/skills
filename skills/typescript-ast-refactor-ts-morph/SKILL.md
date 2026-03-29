@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # TypeScript AST Refactor
 
 Performs automated TypeScript refactoring using ts-morph and the TypeScript Compiler API. Handles rename operations, extract-function, and dead code elimination across large codebases.
@@ -56,4 +55,4 @@ clawhub install typescript-ast-refactor-ts-morph
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/typescript-ast-refactor-ts-morph/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/typescript-ast-refactor-ts-morph/)

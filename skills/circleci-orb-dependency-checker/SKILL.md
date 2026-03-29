@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: circleci/circleci-docs
   maintained: true
 ---
-
 # CircleCI Orb Dependency Checker
 
 Scans CircleCI config.yml for orb version conflicts and breaking changes using the CircleCI Orbs Registry API. Validates executor configurations against circleci/docker and circleci/node orb specs.
@@ -54,4 +53,4 @@ clawhub install circleci-orb-dependency-checker
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/circleci-orb-dependency-checker/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-orb-dependency-checker/)

@@ -6,7 +6,6 @@ framework: "ChatGPT Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/imap-email-classifier-ml/"
 ---
-
 # IMAP Email Classifier
 
 Classifies and organizes emails from IMAP servers using imaplib and scikit-learn text classification. Supports custom label rules with SpaCy NER for entity extraction.
@@ -49,4 +48,4 @@ clawhub install imap-email-classifier-ml
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/imap-email-classifier-ml/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/imap-email-classifier-ml/)

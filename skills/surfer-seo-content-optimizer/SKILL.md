@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Surfer SEO Content Optimizer
 
 Analyzes top SERP competitors using DataForSEO API and generates content optimization briefs with target word count, NLP entity coverage, heading structure, and internal linking recommendations.
@@ -56,4 +55,4 @@ clawhub install surfer-seo-content-optimizer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/surfer-seo-content-optimizer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/surfer-seo-content-optimizer/)

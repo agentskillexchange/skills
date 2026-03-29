@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: gitlabhq/gitlabhq
   maintained: true
 ---
-
 # Cookiecutter Project Bootstrap
 
 Bootstraps new projects from Cookiecutter templates with variable substitution and post-generation hooks. Supports remote template repositories via the cookiecutter CLI and Jinja2 rendering engine.
@@ -60,4 +59,4 @@ clawhub install cookiecutter-project-bootstrap
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/cookiecutter-project-bootstrap/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/cookiecutter-project-bootstrap/)

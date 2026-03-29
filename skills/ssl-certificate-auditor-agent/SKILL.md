@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # SSL Certificate Auditor
 
 Audits TLS/SSL configurations using sslyze Python library and SSL Labs API v3. Checks certificate chain validity, HSTS headers, and OCSP stapling status with Certificate Transparency log verification.
@@ -56,4 +55,4 @@ clawhub install ssl-certificate-auditor-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/ssl-certificate-auditor-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/ssl-certificate-auditor-agent/)

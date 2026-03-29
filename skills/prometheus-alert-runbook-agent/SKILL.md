@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Prometheus Alert Runbook Agent
 
 Automates incident response for Prometheus alerts using PromQL queries, Alertmanager API, and Grafana dashboards. Maps alerts to diagnostic runbooks with remediation steps.
@@ -62,4 +61,4 @@ clawhub install prometheus-alert-runbook-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/prometheus-alert-runbook-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-alert-runbook-agent/)

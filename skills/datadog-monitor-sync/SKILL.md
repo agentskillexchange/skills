@@ -12,7 +12,6 @@ tool_ecosystem:
   github_repo: DataDog/dd-trace-js
   maintained: true
 ---
-
 # Datadog Monitor Sync
 
 Synchronizes Datadog monitor definitions between environments using the Datadog API v2 monitors endpoint. Supports diff-based updates, tag filtering, and Terraform state reconciliation.
@@ -59,4 +58,4 @@ clawhub install datadog-monitor-sync
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/datadog-monitor-sync/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/datadog-monitor-sync/)

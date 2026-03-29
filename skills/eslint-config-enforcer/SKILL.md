@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # ESLint Config Enforcer
 
 Enforces consistent ESLint configurations across monorepo packages using eslint-config-inspector and flat config merging. Detects rule conflicts between shared configs, auto-generates override files, and reports compliance gaps via eslint –inspect-config.
@@ -74,4 +73,4 @@ clawhub install eslint-config-enforcer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/eslint-config-enforcer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/eslint-config-enforcer/)

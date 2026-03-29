@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Content Brief Architect
 
 Creates detailed SEO content briefs using Ahrefs API keyword data, SurferSEO NLP analysis, and Clearscope content grading. Generates outlines with target word counts, headers, and semantic keyword clusters.
@@ -56,4 +55,4 @@ clawhub install content-brief-architect-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/content-brief-architect-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/content-brief-architect-agent/)

@@ -12,7 +12,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Jenkins Pipeline Debugger
 
 Connects to Jenkins via the Jenkins REST API and Blue Ocean API to debug Declarative and Scripted pipelines. Retrieves stage logs, replays failed builds, and traces Groovy CPS execution state.
@@ -55,4 +54,4 @@ clawhub install jenkins-pipeline-debugger
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/jenkins-pipeline-debugger/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-pipeline-debugger/)

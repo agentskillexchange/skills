@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # OpenAPI Spec Validator & Docs Generator
 
 Validates OpenAPI 3.0/3.1 specifications using Spectral linting rules and generates interactive API documentation with Redoc and Swagger UI. Supports custom ruleset definitions and CI integration.
@@ -60,4 +59,4 @@ clawhub install openapi-spec-validator-docs-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/openapi-spec-validator-docs-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/openapi-spec-validator-docs-generator/)

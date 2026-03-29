@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: false
 ---
-
 # PagerDuty Incident Orchestrator
 
 Manages PagerDuty incident lifecycle using the PagerDuty Events API v2 and REST API. Automates escalation policies, runbook attachment, and post-incident timeline generation.
@@ -56,4 +55,4 @@ clawhub install pagerduty-incident-orchestrator-2
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/pagerduty-incident-orchestrator-2/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/pagerduty-incident-orchestrator-2/)

@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # ArgoCD Sync Status Monitor
 
 Monitors ArgoCD application sync status via the ArgoCD REST API and gRPC gateway. Detects drift between desired and live Kubernetes manifests and triggers Slack notifications through the Slack Bolt SDK.
@@ -59,4 +58,4 @@ clawhub install argocd-sync-status-monitor-7
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/argocd-sync-status-monitor-7/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/argocd-sync-status-monitor-7/)

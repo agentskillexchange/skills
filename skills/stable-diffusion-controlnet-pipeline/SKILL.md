@@ -8,7 +8,6 @@ source: "https://agentskillexchange.com/skills/stable-diffusion-controlnet-pipel
 tool_ecosystem:
   tool: stable.diffusion
 ---
-
 # Stable Diffusion ControlNet Pipeline
 
 Automates image generation workflows using Stability AI ControlNet API with depth maps, edge detection, and pose estimation. Integrates with Hugging Face diffusers library for model management and CLIP interrogator for prompt refinement.
@@ -55,4 +54,4 @@ clawhub install stable-diffusion-controlnet-pipeline
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/stable-diffusion-controlnet-pipeline/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/stable-diffusion-controlnet-pipeline/)

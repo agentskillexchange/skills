@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: false
 ---
-
 # PagerDuty On-Call Escalation Checker
 
 Queries PagerDuty to show who is currently on-call for each escalation policy, surfaces unacknowledged incidents, and identifies schedule coverage gaps for the next 7 days. Useful for handoff checks and pre-weekend coverage audits. Read-only skill.
@@ -68,4 +67,4 @@ clawhub install pagerduty-on-call-escalation-checker-2
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/pagerduty-on-call-escalation-checker-2/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/pagerduty-on-call-escalation-checker-2/)

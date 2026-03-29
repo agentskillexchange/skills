@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Selenium Grid Parallel Test Runner
 
 Orchestrates distributed browser tests across Selenium Grid 4 nodes with dynamic scaling. Uses selenium-webdriver RemoteWebDriver with W3C WebDriver protocol and Zalenium-style video recording.
@@ -56,4 +55,4 @@ clawhub install selenium-grid-parallel-test-runner
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/selenium-grid-parallel-test-runner/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/selenium-grid-parallel-test-runner/)

@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: FFmpeg/FFmpeg
   maintained: true
 ---
-
 # FFmpeg Thumbnail Mosaic Generator
 
 Creates video thumbnail mosaics and sprite sheets using FFmpeg filters and the fluent-ffmpeg Node.js wrapper. Generates contact sheets, animated GIF previews, and WebVTT thumbnail tracks.
@@ -58,4 +57,4 @@ clawhub install ffmpeg-thumbnail-mosaic-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/ffmpeg-thumbnail-mosaic-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/ffmpeg-thumbnail-mosaic-generator/)

@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Playwright Network HAR Recorder
 
 Records and replays HTTP Archive (HAR) files using Playwright routeFromHAR API for deterministic test environments. Supports selective recording, response modification, and API mock generation.
@@ -62,4 +61,4 @@ clawhub install playwright-network-har-recorder
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/playwright-network-har-recorder/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/playwright-network-har-recorder/)

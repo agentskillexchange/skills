@@ -12,7 +12,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Jenkins Pipeline Health Monitor
 
 Monitors Jenkins pipelines using the Jenkins REST API and Blue Ocean API, detecting flaky tests, build queue bottlenecks, and credential expiration warnings for proactive CI maintenance.
@@ -59,4 +58,4 @@ clawhub install jenkins-pipeline-health-monitor
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/jenkins-pipeline-health-monitor/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-pipeline-health-monitor/)

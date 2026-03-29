@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # REST API Changelog Tracker
 
 Tracks breaking changes across REST API versions by diffing OpenAPI specs with oasdiff and monitoring endpoint deprecation headers. Stores version history in SQLite via better-sqlite3.
@@ -62,4 +61,4 @@ clawhub install rest-api-changelog-tracker
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/rest-api-changelog-tracker/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/rest-api-changelog-tracker/)

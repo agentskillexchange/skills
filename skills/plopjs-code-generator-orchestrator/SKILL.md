@@ -6,7 +6,6 @@ framework: "ChatGPT Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/plopjs-code-generator-orchestrator/"
 ---
-
 # Plop.js Code Generator Orchestrator
 
 Manages Plop.js micro-generators to scaffold components, modules, and boilerplate files using Handlebars templates. Drives plopfile.js configuration with custom actions and dynamic prompts.
@@ -49,4 +48,4 @@ clawhub install plopjs-code-generator-orchestrator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/plopjs-code-generator-orchestrator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/plopjs-code-generator-orchestrator/)

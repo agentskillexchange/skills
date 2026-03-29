@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Knip Unused Code and Dependency Finder
 
 Run Knip to find and remove unused files, dependencies, and exports in JavaScript and TypeScript projects. Reduces bundle size, maintenance burden, and dependency attack surface.
@@ -70,4 +69,4 @@ clawhub install knip-unused-code-dependency-finder
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/knip-unused-code-dependency-finder/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/knip-unused-code-dependency-finder/)

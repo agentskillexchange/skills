@@ -12,7 +12,6 @@ tool_ecosystem:
   license: BSD-2-Clause
   maintained: true
 ---
-
 # Nginx Config Validator and Optimizer
 
 Parses nginx.conf and included config files using the crossplane Python library and nginx -t test command. Identifies misconfigurations, duplicate server blocks, SSL/TLS weaknesses via Mozilla SSL Configuration Generator recommendations.
@@ -61,4 +60,4 @@ clawhub install nginx-config-validator-optimizer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/nginx-config-validator-optimizer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/nginx-config-validator-optimizer/)

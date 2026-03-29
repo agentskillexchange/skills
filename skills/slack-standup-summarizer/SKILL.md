@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Slack Standup Summarizer
 
 Collects daily standup updates from Slack channels using the Web API and generates team summaries with blockers highlighted. Posts formatted digests via Incoming Webhooks.
@@ -60,4 +59,4 @@ clawhub install slack-standup-summarizer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/slack-standup-summarizer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/slack-standup-summarizer/)

@@ -12,7 +12,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Jenkins Pipeline Monitor
 
 Monitors Jenkins CI pipelines via the Jenkins REST API (/api/json) and Blue Ocean REST endpoints. Tracks build queue times, stage durations, and test result trends using JUnit XML parsing.
@@ -59,4 +58,4 @@ clawhub install jenkins-pipeline-monitor
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/jenkins-pipeline-monitor/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-pipeline-monitor/)

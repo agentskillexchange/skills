@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # OpenAI Image Gen
 
 Batch-generate images through the OpenAI Images API with a prompt sampler and gallery output.
@@ -68,4 +67,4 @@ clawhub install openai-image-gen
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/openai-image-gen/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/openai-image-gen/)

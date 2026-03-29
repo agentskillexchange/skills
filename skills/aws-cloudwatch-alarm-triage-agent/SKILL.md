@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # AWS CloudWatch Alarm Triage Agent
 
 Triages AWS CloudWatch alarms using the CloudWatch DescribeAlarms API, GetMetricData for historical analysis, and CloudTrail LookupEvents for root cause correlation. Prioritizes alerts by blast radius and provides remediation playbooks.
@@ -60,4 +59,4 @@ clawhub install aws-cloudwatch-alarm-triage-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/aws-cloudwatch-alarm-triage-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/aws-cloudwatch-alarm-triage-agent/)

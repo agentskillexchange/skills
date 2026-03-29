@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: hashicorp/terraform
   maintained: true
 ---
-
 # Terraform State Inspector
 
 Inspects and diagnoses Terraform state files using terraform CLI commands and the Terraform Cloud API v2. Detects drift, orphaned resources, and dependency cycles in state data.
@@ -54,4 +53,4 @@ clawhub install terraform-state-inspector
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/terraform-state-inspector/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-state-inspector/)

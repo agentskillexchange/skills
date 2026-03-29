@@ -6,7 +6,6 @@ framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/browserbase/sdk-node"
 ---
-
 # Browserbase Session Automation API and SDK
 
 Use Browserbase when an agent needs hosted browser sessions, remote automation, session recording, and scalable browser infrastructure without managing Chromium fleets directly. This skill packages the Browserbase API and SDK into a concrete workflow for running, monitoring, and extracting results from cloud browser sessions.
@@ -49,4 +48,4 @@ clawhub install browserbase-session-automation-api-and-sdk
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/browserbase-session-automation-api-and-sdk/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/browserbase-session-automation-api-and-sdk/)

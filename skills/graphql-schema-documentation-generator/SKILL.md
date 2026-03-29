@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # GraphQL Schema Documentation Generator
 
 Generates interactive API documentation from GraphQL schemas using graphql-js introspection queries and SpectaQL. Annotates fields with usage analytics from Apollo Studio API.
@@ -62,4 +61,4 @@ clawhub install graphql-schema-documentation-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/graphql-schema-documentation-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/graphql-schema-documentation-generator/)

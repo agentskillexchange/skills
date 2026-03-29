@@ -9,7 +9,6 @@ tool_ecosystem:
   tool: postgresql
   npm_weekly_downloads: 21413502
 ---
-
 # PostgreSQL Diagnostic Analyzer
 
 Runs diagnostic queries against PostgreSQL using pg_stat_statements, pg_stat_activity, and pg_locks system views. Identifies slow queries, lock contention, and bloat using pgstattuple and pg_repack extension analysis.
@@ -64,4 +63,4 @@ clawhub install postgresql-diagnostic-analyzer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/postgresql-diagnostic-analyzer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/postgresql-diagnostic-analyzer/)

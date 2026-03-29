@@ -12,7 +12,6 @@ tool_ecosystem:
   license: LGPL-3.0
   maintained: true
 ---
-
 # SonarQube Rule Enforcement Agent
 
 Integrates with SonarQube Web API and sonar-scanner CLI to enforce code quality gates across pull requests. Automatically blocks merges when critical code smells, security hotspots, or duplications exceed configurable thresholds.
@@ -55,4 +54,4 @@ clawhub install sonarqube-rule-enforcement-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/sonarqube-rule-enforcement-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/sonarqube-rule-enforcement-agent/)

@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Anthropic SDK Token Usage Logger
 
 Instruments Anthropic API calls to log token usage, latency, and cost per request using the Anthropic TypeScript SDK. Wraps the anthropic.messages.create method to capture usage.input_tokens, usage.output_tokens, and timing from the API response. Writes structured logs to CloudWatch Logs via the AWS SDK v3 CloudWatchLogsClient.
@@ -56,4 +55,4 @@ clawhub install anthropic-sdk-token-usage-logger
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/anthropic-sdk-token-usage-logger/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/anthropic-sdk-token-usage-logger/)

@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Nx Workspace Generator Toolkit
 
 Creates and manages custom Nx workspace generators using @nrwl/devkit with TypeTree file generation and schema.json validation. Automates monorepo library and app scaffolding with dependency graph awareness.
@@ -56,4 +55,4 @@ clawhub install nx-workspace-generator-toolkit
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/nx-workspace-generator-toolkit/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/nx-workspace-generator-toolkit/)

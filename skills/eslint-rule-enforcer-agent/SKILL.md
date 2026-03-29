@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # ESLint Rule Enforcer Agent
 
 Runs ESLint with custom rulesets via the ESLint Node.js API and eslint-plugin-import to enforce project-specific code standards. Parses AST violations, groups by severity, and generates fix-ready patches using eslint –fix output diffs.
@@ -56,4 +55,4 @@ clawhub install eslint-rule-enforcer-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/eslint-rule-enforcer-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/eslint-rule-enforcer-agent/)

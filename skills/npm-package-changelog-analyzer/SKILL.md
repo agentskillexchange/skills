@@ -6,7 +6,6 @@ framework: "Cursor"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/npm-package-changelog-analyzer/"
 ---
-
 # NPM Package Changelog Analyzer
 
 Analyzes NPM package changelogs and release notes using the NPM Registry API and GitHub Releases API. Detects breaking changes, security patches, and dependency conflicts across package upgrade paths.
@@ -53,4 +52,4 @@ clawhub install npm-package-changelog-analyzer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/npm-package-changelog-analyzer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/npm-package-changelog-analyzer/)

@@ -12,7 +12,6 @@ tool_ecosystem:
   license: BSD-3-Clause
   maintained: true
 ---
-
 # Camelot Advanced PDF Table Intelligence
 
 Intelligent PDF table detection and extraction using Camelot-py with OpenCV-based lattice detection and morphological transformations. Handles rotated tables, merged cells, and multi-page spanning tables.
@@ -61,4 +60,4 @@ clawhub install camelot-advanced-pdf-table-intelligence
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/camelot-advanced-pdf-table-intelligence/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/camelot-advanced-pdf-table-intelligence/)

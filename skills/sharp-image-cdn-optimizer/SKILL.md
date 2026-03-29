@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Sharp Image CDN Optimizer
 
 On-the-fly image optimization using Sharp (libvips Node.js bindings) with CDN-aware caching headers. Supports responsive srcset generation, AVIF/WebP transcoding, and blur placeholder (LQIP) creation.
@@ -68,4 +67,4 @@ clawhub install sharp-image-cdn-optimizer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/sharp-image-cdn-optimizer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/sharp-image-cdn-optimizer/)

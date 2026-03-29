@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Playwright Visual Regression Suite
 
 Automated visual regression testing using Playwright’s screenshot comparison API (page.screenshot with maxDiffPixelRatio) and toMatchSnapshot assertions. Supports cross-browser testing on Chromium, Firefox, and WebKit.
@@ -60,4 +59,4 @@ clawhub install playwright-visual-regression-suite
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/playwright-visual-regression-suite/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/playwright-visual-regression-suite/)

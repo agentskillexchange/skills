@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: FFmpeg/FFmpeg
   maintained: true
 ---
-
 # Audio Stem Separator with Demucs
 
 Separates audio tracks into individual stems (vocals, drums, bass, other) using Meta’s Demucs neural network model via the demucs Python package. Supports batch processing of WAV and MP3 files, outputs isolated stems in FLAC or WAV format, and integrates with FFmpeg for format conversion and loudness matching post-separation.
@@ -58,4 +57,4 @@ clawhub install audio-stem-separator-demucs
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/audio-stem-separator-demucs/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/audio-stem-separator-demucs/)

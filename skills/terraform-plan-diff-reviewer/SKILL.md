@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: hashicorp/terraform
   maintained: true
 ---
-
 # Terraform Plan Diff Reviewer
 
 Parses terraform plan JSON output to identify destructive changes, security group modifications, and IAM policy drift. Uses the Terraform Cloud API for workspace state comparison.
@@ -54,4 +53,4 @@ clawhub install terraform-plan-diff-reviewer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/terraform-plan-diff-reviewer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-plan-diff-reviewer/)

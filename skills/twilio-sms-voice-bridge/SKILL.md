@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Twilio SMS & Voice Bridge
 
 Connects to Twilio REST API via the twilio-node SDK for programmable messaging and voice. Sends SMS with client.messages.create(), builds IVR flows using TwiML VoiceResponse, and processes delivery webhooks for message status tracking and conversation threading.
@@ -62,4 +61,4 @@ clawhub install twilio-sms-voice-bridge
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/twilio-sms-voice-bridge/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/twilio-sms-voice-bridge/)

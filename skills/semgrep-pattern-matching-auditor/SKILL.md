@@ -12,7 +12,6 @@ tool_ecosystem:
   license: LGPL-2.1
   maintained: true
 ---
-
 # Semgrep Pattern Matching Auditor
 
 Leverages the Semgrep OSS engine and semgrep-rules registry to perform deep static analysis across 30+ languages. Combines taint tracking with pattern matching for OWASP Top 10 vulnerability detection.
@@ -55,4 +54,4 @@ clawhub install semgrep-pattern-matching-auditor
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/semgrep-pattern-matching-auditor/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/semgrep-pattern-matching-auditor/)

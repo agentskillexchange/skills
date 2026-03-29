@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # ClickHouse Query Agent
 
 ClickHouse Query Agent is built around ClickHouse columnar analytics database. The underlying ecosystem is represented by ClickHouse/ClickHouse (46,508+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like SQL queries, MergeTree tables, materialized views, HTTP and native clients and […]
@@ -68,4 +67,4 @@ clawhub install clickhouse-query-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/clickhouse-query-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/clickhouse-query-agent/)

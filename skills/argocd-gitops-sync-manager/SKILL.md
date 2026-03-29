@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # ArgoCD GitOps Sync Manager
 
 Manages ArgoCD application sync operations with intelligent drift detection and rollback strategies. Uses the ArgoCD gRPC API and ApplicationSet CRD for multi-cluster GitOps deployments.
@@ -59,4 +58,4 @@ clawhub install argocd-gitops-sync-manager
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/argocd-gitops-sync-manager/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/argocd-gitops-sync-manager/)

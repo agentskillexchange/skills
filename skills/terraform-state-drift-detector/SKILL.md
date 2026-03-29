@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: hashicorp/terraform
   maintained: true
 ---
-
 # Terraform State Drift Detector
 
 Detects infrastructure drift by running terraform plan -detailed-exitcode and parsing the JSON output via terraform show -json. Categorizes drift by resource type and generates targeted terraform apply plans for reconciliation.
@@ -72,4 +71,4 @@ clawhub install terraform-state-drift-detector
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/terraform-state-drift-detector/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-state-drift-detector/)

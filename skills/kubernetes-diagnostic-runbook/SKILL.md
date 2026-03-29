@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Kubernetes Diagnostic Runbook
 
 Executes diagnostic workflows against Kubernetes clusters using kubectl and the Kubernetes Python client (kubernetes.client). Checks pod health, resource quotas, event logs, and node conditions for rapid incident triage.
@@ -59,4 +58,4 @@ clawhub install kubernetes-diagnostic-runbook
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/kubernetes-diagnostic-runbook/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-diagnostic-runbook/)

@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: hashicorp/terraform
   maintained: true
 ---
-
 # Terraform Module Template Generator
 
 Scaffolds production-ready Terraform modules with HCL templates, variable definitions, and output blocks. Uses the Terraform Registry API to pull module schemas and terraform-docs for auto-generating README files.
@@ -54,4 +53,4 @@ clawhub install terraform-module-template-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/terraform-module-template-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-module-template-generator/)

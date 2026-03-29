@@ -12,7 +12,6 @@ tool_ecosystem:
   license: BSD-3-Clause
   maintained: true
 ---
-
 # Tesseract OCR Data Extractor
 
 Extracts structured data from scanned documents using Tesseract OCR engine with LSTM models. Supports table detection via OpenCV contour analysis and outputs to CSV, JSON, or Pandas DataFrames.
@@ -61,4 +60,4 @@ clawhub install tesseract-ocr-data-extractor
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/tesseract-ocr-data-extractor/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/tesseract-ocr-data-extractor/)

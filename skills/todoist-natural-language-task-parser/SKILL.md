@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: hashicorp/vault
   maintained: true
 ---
-
 # Todoist Natural Language Task Parser
 
 Parses natural language task descriptions into structured Todoist API v2 task objects with due dates, priority levels, and project assignments. Uses the Todoist Sync API for batch task creation and supports recurring date patterns via the RRule specification.
@@ -56,4 +55,4 @@ clawhub install todoist-natural-language-task-parser
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/todoist-natural-language-task-parser/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/todoist-natural-language-task-parser/)

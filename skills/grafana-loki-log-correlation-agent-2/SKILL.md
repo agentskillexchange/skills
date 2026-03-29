@@ -12,7 +12,6 @@ tool_ecosystem:
   license: AGPL-3.0
   maintained: true
 ---
-
 # Grafana Loki Log Correlation Agent
 
 Queries Grafana Loki via the LogQL API to correlate log streams across services. Builds cross-service trace-to-log mappings using Tempo integration and generates alert rule suggestions.
@@ -55,4 +54,4 @@ clawhub install grafana-loki-log-correlation-agent-2
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/grafana-loki-log-correlation-agent-2/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/grafana-loki-log-correlation-agent-2/)

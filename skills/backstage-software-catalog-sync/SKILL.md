@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: gitlabhq/gitlabhq
   maintained: true
 ---
-
 # Backstage Software Catalog Sync
 
 Synchronizes service metadata into Spotify Backstage catalog using catalog-info.yaml generation and the Backstage Catalog REST API. Manages component, API, and system entity relationships across teams.
@@ -54,4 +53,4 @@ clawhub install backstage-software-catalog-sync
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/backstage-software-catalog-sync/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/backstage-software-catalog-sync/)

@@ -12,7 +12,6 @@ tool_ecosystem:
   license: AGPL-3.0
   maintained: true
 ---
-
 # Grafana Loki Log Query Agent
 
 Queries Grafana Loki log aggregation system using LogQL via the Loki HTTP API. Filters log streams by labels, parses structured JSON logs, and correlates log entries with Grafana dashboard panels.
@@ -61,4 +60,4 @@ clawhub install grafana-loki-log-query-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/grafana-loki-log-query-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/grafana-loki-log-query-agent/)

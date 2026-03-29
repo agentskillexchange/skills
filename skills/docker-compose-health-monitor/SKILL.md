@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Docker Compose Health Monitor
 
 Monitors Docker Compose service health using the Docker Engine API (/containers/{id}/json) and docker-compose ps parsing. Tracks container restart counts via the RestartCount field and logs analysis through the /containers/{id}/logs endpoint.
@@ -61,4 +60,4 @@ clawhub install docker-compose-health-monitor
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/docker-compose-health-monitor/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/docker-compose-health-monitor/)

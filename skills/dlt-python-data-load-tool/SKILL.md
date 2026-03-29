@@ -6,7 +6,6 @@ framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/dlt-hub/dlt"
 ---
-
 # dlt Python Data Load Tool
 
 An open-source Python library that makes loading data from APIs, databases, and files into structured datasets simple and Pythonic. dlt automates schema inference, incremental loading, and normalization, supporting destinations like DuckDB, BigQuery, Snowflake, and Postgres.
@@ -65,4 +64,4 @@ clawhub install dlt-python-data-load-tool
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/dlt-python-data-load-tool/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/dlt-python-data-load-tool/)

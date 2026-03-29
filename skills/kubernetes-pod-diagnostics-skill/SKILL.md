@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Kubernetes Pod Diagnostics
 
 Diagnoses Kubernetes pod failures using kubectl describe, logs –previous, and the Kubernetes API /api/v1/namespaces/{ns}/events endpoints. Identifies CrashLoopBackOff root causes, OOMKilled memory analysis, and generates remediation steps with resource limit recommendations.
@@ -79,4 +78,4 @@ clawhub install kubernetes-pod-diagnostics-skill
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/kubernetes-pod-diagnostics-skill/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-pod-diagnostics-skill/)

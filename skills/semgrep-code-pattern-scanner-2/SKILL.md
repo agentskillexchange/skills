@@ -12,7 +12,6 @@ tool_ecosystem:
   license: LGPL-2.1
   maintained: true
 ---
-
 # Semgrep Code Pattern Scanner
 
 Runs Semgrep against a codebase using official or custom rule registries and outputs a grouped report of security anti-patterns, deprecated API usage, and policy violations. Supports 30+ languages and produces SARIF output.
@@ -67,4 +66,4 @@ clawhub install semgrep-code-pattern-scanner-2
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/semgrep-code-pattern-scanner-2/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/semgrep-code-pattern-scanner-2/)

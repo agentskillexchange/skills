@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Kubernetes Pod Crash Diagnostician
 
 Diagnoses Kubernetes pod crash loops by analyzing events, logs, and resource quotas via the Kubernetes API and kubectl debug. Correlates OOMKill signals with container memory profiles from Prometheus queries.
@@ -55,4 +54,4 @@ clawhub install kubernetes-pod-crash-diagnostician
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/kubernetes-pod-crash-diagnostician/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-pod-crash-diagnostician/)

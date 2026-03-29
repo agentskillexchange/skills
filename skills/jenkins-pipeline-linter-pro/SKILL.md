@@ -12,7 +12,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Jenkins Pipeline Linter Pro
 
 Validates Jenkinsfile syntax and best practices using the Jenkins Pipeline Model Definition API and jenkins-cli.jar linter endpoint. Detects anti-patterns like unbounded parallel stages, missing timeout blocks, and credential leaks.
@@ -61,4 +60,4 @@ clawhub install jenkins-pipeline-linter-pro
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/jenkins-pipeline-linter-pro/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-pipeline-linter-pro/)

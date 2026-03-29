@@ -6,7 +6,6 @@ framework: "ChatGPT Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/cloudinary-dam-pipeline-skill/"
 ---
-
 # Cloudinary DAM Pipeline
 
 Manage digital assets through the Cloudinary Upload, Admin, and Transformation APIs. Automates image optimization with responsive breakpoints, AI-powered cropping via g_auto, and CDN delivery URL generation.
@@ -57,4 +56,4 @@ clawhub install cloudinary-dam-pipeline-skill
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/cloudinary-dam-pipeline-skill/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/cloudinary-dam-pipeline-skill/)

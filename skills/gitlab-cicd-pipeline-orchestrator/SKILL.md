@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: gitlabhq/gitlabhq
   maintained: true
 ---
-
 # GitLab CI/CD Pipeline Orchestrator
 
 Build and manage GitLab CI/CD pipelines using .gitlab-ci.yml and the GitLab REST API v4. Supports multi-project pipelines, DAG scheduling, and GitLab Runner fleet management.
@@ -54,4 +53,4 @@ clawhub install gitlab-cicd-pipeline-orchestrator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/gitlab-cicd-pipeline-orchestrator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/gitlab-cicd-pipeline-orchestrator/)

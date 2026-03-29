@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: false
 ---
-
 # Parquet Column Pruning Optimizer
 
 Optimizes Apache Parquet file reads using PyArrow column pruning and predicate pushdown. Analyzes query patterns to recommend row group sizing and dictionary encoding strategies.
@@ -56,4 +55,4 @@ clawhub install parquet-column-pruning-optimizer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/parquet-column-pruning-optimizer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/parquet-column-pruning-optimizer/)

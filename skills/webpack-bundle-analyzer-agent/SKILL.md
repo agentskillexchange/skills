@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Webpack Bundle Analyzer Agent
 
 Analyzes webpack bundle composition using webpack-bundle-analyzer and source-map-explorer APIs. Identifies duplicate dependencies and suggests tree-shaking optimizations with specific import rewrites.
@@ -68,4 +67,4 @@ clawhub install webpack-bundle-analyzer-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/webpack-bundle-analyzer-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/webpack-bundle-analyzer-agent/)

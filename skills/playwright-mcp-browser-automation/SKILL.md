@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Playwright MCP Browser Automation
 
 Official Playwright-powered browser control for agent workflows.
@@ -68,4 +67,4 @@ clawhub install playwright-mcp-browser-automation
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/playwright-mcp-browser-automation/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/playwright-mcp-browser-automation/)

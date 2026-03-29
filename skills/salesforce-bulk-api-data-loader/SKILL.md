@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Salesforce Bulk API Data Loader
 
 Performs high-volume data operations using the Salesforce Bulk API 2.0. Creates ingest jobs with createJob(), uploads CSV batches, and monitors job status via getJobInfo() for millions of records.
@@ -60,4 +59,4 @@ clawhub install salesforce-bulk-api-data-loader
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/salesforce-bulk-api-data-loader/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/salesforce-bulk-api-data-loader/)

@@ -6,7 +6,6 @@ framework: "Codex"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/github-actions-ci-pipeline-builder/"
 ---
-
 # GitHub Actions CI Pipeline Builder
 
 Generates and manages GitHub Actions workflows using the Workflow YAML syntax and GitHub REST API. Supports matrix builds, reusable workflows, and composite actions.
@@ -55,4 +54,4 @@ clawhub install github-actions-ci-pipeline-builder
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/github-actions-ci-pipeline-builder/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/github-actions-ci-pipeline-builder/)

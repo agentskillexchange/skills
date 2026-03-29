@@ -12,7 +12,6 @@ tool_ecosystem:
   license: LGPL-2.1
   maintained: true
 ---
-
 # Semgrep Security Review Agent
 
 Performs SAST scanning using Semgrep CLI and Semgrep Registry rules. Detects OWASP Top 10 vulnerabilities, injection flaws, and insecure patterns with custom rule YAML authoring.
@@ -61,4 +60,4 @@ clawhub install semgrep-security-review-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/semgrep-security-review-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/semgrep-security-review-agent/)

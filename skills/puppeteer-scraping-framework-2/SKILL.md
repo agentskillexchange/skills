@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Puppeteer Scraping Framework
 
 Headless Chrome scraping using Puppeteer with stealth plugin, request interception via page.setRequestInterception(), and automatic CAPTCHA detection. Supports CDP sessions for advanced protocol access.
@@ -62,4 +61,4 @@ clawhub install puppeteer-scraping-framework-2
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/puppeteer-scraping-framework-2/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/puppeteer-scraping-framework-2/)

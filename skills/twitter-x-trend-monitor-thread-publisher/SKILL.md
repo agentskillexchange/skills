@@ -12,7 +12,6 @@ tool_ecosystem:
   github_repo: redis/redis
   maintained: true
 ---
-
 # Twitter/X Trend Monitor & Thread Publisher
 
 Polls the X API v2 trending topics endpoint every 15 minutes and compares against a keyword watchlist stored in Redis. When a trend matches, fetches top tweets by engagement and drafts a summarizing thread via OpenAI Chat Completions. Publishes the thread via X API v2 with reply chaining, respecting OAuth 2.0 PKCE rate limits.
@@ -67,4 +66,4 @@ clawhub install twitter-x-trend-monitor-thread-publisher
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/twitter-x-trend-monitor-thread-publisher/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/twitter-x-trend-monitor-thread-publisher/)

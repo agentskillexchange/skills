@@ -6,7 +6,6 @@ framework: "ChatGPT Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/lottie-animation-optimizer/"
 ---
-
 # Lottie Animation Optimizer
 
 Analyzes and optimizes Lottie JSON animation files using lottie-web parser internals, reduces file size via keyframe deduplication and path simplification, and validates against the Telegram Lottie sticker spec (TGS).
@@ -49,4 +48,4 @@ clawhub install lottie-animation-optimizer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/lottie-animation-optimizer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/lottie-animation-optimizer/)

@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Puppeteer Web Scraper
 
 Headless Chrome scraping via Puppeteer with automatic cookie handling, JavaScript rendering, and Cheerio-based DOM extraction. Handles infinite scroll and lazy-loaded content.
@@ -60,4 +59,4 @@ clawhub install puppeteer-web-scraper
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/puppeteer-web-scraper/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/puppeteer-web-scraper/)

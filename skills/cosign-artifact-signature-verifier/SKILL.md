@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Cosign Artifact Signature Verifier
 
 Validates container image and artifact signatures using Sigstore Cosign with keyless verification via Fulcio and Rekor transparency logs. Enforces supply chain integrity policies with OPA/Rego.
@@ -59,4 +58,4 @@ clawhub install cosign-artifact-signature-verifier
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/cosign-artifact-signature-verifier/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/cosign-artifact-signature-verifier/)

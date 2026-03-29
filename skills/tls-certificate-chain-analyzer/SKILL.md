@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # TLS Certificate Chain Analyzer
 
 Analyzes TLS certificate chains using OpenSSL s_client and the crt.sh Certificate Transparency API. Detects weak algorithms, expiring intermediates, and CT log compliance issues.
@@ -60,4 +59,4 @@ clawhub install tls-certificate-chain-analyzer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/tls-certificate-chain-analyzer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/tls-certificate-chain-analyzer/)

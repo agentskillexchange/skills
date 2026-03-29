@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # GraphQL Introspection Documenter
 
 Introspects GraphQL endpoints using the __schema query and generates structured API documentation. Uses graphql-js type system to resolve interfaces, unions, and custom scalar descriptions.
@@ -56,4 +55,4 @@ clawhub install graphql-introspection-documenter
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/graphql-introspection-documenter/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/graphql-introspection-documenter/)

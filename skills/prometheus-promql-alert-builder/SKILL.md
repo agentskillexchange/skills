@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Prometheus PromQL Alert Builder
 
 Constructs Prometheus alerting rules using PromQL expressions with proper label matchers, aggregation operators, and for-duration thresholds. Integrates with Alertmanager routing trees for notification dispatch.
@@ -56,4 +55,4 @@ clawhub install prometheus-promql-alert-builder
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/prometheus-promql-alert-builder/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-promql-alert-builder/)

@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Prometheus Alert Tuner
 
 Tunes Prometheus alerting rules using the Prometheus HTTP API and PromQL query analysis. Reduces alert fatigue by analyzing firing history, adjusting thresholds via histogram_quantile, and configuring inhibition rules.
@@ -62,4 +61,4 @@ clawhub install prometheus-alert-tuner
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/prometheus-alert-tuner/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-alert-tuner/)

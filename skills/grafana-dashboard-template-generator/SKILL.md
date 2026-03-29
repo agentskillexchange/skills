@@ -12,7 +12,6 @@ tool_ecosystem:
   license: AGPL-3.0
   maintained: true
 ---
-
 # Grafana Dashboard Template Generator
 
 Programmatically creates Grafana dashboard JSON models using the Grafana HTTP API and grafonnet-lib. Supports templated variables, panel linking, and multi-datasource layouts for Prometheus, Loki, and Tempo.
@@ -59,4 +58,4 @@ clawhub install grafana-dashboard-template-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/grafana-dashboard-template-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/grafana-dashboard-template-generator/)

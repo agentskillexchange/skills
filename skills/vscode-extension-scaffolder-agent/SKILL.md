@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # VS Code Extension Scaffolder
 
 Scaffolds VS Code extensions using the vscode-extension API with TypeScript, including commands, webview panels, language servers via LSP, and custom tree view providers.
@@ -56,4 +55,4 @@ clawhub install vscode-extension-scaffolder-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/vscode-extension-scaffolder-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/vscode-extension-scaffolder-agent/)

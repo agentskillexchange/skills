@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Stripe Connect Account Provisioner
 
 Automates Stripe Connect onboarding by provisioning connected accounts via the Stripe API. Handles account creation, KYC link generation with stripe.accountLinks.create(), and webhook verification for account.updated events.
@@ -60,4 +59,4 @@ clawhub install stripe-connect-account-provisioner
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/stripe-connect-account-provisioner/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/stripe-connect-account-provisioner/)

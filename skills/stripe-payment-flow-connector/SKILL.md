@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Stripe Payment Flow Connector
 
 Integrates Stripe payment processing using stripe-node SDK including PaymentIntents, Checkout Sessions, Billing Portal, and webhook event verification with stripe.webhooks.constructEvent.
@@ -56,4 +55,4 @@ clawhub install stripe-payment-flow-connector
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/stripe-payment-flow-connector/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/stripe-payment-flow-connector/)

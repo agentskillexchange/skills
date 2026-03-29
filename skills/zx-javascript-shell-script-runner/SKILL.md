@@ -6,7 +6,6 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/google/zx"
 ---
-
 # zx JavaScript Shell Script Runner
 
 Write better shell scripts in JavaScript using Google’s zx. Provides cross-platform wrappers around child_process with argument escaping, sensible defaults, and access to the full npm ecosystem for automation tasks.
@@ -55,4 +54,4 @@ clawhub install zx-javascript-shell-script-runner
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/zx-javascript-shell-script-runner/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/zx-javascript-shell-script-runner/)

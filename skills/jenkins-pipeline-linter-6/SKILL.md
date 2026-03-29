@@ -12,7 +12,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Jenkins Pipeline Linter
 
 Validates Jenkinsfile declarative and scripted pipelines using the Jenkins Pipeline Linter HTTP API (/pipeline-model-converter/validate) and npm-groovy-lint for Groovy static analysis with CodeNarc rulesets.
@@ -59,4 +58,4 @@ clawhub install jenkins-pipeline-linter-6
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/jenkins-pipeline-linter-6/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-pipeline-linter-6/)

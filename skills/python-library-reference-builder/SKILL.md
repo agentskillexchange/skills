@@ -6,7 +6,6 @@ framework: "OpenClaw"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/python-library-reference-builder/"
 ---
-
 # Python Library Reference Builder
 
 Generates searchable Python library references using ast module for source parsing and Sphinx autodoc integration. Extracts docstrings, type hints, and usage examples from installed packages via importlib.
@@ -53,4 +52,4 @@ clawhub install python-library-reference-builder
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/python-library-reference-builder/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/python-library-reference-builder/)

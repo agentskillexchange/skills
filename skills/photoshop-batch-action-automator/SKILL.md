@@ -6,7 +6,6 @@ framework: "Custom Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/photoshop-batch-action-automator/"
 ---
-
 # Photoshop Batch Action Automator
 
 Automates Adobe Photoshop batch processing via the UXP Scripting API and CEP ExtendScript. Handles bulk resize, watermarking, color profile conversion (ICC), and smart object replacement using photoshop-connection npm package.
@@ -53,4 +52,4 @@ clawhub install photoshop-batch-action-automator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/photoshop-batch-action-automator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/photoshop-batch-action-automator/)

@@ -6,7 +6,6 @@ framework: "MCP"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/npm-package-dependency-auditor/"
 ---
-
 # NPM Package Dependency Auditor
 
 Deep-audits npm package dependency trees using the npm Registry API and Socket.dev security intelligence. Identifies supply chain risks, typosquatting, and license incompatibilities across transitive dependencies.
@@ -53,4 +52,4 @@ clawhub install npm-package-dependency-auditor
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/npm-package-dependency-auditor/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/npm-package-dependency-auditor/)

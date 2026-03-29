@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # ESLint Rule Enforcer
 
 Automates ESLint v9 flat config enforcement across monorepos using eslint-plugin-unicorn and @typescript-eslint/parser. Scans changed files via git diff, applies auto-fixable rules, and generates per-package lint reports with violation severity breakdowns.
@@ -80,4 +79,4 @@ clawhub install eslint-rule-enforcer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/eslint-rule-enforcer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/eslint-rule-enforcer/)

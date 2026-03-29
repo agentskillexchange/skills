@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: hashicorp/terraform
   maintained: true
 ---
-
 # Terraform Module Testing Framework
 
 Tests Terraform modules using Terratest Go library and terraform test native framework. Validates plan output, applies infrastructure in ephemeral environments, and asserts resource attributes with automatic cleanup.
@@ -54,4 +53,4 @@ clawhub install terraform-module-testing-framework
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/terraform-module-testing-framework/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-module-testing-framework/)

@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: hashicorp/terraform
   maintained: true
 ---
-
 # Terraform Module Registry Browser
 
 Searches and evaluates Terraform modules from the HashiCorp Registry API and private registries. Uses hcl2json parser to analyze module input variables, outputs, and provider requirements.
@@ -54,4 +53,4 @@ clawhub install terraform-module-registry-browser
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/terraform-module-registry-browser/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-module-registry-browser/)

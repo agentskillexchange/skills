@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Playwright Page Data Extractor
 
 Uses Microsoft Playwright’s Node.js API to navigate dynamic web applications, intercept network requests, and extract structured data from React/Vue/Angular SPAs with automatic wait strategies.
@@ -60,4 +59,4 @@ clawhub install playwright-page-data-extractor
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/playwright-page-data-extractor/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/playwright-page-data-extractor/)

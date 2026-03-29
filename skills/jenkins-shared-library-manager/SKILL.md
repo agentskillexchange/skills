@@ -12,7 +12,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Jenkins Shared Library Manager
 
 Manages Jenkins Shared Libraries with proper vars/ and src/ structure using the Jenkins Pipeline Shared Groovy Libraries plugin. Validates Groovy syntax, tests steps with jenkins-pipeline-unit, and configures Global Pipeline Libraries via Jenkins CLI.
@@ -61,4 +60,4 @@ clawhub install jenkins-shared-library-manager
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/jenkins-shared-library-manager/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-shared-library-manager/)

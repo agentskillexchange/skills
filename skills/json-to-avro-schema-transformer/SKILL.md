@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: false
 ---
-
 # JSON-to-Avro Schema Transformer
 
 Transforms JSON Schema definitions into Apache Avro schema format using the jsonschema and fastavro Python libraries. Handles nested objects, arrays, optional fields, and $ref resolution. Registers the resulting Avro schema to Confluent Schema Registry via the Schema Registry REST API.
@@ -56,4 +55,4 @@ clawhub install json-to-avro-schema-transformer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/json-to-avro-schema-transformer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/json-to-avro-schema-transformer/)

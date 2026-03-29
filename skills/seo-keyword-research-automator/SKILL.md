@@ -6,7 +6,6 @@ framework: "Gemini"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/seo-keyword-research-automator/"
 ---
-
 # SEO Keyword Research Automator
 
 Automated keyword research using DataForSEO API and Google Search Console API. Performs SERP analysis, keyword clustering with TF-IDF scoring, and generates content briefs with search intent classification.
@@ -53,4 +52,4 @@ clawhub install seo-keyword-research-automator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/seo-keyword-research-automator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/seo-keyword-research-automator/)

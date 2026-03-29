@@ -12,7 +12,6 @@ tool_ecosystem:
   github_repo: hashicorp/vault
   maintained: true
 ---
-
 # Vault Secrets Rotation Orchestrator
 
 Automates HashiCorp Vault secret rotation using the Vault HTTP API and dynamic secrets engines. Manages database credential leases, PKI certificate renewal, and AWS STS token rotation with zero-downtime rollover.
@@ -59,4 +58,4 @@ clawhub install vault-secrets-rotation-orchestrator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/vault-secrets-rotation-orchestrator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/vault-secrets-rotation-orchestrator/)

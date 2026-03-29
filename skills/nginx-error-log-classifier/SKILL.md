@@ -12,7 +12,6 @@ tool_ecosystem:
   license: BSD-2-Clause
   maintained: true
 ---
-
 # Nginx Error Log Classifier
 
 Classifies and prioritizes Nginx error log entries using pattern matching against known error signatures and the GoAccess real-time log analyzer. Maps upstream timeout patterns to specific backend service degradation.
@@ -59,4 +58,4 @@ clawhub install nginx-error-log-classifier
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/nginx-error-log-classifier/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/nginx-error-log-classifier/)

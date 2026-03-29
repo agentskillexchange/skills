@@ -12,24 +12,35 @@ Sage by Roots is an advanced WordPress starter theme that brings Laravel Blade t
 
 ## Installation
 
-Install this skill using one of the following methods:
+### Any Agent
 
-### OpenClaw CLI
 ```bash
-openclaw skills install sage-wordpress-starter-theme-laravel-blade
+npx skills add agentskillexchange/skills --skill sage-wordpress-starter-theme-laravel-blade
 ```
 
-### Claude Desktop (MCP)
-Add the skill server to your Claude Desktop configuration to use Sage WordPress Starter Theme with Laravel Blade and Tailwind CSS capabilities.
+### Claude Code
 
-### Cursor / Windsurf
-Add as an agent skill in your IDE settings for AI-assisted wordpress & cms workflows.
+```bash
+npx skills add agentskillexchange/skills --skill sage-wordpress-starter-theme-laravel-blade -a claude-code
+```
 
-### ChatGPT / Custom GPTs
-Import as an action or knowledge source in your GPT configuration.
+### Cursor
 
-### Direct Download
-Download the SKILL.md file and add it to your agent's skills directory.
+```bash
+npx skills add agentskillexchange/skills --skill sage-wordpress-starter-theme-laravel-blade -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill sage-wordpress-starter-theme-laravel-blade -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install sage-wordpress-starter-theme-laravel-blade
+```
 
 ## Source
 

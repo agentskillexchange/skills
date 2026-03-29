@@ -6,7 +6,6 @@ framework: "Codex"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/markdown-to-amp-article-converter/"
 ---
-
 # Markdown-to-AMP Article Converter
 
 Converts Markdown files to valid AMP HTML articles using unified/remark/rehype pipeline. Validates output against amphtml-validator and generates structured data with schema-dts.
@@ -49,4 +48,4 @@ clawhub install markdown-to-amp-article-converter
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/markdown-to-amp-article-converter/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/markdown-to-amp-article-converter/)

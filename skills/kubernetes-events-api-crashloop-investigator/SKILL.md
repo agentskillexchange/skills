@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Kubernetes Events API CrashLoop Investigator
 
 Diagnoses restart storms with the Kubernetes Events API, Pod status conditions, and the Metrics API to explain why workloads are stuck in CrashLoopBackOff. Great for agents that need to summarize cluster evidence before an operator starts digging through kubectl output by hand.
@@ -59,4 +58,4 @@ clawhub install kubernetes-events-api-crashloop-investigator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/kubernetes-events-api-crashloop-investigator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-events-api-crashloop-investigator/)

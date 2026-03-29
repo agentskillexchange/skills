@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Notion Workspace Sync Engine
 
 Bidirectionally syncs Notion databases with external tools via the Notion API and webhooks. Maps page properties to Jira issues, GitHub PRs, and Linear tickets in real time.
@@ -56,4 +55,4 @@ clawhub install notion-workspace-sync-engine-2
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/notion-workspace-sync-engine-2/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/notion-workspace-sync-engine-2/)

@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # ArgoCD Application Deployer
 
 Manages ArgoCD application deployments via the ArgoCD REST API and argocd CLI. Configures GitOps sync policies, automated rollbacks, and multi-cluster application sets with generator templates.
@@ -59,4 +58,4 @@ clawhub install argocd-application-deployer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/argocd-application-deployer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/argocd-application-deployer/)

@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # SQLite MCP Server
 
 Lightweight local database access for agent tasks.
@@ -68,4 +67,4 @@ clawhub install sqlite-mcp-server
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/sqlite-mcp-server/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/sqlite-mcp-server/)

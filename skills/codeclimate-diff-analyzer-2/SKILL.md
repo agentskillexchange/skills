@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: gitlabhq/gitlabhq
   maintained: true
 ---
-
 # CodeClimate Diff Analyzer
 
 Runs CodeClimate analysis on pull request diffs using the CLI engine and reports new issues inline. Calculates maintainability impact scores per changed file.
@@ -58,4 +57,4 @@ clawhub install codeclimate-diff-analyzer-2
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/codeclimate-diff-analyzer-2/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/codeclimate-diff-analyzer-2/)

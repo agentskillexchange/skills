@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # ArgoCD Application Sync Monitor
 
 Monitors ArgoCD application sync status via the ArgoCD REST API and argocd CLI. Detects OutOfSync conditions, tracks sync wave progress, and alerts on failed sync operations with detailed resource diff analysis using argocd app diff.
@@ -61,4 +60,4 @@ clawhub install argocd-application-sync-monitor
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/argocd-application-sync-monitor/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/argocd-application-sync-monitor/)

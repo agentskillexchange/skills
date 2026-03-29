@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Buildkite Pipeline Profiler
 
 Profiles Buildkite pipeline performance using the Buildkite REST API and GraphQL API. Analyzes step durations, agent queue wait times, and artifact upload bottlenecks. Generates optimization reports with buildkite-agent meta-data analysis.
@@ -61,4 +60,4 @@ clawhub install buildkite-pipeline-profiler
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/buildkite-pipeline-profiler/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/buildkite-pipeline-profiler/)

@@ -6,7 +6,6 @@ framework: "OpenClaw"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/yeoman-scaffold-runner/"
 ---
-
 # Yeoman Scaffold Runner
 
 Executes Yeoman generators via the yo CLI and yeoman-environment API to scaffold applications, components, and microservices. Manages generator discovery through the npm registry and supports sub-generator composition.
@@ -53,4 +52,4 @@ clawhub install yeoman-scaffold-runner
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/yeoman-scaffold-runner/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/yeoman-scaffold-runner/)

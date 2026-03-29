@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: dbt-labs/dbt-core
   maintained: true
 ---
-
 # dbt Model Lineage Mapper
 
 Parses dbt manifest.json and catalog.json to extract full model lineage graphs using the dbt Core artifact API. Generates interactive DAG visualizations and impact analysis for model changes.
@@ -60,4 +59,4 @@ clawhub install dbt-model-lineage-mapper
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/dbt-model-lineage-mapper/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/dbt-model-lineage-mapper/)

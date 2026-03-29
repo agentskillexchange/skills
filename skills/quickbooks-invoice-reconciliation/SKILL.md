@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # QuickBooks Online Invoice Reconciliation Agent
 
 Connects to the QuickBooks Online Accounting API using OAuth 2.0 via the intuit-oauth Node.js SDK to fetch unpaid invoices and match them against bank transaction records. Discrepancies are flagged and a reconciliation report is generated as a PDF using PDFKit, then emailed via SendGrid.
@@ -68,4 +67,4 @@ clawhub install quickbooks-invoice-reconciliation
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/quickbooks-invoice-reconciliation/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/quickbooks-invoice-reconciliation/)

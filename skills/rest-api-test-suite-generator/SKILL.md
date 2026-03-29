@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: postmanlabs/postman-app-support
   maintained: true
 ---
-
 # REST API Test Suite Generator
 
 Generates comprehensive API test suites from OpenAPI specs using Postman Collection SDK and Newman CLI. Creates parameterized test scenarios with environment-specific variables, auth flows, and assertion chains.
@@ -58,4 +57,4 @@ clawhub install rest-api-test-suite-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/rest-api-test-suite-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/rest-api-test-suite-generator/)

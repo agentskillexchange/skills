@@ -12,7 +12,6 @@ tool_ecosystem:
   license: LGPL-2.1
   maintained: true
 ---
-
 # Semgrep Security Scanner
 
 Scan codebases for security vulnerabilities and anti-patterns using Semgrep OSS rules and the Semgrep CLI. Supports custom YAML rule authoring and SARIF output for CI integration.
@@ -55,4 +54,4 @@ clawhub install semgrep-security-scanner-2
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/semgrep-security-scanner-2/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/semgrep-security-scanner-2/)

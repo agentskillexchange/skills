@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # DALL-E 3 Brand Asset Batch Generator
 
 Batch-generates brand assets using the OpenAI Images API with DALL-E 3. Manages prompt engineering for consistent brand identity across icons, banners, and social media templates.
@@ -56,4 +55,4 @@ clawhub install dall-e-3-brand-asset-batch-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/dall-e-3-brand-asset-batch-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/dall-e-3-brand-asset-batch-generator/)

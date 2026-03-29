@@ -9,7 +9,6 @@ tool_ecosystem:
   tool: postgresql
   npm_weekly_downloads: 21413502
 ---
-
 # PostgreSQL Query Plan Analyzer
 
 Executes EXPLAIN ANALYZE BUFFERS on slow PostgreSQL queries and parses the plan tree for sequential scans, nested loop joins, and sort spills. Integrates with pg_stat_statements for identifying top resource-consuming queries.
@@ -64,4 +63,4 @@ clawhub install postgresql-query-plan-analyzer-2
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/postgresql-query-plan-analyzer-2/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/postgresql-query-plan-analyzer-2/)

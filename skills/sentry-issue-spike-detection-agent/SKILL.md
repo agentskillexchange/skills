@@ -12,7 +12,6 @@ tool_ecosystem:
   github_repo: getsentry/sentry
   maintained: true
 ---
-
 # Sentry Issue Spike Detection Agent
 
 Analyzes Sentry project event streams via the Sentry Issues API to detect sudden spikes in error frequency. Computes rolling baselines and triggers alerts through configurable notification channels.
@@ -55,4 +54,4 @@ clawhub install sentry-issue-spike-detection-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/sentry-issue-spike-detection-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/sentry-issue-spike-detection-agent/)

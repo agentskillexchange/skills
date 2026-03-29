@@ -6,7 +6,6 @@ framework: "Custom Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/npm-audit-deep-scanner/"
 ---
-
 # NPM Audit Deep Scanner
 
 Extends npm audit with deep transitive dependency analysis using the npm Registry API. Generates fix PRs via GitHub API and cross-checks advisories against the OSV.dev vulnerability database.
@@ -53,4 +52,4 @@ clawhub install npm-audit-deep-scanner
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/npm-audit-deep-scanner/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/npm-audit-deep-scanner/)

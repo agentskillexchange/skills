@@ -6,7 +6,6 @@ framework: "MCP"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/jsdoc-type-definition-extractor/"
 ---
-
 # JSDoc Type Definition Extractor
 
 Extracts and indexes JSDoc type annotations from JavaScript codebases using the jsdoc-api parser. Generates TypeScript declaration files (.d.ts) and searchable type catalogs from @typedef and @param tags.
@@ -49,4 +48,4 @@ clawhub install jsdoc-type-definition-extractor
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/jsdoc-type-definition-extractor/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/jsdoc-type-definition-extractor/)

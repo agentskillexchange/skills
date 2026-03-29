@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: hashicorp/terraform
   maintained: true
 ---
-
 # Terraform Cloud Orchestrator
 
 Orchestrates Terraform Cloud runs via the TFC API v2 /runs endpoint with plan-only and auto-apply modes. Manages workspace variables through /vars API, parses plan output for resource drift detection, and integrates Sentinel policy checks.
@@ -78,4 +77,4 @@ clawhub install terraform-cloud-orchestrator-skill
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/terraform-cloud-orchestrator-skill/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-cloud-orchestrator-skill/)

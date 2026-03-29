@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: WordPress/WordPress
   maintained: true
 ---
-
 # WordPress REST API Builder
 
 Build and debug WordPress REST endpoints with a specialized skill.
@@ -66,4 +65,4 @@ clawhub install wordpress-rest-api-builder
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/wordpress-rest-api-builder/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/wordpress-rest-api-builder/)

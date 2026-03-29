@@ -6,7 +6,6 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/steipete/claude-code-mcp"
 ---
-
 # Claude Code MCP Bridge
 
 Run Claude Code as a one-shot MCP tool so other agents and editors can delegate coding tasks to it. An agent-in-agent orchestration bridge.
@@ -67,4 +66,4 @@ clawhub install claude-code-mcp-bridge
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/claude-code-mcp-bridge/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/claude-code-mcp-bridge/)

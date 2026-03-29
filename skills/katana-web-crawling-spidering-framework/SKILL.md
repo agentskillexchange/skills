@@ -5,7 +5,6 @@ category: "Research & Scraping"
 verification: listed
 source: "https://github.com/projectdiscovery/katana"
 ---
-
 # Katana Next-Generation Web Crawling and Spidering Framework
 
 Katana by ProjectDiscovery is a fast, configurable web crawling and spidering framework written in Go. It supports standard and headless browser modes, JavaScript parsing, automatic form filling, and structured output for feeding into security and data pipelines.

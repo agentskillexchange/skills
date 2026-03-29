@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Slack Workflow Builder Agent
 
 Creates and manages Slack workflows using @slack/bolt and @slack/web-api. Builds interactive modals with Block Kit, handles slash commands, and orchestrates multi-step approval flows via Slack Events API.
@@ -60,4 +59,4 @@ clawhub install slack-workflow-builder-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/slack-workflow-builder-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/slack-workflow-builder-agent/)

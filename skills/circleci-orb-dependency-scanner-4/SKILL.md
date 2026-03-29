@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: circleci/circleci-docs
   maintained: true
 ---
-
 # CircleCI Orb Dependency Scanner
 
 Scans CircleCI config.yml for outdated orb versions using the CircleCI Orbs Registry API. Reports CVEs linked to orb dependencies via Snyk vulnerability database lookups.
@@ -60,4 +59,4 @@ clawhub install circleci-orb-dependency-scanner-4
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/circleci-orb-dependency-scanner-4/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-orb-dependency-scanner-4/)

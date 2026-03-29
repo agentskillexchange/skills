@@ -6,7 +6,6 @@ framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/languagetool-org/languagetool"
 ---
-
 ## Installation
 
 ### Any Agent

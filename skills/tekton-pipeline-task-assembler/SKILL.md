@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Tekton Pipeline Task Assembler
 
 Assembles Tekton CI/CD pipelines from reusable Task and ClusterTask definitions using tkn CLI and Tekton Hub catalog. Manages PipelineRun parameters, workspace bindings, and result propagation across task steps.
@@ -55,4 +54,4 @@ clawhub install tekton-pipeline-task-assembler
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/tekton-pipeline-task-assembler/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/tekton-pipeline-task-assembler/)

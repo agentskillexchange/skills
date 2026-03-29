@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Selenium Grid Auto-Scaling Orchestrator
 
 Orchestrates Selenium Grid 4 node scaling based on test queue depth using the Grid GraphQL API. Manages Docker container lifecycle for Chrome, Firefox, and Edge nodes with health monitoring.
@@ -62,4 +61,4 @@ clawhub install selenium-grid-auto-scaling-orchestrator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/selenium-grid-auto-scaling-orchestrator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/selenium-grid-auto-scaling-orchestrator/)

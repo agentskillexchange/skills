@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # AWS CloudWatch Runbook Agent
 
 Uses AWS SDK CloudWatchClient GetMetricData and CloudWatch Logs Insights StartQueryExecution to automate incident triage. Correlates alarms via DescribeAlarms with X-Ray trace segments for root cause analysis.
@@ -56,4 +55,4 @@ clawhub install aws-cloudwatch-runbook-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/aws-cloudwatch-runbook-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/aws-cloudwatch-runbook-agent/)

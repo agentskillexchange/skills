@@ -6,7 +6,6 @@ framework: "Gemini"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/apache-tika-document-parser-agent/"
 ---
-
 # Apache Tika Document Parser Agent
 
 Extracts text and metadata from 1000+ file formats using Apache Tika server REST API. Handles PDF OCR via Tesseract integration, Office document parsing, and email archive extraction with MIME detection.
@@ -55,4 +54,4 @@ clawhub install apache-tika-document-parser-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/apache-tika-document-parser-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/apache-tika-document-parser-agent/)

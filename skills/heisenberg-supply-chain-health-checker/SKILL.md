@@ -6,7 +6,6 @@ framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/AppOmni-Labs/heisenberg-ssc-health-check"
 ---
-
 # Heisenberg Supply Chain Health Checker
 
 An open-source software supply chain health check tool that analyzes dependencies using deps.dev, SBOMs, and external advisories. Heisenberg generates health scores, detects risky packages, and produces CSV reports for individual dependencies or entire GitHub organization portfolios.
@@ -65,4 +64,4 @@ clawhub install heisenberg-supply-chain-health-checker
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/heisenberg-supply-chain-health-checker/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/heisenberg-supply-chain-health-checker/)

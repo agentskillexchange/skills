@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Playwright Test Generator with Codegen
 
 Records and generates end-to-end test scripts using Playwright Codegen with multi-browser targeting. Produces TypeScript test files compatible with Playwright Test runner, handles visual regression via playwright-visual-regression plugin, and integrates with Allure reporting.
@@ -60,4 +59,4 @@ clawhub install playwright-test-generator-codegen
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/playwright-test-generator-codegen/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/playwright-test-generator-codegen/)

@@ -6,7 +6,6 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/sharkdp/hyperfine"
 ---
-
 # Hyperfine Command-Line Benchmarking Tool
 
 Benchmark command-line programs with statistical rigor using Hyperfine. Performs warmup runs, detects outliers, exports results in JSON/CSV/Markdown, and supports parameterized benchmarks for comparison.
@@ -57,4 +56,4 @@ clawhub install hyperfine-command-line-benchmarking-tool
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/hyperfine-command-line-benchmarking-tool/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/hyperfine-command-line-benchmarking-tool/)

@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Content Readability Analyzer
 
 Scores content using Flesch-Kincaid, Gunning Fog, and SMOG readability indices via textstat Python library. Provides sentence-level rewrite suggestions using OpenAI GPT-4o API.
@@ -56,4 +55,4 @@ clawhub install content-readability-analyzer-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/content-readability-analyzer-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/content-readability-analyzer-agent/)

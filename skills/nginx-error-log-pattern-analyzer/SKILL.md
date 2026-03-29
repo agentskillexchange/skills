@@ -12,7 +12,6 @@ tool_ecosystem:
   license: BSD-2-Clause
   maintained: true
 ---
-
 # Nginx Error Log Pattern Analyzer
 
 Parses Nginx error logs using configurable regex patterns and the GoAccess real-time log analyzer API. Clusters recurring 502/504 errors and correlates with upstream health check failures.
@@ -55,4 +54,4 @@ clawhub install nginx-error-log-pattern-analyzer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/nginx-error-log-pattern-analyzer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/nginx-error-log-pattern-analyzer/)

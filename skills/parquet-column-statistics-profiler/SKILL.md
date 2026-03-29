@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: false
 ---
-
 # Parquet Column Statistics Profiler
 
 Profiles Apache Parquet files using pyarrow metadata APIs to extract column statistics, row group distributions, and encoding efficiency metrics without reading full datasets.
@@ -62,4 +61,4 @@ clawhub install parquet-column-statistics-profiler
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/parquet-column-statistics-profiler/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/parquet-column-statistics-profiler/)

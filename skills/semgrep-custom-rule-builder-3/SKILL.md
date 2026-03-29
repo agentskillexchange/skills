@@ -12,7 +12,6 @@ tool_ecosystem:
   license: LGPL-2.1
   maintained: true
 ---
-
 # Semgrep Custom Rule Builder
 
 Creates custom Semgrep SAST rules using the semgrep CLI and rule schema YAML format. Supports pattern-either, metavariable-regex, and taint-mode tracking for detecting framework-specific vulnerabilities in Python, Go, and JavaScript.
@@ -59,4 +58,4 @@ clawhub install semgrep-custom-rule-builder-3
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/semgrep-custom-rule-builder-3/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/semgrep-custom-rule-builder-3/)

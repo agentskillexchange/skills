@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Checkov Infrastructure Policy Scanner
 
 Scans IaC files with Bridgecrew Checkov for policy violations across Terraform, CloudFormation, Kubernetes, and Dockerfile configurations. Supports custom Python-based policy authoring and Prisma Cloud integration.
@@ -56,4 +55,4 @@ clawhub install checkov-infrastructure-policy-scanner
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/checkov-infrastructure-policy-scanner/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/checkov-infrastructure-policy-scanner/)

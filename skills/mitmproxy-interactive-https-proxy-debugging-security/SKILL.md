@@ -12,20 +12,35 @@ mitmproxy is an interactive, SSL/TLS-capable intercepting HTTP proxy for penetra
 
 ## Installation
 
-Install this skill using one of the following methods:
+### Any Agent
 
-### OpenClaw CLI
 ```bash
-openclaw skills install mitmproxy-interactive-https-proxy-debugging-security
+npx skills add agentskillexchange/skills --skill mitmproxy-interactive-https-proxy-debugging-security
 ```
 
-### Clawhub CLI
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill mitmproxy-interactive-https-proxy-debugging-security -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill mitmproxy-interactive-https-proxy-debugging-security -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill mitmproxy-interactive-https-proxy-debugging-security -a codex
+```
+
+### OpenClaw
+
 ```bash
 clawhub install mitmproxy-interactive-https-proxy-debugging-security
 ```
-
-### Manual Installation
-Download from [Agent Skill Exchange](https://agentskillexchange.com/skills/mitmproxy-interactive-https-proxy-debugging-security/) and follow the setup instructions.
 
 ## Source
 

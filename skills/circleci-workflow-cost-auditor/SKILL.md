@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: circleci/circleci-docs
   maintained: true
 ---
-
 # CircleCI Workflow Cost Auditor
 
 Audits CircleCI workflow spend using the CircleCI Insights API and machine-type pricing tables. Identifies jobs running on oversized resource classes and recommends downgrades using historical CPU/memory utilization from the pipeline telemetry endpoint. Produces a cost breakdown by project, branch, and executor type.
@@ -54,4 +53,4 @@ clawhub install circleci-workflow-cost-auditor
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/circleci-workflow-cost-auditor/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-workflow-cost-auditor/)

@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: WordPress/WordPress
   maintained: true
 ---
-
 # Internal Link Builder
 
 Analyzes site content graph using Screaming Frog SEO Spider API and builds internal linking recommendations. Calculates PageRank distribution using networkx graph algorithms.
@@ -54,4 +53,4 @@ clawhub install internal-link-builder-seo-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/internal-link-builder-seo-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/internal-link-builder-seo-agent/)

@@ -12,24 +12,35 @@ librosa is a Python library for audio and music analysis. It provides tools for 
 
 ## Installation
 
-Install this skill using one of the following methods:
+### Any Agent
 
-### OpenClaw CLI
 ```bash
-openclaw skills install librosa-python-audio-music-analysis-library
+npx skills add agentskillexchange/skills --skill librosa-python-audio-music-analysis-library
 ```
 
-### Claude Desktop (MCP)
-Add the skill server to your Claude Desktop configuration to use librosa Python Audio and Music Analysis Library capabilities.
+### Claude Code
 
-### Cursor / Windsurf
-Add as an agent skill in your IDE settings for AI-assisted media & transcription workflows.
+```bash
+npx skills add agentskillexchange/skills --skill librosa-python-audio-music-analysis-library -a claude-code
+```
 
-### ChatGPT / Custom GPTs
-Import as an action or knowledge source in your GPT configuration.
+### Cursor
 
-### Direct Download
-Download the SKILL.md file and add it to your agent's skills directory.
+```bash
+npx skills add agentskillexchange/skills --skill librosa-python-audio-music-analysis-library -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill librosa-python-audio-music-analysis-library -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install librosa-python-audio-music-analysis-library
+```
 
 ## Source
 

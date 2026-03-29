@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # ESLint Rule Violation Summarizer
 
 Runs ESLint against a JS/TS codebase, groups violations by rule and file, and produces a prioritized fix plan. Distinguishes auto-fixable violations from manual ones. Outputs Markdown for GitHub PR comments.
@@ -68,4 +67,4 @@ clawhub install eslint-rule-violation-summarizer-2
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/eslint-rule-violation-summarizer-2/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/eslint-rule-violation-summarizer-2/)

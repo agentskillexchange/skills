@@ -21,25 +21,25 @@ npx skills add agentskillexchange/skills --skill upscayl-open-source-ai-image-up
 ### Claude Code
 
 ```bash
-npx skills add upscayl-open-source-ai-image-upscaler
+npx skills add agentskillexchange/skills --skill upscayl-open-source-ai-image-upscaler -a claude-code
 ```
 
-### Goose
+### Cursor
 
 ```bash
-npx skills add upscayl-open-source-ai-image-upscaler --agent goose
+npx skills add agentskillexchange/skills --skill upscayl-open-source-ai-image-upscaler -a cursor
 ```
 
-### Cline / Roo Code
+### Codex
 
 ```bash
-npx skills add upscayl-open-source-ai-image-upscaler --agent cline
+npx skills add agentskillexchange/skills --skill upscayl-open-source-ai-image-upscaler -a codex
 ```
 
-### Custom Agent
+### OpenClaw
 
 ```bash
-npx skills add upscayl-open-source-ai-image-upscaler --agent your-agent
+clawhub install upscayl-open-source-ai-image-upscaler
 ```
 
 ## Source

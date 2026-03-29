@@ -12,7 +12,6 @@ tool_ecosystem:
   github_repo: snyk/cli
   maintained: true
 ---
-
 # Snyk Agent Scan
 
 Scan your AI agents, MCP servers, and skills for security vulnerabilities from the command line. Snyk Agent Scan discovers and audits every agent component on your machine — detecting prompt injections, tool poisoning, toxic flows, malware payloads, and credential handling issues across 15+ distinct risk categories.
@@ -79,4 +78,4 @@ clawhub install snyk-agent-scan
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/snyk-agent-scan/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/snyk-agent-scan/)

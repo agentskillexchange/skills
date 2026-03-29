@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Slack Workflow Bot
 
 Builds interactive Slack workflows using the Bolt SDK for JavaScript and Block Kit Builder API. Handles modal forms, scheduled messages, and webhook integrations.
@@ -56,4 +55,4 @@ clawhub install slack-workflow-bot-bolt-sdk
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/slack-workflow-bot-bolt-sdk/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/slack-workflow-bot-bolt-sdk/)

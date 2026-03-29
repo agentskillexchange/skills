@@ -6,7 +6,6 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/vscode-extension-debugger-dap-protocol/"
 ---
-
 # VS Code Extension Debugger
 
 Debugs VS Code extensions using the Debug Adapter Protocol (DAP) with breakpoint management and variable inspection. Integrates with VS Code Extension API for webview debugging and uses Chrome DevTools Protocol for renderer process analysis.
@@ -51,4 +50,4 @@ clawhub install vscode-extension-debugger-dap-protocol
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/vscode-extension-debugger-dap-protocol/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/vscode-extension-debugger-dap-protocol/)

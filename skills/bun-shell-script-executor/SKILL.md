@@ -6,7 +6,6 @@ framework: "Codex"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/bun-shell-script-executor/"
 ---
-
 # Bun Shell Script Executor
 
 Leverages Bun’s built-in $ shell API (Bun.Shell) to orchestrate cross-platform shell scripts from TypeScript with tagged template literals, automatic glob expansion, and piped process composition.
@@ -49,4 +48,4 @@ clawhub install bun-shell-script-executor
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/bun-shell-script-executor/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/bun-shell-script-executor/)

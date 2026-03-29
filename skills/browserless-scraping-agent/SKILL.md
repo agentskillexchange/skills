@@ -6,7 +6,6 @@ framework: "Cursor"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/browserless-scraping-agent/"
 ---
-
 # Browserless Scraping Agent
 
 Drives headless Chrome via the Browserless.io API for scraping dynamic SPAs. Uses /content, /screenshot, and /pdf endpoints with stealth mode. Manages session tokens and concurrent connection limits.
@@ -55,4 +54,4 @@ clawhub install browserless-scraping-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/browserless-scraping-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/browserless-scraping-agent/)

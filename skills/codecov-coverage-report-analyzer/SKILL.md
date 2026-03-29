@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Codecov Coverage Report Analyzer
 
 Integrates with the Codecov API v2 and codecov-cli to upload coverage reports, analyze coverage deltas, and enforce minimum thresholds. Supports lcov, cobertura, and jacoco report formats.
@@ -60,4 +59,4 @@ clawhub install codecov-coverage-report-analyzer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/codecov-coverage-report-analyzer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/codecov-coverage-report-analyzer/)

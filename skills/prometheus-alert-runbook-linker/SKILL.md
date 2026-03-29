@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Prometheus Alert Runbook Linker
 
 Links Prometheus alerting rules to operational runbooks by parsing AlertManager configurations and PrometheusRule CRDs. Validates runbook_url annotations exist and are reachable, and generates stub runbooks for undocumented alerts.
@@ -74,4 +73,4 @@ clawhub install prometheus-alert-runbook-linker
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/prometheus-alert-runbook-linker/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-alert-runbook-linker/)

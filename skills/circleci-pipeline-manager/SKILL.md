@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: circleci/circleci-docs
   maintained: true
 ---
-
 # CircleCI Pipeline Manager
 
 Configure and trigger CircleCI pipelines using the CircleCI v2 API and config.yml orbs. Manages pipeline parameters, workspace persistence, and dynamic configuration with setup workflows.
@@ -54,4 +53,4 @@ clawhub install circleci-pipeline-manager
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/circleci-pipeline-manager/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-pipeline-manager/)

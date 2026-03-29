@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # HubSpot CRM Contact Enrichment Pipeline
 
 Enriches HubSpot CRM contacts using the v3 Contacts API with batch read/update operations. Cross-references company associations via crm.associations.batchRead(), and syncs lifecycle stage transitions with custom property updates.
@@ -60,4 +59,4 @@ clawhub install hubspot-crm-contact-enrichment-pipeline
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/hubspot-crm-contact-enrichment-pipeline/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/hubspot-crm-contact-enrichment-pipeline/)

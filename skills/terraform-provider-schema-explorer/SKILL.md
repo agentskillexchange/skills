@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: hashicorp/terraform
   maintained: true
 ---
-
 # Terraform Provider Schema Explorer
 
 Explores HashiCorp Terraform provider schemas using terraform providers schema -json output. Maps resource attributes, computed fields, and cross-resource dependency references for HCL generation.
@@ -54,4 +53,4 @@ clawhub install terraform-provider-schema-explorer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/terraform-provider-schema-explorer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-provider-schema-explorer/)

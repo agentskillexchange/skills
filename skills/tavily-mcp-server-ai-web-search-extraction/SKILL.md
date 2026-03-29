@@ -6,7 +6,6 @@ framework: "MCP"
 verification: security_reviewed
 source: "https://github.com/tavily-ai/tavily-mcp"
 ---
-
 # Tavily MCP Server for AI-Powered Web Search and Extraction
 
 An official MCP server from Tavily that provides AI agents with real-time web search, page extraction, site mapping, and web crawling capabilities. Connects to Tavily's search API to deliver structured, relevant results optimized for LLM consumption.

@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # AWS CloudWatch Anomaly Runbook
 
 Executes structured diagnostic runbooks when CloudWatch Anomaly Detection triggers alarms. Uses the AWS SDK CloudWatch client (GetMetricData, DescribeAlarms) to gather context and suggest remediations.
@@ -56,4 +55,4 @@ clawhub install aws-cloudwatch-anomaly-runbook
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/aws-cloudwatch-anomaly-runbook/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/aws-cloudwatch-anomaly-runbook/)

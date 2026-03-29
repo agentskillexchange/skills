@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Dagster Data Pipeline Orchestrator
 
 Orchestrate data pipelines using Dagster, the cloud-native data orchestration platform. Define data assets as Python functions with automatic lineage tracking, scheduling, and observability.
@@ -63,4 +62,4 @@ clawhub install dagster-data-pipeline-orchestrator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/dagster-data-pipeline-orchestrator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/dagster-data-pipeline-orchestrator/)

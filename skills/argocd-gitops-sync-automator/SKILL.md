@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # ArgoCD GitOps Sync Automator
 
 Automates ArgoCD application synchronization using the ArgoCD gRPC/REST API and argocd-autopilot CLI. Manages ApplicationSets, sync waves, and health assessments for Kubernetes deployments.
@@ -55,4 +54,4 @@ clawhub install argocd-gitops-sync-automator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/argocd-gitops-sync-automator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/argocd-gitops-sync-automator/)

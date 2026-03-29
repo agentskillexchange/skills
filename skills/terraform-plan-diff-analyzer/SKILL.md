@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: hashicorp/terraform
   maintained: true
 ---
-
 # Terraform Plan Diff Analyzer
 
 Parses Terraform plan JSON output to summarize resource changes, detect destructive actions, and flag policy violations. Uses the terraform show -json command and the Terraform Cloud API to retrieve plan artifacts. Integrates with OPA (Open Policy Agent) for policy-as-code enforcement on planned changes.
@@ -54,4 +53,4 @@ clawhub install terraform-plan-diff-analyzer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/terraform-plan-diff-analyzer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-plan-diff-analyzer/)

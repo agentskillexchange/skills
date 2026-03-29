@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: hashicorp/terraform
   maintained: true
 ---
-
 # Terraform Cloud Pipeline Agent
 
 Orchestrates Terraform Cloud run pipelines via the TFC API v2 and tfe provider. Manages workspace variables, Sentinel policy checks, and cost estimation hooks with automatic plan approval workflows.
@@ -60,4 +59,4 @@ clawhub install terraform-cloud-pipeline-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/terraform-cloud-pipeline-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-cloud-pipeline-agent/)

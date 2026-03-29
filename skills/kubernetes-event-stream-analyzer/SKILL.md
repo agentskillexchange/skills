@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Kubernetes Event Stream Analyzer
 
 Watches Kubernetes event streams via the Watch API and correlates pod lifecycle events with resource metrics from Metrics Server. Detects CrashLoopBackOff patterns and OOMKilled signals for automated triage.
@@ -59,4 +58,4 @@ clawhub install kubernetes-event-stream-analyzer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/kubernetes-event-stream-analyzer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-event-stream-analyzer/)

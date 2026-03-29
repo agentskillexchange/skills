@@ -12,7 +12,6 @@ tool_ecosystem:
   license: BSD-3-Clause
   maintained: true
 ---
-
 # ScrapyCloud Job Manager
 
 Manages Scrapy spider deployments and job scheduling on ScrapyCloud via the Scrapinghub API. Handles spider argument injection, job prioritization, and item export to S3 or BigQuery.
@@ -61,4 +60,4 @@ clawhub install scrapycloud-job-manager
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/scrapycloud-job-manager/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/scrapycloud-job-manager/)

@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # ShellCheck Shell Script Static Analyzer
 
 Run static analysis on bash and shell scripts using ShellCheck to detect syntax errors, semantic pitfalls, and portability issues. Produces machine-readable diagnostics with fix suggestions.
@@ -63,4 +62,4 @@ clawhub install shellcheck-shell-script-static-analyzer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/shellcheck-shell-script-static-analyzer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/shellcheck-shell-script-static-analyzer/)

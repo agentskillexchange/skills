@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Tekton Pipeline Debugger
 
 Debugs Tekton pipeline failures by querying TaskRun and PipelineRun status via kubectl and the Tekton Results API. Extracts step container logs, identifies parameter resolution errors, and suggests workspace volume fixes.
@@ -73,4 +72,4 @@ clawhub install tekton-pipeline-debugger
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/tekton-pipeline-debugger/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/tekton-pipeline-debugger/)

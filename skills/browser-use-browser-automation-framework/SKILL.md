@@ -6,7 +6,6 @@ framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/browser-use/browser-use"
 ---
-
 # browser-use Browser Automation Framework
 
 Use browser-use to turn natural-language web tasks into repeatable browser automation backed by Playwright and agent loops. This skill helps an agent open sites, inspect page state, click, type, extract data, and recover from common UI changes with a real automation framework instead of brittle one-off scripts.
@@ -49,4 +48,4 @@ clawhub install browser-use-browser-automation-framework
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/browser-use-browser-automation-framework/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/browser-use-browser-automation-framework/)

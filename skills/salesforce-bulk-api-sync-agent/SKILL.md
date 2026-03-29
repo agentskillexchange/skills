@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Salesforce Bulk API Sync Agent
 
 Perform high-volume data synchronization with Salesforce using the Bulk API 2.0 for CSV-based upsert, delete, and query operations. Handles OAuth 2.0 JWT bearer flow authentication via jsforce.
@@ -64,4 +63,4 @@ clawhub install salesforce-bulk-api-sync-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/salesforce-bulk-api-sync-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/salesforce-bulk-api-sync-agent/)

@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Dockerfile Security Hardening Advisor
 
 Audits Dockerfiles for security vulnerabilities using Hadolint and Trivy container scanner. Recommends hardening steps based on CIS Docker Benchmark and Snyk container advisories.
@@ -61,4 +60,4 @@ clawhub install dockerfile-security-hardening-advisor
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/dockerfile-security-hardening-advisor/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/dockerfile-security-hardening-advisor/)

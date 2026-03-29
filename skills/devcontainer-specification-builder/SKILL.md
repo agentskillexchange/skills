@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Devcontainer Specification Builder
 
 Generates dev container specifications with feature composition and lifecycle hooks. Uses the Dev Container Specification API, OCI feature registry, and devcontainer CLI for container-based development environments.
@@ -59,4 +58,4 @@ clawhub install devcontainer-specification-builder
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/devcontainer-specification-builder/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/devcontainer-specification-builder/)

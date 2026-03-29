@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: gitlabhq/gitlabhq
   maintained: true
 ---
-
 # GitLab CI Template Library
 
 Creates reusable GitLab CI/CD template libraries using include:template and extends keywords. Manages pipeline configurations with rules:changes path filtering, needs DAG dependencies, and Auto DevOps customization via CI/CD variables.
@@ -60,4 +59,4 @@ clawhub install gitlab-ci-template-library
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/gitlab-ci-template-library/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/gitlab-ci-template-library/)

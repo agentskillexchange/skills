@@ -12,7 +12,6 @@ tool_ecosystem:
   github_repo: getsentry/sentry
   maintained: true
 ---
-
 # Sentry for AI
 
 Observability and debugging support for AI-assisted application workflows.
@@ -67,4 +66,4 @@ clawhub install sentry-for-ai
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/sentry-for-ai/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/sentry-for-ai/)

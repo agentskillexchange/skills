@@ -5,7 +5,6 @@ category: "Media & Transcription"
 verification: listed
 source: "https://github.com/mltframework/mlt"
 ---
-
 # MLT Multimedia Framework for Video Editing and Processing
 
 MLT is an open-source LGPL multimedia framework designed for video editing. It provides a toolkit and the melt command-line tool for non-linear video editing, transitions, effects, and rendering. MLT powers Shotcut, Kdenlive, and other video editors.
@@ -16,20 +15,34 @@ This skill provides agent capabilities for MLT Multimedia Framework for Video Ed
 
 ## Installation
 
-Install this skill using one of these methods:
+### Any Agent
 
-### ClawHub (recommended)
 ```bash
-clawhub install mlt-multimedia-framework-video-editing-processing
+npx skills add agentskillexchange/skills --skill mlt-multimedia-framework-video-editing-processing
 ```
 
-### Manual Download
-Download the SKILL.md file and place it in your agent's skills directory.
+### Claude Code
 
-### Git Clone
 ```bash
-git clone https://github.com/agentskillexchange/skills.git
-cp -r skills/skills/mlt-multimedia-framework-video-editing-processing /your/skills/directory/
+npx skills add agentskillexchange/skills --skill mlt-multimedia-framework-video-editing-processing -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill mlt-multimedia-framework-video-editing-processing -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill mlt-multimedia-framework-video-editing-processing -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install mlt-multimedia-framework-video-editing-processing
 ```
 
 ## Source

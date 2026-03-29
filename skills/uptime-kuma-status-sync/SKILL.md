@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Uptime Kuma Status Sync
 
 Interfaces with the Uptime Kuma Socket.IO API to monitor service health checks. Syncs status page data to Statuspage.io via Atlassian REST API and triggers incident workflows in Rootly.
@@ -60,4 +59,4 @@ clawhub install uptime-kuma-status-sync
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/uptime-kuma-status-sync/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/uptime-kuma-status-sync/)

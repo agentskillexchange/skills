@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: WordPress/WordPress
   maintained: true
 ---
-
 # WPGraphQL Schema Extension Builder
 
 Builds and documents WPGraphQL extensions with hooks such as `graphql_register_types`, `register_graphql_field`, and `register_graphql_object_type`. Ideal for exposing custom fields, computed properties, and relationships in a way that stays aligned with WordPress data models and client queries.
@@ -58,4 +57,4 @@ clawhub install wpgraphql-schema-extension-builder
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/wpgraphql-schema-extension-builder/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/wpgraphql-schema-extension-builder/)

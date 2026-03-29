@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: hashicorp/terraform
   maintained: true
 ---
-
 # Terraform Module Scaffolder
 
 Scaffolds Terraform modules using the HCL SDK with provider schema introspection and automatic variable extraction. Generates documentation via terraform-docs API, validates with tflint rules, and publishes to Terraform Registry via API.
@@ -56,4 +55,4 @@ clawhub install terraform-module-scaffolder-hcl-sdk
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/terraform-module-scaffolder-hcl-sdk/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-module-scaffolder-hcl-sdk/)

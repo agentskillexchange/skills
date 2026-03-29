@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Docker Compose Stack Analyzer
 
 Analyzes Docker Compose configurations for security, networking, and resource optimization using the Docker Engine API and Compose specification parser. Detects misconfigurations and dependency issues.
@@ -55,4 +54,4 @@ clawhub install docker-compose-stack-analyzer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/docker-compose-stack-analyzer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/docker-compose-stack-analyzer/)

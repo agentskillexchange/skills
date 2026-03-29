@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: false
 ---
-
 # PagerDuty Incident Runbook
 
 Responds to PagerDuty incidents via the PagerDuty Events API v2 and REST API. Automatically executes diagnostic runbooks based on service and alert routing keys, and posts resolution notes back to the incident timeline.
@@ -60,4 +59,4 @@ clawhub install pagerduty-incident-runbook
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/pagerduty-incident-runbook/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/pagerduty-incident-runbook/)

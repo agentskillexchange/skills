@@ -12,7 +12,6 @@ tool_ecosystem:
   github_repo: elastic/elasticsearch
   maintained: true
 ---
-
 # Elasticsearch MCP
 
 Elasticsearch MCP is built around Elasticsearch search and analytics engine. The underlying ecosystem is represented by elastic/elasticsearch (76,387+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like Query DSL, aggregations, indices, shards, mappings, cluster health and preserving the […]
@@ -67,4 +66,4 @@ clawhub install elasticsearch-mcp
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/elasticsearch-mcp/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/elasticsearch-mcp/)

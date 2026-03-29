@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: false
 ---
-
 # AsyncAPI Event Catalog Builder
 
 Generates event-driven architecture documentation from AsyncAPI 3.0 specifications. Uses the AsyncAPI parser-js library to extract channels, message schemas, and server bindings for Kafka and RabbitMQ.
@@ -56,4 +55,4 @@ clawhub install asyncapi-event-catalog-builder
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/asyncapi-event-catalog-builder/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/asyncapi-event-catalog-builder/)

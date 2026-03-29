@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: false
 ---
-
 # Incident Postmortem Generator
 
 Generates structured incident postmortems by aggregating data from PagerDuty incidents API, Slack channel history, and Grafana dashboard snapshots. Produces blameless postmortem documents following the Google SRE template format.
@@ -74,4 +73,4 @@ clawhub install incident-postmortem-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/incident-postmortem-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/incident-postmortem-generator/)

@@ -12,7 +12,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Jenkins Pipeline Failure Analyzer
 
 Queries the Jenkins REST API /job/{name}/lastFailedBuild/api/json and /consoleText to diagnose pipeline failures. Parses Blue Ocean API /blue/rest/organizations for stage-level timing and error classification.
@@ -55,4 +54,4 @@ clawhub install jenkins-pipeline-failure-analyzer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/jenkins-pipeline-failure-analyzer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-pipeline-failure-analyzer/)

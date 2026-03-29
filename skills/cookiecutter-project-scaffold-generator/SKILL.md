@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Cookiecutter Project Scaffold Generator
 
 Generates project scaffolds from Cookiecutter templates with Jinja2 variable interpolation. Supports post-generation hooks, conditional file inclusion, and template composition from multiple sources.
@@ -55,4 +54,4 @@ clawhub install cookiecutter-project-scaffold-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/cookiecutter-project-scaffold-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/cookiecutter-project-scaffold-generator/)

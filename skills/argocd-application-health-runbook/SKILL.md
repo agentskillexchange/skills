@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # ArgoCD Application Health Runbook
 
 Diagnoses ArgoCD application sync failures and degraded states using the ArgoCD REST API and argocd CLI. Queries /api/v1/applications/{name} for sync status, resource health, and operation state. Provides automated remediation steps for OutOfSync, Degraded, and Missing resource conditions.
@@ -55,4 +54,4 @@ clawhub install argocd-application-health-runbook
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/argocd-application-health-runbook/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/argocd-application-health-runbook/)

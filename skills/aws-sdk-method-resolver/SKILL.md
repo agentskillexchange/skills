@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # AWS SDK Method Resolver
 
 Resolves AWS SDK v3 client commands and service endpoint signatures using @aws-sdk/client-* packages. Maps IAM permission requirements to specific API calls with request/response type definitions.
@@ -56,4 +55,4 @@ clawhub install aws-sdk-method-resolver
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/aws-sdk-method-resolver/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/aws-sdk-method-resolver/)

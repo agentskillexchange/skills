@@ -12,29 +12,35 @@ Mermaid CLI (mmdc) is the command-line interface for the Mermaid diagramming lib
 
 ## Installation
 
-Install this skill using one of the following methods:
+### Any Agent
 
-### OpenClaw CLI
 ```bash
-openclaw skills install mermaid-cli-diagram-as-code-renderer
+npx skills add agentskillexchange/skills --skill mermaid-cli-diagram-as-code-renderer
 ```
 
-### ClawHub CLI
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill mermaid-cli-diagram-as-code-renderer -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill mermaid-cli-diagram-as-code-renderer -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill mermaid-cli-diagram-as-code-renderer -a codex
+```
+
+### OpenClaw
+
 ```bash
 clawhub install mermaid-cli-diagram-as-code-renderer
 ```
-
-### Manual Installation
-Download from [Agent Skill Exchange](https://agentskillexchange.com/skills/mermaid-cli-diagram-as-code-renderer/) and follow the setup instructions.
-
-### Git Clone
-```bash
-git clone https://github.com/agentskillexchange/skills.git
-cp -r skills/skills/mermaid-cli-diagram-as-code-renderer ~/.openclaw/workspace/skills/
-```
-
-### Marketplace
-Browse and install from [Agent Skill Exchange](https://agentskillexchange.com/skills/mermaid-cli-diagram-as-code-renderer/)
 
 ## Source
 

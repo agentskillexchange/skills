@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # GraphQL Schema Stitcher
 
 Merges multiple GraphQL schemas into a unified federated gateway using Apollo Federation v2 and graphql-tools stitchSchemas. Validates composed schemas with rover graph check.
@@ -56,4 +55,4 @@ clawhub install graphql-schema-stitcher
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/graphql-schema-stitcher/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/graphql-schema-stitcher/)

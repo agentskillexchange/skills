@@ -6,7 +6,6 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/semrush-keyword-research-agent-api-v3/"
 ---
-
 # SEMrush Keyword Research Agent
 
 Performs keyword research using SEMrush API v3 with domain analytics, keyword difficulty scoring, and SERP feature detection. Integrates with Google Search Console API for click-through rate analysis and content gap identification.
@@ -51,4 +50,4 @@ clawhub install semrush-keyword-research-agent-api-v3
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/semrush-keyword-research-agent-api-v3/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/semrush-keyword-research-agent-api-v3/)

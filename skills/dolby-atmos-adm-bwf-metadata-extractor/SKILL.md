@@ -6,7 +6,6 @@ framework: "Gemini"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/dolby-atmos-adm-bwf-metadata-extractor/"
 ---
-
 # Dolby Atmos ADM-BWF Metadata Extractor
 
 Extracts and validates Audio Definition Model (ADM) metadata from Broadcast Wave Format (BWF) files using the libadm C++ library and EBU Tech 3364 spec for Dolby Atmos immersive audio object positions.
@@ -49,4 +48,4 @@ clawhub install dolby-atmos-adm-bwf-metadata-extractor
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/dolby-atmos-adm-bwf-metadata-extractor/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/dolby-atmos-adm-bwf-metadata-extractor/)

@@ -6,7 +6,6 @@ framework: "ChatGPT Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/microsoft-graph-email-digest-builder/"
 ---
-
 # Microsoft Graph Email Digest Builder
 
 Generates daily email digests from Microsoft 365 mailboxes using the Microsoft Graph API /me/messages endpoint. Groups emails by sender, thread, and priority using the inferenceClassification properties.
@@ -49,4 +48,4 @@ clawhub install microsoft-graph-email-digest-builder
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/microsoft-graph-email-digest-builder/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/microsoft-graph-email-digest-builder/)

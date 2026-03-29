@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: circleci/circleci-docs
   maintained: true
 ---
-
 # CircleCI Orb Pipeline Debugger
 
 Diagnoses CircleCI orb configuration errors and pipeline failures using the CircleCI v2 API. Parses orb YAML schemas, detects version pinning issues, and suggests fixes for executor and job dependency problems.
@@ -54,4 +53,4 @@ clawhub install circleci-orb-pipeline-debugger
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/circleci-orb-pipeline-debugger/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-orb-pipeline-debugger/)

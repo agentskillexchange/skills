@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # DALL-E Batch Image Generator
 
 Generates and manages batch image creation jobs using the OpenAI Images API /v1/images/generations endpoint. Supports DALL-E 3 with size, quality, and style parameters plus automatic prompt revision tracking.
@@ -56,4 +55,4 @@ clawhub install dalle-batch-image-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/dalle-batch-image-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/dalle-batch-image-generator/)

@@ -6,7 +6,6 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/go-task/task"
 ---
-
 # Task Taskfile Build Automation Runner
 
 Automate build workflows with Task (go-task), a modern cross-platform task runner that uses YAML-based Taskfiles. Replaces Makefiles with a cleaner, simpler syntax for defining and running project commands.
@@ -57,4 +56,4 @@ clawhub install task-taskfile-build-automation-runner
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/task-taskfile-build-automation-runner/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/task-taskfile-build-automation-runner/)

@@ -6,7 +6,6 @@ framework: "Codex"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/package-vuln-scanner-osv-api/"
 ---
-
 # Package Vulnerability Scanner
 
 Scans npm, PyPI, and Go module dependencies for known vulnerabilities using the OSV.dev API and GitHub Advisory Database. Generates SBOM reports in CycloneDX format.
@@ -49,4 +48,4 @@ clawhub install package-vuln-scanner-osv-api
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/package-vuln-scanner-osv-api/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/package-vuln-scanner-osv-api/)

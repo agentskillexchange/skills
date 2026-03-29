@@ -12,7 +12,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Jenkins Groovy Shared Library Auditor
 
 Audits Jenkins shared library Groovy scripts for security anti-patterns using the Script Security Plugin API. Detects unapproved method signatures, sandbox escapes, and credential leakage in pipeline code.
@@ -59,4 +58,4 @@ clawhub install jenkins-groovy-shared-library-auditor
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/jenkins-groovy-shared-library-auditor/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-groovy-shared-library-auditor/)

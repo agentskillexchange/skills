@@ -12,7 +12,6 @@ tool_ecosystem:
   license: GPL-3.0
   maintained: true
 ---
-
 # Ansible Playbook Dry-Run Analyzer
 
 Executes ansible-playbook –check –diff mode and parses the JSON callback output using the ansible.posix.json callback plugin. Identifies tasks that would change, predicts idempotency issues, and generates change impact reports.
@@ -61,4 +60,4 @@ clawhub install ansible-playbook-dry-run-analyzer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/ansible-playbook-dry-run-analyzer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/ansible-playbook-dry-run-analyzer/)

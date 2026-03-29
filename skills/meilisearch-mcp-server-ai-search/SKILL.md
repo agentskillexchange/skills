@@ -6,7 +6,6 @@ framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/meilisearch/meilisearch-mcp"
 ---
-
 # Meilisearch MCP Server for AI-Powered Search Integration
 
 Official Model Context Protocol server that connects LLMs to Meilisearch for lightning-fast search, index management, and document operations via natural language. Enables AI agents to manage search infrastructure through conversation.

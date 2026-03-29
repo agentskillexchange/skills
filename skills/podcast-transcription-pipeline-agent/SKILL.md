@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Podcast Transcription Pipeline
 
 Transcribes podcast episodes using OpenAI Whisper API with speaker diarization via pyannote.audio. Exports formatted transcripts to SRT, VTT, and searchable JSON with timestamped segments.
@@ -56,4 +55,4 @@ clawhub install podcast-transcription-pipeline-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/podcast-transcription-pipeline-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/podcast-transcription-pipeline-agent/)

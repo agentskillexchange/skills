@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # ESLint Rule Architect
 
 Creates custom ESLint rules and shareable configs using the ESLint RuleTester API and @typescript-eslint/utils. Generates AST visitor patterns with full TypeScript type-checking support via parserServices.
@@ -60,4 +59,4 @@ clawhub install eslint-rule-architect-2
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/eslint-rule-architect-2/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/eslint-rule-architect-2/)

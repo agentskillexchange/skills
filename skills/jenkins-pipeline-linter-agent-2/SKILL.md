@@ -12,7 +12,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Jenkins Pipeline Linter Agent
 
 Validates Jenkinsfile syntax using the Jenkins Pipeline Linter REST API before commits. Integrates with jenkins-client npm SDK to authenticate and submit declarative or scripted pipelines for server-side validation.
@@ -55,4 +54,4 @@ clawhub install jenkins-pipeline-linter-agent-2
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/jenkins-pipeline-linter-agent-2/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-pipeline-linter-agent-2/)

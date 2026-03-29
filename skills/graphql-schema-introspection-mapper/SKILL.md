@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # GraphQL Schema Introspection Mapper
 
 Introspects GraphQL APIs via the __schema query and maps type relationships, deprecated fields, and circular references. Generates SDL exports, TypeScript types via graphql-codegen, and schema diff reports between versions.
@@ -60,4 +59,4 @@ clawhub install graphql-schema-introspection-mapper
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/graphql-schema-introspection-mapper/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/graphql-schema-introspection-mapper/)

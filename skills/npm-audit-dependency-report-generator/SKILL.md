@@ -8,7 +8,6 @@ source: "https://agentskillexchange.com/skills/npm-audit-dependency-report-gener
 tool_ecosystem:
   tool: jira
 ---
-
 # npm Audit Dependency Report Generator
 
 Generates comprehensive vulnerability reports from npm audit JSON output and the OSV (Open Source Vulnerabilities) API. Parses npm audit –json results, enriches each CVE with CVSS scores from the NVD REST API, and groups findings by severity. Produces SARIF output compatible with GitHub Advanced Security.
@@ -51,4 +50,4 @@ clawhub install npm-audit-dependency-report-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/npm-audit-dependency-report-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/npm-audit-dependency-report-generator/)

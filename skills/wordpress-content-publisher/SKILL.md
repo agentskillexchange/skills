@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: WordPress/WordPress
   maintained: true
 ---
-
 # WordPress Content Publisher
 
 Structured publishing workflow for WordPress drafts, metadata, and content operations.
@@ -66,4 +65,4 @@ clawhub install wordpress-content-publisher
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/wordpress-content-publisher/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/wordpress-content-publisher/)

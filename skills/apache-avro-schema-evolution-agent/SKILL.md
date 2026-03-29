@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: false
 ---
-
 # Apache Avro Schema Evolution Agent
 
 Manages Apache Avro schema evolution with compatibility checking via Confluent Schema Registry API. Validates forward, backward, and full compatibility across schema versions automatically.
@@ -56,4 +55,4 @@ clawhub install apache-avro-schema-evolution-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/apache-avro-schema-evolution-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/apache-avro-schema-evolution-agent/)

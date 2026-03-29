@@ -13,7 +13,6 @@ tool_ecosystem:
   license: BSD-3-Clause
   maintained: true
 ---
-
 # Scrapy Spider Data Pipeline
 
 Builds and manages Scrapy web scraping spiders with custom item pipelines. Supports Splash rendering for JavaScript pages, rotating proxies via scrapy-rotating-proxies, and export to MongoDB or Elasticsearch.
@@ -62,4 +61,4 @@ clawhub install scrapy-spider-data-pipeline
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/scrapy-spider-data-pipeline/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/scrapy-spider-data-pipeline/)

@@ -6,7 +6,6 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/gitbutlerapp/gitbutler"
 ---
-
 # GitButler Virtual Branch Git Client
 
 GitButler is a modern Git client built in Rust and Svelte that introduces virtual branches, allowing developers to work on multiple branches simultaneously without stashing or switching. It provides a visual interface for managing concurrent work streams on a single working directory.

@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Prometheus Alert Rule Tester
 
 Tests Prometheus alerting rules against historical metrics using promtool and the Prometheus HTTP API query_range endpoint. Validates PromQL expressions, simulates alert firing, and checks routing configurations.
@@ -60,4 +59,4 @@ clawhub install prometheus-alert-rule-tester
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/prometheus-alert-rule-tester/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-alert-rule-tester/)

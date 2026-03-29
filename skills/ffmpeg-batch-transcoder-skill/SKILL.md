@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: FFmpeg/FFmpeg
   maintained: true
 ---
-
 # FFmpeg Batch Transcoder
 
 Batch transcode media files using FFmpeg CLI with preset profiles for web, mobile, and broadcast delivery. Supports hardware-accelerated encoding via NVENC/VAAPI and automated quality analysis with VMAF scoring.
@@ -60,4 +59,4 @@ clawhub install ffmpeg-batch-transcoder-skill
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/ffmpeg-batch-transcoder-skill/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/ffmpeg-batch-transcoder-skill/)

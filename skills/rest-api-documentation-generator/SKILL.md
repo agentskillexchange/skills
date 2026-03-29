@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # REST API Documentation Generator
 
 Generates interactive API documentation from code annotations using swagger-jsdoc for Express.js routes and the Redoc (@redocly/cli) renderer. Supports OpenAPI 3.1 output with JSON Schema $ref resolution via @apidevtools/json-schema-ref-parser.
@@ -62,4 +61,4 @@ clawhub install rest-api-documentation-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/rest-api-documentation-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/rest-api-documentation-generator/)

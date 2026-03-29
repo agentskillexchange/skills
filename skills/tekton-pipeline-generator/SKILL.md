@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Tekton Pipeline Generator
 
 Scaffolds Tekton CI/CD pipelines and tasks using the Tekton Hub API and kubectl. Generates PipelineRun manifests with workspace bindings, result propagation, and sidecar configurations.
@@ -61,4 +60,4 @@ clawhub install tekton-pipeline-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/tekton-pipeline-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/tekton-pipeline-generator/)

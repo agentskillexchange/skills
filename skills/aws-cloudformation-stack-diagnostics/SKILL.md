@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT-0
   maintained: true
 ---
-
 # AWS CloudFormation Stack Diagnostics
 
 Diagnoses failed AWS CloudFormation stack operations using the AWS CLI (aws cloudformation describe-stack-events) and cfn-lint validator. Traces resource creation failures, rollback causes, and nested stack dependency chains.
@@ -62,4 +61,4 @@ clawhub install aws-cloudformation-stack-diagnostics
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/aws-cloudformation-stack-diagnostics/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/aws-cloudformation-stack-diagnostics/)

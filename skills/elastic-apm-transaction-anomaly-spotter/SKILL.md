@@ -12,7 +12,6 @@ tool_ecosystem:
   github_repo: elastic/elasticsearch
   maintained: true
 ---
-
 # Elastic APM Transaction Anomaly Spotter
 
 Queries Elastic APM transaction data through the Elasticsearch REST API to surface latency anomalies and throughput drops. Uses the _search aggregation API with percentile and moving_avg pipelines.
@@ -55,4 +54,4 @@ clawhub install elastic-apm-transaction-anomaly-spotter
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/elastic-apm-transaction-anomaly-spotter/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/elastic-apm-transaction-anomaly-spotter/)

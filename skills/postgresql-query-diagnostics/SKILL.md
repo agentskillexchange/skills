@@ -9,7 +9,6 @@ tool_ecosystem:
   tool: postgresql
   npm_weekly_downloads: 21413502
 ---
-
 # PostgreSQL Query Diagnostics
 
 Diagnoses slow PostgreSQL queries using pg_stat_statements, pg_stat_activity, and EXPLAIN ANALYZE output parsing. Integrates with the pgBadger log analyzer and pg_stat_user_tables for index recommendation.
@@ -58,4 +57,4 @@ clawhub install postgresql-query-diagnostics
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/postgresql-query-diagnostics/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/postgresql-query-diagnostics/)

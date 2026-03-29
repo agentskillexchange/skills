@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # ESLint Auto-Fixer
 
 Applies ESLint fixes automatically using the ESLint Node.js API with flat config support. Handles rule conflicts across TypeScript-ESLint and eslint-plugin-react. Generates fix reports in SARIF format.
@@ -60,4 +59,4 @@ clawhub install eslint-auto-fixer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/eslint-auto-fixer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/eslint-auto-fixer/)

@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: circleci/circleci-docs
   maintained: true
 ---
-
 # CircleCI Pipeline Optimizer
 
 Interfaces with CircleCI API v2 /pipeline and /workflow endpoints to analyze build performance. Identifies slow jobs via timing data, recommends Docker layer caching, and generates optimized .circleci/config.yml with parallelism settings.
@@ -54,4 +53,4 @@ clawhub install circleci-pipeline-optimizer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/circleci-pipeline-optimizer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-pipeline-optimizer/)

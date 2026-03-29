@@ -6,7 +6,6 @@ framework: "ChatGPT Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/woocommerce-webhook-delivery-inspector/"
 ---
-
 # WooCommerce Webhook Delivery Inspector
 
 Inspects WooCommerce webhook reliability through the `WC_Webhook` model, Action Scheduler queues, and REST endpoints such as `/wp-json/wc/v3/webhooks`. Great for tracing failed deliveries, replay patterns, and event coverage across order, product, and customer workflows.
@@ -53,4 +52,4 @@ clawhub install woocommerce-webhook-delivery-inspector
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/woocommerce-webhook-delivery-inspector/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/woocommerce-webhook-delivery-inspector/)

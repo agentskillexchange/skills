@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # ArgoCD GitOps Sync Controller
 
 Manages ArgoCD Application and ApplicationSet resources for Kubernetes GitOps deployments. Uses the ArgoCD REST API and argocd CLI to automate sync waves, health checks, and progressive rollout configurations.
@@ -59,4 +58,4 @@ clawhub install argocd-gitops-sync-controller
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/argocd-gitops-sync-controller/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/argocd-gitops-sync-controller/)

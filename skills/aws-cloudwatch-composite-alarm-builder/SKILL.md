@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # AWS CloudWatch Composite Alarm Builder
 
 Creates and manages AWS CloudWatch composite alarms using the CloudWatch PutCompositeAlarm API. Builds alarm rule expressions from existing metric alarms with AND/OR/NOT logic for multi-signal alerting.
@@ -56,4 +55,4 @@ clawhub install aws-cloudwatch-composite-alarm-builder
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/aws-cloudwatch-composite-alarm-builder/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/aws-cloudwatch-composite-alarm-builder/)

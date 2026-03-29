@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Swagger OpenAPI Schema Validator
 
 Validates and lints OpenAPI 3.1 specifications using Spectral ruleset engine and swagger-parser. Detects breaking changes between API versions using oasdiff comparison tool.
@@ -56,4 +55,4 @@ clawhub install swagger-openapi-schema-validator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/swagger-openapi-schema-validator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/swagger-openapi-schema-validator/)

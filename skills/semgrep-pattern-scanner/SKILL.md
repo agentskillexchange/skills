@@ -12,7 +12,6 @@ tool_ecosystem:
   license: LGPL-2.1
   maintained: true
 ---
-
 # Semgrep Pattern Scanner
 
 Executes Semgrep CLI with custom YAML rules and the Semgrep Registry API to detect anti-patterns, vulnerabilities, and taint tracking violations. Outputs SARIF-formatted results for GitHub Security tab integration.
@@ -55,4 +54,4 @@ clawhub install semgrep-pattern-scanner
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/semgrep-pattern-scanner/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/semgrep-pattern-scanner/)

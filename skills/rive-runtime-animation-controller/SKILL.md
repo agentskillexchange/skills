@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Rive Runtime Animation Controller
 
 Controls Rive (.riv) interactive animations at runtime using @rive-app/canvas-advanced, manages state machine inputs, and synchronizes animation states with application data via the Rive WASM runtime.
@@ -56,4 +55,4 @@ clawhub install rive-runtime-animation-controller
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/rive-runtime-animation-controller/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/rive-runtime-animation-controller/)

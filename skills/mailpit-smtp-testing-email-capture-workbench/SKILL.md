@@ -6,7 +6,6 @@ framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://mailpit.axllent.org/"
 ---
-
 # Mailpit SMTP Testing and Email Capture Workbench
 
 This skill uses Mailpit as a safe SMTP sink for development, QA, and automated test runs. It helps teams capture, inspect, search, and validate transactional email without sending anything to real inboxes.

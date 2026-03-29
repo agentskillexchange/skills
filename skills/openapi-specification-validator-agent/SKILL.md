@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # OpenAPI Specification Validator
 
 Validates and lints OpenAPI 3.x specifications using swagger-parser, spectral, and openapi-typescript. Generates type-safe client SDKs and detects breaking API changes via oasdiff.
@@ -56,4 +55,4 @@ clawhub install openapi-specification-validator-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/openapi-specification-validator-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/openapi-specification-validator-agent/)

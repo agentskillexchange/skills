@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # OWASP ZAP Scanner Agent
 
 Integrates the OWASP ZAP API to run automated DAST scans against web applications. Parses ZAP JSON reports, triages alerts by CVSS severity, and generates remediation tickets via Jira REST API.
@@ -59,4 +58,4 @@ clawhub install owasp-zap-scanner-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/owasp-zap-scanner-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/owasp-zap-scanner-agent/)

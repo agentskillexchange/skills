@@ -21,25 +21,25 @@ npx skills add agentskillexchange/skills --skill rembg-ai-background-removal-cli
 ### Claude Code
 
 ```bash
-npx skills add rembg-ai-background-removal-cli
+npx skills add agentskillexchange/skills --skill rembg-ai-background-removal-cli -a claude-code
 ```
 
-### Goose
+### Cursor
 
 ```bash
-npx skills add rembg-ai-background-removal-cli --agent goose
+npx skills add agentskillexchange/skills --skill rembg-ai-background-removal-cli -a cursor
 ```
 
-### Cline / Roo Code
+### Codex
 
 ```bash
-npx skills add rembg-ai-background-removal-cli --agent cline
+npx skills add agentskillexchange/skills --skill rembg-ai-background-removal-cli -a codex
 ```
 
-### Custom Agent
+### OpenClaw
 
 ```bash
-npx skills add rembg-ai-background-removal-cli --agent your-agent
+clawhub install rembg-ai-background-removal-cli
 ```
 
 ## Source

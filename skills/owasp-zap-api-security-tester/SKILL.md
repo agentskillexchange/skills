@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # OWASP ZAP API Security Tester
 
 Runs automated DAST scans against REST and GraphQL APIs using OWASP ZAP daemon API. Detects injection flaws, broken auth, and CORS misconfigurations with detailed remediation steps.
@@ -61,4 +60,4 @@ clawhub install owasp-zap-api-security-tester
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/owasp-zap-api-security-tester/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/owasp-zap-api-security-tester/)

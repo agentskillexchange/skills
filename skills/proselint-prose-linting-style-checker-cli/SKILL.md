@@ -12,24 +12,35 @@ proselint is a Python CLI tool that lints English prose for style and usage issu
 
 ## Installation
 
-Install this skill using one of the following methods:
+### Any Agent
 
-### OpenClaw CLI
 ```bash
-openclaw skills install proselint-prose-linting-style-checker-cli
+npx skills add agentskillexchange/skills --skill proselint-prose-linting-style-checker-cli
 ```
 
-### Claude Desktop (MCP)
-Add the skill server to your Claude Desktop configuration to use proselint Prose Linting and Style Checker CLI capabilities.
+### Claude Code
 
-### Cursor / Windsurf
-Add as an agent skill in your IDE settings for AI-assisted content writing & seo workflows.
+```bash
+npx skills add agentskillexchange/skills --skill proselint-prose-linting-style-checker-cli -a claude-code
+```
 
-### ChatGPT / Custom GPTs
-Import as an action or knowledge source in your GPT configuration.
+### Cursor
 
-### Direct Download
-Download the SKILL.md file and add it to your agent's skills directory.
+```bash
+npx skills add agentskillexchange/skills --skill proselint-prose-linting-style-checker-cli -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill proselint-prose-linting-style-checker-cli -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install proselint-prose-linting-style-checker-cli
+```
 
 ## Source
 

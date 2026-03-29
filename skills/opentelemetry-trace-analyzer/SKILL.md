@@ -12,7 +12,6 @@ tool_ecosystem:
   license: AGPL-3.0
   maintained: true
 ---
-
 # OpenTelemetry Trace Analyzer
 
 Queries distributed traces from Jaeger and Tempo via their gRPC and HTTP APIs. Identifies latency bottlenecks using OpenTelemetry Collector processors and correlates with Loki log streams.
@@ -59,4 +58,4 @@ clawhub install opentelemetry-trace-analyzer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/opentelemetry-trace-analyzer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/opentelemetry-trace-analyzer/)

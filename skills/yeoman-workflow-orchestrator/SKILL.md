@@ -6,7 +6,6 @@ framework: "Gemini"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/yeoman-workflow-orchestrator/"
 ---
-
 # Yeoman Workflow Orchestrator
 
 Orchestrates Yeoman generator workflows with composable sub-generators and mem-fs-editor file transformations. Manages generator dependencies via yo env and supports custom inquirer.js prompt chains.
@@ -49,4 +48,4 @@ clawhub install yeoman-workflow-orchestrator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/yeoman-workflow-orchestrator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/yeoman-workflow-orchestrator/)

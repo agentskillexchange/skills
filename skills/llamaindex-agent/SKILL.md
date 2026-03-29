@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # LlamaIndex Agent
 
 LlamaIndex Agent is built around LlamaIndex framework for LLM data access. The underlying ecosystem is represented by run-llama/llama_index (47,942+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like indexes, readers, retrievers, query engines, agents, embeddings, nodes and preserving […]
@@ -68,4 +67,4 @@ clawhub install llamaindex-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/llamaindex-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/llamaindex-agent/)

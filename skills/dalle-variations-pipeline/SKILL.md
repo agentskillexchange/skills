@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # DALL-E Variations Pipeline
 
 Generates image variations and edits using the OpenAI Images API (DALL-E 3 and gpt-image-1). Manages prompt engineering for consistent style, handles mask-based inpainting, and outputs multiple sizes with quality presets.
@@ -62,4 +61,4 @@ clawhub install dalle-variations-pipeline
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/dalle-variations-pipeline/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/dalle-variations-pipeline/)

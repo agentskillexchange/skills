@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # GraphQL Schema Introspector
 
 Performs GraphQL schema introspection using the graphql-js reference implementation and Apollo Client devtools protocol. Generates type documentation, query complexity analysis, and schema diff reports between API versions.
@@ -62,4 +61,4 @@ clawhub install graphql-schema-introspector
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/graphql-schema-introspector/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/graphql-schema-introspector/)

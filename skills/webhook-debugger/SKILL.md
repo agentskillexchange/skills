@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Webhook Debugger
 
 Webhook Debugger is built around Stripe payments platform. The underlying ecosystem is represented by stripe/stripe-node (4,377+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like charges, payment intents, subscriptions, billing, payouts, webhooks, reports and preserving the operational context […]
@@ -68,4 +67,4 @@ clawhub install webhook-debugger
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/webhook-debugger/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/webhook-debugger/)

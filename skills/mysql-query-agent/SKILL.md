@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # MySQL Query Agent
 
 MySQL Query Agent is built around MySQL relational database. The underlying ecosystem is represented by sidorares/node-mysql2 (4,348+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like SQL queries, INFORMATION_SCHEMA, EXPLAIN, indexes, transactions, replication basics and preserving the operational […]
@@ -68,4 +67,4 @@ clawhub install mysql-query-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/mysql-query-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/mysql-query-agent/)

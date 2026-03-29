@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Cheerio DOM Scraping Toolkit
 
 Parses static HTML using Cheerio’s jQuery-like API for fast server-side DOM traversal and data extraction. Generates extraction patterns with CSS selectors optimized for resilience to layout changes.
@@ -60,4 +59,4 @@ clawhub install cheerio-dom-scraping-toolkit
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/cheerio-dom-scraping-toolkit/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/cheerio-dom-scraping-toolkit/)

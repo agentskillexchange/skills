@@ -6,25 +6,40 @@ framework: "Custom Agents"
 verification: listed
 source: "https://github.com/lfos/calcurse"
 ---
-
 # calcurse Text-Based Calendar and Scheduling Application
 
 calcurse is a text-based calendar and scheduling application for the command line. It helps keep track of events, appointments, and everyday tasks with a curses-based TUI, configurable notifications, and CalDAV synchronization support.
 
 ## Installation
 
-Install this skill using one of these methods:
+### Any Agent
 
 ```bash
-# OpenClaw CLI
-openclaw install calcurse-text-calendar-scheduling
+npx skills add agentskillexchange/skills --skill calcurse-text-calendar-scheduling
+```
 
-# ClawHub CLI
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill calcurse-text-calendar-scheduling -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill calcurse-text-calendar-scheduling -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill calcurse-text-calendar-scheduling -a codex
+```
+
+### OpenClaw
+
+```bash
 clawhub install calcurse-text-calendar-scheduling
-
-# Manual: clone into your skills directory
-git clone https://github.com/agentskillexchange/skills.git
-cp -r skills/skills/calcurse-text-calendar-scheduling ~/.openclaw/workspace/skills/
 ```
 
 ## Source

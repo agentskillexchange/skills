@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # ArgoCD Sync Wave Orchestrator
 
 Manages ArgoCD application sync waves and hooks using the ArgoCD API and argocd CLI. Coordinates multi-application deployment ordering with sync-wave annotations, health checks, and progressive rollout gates.
@@ -61,4 +60,4 @@ clawhub install argocd-sync-wave-orchestrator-wave48
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/argocd-sync-wave-orchestrator-wave48/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/argocd-sync-wave-orchestrator-wave48/)

@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # OpenTelemetry Collector Pipeline Designer
 
 Designs OpenTelemetry Collector pipeline configurations with receivers (otlp, prometheus, filelog), processors (batch, attributes, tail_sampling), and exporters (otlphttp, jaeger, elasticsearch).
@@ -59,4 +58,4 @@ clawhub install otel-collector-pipeline-designer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/otel-collector-pipeline-designer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/otel-collector-pipeline-designer/)

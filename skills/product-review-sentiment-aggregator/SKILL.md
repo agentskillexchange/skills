@@ -6,7 +6,6 @@ framework: "Claude Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/product-review-sentiment-aggregator/"
 ---
-
 # Product Review Sentiment Aggregator
 
 Collects and analyzes product reviews from Amazon Product API and Google Shopping via SerpAPI. Uses spaCy NER and aspect-based sentiment analysis to extract feature-level opinions and competitive comparisons.
@@ -49,4 +48,4 @@ clawhub install product-review-sentiment-aggregator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/product-review-sentiment-aggregator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/product-review-sentiment-aggregator/)

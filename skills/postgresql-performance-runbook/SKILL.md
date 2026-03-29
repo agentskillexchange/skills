@@ -9,7 +9,6 @@ tool_ecosystem:
   tool: postgresql
   npm_weekly_downloads: 21413502
 ---
-
 # PostgreSQL Performance Runbook
 
 Executes diagnostic queries against PostgreSQL using pg_stat_statements, pg_stat_activity, and pg_locks system views. Identifies slow queries, lock contention, bloated tables via pgstattuple, and generates EXPLAIN ANALYZE reports with buffer statistics.
@@ -60,4 +59,4 @@ clawhub install postgresql-performance-runbook
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/postgresql-performance-runbook/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/postgresql-performance-runbook/)

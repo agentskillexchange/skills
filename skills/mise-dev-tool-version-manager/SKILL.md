@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: hashicorp/terraform
   maintained: true
 ---
-
 # Mise Dev Tool Version Manager
 
 Use mise (mise-en-place) to manage development tool versions, environment variables, and task running from a single configuration file. Replaces asdf, nvm, pyenv, rbenv, and direnv in one tool.
@@ -68,4 +67,4 @@ clawhub install mise-dev-tool-version-manager
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/mise-dev-tool-version-manager/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/mise-dev-tool-version-manager/)

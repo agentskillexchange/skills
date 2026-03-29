@@ -13,7 +13,6 @@ tool_ecosystem:
   license: BSD-3-Clause
   maintained: true
 ---
-
 # Scrapy Pipeline Data Extractor
 
 Builds production Scrapy spiders with custom Item Pipelines for data cleaning and storage. Uses scrapy.linkextractors.LinkExtractor for crawl scoping and ItemLoader with MapCompose processors for field normalization.
@@ -60,4 +59,4 @@ clawhub install scrapy-pipeline-data-extractor
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/scrapy-pipeline-data-extractor/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/scrapy-pipeline-data-extractor/)

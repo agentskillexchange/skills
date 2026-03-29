@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: false
 ---
-
 # Apache Kafka Stream Transformer
 
 Processes real-time event streams using KafkaJS consumer groups and transforms messages with configurable schemas. Handles partition rebalancing, offset commits, and dead-letter queue routing for failed transformations.
@@ -60,4 +59,4 @@ clawhub install apache-kafka-stream-transformer-2
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/apache-kafka-stream-transformer-2/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/apache-kafka-stream-transformer-2/)

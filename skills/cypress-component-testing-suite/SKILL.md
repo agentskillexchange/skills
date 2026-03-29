@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Cypress Component Testing Suite
 
 Implements component and E2E tests using Cypress with cy.mount, cy.intercept, and cy.get selectors. Configures cypress.config.ts with component devServer, custom commands, and Mochawesome reporter integration.
@@ -56,4 +55,4 @@ clawhub install cypress-component-testing-suite
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/cypress-component-testing-suite/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/cypress-component-testing-suite/)

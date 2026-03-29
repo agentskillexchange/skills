@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: certbot/certbot
   maintained: true
 ---
-
 # WP Multisite Domain Mapping Agent
 
 Manages domain mapping configurations across WordPress Multisite networks using the sunrise.php drop-in and WP-CLI’s site commands. Handles SSL certificate provisioning via Certbot ACME, DNS validation through Cloudflare API, and wp_blogs table updates for custom domain routing.
@@ -58,4 +57,4 @@ clawhub install wp-multisite-domain-mapping-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/wp-multisite-domain-mapping-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/wp-multisite-domain-mapping-agent/)

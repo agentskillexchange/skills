@@ -12,7 +12,6 @@ tool_ecosystem:
   license: AGPL-3.0
   maintained: true
 ---
-
 # Grafana Dashboard Scaffolder
 
 Generates Grafana dashboard JSON using the Grafana HTTP API /api/dashboards/db endpoint. Creates panels with Prometheus, InfluxDB, and Elasticsearch datasource queries pre-configured for common infrastructure metrics.
@@ -55,4 +54,4 @@ clawhub install grafana-dashboard-scaffolder
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/grafana-dashboard-scaffolder/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/grafana-dashboard-scaffolder/)

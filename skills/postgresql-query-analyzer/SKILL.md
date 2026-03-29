@@ -9,7 +9,6 @@ tool_ecosystem:
   tool: postgresql
   npm_weekly_downloads: 21413502
 ---
-
 # PostgreSQL Query Analyzer
 
 Analyzes PostgreSQL slow queries using EXPLAIN (ANALYZE, BUFFERS, FORMAT JSON) output and pg_stat_statements views. Identifies missing indexes via pg_stat_user_tables sequential scan counters and suggests index creation with HypoPG extension.
@@ -60,4 +59,4 @@ clawhub install postgresql-query-analyzer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/postgresql-query-analyzer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/postgresql-query-analyzer/)

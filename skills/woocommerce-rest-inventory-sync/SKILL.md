@@ -6,7 +6,6 @@ framework: "OpenClaw"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/woocommerce-rest-inventory-sync/"
 ---
-
 # WooCommerce REST Inventory Sync
 
 Synchronizes WooCommerce product inventory across multiple channels using the WooCommerce REST API v3 and wp_update_post hooks. Handles stock level reconciliation, low-stock alerts via WP-CLI, and batch product updates through the /wc/v3/products/batch endpoint.
@@ -53,4 +52,4 @@ clawhub install woocommerce-rest-inventory-sync
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/woocommerce-rest-inventory-sync/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/woocommerce-rest-inventory-sync/)

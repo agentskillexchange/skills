@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Buildkite Pipeline Optimizer
 
 Analyzes Buildkite pipeline YAML and optimizes parallelism using the Buildkite REST API v2 and GraphQL API. Reduces build times by identifying bottleneck steps and suggesting agent queue rebalancing.
@@ -60,4 +59,4 @@ clawhub install buildkite-pipeline-optimizer-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/buildkite-pipeline-optimizer-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/buildkite-pipeline-optimizer-agent/)

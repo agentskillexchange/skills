@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Kubernetes CrashLoop Diagnoser
 
 Diagnoses CrashLoopBackOff pods using kubectl and the Kubernetes API /api/v1/namespaces/{ns}/pods/{pod}/log endpoint. Correlates container exit codes with OOM kills, readiness probe failures, and config errors.
@@ -59,4 +58,4 @@ clawhub install kubernetes-crashloop-diagnoser-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/kubernetes-crashloop-diagnoser-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-crashloop-diagnoser-agent/)

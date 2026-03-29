@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # WooCommerce REST Order Manager
 
 Queries and updates WooCommerce orders via the WooCommerce REST API v3 (/wp-json/wc/v3/orders), filters by status, date range, and customer, and bulk-updates fulfillment status. Generates order export CSVs with custom field mapping for 3PL handoff.
@@ -60,4 +59,4 @@ clawhub install woocommerce-rest-order-manager
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/woocommerce-rest-order-manager/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/woocommerce-rest-order-manager/)

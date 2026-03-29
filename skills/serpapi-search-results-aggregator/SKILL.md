@@ -6,7 +6,6 @@ framework: "OpenClaw"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/serpapi-search-results-aggregator/"
 ---
-
 # SerpAPI Search Results Aggregator
 
 Queries Google, Bing, and DuckDuckGo search APIs through SerpAPI to collect SERP features, Knowledge Graph data, and organic results. Supports People Also Ask extraction and trend analysis.
@@ -53,4 +52,4 @@ clawhub install serpapi-search-results-aggregator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/serpapi-search-results-aggregator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/serpapi-search-results-aggregator/)

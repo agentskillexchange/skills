@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Whisper Diarization Post-Processor
 
 Enhances OpenAI Whisper transcription output with speaker diarization using pyannote.audio pipeline and speechbrain embeddings. Aligns word-level timestamps from whisper-timestamped with speaker segments for multi-speaker meeting transcript generation.
@@ -66,4 +65,4 @@ clawhub install whisper-diarization-post-processor
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/whisper-diarization-post-processor/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/whisper-diarization-post-processor/)

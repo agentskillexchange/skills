@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: FFmpeg/FFmpeg
   maintained: true
 ---
-
 # FFmpeg Batch Transcode Pipeline
 
 Orchestrates parallel FFmpeg transcoding jobs with hardware-accelerated encoding via NVENC, VAAPI, or VideoToolbox. Supports HLS adaptive bitrate packaging using ffmpeg -f hls with multiple -map streams and fmp4 segment formatting for DASH output.
@@ -64,4 +63,4 @@ clawhub install ffmpeg-batch-transcode-pipeline
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/ffmpeg-batch-transcode-pipeline/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/ffmpeg-batch-transcode-pipeline/)

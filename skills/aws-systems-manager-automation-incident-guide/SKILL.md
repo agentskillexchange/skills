@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # AWS Systems Manager Automation Incident Guide
 
 Coordinates remediation playbooks with AWS Systems Manager Automation, Incident Manager, and CloudWatch alarm context for repeatable operational recovery. Useful for agents that need to recommend or launch the right runbook when alarms cross into known failure territory.
@@ -60,4 +59,4 @@ clawhub install aws-systems-manager-automation-incident-guide
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/aws-systems-manager-automation-incident-guide/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/aws-systems-manager-automation-incident-guide/)

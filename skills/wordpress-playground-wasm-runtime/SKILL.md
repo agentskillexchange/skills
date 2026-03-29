@@ -6,7 +6,6 @@ framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/WordPress/wordpress-playground"
 ---
-
 # WordPress Playground WebAssembly Runtime for In-Browser WordPress
 
 WordPress Playground runs a full WordPress instance entirely in the browser using WebAssembly-compiled PHP. It enables zero-setup WordPress testing, plugin previews, and interactive demos without any server infrastructure.

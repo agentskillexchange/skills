@@ -6,7 +6,6 @@ framework: "OpenClaw"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/github-actions-workflow-optimizer/"
 ---
-
 # GitHub Actions Workflow Optimizer
 
 Analyzes GitHub Actions YAML workflows to identify redundant steps, optimize caching strategies, and reduce CI minutes. Uses the GitHub Actions REST API and actions/cache toolkit to benchmark and improve pipeline performance.
@@ -53,4 +52,4 @@ clawhub install github-actions-workflow-optimizer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/github-actions-workflow-optimizer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/github-actions-workflow-optimizer/)

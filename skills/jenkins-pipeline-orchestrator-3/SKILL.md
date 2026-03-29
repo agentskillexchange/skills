@@ -12,7 +12,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Jenkins Pipeline Orchestrator
 
 Automates Jenkins CI/CD pipeline configuration using the Jenkins REST API and Jenkinsfile DSL. Manages multi-branch pipelines, triggers builds via webhooks, and parses build artifacts for deployment readiness.
@@ -59,4 +58,4 @@ clawhub install jenkins-pipeline-orchestrator-3
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/jenkins-pipeline-orchestrator-3/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-pipeline-orchestrator-3/)

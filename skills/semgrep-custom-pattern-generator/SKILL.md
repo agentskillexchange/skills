@@ -12,7 +12,6 @@ tool_ecosystem:
   license: LGPL-2.1
   maintained: true
 ---
-
 # Semgrep Custom Pattern Generator
 
 Generates Semgrep SAST rules from vulnerability descriptions using the Semgrep CLI and semgrep-rules YAML schema. Supports metavariable patterns, taint tracking, and join rules for cross-function analysis.
@@ -61,4 +60,4 @@ clawhub install semgrep-custom-pattern-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/semgrep-custom-pattern-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/semgrep-custom-pattern-generator/)

@@ -6,7 +6,6 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://www.npmjs.com/package/@wordpress/env"
 ---
-
 # wp-env Zero-Config WordPress Development Environment
 
 The @wordpress/env package (wp-env) provides a zero-configuration, Docker-based local WordPress environment for developing and testing plugins and themes. A single command sets up WordPress with a test site, database, and PHP environment.

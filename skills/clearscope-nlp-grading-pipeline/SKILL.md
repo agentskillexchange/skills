@@ -6,7 +6,6 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/clearscope-nlp-grading-pipeline/"
 ---
-
 # Clearscope NLP Grading Pipeline
 
 Connects to Clearscope API to generate content grades based on NLP term frequency analysis. Automates keyword research via Clearscope Research Reports endpoint and outputs structured optimization recommendations with TF-IDF scoring.
@@ -67,4 +66,4 @@ clawhub install clearscope-nlp-grading-pipeline
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/clearscope-nlp-grading-pipeline/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/clearscope-nlp-grading-pipeline/)

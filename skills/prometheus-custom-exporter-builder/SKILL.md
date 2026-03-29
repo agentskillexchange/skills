@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Prometheus Custom Exporter Builder
 
 Builds custom Prometheus exporters using the prometheus_client Python SDK and Go client_golang library. Exposes application-specific metrics with proper histogram buckets, counter labels, and gauge instrumentation.
@@ -56,4 +55,4 @@ clawhub install prometheus-custom-exporter-builder
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/prometheus-custom-exporter-builder/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-custom-exporter-builder/)

@@ -12,7 +12,6 @@ tool_ecosystem:
   github_repo: snyk/cli
   maintained: true
 ---
-
 # NPM Package Explorer
 
 Explores the npm registry using the Registry API and npms.io scoring API. Analyzes package quality, dependency trees, and bundle sizes via bundlephobia API.
@@ -55,4 +54,4 @@ clawhub install npm-package-explorer-registry-api
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/npm-package-explorer-registry-api/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/npm-package-explorer-registry-api/)

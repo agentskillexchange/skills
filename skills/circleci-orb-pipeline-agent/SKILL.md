@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: circleci/circleci-docs
   maintained: true
 ---
-
 # CircleCI Orb Pipeline Agent
 
 Builds and manages CircleCI pipelines using config.yml v2.1, CircleCI API v2, and reusable Orbs. Supports dynamic config, test splitting, and resource class optimization.
@@ -60,4 +59,4 @@ clawhub install circleci-orb-pipeline-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/circleci-orb-pipeline-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-orb-pipeline-agent/)

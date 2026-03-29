@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Puppeteer Cookie Consent Handler
 
 Detects and dismisses cookie consent banners across websites using Puppeteer page.evaluate selectors and the CMP (Consent Management Platform) protocol. Supports IAB TCF v2.0 consent strings and GDPR/CCPA banner patterns.
@@ -58,4 +57,4 @@ clawhub install puppeteer-cookie-consent-handler-3
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/puppeteer-cookie-consent-handler-3/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/puppeteer-cookie-consent-handler-3/)

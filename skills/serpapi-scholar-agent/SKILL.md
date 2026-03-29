@@ -6,7 +6,6 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/serpapi-scholar-agent/"
 ---
-
 # SerpAPI Scholar Agent
 
 Automates academic research using the SerpAPI Google Scholar endpoint. Extracts citation graphs, h-index data, and co-author networks for literature reviews. Supports BibTeX export and cross-references with Semantic Scholar API.
@@ -55,4 +54,4 @@ clawhub install serpapi-scholar-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/serpapi-scholar-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/serpapi-scholar-agent/)

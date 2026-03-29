@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # OWASP ZAP Automated Pen Testing Agent
 
 Runs automated penetration tests using OWASP ZAP API with spider crawling, active scanning, and AJAX-aware testing. Generates SARIF and HTML reports with CWE-mapped findings for security review workflows.
@@ -55,4 +54,4 @@ clawhub install owasp-zap-automated-pen-testing-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/owasp-zap-automated-pen-testing-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/owasp-zap-automated-pen-testing-agent/)

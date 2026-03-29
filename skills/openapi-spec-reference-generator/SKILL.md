@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: postmanlabs/postman-app-support
   maintained: true
 ---
-
 # OpenAPI Spec Reference Generator
 
 Converts OpenAPI 3.x specification files into browsable API reference documentation using swagger-parser and redoc-cli. Generates static HTML, markdown, and Postman collection exports from YAML/JSON spec files.
@@ -60,4 +59,4 @@ clawhub install openapi-spec-reference-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/openapi-spec-reference-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/openapi-spec-reference-generator/)

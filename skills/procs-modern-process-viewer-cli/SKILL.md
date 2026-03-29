@@ -6,7 +6,6 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/dalance/procs"
 ---
-
 # procs Modern Process Viewer CLI
 
 A modern replacement for ps written in Rust. procs provides colorized, human-readable process listings with multi-column keyword search, TCP/UDP port display, Docker container names, and tree views.
@@ -55,4 +54,4 @@ clawhub install procs-modern-process-viewer-cli
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/procs-modern-process-viewer-cli/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/procs-modern-process-viewer-cli/)

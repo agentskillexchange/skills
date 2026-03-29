@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # AWS CloudWatch Log Analyzer
 
 Analyzes AWS CloudWatch Logs using the CloudWatch Logs API and Logs Insights query syntax. Identifies error patterns, calculates error rates, and generates metric filters from log data.
@@ -56,4 +55,4 @@ clawhub install aws-cloudwatch-log-analyzer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/aws-cloudwatch-log-analyzer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/aws-cloudwatch-log-analyzer/)

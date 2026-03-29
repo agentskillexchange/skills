@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: hashicorp/terraform
   maintained: true
 ---
-
 # Terraform Plan Reviewer
 
 Parses Terraform plan JSON output from terraform show -json and the hashicorp/terraform-exec Go SDK. Identifies destructive changes, cost implications via Infracost API, and generates approval summaries.
@@ -54,4 +53,4 @@ clawhub install terraform-plan-reviewer-4
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/terraform-plan-reviewer-4/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-plan-reviewer-4/)

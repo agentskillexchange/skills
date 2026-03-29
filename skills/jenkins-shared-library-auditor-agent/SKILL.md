@@ -12,7 +12,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Jenkins Shared Library Auditor
 
 Audits Jenkins shared libraries for security vulnerabilities using the Jenkins Script Console API and Groovy AST analysis. Detects unsafe method calls, credential leaks, and sandbox escapes in pipeline libraries.
@@ -59,4 +58,4 @@ clawhub install jenkins-shared-library-auditor-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/jenkins-shared-library-auditor-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-shared-library-auditor-agent/)

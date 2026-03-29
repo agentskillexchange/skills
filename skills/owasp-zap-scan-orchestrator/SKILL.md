@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # OWASP ZAP Scan Orchestrator
 
 Orchestrates OWASP ZAP active and passive scans via the ZAP API, automating spider crawls, AJAX spidering with Selenium, and generating SARIF-format vulnerability reports.
@@ -55,4 +54,4 @@ clawhub install owasp-zap-scan-orchestrator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/owasp-zap-scan-orchestrator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/owasp-zap-scan-orchestrator/)

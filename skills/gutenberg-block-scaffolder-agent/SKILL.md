@@ -12,7 +12,6 @@ tool_ecosystem:
   github_repo: WordPress/WordPress
   maintained: true
 ---
-
 # Gutenberg Block Scaffolder
 
 Generates custom Gutenberg blocks using @wordpress/create-block and the Block API v3 schema. Produces edit.js, save.js, block.json, and render.php with InnerBlocks support and block.json viewScriptModule.
@@ -59,4 +58,4 @@ clawhub install gutenberg-block-scaffolder-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/gutenberg-block-scaffolder-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/gutenberg-block-scaffolder-agent/)

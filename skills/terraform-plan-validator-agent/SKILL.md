@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: hashicorp/terraform
   maintained: true
 ---
-
 # Terraform Plan Validator Agent
 
 Validates Terraform plans using terraform CLI, tfsec, and Checkov. Detects infrastructure misconfigurations, cost anomalies, and compliance violations before apply.
@@ -60,4 +59,4 @@ clawhub install terraform-plan-validator-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/terraform-plan-validator-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-plan-validator-agent/)

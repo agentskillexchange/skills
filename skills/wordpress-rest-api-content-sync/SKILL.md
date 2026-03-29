@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: WordPress/WordPress
   maintained: true
 ---
-
 # WordPress REST API Content Sync
 
 Synchronizes content between WordPress multisite installations using the WP REST API /wp/v2/posts endpoint with OAuth 1.0a authentication. Handles media sideloading, shortcode transformation, and conflict resolution.
@@ -58,4 +57,4 @@ clawhub install wordpress-rest-api-content-sync
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/wordpress-rest-api-content-sync/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/wordpress-rest-api-content-sync/)

@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Zapier Webhooks by Zapier Router
 
 Routes and validates inbound automation traffic built around Webhooks by Zapier endpoints such as `hooks.zapier.com/hooks/catch/…`. Useful for standardizing payload shapes, inspecting trigger contracts, and debugging chained zaps across third-party SaaS systems.
@@ -60,4 +59,4 @@ clawhub install zapier-webhooks-by-zapier-router
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/zapier-webhooks-by-zapier-router/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/zapier-webhooks-by-zapier-router/)

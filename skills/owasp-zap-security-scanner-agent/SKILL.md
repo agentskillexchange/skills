@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # OWASP ZAP Security Scanner Agent
 
 Automates OWASP ZAP active and passive scanning against web applications, parsing alerts into structured vulnerability reports. Integrates with the ZAP API daemon to manage contexts, spider targets, and export SARIF-formatted findings.
@@ -55,4 +54,4 @@ clawhub install owasp-zap-security-scanner-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/owasp-zap-security-scanner-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/owasp-zap-security-scanner-agent/)

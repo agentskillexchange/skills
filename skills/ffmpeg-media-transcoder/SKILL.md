@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: FFmpeg/FFmpeg
   maintained: true
 ---
-
 # FFmpeg Media Transcoder
 
 Automated video and audio transcoding using FFmpeg with hardware-accelerated encoding via NVENC/VAAPI, HLS adaptive streaming output, and MediaInfo-based quality validation.
@@ -58,4 +57,4 @@ clawhub install ffmpeg-media-transcoder
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/ffmpeg-media-transcoder/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/ffmpeg-media-transcoder/)

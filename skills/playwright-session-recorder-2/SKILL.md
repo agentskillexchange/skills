@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Playwright Session Recorder
 
 Records browser sessions using Playwright codegen and exports replayable test scripts. Captures network HAR files alongside DOM snapshots for full session fidelity.
@@ -60,4 +59,4 @@ clawhub install playwright-session-recorder-2
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/playwright-session-recorder-2/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/playwright-session-recorder-2/)

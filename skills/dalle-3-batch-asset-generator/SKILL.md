@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # DALL-E 3 Batch Asset Generator
 
 Generates multiple image variations from a single brief using the OpenAI Images API (POST /v1/images/generations) with DALL-E 3, applying brand guidelines via structured prompt templates. Handles concurrent generation requests with retry logic for rate limit compliance.
@@ -60,4 +59,4 @@ clawhub install dalle-3-batch-asset-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/dalle-3-batch-asset-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/dalle-3-batch-asset-generator/)

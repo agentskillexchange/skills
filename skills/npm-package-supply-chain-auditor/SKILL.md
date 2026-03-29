@@ -12,7 +12,6 @@ tool_ecosystem:
   github_repo: snyk/cli
   maintained: true
 ---
-
 # NPM Package Supply Chain Auditor
 
 Audits npm dependencies for supply chain risks using npm audit, Socket.dev API, and Snyk vulnerability database. Detects typosquatting, install scripts, and maintainer account takeovers.
@@ -55,4 +54,4 @@ clawhub install npm-package-supply-chain-auditor
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/npm-package-supply-chain-auditor/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/npm-package-supply-chain-auditor/)

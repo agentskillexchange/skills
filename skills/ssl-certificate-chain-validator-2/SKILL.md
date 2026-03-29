@@ -6,7 +6,6 @@ framework: "Codex"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/ssl-certificate-chain-validator-2/"
 ---
-
 # SSL Certificate Chain Validator
 
 Performs deep TLS certificate chain validation using OpenSSL and Certificate Transparency logs. Monitors expiration dates via the crt.sh API and checks OCSP responder status.
@@ -49,4 +48,4 @@ clawhub install ssl-certificate-chain-validator-2
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/ssl-certificate-chain-validator-2/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/ssl-certificate-chain-validator-2/)

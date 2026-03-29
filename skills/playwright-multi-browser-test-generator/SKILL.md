@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Playwright Multi-Browser Test Generator
 
 Generates Playwright test scripts for Chromium, Firefox, and WebKit from natural language descriptions. Uses the Playwright codegen recorder API and assertion library for reliable E2E tests.
@@ -56,4 +55,4 @@ clawhub install playwright-multi-browser-test-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/playwright-multi-browser-test-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/playwright-multi-browser-test-generator/)

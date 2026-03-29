@@ -6,7 +6,6 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/BurntSushi/ripgrep"
 ---
-
 # ripgrep Recursive Regex Search Tool
 
 ripgrep (rg) is a line-oriented search tool that recursively searches directories for regex patterns while respecting .gitignore rules. Written in Rust, it outperforms grep, ag, and ack on large codebases by significant margins and supports Unicode by default.
@@ -57,4 +56,4 @@ clawhub install ripgrep-recursive-regex-search-tool
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/ripgrep-recursive-regex-search-tool/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/ripgrep-recursive-regex-search-tool/)

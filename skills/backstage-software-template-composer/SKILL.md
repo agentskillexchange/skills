@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: false
 ---
-
 # Backstage Software Template Composer
 
 Creates Spotify Backstage software templates using template.yaml definitions with Scaffolder actions including fetch:template, publish:github, and catalog:register. Manages the Backstage Software Catalog via its REST API.
@@ -56,4 +55,4 @@ clawhub install backstage-software-template-composer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/backstage-software-template-composer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/backstage-software-template-composer/)

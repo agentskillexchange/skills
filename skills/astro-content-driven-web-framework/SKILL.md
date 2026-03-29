@@ -12,29 +12,35 @@ Astro is a modern web framework for building content-driven websites. It ships z
 
 ## Installation
 
-Install this skill using one of the following methods:
+### Any Agent
 
-### OpenClaw CLI
 ```bash
-openclaw skills install astro-content-driven-web-framework
+npx skills add agentskillexchange/skills --skill astro-content-driven-web-framework
 ```
 
-### ClawHub CLI
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill astro-content-driven-web-framework -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill astro-content-driven-web-framework -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill astro-content-driven-web-framework -a codex
+```
+
+### OpenClaw
+
 ```bash
 clawhub install astro-content-driven-web-framework
 ```
-
-### Manual Installation
-Download from [Agent Skill Exchange](https://agentskillexchange.com/skills/astro-content-driven-web-framework/) and follow the setup instructions.
-
-### Git Clone
-```bash
-git clone https://github.com/agentskillexchange/skills.git
-cp -r skills/skills/astro-content-driven-web-framework ~/.openclaw/workspace/skills/
-```
-
-### Marketplace
-Browse and install from [Agent Skill Exchange](https://agentskillexchange.com/skills/astro-content-driven-web-framework/)
 
 ## Source
 

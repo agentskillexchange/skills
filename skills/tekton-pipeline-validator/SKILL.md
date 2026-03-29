@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Tekton Pipeline Validator
 
 Validates Tekton Pipeline YAML manifests against the Tekton Pipelines API schema. Uses tkn CLI and Kubernetes admission webhooks to catch misconfigurations before deployment. Supports PipelineRun, TaskRun, and Trigger resource types.
@@ -59,4 +58,4 @@ clawhub install tekton-pipeline-validator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/tekton-pipeline-validator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/tekton-pipeline-validator/)

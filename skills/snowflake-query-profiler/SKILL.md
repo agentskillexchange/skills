@@ -8,7 +8,6 @@ source: "https://agentskillexchange.com/skills/snowflake-query-profiler/"
 tool_ecosystem:
   tool: snowflake
 ---
-
 # Snowflake Query Profiler
 
 Profiles and optimizes Snowflake SQL queries using the Snowflake Information Schema and Query History views. Identifies warehouse sizing issues, scanning inefficiencies, and recommends clustering keys.
@@ -51,4 +50,4 @@ clawhub install snowflake-query-profiler
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/snowflake-query-profiler/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/snowflake-query-profiler/)

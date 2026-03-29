@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: gitlabhq/gitlabhq
   maintained: true
 ---
-
 # GitLab CI Pipeline Validator
 
 Validates .gitlab-ci.yml files against GitLab CI/CD schema using the gitlab-ci-lint API endpoint. Catches stage dependency errors, invalid artifact paths, and misconfigured rules before commit.
@@ -58,4 +57,4 @@ clawhub install gitlab-ci-pipeline-validator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/gitlab-ci-pipeline-validator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/gitlab-ci-pipeline-validator/)

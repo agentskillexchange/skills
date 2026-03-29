@@ -6,7 +6,6 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/npm-package-api-surface-extractor/"
 ---
-
 # NPM Package API Surface Extractor
 
 Extracts and documents public API surfaces from NPM packages using TypeScript Compiler API (ts.createProgram) and API Extractor from @microsoft/api-extractor. Generates .api.md report files and .d.ts rollups.
@@ -53,4 +52,4 @@ clawhub install npm-package-api-surface-extractor
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/npm-package-api-surface-extractor/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/npm-package-api-surface-extractor/)

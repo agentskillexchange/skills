@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Selenium Grid Load Balancer
 
 Distributes browser automation workloads across Selenium Grid 4 nodes using the Grid REST API and session queue management. Implements weighted round-robin with health-check monitoring via /status endpoint.
@@ -56,4 +55,4 @@ clawhub install selenium-grid-load-balancer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/selenium-grid-load-balancer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/selenium-grid-load-balancer/)

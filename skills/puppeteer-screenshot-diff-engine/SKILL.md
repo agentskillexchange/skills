@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Puppeteer Screenshot Diff Engine
 
 Visual regression testing using Puppeteer page.screenshot() with pixelmatch comparison. Leverages CDP sessions via page.createCDPSession() for precise viewport emulation and network throttling.
@@ -60,4 +59,4 @@ clawhub install puppeteer-screenshot-diff-engine
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/puppeteer-screenshot-diff-engine/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/puppeteer-screenshot-diff-engine/)

@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: dbt-labs/dbt-core
   maintained: true
 ---
-
 # dbt Data Transformation Orchestrator
 
 Manages dbt Core and dbt Cloud API workflows for SQL-based data transformations. Handles model lineage, incremental builds, and data quality tests with Great Expectations integration.
@@ -60,4 +59,4 @@ clawhub install dbt-data-transformation-orchestrator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/dbt-data-transformation-orchestrator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/dbt-data-transformation-orchestrator/)

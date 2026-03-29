@@ -12,7 +12,6 @@ tool_ecosystem:
   license: BSD-2-Clause
   maintained: true
 ---
-
 # Nginx Config Linter and Tester
 
 Validates nginx.conf files using the gixy static analyzer and crossplane parser library. Tests configuration for security misconfigs, HTTP header issues, and performs dry-run validation via nginx -t subprocess invocation.
@@ -61,4 +60,4 @@ clawhub install nginx-config-linter-tester
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/nginx-config-linter-tester/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/nginx-config-linter-tester/)

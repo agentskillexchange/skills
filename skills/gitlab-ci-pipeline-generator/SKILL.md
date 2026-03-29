@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: gitlabhq/gitlabhq
   maintained: true
 ---
-
 # GitLab CI Pipeline Generator
 
 Creates and manages GitLab CI/CD pipelines via the GitLab REST API v4. Generates .gitlab-ci.yml with multi-stage definitions, DAG dependencies, and environment-scoped deployments.
@@ -58,4 +57,4 @@ clawhub install gitlab-ci-pipeline-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/gitlab-ci-pipeline-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/gitlab-ci-pipeline-generator/)

@@ -12,7 +12,6 @@ tool_ecosystem:
   license: BSD-3-Clause
   maintained: true
 ---
-
 # Pandas DataFrame Pipeline Builder
 
 Constructs data transformation pipelines using Pandas and the pipe() method chain pattern. Integrates with SQLAlchemy for database I/O and PyArrow for high-performance Parquet operations.
@@ -55,4 +54,4 @@ clawhub install pandas-dataframe-pipeline-builder
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/pandas-dataframe-pipeline-builder/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/pandas-dataframe-pipeline-builder/)

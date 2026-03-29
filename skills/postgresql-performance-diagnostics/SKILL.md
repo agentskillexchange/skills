@@ -9,7 +9,6 @@ tool_ecosystem:
   tool: postgresql
   npm_weekly_downloads: 21413502
 ---
-
 # PostgreSQL Performance Diagnostics
 
 Analyzes PostgreSQL query performance using pg_stat_statements, pg_stat_user_tables, and EXPLAIN ANALYZE output. Identifies missing indexes via pg_stat_user_indexes and detects lock contention through pg_locks and pg_stat_activity.
@@ -56,4 +55,4 @@ clawhub install postgresql-performance-diagnostics
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/postgresql-performance-diagnostics/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/postgresql-performance-diagnostics/)

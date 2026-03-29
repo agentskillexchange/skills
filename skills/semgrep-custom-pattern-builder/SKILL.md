@@ -12,7 +12,6 @@ tool_ecosystem:
   license: LGPL-2.1
   maintained: true
 ---
-
 # Semgrep Custom Pattern Builder
 
 Builds custom Semgrep rules using the Semgrep pattern syntax and semgrep CLI. Generates YAML rule files with metavariable patterns, taint tracking, and autofix transformations.
@@ -59,4 +58,4 @@ clawhub install semgrep-custom-pattern-builder
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/semgrep-custom-pattern-builder/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/semgrep-custom-pattern-builder/)

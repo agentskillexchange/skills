@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: dbt-labs/dbt-core
   maintained: true
 ---
-
 # dbt Model Lineage Analyzer
 
 Parses dbt project manifests and catalog artifacts to build complete data lineage graphs. Uses the dbt Cloud API v2 for run metadata and the dbt Core manifest.json for model dependency analysis.
@@ -54,4 +53,4 @@ clawhub install dbt-model-lineage-analyzer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/dbt-model-lineage-analyzer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/dbt-model-lineage-analyzer/)

@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # OWASP ZAP API Security Auditor
 
 Orchestrates OWASP ZAP active and passive scans against REST and GraphQL endpoints using ZAP’s Python API client. Generates DAST reports with CWE mappings and suggests WAF rule configurations.
@@ -59,4 +58,4 @@ clawhub install owasp-zap-api-security-auditor
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/owasp-zap-api-security-auditor/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/owasp-zap-api-security-auditor/)

@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Helm Chart Template Scaffolder
 
 Scaffolds Helm 3 chart templates with Go templating best practices. Uses helm-unittest for test generation and Polaris for Kubernetes resource validation scoring.
@@ -55,4 +54,4 @@ clawhub install helm-chart-template-scaffolder
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/helm-chart-template-scaffolder/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/helm-chart-template-scaffolder/)

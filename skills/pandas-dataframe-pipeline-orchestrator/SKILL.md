@@ -12,7 +12,6 @@ tool_ecosystem:
   license: BSD-3-Clause
   maintained: true
 ---
-
 # Pandas DataFrame Pipeline Orchestrator
 
 Chains pandas DataFrame transformations into reproducible pipelines using pipe() method composition. Handles missing data imputation with fillna() strategies, type coercion with astype(), and memory optimization via category dtypes.
@@ -59,4 +58,4 @@ clawhub install pandas-dataframe-pipeline-orchestrator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/pandas-dataframe-pipeline-orchestrator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/pandas-dataframe-pipeline-orchestrator/)

@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Sigstore Cosign Verification Pipeline
 
 Verifies container image signatures and SBOMs using Sigstore Cosign and Rekor transparency log. Enforces supply chain security policies by validating keyless signatures against Fulcio certificate authorities.
@@ -55,4 +54,4 @@ clawhub install sigstore-cosign-verification-pipeline
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/sigstore-cosign-verification-pipeline/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/sigstore-cosign-verification-pipeline/)

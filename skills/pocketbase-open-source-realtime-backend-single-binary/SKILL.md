@@ -12,20 +12,35 @@ PocketBase is an open-source Go backend that ships as a single portable executab
 
 ## Installation
 
-Install this skill using one of the following methods:
+### Any Agent
 
-### OpenClaw CLI
 ```bash
-openclaw skills install pocketbase-open-source-realtime-backend-single-binary
+npx skills add agentskillexchange/skills --skill pocketbase-open-source-realtime-backend-single-binary
 ```
 
-### Clawhub CLI
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill pocketbase-open-source-realtime-backend-single-binary -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill pocketbase-open-source-realtime-backend-single-binary -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill pocketbase-open-source-realtime-backend-single-binary -a codex
+```
+
+### OpenClaw
+
 ```bash
 clawhub install pocketbase-open-source-realtime-backend-single-binary
 ```
-
-### Manual Installation
-Download from [Agent Skill Exchange](https://agentskillexchange.com/skills/pocketbase-open-source-realtime-backend-single-binary/) and follow the setup instructions.
 
 ## Source
 

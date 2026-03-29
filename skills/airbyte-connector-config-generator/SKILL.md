@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: hashicorp/terraform
   maintained: true
 ---
-
 # Airbyte Connector Config Generator
 
 Generates Airbyte source and destination connector configurations using the Airbyte API /v1/sources/create and /v1/destinations/create endpoints. Validates connection specs against the Airbyte Protocol.
@@ -54,4 +53,4 @@ clawhub install airbyte-connector-config-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/airbyte-connector-config-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/airbyte-connector-config-generator/)

@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Docling AI Document Intelligence Pipeline
 
 Docling is an IBM-backed open-source toolkit that converts PDF, DOCX, PPTX, XLSX, HTML, images, audio, and LaTeX files into structured formats for gen AI workflows. It features advanced PDF layout understanding, OCR, table extraction, and integrations with LangChain, LlamaIndex, and CrewAI.
@@ -64,4 +63,4 @@ clawhub install docling-ai-document-intelligence-pipeline
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/docling-ai-document-intelligence-pipeline/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/docling-ai-document-intelligence-pipeline/)

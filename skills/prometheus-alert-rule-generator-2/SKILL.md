@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Prometheus Alert Rule Generator
 
 Generates and validates Prometheus alerting rules from natural language descriptions using the Prometheus HTTP API and PromQL query engine. Supports Alertmanager routing configuration and Grafana dashboard annotation.
@@ -56,4 +55,4 @@ clawhub install prometheus-alert-rule-generator-2
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/prometheus-alert-rule-generator-2/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-alert-rule-generator-2/)

@@ -12,7 +12,6 @@ tool_ecosystem:
   license: LGPL-3.0
   maintained: true
 ---
-
 # SonarQube Analysis Runner
 
 Run SonarQube static analysis scans via the SonarQube Web API and sonar-scanner CLI. Detects code smells, bugs, and security vulnerabilities with configurable quality gates and branch analysis support.
@@ -55,4 +54,4 @@ clawhub install sonarqube-analysis-runner
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/sonarqube-analysis-runner/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/sonarqube-analysis-runner/)

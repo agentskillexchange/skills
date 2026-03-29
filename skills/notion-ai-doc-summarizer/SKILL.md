@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Notion AI Document Summarizer & Action Item Extractor
 
 Uses the Notion SDK and Notion AI’s /v1/pages and /v1/blocks/children endpoints to retrieve page content and invoke AI-powered summarization. Extracted action items are appended as a structured database entry via databases.query and pages.create.
@@ -68,4 +67,4 @@ clawhub install notion-ai-doc-summarizer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/notion-ai-doc-summarizer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/notion-ai-doc-summarizer/)

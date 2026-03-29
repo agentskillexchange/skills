@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # DALL-E Prompt Engineering Kit
 
 Structured prompt generation for OpenAI’s DALL-E 3 API (images/generations endpoint) with style modifiers, aspect ratio control, and batch variation generation. Includes negative prompt patterns and quality presets.
@@ -60,4 +59,4 @@ clawhub install dall-e-prompt-engineering-kit
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/dall-e-prompt-engineering-kit/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/dall-e-prompt-engineering-kit/)

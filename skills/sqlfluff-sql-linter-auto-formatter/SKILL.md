@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: dbt-labs/dbt-core
   maintained: true
 ---
-
 # SQLFluff SQL Linter and Auto-Formatter
 
 Lint and auto-format SQL code across 30+ dialects using SQLFluff. Enforces consistent style, catches syntax issues, and supports Jinja/dbt templating for ELT workflows.
@@ -62,4 +61,4 @@ clawhub install sqlfluff-sql-linter-auto-formatter
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/sqlfluff-sql-linter-auto-formatter/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/sqlfluff-sql-linter-auto-formatter/)

@@ -12,7 +12,6 @@ tool_ecosystem:
   license: LGPL-2.1
   maintained: true
 ---
-
 # Semgrep Rule Engine
 
 Executes Semgrep static analysis using the semgrep CLI with custom YAML rule definitions. Supports taint tracking, metavariable comparisons, and pattern-not-inside exclusions for precise vulnerability detection.
@@ -59,4 +58,4 @@ clawhub install semgrep-rule-engine
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/semgrep-rule-engine/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/semgrep-rule-engine/)

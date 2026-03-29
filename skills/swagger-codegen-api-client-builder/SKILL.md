@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Swagger Codegen API Client Builder
 
 Generates typed API client libraries from OpenAPI 3.x specifications using swagger-codegen and openapi-generator-cli. Produces clients for TypeScript-axios, Python-requests, and Go-http with custom mustache templates.
@@ -56,4 +55,4 @@ clawhub install swagger-codegen-api-client-builder
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/swagger-codegen-api-client-builder/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/swagger-codegen-api-client-builder/)

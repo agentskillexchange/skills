@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Slack Channel Summarizer & Triage Bot
 
 Connects to the Slack Web API to fetch unread messages across specified channels and surfaces a prioritized digest of action items, decisions, and blockers. Uses conversation.history and users.info endpoints to attribute messages correctly. Supports scheduled digests and posts summaries directly to a designated DM or channel.
@@ -68,4 +67,4 @@ clawhub install slack-channel-summarizer-triage
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/slack-channel-summarizer-triage/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/slack-channel-summarizer-triage/)

@@ -12,7 +12,6 @@ tool_ecosystem:
   license: GPL-3.0
   maintained: true
 ---
-
 # Ansible Playbook Template Generator
 
 Generates Ansible playbook YAML with proper module usage, handler chains, and role structures using ansible-core built-in modules. Supports Jinja2 template rendering and vault-encrypted variable files.
@@ -55,4 +54,4 @@ clawhub install ansible-playbook-template-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/ansible-playbook-template-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/ansible-playbook-template-generator/)

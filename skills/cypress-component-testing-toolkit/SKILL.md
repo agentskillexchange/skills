@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Cypress Component Testing Toolkit
 
 Creates component and integration tests using the Cypress Testing Library API and cy.intercept for network stubbing. Supports visual testing via the Cypress Image Snapshot plugin and accessibility auditing with cypress-axe.
@@ -56,4 +55,4 @@ clawhub install cypress-component-testing-toolkit
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/cypress-component-testing-toolkit/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/cypress-component-testing-toolkit/)

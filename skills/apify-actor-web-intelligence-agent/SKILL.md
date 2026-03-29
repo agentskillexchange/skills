@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Apify Actor Web Intelligence Agent
 
 Deploys intelligent web scraping actors on the Apify platform using the Apify SDK with RequestQueue and Dataset APIs. Handles dynamic content via Apify CheerioCrawler and PlaywrightCrawler with automatic scaling.
@@ -60,4 +59,4 @@ clawhub install apify-actor-web-intelligence-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/apify-actor-web-intelligence-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/apify-actor-web-intelligence-agent/)

@@ -12,7 +12,6 @@ tool_ecosystem:
   license: GPL-3.0
   maintained: true
 ---
-
 # Ansible Playbook Diagnostics Runner
 
 Runs Ansible diagnostic playbooks using ansible-runner and the Ansible Collections ecosystem (ansible.builtin, community.general). Captures system health, service status, and log analysis across inventory hosts.
@@ -59,4 +58,4 @@ clawhub install ansible-playbook-diagnostics-runner
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/ansible-playbook-diagnostics-runner/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/ansible-playbook-diagnostics-runner/)

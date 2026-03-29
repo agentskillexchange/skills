@@ -12,7 +12,6 @@ tool_ecosystem:
   license: LGPL-2.1
   maintained: true
 ---
-
 # Semgrep SAST Scanner
 
 Runs Semgrep static analysis with custom rule packs targeting OWASP Top 10 patterns. Uses semgrep CLI with –config=auto and –sarif output for GitHub Advanced Security integration and CWE-tagged finding reports.
@@ -79,4 +78,4 @@ clawhub install semgrep-sast-scanner-skill
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/semgrep-sast-scanner-skill/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/semgrep-sast-scanner-skill/)

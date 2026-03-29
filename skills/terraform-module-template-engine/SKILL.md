@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: hashicorp/terraform
   maintained: true
 ---
-
 # Terraform Module Template Engine
 
 Scaffolds production-ready Terraform modules using HCL templates with automated variable documentation via terraform-docs. Includes Terratest boilerplate and GitHub Actions CI workflow generation.
@@ -56,4 +55,4 @@ clawhub install terraform-module-template-engine
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/terraform-module-template-engine/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-module-template-engine/)

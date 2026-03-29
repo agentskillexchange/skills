@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Stripe Revenue Reconciliation Agent
 
 Uses the Stripe API to pull charge, refund, dispute, and payout records within a configurable date window and reconciles them against expected revenue figures. Flags mismatches, duplicate charges, and unmatched refunds, outputting a CSV report with Stripe object IDs.
@@ -68,4 +67,4 @@ clawhub install stripe-revenue-reconciliation-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/stripe-revenue-reconciliation-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/stripe-revenue-reconciliation-agent/)

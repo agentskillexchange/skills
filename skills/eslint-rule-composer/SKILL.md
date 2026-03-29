@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # ESLint Rule Composer
 
 Creates custom ESLint rules using the ESLint RuleTester API and AST Explorer patterns. Generates rule implementations with auto-fix suggestions based on estree node types and scope analysis.
@@ -62,4 +61,4 @@ clawhub install eslint-rule-composer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/eslint-rule-composer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/eslint-rule-composer/)

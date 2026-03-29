@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Stripe Payments Connector
 
 Full Stripe API integration using the stripe-node SDK. Creates PaymentIntents via stripe.paymentIntents.create(), manages Customers and Subscriptions, handles webhook events through stripe.webhooks.constructEvent(), and supports Stripe Connect for marketplace payouts.
@@ -62,4 +61,4 @@ clawhub install stripe-payments-connector
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/stripe-payments-connector/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/stripe-payments-connector/)

@@ -12,7 +12,6 @@ tool_ecosystem:
   github_repo: DataDog/dd-trace-js
   maintained: true
 ---
-
 # Datadog Integration Connector
 
 Connects applications to Datadog monitoring using the Datadog API v2 for metrics submission, log forwarding, APM trace ingestion, and dashboard JSON template management.
@@ -55,4 +54,4 @@ clawhub install datadog-integration-connector-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/datadog-integration-connector-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/datadog-integration-connector-agent/)

@@ -12,7 +12,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Jenkins Pipeline DSL Generator
 
 Generates Jenkins Declarative and Scripted Pipeline DSL using the Jenkins REST API and Job DSL plugin. Creates Jenkinsfile configurations with parallel stages, shared libraries, and credential binding.
@@ -59,4 +58,4 @@ clawhub install jenkins-pipeline-dsl-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/jenkins-pipeline-dsl-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-pipeline-dsl-generator/)

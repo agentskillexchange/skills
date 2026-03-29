@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Swagger UI Documentation Deployer
 
 Deploys interactive Swagger UI documentation sites from OpenAPI specs with custom branding, authentication presets, and CDN-hosted static builds. Integrates with Redoc for alternative rendering.
@@ -56,4 +55,4 @@ clawhub install swagger-ui-documentation-deployer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/swagger-ui-documentation-deployer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/swagger-ui-documentation-deployer/)

@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # DALL-E Image Variation Pipeline
 
 Manages OpenAI DALL-E 3 API workflows for brand-consistent image generation with style references, aspect ratio control, and automated prompt refinement using GPT-4 Vision feedback loops.
@@ -60,4 +59,4 @@ clawhub install dalle-image-variation-pipeline
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/dalle-image-variation-pipeline/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/dalle-image-variation-pipeline/)

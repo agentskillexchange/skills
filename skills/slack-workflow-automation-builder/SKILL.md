@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Slack Workflow Automation Builder
 
 Creates Slack Workflow Builder automations using the Slack Web API and Block Kit. Builds approval flows, standup collectors, and incident response channels with interactive message components.
@@ -56,4 +55,4 @@ clawhub install slack-workflow-automation-builder
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/slack-workflow-automation-builder/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/slack-workflow-automation-builder/)

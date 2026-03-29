@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Linear Issue Triage & Sprint Planner
 
 Queries the Linear GraphQL API to list open issues by team, priority, and cycle, then applies configurable triage rules to auto-assign or escalate. Generates sprint plan drafts scored against velocity and team capacity from Linear projectMilestone and workflowState data.
@@ -68,4 +67,4 @@ clawhub install linear-issue-triage-sprint-planner-2
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/linear-issue-triage-sprint-planner-2/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/linear-issue-triage-sprint-planner-2/)

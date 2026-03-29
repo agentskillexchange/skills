@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Prometheus AlertManager Rules Engine
 
 Generates and validates Prometheus alerting rules and AlertManager routing configurations using the Prometheus HTTP API. Implements alert grouping, inhibition rules, and silence management.
@@ -56,4 +55,4 @@ clawhub install prometheus-alertmanager-rules-engine
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/prometheus-alertmanager-rules-engine/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-alertmanager-rules-engine/)

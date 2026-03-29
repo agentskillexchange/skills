@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Helm Chart Boilerplate Builder
 
 Scaffolds Kubernetes Helm charts with values.yaml templating, ingress configuration, and HPA definitions. Uses helm-unittest for test generation and Chart Testing (ct) lint integration.
@@ -57,4 +56,4 @@ clawhub install helm-chart-boilerplate-builder
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/helm-chart-boilerplate-builder/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/helm-chart-boilerplate-builder/)

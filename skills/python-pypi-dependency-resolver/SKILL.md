@@ -6,7 +6,6 @@ framework: "MCP"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/python-pypi-dependency-resolver/"
 ---
-
 # Python PyPI Dependency Resolver
 
 Resolves Python package dependencies using the PyPI JSON API and pip resolver algorithm. Generates locked requirements files and checks compatibility across Python version markers via packaging library.
@@ -49,4 +48,4 @@ clawhub install python-pypi-dependency-resolver
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/python-pypi-dependency-resolver/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/python-pypi-dependency-resolver/)

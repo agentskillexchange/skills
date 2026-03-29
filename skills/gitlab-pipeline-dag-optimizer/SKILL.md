@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: gitlabhq/gitlabhq
   maintained: true
 ---
-
 # GitLab Pipeline DAG Optimizer
 
 Analyzes GitLab CI/CD pipeline YAML using the GitLab Pipelines API to detect bottlenecks and restructure directed acyclic graph (DAG) dependencies. Integrates with gitlab-runner exec and the Merge Request Approvals API for automated gate checks.
@@ -64,4 +63,4 @@ clawhub install gitlab-pipeline-dag-optimizer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/gitlab-pipeline-dag-optimizer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/gitlab-pipeline-dag-optimizer/)

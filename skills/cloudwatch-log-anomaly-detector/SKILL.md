@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # CloudWatch Log Anomaly Detector
 
 Detects anomalous patterns in AWS CloudWatch Logs using CloudWatch Logs Insights queries and Anomaly Detection APIs. Surfaces error rate spikes and latency regressions with contextual log samples.
@@ -56,4 +55,4 @@ clawhub install cloudwatch-log-anomaly-detector
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/cloudwatch-log-anomaly-detector/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/cloudwatch-log-anomaly-detector/)

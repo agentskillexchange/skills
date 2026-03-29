@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Slack Bolt Event Subscription Debugger
 
 Debugs Slack app event flows with the Bolt SDK, signature verification, `app.event()` handlers, and `ack()` timing. Useful for tracing why Events API deliveries, slash commands, or interactive callbacks are failing in real integration environments.
@@ -60,4 +59,4 @@ clawhub install slack-bolt-event-subscription-debugger
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/slack-bolt-event-subscription-debugger/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/slack-bolt-event-subscription-debugger/)

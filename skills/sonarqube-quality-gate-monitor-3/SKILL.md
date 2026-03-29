@@ -12,7 +12,6 @@ tool_ecosystem:
   license: LGPL-3.0
   maintained: true
 ---
-
 # SonarQube Quality Gate Monitor
 
 Monitors SonarQube project quality gates via the Web API and blocks CI deployments when thresholds fail. Tracks technical debt trends across releases.
@@ -59,4 +58,4 @@ clawhub install sonarqube-quality-gate-monitor-3
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/sonarqube-quality-gate-monitor-3/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/sonarqube-quality-gate-monitor-3/)

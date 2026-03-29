@@ -6,7 +6,6 @@ framework: "Any"
 verification: security_reviewed
 source: "https://github.com/D4Vinci/Scrapling"
 ---
-
 # Scrapling Adaptive Web Scraping Framework
 
 Scrapling is an adaptive Python web scraping framework that automatically handles website structure changes. Its parser learns from page updates and relocates elements, its fetchers bypass anti-bot systems like Cloudflare Turnstile, and its spider framework scales to concurrent multi-session crawls with proxy rotation.
@@ -14,21 +13,31 @@ Scrapling is an adaptive Python web scraping framework that automatically handle
 ## Installation
 
 ### Any Agent
+
 ```bash
-npx skills add scrapling-adaptive-web-scraping-framework
+npx skills add agentskillexchange/skills --skill scrapling-adaptive-web-scraping-framework
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill scrapling-adaptive-web-scraping-framework -a claude-code
 ```
 
 ### Cursor
+
 ```bash
-npx skills add scrapling-adaptive-web-scraping-framework
+npx skills add agentskillexchange/skills --skill scrapling-adaptive-web-scraping-framework -a cursor
 ```
 
 ### Codex
+
 ```bash
-npx skills add scrapling-adaptive-web-scraping-framework
+npx skills add agentskillexchange/skills --skill scrapling-adaptive-web-scraping-framework -a codex
 ```
 
 ### OpenClaw
+
 ```bash
 clawhub install scrapling-adaptive-web-scraping-framework
 ```

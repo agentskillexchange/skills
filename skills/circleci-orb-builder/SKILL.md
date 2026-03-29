@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: circleci/circleci-docs
   maintained: true
 ---
-
 # CircleCI Orb Builder
 
 Creates reusable CircleCI Orbs using the CircleCI Orb SDK and circleci/orb-tools@12 pipeline. Packages commands, executors, and jobs into publishable orbs with automated semantic versioning via the CircleCI CLI.
@@ -60,4 +59,4 @@ clawhub install circleci-orb-builder
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/circleci-orb-builder/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-orb-builder/)

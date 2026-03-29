@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # GraphQL Schema Registry Client
 
 Manages GraphQL schema versions using Apollo Schema Registry API and graphql-inspector. Performs schema diffing, breaking change detection, and composition validation for federated GraphQL architectures.
@@ -60,4 +59,4 @@ clawhub install graphql-schema-registry-client
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/graphql-schema-registry-client/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/graphql-schema-registry-client/)

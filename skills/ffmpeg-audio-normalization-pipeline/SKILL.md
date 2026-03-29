@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: FFmpeg/FFmpeg
   maintained: true
 ---
-
 # FFmpeg Audio Normalization Pipeline
 
 Normalizes audio loudness to broadcast standards using FFmpeg loudnorm filter with EBU R128 two-pass analysis. Measures integrated LUFS, true peak, and loudness range via ffmpeg -af loudnorm=print_format=json.
@@ -54,4 +53,4 @@ clawhub install ffmpeg-audio-normalization-pipeline
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/ffmpeg-audio-normalization-pipeline/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/ffmpeg-audio-normalization-pipeline/)

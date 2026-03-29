@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: FFmpeg/FFmpeg
   maintained: true
 ---
-
 # FFmpeg Video Processing Pipeline
 
 Builds complex FFmpeg filtergraph chains for batch video transcoding, thumbnail sprite generation, and HLS adaptive bitrate packaging. Supports NVIDIA NVENC hardware acceleration and HDR tone mapping.
@@ -58,4 +57,4 @@ clawhub install ffmpeg-video-processing-pipeline
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/ffmpeg-video-processing-pipeline/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/ffmpeg-video-processing-pipeline/)

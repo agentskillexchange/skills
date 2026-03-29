@@ -6,7 +6,6 @@ framework: "Cursor"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/cookiecutter-project-template-scaffolder/"
 ---
-
 # Cookiecutter Project Template Scaffolder
 
 Generates project scaffolds using Cookiecutter templates from GitHub repositories or local directories. Automates cookiecutter.json variable prompting and post-generation hook execution.
@@ -49,4 +48,4 @@ clawhub install cookiecutter-project-template-scaffolder
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/cookiecutter-project-template-scaffolder/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/cookiecutter-project-template-scaffolder/)

@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Puppeteer Stealth Scraper
 
 Anti-detection web scraping using puppeteer-extra-plugin-stealth with residential proxy rotation. Implements Canvas fingerprint spoofing and WebGL vendor masking via puppeteer-extra.
@@ -56,4 +55,4 @@ clawhub install puppeteer-stealth-scraper-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/puppeteer-stealth-scraper-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/puppeteer-stealth-scraper-agent/)

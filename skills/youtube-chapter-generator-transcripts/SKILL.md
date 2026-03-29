@@ -6,7 +6,6 @@ framework: "OpenClaw"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/youtube-chapter-generator-transcripts/"
 ---
-
 # YouTube Chapter Generator from Transcripts
 
 Extracts YouTube video transcripts via the youtube-transcript-api Python library and generates semantic chapter markers. Uses sentence-transformers for topic segmentation and formats chapter timestamps for YouTube description metadata compliance.
@@ -59,4 +58,4 @@ clawhub install youtube-chapter-generator-transcripts
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/youtube-chapter-generator-transcripts/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/youtube-chapter-generator-transcripts/)

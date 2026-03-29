@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # AWS CodePipeline Orchestrator
 
 Manages AWS CodePipeline stages and actions using AWS SDK for JavaScript (CodePipeline, CodeBuild, CodeDeploy APIs). Automates blue-green deployments and cross-account pipeline configurations.
@@ -56,4 +55,4 @@ clawhub install aws-codepipeline-orchestrator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/aws-codepipeline-orchestrator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/aws-codepipeline-orchestrator/)

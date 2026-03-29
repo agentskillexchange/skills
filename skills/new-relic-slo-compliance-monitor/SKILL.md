@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # New Relic SLO Compliance Monitor
 
 Tracks SLO compliance using the New Relic NerdGraph GraphQL API and NRQL queries. Calculates error budgets, burn rates, and generates compliance reports with Slack notifications via Incoming Webhooks.
@@ -56,4 +55,4 @@ clawhub install new-relic-slo-compliance-monitor
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/new-relic-slo-compliance-monitor/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/new-relic-slo-compliance-monitor/)

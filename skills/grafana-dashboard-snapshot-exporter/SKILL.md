@@ -12,7 +12,6 @@ tool_ecosystem:
   license: AGPL-3.0
   maintained: true
 ---
-
 # Grafana Dashboard Snapshot Exporter
 
 Exports Grafana dashboards as shareable snapshots using the Grafana HTTP API /api/snapshots endpoint. Captures panel data at point-in-time with configurable expiration and external sharing via snapshot keys.
@@ -55,4 +54,4 @@ clawhub install grafana-dashboard-snapshot-exporter
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/grafana-dashboard-snapshot-exporter/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/grafana-dashboard-snapshot-exporter/)

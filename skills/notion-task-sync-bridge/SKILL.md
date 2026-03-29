@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Notion Task Sync Bridge
 
 Bidirectionally syncs tasks between Notion databases and external project management tools using the Notion API v2022-06-28. Handles property mapping, status updates, and relation fields.
@@ -56,4 +55,4 @@ clawhub install notion-task-sync-bridge
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/notion-task-sync-bridge/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/notion-task-sync-bridge/)

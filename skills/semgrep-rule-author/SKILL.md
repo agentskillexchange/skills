@@ -12,7 +12,6 @@ tool_ecosystem:
   license: LGPL-2.1
   maintained: true
 ---
-
 # Semgrep Rule Author
 
 Generates custom Semgrep rules from natural language descriptions of vulnerability patterns. Uses semgrep –validate to verify rule syntax and semgrep –test to run against sample code fixtures automatically.
@@ -73,4 +72,4 @@ clawhub install semgrep-rule-author
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/semgrep-rule-author/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/semgrep-rule-author/)

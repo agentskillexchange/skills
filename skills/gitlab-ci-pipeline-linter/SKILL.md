@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: gitlabhq/gitlabhq
   maintained: true
 ---
-
 # GitLab CI Pipeline Linter
 
 Validates and optimizes .gitlab-ci.yml configurations using the GitLab CI Lint API (/api/v4/ci/lint). Checks for DAG dependency cycles, detects redundant job definitions, and suggests pipeline graph optimizations via the needs keyword.
@@ -62,4 +61,4 @@ clawhub install gitlab-ci-pipeline-linter
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/gitlab-ci-pipeline-linter/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/gitlab-ci-pipeline-linter/)

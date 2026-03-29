@@ -8,7 +8,6 @@ source: "https://agentskillexchange.com/skills/snowflake-query-optimizer-agent/"
 tool_ecosystem:
   tool: snowflake
 ---
-
 # Snowflake Query Optimizer Agent
 
 Analyzes and optimizes Snowflake SQL queries using the QUERY_HISTORY and ACCESS_HISTORY views in ACCOUNT_USAGE. Identifies expensive scans, recommends clustering keys, and monitors warehouse credit consumption via WAREHOUSE_METERING_HISTORY.
@@ -55,4 +54,4 @@ clawhub install snowflake-query-optimizer-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/snowflake-query-optimizer-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/snowflake-query-optimizer-agent/)

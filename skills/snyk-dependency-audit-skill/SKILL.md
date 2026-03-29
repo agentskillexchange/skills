@@ -12,7 +12,6 @@ tool_ecosystem:
   github_repo: snyk/cli
   maintained: true
 ---
-
 # Snyk Dependency Audit Skill
 
 Uses the Snyk CLI and REST API v1 to scan package manifests for known CVEs. Cross-references findings with the GitHub Advisory Database and produces SBOM documents in CycloneDX format.
@@ -59,4 +58,4 @@ clawhub install snyk-dependency-audit-skill
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/snyk-dependency-audit-skill/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/snyk-dependency-audit-skill/)

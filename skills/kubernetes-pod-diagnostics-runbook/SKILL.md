@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Kubernetes Pod Diagnostics Runbook
 
 Automates Kubernetes troubleshooting using kubectl and the Kubernetes Python client to diagnose CrashLoopBackOff, OOMKilled, and ImagePullBackOff states. Collects pod logs, events, node conditions, and resource quotas systematically.
@@ -59,4 +58,4 @@ clawhub install kubernetes-pod-diagnostics-runbook
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/kubernetes-pod-diagnostics-runbook/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-pod-diagnostics-runbook/)

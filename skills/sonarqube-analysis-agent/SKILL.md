@@ -12,7 +12,6 @@ tool_ecosystem:
   license: LGPL-3.0
   maintained: true
 ---
-
 # SonarQube Analysis Agent
 
 Integrates with the SonarQube REST API to run static code analysis scans, retrieve quality gate results, and flag code smells. Supports SonarCloud and on-premise SonarQube instances via token-based authentication.
@@ -59,4 +58,4 @@ clawhub install sonarqube-analysis-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/sonarqube-analysis-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/sonarqube-analysis-agent/)

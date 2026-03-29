@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: circleci/circleci-docs
   maintained: true
 ---
-
 # CircleCI Workflow Builder
 
 Generates CircleCI config.yml workflows using the CircleCI Orbs SDK and Workflows API. Supports parallelism tuning with the CircleCI Test Splitting API and resource class optimization for Docker and machine executors.
@@ -54,4 +53,4 @@ clawhub install circleci-workflow-builder
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/circleci-workflow-builder/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-workflow-builder/)

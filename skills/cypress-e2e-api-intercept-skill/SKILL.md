@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Cypress E2E API Intercept Skill
 
 Creates end-to-end tests with Cypress cy.intercept() for API mocking and cy.wait() for request assertion. Uses Cypress Testing Library queries with findByRole() and findByText() for accessible element selection.
@@ -56,4 +55,4 @@ clawhub install cypress-e2e-api-intercept-skill
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/cypress-e2e-api-intercept-skill/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/cypress-e2e-api-intercept-skill/)

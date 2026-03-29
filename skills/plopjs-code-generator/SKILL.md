@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Plop.js Code Generator
 
 Creates Plop.js generators with Handlebars templates and custom action types for scaffolding React components, API routes, and test files. Uses inquirer prompts with validation and the addMany action for batch file generation.
@@ -62,4 +61,4 @@ clawhub install plopjs-code-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/plopjs-code-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/plopjs-code-generator/)

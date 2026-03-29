@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # REST API Reference Generator
 
 Generates interactive API reference documentation from OpenAPI 3.x specs using Swagger Parser and Redoc. Validates schemas, produces code samples in multiple languages via OpenAPI Generator CLI.
@@ -56,4 +55,4 @@ clawhub install rest-api-reference-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/rest-api-reference-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/rest-api-reference-generator/)

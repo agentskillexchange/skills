@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # AWS CloudFormation Drift Detector
 
 Monitors AWS CloudFormation stacks for configuration drift using the AWS SDK DetectStackDrift and DescribeStackResourceDrifts APIs. Generates remediation templates and integrates with AWS Config rules for continuous compliance.
@@ -60,4 +59,4 @@ clawhub install aws-cloudformation-drift-detector-4
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/aws-cloudformation-drift-detector-4/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/aws-cloudformation-drift-detector-4/)

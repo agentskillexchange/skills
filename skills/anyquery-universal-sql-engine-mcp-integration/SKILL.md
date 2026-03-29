@@ -6,7 +6,6 @@ framework: "MCP"
 verification: security_reviewed
 source: "https://github.com/julien040/anyquery"
 ---
-
 # Anyquery Universal SQL Engine with MCP Integration
 
 Anyquery is a SQL query engine that lets you run SQL against 40+ apps, files, and databases including GitHub, Notion, Chrome, and Apple Notes. Built on SQLite with MCP server support for connecting AI agents to structured data across services.
@@ -55,4 +54,4 @@ clawhub install anyquery-universal-sql-engine-mcp-integration
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/anyquery-universal-sql-engine-mcp-integration/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/anyquery-universal-sql-engine-mcp-integration/)

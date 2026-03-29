@@ -6,7 +6,6 @@ framework: "OpenClaw"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/woocommerce-order-sync-agent/"
 ---
-
 # WooCommerce Order Sync Agent
 
 Synchronizes WooCommerce orders with external ERPs using the WooCommerce REST API v3 and wp_schedule_event. Handles order status webhooks, inventory adjustments via wc_update_product_stock, and generates reconciliation reports.
@@ -49,4 +48,4 @@ clawhub install woocommerce-order-sync-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/woocommerce-order-sync-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/woocommerce-order-sync-agent/)

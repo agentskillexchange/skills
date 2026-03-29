@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # GraphQL Schema Drift Detector
 
 Detects breaking changes in GraphQL schemas using graphql-inspector and the GraphQL introspection query. Compares schema versions, identifies removed fields, changed types, and deprecated directive usage.
@@ -60,4 +59,4 @@ clawhub install graphql-schema-drift-detector
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/graphql-schema-drift-detector/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/graphql-schema-drift-detector/)

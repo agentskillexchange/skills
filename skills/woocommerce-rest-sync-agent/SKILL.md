@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # WooCommerce REST Sync Agent
 
 Synchronizes WooCommerce product data bidirectionally using the WC REST API v3 and wc/v3/products endpoints. Handles batch create/update/delete with OAuth 1.0a authentication and rate-limit backoff.
@@ -60,4 +59,4 @@ clawhub install woocommerce-rest-sync-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/woocommerce-rest-sync-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/woocommerce-rest-sync-agent/)

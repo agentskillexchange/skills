@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # ESLint Custom Rule Generator
 
 Generates custom ESLint rules from natural language descriptions using the ESLint RuleTester API and AST Explorer patterns. Produces complete rule modules with meta schemas, fixers, and comprehensive test suites.
@@ -60,4 +59,4 @@ clawhub install eslint-custom-rule-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/eslint-custom-rule-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/eslint-custom-rule-generator/)

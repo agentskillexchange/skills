@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # OpenAPI Spec Linter & Docs Generator
 
 Validates OpenAPI 3.x specifications using Spectral rulesets and generates interactive API documentation with Redoc and Swagger UI. Detects breaking changes using oasdiff for versioned APIs.
@@ -60,4 +59,4 @@ clawhub install openapi-spec-linter-docs-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/openapi-spec-linter-docs-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/openapi-spec-linter-docs-generator/)

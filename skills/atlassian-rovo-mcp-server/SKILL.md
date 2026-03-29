@@ -8,7 +8,6 @@ source: "https://github.com/atlassian/atlassian-mcp-server"
 tool_ecosystem:
   tool: jira
 ---
-
 # Atlassian Rovo MCP Server
 
 The Atlassian Rovo MCP Server bridges your Atlassian Cloud workspace with any MCP client. Search and summarize Jira issues, create tickets from natural language, update Confluence pages, and query Compass services.
@@ -79,4 +78,4 @@ clawhub install atlassian-rovo-mcp-server
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/atlassian-rovo-mcp-server/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/atlassian-rovo-mcp-server/)

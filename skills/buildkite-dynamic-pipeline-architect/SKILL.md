@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Buildkite Dynamic Pipeline Architect
 
 Creates dynamic Buildkite pipelines using the Buildkite REST API and pipeline upload mechanism. Implements conditional step generation based on file change detection via git diff.
@@ -59,4 +58,4 @@ clawhub install buildkite-dynamic-pipeline-architect
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/buildkite-dynamic-pipeline-architect/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/buildkite-dynamic-pipeline-architect/)

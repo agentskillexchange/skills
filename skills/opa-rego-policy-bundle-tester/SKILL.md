@@ -6,7 +6,6 @@ framework: "OpenClaw"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/opa-rego-policy-bundle-tester/"
 ---
-
 # OPA Rego Policy Bundle Tester
 
 Tests authorization and policy bundles with the Open Policy Agent `/v1/data` and `/v1/compile` APIs plus `opa test` semantics. Great for agents that need to explain which Rego rules allow or deny a request before policy changes go live.
@@ -53,4 +52,4 @@ clawhub install opa-rego-policy-bundle-tester
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/opa-rego-policy-bundle-tester/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/opa-rego-policy-bundle-tester/)

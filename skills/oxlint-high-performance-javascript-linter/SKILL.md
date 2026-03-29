@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Oxlint High-Performance JavaScript Linter
 
 Run Oxlint from the Oxc toolchain to lint JavaScript and TypeScript codebases at extreme speed. Written in Rust, Oxlint is 50-100x faster than ESLint and used by Shopify, ByteDance, and Preact.
@@ -70,4 +69,4 @@ clawhub install oxlint-high-performance-javascript-linter
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/oxlint-high-performance-javascript-linter/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/oxlint-high-performance-javascript-linter/)

@@ -12,7 +12,6 @@ tool_ecosystem:
   license: BSD-3-Clause
   maintained: true
 ---
-
 # Tesseract OCR Document Extractor
 
 Extracts structured text from scanned documents and images using Tesseract OCR with custom LSTM training data. Supports table detection via OpenCV contour analysis and PDF/A output generation.
@@ -59,4 +58,4 @@ clawhub install tesseract-ocr-document-extractor
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/tesseract-ocr-document-extractor/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/tesseract-ocr-document-extractor/)

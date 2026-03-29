@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Puppeteer Visual Regression Testing
 
 Runs pixel-level visual regression tests using Puppeteer page.screenshot() and pixelmatch diffing library. Compares baseline screenshots against current renders with configurable threshold tolerance.
@@ -56,4 +55,4 @@ clawhub install puppeteer-visual-regression-testing
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/puppeteer-visual-regression-testing/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/puppeteer-visual-regression-testing/)

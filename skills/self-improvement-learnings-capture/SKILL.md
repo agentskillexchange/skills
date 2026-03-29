@@ -6,7 +6,6 @@ framework: "OpenClaw"
 verification: security_reviewed
 source: "https://github.com/pskoett/pskoett-ai-skills/tree/main/skills/self-improvement"
 ---
-
 # Self-Improvement / Learnings Capture
 
 Capture failures, corrections, and repeatable lessons so important operational knowledge persists across sessions.
@@ -63,4 +62,4 @@ clawhub install self-improvement-learnings-capture
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/self-improvement-learnings-capture/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/self-improvement-learnings-capture/)

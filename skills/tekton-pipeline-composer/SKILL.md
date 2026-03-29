@@ -12,7 +12,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Tekton Pipeline Composer
 
 Builds Tekton CI/CD pipelines on Kubernetes using the Tekton Pipelines API and tkn CLI. Composes Tasks, PipelineRuns, and TriggerBindings with proper workspace and result propagation between steps.
@@ -61,4 +60,4 @@ clawhub install tekton-pipeline-composer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/tekton-pipeline-composer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/tekton-pipeline-composer/)

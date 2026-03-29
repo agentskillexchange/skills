@@ -12,7 +12,6 @@ tool_ecosystem:
   license: AGPL-3.0
   maintained: true
 ---
-
 # Grafana OnCall Escalation Chain Manager
 
 Configures Grafana OnCall escalation chains, notification policies, and on-call schedules via the Grafana OnCall HTTP API. Manages integration routes from Alertmanager, Zabbix, and Datadog with automatic responder assignment.
@@ -55,4 +54,4 @@ clawhub install grafana-oncall-escalation-chain-manager
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/grafana-oncall-escalation-chain-manager/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/grafana-oncall-escalation-chain-manager/)

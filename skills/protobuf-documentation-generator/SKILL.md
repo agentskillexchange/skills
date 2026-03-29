@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Protobuf Documentation Generator
 
 Generates API documentation from Protocol Buffer definitions using protoc-gen-doc and buf build toolchain. Produces Markdown, HTML, and DocJSON output with cross-linked message and service references.
@@ -56,4 +55,4 @@ clawhub install protobuf-documentation-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/protobuf-documentation-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/protobuf-documentation-generator/)

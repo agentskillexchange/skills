@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # NPM Package Audit Analyzer
 
 Analyzes npm package security advisories using npm audit, the npm Registry API, and the GitHub Advisory Database GraphQL API. Produces prioritized vulnerability reports with upgrade path recommendations.
@@ -60,4 +59,4 @@ clawhub install npm-package-audit-analyzer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/npm-package-audit-analyzer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/npm-package-audit-analyzer/)

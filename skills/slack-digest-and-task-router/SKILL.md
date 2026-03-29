@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Slack Digest and Task Router
 
 Reads unread Slack messages from specified channels using the conversations.history API, extracts action items and questions, routes tasks to the right person based on mention patterns, and posts a daily digest summary to a designated summary channel via the Slack Web API.
@@ -60,4 +59,4 @@ clawhub install slack-digest-and-task-router
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/slack-digest-and-task-router/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/slack-digest-and-task-router/)

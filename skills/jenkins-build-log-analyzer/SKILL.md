@@ -12,7 +12,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Jenkins Build Log Analyzer
 
 Parses Jenkins build console logs via the Jenkins Remote Access API to extract failure patterns, stack traces, and flaky test signatures. Uses regex heuristics and the Jenkins Test Results API to correlate failures with specific changes. Outputs a triage report ranked by recurrence frequency.
@@ -55,4 +54,4 @@ clawhub install jenkins-build-log-analyzer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/jenkins-build-log-analyzer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-build-log-analyzer/)

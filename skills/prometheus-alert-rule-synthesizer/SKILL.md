@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Prometheus Alert Rule Synthesizer
 
 Uses the Prometheus HTTP API v1 and PromQL to auto-generate alerting rules from metric baselines. Integrates with Alertmanager API for routing configuration and PagerDuty Events API v2 for escalation.
@@ -56,4 +55,4 @@ clawhub install prometheus-alert-rule-synthesizer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/prometheus-alert-rule-synthesizer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-alert-rule-synthesizer/)

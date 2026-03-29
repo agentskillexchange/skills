@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: circleci/circleci-docs
   maintained: true
 ---
-
 # CircleCI Orb Composition Engine
 
 Composes and publishes CircleCI Orbs using the circleci CLI with orb pack, orb validate, and semantic versioning. Manages reusable executors, commands, and jobs with parameterized pipeline configurations.
@@ -54,4 +53,4 @@ clawhub install circleci-orb-composition-engine
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/circleci-orb-composition-engine/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-orb-composition-engine/)

@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Sharp Image Transform Pipeline
 
 Builds composable image processing pipelines using the Sharp library with libvips bindings for Node.js. Chains resize, crop, overlay, and format conversion operations with streaming I/O, EXIF metadata preservation, and ICC color profile management.
@@ -58,4 +57,4 @@ clawhub install sharp-image-transform-pipeline
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/sharp-image-transform-pipeline/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/sharp-image-transform-pipeline/)

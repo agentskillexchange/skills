@@ -6,7 +6,6 @@ framework: "MCP"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/npm-registry-analyzer/"
 ---
-
 # npm Registry Analyzer
 
 Queries the npm registry API and npms.io scoring endpoint to evaluate package quality, maintenance scores, and download trends. Uses npm-audit for security vulnerability detection against the GitHub Advisory Database.
@@ -53,4 +52,4 @@ clawhub install npm-registry-analyzer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/npm-registry-analyzer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/npm-registry-analyzer/)

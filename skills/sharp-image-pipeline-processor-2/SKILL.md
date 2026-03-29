@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: true
 ---
-
 # Sharp Image Pipeline Processor
 
 Builds composable image transformation pipelines using the Sharp library with operations like resize(), composite(), and toFormat(). Leverages libvips bindings for high-performance batch processing.
@@ -60,4 +59,4 @@ clawhub install sharp-image-pipeline-processor-2
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/sharp-image-pipeline-processor-2/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/sharp-image-pipeline-processor-2/)

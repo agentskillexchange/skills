@@ -12,7 +12,6 @@ tool_ecosystem:
   license: BSD-2-Clause
   maintained: true
 ---
-
 # Nginx Error Pattern Analyzer
 
 Analyzes Nginx error logs using GoAccess and custom regex parsers to identify recurring 502/503 patterns. Correlates upstream timeout errors with backend service health via Prometheus PromQL queries.
@@ -59,4 +58,4 @@ clawhub install nginx-error-pattern-analyzer-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/nginx-error-pattern-analyzer-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/nginx-error-pattern-analyzer-agent/)

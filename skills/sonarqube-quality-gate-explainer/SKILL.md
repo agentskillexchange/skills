@@ -12,7 +12,6 @@ tool_ecosystem:
   license: LGPL-3.0
   maintained: true
 ---
-
 # SonarQube Quality Gate Explainer
 
 Fetches the latest SonarQube project analysis result, explains why the Quality Gate failed in plain English, and links to specific issues. Covers coverage drops, new bugs, and security hotspots. Supports SonarQube Server and SonarCloud. Diagnostic only.
@@ -67,4 +66,4 @@ clawhub install sonarqube-quality-gate-explainer
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/sonarqube-quality-gate-explainer/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/sonarqube-quality-gate-explainer/)

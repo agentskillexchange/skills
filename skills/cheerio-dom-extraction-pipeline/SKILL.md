@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Cheerio DOM Extraction Pipeline
 
 Builds configurable data extraction pipelines using Cheerio for server-side DOM parsing with CSS selector chains. Supports JSONPath output mapping, pagination following, and schema validation via Ajv.
@@ -62,4 +61,4 @@ clawhub install cheerio-dom-extraction-pipeline
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/cheerio-dom-extraction-pipeline/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/cheerio-dom-extraction-pipeline/)

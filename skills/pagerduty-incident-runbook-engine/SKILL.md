@@ -13,7 +13,6 @@ tool_ecosystem:
   license: Apache-2.0
   maintained: false
 ---
-
 # PagerDuty Incident Runbook Engine
 
 Generates automated incident response runbooks triggered by PagerDuty webhooks via the PagerDuty Events API v2. Integrates with Datadog API and AWS CloudWatch for diagnostic data collection during incidents.
@@ -60,4 +59,4 @@ clawhub install pagerduty-incident-runbook-engine
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/pagerduty-incident-runbook-engine/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/pagerduty-incident-runbook-engine/)

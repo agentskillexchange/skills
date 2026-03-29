@@ -11,7 +11,6 @@ tool_ecosystem:
   github_repo: WordPress/WordPress
   maintained: true
 ---
-
 # WordPress Multisite Provisioner
 
 Automates WordPress Multisite network site creation using wp_insert_site() and the Sites REST API. Configures per-site themes, plugins, and options via switch_to_blog() with subdomain or subdirectory routing.
@@ -58,4 +57,4 @@ clawhub install wp-multisite-provisioner-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/wp-multisite-provisioner-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/wp-multisite-provisioner-agent/)

@@ -12,7 +12,6 @@ tool_ecosystem:
   license: BSD-2-Clause
   maintained: true
 ---
-
 # Nginx Config Validator Runbook
 
 Validates Nginx configurations using nginx -t syntax checking, the crossplane Python parser for structural analysis, and gixy security analyzer. Detects misconfigurations, SSL issues, and security vulnerabilities.
@@ -55,4 +54,4 @@ clawhub install nginx-config-validator-runbook
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/nginx-config-validator-runbook/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/nginx-config-validator-runbook/)

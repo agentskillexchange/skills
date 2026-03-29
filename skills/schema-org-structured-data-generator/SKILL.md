@@ -6,7 +6,6 @@ framework: "Gemini"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/schema-org-structured-data-generator/"
 ---
-
 # Schema.org Structured Data Generator
 
 Generates JSON-LD structured data markup for articles, products, FAQs, and how-to pages using Schema.org vocabulary. Validates output against Google Rich Results Test API and SchemaValidator.org endpoints.
@@ -49,4 +48,4 @@ clawhub install schema-org-structured-data-generator
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/schema-org-structured-data-generator/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/schema-org-structured-data-generator/)

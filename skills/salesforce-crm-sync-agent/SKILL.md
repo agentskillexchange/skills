@@ -13,7 +13,6 @@ tool_ecosystem:
   license: MIT
   maintained: true
 ---
-
 # Salesforce CRM Sync Agent
 
 Bidirectional Salesforce integration using jsforce library and the Salesforce REST API. Performs SOQL queries via connection.query(), bulk upserts through connection.sobject().upsertBulk(), and subscribes to Platform Events using connection.streaming.topic() for real-time data sync.
@@ -62,4 +61,4 @@ clawhub install salesforce-crm-sync-agent
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/salesforce-crm-sync-agent/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/salesforce-crm-sync-agent/)

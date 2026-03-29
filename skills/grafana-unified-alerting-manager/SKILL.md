@@ -12,7 +12,6 @@ tool_ecosystem:
   license: AGPL-3.0
   maintained: true
 ---
-
 # Grafana Unified Alerting Manager
 
 Manages Grafana Unified Alerting rules, contact points, and notification policies via the Grafana HTTP API. Supports alert rule provisioning and silence management across multiple Grafana instances.
@@ -55,4 +54,4 @@ clawhub install grafana-unified-alerting-manager
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/grafana-unified-alerting-manager/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/grafana-unified-alerting-manager/)

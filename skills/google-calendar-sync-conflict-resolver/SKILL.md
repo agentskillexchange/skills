@@ -6,7 +6,6 @@ framework: "OpenClaw"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/google-calendar-sync-conflict-resolver/"
 ---
-
 # Google Calendar Sync & Conflict Resolver
 
 Bidirectional calendar synchronization using Google Calendar API v3 with OAuth 2.0. Detects scheduling conflicts across multiple calendars, suggests optimal meeting times using FreeBusy API queries.
@@ -55,4 +54,4 @@ clawhub install google-calendar-sync-conflict-resolver
 
 ## Source
 
-- Marketplace: https://agentskillexchange.com/skills/google-calendar-sync-conflict-resolver/
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/google-calendar-sync-conflict-resolver/)
