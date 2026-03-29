@@ -131,6 +131,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [dlt Python Data Load Tool](../../skills/dlt-python-data-load-tool/) | — | — |
 | [Evidence BI-as-Code SQL and Markdown Analytics Framework](../../skills/evidence-bi-as-code-sql-markdown-analytics/) | — | — |
 | [ExifTool Metadata Reader and Writer for Images and Files](../../skills/exiftool-metadata-reader-writer-images-files/) | — | — |
+| [franc Natural Language Detection Library and CLI](../../skills/franc-natural-language-detection/) | — | — |
 | [fx Terminal JSON Viewer and Processor](../../skills/fx-terminal-json-viewer-processor/) | — | — |
 | [gallery-dl Image Gallery and Collection Downloader](../../skills/gallery-dl-image-gallery-collection-downloader/) | — | — |
 | [gron Greppable JSON Flattener](../../skills/gron-greppable-json-flattener/) | — | — |

@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1426 published skills** across **17 categories** · 1382 security reviewed · Updated 2026-03-29 01:15 UTC
+> **1431 published skills** across **17 categories** · 1382 security reviewed · Updated 2026-03-29 03:17 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -440,7 +440,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Systemd Service Recovery Playbook](skills/systemd-service-recovery-playbook-2/) | Diagnoses and recovers failed systemd services using journalctl, systemctl status, and D-Bus… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (106 skills)
+### 🔄 Data Extraction & Transformation (107 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -537,6 +537,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [dlt Python Data Load Tool](skills/dlt-python-data-load-tool/) | An open-source Python library that makes loading data from APIs, databases, and files into structured datasets… | Security Reviewed | — | — |
 | [Evidence BI-as-Code SQL and Markdown Analytics Framework](skills/evidence-bi-as-code-sql-markdown-analytics/) | Evidence is an open-source framework for building data products with SQL and Markdown. It generates interactive… | Security Reviewed | — | — |
 | [ExifTool Metadata Reader and Writer for Images and Files](skills/exiftool-metadata-reader-writer-images-files/) | ExifTool by Phil Harvey is a comprehensive Perl-based CLI tool for reading, writing, and editing metadata in over… | Published | — | — |
+| [franc Natural Language Detection Library and CLI](skills/franc-natural-language-detection/) | franc is a JavaScript library and CLI tool for detecting the language of text. It supports up to 419 languages and… | Published | — | — |
 | [fx Terminal JSON Viewer and Processor](skills/fx-terminal-json-viewer-processor/) | fx is a terminal-based JSON viewer and processor that provides an interactive TUI for navigating, filtering, and… | Security Reviewed | — | — |
 | [gallery-dl Image Gallery and Collection Downloader](skills/gallery-dl-image-gallery-collection-downloader/) | gallery-dl is a command-line tool for downloading image galleries and collections from dozens of hosting sites… | Security Reviewed | — | — |
 | [gron Greppable JSON Flattener](skills/gron-greppable-json-flattener/) | gron transforms JSON into discrete assignment statements, making it possible to grep through complex JSON structures… | Security Reviewed | — | — |
@@ -1443,7 +1444,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Rod Go Chrome DevTools Protocol Driver for Web Automation](skills/rod-go-cdp-browser-automation/) | Rod is a high-level Go library built directly on the Chrome DevTools Protocol for web automation and scraping. It… | Published | — | — |
 
 
-### 📰 WordPress & CMS (55 skills)
+### 📰 WordPress & CMS (56 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS&sort=downloads)
 
@@ -1497,6 +1498,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Word
 | [Front Matter CMS Visual Studio Code Headless CMS](skills/front-matter-cms-vscode-headless-cms/) | An agent skill built on Front Matter CMS, the headless content management system that runs directly inside Visual… | Security Reviewed | — | — |
 | [Ghost Admin API Headless Publishing and CMS Automation](skills/ghost-admin-api-headless-publishing-cms-automation/) | The Ghost Admin API exposes authenticated operations for posts, pages, tags, members, offers, and newsletter… | Security Reviewed | — | — |
 | [Query Monitor WordPress Developer Tools Panel](skills/query-monitor-wordpress-developer-tools-panel/) | Query Monitor is the developer tools panel for WordPress and WooCommerce. It enables debugging of database queries,… | Published | — | — |
+| [Sage WordPress Starter Theme with Laravel Blade and Tailwind CSS](skills/sage-wordpress-starter-theme-laravel-blade/) | Sage by Roots is an advanced WordPress starter theme that brings Laravel Blade templating, Vite-powered front-end… | Published | — | — |
 | [Sanity Structured Content Studio and Content Lake](skills/sanity-structured-content-studio-content-lake/) | Sanity combines a customizable content studio with a real-time content backend and GROQ-powered querying. This skill… | Security Reviewed | — | — |
 | [Storyblok Management API and JavaScript Client](skills/storyblok-management-api-and-javascript-client/) | Use Storyblok’s Management API and JavaScript client to automate stories, components, assets, spaces, and editorial… | Security Reviewed | — | — |
 | [WooCommerce Order Sync Agent](skills/woocommerce-order-sync-agent/) | Synchronizes WooCommerce orders with external ERPs using the WooCommerce REST API v3 and wp_schedule_event. Handles… | Security Reviewed | — | — |
@@ -1506,7 +1508,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Word
 | [wp-browser WordPress Integration Testing with Codeception](skills/wp-browser-wordpress-integration-testing-codeception/) | wp-browser is a PHP library that provides Codeception modules for testing WordPress plugins and themes. It supports… | Published | — | — |
 
 
-### ✍️ Content Writing & SEO (52 skills)
+### ✍️ Content Writing & SEO (55 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=downloads)
 
@@ -1545,6 +1547,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cont
 | [Hemingway Readability Analyzer API](skills/hemingway-readability-analyzer-api/) | Scores content readability using textstat library metrics (Flesch-Kincaid, Gunning Fog, SMOG, Coleman-Liau).… | Security Reviewed | — | — |
 | [Internal Link Optimizer](skills/internal-link-optimizer-seo/) | Optimizes internal linking structure using Screaming Frog SEO Spider XML exports and NetworkX graph analysis.… | Security Reviewed | — | — |
 | [LanguageTool Grammar and Style Checker](skills/languagetool-grammar-style-checker/) | Check grammar, style, and spelling across 25+ languages with LanguageTool. This open-source proofreading engine can… | Security Reviewed | — | — |
+| [Markdoc Markdown-Based Authoring Framework by Stripe](skills/markdoc-markdown-authoring-framework-stripe/) | Markdoc is a powerful Markdown-based authoring framework created by Stripe to power their public documentation. It… | Published | — | — |
 | [Markdown-to-AMP Article Converter](skills/markdown-to-amp-article-converter/) | Converts Markdown files to valid AMP HTML articles using unified/remark/rehype pipeline. Validates output against… | Security Reviewed | — | — |
 | [markdownlint-cli2 Markdown Linting for Docs and Repos](skills/markdownlint-cli2-markdown-linting-docs-repos/) | This skill uses markdownlint-cli2 to enforce consistent Markdown quality across docs, READMEs, and content… | Security Reviewed | — | — |
 | [proselint Prose Linting and Style Checker CLI](skills/proselint-prose-linting-style-checker-cli/) | proselint is a Python CLI tool that lints English prose for style and usage issues. It aggregates writing advice… | Published | — | — |
@@ -1562,8 +1565,10 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cont
 | [Surfer SEO SERP Analyzer](skills/surfer-seo-serp-analyzer/) | Uses Surfer SEO Content Editor API to pull SERP analysis data including word count benchmarks, heading structure… | Security Reviewed | — | — |
 | [Technical SEO Audit Crawler](skills/technical-seo-audit-crawler/) | Crawls websites for technical SEO issues using Screaming Frog CLI, Lighthouse CI API, and PageSpeed Insights v5.… | Security Reviewed | — | — |
 | [textstat Python Readability Statistics Calculator](skills/textstat-python-readability-statistics-calculator/) | textstat is a Python package that calculates readability statistics for text content, including Flesch Reading Ease,… | Published | — | — |
+| [Typst Markup-Based Document Typesetting System](skills/typst-markup-typesetting-system/) | Typst is a modern markup-based typesetting system designed to replace LaTeX with a faster, easier-to-learn… | Published | — | — |
 | [Unlighthouse Site-Wide Lighthouse and SEO Auditing](skills/unlighthouse-site-wide-lighthouse-seo-auditing/) | Unlighthouse runs Google Lighthouse across an entire site instead of just a single page. This skill gives agents a… | Security Reviewed | — | — |
 | [write-good English Prose Linting for Technical Content](skills/write-good-english-prose-linting-technical-content/) | This skill uses write-good to flag vague, wordy, or hard-to-read English prose in documentation and content drafts.… | Security Reviewed | — | — |
+| [Zola Fast Static Site Generator in a Single Binary](skills/zola-static-site-generator/) | Zola is a fast static site generator written in Rust that ships as a single binary with built-in Sass compilation,… | Published | — | — |
 
 
 ---

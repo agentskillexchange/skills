@@ -71,6 +71,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [Hemingway Readability Analyzer API](../../skills/hemingway-readability-analyzer-api/) | — | — |
 | [Internal Link Optimizer](../../skills/internal-link-optimizer-seo/) | — | — |
 | [LanguageTool Grammar and Style Checker](../../skills/languagetool-grammar-style-checker/) | — | — |
+| [Markdoc Markdown-Based Authoring Framework by Stripe](../../skills/markdoc-markdown-authoring-framework-stripe/) | — | — |
 | [Markdown-to-AMP Article Converter](../../skills/markdown-to-amp-article-converter/) | — | — |
 | [markdownlint-cli2 Markdown Linting for Docs and Repos](../../skills/markdownlint-cli2-markdown-linting-docs-repos/) | — | — |
 | [proselint Prose Linting and Style Checker CLI](../../skills/proselint-prose-linting-style-checker-cli/) | — | — |
@@ -88,8 +89,10 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [Surfer SEO SERP Analyzer](../../skills/surfer-seo-serp-analyzer/) | — | — |
 | [Technical SEO Audit Crawler](../../skills/technical-seo-audit-crawler/) | — | — |
 | [textstat Python Readability Statistics Calculator](../../skills/textstat-python-readability-statistics-calculator/) | — | — |
+| [Typst Markup-Based Document Typesetting System](../../skills/typst-markup-typesetting-system/) | — | — |
 | [Unlighthouse Site-Wide Lighthouse and SEO Auditing](../../skills/unlighthouse-site-wide-lighthouse-seo-auditing/) | — | — |
 | [write-good English Prose Linting for Technical Content](../../skills/write-good-english-prose-linting-technical-content/) | — | — |
+| [Zola Fast Static Site Generator in a Single Binary](../../skills/zola-static-site-generator/) | — | — |
 
 ---
 

@@ -1,8 +1,68 @@
 {
   "version": "2.0",
-  "total": 1426,
+  "total": 1431,
   "generated": "2026-03-29",
   "skills": [
+    {
+      "slug": "franc-natural-language-detection",
+      "name": "franc Natural Language Detection Library and CLI",
+      "description": "franc is a JavaScript library and CLI tool for detecting the language of text. It supports up to 419 languages and returns ISO 639-3…",
+      "category": [
+        "Data Extraction & Transformation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "markdoc-markdown-authoring-framework-stripe",
+      "name": "Markdoc Markdown-Based Authoring Framework by Stripe",
+      "description": "Markdoc is a powerful Markdown-based authoring framework created by Stripe to power their public documentation. It extends Markdown with custom tags, functions, and variables…",
+      "category": [
+        "Content Writing & SEO"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "sage-wordpress-starter-theme-laravel-blade",
+      "name": "Sage WordPress Starter Theme with Laravel Blade and Tailwind CSS",
+      "description": "Sage by Roots is an advanced WordPress starter theme that brings Laravel Blade templating, Vite-powered front-end builds, Tailwind CSS, and block editor support to…",
+      "category": [
+        "WordPress & CMS"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "zola-static-site-generator",
+      "name": "Zola Fast Static Site Generator in a Single Binary",
+      "description": "Zola is a fast static site generator written in Rust that ships as a single binary with built-in Sass compilation, syntax highlighting, search indexing,…",
+      "category": [
+        "Content Writing & SEO"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "typst-markup-typesetting-system",
+      "name": "Typst Markup-Based Document Typesetting System",
+      "description": "Typst is a modern markup-based typesetting system designed to replace LaTeX with a faster, easier-to-learn alternative. It features built-in markup, a scripting system, math…",
+      "category": [
+        "Content Writing & SEO"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "mitmproxy-interactive-https-proxy-debugging-security",
       "name": "mitmproxy Interactive HTTPS Proxy for Debugging and Security Testing",
