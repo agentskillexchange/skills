@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1495 published skills** across **17 categories** · 1466 security reviewed · Updated 2026-03-30 17:27 UTC
+> **1500 published skills** across **17 categories** · 1466 security reviewed · Updated 2026-03-30 19:25 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (167 skills)
+### 🛠️ Developer Tools (170 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -142,6 +142,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [E2B Code Execution MCP](skills/e2b-code-execution-mcp/) | Add sandboxed code execution to any MCP-compatible AI client. E2B gives agents access to secure, internet-connected… | Security Reviewed | — | — |
 | [eza Modern File Listing CLI](skills/eza-modern-file-listing-cli/) | A modern, maintained replacement for the ls command, written in Rust. eza provides colorized output, Git… | Security Reviewed | — | — |
 | [fd Fast File Finder CLI](skills/fd-fast-file-finder-cli/) | A fast and user-friendly alternative to the find command, written in Rust. fd provides intuitive syntax, regex and… | Security Reviewed | — | — |
+| [files-to-prompt Directory Concatenator for LLM Context](skills/files-to-prompt-directory-concatenator-llm-context/) | files-to-prompt by Simon Willison concatenates an entire directory of files into a single prompt for use with LLMs.… | Published | — | — |
 | [Freeze Code and Terminal Screenshot Generator](skills/freeze-code-terminal-screenshot-generator/) | Freeze by Charmbracelet generates polished PNG and SVG images of code snippets and terminal output. It supports… | Security Reviewed | — | — |
 | [Frontend Design Guidance Skill](skills/frontend-design-guidance-skill/) | Practical frontend design guidance for landing pages, dashboards, and UI implementation work. | Security Reviewed | — | — |
 | [fzf Command-Line Fuzzy Finder](skills/fzf-command-line-fuzzy-finder/) | fzf is a general-purpose command-line fuzzy finder written in Go. It works as an interactive filter for any list —… | Security Reviewed | — | — |
@@ -162,6 +163,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Just Command Runner](skills/just-command-runner/) | Just is a command runner written in Rust that provides a convenient way to save and run project-specific commands.… | Security Reviewed | — | — |
 | [lazygit Terminal UI for Git Operations](skills/lazygit-terminal-ui-git-operations/) | A simple terminal user interface for git commands built with Go. lazygit provides interactive staging, rebasing,… | Security Reviewed | — | — |
 | [LLDB Debug Session Automator](skills/lldb-debug-session-automator/) | Automates LLDB debugging sessions with scripted breakpoint management and expression evaluation. Uses the LLDB… | Security Reviewed | — | — |
+| [LLM Command-Line Interface for Large Language Models](skills/llm-command-line-interface-large-language-models/) | LLM is a Python CLI tool and library by Simon Willison for accessing OpenAI, Anthropic Claude, Google Gemini, Meta… | Published | — | — |
 | [lsd Next-Generation ls Directory Listing Tool](skills/lsd-next-gen-ls-directory-listing/) | lsd (LSDeluxe) is a modern rewrite of the classic ls command written in Rust, adding color coding, file-type icons… | Security Reviewed | — | — |
 | [Makefile Dependency Auditor](skills/makefile-dependency-auditor/) | Parses GNU Makefiles using pymake and builds complete dependency DAGs. Detects circular dependencies, unreachable… | Security Reviewed | — | — |
 | [mdBook Markdown Book Generator by Rust Project](skills/mdbook-markdown-book-generator-rust/) | mdBook is a command-line utility for creating online books from Markdown files. Built in Rust and maintained by the… | Security Reviewed | — | — |
@@ -170,6 +172,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [NPM Package Auditor](skills/npm-package-auditor-registry-api/) | Audits NPM packages using the NPM Registry API with dependency tree resolution and vulnerability scanning via… | Security Reviewed | — | — |
 | [Package Vulnerability Scanner](skills/package-vuln-scanner-osv-api/) | Scans npm, PyPI, and Go module dependencies for known vulnerabilities using the OSV.dev API and GitHub Advisory… | Security Reviewed | — | — |
 | [pastel Command-Line Color Generation Analysis and Manipulation Tool](skills/pastel-command-line-color-tool/) | pastel is a command-line tool for generating, analyzing, converting, and manipulating colors. Built in Rust by the… | Security Reviewed | — | — |
+| [piku Tiny PaaS for Git Push Deployments to Your Own Servers](skills/piku-tiny-paas-git-push-deployments-own-servers/) | piku is a minimal Heroku-like PaaS that enables git push deployments to any server, from Raspberry Pis to cloud… | Published | — | — |
 | [Pixi Cross-Platform Package Manager Built on Conda](skills/pixi-cross-platform-package-manager-conda-rust/) | A blazing-fast, cross-platform package manager and workflow tool written in Rust. Pixi builds on the Conda ecosystem… | Security Reviewed | — | — |
 | [Repomix Codebase Context Packer for LLMs](skills/repomix-codebase-context-packer-llm/) | Repomix packs an entire code repository into a single AI-friendly file optimized for LLM consumption. It provides… | Security Reviewed | — | — |
 | [Restic Fast Encrypted Backup Program](skills/restic-encrypted-backup-tool/) | Restic is a fast, secure, and efficient backup program supporting local, SFTP, S3, Azure, GCS, and many other… | Security Reviewed | — | — |
@@ -453,7 +456,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Systemd Service Recovery Playbook](skills/systemd-service-recovery-playbook-2/) | Diagnoses and recovers failed systemd services using journalctl, systemctl status, and D-Bus… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (111 skills)
+### 🔄 Data Extraction & Transformation (112 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -559,6 +562,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [htmlq Command-Line HTML Content Extractor with CSS Selectors](skills/htmlq-command-line-html-content-extractor-css-selectors/) | htmlq is a command-line tool for extracting content from HTML using CSS selectors, functioning as the HTML… | Security Reviewed | — | — |
 | [jq Pipeline Builder Agent](skills/jq-pipeline-builder-agent/) | Constructs complex jq filter pipelines from natural language queries against JSON/NDJSON data streams. Uses jq… | Security Reviewed | — | — |
 | [Marker PDF-to-Markdown Converter](skills/marker-pdf-to-markdown-converter/) | Marker converts PDF, DOCX, PPTX, and image files to clean Markdown, JSON, and HTML with high accuracy. It handles… | Security Reviewed | — | — |
+| [MarkItDown Document-to-Markdown Converter by Microsoft](skills/markitdown-document-to-markdown-converter-microsoft/) | MarkItDown is a Python utility by Microsoft that converts PDF, Word, PowerPoint, Excel, images, audio, HTML, and… | Published | — | — |
 | [MinerU PDF-to-Markdown Document Parser](skills/mineru-pdf-to-markdown-document-parser/) | Transforms complex PDFs into LLM-ready markdown and JSON using MinerU, a high-accuracy document intelligence… | Security Reviewed | — | — |
 | [PaddleOCR Multilingual Document OCR and Structured Data Toolkit](skills/paddleocr-multilingual-document-ocr-toolkit/) | PaddleOCR is a powerful, lightweight OCR toolkit developed by Baidu that converts documents and images into… | Security Reviewed | — | — |
 | [Snowflake MCP](skills/snowflake-mcp/) | Snowflake MCP is built around Snowflake cloud data warehouse. It gives an agent a more technical and reliable way to… | Security Reviewed | — | — |
@@ -1284,7 +1288,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [Upscayl Open Source AI Image Upscaler](skills/upscayl-open-source-ai-image-upscaler/) | Upscayl is a free, open-source AI image upscaler for Linux, macOS, and Windows. It uses Real-ESRGAN models with… | Security Reviewed | — | — |
 
 
-### 🔍 Research & Scraping (65 skills)
+### 🔍 Research & Scraping (66 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=downloads)
 
@@ -1353,6 +1357,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [SerpAPI Search Intelligence Aggregator](skills/serpapi-search-intelligence-aggregator/) | Connects to SerpAPI endpoints for Google, Bing, YouTube, and Google Scholar search result extraction. Uses the… | Security Reviewed | — | — |
 | [SerpAPI Search Results Aggregator](skills/serpapi-search-results-aggregator/) | Queries Google, Bing, and DuckDuckGo search APIs through SerpAPI to collect SERP features, Knowledge Graph data, and… | Security Reviewed | — | — |
 | [Shodan Network Reconnaissance Agent](skills/shodan-network-reconnaissance-agent/) | Performs network reconnaissance using the Shodan REST API and Shodan InternetDB. Discovers exposed services, CVE… | Security Reviewed | — | — |
+| [shot-scraper Automated Website Screenshot and Scraping CLI](skills/shot-scraper-automated-website-screenshot-scraping-cli/) | shot-scraper is a Python CLI tool by Simon Willison for taking automated screenshots of websites and executing… | Published | — | — |
 | [Tavily MCP Server for AI-Powered Web Search and Extraction](skills/tavily-mcp-server-ai-web-search-extraction/) | An official MCP server from Tavily that provides AI agents with real-time web search, page extraction, site mapping,… | Security Reviewed | — | — |
 | [theHarvester OSINT Email and Subdomain Intelligence Gatherer](skills/theharvester-osint-email-subdomain-intelligence/) | theHarvester is an open-source OSINT tool for gathering emails, subdomains, hosts, employee names, open ports, and… | Security Reviewed | — | — |
 

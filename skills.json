@@ -1,8 +1,68 @@
 {
   "version": "2.0",
-  "total": 1495,
+  "total": 1500,
   "generated": "2026-03-30",
   "skills": [
+    {
+      "slug": "piku-tiny-paas-git-push-deployments-own-servers",
+      "name": "piku Tiny PaaS for Git Push Deployments to Your Own Servers",
+      "description": "piku is a minimal Heroku-like PaaS that enables git push deployments to any server, from Raspberry Pis to cloud VPSes. It supports Python, Node.js,…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "llm-command-line-interface-large-language-models",
+      "name": "LLM Command-Line Interface for Large Language Models",
+      "description": "LLM is a Python CLI tool and library by Simon Willison for accessing OpenAI, Anthropic Claude, Google Gemini, Meta Llama, and dozens of other…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "files-to-prompt-directory-concatenator-llm-context",
+      "name": "files-to-prompt Directory Concatenator for LLM Context",
+      "description": "files-to-prompt by Simon Willison concatenates an entire directory of files into a single prompt for use with LLMs. It supports file extension filtering, gitignore-aware…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "shot-scraper-automated-website-screenshot-scraping-cli",
+      "name": "shot-scraper Automated Website Screenshot and Scraping CLI",
+      "description": "shot-scraper is a Python CLI tool by Simon Willison for taking automated screenshots of websites and executing JavaScript against pages. Built on Playwright, it…",
+      "category": [
+        "Research & Scraping"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "markitdown-document-to-markdown-converter-microsoft",
+      "name": "MarkItDown Document-to-Markdown Converter by Microsoft",
+      "description": "MarkItDown is a Python utility by Microsoft that converts PDF, Word, PowerPoint, Excel, images, audio, HTML, and other files into Markdown for LLM consumption.…",
+      "category": [
+        "Data Extraction & Transformation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "shiori-self-hosted-bookmark-manager-cli-web",
       "name": "Shiori Self-Hosted Bookmark Manager with CLI and Web Interface",

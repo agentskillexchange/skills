@@ -1,13 +1,13 @@
 # Skill Categories
 
-> **1495 skills** across **17 categories**
+> **1500 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
-| 🛠️ | [**Developer Tools**](developer-tools/) | **167** | CLI helpers, dev environment setup, productivity utilities, and devel... |
+| 🛠️ | [**Developer Tools**](developer-tools/) | **170** | CLI helpers, dev environment setup, productivity utilities, and devel... |
 | 🔧 | [**CI/CD Integrations**](ci-cd-integrations/) | **141** | Pipeline configs, deployment automation, build tooling, and continuou... |
 | 📋 | [**Runbooks & Diagnostics**](runbooks-diagnostics/) | **113** | Incident response, troubleshooting guides, system diagnostics, and op... |
-| 🔄 | [**Data Extraction & Transformation**](data-extraction-transformation/) | **111** | Parsing, ETL pipelines, format conversion, data wrangling, and transf... |
+| 🔄 | [**Data Extraction & Transformation**](data-extraction-transformation/) | **112** | Parsing, ETL pipelines, format conversion, data wrangling, and transf... |
 | 🔒 | [**Security & Verification**](security-verification/) | **102** | Auth setup, vulnerability scanning, compliance checks, and security a... |
 | 📚 | [**Library & API Reference**](library-api-reference/) | **94** | SDK documentation, API guides, framework reference material, and libr... |
 | 📊 | [**Monitoring & Alerts**](monitoring-alerts/) | **89** | Metrics collection, alerting rules, observability setup, and system m... |
@@ -16,7 +16,7 @@
 | 🎙️ | [**Media & Transcription**](media-transcription/) | **67** | Audio/video processing, speech-to-text, media conversion, and transcr... |
 | 📄 | [**Templates & Workflows**](templates-workflows/) | **66** | Project scaffolding, boilerplate generators, workflow templates, and ... |
 | 🎨 | [**Image & Creative Automation**](image-creative-automation/) | **66** | Image generation, asset processing, design automation, and creative t... |
-| 🔍 | [**Research & Scraping**](research-scraping/) | **65** | Web research, data collection, content aggregation, and information g... |
+| 🔍 | [**Research & Scraping**](research-scraping/) | **66** | Web research, data collection, content aggregation, and information g... |
 | 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **63** | Third-party API bridges, webhook handlers, service connectors, and pl... |
 | 🌐 | [**Browser Automation**](browser-automation/) | **60** | Web scraping, UI testing, headless browser control, and browser-based... |
 | 📰 | [**WordPress & CMS**](wordpress-cms/) | **59** | Theme/plugin development, WP-CLI automation, CMS management, and Word... |

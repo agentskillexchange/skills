@@ -168,6 +168,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [E2B Code Execution MCP](../../skills/e2b-code-execution-mcp/) | — | — |
 | [eza Modern File Listing CLI](../../skills/eza-modern-file-listing-cli/) | — | — |
 | [fd Fast File Finder CLI](../../skills/fd-fast-file-finder-cli/) | — | — |
+| [files-to-prompt Directory Concatenator for LLM Context](../../skills/files-to-prompt-directory-concatenator-llm-context/) | — | — |
 | [Freeze Code and Terminal Screenshot Generator](../../skills/freeze-code-terminal-screenshot-generator/) | — | — |
 | [Frontend Design Guidance Skill](../../skills/frontend-design-guidance-skill/) | — | — |
 | [fzf Command-Line Fuzzy Finder](../../skills/fzf-command-line-fuzzy-finder/) | — | — |
@@ -188,6 +189,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Just Command Runner](../../skills/just-command-runner/) | — | — |
 | [lazygit Terminal UI for Git Operations](../../skills/lazygit-terminal-ui-git-operations/) | — | — |
 | [LLDB Debug Session Automator](../../skills/lldb-debug-session-automator/) | — | — |
+| [LLM Command-Line Interface for Large Language Models](../../skills/llm-command-line-interface-large-language-models/) | — | — |
 | [lsd Next-Generation ls Directory Listing Tool](../../skills/lsd-next-gen-ls-directory-listing/) | — | — |
 | [Makefile Dependency Auditor](../../skills/makefile-dependency-auditor/) | — | — |
 | [mdBook Markdown Book Generator by Rust Project](../../skills/mdbook-markdown-book-generator-rust/) | — | — |
@@ -196,6 +198,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [NPM Package Auditor](../../skills/npm-package-auditor-registry-api/) | — | — |
 | [Package Vulnerability Scanner](../../skills/package-vuln-scanner-osv-api/) | — | — |
 | [pastel Command-Line Color Generation Analysis and Manipulation Tool](../../skills/pastel-command-line-color-tool/) | — | — |
+| [piku Tiny PaaS for Git Push Deployments to Your Own Servers](../../skills/piku-tiny-paas-git-push-deployments-own-servers/) | — | — |
 | [Pixi Cross-Platform Package Manager Built on Conda](../../skills/pixi-cross-platform-package-manager-conda-rust/) | — | — |
 | [Repomix Codebase Context Packer for LLMs](../../skills/repomix-codebase-context-packer-llm/) | — | — |
 | [Restic Fast Encrypted Backup Program](../../skills/restic-encrypted-backup-tool/) | — | — |
