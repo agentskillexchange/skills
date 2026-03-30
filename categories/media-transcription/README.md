@@ -103,6 +103,8 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [librosa Python Audio and Music Analysis Library](../../skills/librosa-python-audio-music-analysis-library/) | — | — |
 | [Pedalboard Python Audio Effects Library by Spotify](../../skills/pedalboard-spotify-audio-effects-python/) | — | — |
 | [Podcast RSS Feed Builder](../../skills/podcast-rss-feed-builder/) | — | — |
+| [Silero VAD Pre-Trained Enterprise Voice Activity Detection](../../skills/silero-vad-voice-activity-detection/) | — | — |
+| [SpeechBrain PyTorch Conversational AI and Speech Processing Toolkit](../../skills/speechbrain-pytorch-speech-processing-toolkit/) | — | — |
 | [YouTube Chapter Generator from Transcripts](../../skills/youtube-chapter-generator-transcripts/) | — | — |
 
 ---

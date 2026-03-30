@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1482 published skills** across **17 categories** · 1466 security reviewed · Updated 2026-03-30 09:15 UTC
+> **1485 published skills** across **17 categories** · 1466 security reviewed · Updated 2026-03-30 11:28 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1204,7 +1204,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [Upscayl Open Source AI Image Upscaler](skills/upscayl-open-source-ai-image-upscaler/) | Upscayl is a free, open-source AI image upscaler for Linux, macOS, and Windows. It uses Real-ESRGAN models with… | Security Reviewed | — | — |
 
 
-### 🎙️ Media & Transcription (64 skills)
+### 🎙️ Media & Transcription (66 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&sort=downloads)
 
@@ -1273,6 +1273,8 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Medi
 | [librosa Python Audio and Music Analysis Library](skills/librosa-python-audio-music-analysis-library/) | librosa is a Python library for audio and music analysis. It provides tools for feature extraction, spectral… | Security Reviewed | — | — |
 | [Pedalboard Python Audio Effects Library by Spotify](skills/pedalboard-spotify-audio-effects-python/) | Pedalboard is a Python library built by Spotify for working with audio: reading, writing, rendering, and adding… | Security Reviewed | — | — |
 | [Podcast RSS Feed Builder](skills/podcast-rss-feed-builder/) | Generates and validates podcast RSS feeds compliant with the Apple Podcasts and Spotify specification. Uses the… | Security Reviewed | — | — |
+| [Silero VAD Pre-Trained Enterprise Voice Activity Detection](skills/silero-vad-voice-activity-detection/) | Silero VAD is a pre-trained enterprise-grade Voice Activity Detector that identifies speech segments in audio… | Published | — | — |
+| [SpeechBrain PyTorch Conversational AI and Speech Processing Toolkit](skills/speechbrain-pytorch-speech-processing-toolkit/) | SpeechBrain is an open-source PyTorch toolkit that accelerates conversational AI development. It provides recipes… | Published | — | — |
 | [YouTube Chapter Generator from Transcripts](skills/youtube-chapter-generator-transcripts/) | Extracts YouTube video transcripts via the youtube-transcript-api Python library and generates semantic chapter… | Security Reviewed | — | — |
 
 
@@ -1552,7 +1554,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Word
 | [WooCommerce Webhook Orchestrator](skills/woocommerce-webhook-orchestrator/) | Manages WooCommerce webhook lifecycles using the wc/v3/webhooks REST API and WC_Webhook class. Handles order,… | Security Reviewed | — | — |
 
 
-### ✍️ Content Writing & SEO (56 skills)
+### ✍️ Content Writing & SEO (57 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=downloads)
 
@@ -1612,6 +1614,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cont
 | [Surfer SEO SERP Analyzer](skills/surfer-seo-serp-analyzer/) | Uses Surfer SEO Content Editor API to pull SERP analysis data including word count benchmarks, heading structure… | Security Reviewed | — | — |
 | [Technical SEO Audit Crawler](skills/technical-seo-audit-crawler/) | Crawls websites for technical SEO issues using Screaming Frog CLI, Lighthouse CI API, and PageSpeed Insights v5.… | Security Reviewed | — | — |
 | [textstat Python Readability Statistics Calculator](skills/textstat-python-readability-statistics-calculator/) | textstat is a Python package that calculates readability statistics for text content, including Flesch Reading Ease,… | Security Reviewed | — | — |
+| [Tiptap Headless Rich Text Editor Framework for Web Applications](skills/tiptap-headless-rich-text-editor-framework/) | Tiptap is a headless, framework-agnostic rich text editor built on ProseMirror. It provides a fully customizable… | Published | — | — |
 | [Unlighthouse Site-Wide Lighthouse and SEO Auditing](skills/unlighthouse-site-wide-lighthouse-seo-auditing/) | Unlighthouse runs Google Lighthouse across an entire site instead of just a single page. This skill gives agents a… | Security Reviewed | — | — |
 | [write-good English Prose Linting for Technical Content](skills/write-good-english-prose-linting-technical-content/) | This skill uses write-good to flag vague, wordy, or hard-to-read English prose in documentation and content drafts.… | Security Reviewed | — | — |
 

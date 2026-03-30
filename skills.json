@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1482,
+  "total": 1485,
   "generated": "2026-03-30",
   "skills": [
+    {
+      "slug": "tiptap-headless-rich-text-editor-framework",
+      "name": "Tiptap Headless Rich Text Editor Framework for Web Applications",
+      "description": "Tiptap is a headless, framework-agnostic rich text editor built on ProseMirror. It provides a fully customizable editing experience through 100+ extensions, supporting React, Vue,…",
+      "category": [
+        "Content Writing & SEO"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "silero-vad-voice-activity-detection",
+      "name": "Silero VAD Pre-Trained Enterprise Voice Activity Detection",
+      "description": "Silero VAD is a pre-trained enterprise-grade Voice Activity Detector that identifies speech segments in audio streams. It runs locally via PyTorch or ONNX Runtime…",
+      "category": [
+        "Media & Transcription"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "speechbrain-pytorch-speech-processing-toolkit",
+      "name": "SpeechBrain PyTorch Conversational AI and Speech Processing Toolkit",
+      "description": "SpeechBrain is an open-source PyTorch toolkit that accelerates conversational AI development. It provides recipes and pretrained models for speech recognition, speaker verification, speech enhancement,…",
+      "category": [
+        "Media & Transcription"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "linkding-self-hosted-bookmark-manager-rest-api",
       "name": "linkding Self-Hosted Bookmark Manager with REST API",
