@@ -168,6 +168,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [CircleCI Workflow Analyzer](../../skills/circleci-workflow-analyzer/) | 842 | — |
 | [CircleCI Workflow Builder](../../skills/circleci-workflow-builder/) | 842 | — |
 | [CircleCI Workflow Cost Auditor](../../skills/circleci-workflow-cost-auditor/) | 842 | — |
+| [Dagger Programmable CI/CD Automation Engine](../../skills/dagger-programmable-cicd-automation-engine/) | — | — |
 | [GitHub Actions CI Builder](../../skills/github-actions-ci-builder/) | — | — |
 | [GitHub Actions CI Pipeline Builder](../../skills/github-actions-ci-pipeline-builder/) | — | — |
 | [GitHub Actions Matrix Build Optimizer](../../skills/github-actions-matrix-build-optimizer/) | — | — |

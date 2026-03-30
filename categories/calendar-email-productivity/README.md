@@ -77,6 +77,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Slack Workflow Bot Builder](../../skills/slack-workflow-bot-builder/) | 2.9k | 1.7M/wk |
 | [Slack Workflow Builder Agent](../../skills/slack-workflow-builder-agent/) | 2.9k | 1.7M/wk |
 | [Microsoft Graph Mail Triage Agent](../../skills/microsoft-graph-mail-triage-agent/) | 790 | 6.2M/wk |
+| [aerc Extensible Terminal Email Client with IMAP JMAP and Notmuch](../../skills/aerc-extensible-terminal-email-client/) | — | — |
 | [Atlassian Rovo MCP Server](../../skills/atlassian-rovo-mcp-server/) | — | — |
 | [calcurse Text-Based Calendar and Scheduling Application](../../skills/calcurse-text-calendar-scheduling/) | — | — |
 | [gcalcli Google Calendar Command Line Interface](../../skills/gcalcli-google-calendar-cli/) | — | — |

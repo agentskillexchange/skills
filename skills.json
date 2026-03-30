@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1465,
-  "generated": "2026-03-29",
+  "total": 1468,
+  "generated": "2026-03-30",
   "skills": [
+    {
+      "slug": "aerc-extensible-terminal-email-client",
+      "name": "aerc Extensible Terminal Email Client with IMAP JMAP and Notmuch",
+      "description": "aerc is a terminal-based email client written in Go with first-class support for IMAP, SMTP, JMAP, Maildir, and Notmuch. It features Vim-like keybindings, email…",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "grist-self-hosted-relational-spreadsheet-database",
+      "name": "Grist Self-Hosted Relational Spreadsheet and Database Platform",
+      "description": "Grist is an open-source modern relational spreadsheet that combines the flexibility of a spreadsheet with the robustness of a database. It supports Python formulas,…",
+      "category": [
+        "Data Extraction & Transformation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "dagger-programmable-cicd-automation-engine",
+      "name": "Dagger Programmable CI/CD Automation Engine",
+      "description": "Dagger is an open-source automation engine for building, testing, and shipping any codebase. It replaces shell scripts and proprietary YAML with real code using…",
+      "category": [
+        "CI/CD Integrations"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "skyvern-ai-browser-workflow-automation",
       "name": "Skyvern AI Browser Workflow Automation with LLMs and Computer Vision",

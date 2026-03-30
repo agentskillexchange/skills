@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1465 published skills** across **17 categories** · 1430 security reviewed · Updated 2026-03-29 23:18 UTC
+> **1468 published skills** across **17 categories** · 1430 security reviewed · Updated 2026-03-30 01:14 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -179,7 +179,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [zx JavaScript Shell Script Runner](skills/zx-javascript-shell-script-runner/) | Write better shell scripts in JavaScript using Google's zx. Provides cross-platform wrappers around child_process… | Security Reviewed | — | — |
 
 
-### 🔧 CI/CD Integrations (140 skills)
+### 🔧 CI/CD Integrations (141 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&sort=downloads)
 
@@ -313,6 +313,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [CircleCI Workflow Analyzer](skills/circleci-workflow-analyzer/) | Analyzes and optimizes CircleCI workflows using the CircleCI v2 API. Identifies bottlenecks in job dependency… | Security Reviewed | 842 | — |
 | [CircleCI Workflow Builder](skills/circleci-workflow-builder/) | Generates CircleCI config.yml workflows using the CircleCI Orbs SDK and Workflows API. Supports parallelism tuning… | Security Reviewed | 842 | — |
 | [CircleCI Workflow Cost Auditor](skills/circleci-workflow-cost-auditor/) | Audits CircleCI workflow spend using the CircleCI Insights API and machine-type pricing tables. Identifies jobs… | Security Reviewed | 842 | — |
+| [Dagger Programmable CI/CD Automation Engine](skills/dagger-programmable-cicd-automation-engine/) | Dagger is an open-source automation engine for building, testing, and shipping any codebase. It replaces shell… | Published | — | — |
 | [GitHub Actions CI Builder](skills/github-actions-ci-builder/) | Generate and manage GitHub Actions workflow YAML files using the GitHub Actions REST API and workflow_dispatch… | Security Reviewed | — | — |
 | [GitHub Actions CI Pipeline Builder](skills/github-actions-ci-pipeline-builder/) | Generates and manages GitHub Actions workflows using the Workflow YAML syntax and GitHub REST API. Supports matrix… | Security Reviewed | — | — |
 | [GitHub Actions Matrix Build Optimizer](skills/github-actions-matrix-build-optimizer/) | Analyzes GitHub Actions workflow YAML files and optimizes matrix strategies using the actions/setup-node and… | Security Reviewed | — | — |
@@ -448,7 +449,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Systemd Service Recovery Playbook](skills/systemd-service-recovery-playbook-2/) | Diagnoses and recovers failed systemd services using journalctl, systemctl status, and D-Bus… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (110 skills)
+### 🔄 Data Extraction & Transformation (111 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -549,6 +550,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [franc Natural Language Detection Library and CLI](skills/franc-natural-language-detection/) | franc is a JavaScript library and CLI tool for detecting the language of text. It supports up to 419 languages and… | Security Reviewed | — | — |
 | [fx Terminal JSON Viewer and Processor](skills/fx-terminal-json-viewer-processor/) | fx is a terminal-based JSON viewer and processor that provides an interactive TUI for navigating, filtering, and… | Security Reviewed | — | — |
 | [gallery-dl Image Gallery and Collection Downloader](skills/gallery-dl-image-gallery-collection-downloader/) | gallery-dl is a command-line tool for downloading image galleries and collections from dozens of hosting sites… | Security Reviewed | — | — |
+| [Grist Self-Hosted Relational Spreadsheet and Database Platform](skills/grist-self-hosted-relational-spreadsheet-database/) | Grist is an open-source modern relational spreadsheet that combines the flexibility of a spreadsheet with the… | Published | — | — |
 | [gron Greppable JSON Flattener](skills/gron-greppable-json-flattener/) | gron transforms JSON into discrete assignment statements, making it possible to grep through complex JSON structures… | Security Reviewed | — | — |
 | [htmlq Command-Line HTML Content Extractor with CSS Selectors](skills/htmlq-command-line-html-content-extractor-css-selectors/) | htmlq is a command-line tool for extracting content from HTML using CSS selectors, functioning as the HTML… | Published | — | — |
 | [jq Pipeline Builder Agent](skills/jq-pipeline-builder-agent/) | Constructs complex jq filter pipelines from natural language queries against JSON/NDJSON data streams. Uses jq… | Security Reviewed | — | — |
@@ -970,7 +972,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Umami Privacy-Focused Web Analytics Platform](skills/umami-privacy-focused-web-analytics/) | Umami is a modern, privacy-focused, open-source web analytics platform and a self-hostable alternative to Google… | Published | — | — |
 
 
-### 📅 Calendar, Email & Productivity (69 skills)
+### 📅 Calendar, Email & Productivity (70 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=downloads)
 
@@ -1013,6 +1015,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Slack Workflow Bot Builder](skills/slack-workflow-bot-builder/) | Creates interactive Slack workflows using Block Kit UI components and the Bolt.js framework. Implements slash… | Security Reviewed | 2.9k | 1.7M/wk |
 | [Slack Workflow Builder Agent](skills/slack-workflow-builder-agent/) | Creates and manages Slack workflows using @slack/bolt and @slack/web-api. Builds interactive modals with Block Kit,… | Security Reviewed | 2.9k | 1.7M/wk |
 | [Microsoft Graph Mail Triage Agent](skills/microsoft-graph-mail-triage-agent/) | Triages Outlook emails using the Microsoft Graph API /me/messages endpoint with $filter OData queries and… | Security Reviewed | 790 | 6.2M/wk |
+| [aerc Extensible Terminal Email Client with IMAP JMAP and Notmuch](skills/aerc-extensible-terminal-email-client/) | aerc is a terminal-based email client written in Go with first-class support for IMAP, SMTP, JMAP, Maildir, and… | Published | — | — |
 | [Atlassian Rovo MCP Server](skills/atlassian-rovo-mcp-server/) | The Atlassian Rovo MCP Server bridges your Atlassian Cloud workspace with any MCP-compatible client. Search and… | Security Reviewed | — | — |
 | [calcurse Text-Based Calendar and Scheduling Application](skills/calcurse-text-calendar-scheduling/) | calcurse is a text-based calendar and scheduling application for the command line. It helps keep track of events,… | Security Reviewed | — | — |
 | [gcalcli Google Calendar Command Line Interface](skills/gcalcli-google-calendar-cli/) | gcalcli is a Python CLI that provides full access to Google Calendar from the command line. View agendas, search… | Security Reviewed | — | — |

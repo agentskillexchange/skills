@@ -135,6 +135,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [franc Natural Language Detection Library and CLI](../../skills/franc-natural-language-detection/) | — | — |
 | [fx Terminal JSON Viewer and Processor](../../skills/fx-terminal-json-viewer-processor/) | — | — |
 | [gallery-dl Image Gallery and Collection Downloader](../../skills/gallery-dl-image-gallery-collection-downloader/) | — | — |
+| [Grist Self-Hosted Relational Spreadsheet and Database Platform](../../skills/grist-self-hosted-relational-spreadsheet-database/) | — | — |
 | [gron Greppable JSON Flattener](../../skills/gron-greppable-json-flattener/) | — | — |
 | [htmlq Command-Line HTML Content Extractor with CSS Selectors](../../skills/htmlq-command-line-html-content-extractor-css-selectors/) | — | — |
 | [jq Pipeline Builder Agent](../../skills/jq-pipeline-builder-agent/) | — | — |
