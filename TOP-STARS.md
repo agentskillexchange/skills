@@ -6,15 +6,15 @@ Skills backed by the most-starred GitHub repositories, deduplicated by upstream 
 
 | # | Skill | Stars | Tool | Category |
 |--:|-------|------:|------|----------|
-| 1 | [Astro Content-Driven Web Framework](skills/astro-content-driven-web-framework/) | 244.2k | react | Developer Tools |
+| 1 | [Docusaurus React Documentation Framework by Meta](skills/docusaurus-react-documentation-framework-meta/) | 244.3k | react | Developer Tools |
 | 2 | [Trafilatura Web Text Extraction and Crawling Toolkit](skills/trafilatura-web-text-extraction-crawling/) | 158.5k | huggingface | Research & Scraping |
 | 3 | [K9s Kubernetes Terminal Dashboard](skills/k9s-kubernetes-terminal-dashboard/) | 121.4k | kubernetes | Developer Tools |
 | 4 | [commitlint Conventional Commit Message Linter](skills/commitlint-conventional-commit-message-linter/) | 100.1k | angular | Code Quality & Review |
 | 5 | [Supabase MCP Server](skills/supabase-mcp-server/) | 99.8k | supabase | Developer Tools |
 | 6 | [Coqui TTS Deep Learning Text-to-Speech Toolkit](skills/coqui-tts-deep-learning-text-to-speech-toolkit/) | 98.6k | pytorch | Media & Transcription |
-| 7 | [OpenAI Whisper API Transcription](skills/openai-whisper-api-transcription/) | 96.8k | whisper | Media & Transcription |
+| 7 | [Insanely Fast Whisper GPU-Accelerated Speech Transcription CLI](skills/insanely-fast-whisper-gpu-transcription/) | 96.9k | whisper | Media & Transcription |
 | 8 | [FastMCP Python MCP Server and Client Framework](skills/fastmcp-python-mcp-server-client-framework/) | 96.7k | fastapi | Developer Tools |
-| 9 | [Puppeteer Cookie Consent Automator](skills/puppeteer-cookie-consent-automator/) | 93.9k | puppeteer | Browser Automation |
+| 9 | [Puppeteer Cookie Consent Automator](skills/puppeteer-cookie-consent-automator/) | 94k | puppeteer | Browser Automation |
 | 10 | [Storybook Component Tester](skills/storybook-component-tester/) | 89.6k | storybook | Code Quality & Review |
 | 11 | [Playwright Accessibility Audit Runner](skills/playwright-accessibility-audit-runner/) | 85.2k | playwright | Browser Automation |
 | 12 | [Vite Plugin Hot Module Analyzer](skills/vite-plugin-hmr-analyzer/) | 79.4k | vite | Developer Tools |
@@ -39,7 +39,7 @@ Skills backed by the most-starred GitHub repositories, deduplicated by upstream 
 | 31 | [Jest Unit Test Scaffolder](skills/jest-unit-test-scaffolder/) | 45.3k | jest | Code Quality & Review |
 | 32 | [Apache Airflow MCP](skills/apache-airflow-mcp/) | 44.8k | airflow | Data Extraction & Transformation |
 | 33 | [Sentry Error Intelligence](skills/sentry-error-intelligence/) | 43.5k | sentry | Monitoring & Alerts |
-| 34 | [Apache Spark DataFrame ETL Pipeline](skills/spark-dataframe-etl-pipeline/) | 43k | spark | Data Extraction & Transformation |
+| 34 | [Apache Spark DataFrame ETL Pipeline](skills/spark-dataframe-etl-pipeline/) | 43.1k | spark | Data Extraction & Transformation |
 | 35 | [HashiCorp Vault MCP Server](skills/hashicorp-vault-mcp-server/) | 35.3k | vault | Security & Verification |
 | 36 | [Trivy Container &#038; IaC Vulnerability Scanner](skills/trivy-container-iac-vulnerability-scanner/) | 34.2k | trivy | Security & Verification |
 | 37 | [Selenium Grid Auto-Scaling Orchestrator](skills/selenium-grid-auto-scaling-orchestrator/) | 34.2k | selenium | Browser Automation |

@@ -24,15 +24,15 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | Skill | Downloads |
 |---|---:|
 | [Surfer SEO Content Optimizer](../../skills/surfer-seo-content-optimizer/) | ⬇ 18.8M/wk |
-| [textlint Pluggable Natural Language Linter](../../skills/textlint-pluggable-natural-language-linter/) | ⬇ 120.3M/wk |
+| [textlint Pluggable Natural Language Linter](../../skills/textlint-pluggable-natural-language-linter/) | ⬇ 121.1M/wk |
 | [AI Meta Description Generator](../../skills/ai-meta-description-generator/) | ⬇ 16.4M/wk |
 | [AI-Powered Meta Description Writer](../../skills/ai-powered-meta-description-writer/) | ⬇ 16.4M/wk |
 | [Content Readability Analyzer](../../skills/content-readability-analyzer-agent/) | ⬇ 16.4M/wk |
+| [SerpBear Self-Hosted Search Engine Rank Tracking App](../../skills/serpbear-self-hosted-serp-rank-tracker/) | ⬇ 5M/wk |
 | [Content Brief Architect](../../skills/content-brief-architect-agent/) | ⬇ 1.4M/wk |
 | [Keyword Cluster Generator](../../skills/keyword-cluster-generator-agent/) | ⬇ 1.4M/wk |
 | [Markdoc Markdown-Based Authoring Framework by Stripe](../../skills/markdoc-markdown-authoring-framework-stripe/) | ⬇ 8.7M/wk |
 | [Zola Fast Static Site Generator in a Single Binary](../../skills/zola-static-site-generator/) | ⬇ 1.1M/wk |
-| [Copy.ai Sales Email Sequence Builder](../../skills/copyai-sales-email-sequence/) | ⬇ 953.9k/wk |
 
 ---
 
@@ -45,7 +45,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [SEOnaut Open Source Technical SEO Audit Tool](../../skills/seonaut-open-source-technical-seo-audit/) | 71.6k | — |
 | [Typst Markup-Based Document Typesetting System](../../skills/typst-markup-typesetting-system/) | 71.6k | — |
 | [Surfer SEO Content Optimizer](../../skills/surfer-seo-content-optimizer/) | 30.2k | 18.8M/wk |
-| [textlint Pluggable Natural Language Linter](../../skills/textlint-pluggable-natural-language-linter/) | 27.2k | 120.3M/wk |
+| [textlint Pluggable Natural Language Linter](../../skills/textlint-pluggable-natural-language-linter/) | 27.2k | 121.1M/wk |
 | [AI Content Readability Optimizer](../../skills/ai-content-readability-optimizer/) | 21k | — |
 | [Harper Offline Privacy-First Grammar Checker by Automattic](../../skills/harper-offline-grammar-checker-automattic/) | 21k | — |
 | [Internal Link Builder](../../skills/internal-link-builder-seo-agent/) | 21k | — |
@@ -59,11 +59,12 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [AI Meta Description Generator](../../skills/ai-meta-description-generator/) | 10.8k | 16.4M/wk |
 | [AI-Powered Meta Description Writer](../../skills/ai-powered-meta-description-writer/) | 10.8k | 16.4M/wk |
 | [Content Readability Analyzer](../../skills/content-readability-analyzer-agent/) | 10.8k | 16.4M/wk |
+| [SerpBear Self-Hosted Search Engine Rank Tracking App](../../skills/serpbear-self-hosted-serp-rank-tracker/) | 7.1k | 5M/wk |
 | [Content Brief Architect](../../skills/content-brief-architect-agent/) | 5.6k | 1.4M/wk |
 | [Keyword Cluster Generator](../../skills/keyword-cluster-generator-agent/) | 5.6k | 1.4M/wk |
 | [Markdoc Markdown-Based Authoring Framework by Stripe](../../skills/markdoc-markdown-authoring-framework-stripe/) | 4.4k | 8.7M/wk |
 | [Zola Fast Static Site Generator in a Single Binary](../../skills/zola-static-site-generator/) | 1.9k | 1.1M/wk |
-| [Copy.ai Sales Email Sequence Builder](../../skills/copyai-sales-email-sequence/) | 391 | 953.9k/wk |
+| [Copy.ai Sales Email Sequence Builder](../../skills/copyai-sales-email-sequence/) | 391 | 958.2k/wk |
 | [Ahrefs Backlink Content Planner](../../skills/ahrefs-backlink-content-planner/) | — | — |
 | [Ahrefs Content Gap Finder](../../skills/ahrefs-content-gap-finder-agent/) | — | — |
 | [Ahrefs Keyword Gap Analysis Skill](../../skills/ahrefs-keyword-gap-analysis-skill/) | — | — |
@@ -88,7 +89,6 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [SEMrush Keyword Research Agent](../../skills/semrush-keyword-research-agent-api-v3/) | — | — |
 | [SEO Content Cluster Generator](../../skills/seo-content-cluster-generator/) | — | — |
 | [SEO Keyword Research Automator](../../skills/seo-keyword-research-automator/) | — | — |
-| [SerpBear Self-Hosted Search Engine Rank Tracking App](../../skills/serpbear-self-hosted-serp-rank-tracker/) | — | — |
 | [SiteOne Crawler Technical SEO and Site Audit](../../skills/siteone-crawler-technical-seo-and-site-audit/) | — | — |
 | [Surfer SEO Content Optimizer Integration](../../skills/surfer-seo-content-optimizer-integration/) | — | — |
 | [Surfer SEO SERP Analyzer](../../skills/surfer-seo-serp-analyzer/) | — | — |

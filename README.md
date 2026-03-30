@@ -4,14 +4,14 @@
 
 ### The open catalog of AI agent skills
 
-[![Published](https://img.shields.io/badge/published-1%2C478-6366f1?style=for-the-badge)](skills/)
+[![Published](https://img.shields.io/badge/published-1%2C482-6366f1?style=for-the-badge)](skills/)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/)
-[![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-1%2C430-10b981?style=for-the-badge)](verification/)
+[![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-1%2C466-10b981?style=for-the-badge)](verification/)
 [![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)
 
 **[Categories](categories/) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md) · [Submit a Skill](#submit-a-skill)**
 
-*1,478 published skills · 17 categories · Real ecosystem signals · Updated hourly*
+*1,482 published skills · 17 categories · Real ecosystem signals · Updated hourly*
 
 </div>
 
@@ -48,13 +48,13 @@ A hand-picked selection across categories. See [TOP-STARS.md](TOP-STARS.md) and 
 
 | Skill | Tool | ⭐ Stars | Category |
 |-------|------|--------:|----------|
-| [Astro Content-Driven Web Framework](skills/astro-content-driven-web-framework/) | react | 244.2k | Developer Tools |
+| [Docusaurus React Documentation Framework by Meta](skills/docusaurus-react-documentation-framework-meta/) | react | 244.3k | Developer Tools |
 | [Trafilatura Web Text Extraction and Crawling Toolkit](skills/trafilatura-web-text-extraction-crawling/) | huggingface | 158.5k | Research & Scraping |
 | [K9s Kubernetes Terminal Dashboard](skills/k9s-kubernetes-terminal-dashboard/) | kubernetes | 121.4k | Developer Tools |
 | [commitlint Conventional Commit Message Linter](skills/commitlint-conventional-commit-message-linter/) | angular | 100.1k | Code Quality & Review |
 | [Coqui TTS Deep Learning Text-to-Speech Toolkit](skills/coqui-tts-deep-learning-text-to-speech-toolkit/) | pytorch | 98.6k | Media & Transcription |
-| [OpenAI Whisper API Transcription](skills/openai-whisper-api-transcription/) | whisper | 96.8k | Media & Transcription |
-| [Puppeteer Cookie Consent Automator](skills/puppeteer-cookie-consent-automator/) | puppeteer | 93.9k | Browser Automation |
+| [Insanely Fast Whisper GPU-Accelerated Speech Transcription CLI](skills/insanely-fast-whisper-gpu-transcription/) | whisper | 96.9k | Media & Transcription |
+| [Puppeteer Cookie Consent Automator](skills/puppeteer-cookie-consent-automator/) | puppeteer | 94k | Browser Automation |
 | [Storybook Component Tester](skills/storybook-component-tester/) | storybook | 89.6k | Code Quality & Review |
 | [Playwright Accessibility Audit Runner](skills/playwright-accessibility-audit-runner/) | playwright | 85.2k | Browser Automation |
 | [ElasticSearch Cluster Vitals Agent](skills/elasticsearch-cluster-vitals-agent/) | elasticsearch | 76.4k | Monitoring & Alerts |
@@ -67,7 +67,7 @@ A hand-picked selection across categories. See [TOP-STARS.md](TOP-STARS.md) and 
 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
-| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 166 | CLI tools, scaffolders, dev environment setup |
+| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 167 | CLI tools, scaffolders, dev environment setup |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 141 | Pipeline configs, deployment automation, build tooling |
 | 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 113 | Incident response, troubleshooting, system diagnostics |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 111 | ETL pipelines, parsing, format conversion |
@@ -78,11 +78,11 @@ A hand-picked selection across categories. See [TOP-STARS.md](TOP-STARS.md) and 
 | 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 71 | Email automation, calendar management, task coordination |
 | 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 66 | Scaffolders, boilerplate generators, workflow templates |
 | 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 66 | Image generation, asset processing, design automation |
-| 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 63 | Audio/video processing, speech-to-text |
-| 🔍 | [**Research & Scraping**](categories/research-scraping/) | 63 | Web research, content discovery, data collection |
+| 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 64 | Audio/video processing, speech-to-text |
+| 🔍 | [**Research & Scraping**](categories/research-scraping/) | 64 | Web research, content discovery, data collection |
 | 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 61 | Third-party API bridges, webhooks, service connectors |
+| 🌐 | [**Browser Automation**](categories/browser-automation/) | 60 | Web scraping, UI testing, headless browser control |
 | 📰 | [**WordPress & CMS**](categories/wordpress-cms/) | 59 | Theme/plugin dev, WP-CLI automation, CMS management |
-| 🌐 | [**Browser Automation**](categories/browser-automation/) | 59 | Web scraping, UI testing, headless browser control |
 | ✍️ | [**Content Writing & SEO**](categories/content-writing-seo/) | 56 | SEO content, blog automation, editorial workflows |
 
 ---
@@ -142,8 +142,8 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 1,478 | In the catalog — every skill is backed by a real tool, repo, or package |
-| 🛡️ **Security Reviewed** | 1,430 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
+| 📋 **Published** | 1,482 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 🛡️ **Security Reviewed** | 1,466 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)
 

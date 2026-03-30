@@ -6,7 +6,7 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 
 | Skill | Stars |
 |---|---:|
-| [Decap CMS Git-Based Content Management for Static Sites](../../skills/decap-cms-git-based-content-management-static-sites/) | ⭐ 244.2k |
+| [Decap CMS Git-Based Content Management for Static Sites](../../skills/decap-cms-git-based-content-management-static-sites/) | ⭐ 244.3k |
 | [Strapi Open Source Headless CMS with REST and GraphQL APIs](../../skills/strapi-headless-cms-rest-graphql/) | ⭐ 71.7k |
 | [WP Multisite Domain Mapping Agent](../../skills/wp-multisite-domain-mapping-agent/) | ⭐ 32.9k |
 | [Gutenberg Block Scaffolder](../../skills/gutenberg-block-scaffolder-agent/) | ⭐ 21k |
@@ -23,14 +23,14 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 
 | Skill | Downloads |
 |---|---:|
-| [Decap CMS Git-Based Content Management for Static Sites](../../skills/decap-cms-git-based-content-management-static-sites/) | ⬇ 119.6M/wk |
-| [Strapi Open Source Headless CMS with REST and GraphQL APIs](../../skills/strapi-headless-cms-rest-graphql/) | ⬇ 156.2k/wk |
+| [Decap CMS Git-Based Content Management for Static Sites](../../skills/decap-cms-git-based-content-management-static-sites/) | ⬇ 121.9M/wk |
+| [Strapi Open Source Headless CMS with REST and GraphQL APIs](../../skills/strapi-headless-cms-rest-graphql/) | ⬇ 158.3k/wk |
 | [Gutenberg Block Scaffolder](../../skills/gutenberg-block-scaffolder-agent/) | ⬇ 44.8M/wk |
 | [Gutenberg Custom Block Builder](../../skills/gutenberg-custom-block-builder/) | ⬇ 44.8M/wk |
-| [Directus Open-Source Headless CMS and Backend Platform](../../skills/directus-open-source-headless-cms-backend-platform/) | ⬇ 33.3M/wk |
-| [Headless CMS GraphQL Connector](../../skills/headless-cms-graphql-connector/) | ⬇ 33.3M/wk |
-| [TinaCMS Git-Backed Headless CMS with Visual Editing](../../skills/tinacms-git-backed-headless-cms-visual-editing/) | ⬇ 33.3M/wk |
-| [Payload CMS Next.js-Native Headless CMS and Application Framework](../../skills/payload-cms-nextjs-headless-framework/) | ⬇ 11M/wk |
+| [Directus Open-Source Headless CMS and Backend Platform](../../skills/directus-open-source-headless-cms-backend-platform/) | ⬇ 33.4M/wk |
+| [Headless CMS GraphQL Connector](../../skills/headless-cms-graphql-connector/) | ⬇ 33.4M/wk |
+| [TinaCMS Git-Backed Headless CMS with Visual Editing](../../skills/tinacms-git-backed-headless-cms-visual-editing/) | ⬇ 33.4M/wk |
+| [Payload CMS Next.js-Native Headless CMS and Application Framework](../../skills/payload-cms-nextjs-headless-framework/) | ⬇ 10.9M/wk |
 | [WooCommerce REST Sync Agent](../../skills/woocommerce-rest-sync-agent/) | ⬇ 5M/wk |
 | [WooCommerce REST Order Manager](../../skills/woocommerce-rest-order-manager/) | ⬇ 8.7M/wk |
 
@@ -40,8 +40,8 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
-| [Decap CMS Git-Based Content Management for Static Sites](../../skills/decap-cms-git-based-content-management-static-sites/) | 244.2k | 119.6M/wk |
-| [Strapi Open Source Headless CMS with REST and GraphQL APIs](../../skills/strapi-headless-cms-rest-graphql/) | 71.7k | 156.2k/wk |
+| [Decap CMS Git-Based Content Management for Static Sites](../../skills/decap-cms-git-based-content-management-static-sites/) | 244.3k | 121.9M/wk |
+| [Strapi Open Source Headless CMS with REST and GraphQL APIs](../../skills/strapi-headless-cms-rest-graphql/) | 71.7k | 158.3k/wk |
 | [WP Multisite Domain Mapping Agent](../../skills/wp-multisite-domain-mapping-agent/) | 32.9k | — |
 | [Gutenberg Block Scaffolder](../../skills/gutenberg-block-scaffolder-agent/) | 21k | 44.8M/wk |
 | [Gutenberg Custom Block Builder](../../skills/gutenberg-custom-block-builder/) | 21k | 44.8M/wk |
@@ -80,21 +80,21 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [WPGraphQL Schema Extension Builder](../../skills/wpgraphql-schema-extension-builder/) | 21k | — |
 | [WPScan WordPress Security Vulnerability Scanner](../../skills/wpscan-wordpress-security-vulnerability-scanner/) | 21k | — |
 | [Yoast SEO WordPress Optimization Toolkit](../../skills/yoast-seo-wordpress-optimization-toolkit/) | 21k | — |
-| [Directus Open-Source Headless CMS and Backend Platform](../../skills/directus-open-source-headless-cms-backend-platform/) | 20.3k | 33.3M/wk |
-| [Headless CMS GraphQL Connector](../../skills/headless-cms-graphql-connector/) | 20.3k | 33.3M/wk |
-| [TinaCMS Git-Backed Headless CMS with Visual Editing](../../skills/tinacms-git-backed-headless-cms-visual-editing/) | 20.3k | 33.3M/wk |
-| [Payload CMS Next.js-Native Headless CMS and Application Framework](../../skills/payload-cms-nextjs-headless-framework/) | 10.2k | 11M/wk |
+| [Directus Open-Source Headless CMS and Backend Platform](../../skills/directus-open-source-headless-cms-backend-platform/) | 20.3k | 33.4M/wk |
+| [Headless CMS GraphQL Connector](../../skills/headless-cms-graphql-connector/) | 20.3k | 33.4M/wk |
+| [TinaCMS Git-Backed Headless CMS with Visual Editing](../../skills/tinacms-git-backed-headless-cms-visual-editing/) | 20.3k | 33.4M/wk |
+| [Payload CMS Next.js-Native Headless CMS and Application Framework](../../skills/payload-cms-nextjs-headless-framework/) | 10.2k | 10.9M/wk |
 | [WooCommerce REST Sync Agent](../../skills/woocommerce-rest-sync-agent/) | 7.1k | 5M/wk |
 | [WooCommerce REST Order Manager](../../skills/woocommerce-rest-order-manager/) | 4.4k | 8.7M/wk |
+| [Sveltia CMS Git-Based Headless Content Management System](../../skills/sveltia-cms-git-based-headless-cms/) | 1.8k | 374.6k/wk |
 | [Contentful Management API and JavaScript SDK](../../skills/contentful-management-api-and-javascript-sdk/) | 1.3k | 1.1M/wk |
-| [WP Cron Health Monitor](../../skills/wp-cron-health-monitor/) | 69 | 212.2k/wk |
+| [WP Cron Health Monitor](../../skills/wp-cron-health-monitor/) | 69 | 211.5k/wk |
+| [Pages CMS Open Source Content Management for GitHub Repositories](../../skills/pages-cms-github-content-management/) | — | 22M/wk |
 | [Front Matter CMS Visual Studio Code Headless CMS](../../skills/front-matter-cms-vscode-headless-cms/) | — | — |
 | [Ghost Admin API Headless Publishing and CMS Automation](../../skills/ghost-admin-api-headless-publishing-cms-automation/) | — | — |
 | [Hugo Fast Static Site Generator and CMS Framework](../../skills/hugo-static-site-generator-cms-framework/) | — | — |
-| [Pages CMS Open Source Content Management for GitHub Repositories](../../skills/pages-cms-github-content-management/) | — | — |
 | [Sanity Structured Content Studio and Content Lake](../../skills/sanity-structured-content-studio-content-lake/) | — | — |
 | [Storyblok Management API and JavaScript Client](../../skills/storyblok-management-api-and-javascript-client/) | — | — |
-| [Sveltia CMS Git-Based Headless Content Management System](../../skills/sveltia-cms-git-based-headless-cms/) | — | — |
 | [WooCommerce Order Sync Agent](../../skills/woocommerce-order-sync-agent/) | — | — |
 | [WooCommerce REST Inventory Sync](../../skills/woocommerce-rest-inventory-sync/) | — | — |
 | [WooCommerce Webhook Delivery Inspector](../../skills/woocommerce-webhook-delivery-inspector/) | — | — |

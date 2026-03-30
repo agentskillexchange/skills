@@ -6,16 +6,16 @@ Image generation, asset processing, design automation, and creative tooling.
 
 | Skill | Stars |
 |---|---:|
-| [BlurHash Compact Image Placeholder Encoder](../../skills/blurhash-compact-image-placeholder-encoder/) | ⭐ 244.2k |
-| [Rive Runtime Animation Controller](../../skills/rive-runtime-animation-controller/) | ⭐ 244.2k |
-| [SVG Animation Builder](../../skills/svg-animation-builder/) | ⭐ 93.9k |
+| [BlurHash Compact Image Placeholder Encoder](../../skills/blurhash-compact-image-placeholder-encoder/) | ⭐ 244.3k |
+| [Excalidraw Virtual Whiteboard and Diagram SDK](../../skills/excalidraw-virtual-whiteboard-diagram-sdk/) | ⭐ 244.3k |
+| [Rive Runtime Animation Controller](../../skills/rive-runtime-animation-controller/) | ⭐ 244.3k |
+| [SVG Animation Builder](../../skills/svg-animation-builder/) | ⭐ 94k |
 | [Figma Design Token Extractor](../../skills/figma-design-token-extractor-3/) | ⭐ 89.6k |
 | [imgproxy High-Performance Image Processing Proxy](../../skills/imgproxy-high-performance-image-processing-proxy/) | ⭐ 71.6k |
 | [Mermaid CLI Diagram-as-Code Renderer](../../skills/mermaid-cli-diagram-as-code-renderer/) | ⭐ 71.6k |
 | [RunPod Serverless GPU Inference](../../skills/runpod-serverless-gpu-inference/) | ⭐ 71.6k |
 | [Thumbor Smart Image Processing Service](../../skills/thumbor-smart-image-processing-service/) | ⭐ 71.6k |
 | [SVGO SVG Optimization Tool](../../skills/svgo-svg-optimization-tool/) | ⭐ 66k |
-| [FFmpeg Thumbnail Grid Generator](../../skills/ffmpeg-thumbnail-grid-generator/) | ⭐ 58.4k |
 
 ---
 
@@ -23,16 +23,16 @@ Image generation, asset processing, design automation, and creative tooling.
 
 | Skill | Downloads |
 |---|---:|
-| [BlurHash Compact Image Placeholder Encoder](../../skills/blurhash-compact-image-placeholder-encoder/) | ⬇ 119.6M/wk |
-| [Rive Runtime Animation Controller](../../skills/rive-runtime-animation-controller/) | ⬇ 119.6M/wk |
+| [BlurHash Compact Image Placeholder Encoder](../../skills/blurhash-compact-image-placeholder-encoder/) | ⬇ 121.9M/wk |
+| [Excalidraw Virtual Whiteboard and Diagram SDK](../../skills/excalidraw-virtual-whiteboard-diagram-sdk/) | ⬇ 121.9M/wk |
+| [Rive Runtime Animation Controller](../../skills/rive-runtime-animation-controller/) | ⬇ 121.9M/wk |
 | [SVG Animation Builder](../../skills/svg-animation-builder/) | ⬇ 8.9M/wk |
 | [Figma Design Token Extractor](../../skills/figma-design-token-extractor-3/) | ⬇ 13.5M/wk |
-| [SVGO SVG Optimization Tool](../../skills/svgo-svg-optimization-tool/) | ⬇ 45M/wk |
+| [SVGO SVG Optimization Tool](../../skills/svgo-svg-optimization-tool/) | ⬇ 44.7M/wk |
 | [FFmpeg Thumbnail Grid Generator](../../skills/ffmpeg-thumbnail-grid-generator/) | ⬇ 9.2M/wk |
-| [libvips High-Performance Image Processing Library and CLI](../../skills/libvips-high-performance-image-processing-library-cli/) | ⬇ 54.4M/wk |
-| [Sharp Image CDN Optimizer](../../skills/sharp-image-cdn-optimizer/) | ⬇ 54.4M/wk |
-| [Sharp Image Pipeline Processor](../../skills/sharp-image-pipeline-processor-2/) | ⬇ 54.4M/wk |
-| [Sharp Image Pipeline Skill](../../skills/sharp-image-pipeline-skill/) | ⬇ 54.4M/wk |
+| [libvips High-Performance Image Processing Library and CLI](../../skills/libvips-high-performance-image-processing-library-cli/) | ⬇ 54.2M/wk |
+| [Sharp Image CDN Optimizer](../../skills/sharp-image-cdn-optimizer/) | ⬇ 54.2M/wk |
+| [Sharp Image Pipeline Processor](../../skills/sharp-image-pipeline-processor-2/) | ⬇ 54.2M/wk |
 
 ---
 
@@ -40,15 +40,16 @@ Image generation, asset processing, design automation, and creative tooling.
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
-| [BlurHash Compact Image Placeholder Encoder](../../skills/blurhash-compact-image-placeholder-encoder/) | 244.2k | 119.6M/wk |
-| [Rive Runtime Animation Controller](../../skills/rive-runtime-animation-controller/) | 244.2k | 119.6M/wk |
-| [SVG Animation Builder](../../skills/svg-animation-builder/) | 93.9k | 8.9M/wk |
+| [BlurHash Compact Image Placeholder Encoder](../../skills/blurhash-compact-image-placeholder-encoder/) | 244.3k | 121.9M/wk |
+| [Excalidraw Virtual Whiteboard and Diagram SDK](../../skills/excalidraw-virtual-whiteboard-diagram-sdk/) | 244.3k | 121.9M/wk |
+| [Rive Runtime Animation Controller](../../skills/rive-runtime-animation-controller/) | 244.3k | 121.9M/wk |
+| [SVG Animation Builder](../../skills/svg-animation-builder/) | 94k | 8.9M/wk |
 | [Figma Design Token Extractor](../../skills/figma-design-token-extractor-3/) | 89.6k | 13.5M/wk |
 | [imgproxy High-Performance Image Processing Proxy](../../skills/imgproxy-high-performance-image-processing-proxy/) | 71.6k | — |
 | [Mermaid CLI Diagram-as-Code Renderer](../../skills/mermaid-cli-diagram-as-code-renderer/) | 71.6k | — |
 | [RunPod Serverless GPU Inference](../../skills/runpod-serverless-gpu-inference/) | 71.6k | — |
 | [Thumbor Smart Image Processing Service](../../skills/thumbor-smart-image-processing-service/) | 71.6k | — |
-| [SVGO SVG Optimization Tool](../../skills/svgo-svg-optimization-tool/) | 66k | 45M/wk |
+| [SVGO SVG Optimization Tool](../../skills/svgo-svg-optimization-tool/) | 66k | 44.7M/wk |
 | [FFmpeg Thumbnail Grid Generator](../../skills/ffmpeg-thumbnail-grid-generator/) | 58.4k | 9.2M/wk |
 | [FFmpeg Intelligent Media Processor](../../skills/ffmpeg-intelligent-media-processor/) | 58.4k | — |
 | [FFmpeg Media Transcoder](../../skills/ffmpeg-media-transcoder/) | 58.4k | — |
@@ -57,11 +58,11 @@ Image generation, asset processing, design automation, and creative tooling.
 | [rembg AI Background Removal CLI and Python Library](../../skills/rembg-ai-background-removal-cli/) | 58.4k | — |
 | [RunwayML Gen-3 Alpha Video Composer](../../skills/runwayml-gen-3-alpha-video-composer/) | 58.4k | — |
 | [ComfyUI Workflow Executor](../../skills/comfyui-workflow-executor/) | 35.3k | — |
-| [libvips High-Performance Image Processing Library and CLI](../../skills/libvips-high-performance-image-processing-library-cli/) | 32.1k | 54.4M/wk |
-| [Sharp Image CDN Optimizer](../../skills/sharp-image-cdn-optimizer/) | 32.1k | 54.4M/wk |
-| [Sharp Image Pipeline Processor](../../skills/sharp-image-pipeline-processor-2/) | 32.1k | 54.4M/wk |
-| [Sharp Image Pipeline Skill](../../skills/sharp-image-pipeline-skill/) | 32.1k | 54.4M/wk |
-| [Sharp Image Transform Pipeline](../../skills/sharp-image-transform-pipeline/) | 32.1k | 54.4M/wk |
+| [libvips High-Performance Image Processing Library and CLI](../../skills/libvips-high-performance-image-processing-library-cli/) | 32.1k | 54.2M/wk |
+| [Sharp Image CDN Optimizer](../../skills/sharp-image-cdn-optimizer/) | 32.1k | 54.2M/wk |
+| [Sharp Image Pipeline Processor](../../skills/sharp-image-pipeline-processor-2/) | 32.1k | 54.2M/wk |
+| [Sharp Image Pipeline Skill](../../skills/sharp-image-pipeline-skill/) | 32.1k | 54.2M/wk |
+| [Sharp Image Transform Pipeline](../../skills/sharp-image-transform-pipeline/) | 32.1k | 54.2M/wk |
 | [ImageMagick Batch Converter CLI](../../skills/imagemagick-batch-converter-cli/) | 16k | — |
 | [ImageMagick Batch Processor](../../skills/imagemagick-batch-processor/) | 16k | — |
 | [ImageMagick Batch Transform Agent](../../skills/imagemagick-batch-transform-agent/) | 16k | — |
@@ -84,7 +85,6 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Cloudinary DAM Pipeline](../../skills/cloudinary-dam-pipeline-skill/) | — | — |
 | [Cloudinary Media Optimization Agent](../../skills/cloudinary-media-optimization-agent/) | — | — |
 | [Cloudinary Media Transform Skill](../../skills/cloudinary-media-transform-skill/) | — | — |
-| [Excalidraw Virtual Whiteboard and Diagram SDK](../../skills/excalidraw-virtual-whiteboard-diagram-sdk/) | — | — |
 | [Figma Design Token Exporter](../../skills/figma-design-token-exporter/) | — | — |
 | [Figma Export Automator](../../skills/figma-export-automator/) | — | — |
 | [Figma REST API Asset Exporter](../../skills/figma-rest-api-asset-exporter/) | — | — |

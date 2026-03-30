@@ -7,10 +7,10 @@ Web research, data collection, content aggregation, and information gathering.
 | Skill | Stars |
 |---|---:|
 | [Trafilatura Web Text Extraction and Crawling Toolkit](../../skills/trafilatura-web-text-extraction-crawling/) | ⭐ 158.5k |
-| [Puppeteer Scraping Framework](../../skills/puppeteer-scraping-framework-2/) | ⭐ 93.9k |
-| [Puppeteer Stealth Web Scraper](../../skills/puppeteer-stealth-web-scraper/) | ⭐ 93.9k |
-| [Puppeteer Web Scraper](../../skills/puppeteer-web-scraper/) | ⭐ 93.9k |
-| [PuppeteerSharp Web Scraping Pipeline](../../skills/puppeteersharp-web-scraping-pipeline/) | ⭐ 93.9k |
+| [Puppeteer Scraping Framework](../../skills/puppeteer-scraping-framework-2/) | ⭐ 94k |
+| [Puppeteer Stealth Web Scraper](../../skills/puppeteer-stealth-web-scraper/) | ⭐ 94k |
+| [Puppeteer Web Scraper](../../skills/puppeteer-web-scraper/) | ⭐ 94k |
+| [PuppeteerSharp Web Scraping Pipeline](../../skills/puppeteersharp-web-scraping-pipeline/) | ⭐ 94k |
 | [changedetection.io Self-Hosted Website Change Monitoring Platform](../../skills/changedetection-io-website-change-monitor/) | ⭐ 85.2k |
 | [Crawl4AI LLM-Ready Web Crawler and Scraper](../../skills/crawl4ai-llm-web-crawler-scraper/) | ⭐ 85.2k |
 | [Playwright Network Interceptor](../../skills/playwright-network-interceptor/) | ⭐ 85.2k |
@@ -27,12 +27,12 @@ Web research, data collection, content aggregation, and information gathering.
 | [Puppeteer Stealth Web Scraper](../../skills/puppeteer-stealth-web-scraper/) | ⬇ 8.9M/wk |
 | [Puppeteer Web Scraper](../../skills/puppeteer-web-scraper/) | ⬇ 8.9M/wk |
 | [PuppeteerSharp Web Scraping Pipeline](../../skills/puppeteersharp-web-scraping-pipeline/) | ⬇ 8.9M/wk |
-| [changedetection.io Self-Hosted Website Change Monitoring Platform](../../skills/changedetection-io-website-change-monitor/) | ⬇ 41.2M/wk |
-| [Crawl4AI LLM-Ready Web Crawler and Scraper](../../skills/crawl4ai-llm-web-crawler-scraper/) | ⬇ 41.2M/wk |
-| [Playwright Network Interceptor](../../skills/playwright-network-interceptor/) | ⬇ 41.2M/wk |
-| [Playwright Page Data Extractor](../../skills/playwright-page-data-extractor/) | ⬇ 41.2M/wk |
-| [Playwright Test Generator with Codegen](../../skills/playwright-test-generator-codegen/) | ⬇ 41.2M/wk |
-| [Scrapling Adaptive Web Scraping Framework](../../skills/scrapling-adaptive-web-scraping-framework/) | ⬇ 41.2M/wk |
+| [changedetection.io Self-Hosted Website Change Monitoring Platform](../../skills/changedetection-io-website-change-monitor/) | ⬇ 41.3M/wk |
+| [Crawl4AI LLM-Ready Web Crawler and Scraper](../../skills/crawl4ai-llm-web-crawler-scraper/) | ⬇ 41.3M/wk |
+| [Playwright Network Interceptor](../../skills/playwright-network-interceptor/) | ⬇ 41.3M/wk |
+| [Playwright Page Data Extractor](../../skills/playwright-page-data-extractor/) | ⬇ 41.3M/wk |
+| [Playwright Test Generator with Codegen](../../skills/playwright-test-generator-codegen/) | ⬇ 41.3M/wk |
+| [Scrapling Adaptive Web Scraping Framework](../../skills/scrapling-adaptive-web-scraping-framework/) | ⬇ 41.3M/wk |
 
 ---
 
@@ -41,19 +41,20 @@ Web research, data collection, content aggregation, and information gathering.
 | Skill | Stars | Downloads |
 |---|---:|---:|
 | [Trafilatura Web Text Extraction and Crawling Toolkit](../../skills/trafilatura-web-text-extraction-crawling/) | 158.5k | — |
-| [Puppeteer Scraping Framework](../../skills/puppeteer-scraping-framework-2/) | 93.9k | 8.9M/wk |
-| [Puppeteer Stealth Web Scraper](../../skills/puppeteer-stealth-web-scraper/) | 93.9k | 8.9M/wk |
-| [Puppeteer Web Scraper](../../skills/puppeteer-web-scraper/) | 93.9k | 8.9M/wk |
-| [PuppeteerSharp Web Scraping Pipeline](../../skills/puppeteersharp-web-scraping-pipeline/) | 93.9k | 8.9M/wk |
-| [changedetection.io Self-Hosted Website Change Monitoring Platform](../../skills/changedetection-io-website-change-monitor/) | 85.2k | 41.2M/wk |
-| [Crawl4AI LLM-Ready Web Crawler and Scraper](../../skills/crawl4ai-llm-web-crawler-scraper/) | 85.2k | 41.2M/wk |
-| [Playwright Network Interceptor](../../skills/playwright-network-interceptor/) | 85.2k | 41.2M/wk |
-| [Playwright Page Data Extractor](../../skills/playwright-page-data-extractor/) | 85.2k | 41.2M/wk |
-| [Playwright Test Generator with Codegen](../../skills/playwright-test-generator-codegen/) | 85.2k | 41.2M/wk |
-| [Scrapling Adaptive Web Scraping Framework](../../skills/scrapling-adaptive-web-scraping-framework/) | 85.2k | 41.2M/wk |
-| [SerpAPI Search Aggregator](../../skills/serpapi-search-aggregator/) | 73.6k | 8.7M/wk |
+| [Puppeteer Scraping Framework](../../skills/puppeteer-scraping-framework-2/) | 94k | 8.9M/wk |
+| [Puppeteer Stealth Web Scraper](../../skills/puppeteer-stealth-web-scraper/) | 94k | 8.9M/wk |
+| [Puppeteer Web Scraper](../../skills/puppeteer-web-scraper/) | 94k | 8.9M/wk |
+| [PuppeteerSharp Web Scraping Pipeline](../../skills/puppeteersharp-web-scraping-pipeline/) | 94k | 8.9M/wk |
+| [changedetection.io Self-Hosted Website Change Monitoring Platform](../../skills/changedetection-io-website-change-monitor/) | 85.2k | 41.3M/wk |
+| [Crawl4AI LLM-Ready Web Crawler and Scraper](../../skills/crawl4ai-llm-web-crawler-scraper/) | 85.2k | 41.3M/wk |
+| [Playwright Network Interceptor](../../skills/playwright-network-interceptor/) | 85.2k | 41.3M/wk |
+| [Playwright Page Data Extractor](../../skills/playwright-page-data-extractor/) | 85.2k | 41.3M/wk |
+| [Playwright Test Generator with Codegen](../../skills/playwright-test-generator-codegen/) | 85.2k | 41.3M/wk |
+| [Scrapling Adaptive Web Scraping Framework](../../skills/scrapling-adaptive-web-scraping-framework/) | 85.2k | 41.3M/wk |
+| [SerpAPI Search Aggregator](../../skills/serpapi-search-aggregator/) | 73.6k | 8.8M/wk |
 | [Brave Search MCP Server for AI Web Search](../../skills/brave-search-mcp-server-ai-web-search/) | 71.6k | — |
 | [Katana Next-Generation Web Crawling and Spidering Framework](../../skills/katana-web-crawling-spidering-framework/) | 71.6k | — |
+| [linkding Self-Hosted Bookmark Manager with REST API](../../skills/linkding-self-hosted-bookmark-manager-rest-api/) | 71.6k | — |
 | [Maigret OSINT Username Profiler Across 3000+ Sites](../../skills/maigret-osint-username-profiler/) | 71.6k | — |
 | [Sherlock Social Media Username Hunter Across 400+ Networks](../../skills/sherlock-social-media-username-hunter/) | 71.6k | — |
 | [SpiderFoot Open Source Intelligence Automation Framework](../../skills/spiderfoot-osint-automation-framework/) | 71.6k | — |
@@ -70,14 +71,14 @@ Web research, data collection, content aggregation, and information gathering.
 | [SerpAPI Research Pipeline](../../skills/serpapi-research-pipeline/) | 7.1k | 5M/wk |
 | [SerpAPI Search Pipeline](../../skills/serpapi-search-pipeline/) | 7.1k | 5M/wk |
 | [Hacker News Deep Thread Analyzer](../../skills/hacker-news-deep-thread-analyzer/) | 1.7k | 5M/wk |
-| [Crunchbase Company Intelligence Scraper](../../skills/crunchbase-company-intelligence-scraper/) | 391 | 953.9k/wk |
-| [Apify Actor Development Kit](../../skills/apify-actor-development-kit/) | 172 | 44.4k/wk |
-| [Apify Actor Runner](../../skills/apify-actor-runner/) | 172 | 44.4k/wk |
-| [Apify Actor Web Crawler](../../skills/apify-actor-web-crawler/) | 172 | 44.4k/wk |
-| [Apify Actor Web Intelligence Agent](../../skills/apify-actor-web-intelligence-agent/) | 172 | 44.4k/wk |
-| [Apify Web Scraper Orchestrator](../../skills/apify-web-scraper-orchestrator-3/) | 172 | 44.4k/wk |
-| [Crawlee Web Crawling and Browser Automation Library](../../skills/crawlee-web-crawling-browser-automation-library/) | 172 | 44.4k/wk |
-| [Censys Attack Surface Monitor](../../skills/censys-attack-surface-monitor/) | 69 | 212.2k/wk |
+| [Crunchbase Company Intelligence Scraper](../../skills/crunchbase-company-intelligence-scraper/) | 391 | 958.2k/wk |
+| [Apify Actor Development Kit](../../skills/apify-actor-development-kit/) | 172 | 44k/wk |
+| [Apify Actor Runner](../../skills/apify-actor-runner/) | 172 | 44k/wk |
+| [Apify Actor Web Crawler](../../skills/apify-actor-web-crawler/) | 172 | 44k/wk |
+| [Apify Actor Web Intelligence Agent](../../skills/apify-actor-web-intelligence-agent/) | 172 | 44k/wk |
+| [Apify Web Scraper Orchestrator](../../skills/apify-web-scraper-orchestrator-3/) | 172 | 44k/wk |
+| [Crawlee Web Crawling and Browser Automation Library](../../skills/crawlee-web-crawling-browser-automation-library/) | 172 | 44k/wk |
+| [Censys Attack Surface Monitor](../../skills/censys-attack-surface-monitor/) | 69 | 211.5k/wk |
 | [Academic Paper Citation Network Mapper](../../skills/academic-paper-citation-network-mapper/) | — | — |
 | [Beautiful Soup Academic Paper Parser](../../skills/beautifulsoup-academic-paper-parser/) | — | — |
 | [Browserless Scraping Agent](../../skills/browserless-scraping-agent/) | — | — |

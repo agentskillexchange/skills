@@ -13,9 +13,9 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [act Local GitHub Actions Runner](../../skills/act-local-github-actions-runner/) | ⭐ 71.6k |
 | [Buildkite Dynamic Pipeline Architect](../../skills/buildkite-dynamic-pipeline-architect/) | ⭐ 71.6k |
 | [Buildkite Pipeline Profiler](../../skills/buildkite-pipeline-profiler/) | ⭐ 71.6k |
+| [Dagger Programmable CI/CD Automation Engine](../../skills/dagger-programmable-cicd-automation-engine/) | ⭐ 71.6k |
 | [Docker Image Layer Inspector](../../skills/docker-image-layer-inspector/) | ⭐ 71.6k |
 | [Docker Image Layer Size Analyzer](../../skills/docker-image-layer-size-analyzer/) | ⭐ 71.6k |
-| [Docker Image Vulnerability Triage](../../skills/docker-image-vulnerability-triage/) | ⭐ 71.6k |
 
 ---
 
@@ -23,12 +23,12 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 
 | Skill | Downloads |
 |---|---:|
-| [Playwright Test Report to Slack](../../skills/playwright-test-report-to-slack/) | ⬇ 41.2M/wk |
-| [Buildkite Agent Monitor](../../skills/buildkite-agent-monitor/) | ⬇ 33.3M/wk |
-| [Buildkite Dynamic Pipeline Agent](../../skills/buildkite-dynamic-pipeline-agent/) | ⬇ 33.3M/wk |
-| [Buildkite Pipeline Optimizer](../../skills/buildkite-pipeline-optimizer-agent/) | ⬇ 33.3M/wk |
-| [GitHub Actions CI/CD Pipeline Manager](../../skills/github-actions-cicd-pipeline-manager/) | ⬇ 33.3M/wk |
-| [GitHub Actions Workflow Debugger](../../skills/github-actions-workflow-debugger/) | ⬇ 33.3M/wk |
+| [Playwright Test Report to Slack](../../skills/playwright-test-report-to-slack/) | ⬇ 41.3M/wk |
+| [Buildkite Agent Monitor](../../skills/buildkite-agent-monitor/) | ⬇ 33.4M/wk |
+| [Buildkite Dynamic Pipeline Agent](../../skills/buildkite-dynamic-pipeline-agent/) | ⬇ 33.4M/wk |
+| [Buildkite Pipeline Optimizer](../../skills/buildkite-pipeline-optimizer-agent/) | ⬇ 33.4M/wk |
+| [GitHub Actions CI/CD Pipeline Manager](../../skills/github-actions-cicd-pipeline-manager/) | ⬇ 33.4M/wk |
+| [GitHub Actions Workflow Debugger](../../skills/github-actions-workflow-debugger/) | ⬇ 33.4M/wk |
 | [AWS CloudWatch Alarm Builder](../../skills/aws-cloudwatch-alarm-builder/) | ⬇ 9.3M/wk |
 | [AWS CodePipeline Orchestrator](../../skills/aws-codepipeline-orchestrator/) | ⬇ 9.3M/wk |
 | [GitHub Actions Matrix Orchestrator](../../skills/github-actions-matrix-orchestrator/) | ⬇ 9.3M/wk |
@@ -43,10 +43,11 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Argo Workflows Deployer](../../skills/argo-workflows-deployer/) | 121.4k | — |
 | [Argo Workflows Linter](../../skills/argo-workflows-linter/) | 121.4k | — |
 | [Buildkite Agent Fleet Scaler](../../skills/buildkite-agent-fleet-scaler/) | 121.4k | — |
-| [Playwright Test Report to Slack](../../skills/playwright-test-report-to-slack/) | 85.2k | 41.2M/wk |
+| [Playwright Test Report to Slack](../../skills/playwright-test-report-to-slack/) | 85.2k | 41.3M/wk |
 | [act Local GitHub Actions Runner](../../skills/act-local-github-actions-runner/) | 71.6k | — |
 | [Buildkite Dynamic Pipeline Architect](../../skills/buildkite-dynamic-pipeline-architect/) | 71.6k | — |
 | [Buildkite Pipeline Profiler](../../skills/buildkite-pipeline-profiler/) | 71.6k | — |
+| [Dagger Programmable CI/CD Automation Engine](../../skills/dagger-programmable-cicd-automation-engine/) | 71.6k | — |
 | [Docker Image Layer Inspector](../../skills/docker-image-layer-inspector/) | 71.6k | — |
 | [Docker Image Layer Size Analyzer](../../skills/docker-image-layer-size-analyzer/) | 71.6k | — |
 | [Docker Image Vulnerability Triage](../../skills/docker-image-vulnerability-triage/) | 71.6k | — |
@@ -124,11 +125,11 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [ArgoCD Sync Troubleshooter](../../skills/argocd-sync-troubleshooter/) | 22.4k | — |
 | [ArgoCD Sync Wave Orchestrator](../../skills/argocd-sync-wave-orchestrator-wave48/) | 22.4k | — |
 | [ArgoCD Sync Wave Planner](../../skills/argocd-sync-wave-planner/) | 22.4k | — |
-| [Buildkite Agent Monitor](../../skills/buildkite-agent-monitor/) | 20.3k | 33.3M/wk |
-| [Buildkite Dynamic Pipeline Agent](../../skills/buildkite-dynamic-pipeline-agent/) | 20.3k | 33.3M/wk |
-| [Buildkite Pipeline Optimizer](../../skills/buildkite-pipeline-optimizer-agent/) | 20.3k | 33.3M/wk |
-| [GitHub Actions CI/CD Pipeline Manager](../../skills/github-actions-cicd-pipeline-manager/) | 20.3k | 33.3M/wk |
-| [GitHub Actions Workflow Debugger](../../skills/github-actions-workflow-debugger/) | 20.3k | 33.3M/wk |
+| [Buildkite Agent Monitor](../../skills/buildkite-agent-monitor/) | 20.3k | 33.4M/wk |
+| [Buildkite Dynamic Pipeline Agent](../../skills/buildkite-dynamic-pipeline-agent/) | 20.3k | 33.4M/wk |
+| [Buildkite Pipeline Optimizer](../../skills/buildkite-pipeline-optimizer-agent/) | 20.3k | 33.4M/wk |
+| [GitHub Actions CI/CD Pipeline Manager](../../skills/github-actions-cicd-pipeline-manager/) | 20.3k | 33.4M/wk |
+| [GitHub Actions Workflow Debugger](../../skills/github-actions-workflow-debugger/) | 20.3k | 33.4M/wk |
 | [Tekton Pipeline Chain Validator](../../skills/tekton-pipeline-chain-validator/) | 8.9k | — |
 | [Tekton Pipeline Composer](../../skills/tekton-pipeline-composer/) | 8.9k | — |
 | [Tekton Pipeline Debugger](../../skills/tekton-pipeline-debugger/) | 8.9k | — |
@@ -144,31 +145,30 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [GitHub Actions Matrix Orchestrator](../../skills/github-actions-matrix-orchestrator/) | 3.6k | 9.3M/wk |
 | [GitHub Actions OIDC Token Validator](../../skills/github-actions-oidc-token-validator/) | 3.6k | 9.3M/wk |
 | [GitHub Actions OIDC Token Verifier](../../skills/github-actions-oidc-token-verifier/) | 3.6k | 9.3M/wk |
-| [CircleCI Config Validator](../../skills/circleci-config-validator/) | 842 | — |
-| [CircleCI Flaky Test Detector](../../skills/circleci-flaky-test-detector-2/) | 842 | — |
-| [CircleCI Orb Auditor](../../skills/circleci-orb-auditor/) | 842 | — |
-| [CircleCI Orb Builder](../../skills/circleci-orb-builder/) | 842 | — |
-| [CircleCI Orb Builder and Publisher](../../skills/circleci-orb-builder-publisher/) | 842 | — |
-| [CircleCI Orb Composer](../../skills/circleci-orb-composer-7/) | 842 | — |
-| [CircleCI Orb Composition Engine](../../skills/circleci-orb-composition-engine/) | 842 | — |
-| [CircleCI Orb Configuration Manager](../../skills/circleci-orb-configuration-manager/) | 842 | — |
-| [CircleCI Orb Configurator](../../skills/circleci-orb-configurator-2/) | 842 | — |
-| [CircleCI Orb Debugger](../../skills/circleci-orb-debugger/) | 842 | — |
-| [CircleCI Orb Dependency Analyzer](../../skills/circleci-orb-dependency-analyzer/) | 842 | — |
-| [CircleCI Orb Dependency Auditor](../../skills/circleci-orb-dependency-auditor-4/) | 842 | — |
-| [CircleCI Orb Dependency Checker](../../skills/circleci-orb-dependency-checker/) | 842 | — |
-| [CircleCI Orb Dependency Scanner](../../skills/circleci-orb-dependency-scanner-4/) | 842 | — |
-| [CircleCI Orb Linter](../../skills/circleci-orb-linter/) | 842 | — |
-| [CircleCI Orb Pipeline Agent](../../skills/circleci-orb-pipeline-agent/) | 842 | — |
-| [CircleCI Orb Pipeline Composer](../../skills/circleci-orb-pipeline-composer-2/) | 842 | — |
-| [CircleCI Orb Pipeline Debugger](../../skills/circleci-orb-pipeline-debugger/) | 842 | — |
-| [CircleCI Orb Validator](../../skills/circleci-orb-validator/) | 842 | — |
-| [CircleCI Pipeline Manager](../../skills/circleci-pipeline-manager/) | 842 | — |
-| [CircleCI Pipeline Optimizer](../../skills/circleci-pipeline-optimizer/) | 842 | — |
-| [CircleCI Workflow Analyzer](../../skills/circleci-workflow-analyzer/) | 842 | — |
-| [CircleCI Workflow Builder](../../skills/circleci-workflow-builder/) | 842 | — |
-| [CircleCI Workflow Cost Auditor](../../skills/circleci-workflow-cost-auditor/) | 842 | — |
-| [Dagger Programmable CI/CD Automation Engine](../../skills/dagger-programmable-cicd-automation-engine/) | — | — |
+| [CircleCI Config Validator](../../skills/circleci-config-validator/) | 841 | — |
+| [CircleCI Flaky Test Detector](../../skills/circleci-flaky-test-detector-2/) | 841 | — |
+| [CircleCI Orb Auditor](../../skills/circleci-orb-auditor/) | 841 | — |
+| [CircleCI Orb Builder](../../skills/circleci-orb-builder/) | 841 | — |
+| [CircleCI Orb Builder and Publisher](../../skills/circleci-orb-builder-publisher/) | 841 | — |
+| [CircleCI Orb Composer](../../skills/circleci-orb-composer-7/) | 841 | — |
+| [CircleCI Orb Composition Engine](../../skills/circleci-orb-composition-engine/) | 841 | — |
+| [CircleCI Orb Configuration Manager](../../skills/circleci-orb-configuration-manager/) | 841 | — |
+| [CircleCI Orb Configurator](../../skills/circleci-orb-configurator-2/) | 841 | — |
+| [CircleCI Orb Debugger](../../skills/circleci-orb-debugger/) | 841 | — |
+| [CircleCI Orb Dependency Analyzer](../../skills/circleci-orb-dependency-analyzer/) | 841 | — |
+| [CircleCI Orb Dependency Auditor](../../skills/circleci-orb-dependency-auditor-4/) | 841 | — |
+| [CircleCI Orb Dependency Checker](../../skills/circleci-orb-dependency-checker/) | 841 | — |
+| [CircleCI Orb Dependency Scanner](../../skills/circleci-orb-dependency-scanner-4/) | 841 | — |
+| [CircleCI Orb Linter](../../skills/circleci-orb-linter/) | 841 | — |
+| [CircleCI Orb Pipeline Agent](../../skills/circleci-orb-pipeline-agent/) | 841 | — |
+| [CircleCI Orb Pipeline Composer](../../skills/circleci-orb-pipeline-composer-2/) | 841 | — |
+| [CircleCI Orb Pipeline Debugger](../../skills/circleci-orb-pipeline-debugger/) | 841 | — |
+| [CircleCI Orb Validator](../../skills/circleci-orb-validator/) | 841 | — |
+| [CircleCI Pipeline Manager](../../skills/circleci-pipeline-manager/) | 841 | — |
+| [CircleCI Pipeline Optimizer](../../skills/circleci-pipeline-optimizer/) | 841 | — |
+| [CircleCI Workflow Analyzer](../../skills/circleci-workflow-analyzer/) | 841 | — |
+| [CircleCI Workflow Builder](../../skills/circleci-workflow-builder/) | 841 | — |
+| [CircleCI Workflow Cost Auditor](../../skills/circleci-workflow-cost-auditor/) | 841 | — |
 | [GitHub Actions CI Builder](../../skills/github-actions-ci-builder/) | — | — |
 | [GitHub Actions CI Pipeline Builder](../../skills/github-actions-ci-pipeline-builder/) | — | — |
 | [GitHub Actions Matrix Build Optimizer](../../skills/github-actions-matrix-build-optimizer/) | — | — |
