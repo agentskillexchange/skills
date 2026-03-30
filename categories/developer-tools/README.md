@@ -188,6 +188,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Jira Advanced Query Agent](../../skills/jira-advanced-query-agent/) | — | — |
 | [Just Command Runner](../../skills/just-command-runner/) | — | — |
 | [lazygit Terminal UI for Git Operations](../../skills/lazygit-terminal-ui-git-operations/) | — | — |
+| [llama.cpp Portable LLM Inference Engine in C/C++](../../skills/llama-cpp-portable-llm-inference/) | — | — |
 | [LLDB Debug Session Automator](../../skills/lldb-debug-session-automator/) | — | — |
 | [LLM Command-Line Interface for Large Language Models](../../skills/llm-command-line-interface-large-language-models/) | — | — |
 | [lsd Next-Generation ls Directory Listing Tool](../../skills/lsd-next-gen-ls-directory-listing/) | — | — |
@@ -196,6 +197,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [n8n GitHub Issue-to-Jira Ticket Automator](../../skills/n8n-github-jira-ticket-automator/) | — | — |
 | [Nix Flake Configuration Builder](../../skills/nix-flake-configuration-builder/) | — | — |
 | [NPM Package Auditor](../../skills/npm-package-auditor-registry-api/) | — | — |
+| [Ollama Local LLM Runner and Model Management CLI](../../skills/ollama-local-llm-runner/) | — | — |
 | [Package Vulnerability Scanner](../../skills/package-vuln-scanner-osv-api/) | — | — |
 | [pastel Command-Line Color Generation Analysis and Manipulation Tool](../../skills/pastel-command-line-color-tool/) | — | — |
 | [piku Tiny PaaS for Git Push Deployments to Your Own Servers](../../skills/piku-tiny-paas-git-push-deployments-own-servers/) | — | — |
@@ -203,6 +205,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Repomix Codebase Context Packer for LLMs](../../skills/repomix-codebase-context-packer-llm/) | — | — |
 | [Restic Fast Encrypted Backup Program](../../skills/restic-encrypted-backup-tool/) | — | — |
 | [ripgrep Recursive Regex Search Tool](../../skills/ripgrep-recursive-regex-search-tool/) | — | — |
+| [vLLM High-Throughput LLM Serving Engine with PagedAttention](../../skills/vllm-high-throughput-llm-serving/) | — | — |
 | [VS Code Extension Debugger](../../skills/vscode-extension-debugger-dap-protocol/) | — | — |
 | [WASM Component Model Linker](../../skills/wasm-component-model-linker/) | — | — |
 | [watchexec File Watcher and Command Re-Runner](../../skills/watchexec-file-watcher-command-rerunner/) | — | — |

@@ -117,6 +117,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Codecov Coverage Tracker Agent](../../skills/codecov-coverage-tracker-agent/) | — | — |
 | [Complexity Trend Tracker](../../skills/complexity-trend-tracker-agent/) | — | — |
 | [Difftastic Structural Syntax-Aware Diff Tool](../../skills/difftastic-structural-syntax-diff/) | — | — |
+| [dprint Pluggable High-Performance Code Formatting Platform](../../skills/dprint-pluggable-code-formatter/) | — | — |
 | [Prettier Config Harmonizer](../../skills/prettier-config-harmonizer-2/) | — | — |
 | [Pylint Baseline Manager](../../skills/pylint-baseline-manager-wave48/) | — | — |
 | [Pylint Code Review Assistant](../../skills/pylint-code-review-assistant/) | — | — |

@@ -1,8 +1,56 @@
 {
   "version": "2.0",
-  "total": 1500,
+  "total": 1504,
   "generated": "2026-03-30",
   "skills": [
+    {
+      "slug": "dprint-pluggable-code-formatter",
+      "name": "dprint Pluggable High-Performance Code Formatting Platform",
+      "description": "dprint is a pluggable and configurable code formatting platform written in Rust. It unifies formatting for TypeScript, JavaScript, JSON, Markdown, TOML, CSS, HTML, Dockerfile,…",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "vllm-high-throughput-llm-serving",
+      "name": "vLLM High-Throughput LLM Serving Engine with PagedAttention",
+      "description": "vLLM is a fast and memory-efficient inference and serving engine for large language models. It uses PagedAttention for efficient memory management, supports continuous batching,…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "llama-cpp-portable-llm-inference",
+      "name": "llama.cpp Portable LLM Inference Engine in C/C++",
+      "description": "llama.cpp is a high-performance C/C++ implementation for running LLM inference across diverse hardware. It supports GGUF model quantization, GPU acceleration on NVIDIA/AMD/Apple Silicon, and…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "ollama-local-llm-runner",
+      "name": "Ollama Local LLM Runner and Model Management CLI",
+      "description": "Ollama is a lightweight tool for running large language models locally. It provides a simple CLI and REST API interface for downloading, managing, and…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "piku-tiny-paas-git-push-deployments-own-servers",
       "name": "piku Tiny PaaS for Git Push Deployments to Your Own Servers",
