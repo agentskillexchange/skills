@@ -95,6 +95,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [IMAP Inbox Triage Agent](../../skills/imap-inbox-triage-agent/) | — | — |
 | [jrnl Command-Line Journal and Note Capture Tool](../../skills/jrnl-command-line-journal-note-capture/) | — | — |
 | [khal Standards-Based CLI Calendar Application](../../skills/khal-cli-calendar-application-caldav/) | — | — |
+| [Mautic Open Source Marketing Automation Platform](../../skills/mautic-marketing-automation-platform/) | — | — |
 | [Microsoft Graph Calendar Conflict Resolver](../../skills/microsoft-graph-calendar-conflict-resolver/) | — | — |
 | [Microsoft Graph Email Digest Builder](../../skills/microsoft-graph-email-digest-builder/) | — | — |
 | [Microsoft Graph Email Triage Agent](../../skills/microsoft-graph-email-triage-agent/) | — | — |
@@ -106,6 +107,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Outlook Mail Triage Skill](../../skills/outlook-mail-triage-microsoft-graph/) | — | — |
 | [Outlook Rule Automation Manager](../../skills/outlook-rule-automation-manager/) | — | — |
 | [Radicale Self-Hosted CalDAV and CardDAV Server](../../skills/radicale-self-hosted-caldav-carddav-server/) | — | — |
+| [Stalwart All-in-One Mail and Collaboration Server](../../skills/stalwart-mail-collaboration-server/) | — | — |
 | [Taskwarrior Command-Line Task Management System](../../skills/taskwarrior-command-line-task-management-system/) | — | — |
 | [Timewarrior Command-Line Time Tracking and Reporting](../../skills/timewarrior-command-line-time-tracking-reporting/) | — | — |
 | [Todoist GTD Workflow Engine](../../skills/todoist-gtd-workflow-engine/) | — | — |

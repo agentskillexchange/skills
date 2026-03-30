@@ -1,8 +1,56 @@
 {
   "version": "2.0",
-  "total": 1488,
+  "total": 1492,
   "generated": "2026-03-30",
   "skills": [
+    {
+      "slug": "immich-photo-video-management-platform",
+      "name": "Immich Self-Hosted Photo and Video Management Platform",
+      "description": "Immich is a high-performance self-hosted photo and video management solution with 90K+ GitHub stars. It provides automatic backup, facial recognition, CLIP-based search, metadata extraction,…",
+      "category": [
+        "Media & Transcription"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "karakeep-bookmark-manager-ai-tagging",
+      "name": "Karakeep Self-Hosted Bookmark Manager with AI Tagging",
+      "description": "Karakeep (formerly Hoarder) is a self-hosted bookmark-everything app with 24K+ GitHub stars that provides AI-powered automatic tagging, full-text search, link archiving, and a REST…",
+      "category": [
+        "Research & Scraping"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "mautic-marketing-automation-platform",
+      "name": "Mautic Open Source Marketing Automation Platform",
+      "description": "Mautic is the world's largest open-source marketing automation platform with 7.9K+ GitHub stars. It provides email campaign management, lead scoring, contact segmentation, landing pages,…",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "stalwart-mail-collaboration-server",
+      "name": "Stalwart All-in-One Mail and Collaboration Server",
+      "description": "Stalwart is an open-source mail and collaboration server written in Rust that provides JMAP, IMAP4, POP3, SMTP, CalDAV, CardDAV, and WebDAV support. It enables…",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "netbird-wireguard-mesh-vpn-zero-trust-access",
       "name": "NetBird WireGuard Mesh VPN with Zero Trust Access Controls",
