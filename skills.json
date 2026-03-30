@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1468,
+  "total": 1471,
   "generated": "2026-03-30",
   "skills": [
+    {
+      "slug": "pages-cms-github-content-management",
+      "name": "Pages CMS Open Source Content Management for GitHub Repositories",
+      "description": "Pages CMS is an open-source content management system built on top of GitHub. It provides a visual editing interface for managing content in Git…",
+      "category": [
+        "WordPress & CMS"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "sveltia-cms-git-based-headless-cms",
+      "name": "Sveltia CMS Git-Based Headless Content Management System",
+      "description": "Sveltia CMS is a free, open-source, Git-based headless CMS that runs entirely in the browser. Built as the definitive successor to Netlify CMS and…",
+      "category": [
+        "WordPress & CMS"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "vikunja-self-hosted-task-management",
+      "name": "Vikunja Self-Hosted Task Management and Project Organization Platform",
+      "description": "Vikunja is an open-source, self-hosted task management application written in Go with a Vue.js frontend. It provides lists, kanban boards, Gantt charts, and CalDAV…",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "aerc-extensible-terminal-email-client",
       "name": "aerc Extensible Terminal Email Client with IMAP JMAP and Notmuch",
