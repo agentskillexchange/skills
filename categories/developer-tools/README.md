@@ -157,6 +157,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Claude Code MCP Bridge](../../skills/claude-code-mcp-bridge/) | — | — |
 | [D2 Modern Diagram Scripting Language and CLI](../../skills/d2-diagram-scripting-language-cli/) | — | — |
 | [Desktop Commander MCP Server for Terminal and File Control](../../skills/desktop-commander-mcp-terminal-file-control/) | — | — |
+| [Docusaurus React Documentation Framework by Meta](../../skills/docusaurus-react-documentation-framework-meta/) | — | — |
 | [dust Intuitive Disk Usage Analyzer CLI](../../skills/dust-intuitive-disk-usage-analyzer-cli/) | — | — |
 | [E2B Code Execution MCP](../../skills/e2b-code-execution-mcp/) | — | — |
 | [eza Modern File Listing CLI](../../skills/eza-modern-file-listing-cli/) | — | — |
@@ -184,6 +185,8 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [LLDB Debug Session Automator](../../skills/lldb-debug-session-automator/) | — | — |
 | [lsd Next-Generation ls Directory Listing Tool](../../skills/lsd-next-gen-ls-directory-listing/) | — | — |
 | [Makefile Dependency Auditor](../../skills/makefile-dependency-auditor/) | — | — |
+| [mdBook Markdown Book Generator by Rust Project](../../skills/mdbook-markdown-book-generator-rust/) | — | — |
+| [MkDocs Project Documentation Generator](../../skills/mkdocs-project-documentation-generator/) | — | — |
 | [n8n GitHub Issue-to-Jira Ticket Automator](../../skills/n8n-github-jira-ticket-automator/) | — | — |
 | [Nix Flake Configuration Builder](../../skills/nix-flake-configuration-builder/) | — | — |
 | [NPM Package Auditor](../../skills/npm-package-auditor-registry-api/) | — | — |

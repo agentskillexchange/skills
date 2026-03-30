@@ -1,8 +1,56 @@
 {
   "version": "2.0",
-  "total": 1474,
+  "total": 1478,
   "generated": "2026-03-30",
   "skills": [
+    {
+      "slug": "plausible-analytics-privacy-first-web-analytics",
+      "name": "Plausible Analytics Privacy-First Web Analytics Platform",
+      "description": "Plausible Analytics is a lightweight, open-source, privacy-friendly alternative to Google Analytics. It requires no cookies, is fully GDPR/CCPA/PECR compliant, and provides a clean single-page…",
+      "category": [
+        "Monitoring & Alerts"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "docusaurus-react-documentation-framework-meta",
+      "name": "Docusaurus React Documentation Framework by Meta",
+      "description": "Docusaurus is an open-source static site generator built with React, developed and maintained by Meta. It enables teams to build, deploy, and maintain documentation…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "mdbook-markdown-book-generator-rust",
+      "name": "mdBook Markdown Book Generator by Rust Project",
+      "description": "mdBook is a command-line utility for creating online books from Markdown files. Built in Rust and maintained by the Rust project, it powers The…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "mkdocs-project-documentation-generator",
+      "name": "MkDocs Project Documentation Generator",
+      "description": "MkDocs is a fast, simple, and elegant static site generator designed for building project documentation from Markdown files. Configured with a single YAML file,…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "subfinder-passive-subdomain-enumeration",
       "name": "Subfinder Fast Passive Subdomain Enumeration Tool",
@@ -215,7 +263,7 @@
         "Monitoring & Alerts"
       ],
       "framework": [
-        "71"
+        "Multi-Framework"
       ],
       "verification": "listed"
     },
@@ -227,7 +275,7 @@
         "Data Extraction & Transformation"
       ],
       "framework": [
-        "71"
+        "Multi-Framework"
       ],
       "verification": "listed"
     },
@@ -239,7 +287,7 @@
         "Data Extraction & Transformation"
       ],
       "framework": [
-        "71"
+        "Multi-Framework"
       ],
       "verification": "listed"
     },

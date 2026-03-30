@@ -125,6 +125,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [OpsGenie MCP Server](../../skills/opsgenie-mcp-server/) | 24 | 9.4k/wk |
 | [Apprise Universal Push Notification Library and CLI](../../skills/apprise-universal-push-notification-library-cli/) | — | — |
 | [Langfuse LLM Observability Platform and SDK](../../skills/langfuse-llm-observability-platform-and-sdk/) | — | — |
+| [Plausible Analytics Privacy-First Web Analytics Platform](../../skills/plausible-analytics-privacy-first-web-analytics/) | — | — |
 | [PostHog Product Analytics and Feature Flags SDK](../../skills/posthog-product-analytics-and-feature-flags-sdk/) | — | — |
 | [sitespeed.io Comprehensive Web Performance Analysis Toolkit](../../skills/sitespeed-io-web-performance-analysis/) | — | — |
 | [Umami Privacy-Focused Web Analytics Platform](../../skills/umami-privacy-focused-web-analytics/) | — | — |
