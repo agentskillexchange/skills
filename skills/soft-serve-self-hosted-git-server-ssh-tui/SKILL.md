@@ -3,7 +3,7 @@ name: "Soft Serve Self-Hosted Git Server with SSH TUI"
 description: "Soft Serve is a self-hostable Git server by Charmbracelet that provides a beautiful terminal UI accessible over SSH. It supports cloning over SSH, HTTP, and Git protocol, Git LFS, access control wi..."
 category: "Developer Tools"
 framework: "Multi-Framework"
-verification: listed
+verification: security_reviewed
 source: "https://github.com/charmbracelet/soft-serve"
 ---
 

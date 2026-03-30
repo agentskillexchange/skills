@@ -3,7 +3,7 @@ name: "Helix Post-Modern Modal Text Editor with LSP and Tree-sitter"
 description: "Helix is a post-modern terminal-based modal text editor written in Rust. It features built-in language server protocol (LSP) support, smart syntax highlighting and code editing via Tree-sitter, and..."
 category: "Developer Tools"
 framework: "Multi-Framework"
-verification: listed
+verification: security_reviewed
 source: "https://github.com/helix-editor/helix"
 ---
 

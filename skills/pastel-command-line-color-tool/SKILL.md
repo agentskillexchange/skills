@@ -3,7 +3,7 @@ name: "pastel Command-Line Color Generation Analysis and Manipulation Tool"
 description: "pastel is a command-line tool for generating, analyzing, converting, and manipulating colors. Built in Rust by the creator of bat, fd, and hyperfine, it supports color spaces including RGB, HSL, Lab, ..."
 category: "Developer Tools"
 framework: "Multi-Framework"
-verification: listed
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/pastel-command-line-color-tool/"
 ---
 # pastel Command-Line Color Generation Analysis and Manipulation Tool

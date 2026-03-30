@@ -3,7 +3,7 @@ name: "OpenTofu Open Source Infrastructure as Code Tool"
 description: "OpenTofu is an open-source infrastructure as code tool that lets you declaratively manage cloud and on-premises resources. A CNCF project and community-driven fork of Terraform, it provides executi..."
 category: "Developer Tools"
 framework: "Multi-Framework"
-verification: listed
+verification: security_reviewed
 source: "https://github.com/opentofu/opentofu"
 ---
 

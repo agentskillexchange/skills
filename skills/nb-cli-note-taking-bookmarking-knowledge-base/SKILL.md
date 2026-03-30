@@ -3,7 +3,7 @@ name: "nb CLI Note-Taking Bookmarking and Knowledge Base Application"
 description: "nb is a command-line and local web note-taking, bookmarking, archiving, and knowledge base application. It stores everything as plain text with Git-backed versioning and syncing, supports wiki-style l..."
 category: "Calendar, Email & Productivity"
 framework: "Multi-Framework"
-verification: listed
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/nb-cli-note-taking-bookmarking-knowledge-base/"
 ---
 # nb CLI Note-Taking Bookmarking and Knowledge Base Application

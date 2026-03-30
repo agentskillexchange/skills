@@ -3,7 +3,7 @@ name: "Oxipng Multithreaded Lossless PNG Compression Optimizer"
 description: "Oxipng is a multithreaded lossless PNG and APNG compression optimizer written in Rust. It reduces PNG file sizes without any quality loss using advanced compression techniques including Zopfli support"
 category: "Image & Creative Automation"
 framework: "Multi-Framework"
-verification: listed
+verification: security_reviewed
 source: "https://github.com/oxipng/oxipng"
 ---
 

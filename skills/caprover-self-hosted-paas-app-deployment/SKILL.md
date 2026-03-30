@@ -3,7 +3,7 @@ name: "CapRover Self-Hosted PaaS for App Deployment and Server Management"
 description: "CapRover is a self-hosted Platform-as-a-Service that automates Docker, Nginx, and LetsEncrypt to deploy applications and databases with minimal configuration. It provides a web GUI and CLI for managing NodeJS, Python, PHP, Ruby, Go apps and popular databases on any VPS."
 category: "Developer Tools"
 framework: "Multi-Framework"
-verification: "listed"
+verification: listed
 source: "https://agentskillexchange.com/skills/caprover-self-hosted-paas-app-deployment/"
 ---
 # CapRover Self-Hosted PaaS for App Deployment and Server Management

@@ -3,7 +3,7 @@ name: "Timewarrior Command-Line Time Tracking and Reporting"
 description: "Timewarrior is a command-line time tracking tool from the Taskwarrior project. It records time intervals with tags, generates flexible reports, and integrates with Taskwarrior for automatic time track..."
 category: "Calendar, Email & Productivity"
 framework: "Multi-Framework"
-verification: listed
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/timewarrior-command-line-time-tracking-reporting/"
 ---
 # Timewarrior Command-Line Time Tracking and Reporting
