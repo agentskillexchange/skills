@@ -111,6 +111,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Todoist GTD Workflow Engine](../../skills/todoist-gtd-workflow-engine/) | — | — |
 | [Todoist Project Automator](../../skills/todoist-project-automator-api-v2/) | — | — |
 | [Todoist Sync API Task Orchestrator](../../skills/todoist-sync-api-task-orchestrator/) | — | — |
+| [Twenty Open Source CRM Platform and Salesforce Alternative](../../skills/twenty-open-source-crm-salesforce-alternative/) | — | — |
 
 ---
 
