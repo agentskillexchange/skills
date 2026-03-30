@@ -107,6 +107,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Outlook Mail Triage Skill](../../skills/outlook-mail-triage-microsoft-graph/) | — | — |
 | [Outlook Rule Automation Manager](../../skills/outlook-rule-automation-manager/) | — | — |
 | [Radicale Self-Hosted CalDAV and CardDAV Server](../../skills/radicale-self-hosted-caldav-carddav-server/) | — | — |
+| [Shiori Self-Hosted Bookmark Manager with CLI and Web Interface](../../skills/shiori-self-hosted-bookmark-manager-cli-web/) | — | — |
 | [Stalwart All-in-One Mail and Collaboration Server](../../skills/stalwart-mail-collaboration-server/) | — | — |
 | [Taskwarrior Command-Line Task Management System](../../skills/taskwarrior-command-line-task-management-system/) | — | — |
 | [Timewarrior Command-Line Time Tracking and Reporting](../../skills/timewarrior-command-line-time-tracking-reporting/) | — | — |

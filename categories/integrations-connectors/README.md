@@ -101,6 +101,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [NocoDB Self-Hosted No-Code Database Platform with REST API](../../skills/nocodb-self-hosted-no-code-database-rest-api/) | — | — |
 | [Plaid Financial Data Connector](../../skills/plaid-financial-data-connector/) | — | — |
 | [Qdrant MCP Server for Vector Search and Semantic Memory](../../skills/qdrant-mcp-server-vector-search-semantic-memory/) | — | — |
+| [Webhook Lightweight HTTP Endpoint Server for Shell Command Execution](../../skills/webhook-http-endpoint-server-shell-commands/) | — | — |
 | [Zapier Webhook Integration Builder](../../skills/zapier-webhook-integration-builder/) | — | — |
 
 ---

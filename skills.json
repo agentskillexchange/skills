@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1492,
+  "total": 1495,
   "generated": "2026-03-30",
   "skills": [
+    {
+      "slug": "shiori-self-hosted-bookmark-manager-cli-web",
+      "name": "Shiori Self-Hosted Bookmark Manager with CLI and Web Interface",
+      "description": "Shiori is a simple, portable bookmark manager written in Go inspired by Pocket. It provides both a command-line interface and a clean web UI…",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "writefreely-federated-markdown-publishing-platform",
+      "name": "WriteFreely Federated Markdown Publishing Platform with ActivityPub",
+      "description": "WriteFreely is a clean, minimalist self-hosted publishing platform built in Go for writers. It features a distraction-free Markdown editor, ActivityPub federation for cross-platform community…",
+      "category": [
+        "Content Writing & SEO"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "webhook-http-endpoint-server-shell-commands",
+      "name": "Webhook Lightweight HTTP Endpoint Server for Shell Command Execution",
+      "description": "Webhook is a lightweight, configurable tool written in Go that creates HTTP endpoints on your server to execute shell commands. It supports JSON and…",
+      "category": [
+        "Integrations & Connectors"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "immich-photo-video-management-platform",
       "name": "Immich Self-Hosted Photo and Video Management Platform",

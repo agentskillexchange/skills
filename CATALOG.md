@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1492 published skills** across **17 categories** · 1466 security reviewed · Updated 2026-03-30 15:26 UTC
+> **1495 published skills** across **17 categories** · 1466 security reviewed · Updated 2026-03-30 17:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -978,7 +978,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Vale Prose Linter for Technical Documentation](skills/vale-prose-linter-technical-docs/) | Vale is an open-source, markup-aware prose linter that enforces editorial style guides on technical documentation.… | Security Reviewed | — | — |
 
 
-### 📅 Calendar, Email & Productivity (74 skills)
+### 📅 Calendar, Email & Productivity (75 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=downloads)
 
@@ -1051,6 +1051,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Outlook Mail Triage Skill](skills/outlook-mail-triage-microsoft-graph/) | Triages Outlook inboxes using Microsoft Graph API v1.0 with delta query support for incremental mail sync. Applies… | Security Reviewed | — | — |
 | [Outlook Rule Automation Manager](skills/outlook-rule-automation-manager/) | Creates and manages Outlook email rules programmatically using the Microsoft Graph API… | Security Reviewed | — | — |
 | [Radicale Self-Hosted CalDAV and CardDAV Server](skills/radicale-self-hosted-caldav-carddav-server/) | Radicale is a lightweight, self-hosted CalDAV and CardDAV server written in Python. It shares calendars, to-do… | Security Reviewed | — | — |
+| [Shiori Self-Hosted Bookmark Manager with CLI and Web Interface](skills/shiori-self-hosted-bookmark-manager-cli-web/) | Shiori is a simple, portable bookmark manager written in Go inspired by Pocket. It provides both a command-line… | Published | — | — |
 | [Stalwart All-in-One Mail and Collaboration Server](skills/stalwart-mail-collaboration-server/) | Stalwart is an open-source mail and collaboration server written in Rust that provides JMAP, IMAP4, POP3, SMTP,… | Published | — | — |
 | [Taskwarrior Command-Line Task Management System](skills/taskwarrior-command-line-task-management-system/) | Taskwarrior is a command-line task list management utility with rich features including priorities, tags, projects,… | Security Reviewed | — | — |
 | [Timewarrior Command-Line Time Tracking and Reporting](skills/timewarrior-command-line-time-tracking-reporting/) | Timewarrior is a command-line time tracking tool from the Taskwarrior project. It records time intervals with tags,… | Security Reviewed | — | — |
@@ -1356,7 +1357,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [theHarvester OSINT Email and Subdomain Intelligence Gatherer](skills/theharvester-osint-email-subdomain-intelligence/) | theHarvester is an open-source OSINT tool for gathering emails, subdomains, hosts, employee names, open ports, and… | Security Reviewed | — | — |
 
 
-### 🔗 Integrations & Connectors (62 skills)
+### 🔗 Integrations & Connectors (63 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
 
@@ -1423,6 +1424,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [NocoDB Self-Hosted No-Code Database Platform with REST API](skills/nocodb-self-hosted-no-code-database-rest-api/) | NocoDB turns any SQL database into a smart spreadsheet with a full REST API. It provides a self-hosted Airtable… | Published | — | — |
 | [Plaid Financial Data Connector](skills/plaid-financial-data-connector/) | Connects to bank accounts via Plaid Link SDK and retrieves transaction data using the Plaid Transactions API.… | Security Reviewed | — | — |
 | [Qdrant MCP Server for Vector Search and Semantic Memory](skills/qdrant-mcp-server-vector-search-semantic-memory/) | An official Qdrant MCP server implementation that provides semantic memory capabilities for AI agents. Enables… | Security Reviewed | — | — |
+| [Webhook Lightweight HTTP Endpoint Server for Shell Command Execution](skills/webhook-http-endpoint-server-shell-commands/) | Webhook is a lightweight, configurable tool written in Go that creates HTTP endpoints on your server to execute… | Published | — | — |
 | [Zapier Webhook Integration Builder](skills/zapier-webhook-integration-builder/) | Creates and manages Zapier integrations using the Zapier Platform CLI and REST Hooks API. Builds custom triggers,… | Security Reviewed | — | — |
 
 
@@ -1561,7 +1563,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Word
 | [WooCommerce Webhook Orchestrator](skills/woocommerce-webhook-orchestrator/) | Manages WooCommerce webhook lifecycles using the wc/v3/webhooks REST API and WC_Webhook class. Handles order,… | Security Reviewed | — | — |
 
 
-### ✍️ Content Writing & SEO (57 skills)
+### ✍️ Content Writing & SEO (58 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=downloads)
 
@@ -1624,6 +1626,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cont
 | [Tiptap Headless Rich Text Editor Framework for Web Applications](skills/tiptap-headless-rich-text-editor-framework/) | Tiptap is a headless, framework-agnostic rich text editor built on ProseMirror. It provides a fully customizable… | Published | — | — |
 | [Unlighthouse Site-Wide Lighthouse and SEO Auditing](skills/unlighthouse-site-wide-lighthouse-seo-auditing/) | Unlighthouse runs Google Lighthouse across an entire site instead of just a single page. This skill gives agents a… | Security Reviewed | — | — |
 | [write-good English Prose Linting for Technical Content](skills/write-good-english-prose-linting-technical-content/) | This skill uses write-good to flag vague, wordy, or hard-to-read English prose in documentation and content drafts.… | Security Reviewed | — | — |
+| [WriteFreely Federated Markdown Publishing Platform with ActivityPub](skills/writefreely-federated-markdown-publishing-platform/) | WriteFreely is a clean, minimalist self-hosted publishing platform built in Go for writers. It features a… | Published | — | — |
 
 
 ---

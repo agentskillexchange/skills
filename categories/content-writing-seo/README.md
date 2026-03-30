@@ -97,6 +97,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [Tiptap Headless Rich Text Editor Framework for Web Applications](../../skills/tiptap-headless-rich-text-editor-framework/) | — | — |
 | [Unlighthouse Site-Wide Lighthouse and SEO Auditing](../../skills/unlighthouse-site-wide-lighthouse-seo-auditing/) | — | — |
 | [write-good English Prose Linting for Technical Content](../../skills/write-good-english-prose-linting-technical-content/) | — | — |
+| [WriteFreely Federated Markdown Publishing Platform with ActivityPub](../../skills/writefreely-federated-markdown-publishing-platform/) | — | — |
 
 ---
 
