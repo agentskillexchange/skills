@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1504 published skills** across **17 categories** · 1466 security reviewed · Updated 2026-03-30 21:42 UTC
+> **1509 published skills** across **17 categories** · 1466 security reviewed · Updated 2026-03-31 01:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (173 skills)
+### 🛠️ Developer Tools (175 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -138,6 +138,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Claude Code MCP Bridge](skills/claude-code-mcp-bridge/) | Run Claude Code as a one-shot MCP tool so other agents and editors can delegate coding tasks to it. An… | Security Reviewed | — | — |
 | [D2 Modern Diagram Scripting Language and CLI](skills/d2-diagram-scripting-language-cli/) | D2 is a modern diagram scripting language that turns text into diagrams. It compiles declarative text files into… | Security Reviewed | — | — |
 | [Desktop Commander MCP Server for Terminal and File Control](skills/desktop-commander-mcp-terminal-file-control/) | Desktop Commander is an MCP server that gives AI assistants terminal command execution, file system search,… | Security Reviewed | — | — |
+| [Dockge Self-Hosted Docker Compose Stack Manager](skills/dockge-docker-compose-stack-manager/) | Dockge is a self-hosted Docker Compose stack manager with a reactive web UI for managing compose.yaml files. Created… | Published | — | — |
 | [dust Intuitive Disk Usage Analyzer CLI](skills/dust-intuitive-disk-usage-analyzer-cli/) | A more intuitive version of the du command, written in Rust. dust instantly visualizes which directories consume the… | Security Reviewed | — | — |
 | [E2B Code Execution MCP](skills/e2b-code-execution-mcp/) | Add sandboxed code execution to any MCP-compatible AI client. E2B gives agents access to secure, internet-connected… | Security Reviewed | — | — |
 | [eza Modern File Listing CLI](skills/eza-modern-file-listing-cli/) | A modern, maintained replacement for the ls command, written in Rust. eza provides colorized output, Git… | Security Reviewed | — | — |
@@ -179,6 +180,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Repomix Codebase Context Packer for LLMs](skills/repomix-codebase-context-packer-llm/) | Repomix packs an entire code repository into a single AI-friendly file optimized for LLM consumption. It provides… | Security Reviewed | — | — |
 | [Restic Fast Encrypted Backup Program](skills/restic-encrypted-backup-tool/) | Restic is a fast, secure, and efficient backup program supporting local, SFTP, S3, Azure, GCS, and many other… | Security Reviewed | — | — |
 | [ripgrep Recursive Regex Search Tool](skills/ripgrep-recursive-regex-search-tool/) | ripgrep (rg) is a line-oriented search tool that recursively searches directories for regex patterns while… | Security Reviewed | — | — |
+| [Starlight Documentation Framework for Astro](skills/starlight-documentation-framework-astro/) | Starlight is a documentation website framework built on Astro that generates beautiful, accessible, and… | Published | — | — |
 | [vLLM High-Throughput LLM Serving Engine with PagedAttention](skills/vllm-high-throughput-llm-serving/) | vLLM is a fast and memory-efficient inference and serving engine for large language models. It uses PagedAttention… | Published | — | — |
 | [VS Code Extension Debugger](skills/vscode-extension-debugger-dap-protocol/) | Debugs VS Code extensions using the Debug Adapter Protocol (DAP) with breakpoint management and variable inspection.… | Security Reviewed | — | — |
 | [WASM Component Model Linker](skills/wasm-component-model-linker/) | Compiles and links WebAssembly components using the WASI Preview 2 Component Model, wasm-tools CLI for component… | Security Reviewed | — | — |
@@ -189,7 +191,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [zx JavaScript Shell Script Runner](skills/zx-javascript-shell-script-runner/) | Write better shell scripts in JavaScript using Google's zx. Provides cross-platform wrappers around child_process… | Security Reviewed | — | — |
 
 
-### 🔧 CI/CD Integrations (141 skills)
+### 🔧 CI/CD Integrations (142 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&sort=downloads)
 
@@ -336,6 +338,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [GitHub Actions Workflow Linter](skills/github-actions-workflow-linter-2/) | Validates GitHub Actions YAML workflows using actionlint and the GitHub Actions REST API. Detects invalid step… | Security Reviewed | — | — |
 | [GitHub Actions Workflow Optimizer](skills/github-actions-workflow-optimizer/) | Analyzes GitHub Actions YAML workflows to identify redundant steps, optimize caching strategies, and reduce CI… | Security Reviewed | — | — |
 | [npm Audit Dependency Report Generator](skills/npm-audit-dependency-report-generator/) | Generates comprehensive vulnerability reports from npm audit JSON output and the OSV (Open Source Vulnerabilities)… | Security Reviewed | — | — |
+| [Woodpecker CI Self-Hosted Continuous Integration Engine](skills/woodpecker-ci-self-hosted-continuous-integration/) | Woodpecker is a simple yet powerful self-hosted CI/CD engine written in Go with great extensibility. It runs… | Published | — | — |
 
 
 ### 📋 Runbooks & Diagnostics (113 skills)
@@ -459,7 +462,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Systemd Service Recovery Playbook](skills/systemd-service-recovery-playbook-2/) | Diagnoses and recovers failed systemd services using journalctl, systemctl status, and D-Bus… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (112 skills)
+### 🔄 Data Extraction & Transformation (113 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -574,6 +577,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Snowflake Query Optimizer Agent](skills/snowflake-query-optimizer-agent/) | Analyzes and optimizes Snowflake SQL queries using the QUERY_HISTORY and ACCESS_HISTORY views in ACCOUNT_USAGE.… | Security Reviewed | — | — |
 | [Snowflake Query Profiler](skills/snowflake-query-profiler/) | Profiles and optimizes Snowflake SQL queries using the Snowflake Information Schema and Query History views.… | Security Reviewed | — | — |
 | [Surya Document OCR with Layout Analysis and Table Recognition](skills/surya-document-ocr-layout-analysis-table-recognition/) | Surya is a document OCR toolkit by Datalab that performs OCR in 90+ languages, line-level text detection, layout… | Security Reviewed | — | — |
+| [Teable No-Code Postgres Database Platform and Airtable Alternative](skills/teable-no-code-postgres-database-platform/) | Teable is an open source no-code database platform built on PostgreSQL that uses a spreadsheet-like interface for… | Published | — | — |
 | [XML XSLT Transform Pipeline](skills/xml-xslt-transform-pipeline/) | Applies chained XSLT transformations to XML documents using lxml and Saxon-JS. Supports XSLT 3.0 streaming, XPath… | Security Reviewed | — | — |
 | [xq Command-Line XML and HTML Beautifier and Content Extractor](skills/xq-command-line-xml-html-beautifier-content-extractor/) | xq is a command-line XML and HTML beautifier and content extractor written in Go. It provides syntax highlighting,… | Security Reviewed | — | — |
 | [xsv High-Performance CSV Toolkit](skills/xsv-high-performance-csv-toolkit/) | xsv is a fast CSV command-line toolkit written in Rust by Andrew Gallant (BurntSushi). It provides indexing,… | Security Reviewed | — | — |
@@ -689,7 +693,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates… | Security Reviewed | — | — |
 
 
-### 📚 Library & API Reference (94 skills)
+### 📚 Library & API Reference (95 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference&sort=downloads)
 
@@ -751,6 +755,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [REST API Changelog Tracker](skills/rest-api-changelog-tracker/) | Tracks breaking changes across REST API versions by diffing OpenAPI specs with oasdiff and monitoring endpoint… | Security Reviewed | 2.9k | 1.5M/wk |
 | [Context7 MCP Documentation Server for LLM Code Editors](skills/context7-mcp-documentation-server-llm-code-editors/) | Context7 by Upstash injects up-to-date, version-specific library documentation and code examples directly into AI… | Security Reviewed | 1.9k | 1.1M/wk |
 | [Plaid Financial Data Aggregator & Budget Classifier](skills/plaid-financial-data-aggregator/) | Integrates with the Plaid Transactions API using the plaid Python SDK to pull 90 days of transaction history across… | Security Reviewed | — | 22M/wk |
+| [Bubble Tea Go TUI Framework by Charmbracelet](skills/bubble-tea-go-tui-framework/) | Bubble Tea is a powerful Go framework for building terminal user interfaces based on The Elm Architecture. Developed… | Published | — | — |
 | [Doxygen Cross-Reference Indexer](skills/doxygen-cross-reference-indexer/) | Builds searchable cross-reference indexes from Doxygen XML output using doxyparse and doxygen-awesome-css themes.… | Security Reviewed | — | — |
 | [GitHub REST API Paginator Library](skills/github-rest-api-paginator-library/) | Provides a typed pagination wrapper for the GitHub REST API using Octokit.js and the @octokit/plugin-paginate-rest… | Security Reviewed | — | — |
 | [JSDoc JavaScript API Documentation Generator](skills/jsdoc-javascript-api-documentation-generator/) | JSDoc is the standard API documentation generator for JavaScript. It parses specially-formatted comments in… | Security Reviewed | — | — |

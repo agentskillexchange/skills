@@ -1,8 +1,68 @@
 {
   "version": "2.0",
-  "total": 1504,
-  "generated": "2026-03-30",
+  "total": 1509,
+  "generated": "2026-03-31",
   "skills": [
+    {
+      "slug": "woodpecker-ci-self-hosted-continuous-integration",
+      "name": "Woodpecker CI Self-Hosted Continuous Integration Engine",
+      "description": "Woodpecker is a simple yet powerful self-hosted CI/CD engine written in Go with great extensibility. It runs pipelines defined in YAML, supports plugins for…",
+      "category": [
+        "CI/CD Integrations"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "starlight-documentation-framework-astro",
+      "name": "Starlight Documentation Framework for Astro",
+      "description": "Starlight is a documentation website framework built on Astro that generates beautiful, accessible, and high-performance documentation sites. It provides built-in navigation, search, i18n, syntax…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "teable-no-code-postgres-database-platform",
+      "name": "Teable No-Code Postgres Database Platform and Airtable Alternative",
+      "description": "Teable is an open source no-code database platform built on PostgreSQL that uses a spreadsheet-like interface for creating powerful database applications. It supports real-time…",
+      "category": [
+        "Data Extraction & Transformation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "bubble-tea-go-tui-framework",
+      "name": "Bubble Tea Go TUI Framework by Charmbracelet",
+      "description": "Bubble Tea is a powerful Go framework for building terminal user interfaces based on The Elm Architecture. Developed by Charmbracelet, it supports inline, full-window,…",
+      "category": [
+        "Library & API Reference"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "dockge-docker-compose-stack-manager",
+      "name": "Dockge Self-Hosted Docker Compose Stack Manager",
+      "description": "Dockge is a self-hosted Docker Compose stack manager with a reactive web UI for managing compose.yaml files. Created by Louis Lam (author of Uptime…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "dprint-pluggable-code-formatter",
       "name": "dprint Pluggable High-Performance Code Formatting Platform",

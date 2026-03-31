@@ -181,6 +181,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [GitHub Actions Workflow Linter](../../skills/github-actions-workflow-linter-2/) | — | — |
 | [GitHub Actions Workflow Optimizer](../../skills/github-actions-workflow-optimizer/) | — | — |
 | [npm Audit Dependency Report Generator](../../skills/npm-audit-dependency-report-generator/) | — | — |
+| [Woodpecker CI Self-Hosted Continuous Integration Engine](../../skills/woodpecker-ci-self-hosted-continuous-integration/) | — | — |
 
 ---
 

@@ -164,6 +164,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Claude Code MCP Bridge](../../skills/claude-code-mcp-bridge/) | — | — |
 | [D2 Modern Diagram Scripting Language and CLI](../../skills/d2-diagram-scripting-language-cli/) | — | — |
 | [Desktop Commander MCP Server for Terminal and File Control](../../skills/desktop-commander-mcp-terminal-file-control/) | — | — |
+| [Dockge Self-Hosted Docker Compose Stack Manager](../../skills/dockge-docker-compose-stack-manager/) | — | — |
 | [dust Intuitive Disk Usage Analyzer CLI](../../skills/dust-intuitive-disk-usage-analyzer-cli/) | — | — |
 | [E2B Code Execution MCP](../../skills/e2b-code-execution-mcp/) | — | — |
 | [eza Modern File Listing CLI](../../skills/eza-modern-file-listing-cli/) | — | — |
@@ -205,6 +206,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Repomix Codebase Context Packer for LLMs](../../skills/repomix-codebase-context-packer-llm/) | — | — |
 | [Restic Fast Encrypted Backup Program](../../skills/restic-encrypted-backup-tool/) | — | — |
 | [ripgrep Recursive Regex Search Tool](../../skills/ripgrep-recursive-regex-search-tool/) | — | — |
+| [Starlight Documentation Framework for Astro](../../skills/starlight-documentation-framework-astro/) | — | — |
 | [vLLM High-Throughput LLM Serving Engine with PagedAttention](../../skills/vllm-high-throughput-llm-serving/) | — | — |
 | [VS Code Extension Debugger](../../skills/vscode-extension-debugger-dap-protocol/) | — | — |
 | [WASM Component Model Linker](../../skills/wasm-component-model-linker/) | — | — |

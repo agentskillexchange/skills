@@ -96,6 +96,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [REST API Changelog Tracker](../../skills/rest-api-changelog-tracker/) | 2.9k | 1.5M/wk |
 | [Context7 MCP Documentation Server for LLM Code Editors](../../skills/context7-mcp-documentation-server-llm-code-editors/) | 1.9k | 1.1M/wk |
 | [Plaid Financial Data Aggregator &amp; Budget Classifier](../../skills/plaid-financial-data-aggregator/) | — | 22M/wk |
+| [Bubble Tea Go TUI Framework by Charmbracelet](../../skills/bubble-tea-go-tui-framework/) | — | — |
 | [Doxygen Cross-Reference Indexer](../../skills/doxygen-cross-reference-indexer/) | — | — |
 | [GitHub REST API Paginator Library](../../skills/github-rest-api-paginator-library/) | — | — |
 | [JSDoc JavaScript API Documentation Generator](../../skills/jsdoc-javascript-api-documentation-generator/) | — | — |

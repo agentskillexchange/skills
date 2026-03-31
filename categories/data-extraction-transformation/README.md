@@ -149,6 +149,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Snowflake Query Optimizer Agent](../../skills/snowflake-query-optimizer-agent/) | — | — |
 | [Snowflake Query Profiler](../../skills/snowflake-query-profiler/) | — | — |
 | [Surya Document OCR with Layout Analysis and Table Recognition](../../skills/surya-document-ocr-layout-analysis-table-recognition/) | — | — |
+| [Teable No-Code Postgres Database Platform and Airtable Alternative](../../skills/teable-no-code-postgres-database-platform/) | — | — |
 | [XML XSLT Transform Pipeline](../../skills/xml-xslt-transform-pipeline/) | — | — |
 | [xq Command-Line XML and HTML Beautifier and Content Extractor](../../skills/xq-command-line-xml-html-beautifier-content-extractor/) | — | — |
 | [xsv High-Performance CSV Toolkit](../../skills/xsv-high-performance-csv-toolkit/) | — | — |
