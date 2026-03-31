@@ -4,13 +4,7 @@ description: "Parses Nginx error logs and access logs to diagnose 502, 504, and 
 category: "Runbooks &amp; Diagnostics"
 framework: "Claude Agents"
 verification: security_reviewed
-source: "https://github.com/nginx/nginx"
-tool_ecosystem:
-  tool: nginx
-  github_repo: nginx/nginx
-  github_stars: 29767
-  license: BSD-2-Clause
-  maintained: true
+source: "https://agentskillexchange.com/skills/nginx-error-log-analyzer-fixer/"
 ---
 # Nginx Error Log Analyzer and Fixer
 

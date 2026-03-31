@@ -4,13 +4,7 @@ description: "Bridges Prometheus Alertmanager notifications to Microsoft Teams, 
 category: "Monitoring &amp; Alerts"
 framework: "ChatGPT Agents"
 verification: security_reviewed
-source: "https://github.com/prometheus/prometheus"
-tool_ecosystem:
-  tool: prometheus
-  github_repo: prometheus/prometheus
-  github_stars: 63306
-  license: Apache-2.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/prometheus-alertmanager-bridge-2/"
 ---
 # Prometheus Alertmanager Bridge
 

@@ -4,13 +4,7 @@ description: "Connects headless CMS backends (WordPress WPGraphQL, Strapi, Conte
 category: "WordPress &amp; CMS"
 framework: "Gemini"
 verification: security_reviewed
-source: "https://github.com/graphql/graphql-js"
-tool_ecosystem:
-  tool: graphql
-  github_repo: graphql/graphql-js
-  github_stars: 20329
-  license: MIT
-  maintained: true
+source: "https://agentskillexchange.com/skills/headless-cms-graphql-connector/"
 ---
 # Headless CMS GraphQL Connector
 

@@ -4,13 +4,7 @@ description: "Configures and manages Prometheus AlertManager routing trees and s
 category: "Monitoring &amp; Alerts"
 framework: "Cursor"
 verification: security_reviewed
-source: "https://github.com/prometheus/prometheus"
-tool_ecosystem:
-  tool: prometheus
-  github_repo: prometheus/prometheus
-  github_stars: 63306
-  license: Apache-2.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/prometheus-alertmanager-router/"
 ---
 # Prometheus AlertManager Router
 

@@ -4,12 +4,7 @@ description: "Validates and optimizes .gitlab-ci.yml configurations using the Gi
 category: "CI/CD Integrations"
 framework: "Claude Agents"
 verification: security_reviewed
-source: "https://github.com/gitlabhq/gitlabhq"
-tool_ecosystem:
-  tool: gitlab
-  github_repo: gitlabhq/gitlabhq
-  github_stars: 24283
-  maintained: true
+source: "https://agentskillexchange.com/skills/gitlab-ci-pipeline-linter/"
 ---
 # GitLab CI Pipeline Linter
 

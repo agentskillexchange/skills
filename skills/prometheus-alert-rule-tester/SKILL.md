@@ -4,13 +4,7 @@ description: "Tests Prometheus alerting rules against historical metrics using p
 category: "Runbooks &amp; Diagnostics"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://github.com/prometheus/prometheus"
-tool_ecosystem:
-  tool: prometheus
-  github_repo: prometheus/prometheus
-  github_stars: 63306
-  license: Apache-2.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/prometheus-alert-rule-tester/"
 ---
 # Prometheus Alert Rule Tester
 

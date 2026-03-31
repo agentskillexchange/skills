@@ -4,13 +4,7 @@ description: "Leverages the Semgrep OSS engine and semgrep-rules registry to per
 category: "Code Quality &amp; Review"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://github.com/semgrep/semgrep"
-tool_ecosystem:
-  tool: semgrep
-  github_repo: semgrep/semgrep
-  github_stars: 14602
-  license: LGPL-2.1
-  maintained: true
+source: "https://agentskillexchange.com/skills/semgrep-pattern-matching-auditor/"
 ---
 # Semgrep Pattern Matching Auditor
 

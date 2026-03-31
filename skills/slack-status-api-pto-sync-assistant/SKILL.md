@@ -4,13 +4,7 @@ description: "Syncs away-state updates through Slack users.profile APIs, status 
 category: "Calendar, Email &amp; Productivity"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://github.com/slackapi/bolt-js"
-tool_ecosystem:
-  tool: slack
-  github_repo: slackapi/bolt-js
-  github_stars: 2898
-  license: MIT
-  maintained: true
+source: "https://agentskillexchange.com/skills/slack-status-api-pto-sync-assistant/"
 ---
 # Slack Status API PTO Sync Assistant
 

@@ -4,13 +4,7 @@ description: "Diagnoses failed AWS CloudFormation stack operations using the AWS
 category: "Runbooks &amp; Diagnostics"
 framework: "ChatGPT Agents"
 verification: security_reviewed
-source: "https://github.com/aws-cloudformation/cfn-lint"
-tool_ecosystem:
-  tool: cloudformation
-  github_repo: aws-cloudformation/cfn-lint
-  github_stars: 2610
-  license: MIT-0
-  maintained: true
+source: "https://agentskillexchange.com/skills/aws-cloudformation-stack-diagnostics/"
 ---
 # AWS CloudFormation Stack Diagnostics
 

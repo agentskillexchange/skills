@@ -4,13 +4,7 @@ description: "Jaeger Trace Explorer is built around Jaeger distributed tracing p
 category: "Monitoring &amp; Alerts"
 framework: "MCP"
 verification: security_reviewed
-source: "https://github.com/jaegertracing/jaeger"
-tool_ecosystem:
-  tool: jaeger
-  github_repo: jaegertracing/jaeger
-  github_stars: 22635
-  license: Apache-2.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/jaeger-trace-explorer/"
 ---
 # Jaeger Trace Explorer
 

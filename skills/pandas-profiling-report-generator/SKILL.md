@@ -4,13 +4,7 @@ description: "Generates comprehensive data quality reports using ydata-profiling
 category: "Data Extraction &amp; Transformation"
 framework: "Codex"
 verification: security_reviewed
-source: "https://github.com/pandas-dev/pandas"
-tool_ecosystem:
-  tool: pandas
-  github_repo: pandas-dev/pandas
-  github_stars: 48285
-  license: BSD-3-Clause
-  maintained: true
+source: "https://agentskillexchange.com/skills/pandas-profiling-report-generator/"
 ---
 # Pandas Profiling Report Generator
 

@@ -4,13 +4,7 @@ description: "Detects and dismisses cookie consent banners across websites using
 category: "Browser Automation"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://github.com/puppeteer/puppeteer"
-tool_ecosystem:
-  tool: puppeteer
-  github_repo: puppeteer/puppeteer
-  github_stars: 93971
-  license: Apache-2.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/puppeteer-cookie-consent-handler-3/"
 ---
 # Puppeteer Cookie Consent Handler
 

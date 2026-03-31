@@ -4,13 +4,7 @@ description: "Orchestrates parallel cross-browser testing across Selenium Grid n
 category: "Browser Automation"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://github.com/seleniumhq/selenium"
-tool_ecosystem:
-  tool: selenium
-  github_repo: seleniumhq/selenium
-  github_stars: 34196
-  license: Apache-2.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/selenium-grid-multi-browser-test-runner/"
 ---
 # Selenium Grid Multi-Browser Test Runner
 

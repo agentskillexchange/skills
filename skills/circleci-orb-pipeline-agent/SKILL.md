@@ -4,12 +4,7 @@ description: "Builds and manages CircleCI pipelines using config.yml v2.1, Circl
 category: "CI/CD Integrations"
 framework: "ChatGPT Agents"
 verification: security_reviewed
-source: "https://github.com/circleci/circleci-docs"
-tool_ecosystem:
-  tool: circleci
-  github_repo: circleci/circleci-docs
-  github_stars: 841
-  maintained: true
+source: "https://agentskillexchange.com/skills/circleci-orb-pipeline-agent/"
 ---
 # CircleCI Orb Pipeline Agent
 

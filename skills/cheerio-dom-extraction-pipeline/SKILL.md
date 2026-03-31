@@ -4,13 +4,7 @@ description: "Builds configurable data extraction pipelines using Cheerio for se
 category: "Data Extraction &amp; Transformation"
 framework: "Codex"
 verification: security_reviewed
-source: "https://github.com/cheeriojs/cheerio"
-tool_ecosystem:
-  tool: cheerio
-  github_repo: cheeriojs/cheerio
-  github_stars: 30241
-  license: MIT
-  maintained: true
+source: "https://agentskillexchange.com/skills/cheerio-dom-extraction-pipeline/"
 ---
 # Cheerio DOM Extraction Pipeline
 

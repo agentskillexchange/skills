@@ -4,12 +4,7 @@ description: "Creates and manages GitLab CI/CD pipelines via the GitLab REST API
 category: "CI/CD Integrations"
 framework: "ChatGPT Agents"
 verification: security_reviewed
-source: "https://github.com/gitlabhq/gitlabhq"
-tool_ecosystem:
-  tool: gitlab
-  github_repo: gitlabhq/gitlabhq
-  github_stars: 24283
-  maintained: true
+source: "https://agentskillexchange.com/skills/gitlab-ci-pipeline-generator/"
 ---
 # GitLab CI Pipeline Generator
 

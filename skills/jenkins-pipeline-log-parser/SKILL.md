@@ -4,13 +4,7 @@ description: "Extracts and analyzes Jenkins Pipeline build logs using the Jenkin
 category: "CI/CD Integrations"
 framework: "Claude Agents"
 verification: security_reviewed
-source: "https://github.com/jenkinsci/jenkins"
-tool_ecosystem:
-  tool: jenkins
-  github_repo: jenkinsci/jenkins
-  github_stars: 25143
-  license: MIT
-  maintained: true
+source: "https://agentskillexchange.com/skills/jenkins-pipeline-log-parser/"
 ---
 # Jenkins Pipeline Log Parser
 

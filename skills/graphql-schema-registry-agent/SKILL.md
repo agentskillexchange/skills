@@ -4,13 +4,7 @@ description: "Manages federated GraphQL schemas using Apollo Studio API and Hive
 category: "Library &amp; API Reference"
 framework: "Codex"
 verification: security_reviewed
-source: "https://github.com/graphql/graphql-js"
-tool_ecosystem:
-  tool: graphql
-  github_repo: graphql/graphql-js
-  github_stars: 20329
-  license: MIT
-  maintained: true
+source: "https://agentskillexchange.com/skills/graphql-schema-registry-agent/"
 ---
 # GraphQL Schema Registry Agent
 

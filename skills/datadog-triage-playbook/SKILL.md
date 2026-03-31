@@ -4,12 +4,7 @@ description: "Automates alert triage using the Datadog Monitors API v2 and Noteb
 category: "Runbooks &amp; Diagnostics"
 framework: "MCP"
 verification: security_reviewed
-source: "https://github.com/datadog/dd-trace-js"
-tool_ecosystem:
-  tool: datadog
-  github_repo: datadog/dd-trace-js
-  github_stars: 790
-  maintained: true
+source: "https://agentskillexchange.com/skills/datadog-triage-playbook/"
 ---
 # Datadog Triage Playbook
 

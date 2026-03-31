@@ -4,13 +4,7 @@ description: "Uses helm-diff to compute a human-readable diff between deployed a
 category: "CI/CD Integrations"
 framework: "MCP"
 verification: security_reviewed
-source: "https://github.com/helm/helm"
-tool_ecosystem:
-  tool: helm
-  github_repo: helm/helm
-  github_stars: 29597
-  license: Apache-2.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/helm-chart-diff-upgrade-manager/"
 ---
 # Helm Chart Diff & Upgrade Manager
 

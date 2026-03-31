@@ -4,13 +4,7 @@ description: "SendGrid MCP Server is built around SendGrid email delivery platfo
 category: "Integrations &amp; Connectors"
 framework: "MCP"
 verification: security_reviewed
-source: "https://github.com/sendgrid/sendgrid-nodejs"
-tool_ecosystem:
-  tool: sendgrid
-  github_repo: sendgrid/sendgrid-nodejs
-  github_stars: 3052
-  license: MIT
-  maintained: true
+source: "https://agentskillexchange.com/skills/sendgrid-mcp-server/"
 ---
 # SendGrid MCP Server
 

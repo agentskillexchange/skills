@@ -4,13 +4,7 @@ description: "Docker MCP Server is built around Docker container platform. The u
 category: "Developer Tools"
 framework: "MCP"
 verification: security_reviewed
-source: "https://github.com/moby/moby"
-tool_ecosystem:
-  tool: docker
-  github_repo: moby/moby
-  github_stars: 71574
-  license: Apache-2.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/docker-mcp-server/"
 ---
 # Docker MCP Server
 

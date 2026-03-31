@@ -4,12 +4,7 @@ description: "Automates HashiCorp Vault secret rotation using the Vault HTTP API
 category: "Security &amp; Verification"
 framework: "MCP"
 verification: security_reviewed
-source: "https://github.com/hashicorp/vault"
-tool_ecosystem:
-  tool: vault
-  github_repo: hashicorp/vault
-  github_stars: 35293
-  maintained: true
+source: "https://agentskillexchange.com/skills/vault-secrets-rotation-orchestrator/"
 ---
 # Vault Secrets Rotation Orchestrator
 

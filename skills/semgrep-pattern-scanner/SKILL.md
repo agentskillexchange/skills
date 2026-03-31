@@ -4,13 +4,7 @@ description: "Executes Semgrep CLI with custom YAML rules and the Semgrep Regist
 category: "Code Quality &amp; Review"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://github.com/semgrep/semgrep"
-tool_ecosystem:
-  tool: semgrep
-  github_repo: semgrep/semgrep
-  github_stars: 14602
-  license: LGPL-2.1
-  maintained: true
+source: "https://agentskillexchange.com/skills/semgrep-pattern-scanner/"
 ---
 # Semgrep Pattern Scanner
 

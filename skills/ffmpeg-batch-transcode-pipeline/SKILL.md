@@ -4,12 +4,7 @@ description: "Orchestrates parallel FFmpeg transcoding jobs with hardware-accele
 category: "Media &amp; Transcription"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://github.com/ffmpeg/ffmpeg"
-tool_ecosystem:
-  tool: ffmpeg
-  github_repo: ffmpeg/ffmpeg
-  github_stars: 58427
-  maintained: true
+source: "https://agentskillexchange.com/skills/ffmpeg-batch-transcode-pipeline/"
 ---
 # FFmpeg Batch Transcode Pipeline
 

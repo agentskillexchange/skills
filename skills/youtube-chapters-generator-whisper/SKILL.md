@@ -4,13 +4,7 @@ description: "Downloads YouTube audio via yt-dlp, transcribes with Whisper, and 
 category: "Media &amp; Transcription"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://github.com/openai/whisper"
-tool_ecosystem:
-  tool: whisper
-  github_repo: openai/whisper
-  github_stars: 96874
-  license: MIT
-  maintained: true
+source: "https://agentskillexchange.com/skills/youtube-chapters-generator-whisper/"
 ---
 # YouTube Chapters Generator with Whisper
 

@@ -4,13 +4,7 @@ description: "Wraps the Trivy CLI for comprehensive container image vulnerabilit
 category: "Security &amp; Verification"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://github.com/aquasecurity/trivy"
-tool_ecosystem:
-  tool: trivy
-  github_repo: aquasecurity/trivy
-  github_stars: 34225
-  license: Apache-2.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/trivy-container-scanner-2/"
 ---
 # Trivy Container Scanner
 

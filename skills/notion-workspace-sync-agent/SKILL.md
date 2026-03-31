@@ -4,13 +4,7 @@ description: "Bidirectionally syncs project data between Notion databases and ex
 category: "Calendar, Email &amp; Productivity"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://github.com/makenotion/notion-sdk-js"
-tool_ecosystem:
-  tool: notion
-  github_repo: makenotion/notion-sdk-js
-  github_stars: 5566
-  license: MIT
-  maintained: true
+source: "https://agentskillexchange.com/skills/notion-workspace-sync-agent/"
 ---
 # Notion Workspace Sync Agent
 

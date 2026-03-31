@@ -4,13 +4,7 @@ description: "Manages PagerDuty incident lifecycle using the PagerDuty Events AP
 category: "Monitoring &amp; Alerts"
 framework: "MCP"
 verification: security_reviewed
-source: "https://github.com/pagerduty/pdjs"
-tool_ecosystem:
-  tool: pagerduty
-  github_repo: pagerduty/pdjs
-  github_stars: 69
-  license: Apache-2.0
-  maintained: false
+source: "https://agentskillexchange.com/skills/pagerduty-incident-orchestrator-2/"
 ---
 # PagerDuty Incident Orchestrator
 

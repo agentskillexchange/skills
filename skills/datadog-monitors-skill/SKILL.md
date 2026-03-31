@@ -4,12 +4,7 @@ description: "Manages Datadog monitors and dashboards via the Datadog API v2. Li
 category: "Monitoring &amp; Alerts"
 framework: "Codex"
 verification: security_reviewed
-source: "https://github.com/datadog/dd-trace-js"
-tool_ecosystem:
-  tool: datadog
-  github_repo: datadog/dd-trace-js
-  github_stars: 790
-  maintained: true
+source: "https://agentskillexchange.com/skills/datadog-monitors-skill/"
 ---
 # Datadog Monitors Skill
 

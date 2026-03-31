@@ -4,13 +4,7 @@ description: "Executes automated diagnostics using the AWS Systems Manager Autom
 category: "Runbooks &amp; Diagnostics"
 framework: "ChatGPT Agents"
 verification: security_reviewed
-source: "https://github.com/aws/aws-sdk-js-v3"
-tool_ecosystem:
-  tool: aws
-  github_repo: aws/aws-sdk-js-v3
-  github_stars: 3596
-  license: Apache-2.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/aws-ssm-runbook-engine/"
 ---
 # AWS Systems Manager Runbook Engine
 

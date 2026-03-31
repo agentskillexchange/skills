@@ -4,13 +4,7 @@ description: "Apache Kafka Stream Processor is built around Apache Kafka event s
 category: "Data Extraction &amp; Transformation"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://github.com/tulios/kafkajs"
-tool_ecosystem:
-  tool: kafka
-  github_repo: tulios/kafkajs
-  github_stars: 3988
-  license: MIT
-  maintained: false
+source: "https://agentskillexchange.com/skills/apache-kafka-stream-processor/"
 ---
 # Apache Kafka Stream Processor
 

@@ -4,13 +4,7 @@ description: "Manages AWS CodePipeline stages and actions using AWS SDK for Java
 category: "CI/CD Integrations"
 framework: "MCP"
 verification: security_reviewed
-source: "https://github.com/aws/aws-sdk-js-v3"
-tool_ecosystem:
-  tool: aws
-  github_repo: aws/aws-sdk-js-v3
-  github_stars: 3596
-  license: Apache-2.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/aws-codepipeline-orchestrator/"
 ---
 # AWS CodePipeline Orchestrator
 

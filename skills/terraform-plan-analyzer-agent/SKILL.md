@@ -4,12 +4,7 @@ description: "Analyzes Terraform plan output using the terraform show -json comm
 category: "CI/CD Integrations"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://github.com/hashicorp/terraform"
-tool_ecosystem:
-  tool: terraform
-  github_repo: hashicorp/terraform
-  github_stars: 48003
-  maintained: true
+source: "https://agentskillexchange.com/skills/terraform-plan-analyzer-agent/"
 ---
 # Terraform Plan Analyzer
 

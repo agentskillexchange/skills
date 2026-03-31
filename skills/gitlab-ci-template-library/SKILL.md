@@ -4,12 +4,7 @@ description: "Creates reusable GitLab CI/CD template libraries using include:tem
 category: "CI/CD Integrations"
 framework: "MCP"
 verification: security_reviewed
-source: "https://github.com/gitlabhq/gitlabhq"
-tool_ecosystem:
-  tool: gitlab
-  github_repo: gitlabhq/gitlabhq
-  github_stars: 24283
-  maintained: true
+source: "https://agentskillexchange.com/skills/gitlab-ci-template-library/"
 ---
 # GitLab CI Template Library
 

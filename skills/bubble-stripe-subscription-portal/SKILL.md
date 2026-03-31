@@ -4,13 +4,7 @@ description: "Uses Bubble's Plugin API and the Stripe.js SDK to embed a self-ser
 category: "Templates &amp; Workflows"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://github.com/stripe/stripe-node"
-tool_ecosystem:
-  tool: stripe
-  github_repo: stripe/stripe-node
-  github_stars: 4377
-  license: MIT
-  maintained: true
+source: "https://agentskillexchange.com/skills/bubble-stripe-subscription-portal/"
 ---
 # Bubble.io Stripe Subscription Portal Builder
 

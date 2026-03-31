@@ -4,12 +4,7 @@ description: "Terraform Module Registry is built around Terraform infrastructure
 category: "Templates &amp; Workflows"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://github.com/hashicorp/terraform"
-tool_ecosystem:
-  tool: terraform
-  github_repo: hashicorp/terraform
-  github_stars: 48003
-  maintained: true
+source: "https://agentskillexchange.com/skills/terraform-module-registry/"
 ---
 # Terraform Module Registry
 

@@ -4,13 +4,7 @@ description: "Runs OWASP ZAP active security scans via the ZAP API daemon with c
 category: "Security &amp; Verification"
 framework: "Codex"
 verification: security_reviewed
-source: "https://github.com/zaproxy/zaproxy"
-tool_ecosystem:
-  tool: owasp
-  github_repo: zaproxy/zaproxy
-  github_stars: 14928
-  license: Apache-2.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/owasp-zap-active-scanner-agent/"
 ---
 # OWASP ZAP Active Scanner Agent
 

@@ -4,13 +4,7 @@ description: "Generates pixel-perfect PDFs from web pages using Puppeteer with c
 category: "Browser Automation"
 framework: "Cursor"
 verification: security_reviewed
-source: "https://github.com/puppeteer/puppeteer"
-tool_ecosystem:
-  tool: puppeteer
-  github_repo: puppeteer/puppeteer
-  github_stars: 93971
-  license: Apache-2.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/puppeteer-pdf-renderer/"
 ---
 # Puppeteer PDF Renderer
 

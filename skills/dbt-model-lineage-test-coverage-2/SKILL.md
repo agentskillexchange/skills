@@ -4,12 +4,7 @@ description: "Parses dbt project artifacts (manifest.json and catalog.json) to b
 category: "Data Extraction &amp; Transformation"
 framework: "Cursor"
 verification: security_reviewed
-source: "https://github.com/dbt-labs/dbt-core"
-tool_ecosystem:
-  tool: dbt
-  github_repo: dbt-labs/dbt-core
-  github_stars: 12485
-  maintained: true
+source: "https://agentskillexchange.com/skills/dbt-model-lineage-test-coverage-2/"
 ---
 # dbt Model Lineage & Test Coverage Checker
 

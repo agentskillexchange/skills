@@ -4,13 +4,7 @@ description: "Validates Jenkinsfile declarative and scripted pipelines using the
 category: "CI/CD Integrations"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://github.com/jenkinsci/jenkins"
-tool_ecosystem:
-  tool: jenkins
-  github_repo: jenkinsci/jenkins
-  github_stars: 25143
-  license: MIT
-  maintained: true
+source: "https://agentskillexchange.com/skills/jenkins-pipeline-linter-6/"
 ---
 # Jenkins Pipeline Linter
 

@@ -4,13 +4,7 @@ description: "Analyzes Docker Compose configurations for security, networking, a
 category: "Developer Tools"
 framework: "Gemini"
 verification: security_reviewed
-source: "https://github.com/moby/moby"
-tool_ecosystem:
-  tool: docker
-  github_repo: moby/moby
-  github_stars: 71574
-  license: Apache-2.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/docker-compose-stack-analyzer/"
 ---
 # Docker Compose Stack Analyzer
 

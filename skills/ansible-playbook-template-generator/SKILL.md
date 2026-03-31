@@ -4,13 +4,7 @@ description: "Generates Ansible playbook YAML with proper module usage, handler 
 category: "Templates &amp; Workflows"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://github.com/ansible/ansible"
-tool_ecosystem:
-  tool: ansible
-  github_repo: ansible/ansible
-  github_stars: 68384
-  license: GPL-3.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/ansible-playbook-template-generator/"
 ---
 # Ansible Playbook Template Generator
 

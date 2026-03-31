@@ -4,13 +4,7 @@ description: "Automates Notion workspace management through the Notion API v1 wi
 category: "Calendar, Email &amp; Productivity"
 framework: "Cursor"
 verification: security_reviewed
-source: "https://github.com/makenotion/notion-sdk-js"
-tool_ecosystem:
-  tool: notion
-  github_repo: makenotion/notion-sdk-js
-  github_stars: 5566
-  license: MIT
-  maintained: true
+source: "https://agentskillexchange.com/skills/notion-workspace-automator-api-v1/"
 ---
 # Notion Workspace Automator
 

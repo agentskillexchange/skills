@@ -4,12 +4,7 @@ description: "Optimizes WordPress posts for SEO using the Yoast SEO REST API fie
 category: "Content Writing &amp; SEO"
 framework: "Codex"
 verification: security_reviewed
-source: "https://github.com/wordpress/wordpress"
-tool_ecosystem:
-  tool: wordpress
-  github_repo: wordpress/wordpress
-  github_stars: 20985
-  maintained: true
+source: "https://agentskillexchange.com/skills/wordpress-content-optimizer-yoast-rest/"
 ---
 # WordPress Content Optimizer
 

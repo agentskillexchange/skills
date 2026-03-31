@@ -4,13 +4,7 @@ description: "Executes ansible-playbook -check -diff mode and parses the JSON ca
 category: "Runbooks &amp; Diagnostics"
 framework: "Gemini"
 verification: security_reviewed
-source: "https://github.com/ansible/ansible"
-tool_ecosystem:
-  tool: ansible
-  github_repo: ansible/ansible
-  github_stars: 68384
-  license: GPL-3.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/ansible-playbook-dry-run-analyzer/"
 ---
 # Ansible Playbook Dry-Run Analyzer
 

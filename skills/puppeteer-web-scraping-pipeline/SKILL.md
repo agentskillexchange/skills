@@ -4,13 +4,7 @@ description: "Builds web scraping pipelines with Puppeteer using page.evaluate, 
 category: "Browser Automation"
 framework: "Gemini"
 verification: security_reviewed
-source: "https://github.com/puppeteer/puppeteer"
-tool_ecosystem:
-  tool: puppeteer
-  github_repo: puppeteer/puppeteer
-  github_stars: 93971
-  license: Apache-2.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/puppeteer-web-scraping-pipeline/"
 ---
 # Puppeteer Web Scraping Pipeline
 

@@ -4,13 +4,7 @@ description: "Apache Spark Job Manager is built around Apache Spark distributed 
 category: "Data Extraction &amp; Transformation"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://github.com/apache/spark"
-tool_ecosystem:
-  tool: spark
-  github_repo: apache/spark
-  github_stars: 43056
-  license: Apache-2.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/apache-spark-job-manager/"
 ---
 # Apache Spark Job Manager
 

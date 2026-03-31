@@ -4,13 +4,7 @@ description: "Generates Jenkins Declarative Pipelines using the Pipeline Model D
 category: "CI/CD Integrations"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://github.com/jenkinsci/jenkins"
-tool_ecosystem:
-  tool: jenkins
-  github_repo: jenkinsci/jenkins
-  github_stars: 25143
-  license: MIT
-  maintained: true
+source: "https://agentskillexchange.com/skills/jenkins-declarative-pipeline-generator-2/"
 ---
 # Jenkins Declarative Pipeline Generator
 

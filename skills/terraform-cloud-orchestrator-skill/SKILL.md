@@ -4,12 +4,7 @@ description: "Orchestrates Terraform Cloud runs via the TFC API v2 /runs endpoin
 category: "CI/CD Integrations"
 framework: "Gemini"
 verification: security_reviewed
-source: "https://github.com/hashicorp/terraform"
-tool_ecosystem:
-  tool: terraform
-  github_repo: hashicorp/terraform
-  github_stars: 48003
-  maintained: true
+source: "https://agentskillexchange.com/skills/terraform-cloud-orchestrator-skill/"
 ---
 # Terraform Cloud Orchestrator
 

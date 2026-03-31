@@ -4,12 +4,7 @@ description: "Scans Docker and OCI container images for OS and application vulne
 category: "Security &amp; Verification"
 framework: "Claude Agents"
 verification: security_reviewed
-source: "https://github.com/snyk/cli"
-tool_ecosystem:
-  tool: snyk
-  github_repo: snyk/cli
-  github_stars: 5468
-  maintained: true
+source: "https://agentskillexchange.com/skills/snyk-container-image-analyzer/"
 ---
 # Snyk Container Image Analyzer
 

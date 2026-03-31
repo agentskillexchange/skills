@@ -4,12 +4,7 @@ description: "Performs safe Terraform state operations using the terraform CLI s
 category: "Runbooks &amp; Diagnostics"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://github.com/hashicorp/terraform"
-tool_ecosystem:
-  tool: terraform
-  github_repo: hashicorp/terraform
-  github_stars: 48003
-  maintained: true
+source: "https://agentskillexchange.com/skills/terraform-state-surgery-kit/"
 ---
 # Terraform State Surgery Kit
 

@@ -4,13 +4,7 @@ description: "Processes images using the Sharp npm library (libvips). Supports b
 category: "Image &amp; Creative Automation"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://github.com/lovell/sharp"
-tool_ecosystem:
-  tool: sharp
-  github_repo: lovell/sharp
-  github_stars: 32085
-  license: Apache-2.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/sharp-image-pipeline-skill/"
 ---
 # Sharp Image Pipeline Skill
 

@@ -4,13 +4,7 @@ description: "Triages AWS CloudWatch alarms by correlating alarm state changes w
 category: "Runbooks &amp; Diagnostics"
 framework: "Cursor"
 verification: security_reviewed
-source: "https://github.com/aws/aws-sdk-js-v3"
-tool_ecosystem:
-  tool: aws
-  github_repo: aws/aws-sdk-js-v3
-  github_stars: 3596
-  license: Apache-2.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/aws-cloudwatch-alarm-triager/"
 ---
 # AWS CloudWatch Alarm Triager
 

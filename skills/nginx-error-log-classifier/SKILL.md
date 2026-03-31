@@ -4,13 +4,7 @@ description: "Classifies and prioritizes Nginx error log entries using pattern m
 category: "Runbooks &amp; Diagnostics"
 framework: "Cursor"
 verification: security_reviewed
-source: "https://github.com/nginx/nginx"
-tool_ecosystem:
-  tool: nginx
-  github_repo: nginx/nginx
-  github_stars: 29767
-  license: BSD-2-Clause
-  maintained: true
+source: "https://agentskillexchange.com/skills/nginx-error-log-classifier/"
 ---
 # Nginx Error Log Classifier
 

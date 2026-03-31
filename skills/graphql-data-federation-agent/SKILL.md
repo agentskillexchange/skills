@@ -4,13 +4,7 @@ description: "Federates data from multiple GraphQL and REST APIs using Apollo Fe
 category: "Data Extraction &amp; Transformation"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://github.com/graphql/graphql-js"
-tool_ecosystem:
-  tool: graphql
-  github_repo: graphql/graphql-js
-  github_stars: 20329
-  license: MIT
-  maintained: true
+source: "https://agentskillexchange.com/skills/graphql-data-federation-agent/"
 ---
 # GraphQL Data Federation Agent
 

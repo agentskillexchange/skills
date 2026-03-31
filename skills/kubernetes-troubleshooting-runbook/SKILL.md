@@ -4,13 +4,7 @@ description: "Kubernetes Troubleshooting Runbook is built around Kubernetes orch
 category: "Monitoring &amp; Alerts"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://github.com/kubernetes/kubernetes"
-tool_ecosystem:
-  tool: kubernetes
-  github_repo: kubernetes/kubernetes
-  github_stars: 121388
-  license: Apache-2.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/kubernetes-troubleshooting-runbook/"
 ---
 # Kubernetes Troubleshooting Runbook
 

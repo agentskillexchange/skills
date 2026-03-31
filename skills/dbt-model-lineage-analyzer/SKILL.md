@@ -4,12 +4,7 @@ description: "Parses dbt project manifests and catalog artifacts to build comple
 category: "Data Extraction &amp; Transformation"
 framework: "Claude Agents"
 verification: security_reviewed
-source: "https://github.com/dbt-labs/dbt-core"
-tool_ecosystem:
-  tool: dbt
-  github_repo: dbt-labs/dbt-core
-  github_stars: 12485
-  maintained: true
+source: "https://agentskillexchange.com/skills/dbt-model-lineage-analyzer/"
 ---
 # dbt Model Lineage Analyzer
 

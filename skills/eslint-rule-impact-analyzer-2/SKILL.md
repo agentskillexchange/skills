@@ -4,13 +4,7 @@ description: "Measures the impact of enabling new ESLint rules across a codebase
 category: "Code Quality &amp; Review"
 framework: "Cursor"
 verification: security_reviewed
-source: "https://github.com/eslint/eslint"
-tool_ecosystem:
-  tool: eslint
-  github_repo: eslint/eslint
-  github_stars: 27153
-  license: MIT
-  maintained: true
+source: "https://agentskillexchange.com/skills/eslint-rule-impact-analyzer-2/"
 ---
 # ESLint Rule Impact Analyzer
 

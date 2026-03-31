@@ -4,12 +4,7 @@ description: "Debugs failed GitLab CI/CD pipelines by parsing .gitlab-ci.yml and
 category: "CI/CD Integrations"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://github.com/gitlabhq/gitlabhq"
-tool_ecosystem:
-  tool: gitlab
-  github_repo: gitlabhq/gitlabhq
-  github_stars: 24283
-  maintained: true
+source: "https://agentskillexchange.com/skills/gitlab-ci-pipeline-debugger/"
 ---
 # GitLab CI Pipeline Debugger
 

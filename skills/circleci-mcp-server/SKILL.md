@@ -4,12 +4,7 @@ description: "CircleCI MCP Server is built around CircleCI continuous integratio
 category: "Developer Tools"
 framework: "MCP"
 verification: security_reviewed
-source: "https://github.com/circleci/circleci-docs"
-tool_ecosystem:
-  tool: circleci
-  github_repo: circleci/circleci-docs
-  github_stars: 841
-  maintained: true
+source: "https://agentskillexchange.com/skills/circleci-mcp-server/"
 ---
 # CircleCI MCP Server
 

@@ -4,13 +4,7 @@ description: "Runs pulumi refresh on schedule to detect drift between live cloud
 category: "Runbooks &amp; Diagnostics"
 framework: "Codex"
 verification: security_reviewed
-source: "https://github.com/pulumi/pulumi"
-tool_ecosystem:
-  tool: pulumi
-  github_repo: pulumi/pulumi
-  github_stars: 24920
-  license: Apache-2.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/pulumi-drift-detector-reconciler/"
 ---
 # Pulumi Drift Detector & Reconciler
 

@@ -4,13 +4,7 @@ description: "Diagnoses ArgoCD application sync failures using the ArgoCD REST A
 category: "CI/CD Integrations"
 framework: "Claude Agents"
 verification: security_reviewed
-source: "https://github.com/argoproj/argo-cd"
-tool_ecosystem:
-  tool: argocd
-  github_repo: argoproj/argo-cd
-  github_stars: 22423
-  license: Apache-2.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/argocd-sync-troubleshooter/"
 ---
 # ArgoCD Sync Troubleshooter
 

@@ -4,13 +4,7 @@ description: "Runs ESLint with auto-fix capabilities using the ESLint Node.js AP
 category: "Code Quality &amp; Review"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://github.com/eslint/eslint"
-tool_ecosystem:
-  tool: eslint
-  github_repo: eslint/eslint
-  github_stars: 27153
-  license: MIT
-  maintained: true
+source: "https://agentskillexchange.com/skills/eslint-autofix-orchestrator/"
 ---
 # ESLint Auto-Fix Orchestrator
 

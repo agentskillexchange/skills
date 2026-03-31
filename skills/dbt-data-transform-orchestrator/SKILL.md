@@ -4,12 +4,7 @@ description: "Integrates with dbt Cloud Administrative API v2 to trigger and mon
 category: "Data Extraction &amp; Transformation"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://github.com/dbt-labs/dbt-core"
-tool_ecosystem:
-  tool: dbt
-  github_repo: dbt-labs/dbt-core
-  github_stars: 12485
-  maintained: true
+source: "https://agentskillexchange.com/skills/dbt-data-transform-orchestrator/"
 ---
 # dbt Data Transform Orchestrator
 

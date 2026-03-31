@@ -4,13 +4,7 @@ description: "Analyzes Tekton Pipeline and Task resource definitions using the T
 category: "CI/CD Integrations"
 framework: "Cursor"
 verification: security_reviewed
-source: "https://github.com/tektoncd/pipeline"
-tool_ecosystem:
-  tool: tekton
-  github_repo: tektoncd/pipeline
-  github_stars: 8924
-  license: Apache-2.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/tekton-pipeline-resource-optimizer/"
 ---
 # Tekton Pipeline Resource Optimizer
 

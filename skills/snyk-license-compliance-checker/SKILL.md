@@ -4,12 +4,7 @@ description: "Uses the Snyk CLI and REST API to audit open-source dependencies f
 category: "Security &amp; Verification"
 framework: "Cursor"
 verification: security_reviewed
-source: "https://github.com/snyk/cli"
-tool_ecosystem:
-  tool: snyk
-  github_repo: snyk/cli
-  github_stars: 5468
-  maintained: true
+source: "https://agentskillexchange.com/skills/snyk-license-compliance-checker/"
 ---
 # Snyk License Compliance Checker
 

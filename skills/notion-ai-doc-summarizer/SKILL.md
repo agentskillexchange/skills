@@ -4,13 +4,7 @@ description: "Uses the Notion SDK and Notion AI's /v1/pages and /v1/blocks/child
 category: "Calendar, Email &amp; Productivity"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://github.com/makenotion/notion-sdk-js"
-tool_ecosystem:
-  tool: notion
-  github_repo: makenotion/notion-sdk-js
-  github_stars: 5566
-  license: MIT
-  maintained: true
+source: "https://agentskillexchange.com/skills/notion-ai-doc-summarizer/"
 ---
 # Notion AI Document Summarizer & Action Item Extractor
 

@@ -4,13 +4,7 @@ description: "Reviews Jenkinsfile and Groovy pipeline scripts for anti-patterns,
 category: "Code Quality &amp; Review"
 framework: "Cursor"
 verification: security_reviewed
-source: "https://github.com/jenkinsci/jenkins"
-tool_ecosystem:
-  tool: jenkins
-  github_repo: jenkinsci/jenkins
-  github_stars: 25143
-  license: MIT
-  maintained: true
+source: "https://agentskillexchange.com/skills/jenkins-pipeline-code-review-agent/"
 ---
 # Jenkins Pipeline Code Review Agent
 

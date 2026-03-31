@@ -4,13 +4,7 @@ description: "MongoDB MCP Server is built around MongoDB document database. The 
 category: "Developer Tools"
 framework: "MCP"
 verification: security_reviewed
-source: "https://github.com/mongodb/node-mongodb-native"
-tool_ecosystem:
-  tool: mongodb
-  github_repo: mongodb/node-mongodb-native
-  github_stars: 10180
-  license: Apache-2.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/mongodb-mcp-server/"
 ---
 # MongoDB MCP Server
 

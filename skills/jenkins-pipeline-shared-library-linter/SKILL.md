@@ -4,13 +4,7 @@ description: "Lints Jenkins Declarative and Scripted pipeline syntax using the J
 category: "CI/CD Integrations"
 framework: "Codex"
 verification: security_reviewed
-source: "https://github.com/jenkinsci/jenkins"
-tool_ecosystem:
-  tool: jenkins
-  github_repo: jenkinsci/jenkins
-  github_stars: 25143
-  license: MIT
-  maintained: true
+source: "https://agentskillexchange.com/skills/jenkins-pipeline-shared-library-linter/"
 ---
 # Jenkins Pipeline Shared Library Linter
 

@@ -4,12 +4,7 @@ description: "Parses terraform plan JSON output to identify destructive changes,
 category: "Runbooks &amp; Diagnostics"
 framework: "ChatGPT Agents"
 verification: security_reviewed
-source: "https://github.com/hashicorp/terraform"
-tool_ecosystem:
-  tool: terraform
-  github_repo: hashicorp/terraform
-  github_stars: 48003
-  maintained: true
+source: "https://agentskillexchange.com/skills/terraform-plan-diff-reviewer/"
 ---
 # Terraform Plan Diff Reviewer
 

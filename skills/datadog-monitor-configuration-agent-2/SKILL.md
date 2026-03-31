@@ -4,12 +4,7 @@ description: "Creates and manages Datadog monitors using the datadog-api-client 
 category: "Monitoring &amp; Alerts"
 framework: "Claude Agents"
 verification: security_reviewed
-source: "https://github.com/datadog/dd-trace-js"
-tool_ecosystem:
-  tool: datadog
-  github_repo: datadog/dd-trace-js
-  github_stars: 790
-  maintained: true
+source: "https://agentskillexchange.com/skills/datadog-monitor-configuration-agent-2/"
 ---
 # Datadog Monitor Configuration Agent
 

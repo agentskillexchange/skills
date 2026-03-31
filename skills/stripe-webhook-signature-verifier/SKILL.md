@@ -4,13 +4,7 @@ description: "Verifies Stripe webhook payload signatures using the Stripe.js SDK
 category: "Security &amp; Verification"
 framework: "ChatGPT Agents"
 verification: security_reviewed
-source: "https://github.com/stripe/stripe-node"
-tool_ecosystem:
-  tool: stripe
-  github_repo: stripe/stripe-node
-  github_stars: 4377
-  license: MIT
-  maintained: true
+source: "https://agentskillexchange.com/skills/stripe-webhook-signature-verifier/"
 ---
 # Stripe Webhook Signature Verifier
 

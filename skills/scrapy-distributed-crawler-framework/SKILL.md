@@ -4,13 +4,7 @@ description: "Orchestrates large-scale web crawling using Scrapy with scrapy-red
 category: "Research &amp; Scraping"
 framework: "MCP"
 verification: security_reviewed
-source: "https://github.com/scrapy/scrapy"
-tool_ecosystem:
-  tool: scrapy
-  github_repo: scrapy/scrapy
-  github_stars: 60986
-  license: BSD-3-Clause
-  maintained: true
+source: "https://agentskillexchange.com/skills/scrapy-distributed-crawler-framework/"
 ---
 # Scrapy Distributed Crawler Framework
 

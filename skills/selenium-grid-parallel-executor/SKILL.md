@@ -4,13 +4,7 @@ description: "Orchestrates parallel browser automation across Selenium Grid node
 category: "Browser Automation"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://github.com/seleniumhq/selenium"
-tool_ecosystem:
-  tool: selenium
-  github_repo: seleniumhq/selenium
-  github_stars: 34196
-  license: Apache-2.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/selenium-grid-parallel-executor/"
 ---
 # Selenium Grid Parallel Executor
 

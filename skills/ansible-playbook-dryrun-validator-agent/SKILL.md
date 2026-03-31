@@ -4,13 +4,7 @@ description: "Validates Ansible playbooks in check mode using ansible-playbook -
 category: "Runbooks &amp; Diagnostics"
 framework: "Cursor"
 verification: security_reviewed
-source: "https://github.com/ansible/ansible"
-tool_ecosystem:
-  tool: ansible
-  github_repo: ansible/ansible
-  github_stars: 68384
-  license: GPL-3.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/ansible-playbook-dryrun-validator-agent/"
 ---
 # Ansible Playbook Dry-Run Validator
 

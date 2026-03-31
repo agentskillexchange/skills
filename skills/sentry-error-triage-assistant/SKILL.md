@@ -4,12 +4,7 @@ description: "Triages application errors using the Sentry Web API (/api/0/issues
 category: "Runbooks &amp; Diagnostics"
 framework: "Claude Agents"
 verification: security_reviewed
-source: "https://github.com/getsentry/sentry"
-tool_ecosystem:
-  tool: sentry
-  github_repo: getsentry/sentry
-  github_stars: 43466
-  maintained: true
+source: "https://agentskillexchange.com/skills/sentry-error-triage-assistant/"
 ---
 # Sentry Error Triage Assistant
 

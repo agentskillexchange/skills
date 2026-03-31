@@ -4,13 +4,7 @@ description: "Manages ArgoCD application syncs using the argocd CLI and the Argo
 category: "CI/CD Integrations"
 framework: "ChatGPT Agents"
 verification: security_reviewed
-source: "https://github.com/argoproj/argo-cd"
-tool_ecosystem:
-  tool: argocd
-  github_repo: argoproj/argo-cd
-  github_stars: 22423
-  license: Apache-2.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/argocd-sync-orchestrator/"
 ---
 # ArgoCD Sync Orchestrator
 

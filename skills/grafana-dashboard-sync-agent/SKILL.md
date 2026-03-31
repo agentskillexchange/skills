@@ -4,13 +4,7 @@ description: "Synchronizes Grafana dashboards between instances using the Grafan
 category: "Monitoring &amp; Alerts"
 framework: "Gemini"
 verification: security_reviewed
-source: "https://github.com/grafana/grafana"
-tool_ecosystem:
-  tool: grafana
-  github_repo: grafana/grafana
-  github_stars: 72840
-  license: AGPL-3.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/grafana-dashboard-sync-agent/"
 ---
 # Grafana Dashboard Sync Agent
 

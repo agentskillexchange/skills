@@ -4,13 +4,7 @@ description: "Parses docker-compose.yml files using PyYAML and generates interac
 category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://github.com/moby/moby"
-tool_ecosystem:
-  tool: docker
-  github_repo: moby/moby
-  github_stars: 71574
-  license: Apache-2.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/docker-compose-service-graph-visualizer/"
 ---
 # Docker Compose Service Graph Visualizer
 

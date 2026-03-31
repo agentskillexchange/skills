@@ -4,12 +4,7 @@ description: "Detects infrastructure drift using terraform plan -detailed-exitco
 category: "Runbooks &amp; Diagnostics"
 framework: "MCP"
 verification: security_reviewed
-source: "https://github.com/hashicorp/terraform"
-tool_ecosystem:
-  tool: terraform
-  github_repo: hashicorp/terraform
-  github_stars: 48003
-  maintained: true
+source: "https://agentskillexchange.com/skills/terraform-drift-detection-runbook/"
 ---
 # Terraform Drift Detection Runbook
 

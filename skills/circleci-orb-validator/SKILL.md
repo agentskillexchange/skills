@@ -4,12 +4,7 @@ description: "Validates and lints CircleCI orb configurations using the CircleCI
 category: "CI/CD Integrations"
 framework: "Claude Agents"
 verification: security_reviewed
-source: "https://github.com/circleci/circleci-docs"
-tool_ecosystem:
-  tool: circleci
-  github_repo: circleci/circleci-docs
-  github_stars: 841
-  maintained: true
+source: "https://agentskillexchange.com/skills/circleci-orb-validator/"
 ---
 # CircleCI Orb Validator
 

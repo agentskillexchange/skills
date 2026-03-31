@@ -4,12 +4,7 @@ description: "Analyzes dbt project DAGs to identify circular references, orphane
 category: "Data Extraction &amp; Transformation"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://github.com/dbt-labs/dbt-core"
-tool_ecosystem:
-  tool: dbt
-  github_repo: dbt-labs/dbt-core
-  github_stars: 12485
-  maintained: true
+source: "https://agentskillexchange.com/skills/dbt-model-dependency-resolver-2/"
 ---
 # dbt Model Dependency Resolver
 

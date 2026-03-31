@@ -4,13 +4,7 @@ description: "Deploys interactive Swagger UI documentation sites from OpenAPI sp
 category: "Library &amp; API Reference"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://github.com/swagger-api/swagger-ui"
-tool_ecosystem:
-  tool: swagger
-  github_repo: swagger-api/swagger-ui
-  github_stars: 28713
-  license: Apache-2.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/swagger-ui-documentation-deployer/"
 ---
 # Swagger UI Documentation Deployer
 

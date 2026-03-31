@@ -4,12 +4,7 @@ description: "Optimizes GitLab CI/CD cache configurations using the GitLab Pipel
 category: "CI/CD Integrations"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://github.com/gitlabhq/gitlabhq"
-tool_ecosystem:
-  tool: gitlab
-  github_repo: gitlabhq/gitlabhq
-  github_stars: 24283
-  maintained: true
+source: "https://agentskillexchange.com/skills/gitlab-ci-cache-optimizer-agent/"
 ---
 # GitLab CI Cache Optimizer
 

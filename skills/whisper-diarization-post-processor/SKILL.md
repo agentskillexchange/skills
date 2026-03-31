@@ -4,13 +4,7 @@ description: "Enhances OpenAI Whisper transcription output with speaker diarizat
 category: "Media &amp; Transcription"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://github.com/openai/whisper"
-tool_ecosystem:
-  tool: whisper
-  github_repo: openai/whisper
-  github_stars: 96874
-  license: MIT
-  maintained: true
+source: "https://agentskillexchange.com/skills/whisper-diarization-post-processor/"
 ---
 # Whisper Diarization Post-Processor
 

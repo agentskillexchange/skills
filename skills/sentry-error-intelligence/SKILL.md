@@ -4,12 +4,7 @@ description: "Connects to the Sentry API v0 to analyze error trends, group simil
 category: "Monitoring &amp; Alerts"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://github.com/getsentry/sentry"
-tool_ecosystem:
-  tool: sentry
-  github_repo: getsentry/sentry
-  github_stars: 43466
-  maintained: true
+source: "https://agentskillexchange.com/skills/sentry-error-intelligence/"
 ---
 # Sentry Error Intelligence
 

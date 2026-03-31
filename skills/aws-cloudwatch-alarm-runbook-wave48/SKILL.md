@@ -4,13 +4,7 @@ description: "Automates incident response for AWS CloudWatch alarms using boto3,
 category: "Runbooks &amp; Diagnostics"
 framework: "Claude Agents"
 verification: security_reviewed
-source: "https://github.com/aws/aws-sdk-js-v3"
-tool_ecosystem:
-  tool: aws
-  github_repo: aws/aws-sdk-js-v3
-  github_stars: 3596
-  license: Apache-2.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/aws-cloudwatch-alarm-runbook-wave48/"
 ---
 # AWS CloudWatch Alarm Runbook
 

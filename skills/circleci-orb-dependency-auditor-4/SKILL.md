@@ -4,12 +4,7 @@ description: "Audits CircleCI orb dependencies using the CircleCI v2 API and orb
 category: "CI/CD Integrations"
 framework: "MCP"
 verification: security_reviewed
-source: "https://github.com/circleci/circleci-docs"
-tool_ecosystem:
-  tool: circleci
-  github_repo: circleci/circleci-docs
-  github_stars: 841
-  maintained: true
+source: "https://agentskillexchange.com/skills/circleci-orb-dependency-auditor-4/"
 ---
 # CircleCI Orb Dependency Auditor
 

@@ -4,13 +4,7 @@ description: "Prometheus / Grafana MCP Server is built around Grafana visualizat
 category: "Monitoring &amp; Alerts"
 framework: "MCP"
 verification: security_reviewed
-source: "https://github.com/grafana/grafana"
-tool_ecosystem:
-  tool: grafana
-  github_repo: grafana/grafana
-  github_stars: 72840
-  license: AGPL-3.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/prometheus-grafana-mcp-server/"
 ---
 # Prometheus / Grafana MCP Server
 

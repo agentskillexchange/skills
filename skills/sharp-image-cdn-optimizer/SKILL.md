@@ -4,13 +4,7 @@ description: "On-the-fly image optimization using Sharp (libvips Node.js binding
 category: "Image &amp; Creative Automation"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://github.com/lovell/sharp"
-tool_ecosystem:
-  tool: sharp
-  github_repo: lovell/sharp
-  github_stars: 32085
-  license: Apache-2.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/sharp-image-cdn-optimizer/"
 ---
 # Sharp Image CDN Optimizer
 

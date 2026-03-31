@@ -4,13 +4,7 @@ description: "Manages ArgoCD application deployments via the ArgoCD REST API and
 category: "CI/CD Integrations"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://github.com/argoproj/argo-cd"
-tool_ecosystem:
-  tool: argocd
-  github_repo: argoproj/argo-cd
-  github_stars: 22423
-  license: Apache-2.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/argocd-application-deployer/"
 ---
 # ArgoCD Application Deployer
 

@@ -4,13 +4,7 @@ description: "Manages ArgoCD application sync waves and hooks using the ArgoCD A
 category: "CI/CD Integrations"
 framework: "MCP"
 verification: security_reviewed
-source: "https://github.com/argoproj/argo-cd"
-tool_ecosystem:
-  tool: argocd
-  github_repo: argoproj/argo-cd
-  github_stars: 22423
-  license: Apache-2.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/argocd-sync-wave-orchestrator-wave48/"
 ---
 # ArgoCD Sync Wave Orchestrator
 

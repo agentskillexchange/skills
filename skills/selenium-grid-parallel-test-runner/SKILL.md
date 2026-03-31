@@ -4,13 +4,7 @@ description: "Orchestrates distributed browser tests across Selenium Grid 4 node
 category: "Browser Automation"
 framework: "Cursor"
 verification: security_reviewed
-source: "https://github.com/seleniumhq/selenium"
-tool_ecosystem:
-  tool: selenium
-  github_repo: seleniumhq/selenium
-  github_stars: 34196
-  license: Apache-2.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/selenium-grid-parallel-test-runner/"
 ---
 # Selenium Grid Parallel Test Runner
 

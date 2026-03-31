@@ -4,13 +4,7 @@ description: "Validates Avro, Protobuf, and JSON Schema compatibility against Co
 category: "Data Extraction &amp; Transformation"
 framework: "Claude Agents"
 verification: security_reviewed
-source: "https://github.com/tulios/kafkajs"
-tool_ecosystem:
-  tool: kafka
-  github_repo: tulios/kafkajs
-  github_stars: 3988
-  license: MIT
-  maintained: false
+source: "https://agentskillexchange.com/skills/kafka-schema-registry-validator/"
 ---
 # Apache Kafka Schema Registry Validator
 

@@ -4,12 +4,7 @@ description: "Generates Terraform module scaffolds with variables.tf, outputs.tf
 category: "Templates &amp; Workflows"
 framework: "Gemini"
 verification: security_reviewed
-source: "https://github.com/hashicorp/terraform"
-tool_ecosystem:
-  tool: terraform
-  github_repo: hashicorp/terraform
-  github_stars: 48003
-  maintained: true
+source: "https://agentskillexchange.com/skills/terraform-module-boilerplate-assembler/"
 ---
 # Terraform Module Boilerplate Assembler
 

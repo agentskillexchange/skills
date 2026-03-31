@@ -4,13 +4,7 @@ description: "Validates Nginx configurations using nginx -t syntax checking, the
 category: "Runbooks &amp; Diagnostics"
 framework: "Claude Agents"
 verification: security_reviewed
-source: "https://github.com/nginx/nginx"
-tool_ecosystem:
-  tool: nginx
-  github_repo: nginx/nginx
-  github_stars: 29767
-  license: BSD-2-Clause
-  maintained: true
+source: "https://agentskillexchange.com/skills/nginx-config-validator-runbook/"
 ---
 # Nginx Config Validator Runbook
 

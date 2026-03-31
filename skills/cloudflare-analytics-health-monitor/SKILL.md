@@ -4,13 +4,7 @@ description: "Monitors Cloudflare zone analytics via the Cloudflare API v4 Graph
 category: "Monitoring &amp; Alerts"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://github.com/cloudflare/cloudflare-go"
-tool_ecosystem:
-  tool: cloudflare
-  github_repo: cloudflare/cloudflare-go
-  github_stars: 1950
-  license: Apache-2.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/cloudflare-analytics-health-monitor/"
 ---
 # Cloudflare Analytics Health Monitor
 

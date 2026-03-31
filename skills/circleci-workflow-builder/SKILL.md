@@ -4,12 +4,7 @@ description: "Generates CircleCI config.yml workflows using the CircleCI Orbs SD
 category: "CI/CD Integrations"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://github.com/circleci/circleci-docs"
-tool_ecosystem:
-  tool: circleci
-  github_repo: circleci/circleci-docs
-  github_stars: 841
-  maintained: true
+source: "https://agentskillexchange.com/skills/circleci-workflow-builder/"
 ---
 # CircleCI Workflow Builder
 

@@ -4,12 +4,7 @@ description: "Estimates CI/CD pipeline costs by querying the GitLab REST API v4 
 category: "CI/CD Integrations"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://github.com/gitlabhq/gitlabhq"
-tool_ecosystem:
-  tool: gitlab
-  github_repo: gitlabhq/gitlabhq
-  github_stars: 24283
-  maintained: true
+source: "https://agentskillexchange.com/skills/gitlab-ci-pipeline-cost-estimator/"
 ---
 # GitLab CI Pipeline Cost Estimator
 

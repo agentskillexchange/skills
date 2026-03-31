@@ -4,13 +4,7 @@ description: "Validates and lints OpenAPI 3.1 specifications using Spectral rule
 category: "Library &amp; API Reference"
 framework: "Cursor"
 verification: security_reviewed
-source: "https://github.com/swagger-api/swagger-ui"
-tool_ecosystem:
-  tool: swagger
-  github_repo: swagger-api/swagger-ui
-  github_stars: 28713
-  license: Apache-2.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/swagger-openapi-schema-validator/"
 ---
 # Swagger OpenAPI Schema Validator
 

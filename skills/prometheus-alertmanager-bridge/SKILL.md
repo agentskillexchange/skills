@@ -4,13 +4,7 @@ description: "Connects to Prometheus AlertManager API to query active alerts, si
 category: "Monitoring &amp; Alerts"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://github.com/prometheus/prometheus"
-tool_ecosystem:
-  tool: prometheus
-  github_repo: prometheus/prometheus
-  github_stars: 63306
-  license: Apache-2.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/prometheus-alertmanager-bridge/"
 ---
 # Prometheus AlertManager Bridge
 

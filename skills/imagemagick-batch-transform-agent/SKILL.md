@@ -4,12 +4,7 @@ description: "Automates ImageMagick convert and mogrify operations for bulk imag
 category: "Image &amp; Creative Automation"
 framework: "Cursor"
 verification: security_reviewed
-source: "https://github.com/imagemagick/imagemagick"
-tool_ecosystem:
-  tool: imagemagick
-  github_repo: imagemagick/imagemagick
-  github_stars: 16023
-  maintained: true
+source: "https://agentskillexchange.com/skills/imagemagick-batch-transform-agent/"
 ---
 # ImageMagick Batch Transform Agent
 

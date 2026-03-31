@@ -4,13 +4,7 @@ description: "MySQL Query Agent is built around MySQL relational database. The u
 category: "Developer Tools"
 framework: "MCP"
 verification: security_reviewed
-source: "https://github.com/sidorares/node-mysql2"
-tool_ecosystem:
-  tool: mysql
-  github_repo: sidorares/node-mysql2
-  github_stars: 4349
-  license: MIT
-  maintained: true
+source: "https://agentskillexchange.com/skills/mysql-query-agent/"
 ---
 # MySQL Query Agent
 

@@ -4,12 +4,7 @@ description: "Polls Elasticsearch _cluster/health, _nodes/stats, and _cat/shards
 category: "Monitoring &amp; Alerts"
 framework: "Claude Agents"
 verification: security_reviewed
-source: "https://github.com/elastic/elasticsearch"
-tool_ecosystem:
-  tool: elasticsearch
-  github_repo: elastic/elasticsearch
-  github_stars: 76385
-  maintained: true
+source: "https://agentskillexchange.com/skills/elasticsearch-cluster-vitals-agent/"
 ---
 # ElasticSearch Cluster Vitals Agent
 

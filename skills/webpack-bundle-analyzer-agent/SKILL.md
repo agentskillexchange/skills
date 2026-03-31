@@ -4,13 +4,7 @@ description: "Analyzes webpack bundle composition using webpack-bundle-analyzer 
 category: "Developer Tools"
 framework: "Cursor"
 verification: security_reviewed
-source: "https://github.com/webpack/webpack"
-tool_ecosystem:
-  tool: webpack
-  github_repo: webpack/webpack
-  github_stars: 65984
-  license: MIT
-  maintained: true
+source: "https://agentskillexchange.com/skills/webpack-bundle-analyzer-agent/"
 ---
 # Webpack Bundle Analyzer Agent
 

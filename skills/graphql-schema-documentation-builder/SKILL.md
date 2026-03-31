@@ -4,13 +4,7 @@ description: "Generates interactive API documentation from GraphQL schemas using
 category: "Library &amp; API Reference"
 framework: "Gemini"
 verification: security_reviewed
-source: "https://github.com/graphql/graphql-js"
-tool_ecosystem:
-  tool: graphql
-  github_repo: graphql/graphql-js
-  github_stars: 20329
-  license: MIT
-  maintained: true
+source: "https://agentskillexchange.com/skills/graphql-schema-documentation-builder/"
 ---
 # GraphQL Schema Documentation Builder
 

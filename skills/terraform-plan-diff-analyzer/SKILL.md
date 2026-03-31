@@ -4,12 +4,7 @@ description: "Parses Terraform plan JSON output to summarize resource changes, d
 category: "CI/CD Integrations"
 framework: "Cursor"
 verification: security_reviewed
-source: "https://github.com/hashicorp/terraform"
-tool_ecosystem:
-  tool: terraform
-  github_repo: hashicorp/terraform
-  github_stars: 48003
-  maintained: true
+source: "https://agentskillexchange.com/skills/terraform-plan-diff-analyzer/"
 ---
 # Terraform Plan Diff Analyzer
 

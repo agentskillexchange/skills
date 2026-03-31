@@ -4,13 +4,7 @@ description: "Diagnoses Kubernetes pod failures using kubectl describe, logs -pr
 category: "Runbooks &amp; Diagnostics"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://github.com/kubernetes/kubernetes"
-tool_ecosystem:
-  tool: kubernetes
-  github_repo: kubernetes/kubernetes
-  github_stars: 121388
-  license: Apache-2.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/kubernetes-pod-diagnostics-skill/"
 ---
 # Kubernetes Pod Diagnostics
 

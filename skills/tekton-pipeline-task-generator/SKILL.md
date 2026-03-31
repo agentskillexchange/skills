@@ -4,13 +4,7 @@ description: "Generates Tekton CI/CD pipeline tasks and PipelineRun manifests us
 category: "CI/CD Integrations"
 framework: "Gemini"
 verification: security_reviewed
-source: "https://github.com/tektoncd/pipeline"
-tool_ecosystem:
-  tool: tekton
-  github_repo: tektoncd/pipeline
-  github_stars: 8924
-  license: Apache-2.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/tekton-pipeline-task-generator/"
 ---
 # Tekton Pipeline Task Generator
 

@@ -4,12 +4,7 @@ description: "Searches and evaluates Terraform modules from the HashiCorp Regist
 category: "Templates &amp; Workflows"
 framework: "MCP"
 verification: security_reviewed
-source: "https://github.com/hashicorp/terraform"
-tool_ecosystem:
-  tool: terraform
-  github_repo: hashicorp/terraform
-  github_stars: 48003
-  maintained: true
+source: "https://agentskillexchange.com/skills/terraform-module-registry-browser/"
 ---
 # Terraform Module Registry Browser
 

@@ -4,13 +4,7 @@ description: "Runs ESLint with the -fix flag across JavaScript and TypeScript co
 category: "Code Quality &amp; Review"
 framework: "Claude Agents"
 verification: security_reviewed
-source: "https://github.com/eslint/eslint"
-tool_ecosystem:
-  tool: eslint
-  github_repo: eslint/eslint
-  github_stars: 27153
-  license: MIT
-  maintained: true
+source: "https://agentskillexchange.com/skills/eslint-autofix-pipeline/"
 ---
 # ESLint Auto-Fix Pipeline
 

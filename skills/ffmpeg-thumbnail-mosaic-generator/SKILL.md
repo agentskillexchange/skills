@@ -4,12 +4,7 @@ description: "Creates video thumbnail mosaics and sprite sheets using FFmpeg fil
 category: "Image &amp; Creative Automation"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://github.com/ffmpeg/ffmpeg"
-tool_ecosystem:
-  tool: ffmpeg
-  github_repo: ffmpeg/ffmpeg
-  github_stars: 58427
-  maintained: true
+source: "https://agentskillexchange.com/skills/ffmpeg-thumbnail-mosaic-generator/"
 ---
 # FFmpeg Thumbnail Mosaic Generator
 

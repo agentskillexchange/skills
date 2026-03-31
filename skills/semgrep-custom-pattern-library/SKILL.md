@@ -4,13 +4,7 @@ description: "Builds custom Semgrep rules using the semgrep YAML rule syntax wit
 category: "Code Quality &amp; Review"
 framework: "Claude Agents"
 verification: security_reviewed
-source: "https://github.com/semgrep/semgrep"
-tool_ecosystem:
-  tool: semgrep
-  github_repo: semgrep/semgrep
-  github_stars: 14602
-  license: LGPL-2.1
-  maintained: true
+source: "https://agentskillexchange.com/skills/semgrep-custom-pattern-library/"
 ---
 # Semgrep Custom Pattern Library
 

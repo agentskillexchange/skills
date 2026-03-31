@@ -4,13 +4,7 @@ description: "Assembles Tekton CI/CD pipelines from reusable Task and ClusterTas
 category: "CI/CD Integrations"
 framework: "Gemini"
 verification: security_reviewed
-source: "https://github.com/tektoncd/pipeline"
-tool_ecosystem:
-  tool: tekton
-  github_repo: tektoncd/pipeline
-  github_stars: 8924
-  license: Apache-2.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/tekton-pipeline-task-assembler/"
 ---
 # Tekton Pipeline Task Assembler
 

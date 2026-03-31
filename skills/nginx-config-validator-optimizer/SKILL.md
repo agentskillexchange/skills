@@ -4,13 +4,7 @@ description: "Parses nginx.conf and included config files using the crossplane P
 category: "Runbooks &amp; Diagnostics"
 framework: "MCP"
 verification: security_reviewed
-source: "https://github.com/nginx/nginx"
-tool_ecosystem:
-  tool: nginx
-  github_repo: nginx/nginx
-  github_stars: 29767
-  license: BSD-2-Clause
-  maintained: true
+source: "https://agentskillexchange.com/skills/nginx-config-validator-optimizer/"
 ---
 # Nginx Config Validator and Optimizer
 

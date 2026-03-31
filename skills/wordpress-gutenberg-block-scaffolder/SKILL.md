@@ -4,12 +4,7 @@ description: "Generates custom Gutenberg blocks using @wordpress/create-block an
 category: "WordPress &amp; CMS"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://github.com/wordpress/wordpress"
-tool_ecosystem:
-  tool: wordpress
-  github_repo: wordpress/wordpress
-  github_stars: 20985
-  maintained: true
+source: "https://agentskillexchange.com/skills/wordpress-gutenberg-block-scaffolder/"
 ---
 # WordPress Gutenberg Block Scaffolder
 

@@ -4,12 +4,7 @@ description: "Audits CircleCI orb versions and configurations using the CircleCI
 category: "CI/CD Integrations"
 framework: "Cursor"
 verification: security_reviewed
-source: "https://github.com/circleci/circleci-docs"
-tool_ecosystem:
-  tool: circleci
-  github_repo: circleci/circleci-docs
-  github_stars: 841
-  maintained: true
+source: "https://agentskillexchange.com/skills/circleci-orb-auditor/"
 ---
 # CircleCI Orb Auditor
 

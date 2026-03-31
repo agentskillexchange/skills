@@ -4,13 +4,7 @@ description: "Generates and validates Prometheus alerting rules from natural lan
 category: "Monitoring &amp; Alerts"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://github.com/prometheus/prometheus"
-tool_ecosystem:
-  tool: prometheus
-  github_repo: prometheus/prometheus
-  github_stars: 63306
-  license: Apache-2.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/prometheus-alert-rule-generator-2/"
 ---
 # Prometheus Alert Rule Generator
 

@@ -4,13 +4,7 @@ description: "Manages GitOps deployments using ArgoCD API, argocd CLI, and Kusto
 category: "Runbooks &amp; Diagnostics"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://github.com/argoproj/argo-cd"
-tool_ecosystem:
-  tool: argocd
-  github_repo: argoproj/argo-cd
-  github_stars: 22423
-  license: Apache-2.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/argocd-deployment-runbook-agent/"
 ---
 # ArgoCD Deployment Runbook Agent
 

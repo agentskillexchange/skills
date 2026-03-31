@@ -4,13 +4,7 @@ description: "Pytest Fixture Generator is built around pytest Python testing fra
 category: "Code Quality &amp; Review"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://github.com/pytest-dev/pytest"
-tool_ecosystem:
-  tool: pytest
-  github_repo: pytest-dev/pytest
-  github_stars: 13710
-  license: MIT
-  maintained: true
+source: "https://agentskillexchange.com/skills/pytest-fixture-generator/"
 ---
 # Pytest Fixture Generator
 

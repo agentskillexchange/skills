@@ -4,13 +4,7 @@ description: "Intercepts and analyzes network traffic using Playwright route han
 category: "Research &amp; Scraping"
 framework: "Cursor"
 verification: security_reviewed
-source: "https://github.com/microsoft/playwright"
-tool_ecosystem:
-  tool: playwright
-  github_repo: microsoft/playwright
-  github_stars: 85242
-  license: Apache-2.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/playwright-network-interceptor/"
 ---
 # Playwright Network Interceptor
 

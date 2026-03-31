@@ -4,13 +4,7 @@ description: "Configures Grafana OnCall escalation chains, notification policies
 category: "Monitoring &amp; Alerts"
 framework: "ChatGPT Agents"
 verification: security_reviewed
-source: "https://github.com/grafana/grafana"
-tool_ecosystem:
-  tool: grafana
-  github_repo: grafana/grafana
-  github_stars: 72840
-  license: AGPL-3.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/grafana-oncall-escalation-chain-manager/"
 ---
 # Grafana OnCall Escalation Chain Manager
 

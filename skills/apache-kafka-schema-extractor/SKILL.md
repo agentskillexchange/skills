@@ -4,13 +4,7 @@ description: "Extracts and transforms Avro, Protobuf, and JSON Schema definition
 category: "Data Extraction &amp; Transformation"
 framework: "Codex"
 verification: security_reviewed
-source: "https://github.com/tulios/kafkajs"
-tool_ecosystem:
-  tool: kafka
-  github_repo: tulios/kafkajs
-  github_stars: 3988
-  license: MIT
-  maintained: false
+source: "https://agentskillexchange.com/skills/apache-kafka-schema-extractor/"
 ---
 # Apache Kafka Schema Extractor
 

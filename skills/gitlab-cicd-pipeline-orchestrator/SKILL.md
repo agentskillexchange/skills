@@ -4,12 +4,7 @@ description: "Build and manage GitLab CI/CD pipelines using .gitlab-ci.yml and t
 category: "CI/CD Integrations"
 framework: "Cursor"
 verification: security_reviewed
-source: "https://github.com/gitlabhq/gitlabhq"
-tool_ecosystem:
-  tool: gitlab
-  github_repo: gitlabhq/gitlabhq
-  github_stars: 24283
-  maintained: true
+source: "https://agentskillexchange.com/skills/gitlab-cicd-pipeline-orchestrator/"
 ---
 # GitLab CI/CD Pipeline Orchestrator
 

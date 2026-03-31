@@ -4,13 +4,7 @@ description: "Records and generates end-to-end test scripts using Playwright Cod
 category: "Research &amp; Scraping"
 framework: "Cursor"
 verification: security_reviewed
-source: "https://github.com/microsoft/playwright"
-tool_ecosystem:
-  tool: playwright
-  github_repo: microsoft/playwright
-  github_stars: 85242
-  license: Apache-2.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/playwright-test-generator-codegen/"
 ---
 # Playwright Test Generator with Codegen
 

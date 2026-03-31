@@ -4,12 +4,7 @@ description: "Tests Terraform modules using Terratest Go library and terraform t
 category: "Templates &amp; Workflows"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://github.com/hashicorp/terraform"
-tool_ecosystem:
-  tool: terraform
-  github_repo: hashicorp/terraform
-  github_stars: 48003
-  maintained: true
+source: "https://agentskillexchange.com/skills/terraform-module-testing-framework/"
 ---
 # Terraform Module Testing Framework
 

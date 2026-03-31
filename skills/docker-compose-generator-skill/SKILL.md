@@ -4,13 +4,7 @@ description: "Docker Compose Generator Skill is built around Docker container pl
 category: "Developer Tools"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://github.com/moby/moby"
-tool_ecosystem:
-  tool: docker
-  github_repo: moby/moby
-  github_stars: 71574
-  license: Apache-2.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/docker-compose-generator-skill/"
 ---
 # Docker Compose Generator Skill
 

@@ -4,12 +4,7 @@ description: "Routes Datadog anomaly detection alerts to appropriate response ch
 category: "Monitoring &amp; Alerts"
 framework: "MCP"
 verification: security_reviewed
-source: "https://github.com/datadog/dd-trace-js"
-tool_ecosystem:
-  tool: datadog
-  github_repo: datadog/dd-trace-js
-  github_stars: 790
-  maintained: true
+source: "https://agentskillexchange.com/skills/datadog-anomaly-alert-router/"
 ---
 # Datadog Anomaly Alert Router
 

@@ -4,13 +4,7 @@ description: "Monitors Docker Compose service health using the Docker Engine API
 category: "Runbooks &amp; Diagnostics"
 framework: "MCP"
 verification: security_reviewed
-source: "https://github.com/moby/moby"
-tool_ecosystem:
-  tool: docker
-  github_repo: moby/moby
-  github_stars: 71574
-  license: Apache-2.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/docker-compose-health-monitor/"
 ---
 # Docker Compose Health Monitor
 

@@ -4,13 +4,7 @@ description: "Monitors ArgoCD application sync status via the ArgoCD REST API an
 category: "CI/CD Integrations"
 framework: "Claude Agents"
 verification: security_reviewed
-source: "https://github.com/argoproj/argo-cd"
-tool_ecosystem:
-  tool: argocd
-  github_repo: argoproj/argo-cd
-  github_stars: 22423
-  license: Apache-2.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/argocd-sync-status-monitor-7/"
 ---
 # ArgoCD Sync Status Monitor
 

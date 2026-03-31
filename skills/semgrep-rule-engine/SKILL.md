@@ -4,13 +4,7 @@ description: "Executes Semgrep static analysis using the semgrep CLI with custom
 category: "Code Quality &amp; Review"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://github.com/semgrep/semgrep"
-tool_ecosystem:
-  tool: semgrep
-  github_repo: semgrep/semgrep
-  github_stars: 14602
-  license: LGPL-2.1
-  maintained: true
+source: "https://agentskillexchange.com/skills/semgrep-rule-engine/"
 ---
 # Semgrep Rule Engine
 

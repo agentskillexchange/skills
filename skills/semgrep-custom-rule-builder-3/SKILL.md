@@ -4,13 +4,7 @@ description: "Creates custom Semgrep SAST rules using the semgrep CLI and rule s
 category: "Code Quality &amp; Review"
 framework: "MCP"
 verification: security_reviewed
-source: "https://github.com/semgrep/semgrep"
-tool_ecosystem:
-  tool: semgrep
-  github_repo: semgrep/semgrep
-  github_stars: 14602
-  license: LGPL-2.1
-  maintained: true
+source: "https://agentskillexchange.com/skills/semgrep-custom-rule-builder-3/"
 ---
 # Semgrep Custom Rule Builder
 

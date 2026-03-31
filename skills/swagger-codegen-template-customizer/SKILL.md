@@ -4,13 +4,7 @@ description: "Extends Swagger Codegen and OpenAPI Generator with custom Mustache
 category: "Library &amp; API Reference"
 framework: "ChatGPT Agents"
 verification: security_reviewed
-source: "https://github.com/swagger-api/swagger-ui"
-tool_ecosystem:
-  tool: swagger
-  github_repo: swagger-api/swagger-ui
-  github_stars: 28713
-  license: Apache-2.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/swagger-codegen-template-customizer/"
 ---
 # Swagger Codegen Template Customizer
 

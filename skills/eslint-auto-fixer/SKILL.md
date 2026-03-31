@@ -4,13 +4,7 @@ description: "Applies ESLint fixes automatically using the ESLint Node.js API wi
 category: "Code Quality &amp; Review"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://github.com/eslint/eslint"
-tool_ecosystem:
-  tool: eslint
-  github_repo: eslint/eslint
-  github_stars: 27153
-  license: MIT
-  maintained: true
+source: "https://agentskillexchange.com/skills/eslint-auto-fixer/"
 ---
 # ESLint Auto-Fixer
 

@@ -4,12 +4,7 @@ description: "Creates, validates, and publishes CircleCI Orbs using the CircleCI
 category: "CI/CD Integrations"
 framework: "ChatGPT Agents"
 verification: security_reviewed
-source: "https://github.com/circleci/circleci-docs"
-tool_ecosystem:
-  tool: circleci
-  github_repo: circleci/circleci-docs
-  github_stars: 841
-  maintained: true
+source: "https://agentskillexchange.com/skills/circleci-orb-builder-publisher/"
 ---
 # CircleCI Orb Builder and Publisher
 

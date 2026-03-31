@@ -4,13 +4,7 @@ description: "Audits ESLint configurations using @eslint/eslintrc and @eslint/js
 category: "Code Quality &amp; Review"
 framework: "Cursor"
 verification: security_reviewed
-source: "https://github.com/eslint/eslint"
-tool_ecosystem:
-  tool: eslint
-  github_repo: eslint/eslint
-  github_stars: 27153
-  license: MIT
-  maintained: true
+source: "https://agentskillexchange.com/skills/eslint-rule-auditor-3/"
 ---
 # ESLint Rule Auditor
 

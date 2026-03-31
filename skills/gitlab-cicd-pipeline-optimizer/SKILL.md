@@ -4,12 +4,7 @@ description: "Optimizes GitLab CI/CD pipelines using the .gitlab-ci.yml specific
 category: "CI/CD Integrations"
 framework: "ChatGPT Agents"
 verification: security_reviewed
-source: "https://github.com/gitlabhq/gitlabhq"
-tool_ecosystem:
-  tool: gitlab
-  github_repo: gitlabhq/gitlabhq
-  github_stars: 24283
-  maintained: true
+source: "https://agentskillexchange.com/skills/gitlab-cicd-pipeline-optimizer/"
 ---
 # GitLab CI/CD Pipeline Optimizer
 

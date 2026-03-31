@@ -4,13 +4,7 @@ description: "Automates daily standup collection and reporting in Slack using th
 category: "Calendar, Email &amp; Productivity"
 framework: "Codex"
 verification: security_reviewed
-source: "https://github.com/slackapi/bolt-js"
-tool_ecosystem:
-  tool: slack
-  github_repo: slackapi/bolt-js
-  github_stars: 2898
-  license: MIT
-  maintained: true
+source: "https://agentskillexchange.com/skills/slack-standup-automator/"
 ---
 # Slack Standup Automator
 

@@ -4,12 +4,7 @@ description: "Scaffolds production-ready Terraform modules with HCL templates, v
 category: "Templates &amp; Workflows"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://github.com/hashicorp/terraform"
-tool_ecosystem:
-  tool: terraform
-  github_repo: hashicorp/terraform
-  github_stars: 48003
-  maintained: true
+source: "https://agentskillexchange.com/skills/terraform-module-template-generator/"
 ---
 # Terraform Module Template Generator
 

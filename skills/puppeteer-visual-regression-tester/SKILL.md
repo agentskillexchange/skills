@@ -4,13 +4,7 @@ description: "Automates visual regression testing using Puppeteer page.screensho
 category: "Browser Automation"
 framework: "Cursor"
 verification: security_reviewed
-source: "https://github.com/puppeteer/puppeteer"
-tool_ecosystem:
-  tool: puppeteer
-  github_repo: puppeteer/puppeteer
-  github_stars: 93971
-  license: Apache-2.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/puppeteer-visual-regression-tester/"
 ---
 # Puppeteer Visual Regression Tester
 

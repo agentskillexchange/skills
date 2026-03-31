@@ -4,13 +4,7 @@ description: "Diagnoses Kafka consumer group lag using the Kafka AdminClient API
 category: "Runbooks &amp; Diagnostics"
 framework: "Cursor"
 verification: security_reviewed
-source: "https://github.com/tulios/kafkajs"
-tool_ecosystem:
-  tool: kafka
-  github_repo: tulios/kafkajs
-  github_stars: 3988
-  license: MIT
-  maintained: false
+source: "https://agentskillexchange.com/skills/apache-kafka-consumer-lag-runbook/"
 ---
 # Apache Kafka Consumer Lag Runbook
 

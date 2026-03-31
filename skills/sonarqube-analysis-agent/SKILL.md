@@ -4,13 +4,7 @@ description: "Integrates with the SonarQube REST API to run static code analysis
 category: "Code Quality &amp; Review"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://github.com/sonarsource/sonarqube"
-tool_ecosystem:
-  tool: sonarqube
-  github_repo: sonarsource/sonarqube
-  github_stars: 10379
-  license: LGPL-3.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/sonarqube-analysis-agent/"
 ---
 # SonarQube Analysis Agent
 

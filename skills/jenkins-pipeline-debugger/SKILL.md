@@ -4,13 +4,7 @@ description: "Connects to Jenkins via the Jenkins REST API and Blue Ocean API to
 category: "CI/CD Integrations"
 framework: "Claude Agents"
 verification: security_reviewed
-source: "https://github.com/jenkinsci/jenkins"
-tool_ecosystem:
-  tool: jenkins
-  github_repo: jenkinsci/jenkins
-  github_stars: 25143
-  license: MIT
-  maintained: true
+source: "https://agentskillexchange.com/skills/jenkins-pipeline-debugger/"
 ---
 # Jenkins Pipeline Debugger
 

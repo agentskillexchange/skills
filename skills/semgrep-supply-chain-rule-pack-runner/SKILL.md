@@ -4,13 +4,7 @@ description: "Runs Semgrep code and supply-chain checks with `semgrep scan`, reg
 category: "Security &amp; Verification"
 framework: "ChatGPT Agents"
 verification: security_reviewed
-source: "https://github.com/semgrep/semgrep"
-tool_ecosystem:
-  tool: semgrep
-  github_repo: semgrep/semgrep
-  github_stars: 14602
-  license: LGPL-2.1
-  maintained: true
+source: "https://agentskillexchange.com/skills/semgrep-supply-chain-rule-pack-runner/"
 ---
 # Semgrep Supply Chain Rule Pack Runner
 

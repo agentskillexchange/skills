@@ -4,12 +4,7 @@ description: "Analyzes Terraform state files and plan outputs to detect drift, o
 category: "Runbooks &amp; Diagnostics"
 framework: "Cursor"
 verification: security_reviewed
-source: "https://github.com/hashicorp/terraform"
-tool_ecosystem:
-  tool: terraform
-  github_repo: hashicorp/terraform
-  github_stars: 48003
-  maintained: true
+source: "https://agentskillexchange.com/skills/terraform-state-forensics-tool/"
 ---
 # Terraform State Forensics Tool
 

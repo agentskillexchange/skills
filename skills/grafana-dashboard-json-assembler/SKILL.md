@@ -4,13 +4,7 @@ description: "Assembles Grafana dashboard JSON models using panel types like tim
 category: "Monitoring &amp; Alerts"
 framework: "Cursor"
 verification: security_reviewed
-source: "https://github.com/grafana/grafana"
-tool_ecosystem:
-  tool: grafana
-  github_repo: grafana/grafana
-  github_stars: 72840
-  license: AGPL-3.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/grafana-dashboard-json-assembler/"
 ---
 # Grafana Dashboard JSON Assembler
 

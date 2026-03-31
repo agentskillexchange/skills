@@ -4,13 +4,7 @@ description: "SonarQube Code Analysis is built around SonarQube code quality pla
 category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://github.com/sonarsource/sonarqube"
-tool_ecosystem:
-  tool: sonarqube
-  github_repo: sonarsource/sonarqube
-  github_stars: 10379
-  license: LGPL-3.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/sonarqube-code-analysis/"
 ---
 # SonarQube Code Analysis
 

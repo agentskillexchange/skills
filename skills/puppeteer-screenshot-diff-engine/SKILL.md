@@ -4,13 +4,7 @@ description: "Visual regression testing using Puppeteer page.screenshot() with p
 category: "Browser Automation"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://github.com/puppeteer/puppeteer"
-tool_ecosystem:
-  tool: puppeteer
-  github_repo: puppeteer/puppeteer
-  github_stars: 93971
-  license: Apache-2.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/puppeteer-screenshot-diff-engine/"
 ---
 # Puppeteer Screenshot Diff Engine
 

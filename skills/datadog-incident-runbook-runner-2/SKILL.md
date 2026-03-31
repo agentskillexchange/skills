@@ -4,12 +4,7 @@ description: "Fetches an active Datadog incident, retrieves associated monitors 
 category: "Runbooks &amp; Diagnostics"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://github.com/datadog/dd-trace-js"
-tool_ecosystem:
-  tool: datadog
-  github_repo: datadog/dd-trace-js
-  github_stars: 790
-  maintained: true
+source: "https://agentskillexchange.com/skills/datadog-incident-runbook-runner-2/"
 ---
 # Datadog Incident Runbook Runner
 

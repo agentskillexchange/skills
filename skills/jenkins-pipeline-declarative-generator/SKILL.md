@@ -4,13 +4,7 @@ description: "Creates Jenkins Declarative Pipeline Jenkinsfiles using jenkins-pi
 category: "CI/CD Integrations"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://github.com/jenkinsci/jenkins"
-tool_ecosystem:
-  tool: jenkins
-  github_repo: jenkinsci/jenkins
-  github_stars: 25143
-  license: MIT
-  maintained: true
+source: "https://agentskillexchange.com/skills/jenkins-pipeline-declarative-generator/"
 ---
 # Jenkins Pipeline Declarative Generator
 

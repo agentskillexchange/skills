@@ -4,13 +4,7 @@ description: "Validates Tekton Pipeline YAML manifests against the Tekton Pipeli
 category: "CI/CD Integrations"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://github.com/tektoncd/pipeline"
-tool_ecosystem:
-  tool: tekton
-  github_repo: tektoncd/pipeline
-  github_stars: 8924
-  license: Apache-2.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/tekton-pipeline-validator/"
 ---
 # Tekton Pipeline Validator
 
