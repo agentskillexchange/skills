@@ -1,27 +1,54 @@
 ---
 name: "Gitingest Repository-to-Prompt Codebase Extraction Tool"
+description: "Gitingest turns a Git repository into a prompt-friendly text bundle that agents and LLM workflows can inspect quickly. It can be used as a hosted URL pattern, a Python package, or a local server for extracting repository summaries, structure, and source content."
 category: "Data Extraction & Transformation"
-verification: "listed"
+framework: "Multi-Framework"
+verification: listed
 source: "https://github.com/coderamp-labs/gitingest"
 ---
-
 # Gitingest Repository-to-Prompt Codebase Extraction Tool
 
 Gitingest turns a Git repository into a prompt-friendly text bundle that agents and LLM workflows can inspect quickly. It can be used as a hosted URL pattern, a Python package, or a local server for extracting repository summaries, structure, and source content.
 
+## Overview
+
+Gitingest is a repository extraction tool designed to make source trees easier to hand to language models and agent systems. The project takes a GitHub repository and converts it into a structured, prompt-friendly representation that summarizes the codebase, captures the directory tree, and includes the relevant file contents in a compact text output. One of its best-known flows is the URL trick of replacing part of a GitHub URL so the repository can be ingested immediately, but the upstream project also ships a Python package and optional server mode for programmatic use.
+
+The upstream source is the `coderamp-labs/gitingest` repository, and the package is published on PyPI as `gitingest`. The README documents Python 3.8+ support, pip installation, pipx installation, and Docker-based deployment. That makes it practical for agents that need repeatable codebase context, automated repository intake, or a fast way to prepare source material before summarization, review, refactoring, or documentation generation.
+
+An ASE skill built around Gitingest is useful when an agent needs to transform a repository into clean text for downstream analysis, extract architecture context for planning, or feed a local server into another automation pipeline. Typical outputs include codebase summaries, prompt-ready repository bundles, extracted file trees, and content blocks that can be passed into review agents, documentation jobs, or model-context preparation steps. It also fits well with GitHub-based research, internal code search workflows, and repository triage systems where the first task is understanding the shape of an unfamiliar project quickly.
+
 ## Installation
 
-Install this skill using one of these methods:
+### Any Agent
 
-**Claude Desktop (MCP):** Add to your Claude Desktop configuration
+```bash
+npx skills add agentskillexchange/skills --skill gitingest-repository-to-prompt-codebase-extraction-tool
+```
 
-**OpenClaw:** `openclaw skills install`
+### Claude Code
 
-**AgentSkills CLI:** `agentskills install`
+```bash
+npx skills add agentskillexchange/skills --skill gitingest-repository-to-prompt-codebase-extraction-tool -a claude-code
+```
 
-**Manual:** Download the SKILL.md file and add to your agent's skills directory
+### Cursor
 
-**Agent Skill Exchange:** [View on ASE](https://agentskillexchange.com/skills/gitingest-repository-to-prompt-codebase-extraction-tool/)
+```bash
+npx skills add agentskillexchange/skills --skill gitingest-repository-to-prompt-codebase-extraction-tool -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill gitingest-repository-to-prompt-codebase-extraction-tool -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install gitingest-repository-to-prompt-codebase-extraction-tool
+```
 
 ## Source
 
