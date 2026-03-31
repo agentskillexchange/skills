@@ -1,14 +1,14 @@
 ---
 name: "WordPress Block Theme Scaffolder"
 description: "Generates complete WordPress block theme structures using theme.json v3, block patterns via register_block_pattern(), and template parts. Produces FSE-ready themes with proper style variations, typography presets, and wp_enqueue_block_editor_assets integration."
-category: "WordPress & CMS"
+category: "WordPress &amp; CMS"
 framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/WordPress/WordPress"
 tool_ecosystem:
   tool: wordpress
-  github_stars: 20976
   github_repo: WordPress/WordPress
+  github_stars: 20985
   maintained: true
 ---
 # WordPress Block Theme Scaffolder

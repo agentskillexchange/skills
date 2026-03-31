@@ -1,15 +1,14 @@
 ---
 name: "OpenAI Whisper API Transcription"
 description: "API-based speech-to-text transcription through OpenAI. No local model downloads, no GPU, no Python ML stack — just an API key and a shell script."
-category: "Media & Transcription"
+category: "Media &amp; Transcription"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://github.com/openclaw/openclaw/tree/main/skills/openai-whisper-api"
+source: "https://github.com/openai/whisper"
 tool_ecosystem:
   tool: whisper
-  github_stars: 96570
-  npm_weekly_downloads: 16275389
   github_repo: openai/whisper
+  github_stars: 96874
   license: MIT
   maintained: true
 ---
@@ -19,25 +18,21 @@ API-based speech-to-text transcription through OpenAI. No local model downloads,
 
 ## Overview
 
-This skill wraps OpenAI’s hosted transcription endpoint for fast, lightweight audio-to-text. Send audio files and get back plain-text or JSON transcripts with minimal setup.
+This skill wraps OpenAI's hosted transcription endpoint for fast, lightweight audio-to-text. Send audio files and get back plain-text or JSON transcripts with minimal setup.
 
 How it differs from the local Whisper skill
-
-The already-live OpenAI Whisper (local) listing runs the Whisper model directly on your machine using Python and requires downloading model weights and a capable CPU/GPU. This listing uses the **hosted API** — no model downloads, no local compute requirements, no Python ML dependencies. The tradeoff is API cost and network dependency.
+The already-live OpenAI Whisper (local) listing runs the Whisper model directly on your machine using Python and requires downloading model weights and a capable CPU/GPU. This listing uses the hosted API — no model downloads, no local compute requirements, no Python ML dependencies. The tradeoff is API cost and network dependency.
 
 Best for
 
 Meeting recordings and podcast notes
-
 Voice memos and interview transcripts
-
 Any audio-to-text workflow where convenience and speed matter more than running your own model
 
 Install notes
+Set your OPENAI_API_KEY environment variable or configure it in OpenClaw skill config. Requires curl (pre-installed on most systems). No other dependencies.
 
-Set your `OPENAI_API_KEY` environment variable or configure it in OpenClaw skill config. Requires `curl` (pre-installed on most systems). No other dependencies.
-
-**Source:** [OpenClaw skills/openai-whisper-api](https://github.com/openclaw/openclaw/tree/main/skills/openai-whisper-api)
+Source: OpenClaw skills/openai-whisper-api
 
 ## Installation
 

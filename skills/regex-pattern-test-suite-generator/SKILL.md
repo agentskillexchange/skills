@@ -5,12 +5,6 @@ category: "Developer Tools"
 framework: "Cursor"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/regex-pattern-test-suite-generator/"
-tool_ecosystem:
-  tool: pytest
-  github_stars: 13718
-  github_repo: pytest-dev/pytest
-  license: MIT
-  maintained: true
 ---
 # Regex Pattern Test Suite Generator
 

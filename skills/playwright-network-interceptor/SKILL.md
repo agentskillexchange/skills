@@ -1,15 +1,14 @@
 ---
 name: "Playwright Network Interceptor"
 description: "Intercepts and analyzes network traffic using Playwright route handlers for API response capture and modification. Uses the Playwright page.route() API, HAR recording, and request/response event listeners."
-category: "Research & Scraping"
+category: "Research &amp; Scraping"
 framework: "Cursor"
 verification: security_reviewed
 source: "https://github.com/microsoft/playwright"
 tool_ecosystem:
   tool: playwright
-  github_stars: 84938
-  npm_weekly_downloads: 39806814
   github_repo: microsoft/playwright
+  github_stars: 85242
   license: Apache-2.0
   maintained: true
 ---
@@ -23,7 +22,7 @@ The Playwright Network Interceptor provides advanced network traffic analysis an
 
 The agent generates scripts that leverage route.fulfill() for response mocking, route.continue() with modified headers for authentication injection, and route.abort() for blocking unnecessary resources like images, fonts, and analytics scripts to accelerate page loads during scraping.
 
-Key capabilities include HAR file recording via browser.newContext({ recordHar }) for complete network session capture and replay, WebSocket frame interception using page.on(“websocket”) for real-time data stream capture, and request timing analysis via response.timing() for performance profiling. The agent also implements stealth techniques using playwright-extra with the stealth plugin, handles Cloudflare challenges via browser context persistence, and configures proxy chains with per-context proxy settings for IP rotation.
+Key capabilities include HAR file recording via browser.newContext({ recordHar }) for complete network session capture and replay, WebSocket frame interception using page.on("websocket") for real-time data stream capture, and request timing analysis via response.timing() for performance profiling. The agent also implements stealth techniques using playwright-extra with the stealth plugin, handles Cloudflare challenges via browser context persistence, and configures proxy chains with per-context proxy settings for IP rotation.
 
 ## Installation
 

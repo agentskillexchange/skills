@@ -1,15 +1,14 @@
 ---
 name: "Datadog Monitor Sync"
 description: "Synchronizes Datadog monitor definitions between environments using the Datadog API v2 monitors endpoint. Supports diff-based updates, tag filtering, and Terraform state reconciliation."
-category: "Monitoring & Alerts"
+category: "Monitoring &amp; Alerts"
 framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/DataDog/dd-trace-js"
 tool_ecosystem:
   tool: datadog
-  github_stars: 789
-  npm_weekly_downloads: 6043057
   github_repo: DataDog/dd-trace-js
+  github_stars: 790
   maintained: true
 ---
 # Datadog Monitor Sync

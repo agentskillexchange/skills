@@ -7,8 +7,8 @@ verification: security_reviewed
 source: "https://github.com/argoproj/argo-cd"
 tool_ecosystem:
   tool: argocd
-  github_stars: 22398
   github_repo: argoproj/argo-cd
+  github_stars: 22423
   license: Apache-2.0
   maintained: true
 ---
@@ -22,7 +22,7 @@ The ArgoCD Sync Troubleshooter skill automates the diagnosis of GitOps synchroni
 
 For Helm-based applications, the troubleshooter analyzes rendered manifests against value file hierarchies to identify template rendering failures, missing values, and type mismatches. Kustomize application diagnostics cover overlay application order, strategic merge patch conflicts, and JSON patch validation errors.
 
-The skill performs deep Kubernetes resource health analysis using ArgoCD’s health assessment framework, checking custom health checks defined in argocd-cm ConfigMap, Lua-based health scripts, and standard resource health indicators (Deployment rollout status, StatefulSet ready replicas, Job completion).
+The skill performs deep Kubernetes resource health analysis using ArgoCD's health assessment framework, checking custom health checks defined in argocd-cm ConfigMap, Lua-based health scripts, and standard resource health indicators (Deployment rollout status, StatefulSet ready replicas, Job completion).
 
 Sync failure diagnosis includes permission analysis (RBAC errors for the ArgoCD application controller service account), namespace validation, CRD dependency checking, and resource quota evaluation. The troubleshooter generates step-by-step remediation runbooks tailored to each specific failure type with kubectl commands ready for execution.
 

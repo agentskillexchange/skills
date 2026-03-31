@@ -1,15 +1,14 @@
 ---
 name: "Slack Workflow Automation Builder"
 description: "Creates Slack Workflow Builder automations using the Slack Web API and Block Kit. Builds approval flows, standup collectors, and incident response channels with interactive message components."
-category: "Calendar, Email & Productivity"
+category: "Calendar, Email &amp; Productivity"
 framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/slackapi/bolt-js"
 tool_ecosystem:
   tool: slack
-  github_stars: 2899
-  npm_weekly_downloads: 2433529
   github_repo: slackapi/bolt-js
+  github_stars: 2898
   license: MIT
   maintained: true
 ---

@@ -1,17 +1,10 @@
 ---
 name: "Uptime Robot Multi-Check Coordinator"
 description: "Manages bulk uptime monitoring via the Uptime Robot API v2. Creates HTTP, keyword, and port monitors with alert contacts, maintenance windows, and status page synchronization."
-category: "Monitoring & Alerts"
+category: "Monitoring &amp; Alerts"
 framework: "OpenClaw"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/uptime-robot-multi-check-coordinator/"
-tool_ecosystem:
-  tool: pagerduty
-  github_stars: 69
-  npm_weekly_downloads: 210829
-  github_repo: PagerDuty/pdjs
-  license: Apache-2.0
-  maintained: false
 ---
 # Uptime Robot Multi-Check Coordinator
 

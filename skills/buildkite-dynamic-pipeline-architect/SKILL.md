@@ -5,12 +5,6 @@ category: "CI/CD Integrations"
 framework: "Cursor"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/buildkite-dynamic-pipeline-architect/"
-tool_ecosystem:
-  tool: docker
-  github_stars: 71560
-  github_repo: moby/moby
-  license: Apache-2.0
-  maintained: true
 ---
 # Buildkite Dynamic Pipeline Architect
 

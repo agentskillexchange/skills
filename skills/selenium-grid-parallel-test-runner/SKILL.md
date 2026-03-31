@@ -7,9 +7,8 @@ verification: security_reviewed
 source: "https://github.com/SeleniumHQ/selenium"
 tool_ecosystem:
   tool: selenium
-  github_stars: 34174
-  npm_weekly_downloads: 2000657
   github_repo: SeleniumHQ/selenium
+  github_stars: 34196
   license: Apache-2.0
   maintained: true
 ---

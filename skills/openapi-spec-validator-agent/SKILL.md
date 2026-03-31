@@ -5,12 +5,6 @@ category: "Developer Tools"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/openapi-spec-validator-agent/"
-tool_ecosystem:
-  tool: owasp
-  github_stars: 14900
-  github_repo: zaproxy/zaproxy
-  license: Apache-2.0
-  maintained: true
 ---
 # OpenAPI Spec Validator
 

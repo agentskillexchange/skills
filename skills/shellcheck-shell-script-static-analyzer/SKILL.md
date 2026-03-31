@@ -1,16 +1,10 @@
 ---
 name: "ShellCheck Shell Script Static Analyzer"
 description: "Run static analysis on bash and shell scripts using ShellCheck to detect syntax errors, semantic pitfalls, and portability issues. Produces machine-readable diagnostics with fix suggestions."
-category: "Code Quality & Review"
+category: "Code Quality &amp; Review"
 framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/koalaman/shellcheck"
-tool_ecosystem:
-  tool: docker
-  github_stars: 71560
-  github_repo: moby/moby
-  license: Apache-2.0
-  maintained: true
 ---
 # ShellCheck Shell Script Static Analyzer
 
@@ -18,7 +12,7 @@ Run static analysis on bash and shell scripts using ShellCheck to detect syntax 
 
 ## Overview
 
-The ShellCheck Shell Script Static Analyzer skill integrates [ShellCheck](https://github.com/koalaman/shellcheck), a widely-adopted static analysis tool for sh, bash, dash, and ksh scripts. With over 37,000 GitHub stars and integration into dozens of CI platforms and editors, ShellCheck is the standard tool for catching bugs in shell code before they reach production.
+The ShellCheck Shell Script Static Analyzer skill integrates ShellCheck, a widely-adopted static analysis tool for sh, bash, dash, and ksh scripts. With over 37,000 GitHub stars and integration into dozens of CI platforms and editors, ShellCheck is the standard tool for catching bugs in shell code before they reach production.
 
 ShellCheck operates at three levels of expertise. For beginners, it identifies syntax mistakes that produce cryptic error messages from the shell interpreter, explaining what went wrong and how to fix it. For intermediate users, it flags semantic problems where code is syntactically valid but behaves in surprising ways—like unquoted variable expansions that break on filenames with spaces, or test commands that silently do the wrong thing. For advanced users, it detects subtle corner cases and portability issues that would cause a working script to fail under different shells or edge conditions.
 

@@ -1,15 +1,14 @@
 ---
 name: "Datadog APM Anomaly Detector"
 description: "Detects performance anomalies in Datadog APM traces using the Datadog API v2 metrics endpoint. Applies DBSCAN clustering on latency distributions to identify outlier service behaviors."
-category: "Monitoring & Alerts"
+category: "Monitoring &amp; Alerts"
 framework: "ChatGPT Agents"
 verification: security_reviewed
 source: "https://github.com/DataDog/dd-trace-js"
 tool_ecosystem:
   tool: datadog
-  github_stars: 789
-  npm_weekly_downloads: 6043057
   github_repo: DataDog/dd-trace-js
+  github_stars: 790
   maintained: true
 ---
 # Datadog APM Anomaly Detector

@@ -1,15 +1,14 @@
 ---
 name: "ESLint Rule Conflict Resolver"
 description: "Detects and resolves conflicting ESLint rules across .eslintrc configurations using the ESLint Node.js API. Analyzes rule interactions between eslint-config-airbnb, eslint-config-prettier, and typescript-eslint plugins."
-category: "Code Quality & Review"
+category: "Code Quality &amp; Review"
 framework: "Cursor"
 verification: security_reviewed
 source: "https://github.com/eslint/eslint"
 tool_ecosystem:
   tool: eslint
-  github_stars: 27185
-  npm_weekly_downloads: 109028697
   github_repo: eslint/eslint
+  github_stars: 27153
   license: MIT
   maintained: true
 ---

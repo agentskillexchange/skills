@@ -5,12 +5,6 @@ category: "Developer Tools"
 framework: "Claude Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/devcontainer-specification-builder/"
-tool_ecosystem:
-  tool: docker
-  github_stars: 71560
-  github_repo: moby/moby
-  license: Apache-2.0
-  maintained: true
 ---
 # Devcontainer Specification Builder
 

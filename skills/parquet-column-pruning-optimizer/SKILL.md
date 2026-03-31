@@ -1,15 +1,14 @@
 ---
 name: "Parquet Column Pruning Optimizer"
 description: "Optimizes Apache Parquet file reads using PyArrow column pruning and predicate pushdown. Analyzes query patterns to recommend row group sizing and dictionary encoding strategies."
-category: "Data Extraction & Transformation"
+category: "Data Extraction &amp; Transformation"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/ironSource/parquetjs"
 tool_ecosystem:
   tool: parquet
-  github_stars: 387
-  npm_weekly_downloads: 146943
   github_repo: ironSource/parquetjs
+  github_stars: 387
   license: MIT
   maintained: false
 ---

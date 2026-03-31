@@ -1,15 +1,14 @@
 ---
 name: "Apache Kafka Consumer Lag Runbook"
 description: "Diagnoses Kafka consumer group lag using the Kafka AdminClient API and JMX metrics exposed via the Confluent Metrics API. Identifies slow consumers, topic partition hotspots, and broker rebalance storms that contribute to lag growth. Provides a step-by-step runbook to tune fetch.min.bytes, max.poll.records, and partition count."
-category: "Runbooks & Diagnostics"
+category: "Runbooks &amp; Diagnostics"
 framework: "Cursor"
 verification: security_reviewed
 source: "https://github.com/tulios/kafkajs"
 tool_ecosystem:
   tool: kafka
-  github_stars: 3988
-  npm_weekly_downloads: 2396148
   github_repo: tulios/kafkajs
+  github_stars: 3988
   license: MIT
   maintained: false
 ---

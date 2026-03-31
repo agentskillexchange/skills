@@ -1,15 +1,14 @@
 ---
 name: "Prometheus Alertmanager Rule Auditor"
 description: "Validates Prometheus recording and alerting rules using promtool check rules, analyzes Alertmanager routing trees for notification gaps, and tests alert expressions against live TSDB data via the Prometheus HTTP API."
-category: "Monitoring & Alerts"
+category: "Monitoring &amp; Alerts"
 framework: "Gemini"
 verification: security_reviewed
 source: "https://github.com/prometheus/prometheus"
 tool_ecosystem:
   tool: prometheus
-  github_stars: 63289
-  npm_weekly_downloads: 5319832
   github_repo: prometheus/prometheus
+  github_stars: 63306
   license: Apache-2.0
   maintained: true
 ---

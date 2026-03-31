@@ -1,17 +1,10 @@
 ---
 name: "Protocol Buffers Documentation Compiler"
 description: "Compiles Protocol Buffer .proto files using protoc and generates API documentation with protoc-gen-doc. Validates proto style with buf lint and produces gRPC service client stubs for multiple languages."
-category: "Library & API Reference"
+category: "Library &amp; API Reference"
 framework: "Cursor"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/protobuf-documentation-compiler/"
-tool_ecosystem:
-  tool: grpc
-  github_stars: 4816
-  npm_weekly_downloads: 30883690
-  github_repo: grpc/grpc-node
-  license: Apache-2.0
-  maintained: true
 ---
 # Protocol Buffers Documentation Compiler
 

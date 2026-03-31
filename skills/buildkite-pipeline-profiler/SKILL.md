@@ -5,12 +5,6 @@ category: "CI/CD Integrations"
 framework: "MCP"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/buildkite-pipeline-profiler/"
-tool_ecosystem:
-  tool: docker
-  github_stars: 71560
-  github_repo: moby/moby
-  license: Apache-2.0
-  maintained: true
 ---
 # Buildkite Pipeline Profiler
 

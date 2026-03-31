@@ -12,7 +12,7 @@ LazyDocker is a terminal UI for Docker and Docker Compose that provides containe
 
 ## Overview
 
-LazyDocker is an open-source terminal user interface for managing Docker containers, images, volumes, and networks, available at [github.com/jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker) with over 50,000 GitHub stars. Written in Go by Jesse Duffield (who also created lazygit), it replaces the constant switching between docker and docker-compose CLI commands with a single, persistent dashboard view.
+LazyDocker is an open-source terminal user interface for managing Docker containers, images, volumes, and networks, available at github.com/jesseduffield/lazydocker with over 50,000 GitHub stars. Written in Go by Jesse Duffield (who also created lazygit), it replaces the constant switching between docker and docker-compose CLI commands with a single, persistent dashboard view.
 
 The interface is split into panels showing containers, images, volumes, and their associated details. For each container, developers can view live logs with filtering, inspect resource usage (CPU, memory, network I/O), read the full container configuration, exec into the container shell, and perform lifecycle actions like start, stop, restart, remove, and rebuild. All operations are bound to single-key shortcuts with a context-sensitive help panel that shows available actions for the currently selected item.
 

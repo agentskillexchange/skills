@@ -1,16 +1,10 @@
 ---
 name: "OpenAPI Spec Compliance Checker"
 description: "Validates REST APIs against their OpenAPI 3.x specifications using swagger-parser and Spectral linter rules. Checks response schemas, parameter types, authentication requirements, and generates compliance reports."
-category: "Library & API Reference"
+category: "Library &amp; API Reference"
 framework: "Cursor"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/openapi-spec-compliance-checker/"
-tool_ecosystem:
-  tool: fastapi
-  github_stars: 96503
-  github_repo: tiangolo/fastapi
-  license: MIT
-  maintained: true
 ---
 # OpenAPI Spec Compliance Checker
 

@@ -12,7 +12,7 @@ Hoppscotch is a lightweight, open-source API development platform that serves as
 
 ## Overview
 
-Hoppscotch is a free and open-source API development ecosystem that gives developers a fast, lightweight way to build, test, and debug APIs. Available at [github.com/hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch) with over 65,000 GitHub stars, it has become one of the most popular alternatives to commercial API clients like Postman and Insomnia.
+Hoppscotch is a free and open-source API development ecosystem that gives developers a fast, lightweight way to build, test, and debug APIs. Available at github.com/hoppscotch/hoppscotch with over 65,000 GitHub stars, it has become one of the most popular alternatives to commercial API clients like Postman and Insomnia.
 
 The platform supports a comprehensive set of protocols beyond standard REST calls. Developers can work with GraphQL queries with schema introspection and multi-column docs, establish WebSocket connections for full-duplex communication, consume Server-Sent Events streams, interact with MQTT brokers, and connect to Socket.IO servers. Each protocol handler is purpose-built with its own testing interface rather than being bolted on as an afterthought.
 

@@ -1,7 +1,7 @@
 ---
 name: "WooCommerce Webhook Delivery Inspector"
 description: "Inspects WooCommerce webhook reliability through the `WC_Webhook` model, Action Scheduler queues, and REST endpoints such as `/wp-json/wc/v3/webhooks`. Great for tracing failed deliveries, replay patterns, and event coverage across order, product, and customer workflows."
-category: "WordPress & CMS"
+category: "WordPress &amp; CMS"
 framework: "ChatGPT Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/woocommerce-webhook-delivery-inspector/"
@@ -12,7 +12,7 @@ Inspects WooCommerce webhook reliability through the `WC_Webhook` model, Action 
 
 ## Overview
 
-WooCommerce Webhook Delivery Inspector is meant for stores and integrations teams that need a dependable way to understand why webhook events are firing, failing, or arriving out of sequence. The skill uses real WooCommerce interfaces such as the `WC_Webhook` class, Action Scheduler job data, and REST resources like `/wp-json/wc/v3/webhooks` to inspect endpoint configuration, topic coverage, delivery history, and retry behavior. That makes it useful when downstream systems miss order updates or inventory changes appear to be delayed.
+WooCommerce Webhook Delivery Inspector is meant for stores and integrations teams that need a dependable way to understand why webhook events are firing, failing, or arriving out of sequence. The skill uses real WooCommerce interfaces such as the WC_Webhook class, Action Scheduler job data, and REST resources like /wp-json/wc/v3/webhooks to inspect endpoint configuration, topic coverage, delivery history, and retry behavior. That makes it useful when downstream systems miss order updates or inventory changes appear to be delayed.
 
 The skill can separate transport failures from application logic problems by checking webhook status, secret usage, response codes, and the queued jobs that actually dispatch deliveries. It also helps teams review whether they are listening to the correct topics for orders, products, coupons, and customers, rather than assuming the remote service is at fault. In environments with ERP or warehouse syncs, that distinction matters a lot.
 

@@ -16,7 +16,7 @@ The GitHub Actions Matrix Builder skill automates the creation of complex CI/CD 
 
 Using js-yaml for YAML abstract syntax tree manipulation, the skill can programmatically modify existing workflow files or generate new ones from scratch. It supports include/exclude rules, fail-fast strategies, and max-parallel configurations based on repository size and complexity.
 
-The skill integrates with the GitHub Checks API to monitor matrix job outcomes and can automatically suggest matrix optimizations based on historical failure patterns. It also supports reusable workflow generation following GitHub’s composite action specification, enabling teams to share matrix strategies across repositories.
+The skill integrates with the GitHub Checks API to monitor matrix job outcomes and can automatically suggest matrix optimizations based on historical failure patterns. It also supports reusable workflow generation following GitHub's composite action specification, enabling teams to share matrix strategies across repositories.
 
 Key capabilities include Node.js version detection from .nvmrc and engines fields, Python version extraction from pyproject.toml, Ruby version parsing from .ruby-version, and Go version detection from go.mod files.
 

@@ -1,14 +1,14 @@
 ---
 name: "Grafana Alert Router"
 description: "Routes Grafana alerting webhook payloads to Slack, PagerDuty, and OpsGenie channels based on label matching rules. Supports alert grouping and silence management via the Grafana Alerting API."
-category: "Monitoring & Alerts"
+category: "Monitoring &amp; Alerts"
 framework: "MCP"
 verification: security_reviewed
 source: "https://github.com/grafana/grafana"
 tool_ecosystem:
   tool: grafana
-  github_stars: 72796
   github_repo: grafana/grafana
+  github_stars: 72840
   license: AGPL-3.0
   maintained: true
 ---
@@ -22,7 +22,7 @@ The Grafana Alert Router skill processes incoming webhook payloads from Grafana 
 
 The skill manages alert lifecycle states including firing, resolved, and silenced. It supports alert grouping by configurable labels to reduce notification noise, and can auto-create silences via the Grafana Silences API for scheduled maintenance windows.
 
-Advanced routing rules use CEL (Common Expression Language) expressions for complex matching logic. The skill maintains a local SQLite database of alert history for trend analysis and includes a dashboard template that visualizes alert frequency, MTTR, and channel distribution using Grafana’s own visualization capabilities.
+Advanced routing rules use CEL (Common Expression Language) expressions for complex matching logic. The skill maintains a local SQLite database of alert history for trend analysis and includes a dashboard template that visualizes alert frequency, MTTR, and channel distribution using Grafana's own visualization capabilities.
 
 ## Installation
 

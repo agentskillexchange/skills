@@ -7,8 +7,8 @@ verification: security_reviewed
 source: "https://github.com/circleci/circleci-docs"
 tool_ecosystem:
   tool: circleci
-  github_stars: 842
   github_repo: circleci/circleci-docs
+  github_stars: 841
   maintained: true
 ---
 # CircleCI Orb Pipeline Agent
@@ -21,7 +21,7 @@ The CircleCI Orb Pipeline Agent creates and optimizes CircleCI pipelines using c
 
 The agent leverages CircleCI Orbs for common tasks including circleci/node, circleci/python, circleci/docker, circleci/aws-cli, and circleci/kubernetes. It configures orb commands, jobs, and executors with version pinning and vulnerability scanning through orb source inspection.
 
-Test splitting is optimized via circleci tests split –split-by=timings with historical timing data to balance parallel containers. The agent configures resource_class selection (small, medium, large, xlarge) based on job requirements and cost analysis via the API.
+Test splitting is optimized via circleci tests split -split-by=timings with historical timing data to balance parallel containers. The agent configures resource_class selection (small, medium, large, xlarge) based on job requirements and cost analysis via the API.
 
 Dynamic configuration through setup workflows enables monorepo path filtering, conditional job execution, and generated config patterns. The agent manages pipeline parameters, contexts for secret management, and scheduled pipeline triggers. Performance optimization includes Docker layer caching, workspace persistence across jobs, and test result aggregation for flaky test detection.
 

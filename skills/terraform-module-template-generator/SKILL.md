@@ -1,14 +1,14 @@
 ---
 name: "Terraform Module Template Generator"
 description: "Scaffolds production-ready Terraform modules with HCL templates, variable definitions, and output blocks. Uses the Terraform Registry API to pull module schemas and terraform-docs for auto-generating README files."
-category: "Templates & Workflows"
+category: "Templates &amp; Workflows"
 framework: "OpenClaw"
 verification: security_reviewed
 source: "https://github.com/hashicorp/terraform"
 tool_ecosystem:
   tool: terraform
-  github_stars: 48003
   github_repo: hashicorp/terraform
+  github_stars: 48003
   maintained: true
 ---
 # Terraform Module Template Generator

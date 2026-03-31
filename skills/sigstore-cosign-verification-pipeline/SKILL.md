@@ -1,16 +1,10 @@
 ---
 name: "Sigstore Cosign Verification Pipeline"
 description: "Verifies container image signatures and SBOMs using Sigstore Cosign and Rekor transparency log. Enforces supply chain security policies by validating keyless signatures against Fulcio certificate authorities."
-category: "Security & Verification"
+category: "Security &amp; Verification"
 framework: "Codex"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/sigstore-cosign-verification-pipeline/"
-tool_ecosystem:
-  tool: kubernetes
-  github_stars: 121334
-  github_repo: kubernetes/kubernetes
-  license: Apache-2.0
-  maintained: true
 ---
 # Sigstore Cosign Verification Pipeline
 

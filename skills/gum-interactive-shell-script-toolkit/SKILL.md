@@ -16,7 +16,7 @@ Gum is a tool for building glamorous shell scripts, created by Charmbracelet. It
 
 The tool includes components for every common interactive shell pattern. gum choose presents a selection menu, gum confirm asks yes/no questions, gum input and gum write handle single-line and multi-line text input, gum spin shows a spinner while a command runs, gum table renders tabular data with selectable rows, gum filter provides fuzzy filtering of lists, and gum format renders styled markdown, code blocks, templates, and emoji in the terminal.
 
-Every component is heavily customizable through command-line flags. You can control colors, borders, padding, margins, fonts, cursor styles, placeholder text, and more. Gum leverages Charmbracelet’s Bubbles TUI component library and Lip Gloss styling library under the hood, giving shell scripts access to the same rich terminal UI capabilities that Go applications enjoy.
+Every component is heavily customizable through command-line flags. You can control colors, borders, padding, margins, fonts, cursor styles, placeholder text, and more. Gum leverages Charmbracelet's Bubbles TUI component library and Lip Gloss styling library under the hood, giving shell scripts access to the same rich terminal UI capabilities that Go applications enjoy.
 
 Gum is particularly useful for building interactive git commit workflows (the README demonstrates a Conventional Commits helper), deployment scripts with confirmation steps, configuration wizards, and any shell automation that benefits from user interaction. Since each gum command prints its result to stdout, it integrates seamlessly into Unix pipelines and variable assignment.
 

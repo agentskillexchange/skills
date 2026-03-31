@@ -7,9 +7,8 @@ verification: security_reviewed
 source: "https://github.com/aws/aws-sdk-js-v3"
 tool_ecosystem:
   tool: aws
-  github_stars: 3594
-  npm_weekly_downloads: 9204385
   github_repo: aws/aws-sdk-js-v3
+  github_stars: 3596
   license: Apache-2.0
   maintained: true
 ---

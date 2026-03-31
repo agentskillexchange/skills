@@ -1,14 +1,14 @@
 ---
 name: "Kubernetes Crashloop Diagnostic Runbook"
 description: "Diagnoses CrashLoopBackOff pods in Kubernetes clusters using kubectl and the Kubernetes API. Fetches pod events, container logs, and resource limits via the /api/v1/namespaces/{ns}/pods/{name}/log endpoint. Provides structured root-cause analysis covering OOMKilled, missing ConfigMaps, failed liveness probes, and image pull errors."
-category: "Runbooks & Diagnostics"
+category: "Runbooks &amp; Diagnostics"
 framework: "OpenClaw"
 verification: security_reviewed
 source: "https://github.com/kubernetes/kubernetes"
 tool_ecosystem:
   tool: kubernetes
-  github_stars: 121334
   github_repo: kubernetes/kubernetes
+  github_stars: 121388
   license: Apache-2.0
   maintained: true
 ---

@@ -5,13 +5,6 @@ category: "CI/CD Integrations"
 framework: "OpenClaw"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/github-actions-cicd-pipeline-manager/"
-tool_ecosystem:
-  tool: graphql
-  github_stars: 20332
-  npm_weekly_downloads: 32010306
-  github_repo: graphql/graphql-js
-  license: MIT
-  maintained: true
 ---
 # GitHub Actions CI/CD Pipeline Manager
 

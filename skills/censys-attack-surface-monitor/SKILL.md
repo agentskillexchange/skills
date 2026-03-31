@@ -1,17 +1,10 @@
 ---
 name: "Censys Attack Surface Monitor"
 description: "Monitors internet-facing assets using Censys Search API v2 for host discovery and certificate enumeration. Tracks exposed services, TLS configurations, and new asset appearances with delta alerting via webhook integrations."
-category: "Research & Scraping"
+category: "Research &amp; Scraping"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/censys-attack-surface-monitor/"
-tool_ecosystem:
-  tool: pagerduty
-  github_stars: 69
-  npm_weekly_downloads: 210829
-  github_repo: PagerDuty/pdjs
-  license: Apache-2.0
-  maintained: false
 ---
 # Censys Attack Surface Monitor
 

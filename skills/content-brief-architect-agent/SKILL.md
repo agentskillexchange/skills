@@ -1,17 +1,10 @@
 ---
 name: "Content Brief Architect"
 description: "Creates detailed SEO content briefs using Ahrefs API keyword data, SurferSEO NLP analysis, and Clearscope content grading. Generates outlines with target word counts, headers, and semantic keyword clusters."
-category: "Content Writing & SEO"
+category: "Content Writing &amp; SEO"
 framework: "MCP"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/content-brief-architect-agent/"
-tool_ecosystem:
-  tool: notion
-  github_stars: 5562
-  npm_weekly_downloads: 1084242
-  github_repo: makenotion/notion-sdk-js
-  license: MIT
-  maintained: true
 ---
 # Content Brief Architect
 

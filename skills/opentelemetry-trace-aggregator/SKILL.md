@@ -1,16 +1,10 @@
 ---
 name: "OpenTelemetry Trace Aggregator"
 description: "Aggregates OpenTelemetry trace spans from Jaeger and Zipkin backends into unified flame graphs. Uses the OTLP gRPC exporter SDK to correlate distributed service calls across microservice boundaries."
-category: "Monitoring & Alerts"
+category: "Monitoring &amp; Alerts"
 framework: "OpenClaw"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/opentelemetry-trace-aggregator/"
-tool_ecosystem:
-  tool: kubernetes
-  github_stars: 121334
-  github_repo: kubernetes/kubernetes
-  license: Apache-2.0
-  maintained: true
 ---
 # OpenTelemetry Trace Aggregator
 

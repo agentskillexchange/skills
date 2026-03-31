@@ -1,14 +1,14 @@
 ---
 name: "OWASP ZAP API Security Scanner"
 description: "Automates OWASP ZAP scans against REST APIs using the ZAP Python API client. Imports OpenAPI/Swagger specs for targeted scanning and generates SARIF-format reports for GitHub Security tab integration."
-category: "Security & Verification"
+category: "Security &amp; Verification"
 framework: "Gemini"
 verification: security_reviewed
 source: "https://github.com/zaproxy/zaproxy"
 tool_ecosystem:
   tool: owasp
-  github_stars: 14900
   github_repo: zaproxy/zaproxy
+  github_stars: 14928
   license: Apache-2.0
   maintained: true
 ---

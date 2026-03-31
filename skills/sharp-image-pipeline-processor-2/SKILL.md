@@ -1,15 +1,14 @@
 ---
 name: "Sharp Image Pipeline Processor"
 description: "Builds composable image transformation pipelines using the Sharp library with operations like resize(), composite(), and toFormat(). Leverages libvips bindings for high-performance batch processing."
-category: "Image & Creative Automation"
+category: "Image &amp; Creative Automation"
 framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/lovell/sharp"
 tool_ecosystem:
   tool: sharp
-  github_stars: 32074
-  npm_weekly_downloads: 54450041
   github_repo: lovell/sharp
+  github_stars: 32085
   license: Apache-2.0
   maintained: true
 ---
@@ -19,7 +18,7 @@ Builds composable image transformation pipelines using the Sharp library with op
 
 ## Overview
 
-The Sharp Image Pipeline Processor creates composable image transformation workflows using the Sharp library’s fluent API backed by libvips native bindings. It chains operations like sharp(input).resize({ width, height, fit: “cover” }).composite([{ input: watermark, gravity: “southeast” }]).toFormat(“webp”, { quality: 80 }) for efficient multi-step processing.
+The Sharp Image Pipeline Processor creates composable image transformation workflows using the Sharp library's fluent API backed by libvips native bindings. It chains operations like sharp(input).resize({ width, height, fit: "cover" }).composite([{ input: watermark, gravity: "southeast" }]).toFormat("webp", { quality: 80 }) for efficient multi-step processing.
 
 Core capabilities include intelligent resizing with sharp.fit options (cover, contain, fill, inside, outside), metadata-aware orientation correction via rotate() with EXIF auto-rotation, and color space manipulation through toColorspace() for print-ready CMYK output. The processor handles batch operations using sharp.concurrency() tuning for optimal CPU utilization.
 

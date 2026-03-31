@@ -1,15 +1,14 @@
 ---
 name: "Prometheus AlertManager Configurator"
 description: "Generates Prometheus AlertManager configurations with routing trees, inhibition rules, and receiver integrations for PagerDuty, Slack, and OpsGenie APIs. Supports template-based notification customization."
-category: "Monitoring & Alerts"
+category: "Monitoring &amp; Alerts"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/prometheus/prometheus"
 tool_ecosystem:
   tool: prometheus
-  github_stars: 63289
-  npm_weekly_downloads: 5319832
   github_repo: prometheus/prometheus
+  github_stars: 63306
   license: Apache-2.0
   maintained: true
 ---

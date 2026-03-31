@@ -1,17 +1,10 @@
 ---
 name: "REST API Reference Generator"
 description: "Generates interactive API reference documentation from OpenAPI 3.x specs using Swagger Parser and Redoc. Validates schemas, produces code samples in multiple languages via OpenAPI Generator CLI."
-category: "Library & API Reference"
+category: "Library &amp; API Reference"
 framework: "Claude Code"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/rest-api-reference-generator/"
-tool_ecosystem:
-  tool: swagger
-  github_stars: 28703
-  npm_weekly_downloads: 3219093
-  github_repo: swagger-api/swagger-ui
-  license: Apache-2.0
-  maintained: true
 ---
 # REST API Reference Generator
 

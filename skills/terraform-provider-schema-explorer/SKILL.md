@@ -1,14 +1,14 @@
 ---
 name: "Terraform Provider Schema Explorer"
 description: "Explores HashiCorp Terraform provider schemas using terraform providers schema -json output. Maps resource attributes, computed fields, and cross-resource dependency references for HCL generation."
-category: "Library & API Reference"
+category: "Library &amp; API Reference"
 framework: "Gemini"
 verification: security_reviewed
 source: "https://github.com/hashicorp/terraform"
 tool_ecosystem:
   tool: terraform
-  github_stars: 48003
   github_repo: hashicorp/terraform
+  github_stars: 48003
   maintained: true
 ---
 # Terraform Provider Schema Explorer

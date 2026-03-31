@@ -4,7 +4,7 @@ description: "Run Claude Code as a one-shot MCP tool so other agents and editors
 category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://github.com/steipete/claude-code-mcp"
+source: "https://agentskillexchange.com/skills/claude-code-mcp-bridge/"
 ---
 # Claude Code MCP Bridge
 
@@ -17,20 +17,16 @@ Claude Code MCP Bridge exposes Claude Code as a single MCP tool. When an MCP cli
 Best for
 
 Agent-in-agent orchestration where one model delegates coding to another
-
 Cursor, Windsurf, or custom pipeline users who want Claude Code as a sub-agent
-
 Complex multi-step file operations that benefit from Claude Code capabilities
 
 How it differs from Coding Agent
-
 Coding Agent is about running coding agents directly. This bridge is about embedding Claude Code inside another MCP workflow as infrastructure — orchestration, not direct assistance.
 
 Install notes
+Install the Claude CLI globally (npm install -g @anthropic-ai/claude-code), accept the permissions flag once, then configure: npx -y @steipete/claude-code-mcp@latest in your MCP client config. Requires Node.js v20+ and an authenticated Claude CLI.
 
-Install the Claude CLI globally (`npm install -g @anthropic-ai/claude-code`), accept the permissions flag once, then configure: `npx -y @steipete/claude-code-mcp@latest` in your MCP client config. Requires Node.js v20+ and an authenticated Claude CLI.
-
-**Source:** [github.com/steipete/claude-code-mcp](https://github.com/steipete/claude-code-mcp)
+Source: github.com/steipete/claude-code-mcp
 
 ## Installation
 

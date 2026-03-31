@@ -1,15 +1,10 @@
 ---
 name: "WP Abilities API"
 description: "Specialized support for defining, exposing, and debugging WordPress abilities through the Abilities API."
-category: "WordPress & CMS"
-framework: "OpenClaw"
+category: "WordPress &amp; CMS"
+framework: "Custom Agents"
 verification: security_reviewed
-source: "https://github.com/openclaw/openclaw/tree/main/skills/wp-abilities-api"
-tool_ecosystem:
-  tool: wordpress
-  github_stars: 20976
-  github_repo: WordPress/WordPress
-  maintained: true
+source: "https://agentskillexchange.com/skills/wp-abilities-api/"
 ---
 # WP Abilities API
 
@@ -17,21 +12,18 @@ Specialized support for defining, exposing, and debugging WordPress abilities th
 
 ## Overview
 
-WP Abilities API is a specialist skill for WordPress builders working with `wp_register_ability`, `wp_register_ability_category`, `/wp-json/wp-abilities/v1/*`, and `@wordpress/abilities`. It focuses on one narrow job: helping teams define abilities cleanly and expose them to clients without falling back to generic WordPress advice.
+WP Abilities API is a specialist skill for WordPress builders working with wp_register_ability, wp_register_ability_category, /wp-json/wp-abilities/v1/*, and @wordpress/abilities. It focuses on one narrow job: helping teams define abilities cleanly and expose them to clients without falling back to generic WordPress advice.
 
 Best for
 
 registering WordPress abilities and categories in PHP
-
 debugging REST exposure and missing client visibility
-
 implementing permission-aware ability checks in JavaScript clients
 
 Install notes
-
 Install the skill in an OpenClaw workspace that has access to your WordPress plugin, theme, or core checkout. It is most useful in environments targeting WordPress 6.9+ and may also rely on WP-CLI for validation workflows.
 
-**Source:** OpenClaw-compatible WP Abilities API skill.
+Source: OpenClaw-compatible WP Abilities API skill.
 
 ## Installation
 

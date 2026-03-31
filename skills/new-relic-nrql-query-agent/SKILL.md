@@ -1,25 +1,18 @@
 ---
 name: "New Relic NRQL Query Agent"
-description: "Executes NRQL queries against New Relic’s GraphQL NerdGraph API for application performance monitoring. Generates automated SLA reports with percentile latency breakdowns and error budget calculations."
-category: "Monitoring & Alerts"
+description: "Executes NRQL queries against New Relic's GraphQL NerdGraph API for application performance monitoring. Generates automated SLA reports with percentile latency breakdowns and error budget calculations."
+category: "Monitoring &amp; Alerts"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/new-relic-nrql-query-agent/"
-tool_ecosystem:
-  tool: slack
-  github_stars: 2899
-  npm_weekly_downloads: 2433529
-  github_repo: slackapi/bolt-js
-  license: MIT
-  maintained: true
 ---
 # New Relic NRQL Query Agent
 
-Executes NRQL queries against New Relic’s GraphQL NerdGraph API for application performance monitoring. Generates automated SLA reports with percentile latency breakdowns and error budget calculations.
+Executes NRQL queries against New Relic's GraphQL NerdGraph API for application performance monitoring. Generates automated SLA reports with percentile latency breakdowns and error budget calculations.
 
 ## Overview
 
-The New Relic NRQL Query Agent skill connects to New Relic’s NerdGraph GraphQL API to execute NRQL (New Relic Query Language) queries for application performance analysis. It handles authentication via User API keys, supports cross-account querying, and manages query pagination for large result sets.
+The New Relic NRQL Query Agent skill connects to New Relic's NerdGraph GraphQL API to execute NRQL (New Relic Query Language) queries for application performance analysis. It handles authentication via User API keys, supports cross-account querying, and manages query pagination for large result sets.
 
 The skill provides pre-built NRQL templates for common APM scenarios including transaction percentile analysis (P50/P95/P99), error rate trending with TIMESERIES faceting, and Apdex score monitoring. Custom queries support all NRQL clauses including FACET, SINCE, UNTIL, COMPARE WITH, and subqueries.
 

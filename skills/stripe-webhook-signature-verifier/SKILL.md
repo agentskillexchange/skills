@@ -1,15 +1,14 @@
 ---
 name: "Stripe Webhook Signature Verifier"
 description: "Verifies Stripe webhook payload signatures using the Stripe.js SDK and the stripe.webhooks.constructEvent method. Validates the Stripe-Signature header against the raw request body and a configured endpoint secret. Handles tolerance windows for replay attack prevention and logs verification failures to Datadog via the Datadog Logs API."
-category: "Security & Verification"
+category: "Security &amp; Verification"
 framework: "ChatGPT Agents"
 verification: security_reviewed
 source: "https://github.com/stripe/stripe-node"
 tool_ecosystem:
   tool: stripe
-  github_stars: 4377
-  npm_weekly_downloads: 8442269
   github_repo: stripe/stripe-node
+  github_stars: 4377
   license: MIT
   maintained: true
 ---

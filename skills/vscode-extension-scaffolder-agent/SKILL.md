@@ -5,13 +5,6 @@ category: "Developer Tools"
 framework: "Cursor"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/vscode-extension-scaffolder-agent/"
-tool_ecosystem:
-  tool: webpack
-  github_stars: 66013
-  npm_weekly_downloads: 44849699
-  github_repo: webpack/webpack
-  license: MIT
-  maintained: true
 ---
 # VS Code Extension Scaffolder
 

@@ -1,7 +1,7 @@
 ---
 name: "Doxygen Cross-Reference Indexer"
 description: "Builds searchable cross-reference indexes from Doxygen XML output using doxyparse and doxygen-awesome-css themes. Maps function call graphs, inheritance hierarchies, and include dependency chains across C/C++ codebases."
-category: "Library & API Reference"
+category: "Library &amp; API Reference"
 framework: "ChatGPT Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/doxygen-cross-reference-indexer/"

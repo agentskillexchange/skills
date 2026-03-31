@@ -12,7 +12,7 @@ K9s is a terminal-based UI for managing Kubernetes clusters, providing real-time
 
 ## Overview
 
-K9s is an open-source terminal user interface for Kubernetes, available at [github.com/derailed/k9s](https://github.com/derailed/k9s) with over 28,000 GitHub stars and an active release cadence. It provides a continuously-updated view of your Kubernetes cluster, letting operators navigate, observe, and manage workloads without memorizing kubectl command syntax.
+K9s is an open-source terminal user interface for Kubernetes, available at github.com/derailed/k9s with over 28,000 GitHub stars and an active release cadence. It provides a continuously-updated view of your Kubernetes cluster, letting operators navigate, observe, and manage workloads without memorizing kubectl command syntax.
 
 The tool watches Kubernetes resources in real time and presents them in navigable, filterable views. Developers can inspect pods, deployments, services, configmaps, secrets, and dozens of other resource types through a consistent keyboard-driven interface. Each resource view supports contextual actions: pods can be logged, shelled into, deleted, or described; deployments can be scaled or restarted; and custom resources are discovered and displayed automatically from the cluster API.
 

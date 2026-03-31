@@ -7,8 +7,8 @@ verification: security_reviewed
 source: "https://github.com/jenkinsci/jenkins"
 tool_ecosystem:
   tool: jenkins
-  github_stars: 25122
   github_repo: jenkinsci/jenkins
+  github_stars: 25143
   license: MIT
   maintained: true
 ---

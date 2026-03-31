@@ -1,14 +1,14 @@
 ---
 name: "Kubernetes Diagnostic Runbook"
 description: "Executes diagnostic workflows against Kubernetes clusters using kubectl and the Kubernetes Python client (kubernetes.client). Checks pod health, resource quotas, event logs, and node conditions for rapid incident triage."
-category: "Runbooks & Diagnostics"
+category: "Runbooks &amp; Diagnostics"
 framework: "Claude Agents"
 verification: security_reviewed
 source: "https://github.com/kubernetes/kubernetes"
 tool_ecosystem:
   tool: kubernetes
-  github_stars: 121334
   github_repo: kubernetes/kubernetes
+  github_stars: 121388
   license: Apache-2.0
   maintained: true
 ---

@@ -1,15 +1,10 @@
 ---
 name: "Deepgram Nova STT Pipeline"
 description: "Real-time speech-to-text using Deepgram Nova-2 API with streaming WebSocket connections. Supports diarization, punctuation, and language detection via the Deepgram Python SDK for podcast and meeting transcription workflows."
-category: "Media & Transcription"
+category: "Media &amp; Transcription"
 framework: "Claude Code"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/deepgram-nova-stt-pipeline/"
-tool_ecosystem:
-  tool: ffmpeg
-  github_stars: 58283
-  github_repo: FFmpeg/FFmpeg
-  maintained: true
 ---
 # Deepgram Nova STT Pipeline
 

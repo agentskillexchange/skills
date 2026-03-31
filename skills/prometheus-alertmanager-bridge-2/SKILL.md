@@ -1,15 +1,14 @@
 ---
 name: "Prometheus Alertmanager Bridge"
 description: "Bridges Prometheus Alertmanager notifications to Microsoft Teams, Discord, and Telegram using adaptive card templates and PromQL-based alert correlation."
-category: "Monitoring & Alerts"
+category: "Monitoring &amp; Alerts"
 framework: "ChatGPT Agents"
 verification: security_reviewed
 source: "https://github.com/prometheus/prometheus"
 tool_ecosystem:
   tool: prometheus
-  github_stars: 63289
-  npm_weekly_downloads: 5319832
   github_repo: prometheus/prometheus
+  github_stars: 63306
   license: Apache-2.0
   maintained: true
 ---
@@ -23,7 +22,7 @@ The Prometheus Alertmanager Bridge skill receives webhook notifications from Pro
 
 Alert correlation uses PromQL queries against the Prometheus HTTP API to fetch related metrics and attach sparkline graphs generated with the QuickChart.io API. The skill groups related alerts using configurable inhibition rules and time-based correlation windows to reduce notification fatigue.
 
-Template customization supports Go template syntax matching Alertmanager’s native templating. The skill maintains alert state in a Redis cache for deduplication and tracks acknowledgment status across platforms. Runbook links are automatically generated from alert labels using configurable URL templates. The skill exposes its own metrics endpoint for monitoring notification delivery rates and latencies.
+Template customization supports Go template syntax matching Alertmanager's native templating. The skill maintains alert state in a Redis cache for deduplication and tracks acknowledgment status across platforms. Runbook links are automatically generated from alert labels using configurable URL templates. The skill exposes its own metrics endpoint for monitoring notification delivery rates and latencies.
 
 ## Installation
 

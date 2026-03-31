@@ -1,14 +1,14 @@
 ---
 name: "Kubernetes CrashLoopBackOff Diagnoser"
 description: "Diagnoses CrashLoopBackOff pods using kubectl and the Kubernetes API. Inspects container logs, exit codes, OOMKilled events, and liveness probe configurations to generate actionable remediation steps."
-category: "Runbooks & Diagnostics"
+category: "Runbooks &amp; Diagnostics"
 framework: "Codex"
 verification: security_reviewed
 source: "https://github.com/kubernetes/kubernetes"
 tool_ecosystem:
   tool: kubernetes
-  github_stars: 121334
   github_repo: kubernetes/kubernetes
+  github_stars: 121388
   license: Apache-2.0
   maintained: true
 ---

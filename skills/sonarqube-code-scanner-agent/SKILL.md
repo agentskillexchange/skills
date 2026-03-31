@@ -1,14 +1,14 @@
 ---
 name: "SonarQube Code Scanner Agent"
 description: "Automated code quality scanning using SonarQube REST API and SonarScanner CLI. Detects code smells, bugs, and vulnerabilities across 30+ languages with configurable quality gates."
-category: "Code Quality & Review"
+category: "Code Quality &amp; Review"
 framework: "OpenClaw"
 verification: security_reviewed
 source: "https://github.com/SonarSource/sonarqube"
 tool_ecosystem:
   tool: sonarqube
-  github_stars: 10358
   github_repo: SonarSource/sonarqube
+  github_stars: 10379
   license: LGPL-3.0
   maintained: true
 ---

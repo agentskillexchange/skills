@@ -1,14 +1,14 @@
 ---
 name: "SonarQube Quality Gate Checker"
 description: "Queries SonarQube Web API for project quality gate status, code coverage metrics, and technical debt analysis. Integrates with sonar-scanner CLI for on-demand analysis and pr-decoration via the SonarQube ALM integration API."
-category: "Code Quality & Review"
+category: "Code Quality &amp; Review"
 framework: "Gemini"
 verification: security_reviewed
 source: "https://github.com/SonarSource/sonarqube"
 tool_ecosystem:
   tool: sonarqube
-  github_stars: 10358
   github_repo: SonarSource/sonarqube
+  github_stars: 10379
   license: LGPL-3.0
   maintained: true
 ---

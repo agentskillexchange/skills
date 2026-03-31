@@ -1,15 +1,14 @@
 ---
 name: "GraphQL Schema Analyzer"
 description: "Analyzes GraphQL schemas using graphql-js introspection and @graphql-tools/utils. Maps type relationships, detects N+1 query patterns, and generates DataLoader batching recommendations."
-category: "Library & API Reference"
+category: "Library &amp; API Reference"
 framework: "ChatGPT Agents"
 verification: security_reviewed
 source: "https://github.com/graphql/graphql-js"
 tool_ecosystem:
   tool: graphql
-  github_stars: 20332
-  npm_weekly_downloads: 32010306
   github_repo: graphql/graphql-js
+  github_stars: 20329
   license: MIT
   maintained: true
 ---

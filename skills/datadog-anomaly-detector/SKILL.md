@@ -1,15 +1,14 @@
 ---
 name: "Datadog Anomaly Detector"
 description: "Leverages the Datadog API v2 metrics and events endpoints to detect anomalous patterns. Uses the Datadog Monitors API to create dynamic thresholds and sends escalations via OpsGenie REST API."
-category: "Monitoring & Alerts"
+category: "Monitoring &amp; Alerts"
 framework: "Gemini"
 verification: security_reviewed
 source: "https://github.com/DataDog/dd-trace-js"
 tool_ecosystem:
   tool: datadog
-  github_stars: 789
-  npm_weekly_downloads: 6043057
   github_repo: DataDog/dd-trace-js
+  github_stars: 790
   maintained: true
 ---
 # Datadog Anomaly Detector

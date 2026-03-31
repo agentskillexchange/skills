@@ -1,7 +1,7 @@
 ---
 name: "Figma REST API Asset Exporter"
 description: "Exports design assets from Figma files using the GET /v1/files/:key and /v1/images/:key endpoints. Supports SVG, PNG, and PDF export with scale and format parameters."
-category: "Image & Creative Automation"
+category: "Image &amp; Creative Automation"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/figma-rest-api-asset-exporter/"

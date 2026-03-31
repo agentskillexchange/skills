@@ -5,9 +5,6 @@ category: "Developer Tools"
 framework: "OpenClaw"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/postgresql-query-optimizer-explain-api/"
-tool_ecosystem:
-  tool: postgresql
-  npm_weekly_downloads: 21413502
 ---
 # PostgreSQL Query Optimizer Agent
 

@@ -1,6 +1,6 @@
 ---
 name: "GitHub MCP Server for AI-Powered Repository Management"
-description: "GitHub’s official Model Context Protocol (MCP) server that connects AI agents, assistants, and chatbots directly to GitHub’s platform. Enables natural language repository management, code search, issue triage, PR automation, and CI/CD workflow intelligence through a standardized protocol."
+description: "GitHub's official Model Context Protocol (MCP) server that connects AI agents, assistants, and chatbots directly to GitHub's platform. Enables natural language repository management, code search, issue triage, PR automation, and CI/CD workflow intelligence through a standardized protocol."
 category: "Developer Tools"
 framework: "MCP"
 verification: security_reviewed
@@ -8,11 +8,11 @@ source: "https://github.com/github/github-mcp-server"
 ---
 # GitHub MCP Server for AI-Powered Repository Management
 
-GitHub’s official Model Context Protocol (MCP) server that connects AI agents, assistants, and chatbots directly to GitHub’s platform. Enables natural language repository management, code search, issue triage, PR automation, and CI/CD workflow intelligence through a standardized protocol.
+GitHub's official Model Context Protocol (MCP) server that connects AI agents, assistants, and chatbots directly to GitHub's platform. Enables natural language repository management, code search, issue triage, PR automation, and CI/CD workflow intelligence through a standardized protocol.
 
 ## Overview
 
-The GitHub MCP Server is GitHub’s official implementation of the Model Context Protocol, providing a standardized bridge between AI-powered tools and GitHub’s extensive API surface. With over 3,500 stars on GitHub and active development by GitHub’s own engineering team, it represents the most widely adopted MCP server in the developer ecosystem.
+The GitHub MCP Server is GitHub's official implementation of the Model Context Protocol, providing a standardized bridge between AI-powered tools and GitHub's extensive API surface. With over 3,500 stars on GitHub and active development by GitHub's own engineering team, it represents the most widely adopted MCP server in the developer ecosystem.
 
 The server exposes a comprehensive set of tools that AI agents can discover and invoke during conversations. Repository management tools let agents browse code, search across files, read content from any branch, and analyze commit history. The issue and pull request automation tools handle creating, updating, and managing both issues and PRs, enabling AI assistants to help triage bugs, review code changes, and maintain project boards without manual intervention.
 

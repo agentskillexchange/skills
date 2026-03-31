@@ -20,7 +20,7 @@ Core capabilities include direct integration with the public Terraform Registry 
 
 The server can be run via Docker for containerized environments or directly as a binary. Configuration is managed through environment variables including TFE_ADDRESS for custom Terraform Enterprise endpoints, TFE_TOKEN for API authentication, and various MCP_* variables for transport and security settings. The ENABLE_TF_OPERATIONS flag controls access to write operations that require explicit approval.
 
-With over 1,280 GitHub stars and active maintenance by HashiCorp, this server represents the official way to give AI agents structured access to Terraform infrastructure data. It integrates with VS Code, Cursor, Claude Desktop, and other MCP clients. Licensed under MPL-2.0, it follows HashiCorp standard licensing practices for their open-source tools.
+With over 1,280 GitHub stars and active maintenance by HashiCorp, this server represents the official way to give AI agents structured access to Terraform infrastructure data. It integrates with VS Code, Cursor, Claude Desktop, and other MCP-compatible clients. Licensed under MPL-2.0, it follows HashiCorp standard licensing practices for their open-source tools.
 
 ## Installation
 

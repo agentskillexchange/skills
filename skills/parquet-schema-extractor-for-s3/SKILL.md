@@ -1,15 +1,14 @@
 ---
 name: "Parquet Schema Extractor for S3"
 description: "Extracts and validates Parquet file schemas from Amazon S3 using the PyArrow library and AWS S3 SDK (boto3). Compares schemas across multiple partitions to detect schema drift and incompatible type changes. Outputs a schema diff report with partition paths and affected column details."
-category: "Data Extraction & Transformation"
+category: "Data Extraction &amp; Transformation"
 framework: "Gemini"
 verification: security_reviewed
 source: "https://github.com/ironSource/parquetjs"
 tool_ecosystem:
   tool: parquet
-  github_stars: 387
-  npm_weekly_downloads: 146943
   github_repo: ironSource/parquetjs
+  github_stars: 387
   license: MIT
   maintained: false
 ---

@@ -1,7 +1,7 @@
 ---
 name: "NPM Package API Surface Extractor"
 description: "Extracts and documents public API surfaces from NPM packages using TypeScript Compiler API (ts.createProgram) and API Extractor from @microsoft/api-extractor. Generates .api.md report files and .d.ts rollups."
-category: "Library & API Reference"
+category: "Library &amp; API Reference"
 framework: "Claude Code"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/npm-package-api-surface-extractor/"

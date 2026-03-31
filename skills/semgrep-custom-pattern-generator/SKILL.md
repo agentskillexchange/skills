@@ -1,14 +1,14 @@
 ---
 name: "Semgrep Custom Pattern Generator"
 description: "Generates Semgrep SAST rules from vulnerability descriptions using the Semgrep CLI and semgrep-rules YAML schema. Supports metavariable patterns, taint tracking, and join rules for cross-function analysis."
-category: "Code Quality & Review"
+category: "Code Quality &amp; Review"
 framework: "MCP"
 verification: security_reviewed
 source: "https://github.com/semgrep/semgrep"
 tool_ecosystem:
   tool: semgrep
-  github_stars: 14551
   github_repo: semgrep/semgrep
+  github_stars: 14602
   license: LGPL-2.1
   maintained: true
 ---
@@ -24,7 +24,7 @@ The skill supports the full range of Semgrep pattern operators including pattern
 
 Advanced rule features are supported including join rules for cross-file analysis using the semgrep join mode, pattern-regex for matching string literals and comments, and metavariable-comparison for numeric constraint checking. Each rule includes proper metadata following the semgrep-rule-schema with cwe, owasp, confidence, and impact fields.
 
-Validation is performed using the semgrep –validate flag against the generated YAML, and the skill runs semgrep –test against provided test fixtures to verify true positives and false negative handling. Rules are organized into rulesets compatible with the Semgrep Registry publishing format, ready for use with semgrep ci in your CI pipeline.
+Validation is performed using the semgrep -validate flag against the generated YAML, and the skill runs semgrep -test against provided test fixtures to verify true positives and false negative handling. Rules are organized into rulesets compatible with the Semgrep Registry publishing format, ready for use with semgrep ci in your CI pipeline.
 
 ## Installation
 

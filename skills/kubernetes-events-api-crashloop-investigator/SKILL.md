@@ -1,14 +1,14 @@
 ---
 name: "Kubernetes Events API CrashLoop Investigator"
 description: "Diagnoses restart storms with the Kubernetes Events API, Pod status conditions, and the Metrics API to explain why workloads are stuck in CrashLoopBackOff. Great for agents that need to summarize cluster evidence before an operator starts digging through kubectl output by hand."
-category: "Runbooks & Diagnostics"
+category: "Runbooks &amp; Diagnostics"
 framework: "MCP"
 verification: security_reviewed
 source: "https://github.com/kubernetes/kubernetes"
 tool_ecosystem:
   tool: kubernetes
-  github_stars: 121334
   github_repo: kubernetes/kubernetes
+  github_stars: 121388
   license: Apache-2.0
   maintained: true
 ---

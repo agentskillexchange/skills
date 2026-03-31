@@ -1,17 +1,10 @@
 ---
 name: "CodeClimate Maintainability Tracker"
 description: "Tracks Code Climate maintainability scores over time using the Code Climate v1 API. Identifies technical debt hotspots, monitors churn-complexity coupling, and generates weekly maintainability digests via SendGrid."
-category: "Code Quality & Review"
+category: "Code Quality &amp; Review"
 framework: "ChatGPT Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/codeclimate-maintainability-tracker-7/"
-tool_ecosystem:
-  tool: sendgrid
-  github_stars: 3054
-  npm_weekly_downloads: 3287627
-  github_repo: sendgrid/sendgrid-nodejs
-  license: MIT
-  maintained: true
 ---
 # CodeClimate Maintainability Tracker
 

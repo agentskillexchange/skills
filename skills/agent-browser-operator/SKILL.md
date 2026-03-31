@@ -4,14 +4,7 @@ description: "Interactive browser skill for logged-in flows, dynamic pages, and 
 category: "Browser Automation"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://docs.openclaw.ai/tools/browser"
-tool_ecosystem:
-  tool: playwright
-  github_stars: 84938
-  npm_weekly_downloads: 39806814
-  github_repo: microsoft/playwright
-  license: Apache-2.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/agent-browser-operator/"
 ---
 # Agent Browser Operator
 
@@ -24,20 +17,16 @@ Agent Browser Operator handles interactive, session-aware browser tasks where si
 Best for
 
 logged-in admin workflows (WordPress, dashboards, internal tools)
-
 multi-step form submission and interactive page flows
-
 extracting data from JavaScript-rendered or authentication-gated pages
 
 How it differs from MCP browser tools
-
-Unlike MCP-based browser connectors (Playwright MCP, Browser MCP, Browserbase), Agent Browser Operator works through OpenClaw’s native browser tool with direct session context. It is best for tasks that need the agent’s own authenticated session rather than a standalone browser-as-a-service.
+Unlike MCP-based browser connectors (Playwright MCP, Browser MCP, Browserbase), Agent Browser Operator works through OpenClaw's native browser tool with direct session context. It is best for tasks that need the agent's own authenticated session rather than a standalone browser-as-a-service.
 
 Install notes
-
 Enable the browser tool in OpenClaw. For managed mode, install Chrome or Chromium on the host. For relay mode, use the OpenClaw Browser Relay Chrome extension.
 
-**Source:** OpenClaw browser tool documentation.
+Source: OpenClaw browser tool documentation.
 
 ## Installation
 

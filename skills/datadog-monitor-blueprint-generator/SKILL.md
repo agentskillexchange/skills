@@ -1,15 +1,14 @@
 ---
 name: "Datadog Monitor Blueprint Generator"
 description: "Creates Datadog monitor definitions using the Datadog API v2 with metric, log, APM trace, and composite monitor types. Generates Terraform datadog_monitor resources with threshold and anomaly detection."
-category: "Monitoring & Alerts"
+category: "Monitoring &amp; Alerts"
 framework: "Cursor"
 verification: security_reviewed
 source: "https://github.com/DataDog/dd-trace-js"
 tool_ecosystem:
   tool: datadog
-  github_stars: 789
-  npm_weekly_downloads: 6043057
   github_repo: DataDog/dd-trace-js
+  github_stars: 790
   maintained: true
 ---
 # Datadog Monitor Blueprint Generator

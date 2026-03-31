@@ -1,15 +1,14 @@
 ---
 name: "ESLint Custom Rule Builder"
 description: "Scaffolds and tests custom ESLint rules using the RuleTester API and AST Explorer patterns. Generates rule documentation with fixable autofix implementations."
-category: "Code Quality & Review"
+category: "Code Quality &amp; Review"
 framework: "Cursor"
 verification: security_reviewed
 source: "https://github.com/eslint/eslint"
 tool_ecosystem:
   tool: eslint
-  github_stars: 27185
-  npm_weekly_downloads: 109028697
   github_repo: eslint/eslint
+  github_stars: 27153
   license: MIT
   maintained: true
 ---

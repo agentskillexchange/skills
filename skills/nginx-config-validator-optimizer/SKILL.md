@@ -1,14 +1,14 @@
 ---
 name: "Nginx Config Validator and Optimizer"
 description: "Parses nginx.conf and included config files using the crossplane Python library and nginx -t test command. Identifies misconfigurations, duplicate server blocks, SSL/TLS weaknesses via Mozilla SSL Configuration Generator recommendations."
-category: "Runbooks & Diagnostics"
+category: "Runbooks &amp; Diagnostics"
 framework: "MCP"
 verification: security_reviewed
 source: "https://github.com/nginx/nginx"
 tool_ecosystem:
   tool: nginx
-  github_stars: 29767
   github_repo: nginx/nginx
+  github_stars: 29767
   license: BSD-2-Clause
   maintained: true
 ---

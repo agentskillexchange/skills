@@ -1,14 +1,14 @@
 ---
 name: "Docker Compose Test Harness"
 description: "Scaffolds integration test environments using Docker Compose v2 CLI, testcontainers-python library, and the docker-py SDK. Manages service dependencies, health checks, and test data seeding."
-category: "Templates & Workflows"
+category: "Templates &amp; Workflows"
 framework: "MCP"
 verification: security_reviewed
 source: "https://github.com/moby/moby"
 tool_ecosystem:
   tool: docker
-  github_stars: 71560
   github_repo: moby/moby
+  github_stars: 71574
   license: Apache-2.0
   maintained: true
 ---

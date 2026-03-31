@@ -7,8 +7,8 @@ verification: security_reviewed
 source: "https://github.com/tektoncd/pipeline"
 tool_ecosystem:
   tool: tekton
-  github_stars: 8923
   github_repo: tektoncd/pipeline
+  github_stars: 8924
   license: Apache-2.0
   maintained: true
 ---

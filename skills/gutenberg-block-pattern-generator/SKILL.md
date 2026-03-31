@@ -1,15 +1,10 @@
 ---
 name: "Gutenberg Block Pattern Generator"
 description: "Generates custom WordPress Gutenberg block patterns using register_block_pattern() and the Block Editor API. Creates reusable pattern categories with register_block_pattern_category() for organized content libraries."
-category: "WordPress & CMS"
+category: "WordPress &amp; CMS"
 framework: "Claude Code"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/gutenberg-block-pattern-generator/"
-tool_ecosystem:
-  tool: wordpress
-  github_stars: 20976
-  github_repo: WordPress/WordPress
-  maintained: true
 ---
 # Gutenberg Block Pattern Generator
 

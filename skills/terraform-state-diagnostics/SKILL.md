@@ -1,14 +1,14 @@
 ---
 name: "Terraform State Diagnostics"
 description: "Diagnoses Terraform state issues using terraform state commands, the Terraform Cloud API, and HCL parser. Detects drift, orphaned resources, and state lock conflicts across workspaces."
-category: "Runbooks & Diagnostics"
+category: "Runbooks &amp; Diagnostics"
 framework: "ChatGPT Agents"
 verification: security_reviewed
 source: "https://github.com/hashicorp/terraform"
 tool_ecosystem:
   tool: terraform
-  github_stars: 48003
   github_repo: hashicorp/terraform
+  github_stars: 48003
   maintained: true
 ---
 # Terraform State Diagnostics

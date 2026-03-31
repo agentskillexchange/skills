@@ -1,16 +1,10 @@
 ---
 name: "TruffleHog Credential Leak Scanner"
 description: "Find, verify, and analyze leaked credentials across Git repositories, Slack, Jira, Docker images, and more using TruffleHog. Classifies 800+ secret types and validates whether discovered credentials are live."
-category: "Security & Verification"
+category: "Security &amp; Verification"
 framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/trufflesecurity/trufflehog"
-tool_ecosystem:
-  tool: docker
-  github_stars: 71560
-  github_repo: moby/moby
-  license: Apache-2.0
-  maintained: true
 ---
 # TruffleHog Credential Leak Scanner
 
@@ -18,7 +12,7 @@ Find, verify, and analyze leaked credentials across Git repositories, Slack, Jir
 
 ## Overview
 
-The TruffleHog Credential Leak Scanner skill uses [TruffleHog](https://github.com/trufflesecurity/trufflehog) by Truffle Security to scan for leaked secrets across a wide range of sources. Unlike simple regex-based scanners, TruffleHog combines pattern matching with active verification—it logs in with discovered credentials to confirm whether they are still live, providing a clear signal of present danger versus historical exposure.
+The TruffleHog Credential Leak Scanner skill uses TruffleHog by Truffle Security to scan for leaked secrets across a wide range of sources. Unlike simple regex-based scanners, TruffleHog combines pattern matching with active verification—it logs in with discovered credentials to confirm whether they are still live, providing a clear signal of present danger versus historical exposure.
 
 TruffleHog classifies over 800 distinct secret types, including AWS access keys, Stripe API keys, database passwords, SSH private keys, OAuth tokens, and cloud provider credentials. For approximately 20 of the most commonly leaked credential types, TruffleHog goes beyond simple verification to perform full analysis: determining who created the secret, what resources it can access, and what permissions it holds. This transforms a raw finding into an actionable remediation ticket.
 

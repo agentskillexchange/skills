@@ -1,17 +1,10 @@
 ---
 name: "Pull Request Size Analyzer"
 description: "Analyzes PR size and reviewability using the GitHub GraphQL API and git diff-stat. Enforces size limits, suggests PR splitting strategies, and tracks team review velocity metrics via GitHub Checks API."
-category: "Code Quality & Review"
+category: "Code Quality &amp; Review"
 framework: "OpenClaw"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/pull-request-size-analyzer-agent/"
-tool_ecosystem:
-  tool: graphql
-  github_stars: 20332
-  npm_weekly_downloads: 32010306
-  github_repo: graphql/graphql-js
-  license: MIT
-  maintained: true
 ---
 # Pull Request Size Analyzer
 

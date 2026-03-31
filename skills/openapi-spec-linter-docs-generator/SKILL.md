@@ -1,17 +1,10 @@
 ---
 name: "OpenAPI Spec Linter & Docs Generator"
 description: "Validates OpenAPI 3.x specifications using Spectral rulesets and generates interactive API documentation with Redoc and Swagger UI. Detects breaking changes using oasdiff for versioned APIs."
-category: "Library & API Reference"
+category: "Library &amp; API Reference"
 framework: "Claude Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/openapi-spec-linter-docs-generator/"
-tool_ecosystem:
-  tool: swagger
-  github_stars: 28703
-  npm_weekly_downloads: 3219093
-  github_repo: swagger-api/swagger-ui
-  license: Apache-2.0
-  maintained: true
 ---
 # OpenAPI Spec Linter & Docs Generator
 

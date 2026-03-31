@@ -5,12 +5,6 @@ category: "Browser Automation"
 framework: "Codex"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/cdp-network-interception-logger/"
-tool_ecosystem:
-  tool: datadog
-  github_stars: 789
-  npm_weekly_downloads: 6043057
-  github_repo: DataDog/dd-trace-js
-  maintained: true
 ---
 # CDP Network Interception Logger
 

@@ -1,14 +1,14 @@
 ---
 name: "Grafana Unified Alerting Manager"
 description: "Manages Grafana Unified Alerting rules, contact points, and notification policies via the Grafana HTTP API. Supports alert rule provisioning and silence management across multiple Grafana instances."
-category: "Monitoring & Alerts"
+category: "Monitoring &amp; Alerts"
 framework: "Cursor"
 verification: security_reviewed
 source: "https://github.com/grafana/grafana"
 tool_ecosystem:
   tool: grafana
-  github_stars: 72796
   github_repo: grafana/grafana
+  github_stars: 72840
   license: AGPL-3.0
   maintained: true
 ---

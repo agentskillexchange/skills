@@ -1,15 +1,14 @@
 ---
 name: "Scrapy Distributed Crawler Framework"
 description: "Orchestrates large-scale web crawling using Scrapy with scrapy-redis for distributed job queuing. Integrates Splash for JavaScript rendering, stores results in MongoDB via scrapy-mongodb pipeline, and respects robots.txt with AutoThrottle."
-category: "Research & Scraping"
+category: "Research &amp; Scraping"
 framework: "MCP"
 verification: security_reviewed
 source: "https://github.com/scrapy/scrapy"
 tool_ecosystem:
   tool: scrapy
-  github_stars: 60923
-  npm_weekly_downloads: 8224050
   github_repo: scrapy/scrapy
+  github_stars: 60986
   license: BSD-3-Clause
   maintained: true
 ---

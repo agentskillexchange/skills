@@ -1,15 +1,14 @@
 ---
 name: "Datadog Integration Connector"
 description: "Connects applications to Datadog monitoring using the Datadog API v2 for metrics submission, log forwarding, APM trace ingestion, and dashboard JSON template management."
-category: "Integrations & Connectors"
+category: "Integrations &amp; Connectors"
 framework: "Gemini"
 verification: security_reviewed
 source: "https://github.com/DataDog/dd-trace-js"
 tool_ecosystem:
   tool: datadog
-  github_stars: 789
-  npm_weekly_downloads: 6043057
   github_repo: DataDog/dd-trace-js
+  github_stars: 790
   maintained: true
 ---
 # Datadog Integration Connector

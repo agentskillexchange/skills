@@ -1,15 +1,14 @@
 ---
 name: "Salesforce Bulk API Sync Agent"
 description: "Perform high-volume data synchronization with Salesforce using the Bulk API 2.0 for CSV-based upsert, delete, and query operations. Handles OAuth 2.0 JWT bearer flow authentication via jsforce."
-category: "Integrations & Connectors"
+category: "Integrations &amp; Connectors"
 framework: "Codex"
 verification: security_reviewed
 source: "https://github.com/jsforce/jsforce"
 tool_ecosystem:
   tool: salesforce
-  github_stars: 1452
-  npm_weekly_downloads: 804753
   github_repo: jsforce/jsforce
+  github_stars: 1453
   license: MIT
   maintained: true
 ---

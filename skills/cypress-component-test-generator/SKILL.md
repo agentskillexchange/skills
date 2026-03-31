@@ -7,9 +7,8 @@ verification: security_reviewed
 source: "https://github.com/cypress-io/cypress"
 tool_ecosystem:
   tool: cypress
-  github_stars: 49611
-  npm_weekly_downloads: 7404178
   github_repo: cypress-io/cypress
+  github_stars: 49610
   license: MIT
   maintained: true
 ---

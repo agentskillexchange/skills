@@ -1,15 +1,10 @@
 ---
 name: "AI Content Readability Optimizer"
 description: "Analyzes and optimizes content readability using Flesch-Kincaid scoring, Hemingway Editor API integration, and Grammarly Text API. Generates SEO-optimized rewrites targeting specific grade levels."
-category: "Content Writing & SEO"
+category: "Content Writing &amp; SEO"
 framework: "Codex"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/ai-content-readability-optimizer/"
-tool_ecosystem:
-  tool: wordpress
-  github_stars: 20976
-  github_repo: WordPress/WordPress
-  maintained: true
 ---
 # AI Content Readability Optimizer
 

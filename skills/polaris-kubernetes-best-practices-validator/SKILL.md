@@ -1,16 +1,10 @@
 ---
 name: "Polaris Kubernetes Best Practices Validator"
 description: "Validate Kubernetes resource configurations against best practice policies using Fairwinds Polaris. Runs as a CLI for CI/CD, a dashboard for cluster-wide audits, or a validating webhook for admission control."
-category: "Code Quality & Review"
+category: "Code Quality &amp; Review"
 framework: "Codex"
 verification: security_reviewed
 source: "https://github.com/FairwindsOps/polaris"
-tool_ecosystem:
-  tool: kubernetes
-  github_stars: 121334
-  github_repo: kubernetes/kubernetes
-  license: Apache-2.0
-  maintained: true
 ---
 # Polaris Kubernetes Best Practices Validator
 
@@ -18,7 +12,7 @@ Validate Kubernetes resource configurations against best practice policies using
 
 ## Overview
 
-The Polaris Kubernetes Best Practices Validator skill uses [Fairwinds Polaris](https://github.com/FairwindsOps/polaris), an open-source policy engine that validates and remediates Kubernetes resource configurations. Polaris ships with over 30 built-in policies covering security, reliability, and efficiency concerns, plus support for custom policies defined in JSON Schema.
+The Polaris Kubernetes Best Practices Validator skill uses Fairwinds Polaris, an open-source policy engine that validates and remediates Kubernetes resource configurations. Polaris ships with over 30 built-in policies covering security, reliability, and efficiency concerns, plus support for custom policies defined in JSON Schema.
 
 Polaris operates in three modes. As a command-line tool, it scans local YAML files and Helm charts during CI/CD, catching misconfigurations before they merge into the main branch. As a dashboard, it provides a cluster-wide audit with a scored overview of every workload, highlighting which deployments, statefulsets, and jobs violate which policies. As a validating (or mutating) webhook, it intercepts kubectl apply requests and rejects or automatically fixes resources that fail danger-level checks in real time.
 

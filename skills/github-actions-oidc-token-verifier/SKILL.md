@@ -5,13 +5,6 @@ category: "CI/CD Integrations"
 framework: "Claude Code"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/github-actions-oidc-token-verifier/"
-tool_ecosystem:
-  tool: aws
-  github_stars: 3594
-  npm_weekly_downloads: 9204385
-  github_repo: aws/aws-sdk-js-v3
-  license: Apache-2.0
-  maintained: true
 ---
 # GitHub Actions OIDC Token Verifier
 
@@ -19,7 +12,7 @@ Verifies GitHub Actions OIDC tokens against the GitHub OIDC provider JWKS endpoi
 
 ## Overview
 
-The GitHub Actions OIDC Token Verifier skill provides comprehensive validation of OpenID Connect tokens issued by GitHub Actions workflows. It fetches the JWKS from GitHub’s OIDC provider (https://token.actions.githubusercontent.com/.well-known/jwks) and performs full JWT verification including signature validation, expiration checks, and claim assertions.
+The GitHub Actions OIDC Token Verifier skill provides comprehensive validation of OpenID Connect tokens issued by GitHub Actions workflows. It fetches the JWKS from GitHub's OIDC provider (https://token.actions.githubusercontent.com/.well-known/jwks) and performs full JWT verification including signature validation, expiration checks, and claim assertions.
 
 The skill validates critical claims including sub (subject) patterns matching repository and environment constraints, aud (audience) restrictions for your cloud provider, and custom claims like job_workflow_ref for reusable workflow verification. It supports configuring claim policies that enforce organizational rules such as requiring specific repository owners, branch protections, or environment approvals.
 

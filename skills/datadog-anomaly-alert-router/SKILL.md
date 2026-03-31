@@ -1,15 +1,14 @@
 ---
 name: "Datadog Anomaly Alert Router"
 description: "Routes Datadog anomaly detection alerts to appropriate response channels using the Datadog Events API v2 and Monitors API. Applies severity-based escalation rules with PagerDuty and Slack webhook integration."
-category: "Monitoring & Alerts"
+category: "Monitoring &amp; Alerts"
 framework: "MCP"
 verification: security_reviewed
 source: "https://github.com/DataDog/dd-trace-js"
 tool_ecosystem:
   tool: datadog
-  github_stars: 789
-  npm_weekly_downloads: 6043057
   github_repo: DataDog/dd-trace-js
+  github_stars: 790
   maintained: true
 ---
 # Datadog Anomaly Alert Router

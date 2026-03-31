@@ -1,14 +1,14 @@
 ---
 name: "WordPress Multisite Network Sync"
 description: "Synchronizes plugin settings and theme mods across a WordPress Multisite network using the Network Admin REST endpoints and wp_get_sites() iteration. Propagates sitewide options, user role caps, and widget configurations from a primary site to subsites."
-category: "WordPress & CMS"
+category: "WordPress &amp; CMS"
 framework: "Codex"
 verification: security_reviewed
 source: "https://github.com/WordPress/WordPress"
 tool_ecosystem:
   tool: wordpress
-  github_stars: 20976
   github_repo: WordPress/WordPress
+  github_stars: 20985
   maintained: true
 ---
 # WordPress Multisite Network Sync

@@ -1,12 +1,10 @@
 ---
 name: "Stable Diffusion XL Pipeline Builder"
 description: "Constructs and executes SDXL image generation pipelines using diffusers library and ComfyUI API. Supports LoRA loading, ControlNet conditioning, and batch prompt scheduling."
-category: "Image & Creative Automation"
+category: "Image &amp; Creative Automation"
 framework: "Cursor"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/stable-diffusion-xl-pipeline-builder/"
-tool_ecosystem:
-  tool: stable.diffusion
 ---
 # Stable Diffusion XL Pipeline Builder
 

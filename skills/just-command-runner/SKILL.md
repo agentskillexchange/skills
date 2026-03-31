@@ -18,7 +18,7 @@ A justfile contains recipes that define named commands with optional parameters,
 
 Just stands out in the developer tools ecosystem for several reasons. It supports recipes in any language (bash, python, node, etc.) via shebang lines. It provides excellent error messages with source location information. It supports recipe parameters with default values, variadic arguments, and environment variable integration. The justfile format supports includes, imports, and modules for organizing complex command sets across projects.
 
-The tool has become a standard part of many development workflows, replacing ad-hoc shell scripts and Makefiles that are used purely as command runners. It integrates well with CI/CD systems and developer onboarding: new team members can run just –list to see all available project commands with descriptions. Just is cross-platform, running on Linux, macOS, and Windows.
+The tool has become a standard part of many development workflows, replacing ad-hoc shell scripts and Makefiles that are used purely as command runners. It integrates well with CI/CD systems and developer onboarding: new team members can run just -list to see all available project commands with descriptions. Just is cross-platform, running on Linux, macOS, and Windows.
 
 Installation is available via cargo install just, Homebrew, apt, pacman, conda, and prebuilt binaries. With over 24,000 GitHub stars, Just is one of the most popular developer productivity tools on GitHub. It is licensed under CC0 (public domain). The project has active maintenance with frequent releases, a comprehensive manual, and strong community support.
 

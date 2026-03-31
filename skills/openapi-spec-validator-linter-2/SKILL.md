@@ -1,7 +1,7 @@
 ---
 name: "OpenAPI Spec Validator & Linter"
 description: "Validates OpenAPI 3.0/3.1 specifications using the @readme/openapi-parser and Spectral linter with custom rulesets. Detects missing descriptions, inconsistent naming conventions, and security scheme gaps in your API definitions."
-category: "Library & API Reference"
+category: "Library &amp; API Reference"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/openapi-spec-validator-linter-2/"

@@ -1,17 +1,10 @@
 ---
 name: "Prettier Config Conflict Resolver"
 description: "Detects and resolves conflicts between Prettier, ESLint, and EditorConfig formatting rules using the Prettier resolveConfig API and eslint-config-prettier compatibility checker."
-category: "Code Quality & Review"
+category: "Code Quality &amp; Review"
 framework: "Gemini"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/prettier-config-conflict-resolver/"
-tool_ecosystem:
-  tool: eslint
-  github_stars: 27185
-  npm_weekly_downloads: 109028697
-  github_repo: eslint/eslint
-  license: MIT
-  maintained: true
 ---
 # Prettier Config Conflict Resolver
 

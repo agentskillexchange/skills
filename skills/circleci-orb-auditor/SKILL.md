@@ -7,8 +7,8 @@ verification: security_reviewed
 source: "https://github.com/circleci/circleci-docs"
 tool_ecosystem:
   tool: circleci
-  github_stars: 842
   github_repo: circleci/circleci-docs
+  github_stars: 841
   maintained: true
 ---
 # CircleCI Orb Auditor
@@ -17,7 +17,7 @@ Audits CircleCI orb versions and configurations using the CircleCI v2 API. Flags
 
 ## Overview
 
-The CircleCI Orb Auditor agent performs comprehensive audits of CircleCI orb usage across your organization’s projects. Using the CircleCI v2 API, it scans all .circleci/config.yml files to inventory orb dependencies and validate them against the CircleCI Orb Registry.
+The CircleCI Orb Auditor agent performs comprehensive audits of CircleCI orb usage across your organization's projects. Using the CircleCI v2 API, it scans all .circleci/config.yml files to inventory orb dependencies and validate them against the CircleCI Orb Registry.
 
 The auditor checks each orb reference for version pinning best practices, identifying orbs using volatile tags like @volatile or unpinned major versions that could introduce breaking changes. It queries the Orb Registry API to detect deprecated orbs and suggest official replacements, and cross-references orb versions against known security advisories published in the registry.
 

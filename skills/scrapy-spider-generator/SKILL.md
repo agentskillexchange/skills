@@ -1,15 +1,14 @@
 ---
 name: "Scrapy Spider Generator"
 description: "Generates production-ready Scrapy spiders with middleware configuration and item pipeline setup. Uses the Scrapy Framework API, Selector (XPath/CSS), and Twisted reactor for concurrent crawling."
-category: "Research & Scraping"
+category: "Research &amp; Scraping"
 framework: "ChatGPT Agents"
 verification: security_reviewed
 source: "https://github.com/scrapy/scrapy"
 tool_ecosystem:
   tool: scrapy
-  github_stars: 60923
-  npm_weekly_downloads: 10909882
   github_repo: scrapy/scrapy
+  github_stars: 60986
   license: BSD-3-Clause
   maintained: true
 ---

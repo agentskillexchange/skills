@@ -1,17 +1,10 @@
 ---
 name: "Content Readability Analyzer"
 description: "Scores content using Flesch-Kincaid, Gunning Fog, and SMOG readability indices via textstat Python library. Provides sentence-level rewrite suggestions using OpenAI GPT-4o API."
-category: "Content Writing & SEO"
+category: "Content Writing &amp; SEO"
 framework: "Gemini"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/content-readability-analyzer-agent/"
-tool_ecosystem:
-  tool: openai
-  github_stars: 10765
-  npm_weekly_downloads: 16275389
-  github_repo: openai/openai-node
-  license: Apache-2.0
-  maintained: true
 ---
 # Content Readability Analyzer
 

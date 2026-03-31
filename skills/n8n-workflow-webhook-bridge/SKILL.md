@@ -1,7 +1,7 @@
 ---
 name: "n8n Workflow Webhook Bridge"
 description: "Builds integration handoffs around n8n primitives like the Webhook node, HTTP Request node, and execution data inspection. Great for connecting event sources, transforming payloads, and making low-code workflows behave more like reliable integration middleware."
-category: "Integrations & Connectors"
+category: "Integrations &amp; Connectors"
 framework: "OpenClaw"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/n8n-workflow-webhook-bridge/"

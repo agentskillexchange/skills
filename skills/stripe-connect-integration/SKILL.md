@@ -1,15 +1,14 @@
 ---
 name: "Stripe Connect Integration"
 description: "Manages Stripe Connect accounts and payment flows using the Stripe Node.js SDK (stripe@14.x). Handles onboarding via Account Links API, creates PaymentIntents with application fees, and processes Connect webhooks."
-category: "Integrations & Connectors"
+category: "Integrations &amp; Connectors"
 framework: "ChatGPT Agents"
 verification: security_reviewed
 source: "https://github.com/stripe/stripe-node"
 tool_ecosystem:
   tool: stripe
-  github_stars: 4377
-  npm_weekly_downloads: 8442269
   github_repo: stripe/stripe-node
+  github_stars: 4377
   license: MIT
   maintained: true
 ---

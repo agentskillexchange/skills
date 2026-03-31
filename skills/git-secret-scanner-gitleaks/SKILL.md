@@ -1,17 +1,10 @@
 ---
 name: "Git Secret Scanner with Gitleaks"
 description: "Scans Git repositories for leaked secrets using Gitleaks, TruffleHog, and custom regex patterns. Detects API keys, AWS credentials, private keys, and database connection strings across commit history."
-category: "Security & Verification"
+category: "Security &amp; Verification"
 framework: "Claude Code"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/git-secret-scanner-gitleaks/"
-tool_ecosystem:
-  tool: stripe
-  github_stars: 4377
-  npm_weekly_downloads: 8442269
-  github_repo: stripe/stripe-node
-  license: MIT
-  maintained: true
 ---
 # Git Secret Scanner with Gitleaks
 

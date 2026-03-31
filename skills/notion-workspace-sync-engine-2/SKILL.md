@@ -1,15 +1,14 @@
 ---
 name: "Notion Workspace Sync Engine"
 description: "Bidirectionally syncs Notion databases with external tools via the Notion API and webhooks. Maps page properties to Jira issues, GitHub PRs, and Linear tickets in real time."
-category: "Calendar, Email & Productivity"
+category: "Calendar, Email &amp; Productivity"
 framework: "Gemini"
 verification: security_reviewed
 source: "https://github.com/makenotion/notion-sdk-js"
 tool_ecosystem:
   tool: notion
-  github_stars: 5562
-  npm_weekly_downloads: 1084242
   github_repo: makenotion/notion-sdk-js
+  github_stars: 5566
   license: MIT
   maintained: true
 ---

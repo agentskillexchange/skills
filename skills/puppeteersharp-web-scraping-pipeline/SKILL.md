@@ -1,15 +1,14 @@
 ---
 name: "PuppeteerSharp Web Scraping Pipeline"
 description: "Builds headless Chrome scraping pipelines using PuppeteerSharp for .NET environments. Handles JavaScript-rendered SPAs, Cloudflare challenge bypass via stealth plugins, and exports structured data through Newtonsoft.Json serialization."
-category: "Research & Scraping"
+category: "Research &amp; Scraping"
 framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/puppeteer/puppeteer"
 tool_ecosystem:
   tool: puppeteer
-  github_stars: 93932
-  npm_weekly_downloads: 8696130
   github_repo: puppeteer/puppeteer
+  github_stars: 93971
   license: Apache-2.0
   maintained: true
 ---

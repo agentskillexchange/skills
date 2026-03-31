@@ -1,14 +1,14 @@
 ---
 name: "Jenkins Pipeline Code Review Agent"
 description: "Reviews Jenkinsfile and Groovy pipeline scripts for anti-patterns, security issues, and performance bottlenecks using Jenkins Pipeline Linter API and static analysis rules."
-category: "Code Quality & Review"
+category: "Code Quality &amp; Review"
 framework: "Cursor"
 verification: security_reviewed
 source: "https://github.com/jenkinsci/jenkins"
 tool_ecosystem:
   tool: jenkins
-  github_stars: 25122
   github_repo: jenkinsci/jenkins
+  github_stars: 25143
   license: MIT
   maintained: true
 ---

@@ -7,8 +7,8 @@ verification: security_reviewed
 source: "https://github.com/circleci/circleci-docs"
 tool_ecosystem:
   tool: circleci
-  github_stars: 842
   github_repo: circleci/circleci-docs
+  github_stars: 841
   maintained: true
 ---
 # CircleCI Orb Composition Engine

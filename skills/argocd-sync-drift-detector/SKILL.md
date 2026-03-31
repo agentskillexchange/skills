@@ -7,8 +7,8 @@ verification: security_reviewed
 source: "https://github.com/argoproj/argo-cd"
 tool_ecosystem:
   tool: argocd
-  github_stars: 22398
   github_repo: argoproj/argo-cd
+  github_stars: 22423
   license: Apache-2.0
   maintained: true
 ---
@@ -24,7 +24,7 @@ When drift is detected, the skill uses kubectl diff against the target cluster t
 
 The skill integrates with the Kubernetes client-go library patterns to authenticate against multiple clusters using kubeconfig contexts or ArgoCD-managed cluster secrets. It can parse Helm values overrides, Kustomize patches, and plain YAML manifests to identify the root cause of drift.
 
-Remediation playbooks are generated automatically, offering options to either force-sync from Git, update Git to match the live state, or create a targeted argocd app sync command with the –prune flag for specific resources.
+Remediation playbooks are generated automatically, offering options to either force-sync from Git, update Git to match the live state, or create a targeted argocd app sync command with the -prune flag for specific resources.
 
 ## Installation
 

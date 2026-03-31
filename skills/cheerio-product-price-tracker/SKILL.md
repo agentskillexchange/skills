@@ -1,15 +1,14 @@
 ---
 name: "Cheerio Product Price Tracker"
 description: "Monitors e-commerce product prices using Cheerio.js for server-side DOM parsing with got-scraping for stealth HTTP requests. Tracks price history in SQLite and triggers alerts via nodemailer when prices drop below thresholds."
-category: "Research & Scraping"
+category: "Research &amp; Scraping"
 framework: "Claude Agents"
 verification: security_reviewed
 source: "https://github.com/cheeriojs/cheerio"
 tool_ecosystem:
   tool: cheerio
-  github_stars: 30231
-  npm_weekly_downloads: 18512628
   github_repo: cheeriojs/cheerio
+  github_stars: 30241
   license: MIT
   maintained: true
 ---

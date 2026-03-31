@@ -12,7 +12,7 @@ GitUI is a fast terminal-based user interface for Git written in Rust. It provid
 
 ## Overview
 
-GitUI is an open-source terminal user interface for Git, written in Rust and available at [github.com/gitui-org/gitui](https://github.com/gitui-org/gitui) with over 19,000 GitHub stars. It targets developers who prefer working in the terminal but want the comfort of a graphical interface for common Git operations like staging, diffing, committing, and branch management.
+GitUI is an open-source terminal user interface for Git, written in Rust and available at github.com/gitui-org/gitui with over 19,000 GitHub stars. It targets developers who prefer working in the terminal but want the comfort of a graphical interface for common Git operations like staging, diffing, committing, and branch management.
 
 The tool is built around speed and low resource consumption. Benchmarks against the Linux kernel repository (900,000+ commits) show GitUI parsing the full history in 24 seconds using 170 MB of memory, compared to lazygit at 57 seconds and 2.6 GB, or tig at 4 minutes 20 seconds and 1.3 GB. This performance comes from its async Git API implementation that keeps the interface responsive even on massive repositories where other tools freeze or crash.
 

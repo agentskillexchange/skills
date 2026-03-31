@@ -1,7 +1,7 @@
 ---
 name: "Cookiecutter Template Generator"
 description: "Generates project scaffolding using the Cookiecutter CLI with Jinja2 templating. Supports custom template registries, post-generation hooks via Python scripts, and integration with the GitHub template repository API."
-category: "Templates & Workflows"
+category: "Templates &amp; Workflows"
 framework: "Codex"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/cookiecutter-template-generator/"

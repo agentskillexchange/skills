@@ -1,15 +1,14 @@
 ---
 name: "AWS Systems Manager Automation Incident Guide"
 description: "Coordinates remediation playbooks with AWS Systems Manager Automation, Incident Manager, and CloudWatch alarm context for repeatable operational recovery. Useful for agents that need to recommend or launch the right runbook when alarms cross into known failure territory."
-category: "Runbooks & Diagnostics"
+category: "Runbooks &amp; Diagnostics"
 framework: "ChatGPT Agents"
 verification: security_reviewed
 source: "https://github.com/aws/aws-sdk-js-v3"
 tool_ecosystem:
   tool: aws
-  github_stars: 3594
-  npm_weekly_downloads: 9204385
   github_repo: aws/aws-sdk-js-v3
+  github_stars: 3596
   license: Apache-2.0
   maintained: true
 ---
