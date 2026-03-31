@@ -4,10 +4,10 @@ description: "Extracts and validates Parquet file schemas from Amazon S3 using t
 category: "Data Extraction &amp; Transformation"
 framework: "Gemini"
 verification: security_reviewed
-source: "https://github.com/ironSource/parquetjs"
+source: "https://github.com/ironsource/parquetjs"
 tool_ecosystem:
   tool: parquet
-  github_repo: ironSource/parquetjs
+  github_repo: ironsource/parquetjs
   github_stars: 387
   license: MIT
   maintained: false

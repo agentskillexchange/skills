@@ -5,6 +5,12 @@ category: "Image &amp; Creative Automation"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/excalidraw/excalidraw"
+tool_ecosystem:
+  tool: excalidraw
+  github_repo: excalidraw/excalidraw
+  github_stars: 119886
+  license: MIT
+  maintained: true
 ---
 # Excalidraw Virtual Whiteboard and Diagram SDK
 

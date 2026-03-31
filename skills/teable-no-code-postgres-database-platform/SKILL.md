@@ -5,6 +5,11 @@ category: "Data Extraction &amp; Transformation"
 framework: "Multi-Framework"
 verification: listed
 source: "https://github.com/teableio/teable"
+tool_ecosystem:
+  tool: teable
+  github_repo: teableio/teable
+  github_stars: 21067
+  maintained: true
 ---
 # Teable No-Code Postgres Database Platform and Airtable Alternative
 

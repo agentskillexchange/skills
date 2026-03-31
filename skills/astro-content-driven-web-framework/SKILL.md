@@ -5,6 +5,11 @@ category: "Developer Tools"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/withastro/astro"
+tool_ecosystem:
+  tool: astro
+  github_repo: withastro/astro
+  github_stars: 57979
+  maintained: true
 ---
 # Astro Content-Driven Web Framework
 

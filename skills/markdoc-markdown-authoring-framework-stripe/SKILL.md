@@ -5,6 +5,12 @@ category: "Content Writing &amp; SEO"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/markdoc/markdoc"
+tool_ecosystem:
+  tool: markdoc
+  github_repo: markdoc/markdoc
+  github_stars: 7949
+  license: MIT
+  maintained: true
 ---
 # Markdoc Markdown-Based Authoring Framework by Stripe
 

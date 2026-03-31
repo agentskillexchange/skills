@@ -5,6 +5,12 @@ category: "Browser Automation"
 framework: "Multi-Framework"
 verification: listed
 source: "https://github.com/DevExpress/testcafe"
+tool_ecosystem:
+  tool: testcafe
+  github_repo: devexpress/testcafe
+  github_stars: 9915
+  license: MIT
+  maintained: true
 ---
 # TestCafe Zero-Config End-to-End Browser Testing Framework
 

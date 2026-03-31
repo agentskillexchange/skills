@@ -5,6 +5,12 @@ category: "Content Writing &amp; SEO"
 framework: "Custom Agents"
 verification: listed
 source: "https://github.com/writefreely/writefreely"
+tool_ecosystem:
+  tool: writefreely
+  github_repo: writefreely/writefreely
+  github_stars: 5117
+  license: AGPL-3.0
+  maintained: true
 ---
 # WriteFreely Federated Markdown Publishing Platform with ActivityPub
 

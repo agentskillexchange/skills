@@ -5,6 +5,12 @@ category: "Developer Tools"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/ghostty-org/ghostty"
+tool_ecosystem:
+  tool: ghostty
+  github_repo: ghostty-org/ghostty
+  github_stars: 49204
+  license: MIT
+  maintained: true
 ---
 # Ghostty Fast Native Terminal Emulator with GPU Acceleration
 

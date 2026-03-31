@@ -5,6 +5,12 @@ category: "CI/CD Integrations"
 framework: "Multi-Framework"
 verification: listed
 source: "https://github.com/woodpecker-ci/woodpecker"
+tool_ecosystem:
+  tool: woodpecker
+  github_repo: woodpecker-ci/woodpecker
+  github_stars: 6743
+  license: Apache-2.0
+  maintained: true
 ---
 # Woodpecker CI Self-Hosted Continuous Integration Engine
 

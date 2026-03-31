@@ -5,6 +5,12 @@ category: "Research &amp; Scraping"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/sissbruecker/linkding"
+tool_ecosystem:
+  tool: linkding
+  github_repo: sissbruecker/linkding
+  github_stars: 10379
+  license: MIT
+  maintained: true
 ---
 # linkding Self-Hosted Bookmark Manager with REST API
 

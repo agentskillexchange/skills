@@ -4,10 +4,10 @@ description: "Reads Apache Parquet files using PyArrow and bulk-loads them into 
 category: "Data Extraction &amp; Transformation"
 framework: "Claude Agents"
 verification: listed
-source: "https://github.com/ironSource/parquetjs"
+source: "https://github.com/ironsource/parquetjs"
 tool_ecosystem:
   tool: parquet
-  github_repo: ironSource/parquetjs
+  github_repo: ironsource/parquetjs
   github_stars: 387
   license: MIT
   maintained: false

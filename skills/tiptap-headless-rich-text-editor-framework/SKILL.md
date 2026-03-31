@@ -5,6 +5,12 @@ category: "Content Writing &amp; SEO"
 framework: "Multi-Framework"
 verification: listed
 source: "https://github.com/ueberdosis/tiptap"
+tool_ecosystem:
+  tool: tiptap
+  github_repo: ueberdosis/tiptap
+  github_stars: 35948
+  license: MIT
+  maintained: true
 ---
 # Tiptap Headless Rich Text Editor Framework for Web Applications
 

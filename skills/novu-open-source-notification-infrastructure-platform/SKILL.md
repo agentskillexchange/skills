@@ -5,6 +5,11 @@ category: "Integrations &amp; Connectors"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/novuhq/novu"
+tool_ecosystem:
+  tool: novu
+  github_repo: novuhq/novu
+  github_stars: 38747
+  maintained: true
 ---
 # Novu Open-Source Notification Infrastructure Platform
 

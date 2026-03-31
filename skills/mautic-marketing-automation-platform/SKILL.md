@@ -5,6 +5,11 @@ category: "Calendar, Email &amp; Productivity"
 framework: "Multi-Framework"
 verification: listed
 source: "https://github.com/mautic/mautic"
+tool_ecosystem:
+  tool: mautic
+  github_repo: mautic/mautic
+  github_stars: 9377
+  maintained: true
 ---
 # Mautic Open Source Marketing Automation Platform
 

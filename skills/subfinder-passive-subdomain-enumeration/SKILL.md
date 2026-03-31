@@ -5,6 +5,12 @@ category: "Uncategorized"
 framework: "Multi-Framework"
 verification: listed
 source: "https://github.com/projectdiscovery/subfinder"
+tool_ecosystem:
+  tool: subfinder
+  github_repo: projectdiscovery/subfinder
+  github_stars: 13332
+  license: MIT
+  maintained: true
 ---
 # Subfinder Fast Passive Subdomain Enumeration Tool
 

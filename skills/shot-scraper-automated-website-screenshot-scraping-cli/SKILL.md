@@ -5,6 +5,12 @@ category: "Research &amp; Scraping"
 framework: "Custom Agents"
 verification: listed
 source: "https://github.com/simonw/shot-scraper"
+tool_ecosystem:
+  tool: shot-scraper
+  github_repo: simonw/shot-scraper
+  github_stars: 2307
+  license: Apache-2.0
+  maintained: true
 ---
 # shot-scraper Automated Website Screenshot and Scraping CLI
 

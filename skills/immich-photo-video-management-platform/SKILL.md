@@ -5,6 +5,12 @@ category: "Media &amp; Transcription"
 framework: "Multi-Framework"
 verification: listed
 source: "https://github.com/immich-app/immich"
+tool_ecosystem:
+  tool: immich
+  github_repo: immich-app/immich
+  github_stars: 96017
+  license: AGPL-3.0
+  maintained: true
 ---
 # Immich Self-Hosted Photo and Video Management Platform
 

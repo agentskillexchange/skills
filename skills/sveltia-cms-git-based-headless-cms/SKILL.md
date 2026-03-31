@@ -5,6 +5,12 @@ category: "WordPress &amp; CMS"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/sveltia/sveltia-cms"
+tool_ecosystem:
+  tool: sveltia-cms
+  github_repo: sveltia/sveltia-cms
+  github_stars: 2245
+  license: MIT
+  maintained: true
 ---
 # Sveltia CMS Git-Based Headless Content Management System
 

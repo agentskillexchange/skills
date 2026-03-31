@@ -5,6 +5,11 @@ category: "Uncategorized"
 framework: "Multi-Framework"
 verification: listed
 source: "https://github.com/wader/fq"
+tool_ecosystem:
+  tool: fq
+  github_repo: wader/fq
+  github_stars: 10468
+  maintained: true
 ---
 # fq Binary Format Inspector and jq for Media Files
 

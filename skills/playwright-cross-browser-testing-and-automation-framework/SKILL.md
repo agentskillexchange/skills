@@ -6,8 +6,9 @@ framework: "Multi-Framework"
 verification: listed
 source: "https://github.com/microsoft/playwright"
 tool_ecosystem:
+  tool: playwright
   github_repo: microsoft/playwright
-  github_stars: 85308
+  github_stars: 85242
   license: Apache-2.0
   maintained: true
 ---

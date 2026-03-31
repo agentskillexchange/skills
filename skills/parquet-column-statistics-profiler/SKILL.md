@@ -4,10 +4,10 @@ description: "Profiles Apache Parquet files using pyarrow metadata APIs to extra
 category: "Data Extraction &amp; Transformation"
 framework: "ChatGPT Agents"
 verification: security_reviewed
-source: "https://github.com/ironSource/parquetjs"
+source: "https://github.com/ironsource/parquetjs"
 tool_ecosystem:
   tool: parquet
-  github_repo: ironSource/parquetjs
+  github_repo: ironsource/parquetjs
   github_stars: 387
   license: MIT
   maintained: false

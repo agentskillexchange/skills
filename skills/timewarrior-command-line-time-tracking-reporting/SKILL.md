@@ -5,6 +5,12 @@ category: "Calendar, Email &amp; Productivity"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/GothenburgBitFactory/timewarrior"
+tool_ecosystem:
+  tool: timewarrior
+  github_repo: gothenburgbitfactory/timewarrior
+  github_stars: 1580
+  license: MIT
+  maintained: true
 ---
 # Timewarrior Command-Line Time Tracking and Reporting
 

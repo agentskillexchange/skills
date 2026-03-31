@@ -5,6 +5,12 @@ category: "Calendar, Email &amp; Productivity"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/xwmx/nb"
+tool_ecosystem:
+  tool: nb
+  github_repo: xwmx/nb
+  github_stars: 8088
+  license: AGPL-3.0
+  maintained: true
 ---
 # nb CLI Note-Taking Bookmarking and Knowledge Base Application
 

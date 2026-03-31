@@ -5,6 +5,12 @@ category: "Security &amp; Verification"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/getsops/sops"
+tool_ecosystem:
+  tool: sops
+  github_repo: getsops/sops
+  github_stars: 21312
+  license: MPL-2.0
+  maintained: true
 ---
 # SOPS Encrypted Secrets Editor and Manager
 

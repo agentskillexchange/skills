@@ -5,6 +5,12 @@ category: "Developer Tools"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/opentofu/opentofu"
+tool_ecosystem:
+  tool: opentofu
+  github_repo: opentofu/opentofu
+  github_stars: 28244
+  license: MPL-2.0
+  maintained: true
 ---
 # OpenTofu Open Source Infrastructure as Code Tool
 

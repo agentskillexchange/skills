@@ -5,6 +5,12 @@ category: "Data Extraction &amp; Transformation"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/newsboat/newsboat"
+tool_ecosystem:
+  tool: newsboat
+  github_repo: newsboat/newsboat
+  github_stars: 3750
+  license: MIT
+  maintained: true
 ---
 # Newsboat Terminal RSS and Atom Feed Reader
 

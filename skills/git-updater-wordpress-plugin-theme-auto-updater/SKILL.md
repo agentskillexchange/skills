@@ -5,6 +5,12 @@ category: "WordPress &amp; CMS"
 framework: "Multi-Framework"
 verification: listed
 source: "https://github.com/afragen/git-updater"
+tool_ecosystem:
+  tool: git-updater
+  github_repo: afragen/git-updater
+  github_stars: 3316
+  license: GPL-3.0
+  maintained: true
 ---
 # Git Updater WordPress Plugin and Theme Auto-Updater from Git Repositories
 

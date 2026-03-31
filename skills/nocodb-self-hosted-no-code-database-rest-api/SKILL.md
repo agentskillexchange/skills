@@ -5,6 +5,11 @@ category: "Integrations &amp; Connectors"
 framework: "Multi-Framework"
 verification: listed
 source: "https://github.com/nocodb/nocodb"
+tool_ecosystem:
+  tool: nocodb
+  github_repo: nocodb/nocodb
+  github_stars: 62560
+  maintained: true
 ---
 # NocoDB Self-Hosted No-Code Database Platform with REST API
 

@@ -5,6 +5,12 @@ category: "Calendar, Email &amp; Productivity"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/insanum/gcalcli"
+tool_ecosystem:
+  tool: gcalcli
+  github_repo: insanum/gcalcli
+  github_stars: 3678
+  license: MIT
+  maintained: true
 ---
 # gcalcli Google Calendar Command Line Interface
 

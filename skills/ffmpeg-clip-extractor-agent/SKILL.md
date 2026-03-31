@@ -4,10 +4,10 @@ description: "Extracts video clips and segments using FFmpeg libavformat and lib
 category: "Media &amp; Transcription"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://github.com/FFmpeg/FFmpeg"
+source: "https://github.com/ffmpeg/ffmpeg"
 tool_ecosystem:
   tool: ffmpeg
-  github_repo: FFmpeg/FFmpeg
+  github_repo: ffmpeg/ffmpeg
   github_stars: 58427
   maintained: true
 ---

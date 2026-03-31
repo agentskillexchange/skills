@@ -5,6 +5,11 @@ category: "Calendar, Email &amp; Productivity"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/pimutils/vdirsyncer"
+tool_ecosystem:
+  tool: vdirsyncer
+  github_repo: pimutils/vdirsyncer
+  github_stars: 1804
+  maintained: true
 ---
 # vdirsyncer CalDAV and CardDAV Calendar and Contact Synchronizer
 

@@ -5,6 +5,12 @@ category: "Developer Tools"
 framework: "Multi-Framework"
 verification: listed
 source: "https://github.com/simonw/llm"
+tool_ecosystem:
+  tool: llm
+  github_repo: simonw/llm
+  github_stars: 11477
+  license: Apache-2.0
+  maintained: true
 ---
 # LLM Command-Line Interface for Large Language Models
 

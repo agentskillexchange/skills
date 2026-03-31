@@ -5,6 +5,12 @@ category: "Image &amp; Creative Automation"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/oxipng/oxipng"
+tool_ecosystem:
+  tool: oxipng
+  github_repo: oxipng/oxipng
+  github_stars: 3870
+  license: MIT
+  maintained: true
 ---
 # Oxipng Multithreaded Lossless PNG Compression Optimizer
 

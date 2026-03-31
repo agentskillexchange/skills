@@ -5,6 +5,12 @@ category: "Developer Tools"
 framework: "Multi-Framework"
 verification: listed
 source: "https://github.com/ggml-org/llama.cpp"
+tool_ecosystem:
+  tool: llama.cpp
+  github_repo: ggml-org/llama.cpp
+  github_stars: 100254
+  license: MIT
+  maintained: true
 ---
 # llama.cpp Portable LLM Inference Engine in C/C++
 

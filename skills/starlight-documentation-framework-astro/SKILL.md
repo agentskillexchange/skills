@@ -5,6 +5,12 @@ category: "Developer Tools"
 framework: "Multi-Framework"
 verification: listed
 source: "https://github.com/withastro/starlight"
+tool_ecosystem:
+  tool: starlight
+  github_repo: withastro/starlight
+  github_stars: 8189
+  license: MIT
+  maintained: true
 ---
 # Starlight Documentation Framework for Astro
 

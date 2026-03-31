@@ -4,12 +4,7 @@ description: "Sentry's official MCP server connects your error monitoring stack 
 category: "Monitoring &amp; Alerts"
 framework: "MCP"
 verification: security_reviewed
-source: "https://github.com/getsentry/sentry"
-tool_ecosystem:
-  tool: sentry
-  github_repo: getsentry/sentry
-  github_stars: 43466
-  maintained: true
+source: "https://agentskillexchange.com/skills/sentry-mcp-server/"
 ---
 # Sentry MCP Server
 

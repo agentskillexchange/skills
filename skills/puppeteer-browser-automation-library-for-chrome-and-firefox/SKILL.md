@@ -6,8 +6,9 @@ framework: "Multi-Framework"
 verification: listed
 source: "https://github.com/puppeteer/puppeteer"
 tool_ecosystem:
+  tool: puppeteer
   github_repo: puppeteer/puppeteer
-  github_stars: 93976
+  github_stars: 93971
   license: Apache-2.0
   maintained: true
 ---

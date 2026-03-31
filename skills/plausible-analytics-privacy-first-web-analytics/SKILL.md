@@ -5,6 +5,12 @@ category: "Monitoring &amp; Alerts"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/plausible/analytics"
+tool_ecosystem:
+  tool: analytics
+  github_repo: plausible/analytics
+  github_stars: 24495
+  license: AGPL-3.0
+  maintained: true
 ---
 # Plausible Analytics Privacy-First Web Analytics Platform
 

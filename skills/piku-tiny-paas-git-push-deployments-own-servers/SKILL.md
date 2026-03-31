@@ -5,6 +5,12 @@ category: "Developer Tools"
 framework: "Custom Agents"
 verification: listed
 source: "https://github.com/piku/piku"
+tool_ecosystem:
+  tool: piku
+  github_repo: piku/piku
+  github_stars: 6568
+  license: MIT
+  maintained: true
 ---
 # piku Tiny PaaS for Git Push Deployments to Your Own Servers
 

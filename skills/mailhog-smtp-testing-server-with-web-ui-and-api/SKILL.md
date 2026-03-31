@@ -6,7 +6,8 @@ framework: "Multi-Framework"
 verification: listed
 source: "https://github.com/mailhog/MailHog"
 tool_ecosystem:
-  github_repo: mailhog/MailHog
+  tool: mailhog
+  github_repo: mailhog/mailhog
   github_stars: 15883
   license: MIT
   maintained: false

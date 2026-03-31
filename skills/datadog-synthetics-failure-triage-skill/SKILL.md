@@ -4,10 +4,10 @@ description: "Investigates broken checks with the Datadog Synthetics API, Monito
 category: "Runbooks &amp; Diagnostics"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://github.com/DataDog/dd-trace-js"
+source: "https://github.com/datadog/dd-trace-js"
 tool_ecosystem:
   tool: datadog
-  github_repo: DataDog/dd-trace-js
+  github_repo: datadog/dd-trace-js
   github_stars: 790
   maintained: true
 ---

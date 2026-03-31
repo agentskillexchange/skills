@@ -12,12 +12,7 @@ Handle content op"
 category: "WordPress &amp; CMS"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://github.com/WordPress/WordPress"
-tool_ecosystem:
-  tool: wordpress
-  github_repo: WordPress/WordPress
-  github_stars: 20985
-  maintained: true
+source: "https://agentskillexchange.com/skills/wordpress-router/"
 ---
 # WordPress Router
 

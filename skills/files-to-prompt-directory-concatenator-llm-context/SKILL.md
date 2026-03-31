@@ -5,6 +5,12 @@ category: "Developer Tools"
 framework: "Multi-Framework"
 verification: listed
 source: "https://github.com/simonw/files-to-prompt"
+tool_ecosystem:
+  tool: files-to-prompt
+  github_repo: simonw/files-to-prompt
+  github_stars: 2639
+  license: Apache-2.0
+  maintained: false
 ---
 # files-to-prompt Directory Concatenator for LLM Context
 

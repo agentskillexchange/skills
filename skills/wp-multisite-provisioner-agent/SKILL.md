@@ -4,10 +4,10 @@ description: "Automates WordPress Multisite network site creation using wp_inser
 category: "WordPress &amp; CMS"
 framework: "ChatGPT Agents"
 verification: security_reviewed
-source: "https://github.com/WordPress/WordPress"
+source: "https://github.com/wordpress/wordpress"
 tool_ecosystem:
   tool: wordpress
-  github_repo: WordPress/WordPress
+  github_repo: wordpress/wordpress
   github_stars: 20985
   maintained: true
 ---

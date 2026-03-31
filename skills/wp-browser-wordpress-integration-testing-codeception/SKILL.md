@@ -5,6 +5,12 @@ category: "WordPress &amp; CMS"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/lucatume/wp-browser"
+tool_ecosystem:
+  tool: wp-browser
+  github_repo: lucatume/wp-browser
+  github_stars: 634
+  license: MIT
+  maintained: true
 ---
 # wp-browser WordPress Integration Testing with Codeception
 

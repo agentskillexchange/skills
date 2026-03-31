@@ -5,6 +5,12 @@ category: "Developer Tools"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/sharkdp/pastel"
+tool_ecosystem:
+  tool: pastel
+  github_repo: sharkdp/pastel
+  github_stars: 6301
+  license: Apache-2.0
+  maintained: true
 ---
 # pastel Command-Line Color Generation Analysis and Manipulation Tool
 

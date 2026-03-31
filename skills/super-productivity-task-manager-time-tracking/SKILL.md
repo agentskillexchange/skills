@@ -5,6 +5,12 @@ category: "Calendar, Email &amp; Productivity"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/super-productivity/super-productivity"
+tool_ecosystem:
+  tool: super-productivity
+  github_repo: super-productivity/super-productivity
+  github_stars: 18281
+  license: MIT
+  maintained: true
 ---
 # Super Productivity Open Source Task Manager with Time Tracking
 

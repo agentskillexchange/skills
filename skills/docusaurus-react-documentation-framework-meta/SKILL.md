@@ -5,6 +5,12 @@ category: "Developer Tools"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/facebook/docusaurus"
+tool_ecosystem:
+  tool: docusaurus
+  github_repo: facebook/docusaurus
+  github_stars: 64315
+  license: MIT
+  maintained: true
 ---
 # Docusaurus React Documentation Framework by Meta
 

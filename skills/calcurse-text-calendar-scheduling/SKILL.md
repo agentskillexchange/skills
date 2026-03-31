@@ -5,6 +5,12 @@ category: "Calendar, Email &amp; Productivity"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/lfos/calcurse"
+tool_ecosystem:
+  tool: calcurse
+  github_repo: lfos/calcurse
+  github_stars: 1235
+  license: BSD-2-Clause
+  maintained: true
 ---
 # calcurse Text-Based Calendar and Scheduling Application
 

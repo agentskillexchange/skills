@@ -5,6 +5,12 @@ category: "Media &amp; Transcription"
 framework: "Multi-Framework"
 verification: listed
 source: "https://github.com/speechbrain/speechbrain"
+tool_ecosystem:
+  tool: speechbrain
+  github_repo: speechbrain/speechbrain
+  github_stars: 11388
+  license: Apache-2.0
+  maintained: true
 ---
 # SpeechBrain PyTorch Conversational AI and Speech Processing Toolkit
 

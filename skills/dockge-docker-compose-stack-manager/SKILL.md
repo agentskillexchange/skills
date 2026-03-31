@@ -5,6 +5,12 @@ category: "Developer Tools"
 framework: "Multi-Framework"
 verification: listed
 source: "https://github.com/louislam/dockge"
+tool_ecosystem:
+  tool: dockge
+  github_repo: louislam/dockge
+  github_stars: 22659
+  license: MIT
+  maintained: true
 ---
 # Dockge Self-Hosted Docker Compose Stack Manager
 

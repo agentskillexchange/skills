@@ -5,6 +5,12 @@ category: "Developer Tools"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/mkdocs/mkdocs"
+tool_ecosystem:
+  tool: mkdocs
+  github_repo: mkdocs/mkdocs
+  github_stars: 21931
+  license: BSD-2-Clause
+  maintained: true
 ---
 # MkDocs Project Documentation Generator
 

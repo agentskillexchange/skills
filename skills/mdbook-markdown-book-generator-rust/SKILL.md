@@ -5,6 +5,12 @@ category: "Developer Tools"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/rust-lang/mdBook"
+tool_ecosystem:
+  tool: mdbook
+  github_repo: rust-lang/mdbook
+  github_stars: 21419
+  license: MPL-2.0
+  maintained: true
 ---
 # mdBook Markdown Book Generator by Rust Project
 

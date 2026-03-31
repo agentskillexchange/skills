@@ -5,6 +5,12 @@ category: "Research &amp; Scraping"
 framework: "Multi-Framework"
 verification: listed
 source: "https://github.com/karakeep-app/karakeep"
+tool_ecosystem:
+  tool: karakeep
+  github_repo: karakeep-app/karakeep
+  github_stars: 24391
+  license: AGPL-3.0
+  maintained: true
 ---
 # Karakeep Self-Hosted Bookmark Manager with AI Tagging
 

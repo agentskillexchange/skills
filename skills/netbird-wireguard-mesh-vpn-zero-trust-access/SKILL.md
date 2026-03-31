@@ -5,6 +5,11 @@ category: "Security &amp; Verification"
 framework: "Multi-Framework"
 verification: listed
 source: "https://github.com/netbirdio/netbird"
+tool_ecosystem:
+  tool: netbird
+  github_repo: netbirdio/netbird
+  github_stars: 23956
+  maintained: true
 ---
 # NetBird WireGuard Mesh VPN with Zero Trust Access Controls
 

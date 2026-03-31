@@ -5,6 +5,12 @@ category: "Data Extraction &amp; Transformation"
 framework: "Multi-Framework"
 verification: listed
 source: "https://github.com/microsoft/markitdown"
+tool_ecosystem:
+  tool: markitdown
+  github_repo: microsoft/markitdown
+  github_stars: 92923
+  license: MIT
+  maintained: true
 ---
 # MarkItDown Document-to-Markdown Converter by Microsoft
 

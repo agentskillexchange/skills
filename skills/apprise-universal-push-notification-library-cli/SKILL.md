@@ -5,6 +5,12 @@ category: "Monitoring &amp; Alerts"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/caronc/apprise"
+tool_ecosystem:
+  tool: apprise
+  github_repo: caronc/apprise
+  github_stars: 16227
+  license: BSD-2-Clause
+  maintained: true
 ---
 # Apprise Universal Push Notification Library and CLI
 

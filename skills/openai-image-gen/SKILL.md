@@ -4,13 +4,7 @@ description: "Batch-generate images through the OpenAI Images API with a prompt 
 category: "Image &amp; Creative Automation"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://github.com/openai/openai-node"
-tool_ecosystem:
-  tool: openai
-  github_repo: openai/openai-node
-  github_stars: 10772
-  license: Apache-2.0
-  maintained: true
+source: "https://agentskillexchange.com/skills/openai-image-gen/"
 ---
 # OpenAI Image Gen
 

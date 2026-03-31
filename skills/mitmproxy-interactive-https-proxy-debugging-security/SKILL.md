@@ -5,6 +5,12 @@ category: "Security &amp; Verification"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/mitmproxy/mitmproxy"
+tool_ecosystem:
+  tool: mitmproxy
+  github_repo: mitmproxy/mitmproxy
+  github_stars: 42881
+  license: MIT
+  maintained: true
 ---
 # mitmproxy Interactive HTTPS Proxy for Debugging and Security Testing
 

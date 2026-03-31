@@ -5,6 +5,12 @@ category: "Developer Tools"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/pocketbase/pocketbase"
+tool_ecosystem:
+  tool: pocketbase
+  github_repo: pocketbase/pocketbase
+  github_stars: 57251
+  license: MIT
+  maintained: true
 ---
 # PocketBase Open Source Realtime Backend in a Single Binary
 

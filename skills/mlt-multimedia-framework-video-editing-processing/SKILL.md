@@ -5,6 +5,12 @@ category: "Media &amp; Transcription"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/mltframework/mlt"
+tool_ecosystem:
+  tool: mlt
+  github_repo: mltframework/mlt
+  github_stars: 1745
+  license: LGPL-2.1
+  maintained: true
 ---
 # MLT Multimedia Framework for Video Editing and Processing
 

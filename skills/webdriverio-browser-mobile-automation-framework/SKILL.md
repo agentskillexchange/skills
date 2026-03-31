@@ -5,6 +5,12 @@ category: "Browser Automation"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/webdriverio/webdriverio"
+tool_ecosystem:
+  tool: webdriverio
+  github_repo: webdriverio/webdriverio
+  github_stars: 9762
+  license: MIT
+  maintained: true
 ---
 # WebdriverIO Next-Gen Browser and Mobile Automation Framework
 

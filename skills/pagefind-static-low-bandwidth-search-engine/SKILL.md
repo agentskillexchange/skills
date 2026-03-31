@@ -5,6 +5,12 @@ category: "Research &amp; Scraping"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/Pagefind/pagefind"
+tool_ecosystem:
+  tool: pagefind
+  github_repo: pagefind/pagefind
+  github_stars: 5094
+  license: MIT
+  maintained: true
 ---
 # Pagefind Static Low-Bandwidth Search Engine
 

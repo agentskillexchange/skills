@@ -5,6 +5,12 @@ category: "Data Extraction &amp; Transformation"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/sibprogrammer/xq"
+tool_ecosystem:
+  tool: xq
+  github_repo: sibprogrammer/xq
+  github_stars: 1100
+  license: MIT
+  maintained: true
 ---
 # xq Command-Line XML and HTML Beautifier and Content Extractor
 

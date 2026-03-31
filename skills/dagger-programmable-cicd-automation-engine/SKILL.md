@@ -5,6 +5,12 @@ category: "CI/CD Integrations"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/dagger/dagger"
+tool_ecosystem:
+  tool: dagger
+  github_repo: dagger/dagger
+  github_stars: 15582
+  license: Apache-2.0
+  maintained: true
 ---
 # Dagger Programmable CI/CD Automation Engine
 

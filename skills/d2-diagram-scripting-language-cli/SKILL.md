@@ -5,6 +5,12 @@ category: "Developer Tools"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/terrastruct/d2"
+tool_ecosystem:
+  tool: d2
+  github_repo: terrastruct/d2
+  github_stars: 23316
+  license: MPL-2.0
+  maintained: true
 ---
 # D2 Modern Diagram Scripting Language and CLI
 

@@ -5,6 +5,12 @@ category: "Image &amp; Creative Automation"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/mermaid-js/mermaid-cli"
+tool_ecosystem:
+  tool: mermaid-cli
+  github_repo: mermaid-js/mermaid-cli
+  github_stars: 4341
+  license: MIT
+  maintained: true
 ---
 # Mermaid CLI Diagram-as-Code Renderer
 

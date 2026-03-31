@@ -4,10 +4,10 @@ description: "Automates ImageMagick convert and mogrify operations for bulk imag
 category: "Image &amp; Creative Automation"
 framework: "Cursor"
 verification: security_reviewed
-source: "https://github.com/ImageMagick/ImageMagick"
+source: "https://github.com/imagemagick/imagemagick"
 tool_ecosystem:
   tool: imagemagick
-  github_repo: ImageMagick/ImageMagick
+  github_repo: imagemagick/imagemagick
   github_stars: 16023
   maintained: true
 ---

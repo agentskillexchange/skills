@@ -5,6 +5,11 @@ category: "WordPress &amp; CMS"
 framework: "Multi-Framework"
 verification: listed
 source: "https://github.com/wpmetabox/meta-box"
+tool_ecosystem:
+  tool: meta-box
+  github_repo: wpmetabox/meta-box
+  github_stars: 1237
+  maintained: true
 ---
 # Meta Box WordPress Custom Fields and Meta Boxes Framework
 

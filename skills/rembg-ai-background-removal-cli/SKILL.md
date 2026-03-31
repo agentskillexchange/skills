@@ -5,6 +5,12 @@ category: "Image &amp; Creative Automation"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/danielgatis/rembg"
+tool_ecosystem:
+  tool: rembg
+  github_repo: danielgatis/rembg
+  github_stars: 22400
+  license: MIT
+  maintained: true
 ---
 # rembg AI Background Removal CLI and Python Library
 

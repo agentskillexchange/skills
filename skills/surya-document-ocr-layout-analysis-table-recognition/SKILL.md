@@ -5,6 +5,12 @@ category: "Data Extraction &amp; Transformation"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/VikParuchuri/surya"
+tool_ecosystem:
+  tool: surya
+  github_repo: vikparuchuri/surya
+  github_stars: 19530
+  license: GPL-3.0
+  maintained: true
 ---
 # Surya Document OCR with Layout Analysis and Table Recognition
 

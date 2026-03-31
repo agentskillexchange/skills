@@ -5,6 +5,12 @@ category: "Media &amp; Transcription"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/librosa/librosa"
+tool_ecosystem:
+  tool: librosa
+  github_repo: librosa/librosa
+  github_stars: 8294
+  license: ISC
+  maintained: true
 ---
 # librosa Python Audio and Music Analysis Library
 

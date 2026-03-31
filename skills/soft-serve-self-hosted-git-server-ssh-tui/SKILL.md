@@ -5,6 +5,12 @@ category: "Developer Tools"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/charmbracelet/soft-serve"
+tool_ecosystem:
+  tool: soft-serve
+  github_repo: charmbracelet/soft-serve
+  github_stars: 6756
+  license: MIT
+  maintained: true
 ---
 # Soft Serve Self-Hosted Git Server with SSH TUI
 

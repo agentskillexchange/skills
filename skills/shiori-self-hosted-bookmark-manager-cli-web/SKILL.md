@@ -5,6 +5,12 @@ category: "Calendar, Email &amp; Productivity"
 framework: "Custom Agents"
 verification: listed
 source: "https://github.com/go-shiori/shiori"
+tool_ecosystem:
+  tool: shiori
+  github_repo: go-shiori/shiori
+  github_stars: 11397
+  license: MIT
+  maintained: true
 ---
 # Shiori Self-Hosted Bookmark Manager with CLI and Web Interface
 

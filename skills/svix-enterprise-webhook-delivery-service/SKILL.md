@@ -5,6 +5,12 @@ category: "Integrations &amp; Connectors"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/svix/svix-webhooks"
+tool_ecosystem:
+  tool: svix-webhooks
+  github_repo: svix/svix-webhooks
+  github_stars: 3152
+  license: MIT
+  maintained: true
 ---
 # Svix Enterprise Webhook Delivery Service
 

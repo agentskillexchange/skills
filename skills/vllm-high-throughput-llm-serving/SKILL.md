@@ -5,6 +5,12 @@ category: "Developer Tools"
 framework: "Multi-Framework"
 verification: listed
 source: "https://github.com/vllm-project/vllm"
+tool_ecosystem:
+  tool: vllm
+  github_repo: vllm-project/vllm
+  github_stars: 74776
+  license: Apache-2.0
+  maintained: true
 ---
 # vLLM High-Throughput LLM Serving Engine with PagedAttention
 

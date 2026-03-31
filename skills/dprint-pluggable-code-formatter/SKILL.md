@@ -5,6 +5,12 @@ category: "Code Quality &amp; Review"
 framework: "Multi-Framework"
 verification: listed
 source: "https://github.com/dprint/dprint"
+tool_ecosystem:
+  tool: dprint
+  github_repo: dprint/dprint
+  github_stars: 3854
+  license: MIT
+  maintained: true
 ---
 # dprint Pluggable High-Performance Code Formatting Platform
 

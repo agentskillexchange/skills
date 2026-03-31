@@ -5,6 +5,11 @@ category: "Uncategorized"
 framework: "Multi-Framework"
 verification: listed
 source: "https://github.com/charmbracelet/crush"
+tool_ecosystem:
+  tool: crush
+  github_repo: charmbracelet/crush
+  github_stars: 22213
+  maintained: true
 ---
 # Crush Agentic AI Coding CLI by Charmbracelet
 

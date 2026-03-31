@@ -5,6 +5,12 @@ category: "Data Extraction &amp; Transformation"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/mgdm/htmlq"
+tool_ecosystem:
+  tool: htmlq
+  github_repo: mgdm/htmlq
+  github_stars: 7514
+  license: MIT
+  maintained: false
 ---
 # htmlq Command-Line HTML Content Extractor with CSS Selectors
 

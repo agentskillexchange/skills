@@ -5,6 +5,12 @@ category: "Data Extraction &amp; Transformation"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/wooorm/franc"
+tool_ecosystem:
+  tool: franc
+  github_repo: wooorm/franc
+  github_stars: 4386
+  license: MIT
+  maintained: false
 ---
 # franc Natural Language Detection Library and CLI
 

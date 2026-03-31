@@ -5,6 +5,12 @@ category: "Integrations &amp; Connectors"
 framework: "Custom Agents"
 verification: listed
 source: "https://github.com/adnanh/webhook"
+tool_ecosystem:
+  tool: webhook
+  github_repo: adnanh/webhook
+  github_stars: 11709
+  license: MIT
+  maintained: true
 ---
 # Webhook Lightweight HTTP Endpoint Server for Shell Command Execution
 

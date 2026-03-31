@@ -5,6 +5,12 @@ category: "Integrations &amp; Connectors"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/rclone/rclone"
+tool_ecosystem:
+  tool: rclone
+  github_repo: rclone/rclone
+  github_stars: 56382
+  license: MIT
+  maintained: true
 ---
 # Rclone Cloud Storage Sync and Management CLI
 

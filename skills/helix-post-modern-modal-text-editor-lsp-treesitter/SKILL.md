@@ -5,6 +5,12 @@ category: "Developer Tools"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/helix-editor/helix"
+tool_ecosystem:
+  tool: helix
+  github_repo: helix-editor/helix
+  github_stars: 43690
+  license: MPL-2.0
+  maintained: true
 ---
 # Helix Post-Modern Modal Text Editor with LSP and Tree-sitter
 

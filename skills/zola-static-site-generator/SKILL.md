@@ -5,6 +5,12 @@ category: "Content Writing &amp; SEO"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/getzola/zola"
+tool_ecosystem:
+  tool: zola
+  github_repo: getzola/zola
+  github_stars: 16799
+  license: EUPL-1.2
+  maintained: true
 ---
 # Zola Fast Static Site Generator in a Single Binary
 

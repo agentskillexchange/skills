@@ -5,6 +5,12 @@ category: "Data Extraction &amp; Transformation"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/gristlabs/grist-core"
+tool_ecosystem:
+  tool: grist-core
+  github_repo: gristlabs/grist-core
+  github_stars: 10827
+  license: Apache-2.0
+  maintained: true
 ---
 # Grist Self-Hosted Relational Spreadsheet and Database Platform
 

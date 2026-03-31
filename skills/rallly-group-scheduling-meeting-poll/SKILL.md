@@ -5,6 +5,12 @@ category: "Calendar, Email &amp; Productivity"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/lukevella/rallly"
+tool_ecosystem:
+  tool: rallly
+  github_repo: lukevella/rallly
+  github_stars: 5027
+  license: AGPL-3.0
+  maintained: true
 ---
 # Rallly Open-Source Group Scheduling and Meeting Poll Platform
 

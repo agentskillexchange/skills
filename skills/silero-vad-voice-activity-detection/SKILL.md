@@ -5,6 +5,12 @@ category: "Media &amp; Transcription"
 framework: "Multi-Framework"
 verification: listed
 source: "https://github.com/snakers4/silero-vad"
+tool_ecosystem:
+  tool: silero-vad
+  github_repo: snakers4/silero-vad
+  github_stars: 8604
+  license: MIT
+  maintained: true
 ---
 # Silero VAD Pre-Trained Enterprise Voice Activity Detection
 

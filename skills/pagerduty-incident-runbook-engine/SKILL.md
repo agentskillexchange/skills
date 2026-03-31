@@ -4,10 +4,10 @@ description: "Generates automated incident response runbooks triggered by PagerD
 category: "Runbooks &amp; Diagnostics"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://github.com/PagerDuty/pdjs"
+source: "https://github.com/pagerduty/pdjs"
 tool_ecosystem:
   tool: pagerduty
-  github_repo: PagerDuty/pdjs
+  github_repo: pagerduty/pdjs
   github_stars: 69
   license: Apache-2.0
   maintained: false

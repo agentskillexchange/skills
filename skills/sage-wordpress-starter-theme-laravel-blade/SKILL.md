@@ -5,6 +5,12 @@ category: "WordPress &amp; CMS"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/roots/sage"
+tool_ecosystem:
+  tool: sage
+  github_repo: roots/sage
+  github_stars: 13199
+  license: MIT
+  maintained: true
 ---
 # Sage WordPress Starter Theme with Laravel Blade and Tailwind CSS
 

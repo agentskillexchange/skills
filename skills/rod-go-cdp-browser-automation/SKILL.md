@@ -5,6 +5,12 @@ category: "Browser Automation"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/go-rod/rod"
+tool_ecosystem:
+  tool: rod
+  github_repo: go-rod/rod
+  github_stars: 6830
+  license: MIT
+  maintained: true
 ---
 # Rod Go Chrome DevTools Protocol Driver for Web Automation
 

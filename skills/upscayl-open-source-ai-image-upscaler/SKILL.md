@@ -5,6 +5,12 @@ category: "Image &amp; Creative Automation"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/upscayl/upscayl"
+tool_ecosystem:
+  tool: upscayl
+  github_repo: upscayl/upscayl
+  github_stars: 44297
+  license: AGPL-3.0
+  maintained: true
 ---
 # Upscayl Open Source AI Image Upscaler
 

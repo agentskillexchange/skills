@@ -4,13 +4,7 @@ description: "Lightweight local database access for agent tasks."
 category: "Data Extraction &amp; Transformation"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://github.com/WiseLibs/better-sqlite3"
-tool_ecosystem:
-  tool: sqlite
-  github_repo: WiseLibs/better-sqlite3
-  github_stars: 7056
-  license: MIT
-  maintained: true
+source: "https://agentskillexchange.com/skills/sqlite-mcp-server/"
 ---
 # SQLite MCP Server
 

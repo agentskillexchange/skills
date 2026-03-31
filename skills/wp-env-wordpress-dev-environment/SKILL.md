@@ -5,6 +5,9 @@ category: "WordPress &amp; CMS"
 framework: "Claude Code"
 verification: security_reviewed
 source: "https://www.npmjs.com/package/@wordpress/env"
+tool_ecosystem:
+  tool: env
+  npm_weekly_downloads: 45402
 ---
 # wp-env Zero-Config WordPress Development Environment
 

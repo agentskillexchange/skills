@@ -5,6 +5,12 @@ category: "Developer Tools"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/Redocly/redocly-cli"
+tool_ecosystem:
+  tool: redocly-cli
+  github_repo: redocly/redocly-cli
+  github_stars: 1422
+  license: MIT
+  maintained: true
 ---
 # Redocly CLI OpenAPI Linter and Documentation Generator
 

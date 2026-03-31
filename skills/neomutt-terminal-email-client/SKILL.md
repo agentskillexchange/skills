@@ -5,6 +5,12 @@ category: "Calendar, Email &amp; Productivity"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/neomutt/neomutt"
+tool_ecosystem:
+  tool: neomutt
+  github_repo: neomutt/neomutt
+  github_stars: 3685
+  license: GPL-2.0
+  maintained: true
 ---
 # NeoMutt Feature-Rich Terminal Email Client
 

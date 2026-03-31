@@ -5,6 +5,11 @@ category: "Calendar, Email &amp; Productivity"
 framework: "Multi-Framework"
 verification: listed
 source: "https://github.com/twentyhq/twenty"
+tool_ecosystem:
+  tool: twenty
+  github_repo: twentyhq/twenty
+  github_stars: 43306
+  maintained: true
 ---
 # Twenty Open Source CRM Platform and Salesforce Alternative
 

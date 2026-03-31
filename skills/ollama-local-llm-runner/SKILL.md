@@ -5,6 +5,12 @@ category: "Developer Tools"
 framework: "Multi-Framework"
 verification: listed
 source: "https://github.com/ollama/ollama"
+tool_ecosystem:
+  tool: ollama
+  github_repo: ollama/ollama
+  github_stars: 166532
+  license: MIT
+  maintained: true
 ---
 # Ollama Local LLM Runner and Model Management CLI
 

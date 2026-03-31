@@ -5,6 +5,12 @@ category: "Library &amp; API Reference"
 framework: "Multi-Framework"
 verification: listed
 source: "https://github.com/charmbracelet/bubbletea"
+tool_ecosystem:
+  tool: bubbletea
+  github_repo: charmbracelet/bubbletea
+  github_stars: 41079
+  license: MIT
+  maintained: true
 ---
 # Bubble Tea Go TUI Framework by Charmbracelet
 

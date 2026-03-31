@@ -5,6 +5,12 @@ category: "Image &amp; Creative Automation"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/libvips/libvips"
+tool_ecosystem:
+  tool: libvips
+  github_repo: libvips/libvips
+  github_stars: 11197
+  license: LGPL-2.1
+  maintained: true
 ---
 # libvips High-Performance Image Processing Library and CLI
 
