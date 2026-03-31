@@ -1,6 +1,6 @@
 # Skill Categories
 
-> **1534 skills** across **17 categories**
+> **1537 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
@@ -14,10 +14,10 @@
 | 📊 | [**Monitoring & Alerts**](monitoring-alerts/) | **90** | Metrics collection, alerting rules, observability setup, and system m... |
 | 📅 | [**Calendar, Email & Productivity**](calendar-email-productivity/) | **77** | Email automation, calendar management, task coordination, and product... |
 | 🎙️ | [**Media & Transcription**](media-transcription/) | **71** | Audio/video processing, speech-to-text, media conversion, and transcr... |
+| 📄 | [**Templates & Workflows**](templates-workflows/) | **68** | Project scaffolding, boilerplate generators, workflow templates, and ... |
+| 🎨 | [**Image & Creative Automation**](image-creative-automation/) | **67** | Image generation, asset processing, design automation, and creative t... |
 | 🔍 | [**Research & Scraping**](research-scraping/) | **67** | Web research, data collection, content aggregation, and information g... |
-| 📄 | [**Templates & Workflows**](templates-workflows/) | **67** | Project scaffolding, boilerplate generators, workflow templates, and ... |
-| 🎨 | [**Image & Creative Automation**](image-creative-automation/) | **66** | Image generation, asset processing, design automation, and creative t... |
-| 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **64** | Third-party API bridges, webhook handlers, service connectors, and pl... |
+| 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **65** | Third-party API bridges, webhook handlers, service connectors, and pl... |
 | 📰 | [**WordPress & CMS**](wordpress-cms/) | **64** | Theme/plugin development, WP-CLI automation, CMS management, and Word... |
 | 🌐 | [**Browser Automation**](browser-automation/) | **63** | Web scraping, UI testing, headless browser control, and browser-based... |
 | ✍️ | [**Content Writing & SEO**](content-writing-seo/) | **59** | Blog posts, SEO optimization, content strategy, and writing assistance. |

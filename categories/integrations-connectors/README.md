@@ -57,6 +57,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [HubSpot CRM Contact Enrichment Pipeline](../../skills/hubspot-crm-contact-enrichment-pipeline/) | — | — |
 | [HubSpot MCP Server](../../skills/hubspot-mcp-server/) | — | — |
 | [Ingestr Cross-Database Data Copier](../../skills/ingestr-cross-database-data-copier/) | — | — |
+| [Inngest Event-Driven Durable Workflow Orchestration Platform](../../skills/inngest-event-driven-durable-workflow-orchestration/) | — | — |
 | [Linear Issue Triage &amp; Sprint Planner](../../skills/linear-issue-triage-sprint-planner-2/) | — | — |
 | [Linear MCP Server for Issue Tracking and Project Management](../../skills/linear-mcp-server-issue-tracking-project-management/) | — | — |
 | [LiteLLM Unified LLM Gateway and Proxy Server](../../skills/litellm-unified-llm-gateway-proxy/) | — | — |

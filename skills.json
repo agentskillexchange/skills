@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1534,
+  "total": 1537,
   "generated": "2026-03-31",
   "skills": [
+    {
+      "slug": "inngest-event-driven-durable-workflow-orchestration",
+      "name": "Inngest Event-Driven Durable Workflow Orchestration Platform",
+      "description": "Inngest is an open-source workflow orchestration platform that replaces queues, state management, and scheduling with durable step functions. It enables developers to write reliable…",
+      "category": [
+        "Integrations & Connectors"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "hatchet-distributed-background-task-workflow-engine",
+      "name": "Hatchet Distributed Background Task and Workflow Engine",
+      "description": "Hatchet is an open-source platform for running background tasks and durable workflows at scale, built on Postgres. It provides a task queue, DAG-based workflow…",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "chafa-terminal-image-graphics-renderer",
+      "name": "Chafa Terminal Image and Graphics Renderer",
+      "description": "Chafa converts images, animated GIFs, and video frames into ANSI/Unicode character art or terminal graphics protocols (Sixel, Kitty, iTerm2) for display in any terminal.…",
+      "category": [
+        "Image & Creative Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "testcontainers-node-throwaway-docker-integration-testing",
       "name": "Testcontainers Node Throwaway Docker Integration Testing Library",

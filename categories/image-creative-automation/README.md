@@ -40,6 +40,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Adobe Photoshop API Batch Processor](../../skills/adobe-photoshop-api-batch-processor/) | — | — |
 | [Bannerbear Dynamic Image API](../../skills/bannerbear-dynamic-image-api/) | — | — |
 | [Blender Geometry Nodes Script Generator](../../skills/blender-geometry-nodes-script-generator/) | — | — |
+| [Chafa Terminal Image and Graphics Renderer](../../skills/chafa-terminal-image-graphics-renderer/) | — | — |
 | [Cloudinary Asset Optimization Agent](../../skills/cloudinary-asset-optimization-agent/) | — | — |
 | [Cloudinary DAM Pipeline](../../skills/cloudinary-dam-pipeline-skill/) | — | — |
 | [Cloudinary Media Optimization Agent](../../skills/cloudinary-media-optimization-agent/) | — | — |

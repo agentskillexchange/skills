@@ -33,6 +33,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Docker Compose Test Harness](../../skills/docker-compose-test-harness/) | — | — |
 | [Fly.io Deployment Helper](../../skills/fly-io-deployment-helper/) | — | — |
 | [GitHub Actions Workflow Composer](../../skills/github-actions-workflow-composer-2/) | — | — |
+| [Hatchet Distributed Background Task and Workflow Engine](../../skills/hatchet-distributed-background-task-workflow-engine/) | — | — |
 | [Helm Chart Boilerplate Builder](../../skills/helm-chart-boilerplate-builder/) | — | — |
 | [Helm Chart Template Scaffolder](../../skills/helm-chart-template-scaffolder/) | — | — |
 | [Helm Chart Templater](../../skills/helm-chart-templater/) | — | — |
