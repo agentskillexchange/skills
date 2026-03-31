@@ -7,6 +7,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | Skill | Stars |
 |---|---:|
 | [WebdriverIO Next-Gen Browser and Mobile Automation Framework](../../skills/webdriverio-browser-mobile-automation-framework/) | ⭐ 244.3k |
+| [Puppeteer Browser Automation Library for Chrome and Firefox](../../skills/puppeteer-browser-automation-library-for-chrome-and-firefox/) | ⭐ 94k |
 | [Browser Session Replay Analyzer](../../skills/browser-session-replay-analyzer/) | ⭐ 94k |
 | [Puppeteer Cookie Consent Automator](../../skills/puppeteer-cookie-consent-automator/) | ⭐ 94k |
 | [Puppeteer Cookie Consent Handler](../../skills/puppeteer-cookie-consent-handler-3/) | ⭐ 94k |
@@ -15,7 +16,6 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Puppeteer Screenshot Diff Engine](../../skills/puppeteer-screenshot-diff-engine/) | ⭐ 94k |
 | [Puppeteer Stealth Scraper](../../skills/puppeteer-stealth-scraper-agent/) | ⭐ 94k |
 | [Puppeteer Visual Regression Tester](../../skills/puppeteer-visual-regression-tester/) | ⭐ 94k |
-| [Puppeteer Visual Regression Testing](../../skills/puppeteer-visual-regression-testing/) | ⭐ 94k |
 
 ---
 
@@ -41,6 +41,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | Skill | Stars | Downloads |
 |---|---:|---:|
 | [WebdriverIO Next-Gen Browser and Mobile Automation Framework](../../skills/webdriverio-browser-mobile-automation-framework/) | 244.3k | 121.9M/wk |
+| [Puppeteer Browser Automation Library for Chrome and Firefox](../../skills/puppeteer-browser-automation-library-for-chrome-and-firefox/) | 94k | — |
 | [Browser Session Replay Analyzer](../../skills/browser-session-replay-analyzer/) | 94k | 8.9M/wk |
 | [Puppeteer Cookie Consent Automator](../../skills/puppeteer-cookie-consent-automator/) | 94k | 8.9M/wk |
 | [Puppeteer Cookie Consent Handler](../../skills/puppeteer-cookie-consent-handler-3/) | 94k | 8.9M/wk |
@@ -51,6 +52,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Puppeteer Visual Regression Tester](../../skills/puppeteer-visual-regression-tester/) | 94k | 8.9M/wk |
 | [Puppeteer Visual Regression Testing](../../skills/puppeteer-visual-regression-testing/) | 94k | 8.9M/wk |
 | [Puppeteer Web Scraping Pipeline](../../skills/puppeteer-web-scraping-pipeline/) | 94k | 8.9M/wk |
+| [Playwright Cross-Browser Testing and Automation Framework](../../skills/playwright-cross-browser-testing-and-automation-framework/) | 85.3k | — |
 | [Agent Browser Operator](../../skills/agent-browser-operator/) | 85.2k | 41.3M/wk |
 | [BackstopJS Visual Regression Testing Automation](../../skills/backstopjs-visual-regression-testing-automation/) | 85.2k | 41.3M/wk |
 | [Browser Use AI Browser Automation Library](../../skills/browser-use-ai-browser-automation-library/) | 85.2k | 41.3M/wk |

@@ -52,6 +52,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Discord Bot Manager](../../skills/discord-bot-manager/) | 26.6k | 521.7k/wk |
 | [Super Productivity Open Source Task Manager with Time Tracking](../../skills/super-productivity-task-manager-time-tracking/) | 24.3k | — |
 | [Linear Sprint Planner](../../skills/linear-sprint-planner/) | 20.3k | 33.4M/wk |
+| [MailHog SMTP Testing Server with Web UI and API](../../skills/mailhog-smtp-testing-server-with-web-ui-and-api/) | 15.9k | — |
 | [Microsoft Graph Email Triage Assistant](../../skills/microsoft-graph-email-triage-assistant/) | 7.1k | 5M/wk |
 | [Outlook Email Automation](../../skills/outlook-email-automation/) | 7.1k | 5M/wk |
 | [Notion AI Document Summarizer &amp; Action Item Extractor](../../skills/notion-ai-doc-summarizer/) | 5.6k | 1.4M/wk |

@@ -1,8 +1,56 @@
 {
   "version": "2.0",
-  "total": 1515,
+  "total": 1518,
   "generated": "2026-03-31",
   "skills": [
+    {
+      "slug": "mailhog-smtp-testing-server-with-web-ui-and-api",
+      "name": "MailHog SMTP Testing Server with Web UI and API",
+      "description": "Uses MailHog to capture outbound email in development and test environments through a local SMTP server, browser UI, and JSON API. It is a…",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 15883,
+        "license": "MIT"
+      }
+    },
+    {
+      "slug": "puppeteer-browser-automation-library-for-chrome-and-firefox",
+      "name": "Puppeteer Browser Automation Library for Chrome and Firefox",
+      "description": "Uses Puppeteer to control Chrome and Firefox through the DevTools Protocol or WebDriver BiDi for screenshots, PDF generation, scraping, and browser workflow automation. Best…",
+      "category": [
+        "Browser Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 93976,
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "slug": "playwright-cross-browser-testing-and-automation-framework",
+      "name": "Playwright Cross-Browser Testing and Automation Framework",
+      "description": "Uses Microsoft Playwright to automate Chromium, Firefox, and WebKit with one API for testing, scraping, screenshots, tracing, and login flows. It fits teams that…",
+      "category": [
+        "Browser Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 85308,
+        "license": "Apache-2.0"
+      }
+    },
     {
       "slug": "git-updater-wordpress-plugin-theme-auto-updater",
       "name": "Git Updater WordPress Plugin and Theme Auto-Updater from Git Repositories",

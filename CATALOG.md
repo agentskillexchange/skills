@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1515 published skills** across **17 categories** · 1466 security reviewed · Updated 2026-03-31 03:26 UTC
+> **1518 published skills** across **17 categories** · 1466 security reviewed · Updated 2026-03-31 05:29 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -991,7 +991,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [PostHog Product Analytics and Feature Flags SDK](skills/posthog-product-analytics-and-feature-flags-sdk/) | Use PostHog to capture product analytics events, identify users, evaluate feature flags, and route experimentation… | Security Reviewed | — | — |
 
 
-### 📅 Calendar, Email & Productivity (76 skills)
+### 📅 Calendar, Email & Productivity (77 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=downloads)
 
@@ -1009,6 +1009,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Discord Bot Manager](skills/discord-bot-manager/) | Discord Bot Manager is built around Discord bot and moderation platform. The underlying ecosystem is represented by… | Security Reviewed | 26.6k | 521.7k/wk |
 | [Super Productivity Open Source Task Manager with Time Tracking](skills/super-productivity-task-manager-time-tracking/) | Super Productivity is an advanced open-source todo list application with integrated timeboxing, time tracking, and… | Security Reviewed | 24.3k | — |
 | [Linear Sprint Planner](skills/linear-sprint-planner/) | Linear Sprint Planner is built around GraphQL API ecosystem. The underlying ecosystem is represented by… | Security Reviewed | 20.3k | 33.4M/wk |
+| [MailHog SMTP Testing Server with Web UI and API](skills/mailhog-smtp-testing-server-with-web-ui-and-api/) | Uses MailHog to capture outbound email in development and test environments through a local SMTP server, browser UI,… | Published | 15.9k | — |
 | [Microsoft Graph Email Triage Assistant](skills/microsoft-graph-email-triage-assistant/) | Triages Outlook inboxes via Microsoft Graph API with delta query for incremental sync. Applies classification rules,… | Security Reviewed | 7.1k | 5M/wk |
 | [Outlook Email Automation](skills/outlook-email-automation/) | Authenticates to Microsoft Graph API using MSAL with Mail.ReadWrite and Calendars.ReadWrite permissions. Reads,… | Security Reviewed | 7.1k | 5M/wk |
 | [Notion AI Document Summarizer & Action Item Extractor](skills/notion-ai-doc-summarizer/) | Uses the Notion SDK and Notion AI's /v1/pages and /v1/blocks/children endpoints to retrieve page content and invoke… | Security Reviewed | 5.6k | 1.4M/wk |
@@ -1515,13 +1516,14 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Word
 | [WooCommerce Webhook Orchestrator](skills/woocommerce-webhook-orchestrator/) | Manages WooCommerce webhook lifecycles using the wc/v3/webhooks REST API and WC_Webhook class. Handles order,… | Security Reviewed | — | — |
 
 
-### 🌐 Browser Automation (60 skills)
+### 🌐 Browser Automation (62 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=downloads)
 
 | Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
 |---|---|---|---:|---:|
 | [WebdriverIO Next-Gen Browser and Mobile Automation Framework](skills/webdriverio-browser-mobile-automation-framework/) | WebdriverIO is a next-generation browser and mobile automation test framework for Node.js. It supports WebDriver,… | Security Reviewed | 244.3k | 121.9M/wk |
+| [Puppeteer Browser Automation Library for Chrome and Firefox](skills/puppeteer-browser-automation-library-for-chrome-and-firefox/) | Uses Puppeteer to control Chrome and Firefox through the DevTools Protocol or WebDriver BiDi for screenshots, PDF… | Published | 94k | — |
 | [Browser Session Replay Analyzer](skills/browser-session-replay-analyzer/) | Records and replays browser sessions using rrweb recording library with DOM mutation serialization. Integrates with… | Security Reviewed | 94k | 8.9M/wk |
 | [Puppeteer Cookie Consent Automator](skills/puppeteer-cookie-consent-automator/) | Automatically detects and handles cookie consent banners across websites using Puppeteer CDP protocol and a trained… | Security Reviewed | 94k | 8.9M/wk |
 | [Puppeteer Cookie Consent Handler](skills/puppeteer-cookie-consent-handler-3/) | Detects and dismisses cookie consent banners across websites using Puppeteer page.evaluate selectors and the CMP… | Security Reviewed | 94k | 8.9M/wk |
@@ -1532,6 +1534,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Puppeteer Visual Regression Tester](skills/puppeteer-visual-regression-tester/) | Automates visual regression testing using Puppeteer page.screenshot() with pixelmatch diffing. Captures full-page… | Security Reviewed | 94k | 8.9M/wk |
 | [Puppeteer Visual Regression Testing](skills/puppeteer-visual-regression-testing/) | Runs pixel-level visual regression tests using Puppeteer page.screenshot() and pixelmatch diffing library. Compares… | Security Reviewed | 94k | 8.9M/wk |
 | [Puppeteer Web Scraping Pipeline](skills/puppeteer-web-scraping-pipeline/) | Builds web scraping pipelines with Puppeteer using page.evaluate, page.waitForSelector, and browser.newPage. Handles… | Security Reviewed | 94k | 8.9M/wk |
+| [Playwright Cross-Browser Testing and Automation Framework](skills/playwright-cross-browser-testing-and-automation-framework/) | Uses Microsoft Playwright to automate Chromium, Firefox, and WebKit with one API for testing, scraping, screenshots,… | Published | 85.3k | — |
 | [Agent Browser Operator](skills/agent-browser-operator/) | Interactive browser skill for logged-in flows, dynamic pages, and session-aware site operations. | Security Reviewed | 85.2k | 41.3M/wk |
 | [BackstopJS Visual Regression Testing Automation](skills/backstopjs-visual-regression-testing-automation/) | BackstopJS gives agents a repeatable way to capture reference screenshots, compare UI states, and flag visual… | Security Reviewed | 85.2k | 41.3M/wk |
 | [Browser Use AI Browser Automation Library](skills/browser-use-ai-browser-automation-library/) | Automates browser tasks with Browser Use, the open-source library that connects LLM reasoning to Playwright-driven… | Security Reviewed | 85.2k | 41.3M/wk |
