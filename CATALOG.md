@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1531 published skills** across **17 categories** · 1503 security reviewed · Updated 2026-03-31 15:28 UTC
+> **1534 published skills** across **17 categories** · 1503 security reviewed · Updated 2026-03-31 17:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (176 skills)
+### 🛠️ Developer Tools (178 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -63,6 +63,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Bazel Build Graph Analyzer](skills/bazel-build-graph-analyzer/) | Analyzes Bazel build dependency graphs to identify bottlenecks and optimize build times. Uses the Bazel Query… | Security Reviewed | — | — |
 | [Biome Lint Migration Toolkit](skills/biome-lint-migration-toolkit/) | Automates migration from ESLint and Prettier to Biome (formerly Rome) by parsing .eslintrc and .prettierrc configs,… | Security Reviewed | — | — |
 | [Bruno Git-Native API Client for Testing and Exploration](skills/bruno-git-native-api-client-testing-exploration/) | Bruno is an open-source, offline-first API client that stores collections as plain-text .bru files on your… | Security Reviewed | — | — |
+| [Bun All-in-One JavaScript Runtime Bundler and Package Manager](skills/bun-all-in-one-javascript-runtime-bundler-package-manager/) | Bun is an all-in-one toolkit for JavaScript and TypeScript apps that ships as a single executable. It includes a… | Published | — | — |
 | [Bun Shell Script Executor](skills/bun-shell-script-executor/) | Leverages Bun's built-in $ shell API (Bun.Shell) to orchestrate cross-platform shell scripts from TypeScript with… | Security Reviewed | — | — |
 | [Caddy Automatic HTTPS Web Server and Reverse Proxy](skills/caddy-automatic-https-web-server-reverse-proxy/) | Caddy is a fast, extensible web server written in Go that provides automatic HTTPS via Let's Encrypt and ZeroSSL. It… | Security Reviewed | — | — |
 | [Changesets Version and Changelog Manager](skills/changesets-version-changelog-manager/) | Use Changesets to manage package versioning and changelogs in monorepos and single-package repositories. Automates… | Security Reviewed | — | — |
@@ -151,6 +152,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [pgroll PostgreSQL Zero-Downtime Schema Migration](skills/pgroll-postgresql-zero-downtime-schema-migration/) | pgroll is an open-source CLI tool by Xata that performs zero-downtime, reversible schema migrations for PostgreSQL.… | Security Reviewed | — | — |
 | [Pixi Cross-Platform Package Manager Built on Conda](skills/pixi-cross-platform-package-manager-conda-rust/) | A blazing-fast, cross-platform package manager and workflow tool written in Rust. Pixi builds on the Conda ecosystem… | Security Reviewed | — | — |
 | [Playwright E2E Test Generator](skills/playwright-e2e-test-generator/) | Generates Playwright test suites from natural language descriptions using the Playwright Test API. Supports… | Security Reviewed | — | — |
+| [Podman Daemonless Container Management Engine](skills/podman-daemonless-container-management-engine/) | Podman is a daemonless container engine for developing, managing, and running OCI containers on Linux, Mac, and… | Published | — | — |
 | [Postgres MCP Pro Server for Database Analysis and Tuning](skills/postgres-mcp-pro-database-analysis-tuning/) | Postgres MCP Pro is an open-source MCP server that provides AI agents with PostgreSQL database health analysis,… | Security Reviewed | — | — |
 | [PostgreSQL Query Optimizer Agent](skills/postgresql-query-optimizer-explain-api/) | Optimizes PostgreSQL queries using EXPLAIN ANALYZE output parsing with pg_stat_statements extension data. Suggests… | Security Reviewed | — | — |
 | [PostgreSQL Query Plan Analyzer](skills/postgresql-query-plan-analyzer-2/) | Executes EXPLAIN ANALYZE BUFFERS on slow PostgreSQL queries and parses the plan tree for sequential scans, nested… | Security Reviewed | — | — |
@@ -799,6 +801,105 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Zod Schema Generator](skills/zod-schema-generator/) | Converts JSON samples, TypeScript interfaces, and OpenAPI specs into Zod validation schemas. Uses ts-morph for AST… | Security Reviewed | — | — |
 
 
+### ✅ Code Quality & Review (91 skills)
+
+Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
+
+| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
+|---|---|---|---:|---:|
+| [Vale Prose Linter for Technical Documentation](skills/vale-prose-linter-technical-docs/) | Vale is an open-source, markup-aware prose linter that enforces editorial style guides on technical documentation.… | Security Reviewed | 5.3k | — |
+| [dprint Pluggable High-Performance Code Formatting Platform](skills/dprint-pluggable-code-formatter/) | dprint is a pluggable and configurable code formatting platform written in Rust. It unifies formatting for… | Security Reviewed | 3.9k | 144.8k/wk |
+| [commitlint Conventional Commit Message Linter](skills/commitlint-conventional-commit-message-linter/) | commitlint checks whether git commit messages meet the Conventional Commits specification, enforcing structured… | Security Reviewed | — | 575.3k/wk |
+| [ast-grep Structural Code Search and Rewrite](skills/ast-grep-structural-code-search-rewrite/) | Use ast-grep (sg) to search, lint, and rewrite code across large codebases using AST pattern matching. A… | Security Reviewed | — | — |
+| [CodeClimate Diff Analyzer](skills/codeclimate-diff-analyzer-2/) | Runs CodeClimate analysis on pull request diffs using the CLI engine and reports new issues inline. Calculates… | Security Reviewed | — | — |
+| [CodeClimate Maintainability Tracker](skills/codeclimate-maintainability-tracker-7/) | Tracks Code Climate maintainability scores over time using the Code Climate v1 API. Identifies technical debt… | Security Reviewed | — | — |
+| [Codecov Coverage Analyzer](skills/codecov-coverage-analyzer/) | Analyzes test coverage using the Codecov API v2 and codecov-cli uploader. Fetches per-file coverage from… | Security Reviewed | — | — |
+| [Codecov Coverage Diff Analyzer](skills/codecov-coverage-diff-analyzer-2/) | Analyzes code coverage diffs on pull requests using the Codecov API v2 /repos/{owner}/{repo}/commits endpoint.… | Security Reviewed | — | — |
+| [Codecov Coverage Report Analyzer](skills/codecov-coverage-report-analyzer/) | Integrates with the Codecov API v2 and codecov-cli to upload coverage reports, analyze coverage deltas, and enforce… | Security Reviewed | — | — |
+| [Codecov Coverage Tracker](skills/codecov-coverage-tracker-skill/) | Monitors test coverage trends using the Codecov API v2 /repos/{owner}/{repo}/commits endpoint. Compares branch… | Security Reviewed | — | — |
+| [Codecov Coverage Tracker Agent](skills/codecov-coverage-tracker-agent/) | Tracks and enforces code coverage using Codecov API, lcov, and Istanbul/nyc. Generates coverage reports, detects… | Security Reviewed | — | — |
+| [Complexity Trend Tracker](skills/complexity-trend-tracker-agent/) | Tracks cyclomatic and cognitive complexity trends using lizard CLI and radon for Python analysis. Generates weekly… | Security Reviewed | — | — |
+| [Difftastic Structural Syntax-Aware Diff Tool](skills/difftastic-structural-syntax-diff/) | Difftastic is a structural diff tool that compares files based on their syntax rather than line-by-line text.… | Security Reviewed | — | — |
+| [Docker Build Cache Optimizer](skills/docker-build-cache-optimizer/) | Optimizes Docker build performance using BuildKit cache mount analysis, docker history layer inspection, and… | Security Reviewed | — | — |
+| [ESLint Auto-Fix Agent](skills/eslint-auto-fix-agent/) | Automatically detect and fix JavaScript/TypeScript linting issues using ESLint v9 flat config and the ESLint Node.js… | Security Reviewed | — | — |
+| [ESLint Auto-Fix Orchestrator](skills/eslint-autofix-orchestrator/) | Runs ESLint with auto-fix capabilities using the ESLint Node.js API and flat config system. Supports custom rule… | Security Reviewed | — | — |
+| [ESLint Auto-Fix Pipeline](skills/eslint-autofix-pipeline/) | Runs ESLint with the --fix flag across JavaScript and TypeScript codebases, applying auto-fixable rules from… | Security Reviewed | — | — |
+| [ESLint Auto-Fixer](skills/eslint-auto-fixer/) | Applies ESLint fixes automatically using the ESLint Node.js API with flat config support. Handles rule conflicts… | Security Reviewed | — | — |
+| [ESLint Config Enforcer](skills/eslint-config-enforcer/) | Enforces consistent ESLint configurations across monorepo packages using eslint-config-inspector and flat config… | Security Reviewed | — | — |
+| [ESLint Custom Rule Builder](skills/eslint-custom-rule-builder/) | Scaffolds and tests custom ESLint rules using the RuleTester API and AST Explorer patterns. Generates rule… | Security Reviewed | — | — |
+| [ESLint Custom Rule Generator](skills/eslint-custom-rule-generator/) | Generates custom ESLint rules from natural language descriptions using the ESLint RuleTester API and AST Explorer… | Security Reviewed | — | — |
+| [ESLint Rule Analyzer](skills/eslint-rule-analyzer/) | Analyzes ESLint configurations using the ESLint Node.js API (new ESLint().calculateConfigForFile) and flat config… | Security Reviewed | — | — |
+| [ESLint Rule Analyzer and Fixer](skills/eslint-rule-analyzer-fixer/) | Performs deep ESLint configuration analysis using the ESLint Node.js API and flat config system. Auto-fixes rule… | Security Reviewed | — | — |
+| [ESLint Rule Architect](skills/eslint-rule-architect-2/) | Creates custom ESLint rules and shareable configs using the ESLint RuleTester API and @typescript-eslint/utils.… | Security Reviewed | — | — |
+| [ESLint Rule Auditor](skills/eslint-rule-auditor-3/) | Audits ESLint configurations using @eslint/eslintrc and @eslint/js flat config APIs. Detects conflicting rules,… | Security Reviewed | — | — |
+| [ESLint Rule Composer](skills/eslint-rule-composer/) | Creates custom ESLint rules using the ESLint RuleTester API and AST Explorer patterns. Generates rule… | Security Reviewed | — | — |
+| [ESLint Rule Configurator](skills/eslint-rule-configurator/) | Generates optimized ESLint flat config files using @eslint/js, typescript-eslint, and eslint-plugin-import. Provides… | Security Reviewed | — | — |
+| [ESLint Rule Conflict Detector](skills/eslint-rule-conflict-detector-2/) | Analyzes .eslintrc configurations and extended rulesets using the ESLint Node.js API and eslint-config-inspector.… | Security Reviewed | — | — |
+| [ESLint Rule Conflict Resolver](skills/eslint-rule-conflict-resolver/) | Detects and resolves conflicting ESLint rules across .eslintrc configurations using the ESLint Node.js API. Analyzes… | Security Reviewed | — | — |
+| [ESLint Rule Enforcement Agent](skills/eslint-rule-enforcement-agent/) | Automates ESLint configuration and rule enforcement using the ESLint Node.js API and @typescript-eslint/parser.… | Security Reviewed | — | — |
+| [ESLint Rule Enforcer](skills/eslint-rule-enforcer/) | Automates ESLint v9 flat config enforcement across monorepos using eslint-plugin-unicorn and… | Security Reviewed | — | — |
+| [ESLint Rule Enforcer Agent](skills/eslint-rule-enforcer-agent/) | Runs ESLint with custom rulesets via the ESLint Node.js API and eslint-plugin-import to enforce project-specific… | Security Reviewed | — | — |
+| [ESLint Rule Impact Analyzer](skills/eslint-rule-impact-analyzer-2/) | Measures the impact of enabling new ESLint rules across a codebase using the ESLint Node.js API and… | Security Reviewed | — | — |
+| [ESLint Rule Violation Summarizer](skills/eslint-rule-violation-summarizer-2/) | Runs ESLint against a JS/TS codebase, groups violations by rule and file, and produces a prioritized fix plan.… | Security Reviewed | — | — |
+| [Git Bisect Automation Agent](skills/git-bisect-automation-agent/) | Automates git bisect workflows to find regression-introducing commits using custom test scripts and the git bisect… | Security Reviewed | — | — |
+| [Great Expectations Data Validation Pipeline](skills/great-expectations-data-validation-pipeline/) | Validate data quality using the Great Expectations Python library. Define expectations as unit tests for your data,… | Security Reviewed | — | — |
+| [Jenkins Pipeline Code Review Agent](skills/jenkins-pipeline-code-review-agent/) | Reviews Jenkinsfile and Groovy pipeline scripts for anti-patterns, security issues, and performance bottlenecks… | Security Reviewed | — | — |
+| [Jest Unit Test Scaffolder](skills/jest-unit-test-scaffolder/) | Jest Unit Test Scaffolder is built around Jest JavaScript test framework. The underlying ecosystem is represented by… | Security Reviewed | — | — |
+| [Knip Unused Code and Dependency Finder](skills/knip-unused-code-dependency-finder/) | Run Knip to find and remove unused files, dependencies, and exports in JavaScript and TypeScript projects. Reduces… | Security Reviewed | — | — |
+| [Oxlint High-Performance JavaScript Linter](skills/oxlint-high-performance-javascript-linter/) | Run Oxlint from the Oxc toolchain to lint JavaScript and TypeScript codebases at extreme speed. Written in Rust,… | Security Reviewed | — | — |
+| [PHPStan Static Analyzer Agent](skills/phpstan-static-analyzer-agent/) | Performs PHP static analysis using PHPStan CLI at rule levels 0-9 with custom extensions. Detects type errors, dead… | Security Reviewed | — | — |
+| [Playwright Test Recorder](skills/playwright-test-recorder/) | Playwright Test Recorder is built around Playwright browser automation framework. The underlying ecosystem is… | Security Reviewed | — | — |
+| [Polaris Kubernetes Best Practices Validator](skills/polaris-kubernetes-best-practices-validator/) | Validate Kubernetes resource configurations against best practice policies using Fairwinds Polaris. Runs as a CLI… | Security Reviewed | — | — |
+| [Prettier Config Conflict Resolver](skills/prettier-config-conflict-resolver/) | Detects and resolves conflicts between Prettier, ESLint, and EditorConfig formatting rules using the Prettier… | Security Reviewed | — | — |
+| [Prettier Config Harmonizer](skills/prettier-config-harmonizer-2/) | Resolves Prettier formatting conflicts across monorepo packages using the Prettier API and @prettier/plugin-xml.… | Security Reviewed | — | — |
+| [Prettier Format Enforcement Bot](skills/prettier-format-enforcement-bot/) | Enforces code formatting standards using the Prettier API (prettier.format(), prettier.check()) and… | Security Reviewed | — | — |
+| [Pull Request Size Analyzer](skills/pull-request-size-analyzer-agent/) | Analyzes PR size and reviewability using the GitHub GraphQL API and git diff-stat. Enforces size limits, suggests PR… | Security Reviewed | — | — |
+| [Pylint Baseline Manager](skills/pylint-baseline-manager-wave48/) | Manages Pylint baseline files for gradual code quality improvement using pylint --output-format=json and the… | Security Reviewed | — | — |
+| [Pylint Code Review Assistant](skills/pylint-code-review-assistant/) | Perform automated Python code reviews using Pylint programmatic API and pylint-json2html for report generation.… | Security Reviewed | — | — |
+| [Pytest Fixture Generator](skills/pytest-fixture-generator/) | Pytest Fixture Generator is built around pytest Python testing framework. The underlying ecosystem is represented by… | Security Reviewed | — | — |
+| [Python Type Coverage Analyzer](skills/python-type-coverage-analyzer/) | Measures and improves Python type annotation coverage using mypy --html-report and pyright type completeness… | Security Reviewed | — | — |
+| [Ruff Linter and Formatter](skills/ruff-linter-formatter-agent/) | Ultra-fast Python linting and formatting using Ruff CLI with pyproject.toml configuration. Supports auto-fix, import… | Security Reviewed | — | — |
+| [Ruff Linter Configuration Architect](skills/ruff-linter-configuration-architect/) | Configures and optimizes Ruff Python linter settings using the ruff CLI and pyproject.toml schema. Migrates from… | Security Reviewed | — | — |
+| [Ruff Python Linter Configurator](skills/ruff-python-linter-configurator/) | Generates optimized Ruff configuration from existing Flake8, isort, and Black setups. Migrates pyproject.toml rules… | Security Reviewed | — | — |
+| [Semgrep Code Pattern Scanner](skills/semgrep-code-pattern-scanner-2/) | Runs Semgrep against a codebase using official or custom rule registries and outputs a grouped report of security… | Security Reviewed | — | — |
+| [Semgrep Code Scanner](skills/semgrep-code-scanner/) | Semgrep Code Scanner is built around Semgrep static analysis engine. The underlying ecosystem is represented by… | Security Reviewed | — | — |
+| [Semgrep Custom Pattern Builder](skills/semgrep-custom-pattern-builder/) | Builds custom Semgrep rules using the Semgrep pattern syntax and semgrep CLI. Generates YAML rule files with… | Security Reviewed | — | — |
+| [Semgrep Custom Pattern Generator](skills/semgrep-custom-pattern-generator/) | Generates Semgrep SAST rules from vulnerability descriptions using the Semgrep CLI and semgrep-rules YAML schema.… | Security Reviewed | — | — |
+| [Semgrep Custom Pattern Library](skills/semgrep-custom-pattern-library/) | Builds custom Semgrep rules using the semgrep YAML rule syntax with metavariable-pattern, pattern-either, and… | Security Reviewed | — | — |
+| [Semgrep Custom Rule Builder](skills/semgrep-custom-rule-builder-3/) | Creates custom Semgrep SAST rules using the semgrep CLI and rule schema YAML format. Supports pattern-either,… | Security Reviewed | — | — |
+| [Semgrep Pattern Matching Analyzer](skills/semgrep-pattern-matching-analyzer/) | Writes and deploys custom Semgrep rules using pattern, pattern-either, and metavariable-regex operators for… | Security Reviewed | — | — |
+| [Semgrep Pattern Matching Auditor](skills/semgrep-pattern-matching-auditor/) | Leverages the Semgrep OSS engine and semgrep-rules registry to perform deep static analysis across 30+ languages.… | Security Reviewed | — | — |
+| [Semgrep Pattern Scanner](skills/semgrep-pattern-scanner/) | Executes Semgrep CLI with custom YAML rules and the Semgrep Registry API to detect anti-patterns, vulnerabilities,… | Security Reviewed | — | — |
+| [Semgrep Rule Author](skills/semgrep-rule-author/) | Generates custom Semgrep rules from natural language descriptions of vulnerability patterns. Uses semgrep --validate… | Security Reviewed | — | — |
+| [Semgrep Rule Engine](skills/semgrep-rule-engine/) | Executes Semgrep static analysis using the semgrep CLI with custom YAML rule definitions. Supports taint tracking,… | Security Reviewed | — | — |
+| [Semgrep Rule Runner](skills/semgrep-rule-runner/) | Executes Semgrep static analysis using the semgrep CLI with custom YAML rule packs. Supports --config auto for… | Security Reviewed | — | — |
+| [Semgrep SAST Scanner](skills/semgrep-sast-scanner-skill/) | Runs Semgrep static analysis with custom rule packs targeting OWASP Top 10 patterns. Uses semgrep CLI with… | Security Reviewed | — | — |
+| [Semgrep Security Review Agent](skills/semgrep-security-review-agent/) | Performs SAST scanning using Semgrep CLI and Semgrep Registry rules. Detects OWASP Top 10 vulnerabilities, injection… | Security Reviewed | — | — |
+| [Semgrep Security Scanner](skills/semgrep-security-scanner-2/) | Scan codebases for security vulnerabilities and anti-patterns using Semgrep OSS rules and the Semgrep CLI. Supports… | Security Reviewed | — | — |
+| [ShellCheck Shell Script Static Analyzer](skills/shellcheck-shell-script-static-analyzer/) | Run static analysis on bash and shell scripts using ShellCheck to detect syntax errors, semantic pitfalls, and… | Security Reviewed | — | — |
+| [SonarQube Analysis Agent](skills/sonarqube-analysis-agent/) | Integrates with the SonarQube REST API to run static code analysis scans, retrieve quality gate results, and flag… | Security Reviewed | — | — |
+| [SonarQube Analysis Runner](skills/sonarqube-analysis-runner/) | Run SonarQube static analysis scans via the SonarQube Web API and sonar-scanner CLI. Detects code smells, bugs, and… | Security Reviewed | — | — |
+| [SonarQube Code Quality Scanner](skills/sonarqube-code-quality-scanner/) | Runs SonarQube static analysis via the SonarQube Web API and sonar-scanner CLI. Detects code smells, bugs, and… | Security Reviewed | — | — |
+| [SonarQube Code Scanner Agent](skills/sonarqube-code-scanner-agent/) | Automated code quality scanning using SonarQube REST API and SonarScanner CLI. Detects code smells, bugs, and… | Security Reviewed | — | — |
+| [SonarQube Gate Enforcer](skills/sonarqube-gate-enforcer/) | Enforces SonarQube quality gate conditions in CI pipelines using the SonarQube Web API… | Security Reviewed | — | — |
+| [SonarQube PR Gate](skills/sonarqube-pr-gate-skill/) | Integrates SonarQube quality gates into pull request workflows via the SonarQube Web API… | Security Reviewed | — | — |
+| [SonarQube Quality Gate Agent](skills/sonarqube-quality-gate-agent/) | Monitors SonarQube quality gate status via the SonarQube Web API and enforces code quality thresholds. Parses… | Security Reviewed | — | — |
+| [SonarQube Quality Gate Checker](skills/sonarqube-quality-gate-checker/) | Queries SonarQube Web API for project quality gate status, code coverage metrics, and technical debt analysis.… | Security Reviewed | — | — |
+| [SonarQube Quality Gate Enforcer](skills/sonarqube-quality-gate-enforcer-14/) | Enforces SonarQube quality gates in pull request workflows using the SonarQube Web API and ce/task endpoint. Blocks… | Security Reviewed | — | — |
+| [SonarQube Quality Gate Explainer](skills/sonarqube-quality-gate-explainer/) | Fetches the latest SonarQube project analysis result, explains why the Quality Gate failed in plain English, and… | Security Reviewed | — | — |
+| [SonarQube Quality Gate Monitor](skills/sonarqube-quality-gate-monitor-3/) | Monitors SonarQube project quality gates via the Web API and blocks CI deployments when thresholds fail. Tracks… | Security Reviewed | — | — |
+| [SonarQube Rule Enforcement Agent](skills/sonarqube-rule-enforcement-agent/) | Integrates with SonarQube Web API and sonar-scanner CLI to enforce code quality gates across pull requests.… | Security Reviewed | — | — |
+| [SonarQube Scanner Skill](skills/sonarqube-scanner-skill/) | Integrates SonarQube static analysis via the sonar-scanner CLI and SonarQube Web API. Fetches quality gate results… | Security Reviewed | — | — |
+| [Spectral OpenAPI and AsyncAPI Linter](skills/spectral-openapi-asyncapi-linter/) | Spectral is an open-source JSON/YAML linter by Stoplight with built-in support for OpenAPI 3.x, Swagger 2.0,… | Security Reviewed | — | — |
+| [SQLFluff SQL Linter and Auto-Formatter](skills/sqlfluff-sql-linter-auto-formatter/) | Lint and auto-format SQL code across 30+ dialects using SQLFluff. Enforces consistent style, catches syntax issues,… | Security Reviewed | — | — |
+| [sqruff High-Performance SQL Linter and Formatter](skills/sqruff-sql-linter-formatter/) | A fast SQL linter and formatter written in Rust by Quary Labs. sqruff provides advanced configurable linting and… | Security Reviewed | — | — |
+| [Storybook Component Tester](skills/storybook-component-tester/) | Storybook Component Tester is built around Storybook component workshop. The underlying ecosystem is represented by… | Security Reviewed | — | — |
+| [Testcontainers Node Throwaway Docker Integration Testing Library](skills/testcontainers-node-throwaway-docker-integration-testing/) | Testcontainers for Node.js is a library that provides lightweight, throwaway instances of databases, message… | Published | — | — |
+| [tokei Code Statistics Counter](skills/tokei-code-statistics-counter/) | Fast and accurate code statistics tool written in Rust. Counts lines of code, comments, and blanks across 200+… | Security Reviewed | — | — |
+| [ty Ultra-Fast Python Type Checker and Language Server](skills/ty-python-type-checker/) | ty is an extremely fast Python type checker and language server written in Rust by Astral, the creators of Ruff and… | Security Reviewed | — | — |
+| [typos Source Code Spell Checker](skills/typos-source-code-spell-checker/) | A blazing-fast source code spell checker written in Rust that finds and corrects typos across entire codebases.… | Security Reviewed | — | — |
+
+
 ### 📊 Monitoring & Alerts (90 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=downloads)
@@ -895,104 +996,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Uptime Kuma Status Sync](skills/uptime-kuma-status-sync/) | Interfaces with the Uptime Kuma Socket.IO API to monitor service health checks. Syncs status page data to… | Security Reviewed | — | — |
 | [Uptime Robot Multi-Check Coordinator](skills/uptime-robot-multi-check-coordinator/) | Manages bulk uptime monitoring via the Uptime Robot API v2. Creates HTTP, keyword, and port monitors with alert… | Security Reviewed | — | — |
 | [Uptime Robot Status Page Webhook Alerter](skills/uptime-robot-status-page-webhook-alerter/) | Integrates with the Uptime Robot API to monitor status page changes and push webhook alerts to Slack or PagerDuty.… | Security Reviewed | — | — |
-
-
-### ✅ Code Quality & Review (90 skills)
-
-Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
-
-| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
-|---|---|---|---:|---:|
-| [Vale Prose Linter for Technical Documentation](skills/vale-prose-linter-technical-docs/) | Vale is an open-source, markup-aware prose linter that enforces editorial style guides on technical documentation.… | Security Reviewed | 5.3k | — |
-| [dprint Pluggable High-Performance Code Formatting Platform](skills/dprint-pluggable-code-formatter/) | dprint is a pluggable and configurable code formatting platform written in Rust. It unifies formatting for… | Security Reviewed | 3.9k | 144.8k/wk |
-| [commitlint Conventional Commit Message Linter](skills/commitlint-conventional-commit-message-linter/) | commitlint checks whether git commit messages meet the Conventional Commits specification, enforcing structured… | Security Reviewed | — | 575.3k/wk |
-| [ast-grep Structural Code Search and Rewrite](skills/ast-grep-structural-code-search-rewrite/) | Use ast-grep (sg) to search, lint, and rewrite code across large codebases using AST pattern matching. A… | Security Reviewed | — | — |
-| [CodeClimate Diff Analyzer](skills/codeclimate-diff-analyzer-2/) | Runs CodeClimate analysis on pull request diffs using the CLI engine and reports new issues inline. Calculates… | Security Reviewed | — | — |
-| [CodeClimate Maintainability Tracker](skills/codeclimate-maintainability-tracker-7/) | Tracks Code Climate maintainability scores over time using the Code Climate v1 API. Identifies technical debt… | Security Reviewed | — | — |
-| [Codecov Coverage Analyzer](skills/codecov-coverage-analyzer/) | Analyzes test coverage using the Codecov API v2 and codecov-cli uploader. Fetches per-file coverage from… | Security Reviewed | — | — |
-| [Codecov Coverage Diff Analyzer](skills/codecov-coverage-diff-analyzer-2/) | Analyzes code coverage diffs on pull requests using the Codecov API v2 /repos/{owner}/{repo}/commits endpoint.… | Security Reviewed | — | — |
-| [Codecov Coverage Report Analyzer](skills/codecov-coverage-report-analyzer/) | Integrates with the Codecov API v2 and codecov-cli to upload coverage reports, analyze coverage deltas, and enforce… | Security Reviewed | — | — |
-| [Codecov Coverage Tracker](skills/codecov-coverage-tracker-skill/) | Monitors test coverage trends using the Codecov API v2 /repos/{owner}/{repo}/commits endpoint. Compares branch… | Security Reviewed | — | — |
-| [Codecov Coverage Tracker Agent](skills/codecov-coverage-tracker-agent/) | Tracks and enforces code coverage using Codecov API, lcov, and Istanbul/nyc. Generates coverage reports, detects… | Security Reviewed | — | — |
-| [Complexity Trend Tracker](skills/complexity-trend-tracker-agent/) | Tracks cyclomatic and cognitive complexity trends using lizard CLI and radon for Python analysis. Generates weekly… | Security Reviewed | — | — |
-| [Difftastic Structural Syntax-Aware Diff Tool](skills/difftastic-structural-syntax-diff/) | Difftastic is a structural diff tool that compares files based on their syntax rather than line-by-line text.… | Security Reviewed | — | — |
-| [Docker Build Cache Optimizer](skills/docker-build-cache-optimizer/) | Optimizes Docker build performance using BuildKit cache mount analysis, docker history layer inspection, and… | Security Reviewed | — | — |
-| [ESLint Auto-Fix Agent](skills/eslint-auto-fix-agent/) | Automatically detect and fix JavaScript/TypeScript linting issues using ESLint v9 flat config and the ESLint Node.js… | Security Reviewed | — | — |
-| [ESLint Auto-Fix Orchestrator](skills/eslint-autofix-orchestrator/) | Runs ESLint with auto-fix capabilities using the ESLint Node.js API and flat config system. Supports custom rule… | Security Reviewed | — | — |
-| [ESLint Auto-Fix Pipeline](skills/eslint-autofix-pipeline/) | Runs ESLint with the --fix flag across JavaScript and TypeScript codebases, applying auto-fixable rules from… | Security Reviewed | — | — |
-| [ESLint Auto-Fixer](skills/eslint-auto-fixer/) | Applies ESLint fixes automatically using the ESLint Node.js API with flat config support. Handles rule conflicts… | Security Reviewed | — | — |
-| [ESLint Config Enforcer](skills/eslint-config-enforcer/) | Enforces consistent ESLint configurations across monorepo packages using eslint-config-inspector and flat config… | Security Reviewed | — | — |
-| [ESLint Custom Rule Builder](skills/eslint-custom-rule-builder/) | Scaffolds and tests custom ESLint rules using the RuleTester API and AST Explorer patterns. Generates rule… | Security Reviewed | — | — |
-| [ESLint Custom Rule Generator](skills/eslint-custom-rule-generator/) | Generates custom ESLint rules from natural language descriptions using the ESLint RuleTester API and AST Explorer… | Security Reviewed | — | — |
-| [ESLint Rule Analyzer](skills/eslint-rule-analyzer/) | Analyzes ESLint configurations using the ESLint Node.js API (new ESLint().calculateConfigForFile) and flat config… | Security Reviewed | — | — |
-| [ESLint Rule Analyzer and Fixer](skills/eslint-rule-analyzer-fixer/) | Performs deep ESLint configuration analysis using the ESLint Node.js API and flat config system. Auto-fixes rule… | Security Reviewed | — | — |
-| [ESLint Rule Architect](skills/eslint-rule-architect-2/) | Creates custom ESLint rules and shareable configs using the ESLint RuleTester API and @typescript-eslint/utils.… | Security Reviewed | — | — |
-| [ESLint Rule Auditor](skills/eslint-rule-auditor-3/) | Audits ESLint configurations using @eslint/eslintrc and @eslint/js flat config APIs. Detects conflicting rules,… | Security Reviewed | — | — |
-| [ESLint Rule Composer](skills/eslint-rule-composer/) | Creates custom ESLint rules using the ESLint RuleTester API and AST Explorer patterns. Generates rule… | Security Reviewed | — | — |
-| [ESLint Rule Configurator](skills/eslint-rule-configurator/) | Generates optimized ESLint flat config files using @eslint/js, typescript-eslint, and eslint-plugin-import. Provides… | Security Reviewed | — | — |
-| [ESLint Rule Conflict Detector](skills/eslint-rule-conflict-detector-2/) | Analyzes .eslintrc configurations and extended rulesets using the ESLint Node.js API and eslint-config-inspector.… | Security Reviewed | — | — |
-| [ESLint Rule Conflict Resolver](skills/eslint-rule-conflict-resolver/) | Detects and resolves conflicting ESLint rules across .eslintrc configurations using the ESLint Node.js API. Analyzes… | Security Reviewed | — | — |
-| [ESLint Rule Enforcement Agent](skills/eslint-rule-enforcement-agent/) | Automates ESLint configuration and rule enforcement using the ESLint Node.js API and @typescript-eslint/parser.… | Security Reviewed | — | — |
-| [ESLint Rule Enforcer](skills/eslint-rule-enforcer/) | Automates ESLint v9 flat config enforcement across monorepos using eslint-plugin-unicorn and… | Security Reviewed | — | — |
-| [ESLint Rule Enforcer Agent](skills/eslint-rule-enforcer-agent/) | Runs ESLint with custom rulesets via the ESLint Node.js API and eslint-plugin-import to enforce project-specific… | Security Reviewed | — | — |
-| [ESLint Rule Impact Analyzer](skills/eslint-rule-impact-analyzer-2/) | Measures the impact of enabling new ESLint rules across a codebase using the ESLint Node.js API and… | Security Reviewed | — | — |
-| [ESLint Rule Violation Summarizer](skills/eslint-rule-violation-summarizer-2/) | Runs ESLint against a JS/TS codebase, groups violations by rule and file, and produces a prioritized fix plan.… | Security Reviewed | — | — |
-| [Git Bisect Automation Agent](skills/git-bisect-automation-agent/) | Automates git bisect workflows to find regression-introducing commits using custom test scripts and the git bisect… | Security Reviewed | — | — |
-| [Great Expectations Data Validation Pipeline](skills/great-expectations-data-validation-pipeline/) | Validate data quality using the Great Expectations Python library. Define expectations as unit tests for your data,… | Security Reviewed | — | — |
-| [Jenkins Pipeline Code Review Agent](skills/jenkins-pipeline-code-review-agent/) | Reviews Jenkinsfile and Groovy pipeline scripts for anti-patterns, security issues, and performance bottlenecks… | Security Reviewed | — | — |
-| [Jest Unit Test Scaffolder](skills/jest-unit-test-scaffolder/) | Jest Unit Test Scaffolder is built around Jest JavaScript test framework. The underlying ecosystem is represented by… | Security Reviewed | — | — |
-| [Knip Unused Code and Dependency Finder](skills/knip-unused-code-dependency-finder/) | Run Knip to find and remove unused files, dependencies, and exports in JavaScript and TypeScript projects. Reduces… | Security Reviewed | — | — |
-| [Oxlint High-Performance JavaScript Linter](skills/oxlint-high-performance-javascript-linter/) | Run Oxlint from the Oxc toolchain to lint JavaScript and TypeScript codebases at extreme speed. Written in Rust,… | Security Reviewed | — | — |
-| [PHPStan Static Analyzer Agent](skills/phpstan-static-analyzer-agent/) | Performs PHP static analysis using PHPStan CLI at rule levels 0-9 with custom extensions. Detects type errors, dead… | Security Reviewed | — | — |
-| [Playwright Test Recorder](skills/playwright-test-recorder/) | Playwright Test Recorder is built around Playwright browser automation framework. The underlying ecosystem is… | Security Reviewed | — | — |
-| [Polaris Kubernetes Best Practices Validator](skills/polaris-kubernetes-best-practices-validator/) | Validate Kubernetes resource configurations against best practice policies using Fairwinds Polaris. Runs as a CLI… | Security Reviewed | — | — |
-| [Prettier Config Conflict Resolver](skills/prettier-config-conflict-resolver/) | Detects and resolves conflicts between Prettier, ESLint, and EditorConfig formatting rules using the Prettier… | Security Reviewed | — | — |
-| [Prettier Config Harmonizer](skills/prettier-config-harmonizer-2/) | Resolves Prettier formatting conflicts across monorepo packages using the Prettier API and @prettier/plugin-xml.… | Security Reviewed | — | — |
-| [Prettier Format Enforcement Bot](skills/prettier-format-enforcement-bot/) | Enforces code formatting standards using the Prettier API (prettier.format(), prettier.check()) and… | Security Reviewed | — | — |
-| [Pull Request Size Analyzer](skills/pull-request-size-analyzer-agent/) | Analyzes PR size and reviewability using the GitHub GraphQL API and git diff-stat. Enforces size limits, suggests PR… | Security Reviewed | — | — |
-| [Pylint Baseline Manager](skills/pylint-baseline-manager-wave48/) | Manages Pylint baseline files for gradual code quality improvement using pylint --output-format=json and the… | Security Reviewed | — | — |
-| [Pylint Code Review Assistant](skills/pylint-code-review-assistant/) | Perform automated Python code reviews using Pylint programmatic API and pylint-json2html for report generation.… | Security Reviewed | — | — |
-| [Pytest Fixture Generator](skills/pytest-fixture-generator/) | Pytest Fixture Generator is built around pytest Python testing framework. The underlying ecosystem is represented by… | Security Reviewed | — | — |
-| [Python Type Coverage Analyzer](skills/python-type-coverage-analyzer/) | Measures and improves Python type annotation coverage using mypy --html-report and pyright type completeness… | Security Reviewed | — | — |
-| [Ruff Linter and Formatter](skills/ruff-linter-formatter-agent/) | Ultra-fast Python linting and formatting using Ruff CLI with pyproject.toml configuration. Supports auto-fix, import… | Security Reviewed | — | — |
-| [Ruff Linter Configuration Architect](skills/ruff-linter-configuration-architect/) | Configures and optimizes Ruff Python linter settings using the ruff CLI and pyproject.toml schema. Migrates from… | Security Reviewed | — | — |
-| [Ruff Python Linter Configurator](skills/ruff-python-linter-configurator/) | Generates optimized Ruff configuration from existing Flake8, isort, and Black setups. Migrates pyproject.toml rules… | Security Reviewed | — | — |
-| [Semgrep Code Pattern Scanner](skills/semgrep-code-pattern-scanner-2/) | Runs Semgrep against a codebase using official or custom rule registries and outputs a grouped report of security… | Security Reviewed | — | — |
-| [Semgrep Code Scanner](skills/semgrep-code-scanner/) | Semgrep Code Scanner is built around Semgrep static analysis engine. The underlying ecosystem is represented by… | Security Reviewed | — | — |
-| [Semgrep Custom Pattern Builder](skills/semgrep-custom-pattern-builder/) | Builds custom Semgrep rules using the Semgrep pattern syntax and semgrep CLI. Generates YAML rule files with… | Security Reviewed | — | — |
-| [Semgrep Custom Pattern Generator](skills/semgrep-custom-pattern-generator/) | Generates Semgrep SAST rules from vulnerability descriptions using the Semgrep CLI and semgrep-rules YAML schema.… | Security Reviewed | — | — |
-| [Semgrep Custom Pattern Library](skills/semgrep-custom-pattern-library/) | Builds custom Semgrep rules using the semgrep YAML rule syntax with metavariable-pattern, pattern-either, and… | Security Reviewed | — | — |
-| [Semgrep Custom Rule Builder](skills/semgrep-custom-rule-builder-3/) | Creates custom Semgrep SAST rules using the semgrep CLI and rule schema YAML format. Supports pattern-either,… | Security Reviewed | — | — |
-| [Semgrep Pattern Matching Analyzer](skills/semgrep-pattern-matching-analyzer/) | Writes and deploys custom Semgrep rules using pattern, pattern-either, and metavariable-regex operators for… | Security Reviewed | — | — |
-| [Semgrep Pattern Matching Auditor](skills/semgrep-pattern-matching-auditor/) | Leverages the Semgrep OSS engine and semgrep-rules registry to perform deep static analysis across 30+ languages.… | Security Reviewed | — | — |
-| [Semgrep Pattern Scanner](skills/semgrep-pattern-scanner/) | Executes Semgrep CLI with custom YAML rules and the Semgrep Registry API to detect anti-patterns, vulnerabilities,… | Security Reviewed | — | — |
-| [Semgrep Rule Author](skills/semgrep-rule-author/) | Generates custom Semgrep rules from natural language descriptions of vulnerability patterns. Uses semgrep --validate… | Security Reviewed | — | — |
-| [Semgrep Rule Engine](skills/semgrep-rule-engine/) | Executes Semgrep static analysis using the semgrep CLI with custom YAML rule definitions. Supports taint tracking,… | Security Reviewed | — | — |
-| [Semgrep Rule Runner](skills/semgrep-rule-runner/) | Executes Semgrep static analysis using the semgrep CLI with custom YAML rule packs. Supports --config auto for… | Security Reviewed | — | — |
-| [Semgrep SAST Scanner](skills/semgrep-sast-scanner-skill/) | Runs Semgrep static analysis with custom rule packs targeting OWASP Top 10 patterns. Uses semgrep CLI with… | Security Reviewed | — | — |
-| [Semgrep Security Review Agent](skills/semgrep-security-review-agent/) | Performs SAST scanning using Semgrep CLI and Semgrep Registry rules. Detects OWASP Top 10 vulnerabilities, injection… | Security Reviewed | — | — |
-| [Semgrep Security Scanner](skills/semgrep-security-scanner-2/) | Scan codebases for security vulnerabilities and anti-patterns using Semgrep OSS rules and the Semgrep CLI. Supports… | Security Reviewed | — | — |
-| [ShellCheck Shell Script Static Analyzer](skills/shellcheck-shell-script-static-analyzer/) | Run static analysis on bash and shell scripts using ShellCheck to detect syntax errors, semantic pitfalls, and… | Security Reviewed | — | — |
-| [SonarQube Analysis Agent](skills/sonarqube-analysis-agent/) | Integrates with the SonarQube REST API to run static code analysis scans, retrieve quality gate results, and flag… | Security Reviewed | — | — |
-| [SonarQube Analysis Runner](skills/sonarqube-analysis-runner/) | Run SonarQube static analysis scans via the SonarQube Web API and sonar-scanner CLI. Detects code smells, bugs, and… | Security Reviewed | — | — |
-| [SonarQube Code Quality Scanner](skills/sonarqube-code-quality-scanner/) | Runs SonarQube static analysis via the SonarQube Web API and sonar-scanner CLI. Detects code smells, bugs, and… | Security Reviewed | — | — |
-| [SonarQube Code Scanner Agent](skills/sonarqube-code-scanner-agent/) | Automated code quality scanning using SonarQube REST API and SonarScanner CLI. Detects code smells, bugs, and… | Security Reviewed | — | — |
-| [SonarQube Gate Enforcer](skills/sonarqube-gate-enforcer/) | Enforces SonarQube quality gate conditions in CI pipelines using the SonarQube Web API… | Security Reviewed | — | — |
-| [SonarQube PR Gate](skills/sonarqube-pr-gate-skill/) | Integrates SonarQube quality gates into pull request workflows via the SonarQube Web API… | Security Reviewed | — | — |
-| [SonarQube Quality Gate Agent](skills/sonarqube-quality-gate-agent/) | Monitors SonarQube quality gate status via the SonarQube Web API and enforces code quality thresholds. Parses… | Security Reviewed | — | — |
-| [SonarQube Quality Gate Checker](skills/sonarqube-quality-gate-checker/) | Queries SonarQube Web API for project quality gate status, code coverage metrics, and technical debt analysis.… | Security Reviewed | — | — |
-| [SonarQube Quality Gate Enforcer](skills/sonarqube-quality-gate-enforcer-14/) | Enforces SonarQube quality gates in pull request workflows using the SonarQube Web API and ce/task endpoint. Blocks… | Security Reviewed | — | — |
-| [SonarQube Quality Gate Explainer](skills/sonarqube-quality-gate-explainer/) | Fetches the latest SonarQube project analysis result, explains why the Quality Gate failed in plain English, and… | Security Reviewed | — | — |
-| [SonarQube Quality Gate Monitor](skills/sonarqube-quality-gate-monitor-3/) | Monitors SonarQube project quality gates via the Web API and blocks CI deployments when thresholds fail. Tracks… | Security Reviewed | — | — |
-| [SonarQube Rule Enforcement Agent](skills/sonarqube-rule-enforcement-agent/) | Integrates with SonarQube Web API and sonar-scanner CLI to enforce code quality gates across pull requests.… | Security Reviewed | — | — |
-| [SonarQube Scanner Skill](skills/sonarqube-scanner-skill/) | Integrates SonarQube static analysis via the sonar-scanner CLI and SonarQube Web API. Fetches quality gate results… | Security Reviewed | — | — |
-| [Spectral OpenAPI and AsyncAPI Linter](skills/spectral-openapi-asyncapi-linter/) | Spectral is an open-source JSON/YAML linter by Stoplight with built-in support for OpenAPI 3.x, Swagger 2.0,… | Security Reviewed | — | — |
-| [SQLFluff SQL Linter and Auto-Formatter](skills/sqlfluff-sql-linter-auto-formatter/) | Lint and auto-format SQL code across 30+ dialects using SQLFluff. Enforces consistent style, catches syntax issues,… | Security Reviewed | — | — |
-| [sqruff High-Performance SQL Linter and Formatter](skills/sqruff-sql-linter-formatter/) | A fast SQL linter and formatter written in Rust by Quary Labs. sqruff provides advanced configurable linting and… | Security Reviewed | — | — |
-| [Storybook Component Tester](skills/storybook-component-tester/) | Storybook Component Tester is built around Storybook component workshop. The underlying ecosystem is represented by… | Security Reviewed | — | — |
-| [tokei Code Statistics Counter](skills/tokei-code-statistics-counter/) | Fast and accurate code statistics tool written in Rust. Counts lines of code, comments, and blanks across 200+… | Security Reviewed | — | — |
-| [ty Ultra-Fast Python Type Checker and Language Server](skills/ty-python-type-checker/) | ty is an extremely fast Python type checker and language server written in Rust by Astral, the creators of Ruff and… | Security Reviewed | — | — |
-| [typos Source Code Spell Checker](skills/typos-source-code-spell-checker/) | A blazing-fast source code spell checker written in Rust that finds and corrects typos across entire codebases.… | Security Reviewed | — | — |
 
 
 ### 📅 Calendar, Email & Productivity (77 skills)
@@ -1159,81 +1162,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Medi
 | [yt-dlp Feature-Rich Audio and Video Downloader CLI](skills/yt-dlp-feature-rich-audio-video-downloader-cli/) | yt-dlp is a powerful command-line tool for downloading audio and video from thousands of websites including YouTube,… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (67 skills)
-
-Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
-
-| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
-|---|---|---|---:|---:|
-| [Ansible Playbook Linter](skills/ansible-playbook-linter-2/) | Validates Ansible playbooks and roles using ansible-lint and yamllint APIs. Enforces best practices for idempotency,… | Security Reviewed | — | — |
-| [Ansible Playbook Runner](skills/ansible-playbook-runner/) | Ansible Playbook Runner is built around Ansible automation engine. The underlying ecosystem is represented by… | Security Reviewed | — | — |
-| [Ansible Playbook Template Generator](skills/ansible-playbook-template-generator/) | Generates Ansible playbook YAML with proper module usage, handler chains, and role structures using ansible-core… | Security Reviewed | — | — |
-| [Ansible Playbook Template Library](skills/ansible-playbook-template-library/) | Generates and validates Ansible playbooks from infrastructure requirements. Uses ansible-lint for validation and… | Security Reviewed | — | — |
-| [Argo Workflows DAG Optimizer](skills/argo-workflows-dag-optimizer/) | Analyzes Argo Workflows DAG templates to identify parallelization opportunities. Uses the Argo Server API to fetch… | Security Reviewed | — | — |
-| [Argo Workflows DAG Pipeline Builder](skills/argo-workflows-dag-pipeline-builder/) | Constructs Kubernetes-native workflow DAGs using Argo Workflows CRDs with configurable retry strategies, artifact… | Security Reviewed | — | — |
-| [AWS CDK Scaffolder](skills/aws-cdk-scaffolder/) | AWS CDK Scaffolder is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by… | Security Reviewed | — | — |
-| [Backstage Software Catalog Sync](skills/backstage-software-catalog-sync/) | Synchronizes service metadata into Spotify Backstage catalog using catalog-info.yaml generation and the Backstage… | Security Reviewed | — | — |
-| [Backstage Software Template Composer](skills/backstage-software-template-composer/) | Creates Spotify Backstage software templates using template.yaml definitions with Scaffolder actions including… | Security Reviewed | — | — |
-| [Bubble.io Stripe Subscription Portal Builder](skills/bubble-stripe-subscription-portal/) | Uses Bubble's Plugin API and the Stripe.js SDK to embed a self-service subscription management portal inside a… | Security Reviewed | — | — |
-| [Cloudflare Workers Deployer](skills/cloudflare-workers-deployer/) | Cloudflare Workers Deployer is built around Cloudflare developer platform. The underlying ecosystem is represented… | Security Reviewed | — | — |
-| [Cookiecutter Project Bootstrap](skills/cookiecutter-project-bootstrap/) | Bootstraps new projects from Cookiecutter templates with variable substitution and post-generation hooks. Supports… | Security Reviewed | — | — |
-| [Cookiecutter Project Bootstrapper](skills/cookiecutter-project-bootstrapper/) | Bootstraps project repositories from Cookiecutter templates with Jinja2 variable substitution and post-generation… | Security Reviewed | — | — |
-| [Cookiecutter Project Builder](skills/cookiecutter-project-builder/) | Creates project scaffolds from Cookiecutter templates with interactive variable resolution. Integrates with cruft… | Security Reviewed | — | — |
-| [Cookiecutter Project Scaffold](skills/cookiecutter-project-scaffold/) | Generates project boilerplate from Cookiecutter templates with Jinja2 variable injection. Supports custom hooks for… | Security Reviewed | — | — |
-| [Cookiecutter Project Scaffold Generator](skills/cookiecutter-project-scaffold-generator/) | Generates project scaffolds from Cookiecutter templates with Jinja2 variable interpolation. Supports post-generation… | Security Reviewed | — | — |
-| [Cookiecutter Project Scaffolder](skills/cookiecutter-project-scaffolder-3/) | Scaffolds project templates using the Cookiecutter engine with Jinja2 templating and pre/post generation hooks.… | Security Reviewed | — | — |
-| [Cookiecutter Project Scaffolding Agent](skills/cookiecutter-project-scaffolding-agent/) | Generates project boilerplate from Cookiecutter templates with interactive variable prompts. Supports custom Jinja2… | Security Reviewed | — | — |
-| [Cookiecutter Project Template Engine](skills/cookiecutter-project-template-engine/) | Manages and instantiates Cookiecutter project templates with dynamic Jinja2 variable substitution and… | Security Reviewed | — | — |
-| [Cookiecutter Project Template Scaffolder](skills/cookiecutter-project-template-scaffolder/) | Generates project scaffolds using Cookiecutter templates from GitHub repositories or local directories. Automates… | Security Reviewed | — | — |
-| [Cookiecutter Template Generator](skills/cookiecutter-template-generator/) | Generates project scaffolding using the Cookiecutter CLI with Jinja2 templating. Supports custom template… | Security Reviewed | — | — |
-| [Cron Job Manager](skills/cron-job-manager/) | Cron Job Manager is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by… | Security Reviewed | — | — |
-| [DigitalOcean Droplet Manager](skills/digitalocean-droplet-manager/) | DigitalOcean Droplet Manager is built around Kubernetes orchestration platform. The underlying ecosystem is… | Security Reviewed | — | — |
-| [Docker Compose Service Blueprint Creator](skills/docker-compose-service-blueprint-creator/) | Creates Docker Compose YAML service definitions using the Compose Specification. Configures multi-service stacks… | Security Reviewed | — | — |
-| [Docker Compose Test Harness](skills/docker-compose-test-harness/) | Scaffolds integration test environments using Docker Compose v2 CLI, testcontainers-python library, and the… | Security Reviewed | — | — |
-| [Fly.io Deployment Helper](skills/fly-io-deployment-helper/) | Fly.io Deployment Helper is built around GraphQL API ecosystem. The underlying ecosystem is represented by… | Security Reviewed | — | — |
-| [GitHub Actions Workflow Composer](skills/github-actions-workflow-composer-2/) | Composes GitHub Actions workflow YAML files from modular job templates, resolving action version pins and secret… | Security Reviewed | — | — |
-| [Helm Chart Boilerplate Builder](skills/helm-chart-boilerplate-builder/) | Scaffolds Kubernetes Helm charts with values.yaml templating, ingress configuration, and HPA definitions. Uses… | Security Reviewed | — | — |
-| [Helm Chart Template Scaffolder](skills/helm-chart-template-scaffolder/) | Scaffolds Helm 3 chart templates with Go templating best practices. Uses helm-unittest for test generation and… | Security Reviewed | — | — |
-| [Helm Chart Templater](skills/helm-chart-templater/) | Generates and validates Kubernetes Helm charts using helm template and helm lint APIs. Supports values schema… | Security Reviewed | — | — |
-| [Incident Response Template Generator](skills/incident-response-template-generator/) | Creates structured incident response templates using the PagerDuty Events API v2, Jira REST API for ticket creation,… | Security Reviewed | — | — |
-| [Jinja2 Infrastructure Template Engine](skills/jinja2-infrastructure-template-engine/) | Generates infrastructure-as-code configurations from Jinja2 templates with variable inheritance. Produces Terraform… | Security Reviewed | — | — |
-| [Jinja2 Template Engine](skills/jinja2-template-engine-agent/) | Renders Jinja2 templates with variable injection, macro expansion, and template inheritance. Integrates with the… | Security Reviewed | — | — |
-| [Kubernetes Helm Chart Scaffold Builder](skills/kubernetes-helm-chart-scaffold-builder/) | Generates Helm v3 chart scaffolds with templated deployments, services, ingress rules, and values.yaml schemas.… | Security Reviewed | — | — |
-| [Makedown Task Runner](skills/makedown-task-runner/) | Extracts executable task definitions from Markdown files and runs them as shell pipelines. Parses fenced code blocks… | Security Reviewed | — | — |
-| [Makefile Workflow Generator](skills/makefile-workflow-generator/) | Generates project Makefiles with standard targets using GNU Make syntax, autodeps pattern rules, and integration… | Security Reviewed | — | — |
-| [Mustache Template Renderer](skills/mustache-template-renderer-agent/) | Renders Mustache logic-less templates with partials resolution and lambda support. Uses the mustache.js library for… | Security Reviewed | — | — |
-| [Netlify Site Manager](skills/netlify-site-manager/) | Netlify Site Manager is built around Netlify deployment platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
-| [Notion to PDF Knowledge Exporter](skills/notion-to-pdf-knowledge-exporter/) | Queries Notion databases and pages via the Notion API v1, then renders content blocks into PDF via WeasyPrint.… | Security Reviewed | — | — |
-| [Nx Monorepo Workflow Orchestrator](skills/nx-monorepo-workflow-orchestrator/) | Manages Nx workspace task orchestration using nx.json configuration and @nrwl/devkit executors. Automates dependency… | Security Reviewed | — | — |
-| [Nx Workspace Generator](skills/nx-workspace-generator/) | Creates and manages Nx monorepo workspace generators using @nx/devkit and the Nx plugin API. Generates libraries,… | Security Reviewed | — | — |
-| [Nx Workspace Generator Toolkit](skills/nx-workspace-generator-toolkit/) | Creates and manages custom Nx workspace generators using @nrwl/devkit with TypeTree file generation and schema.json… | Security Reviewed | — | — |
-| [Packer Image Builder](skills/packer-image-builder/) | Packer Image Builder is built around Docker container platform. The underlying ecosystem is represented by moby/moby… | Security Reviewed | — | — |
-| [Plop.js Code Generator](skills/plopjs-code-generator/) | Creates Plop.js generators with Handlebars templates and custom action types for scaffolding React components, API… | Security Reviewed | — | — |
-| [Plop.js Code Generator Orchestrator](skills/plopjs-code-generator-orchestrator/) | Manages Plop.js micro-generators to scaffold components, modules, and boilerplate files using Handlebars templates.… | Security Reviewed | — | — |
-| [Pulumi Infrastructure Stack Templater](skills/pulumi-infrastructure-stack-templater/) | Generates Pulumi infrastructure-as-code stacks in TypeScript and Python using @pulumi/aws, @pulumi/azure-native, and… | Security Reviewed | — | — |
-| [Railway App Deployer](skills/railway-app-deployer/) | Railway App Deployer is built around GraphQL API ecosystem. The underlying ecosystem is represented by… | Security Reviewed | — | — |
-| [Self-Improvement / Learnings Capture](skills/self-improvement-learnings-capture/) | Capture failures, corrections, and repeatable lessons so important operational knowledge persists across sessions. | Security Reviewed | — | — |
-| [Semgrep Custom Rule Runner](skills/semgrep-custom-rule-runner-2/) | Executes Semgrep OSS with custom YAML rule files for project-specific static analysis patterns. Supports semgrep… | Security Reviewed | — | — |
-| [SonarQube Gate Checker](skills/sonarqube-gate-checker-2/) | Queries the SonarQube Web API (/api/qualitygates/project_status) to evaluate quality gate conditions before merge.… | Security Reviewed | — | — |
-| [Swagger Codegen Orchestrator](skills/swagger-codegen-orchestrator/) | Orchestrates OpenAPI 3.x code generation using swagger-codegen-cli and openapi-generator. Produces typed client SDKs… | Security Reviewed | — | — |
-| [Temporal Durable Execution Workflow Orchestration Platform](skills/temporal-durable-execution-workflow-platform/) | Temporal is an open-source durable execution platform that lets developers build scalable, fault-tolerant workflows.… | Published | — | — |
-| [Terraform Module Boilerplate Assembler](skills/terraform-module-boilerplate-assembler/) | Generates Terraform module scaffolds with variables.tf, outputs.tf, and provider configurations from a module… | Security Reviewed | — | — |
-| [Terraform Module Registry](skills/terraform-module-registry/) | Terraform Module Registry is built around Terraform infrastructure as code. The underlying ecosystem is represented… | Security Reviewed | — | — |
-| [Terraform Module Registry Browser](skills/terraform-module-registry-browser/) | Searches and evaluates Terraform modules from the HashiCorp Registry API and private registries. Uses hcl2json… | Security Reviewed | — | — |
-| [Terraform Module Scaffold Generator](skills/terraform-module-scaffold-generator/) | Generates production-ready Terraform module scaffolds with variables.tf, outputs.tf, and provider blocks using the… | Security Reviewed | — | — |
-| [Terraform Module Template Engine](skills/terraform-module-template-engine/) | Scaffolds production-ready Terraform modules using HCL templates with automated variable documentation via… | Security Reviewed | — | — |
-| [Terraform Module Template Generator](skills/terraform-module-template-generator/) | Scaffolds production-ready Terraform modules with HCL templates, variable definitions, and output blocks. Uses the… | Security Reviewed | — | — |
-| [Terraform Module Testing Framework](skills/terraform-module-testing-framework/) | Tests Terraform modules using Terratest Go library and terraform test native framework. Validates plan output,… | Security Reviewed | — | — |
-| [Twitter/X Trend Monitor & Thread Publisher](skills/twitter-x-trend-monitor-thread-publisher/) | Polls the X API v2 trending topics endpoint every 15 minutes and compares against a keyword watchlist stored in… | Security Reviewed | — | — |
-| [Vercel Deployment Agent](skills/vercel-deployment-agent/) | Vercel Deployment Agent is built around Vercel deployment platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
-| [Windmill Open-Source Workflow Engine and Developer Platform](skills/windmill-workflow-engine-developer-platform/) | Open-source developer platform to turn scripts into webhooks, workflows, and UIs. Self-hostable alternative to… | Security Reviewed | — | — |
-| [Yeoman Enterprise Generator Suite](skills/yeoman-enterprise-generator-suite/) | Manages Yeoman generators for enterprise application scaffolding with custom sub-generators. Handles Angular module… | Security Reviewed | — | — |
-| [Yeoman Generator Builder](skills/yeoman-generator-builder/) | Creates custom Yeoman generators using the yeoman-generator API and yo CLI. Scaffolds generator packages with… | Security Reviewed | — | — |
-| [Yeoman Scaffold Runner](skills/yeoman-scaffold-runner/) | Executes Yeoman generators via the yo CLI and yeoman-environment API to scaffold applications, components, and… | Security Reviewed | — | — |
-| [Yeoman Sub-Generator Composition Builder](skills/yeoman-sub-generator-composition-builder/) | Orchestrates Yeoman generator composition by chaining sub-generators via the Yeoman Environment API. Manages yo run… | Security Reviewed | — | — |
-| [Yeoman Workflow Orchestrator](skills/yeoman-workflow-orchestrator/) | Orchestrates Yeoman generator workflows with composable sub-generators and mem-fs-editor file transformations.… | Security Reviewed | — | — |
-
-
 ### 🔍 Research & Scraping (67 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=downloads)
@@ -1307,6 +1235,81 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [SpiderFoot Open Source Intelligence Automation Framework](skills/spiderfoot-osint-automation-framework/) | SpiderFoot is an open-source OSINT automation tool that queries over 200 data sources to gather intelligence about… | Security Reviewed | — | — |
 | [theHarvester OSINT Email and Subdomain Intelligence Gatherer](skills/theharvester-osint-email-subdomain-intelligence/) | theHarvester is an open-source OSINT tool for gathering emails, subdomains, hosts, employee names, open ports, and… | Security Reviewed | — | — |
 | [Trafilatura Web Text Extraction and Crawling Toolkit](skills/trafilatura-web-text-extraction-crawling/) | Trafilatura is a Python package and CLI tool for gathering text from the web. It handles crawling, downloading, and… | Security Reviewed | — | — |
+
+
+### 📄 Templates & Workflows (67 skills)
+
+Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
+
+| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
+|---|---|---|---:|---:|
+| [Ansible Playbook Linter](skills/ansible-playbook-linter-2/) | Validates Ansible playbooks and roles using ansible-lint and yamllint APIs. Enforces best practices for idempotency,… | Security Reviewed | — | — |
+| [Ansible Playbook Runner](skills/ansible-playbook-runner/) | Ansible Playbook Runner is built around Ansible automation engine. The underlying ecosystem is represented by… | Security Reviewed | — | — |
+| [Ansible Playbook Template Generator](skills/ansible-playbook-template-generator/) | Generates Ansible playbook YAML with proper module usage, handler chains, and role structures using ansible-core… | Security Reviewed | — | — |
+| [Ansible Playbook Template Library](skills/ansible-playbook-template-library/) | Generates and validates Ansible playbooks from infrastructure requirements. Uses ansible-lint for validation and… | Security Reviewed | — | — |
+| [Argo Workflows DAG Optimizer](skills/argo-workflows-dag-optimizer/) | Analyzes Argo Workflows DAG templates to identify parallelization opportunities. Uses the Argo Server API to fetch… | Security Reviewed | — | — |
+| [Argo Workflows DAG Pipeline Builder](skills/argo-workflows-dag-pipeline-builder/) | Constructs Kubernetes-native workflow DAGs using Argo Workflows CRDs with configurable retry strategies, artifact… | Security Reviewed | — | — |
+| [AWS CDK Scaffolder](skills/aws-cdk-scaffolder/) | AWS CDK Scaffolder is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by… | Security Reviewed | — | — |
+| [Backstage Software Catalog Sync](skills/backstage-software-catalog-sync/) | Synchronizes service metadata into Spotify Backstage catalog using catalog-info.yaml generation and the Backstage… | Security Reviewed | — | — |
+| [Backstage Software Template Composer](skills/backstage-software-template-composer/) | Creates Spotify Backstage software templates using template.yaml definitions with Scaffolder actions including… | Security Reviewed | — | — |
+| [Bubble.io Stripe Subscription Portal Builder](skills/bubble-stripe-subscription-portal/) | Uses Bubble's Plugin API and the Stripe.js SDK to embed a self-service subscription management portal inside a… | Security Reviewed | — | — |
+| [Cloudflare Workers Deployer](skills/cloudflare-workers-deployer/) | Cloudflare Workers Deployer is built around Cloudflare developer platform. The underlying ecosystem is represented… | Security Reviewed | — | — |
+| [Cookiecutter Project Bootstrap](skills/cookiecutter-project-bootstrap/) | Bootstraps new projects from Cookiecutter templates with variable substitution and post-generation hooks. Supports… | Security Reviewed | — | — |
+| [Cookiecutter Project Bootstrapper](skills/cookiecutter-project-bootstrapper/) | Bootstraps project repositories from Cookiecutter templates with Jinja2 variable substitution and post-generation… | Security Reviewed | — | — |
+| [Cookiecutter Project Builder](skills/cookiecutter-project-builder/) | Creates project scaffolds from Cookiecutter templates with interactive variable resolution. Integrates with cruft… | Security Reviewed | — | — |
+| [Cookiecutter Project Scaffold](skills/cookiecutter-project-scaffold/) | Generates project boilerplate from Cookiecutter templates with Jinja2 variable injection. Supports custom hooks for… | Security Reviewed | — | — |
+| [Cookiecutter Project Scaffold Generator](skills/cookiecutter-project-scaffold-generator/) | Generates project scaffolds from Cookiecutter templates with Jinja2 variable interpolation. Supports post-generation… | Security Reviewed | — | — |
+| [Cookiecutter Project Scaffolder](skills/cookiecutter-project-scaffolder-3/) | Scaffolds project templates using the Cookiecutter engine with Jinja2 templating and pre/post generation hooks.… | Security Reviewed | — | — |
+| [Cookiecutter Project Scaffolding Agent](skills/cookiecutter-project-scaffolding-agent/) | Generates project boilerplate from Cookiecutter templates with interactive variable prompts. Supports custom Jinja2… | Security Reviewed | — | — |
+| [Cookiecutter Project Template Engine](skills/cookiecutter-project-template-engine/) | Manages and instantiates Cookiecutter project templates with dynamic Jinja2 variable substitution and… | Security Reviewed | — | — |
+| [Cookiecutter Project Template Scaffolder](skills/cookiecutter-project-template-scaffolder/) | Generates project scaffolds using Cookiecutter templates from GitHub repositories or local directories. Automates… | Security Reviewed | — | — |
+| [Cookiecutter Template Generator](skills/cookiecutter-template-generator/) | Generates project scaffolding using the Cookiecutter CLI with Jinja2 templating. Supports custom template… | Security Reviewed | — | — |
+| [Cron Job Manager](skills/cron-job-manager/) | Cron Job Manager is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by… | Security Reviewed | — | — |
+| [DigitalOcean Droplet Manager](skills/digitalocean-droplet-manager/) | DigitalOcean Droplet Manager is built around Kubernetes orchestration platform. The underlying ecosystem is… | Security Reviewed | — | — |
+| [Docker Compose Service Blueprint Creator](skills/docker-compose-service-blueprint-creator/) | Creates Docker Compose YAML service definitions using the Compose Specification. Configures multi-service stacks… | Security Reviewed | — | — |
+| [Docker Compose Test Harness](skills/docker-compose-test-harness/) | Scaffolds integration test environments using Docker Compose v2 CLI, testcontainers-python library, and the… | Security Reviewed | — | — |
+| [Fly.io Deployment Helper](skills/fly-io-deployment-helper/) | Fly.io Deployment Helper is built around GraphQL API ecosystem. The underlying ecosystem is represented by… | Security Reviewed | — | — |
+| [GitHub Actions Workflow Composer](skills/github-actions-workflow-composer-2/) | Composes GitHub Actions workflow YAML files from modular job templates, resolving action version pins and secret… | Security Reviewed | — | — |
+| [Helm Chart Boilerplate Builder](skills/helm-chart-boilerplate-builder/) | Scaffolds Kubernetes Helm charts with values.yaml templating, ingress configuration, and HPA definitions. Uses… | Security Reviewed | — | — |
+| [Helm Chart Template Scaffolder](skills/helm-chart-template-scaffolder/) | Scaffolds Helm 3 chart templates with Go templating best practices. Uses helm-unittest for test generation and… | Security Reviewed | — | — |
+| [Helm Chart Templater](skills/helm-chart-templater/) | Generates and validates Kubernetes Helm charts using helm template and helm lint APIs. Supports values schema… | Security Reviewed | — | — |
+| [Incident Response Template Generator](skills/incident-response-template-generator/) | Creates structured incident response templates using the PagerDuty Events API v2, Jira REST API for ticket creation,… | Security Reviewed | — | — |
+| [Jinja2 Infrastructure Template Engine](skills/jinja2-infrastructure-template-engine/) | Generates infrastructure-as-code configurations from Jinja2 templates with variable inheritance. Produces Terraform… | Security Reviewed | — | — |
+| [Jinja2 Template Engine](skills/jinja2-template-engine-agent/) | Renders Jinja2 templates with variable injection, macro expansion, and template inheritance. Integrates with the… | Security Reviewed | — | — |
+| [Kubernetes Helm Chart Scaffold Builder](skills/kubernetes-helm-chart-scaffold-builder/) | Generates Helm v3 chart scaffolds with templated deployments, services, ingress rules, and values.yaml schemas.… | Security Reviewed | — | — |
+| [Makedown Task Runner](skills/makedown-task-runner/) | Extracts executable task definitions from Markdown files and runs them as shell pipelines. Parses fenced code blocks… | Security Reviewed | — | — |
+| [Makefile Workflow Generator](skills/makefile-workflow-generator/) | Generates project Makefiles with standard targets using GNU Make syntax, autodeps pattern rules, and integration… | Security Reviewed | — | — |
+| [Mustache Template Renderer](skills/mustache-template-renderer-agent/) | Renders Mustache logic-less templates with partials resolution and lambda support. Uses the mustache.js library for… | Security Reviewed | — | — |
+| [Netlify Site Manager](skills/netlify-site-manager/) | Netlify Site Manager is built around Netlify deployment platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
+| [Notion to PDF Knowledge Exporter](skills/notion-to-pdf-knowledge-exporter/) | Queries Notion databases and pages via the Notion API v1, then renders content blocks into PDF via WeasyPrint.… | Security Reviewed | — | — |
+| [Nx Monorepo Workflow Orchestrator](skills/nx-monorepo-workflow-orchestrator/) | Manages Nx workspace task orchestration using nx.json configuration and @nrwl/devkit executors. Automates dependency… | Security Reviewed | — | — |
+| [Nx Workspace Generator](skills/nx-workspace-generator/) | Creates and manages Nx monorepo workspace generators using @nx/devkit and the Nx plugin API. Generates libraries,… | Security Reviewed | — | — |
+| [Nx Workspace Generator Toolkit](skills/nx-workspace-generator-toolkit/) | Creates and manages custom Nx workspace generators using @nrwl/devkit with TypeTree file generation and schema.json… | Security Reviewed | — | — |
+| [Packer Image Builder](skills/packer-image-builder/) | Packer Image Builder is built around Docker container platform. The underlying ecosystem is represented by moby/moby… | Security Reviewed | — | — |
+| [Plop.js Code Generator](skills/plopjs-code-generator/) | Creates Plop.js generators with Handlebars templates and custom action types for scaffolding React components, API… | Security Reviewed | — | — |
+| [Plop.js Code Generator Orchestrator](skills/plopjs-code-generator-orchestrator/) | Manages Plop.js micro-generators to scaffold components, modules, and boilerplate files using Handlebars templates.… | Security Reviewed | — | — |
+| [Pulumi Infrastructure Stack Templater](skills/pulumi-infrastructure-stack-templater/) | Generates Pulumi infrastructure-as-code stacks in TypeScript and Python using @pulumi/aws, @pulumi/azure-native, and… | Security Reviewed | — | — |
+| [Railway App Deployer](skills/railway-app-deployer/) | Railway App Deployer is built around GraphQL API ecosystem. The underlying ecosystem is represented by… | Security Reviewed | — | — |
+| [Self-Improvement / Learnings Capture](skills/self-improvement-learnings-capture/) | Capture failures, corrections, and repeatable lessons so important operational knowledge persists across sessions. | Security Reviewed | — | — |
+| [Semgrep Custom Rule Runner](skills/semgrep-custom-rule-runner-2/) | Executes Semgrep OSS with custom YAML rule files for project-specific static analysis patterns. Supports semgrep… | Security Reviewed | — | — |
+| [SonarQube Gate Checker](skills/sonarqube-gate-checker-2/) | Queries the SonarQube Web API (/api/qualitygates/project_status) to evaluate quality gate conditions before merge.… | Security Reviewed | — | — |
+| [Swagger Codegen Orchestrator](skills/swagger-codegen-orchestrator/) | Orchestrates OpenAPI 3.x code generation using swagger-codegen-cli and openapi-generator. Produces typed client SDKs… | Security Reviewed | — | — |
+| [Temporal Durable Execution Workflow Orchestration Platform](skills/temporal-durable-execution-workflow-platform/) | Temporal is an open-source durable execution platform that lets developers build scalable, fault-tolerant workflows.… | Published | — | — |
+| [Terraform Module Boilerplate Assembler](skills/terraform-module-boilerplate-assembler/) | Generates Terraform module scaffolds with variables.tf, outputs.tf, and provider configurations from a module… | Security Reviewed | — | — |
+| [Terraform Module Registry](skills/terraform-module-registry/) | Terraform Module Registry is built around Terraform infrastructure as code. The underlying ecosystem is represented… | Security Reviewed | — | — |
+| [Terraform Module Registry Browser](skills/terraform-module-registry-browser/) | Searches and evaluates Terraform modules from the HashiCorp Registry API and private registries. Uses hcl2json… | Security Reviewed | — | — |
+| [Terraform Module Scaffold Generator](skills/terraform-module-scaffold-generator/) | Generates production-ready Terraform module scaffolds with variables.tf, outputs.tf, and provider blocks using the… | Security Reviewed | — | — |
+| [Terraform Module Template Engine](skills/terraform-module-template-engine/) | Scaffolds production-ready Terraform modules using HCL templates with automated variable documentation via… | Security Reviewed | — | — |
+| [Terraform Module Template Generator](skills/terraform-module-template-generator/) | Scaffolds production-ready Terraform modules with HCL templates, variable definitions, and output blocks. Uses the… | Security Reviewed | — | — |
+| [Terraform Module Testing Framework](skills/terraform-module-testing-framework/) | Tests Terraform modules using Terratest Go library and terraform test native framework. Validates plan output,… | Security Reviewed | — | — |
+| [Twitter/X Trend Monitor & Thread Publisher](skills/twitter-x-trend-monitor-thread-publisher/) | Polls the X API v2 trending topics endpoint every 15 minutes and compares against a keyword watchlist stored in… | Security Reviewed | — | — |
+| [Vercel Deployment Agent](skills/vercel-deployment-agent/) | Vercel Deployment Agent is built around Vercel deployment platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
+| [Windmill Open-Source Workflow Engine and Developer Platform](skills/windmill-workflow-engine-developer-platform/) | Open-source developer platform to turn scripts into webhooks, workflows, and UIs. Self-hostable alternative to… | Security Reviewed | — | — |
+| [Yeoman Enterprise Generator Suite](skills/yeoman-enterprise-generator-suite/) | Manages Yeoman generators for enterprise application scaffolding with custom sub-generators. Handles Angular module… | Security Reviewed | — | — |
+| [Yeoman Generator Builder](skills/yeoman-generator-builder/) | Creates custom Yeoman generators using the yeoman-generator API and yo CLI. Scaffolds generator packages with… | Security Reviewed | — | — |
+| [Yeoman Scaffold Runner](skills/yeoman-scaffold-runner/) | Executes Yeoman generators via the yo CLI and yeoman-environment API to scaffold applications, components, and… | Security Reviewed | — | — |
+| [Yeoman Sub-Generator Composition Builder](skills/yeoman-sub-generator-composition-builder/) | Orchestrates Yeoman generator composition by chaining sub-generators via the Yeoman Environment API. Manages yo run… | Security Reviewed | — | — |
+| [Yeoman Workflow Orchestrator](skills/yeoman-workflow-orchestrator/) | Orchestrates Yeoman generator workflows with composable sub-generators and mem-fs-editor file transformations.… | Security Reviewed | — | — |
 
 
 ### 🎨 Image & Creative Automation (66 skills)

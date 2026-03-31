@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1531,
+  "total": 1534,
   "generated": "2026-03-31",
   "skills": [
+    {
+      "slug": "testcontainers-node-throwaway-docker-integration-testing",
+      "name": "Testcontainers Node Throwaway Docker Integration Testing Library",
+      "description": "Testcontainers for Node.js is a library that provides lightweight, throwaway instances of databases, message brokers, browsers, and other services as Docker containers for integration…",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "bun-all-in-one-javascript-runtime-bundler-package-manager",
+      "name": "Bun All-in-One JavaScript Runtime Bundler and Package Manager",
+      "description": "Bun is an all-in-one toolkit for JavaScript and TypeScript apps that ships as a single executable. It includes a fast JavaScript runtime (Node.js-compatible), bundler,…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "podman-daemonless-container-management-engine",
+      "name": "Podman Daemonless Container Management Engine",
+      "description": "Podman is a daemonless container engine for developing, managing, and running OCI containers on Linux, Mac, and Windows. It provides a Docker-compatible CLI interface…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "aichat-llm-cli-shell-assistant-rag",
       "name": "AIChat All-in-One LLM CLI with Shell Assistant and RAG",

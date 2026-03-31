@@ -89,6 +89,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Bazel Build Graph Analyzer](../../skills/bazel-build-graph-analyzer/) | — | — |
 | [Biome Lint Migration Toolkit](../../skills/biome-lint-migration-toolkit/) | — | — |
 | [Bruno Git-Native API Client for Testing and Exploration](../../skills/bruno-git-native-api-client-testing-exploration/) | — | — |
+| [Bun All-in-One JavaScript Runtime Bundler and Package Manager](../../skills/bun-all-in-one-javascript-runtime-bundler-package-manager/) | — | — |
 | [Bun Shell Script Executor](../../skills/bun-shell-script-executor/) | — | — |
 | [Caddy Automatic HTTPS Web Server and Reverse Proxy](../../skills/caddy-automatic-https-web-server-reverse-proxy/) | — | — |
 | [Changesets Version and Changelog Manager](../../skills/changesets-version-changelog-manager/) | — | — |
@@ -177,6 +178,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [pgroll PostgreSQL Zero-Downtime Schema Migration](../../skills/pgroll-postgresql-zero-downtime-schema-migration/) | — | — |
 | [Pixi Cross-Platform Package Manager Built on Conda](../../skills/pixi-cross-platform-package-manager-conda-rust/) | — | — |
 | [Playwright E2E Test Generator](../../skills/playwright-e2e-test-generator/) | — | — |
+| [Podman Daemonless Container Management Engine](../../skills/podman-daemonless-container-management-engine/) | — | — |
 | [Postgres MCP Pro Server for Database Analysis and Tuning](../../skills/postgres-mcp-pro-database-analysis-tuning/) | — | — |
 | [PostgreSQL Query Optimizer Agent](../../skills/postgresql-query-optimizer-explain-api/) | — | — |
 | [PostgreSQL Query Plan Analyzer](../../skills/postgresql-query-plan-analyzer-2/) | — | — |

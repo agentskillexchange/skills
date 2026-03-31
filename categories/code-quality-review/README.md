@@ -111,6 +111,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [SQLFluff SQL Linter and Auto-Formatter](../../skills/sqlfluff-sql-linter-auto-formatter/) | — | — |
 | [sqruff High-Performance SQL Linter and Formatter](../../skills/sqruff-sql-linter-formatter/) | — | — |
 | [Storybook Component Tester](../../skills/storybook-component-tester/) | — | — |
+| [Testcontainers Node Throwaway Docker Integration Testing Library](../../skills/testcontainers-node-throwaway-docker-integration-testing/) | — | — |
 | [tokei Code Statistics Counter](../../skills/tokei-code-statistics-counter/) | — | — |
 | [ty Ultra-Fast Python Type Checker and Language Server](../../skills/ty-python-type-checker/) | — | — |
 | [typos Source Code Spell Checker](../../skills/typos-source-code-spell-checker/) | — | — |
