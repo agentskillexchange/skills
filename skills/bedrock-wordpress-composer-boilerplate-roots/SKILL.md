@@ -5,6 +5,12 @@ category: "WordPress &amp; CMS"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/roots/bedrock"
+tool_ecosystem:
+  tool: bedrock
+  github_repo: roots/bedrock
+  github_stars: 6498
+  license: MIT
+  maintained: true
 ---
 # Bedrock Modern WordPress Project Boilerplate by Roots
 

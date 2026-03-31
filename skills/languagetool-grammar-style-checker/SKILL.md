@@ -5,6 +5,12 @@ category: "Content Writing &amp; SEO"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/languagetool-org/languagetool"
+tool_ecosystem:
+  tool: languagetool
+  github_repo: languagetool-org/languagetool
+  github_stars: 14238
+  license: LGPL-2.1
+  maintained: true
 ---
 # LanguageTool Grammar and Style Checker
 

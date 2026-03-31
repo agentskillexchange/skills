@@ -5,6 +5,12 @@ category: "Media &amp; Transcription"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/spotify/pedalboard"
+tool_ecosystem:
+  tool: pedalboard
+  github_repo: spotify/pedalboard
+  github_stars: 6041
+  license: GPL-3.0
+  maintained: true
 ---
 # Pedalboard Python Audio Effects Library by Spotify
 

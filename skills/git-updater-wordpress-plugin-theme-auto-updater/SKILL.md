@@ -3,7 +3,7 @@ name: "Git Updater WordPress Plugin and Theme Auto-Updater from Git Repositories
 description: "Git Updater enables automatic updates for WordPress plugins and themes hosted on GitHub, Bitbucket, GitLab, and Gitea repositories, with support for release assets, language packs, and branch switching."
 category: "WordPress &amp; CMS"
 framework: "Multi-Framework"
-verification: listed
+verification: security_reviewed
 source: "https://github.com/afragen/git-updater"
 tool_ecosystem:
   tool: git-updater

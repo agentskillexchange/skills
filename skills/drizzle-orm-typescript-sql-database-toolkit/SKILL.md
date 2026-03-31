@@ -5,6 +5,13 @@ category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/drizzle-team/drizzle-orm"
+tool_ecosystem:
+  tool: drizzle-orm
+  github_repo: drizzle-team/drizzle-orm
+  github_stars: 33566
+  npm_weekly_downloads: 6520934
+  license: Apache-2.0
+  maintained: true
 ---
 # Drizzle ORM TypeScript SQL Database Toolkit
 

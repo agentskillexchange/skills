@@ -5,6 +5,12 @@ category: "Monitoring &amp; Alerts"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/PostHog/posthog-js"
+tool_ecosystem:
+  tool: posthog-js
+  github_repo: posthog/posthog-js
+  github_stars: 531
+  npm_weekly_downloads: 4551042
+  maintained: true
 ---
 # PostHog Product Analytics and Feature Flags SDK
 

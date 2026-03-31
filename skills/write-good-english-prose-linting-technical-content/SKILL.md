@@ -5,6 +5,13 @@ category: "Content Writing &amp; SEO"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/btford/write-good"
+tool_ecosystem:
+  tool: write-good
+  github_repo: btford/write-good
+  github_stars: 5065
+  npm_weekly_downloads: 51497
+  license: MIT
+  maintained: false
 ---
 # write-good English Prose Linting for Technical Content
 

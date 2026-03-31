@@ -5,6 +5,12 @@ category: "Browser Automation"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/chromedp/chromedp"
+tool_ecosystem:
+  tool: chromedp
+  github_repo: chromedp/chromedp
+  github_stars: 12900
+  license: MIT
+  maintained: true
 ---
 # chromedp Go Browser Automation with Chrome DevTools Protocol
 

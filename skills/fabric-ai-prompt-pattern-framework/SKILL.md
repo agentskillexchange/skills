@@ -5,6 +5,12 @@ category: "Developer Tools"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/danielmiessler/fabric"
+tool_ecosystem:
+  tool: fabric
+  github_repo: danielmiessler/fabric
+  github_stars: 40278
+  license: MIT
+  maintained: true
 ---
 # Fabric AI Prompt Pattern Framework
 

@@ -5,6 +5,13 @@ category: "Content Writing &amp; SEO"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/textlint/textlint"
+tool_ecosystem:
+  tool: textlint
+  github_repo: textlint/textlint
+  github_stars: 3099
+  npm_weekly_downloads: 100457
+  license: MIT
+  maintained: true
 ---
 # textlint Pluggable Natural Language Linter
 

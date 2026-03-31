@@ -9,6 +9,7 @@ tool_ecosystem:
   tool: pagefind
   github_repo: pagefind/pagefind
   github_stars: 5094
+  npm_weekly_downloads: 457379
   license: MIT
   maintained: true
 ---

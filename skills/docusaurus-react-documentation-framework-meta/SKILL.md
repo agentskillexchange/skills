@@ -9,6 +9,7 @@ tool_ecosystem:
   tool: docusaurus
   github_repo: facebook/docusaurus
   github_stars: 64315
+  npm_weekly_downloads: 17913
   license: MIT
   maintained: true
 ---

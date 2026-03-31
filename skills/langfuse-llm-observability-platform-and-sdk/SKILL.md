@@ -5,6 +5,11 @@ category: "Monitoring &amp; Alerts"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/langfuse/langfuse"
+tool_ecosystem:
+  tool: langfuse
+  github_repo: langfuse/langfuse
+  github_stars: 24091
+  maintained: true
 ---
 # Langfuse LLM Observability Platform and SDK
 

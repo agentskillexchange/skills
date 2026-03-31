@@ -9,6 +9,7 @@ tool_ecosystem:
   tool: sveltia-cms
   github_repo: sveltia/sveltia-cms
   github_stars: 2245
+  npm_weekly_downloads: 3767
   license: MIT
   maintained: true
 ---

@@ -5,6 +5,13 @@ category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/evanw/esbuild"
+tool_ecosystem:
+  tool: esbuild
+  github_repo: evanw/esbuild
+  github_stars: 39815
+  npm_weekly_downloads: 163703618
+  license: MIT
+  maintained: true
 ---
 # esbuild Ultra-Fast JavaScript Bundler
 

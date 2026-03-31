@@ -5,6 +5,13 @@ category: "Content Writing &amp; SEO"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/harlan-zw/unlighthouse"
+tool_ecosystem:
+  tool: unlighthouse
+  github_repo: harlan-zw/unlighthouse
+  github_stars: 4469
+  npm_weekly_downloads: 15947
+  license: MIT
+  maintained: true
 ---
 # Unlighthouse Site-Wide Lighthouse and SEO Auditing
 

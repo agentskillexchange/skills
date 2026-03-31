@@ -5,6 +5,11 @@ category: "Media &amp; Transcription"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/HandBrake/HandBrake"
+tool_ecosystem:
+  tool: handbrake
+  github_repo: handbrake/handbrake
+  github_stars: 22806
+  maintained: true
 ---
 # HandBrake Open-Source Video Transcoder
 

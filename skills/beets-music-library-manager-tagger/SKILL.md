@@ -5,6 +5,12 @@ category: "Media &amp; Transcription"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/beetbox/beets"
+tool_ecosystem:
+  tool: beets
+  github_repo: beetbox/beets
+  github_stars: 14901
+  license: MIT
+  maintained: true
 ---
 # Beets Music Library Manager and Tagger
 

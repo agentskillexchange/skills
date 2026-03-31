@@ -5,6 +5,13 @@ category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/pnpm/pnpm"
+tool_ecosystem:
+  tool: pnpm
+  github_repo: pnpm/pnpm
+  github_stars: 34426
+  npm_weekly_downloads: 64625737
+  license: MIT
+  maintained: true
 ---
 # pnpm Fast Disk-Efficient Package Manager
 

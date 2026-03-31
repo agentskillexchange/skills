@@ -3,7 +3,7 @@ name: "Bubble Tea Go TUI Framework by Charmbracelet"
 description: "Bubble Tea is a powerful Go framework for building terminal user interfaces based on The Elm Architecture. Developed by Charmbracelet, it supports inline, full-window, and mixed TUI applications with a high-performance cell-based renderer and declarative views."
 category: "Library &amp; API Reference"
 framework: "Multi-Framework"
-verification: listed
+verification: security_reviewed
 source: "https://github.com/charmbracelet/bubbletea"
 tool_ecosystem:
   tool: bubbletea

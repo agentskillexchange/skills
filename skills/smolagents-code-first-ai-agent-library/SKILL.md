@@ -5,6 +5,12 @@ category: "Developer Tools"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/huggingface/smolagents"
+tool_ecosystem:
+  tool: smolagents
+  github_repo: huggingface/smolagents
+  github_stars: 26355
+  license: Apache-2.0
+  maintained: true
 ---
 # smolagents Code-First AI Agent Library
 

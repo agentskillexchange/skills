@@ -9,6 +9,7 @@ tool_ecosystem:
   tool: webdriverio
   github_repo: webdriverio/webdriverio
   github_stars: 9762
+  npm_weekly_downloads: 2793816
   license: MIT
   maintained: true
 ---

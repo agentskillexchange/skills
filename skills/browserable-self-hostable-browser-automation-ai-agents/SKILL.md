@@ -5,6 +5,13 @@ category: "Browser Automation"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/browserable/browserable"
+tool_ecosystem:
+  tool: browserable
+  github_repo: browserable/browserable
+  github_stars: 1177
+  npm_weekly_downloads: 5
+  license: MIT
+  maintained: true
 ---
 # Browserable Self-Hostable Browser Automation for AI Agents
 

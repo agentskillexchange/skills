@@ -3,7 +3,7 @@ name: "Elementor Website Builder WordPress Visual Page Editor"
 description: "Elementor is the visual drag-and-drop website builder plugin for WordPress maintained by Elementor, with more than 10 million active installs on WordPress.org. This skill is for agents that need to work with Elementor-powered pages, templates, sections, and widgets without treating the site like a generic WordPress install."
 category: "WordPress &amp; CMS"
 framework: "Multi-Framework"
-verification: listed
+verification: security_reviewed
 source: "https://wordpress.org/plugins/elementor/"
 ---
 # Elementor Website Builder WordPress Visual Page Editor

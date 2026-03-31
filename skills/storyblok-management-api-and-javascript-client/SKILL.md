@@ -5,6 +5,12 @@ category: "WordPress &amp; CMS"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/storyblok/storyblok-js-client"
+tool_ecosystem:
+  tool: storyblok-js-client
+  github_repo: storyblok/storyblok-js-client
+  github_stars: 137
+  license: MIT
+  maintained: false
 ---
 # Storyblok Management API and JavaScript Client
 

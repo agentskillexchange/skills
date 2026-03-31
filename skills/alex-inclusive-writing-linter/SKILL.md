@@ -5,6 +5,13 @@ category: "Content Writing &amp; SEO"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/get-alex/alex"
+tool_ecosystem:
+  tool: alex
+  github_repo: get-alex/alex
+  github_stars: 5096
+  npm_weekly_downloads: 25900
+  license: MIT
+  maintained: false
 ---
 # alex Inclusive Writing Linter
 

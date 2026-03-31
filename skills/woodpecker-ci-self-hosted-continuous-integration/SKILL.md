@@ -3,7 +3,7 @@ name: "Woodpecker CI Self-Hosted Continuous Integration Engine"
 description: "Woodpecker is a simple yet powerful self-hosted CI/CD engine written in Go with great extensibility. It runs pipelines defined in YAML, supports plugins for extensibility, uses minimal resources, and is the CI engine behind Codeberg."
 category: "CI/CD Integrations"
 framework: "Multi-Framework"
-verification: listed
+verification: security_reviewed
 source: "https://github.com/woodpecker-ci/woodpecker"
 tool_ecosystem:
   tool: woodpecker

@@ -3,7 +3,7 @@ name: "MailHog SMTP Testing Server with Web UI and API"
 description: "Uses MailHog to capture outbound email in development and test environments through a local SMTP server, browser UI, and JSON API. It is a practical fit for debugging transactional mail, verifying templates, and testing delivery behavior without sending messages to real recipients."
 category: "Calendar, Email &amp; Productivity"
 framework: "Multi-Framework"
-verification: listed
+verification: security_reviewed
 source: "https://github.com/mailhog/MailHog"
 tool_ecosystem:
   tool: mailhog

@@ -5,6 +5,12 @@ category: "Developer Tools"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/agno-agi/agno"
+tool_ecosystem:
+  tool: agno
+  github_repo: agno-agi/agno
+  github_stars: 39050
+  license: Apache-2.0
+  maintained: true
 ---
 # Agno Multi-Modal Agent Runtime Platform
 

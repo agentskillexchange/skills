@@ -3,7 +3,7 @@ name: "audioFlux Audio and Music Analysis Feature Extraction Library"
 description: "audioFlux is a deep learning tool library for audio and music analysis and feature extraction, supporting dozens of time-frequency transforms and hundreds of feature combinations for classification, separation, MIR, and ASR tasks."
 category: "Media &amp; Transcription"
 framework: "Multi-Framework"
-verification: listed
+verification: security_reviewed
 source: "https://github.com/libAudioFlux/audioFlux"
 tool_ecosystem:
   tool: audioflux

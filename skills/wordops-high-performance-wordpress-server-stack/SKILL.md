@@ -5,6 +5,12 @@ category: "WordPress &amp; CMS"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/WordOps/WordOps"
+tool_ecosystem:
+  tool: wordops
+  github_repo: wordops/wordops
+  github_stars: 1538
+  license: MIT
+  maintained: true
 ---
 # WordOps High-Performance WordPress Server Stack Manager
 

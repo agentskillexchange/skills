@@ -5,6 +5,12 @@ category: "WordPress &amp; CMS"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/wp-graphql/wp-graphql"
+tool_ecosystem:
+  tool: wp-graphql
+  github_repo: wp-graphql/wp-graphql
+  github_stars: 3777
+  license: GPL-3.0
+  maintained: true
 ---
 # WPGraphQL GraphQL API for WordPress
 

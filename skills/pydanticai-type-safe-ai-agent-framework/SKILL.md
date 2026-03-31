@@ -5,6 +5,12 @@ category: "Developer Tools"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/pydantic/pydantic-ai"
+tool_ecosystem:
+  tool: pydantic-ai
+  github_repo: pydantic/pydantic-ai
+  github_stars: 15962
+  license: MIT
+  maintained: true
 ---
 # PydanticAI Type-Safe AI Agent Framework
 

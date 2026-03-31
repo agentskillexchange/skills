@@ -5,6 +5,12 @@ category: "Code Quality &amp; Review"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/vale-cli/vale"
+tool_ecosystem:
+  tool: vale
+  github_repo: vale-cli/vale
+  github_stars: 5316
+  license: MIT
+  maintained: true
 ---
 # Vale Prose Linter for Technical Documentation
 

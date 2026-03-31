@@ -5,6 +5,13 @@ category: "Browser Automation"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/browserbase/sdk-node"
+tool_ecosystem:
+  tool: sdk-node
+  github_repo: browserbase/sdk-node
+  github_stars: 61
+  npm_weekly_downloads: 787872
+  license: Apache-2.0
+  maintained: true
 ---
 # Browserbase Session Automation API and SDK
 

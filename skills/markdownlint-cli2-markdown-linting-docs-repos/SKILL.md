@@ -5,6 +5,13 @@ category: "Content Writing &amp; SEO"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/DavidAnson/markdownlint-cli2"
+tool_ecosystem:
+  tool: markdownlint-cli2
+  github_repo: davidanson/markdownlint-cli2
+  github_stars: 740
+  npm_weekly_downloads: 546891
+  license: MIT
+  maintained: true
 ---
 # markdownlint-cli2 Markdown Linting for Docs and Repos
 

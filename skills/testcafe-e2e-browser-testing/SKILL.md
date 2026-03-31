@@ -9,6 +9,7 @@ tool_ecosystem:
   tool: testcafe
   github_repo: devexpress/testcafe
   github_stars: 9915
+  npm_weekly_downloads: 209752
   license: MIT
   maintained: true
 ---

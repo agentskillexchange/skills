@@ -5,6 +5,12 @@ category: "Browser Automation"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/browser-use/browser-use"
+tool_ecosystem:
+  tool: browser-use
+  github_repo: browser-use/browser-use
+  github_stars: 85193
+  license: MIT
+  maintained: true
 ---
 # browser-use Browser Automation Framework
 

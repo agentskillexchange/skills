@@ -5,6 +5,12 @@ category: "Developer Tools"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/tursodatabase/libsql"
+tool_ecosystem:
+  tool: libsql
+  github_repo: tursodatabase/libsql
+  github_stars: 16551
+  license: MIT
+  maintained: true
 ---
 # libSQL Edge-Ready SQLite Fork by Turso
 

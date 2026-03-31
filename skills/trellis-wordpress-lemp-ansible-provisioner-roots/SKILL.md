@@ -5,6 +5,12 @@ category: "WordPress &amp; CMS"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/roots/trellis"
+tool_ecosystem:
+  tool: trellis
+  github_repo: roots/trellis
+  github_stars: 2560
+  license: MIT
+  maintained: true
 ---
 # Trellis WordPress LEMP Stack Provisioner by Roots
 

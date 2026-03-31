@@ -5,6 +5,12 @@ category: "Media &amp; Transcription"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/savonet/liquidsoap"
+tool_ecosystem:
+  tool: liquidsoap
+  github_repo: savonet/liquidsoap
+  github_stars: 1638
+  license: GPL-2.0
+  maintained: true
 ---
 # Liquidsoap Audio and Video Streaming Language
 

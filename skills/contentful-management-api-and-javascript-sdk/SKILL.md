@@ -5,6 +5,13 @@ category: "WordPress &amp; CMS"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/contentful/contentful-management.js"
+tool_ecosystem:
+  tool: contentful-management
+  github_repo: contentful/contentful-management.js
+  github_stars: 286
+  npm_weekly_downloads: 783761
+  license: MIT
+  maintained: true
 ---
 # Contentful Management API and JavaScript SDK
 

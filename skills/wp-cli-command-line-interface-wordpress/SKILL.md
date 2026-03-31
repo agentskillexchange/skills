@@ -5,6 +5,12 @@ category: "WordPress &amp; CMS"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/wp-cli/wp-cli"
+tool_ecosystem:
+  tool: wp-cli
+  github_repo: wp-cli/wp-cli
+  github_stars: 5044
+  license: MIT
+  maintained: true
 ---
 # WP-CLI Command-Line Interface for WordPress
 

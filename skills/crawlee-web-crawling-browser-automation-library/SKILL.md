@@ -5,6 +5,13 @@ category: "Research &amp; Scraping"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/apify/crawlee"
+tool_ecosystem:
+  tool: crawlee
+  github_repo: apify/crawlee
+  github_stars: 22591
+  npm_weekly_downloads: 79425
+  license: Apache-2.0
+  maintained: true
 ---
 # Crawlee Web Crawling and Browser Automation Library
 
