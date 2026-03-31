@@ -82,6 +82,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [OpenAPI Specification Validator](../../skills/openapi-specification-validator-agent/) | — | — |
 | [OpenTelemetry Trace Analyzer](../../skills/opentelemetry-trace-analyzer/) | — | — |
 | [OpenTelemetry Trace Context Propagator](../../skills/opentelemetry-trace-context-propagator/) | — | — |
+| [PGlite Embeddable WASM Postgres for Browser and Node.js](../../skills/pglite-embeddable-wasm-postgres/) | — | — |
 | [Plaid Financial Data Aggregator &amp; Budget Classifier](../../skills/plaid-financial-data-aggregator/) | — | — |
 | [Postman Collection Runner](../../skills/postman-collection-runner/) | — | — |
 | [Prisma Schema Migrator](../../skills/prisma-schema-migrator/) | — | — |

@@ -74,6 +74,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [Keyword Cluster Generator](../../skills/keyword-cluster-generator-agent/) | — | — |
 | [lychee Async Broken Link Checker for Websites and Documentation](../../skills/lychee-async-broken-link-checker/) | — | — |
 | [Markdown-to-AMP Article Converter](../../skills/markdown-to-amp-article-converter/) | — | — |
+| [Marp CLI Markdown Presentation Converter and Slide Deck Generator](../../skills/marp-cli-markdown-presentation-converter/) | — | — |
 | [OpenSEO Self-Hosted Keyword Research and SEO Analysis Platform](../../skills/openseo-self-hosted-keyword-research-seo-analysis/) | — | — |
 | [Rank Math SEO Plugin for WordPress Search Optimization](../../skills/rank-math-seo-plugin-wordpress-search-optimization/) | — | — |
 | [retext Natural Language Processor with Unified Plugin Ecosystem](../../skills/retext-natural-language-processor-unified-plugins/) | — | — |

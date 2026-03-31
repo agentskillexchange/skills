@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1540,
+  "total": 1543,
   "generated": "2026-03-31",
   "skills": [
+    {
+      "slug": "pglite-embeddable-wasm-postgres",
+      "name": "PGlite Embeddable WASM Postgres for Browser and Node.js",
+      "description": "PGlite is a WASM build of Postgres packaged as a TypeScript library that runs a full Postgres database in the browser, Node.js, Bun, and…",
+      "category": [
+        "Library & API Reference"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "rspack-rust-based-javascript-bundler",
+      "name": "Rspack High-Performance Rust-Based JavaScript Bundler",
+      "description": "Rspack is a blazing-fast JavaScript bundler written in Rust with full webpack API compatibility. It provides drop-in webpack replacement with dramatically faster build times,…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "marp-cli-markdown-presentation-converter",
+      "name": "Marp CLI Markdown Presentation Converter and Slide Deck Generator",
+      "description": "Marp CLI converts Markdown files into professional slide deck presentations. It outputs static HTML, PDF, PowerPoint (PPTX), and image formats from a single Markdown…",
+      "category": [
+        "Content Writing & SEO"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "minio-s3-compatible-object-storage",
       "name": "MinIO High-Performance S3-Compatible Object Storage Server",

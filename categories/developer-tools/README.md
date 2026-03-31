@@ -191,6 +191,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Regex Pattern Test Suite Generator](../../skills/regex-pattern-test-suite-generator/) | — | — |
 | [Restic Fast Encrypted Backup Program](../../skills/restic-encrypted-backup-tool/) | — | — |
 | [ripgrep Recursive Regex Search Tool](../../skills/ripgrep-recursive-regex-search-tool/) | — | — |
+| [Rspack High-Performance Rust-Based JavaScript Bundler](../../skills/rspack-rust-based-javascript-bundler/) | — | — |
 | [Slidev Markdown Presentation Slides for Developers](../../skills/slidev-markdown-presentation-slides-developers/) | — | — |
 | [SonarQube Code Analysis](../../skills/sonarqube-code-analysis/) | — | — |
 | [sqlc Type-Safe SQL Code Generator](../../skills/sqlc-type-safe-sql-code-generator/) | — | — |

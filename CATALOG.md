@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1540 published skills** across **17 categories** · 1503 security reviewed · Updated 2026-03-31 21:27 UTC
+> **1543 published skills** across **17 categories** · 1503 security reviewed · Updated 2026-03-31 23:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (179 skills)
+### 🛠️ Developer Tools (180 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -165,6 +165,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Regex Pattern Test Suite Generator](skills/regex-pattern-test-suite-generator/) | Generates comprehensive test suites for regular expressions using Hypothesis property-based testing and re2 for safe… | Security Reviewed | — | — |
 | [Restic Fast Encrypted Backup Program](skills/restic-encrypted-backup-tool/) | Restic is a fast, secure, and efficient backup program supporting local, SFTP, S3, Azure, GCS, and many other… | Security Reviewed | — | — |
 | [ripgrep Recursive Regex Search Tool](skills/ripgrep-recursive-regex-search-tool/) | ripgrep (rg) is a line-oriented search tool that recursively searches directories for regex patterns while… | Security Reviewed | — | — |
+| [Rspack High-Performance Rust-Based JavaScript Bundler](skills/rspack-rust-based-javascript-bundler/) | Rspack is a blazing-fast JavaScript bundler written in Rust with full webpack API compatibility. It provides drop-in… | Published | — | — |
 | [Slidev Markdown Presentation Slides for Developers](skills/slidev-markdown-presentation-slides-developers/) | Slidev is a web-based presentation tool built for developers that turns Markdown files into interactive slide decks… | Security Reviewed | — | — |
 | [SonarQube Code Analysis](skills/sonarqube-code-analysis/) | SonarQube Code Analysis is built around SonarQube code quality platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 | [sqlc Type-Safe SQL Code Generator](skills/sqlc-type-safe-sql-code-generator/) | sqlc is a SQL compiler that generates type-safe Go, Python, Kotlin, and TypeScript code from plain SQL queries. You… | Security Reviewed | — | — |
@@ -699,7 +700,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [ZAP Automated Security Scan Orchestrator](skills/zap-automated-security-scan-orchestrator/) | Orchestrates OWASP ZAP security scans via the ZAP API with automated spider, active scanner, and authentication… | Security Reviewed | — | — |
 
 
-### 📚 Library & API Reference (95 skills)
+### 📚 Library & API Reference (96 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference&sort=downloads)
 
@@ -763,6 +764,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [OpenAPI Specification Validator](skills/openapi-specification-validator-agent/) | Validates and lints OpenAPI 3.x specifications using swagger-parser, spectral, and openapi-typescript. Generates… | Security Reviewed | — | — |
 | [OpenTelemetry Trace Analyzer](skills/opentelemetry-trace-analyzer/) | Queries distributed traces from Jaeger and Tempo via their gRPC and HTTP APIs. Identifies latency bottlenecks using… | Security Reviewed | — | — |
 | [OpenTelemetry Trace Context Propagator](skills/opentelemetry-trace-context-propagator/) | Implements W3C TraceContext and Baggage propagation using the OpenTelemetry JS SDK and @opentelemetry/api. Injects… | Security Reviewed | — | — |
+| [PGlite Embeddable WASM Postgres for Browser and Node.js](skills/pglite-embeddable-wasm-postgres/) | PGlite is a WASM build of Postgres packaged as a TypeScript library that runs a full Postgres database in the… | Published | — | — |
 | [Plaid Financial Data Aggregator & Budget Classifier](skills/plaid-financial-data-aggregator/) | Integrates with the Plaid Transactions API using the plaid Python SDK to pull 90 days of transaction history across… | Security Reviewed | — | — |
 | [Postman Collection Runner](skills/postman-collection-runner/) | Postman Collection Runner is built around Postman API testing platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 | [Prisma Schema Migrator](skills/prisma-schema-migrator/) | Automates Prisma ORM schema evolution and migration planning using prisma migrate and prisma db commands. Validates… | Security Reviewed | — | — |
@@ -1607,7 +1609,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Steel Browser Open Source API for AI Agent Web Automation](skills/steel-browser-api-ai-agent-web-automation/) | Steel Browser is an open-source browser API that provides a batteries-included browser sandbox for AI agents and… | Security Reviewed | — | — |
 
 
-### ✍️ Content Writing & SEO (59 skills)
+### ✍️ Content Writing & SEO (60 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=downloads)
 
@@ -1650,6 +1652,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cont
 | [Keyword Cluster Generator](skills/keyword-cluster-generator-agent/) | Groups keywords into topical clusters using sentence-transformers all-MiniLM-L6-v2 embeddings with HDBSCAN… | Security Reviewed | — | — |
 | [lychee Async Broken Link Checker for Websites and Documentation](skills/lychee-async-broken-link-checker/) | lychee is a fast, async, stream-based link checker written in Rust that finds broken URLs and mail addresses inside… | Security Reviewed | — | — |
 | [Markdown-to-AMP Article Converter](skills/markdown-to-amp-article-converter/) | Converts Markdown files to valid AMP HTML articles using unified/remark/rehype pipeline. Validates output against… | Security Reviewed | — | — |
+| [Marp CLI Markdown Presentation Converter and Slide Deck Generator](skills/marp-cli-markdown-presentation-converter/) | Marp CLI converts Markdown files into professional slide deck presentations. It outputs static HTML, PDF, PowerPoint… | Published | — | — |
 | [OpenSEO Self-Hosted Keyword Research and SEO Analysis Platform](skills/openseo-self-hosted-keyword-research-seo-analysis/) | OpenSEO is an open-source, self-hostable SEO platform that provides keyword research, domain insights, backlink… | Security Reviewed | — | — |
 | [Rank Math SEO Plugin for WordPress Search Optimization](skills/rank-math-seo-plugin-wordpress-search-optimization/) | Rank Math SEO is the WordPress SEO plugin from Rank Math SEO, with more than 3 million active installs and current… | Security Reviewed | — | — |
 | [retext Natural Language Processor with Unified Plugin Ecosystem](skills/retext-natural-language-processor-unified-plugins/) | retext is a natural language processor powered by plugins, part of the unified.js collective. It parses Latin-script… | Security Reviewed | — | — |
