@@ -5,14 +5,6 @@ category: "Browser Automation"
 framework: "Multi-Framework"
 verification: listed
 source: "https://github.com/seleniumbase/SeleniumBase"
-tool_ecosystem:
-  tool: seleniumbase
-  github_repo: seleniumbase/seleniumbase
-  github_stars: 12552
-  npm_package: seleniumbase
-  npm_weekly_downloads: 20
-  license: MIT
-  maintained: true
 ---
 # SeleniumBase Python Browser Automation and Stealth Testing Framework
 

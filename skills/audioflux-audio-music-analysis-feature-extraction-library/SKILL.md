@@ -5,12 +5,6 @@ category: "Media & Transcription"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/libAudioFlux/audioFlux"
-tool_ecosystem:
-  tool: audioflux
-  github_repo: libaudioflux/audioflux
-  github_stars: 3286
-  license: MIT
-  maintained: true
 ---
 # audioFlux Audio and Music Analysis Feature Extraction Library
 

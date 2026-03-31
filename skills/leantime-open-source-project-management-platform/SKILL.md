@@ -5,12 +5,6 @@ category: "Calendar, Email & Productivity"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/Leantime/leantime"
-tool_ecosystem:
-  tool: leantime
-  github_repo: leantime/leantime
-  github_stars: 9450
-  license: AGPL-3.0
-  maintained: true
 ---
 # Leantime Open Source Goals-Focused Project Management Platform
 

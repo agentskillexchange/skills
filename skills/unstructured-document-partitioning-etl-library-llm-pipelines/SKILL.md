@@ -5,12 +5,6 @@ category: "Data Extraction & Transformation"
 framework: "Multi-Framework"
 verification: listed
 source: "https://github.com/Unstructured-IO/unstructured"
-tool_ecosystem:
-  tool: unstructured
-  github_repo: unstructured-io/unstructured
-  github_stars: 14355
-  license: Apache-2.0
-  maintained: true
 ---
 # Unstructured Document Partitioning and ETL Library for LLM Pipelines
 

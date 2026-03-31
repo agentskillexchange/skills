@@ -5,12 +5,6 @@ category: "Research & Scraping"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/Y2Z/monolith"
-tool_ecosystem:
-  tool: monolith
-  github_repo: y2z/monolith
-  github_stars: 14932
-  license: CC0-1.0
-  maintained: true
 ---
 # Monolith Web Page Archiver and Single-File Bundler
 

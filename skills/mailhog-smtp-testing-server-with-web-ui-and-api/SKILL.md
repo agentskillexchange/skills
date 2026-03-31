@@ -5,12 +5,6 @@ category: "Calendar, Email & Productivity"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/mailhog/MailHog"
-tool_ecosystem:
-  tool: mailhog
-  github_repo: mailhog/mailhog
-  github_stars: 15883
-  license: MIT
-  maintained: false
 ---
 # MailHog SMTP Testing Server with Web UI and API
 

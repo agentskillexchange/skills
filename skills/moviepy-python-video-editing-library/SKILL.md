@@ -5,12 +5,6 @@ category: "Media & Transcription"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/Zulko/moviepy"
-tool_ecosystem:
-  tool: moviepy
-  github_repo: zulko/moviepy
-  github_stars: 14491
-  license: MIT
-  maintained: true
 ---
 # MoviePy Python Video Editing Library
 

@@ -5,11 +5,6 @@ category: "Security & Verification"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/Infisical/infisical"
-tool_ecosystem:
-  tool: infisical
-  github_repo: infisical/infisical
-  github_stars: 25635
-  maintained: true
 ---
 # Infisical Open-Source Secret Management Platform
 
