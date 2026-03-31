@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1522,
+  "total": 1525,
   "generated": "2026-03-31",
   "skills": [
+    {
+      "slug": "kokoro-fastapi-openai-compatible-text-to-speech-server",
+      "name": "Kokoro FastAPI OpenAI-Compatible Text-to-Speech Server",
+      "description": "Kokoro-FastAPI is a Dockerized FastAPI wrapper around the Kokoro-82M text-to-speech model with OpenAI-compatible speech endpoints. It supports local TTS serving, multi-language synthesis, web UI…",
+      "category": [
+        "Media & Transcription"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "gitingest-repository-to-prompt-codebase-extraction-tool",
+      "name": "Gitingest Repository-to-Prompt Codebase Extraction Tool",
+      "description": "Gitingest turns a Git repository into a prompt-friendly text bundle that agents and LLM workflows can inspect quickly. It can be used as a…",
+      "category": [
+        "Data Extraction & Transformation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "healthchecks-io-cron-job-monitoring-alerting-platform",
+      "name": "Healthchecks.io Cron Job Monitoring and Alerting Platform",
+      "description": "Healthchecks.io is an open-source cron and background task monitoring platform that alerts when scheduled jobs fail to ping on time. It gives teams a…",
+      "category": [
+        "Monitoring & Alerts"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "unstructured-document-partitioning-etl-library-llm-pipelines",
       "name": "Unstructured Document Partitioning and ETL Library for LLM Pipelines",
