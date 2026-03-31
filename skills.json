@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1528,
+  "total": 1531,
   "generated": "2026-03-31",
   "skills": [
+    {
+      "slug": "aichat-llm-cli-shell-assistant-rag",
+      "name": "AIChat All-in-One LLM CLI with Shell Assistant and RAG",
+      "description": "AIChat is a comprehensive LLM command-line tool written in Rust that combines chat-REPL, shell command generation, RAG, AI tools, and multi-provider support into a…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "whisper-cpp-speech-recognition-engine",
+      "name": "whisper.cpp High-Performance C/C++ Speech Recognition Engine",
+      "description": "whisper.cpp is a lightweight, high-performance C/C++ port of OpenAI's Whisper automatic speech recognition model. It runs on CPU and GPU across all major platforms…",
+      "category": [
+        "Media & Transcription"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "ollama-local-llm-runner-2",
+      "name": "Ollama Local Large Language Model Runner and Serving Platform",
+      "description": "Ollama makes it simple to run large language models locally on your machine. It provides a command-line interface and REST API to download, run,…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "openai-agents-sdk-python-multi-agent",
       "name": "OpenAI Agents SDK Multi-Agent Workflow Framework for Python",

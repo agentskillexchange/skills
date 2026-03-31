@@ -78,6 +78,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [dbmate Lightweight Database Migration CLI](../../skills/dbmate-lightweight-database-migration-cli/) | — | 79.1k/wk |
 | [Repomix Codebase Context Packer for LLMs](../../skills/repomix-codebase-context-packer-llm/) | — | 61k/wk |
 | [Nushell Structured Data Shell](../../skills/nushell-structured-data-shell/) | — | 4.3k/wk |
+| [AIChat All-in-One LLM CLI with Shell Assistant and RAG](../../skills/aichat-llm-cli-shell-assistant-rag/) | — | — |
 | [Aider AI Pair Programming CLI Agent](../../skills/aider-ai-pair-programming-cli-agent/) | — | — |
 | [API Client Generator Skill](../../skills/api-client-generator-skill/) | — | — |
 | [ArgoCD MCP Server](../../skills/argocd-mcp-server/) | — | — |
@@ -166,6 +167,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Notion Workspace Agent](../../skills/notion-workspace-agent/) | — | — |
 | [NPM Package Auditor](../../skills/npm-package-auditor-registry-api/) | — | — |
 | [Obsidian Vault Manager](../../skills/obsidian-vault-manager/) | — | — |
+| [Ollama Local Large Language Model Runner and Serving Platform](../../skills/ollama-local-llm-runner-2/) | — | — |
 | [OpenAI Agents SDK Multi-Agent Workflow Framework for Python](../../skills/openai-agents-sdk-python-multi-agent/) | — | — |
 | [OpenAI MCP Server](../../skills/openai-mcp-server/) | — | — |
 | [OpenAPI Spec Validator](../../skills/openapi-spec-validator-agent/) | — | — |

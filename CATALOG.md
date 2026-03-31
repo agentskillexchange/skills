@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1528 published skills** across **17 categories** · 1503 security reviewed · Updated 2026-03-31 13:29 UTC
+> **1531 published skills** across **17 categories** · 1503 security reviewed · Updated 2026-03-31 15:28 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (174 skills)
+### 🛠️ Developer Tools (176 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -52,6 +52,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [dbmate Lightweight Database Migration CLI](skills/dbmate-lightweight-database-migration-cli/) | dbmate is a standalone, framework-agnostic database migration tool that uses plain SQL files. It supports… | Security Reviewed | — | 79.1k/wk |
 | [Repomix Codebase Context Packer for LLMs](skills/repomix-codebase-context-packer-llm/) | Repomix packs an entire code repository into a single AI-friendly file optimized for LLM consumption. It provides… | Security Reviewed | — | 61k/wk |
 | [Nushell Structured Data Shell](skills/nushell-structured-data-shell/) | A modern shell that treats all input as structured data rather than plain text streams. Nushell provides built-in… | Security Reviewed | — | 4.3k/wk |
+| [AIChat All-in-One LLM CLI with Shell Assistant and RAG](skills/aichat-llm-cli-shell-assistant-rag/) | AIChat is a comprehensive LLM command-line tool written in Rust that combines chat-REPL, shell command generation,… | Published | — | — |
 | [Aider AI Pair Programming CLI Agent](skills/aider-ai-pair-programming-cli-agent/) | Aider is an open-source AI pair programming tool that runs in your terminal, letting you collaborate with LLMs to… | Security Reviewed | — | — |
 | [API Client Generator Skill](skills/api-client-generator-skill/) | API Client Generator Skill is built around Swagger/OpenAPI tooling. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 | [ArgoCD MCP Server](skills/argocd-mcp-server/) | ArgoCD MCP Server is built around Argo CD GitOps deployment controller for Kubernetes. The underlying ecosystem is… | Security Reviewed | — | — |
@@ -140,6 +141,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Notion Workspace Agent](skills/notion-workspace-agent/) | Notion Workspace Agent is built around Notion workspace and database platform. The underlying ecosystem is… | Security Reviewed | — | — |
 | [NPM Package Auditor](skills/npm-package-auditor-registry-api/) | Audits NPM packages using the NPM Registry API with dependency tree resolution and vulnerability scanning via… | Security Reviewed | — | — |
 | [Obsidian Vault Manager](skills/obsidian-vault-manager/) | Obsidian Vault Manager is built around HashiCorp Vault secrets platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
+| [Ollama Local Large Language Model Runner and Serving Platform](skills/ollama-local-llm-runner-2/) | Ollama makes it simple to run large language models locally on your machine. It provides a command-line interface… | Published | — | — |
 | [OpenAI Agents SDK Multi-Agent Workflow Framework for Python](skills/openai-agents-sdk-python-multi-agent/) | The OpenAI Agents SDK is a lightweight Python framework for building multi-agent workflows. It supports 100+ LLMs,… | Published | — | — |
 | [OpenAI MCP Server](skills/openai-mcp-server/) | OpenAI MCP Server is built around OpenAI API platform. The underlying ecosystem is represented by openai/openai-node… | Security Reviewed | — | — |
 | [OpenAPI Spec Validator](skills/openapi-spec-validator-agent/) | Validates and lints OpenAPI 3.0/3.1 specifications using Spectral CLI rules and the Swagger Parser library. Detects… | Security Reviewed | — | — |
@@ -1078,7 +1080,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Todoist Sync API Task Orchestrator](skills/todoist-sync-api-task-orchestrator/) | Orchestrates complex task workflows using the Todoist Sync API v9 with incremental sync via sync_token. Uses… | Security Reviewed | — | — |
 
 
-### 🎙️ Media & Transcription (70 skills)
+### 🎙️ Media & Transcription (71 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&sort=downloads)
 
@@ -1148,6 +1150,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Medi
 | [Vosk Offline Speech Recognition Toolkit](skills/vosk-offline-speech-recognition-toolkit/) | Perform offline speech recognition across 20+ languages with Vosk. Provides compact models, zero-latency streaming… | Security Reviewed | — | — |
 | [Whisper Diarization Post-Processor](skills/whisper-diarization-post-processor/) | Enhances OpenAI Whisper transcription output with speaker diarization using pyannote.audio pipeline and speechbrain… | Security Reviewed | — | — |
 | [Whisper Subtitle Generator](skills/whisper-subtitle-generator/) | Generates accurate subtitles and captions using OpenAI Whisper API with word-level timestamps. Outputs SRT, VTT, and… | Security Reviewed | — | — |
+| [whisper.cpp High-Performance C/C++ Speech Recognition Engine](skills/whisper-cpp-speech-recognition-engine/) | whisper.cpp is a lightweight, high-performance C/C++ port of OpenAI's Whisper automatic speech recognition model. It… | Published | — | — |
 | [Whisper.cpp Local Transcription Engine](skills/whisper-cpp-local-transcription-engine/) | Runs OpenAI Whisper models locally via whisper.cpp with GGML quantized weights for CPU-efficient transcription.… | Security Reviewed | — | — |
 | [Whisper.cpp Real-Time Transcription Pipeline](skills/whisper-cpp-realtime-transcription-pipeline/) | Streams audio from PulseAudio or ALSA devices into whisper.cpp for real-time speech-to-text with word-level… | Security Reviewed | — | — |
 | [WhisperX Speech Recognition with Word-Level Timestamps and Diarization](skills/whisperx-speech-recognition-timestamps-diarization/) | WhisperX extends OpenAI Whisper with batched inference for 70x realtime transcription, phoneme-based word-level… | Security Reviewed | — | — |
