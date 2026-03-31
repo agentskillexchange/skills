@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1525,
+  "total": 1528,
   "generated": "2026-03-31",
   "skills": [
+    {
+      "slug": "openai-agents-sdk-python-multi-agent",
+      "name": "OpenAI Agents SDK Multi-Agent Workflow Framework for Python",
+      "description": "The OpenAI Agents SDK is a lightweight Python framework for building multi-agent workflows. It supports 100+ LLMs, provides built-in guardrails, handoffs between agents, MCP…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "ChatGPT Agents"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "temporal-durable-execution-workflow-platform",
+      "name": "Temporal Durable Execution Workflow Orchestration Platform",
+      "description": "Temporal is an open-source durable execution platform that lets developers build scalable, fault-tolerant workflows. It automatically handles retries, timeouts, and intermittent failures, with SDKs…",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "livekit-realtime-webrtc-server",
+      "name": "LiveKit Real-Time Video Audio and Data Server with WebRTC",
+      "description": "LiveKit is an open-source, scalable WebRTC-based real-time communication server written in Go. It provides multi-user conferencing, streaming, and data channels with client SDKs for…",
+      "category": [
+        "Integrations & Connectors"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "kokoro-fastapi-openai-compatible-text-to-speech-server",
       "name": "Kokoro FastAPI OpenAI-Compatible Text-to-Speech Server",

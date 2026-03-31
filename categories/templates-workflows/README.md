@@ -57,6 +57,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Semgrep Custom Rule Runner](../../skills/semgrep-custom-rule-runner-2/) | — | — |
 | [SonarQube Gate Checker](../../skills/sonarqube-gate-checker-2/) | — | — |
 | [Swagger Codegen Orchestrator](../../skills/swagger-codegen-orchestrator/) | — | — |
+| [Temporal Durable Execution Workflow Orchestration Platform](../../skills/temporal-durable-execution-workflow-platform/) | — | — |
 | [Terraform Module Boilerplate Assembler](../../skills/terraform-module-boilerplate-assembler/) | — | — |
 | [Terraform Module Registry](../../skills/terraform-module-registry/) | — | — |
 | [Terraform Module Registry Browser](../../skills/terraform-module-registry-browser/) | — | — |
