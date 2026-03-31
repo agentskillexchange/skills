@@ -6,56 +6,56 @@ Skills backed by the most-starred GitHub repositories, deduplicated by upstream 
 
 | # | Skill | Stars | Tool | Category |
 |--:|-------|------:|------|----------|
-| 1 | [Docusaurus React Documentation Framework by Meta](skills/docusaurus-react-documentation-framework-meta/) | 244.3k | react | Developer Tools |
-| 2 | [Trafilatura Web Text Extraction and Crawling Toolkit](skills/trafilatura-web-text-extraction-crawling/) | 158.5k | huggingface | Research & Scraping |
-| 3 | [K9s Kubernetes Terminal Dashboard](skills/k9s-kubernetes-terminal-dashboard/) | 121.4k | kubernetes | Developer Tools |
-| 4 | [commitlint Conventional Commit Message Linter](skills/commitlint-conventional-commit-message-linter/) | 100.1k | angular | Code Quality & Review |
-| 5 | [Supabase MCP Server](skills/supabase-mcp-server/) | 99.8k | supabase | Developer Tools |
-| 6 | [Coqui TTS Deep Learning Text-to-Speech Toolkit](skills/coqui-tts-deep-learning-text-to-speech-toolkit/) | 98.6k | pytorch | Media & Transcription |
-| 7 | [Insanely Fast Whisper GPU-Accelerated Speech Transcription CLI](skills/insanely-fast-whisper-gpu-transcription/) | 96.9k | whisper | Media & Transcription |
-| 8 | [FastMCP Python MCP Server and Client Framework](skills/fastmcp-python-mcp-server-client-framework/) | 96.7k | fastapi | Developer Tools |
-| 9 | [Puppeteer Cookie Consent Automator](skills/puppeteer-cookie-consent-automator/) | 94k | puppeteer | Browser Automation |
-| 10 | [Storybook Component Tester](skills/storybook-component-tester/) | 89.6k | storybook | Code Quality & Review |
-| 11 | [Playwright Accessibility Audit Runner](skills/playwright-accessibility-audit-runner/) | 85.2k | playwright | Browser Automation |
-| 12 | [Vite Plugin Hot Module Analyzer](skills/vite-plugin-hmr-analyzer/) | 79.4k | vite | Developer Tools |
-| 13 | [ElasticSearch Cluster Vitals Agent](skills/elasticsearch-cluster-vitals-agent/) | 76.4k | elasticsearch | Monitoring & Alerts |
-| 14 | [Redis MCP Server](skills/redis-mcp-server/) | 73.6k | redis | Developer Tools |
-| 15 | [Grafana Alert Router](skills/grafana-alert-router/) | 72.8k | grafana | Monitoring & Alerts |
-| 16 | [Strapi Open Source Headless CMS with REST and GraphQL APIs](skills/strapi-headless-cms-rest-graphql/) | 71.7k | strapi | WordPress & CMS |
-| 17 | [Docker Build Cache Optimizer](skills/docker-build-cache-optimizer/) | 71.6k | docker | Code Quality & Review |
-| 18 | [REST API Documentation Generator](skills/rest-api-documentation-generator/) | 68.9k | express | Library & API Reference |
-| 19 | [Ansible Playbook Debugger](skills/ansible-playbook-debugger/) | 68.4k | ansible | Runbooks & Diagnostics |
-| 20 | [Webpack Bundle Analyzer Agent](skills/webpack-bundle-analyzer-agent/) | 66k | webpack | Developer Tools |
-| 21 | [Prometheus Alert Resolver](skills/prometheus-alert-resolver-skill/) | 63.3k | prometheus | Runbooks & Diagnostics |
-| 22 | [Scrapy Distributed Crawler Framework](skills/scrapy-distributed-crawler-framework/) | 61k | scrapy | Research & Scraping |
-| 23 | [FFmpeg Audio Normalization Pipeline](skills/ffmpeg-audio-normalization-pipeline/) | 58.4k | ffmpeg | Media & Transcription |
-| 24 | [Slidev Markdown Presentation Slides for Developers](skills/slidev-markdown-presentation-slides-developers/) | 53.3k | vue | Developer Tools |
-| 25 | [Cypress Component Test Generator](skills/cypress-component-test-generator/) | 49.6k | cypress | Browser Automation |
-| 26 | [Pandas DataFrame Pipeline Builder](skills/pandas-dataframe-pipeline-builder/) | 48.3k | pandas | Data Extraction & Transformation |
-| 27 | [LlamaIndex Agent](skills/llamaindex-agent/) | 48.1k | llamaindex | Developer Tools |
-| 28 | [Terraform Cloud MCP Server](skills/terraform-cloud-mcp-server/) | 48k | terraform | Developer Tools |
-| 29 | [ClickHouse Query Agent](skills/clickhouse-query-agent/) | 46.6k | clickhouse | Data Extraction & Transformation |
-| 30 | [Prisma Schema Migrator](skills/prisma-schema-migrator/) | 45.6k | prisma | Library & API Reference |
-| 31 | [Jest Unit Test Scaffolder](skills/jest-unit-test-scaffolder/) | 45.3k | jest | Code Quality & Review |
-| 32 | [Apache Airflow MCP](skills/apache-airflow-mcp/) | 44.8k | airflow | Data Extraction & Transformation |
-| 33 | [Sentry Error Intelligence](skills/sentry-error-intelligence/) | 43.5k | sentry | Monitoring & Alerts |
-| 34 | [Apache Spark DataFrame ETL Pipeline](skills/spark-dataframe-etl-pipeline/) | 43.1k | spark | Data Extraction & Transformation |
-| 35 | [HashiCorp Vault MCP Server](skills/hashicorp-vault-mcp-server/) | 35.3k | vault | Security & Verification |
-| 36 | [Trivy Container &#038; IaC Vulnerability Scanner](skills/trivy-container-iac-vulnerability-scanner/) | 34.2k | trivy | Security & Verification |
-| 37 | [Selenium Grid Auto-Scaling Orchestrator](skills/selenium-grid-auto-scaling-orchestrator/) | 34.2k | selenium | Browser Automation |
-| 38 | [WP Multisite Domain Mapping Agent](skills/wp-multisite-domain-mapping-agent/) | 32.9k | certbot | WordPress & CMS |
-| 39 | [Sharp Image CDN Optimizer](skills/sharp-image-cdn-optimizer/) | 32.1k | sharp | Image & Creative Automation |
-| 40 | [Cheerio DOM Extraction Pipeline](skills/cheerio-dom-extraction-pipeline/) | 30.2k | cheerio | Data Extraction & Transformation |
-| 41 | [Nginx Config Linter and Tester](skills/nginx-config-linter-tester/) | 29.8k | nginx | Runbooks & Diagnostics |
-| 42 | [Helm Chart Boilerplate Builder](skills/helm-chart-boilerplate-builder/) | 29.6k | helm | Templates & Workflows |
-| 43 | [Swagger / OpenAPI Validator](skills/swagger-openapi-validator/) | 28.7k | swagger | Library & API Reference |
-| 44 | [Grafana Loki Log Correlation Agent](skills/grafana-loki-log-correlation-agent-2/) | 27.9k | loki | Monitoring & Alerts |
-| 45 | [ESLint Auto-Fix Agent](skills/eslint-auto-fix-agent/) | 27.2k | eslint | Code Quality & Review |
-| 46 | [Discord Bot Manager](skills/discord-bot-manager/) | 26.6k | discord | Calendar, Email & Productivity |
-| 47 | [Jenkins Build Log Analyzer](skills/jenkins-build-log-analyzer/) | 25.1k | jenkins | Runbooks & Diagnostics |
-| 48 | [Pulumi Drift Detector &amp; Reconciler](skills/pulumi-drift-detector-reconciler/) | 24.9k | pulumi | Runbooks & Diagnostics |
-| 49 | [GitLab CI Auto DevOps Configurator](skills/gitlab-ci-auto-devops-configurator/) | 24.3k | gitlab | CI/CD Integrations |
-| 50 | [Jaeger Trace Explorer](skills/jaeger-trace-explorer/) | 22.6k | jaeger | Monitoring & Alerts |
+| 1 | [Ollama Local LLM Runner and Model Management CLI](skills/ollama-local-llm-runner/) | 166.5k | ollama | Developer Tools |
+| 2 | [Excalidraw Virtual Whiteboard and Diagram SDK](skills/excalidraw-virtual-whiteboard-diagram-sdk/) | 119.9k | excalidraw | Image & Creative Automation |
+| 3 | [llama.cpp Portable LLM Inference Engine in C/C++](skills/llama-cpp-portable-llm-inference/) | 100.3k | llama.cpp | Developer Tools |
+| 4 | [Immich Self-Hosted Photo and Video Management Platform](skills/immich-photo-video-management-platform/) | 96k | immich | Media & Transcription |
+| 5 | [Puppeteer Browser Automation Library for Chrome and Firefox](skills/puppeteer-browser-automation-library-for-chrome-and-firefox/) | 94k | puppeteer | Browser Automation |
+| 6 | [MarkItDown Document-to-Markdown Converter by Microsoft](skills/markitdown-document-to-markdown-converter-microsoft/) | 92.9k | markitdown | Data Extraction & Transformation |
+| 7 | [Hugo Fast Static Site Generator and CMS Framework](skills/hugo-static-site-generator-cms-framework/) | 87.4k | hugo | WordPress & CMS |
+| 8 | [Playwright Cross-Browser Testing and Automation Framework](skills/playwright-cross-browser-testing-and-automation-framework/) | 85.2k | playwright | Browser Automation |
+| 9 | [vLLM High-Throughput LLM Serving Engine with PagedAttention](skills/vllm-high-throughput-llm-serving/) | 74.8k | vllm | Developer Tools |
+| 10 | [PaddleOCR Multilingual Document OCR and Structured Data Toolkit](skills/paddleocr-multilingual-document-ocr-toolkit/) | 73.7k | paddleocr | Data Extraction & Transformation |
+| 11 | [Strapi Open Source Headless CMS with REST and GraphQL APIs](skills/strapi-headless-cms-rest-graphql/) | 71.7k | strapi | WordPress & CMS |
+| 12 | [Docusaurus React Documentation Framework by Meta](skills/docusaurus-react-documentation-framework-meta/) | 64.3k | docusaurus | Developer Tools |
+| 13 | [Open Interpreter Natural Language Computer Interface](skills/open-interpreter-natural-language-computer-interface/) | 62.9k | open-interpreter | Developer Tools |
+| 14 | [NocoDB Self-Hosted No-Code Database Platform with REST API](skills/nocodb-self-hosted-no-code-database-rest-api/) | 62.6k | nocodb | Integrations & Connectors |
+| 15 | [Astro Content-Driven Web Framework](skills/astro-content-driven-web-framework/) | 58k | astro | Developer Tools |
+| 16 | [PocketBase Open Source Realtime Backend in a Single Binary](skills/pocketbase-open-source-realtime-backend-single-binary/) | 57.3k | pocketbase | Developer Tools |
+| 17 | [Rclone Cloud Storage Sync and Management CLI](skills/rclone-cloud-storage-sync-management-cli/) | 56.4k | rclone | Integrations & Connectors |
+| 18 | [Typst Markup-Based Document Typesetting System](skills/typst-markup-typesetting-system/) | 52.4k | typst | Content Writing & SEO |
+| 19 | [Ghostty Fast Native Terminal Emulator with GPU Acceleration](skills/ghostty-fast-native-terminal-emulator-gpu-acceleration/) | 49.2k | ghostty | Developer Tools |
+| 20 | [Upscayl Open Source AI Image Upscaler](skills/upscayl-open-source-ai-image-upscaler/) | 44.3k | upscayl | Image & Creative Automation |
+| 21 | [Helix Post-Modern Modal Text Editor with LSP and Tree-sitter](skills/helix-post-modern-modal-text-editor-lsp-treesitter/) | 43.7k | helix | Developer Tools |
+| 22 | [Twenty Open Source CRM Platform and Salesforce Alternative](skills/twenty-open-source-crm-salesforce-alternative/) | 43.3k | twenty | Calendar, Email & Productivity |
+| 23 | [mitmproxy Interactive HTTPS Proxy for Debugging and Security Testing](skills/mitmproxy-interactive-https-proxy-debugging-security/) | 42.9k | mitmproxy | Security & Verification |
+| 24 | [Bubble Tea Go TUI Framework by Charmbracelet](skills/bubble-tea-go-tui-framework/) | 41.1k | bubbletea | Library & API Reference |
+| 25 | [Novu Open-Source Notification Infrastructure Platform](skills/novu-open-source-notification-infrastructure-platform/) | 38.7k | novu | Integrations & Connectors |
+| 26 | [Tiptap Headless Rich Text Editor Framework for Web Applications](skills/tiptap-headless-rich-text-editor-framework/) | 35.9k | tiptap | Content Writing & SEO |
+| 27 | [ntfy Self-Hosted Push Notification Server](skills/ntfy-self-hosted-push-notification-server/) | 29.5k | ntfy | Integrations & Connectors |
+| 28 | [OpenTofu Open Source Infrastructure as Code Tool](skills/opentofu-open-source-infrastructure-as-code/) | 28.2k | opentofu | Developer Tools |
+| 29 | [Plausible Analytics Privacy-First Web Analytics Platform](skills/plausible-analytics-privacy-first-web-analytics/) | 24.5k | analytics | Monitoring & Alerts |
+| 30 | [Karakeep Self-Hosted Bookmark Manager with AI Tagging](skills/karakeep-bookmark-manager-ai-tagging/) | 24.4k | karakeep | Research & Scraping |
+| 31 | [NetBird WireGuard Mesh VPN with Zero Trust Access Controls](skills/netbird-wireguard-mesh-vpn-zero-trust-access/) | 24k | netbird | Security & Verification |
+| 32 | [D2 Modern Diagram Scripting Language and CLI](skills/d2-diagram-scripting-language-cli/) | 23.3k | d2 | Developer Tools |
+| 33 | [Dockge Self-Hosted Docker Compose Stack Manager](skills/dockge-docker-compose-stack-manager/) | 22.7k | dockge | Developer Tools |
+| 34 | [rembg AI Background Removal CLI and Python Library](skills/rembg-ai-background-removal-cli/) | 22.4k | rembg | Image & Creative Automation |
+| 35 | [Crush Agentic AI Coding CLI by Charmbracelet](skills/crush-agentic-ai-coding-cli-charmbracelet/) | 22.2k | crush |  |
+| 36 | [MkDocs Project Documentation Generator](skills/mkdocs-project-documentation-generator/) | 21.9k | mkdocs | Developer Tools |
+| 37 | [mdBook Markdown Book Generator by Rust Project](skills/mdbook-markdown-book-generator-rust/) | 21.4k | mdbook | Developer Tools |
+| 38 | [SOPS Encrypted Secrets Editor and Manager](skills/sops-encrypted-secrets-editor-manager/) | 21.3k | sops | Security & Verification |
+| 39 | [Sonic Fast Lightweight Schema-Less Search Backend](skills/sonic-fast-lightweight-search-backend/) | 21.2k | sonic | Developer Tools |
+| 40 | [Teable No-Code Postgres Database Platform and Airtable Alternative](skills/teable-no-code-postgres-database-platform/) | 21.1k | teable | Data Extraction & Transformation |
+| 41 | [Skyvern AI Browser Workflow Automation with LLMs and Computer Vision](skills/skyvern-ai-browser-workflow-automation/) | 21k | skyvern | Browser Automation |
+| 42 | [Surya Document OCR with Layout Analysis and Table Recognition](skills/surya-document-ocr-layout-analysis-table-recognition/) | 19.5k | surya | Data Extraction & Transformation |
+| 43 | [Super Productivity Open Source Task Manager with Time Tracking](skills/super-productivity-task-manager-time-tracking/) | 18.3k | super-productivity | Calendar, Email & Productivity |
+| 44 | [Zola Fast Static Site Generator in a Single Binary](skills/zola-static-site-generator/) | 16.8k | zola | Content Writing & SEO |
+| 45 | [Apprise Universal Push Notification Library and CLI](skills/apprise-universal-push-notification-library-cli/) | 16.2k | apprise | Monitoring & Alerts |
+| 46 | [MailHog SMTP Testing Server with Web UI and API](skills/mailhog-smtp-testing-server-with-web-ui-and-api/) | 15.9k | mailhog | Calendar, Email & Productivity |
+| 47 | [Dagger Programmable CI/CD Automation Engine](skills/dagger-programmable-cicd-automation-engine/) | 15.6k | dagger | CI/CD Integrations |
+| 48 | [Monolith Web Page Archiver and Single-File Bundler](skills/monolith-web-page-single-file-archiver/) | 14.9k | monolith | Research & Scraping |
+| 49 | [Subfinder Fast Passive Subdomain Enumeration Tool](skills/subfinder-passive-subdomain-enumeration/) | 13.3k | subfinder |  |
+| 50 | [Sage WordPress Starter Theme with Laravel Blade and Tailwind CSS](skills/sage-wordpress-starter-theme-laravel-blade/) | 13.2k | sage | WordPress & CMS |
 
 ---
 

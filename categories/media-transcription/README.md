@@ -6,33 +6,16 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 
 | Skill | Stars |
 |---|---:|
-| [Remotion Programmatic Video Creator](../../skills/remotion-programmatic-video-creator/) | ⭐ 244.3k |
-| [Coqui TTS Deep Learning Text-to-Speech Toolkit](../../skills/coqui-tts-deep-learning-text-to-speech-toolkit/) | ⭐ 98.6k |
-| [OpenAI Whisper API Transcription](../../skills/openai-whisper-api-transcription/) | ⭐ 96.9k |
-| [OpenAI Whisper Batch Transcription Pipeline](../../skills/whisper-batch-transcription-pipeline/) | ⭐ 96.9k |
-| [OpenAI Whisper Transcription](../../skills/openai-whisper-transcription/) | ⭐ 96.9k |
-| [Podcast Transcription Pipeline](../../skills/podcast-transcription-pipeline-agent/) | ⭐ 96.9k |
-| [Whisper Diarization Post-Processor](../../skills/whisper-diarization-post-processor/) | ⭐ 96.9k |
-| [Whisper Subtitle Generator](../../skills/whisper-subtitle-generator/) | ⭐ 96.9k |
-| [Whisper.cpp Local Transcription Engine](../../skills/whisper-cpp-local-transcription-engine/) | ⭐ 96.9k |
-| [YouTube Chapters Generator with Whisper](../../skills/youtube-chapters-generator-whisper/) | ⭐ 96.9k |
-
----
-
-## 📦 Top Downloaded
-
-| Skill | Downloads |
-|---|---:|
-| [Remotion Programmatic Video Creator](../../skills/remotion-programmatic-video-creator/) | ⬇ 121.9M/wk |
-| [OpenAI Whisper API Transcription](../../skills/openai-whisper-api-transcription/) | ⬇ 16.3M/wk |
-| [OpenAI Whisper Batch Transcription Pipeline](../../skills/whisper-batch-transcription-pipeline/) | ⬇ 16.3M/wk |
-| [OpenAI Whisper Transcription](../../skills/openai-whisper-transcription/) | ⬇ 16.3M/wk |
-| [Podcast Transcription Pipeline](../../skills/podcast-transcription-pipeline-agent/) | ⬇ 16.3M/wk |
-| [Whisper Diarization Post-Processor](../../skills/whisper-diarization-post-processor/) | ⬇ 16.3M/wk |
-| [Whisper Subtitle Generator](../../skills/whisper-subtitle-generator/) | ⬇ 16.3M/wk |
-| [Whisper.cpp Local Transcription Engine](../../skills/whisper-cpp-local-transcription-engine/) | ⬇ 16.3M/wk |
-| [YouTube Chapters Generator with Whisper](../../skills/youtube-chapters-generator-whisper/) | ⬇ 16.3M/wk |
-| [GStreamer Live Stream Transcoder](../../skills/gstreamer-live-stream-transcoder/) | ⬇ 5.6M/wk |
+| [Immich Self-Hosted Photo and Video Management Platform](../../skills/immich-photo-video-management-platform/) | ⭐ 96k |
+| [Insanely Fast Whisper GPU-Accelerated Speech Transcription CLI](../../skills/insanely-fast-whisper-gpu-transcription/) | ⭐ 12.2k |
+| [SpeechBrain PyTorch Conversational AI and Speech Processing Toolkit](../../skills/speechbrain-pytorch-speech-processing-toolkit/) | ⭐ 11.4k |
+| [pydub Python Audio Manipulation Library](../../skills/pydub-python-audio-manipulation-library/) | ⭐ 9.7k |
+| [RealtimeSTT Low-Latency Speech-to-Text Python Library](../../skills/realtimestt-low-latency-speech-to-text-python/) | ⭐ 9.6k |
+| [Silero VAD Pre-Trained Enterprise Voice Activity Detection](../../skills/silero-vad-voice-activity-detection/) | ⭐ 8.6k |
+| [librosa Python Audio and Music Analysis Library](../../skills/librosa-python-audio-music-analysis-library/) | ⭐ 8.3k |
+| [Auto-Editor Automated Video and Audio Silence Trimmer CLI](../../skills/auto-editor-automated-video-audio-silence-trimmer-cli/) | ⭐ 4.1k |
+| [audioFlux Audio and Music Analysis Feature Extraction Library](../../skills/audioflux-audio-music-analysis-feature-extraction-library/) | ⭐ 3.3k |
+| [MLT Multimedia Framework for Video Editing and Processing](../../skills/mlt-multimedia-framework-video-editing-processing/) | ⭐ 1.7k |
 
 ---
 
@@ -40,75 +23,75 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
-| [Remotion Programmatic Video Creator](../../skills/remotion-programmatic-video-creator/) | 244.3k | 121.9M/wk |
-| [Coqui TTS Deep Learning Text-to-Speech Toolkit](../../skills/coqui-tts-deep-learning-text-to-speech-toolkit/) | 98.6k | — |
-| [OpenAI Whisper API Transcription](../../skills/openai-whisper-api-transcription/) | 96.9k | 16.3M/wk |
-| [OpenAI Whisper Batch Transcription Pipeline](../../skills/whisper-batch-transcription-pipeline/) | 96.9k | 16.3M/wk |
-| [OpenAI Whisper Transcription](../../skills/openai-whisper-transcription/) | 96.9k | 16.3M/wk |
-| [Podcast Transcription Pipeline](../../skills/podcast-transcription-pipeline-agent/) | 96.9k | 16.3M/wk |
-| [Whisper Diarization Post-Processor](../../skills/whisper-diarization-post-processor/) | 96.9k | 16.3M/wk |
-| [Whisper Subtitle Generator](../../skills/whisper-subtitle-generator/) | 96.9k | 16.3M/wk |
-| [Whisper.cpp Local Transcription Engine](../../skills/whisper-cpp-local-transcription-engine/) | 96.9k | 16.3M/wk |
-| [YouTube Chapters Generator with Whisper](../../skills/youtube-chapters-generator-whisper/) | 96.9k | 16.3M/wk |
-| [faster-whisper High-Performance Speech Transcription Engine](../../skills/faster-whisper-high-performance-speech-transcription/) | 96.9k | — |
-| [Insanely Fast Whisper GPU-Accelerated Speech Transcription CLI](../../skills/insanely-fast-whisper-gpu-transcription/) | 96.9k | — |
-| [Podcast RSS Feed Transcriber](../../skills/podcast-rss-feed-transcriber/) | 96.9k | — |
-| [RealtimeSTT Low-Latency Speech-to-Text Python Library](../../skills/realtimestt-low-latency-speech-to-text-python/) | 96.9k | — |
-| [Whisper.cpp Real-Time Transcription Pipeline](../../skills/whisper-cpp-realtime-transcription-pipeline/) | 96.9k | — |
-| [WhisperX Speech Recognition with Word-Level Timestamps and Diarization](../../skills/whisperx-speech-recognition-timestamps-diarization/) | 96.9k | — |
-| [Audiobookshelf Self-Hosted Audiobook and Podcast Server API](../../skills/audiobookshelf-self-hosted-audiobook-podcast-server-api/) | 71.6k | — |
-| [Navidrome Self-Hosted Music Streaming Server and Subsonic API](../../skills/navidrome-self-hosted-music-streaming-subsonic-api/) | 71.6k | — |
-| [Piper Local Neural Text-to-Speech Engine](../../skills/piper-local-neural-tts-engine/) | 71.6k | — |
-| [GStreamer Live Stream Transcoder](../../skills/gstreamer-live-stream-transcoder/) | 63.3k | 5.6M/wk |
-| [Audio Stem Separator with Demucs](../../skills/audio-stem-separator-demucs/) | 58.4k | — |
-| [audiowaveform Audio Waveform Data Generator and Image Renderer](../../skills/audiowaveform-bbc-waveform-generator/) | 58.4k | — |
-| [Deepgram Nova STT Pipeline](../../skills/deepgram-nova-stt-pipeline/) | 58.4k | — |
-| [FFmpeg Audio Normalization Pipeline](../../skills/ffmpeg-audio-normalization-pipeline/) | 58.4k | — |
-| [FFmpeg Audio Transcoder](../../skills/ffmpeg-audio-transcoder/) | 58.4k | — |
-| [FFmpeg Batch Transcode Pipeline](../../skills/ffmpeg-batch-transcode-pipeline/) | 58.4k | — |
-| [FFmpeg Batch Transcoder](../../skills/ffmpeg-batch-transcoder-skill/) | 58.4k | — |
-| [FFmpeg Clip Extractor](../../skills/ffmpeg-clip-extractor-agent/) | 58.4k | — |
-| [HandBrake Open-Source Video Transcoder](../../skills/handbrake-open-source-video-transcoder/) | 58.4k | — |
-| [Liquidsoap Audio and Video Streaming Language](../../skills/liquidsoap-audio-video-streaming-language/) | 58.4k | — |
-| [Live Stream Audio Monitor](../../skills/live-stream-audio-monitor/) | 58.4k | — |
-| [Live Stream Clip Extractor](../../skills/live-stream-clip-extractor-agent/) | 58.4k | — |
-| [LosslessCut FFmpeg-Powered Media Editor](../../skills/losslesscut-ffmpeg-powered-media-editor/) | 58.4k | — |
-| [MLT Multimedia Framework for Video Editing and Processing](../../skills/mlt-multimedia-framework-video-editing-processing/) | 58.4k | — |
-| [MoviePy Python Video Editing Library](../../skills/moviepy-python-video-editing-library/) | 58.4k | — |
-| [Podcast RSS Feed Audio Normalizer](../../skills/podcast-rss-feed-audio-normalizer/) | 58.4k | — |
-| [pydub Python Audio Manipulation Library](../../skills/pydub-python-audio-manipulation-library/) | 58.4k | — |
-| [Spleeter AI Audio Source Separation by Deezer](../../skills/spleeter-ai-audio-source-separation-deezer/) | 58.4k | — |
-| [Video Frames Extractor](../../skills/video-frames-extractor/) | 58.4k | — |
-| [Video Subtitle Auto-Translator](../../skills/video-subtitle-auto-translator-agent/) | 58.4k | — |
-| [Video Subtitle Translator Agent](../../skills/video-subtitle-translator-agent/) | 58.4k | — |
-| [Vosk Offline Speech Recognition Toolkit](../../skills/vosk-offline-speech-recognition-toolkit/) | 58.4k | — |
-| [yt-dlp Feature-Rich Audio and Video Downloader CLI](../../skills/yt-dlp-feature-rich-audio-video-downloader-cli/) | 58.4k | — |
-| [Beets Music Library Manager and Tagger](../../skills/beets-music-library-manager-tagger/) | 7.1k | 5M/wk |
-| [MediaInfo Metadata Extractor](../../skills/mediainfo-metadata-extractor/) | 7.1k | 5M/wk |
-| [Deepgram Podcast Chapter Generator](../../skills/deepgram-podcast-chapter-generator/) | 5.6k | 1.4M/wk |
-| [ElevenLabs Voiceover Generator for Long-Form Content](../../skills/elevenlabs-voiceover-longform/) | 1.9k | 1.1M/wk |
-| [Audio Fingerprint Identifier](../../skills/audio-fingerprint-identifier-agent/) | — | 22M/wk |
+| [Immich Self-Hosted Photo and Video Management Platform](../../skills/immich-photo-video-management-platform/) | 96k | — |
+| [Insanely Fast Whisper GPU-Accelerated Speech Transcription CLI](../../skills/insanely-fast-whisper-gpu-transcription/) | 12.2k | — |
+| [SpeechBrain PyTorch Conversational AI and Speech Processing Toolkit](../../skills/speechbrain-pytorch-speech-processing-toolkit/) | 11.4k | — |
+| [pydub Python Audio Manipulation Library](../../skills/pydub-python-audio-manipulation-library/) | 9.7k | — |
+| [RealtimeSTT Low-Latency Speech-to-Text Python Library](../../skills/realtimestt-low-latency-speech-to-text-python/) | 9.6k | — |
+| [Silero VAD Pre-Trained Enterprise Voice Activity Detection](../../skills/silero-vad-voice-activity-detection/) | 8.6k | — |
+| [librosa Python Audio and Music Analysis Library](../../skills/librosa-python-audio-music-analysis-library/) | 8.3k | — |
+| [Auto-Editor Automated Video and Audio Silence Trimmer CLI](../../skills/auto-editor-automated-video-audio-silence-trimmer-cli/) | 4.1k | — |
+| [audioFlux Audio and Music Analysis Feature Extraction Library](../../skills/audioflux-audio-music-analysis-feature-extraction-library/) | 3.3k | — |
+| [MLT Multimedia Framework for Video Editing and Processing](../../skills/mlt-multimedia-framework-video-editing-processing/) | 1.7k | — |
 | [AssemblyAI Audio Intelligence Agent](../../skills/assemblyai-audio-intelligence-agent/) | — | — |
 | [AssemblyAI LeMUR Summarizer](../../skills/assemblyai-lemur-summarizer-agent/) | — | — |
 | [AssemblyAI Summarization &#038; Chapters Skill](../../skills/assemblyai-summarization-chapters-skill/) | — | — |
-| [audioFlux Audio and Music Analysis Feature Extraction Library](../../skills/audioflux-audio-music-analysis-feature-extraction-library/) | — | — |
-| [Auto-Editor Automated Video and Audio Silence Trimmer CLI](../../skills/auto-editor-automated-video-audio-silence-trimmer-cli/) | — | — |
+| [Audio Fingerprint Identifier](../../skills/audio-fingerprint-identifier-agent/) | — | — |
+| [Audio Stem Separator with Demucs](../../skills/audio-stem-separator-demucs/) | — | — |
+| [Audiobookshelf Self-Hosted Audiobook and Podcast Server API](../../skills/audiobookshelf-self-hosted-audiobook-podcast-server-api/) | — | — |
+| [audiowaveform Audio Waveform Data Generator and Image Renderer](../../skills/audiowaveform-bbc-waveform-generator/) | — | — |
+| [Beets Music Library Manager and Tagger](../../skills/beets-music-library-manager-tagger/) | — | — |
 | [Chatterbox State-of-the-Art Open Source Text-to-Speech](../../skills/chatterbox-sota-open-source-text-to-speech/) | — | — |
+| [Coqui TTS Deep Learning Text-to-Speech Toolkit](../../skills/coqui-tts-deep-learning-text-to-speech-toolkit/) | — | — |
 | [Core Audio Unit v3 Debugger](../../skills/core-audio-unit-v3-debugger/) | — | — |
+| [Deepgram Nova STT Pipeline](../../skills/deepgram-nova-stt-pipeline/) | — | — |
 | [Deepgram Nova Transcriber](../../skills/deepgram-nova-transcriber-agent/) | — | — |
+| [Deepgram Podcast Chapter Generator](../../skills/deepgram-podcast-chapter-generator/) | — | — |
 | [Deepgram Real-Time Transcription Connector](../../skills/deepgram-realtime-transcription-connector/) | — | — |
 | [Dolby Atmos ADM-BWF Metadata Extractor](../../skills/dolby-atmos-adm-bwf-metadata-extractor/) | — | — |
 | [Dolby.io Media Enhancer](../../skills/dolby-io-media-enhancer-agent/) | — | — |
 | [ElevenLabs Voice Cloning Agent](../../skills/elevenlabs-voice-cloning-agent/) | — | — |
+| [ElevenLabs Voiceover Generator for Long-Form Content](../../skills/elevenlabs-voiceover-longform/) | — | — |
 | [eSpeak NG Multilingual Speech Synthesizer](../../skills/espeak-ng-multilingual-speech-synthesizer/) | — | — |
+| [faster-whisper High-Performance Speech Transcription Engine](../../skills/faster-whisper-high-performance-speech-transcription/) | — | — |
+| [FFmpeg Audio Normalization Pipeline](../../skills/ffmpeg-audio-normalization-pipeline/) | — | — |
+| [FFmpeg Audio Transcoder](../../skills/ffmpeg-audio-transcoder/) | — | — |
+| [FFmpeg Batch Transcode Pipeline](../../skills/ffmpeg-batch-transcode-pipeline/) | — | — |
+| [FFmpeg Batch Transcoder](../../skills/ffmpeg-batch-transcoder-skill/) | — | — |
+| [FFmpeg Clip Extractor](../../skills/ffmpeg-clip-extractor-agent/) | — | — |
+| [GStreamer Live Stream Transcoder](../../skills/gstreamer-live-stream-transcoder/) | — | — |
 | [GStreamer Pipeline Graph Optimizer](../../skills/gstreamer-pipeline-graph-optimizer/) | — | — |
-| [Immich Self-Hosted Photo and Video Management Platform](../../skills/immich-photo-video-management-platform/) | — | — |
-| [librosa Python Audio and Music Analysis Library](../../skills/librosa-python-audio-music-analysis-library/) | — | — |
+| [HandBrake Open-Source Video Transcoder](../../skills/handbrake-open-source-video-transcoder/) | — | — |
+| [Liquidsoap Audio and Video Streaming Language](../../skills/liquidsoap-audio-video-streaming-language/) | — | — |
+| [Live Stream Audio Monitor](../../skills/live-stream-audio-monitor/) | — | — |
+| [Live Stream Clip Extractor](../../skills/live-stream-clip-extractor-agent/) | — | — |
+| [LosslessCut FFmpeg-Powered Media Editor](../../skills/losslesscut-ffmpeg-powered-media-editor/) | — | — |
+| [MediaInfo Metadata Extractor](../../skills/mediainfo-metadata-extractor/) | — | — |
+| [MoviePy Python Video Editing Library](../../skills/moviepy-python-video-editing-library/) | — | — |
+| [Navidrome Self-Hosted Music Streaming Server and Subsonic API](../../skills/navidrome-self-hosted-music-streaming-subsonic-api/) | — | — |
+| [OpenAI Whisper API Transcription](../../skills/openai-whisper-api-transcription/) | — | — |
+| [OpenAI Whisper Batch Transcription Pipeline](../../skills/whisper-batch-transcription-pipeline/) | — | — |
+| [OpenAI Whisper Transcription](../../skills/openai-whisper-transcription/) | — | — |
 | [Pedalboard Python Audio Effects Library by Spotify](../../skills/pedalboard-spotify-audio-effects-python/) | — | — |
+| [Piper Local Neural Text-to-Speech Engine](../../skills/piper-local-neural-tts-engine/) | — | — |
+| [Podcast RSS Feed Audio Normalizer](../../skills/podcast-rss-feed-audio-normalizer/) | — | — |
 | [Podcast RSS Feed Builder](../../skills/podcast-rss-feed-builder/) | — | — |
-| [Silero VAD Pre-Trained Enterprise Voice Activity Detection](../../skills/silero-vad-voice-activity-detection/) | — | — |
-| [SpeechBrain PyTorch Conversational AI and Speech Processing Toolkit](../../skills/speechbrain-pytorch-speech-processing-toolkit/) | — | — |
+| [Podcast RSS Feed Transcriber](../../skills/podcast-rss-feed-transcriber/) | — | — |
+| [Podcast Transcription Pipeline](../../skills/podcast-transcription-pipeline-agent/) | — | — |
+| [Remotion Programmatic Video Creator](../../skills/remotion-programmatic-video-creator/) | — | — |
+| [Spleeter AI Audio Source Separation by Deezer](../../skills/spleeter-ai-audio-source-separation-deezer/) | — | — |
+| [Video Frames Extractor](../../skills/video-frames-extractor/) | — | — |
+| [Video Subtitle Auto-Translator](../../skills/video-subtitle-auto-translator-agent/) | — | — |
+| [Video Subtitle Translator Agent](../../skills/video-subtitle-translator-agent/) | — | — |
+| [Vosk Offline Speech Recognition Toolkit](../../skills/vosk-offline-speech-recognition-toolkit/) | — | — |
+| [Whisper Diarization Post-Processor](../../skills/whisper-diarization-post-processor/) | — | — |
+| [Whisper Subtitle Generator](../../skills/whisper-subtitle-generator/) | — | — |
+| [Whisper.cpp Local Transcription Engine](../../skills/whisper-cpp-local-transcription-engine/) | — | — |
+| [Whisper.cpp Real-Time Transcription Pipeline](../../skills/whisper-cpp-realtime-transcription-pipeline/) | — | — |
+| [WhisperX Speech Recognition with Word-Level Timestamps and Diarization](../../skills/whisperx-speech-recognition-timestamps-diarization/) | — | — |
 | [YouTube Chapter Generator from Transcripts](../../skills/youtube-chapter-generator-transcripts/) | — | — |
+| [YouTube Chapters Generator with Whisper](../../skills/youtube-chapters-generator-whisper/) | — | — |
+| [yt-dlp Feature-Rich Audio and Video Downloader CLI](../../skills/yt-dlp-feature-rich-audio-video-downloader-cli/) | — | — |
 
 ---
 

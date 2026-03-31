@@ -4,14 +4,14 @@
 
 ### The open catalog of AI agent skills
 
-[![Published](https://img.shields.io/badge/published-1%2C518-6366f1?style=for-the-badge)](skills/)
+[![Published](https://img.shields.io/badge/published-1%2C521-6366f1?style=for-the-badge)](skills/)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/)
 [![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-1%2C466-10b981?style=for-the-badge)](verification/)
 [![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)
 
 **[Categories](categories/) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md) · [Submit a Skill](#submit-a-skill)**
 
-*1,518 published skills · 17 categories · Real ecosystem signals · Updated hourly*
+*1,521 published skills · 17 categories · Real ecosystem signals · Updated hourly*
 
 </div>
 
@@ -48,18 +48,18 @@ A hand-picked selection across categories. See [TOP-STARS.md](TOP-STARS.md) and 
 
 | Skill | Tool | ⭐ Stars | Category |
 |-------|------|--------:|----------|
-| [Docusaurus React Documentation Framework by Meta](skills/docusaurus-react-documentation-framework-meta/) | react | 244.3k | Developer Tools |
-| [Trafilatura Web Text Extraction and Crawling Toolkit](skills/trafilatura-web-text-extraction-crawling/) | huggingface | 158.5k | Research & Scraping |
-| [K9s Kubernetes Terminal Dashboard](skills/k9s-kubernetes-terminal-dashboard/) | kubernetes | 121.4k | Developer Tools |
-| [commitlint Conventional Commit Message Linter](skills/commitlint-conventional-commit-message-linter/) | angular | 100.1k | Code Quality & Review |
-| [Coqui TTS Deep Learning Text-to-Speech Toolkit](skills/coqui-tts-deep-learning-text-to-speech-toolkit/) | pytorch | 98.6k | Media & Transcription |
-| [Insanely Fast Whisper GPU-Accelerated Speech Transcription CLI](skills/insanely-fast-whisper-gpu-transcription/) | whisper | 96.9k | Media & Transcription |
-| [Puppeteer Cookie Consent Automator](skills/puppeteer-cookie-consent-automator/) | puppeteer | 94k | Browser Automation |
-| [Storybook Component Tester](skills/storybook-component-tester/) | storybook | 89.6k | Code Quality & Review |
-| [Playwright Accessibility Audit Runner](skills/playwright-accessibility-audit-runner/) | playwright | 85.2k | Browser Automation |
-| [ElasticSearch Cluster Vitals Agent](skills/elasticsearch-cluster-vitals-agent/) | elasticsearch | 76.4k | Monitoring & Alerts |
-| [Grafana Alert Router](skills/grafana-alert-router/) | grafana | 72.8k | Monitoring & Alerts |
+| [Ollama Local LLM Runner and Model Management CLI](skills/ollama-local-llm-runner/) | ollama | 166.5k | Developer Tools |
+| [Excalidraw Virtual Whiteboard and Diagram SDK](skills/excalidraw-virtual-whiteboard-diagram-sdk/) | excalidraw | 119.9k | Image & Creative Automation |
+| [llama.cpp Portable LLM Inference Engine in C/C++](skills/llama-cpp-portable-llm-inference/) | llama.cpp | 100.3k | Developer Tools |
+| [Immich Self-Hosted Photo and Video Management Platform](skills/immich-photo-video-management-platform/) | immich | 96k | Media & Transcription |
+| [Puppeteer Browser Automation Library for Chrome and Firefox](skills/puppeteer-browser-automation-library-for-chrome-and-firefox/) | puppeteer | 94k | Browser Automation |
+| [MarkItDown Document-to-Markdown Converter by Microsoft](skills/markitdown-document-to-markdown-converter-microsoft/) | markitdown | 92.9k | Data Extraction & Transformation |
+| [Hugo Fast Static Site Generator and CMS Framework](skills/hugo-static-site-generator-cms-framework/) | hugo | 87.4k | WordPress & CMS |
+| [Playwright Cross-Browser Testing and Automation Framework](skills/playwright-cross-browser-testing-and-automation-framework/) | playwright | 85.2k | Browser Automation |
+| [PaddleOCR Multilingual Document OCR and Structured Data Toolkit](skills/paddleocr-multilingual-document-ocr-toolkit/) | paddleocr | 73.7k | Data Extraction & Transformation |
 | [Strapi Open Source Headless CMS with REST and GraphQL APIs](skills/strapi-headless-cms-rest-graphql/) | strapi | 71.7k | WordPress & CMS |
+| [NocoDB Self-Hosted No-Code Database Platform with REST API](skills/nocodb-self-hosted-no-code-database-rest-api/) | nocodb | 62.6k | Integrations & Connectors |
+| [Rclone Cloud Storage Sync and Management CLI](skills/rclone-cloud-storage-sync-management-cli/) | rclone | 56.4k | Integrations & Connectors |
 
 ---
 
@@ -80,10 +80,10 @@ A hand-picked selection across categories. See [TOP-STARS.md](TOP-STARS.md) and 
 | 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 66 | Image generation, asset processing, design automation |
 | 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 66 | Scaffolders, boilerplate generators, workflow templates |
 | 🔍 | [**Research & Scraping**](categories/research-scraping/) | 66 | Web research, content discovery, data collection |
+| 📰 | [**WordPress & CMS**](categories/wordpress-cms/) | 64 | Theme/plugin dev, WP-CLI automation, CMS management |
 | 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 63 | Third-party API bridges, webhooks, service connectors |
-| 📰 | [**WordPress & CMS**](categories/wordpress-cms/) | 62 | Theme/plugin dev, WP-CLI automation, CMS management |
 | 🌐 | [**Browser Automation**](categories/browser-automation/) | 62 | Web scraping, UI testing, headless browser control |
-| ✍️ | [**Content Writing & SEO**](categories/content-writing-seo/) | 58 | SEO content, blog automation, editorial workflows |
+| ✍️ | [**Content Writing & SEO**](categories/content-writing-seo/) | 59 | SEO content, blog automation, editorial workflows |
 
 ---
 
@@ -142,7 +142,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 1,518 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 1,521 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 1,466 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

@@ -1,6 +1,6 @@
 # Skill Categories
 
-> **1518 skills** across **17 categories**
+> **1521 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
@@ -17,10 +17,10 @@
 | 🎨 | [**Image & Creative Automation**](image-creative-automation/) | **66** | Image generation, asset processing, design automation, and creative t... |
 | 📄 | [**Templates & Workflows**](templates-workflows/) | **66** | Project scaffolding, boilerplate generators, workflow templates, and ... |
 | 🔍 | [**Research & Scraping**](research-scraping/) | **66** | Web research, data collection, content aggregation, and information g... |
+| 📰 | [**WordPress & CMS**](wordpress-cms/) | **64** | Theme/plugin development, WP-CLI automation, CMS management, and Word... |
 | 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **63** | Third-party API bridges, webhook handlers, service connectors, and pl... |
-| 📰 | [**WordPress & CMS**](wordpress-cms/) | **62** | Theme/plugin development, WP-CLI automation, CMS management, and Word... |
 | 🌐 | [**Browser Automation**](browser-automation/) | **62** | Web scraping, UI testing, headless browser control, and browser-based... |
-| ✍️ | [**Content Writing & SEO**](content-writing-seo/) | **58** | Blog posts, SEO optimization, content strategy, and writing assistance. |
+| ✍️ | [**Content Writing & SEO**](content-writing-seo/) | **59** | Blog posts, SEO optimization, content strategy, and writing assistance. |
 
 ---
 
