@@ -9,9 +9,27 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [Typst Markup-Based Document Typesetting System](../../skills/typst-markup-typesetting-system/) | ⭐ 52.4k |
 | [Tiptap Headless Rich Text Editor Framework for Web Applications](../../skills/tiptap-headless-rich-text-editor-framework/) | ⭐ 35.9k |
 | [Zola Fast Static Site Generator in a Single Binary](../../skills/zola-static-site-generator/) | ⭐ 16.8k |
+| [LanguageTool Grammar and Style Checker](../../skills/languagetool-grammar-style-checker/) | ⭐ 14.2k |
 | [Markdoc Markdown-Based Authoring Framework by Stripe](../../skills/markdoc-markdown-authoring-framework-stripe/) | ⭐ 7.9k |
 | [WriteFreely Federated Markdown Publishing Platform with ActivityPub](../../skills/writefreely-federated-markdown-publishing-platform/) | ⭐ 5.1k |
+| [alex Inclusive Writing Linter](../../skills/alex-inclusive-writing-linter/) | ⭐ 5.1k |
+| [write-good English Prose Linting for Technical Content](../../skills/write-good-english-prose-linting-technical-content/) | ⭐ 5.1k |
 | [proselint Prose Linting and Style Checker CLI](../../skills/proselint-prose-linting-style-checker-cli/) | ⭐ 4.5k |
+| [Unlighthouse Site-Wide Lighthouse and SEO Auditing](../../skills/unlighthouse-site-wide-lighthouse-seo-auditing/) | ⭐ 4.5k |
+
+---
+
+## 📦 Top Downloaded
+
+| Skill | Downloads |
+|---|---:|
+| [Tiptap Headless Rich Text Editor Framework for Web Applications](../../skills/tiptap-headless-rich-text-editor-framework/) | ⬇ 40.1k/wk |
+| [alex Inclusive Writing Linter](../../skills/alex-inclusive-writing-linter/) | ⬇ 25.9k/wk |
+| [write-good English Prose Linting for Technical Content](../../skills/write-good-english-prose-linting-technical-content/) | ⬇ 51.5k/wk |
+| [Unlighthouse Site-Wide Lighthouse and SEO Auditing](../../skills/unlighthouse-site-wide-lighthouse-seo-auditing/) | ⬇ 15.9k/wk |
+| [textlint Pluggable Natural Language Linter](../../skills/textlint-pluggable-natural-language-linter/) | ⬇ 100.5k/wk |
+| [markdownlint-cli2 Markdown Linting for Docs and Repos](../../skills/markdownlint-cli2-markdown-linting-docs-repos/) | ⬇ 546.9k/wk |
+| [schema-dts TypeScript Types for Schema.org Structured Data](../../skills/schema-dts-typescript-types-schemaorg-structured-data/) | ⬇ 1.6M/wk |
 
 ---
 
@@ -20,18 +38,24 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | Skill | Stars | Downloads |
 |---|---:|---:|
 | [Typst Markup-Based Document Typesetting System](../../skills/typst-markup-typesetting-system/) | 52.4k | — |
-| [Tiptap Headless Rich Text Editor Framework for Web Applications](../../skills/tiptap-headless-rich-text-editor-framework/) | 35.9k | — |
+| [Tiptap Headless Rich Text Editor Framework for Web Applications](../../skills/tiptap-headless-rich-text-editor-framework/) | 35.9k | 40.1k/wk |
 | [Zola Fast Static Site Generator in a Single Binary](../../skills/zola-static-site-generator/) | 16.8k | — |
+| [LanguageTool Grammar and Style Checker](../../skills/languagetool-grammar-style-checker/) | 14.2k | — |
 | [Markdoc Markdown-Based Authoring Framework by Stripe](../../skills/markdoc-markdown-authoring-framework-stripe/) | 7.9k | — |
 | [WriteFreely Federated Markdown Publishing Platform with ActivityPub](../../skills/writefreely-federated-markdown-publishing-platform/) | 5.1k | — |
+| [alex Inclusive Writing Linter](../../skills/alex-inclusive-writing-linter/) | 5.1k | 25.9k/wk |
+| [write-good English Prose Linting for Technical Content](../../skills/write-good-english-prose-linting-technical-content/) | 5.1k | 51.5k/wk |
 | [proselint Prose Linting and Style Checker CLI](../../skills/proselint-prose-linting-style-checker-cli/) | 4.5k | — |
+| [Unlighthouse Site-Wide Lighthouse and SEO Auditing](../../skills/unlighthouse-site-wide-lighthouse-seo-auditing/) | 4.5k | 15.9k/wk |
+| [textlint Pluggable Natural Language Linter](../../skills/textlint-pluggable-natural-language-linter/) | 3.1k | 100.5k/wk |
+| [markdownlint-cli2 Markdown Linting for Docs and Repos](../../skills/markdownlint-cli2-markdown-linting-docs-repos/) | 740 | 546.9k/wk |
+| [schema-dts TypeScript Types for Schema.org Structured Data](../../skills/schema-dts-typescript-types-schemaorg-structured-data/) | — | 1.6M/wk |
 | [Ahrefs Backlink Content Planner](../../skills/ahrefs-backlink-content-planner/) | — | — |
 | [Ahrefs Content Gap Finder](../../skills/ahrefs-content-gap-finder-agent/) | — | — |
 | [Ahrefs Keyword Gap Analysis Skill](../../skills/ahrefs-keyword-gap-analysis-skill/) | — | — |
 | [AI Content Readability Optimizer](../../skills/ai-content-readability-optimizer/) | — | — |
 | [AI Meta Description Generator](../../skills/ai-meta-description-generator/) | — | — |
 | [AI-Powered Meta Description Writer](../../skills/ai-powered-meta-description-writer/) | — | — |
-| [alex Inclusive Writing Linter](../../skills/alex-inclusive-writing-linter/) | — | — |
 | [Clearscope NLP Grading Pipeline](../../skills/clearscope-nlp-grading-pipeline/) | — | — |
 | [Content Brief Architect](../../skills/content-brief-architect-agent/) | — | — |
 | [Content Cannibalization Detector](../../skills/content-cannibalization-detector/) | — | — |
@@ -48,15 +72,12 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [Jasper AI Long-Form Blog Post Generator](../../skills/jasper-longform-blog-generator/) | — | — |
 | [Keyword Cannibalization Detector](../../skills/keyword-cannibalization-detector/) | — | — |
 | [Keyword Cluster Generator](../../skills/keyword-cluster-generator-agent/) | — | — |
-| [LanguageTool Grammar and Style Checker](../../skills/languagetool-grammar-style-checker/) | — | — |
 | [lychee Async Broken Link Checker for Websites and Documentation](../../skills/lychee-async-broken-link-checker/) | — | — |
 | [Markdown-to-AMP Article Converter](../../skills/markdown-to-amp-article-converter/) | — | — |
-| [markdownlint-cli2 Markdown Linting for Docs and Repos](../../skills/markdownlint-cli2-markdown-linting-docs-repos/) | — | — |
 | [OpenSEO Self-Hosted Keyword Research and SEO Analysis Platform](../../skills/openseo-self-hosted-keyword-research-seo-analysis/) | — | — |
 | [Rank Math SEO Plugin for WordPress Search Optimization](../../skills/rank-math-seo-plugin-wordpress-search-optimization/) | — | — |
 | [retext Natural Language Processor with Unified Plugin Ecosystem](../../skills/retext-natural-language-processor-unified-plugins/) | — | — |
 | [Schema Markup Generator for SEO](../../skills/schema-markup-generator-seo/) | — | — |
-| [schema-dts TypeScript Types for Schema.org Structured Data](../../skills/schema-dts-typescript-types-schemaorg-structured-data/) | — | — |
 | [Schema.org Markup Generator](../../skills/schema-org-markup-generator-agent/) | — | — |
 | [Schema.org Structured Data Generator](../../skills/schema-org-structured-data-generator/) | — | — |
 | [Schema.org Structured Data Injector](../../skills/schema-org-structured-data-injector/) | — | — |
@@ -73,11 +94,8 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [Surfer SEO Content Optimizer Integration](../../skills/surfer-seo-content-optimizer-integration/) | — | — |
 | [Surfer SEO SERP Analyzer](../../skills/surfer-seo-serp-analyzer/) | — | — |
 | [Technical SEO Audit Crawler](../../skills/technical-seo-audit-crawler/) | — | — |
-| [textlint Pluggable Natural Language Linter](../../skills/textlint-pluggable-natural-language-linter/) | — | — |
 | [textstat Python Readability Statistics Calculator](../../skills/textstat-python-readability-statistics-calculator/) | — | — |
-| [Unlighthouse Site-Wide Lighthouse and SEO Auditing](../../skills/unlighthouse-site-wide-lighthouse-seo-auditing/) | — | — |
 | [WordPress Content Optimizer](../../skills/wordpress-content-optimizer-yoast-rest/) | — | — |
-| [write-good English Prose Linting for Technical Content](../../skills/write-good-english-prose-linting-technical-content/) | — | — |
 
 ---
 

@@ -7,7 +7,18 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | Skill | Stars |
 |---|---:|
 | [Plausible Analytics Privacy-First Web Analytics Platform](../../skills/plausible-analytics-privacy-first-web-analytics/) | ⭐ 24.5k |
+| [Langfuse LLM Observability Platform and SDK](../../skills/langfuse-llm-observability-platform-and-sdk/) | ⭐ 24.1k |
 | [Apprise Universal Push Notification Library and CLI](../../skills/apprise-universal-push-notification-library-cli/) | ⭐ 16.2k |
+| [Grafana Alloy OpenTelemetry Collector Distribution](../../skills/grafana-alloy-opentelemetry-collector/) | ⭐ 3k |
+| [PostHog Product Analytics and Feature Flags SDK](../../skills/posthog-product-analytics-and-feature-flags-sdk/) | ⭐ 531 |
+
+---
+
+## 📦 Top Downloaded
+
+| Skill | Downloads |
+|---|---:|
+| [PostHog Product Analytics and Feature Flags SDK](../../skills/posthog-product-analytics-and-feature-flags-sdk/) | ⬇ 4.6M/wk |
 
 ---
 
@@ -16,7 +27,10 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | Skill | Stars | Downloads |
 |---|---:|---:|
 | [Plausible Analytics Privacy-First Web Analytics Platform](../../skills/plausible-analytics-privacy-first-web-analytics/) | 24.5k | — |
+| [Langfuse LLM Observability Platform and SDK](../../skills/langfuse-llm-observability-platform-and-sdk/) | 24.1k | — |
 | [Apprise Universal Push Notification Library and CLI](../../skills/apprise-universal-push-notification-library-cli/) | 16.2k | — |
+| [Grafana Alloy OpenTelemetry Collector Distribution](../../skills/grafana-alloy-opentelemetry-collector/) | 3k | — |
+| [PostHog Product Analytics and Feature Flags SDK](../../skills/posthog-product-analytics-and-feature-flags-sdk/) | 531 | 4.6M/wk |
 | [AWS CloudWatch Anomaly Detector](../../skills/aws-cloudwatch-anomaly-detector/) | — | — |
 | [AWS CloudWatch Composite Alarm Builder](../../skills/aws-cloudwatch-composite-alarm-builder/) | — | — |
 | [AWS CloudWatch Insights Agent](../../skills/aws-cloudwatch-insights-agent/) | — | — |
@@ -45,7 +59,6 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Elastic APM Transaction Anomaly Spotter](../../skills/elastic-apm-transaction-anomaly-spotter/) | — | — |
 | [ElasticSearch Cluster Vitals Agent](../../skills/elasticsearch-cluster-vitals-agent/) | — | — |
 | [Grafana Alert Router](../../skills/grafana-alert-router/) | — | — |
-| [Grafana Alloy OpenTelemetry Collector Distribution](../../skills/grafana-alloy-opentelemetry-collector/) | — | — |
 | [Grafana Dashboard as Code Builder](../../skills/grafana-dashboard-as-code-builder/) | — | — |
 | [Grafana Dashboard as Code Generator](../../skills/grafana-dashboard-as-code-generator/) | — | — |
 | [Grafana Dashboard Generator](../../skills/grafana-dashboard-generator-3/) | — | — |
@@ -63,7 +76,6 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Jaeger Trace Explorer](../../skills/jaeger-trace-explorer/) | — | — |
 | [Kubernetes Event Stream Analyzer](../../skills/kubernetes-event-stream-analyzer/) | — | — |
 | [Kubernetes Troubleshooting Runbook](../../skills/kubernetes-troubleshooting-runbook/) | — | — |
-| [Langfuse LLM Observability Platform and SDK](../../skills/langfuse-llm-observability-platform-and-sdk/) | — | — |
 | [Loki Log Query Agent](../../skills/loki-log-query-agent/) | — | — |
 | [Metrics Dashboard Builder](../../skills/metrics-dashboard-builder/) | — | — |
 | [New Relic NRQL Query Agent](../../skills/new-relic-nrql-query-agent/) | — | — |
@@ -75,7 +87,6 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [PagerDuty Incident Orchestrator](../../skills/pagerduty-incident-orchestrator-2/) | — | — |
 | [PagerDuty Incident Runbook Linker](../../skills/pagerduty-incident-runbook-linker/) | — | — |
 | [PagerDuty MCP Server](../../skills/pagerduty-mcp-server/) | — | — |
-| [PostHog Product Analytics and Feature Flags SDK](../../skills/posthog-product-analytics-and-feature-flags-sdk/) | — | — |
 | [Prometheus / Grafana MCP Server](../../skills/prometheus-grafana-mcp-server/) | — | — |
 | [Prometheus Alert Router](../../skills/prometheus-alert-router/) | — | — |
 | [Prometheus Alert Rule Builder](../../skills/prometheus-alert-rule-builder/) | — | — |

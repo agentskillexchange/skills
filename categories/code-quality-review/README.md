@@ -6,7 +6,17 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 
 | Skill | Stars |
 |---|---:|
+| [Vale Prose Linter for Technical Documentation](../../skills/vale-prose-linter-technical-docs/) | ⭐ 5.3k |
 | [dprint Pluggable High-Performance Code Formatting Platform](../../skills/dprint-pluggable-code-formatter/) | ⭐ 3.9k |
+
+---
+
+## 📦 Top Downloaded
+
+| Skill | Downloads |
+|---|---:|
+| [dprint Pluggable High-Performance Code Formatting Platform](../../skills/dprint-pluggable-code-formatter/) | ⬇ 144.8k/wk |
+| [commitlint Conventional Commit Message Linter](../../skills/commitlint-conventional-commit-message-linter/) | ⬇ 575.3k/wk |
 
 ---
 
@@ -14,7 +24,9 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
-| [dprint Pluggable High-Performance Code Formatting Platform](../../skills/dprint-pluggable-code-formatter/) | 3.9k | — |
+| [Vale Prose Linter for Technical Documentation](../../skills/vale-prose-linter-technical-docs/) | 5.3k | — |
+| [dprint Pluggable High-Performance Code Formatting Platform](../../skills/dprint-pluggable-code-formatter/) | 3.9k | 144.8k/wk |
+| [commitlint Conventional Commit Message Linter](../../skills/commitlint-conventional-commit-message-linter/) | — | 575.3k/wk |
 | [ast-grep Structural Code Search and Rewrite](../../skills/ast-grep-structural-code-search-rewrite/) | — | — |
 | [CodeClimate Diff Analyzer](../../skills/codeclimate-diff-analyzer-2/) | — | — |
 | [CodeClimate Maintainability Tracker](../../skills/codeclimate-maintainability-tracker-7/) | — | — |
@@ -23,7 +35,6 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Codecov Coverage Report Analyzer](../../skills/codecov-coverage-report-analyzer/) | — | — |
 | [Codecov Coverage Tracker](../../skills/codecov-coverage-tracker-skill/) | — | — |
 | [Codecov Coverage Tracker Agent](../../skills/codecov-coverage-tracker-agent/) | — | — |
-| [commitlint Conventional Commit Message Linter](../../skills/commitlint-conventional-commit-message-linter/) | — | — |
 | [Complexity Trend Tracker](../../skills/complexity-trend-tracker-agent/) | — | — |
 | [Difftastic Structural Syntax-Aware Diff Tool](../../skills/difftastic-structural-syntax-diff/) | — | — |
 | [Docker Build Cache Optimizer](../../skills/docker-build-cache-optimizer/) | — | — |
@@ -103,7 +114,6 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [tokei Code Statistics Counter](../../skills/tokei-code-statistics-counter/) | — | — |
 | [ty Ultra-Fast Python Type Checker and Language Server](../../skills/ty-python-type-checker/) | — | — |
 | [typos Source Code Spell Checker](../../skills/typos-source-code-spell-checker/) | — | — |
-| [Vale Prose Linter for Technical Documentation](../../skills/vale-prose-linter-technical-docs/) | — | — |
 
 ---
 

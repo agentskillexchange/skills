@@ -15,6 +15,15 @@ Image generation, asset processing, design automation, and creative tooling.
 
 ---
 
+## 📦 Top Downloaded
+
+| Skill | Downloads |
+|---|---:|
+| [SVGO SVG Optimization Tool](../../skills/svgo-svg-optimization-tool/) | ⬇ 30.3M/wk |
+| [BlurHash Compact Image Placeholder Encoder](../../skills/blurhash-compact-image-placeholder-encoder/) | ⬇ 845.5k/wk |
+
+---
+
 ## Full Skill List
 
 | Skill | Stars | Downloads |
@@ -25,11 +34,12 @@ Image generation, asset processing, design automation, and creative tooling.
 | [libvips High-Performance Image Processing Library and CLI](../../skills/libvips-high-performance-image-processing-library-cli/) | 11.2k | — |
 | [Mermaid CLI Diagram-as-Code Renderer](../../skills/mermaid-cli-diagram-as-code-renderer/) | 4.3k | — |
 | [Oxipng Multithreaded Lossless PNG Compression Optimizer](../../skills/oxipng-png-compression-optimizer/) | 3.9k | — |
+| [SVGO SVG Optimization Tool](../../skills/svgo-svg-optimization-tool/) | — | 30.3M/wk |
+| [BlurHash Compact Image Placeholder Encoder](../../skills/blurhash-compact-image-placeholder-encoder/) | — | 845.5k/wk |
 | [Adobe Firefly API Batch Image Generator](../../skills/adobe-firefly-api-batch-image-generator/) | — | — |
 | [Adobe Photoshop API Batch Processor](../../skills/adobe-photoshop-api-batch-processor/) | — | — |
 | [Bannerbear Dynamic Image API](../../skills/bannerbear-dynamic-image-api/) | — | — |
 | [Blender Geometry Nodes Script Generator](../../skills/blender-geometry-nodes-script-generator/) | — | — |
-| [BlurHash Compact Image Placeholder Encoder](../../skills/blurhash-compact-image-placeholder-encoder/) | — | — |
 | [Cloudinary Asset Optimization Agent](../../skills/cloudinary-asset-optimization-agent/) | — | — |
 | [Cloudinary DAM Pipeline](../../skills/cloudinary-dam-pipeline-skill/) | — | — |
 | [Cloudinary Media Optimization Agent](../../skills/cloudinary-media-optimization-agent/) | — | — |
@@ -83,7 +93,6 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Stable Diffusion XL Pipeline](../../skills/stable-diffusion-xl-pipeline/) | — | — |
 | [Stable Diffusion XL Pipeline Builder](../../skills/stable-diffusion-xl-pipeline-builder/) | — | — |
 | [SVG Animation Builder](../../skills/svg-animation-builder/) | — | — |
-| [SVGO SVG Optimization Tool](../../skills/svgo-svg-optimization-tool/) | — | — |
 | [Thumbor Smart Image Processing Service](../../skills/thumbor-smart-image-processing-service/) | — | — |
 
 ---

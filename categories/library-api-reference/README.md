@@ -10,11 +10,24 @@ SDK documentation, API guides, framework reference material, and library usage p
 
 ---
 
+## 📦 Top Downloaded
+
+| Skill | Downloads |
+|---|---:|
+| [TypeDoc TypeScript API Documentation Generator](../../skills/typedoc-typescript-api-documentation-generator/) | ⬇ 3.8M/wk |
+| [JSDoc JavaScript API Documentation Generator](../../skills/jsdoc-javascript-api-documentation-generator/) | ⬇ 2.9M/wk |
+| [Redoc OpenAPI Documentation Renderer](../../skills/redoc-openapi-documentation-renderer/) | ⬇ 1.4M/wk |
+
+---
+
 ## Full Skill List
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
 | [Bubble Tea Go TUI Framework by Charmbracelet](../../skills/bubble-tea-go-tui-framework/) | 41.1k | — |
+| [TypeDoc TypeScript API Documentation Generator](../../skills/typedoc-typescript-api-documentation-generator/) | — | 3.8M/wk |
+| [JSDoc JavaScript API Documentation Generator](../../skills/jsdoc-javascript-api-documentation-generator/) | — | 2.9M/wk |
+| [Redoc OpenAPI Documentation Renderer](../../skills/redoc-openapi-documentation-renderer/) | — | 1.4M/wk |
 | [Anthropic SDK Token Usage Logger](../../skills/anthropic-sdk-token-usage-logger/) | — | — |
 | [API Documentation Indexer](../../skills/api-documentation-indexer/) | — | — |
 | [AsyncAPI Event Catalog Builder](../../skills/asyncapi-event-catalog-builder/) | — | — |
@@ -40,7 +53,6 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [GraphQL Schema Stitcher](../../skills/graphql-schema-stitcher/) | — | — |
 | [GraphQL Schema Stitching &#038; Federation Agent](../../skills/graphql-schema-stitching-federation-agent/) | — | — |
 | [gRPC Service Tool](../../skills/grpc-service-tool/) | — | — |
-| [JSDoc JavaScript API Documentation Generator](../../skills/jsdoc-javascript-api-documentation-generator/) | — | — |
 | [JSDoc Type Definition Extractor](../../skills/jsdoc-type-definition-extractor/) | — | — |
 | [MDN Web API Reference Fetcher](../../skills/mdn-web-api-reference-fetcher/) | — | — |
 | [MDN Web Docs Fetcher](../../skills/mdn-web-docs-fetcher/) | — | — |
@@ -87,7 +99,6 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Python Package Docs Fetcher](../../skills/python-package-docs-fetcher/) | — | — |
 | [Python PyPI Dependency Resolver](../../skills/python-pypi-dependency-resolver/) | — | — |
 | [Python PyPI Package Reference Indexer](../../skills/python-pypi-package-reference-indexer/) | — | — |
-| [Redoc OpenAPI Documentation Renderer](../../skills/redoc-openapi-documentation-renderer/) | — | — |
 | [REST API Changelog Tracker](../../skills/rest-api-changelog-tracker/) | — | — |
 | [REST API Documentation Generator](../../skills/rest-api-documentation-generator/) | — | — |
 | [REST API Reference Generator](../../skills/rest-api-reference-generator/) | — | — |
@@ -107,7 +118,6 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Swagger UI Documentation Deployer](../../skills/swagger-ui-documentation-deployer/) | — | — |
 | [Terraform Provider Schema Explorer](../../skills/terraform-provider-schema-explorer/) | — | — |
 | [TypeDoc Symbol Resolver](../../skills/typedoc-symbol-resolver/) | — | — |
-| [TypeDoc TypeScript API Documentation Generator](../../skills/typedoc-typescript-api-documentation-generator/) | — | — |
 | [Zod Schema Generator](../../skills/zod-schema-generator/) | — | — |
 
 ---
