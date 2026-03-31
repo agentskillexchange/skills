@@ -1,7 +1,7 @@
 ---
 name: "Infisical Open-Source Secret Management Platform"
 description: "Infisical is an open-source platform for managing application secrets, environment variables, and certificates across teams and infrastructure. This skill enables agents to sync secrets, rotate credentials, and manage PKI using the Infisical CLI and API."
-category: "Security &amp; Verification"
+category: "Security & Verification"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/Infisical/infisical"

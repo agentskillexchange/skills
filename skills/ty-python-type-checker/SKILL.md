@@ -1,7 +1,7 @@
 ---
 name: "ty Ultra-Fast Python Type Checker and Language Server"
 description: "ty is an extremely fast Python type checker and language server written in Rust by Astral, the creators of Ruff and uv. It delivers 10-100x faster type checking than mypy or Pyright with comprehensive diagnostics, incremental analysis, and first-class editor integrations."
-category: "Code Quality &amp; Review"
+category: "Code Quality & Review"
 framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/astral-sh/ty"
@@ -18,7 +18,7 @@ The tool delivers comprehensive diagnostics with rich contextual information, he
 
 As a language server, ty integrates directly into code editors including VS Code, PyCharm, and Neovim. It provides code navigation, intelligent completions, code actions, auto-import suggestions, inlay hints, and on-hover documentation. The language server uses fine-grained incremental analysis designed for near-instant updates as files are edited, keeping feedback loops tight during active development.
 
-ty includes advanced type system features such as first-class intersection types, sophisticated type narrowing, and reachability analysis based on types. It can be run standalone via the CLI with uvx ty check or integrated into CI pipelines. The tool is installable from PyPI and supports pyproject.toml configuration, fitting naturally into existing Python project structures.
+ty includes advanced type system features such as first-class intersection types, sophisticated type narrowing, and reachability analysis based on types. It can be run standalone via the CLI with `uvx ty check` or integrated into CI pipelines. The tool is installable from PyPI and supports pyproject.toml configuration, fitting naturally into existing Python project structures.
 
 ## Installation
 

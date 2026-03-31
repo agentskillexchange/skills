@@ -1,7 +1,7 @@
 ---
 name: "jnv Interactive JSON Navigator and jq Filter Editor"
 description: "A terminal-based interactive JSON viewer and jq filter editor written in Rust. jnv lets developers navigate complex JSON structures visually while building and testing jq queries in real time, with syntax highlighting, auto-completion, and clipboard support."
-category: "Data Extraction &amp; Transformation"
+category: "Data Extraction & Transformation"
 framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/ynqa/jnv"
@@ -20,7 +20,7 @@ jnv uses jaq (a Rust reimplementation of jq) as its filter engine, which means n
 
 The interface supports multiple input formats including standard JSON files and JSON Lines (newline-delimited JSON). Configuration is handled through a TOML file where developers can customize the UI appearance, adjust debounce timing for filter evaluation, configure editor behavior, and remap keybindings to match their preferences.
 
-Installation is available through Homebrew, MacPorts, Nix, Conda, Cargo, and Docker. The tool also supports writing filtered results to stdout on exit via --write-to-stdout, making it usable as part of shell pipelines where a developer needs to interactively select the right jq expression before piping the result to another command.
+Installation is available through Homebrew, MacPorts, Nix, Conda, Cargo, and Docker. The tool also supports writing filtered results to stdout on exit via `--write-to-stdout`, making it usable as part of shell pipelines where a developer needs to interactively select the right jq expression before piping the result to another command.
 
 ## Installation
 

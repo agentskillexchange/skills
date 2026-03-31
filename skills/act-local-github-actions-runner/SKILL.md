@@ -12,7 +12,7 @@ act is an open-source CLI tool that runs GitHub Actions workflows locally using 
 
 ## Overview
 
-act is an open-source command-line tool that executes GitHub Actions workflows on your local machine, available at github.com/nektos/act with over 57,000 GitHub stars. Its tagline is "Think globally, act locally" — it reads your .github/workflows/ directory, resolves the dependency graph between jobs and steps, and runs each action in Docker containers that replicate the GitHub-hosted runner environment.
+act is an open-source command-line tool that executes GitHub Actions workflows on your local machine, available at github.com/nektos/act with over 57,000 GitHub stars. Its tagline is “Think globally, act locally” — it reads your .github/workflows/ directory, resolves the dependency graph between jobs and steps, and runs each action in Docker containers that replicate the GitHub-hosted runner environment.
 
 The primary use case is fast feedback during workflow development. Without act, testing a workflow change requires committing, pushing, waiting for GitHub to pick up the job, and watching the run complete — a cycle that can take minutes per iteration. With act, developers run the workflow locally in seconds and see the output immediately in their terminal. The environment variables, filesystem layout, and available tools are configured to match what GitHub provides on its hosted runners.
 

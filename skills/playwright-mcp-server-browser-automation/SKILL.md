@@ -12,7 +12,7 @@ The official Microsoft Playwright MCP server provides browser automation capabil
 
 ## Overview
 
-The Playwright MCP Server, maintained by Microsoft, is a Model Context Protocol server that exposes Playwright's browser automation capabilities to LLMs and AI agents. With nearly 30,000 GitHub stars, it is the second most popular MCP server on GitHub and a cornerstone of the emerging agentic browser automation ecosystem.
+The Playwright MCP Server, maintained by Microsoft, is a Model Context Protocol server that exposes Playwright’s browser automation capabilities to LLMs and AI agents. With nearly 30,000 GitHub stars, it is the second most popular MCP server on GitHub and a cornerstone of the emerging agentic browser automation ecosystem.
 
 Unlike screenshot-based approaches that require vision models to interpret pixel data, the Playwright MCP server operates on structured accessibility tree snapshots. This makes tool application deterministic and avoids the ambiguity that comes with visual interpretation. The server is fast, lightweight, and works purely on structured data that LLMs can reason about directly.
 

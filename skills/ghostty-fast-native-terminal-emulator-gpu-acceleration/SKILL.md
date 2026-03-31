@@ -24,7 +24,7 @@ The terminal emulator uses GPU acceleration for rendering, achieving competitive
 
 Ghostty supports multi-window, tabbing, and split panes natively. Its configuration is done through a simple key-value config file with sensible defaults. The terminal handles font rendering with subpixel antialiasing, ligature support, and font fallback chains.
 
-Beyond the standalone application, Ghostty provides libghostty, a C-compatible library for embedding terminal emulation in third-party applications. This library enables other projects to leverage Ghostty's terminal implementation without building from scratch.
+Beyond the standalone application, Ghostty provides libghostty, a C-compatible library for embedding terminal emulation in third-party applications. This library enables other projects to leverage Ghostty’s terminal implementation without building from scratch.
 
 The project is licensed under MIT and has been adopted by millions of users since its public release. Installation packages are available for macOS (DMG) and Linux (various package managers). The project maintains active development with regular releases and a responsive community on GitHub Discussions and Discord.
 

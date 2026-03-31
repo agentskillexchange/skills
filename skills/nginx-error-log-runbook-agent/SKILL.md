@@ -1,7 +1,7 @@
 ---
 name: "Nginx Error Log Runbook Agent"
 description: "Automates Nginx error diagnosis using nginx -T configuration dump, error.log pattern matching, and the Nginx Plus REST API /api/8/http/upstreams endpoint. Resolves 502 Bad Gateway, SSL handshake failures, and upstream timeout issues."
-category: "Runbooks &amp; Diagnostics"
+category: "Runbooks & Diagnostics"
 framework: "ChatGPT Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/nginx-error-log-runbook-agent/"

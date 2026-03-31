@@ -1,7 +1,7 @@
 ---
 name: "Ghost Admin API Headless Publishing and CMS Automation"
 description: "The Ghost Admin API exposes authenticated operations for posts, pages, tags, members, offers, and newsletter publishing. This skill gives agents a concrete workflow for structured publishing and operational automation in Ghost-backed sites."
-category: "WordPress &amp; CMS"
+category: "WordPress & CMS"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://ghost.org/docs/admin-api/"

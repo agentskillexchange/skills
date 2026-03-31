@@ -1,7 +1,7 @@
 ---
 name: "Python PyPI Package Reference Indexer"
 description: "Indexes Python package documentation using the PyPI JSON API and Read the Docs API. Builds searchable reference catalogs with function signatures, type hints, and usage examples."
-category: "Library &amp; API Reference"
+category: "Library & API Reference"
 framework: "ChatGPT Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/python-pypi-package-reference-indexer/"

@@ -1,7 +1,7 @@
 ---
 name: "ESLint Auto-Fix Orchestrator"
 description: "Runs ESLint with auto-fix capabilities using the ESLint Node.js API and flat config system. Supports custom rule sets, TypeScript via typescript-eslint, and Prettier integration."
-category: "Code Quality &amp; Review"
+category: "Code Quality & Review"
 framework: "Claude Code"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/eslint-autofix-orchestrator/"
@@ -18,7 +18,7 @@ The agent scans project files, identifies fixable violations, and applies safe a
 
 Prettier compatibility is maintained through eslint-config-prettier and eslint-plugin-prettier, ensuring formatting and linting rules never conflict. The agent can generate detailed reports in JSON, SARIF, or stylish formats for CI integration.
 
-Advanced features include incremental linting with cache (-cache flag), custom rule authoring support via RuleTester, and automatic suppression comment generation for legacy code migration. The agent tracks fix statistics and reports improvement trends over time.
+Advanced features include incremental linting with cache (–cache flag), custom rule authoring support via RuleTester, and automatic suppression comment generation for legacy code migration. The agent tracks fix statistics and reports improvement trends over time.
 
 ## Installation
 

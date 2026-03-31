@@ -1,7 +1,7 @@
 ---
 name: "DALL-E Image Variation Pipeline"
 description: "Manages OpenAI DALL-E 3 API workflows for brand-consistent image generation with style references, aspect ratio control, and automated prompt refinement using GPT-4 Vision feedback loops."
-category: "Image &amp; Creative Automation"
+category: "Image & Creative Automation"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/dalle-image-variation-pipeline/"
@@ -12,7 +12,7 @@ Manages OpenAI DALL-E 3 API workflows for brand-consistent image generation with
 
 ## Overview
 
-The DALL-E Image Variation Pipeline orchestrates OpenAI's DALL-E 3 API for production image generation workflows. It manages prompt engineering with brand style guides, ensuring consistent visual identity across generated assets through systematic prompt templates and negative constraint specifications.
+The DALL-E Image Variation Pipeline orchestrates OpenAI’s DALL-E 3 API for production image generation workflows. It manages prompt engineering with brand style guides, ensuring consistent visual identity across generated assets through systematic prompt templates and negative constraint specifications.
 
 The skill implements iterative refinement loops using GPT-4 Vision to evaluate generated images against style criteria, automatically adjusting prompts based on compositional analysis, color palette matching, and subject positioning feedback. Aspect ratio control supports standard formats (1:1, 16:9, 9:16) with intelligent prompt adaptation for each format.
 

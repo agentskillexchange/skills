@@ -12,7 +12,7 @@ tRPC enables developers to build fully typesafe APIs in TypeScript without schem
 
 ## Overview
 
-tRPC is a TypeScript RPC framework that eliminates the gap between server and client type definitions. Instead of defining API schemas in OpenAPI, GraphQL SDL, or Protocol Buffers and then generating client code, tRPC lets the client import the server's type definitions directly. When a server-side procedure changes its input or output shape, TypeScript immediately flags type errors on the client before the code even runs.
+tRPC is a TypeScript RPC framework that eliminates the gap between server and client type definitions. Instead of defining API schemas in OpenAPI, GraphQL SDL, or Protocol Buffers and then generating client code, tRPC lets the client import the server’s type definitions directly. When a server-side procedure changes its input or output shape, TypeScript immediately flags type errors on the client before the code even runs.
 
 The framework uses a procedure-based model where developers define queries, mutations, and subscriptions as typed functions on the server. Each procedure specifies its input validation using libraries like Zod, Valibot, or ArkType, and tRPC infers the validated types through to the client. This means the client gets full autocompletion on request parameters and response data without any manual type declarations or generated client code.
 

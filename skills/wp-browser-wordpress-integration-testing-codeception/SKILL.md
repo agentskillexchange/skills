@@ -1,7 +1,7 @@
 ---
 name: "wp-browser WordPress Integration Testing with Codeception"
 description: "wp-browser is a PHP library that provides Codeception modules for testing WordPress plugins and themes. It supports unit, integration, functional, and acceptance testing with WordPress-aware test environments and database isolation."
-category: "WordPress &amp; CMS"
+category: "WordPress & CMS"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/lucatume/wp-browser"
@@ -24,7 +24,7 @@ The library integrates with Codeception, a popular PHP testing framework, and ad
 
 Key capabilities include: isolated database environments for each test run using transactions or cleanup, WordPress function and hook availability in integration tests, WP-CLI integration for site setup and configuration, support for testing custom post types, taxonomies, REST API endpoints, and AJAX handlers, multisite testing support, and PHP built-in web server support for running tests without Apache/Nginx.
 
-wp-browser is installed via Composer (composer require --dev lucatume/wp-browser) and includes a guided initialization wizard that configures the test environment for your specific WordPress project setup. Documentation is available at wpbrowser.wptestkit.dev with detailed guides for each test type and module configuration.
+wp-browser is installed via Composer (`composer require --dev lucatume/wp-browser`) and includes a guided initialization wizard that configures the test environment for your specific WordPress project setup. Documentation is available at wpbrowser.wptestkit.dev with detailed guides for each test type and module configuration.
 
 With 630+ GitHub stars, 87 forks, MIT license, and active development, wp-browser is a mature tool that AI agents can use to scaffold and run comprehensive test suites for WordPress plugins and themes. It enables automated testing workflows including database state verification, REST API endpoint testing, hook and filter assertion, and full browser-based acceptance tests.
 

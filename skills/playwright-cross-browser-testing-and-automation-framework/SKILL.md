@@ -9,6 +9,7 @@ tool_ecosystem:
   tool: playwright
   github_repo: microsoft/playwright
   github_stars: 85327
+  npm_package: playwright
   npm_weekly_downloads: 41348319
   license: Apache-2.0
   maintained: true
@@ -19,7 +20,7 @@ Uses Microsoft Playwright to automate Chromium, Firefox, and WebKit with one API
 
 ## Overview
 
-Playwright Cross-Browser Testing and Automation Framework is centered on Microsoft Playwright, the open source browser automation project at microsoft/playwright. Playwright exposes one automation model for Chromium, Firefox, and WebKit, which makes it practical when the same workflow has to be validated across engines instead of only against one local Chrome build. The upstream documentation also emphasizes browser contexts, tracing, screenshots, videos, and a test runner that was built specifically for modern web apps.
+Playwright Cross-Browser Testing and Automation Framework is centered on Microsoft Playwright, the open source browser automation project at `microsoft/playwright`. Playwright exposes one automation model for Chromium, Firefox, and WebKit, which makes it practical when the same workflow has to be validated across engines instead of only against one local Chrome build. The upstream documentation also emphasizes browser contexts, tracing, screenshots, videos, and a test runner that was built specifically for modern web apps.
 
 This skill is useful for several concrete jobs-to-be-done: running end-to-end tests against authenticated applications, reproducing flaky UI bugs with trace capture, taking deterministic screenshots or PDFs, automating web data collection from JavaScript-heavy pages, and validating forms or dashboards across multiple browsers in CI. In a typical implementation, the agent works with Playwright primitives such as browser contexts, locators, page navigation, request interception, screenshots, trace viewer output, and the built-in test runner. That is materially different from ad hoc browser scripting because Playwright auto-waits for actionability and retries web-first assertions, which helps reduce false failures.
 

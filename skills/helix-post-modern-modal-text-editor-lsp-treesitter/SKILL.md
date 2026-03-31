@@ -20,7 +20,7 @@ Helix is a post-modern terminal-based modal text editor written in Rust. It feat
 
 Helix is an open-source modal text editor that brings modern IDE features to the terminal without requiring plugins. Written in Rust, Helix combines the efficiency of modal editing with built-in language intelligence that works out of the box.
 
-The editor's design is heavily inspired by Kakoune's selection-first editing model, where you first select text and then apply operations — the inverse of Vim's verb-object approach. This makes editing operations visual and predictable. Multiple selections are a first-class feature, allowing you to edit many locations simultaneously.
+The editor’s design is heavily inspired by Kakoune’s selection-first editing model, where you first select text and then apply operations — the inverse of Vim’s verb-object approach. This makes editing operations visual and predictable. Multiple selections are a first-class feature, allowing you to edit many locations simultaneously.
 
 Helix ships with built-in Language Server Protocol (LSP) support, providing autocompletion, go-to-definition, find references, rename refactoring, diagnostics, and code actions for dozens of languages without configuration. Tree-sitter integration powers incremental syntax highlighting, structural text objects, and intelligent code navigation.
 

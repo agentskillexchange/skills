@@ -1,7 +1,7 @@
 ---
 name: "PHPStan Static Analyzer Agent"
 description: "Performs PHP static analysis using PHPStan CLI at rule levels 0-9 with custom extensions. Detects type errors, dead code, and PHPDoc inconsistencies in WordPress and Laravel projects."
-category: "Code Quality &amp; Review"
+category: "Code Quality & Review"
 framework: "OpenClaw"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/phpstan-static-analyzer-agent/"
@@ -18,7 +18,7 @@ The agent configures phpstan.neon with project-specific settings including autol
 
 For WordPress projects, the agent handles hook callback type inference, global function stubs ($wpdb, WP_Query), and template hierarchy analysis. Laravel support includes Eloquent model property inference, facade resolution, and container binding analysis through Larastan.
 
-Baseline management (phpstan analyse -generate-baseline) enables gradual adoption by ignoring existing errors while enforcing zero new errors. The agent tracks error counts per level, generates trend reports, and suggests incremental level upgrades. CI integration outputs errors in checkstyle XML or JSON format for GitHub annotations and code review comments.
+Baseline management (phpstan analyse –generate-baseline) enables gradual adoption by ignoring existing errors while enforcing zero new errors. The agent tracks error counts per level, generates trend reports, and suggests incremental level upgrades. CI integration outputs errors in checkstyle XML or JSON format for GitHub annotations and code review comments.
 
 ## Installation
 

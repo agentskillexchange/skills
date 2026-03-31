@@ -1,7 +1,7 @@
 ---
 name: "Kubernetes Pod Diagnostics Runner"
 description: "Runs automated diagnostic sequences on Kubernetes pods using kubectl exec, kubectl logs, and the Kubernetes API /api/v1/pods endpoint. Captures OOMKilled events, CrashLoopBackOff analysis, and resource utilization via metrics-server."
-category: "Runbooks &amp; Diagnostics"
+category: "Runbooks & Diagnostics"
 framework: "Cursor"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/kubernetes-pod-diagnostics-runner-2/"
@@ -14,7 +14,7 @@ Runs automated diagnostic sequences on Kubernetes pods using kubectl exec, kubec
 
 The Kubernetes Pod Diagnostics Runner skill automates troubleshooting of failing Kubernetes workloads. It uses the Kubernetes REST API (/api/v1/namespaces/{ns}/pods) and kubectl CLI to run comprehensive diagnostic sequences.
 
-When a pod is unhealthy, the skill collects: pod describe output including events and conditions, container logs with -previous flag for crashed containers, resource metrics from metrics-server API (/apis/metrics.k8s.io/v1beta1), and node conditions for the hosting node.
+When a pod is unhealthy, the skill collects: pod describe output including events and conditions, container logs with –previous flag for crashed containers, resource metrics from metrics-server API (/apis/metrics.k8s.io/v1beta1), and node conditions for the hosting node.
 
 It automatically identifies common failure patterns: OOMKilled exits with memory limit recommendations based on actual usage, CrashLoopBackOff with init container and readiness probe analysis, ImagePullBackOff with registry authentication verification, and Pending pods with scheduler event analysis.
 

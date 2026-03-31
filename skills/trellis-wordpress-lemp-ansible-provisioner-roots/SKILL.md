@@ -1,7 +1,7 @@
 ---
 name: "Trellis WordPress LEMP Stack Provisioner by Roots"
-description: "Trellis is a collection of Ansible playbooks for provisioning and deploying WordPress LEMP stack servers. It automates Nginx, PHP, MariaDB, Let's Encrypt SSL, fail2ban, and zero-downtime deploys across development, staging, and production environments."
-category: "WordPress &amp; CMS"
+description: "Trellis is a collection of Ansible playbooks for provisioning and deploying WordPress LEMP stack servers. It automates Nginx, PHP, MariaDB, Let’s Encrypt SSL, fail2ban, and zero-downtime deploys across development, staging, and production environments."
+category: "WordPress & CMS"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/roots/trellis"
@@ -14,11 +14,11 @@ tool_ecosystem:
 ---
 # Trellis WordPress LEMP Stack Provisioner by Roots
 
-Trellis is a collection of Ansible playbooks for provisioning and deploying WordPress LEMP stack servers. It automates Nginx, PHP, MariaDB, Let's Encrypt SSL, fail2ban, and zero-downtime deploys across development, staging, and production environments.
+Trellis is a collection of Ansible playbooks for provisioning and deploying WordPress LEMP stack servers. It automates Nginx, PHP, MariaDB, Let’s Encrypt SSL, fail2ban, and zero-downtime deploys across development, staging, and production environments.
 
 ## Overview
 
-Trellis is an open-source server provisioning and deployment tool for WordPress built by the Roots team. It uses Ansible playbooks to automate the complete setup of a LEMP (Linux, Nginx, MariaDB, PHP) stack optimized specifically for WordPress hosting, including automated Let's Encrypt SSL certificates, fail2ban intrusion prevention, and zero-downtime deployments.
+Trellis is an open-source server provisioning and deployment tool for WordPress built by the Roots team. It uses Ansible playbooks to automate the complete setup of a LEMP (Linux, Nginx, MariaDB, PHP) stack optimized specifically for WordPress hosting, including automated Let’s Encrypt SSL certificates, fail2ban intrusion prevention, and zero-downtime deployments.
 
 The tool provides two main Ansible playbooks: server.yml for initial server provisioning and deploy.yml for deploying WordPress sites. Server provisioning installs and configures Nginx with optimized WordPress rules, PHP-FPM with appropriate settings, MariaDB for the database layer, and additional components like WP-CLI, Composer, and security hardening. The deploy playbook handles git-based deployments with atomic symlink swaps for zero downtime.
 

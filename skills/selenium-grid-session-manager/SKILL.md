@@ -12,7 +12,7 @@ Manages distributed browser sessions on Selenium Grid 4 via the GraphQL API and 
 
 ## Overview
 
-The Selenium Grid Session Manager orchestrates distributed browser testing infrastructure using Selenium Grid 4's modern architecture. It communicates with the Grid via the GraphQL API endpoint (/graphql) for detailed session and node information, and the /status REST endpoint for health monitoring.
+The Selenium Grid Session Manager orchestrates distributed browser testing infrastructure using Selenium Grid 4’s modern architecture. It communicates with the Grid via the GraphQL API endpoint (/graphql) for detailed session and node information, and the /status REST endpoint for health monitoring.
 
 The skill handles dynamic node registration and capability matching, ensuring test sessions are routed to nodes with the correct browser version, platform, and custom capabilities. It manages session queuing with configurable timeout and retry policies, preventing queue overflow during peak testing periods.
 

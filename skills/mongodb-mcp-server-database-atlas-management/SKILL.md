@@ -1,7 +1,7 @@
 ---
 name: "MongoDB MCP Server for Database and Atlas Management"
 description: "The official MongoDB MCP server connects AI agents to MongoDB databases and Atlas clusters through the Model Context Protocol, enabling structured queries, collection management, Atlas API operations, and aggregation pipelines with built-in authentication and access control."
-category: "Integrations &amp; Connectors"
+category: "Integrations & Connectors"
 framework: "MCP"
 verification: security_reviewed
 source: "https://github.com/mongodb-js/mongodb-mcp-server"
@@ -16,7 +16,7 @@ The MongoDB MCP Server is an official Model Context Protocol server maintained b
 
 The server supports two main operational modes: direct MongoDB database operations and MongoDB Atlas cloud management. For database operations, agents can query collections, run aggregation pipelines, create indexes, inspect schemas, and manage documents. For Atlas operations, the server exposes cluster management, project listing, organization configuration, and private registry access through the Atlas API with service account authentication.
 
-Security is a primary design consideration. The server defaults to read-only mode (-readOnly flag), ensuring agents cannot modify data unless explicitly permitted. It supports environment variable-based credential management rather than command-line arguments to prevent credential exposure in process lists. Atlas API access uses service accounts with configurable minimum-required permissions.
+Security is a primary design consideration. The server defaults to read-only mode (–readOnly flag), ensuring agents cannot modify data unless explicitly permitted. It supports environment variable-based credential management rather than command-line arguments to prevent credential exposure in process lists. Atlas API access uses service accounts with configurable minimum-required permissions.
 
 Integration is available for all major MCP clients including VS Code, Cursor, Windsurf, Claude Desktop, Claude Code, Codex, Copilot CLI, and Cline. The configuration follows standard MCP server patterns with npx-based invocation and environment variables for connection strings and Atlas API credentials.
 

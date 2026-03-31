@@ -1,7 +1,7 @@
 ---
 name: "Datadog Monitors Skill"
 description: "Manages Datadog monitors and dashboards via the Datadog API v2. Lists triggered monitors, mutes/unmutes alert groups, and queries metric timeseries. Supports composite monitors and SLO tracking."
-category: "Monitoring &amp; Alerts"
+category: "Monitoring & Alerts"
 framework: "Codex"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/datadog-monitors-skill/"
@@ -12,7 +12,7 @@ Manages Datadog monitors and dashboards via the Datadog API v2. Lists triggered 
 
 ## Overview
 
-The Datadog Monitors Skill connects Claude to Datadog's monitoring platform through the official API v2 endpoints. It retrieves monitor states, identifies triggered alerts, and provides context for incident investigation by querying associated metric timeseries data.
+The Datadog Monitors Skill connects Claude to Datadog’s monitoring platform through the official API v2 endpoints. It retrieves monitor states, identifies triggered alerts, and provides context for incident investigation by querying associated metric timeseries data.
 
 Core capabilities include listing monitors filtered by tag, state, or type; muting and unmuting specific monitor groups during maintenance; and querying the timeseries endpoint to pull metric values for the time window around an alert. The skill formats metric data as readable tables or inline sparklines for quick assessment.
 

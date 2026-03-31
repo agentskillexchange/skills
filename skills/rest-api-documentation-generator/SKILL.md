@@ -1,7 +1,7 @@
 ---
 name: "REST API Documentation Generator"
 description: "Generates interactive API documentation from code annotations using swagger-jsdoc for Express.js routes and the Redoc (@redocly/cli) renderer. Supports OpenAPI 3.1 output with JSON Schema $ref resolution via @apidevtools/json-schema-ref-parser."
-category: "Library &amp; API Reference"
+category: "Library & API Reference"
 framework: "Claude Code"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/rest-api-documentation-generator/"

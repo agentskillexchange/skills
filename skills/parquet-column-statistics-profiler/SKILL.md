@@ -1,7 +1,7 @@
 ---
 name: "Parquet Column Statistics Profiler"
 description: "Profiles Apache Parquet files using pyarrow metadata APIs to extract column statistics, row group distributions, and encoding efficiency metrics without reading full datasets."
-category: "Data Extraction &amp; Transformation"
+category: "Data Extraction & Transformation"
 framework: "ChatGPT Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/parquet-column-statistics-profiler/"
@@ -12,7 +12,7 @@ Profiles Apache Parquet files using pyarrow metadata APIs to extract column stat
 
 ## Overview
 
-The Parquet Column Statistics Profiler skill performs lightweight metadata-only analysis of Apache Parquet files to extract comprehensive column statistics and storage efficiency metrics. Using pyarrow's ParquetFile metadata API, it reads file footers and row group statistics without loading actual data into memory.
+The Parquet Column Statistics Profiler skill performs lightweight metadata-only analysis of Apache Parquet files to extract comprehensive column statistics and storage efficiency metrics. Using pyarrow’s ParquetFile metadata API, it reads file footers and row group statistics without loading actual data into memory.
 
 For each column, the skill extracts min/max values, null counts, distinct value estimates from Bloom filters, and compression ratios across encodings (PLAIN, DICTIONARY, RLE, DELTA_BINARY_PACKED). It identifies columns with poor dictionary encoding efficiency (high cardinality vs. dictionary page size) and recommends encoding strategy changes.
 

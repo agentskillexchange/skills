@@ -1,7 +1,7 @@
 ---
 name: "Gitleaks Git Repository Secret Scanner"
 description: "Gitleaks is an open-source SAST tool for detecting hardcoded secrets like passwords, API keys, and tokens in Git repositories, files, and directories. With 24,000+ GitHub stars and 20 million Docker downloads, it is the most widely adopted open-source secret scanner."
-category: "Security &amp; Verification"
+category: "Security & Verification"
 framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/gitleaks/gitleaks"
@@ -16,7 +16,7 @@ Gitleaks is a static analysis security testing (SAST) tool purpose-built for fin
 
 The detection engine uses a regex-based approach with entropy analysis to minimize false positives. Gitleaks ships with a comprehensive set of built-in rules covering hundreds of secret patterns from major providers including AWS, GCP, Azure, GitHub, Slack, Stripe, Twilio, SendGrid, and many others. Each finding includes the secret value, the rule that matched, the entropy score, the file path and line number, the commit hash and author, and a unique fingerprint for deduplication across scans.
 
-Gitleaks operates in two primary modes. The git command scans the full Git history of a repository, catching secrets that were committed and later removed but still exist in the commit log. The dir command scans the current filesystem state, useful for pre-commit checks or scanning non-Git directories. Both modes support JSON, CSV, JUnit, and SARIF output formats for integration with CI dashboards and security platforms.
+Gitleaks operates in two primary modes. The `git` command scans the full Git history of a repository, catching secrets that were committed and later removed but still exist in the commit log. The `dir` command scans the current filesystem state, useful for pre-commit checks or scanning non-Git directories. Both modes support JSON, CSV, JUnit, and SARIF output formats for integration with CI dashboards and security platforms.
 
 Integration paths include a first-party GitHub Action (gitleaks-action) that runs on pull requests and pushes, pre-commit hooks via the pre-commit framework for catching secrets before they enter the repository, and direct CLI usage in any CI/CD pipeline. Installation is available through Homebrew, Docker (both DockerHub and GitHub Container Registry), and Go install.
 

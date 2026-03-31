@@ -18,7 +18,7 @@ This skill uses the tkn CLI and Kubernetes API to inspect cluster state, list av
 
 Key features include automatic generation of TriggerBindings and TriggerTemplates for webhook-driven pipelines, EventListener configuration with CEL interceptors for branch filtering, and proper parameterization of pipeline definitions for reuse across environments.
 
-The skill handles complex scenarios like fan-out/fan-in patterns using Tekton's when expressions, matrix parameters for parallel test execution, and custom task result propagation using $(tasks.taskname.results.resultname) syntax. It also integrates with Tekton Chains for supply chain security attestation.
+The skill handles complex scenarios like fan-out/fan-in patterns using Tekton’s when expressions, matrix parameters for parallel test execution, and custom task result propagation using $(tasks.taskname.results.resultname) syntax. It also integrates with Tekton Chains for supply chain security attestation.
 
 ## Installation
 

@@ -1,7 +1,7 @@
 ---
 name: "OpenAPI Spec Compliance Checker"
 description: "Validates REST APIs against their OpenAPI 3.x specifications using swagger-parser and Spectral linter rules. Checks response schemas, parameter types, authentication requirements, and generates compliance reports."
-category: "Library &amp; API Reference"
+category: "Library & API Reference"
 framework: "Cursor"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/openapi-spec-compliance-checker/"

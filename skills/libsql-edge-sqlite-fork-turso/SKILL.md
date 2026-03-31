@@ -18,7 +18,7 @@ libSQL is an open-source, open-contribution fork of SQLite by Turso that adds em
 
 ## Overview
 
-libSQL is an open-source fork of SQLite created and maintained by Turso that extends SQLite's capabilities for modern application architectures. While preserving full SQLite compatibility, libSQL adds embedded replicas that sync from a remote primary, a server mode (libsql-server) that exposes SQLite over HTTP and WebSocket protocols similar to PostgreSQL or MySQL, and WebAssembly-based user-defined functions for running custom logic inside the database engine.
+libSQL is an open-source fork of SQLite created and maintained by Turso that extends SQLite’s capabilities for modern application architectures. While preserving full SQLite compatibility, libSQL adds embedded replicas that sync from a remote primary, a server mode (libsql-server) that exposes SQLite over HTTP and WebSocket protocols similar to PostgreSQL or MySQL, and WebAssembly-based user-defined functions for running custom logic inside the database engine.
 
 This skill teaches agents how to use libSQL and its client libraries for building applications that need lightweight, embedded databases with replication support. Agents learn to set up libsql-server for remote database access, configure embedded replicas that maintain a local SQLite-compatible database file synchronized with a remote primary, and use the TypeScript, Python, Rust, Go, or PHP client SDKs to interact with both local and remote databases through a unified API.
 

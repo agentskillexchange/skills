@@ -9,6 +9,7 @@ tool_ecosystem:
   tool: seleniumbase
   github_repo: seleniumbase/seleniumbase
   github_stars: 12552
+  npm_package: seleniumbase
   npm_weekly_downloads: 20
   license: MIT
   maintained: true
@@ -19,11 +20,11 @@ SeleniumBase is a Python framework for browser automation, end-to-end testing, a
 
 ## Overview
 
-SeleniumBase is an open-source Python framework for browser automation and end-to-end testing maintained in the seleniumbase/SeleniumBase project. It is designed for teams and agents that need more than raw Selenium bindings: the framework adds a higher-level API, built-in pytest integration, reporting, screenshots, dashboards, reusable selectors, and command-line tooling that make browser automation faster to write and easier to maintain.
+SeleniumBase is an open-source Python framework for browser automation and end-to-end testing maintained in the `seleniumbase/SeleniumBase` project. It is designed for teams and agents that need more than raw Selenium bindings: the framework adds a higher-level API, built-in pytest integration, reporting, screenshots, dashboards, reusable selectors, and command-line tooling that make browser automation faster to write and easier to maintain.
 
 The upstream documentation describes SeleniumBase as an all-in-one browser automation framework for web crawling, testing, scraping, and stealth workflows. Its CDP Mode and UC Mode are especially relevant for agents because they support Chrome DevTools Protocol control, CAPTCHA handling, and anti-bot-aware automation patterns that are difficult to assemble manually with lower-level tooling. The project also ships a large examples directory, recorder features, localization support, CI integration guidance, and visual testing helpers.
 
-For an ASE skill, SeleniumBase is a strong fit when an agent needs to generate browser checks, reproduce UI bugs, collect screenshots, save PDFs or HTML output, or automate multi-step browser tasks in Python. Typical outputs include test files, scraped data, screenshots, logs, and reproducible automation scripts. Integration points include pytest test suites, CI pipelines, CDP-based browser sessions, and Python automation projects that need reliable browser control without building an entire framework from scratch.
+For an ASE skill, SeleniumBase is a strong fit when an agent needs to generate browser checks, reproduce UI bugs, collect screenshots, save PDFs or HTML output, or automate multi-step browser tasks in Python. Typical outputs include test files, scraped data, screenshots, logs, and reproducible automation scripts. Integration points include `pytest` test suites, CI pipelines, CDP-based browser sessions, and Python automation projects that need reliable browser control without building an entire framework from scratch.
 
 The primary upstream sources are the GitHub repository, the PyPI package, and the official documentation site. Installation is straightforward from PyPI, and the project shows active maintenance, releases, and strong community adoption.
 

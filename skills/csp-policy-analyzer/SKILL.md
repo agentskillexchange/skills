@@ -1,7 +1,7 @@
 ---
 name: "CSP Policy Analyzer"
 description: "Parses and evaluates Content Security Policy headers using csp-parse and csp-evaluator libraries. Identifies overly permissive directives, missing protections, and generates tightened policy recommendations."
-category: "Security &amp; Verification"
+category: "Security & Verification"
 framework: "Claude Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/csp-policy-analyzer/"

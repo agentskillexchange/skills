@@ -12,7 +12,7 @@ Visual regression testing using Puppeteer page.screenshot() with pixelmatch comp
 
 ## Overview
 
-The Puppeteer Screenshot Diff Engine automates visual regression testing by capturing page screenshots through Puppeteer's page.screenshot({ fullPage: true }) API and comparing them pixel-by-pixel using the pixelmatch library with configurable threshold values.
+The Puppeteer Screenshot Diff Engine automates visual regression testing by capturing page screenshots through Puppeteer’s page.screenshot({ fullPage: true }) API and comparing them pixel-by-pixel using the pixelmatch library with configurable threshold values.
 
 It establishes Chrome DevTools Protocol sessions via page.createCDPSession() to precisely control device emulation through Emulation.setDeviceMetricsOverride and simulate network conditions with Network.emulateNetworkConditions. This ensures screenshots are captured under reproducible conditions across CI runs.
 

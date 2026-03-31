@@ -1,18 +1,18 @@
 ---
 name: "Ansible Playbook Dry-Run Analyzer"
-description: "Executes ansible-playbook -check -diff mode and parses the JSON callback output using the ansible.posix.json callback plugin. Identifies tasks that would change, predicts idempotency issues, and generates change impact reports."
-category: "Runbooks &amp; Diagnostics"
+description: "Executes ansible-playbook –check –diff mode and parses the JSON callback output using the ansible.posix.json callback plugin. Identifies tasks that would change, predicts idempotency issues, and generates change impact reports."
+category: "Runbooks & Diagnostics"
 framework: "Gemini"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/ansible-playbook-dry-run-analyzer/"
 ---
 # Ansible Playbook Dry-Run Analyzer
 
-Executes ansible-playbook -check -diff mode and parses the JSON callback output using the ansible.posix.json callback plugin. Identifies tasks that would change, predicts idempotency issues, and generates change impact reports.
+Executes ansible-playbook –check –diff mode and parses the JSON callback output using the ansible.posix.json callback plugin. Identifies tasks that would change, predicts idempotency issues, and generates change impact reports.
 
 ## Overview
 
-The Ansible Playbook Dry-Run Analyzer skill provides comprehensive analysis of Ansible playbook changes before they are applied to production infrastructure. It executes playbooks in check mode (-check -diff) and uses the ansible.posix.json callback plugin to capture structured output for detailed analysis.
+The Ansible Playbook Dry-Run Analyzer skill provides comprehensive analysis of Ansible playbook changes before they are applied to production infrastructure. It executes playbooks in check mode (–check –diff) and uses the ansible.posix.json callback plugin to capture structured output for detailed analysis.
 
 The analyzer parses task results to categorize changes by type: file modifications, package installations, service restarts, user/group changes, and configuration template updates. For each changed task, it extracts the diff output showing exactly what would change, making it easy to review infrastructure modifications before applying them.
 

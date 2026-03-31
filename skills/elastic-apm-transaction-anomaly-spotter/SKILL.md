@@ -1,7 +1,7 @@
 ---
 name: "Elastic APM Transaction Anomaly Spotter"
 description: "Queries Elastic APM transaction data through the Elasticsearch REST API to surface latency anomalies and throughput drops. Uses the _search aggregation API with percentile and moving_avg pipelines."
-category: "Monitoring &amp; Alerts"
+category: "Monitoring & Alerts"
 framework: "MCP"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/elastic-apm-transaction-anomaly-spotter/"

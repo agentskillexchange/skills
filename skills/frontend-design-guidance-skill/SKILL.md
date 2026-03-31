@@ -16,11 +16,14 @@ Frontend Design Guidance Skill helps teams plan and refine interface work with m
 
 Best for
 
-planning UI layouts and page structure before coding
-reviewing design direction for dashboards and landing pages
-adding stronger frontend implementation guidance to build workflows
+- planning UI layouts and page structure before coding
+
+- reviewing design direction for dashboards and landing pages
+
+- adding stronger frontend implementation guidance to build workflows
 
 Install notes
+
 Install the skill in an OpenClaw workspace and use it during frontend planning or review. It works best when paired with an existing project or prototype context where design suggestions can be applied directly.
 
 Source: SuperDesign-inspired frontend guidance skill.

@@ -1,7 +1,7 @@
 ---
 name: "Liquidsoap Audio and Video Streaming Language"
 description: "Build audio and video streaming pipelines with Liquidsoap, a statically typed scripting language purpose-built for media automation. Create internet radio stations, live stream processors, and automated playout systems with a composable operator model."
-category: "Media &amp; Transcription"
+category: "Media & Transcription"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/savonet/liquidsoap"
@@ -24,11 +24,11 @@ At its core, Liquidsoap models audio and video as composable stream operators. A
 
 The language supports both audio and video streams natively. Video capabilities include overlaying text, images, and graphics onto live streams, compositing multiple video sources, and applying real-time filters. The HLS output operator generates adaptive bitrate streams with multiple quality levels, suitable for production web streaming.
 
-Liquidsoap provides built-in support for external integrations: HTTP requests for dynamic metadata, JSON parsing for API-driven playlist updates, Telnet and Unix socket control interfaces for runtime manipulation, and harbor HTTP input for receiving live audio from external encoders like BUTT or source clients. The input.ffmpeg operator leverages FFmpeg for broad codec support.
+Liquidsoap provides built-in support for external integrations: HTTP requests for dynamic metadata, JSON parsing for API-driven playlist updates, Telnet and Unix socket control interfaces for runtime manipulation, and harbor HTTP input for receiving live audio from external encoders like BUTT or source clients. The `input.ffmpeg` operator leverages FFmpeg for broad codec support.
 
 For AI agent workflows, Liquidsoap serves as the execution engine for automated media streaming operations. An agent can generate Liquidsoap scripts to set up radio stations, configure playout schedules, manage failover chains (live source → scheduled content → emergency playlist), and control running instances via the Telnet interface. The scripting language is expressive enough to encode complex scheduling logic, conditional stream routing, and dynamic content insertion.
 
-Installation is available through package managers (apt, opam, Homebrew) and Docker images. Configuration is done through .liq script files that define the complete streaming pipeline, making setups reproducible and version-controllable.
+Installation is available through package managers (apt, opam, Homebrew) and Docker images. Configuration is done through `.liq` script files that define the complete streaming pipeline, making setups reproducible and version-controllable.
 
 Source: github.com/savonet/liquidsoap | Website: liquidsoap.info — GPL-2.0 licensed, 1,600+ GitHub stars, actively maintained with frequent releases.
 

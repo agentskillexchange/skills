@@ -1,7 +1,7 @@
 ---
 name: "LiteLLM Unified LLM Gateway and Proxy Server"
 description: "LiteLLM is an open-source Python SDK and proxy server that provides a unified OpenAI-compatible interface to call 100+ LLM APIs including OpenAI, Anthropic, Azure, Bedrock, and more. It includes cost tracking, guardrails, load balancing, and virtual key management for production deployments."
-category: "Integrations &amp; Connectors"
+category: "Integrations & Connectors"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/BerriAI/litellm"
@@ -20,7 +20,7 @@ The proxy server component turns LiteLLM into a production-grade AI gateway. Tea
 
 A skill wrapping LiteLLM gives an AI agent the ability to route requests to the optimal model for each task. The agent could use cheaper models for simple tasks and premium models for complex reasoning, all through the same interface. The proxy supports /chat/completions, /embeddings, /images, /audio, /batches, /rerank, and the new /a2a agent-to-agent protocol.
 
-Installation requires just pip install litellm for the SDK or pip install litellm[proxy] for the gateway server. LiteLLM is MIT-licensed with active daily releases and comprehensive documentation at docs.litellm.ai.
+Installation requires just `pip install litellm` for the SDK or `pip install litellm[proxy]` for the gateway server. LiteLLM is MIT-licensed with active daily releases and comprehensive documentation at docs.litellm.ai.
 
 ## Installation
 

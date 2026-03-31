@@ -20,7 +20,7 @@ The interface provides a visual diff viewer, conflict resolution tooling, and a 
 
 Under the hood, GitButler uses a custom Git library written in Rust for performance. It watches the filesystem for changes in real-time and maintains its own layer of state on top of the Git object database. This architecture means operations like branch switching and change assignment are nearly instantaneous regardless of repository size.
 
-An agent skill built around GitButler enables automated branch management workflows, change classification (routing file changes to appropriate feature branches), conflict detection before push, and pull request preparation. The skill can interact with GitButler's state management to organize work across multiple concurrent features. GitButler is available for Mac, Windows, and Linux under the FSL (Functional Source License) which converts to Apache 2.0 after two years.
+An agent skill built around GitButler enables automated branch management workflows, change classification (routing file changes to appropriate feature branches), conflict detection before push, and pull request preparation. The skill can interact with GitButler’s state management to organize work across multiple concurrent features. GitButler is available for Mac, Windows, and Linux under the FSL (Functional Source License) which converts to Apache 2.0 after two years.
 
 ## Installation
 

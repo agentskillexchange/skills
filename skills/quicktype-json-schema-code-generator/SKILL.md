@@ -20,7 +20,7 @@ The recommended workflow starts by inferring a schema from sample JSON, reviewin
 
 quicktype accepts input from multiple sources including local JSON files, URLs pointing to live APIs, JSON Schema files, TypeScript source files, and GraphQL query documents. The CLI is installed globally via npm and supports options for controlling the output language, top-level type name, source language, and output file path. A web application at app.quicktype.io provides the same functionality with a visual interface and works offline without sending data over the network.
 
-For teams working with microservices, mobile clients, or polyglot codebases, quicktype eliminates the manual effort of writing and maintaining type definitions across languages. It handles edge cases like optional fields, nullable types, union types, and nested objects, generating idiomatic code that follows each language's conventions for data modeling.
+For teams working with microservices, mobile clients, or polyglot codebases, quicktype eliminates the manual effort of writing and maintaining type definitions across languages. It handles edge cases like optional fields, nullable types, union types, and nested objects, generating idiomatic code that follows each language’s conventions for data modeling.
 
 ## Installation
 

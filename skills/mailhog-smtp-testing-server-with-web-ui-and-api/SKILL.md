@@ -1,7 +1,7 @@
 ---
 name: "MailHog SMTP Testing Server with Web UI and API"
 description: "Uses MailHog to capture outbound email in development and test environments through a local SMTP server, browser UI, and JSON API. It is a practical fit for debugging transactional mail, verifying templates, and testing delivery behavior without sending messages to real recipients."
-category: "Calendar, Email &amp; Productivity"
+category: "Calendar, Email & Productivity"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/mailhog/MailHog"
@@ -18,7 +18,7 @@ Uses MailHog to capture outbound email in development and test environments thro
 
 ## Overview
 
-MailHog SMTP Testing Server with Web UI and API is anchored to the real MailHog project at mailhog/MailHog. MailHog is an email testing tool for developers that provides a local SMTP endpoint, a browser-accessible UI, and an HTTP API for listing and retrieving captured messages. The upstream README documents multiple install paths, including Homebrew, Docker, and Go-based installs, and explains its default ports, release workflow, and API-oriented usage.
+MailHog SMTP Testing Server with Web UI and API is anchored to the real MailHog project at `mailhog/MailHog`. MailHog is an email testing tool for developers that provides a local SMTP endpoint, a browser-accessible UI, and an HTTP API for listing and retrieving captured messages. The upstream README documents multiple install paths, including Homebrew, Docker, and Go-based installs, and explains its default ports, release workflow, and API-oriented usage.
 
 The concrete job-to-be-done is simple and valuable: point an application’s outbound SMTP settings at MailHog instead of a production mail service, then inspect the resulting messages safely before anything leaves the test environment. That helps with template checks, subject-line validation, multipart rendering review, authentication-flow email testing, password-reset debugging, and broader QA workflows where sending live mail would be noisy or risky. Because MailHog also exposes an API and supports release-to-real-SMTP patterns, it can plug into automated test suites, CI pipelines, and local developer environments without forcing manual inbox checks.
 

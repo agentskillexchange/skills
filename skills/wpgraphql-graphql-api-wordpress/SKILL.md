@@ -1,7 +1,7 @@
 ---
 name: "WPGraphQL GraphQL API for WordPress"
 description: "Builds headless WordPress workflows around WPGraphQL, the open-source GraphQL API plugin for WordPress. Useful for querying posts, custom post types, menus, taxonomies, and custom fields through typed GraphQL operations instead of ad hoc REST fetches."
-category: "WordPress &amp; CMS"
+category: "WordPress & CMS"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/wp-graphql/wp-graphql"
@@ -18,7 +18,7 @@ Builds headless WordPress workflows around WPGraphQL, the open-source GraphQL AP
 
 ## Overview
 
-WPGraphQL GraphQL API for WordPress is for headless and composable WordPress projects that want a typed query layer instead of a loose collection of REST endpoints. The skill is grounded in the real WPGraphQL plugin and its documented APIs, including schema objects, connections, resolvers, custom post type exposure, menu queries, and extension hooks such as register_graphql_field and register_graphql_object_type. It is especially useful when a frontend built in Next.js, Remix, Astro, or another JavaScript framework needs stable field selection and predictable relationships.
+WPGraphQL GraphQL API for WordPress is for headless and composable WordPress projects that want a typed query layer instead of a loose collection of REST endpoints. The skill is grounded in the real WPGraphQL plugin and its documented APIs, including schema objects, connections, resolvers, custom post type exposure, menu queries, and extension hooks such as `register_graphql_field` and `register_graphql_object_type`. It is especially useful when a frontend built in Next.js, Remix, Astro, or another JavaScript framework needs stable field selection and predictable relationships.
 
 The workflow usually starts by identifying the WordPress entities that must be exposed, such as posts, pages, products, taxonomies, or Advanced Custom Fields data. From there, the skill can shape GraphQL queries, explain pagination through connections and edges, define naming conventions for schema additions, and help reason about nullability, authorization, and field resolution. That makes it valuable both for using WPGraphQL as a consumer and for extending it safely as a plugin author.
 

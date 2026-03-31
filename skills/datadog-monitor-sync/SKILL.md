@@ -1,7 +1,7 @@
 ---
 name: "Datadog Monitor Sync"
 description: "Synchronizes Datadog monitor definitions between environments using the Datadog API v2 monitors endpoint. Supports diff-based updates, tag filtering, and Terraform state reconciliation."
-category: "Monitoring &amp; Alerts"
+category: "Monitoring & Alerts"
 framework: "Claude Code"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/datadog-monitor-sync/"

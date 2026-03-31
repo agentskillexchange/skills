@@ -1,7 +1,7 @@
 ---
 name: "MoviePy Python Video Editing Library"
 description: "MoviePy is a Python library for video editing — cuts, concatenations, title insertions, compositing, and custom effects. It reads and writes all common audio and video formats including GIF, powered by FFmpeg under the hood."
-category: "Media &amp; Transcription"
+category: "Media & Transcription"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/Zulko/moviepy"
@@ -26,7 +26,7 @@ A typical MoviePy workflow involves loading a video with VideoFileClip, applying
 
 MoviePy v2.0 introduced major improvements including a cleaner API, better memory management, and improved compositing performance. The library is particularly well-suited for batch video processing, automated video generation, social media content creation, and data visualization overlays. Under the hood, it delegates encoding and decoding to FFmpeg while providing a high-level Pythonic interface.
 
-Install via pip install moviepy. Licensed under MIT with over 14,000 GitHub stars, comprehensive documentation at zulko.github.io/moviepy, and active maintenance with recent v2.0 release.
+Install via `pip install moviepy`. Licensed under MIT with over 14,000 GitHub stars, comprehensive documentation at zulko.github.io/moviepy, and active maintenance with recent v2.0 release.
 
 ## Installation
 

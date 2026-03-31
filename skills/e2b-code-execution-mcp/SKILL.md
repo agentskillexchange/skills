@@ -16,13 +16,17 @@ E2B Code Execution MCP connects AI assistants to the E2B Sandbox platform throug
 
 Best for
 
-Data analysis pipelines requiring safe code execution
-Code generation testing in isolated sandboxes
-Multi-step tool chains where untrusted code must not run on the host
-Any MCP workflow needing Python, JavaScript, or shell execution
+- Data analysis pipelines requiring safe code execution
+
+- Code generation testing in isolated sandboxes
+
+- Multi-step tool chains where untrusted code must not run on the host
+
+- Any MCP workflow needing Python, JavaScript, or shell execution
 
 Install notes
-Get an E2B API key at e2b.dev (free tier available). Install via npx @smithery/cli install e2b --client claude or configure the MCP server entry manually in your client config. Requires Node.js v18+ or Python 3.10+.
+
+Get an E2B API key at e2b.dev (free tier available). Install via `npx @smithery/cli install e2b --client claude` or configure the MCP server entry manually in your client config. Requires Node.js v18+ or Python 3.10+.
 
 Source: github.com/e2b-dev/mcp-server
 

@@ -1,7 +1,7 @@
 ---
 name: "Snyk License Compliance Checker"
 description: "Uses the Snyk CLI and REST API to audit open-source dependencies for license compliance across npm, PyPI, Maven, and Go modules. Generates SPDX license reports and flags copyleft violations."
-category: "Security &amp; Verification"
+category: "Security & Verification"
 framework: "Cursor"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/snyk-license-compliance-checker/"
@@ -16,7 +16,7 @@ The Snyk License Compliance Checker skill integrates with the Snyk CLI and REST 
 
 The skill maintains configurable license allowlists and denylists, flagging copyleft licenses (GPL, AGPL, LGPL) and proprietary-incompatible licenses based on organizational policy. It cross-references licenses against the SPDX License List for standardized identification and generates compliance reports in SPDX and CycloneDX SBOM formats.
 
-Advanced features include dual-license resolution, license exception handling (e.g., Classpath exception for GPL), and risk scoring based on license permissiveness. The skill integrates with legal review workflows, generating approval requests for newly detected license types. It supports policy-as-code via Snyk's org-level settings and can gate pull requests when non-compliant dependencies are introduced.
+Advanced features include dual-license resolution, license exception handling (e.g., Classpath exception for GPL), and risk scoring based on license permissiveness. The skill integrates with legal review workflows, generating approval requests for newly detected license types. It supports policy-as-code via Snyk’s org-level settings and can gate pull requests when non-compliant dependencies are introduced.
 
 ## Installation
 

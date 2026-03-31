@@ -9,6 +9,7 @@ tool_ecosystem:
   tool: drizzle-orm
   github_repo: drizzle-team/drizzle-orm
   github_stars: 33566
+  npm_package: drizzle-orm
   npm_weekly_downloads: 6520934
   license: Apache-2.0
   maintained: true
@@ -21,7 +22,7 @@ Drizzle ORM is a lightweight TypeScript ORM that provides type-safe SQL schema d
 
 Drizzle ORM is a modern TypeScript ORM built around the principle that an ORM should be a thin, typed layer on top of SQL rather than an abstraction that hides it. Developers declare their database schemas using TypeScript code, and Drizzle provides full type inference across queries, inserts, updates, and joins. The result is compile-time safety for database operations without the overhead of code generation steps or runtime schema validation.
 
-The library supports two complementary query styles. The SQL-like query builder maps directly to SQL concepts like select, where, join, group by, and subqueries, giving developers precise control over the generated SQL while retaining full TypeScript type safety. The relational query builder provides a higher-level API for fetching nested data across relations, similar to Prisma's include syntax but backed by efficient SQL joins rather than multiple round trips.
+The library supports two complementary query styles. The SQL-like query builder maps directly to SQL concepts like select, where, join, group by, and subqueries, giving developers precise control over the generated SQL while retaining full TypeScript type safety. The relational query builder provides a higher-level API for fetching nested data across relations, similar to Prisma’s include syntax but backed by efficient SQL joins rather than multiple round trips.
 
 Drizzle works with every major SQL database: PostgreSQL, MySQL, and SQLite, including serverless variants like Neon, PlanetScale, Turso, Cloudflare D1, Vercel Postgres, Supabase, and AWS Data API. It runs in Node.js, Bun, Deno, Cloudflare Workers, and browser environments. There are no Rust binaries or serverless adapters to configure; the library operates as pure JavaScript and connects directly to database drivers.
 

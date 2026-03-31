@@ -1,7 +1,7 @@
 ---
 name: "Todoist GTD Workflow Engine"
 description: "Implements Getting Things Done methodology on Todoist using the Sync API v9. Automates weekly reviews, context tagging, and project decomposition into next actions."
-category: "Calendar, Email &amp; Productivity"
+category: "Calendar, Email & Productivity"
 framework: "MCP"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/todoist-gtd-workflow-engine/"
@@ -12,7 +12,7 @@ Implements Getting Things Done methodology on Todoist using the Sync API v9. Aut
 
 ## Overview
 
-The Todoist GTD Workflow Engine skill implements David Allen's Getting Things Done methodology on top of the Todoist Sync API v9. It automates the five GTD phases: capture, clarify, organize, reflect, and engage through programmable task processing pipelines.
+The Todoist GTD Workflow Engine skill implements David Allen’s Getting Things Done methodology on top of the Todoist Sync API v9. It automates the five GTD phases: capture, clarify, organize, reflect, and engage through programmable task processing pipelines.
 
 The capture phase monitors the Todoist inbox for new items and applies clarification rules to determine actionability, delegation potential, and project assignment. Organization uses Todoist labels as GTD contexts (phone, computer, errands, home) and projects as outcome-based containers. Two-minute rule detection flags quick tasks for immediate execution.
 

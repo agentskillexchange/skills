@@ -1,7 +1,7 @@
 ---
 name: "Apache Kafka Schema Extractor"
 description: "Extracts and transforms Avro, Protobuf, and JSON Schema definitions from Confluent Schema Registry. Generates typed data models and validates schema compatibility using the Schema Registry REST API."
-category: "Data Extraction &amp; Transformation"
+category: "Data Extraction & Transformation"
 framework: "Codex"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/apache-kafka-schema-extractor/"

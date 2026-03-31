@@ -1,7 +1,7 @@
 ---
 name: "AWS MCP Servers for Cloud Service Integration"
 description: "The official AWS Labs MCP server collection provides AI agents with structured access to AWS documentation, service APIs, billing data, and infrastructure metadata through the Model Context Protocol, built and maintained by AWS for secure cloud automation workflows."
-category: "Integrations &amp; Connectors"
+category: "Integrations & Connectors"
 framework: "MCP"
 verification: security_reviewed
 source: "https://github.com/awslabs/mcp"
@@ -12,9 +12,9 @@ The official AWS Labs MCP server collection provides AI agents with structured a
 
 ## Overview
 
-The AWS MCP Servers project is an official collection of Model Context Protocol servers maintained by AWS Labs that give AI agents structured access to AWS cloud services, documentation, and infrastructure data. With over 8,500 GitHub stars, it is one of the most popular MCP server projects and represents Amazon's official investment in the MCP ecosystem.
+The AWS MCP Servers project is an official collection of Model Context Protocol servers maintained by AWS Labs that give AI agents structured access to AWS cloud services, documentation, and infrastructure data. With over 8,500 GitHub stars, it is one of the most popular MCP server projects and represents Amazon’s official investment in the MCP ecosystem.
 
-The collection includes multiple specialized MCP servers. The AWS Documentation MCP Server provides access to the latest AWS documentation, API references, What's New posts, and Getting Started guides. This allows agents to look up current service documentation, resolve API questions, and stay current with AWS feature releases without relying on potentially outdated training data.
+The collection includes multiple specialized MCP servers. The AWS Documentation MCP Server provides access to the latest AWS documentation, API references, What’s New posts, and Getting Started guides. This allows agents to look up current service documentation, resolve API questions, and stay current with AWS feature releases without relying on potentially outdated training data.
 
 A remote managed MCP server hosted by AWS combines comprehensive AWS API support with documentation access, providing a single integration point for agents that need both operational access and reference material. This managed server handles authentication, rate limiting, and access control on the AWS side.
 

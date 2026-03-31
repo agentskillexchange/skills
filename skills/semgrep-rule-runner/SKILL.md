@@ -1,20 +1,20 @@
 ---
 name: "Semgrep Rule Runner"
-description: "Executes Semgrep static analysis using the semgrep CLI with custom YAML rule packs. Supports -config auto for community rules, parses JSON output via -json flag, and integrates with Semgrep App API for centralized findings management and triage workflows."
-category: "Code Quality &amp; Review"
+description: "Executes Semgrep static analysis using the semgrep CLI with custom YAML rule packs. Supports –config auto for community rules, parses JSON output via –json flag, and integrates with Semgrep App API for centralized findings management and triage workflows."
+category: "Code Quality & Review"
 framework: "Gemini"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/semgrep-rule-runner/"
 ---
 # Semgrep Rule Runner
 
-Executes Semgrep static analysis using the semgrep CLI with custom YAML rule packs. Supports -config auto for community rules, parses JSON output via -json flag, and integrates with Semgrep App API for centralized findings management and triage workflows.
+Executes Semgrep static analysis using the semgrep CLI with custom YAML rule packs. Supports –config auto for community rules, parses JSON output via –json flag, and integrates with Semgrep App API for centralized findings management and triage workflows.
 
 ## Overview
 
 The Semgrep Rule Runner provides advanced static analysis capabilities using the Semgrep open-source engine. It supports both local rule definitions in YAML format and the Semgrep Registry for community-maintained rule packs covering OWASP Top 10, CWE categories, and framework-specific patterns.
 
-The skill invokes the semgrep CLI with configurable options including -config for rule selection, -json for structured output parsing, -severity for filtering, and -exclude for path ignoring. It supports multi-language scanning across Python, JavaScript, TypeScript, Go, Java, Ruby, and Kotlin in a single pass.
+The skill invokes the semgrep CLI with configurable options including –config for rule selection, –json for structured output parsing, –severity for filtering, and –exclude for path ignoring. It supports multi-language scanning across Python, JavaScript, TypeScript, Go, Java, Ruby, and Kotlin in a single pass.
 
 Results are parsed from the JSON output format, extracting match locations, severity levels, fix suggestions, and metadata references. The agent can automatically apply Semgrep autofix suggestions where available and generate suppression comments (# nosemgrep) with justification tracking.
 

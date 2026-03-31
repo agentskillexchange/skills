@@ -1,7 +1,7 @@
 ---
 name: "Slack Channel Summarizer"
 description: "Generates channel summaries using Slack Bolt SDK with conversations.history and conversations.replies endpoints. Leverages OpenAI GPT-4 API for abstractive summarization and delivers digests via Slack Block Kit interactive messages."
-category: "Calendar, Email &amp; Productivity"
+category: "Calendar, Email & Productivity"
 framework: "MCP"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/slack-channel-summarizer-bolt-sdk/"

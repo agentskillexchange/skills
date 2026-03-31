@@ -1,7 +1,7 @@
 ---
 name: "Instructor Structured Data Extraction from LLMs"
 description: "Instructor is a multi-language library for extracting structured, validated data from LLM outputs. It patches LLM client libraries to return Pydantic models (Python) or Zod schemas (TypeScript) instead of raw text, supporting 15+ providers including OpenAI, Anthropic, and Google."
-category: "Data Extraction &amp; Transformation"
+category: "Data Extraction & Transformation"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/567-labs/instructor"
@@ -12,7 +12,7 @@ Instructor is a multi-language library for extracting structured, validated data
 
 ## Overview
 
-Instructor is an open-source library designed to solve one of the most common problems in LLM application development: getting reliable, structured data out of language model responses. Available on PyPI as instructor and on npm as @instructor-ai/instructor, the project has over 10,000 GitHub stars and is maintained by Jason Liu through the 567-labs organization.
+Instructor is an open-source library designed to solve one of the most common problems in LLM application development: getting reliable, structured data out of language model responses. Available on PyPI as `instructor` and on npm as `@instructor-ai/instructor`, the project has over 10,000 GitHub stars and is maintained by Jason Liu through the 567-labs organization.
 
 The core idea is simple but powerful. Instead of parsing raw text responses and hoping the LLM follows your format instructions, Instructor patches the client libraries of major LLM providers so they return validated data objects directly. In Python, you define a Pydantic model describing the schema you want, and Instructor handles the tool-calling, JSON parsing, validation, and retry logic automatically. If the LLM returns malformed data, Instructor feeds the validation errors back to the model and retries until it gets a conforming response.
 

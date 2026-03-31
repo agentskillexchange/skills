@@ -1,7 +1,7 @@
 ---
 name: "Crawl4AI LLM-Ready Web Crawler and Scraper"
 description: "Crawl4AI is an open-source web crawler that converts any website into clean, LLM-ready Markdown for RAG pipelines, AI agents, and data extraction workflows. With 50k+ GitHub stars and an async browser pool, it handles large-scale web extraction with anti-bot detection and deep crawl capabilities."
-category: "Research &amp; Scraping"
+category: "Research & Scraping"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/unclecode/crawl4ai"
@@ -20,7 +20,7 @@ Under the hood, Crawl4AI uses an async browser pool with Playwright for renderin
 
 A skill built around Crawl4AI would give an AI agent the ability to intelligently fetch, parse, and structure web content on demand. The agent could crawl documentation sites for context, extract product data for analysis, or build knowledge bases from web sources. The tool outputs Markdown by default but also supports JSON extraction with custom schemas using LLM-powered extraction strategies.
 
-Installation is straightforward via pip (pip install crawl4ai) and the CLI tool crwl supports deep crawling with BFS/DFS strategies, LLM-powered Q&A extraction, and configurable output formats. Crawl4AI is licensed under Apache 2.0 and available on PyPI with active releases.
+Installation is straightforward via pip (`pip install crawl4ai`) and the CLI tool `crwl` supports deep crawling with BFS/DFS strategies, LLM-powered Q&A extraction, and configurable output formats. Crawl4AI is licensed under Apache 2.0 and available on PyPI with active releases.
 
 ## Installation
 
