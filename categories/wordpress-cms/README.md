@@ -90,9 +90,12 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [Contentful Management API and JavaScript SDK](../../skills/contentful-management-api-and-javascript-sdk/) | 1.3k | 1.1M/wk |
 | [WP Cron Health Monitor](../../skills/wp-cron-health-monitor/) | 69 | 211.5k/wk |
 | [Pages CMS Open Source Content Management for GitHub Repositories](../../skills/pages-cms-github-content-management/) | — | 22M/wk |
+| [ElasticPress WordPress Elasticsearch Integration Plugin by 10up](../../skills/elasticpress-wordpress-elasticsearch-integration-10up/) | — | — |
 | [Front Matter CMS Visual Studio Code Headless CMS](../../skills/front-matter-cms-vscode-headless-cms/) | — | — |
 | [Ghost Admin API Headless Publishing and CMS Automation](../../skills/ghost-admin-api-headless-publishing-cms-automation/) | — | — |
+| [Git Updater WordPress Plugin and Theme Auto-Updater from Git Repositories](../../skills/git-updater-wordpress-plugin-theme-auto-updater/) | — | — |
 | [Hugo Fast Static Site Generator and CMS Framework](../../skills/hugo-static-site-generator-cms-framework/) | — | — |
+| [Meta Box WordPress Custom Fields and Meta Boxes Framework](../../skills/meta-box-wordpress-custom-fields-framework/) | — | — |
 | [Sanity Structured Content Studio and Content Lake](../../skills/sanity-structured-content-studio-content-lake/) | — | — |
 | [Storyblok Management API and JavaScript Client](../../skills/storyblok-management-api-and-javascript-client/) | — | — |
 | [WooCommerce Order Sync Agent](../../skills/woocommerce-order-sync-agent/) | — | — |

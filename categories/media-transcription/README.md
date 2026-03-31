@@ -91,6 +91,8 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [AssemblyAI Audio Intelligence Agent](../../skills/assemblyai-audio-intelligence-agent/) | — | — |
 | [AssemblyAI LeMUR Summarizer](../../skills/assemblyai-lemur-summarizer-agent/) | — | — |
 | [AssemblyAI Summarization &#038; Chapters Skill](../../skills/assemblyai-summarization-chapters-skill/) | — | — |
+| [audioFlux Audio and Music Analysis Feature Extraction Library](../../skills/audioflux-audio-music-analysis-feature-extraction-library/) | — | — |
+| [Auto-Editor Automated Video and Audio Silence Trimmer CLI](../../skills/auto-editor-automated-video-audio-silence-trimmer-cli/) | — | — |
 | [Chatterbox State-of-the-Art Open Source Text-to-Speech](../../skills/chatterbox-sota-open-source-text-to-speech/) | — | — |
 | [Core Audio Unit v3 Debugger](../../skills/core-audio-unit-v3-debugger/) | — | — |
 | [Deepgram Nova Transcriber](../../skills/deepgram-nova-transcriber-agent/) | — | — |

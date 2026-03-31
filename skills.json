@@ -1,8 +1,80 @@
 {
   "version": "2.0",
-  "total": 1509,
+  "total": 1515,
   "generated": "2026-03-31",
   "skills": [
+    {
+      "slug": "git-updater-wordpress-plugin-theme-auto-updater",
+      "name": "Git Updater WordPress Plugin and Theme Auto-Updater from Git Repositories",
+      "description": "Git Updater enables automatic updates for WordPress plugins and themes hosted on GitHub, Bitbucket, GitLab, and Gitea repositories, with support for release assets, language…",
+      "category": [
+        "WordPress & CMS"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "audioflux-audio-music-analysis-feature-extraction-library",
+      "name": "audioFlux Audio and Music Analysis Feature Extraction Library",
+      "description": "audioFlux is a deep learning tool library for audio and music analysis and feature extraction, supporting dozens of time-frequency transforms and hundreds of feature…",
+      "category": [
+        "Media & Transcription"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "leantime-open-source-project-management-platform",
+      "name": "Leantime Open Source Goals-Focused Project Management Platform",
+      "description": "Leantime is an open-source project management system designed for non-project managers, with kanban boards, gantt charts, goal tracking, timesheets, and lean canvas tools. Built…",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "meta-box-wordpress-custom-fields-framework",
+      "name": "Meta Box WordPress Custom Fields and Meta Boxes Framework",
+      "description": "Meta Box is a professional WordPress framework for creating custom fields and custom meta boxes with over 40 field types. It supports posts, pages,…",
+      "category": [
+        "WordPress & CMS"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "elasticpress-wordpress-elasticsearch-integration-10up",
+      "name": "ElasticPress WordPress Elasticsearch Integration Plugin by 10up",
+      "description": "ElasticPress supercharges WordPress search and queries by integrating Elasticsearch, enabling fast content relevancy analysis, faceted search, WooCommerce product filtering, and autosuggest across large content…",
+      "category": [
+        "WordPress & CMS"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "auto-editor-automated-video-audio-silence-trimmer-cli",
+      "name": "Auto-Editor Automated Video and Audio Silence Trimmer CLI",
+      "description": "Auto-Editor is a command-line application that automatically edits video and audio by analyzing loudness, motion, and other signals to cut dead space. It exports…",
+      "category": [
+        "Media & Transcription"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "woodpecker-ci-self-hosted-continuous-integration",
       "name": "Woodpecker CI Self-Hosted Continuous Integration Engine",

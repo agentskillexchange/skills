@@ -95,6 +95,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [IMAP Inbox Triage Agent](../../skills/imap-inbox-triage-agent/) | — | — |
 | [jrnl Command-Line Journal and Note Capture Tool](../../skills/jrnl-command-line-journal-note-capture/) | — | — |
 | [khal Standards-Based CLI Calendar Application](../../skills/khal-cli-calendar-application-caldav/) | — | — |
+| [Leantime Open Source Goals-Focused Project Management Platform](../../skills/leantime-open-source-project-management-platform/) | — | — |
 | [Mautic Open Source Marketing Automation Platform](../../skills/mautic-marketing-automation-platform/) | — | — |
 | [Microsoft Graph Calendar Conflict Resolver](../../skills/microsoft-graph-calendar-conflict-resolver/) | — | — |
 | [Microsoft Graph Email Digest Builder](../../skills/microsoft-graph-email-digest-builder/) | — | — |
