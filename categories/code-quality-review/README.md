@@ -115,6 +115,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [tokei Code Statistics Counter](../../skills/tokei-code-statistics-counter/) | — | — |
 | [ty Ultra-Fast Python Type Checker and Language Server](../../skills/ty-python-type-checker/) | — | — |
 | [typos Source Code Spell Checker](../../skills/typos-source-code-spell-checker/) | — | — |
+| [Vitest Next-Generation Vite-Powered Testing Framework](../../skills/vitest-vite-testing-framework/) | — | — |
 
 ---
 

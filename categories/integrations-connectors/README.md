@@ -63,6 +63,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [LiteLLM Unified LLM Gateway and Proxy Server](../../skills/litellm-unified-llm-gateway-proxy/) | — | — |
 | [LiveKit Real-Time Video Audio and Data Server with WebRTC](../../skills/livekit-realtime-webrtc-server/) | — | — |
 | [MetaMCP Unified MCP Server Aggregator and Gateway](../../skills/metamcp-unified-mcp-server-aggregator-gateway/) | — | — |
+| [MinIO High-Performance S3-Compatible Object Storage Server](../../skills/minio-s3-compatible-object-storage/) | — | — |
 | [n8n Workflow Webhook Bridge](../../skills/n8n-workflow-webhook-bridge/) | — | — |
 | [Notion Database Sync &amp; Page Generator](../../skills/notion-database-sync-page-generator-2/) | — | — |
 | [Notion MCP Server for AI Workspace Integration](../../skills/notion-mcp-server-ai-workspace-integration/) | — | — |

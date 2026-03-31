@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1537 published skills** across **17 categories** · 1503 security reviewed · Updated 2026-03-31 19:24 UTC
+> **1540 published skills** across **17 categories** · 1503 security reviewed · Updated 2026-03-31 21:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (178 skills)
+### 🛠️ Developer Tools (179 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -176,6 +176,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Terraform MCP Server for Infrastructure as Code](skills/terraform-mcp-server-infrastructure-as-code/) | The official HashiCorp Terraform MCP server integrates with the Terraform Registry and HCP Terraform, enabling AI… | Security Reviewed | — | — |
 | [Terraform Module Scaffolder](skills/terraform-module-scaffolder-hcl-sdk/) | Scaffolds Terraform modules using the HCL SDK with provider schema introspection and automatic variable extraction.… | Security Reviewed | — | — |
 | [Topgrade Universal System Package Updater](skills/topgrade-universal-system-package-updater/) | Topgrade is a CLI tool written in Rust that detects all package managers and updatable sources on your system and… | Security Reviewed | — | — |
+| [Traefik Cloud-Native Application Proxy and Reverse Proxy](skills/traefik-cloud-native-reverse-proxy/) | Traefik is a modern cloud-native reverse proxy and load balancer that automatically discovers services and… | Published | — | — |
 | [tRPC End-to-End Typesafe API Framework](skills/trpc-end-to-end-typesafe-api-framework/) | tRPC enables developers to build fully typesafe APIs in TypeScript without schemas, code generation, or runtime… | Security Reviewed | — | — |
 | [Turborepo Monorepo Build System](skills/turborepo-monorepo-build-system/) | Use Turborepo to orchestrate builds, tests, and tasks across JavaScript and TypeScript monorepos with intelligent… | Security Reviewed | — | — |
 | [TypeScript AST Refactor](skills/typescript-ast-refactor-ts-morph/) | Performs automated TypeScript refactoring using ts-morph and the TypeScript Compiler API. Handles rename operations,… | Security Reviewed | — | — |
@@ -801,7 +802,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Zod Schema Generator](skills/zod-schema-generator/) | Converts JSON samples, TypeScript interfaces, and OpenAPI specs into Zod validation schemas. Uses ts-morph for AST… | Security Reviewed | — | — |
 
 
-### ✅ Code Quality & Review (91 skills)
+### ✅ Code Quality & Review (92 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -898,6 +899,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [tokei Code Statistics Counter](skills/tokei-code-statistics-counter/) | Fast and accurate code statistics tool written in Rust. Counts lines of code, comments, and blanks across 200+… | Security Reviewed | — | — |
 | [ty Ultra-Fast Python Type Checker and Language Server](skills/ty-python-type-checker/) | ty is an extremely fast Python type checker and language server written in Rust by Astral, the creators of Ruff and… | Security Reviewed | — | — |
 | [typos Source Code Spell Checker](skills/typos-source-code-spell-checker/) | A blazing-fast source code spell checker written in Rust that finds and corrects typos across entire codebases.… | Security Reviewed | — | — |
+| [Vitest Next-Generation Vite-Powered Testing Framework](skills/vitest-vite-testing-framework/) | Vitest is a blazing-fast unit testing framework powered by Vite. It provides native ESM support, TypeScript out of… | Published | — | — |
 
 
 ### 📊 Monitoring & Alerts (90 skills)
@@ -1388,7 +1390,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Trafilatura Web Text Extraction and Crawling Toolkit](skills/trafilatura-web-text-extraction-crawling/) | Trafilatura is a Python package and CLI tool for gathering text from the web. It handles crawling, downloading, and… | Security Reviewed | — | — |
 
 
-### 🔗 Integrations & Connectors (65 skills)
+### 🔗 Integrations & Connectors (66 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
 
@@ -1425,6 +1427,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [LiteLLM Unified LLM Gateway and Proxy Server](skills/litellm-unified-llm-gateway-proxy/) | LiteLLM is an open-source Python SDK and proxy server that provides a unified OpenAI-compatible interface to call… | Security Reviewed | — | — |
 | [LiveKit Real-Time Video Audio and Data Server with WebRTC](skills/livekit-realtime-webrtc-server/) | LiveKit is an open-source, scalable WebRTC-based real-time communication server written in Go. It provides… | Published | — | — |
 | [MetaMCP Unified MCP Server Aggregator and Gateway](skills/metamcp-unified-mcp-server-aggregator-gateway/) | MetaMCP is an open-source MCP proxy that aggregates multiple MCP servers into a single unified endpoint with a GUI… | Security Reviewed | — | — |
+| [MinIO High-Performance S3-Compatible Object Storage Server](skills/minio-s3-compatible-object-storage/) | MinIO is a high-performance, S3-compatible object storage server. It can run standalone or distributed, providing… | Published | — | — |
 | [n8n Workflow Webhook Bridge](skills/n8n-workflow-webhook-bridge/) | Builds integration handoffs around n8n primitives like the Webhook node, HTTP Request node, and execution data… | Security Reviewed | — | — |
 | [Notion Database Sync & Page Generator](skills/notion-database-sync-page-generator-2/) | Reads from and writes to Notion databases using the official Notion API v1, supporting filtered queries, property… | Security Reviewed | — | — |
 | [Notion MCP Server for AI Workspace Integration](skills/notion-mcp-server-ai-workspace-integration/) | The official Notion MCP Server enables AI agents to interact with Notion workspaces through the Model Context… | Security Reviewed | — | — |

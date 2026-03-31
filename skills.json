@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1537,
+  "total": 1540,
   "generated": "2026-03-31",
   "skills": [
+    {
+      "slug": "minio-s3-compatible-object-storage",
+      "name": "MinIO High-Performance S3-Compatible Object Storage Server",
+      "description": "MinIO is a high-performance, S3-compatible object storage server. It can run standalone or distributed, providing enterprise-grade storage with a familiar AWS S3 API for…",
+      "category": [
+        "Integrations & Connectors"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "traefik-cloud-native-reverse-proxy",
+      "name": "Traefik Cloud-Native Application Proxy and Reverse Proxy",
+      "description": "Traefik is a modern cloud-native reverse proxy and load balancer that automatically discovers services and configures routing. It integrates natively with Docker, Kubernetes, and…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "vitest-vite-testing-framework",
+      "name": "Vitest Next-Generation Vite-Powered Testing Framework",
+      "description": "Vitest is a blazing-fast unit testing framework powered by Vite. It provides native ESM support, TypeScript out of the box, and a Jest-compatible API…",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "inngest-event-driven-durable-workflow-orchestration",
       "name": "Inngest Event-Driven Durable Workflow Orchestration Platform",

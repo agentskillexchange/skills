@@ -202,6 +202,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Terraform MCP Server for Infrastructure as Code](../../skills/terraform-mcp-server-infrastructure-as-code/) | — | — |
 | [Terraform Module Scaffolder](../../skills/terraform-module-scaffolder-hcl-sdk/) | — | — |
 | [Topgrade Universal System Package Updater](../../skills/topgrade-universal-system-package-updater/) | — | — |
+| [Traefik Cloud-Native Application Proxy and Reverse Proxy](../../skills/traefik-cloud-native-reverse-proxy/) | — | — |
 | [tRPC End-to-End Typesafe API Framework](../../skills/trpc-end-to-end-typesafe-api-framework/) | — | — |
 | [Turborepo Monorepo Build System](../../skills/turborepo-monorepo-build-system/) | — | — |
 | [TypeScript AST Refactor](../../skills/typescript-ast-refactor-ts-morph/) | — | — |
