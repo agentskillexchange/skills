@@ -3,7 +3,7 @@ name: "Rspack High-Performance Rust-Based JavaScript Bundler"
 description: "Rspack is a blazing-fast JavaScript bundler written in Rust with full webpack API compatibility. It provides drop-in webpack replacement with dramatically faster build times, first-class Module Federation support, and seamless integration with existing webpack plugins and loaders."
 category: "Developer Tools"
 framework: "Multi-Framework"
-verification: "listed"
+verification: security_reviewed
 source: "https://github.com/web-infra-dev/rspack"
 ---
 # Rspack High-Performance Rust-Based JavaScript Bundler

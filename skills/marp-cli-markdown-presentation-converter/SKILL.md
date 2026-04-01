@@ -3,7 +3,7 @@ name: "Marp CLI Markdown Presentation Converter and Slide Deck Generator"
 description: "Marp CLI converts Markdown files into professional slide deck presentations. It outputs static HTML, PDF, PowerPoint (PPTX), and image formats from a single Markdown source, enabling developers and content creators to build presentations as code."
 category: "Content Writing & SEO"
 framework: "Multi-Framework"
-verification: "listed"
+verification: security_reviewed
 source: "https://github.com/marp-team/marp-cli"
 ---
 # Marp CLI Markdown Presentation Converter and Slide Deck Generator
