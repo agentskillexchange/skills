@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1570,
+  "total": 1573,
   "generated": "2026-04-01",
   "skills": [
+    {
+      "slug": "nitric-cloud-application-framework",
+      "name": "Nitric Multi-Language Cloud Application Framework with Infrastructure from Code",
+      "description": "Nitric is an open-source multi-language framework that lets you define cloud infrastructure directly from your application code in TypeScript, Python, Go, or Dart. Write…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "encore-backend-framework-distributed-systems",
+      "name": "Encore Open Source Backend Framework for Type-Safe Distributed Systems",
+      "description": "Encore is an open-source backend development framework for TypeScript and Go that lets you define APIs, services, and infrastructure as type-safe objects in your…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "wasp-full-stack-web-framework",
+      "name": "Wasp Batteries-Included Full-Stack Web Framework for React and Node.js",
+      "description": "Wasp is a Rails-like full-stack web framework that uses a declarative DSL to generate React and Node.js applications with built-in auth, background jobs, email…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "supertokens-open-source-auth-platform",
       "name": "SuperTokens Open Source Authentication Platform and Auth0 Alternative",

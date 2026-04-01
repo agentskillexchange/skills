@@ -184,6 +184,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Docker Compose Stack Builder](../../skills/docker-compose-stack-builder-sdk/) | — | — |
 | [Docker MCP Server](../../skills/docker-mcp-server/) | — | — |
 | [DynamoDB Manager](../../skills/dynamodb-manager/) | — | — |
+| [Encore Open Source Backend Framework for Type-Safe Distributed Systems](../../skills/encore-backend-framework-distributed-systems/) | — | — |
 | [ESLint Code Review](../../skills/eslint-code-review/) | — | — |
 | [ESLint Rule Generator Agent](../../skills/eslint-rule-generator-agent/) | — | — |
 | [Frontend Design Guidance Skill](../../skills/frontend-design-guidance-skill/) | — | — |
@@ -205,6 +206,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [MySQL Query Agent](../../skills/mysql-query-agent/) | — | — |
 | [n8n GitHub Issue-to-Jira Ticket Automator](../../skills/n8n-github-jira-ticket-automator/) | — | — |
 | [Nginx Error Log Parser](../../skills/nginx-error-log-parser/) | — | — |
+| [Nitric Multi-Language Cloud Application Framework with Infrastructure from Code](../../skills/nitric-cloud-application-framework/) | — | — |
 | [Nix Flake Configuration Builder](../../skills/nix-flake-configuration-builder/) | — | — |
 | [Notion Workspace Agent](../../skills/notion-workspace-agent/) | — | — |
 | [NPM Package Auditor](../../skills/npm-package-auditor-registry-api/) | — | — |
@@ -230,6 +232,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [VS Code Extension Debugger](../../skills/vscode-extension-debugger-dap-protocol/) | — | — |
 | [VS Code Extension Scaffolder](../../skills/vscode-extension-scaffolder-agent/) | — | — |
 | [WASM Component Model Linker](../../skills/wasm-component-model-linker/) | — | — |
+| [Wasp Batteries-Included Full-Stack Web Framework for React and Node.js](../../skills/wasp-full-stack-web-framework/) | — | — |
 | [Webhook Debugger](../../skills/webhook-debugger/) | — | — |
 | [Webpack Bundle Analyzer Agent](../../skills/webpack-bundle-analyzer-agent/) | — | — |
 

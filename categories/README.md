@@ -1,10 +1,10 @@
 # Skill Categories
 
-> **1570 skills** across **17 categories**
+> **1573 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
-| 🛠️ | [**Developer Tools**](developer-tools/) | **192** | CLI helpers, dev environment setup, productivity utilities, and devel... |
+| 🛠️ | [**Developer Tools**](developer-tools/) | **195** | CLI helpers, dev environment setup, productivity utilities, and devel... |
 | 🔧 | [**CI/CD Integrations**](ci-cd-integrations/) | **142** | Pipeline configs, deployment automation, build tooling, and continuou... |
 | 🔄 | [**Data Extraction & Transformation**](data-extraction-transformation/) | **116** | Parsing, ETL pipelines, format conversion, data wrangling, and transf... |
 | 📋 | [**Runbooks & Diagnostics**](runbooks-diagnostics/) | **113** | Incident response, troubleshooting guides, system diagnostics, and op... |

@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1570 published skills** across **17 categories** · 1532 security reviewed · Updated 2026-04-01 21:26 UTC
+> **1573 published skills** across **17 categories** · 1532 security reviewed · Updated 2026-04-01 23:33 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (192 skills)
+### 🛠️ Developer Tools (195 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -158,6 +158,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Docker Compose Stack Builder](skills/docker-compose-stack-builder-sdk/) | Builds multi-service Docker Compose stacks using Docker Engine SDK for Python with automatic health check… | Security Reviewed | — | — |
 | [Docker MCP Server](skills/docker-mcp-server/) | Docker MCP Server is built around Docker container platform. The underlying ecosystem is represented by moby/moby… | Security Reviewed | — | — |
 | [DynamoDB Manager](skills/dynamodb-manager/) | DynamoDB Manager is built around Amazon DynamoDB NoSQL database. The underlying ecosystem is represented by… | Security Reviewed | — | — |
+| [Encore Open Source Backend Framework for Type-Safe Distributed Systems](skills/encore-backend-framework-distributed-systems/) | Encore is an open-source backend development framework for TypeScript and Go that lets you define APIs, services,… | Published | — | — |
 | [ESLint Code Review](skills/eslint-code-review/) | ESLint Code Review is built around ESLint static analysis for JavaScript and TypeScript. The underlying ecosystem is… | Security Reviewed | — | — |
 | [ESLint Rule Generator Agent](skills/eslint-rule-generator-agent/) | Generates custom ESLint rules from natural language descriptions using the ESLint RuleTester API and AST selectors.… | Security Reviewed | — | — |
 | [Frontend Design Guidance Skill](skills/frontend-design-guidance-skill/) | Practical frontend design guidance for landing pages, dashboards, and UI implementation work. | Security Reviewed | — | — |
@@ -179,6 +180,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [MySQL Query Agent](skills/mysql-query-agent/) | MySQL Query Agent is built around MySQL relational database. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 | [n8n GitHub Issue-to-Jira Ticket Automator](skills/n8n-github-jira-ticket-automator/) | Deploys an n8n workflow via the n8n REST API using the GitHub Trigger node to capture new issue events and transform… | Security Reviewed | — | — |
 | [Nginx Error Log Parser](skills/nginx-error-log-parser/) | Parses nginx error.log and access.log files using pattern matching for 5xx status codes, upstream timeouts, and SSL… | Security Reviewed | — | — |
+| [Nitric Multi-Language Cloud Application Framework with Infrastructure from Code](skills/nitric-cloud-application-framework/) | Nitric is an open-source multi-language framework that lets you define cloud infrastructure directly from your… | Published | — | — |
 | [Nix Flake Configuration Builder](skills/nix-flake-configuration-builder/) | Generates reproducible Nix flake configurations with devShell environments and package overlays. Uses the Nix Flakes… | Security Reviewed | — | — |
 | [Notion Workspace Agent](skills/notion-workspace-agent/) | Notion Workspace Agent is built around Notion workspace and database platform. The underlying ecosystem is… | Security Reviewed | — | — |
 | [NPM Package Auditor](skills/npm-package-auditor-registry-api/) | Audits NPM packages using the NPM Registry API with dependency tree resolution and vulnerability scanning via… | Security Reviewed | — | — |
@@ -204,6 +206,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [VS Code Extension Debugger](skills/vscode-extension-debugger-dap-protocol/) | Debugs VS Code extensions using the Debug Adapter Protocol (DAP) with breakpoint management and variable inspection.… | Security Reviewed | — | — |
 | [VS Code Extension Scaffolder](skills/vscode-extension-scaffolder-agent/) | Scaffolds VS Code extensions using the vscode-extension API with TypeScript, including commands, webview panels,… | Security Reviewed | — | — |
 | [WASM Component Model Linker](skills/wasm-component-model-linker/) | Compiles and links WebAssembly components using the WASI Preview 2 Component Model, wasm-tools CLI for component… | Security Reviewed | — | — |
+| [Wasp Batteries-Included Full-Stack Web Framework for React and Node.js](skills/wasp-full-stack-web-framework/) | Wasp is a Rails-like full-stack web framework that uses a declarative DSL to generate React and Node.js applications… | Published | — | — |
 | [Webhook Debugger](skills/webhook-debugger/) | Webhook Debugger is built around Stripe payments platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 | [Webpack Bundle Analyzer Agent](skills/webpack-bundle-analyzer-agent/) | Analyzes webpack bundle composition using webpack-bundle-analyzer and source-map-explorer APIs. Identifies duplicate… | Security Reviewed | — | — |
 
