@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1543 published skills** across **17 categories** · 1503 security reviewed · Updated 2026-03-31 23:26 UTC
+> **1546 published skills** across **17 categories** · 1503 security reviewed · Updated 2026-04-01 01:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (180 skills)
+### 🛠️ Developer Tools (182 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -108,6 +108,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [grex Regular Expression Generator from Test Cases](skills/grex-regex-generator-from-test-cases/) | grex is a command-line tool and library that automatically generates regular expressions from user-provided test… | Security Reviewed | — | — |
 | [grpcurl Command-Line gRPC Client](skills/grpcurl-command-line-grpc-client/) | Like cURL but for gRPC servers. A command-line tool for interacting with gRPC services using server reflection or… | Security Reviewed | — | — |
 | [Gum Interactive Shell Script Toolkit](skills/gum-interactive-shell-script-toolkit/) | Gum by Charmbracelet is a tool for building glamorous shell scripts. It provides configurable terminal UI components… | Security Reviewed | — | — |
+| [Hono Ultrafast Web Framework Built on Web Standards](skills/hono-ultrafast-web-framework-web-standards/) | Hono is a small, simple, and ultrafast web framework built on Web Standards. It runs on any JavaScript runtime… | Published | — | — |
 | [Hoppscotch Open Source API Development Ecosystem](skills/hoppscotch-api-development-ecosystem/) | Hoppscotch is a lightweight, open-source API development platform that serves as an alternative to Postman and… | Security Reviewed | — | — |
 | [HTTPie CLI API Testing and Debugging Client](skills/httpie-cli-api-testing-debugging-client/) | HTTPie is a modern, user-friendly command-line HTTP client designed for testing, debugging, and interacting with… | Security Reviewed | — | — |
 | [Hurl Declarative HTTP Request Runner and Tester](skills/hurl-declarative-http-request-runner-tester/) | Hurl is a command-line tool for running and testing HTTP requests defined in plain text files. Built on libcurl, it… | Security Reviewed | — | — |
@@ -191,6 +192,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [watchexec File Watcher and Command Re-Runner](skills/watchexec-file-watcher-command-rerunner/) | watchexec is a standalone file-watching tool written in Rust that automatically executes commands when it detects… | Security Reviewed | — | — |
 | [Webhook Debugger](skills/webhook-debugger/) | Webhook Debugger is built around Stripe payments platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 | [Webpack Bundle Analyzer Agent](skills/webpack-bundle-analyzer-agent/) | Analyzes webpack bundle composition using webpack-bundle-analyzer and source-map-explorer APIs. Identifies duplicate… | Security Reviewed | — | — |
+| [Wrangler Cloudflare Workers CLI for Edge Deployment](skills/wrangler-cloudflare-workers-cli-edge-deployment/) | Wrangler is the official command-line tool for building, testing, and deploying Cloudflare Workers. It provides a… | Published | — | — |
 | [Yazi Async Terminal File Manager](skills/yazi-async-terminal-file-manager/) | Yazi is a blazing-fast terminal file manager written in Rust with async I/O, image previews, Vim keybindings, and a… | Security Reviewed | — | — |
 | [Zellij Terminal Workspace and Multiplexer](skills/zellij-terminal-workspace-multiplexer/) | Zellij is a Rust-powered terminal workspace and multiplexer with floating panes, WebAssembly plugins, layout… | Security Reviewed | — | — |
 | [zoxide Smart Directory Navigation CLI](skills/zoxide-smart-directory-navigation-cli/) | A smarter cd command written in Rust, inspired by z and autojump. zoxide learns your most-used directories and lets… | Security Reviewed | — | — |
@@ -590,7 +592,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Terraform State Surgery Kit](skills/terraform-state-surgery-kit/) | Performs safe Terraform state operations using the terraform CLI state subcommands and the Terraform Cloud API.… | Security Reviewed | — | — |
 
 
-### 🔒 Security & Verification (102 skills)
+### 🔒 Security & Verification (103 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -669,6 +671,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Sigstore Cosign Container Verifier](skills/sigstore-cosign-container-verifier/) | Verifies container image signatures and provenance using Sigstore Cosign and Rekor transparency log. Enforces supply… | Security Reviewed | — | — |
 | [Sigstore Cosign Verification Pipeline](skills/sigstore-cosign-verification-pipeline/) | Verifies container image signatures and SBOMs using Sigstore Cosign and Rekor transparency log. Enforces supply… | Security Reviewed | — | — |
 | [Sigstore Cosign Verifier](skills/sigstore-cosign-verifier-2/) | Automates container image signature verification using Cosign CLI and the Rekor transparency log API. Validates SLSA… | Security Reviewed | — | — |
+| [Skopeo Container Image Registry Operations CLI](skills/skopeo-container-image-registry-operations-cli/) | Skopeo is a command-line tool for working with container images and registries without requiring a running daemon.… | Published | — | — |
 | [SLSA Verifier Build Provenance Checker](skills/slsa-verifier-build-provenance-checker/) | SLSA Verifier is the official tool from the SLSA framework for verifying build provenance attestations generated by… | Security Reviewed | — | — |
 | [Snyk Agent Scan](skills/snyk-agent-scan/) | Scan your AI agents, MCP servers, and skills for security vulnerabilities from the command line. Snyk Agent Scan… | Security Reviewed | — | — |
 | [Snyk Agent Scan MCP and Skill Security Scanner](skills/snyk-agent-scan-mcp-skill-security-scanner/) | Snyk Agent Scan automatically discovers and scans AI agent components including MCP servers, agent skills, and agent… | Security Reviewed | — | — |

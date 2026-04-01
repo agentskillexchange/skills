@@ -134,6 +134,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [grex Regular Expression Generator from Test Cases](../../skills/grex-regex-generator-from-test-cases/) | — | — |
 | [grpcurl Command-Line gRPC Client](../../skills/grpcurl-command-line-grpc-client/) | — | — |
 | [Gum Interactive Shell Script Toolkit](../../skills/gum-interactive-shell-script-toolkit/) | — | — |
+| [Hono Ultrafast Web Framework Built on Web Standards](../../skills/hono-ultrafast-web-framework-web-standards/) | — | — |
 | [Hoppscotch Open Source API Development Ecosystem](../../skills/hoppscotch-api-development-ecosystem/) | — | — |
 | [HTTPie CLI API Testing and Debugging Client](../../skills/httpie-cli-api-testing-debugging-client/) | — | — |
 | [Hurl Declarative HTTP Request Runner and Tester](../../skills/hurl-declarative-http-request-runner-tester/) | — | — |
@@ -217,6 +218,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [watchexec File Watcher and Command Re-Runner](../../skills/watchexec-file-watcher-command-rerunner/) | — | — |
 | [Webhook Debugger](../../skills/webhook-debugger/) | — | — |
 | [Webpack Bundle Analyzer Agent](../../skills/webpack-bundle-analyzer-agent/) | — | — |
+| [Wrangler Cloudflare Workers CLI for Edge Deployment](../../skills/wrangler-cloudflare-workers-cli-edge-deployment/) | — | — |
 | [Yazi Async Terminal File Manager](../../skills/yazi-async-terminal-file-manager/) | — | — |
 | [Zellij Terminal Workspace and Multiplexer](../../skills/zellij-terminal-workspace-multiplexer/) | — | — |
 | [zoxide Smart Directory Navigation CLI](../../skills/zoxide-smart-directory-navigation-cli/) | — | — |

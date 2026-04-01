@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1543,
-  "generated": "2026-03-31",
+  "total": 1546,
+  "generated": "2026-04-01",
   "skills": [
+    {
+      "slug": "skopeo-container-image-registry-operations-cli",
+      "name": "Skopeo Container Image Registry Operations CLI",
+      "description": "Skopeo is a command-line tool for working with container images and registries without requiring a running daemon. It can inspect, copy, delete, and sync…",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "wrangler-cloudflare-workers-cli-edge-deployment",
+      "name": "Wrangler Cloudflare Workers CLI for Edge Deployment",
+      "description": "Wrangler is the official command-line tool for building, testing, and deploying Cloudflare Workers. It provides a complete development workflow for serverless edge applications including…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "hono-ultrafast-web-framework-web-standards",
+      "name": "Hono Ultrafast Web Framework Built on Web Standards",
+      "description": "Hono is a small, simple, and ultrafast web framework built on Web Standards. It runs on any JavaScript runtime including Cloudflare Workers, Deno, Bun,…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "pglite-embeddable-wasm-postgres",
       "name": "PGlite Embeddable WASM Postgres for Browser and Node.js",

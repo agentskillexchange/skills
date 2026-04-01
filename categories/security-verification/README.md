@@ -90,6 +90,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Sigstore Cosign Container Verifier](../../skills/sigstore-cosign-container-verifier/) | — | — |
 | [Sigstore Cosign Verification Pipeline](../../skills/sigstore-cosign-verification-pipeline/) | — | — |
 | [Sigstore Cosign Verifier](../../skills/sigstore-cosign-verifier-2/) | — | — |
+| [Skopeo Container Image Registry Operations CLI](../../skills/skopeo-container-image-registry-operations-cli/) | — | — |
 | [SLSA Verifier Build Provenance Checker](../../skills/slsa-verifier-build-provenance-checker/) | — | — |
 | [Snyk Agent Scan](../../skills/snyk-agent-scan/) | — | — |
 | [Snyk Agent Scan MCP and Skill Security Scanner](../../skills/snyk-agent-scan-mcp-skill-security-scanner/) | — | — |
