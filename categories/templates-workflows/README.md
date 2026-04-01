@@ -2,10 +2,21 @@
 
 Project scaffolding, boilerplate generators, workflow templates, and starter kits.
 
+## ⭐ Top Starred
+
+| Skill | Stars |
+|---|---:|
+| [Temporal Durable Execution Workflow Orchestration Platform](../../skills/temporal-durable-execution-workflow-platform/) | ⭐ 19.3k |
+| [Windmill Open-Source Workflow Engine and Developer Platform](../../skills/windmill-workflow-engine-developer-platform/) | ⭐ 16.1k |
+
+---
+
 ## Full Skill List
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
+| [Temporal Durable Execution Workflow Orchestration Platform](../../skills/temporal-durable-execution-workflow-platform/) | 19.3k | — |
+| [Windmill Open-Source Workflow Engine and Developer Platform](../../skills/windmill-workflow-engine-developer-platform/) | 16.1k | — |
 | [Ansible Playbook Linter](../../skills/ansible-playbook-linter-2/) | — | — |
 | [Ansible Playbook Runner](../../skills/ansible-playbook-runner/) | — | — |
 | [Ansible Playbook Template Generator](../../skills/ansible-playbook-template-generator/) | — | — |
@@ -57,7 +68,6 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Semgrep Custom Rule Runner](../../skills/semgrep-custom-rule-runner-2/) | — | — |
 | [SonarQube Gate Checker](../../skills/sonarqube-gate-checker-2/) | — | — |
 | [Swagger Codegen Orchestrator](../../skills/swagger-codegen-orchestrator/) | — | — |
-| [Temporal Durable Execution Workflow Orchestration Platform](../../skills/temporal-durable-execution-workflow-platform/) | — | — |
 | [Terraform Module Boilerplate Assembler](../../skills/terraform-module-boilerplate-assembler/) | — | — |
 | [Terraform Module Registry](../../skills/terraform-module-registry/) | — | — |
 | [Terraform Module Registry Browser](../../skills/terraform-module-registry-browser/) | — | — |
@@ -67,7 +77,6 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Terraform Module Testing Framework](../../skills/terraform-module-testing-framework/) | — | — |
 | [Twitter/X Trend Monitor &amp; Thread Publisher](../../skills/twitter-x-trend-monitor-thread-publisher/) | — | — |
 | [Vercel Deployment Agent](../../skills/vercel-deployment-agent/) | — | — |
-| [Windmill Open-Source Workflow Engine and Developer Platform](../../skills/windmill-workflow-engine-developer-platform/) | — | — |
 | [Yeoman Enterprise Generator Suite](../../skills/yeoman-enterprise-generator-suite/) | — | — |
 | [Yeoman Generator Builder](../../skills/yeoman-generator-builder/) | — | — |
 | [Yeoman Scaffold Runner](../../skills/yeoman-scaffold-runner/) | — | — |

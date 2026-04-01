@@ -4,14 +4,14 @@
 
 ### The open catalog of AI agent skills
 
-[![Published](https://img.shields.io/badge/published-1%2C564-6366f1?style=for-the-badge)](skills/)
+[![Published](https://img.shields.io/badge/published-1%2C567-6366f1?style=for-the-badge)](skills/)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/)
 [![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-1%2C532-10b981?style=for-the-badge)](verification/)
 [![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)
 
 **[Categories](categories/) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md) · [Submit a Skill](#submit-a-skill)**
 
-*1,564 published skills · 17 categories · Real ecosystem signals · Updated hourly*
+*1,567 published skills · 17 categories · Real ecosystem signals · Updated hourly*
 
 </div>
 
@@ -48,6 +48,7 @@ A hand-picked selection across categories. See [TOP-STARS.md](TOP-STARS.md) and 
 
 | Skill | Tool | ⭐ Stars | Category |
 |-------|------|--------:|----------|
+| [yt-dlp Feature-Rich Audio and Video Downloader CLI](skills/yt-dlp-feature-rich-audio-video-downloader-cli/) | yt-dlp | 154.3k | Media & Transcription |
 | [Excalidraw Virtual Whiteboard and Diagram SDK](skills/excalidraw-virtual-whiteboard-diagram-sdk/) | excalidraw | 119.9k | Image & Creative Automation |
 | [llama.cpp Portable LLM Inference Engine in C/C++](skills/llama-cpp-portable-llm-inference/) | llama.cpp | 100.3k | Developer Tools |
 | [Immich Self-Hosted Photo and Video Management Platform](skills/immich-photo-video-management-platform/) | immich | 96k | Media & Transcription |
@@ -55,11 +56,10 @@ A hand-picked selection across categories. See [TOP-STARS.md](TOP-STARS.md) and 
 | [MarkItDown Document-to-Markdown Converter by Microsoft](skills/markitdown-document-to-markdown-converter-microsoft/) | markitdown | 92.9k | Data Extraction & Transformation |
 | [Hugo Fast Static Site Generator and CMS Framework](skills/hugo-static-site-generator-cms-framework/) | hugo | 87.4k | WordPress & CMS |
 | [Playwright Cross-Browser Testing and Automation Framework](skills/playwright-cross-browser-testing-and-automation-framework/) | playwright | 85.3k | Browser Automation |
-| [vLLM High-Throughput LLM Serving Engine with PagedAttention](skills/vllm-high-throughput-llm-serving/) | vllm | 74.8k | Developer Tools |
-| [PaddleOCR Multilingual Document OCR and Structured Data Toolkit](skills/paddleocr-multilingual-document-ocr-toolkit/) | paddleocr | 73.7k | Data Extraction & Transformation |
+| [PostgreSQL MCP Server](skills/postgresql-mcp-server/) | servers | 82.7k | Data Extraction & Transformation |
+| [uv Ultra-Fast Python Package and Project Manager](skills/uv-ultra-fast-python-package-project-manager/) | uv | 82.4k | Developer Tools |
+| [Sherlock Social Media Username Hunter Across 400+ Networks](skills/sherlock-social-media-username-hunter/) | sherlock | 76.2k | Research & Scraping |
 | [Strapi Open Source Headless CMS with REST and GraphQL APIs](skills/strapi-headless-cms-rest-graphql/) | strapi | 71.7k | WordPress & CMS |
-| [NocoDB Self-Hosted No-Code Database Platform with REST API](skills/nocodb-self-hosted-no-code-database-rest-api/) | nocodb | 62.6k | Integrations & Connectors |
-| [Rclone Cloud Storage Sync and Management CLI](skills/rclone-cloud-storage-sync-management-cli/) | rclone | 56.4k | Integrations & Connectors |
 
 ---
 
@@ -67,7 +67,7 @@ A hand-picked selection across categories. See [TOP-STARS.md](TOP-STARS.md) and 
 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
-| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 189 | CLI tools, scaffolders, dev environment setup |
+| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 192 | CLI tools, scaffolders, dev environment setup |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 142 | Pipeline configs, deployment automation, build tooling |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 116 | ETL pipelines, parsing, format conversion |
 | 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 113 | Incident response, troubleshooting, system diagnostics |
@@ -142,7 +142,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 1,564 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 1,567 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 1,532 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

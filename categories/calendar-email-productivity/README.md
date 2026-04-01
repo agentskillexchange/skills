@@ -6,16 +6,16 @@ Email automation, calendar management, task coordination, and productivity tools
 
 | Skill | Stars |
 |---|---:|
+| [Slack MCP Server](../../skills/slack-mcp-server/) | ⭐ 82.7k |
+| [Memos Self-Hosted Note Capture and Knowledge API](../../skills/memos-self-hosted-note-capture-knowledge-api/) | ⭐ 58.5k |
+| [Plane Open Source Project Management Platform](../../skills/plane-open-source-project-management/) | ⭐ 47.2k |
 | [Twenty Open Source CRM Platform and Salesforce Alternative](../../skills/twenty-open-source-crm-salesforce-alternative/) | ⭐ 43.3k |
+| [Cal.com Open Source Scheduling Infrastructure and API](../../skills/cal-com-open-source-scheduling-infrastructure-api/) | ⭐ 40.9k |
+| [Listmonk Self-Hosted Newsletter and Mailing List Manager](../../skills/listmonk-self-hosted-newsletter-mailing-list/) | ⭐ 19.4k |
 | [Super Productivity Open Source Task Manager with Time Tracking](../../skills/super-productivity-task-manager-time-tracking/) | ⭐ 18.3k |
 | [MailHog SMTP Testing Server with Web UI and API](../../skills/mailhog-smtp-testing-server-with-web-ui-and-api/) | ⭐ 15.9k |
+| [Documenso Open Source Document Signing Platform](../../skills/documenso-open-source-document-signing/) | ⭐ 12.6k |
 | [Stalwart All-in-One Mail and Collaboration Server](../../skills/stalwart-mail-collaboration-server/) | ⭐ 12.1k |
-| [Shiori Self-Hosted Bookmark Manager with CLI and Web Interface](../../skills/shiori-self-hosted-bookmark-manager-cli-web/) | ⭐ 11.4k |
-| [Leantime Open Source Goals-Focused Project Management Platform](../../skills/leantime-open-source-project-management-platform/) | ⭐ 9.4k |
-| [Mautic Open Source Marketing Automation Platform](../../skills/mautic-marketing-automation-platform/) | ⭐ 9.4k |
-| [Mailpit SMTP Testing and Email Capture Workbench](../../skills/mailpit-smtp-testing-email-capture-workbench/) | ⭐ 9.1k |
-| [nb CLI Note-Taking Bookmarking and Knowledge Base Application](../../skills/nb-cli-note-taking-bookmarking-knowledge-base/) | ⭐ 8.1k |
-| [jrnl Command-Line Journal and Note Capture Tool](../../skills/jrnl-command-line-journal-note-capture/) | ⭐ 7.2k |
 
 ---
 
@@ -23,30 +23,39 @@ Email automation, calendar management, task coordination, and productivity tools
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
+| [Slack MCP Server](../../skills/slack-mcp-server/) | 82.7k | — |
+| [Memos Self-Hosted Note Capture and Knowledge API](../../skills/memos-self-hosted-note-capture-knowledge-api/) | 58.5k | — |
+| [Plane Open Source Project Management Platform](../../skills/plane-open-source-project-management/) | 47.2k | — |
 | [Twenty Open Source CRM Platform and Salesforce Alternative](../../skills/twenty-open-source-crm-salesforce-alternative/) | 43.3k | — |
+| [Cal.com Open Source Scheduling Infrastructure and API](../../skills/cal-com-open-source-scheduling-infrastructure-api/) | 40.9k | — |
+| [Listmonk Self-Hosted Newsletter and Mailing List Manager](../../skills/listmonk-self-hosted-newsletter-mailing-list/) | 19.4k | — |
 | [Super Productivity Open Source Task Manager with Time Tracking](../../skills/super-productivity-task-manager-time-tracking/) | 18.3k | — |
 | [MailHog SMTP Testing Server with Web UI and API](../../skills/mailhog-smtp-testing-server-with-web-ui-and-api/) | 15.9k | — |
+| [Documenso Open Source Document Signing Platform](../../skills/documenso-open-source-document-signing/) | 12.6k | — |
 | [Stalwart All-in-One Mail and Collaboration Server](../../skills/stalwart-mail-collaboration-server/) | 12.1k | — |
 | [Shiori Self-Hosted Bookmark Manager with CLI and Web Interface](../../skills/shiori-self-hosted-bookmark-manager-cli-web/) | 11.4k | — |
+| [Inbox Zero AI Email Assistant](../../skills/inbox-zero-ai-email-assistant/) | 10.4k | — |
 | [Leantime Open Source Goals-Focused Project Management Platform](../../skills/leantime-open-source-project-management-platform/) | 9.4k | — |
 | [Mautic Open Source Marketing Automation Platform](../../skills/mautic-marketing-automation-platform/) | 9.4k | — |
 | [Mailpit SMTP Testing and Email Capture Workbench](../../skills/mailpit-smtp-testing-email-capture-workbench/) | 9.1k | — |
 | [nb CLI Note-Taking Bookmarking and Knowledge Base Application](../../skills/nb-cli-note-taking-bookmarking-knowledge-base/) | 8.1k | — |
 | [jrnl Command-Line Journal and Note Capture Tool](../../skills/jrnl-command-line-journal-note-capture/) | 7.2k | — |
+| [Himalaya CLI Email Client for IMAP SMTP and Notmuch](../../skills/himalaya-cli-email-client-imap-smtp-notmuch/) | 5.8k | — |
 | [Taskwarrior Command-Line Task Management System](../../skills/taskwarrior-command-line-task-management-system/) | 5.7k | — |
 | [Rallly Open-Source Group Scheduling and Meeting Poll Platform](../../skills/rallly-group-scheduling-meeting-poll/) | 5k | — |
+| [Plunk Open Source Transactional Email Platform on AWS SES](../../skills/plunk-open-source-email-platform-aws-ses/) | 4.9k | — |
 | [Radicale Self-Hosted CalDAV and CardDAV Server](../../skills/radicale-self-hosted-caldav-carddav-server/) | 4.5k | — |
 | [Vikunja Self-Hosted Task Management and Project Organization Platform](../../skills/vikunja-self-hosted-task-management/) | 3.8k | — |
 | [NeoMutt Feature-Rich Terminal Email Client](../../skills/neomutt-terminal-email-client/) | 3.7k | — |
 | [gcalcli Google Calendar Command Line Interface](../../skills/gcalcli-google-calendar-cli/) | 3.7k | — |
+| [khal Standards-Based CLI Calendar Application](../../skills/khal-cli-calendar-application-caldav/) | 3k | — |
+| [Google Workspace MCP Server for Gmail Calendar and Drive](../../skills/google-workspace-mcp-server-gmail-calendar-drive/) | 2k | — |
 | [vdirsyncer CalDAV and CardDAV Calendar and Contact Synchronizer](../../skills/vdirsyncer-caldav-carddav-sync/) | 1.8k | — |
 | [Timewarrior Command-Line Time Tracking and Reporting](../../skills/timewarrior-command-line-time-tracking-reporting/) | 1.6k | — |
 | [calcurse Text-Based Calendar and Scheduling Application](../../skills/calcurse-text-calendar-scheduling/) | 1.2k | — |
+| [Atlassian Rovo MCP Server](../../skills/atlassian-rovo-mcp-server/) | 518 | — |
 | [aerc Extensible Terminal Email Client with IMAP JMAP and Notmuch](../../skills/aerc-extensible-terminal-email-client/) | — | — |
-| [Atlassian Rovo MCP Server](../../skills/atlassian-rovo-mcp-server/) | — | — |
-| [Cal.com Open Source Scheduling Infrastructure and API](../../skills/cal-com-open-source-scheduling-infrastructure-api/) | — | — |
 | [Discord Bot Manager](../../skills/discord-bot-manager/) | — | — |
-| [Documenso Open Source Document Signing Platform](../../skills/documenso-open-source-document-signing/) | — | — |
 | [Gmail API Thread Label Triage](../../skills/gmail-api-thread-label-triage/) | — | — |
 | [Gmail Thread Summarizer and Action Extractor](../../skills/gmail-thread-summarizer-action-extractor/) | — | — |
 | [Google Calendar Conflict Detector](../../skills/google-calendar-conflict-detector/) | — | — |
@@ -55,15 +64,9 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Google Calendar Smart Scheduler](../../skills/google-calendar-smart-scheduler-2/) | — | — |
 | [Google Calendar Sync &#038; Conflict Resolver](../../skills/google-calendar-sync-conflict-resolver/) | — | — |
 | [Google Calendar Sync Agent](../../skills/google-calendar-sync-agent-2/) | — | — |
-| [Google Workspace MCP Server for Gmail Calendar and Drive](../../skills/google-workspace-mcp-server-gmail-calendar-drive/) | — | — |
-| [Himalaya CLI Email Client for IMAP SMTP and Notmuch](../../skills/himalaya-cli-email-client-imap-smtp-notmuch/) | — | — |
 | [IMAP Email Classifier](../../skills/imap-email-classifier-ml/) | — | — |
 | [IMAP Inbox Triage Agent](../../skills/imap-inbox-triage-agent/) | — | — |
-| [Inbox Zero AI Email Assistant](../../skills/inbox-zero-ai-email-assistant/) | — | — |
-| [khal Standards-Based CLI Calendar Application](../../skills/khal-cli-calendar-application-caldav/) | — | — |
 | [Linear Sprint Planner](../../skills/linear-sprint-planner/) | — | — |
-| [Listmonk Self-Hosted Newsletter and Mailing List Manager](../../skills/listmonk-self-hosted-newsletter-mailing-list/) | — | — |
-| [Memos Self-Hosted Note Capture and Knowledge API](../../skills/memos-self-hosted-note-capture-knowledge-api/) | — | — |
 | [Microsoft Graph Calendar Conflict Resolver](../../skills/microsoft-graph-calendar-conflict-resolver/) | — | — |
 | [Microsoft Graph Email Digest Builder](../../skills/microsoft-graph-email-digest-builder/) | — | — |
 | [Microsoft Graph Email Triage Agent](../../skills/microsoft-graph-email-triage-agent/) | — | — |
@@ -86,11 +89,8 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Outlook Mail Triage Assistant](../../skills/outlook-mail-triage-assistant/) | — | — |
 | [Outlook Mail Triage Skill](../../skills/outlook-mail-triage-microsoft-graph/) | — | — |
 | [Outlook Rule Automation Manager](../../skills/outlook-rule-automation-manager/) | — | — |
-| [Plane Open Source Project Management Platform](../../skills/plane-open-source-project-management/) | — | — |
-| [Plunk Open Source Transactional Email Platform on AWS SES](../../skills/plunk-open-source-email-platform-aws-ses/) | — | — |
 | [Slack Channel Summarizer](../../skills/slack-channel-summarizer-bolt-sdk/) | — | — |
 | [Slack Digest and Task Router](../../skills/slack-digest-and-task-router/) | — | — |
-| [Slack MCP Server](../../skills/slack-mcp-server/) | — | — |
 | [Slack Standup Automator](../../skills/slack-standup-automator/) | — | — |
 | [Slack Standup Summarizer](../../skills/slack-standup-summarizer/) | — | — |
 | [Slack Status API PTO Sync Assistant](../../skills/slack-status-api-pto-sync-assistant/) | — | — |

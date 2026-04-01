@@ -6,7 +6,14 @@ SDK documentation, API guides, framework reference material, and library usage p
 
 | Skill | Stars |
 |---|---:|
+| [Context7 MCP Documentation Server for LLM Code Editors](../../skills/context7-mcp-documentation-server-llm-code-editors/) | ⭐ 51.3k |
 | [Bubble Tea Go TUI Framework by Charmbracelet](../../skills/bubble-tea-go-tui-framework/) | ⭐ 41.1k |
+| [DevDocs Unified API Documentation Browser](../../skills/devdocs-unified-api-documentation-browser/) | ⭐ 38.7k |
+| [Redoc OpenAPI Documentation Renderer](../../skills/redoc-openapi-documentation-renderer/) | ⭐ 25.6k |
+| [JSDoc JavaScript API Documentation Generator](../../skills/jsdoc-javascript-api-documentation-generator/) | ⭐ 15.4k |
+| [PGlite Embeddable WASM Postgres for Browser and Node.js](../../skills/pglite-embeddable-wasm-postgres/) | ⭐ 15k |
+| [Effect TypeScript Standard Library for Production Applications](../../skills/effect-typescript-standard-library-production/) | ⭐ 13.7k |
+| [TypeDoc TypeScript API Documentation Generator](../../skills/typedoc-typescript-api-documentation-generator/) | ⭐ 8.4k |
 
 ---
 
@@ -14,9 +21,9 @@ SDK documentation, API guides, framework reference material, and library usage p
 
 | Skill | Downloads |
 |---|---:|
-| [TypeDoc TypeScript API Documentation Generator](../../skills/typedoc-typescript-api-documentation-generator/) | ⬇ 3.8M/wk |
-| [JSDoc JavaScript API Documentation Generator](../../skills/jsdoc-javascript-api-documentation-generator/) | ⬇ 2.9M/wk |
 | [Redoc OpenAPI Documentation Renderer](../../skills/redoc-openapi-documentation-renderer/) | ⬇ 1.4M/wk |
+| [JSDoc JavaScript API Documentation Generator](../../skills/jsdoc-javascript-api-documentation-generator/) | ⬇ 2.9M/wk |
+| [TypeDoc TypeScript API Documentation Generator](../../skills/typedoc-typescript-api-documentation-generator/) | ⬇ 3.8M/wk |
 
 ---
 
@@ -24,21 +31,22 @@ SDK documentation, API guides, framework reference material, and library usage p
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
+| [Context7 MCP Documentation Server for LLM Code Editors](../../skills/context7-mcp-documentation-server-llm-code-editors/) | 51.3k | — |
 | [Bubble Tea Go TUI Framework by Charmbracelet](../../skills/bubble-tea-go-tui-framework/) | 41.1k | — |
-| [TypeDoc TypeScript API Documentation Generator](../../skills/typedoc-typescript-api-documentation-generator/) | — | 3.8M/wk |
-| [JSDoc JavaScript API Documentation Generator](../../skills/jsdoc-javascript-api-documentation-generator/) | — | 2.9M/wk |
-| [Redoc OpenAPI Documentation Renderer](../../skills/redoc-openapi-documentation-renderer/) | — | 1.4M/wk |
+| [DevDocs Unified API Documentation Browser](../../skills/devdocs-unified-api-documentation-browser/) | 38.7k | — |
+| [Redoc OpenAPI Documentation Renderer](../../skills/redoc-openapi-documentation-renderer/) | 25.6k | 1.4M/wk |
+| [JSDoc JavaScript API Documentation Generator](../../skills/jsdoc-javascript-api-documentation-generator/) | 15.4k | 2.9M/wk |
+| [PGlite Embeddable WASM Postgres for Browser and Node.js](../../skills/pglite-embeddable-wasm-postgres/) | 15k | — |
+| [Effect TypeScript Standard Library for Production Applications](../../skills/effect-typescript-standard-library-production/) | 13.7k | — |
+| [TypeDoc TypeScript API Documentation Generator](../../skills/typedoc-typescript-api-documentation-generator/) | 8.4k | 3.8M/wk |
 | [Anthropic SDK Token Usage Logger](../../skills/anthropic-sdk-token-usage-logger/) | — | — |
 | [API Documentation Indexer](../../skills/api-documentation-indexer/) | — | — |
 | [AsyncAPI Event Catalog Builder](../../skills/asyncapi-event-catalog-builder/) | — | — |
 | [AsyncAPI Event Catalog Generator](../../skills/asyncapi-event-catalog-generator/) | — | — |
 | [AWS SDK Method Resolver](../../skills/aws-sdk-method-resolver/) | — | — |
 | [Buf Protobuf Linter](../../skills/buf-protobuf-linter/) | — | — |
-| [Context7 MCP Documentation Server for LLM Code Editors](../../skills/context7-mcp-documentation-server-llm-code-editors/) | — | — |
-| [DevDocs Unified API Documentation Browser](../../skills/devdocs-unified-api-documentation-browser/) | — | — |
 | [Docker Image Layer Analyzer](../../skills/docker-image-layer-analyzer/) | — | — |
 | [Doxygen Cross-Reference Indexer](../../skills/doxygen-cross-reference-indexer/) | — | — |
-| [Effect TypeScript Standard Library for Production Applications](../../skills/effect-typescript-standard-library-production/) | — | — |
 | [GitHub REST API Paginator Library](../../skills/github-rest-api-paginator-library/) | — | — |
 | [GraphQL Introspection Documenter](../../skills/graphql-introspection-documenter/) | — | — |
 | [GraphQL Schema Analyzer](../../skills/graphql-schema-analyzer/) | — | — |
@@ -83,7 +91,6 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [OpenAPI Specification Validator](../../skills/openapi-specification-validator-agent/) | — | — |
 | [OpenTelemetry Trace Analyzer](../../skills/opentelemetry-trace-analyzer/) | — | — |
 | [OpenTelemetry Trace Context Propagator](../../skills/opentelemetry-trace-context-propagator/) | — | — |
-| [PGlite Embeddable WASM Postgres for Browser and Node.js](../../skills/pglite-embeddable-wasm-postgres/) | — | — |
 | [Plaid Financial Data Aggregator &amp; Budget Classifier](../../skills/plaid-financial-data-aggregator/) | — | — |
 | [Postman Collection Runner](../../skills/postman-collection-runner/) | — | — |
 | [Prisma Schema Migrator](../../skills/prisma-schema-migrator/) | — | — |

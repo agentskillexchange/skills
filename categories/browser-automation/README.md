@@ -10,12 +10,12 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Playwright Cross-Browser Testing and Automation Framework](../../skills/playwright-cross-browser-testing-and-automation-framework/) | ⭐ 85.3k |
 | [Browser Use AI Browser Automation Library](../../skills/browser-use-ai-browser-automation-library/) | ⭐ 85.2k |
 | [browser-use Browser Automation Framework](../../skills/browser-use-browser-automation-framework/) | ⭐ 85.2k |
+| [Playwright MCP Browser Automation](../../skills/playwright-mcp-browser-automation/) | ⭐ 30.1k |
+| [Playwright MCP Server for Browser Automation](../../skills/playwright-mcp-server-browser-automation/) | ⭐ 30.1k |
+| [Lightpanda Headless Browser for AI Automation](../../skills/lightpanda-headless-browser-ai-automation/) | ⭐ 26.5k |
+| [Stagehand AI Browser Automation Framework](../../skills/stagehand-ai-browser-automation-framework/) | ⭐ 21.8k |
 | [Skyvern AI Browser Workflow Automation with LLMs and Computer Vision](../../skills/skyvern-ai-browser-workflow-automation/) | ⭐ 21k |
 | [chromedp Go Browser Automation with Chrome DevTools Protocol](../../skills/chromedp-go-browser-automation-chrome-devtools-protocol/) | ⭐ 12.9k |
-| [SeleniumBase Python Browser Automation and Stealth Testing Framework](../../skills/seleniumbase-python-browser-automation-stealth-testing-framework/) | ⭐ 12.6k |
-| [TestCafe Zero-Config End-to-End Browser Testing Framework](../../skills/testcafe-e2e-browser-testing/) | ⭐ 9.9k |
-| [WebdriverIO Next-Gen Browser and Mobile Automation Framework](../../skills/webdriverio-browser-mobile-automation-framework/) | ⭐ 9.8k |
-| [Rod Go Chrome DevTools Protocol Driver for Web Automation](../../skills/rod-go-cdp-browser-automation/) | ⭐ 6.8k |
 
 ---
 
@@ -27,10 +27,10 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [SeleniumBase Python Browser Automation and Stealth Testing Framework](../../skills/seleniumbase-python-browser-automation-stealth-testing-framework/) | ⬇ 20/wk |
 | [TestCafe Zero-Config End-to-End Browser Testing Framework](../../skills/testcafe-e2e-browser-testing/) | ⬇ 209.8k/wk |
 | [WebdriverIO Next-Gen Browser and Mobile Automation Framework](../../skills/webdriverio-browser-mobile-automation-framework/) | ⬇ 2.8M/wk |
+| [BackstopJS Visual Regression Testing Automation](../../skills/backstopjs-visual-regression-testing-automation/) | ⬇ 70.9k/wk |
+| [Pa11y Accessibility Testing CLI and CI](../../skills/pa11y-accessibility-testing-cli-and-ci/) | ⬇ 241.8k/wk |
 | [Browserable Self-Hostable Browser Automation for AI Agents](../../skills/browserable-self-hostable-browser-automation-ai-agents/) | ⬇ 5/wk |
 | [Browserbase Session Automation API and SDK](../../skills/browserbase-session-automation-api-and-sdk/) | ⬇ 787.9k/wk |
-| [Pa11y Accessibility Testing CLI and CI](../../skills/pa11y-accessibility-testing-cli-and-ci/) | ⬇ 241.8k/wk |
-| [BackstopJS Visual Regression Testing Automation](../../skills/backstopjs-visual-regression-testing-automation/) | ⬇ 70.9k/wk |
 
 ---
 
@@ -42,16 +42,21 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Playwright Cross-Browser Testing and Automation Framework](../../skills/playwright-cross-browser-testing-and-automation-framework/) | 85.3k | 41.3M/wk |
 | [Browser Use AI Browser Automation Library](../../skills/browser-use-ai-browser-automation-library/) | 85.2k | — |
 | [browser-use Browser Automation Framework](../../skills/browser-use-browser-automation-framework/) | 85.2k | — |
+| [Playwright MCP Browser Automation](../../skills/playwright-mcp-browser-automation/) | 30.1k | — |
+| [Playwright MCP Server for Browser Automation](../../skills/playwright-mcp-server-browser-automation/) | 30.1k | — |
+| [Lightpanda Headless Browser for AI Automation](../../skills/lightpanda-headless-browser-ai-automation/) | 26.5k | — |
+| [Stagehand AI Browser Automation Framework](../../skills/stagehand-ai-browser-automation-framework/) | 21.8k | — |
 | [Skyvern AI Browser Workflow Automation with LLMs and Computer Vision](../../skills/skyvern-ai-browser-workflow-automation/) | 21k | — |
 | [chromedp Go Browser Automation with Chrome DevTools Protocol](../../skills/chromedp-go-browser-automation-chrome-devtools-protocol/) | 12.9k | — |
 | [SeleniumBase Python Browser Automation and Stealth Testing Framework](../../skills/seleniumbase-python-browser-automation-stealth-testing-framework/) | 12.6k | 20/wk |
 | [TestCafe Zero-Config End-to-End Browser Testing Framework](../../skills/testcafe-e2e-browser-testing/) | 9.9k | 209.8k/wk |
 | [WebdriverIO Next-Gen Browser and Mobile Automation Framework](../../skills/webdriverio-browser-mobile-automation-framework/) | 9.8k | 2.8M/wk |
+| [BackstopJS Visual Regression Testing Automation](../../skills/backstopjs-visual-regression-testing-automation/) | 7.1k | 70.9k/wk |
 | [Rod Go Chrome DevTools Protocol Driver for Web Automation](../../skills/rod-go-cdp-browser-automation/) | 6.8k | — |
+| [Steel Browser Open Source API for AI Agent Web Automation](../../skills/steel-browser-api-ai-agent-web-automation/) | 6.8k | — |
+| [Pa11y Accessibility Testing CLI and CI](../../skills/pa11y-accessibility-testing-cli-and-ci/) | 4.4k | 241.8k/wk |
 | [Browserable Self-Hostable Browser Automation for AI Agents](../../skills/browserable-self-hostable-browser-automation-ai-agents/) | 1.2k | 5/wk |
 | [Browserbase Session Automation API and SDK](../../skills/browserbase-session-automation-api-and-sdk/) | 61 | 787.9k/wk |
-| [Pa11y Accessibility Testing CLI and CI](../../skills/pa11y-accessibility-testing-cli-and-ci/) | — | 241.8k/wk |
-| [BackstopJS Visual Regression Testing Automation](../../skills/backstopjs-visual-regression-testing-automation/) | — | 70.9k/wk |
 | [Agent Browser Operator](../../skills/agent-browser-operator/) | — | — |
 | [Browser Session Replay Analyzer](../../skills/browser-session-replay-analyzer/) | — | — |
 | [CDP Network Interception Logger](../../skills/cdp-network-interception-logger/) | — | — |
@@ -64,11 +69,8 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Cypress Network Stub Generator](../../skills/cypress-network-stub-generator/) | — | — |
 | [Cypress Visual Regression Runner](../../skills/cypress-visual-regression-runner/) | — | — |
 | [Cypress Visual Regression Testing Suite](../../skills/cypress-visual-regression-testing-suite/) | — | — |
-| [Lightpanda Headless Browser for AI Automation](../../skills/lightpanda-headless-browser-ai-automation/) | — | — |
 | [Playwright Accessibility Audit Runner](../../skills/playwright-accessibility-audit-runner/) | — | — |
 | [Playwright Cross-Browser Test Runner](../../skills/playwright-cross-browser-test-runner/) | — | — |
-| [Playwright MCP Browser Automation](../../skills/playwright-mcp-browser-automation/) | — | — |
-| [Playwright MCP Server for Browser Automation](../../skills/playwright-mcp-server-browser-automation/) | — | — |
 | [Playwright Multi-Browser Test Generator](../../skills/playwright-multi-browser-test-generator/) | — | — |
 | [Playwright Multi-Browser Test Suite](../../skills/playwright-multi-browser-test-suite/) | — | — |
 | [Playwright Multi-Tab Session Manager](../../skills/playwright-multi-tab-session-manager-2/) | — | — |
@@ -99,8 +101,6 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Selenium Grid Session Manager](../../skills/selenium-grid-session-manager/) | — | — |
 | [Selenium Grid Session Router](../../skills/selenium-grid-session-router/) | — | — |
 | [Selenium Grid Test Orchestrator](../../skills/selenium-grid-test-orchestrator-2/) | — | — |
-| [Stagehand AI Browser Automation Framework](../../skills/stagehand-ai-browser-automation-framework/) | — | — |
-| [Steel Browser Open Source API for AI Agent Web Automation](../../skills/steel-browser-api-ai-agent-web-automation/) | — | — |
 
 ---
 

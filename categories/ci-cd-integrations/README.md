@@ -6,8 +6,11 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 
 | Skill | Stars |
 |---|---:|
+| [act Local GitHub Actions Runner](../../skills/act-local-github-actions-runner/) | ⭐ 69.7k |
+| [GoReleaser Cross-Platform Release Automation](../../skills/goreleaser-cross-platform-release-automation/) | ⭐ 15.7k |
 | [Dagger Programmable CI/CD Automation Engine](../../skills/dagger-programmable-cicd-automation-engine/) | ⭐ 15.6k |
 | [Woodpecker CI Self-Hosted Continuous Integration Engine](../../skills/woodpecker-ci-self-hosted-continuous-integration/) | ⭐ 6.7k |
+| [Harden-Runner CI/CD Security Agent for GitHub Actions](../../skills/harden-runner-cicd-security-agent-github-actions/) | ⭐ 1.1k |
 
 ---
 
@@ -15,9 +18,11 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
+| [act Local GitHub Actions Runner](../../skills/act-local-github-actions-runner/) | 69.7k | — |
+| [GoReleaser Cross-Platform Release Automation](../../skills/goreleaser-cross-platform-release-automation/) | 15.7k | — |
 | [Dagger Programmable CI/CD Automation Engine](../../skills/dagger-programmable-cicd-automation-engine/) | 15.6k | — |
 | [Woodpecker CI Self-Hosted Continuous Integration Engine](../../skills/woodpecker-ci-self-hosted-continuous-integration/) | 6.7k | — |
-| [act Local GitHub Actions Runner](../../skills/act-local-github-actions-runner/) | — | — |
+| [Harden-Runner CI/CD Security Agent for GitHub Actions](../../skills/harden-runner-cicd-security-agent-github-actions/) | 1.1k | — |
 | [Argo Workflows Deployer](../../skills/argo-workflows-deployer/) | — | — |
 | [Argo Workflows Linter](../../skills/argo-workflows-linter/) | — | — |
 | [ArgoCD Application Deployer](../../skills/argocd-application-deployer/) | — | — |
@@ -109,8 +114,6 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [GitLab Pipeline DAG Optimizer](../../skills/gitlab-pipeline-dag-optimizer/) | — | — |
 | [GitLab Pipeline Optimizer](../../skills/gitlab-pipeline-optimizer/) | — | — |
 | [GitLab Pipeline Orchestrator](../../skills/gitlab-pipeline-orchestrator/) | — | — |
-| [GoReleaser Cross-Platform Release Automation](../../skills/goreleaser-cross-platform-release-automation/) | — | — |
-| [Harden-Runner CI/CD Security Agent for GitHub Actions](../../skills/harden-runner-cicd-security-agent-github-actions/) | — | — |
 | [Helm Chart Diff &amp; Upgrade Manager](../../skills/helm-chart-diff-upgrade-manager/) | — | — |
 | [Hugging Face Model Deployer](../../skills/huggingface-model-deployer/) | — | — |
 | [Jenkins Declarative Pipeline Generator](../../skills/jenkins-declarative-pipeline-generator-2/) | — | — |

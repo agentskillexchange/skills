@@ -6,8 +6,16 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 
 | Skill | Stars |
 |---|---:|
+| [ShellCheck Shell Script Static Analyzer](../../skills/shellcheck-shell-script-static-analyzer/) | ⭐ 39.2k |
+| [Difftastic Structural Syntax-Aware Diff Tool](../../skills/difftastic-structural-syntax-diff/) | ⭐ 24.9k |
+| [commitlint Conventional Commit Message Linter](../../skills/commitlint-conventional-commit-message-linter/) | ⭐ 18.4k |
+| [ty Ultra-Fast Python Type Checker and Language Server](../../skills/ty-python-type-checker/) | ⭐ 18.1k |
+| [Vitest Next-Generation Vite-Powered Testing Framework](../../skills/vitest-vite-testing-framework/) | ⭐ 16.3k |
+| [tokei Code Statistics Counter](../../skills/tokei-code-statistics-counter/) | ⭐ 14.2k |
 | [Vale Prose Linter for Technical Documentation](../../skills/vale-prose-linter-technical-docs/) | ⭐ 5.3k |
+| [typos Source Code Spell Checker](../../skills/typos-source-code-spell-checker/) | ⭐ 3.9k |
 | [dprint Pluggable High-Performance Code Formatting Platform](../../skills/dprint-pluggable-code-formatter/) | ⭐ 3.9k |
+| [Polaris Kubernetes Best Practices Validator](../../skills/polaris-kubernetes-best-practices-validator/) | ⭐ 3.4k |
 
 ---
 
@@ -15,8 +23,8 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 
 | Skill | Downloads |
 |---|---:|
-| [dprint Pluggable High-Performance Code Formatting Platform](../../skills/dprint-pluggable-code-formatter/) | ⬇ 144.8k/wk |
 | [commitlint Conventional Commit Message Linter](../../skills/commitlint-conventional-commit-message-linter/) | ⬇ 575.3k/wk |
+| [dprint Pluggable High-Performance Code Formatting Platform](../../skills/dprint-pluggable-code-formatter/) | ⬇ 144.8k/wk |
 
 ---
 
@@ -24,9 +32,19 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
+| [ShellCheck Shell Script Static Analyzer](../../skills/shellcheck-shell-script-static-analyzer/) | 39.2k | — |
+| [Difftastic Structural Syntax-Aware Diff Tool](../../skills/difftastic-structural-syntax-diff/) | 24.9k | — |
+| [commitlint Conventional Commit Message Linter](../../skills/commitlint-conventional-commit-message-linter/) | 18.4k | 575.3k/wk |
+| [ty Ultra-Fast Python Type Checker and Language Server](../../skills/ty-python-type-checker/) | 18.1k | — |
+| [Vitest Next-Generation Vite-Powered Testing Framework](../../skills/vitest-vite-testing-framework/) | 16.3k | — |
+| [tokei Code Statistics Counter](../../skills/tokei-code-statistics-counter/) | 14.2k | — |
 | [Vale Prose Linter for Technical Documentation](../../skills/vale-prose-linter-technical-docs/) | 5.3k | — |
+| [typos Source Code Spell Checker](../../skills/typos-source-code-spell-checker/) | 3.9k | — |
 | [dprint Pluggable High-Performance Code Formatting Platform](../../skills/dprint-pluggable-code-formatter/) | 3.9k | 144.8k/wk |
-| [commitlint Conventional Commit Message Linter](../../skills/commitlint-conventional-commit-message-linter/) | — | 575.3k/wk |
+| [Polaris Kubernetes Best Practices Validator](../../skills/polaris-kubernetes-best-practices-validator/) | 3.4k | — |
+| [Spectral OpenAPI and AsyncAPI Linter](../../skills/spectral-openapi-asyncapi-linter/) | 3.1k | — |
+| [Testcontainers Node Throwaway Docker Integration Testing Library](../../skills/testcontainers-node-throwaway-docker-integration-testing/) | 2.5k | — |
+| [sqruff High-Performance SQL Linter and Formatter](../../skills/sqruff-sql-linter-formatter/) | 1.3k | — |
 | [ast-grep Structural Code Search and Rewrite](../../skills/ast-grep-structural-code-search-rewrite/) | — | — |
 | [CodeClimate Diff Analyzer](../../skills/codeclimate-diff-analyzer-2/) | — | — |
 | [CodeClimate Maintainability Tracker](../../skills/codeclimate-maintainability-tracker-7/) | — | — |
@@ -36,7 +54,6 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Codecov Coverage Tracker](../../skills/codecov-coverage-tracker-skill/) | — | — |
 | [Codecov Coverage Tracker Agent](../../skills/codecov-coverage-tracker-agent/) | — | — |
 | [Complexity Trend Tracker](../../skills/complexity-trend-tracker-agent/) | — | — |
-| [Difftastic Structural Syntax-Aware Diff Tool](../../skills/difftastic-structural-syntax-diff/) | — | — |
 | [Docker Build Cache Optimizer](../../skills/docker-build-cache-optimizer/) | — | — |
 | [ESLint Auto-Fix Agent](../../skills/eslint-auto-fix-agent/) | — | — |
 | [ESLint Auto-Fix Orchestrator](../../skills/eslint-autofix-orchestrator/) | — | — |
@@ -66,7 +83,6 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Oxlint High-Performance JavaScript Linter](../../skills/oxlint-high-performance-javascript-linter/) | — | — |
 | [PHPStan Static Analyzer Agent](../../skills/phpstan-static-analyzer-agent/) | — | — |
 | [Playwright Test Recorder](../../skills/playwright-test-recorder/) | — | — |
-| [Polaris Kubernetes Best Practices Validator](../../skills/polaris-kubernetes-best-practices-validator/) | — | — |
 | [Prettier Config Conflict Resolver](../../skills/prettier-config-conflict-resolver/) | — | — |
 | [Prettier Config Harmonizer](../../skills/prettier-config-harmonizer-2/) | — | — |
 | [Prettier Format Enforcement Bot](../../skills/prettier-format-enforcement-bot/) | — | — |
@@ -93,7 +109,6 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Semgrep SAST Scanner](../../skills/semgrep-sast-scanner-skill/) | — | — |
 | [Semgrep Security Review Agent](../../skills/semgrep-security-review-agent/) | — | — |
 | [Semgrep Security Scanner](../../skills/semgrep-security-scanner-2/) | — | — |
-| [ShellCheck Shell Script Static Analyzer](../../skills/shellcheck-shell-script-static-analyzer/) | — | — |
 | [SonarQube Analysis Agent](../../skills/sonarqube-analysis-agent/) | — | — |
 | [SonarQube Analysis Runner](../../skills/sonarqube-analysis-runner/) | — | — |
 | [SonarQube Code Quality Scanner](../../skills/sonarqube-code-quality-scanner/) | — | — |
@@ -107,15 +122,8 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [SonarQube Quality Gate Monitor](../../skills/sonarqube-quality-gate-monitor-3/) | — | — |
 | [SonarQube Rule Enforcement Agent](../../skills/sonarqube-rule-enforcement-agent/) | — | — |
 | [SonarQube Scanner Skill](../../skills/sonarqube-scanner-skill/) | — | — |
-| [Spectral OpenAPI and AsyncAPI Linter](../../skills/spectral-openapi-asyncapi-linter/) | — | — |
 | [SQLFluff SQL Linter and Auto-Formatter](../../skills/sqlfluff-sql-linter-auto-formatter/) | — | — |
-| [sqruff High-Performance SQL Linter and Formatter](../../skills/sqruff-sql-linter-formatter/) | — | — |
 | [Storybook Component Tester](../../skills/storybook-component-tester/) | — | — |
-| [Testcontainers Node Throwaway Docker Integration Testing Library](../../skills/testcontainers-node-throwaway-docker-integration-testing/) | — | — |
-| [tokei Code Statistics Counter](../../skills/tokei-code-statistics-counter/) | — | — |
-| [ty Ultra-Fast Python Type Checker and Language Server](../../skills/ty-python-type-checker/) | — | — |
-| [typos Source Code Spell Checker](../../skills/typos-source-code-spell-checker/) | — | — |
-| [Vitest Next-Generation Vite-Powered Testing Framework](../../skills/vitest-vite-testing-framework/) | — | — |
 
 ---
 
