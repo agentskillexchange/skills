@@ -72,6 +72,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [HubSpot MCP Server](../../skills/hubspot-mcp-server/) | — | — |
 | [Ingestr Cross-Database Data Copier](../../skills/ingestr-cross-database-data-copier/) | — | — |
 | [Linear Issue Triage &amp; Sprint Planner](../../skills/linear-issue-triage-sprint-planner-2/) | — | — |
+| [Logto Open Source Authentication and Authorization Infrastructure](../../skills/logto-open-source-auth-infrastructure/) | — | — |
 | [n8n Workflow Webhook Bridge](../../skills/n8n-workflow-webhook-bridge/) | — | — |
 | [Notion Database Sync &amp; Page Generator](../../skills/notion-database-sync-page-generator-2/) | — | — |
 | [Plaid Financial Data Connector](../../skills/plaid-financial-data-connector/) | — | — |

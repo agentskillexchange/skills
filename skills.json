@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1567,
+  "total": 1570,
   "generated": "2026-04-01",
   "skills": [
+    {
+      "slug": "supertokens-open-source-auth-platform",
+      "name": "SuperTokens Open Source Authentication Platform and Auth0 Alternative",
+      "description": "SuperTokens is an open-source authentication platform that serves as a self-hosted alternative to Auth0, Firebase Auth, and AWS Cognito. It provides passwordless login, social…",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "grapesjs-web-builder-template-framework",
+      "name": "GrapesJS Open Source Web Builder and Template Design Framework",
+      "description": "GrapesJS is a free, open-source web builder framework for creating HTML templates without coding. With 25K+ GitHub stars, it powers drag-and-drop page builders, newsletter…",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "logto-open-source-auth-infrastructure",
+      "name": "Logto Open Source Authentication and Authorization Infrastructure",
+      "description": "Logto is a modern, open-source authentication and authorization infrastructure built on OIDC and OAuth 2.1. It provides multi-tenancy, enterprise SSO, RBAC, and SDKs for…",
+      "category": [
+        "Integrations & Connectors"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "ollama-local-llm-runner-model-server",
       "name": "Ollama Local LLM Runner and Model Server",

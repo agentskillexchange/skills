@@ -114,6 +114,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [SSL Certificate Chain Validator](../../skills/ssl-certificate-chain-validator-2/) | — | — |
 | [SSL/TLS Certificate Validator and Monitor](../../skills/ssl-tls-certificate-validator-monitor/) | — | — |
 | [Stripe Webhook Signature Verifier](../../skills/stripe-webhook-signature-verifier/) | — | — |
+| [SuperTokens Open Source Authentication Platform and Auth0 Alternative](../../skills/supertokens-open-source-auth-platform/) | — | — |
 | [Terrascan Policy Scanner](../../skills/terrascan-policy-scanner/) | — | — |
 | [TLS Certificate Chain Analyzer](../../skills/tls-certificate-chain-analyzer/) | — | — |
 | [TLS Certificate Chain Validator](../../skills/tls-certificate-chain-validator/) | — | — |

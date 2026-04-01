@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1567 published skills** across **17 categories** · 1532 security reviewed · Updated 2026-04-01 19:28 UTC
+> **1570 published skills** across **17 categories** · 1532 security reviewed · Updated 2026-04-01 21:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -603,7 +603,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Terraform State Surgery Kit](skills/terraform-state-surgery-kit/) | Performs safe Terraform state operations using the terraform CLI state subcommands and the Terraform Cloud API.… | Security Reviewed | — | — |
 
 
-### 🔒 Security & Verification (104 skills)
+### 🔒 Security & Verification (105 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -700,6 +700,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [SSL Certificate Chain Validator](skills/ssl-certificate-chain-validator-2/) | Performs deep TLS certificate chain validation using OpenSSL and Certificate Transparency logs. Monitors expiration… | Security Reviewed | — | — |
 | [SSL/TLS Certificate Validator and Monitor](skills/ssl-tls-certificate-validator-monitor/) | Validates SSL/TLS certificates using OpenSSL s_client, checks OCSP stapling status, and monitors expiry dates.… | Security Reviewed | — | — |
 | [Stripe Webhook Signature Verifier](skills/stripe-webhook-signature-verifier/) | Verifies Stripe webhook payload signatures using the Stripe.js SDK and the stripe.webhooks.constructEvent method.… | Security Reviewed | — | — |
+| [SuperTokens Open Source Authentication Platform and Auth0 Alternative](skills/supertokens-open-source-auth-platform/) | SuperTokens is an open-source authentication platform that serves as a self-hosted alternative to Auth0, Firebase… | Published | — | — |
 | [Terrascan Policy Scanner](skills/terrascan-policy-scanner/) | Terrascan Policy Scanner is built around Kubernetes orchestration platform. The underlying ecosystem is represented… | Security Reviewed | — | — |
 | [TLS Certificate Chain Analyzer](skills/tls-certificate-chain-analyzer/) | Analyzes TLS certificate chains using OpenSSL s_client and the crt.sh Certificate Transparency API. Detects weak… | Security Reviewed | — | — |
 | [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates… | Security Reviewed | — | — |
@@ -1339,7 +1340,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Shodan Network Reconnaissance Agent](skills/shodan-network-reconnaissance-agent/) | Performs network reconnaissance using the Shodan REST API and Shodan InternetDB. Discovers exposed services, CVE… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (67 skills)
+### 📄 Templates & Workflows (68 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -1374,6 +1375,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Docker Compose Test Harness](skills/docker-compose-test-harness/) | Scaffolds integration test environments using Docker Compose v2 CLI, testcontainers-python library, and the… | Security Reviewed | — | — |
 | [Fly.io Deployment Helper](skills/fly-io-deployment-helper/) | Fly.io Deployment Helper is built around GraphQL API ecosystem. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 | [GitHub Actions Workflow Composer](skills/github-actions-workflow-composer-2/) | Composes GitHub Actions workflow YAML files from modular job templates, resolving action version pins and secret… | Security Reviewed | — | — |
+| [GrapesJS Open Source Web Builder and Template Design Framework](skills/grapesjs-web-builder-template-framework/) | GrapesJS is a free, open-source web builder framework for creating HTML templates without coding. With 25K+ GitHub… | Published | — | — |
 | [Helm Chart Boilerplate Builder](skills/helm-chart-boilerplate-builder/) | Scaffolds Kubernetes Helm charts with values.yaml templating, ingress configuration, and HPA definitions. Uses… | Security Reviewed | — | — |
 | [Helm Chart Template Scaffolder](skills/helm-chart-template-scaffolder/) | Scaffolds Helm 3 chart templates with Go templating best practices. Uses helm-unittest for test generation and… | Security Reviewed | — | — |
 | [Helm Chart Templater](skills/helm-chart-templater/) | Generates and validates Kubernetes Helm charts using helm template and helm lint APIs. Supports values schema… | Security Reviewed | — | — |
@@ -1414,7 +1416,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Yeoman Workflow Orchestrator](skills/yeoman-workflow-orchestrator/) | Orchestrates Yeoman generator workflows with composable sub-generators and mem-fs-editor file transformations.… | Security Reviewed | — | — |
 
 
-### 🔗 Integrations & Connectors (67 skills)
+### 🔗 Integrations & Connectors (68 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
 
@@ -1458,6 +1460,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [HubSpot MCP Server](skills/hubspot-mcp-server/) | HubSpot MCP Server is built around HubSpot CRM and marketing APIs. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 | [Ingestr Cross-Database Data Copier](skills/ingestr-cross-database-data-copier/) | Copy data between any databases with a single CLI command using Ingestr. Supports 50+ sources and destinations… | Security Reviewed | — | — |
 | [Linear Issue Triage & Sprint Planner](skills/linear-issue-triage-sprint-planner-2/) | Queries the Linear GraphQL API to list open issues by team, priority, and cycle, then applies configurable triage… | Security Reviewed | — | — |
+| [Logto Open Source Authentication and Authorization Infrastructure](skills/logto-open-source-auth-infrastructure/) | Logto is a modern, open-source authentication and authorization infrastructure built on OIDC and OAuth 2.1. It… | Published | — | — |
 | [n8n Workflow Webhook Bridge](skills/n8n-workflow-webhook-bridge/) | Builds integration handoffs around n8n primitives like the Webhook node, HTTP Request node, and execution data… | Security Reviewed | — | — |
 | [Notion Database Sync & Page Generator](skills/notion-database-sync-page-generator-2/) | Reads from and writes to Notion databases using the official Notion API v1, supporting filtered queries, property… | Security Reviewed | — | — |
 | [Plaid Financial Data Connector](skills/plaid-financial-data-connector/) | Connects to bank accounts via Plaid Link SDK and retrieves transaction data using the Plaid Transactions API.… | Security Reviewed | — | — |
