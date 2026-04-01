@@ -89,7 +89,6 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Bazel Build Graph Analyzer](../../skills/bazel-build-graph-analyzer/) | — | — |
 | [Biome Lint Migration Toolkit](../../skills/biome-lint-migration-toolkit/) | — | — |
 | [Bruno Git-Native API Client for Testing and Exploration](../../skills/bruno-git-native-api-client-testing-exploration/) | — | — |
-| [Bun All-in-One JavaScript Runtime Bundler and Package Manager](../../skills/bun-all-in-one-javascript-runtime-bundler-package-manager/) | — | — |
 | [Bun Shell Script Executor](../../skills/bun-shell-script-executor/) | — | — |
 | [Caddy Automatic HTTPS Web Server and Reverse Proxy](../../skills/caddy-automatic-https-web-server-reverse-proxy/) | — | — |
 | [Changesets Version and Changelog Manager](../../skills/changesets-version-changelog-manager/) | — | — |
@@ -161,6 +160,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Meilisearch MCP Server for AI-Powered Search Integration](../../skills/meilisearch-mcp-server-ai-search/) | — | — |
 | [Mise Dev Tool Version Manager](../../skills/mise-dev-tool-version-manager/) | — | — |
 | [mkcert Zero-Config Local Development TLS Certificate Generator](../../skills/mkcert-local-dev-tls-certificate-generator/) | — | — |
+| [Mockoon Local Mock API Server and CLI for API Development](../../skills/mockoon-mock-api-server-cli/) | — | — |
 | [MongoDB MCP Server](../../skills/mongodb-mcp-server/) | — | — |
 | [MySQL Query Agent](../../skills/mysql-query-agent/) | — | — |
 | [n8n GitHub Issue-to-Jira Ticket Automator](../../skills/n8n-github-jira-ticket-automator/) | — | — |
@@ -171,7 +171,6 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Notion Workspace Agent](../../skills/notion-workspace-agent/) | — | — |
 | [NPM Package Auditor](../../skills/npm-package-auditor-registry-api/) | — | — |
 | [Obsidian Vault Manager](../../skills/obsidian-vault-manager/) | — | — |
-| [Ollama Local Large Language Model Runner and Serving Platform](../../skills/ollama-local-llm-runner-2/) | — | — |
 | [OpenAI Agents SDK Multi-Agent Workflow Framework for Python](../../skills/openai-agents-sdk-python-multi-agent/) | — | — |
 | [OpenAI MCP Server](../../skills/openai-mcp-server/) | — | — |
 | [OpenAPI Spec Validator](../../skills/openapi-spec-validator-agent/) | — | — |

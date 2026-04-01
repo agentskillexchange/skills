@@ -4,6 +4,42 @@
   "generated": "2026-04-01",
   "skills": [
     {
+      "slug": "mockoon-mock-api-server-cli",
+      "name": "Mockoon Local Mock API Server and CLI for API Development",
+      "description": "Mockoon is the fastest way to run mock REST APIs locally. It provides a desktop application and a CLI for creating mock API servers…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "satori-html-css-svg-image-generator",
+      "name": "Satori HTML and CSS to SVG Image Generator by Vercel",
+      "description": "Satori is a high-performance library by Vercel that converts HTML and CSS markup into SVG images. It powers Open Graph image generation for dynamic…",
+      "category": [
+        "Image & Creative Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "keybert-keyword-extraction-bert",
+      "name": "KeyBERT Minimal Keyword Extraction with BERT Embeddings",
+      "description": "KeyBERT is a minimal and easy-to-use Python library that leverages BERT embeddings and cosine similarity to extract keywords and keyphrases from documents. It supports…",
+      "category": [
+        "Content Writing & SEO"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
+    {
       "slug": "plane-open-source-project-management",
       "name": "Plane Open Source Project Management Platform",
       "description": "Plane is an open-source project management platform that serves as a self-hostable alternative to Jira, Linear, and ClickUp. It provides issue tracking, sprint cycles,…",
@@ -13,7 +49,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "chartdb-database-schema-visualization",
@@ -25,7 +61,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "penpot-open-source-design-prototyping",
@@ -37,7 +73,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "effect-typescript-standard-library-production",
@@ -49,7 +85,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "nitro-universal-server-toolkit-unjs",
@@ -61,7 +97,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "orama-embeddable-search-engine-rag-pipeline",
@@ -73,7 +109,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "skopeo-container-image-registry-operations-cli",
@@ -85,7 +121,7 @@
       "framework": [
         "Custom Agents"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "wrangler-cloudflare-workers-cli-edge-deployment",
@@ -97,7 +133,7 @@
       "framework": [
         "Custom Agents"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "hono-ultrafast-web-framework-web-standards",
@@ -109,7 +145,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "pglite-embeddable-wasm-postgres",
@@ -121,7 +157,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "rspack-rust-based-javascript-bundler",
@@ -133,7 +169,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "marp-cli-markdown-presentation-converter",
@@ -145,7 +181,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "minio-s3-compatible-object-storage",
@@ -157,7 +193,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "traefik-cloud-native-reverse-proxy",
@@ -169,7 +205,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "vitest-vite-testing-framework",
@@ -181,7 +217,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "inngest-event-driven-durable-workflow-orchestration",
@@ -193,19 +229,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
-    },
-    {
-      "slug": "hatchet-distributed-background-task-workflow-engine",
-      "name": "Hatchet Distributed Background Task and Workflow Engine",
-      "description": "Hatchet is an open-source platform for running background tasks and durable workflows at scale, built on Postgres. It provides a task queue, DAG-based workflow…",
-      "category": [
-        "Templates & Workflows"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "chafa-terminal-image-graphics-renderer",
@@ -217,7 +241,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "testcontainers-node-throwaway-docker-integration-testing",
@@ -225,18 +249,6 @@
       "description": "Testcontainers for Node.js is a library that provides lightweight, throwaway instances of databases, message brokers, browsers, and other services as Docker containers for integration…",
       "category": [
         "Code Quality & Review"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
-      "verification": "listed"
-    },
-    {
-      "slug": "bun-all-in-one-javascript-runtime-bundler-package-manager",
-      "name": "Bun All-in-One JavaScript Runtime Bundler and Package Manager",
-      "description": "Bun is an all-in-one toolkit for JavaScript and TypeScript apps that ships as a single executable. It includes a fast JavaScript runtime (Node.js-compatible), bundler,…",
-      "category": [
-        "Developer Tools"
       ],
       "framework": [
         "Multi-Framework"
@@ -253,7 +265,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "aichat-llm-cli-shell-assistant-rag",
@@ -265,7 +277,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "whisper-cpp-speech-recognition-engine",
@@ -277,19 +289,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
-    },
-    {
-      "slug": "ollama-local-llm-runner-2",
-      "name": "Ollama Local Large Language Model Runner and Serving Platform",
-      "description": "Ollama makes it simple to run large language models locally on your machine. It provides a command-line interface and REST API to download, run,…",
-      "category": [
-        "Developer Tools"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "openai-agents-sdk-python-multi-agent",
@@ -301,7 +301,7 @@
       "framework": [
         "ChatGPT Agents"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "temporal-durable-execution-workflow-platform",
@@ -313,7 +313,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "livekit-realtime-webrtc-server",
@@ -325,7 +325,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "kokoro-fastapi-openai-compatible-text-to-speech-server",
@@ -337,7 +337,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "gitingest-repository-to-prompt-codebase-extraction-tool",
@@ -349,7 +349,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "healthchecks-io-cron-job-monitoring-alerting-platform",
@@ -361,7 +361,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "unstructured-document-partitioning-etl-library-llm-pipelines",
@@ -373,7 +373,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
         "tool": "unstructured",
         "github_stars": 14355,
@@ -390,7 +390,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
         "tool": "browsertrix-crawler",
         "github_stars": 1009,
@@ -407,7 +407,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
         "tool": "seleniumbase",
         "github_stars": 12552,

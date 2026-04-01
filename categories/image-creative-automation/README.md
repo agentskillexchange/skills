@@ -81,6 +81,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Rive Runtime Animation Controller](../../skills/rive-runtime-animation-controller/) | — | — |
 | [RunPod Serverless GPU Inference](../../skills/runpod-serverless-gpu-inference/) | — | — |
 | [RunwayML Gen-3 Alpha Video Composer](../../skills/runwayml-gen-3-alpha-video-composer/) | — | — |
+| [Satori HTML and CSS to SVG Image Generator by Vercel](../../skills/satori-html-css-svg-image-generator/) | — | — |
 | [Sharp Image CDN Optimizer](../../skills/sharp-image-cdn-optimizer/) | — | — |
 | [Sharp Image Pipeline Processor](../../skills/sharp-image-pipeline-processor-2/) | — | — |
 | [Sharp Image Pipeline Skill](../../skills/sharp-image-pipeline-skill/) | — | — |

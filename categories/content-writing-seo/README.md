@@ -71,6 +71,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [Internal Link Graph Optimizer](../../skills/internal-link-graph-optimizer/) | — | — |
 | [Internal Link Optimizer](../../skills/internal-link-optimizer-seo/) | — | — |
 | [Jasper AI Long-Form Blog Post Generator](../../skills/jasper-longform-blog-generator/) | — | — |
+| [KeyBERT Minimal Keyword Extraction with BERT Embeddings](../../skills/keybert-keyword-extraction-bert/) | — | — |
 | [Keyword Cannibalization Detector](../../skills/keyword-cannibalization-detector/) | — | — |
 | [Keyword Cluster Generator](../../skills/keyword-cluster-generator-agent/) | — | — |
 | [Markdown-to-AMP Article Converter](../../skills/markdown-to-amp-article-converter/) | — | — |
