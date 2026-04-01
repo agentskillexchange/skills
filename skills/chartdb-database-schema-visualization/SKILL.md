@@ -2,28 +2,45 @@
 name: "ChartDB Database Schema Visualization and Diagram Editor"
 description: "ChartDB is a web-based database diagramming editor that instantly visualizes your schema from a single SQL query. It supports AI-powered DDL export for cross-database migration, interactive schema editing, and works entirely in the browser with no account required."
 category: "Developer Tools"
-source: "https://github.com/chartdb/chartdb"
+framework: "Multi-Framework"
 verification: "listed"
+source: "https://github.com/chartdb/chartdb"
 ---
-
 # ChartDB Database Schema Visualization and Diagram Editor
 
 ChartDB is a web-based database diagramming editor that instantly visualizes your schema from a single SQL query. It supports AI-powered DDL export for cross-database migration, interactive schema editing, and works entirely in the browser with no account required.
 
 ## Installation
 
-Install this skill using one of these methods:
+### Any Agent
 
-### ClawHub (recommended)
+```bash
+npx skills add agentskillexchange/skills --skill chartdb-database-schema-visualization
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill chartdb-database-schema-visualization -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill chartdb-database-schema-visualization -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill chartdb-database-schema-visualization -a codex
+```
+
+### OpenClaw
+
 ```bash
 clawhub install chartdb-database-schema-visualization
 ```
-
-### OpenClaw Chat
-Ask your assistant: *"Install the ChartDB Database Schema Visualization and Diagram Editor skill"*
-
-### Manual Install
-Download the SKILL.md file and place it in your OpenClaw skills directory.
 
 ## Source
 

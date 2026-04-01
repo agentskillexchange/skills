@@ -1,35 +1,46 @@
 ---
 name: "MinIO High-Performance S3-Compatible Object Storage Server"
+description: "MinIO is a high-performance, S3-compatible object storage server. It can run standalone or distributed, providing enterprise-grade storage with a familiar AWS S3 API for seamless integration with existing tools and SDKs."
 category: "Integrations & Connectors"
 framework: "Multi-Framework"
-verification: listed
+verification: "listed"
 source: "https://github.com/minio/minio"
 ---
-
 # MinIO High-Performance S3-Compatible Object Storage Server
 
 MinIO is a high-performance, S3-compatible object storage server. It can run standalone or distributed, providing enterprise-grade storage with a familiar AWS S3 API for seamless integration with existing tools and SDKs.
 
 ## Installation
 
-Install this skill using one of these methods:
+### Any Agent
 
-### Claude Desktop (MCP)
-Add to your Claude Desktop MCP configuration.
+```bash
+npx skills add agentskillexchange/skills --skill minio-s3-compatible-object-storage
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill minio-s3-compatible-object-storage -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill minio-s3-compatible-object-storage -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill minio-s3-compatible-object-storage -a codex
+```
 
 ### OpenClaw
+
 ```bash
 clawhub install minio-s3-compatible-object-storage
 ```
-
-### Cursor / Windsurf
-Add to your IDE agent skills configuration.
-
-### ChatGPT / Custom GPT
-Import the skill definition into your GPT configuration.
-
-### Manual Installation
-Download and configure the skill files manually.
 
 ## Source
 

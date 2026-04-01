@@ -1,36 +1,46 @@
 ---
 name: "Hono Ultrafast Web Framework Built on Web Standards"
+description: "Hono is a small, simple, and ultrafast web framework built on Web Standards. It runs on any JavaScript runtime including Cloudflare Workers, Deno, Bun, Vercel, AWS Lambda, and Node.js, making it ideal for building portable edge-first APIs and web applications."
 category: "Developer Tools"
+framework: "Multi-Framework"
 verification: "listed"
 source: "https://github.com/honojs/hono"
 ---
-
 # Hono Ultrafast Web Framework Built on Web Standards
 
 Hono is a small, simple, and ultrafast web framework built on Web Standards. It runs on any JavaScript runtime including Cloudflare Workers, Deno, Bun, Vercel, AWS Lambda, and Node.js, making it ideal for building portable edge-first APIs and web applications.
 
 ## Installation
 
-Install this skill using one of these methods:
+### Any Agent
 
-### ClawHub (Recommended)
+```bash
+npx skills add agentskillexchange/skills --skill hono-ultrafast-web-framework-web-standards
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill hono-ultrafast-web-framework-web-standards -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill hono-ultrafast-web-framework-web-standards -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill hono-ultrafast-web-framework-web-standards -a codex
+```
+
+### OpenClaw
+
 ```bash
 clawhub install hono-ultrafast-web-framework-web-standards
 ```
-
-### OpenClaw CLI
-```bash
-openclaw skills install hono-ultrafast-web-framework-web-standards
-```
-
-### Claude Desktop (MCP)
-Add the skill server to your Claude Desktop configuration for `hono-ultrafast-web-framework-web-standards`.
-
-### Cursor / Windsurf
-Add `hono-ultrafast-web-framework-web-standards` to your IDE agent skills configuration.
-
-### Manual
-Download the SKILL.md file and add it to your agent's skills directory.
 
 ## Source
 

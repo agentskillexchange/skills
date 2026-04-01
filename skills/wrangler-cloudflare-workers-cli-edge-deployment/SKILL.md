@@ -1,36 +1,46 @@
 ---
 name: "Wrangler Cloudflare Workers CLI for Edge Deployment"
+description: "Wrangler is the official command-line tool for building, testing, and deploying Cloudflare Workers. It provides a complete development workflow for serverless edge applications including local development with Miniflare, KV/R2/D1 bindings, and zero-config deployment to Cloudflare global network."
 category: "Developer Tools"
+framework: "Multi-Framework"
 verification: "listed"
 source: "https://github.com/cloudflare/workers-sdk"
 ---
-
 # Wrangler Cloudflare Workers CLI for Edge Deployment
 
 Wrangler is the official command-line tool for building, testing, and deploying Cloudflare Workers. It provides a complete development workflow for serverless edge applications including local development with Miniflare, KV/R2/D1 bindings, and zero-config deployment to Cloudflare global network.
 
 ## Installation
 
-Install this skill using one of these methods:
+### Any Agent
 
-### ClawHub (Recommended)
+```bash
+npx skills add agentskillexchange/skills --skill wrangler-cloudflare-workers-cli-edge-deployment
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill wrangler-cloudflare-workers-cli-edge-deployment -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill wrangler-cloudflare-workers-cli-edge-deployment -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill wrangler-cloudflare-workers-cli-edge-deployment -a codex
+```
+
+### OpenClaw
+
 ```bash
 clawhub install wrangler-cloudflare-workers-cli-edge-deployment
 ```
-
-### OpenClaw CLI
-```bash
-openclaw skills install wrangler-cloudflare-workers-cli-edge-deployment
-```
-
-### Claude Desktop (MCP)
-Add the skill server to your Claude Desktop configuration for `wrangler-cloudflare-workers-cli-edge-deployment`.
-
-### Cursor / Windsurf
-Add `wrangler-cloudflare-workers-cli-edge-deployment` to your IDE agent skills configuration.
-
-### Manual
-Download the SKILL.md file and add it to your agent's skills directory.
 
 ## Source
 

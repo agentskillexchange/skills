@@ -2,28 +2,45 @@
 name: "Nitro Next-Generation Universal Server Toolkit by UnJS"
 description: "Nitro is a universal server framework from the UnJS ecosystem that lets you build and deploy web servers to any JavaScript runtime — Node.js, Deno, Bun, Cloudflare Workers, Vercel, or Netlify — from a single codebase with automatic code-splitting and tree-shaking."
 category: "Developer Tools"
-source: "https://github.com/nitrojs/nitro"
+framework: "Multi-Framework"
 verification: "listed"
+source: "https://github.com/nitrojs/nitro"
 ---
-
 # Nitro Next-Generation Universal Server Toolkit by UnJS
 
 Nitro is a universal server framework from the UnJS ecosystem that lets you build and deploy web servers to any JavaScript runtime — Node.js, Deno, Bun, Cloudflare Workers, Vercel, or Netlify — from a single codebase with automatic code-splitting and tree-shaking.
 
 ## Installation
 
-Install this skill using one of these methods:
+### Any Agent
 
-### ClawHub (recommended)
+```bash
+npx skills add agentskillexchange/skills --skill nitro-universal-server-toolkit-unjs
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill nitro-universal-server-toolkit-unjs -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill nitro-universal-server-toolkit-unjs -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill nitro-universal-server-toolkit-unjs -a codex
+```
+
+### OpenClaw
+
 ```bash
 clawhub install nitro-universal-server-toolkit-unjs
 ```
-
-### OpenClaw Chat
-Ask your assistant: *"Install the Nitro Next-Generation Universal Server Toolkit by UnJS skill"*
-
-### Manual Install
-Download the SKILL.md file and place it in your OpenClaw skills directory.
 
 ## Source
 
