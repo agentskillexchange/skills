@@ -53,6 +53,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Composio Agent Tool Integration Platform](../../skills/composio-agent-tool-integration-platform/) | — | — |
 | [Datadog Integration Connector](../../skills/datadog-integration-connector-agent/) | — | — |
 | [Docker MCP Server for Container Lifecycle Management](../../skills/docker-mcp-server-container-lifecycle-management/) | — | — |
+| [Flagsmith Open Source Feature Flag and Remote Config Platform](../../skills/flagsmith-feature-flag-remote-config/) | — | — |
 | [GitHub Discussions Community Digest](../../skills/github-discussions-community-digest/) | — | — |
 | [HubSpot CRM Contact Enrichment Pipeline](../../skills/hubspot-crm-contact-enrichment-pipeline/) | — | — |
 | [HubSpot MCP Server](../../skills/hubspot-mcp-server/) | — | — |

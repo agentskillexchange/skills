@@ -46,6 +46,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Atlassian Rovo MCP Server](../../skills/atlassian-rovo-mcp-server/) | — | — |
 | [Cal.com Open Source Scheduling Infrastructure and API](../../skills/cal-com-open-source-scheduling-infrastructure-api/) | — | — |
 | [Discord Bot Manager](../../skills/discord-bot-manager/) | — | — |
+| [Documenso Open Source Document Signing Platform](../../skills/documenso-open-source-document-signing/) | — | — |
 | [Gmail API Thread Label Triage](../../skills/gmail-api-thread-label-triage/) | — | — |
 | [Gmail Thread Summarizer and Action Extractor](../../skills/gmail-thread-summarizer-action-extractor/) | — | — |
 | [Google Calendar Conflict Detector](../../skills/google-calendar-conflict-detector/) | — | — |
@@ -86,6 +87,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Outlook Mail Triage Skill](../../skills/outlook-mail-triage-microsoft-graph/) | — | — |
 | [Outlook Rule Automation Manager](../../skills/outlook-rule-automation-manager/) | — | — |
 | [Plane Open Source Project Management Platform](../../skills/plane-open-source-project-management/) | — | — |
+| [Plunk Open Source Transactional Email Platform on AWS SES](../../skills/plunk-open-source-email-platform-aws-ses/) | — | — |
 | [Slack Channel Summarizer](../../skills/slack-channel-summarizer-bolt-sdk/) | — | — |
 | [Slack Digest and Task Router](../../skills/slack-digest-and-task-router/) | — | — |
 | [Slack MCP Server](../../skills/slack-mcp-server/) | — | — |

@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1558,
+  "total": 1561,
   "generated": "2026-04-01",
   "skills": [
+    {
+      "slug": "plunk-open-source-email-platform-aws-ses",
+      "name": "Plunk Open Source Transactional Email Platform on AWS SES",
+      "description": "Plunk is an open-source email platform built on AWS SES for sending transactional emails, creating event-driven automations, and broadcasting newsletters. It serves as a…",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "documenso-open-source-document-signing",
+      "name": "Documenso Open Source Document Signing Platform",
+      "description": "Documenso is an open-source digital document signing platform and DocuSign alternative. It enables secure electronic signatures with self-hosting capabilities, providing transparent and trustworthy document…",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "flagsmith-feature-flag-remote-config",
+      "name": "Flagsmith Open Source Feature Flag and Remote Config Platform",
+      "description": "Flagsmith is an open-source feature flagging and remote configuration platform. It enables teams to safely roll out features, run A/B tests, and manage remote…",
+      "category": [
+        "Integrations & Connectors"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "recon-ng-web-reconnaissance-framework",
       "name": "Recon-ng Modular Web Reconnaissance Framework for OSINT",

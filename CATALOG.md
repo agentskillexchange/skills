@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1558 published skills** across **17 categories** · 1532 security reviewed · Updated 2026-04-01 13:29 UTC
+> **1561 published skills** across **17 categories** · 1532 security reviewed · Updated 2026-04-01 15:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1012,7 +1012,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Uptime Robot Status Page Webhook Alerter](skills/uptime-robot-status-page-webhook-alerter/) | Integrates with the Uptime Robot API to monitor status page changes and push webhook alerts to Slack or PagerDuty.… | Security Reviewed | — | — |
 
 
-### 📅 Calendar, Email & Productivity (78 skills)
+### 📅 Calendar, Email & Productivity (80 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=downloads)
 
@@ -1041,6 +1041,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Atlassian Rovo MCP Server](skills/atlassian-rovo-mcp-server/) | The Atlassian Rovo MCP Server bridges your Atlassian Cloud workspace with any MCP-compatible client. Search and… | Security Reviewed | — | — |
 | [Cal.com Open Source Scheduling Infrastructure and API](skills/cal-com-open-source-scheduling-infrastructure-api/) | Integrate Cal.com's open-source scheduling platform into AI agent workflows. Agents can programmatically create… | Security Reviewed | — | — |
 | [Discord Bot Manager](skills/discord-bot-manager/) | Discord Bot Manager is built around Discord bot and moderation platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
+| [Documenso Open Source Document Signing Platform](skills/documenso-open-source-document-signing/) | Documenso is an open-source digital document signing platform and DocuSign alternative. It enables secure electronic… | Published | — | — |
 | [Gmail API Thread Label Triage](skills/gmail-api-thread-label-triage/) | Triage inbox backlog with the Gmail API’s `users.threads`, `users.messages`, and `users.labels` methods so agents… | Security Reviewed | — | — |
 | [Gmail Thread Summarizer and Action Extractor](skills/gmail-thread-summarizer-action-extractor/) | Fetches Gmail threads via the Gmail API (users.threads.get), extracts full message content, and produces a… | Security Reviewed | — | — |
 | [Google Calendar Conflict Detector](skills/google-calendar-conflict-detector/) | Detects scheduling conflicts across multiple Google Calendars using the Google Calendar API v3 and the freebusy… | Security Reviewed | — | — |
@@ -1081,6 +1082,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Outlook Mail Triage Skill](skills/outlook-mail-triage-microsoft-graph/) | Triages Outlook inboxes using Microsoft Graph API v1.0 with delta query support for incremental mail sync. Applies… | Security Reviewed | — | — |
 | [Outlook Rule Automation Manager](skills/outlook-rule-automation-manager/) | Creates and manages Outlook email rules programmatically using the Microsoft Graph API… | Security Reviewed | — | — |
 | [Plane Open Source Project Management Platform](skills/plane-open-source-project-management/) | Plane is an open-source project management platform that serves as a self-hostable alternative to Jira, Linear, and… | Security Reviewed | — | — |
+| [Plunk Open Source Transactional Email Platform on AWS SES](skills/plunk-open-source-email-platform-aws-ses/) | Plunk is an open-source email platform built on AWS SES for sending transactional emails, creating event-driven… | Published | — | — |
 | [Slack Channel Summarizer](skills/slack-channel-summarizer-bolt-sdk/) | Generates channel summaries using Slack Bolt SDK with conversations.history and conversations.replies endpoints.… | Security Reviewed | — | — |
 | [Slack Digest and Task Router](skills/slack-digest-and-task-router/) | Reads unread Slack messages from specified channels using the conversations.history API, extracts action items and… | Security Reviewed | — | — |
 | [Slack MCP Server](skills/slack-mcp-server/) | Agent access to Slack conversations and workspace workflows. | Security Reviewed | — | — |
@@ -1406,7 +1408,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Yeoman Workflow Orchestrator](skills/yeoman-workflow-orchestrator/) | Orchestrates Yeoman generator workflows with composable sub-generators and mem-fs-editor file transformations.… | Security Reviewed | — | — |
 
 
-### 🔗 Integrations & Connectors (66 skills)
+### 🔗 Integrations & Connectors (67 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
 
@@ -1433,6 +1435,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Composio Agent Tool Integration Platform](skills/composio-agent-tool-integration-platform/) | Composio provides 1000+ pre-built toolkits with managed authentication, context management, and sandboxed execution… | Security Reviewed | — | — |
 | [Datadog Integration Connector](skills/datadog-integration-connector-agent/) | Connects applications to Datadog monitoring using the Datadog API v2 for metrics submission, log forwarding, APM… | Security Reviewed | — | — |
 | [Docker MCP Server for Container Lifecycle Management](skills/docker-mcp-server-container-lifecycle-management/) | An MCP server that enables AI agents to manage Docker containers, images, volumes, and networks through natural… | Security Reviewed | — | — |
+| [Flagsmith Open Source Feature Flag and Remote Config Platform](skills/flagsmith-feature-flag-remote-config/) | Flagsmith is an open-source feature flagging and remote configuration platform. It enables teams to safely roll out… | Published | — | — |
 | [GitHub Discussions Community Digest](skills/github-discussions-community-digest/) | Queries GitHub GraphQL API for new and unanswered Discussions, ranks them by reaction count and recency, and drafts… | Security Reviewed | — | — |
 | [HubSpot CRM Contact Enrichment Pipeline](skills/hubspot-crm-contact-enrichment-pipeline/) | Enriches HubSpot CRM contacts using the v3 Contacts API with batch read/update operations. Cross-references company… | Security Reviewed | — | — |
 | [HubSpot MCP Server](skills/hubspot-mcp-server/) | HubSpot MCP Server is built around HubSpot CRM and marketing APIs. The underlying ecosystem is represented by… | Security Reviewed | — | — |
