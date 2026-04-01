@@ -66,6 +66,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Maigret OSINT Username Profiler Across 3000+ Sites](../../skills/maigret-osint-username-profiler/) | — | — |
 | [OSINT Domain Intelligence Scanner](../../skills/osint-domain-intelligence-scanner/) | — | — |
 | [Patent Landscape Analyzer](../../skills/patent-landscape-analyzer/) | — | — |
+| [Photon High-Speed OSINT Web Crawler and Data Extractor](../../skills/photon-osint-web-crawler/) | — | — |
 | [Playwright Network Interceptor](../../skills/playwright-network-interceptor/) | — | — |
 | [Playwright Page Data Extractor](../../skills/playwright-page-data-extractor/) | — | — |
 | [Playwright Test Generator with Codegen](../../skills/playwright-test-generator-codegen/) | — | — |
@@ -75,6 +76,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Puppeteer Stealth Web Scraper](../../skills/puppeteer-stealth-web-scraper/) | — | — |
 | [Puppeteer Web Scraper](../../skills/puppeteer-web-scraper/) | — | — |
 | [PuppeteerSharp Web Scraping Pipeline](../../skills/puppeteersharp-web-scraping-pipeline/) | — | — |
+| [Recon-ng Modular Web Reconnaissance Framework for OSINT](../../skills/recon-ng-web-reconnaissance-framework/) | — | — |
 | [ScrapingBee API Data Harvester](../../skills/scrapingbee-api-data-harvester/) | — | — |
 | [Scrapling Adaptive Web Scraping Framework](../../skills/scrapling-adaptive-web-scraping-framework/) | — | — |
 | [Scrapy Distributed Crawler Framework](../../skills/scrapy-distributed-crawler-framework/) | — | — |

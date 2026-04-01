@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1555 published skills** across **17 categories** · 1532 security reviewed · Updated 2026-04-01 11:27 UTC
+> **1558 published skills** across **17 categories** · 1532 security reviewed · Updated 2026-04-01 13:29 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -597,7 +597,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Terraform State Surgery Kit](skills/terraform-state-surgery-kit/) | Performs safe Terraform state operations using the terraform CLI state subcommands and the Terraform Cloud API.… | Security Reviewed | — | — |
 
 
-### 🔒 Security & Verification (103 skills)
+### 🔒 Security & Verification (104 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -626,6 +626,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [DocuSign Contract Auto-Sender with Conditional Logic](skills/docusign-contract-auto-sender/) | Uses the DocuSign eSignature REST API SDK to programmatically create envelope definitions with conditional routing… | Security Reviewed | — | — |
 | [Falco Runtime Security](skills/falco-runtime-security/) | Falco Runtime Security is built around Kubernetes orchestration platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 | [Falco Runtime Security Monitor](skills/falco-runtime-security-monitor/) | Monitors container runtime events using Falco sysdig libraries and sends alerts on suspicious syscall patterns.… | Security Reviewed | — | — |
+| [Feroxbuster Fast Recursive Content Discovery Tool in Rust](skills/feroxbuster-content-discovery/) | Feroxbuster is a high-performance content discovery tool written in Rust that performs forced browsing attacks to… | Published | — | — |
 | [Git Secret Scanner](skills/git-secret-scanner/) | Detects leaked secrets in Git repositories using pattern-based scanning with Gitleaks rule definitions and the… | Security Reviewed | — | — |
 | [Git Secret Scanner with Gitleaks](skills/git-secret-scanner-gitleaks/) | Scans Git repositories for leaked secrets using Gitleaks, TruffleHog, and custom regex patterns. Detects API keys,… | Security Reviewed | — | — |
 | [Git Secrets Pre-Commit Scanner](skills/git-secrets-precommit-scanner/) | Scans git diffs for exposed secrets using truffleHog entropy detection and custom regex patterns. Integrates with… | Security Reviewed | — | — |
@@ -1253,6 +1254,83 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [Thumbor Smart Image Processing Service](skills/thumbor-smart-image-processing-service/) | An agent skill that leverages Thumbor, the open-source smart image processing service by Globo.com, to perform… | Security Reviewed | — | — |
 
 
+### 🔍 Research & Scraping (69 skills)
+
+Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=downloads)
+
+| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
+|---|---|---|---:|---:|
+| [Karakeep Self-Hosted Bookmark Manager with AI Tagging](skills/karakeep-bookmark-manager-ai-tagging/) | Karakeep (formerly Hoarder) is a self-hosted bookmark-everything app with 24K+ GitHub stars that provides AI-powered… | Security Reviewed | 24.4k | — |
+| [Crawlee Web Crawling and Browser Automation Library](skills/crawlee-web-crawling-browser-automation-library/) | Builds scalable web collection pipelines with Crawlee, Apify’s open-source crawling and browser automation library.… | Security Reviewed | 22.6k | 79.4k/wk |
+| [Monolith Web Page Archiver and Single-File Bundler](skills/monolith-web-page-single-file-archiver/) | Monolith is a CLI tool and Rust library that saves complete web pages as a single HTML file by embedding CSS,… | Security Reviewed | 14.9k | — |
+| [linkding Self-Hosted Bookmark Manager with REST API](skills/linkding-self-hosted-bookmark-manager-rest-api/) | linkding is a minimal, fast, self-hosted bookmark manager with a full REST API, tag-based organization, automatic… | Security Reviewed | 10.4k | — |
+| [Pagefind Static Low-Bandwidth Search Engine](skills/pagefind-static-low-bandwidth-search-engine/) | Pagefind is a static search library written in Rust that indexes your built site and adds a search bundle requiring… | Security Reviewed | 5.1k | 457.4k/wk |
+| [shot-scraper Automated Website Screenshot and Scraping CLI](skills/shot-scraper-automated-website-screenshot-scraping-cli/) | shot-scraper is a Python CLI tool by Simon Willison for taking automated screenshots of websites and executing… | Security Reviewed | 2.3k | — |
+| [Browsertrix Crawler High-Fidelity Web Archiving and QA Crawler](skills/browsertrix-crawler-high-fidelity-web-archiving-qa-crawler/) | Browsertrix Crawler is a browser-based crawling system from Webrecorder for high-fidelity site capture, QA replay… | Security Reviewed | 1k | — |
+| [Tavily MCP Server for AI-Powered Web Search and Extraction](skills/tavily-mcp-server-ai-web-search-extraction/) | An official MCP server from Tavily that provides AI agents with real-time web search, page extraction, site mapping,… | Security Reviewed | — | 94k/wk |
+| [Academic Paper Citation Network Mapper](skills/academic-paper-citation-network-mapper/) | Builds citation networks from Semantic Scholar API and CrossRef DOI metadata. Visualizes paper influence graphs… | Security Reviewed | — | — |
+| [Apify Actor Development Kit](skills/apify-actor-development-kit/) | Builds Apify Actors for scalable cloud scraping with automatic proxy management and storage. Uses the Apify SDK… | Security Reviewed | — | — |
+| [Apify Actor Runner](skills/apify-actor-runner/) | Executes Apify cloud actors for structured web scraping with automatic dataset export to S3. Supports actor input… | Security Reviewed | — | — |
+| [Apify Actor Web Crawler](skills/apify-actor-web-crawler/) | Deploys custom Apify Actors via the Apify API v2 for large-scale web crawling using CrawleeJS. Leverages Apify… | Security Reviewed | — | — |
+| [Apify Actor Web Intelligence Agent](skills/apify-actor-web-intelligence-agent/) | Deploys intelligent web scraping actors on the Apify platform using the Apify SDK with RequestQueue and Dataset… | Security Reviewed | — | — |
+| [Apify Web Scraper Orchestrator](skills/apify-web-scraper-orchestrator-3/) | Orchestrates Apify actors for large-scale web scraping via the Apify Client SDK. Manages actor runs, dataset… | Security Reviewed | — | — |
+| [Beautiful Soup Academic Paper Parser](skills/beautifulsoup-academic-paper-parser/) | Extracts structured citation data from academic repositories using BeautifulSoup4 with lxml parser. Parses DOI… | Security Reviewed | — | — |
+| [Brave Search MCP Server for AI Web Search](skills/brave-search-mcp-server-ai-web-search/) | The official Brave Search MCP server integrates the Brave Search API with AI assistants, providing comprehensive web… | Security Reviewed | — | — |
+| [Browserless Scraping Agent](skills/browserless-scraping-agent/) | Drives headless Chrome via the Browserless.io API for scraping dynamic SPAs. Uses /content, /screenshot, and /pdf… | Security Reviewed | — | — |
+| [Censys Attack Surface Monitor](skills/censys-attack-surface-monitor/) | Monitors internet-facing assets using Censys Search API v2 for host discovery and certificate enumeration. Tracks… | Security Reviewed | — | — |
+| [changedetection.io Self-Hosted Website Change Monitoring Platform](skills/changedetection-io-website-change-monitor/) | changedetection.io is an open-source, self-hosted tool for monitoring websites for content changes, price drops,… | Security Reviewed | — | — |
+| [Cheerio DOM Scraping Toolkit](skills/cheerio-dom-scraping-toolkit/) | Parses static HTML using Cheerio's jQuery-like API for fast server-side DOM traversal and data extraction. Generates… | Security Reviewed | — | — |
+| [Cheerio Product Price Tracker](skills/cheerio-product-price-tracker/) | Monitors e-commerce product prices using Cheerio.js for server-side DOM parsing with got-scraping for stealth HTTP… | Security Reviewed | — | — |
+| [Common Crawl Index Query Agent](skills/common-crawl-index-query-agent/) | Queries the Common Crawl Index API for large-scale web archive research and data extraction. Uses the CDX Server… | Security Reviewed | — | — |
+| [Common Crawl URL Index Miner](skills/common-crawl-url-index-miner/) | Queries the Common Crawl Index API and CC-MAIN collections to surface historical URL coverage, MIME types, and crawl… | Security Reviewed | — | — |
+| [Crawl4AI LLM-Ready Web Crawler and Scraper](skills/crawl4ai-llm-web-crawler-scraper/) | Crawl4AI is an open-source web crawler that converts any website into clean, LLM-ready Markdown for RAG pipelines,… | Security Reviewed | — | — |
+| [Crawlee Smart Crawler Agent](skills/crawlee-smart-crawler-agent/) | Implements intelligent web crawling using the Crawlee framework with adaptive request routing between CheerioCrawler… | Security Reviewed | — | — |
+| [Crunchbase Company Intelligence Scraper](skills/crunchbase-company-intelligence-scraper/) | Extracts company profiles, funding rounds, and investor data using the Crunchbase Enterprise API v4 with… | Security Reviewed | — | — |
+| [Diffbot Article Extraction Verifier](skills/diffbot-article-extraction-verifier/) | Validates article extraction quality using the Diffbot Article API and Analyze API, checking fields like `title`,… | Security Reviewed | — | — |
+| [Diffbot Knowledge Graph Extractor](skills/diffbot-knowledge-graph-extractor/) | Extracts structured entities from web pages using the Diffbot Extraction API and Knowledge Graph. Supports article,… | Security Reviewed | — | — |
+| [Firecrawl Markdown Capture Pipeline](skills/firecrawl-markdown-capture-pipeline/) | Captures clean site content through Firecrawl endpoints like `/v1/scrape`, `/v1/map`, and `/v1/crawl`, with Markdown… | Security Reviewed | — | — |
+| [Hacker News Deep Thread Analyzer](skills/hacker-news-deep-thread-analyzer/) | Scrapes and analyzes Hacker News threads using the official HN Firebase API and BeautifulSoup. Extracts sentiment… | Security Reviewed | — | — |
+| [Instaloader Instagram Content and Metadata Downloader](skills/instaloader-instagram-content-metadata-downloader/) | Instaloader is a Python CLI tool and library that downloads Instagram photos, videos, stories, reels, highlights,… | Security Reviewed | — | — |
+| [Jina Reader API Skill](skills/jina-reader-api-skill/) | Extracts clean markdown content from any URL using the Jina Reader API (r.jina.ai). Handles JavaScript-rendered… | Security Reviewed | — | — |
+| [Katana Next-Generation Web Crawling and Spidering Framework](skills/katana-web-crawling-spidering-framework/) | Katana by ProjectDiscovery is a fast, configurable web crawling and spidering framework written in Go. It supports… | Security Reviewed | — | — |
+| [Maigret OSINT Username Profiler Across 3000+ Sites](skills/maigret-osint-username-profiler/) | Maigret collects a dossier on a person by username only, checking for accounts on over 3000 sites and gathering… | Security Reviewed | — | — |
+| [OSINT Domain Intelligence Scanner](skills/osint-domain-intelligence-scanner/) | Performs deep OSINT analysis on domains using Shodan API, SecurityTrails DNS history, and WHOIS RDAP lookups.… | Security Reviewed | — | — |
+| [Patent Landscape Analyzer](skills/patent-landscape-analyzer/) | Searches the USPTO PatentsView API and European Patent Office OPS (Open Patent Services) API for patent grants,… | Security Reviewed | — | — |
+| [Photon High-Speed OSINT Web Crawler and Data Extractor](skills/photon-osint-web-crawler/) | Photon is a blazing-fast Python web crawler purpose-built for OSINT operations. It extracts URLs, emails, social… | Published | — | — |
+| [Playwright Network Interceptor](skills/playwright-network-interceptor/) | Intercepts and analyzes network traffic using Playwright route handlers for API response capture and modification.… | Security Reviewed | — | — |
+| [Playwright Page Data Extractor](skills/playwright-page-data-extractor/) | Uses Microsoft Playwright's Node.js API to navigate dynamic web applications, intercept network requests, and… | Security Reviewed | — | — |
+| [Playwright Test Generator with Codegen](skills/playwright-test-generator-codegen/) | Records and generates end-to-end test scripts using Playwright Codegen with multi-browser targeting. Produces… | Security Reviewed | — | — |
+| [Product Review Sentiment Aggregator](skills/product-review-sentiment-aggregator/) | Collects and analyzes product reviews from Amazon Product API and Google Shopping via SerpAPI. Uses spaCy NER and… | Security Reviewed | — | — |
+| [PubMed Literature Mining Agent](skills/pubmed-literature-mining-agent/) | Queries the NCBI E-utilities API (esearch, efetch, elink) to retrieve PubMed biomedical literature, extracting MeSH… | Security Reviewed | — | — |
+| [Puppeteer Scraping Framework](skills/puppeteer-scraping-framework-2/) | Headless Chrome scraping using Puppeteer with stealth plugin, request interception via… | Security Reviewed | — | — |
+| [Puppeteer Stealth Web Scraper](skills/puppeteer-stealth-web-scraper/) | Uses puppeteer-extra with stealth plugin to bypass bot detection for web scraping. Integrates with Cheerio for HTML… | Security Reviewed | — | — |
+| [Puppeteer Web Scraper](skills/puppeteer-web-scraper/) | Headless Chrome scraping via Puppeteer with automatic cookie handling, JavaScript rendering, and Cheerio-based DOM… | Security Reviewed | — | — |
+| [PuppeteerSharp Web Scraping Pipeline](skills/puppeteersharp-web-scraping-pipeline/) | Builds headless Chrome scraping pipelines using PuppeteerSharp for .NET environments. Handles JavaScript-rendered… | Security Reviewed | — | — |
+| [Recon-ng Modular Web Reconnaissance Framework for OSINT](skills/recon-ng-web-reconnaissance-framework/) | Recon-ng is a full-featured modular reconnaissance framework written in Python, designed to conduct web-based open… | Published | — | — |
+| [ScrapingBee API Data Harvester](skills/scrapingbee-api-data-harvester/) | Interfaces with the ScrapingBee REST API for JavaScript rendering and Google SERP extraction. Uses custom_google… | Security Reviewed | — | — |
+| [Scrapling Adaptive Web Scraping Framework](skills/scrapling-adaptive-web-scraping-framework/) | Scrapling is an adaptive Python web scraping framework that automatically handles website structure changes. Its… | Security Reviewed | — | — |
+| [Scrapy Distributed Crawler Framework](skills/scrapy-distributed-crawler-framework/) | Orchestrates large-scale web crawling using Scrapy with scrapy-redis for distributed job queuing. Integrates Splash… | Security Reviewed | — | — |
+| [Scrapy Pipeline Data Extractor](skills/scrapy-pipeline-data-extractor/) | Builds production Scrapy spiders with custom Item Pipelines for data cleaning and storage. Uses… | Security Reviewed | — | — |
+| [Scrapy Pipeline Manager](skills/scrapy-pipeline-manager/) | Manages Scrapy spider deployments via Scrapyd API with custom item pipelines for MongoDB ingestion, deduplication… | Security Reviewed | — | — |
+| [Scrapy Spider Architect](skills/scrapy-spider-architect/) | Generates Scrapy spider classes with CSS/XPath selectors, item pipelines, and middleware configurations for… | Security Reviewed | — | — |
+| [Scrapy Spider Generator](skills/scrapy-spider-generator/) | Generates production-ready Scrapy spiders with middleware configuration and item pipeline setup. Uses the Scrapy… | Security Reviewed | — | — |
+| [ScrapyCloud Job Manager](skills/scrapycloud-job-manager/) | Manages Scrapy spider deployments and job scheduling on ScrapyCloud via the Scrapinghub API. Handles spider argument… | Security Reviewed | — | — |
+| [SEC EDGAR Filing Scraper & Analyzer](skills/sec-edgar-filing-scraper-analyzer/) | Downloads and parses SEC EDGAR filings (10-K, 10-Q, 8-K) using the EDGAR full-text search API and python-xbrl.… | Security Reviewed | — | — |
+| [SEC EDGAR Financial Filing Parser](skills/sec-edgar-financial-filing-parser/) | Retrieves and parses SEC EDGAR filings (10-K, 10-Q, 8-K) using the EDGAR Full-Text Search API and company filing… | Security Reviewed | — | — |
+| [SerpAPI Answer Box Extractor](skills/serpapi-answer-box-extractor/) | Extracts high-signal SERP features from SerpAPI responses, including `answer_box`, `knowledge_graph`,… | Security Reviewed | — | — |
+| [SerpAPI Research Pipeline](skills/serpapi-research-pipeline/) | Builds structured research datasets by querying SerpAPI Google Search, Google Scholar, and Google News endpoints.… | Security Reviewed | — | — |
+| [SerpAPI Scholar Agent](skills/serpapi-scholar-agent/) | Automates academic research using the SerpAPI Google Scholar endpoint. Extracts citation graphs, h-index data, and… | Security Reviewed | — | — |
+| [SerpAPI Search Aggregator](skills/serpapi-search-aggregator/) | Aggregates search results from Google, Bing, and DuckDuckGo via the SerpAPI REST endpoint. Parses organic results,… | Security Reviewed | — | — |
+| [SerpAPI Search Intelligence Aggregator](skills/serpapi-search-intelligence-aggregator/) | Connects to SerpAPI endpoints for Google, Bing, YouTube, and Google Scholar search result extraction. Uses the… | Security Reviewed | — | — |
+| [SerpAPI Search Pipeline](skills/serpapi-search-pipeline/) | Automates multi-engine searches via SerpAPI (Google, Bing, DuckDuckGo) with structured JSON extraction. Supports… | Security Reviewed | — | — |
+| [SerpAPI Search Results Aggregator](skills/serpapi-search-results-aggregator/) | Queries Google, Bing, and DuckDuckGo search APIs through SerpAPI to collect SERP features, Knowledge Graph data, and… | Security Reviewed | — | — |
+| [Sherlock Social Media Username Hunter Across 400+ Networks](skills/sherlock-social-media-username-hunter/) | Sherlock hunts down social media accounts by username across more than 400 social networks. It is the go-to OSINT… | Security Reviewed | — | — |
+| [Shodan Network Reconnaissance Agent](skills/shodan-network-reconnaissance-agent/) | Performs network reconnaissance using the Shodan REST API and Shodan InternetDB. Discovers exposed services, CVE… | Security Reviewed | — | — |
+| [SpiderFoot Open Source Intelligence Automation Framework](skills/spiderfoot-osint-automation-framework/) | SpiderFoot is an open-source OSINT automation tool that queries over 200 data sources to gather intelligence about… | Security Reviewed | — | — |
+| [theHarvester OSINT Email and Subdomain Intelligence Gatherer](skills/theharvester-osint-email-subdomain-intelligence/) | theHarvester is an open-source OSINT tool for gathering emails, subdomains, hosts, employee names, open ports, and… | Security Reviewed | — | — |
+| [Trafilatura Web Text Extraction and Crawling Toolkit](skills/trafilatura-web-text-extraction-crawling/) | Trafilatura is a Python package and CLI tool for gathering text from the web. It handles crawling, downloading, and… | Security Reviewed | — | — |
+
+
 ### 📄 Templates & Workflows (67 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
@@ -1326,81 +1404,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Yeoman Scaffold Runner](skills/yeoman-scaffold-runner/) | Executes Yeoman generators via the yo CLI and yeoman-environment API to scaffold applications, components, and… | Security Reviewed | — | — |
 | [Yeoman Sub-Generator Composition Builder](skills/yeoman-sub-generator-composition-builder/) | Orchestrates Yeoman generator composition by chaining sub-generators via the Yeoman Environment API. Manages yo run… | Security Reviewed | — | — |
 | [Yeoman Workflow Orchestrator](skills/yeoman-workflow-orchestrator/) | Orchestrates Yeoman generator workflows with composable sub-generators and mem-fs-editor file transformations.… | Security Reviewed | — | — |
-
-
-### 🔍 Research & Scraping (67 skills)
-
-Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=downloads)
-
-| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
-|---|---|---|---:|---:|
-| [Karakeep Self-Hosted Bookmark Manager with AI Tagging](skills/karakeep-bookmark-manager-ai-tagging/) | Karakeep (formerly Hoarder) is a self-hosted bookmark-everything app with 24K+ GitHub stars that provides AI-powered… | Security Reviewed | 24.4k | — |
-| [Crawlee Web Crawling and Browser Automation Library](skills/crawlee-web-crawling-browser-automation-library/) | Builds scalable web collection pipelines with Crawlee, Apify’s open-source crawling and browser automation library.… | Security Reviewed | 22.6k | 79.4k/wk |
-| [Monolith Web Page Archiver and Single-File Bundler](skills/monolith-web-page-single-file-archiver/) | Monolith is a CLI tool and Rust library that saves complete web pages as a single HTML file by embedding CSS,… | Security Reviewed | 14.9k | — |
-| [linkding Self-Hosted Bookmark Manager with REST API](skills/linkding-self-hosted-bookmark-manager-rest-api/) | linkding is a minimal, fast, self-hosted bookmark manager with a full REST API, tag-based organization, automatic… | Security Reviewed | 10.4k | — |
-| [Pagefind Static Low-Bandwidth Search Engine](skills/pagefind-static-low-bandwidth-search-engine/) | Pagefind is a static search library written in Rust that indexes your built site and adds a search bundle requiring… | Security Reviewed | 5.1k | 457.4k/wk |
-| [shot-scraper Automated Website Screenshot and Scraping CLI](skills/shot-scraper-automated-website-screenshot-scraping-cli/) | shot-scraper is a Python CLI tool by Simon Willison for taking automated screenshots of websites and executing… | Security Reviewed | 2.3k | — |
-| [Browsertrix Crawler High-Fidelity Web Archiving and QA Crawler](skills/browsertrix-crawler-high-fidelity-web-archiving-qa-crawler/) | Browsertrix Crawler is a browser-based crawling system from Webrecorder for high-fidelity site capture, QA replay… | Security Reviewed | 1k | — |
-| [Tavily MCP Server for AI-Powered Web Search and Extraction](skills/tavily-mcp-server-ai-web-search-extraction/) | An official MCP server from Tavily that provides AI agents with real-time web search, page extraction, site mapping,… | Security Reviewed | — | 94k/wk |
-| [Academic Paper Citation Network Mapper](skills/academic-paper-citation-network-mapper/) | Builds citation networks from Semantic Scholar API and CrossRef DOI metadata. Visualizes paper influence graphs… | Security Reviewed | — | — |
-| [Apify Actor Development Kit](skills/apify-actor-development-kit/) | Builds Apify Actors for scalable cloud scraping with automatic proxy management and storage. Uses the Apify SDK… | Security Reviewed | — | — |
-| [Apify Actor Runner](skills/apify-actor-runner/) | Executes Apify cloud actors for structured web scraping with automatic dataset export to S3. Supports actor input… | Security Reviewed | — | — |
-| [Apify Actor Web Crawler](skills/apify-actor-web-crawler/) | Deploys custom Apify Actors via the Apify API v2 for large-scale web crawling using CrawleeJS. Leverages Apify… | Security Reviewed | — | — |
-| [Apify Actor Web Intelligence Agent](skills/apify-actor-web-intelligence-agent/) | Deploys intelligent web scraping actors on the Apify platform using the Apify SDK with RequestQueue and Dataset… | Security Reviewed | — | — |
-| [Apify Web Scraper Orchestrator](skills/apify-web-scraper-orchestrator-3/) | Orchestrates Apify actors for large-scale web scraping via the Apify Client SDK. Manages actor runs, dataset… | Security Reviewed | — | — |
-| [Beautiful Soup Academic Paper Parser](skills/beautifulsoup-academic-paper-parser/) | Extracts structured citation data from academic repositories using BeautifulSoup4 with lxml parser. Parses DOI… | Security Reviewed | — | — |
-| [Brave Search MCP Server for AI Web Search](skills/brave-search-mcp-server-ai-web-search/) | The official Brave Search MCP server integrates the Brave Search API with AI assistants, providing comprehensive web… | Security Reviewed | — | — |
-| [Browserless Scraping Agent](skills/browserless-scraping-agent/) | Drives headless Chrome via the Browserless.io API for scraping dynamic SPAs. Uses /content, /screenshot, and /pdf… | Security Reviewed | — | — |
-| [Censys Attack Surface Monitor](skills/censys-attack-surface-monitor/) | Monitors internet-facing assets using Censys Search API v2 for host discovery and certificate enumeration. Tracks… | Security Reviewed | — | — |
-| [changedetection.io Self-Hosted Website Change Monitoring Platform](skills/changedetection-io-website-change-monitor/) | changedetection.io is an open-source, self-hosted tool for monitoring websites for content changes, price drops,… | Security Reviewed | — | — |
-| [Cheerio DOM Scraping Toolkit](skills/cheerio-dom-scraping-toolkit/) | Parses static HTML using Cheerio's jQuery-like API for fast server-side DOM traversal and data extraction. Generates… | Security Reviewed | — | — |
-| [Cheerio Product Price Tracker](skills/cheerio-product-price-tracker/) | Monitors e-commerce product prices using Cheerio.js for server-side DOM parsing with got-scraping for stealth HTTP… | Security Reviewed | — | — |
-| [Common Crawl Index Query Agent](skills/common-crawl-index-query-agent/) | Queries the Common Crawl Index API for large-scale web archive research and data extraction. Uses the CDX Server… | Security Reviewed | — | — |
-| [Common Crawl URL Index Miner](skills/common-crawl-url-index-miner/) | Queries the Common Crawl Index API and CC-MAIN collections to surface historical URL coverage, MIME types, and crawl… | Security Reviewed | — | — |
-| [Crawl4AI LLM-Ready Web Crawler and Scraper](skills/crawl4ai-llm-web-crawler-scraper/) | Crawl4AI is an open-source web crawler that converts any website into clean, LLM-ready Markdown for RAG pipelines,… | Security Reviewed | — | — |
-| [Crawlee Smart Crawler Agent](skills/crawlee-smart-crawler-agent/) | Implements intelligent web crawling using the Crawlee framework with adaptive request routing between CheerioCrawler… | Security Reviewed | — | — |
-| [Crunchbase Company Intelligence Scraper](skills/crunchbase-company-intelligence-scraper/) | Extracts company profiles, funding rounds, and investor data using the Crunchbase Enterprise API v4 with… | Security Reviewed | — | — |
-| [Diffbot Article Extraction Verifier](skills/diffbot-article-extraction-verifier/) | Validates article extraction quality using the Diffbot Article API and Analyze API, checking fields like `title`,… | Security Reviewed | — | — |
-| [Diffbot Knowledge Graph Extractor](skills/diffbot-knowledge-graph-extractor/) | Extracts structured entities from web pages using the Diffbot Extraction API and Knowledge Graph. Supports article,… | Security Reviewed | — | — |
-| [Firecrawl Markdown Capture Pipeline](skills/firecrawl-markdown-capture-pipeline/) | Captures clean site content through Firecrawl endpoints like `/v1/scrape`, `/v1/map`, and `/v1/crawl`, with Markdown… | Security Reviewed | — | — |
-| [Hacker News Deep Thread Analyzer](skills/hacker-news-deep-thread-analyzer/) | Scrapes and analyzes Hacker News threads using the official HN Firebase API and BeautifulSoup. Extracts sentiment… | Security Reviewed | — | — |
-| [Instaloader Instagram Content and Metadata Downloader](skills/instaloader-instagram-content-metadata-downloader/) | Instaloader is a Python CLI tool and library that downloads Instagram photos, videos, stories, reels, highlights,… | Security Reviewed | — | — |
-| [Jina Reader API Skill](skills/jina-reader-api-skill/) | Extracts clean markdown content from any URL using the Jina Reader API (r.jina.ai). Handles JavaScript-rendered… | Security Reviewed | — | — |
-| [Katana Next-Generation Web Crawling and Spidering Framework](skills/katana-web-crawling-spidering-framework/) | Katana by ProjectDiscovery is a fast, configurable web crawling and spidering framework written in Go. It supports… | Security Reviewed | — | — |
-| [Maigret OSINT Username Profiler Across 3000+ Sites](skills/maigret-osint-username-profiler/) | Maigret collects a dossier on a person by username only, checking for accounts on over 3000 sites and gathering… | Security Reviewed | — | — |
-| [OSINT Domain Intelligence Scanner](skills/osint-domain-intelligence-scanner/) | Performs deep OSINT analysis on domains using Shodan API, SecurityTrails DNS history, and WHOIS RDAP lookups.… | Security Reviewed | — | — |
-| [Patent Landscape Analyzer](skills/patent-landscape-analyzer/) | Searches the USPTO PatentsView API and European Patent Office OPS (Open Patent Services) API for patent grants,… | Security Reviewed | — | — |
-| [Playwright Network Interceptor](skills/playwright-network-interceptor/) | Intercepts and analyzes network traffic using Playwright route handlers for API response capture and modification.… | Security Reviewed | — | — |
-| [Playwright Page Data Extractor](skills/playwright-page-data-extractor/) | Uses Microsoft Playwright's Node.js API to navigate dynamic web applications, intercept network requests, and… | Security Reviewed | — | — |
-| [Playwright Test Generator with Codegen](skills/playwright-test-generator-codegen/) | Records and generates end-to-end test scripts using Playwright Codegen with multi-browser targeting. Produces… | Security Reviewed | — | — |
-| [Product Review Sentiment Aggregator](skills/product-review-sentiment-aggregator/) | Collects and analyzes product reviews from Amazon Product API and Google Shopping via SerpAPI. Uses spaCy NER and… | Security Reviewed | — | — |
-| [PubMed Literature Mining Agent](skills/pubmed-literature-mining-agent/) | Queries the NCBI E-utilities API (esearch, efetch, elink) to retrieve PubMed biomedical literature, extracting MeSH… | Security Reviewed | — | — |
-| [Puppeteer Scraping Framework](skills/puppeteer-scraping-framework-2/) | Headless Chrome scraping using Puppeteer with stealth plugin, request interception via… | Security Reviewed | — | — |
-| [Puppeteer Stealth Web Scraper](skills/puppeteer-stealth-web-scraper/) | Uses puppeteer-extra with stealth plugin to bypass bot detection for web scraping. Integrates with Cheerio for HTML… | Security Reviewed | — | — |
-| [Puppeteer Web Scraper](skills/puppeteer-web-scraper/) | Headless Chrome scraping via Puppeteer with automatic cookie handling, JavaScript rendering, and Cheerio-based DOM… | Security Reviewed | — | — |
-| [PuppeteerSharp Web Scraping Pipeline](skills/puppeteersharp-web-scraping-pipeline/) | Builds headless Chrome scraping pipelines using PuppeteerSharp for .NET environments. Handles JavaScript-rendered… | Security Reviewed | — | — |
-| [ScrapingBee API Data Harvester](skills/scrapingbee-api-data-harvester/) | Interfaces with the ScrapingBee REST API for JavaScript rendering and Google SERP extraction. Uses custom_google… | Security Reviewed | — | — |
-| [Scrapling Adaptive Web Scraping Framework](skills/scrapling-adaptive-web-scraping-framework/) | Scrapling is an adaptive Python web scraping framework that automatically handles website structure changes. Its… | Security Reviewed | — | — |
-| [Scrapy Distributed Crawler Framework](skills/scrapy-distributed-crawler-framework/) | Orchestrates large-scale web crawling using Scrapy with scrapy-redis for distributed job queuing. Integrates Splash… | Security Reviewed | — | — |
-| [Scrapy Pipeline Data Extractor](skills/scrapy-pipeline-data-extractor/) | Builds production Scrapy spiders with custom Item Pipelines for data cleaning and storage. Uses… | Security Reviewed | — | — |
-| [Scrapy Pipeline Manager](skills/scrapy-pipeline-manager/) | Manages Scrapy spider deployments via Scrapyd API with custom item pipelines for MongoDB ingestion, deduplication… | Security Reviewed | — | — |
-| [Scrapy Spider Architect](skills/scrapy-spider-architect/) | Generates Scrapy spider classes with CSS/XPath selectors, item pipelines, and middleware configurations for… | Security Reviewed | — | — |
-| [Scrapy Spider Generator](skills/scrapy-spider-generator/) | Generates production-ready Scrapy spiders with middleware configuration and item pipeline setup. Uses the Scrapy… | Security Reviewed | — | — |
-| [ScrapyCloud Job Manager](skills/scrapycloud-job-manager/) | Manages Scrapy spider deployments and job scheduling on ScrapyCloud via the Scrapinghub API. Handles spider argument… | Security Reviewed | — | — |
-| [SEC EDGAR Filing Scraper & Analyzer](skills/sec-edgar-filing-scraper-analyzer/) | Downloads and parses SEC EDGAR filings (10-K, 10-Q, 8-K) using the EDGAR full-text search API and python-xbrl.… | Security Reviewed | — | — |
-| [SEC EDGAR Financial Filing Parser](skills/sec-edgar-financial-filing-parser/) | Retrieves and parses SEC EDGAR filings (10-K, 10-Q, 8-K) using the EDGAR Full-Text Search API and company filing… | Security Reviewed | — | — |
-| [SerpAPI Answer Box Extractor](skills/serpapi-answer-box-extractor/) | Extracts high-signal SERP features from SerpAPI responses, including `answer_box`, `knowledge_graph`,… | Security Reviewed | — | — |
-| [SerpAPI Research Pipeline](skills/serpapi-research-pipeline/) | Builds structured research datasets by querying SerpAPI Google Search, Google Scholar, and Google News endpoints.… | Security Reviewed | — | — |
-| [SerpAPI Scholar Agent](skills/serpapi-scholar-agent/) | Automates academic research using the SerpAPI Google Scholar endpoint. Extracts citation graphs, h-index data, and… | Security Reviewed | — | — |
-| [SerpAPI Search Aggregator](skills/serpapi-search-aggregator/) | Aggregates search results from Google, Bing, and DuckDuckGo via the SerpAPI REST endpoint. Parses organic results,… | Security Reviewed | — | — |
-| [SerpAPI Search Intelligence Aggregator](skills/serpapi-search-intelligence-aggregator/) | Connects to SerpAPI endpoints for Google, Bing, YouTube, and Google Scholar search result extraction. Uses the… | Security Reviewed | — | — |
-| [SerpAPI Search Pipeline](skills/serpapi-search-pipeline/) | Automates multi-engine searches via SerpAPI (Google, Bing, DuckDuckGo) with structured JSON extraction. Supports… | Security Reviewed | — | — |
-| [SerpAPI Search Results Aggregator](skills/serpapi-search-results-aggregator/) | Queries Google, Bing, and DuckDuckGo search APIs through SerpAPI to collect SERP features, Knowledge Graph data, and… | Security Reviewed | — | — |
-| [Sherlock Social Media Username Hunter Across 400+ Networks](skills/sherlock-social-media-username-hunter/) | Sherlock hunts down social media accounts by username across more than 400 social networks. It is the go-to OSINT… | Security Reviewed | — | — |
-| [Shodan Network Reconnaissance Agent](skills/shodan-network-reconnaissance-agent/) | Performs network reconnaissance using the Shodan REST API and Shodan InternetDB. Discovers exposed services, CVE… | Security Reviewed | — | — |
-| [SpiderFoot Open Source Intelligence Automation Framework](skills/spiderfoot-osint-automation-framework/) | SpiderFoot is an open-source OSINT automation tool that queries over 200 data sources to gather intelligence about… | Security Reviewed | — | — |
-| [theHarvester OSINT Email and Subdomain Intelligence Gatherer](skills/theharvester-osint-email-subdomain-intelligence/) | theHarvester is an open-source OSINT tool for gathering emails, subdomains, hosts, employee names, open ports, and… | Security Reviewed | — | — |
-| [Trafilatura Web Text Extraction and Crawling Toolkit](skills/trafilatura-web-text-extraction-crawling/) | Trafilatura is a Python package and CLI tool for gathering text from the web. It handles crawling, downloading, and… | Security Reviewed | — | — |
 
 
 ### 🔗 Integrations & Connectors (66 skills)

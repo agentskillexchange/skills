@@ -40,6 +40,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [DocuSign Contract Auto-Sender with Conditional Logic](../../skills/docusign-contract-auto-sender/) | — | — |
 | [Falco Runtime Security](../../skills/falco-runtime-security/) | — | — |
 | [Falco Runtime Security Monitor](../../skills/falco-runtime-security-monitor/) | — | — |
+| [Feroxbuster Fast Recursive Content Discovery Tool in Rust](../../skills/feroxbuster-content-discovery/) | — | — |
 | [Git Secret Scanner](../../skills/git-secret-scanner/) | — | — |
 | [Git Secret Scanner with Gitleaks](../../skills/git-secret-scanner-gitleaks/) | — | — |
 | [Git Secrets Pre-Commit Scanner](../../skills/git-secrets-precommit-scanner/) | — | — |

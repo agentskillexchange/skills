@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1555,
+  "total": 1558,
   "generated": "2026-04-01",
   "skills": [
+    {
+      "slug": "recon-ng-web-reconnaissance-framework",
+      "name": "Recon-ng Modular Web Reconnaissance Framework for OSINT",
+      "description": "Recon-ng is a full-featured modular reconnaissance framework written in Python, designed to conduct web-based open source intelligence (OSINT) gathering quickly and thoroughly. Its Metasploit-like…",
+      "category": [
+        "Research & Scraping"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "feroxbuster-content-discovery",
+      "name": "Feroxbuster Fast Recursive Content Discovery Tool in Rust",
+      "description": "Feroxbuster is a high-performance content discovery tool written in Rust that performs forced browsing attacks to enumerate hidden files, directories, and endpoints on web…",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "photon-osint-web-crawler",
+      "name": "Photon High-Speed OSINT Web Crawler and Data Extractor",
+      "description": "Photon is a blazing-fast Python web crawler purpose-built for OSINT operations. It extracts URLs, emails, social media accounts, files, secret keys, JavaScript endpoints, and…",
+      "category": [
+        "Research & Scraping"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "concurrently-parallel-command-runner",
       "name": "Concurrently Parallel Command Runner for npm Scripts",
