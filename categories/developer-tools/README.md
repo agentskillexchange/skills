@@ -93,6 +93,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Bun Shell Script Executor](../../skills/bun-shell-script-executor/) | — | — |
 | [Caddy Automatic HTTPS Web Server and Reverse Proxy](../../skills/caddy-automatic-https-web-server-reverse-proxy/) | — | — |
 | [Changesets Version and Changelog Manager](../../skills/changesets-version-changelog-manager/) | — | — |
+| [ChartDB Database Schema Visualization and Diagram Editor](../../skills/chartdb-database-schema-visualization/) | — | — |
 | [chezmoi Cross-Machine Dotfiles Manager](../../skills/chezmoi-dotfiles-manager/) | — | — |
 | [CI Pipeline Generator Skill](../../skills/ci-pipeline-generator-skill/) | — | — |
 | [CircleCI MCP Server](../../skills/circleci-mcp-server/) | — | — |
@@ -165,6 +166,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [n8n GitHub Issue-to-Jira Ticket Automator](../../skills/n8n-github-jira-ticket-automator/) | — | — |
 | [navi Interactive CLI Cheatsheet Tool](../../skills/navi-interactive-cli-cheatsheet-tool/) | — | — |
 | [Nginx Error Log Parser](../../skills/nginx-error-log-parser/) | — | — |
+| [Nitro Next-Generation Universal Server Toolkit by UnJS](../../skills/nitro-universal-server-toolkit-unjs/) | — | — |
 | [Nix Flake Configuration Builder](../../skills/nix-flake-configuration-builder/) | — | — |
 | [Notion Workspace Agent](../../skills/notion-workspace-agent/) | — | — |
 | [NPM Package Auditor](../../skills/npm-package-auditor-registry-api/) | — | — |

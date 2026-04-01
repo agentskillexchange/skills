@@ -13,9 +13,9 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Shiori Self-Hosted Bookmark Manager with CLI and Web Interface](../../skills/shiori-self-hosted-bookmark-manager-cli-web/) | ⭐ 11.4k |
 | [Leantime Open Source Goals-Focused Project Management Platform](../../skills/leantime-open-source-project-management-platform/) | ⭐ 9.4k |
 | [Mautic Open Source Marketing Automation Platform](../../skills/mautic-marketing-automation-platform/) | ⭐ 9.4k |
+| [Mailpit SMTP Testing and Email Capture Workbench](../../skills/mailpit-smtp-testing-email-capture-workbench/) | ⭐ 9.1k |
 | [nb CLI Note-Taking Bookmarking and Knowledge Base Application](../../skills/nb-cli-note-taking-bookmarking-knowledge-base/) | ⭐ 8.1k |
 | [jrnl Command-Line Journal and Note Capture Tool](../../skills/jrnl-command-line-journal-note-capture/) | ⭐ 7.2k |
-| [Taskwarrior Command-Line Task Management System](../../skills/taskwarrior-command-line-task-management-system/) | ⭐ 5.7k |
 
 ---
 
@@ -30,6 +30,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Shiori Self-Hosted Bookmark Manager with CLI and Web Interface](../../skills/shiori-self-hosted-bookmark-manager-cli-web/) | 11.4k | — |
 | [Leantime Open Source Goals-Focused Project Management Platform](../../skills/leantime-open-source-project-management-platform/) | 9.4k | — |
 | [Mautic Open Source Marketing Automation Platform](../../skills/mautic-marketing-automation-platform/) | 9.4k | — |
+| [Mailpit SMTP Testing and Email Capture Workbench](../../skills/mailpit-smtp-testing-email-capture-workbench/) | 9.1k | — |
 | [nb CLI Note-Taking Bookmarking and Knowledge Base Application](../../skills/nb-cli-note-taking-bookmarking-knowledge-base/) | 8.1k | — |
 | [jrnl Command-Line Journal and Note Capture Tool](../../skills/jrnl-command-line-journal-note-capture/) | 7.2k | — |
 | [Taskwarrior Command-Line Task Management System](../../skills/taskwarrior-command-line-task-management-system/) | 5.7k | — |
@@ -61,7 +62,6 @@ Email automation, calendar management, task coordination, and productivity tools
 | [khal Standards-Based CLI Calendar Application](../../skills/khal-cli-calendar-application-caldav/) | — | — |
 | [Linear Sprint Planner](../../skills/linear-sprint-planner/) | — | — |
 | [Listmonk Self-Hosted Newsletter and Mailing List Manager](../../skills/listmonk-self-hosted-newsletter-mailing-list/) | — | — |
-| [Mailpit SMTP Testing and Email Capture Workbench](../../skills/mailpit-smtp-testing-email-capture-workbench/) | — | — |
 | [Memos Self-Hosted Note Capture and Knowledge API](../../skills/memos-self-hosted-note-capture-knowledge-api/) | — | — |
 | [Microsoft Graph Calendar Conflict Resolver](../../skills/microsoft-graph-calendar-conflict-resolver/) | — | — |
 | [Microsoft Graph Email Digest Builder](../../skills/microsoft-graph-email-digest-builder/) | — | — |
@@ -85,6 +85,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Outlook Mail Triage Assistant](../../skills/outlook-mail-triage-assistant/) | — | — |
 | [Outlook Mail Triage Skill](../../skills/outlook-mail-triage-microsoft-graph/) | — | — |
 | [Outlook Rule Automation Manager](../../skills/outlook-rule-automation-manager/) | — | — |
+| [Plane Open Source Project Management Platform](../../skills/plane-open-source-project-management/) | — | — |
 | [Slack Channel Summarizer](../../skills/slack-channel-summarizer-bolt-sdk/) | — | — |
 | [Slack Digest and Task Router](../../skills/slack-digest-and-task-router/) | — | — |
 | [Slack MCP Server](../../skills/slack-mcp-server/) | — | — |

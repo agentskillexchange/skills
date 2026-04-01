@@ -1,8 +1,80 @@
 {
   "version": "2.0",
-  "total": 1546,
+  "total": 1552,
   "generated": "2026-04-01",
   "skills": [
+    {
+      "slug": "plane-open-source-project-management",
+      "name": "Plane Open Source Project Management Platform",
+      "description": "Plane is an open-source project management platform that serves as a self-hostable alternative to Jira, Linear, and ClickUp. It provides issue tracking, sprint cycles,…",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "chartdb-database-schema-visualization",
+      "name": "ChartDB Database Schema Visualization and Diagram Editor",
+      "description": "ChartDB is a web-based database diagramming editor that instantly visualizes your schema from a single SQL query. It supports AI-powered DDL export for cross-database…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "penpot-open-source-design-prototyping",
+      "name": "Penpot Open Source Design and Prototyping Platform",
+      "description": "Penpot is the first open-source design and prototyping platform built for cross-domain teams. Designers create visual layouts, interactive prototypes, and scalable design systems while…",
+      "category": [
+        "Image & Creative Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "effect-typescript-standard-library-production",
+      "name": "Effect TypeScript Standard Library for Production Applications",
+      "description": "Effect is a comprehensive TypeScript standard library that provides structured concurrency, typed errors, dependency injection, schema validation, and observability — replacing dozens of individual…",
+      "category": [
+        "Library & API Reference"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "nitro-universal-server-toolkit-unjs",
+      "name": "Nitro Next-Generation Universal Server Toolkit by UnJS",
+      "description": "Nitro is a universal server framework from the UnJS ecosystem that lets you build and deploy web servers to any JavaScript runtime — Node.js,…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "orama-embeddable-search-engine-rag-pipeline",
+      "name": "Orama Embeddable Search Engine and RAG Pipeline for JavaScript",
+      "description": "Orama is a full-text, vector, and hybrid search engine that runs in the browser, on a server, or at the edge in under 2KB.…",
+      "category": [
+        "Data Extraction & Transformation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "skopeo-container-image-registry-operations-cli",
       "name": "Skopeo Container Image Registry Operations CLI",
@@ -3228,7 +3300,9 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "docker"
+        "tool": "docker",
+        "github_stars": 9051,
+        "license": "MIT"
       }
     },
     {
@@ -3585,7 +3659,9 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "lychee"
+        "tool": "lychee",
+        "github_stars": 3463,
+        "license": "Apache-2.0"
       }
     },
     {
@@ -3600,7 +3676,9 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "faster-whisper"
+        "tool": "faster-whisper",
+        "github_stars": 21865,
+        "license": "MIT"
       }
     },
     {
@@ -3615,7 +3693,9 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "lossless-cut"
+        "tool": "lossless-cut",
+        "github_stars": 39480,
+        "license": "GPL-2.0"
       }
     },
     {
@@ -3630,7 +3710,9 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "vosk-api"
+        "tool": "vosk-api",
+        "github_stars": 14474,
+        "license": "Apache-2.0"
       }
     },
     {
@@ -3645,7 +3727,9 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "piper"
+        "tool": "piper",
+        "github_stars": 10741,
+        "license": "MIT"
       }
     },
     {
@@ -3661,6 +3745,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "remotion",
+        "github_stars": 41477,
         "npm_weekly_downloads": 474730
       }
     },
@@ -3677,7 +3762,9 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "payload",
-        "npm_weekly_downloads": 301749
+        "github_stars": 41552,
+        "npm_weekly_downloads": 301749,
+        "license": "MIT"
       }
     },
     {
@@ -3693,6 +3780,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "strapi",
+        "github_stars": 71740,
         "npm_weekly_downloads": 159654
       }
     },
@@ -3708,7 +3796,9 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "audiowaveform"
+        "tool": "audiowaveform",
+        "github_stars": 2130,
+        "license": "GPL-3.0"
       }
     },
     {
@@ -3739,7 +3829,9 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "wordpress-playground"
+        "tool": "wordpress-playground",
+        "github_stars": 1926,
+        "license": "GPL-2.0"
       }
     },
     {
@@ -3750,7 +3842,9 @@
       "framework": [],
       "verification": "listed",
       "signals": {
-        "tool": "onefetch"
+        "tool": "onefetch",
+        "github_stars": 11710,
+        "license": "MIT"
       }
     },
     {
@@ -3761,7 +3855,8 @@
       "framework": [],
       "verification": "listed",
       "signals": {
-        "tool": "duf"
+        "tool": "duf",
+        "github_stars": 14916
       }
     },
     {
@@ -3772,7 +3867,9 @@
       "framework": [],
       "verification": "listed",
       "signals": {
-        "tool": "mcfly"
+        "tool": "mcfly",
+        "github_stars": 7657,
+        "license": "MIT"
       }
     },
     {

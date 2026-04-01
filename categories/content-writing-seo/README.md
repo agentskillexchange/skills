@@ -47,6 +47,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [write-good English Prose Linting for Technical Content](../../skills/write-good-english-prose-linting-technical-content/) | 5.1k | 51.5k/wk |
 | [proselint Prose Linting and Style Checker CLI](../../skills/proselint-prose-linting-style-checker-cli/) | 4.5k | — |
 | [Unlighthouse Site-Wide Lighthouse and SEO Auditing](../../skills/unlighthouse-site-wide-lighthouse-seo-auditing/) | 4.5k | 15.9k/wk |
+| [lychee Async Broken Link Checker for Websites and Documentation](../../skills/lychee-async-broken-link-checker/) | 3.5k | — |
 | [textlint Pluggable Natural Language Linter](../../skills/textlint-pluggable-natural-language-linter/) | 3.1k | 100.5k/wk |
 | [markdownlint-cli2 Markdown Linting for Docs and Repos](../../skills/markdownlint-cli2-markdown-linting-docs-repos/) | 740 | 546.9k/wk |
 | [schema-dts TypeScript Types for Schema.org Structured Data](../../skills/schema-dts-typescript-types-schemaorg-structured-data/) | — | 1.6M/wk |
@@ -72,7 +73,6 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [Jasper AI Long-Form Blog Post Generator](../../skills/jasper-longform-blog-generator/) | — | — |
 | [Keyword Cannibalization Detector](../../skills/keyword-cannibalization-detector/) | — | — |
 | [Keyword Cluster Generator](../../skills/keyword-cluster-generator-agent/) | — | — |
-| [lychee Async Broken Link Checker for Websites and Documentation](../../skills/lychee-async-broken-link-checker/) | — | — |
 | [Markdown-to-AMP Article Converter](../../skills/markdown-to-amp-article-converter/) | — | — |
 | [Marp CLI Markdown Presentation Converter and Slide Deck Generator](../../skills/marp-cli-markdown-presentation-converter/) | — | — |
 | [OpenSEO Self-Hosted Keyword Research and SEO Analysis Platform](../../skills/openseo-self-hosted-keyword-research-seo-analysis/) | — | — |

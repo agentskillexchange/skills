@@ -107,6 +107,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Metabase Dashboard Snapshot &amp; Alerting](../../skills/metabase-dashboard-snapshot-alerting-2/) | — | — |
 | [Miller CSV TSV JSON Data Processor](../../skills/miller-csv-tsv-json-data-processor/) | — | — |
 | [MinerU PDF-to-Markdown Document Parser](../../skills/mineru-pdf-to-markdown-document-parser/) | — | — |
+| [Orama Embeddable Search Engine and RAG Pipeline for JavaScript](../../skills/orama-embeddable-search-engine-rag-pipeline/) | — | — |
 | [Pandas DataFrame Pipeline Builder](../../skills/pandas-dataframe-pipeline-builder/) | — | — |
 | [Pandas DataFrame Pipeline Orchestrator](../../skills/pandas-dataframe-pipeline-orchestrator/) | — | — |
 | [Pandas DataFrame Schema Enforcer](../../skills/pandas-dataframe-schema-enforcer/) | — | — |

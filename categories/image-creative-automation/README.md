@@ -75,6 +75,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Midjourney Prompt Optimizer](../../skills/midjourney-prompt-optimizer-skill/) | — | — |
 | [OpenAI Image Gen](../../skills/openai-image-gen/) | — | — |
 | [OpenEXR HDR Compositing Pipeline](../../skills/openexr-hdr-compositing-pipeline/) | — | — |
+| [Penpot Open Source Design and Prototyping Platform](../../skills/penpot-open-source-design-prototyping/) | — | — |
 | [Pexels API Stock Photo Curator](../../skills/pexels-api-stock-photo-curator/) | — | — |
 | [Photoshop Batch Action Automator](../../skills/photoshop-batch-action-automator/) | — | — |
 | [Rive Runtime Animation Controller](../../skills/rive-runtime-animation-controller/) | — | — |

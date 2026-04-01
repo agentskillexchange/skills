@@ -4,14 +4,14 @@
 
 ### The open catalog of AI agent skills
 
-[![Published](https://img.shields.io/badge/published-1%2C546-6366f1?style=for-the-badge)](skills/)
+[![Published](https://img.shields.io/badge/published-1%2C552-6366f1?style=for-the-badge)](skills/)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/)
 [![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-1%2C503-10b981?style=for-the-badge)](verification/)
 [![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)
 
 **[Categories](categories/) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md) · [Submit a Skill](#submit-a-skill)**
 
-*1,546 published skills · 17 categories · Real ecosystem signals · Updated hourly*
+*1,552 published skills · 17 categories · Real ecosystem signals · Updated hourly*
 
 </div>
 
@@ -57,9 +57,9 @@ A hand-picked selection across categories. See [TOP-STARS.md](TOP-STARS.md) and 
 | [Playwright Cross-Browser Testing and Automation Framework](skills/playwright-cross-browser-testing-and-automation-framework/) | playwright | 85.3k | Browser Automation |
 | [vLLM High-Throughput LLM Serving Engine with PagedAttention](skills/vllm-high-throughput-llm-serving/) | vllm | 74.8k | Developer Tools |
 | [PaddleOCR Multilingual Document OCR and Structured Data Toolkit](skills/paddleocr-multilingual-document-ocr-toolkit/) | paddleocr | 73.7k | Data Extraction & Transformation |
+| [Strapi Open Source Headless CMS with REST and GraphQL APIs](skills/strapi-headless-cms-rest-graphql/) | strapi | 71.7k | WordPress & CMS |
 | [NocoDB Self-Hosted No-Code Database Platform with REST API](skills/nocodb-self-hosted-no-code-database-rest-api/) | nocodb | 62.6k | Integrations & Connectors |
 | [Rclone Cloud Storage Sync and Management CLI](skills/rclone-cloud-storage-sync-management-cli/) | rclone | 56.4k | Integrations & Connectors |
-| [Typst Markup-Based Document Typesetting System](skills/typst-markup-typesetting-system/) | typst | 52.4k | Content Writing & SEO |
 
 ---
 
@@ -67,18 +67,18 @@ A hand-picked selection across categories. See [TOP-STARS.md](TOP-STARS.md) and 
 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
-| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 182 | CLI tools, scaffolders, dev environment setup |
+| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 184 | CLI tools, scaffolders, dev environment setup |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 142 | Pipeline configs, deployment automation, build tooling |
-| 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 115 | ETL pipelines, parsing, format conversion |
+| 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 116 | ETL pipelines, parsing, format conversion |
 | 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 113 | Incident response, troubleshooting, system diagnostics |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 103 | Vulnerability scanning, auth setup, compliance |
-| 📚 | [**Library & API Reference**](categories/library-api-reference/) | 96 | SDK docs, API parsers, symbol resolvers |
+| 📚 | [**Library & API Reference**](categories/library-api-reference/) | 97 | SDK docs, API parsers, symbol resolvers |
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 92 | Linting, code review, test generators, coverage |
 | 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 90 | Metrics, alerting rules, observability |
-| 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 77 | Email automation, calendar management, task coordination |
+| 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 78 | Email automation, calendar management, task coordination |
 | 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 71 | Audio/video processing, speech-to-text |
+| 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 68 | Image generation, asset processing, design automation |
 | 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 68 | Scaffolders, boilerplate generators, workflow templates |
-| 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 67 | Image generation, asset processing, design automation |
 | 🔍 | [**Research & Scraping**](categories/research-scraping/) | 67 | Web research, content discovery, data collection |
 | 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 66 | Third-party API bridges, webhooks, service connectors |
 | 📰 | [**WordPress & CMS**](categories/wordpress-cms/) | 64 | Theme/plugin dev, WP-CLI automation, CMS management |
@@ -142,7 +142,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 1,546 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 1,552 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 1,503 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)
