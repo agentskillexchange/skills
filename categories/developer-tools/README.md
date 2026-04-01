@@ -98,6 +98,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [CircleCI MCP Server](../../skills/circleci-mcp-server/) | — | — |
 | [Claude Code MCP Bridge](../../skills/claude-code-mcp-bridge/) | — | — |
 | [Cloud Cost Analysis](../../skills/cloud-cost-analysis/) | — | — |
+| [Concurrently Parallel Command Runner for npm Scripts](../../skills/concurrently-parallel-command-runner/) | — | — |
 | [delta Syntax-Highlighting Git Diff Pager](../../skills/delta-syntax-highlighting-git-diff-pager/) | — | — |
 | [Desktop Commander MCP Server for Terminal and File Control](../../skills/desktop-commander-mcp-terminal-file-control/) | — | — |
 | [Devcontainer Setup Agent](../../skills/devcontainer-setup-agent/) | — | — |
@@ -161,6 +162,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Mise Dev Tool Version Manager](../../skills/mise-dev-tool-version-manager/) | — | — |
 | [mkcert Zero-Config Local Development TLS Certificate Generator](../../skills/mkcert-local-dev-tls-certificate-generator/) | — | — |
 | [Mockoon Local Mock API Server and CLI for API Development](../../skills/mockoon-mock-api-server-cli/) | — | — |
+| [Mods AI-Powered Command-Line LLM Interface by Charmbracelet](../../skills/mods-charmbracelet-ai-cli-llm/) | — | — |
 | [MongoDB MCP Server](../../skills/mongodb-mcp-server/) | — | — |
 | [MySQL Query Agent](../../skills/mysql-query-agent/) | — | — |
 | [n8n GitHub Issue-to-Jira Ticket Automator](../../skills/n8n-github-jira-ticket-automator/) | — | — |
@@ -176,6 +178,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [OpenAPI Spec Validator](../../skills/openapi-spec-validator-agent/) | — | — |
 | [OpenCode Multi-Model AI Coding Agent CLI](../../skills/opencode-multi-model-ai-coding-agent-cli/) | — | — |
 | [Package Vulnerability Scanner](../../skills/package-vuln-scanner-osv-api/) | — | — |
+| [pdfcpu Go PDF Processor and Manipulation CLI](../../skills/pdfcpu-go-pdf-processor-cli/) | — | — |
 | [pgcli Interactive PostgreSQL Client with Autocompletion](../../skills/pgcli-interactive-postgresql-client/) | — | — |
 | [pgroll PostgreSQL Zero-Downtime Schema Migration](../../skills/pgroll-postgresql-zero-downtime-schema-migration/) | — | — |
 | [Pixi Cross-Platform Package Manager Built on Conda](../../skills/pixi-cross-platform-package-manager-conda-rust/) | — | — |

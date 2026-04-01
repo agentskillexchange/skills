@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1552,
+  "total": 1555,
   "generated": "2026-04-01",
   "skills": [
+    {
+      "slug": "concurrently-parallel-command-runner",
+      "name": "Concurrently Parallel Command Runner for npm Scripts",
+      "description": "Concurrently runs multiple commands in parallel with color-coded output, prefix labels, and process lifecycle management. With 14M+ weekly npm downloads, it is the standard…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "pdfcpu-go-pdf-processor-cli",
+      "name": "pdfcpu Go PDF Processor and Manipulation CLI",
+      "description": "pdfcpu is a Go-based PDF processing library and CLI tool that handles validation, optimization, merging, splitting, watermarking, encryption, and form filling. It provides a…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "mods-charmbracelet-ai-cli-llm",
+      "name": "Mods AI-Powered Command-Line LLM Interface by Charmbracelet",
+      "description": "Mods is a CLI tool by Charmbracelet that pipes stdin directly to large language models. It enables AI-powered text processing, code review, commit message…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "mockoon-mock-api-server-cli",
       "name": "Mockoon Local Mock API Server and CLI for API Development",

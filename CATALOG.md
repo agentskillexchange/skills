@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1552 published skills** across **17 categories** · 1532 security reviewed · Updated 2026-04-01 09:27 UTC
+> **1555 published skills** across **17 categories** · 1532 security reviewed · Updated 2026-04-01 11:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (183 skills)
+### 🛠️ Developer Tools (186 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -72,6 +72,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [CircleCI MCP Server](skills/circleci-mcp-server/) | CircleCI MCP Server is built around CircleCI continuous integration platform. The underlying ecosystem is… | Security Reviewed | — | — |
 | [Claude Code MCP Bridge](skills/claude-code-mcp-bridge/) | Run Claude Code as a one-shot MCP tool so other agents and editors can delegate coding tasks to it. An… | Security Reviewed | — | — |
 | [Cloud Cost Analysis](skills/cloud-cost-analysis/) | Cloud Cost Analysis is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by… | Security Reviewed | — | — |
+| [Concurrently Parallel Command Runner for npm Scripts](skills/concurrently-parallel-command-runner/) | Concurrently runs multiple commands in parallel with color-coded output, prefix labels, and process lifecycle… | Published | — | — |
 | [delta Syntax-Highlighting Git Diff Pager](skills/delta-syntax-highlighting-git-diff-pager/) | A syntax-highlighting pager for git diff, grep, and blame output built in Rust. Provides word-level diff… | Security Reviewed | — | — |
 | [Desktop Commander MCP Server for Terminal and File Control](skills/desktop-commander-mcp-terminal-file-control/) | Desktop Commander is an MCP server that gives AI assistants terminal command execution, file system search,… | Security Reviewed | — | — |
 | [Devcontainer Setup Agent](skills/devcontainer-setup-agent/) | Devcontainer Setup Agent is built around Docker container platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
@@ -135,6 +136,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Mise Dev Tool Version Manager](skills/mise-dev-tool-version-manager/) | Use mise (mise-en-place) to manage development tool versions, environment variables, and task running from a single… | Published | — | — |
 | [mkcert Zero-Config Local Development TLS Certificate Generator](skills/mkcert-local-dev-tls-certificate-generator/) | mkcert is a zero-configuration CLI tool by Filippo Valsorda that creates locally-trusted development certificates.… | Security Reviewed | — | — |
 | [Mockoon Local Mock API Server and CLI for API Development](skills/mockoon-mock-api-server-cli/) | Mockoon is the fastest way to run mock REST APIs locally. It provides a desktop application and a CLI for creating… | Published | — | — |
+| [Mods AI-Powered Command-Line LLM Interface by Charmbracelet](skills/mods-charmbracelet-ai-cli-llm/) | Mods is a CLI tool by Charmbracelet that pipes stdin directly to large language models. It enables AI-powered text… | Published | — | — |
 | [MongoDB MCP Server](skills/mongodb-mcp-server/) | MongoDB MCP Server is built around MongoDB document database. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 | [MySQL Query Agent](skills/mysql-query-agent/) | MySQL Query Agent is built around MySQL relational database. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 | [n8n GitHub Issue-to-Jira Ticket Automator](skills/n8n-github-jira-ticket-automator/) | Deploys an n8n workflow via the n8n REST API using the GitHub Trigger node to capture new issue events and transform… | Security Reviewed | — | — |
@@ -150,6 +152,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [OpenAPI Spec Validator](skills/openapi-spec-validator-agent/) | Validates and lints OpenAPI 3.0/3.1 specifications using Spectral CLI rules and the Swagger Parser library. Detects… | Security Reviewed | — | — |
 | [OpenCode Multi-Model AI Coding Agent CLI](skills/opencode-multi-model-ai-coding-agent-cli/) | An open-source terminal-native AI coding agent written in Go that supports 75+ LLMs including Claude, GPT, Gemini,… | Security Reviewed | — | — |
 | [Package Vulnerability Scanner](skills/package-vuln-scanner-osv-api/) | Scans npm, PyPI, and Go module dependencies for known vulnerabilities using the OSV.dev API and GitHub Advisory… | Security Reviewed | — | — |
+| [pdfcpu Go PDF Processor and Manipulation CLI](skills/pdfcpu-go-pdf-processor-cli/) | pdfcpu is a Go-based PDF processing library and CLI tool that handles validation, optimization, merging, splitting,… | Published | — | — |
 | [pgcli Interactive PostgreSQL Client with Autocompletion](skills/pgcli-interactive-postgresql-client/) | pgcli is an interactive PostgreSQL CLI with context-aware autocompletion, syntax highlighting, and multi-line query… | Security Reviewed | — | — |
 | [pgroll PostgreSQL Zero-Downtime Schema Migration](skills/pgroll-postgresql-zero-downtime-schema-migration/) | pgroll is an open-source CLI tool by Xata that performs zero-downtime, reversible schema migrations for PostgreSQL.… | Security Reviewed | — | — |
 | [Pixi Cross-Platform Package Manager Built on Conda](skills/pixi-cross-platform-package-manager-conda-rust/) | A blazing-fast, cross-platform package manager and workflow tool written in Rust. Pixi builds on the Conda ecosystem… | Security Reviewed | — | — |
