@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1561 published skills** across **17 categories** · 1532 security reviewed · Updated 2026-04-01 15:26 UTC
+> **1564 published skills** across **17 categories** · 1532 security reviewed · Updated 2026-04-01 17:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (186 skills)
+### 🛠️ Developer Tools (189 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -73,6 +73,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Claude Code MCP Bridge](skills/claude-code-mcp-bridge/) | Run Claude Code as a one-shot MCP tool so other agents and editors can delegate coding tasks to it. An… | Security Reviewed | — | — |
 | [Cloud Cost Analysis](skills/cloud-cost-analysis/) | Cloud Cost Analysis is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 | [Concurrently Parallel Command Runner for npm Scripts](skills/concurrently-parallel-command-runner/) | Concurrently runs multiple commands in parallel with color-coded output, prefix labels, and process lifecycle… | Published | — | — |
+| [Coolify Open Source Self-Hosted PaaS for Application Deployment](skills/coolify-self-hosted-paas-deployment-2/) | Coolify is an open-source, self-hostable PaaS alternative to Heroku, Vercel, and Netlify. It lets you deploy static… | Published | — | — |
 | [delta Syntax-Highlighting Git Diff Pager](skills/delta-syntax-highlighting-git-diff-pager/) | A syntax-highlighting pager for git diff, grep, and blame output built in Rust. Provides word-level diff… | Security Reviewed | — | — |
 | [Desktop Commander MCP Server for Terminal and File Control](skills/desktop-commander-mcp-terminal-file-control/) | Desktop Commander is an MCP server that gives AI assistants terminal command execution, file system search,… | Security Reviewed | — | — |
 | [Devcontainer Setup Agent](skills/devcontainer-setup-agent/) | Devcontainer Setup Agent is built around Docker container platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
@@ -147,6 +148,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Notion Workspace Agent](skills/notion-workspace-agent/) | Notion Workspace Agent is built around Notion workspace and database platform. The underlying ecosystem is… | Security Reviewed | — | — |
 | [NPM Package Auditor](skills/npm-package-auditor-registry-api/) | Audits NPM packages using the NPM Registry API with dependency tree resolution and vulnerability scanning via… | Security Reviewed | — | — |
 | [Obsidian Vault Manager](skills/obsidian-vault-manager/) | Obsidian Vault Manager is built around HashiCorp Vault secrets platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
+| [Open WebUI Self-Hosted AI Interface for LLMs](skills/open-webui-self-hosted-ai-interface/) | Open WebUI is an extensible, feature-rich, and user-friendly self-hosted AI platform designed to operate entirely… | Published | — | — |
 | [OpenAI Agents SDK Multi-Agent Workflow Framework for Python](skills/openai-agents-sdk-python-multi-agent/) | The OpenAI Agents SDK is a lightweight Python framework for building multi-agent workflows. It supports 100+ LLMs,… | Security Reviewed | — | — |
 | [OpenAI MCP Server](skills/openai-mcp-server/) | OpenAI MCP Server is built around OpenAI API platform. The underlying ecosystem is represented by openai/openai-node… | Security Reviewed | — | — |
 | [OpenAPI Spec Validator](skills/openapi-spec-validator-agent/) | Validates and lints OpenAPI 3.0/3.1 specifications using Spectral CLI rules and the Swagger Parser library. Detects… | Security Reviewed | — | — |
@@ -198,6 +200,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Webpack Bundle Analyzer Agent](skills/webpack-bundle-analyzer-agent/) | Analyzes webpack bundle composition using webpack-bundle-analyzer and source-map-explorer APIs. Identifies duplicate… | Security Reviewed | — | — |
 | [Wrangler Cloudflare Workers CLI for Edge Deployment](skills/wrangler-cloudflare-workers-cli-edge-deployment/) | Wrangler is the official command-line tool for building, testing, and deploying Cloudflare Workers. It provides a… | Security Reviewed | — | — |
 | [Yazi Async Terminal File Manager](skills/yazi-async-terminal-file-manager/) | Yazi is a blazing-fast terminal file manager written in Rust with async I/O, image previews, Vim keybindings, and a… | Security Reviewed | — | — |
+| [Zed High-Performance Multiplayer Code Editor](skills/zed-high-performance-multiplayer-code-editor/) | Zed is a high-performance, multiplayer code editor built in Rust by the creators of Atom and Tree-sitter. It… | Published | — | — |
 | [Zellij Terminal Workspace and Multiplexer](skills/zellij-terminal-workspace-multiplexer/) | Zellij is a Rust-powered terminal workspace and multiplexer with floating panes, WebAssembly plugins, layout… | Security Reviewed | — | — |
 | [zoxide Smart Directory Navigation CLI](skills/zoxide-smart-directory-navigation-cli/) | A smarter cd command written in Rust, inspired by z and autojump. zoxide learns your most-used directories and lets… | Security Reviewed | — | — |
 

@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1561,
+  "total": 1564,
   "generated": "2026-04-01",
   "skills": [
+    {
+      "slug": "zed-high-performance-multiplayer-code-editor",
+      "name": "Zed High-Performance Multiplayer Code Editor",
+      "description": "Zed is a high-performance, multiplayer code editor built in Rust by the creators of Atom and Tree-sitter. It features native AI integration, real-time collaboration,…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "coolify-self-hosted-paas-deployment-2",
+      "name": "Coolify Open Source Self-Hosted PaaS for Application Deployment",
+      "description": "Coolify is an open-source, self-hostable PaaS alternative to Heroku, Vercel, and Netlify. It lets you deploy static sites, databases, full-stack applications, and 280+ one-click…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "open-webui-self-hosted-ai-interface",
+      "name": "Open WebUI Self-Hosted AI Interface for LLMs",
+      "description": "Open WebUI is an extensible, feature-rich, and user-friendly self-hosted AI platform designed to operate entirely offline. It supports various LLM runners like Ollama and…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "plunk-open-source-email-platform-aws-ses",
       "name": "Plunk Open Source Transactional Email Platform on AWS SES",

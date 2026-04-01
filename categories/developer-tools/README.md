@@ -99,6 +99,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Claude Code MCP Bridge](../../skills/claude-code-mcp-bridge/) | — | — |
 | [Cloud Cost Analysis](../../skills/cloud-cost-analysis/) | — | — |
 | [Concurrently Parallel Command Runner for npm Scripts](../../skills/concurrently-parallel-command-runner/) | — | — |
+| [Coolify Open Source Self-Hosted PaaS for Application Deployment](../../skills/coolify-self-hosted-paas-deployment-2/) | — | — |
 | [delta Syntax-Highlighting Git Diff Pager](../../skills/delta-syntax-highlighting-git-diff-pager/) | — | — |
 | [Desktop Commander MCP Server for Terminal and File Control](../../skills/desktop-commander-mcp-terminal-file-control/) | — | — |
 | [Devcontainer Setup Agent](../../skills/devcontainer-setup-agent/) | — | — |
@@ -173,6 +174,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Notion Workspace Agent](../../skills/notion-workspace-agent/) | — | — |
 | [NPM Package Auditor](../../skills/npm-package-auditor-registry-api/) | — | — |
 | [Obsidian Vault Manager](../../skills/obsidian-vault-manager/) | — | — |
+| [Open WebUI Self-Hosted AI Interface for LLMs](../../skills/open-webui-self-hosted-ai-interface/) | — | — |
 | [OpenAI Agents SDK Multi-Agent Workflow Framework for Python](../../skills/openai-agents-sdk-python-multi-agent/) | — | — |
 | [OpenAI MCP Server](../../skills/openai-mcp-server/) | — | — |
 | [OpenAPI Spec Validator](../../skills/openapi-spec-validator-agent/) | — | — |
@@ -224,6 +226,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Webpack Bundle Analyzer Agent](../../skills/webpack-bundle-analyzer-agent/) | — | — |
 | [Wrangler Cloudflare Workers CLI for Edge Deployment](../../skills/wrangler-cloudflare-workers-cli-edge-deployment/) | — | — |
 | [Yazi Async Terminal File Manager](../../skills/yazi-async-terminal-file-manager/) | — | — |
+| [Zed High-Performance Multiplayer Code Editor](../../skills/zed-high-performance-multiplayer-code-editor/) | — | — |
 | [Zellij Terminal Workspace and Multiplexer](../../skills/zellij-terminal-workspace-multiplexer/) | — | — |
 | [zoxide Smart Directory Navigation CLI](../../skills/zoxide-smart-directory-navigation-cli/) | — | — |
 
