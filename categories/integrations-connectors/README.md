@@ -98,6 +98,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Stripe Reporting Agent](../../skills/stripe-reporting-agent/) | — | — |
 | [Stripe Revenue Reconciliation Agent](../../skills/stripe-revenue-reconciliation-agent/) | — | — |
 | [Terraform Cloud Run Inspector](../../skills/terraform-cloud-run-inspector-2/) | — | — |
+| [Tolgee Open Source Localization and i18n Platform](../../skills/tolgee-localization-i18n-platform/) | — | — |
 | [Twilio MCP Server](../../skills/twilio-mcp-server/) | — | — |
 | [Twilio Programmable SMS Gateway](../../skills/twilio-programmable-sms-gateway/) | — | — |
 | [Twilio Programmable Voice Router](../../skills/twilio-programmable-voice-router-2/) | — | — |

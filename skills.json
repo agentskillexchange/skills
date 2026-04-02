@@ -1,8 +1,56 @@
 {
   "version": "2.0",
-  "total": 1601,
+  "total": 1605,
   "generated": "2026-04-02",
   "skills": [
+    {
+      "slug": "hanko-passkey-authentication-platform",
+      "name": "Hanko Open Source Passkey Authentication and User Management",
+      "description": "Hanko is an open-source authentication and user management platform built on passkeys and WebAuthn. It provides a drop-in authentication solution as an alternative to…",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "docuseal-document-signing-pdf-forms",
+      "name": "DocuSeal Open Source Document Signing and PDF Form Platform",
+      "description": "DocuSeal is an open-source DocuSign alternative for creating, filling, and signing digital documents. It provides a WYSIWYG PDF form builder with 12 field types,…",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "tolgee-localization-i18n-platform",
+      "name": "Tolgee Open Source Localization and i18n Platform",
+      "description": "Tolgee is an open-source localization platform that lets developers and translators manage translations through in-context editing, machine translation integration, and SDKs for React, Vue,…",
+      "category": [
+        "Integrations & Connectors"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "markuplint-html-linter",
+      "name": "markuplint HTML Linter for All Markup Developers",
+      "description": "markuplint is a comprehensive HTML linter designed for all markup developers. It enforces accessibility, spec compliance, and best practices across HTML, JSX, Vue, Svelte,…",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "casdoor-open-source-iam-auth-platform",
       "name": "Casdoor Open Source Identity and Access Management Platform",

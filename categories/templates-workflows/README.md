@@ -49,6 +49,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [DigitalOcean Droplet Manager](../../skills/digitalocean-droplet-manager/) | — | — |
 | [Docker Compose Service Blueprint Creator](../../skills/docker-compose-service-blueprint-creator/) | — | — |
 | [Docker Compose Test Harness](../../skills/docker-compose-test-harness/) | — | — |
+| [DocuSeal Open Source Document Signing and PDF Form Platform](../../skills/docuseal-document-signing-pdf-forms/) | — | — |
 | [Fly.io Deployment Helper](../../skills/fly-io-deployment-helper/) | — | — |
 | [GitHub Actions Workflow Composer](../../skills/github-actions-workflow-composer-2/) | — | — |
 | [GrapesJS Open Source Web Builder and Template Design Framework](../../skills/grapesjs-web-builder-template-framework/) | — | — |
