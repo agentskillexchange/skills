@@ -4,7 +4,7 @@ description: "Zed is a high-performance, multiplayer code editor built in Rust b
 category: "Developer Tools"
 compatible_frameworks: ["Multi-Framework"]
 source: "https://github.com/zed-industries/zed"
-verification: listed
+verification: security_reviewed
 ---
 
 # Zed High-Performance Multiplayer Code Editor

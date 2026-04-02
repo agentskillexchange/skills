@@ -4,7 +4,7 @@ description: "Open WebUI is an extensible, feature-rich, and user-friendly self-
 category: "Developer Tools"
 compatible_frameworks: ["Multi-Framework"]
 source: "https://github.com/open-webui/open-webui"
-verification: listed
+verification: security_reviewed
 ---
 
 # Open WebUI Self-Hosted AI Interface for LLMs

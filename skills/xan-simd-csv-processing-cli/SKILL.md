@@ -4,7 +4,7 @@ description: "xan is a high-performance command-line tool for processing CSV fil
 category: "Data Extraction & Transformation"
 framework: "Multi-Framework"
 source: "https://github.com/medialab/xan"
-verification: "listed"
+verification: security_reviewed
 ---
 
 # xan SIMD-Powered CSV Processing and Analysis CLI

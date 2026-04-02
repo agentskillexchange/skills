@@ -2,7 +2,7 @@
 name: "Ollama Local LLM Runner and Model Server"
 description: "Ollama is an open-source tool for running large language models locally on your own hardware. With a single command, you can download and interact with open-weight models without sending data to external APIs. Ollama handles model management, quantization, GPU acceleration, and provides both a CLI chat interface and a REST API compatible with the OpenAI API format."
 category: "Developer Tools"
-verification: listed
+verification: security_reviewed
 source: "https://github.com/ollama/ollama"
 tool_ecosystem:
   tool: ollama
