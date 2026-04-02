@@ -100,6 +100,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [PagerDuty Incident Orchestrator](../../skills/pagerduty-incident-orchestrator-2/) | — | — |
 | [PagerDuty Incident Runbook Linker](../../skills/pagerduty-incident-runbook-linker/) | — | — |
 | [PagerDuty MCP Server](../../skills/pagerduty-mcp-server/) | — | — |
+| [PM2 Node.js Production Process Manager with Load Balancing](../../skills/pm2-nodejs-production-process-manager/) | — | — |
 | [Prometheus / Grafana MCP Server](../../skills/prometheus-grafana-mcp-server/) | — | — |
 | [Prometheus Alert Router](../../skills/prometheus-alert-router/) | — | — |
 | [Prometheus Alert Rule Builder](../../skills/prometheus-alert-rule-builder/) | — | — |

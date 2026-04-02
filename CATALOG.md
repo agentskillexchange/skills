@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1611 published skills** across **17 categories** · 1561 security reviewed · Updated 2026-04-02 15:35 UTC
+> **1614 published skills** across **17 categories** · 1561 security reviewed · Updated 2026-04-02 17:34 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -835,7 +835,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Zod Schema Generator](skills/zod-schema-generator/) | Converts JSON samples, TypeScript interfaces, and OpenAPI specs into Zod validation schemas. Uses ts-morph for AST… | Security Reviewed | — | — |
 
 
-### ✅ Code Quality & Review (93 skills)
+### ✅ Code Quality & Review (94 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -892,6 +892,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Jenkins Pipeline Code Review Agent](skills/jenkins-pipeline-code-review-agent/) | Reviews Jenkinsfile and Groovy pipeline scripts for anti-patterns, security issues, and performance bottlenecks… | Security Reviewed | — | — |
 | [Jest Unit Test Scaffolder](skills/jest-unit-test-scaffolder/) | Jest Unit Test Scaffolder is built around Jest JavaScript test framework. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 | [markuplint HTML Linter for All Markup Developers](skills/markuplint-html-linter/) | markuplint is a comprehensive HTML linter designed for all markup developers. It enforces accessibility, spec… | Published | — | — |
+| [Nock HTTP Server Mocking and Expectations Library for Node.js](skills/nock-http-server-mocking-nodejs/) | Nock is an HTTP server mocking and expectations library for Node.js that intercepts outgoing HTTP requests and… | Published | — | — |
 | [PHPStan Static Analyzer Agent](skills/phpstan-static-analyzer-agent/) | Performs PHP static analysis using PHPStan CLI at rule levels 0-9 with custom extensions. Detects type errors, dead… | Security Reviewed | — | — |
 | [Playwright Test Recorder](skills/playwright-test-recorder/) | Playwright Test Recorder is built around Playwright browser automation framework. The underlying ecosystem is… | Security Reviewed | — | — |
 | [Prettier Config Conflict Resolver](skills/prettier-config-conflict-resolver/) | Detects and resolves conflicts between Prettier, ESLint, and EditorConfig formatting rules using the Prettier… | Security Reviewed | — | — |
@@ -936,7 +937,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Storybook Component Tester](skills/storybook-component-tester/) | Storybook Component Tester is built around Storybook component workshop. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 
 
-### 📊 Monitoring & Alerts (91 skills)
+### 📊 Monitoring & Alerts (92 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=downloads)
 
@@ -1010,6 +1011,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [PagerDuty Incident Orchestrator](skills/pagerduty-incident-orchestrator-2/) | Manages PagerDuty incident lifecycle using the PagerDuty Events API v2 and REST API. Automates escalation policies,… | Security Reviewed | — | — |
 | [PagerDuty Incident Runbook Linker](skills/pagerduty-incident-runbook-linker/) | Automatically links PagerDuty incidents to relevant runbooks using the PagerDuty Events API v2 and service… | Security Reviewed | — | — |
 | [PagerDuty MCP Server](skills/pagerduty-mcp-server/) | PagerDuty MCP Server is built around PagerDuty incident response platform. The underlying ecosystem is represented… | Security Reviewed | — | — |
+| [PM2 Node.js Production Process Manager with Load Balancing](skills/pm2-nodejs-production-process-manager/) | PM2 is a production-grade process manager for Node.js and Bun applications with a built-in load balancer. With over… | Published | — | — |
 | [Prometheus / Grafana MCP Server](skills/prometheus-grafana-mcp-server/) | Prometheus / Grafana MCP Server is built around Grafana visualization and alerting platform. The underlying… | Security Reviewed | — | — |
 | [Prometheus Alert Router](skills/prometheus-alert-router/) | Routes and escalates Prometheus AlertManager notifications based on severity and label matchers. Integrates with… | Security Reviewed | — | — |
 | [Prometheus Alert Rule Builder](skills/prometheus-alert-rule-builder/) | Creates and validates Prometheus alerting rules using PromQL expressions and the Prometheus HTTP API. Configures… | Security Reviewed | — | — |
@@ -1124,7 +1126,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Todoist Sync API Task Orchestrator](skills/todoist-sync-api-task-orchestrator/) | Orchestrates complex task workflows using the Todoist Sync API v9 with incremental sync via sync_token. Uses… | Security Reviewed | — | — |
 
 
-### 🎙️ Media & Transcription (71 skills)
+### 🎙️ Media & Transcription (72 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&sort=downloads)
 
@@ -1182,6 +1184,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Medi
 | [FFmpeg Clip Extractor](skills/ffmpeg-clip-extractor-agent/) | Extracts video clips and segments using FFmpeg libavformat and libavcodec APIs. Supports keyframe-accurate cutting… | Security Reviewed | — | — |
 | [GStreamer Live Stream Transcoder](skills/gstreamer-live-stream-transcoder/) | Builds GStreamer pipelines for real-time video transcoding with NVENC/VA-API hardware acceleration. Supports… | Security Reviewed | — | — |
 | [GStreamer Pipeline Graph Optimizer](skills/gstreamer-pipeline-graph-optimizer/) | Analyzes and optimizes GStreamer media pipelines by parsing DOT graph dumps from GST_DEBUG_DUMP_DOT_DIR, profiling… | Security Reviewed | — | — |
+| [Howler.js Cross-Browser JavaScript Audio Library](skills/howlerjs-cross-browser-javascript-audio-library/) | Howler.js is a JavaScript audio library for the modern web that defaults to the Web Audio API with an HTML5 Audio… | Published | — | — |
 | [Live Stream Audio Monitor](skills/live-stream-audio-monitor/) | Monitors live audio streams from RTMP, HLS, or Icecast sources using FFmpeg stream capture and real-time chunked… | Security Reviewed | — | — |
 | [Live Stream Clip Extractor](skills/live-stream-clip-extractor-agent/) | Extracts highlight clips from live streams using Twitch Helix API, YouTube Live Streaming API, and FFmpeg segment… | Security Reviewed | — | — |
 | [MediaInfo Metadata Extractor](skills/mediainfo-metadata-extractor/) | Extracts comprehensive media metadata using the MediaInfo library and pymediainfo Python bindings. Analyzes… | Security Reviewed | — | — |

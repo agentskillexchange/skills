@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1611,
+  "total": 1614,
   "generated": "2026-04-02",
   "skills": [
+    {
+      "slug": "pm2-nodejs-production-process-manager",
+      "name": "PM2 Node.js Production Process Manager with Load Balancing",
+      "description": "PM2 is a production-grade process manager for Node.js and Bun applications with a built-in load balancer. With over 42,000 GitHub stars and millions of…",
+      "category": [
+        "Monitoring & Alerts"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "howlerjs-cross-browser-javascript-audio-library",
+      "name": "Howler.js Cross-Browser JavaScript Audio Library",
+      "description": "Howler.js is a JavaScript audio library for the modern web that defaults to the Web Audio API with an HTML5 Audio fallback. With nearly…",
+      "category": [
+        "Media & Transcription"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "nock-http-server-mocking-nodejs",
+      "name": "Nock HTTP Server Mocking and Expectations Library for Node.js",
+      "description": "Nock is an HTTP server mocking and expectations library for Node.js that intercepts outgoing HTTP requests and provides programmable responses. With over 13,000 GitHub…",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "ntopng-web-based-network-traffic-monitoring-security",
       "name": "ntopng Web-Based Network Traffic Monitoring and Security Analysis",

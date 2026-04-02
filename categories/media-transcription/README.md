@@ -83,6 +83,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [FFmpeg Clip Extractor](../../skills/ffmpeg-clip-extractor-agent/) | — | — |
 | [GStreamer Live Stream Transcoder](../../skills/gstreamer-live-stream-transcoder/) | — | — |
 | [GStreamer Pipeline Graph Optimizer](../../skills/gstreamer-pipeline-graph-optimizer/) | — | — |
+| [Howler.js Cross-Browser JavaScript Audio Library](../../skills/howlerjs-cross-browser-javascript-audio-library/) | — | — |
 | [Live Stream Audio Monitor](../../skills/live-stream-audio-monitor/) | — | — |
 | [Live Stream Clip Extractor](../../skills/live-stream-clip-extractor-agent/) | — | — |
 | [MediaInfo Metadata Extractor](../../skills/mediainfo-metadata-extractor/) | — | — |

@@ -84,6 +84,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Jenkins Pipeline Code Review Agent](../../skills/jenkins-pipeline-code-review-agent/) | — | — |
 | [Jest Unit Test Scaffolder](../../skills/jest-unit-test-scaffolder/) | — | — |
 | [markuplint HTML Linter for All Markup Developers](../../skills/markuplint-html-linter/) | — | — |
+| [Nock HTTP Server Mocking and Expectations Library for Node.js](../../skills/nock-http-server-mocking-nodejs/) | — | — |
 | [PHPStan Static Analyzer Agent](../../skills/phpstan-static-analyzer-agent/) | — | — |
 | [Playwright Test Recorder](../../skills/playwright-test-recorder/) | — | — |
 | [Prettier Config Conflict Resolver](../../skills/prettier-config-conflict-resolver/) | — | — |
