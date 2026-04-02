@@ -3,9 +3,6 @@ name: "Django Python Web Framework"
 description: "Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of web development so yo"
 source: "https://github.com/django/django"
 verification: listed
-tool_ecosystem:
-  github_repo: "django/django"
-  github_stars: 82000
 ---
 
 # Django Python Web Framework

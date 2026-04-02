@@ -3,9 +3,6 @@ name: "Flask Lightweight Python Web Framework"
 description: "Flask is a lightweight WSGI web application framework in Python. It is designed to make getting started quick and easy, with the ability to scale up to complex applications. It began as a simple wrapp"
 source: "https://github.com/pallets/flask"
 verification: listed
-tool_ecosystem:
-  github_repo: "pallets/flask"
-  github_stars: 68000
 ---
 
 # Flask Lightweight Python Web Framework

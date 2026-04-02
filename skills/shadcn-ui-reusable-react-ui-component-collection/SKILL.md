@@ -3,9 +3,6 @@ name: "shadcn/ui Re-usable React UI Component Collection"
 description: "shadcn/ui is a collection of re-usable, accessible, and customizable UI components built with Radix UI and Tailwind CSS. Unlike traditional component libraries, shadcn/ui components are copied directl"
 source: "https://github.com/shadcn-ui/ui"
 verification: listed
-tool_ecosystem:
-  github_repo: "shadcn-ui/ui"
-  github_stars: 82000
 ---
 
 # shadcn/ui Re-usable React UI Component Collection

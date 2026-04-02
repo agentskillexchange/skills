@@ -3,9 +3,6 @@ name: "Angular TypeScript Web Application Framework"
 description: "Angular is a TypeScript-based open-source web application framework led by the Angular Team at Google. It provides a comprehensive platform for building scalable, enterprise-grade single-page applicat"
 source: "https://github.com/angular/angular"
 verification: listed
-tool_ecosystem:
-  github_repo: "angular/angular"
-  github_stars: 96000
 ---
 
 # Angular TypeScript Web Application Framework

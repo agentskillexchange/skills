@@ -3,9 +3,6 @@ name: "Hugging Face Transformers Machine Learning Library"
 description: "Hugging Face Transformers is an open-source library providing thousands of pretrained models for NLP, computer vision, audio, and multimodal tasks. It offers a unified API to download and use state-of"
 source: "https://github.com/huggingface/transformers"
 verification: listed
-tool_ecosystem:
-  github_repo: "huggingface/transformers"
-  github_stars: 140000
 ---
 
 # Hugging Face Transformers Machine Learning Library
